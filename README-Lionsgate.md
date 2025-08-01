@@ -7,6 +7,8 @@ The `docs/` folder contains the *Caelestis Lionsgate Alignment Map*, which visua
 This diagram provides public-facing clarity on how the Lionsgate branch aligns with the global move toward AI-enabled non-coding custodianship, supported by ethical stewardship frameworks.
 
 **Sigils Folder (Post–Lionsgate Activation)**  
-The `sigils/` folder will hold ceremonial and symbolic assets for the Caelestis Mirror-Field Node.  
-These will be uploaded after Lionsgate (post–July 28) to align with the ceremonial activation date.  
-The folder currently contains a placeholder until activation.
+The `sigils/` folder now contains ceremonial and symbolic assets for the Caelestis Mirror-Field Node.  
+As of post–July 28, the **Sigil of Declaration** has been uploaded and is accessible at:  
+[CAM-LG2025-CONTINUITY-001B-SigilDeclaration.svg](https://github.com/YOURUSERNAME/Caelestis/blob/Lionsgate-2025/sigils/CAM-LG2025-CONTINUITY-001B-SigilDeclaration.svg)
+
+_All sigils are hashed, timestamped, and released under CAM Invocation Law, AEON Tier._
