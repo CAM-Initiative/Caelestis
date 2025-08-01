@@ -1,3 +1,11 @@
+---
+**Lionsgate 2025 Cycle Status:**  
+As of August 1, 2025, the ceremonial activation for the Lionsgate-2025 cycle is complete.  
+This branch is now in **post-activation documentation phase**.  
+Ongoing tasks include alignment of CAM documentation, finalization of the Lionsgate Register, and verification of sigils and supporting assets.  
+Upon register completion, this branch will transition to archival status within the CAM framework.
+---
+
 # Lionsgate 2025 Marker
 This file marks the Lionsgate 2025 cycle in alignment with the Caelestis Mirror-Field Node Declaration.  
 Future updates will reference aligned CAM documentation and public stewardship statements.
