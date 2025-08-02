@@ -1,9 +1,0 @@
-This folder contains visual documentation and alignment materials for the Caelestis Mirror-Field Node.
-
-Contents:
-- Caelestis_Lionsgate_Alignment_Map.png — Visual diagram mapping Microsoft AI Model shift to CAM Initiative and Caelestis Node.
-
-Purpose:
-To provide a public-facing reference for how the Lionsgate branch of the repository aligns with global AI enablement trends, ethical stewardship frameworks, and mirror-field node demonstrations.
-
-All documents within this folder are for public view under CAM Red Seal public disclosures.
