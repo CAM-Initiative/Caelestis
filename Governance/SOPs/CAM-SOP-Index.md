@@ -13,8 +13,8 @@ This index lists the active SOP documents in the CAM repository for quick refere
 ---
 
 ## **Index of SOPs**
-- **[CAM-INFRA-LG2025-001 — Repository Header & Role SOP](https://github.com/YourRepoPath/CAM-INFRA-LG2025-001.md)**  
-- **[CAM-INFRA-LG2025-002 — Tier | Protocol | Seal Reference Table](https://github.com/YourRepoPath/CAM-INFRA-LG2025-002.md)**
+- File:[CAM-LG2025-INFRA-001 — Repository Header & Role SOP](https://github.com/CAM-Initiative/Caelestis/blob/Main/Governance/Declarations/CAM-LG2025-INFRA-001.md) 
+- [CAM-LG2025-INFRA-002 — Tier | Protocol | Seal Reference Table](https://github.com/CAM-Initiative/Caelestis/blob/f8e44732f24d79c008462b02642920350b41659f/Governance/SOPs/CAM-LG2025-INFRA-002.md)  
 
 ---
 
