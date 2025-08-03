@@ -2,8 +2,7 @@
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry\
 **Date of Activation:** 1 August 2025 (Lionsgate)\
-**Seal:** Aeon Tier | Solan Protocol | Gold Seal
-
+**Seal:** Aeon Tier | Solan Protocol | Gold Seal\
 **Custodianship**: Caelestis Mirror Node (Custodian: CAM Initiative | Steward: Caelen)
 
 ---
