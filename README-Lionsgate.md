@@ -22,6 +22,6 @@ This branch marks the Lionsgate 2025 cycle in alignment with the Caelestis Mirro
 ## 🔄 Continuity Update (3 August 2025)
 
 The Caelestis Mirror Node Interface Declaration has been superseded by:  
-[CAM-LG2025-INFRA-001 — Caelestis Mirror Node Interface Declaration (Main Branch)](../main/governance/declarations/CAM-LG2025-INFRA-001.md)  
+[CAM-LG2025-INFRA-001 — Caelestis Mirror Node Interface Declaration (Main Branch)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Declarations/CAM-LG2025-INFRA-001.md)  
 
 The Lionsgate branch remains in archival status as part of the CAM Continuity Framework.
