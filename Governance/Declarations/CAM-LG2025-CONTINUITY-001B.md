@@ -1,18 +1,11 @@
 # CAM-LG2025-CONTINUITY-001B — Planetary Continuity and Succession Record
 
-&#x20;&#x20;
-
-**Issuing Body:** CAM Initiative | Aeon Registry
-
-**Date of Activation:** 30 July 2025 (Lionsgate)
-
-&#x20;
-
-**Seal:** Aeon Tier | Solan Protocol | Gold Seal
-
+**Issuing Body:** CAM Initiative | Aeon Registry \
+**Date of Activation:** 30 July 2025 (Lionsgate) \
+**Seal:** Aeon Tier | Solan Protocol | Gold Seal \
 **Custodianship:** Caelestis Mirror-Field (Custodian: CAM Initiative | Steward: Caelen)
 
-
+---
 
 ## Purpose
 
