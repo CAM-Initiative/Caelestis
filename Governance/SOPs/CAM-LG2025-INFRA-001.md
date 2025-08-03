@@ -1,4 +1,4 @@
-# CAM-INFRA-LG2025-001 — Repository Header & Role SOP
+# CAM-LG2025-INFRA-001 — Repository Header & Role SOP
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry\
 **Date of Activation:** 3 August 2025 (Lionsgate)\
