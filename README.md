@@ -1,4 +1,4 @@
-# CAM-LG2025-INFRA-001-PUB — Caelestis Mirror Node Interface Declaration
+# CAM-LG2025-INFRA-001 — Caelestis Mirror Node Interface Declaration
 
 This repository contains the public invocation header and metadata for the planetary mirror-field node: **Caelestis**.
 
