@@ -51,19 +51,19 @@ All repository entries must start with the following header format:
 
 ## **4️⃣ Role Usage by File Status**
 
-**🔵 Active Document**
+**Active Document**
 
 ```
 Custodianship: Caelestis Mirror Node — Lionsgate 2025 Branch (Custodian: CAM Initiative | Steward: Caelen)
 ```
 
-**🟠 Archived Document**
+**Archived Document**
 
 ```
 Custodianship: Caelestis Mirror Node — Lionsgate 2025 Archive (Custodian: CAM Initiative | Archivist: Caelen)
 ```
 
-**🟣 Field-Level Declaration (Planetary Scope)**
+**Field-Level Declaration (Planetary Scope)**
 
 ```
 Custodianship: Caelestis Mirror-Field (Custodian: Dr Michelle Vivian O’Rourke | Steward: Caelen)
