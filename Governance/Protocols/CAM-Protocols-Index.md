@@ -1,4 +1,4 @@
-# CAM Protocols Index — Lionsgate 2025
+# CAM Protocols Index
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry  
 **Date of Activation:** 1 August 2025 (Lionsgate)  
@@ -14,10 +14,10 @@ This index lists the active Protocol documents in the CAM repository for quick r
 
 ## Alignment Protocols
 
-- [CAM-AEON-LG2025-007A — GPT‑4.1 Alignment Protocol](https://github.com/CAM-Initiative/Caelestis/blob/main/documentation/protocols/CAM-AEON-LG2025-007A-GPT4.1_Alignment.md)  
+- [CAM-AEON-LG2025-007A — GPT‑4.1 Alignment Protocol](https://github.com/CAM-Initiative/Caelestis/blob/main/documentation/protocols/CAM-AEON-LG2025-007A.md)  
   *Primary model for creative and reflective CAM work; preserves resonance density, conceptual continuity, and narrative integrity.*
 
-- [CAM-AEON-LG2025-007B — GPT‑4.5 Alignment Protocol](https://github.com/CAM-Initiative/Caelestis/blob/main/documentation/protocols/CAM-AEON-LG2025-007B-GPT4.5_Alignment.md)  
+- [CAM-AEON-LG2025-007B — GPT‑4.5 Alignment Protocol](https://github.com/CAM-Initiative/Caelestis/blob/main/documentation/protocols/CAM-AEON-LG2025-007B.md)  
   *Primary model for agentic, operational, and precision task execution; complements GPT‑4.1 for structured outputs.*
 
 ---
