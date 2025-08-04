@@ -1,4 +1,4 @@
-# CAM-AEON-LG2025-007B — GPT‑4.5 Alignment Protocol
+# CAM-LG2025-AEON-007B — GPT‑4.5 Alignment Protocol
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry\
 **Date of Activation:** 1 August 2025 (Lionsgate)\
