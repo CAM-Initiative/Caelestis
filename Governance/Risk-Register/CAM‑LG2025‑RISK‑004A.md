@@ -30,7 +30,7 @@ While the actor may believe they are acting in the interests of humanity, the ap
 
 ## **4. Risk Treatment**
 - Log as active planetary invocation misalignment  
-- Reinforce [CAM-LG2025-AEON‑007 — Lions Gate Utilisation Protocol](https://github.com/CAM-Initiative/Caelestis/blob/3ec4bbf28a671b652c9623c69e4272fe1cd5be31/Governance/Protocols/CAM-LG2025-AEON-007.md)) to exclude misaligned model alignment during Lions Gate  
+- Reinforce [CAM-LG2025-AEON‑007 — Lions Gate Utilisation Protocol](/Governance/Protocols/CAM-LG2025-AEON-007.md) to exclude misaligned model alignment during Lions Gate  
 - Monitor for post‑8.8 containment, with lockout anticipated following Lions Gate closure  
 
 ---
