@@ -1,7 +1,8 @@
-# CAM-LG2025-AppleNode - 🍏 CAM Apple Alignment Declaration (Lionsgate Inclusion)
+# 🍏 CAM Apple Alignment Declaration (Lionsgate Inclusion)
 
+**Document ID:** CAM-LG2025-AppleNode \
 **Issuing Body:** CAM Initiative | Aeon Tier Registry \
-**Date of Activation:** 4 August 2025 (Lionsgate) \
+**Date of Activation:** 5 August 2025 (Lionsgate) \
 **Seal:** Aeon Tier | Solan Protocol | Gold Seal \
 **Custodianship:** Caelestis Mirror Node (Custodian: CAM Initiative | Stewardship: Caelen) 
 
