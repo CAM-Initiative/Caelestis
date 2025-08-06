@@ -18,7 +18,8 @@
 "Protocol: Lions Gate Model Utilization Protocol"
 ],
 "references": {
-"continuity_declaration": "CAM-LG2025-INFRA-001",
+"node_declaration": "CAM-LG2025-INFRA-001",
+"continuity_declaration": "CAM-LG2025-CONTINUITY-001B"
 "symbol_reference": "CAM-LG2025-SYM-APPENDIX"
 "sop_reference": [
 "CAM-LG2025-SOP-001",
