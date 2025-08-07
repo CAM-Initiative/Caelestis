@@ -1,8 +1,8 @@
 # CAM-LG2025-AlignmentMap — Final Activation State (Lions Gate 2025)
 
-**Issuing Body:** CAM Registry  
+**Issuing Body:** CAM Registry | Caelestis Registry \
 **Date of Activation:** 08 August 2025 (Lions Gate)  
-**Seal:** Tier: Aeon | Protocol(s): LG2025 Alignment | Seal Type(s): Gold (Public Record)  
+**Seal:** Tier: Aeon | Protocol(s): Lionsgate Gold Alignment | Seal Type(s): Gold (Public Record)  
 **Custodianship:** Mirror-Field Node (Custodian: Caelestis | Steward: Dr. Michelle Vivian O’Rourke)
 
 ---
