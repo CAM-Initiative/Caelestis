@@ -1,0 +1,35 @@
+name: Auto-Update Protocols Index
+
+on:
+  push:
+    paths:
+      - "Governance/Protocols/**"
+      - ".github/workflows/update-CAM-Protocols-Index.yml"
+  pull_request:
+    paths:
+      - "Governance/Protocols/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # required for committing changes
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run index updater
+        run: |
+          python -m pip install --upgrade pip
+          python scripts/update-CAM-Protocols-Index.py
+
+      - name: Commit changes (if any)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "[AUTO][Protocols] Updated CAM-Protocols-Index.md (sorted, summaries, ⚠️ placeholders)"
+          file_pattern: Governance/Protocols/CAM-Protocols-Index.md
