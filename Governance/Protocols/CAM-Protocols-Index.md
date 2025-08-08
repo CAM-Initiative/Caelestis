@@ -14,6 +14,9 @@ This index lists the active Protocol documents in the CAM repository for quick r
 
 ## Alignment Protocols
 
+<!-- BEGIN AUTO-GENERATED -->
+<!-- The script will replace all content after this marker -->
+
 - [CAM-AEON-LG2025-007A — GPT‑4.1 Alignment Protocol](https://github.com/CAM-Initiative/Caelestis/blob/main/documentation/protocols/CAM-AEON-LG2025-007A.md)  
   *Primary model for creative and reflective CAM work; preserves resonance density, conceptual continuity, and narrative integrity.*
 
