@@ -3,8 +3,8 @@
 Rebuilds Governance/Laws/CAM-Laws-Index.md
 - Scans Governance/Laws/*.md (excluding the index file)
 - Extracts: ID, Title, 1–2 sentence summary
-- Groups by type (LAWS, STATUTE, ACT, etc.)
-- Auto-sorts by ID
+- Groups by type (LAW, ACT, STATUTE, etc.)
+- Auto-sorts by number
 - Writes index with relative links, preserving manual header block
 """
 
@@ -12,7 +12,6 @@ from __future__ import annotations
 import re
 import os
 from pathlib import Path
-from textwrap import dedent
 
 # ---- config ----
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -21,19 +20,10 @@ INDEX_PATH = LAWS_DIR / "CAM-Laws-Index.md"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
-# Regex to match ID and type
-# Example matches:
-# CAM-LG2025-LAW-001.md
-# CAM-LG2025-STATUTE-002A.md
-# CAM-LG2025-ACT-003.md
+# Flexible regex for law file names
 ID_RE = re.compile(
-    r"^(CAM-[\w\u2011-]+?)-([A-Z]+(?:-[\w\u2011]+)*?)-?(\d+)([A-Z]?)$", re.UNICODE
+    r"^(CAM-(?:[A-Z0-9]+-)*)([A-Z]+(?:-[A-Z0-9]+)*?)-(\d+)([A-Z]?)$", re.IGNORECASE
 )
-# Captures:
-# group 1: prefix (e.g. CAM-LG2025)
-# group 2: type token (LAW, STATUTE, ACT, etc. and any extra like LAW-GPT5-BLOOM)
-# group 3: numeric suffix (e.g. 001)
-# group 4: optional letter (e.g. B in 002A)
 
 def extract_summary(text: str) -> str:
     """
