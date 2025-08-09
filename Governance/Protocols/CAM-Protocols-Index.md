@@ -11,7 +11,6 @@
 This index lists the active Protocol documents in the CAM repository for quick reference and navigation.
 
 ---
-
 <!-- BEGIN AUTO-GENERATED -->
 
 ## AEON Tier Protocols
