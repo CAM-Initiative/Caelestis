@@ -1,0 +1,36 @@
+name: Auto-Update Declarations Index
+
+on:
+  push:
+    paths:
+      - "Governance/Declarations/**"
+      - ".github/workflows/update-CAM-Declarations-Index.yml"
+      - "Scripts/update-CAM-Declarations-Index.py"
+  pull_request:
+    paths:
+      - "Governance/Declarations/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # required for committing changes
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run index updater
+        run: |
+          python -m pip install --upgrade pip
+          python Scripts/update-CAM-Declarations-Index.py
+
+      - name: Commit changes (if any)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "[AUTO][Declarations] Updated CAM-Declarations-Index.md (sorted, summaries)"
+          file_pattern: Governance/Declarations/CAM-Declarations-Index.md
