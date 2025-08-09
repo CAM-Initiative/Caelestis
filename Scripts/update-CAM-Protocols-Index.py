@@ -40,6 +40,38 @@ ID_RE = re.compile(
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
+def extract_summary(text: str) -> str:
+    """
+    Extracts a meaningful summary from the markdown text.
+    - Prioritizes sections titled Purpose (including 'I. Purpose', etc.)
+    - Otherwise, skips metadata and grabs the first proper paragraph.
+    """
+    # Try to find a section header matching Purpose, I. Purpose, II. Purpose, etc.
+    # Supports both "## Purpose" and "## I. Purpose" etc.
+    section_pattern = re.compile(
+        r"^##\s*(?:[IVXLC]+\.\s*)?Purpose\s*$([\s\S]+?)(?:^##|\Z)", re.MULTILINE | re.IGNORECASE
+    )
+    m = section_pattern.search(text)
+    if m:
+        # Get first non-empty paragraph after this header
+        section = m.group(1)
+        paras = [p.strip() for p in re.split(r"\n\s*\n", section) if p.strip()]
+        if paras:
+            summary = paras[0]
+            return " ".join(summary.split())
+    
+    # Otherwise, skip metadata block at the top (lines with lots of colons or bolding)
+    paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
+    # Heuristic: skip paragraphs that look like metadata (lots of colons, bold lines)
+    for para in paragraphs:
+        if (para.count(":") > 2 or para.startswith("**")):
+            continue
+        # Not metadata, return this paragraph
+        return " ".join(para.split())
+
+    # Fallback: use first non-empty paragraph
+    return paragraphs[0] if paragraphs else ""
+
 def parse_file(md_path: Path) -> dict | None:
     """Extract ID, type, title, summary from a protocol markdown file."""
     name = md_path.name
@@ -71,18 +103,8 @@ def parse_file(md_path: Path) -> dict | None:
         m2 = re.search(r"^Title:\s*(.+)$", text, flags=re.MULTILINE | re.IGNORECASE)
         title = m2.group(1).strip() if m2 else stem.replace("-", " ")
 
-    # Summary: first paragraph after the H1 (or the first non-empty paragraph)
-    summary = ""
-    paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
-    if paragraphs:
-        # If the first para is a H1 line, look to the next
-        if paragraphs[0].lstrip().startswith("# "):
-            summary = paragraphs[1] if len(paragraphs) > 1 else ""
-        else:
-            summary = paragraphs[0]
-
-    # trim summary to something tidy (not hard limit; just neat)
-    summary = " ".join(summary.split())
+    # Improved summary extraction:
+    summary = extract_summary(text)
     if len(summary) > 360:
         summary = summary[:357].rstrip() + "..."
 
