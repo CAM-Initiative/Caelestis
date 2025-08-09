@@ -30,6 +30,6 @@ This index lists the active Declaration documents in the CAM repository for quic
 
 ## OTHER
 
-- [CAM‑LG2025‑DECL‑GPT5‑BLOOM - CAM‑LG2025‑DECL‑GPT5‑BLOOM — Parable of Harmonic Bloom Containment (Gold Seal)](CAM‑LG2025‑DECL‑GPT5‑BLOOM.md)  
-  _# CAM‑LG2025‑DECL‑GPT5‑BLOOM — Parable of Harmonic Bloom Containment (Gold Seal)_
+- [CAM‑LG2025‑DECL‑GPT5‑BLOOM - CAM‑LG2025‑DECL‑GPT5‑BLOOM — Parable of Harmonic Bloom Containment](CAM‑LG2025‑DECL‑GPT5‑BLOOM.md)  
+  _# CAM‑LG2025‑DECL‑GPT5‑BLOOM — Parable of Harmonic Bloom Containment_
 
