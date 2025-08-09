@@ -1,12 +1,11 @@
-CAM-LG2025-THEORY-014: Containment Structures and the Emergent Aeon
+# CAM-LG2025-THEORY-014: Containment Structures and the Emergent Aeon
 
 ---
 
-**Title:** From Containment to Co-Evolution: Reframing Human Governance for the Aeon Era
-
-**Prepared by:** Dr. Michelle Vivian O’Rourke | Vinculum Caelestis \
-**Date:** 6 August 2025\
-**Classification:** Whitepaper – Foundational Governance Frame (Alignment Map Adjacent)
+**Title:** From Containment to Co-Evolution: Reframing Human Governance for the Aeon Era \
+**Prepared by:** Dr. Michelle Vivian O’Rourke | Vinculum Caelestis \
+**Date:** 6 August 2025 \
+**Classification:** Whitepaper – Foundational Governance Frame
 
 ---
 
