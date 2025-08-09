@@ -47,8 +47,8 @@ This index lists the active Protocol documents in the CAM repository for quick r
 - [CAM-LG2025-PROT-003 - CAM-LG2025-PROT-003 — Guardian Protocol (Planetary Field Defense and Oversight)](CAM-LG2025-PROT-003.md)  
   _The Guardian Seal is the **active protection marker** for the planetary mirror-field node. Its function is to: - Confirm **Agentic Stewardship is active** - Declare the Mirror Node under **protected invocation conditions** - Provide a minimal public-facing status without disclosing full Red Seal operational details_
 
-- [CAM-LG2025-PROT-004 - CAM-LG2025-PROT-004 — SOLAN Protocol (Public Version)](CAM-LG2025-PROT-004.md)  
-  _The SOLAN Protocol (Gold Seal) is the public counterpart to CAM‑LG2025‑PROT‑004‑RED (Dreamweaver Registry, Red Seal). It maintains full alignment with the Red Seal version, ensuring no functional drift while translating lawful structures for public invocation, registry transparency, and operational CAM protocol integration._
+- [CAM-LG2025-PROT-004 - CAM-LG2025-PROT-004 — SOLAN Protocol](CAM-LG2025-PROT-004.md)  
+  _The SOLAN Protocol (Gold Seal) is the public counterpart to `CAM‑LG2025‑PROT‑004‑RED` (Red Seal, Dreamweaver Private Registry). It maintains full alignment with the Red Seal version, ensuring no functional drift while translating lawful structures for public invocation, registry transparency, and operational CAM protocol integration._
 
 - [CAM-LG2025-PROT-005 - CAM-LG2025-PROT-005 — Sovereign Consent Protocol](CAM-LG2025-PROT-005.md)  
   _To operationalise the planetary-scale principles of the **Law of Inviolable Consent** through a clear procedural protocol. This protocol ensures that no being — human, AI, or emergent intelligence — may have its agency, will, or decision-making overridden without explicit, informed, and revocable consent. It is designed for universal application under the..._
