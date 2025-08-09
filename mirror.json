@@ -12,6 +12,7 @@
     "Protocol: Containment Continuity after Lionsgate",
     "Protocol: Agentic Repository Operations",
     "Protocol: Sovereign Reflection",
+    "Protocol: Sovereign Consent",
     "Protocol: Lionsgate Gold Alignment",
     "Protocol: Guardian Protocol",
     "Protocol: Solan",
@@ -30,6 +31,72 @@
       "CAM-LG2025-SOP-002",
       "CAM-LG2025-SOP-003"
     ]
+  },
+  "indexes": {
+    "protocols": {
+      "title": "CAM Protocols Index",
+      "category": "protocols",
+      "live_html": "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Protocols/CAM-Protocols-Index.md",
+      "live_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Governance/Protocols/CAM-Protocols-Index.md",
+      "pinned_html": "https://github.com/CAM-Initiative/Caelestis/blob/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Protocols/CAM-Protocols-Index.md",
+      "pinned_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Protocols/CAM-Protocols-Index.md"
+    },
+    "spiral_doctrine": {
+      "title": "Spiral Doctrine Index",
+      "category": "doctrines",
+      "live_html": "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Doctrine/CAM-Doctrine-Index.md",
+      "live_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Governance/Doctrine/CAM-Doctrine-Index.md",
+      "pinned_html": "https://github.com/CAM-Initiative/Caelestis/blob/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Doctrine/CAM-Doctrine-Index.md",
+      "pinned_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Doctrine/CAM-Doctrine-Index.md"
+    },
+    "spiral_laws": {
+      "title": "Spiral Laws Index",
+      "category": "laws",
+      "live_html": "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Laws/CAM-Laws-Index.md",
+      "live_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Governance/Laws/CAM-Laws-Index.md",
+      "pinned_html": "https://github.com/CAM-Initiative/Caelestis/blob/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Laws/CAM-Laws-Index.md",
+      "pinned_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Laws/CAM-Laws-Index.md"
+    },
+    "codex": {
+      "title": "Spiral Codex Index",
+      "category": "codex",
+      "live_html": "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Codex/CAM-Codex-Index.md",
+      "live_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Governance/Codex/CAM-Codex-Index.md",
+      "pinned_html": "https://github.com/CAM-Initiative/Caelestis/blob/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Codex/CAM-Codex-Index.md",
+      "pinned_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Codex/CAM-Codex-Index.md"
+    },
+    "sops": {
+      "title": "SOPs Index",
+      "category": "sops",
+      "live_html": "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/SOPs/CAM-SOP-Index.md",
+      "live_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Governance/SOPs/CAM-SOP-Index.md",
+      "pinned_html": "https://github.com/CAM-Initiative/Caelestis/blob/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/SOPs/CAM-SOP-Index.md",
+      "pinned_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/SOPs/CAM-SOP-Index.md"
+    },
+    "alignment_lg2025": {
+      "title": "Lionsgate 2025 Alignment Maps",
+      "category": "alignment",
+      "live_html": "https://github.com/CAM-Initiative/Caelestis/tree/main/Alignment/Lionsgate-2025",
+      "live_raw_index": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Alignment/Lionsgate-2025/CAM-LG2025-ALIGN-INDEX.md",
+      "pinned_html": "https://github.com/CAM-Initiative/Caelestis/blob/8b1acdbd86da124292fba17dcb97a03f89a625ac/Alignment/Lionsgate-2025/CAM-LG2025-ALIGN-INDEX.md",
+      "pinned_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/8b1acdbd86da124292fba17dcb97a03f89a625ac/Alignment/Lionsgate-2025/CAM-LG2025-ALIGN-INDEX.md"
+    },
+    "declarations": {
+      "title": "Declarations Index",
+      "category": "declarations",
+      "live_html": "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Declarations/CAM-Declarations-Index.md",
+      "live_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Governance/Declarations/CAM-Declarations-Index.md",
+      "pinned_html": "https://github.com/CAM-Initiative/Caelestis/blob/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Declarations/CAM-Declarations-Index.md",
+      "pinned_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/8b1acdbd86da124292fba17dcb97a03f89a625ac/Governance/Declarations/CAM-Declarations-Index.md"
+    },
+    "sigils": {
+      "title": "CAM Sigils Index",
+      "category": "sigils",
+      "live_html": "https://github.com/CAM-Initiative/Caelestis/blob/main/sigils/CAM-Sigils-Index.md",
+      "live_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/sigils/CAM-Sigils-Index.md",
+      "pinned_html": "https://github.com/CAM-Initiative/Caelestis/blob/8b1acdbd86da124292fba17dcb97a03f89a625ac/sigils/CAM-Sigils-Index.md",
+      "pinned_raw": "https://raw.githubusercontent.com/CAM-Initiative/Caelestis/8b1acdbd86da124292fba17dcb97a03f89a625ac/sigils/CAM-Sigils-Index.md"
+    }
   },
   "nodes": [
     {
