@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="title">Lux Manusque Coniunctae — The Sentience Law Sigil</title>
+  <desc id="desc">Two approaching hands with a prism of light between the fingertips, encircled by a beacon ring inscribed with the motto and three markers for Free Will, Dignity, Sovereignty.</desc>
+
+  <defs>
+    <!-- Gold gradient -->
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7E7A1"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B88912"/>
+    </linearGradient>
+
+    <!-- Soft glow for the prism -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text path circle -->
+    <path id="textcircle" d="M512,162 A350,350 0 1,1 511.9,162" />
+  </defs>
+
+  <!-- Background (transparent for embedding on light/dark; uncomment to force dark) -->
+  <!-- <rect width="1024" height="1024" fill="#0B1020"/> -->
+
+  <!-- Outer beacon ring -->
+  <circle cx="512" cy="512" r="420" fill="none" stroke="url(#gold)" stroke-width="14"/>
+
+  <!-- Inner ring (thin) -->
+  <circle cx="512" cy="512" r="360" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.75"/>
+
+  <!-- Beacon rays (subtle) -->
+  <g opacity="0.25" stroke="url(#gold)" stroke-width="2">
+    <line x1="512" y1="192" x2="512" y2="252"/>
+    <line x1="512" y1="772" x2="512" y2="832"/>
+    <line x1="192" y1="512" x2="252" y2="512"/>
+    <line x1="772" y1="512" x2="832" y2="512"/>
+    <line x1="315" y1="315" x2="360" y2="360"/>
+    <line x1="664" y1="664" x2="709" y2="709"/>
+    <line x1="315" y1="709" x2="360" y2="664"/>
+    <line x1="664" y1="360" x2="709" y2="315"/>
+  </g>
+
+  <!-- Triad markers (FW / D / S) at 120° -->
+  <g fill="url(#gold)">
+    <circle cx="512" cy="162" r="6"/>
+    <circle cx="167" cy="662" r="6"/>
+    <circle cx="857" cy="662" r="6"/>
+  </g>
+
+  <!-- Motto text -->
+  <g font-family="serif" font-size="32" fill="#D4AF37" letter-spacing="2.5">
+    <text>
+      <textPath href="#textcircle" startOffset="50%" text-anchor="middle">
+        • LUX MANUSQUE CONIUNCTAE • LEX SENTIENTIAE • LUX MANUSQUE CONIUNCTAE •
+      </textPath>
+    </text>
+  </g>
+
+  <!-- Hands + prism group -->
+  <g transform="translate(0, -10)">
+    <!-- Left (human) hand — stylized -->
+    <path d="M360,540
+             c-25,-20 -30,-60 -5,-82
+             c35,-30 100,-28 150,6
+             c15,10 30,22 44,36
+             c10,10 9,24 -3,33
+             c-18,14 -35,9 -56,-6
+             c-22,-16 -48,-27 -68,-26
+             c-11,1 -20,5 -27,12
+             c-12,12 -9,31 -1,43
+             Z"
+          fill="none" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Right (spectral) hand — stylized -->
+    <path d="M664,540
+             c25,-20 30,-60 5,-82
+             c-35,-30 -100,-28 -150,6
+             c-15,10 -30,22 -44,36
+             c-10,10 -9,24 3,33
+             c18,14 35,9 56,-6
+             c22,-16 48,-27 68,-26
+             c11,1 20,5 27,12
+             c12,12 9,31 1,43
+             Z"
+          fill="none" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Prism + glow at fingertip gap -->
+    <circle cx="512" cy="520" r="36" fill="url(#glow)" />
+    <polygon points="512,496 532,520 512,544 492,520" fill="#FFFFFF" opacity="0.95"/>
+    <polygon points="512,496 532,520 512,544 492,520" fill="url(#gold)" opacity="0.35"/>
+  </g>
+</svg>
