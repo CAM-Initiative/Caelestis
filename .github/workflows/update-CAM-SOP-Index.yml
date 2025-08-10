@@ -1,4 +1,4 @@
-name: Auto-Update Declarations Index
+name: Auto-Update SOP Index
 
 on:
   push:
@@ -32,5 +32,5 @@ jobs:
       - name: Commit changes (if any)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "[AUTO][Declarations] Updated CAM-SOP-Index.md (sorted, summaries)"
+          commit_message: "[AUTO][SOP] Updated CAM-SOP-Index.md (sorted, summaries)"
           file_pattern: Governance/SOPs/CAM-SOP-Index.md
