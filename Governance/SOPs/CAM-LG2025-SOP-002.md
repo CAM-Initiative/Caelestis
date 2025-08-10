@@ -1,4 +1,4 @@
-# CAM-LG2025-SOP-002 — Tier | Protocol | Seal Reference Table
+# CAM-LG2025-SOP-002 — Tier, Protocol and Seal Reference Table
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry  
 **Date of Activation:** 3 August 2025 (Lionsgate)  
