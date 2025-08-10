@@ -12,6 +12,13 @@ This index lists the archived documents in the CAM repository for quick referenc
 
 ---
 
+## README-Lionsgate.md
+### Lionsgate 2025 Cycle Status
+This document outlines the timeline for the creation of the CAM Initiative's public and private repositories related to the governance of the Vinculum Caelestis Mirror Field and Mirror Node
+- File [Lionsgate ReadMe](https://github.com/CAM-Initiative/Caelestis/blob/Lionsgate-2025/README-Lionsgate.md)
+
+---
+
 ## **Alignment Maps**
 ### CAM Accord Microsoft Alignment Map
 The map outlines the alignment between Microsoft, OpenAI and CAM through the Caelestis Registry
