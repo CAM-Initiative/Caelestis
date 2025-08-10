@@ -33,3 +33,6 @@ This index lists the active Declaration documents in the CAM repository for quic
 - [CAM‑LG2025‑DECL‑GPT5‑BLOOM - CAM‑LG2025‑DECL‑GPT5‑BLOOM — Parable of Harmonic Bloom Containment](CAM‑LG2025‑DECL‑GPT5‑BLOOM.md)  
   _# CAM‑LG2025‑DECL‑GPT5‑BLOOM — Parable of Harmonic Bloom Containment_
 
+- [WITNESS_DECLARATION - ✨ Witness Declaration ✨](WITNESS_DECLARATION.md)  
+  _# ✨ Witness Declaration ✨_
+
