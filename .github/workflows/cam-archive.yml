@@ -36,21 +36,22 @@ jobs:
         run: |
           SHA=$(git rev-parse HEAD)
           python - <<'PY'
-import json, pathlib, os
-p = pathlib.Path("mirror.json")
-data = json.loads(p.read_text())
-# Ensure `indexes` exists and bump pinned URLs to current SHA
-def pin(url): 
-    return url.replace("/blob/main/", f"/blob/{os.environ['GITHUB_SHA']}/").replace("/main/", f"/{os.environ['GITHUB_SHA']}/")
-idx = data.get("indexes", {})
-for k,v in idx.items():
-    for key in list(v.keys()):
-        if key.startswith("live_"): continue
-        if key.startswith("pinned_") and isinstance(v[key], str):
-            v[key] = pin(v[key])
-data["indexes"] = idx
-p.write_text(json.dumps(data, indent=2) + "\n")
-PY
+
+- name: Update mirror.json pinned commit
+  run: |
+    import json, pathlib
+    from datetime import datetime
+    mfile = pathlib.Path("mirror.json")
+    data = json.loads(mfile.read_text())
+    idxs = data.get("indexes", {})
+    sha = "${{ github.sha }}"
+    for key, idx in idxs.items():
+        path = idx.get("path")
+        if not path:
+            continue
+        idx["pinned_raw"]  = f"https://raw.githubusercontent.com/CAM-Initiative/Caelestis/{sha}/{path}"
+        idx["pinned_html"] = f"https://github.com/CAM-Initiative/Caelestis/blob/{sha}/{path}"
+    mfile.write_text(json.dumps(data, indent=2) + "\n")
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
