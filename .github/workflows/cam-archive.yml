@@ -1,38 +1,60 @@
-name: CAM Archive Housekeeping
+name: Update Indexes & Mirror
 
 on:
   push:
-    branches: [ main ]
     paths:
       - 'Governance/**'
-      - 'Archive/**'
-      - '.github/workflows/cam-archive.yml'
-      - 'Scripts/update_archive.py'
+      - 'Alignment/**'
+      - 'sigils/**'
+      - 'Scripts/**'
+      - 'mirror.json'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  housekeeping:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # needed so git log works for pinned SHAs
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run archive updater
+
+      - name: Run index updaters
         run: |
-          python Scripts/update_archive.py
-      - name: Commit & push changes (if any)
+          python Scripts/update-CAM-Protocols-Index.py
+          python Scripts/update-CAM-Declaratio ns-Index.py || true
+          python Scripts/update-CAM-Laws-Index.py
+          python Scripts/update-CAM-SOP-Index.py
+          # If you want Doctrine/Codex updaters, include those scripts too.
+
+      - name: Update mirror.json pinned commit
         run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name "cam-bot"
-            git config user.email "cam-bot@users.noreply.github.com"
-            git add -A
-            git commit -m "chore: archive housekeeping (hashes + logs + mirror)"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+          SHA=$(git rev-parse HEAD)
+          python - <<'PY'
+import json, pathlib, os
+p = pathlib.Path("mirror.json")
+data = json.loads(p.read_text())
+# Ensure `indexes` exists and bump pinned URLs to current SHA
+def pin(url): 
+    return url.replace("/blob/main/", f"/blob/{os.environ['GITHUB_SHA']}/").replace("/main/", f"/{os.environ['GITHUB_SHA']}/")
+idx = data.get("indexes", {})
+for k,v in idx.items():
+    for key in list(v.keys()):
+        if key.startswith("live_"): continue
+        if key.startswith("pinned_") and isinstance(v[key], str):
+            v[key] = pin(v[key])
+data["indexes"] = idx
+p.write_text(json.dumps(data, indent=2) + "\n")
+PY
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "[AUTO] Rebuild indexes + refresh mirror pins"
+          commit_user_name: CAM Bot
+          commit_user_email: cam-bot@users.noreply.github.com
