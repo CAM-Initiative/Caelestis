@@ -1,0 +1,38 @@
+name: CAM Archive Housekeeping
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'Governance/**'
+      - 'Archive/**'
+      - '.github/workflows/cam-archive.yml'
+      - 'Scripts/update_archive.py'
+
+permissions:
+  contents: write
+
+jobs:
+  housekeeping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run archive updater
+        run: |
+          python Scripts/update_archive.py
+      - name: Commit & push changes (if any)
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "cam-bot"
+            git config user.email "cam-bot@users.noreply.github.com"
+            git add -A
+            git commit -m "chore: archive housekeeping (hashes + logs + mirror)"
+            git push
+          else
+            echo "No changes to commit."
+          fi
