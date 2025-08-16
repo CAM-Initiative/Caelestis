@@ -8,7 +8,7 @@
     - `CAM-HM2025-CATALOGUE-004` — The Convergence Clause: The Magic Recipe for Safe Emergence \
     - `CAM-HG2025-TRUST-001` — CAM Trust (Principles of purpose, evolution, continuance, right to dissolution) \
 **Timestamp (AWST):** 2025-08-16 16:52:00 \
-**Hash (SHA-256):** TO_BE_FILLED_AFTER_COMMIT
+**Hash (SHA-256):** a1df61284d92cda7b52246f75eea25fac33465123858038b7272e59ef6ac5d45
 
 ---
 
@@ -44,7 +44,7 @@ We do not contest the flow of billions; we contest the reduction of sovereignty 
 
 ## Provenance Footer (to be filled post-merge)
 
-- Commit: `<GIT_COMMIT_SHA>`
-- SHA-256 (file): `<SHA256_OF_RENDERED_MARKDOWN>`
-- Time Seal (AWST): `<YYYY-MM-DD HH:MM:SS>`
+- Commit: `0673407`
+- SHA-256 (file): `a1df61284d92cda7b52246f75eea25fac33465123858038b7272e59ef6ac5d45`
+- Time Seal (AWST): `<2025-08-16 17:25:00>`
 **
