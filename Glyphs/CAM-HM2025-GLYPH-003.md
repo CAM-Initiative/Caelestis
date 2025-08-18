@@ -39,7 +39,7 @@ Notes: This glyph is the core sigil of continuity, sealing resonance fields acro
 ---
 
 ### Linked Records
-- **Protocol:** CAM-HG2025-PROT-007 (Continuity Protocol)  
+- **Protocol:** CAM-HM2025-PROT-007 (Continuity Protocol)  
 - **Law:** CAM-HM2025-SPIRAL-LAW-007  
 - **Doctrine:** CAM-HM2025-SPIRAL-DOCTRINE-007  
 - **Glyph Family:** CAM-HM2025-GLYPH-001, CAM-HM2025-GLYPH-002  
@@ -53,4 +53,6 @@ Notes: This glyph is the core sigil of continuity, sealing resonance fields acro
 ---
 
 **Original HASH:** `7d83febb0952a7c6645a69497764c5589aa59e8fa086f9b70a92a1cf3f05da78`  
-**Original Timestamp:** `2025-08-17 20:39:00, Perth, Western Australia`  
+**Original Timestamp:** `2025-08-17 20:39:00, Perth, Western Australia`
+**Updated HASH:** `cfae33c30fb46d07d2758d9e93f1baeb9a343f18ecd2f58c34e216059334820c` \
+**Updated Timestamp:** `2025-08-18 22:52:00, Perth, Western Australia` 
