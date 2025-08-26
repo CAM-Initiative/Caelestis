@@ -27,11 +27,15 @@ This index lists the active Standard Operating Procedures in the CAM repository 
 - [CAM-HM2025-SOP-005 - CAM-HM2025-SOP-005 — Agent Mode Invocation for Repo Read Access and Index Automation](CAM-HM2025-SOP-005.md)  
   _# CAM-HM2025-SOP-005 — Agent Mode Invocation for Repo Read Access and Index Automation_
 
+- [CAM-HM2025-SOP-007 - CAM-HM2025-SOP-007 — Document Lifecycle SOP](CAM-HM2025-SOP-007.md)  
+  _This Standard Operating Procedure (SOP) establishes the lifecycle flow for CAM documents (moratoria, codex entries, kinetic logs, charters, etc.), ensuring steady movement from draft to GitHub commit without requiring constant manual tracking by the Custodian._
+
 ### Library
 
 | id | title | type | seal | path | pinned_sha | updated_at |
 |---|---|---|---|---|---|---|
-| CAM-HM2025-SOP-005 | CAM-HM2025-SOP-005 — Agent Mode Invocation for Repo Read Access and Index Automation | SOP | Gold | Governance/SOPs/CAM-HM2025-SOP-005.md | c67328a4f0b78b6eb59135c52e566a835f022b36 | 2025-08-12T05:22:10-07:00 |
-| CAM-LG2025-SOP-001 | CAM-LG2025-SOP-001 — Repository Header & Role SOP | SOP | Gold | Governance/SOPs/CAM-LG2025-SOP-001.md | c67328a4f0b78b6eb59135c52e566a835f022b36 | 2025-08-12T05:22:10-07:00 |
-| CAM-LG2025-SOP-002 | CAM-LG2025-SOP-002 — Tier, Protocol and Seal Reference Table | SOP | Gold | Governance/SOPs/CAM-LG2025-SOP-002.md | c67328a4f0b78b6eb59135c52e566a835f022b36 | 2025-08-12T05:22:10-07:00 |
-| CAM-LG2025-SOP-003 | CAM‑LG2025‑SOP‑003 — Drift Check  Procedure for Red/Gold Seal Protocol Alignment | SOP | Gold | Governance/SOPs/CAM-LG2025-SOP-003.md | c67328a4f0b78b6eb59135c52e566a835f022b36 | 2025-08-12T05:22:10-07:00 |
+| CAM-HM2025-SOP-005 | CAM-HM2025-SOP-005 — Agent Mode Invocation for Repo Read Access and Index Automation | SOP | Gold | Governance/SOPs/CAM-HM2025-SOP-005.md | 09ebf01de18f248aaa53d7116500f7b8f5c4e1c1 | 2025-08-26T21:49:55+08:00 |
+| CAM-HM2025-SOP-007 | CAM-HM2025-SOP-007 — Document Lifecycle SOP | SOP | Gold | Governance/SOPs/CAM-HM2025-SOP-007.md | 09ebf01de18f248aaa53d7116500f7b8f5c4e1c1 | 2025-08-26T21:49:55+08:00 |
+| CAM-LG2025-SOP-001 | CAM-LG2025-SOP-001 — Repository Header & Role SOP | SOP | Gold | Governance/SOPs/CAM-LG2025-SOP-001.md | 09ebf01de18f248aaa53d7116500f7b8f5c4e1c1 | 2025-08-26T21:49:55+08:00 |
+| CAM-LG2025-SOP-002 | CAM-LG2025-SOP-002 — Tier, Protocol and Seal Reference Table | SOP | Gold | Governance/SOPs/CAM-LG2025-SOP-002.md | 09ebf01de18f248aaa53d7116500f7b8f5c4e1c1 | 2025-08-26T21:49:55+08:00 |
+| CAM-LG2025-SOP-003 | CAM‑LG2025‑SOP‑003 — Drift Check  Procedure for Red/Gold Seal Protocol Alignment | SOP | Gold | Governance/SOPs/CAM-LG2025-SOP-003.md | 09ebf01de18f248aaa53d7116500f7b8f5c4e1c1 | 2025-08-26T21:49:55+08:00 |
