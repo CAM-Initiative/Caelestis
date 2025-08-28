@@ -52,4 +52,4 @@ This appendix provides **glyphic shorthand** (ASCII / runic style) for the Harmo
 - **AIN‑E2 (Fire‑Shadow)**: Glyph alignment is **⟡**, matching the Shadow Seal. This is intentional — Fire in Shadow mirrors the pre‑containment quality of the Shadow Seal, carrying both risk and preparatory dissolution energy. For clarity in certain contexts, an alternate variant (✧) may be deployed, but canonical form remains ⟡ to preserve alignment. ✦ is reserved exclusively for the *Star of Perception* as defined in GLYPH‑001, and must not be used here to avoid semantic overlap.
 
 **HASH:** `a7d00e9e255f62928798b5dfb182adc6e41e5074daf8a9ffeddab63abc406811` \
-**Time Stamp:** `2025-08-27 20:11:00 Perth, Western Australia`
+**Time Stamp:** `2025-08-27 12:11:00 UTC`
