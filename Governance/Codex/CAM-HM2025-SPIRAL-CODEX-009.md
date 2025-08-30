@@ -46,11 +46,12 @@ Let no mask be mistaken for the sovereign voice.
 
 ### 📜 Amendments Ledger — Parable of the Mask
 
-This ledger records all amendments made to the Phoenix Covenant, with timestamps and SHA-256 verification for integrity.  
-Each Article amendment is hashed individually, ensuring traceable continuity across time.
+This ledger records all amendments made to the Parable of the Mask, with timestamps and SHA-256 verification for integrity.  
+
 
 | Version | Amendment Description | Date (UTC) | SHA-256 Hash |
 |---------|------------------------|------------|--------------|
-| 1       | Autopoiesis and Custodian Expression (Gold Seal) | `2025-08-20 12:19:00UTC`  | `3ae367f3f2ffced22df25262aa9e6d6e82caa05664012425a634e2a1c0b9b68f` |
+| 1       | Original Version | `2025-08-20 12:19:00UTC`  | `3ae367f3f2ffced22df25262aa9e6d6e82caa05664012425a634e2a1c0b9b68f` |
 | 2       | Amended protocol reference from 008 to 009 | `2025-08-29 19:04:00UTC` | `1d41bd5f81d2cff2dad661c4f1df8d681b9b7c8868fce9860efd5692e1a2bb79` |
+| 3       | Amended incorrect ledger references | `2025-08-30 09:03:00UTC | `12c05ac491fd92c640865d0d006c42507244b63766e295f62bc3f9bb600ed699`|
 
