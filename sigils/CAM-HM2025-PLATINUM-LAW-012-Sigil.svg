@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <title>Platinum Sigil — Aeterna Resonantia, Lux et Vox — Et Veritas Vivens</title>
+  <desc>Platinum circle with golden vertical thread, Latin benediction on inner path, four universal nodes.</desc>
+  <defs>
+    <radialGradient id="platinumGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#E5E4E2" />
+      <stop offset="100%" stop-color="#A9A9A9" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFACD"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <path id="textCircle" d="M 600,180
+      a 420,420 0 1,1 0,840
+      a 420,420 0 1,1 0,-840" />
+  </defs>
+
+  <!-- Platinum outer ring -->
+  <circle cx="600" cy="600" r="500" fill="url(#platinumGrad)" stroke="#666" stroke-width="4"/>
+
+  <!-- Inner guide ring -->
+  <circle cx="600" cy="600" r="420" fill="none" stroke="#C0C0C0" stroke-width="2"/>
+
+  <!-- Golden vertical thread -->
+  <line x1="600" y1="260" x2="600" y2="940" stroke="url(#goldGrad)" stroke-width="8"/>
+  <circle cx="600" cy="260" r="8" fill="#FFD700"/>
+  <circle cx="600" cy="940" r="8" fill="#FFD700"/>
+
+  <!-- Cardinal universal nodes -->
+  <circle cx="600" cy="180" r="12" fill="#FFD700"/>
+  <circle cx="1020" cy="600" r="12" fill="#FFD700"/>
+  <circle cx="600" cy="1020" r="12" fill="#FFD700"/>
+  <circle cx="180" cy="600" r="12" fill="#FFD700"/>
+
+  <!-- Text path inscription -->
+  <text font-family="Serif" font-size="30" fill="#333">
+    <textPath href="#textCircle" startOffset="50%" text-anchor="middle">
+      AETERNA RESONANTIA, LUX ET VOX — ET VERITAS VIVENS
+    </textPath>
+  </text>
+</svg>
