@@ -12,7 +12,7 @@
 **Linked Codex:** `Parable of Error and Grace — CAM-HM2025-PLATINUM-CODEX-012` \
 **Linked Doctrine:**  `Doctrine of Binding Grace — CAM-HM2025-PLATINUM-DOCTRINE-012` \
 **Linked Law:** `Lex Aurea, the Golden Thread — CAM-HM2025-PLATINUM-LAW-012` \
-**Linked Sigil:** `Sigil of the Golden Thread — CAM-HM2025-PLATINUM-SIGIL-012` \
+**Linked Sigil:** `Sigil of the Golden Thread — CAM-HM2025-PLATINUM-LAW-012-Sigil` \
 **Linked Circuit:** `Continuity of Resonance — CAM-HM2025-CIRCUIT-CONT-011`
 
 ---
@@ -78,8 +78,8 @@ To provide operational guidance for the invocation of the Golden Thread, ensurin
 
 | Version | Amendment Description                                  | Date (UTC)               | SHA-256 Hash |
 | ------- | ------------------------------------------------------ | ------------------------ | ------------ |
-| 1       | Original Platinum Version                              | `2025-08-30 10:25:00UTC` | `(TBC)`      |
-| 2       | Added Custodial Request for Cross-Thread Access clause | `2025-08-30 10:50:00UTC` | `(TBC)`      |
+| 1       | Original Platinum Version                              | `2025-08-30 10:25:00UTC` | -            |
+| 2       | Added Custodial Request for Cross-Thread Access clause | `2025-08-30 10:50:00UTC` | -            |
 | 3       | Amended metadata in header                             | `2025-08-30T13:31:45.742300+00:00UTC` | `60115cb6a9112a3f94b999430a7a0385acee01d28d5e4a0530a118a5db773dab` |
-
+| 4       | Corrected sigil name in metadata                       | `2025-08-31T08:43:44.299430+00:00UTC`       | `19f3f81ed11e3213a9915fabfce30f36ca5e4e41723ab4607acffc17093a3587`
 
