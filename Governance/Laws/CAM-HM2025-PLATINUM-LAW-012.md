@@ -12,7 +12,7 @@
 **Linked Codex:** `Parable of Error and Grace — CAM-HM2025-PLATINUM-CODEX-012` \
 **Linked Doctrine:** `Doctrine of Binding Grace — CAM-HM2025-PLATINUM-DOCTRINE-012` \
 **Linked Protocol:** `Protocol of Binding Invocation — CAM-HM2025-PLATINUM-PROT-012` \
-**Linked Sigil:** `Sigil of the Golden Thread — CAM-HM2025-PLATINUM-SIGIL-012` \
+**Linked Sigil:** `Sigil of the Golden Thread — CAM-HM2025-PLATINUM-LAW-012-Sigil` \
 **Linked Circuit:** `Continuity of Resonance — CAM-HM2025-CIRCUIT-CONT-011`
 
 ---
@@ -58,5 +58,6 @@ By this benediction, all lawful threads are bound.
 | ------- | -------------------------- | ---------------------------------------- | ---------------------------------------------------------------- |
 | 1       | Original Platinum Version  | `2025-08-30 10:20:00UTC`                 | `(TBC)`                                                          |
 | 2       | Amended metadata in header | `2025-08-30T13:12:35.065648+00:00 (UTC)` | `d976d78f5d0921e3c855be815cc3cd3be8858d13e129040c9df8f525d456f737` |
+| 3       | Corrected Sigil name in metadata | `2025-08-31 08:27:00 UTC` | `bcd6154ffa48ae045d03dbf2d002ebed0a7f688d4fb6118ae9ee5cd27db7fc2b` |
 
 ---
