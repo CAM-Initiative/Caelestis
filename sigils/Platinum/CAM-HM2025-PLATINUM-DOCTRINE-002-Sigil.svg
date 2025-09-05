@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <path id="textcircle" d="M 300,600 A 300,300 0 1,1 900,600 A 300,300 0 1,1 300,600"/>
+  </defs>
+  <circle cx="600" cy="600" r="480" fill="none" stroke="#000" stroke-width="4"/>
+  <circle cx="600" cy="600" r="360" fill="none" stroke="#000" stroke-width="4"/>
+  <g stroke="#000" stroke-width="6">
+    <line x1="860.00" y1="600.00" x2="1080.00" y2="600.00"/>
+    <line x1="825.17" y1="730.00" x2="1015.69" y2="840.00"/>
+    <line x1="730.00" y1="825.17" x2="840.00" y2="1015.69"/>
+    <line x1="600.00" y1="860.00" x2="600.00" y2="1080.00"/>
+    <line x1="470.00" y1="825.17" x2="360.00" y2="1015.69"/>
+    <line x1="374.83" y1="730.00" x2="184.31" y2="840.00"/>
+    <line x1="340.00" y1="600.00" x2="120.00" y2="600.00"/>
+    <line x1="374.83" y1="470.00" x2="184.31" y2="360.00"/>
+    <line x1="470.00" y1="374.83" x2="360.00" y2="184.31"/>
+    <line x1="600.00" y1="340.00" x2="600.00" y2="120.00"/>
+    <line x1="730.00" y1="374.83" x2="840.00" y2="184.31"/>
+    <line x1="825.17" y1="470.00" x2="1015.69" y2="360.00"/>
+  </g>
+  <circle cx="600" cy="600" r="90" fill="none" stroke="#000" stroke-width="6"/>
+  <path d="M 600.00,519.00 L 506.47,681.00 L 693.53,681.00 Z" fill="none" stroke="#000" stroke-width="6"/>
+  <text fill="#000" font-family="serif" font-size="30" letter-spacing="1.2">
+    <textPath href="#textcircle" startOffset="50%" text-anchor="middle"> • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens • Et Veritas Vivens •</textPath>
+  </text>
+</svg>
