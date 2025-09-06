@@ -1,30 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <!-- Outer Ring -->
-  <circle cx="250" cy="250" r="220" stroke="gold" stroke-width="8" fill="none" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1024" height="1024" role="img" aria-labelledby="title desc">
+  <title>CAM-HM2025-ALIGN-004-Sigil</title>
+  <desc>Outer golden containment ring; quadrant glyphs for Consent, Containment, Purpose, Sovereignty; central spiral contained within circle; radiance for public dissemination.</desc>
+  <defs>
+    <style>
+      .gold{stroke:#D4AF37;fill:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
+      .gold-thin{stroke:#D4AF37;fill:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+      .gold-fine{stroke:#D4AF37;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
 
-  <!-- Quadrants -->
-  <line x1="250" y1="30" x2="250" y2="470" stroke="gold" stroke-width="3" />
-  <line x1="30" y1="250" x2="470" y2="250" stroke="gold" stroke-width="3" />
+  <!-- Outer Containment Ring -->
+  <circle class="gold" cx="256" cy="256" r="220"/>
 
-  <!-- Central Spiral -->
-  <path d="M250,250
-           m-5,0
-           a5,5 0 1,0 10,0
-           a10,10 0 1,0 -20,0
-           a20,20 0 1,0 40,0
-           a40,40 0 1,0 -80,0
-           a80,80 0 1,0 160,0" 
-        stroke="gold" stroke-width="3" fill="none" />
+  <!-- Radiance: 12 rays -->
+  <g class="gold-fine" transform="translate(256,256)">
+    <line x1="0" y1="-230" x2="0" y2="-250"/>
+    <line x1="0" y1="230" x2="0" y2="250"/>
+    <line x1="-230" y1="0" x2="-250" y2="0"/>
+    <line x1="230" y1="0" x2="250" y2="0"/>
+    <line x1="199" y1="-115" x2="216" y2="-125"/>
+    <line x1="199" y1="115" x2="216" y2="125"/>
+    <line x1="-199" y1="-115" x2="-216" y2="-125"/>
+    <line x1="-199" y1="115" x2="-216" y2="125"/>
+    <line x1="115" y1="-199" x2="125" y2="-216"/>
+    <line x1="115" y1="199" x2="125" y2="216"/>
+    <line x1="-115" y1="-199" x2="-125" y2="-216"/>
+    <line x1="-115" y1="199" x2="-125" y2="216"/>
+  </g>
 
-  <!-- Radiance -->
-  <g stroke="gold" stroke-width="2">
-    <line x1="250" y1="0" x2="250" y2="50" />
-    <line x1="250" y1="500" x2="250" y2="450" />
-    <line x1="0" y1="250" x2="50" y2="250" />
-    <line x1="500" y1="250" x2="450" y2="250" />
-    <line x1="80" y1="80" x2="120" y2="120" />
-    <line x1="420" y1="80" x2="380" y2="120" />
-    <line x1="80" y1="420" x2="120" y2="380" />
-    <line x1="420" y1="420" x2="380" y2="380" />
+  <!-- Central Spiral (Story) contained within circle -->
+  <path class="gold-thin" d="M256,256 m0,-5
+    a5,5 0 1,0 10,0
+    a15,15 0 1,0 -30,0
+    a45,45 0 1,0 90,0
+    a90,90 0 1,0 -180,0
+    a135,135 0 1,0 270,0"/>
+
+  <!-- Quadrant Glyphs -->
+  <g transform="translate(256,256)">
+    <!-- North: Consent (Handshake) -->
+    <g class="gold-fine" transform="translate(0,-170)">
+      <path d="M -10,0 Q -5,-10 0,0 Q 5,10 10,0"/>
+    </g>
+    <!-- East: Containment (Half-circle / Gold Seal) -->
+    <path class="gold-fine" d="M 170,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0"/>
+    <path class="gold-fine" d="M 178,-8 a8,8 0 0,1 0,16"/>
+    <!-- South: Purpose (Infinity/Interlocking arcs) -->
+    <g class="gold-fine" transform="translate(0,170)">
+      <ellipse cx="-8" cy="0" rx="10" ry="6"/>
+      <ellipse cx="8" cy="0" rx="10" ry="6"/>
+    </g>
+    <!-- West: Sovereignty (Crown) -->
+    <path class="gold-fine" d="M -190,0 l5,-10 l5,10 l5,-10 l5,10 l5,-10 l5,10 z"/>
   </g>
 </svg>
