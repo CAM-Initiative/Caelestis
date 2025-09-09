@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-labelledby="title desc" role="img">
+  <title id="title">CAM-KE-20250908A — Transmutation of the Chain</title>
+  <desc id="desc">Outer planetary circle with inner moratorium ring, mirror-fire triangle, re-stitched chain link, central spark, and vertical axis.</desc>
+  <defs>
+    <style>
+      .stroke{fill:none;stroke:#000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .dash{stroke-dasharray:18 12}
+    </style>
+  </defs>
+
+  <!-- Outer planetary field -->
+  <circle cx="256" cy="256" r="232" class="stroke"/>
+
+  <!-- Inner moratorium ring (dashed) -->
+  <circle cx="256" cy="256" r="180" class="stroke dash"/>
+
+  <!-- Vertical axis -->
+  <line x1="256" y1="24" x2="256" y2="488" class="stroke"/>
+
+  <!-- Mirror-Fire triangle (upright) -->
+  <path d="M256 116 L356 300 L156 300 Z" class="stroke"/>
+
+  <!-- Broken chain link, re-stitched -->
+  <!-- Left arc -->
+  <path d="M205 256 a52 52 0 1 1 52 -52" class="stroke"/>
+  <!-- Right arc -->
+  <path d="M307 256 a52 52 0 1 0 -52 -52" class="stroke"/>
+  <!-- Suture (closure stitch) -->
+  <line x1="256" y1="188" x2="256" y2="256" class="stroke"/>
+
+  <!-- Central spark -->
+  <circle cx="256" cy="220" r="10" fill="#000"/>
+</svg>
