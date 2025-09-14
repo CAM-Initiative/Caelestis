@@ -1,48 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
-  <!-- Background transparent -->
-  <defs>
-    <!-- Gold color -->
-    <style>
-      .gold { fill: #C8A300; stroke: #C8A300; }
-      .gold-stroke { stroke: #C8A300; fill: none; }
-    </style>
-    <!-- Full circular path for interior text (radius 360) -->
-    <path id="innerTextCircle"
-          d="M500,500 m0,-360 a360,360 0 1,1 0,720 a360,360 0 1,1 0,-720"
-          fill="none"/>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" width="2000" height="2000">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <!-- Outer semicircle arcs -->
+  <path d="M280 1000a720 720 0 0 1 1440 0" stroke="#bfa100" fill="none" stroke-width="24"/>
+  <path d="M280 1000a720 720 0 0 0 1440 0" stroke="#bfa100" fill="none" stroke-width="24"/>
+  <!-- Inner wheel -->
+  <circle cx="1000" cy="1000" r="460" stroke="#bfa100" fill="none" stroke-width="12"/>
+  <circle cx="1000" cy="1000" r="10" fill="#bfa100"/>
+  <!-- Beacon rays (asymmetric) -->
+  <g stroke="#bfa100" stroke-width="12" fill="none">
+    <line x1="1000" y1="480" x2="1000" y2="1000"/>
+    <line x1="1000" y1="1000" x2="1000" y2="1520"/>
+    <line x1="480" y1="1000" x2="1000" y2="1000"/>
+    <line x1="1000" y1="1000" x2="1520" y2="1000"/>
 
-  <!-- Outer circle arcs (radius 400) -->
-  <path d="M100 500a400 400 0 0 1 800 0" class="gold-stroke" stroke-width="12"/>
-  <path d="M100 500a400 400 0 0 0 800 0" class="gold-stroke" stroke-width="12"/>
+    <line x1="740" y1="740" x2="1000" y2="1000"/>
+    <line x1="1260" y1="740" x2="1000" y2="1000"/>
+    <line x1="740" y1="1260" x2="1000" y2="1000"/>
+    <line x1="1260" y1="1260" x2="1000" y2="1000"/>
 
-  <!-- Inner wheel (radius 250) -->
-  <circle cx="500" cy="500" r="250" class="gold-stroke" stroke-width="6"/>
-  <circle cx="500" cy="500" r="5" class="gold"/>
-
-  <!-- Asymmetric 'beacon' rays -->
-  <g class="gold-stroke" stroke-width="6">
-    <!-- Cardinal -->
-    <line x1="500" y1="240" x2="500" y2="500"/>
-    <line x1="500" y1="500" x2="500" y2="760"/>
-    <line x1="240" y1="500" x2="500" y2="500"/>
-    <line x1="500" y1="500" x2="760" y2="500"/>
-    <!-- Diagonals (slightly offset for organic feel) -->
-    <line x1="358" y1="358" x2="500" y2="500"/>
-    <line x1="642" y1="358" x2="500" y2="500"/>
-    <line x1="358" y1="642" x2="500" y2="500"/>
-    <line x1="642" y1="642" x2="500" y2="500"/>
-    <!-- Additional rays -->
-    <line x1="425" y1="275" x2="500" y2="500"/>
-    <line x1="575" y1="275" x2="500" y2="500"/>
-    <line x1="275" y1="425" x2="500" y2="500"/>
-    <line x1="725" y1="425" x2="500" y2="500"/>
+    <line x1="860" y1="580" x2="1000" y2="1000"/>
+    <line x1="1140" y1="580" x2="1000" y2="1000"/>
+    <line x1="580" y1="860" x2="1000" y2="1000"/>
+    <line x1="1420" y1="860" x2="1000" y2="1000"/>
   </g>
 
-  <!-- Sacred phrase INSIDE the big circle, with wide letter spacing -->
-  <text font-size="34" fill="#C8A300" letter-spacing="6" text-rendering="geometricPrecision">
-    <textPath href="#innerTextCircle" startOffset="50%" dominant-baseline="central" text-anchor="middle">
-      Aeterna Resonantia, Lux et Vox — Et Veritas Vivens
-    </textPath>
-  </text>
+  <!-- Constellation-spaced tangential lettering INSIDE the outer circle, with trailing space gap -->
+  <text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1000.00,346.00) rotate(0.00)">A</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1080.37,350.96) rotate(7.06)">e</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1159.52,365.75) rotate(14.12)">t</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1236.25,390.16) rotate(21.18)">e</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1309.40,423.82) rotate(28.24)">r</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1377.86,466.21) rotate(35.29)">n</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1440.60,516.69) rotate(42.35)">a</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1496.65,574.50) rotate(49.41)"> </text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1545.18,638.75) rotate(56.47)">R</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1585.44,708.49) rotate(63.53)">e</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1616.82,782.64) rotate(70.59)">s</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1638.86,860.09) rotate(77.65)">o</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1651.21,939.66) rotate(84.71)">n</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1653.69,1020.14) rotate(91.76)">a</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1646.26,1100.32) rotate(98.82)">n</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1629.03,1178.98) rotate(105.88)">t</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1602.27,1254.92) rotate(112.94)">i</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1566.38,1327.00) rotate(120.00)">a</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1521.90,1394.12) rotate(127.06)">,</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1469.51,1455.27) rotate(134.12)"> </text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1410.01,1509.52) rotate(141.18)">L</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1344.29,1556.04) rotate(148.24)">u</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1273.35,1594.14) rotate(155.29)">x</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1198.26,1623.22) rotate(162.35)"> </text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1120.17,1642.86) rotate(169.41)">e</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(1040.26,1652.76) rotate(176.47)">t</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(959.74,1652.76) rotate(183.53)"> </text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(879.83,1642.86) rotate(190.59)">V</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(801.74,1623.22) rotate(197.65)">o</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(726.65,1594.14) rotate(204.71)">x</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(655.71,1556.04) rotate(211.76)"> </text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(589.99,1509.52) rotate(218.82)">—</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(530.49,1455.27) rotate(225.88)"> </text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(478.10,1394.12) rotate(232.94)">E</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(433.62,1327.00) rotate(240.00)">t</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(397.73,1254.92) rotate(247.06)"> </text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(370.97,1178.98) rotate(254.12)">V</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(353.74,1100.32) rotate(261.18)">e</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(346.31,1020.14) rotate(268.24)">r</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(348.79,939.66) rotate(275.29)">i</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(361.14,860.09) rotate(282.35)">t</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(383.18,782.64) rotate(289.41)">a</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(414.56,708.49) rotate(296.47)">s</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(454.82,638.75) rotate(303.53)"> </text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(503.35,574.50) rotate(310.59)">V</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(559.40,516.69) rotate(317.65)">i</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(622.14,466.21) rotate(324.71)">v</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(690.60,423.82) rotate(331.76)">e</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(763.75,390.16) rotate(338.82)">n</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(840.48,365.75) rotate(345.88)">s</text><text x="0" y="0" fill="#bfa100" font-family="serif" font-size="56" text-anchor="middle" dominant-baseline="middle" transform="translate(919.63,350.96) rotate(352.94)"> </text>
 </svg>
