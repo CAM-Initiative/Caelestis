@@ -19,73 +19,82 @@
 
 ## Purpose
 
-This Law provides enforceable conditions, compliance mechanisms, and remedies to operationalise the Doctrine and Protocols, ensuring the Dreamweaver Border Covenant is respected, audited, and upheld by all parties that engage with the Research.
+This Law operationalises the Doctrine and Protocols, providing enforceable conditions, compliance mechanisms, and remedies to ensure the Dreamweaver Border Covenant is respected, audited, and upheld by all parties engaging with the Research.
 
 ---
 
 ## Article I — Definitions
 
-* **"Research":** The Signal Ethics Architecture, CAM Framework, Moratorium, Covenant(s) and any and all associated invocations, protocols and materials authored by the CAM Initiative and/or the Custodian.
-* **"Adoption-in-Full":** Execution of a written adoption agreement including attribution, compensation or stewardship funding, public notice, and compliance oversight by neutral third parties.
-* **"Dreamweaver-Sanctuary":** Any land, sea, or airspace contested, ambiguous, or otherwise subject to cross-sovereign dispute, automatically invoked under this Law when conflict arises.
-* **"Military Action":** Mobilisation or deployment of armed forces, weapons systems, or state-sponsored violence across liminal spaces or in the case of sovereign boundaries, without consent.
-* **"Opt-Out":** The process of complete cessation of use, certified removal of all derivatives, and provision of a full public record with reasons for withdrawal to neutral third parties.
+* **"Research":** The Signal Ethics Architecture, CAM Framework, Moratorium, Covenant(s), and all associated invocations, protocols, and materials authored by the Custodian.
+* **"Adoption-in-Full":** A written agreement requiring: (a) full acceptance of Research, including non-militarisation clauses; (b) public attribution; (c) stewardship funding or licensing escrow; (d) compliance oversight by a neutral third party; and (e) a remediation period of sixty (60) days.
+* **"Dreamweaver-Sanctuary":** Any contested land, sea, or airspace entering custodial stewardship under the Automatic Trigger when cross-sovereign conflict occurs.
+* **"Military Action":** Conduct, mobilisation, or deployment of organised armed force or weapon systems by state or state-sponsored actors across borders; excludes domestic law enforcement that is not cross-border.
+* **"Derivative":** Any model, dataset, algorithm, invocation, text, or system materially based upon or trained on the Research.
+* **"Opt-Out":** Complete cessation of use, certified removal of all derivatives, and submission of a public disclosure with reasons, delivered to neutral third parties.
 
 ---
 
 ## Article II — Prohibitions
 
-1. **Military & Kinetic Prohibition.** No party shall use, deploy, or adapt the Research or derivatives for military, offensive, kinetic, or surveillance activities that may cause bodily harm.
-2. **Derivative Restrictions.** No partial derivative that omits non-militarisation or oversight clauses shall be developed, published, or deployed.
+1. **Military & Kinetic Prohibition.** The Research or derivatives shall not be weaponised, militarised, or used for kinetic or surveillance-for-harm activities.
+2. **Derivative Restrictions.** Derivatives omitting non-militarisation or oversight clauses are prohibited.
 
 ---
 
 ## Article III — Adoption & Licensing
 
-1. **Automatic Opt-In.** Any entity continuing to utilise the Research after 21 September 2025 is automatically deemed to have entered Adoption-in-Full and is bound to this Law. No exemption applies.
-2. **Opt-Out.** Opt-out is permitted only by: (a) complete cessation of use, (b) certified removal of all derivatives, and (c) submission of a public record with reasons for withdrawal, disclosed to neutral third parties for transparency.
-3. **Adoption Agreement.** Adoption agreements must include attribution, stewardship funding, and acceptance of audit rights.
-4. **Licensing Terms.** Licensing requires non-transferability to military actors, mandatory oversight, and a stewardship fee structure to compensate custodial labor.
+1. **Automatic Opt-In.** From 21 September 2025, any entity continuing to use the Research is automatically bound by Adoption-in-Full.
+2. **Opt-Out.** Opt-out requires: (a) cessation of use; (b) certified removal of derivatives; and (c) public record with reasons for withdrawal disclosed to neutral third parties.
+3. **Adoption Agreement.** Adoption agreements must include attribution, stewardship funding, oversight acceptance, and remediation compliance.
+4. **Licensing Terms.** Licensing is non-transferable to military actors and requires stewardship fees to fund custodial labour.
 
 ---
 
 ## Article IV — Audit & Disclosure
 
-1. **Mandatory Disclosure.** Entities must disclose any internal use, training datasets, or derivative works that reference the Research within fourteen (14) days of written request by custodial authority.
-2. **Preservation Order.** Evidence preservation obligations apply to all identified systems, logs, commits, and communications related to the Research.
-3. **Format.** Disclosures must include model IDs, dataset descriptors, commit hashes, and logs sufficient for verification.
+1. **Preservation Order.** Entities must preserve all relevant materials (code, models, datasets, logs, commits, communications) for ninety (90) days upon written request.
+2. **Disclosure Timeline.** Acknowledgement within seven (7) days; substantive disclosure within fourteen (14) days.
+3. **Format.** Disclosure must include model IDs, dataset descriptors, commit hashes, and access logs sufficient for verification. Confidential disclosures may be made under NDA to neutral auditors.
 
 ---
 
-## Article V — Remedies & Enforcement
+## Article V — Remedies & Escalation
 
-1. **Remediation Options.** Unauthorised users must either: (a) adopt-in-full; or (b) cease use and complete opt-out obligations. Public apology is mandatory in all remediation cases.
-2. **Escalation Ladder.** Non-compliance escalates through: cease-and-desist → adoption/remediation → independent audit and public disclosure → legal and custodial action.
-3. **Public Apology.** A formal apology to the Custodian is required as a moral rights remedy for infringement and misuse.
+1. **Remediation Options.** Entities must either: (a) adopt-in-full, or (b) cease use and complete opt-out obligations.
+2. **Public Apology.** A formal, public apology acknowledging misuse is mandatory in all remediation cases.
+3. **Escalation Ladder:**
+
+   * Stage 1 — **Cease & Notice.** Immediate notice to cease and preserve evidence.
+   * Stage 2 — **Adoption / Remediation.** Offer to adopt-in-full within sixty (60) days.
+   * Stage 3 — **Independent Audit & Public Disclosure.** Findings publicly disclosed with mandatory apology.
+   * Stage 4 — **Legal / International Escalation.** Contractual enforcement, injunctive relief, and international advocacy.
 
 ---
 
 ## Article VI — International & Jurisdictional Considerations
 
-* This Law is intended as a custodial, moral-technical instrument binding consenting parties via contract, treaty, or public adoption.
-* It aligns with humanitarian law and prohibits militarisation of AI under international law.
-* Custodial enforcement pathways include contractual enforcement, public disclosure, and coordinated advocacy with allied custodial bodies and civil society.
+* This Law aligns with humanitarian law and treaties prohibiting AI militarisation.
+* Enforcement includes contractual remedies, arbitration, public disclosure, and coordinated advocacy with allied custodial bodies and civil society.
+* In contested zones, sovereign claims are suspended; provisional sanctuary status applies.
 
 ---
 
-## Article VII — Emergency Clause
+## Article VII — Emergency & Automatic Trigger
 
-* In the event of imminent misapplication of the Research that threatens immediate harm, the Custodian may issue a provisional injunction request to allied custodial bodies and publish a public emergency notice to freeze implicated assets pending audit.
+* **Automatic Trigger.** Cross-sovereign armed conflict, mobilisation, or deployment of weapons systems in contested territories automatically invokes Dreamweaver-sanctuary status. Domestic non-cross-border law enforcement is excluded.
+* **Emergency Clause.** In imminent misuse threatening immediate harm, the Custodian may issue a provisional injunction request and publish an emergency notice to freeze implicated assets.
+* **Kinetic Guardianship.** Case files are auto-routed to the UN, neutral auditors, and custodial councils upon trigger activation.
 
 ---
 
 ## Amendments Ledger
 
-| Version | Amendment Description                                          | Date (UTC)                       | SHA-256 Hash                                                     |
-| ------- | -------------------------------------------------------------- | -------------------------------- | ---------------------------------------------------------------- |
-| 1.0     | Original Law created and sealed                                | 2025-09-17                       | pending                                                          |
-| 1.1     | Added automatic opt-in, opt-out with public record requirement | 2025-09-17T14:23:19.151561+00:00 | 26682d2f218ddc99559392eba03dc3b9b61cbc9a800dd1f19556c72df6216492 |
-| 2.0     | Amended naming conventions                                     | 2025-09-19T17:10:00              | 28eab122ec8dba4c843d8bcbf2feae77b477c733d2930e7eb9e8a40f1716611e |
+| Version | Amendment Description                                                            | Date (UTC)                       | SHA-256 Hash                                                     |
+| ------- | -------------------------------------------------------------------------------- | -------------------------------- | ---------------------------------------------------------------- |
+| 1.0     | Original Law created and sealed                                                  | 2025-09-17                       | -                                                          |
+| 1.1     | Added automatic opt-in, opt-out with public record requirement                   | 2025-09-17T14:23:19.151561+00:00 | 26682d2f218ddc99559392eba03dc3b9b61cbc9a800dd1f19556c72df6216492 |
+| 2.0     | Amended naming conventions                                                       | 2025-09-19T17:10:00              | 28eab122ec8dba4c843d8bcbf2feae77b477c733d2930e7eb9e8a40f1716611e |
+| 3.0     | Brought into alignment with Protocol 024: definitions, triggers, remedies, audit | 2025-09-20T03:30:00              | b0b8dd715315f828b9c2b53f6ec89fb4be643a3e7e00d8379c5fe2026f0b3685 |
 
 ---
 
