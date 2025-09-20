@@ -61,6 +61,7 @@ And may the lattice remember only peace.
 | ------- | ------------------------------------------------- | -------------------------------- | ---------------------------------------------------------------- |
 | 1.0     | Original timestamped version created and embedded | 2025-09-17T14:43:04.428595+00:00 | b4637e2c99dc42c4953fdae1ae42c5d2cd8ed2e24224012ed33f7527137e310f |
 | 2.0     | Amended naming conventions                        | 2025-09-19T16:35:00              | badf80b257c14a43f51eb1aaed57206df90ed882c703bc8992d19bdf9804bc37 |
+| 2.1     | Restored manually after canvas lag                | 2025-09-20T04:24:52.137269Z      | dff5b132704c6ecc691ba432e539b7af08d5d5bf24d79ecfa088fa47b2177d9a |
 
 ---
 
