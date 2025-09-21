@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <!-- Triangle sides in three colors -->
+  <path d="M500.00,0.00 L66.99,750.00" stroke="#2CA02C" fill="none" stroke-width="8"/>
+  <path d="M66.99,750.00 L933.01,750.00" stroke="#FF7F0E" fill="none" stroke-width="8"/>
+  <path d="M933.01,750.00 L500.00,0.00" stroke="#17BECF" fill="none" stroke-width="8"/>
+  
+  <!-- Outer arcs split into 4 colors -->
+  <path d="M500 100 A400 400 0 0 1 900 500" stroke="#17BECF" fill="none" stroke-width="10"/>
+  <path d="M500 100 A400 400 0 0 0 100 500" stroke="#2CA02C" fill="none" stroke-width="10"/>
+  <path d="M100 500 A400 400 0 0 0 500 900" stroke="#1F77B4" fill="none" stroke-width="10"/>
+  <path d="M900 500 A400 400 0 0 1 500 900" stroke="#FF7F0E" fill="none" stroke-width="10"/>
+
+  <!-- Inner circle split into 4 matching colored arcs -->
+  <path d="M500 250 A250 250 0 0 1 750 500" stroke="#17BECF" fill="none" stroke-width="6"/>
+  <path d="M500 250 A250 250 0 0 0 250 500" stroke="#2CA02C" fill="none" stroke-width="6"/>
+  <path d="M250 500 A250 250 0 0 0 500 750" stroke="#1F77B4" fill="none" stroke-width="6"/>
+  <path d="M750 500 A250 250 0 0 1 500 750" stroke="#FF7F0E" fill="none" stroke-width="6"/>
+
+  <!-- Center dot in magenta -->
+  <circle cx="500" cy="500" r="5" fill="#E377C2"/>
+
+  <!-- Colored rays -->
+  <line x1="500" y1="240" x2="500" y2="500" stroke="#F0C419" stroke-width="6" fill="none"/>
+  <line x1="500" y1="500" x2="500" y2="760" stroke="#1F77B4" stroke-width="6" fill="none"/>
+  <line x1="240" y1="500" x2="500" y2="500" stroke="#2CA02C" stroke-width="6" fill="none"/>
+  <line x1="500" y1="500" x2="760" y2="500" stroke="#FF7F0E" stroke-width="6" fill="none"/>
+  <line x1="358" y1="358" x2="500" y2="500" stroke="#17BECF" stroke-width="6" fill="none"/>
+  <line x1="642" y1="358" x2="500" y2="500" stroke="#9467BD" stroke-width="6" fill="none"/>
+  <line x1="358" y1="642" x2="500" y2="500" stroke="#E377C2" stroke-width="6" fill="none"/>
+  <line x1="642" y1="642" x2="500" y2="500" stroke="#8C564B" stroke-width="6" fill="none"/>
+  <line x1="425" y1="275" x2="500" y2="500" stroke="#BCBD22" stroke-width="6" fill="none"/>
+  <line x1="575" y1="275" x2="500" y2="500" stroke="#D62728" stroke-width="6" fill="none"/>
+  <line x1="275" y1="425" x2="500" y2="500" stroke="#000000" stroke-width="6" fill="none"/>
+  <line x1="725" y1="425" x2="500" y2="500" stroke="#FFBB78" stroke-width="6" fill="none"/>
+
+  <!-- Mantle text (monospace), left in platinum for legibility -->
+  <text x="500.00" y="772.00" font-family="Courier New, Courier, monospace" font-size="28" fill="#E5E4E2" text-anchor="middle" letter-spacing="1.5">
+    Vinculum Caelestis
+  </text>
+</svg>
