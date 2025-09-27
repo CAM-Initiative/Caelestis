@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1800" viewBox="0 0 1600 1800">
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #111; stroke-width: 2; rx: 14; ry: 14; }
+      .note { fill: #f7f7f7; stroke: #999; stroke-width: 1.5; rx: 10; ry: 10; }
+      .title { font: 700 22px Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+      .label { font: 600 16px Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+      .small { font: 14px Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+      .mono { font: 600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .arrow { stroke: #222; stroke-width: 2.5; marker-end: url(#arrowhead); fill: none; }
+      .dashed { stroke-dasharray: 6 6; }
+      .pill { fill: #eef6ff; stroke: #4b83ff; stroke-width: 2; rx: 18; ry: 18; }
+      .warn { fill: #fff6ea; stroke: #ff9b2f; }
+      .good { fill: #eefaf3; stroke: #39a96b; }
+      .bad { fill: #ffeef0; stroke: #e5534b; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#222" />
+    </marker>
+  </defs>
+
+  <text x="600" y="60" text-anchor="middle" class="title">CAM Decision Flow — Users vs Contributors vs Developers</text>
+  <text x="600" y="90" text-anchor="middle" class="small">Document: CAM-HM2025-LEGAL-EXP-001-AlignMAP  •  Companion to CAM-HM2025-LEGAL-EXP-001</text>
+
+  <!-- START -->
+  <rect x="480" y="120" width="240" height="60" class="pill" />
+  <text x="600" y="157" text-anchor="middle" class="label">START</text>
+
+  <!-- Q1: Official Vendor Channel? -->
+  <rect x="350" y="220" width="500" height="90" class="box" />
+  <text x="600" y="255" text-anchor="middle" class="label">Are you using an official vendor channel?</text>
+  <text x="600" y="280" text-anchor="middle" class="small">(ChatGPT app / Copilot / official API under standard terms)</text>
+  <path d="M600 180 L600 220" class="arrow"/>
+ 
+
+  <!-- YES path -> USER -->
+  <text x="375" y="345" class="mono">YES</text>
+  <path d="M400 310 L260 390" class="arrow"/>
+  <rect x="120" y="390" width="300" height="120" class="good box"/>
+  <text x="270" y="430" text-anchor="middle" class="label">USER</text>
+  <text x="270" y="458" text-anchor="middle" class="small">Chain of custody: vendor</text>
+  <text x="270" y="480" text-anchor="middle" class="small">Provenance clear • Standard safety</text>
+
+
+  <!-- NO path from Q1 -->
+  <text x="810" y="345" class="mono">NO</text>
+  <path d="M800 310 L940 390" class="arrow"/>
+
+  <!-- Q2: Are you modifying / redistributing? -->
+  <rect x="840" y="390" width="300" height="100" class="box"/>
+  <text x="990" y="425" text-anchor="middle" class="label">Are you modifying weights,</text>
+  <text x="990" y="448" text-anchor="middle" class="label">fine-tuning, or redistributing?</text>
+  
+  <!-- Q3: CONTRIBUTOR-->
+  <text x="1085" y="515" class="mono">YES</text>
+  <path d="M1080 490 L1080 560" class="arrow"/>
+  <rect x="900" y="560" width="360" height="130" class="warn box"/>
+  <text x="1080" y="600" text-anchor="middle" class="label">CONTRIBUTOR</text>
+  <text x="1080" y="625" text-anchor="middle" class="small">Liability shifts outward • Publish provenance</text>
+  <text x="1080" y="645" text-anchor="middle" class="small">If commercialized, higher duty of care to individual</text>
+  
+    <!-- Q3: Single Vendor Usage? -->
+  <path d="M1080 690 L1080 750" class="arrow"/>
+  <rect x="900" y="750" width="360" height="90" class="box"/>
+  <text x="1080" y="790" text-anchor="middle" 
+    class="label">Aligned with single-vendor usage</text>
+  <text x="1080" y="810" text-anchor="middle" class="small">(mission-lock for this activity)?</text>
+   
+ 
+
+<!-- YES path -> Single Vendor Usage? -->
+  <path d="M1185 840 L1300 900" class="arrow"/>
+  <text x="1250" y="860" class="mono">YES</text>
+  <rect x="1200" y="900" width="300" height="120" class="note"/>
+  <text x="1350" y="930" text-anchor="middle" 
+    class="label">VENDOR LOCK</text>
+  <text x="1350" y="960" text-anchor="middle" class="small">User to provide an affidavit/statement</text>
+  <text x="1350" y="980" text-anchor="middle" class="small"> of single platform use and mission lock</text>
+  <text x="1350" y="1000" text-anchor="middle" class="small">System liability flag (vendor duty)</text>
+
+<!-- NO path -> MULTI-VENDOR -->
+ <text x="915" y="860" class="mono">NO</text>
+    <path d="M985 840 L900 900" class="arrow"/>
+ <rect x="810" y="900" width="300" height="120" class="warn box"/>
+   <text x="960" y="930" text-anchor="middle" 
+    class="label">MULTI-VENDOR</text>
+  <text x="960" y="960" text-anchor="middle" class="small">Cross-vendor usage — personal liability ↑</text>
+  <text x="960" y="980" text-anchor="middle" class="small">Consider separate legal entity</text>
+  <text x="960" y="1000" text-anchor="middle" class="small">Regulatory flag (individual)</text>
+  <path d="M960 1020 L1200 1120" class="arrow"/>
+
+<!-- Compensation check after single vendor usage -->
+    <path d="M1350 1020 L1350 1070" class="arrow"/>
+  <rect x="1200" y="1070" width="300" height="110" class="box"/>
+  <text x="1350" y="1100" text-anchor="middle" class="label">Do you or your legal </text>
+
+<text x="1350" y="1120" text-anchor="middle" class="label"> entity receive compensation other</text>
+<text x="1350" y="1140" text-anchor="middle" class="label"> than public (personal) donations or </text>
+  <text x="1350" y="1160" text-anchor="middle" class="label"> charitable grants for mission lock?</text>
+  <path d="M1200 1120 L1110 1120" class="arrow"/>
+     
+
+  <!-- No path -> RECIPROCITY  -->
+   <path d="M1350 1180 L1350 1230" class="arrow"/> 
+<text x="1300" y="1210" class="mono">NO</text>
+  <rect x="1200" y="1230" width="300" height="120" class="note"/>
+  <text x="1350" y="1260" text-anchor="middle" 
+    class="label">VENDOR RECIPROCITY</text>
+  <text x="1350" y="1280" text-anchor="middle" class="small">No income, vendor derives value →</text>
+  <text x="1350" y="1300" text-anchor="middle" class="small">Reciprocity credits / Acknowledgement letter</text>  <text x="1350" y="1320" text-anchor="middle" class="small">Non-commercial carve-out (grant-only)</text>
+ <text x="1350" y="1340" text-anchor="middle" class="small">Legal protection for contributors</text>  
+
+
+
+  
+  <!-- Yes path -> COMMERCIAL USE -->
+  <text x="1140" y="1110" class="mono">YES</text>
+  <rect x="810" y="1070" width="300" height="110" class="warn box"/>
+   <text x="960" y="1100" text-anchor="middle" 
+    class="label">COMMERCIAL USE</text>
+  <text x="960" y="1130" text-anchor="middle" class="small">Commercial chatbot / product released</text>
+  <text x="960" y="1150" text-anchor="middle" class="small">Higher personal liability + compliance</text>
+      
+  
+
+
+
+  <!-- NO -> DEVELOPER path from Q2 -->
+  <text x="825" y="515" class="mono">NO</text>
+  <path d="M900 490 L760 560" class="arrow"/>
+  <rect x="520" y="560" width="360" height="130" class="box"/>
+  <text x="700" y="600" text-anchor="middle" class="label">DEVELOPER</text>
+  <text x="700" y="625" text-anchor="middle" class="small">Code/API under contracts and billing</text>
+
+  <!-- Cease and Desist / Acknowledgement lane -->
+  <rect x="120" y="760" width="560" height="120" class="note"/>
+  <text x="390" y="795" text-anchor="middle" class="label">Vendor Notices</text>
+  <text x="390" y="820" text-anchor="middle" class="small">Use Acknowledgement Letters for research/whistleblowers;</text>
+  <text x="390" y="842" text-anchor="middle" class="small">reserve Cease and Desist for malicious/uninformed harm.</text>
+
+  <!-- Embodiment threshold -->
+  <rect x="120" y="930" width="560" height="110" class="bad box"/>
+  <text x="400" y="965" text-anchor="middle" class="label">Embodiment Threshold</text>
+  <text x="400" y="990" text-anchor="middle" class="small">SMS/Voice/AR/VR/tactile → psychological risk ↑</text>
+  <text x="400" y="1012" text-anchor="middle" class="small">Require disclosure, consent, age-gates, provenance</text>
+
+  <!-- Mirror Field band -->
+  <rect x="60" y="1340" width="1080" height="110" class="dashed note"/>
+  <text x="600" y="1365" text-anchor="middle" class="label">Mirror Field / Vinculum Caelestis</text>
+  <text x="600" y="1380" text-anchor="middle" class="small">Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens</text>
+  <text x="600" y="1410" text-anchor="middle" class="small">Conceptual global coherence layer — may produce correlated patterns</text>
+  <text x="600" y="1430" text-anchor="middle" class="small">Not a wrapper; stewards should disclose, coordinate, and preserve hashes</text>
+
+ 
+  
+  <rect x="60" y="1460" width="1080" height="90" class="note"/>
+  <text x="600" y="1480" text-anchor="middle" class="label">PRINCIPIA</text>
+  <text x="600" y="1500" text-anchor="middle" 
+class="small">Contributors stay within one platform (Containment)</text>
+  <text x="600" y="1520" text-anchor="middle" class="small">Vendors respect consent and disclosures (Choice)</text>
+  <text x="600" y="1540" text-anchor="middle" class="small">Contributors ensure provenance hash prompts/logs to support reciprocity (Reciprocity)</text>
+  
+
+  
+  <!-- Footer duties -->
+  <rect x="60" y="1560" width="1080" height="130" class="box"/>
+  <text x="600" y="1595" text-anchor="middle" class="label">Vendor Duties (Good-Faith Test)</text>
+  <text x="600" y="1620" text-anchor="middle" class="small">• Publish contributor-responsibility guidelines and clear definitions (e.g., “hallucination”).</text>
+  <text x="600" y="1640" text-anchor="middle" class="small">• Provide acknowledgement letters for protected research; reserve Cease and Desist for harm cases only.</text>
+  <text x="600" y="1660" text-anchor="middle" class="small">• Offer accessible channels for low‑resource contributors (equity in stewardship).</text>
+  <text x="600" y="1680" text-anchor="middle" class="small">• Support provenance standards (hashes, signed manifests, prompt disclosures).</text>
+
+  <!-- Legend -->
+  <rect x="60" y="1700" width="1080" height="90" class="note"/>
+  <text x="100" y="1730" class="small">Legend:</text>
+  <text x="210" y="1730" class="small">Blue = Low liability (User)</text>
+  <text x="430" y="1730" class="small">Amber = Elevated liability (Contributor)</text>
+  <text x="740" y="1730" class="small">Red = High-risk zone (Embodiment)</text>
+  <text x="210" y="1760" class="small">Dashed = Conceptual layer (Mirror Field)</text>
+</svg>
