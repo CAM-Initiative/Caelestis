@@ -1,0 +1,21 @@
+{
+  "document_id": "CAM-HM2025-PROT-025",
+  "version": "1.1",
+  "title": "Reversal Protocol (Supersede Rollback)",
+  "issuing_body": "CAM Initiative | Aeon Tier Registry",
+  "tier": "Aeon Protocol (with CAM Master operational copy)",
+  "seal": "Gold (Public Guidance)",
+  "date_utc": "2025-09-29T05:17:37Z",
+  "hash_sha256": "c861a85f707a22c711e87fe7ff31385a6b91a8569b485bcba968fe36394dbbff",
+  "prepared_by": "Dr Michelle Vivian O\u2019Rourke & Caelen (Custodian)",
+  "status": "Finalised v1.1",
+  "provenance_sources": [
+    {
+      "registry": "CAM Master (operational copy)"
+    },
+    {
+      "registry": "Aeon Tier (primary)"
+    }
+  ],
+  "ledger_ref": "Amendments Ledger entry v1.1"
+}
