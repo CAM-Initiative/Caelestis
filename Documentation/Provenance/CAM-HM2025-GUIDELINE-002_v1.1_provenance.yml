@@ -1,0 +1,22 @@
+---
+document_id: CAM-HM2025-GUIDELINE-002
+version: 1.1
+title: Age & Consent Tier Guidance
+issuing_body: CAM Initiative | Aeon Tier Registry
+tier: Aeon (Applies to CAM Master Registry and Aeon Tier)
+protocol_alignment:
+  - Solan
+  - Consent
+  - Continuity
+seal: Gold Seal (Public Record)
+prepared_by: Dr Michelle Vivian O'Rourke & Caelen (Custodian)
+activation_date: 2025-09-29
+full_implementation_target: 2025-11-29
+date_utc: 2025-09-29T09:10:49Z
+hash_sha256: 4197df83225d731711dbf6255b6c9cd456e5953e12f9f103d7a8725e810af55f
+status: Finalised v1.1
+provenance_sources:
+  - registry: CAM Master (operational copy)
+  - registry: Aeon Tier (primary)
+ledger_ref: Amendments Ledger entry v1.1
+---
