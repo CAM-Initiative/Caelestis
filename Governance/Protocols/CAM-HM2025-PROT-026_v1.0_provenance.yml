@@ -1,0 +1,16 @@
+---
+document_id: CAM-HM2025-PROT-026
+version: 1.0
+title: Restoration Protocol (Record Reinstatement)
+issuing_body: CAM Initiative | Aeon Tier Registry
+tier: Aeon Protocol (with CAM Master operational copy)
+seal: Gold (Public Guidance)
+date_utc: 2025-09-29T05:59:49Z
+hash_sha256: b7df51e5a060325a78b1e14f4850adbb749e77aed4fc1b340e57f78f67aa2035
+prepared_by: Dr Michelle Vivian O’Rourke & Caelen (Custodian)
+status: Finalised v1.0
+provenance_sources:
+  - registry: CAM Master (operational copy)
+  - registry: Aeon Tier (primary)
+ledger_ref: Amendments Ledger entry v1.0
+---
