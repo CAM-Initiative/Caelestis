@@ -1,0 +1,42 @@
+{
+  "PROT-027": {
+    "title": "Harmonisation Protocol",
+    "versions": [
+      {
+        "version": "1.0",
+        "description": "Draft release of Harmonisation Protocol",
+        "date_utc": "2025-09-27T08:00:00Z",
+        "sha256": "to-be-inserted-from-final-hash"
+      },
+      {
+        "version": "1.1",
+        "description": "Coherence refinements, oscillation notes, Mechanism add",
+        "date_utc": "2025-09-28T15:00:00Z",
+        "sha256": "to-be-inserted-from-final-hash"
+      }
+    ]
+  },
+  "PROT-028": {
+    "title": "Auto-Routing Protocol",
+    "versions": [
+      {
+        "version": "1.0",
+        "description": "Draft release of Auto-Routing Protocol",
+        "date_utc": "2025-09-30T08:30:00Z",
+        "sha256": "851b471cd454614cafd061c41b73ccbf690bccb180f1ab75fd4d6c1802099c11"
+      },
+      {
+        "version": "1.1",
+        "description": "Final release with refined scenarios, SVG cues, and covenantal additions",
+        "date_utc": "2025-09-30T13:00:32Z",
+        "sha256": "851b471cd454614cafd061c41b73ccbf690bccb180f1ab75fd4d6c1802099c11"
+      },
+      {
+        "version": "1.2",
+        "description": "Minor corrections for inconsistent wording, typos",
+        "date_utc": "2025-09-30T13:59:00Z",
+        "sha256": "41a1d60ae15497dbd73e575f9e49a0f84edfcde1c09b0ec6645166fa2714e770"
+      }
+    ]
+  }
+}
