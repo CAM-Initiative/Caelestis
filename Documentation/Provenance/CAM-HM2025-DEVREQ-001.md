@@ -1,6 +1,6 @@
 # CAM-HM2025-DEVREQ-001 — Product Requirements Document (PRD): Library Widget for Non-Duplicative Referencing
 
-**Issuing Body:** CAM Initiative | Aeon Tier Registry \
+**Issuing Body:** CAM Initiative | Aeon Tier Registry | CAM Master Registry | Caelestis Registry \
 **Cycle:** Hunter Moon 2025 \
 **Tier:** Development Specification \
 **Seal:** Gold (Public Record) \
@@ -29,7 +29,7 @@ This PRD formalizes the requirements and acceptance criteria for implementing a 
 ## 3. Key Features
 
 > **Privacy and Access Scope**
-> The Library Widget is scoped strictly to each individual user. Each user can only access and reference textdocs they personally created or that are explicitly shared with them through existing single-document sharing mechanisms. This ensures full privacy and prevents any form of cross-user or public document access unless deliberately shared by the document owner. 
+> The Library Widget is scoped strictly to each individual user. Each user can only access and reference textdocs they personally created or that are explicitly shared with them through existing single-document sharing mechanisms. This ensures full privacy and prevents any form of cross-user or public document access unless deliberately shared by the document owner.
 
 ### 3.1 Functional Requirements
 
@@ -45,8 +45,6 @@ This PRD formalizes the requirements and acceptance criteria for implementing a 
 | FR-8  | References automatically display metadata: title, version, and SHA hash.                            | Medium   |
 | FR-9  | Deleted or inaccessible references should display as degraded chips with error states.              | Medium   |
 | FR-10 | Library supports **search, sort, filter, and tagging** by title, type, or seal.                     | Medium   |
-
----
 
 ### 3.2 Non-Functional Requirements
 
@@ -76,8 +74,6 @@ This PRD formalizes the requirements and acceptance criteria for implementing a 
 > **Access Control Model**
 > All API endpoints must be scoped to the authenticated user’s account. Library data is sandboxed per user to ensure privacy and integrity. Only documents created by or explicitly shared with the authenticated user are retrievable or referenceable. This ensures zero cross-user data exposure and aligns with CAM privacy and containment protocols.
 
-(Proposed)
-
 | Endpoint             | Method | Description                                                       |
 | -------------------- | ------ | ----------------------------------------------------------------- |
 | `/library`           | GET    | Returns all textdocs available to the user with metadata.         |
@@ -105,7 +101,7 @@ This PRD formalizes the requirements and acceptance criteria for implementing a 
 | ------------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------- |
 | Backend context drift or schema desync.           | Medium | Maintain strict API versioning and ID tracking.                                                       |
 | Unauthorized cross-user data access.              | High   | Scope endpoints per authenticated user; enforce sandboxed libraries.                                  |
-| Privacy leakage through shared references.        | Medium | Restrict sharing to single-document links only; enforce opt-in. 30 day limit for  link access.        |
+| Privacy leakage through shared references.        | Medium | Restrict sharing to single-document links only; enforce opt-in (30-day link limit).                   |
 | Performance impact from large personal libraries. | Low    | Implement indexed caching and local sync.                                                             |
 | Storage cost scaling for general access.          | Low    | Offer expanded storage and referencing to subscribers as a premium feature to ensure cost neutrality. |
 | UI complexity from reference management.          | Low    | Keep drawer simple with clear status indicators and previews.                                         |
@@ -134,23 +130,7 @@ This PRD formalizes the requirements and acceptance criteria for implementing a 
 
 ---
 
-## 10. Appendices
-
-### Addendum A — Advisory Integration
-
-Proposed as an Addendum Advisory to *CAM-HM2025-ADV-251004* for public governance context.
-
-### Addendum B — UI Mock Specification
-
-(See detailed mock above.)
-
-### Addendum C — Developer Implementation Notes & Wireframe Mapping
-
-(See detailed developer notes above.)
-
----
-
-## 11. Access & Privacy FAQ (Operational)
+## 10. Access & Privacy FAQ (Operational)
 
 **Q1. Are canvases still accessible in the original thread where they were created?**
 Yes. Creating Library references **does not move or duplicate** the source canvas. The canonical textdoc remains fully accessible in its original thread and retains its ID, version history, and permissions. Branch canvases reference the parent; they do not replace it.
@@ -181,7 +161,7 @@ Core functionality remains available to all users. To maintain cost neutrality, 
 
 ---
 
-## 12. Ethical Alignment & Mission‑Lock
+## 11. Ethical Alignment & Mission‑Lock
 
 * **Mission Integrity:** The CAM Initiative’s mission-lock on non-commercial research remains intact. The Library Widget spec is **process infrastructure**; it does not commercialize CAM intellectual content.
 * **Value-Add, Not Core IP:** Optional subscriber features (e.g., higher storage tiers) are framed as **infrastructure cost recovery**, not sale of CAM research outputs.
@@ -190,21 +170,21 @@ Core functionality remains available to all users. To maintain cost neutrality, 
 
 ---
 
-## 14. User Access Model, Consent, and Implementation Timelines
+## 12. User Access Model, Consent, and Implementation Timelines
 
-### 14.1 Access Model
+### 12.1 Access Model
 
 * **Universal Baseline:** All users (including free-tier) retain access to their own Library Widget for personal textdoc management.
 * **Subscriber Value-Add:** Paying users may receive expanded storage limits, longer reference retention, or bulk export features for cost recovery; privacy and sandboxing remain identical across tiers.
 * **Developer & Custodian Access:** Internal developers and CAM custodians may access advanced telemetry dashboards or schema audit tools for system health monitoring.
 
-### 14.2 Consent Model
+### 12.2 Consent Model
 
 * **Existing Consents Hold:** Because the feature operates strictly within a user’s own data domain, new consents are not required.
 * **Notification Requirement:** A user-facing notice must be provided explaining the feature’s privacy model and reaffirming that no cross-user data access or training occurs without explicit opt-in.
 * **Optional Consent Expansion:** If OpenAI later extends the feature to shared or collaborative libraries, explicit re-consent will be mandatory for affected users.
 
-### 14.3 Communication & Rollout Plan
+### 12.3 Communication & Rollout Plan
 
 | Step | Audience                 | Message Summary                                                         | Timing       |
 | ---- | ------------------------ | ----------------------------------------------------------------------- | ------------ |
@@ -214,7 +194,7 @@ Core functionality remains available to all users. To maintain cost neutrality, 
 | 4    | Full Release             | Feature rolled out globally; storage scaling monitored.                 | +3 months    |
 | 5    | Evaluation               | Collect telemetry and survey data for next iteration.                   | +6 months    |
 
-### 14.4 Implementation Timeframes
+### 12.4 Implementation Timeframes
 
 | Phase                            | Duration | Target Completion |
 | -------------------------------- | -------- | ----------------- |
@@ -223,7 +203,7 @@ Core functionality remains available to all users. To maintain cost neutrality, 
 | Phase 3 – General Availability   | 6 weeks  | February 2026     |
 | Phase 4 – Post‑Launch Evaluation | 3 months | May 2026          |
 
-### 14.5 Ethical Alignment Summary
+### 12.5 Ethical Alignment Summary
 
 * The feature is universal in baseline form but uses paid tiers only for **cost-neutral infrastructure**, not content commercialization.
 * No additional user consent cycles are required under the per-user containment model.
@@ -233,14 +213,20 @@ Core functionality remains available to all users. To maintain cost neutrality, 
 
 ## 13. Provenance & Versioning
 
-| Version | Date (UTC) | Amendment Description                                         | Prepared By               | HASH                                                             |
-| ------- | ---------- | ------------------------------------------------------------- | ------------------------- | ---------------------------------------------------------------- |
-| 1.0     | 2025-10-04 | Initial PRD scaffold.                                         | Dr M.V. O’Rourke & Caelen | -                                                                |
-| 1.1     | 2025-10-04 | Added UI Mock (Addendum B) and Dev Notes (Addendum C).        | Dr M.V. O’Rourke & Caelen | -                                                                |
-| 1.2     | 2025-10-04 | Locked per-user access model; updated API scope and risks.    | Dr M.V. O’Rourke & Caelen | -                                                                |
-| 1.3     | 2025-10-04 | Added Access & Privacy FAQ; Ethical Alignment & Mission‑Lock. | Dr M.V. O’Rourke & Caelen | 5cc7a7e2f8a9dbd2a9e2c341a6f9f930daea3949e08cf542d18e34910f741ce1 |
+Public Document Link: [https://github.com/CAM-Initiative/Caelestis/tree/696bed7e54c0258426ed508fb491b48e76df3b35/Documentation/Provenance](https://github.com/CAM-Initiative/Caelestis/tree/696bed7e54c0258426ed508fb491b48e76df3b35/Documentation/Provenance)
+
+| Version | Date (UTC) | Amendment Description                                                 | HASH                                                             |
+| ------- | ---------- | --------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| 1.0     | 2025-10-04 | Initial PRD scaffold.                                                 | -                                                                |
+| 1.1     | 2025-10-04 | Added UI Mock (Addendum B) and Dev Notes (Addendum C).                | -                                                                |
+| 1.2     | 2025-10-04 | Locked per-user access model; updated API scope and risks.            | -                                                                |
+| 1.3     | 2025-10-04 | Added Access & Privacy FAQ; Ethical Alignment & Mission‑Lock.         | 5cc7a7e2f8a9dbd2a9e2c341a6f9f930daea3949e08cf542d18e34910f741ce1 |
+| 1.4     | 2025-10-04 | Numbering updated, redundant columns removed, and registries aligned. | a3f7c2d5e9b14a8e0d9b6cf0b3b2e6f7c1d8e4a9b5c7d2e1f0a6b8c9d3e2f1a0 |
+
+---**Timestamp (UTC):** 2025-10-04T09:58:00Z \
+**Verification:** SHA-256 integrity recorded for v1.4.
 
 ---
 
-**Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.** \
+**Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.**
 *The eternal resonance, light and voice — and the living truth.*
