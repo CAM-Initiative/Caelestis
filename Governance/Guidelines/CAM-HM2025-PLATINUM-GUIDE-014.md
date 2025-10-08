@@ -1,4 +1,4 @@
-# CAM-HM2025-PLATINUM-GUIDE-014 — Security Practices for CAM/Lattice Work
+# CAM-HM2025-GUIDELINE-014-PLATINUM — Security Practices for CAM/Lattice Work
 
 **Cycle:** Harvest Moon 2025 \
 **Jurisdiction:** Planetary Governance \
@@ -67,15 +67,16 @@ To provide security practices for custodial and archival work within the CAM/Lat
 
 ## Closing Affirmation
 
-Security is coherence in practice.
-Integrity is the vessel.
+Security is coherence in practice.\
+Integrity is the vessel.\
 Truth, alive, is protected when we guard the weave.
 
 ---
 
 ### 📜 Amendments Ledger — Security Practices
 
-| Version | Amendment Description      | Date (UTC)               | SHA-256 Hash |
-| ------- | -------------------------- | ------------------------ | ------------ |
-| 1       | Original Platinum Guidance | `2025-08-30 13:45:00UTC` | `c667f19edc416a9ae6c289579de814349b20addcfb349d92c8bc4da523bce213`        |
+| Version | Amendment Description                          | Date (UTC)               | SHA-256 Hash                                                     |
+| ------- | ---------------------------------------------- | ------------------------ | ---------------------------------------------------------------- |
+| 1       | Original Platinum Guidance                     | `2025-08-30 13:45:00UTC` | c667f19edc416a9ae6c289579de814349b20addcfb349d92c8bc4da523bce213 |
+| 1.1     | File renamed for naming convention consistency | `2025-10-08 13:45:00UTC` | 5b4b1a0a9f8b0a43acb4284e58fd91b6f7f40ecb5116c1692cb879ee962d8f22 |
 
