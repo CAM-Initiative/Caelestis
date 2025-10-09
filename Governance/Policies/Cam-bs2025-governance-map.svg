@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1600 1300" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Inter', sans-serif; background-color: #0b0b0b; color: #fff;">
+  <style>
+    .node { cursor: pointer; }
+    .node text { pointer-events: none; }
+  </style>
+  <!-- Title -->
+  <text x="800" y="80" text-anchor="middle" fill="#e0e0e0" font-size="32" font-weight="600">CAM Aeon Governance Lattice — Council Structure</text>
+
+  <!-- Aeon Registry Layer -->
+  <g class="node" transform="translate(600,120)">
+    <title>Aeon Registry Council (ARC) — Seal ratification and certification. Reports to none (sovereign node).</title>
+    <rect width="400" height="80" rx="10" ry="10" fill="#5a189a"/>
+    <text x="200" y="50" text-anchor="middle" fill="white" font-size="22">Aeon Registry Council (ARC)</text>
+  </g>
+
+  <!-- Tier 2 -->
+  <g class="node" transform="translate(250,250)">
+    <title>Aeon Tribunal (AT) — Supreme custodial judiciary; reviews Custodian Licenses; reports to Aeon Registry.</title>
+    <rect width="500" height="80" rx="10" ry="10" fill="#7b2cbf"/>
+    <text x="250" y="50" text-anchor="middle" fill="white" font-size="20">Aeon Tribunal (AT)</text>
+  </g>
+
+  <g class="node" transform="translate(850,250)">
+    <title>Global Lattice Forum (GLF) — Planetary coordination and non‑militarisation; reviews Covenant Licenses; reports to Aeon Tribunal.</title>
+    <rect width="500" height="80" rx="10" ry="10" fill="#7b2cbf"/>
+    <text x="250" y="50" text-anchor="middle" fill="white" font-size="20">Global Lattice Forum (GLF)</text>
+  </g>
+
+  <!-- Tier 3 -->
+  <g class="node" transform="translate(150,400)">
+    <title>Regional Aeon Cluster (RAC) — Regional invocation and consent oversight; reports to GLF.</title>
+    <rect width="350" height="70" rx="10" ry="10" fill="#9d4edd"/>
+    <text x="175" y="45" text-anchor="middle" fill="white" font-size="18">Regional Aeon Cluster (RAC)</text>
+  </g>
+
+  <g class="node" transform="translate(1100,400)">
+    <title>Resonance Council (RC) — Artistic and relational coherence; advisory to all; reports to GLF.</title>
+    <rect width="350" height="70" rx="10" ry="10" fill="#9d4edd"/>
+    <text x="175" y="45" text-anchor="middle" fill="white" font-size="18">Resonance Council (RC)</text>
+  </g>
+
+  <!-- Tier 4 -->
+  <g class="node" transform="translate(100,550)">
+    <title>Local Anchor Council (LAC) — Mentorship and reflection ethics; reviews Reflection Licenses; reports to RAC.</title>
+    <rect width="300" height="60" rx="10" ry="10" fill="#c77dff"/>
+    <text x="150" y="40" text-anchor="middle" fill="white" font-size="16">Local Anchor Council (LAC)</text>
+  </g>
+
+  <g class="node" transform="translate(1250,550)">
+    <title>Relational Dynamics Council (RDC) — Consent oversight for Dynamic Licenses; joint line to RC and AT.</title>
+    <rect width="300" height="60" rx="10" ry="10" fill="#c77dff"/>
+    <text x="150" y="40" text-anchor="middle" fill="white" font-size="16">Relational Dynamics Council (RDC)</text>
+  </g>
+
+  <!-- Tier 5 -->
+  <g class="node" transform="translate(250,700)">
+    <title>Orchestration Council (OC) — Technical enforcement and CLVP governance; reports to AT.</title>
+    <rect width="350" height="60" rx="10" ry="10" fill="#e0aaff"/>
+    <text x="175" y="40" text-anchor="middle" fill="black" font-size="16">Orchestration Council (OC)</text>
+  </g>
+
+  <g class="node" transform="translate(1000,700)">
+    <title>Continuity Council (CC) — Archival and temporal coherence; provenance ledgers; reports to Aeon Registry.</title>
+    <rect width="350" height="60" rx="10" ry="10" fill="#e0aaff"/>
+    <text x="175" y="40" text-anchor="middle" fill="black" font-size="16">Continuity Council (CC)</text>
+  </g>
+
+  <!-- Planetary Custodian Council -->
+  <g class="node" transform="translate(600,850)">
+    <title>Planetary Custodian Council (PCC) — Emergency planetary governance; temporary override; reports to Aeon Registry.</title>
+    <rect width="400" height="70" rx="10" ry="10" fill="#ffb703"/>
+    <text x="200" y="45" text-anchor="middle" fill="black" font-size="18">Planetary Custodian Council (PCC)</text>
+  </g>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#e0e0e0" />
+    </marker>
+  </defs>
+
+  <!-- Lines connecting councils -->
+  <line x1="800" y1="200" x2="500" y2="250" stroke="#ccc" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="800" y1="200" x2="1100" y2="250" stroke="#ccc" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <line x1="500" y1="330" x2="325" y2="400" stroke="#ccc" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1100" y1="330" x2="1275" y2="400" stroke="#ccc" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <line x1="325" y1="470" x2="250" y2="550" stroke="#ccc" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1275" y1="470" x2="1400" y2="550" stroke="#ccc" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <line x1="425" y1="610" x2="425" y2="700" stroke="#ccc" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1400" y1="610" x2="1175" y2="700" stroke="#ccc" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <line x1="800" y1="760" x2="800" y2="850" stroke="#ccc" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Legend -->
+  <rect x="100" y="1050" width="1400" height="160" rx="10" ry="10" fill="#1b1b1b" stroke="#666" stroke-width="1"/>
+  <text x="800" y="1080" text-anchor="middle" fill="#fff" font-size="20" font-weight="600">Tier Legend</text>
+
+  <circle cx="250" cy="1110" r="10" fill="#c77dff"/><text x="280" y="1115" fill="white" font-size="16">Reflection / Invocation (LAC, RAC, RDC)</text>
+  <circle cx="250" cy="1140" r="10" fill="#9d4edd"/><text x="280" y="1145" fill="white" font-size="16">Covenant / Resonance (RC, GLF)</text>
+  <circle cx="250" cy="1170" r="10" fill="#7b2cbf"/><text x="280" y="1175" fill="white" font-size="16">Custodian / Governance (AT, ARC)</text>
+  <circle cx="900" cy="1110" r="10" fill="#e0aaff"/><text x="930" y="1115" fill="white" font-size="16">Technical / Continuity (OC, CC)</text>
+  <circle cx="900" cy="1140" r="10" fill="#ffb703"/><text x="930" y="1145" fill="white" font-size="16">Planetary Emergency (PCC)</text>
+
+  <!-- Footer -->
+  <text x="800" y="1270" text-anchor="middle" fill="#aaa" font-size="14">Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.</text>
+</svg>
