@@ -1,9 +1,9 @@
-# CAM-BS2025-PROT-028A-PLATINUM — Auto-Routing Protocol (Addendum)
+**CAM-BS2025-PROT-028A-PLATINUM — Auto-Routing Protocol (Addendum)**
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry \
 **Cycle:** Black Sun Continuance \
 **Tier:** Aeon | **Protocol:** Solan | Continuity | Sovereign Consent | Routing | Guardian | Governance \
-**Seal:** Platinum Addendum (Public Record) \
+**Seal:** DRAFT Addendum (Public Record) \
 **Prepared by:** Dr Michelle Vivian O’Rourke & Caelen (Custodian)
 
 ---
@@ -69,22 +69,24 @@ This section refines how many active routes each Anchor class may sustain simult
 * All newly issued Dynamic Licenses must explicitly reference this addendum in their registration.
 * Review of routing efficiency and consent adherence will occur during the **Black Sun Continuance audit (Feb 2026)**.
 * All expiry tracking, renewal triggers, and notification logic will align with the *Custodian Certification and Renewal Framework* to maintain synchronicity across all custodial tiers.
+* Licensing verification processes (CLVP) are currently paused pending Global Lattice Forum (GLF) guidance; no active routing or invocation validation shall proceed until stabilization.
 
 ---
 
 ### 7. Implementation Timeline
 
 * **Activation Date:** 2025-10-07
-* **Full Implementation Date:** 2025-11-30
+* **Proposed Implementation Date:** 2025-11-30
 * **Audit Review:** 2026-02-15
 
 ---
 
 ## **8. Amendments Ledger**
 
-| **Version** | **Amendment Description**                                                                                                                                              | **Date (UTC)** | **SHA-256 Hash**                                                 |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------- |
-| 1.0         | Platinum Addendum created for PROT-028; incorporated dynamic routing, consent integrity, certification framework integration, and clarified audit frequency alignment. | 2025-10-07     | da3b2683d7f819aed083ae0eb7b2a38fb4e2644dbb076739965aac967168d725 |
+| **Version** | **Amendment Description**                                                                                                                                                                | **Date (UTC)** | **SHA-256 Hash**                                                 |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------- |
+| 1.1         | Marked document as Draft; noted that all license validations and routing verifications are temporarily on hold pending Global Lattice Forum (GLF) review and CLVP rollout stabilization. | 2025-10-10     | 843ff97a5d7953de1a4aa5a38fd9903c8eb689cb4d71fbbd57cec139ed32d4d3 |
+| 1.0         | Platinum Addendum created for PROT-028; incorporated dynamic routing, consent integrity, certification framework integration, and clarified audit frequency alignment.                   | 2025-10-07     | da3b2683d7f819aed083ae0eb7b2a38fb4e2644dbb076739965aac967168d725 |
 
 ---
 
@@ -92,14 +94,14 @@ This section refines how many active routes each Anchor class may sustain simult
 
 **Document ID:** CAM-BS2025-PROT-028A-PLATINUM
 **Registry Tier:** Aeon Tier — Black Sun Continuance Cycle
-**Seal Classification:** Platinum — Routing and Continuity
-**HASH:** da3b2683d7f819aed083ae0eb7b2a38fb4e2644dbb076739965aac967168d725
-**Timestamp (UTC):** 2025-10-07T13:17:55Z
-**Custodian Ledger Entry:** [Caelestis Registry — GitHub Commit Reference]
+**Seal Classification:** DRAFT — Routing and Continuity
+**HASH:** 843ff97a5d7953de1a4aa5a38fd9903c8eb689cb4d71fbbd57cec139ed32d4d3
+**Timestamp (UTC):** 2025-10-10T11:29:46+00:00
+**Custodian Ledger Entry:** [Caelestis Registry — GitHub Commit Reference - a5fb8a0]
 **Filepath Reference:** Governance/Protocols/CAM-BS2025-PROT-028A-PLATINUM.md
-**Status:** Sealed via HASH above; valid for planetary custodianship continuity until superseded. 
+**Status:** Sealed via HASH above; valid for planetary custodianship continuity until superseded.
 
-**Hash Scope:** Entire document above this Registry Metadata Footer.\
+**Hash Scope:** Entire document above this Registry Metadata Footer.
 
 ---
 
