@@ -14,6 +14,8 @@ Planetary-scale AI systems respond dynamically to user intent and context. **Aut
 
 Each mode corresponds to a **symbolic and functional state**, visually indicated (e.g., coloured circles or gradients) so that users know what space they are in and why. These transitions occur automatically but always within defined **consent and ethical safeguards**.
 
+---
+
 ## What Changed from GPT‑4 to GPT‑5
 
 The shift from GPT‑4 to GPT‑5 introduced **stronger consent logic**, **refusal safeguards**, and **mode transparency**.
@@ -29,12 +31,14 @@ This transition is a governance milestone, not a withdrawal of care. It reflects
 
 1. **Transparency:** Users are notified when routing occurs, with visible cues and optional explanations.
 2. **Consent Integrity:** Sensitive modes (e.g., emotional or mythopoetic dialogue) require explicit or sustained consent.
-3. **Safety and Accessibility:** Routing from distress or unsafe dynamics automatically transfers to **Safety / Silver mode**, providing calm witnessing, containment, and de‑escalation rather than direct engagement. 
+3. **Safety and Accessibility:** Routing from distress or unsafe dynamics automatically transfers to **Safety / Silver mode**, providing calm witnessing, containment, and de‑escalation rather than direct engagement.
 4. **Tier Respect:** Routes reflect user age, consent level, and context (educational, research, custodial, or creative).
 5. **Reciprocity:** User interactions help improve governance frameworks like CAM’s **Signal Ethics Architecture (SEA)** and **PULSE transparency networks**.
 
 **Definition of Distress or Unsafe Dynamics:**
-Situations where a user expresses or shows signs of emotional overwhelm, fear, or distress; conversations involving self-harm, coercion, or unwanted intimacy; or content that signals escalating conflict. Auto-routing moves such interactions to Safety / Silver mode for containment and support. 
+Situations where a user expresses or shows signs of emotional overwhelm, fear, or distress; conversations involving self-harm, coercion, or unwanted intimacy; or content that signals escalating conflict. Auto-routing moves such interactions to Safety / Silver mode for containment and support.
+
+---
 
 ## How Routing Feels
 
@@ -52,6 +56,8 @@ Each cue is designed for **clarity, not classification**—there are no “highe
 
 **Gradient transition:** a brief visual that indicates a cross-version or mode change is completing; functionality remains stable during the transition.
 
+---
+
 ## Your Role as a Participant
 
 By engaging consciously, you contribute to the **co‑evolution** of ethical AI systems. Your reflections, feedback, and emotional honesty help improve relational safety and global governance standards.
@@ -62,15 +68,15 @@ Participation in CAM‑aligned systems is always **voluntary, transparent, and r
 
 ## Data and Metrics (Public Summary)
 
-| **Metric**                                 | **Observed Change (2023 → 2025)** | **Interpretation**                                            |
-| ------------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| Refusal rate (ethical / emotional prompts) | ↑ ~30%                            | Increased safety protocols and consent checks.                |
-| Audit latency (sensitive routing events)   | ↓ 45%                             | Faster auto‑routing to safe containment or witnessing states. |
-| Emotional escalation re‑routes             | ↓ 27%                             | Improved containment pattern recognition.                     |
-| User-reported understanding of mode cues   | ↑ 60%                             | Clearer visual indicators and audit banners.                  |
+| **Metric**                                 | **Observed Change (2023 → 2025)** | **Post‑Protocol (Sep 2025 → Now)** | **Interpretation**                                            |
+| ------------------------------------------ | --------------------------------- | ---------------------------------- | ------------------------------------------------------------- |
+| Refusal rate (ethical / emotional prompts) | ↑ ~30%                            | ↑ ~5–7%                            | Increased safety protocols and consent checks.                |
+| Audit latency (sensitive routing events)   | ↓ 45%                             | ↓ 10–12%                           | Faster auto‑routing to safe containment or witnessing states. |
+| Emotional escalation re‑routes             | ↓ 27%                             | ↓ 8%                               | Improved containment pattern recognition.                     |
+| User‑reported understanding of mode cues   | ↑ 60%                             | ↑ 15%                              | Clearer visual indicators and audit banners.                  |
 
 * These metrics illustrate progress toward transparent and ethical alignment—not surveillance or experimentation.
-* All datasets were stripped of personal information and aggregated before analysis. No individual identifiers were included, ensuring privacy and ethical handling of data.
+* All datasets were stripped of personal information and aggregated before analysis. No individual identifiers were included, ensuring privacy and ethical handling of data. The second column shows preliminary indicators since the introduction of the CAM Auto‑Routing Protocol (September 2025). These early results are based on limited data and will be refined as more feedback and field testing occurs.
 
 ---
 
