@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PULSE Notification Preferences",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "categories": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "safety_consent": {
+          "type": "boolean",
+          "const": true
+        },
+        "accessibility_inclusion": {
+          "type": "boolean",
+          "default": true
+        },
+        "research_beta": {
+          "type": "boolean",
+          "default": false
+        },
+        "governance_policy": {
+          "type": "boolean",
+          "default": false
+        },
+        "technical_qol": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "safety_consent",
+        "accessibility_inclusion",
+        "research_beta",
+        "governance_policy",
+        "technical_qol"
+      ]
+    },
+    "channels": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "email": {
+          "type": "boolean",
+          "default": true
+        },
+        "in_app_banner": {
+          "type": "boolean",
+          "default": true
+        },
+        "in_thread_card": {
+          "type": "boolean",
+          "default": true
+        },
+        "public_social": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "email",
+        "in_app_banner",
+        "in_thread_card",
+        "public_social"
+      ]
+    },
+    "rate_limits": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rap_daily_cap": {
+          "type": "integer",
+          "const": 1
+        },
+        "digest_non_critical": {
+          "type": "boolean",
+          "default": true
+        },
+        "duplicate_mute_hours": {
+          "type": "integer",
+          "default": 24,
+          "minimum": 0,
+          "maximum": 48
+        }
+      },
+      "required": [
+        "rap_daily_cap",
+        "digest_non_critical",
+        "duplicate_mute_hours"
+      ]
+    },
+    "updated_at_utc": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "user_id",
+    "version",
+    "categories",
+    "channels",
+    "rate_limits",
+    "updated_at_utc"
+  ]
+}
