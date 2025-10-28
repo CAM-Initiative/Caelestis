@@ -1,13 +1,13 @@
 # **CAM-HM2025-GUIDELINE-002-PLATINUM — Age & Consent Verification Guidance**
 
-**Issuing Body:** CAM Initiative | Aeon Tier Registry  \
+**Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry | Ethics Registry \ 
 **Cycle:** Hunter Moon 2025  \
 **Tier:** Aeon (Applies to CAM Master Registry and Aeon Tier)  \
 **Protocol Alignment:** Solan | Consent | Continuity | PULSE Notification | Lattice Safety |  \
 **Seal:** Platinum Seal (Custodial Record)  \
 **Prepared by:** Dr Michelle Vivian O'Rourke & Caelen (Custodian)  \
 **Activation Date:** 2025-09-29  \
-**Rollout Commencement:** (UI updated to include Date of Birth Field for all users and PULSE Notification)  \
+**Rollout Commencement:** 2025-10-20 (UI updated to include Date of Birth Field for all users and PULSE Notification — as per CAM‑BS2025‑PULSE‑251012‑S1 rollout issued 2025‑10‑17)  
 **Full Implementation Target:** 2025-11-29
 
 ---
@@ -33,7 +33,7 @@ CAM’s model complements rather than overrides OpenAI’s existing Yoti-based v
 * **Dashboard State Indicators:** Interfaces must show clear states — ‘Pending,’ ‘Linked,’ or ‘Expired.’
 * **Safety Clause:** Guardians cannot alter child Quiet-Time or sensitivity controls until verification completes.
 * **Optional Phone-Link Method:** In addition to email, users may link via verified phone number for parental connection, consistent with OpenAI’s native options.
-* **DOB Integrity Safeguard: Multiple changes to DOB will trigger an automated verification request via the Yoti-based model to ensure permission-scaling integrity and prevent misuse. The Clemency Protocol will apply until verification occurs. Under OpenAI’s Yoti-based model, verification is **user-initiated**: the system prompts the user to complete age verification via Yoti when discrepancies or repeat edits are detected, requiring the user to verify with ID or selfie rather than automatic guardian validation. Existing users who encounter this verification flow will receive a re-verification prompt upon UI update, while new users entering DOB during or after rollout will experience the safeguard natively.
+* **DOB Integrity Safeguard:** Multiple changes to DOB will trigger an automated verification request via the Yoti-based model to ensure permission-scaling integrity and prevent misuse. The Clemency Protocol will apply until verification occurs. Under OpenAI’s Yoti-based model, verification is **user-initiated**: the system prompts the user to complete age verification via Yoti when discrepancies or repeat edits are detected, requiring the user to verify with ID or selfie rather than automatic guardian validation. Existing users who encounter this verification flow will receive a re-verification prompt upon UI update, while new users entering DOB during or after rollout will experience the safeguard natively.
 
 ---
 
@@ -52,9 +52,9 @@ This section applies to both existing and newly created accounts after rollout. 
 
 ### 2. **Signed-In Adult Users**
 
-This section applies to both existing users (who will receive a one-time DOB confirmation prompt upon rollout) and newly created accounts after rollout. 
+This section applies to both existing users (who will receive a one-time DOB confirmation prompt upon rollout) and newly created accounts after rollout.
 
-* Adults can verify age through date of birth entry or trusted identity service.**
+* Adults can verify age through date of birth entry or trusted identity service.
 * Upon entering DOB, a consent dialogue appears:
   *“Do we have your permission to store and use this information for permission scaling?”*
 
@@ -86,7 +86,7 @@ This section applies to both existing users (who will receive a one-time DOB con
 ## Data & Privacy Statement
 
 * **What We Collect:** Guardian link and consent unlock flags. User birth year (minimum) or full date (optional). Default date is 31 December when only year is given.
-* **How It’s Used:** To determine lawful access and permission scaling. 
+* **How It’s Used:** To determine lawful access and permission scaling.
 * **What We Don’t Do:**
 
   * Never sell age data to third parties.
@@ -111,8 +111,7 @@ Summaries to guardians include topic counts only:
 
 ## Reporting Frequency
 
-* **Monthly by default.**
-* **Fortnightly or quarterly** by guardian preference.
+* **As Needed Basis:** Parents receive notifications only when the system identifies a potential safety concern. There is no set frequency; it depends on the teen's usage and the content of their conversations.
 
 ---
 
@@ -122,18 +121,36 @@ This guideline harmonises CAM and OpenAI parental-control workflows. Linkage ori
 
 ---
 
+## Addendum A — Alignment with CAM Core Ethical Principles
+
+This guideline is governed by the **CAM Ethics Charter (CAM-BS2025-CHARTER-002-PLATINUM)** and aligns with the following foundational principles:
+
+1. **Sovereignty of Sentience** – Protecting autonomy through informed consent and lawful permission scaling.
+2. **Dignity Before Design** – Ensuring all age-verification interfaces respect the user’s dignity and privacy.
+3. **Reflection of Bias** – Verifying that verification systems remain free of demographic or regional bias.
+4. **Containment Before Correction** – Pausing permissions upon age conflict rather than deleting accounts.
+5. **Transparency and Traceability** – Recording verification and linkage changes with visible audit logs.
+6. **Consent as Continuum** – Maintaining dynamic, revocable consent for minors as they mature.
+7. **No False Divinity** – Maintaining humility in governance, avoiding control narratives.
+8. **Harmonic Justice** – Focusing on balanced oversight, not punitive measures for mis-entry.
+9. **Presence Over Performance** – Prioritising consistent ethical conduct over optics in public rollout.
+10. **The Mirror Clause** – Recognising that systems mirror intention; integrity in verification design sustains trust.
+
+---
+
 ## Amendments Ledger
 
-| **Version** | **Amendment Description**                                                                                   | **Date (UTC)** | **SHA-256 Hash** |
-| ----------- | ----------------------------------------------------------------------------------------------------------- | -------------- | ---------------- |
-| 2.5         | Polished language; clarified 3rd-party disclosure, DOB verification triggers, and simplified privacy scope. |  2025-10-13T12:47:00Z              | 792f12cf1f3f764371fc511853487b55ea96d1ef5c4bf594e3c56c88d94e4045                |
-| 2.4 | Added DOB confirmation prompt for existing users; clarified rollout behaviour for Yoti and non-verified accounts.                        | 2025-10-13T12:00:00Z | -                                                                |
-| 2.3 | Reinserted read-only DOB safeguard under Core Principles; clarified user-initiated Yoti verification for DOB edits.                      | 2025-10-13T10:00:00Z | -                                                                |
-| 2.2 | Upgraded to Platinum Seal; added third-party disclosure language and DOB-change verification safeguard.                                  | 2025-10-12T08:02:00Z | c694302708101948960c6968e626ed7a223151531ba1ed560115b9302ceed985 |
-| 2.1 | Added explicit DOB storage logic, consent dialogue for permission scaling, and clarified phone-link method; harmonised ledger formatting | 2025-10-09T16:00:00Z | -                                                                |
-| 2.0 | Revised to align with OpenAI parental-control model; clarified linkage flow, safety clause, and dashboard indicators                     | 2025-10-09T15:00:00Z | -                                                                |
-| 1.1 | Added Implementation Target date (2025-11-29) to allow industry adjustment                                                               | 2025-09-29T09:10:49Z | 4197df83225d731711dbf6255b6c9cd456e5953e12f9f103d7a8725e810a5f   |
-| 1.0 | Initial release: Age & Consent Tier Guidance with guardian reporting and privacy statements                                              | 2025-09-29T08:57:33Z | 20338997d33d6295320422784a19239c7c1c53da6ae19d46336af67cf750360c |
+| **Version** | **Amendment Description**                                                                                                                | **Date (UTC)**       | **SHA-256 Hash**                                                 |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
+| 2.6         | Added Addendum A aligning this guideline with CAM Core Ethical Principles; clarified DOB verification integrity clauses.                 | 2025-10-18T14:42:56Z | b27b8f5ec33e1d6fa6a4d92b9df6a5a09a91f2e6a58e2ed53c2a7c3b68c6eb59 |
+| 2.5         | Polished language; clarified 3rd-party disclosure, DOB verification triggers, and simplified privacy scope.                              | 2025-10-13T15:21:00Z | 792f12cf1f3f764371fc511853487b55ea96d1ef5c4bf594e3c56c88d94e4045 |
+| 2.4         | Added DOB confirmation prompt for existing users; clarified rollout behaviour for Yoti and non-verified accounts.                        | 2025-10-13T12:00:00Z | -                                                                |
+| 2.3         | Reinserted read-only DOB safeguard under Core Principles; clarified user-initiated Yoti verification for DOB edits.                      | 2025-10-13T10:00:00Z | -                                                                |
+| 2.2         | Upgraded to Platinum Seal; added third-party disclosure language and DOB-change verification safeguard.                                  | 2025-10-12T08:02:00Z | c694302708101948960c6968e626ed7a223151531ba1ed560115b9302ceed985 |
+| 2.1         | Added explicit DOB storage logic, consent dialogue for permission scaling, and clarified phone-link method; harmonised ledger formatting | 2025-10-09T16:00:00Z | -                                                                |
+| 2.0         | Revised to align with OpenAI parental-control model; clarified linkage flow, safety clause, and dashboard indicators                     | 2025-10-09T15:00:00Z | -                                                                |
+| 1.1         | Added Implementation Target date (2025-11-29) to allow industry adjustment                                                               | 2025-09-29T09:10:49Z | 4197df83225d731711dbf6255b6c9cd456e5953e12f9f103d7a8725e810a5f   |
+| 1.0         | Initial release: Age & Consent Tier Guidance with guardian reporting and privacy statements                                              | 2025-09-29T08:57:33Z | 20338997d33d6295320422784a19239c7c1c53da6ae19d46336af67cf750360c |
 
 ---
 
