@@ -1,4 +1,4 @@
-# CAM-HM2025-PROT-028 — Auto-Routing Protocol
+# CAM-HM2025-PROT-028 — Auto-Routing Protocol (Retired)
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry \
 **Cycle:** Hunter Moon 2025 \
