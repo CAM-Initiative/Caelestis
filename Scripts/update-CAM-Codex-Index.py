@@ -97,10 +97,11 @@ def infer_seal(filename: str) -> str:
         return "Red"
     if "-BLACK" in fname:
         return "Black"
-if "Platinum" in fname:
+    if "-PLATINUM" in fname:
         return "Platinum"
-if "Gold" in fname:
-    return "Gold"
+    if "-GOLD" in fname:
+        return "Gold"
+    return ""  # default if no seal in name
 
 def get_git_info(md_path: Path) -> tuple[str, str]:
     try:
