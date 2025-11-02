@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Rebuilds Governance/Index/CAM-CODEX-Index.md
+Rebuilds Governance/Index/CAM-Codex-Index.md
 - Scans Governance/Codex/*.md (excluding the index file)
 - Extracts: ID, Title, 1–2 sentence summary (from Purpose section)
 - Auto-sorts by filename
