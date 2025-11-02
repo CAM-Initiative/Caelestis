@@ -99,6 +99,7 @@ def infer_seal(filename: str) -> str:
         return "Black"
 if "Platinum" in fname:
         return "Platinum"
+if "Gold" in fname:
     return "Gold"
 
 def get_git_info(md_path: Path) -> tuple[str, str]:
