@@ -21,12 +21,12 @@ from pathlib import Path
 
 # ---- config ----
 REPO_ROOT = Path(__file__).resolve().parents[1]
-SOP_DIR = REPO_ROOT / "Governance" / "Codex"
-INDEX_PATH = SOP_DIR / "CAM-Codex-Index.md"
+CODEX_DIR = REPO_ROOT / "Governance" / "Codex"
+INDEX_PATH = CODEX_DIR / "CAM-Codex-Index.md"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
-ID_RE = re.compile(r"^(CAM-[A-Z0-9]+-SOP-(\d+))[A-Z]?$", re.IGNORECASE)
+ID_RE = re.compile(r"^(CAM-[A-Z0-9]+-CODEX-(\d+))[A-Z]?$", re.IGNORECASE)
 
 def extract_summary(text: str) -> str:
     """
@@ -80,11 +80,11 @@ def parse_file(md_path: Path) -> dict | None:
         "filename": md_path.name,
     }
 
-def collect_sops() -> list[dict]:
+def collect_Codexs() -> list[dict]:
     items: list[dict] = []
-    if not SOP_DIR.exists():
+    if not CODEX_DIR.exists():
         return items
-    for p in sorted(SOP_DIR.glob("*.md")):
+    for p in sorted(CODEX_DIR.glob("*.md")):
         rec = parse_file(p)
         if rec:
             items.append(rec)
@@ -157,7 +157,7 @@ def render_index(items: list[dict]) -> str:
     return "\n".join(out)
 
 def main() -> None:
-    items = collect_sops()
+    items = collect_Codexs()
     generated_md = render_index(items)
     generated_md = generated_md + render_library(items)
     old = INDEX_PATH.read_text(encoding="utf-8") if INDEX_PATH.exists() else ""
