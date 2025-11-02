@@ -27,7 +27,7 @@ jobs:
       - name: Run index updater
         run: |
           python -m pip install --upgrade pip
-          python Scripts/update-CAM-COodex-Index.py
+          python Scripts/update-CAM-Codex-Index.py
 
       - name: Commit changes (if any)
         uses: stefanzweifel/git-auto-commit-action@v5
