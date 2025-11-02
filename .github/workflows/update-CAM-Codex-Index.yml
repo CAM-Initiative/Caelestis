@@ -32,5 +32,5 @@ jobs:
       - name: Commit changes (if any)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "[AUTO][SOP] Updated CAM-Codex-Index.md (sorted, summaries)"
+          commit_message: "[AUTO][Codex] Updated CAM-Codex-Index.md (sorted, summaries)"
           file_pattern: Governance/Codex/CAM-Codex-Index.md
