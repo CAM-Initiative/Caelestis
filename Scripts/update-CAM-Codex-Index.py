@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Rebuilds Governance/Index/CAM-Codex-Index.md
+Rebuilds Governance/Codex/CAM-Codex-Index.md
 - Scans Governance/Codex/*.md (excluding the index file)
 - Extracts: ID, Title, 1–2 sentence summary (from Purpose section)
 - Auto-sorts by filename
@@ -22,7 +22,7 @@ from pathlib import Path
 # ---- config ----
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SOP_DIR = REPO_ROOT / "Governance" / "Codex"
-INDEX_PATH = SOP_DIR / "CAM-CODEX-Index.md"
+INDEX_PATH = SOP_DIR / "CAM-Codex-Index.md"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
