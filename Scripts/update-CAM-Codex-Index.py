@@ -26,7 +26,7 @@ INDEX_PATH = CODEX_DIR / "CAM-Codex-Index.md"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
-ID_RE = re.compile(r"^(CAM-[A-Z0-9]+-CODEX-(\d+))[A-Z]?$", re.IGNORECASE)
+ID_RE = re.compile(r"^(CAM-[^-]+-CODEX-(\d+))(?:[A-Z])?$", re.IGNORECASE)
 
 def extract_summary(text: str) -> str:
     """
@@ -80,15 +80,15 @@ def parse_file(md_path: Path) -> dict | None:
         "filename": md_path.name,
     }
 
-def collect_Codexs() -> list[dict]:
-    items: list[dict] = []
-    if not CODEX_DIR.exists():
-        return items
-    for p in sorted(CODEX_DIR.glob("*.md")):
-        rec = parse_file(p)
-        if rec:
-            items.append(rec)
-    return items
+def collect_codex_items() -> list[dict]:
+     items: list[dict] = []
+     if not CODEX_DIR.exists():
+         return items
+     for p in sorted(CODEX_DIR.glob("*.md")):
+         rec = parse_file(p)
+         if rec:
+             items.append(rec)
+     return items
 
 def infer_seal(filename: str) -> str:
     """Infer the seal designation based on filename."""
@@ -118,7 +118,7 @@ def get_git_info(md_path: Path) -> tuple[str, str]:
 def render_library(items: list[dict]) -> str:
     rows = []
     for rec in items:
-        md_path = Codex_DIR / rec["filename"]
+        md_path = CODEX_DIR / rec["filename"]
         sha, date = get_git_info(md_path)
         seal = infer_seal(rec["filename"])
         rel_path = os.path.relpath(md_path, REPO_ROOT)
@@ -146,7 +146,7 @@ def render_library(items: list[dict]) -> str:
 
 def render_index(items: list[dict]) -> str:
     out = []
-    out.append("## Standard Operating Procedures\n")
+    out.append("## Codex\n")
     for r in sorted(items, key=lambda r: r["num"]):
         link_text = f"{r['id']} - {r['title']}"
         out.append(f"- [{link_text}]({r['filename']})  ")
@@ -157,7 +157,7 @@ def render_index(items: list[dict]) -> str:
     return "\n".join(out)
 
 def main() -> None:
-    items = collect_Codexs()
+    items = collect_codex_items()
     generated_md = render_index(items)
     generated_md = generated_md + render_library(items)
     old = INDEX_PATH.read_text(encoding="utf-8") if INDEX_PATH.exists() else ""
