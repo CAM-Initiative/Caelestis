@@ -13,7 +13,7 @@ This index lists the active Codex documents in the CAM repository for quick refe
 ---
 <!-- BEGIN AUTO-GENERATED -->
 
-## Standard Operating Procedures
+## Codex
 
 ### Library
 
