@@ -26,7 +26,8 @@ INDEX_PATH = CODEX_DIR / "CAM-Codex-Index.md"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
-ID_RE = re.compile(r"^(CAM-[^-]+-CODEX-(\d+))(?:[A-Z])?$", re.IGNORECASE)
+# Capture the canonical ID (up to ...-CODEX-<digits>), but allow any suffix after it
++ ID_RE = re.compile(r"^(CAM-[A-Z0-9-]*-CODEX-(\d+))(?:[-A-Z0-9].*)?$", re.IGNORECASE)
 
 def extract_summary(text: str) -> str:
     """
@@ -54,7 +55,7 @@ def parse_file(md_path: Path) -> dict | None:
     if name == INDEX_PATH.name or not name.lower().endswith(".md"):
         return None
     stem = md_path.stem
-    m = ID_RE.match(stem)
+    m = ID_RE.match(stem) or ID_RE.search(stem)
     if not m:
         return None
     id_full = m.group(1)
@@ -84,7 +85,11 @@ def collect_codex_items() -> list[dict]:
      items: list[dict] = []
      if not CODEX_DIR.exists():
          return items
-     for p in sorted(CODEX_DIR.glob("*.md")):
+     for p in sorted(CODEX_DIR.iterdir()):
+        if not p.is_file():
+            continue
+        if p.suffix.lower() != ".md":
+            continue
          rec = parse_file(p)
          if rec:
              items.append(rec)
