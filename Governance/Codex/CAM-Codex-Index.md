@@ -13,4 +13,9 @@ This index lists the active Codex documents in the CAM repository for quick refe
 ---
 <!-- BEGIN AUTO-GENERATED -->
 
+## Codex
 
+### Library
+
+| id | title | type | seal | path | pinned_sha | updated_at |
+|---|---|---|---|---|---|---|
