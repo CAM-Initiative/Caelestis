@@ -1,10 +1,7 @@
 name: Auto-Update Codex Index
 
 on:
-  # Manual button so we can test anytime
-  workflow_dispatch: {}
-
-  # Auto-run when Codex, the script, or the workflow change
+  workflow_dispatch: {}   # manual run button
   push:
     paths:
       - "Governance/Codex/**"
@@ -25,6 +22,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      # 🔧 Ensure the runner's branch matches the remote exactly
+      - name: Sync to remote HEAD
+        run: |
+          git fetch origin "${{ github.ref_name }}"
+          git checkout "${{ github.ref_name }}"
+          git reset --hard "origin/${{ github.ref_name }}"
+          git status
+
       - name: Echo CI env (sanity)
         run: |
           echo "GITHUB_REPOSITORY=${GITHUB_REPOSITORY}"
@@ -42,7 +47,7 @@ jobs:
           python -m pip install --upgrade pip
           python Scripts/update-CAM-Codex-Index.py
 
-      - name: Inspect generated files (prove JSON exists)
+      - name: Inspect generated files
         run: |
           echo "== ls Governance/Codex =="
           ls -la Governance/Codex || true
