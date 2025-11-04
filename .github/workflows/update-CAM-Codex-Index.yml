@@ -1,11 +1,15 @@
 name: Auto-Update Codex Index
 
 on:
+  # Manual button so we can test anytime
+  workflow_dispatch: {}
+
+  # Auto-run when Codex, the script, or the workflow change
   push:
     paths:
       - "Governance/Codex/**"
-      - ".github/workflows/update-CAM-Codex-Index.yml"
       - "Scripts/update-CAM-Codex-Index.py"
+      - ".github/workflows/update-CAM-Codex-Index.yml"
   pull_request:
     paths:
       - "Governance/Codex/**"
@@ -14,12 +18,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # required for committing changes
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Echo CI env (sanity)
+        run: |
+          echo "GITHUB_REPOSITORY=${GITHUB_REPOSITORY}"
+          echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
+          echo "PWD=$(pwd)"
+          ls -la
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,10 +42,23 @@ jobs:
           python -m pip install --upgrade pip
           python Scripts/update-CAM-Codex-Index.py
 
+      - name: Inspect generated files (prove JSON exists)
+        run: |
+          echo "== ls Governance/Codex =="
+          ls -la Governance/Codex || true
+          echo "== head Governance/Codex/codex.index.json =="
+          if [ -f Governance/Codex/codex.index.json ]; then
+            sed -n '1,60p' Governance/Codex/codex.index.json
+          else
+            echo "codex.index.json NOT FOUND"
+            exit 3
+          fi
+
       - name: Commit changes (if any)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "[AUTO][Codex] Updated index + JSON"
+          add_options: "-A"  # stage new files too
           file_pattern: |
             Governance/Codex/CAM-Codex-Index.md
             Governance/Codex/codex.index.json
