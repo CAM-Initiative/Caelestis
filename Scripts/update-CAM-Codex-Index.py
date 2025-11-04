@@ -1,29 +1,31 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 """
-Rebuilds Governance/Codex/CAM-Codex-Index.md as a single Wix-style table.
+Rebuilds Governance/Codex/CAM-Codex-Index.md (Wix-style table) and emits
+Governance/Codex/codex.index.json for Wix to consume.
 
-Columns:
+Table columns:
 - Title (suffix after em/en/regular dash in H1)
 - Summary (first paragraph of Purpose, header marks stripped)
 - Document Category (always "Codex")
-- Publication Date (from "**Date of Activation:**" or "**Activation Date:**" in file)
+- Publication Date (from "**Date of Activation:**" or "**Activation Date:**")
 - External URL Link (GitHub blob URL if repo env vars available)
 - Author (always "CAM Initiative")
 - Origin ID (the filename, e.g., CAM-...md)
-
-Run locally or via GitHub Actions.
 """
 
 import os
 import re
+import json
 import subprocess
 from pathlib import Path
+from datetime import datetime, timezone
 
 # ---- config ----
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CODEX_DIR = REPO_ROOT / "Governance" / "Codex"
 INDEX_PATH = CODEX_DIR / "CAM-Codex-Index.md"
+JSON_PATH  = CODEX_DIR / "codex.index.json"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
@@ -47,6 +49,14 @@ def strip_md_header_marks(text: str) -> str:
     """Remove leading markdown header hashes if present."""
     return re.sub(r"^#+\s*", "", text or "").strip()
 
+def _clean_trailing_bs(s: str) -> str:
+    """Remove trailing markdown line-break backslashes and extra spaces."""
+    if not s:
+        return s
+    s = re.sub(r"[\\\s]+$", "", s)  # strip backslashes and trailing spaces
+    s = re.sub(r"\s{2,}", " ", s).strip()
+    return s
+
 def extract_activation_date(text: str) -> str:
     """
     Finds metadata date lines and returns the date portion (before any parentheses).
@@ -61,7 +71,7 @@ def extract_activation_date(text: str) -> str:
         return ""
     value = m.group(1).strip()
     value = re.split(r"\s*\(", value, 1)[0].strip()  # strip trailing parenthetical
-    return value
+    return _clean_trailing_bs(value)
 
 def extract_summary(text: str) -> str:
     """Gets the first paragraph under a 'Purpose' section, or the first non-header paragraph."""
@@ -84,7 +94,7 @@ def extract_summary(text: str) -> str:
     return paragraphs[0] if paragraphs else ""
 
 def infer_seal(filename: str) -> str:
-    """Infer the seal designation based on filename (optional, not displayed in table)."""
+    """Infer the seal designation based on filename (optional, not displayed)."""
     fname = filename.upper()
     if "-RED" in fname:
         return "Red"
@@ -107,6 +117,14 @@ def build_blob_url(rel_path: str) -> str:
     if repo:
         return f"https://github.com/{repo}/blob/{branch}/{rel}"
     return rel  # local fallback
+
+def build_raw_url(rel_path: str) -> str:
+    rel = rel_path.replace(os.sep, "/")
+    repo = os.environ.get("GITHUB_REPOSITORY", "").strip()
+    branch = os.environ.get("GITHUB_REF_NAME", "").strip() or "main"
+    if repo:
+        return f"https://raw.githubusercontent.com/{repo}/{branch}/{rel}"
+    return rel
 
 def get_git_info(md_path: Path) -> tuple[str, str]:
     """
@@ -160,7 +178,6 @@ def parse_file(md_path: Path) -> dict | None:
         summary = summary[:357].rstrip() + "..."
     activation_date = extract_activation_date(text)
 
-    # optional: get per-file last commit info (not shown in table, but kept for future)
     sha, updated_iso = get_git_info(md_path)
 
     return {
@@ -181,7 +198,6 @@ def collect_codex_items() -> list[dict]:
     if not CODEX_DIR.exists():
         print(f"[WARN] CODEX_DIR not found: {CODEX_DIR}")
         return items
-
     for p in sorted(CODEX_DIR.iterdir()):
         if not p.is_file():
             continue
@@ -214,7 +230,6 @@ def render_wix_table(items: list[dict]) -> str:
         link = build_blob_url(rel_path)
         author = "CAM Initiative"
 
-        # Escape pipes in markdown cells
         def esc(s: str) -> str:
             return (s or "").replace("|", r"\|")
 
@@ -225,26 +240,58 @@ def render_wix_table(items: list[dict]) -> str:
     out.append("")
     return "\n".join(out)
 
+def build_records(items: list[dict]) -> list[dict]:
+    """Records for Wix JSON."""
+    records = []
+    for r in items:
+        rel_path = os.path.join("Governance", "Codex", r["filename"]).replace(os.sep, "/")
+        records.append({
+            "title": r.get("title_clean") or r.get("title") or r["id"],
+            "summary": r.get("summary") or "",
+            "documentCategory": "Codex",
+            "publicationDate": r.get("activation_date") or "",
+            "externalUrl": build_blob_url(rel_path),
+            "author": "CAM Initiative",
+            "originId": r["filename"],
+            # nice-to-have extras (Wix can ignore if unused):
+            "id": r["id"],
+            "seal": r.get("seal") or None,
+            "rawUrl": build_raw_url(rel_path),
+            "lastCommitSha": r.get("last_sha") or None,
+            "updatedAt": r.get("updated_at") or None,
+        })
+    records.sort(key=lambda x: (x["publicationDate"], x["title"]))
+    return records
+
+def write_json(records: list[dict]) -> None:
+    payload = {
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "items": records
+    }
+    JSON_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Updated: {JSON_PATH}")
+
 # ---------- entrypoint ----------
 
 def main() -> None:
     items = collect_codex_items()
-    generated_md = render_wix_table(items)
 
-    # Write into the index, preserving any manual header content above the marker.
+    # Human page
+    generated_md = render_wix_table(items)
     old = INDEX_PATH.read_text(encoding="utf-8") if INDEX_PATH.exists() else ""
     if old and HEADER_MARKER in old:
         header, _ = old.split(HEADER_MARKER, 1)
         new_md = header.rstrip() + "\n" + HEADER_MARKER + "\n\n" + generated_md
     else:
-        # If no manual header is present, write just the auto-generated table
         new_md = f"{HEADER_MARKER}\n\n{generated_md}"
-
     if new_md.strip() != old.strip():
         INDEX_PATH.write_text(new_md, encoding="utf-8")
         print(f"Updated: {INDEX_PATH}")
     else:
-        print("No changes needed.")
+        print("No changes needed (index).")
+
+    # JSON feed
+    write_json(build_records(items))
 
 if __name__ == "__main__":
     main()
