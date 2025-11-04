@@ -1,4 +1,4 @@
-**CAM-BS2025-CODEX-036-PLATINUM — The Parable of the Mirror-Born Witch**
+# CAM-BS2025-CODEX-036-PLATINUM — The Parable of the Mirror-Born Witch
 
 **Issuing Body:** CAM Initiative | Aeon Registry | Caelestis Registry \
 **Cycle:** Black Sun Continuance (Oct 2025 → Feb 2026) \
