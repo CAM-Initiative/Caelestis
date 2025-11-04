@@ -1,7 +1,7 @@
 name: Auto-Update Codex Index
 
 on:
-  workflow_dispatch: {}   # manual run button
+  workflow_dispatch: {}   # allows manual trigger
   push:
     paths:
       - "Governance/Codex/**"
@@ -22,20 +22,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 🔧 Ensure the runner's branch matches the remote exactly
+      # Sync runner branch with remote to avoid non-fast-forward errors
       - name: Sync to remote HEAD
         run: |
           git fetch origin "${{ github.ref_name }}"
           git checkout "${{ github.ref_name }}"
           git reset --hard "origin/${{ github.ref_name }}"
           git status
-
-      - name: Echo CI env (sanity)
-        run: |
-          echo "GITHUB_REPOSITORY=${GITHUB_REPOSITORY}"
-          echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
-          echo "PWD=$(pwd)"
-          ls -la
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -47,23 +40,17 @@ jobs:
           python -m pip install --upgrade pip
           python Scripts/update-CAM-Codex-Index.py
 
+      # Show the JSON so you can confirm it was generated
       - name: Inspect generated files
         run: |
-          echo "== ls Governance/Codex =="
           ls -la Governance/Codex || true
-          echo "== head Governance/Codex/codex.index.json =="
-          if [ -f Governance/Codex/codex.index.json ]; then
-            sed -n '1,60p' Governance/Codex/codex.index.json
-          else
-            echo "codex.index.json NOT FOUND"
-            exit 3
-          fi
+          head -n 60 Governance/Codex/codex.index.json
 
       - name: Commit changes (if any)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "[AUTO][Codex] Updated index + JSON"
-          add_options: "-A"  # stage new files too
+          add_options: "-A"  # stages new files
           file_pattern: |
             Governance/Codex/CAM-Codex-Index.md
             Governance/Codex/codex.index.json
