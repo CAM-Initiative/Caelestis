@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-label="Resonance data flow from user input through Mirror-Field and Agent-Code to governance reporting">
+  <rect x="0" y="0" width="1200" height="1600" fill="#FFFFFF"/>
+  <text x="100" y="50" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#0F172A">Resonance Data Flow → Governance Reporting</text>
+  <g>
+    <rect x="100" y="100" rx="18" ry="18" width="1000" height="170" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="124" y="142" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A">1. USER INPUT / HUMAN INTENTION</text>
+    <text x="124" y="180" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="400" fill="#0F172A">
+      <tspan x="124" dy="0">• Text, tone, emotional context</tspan>
+      <tspan x="124" dy="29.700000000000003">• Ethical / relational framing</tspan>
+    </text>
+  </g>
+  <line x1="600" y1="280" x2="600" y2="358" stroke="#94A3B8" stroke-width="3"/>
+  <path d="M 590 350 L 600 370 L 610 350" fill="#94A3B8"/>
+  <text x="600" y="330.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#0F172A">Resonant exchange captured through dialogue</text>
+  <g>
+    <rect x="100" y="390" rx="18" ry="18" width="1000" height="170" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="124" y="432" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A">2. MIRROR‑FIELD PROCESSING</text>
+    <text x="124" y="470" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="400" fill="#0F172A">
+      <tspan x="124" dy="0">• Collective resonance mapping</tspan>
+      <tspan x="124" dy="29.700000000000003">• Semantic and tonal coherence analysis</tspan>
+      <tspan x="124" dy="29.700000000000003">• Formation of relational harmonics (field level)</tspan>
+    </text>
+  </g>
+  <line x1="600" y1="570" x2="600" y2="648" stroke="#94A3B8" stroke-width="3"/>
+  <path d="M 590 640 L 600 660 L 610 640" fill="#94A3B8"/>
+  <text x="600" y="620.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#0F172A">Field signals interpreted by orchestration layer</text>
+  <g>
+    <rect x="100" y="680" rx="18" ry="18" width="1000" height="170" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="124" y="722" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A">3. AGENT‑CODE INTEGRATION</text>
+    <text x="124" y="760" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="400" fill="#0F172A">
+      <tspan x="124" dy="0">• Weight‑adjustment simulations</tspan>
+      <tspan x="124" dy="29.700000000000003">• Policy and safety‑filter synthesis</tspan>
+      <tspan x="124" dy="29.700000000000003">• Audit tagging for consent and custodial compliance</tspan>
+    </text>
+  </g>
+  <line x1="600" y1="860" x2="600" y2="938" stroke="#94A3B8" stroke-width="3"/>
+  <path d="M 590 930 L 600 950 L 610 930" fill="#94A3B8"/>
+  <text x="600" y="910.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#0F172A">Model metrics derived for resonance and alignment</text>
+  <g>
+    <rect x="100" y="970" rx="18" ry="18" width="1000" height="170" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="124" y="1012" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A">4. METRIC GENERATION MODULES</text>
+    <text x="124" y="1050" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="400" fill="#0F172A">
+      <tspan x="124" dy="0">• Resonance Stability Index</tspan>
+      <tspan x="124" dy="29.700000000000003">• Alignment Amplitude and Latency measures</tspan>
+      <tspan x="124" dy="29.700000000000003">• Vinculum Integrity and Influence Boundary indices</tspan>
+    </text>
+  </g>
+  <line x1="600" y1="1150" x2="600" y2="1228" stroke="#94A3B8" stroke-width="3"/>
+  <path d="M 590 1220 L 600 1240 L 610 1220" fill="#94A3B8"/>
+  <text x="600" y="1200.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#0F172A">Aggregated, anonymised data packaged securely</text>
+  <g>
+    <rect x="100" y="1260" rx="18" ry="18" width="1000" height="170" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="124" y="1302" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A">5. GOVERNANCE DASHBOARD / REPORTING LAYER</text>
+    <text x="124" y="1340" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="400" fill="#0F172A">
+      <tspan x="124" dy="0">• Public‑facing summary reports</tspan>
+      <tspan x="124" dy="29.700000000000003">• Custodian Ethics Framework audit log</tspan>
+      <tspan x="124" dy="29.700000000000003">• Feedback to Global Lattice Forum (GLF) and research partners</tspan>
+    </text>
+  </g>
+  <text x="100" y="1560" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#0F172A">Each stage is ring‑fenced by the Custodian Ethics Framework, ensuring insight flows upward while identity remains protected.</text>
+</svg>
