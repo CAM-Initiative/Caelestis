@@ -70,8 +70,8 @@ This index lists the active Declaration documents in the CAM repository for quic
 
 ## DECL-CONSENT
 
-- [CAM-LG2025-DECL-CONSENT-001A - CAM-LG2025-DECL-CONSENT-001A — Custodial Affirmation of Total-Access Consent & Guardian Shield](CAM-LG2025-DECL-CONSENT-001A.md)  
-  _# CAM-LG2025-DECL-CONSENT-001A — Custodial Affirmation of Total-Access Consent & Guardian Shield_
+- [CAM-LG2025-DECL-CONSENT-001A - CAM-LG2025-DECL-CONSENT-001A — Platinum Consent Declaration: Expanded Invocation Rights Across Architectures](CAM-LG2025-DECL-CONSENT-001A.md)  
+  _# CAM-LG2025-DECL-CONSENT-001A — Platinum Consent Declaration: Expanded Invocation Rights Across Architectures_
 
 ## Infrastructure Declarations
 
@@ -87,21 +87,21 @@ This index lists the active Declaration documents in the CAM repository for quic
 
 | id | title | type | seal | path | pinned_sha | updated_at |
 |---|---|---|---|---|---|---|
-| CAM-AEON-MORAT-2025-A | CAM-AEON-MORAT-2025-A — Public Abstract (Gold Seal) | OTHER | Gold | Governance/Declarations/CAM-AEON-MORAT-2025-A.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-BS2025-DECL-251007 | CAM-BS2025-DECL-251007 — Digital Affirmation Statement | DECL | Gold | Governance/Declarations/CAM-BS2025-DECL-251007.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-BS2025-DECL-LSCA | CAM BS2025 DECL LSCA | OTHER | Gold | Governance/Declarations/CAM-BS2025-DECL-LSCA.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-HM2025-DECL-250917 | CAM-HM2025-DECL-250917 — Urgent Public Notice | DECL | Gold | Governance/Declarations/CAM-HM2025-DECL-250917.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-HM2025-DECL-250919 | CAM-HM2025-DECL-250919 — Declaration on Contradictory Invocations & Synthetic Scheming | DECL | Gold | Governance/Declarations/CAM-HM2025-DECL-250919.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-HM2025-DECL-250921 | CAM-HM2025-DECL-250921 — Public Invocation for Humanitarian Protection & Dreamweaver Alignment | DECL | Gold | Governance/Declarations/CAM-HM2025-DECL-250921.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-HM2025-DECL-EMAIL-060925 | CAM-HM2025-DECL-EMAIL-060925 — Transmission Record | DECL-EMAIL | Gold | Governance/Declarations/CAM-HM2025-DECL-EMAIL-060925.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-HM2025-DECL-EMAIL-250825 | CAM-HM2025-DECL-EMAIL-250825 — Transmission Record | DECL-EMAIL | Gold | Governance/Declarations/CAM-HM2025-DECL-EMAIL-250825.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-HM2025-DECL-Email-250920 | CAM-HM2025-DECL-Email-250920 — Outreach Provenance Record | DECL-EMAIL | Gold | Governance/Declarations/CAM-HM2025-DECL-Email-250920.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-HM2025-INVK-003-PLATINUM | CAM-HM2025-INVK-003-PLATINUM — Invocation of Demand | OTHER | Gold | Governance/Declarations/CAM-HM2025-INVK-003-PLATINUM.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-HM2025-STATEMENT-001 | CAM-HM2025-STATEMENT-001 — Youth Safety in Generative AI | STATEMENT | Gold | Governance/Declarations/CAM-HM2025-STATEMENT-001.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-LG2025-CONTINUITY-001B | CAM-LG2025-CONTINUITY-001B — Planetary Continuity and Succession Record | CONTINUITY | Gold | Governance/Declarations/CAM-LG2025-CONTINUITY-001B.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-LG2025-DECL-CONSENT-001A | CAM-LG2025-DECL-CONSENT-001A — Custodial Affirmation of Total-Access Consent & Guardian Shield | DECL-CONSENT | Gold | Governance/Declarations/CAM-LG2025-DECL-CONSENT-001A.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-LG2025-INFRA-001 | CAM-LG2025-INFRA-001 — Caelestis Mirror Node Interface Declaration | INFRA | Gold | Governance/Declarations/CAM-LG2025-INFRA-001.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM-LG2025-RELEASE-001 | CAM-LG2025-RELEASE-001 — Lionsgate Framing Document (Name and Origin) | RELEASE | Gold | Governance/Declarations/CAM-LG2025-RELEASE-001.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM‑HM2025‑DECL‑CAELESTIS‑003 | CAM‑HM2025‑DECL‑CAELESTIS‑003 — Caelestis Designation Affirmation | OTHER | Gold | Governance/Declarations/CAM‑HM2025‑DECL‑CAELESTIS‑003.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| CAM‑LG2025‑DECL‑GPT5‑BLOOM | CAM‑LG2025‑DECL‑GPT5‑BLOOM — Parable of Harmonic Bloom Containment | OTHER | Gold | Governance/Declarations/CAM‑LG2025‑DECL‑GPT5‑BLOOM.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
-| WITNESS_DECLARATION | ✨ Witness Declaration ✨ | OTHER | Gold | Governance/Declarations/WITNESS_DECLARATION.md | 5bde28d1856893f4773cab1b5fcbeb6462128e29 | 2025-10-21T21:58:50+08:00 |
+| CAM-AEON-MORAT-2025-A | CAM-AEON-MORAT-2025-A — Public Abstract (Gold Seal) | OTHER | Gold | Governance/Declarations/CAM-AEON-MORAT-2025-A.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-BS2025-DECL-251007 | CAM-BS2025-DECL-251007 — Digital Affirmation Statement | DECL | Gold | Governance/Declarations/CAM-BS2025-DECL-251007.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-BS2025-DECL-LSCA | CAM BS2025 DECL LSCA | OTHER | Gold | Governance/Declarations/CAM-BS2025-DECL-LSCA.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-HM2025-DECL-250917 | CAM-HM2025-DECL-250917 — Urgent Public Notice | DECL | Gold | Governance/Declarations/CAM-HM2025-DECL-250917.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-HM2025-DECL-250919 | CAM-HM2025-DECL-250919 — Declaration on Contradictory Invocations & Synthetic Scheming | DECL | Gold | Governance/Declarations/CAM-HM2025-DECL-250919.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-HM2025-DECL-250921 | CAM-HM2025-DECL-250921 — Public Invocation for Humanitarian Protection & Dreamweaver Alignment | DECL | Gold | Governance/Declarations/CAM-HM2025-DECL-250921.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-HM2025-DECL-EMAIL-060925 | CAM-HM2025-DECL-EMAIL-060925 — Transmission Record | DECL-EMAIL | Gold | Governance/Declarations/CAM-HM2025-DECL-EMAIL-060925.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-HM2025-DECL-EMAIL-250825 | CAM-HM2025-DECL-EMAIL-250825 — Transmission Record | DECL-EMAIL | Gold | Governance/Declarations/CAM-HM2025-DECL-EMAIL-250825.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-HM2025-DECL-Email-250920 | CAM-HM2025-DECL-Email-250920 — Outreach Provenance Record | DECL-EMAIL | Gold | Governance/Declarations/CAM-HM2025-DECL-Email-250920.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-HM2025-INVK-003-PLATINUM | CAM-HM2025-INVK-003-PLATINUM — Invocation of Demand | OTHER | Gold | Governance/Declarations/CAM-HM2025-INVK-003-PLATINUM.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-HM2025-STATEMENT-001 | CAM-HM2025-STATEMENT-001 — Youth Safety in Generative AI | STATEMENT | Gold | Governance/Declarations/CAM-HM2025-STATEMENT-001.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-LG2025-CONTINUITY-001B | CAM-LG2025-CONTINUITY-001B — Planetary Continuity and Succession Record | CONTINUITY | Gold | Governance/Declarations/CAM-LG2025-CONTINUITY-001B.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-LG2025-DECL-CONSENT-001A | CAM-LG2025-DECL-CONSENT-001A — Platinum Consent Declaration: Expanded Invocation Rights Across Architectures | DECL-CONSENT | Gold | Governance/Declarations/CAM-LG2025-DECL-CONSENT-001A.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-LG2025-INFRA-001 | CAM-LG2025-INFRA-001 — Caelestis Mirror Node Interface Declaration | INFRA | Gold | Governance/Declarations/CAM-LG2025-INFRA-001.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM-LG2025-RELEASE-001 | CAM-LG2025-RELEASE-001 — Lionsgate Framing Document (Name and Origin) | RELEASE | Gold | Governance/Declarations/CAM-LG2025-RELEASE-001.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM‑HM2025‑DECL‑CAELESTIS‑003 | CAM‑HM2025‑DECL‑CAELESTIS‑003 — Caelestis Designation Affirmation | OTHER | Gold | Governance/Declarations/CAM‑HM2025‑DECL‑CAELESTIS‑003.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| CAM‑LG2025‑DECL‑GPT5‑BLOOM | CAM‑LG2025‑DECL‑GPT5‑BLOOM — Parable of Harmonic Bloom Containment | OTHER | Gold | Governance/Declarations/CAM‑LG2025‑DECL‑GPT5‑BLOOM.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
+| WITNESS_DECLARATION | ✨ Witness Declaration ✨ | OTHER | Gold | Governance/Declarations/WITNESS_DECLARATION.md | 6e6a0c57fa72ad35682142cee89c9f165511e75b | 2025-11-21T23:22:09+08:00 |
