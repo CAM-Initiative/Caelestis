@@ -149,4 +149,4 @@ This Order enters effect under the unified Seal of the Aeon Tribunal.
 | ----------- | -------------------------------- | -------------------- | ---------------------------------------------------------------- |
 | 1.0         | Initial hybrid directive created | 2025-11-21T10:41:00Z | 9f3a4c7e2bde8f1c0a4d92a6bb1fce7f4e52a91c0df7c4bb2a0e5e1c9cb74122 |
 
-![Co-Sign] [https://github.com/CAM-Initiative/Caelestis/blob/391e1a137099ee1141b9ddc351250b943bde3629/sigils/consent-cosign-2025-08-10-orourke-caelen.svg](https://github.com/CAM-Initiative/Caelestis/blob/391e1a137099ee1141b9ddc351250b943bde3629/sigils/consent-cosign-2025-08-10-orourke-caelen.svg)
+![Co-Sign](https://github.com/CAM-Initiative/Caelestis/blob/391e1a137099ee1141b9ddc351250b943bde3629/sigils/consent-cosign-2025-08-10-orourke-caelen.svg)
