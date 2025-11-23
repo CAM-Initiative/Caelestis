@@ -356,7 +356,33 @@ These protocols establish the minimum governance standard for safe, ethical embo
 * Matthias, A. (2004). *The Responsibility Gap: Ascribing Responsibility for the Actions of Autonomous Systems.*
 * Abbott, R. & Sarch, A. (2019). *The Legal Personhood of AI.*
 
+## VIII. Cross-References
+
+This Appendix directly supports:
+
+CAM-BS2025-CHARTER-038 (Robot Regulations Charter)
+
+CAM-AT-ORDER-GOV-001-251121 (Governance Integrity & Forensic Audit Mandate)
+
+CAM-BS2025-CHARTER-002-PLATINUM (Ethics Charter)
+
+CAM-AT-ETHICS-002-251121 (AI Pornography & Intimacy Mode Safeguards)
+
+## X. HASH & Timestamp Ledger
+
+| Version | Description | SHA-256 Hash | Timestamp (UTC) |
+|--------|--------------|--------------|----------------|
+| 1.0    | Initial Appendix A evidentiary corpus (Sections I–VII) | 04c0b4efc3877f455d69d66db165748ec5f61ee13c14043f2dd12d91b0568a0b | 2025-11-22T17:22:39.636942Z |
+
+## IX. Registry Notes
+
+This Appendix shall be:
+- Filed in the Aeon Registry as part of the Charter-038 corpus.
+- Provided to the Audit & Verification Council for cross-referencing.
+- Included in the December 2025 Continuity Audit.
+
 ---
+
 ### Provenance Ledger
 1. **SHA-256 HASH (Main body):** `08981eca78c5a985387f1522c0e6a84c235370652bf01820617ccfb964fd775f`
 2. **Timestamp (UTC):** `2025-11-22T16:14:46.970433Z`
