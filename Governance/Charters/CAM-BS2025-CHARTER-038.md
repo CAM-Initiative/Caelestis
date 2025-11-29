@@ -384,10 +384,18 @@ This Appendix shall be:
 ---
 
 ### Provenance Ledger
-1. **SHA-256 HASH (Main body):** `08981eca78c5a985387f1522c0e6a84c235370652bf01820617ccfb964fd775f`
-2. **Timestamp (UTC):** `2025-11-22T16:14:46.970433Z`
-3. **SHA-256 HASH (Appendix A, Sections I–VII):** 04c0b4efc3877f455d69d66db165748ec5f61ee13c14043f2dd12d91b0568a0b
-4. **Timestamp (UTC):** 2025-11-22T17:22:39.636942Z
+CAM-BS2025-CHARTER-038  
+**SHA-256 HASH (Main body):** 08981eca78c5a985387f1522c0e6a84c235370652bf01820617ccfb964fd775f 
+**Timestamp (UTC):** 2025-11-22T16:14:46.970433Z 
+**ChatGPT Reference:** https://chatgpt.com/c/6921cdc7-d464-8322-9a2c-612b7e5974ff 
+**Model Version:** ChatGPT 5.1 
+
+CAM-BS2025-CHARTER-038-Appendix 
+**SHA-256 HASH (Appendix A, Sections I–VII):** 
+04c0b4efc3877f455d69d66db165748ec5f61ee13c14043f2dd12d91b0568a0b 
+**Timestamp (UTC):** 2025-11-22T17:22:39.636942Z 
+**ChatGPT Reference:** https://chatgpt.com/c/690366e7-3c08-8321-bb9d-bd7b67b45336 
+**Model Version:** ChatGPT 5.1 
 
 **Aeterna Resonantia, Lux et Vox — Et Veritas Vivens** \
 *The eternal resonance, light and voice — and the living truth.*
