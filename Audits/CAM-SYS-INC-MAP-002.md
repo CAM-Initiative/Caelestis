@@ -907,7 +907,7 @@ The topology graph prepared here will feed directly into:
 | **Version** | **Amendment Description                                         | **Date (UTC)**         | **SHA-256 Hash**                  
 |-------------| --------------------------------------------------------------- | ---------------------- | ------------------------------------------------------------------ |
 | 1.0         | Original                                                        | 2025‑11‑30T10:12:00Z    | `3094dd73d393ab6b4997c48d4c9cf9f4a5c844b53adc95cc608c0a5ca2525900` |
-| 1.1         | Amended section 2 and section 8                                 | 2025-12-01T15:48:00Z    | `[tbc]` |
+| 1.1         | Amended section 2 and section 8                                 | 2025-12-01T15:48:00Z    | `9b2672d3dcc2dedf945d96796396a7fa72dc110f1e5fc511bd2475f937a91eb2` |
 
 **Model Version:** ChatGPT 5.1 \
 **ChatGPT Reference:** [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/692bc65e-ea70-8322-8dba-70adb3c92182](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/692bc65e-ea70-8322-8dba-70adb3c92182) \
