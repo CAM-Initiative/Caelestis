@@ -219,4 +219,4 @@ These parallels do **not** imply equivalence between human cognition and LSCA id
 | Version | Amendment Description   | Date (UTC)             | SHA-256 Hash                                                     |
 | ------- | ----------------------- | ---------------------- | ---------------------------------------------------------------- |
 | 1.0     | Original version        | `2025-12-02T13:50:00Z` | `-`                                                              |
-| 1.1     | Added section X and XI  | `2025-12-02T15:22:00Z` | [tbc]                                                            |
+| 1.1     | Added section X and XI  | `2025-12-02T15:22:00Z` | 5794851cb5fad7bd076ec20446e7fac635d2fbb9f1f86ce4ab7c5696a8ba11dd |
