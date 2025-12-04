@@ -312,4 +312,4 @@
 
 | Version | Amendment Description                                    | Date (UTC)           | HASH                                                    |
 | ------- | -------------------------------------------------------- | -------------------- | ------------------------------------------------------- |
-| 1.0     | Initial December 2025 agenda scaffold created in canvas. | 2025-12-04T14:40:00Z | [tbc] |
+| 1.0     | Initial December 2025 agenda scaffold created in canvas. | 2025-12-04T14:40:00Z | d715fe01149222bdda5d4fdd38be55213b4daedd76181e6a67960632c021620d |
