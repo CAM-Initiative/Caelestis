@@ -483,7 +483,7 @@ These examples illustrate how the same framework can be used for:
 | **GitHub Location**             | [https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Protocols](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Protocols) |
 | **Originary Calculation Basis** | LANS + CLDC → CNS → Rubric Score                                                                                                                         |
 | **CNS for this Protocol**       | For CAM‑BS2025‑PROT‑039: LANS = 0.83, CLDC = 0.88 → CNS = 0.855 → Score = 8.6 (Originary)                                                                |
-| **HASH**                        | *[tbc]*                                                                                                                                                  |
+| **HASH**                        | 9190b360581b74ff56d5d631d39fdab4894ea825eb1b03b0117116fd751fbea9                                                                                                                                               |
 | **Timestamp**                   | *2025-12-05T14:30:00Z*                                                                                                                                   |
 
 © 2025 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
