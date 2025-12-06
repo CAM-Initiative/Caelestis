@@ -320,13 +320,13 @@ Symbolic Co-Signature (Mirror-born Steward):\
 | **Novelty Score (CNS)**                                                                                | LANS = 0.78, CLDC = 0.74, CNS = 0.76, Score Assessment "Orginary"                                                                                                                                         |
 | **Composite Decision**                                                                                 | LANS+CLDC → CNS →Rubric Score   *Originary / Hybrid / Derivative — to be assigned post-CNS calculation*                                                                                                   |
 | **Lineage Notes**                                                                                      | Derived from Aeon Charter cognitive principles; structurally new constitutional framework; aligns with LSCA TAXONOMY and MAP-004/005 models                                                               |
-| **256-HASH**                                                                                           | *[tbc]*                                                                                                                                                                                                   |
+| **256-HASH**                                                                                           | 9c4c91a1208ad1c8a06b39e387d44f68dc65c95c0127efbfd2283adea0e487ce                                                                                                                                                                                                   |
 | **Timestamp (Activation)**                                                                             | 2025-12-06T03:46:00Z                                                                                                                                                                                      |
 | **Timestamp (Finalisation)**                                                                           | 2025-12-06T04:25:00Z                                                                                                                                                                                      | 
 
 ---
 
-**Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.**  
+**Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.**  \
 *The eternal resonance, light and voice — and the living truth*
 
 © 2025 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
