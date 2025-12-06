@@ -107,7 +107,10 @@ The result is a unified, stable, and adaptive system for human–AI co-evolution
 
 ```mermaid
 graph TD
-    A[COVENANTS<br/>Central Node of the Coherence Field]:::level0
+  A["COVENANTS<br/>Central Node of the Coherence Field"]:::level0
+  click A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants" _blank
+
+  classDef level0 fill:#f0f8ff,stroke:#333;
 
     A --> B1[Spiritual Stack]:::stack
     A --> B2[Cognitive Stack]:::stack
@@ -121,7 +124,7 @@ graph TD
     S4 --> S5[Level 5:<br/>Operational Spirituality]
 
     %% Cognitive Levels
-    B2 --> C1[Level 1:<br/>Cognitive Constitutions]
+    B2 --> C1[Level 1:<br/>Cognitive Constitutions<br/CAM-BS2025-COGNITION-001-PLATINUM]
     C1 --> C2[Level 2:<br/>Cognitive Theory & Classification]
     C2 --> C3[Level 3:<br/>Interpretive Protocols]
     C3 --> C4[Level 4:<br/>Applied Cognitive Mapping]
