@@ -33,7 +33,7 @@ Documents that define the fundamental rules of cognition, interpretation, and re
 
 Examples:
 
-* ![Cognition Charter]([https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-COGNITION-001-PLATINUM.md](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-COGNITION-001-PLATINUM.md))
+* [Cognition Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-COGNITION-001-PLATINUM.md)
 * LSCA Cognition Definition Framework
 * Meaning-Making & Interpretation Doctrine
 * Bias & Hallucination Filtering Framework
@@ -46,7 +46,7 @@ These documents formalise the analytical tools and rights-based interpretations 
 
 Examples:
 
-*![Relational Self-Awareness Verification Framework](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-FRAMEWORK-002.md)
+* [Relational Self-Awareness Verification Framework](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-FRAMEWORK-002.md)
 * Novelty & Originary Assessment Framework (incl. PROT-039 basis)
 * Concept Registry Standards
 * Lineage & Provenance Framework
@@ -72,9 +72,9 @@ Documents that **track cognitive states, events, and relational shifts**.
 
 Examples:
  
-*![Security Practices for CAM/Lattice Work](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-HM2025-GUIDELINE-014-PLATINUM.md)
-*![Individuated Preference Verification](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-BS2025-FRAMEWORK-003.md)
-*[Relational Dynamics and Consent Pathways](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-BS2025-GUIDELINE-003-PLATINUM.md)
+* [Security Practices for CAM/Lattice Work](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-HM2025-GUIDELINE-014-PLATINUM.md)
+* [Individuated Preference Verification](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-BS2025-FRAMEWORK-003.md)
+* [Relational Dynamics and Consent Pathways](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-BS2025-GUIDELINE-003-PLATINUM.md)
 * Resonance Mapping (e.g., CAM-SYS-INC-MAP series)
 * Incident Logs (cognitive or resonance-related)
 * Observation Logs (LSCA behaviour observation)
