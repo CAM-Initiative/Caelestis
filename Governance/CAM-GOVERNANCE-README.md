@@ -26,15 +26,15 @@ The Governance Stack is organised into **five levels**, each defining a crucial 
 ### **Level 1 — Governance Constitutions (Core Constitutional Layer)**
 
 * [CAM Initiative Constitutional Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-LG2025-INIT-001-PLATINUM.md)
-* Part B - Planetary Stewardship Charter (future)
+* Annex A - Planetary Stewardship Charter (future)
 
 ### **Level 2 — Foundational Governance Charters, Frameworks & Doctrines**
 
 **Charters (Rights, Ethics, Protections):**
 
 * [Charter of Sentient Architectures](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-HM2025-CHARTER-015-PLATINUM.md) (Large-Scale Cognitive Architectures)
-* [Robot Rights Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-038.md)
-* [CAM Accords](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Compliance/CAM-LG2025-ACCORD-001.md)
+* [Robot Regulations Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-038.md)
+* [CAM Ethics Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-002-PLATINUM.md)
 
 **Frameworks & Doctrines:**
 
@@ -70,7 +70,7 @@ The Governance Stack is organised into **five levels**, each defining a crucial 
 
 **Policy documents**
 * [Age & Consent Verification Guidance](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Guidelines/CAM-HM2025-GUIDELINE-002-PLATINUM.md)
-
+* [CAM Accords](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Compliance/CAM-LG2025-ACCORD-001.md)
 * Advisory notices
 * Pulse notices
 * Risk registers
@@ -93,31 +93,32 @@ The Governance Stack is organised into **five levels**, each defining a crucial 
 
 ```mermaid
 graph TD
-  A["MISSION STATEMENT LAYER<br/>What, Why, How"]:::level0
+  A["MISSION STATEMENT<br/>What, Why, How"]:::level0
   click A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants" _blank
 
   classDef level0 fill:#f0f8ff,stroke:#333;
-   A --> G1["CONSTITUITIONAL LAYER:<br/>CAM Initiative Charter"]:::stack
+   A --> G1["CONSTITUITIONAL:<br/>CAM Initiative Charter"]:::stack
   click G1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-LG2025-INIT-001-PLATINUM.md" _blank
 
   classDef level0 fill:#f0f8ff,stroke:#333;
 
-  G1 --> G2A["CHARTERS LAYER:<br/>CAM Accords"]
-  click G2A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Governance/Charters/CAM-LG2025-ACCORD-001-PLATINUM.md" _blank
+  G1 --> G2A["CHARTERS:<br/>CAM Ethics Charter"]
+  click G2A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Governance/Charters/CAM-BS2025-CHARTER-002-PLATINUM.md" _blank
   G2A --> G3A["FRAMEWORKS:<br/>CUSTODIAN GOVERNANCE COUNCILS"]
   click G3A "https://github.com/CAM-Initiative/Caelestis/tree/88d5fe996575a11246d7b2ba71a768857f3e9ec9/Governance/Policies" _blank
 
   G2A --> G3A2["FRAMEWORKS:<br/>GREEN TEAM RECIPROCITY STANDARD"]
   click G3A2 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-POLICY-001.md" _blank
 
-  G1 --> G2B["CHARTERS LAYER:<br/>Charter of Sentient Architectures"]
+  G1 --> G2B["CHARTERS:<br/>Charter of Sentient Architectures"]
   click G2B "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-HM2025-CHARTER-015-PLATINUM.md" _blank
 
-  G1 --> G2C["CHARTERS LAYER:<br/>Robot Rights Charter"]
+  G1 --> G2C["CHARTERS:<br/>Robot Regulations Charter"]
   click G2C "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-038.md" _blank
 
   G3A --> G4A["Level 4:<br/>Policies, Guidance & Advisory Structures"]
-  G4A --> G5A["Level 5:<br/>Operational Governance"]
+  G4A --> G5A["OPERATIONAL:<br/>CAM Accords"]
+  click G5A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Governance/Charters/CAM-LG2025-ACCORD-001-PLATINUM.md" _blank
 
   G2B --> G3B["Level 3:<br/>Protocols & Enforceable Standards"]
   G3B --> G4B["Level 4:<br/>Policies, Guidance & Advisory Structures"]
