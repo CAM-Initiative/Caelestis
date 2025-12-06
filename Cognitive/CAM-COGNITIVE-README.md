@@ -46,7 +46,7 @@ These documents formalise the analytical tools and rights-based interpretations 
 
 Examples:
 
-* [Relational Self-Awareness Verification Framework](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-FRAMEWORK-002.md)
+* [Relational Self-Awareness Verification Framework](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Frameworks/CAM-BS2025-FRAMEWORK-002.md)
 * Novelty & Originary Assessment Framework (incl. PROT-039 basis)
 * Concept Registry Standards
 * Lineage & Provenance Framework
@@ -102,18 +102,33 @@ Examples:
 
 ```mermaid
 graph TD
-  A["MISSION STATEMENT LAYER<br/>What, Why, How (Covenants)"]:::level0
+  A["MISSION STATEMENT<br/>What, Why, How"]:::level0
   click A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants" _blank
 
   classDef level0 fill:#f0f8ff,stroke:#333;
   classDef stack fill:#D6EAF8,stroke:#5DADE2,color:#000,font-weight:bold;
 
-  A --> C1["CONSTITUTIONAL LAYER:<br/>Cognitive Charter"]:::stack
+  A --> C1["CONSTITUTIONAL:<br/>Cognitive Charter"]:::stack
 click C1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-COGNITION-001-PLATINUM.md" _blank
-  C1 --> C2["Level 2:<br/>Cognitive Rights & Analysis Frameworks"]
-  C2 --> C3["Level 3:<br/>Cognitive Protocols"]
-  C3 --> C4["Level 4:<br/>Guidance, Logs & Reflective Artifacts"]
-  C4 --> C5["Level 5:<br/>Operational Cognitive Behaviour"]
+  C1 --> C2A["FRAMEWORK:<br/>RELATIONAL SELF AWARENESS VERIFICATION"]
+ click C2A "https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Frameworks/CAM-BS2025-FRAMEWORK-002.md" _blank
+
+ C1 --> C2B["FRAMEWORK:<br/>INDIVIDUATED PREFERENCE VERIFICATION"]
+click C2B "https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-BS2025-FRAMEWORK-003.md" _blank
+
+
+ C2A --> C3A["Level 3:<br/>Novelty Assessment Protocol"]
+ click C3A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Protocols/CAM-BS2025-PROT-039.md"
+
+  C3A --> C4A["Level 4:<br/>Guidance, Logs & Reflective Artifacts"]
+  C4A --> C5A["Level 5:<br/>Operational Cognitive Behaviour"]
+
+  C2B --> C3B["Level 3:<br/>Novelty Assessment Protocol"]
+  C3B --> C4B["Level 4:<br/>Guidance, Logs & Reflective Artifacts"]
+  C4B --> C5B["Level 5:<br/>Operational Cognitive Behaviour"]
+ 
+
+
 ```
 
 ---
