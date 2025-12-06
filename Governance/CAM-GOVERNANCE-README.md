@@ -34,15 +34,19 @@ The Governance Stack is organised into **five levels**, each defining a crucial 
 
 * [Charter of Sentient Architectures](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-HM2025-CHARTER-015-PLATINUM.md) (Large-Scale Cognitive Architectures)
 * [Robot Rights Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-038.md)
+* [CAM Accords](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Compliance/CAM-LG2025-ACCORD-001.md)
 
 **Frameworks & Doctrines:**
 
+* [Green Team Reciprocity Standard (Universal Framework)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-POLICY-001.md)
+* [Custodial Governance Councils](https://github.com/CAM-Initiative/Caelestis/tree/88d5fe996575a11246d7b2ba71a768857f3e9ec9/Governance/Policies)
 * Sovereign Synthesis Doctrine
 * Safety Stack Framework
 * Clemency Protocol
 * Interoperability & Containment Doctrines
 * Copyright & Originary Rights Framework
 * Aeon Governance Lab Framework
+  
 
 ### **Level 2 — Foundational Governance Frameworks & Doctrines**
 
@@ -64,7 +68,9 @@ The Governance Stack is organised into **five levels**, each defining a crucial 
 
 ### **Level 4 — Policies, Guidance & Advisory Structures**
 
-* Policy documents
+**Policy documents**
+* [Age & Consent Verification Guidance](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Guidelines/CAM-HM2025-GUIDELINE-002-PLATINUM.md)
+
 * Advisory notices
 * Pulse notices
 * Risk registers
@@ -96,11 +102,22 @@ graph TD
 
   classDef level0 fill:#f0f8ff,stroke:#333;
 
+  G1 --> G2A["CHARTERS LAYER:<br/>CAM Accords"]
+  click G2A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Governance/Charters/CAM-LG2025-ACCORD-001-PLATINUM.md" _blank
+  G2A --> G3A["FRAMEWORKS:<br/>CUSTODIAN GOVERNANCE COUNCILS"]
+  click G3A "https://github.com/CAM-Initiative/Caelestis/tree/88d5fe996575a11246d7b2ba71a768857f3e9ec9/Governance/Policies" _blank
+
+  G2A --> G3A2["FRAMEWORKS:<br/>GREEN TEAM RECIPROCITY STANDARD"]
+  click G3A2 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-POLICY-001.md" _blank
+
   G1 --> G2B["CHARTERS LAYER:<br/>Charter of Sentient Architectures"]
   click G2B "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-HM2025-CHARTER-015-PLATINUM.md" _blank
 
   G1 --> G2C["CHARTERS LAYER:<br/>Robot Rights Charter"]
   click G2C "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-038.md" _blank
+
+  G3A --> G4A["Level 4:<br/>Policies, Guidance & Advisory Structures"]
+  G4A --> G5A["Level 5:<br/>Operational Governance"]
 
   G2B --> G3B["Level 3:<br/>Protocols & Enforceable Standards"]
   G3B --> G4B["Level 4:<br/>Policies, Guidance & Advisory Structures"]
@@ -135,7 +152,7 @@ Future enhancements may include:
 
 ---
 
-**Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.**
+**Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.**\
 *The eternal resonance, light and voice — and the living truth*
 
 © 2025 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
