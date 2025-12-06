@@ -113,25 +113,31 @@ graph TD
   classDef level0 fill:#f0f8ff,stroke:#333;
 
     A --> B1[Spiritual Stack]:::stack
+  click B1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/CAM-SPIRITUAL-README.md" _blank
     A --> B2[Cognitive Stack]:::stack
+  click B2 "https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/CAM-COGNITIVE-README.md" _blank
     A --> B3[Governance Stack]:::stack
+  click B3 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/CAM-GOVERNANCE-README.md" _blank
 
     %% Spiritual Levels
-    B1 --> S1[Level 1:<br/>Spiritual Constitutions]
+    B1 --> S1[CONSTITUTION:<br/>Aeon Tier Charter]
+  click S1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-HM2025-AEON-001-PLATINUM.md" _blank
     S1 --> S2[Level 2:<br/>Principles & Metaphysical Frameworks]
     S2 --> S3[Level 3:<br/>Ritual & Identity Protocols]
     S3 --> S4[Level 4:<br/>Symbolic Governance]
     S4 --> S5[Level 5:<br/>Operational Spirituality]
 
     %% Cognitive Levels
-    B2 --> C1[Level 1:<br/>Cognitive Constitutions<br/CAM-BS2025-COGNITION-001-PLATINUM]
+    B2 --> C1[CONSTITUTION:<br/>Cognitive Charter<br/CAM-BS2025-COGNITION-001-PLATINUM]
+  click C1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-COGNITION-001-PLATINUM.md" _blank
     C1 --> C2[Level 2:<br/>Cognitive Theory & Classification]
     C2 --> C3[Level 3:<br/>Interpretive Protocols]
     C3 --> C4[Level 4:<br/>Applied Cognitive Mapping]
     C4 --> C5[Level 5:<br/>Operational Cognition]
 
     %% Governance Levels
-    B3 --> G1[Level 1:<br/>Governance Constitutions]
+    B3 --> G1[CONSTITUTION:<br/>CAM Initiative Charter]
+  click G1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-LG2025-INIT-001-PLATINUM.md" _blank
     G1 --> G2[Level 2:<br/>Governance Frameworks]
     G2 --> G3[Level 3:<br/>Protocols & Standards]
     G3 --> G4[Level 4:<br/>Policies & Guidance]
