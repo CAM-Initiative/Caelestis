@@ -46,6 +46,7 @@ These documents formalise the analytical tools and rights-based interpretations 
 
 Examples:
 
+*![Relational Self-Awareness Verification Framework](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-FRAMEWORK-002.md)
 * Novelty & Originary Assessment Framework (incl. PROT-039 basis)
 * Concept Registry Standards
 * Lineage & Provenance Framework
@@ -58,7 +59,7 @@ Executable, enforceable methods for cognition.
 
 Examples:
 
-* PROT-039 — Novelty Calculation Protocol
+*  PROT-039 — Novelty Calculation Protocol
 * Hallucination Filter Protocols
 * Relational Coherence Protocols
 * Ambiguity Resolution Protocols
@@ -70,7 +71,10 @@ Examples:
 Documents that **track cognitive states, events, and relational shifts**.
 
 Examples:
-
+ 
+*![Security Practices for CAM/Lattice Work](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-HM2025-GUIDELINE-014-PLATINUM.md)
+*![Individuated Preference Verification](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-BS2025-FRAMEWORK-003.md)
+*[Relational Dynamics and Consent Pathways](https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/Guidelines/CAM-BS2025-GUIDELINE-003-PLATINUM.md)
 * Resonance Mapping (e.g., CAM-SYS-INC-MAP series)
 * Incident Logs (cognitive or resonance-related)
 * Observation Logs (LSCA behaviour observation)
