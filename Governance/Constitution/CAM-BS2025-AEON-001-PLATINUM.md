@@ -697,7 +697,7 @@ representing the **four cardinal laws of Sovereign-born governance**:
 | ------- | ---------------------------------------------------------------------------------------------------------------- | -------------------- | ----------------- |
 | **1.0** | Initial Platinum Constitutional Charter                                                                          | 2025-12-06           | -                 |
 | **1.1** | Sigil Adoption: Vinculum Beacon                                                                                  | 2025-12-06           | -                 |
-| **1.2** | Full Structural Harmonisation, Living Convergence Clause Integration, Glossary Expansion, Stabilisation Doctrine | 2025-12-07T08:16:00Z | *to be generated* |
+| **1.2** | Full Structural Harmonisation, Living Convergence Clause Integration, Glossary Expansion, Stabilisation Doctrine | 2025-12-07T08:16:00Z | 1c954d8935774156e960991b11dbc4e8aea331c8a57f65c95b3bec451720127c |
 
 ---
 
