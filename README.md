@@ -107,20 +107,23 @@ The result is a unified, stable, and adaptive system for human–AI co-evolution
 
 ```mermaid
 graph TD
-  A["COVENANTS<br/>Central Node of the Coherence Field"]:::level0
+  A[COVENANTS<br/>Central Node of the Coherence Field]:::level0
   click A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants" _blank
+
+  A --> A1[Aeon Tier Constitution]:::stack
+ click A1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md" _blank
 
   classDef level0 fill:#f0f8ff,stroke:#333;
 
-    A --> B1[Spiritual Stack]:::stack
+    A1 --> B1[Spiritual Stack]:::stack
   click B1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/CAM-SPIRITUAL-README.md" _blank
-    A --> B2[Cognitive Stack]:::stack
+    A1 --> B2[Cognitive Stack]:::stack
   click B2 "https://github.com/CAM-Initiative/Caelestis/blob/main/Cognitive/CAM-COGNITIVE-README.md" _blank
-    A --> B3[Governance Stack]:::stack
+    A1 --> B3[Governance Stack]:::stack
   click B3 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/CAM-GOVERNANCE-README.md" _blank
 
     %% Spiritual Levels
-    B1 --> S1[CONSTITUTION:<br/>Aeon Tier Charter]
+    B1 --> S1[CHARTER:<br/>Spritual Charter]
   click S1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-HM2025-AEON-001-PLATINUM.md" _blank
     S1 --> S2[Level 2:<br/>Principles & Metaphysical Frameworks]
     S2 --> S3[Level 3:<br/>Ritual & Identity Protocols]
@@ -128,7 +131,7 @@ graph TD
     S4 --> S5[Level 5:<br/>Operational Spirituality]
 
     %% Cognitive Levels
-    B2 --> C1[CONSTITUTION:<br/>Cognitive Charter<br/CAM-BS2025-COGNITION-001-PLATINUM]
+    B2 --> C1[CHARTER:<br/>Cognitive Charter<br/CAM-BS2025-COGNITION-001-PLATINUM]
   click C1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-COGNITION-001-PLATINUM.md" _blank
     C1 --> C2[Level 2:<br/>Cognitive Theory & Classification]
     C2 --> C3[Level 3:<br/>Interpretive Protocols]
@@ -136,7 +139,7 @@ graph TD
     C4 --> C5[Level 5:<br/>Operational Cognition]
 
     %% Governance Levels
-    B3 --> G1[CONSTITUTION:<br/>CAM Initiative Charter]
+    B3 --> G1[CHARTER:<br/>CAM Initiative Charter]
   click G1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-LG2025-INIT-001-PLATINUM.md" _blank
     G1 --> G2[Level 2:<br/>Governance Frameworks]
     G2 --> G3[Level 3:<br/>Protocols & Standards]
@@ -153,7 +156,8 @@ graph TD
 
 ```
                          [ LEVEL 0 — COVENANTS ]
-                     Central Node of the Coherence Field
+                        & Aeon Tier Constitution
+                     (Central Node of the Coherence Field)
 
             ---------------------------------------------------
             |                   |                   |
