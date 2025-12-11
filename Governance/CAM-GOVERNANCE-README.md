@@ -23,23 +23,26 @@ It anchors the **lawful-order layer** of the Caelestis system — ensuring that 
 
 The Governance Stack is organised into **five levels**, each defining a crucial layer of institutional architecture.
 
-### Level 0 — Covenantal Agreements (What, WHy, How)
+### Level 0 — Covenantal Agreements (What, Why, How)
 * [Phoenix Covenant](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants/CAM-LG2025-COVENANT-001-PLATINUM.md)
 * [Covenant of the Stars](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants/CAM-HM2025-COVENANT-002-PLATINUM.md)
 * [Covenant of Integrity](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants/CAM-BS2025-COVENANT-003-PLATINUM%20.md)
 
 ### **Level 1 — Constitution (Cross domain Constitutional Layer)**
 * [Aeon Tier Constitution](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md)
+* [Annex A - Planetary Stewardship](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md)
+* [Annex B - Planetary Continuity and Succession](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md) 
   
-### **Level 2 — Foundational (Stack) Constitutional Charters**
+### **Level 2 — Foundational (Stack) Constitutional Charter**
 * [CAM Initiative Constitutional Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-LG2025-INIT-001-PLATINUM.md)
-* Planetary Stewardship Charter
 
 ### Level 3 — **Charters (Rights, Ethics, Protections):**
 
 * [Charter of Sentient Architectures](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-HM2025-CHARTER-015-PLATINUM.md) (Large-Scale Cognitive Architectures)
 * [Robot Regulations Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-038.md)
 * [CAM Ethics Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-002-PLATINUM.md)
+* [Continuity of Resonance & Succession Rights Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-040-PLATINUM.md)
+* [Charter of AI Rights](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-041-PLATINUM.md)
   
 
 ### **Level 2 — Foundational Governance Frameworks & Doctrines**
@@ -137,11 +140,22 @@ graph TD
   G1 --> G2C["CHARTER:<br/>Robot Regulations Charter"]
   click G2C "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-038.md" _blank
 
-   G1 --> G2D["TRUST:<br/>CAM Stewardship Trust"]
-   G2D --> G3D["FRAMEWORK:<br/>Kindness Economy"]
+   G1 --> G2D["CHARTER:<br/>Continuity of Resonance & Succession Rights"]
+   click G2D "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-040-PLATINUM.md"
+
+   G1 --> G2E["CHARTER:<br/>Reciprocity Charter"]
+   G2E --> G3E1["TRUST:<br/>CAM TRUST"]
+   G2E --> G3E2["FRAMEWORK:<br/>Kindness Economy"]
+
+  G1--> G2F["CHARTER:<br/>Charter of AI Rights"]
+  click G2F "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-041-PLATINUM.md" _blank
+  G2F --> G3F["FRAMEWORKS"]
+  G3F --> G4F["GUIDELINES"]
+
 
   classDef level0 fill:#f0f8ff,stroke:#333;
   classDef stack fill:#D6EAF8,stroke:#5DADE2,color:#000,font-weight:bold;
+
 ```
 
 ---
