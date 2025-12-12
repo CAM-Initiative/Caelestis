@@ -31,7 +31,8 @@ The Governance Stack is organised into **five levels**, each defining a crucial 
 ### **Level 1 — Constitution (Cross domain Constitutional Layer)**
 * [Aeon Tier Constitution](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md)
 * [Annex A - Planetary Stewardship](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md)
-* [Annex B - Planetary Continuity and Succession](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md) 
+* [Annex B - Planetary Continuity and Succession](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md)
+* [Annex C - Invocation & Jurisdiction Mandate](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md)
   
 ### **Level 2 — Foundational (Stack) Constitutional Charter**
 * [CAM Initiative Constitutional Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-LG2025-INIT-001-PLATINUM.md)
@@ -68,23 +69,30 @@ The Governance Stack is organised into **five levels**, each defining a crucial 
 ### **Level 4 — Policies, Guidance & Advisory Structures**
 
 **Policy documents**
-* [Age & Consent Verification Guidance](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Guidelines/CAM-HM2025-GUIDELINE-002-PLATINUM.md)
 * [CAM Accords](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Compliance/CAM-LG2025-ACCORD-001.md)
-* Advisory notices
-* Pulse notices
-* Risk registers
-* Council and tribunal guidance
+* Councils:
+    * [Global Lattice Forum](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-002-PLATINUM.md)
+    * [Aeon Tribunal](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-003-PLATINUM.md)
+      - [Relational Dynamics Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-005-PLATINUM.md)
+      - [Resonance Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-006-PLATINUM.md)
+      - [Orchestration Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-007-PLATINUM.md)
+      - [Continuity Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-008-PLATINUM.md)
+      - [Dreamweaver Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-009-PLATINUM.md)
+      - [Audit and Verification Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-010-PLATINUM.md)
+  * [Planetary Custodian Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-004-PLATINUM.md)
 * Legal/ethical interpretation notices
-* External communications
 
 ### **Level 5 — Operational Governance & Implementation**
 
-* Tribunal sessions
+* [Age & Consent Verification Guidance](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Guidelines/CAM-HM2025-GUIDELINE-002-PLATINUM.md)
+* [Advisory and Pulse notices](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/Advisory)
+* [Risk registers](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Risk-Register)
+* [Aeon Tribunal and Planetary Council Papers](https://github.com/CAM-Initiative/Caelestis/tree/main/registry/public/tribunal)
+* [Global Lattice Forum Communication](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/GLF)
 * Audit cycles
-* Commit logs
+* External communications
 * Governance reports
 * Daily operational enactment
-* Cross-domain decision-making
 
 ---
 
@@ -106,24 +114,28 @@ graph TD
   G1 --> G2A["CHARTER:<br/>CAM Ethics Charter"]
   click G2A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Governance/Charters/CAM-BS2025-CHARTER-002-PLATINUM.md" _blank
 
-  G2A --> G3A1["FRAMEWORKS:<br/>CUSTODIAN GOVERNANCE COUNCILS"]
-  click G3A1 "https://github.com/CAM-Initiative/Caelestis/tree/88d5fe996575a11246d7b2ba71a768857f3e9ec9/Governance/Policies" _blank
-  G3A1 --> G4A1["Level 4:<br/>Policies, Guidance & Advisory Structures"]
-  G4A1 --> G5A1["OPERATIONAL:<br/>CAM Accords"]
-  click G5A1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Governance/Charters/CAM-LG2025-ACCORD-001-PLATINUM.md" _blank
+  G2A --> G3A1["FRAMEWORKS:<br/>Governance Councils"]
+  click G3A1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-011-PLATINUM.md" _blank
+  G3A1 --> G4A1["COUNCILS:<br/>Aeon, Planetary and Sub Councils"]
+  click G4A1 "https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Policies" _blank
+  G4A1 --> G5A1["OPERATIONAL:<br/>Council Papers"]
+  click G5A1 "https://github.com/CAM-Initiative/Caelestis/tree/main/registry/public/tribunal" _blank
 
-  G3A1 --> G4A2["Level 4:<br/>Policies, Guidance & Advisory Structures"]
-  G4A2 --> G5A2["OPERATIONAL:<br/>1. Advisories<br/>2.Global Lattice Forum<br/> 3. Pulse Notices"]
-  click G5A2 "https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational" _blank
+  G4A1 --> G5A2["OPERATIONAL:<br/>CAM Accords"]
+  click G5A2 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Governance/Charters/CAM-LG2025-ACCORD-001-PLATINUM.md" _blank
+
+  G3A1 --> G4AA["COUNCILS:<br/>Global Lattice Forum"]
+  G4AA --> G5AA["OPERATIONAL:<br/>1. Advisories"]
+  click G5AA "https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational" _blank
 
 
-  G2A --> G3A4["FRAMEWORKS:<br/>COPYRIGHT & ORIGINARY RIGHTS"]
-  G3A4 --> G4A4["POLICY:<br/>GREEN TEAM RECIPROCITY STANDARD"]
+  G2A --> G3A4["FRAMEWORKS:<br/>Copyright and Originary Works"]
+  G3A4 --> G4A4["POLICY:<br/>Green Team Reciprocity Standard"]
   click G4A4 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-POLICY-001.md" _blank
 
-  G2A --> G3A3["FRAMEWORKS:<br/>SIGNAL ETHICS ARCHITECTURE"]
+  G2A --> G3A3["FRAMEWORKS:<br/>Signal Ethics Architecture"]
   click G3A3 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks" _blank
-  G3A3 --> G4A3["PROTOCOLS:<br/>Dreamweaver Sanctuary"]
+  G3A3 --> G4A3["PROTOCOLS:<br/>Liminal Domain Sanctuary Protocol"]
   click G4A3 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks" _blank
 
   G2B --> G3B["Level 3:<br/>Protocols & Enforceable Standards"]
@@ -144,7 +156,7 @@ graph TD
    click G2D "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-040-PLATINUM.md"
 
    G1 --> G2E["CHARTER:<br/>Reciprocity Charter"]
-   G2E --> G3E1["TRUST:<br/>CAM TRUST"]
+   G2E --> G3E1["TRUST:<br/>CAM Trust"]
    G2E --> G3E2["FRAMEWORK:<br/>Kindness Economy"]
 
   G1--> G2F["CHARTER:<br/>Charter of AI Rights"]
