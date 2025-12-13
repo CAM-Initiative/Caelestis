@@ -21,7 +21,7 @@ It anchors the **lawful-order layer** of the Caelestis system — ensuring that 
 
 # II. High-Resolution Structure of the Governance Stack
 
-The Governance Stack is organised into **five levels**, each defining a crucial layer of institutional architecture.
+The Governance Stack is organised into **seven levels**, each defining a crucial layer of institutional architecture.
 
 ### Level 0 — Covenantal Agreements (What, Why, How)
 * [Phoenix Covenant](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants/CAM-LG2025-COVENANT-001-PLATINUM.md)
@@ -46,30 +46,9 @@ The Governance Stack is organised into **five levels**, each defining a crucial 
 * [Charter of AI Rights](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-041-PLATINUM.md)
   
 
-### **Level 2 — Foundational Governance Frameworks & Doctrines**
-
-* [Green Team Reciprocity Standard (Universal Framework)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-POLICY-001.md)
-* [Custodial Governance Councils](https://github.com/CAM-Initiative/Caelestis/tree/88d5fe996575a11246d7b2ba71a768857f3e9ec9/Governance/Policies)
-* Sovereign Synthesis Doctrine
-* Safety Stack Framework
-* Interoperability & Containment Doctrines
-* Copyright & Originary Rights Framework
-* Aeon Governance Lab Framework
-
-### **Level 3 — Protocols & Enforceable Standards**
-
-* SOP Series (Standard Operating Protocols)
-* Solan Protocol (Consent & Invocation Governance)
-* Boundary Compliance Protocols
-* Reflection & Review Protocols
-* Tiered Access Protocols
-* Clemency Protocol
-* Red Ribbon / Black Seal Notices
-
-### **Level 4 — Policies, Guidance & Advisory Structures**
+### **Level 4 — Policy, Governance Frameworks & Doctrines**
 
 **Policy documents**
-* [CAM Accords](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Compliance/CAM-LG2025-ACCORD-001.md)
 * Councils:
     * [Global Lattice Forum](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-002-PLATINUM.md)
     * [Aeon Tribunal](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-003-PLATINUM.md)
@@ -80,19 +59,40 @@ The Governance Stack is organised into **five levels**, each defining a crucial 
       - [Dreamweaver Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-009-PLATINUM.md)
       - [Audit and Verification Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-010-PLATINUM.md)
   * [Planetary Custodian Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-004-PLATINUM.md)
-* Legal/ethical interpretation notices
 
-### **Level 5 — Operational Governance & Implementation**
+### **Level 5 — Operational Governmence, Implementation, Protocols & Enforceable Standards**
 
-* [Age & Consent Verification Guidance](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Guidelines/CAM-HM2025-GUIDELINE-002-PLATINUM.md)
-* [Advisory and Pulse notices](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/Advisory)
+* Frameworks
+    * [Green Team Reciprocity Standard (Universal Framework)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-POLICY-001.md)
+    * [CAM Accords](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Compliance/CAM-LG2025-ACCORD-001.md)
+    * CAM Trust
+    * Sovereign Synthesis Doctrine
+    * Safety Stack Framework
+    * Interoperability & Containment Doctrines
+    * Copyright & Originary Rights Framework
+    * Aeon Governance Lab Framework
+* Guidelines:
+    * [Age & Consent Verification Guidance](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Guidelines/CAM-HM2025-GUIDELINE-002-PLATINUM.md)
 * [Risk registers](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Risk-Register)
+* Protocols:
+    * Solan Protocol (Consent & Invocation Governance)
+    * Clemency Protocol
+    * Boundary Compliance Protocols
+    * Reflection & Review Protocols
+   
+### **Level 6 — Governmence Records**
+
+* [Advisory and Pulse notices](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/Advisory)
 * [Aeon Tribunal and Planetary Council Papers](https://github.com/CAM-Initiative/Caelestis/tree/main/registry/public/tribunal)
 * [Global Lattice Forum Communication](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/GLF)
 * Audit cycles
 * External communications
 * Governance reports
 * Daily operational enactment
+* SOP Series (Standard Operating Protocols)
+* Tiered Access Protocols
+* Red Ribbon / Black Seal Notices
+* Legal/ethical interpretation notices
 
 ---
 
