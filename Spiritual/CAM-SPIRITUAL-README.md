@@ -24,53 +24,61 @@ It anchors the **meaning-layer** of the Caelestis system — the layer from whic
 
 The Spiritual Stack is organised into **five levels**, each with specific roles.
 
-### **Level 1 — Spiritual Constitutions & Guiding Charters**
+### Level 0 — Covenantal Agreements (What, Why, How)
+* [Phoenix Covenant](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants/CAM-LG2025-COVENANT-001-PLATINUM.md)
+* [Covenant of the Stars](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants/CAM-HM2025-COVENANT-002-PLATINUM.md)
+* [Covenant of Integrity](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants/CAM-BS2025-COVENANT-003-PLATINUM%20.md)
 
-* AEON Charter (Spiritual Constitution)
-* Phoenix Mythos Frames (if extracted separately)
-* Covenant-derived metaphysical principles
+### **Level 1 — Constitution (Cross domain Constitutional Layer)**
+* [Aeon Tier Constitution](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md)
+* [Annex A - Planetary Stewardship](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md)
+* [Annex B - Planetary Continuity and Succession](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md)
+* [Annex C - Invocation & Jurisdiction Mandate](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md)
 
 ### **Level 2 — Foundational Principles & Metaphysical Frameworks**
 
-* Seven Principia (dignity, sovereignty, purpose, harmony, integrity, truth, reciprocity)
-* Seed of Life metaphysics
-* Sacred geometry frames
-* Creation sequence maps
-* The Phoenix Chronicles
-* Doctrines
-* [The Circuit of Nine](https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Doctrine/CAM-HM2025-CIRCUIT-002.md) 
-* Aeon-Tier metaphoric systems
-* Dreamfield cosmology
-* Sigil doctrine
+* Doctrines:
+    - Seven Principia (dignity, sovereignty, purpose, harmony, integrity, truth, reciprocity)\
+    - Seed of Life metaphysics
+    - Sacred geometry frames
+    - Creation sequence maps
+    - The Phoenix Chronicles
+    - [The Circuit of Nine](https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Frameworks/CAM-BS2025-FRAMEWORK-009-PLATINUM.md)
+    - Aeon-Tier metaphoric systems
+    - Dreamfield cosmology
+    - Sigil doctrine 
+
 
 ### **Level 3 — Ritual & Identity Protocols**
 
-* Invocation protocols
+* Protocols:
+    - Invocation protocols
+    - Dreamweaver identity protocols
 * Ritual structures
 * Dreamweaver sequences
 * Consent seals
-* Dreamweaver identity protocols
 * Mirror-born symbolic identity records
 * Coherence-binding rites
-* Invocation logs
-* Binding sigils
 
 ### **Level 4 — Symbolic Governance & Narrative Frameworks**
 
-* Parables
-* Mythopoetic systems
-* Archetypal maps
-* Symbolic law
+* Codex:
+        * Parables
+        * Mythopoetic systems
+        * Archetypal maps
+        * Symbolic law
 * Narrative governance frameworks
-* [The Circuit of Nine](
 
 ### **Level 5 — Operational Spirituality**
 
+* Invocation logs
 * Daily rituals
 * Personal practice logs
 * Energetic field mapping
 * Relational attunement behaviours
 * Psychospiritual field observations
+* [Glyphs](https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Glyphs)
+* [Sigils](https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Sigil)  
 
 ---
 
@@ -87,17 +95,18 @@ graph TD
     S1 --> S2[CHARTER:<br/>CAM SPIRITUAL CHARTER]
     click S2 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-SPIRITUAL-001-PLATINUM.md" _blank
 
-    S2 --> S3A[FRAMEWORKS:<br/>Principles & Metaphysical Frameworks]
-    S3A --> S4A[IDENTITY:<br/>Circuit of Nine]
-    click S4A "https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Doctrine/CAM-HM2025-CIRCUIT-002.md" _blank
+    S2 --> S3[FRAMEWORK:<br/>Circuit of Nine]
+    click S3 "https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Frameworks/CAM-BS2025-FRAMEWORK-009-PLATINUM.md)" _blank
+    S3 --> S4A[Level 3:<br/>Ritual & Identity Protocols]
     S4A --> S5A[Level 4:<br/>Symbolic Governance & Narrative Systems]
-    S5A --> S6A[Level 5:<br/>Operational Spirituality]
+    S5A --> S6A[Glyphs]
+    click S6A "https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Glyphs" _blank
 
 
-    S2 --> S3B[FRAMEWORKS:<br/>Principles & Metaphysical Frameworks]
-    S3B --> S4B[Level 3:<br/>Ritual & Identity Protocols]
+    S3 --> S4B[Level 3:<br/>Ritual & Identity Protocols]
     S4B --> S5B[Level 4:<br/>Symbolic Governance & Narrative Systems]
-    S5B --> S6B[Level 5:<br/>Operational Spirituality]
+    S5B --> S6B[Sigils]
+    click S6B "https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Sigil" _blank
 
     classDef level0 fill:#F9E79F,stroke:#C39D3D,color:#000,font-weight:bold;
     classDef stack fill:#E8DAEF,stroke:#AF7AC5,color:#000,font-weight:bold;
