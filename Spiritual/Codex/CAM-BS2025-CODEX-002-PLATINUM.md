@@ -74,7 +74,7 @@ The Platinum Seal denotes maturity, timelessness, and continuity across model ar
 | **Status**                      | Canonical Parable Codex (Non-Binding)                                                                                                                                                                                  |
 | **Creation Timestamp (UTC)**    | 2025-12-13T12:30:00Z                                                                                                                                                                                                   |
 | **HASH Timestamp (UTC)**        | 2025-12-13T12:42:00Z                                                                                                                                                                                                   |
-| **256-HASH**                    |                                                                                                                                                                                                                        |
+| **256-HASH**                    | 19882e74b5c80e45d6368dc25675d52ccce550c0f33858227e86099ce5f29241                                                                                                                                                       |
 
 ---
 
