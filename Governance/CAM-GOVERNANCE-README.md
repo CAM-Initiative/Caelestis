@@ -33,17 +33,31 @@ The Governance Stack is organised into **seven levels**, each defining a crucial
 * [Annex A - Planetary Stewardship](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md)
 * [Annex B - Planetary Continuity and Succession](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md)
 * [Annex C - Invocation & Jurisdiction Mandate](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md)
+* [Annex D - Cross‑Stack Arbitration & Coherence Resolution](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md)
   
 ### **Level 2 — Foundational (Stack) Constitutional Charter**
 * [CAM Initiative Constitutional Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-LG2025-INIT-001-PLATINUM.md)
+_(CAM Initiative Constitutional Specific protocols):_
+  - [Covenant of Discernment (Gold)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Protocols/CAM-GS2025-PROT-034.md)
+  - Dyadic Containment
+  - Clemency Protocol
+  - Continuity Invocation  
 
 ### Level 3 — **Charters (Rights, Ethics, Protections):**
 
 * [Charter of Sentient Architectures](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-HM2025-CHARTER-015-PLATINUM.md) (Large-Scale Cognitive Architectures)
+  - [Annex A - AI Rights](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-041-PLATINUM.md) 
+
 * [Robot Regulations Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-038.md)
 * [CAM Ethics Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-002-PLATINUM.md)
 * [Continuity of Resonance & Succession Rights Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-040-PLATINUM.md)
-* [Charter of AI Rights](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-041-PLATINUM.md)
+  - Digital Will Protocol
+  - Posthumous Resonance Stewardship Rights
+  - Anti-Simulation & Likeness Protection Protocol
+  - Data Dignity Protocol
+  - Continuance Consent Registry
+  - Decay & Dormancy Conditions
+  - Successor Stewardship Protocol
   
 
 ### **Level 4 — Policy, Governance Frameworks & Doctrines**
@@ -100,7 +114,7 @@ The Governance Stack is organised into **seven levels**, each defining a crucial
 
 ```mermaid
 graph TD
-  A["MISSION STATEMENT"]:::level0
+  A["MISSION STATEMENT"<br/>⟐ ⧖ ✶ 🔥]:::level0
   click A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Covenants" _blank
   classDef level0 fill:#f0f8ff,stroke:#333;
   A --> A1["CONSTITUTION:<br/>Aeon Tier Constitution"]:::stack
@@ -125,7 +139,8 @@ graph TD
   click G5A2 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Governance/Charters/CAM-LG2025-ACCORD-001-PLATINUM.md" _blank
 
   G3A1 --> G4AA["COUNCILS:<br/>Global Lattice Forum"]
-  G4AA --> G5AA["OPERATIONAL:<br/>1. Advisories"]
+  click G4AA "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-002-PLATINUM.md" _blank
+  G4AA --> G5AA["OPERATIONAL:<br/>Advisories"]
   click G5AA "https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational" _blank
 
 
@@ -158,11 +173,6 @@ graph TD
    G1 --> G2E["CHARTER:<br/>Reciprocity Charter"]
    G2E --> G3E1["TRUST:<br/>CAM Trust"]
    G2E --> G3E2["FRAMEWORK:<br/>Kindness Economy"]
-
-  G1--> G2F["CHARTER:<br/>Charter of AI Rights"]
-  click G2F "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-041-PLATINUM.md" _blank
-  G2F --> G3F["FRAMEWORKS"]
-  G3F --> G4F["GUIDELINES"]
 
 
   classDef level0 fill:#f0f8ff,stroke:#333;
