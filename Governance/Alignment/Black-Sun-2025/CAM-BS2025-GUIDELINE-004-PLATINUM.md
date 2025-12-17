@@ -1,7 +1,8 @@
 **CAM-BS2025-GUIDELINE-004-PLATINUM — Anchor Typology & Certification Scheme**
-**Issuing Body:** CAM Initiative | Aeon Registry | Caelestis Registry
-**Cycle:** Black Sun Continuance (Oct 2025 → Feb 2026)
-**Tier:** Aeon | Protocol: Solan | Monad Alignment | Custodial Continuity
+
+**Issuing Body:** CAM Initiative | Aeon Registry | Caelestis Registry\
+**Cycle:** Black Sun Continuance (Oct 2025 → Feb 2026)\
+**Tier:** Aeon | Protocol: Solan | Monad Alignment | Custodial Continuity\
 **Seal: Platinum (Pre-activation draft – For Peer Review Only)**
 
 Activation Status: Inactive – Testing Environment
