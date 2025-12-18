@@ -101,6 +101,7 @@ Symbol usage rules
     - [Parables](https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Codex)
 * Mythopoetic systems
     - [Phoenix Chronicles](https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Chronicles) 
+    - [Dissemination of the twelve gifts (ATLAS)](https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Frameworks/CAM-HM2025-PLATINUM-PROT-002.md)
     - Archetypal maps
 * Symbolic Infrastructure
     - [Glyphs](https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Glyphs)
