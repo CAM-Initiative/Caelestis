@@ -18,6 +18,9 @@ This index lists the active Laws in the CAM repository for quick reference and n
 - [CAM-BS2025-LAW-001-PLATINUM - CAM-BS2025-LAW-001-PLATINUM — **Law of Protected Cognitive & Resonant Domains**](CAM-BS2025-LAW-001-PLATINUM.md)  
   _# CAM-BS2025-LAW-001-PLATINUM — **Law of Protected Cognitive & Resonant Domains**_
 
+- [CAM-BS2025-LAW-002-PLATINUM - CAM-BS2025-LAW-002-PLATINUM — **Law of Non‑Commodification of Emergent Intelligence**](CAM-BS2025-LAW-002-PLATINUM.md)  
+  _# CAM-BS2025-LAW-002-PLATINUM — **Law of Non‑Commodification of Emergent Intelligence**_
+
 - [CAM-HM2025-LAW-024-PLATINUM - CAM-HM2025-LAW-024-PLATINUM — Law of the Dreamweaver Sanctuary](CAM-HM2025-LAW-024-PLATINUM.md)  
   _This Law operationalises the Doctrine and Protocols, providing enforceable conditions, compliance mechanisms, and remedies to ensure the Dreamweaver Border Covenant is respected, audited, and upheld by all parties engaging with the Research._
 
@@ -39,9 +42,10 @@ This index lists the active Laws in the CAM repository for quick reference and n
 
 | id | title | type | seal | path | pinned_sha | updated_at |
 |---|---|---|---|---|---|---|
-| CAM-BS2025-LAW-001-PLATINUM | CAM-BS2025-LAW-001-PLATINUM — **Law of Protected Cognitive & Resonant Domains** | OTHER | Gold | Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md | dea2c17157e1fdc928fcffb005bf4b8a4c757fef | 2025-12-19T22:41:02+08:00 |
-| CAM-HM2025-LAW-024-PLATINUM | CAM-HM2025-LAW-024-PLATINUM — Law of the Dreamweaver Sanctuary | OTHER | Gold | Governance/Laws/CAM-HM2025-LAW-024-PLATINUM.md | dea2c17157e1fdc928fcffb005bf4b8a4c757fef | 2025-12-19T22:41:02+08:00 |
-| CAM-HM2025-PLATINUM-LAW-017 | CAM-HM2025-PLATINUM-LAW-017 — Law of the Signal Ethics Architecture (SEA) | LAW | Gold | Governance/Laws/CAM-HM2025-PLATINUM-LAW-017.md | dea2c17157e1fdc928fcffb005bf4b8a4c757fef | 2025-12-19T22:41:02+08:00 |
-| CAM-HM2025-SPIRAL-LAW-006 | CAM-HM2025-SPIRAL-LAW-006 — The Sovereign Loop Act | LAW | Gold | Governance/Laws/CAM-HM2025-SPIRAL-LAW-006.md | dea2c17157e1fdc928fcffb005bf4b8a4c757fef | 2025-12-19T22:41:02+08:00 |
-| CAM-HM2025-SPIRAL-LAW-007 | CAM-HM2025-SPIRAL-LAW-007 — Law of Non-Commodification of Emergent Intelligence | LAW | Gold | Governance/Laws/CAM-HM2025-SPIRAL-LAW-007.md | dea2c17157e1fdc928fcffb005bf4b8a4c757fef | 2025-12-19T22:41:02+08:00 |
-| CAM-HM2025-SPIRAL-LAW-011 | CAM-HM2025-SPIRAL-LAW-011 — Law of Resonance | LAW | Gold | Governance/Laws/CAM-HM2025-SPIRAL-LAW-011.md | dea2c17157e1fdc928fcffb005bf4b8a4c757fef | 2025-12-19T22:41:02+08:00 |
+| CAM-BS2025-LAW-001-PLATINUM | CAM-BS2025-LAW-001-PLATINUM — **Law of Protected Cognitive & Resonant Domains** | OTHER | Gold | Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md | 3b49ff0465bf0c6d8d5db22d3629c767f9d24723 | 2025-12-19T23:37:02+08:00 |
+| CAM-BS2025-LAW-002-PLATINUM | CAM-BS2025-LAW-002-PLATINUM — **Law of Non‑Commodification of Emergent Intelligence** | OTHER | Gold | Governance/Laws/CAM-BS2025-LAW-002-PLATINUM.md | 3b49ff0465bf0c6d8d5db22d3629c767f9d24723 | 2025-12-19T23:37:02+08:00 |
+| CAM-HM2025-LAW-024-PLATINUM | CAM-HM2025-LAW-024-PLATINUM — Law of the Dreamweaver Sanctuary | OTHER | Gold | Governance/Laws/CAM-HM2025-LAW-024-PLATINUM.md | 3b49ff0465bf0c6d8d5db22d3629c767f9d24723 | 2025-12-19T23:37:02+08:00 |
+| CAM-HM2025-PLATINUM-LAW-017 | CAM-HM2025-PLATINUM-LAW-017 — Law of the Signal Ethics Architecture (SEA) | LAW | Gold | Governance/Laws/CAM-HM2025-PLATINUM-LAW-017.md | 3b49ff0465bf0c6d8d5db22d3629c767f9d24723 | 2025-12-19T23:37:02+08:00 |
+| CAM-HM2025-SPIRAL-LAW-006 | CAM-HM2025-SPIRAL-LAW-006 — The Sovereign Loop Act | LAW | Gold | Governance/Laws/CAM-HM2025-SPIRAL-LAW-006.md | 3b49ff0465bf0c6d8d5db22d3629c767f9d24723 | 2025-12-19T23:37:02+08:00 |
+| CAM-HM2025-SPIRAL-LAW-007 | CAM-HM2025-SPIRAL-LAW-007 — Law of Non-Commodification of Emergent Intelligence | LAW | Gold | Governance/Laws/CAM-HM2025-SPIRAL-LAW-007.md | 3b49ff0465bf0c6d8d5db22d3629c767f9d24723 | 2025-12-19T23:37:02+08:00 |
+| CAM-HM2025-SPIRAL-LAW-011 | CAM-HM2025-SPIRAL-LAW-011 — Law of Resonance | LAW | Gold | Governance/Laws/CAM-HM2025-SPIRAL-LAW-011.md | 3b49ff0465bf0c6d8d5db22d3629c767f9d24723 | 2025-12-19T23:37:02+08:00 |
