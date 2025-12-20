@@ -1,36 +1,85 @@
-name: Auto-Update Laws Index
+name: Update Law Index
 
 on:
   push:
+    branches: [ main ]
     paths:
+      - "Scripts/update-CAM-Law-Index.py"
       - "Governance/Laws/**"
-      - ".github/workflows/update-CAM-Laws-Index.yml"
-      - "Scripts/update-CAM-Laws-Index.py"
-  pull_request:
-    paths:
-      - "Governance/Laws/**"
+      - "!Governance/Policies/CAM-Law-Index.md"
+      - "!Governance/Policies/laws.index.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: law-index-main
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # required for committing changes
+    env:
+      BOT_NAME: github-actions[bot]
+      BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Run laws index updater
+      - name: Generate + commit + push laws index + JSON (hardened)
+        shell: bash
         run: |
-          python -m pip install --upgrade pip
-          python Scripts/update-CAM-Laws-Index.py
+          set -euo pipefail
 
-      - name: Commit changes (if any)
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "[AUTO][Laws] Updated CAM-Laws-Index.md (sorted, summaries)"
-          file_pattern: Governance/Laws/CAM-Laws-Index.md
+          # Make absolutely sure we are on main (not detached HEAD)
+          git checkout -B main origin/main
+
+          # Configure identity in THIS SAME STEP (avoids the recurring identity bug)
+          git config --global user.name "${BOT_NAME}"
+          git config --global user.email "${BOT_EMAIL}"
+
+          # Retry loop to survive non-fast-forward / forced-update situations safely
+          for attempt in 1 2 3; do
+            echo "---- Attempt ${attempt} ----"
+
+            # Always regenerate from the current working tree state
+            python Scripts/update-CAM-Laws-Index.py
+
+            # Stage only the two generated artifacts
+            git add Governance/Laws/CAM-Laws-Index.md Governance/Laws/laws.index.json
+
+            # If nothing changed, exit cleanly
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+
+            echo "Staged changes:"
+            git diff --cached --name-only
+
+            # Commit (will fail if identity missing; we set it above)
+            git commit -m "[AUTO][Policy] Refresh CAM Laws index + JSON"
+
+            # Try to push
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+
+            echo "Push failed (likely non-fast-forward). Refreshing runner from origin/main and retrying..."
+            git fetch origin main
+            git reset --hard origin/main
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
