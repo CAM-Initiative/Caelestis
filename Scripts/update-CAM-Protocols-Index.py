@@ -16,27 +16,31 @@ FNAME_RE = re.compile(
     r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})(?:-([A-Z]+))?\.md$", re.IGNORECASE
 )
 
-# Title pattern to strip leading ID + dash/em-dash if present:
-# Examples matched:
-# "CAM-GS2025-PROT-034 — Covenant of Discernment..."
-# "CAM-GS2025-PROT-034 - Covenant..."
+# Match leading ID followed by a separator (hyphen/en-dash/em-dash) and trailing text
 TITLE_ID_PREFIX_RE = re.compile(
     r"^\s*(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$"
 )
 
+# Also accept titles where ID is followed by newline then the real title
+TITLE_ID_PREFIX_NEWLINE_RE = re.compile(
+    r"^\s*(CAM-[A-Za-z0-9\-]+)\s*\n\s*(.+)$", re.IGNORECASE | re.DOTALL
+)
+
 def infer_seal_from_token(token: str | None, filename: str) -> str:
+    # Return "" (blank) for explicit PLATINUM token per request
     if token:
         t = token.upper()
-        if "PLAT" in t:
-            return "Platinum"
+        if "PLAT" in t or "PLATINUM" in t:
+            return ""   # blank when explicitly platinum
         if "RED" in t:
             return "Red"
         if "BLACK" in t:
             return "Black"
         return token.capitalize()
+    # fallback: inspect filename for markers; PLATINUM -> blank
     fname = filename.upper()
-    if "-PLAT" in fname or "PLATINUM" in fname:
-        return "Platinum"
+    if "PLATINUM" in fname or "-PLAT" in fname:
+        return ""
     if "-RED" in fname:
         return "Red"
     if "-BLACK" in fname:
@@ -62,13 +66,20 @@ def extract_title_and_summary(text: str) -> tuple[str, str]:
             if l.strip():
                 raw_title = l.strip()
                 break
-    # If title starts with an ID + dash, strip that prefix
+
+    # If title starts with an ID + separator (dash/en/em) or ID + newline, strip that prefix
     m = TITLE_ID_PREFIX_RE.match(raw_title)
     if m:
+        # only strip when there is text after the separator (m.group(2))
         title = m.group(2).strip()
     else:
-        title = raw_title
-    # first paragraph (join until blank)
+        m2 = TITLE_ID_PREFIX_NEWLINE_RE.match(text)
+        if m2:
+            title = m2.group(2).strip().splitlines()[0].strip()
+        else:
+            title = raw_title
+
+    # Build first paragraph (join lines until blank)
     para_lines = []
     started = False
     for l in lines:
@@ -78,8 +89,11 @@ def extract_title_and_summary(text: str) -> tuple[str, str]:
             started = True
             para_lines.append(l.strip())
     para = " ".join(para_lines)
+
+    # Truncate to 1-2 sentences: prefer up to two sentences
     sentences = re.split(r'(?<=[.!?])\s+', para)
     summary = " ".join(sentences[:2]).strip()
+
     return title or "", summary or ""
 
 def parse_filename(fname: str) -> tuple[str, str, str, str] | None:
@@ -105,7 +119,6 @@ def collect_items() -> list[dict]:
             print(f"WARNING: filename does not match expected pattern: {p.name}", file=sys.stderr)
             id_field = p.name
             seal = infer_seal_from_token(None, p.name)
-        # compute relative path using Path.relative_to to avoid duplicate segments
         try:
             rel_path = str(p.relative_to(REPO_ROOT)).replace(os.sep, "/")
         except Exception:
@@ -127,8 +140,9 @@ def render_table(items: list[dict]) -> str:
     for it in items:
         safe_title = it["title"].replace("|", "\\|")
         safe_summary = it["summary"].replace("|", "\\|")
+        seal_cell = it["seal"] or ""  # blank for explicit Platinum
         out.append(
-            f"| {it['id']} | {it['filename']} | {safe_title} | {it['seal']} | "
+            f"| {it['id']} | {it['filename']} | {safe_title} | {seal_cell} | "
             f"[{it['filename']}]({it['path']}) | {safe_summary} |"
         )
     return "\n".join(out)
