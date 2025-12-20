@@ -85,13 +85,16 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
             h1_idx = i
             break
 
-    # Case 1: "# ID — Title"
+    # Case 1 & 3: "# CAM-ID — Human Title" (only if not a seal)
     if h1:
         m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
         if m:
-            title = m.group(2).strip()
+            candidate = m.group(2).strip()
+            norm = normalise(candidate)
+            if norm not in SEAL_WORDS:
+                title = candidate
 
-    # Case 2: First non-summary H2/H3/H4
+    # Case 2: "# CAM-ID-SEAL" + first valid H2/H3/H4
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
             if ln.startswith("#"):
@@ -99,9 +102,10 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
                 norm = normalise(candidate)
 
                 if (
-                    not any(k in norm for k in SUMMARY_KEYWORDS)
+                    norm
                     and norm not in SEAL_WORDS
                     and norm != normalise(doc_id)
+                    and not any(k in norm for k in SUMMARY_KEYWORDS)
                 ):
                     title = candidate
                     break
