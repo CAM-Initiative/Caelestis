@@ -27,16 +27,18 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Update Protocols index
-        run: |
-          python Scripts/update-CAM-Protocols-Index.py
-
-      # ✅ SAFE STEP — resets ONLY the runner (like refreshing a browser)
+      # ✅ FIRST: align runner with GitHub (safe refresh)
       - name: Reset runner branch to origin/main
         run: |
           git fetch origin
           git reset --hard origin/main
 
+      # ✅ SECOND: generate files
+      - name: Update Protocols index
+        run: |
+          python Scripts/update-CAM-Protocols-Index.py
+
+      # ✅ THIRD: commit what the script generated
       - name: Commit updated indexes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
