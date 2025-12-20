@@ -69,16 +69,15 @@ def get_git_info(path: Path) -> tuple[str, str]:
 def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
     lines = [ln.rstrip() for ln in text.splitlines()]
 
-    # ---------- TITLE ----------
-    title = ""
     h1_idx = None
     h1 = None
-
     for i, ln in enumerate(lines):
         if ln.startswith("# "):
             h1 = ln[2:].strip()
             h1_idx = i
             break
+
+    title = ""
 
     # Case 1: "# ID — Title"
     if h1:
@@ -86,7 +85,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
         if m:
             title = m.group(2).strip()
 
-    # Case 2: ID-only H1 (including -PLATINUM suffix)
+    # Case 2: ID-only H1 (including seal suffix)
     if not title and h1:
         stripped = re.sub(
             r"-(PLATINUM|GOLD|RED|BLACK)$",
@@ -97,29 +96,27 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
         if stripped.upper() == doc_id.upper():
             title = ""
 
-    # Case 3: first meaningful H2
+    # Case 3: SOLAN-style — first H2 is ALWAYS the title
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
             if ln.startswith("## "):
-                candidate = ln[3:].strip()
-                if ":" not in candidate:
-                    title = candidate
+                title = ln[3:].strip()
                 break
             if ln.startswith("# "):
                 break
 
-    # Absolute guard: seal words are never titles
-    if title.upper() in SEAL_WORDS:
+    # Absolute guard
+    if title.upper() in {"PLATINUM", "GOLD", "RED", "BLACK"}:
         title = ""
 
-    # ---------- SUMMARY ----------
+    # -------- SUMMARY --------
     summary = ""
+    preferred = {"purpose", "preamble", "intent"}
 
-    # Prefer Purpose / Preamble / Intent
     for i, ln in enumerate(lines):
         if ln.startswith("## "):
             heading = ln[3:].strip().lower()
-            if heading in SUMMARY_HEADINGS:
+            if heading in preferred:
                 for ln2 in lines[i + 1:]:
                     s = ln2.strip()
                     if not s:
@@ -132,7 +129,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
                     summary = " ".join(sentences[:2]).strip()
                     return title, summary
 
-    # Fallback: first real paragraph anywhere
+    # Fallback summary
     buf = []
     for ln in lines:
         s = ln.strip()
