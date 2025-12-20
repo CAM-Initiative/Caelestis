@@ -84,7 +84,7 @@ def extract_title_and_summary(text: str, doc_id: str | None) -> tuple[str, str]:
         if m:
             title = m.group(2).strip()
 
-    # Case 2: ID-only H1 → first H2 is title
+    # Case 2: ID-only H1 → first H2
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
             if ln.startswith("## "):
@@ -161,7 +161,7 @@ def collect_items():
             "title": title,
             "type": typ.upper(),
             "seal": seal,
-            "link": p.name,  # relative to index file
+            "link": p.name,
             "summary": summary,
             "pinned_sha": sha,
             "updated_at": updated_at,
@@ -175,13 +175,17 @@ def render_markdown(items):
     out = []
     out.append("| Document ID | title | type | seal | link | summary |")
     out.append("|---|---|---|---|---|---|")
+
     for it in items:
-        out.append(
-            f"| {it['id']} | {it['title'].replace('|','\\|')} | "
-            f"{it['type']} | {it['seal']} | "
-            f"[{it['id']}]({it['link']}) | "
-            f"{it['summary'].replace('|','\\|')} |"
+        safe_title = it["title"].replace("|", "\\|")
+        safe_summary = it["summary"].replace("|", "\\|")
+
+        row = (
+            f"| {it['id']} | {safe_title} | {it['type']} | {it['seal']} | "
+            f"[{it['id']}]({it['link']}) | {safe_summary} |"
         )
+        out.append(row)
+
     return "\n".join(out)
 
 def write_json(items):
