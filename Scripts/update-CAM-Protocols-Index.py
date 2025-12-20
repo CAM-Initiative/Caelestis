@@ -1,185 +1,222 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import re
-from pathlib import Path
+
+import json
 import os
+import re
+import subprocess
 import sys
+from pathlib import Path
+
+# ================= CONFIG =================
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PROT_DIR = REPO_ROOT / "Governance" / "Protocols"
-INDEX_PATH = PROT_DIR / "CAM-Protocols-Index.md"
+
+INDEX_MD = PROT_DIR / "CAM-Protocols-Index.md"
+INDEX_JSON = PROT_DIR / "protocols.index.json"
+
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
 FNAME_RE = re.compile(
-    r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})(?:-([A-Z]+))?\.md$", re.IGNORECASE
+    r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})(?:-([A-Z]+))?\.md$",
+    re.IGNORECASE,
 )
 
-SEP_RE = re.compile(r"^\s*(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$")
-ID_LINE_RE = re.compile(r"^\s*(CAM-[A-Za-z0-9\-]+)(?:\s*[-—–]\s*([A-Za-z0-9() ]+))?\s*$", re.IGNORECASE)
+# ================= HELPERS =================
 
-def infer_seal_from_token(token: str | None, filename: str) -> str:
+def read_text(path: Path) -> str:
+    try:
+        return path.read_text(encoding="utf-8")
+    except Exception:
+        return ""
+
+def infer_seal(token: str | None, filename: str) -> str:
     if token:
         t = token.upper()
-        if "PLAT" in t or "PLATINUM" in t:
+        if "PLAT" in t:
             return "Platinum"
         if "RED" in t:
             return "Red"
         if "BLACK" in t:
             return "Black"
         return token.capitalize()
-    fname = filename.upper()
-    if "PLATINUM" in fname or "-PLAT" in fname:
+
+    f = filename.upper()
+    if "PLATINUM" in f:
         return "Platinum"
-    if "-RED" in fname:
+    if "-RED" in f:
         return "Red"
-    if "-BLACK" in fname:
+    if "-BLACK" in f:
         return "Black"
     return "Gold"
 
-def read_md(path: Path) -> str:
+def get_git_info(path: Path) -> tuple[str, str]:
     try:
-        return path.read_text(encoding="utf-8")
+        out = subprocess.check_output(
+            ["git", "log", "-n", "1", "--format=%H|%aI", "--", str(path)],
+            cwd=REPO_ROOT,
+            text=True,
+        ).strip()
+        sha, iso = out.split("|", 1)
+        return sha, iso
     except Exception:
-        return ""
+        return "", ""
 
-def parse_filename(fname: str):
-    m = FNAME_RE.match(fname)
-    if not m:
-        return None
-    cycle, typ, num, seal_token = m.groups()
-    id_field = f"CAM-{cycle}-{typ}-{num}"
-    return id_field, cycle, typ, (seal_token or "")
+# ================= PARSING =================
 
-def extract_title_and_summary(text: str, filename_id: str | None) -> tuple[str, str]:
+def extract_title_and_summary(text: str, doc_id: str | None) -> tuple[str, str]:
     lines = [ln.rstrip() for ln in text.splitlines()]
+
+    h1 = None
     h1_idx = None
-    h1_text = ""
-    for i, l in enumerate(lines):
-        s = l.strip()
-        if s.startswith("# "):
+    for i, ln in enumerate(lines):
+        if ln.startswith("# "):
+            h1 = ln[2:].strip()
             h1_idx = i
-            h1_text = s.lstrip("# ").strip()
             break
 
-    def is_id_line(s: str) -> bool:
-        if not s:
-            return False
-        m = ID_LINE_RE.match(s.strip())
-        if not m:
-            return False
-        id_part = m.group(1).strip()
-        return bool(filename_id and id_part.upper() == filename_id.upper())
-
     title = ""
-    if h1_idx is not None and is_id_line(h1_text):
-        for l in lines[h1_idx + 1:]:
-            if l.strip():
-                s = l.strip()
-                if s.startswith("#"):
-                    title = s.lstrip("#").strip()
-                else:
-                    title = s
+
+    # Case 1: H1 = "ID — Title"
+    if h1:
+        m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
+        if m:
+            title = m.group(2).strip()
+
+    # Case 2: ID-only H1 → first H2 is title
+    if not title and h1_idx is not None:
+        for ln in lines[h1_idx + 1:]:
+            if ln.startswith("## "):
+                candidate = ln[3:].strip()
+                if ":" not in candidate:
+                    title = candidate
                 break
-    else:
-        if h1_text:
-            m = SEP_RE.match(h1_text)
-            if m:
-                title = m.group(2).strip()
-            else:
-                title = h1_text
-        else:
-            for l in lines:
-                if l.strip():
-                    if is_id_line(l):
-                        continue
-                    title = l.strip()
-                    break
+            if ln.startswith("# "):
+                break
 
-    paras = []
-    cur = []
-    for l in lines:
-        if l.strip():
-            cur.append(l.strip())
-        else:
-            if cur:
-                paras.append(" ".join(cur))
-                cur = []
-    if cur:
-        paras.append(" ".join(cur))
-
+    # ---- summary ----
     summary = ""
-    for p in paras:
-        if filename_id and p.strip().upper().startswith(filename_id.upper()):
+    paras = []
+    buf = []
+
+    def flush():
+        nonlocal buf
+        if buf:
+            paras.append(" ".join(buf))
+            buf = []
+
+    start = h1_idx + 1 if h1_idx is not None else 0
+
+    for ln in lines[start:]:
+        s = ln.strip()
+        if not s:
+            flush()
             continue
-        sentences = re.split(r'(?<=[.!?])\s+', p)
+        if s.startswith("#"):
+            flush()
+            continue
+        if s.startswith("**") and ":" in s:
+            continue
+        if s.startswith("|"):
+            continue
+        buf.append(s)
+
+    flush()
+
+    for p in paras:
+        if doc_id and p.upper().startswith(doc_id.upper()):
+            continue
+        sentences = re.split(r"(?<=[.!?])\s+", p)
         summary = " ".join(sentences[:2]).strip()
         break
 
-    if not summary and h1_idx is not None:
-        for l in lines[h1_idx + 1:]:
-            if l.strip():
-                p = l.strip()
-                sentences = re.split(r'(?<=[.!?])\s+', p)
-                summary = " ".join(sentences[:2]).strip()
-                break
+    return title, summary
 
-    return title or "", summary or ""
+# ================= COLLECTION =================
 
 def collect_items():
     items = []
-    for p in sorted(PROT_DIR.glob("*.md")):
-        if p.name == INDEX_PATH.name:
-            continue
-        text = read_md(p)
-        parsed = parse_filename(p.name)
-        if parsed:
-            id_field, cycle, typ, seal_token = parsed
-            seal = infer_seal_from_token(seal_token, p.name)
-        else:
-            print(f"WARNING: filename does not match expected pattern: {p.name}", file=sys.stderr)
-            id_field = p.name
-            seal = infer_seal_from_token(None, p.name)
-        title, summary = extract_title_and_summary(text, id_field)
-        try:
-            rel_path = str(p.relative_to(REPO_ROOT)).replace(os.sep, "/")
-        except Exception:
-            rel_path = os.path.relpath(p, REPO_ROOT).replace(os.sep, "/")
-        items.append({
-            "id": id_field,
-            "title": title,
-            "summary": summary,
-            "seal": seal,
-            "path": rel_path,
-        })
-    return sorted(items, key=lambda it: it["id"])
 
-def render_table(items):
+    for p in sorted(PROT_DIR.glob("*.md")):
+        if p.name == INDEX_MD.name:
+            continue
+
+        text = read_text(p)
+        m = FNAME_RE.match(p.name)
+
+        if not m:
+            print(f"WARNING: filename pattern mismatch: {p.name}", file=sys.stderr)
+            continue
+
+        cycle, typ, num, seal_token = m.groups()
+        doc_id = f"CAM-{cycle}-{typ}-{num}"
+        seal = infer_seal(seal_token, p.name)
+
+        title, summary = extract_title_and_summary(text, doc_id)
+        sha, updated_at = get_git_info(p)
+
+        items.append({
+            "id": doc_id,
+            "title": title,
+            "type": typ.upper(),
+            "seal": seal,
+            "link": p.name,  # relative to index file
+            "summary": summary,
+            "pinned_sha": sha,
+            "updated_at": updated_at,
+        })
+
+    return sorted(items, key=lambda x: x["id"])
+
+# ================= OUTPUT =================
+
+def render_markdown(items):
     out = []
-    out.append("| Document ID | title | seal | link | summary |")
-    out.append("|---|---|---|---|---|")
+    out.append("| Document ID | title | type | seal | link | summary |")
+    out.append("|---|---|---|---|---|---|")
     for it in items:
-        safe_title = it["title"].replace("|", "\\|")
-        safe_summary = it["summary"].replace("|", "\\|")
-        seal_cell = it["seal"] or ""
         out.append(
-            f"| {it['id']} | {safe_title} | {seal_cell} | [{it['id']}]({it['path']}) | {safe_summary} |"
+            f"| {it['id']} | {it['title'].replace('|','\\|')} | "
+            f"{it['type']} | {it['seal']} | "
+            f"[{it['id']}]({it['link']}) | "
+            f"{it['summary'].replace('|','\\|')} |"
         )
     return "\n".join(out)
 
+def write_json(items):
+    payload = {
+        "generated_from": INDEX_MD.name,
+        "folder": "Governance/Protocols",
+        "count": len(items),
+        "items": items,
+    }
+    INDEX_JSON.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+# ================= MAIN =================
+
 def main():
     items = collect_items()
-    body = render_table(items)
-    old = INDEX_PATH.read_text(encoding="utf-8") if INDEX_PATH.exists() else ""
+    table = render_markdown(items)
+
+    old = read_text(INDEX_MD)
     if old and HEADER_MARKER in old:
         header, _ = old.split(HEADER_MARKER, 1)
-        new_md = header.rstrip() + "\n" + HEADER_MARKER + "\n\n" + body
+        new_md = header.rstrip() + "\n" + HEADER_MARKER + "\n\n" + table + "\n"
     else:
-        new_md = body
+        new_md = table + "\n"
+
     if new_md.strip() != old.strip():
-        INDEX_PATH.write_text(new_md, encoding="utf-8")
-        print(f"Updated: {INDEX_PATH}")
+        INDEX_MD.write_text(new_md, encoding="utf-8")
+        print(f"Updated: {INDEX_MD}")
     else:
         print("No changes needed.")
+
+    write_json(items)
+    print(f"Wrote: {INDEX_JSON}")
 
 if __name__ == "__main__":
     main()
