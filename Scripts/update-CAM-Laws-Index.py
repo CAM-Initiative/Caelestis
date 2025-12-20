@@ -1,209 +1,240 @@
 #!/usr/bin/env python3
-
-"""
-Rebuilds Governance/Laws/CAM-Laws-Index.md
-- Scans Governance/Laws/*.md (excluding the index file)
-- Extracts: ID, Title, 1–2 sentence summary
-- Groups by type (LAW, ACT, STATUTE, etc.)
-- Auto-sorts by number
-- Writes index with relative links, preserving manual header block
-
-This version also appends a **Library** table at the end of the generated index.
-The library table contains only short fields (id, title, type, seal, relative path,
-pinned git commit and timestamp) to support automated parsing without
-including long prose. Long summaries remain outside of the table.
-"""
-
 from __future__ import annotations
+
+import json
 import re
-import os
 import subprocess
 from pathlib import Path
 
-# ---- config ----
+# ================= CONFIG =================
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
-LAWS_DIR = REPO_ROOT / "Governance" / "Laws"
-INDEX_PATH = LAWS_DIR / "CAM-Laws-Index.md"
+PROT_DIR = REPO_ROOT / "Governance" / "Laws"
+
+INDEX_MD = PROT_DIR / "CAM-Laws-Index.md"
+INDEX_JSON = PROT_DIR / "laws.index.json"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
-# Flexible regex for law file names
-ID_RE = re.compile(
-    r"^(CAM-(?:[A-Z0-9]+-)*)([A-Z]+(?:-[A-Z0-9]+)*?)-(\d+)([A-Z]?)$",
-    re.IGNORECASE
+FNAME_RE = re.compile(
+    r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})(?:-([A-Z]+))?\.md$",
+    re.IGNORECASE,
 )
 
-def extract_summary(text: str) -> str:
-    """
-    Extracts a meaningful summary from the markdown text.
-    - Prioritizes sections titled Purpose (including 'I. Purpose', etc.)
-    - Otherwise, skips metadata and grabs the first proper paragraph.
-    """
-    section_pattern = re.compile(
-        r"^##\s*(?:[IVXLC]+\.\s*)?Purpose\s*$([\s\S]+?)(?:^##|\Z)",
-        re.MULTILINE | re.IGNORECASE
-    )
-    m = section_pattern.search(text)
-    if m:
-        section = m.group(1)
-        paras = [p.strip() for p in re.split(r"\n\s*\n", section) if p.strip()]
-        if paras:
-            summary = paras[0]
-            return " ".join(summary.split())
-    paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
-    for para in paragraphs:
-        if (para.count(":") > 2 or para.startswith("**")):
-            continue
-        return " ".join(para.split())
-    return paragraphs[0] if paragraphs else ""
+SUMMARY_KEYWORDS = {"purpose", "preamble", "intent"}
+SEAL_WORDS = {"platinum", "gold", "red", "black"}
 
-def parse_file(md_path: Path) -> dict | None:
-    name = md_path.name
-    if name == INDEX_PATH.name:
-        return None
-    if not name.lower().endswith(".md"):
-        return None
-    stem = md_path.stem
-    m = ID_RE.match(stem)
-    if not m:
-        # fallback: treat everything as type 'OTHER' and try to parse a number
-        type_token = 'OTHER'
-        num_match = re.search(r'(\d+)[A-Z]?$', stem)
-        num = int(num_match.group(1)) if num_match else 0
-        id_full = stem
-    else:
-        id_full = stem
-        type_token = m.group(2).upper()
-        num = int(m.group(3))
-    text = md_path.read_text(encoding="utf-8", errors="ignore")
-    title = None
-    for line in text.splitlines():
-        line = line.strip()
-        if line.startswith("# "):
-            title = line[2:].strip()
-            break
-    if not title:
-        m2 = re.search(r"^Title:\s*(.+)$", text, flags=re.MULTILINE | re.IGNORECASE)
-        title = m2.group(1).strip() if m2 else stem.replace("-", " ")
-    summary = extract_summary(text)
-    if len(summary) > 360:
-        summary = summary[:357].rstrip() + "..."
-    return {
-        "id": id_full,
-        "type": type_token,
-        "num": num,
-        "title": title,
-        "summary": summary,
-        "filename": md_path.name,
-    }
+# ================= HELPERS =================
 
-def collect_laws() -> list[dict]:
-    items: list[dict] = []
-    if not LAWS_DIR.exists():
-        return items
-    for p in sorted(LAWS_DIR.glob("*.md")):
-        rec = parse_file(p)
-        if rec:
-            items.append(rec)
-    return items
+def read_text(path: Path) -> str:
+    try:
+        return path.read_text(encoding="utf-8")
+    except Exception:
+        return ""
 
-def group_and_sort(items: list[dict]) -> dict[str, list[dict]]:
-    groups: dict[str, list[dict]] = {}
-    for rec in items:
-        g = rec["type"]
-        groups.setdefault(g, []).append(rec)
-    for g in groups:
-        groups[g].sort(key=lambda r: (r["num"], r["id"]))
-    return groups
+def infer_seal(token: str | None, filename: str) -> str:
+    if token:
+        t = token.upper()
+        if "PLAT" in t:
+            return "Platinum"
+        if "RED" in t:
+            return "Red"
+        if "BLACK" in t:
+            return "Black"
+        return token.capitalize()
 
-def infer_seal(filename: str) -> str:
-    """Infer the seal designation based on filename."""
-    fname = filename.upper()
-    if "-RED" in fname:
+    f = filename.upper()
+    if "PLATINUM" in f:
+        return "Platinum"
+    if "-RED" in f:
         return "Red"
-    if "-BLACK" in fname:
+    if "-BLACK" in f:
         return "Black"
     return "Gold"
 
-def get_git_info(md_path: Path) -> tuple[str, str]:
-    """
-    Returns last commit SHA and ISO timestamp for the given file.
-    """
+def get_git_info(path: Path) -> tuple[str, str]:
     try:
-        result = subprocess.check_output(
-            ["git", "log", "-n", "1", "--format=%H|%aI", "--", str(md_path)],
+        out = subprocess.check_output(
+            ["git", "log", "-n", "1", "--format=%H|%aI", "--", str(path)],
             cwd=REPO_ROOT,
             text=True,
         ).strip()
-        sha, iso_date = result.split("|")
-        return sha, iso_date
+        sha, iso = out.split("|", 1)
+        return sha, iso
     except Exception:
         return "", ""
 
-def render_library(items: list[dict]) -> str:
-    rows = []
-    for rec in items:
-        md_path = LAWS_DIR / rec["filename"]
-        sha, date = get_git_info(md_path)
-        seal = infer_seal(rec["filename"])
-        rel_path = os.path.relpath(md_path, REPO_ROOT)
-        rows.append({
-            "id": rec["id"],
-            "title": rec["title"],
-            "type": rec["type"],
+def normalise(text: str) -> str:
+    return re.sub(r"[^\w\s]", "", text).lower()
+
+# ================= CORE PARSING =================
+
+def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
+    lines = [ln.rstrip() for ln in text.splitlines()]
+
+    title = ""
+    summary = ""
+
+    # -------- TITLE --------
+
+    h1_idx = None
+    h1 = None
+    for i, ln in enumerate(lines):
+        if ln.startswith("# "):
+            h1 = ln[2:].strip()
+            h1_idx = i
+            break
+
+    # Case 1 & 3: "# CAM-ID — Human Title" (only if not a seal)
+    if h1:
+        m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
+        if m:
+            candidate = m.group(2).strip()
+            norm = normalise(candidate)
+            if norm not in SEAL_WORDS:
+                title = candidate
+
+    # Case 2: "# CAM-ID-SEAL" + first valid H2/H3/H4
+    if not title and h1_idx is not None:
+        for ln in lines[h1_idx + 1:]:
+            if ln.startswith("#"):
+                candidate = ln.lstrip("#").strip()
+                norm = normalise(candidate)
+
+                if (
+                    norm
+                    and norm not in SEAL_WORDS
+                    and norm != normalise(doc_id)
+                    and not any(k in norm for k in SUMMARY_KEYWORDS)
+                ):
+                    title = candidate
+                    break
+
+    # -------- SUMMARY --------
+
+    for i, ln in enumerate(lines):
+        if ln.startswith("#"):
+            heading_text = ln.lstrip("#").strip()
+            norm = normalise(heading_text)
+
+            if any(k in norm for k in SUMMARY_KEYWORDS):
+                for ln2 in lines[i + 1:]:
+                    s = ln2.strip()
+                    if not s:
+                        continue
+                    if s.startswith("#") or s.startswith("|"):
+                        break
+                    if s.startswith("**") and s.endswith("**"):
+                        continue
+                    sentences = re.split(r"(?<=[.!?])\s+", s)
+                    summary = " ".join(sentences[:2]).strip()
+                    return title, summary
+
+    # Fallback summary
+    buf = []
+    for ln in lines:
+        s = ln.strip()
+        if not s:
+            if buf:
+                break
+            continue
+        if s.startswith("#") or s.startswith("|"):
+            continue
+        if s.startswith("**") and s.endswith("**"):
+            continue
+        buf.append(s)
+
+    if buf:
+        sentences = re.split(r"(?<=[.!?])\s+", " ".join(buf))
+        summary = " ".join(sentences[:2]).strip()
+
+    return title, summary
+
+# ================= COLLECTION =================
+
+def collect_laws():
+    items = []
+
+    for p in sorted(PROT_DIR.glob("*.md")):
+        if p.name == INDEX_MD.name:
+            continue
+
+        m = FNAME_RE.match(p.name)
+        if not m:
+            continue
+
+        cycle, typ, num, seal_token = m.groups()
+        doc_id = f"CAM-{cycle}-{typ}-{num}"
+        seal = infer_seal(seal_token, p.name)
+
+        text = read_text(p)
+        title, summary = extract_title_and_summary(text, doc_id)
+        sha, updated_at = get_git_info(p)
+
+        items.append({
+            "id": doc_id,
+            "title": title,
+            "type": typ,
             "seal": seal,
-            "path": rel_path.replace(os.sep, "/"),
-            "sha": sha,
-            "date": date,
+            "link": p.name,
+            "summary": summary,
+            "pinned_sha": sha,
+            "updated_at": updated_at,
         })
-    rows.sort(key=lambda r: r["id"])
-    out: list[str] = []
-    out.append("### Library")
-    out.append("")
-    out.append("| id | title | type | seal | path | pinned_sha | updated_at |")
-    out.append("|---|---|---|---|---|---|---|")
-    for row in rows:
-        out.append(
-            f"| {row['id']} | {row['title']} | {row['type']} | {row['seal']} | {row['path']} | {row['sha']} | {row['date']} |"
-        )
-    out.append("")
-    return "\n".join(out)
 
-def render_index(groups: dict[str, list[dict]]) -> str:
+    return sorted(items, key=lambda x: x["id"])
+
+# ================= OUTPUT =================
+
+def render_markdown(items):
     out = []
-    for section, items in groups.items():
-        heading = {
-            "LAW": "Laws",
-            "STATUTE": "Statutes",
-            "ACT": "Acts",
-        }.get(section, section)
-        out.append(f"## {heading}")
-        out.append("")
-        for r in items:
-            link_text = f"{r['id']} - {r['title']}"
-            out.append(f"- [{link_text}]({r['filename']})  ")
-            if r["summary"]:
-                out.append(f"  _{r['summary']}_")
-            out.append("")
-    out.append("")
+    out.append("| Document ID | title | type | seal | link | summary |")
+    out.append("|---|---|---|---|---|---|")
+
+    for it in items:
+        safe_title = it["title"].replace("|", "\\|")
+        safe_summary = it["summary"].replace("|", "\\|")
+
+        out.append(
+            f"| {it['id']} | {safe_title} | {it['type']} | {it['seal']} | "
+            f"[{it['id']}]({it['link']}) | {safe_summary} |"
+        )
+
     return "\n".join(out)
 
-def main() -> None:
+def write_json(items):
+    payload = {
+        "generated_from": INDEX_MD.name,
+        "folder": str(INDEX_JSON.parent),
+        "count": len(items),
+        "items": items,
+    }
+
+    INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
+    INDEX_JSON.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+# ================= MAIN =================
+
+def main():
     items = collect_laws()
-    groups = group_and_sort(items)
-    generated_md = render_index(groups)
-    generated_md = generated_md + render_library(items)
-    old = INDEX_PATH.read_text(encoding="utf-8") if INDEX_PATH.exists() else ""
-    if old and HEADER_MARKER in old:
+
+    table = render_markdown(items)
+    old = read_text(INDEX_MD)
+
+    if HEADER_MARKER in old:
         header, _ = old.split(HEADER_MARKER, 1)
-        new_md = header.rstrip() + "\n" + HEADER_MARKER + "\n\n" + generated_md
+        new_md = header.rstrip() + "\n" + HEADER_MARKER + "\n\n" + table + "\n"
     else:
-        new_md = generated_md
-    if new_md.strip() != old.strip():
-        INDEX_PATH.write_text(new_md, encoding="utf-8")
-        print(f"Updated: {INDEX_PATH}")
-    else:
-        print("No changes needed.")
+        new_md = table + "\n"
+
+    INDEX_MD.write_text(new_md, encoding="utf-8")
+    write_json(items)
+
+    print(f"Updated: {INDEX_MD}")
+    print(f"Wrote:   {INDEX_JSON}")
 
 if __name__ == "__main__":
     main()
