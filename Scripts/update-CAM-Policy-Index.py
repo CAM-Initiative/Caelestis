@@ -204,14 +204,21 @@ def render_markdown(items):
 def write_json(items):
     payload = {
         "generated_from": INDEX_MD.name,
-        "folder": "Governance/Policies",
+        "folder": str(INDEX_JSON.parent),
         "count": len(items),
         "items": items,
     }
+
+    # Explicitly ensure directory exists and is writable
+    INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
+
     INDEX_JSON.write_text(
         json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
+
+    print(f"JSON written: {INDEX_JSON}")
+
 
 # ================= MAIN =================
 
