@@ -12,9 +12,16 @@ HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
 # Strict filename pattern:
 # CAM-CYCLE-TYPE-NNN[-SEAL].md
-# e.g. CAM-BS2025-PROT-001-PLATINUM.md
 FNAME_RE = re.compile(
     r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})(?:-([A-Z]+))?\.md$", re.IGNORECASE
+)
+
+# Title pattern to strip leading ID + dash/em-dash if present:
+# Examples matched:
+# "CAM-GS2025-PROT-034 — Covenant of Discernment..."
+# "CAM-GS2025-PROT-034 - Covenant..."
+TITLE_ID_PREFIX_RE = re.compile(
+    r"^\s*(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$"
 )
 
 def infer_seal_from_token(token: str | None, filename: str) -> str:
@@ -26,9 +33,7 @@ def infer_seal_from_token(token: str | None, filename: str) -> str:
             return "Red"
         if "BLACK" in t:
             return "Black"
-        # unknown explicit token -> return token-cased
         return token.capitalize()
-    # fallback: inspect filename for common markers
     fname = filename.upper()
     if "-PLAT" in fname or "PLATINUM" in fname:
         return "Platinum"
@@ -46,17 +51,23 @@ def read_md(path: Path) -> str:
 
 def extract_title_and_summary(text: str) -> tuple[str, str]:
     lines = [l.rstrip() for l in text.splitlines()]
-    title = ""
+    raw_title = ""
     for l in lines:
         s = l.strip()
         if s.startswith("# "):
-            title = s.lstrip("# ").strip()
+            raw_title = s.lstrip("# ").strip()
             break
-    if not title:
+    if not raw_title:
         for l in lines:
             if l.strip():
-                title = l.strip()
+                raw_title = l.strip()
                 break
+    # If title starts with an ID + dash, strip that prefix
+    m = TITLE_ID_PREFIX_RE.match(raw_title)
+    if m:
+        title = m.group(2).strip()
+    else:
+        title = raw_title
     # first paragraph (join until blank)
     para_lines = []
     started = False
@@ -91,22 +102,23 @@ def collect_items() -> list[dict]:
             id_field, cycle, typ, seal_token = parsed
             seal = infer_seal_from_token(seal_token, p.name)
         else:
-            # log non-conforming filename
             print(f"WARNING: filename does not match expected pattern: {p.name}", file=sys.stderr)
             id_field = p.name
             seal = infer_seal_from_token(None, p.name)
+        # compute relative path using Path.relative_to to avoid duplicate segments
+        try:
+            rel_path = str(p.relative_to(REPO_ROOT)).replace(os.sep, "/")
+        except Exception:
+            rel_path = os.path.relpath(p, REPO_ROOT).replace(os.sep, "/")
         items.append({
             "id": id_field,
             "filename": p.name,
             "title": title,
             "summary": summary,
             "seal": seal,
-            "path": os.path.relpath(p, REPO_ROOT).replace(os.sep, "/"),
+            "path": rel_path,
         })
-    # sort: try by id (CAM-...), fallback to filename
-    def sort_key(it):
-        return it["id"]
-    return sorted(items, key=sort_key)
+    return sorted(items, key=lambda it: it["id"])
 
 def render_table(items: list[dict]) -> str:
     out = []
