@@ -9,7 +9,7 @@ from pathlib import Path
 # ================= CONFIG =================
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-PROT_DIR = REPO_ROOT / "Governance" / "Policies"
+POLICY_DIR = REPO_ROOT / "Governance" / "Policies"
 
 INDEX_MD = PROT_DIR / "CAM-Policy-Index.md"
 INDEX_JSON = PROT_DIR / "policy.index.json"
