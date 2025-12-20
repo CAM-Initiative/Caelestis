@@ -68,6 +68,7 @@ def get_git_info(path: Path) -> tuple[str, str]:
 def extract_title_and_summary(text: str, doc_id: str | None) -> tuple[str, str]:
     lines = [ln.rstrip() for ln in text.splitlines()]
 
+    # ---------- TITLE ----------
     h1 = None
     h1_idx = None
     for i, ln in enumerate(lines):
@@ -78,13 +79,23 @@ def extract_title_and_summary(text: str, doc_id: str | None) -> tuple[str, str]:
 
     title = ""
 
-    # Case 1: H1 = "ID — Title"
+    # Case 1: "# ID — Title"
     if h1:
         m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
         if m:
             title = m.group(2).strip()
+        else:
+            # Strip seal suffixes from ID-only H1s
+            stripped = re.sub(
+                r"-(PLATINUM|GOLD|RED|BLACK)$",
+                "",
+                h1,
+                flags=re.IGNORECASE,
+            )
+            if doc_id and stripped.upper() == doc_id.upper():
+                title = ""
 
-    # Case 2: ID-only H1 → first H2
+    # Case 2: ID-only H1 → first H2 is title
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
             if ln.startswith("## "):
@@ -95,41 +106,44 @@ def extract_title_and_summary(text: str, doc_id: str | None) -> tuple[str, str]:
             if ln.startswith("# "):
                 break
 
-    # ---- summary ----
+    # ---------- SUMMARY ----------
     summary = ""
-    paras = []
+    preferred = {"purpose", "preamble", "intent"}
+
+    # Prefer summary under named sections
+    for i, ln in enumerate(lines):
+        if ln.startswith("## "):
+            heading = ln[3:].strip().lower()
+            if heading in preferred:
+                for ln2 in lines[i + 1:]:
+                    s = ln2.strip()
+                    if not s:
+                        continue
+                    if s.startswith("#") or s.startswith("|"):
+                        break
+                    if s.startswith("**") and ":" in s:
+                        continue
+                    sentences = re.split(r"(?<=[.!?])\s+", s)
+                    summary = " ".join(sentences[:2]).strip()
+                    return title, summary
+
+    # Fallback: first real paragraph anywhere
     buf = []
-
-    def flush():
-        nonlocal buf
-        if buf:
-            paras.append(" ".join(buf))
-            buf = []
-
-    start = h1_idx + 1 if h1_idx is not None else 0
-
-    for ln in lines[start:]:
+    for ln in lines:
         s = ln.strip()
         if not s:
-            flush()
+            if buf:
+                break
             continue
-        if s.startswith("#"):
-            flush()
+        if s.startswith("#") or s.startswith("|"):
             continue
         if s.startswith("**") and ":" in s:
             continue
-        if s.startswith("|"):
-            continue
         buf.append(s)
 
-    flush()
-
-    for p in paras:
-        if doc_id and p.upper().startswith(doc_id.upper()):
-            continue
-        sentences = re.split(r"(?<=[.!?])\s+", p)
+    if buf:
+        sentences = re.split(r"(?<=[.!?])\s+", " ".join(buf))
         summary = " ".join(sentences[:2]).strip()
-        break
 
     return title, summary
 
@@ -180,11 +194,10 @@ def render_markdown(items):
         safe_title = it["title"].replace("|", "\\|")
         safe_summary = it["summary"].replace("|", "\\|")
 
-        row = (
+        out.append(
             f"| {it['id']} | {safe_title} | {it['type']} | {it['seal']} | "
             f"[{it['id']}]({it['link']}) | {safe_summary} |"
         )
-        out.append(row)
 
     return "\n".join(out)
 
