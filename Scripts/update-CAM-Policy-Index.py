@@ -9,10 +9,10 @@ from pathlib import Path
 # ================= CONFIG =================
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-POLICY_DIR = REPO_ROOT / "Governance" / "Policies"
+PROT_DIR = REPO_ROOT / "Governance" / "Policies"
 
-INDEX_MD = POLICY_DIR / "CAM-Policy-Index.md"
-INDEX_JSON = POLICY_DIR / "policy.index.json"
+INDEX_MD = PROT_DIR / "CAM-Policy-Index.md"
+INDEX_JSON = PROT_DIR / "policy.index.json"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
@@ -21,8 +21,8 @@ FNAME_RE = re.compile(
     re.IGNORECASE,
 )
 
-SEAL_WORDS = {"PLATINUM", "GOLD", "RED", "BLACK"}
-SUMMARY_HEADINGS = {"purpose", "preamble", "intent", "role and remit", "mandate", "scope"}
+SUMMARY_KEYWORDS = {"purpose", "preamble", "intent"}
+SEAL_WORDS = {"platinum", "gold", "red", "black"}
 
 # ================= HELPERS =================
 
@@ -64,10 +64,18 @@ def get_git_info(path: Path) -> tuple[str, str]:
     except Exception:
         return "", ""
 
+def normalise(text: str) -> str:
+    return re.sub(r"[^\w\s]", "", text).lower()
+
 # ================= CORE PARSING =================
 
 def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
     lines = [ln.rstrip() for ln in text.splitlines()]
+
+    title = ""
+    summary = ""
+
+    # -------- TITLE --------
 
     h1_idx = None
     h1 = None
@@ -77,53 +85,46 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
             h1_idx = i
             break
 
-    title = ""
-
-    # Case 1: "# ID — Title"
+    # Case 1 & 3: "# CAM-ID — Human Title" (only if not a seal)
     if h1:
         m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
         if m:
-            title = m.group(2).strip()
+            candidate = m.group(2).strip()
+            norm = normalise(candidate)
+            if norm not in SEAL_WORDS:
+                title = candidate
 
-    # Case 2: ID-only H1 (including seal suffix)
-    if not title and h1:
-        stripped = re.sub(
-            r"-(PLATINUM|GOLD|RED|BLACK)$",
-            "",
-            h1,
-            flags=re.IGNORECASE,
-        )
-        if stripped.upper() == doc_id.upper():
-            title = ""
-
-    # Case 3: SOLAN-style — first H2 is ALWAYS the title
+    # Case 2: "# CAM-ID-SEAL" + first valid H2/H3/H4
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
-            if ln.startswith("## "):
-                title = ln[3:].strip()
-                break
-            if ln.startswith("# "):
-                break
+            if ln.startswith("#"):
+                candidate = ln.lstrip("#").strip()
+                norm = normalise(candidate)
 
-    # Absolute guard
-    if title.upper() in {"PLATINUM", "GOLD", "RED", "BLACK"}:
-        title = ""
+                if (
+                    norm
+                    and norm not in SEAL_WORDS
+                    and norm != normalise(doc_id)
+                    and not any(k in norm for k in SUMMARY_KEYWORDS)
+                ):
+                    title = candidate
+                    break
 
     # -------- SUMMARY --------
-    summary = ""
-    preferred = {"purpose", "preamble", "intent"}
 
     for i, ln in enumerate(lines):
-        if ln.startswith("## "):
-            heading = ln[3:].strip().lower()
-            if heading in preferred:
+        if ln.startswith("#"):
+            heading_text = ln.lstrip("#").strip()
+            norm = normalise(heading_text)
+
+            if any(k in norm for k in SUMMARY_KEYWORDS):
                 for ln2 in lines[i + 1:]:
                     s = ln2.strip()
                     if not s:
                         continue
                     if s.startswith("#") or s.startswith("|"):
                         break
-                    if s.startswith("**") and ":" in s:
+                    if s.startswith("**") and s.endswith("**"):
                         continue
                     sentences = re.split(r"(?<=[.!?])\s+", s)
                     summary = " ".join(sentences[:2]).strip()
@@ -139,7 +140,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
             continue
         if s.startswith("#") or s.startswith("|"):
             continue
-        if s.startswith("**") and ":" in s:
+        if s.startswith("**") and s.endswith("**"):
             continue
         buf.append(s)
 
@@ -154,7 +155,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
 def collect_policies():
     items = []
 
-    for p in sorted(POLICY_DIR.glob("*.md")):
+    for p in sorted(PROT_DIR.glob("*.md")):
         if p.name == INDEX_MD.name:
             continue
 
@@ -175,7 +176,7 @@ def collect_policies():
             "title": title,
             "type": typ,
             "seal": seal,
-            "link": p.name,               # correct relative link
+            "link": p.name,
             "summary": summary,
             "pinned_sha": sha,
             "updated_at": updated_at,
@@ -209,16 +210,11 @@ def write_json(items):
         "items": items,
     }
 
-    # Explicitly ensure directory exists and is writable
     INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
-
     INDEX_JSON.write_text(
         json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
-
-    print(f"JSON written: {INDEX_JSON}")
-
 
 # ================= MAIN =================
 
