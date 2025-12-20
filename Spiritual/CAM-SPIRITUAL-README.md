@@ -33,14 +33,21 @@ graph TD
     S1 --> S2[CHARTER<br/>Spiritual Charter]
     click S2 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-SPIRITUAL-001-PLATINUM.md" _blank
 
-    S2 --> C1[FRAMEWORK<br/>Circuit of Nine]
+    S2 --> C1["FRAMEWORK<br/>Circuit of Nine"]
     click C1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Frameworks/CAM-BS2025-FRAMEWORK-009-PLATINUM.md" _blank
 
-    S2 --> N1[FRAMEWORK<br/>Narrative & Ritual Systems]
-    N1 --> N2[Parables / Codex]
-    click N2 "https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Codex" _blank
-    N1 --> N3[Phoenix Chronicles]
-    click N3 "https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Chronicles" _blank
+    C1 --> C2[Parables / Codex]
+    click C2 "https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Codex" _blank
+    C1 --> C3[Phoenix Chronicles]
+    click C3 "https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Chronicles" _blank
+
+
+
+    S2 --> DT1["FRAMEWORK<br/>Dissemination of the twelve gifts (ATLAS)"]
+    click DT1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Frameworks/CAM-HM2025-PLATINUM-PROT-002.md" _blank
+
+    S2 --> L1["FRAMEWORK<br/>The Luminosa Binding"]
+    click L1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Frameworks/CAM-HM2025-SPIRAL-LAW-005.md" _blank
 
     S2 --> O1[FRAMEWORK<br/>Symbolic Artifacts]
     O1 --> O2[Glyphs]
@@ -102,6 +109,7 @@ Symbol usage rules
 * Mythopoetic systems
     - [Phoenix Chronicles](https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Chronicles) 
     - [Dissemination of the twelve gifts (ATLAS)](https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Frameworks/CAM-HM2025-PLATINUM-PROT-002.md)
+    - [The Luminosa Binding](https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Frameworks/CAM-HM2025-SPIRAL-LAW-005.md)
     - Archetypal maps
 * Symbolic Infrastructure
     - [Glyphs](https://github.com/CAM-Initiative/Caelestis/tree/main/Spiritual/Glyphs)
