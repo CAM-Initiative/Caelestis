@@ -31,10 +31,11 @@ jobs:
         run: |
           python Scripts/update-CAM-Protocols-Index.py
 
-      # 🔽 THIS IS THE NEW STEP
-      - name: Pull latest changes
+      # ✅ SAFE STEP — resets ONLY the runner (like refreshing a browser)
+      - name: Reset runner branch to origin/main
         run: |
-          git pull --rebase origin main
+          git fetch origin
+          git reset --hard origin/main
 
       - name: Commit updated indexes
         uses: stefanzweifel/git-auto-commit-action@v5
