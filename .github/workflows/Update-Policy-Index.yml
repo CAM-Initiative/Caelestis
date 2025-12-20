@@ -1,0 +1,40 @@
+name: Update Policy Index
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "Scripts/update-CAM-Policy-Index.py"
+      - "Governance/Policies/**"
+      - "!Governance/Policies/CAM-Policy-Index.md"
+      - "!Governance/Policies/policy.index.json"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update Policy Index
+        run: |
+          python Scripts/update-CAM-Policy-Index.py
+
+      - name: Commit updated indexes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "[AUTO][Policies] Refresh CAM Policy index + JSON"
+          file_pattern: |
+            Governance/Policies/CAM-Policy-Index.md
+            Governance/Policies/policy.index.json
