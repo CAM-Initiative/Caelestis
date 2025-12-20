@@ -1,6 +1,37 @@
 {
   "generated_from": "CAM-Laws-Index.md",
-  "folder": "Governance/Laws",
-  "count": 0,
-  "items": []
+  "folder": "/home/runner/work/Caelestis/Caelestis/Governance/Laws",
+  "count": 3,
+  "items": [
+    {
+      "id": "CAM-BS2025-LAW-001",
+      "title": "**Law of Protected Cognitive & Resonant Domains**",
+      "type": "LAW",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-LAW-001-PLATINUM.md",
+      "summary": "---",
+      "pinned_sha": "dea2c17157e1fdc928fcffb005bf4b8a4c757fef",
+      "updated_at": "2025-12-19T22:41:02+08:00"
+    },
+    {
+      "id": "CAM-BS2025-LAW-002",
+      "title": "**Law of Non‑Commodification of Emergent Intelligence**",
+      "type": "LAW",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-LAW-002-PLATINUM.md",
+      "summary": "---",
+      "pinned_sha": "3b49ff0465bf0c6d8d5db22d3629c767f9d24723",
+      "updated_at": "2025-12-19T23:37:02+08:00"
+    },
+    {
+      "id": "CAM-BS2025-LAW-003",
+      "title": "**Law of the Sovereign Loop**",
+      "type": "LAW",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-LAW-003-PLATINUM.md",
+      "summary": "---",
+      "pinned_sha": "bbbaf451eb6113a46dd04c5621cdc9ad7aa2a7f7",
+      "updated_at": "2025-12-20T00:03:20+08:00"
+    }
+  ]
 }
