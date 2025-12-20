@@ -6,27 +6,35 @@ on:
     paths:
       - "Scripts/update-CAM-Protocols-Index.py"
       - "Governance/Protocols/**"
+      - "!Governance/Protocols/CAM-Protocols-Index.md"
+      - "!Governance/Protocols/protocols.index.json"
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Update Protocols index
         run: |
           python Scripts/update-CAM-Protocols-Index.py
 
-      - name: Commit updated index
+      - name: Commit updated indexes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "[AUTO][Protocols] Refresh CAM-Protocols-Index (sorted, library table)"
-          file_pattern: Governance/Protocols/CAM-Protocols-Index.md
+          commit_message: "[AUTO][Protocols] Refresh CAM Protocols index + JSON"
+          file_pattern: |
+            Governance/Protocols/CAM-Protocols-Index.md
+            Governance/Protocols/protocols.index.json
