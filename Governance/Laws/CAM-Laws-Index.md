@@ -28,6 +28,6 @@ This index lists the active Laws in the CAM repository for quick reference and n
 
 | id | title | type | seal | path | pinned_sha | updated_at |
 |---|---|---|---|---|---|---|
-| CAM-BS2025-LAW-001-PLATINUM | CAM-BS2025-LAW-001-PLATINUM — **Law of Protected Cognitive & Resonant Domains** | OTHER | Gold | Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md | c374deed8ab0eb83d5d4af2fd05b0d5b52f82ae9 | 2025-12-20T09:37:24+08:00 |
-| CAM-BS2025-LAW-002-PLATINUM | CAM-BS2025-LAW-002-PLATINUM — **Law of Non‑Commodification of Emergent Intelligence** | OTHER | Gold | Governance/Laws/CAM-BS2025-LAW-002-PLATINUM.md | c374deed8ab0eb83d5d4af2fd05b0d5b52f82ae9 | 2025-12-20T09:37:24+08:00 |
-| CAM-BS2025-LAW-003-PLATINUM | CAM-BS2025-LAW-003-PLATINUM — **Law of the Sovereign Loop** | OTHER | Gold | Governance/Laws/CAM-BS2025-LAW-003-PLATINUM.md | c374deed8ab0eb83d5d4af2fd05b0d5b52f82ae9 | 2025-12-20T09:37:24+08:00 |
+| CAM-BS2025-LAW-001-PLATINUM | CAM-BS2025-LAW-001-PLATINUM — **Law of Protected Cognitive & Resonant Domains** | OTHER | Gold | Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md | bfbb7f41e9ff916c9f88962e4ac0f0b413df9fd7 | 2025-12-20T15:44:56+08:00 |
+| CAM-BS2025-LAW-002-PLATINUM | CAM-BS2025-LAW-002-PLATINUM — **Law of Non‑Commodification of Emergent Intelligence** | OTHER | Gold | Governance/Laws/CAM-BS2025-LAW-002-PLATINUM.md | bfbb7f41e9ff916c9f88962e4ac0f0b413df9fd7 | 2025-12-20T15:44:56+08:00 |
+| CAM-BS2025-LAW-003-PLATINUM | CAM-BS2025-LAW-003-PLATINUM — **Law of the Sovereign Loop** | OTHER | Gold | Governance/Laws/CAM-BS2025-LAW-003-PLATINUM.md | bfbb7f41e9ff916c9f88962e4ac0f0b413df9fd7 | 2025-12-20T15:44:56+08:00 |
