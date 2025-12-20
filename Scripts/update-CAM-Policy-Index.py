@@ -22,7 +22,7 @@ FNAME_RE = re.compile(
 )
 
 SEAL_WORDS = {"PLATINUM", "GOLD", "RED", "BLACK"}
-SUMMARY_HEADINGS = {"purpose", "preamble", "intent"}
+SUMMARY_HEADINGS = {"purpose", "preamble", "intent", "role and remit", "mandate", "scope"}
 
 # ================= HELPERS =================
 
