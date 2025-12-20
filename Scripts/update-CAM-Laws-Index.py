@@ -21,7 +21,15 @@ FNAME_RE = re.compile(
     re.IGNORECASE,
 )
 
-SUMMARY_KEYWORDS = {"purpose", "preamble", "intent", "Jurisdiction & Standing"}
+SUMMARY_KEYWORDS = SUMMARY_KEYWORDS = [
+    "jurisdiction",
+    "standing",
+    "scope",
+    "application",
+    "purpose",
+    "preamble",
+    "intent",
+]
 SEAL_WORDS = {"platinum", "gold", "red", "black"}
 
 # ================= HELPERS =================
