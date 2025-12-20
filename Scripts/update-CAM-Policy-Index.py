@@ -9,7 +9,7 @@ from pathlib import Path
 # ================= CONFIG =================
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-PROT_DIR = REPO_ROOT / "Governance" / "Policy"
+PROT_DIR = REPO_ROOT / "Governance" / "Policies"
 
 INDEX_MD = PROT_DIR / "CAM-Policy-Index.md"
 INDEX_JSON = PROT_DIR / "policy.index.json"
@@ -151,10 +151,10 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
 
 # ================= COLLECTION =================
 
-def collect_protocols():
+def collect_policies():
     items = []
 
-    for p in sorted(PROT_DIR.glob("*.md")):
+    for p in sorted(POLICY_DIR.glob("*.md")):
         if p.name == INDEX_MD.name:
             continue
 
@@ -204,7 +204,7 @@ def render_markdown(items):
 def write_json(items):
     payload = {
         "generated_from": INDEX_MD.name,
-        "folder": "Governance/Protocols",
+        "folder": "Governance/Policies",
         "count": len(items),
         "items": items,
     }
@@ -216,7 +216,7 @@ def write_json(items):
 # ================= MAIN =================
 
 def main():
-    items = collect_protocols()
+    items = collect_policies()
 
     table = render_markdown(items)
     old = read_text(INDEX_MD)
