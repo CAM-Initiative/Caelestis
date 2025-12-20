@@ -98,9 +98,17 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
                 if len(level) < len(ln):  # heading
                     candidate = level.strip()
                     norm = normalise(candidate)
-                    if not any(k in norm for k in SUMMARY_KEYWORDS):
-                        title = candidate
-                        break
+                
+                    SEAL_WORDS = {"platinum", "gold", "red", "black"}
+
+                    if (
+                    not any(k in norm for k in SUMMARY_KEYWORDS)
+                    and norm not in SEAL_WORDS
+                    and norm != normalise(doc_id)
+                    ):
+                title = candidate
+                break
+            
             else:
                 continue
 
