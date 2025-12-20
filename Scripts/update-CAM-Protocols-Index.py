@@ -22,6 +22,7 @@ FNAME_RE = re.compile(
 )
 
 SUMMARY_KEYWORDS = {"purpose", "preamble", "intent"}
+SEAL_WORDS = {"platinum", "gold", "red", "black"}
 
 # ================= HELPERS =================
 
@@ -94,23 +95,16 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
             if ln.startswith("#"):
-                level = ln.lstrip("#")
-                if len(level) < len(ln):  # heading
-                    candidate = level.strip()
-                    norm = normalise(candidate)
-                
-                    SEAL_WORDS = {"platinum", "gold", "red", "black"}
+                candidate = ln.lstrip("#").strip()
+                norm = normalise(candidate)
 
-                    if (
+                if (
                     not any(k in norm for k in SUMMARY_KEYWORDS)
                     and norm not in SEAL_WORDS
                     and norm != normalise(doc_id)
-                    ):
-                title = candidate
-                break
-            
-            else:
-                continue
+                ):
+                    title = candidate
+                    break
 
     # -------- SUMMARY --------
 
@@ -132,7 +126,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
                     summary = " ".join(sentences[:2]).strip()
                     return title, summary
 
-    # Fallback: first meaningful paragraph
+    # Fallback summary
     buf = []
     for ln in lines:
         s = ln.strip()
