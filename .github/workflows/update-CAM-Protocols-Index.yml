@@ -27,17 +27,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Attach to main and align runner
-        run: |
-          git fetch origin
-          git checkout main
-          git reset --hard origin/main
-
       - name: Update Protocols index
         run: |
           python Scripts/update-CAM-Protocols-Index.py
 
-      - name: Commit and push updated indexes
+      # ✅ THIS IS THE MISSING PIECE
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # ✅ Pull latest to avoid non-fast-forward errors
+      - name: Sync with remote
+        run: |
+          git pull --rebase origin main
+
+      # ✅ Manual, explicit, transparent commit
+      - name: Commit updated indexes
         run: |
           git status
           git add Governance/Protocols/CAM-Protocols-Index.md Governance/Protocols/protocols.index.json
