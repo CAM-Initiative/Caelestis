@@ -27,8 +27,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      # 🔒 CRITICAL: attach to main before reset
-      - name: Attach to main and reset runner
+      - name: Attach to main and align runner
         run: |
           git fetch origin
           git checkout main
@@ -38,10 +37,15 @@ jobs:
         run: |
           python Scripts/update-CAM-Protocols-Index.py
 
-      - name: Commit updated indexes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "[AUTO][Protocols] Refresh CAM Protocols index + JSON"
-          file_pattern: |
-            Governance/Protocols/CAM-Protocols-Index.md
-            Governance/Protocols/protocols.index.json
+      - name: Commit and push updated indexes
+        run: |
+          git status
+          git add Governance/Protocols/CAM-Protocols-Index.md Governance/Protocols/protocols.index.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "[AUTO][Protocols] Refresh CAM Protocols index + JSON"
+          git push origin main
