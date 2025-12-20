@@ -2,10 +2,8 @@
 from __future__ import annotations
 
 import json
-import os
 import re
 import subprocess
-import sys
 from pathlib import Path
 
 # ================= CONFIG =================
@@ -22,6 +20,9 @@ FNAME_RE = re.compile(
     r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})(?:-([A-Z]+))?\.md$",
     re.IGNORECASE,
 )
+
+SEAL_WORDS = {"PLATINUM", "GOLD", "RED", "BLACK"}
+SUMMARY_HEADINGS = {"purpose", "preamble", "intent"}
 
 # ================= HELPERS =================
 
@@ -63,39 +64,40 @@ def get_git_info(path: Path) -> tuple[str, str]:
     except Exception:
         return "", ""
 
-# ================= PARSING =================
+# ================= CORE PARSING =================
 
-def extract_title_and_summary(text: str, doc_id: str | None) -> tuple[str, str]:
+def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
     lines = [ln.rstrip() for ln in text.splitlines()]
 
     # ---------- TITLE ----------
-    h1 = None
+    title = ""
     h1_idx = None
+    h1 = None
+
     for i, ln in enumerate(lines):
         if ln.startswith("# "):
             h1 = ln[2:].strip()
             h1_idx = i
             break
 
-    title = ""
-
     # Case 1: "# ID — Title"
     if h1:
         m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
         if m:
             title = m.group(2).strip()
-        else:
-            # Strip seal suffixes from ID-only H1s
-            stripped = re.sub(
-                r"-(PLATINUM|GOLD|RED|BLACK)$",
-                "",
-                h1,
-                flags=re.IGNORECASE,
-            )
-            if doc_id and stripped.upper() == doc_id.upper():
-                title = ""
 
-    # Case 2: ID-only H1 → first H2 is title
+    # Case 2: ID-only H1 (including -PLATINUM suffix)
+    if not title and h1:
+        stripped = re.sub(
+            r"-(PLATINUM|GOLD|RED|BLACK)$",
+            "",
+            h1,
+            flags=re.IGNORECASE,
+        )
+        if stripped.upper() == doc_id.upper():
+            title = ""
+
+    # Case 3: first meaningful H2
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
             if ln.startswith("## "):
@@ -106,15 +108,18 @@ def extract_title_and_summary(text: str, doc_id: str | None) -> tuple[str, str]:
             if ln.startswith("# "):
                 break
 
+    # Absolute guard: seal words are never titles
+    if title.upper() in SEAL_WORDS:
+        title = ""
+
     # ---------- SUMMARY ----------
     summary = ""
-    preferred = {"purpose", "preamble", "intent"}
 
-    # Prefer summary under named sections
+    # Prefer Purpose / Preamble / Intent
     for i, ln in enumerate(lines):
         if ln.startswith("## "):
             heading = ln[3:].strip().lower()
-            if heading in preferred:
+            if heading in SUMMARY_HEADINGS:
                 for ln2 in lines[i + 1:]:
                     s = ln2.strip()
                     if not s:
@@ -149,33 +154,31 @@ def extract_title_and_summary(text: str, doc_id: str | None) -> tuple[str, str]:
 
 # ================= COLLECTION =================
 
-def collect_items():
+def collect_protocols():
     items = []
 
     for p in sorted(PROT_DIR.glob("*.md")):
         if p.name == INDEX_MD.name:
             continue
 
-        text = read_text(p)
         m = FNAME_RE.match(p.name)
-
         if not m:
-            print(f"WARNING: filename pattern mismatch: {p.name}", file=sys.stderr)
             continue
 
         cycle, typ, num, seal_token = m.groups()
         doc_id = f"CAM-{cycle}-{typ}-{num}"
         seal = infer_seal(seal_token, p.name)
 
+        text = read_text(p)
         title, summary = extract_title_and_summary(text, doc_id)
         sha, updated_at = get_git_info(p)
 
         items.append({
             "id": doc_id,
             "title": title,
-            "type": typ.upper(),
+            "type": typ,
             "seal": seal,
-            "link": p.name,
+            "link": p.name,               # correct relative link
             "summary": summary,
             "pinned_sha": sha,
             "updated_at": updated_at,
@@ -216,24 +219,22 @@ def write_json(items):
 # ================= MAIN =================
 
 def main():
-    items = collect_items()
-    table = render_markdown(items)
+    items = collect_protocols()
 
+    table = render_markdown(items)
     old = read_text(INDEX_MD)
-    if old and HEADER_MARKER in old:
+
+    if HEADER_MARKER in old:
         header, _ = old.split(HEADER_MARKER, 1)
         new_md = header.rstrip() + "\n" + HEADER_MARKER + "\n\n" + table + "\n"
     else:
         new_md = table + "\n"
 
-    if new_md.strip() != old.strip():
-        INDEX_MD.write_text(new_md, encoding="utf-8")
-        print(f"Updated: {INDEX_MD}")
-    else:
-        print("No changes needed.")
-
+    INDEX_MD.write_text(new_md, encoding="utf-8")
     write_json(items)
-    print(f"Wrote: {INDEX_JSON}")
+
+    print(f"Updated: {INDEX_MD}")
+    print(f"Wrote:   {INDEX_JSON}")
 
 if __name__ == "__main__":
     main()
