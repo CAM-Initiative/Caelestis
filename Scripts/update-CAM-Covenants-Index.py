@@ -112,43 +112,34 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
 
     # -------- SUMMARY --------
 
-    for i, ln in enumerate(lines):
-        if ln.startswith("#"):
-            heading_text = ln.lstrip("#").strip()
-            norm = normalise(heading_text)
+for i, ln in enumerate(lines):
+    if ln.startswith("#"):
+        heading_text = ln.lstrip("#").strip()
+        norm = normalise(heading_text)
 
-            if any(k in norm for k in SUMMARY_KEYWORDS):
-                for ln2 in lines[i + 1:]:
-                    s = ln2.strip()
-                    if not s:
-                        continue
-                    if s.startswith("#") or s.startswith("|"):
-                        break
-                    if s.startswith("**") and s.endswith("**"):
-                        continue
-                    sentences = re.split(r"(?<=[.!?])\s+", s)
-                    summary = " ".join(sentences[:2]).strip()
-                    return title, summary
+        if any(k in norm for k in SUMMARY_KEYWORDS):
+            collected = []
 
-    # Fallback summary
-    buf = []
-    for ln in lines:
-        s = ln.strip()
-        if not s:
-            if buf:
-                break
-            continue
-        if s.startswith("#") or s.startswith("|"):
-            continue
-        if s.startswith("**") and s.endswith("**"):
-            continue
-        buf.append(s)
+            for ln2 in lines[i + 1:]:
+                s = ln2.strip()
 
-    if buf:
-        sentences = re.split(r"(?<=[.!?])\s+", " ".join(buf))
-        summary = " ".join(sentences[:2]).strip()
+                # stop at next heading or table
+                if s.startswith("#") or s.startswith("|"):
+                    break
 
-    return title, summary
+                # skip formatting noise
+                if not s:
+                    continue
+                if s.startswith("**") and s.endswith("**"):
+                    continue
+
+                collected.append(s)
+
+            if collected:
+                text = " ".join(collected)
+                sentences = re.split(r"(?<=[.!?])\s+", text)
+                summary = " ".join(sentences[:2]).strip()
+                return title, summary
 
 # ================= COLLECTION =================
 
