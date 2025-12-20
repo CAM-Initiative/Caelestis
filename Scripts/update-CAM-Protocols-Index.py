@@ -110,26 +110,30 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
         title = ""
 
     # -------- SUMMARY --------
-    summary = ""
-    preferred = {"purpose", "preamble", "intent"}
 
+    summary = ""
+    preferred = SUMMARY_HEADINGS
+
+    # Preferred heading-based summary
     for i, ln in enumerate(lines):
         if ln.startswith("## "):
-            heading = ln[3:].strip().lower()
-            if heading in preferred:
+            raw_heading = ln[3:]
+            heading = re.sub(r"[^\w\s]", "", raw_heading).strip().lower()
+
+            if any(heading.startswith(p) for p in preferred):
                 for ln2 in lines[i + 1:]:
                     s = ln2.strip()
                     if not s:
                         continue
                     if s.startswith("#") or s.startswith("|"):
                         break
-                    if s.startswith("**") and ":" in s:
+                    if s.startswith("**") and s.endswith("**"):
                         continue
                     sentences = re.split(r"(?<=[.!?])\s+", s)
                     summary = " ".join(sentences[:2]).strip()
                     return title, summary
 
-    # Fallback summary
+    # Fallback summary (first meaningful paragraph)
     buf = []
     for ln in lines:
         s = ln.strip()
@@ -139,7 +143,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
             continue
         if s.startswith("#") or s.startswith("|"):
             continue
-        if s.startswith("**") and ":" in s:
+        if s.startswith("**") and s.endswith("**"):
             continue
         buf.append(s)
 
@@ -175,7 +179,7 @@ def collect_protocols():
             "title": title,
             "type": typ,
             "seal": seal,
-            "link": p.name,               # correct relative link
+            "link": p.name,
             "summary": summary,
             "pinned_sha": sha,
             "updated_at": updated_at,
@@ -204,14 +208,19 @@ def render_markdown(items):
 def write_json(items):
     payload = {
         "generated_from": INDEX_MD.name,
-        "folder": "Governance/Protocols",
+        "folder": str(INDEX_JSON.parent),
         "count": len(items),
         "items": items,
     }
+
+    INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
+
     INDEX_JSON.write_text(
         json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
+
+    print(f"JSON written: {INDEX_JSON}")
 
 # ================= MAIN =================
 
