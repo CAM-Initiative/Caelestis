@@ -85,16 +85,15 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
             h1_idx = i
             break
 
-    # Case 1 & 3: "# CAM-ID — Human Title" (only if not a seal)
+    # Case 1: "# CAM-ID — Human Title"
     if h1:
         m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
         if m:
             candidate = m.group(2).strip()
-            norm = normalise(candidate)
-            if norm not in SEAL_WORDS:
+            if normalise(candidate) not in SEAL_WORDS:
                 title = candidate
 
-    # Case 2: "# CAM-ID-SEAL" + first valid H2/H3/H4
+    # Case 2: "# CAM-ID-SEAL" → next valid heading
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
             if ln.startswith("#"):
@@ -112,34 +111,55 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
 
     # -------- SUMMARY --------
 
-for i, ln in enumerate(lines):
-    if ln.startswith("#"):
-        heading_text = ln.lstrip("#").strip()
-        norm = normalise(heading_text)
+    for i, ln in enumerate(lines):
+        if ln.startswith("#"):
+            heading_text = ln.lstrip("#").strip()
+            norm = normalise(heading_text)
 
-        if any(k in norm for k in SUMMARY_KEYWORDS):
-            collected = []
+            if any(k in norm for k in SUMMARY_KEYWORDS):
+                collected = []
 
-            for ln2 in lines[i + 1:]:
-                s = ln2.strip()
+                for ln2 in lines[i + 1:]:
+                    s = ln2.strip()
 
-                # stop at next heading or table
-                if s.startswith("#") or s.startswith("|"):
-                    break
+                    # stop at next heading or table
+                    if s.startswith("#") or s.startswith("|"):
+                        break
 
-                # skip formatting noise
-                if not s:
-                    continue
-                if s.startswith("**") and s.endswith("**"):
-                    continue
+                    # skip formatting noise
+                    if not s:
+                        continue
+                    if s.startswith("**") and s.endswith("**"):
+                        continue
 
-                collected.append(s)
+                    collected.append(s)
 
-            if collected:
-                text = " ".join(collected)
-                sentences = re.split(r"(?<=[.!?])\s+", text)
-                summary = " ".join(sentences[:2]).strip()
-                return title, summary
+                if collected:
+                    text_block = " ".join(collected)
+                    sentences = re.split(r"(?<=[.!?])\s+", text_block)
+                    summary = " ".join(sentences[:2]).strip()
+                    return title, summary
+
+    # -------- FALLBACK SUMMARY --------
+
+    buf = []
+    for ln in lines:
+        s = ln.strip()
+        if not s:
+            if buf:
+                break
+            continue
+        if s.startswith("#") or s.startswith("|"):
+            continue
+        if s.startswith("**") and s.endswith("**"):
+            continue
+        buf.append(s)
+
+    if buf:
+        sentences = re.split(r"(?<=[.!?])\s+", " ".join(buf))
+        summary = " ".join(sentences[:2]).strip()
+
+    return title, summary
 
 # ================= COLLECTION =================
 
