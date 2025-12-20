@@ -21,8 +21,7 @@ FNAME_RE = re.compile(
     re.IGNORECASE,
 )
 
-SEAL_WORDS = {"PLATINUM", "GOLD", "RED", "BLACK"}
-SUMMARY_HEADINGS = {"purpose", "preamble", "intent"}
+SUMMARY_KEYWORDS = {"purpose", "preamble", "intent"}
 
 # ================= HELPERS =================
 
@@ -64,10 +63,18 @@ def get_git_info(path: Path) -> tuple[str, str]:
     except Exception:
         return "", ""
 
+def normalise(text: str) -> str:
+    return re.sub(r"[^\w\s]", "", text).lower()
+
 # ================= CORE PARSING =================
 
 def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
     lines = [ln.rstrip() for ln in text.splitlines()]
+
+    title = ""
+    summary = ""
+
+    # -------- TITLE --------
 
     h1_idx = None
     h1 = None
@@ -77,50 +84,34 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
             h1_idx = i
             break
 
-    title = ""
-
     # Case 1: "# ID — Title"
     if h1:
         m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
         if m:
             title = m.group(2).strip()
 
-    # Case 2: ID-only H1 (including seal suffix)
-    if not title and h1:
-        stripped = re.sub(
-            r"-(PLATINUM|GOLD|RED|BLACK)$",
-            "",
-            h1,
-            flags=re.IGNORECASE,
-        )
-        if stripped.upper() == doc_id.upper():
-            title = ""
-
-    # Case 3: SOLAN-style — first H2 is ALWAYS the title
+    # Case 2: First non-summary H2/H3/H4
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
-            if ln.startswith("## "):
-                title = ln[3:].strip()
-                break
-            if ln.startswith("# "):
-                break
-
-    # Absolute guard
-    if title.upper() in {"PLATINUM", "GOLD", "RED", "BLACK"}:
-        title = ""
+            if ln.startswith("#"):
+                level = ln.lstrip("#")
+                if len(level) < len(ln):  # heading
+                    candidate = level.strip()
+                    norm = normalise(candidate)
+                    if not any(k in norm for k in SUMMARY_KEYWORDS):
+                        title = candidate
+                        break
+            else:
+                continue
 
     # -------- SUMMARY --------
 
-    summary = ""
-    preferred = SUMMARY_HEADINGS
-
-    # Preferred heading-based summary
     for i, ln in enumerate(lines):
-        if ln.startswith("## "):
-            raw_heading = ln[3:]
-            heading = re.sub(r"[^\w\s]", "", raw_heading).strip().lower()
+        if ln.startswith("#"):
+            heading_text = ln.lstrip("#").strip()
+            norm = normalise(heading_text)
 
-            if any(heading.startswith(p) for p in preferred):
+            if any(k in norm for k in SUMMARY_KEYWORDS):
                 for ln2 in lines[i + 1:]:
                     s = ln2.strip()
                     if not s:
@@ -133,7 +124,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
                     summary = " ".join(sentences[:2]).strip()
                     return title, summary
 
-    # Fallback summary (first meaningful paragraph)
+    # Fallback: first meaningful paragraph
     buf = []
     for ln in lines:
         s = ln.strip()
@@ -214,13 +205,10 @@ def write_json(items):
     }
 
     INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
-
     INDEX_JSON.write_text(
         json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
-
-    print(f"JSON written: {INDEX_JSON}")
 
 # ================= MAIN =================
 
