@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-REGISTRY_DIR = REPO_ROOT / "Governance" / "registry"
+REGISTRY_DIR = REPO_ROOT / "registry"
 OUTPUT_JSON = REGISTRY_DIR / "governance.stack.index.json"
 OUTPUT_MD = REGISTRY_DIR / "GOVERNANCE-STACK-INDEX.md"
 
