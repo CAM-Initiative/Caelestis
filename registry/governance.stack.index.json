@@ -1,0 +1,45 @@
+{
+  "stack": "governance",
+  "status": "active",
+  "generated_at": "2025-01-18T10:00:00Z",
+  "registry_type": "stack-registry",
+  "description": "Canonical registry of governance-domain registries within the Caelestis architecture.",
+  "domains": [
+    {
+      "domain": "constitution",
+      "path": "Governance/Constitution/constitution.index.json",
+      "count": 0,
+      "status": "active"
+    },
+    {
+      "domain": "charters",
+      "path": "Governance/Charters/charters.index.json",
+      "count": 0,
+      "status": "active"
+    },
+    {
+      "domain": "covenants",
+      "path": "Governance/Covenants/covenants.index.json",
+      "count": 0,
+      "status": "active"
+    },
+    {
+      "domain": "laws",
+      "path": "Governance/Laws/laws.index.json",
+      "count": 0,
+      "status": "active"
+    },
+    {
+      "domain": "protocols",
+      "path": "Governance/Protocols/protocols.index.json",
+      "count": 0,
+      "status": "active"
+    },
+    {
+      "domain": "policies",
+      "path": "Governance/Policies/policy.index.json",
+      "count": 0,
+      "status": "active"
+    }
+  ]
+}
