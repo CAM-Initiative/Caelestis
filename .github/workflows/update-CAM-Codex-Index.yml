@@ -53,7 +53,7 @@ jobs:
             echo "---- Attempt ${attempt} ----"
 
             # Always regenerate from the current working tree state
-            python Scripts/update-CAM-Constitution-Index.py
+            python Scripts/update-CAM-Codex-Index.py
 
             # Stage only the two generated artifacts
             git add Spiritual/Codex/CAM-Codex-Index.md Spiritual/Codex/codex.index.json
