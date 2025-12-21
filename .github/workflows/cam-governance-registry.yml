@@ -1,6 +1,65 @@
+name: Update Governance Stack Registry
+
 on:
   workflow_dispatch:
   push:
     branches: [ main ]
     paths:
-      - "Governance/**/**.index.json"
+      - "Scripts/update-governance-stack-registry.py"
+      - "Governance/**/*.index.json"
+      - "!registry/governance.stack.index.json"   # prevent self-trigger loop
+
+permissions:
+  contents: write
+
+concurrency:
+  group: governance-registry-main
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      BOT_NAME: github-actions[bot]
+      BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate + commit + push Governance stack registry
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git checkout -B main origin/main
+
+          git config --global user.name "${BOT_NAME}"
+          git config --global user.email "${BOT_EMAIL}"
+
+          # Run generator
+          python Scripts/update-governance-stack-registry.py
+
+          # Stage only generated artifacts
+          git add registry/governance.stack.index.json registry/GOVERNANCE-STACK-INDEX.md
+
+          # Exit cleanly if nothing changed
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          echo "Staged changes:"
+          git diff --cached --name-only
+
+          git commit -m "[AUTO][Governance] Refresh governance stack registry"
+          git push origin HEAD:main
