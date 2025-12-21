@@ -21,9 +21,7 @@ FNAME_RE = re.compile(
     re.IGNORECASE,
 )
 
-SUMMARY_KEYWORDS = SUMMARY_KEYWORDS = [
-    "jurisdiction",
-    "standing",
+SUMMARY_KEYWORDS = [
     "scope",
     "application",
     "purpose",
