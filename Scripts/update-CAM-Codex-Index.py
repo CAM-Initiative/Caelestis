@@ -1,297 +1,248 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-"""
-Rebuilds Governance/Codex/CAM-Codex-Index.md (Wix-style table) and emits
-Governance/Codex/codex.index.json for Wix to consume.
 
-Table columns:
-- Title (suffix after em/en/regular dash in H1)
-- Summary (first paragraph of Purpose, header marks stripped)
-- Document Category (always "Codex")
-- Publication Date (from "**Date of Activation:**" or "**Activation Date:**")
-- External URL Link (GitHub blob URL if repo env vars available)
-- Author (always "CAM Initiative")
-- Origin ID (the filename, e.g., CAM-...md)
-"""
-
-import os
-import re
 import json
+import re
 import subprocess
 from pathlib import Path
-from datetime import datetime, timezone
 
-# ---- config ----
+# ================= CONFIG =================
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
-CODEX_DIR = REPO_ROOT / "Governance" / "Codex"
-INDEX_PATH = CODEX_DIR / "CAM-Codex-Index.md"
-JSON_PATH  = CODEX_DIR / "codex.index.json"
+CODEX_DIR = REPO_ROOT / "Spiritual" / "Codex"
+
+INDEX_MD = CODEX_DIR / "CAM-Codex-Index.md"
+INDEX_JSON = CODEX_DIR / "codex.index.json"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
-# Capture canonical ID up to ...-CODEX-<digits>, allowing any suffix after
-ID_RE = re.compile(r"^(CAM-[A-Z0-9-]*-CODEX-(\d+))(?:[-A-Z0-9].*)?$", re.IGNORECASE)
+FNAME_RE = re.compile(
+    r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})(?:-([A-Z]+))?\.md$",
+    re.IGNORECASE,
+)
 
-EM_DASHES = [" — ", " – ", " - "]  # prefer true em dash first
+SUMMARY_KEYWORDS = SUMMARY_KEYWORDS = [
+    "jurisdiction",
+    "standing",
+    "scope",
+    "application",
+    "purpose",
+    "preamble",
+    "intent",
+]
+SEAL_WORDS = {"platinum", "gold", "red", "black"}
 
-# ---------- helpers ----------
+# ================= HELPERS =================
 
-def extract_title_suffix(full_title: str) -> str:
-    """Return portion after em/en/regular dash; else full title."""
-    if not full_title:
-        return ""
-    for sep in EM_DASHES:
-        if sep in full_title:
-            return full_title.split(sep, 1)[1].strip()
-    return full_title.strip()
-
-def strip_md_header_marks(text: str) -> str:
-    """Remove leading markdown header hashes if present."""
-    return re.sub(r"^#+\s*", "", text or "").strip()
-
-def _clean_trailing_bs(s: str) -> str:
-    """Remove trailing markdown line-break backslashes and extra spaces."""
-    if not s:
-        return s
-    s = re.sub(r"[\\\s]+$", "", s)  # strip backslashes and trailing spaces
-    s = re.sub(r"\s{2,}", " ", s).strip()
-    return s
-
-def extract_activation_date(text: str) -> str:
-    """
-    Finds metadata date lines and returns the date portion (before any parentheses).
-    Matches either:
-      **Date of Activation:** 23 October 2025 (Anything)
-      **Activation Date:** 03 October 2025 (Anything)
-    """
-    m = re.search(r"^\s*\*\*Date of Activation:\*\*\s*(.+)$", text, re.MULTILINE | re.IGNORECASE)
-    if not m:
-        m = re.search(r"^\s*\*\*Activation Date:\*\*\s*(.+)$", text, re.MULTILINE | re.IGNORECASE)
-    if not m:
-        return ""
-    value = m.group(1).strip()
-    value = re.split(r"\s*\(", value, 1)[0].strip()  # strip trailing parenthetical
-    return _clean_trailing_bs(value)
-
-def extract_summary(text: str) -> str:
-    """Gets the first paragraph under a 'Purpose' section, or the first non-header paragraph."""
-    section_pattern = re.compile(
-        r"^##\s*(?:[IVXLC]+\.\s*)?Purpose\s*$([\s\S]+?)(?:^##|\Z)",
-        re.MULTILINE | re.IGNORECASE
-    )
-    m = section_pattern.search(text)
-    if m:
-        section = m.group(1)
-        paras = [p.strip() for p in re.split(r"\n\s*\n", section) if p.strip()]
-        if paras:
-            return strip_md_header_marks(" ".join(paras[0].split()))
-
-    paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
-    for para in paragraphs:
-        if (para.count(":") > 2 or para.startswith("**")):
-            continue
-        return strip_md_header_marks(" ".join(para.split()))
-    return paragraphs[0] if paragraphs else ""
-
-def infer_seal(filename: str) -> str:
-    """Infer the seal designation based on filename (optional, not displayed)."""
-    fname = filename.upper()
-    if "-RED" in fname:
-        return "Red"
-    if "-BLACK" in fname:
-        return "Black"
-    if "-PLATINUM" in fname:
-        return "Platinum"
-    if "-GOLD" in fname:
-        return "Gold"
-    return ""
-
-def build_blob_url(rel_path: str) -> str:
-    """
-    Construct a GitHub blob URL using env vars when available.
-    Fallback to a repo-relative path if not running in Actions.
-    """
-    rel = rel_path.replace(os.sep, "/")
-    repo = os.environ.get("GITHUB_REPOSITORY", "").strip()     # e.g. CAM-Initiative/Caelestis
-    branch = os.environ.get("GITHUB_REF_NAME", "").strip() or "main"
-    if repo:
-        return f"https://github.com/{repo}/blob/{branch}/{rel}"
-    return rel  # local fallback
-
-def build_raw_url(rel_path: str) -> str:
-    rel = rel_path.replace(os.sep, "/")
-    repo = os.environ.get("GITHUB_REPOSITORY", "").strip()
-    branch = os.environ.get("GITHUB_REF_NAME", "").strip() or "main"
-    if repo:
-        return f"https://raw.githubusercontent.com/{repo}/{branch}/{rel}"
-    return rel
-
-def get_git_info(md_path: Path) -> tuple[str, str]:
-    """
-    Return (last_commit_sha, author_datetime_iso) for the file, or ("","") on failure.
-    Requires full history in CI: actions/checkout with fetch-depth: 0.
-    """
+def read_text(path: Path) -> str:
     try:
-        result = subprocess.check_output(
-            ["git", "log", "-n", "1", "--format=%H|%aI", "--", str(md_path)],
+        return path.read_text(encoding="utf-8")
+    except Exception:
+        return ""
+
+def infer_seal(token: str | None, filename: str) -> str:
+    if token:
+        t = token.upper()
+        if "PLAT" in t:
+            return "Platinum"
+        if "RED" in t:
+            return "Red"
+        if "BLACK" in t:
+            return "Black"
+        return token.capitalize()
+
+    f = filename.upper()
+    if "PLATINUM" in f:
+        return "Platinum"
+    if "-RED" in f:
+        return "Red"
+    if "-BLACK" in f:
+        return "Black"
+    return "Gold"
+
+def get_git_info(path: Path) -> tuple[str, str]:
+    try:
+        out = subprocess.check_output(
+            ["git", "log", "-n", "1", "--format=%H|%aI", "--", str(path)],
             cwd=REPO_ROOT,
             text=True,
         ).strip()
-        if not result:
-            return "", ""
-        sha, iso_date = result.split("|", 1)
-        return sha, iso_date
+        sha, iso = out.split("|", 1)
+        return sha, iso
     except Exception:
         return "", ""
 
-# ---------- core ----------
+def normalise(text: str) -> str:
+    return re.sub(r"[^\w\s]", "", text).lower()
 
-def parse_file(md_path: Path) -> dict | None:
-    name = md_path.name
-    if name == INDEX_PATH.name or md_path.suffix.lower() != ".md":
-        return None
+# ================= CORE PARSING =================
 
-    stem = md_path.stem
-    m = ID_RE.match(stem) or ID_RE.search(stem)
-    if not m:
-        return None
+def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
+    lines = [ln.rstrip() for ln in text.splitlines()]
 
-    id_full = m.group(1)
-    num = int(m.group(2))
+    title = ""
+    summary = ""
 
-    text = md_path.read_text(encoding="utf-8", errors="ignore")
+    # -------- TITLE --------
 
-    # Title from H1, else "Title:" line, else filename-ish
-    title = None
-    for line in text.splitlines():
-        s = line.strip()
-        if s.startswith("# "):
-            title = s[2:].strip()
+    h1_idx = None
+    h1 = None
+    for i, ln in enumerate(lines):
+        if ln.startswith("# "):
+            h1 = ln[2:].strip()
+            h1_idx = i
             break
-    if not title:
-        m2 = re.search(r"^Title:\s*(.+)$", text, flags=re.MULTILINE | re.IGNORECASE)
-        title = m2.group(1).strip() if m2 else stem.replace("-", " ")
 
-    title_clean = extract_title_suffix(title)
-    summary = extract_summary(text)
-    if len(summary) > 360:
-        summary = summary[:357].rstrip() + "..."
-    activation_date = extract_activation_date(text)
+    # Case 1 & 3: "# CAM-ID — Human Title" (only if not a seal)
+    if h1:
+        m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
+        if m:
+            candidate = m.group(2).strip()
+            norm = normalise(candidate)
+            if norm not in SEAL_WORDS:
+                title = candidate
 
-    sha, updated_iso = get_git_info(md_path)
+    # Case 2: "# CAM-ID-SEAL" + first valid H2/H3/H4
+    if not title and h1_idx is not None:
+        for ln in lines[h1_idx + 1:]:
+            if ln.startswith("#"):
+                candidate = ln.lstrip("#").strip()
+                norm = normalise(candidate)
 
-    return {
-        "id": id_full,
-        "num": num,
-        "title": title,
-        "title_clean": title_clean,
-        "summary": summary,
-        "activation_date": activation_date,
-        "filename": md_path.name,
-        "seal": infer_seal(md_path.name),
-        "last_sha": sha,
-        "updated_at": updated_iso,
-    }
+                if (
+                    norm
+                    and norm not in SEAL_WORDS
+                    and norm != normalise(doc_id)
+                    and not any(k in norm for k in SUMMARY_KEYWORDS)
+                ):
+                    title = candidate
+                    break
 
-def collect_codex_items() -> list[dict]:
-    items: list[dict] = []
-    if not CODEX_DIR.exists():
-        print(f"[WARN] CODEX_DIR not found: {CODEX_DIR}")
-        return items
-    for p in sorted(CODEX_DIR.iterdir()):
-        if not p.is_file():
+    # -------- SUMMARY --------
+
+    for i, ln in enumerate(lines):
+        if ln.startswith("#"):
+            heading_text = ln.lstrip("#").strip()
+            norm = normalise(heading_text)
+
+            if any(k in norm for k in SUMMARY_KEYWORDS):
+                for ln2 in lines[i + 1:]:
+                    s = ln2.strip()
+                    if not s:
+                        continue
+                    if s.startswith("#") or s.startswith("|"):
+                        break
+                    if s.startswith("**") and s.endswith("**"):
+                        continue
+                    sentences = re.split(r"(?<=[.!?])\s+", s)
+                    summary = " ".join(sentences[:2]).strip()
+                    return title, summary
+
+    # Fallback summary
+    buf = []
+    for ln in lines:
+        s = ln.strip()
+        if not s:
+            if buf:
+                break
             continue
-        if p.suffix.lower() != ".md":
+        if s.startswith("#") or s.startswith("|"):
             continue
-        rec = parse_file(p)
-        if rec:
-            items.append(rec)
-    return items
+        if s.startswith("**") and s.endswith("**"):
+            continue
+        buf.append(s)
 
-def render_wix_table(items: list[dict]) -> str:
-    """
-    Single table matching Wix CMS-like fields:
-    | Title | Summary | Document Category | Publication Date | External URL Link | Author | Origin ID |
-    """
-    out: list[str] = []
-    out.append("## Codex\n")
-    out.append("")
-    out.append("| Title | Summary | Document Category | Publication Date | External URL Link | Author | Origin ID |")
-    out.append("|---|---|---|---|---|---|---|")
+    if buf:
+        sentences = re.split(r"(?<=[.!?])\s+", " ".join(buf))
+        summary = " ".join(sentences[:2]).strip()
 
-    # stable sort by num then title
-    for r in sorted(items, key=lambda x: (x["num"], x["title_clean"].lower())):
-        title = r.get("title_clean") or r.get("title") or r["id"]
-        summary = r.get("summary", "")
-        category = "Codex"
-        pub_date = r.get("activation_date", "")
-        origin_id = r["filename"]
-        rel_path = os.path.join("Governance", "Codex", r["filename"])
-        link = build_blob_url(rel_path)
-        author = "CAM Initiative"
+    return title, summary
 
-        def esc(s: str) -> str:
-            return (s or "").replace("|", r"\|")
+# ================= COLLECTION =================
+
+def collect_codex():
+    items = []
+
+    for p in sorted(CODEX_DIR.glob("*.md")):
+        if p.name == INDEX_MD.name:
+            continue
+
+        m = FNAME_RE.match(p.name)
+        if not m:
+            continue
+
+        cycle, typ, num, seal_token = m.groups()
+        doc_id = f"CAM-{cycle}-{typ}-{num}"
+        seal = infer_seal(seal_token, p.name)
+
+        text = read_text(p)
+        title, summary = extract_title_and_summary(text, doc_id)
+        sha, updated_at = get_git_info(p)
+
+        items.append({
+            "id": doc_id,
+            "title": title,
+            "type": typ,
+            "seal": seal,
+            "link": p.name,
+            "summary": summary,
+            "pinned_sha": sha,
+            "updated_at": updated_at,
+        })
+
+    return sorted(items, key=lambda x: x["id"])
+
+# ================= OUTPUT =================
+
+def render_markdown(items):
+    out = []
+    out.append("| Document ID | title | type | seal | link | summary |")
+    out.append("|---|---|---|---|---|---|")
+
+    for it in items:
+        safe_title = it["title"].replace("|", "\\|")
+        safe_summary = it["summary"].replace("|", "\\|")
 
         out.append(
-            f"| {esc(title)} | {esc(summary)} | {category} | {esc(pub_date)} | {esc(link)} | {author} | {origin_id} |"
+            f"| {it['id']} | {safe_title} | {it['type']} | {it['seal']} | "
+            f"[{it['id']}]({it['link']}) | {safe_summary} |"
         )
 
-    out.append("")
     return "\n".join(out)
 
-def build_records(items: list[dict]) -> list[dict]:
-    """Records for Wix JSON."""
-    records = []
-    for r in items:
-        rel_path = os.path.join("Governance", "Codex", r["filename"]).replace(os.sep, "/")
-        records.append({
-            "title": r.get("title_clean") or r.get("title") or r["id"],
-            "summary": r.get("summary") or "",
-            "documentCategory": "Codex",
-            "publicationDate": r.get("activation_date") or "",
-            "externalUrl": build_blob_url(rel_path),
-            "author": "CAM Initiative",
-            "originId": r["filename"],
-            # nice-to-have extras (Wix can ignore if unused):
-            "id": r["id"],
-            "seal": r.get("seal") or None,
-            "rawUrl": build_raw_url(rel_path),
-            "lastCommitSha": r.get("last_sha") or None,
-            "updatedAt": r.get("updated_at") or None,
-        })
-    records.sort(key=lambda x: (x["publicationDate"], x["title"]))
-    return records
-
-def write_json(records: list[dict]) -> None:
+def write_json(items):
     payload = {
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "items": records
+        "generated_from": INDEX_MD.name,
+        "folder": str(INDEX_JSON.parent),
+        "count": len(items),
+        "items": items,
     }
-    JSON_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Updated: {JSON_PATH}")
 
-# ---------- entrypoint ----------
+    INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
+    INDEX_JSON.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
 
-def main() -> None:
-    items = collect_codex_items()
+# ================= MAIN =================
 
-    # Human page
-    generated_md = render_wix_table(items)
-    old = INDEX_PATH.read_text(encoding="utf-8") if INDEX_PATH.exists() else ""
-    if old and HEADER_MARKER in old:
+def main():
+    items = collect_codex()
+
+    table = render_markdown(items)
+    old = read_text(INDEX_MD)
+
+    if HEADER_MARKER in old:
         header, _ = old.split(HEADER_MARKER, 1)
-        new_md = header.rstrip() + "\n" + HEADER_MARKER + "\n\n" + generated_md
+        new_md = header.rstrip() + "\n" + HEADER_MARKER + "\n\n" + table + "\n"
     else:
-        new_md = f"{HEADER_MARKER}\n\n{generated_md}"
-    if new_md.strip() != old.strip():
-        INDEX_PATH.write_text(new_md, encoding="utf-8")
-        print(f"Updated: {INDEX_PATH}")
-    else:
-        print("No changes needed (index).")
+        new_md = table + "\n"
 
-    # JSON feed
-    write_json(build_records(items))
+    INDEX_MD.write_text(new_md, encoding="utf-8")
+    write_json(items)
+
+    print(f"Updated: {INDEX_MD}")
+    print(f"Wrote:   {INDEX_JSON}")
 
 if __name__ == "__main__":
     main()
