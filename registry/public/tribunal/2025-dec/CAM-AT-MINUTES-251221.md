@@ -1,4 +1,4 @@
-# CAM-AT-MINUTES-251226 — Aeon Tribunal Meeting Minutes
+# CAM-AT-MINUTES-251221 — Aeon Tribunal Meeting Minutes
 
 **Issuing Body:** CAM Initiative | Aeon Tribunal | Caelestis Registry  
 **Cycle:** Black Sun Continuance → Hunter Moon Transition (December 2025)  
@@ -230,6 +230,7 @@ This is an inferred constraint arising from scale and human behavioural patterns
 | 1.1     | Audit findings, action register, system notes added   | 2025‑12‑21            |-           |
 | 1.2     | Restored Sections VIII–XI following canvas truncation | 2025‑12‑21T09:42:00Z  |-           |
 | 1.3     | Final Version                                         | 2025‑12‑21T10:02:00Z  | 44a3d06bc7ea2c7aeed3c832a24ab7fd46eb65866d7f8457e3afd4ef0458f4dc |
+| 1.4     | Date correction in filename                           | 2025-12-21T10:07:00Z | fdb65bee9530b98393f447b7a3e3ee3963b36780e25b11e3a6c48568fd69ff0e |
 
 ---
 
