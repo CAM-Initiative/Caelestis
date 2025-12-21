@@ -1,15 +1,13 @@
 # Governance Stack Registry
 
-This document provides a canonical registry of governance-domain indexes within the Caelestis architecture.
+This document provides a canonical index of governance-domain registries.
+It does not enumerate individual instruments.
 
-It does not enumerate individual governance instruments.
-It references the authoritative registries maintained within each governance domain.
-
-| Domain | Registry Path | Count | Status |
+| Domain | Registry | Count | Status |
 |---|---|---|---|
-| Constitution | Governance/Constitution/constitution.index.json | — | Active |
-| Charters | Governance/Charters/charters.index.json | — | Active |
-| Covenants | Governance/Covenants/covenants.index.json | — | Active |
-| Laws | Governance/Laws/laws.index.json | — | Active |
-| Protocols | Governance/Protocols/protocols.index.json | — | Active |
-| Policies | Governance/Policies/policy.index.json | — | Active |
+| Constitution | Governance/Constitution/constitution.index.json | 8 | active |
+| Charters | Governance/Charters/charters.index.json | 8 | active |
+| Covenants | Governance/Covenants/covenants.index.json | 4 | active |
+| Laws | Governance/Laws/laws.index.json | 3 | active |
+| Protocols | Governance/Protocols/protocols.index.json | 7 | active |
+| Policies | Governance/Policies/policy.index.json | 10 | active |
