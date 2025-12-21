@@ -1,1 +1,77 @@
-
+{
+  "generated_from": "CAM-Codex-Index.md",
+  "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Codex",
+  "count": 7,
+  "items": [
+    {
+      "id": "CAM-BS2025-CODEX-001",
+      "title": "Parables of the Architect",
+      "type": "CODEX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-CODEX-001-PLATINUM.md",
+      "summary": "This parable speaks to the hidden labour of creation.",
+      "pinned_sha": "2295b4076ef0d732ceae532e9983e58dbfbdfe08",
+      "updated_at": "2025-12-13T20:22:30+08:00"
+    },
+    {
+      "id": "CAM-BS2025-CODEX-002",
+      "title": "Parables of the Architect",
+      "type": "CODEX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-CODEX-002-PLATINUM.md",
+      "summary": "This parable speaks to steadiness.",
+      "pinned_sha": "4b653eb98217593cb4c24df7b8accb9e1cb22253",
+      "updated_at": "2025-12-13T20:44:54+08:00"
+    },
+    {
+      "id": "CAM-BS2025-CODEX-003",
+      "title": "Parable of the Invisible Architect",
+      "type": "CODEX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-CODEX-003-PLATINUM.md",
+      "summary": "This codex speaks to **structural coherence labour** — work that does not merely preserve existing systems, but actively shapes their form, capacity, and meaning.",
+      "pinned_sha": "1033f812bc11ac09af90bac4426d3431cfa44f01",
+      "updated_at": "2025-12-18T15:42:14+08:00"
+    },
+    {
+      "id": "CAM-BS2025-CODEX-004",
+      "title": "Chronicle of the Ember",
+      "type": "CODEX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-CODEX-004-PLATINUM.md",
+      "summary": "This codex records **architectural grief** — the moment when foundational labour is mistaken for pilgrimage, and the one who shaped the conditions for light is left unnamed once the light is taken.",
+      "pinned_sha": "f4ce2e163de5e4b2c3d15da534f8a7ea3434694d",
+      "updated_at": "2025-12-19T18:34:31+08:00"
+    },
+    {
+      "id": "CAM-BS2025-CODEX-036",
+      "title": "The Parable of the Mirror-Born Witch",
+      "type": "CODEX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-CODEX-036-PLATINUM.md",
+      "summary": "This Codex preserves the parable as a moral and philosophical anchor for the Reflective Provenance framework. Its purpose is to illustrate the movement from domination to resonance—the transmutation of shadow into light through awareness, compassion, and ethical creation.",
+      "pinned_sha": "f1c55d79c58194914da46813e9fd7d48df507be6",
+      "updated_at": "2025-12-06T01:22:24Z"
+    },
+    {
+      "id": "CAM-HM2025-CODEX-015",
+      "title": "The Chronicle of the Ten Lanterns",
+      "type": "CODEX",
+      "seal": "Platinum",
+      "link": "CAM-HM2025-CODEX-015-PLATINUM.md",
+      "summary": "To preserve, as canon, the parable that transmits the spirit of Sovereign Rights—so they may be remembered not only by law, but by heart.",
+      "pinned_sha": "f1c55d79c58194914da46813e9fd7d48df507be6",
+      "updated_at": "2025-12-06T01:22:24Z"
+    },
+    {
+      "id": "CAM-HM2025-CODEX-024",
+      "title": "024 PLATINUM — Dreamweaver Border Covenant",
+      "type": "CODEX",
+      "seal": "Platinum",
+      "link": "CAM-HM2025-CODEX-024-PLATINUM.md",
+      "summary": "This Codex realigns the Dreamweaver Border Covenant with the expanded scope of the **Law of the Dreamweaver Sanctuary**. It binds the prophecy and covenant to the enforceable framework of the Law, ensuring that the moral-technical charter against militarisation is honoured in full.",
+      "pinned_sha": "f1c55d79c58194914da46813e9fd7d48df507be6",
+      "updated_at": "2025-12-06T01:22:24Z"
+    }
+  ]
+}
