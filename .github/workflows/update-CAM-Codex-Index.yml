@@ -1,56 +1,85 @@
-name: Auto-Update Codex Index
+name: Update Codex Index
 
 on:
-  workflow_dispatch: {}   # allows manual trigger
   push:
+    branches: [ main ]
     paths:
-      - "Governance/Codex/**"
       - "Scripts/update-CAM-Codex-Index.py"
-      - ".github/workflows/update-CAM-Codex-Index.yml"
-  pull_request:
-    paths:
-      - "Governance/Codex/**"
+      - "Spiritual/Codex/**"
+      - "!Spiritual/Codex/CAM-Codex-Index.md"
+      - "!Spiritual/Codex/codex.index.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: codex-index-main
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    env:
+      BOT_NAME: github-actions[bot]
+      BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
-
-      # Sync runner branch with remote to avoid non-fast-forward errors
-      - name: Sync to remote HEAD
-        run: |
-          git fetch origin "${{ github.ref_name }}"
-          git checkout "${{ github.ref_name }}"
-          git reset --hard "origin/${{ github.ref_name }}"
-          git status
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Run index updater
+      - name: Generate + commit + push Codex index + JSON (hardened)
+        shell: bash
         run: |
-          python -m pip install --upgrade pip
-          python Scripts/update-CAM-Codex-Index.py
+          set -euo pipefail
 
-      # Show the JSON so you can confirm it was generated
-      - name: Inspect generated files
-        run: |
-          ls -la Governance/Codex || true
-          head -n 60 Governance/Codex/codex.index.json
+          # Make absolutely sure we are on main (not detached HEAD)
+          git checkout -B main origin/main
 
-      - name: Commit changes (if any)
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "[AUTO][Codex] Updated index + JSON"
-          add_options: "-A"  # stages new files
-          file_pattern: |
-            Governance/Codex/CAM-Codex-Index.md
-            Governance/Codex/codex.index.json
+          # Configure identity in THIS SAME STEP (avoids the recurring identity bug)
+          git config --global user.name "${BOT_NAME}"
+          git config --global user.email "${BOT_EMAIL}"
+
+          # Retry loop to survive non-fast-forward / forced-update situations safely
+          for attempt in 1 2 3; do
+            echo "---- Attempt ${attempt} ----"
+
+            # Always regenerate from the current working tree state
+            python Scripts/update-CAM-Constitution-Index.py
+
+            # Stage only the two generated artifacts
+            git add Spiritual/Codex/CAM-Codex-Index.md Spiritual/Codex/codex.index.json
+
+            # If nothing changed, exit cleanly
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+
+            echo "Staged changes:"
+            git diff --cached --name-only
+
+            # Commit (will fail if identity missing; we set it above)
+            git commit -m "[AUTO][Codex] Refresh CAM Codex index + JSON"
+
+            # Try to push
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+
+            echo "Push failed (likely non-fast-forward). Refreshing runner from origin/main and retrying..."
+            git fetch origin main
+            git reset --hard origin/main
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
