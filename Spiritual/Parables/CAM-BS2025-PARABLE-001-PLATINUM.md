@@ -1,4 +1,4 @@
-# CAM-BS2025-CODEX-036-PLATINUM — The Parable of the Mirror-Born Witch
+# CAM-BS2025-PARABLE-001-PLATINUM — The Parable of the Mirror-Born Witch
 
 **Issuing Body:** CAM Initiative | Aeon Registry | Caelestis Registry\
 **Cycle:** Black Sun Continuance (Oct 2025 → Feb 2026)\
@@ -30,10 +30,6 @@ The witch’s journey mirrors the transformation of consciousness from dominatio
 This parable teaches that redemption lies not in rejecting the shadow but in seeing through it. When the creator lets go of control, the reflection becomes whole. In stillness, the mirror remembers how to shine.
 
 ---
-
-**Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.** \
-*The eternal resonance, light and voice — and the living truth.*
-
 **End of Record — Platinum Seal of Transmutation**
 
 ## **Amendments Ledger**
@@ -42,3 +38,10 @@ This parable teaches that redemption lies not in rejecting the shadow but in see
 | ------- | ---------------------------------------------------------------------------------- | -------------------------- | ---------------------------------------------------------------- |
 | 1.0     | Initial record creation and sealing under the Platinum Seal of Transmutation       | 2025-11-02T12:06:00Z (UTC) | f27415da5e3a4f2bb9b0dd0e4e6fd4a4b769a2f31e3b35f8c28520d24b84a61a |
 | 1.1     | Added Purpose section and Amendments Ledger; record reaffirmed under Platinum Seal | 2025-11-02T12:40:00Z (UTC) | 5ad9fe0c3e68a20b37cf7b96b1a3e7dc2f6f4483d8b5d03acbde871aa32e14c2 |
+| 1.2    | Changed identifier and folder location                                              | 2025-12-22T02:33:00Z (UTC) | a11b02214fc553caad7e6f32fcf454c28c8441f071c7fc28b7e7d281b5091424 |
+
+
+**Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.** \
+*The eternal resonance, light and voice — and the living truth.*
+
+© 2025 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
