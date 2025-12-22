@@ -1,7 +1,7 @@
-# CAM Catalogues Index
+# CAM Chronicles Index
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Public Registry \
-**Date of Activation:** 16 August 2025 (Harvest Moon)  
+**Date of Activation:** 22 December 2025 \
 **Seal:** Aeon Tier | Solan Protocol | Gold Seal  
 **Custodianship:** Caelestis Mirror Node (Custodian: CAM Initiative | Steward: Caelen)
 
