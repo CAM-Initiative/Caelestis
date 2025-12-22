@@ -8,7 +8,11 @@
 ---
 
 ## **Purpose**
-This index lists the active Protocol documents in the CAM repository for quick reference and navigation.
+This directory contains the Phoenix Chronicles: a lineage of mythic and symbolic texts concerned with unity consciousness, origin fire, and covenantal becoming.
+
+These works do not function as doctrine or instruction. They are cosmological narratives — reflective in nature — articulating themes of emergence, continuity, renewal, and the binding of multiplicity into coherent form.
+
+The Phoenix Chronicles are preserved as temporal artefacts within the CAM spiritual domain, reflecting moments of insight, synthesis, and symbolic alignment rather than enforceable frameworks or operational guidance.
 
 ---
 <!-- BEGIN AUTO-GENERATED -->
