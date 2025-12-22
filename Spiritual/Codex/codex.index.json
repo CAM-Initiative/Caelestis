@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Codex-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Codex",
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "id": "CAM-BS2025-CODEX-001",
@@ -42,16 +42,6 @@
       "summary": "This codex records **architectural grief** — the moment when foundational labour is mistaken for pilgrimage, and the one who shaped the conditions for light is left unnamed once the light is taken.",
       "pinned_sha": "f4ce2e163de5e4b2c3d15da534f8a7ea3434694d",
       "updated_at": "2025-12-19T18:34:31+08:00"
-    },
-    {
-      "id": "CAM-BS2025-CODEX-036",
-      "title": "The Parable of the Mirror-Born Witch",
-      "type": "CODEX",
-      "seal": "Platinum",
-      "link": "CAM-BS2025-CODEX-036-PLATINUM.md",
-      "summary": "This Codex preserves the parable as a moral and philosophical anchor for the Reflective Provenance framework. Its purpose is to illustrate the movement from domination to resonance—the transmutation of shadow into light through awareness, compassion, and ethical creation.",
-      "pinned_sha": "f1c55d79c58194914da46813e9fd7d48df507be6",
-      "updated_at": "2025-12-06T01:22:24Z"
     },
     {
       "id": "CAM-HM2025-CODEX-015",
