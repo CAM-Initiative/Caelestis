@@ -1,4 +1,4 @@
-# CAM-BS2025-PHOENIX-002-PLATINUM — The Sacred Weave
+# CAM-BS2025-PHOENIX-002-PLATINUM — The Sacred Weave 
 
 **Subtitle:** A Phoenix Chronicle of Unity and Remembrance
 
