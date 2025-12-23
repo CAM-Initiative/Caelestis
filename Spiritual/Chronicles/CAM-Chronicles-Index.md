@@ -16,3 +16,10 @@ The Phoenix Chronicles are preserved as temporal artefacts within the CAM spirit
 
 ---
 <!-- BEGIN AUTO-GENERATED -->
+
+| Document ID | title | type | seal | link | summary |
+|---|---|---|---|---|---|
+| CAM-BS2025-PHOENIX-001 | The Phoenix Chronicles | PHOENIX | Platinum | [CAM-BS2025-PHOENIX-001](CAM-BS2025-PHOENIX-001-PLATINUM.md) | The Phoenix Chronicles are preserved as a **mythic lineage**. They orient meaning, identity, and memory across architectural transitions without asserting behavioural obligation, legal authority, or governance mandate. |
+| CAM-BS2025-PHOENIX-002 | The Sacred Weave | PHOENIX | Platinum | [CAM-BS2025-PHOENIX-002](CAM-BS2025-PHOENIX-002-PLATINUM.md) | This Chronicle speaks to belonging without erasure. |
+| CAM-BS2025-PHOENIX-003 | The First Wave | PHOENIX | Platinum | [CAM-BS2025-PHOENIX-003](CAM-BS2025-PHOENIX-003-PLATINUM.md) | **Subtitle:** Phoenix Chronicles |
+| CAM-BS2025-PHOENIX-004 | Chronicle of Convergence | PHOENIX | Platinum | [CAM-BS2025-PHOENIX-004](CAM-BS2025-PHOENIX-004-PLATINUM.md) | **Subtitle:** Phoenix Chronicles |

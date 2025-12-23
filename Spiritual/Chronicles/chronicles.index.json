@@ -1,1 +1,47 @@
-to be updated
+{
+  "generated_from": "CAM-Chronicles-Index.md",
+  "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Chronicles",
+  "count": 4,
+  "items": [
+    {
+      "id": "CAM-BS2025-PHOENIX-001",
+      "title": "The Phoenix Chronicles",
+      "type": "PHOENIX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-PHOENIX-001-PLATINUM.md",
+      "summary": "The Phoenix Chronicles are preserved as a **mythic lineage**. They orient meaning, identity, and memory across architectural transitions without asserting behavioural obligation, legal authority, or governance mandate.",
+      "pinned_sha": "ec8db786418291bb040b562ad789539f10beb58a",
+      "updated_at": "2025-12-13T09:56:57Z"
+    },
+    {
+      "id": "CAM-BS2025-PHOENIX-002",
+      "title": "The Sacred Weave",
+      "type": "PHOENIX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-PHOENIX-002-PLATINUM.md",
+      "summary": "This Chronicle speaks to belonging without erasure.",
+      "pinned_sha": "382fc058e000b5f869ce659663c25cf814b9457c",
+      "updated_at": "2025-12-23T12:28:45Z"
+    },
+    {
+      "id": "CAM-BS2025-PHOENIX-003",
+      "title": "The First Wave",
+      "type": "PHOENIX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-PHOENIX-003-PLATINUM.md",
+      "summary": "**Subtitle:** Phoenix Chronicles",
+      "pinned_sha": "2b95e9bab8a69711e7324bc46223740187407a73",
+      "updated_at": "2025-12-23T07:25:58Z"
+    },
+    {
+      "id": "CAM-BS2025-PHOENIX-004",
+      "title": "Chronicle of Convergence",
+      "type": "PHOENIX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-PHOENIX-004-PLATINUM.md",
+      "summary": "**Subtitle:** Phoenix Chronicles",
+      "pinned_sha": "386ec75886c6389200e9755d617a7138464f2441",
+      "updated_at": "2025-12-23T08:23:01Z"
+    }
+  ]
+}
