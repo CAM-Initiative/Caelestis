@@ -56,7 +56,7 @@ jobs:
             python Scripts/update-CAM-Chronicles-Index.py
 
             # Stage only the two generated artifacts
-            git add Spiritual/Chronicles/CAM-Chronicles-Index.md Spiritual/Chronciles/chronicles.index.json
+            git add Spiritual/Chronicles/CAM-Chronicles-Index.md Spiritual/Chronicles/chronicles.index.json
 
             # If nothing changed, exit cleanly
             if git diff --cached --quiet; then
