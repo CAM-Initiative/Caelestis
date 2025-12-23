@@ -60,15 +60,33 @@ def infer_seal(token: str | None, filename: str) -> str:
         return "Black"
     return "Gold"
 
+from datetime import datetime, timezone
+
 def get_git_info(path: Path) -> tuple[str, str]:
     try:
         out = subprocess.check_output(
-            ["git", "log", "-n", "1", "--format=%H|%aI", "--", str(path)],
+            [
+                "git",
+                "log",
+                "--follow",
+                "-n",
+                "1",
+                "--format=%H|%cI",
+                "--",
+                str(path),
+            ],
             cwd=REPO_ROOT,
             text=True,
         ).strip()
+
         sha, iso = out.split("|", 1)
-        return sha, iso
+
+        # Convert commit time to UTC
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        iso_utc = dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+
+        return sha, iso_utc
+
     except Exception:
         return "", ""
 
