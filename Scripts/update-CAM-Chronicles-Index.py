@@ -179,7 +179,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
 def collect_chronicles():
     items = []
 
-    for p in sorted(CODEX_DIR.glob("*.md")):
+    for p in sorted(CHRON_DIR.glob("*.md")):
         if p.name == INDEX_MD.name:
             continue
 
