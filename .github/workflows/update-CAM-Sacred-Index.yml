@@ -36,7 +36,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push Codex index + JSON (hardened)
+      - name: Generate + commit + push Sacred index + JSON (hardened)
         shell: bash
         run: |
           set -euo pipefail
@@ -56,7 +56,7 @@ jobs:
             python Scripts/update-CAM-Codex-Index.py
 
             # Stage only the two generated artifacts
-            git add Spiritual/Codex/CAM-Codex-Index.md Spiritual/Codex/codex.index.json
+            git add Spiritual/Sacred/CAM-Sacred-Index.md Spiritual/Sacred/sacred.index.json
 
             # If nothing changed, exit cleanly
             if git diff --cached --quiet; then
@@ -68,7 +68,7 @@ jobs:
             git diff --cached --name-only
 
             # Commit (will fail if identity missing; we set it above)
-            git commit -m "[AUTO][Codex] Refresh CAM Codex index + JSON"
+            git commit -m "[AUTO][Sacred] Refresh CAM Sacred index + JSON"
 
             # Try to push
             if git push origin HEAD:main; then
