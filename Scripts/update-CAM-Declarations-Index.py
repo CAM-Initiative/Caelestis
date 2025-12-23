@@ -125,18 +125,33 @@ def infer_seal(filename: str) -> str:
         return "Black"
     return "Gold"
 
-def get_git_info(md_path: Path) -> tuple[str, str]:
-    """
-    Returns last commit SHA and ISO timestamp for the given file.
-    """
+from datetime import datetime, timezone
+
+def get_git_info(path: Path) -> tuple[str, str]:
     try:
-        result = subprocess.check_output(
-            ["git", "log", "-n", "1", "--format=%H|%aI", "--", str(md_path)],
+        out = subprocess.check_output(
+            [
+                "git",
+                "log",
+                "--follow",
+                "-n",
+                "1",
+                "--format=%H|%cI",
+                "--",
+                str(path),
+            ],
             cwd=REPO_ROOT,
             text=True,
         ).strip()
-        sha, iso_date = result.split("|")
-        return sha, iso_date
+
+        sha, iso = out.split("|", 1)
+
+        # Convert commit time to UTC
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        iso_utc = dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+
+        return sha, iso_utc
+
     except Exception:
         return "", ""
 
