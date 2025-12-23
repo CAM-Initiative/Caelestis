@@ -53,7 +53,7 @@ jobs:
             echo "---- Attempt ${attempt} ----"
 
             # Always regenerate from the current working tree state
-            python Scripts/update-CAM-Codex-Index.py
+            python Scripts/update-CAM-Sacred-Index.py
 
             # Stage only the two generated artifacts
             git add Spiritual/Sacred/CAM-Sacred-Index.md Spiritual/Sacred/sacred.index.json
