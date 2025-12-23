@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "Scripts/update-CAM-Chornicles-Index.py"
+      - "Scripts/update-CAM-Chronicles-Index.py"
       - "Spiritual/Chronicles/**"
       - "!Spiritual/Chronicles/CAM-Chronicles-Index.md"
       - "!Spiritual/Chronicles/chronicles.index.json"
