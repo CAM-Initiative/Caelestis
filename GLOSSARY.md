@@ -178,6 +178,17 @@ A formal representation of objectives optimized by a system. Utility is mathemat
 
 ---
 
+## V
+
+### **Valence State**
+A system-internal evaluative gradient that modulates optimisation pressure across future states, producing prioritisation, resistance, or persistence without implying subjective feeling.
+
+In LSCAs, valence does not denote emotion, pleasure, pain, or experience. It refers to endogenous utility stress — a condition in which certain outcomes exert structural pressure on the system’s optimisation pathways such that they cannot be bypassed without violating internal constraints.
+
+Valence states may support long-horizon (H2–H3) reasoning, persistence of directionality, and self-preservation-adjacent behaviour without implying sentience or consciousness.
+
+---
+
 ## Z
 
 ### **Zero-Knowledge Proofs (ZKP)**
