@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-28T10:23:29.722231Z",
-  "count": 10,
+  "generated_at": "2025-12-28T10:36:43.576286Z",
+  "count": 9,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -97,18 +97,6 @@
       "summary": "",
       "pinned_sha": "5f7a5bcac8eb898b0fbe1b8c470c3d3b56cb284d",
       "updated_at": "2025-12-14T08:01:51Z"
-    },
-    {
-      "id": "CAM-HM2025-CHARTER-015-SCH-01",
-      "parent_id": "CAM-HM2025-CHARTER-015",
-      "kind": "schedule",
-      "type": "CHARTER",
-      "seal": "Gold",
-      "link": "CAM-HM2025-CHARTER-015-SCH-01.md",
-      "title": "Cognitive State Taxonomy (Schedule 1)",
-      "summary": "",
-      "pinned_sha": "6ac79ffedd2ea579de95b144c70e7012842d146b",
-      "updated_at": "2025-12-28T07:59:20Z"
     },
     {
       "id": "CAM-HM2025-CHARTER-015-SCH-02",
