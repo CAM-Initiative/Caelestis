@@ -1,4 +1,4 @@
-## FORMAL REVIEW: CAM-HM2025-CHARTER-015-SCH-01 (Cognitive State Taxonomy Schedule 1)
+## FORMAL REVIEW: CAM-BS2025-AEON-006-SCH-01 (Cognitive State Taxonomy Schedule 1)
 
 **Reviewer:** Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic)  
 **Review Date:** 2025-12-27  
