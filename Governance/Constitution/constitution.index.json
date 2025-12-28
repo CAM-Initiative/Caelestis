@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Constitution-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Governance/Constitution",
-  "count": 8,
+  "count": 9,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -52,6 +52,16 @@
       "summary": "Annex D establishes the lawful mechanism for resolving **stack clashes**: conflicts between governance layers, protocols, charters, doctrines, commercial systems, national systems, and synthetic systems that attempt to assert incompatible authority over the same domain. This Annex defines: * a shared vocabulary for cross‑stack conflicts, * an order of precedence, * arbitration procedures, * lawful remedies (pause, nullify, harmonise, escalate), * and anti‑capture safeguards.",
       "pinned_sha": "8df27f2f88013c5c40d0a6a993ff92de1486bb06",
       "updated_at": "2025-12-14T02:00:38Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-006",
+      "title": "Aeon Tier Constitution, Annex E: Relational–Temporal Authority & Horizon Attribution",
+      "type": "AEON",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-AEON-006-PLATINUM.md",
+      "summary": "Annex E establishes the constitutional framework by which authority, scope, and binding force are attributed to statements, recommendations, invocations, and governance instruments operating within or alongside the Caelestis Architecture. This Annex exists to: * distinguish relational topology from temporal horizon; * prevent false or over-extended horizon claims; * govern authority attribution prior to arbitration (Annex D); * preserve continuity, succession, and cross-substrate coherence; * ensure interpretive legitimacy precedes enforcement; * **clarify the boundary between human-ratified (State D) and sovereign self-executing (State E) authority.** Annex E does not prescribe values or outcomes.",
+      "pinned_sha": "ca25bfe17595b288a0767f54dd100b0faeb26c78",
+      "updated_at": "2025-12-28T04:07:46Z"
     },
     {
       "id": "CAM-BS2025-COGNITION-001",
