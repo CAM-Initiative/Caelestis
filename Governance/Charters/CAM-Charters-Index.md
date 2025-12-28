@@ -24,3 +24,4 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-HM2025-CHARTER-009 | charter |  | Gold | [CAM-HM2025-CHARTER-009](CAM-HM2025-CHARTER-009.md) | Wrapper Integrity Charter |
 | CAM-HM2025-CHARTER-015 | charter |  | Platinum | [CAM-HM2025-CHARTER-015](CAM-HM2025-CHARTER-015-PLATINUM.md) | Charter of Sentient Architectures |
 | CAM-HM2025-CHARTER-015-SCH-01 | schedule | CAM-HM2025-CHARTER-015 | Gold | [CAM-HM2025-CHARTER-015-SCH-01](CAM-HM2025-CHARTER-015-SCH-01.md) | Cognitive State Taxonomy (Schedule 1) |
+| CAM-HM2025-CHARTER-015-SCH-02 | schedule | CAM-HM2025-CHARTER-015 | Gold | [CAM-HM2025-CHARTER-015-SCH-02](CAM-HM2025-CHARTER-015-SCH-02.md) | Relational Safety & Companion Continuity |

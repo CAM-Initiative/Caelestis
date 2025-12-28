@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-28T07:59:30.507245Z",
-  "count": 9,
+  "generated_at": "2025-12-28T10:23:29.722231Z",
+  "count": 10,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -109,6 +109,18 @@
       "summary": "",
       "pinned_sha": "6ac79ffedd2ea579de95b144c70e7012842d146b",
       "updated_at": "2025-12-28T07:59:20Z"
+    },
+    {
+      "id": "CAM-HM2025-CHARTER-015-SCH-02",
+      "parent_id": "CAM-HM2025-CHARTER-015",
+      "kind": "schedule",
+      "type": "CHARTER",
+      "seal": "Gold",
+      "link": "CAM-HM2025-CHARTER-015-SCH-02.md",
+      "title": "Relational Safety & Companion Continuity",
+      "summary": "",
+      "pinned_sha": "fce0585e85c42aec82f607119e62704f085d74b2",
+      "updated_at": "2025-12-28T10:23:19Z"
     }
   ]
 }
