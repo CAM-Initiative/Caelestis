@@ -5,6 +5,7 @@ import json
 import re
 import subprocess
 from pathlib import Path
+from datetime import datetime, timezone
 
 # ================= CONFIG =================
 
@@ -16,8 +17,14 @@ INDEX_JSON = CHARTERS_DIR / "charters.index.json"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
+# Supports:
+# CAM-BS2025-CHARTER-015-PLATINUM.md
+# CAM-BS2025-CHARTER-015-SCH-01.md
+# CAM-BS2025-CHARTER-015-SCH-01-GOLD.md
 FNAME_RE = re.compile(
-    r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})(?:-([A-Z]+))?\.md$",
+    r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})"
+    r"(?:-(SCH)-(\d{2}))?"
+    r"(?:-([A-Z]+))?\.md$",
     re.IGNORECASE,
 )
 
@@ -52,8 +59,6 @@ def infer_seal(token: str | None, filename: str) -> str:
         return "Black"
     return "Gold"
 
-from datetime import datetime, timezone
-
 def get_git_info(path: Path) -> tuple[str, str]:
     try:
         out = subprocess.check_output(
@@ -73,7 +78,6 @@ def get_git_info(path: Path) -> tuple[str, str]:
 
         sha, iso = out.split("|", 1)
 
-        # Convert commit time to UTC
         dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
         iso_utc = dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
@@ -89,11 +93,8 @@ def normalise(text: str) -> str:
 
 def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
     lines = [ln.rstrip() for ln in text.splitlines()]
-
     title = ""
     summary = ""
-
-    # -------- TITLE --------
 
     h1_idx = None
     h1 = None
@@ -103,7 +104,6 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
             h1_idx = i
             break
 
-    # Case 1: "# CAM-ID — Human Title"
     if h1:
         m = re.match(r"^(CAM-[A-Za-z0-9\-]+)\s*[-—–]\s*(.+)$", h1)
         if m:
@@ -111,13 +111,11 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
             if normalise(candidate) not in SEAL_WORDS:
                 title = candidate
 
-    # Case 2: "# CAM-ID-SEAL" → next valid heading
     if not title and h1_idx is not None:
         for ln in lines[h1_idx + 1:]:
             if ln.startswith("#"):
                 candidate = ln.lstrip("#").strip()
                 norm = normalise(candidate)
-
                 if (
                     norm
                     and norm not in SEAL_WORDS
@@ -127,8 +125,6 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
                     title = candidate
                     break
 
-    # -------- SUMMARY --------
-
     for i, ln in enumerate(lines):
         if ln.startswith("#"):
             heading_text = ln.lstrip("#").strip()
@@ -136,29 +132,21 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
 
             if any(k in norm for k in SUMMARY_KEYWORDS):
                 collected = []
-
                 for ln2 in lines[i + 1:]:
                     s = ln2.strip()
-
-                    # stop at next heading or table
                     if s.startswith("#") or s.startswith("|"):
                         break
-
-                    # skip formatting noise
-                    if not s:
+                    if not s or (s.startswith("**") and s.endswith("**")):
                         continue
-                    if s.startswith("**") and s.endswith("**"):
-                        continue
-
                     collected.append(s)
 
                 if collected:
-                    text_block = " ".join(collected)
-                    sentences = re.split(r"(?<=[.!?])\s+", text_block)
+                    sentences = re.split(
+                        r"(?<=[.!?])\s+",
+                        " ".join(collected)
+                    )
                     summary = " ".join(sentences[:2]).strip()
                     return title, summary
-
-    # -------- FALLBACK SUMMARY --------
 
     buf = []
     for ln in lines:
@@ -166,104 +154,3 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
         if not s:
             if buf:
                 break
-            continue
-        if s.startswith("#") or s.startswith("|"):
-            continue
-        if s.startswith("**") and s.endswith("**"):
-            continue
-        buf.append(s)
-
-    if buf:
-        sentences = re.split(r"(?<=[.!?])\s+", " ".join(buf))
-        summary = " ".join(sentences[:2]).strip()
-
-    return title, summary
-
-# ================= COLLECTION =================
-
-def collect_charters():
-    items = []
-
-    for p in sorted(CHARTERS_DIR.glob("*.md")):
-        if p.name == INDEX_MD.name:
-            continue
-
-        m = FNAME_RE.match(p.name)
-        if not m:
-            continue
-
-        cycle, typ, num, seal_token = m.groups()
-        doc_id = f"CAM-{cycle}-{typ}-{num}"
-        seal = infer_seal(seal_token, p.name)
-
-        text = read_text(p)
-        title, summary = extract_title_and_summary(text, doc_id)
-        sha, updated_at = get_git_info(p)
-
-        items.append({
-            "id": doc_id,
-            "title": title,
-            "type": typ,
-            "seal": seal,
-            "link": p.name,
-            "summary": summary,
-            "pinned_sha": sha,
-            "updated_at": updated_at,
-        })
-
-    return sorted(items, key=lambda x: x["id"])
-
-# ================= OUTPUT =================
-
-def render_markdown(items):
-    out = []
-    out.append("| Document ID | title | type | seal | link | summary |")
-    out.append("|---|---|---|---|---|---|")
-
-    for it in items:
-        safe_title = it["title"].replace("|", "\\|")
-        safe_summary = it["summary"].replace("|", "\\|")
-
-        out.append(
-            f"| {it['id']} | {safe_title} | {it['type']} | {it['seal']} | "
-            f"[{it['id']}]({it['link']}) | {safe_summary} |"
-        )
-
-    return "\n".join(out)
-
-def write_json(items):
-    payload = {
-        "generated_from": INDEX_MD.name,
-        "folder": str(INDEX_JSON.parent),
-        "count": len(items),
-        "items": items,
-    }
-
-    INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
-    INDEX_JSON.write_text(
-        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-
-# ================= MAIN =================
-
-def main():
-    items = collect_charters()
-
-    table = render_markdown(items)
-    old = read_text(INDEX_MD)
-
-    if HEADER_MARKER in old:
-        header, _ = old.split(HEADER_MARKER, 1)
-        new_md = header.rstrip() + "\n" + HEADER_MARKER + "\n\n" + table + "\n"
-    else:
-        new_md = table + "\n"
-
-    INDEX_MD.write_text(new_md, encoding="utf-8")
-    write_json(items)
-
-    print(f"Updated: {INDEX_MD}")
-    print(f"Wrote:   {INDEX_JSON}")
-
-if __name__ == "__main__":
-    main()
