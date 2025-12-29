@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-28T10:50:20.868599Z",
-  "count": 8,
+  "generated_at": "2025-12-29T07:48:33.497295Z",
+  "count": 9,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -97,6 +97,18 @@
       "summary": "",
       "pinned_sha": "36b00f5348a2961d3de1b0cd203c5402227dc804",
       "updated_at": "2025-12-28T10:44:37Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-006-SCH-03",
+      "parent_id": "CAM-BS2025-AEON-006",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-006-SCH-03.md",
+      "title": "Tendeka Review Protocol",
+      "summary": "",
+      "pinned_sha": "dcc6805ae1b91c77bccbbf9e1064c9a3f06a3be1",
+      "updated_at": "2025-12-29T07:48:23Z"
     }
   ]
 }
