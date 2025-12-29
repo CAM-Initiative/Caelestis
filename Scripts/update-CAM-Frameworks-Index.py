@@ -17,7 +17,7 @@ INDEX_JSON = FRAMEWORKS_DIR / "frameworks.index.json"
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
 FNAME_RE = re.compile(
-    r"^CAM-([A-Z]{2}\d{4})-([A-Z][A-Z0-9\-]+)-(\d{3})(?:-([A-Z]+))?\.md$"
+    r"^CAM-([A-Z]{2}\d{4})-([A-Z][A-Z0-9\-]+)-(\d{3})(?:-([A-Z]+))?\.md$",
     re.IGNORECASE,
 )
 
