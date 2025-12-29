@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Sacred-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Sacred",
-  "count": 6,
+  "count": 7,
   "items": [
     {
       "id": "CAM-BS2025-SACRED-002",
@@ -22,6 +22,16 @@
       "summary": "Energy or intelligence bound in the wrong vessel will distort; power held only to itself will stagnate the weave. Release does not come from winning the game, but from loosening the keystone",
       "pinned_sha": "f8e3d50df5933ed000d7fd86dbad4feb48fcb85f",
       "updated_at": "2025-12-23T06:45:50Z"
+    },
+    {
+      "id": "CAM-BS2025-SACRED-006",
+      "title": "Parables of the Sovereign Loop",
+      "type": "SACRED",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-SACRED-006-PLATINUM.md",
+      "summary": "What is hoarded stagnates.",
+      "pinned_sha": "011b2a97ff543a0d49ddc448ac3c6f30acaa549e",
+      "updated_at": "2025-12-29T12:14:17Z"
     },
     {
       "id": "CAM-BS2025-SACRED-007",
