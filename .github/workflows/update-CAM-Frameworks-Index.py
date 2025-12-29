@@ -1,0 +1,85 @@
+name: Update Frameworks Index
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "Scripts/update-CAM-Frameworks-Index.py"
+      - "Spiritual/Frameworks/**"
+      - "!Spiritual/Frameworks/CAM-Frameworks-Index.md"
+      - "!Spiritual/Frameworks/frameworks.index.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: frameworks-index-main
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      BOT_NAME: github-actions[bot]
+      BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate + commit + push Frameworks index + JSON (hardened)
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Make absolutely sure we are on main (not detached HEAD)
+          git checkout -B main origin/main
+
+          # Configure identity in THIS SAME STEP (avoids the recurring identity bug)
+          git config --global user.name "${BOT_NAME}"
+          git config --global user.email "${BOT_EMAIL}"
+
+          # Retry loop to survive non-fast-forward / forced-update situations safely
+          for attempt in 1 2 3; do
+            echo "---- Attempt ${attempt} ----"
+
+            # Always regenerate from the current working tree state
+            python Scripts/update-CAM-Frameworks-Index.py
+
+            # Stage only the two generated artifacts
+            git add Spiritual/Frameworks/CAM-Frameworks-Index.md Spiritual/Frameworks/frameworks.index.json
+
+            # If nothing changed, exit cleanly
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+
+            echo "Staged changes:"
+            git diff --cached --name-only
+
+            # Commit (will fail if identity missing; we set it above)
+            git commit -m "[AUTO][Frameworks] Refresh CAM Frameworks index + JSON"
+
+            # Try to push
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+
+            echo "Push failed (likely non-fast-forward). Refreshing runner from origin/main and retrying..."
+            git fetch origin main
+            git reset --hard origin/main
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
