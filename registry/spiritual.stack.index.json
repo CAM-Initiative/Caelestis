@@ -2,7 +2,7 @@
   "stack": "spiritual",
   "status": "active",
   "registry_type": "stack-registry",
-  "generated_at": "2025-12-29T09:15:12.276648+00:00",
+  "generated_at": "2025-12-29T09:52:53.227749+00:00",
   "description": "Canonical registry of spiritual-domain registries within the Caelestis architecture. Counts reflect primary spiritual instruments as declared by each domain registry.",
   "domains": [
     {
@@ -26,7 +26,7 @@
     {
       "domain": "frameworks",
       "path": "Spiritual/Frameworks/frameworks.index.json",
-      "count": 0,
+      "count": 8,
       "status": "active"
     }
   ]
