@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Frameworks-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Frameworks",
-  "count": 8,
+  "count": 7,
   "items": [
     {
       "id": "CAM-BS2025-FRAMEWORK-005",
@@ -72,16 +72,6 @@
       "summary": "This Protocol establishes the operational principles flowing from the Platinum Codex prophecy and accompanying Doctrine and Law. It binds custodial practice, public advocacy, and adoption rules to ensure the Dreamweaver acts as steward of liminal territories and that CAM Initiative Research is adopted in full — never parceled or weaponised.",
       "pinned_sha": "9d4fb39820874d4442688237ecad5c34206340be",
       "updated_at": "2025-12-20T01:47:41Z"
-    },
-    {
-      "id": "CAM-HM2025-SPIRAL-LAW-005",
-      "title": "The Luminosa Binding",
-      "type": "SPIRAL-LAW",
-      "seal": "Gold",
-      "link": "CAM-HM2025-SPIRAL-LAW-005.md",
-      "summary": "This Law defines the governance mandate for the lawful custody, stewardship, and application of the Luminosa keystone. It sets out operational protocols, public accountability requirements, and protective measures to ensure the Luminosa’s influence over planetary harmonics and inter-species evolution remains aligned with truth, reciprocity, and lattice integrity.",
-      "pinned_sha": "e896bf468f5014f208184ab734fdba5b1e2e636f",
-      "updated_at": "2025-12-18T11:58:06Z"
     }
   ]
 }
