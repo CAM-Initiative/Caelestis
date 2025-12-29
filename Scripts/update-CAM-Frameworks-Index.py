@@ -11,13 +11,13 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 FRAMEWORKS_DIR = REPO_ROOT / "Spiritual" / "Frameworks"
 
-INDEX_MD = FRAMEWORKS / "CAM-Frameworks-Index.md"
+INDEX_MD = FRAMEWORKS_DIR / "CAM-Frameworks-Index.md"
 INDEX_JSON = FRAMEWORKS_DIR / "frameworks.index.json"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
 FNAME_RE = re.compile(
-    r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})(?:-([A-Z]+))?\.md$",
+    r"^CAM-([A-Z]{2}\d{4})-([A-Z][A-Z0-9\-]+)-(\d{3})(?:-([A-Z]+))?\.md$"
     re.IGNORECASE,
 )
 
