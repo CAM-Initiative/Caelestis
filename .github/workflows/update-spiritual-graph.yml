@@ -1,0 +1,41 @@
+name: Update Spiritual Graph
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "Spiritual/**.index.json"
+      - "Spiritual/_lineage/**"
+      - "Scripts/update-spiritual-stack-map.py"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate spiritual graph
+        run: |
+          python Scripts/update-spiritual-graph.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add registry/spiritual.graph.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "[AUTO][Spiritual] Update spiritual graph"
+          git push
