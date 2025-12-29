@@ -6,7 +6,7 @@ on:
     paths:
       - "Spiritual/**.index.json"
       - "Spiritual/_lineage/**"
-      - "Scripts/update-spiritual-graph.py"
+      - "Scripts/update-spiritual-map.py"
 
 permissions:
   contents: write
