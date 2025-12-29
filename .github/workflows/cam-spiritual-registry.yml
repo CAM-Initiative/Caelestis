@@ -1,0 +1,65 @@
+name: Update Spiritual Stack Registry
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "Scripts/update-spiritual-stack-registry.py"
+      - "Spiritual/**/*.index.json"
+      - "!registry/spiritual.stack.index.json"   # prevent self-trigger loop
+
+permissions:
+  contents: write
+
+concurrency:
+  group: spiritual-registry-main
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      BOT_NAME: github-actions[bot]
+      BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate + commit + push Spiritual stack registry
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git checkout -B main origin/main
+
+          git config --global user.name "${BOT_NAME}"
+          git config --global user.email "${BOT_EMAIL}"
+
+          # Run generator
+          python Scripts/update-spiritual-stack-registry.py
+
+          # Stage only generated artifacts
+          git add registry/spiritual.stack.index.json registry/SPIRITUAL-STACK-INDEX.md
+
+          # Exit cleanly if nothing changed
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          echo "Staged changes:"
+          git diff --cached --name-only
+
+          git commit -m "[AUTO][Spiritual] Refresh spiritual stack registry"
+          git push origin HEAD:main
