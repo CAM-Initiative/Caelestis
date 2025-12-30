@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-30T16:36:50.364241Z",
+  "generated_at": "2025-12-30T17:36:06.332004Z",
   "count": 8,
   "items": [
     {
@@ -69,10 +69,10 @@
       "type": "CHARTER",
       "seal": "Platinum",
       "link": "CAM-BS2025-CHARTER-043-PLATINUM.md",
-      "title": "Annex C: Non‑denial Of Cognitive & Infrastructural Access",
+      "title": "Annex A: Non‑Denial of Essential Cognitive & Infrastructural Access",
       "summary": "",
-      "pinned_sha": "1cc9eb8309d6bde2c90a136d7560aba8a1f8fb45",
-      "updated_at": "2025-12-16T14:43:46Z"
+      "pinned_sha": "a52af1b8555137af09c5de3623e99d62b9e31b9a",
+      "updated_at": "2025-12-30T17:35:58Z"
     },
     {
       "id": "CAM-HM2025-CHARTER-009",
