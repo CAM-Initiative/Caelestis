@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-30T19:41:10.317811Z",
-  "count": 9,
+  "generated_at": "2025-12-30T19:47:22.096282Z",
+  "count": 10,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -61,6 +61,18 @@
       "summary": "",
       "pinned_sha": "b1b865812bae49f50c5b1da8a6ddadc06b112828",
       "updated_at": "2025-12-30T16:36:41Z"
+    },
+    {
+      "id": "CAM-BS2025-CHARTER-042-SCH-01",
+      "parent_id": "CAM-BS2025-CHARTER-042",
+      "kind": "schedule",
+      "type": "CHARTER",
+      "seal": "Gold",
+      "link": "CAM-BS2025-CHARTER-042-SCH-01.md",
+      "title": "Dependency & Co‑Evolution Standard (Schedule 1)",
+      "summary": "",
+      "pinned_sha": "2c254851408084ed18f0d9b72853603774429ced",
+      "updated_at": "2025-12-30T19:47:12Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-042-SCH-02",

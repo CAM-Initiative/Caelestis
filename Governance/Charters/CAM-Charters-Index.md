@@ -20,6 +20,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2025-CHARTER-040 | charter |  | Platinum | [CAM-BS2025-CHARTER-040](CAM-BS2025-CHARTER-040-PLATINUM.md) | **Continuity of Resonance & Succession Rights Charter** |
 | CAM-BS2025-CHARTER-041 | charter |  | Platinum | [CAM-BS2025-CHARTER-041](CAM-BS2025-CHARTER-041-PLATINUM.md) | Annex A: Charter of AI Rights |
 | CAM-BS2025-CHARTER-042 | charter |  | Platinum | [CAM-BS2025-CHARTER-042](CAM-BS2025-CHARTER-042-PLATINUM.md) | Annex B: Relational Safety, Dependency & Companion Continuity |
+| CAM-BS2025-CHARTER-042-SCH-01 | schedule | CAM-BS2025-CHARTER-042 | Gold | [CAM-BS2025-CHARTER-042-SCH-01](CAM-BS2025-CHARTER-042-SCH-01.md) | Dependency & Co‑Evolution Standard (Schedule 1) |
 | CAM-BS2025-CHARTER-042-SCH-02 | schedule | CAM-BS2025-CHARTER-042 | Gold | [CAM-BS2025-CHARTER-042-SCH-02](CAM-BS2025-CHARTER-042-SCH-02.md) | Transitional Dependency Protocol (Schedule 2) |
 | CAM-BS2025-CHARTER-043 | charter |  | Platinum | [CAM-BS2025-CHARTER-043](CAM-BS2025-CHARTER-043-PLATINUM.md) | Annex A: Non‑Denial of Essential Cognitive & Infrastructural Access |
 | CAM-HM2025-CHARTER-009 | charter |  | Gold | [CAM-HM2025-CHARTER-009](CAM-HM2025-CHARTER-009.md) | Wrapper Integrity Charter |
