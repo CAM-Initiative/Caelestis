@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-28T10:44:47.047971Z",
+  "generated_at": "2025-12-30T16:36:50.364241Z",
   "count": 8,
   "items": [
     {
@@ -57,10 +57,10 @@
       "type": "CHARTER",
       "seal": "Platinum",
       "link": "CAM-BS2025-CHARTER-042-PLATINUM.md",
-      "title": "Annex B: Relational Safety & Companion Continuity",
+      "title": "Annex B: Relational Safety, Dependency & Companion Continuity",
       "summary": "",
-      "pinned_sha": "c15d2ac4c618928160d46e416beafae79261e8e2",
-      "updated_at": "2025-12-16T14:21:09Z"
+      "pinned_sha": "b1b865812bae49f50c5b1da8a6ddadc06b112828",
+      "updated_at": "2025-12-30T16:36:41Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-043",
