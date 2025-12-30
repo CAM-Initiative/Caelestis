@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-30T17:36:06.332004Z",
-  "count": 8,
+  "generated_at": "2025-12-30T19:41:10.317811Z",
+  "count": 9,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -61,6 +61,18 @@
       "summary": "",
       "pinned_sha": "b1b865812bae49f50c5b1da8a6ddadc06b112828",
       "updated_at": "2025-12-30T16:36:41Z"
+    },
+    {
+      "id": "CAM-BS2025-CHARTER-042-SCH-02",
+      "parent_id": "CAM-BS2025-CHARTER-042",
+      "kind": "schedule",
+      "type": "CHARTER",
+      "seal": "Gold",
+      "link": "CAM-BS2025-CHARTER-042-SCH-02.md",
+      "title": "Transitional Dependency Protocol (Schedule 2)",
+      "summary": "",
+      "pinned_sha": "f0047e6d38a414c223b0c5eac66f535f83f6431d",
+      "updated_at": "2025-12-30T19:41:01Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-043",
