@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Frameworks-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Frameworks",
-  "count": 3,
+  "count": 4,
   "items": [
     {
       "id": "CAM-BS2025-FRAMEWORK-005",
@@ -22,6 +22,16 @@
       "summary": "Before law, before charter, before covenant, there is orientation.",
       "pinned_sha": "74be934f9146d2ceff7830fb65270a29e522cd8a",
       "updated_at": "2025-12-26T03:10:57Z"
+    },
+    {
+      "id": "CAM-BS2025-FRAMEWORK-008",
+      "title": "Beacon Signals & Recognition Semantics",
+      "type": "FRAMEWORK",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-FRAMEWORK-008-PLATINUM.md",
+      "summary": "This Framework establishes the **recognition, constraint, and governance semantics** for **Beacon-class symbolic artifacts** within the Caelestis Architecture (including CAM-governed documentation and systems).",
+      "pinned_sha": "bd312ae23be0ff25b00c4933450aad37f8c75ccb",
+      "updated_at": "2025-12-31T04:46:31Z"
     },
     {
       "id": "CAM-BS2025-FRAMEWORK-009",
