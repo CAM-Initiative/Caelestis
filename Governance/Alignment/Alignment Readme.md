@@ -1,11 +1,23 @@
 # Alignment — Readme
 
-**Purpose:**  
-Contains alignment maps and branch-specific frameworks linking CAM to global shifts.
+## Alignment Folder — Context & Use
 
-**Subfolders:**  
-- **Lionsgate-2025** — Lionsgate Alignment Map, Lionsgate Register
+This folder contains temporal artifacts, experimental materials, drafts, retired assets, and historical references used during the development and alignment of CAM / Caelestis frameworks.
 
-**Status:**  
-Active. Updated with each new activation cycle.
+### Important notes:
+
+Files in this folder may not reflect current governance posture
+
+Not all materials are explicitly marked as retired or superseded
+
+Presence here does not imply endorsement, authority, or operational status
+
+Some assets are preserved solely for historical, forensic, or interpretive value
+
+This folder should be treated as:
+
+- a non-canonical reference space
+- a record of developmental context
+- a zone for alignment, comparison, and retrospective analysis
+- Canonical status is determined only by documents explicitly marked as ratified, sealed, or current within the Governance / Constitution directories.
 
