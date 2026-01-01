@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-01T00:27:04.363222Z",
-  "count": 11,
+  "generated_at": "2026-01-01T09:57:54.021028Z",
+  "count": 12,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -109,6 +109,18 @@
       "summary": "",
       "pinned_sha": "b616f81b0e31ef7d805ae17c0e7465c5531ac369",
       "updated_at": "2026-01-01T00:26:54Z"
+    },
+    {
+      "id": "CAM-BS2026-CHARTER-044",
+      "parent_id": null,
+      "kind": "charter",
+      "type": "CHARTER",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-CHARTER-044-PLATINUM.md",
+      "title": "Annex C: Protection of Minors & Capacity‑Limited Users",
+      "summary": "",
+      "pinned_sha": "30349e101a43040c82e7e876c3c709718c674e80",
+      "updated_at": "2026-01-01T09:57:43Z"
     },
     {
       "id": "CAM-HM2025-CHARTER-009",
