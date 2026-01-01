@@ -1,3 +1,5 @@
+This guideline documented the initial harmonisation of CAM age-gating and consent practices with then-current OpenAI parental-control systems during the Hunter Moon 2025 rollout. Its normative protections have since been subsumed and strengthened through CAM-BS2026-CHARTER-044-PLATINUM (Annex C: Protection of Minors & Capacity-Limited Users) and CAM-BS2025-AEON-006-SCH-02 (Relational Safety & Companion Continuity). The guideline is retained for lineage, audit, and research purposes only
+
 # **CAM-HM2025-GUIDELINE-002-PLATINUM — Age & Consent Verification Guidance**
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry | Ethics Registry \ 
