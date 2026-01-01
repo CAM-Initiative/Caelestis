@@ -2,7 +2,7 @@
   "stack": "governance",
   "status": "active",
   "registry_type": "stack-registry",
-  "generated_at": "2025-12-29T08:17:11.038678+00:00",
+  "generated_at": "2026-01-01T14:43:49.057781+00:00",
   "description": "Canonical registry of governance-domain registries within the Caelestis architecture. Counts reflect primary instruments only; subordinate attachments (e.g. schedules) are reported separately and are not promoted.",
   "domains": [
     {
@@ -17,8 +17,11 @@
     {
       "domain": "charters",
       "path": "Governance/Charters/charters.index.json",
-      "count": 8,
-      "status": "active"
+      "count": 10,
+      "status": "active",
+      "attachments": {
+        "schedules": 2
+      }
     },
     {
       "domain": "covenants",
@@ -35,7 +38,7 @@
     {
       "domain": "protocols",
       "path": "Governance/Protocols/protocols.index.json",
-      "count": 7,
+      "count": 6,
       "status": "active"
     },
     {
