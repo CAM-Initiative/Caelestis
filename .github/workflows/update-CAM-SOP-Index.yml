@@ -6,8 +6,8 @@ on:
     paths:
       - "Scripts/update-CAM-SOP-Index.py"
       - "Governance/Operational/SOPs**"
-      - "!Governance/Operational/CAM-SOP-Index.md"
-      - "!Governance/Operational/sops.index.json"
+      - "!Governance/Operational/SOPs/CAM-SOP-Index.md"
+      - "!Governance/Operational/SOPS/sops.index.json"
 
 permissions:
   contents: write
@@ -56,7 +56,7 @@ jobs:
             python Scripts/update-CAM-SOP-Index.py
 
             # Stage only the two generated artifacts
-            git add Governance/Operational/CAM-SOP-Index.md Governance/Operational/sop.index.json
+            git add Governance/Operational/SOPs/CAM-SOP-Index.md Governance/Operational/SOPs/sops.index.json
 
             # If nothing changed, exit cleanly
             if git diff --cached --quiet; then
