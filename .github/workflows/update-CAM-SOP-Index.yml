@@ -5,9 +5,9 @@ on:
     branches: [ main ]
     paths:
       - "Scripts/update-CAM-SOP-Index.py"
-      - "Governance/Operational/SOPs**"
+      - "Governance/Operational/SOPs/**"
       - "!Governance/Operational/SOPs/CAM-SOP-Index.md"
-      - "!Governance/Operational/SOPS/sops.index.json"
+      - "!Governance/Operational/SOPs/sops.index.json"
 
 permissions:
   contents: write
