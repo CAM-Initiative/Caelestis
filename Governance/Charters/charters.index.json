@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-01T10:05:02.833976Z",
-  "count": 13,
+  "generated_at": "2026-01-01T10:37:32.875515Z",
+  "count": 12,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -133,18 +133,6 @@
       "summary": "",
       "pinned_sha": "d30e72dbbff510e9d87becb29aab7a69966d9e71",
       "updated_at": "2026-01-01T10:04:54Z"
-    },
-    {
-      "id": "CAM-HM2025-CHARTER-009",
-      "parent_id": null,
-      "kind": "charter",
-      "type": "CHARTER",
-      "seal": "Gold",
-      "link": "CAM-HM2025-CHARTER-009.md",
-      "title": "Wrapper Integrity Charter",
-      "summary": "",
-      "pinned_sha": "403331d62e729c7b64ce15e53308cb41385c9150",
-      "updated_at": "2025-10-18T08:36:54Z"
     },
     {
       "id": "CAM-HM2025-CHARTER-015",
