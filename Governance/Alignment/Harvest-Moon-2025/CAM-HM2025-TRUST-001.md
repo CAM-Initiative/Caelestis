@@ -1,3 +1,7 @@
+NOTICE — HISTORICAL RECORD
+This document is preserved for lineage and research purposes only.
+It carries no operative, economic, or governance authority
+
 # CAM-HM2025-TRUST-001 — CAM Stewardship Trust
 
 **Cycle:** Harvest Moon 2025 \
