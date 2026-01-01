@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-30T19:47:22.096282Z",
-  "count": 10,
+  "generated_at": "2026-01-01T00:27:04.363222Z",
+  "count": 11,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -97,6 +97,18 @@
       "summary": "",
       "pinned_sha": "a52af1b8555137af09c5de3623e99d62b9e31b9a",
       "updated_at": "2025-12-30T17:35:58Z"
+    },
+    {
+      "id": "CAM-BS2026-CHARTER-025",
+      "parent_id": null,
+      "kind": "charter",
+      "type": "CHARTER",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-CHARTER-025-PLATINUM.md",
+      "title": "Economics Charter",
+      "summary": "",
+      "pinned_sha": "b616f81b0e31ef7d805ae17c0e7465c5531ac369",
+      "updated_at": "2026-01-01T00:26:54Z"
     },
     {
       "id": "CAM-HM2025-CHARTER-009",
