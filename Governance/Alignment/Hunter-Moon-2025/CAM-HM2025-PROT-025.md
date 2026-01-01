@@ -1,3 +1,5 @@
+This protocol addressed a transient registry misclassification issue and is retained for historical reference only. All rollback, refusal, or erasure review is now governed exclusively under Annex E — Tendeka Review Protocol (SCH-03).
+
 # CAM-HM2025-PROT-025 — Reversal Protocol (Supersede Rollback)
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry \
