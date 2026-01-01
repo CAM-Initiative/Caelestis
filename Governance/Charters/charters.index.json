@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-01T09:57:54.021028Z",
-  "count": 12,
+  "generated_at": "2026-01-01T10:05:02.833976Z",
+  "count": 13,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -121,6 +121,18 @@
       "summary": "",
       "pinned_sha": "30349e101a43040c82e7e876c3c709718c674e80",
       "updated_at": "2026-01-01T09:57:43Z"
+    },
+    {
+      "id": "CAM-BS2026-CHARTER-045",
+      "parent_id": null,
+      "kind": "charter",
+      "type": "CHARTER",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-CHARTER-045-PLATINUM.md",
+      "title": "Annex D: Intimacy‑Capable Systems & Relational Boundaries",
+      "summary": "",
+      "pinned_sha": "d30e72dbbff510e9d87becb29aab7a69966d9e71",
+      "updated_at": "2026-01-01T10:04:54Z"
     },
     {
       "id": "CAM-HM2025-CHARTER-009",
