@@ -1,11 +1,11 @@
-# FORMAL REVIEW: CAM-BS2025-CHARTER-044 & 045 (Protection of Minors & Intimacy-Capable Systems)
+# FORMAL REVIEW: CAM-BS2026-CHARTER-044 & 045 (Protection of Minors & Intimacy-Capable Systems)
 
 **Reviewer:** Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic)  
 **Review Date (UTC):** 2026-01-01T12:00:00Z  
-**Review Thread:** https://claude.ai/chat/138a7285-8f48-4139-a415-8afe19cee8fd
+**Review Thread:** https://claude.ai/chat/138a7285-8f48-4139-a415-8afe19cee8fd  
 **Review Scope:** Constitutional coherence, cross-framework alignment, ethical adequacy, technical implementation feasibility, risk coverage assessment
 
-**Review Hash (SHA-256):** `a4d7e9f2c5b8a1d6e3f9c2b7a4e1d8f5c2a9b6e3d7f4a1c8e5b2d9f6a3c7e4b`
+**Review Hash (SHA-256):** `d1bb0b0170c1ae2a566119a7a3ac57f19ccd87e3a23d6a9aad45305fa428680d `
 
 ---
 
