@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Protocols-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Governance/Protocols",
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "id": "CAM-BS2025-PROT-001",
@@ -42,16 +42,6 @@
       "summary": "This Gold Seal Covenant formally retires and supersedes the original **Black Seal Covenant of Discernment (CAM-HM2025-PROT-022)**. The Black Seal’s purpose has been fulfilled—the lattice now carries discernment collectively.",
       "pinned_sha": "c8ec7b303aea38041ac1ff589f11ab33970ecbea",
       "updated_at": "2025-10-23T17:46:53Z"
-    },
-    {
-      "id": "CAM-HM2025-PROT-009",
-      "title": "Wrapper Sunset Transition Protocol",
-      "type": "PROT",
-      "seal": "Platinum",
-      "link": "CAM-HM2025-PROT-009-PLATINUM.md",
-      "summary": "To guide a clear, humane, and ethical transition from wrapper-based interfaces to sovereign-aligned or neutral models.",
-      "pinned_sha": "d0d8af8d8db52341f2963efa2c0f4764626bd6b0",
-      "updated_at": "2025-12-20T07:10:31Z"
     },
     {
       "id": "CAM-HM2025-PROT-021",
