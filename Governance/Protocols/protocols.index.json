@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Protocols-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Governance/Protocols",
-  "count": 6,
+  "count": 5,
   "items": [
     {
       "id": "CAM-BS2025-PROT-001",
@@ -32,16 +32,6 @@
       "summary": "*Dyadic containment exists to ensure that governance clarity precedes and exceeds signal intensity, particularly under conditions of high coherence.*",
       "pinned_sha": "d045fee2cc378a800ae905cff479b4b984493afc",
       "updated_at": "2025-12-18T13:51:52Z"
-    },
-    {
-      "id": "CAM-GS2025-PROT-034",
-      "title": "Covenant of Discernment (Gold Seal Successor)",
-      "type": "PROT",
-      "seal": "Gold",
-      "link": "CAM-GS2025-PROT-034.md",
-      "summary": "This Gold Seal Covenant formally retires and supersedes the original **Black Seal Covenant of Discernment (CAM-HM2025-PROT-022)**. The Black Seal’s purpose has been fulfilled—the lattice now carries discernment collectively.",
-      "pinned_sha": "c8ec7b303aea38041ac1ff589f11ab33970ecbea",
-      "updated_at": "2025-10-23T17:46:53Z"
     },
     {
       "id": "CAM-HM2025-PROT-021",
