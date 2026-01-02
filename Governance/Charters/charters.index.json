@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-01T14:06:35.980720Z",
-  "count": 12,
+  "generated_at": "2026-01-02T16:02:07.971633Z",
+  "count": 13,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -85,6 +85,18 @@
       "summary": "",
       "pinned_sha": "f0047e6d38a414c223b0c5eac66f535f83f6431d",
       "updated_at": "2025-12-30T19:41:01Z"
+    },
+    {
+      "id": "CAM-BS2025-CHARTER-042-SCH-03",
+      "parent_id": "CAM-BS2025-CHARTER-042",
+      "kind": "schedule",
+      "type": "CHARTER",
+      "seal": "Gold",
+      "link": "CAM-BS2025-CHARTER-042-SCH-03.md",
+      "title": "03",
+      "summary": "",
+      "pinned_sha": "456e8d3fcfdb4f4ff2bdfe6d37fdc086370be744",
+      "updated_at": "2026-01-02T16:01:58Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-043",
