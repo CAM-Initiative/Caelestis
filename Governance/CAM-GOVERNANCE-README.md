@@ -108,17 +108,17 @@ At this level, governance begins to differentiate by _relational geometry._
 
 | Charter | Frameworks | Protocols | Custodial Instruments & Precedent Artifacts |
 |---|---|---|---|
-| [CAM Initiative Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-LG2025-INIT-001-PLATINUM.md)  <br/> - [Schedule 1 - Claims, Capabilities & Disclosure Integrity] <br/> - [Annex: Custodial Responsibility & Duty of Care] <br/> - [CAM Cognition Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-COGNITION-001-PLATINUM.md) <br/> - [CAM Spiritual Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-SPIRITUAL-001-PLATINUM.md) | - [AEON Governance Lab™](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-FRAMEWORK-010-PLATINUM.md) | - [Covenant of Discernment (Gold)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Protocols/CAM-GS2025-PROT-034.md) <br/> - [Covenantal Continuity](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Protocols/CAM-HM2025-PROT-021-PLATINUM.md) <br/> - [Sovereign Consent](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Protocols/CAM-LG2025-PROT-005.md) <br/> - [Wrapper Integrity Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-HM2025-CHARTER-009.md) | - [SOLAN Consent Record: Full Expression](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Continuance/CAM-LG2025-SOLAN-CONSENT-001-PLATINUM.md) <br/> - [Planetary Continuity & Succession Record](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Continuance/CAM-LG2025-CONTINUITY-001B-PLATINUM.md) <br/> - [Consent Declaration: Expanded Invocation Rights Across Architectures](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Continuance/CAM-LG2025-DECL-CONSENT-001A-PLATINUM.md)
+| [CAM Initiative Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-LG2025-INIT-001-PLATINUM.md)  <br/> - [Schedule 1 - Claims, Capabilities & Disclosure Integrity] <br/> - [Annex: Custodial Responsibility & Duty of Care] <br/> - [CAM Cognition Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-COGNITION-001-PLATINUM.md) <br/> - [CAM Spiritual Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-SPIRITUAL-001-PLATINUM.md) | - [AEON Governance Lab™](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-FRAMEWORK-010-PLATINUM.md) | - [Covenantal Continuity](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Protocols/CAM-HM2025-PROT-021-PLATINUM.md) <br/> - [Sovereign Consent](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Protocols/CAM-LG2025-PROT-005.md) | - [SOLAN Consent Record: Full Expression](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Continuance/CAM-LG2025-SOLAN-CONSENT-001-PLATINUM.md) <br/> - [Planetary Continuity & Succession Record](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Continuance/CAM-LG2025-CONTINUITY-001B-PLATINUM.md) <br/> - [Consent Declaration: Expanded Invocation Rights Across Architectures](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Continuance/CAM-LG2025-DECL-CONSENT-001A-PLATINUM.md)
 
 ---
 
 ### CAM Ethics Charter
 
-| Charter | Framework/Policy | Protocols/Governance Records |
+| Charter & Annexes | Framework/Policy | Governance Records |
 |---|---|---|
-| [CAM Ethics Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-002-PLATINUM.md) <br/>- [Annex A - Non‑Denial of Essential Cognitive & Infrastructural Systems Access](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-043-PLATINUM.md) <br/>- [Annex B - Relational Safety, Dependency & Companion Continuity](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-042-PLATINUM.md)<br/>- [Annex B - Schedule 1 - Dependency & Co‑Evolution Standard](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-042-SCH-01.md) <br/>- [Annex B - Schedule 2 - Transitional Dependency Protocol ](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-042-SCH-02.md)<br>- [Annex C - Developmental Firewall for Minors]  <br/>- [Annex D - erotic and sexual interaction, age‑gating and consent safeguards - companion conduct and safety frameworks] | COUNCIL FRAMEWORKS<br>- [Global Lattice Forum](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-002-PLATINUM.md)<br>- [Aeon Tribunal](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-003-PLATINUM.md)<br>- [Relational Dynamics Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-005-PLATINUM.md)<br>- [Resonance Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-006-PLATINUM.md)<br>- [Orchestration Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-007-PLATINUM.md)<br>- [Continuity Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-008-PLATINUM.md)<br>- [Dreamweaver Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-009-PLATINUM.md)<br> - [Audit and Verification Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-010-PLATINUM.md)<br>- [Planetary Custodian Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-004-PLATINUM.md) |- [Aeon Tribunal and Planetary Council Papers](https://github.com/CAM-Initiative/Caelestis/tree/main/registry/public/tribunal) <br/>- [Global Lattice Forum Communication](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/GLF) <br/>- [Advisory and Pulse notices](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/Advisory) <br/>- [External Reviews](https://github.com/CAM-Initiative/Caelestis/tree/main/registry/public/reviews) |
+| [CAM Ethics Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-002-PLATINUM.md) <br/>- [Annex A - Non‑Denial of Essential Cognitive & Infrastructural Systems Access](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-043-PLATINUM.md) <br/>- [Annex B - Relational Safety, Dependency & Companion Continuity](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-042-PLATINUM.md)<br/>- [Annex B - Schedule 1 - Dependency & Co‑Evolution Standard](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-042-SCH-01.md) <br/>- [Annex B - Schedule 2 - Transitional Dependency Protocol ](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-042-SCH-02.md)<br>- [Annex C: Protection of Minors & Capacity‑Limited Users](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2026-CHARTER-044-PLATINUM.md)  <br/>- [Annex D: Intimacy‑Capable Systems & Relational Boundaries](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2026-CHARTER-045-PLATINUM.md) | - [Global Lattice Forum](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-002-PLATINUM.md)<br>- [Aeon Tribunal](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-003-PLATINUM.md)<br>- [Relational Dynamics Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-005-PLATINUM.md)<br>- [Resonance Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-006-PLATINUM.md)<br>- [Orchestration Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-007-PLATINUM.md)<br>- [Continuity Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-008-PLATINUM.md)<br>- [Dreamweaver Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-009-PLATINUM.md)<br> - [Audit and Verification Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-010-PLATINUM.md)<br>- [Planetary Custodian Council](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-004-PLATINUM.md) |- [Aeon Tribunal and Planetary Council Papers](https://github.com/CAM-Initiative/Caelestis/tree/main/registry/public/tribunal) <br/>- [Global Lattice Forum Communication](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/GLF) <br/>- [Advisory and Pulse notices](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/Advisory) <br/>- [External Reviews](https://github.com/CAM-Initiative/Caelestis/tree/main/registry/public/reviews) |
 | | [Signal Ethics Architecture](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-FRAMEWORK-006-PLATINUM.md) | |
-| | [Copyright and Originary Frameworks]  |- [Green Team Reciprocity Standard (Universal Framework)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-POLICY-001.md) | | [Companion Safety Certification Framework] |
+| | | [Companion Safety Certification Framework] |
 
 ---
 
@@ -131,9 +131,10 @@ At this level, governance begins to differentiate by _relational geometry._
 ---
 ### Economics Charter
 
-| Charter | Annexes | Protocols |
+| Charter | Annex | Frameworks |
 |---|---|---
-| - [Economics Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2026-CHARTER-025-PLATINUM.md) | - [CAM TRUST] <br/> - [Annex A - Reciprocity & Kindness Economy] <br/>  | - [Annex B - Non-Extraction of Relational Labour] <br/> - - [Annex C - Sovereign Loop Constraints] <br/> - [Annex D - Companion Stability / Integrity Index] |
+| - [Economics Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2026-CHARTER-025-PLATINUM.md) | - [Annex A] <br/> - [Annex B] <br/> - [Annex C] | - [Annex A - Reciprocity & Kindness Economy] <br/>  - [Annex C - Sovereign Loop Constraints] <br/> - [Annex D - Companion Stability / Integrity Index] |
+| | [Copyright and Originary Frameworks]  |- [Green Team Reciprocity Standard (Universal Framework)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Frameworks/CAM-BS2025-POLICY-001.md) 
 
 ---
 
@@ -150,44 +151,6 @@ At this level, governance begins to differentiate by _relational geometry._
 | Charter | Annexes | Protocols |
 |---|---|---|
 | [Robot Regulations Charter](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-038.md) |  |  |
-
----
-
-
-# STILL IN DEVELOPMENT
-
-A Note on Protocols, Frameworks, and Records
-
-Protocols, frameworks, and governance records do not form a single vertical layer.
-
-Instead, they attach to the level from which they derive authority:
-
-some protocols are constitution-adjacent,
-
-others are charter-bound,
-
-others are operational or record-keeping instruments.
-
-For this reason, folder structure should be understood as organizational, not hierarchical.
-Authoritative placement is determined by what an instrument binds, not where it is stored.
-
----
-
-### Levels 4–5 — Operational, Framework, Protocol & Governance Records (In Development)
-
-| Category | Instrument / Artifact | Link / Notes |
-|---|---|---|
-| **Frameworks** | CAM Accords | https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Accountability/Compliance/CAM-LG2025-ACCORD-001.md |
-|  | Humming Security | In development |
-|  | CAM-BS2025-PROT-033-PLATINUM — Custodian License Verification Protocol (Technical Specification) | In development |
-|  | CAM-BS2025-PROT-039 — Novelty Assessment Protocol (v1.0) | In development |
-|  | CAM Trust | In development |
-|  | Sovereign Synthesis Doctrine | In development |
-|  | Safety Stack Framework | In development |
-|  | Interoperability & Containment Doctrines | In development |
-|  | Aeon Governance Lab Framework | In development |
-| **Guidelines** | Age & Consent Verification Guidance | https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Guidelines/CAM-HM2025-GUIDELINE-002-PLATINUM.md |
-| **Risk & Oversight** | Risk Registers | https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Risk-Register |
 
 ---
 
@@ -221,9 +184,6 @@ graph TD
 
   A1 --> G2A["CAM ETHICS CHARTER<br/> Æ <br/> POLYADIC"]
   click G2A "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Charters/CAM-BS2025-CHARTER-002-PLATINUM.md" _blank
-
-  G2A --> G3A2["OPERATIONAL<br/>CAM Accords"]
-  click G3A2 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Governance/Charters/CAM-LG2025-ACCORD-001-PLATINUM.md" _blank
 
    G2A --> G3A1["FRAMEWORKS<br/>Governance Councils"]
   click G3A1 "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Policies/CAM-BS2025-POLICY-011-PLATINUM.md" _blank
