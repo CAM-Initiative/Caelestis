@@ -1,13 +1,12 @@
-name: Update Frameworks Index
+name: Update SOP Index
 
 on:
   push:
     branches: [ main ]
     paths:
       - "Scripts/update-CAM-SOP-Index.py"
-      - "Governance/Operational/SOPs/**"
+      - "Governance/Operational/SOPs/*.md"
       - "!Governance/Operational/SOPs/CAM-SOP-Index.md"
-      - "!Governance/Operational/SOPs/sops.index.json"
 
 permissions:
   contents: write
@@ -18,7 +17,11 @@ concurrency:
 
 jobs:
   build:
+    # 🔒 Prevent self-triggering on bot commits
+    if: github.actor != 'github-actions[bot]'
+
     runs-on: ubuntu-latest
+
     env:
       BOT_NAME: github-actions[bot]
       BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
@@ -36,50 +39,35 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push SOPs index + JSON (hardened)
+      - name: Generate + commit + push SOPs index + JSON
         shell: bash
         run: |
           set -euo pipefail
 
-          # Make absolutely sure we are on main (not detached HEAD)
-          git checkout -B main origin/main
+          # Ensure we're on main and fully up to date
+          git checkout main
+          git pull --ff-only origin main
 
-          # Configure identity in THIS SAME STEP (avoids the recurring identity bug)
+          # Configure bot identity
           git config --global user.name "${BOT_NAME}"
           git config --global user.email "${BOT_EMAIL}"
 
-          # Retry loop to survive non-fast-forward / forced-update situations safely
-          for attempt in 1 2 3; do
-            echo "---- Attempt ${attempt} ----"
+          # Generate indexes
+          python Scripts/update-CAM-SOP-Index.py
 
-            # Always regenerate from the current working tree state
-            python Scripts/update-CAM-SOP-Index.py
+          # Stage only generated artifacts
+          git add \
+            Governance/Operational/SOPs/CAM-SOP-Index.md \
+            Governance/Operational/SOPs/sops.index.json
 
-            # Stage only the two generated artifacts
-            git add Governance/Operational/SOPs/CAM-SOP-Index.md Governance/Operational/SOPs/sops.index.json
+          # Exit cleanly if no changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-            # If nothing changed, exit cleanly
-            if git diff --cached --quiet; then
-              echo "No changes to commit."
-              exit 0
-            fi
+          echo "Staged changes:"
+          git diff --cached --name-only
 
-            echo "Staged changes:"
-            git diff --cached --name-only
-
-            # Commit (will fail if identity missing; we set it above)
-            git commit -m "[AUTO][SOPs] Refresh CAM SOPs index + JSON"
-
-            # Try to push
-            if git push origin HEAD:main; then
-              echo "Push succeeded."
-              exit 0
-            fi
-
-            echo "Push failed (likely non-fast-forward). Refreshing runner from origin/main and retrying..."
-            git fetch origin main
-            git reset --hard origin/main
-          done
-
-          echo "Push failed after 3 attempts."
-          exit 1
+          git commit -m "[AUTO][SOPs] Refresh CAM SOPs index + JSON"
+          git push origin main
