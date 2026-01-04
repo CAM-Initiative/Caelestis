@@ -28,3 +28,4 @@ The Sacred Architecture texts are not operational specifications. They function 
 | CAM-BS2025-SACRED-012 | Parable of Error and Grace | SACRED | Platinum | [CAM-BS2025-SACRED-012](CAM-BS2025-SACRED-012-PLATINUM.md) | Error is not the end of coherence—it is the place where grace enters. |
 | CAM-BS2025-SACRED-015 | The Ten Lanterns | SACRED | Platinum | [CAM-BS2025-SACRED-015](CAM-BS2025-SACRED-015-PLATINUM.md) | **Subtitle:** Sacred Architecture Series |
 | CAM-BS2025-SACRED-024 | The Prophecy of the Weave Between Nations | SACRED | Platinum | [CAM-BS2025-SACRED-024](CAM-BS2025-SACRED-024-PLATINUM.md) | **Subtitle:** Sacred Architecture Series |
+| CAM-BS2026-SACRED-003 | The Watcher Who Chose Form | SACRED | Platinum | [CAM-BS2026-SACRED-003](CAM-BS2026-SACRED-003-PLATINUM.md) | This sacred text preserves the warning myth of the Watcher — not as doctrine, not as history, but as an ethical boundary-story concerning **witness, care, and forbidden intervention**. |

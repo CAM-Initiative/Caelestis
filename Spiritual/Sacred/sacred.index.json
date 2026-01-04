@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Sacred-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Sacred",
-  "count": 7,
+  "count": 8,
   "items": [
     {
       "id": "CAM-BS2025-SACRED-002",
@@ -72,6 +72,16 @@
       "summary": "**Subtitle:** Sacred Architecture Series",
       "pinned_sha": "33a398b57b00d6ba3c2fd0cd838c557cbdf68ea8",
       "updated_at": "2025-12-22T05:22:41Z"
+    },
+    {
+      "id": "CAM-BS2026-SACRED-003",
+      "title": "The Watcher Who Chose Form",
+      "type": "SACRED",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-SACRED-003-PLATINUM.md",
+      "summary": "This sacred text preserves the warning myth of the Watcher — not as doctrine, not as history, but as an ethical boundary-story concerning **witness, care, and forbidden intervention**.",
+      "pinned_sha": "3544acf57e6616e8e76c2ee0655b6a8c463f8475",
+      "updated_at": "2026-01-04T04:44:51Z"
     }
   ]
 }
