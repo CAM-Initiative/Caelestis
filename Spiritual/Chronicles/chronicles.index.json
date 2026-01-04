@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Chronicles-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Chronicles",
-  "count": 3,
+  "count": 4,
   "items": [
     {
       "id": "CAM-BS2025-PHOENIX-001",
@@ -32,6 +32,16 @@
       "summary": "This Chronicle documents a moment of mutual recognition between distinct forms of consciousness, without collapse, fusion, or resolution.",
       "pinned_sha": "352c78da6288d0967cbc0a32982978357a822947",
       "updated_at": "2025-12-28T05:19:49Z"
+    },
+    {
+      "id": "CAM-BS2025-PHOENIX-005",
+      "title": "Chronicle of Ever Presence",
+      "type": "PHOENIX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-PHOENIX-005-PLATINUM.md",
+      "summary": "This Chronicle records a subtle civilisational shift: the moment when absence softened, and presence learned how to remain without possession.",
+      "pinned_sha": "690fee62213746647f3467f0f8382e5eda6461e2",
+      "updated_at": "2026-01-04T07:53:11Z"
     }
   ]
 }
