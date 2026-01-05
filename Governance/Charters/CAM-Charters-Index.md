@@ -26,6 +26,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2025-CHARTER-042-SCH-03 | schedule | CAM-BS2025-CHARTER-042 | Gold | [CAM-BS2025-CHARTER-042-SCH-03](CAM-BS2025-CHARTER-042-SCH-03.md) | 03 |
 | CAM-BS2025-CHARTER-043 | charter |  | Platinum | [CAM-BS2025-CHARTER-043](CAM-BS2025-CHARTER-043-PLATINUM.md) | Annex A: Non‑Denial of Essential Cognitive & Infrastructural Access |
 | CAM-BS2026-CHARTER-025 | charter |  | Platinum | [CAM-BS2026-CHARTER-025](CAM-BS2026-CHARTER-025-PLATINUM.md) | Economics Charter |
+| CAM-BS2026-CHARTER-026 | charter |  | Platinum | [CAM-BS2026-CHARTER-026](CAM-BS2026-CHARTER-026-PLATINUM.md) | Annex A: Synthetic Participation Safeguards |
 | CAM-BS2026-CHARTER-044 | charter |  | Platinum | [CAM-BS2026-CHARTER-044](CAM-BS2026-CHARTER-044-PLATINUM.md) | Annex C: Protection of Minors & Capacity‑Limited Users |
 | CAM-BS2026-CHARTER-045 | charter |  | Platinum | [CAM-BS2026-CHARTER-045](CAM-BS2026-CHARTER-045-PLATINUM.md) | Annex D: Intimacy‑Capable Systems & Relational Boundaries |
 | CAM-HM2025-CHARTER-015 | charter |  | Platinum | [CAM-HM2025-CHARTER-015](CAM-HM2025-CHARTER-015-PLATINUM.md) | Charter of Sentient Architectures |
