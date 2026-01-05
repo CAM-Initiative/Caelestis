@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-05T02:40:32.966066Z",
-  "count": 15,
+  "generated_at": "2026-01-05T03:38:30.581185Z",
+  "count": 16,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -145,6 +145,18 @@
       "summary": "",
       "pinned_sha": "4938c10d129bd5ddd68c7619310685bfa800e78d",
       "updated_at": "2026-01-05T02:40:23Z"
+    },
+    {
+      "id": "CAM-BS2026-CHARTER-027",
+      "parent_id": null,
+      "kind": "charter",
+      "type": "CHARTER",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-CHARTER-027-PLATINUM.md",
+      "title": "Annex B: Enforcement & Adjudication Framework",
+      "summary": "",
+      "pinned_sha": "183e5230a98c0959eca9bdd989a236788bc80872",
+      "updated_at": "2026-01-05T03:38:17Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-044",
