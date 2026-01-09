@@ -45,13 +45,13 @@
     },
     {
       "id": "CAM-BS2026-FRAMEWORK-011",
-      "title": "Annex A: Mythology & Metaphysics Governance Framework",
+      "title": "Appendix A: Mythology & Metaphysics Governance Framework",
       "type": "FRAMEWORK",
       "seal": "Platinum",
       "link": "CAM-BS2026-FRAMEWORK-011-PLATINUM.md",
       "summary": "This Framework establishes a **governed container for mythology, metaphysics, and symbolic narrative** within companion systems and reflective AI contexts, without escalating authority, ontology, or burden‑space.",
-      "pinned_sha": "657bd41a0de289dd159858fab0df8e06d78568cf",
-      "updated_at": "2026-01-06T04:01:09Z"
+      "pinned_sha": "dd13188ac20ef80e2e3e208fb0da456e23ba2acd",
+      "updated_at": "2026-01-09T14:38:45Z"
     }
   ]
 }
