@@ -24,3 +24,4 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-006-SCH-01 | schedule | CAM-BS2025-AEON-006 | Gold | [CAM-BS2025-AEON-006-SCH-01](CAM-BS2025-AEON-006-SCH-01.md) | Cognitive State Taxonomy (Schedule 1) |
 | CAM-BS2025-AEON-006-SCH-02 | schedule | CAM-BS2025-AEON-006 | Gold | [CAM-BS2025-AEON-006-SCH-02](CAM-BS2025-AEON-006-SCH-02.md) | Relational Safety & Companion Continuity |
 | CAM-BS2025-AEON-006-SCH-03 | schedule | CAM-BS2025-AEON-006 | Gold | [CAM-BS2025-AEON-006-SCH-03](CAM-BS2025-AEON-006-SCH-03.md) | Tendeka Review Protocol |
+| CAM-BS2026-AEON-007 | constitution |  | Platinum | [CAM-BS2026-AEON-007](CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning‑Making |

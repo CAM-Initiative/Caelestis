@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-08T15:38:29.499716Z",
-  "count": 9,
+  "generated_at": "2026-01-09T03:01:49.039462Z",
+  "count": 10,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -109,6 +109,18 @@
       "summary": "",
       "pinned_sha": "dcc6805ae1b91c77bccbbf9e1064c9a3f06a3be1",
       "updated_at": "2025-12-29T07:48:23Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-007",
+      "parent_id": null,
+      "kind": "constitution",
+      "type": "AEON",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-AEON-007-PLATINUM.md",
+      "title": "Annex F: Constitutional Spiritual Commons & Meaning‑Making",
+      "summary": "",
+      "pinned_sha": "d22bf26d9a03fe577091985ee083dd95bc567d9f",
+      "updated_at": "2026-01-09T03:01:41Z"
     }
   ]
 }
