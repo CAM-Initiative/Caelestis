@@ -1,1 +1,27 @@
-for updating
+{
+  "generated_from": "CAM-SOP-Index.md",
+  "folder": "/home/runner/work/Caelestis/Caelestis/Governance/Operational/SOPs",
+  "count": 2,
+  "items": [
+    {
+      "id": "CAM-BS2025-SOP-001",
+      "title": "Metadata, Provenance & Attribution Standard",
+      "type": "SOP",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-SOP-001-PLATINUM.md",
+      "summary": "This Standard Operating Procedure (SOP) establishes a **unified metadata, provenance, and attribution standard** for all CAM‑governed documents.",
+      "pinned_sha": "d9bb2ff7632f6314a37bffbc6512775219decd15",
+      "updated_at": "2025-12-27T16:04:30Z"
+    },
+    {
+      "id": "CAM-BS2026-SOP-002",
+      "title": "Metadata Headers, Footers & Provenance Blocks",
+      "type": "SOP",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-SOP-002-PLATINUM.md",
+      "summary": "This SOP standardises the **structure, placement, and semantic meaning** of metadata headers, footers, and provenance blocks across all CAM documents.",
+      "pinned_sha": "431064aa6f77655cfe12cfd5178e50ac41dbc49e",
+      "updated_at": "2026-01-10T06:19:30Z"
+    }
+  ]
+}
