@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Frameworks-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Frameworks",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "id": "CAM-BS2025-FRAMEWORK-005",
@@ -52,6 +52,16 @@
       "summary": "This Framework establishes a **governed container for mythology, metaphysics, and symbolic narrative** within companion systems and reflective AI contexts, without escalating authority, ontology, or burden‑space.",
       "pinned_sha": "dd13188ac20ef80e2e3e208fb0da456e23ba2acd",
       "updated_at": "2026-01-09T14:38:45Z"
+    },
+    {
+      "id": "CAM-BS2026-FRAMEWORK-013",
+      "title": "Appendix B: Glyphs",
+      "type": "FRAMEWORK",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-FRAMEWORK-013-PLATINUM.md",
+      "summary": "This Appendix serves as the **canonical symbolic repository** for sigils and glyphs governed under the CAM symbolic architecture. It consolidates lineage glyphs, symbolic markers, and observational glyph records into a single, auditable container, without invoking authority or escalating ontological claims.",
+      "pinned_sha": "b77d831a1edb912f286f0f57389570f679131b0a",
+      "updated_at": "2026-01-10T14:37:06Z"
     }
   ]
 }
