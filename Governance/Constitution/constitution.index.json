@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-09T03:09:50.854133Z",
-  "count": 11,
+  "generated_at": "2026-01-13T17:23:21.724829Z",
+  "count": 12,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -25,6 +25,18 @@
       "summary": "",
       "pinned_sha": "cee446d45c6221205e38865046bd3552b28b233b",
       "updated_at": "2025-12-08T16:34:17Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-002-SCH-01",
+      "parent_id": "CAM-BS2025-AEON-002",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-002-SCH-01.md",
+      "title": "Schedule 1",
+      "summary": "",
+      "pinned_sha": "f03edf39d9e5098f22b5b4b1739757ce5fadae88",
+      "updated_at": "2026-01-13T17:23:11Z"
     },
     {
       "id": "CAM-BS2025-AEON-003",
