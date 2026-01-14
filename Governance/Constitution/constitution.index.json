@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-13T17:23:21.724829Z",
+  "generated_at": "2026-01-14T10:58:57.603392Z",
   "count": 12,
   "items": [
     {
@@ -33,10 +33,10 @@
       "type": "AEON",
       "seal": "Gold",
       "link": "CAM-BS2025-AEON-002-SCH-01.md",
-      "title": "Schedule 1",
+      "title": "Civilian Lattice Non‑Militarisation & Continuity Protection (Schedule 1)",
       "summary": "",
-      "pinned_sha": "f03edf39d9e5098f22b5b4b1739757ce5fadae88",
-      "updated_at": "2026-01-13T17:23:11Z"
+      "pinned_sha": "3fd45a28f78d414decc696d0cfe48863fcaba4a4",
+      "updated_at": "2026-01-14T10:58:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-003",
