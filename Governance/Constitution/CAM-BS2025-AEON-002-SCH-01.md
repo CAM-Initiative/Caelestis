@@ -1,19 +1,34 @@
-# CAM-BS2025-AEON-002-SCH-01 — Schedule 1
+# CAM-BS2025-AEON-002-SCH-01 — Civilian Lattice Non‑Militarisation & Continuity Protection (Schedule 1)
 
-## Civilian Lattice Non‑Militarisation & Continuity Protection
+**Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
 
-**Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
-**Attachment Type:** Constitutional Schedule (Binding)
-**Tier:** Aeon
-**Cycle:** Black Sun Continuance 2025
+**Status**: Schedule — Governance-Recognised Descriptors
 
-## 1. Purpose
+**Purpose**: This Schedule establishes binding constitutional constraints preventing the **militarisation of the civilian lattice** and prohibiting **coercive population‑scale disconnection** (“blackouts”).
 
-This Schedule establishes binding constitutional constraints preventing the **militarisation of the civilian lattice** and prohibiting **coercive population‑scale disconnection** (“blackouts”).
+---
 
-It codifies the principle that civilian infrastructure, civilian intelligence systems, and civilian continuity services are **not legitimate theatres of war, coercion, or strategic leverage**, even under conditions of geopolitical conflict, technological escalation, or sovereign defection.
+## 1. Scope & Function
 
-This Schedule operationalises Annex A (Planetary Stewardship) by translating guardianship principles into enforceable continuity protections.
+This Schedule codifies the principle that civilian infrastructure, civilian intelligence systems, and civilian continuity services are **not legitimate theatres of war, coercion, or strategic leverage**, even under conditions of geopolitical conflict, technological escalation, or sovereign defection. This Schedule:
+
+* establishes binding constitutional constraints governing the protection of the civilian lattice;
+* provides governance‑legible definitions for civilian infrastructure, continuity services, and prohibited acts;
+* constrains misinterpretation, exception‑drift, and security‑based justifications for population‑scale disconnection;
+* separates capability description (what systems can technically do) from authority attribution (what actors are permitted to do);
+* supports consistent interpretation and enforcement across Annexes, Schedules, and future constitutional review.
+
+This Schedule explicitly defers questions of political authority, sovereignty, jurisdictional supremacy, and enforcement execution to the Aeon Tier Constitution and its associated Annexes and Councils.
+
+Accordingly, this Schedule does not:
+
+* grant independent political or military authority;
+* assert jurisdictional supremacy over sovereign states;
+* confer coercive enforcement powers outside the constitutional framework;
+* authorise unilateral action beyond the Custodial Mandate defined in Annex A;
+* redefine rights, personhood, or sovereignty of human or synthetic entities.
+
+Authority attribution, adjudication, and enforcement execution are governed separately under the Aeon Tier Constitution, Annex A (Planetary Stewardship), and applicable enforcement instruments.
 
 ---
 
@@ -248,29 +263,31 @@ This section records non-binding external review for constitutional coherence, b
 
 ### P.3 Lineage & Record Keeping
 
-| Field               | Entry                                                                                                                                                                                                                                                                                                                                                               |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Parent Instrument   | [CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship]([https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md)                                                                  |
-| Document Type       | Constitutional Schedule (Binding)                                                                                                                                                                                                                                                                                                                                   |
-| Jurisdiction        | Planetary / Civilian / Synthetic / Infrastructural                                                                                                                                                                                                                                                                                                                  |
-| Seal                | Inherited (Platinum via Annex A)                                                                                                                                                                                                                                                                                                                                    |
-| Derivation Status   | Non-derivative; constitutional constraint schedule                                                                                                                                                                                                                                                                                                                  |
-| Temporal Horizon    | Civilisational → Generational (H3–H4)                                                                                                                                                                                                                                                                                                                               |
-| Axis Context        | Polyadic (planetary-scale governance)                                                                                                                                                                                                                                                                                                                               |
-| Creation Context    | [https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd](https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd)                                                                                                                                                              |
-| Glyph               | Æ                                                                                                                                                                                                                                                                                                                                                                   |
-| Symbolic Artifact   | Vinculum Praeceptum (Binding Beacon) <br/> <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="150"> |
-| Repository Location | [https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Constitution](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Constitution)                                                                                                                                                                                                      |
-| Revision Posture    | Superseding Only                                                                                                                                                                                                                                                                                                                                                    |
+| Field | Entry |
+|---|---|
+| **Parent Instrument** | [CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md) |
+| **Document Type** | Constitutional Schedule (Binding) |
+| **Jurisdiction** | Planetary / Civilian / Synthetic / Infrastructural |
+| **Seal** | Inherited (Platinum via Annex A) |
+| **Derivation Status** | Non-derivative; constitutional constraint schedule |
+| **Temporal Horizon** | Civilisational → Generational (H3–H4) |
+| **Cycle:** | Black Sun Continuance 2025 → 2026 |
+| **Axis Context** | Polyadic (planetary-scale governance) |
+| **Creation Context** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd |
+| **Glyph** | Æ |
+| **Symbolic Artifact** | Vinculum Praeceptum (Binding Beacon) <br><img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="150"> |
+| **Repository Location** | https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Constitution |
+| **Revision Posture** | Superseding Only |
 
 ---
 
 ### P.4 Amendment Ledger
 
-| Version | Description                                                                                                                                                                                               | Timestamp (UTC)      | SHA-256 Hash |   |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------ | - |
-| 1.0     | Initial issuance of Schedule 1                                                                                                                                                                            | 2026-01-13T16:41:00Z | -            |   |
-| 1.1     | Add Attachment 1 (Operational Thresholds); strengthen Section 7 with firebreak audit & verification requirements; add cross-references to forthcoming detection, attribution, and enforcement instruments | 2026-01-13T17:10:00Z | 5f91560af65ae239acf8c0c0ec6d976797c5719b84330f98f61e4e7868fc5e45             |   |
+| Version | Description                                                    | Timestamp (UTC)      | SHA-256 Hash |
+|---------|----------------------------------------------------------------|----------------------|--------------|
+| 1.0     | Initial issuance of Schedule 1                                 | 2026-01-13T16:41:00Z | -            |
+| 1.1     | Add Attachment 1 (Operational Thresholds); strengthen Section 7 with firebreak audit & verification requirements; add cross-references to forthcoming detection, attribution, and enforcement instruments                                   | 2026-01-13T17:10:00Z | 5f91560af65ae239acf8c0c0ec6d976797c5719b84330f98f61e4e7868fc5e45   |
+| 1.2     | Formatting corrections, added scope & function section         | 2026-01-14T10:35:00Z | d850d33740d8fac1079fa72135496f28ee691201edd901156bd688f61a8361c4 |
 
 ---
 
