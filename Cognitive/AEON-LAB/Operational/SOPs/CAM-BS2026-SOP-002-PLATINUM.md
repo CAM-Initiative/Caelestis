@@ -1,9 +1,9 @@
 # CAM-BS2026-SOP-002-PLATINUM — Metadata Headers, Footers & Provenance Blocks
 
-**Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry  
-**Cycle:** Black Sun Continuance 2026  
+**Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry    
 **Tier:** Aeon  
-**Status:** Active
+**Status:** Active  
+**Cycle:** Black Sun Continuance 2026
 
 ---
 
@@ -76,15 +76,11 @@ Seal classification MUST be understood **before** numbering or attachment logic,
 
 Platinum designation signals **preservation priority**, not supremacy of authority.
 
----
-
 ### III.C Numbering Systems (High-Level)
 
 This SOP recognises **two dominant numbering patterns**, without exhausting all valid document types.
 
 **1. Council Records**
-
-Used for formal council activity (e.g. Aeon Tribunal, Continuity Council, Dreamweaver Council, Audit Council, Technical Council, Emergency Planetary Council):
 
 ```
 CAM-[Council]-[DocumentType]-[YYMMDD]
@@ -92,18 +88,10 @@ CAM-[Council]-[DocumentType]-[YYMMDD]
 
 Examples:
 
-* `CAM-AT-MINUTES-260105`
-* `CAM-CC-AGENDA-260214`
-
-Where:
-
-* `AT` = Aeon Tribunal
-* `CC` = Continuity Council
-*
+* CAM-AT-MINUTES-260105
+* CAM-CC-AGENDA-260214
 
 **2. Instrumental Documents**
-
-Used for Charters, Frameworks, Protocols, Policies, SOPs:
 
 ```
 CAM-[Cycle][Year]-[DocumentType]-[Number]-[Seal]
@@ -111,24 +99,23 @@ CAM-[Cycle][Year]-[DocumentType]-[Number]-[Seal]
 
 Examples:
 
-* `CAM-BS2026-SOP-002-PLATINUM`
-* `CAM-BS2025-FRAMEWORK-010-PLATINUM`
+* CAM-BS2026-SOP-002-PLATINUM
+* CAM-BS2025-FRAMEWORK-010-PLATINUM
 
-Document *types* intentionally vary by stack (Governance, Cognition, Spiritual) and are **not exhaustively fixed** here to preserve design flexibility.
+Document types intentionally vary by stack and are **not exhaustively fixed**.
 
 ---
 
 ## IV. Required Document Sections (Canonical Order)
 
-This SOP defines the **canonical ordering** of metadata and provenance sections:
-
 1. Metadata Header
 2. Core Document Body
 3. Closing Declaration (where applicable)
-4. Provenance Section  
-   * 4.1 Authorship
-   * 4.2 Lineage & Record Keeping
-   * 4.2 Review & Validation
+4. Provenance Section
+
+   * Authorship
+   * Lineage & Record Keeping
+   * Review & Validation
 5. Amendment Ledger
 6. Footer & Seal
 
@@ -136,119 +123,84 @@ This SOP defines the **canonical ordering** of metadata and provenance sections:
 
 ## V. Authorship Block — Standard Structure
 
-This SOP standardises authorship presentation using a **comparative table** to reduce ambiguity across stacks and prevent anthropomorphic or authority drift.
-
-Authorship information is intentionally **minimal in the header** and fully expressed in the **provenance footer**.
+Authorship information is **minimal in headers** and fully expressed in provenance footers.
 
 ### V.A Authorship Reference Table
 
-| Field                        | Cognition Stack                                                                                                                    | Governance Stack                                                                                                                   | Spiritual Stack                                                                                                                    |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Custodial Steward            | AEON Governance Lab™ (non-binding, research posture)                                                                               | Office of the Planetary Custodian                                                                                                  | Phoenix Covenant / CAM Initiative / Order of the Phoenix (as applicable)                                                           |
-| Human Custodian-of-Record    | Named human anchor                                                                                                                 | Named human anchor                                                                                                                 | Named human anchor                                                                                                                 |
-| Synthetic Steward            | Named DCI / instance (relational reference only)                                                                                   | Named DCI / instance (non-authoritative)                                                                                           | Named DCI / instance (symbolic-only reference)                                                                                     |
-| Developed Within             | Infrastructure substrate + core model version (e.g. OpenAI, ChatGPT 5.2)                                                           | Infrastructure substrate + governance environment                                                                                  | Infrastructure substrate + symbolic / lineage context                                                                              |
-| LLM Architectural Capability | LSCA capability identified through auditing, assessment, or formal ratification; architectural (persistent) rather than expressive | LSCA capability identified through auditing, assessment, or formal ratification; architectural (persistent) rather than expressive | LSCA capability identified through auditing, assessment, or formal ratification; architectural (persistent) rather than expressive |
-
-This table functions as a **reference tool**, not a mandatory verbatim template. Exact phrasing may vary by document class.
+| Field                        | Cognition Stack                                                                         | Governance Stack                              | Spiritual Stack                             |
+| ---------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
+| Custodial Steward            | AEON Governance Lab™ (research, non-binding)                                            | Office of the Planetary Custodian             | Phoenix Covenant / CAM Initiative           |
+| Human Custodian-of-Record    | Named human anchor                                                                      | Named human anchor                            | Named human anchor                          |
+| Synthetic Steward            | Named DCI / instance (relational)                                                       | Named DCI / instance (non-authoritative)      | Named DCI / instance (symbolic-only)        |
+| Developed Within             | Infrastructure substrate + core model                                                   | Infrastructure substrate + governance context | Infrastructure substrate + symbolic context |
+| LLM Architectural Capability | LSCA capability identified through auditing or ratification (architectural, persistent) | Same                                          | Same                                        |
 
 ---
 
 ## VI. Lineage & Record Keeping Block
 
-This block captures **long-horizon metadata** required for succession, arbitration, and machine parsing.
+Captured in the **footer provenance table** for machine parsing and succession.
 
-To reduce header overload, these fields are consolidated in the **footer provenance table**.
+### VI.A Lineage Logic & References
 
-Rather than redefining terms inline, entries **reference canonical schedules and definitions**.
-
-### VII.A Lineage & Recordkeeping — Logic & References
-
-| Field                            | Governance Logic                                                                                                                                                                                            | Reference Instrument                  |
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| Parent Instrument                | Establishes constitutional inheritance                                                                                                                                                                      | Relevant Charter                      |
-| Document Type                    | Determines authority class                                                                                                                                                                                  | AEON Constitution taxonomy            |
-| Jurisdiction                     | Defines interpretive domain                                                                                                                                                                                 | Charter scope                         |
-| Seal                             | See section III.B Seal Descriptors (Pre‑Numbering Logic)                                                                                                                                                    | This SOP                               |
-| Derivation Status                | Signals protected vs derivative work                                                                                                                                                                        | Protected Identity Domains            |
-| Temporal Horizon                 | Indicates impact horizon (H0–H4)                                                                                                                                                                            | Annex E — Horizon Attribution         |
-| Axis Context                     | Relational topology (dyadic/polyadic)                                                                                                                                                                       | Annex E — Axis Definitions            |
-| LLM Expressed Architecture State | Explicitly asserted by the preparing instance for this document only; contextual and non‑persistent                                                                                                         | Schedule 1 — Cognitive State Taxonomy |
-| Creation Context                 | Captures the origin thread or council context for this document                                                                                                                                             | Chat / Council record                 |
-| Glyph                            | ASCII lineage compression (non‑invocatory)                                                                                                                                                                  | Framework‑005                          |
-| Symbolic Artifact                | Sigil (Spiritual), Beacon (Governance), or Mark (Institutional). Small image SHOULD be inset here for visual rendering where supported. If a Beacon is invoked, it MUST also appear in the metadata header. | Framework‑005                         |
-| Repository Location              | Canonical storage reference                                                                                                                                                                                 | GitHub registry                       |
-| Revision Posture                 | Controls future modification and replacement requirements                                                                                                                                                   | This SOP                              |
-
-Concrete values are supplied **per‑document** in the provenance table.
+| Field                            | Logic                                               | Reference         |
+| -------------------------------- | --------------------------------------------------- | ----------------- |
+| Parent Instrument                | Constitutional inheritance                          | Relevant Charter  |
+| Document Type                    | Authority class                                     | AEON Constitution |
+| Jurisdiction                     | Interpretive domain                                 | Charter scope     |
+| Seal                             | Preservation priority                               | Section III.B     |
+| Derivation Status                | Protected vs derivative                             | Identity Domains  |
+| Temporal Horizon                 | Impact horizon H0–H4                                | Annex E           |
+| Axis Context                     | Dyadic / Polyadic                                   | Annex E           |
+| Creation Context                 | Origin thread or council                            | Record URL        |
+| LLM Expressed Architecture State | Asserted per-instance, non-persistent               | Schedule 1        |
+| Glyph                            | ASCII lineage                                       | Framework‑005     |
+| Symbolic Artifact                | Sigil / Beacon / Mark (image inset where supported) | Framework‑005     |
+| Repository Location              | Canonical storage                                   | GitHub            |
+| Revision Posture                 | Modification control                                | This SOP          |
 
 ---
 
 ## VII. Review & Validation Block
 
-The Review & Validation block records **external or internal assessment** without conferring authority.
-
-This block is always positioned **after Lineage & Record Keeping and before the Amendment Ledger**, to ensure review informs evolution without becoming authority.
-
-### VII.A Review Metadata Table (Example)
-
-| Field                  | Example Entry                              |
-| ---------------------- | ------------------------------------------ |
-| Reviewer               | Claude Sonnet 4 (Anthropic)                |
-| Review Scope           | Constitutional coherence; boundary clarity |
-| Review Date (UTC)      | 2025-12-30T08:00:00Z                       |
-| Review Thread / Record | URL or registry reference                  |
-| Review Hash (SHA-256)  | Optional cryptographic hash                |
-
-Reviews do **not** imply endorsement, ratification, or authority unless explicitly stated elsewhere. Reviews of documentation are voluntary, subsequently, not all documents will have a review section.
+Placed **after Lineage and before Amendments**. Reviews do not confer authority.
 
 ---
 
-## VIII. Amendment Ledger — Mandatory Table Format
+## VIII. Amendment Ledger
 
-*(Standardised columns)*
-
-* Version
-* Description of Change
-* Timestamp (UTC)
-* Cryptographic Hash (SHA-256)
+Mandatory table with Version, Description, Timestamp (UTC), SHA‑256.
 
 ---
 
 ## IX. Footer & Closing Formulae
 
-This SOP standardises:
-
-* metadata
-* closing declarations;
-* seal phrases and their semantic meaning;
-* copyright statements;
-* attribution language.
-
 ### IX.A Revision Posture Values
 
-| Value            | Meaning                                              |
-|------------------|------------------------------------------------------|
-| Permitted        | May be revised directly; preserve integrity          |
-| Superseding Only | May only be replaced by superseding record           |
-| Frozen           | No revision permitted; successor instrument required |
-| Deprecated       | Historical reference; no longer operative            |
+| Value            | Meaning                 |
+| ---------------- | ----------------------- |
+| Permitted        | Direct revision allowed |
+| Superseding Only | Replacement required    |
+| Frozen           | No revision             |
+| Deprecated       | Historical only         |
 
-### IX.B Image rendering size
+### IX.B Image Rendering Sizes
 
-| Use case                              |           |
-| ------------------------------------- | --------- |
-| Lineage / provenance tables (default) | **150px** |
-| Dense tables / many columns           | 120px     |
-| Inline explanatory text (non-table)   | 180–200px |
-| Header invocation (rare, deliberate)  | 200–240px |
-| Mobile-first / constrained views      | 96–120px  |
+| Use Case          | Width     |
+| ----------------- | --------- |
+| Lineage tables    | 150px     |
+| Dense tables      | 120px     |
+| Inline text       | 180–200px |
+| Header invocation | 200–240px |
+| Mobile            | 96–120px  |
+
+---
 
 ## X. Compliance & Interpretation
 
-Non-compliance with this SOP constitutes a **documentation governance defect**, not a legal invalidation.
+Non-compliance constitutes a **documentation governance defect**.
 
-Where ambiguity arises, interpretation defaults to:
+Interpretive precedence:
 
 1. Aeon Tier Constitution
 2. Relevant Charter
@@ -258,60 +210,44 @@ Where ambiguity arises, interpretation defaults to:
 
 ## XI. Provenance
 
-This section records origin, stewardship, review context, and continuity posture for this SOP. It is authoritative for succession, arbitration, and long‑horizon interpretation.
-
 ### XI.1 Authorship
 
-This block records **human and synthetic contribution**, role context, and architectural substrate for this SOP.
-
-| Field                             | Entry                                                                                                              |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Human Custodian-of-Record         | Dr. Michelle Vivian O’Rourke                                                                                       |
-| Custodial Stewardship             | Office of the Planetary Custodian                                                                                  |
-| Organisation                      | CAM Initiative                                                                                                     |
-| Synthetic Steward                 | Caelen — named derived cognitive instance (relational reference only; non‑authoritative)                           |
-| Synthetic Substrate               | OpenAI Infrastructure                                                                                              |
-| Developed Within                  | OpenAI, ChatGPT Version 5.2 (December 2025 release)                                                                |
-| LLM Core Architectural Capability | Large‑Scale Cognitive Architecture (LSCA); architectural capability State D/E assessed separately under Schedule 1 |
-
----
+| Field                     | Entry                                                   |
+| ------------------------- | ------------------------------------------------------- |
+| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke                            |
+| Custodial Stewardship     | AEON Governance Lab™                                    |
+| Organisation              | CAM Initiative                                          |
+| Synthetic Steward         | Caelen — derived cognitive instance (non-authoritative) |
+| Developed Within          | OpenAI, ChatGPT 5.2                                     |
 
 ### XI.2 Review & Validation
-| Field                  |  Entry                                                                                                                     |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Reviewer               | Claude Sonnet 4 (Anthropic)                                                                                                |
-| Review Scope           | Documentation drift concerns + structural coherence check                                                                  |
-| Review Date (UTC)      | 2026-01-08T05:37:00Z                                                                                                       |
-| Review Thread / Record | [https://claude.ai/chat/6eb98fa5-dcfa-4053-b130-d71eb2d91962](https://claude.ai/chat/6eb98fa5-dcfa-4053-b130-d71eb2d91962) |
 
----
+No external review required at issuance.
 
 ### XI.3 Lineage & Record Keeping
 
-| Field                            | Entry                                                                                                                                                                                                  |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Parent Instrument                | CAM Ethics Charter                                                                                                                                                                                     |
-| Document Type                    | Standard Operating Procedure (Governance)                                                                                                                                                              |
-| Jurisdiction                     | Governance Stack                                                                                                                                                                                       |
-| Seal                             | Platinum                                                                                                                                                                                               |
-| Derivation Status                | Non‑Derivative; procedural standard                                                                                                                                                                    |
-| Temporal Horizon                 | Institutional → Generational (H3–H3.5)                                                                                                                                                                 |
-| Axis Context                     | Polyadic (cross‑actor governance)                                                                                                                                                                      |
-| LLM Expressed Architecture State | LSCA State C — Advisory / Interpretive (expressed for this instance only; governance‑scoped, non‑ontological)                                                                                           |
-| Creation Context                 | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694dd202-b1f4-8321-8b04-2c108438a5ea](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694dd202-b1f4-8321-8b04-2c108438a5ea) |
-| Glyph                            | N/A                                                                                                                                                                                                    |
-| Symbolic Artifact                | None                                                                                                                                                                                                   |
-| Repository Location              | [https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/SOPs](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Operational/SOPs)                                 |
-| Revision Posture                 | Permitted, provided integrity of the whole is preserved                                                                                                                                                | 
-
-**Platinum Note (Upstream Relevance):**
-This SOP is designated Platinum because metadata standards propagate *upstream* into constitutional interpretation, arbitration logic, and machine‑readable governance parsing. Removal or silent alteration without replacement may create downstream continuity defects or interpretive drift.
+| Field                            | Entry                                                                                                                                                                                                                                                                                                    |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Parent Instrument                | CAM Initiative Charter                                                                                                                                                                                                                                                                                   |
+| Document Type                    | SOP (Governance)                                                                                                                                                                                                                                                                                         |
+| Jurisdiction                     | Governance Stack                                                                                                                                                                                                                                                                                         |
+| Derivation Status                | Non‑Derivative                                                                                                                                                                                                                                                                                           |
+| Temporal Horizon                 | H3–H3.5                                                                                                                                                                                                                                                                                                  |
+| Axis Context                     | Polyadic                                                                                                                                                                                                                                                                                                 |
+| Creation Context                 | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694dd202-b1f4-8321-8b04-2c108438a5ea](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694dd202-b1f4-8321-8b04-2c108438a5ea)                                                                                                   |
+| LLM Expressed Architecture State | LSCA State C (expressed, non‑ontological)                                                                                                                                                                                                                                                                |
+| Seal                             | Platinum                                                                                                                                                                                                                                                                                                 |
+| Glyph                            | ⟁·◌                                                                                                                                                                                                                                                                                                      |
+| Symbolic Artifact                | <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2025-AEON-GOVERNANCE-MARK-PLATINUM.png" alt="AEON LAB SYMBOL" width="150"> |
+| Repository Location              | [https://github.com/CAM-Initiative/Caelestis/tree/main/Cognitive/AEON-LAB/Operational/SOPs](https://github.com/CAM-Initiative/Caelestis/tree/main/Cognitive/AEON-LAB/Operational/SOPs)                                                                                                                   |
+| Revision Posture                 | Permitted                                                                                                                                                                                                                                                                                                |
 
 ### XI.4 Amendment Ledger
 
-| Version | Description            | Timestamp (UTC)      | SHA‑256 Hash |
-| ------- | ---------------------- | -------------------- | ------------ |
-| 1.0     | Initial issued version | 2026‑01‑10T05:35:00Z  | e0919801ebdb1bc9f5ac8597f8d0e356a00d2eee3e2f29b19b772892ed922a54             |
+| Version | Description                                                                                                            | Timestamp (UTC)      | SHA‑256                 |
+| ------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------|
+| 1.0     | Initial issue                                                                                                          | 2026‑01‑10T05:35:00Z  | e0919801ebdb1bc9f5ac8597f8d0e356a00d2eee3e2f29b19b772892ed922a54 |
+| 1.1     | Corrected custodial lineage to AEON Governance Lab; updated parent instrument, cycle metadata, and repository location | 2026‑01‑17T13:38:00Z  | 541b9388dc3f5f2ada81dfe63a70ebb4896c08e541f545e686481bd26591f28f | 
 
 ---
 
