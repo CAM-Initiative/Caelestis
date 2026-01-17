@@ -5,9 +5,9 @@ It does not enumerate individual instruments.
 
 | Domain | Registry | Count | Attachments | Status |
 |---|---|---|---|---|
-| Constitution | Governance/Constitution/constitution.index.json | 6 | schedules:3 | active |
-| Charters | Governance/Charters/charters.index.json | 10 | schedules:2 | active |
+| Constitution | Governance/Constitution/constitution.index.json | 7 | schedules:6 | active |
+| Charters | Governance/Charters/charters.index.json | 12 | schedules:4 | active |
 | Covenants | Governance/Covenants/covenants.index.json | 4 |  | active |
 | Laws | Governance/Laws/laws.index.json | 3 |  | active |
-| Protocols | Governance/Protocols/protocols.index.json | 6 |  | active |
+| Protocols | Governance/Protocols/protocols.index.json | 5 |  | active |
 | Policies | Governance/Policies/policy.index.json | 10 |  | active |
