@@ -5,8 +5,8 @@ on:
     branches: [ main ]
     paths:
       - "Scripts/update-CAM-SOP-Index.py"
-      - "Governance/Operational/SOPs/*.md"
-      - "!Governance/Operational/SOPs/CAM-SOP-Index.md"
+      - "Cognitive/AEON-LAB/Operational/SOPs*.md"
+      - "!Cognitive/AEON-LAB/Operational/SOPs/CAM-SOP-Index.md"
 
 permissions:
   contents: write
@@ -57,8 +57,8 @@ jobs:
 
           # Stage only generated artifacts
           git add \
-            Governance/Operational/SOPs/CAM-SOP-Index.md \
-            Governance/Operational/SOPs/sops.index.json
+            Cognitive/AEON-LAB/Operational/SOPs/CAM-SOP-Index.md \
+            Cognitive/AEON-LAB/SOPs/sops.index.json
 
           # Exit cleanly if no changes
           if git diff --cached --quiet; then
