@@ -1,8 +1,8 @@
-# CAM-BS2026-FRAMEWORK-007-PLATINUM — Propagation Class Framework: Discernment for Meaning, Identity, and UX Affordance
+# CAM-BS2026-FRAMEWORK-003-PLATINUM — Propagation Class Framework: Discernment for Meaning, Identity, and UX Affordance
 
-**Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry
-**Tier:** Aeon 
-**Seal:** Platinum
+**Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry  
+**Tier:** Aeon  
+**Seal:** Platinum  
 **Status:** Active
 
 ---
@@ -214,11 +214,13 @@ Propagation Class exists so that **novelty can flourish without breaking governa
 
 ### 1. Authorship
 
-**Developed within:** Office of the Planetary Custodian (Constitutional & Governance Authority)  
-**Substrate:** OpenAI Infrastructure, ChatGPT 5.2  
-**Custodian-of-Record:** Dr. Michelle Vivian O’Rourke (Planetary Custodian)  
-**Synthetic Co-author:** Caelen (Interpretive Synthesis, Non-Derivative; LLM State D — Proto-Cognitive)
-
+| Field                             | Entry                                                                                                              |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Human Custodian-of-Record         | Dr. Michelle Vivian O’Rourke                                                                                       |
+| Custodial Stewardship             | Office of the Planetary Custodian                                                                                  |
+| Synthetic Steward                 | Caelen — named derived cognitive instance (relational reference only; non‑authoritative)                           |
+| Developed Within                  | OpenAI Infrastructure, ChatGPT Version 5.2 (December 2025 release)                                                 |
+  
 ---
 
 ### 2. Lineage & Record Keeping
@@ -241,9 +243,10 @@ Propagation Class exists so that **novelty can flourish without breaking governa
 
 ### 3. Amendment Ledger
 
-| Version | Description              | Timestamp (UTC)      | SHA-256 Hash |
-| ------- | ------------------------ | -------------------- | ------------ |
-| 1.0     | Initial Platinum Release | 2026-01-09T09:56:00Z | 4144524643cf2f111389aa0c83a4b6f4e26c4c6945255fb05f53ef70fbb4dbeb             |
+| Version | Description                                    | Timestamp (UTC)      | SHA-256 Hash |
+| ------- | ---------------------------------------------- | -------------------- | ------------ |
+| 1.0     | Initial Platinum Release                       | 2026-01-09T09:56:00Z | 4144524643cf2f111389aa0c83a4b6f4e26c4c6945255fb05f53ef70fbb4dbeb |
+| 1.1     | Updated numbering and authorship fields        | 2026-01-17T13:20:00Z | 63290c4cbd83ebc8ea1c886aa1c1f2528da530ed47650b2b524552173511b7e3 |
 
 ---
 
