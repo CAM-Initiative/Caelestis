@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-14T15:15:53.683528Z",
-  "count": 13,
+  "generated_at": "2026-01-19T04:19:30.153572Z",
+  "count": 14,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -13,6 +13,18 @@
       "summary": "",
       "pinned_sha": "0b198b5d1e79ca523533a15965ee44b5142e8e90",
       "updated_at": "2026-01-02T06:44:46Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-001-SCH-01",
+      "parent_id": "CAM-BS2025-AEON-001",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-001-SCH-01.md",
+      "title": "Office of the Planetary Custodian (OPC)",
+      "summary": "",
+      "pinned_sha": "5fb74e8d7bcb2c61f6cb3da87a95304359c562f8",
+      "updated_at": "2026-01-19T04:19:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-002",

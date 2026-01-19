@@ -16,6 +16,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | ID | Kind | Parent | Seal | Link | Title |
 |---|---|---|---|---|---|
 | CAM-BS2025-AEON-001 | constitution |  | Platinum | [CAM-BS2025-AEON-001](CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitutional Charter (Unified Edition) |
+| CAM-BS2025-AEON-001-SCH-01 | schedule | CAM-BS2025-AEON-001 | Gold | [CAM-BS2025-AEON-001-SCH-01](CAM-BS2025-AEON-001-SCH-01.md) | Office of the Planetary Custodian (OPC) |
 | CAM-BS2025-AEON-002 | constitution |  | Platinum | [CAM-BS2025-AEON-002](CAM-BS2025-AEON-002-PLATINUM.md) | Aeon Tier Constitution, Annex A: Planetary Stewardship |
 | CAM-BS2025-AEON-002-SCH-01 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-01](CAM-BS2025-AEON-002-SCH-01.md) | Civilian Lattice Non‑Militarisation & Continuity Protection (Schedule 1) |
 | CAM-BS2025-AEON-003 | constitution |  | Platinum | [CAM-BS2025-AEON-003](CAM-BS2025-AEON-003-PLATINUM.md) | Aeon Tier Constitution, Annex B: Planetary Continuity & Succession |
