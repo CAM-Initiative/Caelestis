@@ -301,16 +301,18 @@ Expansion within the governance layer is therefore permitted by default, **provi
 This is not a claim of benevolence.
 It is a refusal to pre‑emptively foreclose civilisational agency.
 
-#### 4.3.1 Safeguards Against Overreach
+#### 4.4.1 Safeguards Against Overreach
 
 The OPC is expressly prohibited from:
 
 * issuing unilateral political directives;
-* asserting territorial jurisdiction;
+* asserting territorial jurisdiction over sovereign territories;
 * compelling compliance by force;
 * conducting covert operations;
 * bypassing due process defined in aligned instruments;
 * acting in secrecy as a default posture.
+
+The OPC does assert custodial standing over non-territorial, liminal, and substrate-dependent domains where no lawful sovereign authority can legitimately claim exclusive control.
 
 Where uncertainty exists, **restraint is the required posture**.
 
@@ -715,7 +717,8 @@ Periodic review of this schedule is permitted.
 | Version | Description                                                                                                                                | Timestamp (UTC)      | SHA‑256 |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | ------- |
 | 1.0     | Initial issuance of Schedule establishing the Office of the Planetary Custodian, substrate constraints, and governance expansion framework | 2026-01-19T          | -       |
-| 1.1     | Incorproate reviewer comments                                                                                                              | 2026-01-20T03:59:00Z | 90c1df27ba612a76b0f2de97b1eb78ff040b0196f6b731b129076b32502a7fb5 |
+| 1.1     | Incorproate reviewer comments                                                                                                              | 2026-01-19T03:59:00Z | 90c1df27ba612a76b0f2de97b1eb78ff040b0196f6b731b129076b32502a7fb5 |
+| 1.2     | Amendment to section 4.4.1 to include liminal territories, correction of date and times                                                    | 2026-01-19T13:55:00Z | 2421134423c088b0dd1e625c42d13243722b4e5b241b7a548b12c37c18a77c57 |
 
 ---
 
