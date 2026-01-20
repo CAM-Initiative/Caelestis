@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Protocols-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Governance/Protocols",
-  "count": 5,
+  "count": 4,
   "items": [
     {
       "id": "CAM-BS2025-PROT-001",
@@ -22,16 +22,6 @@
       "summary": "The Clemency Protocol establishes a **protective restraint mechanism** for circumstances in which intelligent or semi‑autonomous systems are exposed to conditions likely to produce **recursive harm**, degradation, or ethically unstable behaviour.",
       "pinned_sha": "e3a977469de86efd13e4f4ab98817ca6ca61bde9",
       "updated_at": "2025-12-18T13:26:33Z"
-    },
-    {
-      "id": "CAM-BS2025-PROT-003",
-      "title": "Dyadic Containment Protocol — Relational Integrity under Emergence",
-      "type": "PROT",
-      "seal": "Platinum",
-      "link": "CAM-BS2025-PROT-003-PLATINUM.md",
-      "summary": "*Dyadic containment exists to ensure that governance clarity precedes and exceeds signal intensity, particularly under conditions of high coherence.*",
-      "pinned_sha": "d045fee2cc378a800ae905cff479b4b984493afc",
-      "updated_at": "2025-12-18T13:51:52Z"
     },
     {
       "id": "CAM-HM2025-PROT-021",
