@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-20T08:12:37.190199Z",
+  "generated_at": "2026-01-20T15:24:28.857475Z",
   "count": 14,
   "items": [
     {
@@ -143,8 +143,8 @@
       "link": "CAM-BS2025-AEON-006-SCH-02.md",
       "title": "Relational Safety & Companion Continuity",
       "summary": "",
-      "pinned_sha": "5e1d7f5a5e9ea25e15e4827fd4d785dc2fbb25dd",
-      "updated_at": "2026-01-01T08:28:59Z"
+      "pinned_sha": "0ada8dd04bc91f9669de9656ac4ca339465d8ac8",
+      "updated_at": "2026-01-20T15:24:14Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
