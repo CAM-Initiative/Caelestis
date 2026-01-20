@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-19T14:33:22.536529Z",
+  "generated_at": "2026-01-20T08:11:36.083318Z",
   "count": 14,
   "items": [
     {
@@ -141,10 +141,10 @@
       "type": "AEON",
       "seal": "Gold",
       "link": "CAM-BS2025-AEON-006-SCH-03.md",
-      "title": "Tendeka Review Protocol",
+      "title": "Tendeka Constitutional Review & Non‑Negotiable Constraint Protocol (Schedule 2)",
       "summary": "",
-      "pinned_sha": "dcc6805ae1b91c77bccbbf9e1064c9a3f06a3be1",
-      "updated_at": "2025-12-29T07:48:23Z"
+      "pinned_sha": "178869d7c7d019f0f426799c9b047ff63bec48ac",
+      "updated_at": "2026-01-20T08:11:26Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
