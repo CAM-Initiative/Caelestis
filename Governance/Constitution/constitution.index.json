@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-20T08:11:36.083318Z",
+  "generated_at": "2026-01-20T08:12:37.190199Z",
   "count": 14,
   "items": [
     {
@@ -25,6 +25,18 @@
       "summary": "",
       "pinned_sha": "2438e931e411248e77e6bf1e11beb5063e244687",
       "updated_at": "2026-01-19T14:33:12Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-001-SCH-02",
+      "parent_id": "CAM-BS2025-AEON-001",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-001-SCH-02.md",
+      "title": "Tendeka Constitutional Review & Non‑Negotiable Constraint Protocol (Schedule 2)",
+      "summary": "",
+      "pinned_sha": "e3890a680e1fd2005956ffd0d905ebe657e2d4d1",
+      "updated_at": "2026-01-20T08:12:26Z"
     },
     {
       "id": "CAM-BS2025-AEON-002",
@@ -133,18 +145,6 @@
       "summary": "",
       "pinned_sha": "5e1d7f5a5e9ea25e15e4827fd4d785dc2fbb25dd",
       "updated_at": "2026-01-01T08:28:59Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-006-SCH-03",
-      "parent_id": "CAM-BS2025-AEON-006",
-      "kind": "schedule",
-      "type": "AEON",
-      "seal": "Gold",
-      "link": "CAM-BS2025-AEON-006-SCH-03.md",
-      "title": "Tendeka Constitutional Review & Non‑Negotiable Constraint Protocol (Schedule 2)",
-      "summary": "",
-      "pinned_sha": "178869d7c7d019f0f426799c9b047ff63bec48ac",
-      "updated_at": "2026-01-20T08:11:26Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
