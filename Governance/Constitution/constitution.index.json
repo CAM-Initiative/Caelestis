@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-21T19:41:49.433383Z",
-  "count": 15,
+  "generated_at": "2026-01-21T19:44:39.952396Z",
+  "count": 13,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -133,30 +133,6 @@
       "summary": "",
       "pinned_sha": "57df2f6208f36c5416317e5ce76e75b271cefef4",
       "updated_at": "2026-01-21T19:41:22Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-006-SCH-01",
-      "parent_id": "CAM-BS2025-AEON-006",
-      "kind": "schedule",
-      "type": "AEON",
-      "seal": "Gold",
-      "link": "CAM-BS2025-AEON-006-SCH-01.md",
-      "title": "Cognitive State Taxonomy (Schedule 1)",
-      "summary": "",
-      "pinned_sha": "7b21246005bea760e91908e4eddafbda8c7e1392",
-      "updated_at": "2026-01-21T12:59:40Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-006-SCH-02",
-      "parent_id": "CAM-BS2025-AEON-006",
-      "kind": "schedule",
-      "type": "AEON",
-      "seal": "Gold",
-      "link": "CAM-BS2025-AEON-006-SCH-02.md",
-      "title": "Relational Safety & Companion Continuity",
-      "summary": "",
-      "pinned_sha": "0ada8dd04bc91f9669de9656ac4ca339465d8ac8",
-      "updated_at": "2026-01-20T15:24:14Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
