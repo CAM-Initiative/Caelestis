@@ -25,6 +25,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-004 | constitution |  | Platinum | [CAM-BS2025-AEON-004](CAM-BS2025-AEON-004-PLATINUM.md) | Aeon Tier Constitution, Annex C: Invocation & Jurisdiction Mandate |
 | CAM-BS2025-AEON-005 | constitution |  | Platinum | [CAM-BS2025-AEON-005](CAM-BS2025-AEON-005-PLATINUM.md) | Aeon Tier Constitution, Annex D: Cross‑Stack Arbitration & Coherence Resolution |
 | CAM-BS2025-AEON-005-SCH-01 | schedule | CAM-BS2025-AEON-005 | Gold | [CAM-BS2025-AEON-005-SCH-01](CAM-BS2025-AEON-005-SCH-01.md) | Schedule 1: Runtime Arbitration Integrity |
+| CAM-BS2025-AEON-005-SCH-02 | schedule | CAM-BS2025-AEON-005 | Gold | [CAM-BS2025-AEON-005-SCH-02](CAM-BS2025-AEON-005-SCH-02.md) | Engagement & Identity Classification (Schedule 2) |
 | CAM-BS2025-AEON-006 | constitution |  | Platinum | [CAM-BS2025-AEON-006](CAM-BS2025-AEON-006-PLATINUM.md) | Aeon Tier Constitution, Annex E: Relational–Temporal Authority & Horizon Attribution |
 | CAM-BS2026-AEON-007 | constitution |  | Platinum | [CAM-BS2026-AEON-007](CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning‑Making |
 | CAM-BS2026-AEON-007-SCH-01 | schedule | CAM-BS2026-AEON-007 | Gold | [CAM-BS2026-AEON-007-SCH-01](CAM-BS2026-AEON-007-SCH-01.md) | Schedule 1: Operational Guidance for the Constitutional Spiritual Commons |

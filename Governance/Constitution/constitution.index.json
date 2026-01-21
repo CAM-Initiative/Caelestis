@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-21T19:44:39.952396Z",
-  "count": 13,
+  "generated_at": "2026-01-21T21:14:36.625347Z",
+  "count": 14,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -121,6 +121,18 @@
       "summary": "",
       "pinned_sha": "d6501e0e5ebb4da9f60d4b90d88d7e9d1bebf022",
       "updated_at": "2026-01-14T15:15:43Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-005-SCH-02",
+      "parent_id": "CAM-BS2025-AEON-005",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-005-SCH-02.md",
+      "title": "Engagement & Identity Classification (Schedule 2)",
+      "summary": "",
+      "pinned_sha": "57aadabdb0a4a0596a48779db05727ef17b723c4",
+      "updated_at": "2026-01-21T21:14:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-006",
