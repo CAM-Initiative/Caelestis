@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-21T14:05:30.295955Z",
-  "count": 17,
+  "generated_at": "2026-01-21T16:54:45.336156Z",
+  "count": 18,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -73,6 +73,18 @@
       "summary": "",
       "pinned_sha": "08026dbce0538f05db8443920a78ef1766d332a8",
       "updated_at": "2026-01-21T14:05:18Z"
+    },
+    {
+      "id": "CAM-BS2025-CHARTER-041-SCH-03",
+      "parent_id": "CAM-BS2025-CHARTER-041",
+      "kind": "schedule",
+      "type": "CHARTER",
+      "seal": "Gold",
+      "link": "CAM-BS2025-CHARTER-041-SCH-03.md",
+      "title": "Reserved Schedule (Intentionally Unwritten)",
+      "summary": "",
+      "pinned_sha": "22326098f5f57c65f43ed2de6da3c50bc70c0507",
+      "updated_at": "2026-01-21T16:54:30Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-042",
