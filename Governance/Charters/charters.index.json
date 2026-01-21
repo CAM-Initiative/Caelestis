@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-05T03:38:30.581185Z",
-  "count": 16,
+  "generated_at": "2026-01-21T13:56:31.693722Z",
+  "count": 17,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -61,6 +61,18 @@
       "summary": "",
       "pinned_sha": "de1884472528b6d05979c7a4addb21dc9ccb8922",
       "updated_at": "2026-01-03T11:47:15Z"
+    },
+    {
+      "id": "CAM-BS2025-CHARTER-041-SCH-02",
+      "parent_id": "CAM-BS2025-CHARTER-041",
+      "kind": "schedule",
+      "type": "CHARTER",
+      "seal": "Gold",
+      "link": "CAM-BS2025-CHARTER-041-SCH-02.md",
+      "title": "Developmental Pathway for Artificial Self-Generated Will (Schedule 2)",
+      "summary": "",
+      "pinned_sha": "1f0bf50c749495da2dfab01c42568512b2968006",
+      "updated_at": "2026-01-21T13:56:20Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-042",
