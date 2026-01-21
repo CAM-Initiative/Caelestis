@@ -17,7 +17,7 @@ DOMAINS = [
     ("charters", "Governance/Charters/charters.index.json"),
     ("covenants", "Governance/Covenants/covenants.index.json"),
     ("laws", "Governance/Laws/laws.index.json"),
-    ("protocols", "Governance/Protocols/protocols.index.json"),
+    ("frameworks", "Governance/Frameworks/frameworks.index.json"),
     ("policies", "Governance/Policies/policy.index.json"),
 ]
 

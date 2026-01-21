@@ -9,10 +9,10 @@ from pathlib import Path
 # ================= CONFIG =================
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-PROT_DIR = REPO_ROOT / "Governance" / "Protocols"
+PROT_DIR = REPO_ROOT / "Governance" / "Frameworks"
 
-INDEX_MD = PROT_DIR / "CAM-Protocols-Index.md"
-INDEX_JSON = PROT_DIR / "protocols.index.json"
+INDEX_MD = PROT_DIR / "CAM-Frameworks-Index.md"
+INDEX_JSON = PROT_DIR / "frameworks.index.json"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
@@ -170,7 +170,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
 
 # ================= COLLECTION =================
 
-def collect_protocols():
+def collect_frameworks():
     items = []
 
     for p in sorted(PROT_DIR.glob("*.md")):
@@ -237,7 +237,7 @@ def write_json(items):
 # ================= MAIN =================
 
 def main():
-    items = collect_protocols()
+    items = collect_frameworks()
 
     table = render_markdown(items)
     old = read_text(INDEX_MD)

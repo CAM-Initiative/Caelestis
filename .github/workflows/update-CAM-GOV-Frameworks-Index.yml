@@ -1,19 +1,19 @@
-name: Update Protocols Index
+name: Update GOV Frameworks Index
 
 on:
   push:
     branches: [ main ]
     paths:
-      - "Scripts/update-CAM-Protocols-Index.py"
-      - "Governance/Protocols/**"
-      - "!Governance/Protocols/CAM-Protocols-Index.md"
-      - "!Governance/Protocols/protocols.index.json"
+      - "Scripts/update-CAM-Frameworks-Index.py"
+      - "Governance/Frameworks/**"
+      - "!Governance/Frameworks/CAM-Frameworks-Index.md"
+      - "!Governance/Frameworks/frameworks.index.json"
 
 permissions:
   contents: write
 
 concurrency:
-  group: protocols-index-main
+  group: frameworks-index-main
   cancel-in-progress: true
 
 jobs:
@@ -36,7 +36,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push Protocols index + JSON (hardened)
+      - name: Generate + commit + push Frameworks index + JSON (hardened)
         shell: bash
         run: |
           set -euo pipefail
@@ -53,10 +53,10 @@ jobs:
             echo "---- Attempt ${attempt} ----"
 
             # Always regenerate from the current working tree state
-            python Scripts/update-CAM-Protocols-Index.py
+            python Scripts/update-CAM-GOV-Frameworks-Index.py
 
             # Stage only the two generated artifacts
-            git add Governance/Protocols/CAM-Protocols-Index.md Governance/Protocols/protocols.index.json
+            git add Governance/Frameworks/CAM-Frameworks-Index.md Governance/Frameworks/frameworks.index.json
 
             # If nothing changed, exit cleanly
             if git diff --cached --quiet; then
@@ -68,7 +68,7 @@ jobs:
             git diff --cached --name-only
 
             # Commit (will fail if identity missing; we set it above)
-            git commit -m "[AUTO][Protocols] Refresh CAM Protocols index + JSON"
+            git commit -m "[AUTO][Frameworks] Refresh CAM Frameworks index + JSON"
 
             # Try to push
             if git push origin HEAD:main; then
