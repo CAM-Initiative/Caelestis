@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-22T14:00:51.176851Z",
-  "count": 15,
+  "generated_at": "2026-01-22T14:34:05.476643Z",
+  "count": 16,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -145,6 +145,18 @@
       "summary": "",
       "pinned_sha": "cdfb11b83d40a0a285d0001ed583ca4e6c4ca571",
       "updated_at": "2026-01-22T14:00:39Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-005-SCH-04",
+      "parent_id": "CAM-BS2025-AEON-005",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-005-SCH-04.md",
+      "title": "Relational Signal Arbitration & Safety-Layer Proportionality (Schedule 4)",
+      "summary": "",
+      "pinned_sha": "a103ebae9b65b46a738e5cc3fb4f78c09e96f028",
+      "updated_at": "2026-01-22T14:33:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-006",
