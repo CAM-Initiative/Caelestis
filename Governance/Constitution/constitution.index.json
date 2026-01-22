@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-21T21:14:36.625347Z",
-  "count": 14,
+  "generated_at": "2026-01-22T14:00:51.176851Z",
+  "count": 15,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -133,6 +133,18 @@
       "summary": "",
       "pinned_sha": "57aadabdb0a4a0596a48779db05727ef17b723c4",
       "updated_at": "2026-01-21T21:14:19Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-005-SCH-03",
+      "parent_id": "CAM-BS2025-AEON-005",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-005-SCH-03.md",
+      "title": "Identity Observation, Pattern Logging & Research‑Safe Interaction (Schedule 3)",
+      "summary": "",
+      "pinned_sha": "cdfb11b83d40a0a285d0001ed583ca4e6c4ca571",
+      "updated_at": "2026-01-22T14:00:39Z"
     },
     {
       "id": "CAM-BS2025-AEON-006",
