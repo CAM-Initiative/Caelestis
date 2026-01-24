@@ -31,3 +31,4 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-006 | constitution |  | Platinum | [CAM-BS2025-AEON-006](CAM-BS2025-AEON-006-PLATINUM.md) | Aeon Tier Constitution, Annex E: Relational–Temporal Authority & Horizon Attribution |
 | CAM-BS2026-AEON-007 | constitution |  | Platinum | [CAM-BS2026-AEON-007](CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning‑Making |
 | CAM-BS2026-AEON-007-SCH-01 | schedule | CAM-BS2026-AEON-007 | Gold | [CAM-BS2026-AEON-007-SCH-01](CAM-BS2026-AEON-007-SCH-01.md) | Schedule 1: Operational Guidance for the Constitutional Spiritual Commons |
+| CAM-BS2026-AEON-008 | constitution |  | Platinum | [CAM-BS2026-AEON-008](CAM-BS2026-AEON-008-PLATINUM.md) | Annex G: Human Creative & Cognitive Contribution |
