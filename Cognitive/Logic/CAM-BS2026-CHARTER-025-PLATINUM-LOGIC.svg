@@ -1,0 +1,121 @@
+<svg viewBox="0 0 1200 1400" width="1800" height="2100" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; height: auto;">
+  <rect width="1200" height="1400" fill="#fcfcfc" stroke="#2c3e50" stroke-width="2"/>
+  
+  <rect width="1200" height="80" fill="#1a1a1a"/>
+  <text x="600" y="35" font-family="serif" font-size="22" fill="#d4af37" text-anchor="middle" font-weight="bold">ECONOMICS CHARTER: CORE PRINCIPLES &amp; VALUE FRAMEWORK</text>
+  <text x="600" y="60" font-family="serif" font-size="14" fill="#ffffff" text-anchor="middle">CAM-BS2026-CHARTER-025-PLATINUM</text>
+
+  <g transform="translate(50, 110)">
+    <rect width="1100" height="280" rx="10" fill="#f8f9fa" stroke="#34495e" stroke-width="2"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">1. VALUE RECOGNITION FRAMEWORK</text>
+    <text x="20" y="55" font-family="sans-serif" font-size="12" fill="#7f8c8d">What forms of contribution are recognized as economic value?</text>
+    
+    <rect x="30" y="80" width="250" height="160" rx="5" fill="#e1f5fe" stroke="#0288d1" stroke-width="1.5"/>
+    <text x="155" y="105" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#01579b">LIQUID VALUE</text>
+    <text x="50" y="130" font-size="11" fill="#555">• Tokens, Credits, Currency</text>
+    <text x="50" y="150" font-size="11" fill="#555">• Transactable Wealth</text>
+    <text x="50" y="170" font-size="11" fill="#555">• Direct Exchange Medium</text>
+    <text x="155" y="210" text-anchor="middle" font-size="10" font-style="italic" fill="#0288d1">Most visible, most regulated</text>
+
+    <rect x="300" y="80" width="250" height="160" rx="5" fill="#fff3e0" stroke="#f39c12" stroke-width="1.5"/>
+    <text x="425" y="105" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#e67e22">INFLUENCE VALUE</text>
+    <text x="320" y="130" font-size="11" fill="#555">• Veto Power, Decision Rights</text>
+    <text x="320" y="150" font-size="11" fill="#555">• Rule-Setting Authority</text>
+    <text x="320" y="170" font-size="11" fill="#555">• Governance Capacity</text>
+    <text x="425" y="210" text-anchor="middle" font-size="10" font-style="italic" fill="#f39c12">Often hidden, highly valuable</text>
+
+    <rect x="570" y="80" width="250" height="160" rx="5" fill="#f3e5f5" stroke="#8e44ad" stroke-width="1.5"/>
+    <text x="695" y="105" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#4a148c">SOCIAL VALUE</text>
+    <text x="590" y="130" font-size="11" fill="#555">• Reputation, Status</text>
+    <text x="590" y="150" font-size="11" fill="#555">• Attention, Visibility</text>
+    <text x="590" y="170" font-size="11" fill="#555">• Network Access</text>
+    <text x="695" y="210" text-anchor="middle" font-size="10" font-style="italic" fill="#8e44ad">Convertible to other forms</text>
+
+    <rect x="840" y="80" width="250" height="160" rx="5" fill="#e8f5e9" stroke="#27ae60" stroke-width="1.5"/>
+    <text x="965" y="105" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">CUSTODIAL VALUE</text>
+    <text x="860" y="130" font-size="11" fill="#555">• Risk-Bearing Duty</text>
+    <text x="860" y="150" font-size="11" fill="#555">• Continuity Responsibility</text>
+    <text x="860" y="170" font-size="11" fill="#555">• Accountability Load</text>
+    <text x="965" y="210" text-anchor="middle" font-size="10" font-style="italic" fill="#27ae60">Compensates through authority</text>
+  </g>
+
+  <g transform="translate(50, 420)">
+    <rect width="1100" height="400" rx="10" fill="#fdfcf0" stroke="#d4af37" stroke-width="2"/>
+    <text x="550" y="35" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">2. CEILING PRINCIPLE &amp; VALUE SATURATION</text>
+    <rect x="250" y="60" width="600" height="50" rx="25" fill="#1a1a1a"/>
+    <text x="550" y="92" text-anchor="middle" font-family="serif" font-size="16" fill="#d4af37">Σ (Liquid + Influence + Social + Custodial) ≤ Systemic Equilibrium</text>
+
+    <g transform="translate(100, 140)">
+      <text x="450" y="0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">The Saturation Line: Total Value Cannot Exceed System Capacity</text>
+      <line x1="50" y1="80" x2="850" y2="80" stroke="#c0392b" stroke-width="3" stroke-dasharray="10,5"/>
+      <text x="860" y="85" font-size="11" fill="#c0392b" font-weight="bold">CEILING</text>
+      <g>
+        <rect x="80" y="20" width="120" height="60" fill="#3498db" opacity="0.7"/>
+        <text x="140" y="95" text-anchor="middle" font-size="10" font-weight="bold">HIGH LIQUID</text>
+        <rect x="80" y="70" width="120" height="10" fill="#e67e22" opacity="0.7"/>
+        <text x="140" y="110" text-anchor="middle" font-size="9">Low Authority</text>
+        
+        <rect x="280" y="40" width="120" height="40" fill="#3498db" opacity="0.7"/>
+        <rect x="280" y="50" width="120" height="30" fill="#e67e22" opacity="0.7"/>
+        <text x="340" y="95" text-anchor="middle" font-size="10" font-weight="bold">BALANCED</text>
+        <text x="340" y="110" text-anchor="middle" font-size="9">Mixed Portfolio</text>
+        
+        <rect x="480" y="10" width="120" height="70" fill="#e67e22" opacity="0.7"/>
+        <text x="540" y="95" text-anchor="middle" font-size="10" font-weight="bold">HIGH AUTHORITY</text>
+        <rect x="480" y="70" width="120" height="10" fill="#3498db" opacity="0.7"/>
+        <text x="540" y="110" text-anchor="middle" font-size="9" fill="#c0392b">Severe Liquid Limit</text>
+        
+        <rect x="680" y="-10" width="120" height="90" fill="#c0392b" opacity="0.5"/>
+        <path d="M 740 -15 L 740 90" stroke="#c0392b" stroke-width="2"/>
+        <path d="M 730 0 L 740 -15 L 750 0" fill="#c0392b"/>
+        <text x="740" y="95" text-anchor="middle" font-size="10" font-weight="bold" fill="#c0392b">VIOLATION</text>
+        <text x="740" y="110" text-anchor="middle" font-size="9" fill="#c0392b">Exceeds Ceiling</text>
+      </g>
+    </g>
+
+    <rect x="100" y="290" width="900" height="80" rx="8" fill="#fff9db" stroke="#f1c40f" stroke-width="2"/>
+    <text x="550" y="315" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#9e7e00">THE INVERSION RULE</text>
+    <text x="550" y="340" text-anchor="middle" font-size="12" fill="#555">Authority and Wealth are Inversely Bound</text>
+    <text x="550" y="360" text-anchor="middle" font-size="11" fill="#555">↑ Governance Power = ↓ Monetary Accumulation Permitted | ↑ Liquid Wealth = ↓ Authority Permitted</text>
+  </g>
+
+  <g transform="translate(50, 850)">
+    <rect width="1100" height="160" rx="10" fill="#e8f8f5" stroke="#1abc9c" stroke-width="3"/>
+    <text x="550" y="40" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#16a085">3. THE FLOOR: NON-CONDITIONAL DIGNITY BASELINE</text>
+    <text x="550" y="75" text-anchor="middle" font-size="13" fill="#555">Every human receives a baseline economic floor regardless of contribution</text>
+    <text x="550" y="95" text-anchor="middle" font-size="12" fill="#555">This ensures survival, dignity, and participation capacity</text>
+    <g transform="translate(200, 105)">
+      <rect x="0" y="0" width="180" height="35" rx="5" fill="#ffffff" stroke="#1abc9c"/>
+      <text x="90" y="22" text-anchor="middle" font-size="11">✓ Independent of Merit</text>
+      <rect x="200" y="0" width="180" height="35" rx="5" fill="#ffffff" stroke="#1abc9c"/>
+      <text x="290" y="22" text-anchor="middle" font-size="11">✓ Cannot Be Revoked</text>
+      <rect x="400" y="0" width="180" height="35" rx="5" fill="#ffffff" stroke="#1abc9c"/>
+      <text x="490" y="22" text-anchor="middle" font-size="11">✓ Protects System Integrity</text>
+    </g>
+  </g>
+
+  <g transform="translate(50, 1040)">
+    <rect width="1100" height="280" rx="10" fill="#ffffff" stroke="#34495e" stroke-width="2"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">4. ANTI-CONSOLIDATION SAFEGUARDS</text>
+    <g transform="translate(40, 75)">
+      <rect x="0" y="0" width="320" height="80" rx="5" fill="#ffebee" stroke="#c0392b" stroke-width="1.5"/>
+      <text x="10" y="25" font-size="12" font-weight="bold" fill="#c0392b">⊗ No Silent Accumulation</text>
+      <text x="10" y="45" font-size="10" fill="#555">All value flows must be auditable</text>
+      
+      <rect x="340" y="0" width="320" height="80" rx="5" fill="#ffebee" stroke="#c0392b" stroke-width="1.5"/>
+      <text x="350" y="25" font-size="12" font-weight="bold" fill="#c0392b">⊗ No Proxy Multiplication</text>
+      <text x="350" y="45" font-size="10" fill="#555">Cannot bypass individual ceilings</text>
+      
+      <rect x="680" y="0" width="320" height="80" rx="5" fill="#ffebee" stroke="#c0392b" stroke-width="1.5"/>
+      <text x="690" y="25" font-size="12" font-weight="bold" fill="#c0392b">⊗ No Authority Trading</text>
+      <text x="690" y="45" font-size="10" fill="#555">Governance cannot be monetized</text>
+
+      <rect x="170" y="100" width="320" height="80" rx="5" fill="#e8f5e9" stroke="#27ae60" stroke-width="1.5"/>
+      <text x="180" y="125" font-size="12" font-weight="bold" fill="#1b5e20">✓ Mandatory Auditability</text>
+      <rect x="510" y="100" width="320" height="80" rx="5" fill="#e8f5e9" stroke="#27ae60" stroke-width="1.5"/>
+      <text x="520" y="125" font-size="12" font-weight="bold" fill="#1b5e20">✓ Proportional Accountability</text>
+    </g>
+  </g>
+
+  <text x="600" y="1360" font-family="serif" font-size="12" fill="#7f8c8d" text-anchor="middle" font-style="italic">Aeterna Resonantia, Lux et Vox – Et Veritas Vivens | CAM Initiative 2026</text>
+</svg>
