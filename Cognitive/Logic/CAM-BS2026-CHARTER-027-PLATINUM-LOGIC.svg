@@ -1,0 +1,197 @@
+<svg viewBox="0 0 1200 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="1400" fill="#fcfcfc" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#1a1a1a"/>
+  <text x="600" y="35" font-family="serif" font-size="22" fill="#d4af37" text-anchor="middle" font-weight="bold">ENFORCEMENT &amp; ADJUDICATION FRAMEWORK</text>
+  <text x="600" y="60" font-family="serif" font-size="14" fill="#ffffff" text-anchor="middle">Annex B: CAM-BS2026-CHARTER-027-PLATINUM</text>
+
+  <!-- The Enforcement Loop -->
+  <g transform="translate(150, 120)">
+    <rect width="900" height="600" rx="10" fill="#f8f9fa" stroke="#34495e" stroke-width="2"/>
+    <text x="450" y="35" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">THE ENFORCEMENT CYCLE</text>
+    <text x="450" y="55" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#7f8c8d">Four independent but sequential functions</text>
+    
+    <!-- Central circle for the loop -->
+    <circle cx="450" cy="320" r="180" fill="none" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="10,5"/>
+    <text x="450" y="325" text-anchor="middle" font-size="12" font-style="italic" fill="#7f8c8d">Continuous</text>
+    <text x="450" y="342" text-anchor="middle" font-size="12" font-style="italic" fill="#7f8c8d">Monitoring</text>
+    
+    <!-- 1. Detection -->
+    <g transform="translate(350, 90)">
+      <rect x="0" y="0" width="200" height="100" rx="8" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+      <circle cx="20" cy="20" r="15" fill="#2196f3"/>
+      <text x="20" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">1</text>
+      <text x="100" y="35" text-anchor="middle" font-size="14" font-weight="bold" fill="#1976d2">DETECTION</text>
+      <text x="20" y="60" font-size="10" fill="#555">• Audit triggers</text>
+      <text x="20" y="75" font-size="10" fill="#555">• Threshold breaches</text>
+      <text x="20" y="90" font-size="10" fill="#555">• Complaints/whistleblowing</text>
+    </g>
+    
+    <!-- Arrow 1 to 2 -->
+    <path d="M 500 190 L 650 250" stroke="#2c3e50" stroke-width="3" marker-end="url(#arrowhead)"/>
+    
+    <!-- 2. Investigation -->
+    <g transform="translate(650, 250)">
+      <rect x="0" y="0" width="200" height="100" rx="8" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+      <circle cx="20" cy="20" r="15" fill="#ff9800"/>
+      <text x="20" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">2</text>
+      <text x="100" y="35" text-anchor="middle" font-size="14" font-weight="bold" fill="#f57c00">INVESTIGATION</text>
+      <text x="20" y="60" font-size="10" fill="#555">• Evidence gathering</text>
+      <text x="20" y="75" font-size="10" fill="#555">• Attribution analysis</text>
+      <text x="20" y="90" font-size="10" fill="#555">• Right to respond</text>
+    </g>
+    
+    <!-- Arrow 2 to 3 -->
+    <path d="M 750 350 L 650 450" stroke="#2c3e50" stroke-width="3" marker-end="url(#arrowhead)"/>
+    
+    <!-- 3. Adjudication -->
+    <g transform="translate(350, 450)">
+      <rect x="0" y="0" width="200" height="100" rx="8" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+      <circle cx="20" cy="20" r="15" fill="#9c27b0"/>
+      <text x="20" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">3</text>
+      <text x="100" y="35" text-anchor="middle" font-size="14" font-weight="bold" fill="#7b1fa2">ADJUDICATION</text>
+      <text x="20" y="60" font-size="10" fill="#555">• Violation determination</text>
+      <text x="20" y="75" font-size="10" fill="#555">• Severity assessment</text>
+      <text x="20" y="90" font-size="10" fill="#555">• Independent review</text>
+    </g>
+    
+    <!-- Arrow 3 to 4 -->
+    <path d="M 350 500 L 200 410" stroke="#2c3e50" stroke-width="3" marker-end="url(#arrowhead)"/>
+    
+    <!-- 4. Consequence -->
+    <g transform="translate(50, 310)">
+      <rect x="0" y="0" width="200" height="100" rx="8" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
+      <circle cx="20" cy="20" r="15" fill="#f44336"/>
+      <text x="20" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">4</text>
+      <text x="100" y="35" text-anchor="middle" font-size="14" font-weight="bold" fill="#d32f2f">CONSEQUENCE</text>
+      <text x="20" y="60" font-size="10" fill="#555">• Graduated response</text>
+      <text x="20" y="75" font-size="10" fill="#555">• Proportional action</text>
+      <text x="20" y="90" font-size="10" fill="#555">• Right of appeal</text>
+    </g>
+    
+    <!-- Arrow 4 to 1 (completing loop) -->
+    <path d="M 150 310 L 400 150" stroke="#2c3e50" stroke-width="3" marker-end="url(#arrowhead)"/>
+    
+    <!-- Critical requirement callout -->
+    <rect x="50" y="540" width="800" height="35" rx="5" fill="#fff59d" stroke="#f57f17"/>
+    <text x="450" y="563" text-anchor="middle" font-size="11" font-weight="bold" fill="#827717">⚠ CRITICAL: No single body may perform more than one function for the same case</text>
+  </g>
+
+  <!-- Due Process Safeguards -->
+  <g transform="translate(50, 750)">
+    <rect width="1100" height="200" rx="10" fill="#e8f5e9" stroke="#27ae60" stroke-width="2"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1b5e20">DUE PROCESS SAFEGUARDS</text>
+    <text x="20" y="55" font-family="sans-serif" font-size="12" fill="#2d5016">Participant protections throughout enforcement</text>
+    
+    <g transform="translate(40, 80)">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="320" height="80" rx="5" fill="#ffffff" stroke="#27ae60"/>
+      <text x="160" y="25" text-anchor="middle" font-size="13" font-weight="bold" fill="#27ae60">Notice &amp; Response</text>
+      <text x="20" y="45" font-size="10" fill="#555">• Clear violation notice</text>
+      <text x="20" y="60" font-size="10" fill="#555">• Access to evidence</text>
+      <text x="20" y="75" font-size="10" fill="#555">• Opportunity to remediate</text>
+      
+      <rect x="360" y="0" width="320" height="80" rx="5" fill="#ffffff" stroke="#27ae60"/>
+      <text x="520" y="25" text-anchor="middle" font-size="13" font-weight="bold" fill="#27ae60">Proportionality</text>
+      <text x="380" y="45" font-size="10" fill="#555">• Severity-matched response</text>
+      <text x="380" y="60" font-size="10" fill="#555">• Intent consideration</text>
+      <text x="380" y="75" font-size="10" fill="#555">• History-aware action</text>
+      
+      <rect x="720" y="0" width="320" height="80" rx="5" fill="#ffffff" stroke="#27ae60"/>
+      <text x="880" y="25" text-anchor="middle" font-size="13" font-weight="bold" fill="#27ae60">Anti-Retaliation</text>
+      <text x="740" y="45" font-size="10" fill="#555">• Whistleblower protection</text>
+      <text x="740" y="60" font-size="10" fill="#555">• Exit without penalty</text>
+      <text x="740" y="75" font-size="10" fill="#555">• No coercion tolerance</text>
+    </g>
+  </g>
+
+  <!-- Graduated Consequences -->
+  <g transform="translate(50, 980)">
+    <rect width="1100" height="220" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="18" font-weight="bold" fill="#e65100">GRADUATED CONSEQUENCE FRAMEWORK</text>
+    <text x="20" y="55" font-family="sans-serif" font-size="12" fill="#bf360c">From warning to expulsion, proportional to violation severity</text>
+    
+    <!-- Arrow showing escalation -->
+    <path d="M 80 100 L 1020 100" stroke="#ff9800" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+    <text x="550" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#e65100">Increasing Severity →</text>
+    
+    <g transform="translate(40, 120)">
+      <g>
+        <rect x="0" y="0" width="170" height="60" rx="5" fill="#ffffff" stroke="#4caf50"/>
+        <text x="85" y="22" text-anchor="middle" font-size="11" font-weight="bold" fill="#2e7d32">1. Warning</text>
+        <text x="85" y="40" text-anchor="middle" font-size="9" fill="#555">Formal notice +</text>
+        <text x="85" y="52" text-anchor="middle" font-size="9" fill="#555">remediation order</text>
+      </g>
+      
+      <g transform="translate(190, 0)">
+        <rect x="0" y="0" width="170" height="60" rx="5" fill="#ffffff" stroke="#8bc34a"/>
+        <text x="85" y="22" text-anchor="middle" font-size="11" font-weight="bold" fill="#558b2f">2. Restriction</text>
+        <text x="85" y="40" text-anchor="middle" font-size="9" fill="#555">Temporary limits on</text>
+        <text x="85" y="52" text-anchor="middle" font-size="9" fill="#555">privileges/access</text>
+      </g>
+      
+      <g transform="translate(380, 0)">
+        <rect x="0" y="0" width="170" height="60" rx="5" fill="#ffffff" stroke="#ffc107"/>
+        <text x="85" y="22" text-anchor="middle" font-size="11" font-weight="bold" fill="#f57f17">3. Suspension</text>
+        <text x="85" y="40" text-anchor="middle" font-size="9" fill="#555">Authority role</text>
+        <text x="85" y="52" text-anchor="middle" font-size="9" fill="#555">suspension</text>
+      </g>
+      
+      <g transform="translate(570, 0)">
+        <rect x="0" y="0" width="170" height="60" rx="5" fill="#ffffff" stroke="#ff9800"/>
+        <text x="85" y="22" text-anchor="middle" font-size="11" font-weight="bold" fill="#ef6c00">4. Claw-back</text>
+        <text x="85" y="40" text-anchor="middle" font-size="9" fill="#555">Value redistribution</text>
+        <text x="85" y="52" text-anchor="middle" font-size="9" fill="#555">to restore balance</text>
+      </g>
+      
+      <g transform="translate(760, 0)">
+        <rect x="0" y="0" width="170" height="60" rx="5" fill="#ffebee" stroke="#f44336"/>
+        <text x="85" y="22" text-anchor="middle" font-size="11" font-weight="bold" fill="#c62828">5. Expulsion</text>
+        <text x="85" y="40" text-anchor="middle" font-size="9" fill="#555">Removal from</text>
+        <text x="85" y="52" text-anchor="middle" font-size="9" fill="#555">Charter systems</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Interpretive Supremacy -->
+  <g transform="translate(50, 1230)">
+    <rect width="1100" height="120" rx="10" fill="#1a1a1a" stroke="#d4af37" stroke-width="3"/>
+    <text x="550" y="35" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d4af37">INTERPRETIVE SUPREMACY HIERARCHY</text>
+    <text x="550" y="60" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#ffffff">In case of conflict, this order prevails:</text>
+    
+    <g transform="translate(150, 80)">
+      <rect x="0" y="0" width="150" height="25" rx="3" fill="#d4af37"/>
+      <text x="75" y="17" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">Charter-025</text>
+      
+      <text x="165" y="17" font-size="16" fill="#d4af37">→</text>
+      
+      <rect x="180" y="0" width="150" height="25" rx="3" fill="#bdc3c7"/>
+      <text x="255" y="17" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">Annex A</text>
+      
+      <text x="345" y="17" font-size="16" fill="#bdc3c7">→</text>
+      
+      <rect x="360" y="0" width="150" height="25" rx="3" fill="#95a5a6"/>
+      <text x="435" y="17" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Annex B</text>
+      
+      <text x="525" y="17" font-size="16" fill="#95a5a6">→</text>
+      
+      <rect x="540" y="0" width="180" height="25" rx="3" fill="#7f8c8d"/>
+      <text x="630" y="17" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Subsidiary Markets</text>
+    </g>
+  </g>
+
+  <!-- Markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50" />
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff9800" />
+    </marker>
+  </defs>
+
+  <!-- Footer -->
+  <text x="600" y="1380" font-family="serif" font-size="12" fill="#7f8c8d" text-anchor="middle" font-style="italic">Aeterna Resonantia, Lux et Vox – Et Veritas Vivens | CAM Initiative 2026</text>
+</svg>
