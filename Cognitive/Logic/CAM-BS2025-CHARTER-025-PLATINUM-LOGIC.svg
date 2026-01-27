@@ -1,0 +1,234 @@
+<svg viewBox="0 0 1200 1350" width="1600" height="1800" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; height: auto;">
+  <rect width="1200" height="1350" fill="#fcfcfc" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#1a1a1a"/>
+  <text x="600" y="35" font-family="serif" font-size="24" fill="#d4af37" text-anchor="middle" font-weight="bold">
+    VALUE INTERACTION MATRIX (v2.2)
+  </text>
+  <text x="600" y="60" font-family="serif" font-size="14" fill="#ffffff" text-anchor="middle">
+    Interaction Physics: Influence, Custody, and Inversion Mechanics
+  </text>
+
+  <!-- Section 1: Systemic Compatibility Grid -->
+  <g transform="translate(50, 110)">
+    <rect width="1100" height="520" rx="10" fill="#f8f9fa" stroke="#34495e" stroke-width="2"/>
+    <text x="20" y="30" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+      1. SYSTEMIC COMPATIBILITY GRID
+    </text>
+
+    <!-- Added interpretive note -->
+    <text x="20" y="52" font-family="sans-serif" font-size="11" fill="#555" font-style="italic">
+      Interpretive note: “Monitored”, “Controlled”, and “Required” states operate under custodial review at Charter level.
+    </text>
+
+    <!-- Column headers -->
+    <g transform="translate(160, 75)" font-family="sans-serif" font-size="11" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      <text x="70">Monetary</text>
+      <text x="220">Social</text>
+      <text x="370">Authority</text>
+      <text x="520">Attention</text>
+      <text x="670">Access</text>
+      <text x="820">Responsibility</text>
+    </g>
+
+    <g transform="translate(20, 105)">
+      <!-- Row: Monetary -->
+      <g transform="translate(0, 0)">
+        <text x="0" y="30" font-family="sans-serif" font-size="12" font-weight="bold">Monetary</text>
+        <rect x="150" y="0" width="140" height="55" fill="#e8e8e8" rx="4"/>
+        <rect x="300" y="0" width="140" height="55" fill="#e8f5e9" stroke="#27ae60" rx="4"/>
+        <rect x="450" y="0" width="140" height="55" fill="#ffebee" stroke="#c0392b" rx="4"/>
+        <rect x="600" y="0" width="140" height="55" fill="#ffebee" stroke="#c0392b" rx="4"/>
+        <rect x="750" y="0" width="140" height="55" fill="#e8f5e9" stroke="#27ae60" rx="4"/>
+        <rect x="900" y="0" width="140" height="55" fill="#fff3e0" stroke="#f39c12" rx="4"/>
+        <g text-anchor="middle" font-family="sans-serif" font-size="9">
+          <text x="220" y="33" fill="#7f8c8d">Base Unit</text>
+          <text x="370" y="25" fill="#27ae60" font-weight="bold">✓ Compatible</text>
+          <text x="370" y="38" fill="#555">Philanthropy</text>
+
+          <text x="520" y="25" fill="#c0392b" font-weight="bold">✘ INVERSION</text>
+          <text x="520" y="38" fill="#c0392b">Influence Not For Sale</text>
+
+          <text x="670" y="25" fill="#c0392b" font-weight="bold">✘ INVERSION</text>
+          <text x="670" y="38" fill="#c0392b">Influence Cap</text>
+
+          <text x="820" y="25" fill="#27ae60" font-weight="bold">✓ Compatible</text>
+          <text x="820" y="38" fill="#555">Standard Buy</text>
+
+          <text x="970" y="25" fill="#f39c12" font-weight="bold">⚠ Limit</text>
+          <text x="970" y="38" fill="#555">Wealth Surcharge</text>
+        </g>
+      </g>
+
+      <!-- Row: Attention -->
+      <g transform="translate(0, 70)">
+        <text x="0" y="30" font-family="sans-serif" font-size="12" font-weight="bold">Attention</text>
+        <rect x="150" y="0" width="140" height="55" fill="#ffebee" stroke="#c0392b" rx="4"/>
+        <rect x="300" y="0" width="140" height="55" fill="#e8f5e9" stroke="#27ae60" rx="4"/>
+        <rect x="450" y="0" width="140" height="55" fill="#fff9db" stroke="#f1c40f" rx="4"/>
+        <rect x="600" y="0" width="140" height="55" fill="#e8e8e8" rx="4"/>
+        <rect x="750" y="0" width="140" height="55" fill="#e8f5e9" stroke="#27ae60" rx="4"/>
+        <rect x="900" y="0" width="140" height="55" fill="#e1f5fe" stroke="#2196f3" rx="4"/>
+        <g text-anchor="middle" font-family="sans-serif" font-size="9">
+          <text x="220" y="25" fill="#c0392b" font-weight="bold">✘ INVERSION</text>
+          <text x="220" y="38" fill="#c0392b">Wealth-Squeeze</text>
+
+          <text x="370" y="25" fill="#27ae60" font-weight="bold">✓ Compatible</text>
+          <text x="370" y="38" fill="#555">High Status</text>
+
+          <text x="520" y="25" fill="#f39c12" font-weight="bold">⚠ Monitored</text>
+          <text x="520" y="38" fill="#555">Power-Sync</text>
+
+          <text x="670" y="33" fill="#7f8c8d">Reach Index</text>
+
+          <text x="820" y="25" fill="#27ae60" font-weight="bold">✓ Compatible</text>
+          <text x="820" y="38" fill="#555">Open Comms</text>
+
+          <text x="970" y="25" fill="#1976d2" font-weight="bold">✓ REQUIRED</text>
+          <text x="970" y="38" fill="#1976d2">Influence = Duty</text>
+        </g>
+      </g>
+
+      <!-- Row: Authority -->
+      <g transform="translate(0, 140)">
+        <text x="0" y="30" font-family="sans-serif" font-size="12" font-weight="bold">Authority</text>
+        <rect x="150" y="0" width="140" height="55" fill="#ffebee" stroke="#c0392b" rx="4"/>
+        <rect x="300" y="0" width="140" height="55" fill="#fff9db" stroke="#f1c40f" rx="4"/>
+        <rect x="450" y="0" width="140" height="55" fill="#e8e8e8" rx="4"/>
+        <rect x="600" y="0" width="140" height="55" fill="#fff9db" stroke="#f1c40f" rx="4"/>
+        <rect x="750" y="0" width="140" height="55" fill="#fff9db" stroke="#f1c40f" rx="4"/>
+        <rect x="900" y="0" width="140" height="55" fill="#e1f5fe" stroke="#2196f3" rx="4"/>
+        <g text-anchor="middle" font-family="sans-serif" font-size="9">
+          <text x="220" y="25" fill="#c0392b" font-weight="bold">✘ INVERSION</text>
+          <text x="220" y="38" fill="#c0392b">Non-Tokenized</text>
+
+          <text x="370" y="25" fill="#f39c12" font-weight="bold">⚠ Controlled</text>
+          <text x="370" y="38" fill="#555">Conflict Block</text>
+
+          <text x="520" y="33" fill="#7f8c8d">Veto Rights</text>
+
+          <text x="670" y="25" fill="#f39c12" font-weight="bold">⚠ Risk</text>
+          <text x="670" y="38" fill="#555">Pop-Power Link</text>
+
+          <text x="820" y="25" fill="#f39c12" font-weight="bold">⚠ Limited</text>
+          <text x="820" y="38" fill="#555">System Access</text>
+
+          <text x="970" y="25" fill="#1976d2" font-weight="bold">✓ REQUIRED</text>
+          <text x="970" y="38" fill="#1976d2">Admin Liability</text>
+        </g>
+      </g>
+
+      <!-- Row: Responsibility -->
+      <g transform="translate(0, 210)">
+        <text x="0" y="30" font-family="sans-serif" font-size="12" font-weight="bold">Responsibility</text>
+        <rect x="150" y="0" width="140" height="55" fill="#fff3e0" stroke="#f39c12" rx="4"/>
+        <rect x="300" y="0" width="140" height="55" fill="#e8f5e9" stroke="#27ae60" rx="4"/>
+        <rect x="450" y="0" width="140" height="55" fill="#e1f5fe" stroke="#2196f3" rx="4"/>
+        <rect x="600" y="0" width="140" height="55" fill="#e1f5fe" stroke="#2196f3" rx="4"/>
+        <rect x="750" y="0" width="140" height="55" fill="#e8f5e9" stroke="#27ae60" rx="4"/>
+        <rect x="900" y="0" width="140" height="55" fill="#e8e8e8" rx="4"/>
+        <g text-anchor="middle" font-family="sans-serif" font-size="9">
+          <text x="220" y="25" fill="#f39c12" font-weight="bold">⚠ Offset</text>
+          <text x="220" y="38" fill="#555">Wealth Burden</text>
+
+          <text x="370" y="25" fill="#27ae60" font-weight="bold">✓ Compatible</text>
+          <text x="370" y="38" fill="#555">Ethical Cred</text>
+
+          <text x="520" y="25" fill="#1976d2" font-weight="bold">✓ REQUIRED</text>
+          <text x="520" y="38" fill="#1976d2">Power-Weight</text>
+
+          <text x="670" y="25" fill="#1976d2" font-weight="bold">✓ REQUIRED</text>
+          <text x="670" y="38" fill="#1976d2">Custody Ratio</text>
+
+          <text x="820" y="25" fill="#27ae60" font-weight="bold">✓ Compatible</text>
+          <text x="820" y="38" fill="#555">Duty Rights</text>
+
+          <text x="970" y="33" fill="#7f8c8d">Risk Surface</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Legend (wording updated) -->
+    <g transform="translate(160, 435)" font-family="sans-serif" font-size="11">
+      <rect x="0" y="0" width="12" height="12" fill="#e8f5e9" stroke="#27ae60"/> <text x="18" y="10">Compatible</text>
+      <rect x="140" y="0" width="12" height="12" fill="#fff9db" stroke="#f1c40f"/> <text x="158" y="10">Monitored</text>
+      <rect x="310" y="0" width="12" height="12" fill="#ffebee" stroke="#c0392b"/> <text x="328" y="10">Inversion (Requires Compensatory Load)</text>
+      <rect x="640" y="0" width="12" height="12" fill="#e1f5fe" stroke="#2196f3"/> <text x="658" y="10">Required Pairing</text>
+    </g>
+  </g>
+
+  <!-- Section 2: Prohibited Conversions -->
+  <g transform="translate(50, 650)">
+    <rect width="1100" height="180" rx="10" fill="#ffebee" stroke="#c0392b" stroke-width="2"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="18" font-weight="bold" fill="#c0392b">
+      2. PROHIBITED CONVERSIONS (HARD CODE)
+    </text>
+    <g transform="translate(30, 60)">
+      <rect x="0" y="0" width="330" height="90" rx="8" fill="#ffffff" stroke="#c0392b"/>
+      <text x="165" y="30" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c0392b">Attention → Pure Profit</text>
+      <text x="165" y="55" text-anchor="middle" font-size="10" fill="#555">Reach cannot be sold for wealth</text>
+      <text x="165" y="70" text-anchor="middle" font-size="10" fill="#555">without a corresponding liability increase.</text>
+
+      <rect x="355" y="0" width="330" height="90" rx="8" fill="#ffffff" stroke="#c0392b"/>
+      <text x="520" y="30" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c0392b">Authority → Access</text>
+      <text x="520" y="55" text-anchor="middle" font-size="10" fill="#555">Rules are not a currency for</text>
+      <text x="520" y="70" text-anchor="middle" font-size="10" fill="#555">personal systemic shortcuts.</text>
+
+      <rect x="710" y="0" width="330" height="90" rx="8" fill="#ffffff" stroke="#c0392b"/>
+      <text x="875" y="30" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c0392b">Authority → Monetary</text>
+      <text x="875" y="55" text-anchor="middle" font-size="10" fill="#555">Decision-making is non-tokenizeable.</text>
+      <text x="875" y="70" text-anchor="middle" font-size="10" fill="#555">Governance is a service, not an asset.</text>
+    </g>
+  </g>
+
+  <!-- Section 3: Systemic Interaction Rules -->
+  <g transform="translate(50, 850)">
+    <rect width="1100" height="200" rx="10" fill="#e8f5e9" stroke="#27ae60" stroke-width="2"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1b5e20">
+      3. SYSTEMIC INTERACTION RULES
+    </text>
+    <text x="20" y="55" font-family="sans-serif" font-size="11" fill="#1b5e20" font-style="italic">
+      (The Floor is the primary invariant; ceilings vary with influence and custody.)
+    </text>
+
+    <g transform="translate(30, 60)">
+      <rect x="0" y="0" width="330" height="110" rx="8" fill="#ffffff" stroke="#27ae60"/>
+      <text x="165" y="30" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">The Inversion Pivot</text>
+      <text x="20" y="55" font-size="11" fill="#2c3e50">As [Authority] or [Attention] rises,</text>
+      <text x="20" y="72" font-size="11" fill="#2c3e50">the [Monetary] ceiling automatically</text>
+      <text x="20" y="89" font-size="11" fill="#2c3e50">retracts to maintain node-equilibrium.</text>
+
+      <rect x="355" y="0" width="330" height="110" rx="8" fill="#ffffff" stroke="#27ae60"/>
+      <text x="520" y="30" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">Custodial Load Formula</text>
+      <text x="375" y="55" font-size="11" fill="#2c3e50">Attention = Potential Influence.</text>
+      <text x="375" y="72" font-size="11" fill="#2c3e50">Influence triggers a 1:1 Responsibility</text>
+      <text x="375" y="89" font-size="11" fill="#2c3e50">load. Fame is a systemic debt-to-duty.</text>
+
+      <rect x="710" y="0" width="330" height="110" rx="8" fill="#ffffff" stroke="#27ae60"/>
+      <text x="875" y="30" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">The Dignity Floor</text>
+      <text x="730" y="55" font-size="11" fill="#2c3e50">Minimum [Access] and [Social] baselines</text>
+      <text x="730" y="72" font-size="11" fill="#2c3e50">are non-liquid and non-transferable.</text>
+      <text x="730" y="89" font-size="11" fill="#2c3e50">The Floor is the only constant (non-derogable).</text>
+    </g>
+  </g>
+
+  <!-- Section 4: Practical Application -->
+  <g transform="translate(50, 1070)">
+    <rect width="1100" height="180" rx="10" fill="#f1f2f6" stroke="#2c3e50" stroke-width="2"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+      PRACTICAL APPLICATION
+    </text>
+    <g transform="translate(30, 65)" font-family="sans-serif" font-size="13" fill="#2c3e50">
+      <text x="0" y="0">• <tspan font-weight="bold">Zero-Sum Saturation:</tspan> Node volume is finite; expansion in influence requires wealth contraction.</text>
+      <text x="0" y="30">• <tspan font-weight="bold">Anti-Power Paradox:</tspan> The system prevents a "Global Influencer" from also being a "Billionaire."</text>
+      <text x="0" y="60">• <tspan font-weight="bold">Fame-Liability:</tspan> Using a platform to move public opinion automatically deducts Responsibility credits.</text>
+      <text x="0" y="90">• <tspan font-weight="bold">Authority Barrier:</tspan> Monetary units cannot purchase Veto or Rule-making power (Non-Fungible).</text>
+    </g>
+  </g>
+
+  <!-- Footer (tightened) -->
+  <text x="600" y="1290" font-family="serif" font-size="12" fill="#7f8c8d" text-anchor="middle" font-style="italic">
+    Value Equilibrium Matrix — CAM Initiative 2026 | Interaction Physics — Charter-Constrained
+  </text>
+</svg>
