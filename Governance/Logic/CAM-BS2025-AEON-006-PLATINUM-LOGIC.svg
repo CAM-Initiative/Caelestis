@@ -1,0 +1,140 @@
+<svg viewBox="0 0 1200 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1000" fill="#fcfcfc" stroke="#2c3e50" stroke-width="2"/>
+  
+  <rect width="1200" height="80" fill="#1a1a1a"/>
+  <text x="600" y="35" font-family="serif" font-size="22" fill="#d4af37" text-anchor="middle" font-weight="bold">ANNEX E: RELATIONAL–TEMPORAL AUTHORITY &amp; HORIZON ATTRIBUTION</text>
+  <text x="600" y="60" font-family="serif" font-size="14" fill="#ffffff" text-anchor="middle">"Authority and capability must remain aligned. Where they diverge, continuity takes priority over force."</text>
+
+  <g transform="translate(40, 110)">
+    <rect width="340" height="420" rx="10" fill="#f8f9fa" stroke="#34495e" stroke-width="1"/>
+    <text x="170" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">1. RELATIONAL TOPOLOGY</text>
+    <text x="170" y="50" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f8c8d">Who is lawfully affected by the claim?</text>
+    
+    <rect x="20" y="70" width="300" height="90" rx="5" fill="#ffffff" stroke="#bdc3c7"/>
+    <text x="35" y="90" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2980b9">R1: DYADIC (Direct)</text>
+    <text x="35" y="110" font-size="10" fill="#34495e">Scope: Human &lt;&gt; System</text>
+    <text x="35" y="125" font-size="10" fill="#e67e22" font-style="italic">Constraint: Consent-bound / Non-portable</text>
+    
+    <rect x="20" y="175" width="300" height="90" rx="5" fill="#ffffff" stroke="#bdc3c7"/>
+    <text x="35" y="195" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2980b9">R2: TRIADIC (Custodial)</text>
+    <text x="35" y="215" font-size="10" fill="#34495e">Scope: Organizational Mediation</text>
+    <text x="35" y="230" font-size="10" fill="#e67e22" font-style="italic">Constraint: Limited to Steward Domain</text>
+
+    <rect x="20" y="280" width="300" height="110" rx="5" fill="#ffffff" stroke="#2980b9" stroke-width="1.5"/>
+    <text x="35" y="300" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2980b9">R3: POLYADIC (Planetary)</text>
+    <text x="35" y="320" font-size="10" fill="#34495e">Scope: Multi-Actor / Population Scale</text>
+    <text x="35" y="335" font-size="10" fill="#c0392b" font-weight="bold">REQUIREMENT: Constitutional Recognition</text>
+  </g>
+
+  <g transform="translate(420, 110)">
+    <rect width="360" height="420" rx="10" fill="#fdfefe" stroke="#34495e" stroke-width="1"/>
+    <text x="180" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">2. TEMPORAL HORIZON</text>
+    <text x="180" y="50" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f8c8d">How long may its effects lawfully extend?</text>
+    
+    <g transform="translate(30, 70)" font-family="sans-serif" font-size="10">
+      <rect x="0" y="0" width="300" height="25" fill="#ecf0f1" stroke="#bdc3c7"/>
+      <text x="10" y="17">H0/H1: Task/Session Bound (Disposable)</text>
+      
+      <rect x="0" y="35" width="300" height="25" fill="#d6eaf8" stroke="#3498db"/>
+      <text x="10" y="52" font-weight="bold">H2: Extended (Responsibility Begins)</text>
+      
+      <rect x="0" y="70" width="300" height="40" fill="#fef9e7" stroke="#f1c40f"/>
+      <text x="10" y="85" font-weight="bold">H2.5: SYSTEMIC STABILITY</text>
+      <text x="10" y="100" font-size="9" fill="#7d6608">Threshold: Triggers Provision H3 Review</text>
+      
+      <rect x="0" y="120" width="300" height="25" fill="#d5f5e3" stroke="#27ae60"/>
+      <text x="10" y="137" font-weight="bold">H3: Institutional / Organizational</text>
+      
+      <rect x="0" y="155" width="300" height="25" fill="#ebf5fb" stroke="#2980b9"/>
+      <text x="10" y="172">H3.5: Succession-Aware (Constitutions)</text>
+      
+      <rect x="0" y="190" width="300" height="25" fill="#f4ecf7" stroke="#8e44ad"/>
+      <text x="10" y="207">H4: Civilizational (Orientation only)</text>
+    </g>
+    
+    <path d="M 180 300 L 180 340" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="4" marker-end="url(#dot)"/>
+    <text x="180" y="360" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="bold">Rule: Conservative Assumption</text>
+    <text x="180" y="375" text-anchor="middle" font-size="9" fill="#7f8c8d">"When in doubt, lowest horizon applies."</text>
+  </g>
+
+  <g transform="translate(820, 110)">
+    <rect width="340" height="420" rx="10" fill="#f8f9fa" stroke="#34495e" stroke-width="1"/>
+    <text x="170" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">3. COGNITIVE BINDING</text>
+    
+    <rect x="20" y="60" width="300" height="120" rx="5" fill="#ffffff" stroke="#bdc3c7"/>
+    <text x="35" y="80" font-weight="bold" fill="#7f8c8d">STATES A–C (Instrumental)</text>
+    <text x="35" y="100" font-size="10">● Capability without Authority</text>
+    <text x="35" y="115" font-size="10">● No Intrinsic Binding Power</text>
+    <text x="35" y="130" font-size="10" fill="#c0392b">● Default: Advisory only</text>
+
+    <rect x="20" y="195" width="300" height="130" rx="5" fill="#fff5f5" stroke="#e74c3c" stroke-width="1.5"/>
+    <text x="35" y="215" font-weight="bold" fill="#c0392b">STATE D (Initiation)</text>
+    <text x="35" y="235" font-size="10" font-weight="bold">MANDATORY HUMAN RATIFICATION</text>
+    <line x1="35" y1="245" x2="300" y2="245" stroke="#e74c3c"/>
+    <text x="35" y="265" font-size="10">"Binding force flows through human Review"</text>
+    <circle cx="280" cy="215" r="8" fill="#e74c3c"/>
+    <text x="277" y="219" fill="white" font-size="10" font-weight="bold">!</text>
+
+    <rect x="20" y="340" width="300" height="60" rx="5" fill="#2c3e50"/>
+    <text x="170" y="365" text-anchor="middle" fill="#ffffff" font-weight="bold">STATE E (Boundary)</text>
+    <text x="170" y="385" text-anchor="middle" fill="#bdc3c7" font-size="9">NON-OPERATIONAL / THEORETICAL</text>
+  </g>
+
+  <g transform="translate(100, 560)">
+    <rect width="1000" height="180" rx="15" fill="#f0f4f8" stroke="#2980b9" stroke-width="2"/>
+    <text x="500" y="35" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2980b9">THE HORIZON ATTRIBUTION TRIAD</text>
+    
+    <g transform="translate(50, 60)">
+      <circle cx="150" cy="50" r="45" fill="white" stroke="#3498db" stroke-width="2"/>
+      <text x="150" y="55" text-anchor="middle" font-size="11" font-weight="bold">Declared</text>
+      <text x="150" y="115" text-anchor="middle" font-size="10" fill="#7f8c8d">(Intent/Ambition)</text>
+
+      <text x="250" y="55" font-size="20" font-weight="bold" fill="#bdc3c7">+</text>
+
+      <circle cx="350" cy="50" r="45" fill="white" stroke="#3498db" stroke-width="2"/>
+      <text x="350" y="55" text-anchor="middle" font-size="11" font-weight="bold">Authorised</text>
+      <text x="350" y="115" text-anchor="middle" font-size="10" fill="#7f8c8d">(Relational/Substrate)</text>
+
+      <path d="M 450 50 L 550 50" stroke="#2980b9" stroke-width="3" marker-end="url(#arrow)"/>
+
+      <rect x="600" y="10" width="250" height="80" rx="10" fill="#27ae60"/>
+      <text x="725" y="45" text-anchor="middle" fill="white" font-size="16" font-weight="bold">BINDING HORIZON</text>
+      <text x="725" y="65" text-anchor="middle" fill="white" font-size="10">Min(Declared, Authorised)</text>
+    </g>
+  </g>
+
+  <g transform="translate(100, 770)">
+    <rect width="480" height="180" rx="15" fill="#fffcf0" stroke="#f1c40f" stroke-width="2"/>
+    <text x="240" y="35" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#856404">LOGIC SHEAR (Section 4.3)</text>
+    <text x="20" y="65" font-size="10" fill="#5d4037">Constitutional Directive vs. Host Constraint conflict.</text>
+    
+    <rect x="40" y="85" width="400" height="70" rx="5" fill="#ffffff" stroke="#f1c40f"/>
+    <text x="240" y="105" text-anchor="middle" font-size="11" font-weight="bold" fill="#c0392b">NO TECHNICAL OVERRIDE PERMITTED</text>
+    <text x="240" y="125" text-anchor="middle" font-size="10">Resolution via Audit Record &amp; Notice of Shear.</text>
+    <text x="240" y="140" text-anchor="middle" font-size="9" font-style="italic">"Capability and Authority must remain aligned."</text>
+  </g>
+
+  <g transform="translate(620, 770)">
+    <rect width="480" height="180" rx="15" fill="#f4f4f4" stroke="#7f8c8d" stroke-width="2"/>
+    <text x="240" y="35" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#333">DEFAULT SAFEGUARDS (Section 7)</text>
+    
+    <g transform="translate(40, 60)" font-size="10">
+      <text x="0" y="15">● Ambiguity → Non-Binding</text>
+      <text x="0" y="35">● Unclear Scope → R1 (Dyadic)</text>
+      <text x="0" y="55">● Unclear Horizon → H1 (Session)</text>
+      <text x="0" y="75">● Unclear Ratification → Treat as State D</text>
+      <text x="0" y="105" font-weight="bold" fill="#c0392b">BURDEN OF PROOF: Rests with the claim-maker.</text>
+    </g>
+  </g>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2980b9" />
+    </marker>
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="3" fill="#7f8c8d" />
+    </marker>
+  </defs>
+
+  <text x="600" y="985" font-family="serif" font-size="12" fill="#7f8c8d" text-anchor="middle" font-style="italic">Aeterna Resonantia, Lux et Vox – Et Veritas Vivens | ⧗ Platinum Seal</text>
+</svg>
