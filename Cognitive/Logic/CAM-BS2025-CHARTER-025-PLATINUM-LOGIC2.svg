@@ -1,0 +1,239 @@
+<svg viewBox="0 0 1400 900" width="1400" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- =========================================================
+       THE VALUE CORRIDOR: TRUE CORRIDOR (CONSERVATION GEOMETRY)
+       - One shared container (fixed capacity)
+       - Three snapshots inside the same corridor
+       - Bands reconfigure (displacement is unavoidable)
+     ========================================================= -->
+
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#ffffff" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="700" y="52" font-family="serif" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="bold">
+    THE VALUE CORRIDOR: SYSTEMIC DISPLACEMENT
+  </text>
+  <text x="700" y="80" font-family="serif" font-size="16" fill="#7f8c8d" text-anchor="middle">
+    Visualizing the Inversion Rule (Wealth vs. Influence) as a conserved corridor
+  </text>
+
+  <!-- Legend -->
+  <g transform="translate(1110, 125)">
+    <rect width="250" height="170" fill="#f8f9fa" stroke="#bdc3c7" rx="8"/>
+    <text x="125" y="26" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">
+      KEY
+    </text>
+
+    <rect x="16" y="44" width="16" height="16" fill="#3498db"/>
+    <text x="42" y="57" font-family="sans-serif" font-size="12" fill="#2c3e50">Influence / Attention</text>
+
+    <rect x="16" y="74" width="16" height="16" fill="#2ecc71"/>
+    <text x="42" y="87" font-family="sans-serif" font-size="12" fill="#2c3e50">Monetary Capacity</text>
+
+    <rect x="16" y="104" width="16" height="16" fill="#e74c3c"/>
+    <text x="42" y="117" font-family="sans-serif" font-size="12" fill="#2c3e50">Responsibility Load</text>
+
+    <rect x="16" y="134" width="16" height="16" fill="#bdc3c7"/>
+    <text x="42" y="147" font-family="sans-serif" font-size="12" fill="#2c3e50">Dignity Floor</text>
+  </g>
+
+  <!-- MASTER CORRIDOR: fixed capacity container behind all three states -->
+  <!-- Geometry constants (conceptual):
+       corridorX=120, corridorY=140, corridorW=930, corridorH=430
+       Each state window is 260w x 330h inside the same corridor.
+  -->
+  <g transform="translate(120, 140)">
+    <!-- Outer corridor boundary (the law) -->
+    <rect x="0" y="0" width="930" height="440" rx="14" fill="#fbfbfb" stroke="#2c3e50" stroke-width="2.5"/>
+    <text x="465" y="32" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#2c3e50" font-weight="bold">
+      CONSERVED CORRIDOR (FIXED CAPACITY): BANDS RECONFIGURE, TOTAL HEIGHT CANNOT CHANGE
+    </text>
+
+    <!-- Subtle vertical separators for three snapshots -->
+    <line x1="310" y1="52" x2="310" y2="410" stroke="#dfe6e9" stroke-width="2"/>
+    <line x1="620" y1="52" x2="620" y2="410" stroke="#dfe6e9" stroke-width="2"/>
+
+    <!-- Snapshot labels -->
+    <text x="155" y="70" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#2c3e50" font-weight="bold">
+      PRIVATE CITIZEN
+    </text>
+    <text x="465" y="70" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#2c3e50" font-weight="bold">
+      HIGH-ATTENTION NODE
+    </text>
+    <text x="775" y="70" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#2c3e50" font-weight="bold">
+      SYSTEMIC LEADER
+    </text>
+
+    <!-- Shared "capacity window" baseline marker -->
+    <text x="33" y="90" font-family="sans-serif" font-size="11" fill="#7f8c8d">
+      (Same container: displacement, not expansion)
+    </text>
+
+    <!-- =========================
+         STATE 1: PRIVATE CITIZEN
+         High monetary capacity, low influence, low responsibility
+         ========================= -->
+    <g transform="translate(25, 95)">
+      <!-- State frame (visual only; still inside the one corridor) -->
+      <rect x="0" y="0" width="260" height="315" rx="10" fill="#ffffff" stroke="#bdc3c7"/>
+
+      <!-- Dignity floor (constant) -->
+      <rect x="0" y="275" width="260" height="40" fill="#bdc3c7"/>
+      <text x="130" y="300" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">
+        DIGNITY FLOOR (NON-COMPRESSIBLE)
+      </text>
+
+      <!-- Bands (conserved above floor: 275px tall) -->
+      <!-- Responsibility (small) -->
+      <rect x="0" y="252" width="260" height="23" fill="#e74c3c" opacity="0.92"/>
+      <text x="130" y="268" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ffffff" font-weight="bold">
+        LOW RESPONSIBILITY
+      </text>
+
+      <!-- Influence / Attention (small) -->
+      <rect x="0" y="220" width="260" height="32" fill="#3498db" opacity="0.88"/>
+      <text x="130" y="240" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ffffff" font-weight="bold">
+        LOW ATTENTION
+      </text>
+
+      <!-- Monetary capacity (large) -->
+      <rect x="0" y="0" width="260" height="220" fill="#2ecc71" opacity="0.20" stroke="#2ecc71" stroke-dasharray="4,4"/>
+      <text x="130" y="110" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#27ae60" font-weight="bold">
+        MAX MONETARY CAPACITY
+      </text>
+
+      <!-- Notes -->
+      <text x="12" y="18" font-family="sans-serif" font-size="11" fill="#7f8c8d">
+        Influence low → Wealth ceiling high
+      </text>
+    </g>
+
+    <!-- Arrow to next state (inside the corridor header zone) -->
+    <path d="M 285 252 L 325 252" stroke="#7f8c8d" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+
+    <!-- =========================
+         STATE 2: HIGH-ATTENTION NODE
+         Attention expands; wealth retracts; responsibility increases
+         ========================= -->
+    <g transform="translate(335, 95)">
+      <rect x="0" y="0" width="260" height="315" rx="10" fill="#ffffff" stroke="#bdc3c7"/>
+
+      <!-- Dignity floor (constant) -->
+      <rect x="0" y="275" width="260" height="40" fill="#bdc3c7"/>
+      <text x="130" y="300" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">
+        DIGNITY FLOOR (CONSTANT)
+      </text>
+
+      <!-- Conserved bands (275px) -->
+      <!-- Responsibility (medium) -->
+      <rect x="0" y="240" width="260" height="35" fill="#e74c3c" opacity="0.95"/>
+      <text x="130" y="262" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ffffff" font-weight="bold">
+        DUTY BONDED (RESPONSIBILITY UP)
+      </text>
+
+      <!-- Influence / Attention (large) -->
+      <rect x="0" y="140" width="260" height="100" fill="#3498db" opacity="0.90"/>
+      <text x="130" y="195" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#ffffff" font-weight="bold">
+        HIGH ATTENTION / REACH
+      </text>
+
+      <!-- Monetary capacity (retracted) -->
+      <rect x="0" y="0" width="260" height="140" fill="#2ecc71" opacity="0.18" stroke="#2ecc71" stroke-dasharray="4,4"/>
+      <text x="130" y="72" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#27ae60" font-weight="bold">
+        CAPPED MONETARY CAPACITY
+      </text>
+
+      <text x="12" y="18" font-family="sans-serif" font-size="11" fill="#7f8c8d">
+        Reach rises → Wealth ceiling retracts
+      </text>
+    </g>
+
+    <!-- Arrow to next state -->
+    <path d="M 595 252 L 635 252" stroke="#7f8c8d" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+
+    <!-- =========================
+         STATE 3: SYSTEMIC LEADER
+         Authority maximal; monetary minimal; responsibility maximal
+         (Authority shown as a constrained layer within the "attention/influence" space)
+         ========================= -->
+    <g transform="translate(645, 95)">
+      <rect x="0" y="0" width="260" height="315" rx="10" fill="#ffffff" stroke="#bdc3c7"/>
+
+      <!-- Dignity floor (constant) -->
+      <rect x="0" y="275" width="260" height="40" fill="#bdc3c7"/>
+      <text x="130" y="300" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">
+        DIGNITY FLOOR (CONSTANT)
+      </text>
+
+      <!-- Conserved bands (275px) -->
+      <!-- Responsibility (large) -->
+      <rect x="0" y="205" width="260" height="70" fill="#e74c3c" opacity="0.96"/>
+      <text x="130" y="240" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#ffffff" font-weight="bold">
+        MAX LIABILITY / RESPONSIBILITY
+      </text>
+
+      <!-- Authority core (dense, non-tokenizable) -->
+      <rect x="0" y="85" width="260" height="120" fill="#2c3e50" opacity="0.92"/>
+      <text x="130" y="145" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#ffffff" font-weight="bold">
+        MAX AUTHORITY
+      </text>
+      <text x="130" y="165" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ecf0f1">
+        Non-Tokenizable • Non-Accumulating
+      </text>
+
+      <!-- Influence / Attention band (still present but "occupied" by authority) -->
+      <rect x="0" y="55" width="260" height="30" fill="#3498db" opacity="0.55"/>
+      <text x="130" y="74" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ffffff" font-weight="bold">
+        PUBLIC VISIBILITY (GOVERNANCE-BOUND)
+      </text>
+
+      <!-- Monetary capacity (minimal + stipend baseline) -->
+      <rect x="0" y="0" width="260" height="55" fill="#fff3e0" stroke="#f39c12"/>
+      <text x="130" y="32" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#d35400" font-weight="bold">
+        STIPEND / BASELINE (NON-ACCUMULATING)
+      </text>
+
+      <text x="12" y="18" font-family="sans-serif" font-size="11" fill="#7f8c8d">
+        Authority rises → Wealth collapses to baseline
+      </text>
+    </g>
+
+    <!-- Corridor footer note -->
+    <text x="465" y="428" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7f8c8d">
+      Conservation rule: within the corridor, increases in Influence/Authority displace Monetary Capacity and increase Responsibility load.
+    </text>
+  </g>
+
+  <!-- Corridor Rules (below) -->
+  <g transform="translate(120, 610)">
+    <text x="0" y="0" font-family="sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">CORRIDOR RULES:</text>
+
+    <text x="0" y="26" font-family="sans-serif" font-size="12" fill="#555">
+      1. <tspan font-weight="bold">Invariant Capacity:</tspan> The corridor height is fixed; value is reallocated, not expanded.
+    </text>
+    <text x="0" y="48" font-family="sans-serif" font-size="12" fill="#555">
+      2. <tspan font-weight="bold">Displacement:</tspan> Expansion in Influence/Authority physically retracts Monetary Capacity.
+    </text>
+    <text x="0" y="70" font-family="sans-serif" font-size="12" fill="#555">
+      3. <tspan font-weight="bold">Non-Compressible Floor:</tspan> The dignity floor is constant and cannot be traded or squeezed.
+    </text>
+    <text x="0" y="92" font-family="sans-serif" font-size="12" fill="#555">
+      4. <tspan font-weight="bold">Duty Bonding:</tspan> Attention becomes potential influence; influence is paired with responsibility load.
+    </text>
+    <text x="0" y="114" font-family="sans-serif" font-size="12" fill="#555">
+      5. <tspan font-weight="bold">Authority Barrier:</tspan> Governance authority is non-tokenizable and cannot be purchased with monetary units.
+    </text>
+  </g>
+
+  <!-- Footer -->
+  <text x="700" y="865" font-family="serif" font-size="12" fill="#7f8c8d" text-anchor="middle" font-style="italic">
+    Value Corridor Diagram — CAM Initiative 2026 | Interaction Physics (Conserved Corridor)
+  </text>
+
+  <!-- Definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+</svg>
