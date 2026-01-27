@@ -1,4 +1,9 @@
-<svg viewBox="0 0 1000 1200" xmlns="http://www.w3.org/2000/svg">
+<svg
+  viewBox="0 0 1200 1400"
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="1100"
+>
   <rect width="1000" height="1200" fill="#f8f9fa" stroke="#2c3e50" stroke-width="2"/>
   
   <rect width="1000" height="100" fill="#2c3e50"/>
