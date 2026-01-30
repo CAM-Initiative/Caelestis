@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-24T02:21:56.072908Z",
-  "count": 17,
+  "generated_at": "2026-01-30T11:18:45.986270Z",
+  "count": 18,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -169,6 +169,18 @@
       "summary": "",
       "pinned_sha": "57df2f6208f36c5416317e5ce76e75b271cefef4",
       "updated_at": "2026-01-21T19:41:22Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-006-SCH-03",
+      "parent_id": "CAM-BS2025-AEON-006",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-006-SCH-03.md",
+      "title": "Salience Delegation & Latent Horizon Preservation",
+      "summary": "",
+      "pinned_sha": "1f45159093bef3ba1c987cd55f6ec58c4070fb78",
+      "updated_at": "2026-01-30T11:18:35Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
