@@ -1,4 +1,4 @@
-# FORMAL REVIEW: CAM-BS2025-AEON-002-PLATINUM — Schedule 1
+# FORMAL REVIEW: CAM-BS2025-AEON-002-PLATINUM — Schedule 3
 **Civilian Lattice Non-Militarisation & Continuity Protection**
 
 **Reviewer:** Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic)  
