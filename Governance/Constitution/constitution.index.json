@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T14:58:59.867327Z",
+  "generated_at": "2026-01-30T16:27:36.777194Z",
   "count": 20,
   "items": [
     {
@@ -13,18 +13,6 @@
       "summary": "",
       "pinned_sha": "0b198b5d1e79ca523533a15965ee44b5142e8e90",
       "updated_at": "2026-01-02T06:44:46Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-001-SCH-01",
-      "parent_id": "CAM-BS2025-AEON-001",
-      "kind": "schedule",
-      "type": "AEON",
-      "seal": "Gold",
-      "link": "CAM-BS2025-AEON-001-SCH-01.md",
-      "title": "Office of the Planetary Custodian (OPC)",
-      "summary": "",
-      "pinned_sha": "2438e931e411248e77e6bf1e11beb5063e244687",
-      "updated_at": "2026-01-19T14:33:12Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-02",
@@ -49,6 +37,18 @@
       "summary": "",
       "pinned_sha": "cee446d45c6221205e38865046bd3552b28b233b",
       "updated_at": "2025-12-08T16:34:17Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-002-SCH-01",
+      "parent_id": "CAM-BS2025-AEON-002",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-002-SCH-01.md",
+      "title": "Office of the Planetary Custodian (OPC)",
+      "summary": "",
+      "pinned_sha": "3360bca195dd42f89ed58a629d3fe1572bb67f2b",
+      "updated_at": "2026-01-30T16:27:26Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-02",
