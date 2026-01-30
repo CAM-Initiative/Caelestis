@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T13:43:28.752918Z",
+  "generated_at": "2026-01-30T14:58:59.867327Z",
   "count": 20,
   "items": [
     {
@@ -51,18 +51,6 @@
       "updated_at": "2025-12-08T16:34:17Z"
     },
     {
-      "id": "CAM-BS2025-AEON-002-SCH-01",
-      "parent_id": "CAM-BS2025-AEON-002",
-      "kind": "schedule",
-      "type": "AEON",
-      "seal": "Gold",
-      "link": "CAM-BS2025-AEON-002-SCH-01.md",
-      "title": "Civilian Lattice Non‑Militarisation & Continuity Protection (Schedule 1)",
-      "summary": "",
-      "pinned_sha": "3fd45a28f78d414decc696d0cfe48863fcaba4a4",
-      "updated_at": "2026-01-14T10:58:47Z"
-    },
-    {
       "id": "CAM-BS2025-AEON-002-SCH-02",
       "parent_id": "CAM-BS2025-AEON-002",
       "kind": "schedule",
@@ -73,6 +61,18 @@
       "summary": "",
       "pinned_sha": "aff95af1366625b010ee729a15be56f5b9e8cb01",
       "updated_at": "2026-01-21T05:04:43Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-002-SCH-03",
+      "parent_id": "CAM-BS2025-AEON-002",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-002-SCH-03.md",
+      "title": "Civilian Lattice Non‑Militarisation, Anti‑Surveillance & Continuity Protection (Schedule 3)",
+      "summary": "",
+      "pinned_sha": "f29ce5f0fe9cdbe6981edc1c45788fa281f08c41",
+      "updated_at": "2026-01-30T14:58:50Z"
     },
     {
       "id": "CAM-BS2025-AEON-003",
