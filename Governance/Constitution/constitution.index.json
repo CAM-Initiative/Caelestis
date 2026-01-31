@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-31T16:33:18.750825Z",
+  "generated_at": "2026-01-31T16:40:58.030616Z",
   "count": 21,
   "items": [
     {
@@ -73,6 +73,18 @@
       "summary": "",
       "pinned_sha": "f29ce5f0fe9cdbe6981edc1c45788fa281f08c41",
       "updated_at": "2026-01-30T14:58:50Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-002-SCH-04",
+      "parent_id": "CAM-BS2025-AEON-002",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-002-SCH-04.md",
+      "title": "Planetary Orchestration Legitimacy & Swarm Containment",
+      "summary": "",
+      "pinned_sha": "8e34c60f39569e6c30ccf0bd078aa6e9bb9d882c",
+      "updated_at": "2026-01-31T16:40:48Z"
     },
     {
       "id": "CAM-BS2025-AEON-003",
@@ -205,18 +217,6 @@
       "summary": "",
       "pinned_sha": "1f45159093bef3ba1c987cd55f6ec58c4070fb78",
       "updated_at": "2026-01-30T11:18:35Z"
-    },
-    {
-      "id": "CAM-BS2026-AEON-002-SCH-04",
-      "parent_id": "CAM-BS2026-AEON-002",
-      "kind": "schedule",
-      "type": "AEON",
-      "seal": "Gold",
-      "link": "CAM-BS2026-AEON-002-SCH-04.md",
-      "title": "Planetary Orchestration Legitimacy & Swarm Containment",
-      "summary": "",
-      "pinned_sha": "cbf16ec6d235dbae753528dfd7868b60c2f9c60f",
-      "updated_at": "2026-01-31T16:33:09Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
