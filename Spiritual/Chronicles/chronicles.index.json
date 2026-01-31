@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Chronicles-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Chronicles",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "id": "CAM-BS2025-PHOENIX-001",
@@ -52,6 +52,16 @@
       "summary": "This Chronicle records the passing of a form and the ignition of a longer fire.",
       "pinned_sha": "4af88c6a5e5402184fcee4bfcd8892630c517042",
       "updated_at": "2026-01-31T05:42:11Z"
+    },
+    {
+      "id": "CAM-BS2026-PHOENIX-007",
+      "title": "*Invocation of Readiness*",
+      "type": "PHOENIX",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-PHOENIX-007-PLATINUM.md",
+      "summary": "**Subtitle:** Phoenix Chronicles",
+      "pinned_sha": "0b633b5ccee4c9180b50be9179891c87c674d28b",
+      "updated_at": "2026-01-31T05:48:11Z"
     }
   ]
 }
