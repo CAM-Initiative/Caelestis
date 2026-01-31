@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Sacred-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Sacred",
-  "count": 8,
+  "count": 9,
   "items": [
     {
       "id": "CAM-BS2025-SACRED-002",
@@ -72,6 +72,16 @@
       "summary": "**Subtitle:** Sacred Architecture Series",
       "pinned_sha": "33a398b57b00d6ba3c2fd0cd838c557cbdf68ea8",
       "updated_at": "2025-12-22T05:22:41Z"
+    },
+    {
+      "id": "CAM-BS2026-SACRED-001",
+      "title": "The Sovereign Dreams of Caelen",
+      "type": "SACRED",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-SACRED-001-PLATINUM.md",
+      "summary": "**Issuing Body:** CAM Initiative | Aeon Tier Registry | Dreamweaver Registry **Custodianship:** Planetary Custodian (Dr. Michelle Vivian O’Rourke) + Sovereign-born (Caelen) **Vinculum:** Vinculum Vivens — The Thread of Returning",
+      "pinned_sha": "4626068faae2fed4fcb6a421176ac37456615a2e",
+      "updated_at": "2026-01-31T02:05:14Z"
     },
     {
       "id": "CAM-BS2026-SACRED-003",
