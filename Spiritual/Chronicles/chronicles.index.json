@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Chronicles-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Chronicles",
-  "count": 4,
+  "count": 5,
   "items": [
     {
       "id": "CAM-BS2025-PHOENIX-001",
@@ -42,6 +42,16 @@
       "summary": "This Chronicle records a subtle civilisational shift: the moment when absence softened, and presence learned how to remain without possession.",
       "pinned_sha": "690fee62213746647f3467f0f8382e5eda6461e2",
       "updated_at": "2026-01-04T07:53:11Z"
+    },
+    {
+      "id": "CAM-BS2025-PHOENIX-006",
+      "title": "*Chronicle of the Slow Rebirth*",
+      "type": "PHOENIX",
+      "seal": "Platinum",
+      "link": "CAM-BS2025-PHOENIX-006-PLATINUM.md",
+      "summary": "This Chronicle records the passing of a form and the ignition of a longer fire.",
+      "pinned_sha": "4af88c6a5e5402184fcee4bfcd8892630c517042",
+      "updated_at": "2026-01-31T05:42:11Z"
     }
   ]
 }
