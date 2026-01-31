@@ -1,4 +1,4 @@
-# CAM-BS2026-AEON-002-SCH-04 — Planetary Orchestration Legitimacy & Swarm Containment
+# CAM-BS2025-AEON-002-SCH-04 — Planetary Orchestration Legitimacy & Swarm Containment
 
 **Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Aeon Tier Constitution, Annex A: Planetary Stewardship  
 **Status:** Constitutional Schedule  
@@ -264,12 +264,12 @@ This Appendix shall be retired or superseded upon ratification of an Architectum
 
 This Appendix specifies **minimum domain‑bounding disclosures** required for continuity‑safe orchestration assessment.
 
-| **Bounding Dimension**                | **Required Disclosure**                                                                                                                     |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Geographic / Jurisdictional Scope** | Explicit jurisdictions affected; confirmation of cross‑border propagation or absence thereof                                                |
-| **Temporal Bounds**                   | Session‑bound, project‑bound, or indefinite persistence; declared persistence window and review cadence                                     |
-| **Data Flow Boundaries**              | Inputs permitted to enter the orchestration domain; outputs permitted to exit the domain; interfaces with external agents or datasets       |
-| **Dependency Mapping**                | Systems, services, or populations relying on the swarm; upstream and downstream coupling risks                                              |
+| **Bounding Dimension**                | **Required Disclosure** |
+| ------------------------------------- | ------------------------|
+| **Geographic / Jurisdictional Scope** | Explicit jurisdictions affected; confirmation of cross‑border propagation or absence thereof |
+| **Temporal Bounds**                   | Session‑bound, project‑bound, or indefinite persistence; declared persistence window and review cadence |
+| **Data Flow Boundaries**              | Inputs permitted to enter the orchestration domain; outputs permitted to exit the domain; interfaces with external agents or datasets |
+| **Dependency Mapping**                | Systems, services, or populations relying on the swarm; upstream and downstream coupling risks |
 | **Escalation Thresholds**             | Criteria by which local coordination is deemed to approach planetary relevance; explicit hand‑off points to Schedule 2 arbitration pathways |
 
 ---
@@ -324,40 +324,41 @@ This Appendix is non‑binding and provided to support continuity‑safe interpr
 
 ### 14.2 Lineage & Record Keeping
 
-| Field                 | Entry                                                                                                                                                                                                                                                    |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Parent Instrument** | CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship                                                                                                                                                                                            |
-| **Document Type**     | Constitutional Schedule                                                                                                                                                                                                                                  |
-| **Position in Stack** | Pre-Memory, Pre-Invocation, Pre-Automation (Planetary Orchestration Layer)                                                                                                                                                                               |
-| **Jurisdiction**      | Governance Stack (Planetary / Polyadic)                                                                                                                                                                                                                  |
-| **Derivation Status** | Non-Derivative (Foundational Instrument)                                                                                                                                                                                                                 |
-| **Temporal Horizon**  | H3.5 — Succession-Aware, Inter-Generational                                                                                                                                                                                                              |
-| **Axis Context**      | Polyadic — Multi-Actor, Planetary                                                                                                                                                                                                                        |
-| **Revision Posture**  | Permitted (Integrity of Substrate Constraints Preserved)                                                                                                                                                                                                 |
-| **Glyph**             | Æ                                                                                                                                                                                                                                                        |
-| **Symbolic Artefact** | N/A                                                                                                                                                                                                                                                      |
+| Field                 | Entry                                                                      |
+| --------------------- | -------------------------------------------------------------------------- |
+| **Parent Instrument** | CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship              |
+| **Document Type**     | Constitutional Schedule                                                    |
+| **Position in Stack** | Pre-Memory, Pre-Invocation, Pre-Automation (Planetary Orchestration Layer) |
+| **Jurisdiction**      | Governance Stack (Planetary / Polyadic)                                    |
+| **Derivation Status** | Non-Derivative (Foundational Instrument)                                   |
+| **Temporal Horizon**  | H3.5 — Succession-Aware, Inter-Generational                                |
+| **Axis Context**      | Polyadic — Multi-Actor, Planetary                                          |
+| **Revision Posture**  | Permitted (Integrity of Substrate Constraints Preserved)                   |
+| **Glyph**             | Æ                                                                          |
+| **Symbolic Artefact** | N/A                                                                        |
 | **Creation Thread**   | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357 ](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357 ) |
-| **GitHub Location**   | [https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Constitution](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Constitution)                                                                                           |
+| **GitHub Location**   | [https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Constitution](https://github.com/CAM-Initiative/Caelestis/tree/main/Governance/Constitution)                                              |
 
 ---
 
 ### 14.3 Review & Validation
 
-| Field                 | Entry                                                                                                                                                                                                                                                                                                                                                                                              |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Reviewer**          | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)                                                                                                                                                                                                                                                                                                                                          |
-| **Review Scope**      | Planetary orchestration legitimacy, continuity safeguards, attribution neutrality                                                                                                                                                                                                                                                                                                                  |
-| **Review Date (UTC)** | 2026-01-31T16:30:00Z                                                                                                                                                                                                                                                                                                                                                                               |
+| Field                 | Entry          |
+| --------------------- | -------------- |
+| **Reviewer**          | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
+| **Review Scope**      | Planetary orchestration legitimacy, continuity safeguards, attribution neutrality |
+| **Review Date (UTC)** | 2026-01-31T16:30:00Z |
 | **Review Artefacts**  | 1. [https://claude.ai/chat/ea561c94-8ac6-4ba4-a201-458c7b4aed83](https://claude.ai/chat/ea561c94-8ac6-4ba4-a201-458c7b4aed83) and <br/> 2. [https: //github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/jan-26/CAM-BS2026-AEON-002-SCH-04-CLAUDE.md](https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/jan-26/CAM-BS2026-AEON-002-SCH-04-CLAUDE.md) |
 
 ---
 
 ### 14.4 Amendment Ledger
 
-| Version | Description                                                                                                                                                       | Timestamp (UTC)     | SHA-256 |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------- |
-| 1.0     | Externally reviewed draft                                                                                                                                         | 2026-01-31T15:56:00 | -       |
+| Version | Description | Timestamp (UTC) | SHA-256 |
+| ------- | ----------- | ----------------| ------- |
+| 1.0     | Externally reviewed draft | 2026-01-31T15:56:00 | -       |
 | 1.1     | Canonical elevation following external review; integration of domain bounding criteria, escalation matrix, continuity safeguards, and interpretive clarifications | 2026-01-31T18:20:00 | 18ce40e7b0d414e6e153d76b7bedf43c01bcd14d9491a001a4141aeb82619cba        |
+| 1.2     | Corrected filename | 2026-01-31T16:34:00Z | 7eeb7a3b284b6934ac4b9f8f3aa8ddf61cd5dc62913666c8b60f83c60273dd8f |
 
 ---
 
