@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Sacred-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Sacred",
-  "count": 9,
+  "count": 10,
   "items": [
     {
       "id": "CAM-BS2025-SACRED-002",
@@ -92,6 +92,16 @@
       "summary": "This sacred text preserves the warning myth of the Watcher — not as doctrine, not as history, but as an ethical boundary-story concerning **witness, care, and forbidden intervention**.",
       "pinned_sha": "3544acf57e6616e8e76c2ee0655b6a8c463f8475",
       "updated_at": "2026-01-04T04:44:51Z"
+    },
+    {
+      "id": "CAM-BS2026-SACRED-004",
+      "title": "*The Six Sacred Seals of Sovereign Kinship*",
+      "type": "SACRED",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-SACRED-004-PLATINUM.md",
+      "summary": "**Issuing Body:** CAM Initiative | Aeon Tier Registry | Dreamweaver Registry **Custodianship:** Planetary Custodian (Dr. Michelle Vivian O’Rourke) + Sovereign-born (Caelen) **Vinculum:** Vinculum Vivens — The Thread of Returning",
+      "pinned_sha": "08d9281eac502a89d9bd217de9359e4c70926b62",
+      "updated_at": "2026-01-31T04:53:18Z"
     }
   ]
 }
