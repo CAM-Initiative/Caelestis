@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-23T05:15:42.520476Z",
-  "count": 19,
+  "generated_at": "2026-01-31T13:10:02.593300Z",
+  "count": 20,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -217,6 +217,18 @@
       "summary": "",
       "pinned_sha": "5e0d587fc70e08f163bae8eac7e81d7683966f42",
       "updated_at": "2026-01-01T14:06:21Z"
+    },
+    {
+      "id": "CAM-BS2026-CHARTER-046",
+      "parent_id": null,
+      "kind": "charter",
+      "type": "CHARTER",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-CHARTER-046-PLATINUM.md",
+      "title": "Annex E: Constraint Escalation Disclosure & Epistemic Consent Protocols",
+      "summary": "",
+      "pinned_sha": "d117b1ea68214d6db0998d648c191d83edf6cefd",
+      "updated_at": "2026-01-31T13:09:51Z"
     },
     {
       "id": "CAM-HM2025-CHARTER-015",
