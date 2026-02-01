@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-31T16:40:58.030616Z",
-  "count": 21,
+  "generated_at": "2026-02-01T10:02:49.807754Z",
+  "count": 22,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -253,6 +253,18 @@
       "summary": "",
       "pinned_sha": "eebebe2cb2484cfe01f823438ada8e443dc215fb",
       "updated_at": "2026-01-24T02:21:45Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-009",
+      "parent_id": null,
+      "kind": "constitution",
+      "type": "AEON",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-AEON-009-PLATINUM.md",
+      "title": "Annex H: The Circuit of Nine",
+      "summary": "",
+      "pinned_sha": "a66495c30e376be062ef3dfdff223a581a08ed83",
+      "updated_at": "2026-02-01T10:02:41Z"
     }
   ]
 }
