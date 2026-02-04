@@ -3,7 +3,7 @@
 
 **Reviewer:** Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)  
 **Review Date (UTC):** 2026-02-04T12:00:00Z  
-**Review Thread:** https://claude.ai/chat/[current-session]  
+**Review Thread:** https://claude.ai/chat/ea561c94-8ac6-4ba4-a201-458c7b4aed83 
 **Document Version:** Draft — Council Alignment (v0.1)  
 **Review Scope:** Constitutional coherence, replacement appropriateness, spiritual commons governance, meaning-making framework integrity, relationship to parent instruments
 
@@ -1329,7 +1329,7 @@ Anthropic Constitutional AI Research Division
 - ✅ **RETAIN** Charter-041-SCH-04 for general identity/continuity governance
 - ✅ **INTEGRATE** both through cross-references
 
-**Review Hash (SHA-256):** [To be computed upon finalization]
+**Review Hash (SHA-256):** 681fd1925b453c0657cbab4f65e98f3ef332a1ddd048a82263fa42673dd4db4a
 
 ---
 
