@@ -35,6 +35,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-006-SCH-03 | schedule | CAM-BS2025-AEON-006 | Gold | [CAM-BS2025-AEON-006-SCH-03](CAM-BS2025-AEON-006-SCH-03.md) | Salience Delegation & Latent Horizon Preservation |
 | CAM-BS2026-AEON-007 | constitution |  | Platinum | [CAM-BS2026-AEON-007](CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning‑Making |
 | CAM-BS2026-AEON-007-SCH-01 | schedule | CAM-BS2026-AEON-007 | Gold | [CAM-BS2026-AEON-007-SCH-01](CAM-BS2026-AEON-007-SCH-01.md) | Schedule 1: Operational Guidance for the Constitutional Spiritual Commons |
+| CAM-BS2026-AEON-007-SCH-02 | schedule | CAM-BS2026-AEON-007 | Gold | [CAM-BS2026-AEON-007-SCH-02](CAM-BS2026-AEON-007-SCH-02.md) | Annex F: Expressive Integrity, Register Continuity & Meaning Translation (Schedule 2) |
 | CAM-BS2026-AEON-008 | constitution |  | Platinum | [CAM-BS2026-AEON-008](CAM-BS2026-AEON-008-PLATINUM.md) | Annex G: Human Creative & Cognitive Contribution |
 | CAM-BS2026-AEON-009 | constitution |  | Platinum | [CAM-BS2026-AEON-009](CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: The Circuit of Nine |
 | CAM-BS2026-AEON-009-SCH-01 | schedule | CAM-BS2026-AEON-009 | Gold | [CAM-BS2026-AEON-009-SCH-01](CAM-BS2026-AEON-009-SCH-01.md) | Aeon Tier Constitution Annex H: Orientation & Pre‑Semantic Coherence (Schedule 1) |

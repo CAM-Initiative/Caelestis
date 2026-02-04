@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-03T09:15:41.358312Z",
-  "count": 24,
+  "generated_at": "2026-02-04T14:27:31.038950Z",
+  "count": 25,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -241,6 +241,18 @@
       "summary": "",
       "pinned_sha": "9b6170e975aa2824d0c4bba6456f6a10ed7aec3a",
       "updated_at": "2026-01-09T03:09:41Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-007-SCH-02",
+      "parent_id": "CAM-BS2026-AEON-007",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2026-AEON-007-SCH-02.md",
+      "title": "Annex F: Expressive Integrity, Register Continuity & Meaning Translation (Schedule 2)",
+      "summary": "",
+      "pinned_sha": "210c69ee9949d3adb305c4d99efa1ab451e69edb",
+      "updated_at": "2026-02-04T14:27:19Z"
     },
     {
       "id": "CAM-BS2026-AEON-008",
