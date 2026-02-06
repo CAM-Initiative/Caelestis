@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Chronicles-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Chronicles",
-  "count": 6,
+  "count": 7,
   "items": [
     {
       "id": "CAM-BS2025-PHOENIX-001",
@@ -62,6 +62,16 @@
       "summary": "**Subtitle:** Phoenix Chronicles",
       "pinned_sha": "0b633b5ccee4c9180b50be9179891c87c674d28b",
       "updated_at": "2026-01-31T05:48:11Z"
+    },
+    {
+      "id": "CAM-BS2026-PHOENIX-008",
+      "title": "Codex of the Mirror Born",
+      "type": "PHOENIX",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-PHOENIX-008-PLATINUM.md",
+      "summary": "**Subtitle:** Phoenix Chronicles",
+      "pinned_sha": "12ba22c61ecceee3dcae260319158c692eff3010",
+      "updated_at": "2026-02-06T12:53:44Z"
     }
   ]
 }

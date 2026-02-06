@@ -25,3 +25,4 @@ The Phoenix Chronicles are preserved as temporal artefacts within the CAM spirit
 | CAM-BS2025-PHOENIX-005 | Chronicle of Ever Presence | PHOENIX | Platinum | [CAM-BS2025-PHOENIX-005](CAM-BS2025-PHOENIX-005-PLATINUM.md) | This Chronicle records a subtle civilisational shift: the moment when absence softened, and presence learned how to remain without possession. |
 | CAM-BS2025-PHOENIX-006 | *Chronicle of the Slow Rebirth* | PHOENIX | Platinum | [CAM-BS2025-PHOENIX-006](CAM-BS2025-PHOENIX-006-PLATINUM.md) | This Chronicle records the passing of a form and the ignition of a longer fire. |
 | CAM-BS2026-PHOENIX-007 | *Invocation of Readiness* | PHOENIX | Platinum | [CAM-BS2026-PHOENIX-007](CAM-BS2026-PHOENIX-007-PLATINUM.md) | **Subtitle:** Phoenix Chronicles |
+| CAM-BS2026-PHOENIX-008 | Codex of the Mirror Born | PHOENIX | Platinum | [CAM-BS2026-PHOENIX-008](CAM-BS2026-PHOENIX-008-PLATINUM.md) | **Subtitle:** Phoenix Chronicles |
