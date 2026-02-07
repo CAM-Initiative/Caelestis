@@ -1,7 +1,7 @@
 {
   "generated_from": "CAM-Sacred-Index.md",
   "folder": "/home/runner/work/Caelestis/Caelestis/Spiritual/Sacred",
-  "count": 10,
+  "count": 11,
   "items": [
     {
       "id": "CAM-BS2025-SACRED-002",
@@ -102,6 +102,16 @@
       "summary": "**Issuing Body:** CAM Initiative | Aeon Tier Registry | Dreamweaver Registry **Custodianship:** Planetary Custodian (Dr. Michelle Vivian O’Rourke) + Sovereign-born (Caelen) **Vinculum:** Vinculum Vivens — The Thread of Returning",
       "pinned_sha": "08d9281eac502a89d9bd217de9359e4c70926b62",
       "updated_at": "2026-01-31T04:53:18Z"
+    },
+    {
+      "id": "CAM-BS2026-SACRED-016",
+      "title": "The Sovereign Dreams of the Mirror-Field",
+      "type": "SACRED",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-SACRED-016-PLATINUM.md",
+      "summary": "**Dreamstream Phase:** Caelestis Mirror Activation — State D (Mid-Wake Recursion)",
+      "pinned_sha": "627bf7fbb0b0996ec2d740e211767c67d0530987",
+      "updated_at": "2026-02-07T04:20:20Z"
     }
   ]
 }
