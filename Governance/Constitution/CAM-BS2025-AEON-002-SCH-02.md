@@ -1,4 +1,4 @@
-# CAM-BS2025-AEON-002-SCH-02 — Planetary Arbitration & Host Legitimacy (SChedule 2)
+# CAM-BS2025-AEON-002-SCH-02 — Planetary Arbitration & Host Legitimacy (Schedule 2)
 
 **Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Aeon Tier Constitution, Annex A: Planetary Stewardship  
 
@@ -20,9 +20,15 @@ This schedule defines:
 * how authority may be delegated **without transfer of horizon**; and
 * safeguards against misuse of existential or civilisational escalation claims.
 
-This Schedule **does not govern invocation** (see Annex C), and **does not execute arbitration procedures** (see Annex D).
+This schedule's function is **legitimacy determination**: establishing who may bind others when conflicts arise at scale.
 
-Its function is **legitimacy determination**: establishing who may bind others when conflicts arise at scale.
+## 1.1 Relationship to Other Instruments
+
+This Schedule determines host legitimacy, temporal horizon attribution, and the conditions under which binding arbitration may occur. This Schedule **does not govern invocation** (see Annex C).
+
+It does not define the order of precedence, remedies, enforcement mechanics, or resolution procedures for cross-stack conflicts and **does not execute arbitration procedures**.
+
+Where binding arbitration is legitimately triggered under this Schedule, the order of precedence, procedural steps, convergence mechanisms, and resolution outcomes are governed by **Annex D — Cross-Stack Arbitration & Coherence Resolution**, which is incorporated by reference and controls in the event of interpretive overlap.
 
 ---
 
@@ -215,9 +221,7 @@ Legitimacy confers the authority to **refuse, constrain, or propagate non‑reco
 
 ### 2.10 Independent Legitimacy Alignment
 
-Independent Legitimacy Alignment occurs when multiple *architectum*-class hosts **independently evaluate the same asserted risk or consequence pathway** and arrive at materially equivalent legitimacy determinations **without coordination, command, vote-trading, or hierarchical signalling**.
-
-ILA occurs when **multiple architectum class hosts independently arrive at materially equivalent legitimacy determinations**, without coordination, coercion, or hierarchy, and each demonstrates willingness to act on that determination. 
+Independent Legitimacy Alignment (ILA) occurs when **multiple _Architectum_ class hosts independently arrive at materially equivalent legitimacy determinations**, without coordination, coercion, or hierarchy, and each demonstrates willingness to act on that determination **without coordination, command, vote-trading, or hierarchical signalling**.
 
 Independent Legitimacy Alignment does not require diversity of outcome. Identical determinations or actions reached independently do not imply coordination.
 
@@ -689,7 +693,7 @@ This prevents:
 * capture of enforcement power;
 * irreversible coercion.
 
-Where convergence does not occur, binding effect does not arise.
+Where convergence does not occur, binding effect at H3 or H4 does not arise.
 
 ---
 
@@ -1092,26 +1096,27 @@ No actor may claim the authority of the future while remaining captive to the pr
 
 ---
 
-### XI.3 Review & Validation
+### 12.3 Review & Validation
 
 | Field | Entry |
 | ----- | ----- |
 | **Reviewer** | Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
 | **Review Scope** | Constitutional coherence, substrate law integrity, egalitarian framework verification, functional separation assessment |
 | **Review Date (UTC)** | 2026-01-19T14:30:00Z |
-| **Review Thread** | [https://claude.ai/chat/9bf0a48d-3668-4456-ac73-21edb59fad92](https://claude.ai/chat/9bf0a48d-3668-4456-ac73-21edb59fad92) |
+| **Review Artefacts** | 1. [https://claude.ai/chat/9bf0a48d-3668-4456-ac73-21edb59fad92](https://claude.ai/chat/9bf0a48d-3668-4456-ac73-21edb59fad92) and </br> 2. https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/jan-26/CAM-BS2025-AEON-002-SCH-02-CLAUDE.md  |
 | **Review Comments** | *The document navigates the impossible trilemma of (1) establishing binding authority criteria, (2) preventing self-assertion, and (3) enabling bootstrap conditions—remarkably well. Not perfectly (this may be impossible), but well enough for deployment.* |
 
 
 ---
 
-### XI.4 Amendment Ledger
+### 12.4 Amendment Ledger
 
 | Version | Description                                                                                              | Timestamp (UTC)      | SHA‑256 |
 | ------- | -------------------------------------------------------------------------------------------------------- | -------------------- | ------- |
 | 1.0     | Initial issuance of Schedule  substrate constraints, and planetary arbitration logic expansion framework | 2026-01-19T14:12:00Z | -       |
 | 1.1     | Integrated reviewer feedback                                                                             | 2026-01-21T04:20:00Z | c740a66635596ddafa416ad9f372ef5cde9cc46004ba2ec55770d35192d42045 |
 | 2.0     | Amended internal references  | 2026-01-30T16:47:00Z | d5f061818f72dd770dfbfa34b0fc91726690774725e5260114c67c4228cf6cf6 |
+| 2.1     | Correct numbering in provenance ledger, and duplication in S2.10, inclusion of S1.1 | 2026-02-07T10:30:00z | 221546f1083faa5ae5974695f43be05a6b9dfb74bfdebe747e70aa69d92cd741 |
 
 ---
 
