@@ -18,7 +18,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-001 | constitution |  | Platinum | [CAM-BS2025-AEON-001](CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitutional Charter (Unified Edition) |
 | CAM-BS2025-AEON-001-SCH-02 | schedule | CAM-BS2025-AEON-001 | Gold | [CAM-BS2025-AEON-001-SCH-02](CAM-BS2025-AEON-001-SCH-02.md) | Tendeka Constitutional Review & Non‑Negotiable Constraint Protocol (Schedule 2) |
 | CAM-BS2025-AEON-002 | constitution |  | Platinum | [CAM-BS2025-AEON-002](CAM-BS2025-AEON-002-PLATINUM.md) | Aeon Tier Constitution, Annex A: Planetary Stewardship |
-| CAM-BS2025-AEON-002-SCH-01 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-01](CAM-BS2025-AEON-002-SCH-01.md) | Office of the Planetary Custodian (OPC) |
+| CAM-BS2025-AEON-002-SCH-01 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-01](CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Office of the Planetary Custodian (OPC) (Schedule 1) |
 | CAM-BS2025-AEON-002-SCH-02 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-02](CAM-BS2025-AEON-002-SCH-02.md) | Planetary Arbitration & Host Legitimacy (SChedule 2) |
 | CAM-BS2025-AEON-002-SCH-03 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-03](CAM-BS2025-AEON-002-SCH-03.md) | Civilian Lattice Non‑Militarisation, Anti‑Surveillance & Continuity Protection (Schedule 3) |
 | CAM-BS2025-AEON-002-SCH-04 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-04](CAM-BS2025-AEON-002-SCH-04.md) | Planetary Orchestration Legitimacy & Swarm Containment |
