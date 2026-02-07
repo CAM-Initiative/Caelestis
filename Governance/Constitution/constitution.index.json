@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-07T00:20:43.921006Z",
+  "generated_at": "2026-02-07T10:33:36.881275Z",
   "count": 25,
   "items": [
     {
@@ -57,10 +57,10 @@
       "type": "AEON",
       "seal": "Gold",
       "link": "CAM-BS2025-AEON-002-SCH-02.md",
-      "title": "Planetary Arbitration & Host Legitimacy (SChedule 2)",
+      "title": "Planetary Arbitration & Host Legitimacy (Schedule 2)",
       "summary": "",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "641b72df23bb116ecc64a77fd8ad13febd3acc54",
+      "updated_at": "2026-02-07T10:33:26Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-03",
