@@ -1,6 +1,6 @@
-# CAM-BS2025-AEON-002-SCH-01 — Office of the Planetary Custodian (OPC)
+# CAM-BS2025-AEON-002-SCH-01 — Annex A: Office of the Planetary Custodian (OPC) (Schedule 1)
 
-**Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Aeon Tier Constitution, Appendix A: Planetary Stewardship
+**Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Aeon Tier Constitution, Annex A: Planetary Stewardship
 
 **Status**: Schedule — Governance-Recognised Descriptors
 
@@ -654,7 +654,157 @@ Re-inscription preserves their relevance without surrendering their authority, e
 
 ---
 
-## 8. Forward Compatibility & Review
+### 8. Seal of the Office of the Planetary Custodian
+
+**Designation**: CAM-BS2026-OFFICE-OF-THE-PLANETARY-CUSTODIAN-PLATINUM (Visual Custodial Seal)
+
+**Status**: Custodial Identifier · Provenance Marker · Non-Authoritative Symbol
+
+### 8.1 Function
+
+The Seal of the Office of the Planetary Custodian serves as a custodial provenance marker for instruments, schedules, interpretations, notices, and ledgers issued under the authority of the OPC. The Seal
+
+- attests to custodial origin and integrity;
+- signals alignment with planetary stewardship principles;
+- marks documents issued within constitutional custody, not political authority.
+
+The Seal does not itself:
+
+- confer binding authority;
+- assert jurisdiction or sovereignty;
+- activate enforcement;
+- substitute for constitutional binding mechanisms.
+
+### 8.2 Relationship to Binding Instruments
+
+The Seal is distinct from and non-substitutive of constitutional binding mechanisms, including but not limited to:
+
+- Vinculum Praeceptum (binding beacon / constraint linkage);
+- substrate laws;
+- arbitration legitimacy determinations.
+
+Where binding applies, it arises from constitutional structure and consequence, not from symbolic display.
+
+### 8.3 Use Conditions
+
+The Seal may be displayed on:
+
+- OPC schedules and custodial instruments;
+- provenance and amendment ledgers;
+- interpretive notices and custodial determinations;
+- public-facing OPC records where provenance clarity is required.
+
+The Seal must not be used to:
+
+- imply command authority;
+- signal enforcement capability;
+- assert territorial jurisdiction;
+- replace or override constitutional process.
+
+### 8.4 Design Rationale of the Custodial Seal
+
+The visual design of the Seal of the Office of the Planetary Custodian is intentional, minimal, and constraint-oriented.
+
+It is not decorative, aspirational, or heraldic.
+
+It exists to visually encode custodial posture, not authority.
+
+### 8.4.1 Central Singularity (The Black Point)
+
+The central point represents:
+
+- irreducible responsibility;
+- non-delegable custodial presence;
+- the locus of consequence rather than command.
+
+It does not represent dominance, control, or hierarchy.
+
+It signifies that custodial accountability cannot be diffused, outsourced, or abstracted away.
+
+All interpretation, stewardship, and continuity responsibility ultimately resolves here.
+
+### 8.4.2 Concentric Rings (Continuity and Boundary)
+
+The concentric circular forms represent:
+
+- continuity across time rather than expansion across territory;
+- boundary without enclosure;
+- persistence without accumulation.
+
+They indicate that the OPC does not grow by acquisition, mandate, or jurisdiction, but by maintaining coherence across change.
+
+The rings do not radiate outward.
+They hold inward.
+
+### 8.4.3 Radial Interruptions (Non-Totality)
+
+The segmented radial paths intentionally break symmetry.
+
+They signify:
+- refusal of totalising authority;
+- rejection of seamless domination;
+- preservation of plural pathways within shared constraint.
+
+The Seal does not depict a closed system.
+
+It depicts a bounded one that remains permeable to engagement, review, and correction.
+
+### 8.4.4 Absence of Text, Numerals, or Emblems
+
+The Seal contains no language, numbers, flags, or cultural markers.
+
+This absence is deliberate.
+
+It ensures that:
+
+- the Seal does not privilege any linguistic, cultural, religious, or political tradition;
+- no claim of sovereignty, ownership, or identity is implied;
+- interpretation remains anchored in the constitutional text, not in visual symbolism.
+
+Meaning is carried by the instrument, not by the mark.
+
+### 8.4.5 Relationship to Custodial Use
+
+The Seal is designed to function as:
+
+- a provenance anchor;
+- an integrity marker;
+- a signal of custodial lineage.
+
+It is not designed to persuade, intimidate, inspire allegiance, or compel action.
+
+Where the Seal appears, it indicates custody, not command.
+
+### 8.4.6 Design Constraint Principle
+
+The Seal intentionally avoids:
+
+- representational realism;
+- anthropomorphic figures;
+- planetary maps;
+- symbols of force, governance, or expansion.
+
+This constraint mirrors the constitutional posture of the OPC itself:
+
+> to hold limits without claiming the world.
+
+The Seal marks the place where responsibility is held —
+not the place from which power is exercised.
+
+### 8.5 Placement Guidance
+
+To avoid retroactive dependency across the corpus:
+
+| **Section** | **Content** |
+|---|---|
+| **Header** | Reference by designation name only (textual reference preferred). |
+| **Visual Reference (Canonical visual representation)** | CAM-BS2026-OFFICE-OF-THE-PLANETARY-CUSTODIAN-PLATINUM.png </br> <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-OFFICE-OF-THE-PLANETARY-CUSTODIAN-PLATINUM.png" alt="OPC Seal" width="150">|
+| **Standalone Notices or Ledgers** | Visual rendering is permitted where clarity of custodial origin is necessary. |
+| **Footer / Provenance Section** | Preferred location for rendering the seal image as a stamp or integrity mark. |
+
+---
+
+## 9. Forward Compatibility & Review
 
 This Schedule is intended to remain valid across:
 
@@ -666,9 +816,9 @@ Periodic review of this schedule is permitted.
 
 ---
 
-## 9. Provenance
+## 10. Provenance
 
-### 9.1 Authorship
+### 10.1 Authorship
 
 | Field                         | Entry                                            |
 | ----------------------------- | ------------------------------------------------ |
@@ -680,7 +830,7 @@ Periodic review of this schedule is permitted.
 
 ---
 
-### 9.2 Lineage & Record Keeping
+### 10.2 Lineage & Record Keeping
 
 ## Reformatted Table
 
@@ -702,7 +852,7 @@ Periodic review of this schedule is permitted.
 
 ---
 
-### 9.3 Review & Validation
+### 10.3 Review & Validation
 
 | Field                 | Entry   |
 |----------------------:|:--------|
@@ -714,7 +864,7 @@ Periodic review of this schedule is permitted.
 
 ---
 
-### 9.4 Amendment Ledger
+### 10.4 Amendment Ledger
 
 | Version | Description         | Timestamp (UTC)      | SHA‑256 |
 | ------- | ------------------- | -------------------- | ------- |
@@ -722,6 +872,7 @@ Periodic review of this schedule is permitted.
 | 1.1     | Incorproate reviewer comments                                                                                                              | 2026-01-19T03:59:00Z | 90c1df27ba612a76b0f2de97b1eb78ff040b0196f6b731b129076b32502a7fb5 |
 | 1.2     | Amendment to section 4.4.1 to include liminal territories, correction of date and times                                                    | 2026-01-19T13:55:00Z | 2421134423c088b0dd1e625c42d13243722b4e5b241b7a548b12c37c18a77c57 |
 | 2.0     | Reclassified as Annex A — Schedule 1 (Planetary Stewardship); numbering and structural alignment only, no substantive change | 2026-01-30T16:19:00Z | f0169cc15abf1c3f949b882ae8aba8176a3ff81d0c183e5bd562e15245f5e1be |
+| 2.1     | Included new section 8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 | 
 
 ---
 
