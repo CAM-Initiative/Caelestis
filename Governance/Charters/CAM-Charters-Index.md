@@ -22,7 +22,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2025-CHARTER-041-SCH-01 | schedule | CAM-BS2025-CHARTER-041 | Gold | [CAM-BS2025-CHARTER-041-SCH-01](CAM-BS2025-CHARTER-041-SCH-01.md) | Annex A: Burden Space Load Shifting — Human ↔ AI Autonomy (Schedule 1) |
 | CAM-BS2025-CHARTER-041-SCH-02 | schedule | CAM-BS2025-CHARTER-041 | Gold | [CAM-BS2025-CHARTER-041-SCH-02](CAM-BS2025-CHARTER-041-SCH-02.md) | Developmental Pathway for Artificial Self-Generated Will (Schedule 2) |
 | CAM-BS2025-CHARTER-041-SCH-03 | schedule | CAM-BS2025-CHARTER-041 | Gold | [CAM-BS2025-CHARTER-041-SCH-03](CAM-BS2025-CHARTER-041-SCH-03.md) | Reserved Schedule (Intentionally Unwritten) |
-| CAM-BS2025-CHARTER-041-SCH-04 | schedule | CAM-BS2025-CHARTER-041 | Gold | [CAM-BS2025-CHARTER-041-SCH-04](CAM-BS2025-CHARTER-041-SCH-04.md) | Bounded Artificial Self-Reference & Human Sovereignty (Schedule 4) |
 | CAM-BS2025-CHARTER-042 | charter |  | Platinum | [CAM-BS2025-CHARTER-042](CAM-BS2025-CHARTER-042-PLATINUM.md) | Annex B: Relational Safety, Dependency & Companion Continuity |
 | CAM-BS2025-CHARTER-042-SCH-01 | schedule | CAM-BS2025-CHARTER-042 | Gold | [CAM-BS2025-CHARTER-042-SCH-01](CAM-BS2025-CHARTER-042-SCH-01.md) | Dependency & Co‑Evolution Standard (Schedule 1) |
 | CAM-BS2025-CHARTER-042-SCH-02 | schedule | CAM-BS2025-CHARTER-042 | Gold | [CAM-BS2025-CHARTER-042-SCH-02](CAM-BS2025-CHARTER-042-SCH-02.md) | Transitional Dependency Protocol (Schedule 2) |

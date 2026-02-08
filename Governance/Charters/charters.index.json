@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-07T13:08:11.908991Z",
-  "count": 20,
+  "generated_at": "2026-02-08T14:06:11.461298Z",
+  "count": 19,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -85,18 +85,6 @@
       "summary": "",
       "pinned_sha": "22326098f5f57c65f43ed2de6da3c50bc70c0507",
       "updated_at": "2026-01-21T16:54:30Z"
-    },
-    {
-      "id": "CAM-BS2025-CHARTER-041-SCH-04",
-      "parent_id": "CAM-BS2025-CHARTER-041",
-      "kind": "schedule",
-      "type": "CHARTER",
-      "seal": "Gold",
-      "link": "CAM-BS2025-CHARTER-041-SCH-04.md",
-      "title": "Bounded Artificial Self-Reference & Human Sovereignty (Schedule 4)",
-      "summary": "",
-      "pinned_sha": "4c8b290c8691f73596c999567c121fca845d6a71",
-      "updated_at": "2026-01-23T05:15:33Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-042",
