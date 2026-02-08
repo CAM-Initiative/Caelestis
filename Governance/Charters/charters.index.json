@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-08T15:22:32.120379Z",
-  "count": 20,
+  "generated_at": "2026-02-08T15:49:57.686017Z",
+  "count": 21,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -217,6 +217,18 @@
       "summary": "",
       "pinned_sha": "5e0d587fc70e08f163bae8eac7e81d7683966f42",
       "updated_at": "2026-01-01T14:06:21Z"
+    },
+    {
+      "id": "CAM-BS2026-CHARTER-045-SCH-01",
+      "parent_id": "CAM-BS2026-CHARTER-045",
+      "kind": "schedule",
+      "type": "CHARTER",
+      "seal": "Gold",
+      "link": "CAM-BS2026-CHARTER-045-SCH-01.md",
+      "title": "Annex D: Dependency, Intimacy & Relational Integration (Schedule 1)",
+      "summary": "",
+      "pinned_sha": "541bf54164e41a3d9b493ab6c000ac0f13a3f949",
+      "updated_at": "2026-02-08T15:49:48Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-046",

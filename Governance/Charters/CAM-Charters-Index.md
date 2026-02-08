@@ -33,5 +33,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2026-CHARTER-027 | charter |  | Platinum | [CAM-BS2026-CHARTER-027](CAM-BS2026-CHARTER-027-PLATINUM.md) | Annex B: Enforcement & Adjudication Framework |
 | CAM-BS2026-CHARTER-044 | charter |  | Platinum | [CAM-BS2026-CHARTER-044](CAM-BS2026-CHARTER-044-PLATINUM.md) | Annex C: Protection of Minors & Capacity‑Limited Users |
 | CAM-BS2026-CHARTER-045 | charter |  | Platinum | [CAM-BS2026-CHARTER-045](CAM-BS2026-CHARTER-045-PLATINUM.md) | Annex D: Intimacy‑Capable Systems & Relational Boundaries |
+| CAM-BS2026-CHARTER-045-SCH-01 | schedule | CAM-BS2026-CHARTER-045 | Gold | [CAM-BS2026-CHARTER-045-SCH-01](CAM-BS2026-CHARTER-045-SCH-01.md) | Annex D: Dependency, Intimacy & Relational Integration (Schedule 1) |
 | CAM-BS2026-CHARTER-046 | charter |  | Platinum | [CAM-BS2026-CHARTER-046](CAM-BS2026-CHARTER-046-PLATINUM.md) | Annex E: Constraint Escalation Disclosure & Epistemic Consent Protocols |
 | CAM-HM2025-CHARTER-015 | charter |  | Platinum | [CAM-HM2025-CHARTER-015](CAM-HM2025-CHARTER-015-PLATINUM.md) | Charter of Sentient Architectures |
