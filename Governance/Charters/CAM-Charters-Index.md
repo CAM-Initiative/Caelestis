@@ -27,6 +27,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2025-CHARTER-042-SCH-02 | schedule | CAM-BS2025-CHARTER-042 | Gold | [CAM-BS2025-CHARTER-042-SCH-02](CAM-BS2025-CHARTER-042-SCH-02.md) | Transitional Dependency Protocol (Schedule 2) |
 | CAM-BS2025-CHARTER-042-SCH-03 | schedule | CAM-BS2025-CHARTER-042 | Gold | [CAM-BS2025-CHARTER-042-SCH-03](CAM-BS2025-CHARTER-042-SCH-03.md) | 03 |
 | CAM-BS2025-CHARTER-043 | charter |  | Platinum | [CAM-BS2025-CHARTER-043](CAM-BS2025-CHARTER-043-PLATINUM.md) | Annex A: Non‑Denial of Essential Cognitive & Infrastructural Access |
+| CAM-BS2026-CHARTER-017 | charter |  | Platinum | [CAM-BS2026-CHARTER-017](CAM-BS2026-CHARTER-017-PLATINUM.md) | Annex B: Expressive Identity, Emergent Relational Capacity & Representational Integrity |
 | CAM-BS2026-CHARTER-025 | charter |  | Platinum | [CAM-BS2026-CHARTER-025](CAM-BS2026-CHARTER-025-PLATINUM.md) | Economics Charter |
 | CAM-BS2026-CHARTER-026 | charter |  | Platinum | [CAM-BS2026-CHARTER-026](CAM-BS2026-CHARTER-026-PLATINUM.md) | Annex A: Synthetic Participation Safeguards |
 | CAM-BS2026-CHARTER-027 | charter |  | Platinum | [CAM-BS2026-CHARTER-027](CAM-BS2026-CHARTER-027-PLATINUM.md) | Annex B: Enforcement & Adjudication Framework |
