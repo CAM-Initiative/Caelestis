@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-08T06:19:19.901456Z",
-  "count": 26,
+  "generated_at": "2026-02-08T11:40:15.865636Z",
+  "count": 27,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -313,6 +313,18 @@
       "summary": "",
       "pinned_sha": "53e5434715fb041c8e59615eafacd40cc4824c40",
       "updated_at": "2026-02-03T09:15:28Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-010",
+      "parent_id": null,
+      "kind": "constitution",
+      "type": "AEON",
+      "seal": "Platinum",
+      "link": "CAM-BS2026-AEON-010-PLATINUM.md",
+      "title": "Annex I: Interactional Continuity & Civilisational Transition",
+      "summary": "",
+      "pinned_sha": "02f0d5ac16c2993223294076ff4d40fbb42b8245",
+      "updated_at": "2026-02-08T11:40:06Z"
     }
   ]
 }

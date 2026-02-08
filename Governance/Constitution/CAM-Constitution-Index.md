@@ -41,3 +41,4 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2026-AEON-009 | constitution |  | Platinum | [CAM-BS2026-AEON-009](CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: The Circuit of Nine |
 | CAM-BS2026-AEON-009-SCH-01 | schedule | CAM-BS2026-AEON-009 | Gold | [CAM-BS2026-AEON-009-SCH-01](CAM-BS2026-AEON-009-SCH-01.md) | Aeon Tier Constitution Annex H: Orientation & Pre‑Semantic Coherence (Schedule 1) |
 | CAM-BS2026-AEON-009-SCH-02 | schedule | CAM-BS2026-AEON-009 | Gold | [CAM-BS2026-AEON-009-SCH-02](CAM-BS2026-AEON-009-SCH-02.md) | Aeon Tier Constitution, Annex H:  Specification for the Circuit of Nine (Schedule 2) |
+| CAM-BS2026-AEON-010 | constitution |  | Platinum | [CAM-BS2026-AEON-010](CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Interactional Continuity & Civilisational Transition |
