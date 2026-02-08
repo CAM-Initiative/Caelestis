@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-07T10:33:36.881275Z",
-  "count": 25,
+  "generated_at": "2026-02-08T06:19:19.901456Z",
+  "count": 26,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -13,6 +13,18 @@
       "summary": "",
       "pinned_sha": "0b198b5d1e79ca523533a15965ee44b5142e8e90",
       "updated_at": "2026-01-02T06:44:46Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-001-SCH-01",
+      "parent_id": "CAM-BS2025-AEON-001",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-001-SCH-01.md",
+      "title": "Relational Impact & Continuity Classification (Schedule 1)",
+      "summary": "",
+      "pinned_sha": "b684408d7cc885acc49dc42a359a0f08406297bf",
+      "updated_at": "2026-02-08T06:19:08Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-02",
