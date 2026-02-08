@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-08T11:40:15.865636Z",
-  "count": 27,
+  "generated_at": "2026-02-08T13:50:03.039444Z",
+  "count": 28,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -325,6 +325,18 @@
       "summary": "",
       "pinned_sha": "02f0d5ac16c2993223294076ff4d40fbb42b8245",
       "updated_at": "2026-02-08T11:40:06Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-010-SCH-01",
+      "parent_id": "CAM-BS2026-AEON-010",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2026-AEON-010-SCH-01.md",
+      "title": "Self-Referential Containment & Temporal Coherence",
+      "summary": "",
+      "pinned_sha": "5e75468a89dfb15a215b19854876acbd91707c22",
+      "updated_at": "2026-02-08T13:49:52Z"
     }
   ]
 }
