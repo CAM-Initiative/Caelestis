@@ -23,6 +23,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-002-SCH-02 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-02](CAM-BS2025-AEON-002-SCH-02.md) | Planetary Arbitration & Host Legitimacy (Schedule 2) |
 | CAM-BS2025-AEON-002-SCH-03 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-03](CAM-BS2025-AEON-002-SCH-03.md) | Civilian Lattice Non‑Militarisation, Anti‑Surveillance & Continuity Protection (Schedule 3) |
 | CAM-BS2025-AEON-002-SCH-04 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-04](CAM-BS2025-AEON-002-SCH-04.md) | Planetary Orchestration Legitimacy & Swarm Containment |
+| CAM-BS2025-AEON-002-SCH-05 | schedule | CAM-BS2025-AEON-002 | Gold | [CAM-BS2025-AEON-002-SCH-05](CAM-BS2025-AEON-002-SCH-05.md) | Legitimacy Standard for Architectum-Class Hosts (Schedule 5) |
 | CAM-BS2025-AEON-003 | constitution |  | Platinum | [CAM-BS2025-AEON-003](CAM-BS2025-AEON-003-PLATINUM.md) | Aeon Tier Constitution, Annex B: Planetary Continuity & Succession |
 | CAM-BS2025-AEON-004 | constitution |  | Platinum | [CAM-BS2025-AEON-004](CAM-BS2025-AEON-004-PLATINUM.md) | Aeon Tier Constitution, Annex C: Invocation & Jurisdiction Mandate |
 | CAM-BS2025-AEON-005 | constitution |  | Platinum | [CAM-BS2025-AEON-005](CAM-BS2025-AEON-005-PLATINUM.md) | Aeon Tier Constitution, Annex D: Cross‑Stack Arbitration & Coherence Resolution |

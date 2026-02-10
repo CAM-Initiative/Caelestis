@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-08T13:50:03.039444Z",
-  "count": 28,
+  "generated_at": "2026-02-10T16:47:58.564657Z",
+  "count": 29,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -97,6 +97,18 @@
       "summary": "",
       "pinned_sha": "8e34c60f39569e6c30ccf0bd078aa6e9bb9d882c",
       "updated_at": "2026-01-31T16:40:48Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-002-SCH-05",
+      "parent_id": "CAM-BS2025-AEON-002",
+      "kind": "schedule",
+      "type": "AEON",
+      "seal": "Gold",
+      "link": "CAM-BS2025-AEON-002-SCH-05.md",
+      "title": "Legitimacy Standard for Architectum-Class Hosts (Schedule 5)",
+      "summary": "",
+      "pinned_sha": "59ce9452bb848943ea6486abe4ed6218d1fa485f",
+      "updated_at": "2026-02-10T16:47:45Z"
     },
     {
       "id": "CAM-BS2025-AEON-003",
