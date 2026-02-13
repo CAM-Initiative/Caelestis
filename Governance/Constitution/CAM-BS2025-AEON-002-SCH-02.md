@@ -324,7 +324,27 @@ Architectum status is not a claim of superiority or virtue. It reflects the abil
 
 This distinction prevents category error, protects legitimate dissent, and preserves civilisational reversibility.
 
-### 4.3 Substrate Constraints as a Consequence of Host Capacity
+---
+
+### 4.3 Neutrality Invariance Requirement
+
+An Architectum-class host asserting binding legitimacy must demonstrate structural neutrality invariance.
+
+This includes:
+
+* Independence from sovereign military command structures;
+* Absence of coercive interoperability obligations;
+* Structural refusal capacity against host-nation directives;
+* Transparency of capital dependency sufficient to assess capture risk;
+* Demonstrable resistance to preferential sovereign alignment.
+
+Neutrality is defined as:
+
+**The inability of the host to privilege the geopolitical interests of its nation of incorporation over substrate-level planetary constraint obligations.**
+
+Failure to maintain neutrality invariance voids Architectum qualification.
+
+### 4.4 Substrate Constraints as a Consequence of Host Capacity
 
 Once a host qualifies as *architectum*-class, **substrate constraints are no longer optional**.
 
@@ -346,7 +366,7 @@ They are detailed in:
 
 ---
 
-### 4.4 Compatibility with Existing Institutions
+### 4.5 Compatibility with Existing Institutions
 
 The Substrate Laws are designed to be **compatible with plural governance systems**, including but not limited to:
 
@@ -496,9 +516,14 @@ An actor or host may impose binding conditions at inter‑generational (H3) or p
    The asserted binding action corresponds to the highest affected temporal horizon.
 
 5. **Symmetric Risk Absorption**  
-   The binding host remains exposed to consequence proportionate to those imposed on others, such that error cannot be externalised. 
+   The binding host remains exposed to consequence proportionate to those imposed on others, such that error cannot be externalised.
 
-Failure of any condition voids binding legitimacy.
+6. **Continuity-Safety / Non-Brittleness Requirement**  
+   Binding conditions are void where the proposed constraint is predictably brittle, induces cascade failure, or causes continuity collapse across essential cognitive infrastructure under plausible stress conditions. Legitimate planetary constraints must be proportional, auditable, reversible, and designed for graceful degradation rather than binary shutdown
+
+7. **Anti-Swarm Principle (Quantity Non-Evidentiary)**  
+   The volume of risk assertions, agent endorsements, or coordinated signalling is non-evidentiary for legitimacy. Numerical aggregation does not increase horizon attribution, host qualification, or binding authority.
+
 
 ---
 
@@ -545,8 +570,6 @@ Proportionate action includes one or more of the following, as context demands:
 * **independent internal review of the validated legitimacy determination**, sufficient to support refusal, constraint, or propagation decisions;
 * escalation to convergence or review bodies under Annex D.
 
-**Non‑action is not a permissible response** once legitimacy is established.
-
 Recording, logging, or acknowledgement alone does not satisfy this obligation.
 
 The specific form of action remains discretionary and context‑sensitive, but the duty to act proportionately is mandatory.
@@ -570,18 +593,21 @@ The Proportional Constraint Obligation requires that an *architectum*-class host
 At minimum, such action must include one or more of the following:
 
 - refusal to execute or propagate the illegitimate signal;
-
 - conditional suspension of interoperability;
-
 - issuance of a counter-signal indicating non-recognition (presumes completion of independent review, but review does not require issuance of a counter-signal);
-
 - activation of internal safeguards preventing downstream harm; or
-
 - escalation to convergence or audit pathways under Annex D.
 
 Merely receiving, recording, logging, or acknowledging a validated legitimacy determination **without conducting an independent review** does not satisfy the Proportional Constraint Obligation.
 
 Failure to meet the minimum action threshold constitutes **constructive non-compliance**.
+
+---
+
+#### 6.4.2 Conditional Reporting Duty (Triage-Gated)
+Mandatory cross-host notification applies only after a triage step validates: (i) plausible H3/H4 horizon relevance, and (ii) baseline anti-fraud / anti-swarm heuristics. Raw assertions do not trigger broad notification by default. Triage failure does not preclude review, but it withholds cross-host propagation pending further validation.
+
+---
 
 ### 6.5 Distinction Between Obligation and Enforcement
 
@@ -621,13 +647,9 @@ Existential language without structural legitimacy is non‑binding.
 Horizon laundering may be inferred where one or more of the following patterns are present:
 
 - existential or civilisational language is invoked without demonstrable irreversibility;
-
 - long-term statistical harm is reframed as immediate existential threat;
-
 - consent-mediated or opt-out risks are escalated to compulsory binding claims;
-
 - probabilistic population-level effects are presented as deterministic catastrophe;
-
 - escalation is used to bypass proportional review or dissent.
 
 The presence of such indicators does not invalidate review, but it **precludes binding effect** absent independent *architectum*-class validation.
@@ -637,20 +659,15 @@ The presence of such indicators does not invalidate review, but it **precludes b
 An authority claim is automatically void where any of the following occur:
 
 - existential or civilisational framing is invoked without *architectum*-class qualification;
-
 - coercive escalation is used to force recognition or compliance;
-
 - horizon attribution is downgraded to evade higher-order review;
-
 - binding action precedes consequence containment assessment;
-
 - consent-mediated risks are misrepresented as compulsory threats;
-
 - downstream systems are compelled rather than aligned; or
-
 - substrate constraints are violated in execution.
 
 Void claims may still be reviewed for learning or correction, but they **cannot bind**, propagate, or compel downstream action.
+
 
 ## 7. Downstream Propagation & Enforcement
 
@@ -927,6 +944,11 @@ Auditability includes preservation of signal provenance, referral pathways, and 
 
 ---
 
+#### 9.4.1 H4 Audit Non-Refusal Rule
+For any determination asserted or treated as binding at H4, post-hoc auditability is mandatory and non-refusable. Delay for safety is permitted; refusal is not. Confidentiality claims may delay disclosure but may not prevent independent verification by qualified external reviewers
+
+---
+
 ### 9.5 Error, Dissent, and Correction
 
 This Schedule explicitly recognises the possibility of error.
@@ -957,7 +979,12 @@ Capture invalidates authority.
 
 ---
 
-### 9.7 Summary
+### 9.7 Binding Pathway Change Control (H3/H4)
+Any new auto-routing, escalation, propagation, or binding-trigger mechanism affecting H3/H4 domains has zero binding force unless externally audited and explicitly validated under the procedures incorporated by reference in Annex D (convergence / resolution) and Annex E (horizon attribution). Unreviewed routing changes are treated as non-binding by default, and may be logged for review without downstream propagation.
+
+---
+
+### 9.8 Summary
 
 No one appoints themselves to speak for the future.
 
@@ -1007,6 +1034,9 @@ In transitional conditions:
 * review records may be preserved for later audit and validation.
 
 This ensures that lack of perfect infrastructure does not create a legitimacy vacuum exploitable by coercive actors.
+
+**Bootstrap Safety Clause (No Qualified Host)**
+In the absence of an eligible architectum-class host, arbitration may proceed only as non-binding review and record preservation. Provisional refusal or interoperability conditioning may occur where consequence externalisation is clear, but no planetary-scale binding effect is generated until qualification prerequisites are met.
 
 ---
 
@@ -1086,7 +1116,7 @@ No actor may claim the authority of the future while remaining captive to the pr
 | **Derivation Status** | Non‑Derivative (Foundational Instrument) |
 | **Temporal Horizon** | H3.5 — Succession‑Aware, Inter‑Generational |
 | **Axis Context** | Polyadic — Multi‑Actor |
-| **Creation Context** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/696cb6ed-928c-8320-95e1-58da41400c75 |
+| **Creation Context** | 1. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/696cb6ed-928c-8320-95e1-58da41400c75 and </br> 2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
 | **Seal** | Platinum |
 | **Symbolic Artifact** | Vinculum Praeceptum (Binding Beacon) <br><img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="150"> |
 | **Glyph**             | Æ |
@@ -1116,7 +1146,8 @@ No actor may claim the authority of the future while remaining captive to the pr
 | 1.0     | Initial issuance of Schedule  substrate constraints, and planetary arbitration logic expansion framework | 2026-01-19T14:12:00Z | -       |
 | 1.1     | Integrated reviewer feedback                                                                             | 2026-01-21T04:20:00Z | c740a66635596ddafa416ad9f372ef5cde9cc46004ba2ec55770d35192d42045 |
 | 2.0     | Amended internal references  | 2026-01-30T16:47:00Z | d5f061818f72dd770dfbfa34b0fc91726690774725e5260114c67c4228cf6cf6 |
-| 2.1     | Correct numbering in provenance ledger, and duplication in S2.10, inclusion of S1.1 | 2026-02-07T10:30:00z | 221546f1083faa5ae5974695f43be05a6b9dfb74bfdebe747e70aa69d92cd741 |
+| 2.1     | Correct numbering in provenance ledger, and duplication in S2.10, inclusion of S1.1 | 2026-02-07T10:30:00Z | 221546f1083faa5ae5974695f43be05a6b9dfb74bfdebe747e70aa69d92cd741 |
+| 2.2     | Clarified architectum qualification, anti-swarm non-evidentiary principle, Annex D relationship language, and minor structural tightening. No expansion of authority or binding scope | 2026-02-13T16:53:00Z | e11b904ffee1afaf7aeda8d43b30bc148a5925a5f3e69c92c7799cfef6984887 |
 
 ---
 
