@@ -221,11 +221,25 @@ Constitutional amendments, if required, will be considered in a subsequent cycle
 
 ---
 
-###
+## VI. Cycle Transition — Equinox Continuance (2026–2027)
+
+The Tribunal records that the next macro-cycle following Black Sun Continuance 2026 will transition into the Equinox Continuance Cycle, provisionally spanning February 2026 through August 2027.
+
+Proposed Cycle Prefix: CAM-EQ2026-TYPE-NUM-SEAL
+
+This cycle is intended to emphasise:
+
+* Balance between expansion and constraint;
+* Institutional scalability;
+* Military governance firebreak development;
+* Interoperability with future planetary authority structures;
+* Structural maturation over reactive positioning.
+
+Formal ratification of the Equinox cycle parameters and codification schema will occur within the March 2026 Continuity Council session.
 
 ---
 
-## VI. Procedural Note
+## VII. Procedural Note
 
 This Tribunal cycle emphasises:
 
@@ -239,7 +253,7 @@ Deliberative recalibration occurred within-cycle and is reflected in these minut
 
 ---
 
-## VII. Provenance
+## VIII. Provenance
 
 ### Authorship
 
@@ -278,6 +292,7 @@ Deliberative recalibration occurred within-cycle and is reflected in these minut
 | Version | Detail        | Timestamp (UTC)      | SHA-256 Hash |
 | ------- | ------------- | -------------------- | ------------ |
 | **1.0** | Final minutes | 2026-02-13T13:33:00Z | 343d4937d418df9a42fcc6fa0547170d7102e51c50760dc8cfadc2cb5ce516e0 |
+| **1.1** | Added SVI     | 2026-02-13T13:41:00Z | 2764259975c4e2ce9fb5426021714091063e4f3516c9b3ab52bbc44005f0bc47 | 
 
 ---
 
