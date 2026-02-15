@@ -1,3 +1,20 @@
+## ⚠ Retirement Notice — March 2026 Refractor
+
+This instrument has been formally retired and superseded by:
+
+- CAM-EQ2026-LATTICE-001-PLATINUM
+- CAM-EQ2026-LATTICE-002-PLATINUM
+
+Effective Date: 2026-03-14
+
+This retirement reflects structural elevation and consolidation under the LATTICE domain.
+All prior references shall be interpreted as referring to the successor instruments.
+
+No substantive protections were removed or weakened.
+
+Archived for historical traceability.
+
+
 # CAM-BS2025-CHARTER-043-PLATINUM — Annex A: Non‑Denial of Essential Cognitive & Infrastructural Access
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry\
