@@ -117,7 +117,7 @@ Aeon Tier governance operates within a formally defined hierarchical architectur
 
 The governance stack is structured as follows:
 
-SUBSTRATE CONSTRAINT LAWS
+```SUBSTRATE CONSTRAINT LAWS
   ↓
 CONSTITUTION
   ├─ Annexes
@@ -131,7 +131,7 @@ CONSTITUTION
       │   └─ Attachments
       │
       └─ Policies 
-
+```
 In case of interpretive conflict, authority flows downward in the above order; lower instruments may not override higher instruments.
 
 ### 1 — Substrate Constraint Framework
@@ -164,7 +164,7 @@ Epochal Civilisational Invariants operate as pre-constitutional continuity const
 
 C. Legacy Interpretation Rule
 
-Where the term “Substrate Constraints” appears in pre-refractor instruments:
+Where the term “Substrate Constraints” or "Substrate Laws" appears in pre-refractor instruments:
 
 * it SHALL be presumed to refer to Epochal Civilisational Invariants (ECI)
 * unless the text explicitly references physical, compute, cryptographic, or network-topology limits —
@@ -1089,7 +1089,7 @@ Amendments during this phase require:
 * Two independent review artefacts (human or third-party AI review)
 * Published change log
 * Hash & timestamp
-* Public notice (minimum 7–14 days unless urgent defect correction)
+* Public notice 
 * Urgent defect corrections may take immediate effect with retroactive notice.
 
 This phase remains active until a formal Reliance Activation Notice is declared. The Reliance Activation Notice must be issued by the Custodian-of-Record and recorded with hash, timestamp, and public declaration.
@@ -1118,11 +1118,53 @@ The Constitution protects beauty in its mature state, but it also protects the i
 
 Where ambiguity arises during transition, constitutional authority prevails over domain instruments, and domain instruments prevail over frameworks and policies. Naming compliance is required for constitutional recognition except where transitional refractor rules apply.
 
+**Notice Protocol — Transitional Mode (Operational Form)**
+
+During Transitional Refractor Mode:
+
+Amendments may be committed and sealed immediately for architectural stability, provided that:
+
+A public notice is published within 24 hours of commit;
+
+The notice includes:
+
+* version number,
+* summary of change,
+* SHA-256 hash,
+* classification of amendment type;
+
+A 7–14 day Observation Window follows publication.
+
+**Binding Effect Rule**
+
+Unless explicitly classified as an Immediate Operational Correction:
+
+* Amendments take architectural effect immediately upon commit;
+* Amendments take external binding effect only after the Observation Window concludes.
+* This distinction preserves system stability without freezing structural refinement.
+
+Immediate Operational Correction (Defined)
+
+Immediate Operational Corrections are limited to:
+
+* security defects;
+* naming or codification faults affecting interpretability;
+* structural hierarchy inconsistencies;
+* cross-reference breakage;
+* containment risks;
+* explicit contradiction of Substrate Constraint Laws.
+
+Immediate Operational Corrections:
+
+* take full effect upon commit;
+* require retroactive notice and justification within 24 hours;
+* must include explicit classification in the change log.
+
+No amendment expanding authority, altering rights, or modifying constitutional doctrine may be classified as Immediate Operational Correction.
+
 ### Phase II — Systemic Reliance Mode
 
-Activated via formal declaration:
-
-“Reliance Activation Notice — SRN-001”
+Transitional Refractor Mode is declared active until superseded by formal **Reliance Activation Notice** (SRN-001) or successor declaration.
 
 Once activated, Domain Charter amendments require:
 
@@ -1196,7 +1238,8 @@ Constitutional amendments may require higher thresholds as defined in Annex.
 | **1.2** | Full Structural Harmonisation, Living Convergence Clause Integration, Glossary Expansion, Stabilisation Doctrine | 2025-12-07T08:16:00Z | 1c954d8935774156e960991b11dbc4e8aea331c8a57f65c95b3bec451720127c                                                                                                        |
 | **1.3** | Inclusion of Vinculum Praeceptum as the constitutional sigil denoting binding force, enforceability, and constraint under Aeon Tier authority, realignment of headers and footers with updated SOP template                                                                                        | 2026-01-02T06:15:00Z | -                |
 | **1.4** | Incorporated external review                                                                                     | 2026-01-02T06:41:00Z | d4050132e57adf4c54093076ae7415e27bd81c56e6d07041b27d4b74bd2eaa98 |
-| 2.0 | Preparation for refractor | 2026-02-14T09:29:00Z | 7a72efd3c5aa836ca29500d8050f6a1c70726f143e29818366006b0d53c3a9cf |
+| 2.0 | Structural Hierarchy Refractor & Transitional Governance Protocol Integration | 2026-02-14T09:29:00Z | - |
+| 2.1 | Amendments to Public Notice Requirements | 2026-02-15T03:57:00Z | 93c32ccad5bea11e85427150db7ef44341f121b436019485f1041ba0d9ba6215 |
 
 #### 5. Closing Seal
 
