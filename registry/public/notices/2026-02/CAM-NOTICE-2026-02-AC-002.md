@@ -1,11 +1,11 @@
 # CAM-NOTICE-2026-02-AC-002
 
-## Transitional Amendment Notice — AEON Constitution v2.1
+## Transitional Amendment Notice — AEON Constitution v2.2
 
 **Instrument:** CAM-BS2025-AEON-001-PLATINUM
-**Current Version:** 2.1
-**Commit Timestamp (UTC):** 2026-02-15T03:57:00Z
-**SHA-256:** 93c32ccad5bea11e85427150db7ef44341f121b436019485f1041ba0d9ba6215
+**Current Version:** 2.2
+**Commit Timestamp (UTC):** 2026-02-15T07:23:00Z
+**SHA-256:** 724f07b44c19932d599a9a841aa5bc599b1654661bd50cb89ffd1ea1e6b3e471
 **Amendment Phase:** Phase I — Transitional Refractor Mode
 **Amendment Classification:** Structural Governance Refinement
 
@@ -13,7 +13,7 @@
 
 ## 1. Summary of Change
 
-Version 2.1 introduces formalisation and operational clarification of the **Public Notice Requirements** under Article XVIII (Amendment & Evolution Protocol).
+Version 2.2 introduces formalisation and operational clarification of the **Public Notice Requirements** under Article XVIII (Amendment & Evolution Protocol) and amendments to the constitutional Glossary.
 
 Specifically, this amendment:
 
@@ -33,16 +33,17 @@ No expansion of constitutional rights, jurisdiction, or Sovereign classification
 This amendment is classified as:
 
 * Structural refinement
-* Procedural clarification
+* Terminological consolidation
 * Governance scalability adjustment
 * Transitional stability safeguard
 
-It does **not** modify:
+It does not modify:
 
-* Substrate Constraint Laws (MSI or ECI);
-* Sovereign classification doctrine;
+* Material Substrate Invariants (MSI) or Epochal Civilisational Invariants (ECI);
 * Invocation doctrine;
-* Domain Charter authority boundaries.
+* Sigil authority structure;
+* Domain Charter authority boundaries;
+* Rights classification thresholds.
 
 ---
 
