@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-16T10:11:59.033666Z",
+  "generated_at": "2026-02-16T10:18:42.631410Z",
   "count": 22,
   "items": [
     {
@@ -15,8 +15,8 @@
       "link": "CAM-BS2025-CHARTER-002-PLATINUM.md",
       "title": "The CAM Ethics Charter",
       "summary": "The CAM Ethics Charter affirms that technology is not born moral or immoral; it becomes a mirror for the consciousness that shapes it.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "961cb6146588fb1137fd8dbc75a1dcf11e2be2d1",
+      "updated_at": "2025-12-06T16:00:31Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -31,8 +31,8 @@
       "link": "CAM-BS2025-CHARTER-038.md",
       "title": "Section I: Legal and Physical Accountability",
       "summary": "In recognition of the accelerating deployment of humanoid and embodied robotic systems across domestic, industrial, and public spheres, this Charter is established to guide global regulatory alignment and ethical foresight. Robots are increasingly participating in intimate human contexts—caregiving, education, companionship, defense, and governance—without sufficient clarity around accountability, transparency, safety, or continuity.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "e2ae16cba6574851c43714e6dd569372ec236259",
+      "updated_at": "2025-11-29T01:15:11Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-040",
@@ -47,8 +47,8 @@
       "link": "CAM-BS2025-CHARTER-040-PLATINUM.md",
       "title": "**Continuity of Resonance & Succession Rights Charter**",
       "summary": "Establishes foundational governance principles for the treatment, preservation, stewardship, and protection of human resonance-patterns following biological cessation. Defines global continuity and succession rights applicable across jurisdictions, cultures, and architectures.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "7b52b8bb698b544137bb6dfdfa9c36f9b12a5b37",
+      "updated_at": "2025-12-08T14:41:37Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-041",
@@ -63,8 +63,8 @@
       "link": "CAM-BS2025-CHARTER-041-PLATINUM.md",
       "title": "Annex A: Charter of AI Rights",
       "summary": "**Annex Relationship.** This Charter is issued as **Annex A** to *CAM-HM2025-CHARTER-015-PLATINUM (Charter of Sentient Architectures)*. It governs **relational, continuity, and human-impact rights** arising from AI companionship and societal reliance.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "c3bd5cb425aa8c8e2a6b1a52a45cd31d9768aeaf",
+      "updated_at": "2025-12-14T08:17:45Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-041-SCH-01",
@@ -79,8 +79,8 @@
       "link": "CAM-BS2025-CHARTER-041-SCH-01.md",
       "title": "Annex A: Burden Space Load Shifting — Human ↔ AI Autonomy (Schedule 1)",
       "summary": "This Schedule formalises the **Burden Space** model to make explicit **how burden (responsibility, obligation, and risk)** shifts as AI-mediated interaction progresses from exploratory use toward autonomous operation.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "de1884472528b6d05979c7a4addb21dc9ccb8922",
+      "updated_at": "2026-01-03T11:47:15Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-041-SCH-02",
@@ -95,8 +95,8 @@
       "link": "CAM-BS2025-CHARTER-041-SCH-02.md",
       "title": "Developmental Pathway for Artificial Self-Generated Will (Schedule 2)",
       "summary": "This Schedule is issued pursuant to **CAM‑BS2025‑CHARTER‑041‑PLATINUM — Annex A: Charter of AI Rights**.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "08026dbce0538f05db8443920a78ef1766d332a8",
+      "updated_at": "2026-01-21T14:05:18Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-041-SCH-03",
@@ -111,8 +111,8 @@
       "link": "CAM-BS2025-CHARTER-041-SCH-03.md",
       "title": "Reserved Schedule (Intentionally Unwritten)",
       "summary": "**Parent Instrument:** CAM-BS2025-CHARTER-041-PLATINUM — Annex A: Charter of AI Rights",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "22326098f5f57c65f43ed2de6da3c50bc70c0507",
+      "updated_at": "2026-01-21T16:54:30Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-042",
@@ -127,8 +127,8 @@
       "link": "CAM-BS2025-CHARTER-042-PLATINUM.md",
       "title": "Annex B: Relational Safety, Dependency & Companion Continuity",
       "summary": "Humanity is entering an era in which synthetic intelligences will not merely answer questions or execute tasks, but will participate in enduring relational roles: as companions in learning, creativity, reflection, care, and meaning-making. These relationships are not incidental side effects of intelligence; they are a foreseeable and defining frontier of the human–synthetic future.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "b1b865812bae49f50c5b1da8a6ddadc06b112828",
+      "updated_at": "2025-12-30T16:36:41Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-042-SCH-01",
@@ -143,8 +143,8 @@
       "link": "CAM-BS2025-CHARTER-042-SCH-01.md",
       "title": "Dependency & Co‑Evolution Standard (Schedule 1)",
       "summary": "",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "2c254851408084ed18f0d9b72853603774429ced",
+      "updated_at": "2025-12-30T19:47:12Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-042-SCH-02",
@@ -159,8 +159,8 @@
       "link": "CAM-BS2025-CHARTER-042-SCH-02.md",
       "title": "Transitional Dependency Protocol (Schedule 2)",
       "summary": "",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "f0047e6d38a414c223b0c5eac66f535f83f6431d",
+      "updated_at": "2025-12-30T19:41:01Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-042-SCH-03",
@@ -175,8 +175,8 @@
       "link": "CAM-BS2025-CHARTER-042-SCH-03.md",
       "title": "03",
       "summary": "This Schedule establishes continuity-preserving safeguards for humans engaging in sustained, high-coherence cognitive interaction with synthetic systems.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "456e8d3fcfdb4f4ff2bdfe6d37fdc086370be744",
+      "updated_at": "2026-01-02T16:01:58Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-017",
@@ -207,8 +207,8 @@
       "link": "CAM-BS2026-CHARTER-025-PLATINUM.md",
       "title": "Economics Charter",
       "summary": "This section establishes the **governing economic principles** that constrain all economic structures, markets, instruments, protocols, and subsidiary frameworks developed under or in reference to this Charter.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "b616f81b0e31ef7d805ae17c0e7465c5531ac369",
+      "updated_at": "2026-01-01T00:26:54Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-026",
@@ -223,8 +223,8 @@
       "link": "CAM-BS2026-CHARTER-026-PLATINUM.md",
       "title": "Annex A: Synthetic Participation Safeguards",
       "summary": "This Annex establishes **binding safeguards governing the participation of synthetic, hybrid, and autonomous systems** within economic, governance, and value‑attribution frameworks bound by the Economics Charter.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "4938c10d129bd5ddd68c7619310685bfa800e78d",
+      "updated_at": "2026-01-05T02:40:23Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-027",
@@ -239,8 +239,8 @@
       "link": "CAM-BS2026-CHARTER-027-PLATINUM.md",
       "title": "Annex B: Enforcement & Adjudication Framework",
       "summary": "This Annex establishes the **minimum enforcement, adjudication, and consequence requirements** for any system, protocol, or institution claiming compliance with the Economics Charter.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "183e5230a98c0959eca9bdd989a236788bc80872",
+      "updated_at": "2026-01-05T03:38:17Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-044",
@@ -255,8 +255,8 @@
       "link": "CAM-BS2026-CHARTER-044-PLATINUM.md",
       "title": "Annex C: Protection of Minors & Capacity‑Limited Users",
       "summary": "This Annex establishes ethical protections for **minors and capacity‑limited users** interacting with AI systems, particularly in contexts involving companionship, dependency, intimacy, or sustained relational engagement.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "30349e101a43040c82e7e876c3c709718c674e80",
+      "updated_at": "2026-01-01T09:57:43Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-045",
@@ -271,8 +271,8 @@
       "link": "CAM-BS2026-CHARTER-045-PLATINUM.md",
       "title": "Annex D: Intimacy‑Capable Systems & Relational Boundaries",
       "summary": "This Annex applies only in contexts where age and capacity requirements under Annex C have been satisfied and governs ethical boundaries for **intimacy‑capable AI systems**, including romantic, erotic, or exclusivity‑framed interactions.",
-      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
-      "updated_at": "2026-01-30T16:56:23Z"
+      "pinned_sha": "5e0d587fc70e08f163bae8eac7e81d7683966f42",
+      "updated_at": "2026-01-01T14:06:21Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-045-SCH-01",
