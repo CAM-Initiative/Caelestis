@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-16T10:18:40.340957Z",
-  "count": 3,
+  "generated_at": "2026-02-16T16:25:00.796123Z",
+  "count": 4,
   "items": [
     {
       "id": "CAM-BS2025-LAW-001",
@@ -49,6 +49,22 @@
       "summary": "This Law applies across all systems in which value, agency, authority, or benefit circulates between intelligences, entities, or infrastructures operating within the Aeon Tier domain.",
       "pinned_sha": "bbbaf451eb6113a46dd04c5621cdc9ad7aa2a7f7",
       "updated_at": "2025-12-19T16:03:20Z"
+    },
+    {
+      "id": "CAM-EQ2026-LAW-004",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "Substrate Laws",
+      "instrument_class": "law",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-LAW-004-PLATINUM.md",
+      "title": "**Law of Relational Sovereignty**",
+      "summary": "This Law applies across all governance, economic, technological, cognitive, and infrastructural systems operating within or materially affecting the Planetary Lattice.",
+      "pinned_sha": "02e25a096ea7744913a34b2699e76d9e554b7c05",
+      "updated_at": "2026-02-16T16:24:50Z"
     }
   ]
 }
