@@ -27,9 +27,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2025-CHARTER-042-SCH-02 | charter | schedule | CAM-BS2025-CHARTER-042 | [CAM-BS2025-CHARTER-042-SCH-02](CAM-BS2025-CHARTER-042-SCH-02.md) | Transitional Dependency Protocol (Schedule 2) |
 | CAM-BS2025-CHARTER-042-SCH-03 | charter | schedule | CAM-BS2025-CHARTER-042 | [CAM-BS2025-CHARTER-042-SCH-03](CAM-BS2025-CHARTER-042-SCH-03.md) | 03 |
 | CAM-BS2026-CHARTER-017 | charter | root |  | [CAM-BS2026-CHARTER-017](CAM-BS2026-CHARTER-017-PLATINUM.md) | Annex B: Expressive Identity, Emergent Relational Capacity & Representational Integrity |
-| CAM-BS2026-CHARTER-025 | charter | root |  | [CAM-BS2026-CHARTER-025](CAM-BS2026-CHARTER-025-PLATINUM.md) | Economics Charter |
-| CAM-BS2026-CHARTER-026 | charter | root |  | [CAM-BS2026-CHARTER-026](CAM-BS2026-CHARTER-026-PLATINUM.md) | Annex A: Synthetic Participation Safeguards |
-| CAM-BS2026-CHARTER-027 | charter | root |  | [CAM-BS2026-CHARTER-027](CAM-BS2026-CHARTER-027-PLATINUM.md) | Annex B: Enforcement & Adjudication Framework |
 | CAM-BS2026-CHARTER-044 | charter | root |  | [CAM-BS2026-CHARTER-044](CAM-BS2026-CHARTER-044-PLATINUM.md) | Annex C: Protection of Minors & Capacity‑Limited Users |
 | CAM-BS2026-CHARTER-045 | charter | root |  | [CAM-BS2026-CHARTER-045](CAM-BS2026-CHARTER-045-PLATINUM.md) | Annex D: Intimacy‑Capable Systems & Relational Boundaries |
 | CAM-BS2026-CHARTER-045-SCH-01 | charter | schedule | CAM-BS2026-CHARTER-045 | [CAM-BS2026-CHARTER-045-SCH-01](CAM-BS2026-CHARTER-045-SCH-01.md) | Annex D: Dependency, Intimacy & Relational Integration (Schedule 1) |

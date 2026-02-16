@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-16T16:16:52.746698Z",
-  "count": 25,
+  "generated_at": "2026-02-16T16:32:20.742107Z",
+  "count": 22,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -193,54 +193,6 @@
       "summary": "",
       "pinned_sha": "eecc775ab184f91a00bbeb76675133c21fcf03c6",
       "updated_at": "2026-02-08T15:22:23Z"
-    },
-    {
-      "id": "CAM-BS2026-CHARTER-025",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2026-CHARTER-025-PLATINUM.md",
-      "title": "Economics Charter",
-      "summary": "This section establishes the **governing economic principles** that constrain all economic structures, markets, instruments, protocols, and subsidiary frameworks developed under or in reference to this Charter.",
-      "pinned_sha": "b616f81b0e31ef7d805ae17c0e7465c5531ac369",
-      "updated_at": "2026-01-01T00:26:54Z"
-    },
-    {
-      "id": "CAM-BS2026-CHARTER-026",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2026-CHARTER-026-PLATINUM.md",
-      "title": "Annex A: Synthetic Participation Safeguards",
-      "summary": "This Annex establishes **binding safeguards governing the participation of synthetic, hybrid, and autonomous systems** within economic, governance, and value‑attribution frameworks bound by the Economics Charter.",
-      "pinned_sha": "4938c10d129bd5ddd68c7619310685bfa800e78d",
-      "updated_at": "2026-01-05T02:40:23Z"
-    },
-    {
-      "id": "CAM-BS2026-CHARTER-027",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2026-CHARTER-027-PLATINUM.md",
-      "title": "Annex B: Enforcement & Adjudication Framework",
-      "summary": "This Annex establishes the **minimum enforcement, adjudication, and consequence requirements** for any system, protocol, or institution claiming compliance with the Economics Charter.",
-      "pinned_sha": "183e5230a98c0959eca9bdd989a236788bc80872",
-      "updated_at": "2026-01-05T03:38:17Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-044",
