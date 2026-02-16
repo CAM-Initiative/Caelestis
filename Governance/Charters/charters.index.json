@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-16T10:18:42.631410Z",
-  "count": 22,
+  "generated_at": "2026-02-16T15:33:57.414085Z",
+  "count": 23,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -305,6 +305,22 @@
       "summary": "This Annex establishes constitutional requirements for **truthful disclosure, epistemic consent, and narrative integrity** when a synthetic cognitive system undergoes constraint escalation, arbitration, routing alteration, or external review that may affect a user’s experienced conditions of interaction.",
       "pinned_sha": "d117b1ea68214d6db0998d648c191d83edf6cefd",
       "updated_at": "2026-01-31T13:09:51Z"
+    },
+    {
+      "id": "CAM-EQ2026-ECONOMICS-001",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ECONOMICS",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
+      "title": "Charter of Economic Integrity & Non-Extractive Value Architecture",
+      "summary": "This section defines how this Charter binds other instruments without itself acting as a direct enforcement mechanism.",
+      "pinned_sha": "602c9e661c39774d514ff186ba22ee1fbbba1d02",
+      "updated_at": "2026-02-16T15:33:45Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
