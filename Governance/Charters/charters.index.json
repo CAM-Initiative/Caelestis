@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-16T15:49:48.604075Z",
-  "count": 23,
+  "generated_at": "2026-02-16T16:03:00.996798Z",
+  "count": 24,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -321,6 +321,22 @@
       "summary": "This section defines how this Charter binds other instruments without itself acting as a direct enforcement mechanism.",
       "pinned_sha": "522de0eaaf3fcc6a319471af880e9710986b7f24",
       "updated_at": "2026-02-16T15:49:37Z"
+    },
+    {
+      "id": "CAM-EQ2026-ECONOMICS-002",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ECONOMICS",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
+      "title": "AppendixA : Synthetic Participation Safeguards",
+      "summary": "This Appendix exists to:",
+      "pinned_sha": "1c9332f745e6d03f05a1bb51b3577e7e1e3aa071",
+      "updated_at": "2026-02-16T16:02:50Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
