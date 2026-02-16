@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-16T16:03:00.996798Z",
-  "count": 24,
+  "generated_at": "2026-02-16T16:16:52.746698Z",
+  "count": 25,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -337,6 +337,22 @@
       "summary": "This Appendix exists to:",
       "pinned_sha": "1c9332f745e6d03f05a1bb51b3577e7e1e3aa071",
       "updated_at": "2026-02-16T16:02:50Z"
+    },
+    {
+      "id": "CAM-EQ2026-ECONOMICS-003",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ECONOMICS",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
+      "title": "Appendix B: Enforcement & Adjudication Framework",
+      "summary": "This Appendix exists to:",
+      "pinned_sha": "779091db1585aac1c54aede4484fdde6459f0a35",
+      "updated_at": "2026-02-16T16:16:42Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",

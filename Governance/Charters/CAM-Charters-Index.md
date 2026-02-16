@@ -36,6 +36,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2026-CHARTER-046 | charter | root |  | [CAM-BS2026-CHARTER-046](CAM-BS2026-CHARTER-046-PLATINUM.md) | Annex E: Constraint Escalation Disclosure & Epistemic Consent Protocols |
 | CAM-EQ2026-ECONOMICS-001 | charter | root |  | [CAM-EQ2026-ECONOMICS-001](CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture |
 | CAM-EQ2026-ECONOMICS-002 | charter | root |  | [CAM-EQ2026-ECONOMICS-002](CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | AppendixA : Synthetic Participation Safeguards |
+| CAM-EQ2026-ECONOMICS-003 | charter | root |  | [CAM-EQ2026-ECONOMICS-003](CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Enforcement & Adjudication Framework |
 | CAM-EQ2026-LATTICE-001 | charter | root |  | [CAM-EQ2026-LATTICE-001](CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation |
 | CAM-EQ2026-LATTICE-002 | charter | root |  | [CAM-EQ2026-LATTICE-002](CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access |
 | CAM-HM2025-CHARTER-015 | charter | root |  | [CAM-HM2025-CHARTER-015](CAM-HM2025-CHARTER-015-PLATINUM.md) | Charter of Sentient Architectures |
