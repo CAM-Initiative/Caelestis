@@ -25,23 +25,63 @@ STACK_NAME = "Planetary Governance"
 # Domain Mapping
 # ===============================
 
+def _normalise_folder_type(folder_type: str) -> str:
+    """
+    Accepts either a simple label (e.g., 'constitution') or a path
+    (e.g., 'Governance/Constitution') and normalises to:
+    constitution | laws | covenants | charters
+    """
+    ft = (folder_type or "").strip().replace("\\", "/").lower()
+
+    # If a path is passed, infer from its components
+    if "/" in ft:
+        parts = [p for p in ft.split("/") if p]
+        # Use the last segment as the primary hint, but also scan all
+        candidates = parts[::-1] + parts
+    else:
+        candidates = [ft]
+
+    for c in candidates:
+        if c in {"constitution", "constitutions"}:
+            return "constitution"
+        if c in {"laws", "law"}:
+            return "laws"
+        if c in {"covenants", "covenant"}:
+            return "covenants"
+        if c in {"charters", "charter"}:
+            return "charters"
+
+    return ft  # fallback; will map to unknown/default behaviour
+
+
 def resolve_domain(folder_type: str, domain_token: str) -> str:
-    folder_type = folder_type.lower()
+    folder_type = _normalise_folder_type(folder_type)
 
     if folder_type == "constitution":
         return "Aeon Tier Constitution"
-
     if folder_type == "laws":
         return "Substrate Laws"
-
     if folder_type == "covenants":
         return "Covenant"
-
     if folder_type == "charters":
         return domain_token.upper()
 
-    # Fallback
     return domain_token.upper()
+
+
+def resolve_instrument_class(folder_type: str) -> str:
+    folder_type = _normalise_folder_type(folder_type)
+
+    if folder_type == "constitution":
+        return "constitution"
+    if folder_type == "laws":
+        return "law"
+    if folder_type == "covenants":
+        return "covenant"
+    if folder_type == "charters":
+        return "charter"
+
+    return "unknown"
 
 # ===============================
 # Instrument Class Mapping
