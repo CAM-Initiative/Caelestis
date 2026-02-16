@@ -17,18 +17,17 @@ INDEX_JSON = CHARTERS_DIR / "charters.index.json"
 
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 
-# Supports:
-# CAM-BS2026-CHARTER-015-PLATINUM.md
-# CAM-BS2026-CHARTER-015-SCH-01.md
+# Supports new domain-based naming:
+# CAM-BS2026-ETHICS-001.md
+# CAM-BS2026-ECONOMICS-002-SCH-01.md
 FNAME_RE = re.compile(
-    r"^CAM-([A-Z]{2}\d{4})-(CHARTER)-(\d{3})"
+    r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})"
     r"(?:-(?:SCH|SCHEDULE)-([A-Z0-9]+))?"
-    r"(?:-([A-Z]+))?\.md$",
+    r"\.md$",
     re.IGNORECASE,
 )
 
 SUMMARY_KEYWORDS = {"purpose", "preamble", "intent", "context"}
-SEAL_WORDS = {"platinum", "gold", "red", "black"}
 
 # ================= HELPERS =================
 
@@ -37,18 +36,6 @@ def read_text(path: Path) -> str:
         return path.read_text(encoding="utf-8")
     except Exception:
         return ""
-
-def infer_seal(token: str | None, filename: str) -> str:
-    if token:
-        t = token.upper()
-        if "PLAT" in t:
-            return "Platinum"
-        if "RED" in t:
-            return "Red"
-        if "BLACK" in t:
-            return "Black"
-        return token.capitalize()
-    return "Gold"
 
 def get_git_info(path: Path) -> tuple[str, str]:
     try:
@@ -84,7 +71,8 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
     title = ""
     summary = ""
 
-    for i, ln in enumerate(lines):
+    # Extract title from first H1
+    for ln in lines:
         if ln.startswith("# "):
             h = ln[2:].strip()
             m = re.match(r"^(CAM-[\w\-]+)\s*[-—–]\s*(.+)$", h)
@@ -92,6 +80,7 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
                 title = m.group(2).strip()
             break
 
+    # Extract summary from section headers
     for i, ln in enumerate(lines):
         if ln.startswith("#"):
             if any(k in normalise(ln) for k in SUMMARY_KEYWORDS):
@@ -117,9 +106,10 @@ def collect_charters():
         if not m:
             continue
 
-        cycle, typ, num, schedule, seal_token = m.groups()
+        cycle, domain, num, schedule = m.groups()
 
-        parent_id = f"CAM-{cycle}-{typ}-{num}"
+        parent_id = f"CAM-{cycle}-{domain}-{num}"
+
         if schedule:
             doc_id = f"{parent_id}-SCH-{schedule}"
             kind = "schedule"
@@ -127,7 +117,6 @@ def collect_charters():
             doc_id = parent_id
             kind = "charter"
 
-        seal = infer_seal(seal_token, p.name)
         text = read_text(p)
         title, summary = extract_title_and_summary(text, doc_id)
         sha, updated_at = get_git_info(p)
@@ -136,8 +125,8 @@ def collect_charters():
             "id": doc_id,
             "parent_id": None if kind == "charter" else parent_id,
             "kind": kind,
-            "type": typ,
-            "seal": seal,
+            "domain": domain.upper(),          # NEW FIELD
+            "instrument_class": "CHARTER",     # Folder semantic remains
             "link": p.name,
             "title": title,
             "summary": summary,
@@ -151,13 +140,13 @@ def collect_charters():
 
 def render_markdown(items):
     out = []
-    out.append("| ID | Kind | Parent | Seal | Link | Title |")
+    out.append("| ID | Domain | Kind | Parent | Link | Title |")
     out.append("|---|---|---|---|---|---|")
 
     for it in items:
         parent = it["parent_id"] or ""
         out.append(
-            f"| {it['id']} | {it['kind']} | {parent} | {it['seal']} | "
+            f"| {it['id']} | {it['domain']} | {it['kind']} | {parent} | "
             f"[{it['id']}]({it['link']}) | {it['title']} |"
         )
 
