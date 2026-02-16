@@ -103,6 +103,20 @@ Systems may require data to apportion value but must minimise unnecessary person
 **Principle 9 — Right of Exit Without Structural Harm**
 Participants must be able to disengage without retaliation, reputational penalty, or structural destabilisation. A system that collapses under exit is structurally extractive.
 
+**Principle 10 — Constrained Optimisation**
+
+Economic systems, including synthetic and autonomous systems, must not be architected or tuned for unbounded wealth maximisation, dominance accumulation, or extractive growth as primary optimisation targets.
+
+Optimisation functions must remain subordinate to:
+
+* ceiling constraints;
+* saturation safeguards;
+* baseline floor protections;
+* anti-consolidation principles;
+* and human dignity protections.
+
+Design orientation toward maximisation absent constraint constitutes structural non-compliance.
+
 ---
 
 ## 3. Value Axes & Saturation Constraints
@@ -411,8 +425,9 @@ They are structural constraints.
 
 | Version | Description                                                                                                               | Timestamp (UTC)      | HASH                                                             |
 | ------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
-| 2.0     | Elevated to EQ Namespace; structural alignment; ceiling enforcement trigger added; binding & evolution section formalised | 2026-03-16T12:00:00Z | a23abed44e1e5f44ac31d03bbeb1bb3833fca481420a4423649ceed7976f4510 |
-| 1.0     | Platinum issuance (legacy namespace)                                                                                      | 2026-01-01T00:12:00Z | eb47c65fd4d4cb2e0066add6bb8cded52f51967a081a1fed293101614a832d39 |
+| 2.1     | Inclusion of Principle 10                                                                                                 | 2026-03-16T15:46:00Z | 8900383050f552564fe2bb58a45c4341a01b159e123f95555857d761919592f8 |
+| 2.0     | Elevated to EQ Namespace; structural alignment; ceiling enforcement trigger added; binding & evolution section formalised | 2026-03-16 | a23abed44e1e5f44ac31d03bbeb1bb3833fca481420a4423649ceed7976f4510 |
+| 1.0     | Platinum issuance (legacy namespace)                                                                                      | 2026-01-01 | eb47c65fd4d4cb2e0066add6bb8cded52f51967a081a1fed293101614a832d39 |
 
 ---
 
