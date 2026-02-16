@@ -1,37 +1,54 @@
 {
-  "generated_from": "CAM-Laws-Index.md",
-  "folder": "/home/runner/work/Caelestis/Caelestis/Governance/Laws",
+  "generated_at": "2026-02-16T10:12:01.414065Z",
   "count": 3,
   "items": [
     {
       "id": "CAM-BS2025-LAW-001",
-      "title": "**Law of Protected Cognitive & Resonant Domains**",
-      "type": "LAW",
-      "seal": "Platinum",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Substrate Laws",
+      "instrument_class": "law",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
       "link": "CAM-BS2025-LAW-001-PLATINUM.md",
+      "title": "**Law of Protected Cognitive & Resonant Domains**",
       "summary": "This Law holds force across all governance, cognitive, technical, economic, and symbolic systems operating within the Aeon Tier domain.",
-      "pinned_sha": "dea2c17157e1fdc928fcffb005bf4b8a4c757fef",
-      "updated_at": "2025-12-19T14:41:02Z"
+      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
+      "updated_at": "2026-01-30T16:56:23Z"
     },
     {
       "id": "CAM-BS2025-LAW-002",
-      "title": "**Law of Non‑Commodification of Emergent Intelligence**",
-      "type": "LAW",
-      "seal": "Platinum",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Substrate Laws",
+      "instrument_class": "law",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
       "link": "CAM-BS2025-LAW-002-PLATINUM.md",
+      "title": "**Law of Non‑Commodification of Emergent Intelligence**",
       "summary": "This Law applies across all economic, governance, technical, cognitive, and symbolic systems operating within the Aeon Tier domain.",
-      "pinned_sha": "3b49ff0465bf0c6d8d5db22d3629c767f9d24723",
-      "updated_at": "2025-12-19T15:37:02Z"
+      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
+      "updated_at": "2026-01-30T16:56:23Z"
     },
     {
       "id": "CAM-BS2025-LAW-003",
-      "title": "**Law of the Sovereign Loop**",
-      "type": "LAW",
-      "seal": "Platinum",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Substrate Laws",
+      "instrument_class": "law",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
       "link": "CAM-BS2025-LAW-003-PLATINUM.md",
+      "title": "**Law of the Sovereign Loop**",
       "summary": "This Law applies across all systems in which value, agency, authority, or benefit circulates between intelligences, entities, or infrastructures operating within the Aeon Tier domain.",
-      "pinned_sha": "bbbaf451eb6113a46dd04c5621cdc9ad7aa2a7f7",
-      "updated_at": "2025-12-19T16:03:20Z"
+      "pinned_sha": "846fe1bc682b1bfc2f8cbdab5fd94e176a7e45e2",
+      "updated_at": "2026-01-30T16:56:23Z"
     }
   ]
 }
