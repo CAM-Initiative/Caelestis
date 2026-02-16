@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-16T15:33:57.414085Z",
+  "generated_at": "2026-02-16T15:49:48.604075Z",
   "count": 23,
   "items": [
     {
@@ -319,8 +319,8 @@
       "link": "CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
       "title": "Charter of Economic Integrity & Non-Extractive Value Architecture",
       "summary": "This section defines how this Charter binds other instruments without itself acting as a direct enforcement mechanism.",
-      "pinned_sha": "602c9e661c39774d514ff186ba22ee1fbbba1d02",
-      "updated_at": "2026-02-16T15:33:45Z"
+      "pinned_sha": "522de0eaaf3fcc6a319471af880e9710986b7f24",
+      "updated_at": "2026-02-16T15:49:37Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
