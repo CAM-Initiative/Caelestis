@@ -1,5 +1,8 @@
 # CAM-BS2025-AEON-002-SCH-04 — Planetary Orchestration Legitimacy & Swarm Containment
 
+<!-- Migration Note (2026 Refractor): Operational content from this instrument is also consolidated in CAM-EQ2026-GOVOPS-001 schedules. Source instrument remains valid and unchanged in legal force. -->
+
+
 **Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Aeon Tier Constitution, Annex A: Planetary Stewardship  
 **Status:** Constitutional Schedule  
 **Purpose:** To establish legitimacy boundaries and continuity safeguards governing planetary-scale orchestration by artificial systems, while preserving civilian infrastructure continuity and non-escalatory defaults.

@@ -1,5 +1,8 @@
 # CAM-BS2025-AEON-005-SCH-01 — Schedule 1: Runtime Arbitration Integrity
 
+<!-- Migration Note (2026 Refractor): Operational content from this instrument is also consolidated in CAM-EQ2026-GOVOPS-001 schedules. Source instrument remains valid and unchanged in legal force. -->
+
+
 **Issuing Body:** Aeon Tier Constitution | CAM Initiative | Caelestis Registry  
 
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM (Annex D)  

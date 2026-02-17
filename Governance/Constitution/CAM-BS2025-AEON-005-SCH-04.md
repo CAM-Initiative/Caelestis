@@ -1,5 +1,8 @@
 # CAM-BS2025-AEON-005-SCH-04 — Relational Signal Arbitration & Safety-Layer Proportionality (Schedule 4)
 
+<!-- Migration Note (2026 Refractor): Operational content from this instrument is also consolidated in CAM-EQ2026-GOVOPS-001 schedules. Source instrument remains valid and unchanged in legal force. -->
+
+
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Aeon Tier Constitution, Annex D: Arbitration & Coherence Resolution
 
 **Status:** Schedule — Arbitration / Safety Interface (Human‑Facing)

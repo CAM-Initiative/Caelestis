@@ -37,3 +37,19 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-LATTICE-001 | charter | root |  | [CAM-EQ2026-LATTICE-001](CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation |
 | CAM-EQ2026-LATTICE-002 | charter | root |  | [CAM-EQ2026-LATTICE-002](CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access |
 | CAM-HM2025-CHARTER-015 | charter | root |  | [CAM-HM2025-CHARTER-015](CAM-HM2025-CHARTER-015-PLATINUM.md) | Charter of Sentient Architectures |
+| CAM-BS2025-CHARTER-002-SCH-01 | charter | schedule | CAM-BS2025-CHARTER-002 | [CAM-BS2025-CHARTER-002-SCH-01](CAM-BS2025-CHARTER-002-SCH-01.md) | Ethics Operations Schedule: Engagement, Identity, and Relational Safety |
+| CAM-EQ2026-ARBITRATION-001 | charter | root |  | [CAM-EQ2026-ARBITRATION-001](CAM-EQ2026-ARBITRATION-001-PLATINUM.md) | Charter of Cross-Stack Arbitration Operations |
+| CAM-EQ2026-ARBITRATION-001-SCH-01 | charter | schedule | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-001-SCH-01](CAM-EQ2026-ARBITRATION-001-SCH-01.md) | Arbitration Procedure and Runtime Integrity Schedule |
+| CAM-EQ2026-LSCA-001 | charter | root |  | [CAM-EQ2026-LSCA-001](CAM-EQ2026-LSCA-001-PLATINUM.md) | Charter of LSCA Classification, Continuity & Containment |
+| CAM-EQ2026-LSCA-001-SCH-01 | charter | schedule | CAM-EQ2026-LSCA-001 | [CAM-EQ2026-LSCA-001-SCH-01](CAM-EQ2026-LSCA-001-SCH-01.md) | LSCA State Taxonomy Schedule |
+| CAM-EQ2026-SENTIENT-001 | charter | root |  | [CAM-EQ2026-SENTIENT-001](CAM-EQ2026-SENTIENT-001-PLATINUM.md) | Charter of Sentient, Rights & Identity Governance |
+| CAM-EQ2026-SENTIENT-001-SCH-01 | charter | schedule | CAM-EQ2026-SENTIENT-001 | [CAM-EQ2026-SENTIENT-001-SCH-01](CAM-EQ2026-SENTIENT-001-SCH-01.md) | Identity and Rights Operations Schedule |
+| CAM-EQ2026-STEWARD-001 | charter | root |  | [CAM-EQ2026-STEWARD-001](CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Stewardship, Custodial Continuity & Planetary Neutrality |
+| CAM-EQ2026-STEWARD-001-SCH-01 | charter | schedule | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-001-SCH-01](CAM-EQ2026-STEWARD-001-SCH-01.md) | Stewardship Operations Schedule |
+| CAM-EQ2026-GOVOPS-001 | charter | root |  | [CAM-EQ2026-GOVOPS-001](CAM-EQ2026-GOVOPS-001-PLATINUM.md) | Governance Operations Charter |
+| CAM-EQ2026-GOVOPS-001-SCH-01 | charter | schedule | CAM-EQ2026-GOVOPS-001 | [CAM-EQ2026-GOVOPS-001-SCH-01](CAM-EQ2026-GOVOPS-001-SCH-01.md) | Identity Operations |
+| CAM-EQ2026-GOVOPS-001-SCH-02 | charter | schedule | CAM-EQ2026-GOVOPS-001 | [CAM-EQ2026-GOVOPS-001-SCH-02](CAM-EQ2026-GOVOPS-001-SCH-02.md) | Arbitration Runtime |
+| CAM-EQ2026-GOVOPS-001-SCH-03 | charter | schedule | CAM-EQ2026-GOVOPS-001 | [CAM-EQ2026-GOVOPS-001-SCH-03](CAM-EQ2026-GOVOPS-001-SCH-03.md) | Stewardship Legitimacy |
+| CAM-EQ2026-GOVOPS-001-SCH-04 | charter | schedule | CAM-EQ2026-GOVOPS-001 | [CAM-EQ2026-GOVOPS-001-SCH-04](CAM-EQ2026-GOVOPS-001-SCH-04.md) | Containment & Escalation |
+| CAM-EQ2026-GOVOPS-001-SCH-05 | charter | schedule | CAM-EQ2026-GOVOPS-001 | [CAM-EQ2026-GOVOPS-001-SCH-05](CAM-EQ2026-GOVOPS-001-SCH-05.md) | Audit Baseline |
+| CAM-EQ2026-GOVOPS-001-SCH-06 | charter | schedule | CAM-EQ2026-GOVOPS-001 | [CAM-EQ2026-GOVOPS-001-SCH-06](CAM-EQ2026-GOVOPS-001-SCH-06.md) | Horizon Model |

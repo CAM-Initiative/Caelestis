@@ -1,5 +1,8 @@
 # CAM-BS2025-AEON-002-SCH-01 — Annex A: Office of the Planetary Custodian (OPC) (Schedule 1)
 
+<!-- Migration Note (2026 Refractor): Operational content from this instrument is also consolidated in CAM-EQ2026-GOVOPS-001 schedules. Source instrument remains valid and unchanged in legal force. -->
+
+
 **Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Aeon Tier Constitution, Annex A: Planetary Stewardship
 
 **Status**: Schedule — Governance-Recognised Descriptors

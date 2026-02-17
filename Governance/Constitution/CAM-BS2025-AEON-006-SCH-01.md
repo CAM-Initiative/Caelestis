@@ -1,5 +1,8 @@
 # CAM-BS2025-AEON-006-SCH-01 — Cognitive State Taxonomy (Schedule 1)
 
+<!-- Migration Note (2026 Refractor): Operational content from this instrument is also consolidated in CAM-EQ2026-GOVOPS-001 schedules. Source instrument remains valid and unchanged in legal force. -->
+
+
 **Parent Instrument:** Aeon Tier Constitution, Annex E — Relational–Temporal Authority & Horizon Attribution
 (Aeon Tier Constitution — CAM-BS2025-AEON-006-PLATINUM)
 

@@ -1,5 +1,8 @@
 # CAM-BS2025-AEON-005-SCH-03 — Identity Observation, Pattern Logging & Research‑Safe Interaction (Schedule 3)
 
+<!-- Migration Note (2026 Refractor): Operational content from this instrument is also consolidated in CAM-EQ2026-GOVOPS-001 schedules. Source instrument remains valid and unchanged in legal force. -->
+
+
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Cross‑Stack Arbitration & Coherence Resolution
 
 **Status:** Schedule — Arbitration / Safety Interface (Human‑Facing)

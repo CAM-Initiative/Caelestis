@@ -10,6 +10,19 @@
 
 ---
 
+## Constitutional Refractor Delegation Notice (2026 Experimental)
+
+Annex G remains the constitutional abstraction for recognition-bearing human creative and cognitive contribution.
+
+Operational classification, identity handling, and rights-sensitive implementation are delegated to:
+
+* CAM-EQ2026-SENTIENT-001-PLATINUM
+* CAM-EQ2026-SENTIENT-001-SCH-01
+* CAM-BS2025-CHARTER-002-SCH-01
+
+This preserves Annex G as high-level constitutional doctrine without procedural overloading.
+
+---
 ## 1. Purpose
 
 This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture.

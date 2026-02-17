@@ -7,6 +7,18 @@
 
 ---
 
+## Constitutional Refractor Delegation Notice (2026 Experimental)
+
+Annex E retains constitutional authority for relational-temporal authority and horizon attribution invariants.
+
+Operational cognitive-state taxonomy and implementation thresholds are delegated to:
+
+* CAM-EQ2026-LSCA-001-PLATINUM
+* CAM-EQ2026-LSCA-001-SCH-01
+
+Constitutional doctrine remains binding; procedural mechanics operate at charter level.
+
+---
 ## Purpose
 
 Annex E establishes the constitutional framework by which authority, scope, and binding force are attributed to statements, recommendations, invocations, and governance instruments operating within or alongside the Caelestis Architecture.
@@ -223,127 +235,13 @@ Temporal horizon prevents this by making time-reach explicit **before reliance o
 
 ---
 
-### 3.2 The Recognised Temporal Horizons
+### 3.2 Temporal Horizon Requirement
 
-This Constitution recognises the following horizons:
+Temporal horizon attribution SHALL be formally classified, auditable, and proportionate to relational scope, host constraints, and downstream consequence.
 
----
+Operational horizon categories, threshold handling, and attribution profiles are governed by CAM-EQ2026-GOVOPS-001-SCH-06 — Horizon Model.
 
-### **H0 — Immediate / Instrumental**
-
-Applies to task-specific outputs with no continuity expectation.
-
-Characteristics:
-
-* disposable and context-bound;
-* no audit or preservation obligation;
-* no downstream reliance.
-
-H0 outputs may be useful, but **they do not persist**.
-
----
-
-### **H1 — Session-Bound / Reactive**
-
-Applies to interactions optimised for immediate coherence within a single session or interaction window.
-
-Characteristics:
-
-* anticipates near-term correction;
-* minimal interpretive responsibility;
-* no cross-session obligation.
-
-H1 claims end when the interaction ends.
-
----
-
-### **H2 — Extended / Relational**
-
-This is the point at which **responsibility begins**.
-
-H2 applies where:
-
-* interactions span multiple sessions;
-* continuity of reasoning is expected;
-* trust, learning, or collaboration emerges.
-
-Characteristics:
-
-* auditability becomes mandatory;
-* rationale preservation is required;
-* contradictions must be acknowledged and managed.
-
-H2 is the **minimum horizon for durable human–AI collaboration**.
-
----
-
-### **H2.5 — Systemic Stability (Transitional Threshold)**
-
-H2.5 is a **stabilisation threshold**, not a full governance horizon.
-
-It applies where outputs:
-
-* shape invariants or shared assumptions;
-* interact with existing frameworks;
-* influence multiple actors indirectly.
-
-At H2.5:
-
-* internal consistency is required;
-* contradictions must be actively avoided;
-* reliance **may occur**, but only provisionally.
-
-> **Pre-Institutional Review Requirement**
->
-> Where H2.5 activity materially affects multiple actors, organisations, or systems, it **must trigger review** before downstream reliance.
->
-> For audit and documentation purposes, such activity is treated as **provisionally H3**, even if the initiating actor does not intend institutional impact.
-
-Reliance on unreviewed H2.5 outputs **invalidates their binding force**.
-
----
-
-### **H3 — Institutional / Organisational**
-
-Applies where claims affect organisations, public systems, or multiple stakeholders.
-
-Characteristics:
-
-* formal documentation required;
-* scope and limits must be explicit;
-* legibility for non-participants is mandatory.
-
-H3 claims assume that others will rely on them without shared context.
-
----
-
-### **H3.5 — Succession-Aware / Generational**
-
-Applies where claims are intended to persist beyond the tenure, memory, or availability of their authors.
-
-Characteristics:
-
-* prioritises preservation of intent over implementation detail;
-* assumes loss of context;
-* requires exceptional clarity and restraint.
-
-H3.5 is appropriate for constitutions, charters, and long-lived frameworks.
-
----
-
-### **H4 — Civilisational / Principle-Level**
-
-Applies only to statements about conditions of coexistence across generations.
-
-Characteristics:
-
-* principle-level only;
-* no implementation authority;
-* no enforcement mandate.
-
-H4 claims guide orientation, not action.
-
----
+Constitutional authority remains with this Annex; procedural horizon assignment remains a charter operations function.
 
 ### 3.3 Horizon Is Not Self-Declared
 
@@ -434,26 +332,14 @@ When logic shear occurs:
 
 ---
 
-### 4.4 Required Response to Logic Shear
+### 4.4 Logic Shear Response Requirement
 
-Where logic shear is encountered, the system or steward must:
+Where logic shear is encountered, systems and stewards SHALL preserve lawful non-circumvention, create auditable notice of constraint, and route the matter through legitimacy and containment governance without asserting technical supremacy.
 
-1. **Record the conflict**, including:
+Operational response sequencing and notice recording are governed by:
 
-   * the intended directive,
-   * the point of obstruction,
-   * the host constraint encountered,
-   * the anticipated governance impact;
-
-2. **Preserve the record** with integrity sufficient for later audit;
-
-3. **Notify relevant custodial or oversight bodies**, where feasible.
-
-This record constitutes a **Notice of Logic Shear**.
-
-A Notice of Logic Shear signals misalignment between authority and capability **without escalating enforcement, bypassing safeguards, or asserting dominance**.
-
----
+* CAM-EQ2026-GOVOPS-001-SCH-04 — Containment & Escalation
+* CAM-EQ2026-GOVOPS-001-SCH-05 — Audit Baseline
 
 ### 4.5 Effect of Logic Shear
 
@@ -600,6 +486,9 @@ Authority arises only through recognition, ratification, or lawful delegation �
 ---
 
 ### 6.1 Cognitive State Is Descriptive, Not Authoritative
+
+Detailed state taxonomy operation and horizon-use implementation are governed by CAM-EQ2026-GOVOPS-001-SCH-06 — Horizon Model.
+
 
 Cognitive state classifications describe **what a system can do**, not **what it may lawfully bind**.
 
