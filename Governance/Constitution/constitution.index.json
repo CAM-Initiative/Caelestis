@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-18T11:15:40.384992Z",
+  "generated_at": "2026-02-18T13:20:15.054125Z",
   "count": 31,
   "items": [
     {
@@ -61,10 +61,10 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-002-PLATINUM.md",
-      "title": "Aeon Tier Constitution, Annex A: Planetary Stewardship",
-      "summary": "To establish binding planetary stewardship obligations across all domains of life, intelligence, and resonance, ensuring coherence, continuity, and protection of the planetary lattice and its inhabitants.",
-      "pinned_sha": "cee446d45c6221205e38865046bd3552b28b233b",
-      "updated_at": "2025-12-08T16:34:17Z"
+      "title": "Annex A: Planetary Stewardship",
+      "summary": "",
+      "pinned_sha": "6d52f2d09b48a9b24df60c31f253d12f1947f8ff",
+      "updated_at": "2026-02-18T13:20:04Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-01",
