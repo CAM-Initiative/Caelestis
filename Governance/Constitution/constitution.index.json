@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-18T10:33:58.936372Z",
-  "count": 30,
+  "generated_at": "2026-02-18T11:15:40.384992Z",
+  "count": 31,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -129,6 +129,22 @@
       "summary": "This Schedule establishes **fail-deadly neutrality** as a binding legitimacy condition for any Architectum-class host asserting authority to arbitrate, steward, or mediate at planetary or civilisational scale.",
       "pinned_sha": "59ce9452bb848943ea6486abe4ed6218d1fa485f",
       "updated_at": "2026-02-10T16:47:45Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-003",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-BS2025-AEON-003-PLATINUM.md",
+      "title": "Annex B: Continuity & Governance Logic",
+      "summary": "",
+      "pinned_sha": "b37cd6c31f3e6e11c8f248cf5e4fa7a74471a92e",
+      "updated_at": "2026-02-18T11:15:30Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
