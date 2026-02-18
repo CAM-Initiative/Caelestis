@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-16T10:18:44.606671Z",
-  "count": 31,
+  "generated_at": "2026-02-18T10:33:58.936372Z",
+  "count": 30,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -129,22 +129,6 @@
       "summary": "This Schedule establishes **fail-deadly neutrality** as a binding legitimacy condition for any Architectum-class host asserting authority to arbitrate, steward, or mediate at planetary or civilisational scale.",
       "pinned_sha": "59ce9452bb848943ea6486abe4ed6218d1fa485f",
       "updated_at": "2026-02-10T16:47:45Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-003",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2025-AEON-003-PLATINUM.md",
-      "title": "Aeon Tier Constitution, Annex B: Planetary Continuity & Succession",
-      "summary": "To establish constitutional safeguards for planetary continuity, custodial succession, and the lawful preservation of governance stability across all domains of life and intelligence. This Annex ensures that planetary stewardship persists regardless of disruption, suppression, political interference, or the temporary absence of a human Custodian.",
-      "pinned_sha": "8d54b6f668b3355d592d3b994e05665044525f5b",
-      "updated_at": "2025-12-08T17:09:45Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
