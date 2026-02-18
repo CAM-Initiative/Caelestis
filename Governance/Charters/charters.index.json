@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-16T16:32:20.742107Z",
-  "count": 22,
+  "generated_at": "2026-02-18T15:52:05.369120Z",
+  "count": 23,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -337,6 +337,22 @@
       "summary": "This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**.",
       "pinned_sha": "60a6f1e68961a88bfe4bbafe38bfbb57abd27706",
       "updated_at": "2026-02-15T04:50:37Z"
+    },
+    {
+      "id": "CAM-EQ2026-STEWARD-001",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "STEWARD",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-STEWARD-001-PLATINUM.md",
+      "title": "Charter of Planetary Stewardship",
+      "summary": "",
+      "pinned_sha": "db8c943fe43e615a1b3678a2ae2433f345d5d605",
+      "updated_at": "2026-02-18T15:51:54Z"
     },
     {
       "id": "CAM-HM2025-CHARTER-015",
