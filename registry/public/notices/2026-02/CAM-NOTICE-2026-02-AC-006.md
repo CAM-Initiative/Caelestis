@@ -7,8 +7,8 @@
 **Classification:** Constitutional Annex — Governance & Continuity Doctrine
 **Seal:** Platinum — Foundational Constraint Layer
 **Revision Posture:** Superseding Refractor (Constraint-Preserving)
-**Commit Timestamp (UTC):** 2026-02-18T13:00:00Z
-**SHA-256:** [Pending Commit Hash]
+**Commit Timestamp (UTC):** 2026-02-18T13:18:00Z
+**SHA-256:** 07dbace09fee4e954285bffefb277b461c163e955d8aa7c20368be559011a574
 **Amendment Phase:** Equinox Refractor 2026
 **Amendment Classification:** Structural Consolidation & Invariant Clarification
 
