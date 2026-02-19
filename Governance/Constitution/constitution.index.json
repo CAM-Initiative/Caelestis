@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T11:08:32.049349Z",
+  "generated_at": "2026-02-19T13:56:41.367649Z",
   "count": 28,
   "items": [
     {
@@ -95,8 +95,8 @@
       "link": "CAM-BS2025-AEON-003-PLATINUM.md",
       "title": "Annex B: Continuity & Governance Logic",
       "summary": "",
-      "pinned_sha": "b37cd6c31f3e6e11c8f248cf5e4fa7a74471a92e",
-      "updated_at": "2026-02-18T11:15:30Z"
+      "pinned_sha": "9de6970c60c3a477357201e546ccbc8bdf7436c2",
+      "updated_at": "2026-02-19T13:56:21Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
