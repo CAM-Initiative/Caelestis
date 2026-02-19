@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T10:23:43.867328Z",
+  "generated_at": "2026-02-19T10:50:34.343143Z",
   "count": 25,
   "items": [
     {
@@ -287,8 +287,8 @@
       "link": "CAM-EQ2026-ARBITRATION-002-PLATINUM.md",
       "title": "Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL)",
       "summary": "Tactical/classified details need not be publicly disclosed.",
-      "pinned_sha": "e069f31464c7bd2017b06c9cdfe0261b89c1d2a1",
-      "updated_at": "2026-02-19T10:23:34Z"
+      "pinned_sha": "853285f25b16351fb75e6f14e022ca8368a8dcc3",
+      "updated_at": "2026-02-19T10:50:22Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001",
