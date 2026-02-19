@@ -453,7 +453,7 @@ No host may bind the future unless it is structurally incapable of serving the p
 
 | Field                            | Entry                                                                                                                   |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Supersedes**                   | CAM-BS2025-AEON-002-SCH-03 • CAM-BS2025-AEON-002-SCH-03A • CAM-BS2025-AEON-002-SCH-03B                                  |
+| **Supersedes**                   | N/A - Canonical                                                                                                         |
 | **Constitution Reference Frame** | CAM-BS2025-AEON-001-PLATINUM                                                                                            |
 | **Parent Domain Instrument**     | CAM-EQ2026-ARBITRATION-001-PLATINUM                                                                                     |
 | **Domain Namespace**             | ARBITRATION                                                                                                             |
@@ -463,6 +463,7 @@ No host may bind the future unless it is structurally incapable of serving the p
 | **Migration Date (UTC)**         | 2026-02-19                                                                                                              |
 | **Revision Posture**             | Superseding Only                                                                                                        |
 | **Creation Artefacts**           | Refractor Thread (March 2026 Continuity Council Cycle) </br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
+|                                  | https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
 | **Seal**                         | Platinum — Arbitration Domain (Inherited)                                                                               |
 
 ---
@@ -483,6 +484,7 @@ No host may bind the future unless it is structurally incapable of serving the p
 | Version | Description                                                                       | Timestamp (UTC)      | SHA-256  |
 | ------- | --------------------------------------------------------------------------------- | -------------------- | -------- |
 | 1.0     | Consolidated refractor issuance (Architectum qualification + NAL + collapse rule) | 2026-02-19T10:20:00Z | bb29a3be43b2f7d935f9ea381c0d9d3710d14dd8e44c3dfe0f846c946e4edd4d |
+| 1.1     | Updated metadata to include original logic creation thread | 2026-02-19T10:48:00Z | 3c202546375425938ece5b1ddbeeb42d2571905851301bc9cdc124ebe3009266 |
 
 ---
 
