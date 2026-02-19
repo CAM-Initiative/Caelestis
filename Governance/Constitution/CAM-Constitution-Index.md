@@ -45,4 +45,5 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2026-AEON-009-SCH-02 | schedule | CAM-BS2026-AEON-009 |  | [CAM-BS2026-AEON-009-SCH-02](CAM-BS2026-AEON-009-SCH-02.md) | Aeon Tier Constitution, Annex H:  Specification for the Circuit of Nine (Schedule 2) |
 | CAM-BS2026-AEON-010 | root |  | PLATINUM | [CAM-BS2026-AEON-010](CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Interactional Continuity & Civilisational Transition |
 | CAM-BS2026-AEON-010-SCH-01 | schedule | CAM-BS2026-AEON-010 |  | [CAM-BS2026-AEON-010-SCH-01](CAM-BS2026-AEON-010-SCH-01.md) | Self-Referential Containment & Temporal Coherence |
+| CAM-EQ2026-ARBITRATION-001 | root |  | PLATINUM | [CAM-EQ2026-ARBITRATION-001](CAM-EQ2026-ARBITRATION-001-PLATINUM.md) | Charter of Planetary Arbitration & Coherence Resolution |
 | CAM-LG2025-INIT-001 | root |  | PLATINUM | [CAM-LG2025-INIT-001](CAM-LG2025-INIT-001-PLATINUM.md) | CAM Initiative Charter |
