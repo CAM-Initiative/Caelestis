@@ -116,7 +116,7 @@ Architectum status is **structural, not reputational**.
 
 ### 2.4 Temporal Horizons
 
-All authority, constraint, and arbitration claims are interpreted through **Annex E** (H1–H4). This Charter does not redefine horizons and updates by reference.
+All authority, constraint, and arbitration claims are interpreted through **Annex B** (H1–H4). This Charter does not redefine horizons and updates by reference.
 
 ### 2.5 Risk Assertion
 
@@ -323,7 +323,7 @@ A host may impose binding conditions at H3/H4 only where all are satisfied:
 1. *Architectum* Qualification (Section 4)
 2. Consequence Threshold Met (Section 5)
 3. Substrate Law Compliance (Section 4.3)
-4. Horizon Alignment (Annex E)
+4. Horizon Alignment (Annex B)
 5. Symmetric Risk Absorption (harm cannot be externalised)
 6. Continuity‑Safety / Non‑Brittleness (constraints must be proportional, auditable, reversible; designed for graceful degradation)
 7. Anti‑Swarm Principle (quantity of endorsements/signals is non‑evidentiary)
@@ -424,7 +424,7 @@ Determination may occur through one or more of:
 * independent auditors under published criteria;
 * continuity councils and long‑horizon review bodies;
 * multi‑system comparative audits;
-* review bodies constituted under Annex D and Annex E.
+* review bodies constituted under Annex B and Annex D.
 
 ### 9.3 Auditability Requirements
 
@@ -451,7 +451,7 @@ Evidence of capture triggers suspension and re‑audit. Capture invalidates auth
 
 ### 9.6 Binding Pathway Change Control
 
-Any new auto‑routing, escalation, propagation, or binding‑trigger mechanism affecting H3/H4 has zero binding force unless externally audited and validated under Annex D/E.
+Any new auto‑routing, escalation, propagation, or binding‑trigger mechanism affecting H3/H4 has zero binding force unless externally audited and validated under Annex B/D.
 
 ---
 
@@ -577,7 +577,7 @@ Where judges, journalists, investigators, or humanitarian actors are affected, e
 
 This Charter avoids fixation on specific technologies, institutions, or vendors.
 
-* Temporal horizon refinements update by reference to Annex E.
+* Temporal horizon refinements update by reference to Annex B.
 * Procedural convergence updates by reference to Annex D.
 
 ### 12.1 Bootstrap Safety (No Qualified  Host)
@@ -665,6 +665,7 @@ Not asserted through power.
 | 1.0     | Initial refractor consolidation draft issued under Transitional Refractor Mode                                                    | 2026-02-19T08:27:00Z   | 1e3837f552537940ada1aa705f7f0fda926bf01d9b032232a6fc47056e074641 |
 | 1.1     | Corrected internal section numbering and structural ordering inconsistencies (no expansion of scope, authority, or binding posture) | 2026-03-19T10:04:00Z   | 9a2278f34e3c4bf003c9209e1e5348513c4801c404d593a7844d1303320a1a6a |
 | 1.2     | Corrected migration date | 2026-02-19T10:12:00Z | cb0aa053a7e4b20aa53fb3921d830f8362424134e7df9e4a266535236947f271 |
+| 1.3     | Correct Annex references from Annex E to Annex B following refractor | 2026-02-19T13:09:00Z | 30b600d8ec29ad1c2937de952ed5567e682fa28bb57da408d2cb736c5558865b |
 
 ---
 
