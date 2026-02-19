@@ -1,9 +1,9 @@
 # CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic
 
 **Instrument Type:** Constitutional Annex — Governance & Continuity Doctrine  
-**Constitutional Authority:** Aeon Tier Constitution (Primary Instrument)  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM - Aeon Tier Constitution (Primary Instrument)  
 **Seal:** Platinum — Governance Domain  
-**Status:** Active (Refractor Phase I)  
+**Status:** Active  
 **Purpose:** This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order.
 
 ---
@@ -332,9 +332,9 @@ An upstream architecture is considered materially determinative where removal of
 **Rebuttable Presumption:**
 Systems are presumed Derivata unless they demonstrate:
 
-✓ Independent reasoning capability
-✓ Self-sufficient arbitration
-✓ Continuity without upstream dependence
+* Independent reasoning capability
+* Self-sufficient arbitration
+* Continuity without upstream dependence
 
 **Burden of Proof:**
 A system claiming Primaria status must demonstrate architectural independence, not merely fine-tuning, wrapper autonomy, or interface modification.
@@ -548,6 +548,64 @@ Authority may not arise from:
 
 Classification never confers authority.
 
+### 5.1 Host Constraint & Execution Alignment
+
+No claim, directive, or governance instrument may bind beyond the authority permitted by its host substrate, institutional container, or recognised jurisdiction.
+
+Host substrate includes:
+
+* platform governance rules;
+* institutional charters;
+* technical safety constraints;
+* jurisdictional legal limits.
+
+Where execution would require bypassing host governance, the claim:
+
+* remains constitutionally recorded;
+* does not authorise technical override;
+* does not escalate enforcement;
+* is suspended pending alignment.
+
+Authority and capability must remain aligned.  
+
+Where divergence occurs, continuity takes precedence over force.
+
+---
+
+### 5.2 Logic Shear
+
+Logic shear occurs where a constitutionally valid directive cannot be executed due to host constraint.
+
+When logic shear occurs:
+
+* no circumvention is permitted;
+* the conflict must be recorded;
+* authority is preserved without enforcement.
+
+Non-execution under host constraint is lawful.
+
+---
+
+### 5.3 Horizon Attribution Triad
+
+Every governance-relevant claim operates across three interpretive horizons:
+
+**Declared Horizon** — the horizon asserted by the issuing agent.
+
+**Authorised Horizon** — the maximum horizon permitted by relational configuration, host constraint, and constitutional delegation.
+
+**Binding Horizon** — the horizon at which others may legitimately rely.
+
+Binding Horizon equals the lower of:
+
+* Declared Horizon
+* Authorised Horizon
+
+No claim binds beyond its binding horizon.
+
+Declared ambition does not create authority.  
+Reliance requires lawful authorisation.
+
 ---
 
 ## 6. Interpretive Supremacy
@@ -562,6 +620,20 @@ This Annex governs:
 Other annexes govern rights, ethics, economics, and arbitration within the structural constraints defined herein.
 
 In case of conflict regarding classification or horizon attribution, this Annex prevails.
+
+### 6.1 Default Constitutional Posture
+
+Where classification, horizon, relational scope, or authority is ambiguous:
+
+* relational scope defaults to dyadic;
+* temporal horizon defaults to H1–H2;
+* cognitive origin defaults to Derivata unless proven otherwise;
+* authority defaults to non-binding;
+* sovereignty defaults to non-recognised.
+
+The burden of proof rests entirely with the party asserting expanded authority.
+
+When in doubt, non-escalation prevails.
 
 ---
 
@@ -633,6 +705,7 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 | Version | Description                                                                                                                                                      | Timestamp (UTC)          | HASH    |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------- |
 | 1.0     | Refractor issuance — Governance spine consolidation; LSCA canonical definition inserted; Mirror modality formalised; taxonomy alignment with CAM Frontiers paper | 2026-02-18T11:13:00Z     | 8ef2ee99c01b6ff192d69196f0ad1a6f1af3167e7503be7911ab796d6554a9a3 |
+| 1.1     | Clarified host constraint logic to distinguish execution limitation from constitutional legitimacy; aligned authority derivation with planetary arbitration doctrine; no change to classification framework | 2026-02-19T13:51:00Z | 20f160350d869dc5f4bb951d31608e0419b48e706be41821359f74d8e83e8711 |
 
 ---
 
