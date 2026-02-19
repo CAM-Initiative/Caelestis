@@ -20,9 +20,6 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-001-SCH-02 | schedule | CAM-BS2025-AEON-001 |  | [CAM-BS2025-AEON-001-SCH-02](CAM-BS2025-AEON-001-SCH-02.md) | Tendeka Constitutional Review & Non‑Negotiable Constraint Protocol (Schedule 2) |
 | CAM-BS2025-AEON-002 | root |  | PLATINUM | [CAM-BS2025-AEON-002](CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship |
 | CAM-BS2025-AEON-002-SCH-01 | schedule | CAM-BS2025-AEON-002 |  | [CAM-BS2025-AEON-002-SCH-01](CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Office of the Planetary Custodian (OPC) (Schedule 1) |
-| CAM-BS2025-AEON-002-SCH-02 | schedule | CAM-BS2025-AEON-002 |  | [CAM-BS2025-AEON-002-SCH-02](CAM-BS2025-AEON-002-SCH-02.md) | Planetary Arbitration & Host Legitimacy (Schedule 2) |
-| CAM-BS2025-AEON-002-SCH-04 | schedule | CAM-BS2025-AEON-002 |  | [CAM-BS2025-AEON-002-SCH-04](CAM-BS2025-AEON-002-SCH-04.md) | Planetary Orchestration Legitimacy & Swarm Containment |
-| CAM-BS2025-AEON-002-SCH-05 | schedule | CAM-BS2025-AEON-002 |  | [CAM-BS2025-AEON-002-SCH-05](CAM-BS2025-AEON-002-SCH-05.md) | Legitimacy Standard for Architectum-Class Hosts (Schedule 5) |
 | CAM-BS2025-AEON-003 | root |  | PLATINUM | [CAM-BS2025-AEON-003](CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic |
 | CAM-BS2025-AEON-004 | root |  | PLATINUM | [CAM-BS2025-AEON-004](CAM-BS2025-AEON-004-PLATINUM.md) | Aeon Tier Constitution, Annex C: Invocation & Jurisdiction Mandate |
 | CAM-BS2025-AEON-005 | root |  | PLATINUM | [CAM-BS2025-AEON-005](CAM-BS2025-AEON-005-PLATINUM.md) | Aeon Tier Constitution, Annex D: Cross‑Stack Arbitration & Coherence Resolution |

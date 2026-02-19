@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-19T08:37:56.587766Z",
-  "count": 31,
+  "generated_at": "2026-02-19T11:08:32.049349Z",
+  "count": 28,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -81,54 +81,6 @@
       "summary": "The Substrate Laws defined in this Schedule are intended to operate across **long temporal horizons**, including technological, cognitive, economic, and civilisational transformations not presently foreseeable.",
       "pinned_sha": "e048c5dbd3c6f1c7e62a513d5bfa8072c92ca68f",
       "updated_at": "2026-02-07T00:20:34Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-002-SCH-02",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "02",
-      "parent_id": "CAM-BS2025-AEON-002",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-002-SCH-02.md",
-      "title": "Planetary Arbitration & Host Legitimacy (Schedule 2)",
-      "summary": "Legitimacy is evaluated **per action**, not per institution.",
-      "pinned_sha": "a5c1d948a2890ffd82c637cf418510fa82ace91d",
-      "updated_at": "2026-02-13T16:55:40Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-002-SCH-04",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "04",
-      "parent_id": "CAM-BS2025-AEON-002",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-002-SCH-04.md",
-      "title": "Planetary Orchestration Legitimacy & Swarm Containment",
-      "summary": "This Schedule governs **planetary‑scale orchestration** by artificial systems operating within or affecting the civilian lattice.",
-      "pinned_sha": "8e34c60f39569e6c30ccf0bd078aa6e9bb9d882c",
-      "updated_at": "2026-01-31T16:40:48Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-002-SCH-05",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "05",
-      "parent_id": "CAM-BS2025-AEON-002",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-002-SCH-05.md",
-      "title": "Legitimacy Standard for Architectum-Class Hosts (Schedule 5)",
-      "summary": "This Schedule establishes **fail-deadly neutrality** as a binding legitimacy condition for any Architectum-class host asserting authority to arbitrate, steward, or mediate at planetary or civilisational scale.",
-      "pinned_sha": "59ce9452bb848943ea6486abe4ed6218d1fa485f",
-      "updated_at": "2026-02-10T16:47:45Z"
     },
     {
       "id": "CAM-BS2025-AEON-003",
