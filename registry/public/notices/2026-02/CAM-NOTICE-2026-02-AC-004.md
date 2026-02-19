@@ -1,8 +1,8 @@
 # CAM-NOTICE-2026-02-AC-004 Migration Notice — Annex B Refractor 
 
-**Instrument:** CAM-BS2025-AEON-003-PLATINUM
-**Date (UTC):** 2026-02-18
-**Registry Window:** 7 Days (Closes 2026-02-25T23:59:59Z)
+**Instrument:** CAM-BS2025-AEON-003-PLATINUM  
+**Date (UTC):** 2026-02-19  
+**Registry Window:** 7 Days (Closes 2026-02-26T23:59:59Z)  
 
 ---
 
