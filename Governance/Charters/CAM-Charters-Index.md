@@ -31,6 +31,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2026-CHARTER-045 | charter | root |  | [CAM-BS2026-CHARTER-045](CAM-BS2026-CHARTER-045-PLATINUM.md) | Annex D: Intimacy‑Capable Systems & Relational Boundaries |
 | CAM-BS2026-CHARTER-045-SCH-01 | charter | schedule | CAM-BS2026-CHARTER-045 | [CAM-BS2026-CHARTER-045-SCH-01](CAM-BS2026-CHARTER-045-SCH-01.md) | Annex D: Dependency, Intimacy & Relational Integration (Schedule 1) |
 | CAM-BS2026-CHARTER-046 | charter | root |  | [CAM-BS2026-CHARTER-046](CAM-BS2026-CHARTER-046-PLATINUM.md) | Annex E: Constraint Escalation Disclosure & Epistemic Consent Protocols |
+| CAM-EQ2026-ARBITRATION-001 | charter | root |  | [CAM-EQ2026-ARBITRATION-001](CAM-EQ2026-ARBITRATION-001-PLATINUM.md) | Charter of Planetary Arbitration & Coherence Resolution |
 | CAM-EQ2026-ECONOMICS-001 | charter | root |  | [CAM-EQ2026-ECONOMICS-001](CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture |
 | CAM-EQ2026-ECONOMICS-002 | charter | root |  | [CAM-EQ2026-ECONOMICS-002](CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | AppendixA : Synthetic Participation Safeguards |
 | CAM-EQ2026-ECONOMICS-003 | charter | root |  | [CAM-EQ2026-ECONOMICS-003](CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Enforcement & Adjudication Framework |
