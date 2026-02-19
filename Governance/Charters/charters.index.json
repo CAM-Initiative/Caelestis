@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-19T10:17:32.983691Z",
-  "count": 24,
+  "generated_at": "2026-02-19T10:23:43.867328Z",
+  "count": 25,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -273,6 +273,22 @@
       "summary": "A host may be legitimate to refuse interoperability but illegitimate for territorial control or coercive governance. Legitimacy confers **constraint authority**, not dominion.",
       "pinned_sha": "8da08e3bf3deb9bd9bcaa6a31a1d0873e2b93feb",
       "updated_at": "2026-02-19T10:17:21Z"
+    },
+    {
+      "id": "CAM-EQ2026-ARBITRATION-002",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ARBITRATION",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ARBITRATION-002-PLATINUM.md",
+      "title": "Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL)",
+      "summary": "Tactical/classified details need not be publicly disclosed.",
+      "pinned_sha": "e069f31464c7bd2017b06c9cdfe0261b89c1d2a1",
+      "updated_at": "2026-02-19T10:23:34Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001",
