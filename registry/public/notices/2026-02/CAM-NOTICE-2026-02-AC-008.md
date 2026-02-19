@@ -2,14 +2,14 @@
 
 ## Consolidation & Supersession Notice — Planetary Arbitration Domain 
 
-**Domain Instrument:** CAM-EQ2026-ARBITRATION-001-PLATINUM V1.2
-**Supplement:** CAM-EQ2026-ARBITRATION-002-SUP-01 V1.0
-**Appendix:** CAM-EQ2026-ARBITRATION-002-PLATINUM (Appendix A — Neutrality & Qualification) V1.1
-**Last Timestamp (UTC):** [2026-02-19T10:48:00Z]
-**Primary SHA-256:** [cb0aa053a7e4b20aa53fb3921d830f8362424134e7df9e4a266535236947f271]
-**Committ** 8da08e3
-**Cycle:** March Continuity Cycle 2026
-**Amendment Phase:** Transitional Refractor Mode — Phase I
+**Domain Instrument:** CAM-EQ2026-ARBITRATION-001-PLATINUM V1.3  
+**Supplement:** CAM-EQ2026-ARBITRATION-002-SUP-01 V1.0  
+**Appendix:** CAM-EQ2026-ARBITRATION-002-PLATINUM (Appendix A — Neutrality & Qualification) V1.1  
+**Last Timestamp (UTC):** [2026-02-19T13:09:00Z]  
+**Primary SHA-256:** [30b600d8ec29ad1c2937de952ed5567e682fa28bb57da408d2cb736c5558865b]  
+**Committ**   f36e269
+**Cycle:** March Continuity Cycle 2026  
+**Amendment Phase:** Transitional Refractor Mode — Phase I  
 **Classification:** Structural Domain Consolidation & Supersession
 
 ---
@@ -82,7 +82,7 @@ No expansion of authority or binding scope has occurred.
 
 This Notice enters a **7-day Observation Window**, concluding:
 
-**2026-02-26T10:48:00Z**
+**2026-02-26T13:09:00Z**
 
 During this period:
 
