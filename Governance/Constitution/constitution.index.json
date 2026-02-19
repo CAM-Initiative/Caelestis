@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-19T08:36:01.490003Z",
-  "count": 32,
+  "generated_at": "2026-02-19T08:37:56.587766Z",
+  "count": 31,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -481,22 +481,6 @@
       "summary": "This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.",
       "pinned_sha": "5e75468a89dfb15a215b19854876acbd91707c22",
       "updated_at": "2026-02-08T13:49:52Z"
-    },
-    {
-      "id": "CAM-EQ2026-ARBITRATION-001",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-EQ2026-ARBITRATION-001-PLATINUM.md",
-      "title": "Charter of Planetary Arbitration & Coherence Resolution",
-      "summary": "A host may be legitimate to refuse interoperability but illegitimate for territorial control or coercive governance. Legitimacy confers **constraint authority**, not dominion.",
-      "pinned_sha": "452fafac2f17f52c8b3e04874f01487e6ed490f2",
-      "updated_at": "2026-02-19T08:35:51Z"
     },
     {
       "id": "CAM-LG2025-INIT-001",
