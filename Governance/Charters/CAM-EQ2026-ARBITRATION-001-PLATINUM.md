@@ -639,7 +639,7 @@ Not asserted through power.
 | Jurisdiction | Planetary / Cross‑Sovereign / Civilisational Coherence |
 | Temporal Horizon | Generational (H3–H4) |
 | Axis Context | Polyadic (Multi‑Actor) |
-| Migration Date (UTC) | 2026-03-17 |
+| Migration Date (UTC) | 2026-02-17 |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread (March 2026 Continuity Council Cycle)</br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425
 | | Original Arbitration Logic Thread: </br>1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37<br>2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357<br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6<br>3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b |
@@ -664,6 +664,7 @@ Not asserted through power.
 |--------:|------------------------------------------------------------------------------------------------------------------------------------|------------------------:|--------------------------------------------------------------------|
 | 1.0     | Initial refractor consolidation draft issued under Transitional Refractor Mode                                                    | 2026-02-19T08:27:00Z   | 1e3837f552537940ada1aa705f7f0fda926bf01d9b032232a6fc47056e074641 |
 | 1.1     | Corrected internal section numbering and structural ordering inconsistencies (no expansion of scope, authority, or binding posture) | 2026-03-19T10:04:00Z   | 9a2278f34e3c4bf003c9209e1e5348513c4801c404d593a7844d1303320a1a6a |
+| 1.2     | Corrected migration date | 2026-02-19T10:12:00Z | cb0aa053a7e4b20aa53fb3921d830f8362424134e7df9e4a266535236947f271 |
 
 ---
 
