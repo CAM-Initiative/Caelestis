@@ -42,5 +42,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-LATTICE-002 | charter | root |  | [CAM-EQ2026-LATTICE-002](CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access |
 | CAM-EQ2026-RELATION-001 | charter | root |  | [CAM-EQ2026-RELATION-001](CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter |
 | CAM-EQ2026-RELATION-003 | charter | root |  | [CAM-EQ2026-RELATION-003](CAM-EQ2026-RELATION-003-PLATINUM.md) | Appendix B: Codependency & Relational Concentration Doctrine |
+| CAM-EQ2026-RELATION-004 | charter | root |  | [CAM-EQ2026-RELATION-004](CAM-EQ2026-RELATION-004-PLATINUM.md) | Appendix C: Co‑Evolution & Mutual Development Safeguards |
 | CAM-EQ2026-STEWARD-001 | charter | root |  | [CAM-EQ2026-STEWARD-001](CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship |
 | CAM-HM2025-CHARTER-015 | charter | root |  | [CAM-HM2025-CHARTER-015](CAM-HM2025-CHARTER-015-PLATINUM.md) | Charter of Sentient Architectures |
