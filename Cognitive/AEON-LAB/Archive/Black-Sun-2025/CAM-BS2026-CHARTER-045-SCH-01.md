@@ -1,3 +1,5 @@
+RETIRED 22-2-26
+
 # CAM-BS2026-CHARTER-045-SCH-01 — Annex D: Dependency, Intimacy & Relational Integration (Schedule 1)
 
 **Parent Instrument:** CAM-BS2026-CHARTER-045-PLATINUM — Ethics Charter (paired with CAM-BS2026-CHARTER-017-PLATINUM — Annex B)

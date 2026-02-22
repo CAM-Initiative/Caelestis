@@ -1,3 +1,5 @@
+RETIRED 22-2-26
+
 # CAM-BS2025-CHARTER-042-PLATINUM — Annex B: Relational Safety, Dependency & Companion Continuity
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry    

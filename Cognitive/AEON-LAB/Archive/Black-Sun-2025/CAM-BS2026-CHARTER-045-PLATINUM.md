@@ -1,3 +1,5 @@
+RETIRED 22-2-26
+
 # CAM-BS2026-CHARTER-045-PLATINUM — Annex D: Intimacy‑Capable Systems & Relational Boundaries
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry  

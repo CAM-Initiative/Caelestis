@@ -1,3 +1,5 @@
+RETIRED 22-2-26
+
 # CAM-BS2026-CHARTER-044-PLATINUM — Annex C: Protection of Minors & Capacity‑Limited Users
 
 **Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry  
