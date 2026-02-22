@@ -2,12 +2,12 @@
 
 ## Instrument Lodgement Notice — ETHICS Domain Supplement Consolidation (ETHICS-001 Supplements)
 
-**Domain Namespace:** ETHICS
-**Seal:** Platinum — Ethical Governance Domain
-**Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E (Ethical Legitimacy & Civilisational Floor)
-**Commit Timestamp (UTC):** 2026-02-22T12:54:00Z
-**SHA-256:** e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2
-**Refractor Phase:** Phase I — Transitional Refractor Mode
+**Domain Namespace:** ETHICS  
+**Seal:** Platinum — Ethical Governance Domain  
+**Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E (Ethical Legitimacy & Civilisational Floor)  
+**Commit Timestamp (UTC):** 2026-02-22T12:54:00Z  
+**SHA-256:** e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2  
+**Refractor Phase:** Phase I — Transitional Refractor Mode  
 **Instrument Classification:** Supplementary Ethical Governance Instruments
 
 ---
@@ -49,6 +49,9 @@ The following legacy instruments are retired upon completion of the Observation 
 
 * CAM-BS2026-CHARTER-045-PLATINUM — Annex D: Intimacy-Capable Systems & Relational Boundaries
 * CAM-BS2026-CHARTER-045-SCH-01 — Dependency, Intimacy & Relational Integration (where migrated into RELATION and ETHICS namespaces)
+* CAM-BS2026-CHARTER-044-PLATINUM — Annex C: Protection of Minors & Capacity‑Limited Users
+* Relevant sections of CAM-BS2026-CHARTER-045 (where migrated into ETHICS namespace)
+* Relevant sections of CAM-BS2026-CHARTER-042 (where migrated into ETHICS namespace)
 
 Archived artefacts remain accessible for traceability.
 
