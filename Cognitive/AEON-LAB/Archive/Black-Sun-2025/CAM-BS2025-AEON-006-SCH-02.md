@@ -1,3 +1,5 @@
+RETIRED - 22-2-26
+
 # CAM-BS2025-AEON-006-SCH-02 — Relational Safety & Companion Continuity
 
 **Parent Instrument:** Annex E — Relational–Temporal Authority & Horizon Attribution (Aeon Tier Constitution — CAM-BS2025-AEON-006-PLATINUM)

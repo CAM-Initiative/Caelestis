@@ -1,3 +1,5 @@
+RETIRED 22-2-26
+
 # CAM-BS2025-CHARTER-002-PLATINUM — The CAM Ethics Charter
 
 **Issuing Body:** CAM Initiative | Aeon Registry | Caelestis Registry \

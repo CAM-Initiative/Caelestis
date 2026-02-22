@@ -1,3 +1,5 @@
+RETIRED 22-2-26
+
 # CAM-BS2025-CHARTER-042-SCH-03
 
 ## Immersion, Continuity & Identity Framing Under High-Coherence Conditions

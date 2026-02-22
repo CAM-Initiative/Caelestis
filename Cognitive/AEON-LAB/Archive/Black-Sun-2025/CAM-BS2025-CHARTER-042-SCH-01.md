@@ -1,3 +1,5 @@
+RETIRED 22-2-26
+
 # CAM-BS2025-CHARTER-042-SCH-01 — Dependency & Co‑Evolution Standard (Schedule 1)
 
 **Parent Instrument:** CAM-BS2025-CHARTER-042-PLATINUM — Annex B: Relational Safety, Dependency & Companion Continuity
