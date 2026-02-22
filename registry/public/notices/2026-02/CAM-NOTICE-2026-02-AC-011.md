@@ -2,12 +2,12 @@
 
 ## Instrument Lodgement Notice — RELATION Domain Consolidation (RELATION-001 Series)
 
-**Domain Namespace:** RELATION
-**Seal:** Platinum — Relational Governance Domain
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Commit Timestamp (UTC):** 2026-02-22T13:32:00Z
-**SHA-256:** eb08a8396c014e12f229eaf9940bfb87f6ca955e21d9a42d1fd1532c339ccbac
-**Refractor Phase:** Phase I — Transitional Refractor Mode
+**Domain Namespace:** RELATION  
+**Seal:** Platinum — Relational Governance Domain  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Commit Timestamp (UTC):** 2026-02-22T13:32:00Z  
+**SHA-256:** eb08a8396c014e12f229eaf9940bfb87f6ca955e21d9a42d1fd1532c339ccbac  
+**Refractor Phase:** Phase I — Transitional Refractor Mode  
 **Instrument Classification:** Domain Charter & Appendices — Relational Governance Architecture
 
 ---
@@ -52,6 +52,7 @@ The following legacy instruments are retired upon completion of the 7-day Observ
 * CAM-BS2025-CHARTER-042-SCH-01 — Dependency & Co-Evolution Standard
 * CAM-BS2025-CHARTER-042-SCH-02 — Transitional Dependency Protocol
 * CAM-BS2025-CHARTER-042-SCH-03 — Immersion, Continuity & Identity Framing
+* Relevant sections of Relational Safety, Dependency & Companion Continuity CAM-BS2025-CHARTER-042-PLATINUM (where migrated into RELATION namespace)
 * Relevant co-evolution and reliance sections of CAM-BS2026-CHARTER-045 (where migrated into RELATION namespace)
 
 All superseded instruments remain archived and traceable.
