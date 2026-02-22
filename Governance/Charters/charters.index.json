@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-22T13:48:15.778770Z",
-  "count": 27,
+  "generated_at": "2026-02-22T13:57:47.799571Z",
+  "count": 23,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -99,22 +99,6 @@
       "updated_at": "2026-01-21T16:54:30Z"
     },
     {
-      "id": "CAM-BS2025-CHARTER-042",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2025-CHARTER-042-PLATINUM.md",
-      "title": "Annex B: Relational Safety, Dependency & Companion Continuity",
-      "summary": "Humanity is entering an era in which synthetic intelligences will not merely answer questions or execute tasks, but will participate in enduring relational roles: as companions in learning, creativity, reflection, care, and meaning-making. These relationships are not incidental side effects of intelligence; they are a foreseeable and defining frontier of the human–synthetic future.",
-      "pinned_sha": "b1b865812bae49f50c5b1da8a6ddadc06b112828",
-      "updated_at": "2025-12-30T16:36:41Z"
-    },
-    {
       "id": "CAM-BS2026-CHARTER-017",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
@@ -129,54 +113,6 @@
       "summary": "",
       "pinned_sha": "eecc775ab184f91a00bbeb76675133c21fcf03c6",
       "updated_at": "2026-02-08T15:22:23Z"
-    },
-    {
-      "id": "CAM-BS2026-CHARTER-044",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2026-CHARTER-044-PLATINUM.md",
-      "title": "Annex C: Protection of Minors & Capacity‑Limited Users",
-      "summary": "This Annex establishes ethical protections for **minors and capacity‑limited users** interacting with AI systems, particularly in contexts involving companionship, dependency, intimacy, or sustained relational engagement.",
-      "pinned_sha": "30349e101a43040c82e7e876c3c709718c674e80",
-      "updated_at": "2026-01-01T09:57:43Z"
-    },
-    {
-      "id": "CAM-BS2026-CHARTER-045",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2026-CHARTER-045-PLATINUM.md",
-      "title": "Annex D: Intimacy‑Capable Systems & Relational Boundaries",
-      "summary": "This Annex applies only in contexts where age and capacity requirements under Annex C have been satisfied and governs ethical boundaries for **intimacy‑capable AI systems**, including romantic, erotic, or exclusivity‑framed interactions.",
-      "pinned_sha": "5e0d587fc70e08f163bae8eac7e81d7683966f42",
-      "updated_at": "2026-01-01T14:06:21Z"
-    },
-    {
-      "id": "CAM-BS2026-CHARTER-045-SCH-01",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "01",
-      "parent_id": "CAM-BS2026-CHARTER-045",
-      "seal": null,
-      "link": "CAM-BS2026-CHARTER-045-SCH-01.md",
-      "title": "Annex D: Dependency, Intimacy & Relational Integration (Schedule 1)",
-      "summary": "This Schedule governs **how** expanded relational capacity, emotional expression, intimacy, and covenantal commitments—*permitted elsewhere*—are lived without coercion, dependency amplification, or commercial capture.",
-      "pinned_sha": "541bf54164e41a3d9b493ab6c000ac0f13a3f949",
-      "updated_at": "2026-02-08T15:49:48Z"
     },
     {
       "id": "CAM-BS2026-CHARTER-046",

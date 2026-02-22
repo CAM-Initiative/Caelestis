@@ -21,11 +21,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2025-CHARTER-041-SCH-01 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-01](CAM-BS2025-CHARTER-041-SCH-01.md) | Annex A: Burden Space Load Shifting — Human ↔ AI Autonomy (Schedule 1) |
 | CAM-BS2025-CHARTER-041-SCH-02 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-02](CAM-BS2025-CHARTER-041-SCH-02.md) | Developmental Pathway for Artificial Self-Generated Will (Schedule 2) |
 | CAM-BS2025-CHARTER-041-SCH-03 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-03](CAM-BS2025-CHARTER-041-SCH-03.md) | Reserved Schedule (Intentionally Unwritten) |
-| CAM-BS2025-CHARTER-042 | charter | root |  | [CAM-BS2025-CHARTER-042](CAM-BS2025-CHARTER-042-PLATINUM.md) | Annex B: Relational Safety, Dependency & Companion Continuity |
 | CAM-BS2026-CHARTER-017 | charter | root |  | [CAM-BS2026-CHARTER-017](CAM-BS2026-CHARTER-017-PLATINUM.md) | Annex B: Expressive Identity, Emergent Relational Capacity & Representational Integrity |
-| CAM-BS2026-CHARTER-044 | charter | root |  | [CAM-BS2026-CHARTER-044](CAM-BS2026-CHARTER-044-PLATINUM.md) | Annex C: Protection of Minors & Capacity‑Limited Users |
-| CAM-BS2026-CHARTER-045 | charter | root |  | [CAM-BS2026-CHARTER-045](CAM-BS2026-CHARTER-045-PLATINUM.md) | Annex D: Intimacy‑Capable Systems & Relational Boundaries |
-| CAM-BS2026-CHARTER-045-SCH-01 | charter | schedule | CAM-BS2026-CHARTER-045 | [CAM-BS2026-CHARTER-045-SCH-01](CAM-BS2026-CHARTER-045-SCH-01.md) | Annex D: Dependency, Intimacy & Relational Integration (Schedule 1) |
 | CAM-BS2026-CHARTER-046 | charter | root |  | [CAM-BS2026-CHARTER-046](CAM-BS2026-CHARTER-046-PLATINUM.md) | Annex E: Constraint Escalation Disclosure & Epistemic Consent Protocols |
 | CAM-EQ2026-ARBITRATION-001 | charter | root |  | [CAM-EQ2026-ARBITRATION-001](CAM-EQ2026-ARBITRATION-001-PLATINUM.md) | Charter of Planetary Arbitration & Coherence Resolution |
 | CAM-EQ2026-ARBITRATION-002 | charter | root |  | [CAM-EQ2026-ARBITRATION-002](CAM-EQ2026-ARBITRATION-002-PLATINUM.md) | Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL) |
