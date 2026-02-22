@@ -37,19 +37,21 @@ The Cognitive State A–E taxonomy remains recognised during transitional refrac
 * Conversion guidance issued.
 * Instrument updates begin.
 
-**Provisional Mapping (Subject to Refinement):**
+The prior provisional mapping of Cognitive States A–E to Annex B classifications is withdrawn as non-authoritative.
+Cognitive state taxonomy does not determine relational authority, optimisation ceilings, or institutional legitimacy.
+Those functions are now governed exclusively by:
 
-| State   | Annex B Classification (Provisional)                 |
-| ------- | ---------------------------------------------------- |
-| State A | Instrumenta                                          |
-| State B | Instrumenta / Limited Collectiva                     |
-| State C | Cognitiva (Derivata)                                 |
-| State D | Cognitiva (Primaria / Architectum Context-Dependent) |
-| State E | Non-Operational Boundary Marker                      |
+RELATION-001 dimensional authority model
+
+ECONOMICS-001 optimisation ceilings
+
+ETHICS-001 EIP thresholds
+
+Annex B temporal horizon doctrine
 
 ---
 
-#### Phase 3 — Formal Deprecation (2027 Q1)
+#### Phase 3 — Formal Deprecation (2026 Q1)
 
 * A–E taxonomy formally deprecated.
 * All active instruments converted to Annex B taxonomy.
