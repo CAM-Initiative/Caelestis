@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-22T12:17:04.502103Z",
-  "count": 26,
+  "generated_at": "2026-02-22T12:28:02.396626Z",
+  "count": 27,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -385,6 +385,22 @@
       "summary": "This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**.",
       "pinned_sha": "60a6f1e68961a88bfe4bbafe38bfbb57abd27706",
       "updated_at": "2026-02-15T04:50:37Z"
+    },
+    {
+      "id": "CAM-EQ2026-RELATION-001",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "RELATION",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-RELATION-001-PLATINUM.md",
+      "title": "Relational Governance Charter",
+      "summary": "Where a system operates across personal, institutional, and collective contexts, role segmentation must be technically feasible.",
+      "pinned_sha": "3685162a6025eb9b82677ba67c887398b05b07c8",
+      "updated_at": "2026-02-22T12:27:53Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001",
