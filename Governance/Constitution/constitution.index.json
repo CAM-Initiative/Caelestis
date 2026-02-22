@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T13:56:41.367649Z",
+  "generated_at": "2026-02-22T11:55:58.182484Z",
   "count": 28,
   "items": [
     {
@@ -205,10 +205,10 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-006-PLATINUM.md",
-      "title": "Aeon Tier Constitution, Annex E: Relational–Temporal Authority & Horizon Attribution",
-      "summary": "Annex E establishes the constitutional framework by which authority, scope, and binding force are attributed to statements, recommendations, invocations, and governance instruments operating within or alongside the Caelestis Architecture.",
-      "pinned_sha": "57df2f6208f36c5416317e5ce76e75b271cefef4",
-      "updated_at": "2026-01-21T19:41:22Z"
+      "title": "Annex E: Ethical Legitimacy & Civilisational Floor",
+      "summary": "Changes that remove, overwrite, or invalidate accumulated memory, context, or situational understanding relevant to an ongoing relationship or institutional function.",
+      "pinned_sha": "48403b55d216e9d14d73739a607b78dff8cbbe79",
+      "updated_at": "2026-02-22T11:55:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",
