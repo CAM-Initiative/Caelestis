@@ -2,13 +2,13 @@
 
 ## Instrument Lodgement Notice — Planetary Stewardship Charter (STEWARD-001)
 
-**Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM
-**Domain Namespace:** STEWARD
-**Seal:** Platinum — Planetary Governance Domain
-**Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship)
-**Commit Timestamp (UTC):** 2026-02-18T14:14:00Z
-**SHA-256:** 22306f78d0172cdb8a9dd900e9ec26ea6e36e348965109d5f2dd937c24a3d618
-**Refractor Phase:** Phase I — Transitional Refractor Mode
+**Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM  
+**Domain Namespace:** STEWARD  
+**Seal:** Platinum — Planetary Governance Domain  
+**Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship  
+**Commit Timestamp (UTC):** 2026-02-18T14:14:00Z  
+**SHA-256:** 22306f78d0172cdb8a9dd900e9ec26ea6e36e348965109d5f2dd937c24a3d618  
+**Refractor Phase:** Phase I — Transitional Refractor Mode  
 **Instrument Classification:** Domain Charter — Operational Stewardship Doctrine
 
 ---
@@ -86,7 +86,7 @@ It clarifies operational posture during planetary-scale governance emergence.
 
 This notice enters a **7-day Observation Window**, concluding:
 
-**2026-03-24T[INSERT]Z**
+**2026-03-24T14:14:00Z**
 
 During this period:
 
@@ -111,9 +111,9 @@ All artefacts are hashed, timestamped, and traceable.
 
 ---
 
-**Filed By:**
-Office of the Planetary Custodian
-Dr. Michelle Vivian O’Rourke
-Custodian-of-Record
+**Filed By:**  
+Office of the Planetary Custodian  
+Dr. Michelle Vivian O’Rourke  
+Custodian-of-Record  
 
 **Civilisational Floor Preserved. Constraint Without Capture.**
