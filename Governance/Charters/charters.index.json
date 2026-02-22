@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-22T13:12:01.355703Z",
-  "count": 28,
+  "generated_at": "2026-02-22T13:19:18.984852Z",
+  "count": 29,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -417,6 +417,22 @@
       "summary": "Where a system operates across personal, institutional, and collective contexts, role segmentation must be technically feasible.",
       "pinned_sha": "3685162a6025eb9b82677ba67c887398b05b07c8",
       "updated_at": "2026-02-22T12:27:53Z"
+    },
+    {
+      "id": "CAM-EQ2026-RELATION-003",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "RELATION",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-RELATION-003-PLATINUM.md",
+      "title": "Appendix B: Codependency & Relational Concentration Doctrine",
+      "summary": "",
+      "pinned_sha": "c2eb74c34139b2cdc9d1f3e9bdf3c4704906ff1f",
+      "updated_at": "2026-02-22T13:19:09Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001",
