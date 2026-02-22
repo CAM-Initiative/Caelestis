@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-22T12:53:28.199866Z",
-  "count": 27,
+  "generated_at": "2026-02-22T13:02:16.696400Z",
+  "count": 28,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-002",
@@ -353,6 +353,22 @@
       "summary": "The Ethical Impact Assessment (EIA) is the primary operational mechanism through which Annex E civilisational constraints are translated into deployment-specific governance controls.",
       "pinned_sha": "98e90637db771d73f8c0dcaba7dac57adbaa31db",
       "updated_at": "2026-02-22T12:16:54Z"
+    },
+    {
+      "id": "CAM-EQ2026-ETHICS-002",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ETHICS",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ETHICS-002-PLATINUM.md",
+      "title": "Appendix A: Intimacy-Capable Systems & Relational Boundaries",
+      "summary": "",
+      "pinned_sha": "ecae376db9a71c3a0a68d05a776e73f053b74a9d",
+      "updated_at": "2026-02-22T13:02:05Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
