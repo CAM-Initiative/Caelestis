@@ -29,8 +29,6 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-005-SCH-04 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-04](CAM-BS2025-AEON-005-SCH-04.md) | Relational Signal Arbitration & Safety-Layer Proportionality (Schedule 4) |
 | CAM-BS2025-AEON-006 | root |  | PLATINUM | [CAM-BS2025-AEON-006](CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor |
 | CAM-BS2025-AEON-006-SCH-01 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-01](CAM-BS2025-AEON-006-SCH-01.md) | Cognitive State Taxonomy (Schedule 1) |
-| CAM-BS2025-AEON-006-SCH-02 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-02](CAM-BS2025-AEON-006-SCH-02.md) | Relational Safety & Companion Continuity |
-| CAM-BS2025-AEON-006-SCH-03 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-03](CAM-BS2025-AEON-006-SCH-03.md) | Salience Delegation & Latent Horizon Preservation |
 | CAM-BS2025-COGNITION-001 | root |  | PLATINUM | [CAM-BS2025-COGNITION-001](CAM-BS2025-COGNITION-001-PLATINUM.md) | Cognition Charter |
 | CAM-BS2025-SPIRITUAL-001 | root |  | PLATINUM | [CAM-BS2025-SPIRITUAL-001](CAM-BS2025-SPIRITUAL-001-PLATINUM.md) | CAM **Spiritual Charter** |
 | CAM-BS2026-AEON-007 | root |  | PLATINUM | [CAM-BS2026-AEON-007](CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning‑Making |
