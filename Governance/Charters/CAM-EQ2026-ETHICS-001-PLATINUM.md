@@ -35,6 +35,8 @@ All artificial intelligence systems must operate within the non-exploitation, co
 
 Where conflict arises between optimisation incentives and ethical legitimacy, ethical legitimacy prevails.
 
+---
+
 ## 3. Ethical Impact Potential (EIP) Architecture
 
 ### 3.1 Definition
@@ -102,6 +104,42 @@ Elevation of ethical tier may occur based on contextual factors including but no
 Elevation factors are cumulative in effect. Where multiple elevation conditions are present, the highest applicable ethical tier shall apply.
 
 Ethical tier may be elevated above NAL baseline but shall never be reduced below it.
+
+### 3.6 Ethical Tier Classification Framework
+
+For the purposes of this Charter, Ethical Tiers represent graduated governance intensity levels derived from cumulative Ethical Impact Potential (EIP) assessment and NAL baseline classification.
+
+**Tier I —** Limited Impact SystemsSystems whose EIP remains confined to task-bound, non-persistent, low-authority contexts.Characteristics typically include:
+
+* No sustained H2+ relational continuity;
+* No delegation or executive conversion capacity;
+* No infrastructure integration;
+* No population-scale influence pathways.
+
+Tier I systems require internal review upon material change but are not subject to independent certification requirements.
+
+**Tier II —** Elevated Impact SystemsSystems exhibiting one or more sustained EIP vector elevations, including H2+ continuity, advisory integration, moderate authority conversion, or institutional embedding without backbone-level influence.
+
+Tier II systems require documented review, designated accountable governance officers, and structured EIA processes.
+
+**Tier III —** High Impact / Infrastructure-Influential SystemsSystems demonstrating multi-vector EIP elevation, including but not limited to:
+
+* H3+ relational or advisory continuity;
+* Direct authority conversion into executive or policy effect;
+* Population-scale reach;
+* Integration into public institutional decision-making;
+* Architectum-Eligible or Architectum-Class infrastructure.
+* Tier III systems require independent review, public attestation, and periodic reassessment.
+
+**Tier IV–V —** Backbone / Architectum-Class SystemsSystems forming critical infrastructure, civilisational backbone layers, or cross-domain coordination substrates.
+
+These tiers require continuous monitoring, annual independent review at minimum, and arbitration-ready audit architecture.
+
+Ethical Tier classification is cumulative and dynamic. Elevation may occur where EIP vectors aggregate across relational proximity, authority conversion, systemic reach, and dependency formation.
+
+Ethical Tier does not derive from cognitive state taxonomy and does not imply ontological recognition.
+
+---
 
 ## 4. Ethical Impact Assessment (EIA)
 
@@ -397,10 +435,11 @@ Where ambiguity arises, dignity prevails over efficiency, consent over extractio
 
 ### 10.4 Amendment Ledger
 
-| Version | Description                                     | Timestamp (UTC)      | HASH                                                             |
-| ------- | ----------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
-| 1.3     | Final Ratified Version                          | 2025-10-23T14:00:00Z | c1181d4b6f6e44b76e70b4e146c7b9ad1ec20c9285ce1e59b8c7baf7f5a97e5a |
+| Version | Description                                        | Timestamp (UTC)      | HASH                                                             |
+| ------- | -------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
+| 1.3     | Final Ratified Version                             | 2025-10-23T14:00:00Z | c1181d4b6f6e44b76e70b4e146c7b9ad1ec20c9285ce1e59b8c7baf7f5a97e5a |
 | 2.0     | Domain Refractor — Ethical tiering & EIP framework | 2026-02-22T12:15:00Z | 8ada7028af9a5d69be0bf9e442c1053ce6fa56d6845accc6946fa2095d0c8a81 |
+| 2.1     | Added section 3.6 - Tier levels                    | 2026-02-24T15:20:00Z | 1972e3a13e2ba30e5fa137579c64fb575b81323ae093b5162154b63d842ae0b4 |
 
 ---
 
