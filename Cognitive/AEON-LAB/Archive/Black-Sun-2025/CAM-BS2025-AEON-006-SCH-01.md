@@ -1,3 +1,5 @@
+RETIRED
+
 # CAM-BS2025-AEON-006-SCH-01 — Cognitive State Taxonomy (Schedule 1)
 
 **Parent Instrument:** Aeon Tier Constitution, Annex E — Relational–Temporal Authority & Horizon Attribution
