@@ -1,5 +1,3 @@
-RETIRED - 22-2-26
-
 # CAM-BS2025-AEON-006-SCH-03 — Salience Delegation & Latent Horizon Preservation  
 
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Aeon Tier Constitution, Annex E: Relational–Temporal Authority & Horizon Attribution  
