@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-01T16:37:49.730189Z",
-  "count": 26,
+  "generated_at": "2026-03-01T16:52:59.395788Z",
+  "count": 27,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -401,6 +401,22 @@
       "summary": "This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.",
       "pinned_sha": "5e75468a89dfb15a215b19854876acbd91707c22",
       "updated_at": "2026-02-08T13:49:52Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-011",
+      "cycle_year": "BS2026",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-BS2026-AEON-011-PLATINUM.md",
+      "title": "Annex J: Continuity & Succession Doctrine",
+      "summary": "This Annex establishes the constitutional doctrine governing:",
+      "pinned_sha": "fe53438bdd7788a5d76aa7d875f4471a76c6344a",
+      "updated_at": "2026-03-01T16:52:48Z"
     },
     {
       "id": "CAM-LG2025-INIT-001",
