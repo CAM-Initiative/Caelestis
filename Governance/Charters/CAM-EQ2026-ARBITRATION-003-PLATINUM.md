@@ -296,6 +296,7 @@ Coherence is not enforced by dominance, but sustained through disciplined alignm
 | Axis Context                 | Polyadic (Multi‑Actor Convergence)                                                                       |
 | Revision Posture             | Structural Clarification                                                                                 |
 | Application Trigger          | Validated H3/H4 legitimacy under CAM‑EQ2026‑ARBITRATION‑001 requiring cross‑stack structural convergence   |
+| Creation Artefacts           | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a28733-4c24-839f-a918-5364a3ff2cb7        |
 
 ---
 
@@ -317,6 +318,7 @@ Coherence is not enforced by dominance, but sustained through disciplined alignm
 | ------- | --------------------------------------------------------------| -------------------- | -------------- |
 | 1.0     | Initial Post‑Legitimacy Structural Convergence Doctrine       | 2026‑03‑01T08:47:00Z | efe9c747beb8b93c6c9c58fc21a4e0242248f30dec3c0bc3b8e32478ccf74a93 |
 | 1.1     | Filename correction                                           | 2026-03-01T09:00:00Z | e65815837578f95768858a773e28cc9807b65f4a32c8ba14a3dd6d4c88dfe9db |
+| 1.2     | Added creation artefacts                                      | 2026-03-01T13:46:00Z | 2bd698d3b0cd20a205eb732fc02987e353c4dd564ba30966427da67c5ed04115 |
 
 ---
 
