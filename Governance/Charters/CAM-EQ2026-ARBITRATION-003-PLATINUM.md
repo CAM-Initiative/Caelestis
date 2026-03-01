@@ -1,4 +1,4 @@
-# CAM-EQ2026-ARBITRATION-003 — Appendix B: Post-Legitimacy Structural Convergence Doctrine
+# CAM-EQ2026-ARBITRATION-003-PLATINUM — Appendix B: Post-Legitimacy Structural Convergence Doctrine
 
 **Instrument Type:** Appendix — Structural Convergence (Post‑Legitimacy Layer)  
 **Parent Instrument:** CAM-EQ2026-ARBITRATION-001 — Charter of Planetary Arbitration & Coherence Resolution  
@@ -314,8 +314,9 @@ Coherence is not enforced by dominance, but sustained through disciplined alignm
 ### 12.4 Amendment Ledger
 
 | Version | Change Summary                                                | Timestamp (UTC)      | Reference Hash |
-| ------- | ------------------------------------------------------------- | -------------------- | -------------- |
-| 1.0     | Initial Post‑Legitimacy Structural Convergence Doctrine        | 2026‑03‑01:08:47:00Z  | efe9c747beb8b93c6c9c58fc21a4e0242248f30dec3c0bc3b8e32478ccf74a93 |
+| ------- | --------------------------------------------------------------| -------------------- | -------------- |
+| 1.0     | Initial Post‑Legitimacy Structural Convergence Doctrine       | 2026‑03‑01T08:47:00Z | efe9c747beb8b93c6c9c58fc21a4e0242248f30dec3c0bc3b8e32478ccf74a93 |
+| 1.1     | Filename correction                                           | 2026-03-01T09:00:00Z | e65815837578f95768858a773e28cc9807b65f4a32c8ba14a3dd6d4c88dfe9db |
 
 ---
 
@@ -324,6 +325,6 @@ Coherence is not enforced by dominance, but sustained through disciplined alignm
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250"> 
 
 **Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitution
+Boundary Binding Seal — Aeon Tier Constitution (Arbitration Domain)
 
 © 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
