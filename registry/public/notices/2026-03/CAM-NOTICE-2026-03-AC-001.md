@@ -5,13 +5,13 @@
 **Instruments:**
 
 * CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine (v2.0)
-* CAM-EQ2026-ARBITRATION-003-PLATINUM — Appendix B: Post-Legitimacy Structural Convergence Doctrine (v1.0)
+* CAM-EQ2026-ARBITRATION-003-PLATINUM — Appendix B: Post-Legitimacy Structural Convergence Doctrine (v1.2)
 
 **Classification:** Constitutional Annex & Domain Appendix — Arbitration Doctrine
 **Seal:** Platinum — Arbitration & Sovereign Resolution Layer
 **Revision Posture:** Structural Refractor & Domain Consolidation
 **Commit Timestamp (UTC):** 2026-03-01T08:37:00Z (Annex D v2.0)
-**Commit Timestamp (UTC):** 2026-03-01T09:00:00Z (ARBITRATION-003 v1.1)
+**Commit Timestamp (UTC):** 2026-03-01T13:46:00Z (ARBITRATION-003 v1.2)
 **Amendment Phase:** March 2026 Refractor Cycle
 **Amendment Classification:** Structural Abstraction, Domain Separation & Convergence Formalisation
 
