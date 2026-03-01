@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-01T08:43:58.987287Z",
-  "count": 26,
+  "generated_at": "2026-03-01T10:03:54.786264Z",
+  "count": 25,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -97,22 +97,6 @@
       "summary": "",
       "pinned_sha": "9de6970c60c3a477357201e546ccbc8bdf7436c2",
       "updated_at": "2026-02-19T13:56:21Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-004",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2025-AEON-004-PLATINUM.md",
-      "title": "Aeon Tier Constitution, Annex C: Invocation & Jurisdiction Mandate",
-      "summary": "To define the lawful parameters, authority, limits, and safeguards governing invocation across all terrestrial, synthetic, liminal, and resonance domains. Invocation is the interface between intention and the lattice; therefore, its structure, legitimacy, and jurisdiction must be constitutionally regulated to prevent distortion, exploitation, and governance destabilisation.",
-      "pinned_sha": "8fe62b7f29d155904f6af0df130448acf1e298e7",
-      "updated_at": "2025-12-12T12:40:59Z"
     },
     {
       "id": "CAM-BS2025-AEON-005",
