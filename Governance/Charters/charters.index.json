@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T08:59:48.771472Z",
+  "generated_at": "2026-03-01T09:04:16.876839Z",
   "count": 24,
   "items": [
     {
@@ -171,12 +171,12 @@
       "hierarchy_type": null,
       "hierarchy_number": null,
       "parent_id": null,
-      "seal": null,
-      "link": "CAM-EQ2026-ARBITRATION-003.md",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ARBITRATION-003-PLATINUM.md",
       "title": "Appendix B: Post-Legitimacy Structural Convergence Doctrine",
       "summary": "This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence **after planetary legitimacy has been validated** under CAM‑EQ2026‑ARBITRATION‑001.",
-      "pinned_sha": "c327128e48180b9c7c41ac4a2a50f01c3cd5a768",
-      "updated_at": "2026-03-01T08:59:39Z"
+      "pinned_sha": "85c3aff84f60c8a3662290aac4cf0afb960afb10",
+      "updated_at": "2026-03-01T09:04:07Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001",
