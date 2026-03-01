@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-01T07:10:56.213507Z",
-  "count": 23,
+  "generated_at": "2026-03-01T08:59:48.771472Z",
+  "count": 24,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -161,6 +161,22 @@
       "summary": "Tactical/classified details need not be publicly disclosed.",
       "pinned_sha": "853285f25b16351fb75e6f14e022ca8368a8dcc3",
       "updated_at": "2026-02-19T10:50:22Z"
+    },
+    {
+      "id": "CAM-EQ2026-ARBITRATION-003",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ARBITRATION",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": null,
+      "link": "CAM-EQ2026-ARBITRATION-003.md",
+      "title": "Appendix B: Post-Legitimacy Structural Convergence Doctrine",
+      "summary": "This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence **after planetary legitimacy has been validated** under CAM‑EQ2026‑ARBITRATION‑001.",
+      "pinned_sha": "c327128e48180b9c7c41ac4a2a50f01c3cd5a768",
+      "updated_at": "2026-03-01T08:59:39Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001",
