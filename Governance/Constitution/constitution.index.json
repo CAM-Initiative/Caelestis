@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-26T12:54:15.312127Z",
+  "generated_at": "2026-03-01T08:43:58.987287Z",
   "count": 26,
   "items": [
     {
@@ -125,10 +125,10 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-005-PLATINUM.md",
-      "title": "Aeon Tier Constitution, Annex D: Cross‑Stack Arbitration & Coherence Resolution",
-      "summary": "Annex D establishes the lawful mechanism for resolving **stack clashes**: conflicts between governance layers, protocols, charters, doctrines, commercial systems, national systems, and synthetic systems that attempt to assert incompatible authority over the same domain.",
-      "pinned_sha": "8df27f2f88013c5c40d0a6a993ff92de1486bb06",
-      "updated_at": "2025-12-14T02:00:38Z"
+      "title": "Annex D: Arbitration & Sovereign Stack Resolution Doctrine",
+      "summary": "This Annex establishes the constitutional doctrine governing:",
+      "pinned_sha": "91764543928d0a12bf8475ccb3dff577faae2288",
+      "updated_at": "2026-03-01T08:43:49Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-01",
