@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-01T10:03:54.786264Z",
-  "count": 25,
+  "generated_at": "2026-03-01T16:37:49.730189Z",
+  "count": 26,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -97,6 +97,22 @@
       "summary": "",
       "pinned_sha": "9de6970c60c3a477357201e546ccbc8bdf7436c2",
       "updated_at": "2026-02-19T13:56:21Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-004",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-BS2025-AEON-004-PLATINUM.md",
+      "title": "Annex C: Constitutional Invocation & Jurisdiction Framework",
+      "summary": "This Annex establishes the constitutional doctrine governing:",
+      "pinned_sha": "8b4d2a3e10a0b6787b56b5639e0ad46f173e9930",
+      "updated_at": "2026-03-01T16:37:40Z"
     },
     {
       "id": "CAM-BS2025-AEON-005",
