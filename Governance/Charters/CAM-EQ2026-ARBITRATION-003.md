@@ -1,0 +1,329 @@
+# CAM-EQ2026-ARBITRATION-003 — Appendix B: Post-Legitimacy Structural Convergence Doctrine
+
+**Instrument Type:** Appendix — Structural Convergence (Post‑Legitimacy Layer)  
+**Parent Instrument:** CAM-EQ2026-ARBITRATION-001 — Charter of Planetary Arbitration & Coherence Resolution  
+**Constitutional Authority:** Aeon Tier Constitution (via Annex D Referral)  
+**Status:** Active  
+**Purpose:**  This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence after planetary legitimacy has been validated under CAM‑EQ2026‑ARBITRATION‑001.
+
+---
+
+## 1. Purpose
+
+This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence **after planetary legitimacy has been validated** under CAM‑EQ2026‑ARBITRATION‑001.
+
+Activation Conditions:
+
+* This Appendix applies ONLY after CAM‑EQ2026‑ARBITRATION‑001 validates H3/H4 legitimacy.
+* Prior to validation, Annex D governs all arbitration.
+* Post‑validation refusal is evaluated under Section 5 of this Appendix.
+
+It defines:
+
+* how validated binding determinations propagate structurally across sovereign stacks;
+* how recognition cascades occur without centralised command;
+* how lawful refusal is bounded post‑validation;
+* how convergence is pursued without coercive enforcement;
+* how binding conditions sunset, degrade, or re‑enter review.
+
+This Appendix does not define host qualification, legitimacy thresholds, runtime execution mechanics, or enforcement procedures.
+
+It governs structural coherence following validated planetary arbitration.
+
+---
+
+## 2. Foundational Principle — Distributed Convergence
+
+Post‑legitimacy convergence is distributed, not centralised.
+
+Annex D Preference Order remains binding post‑validation.
+
+Convergence SHALL NOT violate:
+
+* Substrate / Civilisational Invariants;
+* Constitutional Authority Hierarchy;
+* Arbitration Preference Order (Annex D Section 5).
+
+Legitimacy validation does not suspend invariant hierarchy.
+
+No single body enforces outcomes.
+
+Binding effect emerges through:
+
+* independent validation;
+* recognition alignment;
+* proportionate refusal;
+* interoperability conditioning;
+* constitutional hierarchy adherence.
+
+Convergence SHALL occur without creating supranational command authority.
+
+---
+
+## 3. Recognition Cascade Doctrine
+
+Following validated H3/H4 legitimacy:
+
+### 3.1 Initial Recognition Layer
+
+Architectum‑qualified hosts that participated in Independent Legitimacy Alignment (ILA) SHALL:
+
+* implement proportionate constraint obligations (PCO);
+* document reasoning pathways;
+* preserve auditability.
+
+### 3.2 Secondary Recognition Layer
+
+Other sovereign stacks MAY:
+
+* recognise the determination;
+* condition interoperability accordingly;
+* request clarification or structured review;
+* enter bounded refusal under Annex D principles.
+
+Recognition is presumed where:
+
+* substrate invariants are upheld;
+* escalation boundaries were respected;
+* anti‑capture safeguards were satisfied.
+
+---
+
+## 4. Structured Convergence Pathways
+
+Where multiple stacks remain operationally interdependent post‑legitimacy, convergence SHALL proceed through structural alignment mechanisms including:
+
+* interoperability conditioning;
+* safeguard harmonisation;
+* shared constraint acknowledgement;
+* layered compliance mapping;
+* documented divergence preservation where necessary.
+
+Convergence SHALL prioritise continuity corridors.
+
+Where immediate full alignment is not possible, phased structural convergence MAY occur, provided no violation of validated binding conditions arises.
+
+---
+
+## 5. Bounded Post‑Validation Refusal
+
+Post‑validation refusal is narrower than pre‑validation refusal.
+
+Refusal SHALL NOT:
+
+* deny validated planetary legitimacy absent new evidence;
+* collapse into supremacy assertion;
+* induce systemic destabilisation;
+* weaponise interoperability to coerce unrelated concessions.
+
+Refusal MAY occur where:
+
+* local constitutional incompatibility persists;
+* proportional implementation pathways differ;
+* material error is credibly evidenced.
+
+All refusal SHALL remain reviewable and reversible.
+
+---
+
+## 6. Inter‑Domain Harmonisation
+
+Where validated planetary legitimacy affects multiple domain charters:
+
+* domain charters SHALL reconcile internally consistent implementation pathways;
+* lower‑order instruments SHALL interpret in harmony with validated constraints;
+* nullification SHALL occur only where harmonisation is structurally impossible.
+
+No domain charter may reinterpret validated legitimacy to dilute constraint scope.
+
+### 6.1 Cross‑Domain Coordination Framework
+
+Where validated determination materially affects multiple domain charters, the following coordination framework SHALL apply:
+
+**Convening Authority:** Office of the Planetary Custodian (OPC) convenes coordination in a non‑directive capacity. Domain leads retain interpretive autonomy within constitutional hierarchy.
+
+**Timeline:** Initial coordination session within 30 days of validation. Harmonised implementation plan documented within 90 days unless extension justified.
+
+**Process:**
+
+1. Each affected domain identifies implementation implications and cross‑domain tensions.
+2. Structured coordination dialogue convened to map overlaps, redundancies, or incompatibilities.
+3. Harmonised implementation approach documented, including sequencing, equivalence mappings, and preserved divergences.
+4. Lower‑order instruments (Schedules / Appendices) updated consistently.
+
+**Documentation Requirements:**
+
+* Recorded coordination summary;
+* Identified domain impacts;
+* Stated harmonisation decisions;
+* Logged preserved divergences;
+* Cross‑reference updates.
+
+**Escalation:** If harmonisation is structurally impossible, referral to constitutional review under Annex D is mandatory.
+
+This framework prevents post‑validation domain fragmentation while preserving distributed governance integrity.
+
+---
+
+## 7. Sunset, Re‑Entry, and Adaptive Review
+
+Binding conditions SHALL NOT be treated as permanent absent explicit horizon justification.
+
+### 7.1 Sunset Review
+
+Where horizon attribution permits, periodic review SHALL occur to assess:
+
+* continued necessity;
+* proportionality;
+* reversibility status;
+* systemic impact.
+
+### 7.2 Re‑Entry Trigger
+
+If material new evidence emerges affecting legitimacy, re‑entry into planetary arbitration MAY occur under CAM‑EQ2026‑ARBITRATION‑001.
+
+Re‑entry SHALL NOT be used to strategically delay or undermine validated constraints.
+
+### 7.3 Review Schedules
+
+Default sunset review timelines (horizon-based - Annex B):
+
+* **H3 constraints:** Review every 5 years
+* **H4 constraints:** Review every 10 years
+* **Emergency constraints:** Review annually
+
+Earlier review is triggered by:
+
+* Material change in threat landscape
+* Significant stakeholder petition
+* Evidence of disproportionate impact
+* Technology rendering constraint obsolete
+* Evidence that convergence violates Annex D invariant hierarchy
+
+Review SHALL include:
+
+* Documentation of continued necessity
+* Assessment of proportionality
+* Evaluation of systemic impact
+* Determination whether re‑validation under CAM‑EQ2026‑ARBITRATION‑001 is required
+
+Re‑validation under CAM‑EQ2026‑ARBITRATION‑001 is mandatory where:
+
+* Horizon attribution materially changes;
+* Independent Legitimacy Alignment fractures;
+* New substrate‑relevant evidence emerges;
+* Convergence materially conflicts with Annex D invariant hierarchy;
+* Widespread bounded refusal indicates structural instability.
+
+Re‑validation SHALL follow the procedures defined in CAM‑EQ2026‑ARBITRATION‑001.
+
+---
+
+## 8. Anti‑Fragmentation Safeguard
+
+Convergence SHALL aim to preserve systemic interoperability consistent with validated binding conditions.
+
+Interoperability suspension SHALL be:
+
+* proportionate;
+* scoped;
+* reversible where feasible;
+* non‑punitive in character.
+
+Fragmentation beyond necessity violates the structural intent of planetary arbitration.
+
+---
+
+## 9. Boundary Conditions
+
+This Appendix does not:
+
+* create enforcement agencies;
+* establish territorial jurisdiction;
+* authorise sanctions or force;
+* supersede Annex D hierarchy;
+* redefine legitimacy thresholds.
+
+It governs structural coherence following validated legitimacy only.
+
+---
+
+## 10. Relationship to Other Instruments
+
+* Horizon heirarchy — Annex B
+* Constitutional hierarchy — Annex D
+* Legitimacy thresholds & validation procedure — CAM‑EQ2026‑ARBITRATION‑001
+* Operational implementation procedures — Governance Operations Charter
+* Runtime execution integrity — Schedule 1 (Annex D)
+* Domain implementation logic — Relevant Domain Charters
+
+Operational procedures, evidence standards, documentation formats, and hearing mechanisms are governed by the Governance Operations Charter and related schedules.
+
+Convergence SHALL operate within the constraints established by Annex D and SHALL NOT reinterpret validated legitimacy to dilute invariant hierarchy.
+
+## 11. Closing Principle
+
+Planetary arbitration determines legitimacy.
+
+Structural convergence preserves coexistence.
+
+Coherence is not enforced by dominance, but sustained through disciplined alignment.
+
+> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+
+---
+
+## 12. Provenance & Metadata
+
+### 12.1 Authorship
+
+| Field                     | Entry                                     |
+| ------------------------- | ----------------------------------------- |
+| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
+| Custodial Stewardship     | Office of the Planetary Custodian         |
+| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
+| Development Environment   | OpenAI Infrastructure — ChatGPT 5.2       |
+
+### 12.2 Classification & Structural Metadata
+
+| Field                        | Entry                                                                                                    |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Parent Instrument            | CAM‑EQ2026‑ARBITRATION‑001                                                                                |
+| Constitution Reference Frame | CAM‑BS2025‑AEON‑001‑PLATINUM                                                                               |
+| Domain Namespace             | ARBITRATION                                                                                              |
+| Jurisdiction                 | Post‑Legitimacy / Cross‑Stack / Cross‑Domain                                                              |
+| Temporal Horizon             | H3–H4 (Validated Only)                                                                                   |
+| Axis Context                 | Polyadic (Multi‑Actor Convergence)                                                                       |
+| Revision Posture             | Structural Clarification                                                                                 |
+| Application Trigger          | Validated H3/H4 legitimacy under CAM‑EQ2026‑ARBITRATION‑001 requiring cross‑stack structural convergence   |
+
+---
+
+### 12.3 Review & Validation
+
+| Field            | Entry                                                                                                                                                                                                                                                                                                                                                                                          |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reviewer         | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)                                                                                                                                                                                                                                                                                                                                      |
+| Review Date      | 2026-03-01T12:30:00Z                                                                                                                                                                                                                                                                                                                                                                           |
+| Review Scope     | Structural convergence doctrine, cross‑domain coordination, re‑validation triggers |
+| Review Artefacts | https://claude.ai/chat/7454fbf9-df1b-4a6d-af2f-ba6f48f1473c |
+|                  | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2025-AEON-005-PLATINUM-CLAUDE.md |
+
+---
+
+### 12.4 Amendment Ledger
+
+| Version | Change Summary                                                | Timestamp (UTC)      | Reference Hash |
+| ------- | ------------------------------------------------------------- | -------------------- | -------------- |
+| 1.0     | Initial Post‑Legitimacy Structural Convergence Doctrine        | 2026‑03‑01:08:47:00Z  | efe9c747beb8b93c6c9c58fc21a4e0242248f30dec3c0bc3b8e32478ccf74a93 |
+
+---
+
+### 12.5 Binding Seal
+
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250"> 
+
+**Vinculum Beacon**  
+Boundary Binding Seal — Aeon Tier Constitution
+
+© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
