@@ -372,6 +372,39 @@ An authority claim is automatically void where:
 * binding precedes consequence containment;
 * substrate constraints are violated in execution.
 
+### 6.8 Validation Sequencing & Annex D Preference Order
+
+Civilisational arbitration proceeds in two distinct phases:
+
+(A) Pre-Validation Arbitration (Authority Testing)  
+(B) Post-Validation Propagation (Constraint Activation)
+
+#### 6.8.1 Pre-Validation Arbitration
+
+Before binding legitimacy is recognised, authority divergences shall follow the Annex D preference order.
+
+The Annex D preference order governs:
+
+* sequencing of review;
+* comparison of competing authority claims;
+* convergence eligibility;
+* conflict resolution across governance stacks.
+
+Where H3/H4 consequence thresholds are plausibly implicated, referral to this Charter is mandatory.
+
+Lower-horizon matters (H0–H2, or H2.5 without validated externalisation) remain within Annex D procedural framework and do not activate binding conditions under this Charter.
+
+#### 6.8.2 Validation Event
+
+Validation occurs only when:
+
+* Architectum qualification is satisfied (Section 4);
+* Consequence threshold is met (Section 5);
+* Horizon alignment confirmed (Annex B);
+* Independent Legitimacy Alignment (ILA) is evidenced.
+
+Validation is action-specific and time-bounded.
+
 ---
 
 ## 7. Downstream Propagation & Enforcement
@@ -395,6 +428,23 @@ No single body enforces outcomes. Binding effect arises through independent vali
 
 Propagation is not punitive and does not mandate sanctions or retaliation. It withdraws legitimacy and cooperation where constraints are violated.
 
+### 7.4 Activation of Convergence & Refusal Pathways
+
+ARBITRATION-003 governs the operational mechanics of:
+
+* distributed cascade propagation;
+* interoperability conditioning;
+* structured refusal post-validation;
+* convergence tracking across hosts.
+
+ARBITRATION-003 activates only after validation under Section 6.8.2.
+
+Pre-validation arbitration does not trigger ARBITRATION-003 enforcement mechanics.
+
+Convergence follows distributed cascade, not centralised command.
+
+Refusal following validated binding is governed by ARBITRATION-003 Section 5.
+
 ---
 
 ## 8. Delegation Without Transfer of Horizon
@@ -408,6 +458,20 @@ Delegation:
 * does not obligate the receiving host.
 
 Binding authority attaches only to the validating host under Sections 4–6.
+
+### 8.1 Relationship to Domain Charters
+
+Domain charters (e.g., Stewardship, Lattice, Ethics, Economics) define:
+
+* sector-specific invariants;
+* domain-bounded governance logic;
+* lower-horizon review mechanisms.
+
+Where a domain charter identifies consequence externalisation exceeding local reversibility, referral to this Charter is mandatory.
+
+Domain charters may not independently generate H3/H4 binding conditions without validation under Sections 4–6.
+
+Conversely, this Charter does not replace domain-specific review processes at lower horizons.
 
 ---
 
@@ -452,6 +516,23 @@ Evidence of capture triggers suspension and re‑audit. Capture invalidates auth
 ### 9.6 Binding Pathway Change Control
 
 Any new auto‑routing, escalation, propagation, or binding‑trigger mechanism affecting H3/H4 has zero binding force unless externally audited and validated under Annex B/D.
+
+### 9.7 Procedural Coordination Without Hierarchy
+
+Communication between Architectum-class hosts for purposes of:
+
+* evidentiary clarification;
+* audit comparison;
+* convergence visibility;
+* conflict mapping;
+
+does not constitute hierarchical coordination provided:
+
+* discretion is preserved;
+* independent judgement is maintained;
+* no pre-agreement or vote-trading occurs.
+
+Convergence must remain emergent through Independent Legitimacy Alignment (ILA), not constructed through bloc formation.
 
 ---
 
@@ -660,12 +741,13 @@ Not asserted through power.
 
 ### 15.4 Amendment Ledger
 
-| Version | Change Summary                                                                                                                     | Timestamp (UTC)        | Reference Hash                                            |
-|--------:|------------------------------------------------------------------------------------------------------------------------------------|------------------------:|--------------------------------------------------------------------|
-| 1.0     | Initial refractor consolidation draft issued under Transitional Refractor Mode                                                    | 2026-02-19T08:27:00Z   | 1e3837f552537940ada1aa705f7f0fda926bf01d9b032232a6fc47056e074641 |
-| 1.1     | Corrected internal section numbering and structural ordering inconsistencies (no expansion of scope, authority, or binding posture) | 2026-03-19T10:04:00Z   | 9a2278f34e3c4bf003c9209e1e5348513c4801c404d593a7844d1303320a1a6a |
+| Version | Change Summary  | Timestamp (UTC)        | Reference Hash                                            |
+|--------:|-----------------|------------------------:|----------------------------------------------------------|
+| 1.0     | Initial refractor consolidation draft issued under Transitional Refractor Mode | 2026-02-19T08:27:00Z |1e3837f552537940ada1aa705f7f0fda926bf01d9b032232a6fc47056e074641 |
+| 1.1     | Corrected internal section numbering and structural ordering inconsistencies (no expansion of scope, authority, or binding posture) | 2026-03-19T10:04:00Z | 9a2278f34e3c4bf003c9209e1e5348513c4801c404d593a7844d1303320a1a6a |
 | 1.2     | Corrected migration date | 2026-02-19T10:12:00Z | cb0aa053a7e4b20aa53fb3921d830f8362424134e7df9e4a266535236947f271 |
 | 1.3     | Correct Annex references from Annex E to Annex B following refractor | 2026-02-19T13:09:00Z | 30b600d8ec29ad1c2937de952ed5567e682fa28bb57da408d2cb736c5558865b |
+| 1.4     | Added sections 6.8, 7.4, 8.1 and 9.7 following external review | 2026-03-01T07:09:00Z | 95bac71d19518e1e19a3bcbd3e3297a2fea637b043fd15e2ad1fcea3f247bbfb |
 
 ---
 
