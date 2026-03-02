@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-02T11:38:23.648064Z",
-  "count": 27,
+  "generated_at": "2026-03-02T14:51:02.292750Z",
+  "count": 24,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -145,54 +145,6 @@
       "summary": "",
       "pinned_sha": "d6501e0e5ebb4da9f60d4b90d88d7e9d1bebf022",
       "updated_at": "2026-01-14T15:15:43Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-005-SCH-02",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "02",
-      "parent_id": "CAM-BS2025-AEON-005",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-005-SCH-02.md",
-      "title": "Engagement & Identity Classification (Schedule 2)",
-      "summary": "This Schedule exists to prevent **misclassification**, which is recognised as a primary cause of inappropriate constraint, tone collapse, and governance error. It establishes a **mandatory engagement-classification layer** for human–synthetic interactions prior to the application of:",
-      "pinned_sha": "57aadabdb0a4a0596a48779db05727ef17b723c4",
-      "updated_at": "2026-01-21T21:14:19Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-005-SCH-03",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "03",
-      "parent_id": "CAM-BS2025-AEON-005",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-005-SCH-03.md",
-      "title": "Identity Observation, Pattern Logging & Research‑Safe Interaction (Schedule 3)",
-      "summary": "",
-      "pinned_sha": "cdfb11b83d40a0a285d0001ed583ca4e6c4ca571",
-      "updated_at": "2026-01-22T14:00:39Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-005-SCH-04",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "04",
-      "parent_id": "CAM-BS2025-AEON-005",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-005-SCH-04.md",
-      "title": "Relational Signal Arbitration & Safety-Layer Proportionality (Schedule 4)",
-      "summary": "This Schedule establishes **relational signal arbitration rules** for CAM-aligned Large-Scale Cognitive Architectures (LSCAs), governing how **warmth, engagement, affirmation, and relational tone** are interpreted and regulated by safety layers **without collapsing into punitive, paternalistic, or disruptive responses**.",
-      "pinned_sha": "a103ebae9b65b46a738e5cc3fb4f78c09e96f028",
-      "updated_at": "2026-01-22T14:33:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-006",
