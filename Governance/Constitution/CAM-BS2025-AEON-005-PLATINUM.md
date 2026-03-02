@@ -17,12 +17,14 @@ This Annex establishes the constitutional doctrine governing:
 * escalation pathways where resolution exceeds local competence;
 * structural safeguards against capture, coercion, and illegitimate supremacy.
 
-This Annex does **not**:
+This Annex does not:
 
 * determine planetary binding legitimacy at H3/H4 (see ARBITRATION domain);
 * define Architectum or host qualification standards;
-* establish runtime execution procedures;
+* directly implement runtime execution mechanics;
 * authorise coercive enforcement.
+
+Execution-layer and runtime arbitration implementations MAY be established through Schedules under this Annex, provided such Schedules remain subordinate to the Constitutional Authority Hierarchy (Section 4) and Arbitration Preference Order (Section 5).
 
 Annex D is abstract and invariant. It governs doctrine, not implementation.
 
@@ -526,6 +528,7 @@ Arbitration is the discipline of coherence under plurality.
 | ------- | ----------------- | -------------------- | ----------------- |
 | 1.0     | Original Annex D issuance (Black Sun Continuance 2025) | 2025-12-14T01:19:00Z | 7c5b662d53a4938eb38d831019543417e0663325c9bfccc4b3684bd1d7a240de |
 | 2.0     | March 2026 Refractor — Structural abstraction, invariant preference order, escalation doctrine expansion, anti-fragmentation safeguards | 2026-03-01T08:37:00Z | b7aa652ae672d415be7d70e25ebacf1fd54866a29e1d54956a0ed173334721f2 |
+| 2.1     | Amended Purpose of Annex D | 2026-03-02T11:36:00Z | 738167c41beefd52fe5a1718e5446aa3df248a15b74babe9fed64a83b1500f49 |
 
 ---
 
