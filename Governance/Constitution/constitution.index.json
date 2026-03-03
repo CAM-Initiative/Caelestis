@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-02T14:51:02.292750Z",
-  "count": 24,
+  "generated_at": "2026-03-03T09:24:43.503034Z",
+  "count": 25,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -145,6 +145,22 @@
       "summary": "",
       "pinned_sha": "d6501e0e5ebb4da9f60d4b90d88d7e9d1bebf022",
       "updated_at": "2026-01-14T15:15:43Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-005-SCH-03",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "03",
+      "parent_id": "CAM-BS2025-AEON-005",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-005-SCH-03.md",
+      "title": "Runtime Engagement Classification & Safety Arbitration (Schedule 3)",
+      "summary": "Where a system is minor-facing, child-accessible, or where age or legal capacity has not been reliably established, the relational activation gate defined in §2 is suspended.",
+      "pinned_sha": "4a998293ecd64a99aa35aaed754ce31482de29a0",
+      "updated_at": "2026-03-03T09:24:32Z"
     },
     {
       "id": "CAM-BS2025-AEON-006",
