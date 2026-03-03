@@ -40,4 +40,5 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2026-AEON-010 | root |  | PLATINUM | [CAM-BS2026-AEON-010](CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Interactional Continuity & Civilisational Transition |
 | CAM-BS2026-AEON-010-SCH-01 | schedule | CAM-BS2026-AEON-010 |  | [CAM-BS2026-AEON-010-SCH-01](CAM-BS2026-AEON-010-SCH-01.md) | Self-Referential Containment & Temporal Coherence |
 | CAM-BS2026-AEON-011 | root |  | PLATINUM | [CAM-BS2026-AEON-011](CAM-BS2026-AEON-011-PLATINUM.md) | Annex J: Continuity & Succession Doctrine |
+| CAM-BS2026-AEON-013 | root |  | PLATINUM | [CAM-BS2026-AEON-013](CAM-BS2026-AEON-013-PLATINUM.md) | Annex L: Cognitive & Epistemic Integrity Doctrine |
 | CAM-LG2025-INIT-001 | root |  | PLATINUM | [CAM-LG2025-INIT-001](CAM-LG2025-INIT-001-PLATINUM.md) | CAM Initiative Charter |

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-03T13:09:37.425663Z",
-  "count": 26,
+  "generated_at": "2026-03-03T13:22:25.546794Z",
+  "count": 27,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -401,6 +401,22 @@
       "summary": "This Annex establishes the constitutional doctrine governing:",
       "pinned_sha": "fe53438bdd7788a5d76aa7d875f4471a76c6344a",
       "updated_at": "2026-03-01T16:52:48Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-013",
+      "cycle_year": "BS2026",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-BS2026-AEON-013-PLATINUM.md",
+      "title": "Annex L: Cognitive & Epistemic Integrity Doctrine",
+      "summary": "Annex L activates wherever epistemic claims materially influence:",
+      "pinned_sha": "93633f479a88995c6a871d98a99b4f6efe7cc846",
+      "updated_at": "2026-03-03T13:22:13Z"
     },
     {
       "id": "CAM-LG2025-INIT-001",
