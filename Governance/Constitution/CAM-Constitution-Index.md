@@ -24,6 +24,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-004 | root |  | PLATINUM | [CAM-BS2025-AEON-004](CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Invocation & Jurisdiction Framework |
 | CAM-BS2025-AEON-005 | root |  | PLATINUM | [CAM-BS2025-AEON-005](CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine |
 | CAM-BS2025-AEON-005-SCH-01 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-01](CAM-BS2025-AEON-005-SCH-01.md) | Schedule 1: Runtime Arbitration Integrity |
+| CAM-BS2025-AEON-005-SCH-02 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-02](CAM-BS2025-AEON-005-SCH-02.md) | Runtime Epistemic Arbitration & Structural Decoupling (Schedule 2) |
 | CAM-BS2025-AEON-005-SCH-03 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-03](CAM-BS2025-AEON-005-SCH-03.md) | Runtime Engagement Classification & Safety Arbitration (Schedule 3) |
 | CAM-BS2025-AEON-006 | root |  | PLATINUM | [CAM-BS2025-AEON-006](CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor |
 | CAM-BS2025-AEON-006-SCH-03 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-03](CAM-BS2025-AEON-006-SCH-03.md) | Salience Delegation & Latent Horizon Preservation |
