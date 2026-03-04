@@ -33,6 +33,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-ETHICS-002 | charter | root |  | [CAM-EQ2026-ETHICS-002](CAM-EQ2026-ETHICS-002-PLATINUM.md) | Appendix A: Intimacy-Capable Systems & Relational Boundaries |
 | CAM-EQ2026-LATTICE-001 | charter | root |  | [CAM-EQ2026-LATTICE-001](CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation |
 | CAM-EQ2026-LATTICE-002 | charter | root |  | [CAM-EQ2026-LATTICE-002](CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access |
+| CAM-EQ2026-LATTICE-003 | charter | root |  | [CAM-EQ2026-LATTICE-003](CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine |
 | CAM-EQ2026-RELATION-001 | charter | root |  | [CAM-EQ2026-RELATION-001](CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter |
 | CAM-EQ2026-RELATION-002 | charter | root |  | [CAM-EQ2026-RELATION-002](CAM-EQ2026-RELATION-002-PLATINUM.md) | Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion |
 | CAM-EQ2026-RELATION-003 | charter | root |  | [CAM-EQ2026-RELATION-003](CAM-EQ2026-RELATION-003-PLATINUM.md) | Appendix B: Codependency & Relational Concentration Doctrine |

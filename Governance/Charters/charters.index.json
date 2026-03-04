@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-02T13:38:13.244416Z",
-  "count": 25,
+  "generated_at": "2026-03-04T15:16:10.165257Z",
+  "count": 26,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -289,6 +289,22 @@
       "summary": "This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**.",
       "pinned_sha": "60a6f1e68961a88bfe4bbafe38bfbb57abd27706",
       "updated_at": "2026-02-15T04:50:37Z"
+    },
+    {
+      "id": "CAM-EQ2026-LATTICE-003",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "LATTICE",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-LATTICE-003-PLATINUM.md",
+      "title": "Appendix B: Conflict‑Condition Continuity Doctrine",
+      "summary": "",
+      "pinned_sha": "88b75ebad75963c38dcd9e5e1342c44fc2436111",
+      "updated_at": "2026-03-04T15:15:57Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001",
