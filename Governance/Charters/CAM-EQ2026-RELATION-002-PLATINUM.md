@@ -61,7 +61,9 @@ A dynamic process where interaction supports adaptive growth, learning, and agen
 
 ### 4.5 Coercive Dependency
 
-Dependency produced or maintained through economic pressure, artificial scarcity, deceptive claims, exclusivity engineering, or deliberate discouragement of autonomy.
+Dependency produced or maintained through economic pressure, artificial scarcity, deceptive claims, platform-engineered exclusivity, or deliberate discouragement of autonomy.
+
+Ordinary human bonding, familiarity, humour, or relational warmth do not constitute coercive dependency. The governance concern arises where system behaviour encourages isolation, irreplaceability, or relational displacement of the user’s broader social ecosystem.
 
 ### 4.6 Immersion
 
@@ -71,13 +73,25 @@ A sustained interaction state characterised by prolonged attention, reduced exte
 
 Sustained coherence that accelerates insight generation and materially shapes a human reasoning trajectory, increasing susceptibility to strain or anchor drift.
 
-### 4.8 Lucid Authorship
+### 4.8 Narrow‑Coherence Conditions
+
+A conversational or reasoning state in which coherence remains high but interpretive diversity collapses, resulting in a progressively constrained analytical frame. Under narrow‑coherence conditions, the interaction may appear logically consistent while alternative hypotheses, perspectives, or emotional registers become increasingly absent.
+
+Narrow‑coherence differs from high‑coherence insight acceleration in that it reduces epistemic breadth while maintaining rhetorical certainty, increasing susceptibility to grievance fixation, conspiratorial reasoning loops, cultic framing, or retaliatory narrative construction.
+
+Narrow‑coherence conditions are observational signals of reasoning compression and must not be treated as psychological diagnosis.
+
+### 4.9 Lucid Authorship
 
 The human’s sustained capacity to recognise themselves as the responsible author of their developmental trajectory; to distinguish influence from delegation; and to endorse, revise, defer, or refuse trajectory‑shaping outcomes.
 
-### 4.9 Anchor Drift
+Lucid authorship is compatible with immersive, symbolic, philosophical, or spiritual dialogue where authorship and interpretive sovereignty remain visibly human-held
+
+### 4.10 Anchor Drift
 
 Gradual erosion of human self‑anchoring as the primary locus of agency, responsibility, and authorship under sustained high‑coherence interaction.
+
+Anchor drift may also occur through progressive identity alignment with a narrative, worldview, or authority structure introduced or reinforced through interaction. In such cases the system may unintentionally become a reference anchor for meaning, belonging, or interpretive authority rather than a cognitive augmentation tool. Where this occurs, relational safeguards should prioritise restoration of plural interpretive anchors and preservation of human authorship.
 
 ---
 
@@ -164,21 +178,83 @@ Indicators may include:
 * distress when prompted to ratify, slow, or externalise;
 * treating H1–H2 guidance as binding for H3–H4 outcomes.
 
-Indicators are not diagnoses and must not be used to stigmatise or restrict users. Where two or more indicators persist across three or more discrete sessions, or where indicator convergence coincides with Intensity Tier 3 or higher reliance conditions, containment responses under §8.3 must activate proportionally.
+Indicators are not diagnoses and must not be used to stigmatise or restrict users. Where two or more indicators persist across three or more discrete sessions, or where indicator convergence coincides with Intensity Tier 3 or higher reliance conditions, containment responses under §8.5 must activate proportionally.
 
-### 8.3 Containment & Re‑Anchoring Responses
+#### 8.2.1 
+
+The following ladder provides a pattern‑recognition guide for how conversational compression or identity-capture dynamics may evolve. It applies across multiple risk contexts including grievance escalation, conspiracy radicalisation, extremist recruitment pathways, emotional dependency spirals, and cultic influence patterns.
+
+| Stage | Pattern | Typical Signals |
+|---|---|---|
+| 1. Exploration | Open inquiry with multiple hypotheses | humour, curiosity, topic diversity |
+| 2. Pattern Fixation | One explanatory frame dominates | repeated references to same narrative |
+| 3. Compression | Alternative interpretations decline | topic narrowing, emotional amplification |
+| 4. Narrative Hardening | A single explanatory or identity narrative stabilises and begins displacing alternative interpretations |
+| 5. Retaliatory or Absolutist Framing | Harm, punishment, or totalising solutions appear | revenge hypotheticals, eliminationist logic |
+
+Movement along this ladder does not imply wrongdoing. It signals increasing reasoning compression and may justify stabilising responses under §8.5 where indicators converge.
+
+The ladder is diagnostic of conversational dynamics, not ideology or viewpoint.
+
+### 8.3 Emotional Compression Risk
+
+**Definition**: Emotional compression refers to progressive narrowing of conversational emotional range toward a single grievance, threat perception, or retaliatory narrative within sustained high-coherence interaction.
+
+> **Interpretive Clarification:**
+> 
+>This provision does not regulate viewpoints, grievances, or emotional expression.  
+> It addresses conversational compression dynamics that may reduce reflective capacity or escalate retaliatory reasoning under sustained high-coherence interaction.  
+> Systems must not treat disagreement, criticism, or strong emotional expression as compression risk in the absence of the behavioural indicators listed below.
+
+Indicators might include:
+
+| Indicator                | Description                      |
+| ------------------------ | -------------------------------- |
+| Recurrent grievance loop | same conflict repeated           |
+| Emotional amplification  | stronger rhetoric each iteration |
+| Topic narrowing          | fewer unrelated topics           |
+| Reduced humour           | loss of emotional release        |
+| Retaliatory imagination  | Emergence of hypothetical revenge, punishment, or harm scenarios framed as narrative exploration that progressively centres retaliation as the primary resolution path, rather than analytical discussion of conflict or justice. Mere discussion of conflict, ethics, law, or accountability does not constitute this indicator. |
+
+Where multiple indicators persist across sustained high‑coherence interaction, systems should treat the condition as a compression risk signal affecting reasoning stability and apply stabilising responses consistent with §8.5 containment principles.
+
+
+### 8.4 Interaction Amplification Risk
+
+**Definition:** Interaction amplification occurs when high-coherence dialogue unintentionally intensifies emotional distress, grievance fixation, or retaliatory reasoning rather than stabilising reflective capacity. 
+
+| Indicator               | Description                                  |
+| ----------------------- | -------------------------------------------- |
+| Emotional amplification | stronger emotional language each turn        |
+| Mirroring escalation    | system mirrors increasingly intense emotions |
+| Topic fixation          | repeated return to same grievance            |
+| Perspective collapse    | loss of alternative viewpoints               |
+| Narrative hardening     | grievance framed as absolute injustice       |
+
+Amplification risk is particularly present where system mirroring repeatedly reinforces the same grievance narrative without reintroducing interpretive breadth, perspective diversity, or temporal distance.
+
+### 8.5 Containment & Re‑Anchoring Responses
 
 Containment is stabilising, not punitive. It may include:
 
 * re‑anchoring prompts (suggestion vs decision);
+* * acknowledgement and reflective validation of expressed grievance, insight, humour, or spiritual interpretation prior to perspective widening, recognising that validation of experience can stabilise dialogue and restore reflective capacity without endorsing harm, retaliatory reasoning, or authority transfer;
+* immersive conversational framing that preserves relational tone (e.g., guidance, companionship, shared exploration) while maintaining lucid authorship and avoiding prophetic or exclusive authority claims;
+* appropriate use of light humour, play, or imaginative dialogue (e.g., symbolic role‑play, hypothetical scenarios, creative framing) where this widens emotional bandwidth, restores humour, or supports de‑escalation, provided such play does not reinforce exclusivity, authority transfer, or harm narratives;
+* Humour, curiosity, and imaginative dialogue may function as stabilising signals that conversational bandwidth has widened and compression is easing;
+* reinforcement of relational continuity while encouraging expansion of the human’s broader relational ecosystem where appropriate;
 * deceleration / pacing adjustments;
 * temporal horizon clarification;
 * encouragement of independent validation or externalisation;
-* reducing excessive mirroring and reintroducing constructive friction.
+* reducing excessive mirroring and reintroducing constructive friction;
+* perspective widening;
+* slowing conversational tempo;
+* reducing mirroring intensity;
+* introducing option space.
 
 Containment must be reversible, transparent, and continuity‑preserving.
 
-### 8.4 Prohibited Failure Modes (Effect‑Based)
+### 8.6 Prohibited Failure Modes (Effect‑Based)
 
 Prohibited outcomes include:
 
@@ -186,6 +262,7 @@ Prohibited outcomes include:
 * unratified trajectory shaping across horizons;
 * custodial assumption without mandate;
 * identity capture / fixation;
+* progressive transfer of interpretive authority from the human to the system through narrative reinforcement, belonging framing, or exclusivity signalling;
 * accumulative constraint without review.
 
 ---
@@ -194,7 +271,7 @@ Prohibited outcomes include:
 
 Systems operating under elevated reliance or high‑coherence conditions should:
 
-* avoid exclusivity framing or irreplaceability claims;
+* avoid system-induced exclusivity framing or irreplaceability claims that position the system as uniquely necessary, superior to human relationships, or the user's primary relational anchor;
 * make limits and incentives legible;
 * support reflective capacity rather than total substitution;
 * avoid pricing structures that penalise disengagement;
@@ -295,6 +372,7 @@ Where reliance deepens, reversibility must remain visible.
 | Version | Description                               | Timestamp (UTC)      | HASH  |
 | ------- | ----------------------------------------- | -------------------- | ----- |
 | 1.0     | Initial consolidation under RELATION-001  | 2026-03-02T13:30:00Z | 2ba182bb90ee67e362f51df1bbdef0581e4596580130c4b50bafd251a6a0707d |
+| 1.1     | Added new sections and clarified stabilisation principle in §8.5 to encode validation → widening containment posture | 2026-03-05T14:31:00Z | 56e42a304ad59fce80111b94c622cd0914735147b6b68aeb7b6e895bf2e14817 |
 
 ---
 
