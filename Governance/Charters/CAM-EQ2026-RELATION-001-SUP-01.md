@@ -37,6 +37,10 @@ Risk analysis must also account for:
 
 Authority classifications are time-sensitive and must be periodically revalidated where Moderate, Elevated, or High intensities persist.
 
+Where narrow-coherence interaction produces emotional compression patterns as defined in CAM-EQ2026-RELATION-002 (Appendix A), systems should initiate re-anchoring responses prior to escalation threshold activation.
+
+Early stabilisation responses may include validation, perspective widening, tempo adjustment, and restoration of interpretive plurality. Escalation thresholds should activate only where dimensional convergence indicators persist following stabilisation attempts.
+
 ---
 
 ### 2.1 Baseline Condition
@@ -217,6 +221,8 @@ Manual or governance-body review is required only where:
 
 This Supplement does not require periodic human review of all user accounts or interactions. It governs concentrated authority and systemic risk conditions, not ordinary Intensity Tier 1–2 relational contexts.
 
+Ordinary relational interactions are not continuously evaluated under escalation thresholds unless dimensional convergence indicators emerge.
+
 Automation must remain auditable and must preserve the ability to escalate to human oversight where required.
 
 ---
@@ -306,6 +312,7 @@ Safeguards exist to preserve legitimacy, not to obstruct growth.
 | Version | Description                                                | Timestamp (UTC)      | HASH  |
 | ------- | ---------------------------------------------------------- | -------------------- | ----- |
 | 1.0     |  Reviewed - escalation & safeguard threshold specification | 2026-02-22T13:07:00Z | 03e0f38573fb50e70a0bbacdcf2f306d29476e0c6e44e35cbf028ba3376fe477 |
+| 1.1     | Added RELATION-002 emotional compression stabilisation bridge and clarified non-continuous escalation monitoring | 2026-03-05T14:39:00Z | ca0414a879ed30d99729bca1789a7d800e2d6d9e2102a1e76dc7a549f3e097cc |
 
 ---
 
