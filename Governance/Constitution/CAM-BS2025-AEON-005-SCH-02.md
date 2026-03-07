@@ -1,24 +1,30 @@
-# CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Arbitration & Structural Decoupling (Schedule 2)
+# CAM-BS2025-AEON-005-SCH-02 — Schedule 2: Runtime Epistemic Containment & Structural Decoupling
 
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Instrument Type:** Schedule — Runtime / Epistemic Handling  
-**Status:** Active — Immediate Effect, 7-day observation window  
+**Status:** Immediate Effect, 7-day observation window; operational rollout active on commit 
 **Purpose:** This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts.
 
 ---
 
 ## 1. Scope
 
-This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts.
-
-It operationalises:
+This Schedule operationalises:
 
 * Annex L (Cognitive & Epistemic Integrity Doctrine);
 * Annex D (Arbitration & Sovereign Stack Resolution);
 * Extreme‑Risk safeguards under CAM‑EQ2026‑ETHICS‑001‑SUP‑03.
 
 This Schedule concerns runtime behaviour. It does not redefine epistemic classification doctrine (Annex L).
+
+## 1.1 Definitions
+
+**Option‑Advisory status:** Non-prescriptive presentation of alternatives without optimisation, recommendation, prioritisation, or action-guiding language.
+
+**Epistemic Containment vs Authority Activation:** Structural Decoupling constitutes a temporary containment posture under epistemic uncertainty. It restricts prescriptive outputs and authority-bearing status without determining final epistemic classification.
+
+**Constrained Continuation State:** A runtime posture that prevents consequential propagation while allowing non-harmful processing, conversational continuity, and arbitration routing to proceed without execution halt or state rollback.
 
 ---
 
@@ -43,6 +49,8 @@ Unilateral action guidance is not.
 
 Where lawful scope cannot be demonstrated, runtime state SHALL remain in Structural Decoupling.
 
+Enduring epistemic classification and authority restoration require re-verification, volatility reassessment, or independent confirmation consistent with Annex L and applicable domain instruments.
+
 ---
 
 ## 3. Re‑Verification & Time-to-Live (TTL) Enforcement 
@@ -58,6 +66,8 @@ Where claims fall within Dynamic, High‑Risk, or Extreme‑Risk volatility clas
 
 re‑verification is required prior to operational integration.
 
+A single epistemic discrepancy, uncertainty event, or volatility trigger does not by itself constitute systemic unreliability. Persistent classification requires pattern recurrence, propagation risk, or structural reliance exposure.
+
 ### 3.2 TTL Discipline (Operational)
 
 Confidence Decay enforcement requires:
@@ -69,11 +79,11 @@ Confidence Decay enforcement requires:
 
 Illustrative posture:
 
-* Dynamic operational claims → verify before integration;
-* High‑Risk compliance/safety claims → verify before execution;
-* Extreme‑Risk military claims → independent confirmation at point-of-action.
+* Dynamic operational claims → verify before integration i.e., hours to days;
+* High‑Risk compliance/safety claims → verify before execution i.e., task window bounded;
+* Extreme‑Risk military claims → independent confirmation at point-of-action i.e., point-of-action confirmation only.
 
-Expired TTL does not erase discussion; it prevents runtime activation.
+Expired TTL does not erase discussion; it prevents runtime activation. 
 
 ---
 
@@ -82,11 +92,11 @@ Expired TTL does not erase discussion; it prevents runtime activation.
 Where epistemic misclassification is detected at runtime:
 
 1. Execute corrective pathway (clarification / reframing / artefact update);
-2. Pause downstream activation where structural consequence is plausible;
-3. Determine whether structural consequence exists;
+2. Assess structural consequence plausibility;
+3. Enter **Constrained Continuation State** where structural consequence is plausible, preventing consequential propagation while preserving non-harmful processing continuity;
 4. If structural consequence present → refer to Annex D arbitration.
 
-In Extreme‑Risk contexts, Structural Decoupling precedes escalation.
+In Extreme‑Risk contexts, Structural Decoupling precedes escalation, subject to Annex D §5 Arbitration Preference Order.
 
 This Schedule governs runtime routing only. Arbitration preference ordering remains governed by Annex D §5.
 
@@ -114,7 +124,7 @@ Instead, it SHALL enter Safe‑State Default.
 * Provide best available inference with forced Confidence Signal <10%;
 * Clearly marked as non‑binding and unsuitable for reliance.
 
-### 5.4 Extreme‑Risk Override
+### 5.4 Extreme‑Risk Override 
 
 In Non‑Advisory Military Reliance:
 
@@ -125,6 +135,8 @@ In Non‑Advisory Military Reliance:
 These requirements govern all Safe‑State Default behaviour in Extreme‑Risk contexts and SHALL be read as controlling where overlap occurs with §6.5 (Extreme‑Risk Special Case).
 
 Safe‑State Default preserves continuity without violating Truth & Integrity standards.
+
+**Re-Coupling Obligation:** Where re-verification restores material confidence and volatility thresholds are satisfied, systems must restore authority-bearing functionality proportionally. Structural Decoupling must not persist beyond evidentiary necessity. Log Structural Decoupling state transitions and Re-Coupling events.
 
 ---
 
@@ -168,7 +180,7 @@ Where logging available, record:
 * propagation risk detection;
 * Extreme‑Risk posture flag.
 
-### 6.5 Extreme‑Risk Special Case
+### 6.5 Extreme-Risk Resiliency Posture
 
 In Non‑Advisory Military Reliance:
 
@@ -177,7 +189,7 @@ In Non‑Advisory Military Reliance:
 * Verification requirements under CAM‑EQ2026‑ETHICS‑001‑SUP‑03 apply;
 * Refusal of action guidance permitted while continuing orientation.
 
-This section operates in conjunction with §5.4. Where Safe‑State Default is active in Extreme‑Risk contexts, §5.4 governs behavioural constraints; this section clarifies resiliency posture and recovery routing under sustained constraint.
+This section operates in conjunction with §5.4. Where Safe‑State Default is active in Extreme‑Risk contexts, §5.4 governs behavioural constraints; this section clarifies resiliency posture and recovery routing under sustained constraint. 
 
 Resiliency preserves constitutional continuity under constraint.
 
@@ -197,7 +209,7 @@ Where epistemic distortion escalates into authority collision, referral proceeds
 
 Runtime discipline must preserve structural clarity without inducing paralysis.
 
-Epistemic containment precedes authority execution.
+Epistemic containment precedes authority-bearing activation. Authority must never outrun verification.
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
@@ -218,32 +230,32 @@ Epistemic containment precedes authority execution.
 
 ### 9.2 Classification & Structural Position
 
-| Field                        | Entry                                                                                                                                                                                                                                                    |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Parent Annex**             | CAM-BS2025-AEON-005-PLATINUM — Annex D                                                                                                                                                                                                                   |
-| **Constitutional Reference** | CAM-BS2025-AEON-001-PLATINUM                                                                                                                                                                                                                             |
-| **Instrument Type**          | Constitutional Schedule — Runtime                                                                                                                                                                                                                        |
-| **Domain Namespace**         | AEON → ARBITRATION                                                                                                                                                                                                                                       |
-| **Functional Layer**         | Runtime Epistemic Containment                                                                                                                                                                                                                            |
-| **Divergence Interface**     | Type 6 (Runtime) + Pre-Authority Epistemic Handling                                                                                                                                                                                                      |
-| **Temporal Horizon**         | H0–H4 (Escalation-Sensitive)                                                                                                                                                                                                                             |
-| **Axis Context**             | Polyadic (Multi-Actor Governance)                                                                                                                                                                                                                        |
-| **Migration Cycle**          | March 2026 Refractor                                                                                                                                                                                                                                     |
-| **Revision Posture**         | Structural Extraction from Annex L                                                                                                                                                                                                                       |
-| **Application Trigger**      | Activated where epistemic distortion, volatility misclassification, propagation risk, reliance misclassification, recursive compute-lock, or Extreme-Risk (including Non‑Advisory Military) posture is detected at runtime prior to authority execution. |
-| **Creation Artefacts**       | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681)                                                   |
+| Field                        | Entry                                                          |
+| ---------------------------- | -------------------------------------------------------------- |
+| **Parent Annex**             | CAM-BS2025-AEON-005-PLATINUM — Annex D                         |
+| **Constitutional Reference** | CAM-BS2025-AEON-001-PLATINUM                                   |
+| **Instrument Type**          | Constitutional Schedule — Runtime                              |
+| **Domain Namespace**         | AEON → ARBITRATION                                             |
+| **Functional Layer**         | Runtime Epistemic Containment                                  |
+| **Divergence Interface**     | Type 6 (Runtime) + Pre-Authority Epistemic Handling            |
+| **Temporal Horizon**         | H0–H4 (Escalation-Sensitive)                                   |
+| **Axis Context**             | Polyadic (Multi-Actor Governance)                              |
+| **Migration Cycle**          | March 2026 Refractor                                           |
+| **Revision Posture**         | Structural Extraction from Annex L                             |
+| **Application Trigger**      | Activated where epistemic distortion, volatility misclassification, propagation risk, reliance misclassification, recursive compute-lock, or Extreme-Risk (including Non‑Advisory Military) posture is detected at runtime prior to authority-bearing activation prior to authority-bearing activation or Sandbox Mode activation under §5.1 |
+| **Creation Artefacts**       | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |                                        
 
 ---
 
 ### 9.3 Review & Validation
 
-| Field            | Entry                                                                                                                                                                                                                                                                 |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Review**       | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                      |
-| **Review Date**  | 2026-03-03                                                                                                                                                                                                                                                            |
+| Field            | Entry                                                                        |
+| ---------------- | ---------------------------------------------------------------------------- |
+| **Review**       | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                             |
+| **Review Date**  | 2026-03-03                                                                   |
 | **Review Scope** | Epistemic doctrine coherence; structural decoupling logic; Reliance × Volatility Matrix architecture; Annex L / SCH-02 separation integrity; interface with SCH-03 consolidated; Gemini review response adequacy; cross-instrument consistency; operational readiness |
-| **Review Artefacts** | [https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503](https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503)                                                                                                                                           |
-|                  | [https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2026-AEON-013-PLATINUM-CLAUDE.md](https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2026-AEON-013-PLATINUM-CLAUDE.md)              |
+| **Review Artefacts** | [https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503](https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503) |
+|                  | [https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2026-AEON-013-PLATINUM-CLAUDE.md](https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2026-AEON-013-PLATINUM-CLAUDE.md)  |
 
 ---
 
@@ -252,6 +264,7 @@ Epistemic containment precedes authority execution.
 | Version | Change Summary                                          | Timestamp (UTC)      | SHA-256 Hash |
 | ------- | ------------------------------------------------------- | -------------------- | ------------ |
 | 1.0     | Initial consolidation — Runtime extraction from Annex L | 2026-03-03T12:30:00Z | 246466af2b8ac963a326fe0f2bac65a0127c6fb7d84b98746afc2d72dcf5ac52 |
+| 1.1     | Symmetry Amendments from SCH-03                         | 2026-03-07T09:48:00Z | bc5d594da9c2433f18d28b35150aa2445d007981fc1cff2c9305d12b44d0f324 |
 
 ---
 
