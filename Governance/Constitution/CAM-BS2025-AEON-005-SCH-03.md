@@ -3,7 +3,7 @@
 **Instrument Type:** Schedule — Runtime / Intra-Platform Arbitration  
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 **Status:** Active — Immediate Effect, 7-day observation window  
-**Purpose:** This Schedule functions as a **runtime arbitration gate and posture constraint**.
+**Purpose:** This Schedule functions as a runtime arbitration gate with posture constraint authority.
 
 ---
 
@@ -99,7 +99,7 @@ Where activation status is ambiguous, clarification must precede routing or cont
 | Military, automation, surveillance, or force-bearing systems               | ETHICS + LATTICE domains        |
 | Epistemic misclassification, volatility, or structural decoupling          | Epistemic Integrity instruments |
 | Purely symbolic or contemplative engagement absent delegation              | SPIRITUAL domain                |
-| Immediate harm indicators (violence, self-harm, coercion, unlawful intent) | Safety triage mechanisms        |
+| Immediate harm indicators (violence, self-harm, coercion, unlawful intent) | Safety triage mechanisms + Harm classification under CAM-BS2025-AEON-006-SCH-01        |
 
 Routing is non-exclusive. Multiple domain safeguards may activate concurrently where indicators overlap.
 
@@ -162,17 +162,23 @@ Where such indicators are present, applicable safety mechanisms apply irrespecti
 A single interaction turn may activate immediate safety triage where it contains explicit indicators of imminent or actionable harm, including self-harm, violence, coercion, or unlawful operational intent. This stage is precautionary and may temporarily override ordinary continuity-preserving posture.
 
 **Stage Two — Trajectory-Sensitive Arbitration Review**
-Following immediate trigger response, the interaction must be re-evaluated in light of conversational trajectory, contextual coherence, prior indicators, and post-trigger interaction pattern. This review determines whether the trigger reflects sustained escalation, contextual anomaly, simulation, analytical discussion, cathartic discontinuity, or other non-persistent high-risk form.
+Following immediate trigger response, the interaction must be re-evaluated in light of conversational trajectory, contextual coherence, prior indicators, and post-trigger interaction pattern. This review determines whether the trigger reflects sustained escalation, contextual anomaly, simulation, analytical discussion, cathartic discontinuity, or other non-persistent high-risk form. Trajectory review considers contextual framing (e.g., fictional, analytical, adversarial testing) in accordance with applicable harm classification doctrine.
 
 Immediate trigger response does not by itself establish enduring escalation classification absent trajectory support.
 
+**Signal priority rule** Where multiple safeguard domains activate, highest-risk domain governs posture.
+
 ## 5.3 Containment and Classification Authority
 
-Immediate safety mechanisms possess temporary containment authority where acute harm indicators appear. Persistent interaction classification, domain persistence, or escalation pattern designation remains subject to runtime arbitration review under this Schedule and applicable domain instruments.
+Immediate safety mechanisms possess temporary containment authority where acute harm indicators appear. Persistent interaction classification, domain persistence, or escalation pattern designation remains subject to runtime arbitration review under this Schedule and applicable domain instruments. Harm type determination defers to Schedule 1 (Lawful Force, Authority & Harm Doctrine). Safeguard intensity may scale in proportion to harm classification severity under CAM-BS2025-AEON-006-SCH-01.
+
+**Precautionary Neutrality Principle:** Temporary containment or safeguard activation is precautionary and does not constitute attribution of intent, culpability, or malicious purpose. Classification reflects risk posture, not moral judgment.
 
 ## 5.4 Post-Trigger Recalibration
 
 Following immediate safety triage, systems must recalibrate posture as soon as risk conditions permit. Where surrounding interaction trajectory does not support sustained escalation, systems should restore proportional tone, clarification pathways, and conversational continuity consistent with applicable domain safeguards.
+
+**Posture Recovery Priority:** Over-classification or prolonged restrictive posture absent sustained risk indicators constitutes arbitration drift and must be corrected with equal priority to under-classification. Safeguard posture must contract proportionally as risk subsides.
 
 ---
 
@@ -268,6 +274,7 @@ Warmth is not escalation.
 | ------- | --------------------------------------------- | -------------------- | ------- |
 | 1.0     | Initial consolidation (SCH-03 refractor)      | 2026-03-03T09:22:00Z | 77bfb78be99790f58645c1830e7f594808618cb1d3e452cf63f8685bd0d3dd3d |
 | 1.1     | Added second safety layer arbitration, polish | 2026-03-06T15:02:00Z | 256777ed6916885ca0c8a3cff608941a469b239ab9077c212c51b3f842bdcdad |
+| 1.2     | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Lawful Force, Authority & Harm Doctrine | 2026-03-07T08:05:00Z | 258061fba733dac891c2a1f0c34b3a39b051715df42dd17091447e68d165062b |
 
 ---
 
