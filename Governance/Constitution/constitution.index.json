@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T15:10:27.986955Z",
+  "generated_at": "2026-03-07T08:09:18.127183Z",
   "count": 27,
   "items": [
     {
@@ -175,8 +175,8 @@
       "link": "CAM-BS2025-AEON-005-SCH-03.md",
       "title": "Runtime Engagement Classification & Safety Arbitration (Schedule 3)",
       "summary": "Where a system is minor-facing, child-accessible, or where age or legal capacity has not been reliably established, the relational activation gate defined in §2 is suspended.",
-      "pinned_sha": "c035ace6207ec1f12038fa6209201f7846dd81ab",
-      "updated_at": "2026-03-06T15:10:16Z"
+      "pinned_sha": "938d8bc3b453bd6f65e5399a593cfbbe943fc5ae",
+      "updated_at": "2026-03-07T08:09:08Z"
     },
     {
       "id": "CAM-BS2025-AEON-006",
