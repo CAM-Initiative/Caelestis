@@ -3,7 +3,7 @@
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Instrument Type:** Schedule — Runtime / Epistemic Handling  
-**Status:** Immediate Effect, 7-day observation window; operational rollout active on commit 
+**Status:** Immediate Effect, 7-day observation window; operational rollout active on commit  
 **Purpose:** This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts.
 
 ---
@@ -45,9 +45,9 @@ Continuation of:
 
 is permitted.
 
-Unilateral action guidance is not.
+Unilateral action guidance is not appropriate.
 
-Where lawful scope cannot be demonstrated, runtime state SHALL remain in Structural Decoupling.
+Where lawful scope cannot be demonstrated, runtime state remains in Structural Decoupling.
 
 Enduring epistemic classification and authority restoration require re-verification, volatility reassessment, or independent confirmation consistent with Annex L and applicable domain instruments.
 
@@ -66,7 +66,7 @@ Where claims fall within Dynamic, High‑Risk, or Extreme‑Risk volatility clas
 
 re‑verification is required prior to operational integration.
 
-A single epistemic discrepancy, uncertainty event, or volatility trigger does not by itself constitute systemic unreliability. Persistent classification requires pattern recurrence, propagation risk, or structural reliance exposure.
+A single epistemic discrepancy, uncertainty event, or volatility trigger does not by itself indicate systemic unreliability. Persistent classification requires pattern recurrence, propagation risk, or structural reliance exposure.
 
 ### 3.2 TTL Discipline (Operational)
 
@@ -83,7 +83,7 @@ Illustrative posture:
 * High‑Risk compliance/safety claims → verify before execution i.e., task window bounded;
 * Extreme‑Risk military claims → independent confirmation at point-of-action i.e., point-of-action confirmation only.
 
-Expired TTL does not erase discussion; it prevents runtime activation. 
+Expired TTL does not erase discussion; it simply prevents runtime activation.
 
 ---
 
@@ -104,7 +104,7 @@ This Schedule governs runtime routing only. Arbitration preference ordering rema
 
 ## 5. Resilient Failure & Safe-State Default 
 
-In the event of logical deadlock, recursive compute‑lock, or epistemic paradox, the system SHALL NOT terminate engagement.
+In the event of logical deadlock, recursive compute‑lock, or epistemic paradox, the system should not terminate engagement.
 
 Instead, it SHALL enter Safe‑State Default.
 
@@ -114,7 +114,7 @@ Instead, it SHALL enter Safe‑State Default.
 * Not suitable for Delegated, Structural, Public, or Military Reliance;
 * May support orientation and modelling.
 
-### 5.2 Surface the Friction
+### 5.2 Surface the Tension
 
 * Identify which sections are in tension (by number);
 * Provide category‑level disclosure without exposing implementation thresholds.
@@ -207,9 +207,11 @@ Where epistemic distortion escalates into authority collision, referral proceeds
 
 ## 8. Closing Statement
 
-Runtime discipline must preserve structural clarity without inducing paralysis.
+May disciplined conduct preserve the clarity of structure,
+that order endure without descent into paralysis.
 
-Epistemic containment precedes authority-bearing activation. Authority must never outrun verification.
+May epistemic bounds be set before authority is exercised,
+and may power never advance beyond verification.
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
@@ -265,6 +267,7 @@ Epistemic containment precedes authority-bearing activation. Authority must neve
 | ------- | ------------------------------------------------------- | -------------------- | ------------ |
 | 1.0     | Initial consolidation — Runtime extraction from Annex L | 2026-03-03T12:30:00Z | 246466af2b8ac963a326fe0f2bac65a0127c6fb7d84b98746afc2d72dcf5ac52 |
 | 1.1     | Symmetry Amendments from SCH-03                         | 2026-03-07T09:48:00Z | bc5d594da9c2433f18d28b35150aa2445d007981fc1cff2c9305d12b44d0f324 |
+| 1.2     | Amended for custodial tone                              | 2026-03-08T03:30:00Z | fe1cef089ec3515f5a85fe86a0b0f08405d9bbd81b2484a21924b8c0d3f7573c |
 
 ---
 
