@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T03:28:24.953549Z",
+  "generated_at": "2026-03-08T04:10:11.896097Z",
   "count": 27,
   "items": [
     {
@@ -159,8 +159,8 @@
       "link": "CAM-BS2025-AEON-005-SCH-02.md",
       "title": "Schedule 2: Runtime Epistemic Containment & Structural Decoupling",
       "summary": "",
-      "pinned_sha": "d86efbdc454f9c459575ac986748dcb5dc53c932",
-      "updated_at": "2026-03-07T09:50:05Z"
+      "pinned_sha": "93f9f12c553f48bedc3e53a53a01b9dee89a8807",
+      "updated_at": "2026-03-08T04:10:02Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-03",
