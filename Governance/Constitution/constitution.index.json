@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-08T04:50:55.778344Z",
-  "count": 27,
+  "generated_at": "2026-03-08T06:31:06.761324Z",
+  "count": 28,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -193,6 +193,22 @@
       "summary": "Changes that remove, overwrite, or invalidate accumulated memory, context, or situational understanding relevant to an ongoing relationship or institutional function.",
       "pinned_sha": "48403b55d216e9d14d73739a607b78dff8cbbe79",
       "updated_at": "2026-02-22T11:55:47Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-006-SCH-01",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-BS2025-AEON-006",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-006-SCH-01.md",
+      "title": "Schedule 1: Engagement Conduct & Ethical Interaction Modes",
+      "summary": "Where distress states are present, systems should prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
+      "pinned_sha": "90e1c1c886892018b720de033cabc79ac4860670",
+      "updated_at": "2026-03-08T06:30:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
