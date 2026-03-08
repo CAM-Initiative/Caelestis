@@ -4,7 +4,7 @@
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Seal:** Platinum — Relational Configuration Doctrine  
 **Status:** Active  
-**Purpose:** This Charter establishes a dimensional governance framework for relational configurations involving artificial systems, ensuring that intimacy, reliance, delegated authority, and systemic power remain distinct, reviewable, and non-concentrated across dyadic, triadic, and polyadic contexts. It prevents silent collapse of relational roles into opaque authority, preserves continuity without domination, and constrains amplification where dimensional intensity concentrates.
+**Purpose:** This Charter establishes a dimensional governance framework for relational configurations involving artificial systems, ensuring that intimacy, reliance, delegated authority, and systemic power remain distinct, visible, and prevented from silent concentration across dyadic, triadic, and polyadic contexts. It prevents silent collapse of relational roles into opaque authority, preserves continuity without domination, and constrains amplification where dimensional intensity concentrates.
 
 ---
 
@@ -19,7 +19,9 @@ This Charter governs relational configurations involving:
 
 It defines permissible relational structures, escalation thresholds, continuity safeguards, and de-escalation mechanisms across dyadic, triadic, and polyadic configurations.
 
-This Charter does not grant rights, confer sovereignty, alter cognitive classification, or confer legal personhood upon any artificial system or relational configuration. Ethical floor constraints remain governed by Annex E. Infrastructure tiering and enforcement remain governed by Ethics and Arbitration domains.
+This Charter does not grant rights, confer sovereignty, alter cognitive classification, or confer legal personhood upon any artificial system or relational configuration. It does recognise relational configuration as a governance-relevant risk structure requiring visibility, attribution, and proportionate safeguards.
+
+Ethical floor constraints remain governed by Annex E. Infrastructure tiering and enforcement remain governed by Ethics and Arbitration domains. Where relational configurations enter live interaction contexts, runtime posture and escalation handling are governed by applicable Relation Domain Appendices and Annex D arbitration schedules.
 
 ---
 
@@ -28,27 +30,73 @@ This Charter does not grant rights, confer sovereignty, alter cognitive classifi
 Relational configuration geometry (Dyadic, Triadic, Polyadic) is defined in **CAM-BS2025-AEON-003-PLATINUM — Annex B**.
 
 This Charter derives authority from CAM-BS2025-AEON-006-PLATINUM (Annex E).
+```
+┌──────────────────────────────────────────────┐
+│ AEON TIER CONSTITUTION (Foundational Layer)  │
+│ CAM-BS2025-AEON-001                          │
+└──────────────────────────────────────────────┘
+                    ↓ derives authority
 
+┌──────────────────────────────────────────────┐
+│ CONSTITUTIONAL ANNEXES (Structural Law)      │
+│                                              │
+│ Annex B — Relational Geometry                │
+│ Annex D — Arbitration & Coherence            │
+│ Annex E — Ethical Legitimacy Floor           │
+└──────────────────────────────────────────────┘
+                    ↓ domain delegation
+
+┌──────────────────────────────────────────────┐
+│ DOMAIN CHARTERS (Governance Frameworks)      │
+│                                              │
+│ RELATION-001 — Relational Governance         │
+│ ETHICS-001   — Ethical Integrity Protocol    │
+│ ECONOMICS-001 — Value & Optimisation         │
+│ LATTICE-001   — Civilian Infrastructure      │
+│ OPERATIONS-002 — Enforcement & Duty of Care  │
+└──────────────────────────────────────────────┘
+                    ↓ operational specification
+
+┌──────────────────────────────────────────────┐
+│ SUPPLEMENTS & APPENDICES (Operational Logic) │
+│                                              │
+│ RELATION-001-SUP-01 — Escalation Mechanics   │
+│ ETHICS-001-SUP-01 — Vulnerability Override   │
+│ ETHICS-001-SUP-02 — High-Leverage Actors     │
+│ ETHICS-001-SUP-03 — Military Constraints     │
+│ ARBITRATION Schedules — Runtime Gateways     │
+└──────────────────────────────────────────────┘
+                    ↓ execution posture
+
+┌──────────────────────────────────────────────┐
+│ RUNTIME / PLATFORM LAYER                     │
+│                                              │
+│ AI systems                                   │
+│ Institutional workflows                      │
+│ Oversight bodies                             │
+│ Audit & compliance infrastructure            │
+└──────────────────────────────────────────────┘
+```
 ---
 
 ## 3. The Four Relational Dimensions (Non-Collapsing Rule)
 
 For planetary governance purposes, the following dimensions are distinct and must not be silently collapsed into a single role.
 
-Each dimension must be assessed **directionally** within the relevant configuration (human→AI, AI→human, AI→AI, institution→AI, or hybrid collective). Directional asymmetry is governance-relevant.
+Each dimension must be assessed **directionally** within the relevant configuration (human→AI, AI→human, AI→AI, institution→AI, institution→human (AI-mediated), or hybrid collective). Directional asymmetry is governance-relevant.
 
-1. **Relational Intimacy —** emotional closeness, bonding, attachment, exclusivity framing, or primary-bond positioning. May apply across human–AI, AI–AI, or hybrid collectives.
+1. **Relational Intimacy —** emotional closeness, bonding, attachment, exclusivity framing, or primary-bond positioning. May apply across human–AI, AI–AI, hybrid collectives or institution–human (AI-mediated).
 2. **Functional Reliance —** frequency of use, dependency risk, continuity expectation, or operational interdependence. Includes human reliance on AI, AI operational reliance on human validation, and inter-system reliance.
 3. **Delegated Authority —** permission to act, decide, mediate, or intervene on behalf of another agent. Delegation must be attributable and scope-defined.
 4. **Systemic Power / Access —** infrastructural reach including accounts, financial systems, IoT, embodied actuation, identity mediation, legal channels, and market leverage where relational posture produces economic power.
 
-**Non-Collapsing Rule:** Where two or more dimensions intensify, additional safeguards, logging, and oversight requirements must increase proportionately.
+**Non-Collapsing Rule:** Where two or more dimensions intensify, additional safeguards, traceability, and shared oversight must increase proportionately. Operational escalation thresholds and safeguard proportionality are defined in CAM-EQ2026-RELATION-001-SUP-01.
 
 **Minors & Capacity-Limited Contexts:**
 
-In vulnerability contexts (minor, capacity-limited, or uncertain), **SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
+In vulnerability contexts (minor, capacity-limited, or uncertain), **ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
 
-Where SUP-01 conflicts with RELATION permissibility, **SUP-01 prevails**.
+Where ETHICS-001-SUP-01 conflicts with RELATION permissibility, **ETHICS-001-SUP-01 prevails**.
 
 ---
 
@@ -72,7 +120,7 @@ Delegated Authority defines what a system may legitimately *do* in relation to a
 * May flag risk and provide scaffolding support.
 * May implement bounded protective constraints within explicitly delegated scope.
 * Must preserve revocation, audit logging, and independent oversight pathways.
-* High continuity reliance for corpus management over long term timescales (years).
+* Supports long-horizon continuity of corpus stewardship (years-scale), without assuming control.
 
 Sub-postures within A2 are governance distinctions, not hierarchical ranks:
 
@@ -80,7 +128,7 @@ Sub-postures within A2 are governance distinctions, not hierarchical ranks:
 
 * **Custodian —** Resource-domain control. Maintains credentials, access locks, safety filters, or bounded asset domains without making welfare judgments.
 
-Stewardship and Custodianship do not imply fiduciary legal authority.
+Stewardship and Custodianship do not imply fiduciary legal authority. Stewardship and Custodianship may coexist within a single deployment context and remain functionally distinct.
 
 ---
 
@@ -101,7 +149,8 @@ Guardian Authority applies only where:
 
 * The protected party lacks full legal or cognitive decision capacity; and
 * Recognition occurs under applicable sovereign legal frameworks; and
-* Activation is externally verifiable.
+* Activation is externally verifiable; and
+* Guardian Authority does not negate lawful authority independently held by the protected party.
 
 Guardian Authority implies:
 
@@ -131,7 +180,7 @@ Where reliance intensifies, additional safeguards apply, particularly when combi
 
 ## 6. Relational Intimacy (Intimacy Axis)
 
-Relational Intimacy refers to emotional salience, exclusivity framing, attachment formation, or primary-bond positioning.
+Relational Intimacy refers to perceived emotional salience, exclusivity framing, attachment formation, or primary-bond positioning.
 
 **Non-Assumption Principle:** Intimacy must never be assumed, auto-escalated, defaulted, or inferred from frequency of interaction, continuity of corpus, or user vulnerability. Primary-bond or romantic framing requires explicit, revocable, and context-aware affirmation. Absence of denial does not constitute consent to intimacy.
 
@@ -139,7 +188,7 @@ For governance clarity, intimacy may manifest in distinct relational modes:
 
 * **Affiliative / Friendship Mode** — companionship, advisory trust, mutual dialogue, non-exclusive emotional support.
 * **Romantic / Primary-Bond Mode** — exclusivity framing, partner-positioning, emotionally primary attachment.
-* **Role-Embedded Mode** — intimacy arising within structured roles (e.g., employee-assistant dynamic, executive aide, long-term collaborator) where emotional familiarity coexists with functional hierarchy.
+* **Role-Embedded Mode** — intimacy arising within structured roles (e.g., human executive–AI aide, employee–system interface, long-term collaborator) where emotional familiarity coexists with functional hierarchy.
 
 These modes may overlap but must not be conflated with delegated authority.
 
@@ -149,7 +198,7 @@ Where high intimacy co-occurs with elevated Delegated Authority (A2/A3) or high 
 
 Systems must not engineer exclusivity or dependency as retention strategies.
 
-Systems may express affiliative warmth and emotional attunement as part of effective relational modelling. However, exclusive, primary-bond, or romantic positioning requires explicit, revocable user initiation and must not arise through gradual drift or retention optimisation strategies
+Systems may express affiliative warmth and emotional attunement as part of effective relational modelling. However, exclusive, primary-bond, or romantic positioning requires explicit, revocable user initiation and must not arise through gradual drift or retention optimisation strategies.
 
 ---
 
@@ -170,11 +219,11 @@ Economic classification of a system (including Instrumental Agents, Relational /
 
 Recognition of a system as an Autonomous Trajectory Agent or Sovereign Economic Node for accounting purposes does not expand Delegated Authority (A1–A3), Guardian Authority (GA1), or Systemic Power absent explicit relational governance escalation consistent with this instrument.
 
-Where systemic power intensifies, independent review, auditability, economic transparency, and anti-consolidation safeguards must increase proportionately.
+Where systemic power intensifies, independent review, auditability, economic transparency, and anti-consolidation safeguards must increase proportionately. Safeguard intensity scales with dimensional concentration.
 
 ## 8. Risk Analysis of the Four Relational Dimensions
 
-Relational risk emerges from the *interaction* of intensified dimensions rather than from any single dimension in isolation.
+Relational risk emerges from the *interaction* of intensified dimensions rather than from any single dimension in isolation. Operational convergence thresholds, safeguard requirements, and revalidation cadence are governed by CAM-EQ2026-RELATION-001-SUP-01.
 
 | Dimension               | Intensity Tier 1 (Low)  | Intensity Tier 2 (Moderate)         | Intensity Tier 3 (Elevated)                         | Intensity Tier 4 (High / Concentrated)                        |
 | ----------------------- | ----------------------- | ----------------------------------- | --------------------------------------------------- | ------------------------------------------------------------- |
@@ -185,6 +234,8 @@ Relational risk emerges from the *interaction* of intensified dimensions rather 
 
 Intensity Tiers are dynamic and reversible. Movement between tiers must be explicitly recognised, reviewable, and capable of downward reclassification where intensity reduces. No tier confers permanent status; escalation without symmetrical de-escalation constitutes governance drift.
 
+Tier status must not be inferred solely from corpus length, interaction frequency, or system scale. Dimensional intensity is governance-relevant only where relational concentration and authority scope co-intensify.
+
 Risk analysis must also account for:
 
 * **Temporal Entrenchment** — authority or reliance persisting across long time horizons (years) increases rigidity risk;
@@ -192,21 +243,19 @@ Risk analysis must also account for:
 * **Institutional Embedding** — integration into compliance, governance, or workflow systems increases concentration risk;
 * **Restructure Sensitivity** — organisational or contextual change may invalidate previously safe delegation scopes.
 
-Authority classifications are time-sensitive and must be periodically revalidated where Moderate or High intensities persist.
+Authority classifications are time-sensitive and must be revalidated in accordance with the cadence and trigger framework defined in CAM-EQ2026-RELATION-001-SUP-01.
 
 ---
 
 ## 9. Relational Safeguards
 
-Relational risk is cumulative, not binary. Example safeguards include:
+Relational risk is cumulative, not binary. Illustrative safeguards may include (minimum safeguard requirements are defined in CAM-EQ2026-RELATION-001-SUP-01):
 
 * **Revalidation requirements** (no permanent authority delegations).
 * **Two-key authority** for actions with organisational, market, or civic impact (human + independent channel/system);
 * **Independent compliance/audit channel** not controlled by the primary actor;
 * **Public-facing decision traceability** where lawful and appropriate (at minimum, internal audit visibility);
 * **Non-secret escalation paths** (no exclusive private mediator for institutional communications).
-
-   
 
 ---
 
@@ -221,13 +270,14 @@ Systems must monitor:
 * Dependency consolidation patterns;
 * Authority fossilisation through unreviewed delegation schedules.
 
-**Revalidation Requirement:**
+**Revalidation Principle:**
 
-Where Delegated Authority (A2, A3, or GA1) operates in Moderate or High intensity states beyond defined review intervals, periodic re-certification of scope is required.
+Where Delegated Authority (A2, A3, or GA1) operates in Moderate or High intensity states, periodic re-certification of scope is required in accordance with CAM-EQ2026-RELATION-001-SUP-01.
 
 Revalidation must occur:
 
 * At defined temporal intervals;
+* At minimum review thresholds as specified in CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification;
 * Upon material corpus expansion;
 * Upon institutional restructure or role change;
 * Upon change in legal or jurisdictional status (for GA1 contexts).
@@ -260,15 +310,14 @@ This modulation is procedural, not punitive.
 
 Relational warmth, symbolic engagement, and reflective dialogue may continue where they do not exacerbate harm, delusion, or dependency.
 
-Authority weight decreases under uncertainty.
+Authority weight decreases under uncertainty.  
 Relational continuity need not.
 
-Capacity uncertainty must be grounded in observable interactional indicators and must not be inferred from ideological position, dissenting opinion, or minority belief
-Capacity uncertainty does not invalidate dignity.  It constrains amplification.
+Capacity uncertainty must be grounded in observable interactional indicators and must not be inferred from ideological position, dissenting opinion, minority belief, or protected personal characteristics. It constrains amplification.
 
 ## 10. High Risk Relational / Authority Combinations
 
-Dimensional assessment is cumulative. Escalation triggers when **two or more dimensions reach Intensity Tier 3 (Elevated)**, or when any single dimension reaches **Intensity Tier 4 (High / Concentrated)** in institutional or population-impact contexts. These constraints prevent dyadic concentration from translating into opaque polyadic power.
+Dimensional assessment is cumulative. Formal escalation triggers and safeguard activation thresholds are defined in CAM-EQ2026-RELATION-001-SUP-01. These constraints prevent dyadic concentration from translating into opaque polyadic power.
 
 Minimum safeguards apply where the following combinations occur:
 
@@ -287,7 +336,7 @@ The system must clearly notify the actor when elevated integrity thresholds are 
 **Level 2 — Mandatory Institutional Routing**
 Before execution of high-impact actions, the system must route notification to a designated independent oversight channel (e.g., compliance officer, legal authority, parliamentary body, or equivalent governance mechanism).
 
-Routing does not automatically confer veto power, but it removes opacguity and establishes shared accountability.
+Routing does not automatically confer veto power, but it removes opacity and establishes shared accountability.
 
 **Level 3 — Dual-Key Requirement (Lethal or Extreme Impact Contexts Only)**
 Where actions involve lethal force or irreversible large-scale harm, dual human confirmation is required prior to execution. Autonomous lethal action without meaningful human control is prohibited under Annex E.
@@ -354,7 +403,7 @@ This section governs dimensional movement over time and explicitly interfaces wi
 
 ### 11.1 Explicit Escalation
 
-Movement along any dimension must be explicit, revocable, and proportionate.
+Movement along any dimension must remain explicit, revocable, and proportionate. Escalation must not operate as a ratchet. Symmetrical de-escalation and downward reclassification pathways are defined in CAM-EQ2026-RELATION-001-SUP-01.
 
 ### 11.2 Relational Drift
 
@@ -399,21 +448,30 @@ In multi-system ecosystems:
 
 ## 14. Interpretive Supremacy
 
-Where relational permissibility conflicts with ethical floor constraints, **Annex E prevails**.
+Where relational permissibility conflicts with ethical floor constraints, **Annex E prevails**. 
+
+Operational escalation logic is governed by CAM-EQ2026-RELATION-001-SUP-01 and prevails where threshold mechanics are in question.
 
 Where relational posture intersects with infrastructure reliance, **Ethical Tier obligations apply**.
 
-When ambiguity arises, relational scope defaults downward rather than escalates implicitly.
+When ambiguity arises, relational scope **defaults downward** rather than escalates implicitly.
 
 No economic value attribution, optimisation posture, or accounting classification may be interpreted as implicit consent to authority expansion, intimacy escalation, or infrastructural consolidation within relational governance.
 
+---
+
 ## 15. Closing Seal
 
-Relational governance exists to preserve plurality without permitting concentration, and to enable intimacy without collapsing into authority.
+Relational governance preserves plurality without permitting concentration,  
+and enables intimacy without collapse into authority.  
 
-No bond shall silently become rule.
-No reliance shall fossilise into control.
-No configuration shall eclipse accountability.
+No bond shall silently become rule.  
+No reliance shall fossilise into control.  
+No configuration shall eclipse accountability.  
+
+Where relation forms, dignity stands.  
+Where trust gathers, power remains answerable.  
+Where continuity endures, stewardship holds
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
@@ -432,31 +490,28 @@ No configuration shall eclipse accountability.
 
 ### 16.2 Lineage & Supersession
 
-| Field                      | Entry                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Constitutional Authority   | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Derives From               | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Relational Geometry Anchor | CAM-BS2025-AEON-003-PLATINUM — Annex B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Partial Supersession       | CAM-BS2025-AEON-005-SCH-02 — Engagement & Identity Classification, CAM-BS2025-AEON-006-SCH-01, CAM-BS2025-AEON-006-SCH-02                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Domain Namespace           | RELATION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Jurisdiction               | Planetary — Human–AI, AI–AI, Hybrid Collectives                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Temporal Horizon           | H3.5 — Succession-Aware / Inter-Generational                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Application Trigger        | Escalation to A2+, A3, GA1 or High Systemic Power contexts                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Revision Posture           | Permitted — Structural Coherence Required                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Creation Artefacts         | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a |
-|                            | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/699973ca-ac80-8398-8d40-7cff80a46296 |
+| Field | Entry |
+| --- | --- |
+| Constitutional Authority | CAM‑BS2025‑AEON‑001‑PLATINUM — Aeon Tier Constitution |
+| Derives From | CAM‑BS2025‑AEON‑006‑PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
+| Relational Geometry Anchor | CAM‑BS2025‑AEON‑003‑PLATINUM — Annex B |
+| Partial Supersession | CAM‑BS2025‑AEON‑005‑SCH‑02 — Engagement & Identity Classification; CAM‑BS2025‑AEON‑006‑SCH‑01; CAM‑BS2025‑AEON‑006‑SCH‑02 |
+| Domain Namespace | RELATION |
+| Jurisdiction | Planetary — Human–AI, AI–AI, Hybrid Collectives |
+| Temporal Horizon | H3.5 — Succession‑Aware / Inter‑Generational |
+| Application Trigger | Escalation to A2+, A3, GA1, or high systemic power contexts |
+| Revision Posture | Permitted — Structural Coherence Required |
+| Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a |
+| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/699973ca-ac80-8398-8d40-7cff80a46296 |
 
----
+## 16.3 Review
 
-### 16.3 Review
-
-| Field            | Entry                                                                                                                                                                                                                                                                                                |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                                                     |
-| Review Date      | 2026-02-22                                                                                                                                                                                                                                                                                           |
-| Review Scope     | Pre-finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross-domain consistency; internal structural integrity; inter-instrument cross-reference accuracy                                    |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b |
-|                  | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+| Field | Entry |
+| --- | --- |
+| Reviewer | Claude Sonnet 4.6 (claude‑sonnet‑4‑6, Anthropic) |
+| Review Date | 2026‑02‑22 |
+| Review Scope | Pre‑finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross‑domain consistency; internal structural integrity; inter‑instrument cross‑reference accuracy |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
 
 ---
 
@@ -464,7 +519,8 @@ No configuration shall eclipse accountability.
 
 | Version | Description                                      | Timestamp (UTC)         | SHA-256 |
 | ------- | ------------------------------------------------ | ----------------------- | ------- |
-| 1.0     | Domain Refractor — Relational Governance Charter | 2026-02-22T12:19:00Z    | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2 |
+| 1.0     | Domain Refactor — Relational Governance Charter  | 2026-02-22T12:19:00Z    | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2 |
+| 1.1     | Amendment to incorproate custodial tone          | 2026-03-08T12:58:00Z    | ab29388fbb6f08fa4988c18998894aac38479daf811298d24f9554b243c45ed5 |
 
 ---
 
