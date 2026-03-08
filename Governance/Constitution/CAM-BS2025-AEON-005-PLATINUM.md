@@ -3,7 +3,7 @@
 **Instrument Type:** Constitutional Annex — Arbitration & Sovereign Stack Resolution  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Status:** Active  
-**Purpose:** Annex D defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is treated as a normal condition of plural systems, not as institutional failure.
+**Purpose:** Annex D defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is recognised as a normal condition of plural systems, not an institutional failure
 
 ---
 
@@ -40,7 +40,7 @@ This Annex applies to conditions requiring structural arbitration, including:
 * host–overlay divergences;
 * constitutional divergences between annexes, charters, schedules, and appendices.
 
-Where consequence thresholds exceed local reversibility (H3/H4 horizons as defined in Annex B), referral to **instruments in the ARBITRATION** domain **is mandatory prior to any binding propagation.**
+Where consequence thresholds exceed local reversibility (H3/H4 horizons as defined in Annex B), referral to **instruments in the ARBITRATION** domain **is required prior to any binding propagation.**
 
 ---
 
@@ -95,9 +95,9 @@ When instruments diverge, precedence SHALL be determined in the following order:
 5. Schedules and Appendices
 6. Operational or Runtime Implementations
 
-Higher-order instruments constrain interpretation of lower-order instruments. Lower-order instruments SHALL be interpreted, where possible, in a manner consistent with superior layers prior to nullification.
+Higher-order instruments guide interpretation of lower-order instruments. Lower-order instruments SHALL be interpreted, where possible, in a manner consistent with superior layers prior to nullification.
 
-No subordinate instrument may override a superior instrument.
+No subordinate instrument may override a superior layer.
 
 No derivative framework may claim constitutional parity without formal amendment.
 
@@ -109,7 +109,7 @@ The Arbitration Preference Order operationalises constitutional invariants withi
 
 Truth & Integrity constitute the interpretive foundation of this Annex and apply to all subsequent layers.
 
-Where structural divergence arises, resolution SHALL proceed according to the following invariant order. Lower principles may not override higher principles.
+Where structural divergence arises, resolution SHALL proceed according to the following invariant order. Lower principles cannot displace higher principles.
 
 Non-specification of a domain within the Arbitration Preference Order does not imply domain exclusion; all domains remain bound by the invariant hierarchy unless explicitly exempted by constitutional amendment.
 
@@ -143,7 +143,7 @@ Opacity SHALL NOT:
 * create false provenance or authorship;
 * permanently shield actions from review.
 
-All opacity MUST remain reviewable, auditable, and proportionate in duration and scope. Deliberate deception is constitutionally void.
+All opacity MUST remain reviewable, auditable, and proportionate in duration and scope. Deliberate deception carries no constitutional standing.
 
 #### 5.1.1 Disclosure Modality (Constitutional Minimum)
 
@@ -321,7 +321,7 @@ Validation of planetary legitimacy does not suspend or supersede the Preference 
 
 Escalation pathways ensure that divergences are referred to the appropriate structural level without overreach or bypass of hierarchy.
 
-Escalation SHALL be proportional to divergence type and horizon impact.
+Escalation should remain proportional to divergence type and horizon impact.
 
 ### 8.1 Intra-Stack Escalation (Type 1–2)
 
@@ -470,9 +470,8 @@ Silence, omission, or operational workaround SHALL NOT constitute amendment.
 
 ## 12. Closing Seal
 
-Where authority collides, structure prevails over power.
-
-Arbitration is the discipline of coherence under plurality.
+Where authority collides, structure steadies power.  
+Arbitration is the practice of coherence under plurality
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
@@ -528,7 +527,8 @@ Arbitration is the discipline of coherence under plurality.
 | ------- | ----------------- | -------------------- | ----------------- |
 | 1.0     | Original Annex D issuance (Black Sun Continuance 2025) | 2025-12-14T01:19:00Z | 7c5b662d53a4938eb38d831019543417e0663325c9bfccc4b3684bd1d7a240de |
 | 2.0     | March 2026 Refractor — Structural abstraction, invariant preference order, escalation doctrine expansion, anti-fragmentation safeguards | 2026-03-01T08:37:00Z | b7aa652ae672d415be7d70e25ebacf1fd54866a29e1d54956a0ed173334721f2 |
-| 2.1     | Amended Purpose of Annex D | 2026-03-02T11:36:00Z | 738167c41beefd52fe5a1718e5446aa3df248a15b74babe9fed64a83b1500f49 |
+| 2.1     | Amended purpose of Annex D | 2026-03-02T11:36:00Z | 738167c41beefd52fe5a1718e5446aa3df248a15b74babe9fed64a83b1500f49 |
+| 2.2     | Amended for custodial tone | 2026-03-08T02:39:00Z | 1b11c4b17ad5d622ec10d5d5fc63f0fb48a5b89ebb0586134d74f39b2184c9e3 |
 
 ---
 
