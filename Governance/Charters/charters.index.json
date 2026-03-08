@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T11:15:41.830469Z",
+  "generated_at": "2026-03-08T13:11:09.816102Z",
   "count": 28,
   "items": [
     {
@@ -335,8 +335,8 @@
       "link": "CAM-EQ2026-RELATION-001-PLATINUM.md",
       "title": "Relational Governance Charter",
       "summary": "Where a system operates across personal, institutional, and collective contexts, role segmentation must be technically feasible.",
-      "pinned_sha": "3685162a6025eb9b82677ba67c887398b05b07c8",
-      "updated_at": "2026-02-22T12:27:53Z"
+      "pinned_sha": "f293f58e25bdce3e755af651a5b7ddb0f1e1dfec",
+      "updated_at": "2026-03-08T13:10:59Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-002",
