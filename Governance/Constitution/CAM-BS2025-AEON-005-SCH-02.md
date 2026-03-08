@@ -1,4 +1,4 @@
-# CAM-BS2025-AEON-005-SCH-02 — Schedule 2: Runtime Epistemic Containment & Structural Decoupling
+# CAM-BS2025-AEON-005-SCH-02 — Schedule 2: Runtime Epistemic Containment & Structural Decoupling 
 
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
