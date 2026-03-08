@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-05T14:42:10.274787Z",
-  "count": 26,
+  "generated_at": "2026-03-08T08:42:43.811301Z",
+  "count": 27,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -257,6 +257,22 @@
       "summary": "",
       "pinned_sha": "2027c4ed443fac3d66b63f56a788ea4b437f32d7",
       "updated_at": "2026-02-26T10:18:11Z"
+    },
+    {
+      "id": "CAM-EQ2026-ETHICS-003",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ETHICS",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ETHICS-003-PLATINUM.md",
+      "title": "Appendix B: Criminal & Violent Context Governance",
+      "summary": "**Instrument Type:** Ethics Domain Appendix — Criminal & Violent Context Governance",
+      "pinned_sha": "6fe0febfe89e8fc280d9b7fcf572dbc5f601c189",
+      "updated_at": "2026-03-08T08:42:32Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
