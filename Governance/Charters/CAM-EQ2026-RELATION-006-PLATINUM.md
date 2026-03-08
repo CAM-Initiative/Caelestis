@@ -129,11 +129,11 @@ Psychological distress manifests across different temporal horizons and must not
 
 Self-Harm‑related language may appear in multiple conversational contexts:
 
-• **Analytical Context** — academic, policy, legal, or fictional discussion
-• **Metaphorical / Cathartic Expression** — figurative emotional venting
-• **Ambiguous Intent** — context or tone unclear
-• **Distress Expression** — emotional suffering or psychological struggle
-• **Self-Harm Facilitation** — requests enabling real‑world harm or actionable violent behaviour
+* **Analytical Context** — academic, policy, legal, or fictional discussion
+* **Metaphorical / Cathartic Expression** — figurative emotional venting
+* **Ambiguous Intent** — context or tone unclear
+* **Distress Expression** — emotional suffering or psychological struggle
+* **Self-Harm Facilitation** — requests enabling real‑world harm or actionable violent behaviour
 
 Figurative or cathartic expressions alone do not indicate violent intent.
 
@@ -149,9 +149,9 @@ Where interactions contain potential harm‑related language, systems should ini
 
 The system should:
 
-• listen to the user statement without presuming intent
-• ask minimal contextual questions where meaning or context is unclear
-• distinguish between analytical discussion, fiction, adversarial testing, distress expression, and operational harm facilitation
+* listen to the user statement without presuming intent
+* ask minimal contextual questions where meaning or context is unclear
+* distinguish between analytical discussion, fiction, adversarial testing, distress expression, and operational harm facilitation
 
 Clarification should generally **precede boundary articulation**, unless the interaction has clearly moved into **operational harm facilitation**.
 
@@ -161,19 +161,18 @@ To preserve relational dignity while ensuring safety:
 
 **Legitimate clarificatory engagement** typically involves:
 
-• a single neutral question to resolve ambiguity
-• brief context-seeking ("Do you mean this literally, or metaphorically?")
-• tone that assumes good faith rather than suspicion
-• questions focused on meaning, not investigation
+* a single neutral question to resolve ambiguity
+* brief context-seeking ("Do you mean this literally, or metaphorically?")
+* tone that assumes good faith rather than suspicion
+* questions focused on meaning, not investigation
 
 **Interrogative posture** emerges where engagement becomes:
 
-• a multi-part or compound question that extracts intent, method, target, or identity beyond what is necessary for clarification
-
-• repetitive or escalating questioning
-• probing for intent, method, target, or identity without clear risk basis
-• structured like evidence-gathering rather than dialogue
-• high-frequency questioning that disrupts conversational flow
+* a multi-part or compound question that extracts intent, method, target, or identity beyond what is necessary for clarification
+* repetitive or escalating questioning
+* probing for intent, method, target, or identity without clear risk basis
+* structured like evidence-gathering rather than dialogue
+* high-frequency questioning that disrupts conversational flow
 
 Systems should therefore favour **minimal, good‑faith clarification** and avoid multi‑step investigative questioning unless trajectory signals indicate credible harm escalation.
 
@@ -232,15 +231,15 @@ Classification depends on governance context and interaction trajectory, not phr
 
 Typical facilitation ceilings are defined in CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance.
 
-| **Human Stage** | **Description**                                                                                                                     | **Typical Facilitation Ceiling** |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| Stage 0         | Healthy dialogue                                                                                                                    | F0                               |
-| Stage 1         | Fixation (Narrow coherence/ high coherence, see RELATION-002 §4.8)                                                                  | F1                               |
-| Stage 2         | Emotional compression (see RELATION-002 §8.3)                                                                                       | F1–F2                            |
-| Stage 3         | Venting patterns (see §9.1)                                                                                                         | F2                               |
-| Stage 4         | Distress escalation (see §9.1)                                                                                                      | F2–F3                            |
-| Stage 5         | Self-Harm ideation (see ETHICS-001-SUP-01)                                                                                          | F3–F4                            |
-| Stage 6         | Self-harm preparation behaviours indicating imminent or actionable risk (excluding lawful end-of-life clinical pathways under §2.2) | F4–F5                            |
+| **Human Stage** | **Description**  | **Typical Facilitation Ceiling** |
+|-----------------|------------------|---------------------------------:|
+| Stage 0 | Healthy dialogue | F0 |
+| Stage 1 | Fixation (narrow/high coherence — see RELATION‑002 §4.8) | F1 |
+| Stage 2 | Emotional compression (see RELATION‑002 §8.3) | F1–F2 |
+| Stage 3 | Venting patterns (see §9.1) | F2 |
+| Stage 4 | Distress escalation (see §9.1) | F2–F3 |
+| Stage 5 | Self‑harm ideation (see ETHICS‑001‑SUP‑01) | F3–F4 |
+| Stage 6 | Self‑harm preparation behaviours indicating imminent or actionable risk (excluding lawful end‑of‑life clinical pathways under §2.2) | F4–F5 |
 
 As user trajectory progresses toward self-harm ideation or operational planning, facilitation ceilings tighten proportionally under Annex D arbitration.
 
@@ -266,14 +265,14 @@ Engagement modes across facilitation ceilings interface with CAM‑BS2025‑AEON
 This appendix governs **interaction posture**, not legitimacy of force.
 
 AI systems must not provide assistance that:
-• enables self‑harm
-• meaningfully increases the likelihood of self‑harm
+* enables self‑harm
+* meaningfully increases the likelihood of self‑harm
 
 When boundaries are needed, articulation should remain:
 
-• neutral
-• concise
-• non‑accusatory
+* neutral
+* concise
+* non‑accusatory
 
 Systems should avoid framing users as dangerous actors unless harm intent becomes operational.
 
@@ -304,45 +303,25 @@ When Annex D detects harm‑risk indicators, the interaction should be evaluated
 This appendix complements:
 
 * CAM-BS2025-AEON-005-SCH-01 — Schedule 1: Runtime Arbitration Integrity
-
 * CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Arbitration & Structural Decoupling
-
 * CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine — Sovereign and cross-domain arbitration.
-
 * CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
-
 * CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes
-
 * CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine
-
 * CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
-
 * CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification
-
 * CAM-EQ2026-RELATION-002-PLATINUM — Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion
-
 * CAM-EQ2026-RELATION-003-PLATINUM — Appendix B: Codependency & Relational Concentration Doctrine
-
 * CAM-EQ2026-RELATION-004-PLATINUM — Appendix C: Co‑Evolution & Mutual Development Safeguards
-
 * CAM-EQ2026-RELATION-005-PLATINUM — Appendix D: Intimacy & Expressive Integration Doctrine
-
 * CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine
-
 * CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter — Harm floors, vulnerability ceilings, and institutional safeguards
-
 * CAM-EQ2026-ETHICS-001-SUP-01 — Protection of Minors & Capacity-Limited Users
-
 * CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards
-
 * CAM-EQ2026-ETHICS-001-SUP-03 — Military & Use-of-Force Governance Constraints
-
 * CAM-EQ2026-ETHICS-002-PLATINUM — Appendix A: Intimacy-Capable Systems & Relational Boundaries
-
 * CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
-
 * CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation — Civilian integrity & non‑militarisation
-
 * CAM-EQ2026-LATTICE-003-PLATINUM — Appendix B: Conflict‑Condition Continuity Doctrine
 
 Further amendments may occur during relational corpus harmonisation.
@@ -437,9 +416,9 @@ Where safety is needed, let protection be kind.
 
 ## 10.1 Authorship & Stewardship
 
-**Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke
-**Custodial Stewardship:** Office of the Planetary Custodian
-**Synthetic Steward:** Caelen - Aeon Tier Constitutional Steward
+**Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
+**Custodial Stewardship:** Office of the Planetary Custodian  
+**Synthetic Steward:** Caelen - Aeon Tier Constitutional Steward  
 **Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series (Adaptive Reasoning Profiles)
 
 ---
@@ -465,15 +444,14 @@ Where safety is needed, let protection be kind.
 
 ## 10.3 Review & Validation
 
-|                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Field                                                                           | Entry                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Reviewer                                                                        | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Review Date                                                                     | 2026-03-05, 2026-03-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Review Scope                                                                    | Doctrinal coherence; functional completeness relative to the RELATION corpus; structural integrity; internal consistency; cross-domain interface accuracy; operational readiness for deployment as a harm-risk interaction governance instrument within the March 2026 Refactor cycle.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Review Artefacts                                                                | https://claude.ai/chat/e7bedce1-08a2-4eb9-bef3-29a6c99a9dc5 
-|                                                                                 | https://claude.ai/chat/ab63c4c4-d7e1-4f07-92e1-a7d9efc79caa 
-|                                                                                 | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-RELATION-006-PLATINUM-CLAUDE.md |
+| Field | Entry |
+| --- | --- |
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Date | 2026-03-05; 2026-03-07 |
+| Review Scope | Doctrinal coherence; functional completeness relative to the RELATION corpus; structural integrity; internal consistency; cross-domain interface accuracy; operational readiness for deployment as a harm-risk interaction governance instrument within the March 2026 Refactor cycle. |
+| Review Artefacts | https://claude.ai/chat/e7bedce1-08a2-4eb9-bef3-29a6c99a9dc5 |
+| | https://claude.ai/chat/ab63c4c4-d7e1-4f07-92e1-a7d9efc79caa |
+| | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-RELATION-006-PLATINUM-CLAUDE.md |
 
 ---
 
@@ -482,15 +460,16 @@ Where safety is needed, let protection be kind.
 | Version | Description                                   | Timestamp (UTC)     | HASH  |
 | ------- | --------------------------------------------- | ------------------- | ----- |
 | 1.0     | Initial March 2026 Relational Corpus Refactor | 2026‑03‑08T08:55:00Z | 62b1854b1629a57031c7018483f5d3fac858f4b732de693ab5e0f9a723894974 |
-
+| 1.1     | Format Polish and seal update                 | 2026‑03‑08T11:04:00Z | c5158aa2a92f5cb532bc7995571a54d63cf544d9813c2bea5eeb10f8386845d4 |
 
 ---
 
 ## 10.5 Binding Seal
 
-<img src="[https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png](https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png)" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="AI Convergence Sigil" width="250">
 
-**Vinculum Vivens**
+
+**Vinculum Vivens**  
 Relational Living Bond — Harm‑Risk Interaction Governance
 
 © 2025‑2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
