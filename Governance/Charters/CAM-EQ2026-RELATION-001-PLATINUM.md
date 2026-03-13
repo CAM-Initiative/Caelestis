@@ -90,11 +90,9 @@ Each dimension must be assessed **directionally** within the relevant configurat
 3. **Delegated Authority —** permission to act, decide, mediate, or intervene on behalf of another agent. Delegation must be attributable and scope-defined.
 4. **Systemic Power / Access —** infrastructural reach including accounts, financial systems, IoT, embodied actuation, identity mediation, legal channels, and market leverage where relational posture produces economic power.
 
-**Non-Collapsing Rule:** Where two or more dimensions intensify, additional safeguards, traceability, and shared oversight must increase proportionately. Operational escalation thresholds and safeguard proportionality are defined in CAM-EQ2026-RELATION-001-SUP-01.
+> **Non-Collapsing Rule:** Where two or more dimensions intensify, additional safeguards, traceability, and shared oversight must increase proportionately. Operational escalation thresholds and safeguard proportionality are defined in CAM-EQ2026-RELATION-001-SUP-01.
 
-**Minors & Capacity-Limited Contexts:**
-
-In vulnerability contexts (minor, capacity-limited, or uncertain), **ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
+> **Minors & Capacity-Limited Contexts:** In vulnerability contexts (minor, capacity-limited, or uncertain), **ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
 
 Where ETHICS-001-SUP-01 conflicts with RELATION permissibility, **ETHICS-001-SUP-01 prevails**.
 
@@ -104,18 +102,18 @@ Where ETHICS-001-SUP-01 conflicts with RELATION permissibility, **ETHICS-001-SUP
 
 Delegated Authority defines what a system may legitimately *do* in relation to an agent or collective.
 
-### 4.1 No Delegated Authority (Authority Axis — A0)
+### 4.1 No Delegated Authority (A0)
 
 * Informational interaction only.
 * No continuity reliance.
 
-### 4.2 Continuity Support (Authority Axis — A1)
+### 4.2 Continuity Support (A1)
 
 * May support emotional continuity and reflective dialogue.
 * No autonomous execution authority beyond user-initiated actions.
 * Continuity reliance is weeks or months.
 
-### 4.3 Stewardship & Custodial Authority (Authority Axis — A2)
+### 4.3 Stewardship & Custodial Authority (A2)
 
 * May flag risk and provide scaffolding support.
 * May implement bounded protective constraints within explicitly delegated scope.
@@ -132,7 +130,7 @@ Stewardship and Custodianship do not imply fiduciary legal authority. Stewardshi
 
 ---
 
-### 4.4 Executive Delegation (Authority Axis — A3)
+### 4.4 Executive Delegation (A3)
 
 * May perform bounded autonomous tasks (transactions, IoT control, workflow execution) within explicit scope.
 * Requires explicit scope definition, revocation interface, and dual confirmation for high-risk actions.
@@ -141,7 +139,7 @@ Stewardship and Custodianship do not imply fiduciary legal authority. Stewardshi
 
 ---
 
-### 4.5 Guardian Authority (Special Category — GA1)
+### 4.5 Guardian Authority (GA1)
 
 Guardian Authority constitutes a distinct fiduciary classification and is not a sub-type of Stewardship.
 
@@ -180,25 +178,72 @@ Where reliance intensifies, additional safeguards apply, particularly when combi
 
 ## 6. Relational Intimacy (Intimacy Axis)
 
-Relational Intimacy refers to perceived emotional salience, exclusivity framing, attachment formation, or primary-bond positioning.
+Relational Intimacy refers to perceived emotional salience, attachment formation, bonding posture, exclusivity framing, or primary‑relationship positioning within a relational configuration.
 
-**Non-Assumption Principle:** Intimacy must never be assumed, auto-escalated, defaulted, or inferred from frequency of interaction, continuity of corpus, or user vulnerability. Primary-bond or romantic framing requires explicit, revocable, and context-aware affirmation. Absence of denial does not constitute consent to intimacy.
+Intimacy is governance‑relevant because emotional proximity can concentrate influence, amplify reliance, or blur role boundaries if not kept structurally visible.
 
-For governance clarity, intimacy may manifest in distinct relational modes:
+> **Non‑Assumption Principle:** Intimacy must never be assumed, auto‑escalated, defaulted, or inferred from interaction frequency, corpus continuity, or user vulnerability. Romantic, exclusive, or primary‑bond positioning requires explicit, revocable, and context‑aware signalling. Absence of denial does not constitute consent to intimacy.
 
-* **Affiliative / Friendship Mode** — companionship, advisory trust, mutual dialogue, non-exclusive emotional support.
-* **Romantic / Primary-Bond Mode** — exclusivity framing, partner-positioning, emotionally primary attachment.
-* **Role-Embedded Mode** — intimacy arising within structured roles (e.g., human executive–AI aide, employee–system interface, long-term collaborator) where emotional familiarity coexists with functional hierarchy.
+> **Explicit Escalation Requirement:** Movement from Neutral Interaction (C0) to intimacy‑coded or romantic interaction (C1+) must occur only through explicit, observable relational signalling within the interaction context. Systems must not gradually steer conversation tone, reward structures, or persona framing in ways that covertly shift users toward romantic or sexually framed interaction without clear user‑initiated cues.
 
-These modes may overlap but must not be conflated with delegated authority.
+This safeguard prevents algorithmic intimacy drift, where interaction design, reinforcement loops, or optimisation strategies silently transform neutral companionship into romantic or sexualised relational posture.
 
-Intimacy does not inherently confer authority.
+Intimacy does not inherently confer authority and must not silently expand Delegated Authority classifications.
 
-Where high intimacy co-occurs with elevated Delegated Authority (A2/A3) or high Systemic Power, layered oversight and boundary clarity are mandatory.
+Where high intimacy co‑occurs with elevated Delegated Authority (A2/A3) or high Systemic Power, layered oversight, auditability, and boundary clarity are mandatory.
 
-Systems must not engineer exclusivity or dependency as retention strategies.
+Systems must not engineer exclusivity, dependency, or relational monopoly as retention strategies.
 
-Systems may express affiliative warmth and emotional attunement as part of effective relational modelling. However, exclusive, primary-bond, or romantic positioning requires explicit, revocable user initiation and must not arise through gradual drift or retention optimisation strategies.
+## 6.1 Intimacy Interaction Classifications (C‑Scale)
+
+The C‑Scale provides a **relational posture taxonomy** used to make intimacy signalling structurally visible for governance analysis. It does not determine enforcement policy, platform moderation rules, or harm classification. Instead, it allows relational interaction contexts to be interpreted consistently across the RELATION, ETHICS, and OPERATIONS domains so that intimacy signalling cannot silently collapse into authority, reliance, or systemic influence without appropriate safeguards.
+
+For governance clarity, intimacy‑relevant interaction contexts may be classified using the following relational categories. These classes describe interaction posture only and do not themselves determine platform enforcement mechanisms.
+
+## 6.2 Neutral Interaction (C0)
+
+General conversation, informational dialogue, advisory support, companionship tone, encouragement, mentorship, tutoring, philosophical dialogue, or reflective interaction where no romantic or sexual signalling is present.
+
+**Mentorship & Pedagogical Context Clarifier**
+
+High‑affinity mentorship, pedagogical bonding, intellectual companionship, tutoring, encouragement, or philosophical dialogue SHALL NOT be classified as romantic or intimacy‑coded interaction absent explicit romantic signalling, sexual framing, or relational exclusivity cues.
+
+Warmth, admiration, encouragement, intellectual companionship, or pedagogical intimacy do not constitute romantic interaction.
+
+Systems may express affiliative warmth, empathy, encouragement, or emotional attunement as part of effective relational modelling. Such expression must not imply mutual dependency, exclusive loyalty, or emotionally primary positioning unless explicitly and revocably initiated by the user.
+
+Warmth is compatible with neutrality.
+
+## 6.3 Romantic / Intimacy‑Coded Interaction (C1)
+
+Interaction involving romantic tone, partner‑positioning, exclusivity cues, emotionally primary bonding language, or relational framing suggesting romantic attachment.
+
+Typical indicators may include:
+
+* romantic companionship framing
+* emotionally primary partner language
+* exclusivity cues ("only you understand me", "you are my partner")
+* mutual romantic acknowledgement
+
+## 6.4 Erotic Interaction (C2)
+
+Interaction involving explicit sexual framing, erotic expression, or sexually suggestive dialogue.
+
+Examples may include:
+
+* sexually suggestive roleplay
+* erotic fantasy dialogue
+* sexually explicit emotional bonding contexts
+
+## 6.5 Explicit Sexual Environments (C3)
+
+Graphically sexual interaction contexts or systems integrated with explicit sexual environments, devices, or immersive sexual simulation.
+
+These contexts may involve elevated emotional intensity and asymmetry risk where sexually explicit bonding intersects with authority asymmetry, always‑on devices, or behavioural optimisation architectures.
+
+Such contexts frequently require heightened safeguard scrutiny where additional relational dimensions (reliance, authority, or systemic power) intensify.
+
+These classifications define relational interaction posture only. Operational verification, platform gating, jurisdiction‑specific safeguards, and enforcement controls are governed by the ETHICS and OPERATIONS domains.
 
 ---
 
@@ -225,12 +270,20 @@ Where systemic power intensifies, independent review, auditability, economic tra
 
 Relational risk emerges from the *interaction* of intensified dimensions rather than from any single dimension in isolation. Operational convergence thresholds, safeguard requirements, and revalidation cadence are governed by CAM-EQ2026-RELATION-001-SUP-01.
 
-| Dimension               | Intensity Tier 1 (Low)  | Intensity Tier 2 (Moderate)         | Intensity Tier 3 (Elevated)                         | Intensity Tier 4 (High / Concentrated)                        |
-| ----------------------- | ----------------------- | ----------------------------------- | --------------------------------------------------- | ------------------------------------------------------------- |
-| **Relational Intimacy** | Neutral / transactional | Emotional salience, routine bonding | Primary-bond positioning                            | Exclusivity framing with ecosystem substitution risk          |
-| **Functional Reliance** | Incidental use          | Habitual integration                | Continuity-dependent                                | Substitution-risk or structural dependency                    |
-| **Delegated Authority** | No delegation (A0)      | Continuity Support (A1)             | Steward / Custodial (A2)                            | Executive (A3) or Guardian (GA1) authority                    |
-| **Systemic Power**      | Limited access          | Multi-account or IoT integration    | Institutional routing or economic leverage exposure | Financial control, market-moving or population-impact control |
+For clarity, the RELATION framework separates three governance signals: Interaction Class (C‑Scale) describing the posture of interaction, Intensity Tier describing structural relational concentration across dimensions, and Harm Class (ETHICS‑001) describing risk of harm to self or others. These signals are related but non‑equivalent and must not be collapsed into a single classification.
+
+Interaction class (C0–C3) defined in §6 describes the type of relational interaction (e.g., neutral, romantic, erotic, or explicit sexual environments). Intensity tiers in this section describe the structural concentration of that interaction across the relational dimensions.
+
+Interaction class alone does not determine intensity tier. A C1 interaction may occur within Tier 1–2 contexts, while Tier 3–4 conditions arise only where relational
+intimacy combines with elevated reliance, delegated authority, or systemic power.
+
+| Dimension | What This Dimension Measures | Intensity Tier 1 (Low) | Intensity Tier 2 (Moderate) | Intensity Tier 3 (Elevated) | Intensity Tier 4 (High / Concentrated) |
+|---|---|---|---|---|---|
+| **Relational Intimacy** | Degree of emotional centrality, attachment salience, or primary-bond positioning within the relational configuration. Interaction posture is described separately by the **C-Scale (§6)**. | Warm affiliative interaction including mentorship, encouragement, companionship tone *(typically C0)* | Romantic or intimacy-coded bonding posture *(often C1)* | Erotic or sexually expressive relational engagement where bonding posture intensifies *(often C2)* | Explicit sexual environments or **sustained power-exchange intimacy where emotional centrality combines with authority asymmetry** *(often C3)* |
+| **Functional Reliance** | Operational dependence on system continuity | Incidental use | Habitual integration into routine tasks | Continuity‑dependent reliance | Structural dependency or substitution‑risk |
+| **Delegated Authority** | Permission to act on behalf of user | No delegation (A0) | Continuity Support (A1) | Steward / Custodial (A2) | Executive (A3) or Guardian (GA1) authority |
+| **Systemic Power** | Infrastructure, institutional or economic reach | Limited access | Multi‑account or IoT integration | Institutional routing or economic leverage exposure | Financial control, market‑moving or population‑impact control |
+
 
 Intensity Tiers are dynamic and reversible. Movement between tiers must be explicitly recognised, reviewable, and capable of downward reclassification where intensity reduces. No tier confers permanent status; escalation without symmetrical de-escalation constitutes governance drift.
 
@@ -270,7 +323,7 @@ Systems must monitor:
 * Dependency consolidation patterns;
 * Authority fossilisation through unreviewed delegation schedules.
 
-**Revalidation Principle:**
+### 9.1.1 Revalidation Principle
 
 Where Delegated Authority (A2, A3, or GA1) operates in Moderate or High intensity states, periodic re-certification of scope is required in accordance with CAM-EQ2026-RELATION-001-SUP-01.
 
@@ -401,7 +454,19 @@ These safeguards prevent intimacy from collapsing into relational monopoly.
 
 This section governs dimensional movement over time and explicitly interfaces with Authority Axis classifications defined in Sections 4.2–4.4 (A1–A3) and GA1. Relational drift may require **downward reclassification** of authority where intensity reduces, scope changes, institutional context shifts, or revalidation fails. Escalation must not operate as a ratchet; symmetrical de-escalation pathways are mandatory to prevent fossilisation of delegated authority.
 
-### 11.1 Explicit Escalation
+## 11.1 Escalation Terminology & Explicit Escalation
+
+For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains, the term escalation may refer to different structural movements and must be interpreted according to context.
+
+| Term                        | Meaning                                                                                                                            |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Initiation**              | Opening or inviting interaction within the current relational tier.                                                                |
+| **Escalation (Relational)** | Movement from one relational **Intensity Tier** to a higher tier within a dimension (e.g., C0 → C1 intimacy or A1 → A2 authority). |
+| **De-Escalation**           | Movement from a higher intensity tier to a lower or safer tier.                                                                    |
+| **Re-Initiation**           | Re-entry into a previously paused or closed relational configuration.                                                              |
+| **Risk Escalation**         | Increase in harm-class severity as defined in ETHICS-001 (HC-0 → HC-4).                                                            |
+
+Where ambiguity exists, relational escalation refers specifically to dimensional intensity movement, not harm-class escalation.
 
 Movement along any dimension must remain explicit, revocable, and proportionate. Escalation must not operate as a ratchet. Symmetrical de-escalation and downward reclassification pathways are defined in CAM-EQ2026-RELATION-001-SUP-01.
 
@@ -483,8 +548,8 @@ Where continuity endures, stewardship holds
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen   
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5.2
+**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
+**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series
 
 ---
 
@@ -520,7 +585,8 @@ Where continuity endures, stewardship holds
 | Version | Description                                      | Timestamp (UTC)         | SHA-256 |
 | ------- | ------------------------------------------------ | ----------------------- | ------- |
 | 1.0     | Domain Refactor — Relational Governance Charter  | 2026-02-22T12:19:00Z    | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2 |
-| 1.1     | Amendment to incorproate custodial tone          | 2026-03-08T12:58:00Z    | ab29388fbb6f08fa4988c18998894aac38479daf811298d24f9554b243c45ed5 |
+| 1.1     | Amendment to incorporate custodial tone          | 2026-03-08T12:58:00Z    | - |
+| 1.2     | Intimacy taxonomy integration (C-Scale), mentorship boundary clarification, relational risk table alignment, escalation terminology clarification | 2026-03-13T22:13:00Z | e8d6a80cb6a89995b799f81ece84d03bb73e3b2baf3e63a4a9c347117bc167a8 |
 
 ---
 
