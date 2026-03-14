@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T22:15:18.086425Z",
+  "generated_at": "2026-03-14T03:42:43.370646Z",
   "count": 28,
   "items": [
     {
@@ -334,9 +334,9 @@
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-RELATION-001-PLATINUM.md",
       "title": "Relational Governance Charter",
-      "summary": "Where a system operates across personal, institutional, and collective contexts, role segmentation must be technically feasible.",
-      "pinned_sha": "f77b615672db3b3452ed8443f0c112e24a664bcb",
-      "updated_at": "2026-03-13T22:15:08Z"
+      "summary": "Where actions involve lethal force or irreversible large-scale harm, dual human confirmation is required prior to execution. Autonomous lethal action without meaningful human control is prohibited under Annex E.",
+      "pinned_sha": "dd34ec7ad74ea167f1baa2219afd82b070da57ec",
+      "updated_at": "2026-03-14T03:42:33Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-002",
