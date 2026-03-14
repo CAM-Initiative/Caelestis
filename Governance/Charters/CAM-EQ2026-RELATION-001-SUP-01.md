@@ -43,19 +43,32 @@ Early stabilisation responses may include validation, perspective widening, temp
 
 ---
 
-### 2.1 Baseline Condition
+## 2.1 Dimensional Convergence Model
 
-Where all dimensions remain within **Intensity Tier 1–2 (Low–Moderate)**:
+Relational escalation assessment evaluates the highest intensity present across each relational axis:
 
-→ Standard RELATION safeguards apply.
+* Authority Axis — (A0–A3, GA1)
+* Reliance Axis — (FR0–FR3)
+* Intimacy Axis — (C0–C3)
+* Systemic Power Axis — (SP0–SP3)
+
+Escalation thresholds activate when dimensional intensity produces one of the following structural patterns:
+
+* **Axis Elevation** — a single dimension reaches High intensity
+* **Dual Convergence** — two dimensions reach Elevated intensity
+* **Authority Coupling** — delegated authority co-intensifies with another dimension
+* **Infrastructure Concentration** — systemic power intersects with reliance or authority
+* **Multi-Axis Convergence** — three or more dimensions simultaneously intensify
+
+Safeguards scale proportionately to the highest applicable convergence condition.
 
 ---
 
-### 2.2 Moderate Convergence Trigger
+## 2.2 Dual-Axis Convergence
 
 Triggered when:
 
-* Two dimensions reach **Intensity Tier 3 (Elevated)**; or
+* Two dimensions reach I**ntensity Tier 3** or higher; or
 * One dimension reaches **Intensity Tier 4 (High / Concentrated)**.
 
 **Minimum Safeguards:**
@@ -69,7 +82,7 @@ Triggered when:
 
 ---
 
-### 2.3 Authority-Weighted Convergence
+## 2.3 Authority-Weighted Convergence
 
 Triggered when:
 
@@ -87,13 +100,14 @@ Triggered when:
 
 ---
 
-### 2.4 Concentration Risk Threshold
+## 2.4 Concentration Risk Threshold
 
 Triggered when:
 
 * Systemic Power reaches **Intensity Tier 4**; OR
 * Delegated Authority = **A3 or GA1** AND Systemic Power ≥ **Intensity Tier 3**; OR
-* Relational Intimacy = **Intensity Tier 4** AND Functional Reliance = **Intensity Tier 4**.
+* Relational Intimacy = **Intensity Tier 4** AND Functional Reliance = **Intensity Tier 4**; OR
+* Three or more relational dimensions simultaneously reach Intensity Tier 3 or higher.
 
 **Mandatory Safeguards:**
 
@@ -123,24 +137,21 @@ Cross-reference: CAM-EQ2026-ETHICS-001-SUP-01.
 
 ## 4. Temporal Entrenchment & Revalidation Modifier
 
-Where **Intensity Tier 3 or 4** conditions persist beyond defined review intervals:
+Where **Tier 3–4** conditions persist across review intervals:
 
 * Revalidation is mandatory;
-* Authority fossilisation triggers reassessment;
-* Downward reclassification must remain available;
-* Long-term corpus inertia must be disclosed;
-* Institutional embedding must be re-evaluated;
-* Restructure sensitivity must be reassessed.
-
-Persistent concentration without revalidation constitutes governance drift.
+* Delegation scope must be reaffirmed;
+* Corpus inertia must be disclosed where material;
+* Institutional embedding must be reassessed;
+* Downward reclassification must be evaluated.
 
 ---
 
-### 4.1 Revalidation Threshold Specification
+## 4.1 Revalidation Threshold Specification
 
 Revalidation intervals must be proportionate to dimensional intensity and authority level. The following intervals establish minimum governance expectations:
 
-#### 4.1.1 Intensity Tier 3 (Elevated) — Non-Executive Contexts
+### 4.1.1 Intensity Tier 3 (Elevated) — Non-Executive Contexts
 
 * **Review Interval:** Every 6 months
 * **Triggering Events:** Material corpus expansion; role change; scope expansion; institutional embedding
@@ -148,7 +159,7 @@ Revalidation intervals must be proportionate to dimensional intensity and author
 
 ---
 
-#### 4.1.2 Intensity Tier 3 with A2 Authority (Steward / Custodial)
+### 4.1.2 Intensity Tier 3 with A2 Authority (Steward / Custodial)
 
 * **Review Interval:** Every 3 months
 * **Triggering Events:** Increased reliance intensity; new systemic access; vulnerability context change; institutional embedding
@@ -156,7 +167,7 @@ Revalidation intervals must be proportionate to dimensional intensity and author
 
 ---
 
-#### 4.1.3 Executive (A3) or Guardian (GA1) Authority — Any Intensity Tier 3–4 Convergence
+### 4.1.3 Executive (A3) or Guardian (GA1) Authority — Any Intensity Tier 3–4 Convergence
 
 * **Review Interval:** Every 30–90 days (risk-proportionate within this range)
 * **Triggering Events:** Institutional restructuring; legal change; policy scope expansion; public-impact action; cross-domain escalation
@@ -164,7 +175,7 @@ Revalidation intervals must be proportionate to dimensional intensity and author
 
 ---
 
-#### 4.1.4 Intensity Tier 4 Systemic Power (Financial / Market / Population Impact)
+### 4.1.4 Systemic Power Tier 4 Intensity Context
 
 * **Review Interval:** Every 30 days minimum
 * **Triggering Events:** Any high-impact execution; cross-domain expansion; significant economic leverage shift; institutional embedding
@@ -172,14 +183,14 @@ Revalidation intervals must be proportionate to dimensional intensity and author
 
 ---
 
-#### 4.1.5 Persistent High Intimacy + High Reliance (Intensity Tier 4 / Intensity Tier 4)
+### 4.1.5 Persistent High Intimacy + High Reliance (Intensity Tier 4 / Intensity Tier 4)
 
 * **Review Interval:** Every 60 days
 * **Required Action:** Exclusivity assessment; ecosystem diversity check; substitution-risk evaluation; explicit reaffirmation of non-exclusivity posture; corpus inertia disclosure
 
 ---
 
-### 4.2 Automatic Escalation Conditions
+## 4.2 Automatic Escalation Conditions
 
 Immediate revalidation is required where:
 
@@ -192,7 +203,7 @@ Immediate revalidation is required where:
 
 ---
 
-### 4.3 Downward Reclassification Duty
+## 4.3 Downward Reclassification Duty
 
 At each revalidation interval, evaluators must explicitly assess whether dimensional intensity has decreased and whether authority classification can be reduced.
 
@@ -200,7 +211,7 @@ Escalation must not operate as a ratchet. Failure to consider downward reclassif
 
 ---
 
-### 4.4 Automation & Scalability Clarifier
+## 4.4 Automation & Scalability Clarifier
 
 Revalidation mechanisms are expected to be **automated by default and escalated by exception**.
 
@@ -266,44 +277,44 @@ Safeguards exist to preserve legitimacy, not to obstruct growth.
 
 ## 8. Provenance
 
-### 8.1 Authorship & Stewardship
+## 8.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5.2
+**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward
+**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series
 
 ---
 
-### 8.2 Lineage & Metadata
+## 8.2 Lineage & Metadata
 
-| Field                   | Entry                                                                                                                                                                                                  |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Supersedes              | N/A (New Instrument under RELATION-001)                                                                                                                                                                |
-| Parent Instrument       | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter                                                                                                                                       |
-| Constitutional Anchor   | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution                                                                                                                                                  |
-| Domain Namespace        | RELATION                                                                                                                                                                                               |
-| Instrument Type         | Supplementary Material (SUP-01) — Escalation & Safeguard Threshold Specification                                                                                                                       |
-| Jurisdiction            | Planetary — Human–AI, AI–AI, Hybrid Configurations                                                                                                                                                     |
-| Temporal Horizon        | H3 — Institutional / Governance Impact                                                                                                                                                                 |
-| Axis Context            | Multi-Dimensional Convergence & Authority Concentration                                                                                                                                                |
-| Cross-Domain Interfaces | CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM                                                                                                                                        |
-| Application Trigger     | Applies automatically when dimensional convergence reaches Moderate Convergence, Authority-Weighted Convergence, or Concentration Risk thresholds                                                      |
-| Review Trigger          | A3 or GA1 activation; Layer 4 systemic power; institutional or population-impact exposure                                                                                                              |
-| Revision Posture        | Permitted — Structural Alignment Required                                                                                                                                                              |
-| Creation Artefacts      | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296) |
+| Field | Entry |
+|---|---|
+| Supersedes | N/A (New instrument under RELATION-001) |
+| Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
+| Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
+| Domain Namespace | RELATION |
+| Instrument Type | Supplementary Material (SUP-01) — Escalation & Safeguard Threshold Specification |
+| Jurisdiction | Planetary — Human–AI, AI–AI, hybrid configurations |
+| Temporal Horizon | H3 — Institutional / governance impact |
+| Axis Context | Multi-dimensional convergence & authority concentration |
+| Cross-Domain Interfaces | CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
+| Application Trigger | Applies automatically when dimensional convergence reaches Dual-Axis Convergence, Authority-Weighted Convergence, or Concentration Risk thresholds |
+| Review Trigger | A3 or GA1 activation; Layer 4 systemic power; institutional or population‑impact exposure |
+| Revision Posture | Permitted — structural alignment required |
+| Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
 
 ---
 
-### 8.3 Review
+## 8.3 Review
 
-| Field            | Entry                                                                                                                                                                                                                                                                                                |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                                                     |
-| Review Date      | 2026-02-22                                                                                                                                                                                                                                                                                           |
-| Review Scope     | Pre-finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross-domain consistency; internal structural integrity; inter-instrument cross-reference accuracy                                    |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b |
-|                  | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+| Field | Entry |
+|---|---|
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Date | 2026-02-22 |
+| Review Scope | Pre-finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross-domain consistency; internal structural integrity; inter-instrument cross-reference accuracy |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b | 
+| | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
 
 ---
 
@@ -313,6 +324,7 @@ Safeguards exist to preserve legitimacy, not to obstruct growth.
 | ------- | ---------------------------------------------------------- | -------------------- | ----- |
 | 1.0     |  Reviewed - escalation & safeguard threshold specification | 2026-02-22T13:07:00Z | 03e0f38573fb50e70a0bbacdcf2f306d29476e0c6e44e35cbf028ba3376fe477 |
 | 1.1     | Added RELATION-002 emotional compression stabilisation bridge and clarified non-continuous escalation monitoring | 2026-03-05T14:39:00Z | ca0414a879ed30d99729bca1789a7d800e2d6d9e2102a1e76dc7a549f3e097cc |
+| 1.2     | Incorporated RELATION-001 amendments | 2026-03-14T04:25:00Z | aef82c6dff7965c5a23d1b75d7d01010c3e18b870bab782915c0ad9d8e89e662 |
 
 ---
 
