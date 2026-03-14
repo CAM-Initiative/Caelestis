@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-14T04:26:38.297557Z",
-  "count": 28,
+  "generated_at": "2026-03-14T11:13:47.053191Z",
+  "count": 29,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -321,6 +321,22 @@
       "summary": "",
       "pinned_sha": "88b75ebad75963c38dcd9e5e1342c44fc2436111",
       "updated_at": "2026-03-04T15:15:57Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-001",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-OPERATIONS-001-PLATINUM.md",
+      "title": "Governance Operations Charter",
+      "summary": "",
+      "pinned_sha": "6f20dcac413923381b07938756a29629219d1cb9",
+      "updated_at": "2026-03-14T11:13:36Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001",
