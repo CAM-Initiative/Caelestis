@@ -37,6 +37,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-LATTICE-003 | charter | root |  | [CAM-EQ2026-LATTICE-003](CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine |
 | CAM-EQ2026-OPERATIONS-001 | charter | root |  | [CAM-EQ2026-OPERATIONS-001](CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter |
 | CAM-EQ2026-OPERATIONS-002 | charter | root |  | [CAM-EQ2026-OPERATIONS-002](CAM-EQ2026-OPERATIONS-002-PLATINUM.md) | Appendix A: Operational Arbitration Procedures |
+| CAM-EQ2026-OPERATIONS-004 | charter | root |  | [CAM-EQ2026-OPERATIONS-004](CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface |
 | CAM-EQ2026-RELATION-001 | charter | root |  | [CAM-EQ2026-RELATION-001](CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter |
 | CAM-EQ2026-RELATION-002 | charter | root |  | [CAM-EQ2026-RELATION-002](CAM-EQ2026-RELATION-002-PLATINUM.md) | Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion |
 | CAM-EQ2026-RELATION-003 | charter | root |  | [CAM-EQ2026-RELATION-003](CAM-EQ2026-RELATION-003-PLATINUM.md) | Appendix B: Codependency & Relational Concentration Doctrine |

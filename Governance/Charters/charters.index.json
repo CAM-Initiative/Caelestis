@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-14T11:19:28.513409Z",
-  "count": 30,
+  "generated_at": "2026-03-14T11:31:41.727283Z",
+  "count": 31,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -353,6 +353,22 @@
       "summary": "",
       "pinned_sha": "09748607c48a3aae0dda56223eec429c01e073af",
       "updated_at": "2026-03-14T11:19:19Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-004",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
+      "title": "Appendix C: Operational Compliance & Regulatory Interface",
+      "summary": "This section establishes the **Capability Access Control Framework**, governing how systems determine whether a user or entity may access specific capabilities, content classes, or operational knowledge domains.",
+      "pinned_sha": "05931e56e9df5187c085dc7cdc3dbf7114969a14",
+      "updated_at": "2026-03-14T11:31:30Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001",
