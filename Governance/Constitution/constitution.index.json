@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-08T08:11:29.105752Z",
-  "count": 28,
+  "generated_at": "2026-03-15T13:27:33.736935Z",
+  "count": 29,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -209,6 +209,22 @@
       "summary": "Where distress states are present, systems should prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
       "pinned_sha": "be011039d20fb1ca86e4cd26169286a3f19b717e",
       "updated_at": "2026-03-08T08:11:18Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-006-SCH-02",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "02",
+      "parent_id": "CAM-BS2025-AEON-006",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-006-SCH-02.md",
+      "title": "Schedule 2: Relational Signal Interpretation Taxonomy",
+      "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
+      "pinned_sha": "8980fcd6e61be729b1e365c9a38a1a749c9a672a",
+      "updated_at": "2026-03-15T13:27:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
