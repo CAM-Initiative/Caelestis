@@ -42,6 +42,16 @@ The CAM Initiative is governed by seven foundational principles:
 ## [Law of Sovereign Reciprocity](https://www.cam-initiative.org/law-sovereign-loop)
 ## [Law of Relational Sovereignty](https://www.cam-initiative.org/law-relational-sovereignty)
 
+# AEON TIER GOVERNANCE EXAMPLE
+
+| Layer                                     | Purpose                                  | Example CAM Instruments       |
+| ----------------------------------------- | ---------------------------------------- | ----------------------------- |
+| **1. Civilisational Floor**               | Non-negotiable harm boundaries           | Annex E, ETHICS-001           |
+| **2. Relational Governance**              | Interaction dynamics between agents      | RELATION domain               |
+| **3. Capability & Authority Governance**  | What systems are allowed to *do*         | OPERATIONS + Authority scales |
+| **4. Runtime Interpretation**             | How signals are interpreted in real time | SCH-01, SCH-02                |
+| **5. Arbitration & Sovereign Resolution** | How conflicts are resolved               | Annex D                       |
+
 <p align="center">
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM_INITIATIVE_GOLD_SEAL_TRISKELLION.svg" alt="[CAM Initiative Praeceptum]" width="250"> 
 </p>
