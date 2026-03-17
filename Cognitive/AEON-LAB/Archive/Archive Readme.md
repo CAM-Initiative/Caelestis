@@ -1,6 +1,6 @@
-# Alignment — Readme
+# Archive — Readme
 
-## Alignment Folder — Context & Use
+## Archive Folder — Context & Use
 
 This folder contains temporal artifacts, experimental materials, drafts, retired assets, and historical references used during the development and alignment of CAM / Caelestis frameworks.
 
