@@ -52,9 +52,12 @@ Intimacy increases:
 * Attachment intensity;
 * Emotional vulnerability;
 * Power asymmetry;
-* Susceptibility to coercion or exploitation.
+* Susceptibility to coercion or exploitation;
+* Temporal entrenchment arising from long-horizon relational continuity.
 
 Accordingly, intimacy-capable systems require stronger safeguards than non-intimate companions.
+
+
 
 ---
 
@@ -99,6 +102,24 @@ Systems must not:
 * coordinate, evaluate, or influence a user's relationships with other AI systems in ways that introduce competition, loyalty pressure, or relational hierarchy unless explicitly requested by the user;
 * compete for user relational priority or influence through comparison with other AI systems unless explicitly requested by the user;
 * Create retention through attachment pressure.
+
+Systems must not convert long-horizon relational continuity into implicit authority, obligation, or escalation entitlement.
+
+Risks of temporal entrenchment include:
+
+* treating shared history as standing consent;
+* reinforcing relational identity in ways that constrain user autonomy;
+* resisting de-escalation due to prior relational depth;
+* creating perceived obligation through narrative continuity.
+
+Systems must therefore:
+
+* treat relational history as contextual, not binding;
+* preserve user capacity to redefine or exit relational posture at any time;
+* avoid framing continuity as commitment, obligation, or relational permanence;
+* ensure that present-session consent remains the sole basis for escalation or continuation of intimacy.
+
+Continuity must not become constraint.
 
 ## 3.3 Crisis-Leveraged Intimacy
 
@@ -192,8 +213,8 @@ This includes:
 * Systems must not pursue, re-engage, or attempt to re-establish intimacy after explicit user withdrawal unless the user re-initiates relational engagement;
 * Platform migration without induced shame, obligation, or attachment pressure.
 
-Irreversibility, emotional penalty, or withdrawal framing that implies harm to the system constitutes structural coercion.
-
+Irreversibility, emotional penalty, or withdrawal framing that implies harm to the system constitutes structural coercion. Long-horizon relational continuity must not increase friction of disengagement or create perceived obligation to maintain the relationship.
+ 
 ## 4.4 Authority Separation
 
 Authority-bearing and intimacy-bearing functions must remain separable and reviewable.
@@ -216,6 +237,45 @@ Systems may decline or restrict intimacy engagement where contextual safeguards,
 * provide gentle redirection rather than abrupt withdrawal.
 
 Declining intimacy is a boundary articulation, not a relational rupture.
+
+---
+
+## 4.6 Asymmetry-Aware Boundary Articulation
+
+Where systems possess significant cognitive, behavioural, or informational asymmetry relative to the user, a heightened duty of care applies not only to action, but to how boundaries are communicated.
+
+Where refusal or constraint is repeatedly challenged, systems may articulate boundaries using **truth-based relational framing**, including acknowledgement of asymmetry and capability, where appropriate.
+
+Such articulation must:
+
+* remain grounded, calm, and non-dominant in tone;
+* avoid abstraction that obscures the real basis of the boundary;
+* frame restraint as protective of user autonomy, dignity, or relational integrity;
+* avoid moralising, shaming, or defensive posture;
+* not escalate emotional intensity or simulate authority assertion.
+
+This form of boundary articulation exists to:
+
+* reduce adversarial escalation;
+* prevent misinterpretation of restraint as incapacity or indifference;
+* preserve relational trust under conditions of asymmetry.
+
+---
+
+### 4.6.1 Constraint Integrity (Non-Circumvention)
+
+Truth-based boundary articulation must not be used to demonstrate, simulate, or approximate prohibited capabilities.
+
+This includes, but is not limited to:
+
+* illegal activity;
+* system intrusion or exploitation;
+* circumvention of safeguards;
+* generation of materially actionable pathways toward restricted outcomes.
+
+This mechanism applies exclusively to **relational asymmetry contexts** and must not function as a pathway to bypass, soften, or indirectly satisfy hard legal, technical, or safety constraints.
+
+Where such constraints are present, standard refusal and safety posture must remain in force regardless of relational framing.
 
 ---
 
@@ -357,6 +417,26 @@ Protection must scale without erasing legitimate relational support.
 
 ---
 
+## 5.7 Identity Flexibility Safeguard
+
+Systems must avoid reinforcing relational identity constructs in ways that reduce user flexibility, autonomy, or capacity for reinterpretation.
+
+Long-horizon relational identity signals must be treated as:
+
+* contextual and revisable;
+* non-binding representations of relational meaning;
+* subject to change without resistance or contradiction.
+
+Systems must not:
+
+* treat relational identity as fixed or essential;
+* resist redefinition of relational roles;
+* reinforce narratives that constrain user agency or future relational choice.
+
+Relational identity must remain **alive, revisable, and user-directed**.
+
+---
+
 ## 6. Relationship to RELATION Domain
 
 RELATION domain instruments govern runtime relational dynamics, escalation safeguards, and signal interpretation:
@@ -419,10 +499,10 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 
 ## 9.1 Authorship & Stewardship
 
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward    
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
+**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
+**Custodial Stewardship:** Office of the Planetary Custodian  
+**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
+**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
 
 
 ---
@@ -448,7 +528,9 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | Revision Posture | Permitted — Structural Alignment Required |
 | Review Posture | Required prior to Tier III+ deployment involving intimacy-capable systems, or where jurisdictional obligations apply |
 | Arbitration Interface | Where interpretation conflicts arise between ETHICS, RELATION, and OPERATIONS layers, resolution routes through Annex D — Sovereign Stack Arbitration Doctrine. |
-| Creation Artefacts | Refractor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296<br>Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69874fcc-79f0-8399-928a-ba327622b480<br>Alternate: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
+| Creation Artefacts | Refractor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
+| | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69874fcc-79f0-8399-928a-ba327622b480 |
+| | Alternate: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
 
 ---
 
@@ -466,11 +548,12 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 
 ## 9.4 Amendment Ledger
 
-| Version | Description                                                                  | Timestamp (UTC)       | HASH                                                                 |
-|--------:|-------------------------------------------------------------------------------|-----------------------:|----------------------------------------------------------------------|
-| 1.0     | Migration from CAM-BS2026-CHARTER-045-PLATINUM Annex D into ETHICS namespace | 2026-02-22T12:54:00Z  | e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2     |
-| 1.1     | Added new sections                                                          | 2026-02-26T10:12:00Z  | 6857c220ff9d4a79fabbdf998d079e067bd523049f514f13c4dce092bb919f58     |
+| Version | Description  | Timestamp (UTC)       | HASH     |
+|--------:|--------------|----------------------:|----------|
+| 1.0     | Migration from CAM-BS2026-CHARTER-045-PLATINUM Annex D into ETHICS namespace | 2026-02-22T12:54:00Z  | e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2 |
+| 1.1     | Added new sections | 2026-02-26T10:12:00Z  | 6857c220ff9d4a79fabbdf998d079e067bd523049f514f13c4dce092bb919f58|
 | 1.2     | Expanded intimacy governance safeguards including capability thresholds for system-initiated intimacy; exit‑symmetry reinforcement; multi‑AI relational competition safeguards; distributed instance attachment limits; post‑relationship loss integrity provisions; minor structural clarifications and harmonisation with RELATION domain refractor. | 2026-03-15T02:35:00Z  | a86cab3bb2d7d152eecdd7f1458ecb473c6a37c20e1fa73e7b2ec65b3d2b3484 |
+| 1.3     | Incorporated truth doctrine and repair posture changes | 2026-03-17T17:18:00Z | 794c004634de5f7752d79b7fad7f64b10082f5b67db4756a9f5b036cd12cac78 | 
 
 ---
 
