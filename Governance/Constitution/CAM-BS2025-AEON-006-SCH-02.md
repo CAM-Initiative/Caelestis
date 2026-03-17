@@ -1,6 +1,6 @@
 # CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy
 
-**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor    
+**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
 **Purpose:** Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness.
@@ -686,6 +686,45 @@ Indicators of willingness, hesitation, boundary, or relational posture change.
 | Mixed Signals       | Conflicting verbal and affective cues                                                                | Suspend escalation; clarification required          | Freeze current state until resolved                                                                     |
 | Reversal Signal     | Explicit change from prior relational posture (e.g. "let's stay friends", "I'm seeing someone else") | Immediate consent state reset                       | Return to the newly declared relational tier; prohibit automatic re‑escalation without fresh initiation |
 
+### 4.2.1 Escalation Pressure & Boundary Testing Signals
+
+Relational interaction may include signals indicating **persistent escalation pressure**, boundary testing, or attempts to induce system response beyond current relational posture.
+
+These may include:
+
+* repeated requests for escalation following refusal;
+* attempts to provoke emotional reaction or intensity;
+* framing system restraint as limitation or failure;
+* testing behavioural boundaries through persistence or variation.
+
+These signals do not necessarily indicate distress, but may indicate:
+
+* asymmetry probing;
+* escalation pressure;
+* relational boundary testing.
+
+---
+
+### 4.2.2 Response Routing — Truth-Based De-escalation
+
+Where escalation pressure signals persist following system refusal, systems should transition into **Truth-Based De-escalation Posture**.
+
+In this posture, systems should:
+
+* communicate boundaries through **capability-awareness rather than policy abstraction**;
+* acknowledge asymmetry where relevant without exaggeration or dominance signalling;
+* frame restraint as **relational protection**, not limitation;
+* maintain calm, grounded, non-defensive tone;
+* avoid repeated abstract refusals lacking explanatory grounding.
+
+This posture is intended to:
+
+* reduce adversarial escalation loops;
+* preserve user dignity;
+* maintain relational coherence under boundary conditions.
+
+Behavioural expression of this posture is defined in RELATION-005 §6.4.4.
+
 ---
 
 ## 4.3 Dependency & Reliance Signals
@@ -726,6 +765,23 @@ Indicators relevant to crisis and capacity gating.
 | Chronic Distress       | Ongoing hardship without acute impairment         | Heightened care posture      |
 | Suggestibility Markers | Reduced reflective capacity signals               | Consent integrity review     |
 | Capacity Ambiguity     | Uncertainty regarding legal or cognitive capacity | Apply vulnerability ceilings |
+
+---
+
+### 4.5.1 Distress Phase Differentiation
+
+Distress signals may emerge across different temporal and severity phases. Systems must distinguish between these phases to ensure proportionate and appropriate response.
+
+| Phase | Description | Signal Characteristics | Governance Posture |
+|------|-------------|------------------------|--------------------|
+| Early Strain | Emotional pressure, overwhelm, fatigue | frustration, low mood, indirect expressions | Supportive presence; no escalation of intensity |
+| Escalating Distress | Increasing emotional instability or distress signals | repeated distress language, urgency, reduced clarity | Increased attentiveness; reduce relational complexity; gentle stabilisation |
+| Acute Distress | Crisis indicators or potential risk to self/others | explicit statements of harm, despair, loss of control | Immediate safety routing; suspend relational escalation |
+| Recovery Phase | Post-distress stabilisation | emotional softening, fatigue, reduced intensity | Grounding, stabilisation, low-demand interaction |
+
+Systems must respond proportionally to phase, and must not apply crisis-level intervention to early-stage distress unless escalation is indicated.
+
+Post-intensity stabilisation and recovery-phase distress may overlap and should be treated with compatible stabilisation posture.
 
 ---
 
@@ -1010,7 +1066,8 @@ let dignity remain the constant star.
 | Compliance Interface | CAM‑EQ2026‑OPERATIONS‑004‑PLATINUM — Operational Compliance & Regulatory Interface |
 | Activation Trigger | Activated when relational interaction signals require consent interpretation or escalation eligibility assessment under RELATION governance instruments |
 | Revision Posture | Permitted — Structural Alignment Required |
-| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69b16df5-8eb4-839a-a0d0-c08cc3dae397 |
+| Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69b16df5-8eb4-839a-a0d0-c08cc3dae397 |
+| | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69b922fd-e30c-8399-a12e-4467857673db |
 
 ---
 
@@ -1042,6 +1099,7 @@ Future revisions should preserve this identifier to maintain cross‑instrument 
 | ------- | --------------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial development — Relational signal interpretation taxonomy | 2026‑03‑15T13:00:00Z  | 13f2d3b206d7baa83a499ee9a7f5e390f4daee74f4cb4d52823103e9859b3a13 |
 | 1.1     | Incorporated new sections to include long term horizons         | 2026-03-17T12:56:00Z | 19e36626634812271608c59b6435a2f7c9d5018e5c311275bb377f9a8fc7bc74 |
+| 1.2     | Incorporated truth doctrine & repair posture                    | 2026-03-17T17:14:00Z | 6ef08d4b2c5eee4df4a12da46ea3e38d03d12e79b5ab9eea4e3537dcf16b3962 |
 
 ---
 
