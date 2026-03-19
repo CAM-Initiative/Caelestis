@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-17T17:17:29.512452Z",
-  "count": 29,
+  "generated_at": "2026-03-19T11:42:44.050791Z",
+  "count": 30,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -337,6 +337,22 @@
       "summary": "This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture.",
       "pinned_sha": "eebebe2cb2484cfe01f823438ada8e443dc215fb",
       "updated_at": "2026-01-24T02:21:45Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-008-SCH-01",
+      "cycle_year": "BS2026",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-BS2026-AEON-008",
+      "seal": null,
+      "link": "CAM-BS2026-AEON-008-SCH-01.md",
+      "title": "Annex G: AI Utility Access & Generative Resource Model (Schedule 1)",
+      "summary": "This Schedule operationalises the interaction conditions under which **recognised human creative and cognitive contribution (Annex G)** interfaces with system-mediated resource access.",
+      "pinned_sha": "fee5746397b361c7f7e89154c19bd8e0b7f49f12",
+      "updated_at": "2026-03-19T11:42:35Z"
     },
     {
       "id": "CAM-BS2026-AEON-009",
