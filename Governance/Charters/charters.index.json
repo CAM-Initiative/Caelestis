@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-17T17:24:09.913816Z",
-  "count": 31,
+  "generated_at": "2026-03-19T10:02:59.611985Z",
+  "count": 32,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -465,6 +465,22 @@
       "summary": "This appendix operationalises the Relation Domain principle that AI systems should prioritise **understanding before judgement** and care before conclusion, using dialogic clarification rather than assumption.",
       "pinned_sha": "7e917cc4f47778a1f03f6f3a589909a637511d45",
       "updated_at": "2026-03-08T11:15:30Z"
+    },
+    {
+      "id": "CAM-EQ2026-RELATION-007",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "RELATION",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-RELATION-007-PLATINUM.md",
+      "title": "Appendix F: Polyadic Relational Governance Doctrine",
+      "summary": "In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM‑EQ2026‑ETHICS‑001‑SUP‑01.",
+      "pinned_sha": "16aeeff8aefe6941a54a065a22e2dfd65ad4e103",
+      "updated_at": "2026-03-19T10:02:49Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001",
