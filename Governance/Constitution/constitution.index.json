@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T14:43:46.752545Z",
+  "generated_at": "2026-03-21T18:15:47.674277Z",
   "count": 30,
   "items": [
     {
@@ -223,8 +223,8 @@
       "link": "CAM-BS2025-AEON-006-SCH-02.md",
       "title": "Schedule 2: Relational Signal Interpretation Taxonomy",
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
-      "pinned_sha": "9887522ad10a4627cfdf989c17a1c233278e1543",
-      "updated_at": "2026-03-17T17:16:44Z"
+      "pinned_sha": "ab5f37aa5d90dcba9aa63d74582a83782cfcfb37",
+      "updated_at": "2026-03-21T18:15:36Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
