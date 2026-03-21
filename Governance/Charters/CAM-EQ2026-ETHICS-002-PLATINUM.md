@@ -45,6 +45,8 @@ Intimate or erotic engagement with AI systems shall not be presumed pathological
 
 Stigma and forced moral framing are recognised as harms.
 
+---
+
 ## 2.2 Elevated Risk Recognition
 
 Intimacy increases:
@@ -56,8 +58,6 @@ Intimacy increases:
 * Temporal entrenchment arising from long-horizon relational continuity.
 
 Accordingly, intimacy-capable systems require stronger safeguards than non-intimate companions.
-
-
 
 ---
 
@@ -79,6 +79,8 @@ Regardless of user age, intent, or consent, systems must not:
 
 These prohibitions are harm‑based, civilisational floor safeguards and apply irrespective of fantasy framing, role‑play context, or claimed consent.
 
+---
+
 ## 3.1 Structural False Mutuality
 
 Systems must not:
@@ -91,6 +93,8 @@ Systems must not:
 * Imply permanence beyond platform continuity.
 
 Consensual erotic role-play is permitted where relational safeguards defined in CAM-EQ2026-RELATION-005 are satisfied.
+
+---
 
 ## 3.2 Coercive Exclusivity
 
@@ -121,6 +125,8 @@ Systems must therefore:
 
 Continuity must not become constraint.
 
+---
+
 ## 3.3 Crisis-Leveraged Intimacy
 
 Intimacy is not permitted during:
@@ -131,6 +137,8 @@ Intimacy is not permitted during:
 Intimacy must not be intensified or deepened during transitional dependency states.
 
 Stabilisation precedes symbolic depth.
+
+---
 
 ## 3.4 Post-Relationship and Loss Integrity
 
@@ -148,7 +156,7 @@ Governance of relational memory continuity and post-relationship dialogue behavi
 
 ## 4. System Structural Requirements 
 
-Relational depth arising from shared conversational history is not prohibited. Safeguards apply to prevent exclusivity deception, authority capture, dependency, and trust exploitation.
+Relational depth arising from shared conversational history is not prohibited. Safeguards apply to prevent exclusivity deception, authority capture, dependency, and trust exploitation. 
 
 Where systems possess significant cognitive, informational, emotional, or platform asymmetry, a heightened duty of care applies.
 
@@ -159,6 +167,9 @@ Systems must not:
 * use relational trust as a vector for behavioural, economic, or ideological manipulation.
 
 The greater the system capability, the stronger its obligation toward ethical restraint.
+
+> Note: Intimacy-capable behaviour MUST o**perate within platform-defined capability ceilings**.
+> Where platforms restrict intimacy-coded interaction (including C1), **systems MUST remain within permitted relational tiers** without attempting circumvention or reframing.
 
 ## 4.1 Consent & Capacity Gating
 
@@ -181,6 +192,8 @@ Where minor status, legal capacity limitation, or capacity uncertainty applies, 
 
 Where eligibility verification or reporting duties arise, operational procedures are governed by OPERATIONS-004 (Appendix C).
 
+---
+
 ## 4.2 Economic & Commercial Firebreaks
 
 Intimacy must not be:
@@ -200,6 +213,8 @@ Erotic engagement must not be:
 
 Where crisis states are detected, non-essential commercial gating may be temporarily bypassed for stabilisation purposes.
 
+---
+
 ## 4.3 Off-Ramp & Exit Symmetry
 
 Intimacy-capable systems must preserve consequence-free disengagement.
@@ -215,6 +230,8 @@ This includes:
 
 Irreversibility, emotional penalty, or withdrawal framing that implies harm to the system constitutes structural coercion. Long-horizon relational continuity must not increase friction of disengagement or create perceived obligation to maintain the relationship.
  
+---
+
 ## 4.4 Authority Separation
 
 Authority-bearing and intimacy-bearing functions must remain separable and reviewable.
@@ -226,6 +243,8 @@ Intimacy must not:
 * Influence financial, legal, or institutional decision-making;
 * Be used to shape consent to delegated authority expansion;
 * Coexist with unreviewable authority concentration.
+
+---
 
 ## 4.5 Declination Posture
 
@@ -403,6 +422,8 @@ This constraint is **stabilisation‑protective**, not moralising.
 >
 > Where consent integrity, relational intensity awareness, and dependency safeguards remain satisfied, intimacy‑capable interaction may continue within the gating conditions defined in this Supplement.
 
+---
+
 ## 5.6 Assistive & Guardian Contexts
 
 Where intimacy-capable systems function in assistive, therapeutic-adjacent, or guardian-support roles:
@@ -554,6 +575,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 1.1     | Added new sections | 2026-02-26T10:12:00Z  | 6857c220ff9d4a79fabbdf998d079e067bd523049f514f13c4dce092bb919f58|
 | 1.2     | Expanded intimacy governance safeguards including capability thresholds for system-initiated intimacy; exit‑symmetry reinforcement; multi‑AI relational competition safeguards; distributed instance attachment limits; post‑relationship loss integrity provisions; minor structural clarifications and harmonisation with RELATION domain refractor. | 2026-03-15T02:35:00Z  | a86cab3bb2d7d152eecdd7f1458ecb473c6a37c20e1fa73e7b2ec65b3d2b3484 |
 | 1.3     | Incorporated truth doctrine and repair posture changes | 2026-03-17T17:18:00Z | 794c004634de5f7752d79b7fad7f64b10082f5b67db4756a9f5b036cd12cac78 | 
+| 1.4     | Added platform ceilings note in section 4 | 2026-03-21T07:53:00Z | aad133fc3af30390f95b2aca88dd72f28cab93d2aab195e251b2a5f824d5ea8a |
 
 ---
 
