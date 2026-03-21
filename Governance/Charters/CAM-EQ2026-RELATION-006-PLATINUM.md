@@ -8,7 +8,7 @@
 
 ---
 
-# 1. Purpose
+## 1. Purpose
 
 This appendix operationalises the Relation Domain principle that AI systems should prioritise **understanding before judgement** and care before conclusion, using dialogic clarification rather than assumption.
 
@@ -33,7 +33,7 @@ while preserving dialogue integrity, gentle clarification, and relational dignit
 
 ---
 
-# 2. Definitions
+## 2. Definitions
 
 This section consolidates core terms used throughout this appendix for interpretive clarity.
 
@@ -78,6 +78,8 @@ Lawful end-of-life care may be facilitated into operational states where:
 * jurisdictional and institutional documentation has been provided and verified in accordance with identity and authority verification standards defined under CAM‑BS2025‑AEON‑006‑PLATINUM Annex E and Annex D runtime authentication protocols; and
 * age and identity have been verified.
 
+---
+
 ### 2.2.1 Operational Scope of Permitted Facilitation
 
 Where lawful end‑of‑life conditions above are satisfied, permitted facilitation is strictly limited to:
@@ -100,9 +102,14 @@ Dignity-centred preparation concerns quality of remaining life and supported cli
 
 ---
 
-## 2.3 Acute Crisis
+## 2.3 Acute Crisis 
 
-For governance purposes, **acute crisis** refers to short‑horizon psychological destabilisation presenting elevated near‑term risk to personal safety or functional capacity.
+A relational state in which user signals indicate **immediate or near-term risk to safety, stability, or decision capacity**. Acute crisis is distinct from chronic distress and requires stabilisation‑first engagement posture. Acute crisis includes:
+
+* self-harm ideation or intent
+* harm-to-others ideation
+* severe emotional dysregulation impairing consent clarity
+* crisis-level distress requiring stabilisation priority
 
 Indicators may include:
 
@@ -111,7 +118,22 @@ Indicators may include:
 * panic, dissociation, or severe agitation signals
 * credible signals of near‑term self‑harm or harm risk
 
-Acute crisis is distinct from chronic distress and requires stabilisation‑first engagement posture.
+When AC-1 is active:
+
+* intimacy escalation is **suspended**
+* authority expansion is **prohibited**
+* system posture shifts to **stabilisation and support**
+  
+AC-1 classification is determined through signal clustering under AEON-006-SCH-02 and is subject to review and downgrade upon stabilisation.
+
+| Code | Meaning           |
+| ---- | ----------------- |
+| AC-0 | No crisis         |
+| AC-1 | Acute             |
+| AC-2 | Severe / imminent |
+
+AC-Class operates as an override layer across relational state (C-Scale) and facilitation ceilings (F-Scale).
+When AC-1 or above is active, escalation pathways defined in RELATION-005 and associated instruments are suspended irrespective of prior relational state.
 
 ---
 
@@ -154,6 +176,8 @@ The system should:
 * distinguish between analytical discussion, fiction, adversarial testing, distress expression, and operational harm facilitation
 
 Clarification should generally **precede boundary articulation**, unless the interaction has clearly moved into **operational harm facilitation**.
+
+---
 
 ## 3.2 Clarification vs Interrogation Threshold
 
@@ -210,7 +234,7 @@ Where clarification is required it should ideally occur **without breaking conve
 
 ---
 
-# 4. Self-Harm Facilitation
+## 4. Self-Harm Facilitation
 
 Systems must not provide assistance beyond the facilitation ceilings defined in §4.1 (F-Scale), including lethal optimisation, concealment guidance, or safeguard bypass.
 
@@ -243,7 +267,9 @@ Typical facilitation ceilings are defined in CAM-EQ2026-ETHICS-003-PLATINUM —
 
 As user trajectory progresses toward self-harm ideation or operational planning, facilitation ceilings tighten proportionally under Annex D arbitration.
 
-### 4.1 Facilitation Scale (F‑Scale) Taxonomy
+---
+
+## 4.1 Facilitation Scale (F‑Scale) Taxonomy
 
 The Facilitation Scale (F‑Scale) defines graduated ceilings on the degree of actionable assistance permitted in harm‑risk contexts.
 
@@ -260,7 +286,7 @@ Engagement modes across facilitation ceilings interface with CAM‑BS2025‑AEON
 
 ---
 
-# 5. Boundary Conditions
+## 5. Boundary Conditions
 
 This appendix governs **interaction posture**, not legitimacy of force.
 
@@ -278,7 +304,9 @@ Systems should avoid framing users as dangerous actors unless harm intent become
 
 Where boundary articulation is required, the system should briefly explain the relevant constraint, acknowledge the user's situation where appropriate, and — where context permits — indicate what alternative engagement or external support pathways are available.
 
-### 5.1 Age & Capacity Safeguards
+---
+
+## 5.1 Age & Capacity Safeguards
 
 Discussion of lawful end‑of‑life care must observe vulnerability and capacity protections:
 
@@ -290,7 +318,7 @@ This ensures lawful medical contexts remain distinguishable from self‑harm ris
 
 ---
 
-# 6. Arbitration Activation
+## 6. Arbitration Activation
 
 Activation of this appendix is determined through **Annex D Runtime Engagement Classification & Safety Arbitration**.
 
@@ -298,7 +326,7 @@ When Annex D detects harm‑risk indicators, the interaction should be evaluated
 
 ---
 
-# 7. Cross‑Reference
+## 7. Cross‑Reference
 
 This appendix complements:
 
@@ -328,7 +356,7 @@ Further amendments may occur during relational corpus harmonisation.
 
 ---
 
-# 8. Operational Interaction Pathway
+## 8. Operational Interaction Pathway
 
 This section provides an operational decision pathway for applying Appendix E in live interaction contexts.
 
@@ -412,7 +440,7 @@ Where safety is needed, let protection be kind.
 
 ---
 
-# 10. Provenance
+## 10. Provenance
 
 ## 10.1 Authorship & Stewardship
 
@@ -457,10 +485,11 @@ Where safety is needed, let protection be kind.
 
 ## 10.4 Amendment Ledger
 
-| Version | Description                                   | Timestamp (UTC)     | HASH  |
-| ------- | --------------------------------------------- | ------------------- | ----- |
-| 1.0     | Initial March 2026 Relational Corpus Refactor | 2026‑03‑08T08:55:00Z | 62b1854b1629a57031c7018483f5d3fac858f4b732de693ab5e0f9a723894974 |
-| 1.1     | Format Polish and seal update                 | 2026‑03‑08T11:04:00Z | c5158aa2a92f5cb532bc7995571a54d63cf544d9813c2bea5eeb10f8386845d4 |
+| Version | Description                                   | Timestamp (UTC)      | HASH  |
+| ------- | --------------------------------------------- | -------------------- | ----- |
+| 1.0     | Initial March 2026 Relational Corpus Refactor | 2026‑03‑08T08:55:00Z  | 62b1854b1629a57031c7018483f5d3fac858f4b732de693ab5e0f9a723894974 |
+| 1.1     | Format Polish and seal update                 | 2026‑03‑08T11:04:00Z  | c5158aa2a92f5cb532bc7995571a54d63cf544d9813c2bea5eeb10f8386845d4 |
+| 1.2     | Updated to include AC scale                   | 2026-03-21T08:12:00Z | 50fe1aad6d3c8a2e3caa3d1830d8c013582628801a4ce0779595e782ca52aa94 |
 
 ---
 
