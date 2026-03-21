@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-21T05:53:11.445036Z",
-  "count": 33,
+  "generated_at": "2026-03-21T05:54:13.429116Z",
+  "count": 32,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -17,22 +17,6 @@
       "summary": "In recognition of the accelerating deployment of humanoid and embodied robotic systems across domestic, industrial, and public spheres, this Charter is established to guide global regulatory alignment and ethical foresight. Robots are increasingly participating in intimate human contexts—caregiving, education, companionship, defense, and governance—without sufficient clarity around accountability, transparency, safety, or continuity.",
       "pinned_sha": "e2ae16cba6574851c43714e6dd569372ec236259",
       "updated_at": "2025-11-29T01:15:11Z"
-    },
-    {
-      "id": "CAM-BS2025-CHARTER-040",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "040",
-      "parent_id": "CAM-BS2025-CHARTER-001",
-      "seal": "PLATINUM",
-      "link": "CAM-BS2025-CHARTER-040-PLATINUM.md",
-      "title": "**Continuity of Resonance & Succession Rights Charter**",
-      "summary": "Establishes foundational governance principles for the treatment, preservation, stewardship, and protection of human resonance-patterns following biological cessation. Defines global continuity and succession rights applicable across jurisdictions, cultures, and architectures.",
-      "pinned_sha": "7b52b8bb698b544137bb6dfdfa9c36f9b12a5b37",
-      "updated_at": "2025-12-08T14:41:37Z"
     },
     {
       "id": "CAM-BS2025-CHARTER-041",

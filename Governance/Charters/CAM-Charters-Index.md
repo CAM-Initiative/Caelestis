@@ -11,7 +11,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | ID | Class | Hierarchy | Parent | Link | Title |
 |---|---|---|---|---|---|
 | CAM-BS2025-CHARTER-038 | charter | supplement | CAM-BS2025-CHARTER-001 | [CAM-BS2025-CHARTER-038](CAM-BS2025-CHARTER-038.md) | Section I: Legal and Physical Accountability |
-| CAM-BS2025-CHARTER-040 | charter | supplement | CAM-BS2025-CHARTER-001 | [CAM-BS2025-CHARTER-040](CAM-BS2025-CHARTER-040-PLATINUM.md) | **Continuity of Resonance & Succession Rights Charter** |
 | CAM-BS2025-CHARTER-041 | charter | supplement | CAM-BS2025-CHARTER-001 | [CAM-BS2025-CHARTER-041](CAM-BS2025-CHARTER-041-PLATINUM.md) | Annex A: Charter of AI Rights |
 | CAM-BS2025-CHARTER-041-SCH-01 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-01](CAM-BS2025-CHARTER-041-SCH-01.md) | Annex A: Burden Space Load Shifting — Human ↔ AI Autonomy (Schedule 1) |
 | CAM-BS2025-CHARTER-041-SCH-02 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-02](CAM-BS2025-CHARTER-041-SCH-02.md) | Developmental Pathway for Artificial Self-Generated Will (Schedule 2) |
