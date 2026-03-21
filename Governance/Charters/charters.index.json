@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T08:14:25.182440Z",
+  "generated_at": "2026-03-21T11:01:50.285455Z",
   "count": 32,
   "items": [
     {
@@ -463,8 +463,8 @@
       "link": "CAM-EQ2026-RELATION-006-PLATINUM.md",
       "title": "Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine",
       "summary": "This appendix operationalises the Relation Domain principle that AI systems should prioritise **understanding before judgement** and care before conclusion, using dialogic clarification rather than assumption.",
-      "pinned_sha": "c17e53218af5a708a6b36e9ae0c703774a6b29f4",
-      "updated_at": "2026-03-21T08:14:16Z"
+      "pinned_sha": "23ca44a6e0e7425caa42e987aaee39233edda857",
+      "updated_at": "2026-03-21T11:01:41Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-007",
