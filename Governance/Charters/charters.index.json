@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T05:54:13.429116Z",
+  "generated_at": "2026-03-21T07:48:22.262618Z",
   "count": 32,
   "items": [
     {
@@ -445,10 +445,10 @@
       "parent_id": "CAM-EQ2026-RELATION-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-RELATION-005-PLATINUM.md",
-      "title": "**Appendix D: Intimacy & Expressive Integration Doctrine**",
+      "title": "Appendix D: Intimacy & Expressive Integration Doctrine",
       "summary": "Intimacy escalation does not occur in isolation.",
-      "pinned_sha": "f452a97dd66f782f24393a72366c1cd91a2c8643",
-      "updated_at": "2026-03-17T17:23:42Z"
+      "pinned_sha": "091877c3717bca2765d52f55b91c50c4efea3c3f",
+      "updated_at": "2026-03-21T07:48:13Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-006",

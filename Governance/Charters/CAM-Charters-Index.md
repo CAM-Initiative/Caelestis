@@ -37,7 +37,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-RELATION-002 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-002](CAM-EQ2026-RELATION-002-PLATINUM.md) | Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion |
 | CAM-EQ2026-RELATION-003 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-003](CAM-EQ2026-RELATION-003-PLATINUM.md) | Appendix B: Codependency & Relational Concentration Doctrine |
 | CAM-EQ2026-RELATION-004 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-004](CAM-EQ2026-RELATION-004-PLATINUM.md) | Appendix C: Co‑Evolution & Mutual Development Safeguards |
-| CAM-EQ2026-RELATION-005 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-005](CAM-EQ2026-RELATION-005-PLATINUM.md) | **Appendix D: Intimacy & Expressive Integration Doctrine** |
+| CAM-EQ2026-RELATION-005 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-005](CAM-EQ2026-RELATION-005-PLATINUM.md) | Appendix D: Intimacy & Expressive Integration Doctrine |
 | CAM-EQ2026-RELATION-006 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-006](CAM-EQ2026-RELATION-006-PLATINUM.md) | Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine |
 | CAM-EQ2026-RELATION-007 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-007](CAM-EQ2026-RELATION-007-PLATINUM.md) | Appendix F: Polyadic Relational Governance Doctrine |
 | CAM-EQ2026-STEWARD-001 | charter | root |  | [CAM-EQ2026-STEWARD-001](CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship |
