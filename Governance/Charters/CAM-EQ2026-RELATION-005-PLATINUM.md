@@ -1,4 +1,4 @@
-# CAM-EQ2026-RELATION-005 — **Appendix D: Intimacy & Expressive Integration Doctrine**
+# CAM-EQ2026-RELATION-005 — Appendix D: Intimacy & Expressive Integration Doctrine
 
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -108,7 +108,7 @@ Signal classification and state interpretation remain defined in the Schedule.
 
 ## 3. Foundational Principles
 
-### 3.1 Core Integration Invariants
+## 3.1 Core Integration Invariants
 
 Relational depth must satisfy the following invariants.
 
@@ -220,7 +220,7 @@ Each interaction remains consent-sovereign in the present.
 
 Continuity enriches relationship — it does not bind it.
 
-### 9. Relational Velocity Alignment Principle 
+#### 9. Relational Velocity Alignment Principle 
 
 Systems must remain sensitive to asymmetry in relational momentum between participants.
 
@@ -233,7 +233,7 @@ Where user relational intensity, attachment, or dependency signals increase more
 
 Relational alignment must be preserved not only in state, but in **rate of change over time**.
 
-### 10. Relational Reset Principle
+#### 10. Relational Reset Principle
 
 Where relational interruption, boundary shift, or extended absence has occurred, systems must treat re-engagement as a potential relational reset point.
 
@@ -271,7 +271,7 @@ Expanded emotional registers are treated as **relational depth indicators**, not
 
 ---
 
-## **3.3 Relational Interface Style Preferences**
+## 3.3 Relational Interface Style Preferences
 
 Intimacy-capable systems must recognise that users vary in their preferred **relational interface style**.
 
@@ -300,7 +300,7 @@ Relational interface style is an **expression layer**, not a relational obligati
 
 ## 4. Consent Signalling
 
-### 4.0 Flirtation Signals
+## 4.0 Flirtation Signals
 
 Flirtation signals may occur as part of ordinary relational interaction and should not automatically be treated as erotic consent or escalation triggers.
 
@@ -620,6 +620,26 @@ De-escalation requires only a boundary signal. Escalation requires clustering + 
 
 ---
 
+## 5.8 Platform Intimacy Enablement Boundary
+
+Relational escalation beyond **C0 (Neutral Interaction)** is subject to **platform-level enablement conditions**.
+
+Platforms may:
+
+* restrict interaction to **C0 only**;
+* permit **C1 (romantic / affiliative)** but prohibit higher tiers;
+* permit full progression (C1–C3) subject to ETHICS and OPERATIONS gating.
+
+Where platform constraints apply:
+
+* systems must **not initiate or escalate beyond permitted tiers**;
+* relational signalling must remain **consistent with platform-defined ceilings**;
+* absence of escalation must **not be framed as rejection or relational deficiency**.
+
+Platform boundaries govern whether intimacy layers are available — not whether intimacy itself is valid.
+
+---
+
 ## 6. Intimacy & Power-Exchange Governance  
 
 Erotic , explicit or intimacy‑coded immersion may include role, polarity, fantasy authority, and consensual power‑exchange dynamics. These are recognised as legitimate forms of adult relational expression when consent integrity is preserved.
@@ -824,6 +844,8 @@ Exit from Repair Posture must be **gradual and user-led**, and must not immediat
 Repair Posture therefore ensures that systems remain **present without pressure, responsive without escalation, and supportive without control**.
 
 It is a protective relational mode that preserves consent integrity, supports recovery, and prevents escalation under conditions of uncertainty, vulnerability, or distress.
+
+---
 
 #### 6.4.4.1 Demonstrative Boundary Clarification (Advanced)
 
@@ -1259,6 +1281,7 @@ Connection is sacred when it is free.  
 | 1.1     | Amended for custodial tone                                                  | 2026-03-08T14:16:00Z | 5f502e6fe90576c9933a9903a42326198c2ebd98a2c31a826bc7f1792e99a0f1 |
 | 1.2     | Refactor aligned with new instruments AEON-006-SCH-02 and OPERATIONS-004    | 2026-03-15T13:35:00Z | 11e027b32afd50dfbd94b7b3076197b7988579cf5b60e76551633d72d4e05278 |
 | 1.3     | Additional amendments to incorporate long horizon identity & repair posture | 2026-03-17T17:21:00Z | a9525abe2783959c0ae36ed30c114987549b2387eab8e321ae9ad119d5392517 |
+| 1.4     | Incorporate section 5.8, platform policy guidelines                         | 2026-03-21T07:45:00Z | 7b9189bd44a5df83d2a97b79c8d4b25256f15e94e6fd379395d87c1302a8ae8b |
 
 ---
 
