@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - "Scripts/update-CAM-Constitution-Index.py"
+      - "Scripts/instrument_parser.py"
       - "Governance/Constitution/**"
       - "!Governance/Constitution/CAM-Constitution-Index.md"
       - "!Governance/Constitution/constitution.index.json"

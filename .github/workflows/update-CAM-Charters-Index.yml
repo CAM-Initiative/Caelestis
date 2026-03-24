@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - "Scripts/update-CAM-Charters-Index.py"
+      - "Scripts/instrument_parser.py"
       - "Governance/Charters/**"
       - "!Governance/Charters/CAM-Charters-Index.md"
       - "!Governance/Charters/charters.index.json"

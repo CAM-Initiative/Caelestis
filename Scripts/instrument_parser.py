@@ -85,12 +85,18 @@ def parse_instrument_filename(filename: str, folder_type: str) -> Optional[dict]
     hierarchy_type = _normalise_hierarchy_type(h_type)
     hierarchy_number = h_number if hierarchy_type else None
 
-    if hierarchy_type:
-        canonical_h_type = "SCH" if h_type and h_type.upper() == "SCHEDULE" else h_type.upper()
+    # In charter files, treat non-001 base documents as appendices when no hierarchy token exists.
+    if not hierarchy_type and _normalise_folder_type(folder_type) == "charters" and number != "001":
+        hierarchy_type = "appendix"
+        hierarchy_number = number
+        parent_id = f"CAM-{cycle_year}-{domain_token.upper()}-001"
+
+    if h_type:
+        canonical_h_type = "SCH" if h_type.upper() == "SCHEDULE" else h_type.upper()
         doc_id = f"{parent_id}-{canonical_h_type}-{h_number}"
         seal_value = None
     else:
-        doc_id = parent_id
+        doc_id = f"CAM-{cycle_year}-{domain_token.upper()}-{number}"
         seal_value = seal.upper() if seal else None
 
     return {
