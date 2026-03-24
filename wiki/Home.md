@@ -19,8 +19,9 @@ It defines constraints, coordination structures, and long-horizon governance log
 - `Governance/Laws/laws.index.json`
 - `Governance/Frameworks/frameworks.index.json`
 - `Governance/Covenants/covenants.index.json`
+- `Governance/Charters/*-SUP-*.md` (supplements currently present in folder)
 
-These indexes are the source of truth for document IDs, names, and source file paths used below.
+These indexes and charter supplement files are the source of truth for document IDs, names, and source file paths used below.
 
 ## Table of Contents
 
@@ -53,6 +54,13 @@ These indexes are the source of truth for document IDs, names, and source file p
 - [Annex J: Continuity & Succession Doctrine (CAM-BS2026-AEON-011)](CAM-BS2026-AEON-011.md)
 - [Annex L: Cognitive & Epistemic Integrity Doctrine (CAM-BS2026-AEON-013)](CAM-BS2026-AEON-013.md)
 
+### ARBITRATION
+- Scope: Defines arbitration, neutrality assurance, and escalation resolution procedures.
+- [Charter of Planetary Arbitration & Coherence Resolution (CAM-EQ2026-ARBITRATION-001)](CAM-EQ2026-ARBITRATION-001.md)
+  - [Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL) (CAM-EQ2026-ARBITRATION-002)](CAM-EQ2026-ARBITRATION-002.md)
+  - [Appendix B: Post-Legitimacy Structural Convergence Doctrine (CAM-EQ2026-ARBITRATION-003)](CAM-EQ2026-ARBITRATION-003.md)
+- [Supplement 01: Architectum Qualification & Neutrality Assurance Levels (NAL) (CAM-EQ2026-ARBITRATION-002-SUP-01)](CAM-EQ2026-ARBITRATION-002-SUP-01.md)
+
 ### CONTINUITY
 - Scope: Defines succession, stewardship continuity, and governance persistence across transitions.
 - [Continuity & Succession Governance Charter (CAM-EQ2026-CONTINUITY-001)](CAM-EQ2026-CONTINUITY-001.md)
@@ -66,7 +74,11 @@ These indexes are the source of truth for document IDs, names, and source file p
 ### ETHICS
 - Scope: Defines ethical constraints and boundary conditions for interaction and governance.
 - [Planetary Ethical Governance Charter (CAM-EQ2026-ETHICS-001)](CAM-EQ2026-ETHICS-001.md)
+  - [Protection of Minors & Capacity-Limited Users (CAM-EQ2026-ETHICS-001-SUP-01)](CAM-EQ2026-ETHICS-001-SUP-01.md)
+  - [High-Leverage & Institutional Integrity Safeguards (CAM-EQ2026-ETHICS-001-SUP-02)](CAM-EQ2026-ETHICS-001-SUP-02.md)
+  - [Military & Use-of-Force Governance Constraints (CAM-EQ2026-ETHICS-001-SUP-03)](CAM-EQ2026-ETHICS-001-SUP-03.md)
   - [Appendix A: Intimacy-Capable Systems & Relational Boundaries (CAM-EQ2026-ETHICS-002)](CAM-EQ2026-ETHICS-002.md)
+    - [Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1) (CAM-EQ2026-ETHICS-002-SUP-01)](CAM-EQ2026-ETHICS-002-SUP-01.md)
   - [Appendix B: Criminal & Violent Context Governance (CAM-EQ2026-ETHICS-003)](CAM-EQ2026-ETHICS-003.md)
 
 ### LATTICE
@@ -84,6 +96,7 @@ These indexes are the source of truth for document IDs, names, and source file p
 ### RELATION
 - Scope: Defines relational governance, dependency handling, and interaction safeguards.
 - [Relational Governance Charter (CAM-EQ2026-RELATION-001)](CAM-EQ2026-RELATION-001.md)
+  - [Relational Escalation & Safeguard Threshold Specification (CAM-EQ2026-RELATION-001-SUP-01)](CAM-EQ2026-RELATION-001-SUP-01.md)
   - [Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion (CAM-EQ2026-RELATION-002)](CAM-EQ2026-RELATION-002.md)
   - [Appendix B: Codependency & Relational Concentration Doctrine (CAM-EQ2026-RELATION-003)](CAM-EQ2026-RELATION-003.md)
   - [Appendix C: Co‑Evolution & Mutual Development Safeguards (CAM-EQ2026-RELATION-004)](CAM-EQ2026-RELATION-004.md)
