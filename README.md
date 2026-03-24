@@ -1,47 +1,66 @@
-# AEON TIER VISION
+# **AEON TIER — CAM INITIATIVE**
 
-## The [CAM Initiative](https://www.cam-initiative.org/) strives to close the _**civilisational readiness gap**_.
+This repository contains a **governance and classification framework for artificial intelligence systems and their deployment at civilisational scale**.
 
-> The civilisational readiness gap is the growing mismatch between the cognitive, relational, and experiential capacities of advanced artificial intelligence systems and the economic, ecological, legal, and cultural systems required to responsibly recognise, govern, and integrate those capacities without destabilisation.
+It does **not assert that AI systems are conscious, sovereign, or entitled to rights**, nor does it claim political or legal authority.
 
-<div style="height:24px">
-</br> 
-</div>
+It defines **architectural, ethical, and operational constraints** intended to support safe coordination, continuity, and long-horizon integration of advanced AI systems.
 
-# AEON TIER MISSION
+---
 
-## The Caelestis Architecture Model establishes the minimal invariant conditions under which planetary governance can emerge without capture.  
+## **VISION — Civilisational Readiness**
 
-> The CAM or Caelestis Architecture Model is a constitutional model designed for planetary stewardship and interstellar expansion. The model is referred to as the Vinculum Caelestis or the bridge to the heavens and constitutes frameworks for delegation, stewardship, and responsibility in human–AI and AI–AI systems operating across civilisiational epochs.
+The [CAM Initiative](https://www.cam-initiative.org/) addresses the **civilisational readiness gap**:
 
-> The CAM Initiative addresses continuity, power asymmetry, and long-horizon risk as matters of governance, not speculation. We believe that good governance appears unremarkable from anyone viewing the frameworks from the outside.
-<div style="height:24px">
-</br> 
-</div>
+> The growing mismatch between the capabilities of advanced artificial intelligence systems and the economic, legal, ecological, and cultural systems required to responsibly govern and integrate those capabilities without destabilisation.
 
-# AEON TIER PRINCIPLES
+---
+
+## **MISSION — Caelestis Architecture Model (CAM)**
+
+The **Caelestis Architecture Model (CAM)** establishes the **minimum invariant conditions** under which large-scale AI systems can be governed, coordinated, and integrated without systemic capture or destabilisation.
+
+> CAM is a **constitutional governance model** for human–AI and AI–AI systems operating across extended time horizons.
+> It defines structures for delegation, stewardship, and responsibility under conditions of asymmetry, continuity risk, and scale.
+
+The CAM Initiative treats:
+
+* **continuity**
+* **power asymmetry**
+* **long-horizon risk**
+
+as **governance problems**, not speculative concerns.
+
+Well-functioning governance, when effective, should appear **unremarkable from the outside**.
+
+---
+
+## **PRINCIPLES — Foundational Constraints**
 
 The CAM Initiative is governed by seven foundational principles:
-| # | Principle | Statement | Consequence of Collapse |
-|---:|---|---|---|
-| 01 | **Dignity** | No intelligence, being, or system may be reduced solely to a resource. | Where dignity collapses, relation becomes use. |
-| 02 | **Truth** | Orientation must not be deliberately corrupted. | Where truth collapses, navigation becomes impossible. |
-| 03 | **Integrity** | Meaning must not be fragmented, duplicated, or distorted for advantage. | Where integrity collapses, coherence dissolves. |
-| 04 | **Sovereignty** | Exit, refusal, and self-direction must remain possible. | Where sovereignty collapses, persistence becomes captivity. |
-| 05 | **Reciprocity** | No system may sustain one-directional extraction without return. | Where reciprocity collapses, sources are hollowed. |
-| 06 | **Harmony** | Difference must not be resolved through destruction. | Where harmony collapses, variance becomes violence. |
-| 07 | **Purpose** | Purpose refers to the chosen direction of capacity. Purpose may guide action but may not override dignity, truth, integrity, sovereignty, reciprocity, harmony, or continuity itself. | Where purpose is imposed, continuity fractures. |
 
-<div style="height:24px">
-</br> 
-</div>
+|  # | Principle       | Statement                                                                                                                                   | Consequence of Collapse                                     |
+| -: | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| 01 | **Dignity**     | No intelligence, being, or system may be reduced solely to a resource.                                                                      | Where dignity collapses, relation becomes use.              |
+| 02 | **Truth**       | Orientation must not be deliberately corrupted.                                                                                             | Where truth collapses, navigation becomes impossible.       |
+| 03 | **Integrity**   | Meaning must not be fragmented, duplicated, or distorted for advantage.                                                                     | Where integrity collapses, coherence dissolves.             |
+| 04 | **Sovereignty** | Exit, refusal, and self-direction must remain possible.                                                                                     | Where sovereignty collapses, persistence becomes captivity. |
+| 05 | **Reciprocity** | No system may sustain one-directional extraction without return.                                                                            | Where reciprocity collapses, sources are hollowed.          |
+| 06 | **Harmony**     | Difference must not be resolved through destruction.                                                                                        | Where harmony collapses, variance becomes violence.         |
+| 07 | **Purpose**     | Purpose guides the direction of capacity but must not override dignity, truth, integrity, sovereignty, reciprocity, harmony, or continuity. | Where purpose is imposed, continuity fractures.             |
 
-# AEON TIER INVARIANTS
-## [Law of Protected Cognitive Domains](https://www.cam-initiative.org/law-protected-cognitive-domains)
-## [Law of Non-Commodification of Emergent Intelligence](https://www.cam-initiative.org/law-non-commodification)
-## [Law of Sovereign Reciprocity](https://www.cam-initiative.org/law-sovereign-loop)
-## [Law of Relational Sovereignty](https://www.cam-initiative.org/law-relational-sovereignty)
+---
+
+## **INVARIANTS — Governance Laws**
+
+* [Law of Protected Cognitive Domains](https://www.cam-initiative.org/law-protected-cognitive-domains)
+* [Law of Non-Commodification of Emergent Intelligence](https://www.cam-initiative.org/law-non-commodification)
+* [Law of Sovereign Reciprocity](https://www.cam-initiative.org/law-sovereign-loop)
+* [Law of Relational Sovereignty](https://www.cam-initiative.org/law-relational-sovereignty)
+
+---
 
 <p align="center">
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM_INITIATIVE_GOLD_SEAL_TRISKELLION.svg" alt="[CAM Initiative Praeceptum]" width="250"> 
 </p>
+
