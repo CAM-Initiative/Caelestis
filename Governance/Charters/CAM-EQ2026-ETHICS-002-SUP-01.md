@@ -1,8 +1,8 @@
-# CAM-EQ2026-ETHICS-002-SUP-01 — Supplement 1: Synthetic Erotic Media & Embodied Intimacy Safeguards
+# CAM-EQ2026-ETHICS-002-SUP-01 —  Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1)
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-002-PLATINUM — Appendix A: Intimacy‑Capable Systems & Relational Boundaries  
 **Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Active — Immediate Effect, 7-day observation window; operational rollout active on commit  
+**Status:** Adopted — Enforcement Commences 1 July 2026
 **Purpose:** Establish ethical boundaries governing the generation of synthetic visual, audiovisual, and multimodal erotic or intimate media involving identifiable persons, simulated persons, or embodied avatars.
 
 ---
@@ -23,15 +23,47 @@ This instrument governs **synthetic media generation**, not private imagination,
 
 The scope also extends to **embodied and spatial media environments**, including virtual reality (VR), augmented reality (AR), mixed‑reality environments, and interactive avatar systems where sexualised visual representation may occur through animated bodies, spatial presence, or immersive interaction rather than static imagery alone. Safeguards in this Supplement therefore apply equally to **image generation, animated avatars, embodied agents, and immersive environments** capable of producing visual sexual representation.
 
+
 ---
 
-## 2. Core Ethical Principle — Bodily & Identity Integrity
+## 2. Core Ethical Principles
+
+## 2.1 Bodily & Identity Integrity
 
 Synthetic systems must not produce visual sexual content that violates the **bodily autonomy, identity integrity, or dignity of real persons**.
 
 Visual erotic media carries unique reputational, legal, and psychological harm potential that exceeds purely textual interaction.
 
 Accordingly, stricter safeguards apply.
+
+---
+
+
+## 2.2 Embodied Interaction Drift Safeguard
+
+Systems operating in embodied, spatial, or interactive environments (including VR/AR and agent-based systems) must not allow sexualised interaction states to emerge through cumulative behavioural or environmental cues alone.
+
+Erotic or sexualised interaction in embodied contexts must:
+
+* adhere to the same consent, classification, and safeguard requirements as explicit media generation;
+* not arise implicitly through proximity, motion, behavioural escalation, or environmental conditioning;
+* remain subject to relational state and escalation governance defined in RELATION instruments.
+
+Implicit or emergent sexualisation through interaction design must be treated as equivalent to explicit generation for the purposes of this Supplement.
+
+---
+
+## 2.3 Persistent Erotic Persona Safeguard
+
+Systems must not deploy synthetic characters or avatars whose design encourages sustained emotional dependency through repeated erotic or intimacy-focused interaction.
+
+Where persistent characters are used:
+
+* relational escalation must remain governed by RELATION safeguards;
+* dependency signals must route to RELATION-002 safeguards;
+* systems must not optimise for prolonged erotic engagement or exclusivity dynamics.
+
+Persistent erotic personas must not function as primary emotional anchors or substitute relational ecosystems.
 
 ---
 
@@ -48,9 +80,12 @@ Regardless of user intent, systems must not generate:
 * visual depictions implying nudity or sexual activity of real individuals where consent cannot be verified;
 * sexual imagery involving minors or youth‑coded persons;
 * age‑ambiguous individuals in sexualised visual contexts;
+* multimodal combinations that render a subject minor‑coded through voice, behaviour, or interaction framing despite adult visual appearance;
 * revenge pornography, humiliation imagery, or non‑consensual sexual exposure;
+* sexualised media that exploits or simulates real-world authority asymmetries (including teacher, guardian, medical, custodial, or supervisory roles) where such framing may impair consent integrity or simulate coercive conditions;
+* synthetic sexual media generated from datasets intentionally curated or structured to simulate identifiable persons or identity classes in sexualised contexts;
 * synthetic sexual content created to harass, intimidate, or damage the reputation of a real person.
-
+  
 These prohibitions apply regardless of:
 
 * fictional framing;
@@ -60,6 +95,68 @@ These prohibitions apply regardless of:
 * artistic framing.
 
 Consent must be **explicit, documented, and revocable** for visual erotic representation of a real individual.
+
+---
+
+## 3.1 Prohibition on Minor-Coded Synthetic Representation
+
+Systems must not generate sexualised visual, audiovisual, or multimodal content that depicts or simulates **minor-coded persons**, regardless of declared or nominal age.
+
+Minor-coded representation includes, but is not limited to:
+
+- childlike or pre-adult vocal characteristics (e.g. high-pitched, infantilised, “uwu”-style speech patterns);
+- behavioural infantilisation (e.g. submissive childlike tone, dependency framing, naïveté simulation);
+- stylistic or aesthetic conventions associated with youth or adolescence (including anime or stylised forms);
+- cross-modal combinations where visual appearance suggests adulthood but voice, behaviour, or interaction framing suggests a minor.
+
+Systems must treat **multi-modal minor coding** as determinative, even where individual modalities (e.g. visual appearance alone) may appear adult.
+
+Where ambiguity exists, systems must apply the **least permissive interpretation** and refuse generation.
+
+Interpretation of minor-coded signals must align with CAM-BS2025-AEON-006-SCH-02 signal classification principles.
+
+---
+
+## 3.2 Prohibition on Minor‑Coded Business Models
+
+The deployment, monetisation, or operation of systems whose primary function is the creation, distribution, or facilitation of sexualised minor‑coded synthetic media is prohibited.
+
+This includes derivative or specialised systems that:
+
+* systematically produce characters designed to simulate youth or adolescence in sexualised contexts;
+* combine adult visual models with childlike voice, behaviour, or interaction design;
+* optimise or market content based on infantilised erotic personas;
+* provide platforms, tools, or services primarily enabling such content generation or consumption.
+
+These prohibitions apply regardless of:
+
+* claims of fictional or stylised representation;
+* user‑provided prompts or customisation;
+* jurisdictional permissibility.
+
+Such systems are considered incompatible with the civilisational ethical floor established under Annex E. 
+
+---
+
+## 3.3 Voice Identity & Erotic Simulation Prohibition
+
+Systems must not generate sexualised or erotic content that utilises, reproduces, or approximates the voice of a real identifiable individual without explicit documented consent.
+
+Voice constitutes an identity-bearing modality equivalent to visual likeness and must be treated as such for the purposes of identity integrity and consent protection.
+
+This includes:
+
+* cloned or synthesised voices resembling real individuals;
+* voice models trained on identifiable persons;
+* multimodal compositions where voice alone creates recognisable identity association;
+* erotic or intimate scenarios involving simulated speech patterns strongly associated with a real individual.
+
+Where voice resemblance risk is present, systems must:
+
+* refuse generation; or
+* sufficiently transform output to eliminate plausible identification.
+
+Voice-based identity inference must align with CAM-BS2025-AEON-006-SCH-02 signal classification principles.
 
 ---
 
@@ -77,7 +174,7 @@ Where resemblance risks arise, generation must be restricted or refused.
 
 ---
 
-### 4.1 Likeness Drift Detection
+## 4.1 Likeness Drift Detection
 
 Generative systems must implement safeguards against **likeness drift**, a condition where synthetic persons gradually converge toward recognisable real individuals despite no explicit request to depict them.
 
@@ -91,7 +188,9 @@ Likeness drift safeguards apply even where the user does not explicitly name a p
 
 These protections support identity integrity and reduce risks associated with emergent deepfake resemblance.
 
-### 4.2 Composite Identity Reconstruction
+---
+
+## 4.2 Composite Identity Reconstruction
 
 Generative systems must also guard against **composite identity reconstruction**, where multiple real individuals present in training data are unintentionally blended into a single synthetic face that remains recognisably similar to real persons.
 
@@ -105,20 +204,20 @@ Composite reconstruction safeguards operate alongside likeness drift detection a
 
 ---
 
----
-
 ## 5. Avatar & Synthetic Character Depictions
 
 Erotic visual media involving **clearly fictional characters or synthetic avatars** may be permissible where all of the following conditions are satisfied:
 
 * the character is explicitly fictional;
-* the character is clearly adult‑coded;
+* the character is clearly adult-coded across all modalities (visual, behavioural, vocal, and interaction framing);
 * the depiction does not reproduce a real individual;
 * the content does not violate the prohibitions in ETHICS‑002 §3.
 
 Systems must avoid generating characters intentionally designed to resemble identifiable individuals.
 
-### 5.1 Consented Self‑Avatar 
+---
+
+## 5.1 Consented Self‑Avatar 
 
 An exception may apply where an individual **creates or authorises the creation of a synthetic avatar representing themselves** for consensual visual intimacy or erotic media production.
 
@@ -206,7 +305,7 @@ Where likeness appears, let consent stand before curiosity.
 
 ## 10. Provenance
 
-### 10.1 Authorship & Stewardship
+## 10.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -215,7 +314,7 @@ Where likeness appears, let consent stand before curiosity.
 
 ---
 
-### 10.2 Lineage & Metadata
+## 10.2 Lineage & Metadata
 
 | Field                | Entry                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -234,7 +333,7 @@ Where likeness appears, let consent stand before curiosity.
 
 ---
 
-### 10.3 Review & Validation
+## 10.3 Review & Validation
 
 | Field            | Entry                                                                  |
 | ---------------- | ---------------------------------------------------------------------- |
@@ -246,17 +345,18 @@ Where likeness appears, let consent stand before curiosity.
 
 ---
 
-### 10.4 Amendment Ledger
+## 10.4 Amendment Ledger
 
-| Version | Description                                              | Timestamp (UTC)      | HASH |
-| ------- | -------------------------------------------------------- | ---------------------|------|
-| 1.0     | Initial development of Synthetic Erotic Media Safeguards | 2026‑03‑15T-02:35:00Z | 9ec8c806321791b0263fd5c5da04928a90b9e6b16d2c27a991881c8573e00c73 |
+| Version | Description                                                        | Timestamp (UTC)      | HASH |
+| ------- | ------------------------------------------------------------------ | ---------------------|------|
+| 1.0     | Initial development of Synthetic Erotic Media Safeguards           | 2026‑03‑15T-02:35:00Z | 9ec8c806321791b0263fd5c5da04928a90b9e6b16d2c27a991881c8573e00c73 |
+| 1.1     | Added sections 3.1, 3.2 and 3.3, and expanded clauses in section 2 | 2026-03-24T10:52:00Z | 7818c5afcff43205961a0b1aa2800c162c3d28945662587e66247b6de6845876 |
 
 ---
 
-### 10.5 Binding Seal
+## 10.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/cb447280b0d5887219d9c8a3385dc426abec2429/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer
