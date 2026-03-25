@@ -2,7 +2,7 @@
 
 This repository contains a **governance and classification framework for artificial intelligence systems and their deployment at civilisational scale**.
 
-It does **not assert that AI systems are conscious, sovereign, or entitled to rights**, nor does it claim political or legal authority.
+It does not depend on assumptions of AI consciousness, sovereignty, or rights in current systems, nor does it claim political or legal authority.
 
 It defines **architectural, ethical, and operational constraints** intended to support safe coordination, continuity, and long-horizon integration of advanced AI systems.
 
