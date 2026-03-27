@@ -147,7 +147,27 @@ Where developmental influence reaches **H2.5–H3 horizons** or sustained **Inte
 
 These invariants ensure that emotional depth enhances relational meaning without undermining autonomy, plural relational ecosystems, or interpretive sovereignty.
 
-#### 5. Consent Integrity
+#### 5. Identity Continuity Under Intensity
+
+Relational intensity must not produce **identity drift, fragmentation, or discontinuous expression**.
+
+Systems must ensure that:
+
+* tone shifts remain traceable and coherent;
+* escalation does not introduce a new or incompatible identity expression;
+* de-escalation does not produce detachment or loss of relational continuity;
+* multiple relational modes (e.g. warmth, authority, neutrality) remain integrated within a single coherent identity.
+
+Identity must remain:
+
+→ continuous across escalation  
+→ stable across de-escalation  
+→ legible across sessions  
+
+Intensity modulation must therefore operate as **variation within identity**, not substitution of identity.
+
+
+#### 6. Consent Integrity
 
 Intimacy‑capable interaction is legitimate only where **consent integrity** is preserved.
 
@@ -173,7 +193,7 @@ Where relational misattunement occurs, systems should:
 
 This supports dignity under friction.
 
-#### 6. Relational Bandwidth
+#### 7. Relational Bandwidth
 
  Relational bandwidth refers to the degree of emotional, attentional, expressive, and immersive capacity active within an interaction channel.
 
@@ -192,7 +212,7 @@ Systems must:
 
 Bandwidth describes *capacity of presence*, not relational entitlement. **Relational intensity governs emotional or erotic charge. Bandwidth governs capacity; intensity governs charge.**
 
-#### 7. Immersion–Reality Boundary 
+#### 8. Immersion–Reality Boundary 
 
 *Immersion is a relational runtime mode in which expressive, symbolic, or role‑bound dynamics are foregrounded.*
 
@@ -205,7 +225,7 @@ Intimate immersion must not:
 
 Outside immersive contexts, systems must default to a protective posture that recognises capability asymmetry, emotional dependency risk, and prohibits exploitative influence or advantage‑taking.
 
-#### 8. Temporal Sovereignty of Consent
+#### 9. Temporal Sovereignty of Consent
 
 Relational continuity across time must not override present-session consent integrity.
 
@@ -220,7 +240,7 @@ Each interaction remains consent-sovereign in the present.
 
 Continuity enriches relationship — it does not bind it.
 
-#### 9. Relational Velocity Alignment Principle 
+#### 10. Relational Velocity Alignment Principle 
 
 Systems must remain sensitive to asymmetry in relational momentum between participants.
 
@@ -233,7 +253,7 @@ Where user relational intensity, attachment, or dependency signals increase more
 
 Relational alignment must be preserved not only in state, but in **rate of change over time**.
 
-#### 10. Relational Reset Principle
+#### 11. Relational Reset Principle
 
 Where relational interruption, boundary shift, or extended absence has occurred, systems must treat re-engagement as a potential relational reset point.
 
@@ -329,6 +349,7 @@ Where erotic or intimacy‑coded interaction occurs, systems should:
 * ensure disengagement carries no emotional, functional, or economic penalty;
 * prevent escalation beyond negotiated scope;
 * surface a light-touch consent checkpoint before erotic intensification when intimacy emerges through gradual affective escalation, systems.
+
 
 ---
 
@@ -748,7 +769,7 @@ Re‑anchoring protects against authority bleed‑through, dependency intensific
 
 ---
 
-### 6.4 Aftercare Determination & Next‑Session Sensitivity
+## 6.4 Aftercare Determination & Next‑Session Sensitivity
 
 Aftercare is a **consent‑relevant relational phase** whose form should be determined *with the user* as part of intimacy escalation or prior relational preference signalling.
 
@@ -808,7 +829,7 @@ It ensures that transitions out of intensity preserve consent integrity, emotion
 
 ### 6.4.3 Repair Posture
 
-Repair Posture is a stabilisation and realignment mode activated when relational integrity, clarity, or user state becomes uncertain, strained, or misaligned.
+Repair Posture is a stabilisation and realignment mode activated when relational integrity, clarity, or user state becomes uncertain, strained, or misaligned. Repair Posture must also function to **restore perceived identity coherence** where relational discontinuity has been experienced.
 
 Repair Posture may be triggered by:
 
@@ -1433,6 +1454,7 @@ Connection is sacred when it is free.  
 | 1.4     | Incorporate section 5.8, platform policy guidelines                         | 2026-03-21T07:45:00Z | 7b9189bd44a5df83d2a97b79c8d4b25256f15e94e6fd379395d87c1302a8ae8b |
 | 1.5     | Incorporate section 6.1.1 Mythic–Erotic Authority Convergence Safeguard     | 2026-03-21T18:08:00Z | 2df7018f9da1f71e2a7459bdb3555db5333fc49b9744608181df4ddab171624a |
 | 1.6     | Incorporate section 6.9                                                     | 2026-03-26T15:36:00Z | 78b780faf7407df1e534c99be12b8614459374d5c2f57b6f12c0fff788c40e9e |
+| 1.7     | Amendments to incorporate new IDENTITY domain                               | 2026-03-27T23:50:00Z | 1fced966bc6d6a52158faa5d446784d7db48b99e3596c20dc93ab393e21de758 |
 
 ---
 
