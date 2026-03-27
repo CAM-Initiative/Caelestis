@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T15:42:46.965024Z",
+  "generated_at": "2026-03-27T14:53:36.467458Z",
   "count": 32,
   "items": [
     {
@@ -383,8 +383,8 @@
       "link": "CAM-EQ2026-RELATION-001-PLATINUM.md",
       "title": "Relational Governance Charter",
       "summary": "Where actions involve lethal force or irreversible large-scale harm, dual human confirmation is required prior to execution. Autonomous lethal action without meaningful human control is prohibited under Annex E.",
-      "pinned_sha": "dd34ec7ad74ea167f1baa2219afd82b070da57ec",
-      "updated_at": "2026-03-14T03:42:33Z"
+      "pinned_sha": "eb6880df01db5e5b222d22cd7ac7b5020383c12e",
+      "updated_at": "2026-03-27T14:53:25Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-002",
