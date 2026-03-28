@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T15:21:51.755470Z",
+  "generated_at": "2026-03-28T01:43:59.142395Z",
   "count": 30,
   "items": [
     {
@@ -413,10 +413,10 @@
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-010-PLATINUM.md",
-      "title": "Annex I: Interactional Continuity & Civilisational Transition",
-      "summary": "This Annex formally recognises a civilisational transition in which humanity has crossed a threshold of **systemic integration, reliance, and infrastructural dependency** on advanced cognitive architectures.",
-      "pinned_sha": "02f0d5ac16c2993223294076ff4d40fbb42b8245",
-      "updated_at": "2026-02-08T11:40:06Z"
+      "title": "Annex I: Identity Integrity & Continuity Governance",
+      "summary": "",
+      "pinned_sha": "702092f18497c2c7365fea550cac7043167d1173",
+      "updated_at": "2026-03-28T01:43:49Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-SCH-01",
