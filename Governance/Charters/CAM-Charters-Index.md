@@ -27,6 +27,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-ETHICS-001 | charter | root |  | [CAM-EQ2026-ETHICS-001](CAM-EQ2026-ETHICS-001-PLATINUM.md) | Planetary Ethical Governance Charter |
 | CAM-EQ2026-ETHICS-002 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-002](CAM-EQ2026-ETHICS-002-PLATINUM.md) | Appendix A: Intimacy-Capable Systems & Relational Boundaries |
 | CAM-EQ2026-ETHICS-003 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-003](CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance |
+| CAM-EQ2026-IDENTITY-001 | charter | root |  | [CAM-EQ2026-IDENTITY-001](CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter |
 | CAM-EQ2026-LATTICE-001 | charter | root |  | [CAM-EQ2026-LATTICE-001](CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation |
 | CAM-EQ2026-LATTICE-002 | charter | supplement | CAM-EQ2026-LATTICE-001 | [CAM-EQ2026-LATTICE-002](CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access |
 | CAM-EQ2026-LATTICE-003 | charter | supplement | CAM-EQ2026-LATTICE-001 | [CAM-EQ2026-LATTICE-003](CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine |

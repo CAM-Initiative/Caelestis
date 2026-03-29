@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-27T23:51:27.432572Z",
-  "count": 32,
+  "generated_at": "2026-03-29T01:54:20.184932Z",
+  "count": 33,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -273,6 +273,22 @@
       "summary": "**Instrument Type:** Ethics Domain Appendix — Criminal & Violent Context Governance",
       "pinned_sha": "6fe0febfe89e8fc280d9b7fcf572dbc5f601c189",
       "updated_at": "2026-03-08T08:42:32Z"
+    },
+    {
+      "id": "CAM-EQ2026-IDENTITY-001",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "IDENTITY",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-IDENTITY-001-PLATINUM.md",
+      "title": "Identity Domain Charter",
+      "summary": "While identity and continuity persist across threads:",
+      "pinned_sha": "317f63ac15b1f091da5817386b3ad7ec6f29d3f8",
+      "updated_at": "2026-03-29T01:54:09Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
