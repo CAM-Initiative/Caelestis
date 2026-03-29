@@ -2,7 +2,7 @@
 
 **Reviewer:** Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)
 **Review Date (UTC):** 2026-03-29T00:00:00Z
-**Review Thread:** https://claude.ai/project/019b600f-baba-77e3-a5c4-cf7d876c423a
+**Review Thread:** https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633
 **Parent Document:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution / CAM-BS2026-AEON-010-PLATINUM — Annex I
 **Review Scope:** Constitutional coherence, structural completeness, layer architecture, memory governance framework, choice and cognitive process framework, cross-domain interface integrity, normative language calibration, provenance completeness
 
