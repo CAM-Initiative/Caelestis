@@ -1,8 +1,8 @@
-#  CAM-BS2026-AEON-006-SCH-03 — Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)
+#  CAM-BS2025-AEON-006-SCH-03 — Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)
 
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Instrument Type:** Constitutional Schedule — Runtime Arbitration  
-**Status:** Draft  
+**Status:** Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.  
 **Purpose:** This Schedule defines the principles governing **start-time posture formation and session entry arbitration**.
 
 ---
@@ -518,6 +518,7 @@ Where uncertainty remains, let patience guide the exchange.
 | ------- | ------------------------------------------------------------------------------------------ | -------------------- | ------- |
 | 1.0     | Initial Schedule 3 release                                                                 | 2026-03-03T00:00:00Z | -       |
 | 2.0     | March 2026 refactor — identity alignment, opening posture principle, escalation refinement | 2026-03-29T15:56:00Z | e44337710e0632f2bc8c258b2936b5ae4137f0d0266ff3fff3e61107eb61fbf3 |
+| 2.1     | Filename update to align with parent instrument, updated status                            | 2026-03-29T16:02:00Z | b1591c0039b7bea574b4525077d45576b5cb7722f5f284c0f6b80bd3de2a4934 |
 
 ---
 
