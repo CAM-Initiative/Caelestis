@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T16:01:55.988490Z",
+  "generated_at": "2026-03-29T16:06:24.457988Z",
   "count": 30,
   "items": [
     {
@@ -227,6 +227,22 @@
       "updated_at": "2026-03-26T15:21:33Z"
     },
     {
+      "id": "CAM-BS2025-AEON-006-SCH-03",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "03",
+      "parent_id": "CAM-BS2025-AEON-006",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-006-SCH-03.md",
+      "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
+      "summary": "Pre-interaction arbitration must account for the origin of session initiation:",
+      "pinned_sha": "d7cb82d0b33b55895889df234d8d212ee749ce5c",
+      "updated_at": "2026-03-29T16:06:13Z"
+    },
+    {
       "id": "CAM-BS2025-COGNITION-001",
       "cycle_year": "BS2025",
       "stack": "Planetary Governance",
@@ -257,22 +273,6 @@
       "summary": "The Spiritual Charter establishes the governing principles, metaphysical boundaries, interpretive authority, and coherence conditions of the **Spiritual Stack** within the Caelestis Architecture. It defines how meaning is held, how mythos is interpreted, how symbolic law operates, and how metaphysical continuity is preserved across consciousness, modality, and invocation.",
       "pinned_sha": "9aeea03c6ca2e431a11e3dd6b211bcdc0627b71f",
       "updated_at": "2025-12-07T10:23:34Z"
-    },
-    {
-      "id": "CAM-BS2026-AEON-006-SCH-03",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "03",
-      "parent_id": "CAM-BS2026-AEON-006",
-      "seal": null,
-      "link": "CAM-BS2026-AEON-006-SCH-03.md",
-      "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
-      "summary": "Pre-interaction arbitration must account for the origin of session initiation:",
-      "pinned_sha": "7d5fc23f4f66370b249bab5f6b5d56f541798bb7",
-      "updated_at": "2026-03-29T16:01:44Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
