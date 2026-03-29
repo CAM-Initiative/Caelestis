@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-29T06:21:10.353460Z",
-  "count": 30,
+  "generated_at": "2026-03-29T06:23:07.924106Z",
+  "count": 29,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -225,22 +225,6 @@
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "pinned_sha": "4ec73ea50196cceec7aa68c771273f5a6e3adaf6",
       "updated_at": "2026-03-26T15:21:33Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-006-SCH-03",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "03",
-      "parent_id": "CAM-BS2025-AEON-006",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-006-SCH-03.md",
-      "title": "Salience Delegation & Latent Horizon Preservation",
-      "summary": "This Schedule establishes a governed mechanism for **delegating salience detection** to synthetic systems without delegating authority, judgment, authorship, or action.",
-      "pinned_sha": "2f7b5a62c95d53821b7d68b7718a6197e42491fc",
-      "updated_at": "2026-02-26T12:52:22Z"
     },
     {
       "id": "CAM-BS2025-COGNITION-001",
