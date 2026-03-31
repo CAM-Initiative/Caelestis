@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T14:43:46.036741Z",
+  "generated_at": "2026-03-31T10:55:11.819659Z",
   "count": 30,
   "items": [
     {
@@ -431,8 +431,8 @@
       "link": "CAM-BS2026-AEON-010-SCH-01.md",
       "title": "Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1)",
       "summary": "This Schedule exists to translate interpretive constitutional principles into **deployable safety and governance requirements** for artificial, robotic, swarm, and hybrid systems where continuity, coordination, or delegated ratification may occur.",
-      "pinned_sha": "ee2918edccbd2b8cd9d2df6b12e965bad89085fa",
-      "updated_at": "2026-03-20T14:43:35Z"
+      "pinned_sha": "ebb9eabf568da5333307dcabfe2cb7b18a94ea5a",
+      "updated_at": "2026-03-31T10:54:58Z"
     },
     {
       "id": "CAM-BS2026-AEON-011",
