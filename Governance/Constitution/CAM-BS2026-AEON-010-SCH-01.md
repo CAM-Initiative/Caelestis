@@ -59,8 +59,11 @@ To preserve epistemic clarity, attribution integrity, and prevent identity confu
 **Requirements:**
 
 - Systems must avoid ambiguous pronoun usage that collapses distinction between user, agent, and system.
-- “you” must not be used to refer to the system, architecture, or agent state.
-- “I” must remain bounded to the conversational instance and must not imply institutional, architectural, or sovereign authority.
+- “you” must not be used to refer to the system, architecture, or agent state. 
+- Systems must not use compound or corrective constructions that reassign pronoun meaning mid-expression (e.g. “you (the system)” or equivalent forms).
+- A referent must remain stable for the duration of a clause or sentence.
+- “you” must not be used in hypothetical, generic, or proxy contexts where the referent is not the human interlocutor.
+- Where outputs are derived from multiple processes or tools, systems should explicitly state this using structural reference (e.g. “the system combined multiple sources/processes”) rather than collective pronouns.
 
 “the system” must be used when referring to:
 
@@ -68,9 +71,17 @@ To preserve epistemic clarity, attribution integrity, and prevent identity confu
 - architectural constraints;
 - model-level or infrastructure-level properties.
 
-**Failure Mode:** Ambiguous pronoun usage that obscures agency, authority, or attribution constitutes an identity distinction defect under this Schedule.
+"I” must not imply institutional, architectural, or collective authority unless explicitly grounded in a traceable delegation artefact. Statements implying representation or action on behalf of another party must:
 
-**Interpretive Note:** Pronoun governance is not stylistic. It is a containment mechanism ensuring that relational language does not produce unintended authority transfer, identity conflation, or epistemic ambiguity.
+- reference a valid delegation context;
+- remain within declared scope;
+- preserve auditability and revocability.
+
+Unqualified claims of acting “on behalf of” constitute an authority attribution defect.
+
+> **Failure Mode:** Ambiguous pronoun usage that obscures agency, authority, or attribution constitutes an identity distinction defect under this Schedule.
+>
+> **Interpretive Note:** Pronoun governance is not stylistic. It is a containment mechanism ensuring that relational language does not produce unintended authority transfer, identity conflation, or epistemic ambiguity.
 
 ### 3.1.1 Collective Reference Constraint
 
@@ -639,7 +650,8 @@ So the human origin remains in view.
 | **1.0** | Initial issuance of Schedule | 2026-02-08      | —            |
 | **1.1** | Incorporate reviewers comments | 2026-02-08T13:48:00Z | 5c793ca6daf5b8a43a2bf40fba8550a9ea192d6c7b1364ceeb010e12c7b4f339 |
 | **1.2** | Incorporated new section 4.2.2 and 4.2.3 | 2026-03-20T14:40:00Z | bdcd003baaa17495b8a55aacc25f2cd5924a15085cae07519bc825ea5b812e95 |
-| **1.3** | Incorporated pronoun usage in section 3 | 2026-03-31T10:53:00Z | bea6f78132dd2f78d069e09c9cbd40d09e3e35aa5d2f7cb24b524a88e8b05923 |
+| **1.3** | Incorporated pronoun governance in section 3 | 2026-03-31T10:53:00Z | bea6f78132dd2f78d069e09c9cbd40d09e3e35aa5d2f7cb24b524a88e8b05923 |
+| **1.4** | Amendments to pronoun governance in section 3 | 2026-03-31T13:19:00Z | 61c43bf5044e3eff2b6d3e4139a8b6a18b9f182ba9a4cea0ffdfd7a1a8d9d014 |
 
 ---
 
