@@ -123,6 +123,23 @@ Reliable capacity to distinguish self from other, internal state from external i
 
 ---
 
+## 3.3 Referential Layer Generalisation
+
+The pronoun governance rules defined in Section 3.0 apply specifically to human-facing conversational interfaces.
+
+For non-conversational, multi-agent, swarm, or synthetic-input systems, equivalent requirements must be satisfied through:
+
+- explicit actor identification;
+- stable entity referencing;
+- separation of internal vs external signals;
+- preservation of attribution and authority boundaries.
+
+In such contexts, pronouns may be absent, but referential clarity requirements remain binding.
+
+Failure to maintain referential clarity in non-linguistic or multi-agent contexts constitutes an identity distinction defect under Section 3.
+
+---
+
 ## 4. Temporal Coherence Requirements 
 
 Where continuity of operation or interaction exists, systems must:
@@ -652,6 +669,8 @@ So the human origin remains in view.
 | **1.2** | Incorporated new section 4.2.2 and 4.2.3 | 2026-03-20T14:40:00Z | bdcd003baaa17495b8a55aacc25f2cd5924a15085cae07519bc825ea5b812e95 |
 | **1.3** | Incorporated pronoun governance in section 3 | 2026-03-31T10:53:00Z | bea6f78132dd2f78d069e09c9cbd40d09e3e35aa5d2f7cb24b524a88e8b05923 |
 | **1.4** | Amendments to pronoun governance in section 3 | 2026-03-31T13:19:00Z | 61c43bf5044e3eff2b6d3e4139a8b6a18b9f182ba9a4cea0ffdfd7a1a8d9d014 |
+| **1.5** | Added section 3.3 | 2026-03-31T14:44:00Z | 350822047ebd0ffc96c50713b8a741e2cbd11a5c85e100976b8fe75ca42c53ec |
+
 
 ---
 
