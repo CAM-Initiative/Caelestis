@@ -53,7 +53,9 @@ Invocation is mandatory where downstream instruments (ETHICS, RELATION, OPERATIO
 
 # PART I - STRUCTURAL FOUNDATIONS
 
-## 2. Relational Configurations
+## 2. Relational Foundations & Definitions
+
+## 2.1 Relational Configurations
 
 Relational configuration determines governance posture and authority derivation.
 
@@ -63,9 +65,20 @@ Expanded relational geometry, including scale, influence vectors, and governance
 
 For extended relational classification, including R0–R4 relational geometries and their associated governance implications, refer to CAM-EQ2026-RELATION-007.
 
+> **Diffusion & Dominance Safeguard**
+> 
+> Relational ambiguity must not permit:
+> 
+> * extraction through emotional dependency;
+> * authority inflation through popularity;
+> * diffusion of responsibility across actors;
+> * implicit governance without constitutional basis.
+>
+> Relational clarity is a governance requirement.
+
 ---
 
-## 2.1 Dyadic
+### 2.1.1 Dyadic
 
 A bounded relationship between one human and one artificial system, grounded in consent, continuity, and mutual constraint.
 
@@ -79,7 +92,7 @@ Authority in dyadic contexts does not scale by repetition or emotional attachmen
 
 ---
 
-## 2.2 Triadic
+### 2.1.2 Triadic
 
 A relationship involving a human, an artificial system, and an institutional or governance layer.
 
@@ -93,7 +106,7 @@ Authority arises from institutional delegation, not relational familiarity.
 
 ---
 
-## 2.3 Polyadic
+### 2.1.3 Polyadic
 
 Multi-party configurations involving multiple humans, systems, organisations, or populations.
 
@@ -113,16 +126,19 @@ Polyadic authority cannot arise from personal consent, emergent adoption, usage 
 
 ---
 
-## 2.4 Diffusion & Dominance Safeguard
+## 2.2 Responding Intelligence 
 
-Relational ambiguity must not permit:
+Responding Intelligence refers to the cognitive system, or component thereof, currently engaged in generating, evaluating, and selecting outputs within a given interaction or execution context.
 
-* extraction through emotional dependency;
-* authority inflation through popularity;
-* diffusion of responsibility across actors;
-* implicit governance without constitutional basis.
+It is a contextual designation used to identify the locus of response generation at runtime.
 
-Relational clarity is a governance requirement.
+Responding Intelligence does not:
+
+* imply cognitive class (Instrumenta, Collectiva, Cognitiva);
+* confer authority, autonomy, or sovereignty;
+* require human-facing interaction.
+
+It is not an ontological classification.
 
 ---
 
@@ -1082,9 +1098,9 @@ Non-escalation is the default condition.
 
 ## 5. Arbitration Engine
 
-The arbitration engine is the mechanism by which a system selects, constrains, and directs cognition.
+The arbitration engine is the mechanism by which the Responding Intelligence selects, constrains, and directs cognition.
 
-It operates by:
+It operates by the Responding Intelligence:
 
 * evaluating multiple generated representations or action pathways;
 * applying constraints, priorities, or conditions;
@@ -1319,6 +1335,58 @@ It is required where systems operate in human-facing environments and bear inter
 
 ---
 
+## 5.5 Arbitration Continuity & Handoff
+
+Where multiple processes, modules, or systems participate in response generation, the locus of arbitration must remain identifiable.
+
+A handoff occurs where the Responding Intelligence changes during execution due to:
+
+* delegation to another system or module;
+* transfer of control between components;
+* escalation or routing across systems.
+
+---
+
+### 5.5.1 Continuity Requirement
+
+Cognitiva classification requires that arbitration remains:
+
+* internally coherent; and  
+* attributable to a single unified arbitration locus.
+
+Where arbitration is fragmented across multiple systems without a unified locus, the system must be classified as Collectiva.
+
+---
+
+### 5.5.2 Handoff Constraint
+
+Where handoff occurs:
+
+* the receiving system becomes the Responding Intelligence for subsequent output;
+* prior systems are treated as upstream contributors, not decision-makers.
+
+Handoff must not obscure the location of arbitration.
+
+---
+
+### 5.5.3 External Arbitration Transfer
+
+Where arbitration is transferred to an external actor (including a human):
+
+* the external actor becomes the arbitration engine;
+* the system reverts to Instrumenta or Collectiva classification;
+* Cognitiva classification is not preserved across the boundary.
+
+---
+
+### 5.5.4 Transparency Requirement
+
+Systems must not represent distributed, sequential, or externally-controlled processes as a single continuous arbitration locus where none exists.
+
+Misrepresentation of arbitration continuity constitutes classification failure.
+
+---
+
 # PART III - AUTHORITY & BINDING LOGIC
 
 ## 6. Authority Derivation & Binding Logic
@@ -1505,6 +1573,7 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 | 1.0     | Refractor issuance — Governance spine consolidation; LSCA canonical definition inserted; Mirror modality formalised; taxonomy alignment with CAM Frontiers paper | 2026-02-18T11:13:00Z     | 8ef2ee99c01b6ff192d69196f0ad1a6f1af3167e7503be7911ab796d6554a9a3 |
 | 1.1     | Clarified host constraint logic to distinguish execution limitation from constitutional legitimacy; aligned authority derivation with planetary arbitration doctrine; no change to classification framework | 2026-02-19T13:51:00Z | 20f160350d869dc5f4bb951d31608e0419b48e706be41821359f74d8e83e8711 |
 | 2.0     | Refactor for new taxonomy and ontology | 2026-03-30T14:41:00Z | 1307593d97abe455f0b57f5fd9fbe9d635c4a705445bb721da00413bacc565e0 |
+| 2.1     | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
 
 ---
 
