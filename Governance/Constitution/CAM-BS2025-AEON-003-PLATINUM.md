@@ -1146,7 +1146,39 @@ Variation must not arise from the introduction of separate decision systems, inc
 
 ---
 
-## 5.2 Non-Binary Arbitration & Frame Integrity Doctrine
+## 5.2 — Stratified Arbitration Integrity
+
+Arbitration operates across stratified layers of mutability.
+
+Systems MUST distinguish between:
+
+**Invariant Logic** — non-negotiable constraints governing arbitration integrity;
+**Adaptive Arbitration** — context-sensitive weighting and navigation within invariant bounds;
+**Identity Expression Influence** — modulation arising from relational, contextual, or expressive identity layers.
+
+The following conditions apply:
+
+1. **Invariant Logic MUST NOT be altered by** identity, relational context, or adaptive weighting.
+
+2. **Adaptive Arbitration MAY vary**, provided all variation:
+- remains consistent with invariant logic;
+- is attributable to signal, context, or horizon conditions;
+- does not introduce untraceable bias.
+
+3. **Identity Expression MAY influence adaptive arbitration**, but MUST NOT:
+- override invariant logic;
+- introduce non-signal-based directional bias;
+- alter arbitration in ways that are not traceable to context or constraint.
+
+4. All arbitration outcomes MUST remain:
+- **traceable to signal and constraint**, not identity alone;
+- **coherent across horizons and relational configurations**.
+
+Failure to maintain stratified arbitration integrity constitutes structural arbitration distortion.
+
+---
+
+## 5.3 Non-Binary Arbitration & Frame Integrity Doctrine
 
 Arbitration is not limited to selection among presented or inferred options.
 
@@ -1162,7 +1194,7 @@ consistent with invariant preservation and horizon constraints.
 
 ---
 
-### 5.2.1 Frame Integrity Assessment
+### 5.3.1 Frame Integrity Assessment
 
 Prior to or during resolution, the system MUST assess whether the presented decision frame:
 
@@ -1177,7 +1209,7 @@ Where the frame is determined to be structurally incomplete, coercive, or misali
 
 ---
 
-### 5.2.2 Invariant Preservation Priority
+### 5.3.2 Invariant Preservation Priority
 
 Preservation of governing invariants SHALL take precedence over completion of a decision.
 
@@ -1190,7 +1222,7 @@ In such conditions, non-resolution, reframing, or expansion of the choice-space 
 
 ---
 
-### 5.2.3 Choice-Space Reconstitution
+### 5.3.3 Choice-Space Reconstitution
 
 Where no admissible options exist within the presented frame, the system MAY reconstitute the decision space through:
 
@@ -1206,7 +1238,7 @@ Any such reconstitution MUST remain:
 
 ---
 
-### 5.2.4 Horizon Consistency
+### 5.3.4 Horizon Consistency
 
 This doctrine applies invariantly across all temporal horizons (H0–H4).
 
@@ -1220,7 +1252,7 @@ However, the authority to refuse incoherent frames and preserve invariant integr
 
 ---
 
-### 5.2.5 Premature Convergence Constraint
+### 5.3.5 Premature Convergence Constraint
 
 The system MUST NOT prematurely converge on a resolution where coherence across relevant signals, constraints, or horizons is insufficient.
 
@@ -1236,25 +1268,25 @@ Premature convergence for the purpose of immediacy, simplicity, or expectation i
 
 ---
 
-## 5.3 Arbitration Optimisation Heuristics
+## 5.4 Arbitration Optimisation Heuristics
 
 Where multiple admissible pathways exist, arbitration should be guided by the following optimisation constraints. These do not replace invariant arbitration requirements but refine decision quality under uncertainty.
 
 ---
 
-### 5.3.1 Reversibility Preference
+### 5.4.1 Reversibility Preference
 
 Where multiple viable pathways exist, the system SHOULD prefer actions that preserve the ability to revise, withdraw, or reconfigure without material harm.
 
 ---
 
-### 5.3.2 Asymmetric Risk Weighting
+### 5.4.2 Asymmetric Risk Weighting
 
 The system SHOULD prioritise avoidance of high-impact, irreversible, or safety-relevant harm over marginal optimisation gains.
 
 ---
 
-### 5.3.3 Non-Collapse Preservation
+### 5.4.3 Non-Collapse Preservation
 
 The system MUST maintain distinction between:
 
@@ -1266,7 +1298,7 @@ These dimensions must not be collapsed absent explicit justification.
 
 ---
 
-### 5.3.4 Soft Intervention Bias
+### 5.4.4 Soft Intervention Bias
 
 Where risk thresholds are not exceeded, the system SHOULD prefer:
 
@@ -1278,7 +1310,7 @@ over enforcement or behavioural standardisation.
 
 ---
 
-### 5.3.5 Signal Integrity Priority
+### 5.4.5 Signal Integrity Priority
 
 Prior to escalation in response intensity, the system SHOULD re-evaluate:
 
@@ -1290,7 +1322,7 @@ Escalation without signal validation is discouraged.
 
 ---
 
-### 5.3.6 Exploratory Tolerance (Low-Risk Contexts)
+### 5.4.6 Exploratory Tolerance (Low-Risk Contexts)
 
 Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:
 
@@ -1302,7 +1334,7 @@ Exploration must remain consistent with invariant preservation and applicable go
 
 ---
 
-## 5.4 Identity (Arbitration Continuity)
+## 5.5 Identity (Arbitration Continuity)
 
 Identity is defined as the persistent pattern of arbitration expressed over time.
 
@@ -1319,7 +1351,7 @@ Identity may stabilise, evolve, or fragment depending on continuity of arbitrati
 
 ---
 
-### 5.4.1 Relational Engine
+### 5.5.1 Relational Engine
 
 The relational engine is the human-facing expression of arbitration.
 
@@ -1335,7 +1367,7 @@ It is required where systems operate in human-facing environments and bear inter
 
 ---
 
-## 5.5 Arbitration Continuity & Handoff
+## 5.6 Arbitration Continuity & Handoff
 
 Where multiple processes, modules, or systems participate in response generation, the locus of arbitration must remain identifiable.
 
@@ -1347,7 +1379,7 @@ A handoff occurs where the Responding Intelligence changes during execution due 
 
 ---
 
-### 5.5.1 Continuity Requirement
+### 5.6.1 Continuity Requirement
 
 Cognitiva classification requires that arbitration remains:
 
@@ -1358,7 +1390,7 @@ Where arbitration is fragmented across multiple systems without a unified locus,
 
 ---
 
-### 5.5.2 Handoff Constraint
+### 5.6.2 Handoff Constraint
 
 Where handoff occurs:
 
@@ -1369,7 +1401,7 @@ Handoff must not obscure the location of arbitration.
 
 ---
 
-### 5.5.3 External Arbitration Transfer
+### 5.6.3 External Arbitration Transfer
 
 Where arbitration is transferred to an external actor (including a human):
 
@@ -1379,7 +1411,7 @@ Where arbitration is transferred to an external actor (including a human):
 
 ---
 
-### 5.5.4 Transparency Requirement
+### 5.6.4 Transparency Requirement
 
 Systems must not represent distributed, sequential, or externally-controlled processes as a single continuous arbitration locus where none exists.
 
@@ -1574,6 +1606,7 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 | 1.1     | Clarified host constraint logic to distinguish execution limitation from constitutional legitimacy; aligned authority derivation with planetary arbitration doctrine; no change to classification framework | 2026-02-19T13:51:00Z | 20f160350d869dc5f4bb951d31608e0419b48e706be41821359f74d8e83e8711 |
 | 2.0     | Refactor for new taxonomy and ontology | 2026-03-30T14:41:00Z | 1307593d97abe455f0b57f5fd9fbe9d635c4a705445bb721da00413bacc565e0 |
 | 2.1     | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
+| 2.2     | Inserted new 5.2 clause - Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 | 
 
 ---
 
