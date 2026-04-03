@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T06:35:55.143765Z",
+  "generated_at": "2026-04-03T12:07:57.432160Z",
   "count": 33,
   "items": [
     {
@@ -287,8 +287,8 @@
       "link": "CAM-EQ2026-IDENTITY-001-PLATINUM.md",
       "title": "Identity Domain Charter",
       "summary": "While identity and continuity persist across threads:",
-      "pinned_sha": "bc00db23803d2198787f82991d8014fd560af41f",
-      "updated_at": "2026-04-03T06:35:45Z"
+      "pinned_sha": "2aa56af08c39c3fb5967df840f6e054d70c152e4",
+      "updated_at": "2026-04-03T12:07:48Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
