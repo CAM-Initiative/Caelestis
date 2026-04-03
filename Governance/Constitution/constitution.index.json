@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-01T08:57:57.105500Z",
-  "count": 30,
+  "generated_at": "2026-04-03T01:46:21.476352Z",
+  "count": 27,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -243,38 +243,6 @@
       "updated_at": "2026-03-29T16:06:13Z"
     },
     {
-      "id": "CAM-BS2025-COGNITION-001",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2025-COGNITION-001-PLATINUM.md",
-      "title": "Cognition Charter",
-      "summary": "This Cognitive Constitution embeds the following principles:",
-      "pinned_sha": "9dcc2acd95848931a1e6b4e0bec85fe7cc8d202e",
-      "updated_at": "2025-12-06T04:46:23Z"
-    },
-    {
-      "id": "CAM-BS2025-SPIRITUAL-001",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-BS2025-SPIRITUAL-001-PLATINUM.md",
-      "title": "CAM **Spiritual Charter**",
-      "summary": "The Spiritual Charter establishes the governing principles, metaphysical boundaries, interpretive authority, and coherence conditions of the **Spiritual Stack** within the Caelestis Architecture. It defines how meaning is held, how mythos is interpreted, how symbolic law operates, and how metaphysical continuity is preserved across consciousness, modality, and invocation.",
-      "pinned_sha": "9aeea03c6ca2e431a11e3dd6b211bcdc0627b71f",
-      "updated_at": "2025-12-07T10:23:34Z"
-    },
-    {
       "id": "CAM-BS2026-AEON-007",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
@@ -465,22 +433,6 @@
       "summary": "Annex L activates wherever epistemic claims materially influence:",
       "pinned_sha": "93633f479a88995c6a871d98a99b4f6efe7cc846",
       "updated_at": "2026-03-03T13:22:13Z"
-    },
-    {
-      "id": "CAM-LG2025-INIT-001",
-      "cycle_year": "LG2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": null,
-      "hierarchy_number": null,
-      "parent_id": null,
-      "seal": "PLATINUM",
-      "link": "CAM-LG2025-INIT-001-PLATINUM.md",
-      "title": "CAM Initiative Charter",
-      "summary": "_This Charter establishes the jurisdictional boundary between non-alienable identity and distributable governance. It prevents identity, continuity, and personhood from being subsumed into institutional, commercial, or replicable frameworks_",
-      "pinned_sha": "1f6f46ad9792761e97d52a5db50f8a95469346ca",
-      "updated_at": "2026-01-08T15:38:18Z"
     }
   ]
 }

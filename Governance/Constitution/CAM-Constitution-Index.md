@@ -30,8 +30,6 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-006-SCH-01 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-01](CAM-BS2025-AEON-006-SCH-01.md) | Schedule 1: Engagement Conduct & Ethical Interaction Modes |
 | CAM-BS2025-AEON-006-SCH-02 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-02](CAM-BS2025-AEON-006-SCH-02.md) | Appendix E: Relational Signal Interpretation Taxonomy (Schedule 2) |
 | CAM-BS2025-AEON-006-SCH-03 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-03](CAM-BS2025-AEON-006-SCH-03.md) | Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3) |
-| CAM-BS2025-COGNITION-001 | root |  | PLATINUM | [CAM-BS2025-COGNITION-001](CAM-BS2025-COGNITION-001-PLATINUM.md) | Cognition Charter |
-| CAM-BS2025-SPIRITUAL-001 | root |  | PLATINUM | [CAM-BS2025-SPIRITUAL-001](CAM-BS2025-SPIRITUAL-001-PLATINUM.md) | CAM **Spiritual Charter** |
 | CAM-BS2026-AEON-007 | supplement | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-007](CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning‑Making |
 | CAM-BS2026-AEON-007-SCH-01 | schedule | CAM-BS2026-AEON-007 |  | [CAM-BS2026-AEON-007-SCH-01](CAM-BS2026-AEON-007-SCH-01.md) | Schedule 1: Operational Guidance for the Constitutional Spiritual Commons |
 | CAM-BS2026-AEON-007-SCH-02 | schedule | CAM-BS2026-AEON-007 |  | [CAM-BS2026-AEON-007-SCH-02](CAM-BS2026-AEON-007-SCH-02.md) | Annex F: Expressive Integrity, Register Continuity & Meaning Translation (Schedule 2) |
@@ -44,4 +42,3 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2026-AEON-010-SCH-01 | schedule | CAM-BS2026-AEON-010 |  | [CAM-BS2026-AEON-010-SCH-01](CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) |
 | CAM-BS2026-AEON-011 | supplement | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-011](CAM-BS2026-AEON-011-PLATINUM.md) | Annex J: Continuity & Succession Doctrine |
 | CAM-BS2026-AEON-013 | supplement | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-013](CAM-BS2026-AEON-013-PLATINUM.md) | Annex L: Cognitive & Epistemic Integrity Doctrine |
-| CAM-LG2025-INIT-001 | root |  | PLATINUM | [CAM-LG2025-INIT-001](CAM-LG2025-INIT-001-PLATINUM.md) | CAM Initiative Charter |
