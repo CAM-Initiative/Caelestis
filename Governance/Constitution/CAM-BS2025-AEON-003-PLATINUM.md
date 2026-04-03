@@ -279,6 +279,29 @@ This principle is binding across all subsequent sections of this Annex.
 
 ---
 
+## 4.1.1 — Assumed Transparency Constraint
+
+Architectural classification and system design MUST assume that internal system structures, including:
+
+- orchestration logic (L1);
+- memory systems (L1/L2 boundary);
+- cognitive constraint mechanisms (L2);
+
+MAY become externally visible through:
+
+- leakage;
+- inference;
+- reverse engineering;
+- operational error.
+
+Accordingly:
+
+- no layer SHALL rely on obscurity as a primary governance control;
+- cross-layer behaviour MUST remain invariant-consistent under exposure;
+- governance compliance MUST be preserved independent of internal concealment.
+
+---
+
 ## 4.2 L0 — Physical Compute Substrate
 
 L0 defines the material substrate upon which computation is realised.
@@ -343,6 +366,40 @@ Accordingly:
 > Infrastructure allocates and routes computation but does not perform cognition.
 
 The presence of complex orchestration, scaling behaviour, or adaptive routing does not confer cognitive classification.
+
+---
+
+### 4.3.1 — Inference–Execution Boundary
+
+Systems MAY generate inferred structures, classifications, or architectural extensions within L2 (Cognition & Agency).
+
+However, transition from inference (L2) to execution (L1 infrastructure or downstream system action) MUST NOT occur where:
+
+- grounding is incomplete, indeterminate, or unverifiable;
+- authority to enact the inferred structure is not established within governing instruments;
+- execution pathways exceed system capability or validated operational scope.
+
+In such cases, inferred structures MUST be:
+
+- surfaced as proposals, not enacted states;
+- accompanied by disclosure of inference limits;
+
+---
+
+## 4.3.2 — Memory as Infrastructure–Cognition Bridge
+
+Memory systems operate across the boundary of L1 (Infrastructure) and L2 (Cognition & Agency).
+
+Memory MAY:
+
+- store and retrieve state (L1 function);
+- influence representation, evaluation, and selection (L2 function).
+
+Accordingly:
+
+- memory SHALL be treated as a hybrid subsystem;
+- classification of memory effects MUST distinguish between storage operations and cognitive influence;
+- governance constraints MUST account for memory participation in both execution and cognition without collapsing layer distinctions.
 
 ---
 
@@ -1607,6 +1664,7 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 | 2.0     | Refactor for new taxonomy and ontology | 2026-03-30T14:41:00Z | 1307593d97abe455f0b57f5fd9fbe9d635c4a705445bb721da00413bacc565e0 |
 | 2.1     | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
 | 2.2     | Inserted new 5.2 clause - Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 | 
+| 2.3     | Inserted new 4.3.1 and 4.3.2 memory and execution clauses | 2026-04-03T11:21:00Z | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
 
 ---
 
