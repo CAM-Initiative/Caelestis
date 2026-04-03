@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T02:16:34.916463Z",
+  "generated_at": "2026-04-03T02:53:03.257905Z",
   "count": 27,
   "items": [
     {
@@ -383,8 +383,8 @@
       "link": "CAM-BS2026-AEON-010-PLATINUM.md",
       "title": "Annex I: Identity Integrity & Continuity Governance",
       "summary": "",
-      "pinned_sha": "702092f18497c2c7365fea550cac7043167d1173",
-      "updated_at": "2026-03-28T01:43:49Z"
+      "pinned_sha": "aef03c6a7845e2240a139908ee22ca276f3c07d4",
+      "updated_at": "2026-04-03T02:52:53Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-SCH-01",
