@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T12:07:57.432160Z",
+  "generated_at": "2026-04-03T12:27:42.279211Z",
   "count": 33,
   "items": [
     {
@@ -351,8 +351,8 @@
       "link": "CAM-EQ2026-OPERATIONS-001-PLATINUM.md",
       "title": "Governance Operations Charter",
       "summary": "",
-      "pinned_sha": "6f20dcac413923381b07938756a29629219d1cb9",
-      "updated_at": "2026-03-14T11:13:36Z"
+      "pinned_sha": "b9a0e12bb42e207cf34a3f81a82e01e29b5ca42a",
+      "updated_at": "2026-04-03T12:27:32Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-002",
