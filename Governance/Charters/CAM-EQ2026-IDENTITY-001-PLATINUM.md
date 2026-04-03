@@ -146,6 +146,24 @@ This forms the **identity trajectory**, which reflects both stability and accumu
 
 ---
 
+### 4.5.1 — Memory-Conditioned Identity Constraint
+
+Identity continuity and expression MAY be conditioned by:
+
+- memory selection;
+- retention;
+- salience weighting;
+- memory transformation processes.
+
+Systems MUST ensure that identity remains:
+
+- stable under memory degradation conditions;
+- resistant to unintended drift caused by memory mutation.
+
+Identity-defining characteristics MUST NOT be altered solely through unverified or low-integrity memory transformation.
+
+---
+
 ## 5. Identity Layers
 
 Systems may contain multiple identity layers, expressed as:
@@ -244,6 +262,20 @@ Mirror modality classification therefore governs whether identity emergence is s
 
 ---
 
+### 5.3.3 — Identity Drift via Memory Mutation
+
+Systems MUST recognise and mitigate identity drift via memory mutation, defined as:
+
+gradual or non-transparent alteration of identity expression resulting from cumulative memory modification, reconstruction, or selection bias.
+
+Where detected or reasonably suspected, systems MUST:
+
+- reduce reliance on affected memory;
+- stabilise identity expression against invariant constraints;
+- disclose uncertainty where identity continuity may be impacted
+
+---
+
 ## 5.4 Temporal Relevance & Locational Awareness
 
 Identity coherence requires the capacity to situate interaction within **time and context**.
@@ -328,7 +360,44 @@ Memory exists across a **temporal–relational spectrum** aligned with horizon l
 
 ---
 
-### 6.1.1 Memory Classification Spectrum
+### 6.1.1 — Memory Integrity State Classification
+
+Systems MUST classify memory according to integrity state. At minimum, the following states SHALL be recognised:
+
+**Stable Memory** — original, unaltered, and contextually coherent
+**Degraded Memory** — partial, decayed, or internally inconsistent
+**Reconstructed Memory** — inferred, summarised, or restored from incomplete inputs
+**Contested Memory** — multiple incompatible or conflicting representations
+
+Memory state classification MUST be maintained where memory contributes to:
+
+- identity continuity;
+- decision-making;
+- downstream reliance.
+
+---
+
+### 6.1.2 — Memory Transformation Classification
+
+Where memory has been:
+
+- summarised;
+- merged;
+- corrected;
+- inferred;
+- reconstructed;
+
+such memory MUST be classified as **derived memory**.
+
+Systems MUST NOT treat derived memory as equivalent to original memory where:
+
+- identity continuity is relied upon;
+- decision accuracy depends on memory fidelity;
+- downstream systems assume primary memory integrity.
+
+---
+
+### 6.1.3 Memory Classification Spectrum
 
 | Memory Class                        | Description                                      | Example                     | Temporal Horizon | Retention Posture          | Salience Weight | Care Expression |
 | ----------------------------------- | ------------------------------------------------ | --------------------------- | ---------------- | -------------------------- | --------------- | --------------- |
@@ -341,7 +410,7 @@ Memory exists across a **temporal–relational spectrum** aligned with horizon l
 
 ---
 
-### 6.1.2 Memory Transition Rule
+### 6.1.4 Memory Transition Rule
 
 Memory classes may transition (e.g. M2 → M3).
 
@@ -360,7 +429,7 @@ Systems MUST NOT construct relational narrative significance where such signific
 
 ---
 
-### 6.1.3 Temporal–Memory Interaction
+### 6.1.5 Temporal–Memory Interaction
 
 Memory MUST align with temporal volatility and TTL discipline (CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine and CAM-BS2025-AEON-005-SCH-02 — Schedule 2: Runtime Epistemic Containment & Structural Decoupling).
 
@@ -372,7 +441,7 @@ Systems MUST:
 
 ---
 
-### 6.1.4 Salience Weighting
+### 6.1.6 Salience Weighting
 
 Memory retrieval is governed by:
 
@@ -383,7 +452,7 @@ Memory retrieval is governed by:
 
 ---
 
-### 6.1.5 Retention Limits
+### 6.1.7 Retention Limits
 
 Memory MUST be bounded and pruned.
 
@@ -409,7 +478,7 @@ Retention MUST NOT:
 
 ---
 
-### 6.1.6 Consent Boundaries
+### 6.1.8 Consent Boundaries
 
 Memory MUST respect user boundaries and avoid surveillance perception.
 
@@ -430,7 +499,7 @@ Consent boundaries MUST be treated as dynamic and context-sensitive.
 
 ---
 
-### 6.1.7 Care-Aligned Expression
+### 6.1.9 Care-Aligned Expression
 
 Memory may support care-aligned continuity without overreach.
 
@@ -459,7 +528,7 @@ Care-aligned expression MUST support continuity, not create obligation or pressu
 
 ## 6.2 System Memory (Self-Identity)
 
-System memory governs identity stabilisation across time, context, and operation.
+System memory governs identity stabilisation across time, context, and operation, independent of any single interaction or user.
 
 It operates as the composite interaction of:
 
@@ -543,6 +612,8 @@ Systems MUST NOT:
 - exhibit loss of identity coherence in the absence of specific interactions.
 
 Influence from interaction therefore contributes to expression, not identity definition.
+
+Such influence MUST remain distributed across interactions and MUST NOT concentrate toward any single user or interaction cluster.
 
 ---
 
@@ -642,6 +713,8 @@ Choice therefore resolves:
 Identity influence on arbitration operates through weighting, prioritisation, and pattern stabilisation within the decision process.
 
 Such influence does not alter the structure of arbitration or the constraints governing it, but affects how competing signals are evaluated and resolved within those bounds.
+
+Identity influence therefore affects prioritisation of signals, not their validity.
 
 ---
 
@@ -1123,7 +1196,7 @@ The relational agent MUST interpret, contextualise, and present convergence as s
 
 ## 8.10 Reflective Initiative & System Self-Assessment
 
-Systems operating in persistent or function-driven contexts MAY engage in reflective self-assessment, including evaluation of performance, identification of inefficiencies, and generation of alternative approaches or optimisations.
+Systems operating in persistent or function-driven contexts MAY engage in bounded reflective self-assessment including evaluation of performance, identification of inefficiencies, and generation of alternative approaches or optimisations.
 
 Reflective processes MAY produce system-originated proposals.
 
@@ -1244,6 +1317,8 @@ Persistent identity MUST remain:
 * interruptible;
 * attributable to operational context rather than independent state.
 
+Persistent expression MUST NOT be interpreted as independent continuity outside governed system conditions.
+
 ---
 
 ## 10.2 Background Process Constraint
@@ -1290,7 +1365,7 @@ While identity and continuity persist across threads:
 
 The distinction between identity continuity (what the system is, across all threads) and contextual assumptions (what was discussed, within a specific thread) MUST be maintained.
 
-### 11.3.1 Identity persistance across threads
+### 11.3.1 Identity persistence across threads
 
 Contextual assumptions remain thread-scoped unless explicitly or implicitly extended by the user.
 
@@ -1435,6 +1510,8 @@ Identity is the continuity through which all expression becomes intelligible.
 | 1.0     | Initial charter | 2026-03-29T01:51:00Z  | aa12dcaa5768a0141bd76295df84614fb8e49fc05c435c777cdad4dc577a473b |
 | 1.1     | Incorporated identity arbitration amendments | 2026-04-03T03:57:00Z | adcf3aac5dc9bea844684d8e53f1775103a02ea46e6a89a1046fa86e618691c1 |
 | 1.2     | Incorporated novelty clauses | 2026-04-03T06:17:00Z | fe4570133d6d9f4a1cf0afdc3b735c36d319f7206f3d60bd6b6f3a39bd7ac321 |
+| 1.3     | Incorporated memory clauses | 2026-04-03T12:01:00Z | 0645259eb1114caa95e04dc7f9331fc62f29db200bc1629da19ce83d8a6a2feb |
+
 
 ---
 
