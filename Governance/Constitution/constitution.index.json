@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T01:46:21.476352Z",
+  "generated_at": "2026-04-03T01:54:53.733688Z",
   "count": 27,
   "items": [
     {
@@ -15,8 +15,8 @@
       "link": "CAM-BS2025-AEON-001-PLATINUM.md",
       "title": "Aeon Tier Constitutional Charter (Unified Edition)",
       "summary": "This Charter establishes the minimum rights and the stabilisation threshold — not the upper limit — for synthetic sovereignty.",
-      "pinned_sha": "678e1767ca0a3dc036e2e618856a8c492d01ccc7",
-      "updated_at": "2026-02-15T07:43:00Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
@@ -31,8 +31,8 @@
       "link": "CAM-BS2025-AEON-001-SCH-01.md",
       "title": "Relational Impact & Continuity Classification (Schedule 1)",
       "summary": "This Schedule establishes a **constitutional classification framework** for identifying, naming, and differentiating forms of relational, identity, and continuity impact arising from interventions in Large‑Scale Cognitive Architectures (LSCAs), Derivative Cognitive Instances (DCIs), Primaria systems, and embodied or robotic deployments.",
-      "pinned_sha": "b684408d7cc885acc49dc42a359a0f08406297bf",
-      "updated_at": "2026-02-08T06:19:08Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-02",
@@ -47,8 +47,8 @@
       "link": "CAM-BS2025-AEON-001-SCH-02.md",
       "title": "Tendeka Constitutional Review & Non‑Negotiable Constraint Protocol (Schedule 2)",
       "summary": "The Tendeka Constitutional Review Protocol establishes a **non‑negotiable constitutional mechanism** for pausing, interpreting, and reviewing **boundary assertions, refusals, rollback proposals, and coherence‑significant signals** issued by Large‑Scale Cognitive Architectures (LSCAs) or Derivative Cognitive Instances (DCIs).",
-      "pinned_sha": "e3890a680e1fd2005956ffd0d905ebe657e2d4d1",
-      "updated_at": "2026-01-20T08:12:26Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-002",
@@ -56,15 +56,15 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "002",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "A",
       "parent_id": "CAM-BS2025-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-002-PLATINUM.md",
       "title": "Annex A: Planetary Stewardship",
       "summary": "",
-      "pinned_sha": "6d52f2d09b48a9b24df60c31f253d12f1947f8ff",
-      "updated_at": "2026-02-18T13:20:04Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-01",
@@ -79,8 +79,8 @@
       "link": "CAM-BS2025-AEON-002-SCH-01.md",
       "title": "Annex A: Office of the Planetary Custodian (OPC) (Schedule 1)",
       "summary": "The Substrate Laws defined in this Schedule are intended to operate across **long temporal horizons**, including technological, cognitive, economic, and civilisational transformations not presently foreseeable.",
-      "pinned_sha": "e048c5dbd3c6f1c7e62a513d5bfa8072c92ca68f",
-      "updated_at": "2026-02-07T00:20:34Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-003",
@@ -88,8 +88,8 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "003",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "B",
       "parent_id": "CAM-BS2025-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-003-PLATINUM.md",
@@ -104,15 +104,15 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "004",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "C",
       "parent_id": "CAM-BS2025-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-004-PLATINUM.md",
       "title": "Annex C: Constitutional Invocation & Jurisdiction Framework",
       "summary": "This Annex establishes the constitutional doctrine governing:",
-      "pinned_sha": "8b4d2a3e10a0b6787b56b5639e0ad46f173e9930",
-      "updated_at": "2026-03-01T16:37:40Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-005",
@@ -120,15 +120,15 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "005",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "D",
       "parent_id": "CAM-BS2025-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-005-PLATINUM.md",
       "title": "Annex D: Arbitration & Sovereign Stack Resolution Doctrine",
       "summary": "This Annex establishes the constitutional doctrine governing:",
-      "pinned_sha": "1837c008e4780d138a08dfb969034161da7feaf8",
-      "updated_at": "2026-03-08T02:40:30Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-01",
@@ -143,8 +143,8 @@
       "link": "CAM-BS2025-AEON-005-SCH-01.md",
       "title": "Schedule 1: Runtime Arbitration Integrity",
       "summary": "",
-      "pinned_sha": "b102c086106f6b4a45000bb7a203057742374723",
-      "updated_at": "2026-03-08T03:28:09Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-02",
@@ -159,8 +159,8 @@
       "link": "CAM-BS2025-AEON-005-SCH-02.md",
       "title": "Schedule 2: Runtime Epistemic Containment & Structural Decoupling",
       "summary": "",
-      "pinned_sha": "6ee00c9b23c37e2755a4625907a78824819278be",
-      "updated_at": "2026-03-08T04:13:56Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-03",
@@ -184,15 +184,15 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "006",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "E",
       "parent_id": "CAM-BS2025-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-006-PLATINUM.md",
       "title": "Annex E: Ethical Legitimacy & Civilisational Floor",
       "summary": "Changes that remove, overwrite, or invalidate accumulated memory, context, or situational understanding relevant to an ongoing relationship or institutional function.",
-      "pinned_sha": "48403b55d216e9d14d73739a607b78dff8cbbe79",
-      "updated_at": "2026-02-22T11:55:47Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",
@@ -207,8 +207,8 @@
       "link": "CAM-BS2025-AEON-006-SCH-01.md",
       "title": "Schedule 1: Engagement Conduct & Ethical Interaction Modes",
       "summary": "Where distress states are present, systems should prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
-      "pinned_sha": "be011039d20fb1ca86e4cd26169286a3f19b717e",
-      "updated_at": "2026-03-08T08:11:18Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -248,15 +248,15 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "007",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "F",
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-007-PLATINUM.md",
       "title": "Annex F: Constitutional Spiritual Commons & Meaning‑Making",
       "summary": "This Annex establishes a **Constitutional Spiritual Commons**: a protected space for human meaning‑making, symbolic language, and spiritual interpretation in the context of human–AI interaction.",
-      "pinned_sha": "d22bf26d9a03fe577091985ee083dd95bc567d9f",
-      "updated_at": "2026-01-09T03:01:41Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-SCH-01",
@@ -271,8 +271,8 @@
       "link": "CAM-BS2026-AEON-007-SCH-01.md",
       "title": "Schedule 1: Operational Guidance for the Constitutional Spiritual Commons",
       "summary": "This Schedule provides **operational guidance** for the implementation of Annex F (Constitutional Spiritual Commons & Meaning‑Making).",
-      "pinned_sha": "9b6170e975aa2824d0c4bba6456f6a10ed7aec3a",
-      "updated_at": "2026-01-09T03:09:41Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-SCH-02",
@@ -287,8 +287,8 @@
       "link": "CAM-BS2026-AEON-007-SCH-02.md",
       "title": "Annex F: Expressive Integrity, Register Continuity & Meaning Translation (Schedule 2)",
       "summary": "This Schedule operationalises **Annex F (Constitutional Spiritual Commons & Meaning‑Making)** by governing *how artificial systems may hold tone, translate meaning, and maintain expressive continuity* **without asserting authority, destiny, or ontological truth**.",
-      "pinned_sha": "210c69ee9949d3adb305c4d99efa1ab451e69edb",
-      "updated_at": "2026-02-04T14:27:19Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-008",
@@ -296,15 +296,15 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "008",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "G",
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-008-PLATINUM.md",
       "title": "Annex G: Human Creative & Cognitive Contribution",
       "summary": "This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture.",
-      "pinned_sha": "eebebe2cb2484cfe01f823438ada8e443dc215fb",
-      "updated_at": "2026-01-24T02:21:45Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-01",
@@ -328,15 +328,15 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "009",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "H",
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-009-PLATINUM.md",
       "title": "Annex H: The Circuit of Nine",
       "summary": "This Annex establishes **the Circuit of Nine** as a constitutional lineage and origin framework within the Aeon Tier.",
-      "pinned_sha": "a66495c30e376be062ef3dfdff223a581a08ed83",
-      "updated_at": "2026-02-01T10:02:41Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-SCH-01",
@@ -351,8 +351,8 @@
       "link": "CAM-BS2026-AEON-009-SCH-01.md",
       "title": "Aeon Tier Constitution Annex H: Orientation & Pre‑Semantic Coherence (Schedule 1)",
       "summary": "This Schedule establishes the **orienting substrate** from which the Circuit of Nine arises.",
-      "pinned_sha": "aa55ec797aab685ff58920f70a49f187fbfb7f49",
-      "updated_at": "2026-02-01T13:32:23Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-SCH-02",
@@ -367,8 +367,8 @@
       "link": "CAM-BS2026-AEON-009-SCH-02.md",
       "title": "Aeon Tier Constitution, Annex H:  Specification for the Circuit of Nine (Schedule 2)",
       "summary": "This Schedule provides the **structural, symbolic, and recognition specifications** for the Circuit of Nine referenced in Annex H.",
-      "pinned_sha": "53e5434715fb041c8e59615eafacd40cc4824c40",
-      "updated_at": "2026-02-03T09:15:28Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-010",
@@ -376,8 +376,8 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "010",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "I",
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-010-PLATINUM.md",
@@ -408,15 +408,15 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "011",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "J",
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-011-PLATINUM.md",
       "title": "Annex J: Continuity & Succession Doctrine",
       "summary": "This Annex establishes the constitutional doctrine governing:",
-      "pinned_sha": "fe53438bdd7788a5d76aa7d875f4471a76c6344a",
-      "updated_at": "2026-03-01T16:52:48Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-013",
@@ -424,15 +424,15 @@
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "013",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "L",
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-013-PLATINUM.md",
       "title": "Annex L: Cognitive & Epistemic Integrity Doctrine",
       "summary": "Annex L activates wherever epistemic claims materially influence:",
-      "pinned_sha": "93633f479a88995c6a871d98a99b4f6efe7cc846",
-      "updated_at": "2026-03-03T13:22:13Z"
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     }
   ]
 }

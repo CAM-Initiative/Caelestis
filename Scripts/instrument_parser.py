@@ -74,6 +74,18 @@ def _normalise_hierarchy_type(h_type: Optional[str]) -> Optional[str]:
     return mapping.get(h_type.upper(), h_type.lower())
 
 
+def _to_alpha_index(value: int) -> Optional[str]:
+    """Convert 1-based integer index to alphabetic code: 1 -> A, 27 -> AA."""
+    if value <= 0:
+        return None
+    chars = []
+    while value > 0:
+        value -= 1
+        chars.append(chr(ord("A") + (value % 26)))
+        value //= 26
+    return "".join(reversed(chars))
+
+
 def parse_instrument_filename(filename: str, folder_type: str) -> Optional[dict]:
     m = FILENAME_RE.match(filename)
     if not m:
@@ -85,8 +97,16 @@ def parse_instrument_filename(filename: str, folder_type: str) -> Optional[dict]
     hierarchy_type = _normalise_hierarchy_type(h_type)
     hierarchy_number = h_number if hierarchy_type else None
 
-    # Treat non-001 base files as supplements when no explicit hierarchy token exists.
-    if not hierarchy_type and number != "001":
+    folder_key = _normalise_folder_type(folder_type)
+
+    # Constitution root instruments are organised as Annexes (AEON-002 => Annex A).
+    if folder_key == "constitution" and not hierarchy_type and number != "001":
+        hierarchy_type = "annex"
+        hierarchy_number = _to_alpha_index(int(number) - 1)
+        parent_id = f"CAM-{cycle_year}-{domain_token.upper()}-001"
+
+    # Treat non-001 base files as supplements only for Charter folders.
+    if folder_key == "charters" and not hierarchy_type and number != "001":
         hierarchy_type = "supplement"
         hierarchy_number = number
         parent_id = f"CAM-{cycle_year}-{domain_token.upper()}-001"

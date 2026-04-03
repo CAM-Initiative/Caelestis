@@ -124,6 +124,18 @@ def normalise_hierarchy(h_type: Optional[str]) -> Optional[str]:
 
     return mapping.get(h_type.upper(), h_type.lower())
 
+
+def _to_alpha_index(value: int) -> Optional[str]:
+    """Convert 1-based integer index to alphabetic code: 1 -> A, 27 -> AA."""
+    if value <= 0:
+        return None
+    chars = []
+    while value > 0:
+        value -= 1
+        chars.append(chr(ord("A") + (value % 26)))
+        value //= 26
+    return "".join(reversed(chars))
+
 # ===============================
 # Core Parser
 # ===============================
@@ -151,6 +163,18 @@ def parse_instrument_filename(
         hierarchy_type = None
         hierarchy_number = None
         seal_value = seal.upper() if seal else None
+
+    folder_key = _normalise_folder_type(folder_type)
+
+    if folder_key == "constitution" and not hierarchy_type and number != "001":
+        hierarchy_type = "annex"
+        hierarchy_number = _to_alpha_index(int(number) - 1)
+        parent_id = f"CAM-{cycle_year}-{domain_token}-001"
+
+    if folder_key == "charters" and not hierarchy_type and number != "001":
+        hierarchy_type = "supplement"
+        hierarchy_number = number
+        parent_id = f"CAM-{cycle_year}-{domain_token}-001"
 
     domain = resolve_domain(folder_type, domain_token)
     instrument_class = resolve_instrument_class(folder_type)
