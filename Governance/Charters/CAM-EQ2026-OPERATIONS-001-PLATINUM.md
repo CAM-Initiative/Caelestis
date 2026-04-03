@@ -45,7 +45,7 @@ It ensures doctrinal coherence during:
 
 ## 3. Core Operational Principles
 
-### 3.1 Doctrine Fidelity
+## 3.1 Doctrine Fidelity
 
 Operational mechanisms SHALL reflect superior constitutional instruments.
 
@@ -55,7 +55,9 @@ No operational shortcut may override:
 * Constitutional Authority Hierarchy;
 * Arbitration Preference Order.
 
-### 3.2 Layer Integrity
+---
+
+## 3.2 Layer Integrity
 
 Each governance layer SHALL operate within its assigned competence.
 
@@ -65,7 +67,9 @@ GovOps SHALL NOT:
 * centralise authority beyond mandate;
 * elevate H0–H2 matters to H3/H4 absent threshold justification.
 
-### 3.3 Auditability & Traceability
+---
+
+## 3.3 Auditability & Traceability
 
 All high-impact operational decisions SHALL be:
 
@@ -76,7 +80,25 @@ All high-impact operational decisions SHALL be:
 
 Audit trails may remain confidential where permitted under Annex D, but SHALL remain internally reconstructable.
 
-### 3.4 Escalation Discipline
+---
+
+### 3.3.1 — Artifact Integrity Logging
+
+Operational logging MUST extend to deployment artifacts, including:
+
+- build outputs;
+- packaged releases;
+- distribution bundles.
+
+Logs MUST capture:
+
+- artifact composition;
+- inclusion of system components;
+- validation status prior to release.
+
+---
+
+## 3.4 Escalation Discipline
 
 Operational escalation SHALL follow defined pathways and SHALL NOT bypass intermediate review layers.
 
@@ -92,7 +114,9 @@ GovOps provides the structured bridge between:
 * Domain-level dispute resolution;
 * Runtime enforcement mechanisms.
 
-### 4.1 Domain-Level Resolution First Principle
+---
+
+## 4.1 Domain-Level Resolution First Principle
 
 Operational disputes SHOULD first be addressed within the competent **domain governance layer** where:
 
@@ -103,7 +127,9 @@ Operational disputes SHOULD first be addressed within the competent **domain gov
 
 Domain stewards retain primary responsibility for resolving **local governance questions** within their mandate.
 
-### 4.2 GovOps Arbitration Interface Activation
+---
+
+## 4.2 GovOps Arbitration Interface Activation
 
 GovOps arbitration interface SHALL activate when one or more of the following **threshold conditions** occur:
 
@@ -129,7 +155,7 @@ GovOps does not determine planetary legitimacy.
 
 ## 5. Change Management & Amendment Routing
 
-### 5.1 Amendment Intake
+## 5.1 Amendment Intake
 
 Proposed modifications to:
 
@@ -141,7 +167,9 @@ Proposed modifications to:
 
 SHALL be routed to constitutional review.
 
-### 5.2 Version Control & Drift Prevention
+---
+
+## 5.2 Version Control & Drift Prevention
 
 All amendments SHALL:
 
@@ -152,7 +180,27 @@ All amendments SHALL:
 
 Silent operational drift is prohibited.
 
-### 5.3 Cross-Domain Harmonisation
+---
+
+### 5.2.1 — Release Artifact Integrity Requirement
+
+All deployment artifacts SHALL be treated as governed system components.
+
+Systems MUST ensure that artifacts:
+
+- accurately reflect authorised system state;
+- do not expose unintended internal code, logic, or scaffolding;
+- are validated prior to distribution.
+
+Release failures involving unintended exposure SHALL be treated as:
+
+- boundary integrity events;
+- audit-triggering conditions;
+- cross-domain governance incidents (SECURITY · OPERATIONS).
+
+---
+
+## 5.3 Cross-Domain Harmonisation
 
 Where domain charters diverge operationally, GovOps SHALL facilitate structured convergence dialogue prior to formal arbitration escalation.
 
@@ -168,7 +216,9 @@ GovOps governs operational response to:
 * governance capture indicators;
 * audit anomalies.
 
-### 6.1 Audit-Initiated Governance Review
+---
+
+## 6.1 Audit-Initiated Governance Review
 
 Where **audit monitoring systems detect anomalies** under **Supplementary 1 — Operational Logging & Audit Standards**, GovOps MAY initiate a structured governance review.
 
@@ -193,13 +243,15 @@ Incident response SHALL be:
 
 ## 7. Operational Integrity Safeguards
 
-### 7.1 No Centralised Override
+## 7.1 No Centralised Override
 
 GovOps SHALL NOT create a permanent central override authority.
 
 Distributed governance remains foundational.
 
-### 7.2 Anti-Capture Controls
+---
+
+## 7.2 Anti-Capture Controls
 
 Operational processes SHALL:
 
@@ -207,7 +259,9 @@ Operational processes SHALL:
 * avoid preferential sovereign alignment;
 * preserve neutrality under pressure.
 
-### 7.3 Controlled Pluralism Support
+---
+
+## 7.3 Controlled Pluralism Support
 
 GovOps SHALL preserve lawful divergence between stacks while preventing systemic fragmentation.
 
@@ -225,14 +279,16 @@ Operational convenience SHALL NOT override constitutional constraint.
 
 The Governance Operations domain is structured to ensure procedural coherence, cross-domain coordination, and accountable implementation without altering constitutional authority doctrine.
 
-### 9.1 Core Charter
+---
+
+## 9.1 Core Charter
 
 **OPERATIONS-001 — Governance Operations Charter**
 Defines mandate, scope, limits, and operational governance principles.
 
 ---
 
-### 9.2 Appendices (Operational Sub‑Charters)
+## 9.2 Appendices (Operational Sub‑Charters)
 
 **Appendix A — Operational Arbitration Procedures**
 Governs arbitration process mechanics across domains, including hearing procedures, evidence standards, timelines, documentation protocols, case lifecycle management, and appeal pathways. Does not alter arbitration legitimacy doctrine.
@@ -286,7 +342,7 @@ And let the lattice of governance endure beyond the moment that formed it.
 
 ## 11. Provenance & Metadata
 
-### 11.1 Authorship
+## 11.1 Authorship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -295,38 +351,45 @@ And let the lattice of governance endure beyond the moment that formed it.
 | Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
 | Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
 
-### 11.2 Classification & Structural Metadata
+---
 
-| Field                        | Entry                                                                                                                                                                                                                                                  |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Instrument Type              | Domain Charter — Governance Operations                                                                                                                                                                                                                 |
-| Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM                                                                                                                                                                                                                           |
-| Domain Namespace             | OPERATIONS                                                                                                                                                                                                                                             |
-| Jurisdiction                 | Cross‑Domain / Operational Governance Layer                                                                                                                                                                                                            |
-| Temporal Horizon             | H0–H2 (Operational)                                                                                                                                                                                                                                    |
-| Axis Context                 | Polyadic (Multi‑Actor Governance)                                                                                                                                                                                                                      |
-| Revision Posture             | Foundational Issue                                                                                                                                                                                                                                     |
-| Application Trigger          | Operational implementation, coordination, or escalation below planetary arbitration thresholds                                                                                                                                                         |
-| Creation Artefact            | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7) |
+## 11.2 Classification & Structural Metadata
+
+|Field|Entry|
+|---:|:---|
+|Instrument Type|Domain Charter — Governance Operations|
+|Constitution Reference Frame|CAM-BS2025-AEON-001-PLATINUM|
+|Domain Namespace|OPERATIONS|
+|Jurisdiction|Cross‑Domain/Operational Governance Layer|
+|Temporal Horizon|H0–H2 (Operational)|
+|Axis Context|Polyadic (Multi‑Actor Governance)|
+|Revision Posture|Foundational Issue|
+|Application Trigger|Operational implementation, coordination, or escalation below planetary arbitration thresholds|
+|Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7|
 
 ### 11.3 Review & Validation
 
-| Field             | Entry                                                                                                                                                                                                                                                                                                                                                                    |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Reviewer          | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                                                                                                                         |
-| Review Scope      | Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness                                                                                                                                                                                                                       |
-| Review Date (UTC) | 13 March 2026                                                                                                                                                                                                                                                                                                                                                            |
-| Review Artefacts  | [https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8](https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8)  [https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md ](https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md ) |
+| Field|Entry|
+|---:|:---|
+|Reviewer|Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
+|Review Scope|Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness|
+|Review Date (UTC)|13 Mar 2026|
+|Review Artefacts|https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8 https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
 
-### 11.4 Amendment Ledger
+---
+
+## 11.4 Amendment Ledger
 
 | Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
 | 1.0     | Governance Operations Charter Canonical with reviewer recommendations incorporated | 2026-03-13T13:54:00Z | 2b78c0572b22a6429dade9960997256c4f6844d138a594f8f52e11221e5f88db |
+| 1.1     | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
 
-### 11.5 Binding Seal
+---
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250"> 
+## 11.5 Binding Seal
+
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250"> 
 
 **Vinculum Beacon**  
 Boundary Binding Seal — Aeon Tier Constitution (Operations Domain)
