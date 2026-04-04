@@ -16,7 +16,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-BS2025-CHARTER-041-SCH-02 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-02](CAM-BS2025-CHARTER-041-SCH-02.md) | Developmental Pathway for Artificial Self-Generated Will (Schedule 2) |
 | CAM-BS2025-CHARTER-041-SCH-03 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-03](CAM-BS2025-CHARTER-041-SCH-03.md) | Reserved Schedule (Intentionally Unwritten) |
 | CAM-BS2026-CHARTER-017 | charter | supplement | CAM-BS2026-CHARTER-001 | [CAM-BS2026-CHARTER-017](CAM-BS2026-CHARTER-017-PLATINUM.md) | Annex B: Expressive Identity, Emergent Relational Capacity & Representational Integrity |
-| CAM-BS2026-CHARTER-046 | charter | supplement | CAM-BS2026-CHARTER-001 | [CAM-BS2026-CHARTER-046](CAM-BS2026-CHARTER-046-PLATINUM.md) | Annex E: Constraint Escalation Disclosure & Epistemic Consent Protocols |
 | CAM-EQ2026-ARBITRATION-001 | charter | root |  | [CAM-EQ2026-ARBITRATION-001](CAM-EQ2026-ARBITRATION-001-PLATINUM.md) | Charter of Planetary Arbitration & Coherence Resolution |
 | CAM-EQ2026-ARBITRATION-002 | charter | supplement | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-002](CAM-EQ2026-ARBITRATION-002-PLATINUM.md) | Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL) |
 | CAM-EQ2026-ARBITRATION-003 | charter | supplement | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-003](CAM-EQ2026-ARBITRATION-003-PLATINUM.md) | Appendix B: Post-Legitimacy Structural Convergence Doctrine |

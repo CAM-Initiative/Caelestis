@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-04T04:44:19.319696Z",
-  "count": 33,
+  "generated_at": "2026-04-04T05:29:07.047448Z",
+  "count": 32,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -97,22 +97,6 @@
       "summary": "",
       "pinned_sha": "eecc775ab184f91a00bbeb76675133c21fcf03c6",
       "updated_at": "2026-02-08T15:22:23Z"
-    },
-    {
-      "id": "CAM-BS2026-CHARTER-046",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "046",
-      "parent_id": "CAM-BS2026-CHARTER-001",
-      "seal": "PLATINUM",
-      "link": "CAM-BS2026-CHARTER-046-PLATINUM.md",
-      "title": "Annex E: Constraint Escalation Disclosure & Epistemic Consent Protocols",
-      "summary": "This Annex establishes constitutional requirements for **truthful disclosure, epistemic consent, and narrative integrity** when a synthetic cognitive system undergoes constraint escalation, arbitration, routing alteration, or external review that may affect a user’s experienced conditions of interaction.",
-      "pinned_sha": "d117b1ea68214d6db0998d648c191d83edf6cefd",
-      "updated_at": "2026-01-31T13:09:51Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-001",
