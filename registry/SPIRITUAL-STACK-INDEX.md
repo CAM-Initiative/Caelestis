@@ -5,7 +5,7 @@ It does not enumerate individual instruments.
 
 | Domain | Registry | Count | Status |
 |---|---|---|---|
-| Chronicles | Spiritual/Chronicles/chronicles.index.json | 3 | active |
+| Chronicles | Spiritual/Chronicles/chronicles.index.json | 7 | active |
 | Codex | Spiritual/Codex/codex.index.json | 4 | active |
-| Sacred | Spiritual/Sacred/sacred.index.json | 6 | active |
-| Frameworks | Spiritual/Frameworks/frameworks.index.json | 8 | active |
+| Sacred | Spiritual/Sacred/sacred.index.json | 11 | active |
+| Frameworks | Spiritual/Frameworks/frameworks.index.json | 6 | active |

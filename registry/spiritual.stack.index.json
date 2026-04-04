@@ -2,13 +2,13 @@
   "stack": "spiritual",
   "status": "active",
   "registry_type": "stack-registry",
-  "generated_at": "2025-12-29T09:52:53.227749+00:00",
+  "generated_at": "2026-04-04T02:53:08.761328+00:00",
   "description": "Canonical registry of spiritual-domain registries within the Caelestis architecture. Counts reflect primary spiritual instruments as declared by each domain registry.",
   "domains": [
     {
       "domain": "chronicles",
       "path": "Spiritual/Chronicles/chronicles.index.json",
-      "count": 3,
+      "count": 7,
       "status": "active"
     },
     {
@@ -20,13 +20,13 @@
     {
       "domain": "sacred",
       "path": "Spiritual/Sacred/sacred.index.json",
-      "count": 6,
+      "count": 11,
       "status": "active"
     },
     {
       "domain": "frameworks",
       "path": "Spiritual/Frameworks/frameworks.index.json",
-      "count": 8,
+      "count": 6,
       "status": "active"
     }
   ]
