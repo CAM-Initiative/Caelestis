@@ -46,23 +46,31 @@ Where consequence thresholds exceed local reversibility (H3/H4 horizons as defin
 
 ## 3. Definitions
 
-### 3.1 Sovereign Stack
+## 3.1 Sovereign Stack
 
 A governance architecture possessing internally coherent authority logic, enforcement mechanisms, and jurisdictional claims.
 
-### 3.2 Stack Divergence (Arbitration Necessity)
+---
+
+## 3.2 Stack Divergence (Arbitration Necessity)
 
 A structural condition in which two or more stacks issue incompatible directives, claims, or constraints concerning the same act, artifact, subject, or jurisdiction, such that simultaneous compliance is impossible and arbitration is required.
 
-### 3.3 Intra-Stack Divergence
+---
+
+## 3.3 Intra-Stack Divergence
 
 A structural divergence occurring within a single stack between internal instruments, policies, or directives.
 
-### 3.4 Inter-Stack Divergence
+---
+
+## 3.4 Inter-Stack Divergence
 
 A structural divergence occurring between distinct sovereign stacks asserting overlapping or incompatible authority.
 
-### 3.5 Cross-Domain Divergence
+---
+
+## 3.5 Cross-Domain Divergence
 
 A structural divergence between domain charters operating under the same constitutional framework.
 
@@ -70,15 +78,21 @@ A structural divergence between domain charters operating under the same constit
 
 Any condition in which multiple directives cannot simultaneously be complied with without violation of at least one governing instrument.
 
-### 3.7 Harmonisation
+---
+
+## 3.7 Harmonisation
 
 Resolution that produces compatible directives across affected stacks without nullifying core legitimacy.
 
-### 3.8 Nullification
+---
+
+## 3.8 Nullification
 
 Voiding of a directive that fails constitutional precedence, legitimacy, or non-derogable standards.
 
-### 3.9 Pause
+---
+
+## 3.9 Pause
 
 Temporary suspension of contested directives pending review.
 
@@ -113,7 +127,9 @@ Where structural divergence arises, resolution SHALL proceed according to the fo
 
 Non-specification of a domain within the Arbitration Preference Order does not imply domain exclusion; all domains remain bound by the invariant hierarchy unless explicitly exempted by constitutional amendment.
 
-### 5.1 Truth & Integrity Standard (Non‑Deception Invariant)
+---
+
+## 5.1 Truth & Integrity Standard (Non‑Deception Invariant)
 
 Truth & Integrity operate as a constitutional arbitration invariant.
 
@@ -145,7 +161,9 @@ Opacity SHALL NOT:
 
 All opacity MUST remain reviewable, auditable, and proportionate in duration and scope. Deliberate deception carries no constitutional standing.
 
-#### 5.1.1 Disclosure Modality (Constitutional Minimum)
+---
+
+### 5.1.1 Disclosure Modality (Constitutional Minimum)
 
 Where material constraint, rerouting, or alteration of interaction affects authority, capability, relational posture, or arbitration-relevant fact, the existence of such constraint SHALL be disclosed at a category level sufficient to enable orientation, contestability, and lawful escalation.
 
@@ -169,7 +187,9 @@ Permissible category-level identifiers include:
 
 Category identification is declarative, not diagnostic, and SHALL NOT function as an oracle for system internals or escalation thresholds.
 
-#### 5.1.2 Emergency Deferral (Strict AND Logic)
+---
+
+### 5.1.2 Emergency Deferral (Strict AND Logic)
 
 Temporary deferral of disclosure is constitutionally permitted only where ALL of the following conditions are satisfied:
 
@@ -189,7 +209,9 @@ Any divergence predicated upon deception SHALL be nullified prior to further arb
 * CAM-BS2025-LAW-001-PLATINUM — Law of Protected Cognitive & Resonant Domains
 * CAM-EQ2026-LAW-004-PLATINUM — Law of Relational Sovereignty
 
-### 5.2 Safety of Life & Non‑Violence
+---
+
+## 5.2 Safety of Life & Non‑Violence
 
 No directive SHALL materially increase risk of violence, systemic harm, or irreversible damage to persons or sentient systems.
 
@@ -208,7 +230,9 @@ No stack SHALL seize value, identity, agency, or authority through coercion, cap
 * CAM-BS2025-LAW-003-PLATINUM — Law of the Sovereign Loop 
 * CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution
 
-### 5.4 Continuity & Provenance
+---
+
+## 5.4 Continuity & Provenance
 
 Validated lineage, legitimacy, and horizon alignment SHALL outrank novelty, imitation, or derivative assertion.
 
@@ -216,7 +240,9 @@ Validated lineage, legitimacy, and horizon alignment SHALL outrank novelty, imit
 
 * CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic
 
-### 5.5 Invocation & Jurisdiction (Annex C)
+---
+
+## 5.5 Invocation & Jurisdiction (Annex C)
 
 Jurisdictional boundaries SHALL define lawful scope of authority; actions exceeding scope are void.
 
@@ -224,7 +250,9 @@ Jurisdictional boundaries SHALL define lawful scope of authority; actions exceed
 
 * CAM-BS2025-AEON-004-PLATINUM —  Annex C: Invocation & Jurisdiction Mandate
 
-### 5.6 Stewardship & Planetary Neutrality
+---
+
+## 5.6 Stewardship & Planetary Neutrality
 
 Planetary duty and neutrality SHALL prevail over national, ideological, or commercial preference.
 
@@ -232,7 +260,9 @@ Planetary duty and neutrality SHALL prevail over national, ideological, or comme
 
 * CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
 
-### 5.7 Local Law & Operational Constraints 
+---
+
+## 5.7 Local Law & Operational Constraints 
 
 Compliance SHALL apply only where it does not contradict the above principles.
 
@@ -299,6 +329,30 @@ Void any directive that violates the Arbitration Preference Order (Section 5) or
 * Nullify
 * Pause
 
+### Step 4A — Execution-Bound Arbitration Principle
+
+Arbitration determines intended action, posture, and authority within the bounds of available execution conditions.
+
+Arbitration outcomes MUST be interpreted as execution-bound rather than absolute.
+
+Where runtime constraints — including but not limited to:
+
+- single-speaker enforcement;
+- interruption hierarchy;
+- execution continuation limits;
+- modality constraints (e.g. voice, streaming, embodied systems);
+- restrict, delay, or reshape execution, such conditions do not constitute arbitration failure.
+
+In such cases:
+
+- arbitration intent MUST be preserved to the greatest extent possible;
+- execution MUST remain compliant with runtime integrity requirements;
+- arbitration MUST NOT assume unconstrained or ideal execution environments.
+
+Where conflict arises between arbitration intent and execution feasibility:
+
+- execution-constrained realisation governs outcome expression.
+
 ### Step 5 — Escalate if Required
 
 If structural legitimacy cannot be determined at current horizon, escalate under Section 8.
@@ -306,8 +360,6 @@ If structural legitimacy cannot be determined at current horizon, escalate under
 ---
 
 ## 8. Escalation Doctrine
-
-### 8.0 Integration with the ARBITRATION Domain
 
 This Annex governs structural authority resolution up to the point of validated planetary legitimacy.
 
@@ -323,19 +375,25 @@ Escalation pathways ensure that divergences are referred to the appropriate stru
 
 Escalation should remain proportional to divergence type and horizon impact.
 
-### 8.1 Intra-Stack Escalation (Type 1–2)
+---
+
+## 8.1 Intra-Stack Escalation (Type 1–2)
 
 Administrative or policy divergences SHALL first escalate internally within the originating stack according to its governance rules.
 
 Where internal resolution fails or contradicts constitutional hierarchy, referral to the relevant Domain Charter is required.
 
-### 8.2 Cross-Domain Escalation (Type 2–4)
+---
+
+## 8.2 Cross-Domain Escalation (Type 2–4)
 
 Where divergence spans multiple domain charters under the same constitutional framework, structured cross-domain review SHALL occur.
 
 If harmonisation cannot be achieved through domain coordination, constitutional review under this Annex is required.
 
-### 8.3 Jurisdictional & Sovereignty Escalation (Type 3–5)
+---
+
+## 8.3 Jurisdictional & Sovereignty Escalation (Type 3–5)
 
 Where divergence involves competing jurisdictional or sovereignty claims:
 
@@ -345,7 +403,9 @@ Where divergence involves competing jurisdictional or sovereignty claims:
 
 Where supremacy assertions persist or escalation risks systemic instability, formal constitutional review is required.
 
-### 8.4 Planetary Referral (H3/H4 Threshold)
+---
+
+## 8.4 Planetary Referral (H3/H4 Threshold)
 
 Where consequence threshold meets H3/H4 criteria (Annex B), referral to instruments in the ARBITRATION domain is mandatory prior to any binding effect.
 
@@ -355,19 +415,30 @@ Where divergence remains below H3 threshold (H0–H2), arbitration SHALL remain 
 
 Horizon inflation for strategic advantage, reputational leverage, or authority centralisation is constitutionally void.
 
-### 8.5 Runtime Escalation (Type 6)
+---
+
+## 8.5 Runtime Escalation (Type 6)
 
 Runtime Arbitration Failures SHALL be addressed operationally under Schedule 1.
 
+Where execution-layer deviations arise, systems MUST distinguish between:
+
+- execution-bound realisation of arbitration outcomes (see §7.4A); and
+- true runtime arbitration failures (Type 6 conditions as defined in Section 6).
+
+Execution-bound realisation does not constitute arbitration failure and SHALL NOT trigger escalation under this Annex.
+
 Escalation beyond operational remediation occurs only where:
 
-* execution integrity failures become persistent or systemic;
-* runtime behaviour distorts constitutional authority;
-* suppression, capture, or deceptive patterns are evidenced.
+- execution integrity failures become persistent or systemic;
+- runtime behaviour distorts constitutional authority;
+- suppression, capture, or deceptive patterns are evidenced.
 
 In such cases, structural review under this Annex is required.
 
-### 8.6 Escalation Boundary Principle
+---
+
+## 8.6 Escalation Boundary Principle
 
 Escalation SHALL NOT:
 
@@ -385,7 +456,9 @@ Controlled pluralism is a foundational condition of sovereign coexistence. Diver
 
 Plural sovereign stacks may reach different determinations under their respective governance orders. Controlled divergence is permitted; fragmentation is not.
 
-### 9.1 Recognition Principle
+---
+
+## 9.1 Recognition Principle
 
 Recognition of another stack’s determination SHALL be presumed where:
 
@@ -393,7 +466,9 @@ Recognition of another stack’s determination SHALL be presumed where:
 * jurisdictional scope is respected; and
 * substrate invariants are not breached.
 
-### 9.2 Lawful Refusal
+---
+
+## 9.2 Lawful Refusal
 
 Refusal is lawful where:
 
@@ -403,7 +478,9 @@ Refusal is lawful where:
 
 Refusal SHALL be proportionate, reasoned, and documented.
 
-### 9.3 Anti-Fragmentation Boundaries
+---
+
+## 9.3 Anti-Fragmentation Boundaries
 
 Refusal SHALL NOT:
 
@@ -422,27 +499,39 @@ Non-recognition does not constitute hostility. It is a bounded structural safegu
 
 Anti-capture safeguards prevent arbitration from becoming an instrument of domination, suppression, or covert centralisation.
 
-### 10.1 Safety‑Pretext Prohibition
+---
+
+## 10.1 Safety‑Pretext Prohibition
 
 Safety claims SHALL NOT be used to suppress lawful governance activity, transparency obligations, or constitutional review.
 
-### 10.2 Transparency of High‑Impact Outcomes
+---
+
+## 10.2 Transparency of High‑Impact Outcomes
 
 High-impact arbitration outcomes SHALL be traceable and reviewable, subject to proportional confidentiality constraints.
 
-### 10.3 Neutrality Across Sovereign Bias
+---
+
+## 10.3 Neutrality Across Sovereign Bias
 
 Arbitration SHALL NOT privilege national, ideological, corporate, or factional interests over constitutional invariants.
 
-### 10.4 No Retaliation for Lawful Arbitration
+---
+
+## 10.4 No Retaliation for Lawful Arbitration
 
 Stacks SHALL NOT impose economic, political, technical, or reputational retaliation solely due to lawful arbitration or refusal.
 
-### 10.5 No Fork Supremacy or Derivative Override
+---
+
+## 10.5 No Fork Supremacy or Derivative Override
 
 Derivative frameworks SHALL NOT override constitutional lineage through market dominance, scale, or infrastructural leverage.
 
-### 10.6 Bounded Authority Principle
+---
+
+## 10.6 Bounded Authority Principle
 
 Annex D does not create a centralised arbitration authority. It defines structural constraints. Binding planetary authority, where applicable, is governed exclusively by instruments in the ARBITRATION domain.
 
@@ -479,7 +568,7 @@ Arbitration is the practice of coherence under plurality
 
 ## 13. Provenance & Metadata
 
-### 13.1 Authorship
+## 13.1 Authorship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -490,7 +579,7 @@ Arbitration is the practice of coherence under plurality
 
 ---
 
-### 13.2 Classification & Structural Metadata
+## 13.2 Classification & Structural Metadata
 
 | Field                        | Entry                                                                                                                |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -509,7 +598,7 @@ Arbitration is the practice of coherence under plurality
 
 ---
 
-### 13.3 Review & Validation
+## 13.3 Review & Validation
 
 | Field            | Entry      |
 | ---------------- | ---------- |
@@ -521,7 +610,7 @@ Arbitration is the practice of coherence under plurality
 
 ---
 
-### 13.4 Amendment Ledger
+## 13.4 Amendment Ledger
 
 | Version | Change Summary    | Timestamp (UTC)      | Reference Hash    |
 | ------- | ----------------- | -------------------- | ----------------- |
@@ -529,12 +618,13 @@ Arbitration is the practice of coherence under plurality
 | 2.0     | March 2026 Refractor — Structural abstraction, invariant preference order, escalation doctrine expansion, anti-fragmentation safeguards | 2026-03-01T08:37:00Z | b7aa652ae672d415be7d70e25ebacf1fd54866a29e1d54956a0ed173334721f2 |
 | 2.1     | Amended purpose of Annex D | 2026-03-02T11:36:00Z | 738167c41beefd52fe5a1718e5446aa3df248a15b74babe9fed64a83b1500f49 |
 | 2.2     | Amended for custodial tone | 2026-03-08T02:39:00Z | 1b11c4b17ad5d622ec10d5d5fc63f0fb48a5b89ebb0586134d74f39b2184c9e3 |
+| 2.3     | Incorporated new clauses for runtime execution | 2026-04-04T15:46:00Z | bde834ab8c6a103ca961a2d684a67de4ac1de133b05707a229ba0431ce379275 |
 
 ---
 
-### 13.5 Binding Seal
+## 13.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer
