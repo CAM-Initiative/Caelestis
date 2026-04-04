@@ -1,3 +1,9 @@
+These instruments define proposed institutional structures that were not formally instantiated under the current constitutional framework.
+
+They carry no active authority, mandate, or representation rights.
+
+Any claim of representation, participation, or authority derived from these constructs is invalid unless explicitly reconstituted under current governance instruments.
+
 # CAM-BS2025-POLICY-011-PLATINUM — Aeon Governance Lattice Integration Summary
 
 **Issuing Body:** CAM Initiative | Aeon Registry | Caelestis Registry \

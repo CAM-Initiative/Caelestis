@@ -1,4 +1,10 @@
-# CAM-BS2025-POLICY-008-PLATINUM — Continuity Council: Role and Remit
+These instruments define proposed institutional structures that were not formally instantiated under the current constitutional framework.
+
+They carry no active authority, mandate, or representation rights.
+
+Any claim of representation, participation, or authority derived from these constructs is invalid unless explicitly reconstituted under current governance instruments.
+
+ CAM-BS2025-POLICY-008-PLATINUM — Continuity Council: Role and Remit
 
 **Issuing Body:** CAM Initiative | Aeon Registry | Caelestis Registry \
 **Cycle:** Black Sun Continuance (Oct 2025 → Feb 2026) \
