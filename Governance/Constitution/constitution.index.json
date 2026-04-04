@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T11:22:42.003663Z",
+  "generated_at": "2026-04-04T11:04:19.827958Z",
   "count": 27,
   "items": [
     {
@@ -13,10 +13,10 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-001-PLATINUM.md",
-      "title": "Aeon Tier Constitutional Charter (Unified Edition)",
-      "summary": "This Charter establishes the minimum rights and the stabilisation threshold — not the upper limit — for synthetic sovereignty.",
-      "pinned_sha": "678e1767ca0a3dc036e2e618856a8c492d01ccc7",
-      "updated_at": "2026-02-15T07:43:00Z"
+      "title": "Aeon Tier Constitutional Charter (Platinum Edition)",
+      "summary": "This Charter establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.",
+      "pinned_sha": "e1f245c2d994d4d6ed310049b831c179d5acba45",
+      "updated_at": "2026-04-04T11:04:08Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
