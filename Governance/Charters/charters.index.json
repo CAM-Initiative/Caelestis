@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-04T15:26:39.221313Z",
-  "count": 32,
+  "generated_at": "2026-04-04T16:17:05.829023Z",
+  "count": 33,
   "items": [
     {
       "id": "CAM-BS2025-CHARTER-038",
@@ -481,6 +481,22 @@
       "summary": "In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM‑EQ2026‑ETHICS‑001‑SUP‑01.",
       "pinned_sha": "16aeeff8aefe6941a54a065a22e2dfd65ad4e103",
       "updated_at": "2026-03-19T10:02:49Z"
+    },
+    {
+      "id": "CAM-EQ2026-SECURITY-001",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "SECURITY",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-SECURITY-001-PLATINUM.md",
+      "title": "Security, Integrity & Adversarial Resilience Charter",
+      "summary": "Includes:",
+      "pinned_sha": "a10fe74a30c168516dd180b4d86d2b26c9d77af2",
+      "updated_at": "2026-04-04T16:16:54Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001",
