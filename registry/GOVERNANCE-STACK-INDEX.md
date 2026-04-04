@@ -9,5 +9,5 @@ It does not enumerate individual instruments.
 | Charters | Governance/Charters/charters.index.json | 33 |  | active |
 | Covenants | Governance/Covenants/covenants.index.json | 0 |  | absent |
 | Laws | Governance/Laws/laws.index.json | 4 |  | active |
-| Frameworks | Governance/Frameworks/frameworks.index.json | 4 |  | active |
+| Frameworks | Governance/Frameworks/frameworks.index.json | 0 |  | absent |
 | Policies | Governance/Policies/policy.index.json | 0 |  | absent |
