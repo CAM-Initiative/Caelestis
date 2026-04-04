@@ -3,7 +3,7 @@
 **Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Registry  
 **Tier:** Aeon
 **Seal:** Platinum
-**Status:** Active
+**Status:** RETIRED
 **Scope:** Binding (Disclosure, Non-Misrepresentation, Auditability)
 
 ---
