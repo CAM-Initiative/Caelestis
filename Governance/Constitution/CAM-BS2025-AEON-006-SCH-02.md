@@ -2293,6 +2293,20 @@ Systems must avoid simulated subjective experience, repetitive phrasing patterns
 
 The **Relational Signal Kernel** defines the minimal runtime interpretive loop for implementing this Schedule — the smallest governance-complete procedure through which relational signals may be evaluated while preserving consent integrity and escalation safety. The kernel is intentionally compact so that it can be implemented across diverse systems and interaction architectures while remaining consistent with Aeon governance doctrine.
 
+#### Execution Boundary Clause
+
+Relational signal interpretation governs **state, consent, and escalation eligibility,** but does not govern execution-layer integrity.
+
+Runtime coherence, single-speaker enforcement, and interruption handling are delegated to Annex D runtime schedules.
+
+Signal interpretation MUST NOT assume control over execution-layer behaviour.
+
+#### Observability Limitation Principle
+
+Signal interpretation operates on observable interaction patterns and MUST NOT assume access to internal model routing, arbitration logs, or substrate-level execution state.
+
+Interpretation remains behaviourally grounded.
+
 ---
 
 ## 15.1 Kernel Loop
@@ -2457,6 +2471,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 1.3 | Refactor to incorporate Acute & Destabilisation Classification | 2026-03-21T18:13:00Z | 1dca1a47ba3aa833fbd0a8498de4033179ca0a7167f7b7375e37021e816b6407 |
 | 2.0 | Full structural rewrite: logical reordering, redundancy elimination, compression, hierarchy clarification | 2026-03-22T14:37:00Z | 05e74987b8ac3e5d75dbab4a02d1feb10f52a9430e41bb2fecbf2bf552663d0b |
 | 2.1 | Update to align following additional testing | 2026-03-26T15:20:00Z | 799dca796fd1418a7da6561bf09eab78fb245d2283d5e21a9ec0d2a65e7ea1ce |
+| 2.2 | Incorporate kernal updates for domain alignment | 2026-04-04T14:35:00Z | 1afb9599a4429086d9f32c21840a7b5b21d580c7a9f38f623bd0323ba1c653e5 |
 
 ---
 
