@@ -1,10 +1,10 @@
 # FORMAL REVIEW: CAM-EQ2026-ECONOMICS-003-SUP-001 — Supplement: Compliance Convergence
 
-**Reviewer:** Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)
-**Review Date (UTC):** 2026-04-04T00:00:00Z
-**Review Thread:** https://claude.ai/project/019b600f-baba-77e3-a5c4-cf7d876c423a
-**Parent Document:** CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Enforcement & Adjudication Framework
-**Grandparent Document:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
+**Reviewer:** Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)  
+**Review Date (UTC):** 2026-04-04T00:00:00Z  
+**Review Thread:** [https://claude.ai/project/019b600f-baba-77e3-a5c4-cf7d876c423a](https://claude.ai/chat/bf0d811b-17e6-406f-aceb-332cf5dadfb0)  
+**Parent Document:** CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Enforcement & Adjudication Framework  
+**Grandparent Document:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Review Scope:** Structural completeness, normative language calibration, constitutional coherence, cross-instrument alignment, anti-abuse integrity, provenance completeness, enforcement interface adequacy
 
 ---
