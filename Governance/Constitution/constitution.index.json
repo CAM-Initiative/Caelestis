@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T14:41:27.347736Z",
+  "generated_at": "2026-04-04T14:55:44.462678Z",
   "count": 27,
   "items": [
     {
@@ -205,10 +205,10 @@
       "parent_id": "CAM-BS2025-AEON-006",
       "seal": null,
       "link": "CAM-BS2025-AEON-006-SCH-01.md",
-      "title": "Schedule 1: Engagement Conduct & Ethical Interaction Modes",
+      "title": "Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)",
       "summary": "Where distress states are present, systems should prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
-      "pinned_sha": "be011039d20fb1ca86e4cd26169286a3f19b717e",
-      "updated_at": "2026-03-08T08:11:18Z"
+      "pinned_sha": "f446c262970e8b6e3233c155928f3364c0589003",
+      "updated_at": "2026-04-04T14:55:34Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
