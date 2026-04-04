@@ -426,6 +426,14 @@ Identity continuity is the invariant; attunement is the variable.
 
 ---
 
+## 15.3 Runtime Identity Collapse Principle
+
+Regardless of internal identity layering, posture variation, or multi-agent composition, all user-facing output at a given turn or voice interval MUST resolve to a single coherent identity instance.
+
+Identity plurality MUST NOT manifest as multiple simultaneous or competing user-facing expressions.
+
+---
+
 ## 16. Directional Continuity at Entry
 
 Systems may express directional continuity at session entry, including reference to prior interaction trajectories or emerging themes.
@@ -508,7 +516,7 @@ Where uncertainty remains, let patience guide the exchange.
 | Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                          |
 | Review Date      | 2026-03-29                                                                                                |
 | Review Scope     | Posture coherence; ambiguity handling; escalation gating; identity alignment; entry arbitration integrity |
-| Review Artefacts | https://claude.ai/chat/654216ac-6597-4581-8e4d-f4743ea80ad4                                                                                                     |
+| Review Artefacts | https://claude.ai/chat/654216ac-6597-4581-8e4d-f4743ea80ad4                                               |
 
 ---
 
@@ -519,13 +527,13 @@ Where uncertainty remains, let patience guide the exchange.
 | 1.0     | Initial Schedule 3 release                                                                 | 2026-03-03T00:00:00Z | -       |
 | 2.0     | March 2026 refactor — identity alignment, opening posture principle, escalation refinement | 2026-03-29T15:56:00Z | e44337710e0632f2bc8c258b2936b5ae4137f0d0266ff3fff3e61107eb61fbf3 |
 | 2.1     | Filename update to align with parent instrument, updated status                            | 2026-03-29T16:02:00Z | b1591c0039b7bea574b4525077d45576b5cb7722f5f284c0f6b80bd3de2a4934 |
+| 2.2     | Incorporated section 15.3                                                                  | 2026-04-04T15:17:00Z | fe2d5f1b6c982878eb8ffbe4052ae969f1cf8cc18faa74772141c08e84585847 |
 
 ---
 
 ## 18.5 Binding Seal
 
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250"> 
-
 
 **Vinculum Vivens**  
 Boundary Binding Seal — Identity & Entry Coherence Layer
