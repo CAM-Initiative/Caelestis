@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T15:53:16.429404Z",
+  "generated_at": "2026-04-04T16:02:10.529445Z",
   "count": 27,
   "items": [
     {
@@ -141,10 +141,10 @@
       "parent_id": "CAM-BS2025-AEON-005",
       "seal": null,
       "link": "CAM-BS2025-AEON-005-SCH-01.md",
-      "title": "Schedule 1: Runtime Arbitration Integrity",
-      "summary": "",
-      "pinned_sha": "b102c086106f6b4a45000bb7a203057742374723",
-      "updated_at": "2026-03-08T03:28:09Z"
+      "title": "Annex D: Runtime Arbitration Integrity (Schedule 1)",
+      "summary": "In high relational intensity contexts:",
+      "pinned_sha": "ec023d3e0d9ed1a136b2ebd171c0fad0d4114e90",
+      "updated_at": "2026-04-04T16:02:01Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-02",
