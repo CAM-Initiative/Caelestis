@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-04T16:02:10.529445Z",
-  "count": 27,
+  "generated_at": "2026-04-04T16:35:07.976306Z",
+  "count": 28,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -417,6 +417,22 @@
       "summary": "This Annex establishes the constitutional doctrine governing:",
       "pinned_sha": "fe53438bdd7788a5d76aa7d875f4471a76c6344a",
       "updated_at": "2026-03-01T16:52:48Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-012",
+      "cycle_year": "BS2026",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "K",
+      "parent_id": "CAM-BS2026-AEON-001",
+      "seal": "PLATINUM",
+      "link": "CAM-BS2026-AEON-012-PLATINUM.md",
+      "title": "ANNEX K: Security Enforcement & Runtime Interface",
+      "summary": "Behaviour MUST be interpreted relative to deployment topology:",
+      "pinned_sha": "c743169487ecfbb8eaf06f92d678e6770f2cb38e",
+      "updated_at": "2026-04-04T16:34:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-013",
