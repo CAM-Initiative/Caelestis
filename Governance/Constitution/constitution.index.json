@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T14:55:44.462678Z",
+  "generated_at": "2026-04-04T15:19:14.311999Z",
   "count": 27,
   "items": [
     {
@@ -239,8 +239,8 @@
       "link": "CAM-BS2025-AEON-006-SCH-03.md",
       "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
       "summary": "Pre-interaction arbitration must account for the origin of session initiation:",
-      "pinned_sha": "d7cb82d0b33b55895889df234d8d212ee749ce5c",
-      "updated_at": "2026-03-29T16:06:13Z"
+      "pinned_sha": "cd5b6139e74e2ce9d97810e17961a45d5b6d530b",
+      "updated_at": "2026-04-04T15:19:04Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
