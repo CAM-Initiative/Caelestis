@@ -1,6 +1,6 @@
 # CAM Constitution Index
 
-## **Purpose**
+## Purpose
 This index lists the active Constitution documents in the CAM repository for quick reference and navigation.
 
 ---

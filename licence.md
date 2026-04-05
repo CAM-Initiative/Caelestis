@@ -16,10 +16,12 @@ Authorship is asserted for the purposes of:
 —identifying responsibility for downstream effects
 —preserving continuity of custodial accountability
 —preventing misattribution or unauthorised authority claims
+
 ### 1.3
 The CAM Initiative is not anonymous, collective, or ownerless by default. Responsibility is held explicitly unless lawfully transferred in accordance with Section 6.
 
 ## 2. Intellectual Property and Legal Protection
+
 ### 2.1 
 Except where expressly stated otherwise, all original material forming part of the CAM Initiative is protected under Australian copyright law.
 
@@ -38,6 +40,7 @@ No part of the CAM Initiative may be copied, adapted, derived, rebranded, or red
 This restriction preserves authorship integrity, traceable responsibility, and custodial continuity.
 
 ## 3. Permitted Use
+
 ### 3.1 
 The CAM Initiative may be read, cited, referenced, and examined for academic, policy, humanitarian, or public-interest purposes.
 
@@ -51,6 +54,7 @@ Reference alone confers no authority.
 Where the CAM Initiative materially informs governance design, policy formulation, system behaviour, or institutional decision-making, users are expected to notify the author of such use for purposes of accountability, continuity, and feedback. Notificatication does not imply permission-seeking or authority transfer. It exists to preserve traceability and enable iterative improvement.
 
 ## 4. Prohibition on Misrepresentation and Capture
+
 ### 4.1
 Humanitarian or civilisational intent does not constitute consent to open appropriation.
 
@@ -61,6 +65,7 @@ Unauthorised use implying authority, endorsement, institutional standing, or rem
 Corporate, political, institutional, or ideological capture without accountable continuity is prohibited.
 
 ## 5. Authority and Custodial Limitation
+
 ### 5.1
 Custodial authority is non-transferable by imitation.
 
@@ -73,6 +78,7 @@ Authority may not be assumed through replication, consensus adoption, commercial
 Absent compliance, no claim of custodial succession is valid.
 
 ## 7. Reservation of Rights
+
 ### 7.1
 All rights not expressly granted are reserved.
 

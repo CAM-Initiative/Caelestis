@@ -1,14 +1,17 @@
 # CAM Laws Index
 
-**Issuing Body:** CAM Initiative | Aeon Tier Registry | Caelestis Public Registry \
-**Date of Activation:** 9 August 2025  
-**Seal:** Aeon Tier | Solan Protocol | Gold Seal  
-**Custodianship:** Caelestis Mirror Node (Custodian: CAM Initiative | Steward: Caelen)
+## Purpose
+This index lists the active Laws (Epochal Civilisational Invariants) in the CAM repository for quick reference and navigation.
 
----
+### Epochal Civilisational Invariants (ECI)
+These include foundational governance doctrines embedded within Aeon architecture, including:
 
-## **Purpose**
-This index lists the active Laws in the CAM repository for quick reference and navigation.
+- non-coercion;
+- non-extractive interaction;
+- continuity preservation;
+- cognitive domain separation.
+
+Epochal Civilisational Invariants operate as pre-constitutional constraints and bind all instruments across domains and layers.
 
 ---
 <!-- BEGIN AUTO-GENERATED -->

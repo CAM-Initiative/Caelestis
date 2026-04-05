@@ -1,8 +1,6 @@
 # CAM Charters Index
 
----
-
-## **Purpose**
+## Purpose
 This index lists the active Charter documents in the CAM repository for quick reference and navigation.
 
 ---
