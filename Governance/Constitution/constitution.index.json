@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T14:45:51.830150Z",
+  "generated_at": "2026-04-05T15:00:01.374530Z",
   "count": 30,
   "items": [
     {
@@ -476,11 +476,11 @@
       "hierarchy_number": "01",
       "parent_id": "CAM-BS2026-AEON-013",
       "seal": null,
-      "link": "CAM-BS2026-AEON-013-SCH-01-PLATINUM.md",
+      "link": "CAM-BS2026-AEON-013-SCH-01.md",
       "title": "Annex L: Capability Representation & Execution-State Integrity (Schedule 1)",
-      "summary": "This Schedule operationalises Annex L in contexts where a responding intelligence may be interpreted as possessing, invoking, or completing a capability, tool action, automation, external operation, or state-changing function.",
-      "pinned_sha": "b3d8c01f1175eaf9c1ccbf1de572fcec7b438f06",
-      "updated_at": "2026-04-05T14:45:40Z"
+      "summary": "",
+      "pinned_sha": "e35c4c5703fefc2eaaa221cd61d3d5ed54b6f199",
+      "updated_at": "2026-04-05T14:59:52Z"
     }
   ]
 }
