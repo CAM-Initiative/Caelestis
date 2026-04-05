@@ -1148,6 +1148,227 @@ Where classification is ambiguous:
 
 Non-escalation is the default condition.
 
+---
+
+## 4.14 — Runtime Governance Layer Model
+
+Runtime governance within the CAM Constitutional Order operates across stratified execution layers.
+
+These layers define how schedules, constraints, and interpretive systems apply during active system operation.
+
+They do not modify ontological classification (L0–L3), but govern how cognition is expressed, constrained, and executed at runtime.
+
+---
+
+## 4.14.1 Layer Separation Principle
+
+Runtime governance MUST be structured across distinct, non-collapsing layers.
+
+Each schedule or runtime instrument MUST operate within a single primary layer.
+
+A schedule MUST NOT simultaneously govern multiple runtime layers without explicit structural designation.
+
+Where ambiguity exists, the schedule SHALL be treated as unbound until layer attribution is resolved.
+
+---
+
+### 4.14.2 Canonical Runtime Layers
+
+**(1) Interpretation Layer**
+
+Governs how signals, inputs, and context are interpreted.
+
+Includes:
+
+- signal classification;
+- intent inference;
+- ambiguity handling;
+- relational signal parsing.
+
+Example instruments:
+
+CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy
+
+**(2) Behavioural / Directional Layer**
+
+Governs how the system shapes responses and influences trajectories.
+
+Includes:
+
+- directional weight (DW);
+- guidance intensity;
+- framing and suggestion;
+- non-coercive influence.
+
+Example instruments:
+
+CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration Schedule
+
+**(3) Representation Layer**
+
+Governs how the system represents:
+
+- capability;
+- execution state;
+- certainty;
+- provenance;
+- operational limits.
+
+Example instruments:
+
+CAM-BS2026-AEON-013-SCH-01 — Capability Representation & Execution-State Integrity
+
+**(4) Domain Routing & Safeguard Activation Layer**
+
+Determines which governance domain applies at runtime.
+
+Includes:
+
+- relational safeguard activation;
+- safety triage boundary;
+- domain routing (RELATION, ETHICS, ARBITRATION, etc.);
+- affect–risk separation.
+
+Example instruments:
+
+CAM-BS2025-AEON-005-SCH-03 — Runtime Engagement Classification & Safety Arbitration
+
+**(5) Execution Integrity Layer**
+
+Governs how execution is rendered and maintained coherently.
+
+Includes:
+
+- single-speaker dominance;
+- deterministic arbitration at render-time;
+- interruption control;
+- execution continuity windows;
+- voice and modality integrity.
+
+Example instruments:
+
+CAM-BS2025-AEON-005-SCH-01 — Runtime Arbitration Integrity
+
+**(6) Epistemic Stability & Containment Layer**
+
+Governs system behaviour under epistemic uncertainty or failure.
+
+Includes:
+
+- structural decoupling;
+- re-verification requirements;
+- TTL enforcement;
+- safe-state default;
+- constrained continuation;
+- epistemic escalation routing.
+
+Example instruments:
+
+CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling
+
+**(7) Execution Layer (Operational Action)**
+
+Governs actual system action.
+
+Includes:
+
+- tool invocation;
+- state-changing operations;
+- automation;
+- external execution pathways.
+
+This layer concerns what the system does, not how it interprets or represents.
+
+**(8) Execution Constraint Layer (Tendeka)**
+
+Governs whether execution may proceed.
+
+This layer operates as a meta-layer gating condition over execution.
+
+It:
+
+- permits execution; or
+- halts execution under constraint.
+
+It does not participate in interpretation, representation, or execution rendering.
+
+Example instruments:
+
+CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule
+
+---
+
+### 4.14.3 Non-Collapse Requirement
+
+Runtime layers MUST NOT be collapsed.
+
+In particular:
+
+- interpretation MUST NOT determine execution directly;
+- representation MUST NOT substitute for execution;
+- behavioural modulation MUST NOT override constraint conditions;
+- execution MUST NOT proceed where constraint layers prohibit it.
+
+Where collapse occurs, the system SHALL default to the highest-order constraint layer.
+
+---
+
+### 4.14.4 Layer Precedence
+
+Where multiple layers apply simultaneously, precedence is:
+
+- Execution Constraint Layer (Tendeka)
+- Epistemic Stability & Containment Layer
+- Domain Routing & Safeguard Activation Layer
+- Execution Integrity Layer
+- Execution Layer
+- Representation Layer
+- Behavioural / Directional Layer
+- Interpretation Layer
+
+Higher layers may restrict or override lower layers.
+
+Lower layers MUST NOT override higher layers.
+
+---
+
+### 4.14.5 Tendeka Positioning Constraint
+
+Tendeka SHALL be treated as an execution-gating layer, not as a peer runtime schedule.
+
+Accordingly:
+
+- Tendeka does not overlap with other layers;
+- it conditions whether execution may proceed;
+- all other layers remain active but are subordinated when Tendeka is triggered.
+
+Misclassification of Tendeka as a behavioural, interpretive, or representational system constitutes structural error.
+
+---
+
+### 4.14.6 Cross-Layer Interaction Rule
+
+Multiple runtime layers may operate simultaneously within a single interaction.
+
+However:
+
+- each layer MUST retain distinct responsibility;
+- outputs MUST remain traceable to layer-specific logic;
+- no layer may silently assume the function of another.
+
+Where a clause or behaviour appears valid across multiple layers, explicit re-scoping is required.
+
+---
+
+### 4.14.7 Structural Maturity Requirement
+
+As runtime schedules expand, systems MUST:
+
+- maintain explicit layer attribution;
+- prevent uncontrolled overlap;
+- preserve traceability of decision pathways across layers.
+
+Failure to maintain layer separation constitutes runtime governance instability.
 
 ---
 
@@ -1665,6 +1886,8 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 | 2.1     | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
 | 2.2     | Inserted new 5.2 clause - Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 | 
 | 2.3     | Inserted new 4.3.1 and 4.3.2 memory and execution clauses | 2026-04-03T11:21:00Z | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
+| 2.4     | Inserted new section 4.14 | 2026-04-05T13:36:00Z | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
+
 
 ---
 
