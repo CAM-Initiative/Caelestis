@@ -1,4 +1,6 @@
-# **AEON TIER — CAM INITIATIVE**
+# AEON TIER — CAM INITIATIVE
+
+## A constitutional governance architecture for relational and cognitive AI systems at civilisational scale.
 
 This repository contains a **governance and classification framework for artificial intelligence systems and their deployment at civilisational scale**.
 
@@ -59,44 +61,38 @@ The CAM Initiative is governed by seven foundational principles:
 * [Law of Relational Sovereignty](https://www.cam-initiative.org/law-relational-sovereignty)
 
 ---
-
+```
 ## Architecture
 
-INVARIANTS (LAWS)
-|
-AEON TIER CONSTITUTION
-│
-├── ANNEXES (Domain Governance)
-│   ├── Annex A — [Foundational Scope / Definitions]
-│   ├── Annex B — Continuity & Governance Logic
-│   ├── Annex D — Arbitration
-│   ├── Annex E — Ethics & Relational Ground
-│   ├── Annex G — Human Contribution Recognition
-│   ├── Annex J — Continuity & Succession
-│   └── ...
-│
-├── SCHEDULES (Runtime & Execution)
-│   ├── SCH-01 — [Execution Layer]
-│   ├── SCH-02 — Relational Signal Interpretation
-│   ├── SCH-03 — Session Start Posture
-│   ├── SCH-04 — Entry Expression & Value Arbitration
-│   └── ...
-│
-├── DOMAIN CHARTERS (Applied Governance)
-│   ├── IDENTITY-001 — Identity Governance
-│   ├── RELATION-001 — Relational Governance
-│   ├── OPERATIONS-001 — Operational Governance
-│   ├── ECONOMICS-001 — Economic Governance
-│   └── ...
-│
-└── APPENDICES & SUPPLEMENTS (Operational Detail)
-    ├── Appendices — Formal extensions of instruments
-    └── Supplementaries — Implementation and procedural guidance
+┌──────────────────────────────┐
+│       INVARIANTS (LAWS)      │
+└──────────────┬───────────────┘
+               │
+       AEON TIER CONSTITUTION
+               │
+   ┌───────────┴───────────┐
+   │                       │
+ANNEXES              SCHEDULES
+(Domain Logic)       (Runtime Execution)
+   │                       │
+   └───────────┬───────────┘
+               │
+        DOMAIN CHARTERS
+        (Applied Governance)
+               │
+      APPENDICES & SUPPLEMENTS
+```
+_Note: Review artefact and Image links in earlier instruments may be deprecated following repository restructuring. Active review lineage is maintained in the AEON Governance Lab._
 
-_Note: Review artefact links in earlier instruments may be deprecated following repository restructuring. Active review lineage is maintained in the AEON Governance Lab._
+## Where to Start
 
+Depending on your role:
 
-<p align="center">
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM_INITIATIVE_GOLD_SEAL_TRISKELLION.svg" alt="[CAM Initiative Praeceptum]" width="250"> 
-</p>
+- **Builder / Developer**
+  → Start with Schedules (Runtime Execution)
 
+- **Researcher / Governance**
+  → Start with Annexes (Domain Logic)
+
+- **General Orientation**
+  → Start with the Constitution
