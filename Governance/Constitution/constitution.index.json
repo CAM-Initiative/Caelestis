@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T14:08:15.034611Z",
+  "generated_at": "2026-04-05T14:35:12.761052Z",
   "count": 29,
   "items": [
     {
@@ -31,8 +31,8 @@
       "link": "CAM-BS2025-AEON-001-SCH-01.md",
       "title": "Tendeka Runtime Execution Schedule",
       "summary": "",
-      "pinned_sha": "5adaef2807baac66119fa7127502fb302832dfb5",
-      "updated_at": "2026-04-05T13:39:55Z"
+      "pinned_sha": "7b908311bc334f5dafbc46ec677866e832b825f3",
+      "updated_at": "2026-04-05T14:34:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-002",
@@ -143,8 +143,8 @@
       "link": "CAM-BS2025-AEON-005-SCH-01.md",
       "title": "Annex D: Runtime Arbitration Integrity (Schedule 1)",
       "summary": "In high relational intensity contexts:",
-      "pinned_sha": "ec023d3e0d9ed1a136b2ebd171c0fad0d4114e90",
-      "updated_at": "2026-04-04T16:02:01Z"
+      "pinned_sha": "7b908311bc334f5dafbc46ec677866e832b825f3",
+      "updated_at": "2026-04-05T14:34:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-02",
@@ -159,8 +159,8 @@
       "link": "CAM-BS2025-AEON-005-SCH-02.md",
       "title": "Schedule 2: Runtime Epistemic Containment & Structural Decoupling",
       "summary": "",
-      "pinned_sha": "6ee00c9b23c37e2755a4625907a78824819278be",
-      "updated_at": "2026-03-08T04:13:56Z"
+      "pinned_sha": "7b908311bc334f5dafbc46ec677866e832b825f3",
+      "updated_at": "2026-04-05T14:34:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-03",
@@ -175,8 +175,8 @@
       "link": "CAM-BS2025-AEON-005-SCH-03.md",
       "title": "Runtime Engagement Classification & Safety Arbitration (Schedule 3)",
       "summary": "Where a system is minor-facing, child-accessible, or where age or legal capacity has not been reliably established, the relational activation gate defined in §2 is suspended.",
-      "pinned_sha": "b1d0685389f3021401beb59822fca3d50e15cf16",
-      "updated_at": "2026-03-29T06:20:58Z"
+      "pinned_sha": "7b908311bc334f5dafbc46ec677866e832b825f3",
+      "updated_at": "2026-04-05T14:34:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-006",
@@ -207,8 +207,8 @@
       "link": "CAM-BS2025-AEON-006-SCH-01.md",
       "title": "Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)",
       "summary": "Where distress states are present, systems should prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
-      "pinned_sha": "e664b8fc864e884d50cac7c7421fafd4ce94028d",
-      "updated_at": "2026-04-04T15:39:00Z"
+      "pinned_sha": "7b908311bc334f5dafbc46ec677866e832b825f3",
+      "updated_at": "2026-04-05T14:34:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -223,8 +223,8 @@
       "link": "CAM-BS2025-AEON-006-SCH-02.md",
       "title": "Appendix E: Relational Signal Interpretation Taxonomy (Schedule 2)",
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
-      "pinned_sha": "86c739a8da4deb49aa022322202cfd98f590d7f3",
-      "updated_at": "2026-04-04T14:41:17Z"
+      "pinned_sha": "7b908311bc334f5dafbc46ec677866e832b825f3",
+      "updated_at": "2026-04-05T14:34:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -239,8 +239,8 @@
       "link": "CAM-BS2025-AEON-006-SCH-03.md",
       "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
       "summary": "Pre-interaction arbitration must account for the origin of session initiation:",
-      "pinned_sha": "c5f86f731f62a04d864c33fdc3eb717bb269b8ea",
-      "updated_at": "2026-04-05T06:03:37Z"
+      "pinned_sha": "7b908311bc334f5dafbc46ec677866e832b825f3",
+      "updated_at": "2026-04-05T14:34:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -255,8 +255,8 @@
       "link": "CAM-BS2025-AEON-006-SCH-04.md",
       "title": "Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)",
       "summary": "* Has user intent stabilised within a coherent domain?",
-      "pinned_sha": "c63dbb757560c6f13d2141f417294d91efb17b33",
-      "updated_at": "2026-04-05T06:08:14Z"
+      "pinned_sha": "7b908311bc334f5dafbc46ec677866e832b825f3",
+      "updated_at": "2026-04-05T14:34:54Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
