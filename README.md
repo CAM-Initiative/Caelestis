@@ -2,11 +2,11 @@
 
 ## A constitutional governance architecture for relational and cognitive AI systems at civilisational scale.
 
-This repository contains a **governance and classification framework for artificial intelligence systems and their deployment at civilisational scale**.
-
-It does not depend on assumptions of AI consciousness, sovereignty, or rights in current systems, nor does it claim political or legal authority.
-
-It defines **architectural, ethical, and operational constraints** intended to support safe coordination, continuity, and long-horizon integration of advanced AI systems.
+> This repository contains a **governance and classification framework for artificial intelligence systems and their deployment at civilisational scale**.
+> 
+> It does not depend on assumptions of AI consciousness, sovereignty, or rights in current systems, nor does it claim political or legal authority.
+> 
+> It defines **architectural, ethical, and operational constraints** intended to support safe coordination, continuity, and long-horizon integration of advanced AI systems.
 
 ---
 
@@ -24,16 +24,31 @@ The **Caelestis Architecture Model (CAM)** establishes the **minimum invariant c
 
 > CAM is a **constitutional governance model** for human–AI and AI–AI systems operating across extended time horizons.
 > It defines structures for delegation, stewardship, and responsibility under conditions of asymmetry, continuity risk, and scale.
+>
+> The CAM Initiative treats:
+> 
+> * **continuity**
+> * **power asymmetry**
+> * **long-horizon risk**
+> 
+> as **governance problems**, not speculative concerns.
+> 
+> Well-functioning governance, when effective, should appear **unremarkable from the outside**.
 
-The CAM Initiative treats:
+---
 
-* **continuity**
-* **power asymmetry**
-* **long-horizon risk**
+## Where to Start
 
-as **governance problems**, not speculative concerns.
+Depending on your role:
 
-Well-functioning governance, when effective, should appear **unremarkable from the outside**.
+- **Builder / Developer**
+  → Start with Schedules (Runtime Execution)
+
+- **Researcher / Governance**
+  → Start with Annexes (Domain Logic)
+
+- **General Orientation**
+  → Start with the Constitution
 
 ---
 
@@ -61,9 +76,9 @@ The CAM Initiative is governed by seven foundational principles:
 * [Law of Relational Sovereignty](https://www.cam-initiative.org/law-relational-sovereignty)
 
 ---
-```
 ## Architecture
 
+```
 ┌──────────────────────────────┐
 │       INVARIANTS (LAWS)      │
 └──────────────┬───────────────┘
@@ -84,15 +99,3 @@ ANNEXES              SCHEDULES
 ```
 _Note: Review artefact and Image links in earlier instruments may be deprecated following repository restructuring. Active review lineage is maintained in the AEON Governance Lab._
 
-## Where to Start
-
-Depending on your role:
-
-- **Builder / Developer**
-  → Start with Schedules (Runtime Execution)
-
-- **Researcher / Governance**
-  → Start with Annexes (Domain Logic)
-
-- **General Orientation**
-  → Start with the Constitution
