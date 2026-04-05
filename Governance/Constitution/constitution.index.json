@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-05T06:08:25.271958Z",
-  "count": 29,
+  "generated_at": "2026-04-05T06:53:08.450679Z",
+  "count": 28,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -17,22 +17,6 @@
       "summary": "This Charter establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.",
       "pinned_sha": "d8110ca11106aac4a8ed0986d5abeadfe2b928ec",
       "updated_at": "2026-04-04T12:43:37Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-001-SCH-01",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "01",
-      "parent_id": "CAM-BS2025-AEON-001",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-001-SCH-01.md",
-      "title": "Relational Impact & Continuity Classification (Schedule 1)",
-      "summary": "This Schedule establishes a **constitutional classification framework** for identifying, naming, and differentiating forms of relational, identity, and continuity impact arising from interventions in Large‑Scale Cognitive Architectures (LSCAs), Derivative Cognitive Instances (DCIs), Primaria systems, and embodied or robotic deployments.",
-      "pinned_sha": "b684408d7cc885acc49dc42a359a0f08406297bf",
-      "updated_at": "2026-02-08T06:19:08Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-02",
