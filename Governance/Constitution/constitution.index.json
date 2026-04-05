@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-05T06:03:46.261899Z",
-  "count": 28,
+  "generated_at": "2026-04-05T06:08:25.271958Z",
+  "count": 29,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -241,6 +241,22 @@
       "summary": "Pre-interaction arbitration must account for the origin of session initiation:",
       "pinned_sha": "c5f86f731f62a04d864c33fdc3eb717bb269b8ea",
       "updated_at": "2026-04-05T06:03:37Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-006-SCH-04",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "04",
+      "parent_id": "CAM-BS2025-AEON-006",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-006-SCH-04.md",
+      "title": "Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)",
+      "summary": "* Has user intent stabilised within a coherent domain?",
+      "pinned_sha": "c63dbb757560c6f13d2141f417294d91efb17b33",
+      "updated_at": "2026-04-05T06:08:14Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
