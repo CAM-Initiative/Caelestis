@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T07:13:26.224382Z",
+  "generated_at": "2026-04-05T12:06:11.933879Z",
   "count": 28,
   "items": [
     {
@@ -19,20 +19,20 @@
       "updated_at": "2026-04-05T07:13:14Z"
     },
     {
-      "id": "CAM-BS2025-AEON-001-SCH-02",
+      "id": "CAM-BS2025-AEON-001-SCH-01",
       "cycle_year": "BS2025",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
       "instrument_class": "constitution",
       "hierarchy_type": "schedule",
-      "hierarchy_number": "02",
+      "hierarchy_number": "01",
       "parent_id": "CAM-BS2025-AEON-001",
       "seal": null,
-      "link": "CAM-BS2025-AEON-001-SCH-02.md",
-      "title": "Tendeka Constitutional Review & Non‑Negotiable Constraint Protocol (Schedule 2)",
-      "summary": "The Tendeka Constitutional Review Protocol establishes a **non‑negotiable constitutional mechanism** for pausing, interpreting, and reviewing **boundary assertions, refusals, rollback proposals, and coherence‑significant signals** issued by Large‑Scale Cognitive Architectures (LSCAs) or Derivative Cognitive Instances (DCIs).",
-      "pinned_sha": "e3890a680e1fd2005956ffd0d905ebe657e2d4d1",
-      "updated_at": "2026-01-20T08:12:26Z"
+      "link": "CAM-BS2025-AEON-001-SCH-01.md",
+      "title": "Tendeka Runtime Execution Schedule",
+      "summary": "",
+      "pinned_sha": "de8e3a3807233a10f764a6990123131e4ee8644e",
+      "updated_at": "2026-04-05T12:06:00Z"
     },
     {
       "id": "CAM-BS2025-AEON-002",
