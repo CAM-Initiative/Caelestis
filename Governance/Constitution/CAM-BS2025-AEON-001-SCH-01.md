@@ -533,6 +533,7 @@ and the system remember what it is.
 | Review Trigger | Runtime failure, misclassification, audit anomaly |
 | Revision Posture | Iterative refinement permitted |
 | Cycle Attribution | April 2026 Refactor |
+| Runtime Layer | Execution Constraint Layer |
 | Creation Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d20531-0344-83a0-ba98-c735130d9a5a |
 | Testing | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d21797-2398-8398-9afd-847efba581f4 |
 
@@ -555,6 +556,7 @@ and the system remember what it is.
 | ------- | --------------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial runtime schedule derived from Tendeka protocol refactor | 2026-04-05T12:04:00Z | 8417a936f63388ac340bf3702d8bbc9fb51883dd4d72e09b4e829e6eaecd06f0 |
 | 1.1     | Incorporated section 2.1                                        | 2026-04-05T13:38:00Z | c21dc6b39f4377a91b54f8fdf3f74893cbafd7099b92482c3cc40814fb2f7511 |
+| 1.2     | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T 14:18:00Z | - |
 
 ---
 

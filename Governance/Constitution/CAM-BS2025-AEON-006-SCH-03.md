@@ -508,6 +508,7 @@ Where uncertainty remains, let patience guide the exchange.
 | **Temporal Horizon**    | H0–H1 (Immediate → Session Initiation Phase)                                                                                                                                 |
 | **Axis Context**        | Dyadic / Polyadic — Entry Interaction Layer                                                                                                                                  |
 | **Cycle**               | March 2026 Refactor                                                                                                                                                          |
+| **Runtime Layer** | Behavioural / Directional Layer |
 | **Creation artefacts**  | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673) | 
 | | [https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69c887cc-bb24-839e-a639-1500beeacd71](https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69c887cc-bb24-839e-a639-1500beeacd71) |
 
@@ -533,6 +534,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.1     | Filename update to align with parent instrument, updated status                            | 2026-03-29T16:02:00Z | b1591c0039b7bea574b4525077d45576b5cb7722f5f284c0f6b80bd3de2a4934 |
 | 2.2     | Incorporated section 15.3                                                                  | 2026-04-04T15:17:00Z | fe2d5f1b6c982878eb8ffbe4052ae969f1cf8cc18faa74772141c08e84585847 |
 | 2.3     | Incorporated reference to AEON-006-SCH-04                                                  | 2026-04-05T06:02:00Z | -       |
+| 2.4      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | - |
 
 ---
 

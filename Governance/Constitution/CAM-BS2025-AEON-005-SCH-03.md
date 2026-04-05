@@ -279,6 +279,7 @@ And let warmth be recognised as care, never cause for alarm.
 | **Temporal Horizon**  | H2–H3 (Operational → Institutional)                                                              |
 | **Axis Context**      | Dyadic / Polyadic — Runtime Arbitration Context                                                  |
 | **Cycle**             | March 2026 Refactor                                                                             |
+| **Runtime Layer**     | Domain Routing & Safeguard Activation Layer |
 | **Creation Artefact** | Refactor </br>[https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376) |
 |                       | Original </br>[https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f)  |
 
@@ -305,6 +306,7 @@ And let warmth be recognised as care, never cause for alarm.
 | 1.2     | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes | 2026-03-07T08:05:00Z | - |
 | 1.3     | Amended for custodial tone                    | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
 | 1.4     | Corrected link to the binding seal            | 2026-03-29T06:17:00Z | 0fd7224a910c125cf9c9e16fe559ce316b70351879c8a38859bdc11a7a55b6c0 |
+| 1.5      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:27:00Z | - |
 
 ---
 

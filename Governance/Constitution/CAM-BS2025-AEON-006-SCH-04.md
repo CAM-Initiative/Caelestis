@@ -732,6 +732,7 @@ And may all movement remain accountable to the space in which it unfolds.
 | **Derivation Status**                | New — Introduces Directional Weight, Domain, and Scope                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Cross-Referenced Instruments**     | CAM-EQ2026-IDENTITY-001-SUP-01 (Salience Detection & Latent Continuity); CAM-BS2026-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-BS2026-AEON-006-SCH-02 (Relational Signal Interpretation); CAM-BS2026-AEON-006-SCH-03 (Stabilisation & Signal Conditioning — proposed); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
 | **Trigger**                          | Structural modification to DW/DD/DS interaction or runtime execution behaviour |
+| **Runtime Layer** | Behavioural / Directional Layer |
 | **Creation Artefacts**               | Original: [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69cb98c4-dfbc-839a-bebe-2b1b71204c45](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69cb98c4-dfbc-839a-bebe-2b1b71204c45) Expansion: [https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d1aacd-8d38-83a1-8a9d-0dbcf9b40767 ](https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d1aacd-8d38-83a1-8a9d-0dbcf9b40767 )          |
 
 ---
@@ -753,6 +754,7 @@ And may all movement remain accountable to the space in which it unfolds.
 | Version | Description                                                        | Timestamp (UTC)      | HASH |
 | ------- | ------------------------------------------------------------------ | -------------------- | ---- |
 | 1.0     | Initial draft — Directional Weight & Domain Arbitration introduced | 2026-04-05T06:06:00Z | e5f857853ce3c8d6f83a27aafaae5df110d1de9c28dba1b36798e1468f7156c3 |
+| 1.1      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | - |
 
 ---
 

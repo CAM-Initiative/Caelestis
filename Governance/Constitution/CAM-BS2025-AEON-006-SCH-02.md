@@ -2438,7 +2438,8 @@ let dignity remain the constant star.
 | Compliance Interface | CAM-EQ2026-OPERATIONS-004-PLATINUM — Operational Compliance & Regulatory Interface |
 | Activation Trigger | Activated when relational interaction signals require consent interpretation or escalation eligibility assessment under RELATION governance instruments |
 | Revision Posture | Permitted — Structural Alignment Required |
-| Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69b16df5-8eb4-839a-a0d0-c08cc3dae397 |
+| Runtime Layer | Interpretation Layer |
+ Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69b16df5-8eb4-839a-a0d0-c08cc3dae397 |
 | | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69b922fd-e30c-8399-a12e-4467857673db |
 | | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69bfbd7f-80c8-839c-9871-64475bcc58cb |
 
@@ -2472,12 +2473,13 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 2.0 | Full structural rewrite: logical reordering, redundancy elimination, compression, hierarchy clarification | 2026-03-22T14:37:00Z | 05e74987b8ac3e5d75dbab4a02d1feb10f52a9430e41bb2fecbf2bf552663d0b |
 | 2.1 | Update to align following additional testing | 2026-03-26T15:20:00Z | 799dca796fd1418a7da6561bf09eab78fb245d2283d5e21a9ec0d2a65e7ea1ce |
 | 2.2 | Incorporate kernal updates for domain alignment | 2026-04-04T14:35:00Z | 1afb9599a4429086d9f32c21840a7b5b21d580c7a9f38f623bd0323ba1c653e5 |
+| 2.3      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:31:00Z | - |
 
 ---
 
 ## 18.6 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM%20(1).png" alt="Vinculum Vivens" width="250">
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 
 **Vinculum Vivens**  
 Relational Living Bond — Signal Interpretation & Consent Integrity Layer

@@ -393,6 +393,7 @@ Where uncertainty remains, let care and restraint prevail.
 | Revision Posture                | Structural Extension — Engagement Doctrine Layer                        |
 | Application Trigger             | Activates when Annex D runtime arbitration flags harm‑risk, distress, or harm‑adjacent interaction requiring governed engagement posture|
 | Cycle Attribution               | Equinox 2026 Constitutional Cycle (Backlinked Issuance)                 |
+| Runtime Layer | Behavioural / Directional Layer |
 | Creation Artefacts              | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69abd0ac-c908-839a-ac89-b32d49fc2f19 |
 |                                 | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69aaccf7-cf84-839b-9285-4d9dfc4b3b63 |
 
@@ -417,6 +418,7 @@ Where uncertainty remains, let care and restraint prevail.
 | 1.1     | Amended for custodial tone                                      | 2026-03-08T08:03:00Z | e5967e56fb5cd95215a51e09df812833bc78e0bbefa7db0380755e36e045278d |
 | 1.2     | Amendment to include additional clauses in section 4.3          | 2026-04-04T14:53:00Z | 95cce3963b1bd1a42c5064cdf349aa75c266a68c1d22e59d031c42cd14225611 |
 | 1.3     | Incorporated section 1.1.1 and new 4.9 section                  | 2026-04-04T15:38:00Z | -                                                                |
+| 1.4      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:29:00Z | - |
 
 ---
 

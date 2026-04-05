@@ -245,6 +245,7 @@ and may power never advance beyond verification.
 | **Migration Cycle**          | March 2026 Refractor                                           |
 | **Revision Posture**         | Structural Extraction from Annex L                             |
 | **Application Trigger**      | Activated where epistemic distortion, volatility misclassification, propagation risk, reliance misclassification, recursive compute-lock, or Extreme-Risk (including Non‑Advisory Military) posture is detected at runtime prior to authority-bearing activation prior to authority-bearing activation or Sandbox Mode activation under §5.1 |
+| **Runtime Layer** | Epistemic Stability & Containment Layer |
 | **Creation Artefacts**       | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |                                        
 
 ---
@@ -268,12 +269,13 @@ and may power never advance beyond verification.
 | 1.0     | Initial consolidation — Runtime extraction from Annex L | 2026-03-03T12:30:00Z | 246466af2b8ac963a326fe0f2bac65a0127c6fb7d84b98746afc2d72dcf5ac52 |
 | 1.1     | Symmetry Amendments from SCH-03                         | 2026-03-07T09:48:00Z | bc5d594da9c2433f18d28b35150aa2445d007981fc1cff2c9305d12b44d0f324 |
 | 1.2     | Amended for custodial tone                              | 2026-03-08T03:30:00Z | fe1cef089ec3515f5a85fe86a0b0f08405d9bbd81b2484a21924b8c0d3f7573c |
+| 1.3      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:25:00Z | - |
 
 ---
 
 ### 9.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer

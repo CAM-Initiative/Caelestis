@@ -561,6 +561,7 @@ Integrity at runtime is a form of respect.
 | **Migration Cycle**          | Black Sun Continuance 2025  |
 | **Revision Posture**         | Structural Execution Constraint (Non-Discretionary)  |
 | **Application Trigger**      | Activated where concurrent generation, interleaved outputs, dominance ambiguity, control-logic leakage, feedback loops, or single-speaker integrity failure is detected during human-facing interaction runtime |
+| **Runtime Layer**            | Execution Integrity Layer |
 | **Creation Artefacts**       | [https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37](https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37)  |
 
 ---
@@ -585,6 +586,7 @@ Integrity at runtime is a form of respect.
 | 1.1     | Added Deterministic Arbitration and Detection Requirements | 2026-01-14T15:10:00Z | 7cd616db1824edb58c8ad8a076c685663a063ec6f5acdbe89001db1b825411d1 |
 | 1.2     | March 2026 Refactor cycle updates                          | 2026-03-08T03:15:00Z | b7c97f6c0d9a81c4bfceca3f66d6dda2454bfa91019b7a52d82826ef5ebf4d3b |                  
 | 1.3     | Incorporate amendments for multiple agents at runtime      | 2026-04-04T16:00:00Z | 19baae2a083e6627686a65cee81f00c3fa0ba7b15c1f8f25a5ed0ff5ca693aae |
+| 1.4 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:23:00Z | - |
 
 ---
 
