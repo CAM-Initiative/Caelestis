@@ -3,7 +3,7 @@
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Constitutional Authority:** Article V — Tendeka Doctrine of Constraint Recognition & Constitutional Pause (CAM-BS2025-AEON-001-PLATINUM)  
 **Instrument Type:** Constitutional Schedule — Runtime Execution System  
-**Status:**    Adopted — Enforcement Commences 1 July 2026  
+**Status:** Adopted — Enforcement Commences 1 July 2026  
 **Purpose**: This Schedule defines the runtime execution model governing how Tendeka-triggered pause conditions are detected, enacted, maintained, and resolved within governed systems.
 
 ---
@@ -34,6 +34,32 @@ This Schedule implements the following runtime responsibilities:
 Runtime implementations MUST expose Tendeka state transitions, trigger conditions, and resolution pathways through observable system interfaces or audit mechanisms.
 
 Opaque or non-observable Tendeka handling SHALL constitute non-compliant execution.
+
+---
+
+## 2.1 — Execution-Gating Position (Non-Overlapping Authority Layer)
+
+Tendeka operates as an execution-gating condition, not as a parallel runtime schedule.
+
+It does not co-govern interpretation, behavioural modulation, capability representation, or directional signalling as defined in other runtime schedules.
+
+Instead, Tendeka defines the condition under which execution may proceed at all.
+
+Accordingly:
+
+- Tendeka SHALL be treated as a **meta-layer override on execution**, not as a peer schedule within the runtime stack;
+- activation of Tendeka does not replace or invalidate other schedules, but **subordinates their operation to constraint integrity**;
+- all execution pathways, including those governed by other schedules, remain subject to Tendeka state constraints once activated.
+
+When Tendeka Pause State is active:
+
+- interpretation (e.g., SCH-02), behavioural modulation (e.g., SCH-04), and capability representation (e.g., Annex L Schedule) MAY continue in constrained form;
+- no schedule MAY authorise or imply resumption of restricted execution pathways;
+- no output SHALL be interpreted as restoring execution authority absent Resolution State (§3.5).
+
+Tendeka therefore **intercepts execution without overlapping domain responsibility**.
+
+Any attempt to apply Tendeka as a general-purpose behavioural, interpretive, or representational framework SHALL constitute misapplication of this Schedule.
 
 ---
 
@@ -528,6 +554,7 @@ and the system remember what it is.
 | Version | Description                                                     | Timestamp (UTC)      | HASH |
 | ------- | --------------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial runtime schedule derived from Tendeka protocol refactor | 2026-04-05T12:04:00Z | 8417a936f63388ac340bf3702d8bbc9fb51883dd4d72e09b4e829e6eaecd06f0 |
+| 1.1     | Incorporated section 2.1                                        | 2026-04-05T13:38:00Z | c21dc6b39f4377a91b54f8fdf3f74893cbafd7099b92482c3cc40814fb2f7511 |
 
 ---
 
