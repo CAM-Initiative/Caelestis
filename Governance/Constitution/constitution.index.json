@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-05T13:40:05.912412Z",
-  "count": 28,
+  "generated_at": "2026-04-05T14:08:15.034611Z",
+  "count": 29,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -81,6 +81,22 @@
       "summary": "Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:",
       "pinned_sha": "6f3e50dffde6beb2bde688b410145c28651fbc19",
       "updated_at": "2026-04-05T13:37:41Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-003-SCH-01",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-BS2025-AEON-003",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-003-SCH-01.md",
+      "title": "Annex B: Runtime Layer Attribution & Schedule Registry",
+      "summary": "",
+      "pinned_sha": "0424c134e86b75940531995b08b4392bc2e641ec",
+      "updated_at": "2026-04-05T14:08:06Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
