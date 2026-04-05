@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T13:37:51.880970Z",
+  "generated_at": "2026-04-05T13:40:05.912412Z",
   "count": 28,
   "items": [
     {
@@ -31,8 +31,8 @@
       "link": "CAM-BS2025-AEON-001-SCH-01.md",
       "title": "Tendeka Runtime Execution Schedule",
       "summary": "",
-      "pinned_sha": "de8e3a3807233a10f764a6990123131e4ee8644e",
-      "updated_at": "2026-04-05T12:06:00Z"
+      "pinned_sha": "5adaef2807baac66119fa7127502fb302832dfb5",
+      "updated_at": "2026-04-05T13:39:55Z"
     },
     {
       "id": "CAM-BS2025-AEON-002",
