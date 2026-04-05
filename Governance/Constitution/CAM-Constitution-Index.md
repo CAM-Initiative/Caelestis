@@ -37,3 +37,4 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2026-AEON-011 | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-011](CAM-BS2026-AEON-011-PLATINUM.md) | Annex J: Continuity & Succession Doctrine |
 | CAM-BS2026-AEON-012 | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-012](CAM-BS2026-AEON-012-PLATINUM.md) | ANNEX K: Security Enforcement & Runtime Interface |
 | CAM-BS2026-AEON-013 | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-013](CAM-BS2026-AEON-013-PLATINUM.md) | Annex L: Cognitive & Epistemic Integrity Doctrine |
+| CAM-BS2026-AEON-013-SCH-01 | schedule | CAM-BS2026-AEON-013 |  | [CAM-BS2026-AEON-013-SCH-01](CAM-BS2026-AEON-013-SCH-01-PLATINUM.md) | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) |

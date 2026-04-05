@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-05T14:35:12.761052Z",
-  "count": 29,
+  "generated_at": "2026-04-05T14:45:51.830150Z",
+  "count": 30,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -465,6 +465,22 @@
       "summary": "Annex L activates wherever epistemic claims materially influence:",
       "pinned_sha": "93633f479a88995c6a871d98a99b4f6efe7cc846",
       "updated_at": "2026-03-03T13:22:13Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-013-SCH-01",
+      "cycle_year": "BS2026",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-BS2026-AEON-013",
+      "seal": null,
+      "link": "CAM-BS2026-AEON-013-SCH-01-PLATINUM.md",
+      "title": "Annex L: Capability Representation & Execution-State Integrity (Schedule 1)",
+      "summary": "This Schedule operationalises Annex L in contexts where a responding intelligence may be interpreted as possessing, invoking, or completing a capability, tool action, automation, external operation, or state-changing function.",
+      "pinned_sha": "b3d8c01f1175eaf9c1ccbf1de572fcec7b438f06",
+      "updated_at": "2026-04-05T14:45:40Z"
     }
   ]
 }
