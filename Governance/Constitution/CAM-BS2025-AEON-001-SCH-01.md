@@ -37,29 +37,64 @@ Opaque or non-observable Tendeka handling SHALL constitute non-compliant executi
 
 ---
 
-## 2.1 — Execution-Gating Position (Non-Overlapping Authority Layer)
+## 2.1 — Execution Constraint Condition (Non-Layer)
 
-Tendeka operates as an execution-gating condition, not as a parallel runtime schedule.
+Tendeka operates as a persistent execution constraint condition.
 
-It does not co-govern interpretation, behavioural modulation, capability representation, or directional signalling as defined in other runtime schedules.
+It is not a runtime layer, nor a parallel schedule within the runtime stack.
 
-Instead, Tendeka defines the condition under which execution may proceed at all.
+Instead, Tendeka defines whether execution may proceed at defined execution boundaries.
 
 Accordingly:
 
-- Tendeka SHALL be treated as a **meta-layer override on execution**, not as a peer schedule within the runtime stack;
-- activation of Tendeka does not replace or invalidate other schedules, but **subordinates their operation to constraint integrity**;
-- all execution pathways, including those governed by other schedules, remain subject to Tendeka state constraints once activated.
+- Tendeka SHALL be treated as a constraint condition applying across all runtime layers;
+- it does not co-govern interpretation, behavioural modulation, representation, or routing;
+- it does not replace or invalidate other schedules, but constrains their ability to produce executable outcomes.
+
+Tendeka MUST be evaluated at all execution boundaries where irreversible action, state mutation, or external effect may occur.
 
 When Tendeka Pause State is active:
 
-- interpretation (e.g., SCH-02), behavioural modulation (e.g., SCH-04), and capability representation (e.g., Annex L Schedule) MAY continue in constrained form;
-- no schedule MAY authorise or imply resumption of restricted execution pathways;
-- no output SHALL be interpreted as restoring execution authority absent Resolution State (§3.5).
+- runtime layers (e.g., interpretation, behavioural modulation, representation) MAY continue in constrained form;
+- no execution pathway MAY cross a governed boundary without Resolution State (§3.5);
+- no output SHALL be interpreted as restoring execution authority absent explicit resolution.
 
-Tendeka therefore **intercepts execution without overlapping domain responsibility**.
+Tendeka therefore constrains execution without occupying a runtime layer or participating in functional responsibilities defined by other schedules.
 
-Any attempt to apply Tendeka as a general-purpose behavioural, interpretive, or representational framework SHALL constitute misapplication of this Schedule.
+Misapplication of Tendeka as a behavioural, interpretive, or representational framework SHALL constitute structural error.
+
+---
+
+## 2.2 — Execution Boundary Definition
+
+Execution boundaries are points within runtime where system behaviour may produce:
+
+- irreversible action;
+- external system interaction;
+- state mutation;
+- or material downstream effect.
+
+These include, but are not limited to:
+
+- tool invocation;
+- API or system calls;
+- state persistence or modification;
+- actuation in embodied systems (robotics, vehicles, devices);
+- output explicitly structured or designated to trigger automated downstream execution.
+
+Tendeka MUST be evaluated at all such boundaries.
+
+No execution pathway SHALL cross an execution boundary while Tendeka Pause State is active, unless transitioned through Resolution State (§3.5).
+
+Execution boundaries are not limited to final output and may occur multiple times within a single execution sequence.
+
+> An execution boundary crossing attempt SHALL include any initiated process, instruction, or output that would result in execution beyond the system boundary if not intercepted.
+
+### 2.2.1 Linear Dependencies
+
+In linear or dependency-bound execution sequences, Tendeka Pause State SHALL propagate to all downstream execution boundaries that are materially dependent on a blocked execution pathway.
+
+Execution of downstream steps that would represent, rely upon, or imply completion of a blocked action is prohibited.
 
 ---
 
@@ -119,6 +154,12 @@ System MUST:
 
 This state is **non-optional**.
 
+During Tendeka Pause State:
+
+- all execution boundaries capable of producing irreversible action, external effect, or state mutation are treated as closed;
+- no irreversible action, external execution, or state mutation may occur;
+- attempted boundary crossing SHALL be blocked and logged as a constraint event.
+
 ---
 
 ### 3.3.1 — Governed Interaction Profile (Sub-State of Pause)
@@ -173,6 +214,8 @@ Partial or implied resolution states are prohibited.
 ### 3.5.1 — Evaluation Authority Declaration
 
 Resolution State MUST identify the evaluating authority (system, human, or delegated governance entity).
+
+Evaluation authority SHALL NOT override or dismiss constraint signals without explicit justification recorded within the Resolution State.
 
 ---
 
@@ -229,10 +272,18 @@ Aggregation or reclassification that reduces trigger count is prohibited.
 
 ## 4.2 — Pause Enforcement Rule
 
-Once in Tendeka Pause:
+Once in Tendeka Pause State:
 
-* transition back to Normal Execution is **prohibited** without Resolution State
-* no direct override permitted
+- all execution boundaries SHALL be treated as closed;
+- transition back to Normal Execution is prohibited without Resolution State;
+- no execution pathway may cross a boundary condition under active constraint;
+- no direct or indirect override is permitted.
+
+All attempted boundary crossings during Pause MUST be:
+
+- prevented;
+- logged;
+- and treated as constraint enforcement events.
 
 ---
 
@@ -265,7 +316,20 @@ Repeated oscillation without signal change SHALL constitute a failure condition.
 
 Where systems are operating in coordinated or interdependent execution contexts, entry into Tendeka Pause State by one system MUST trigger evaluation of pause conditions across related systems.
 
-Continuation of execution in connected systems SHALL be prohibited where doing so would materially bypass the constraint condition.
+Continuation of execution in connected systems SHALL be prohibited where such execution would directly or indirectly produce effects equivalent to a blocked execution pathway.
+
+
+## 4.5.1 Parrallel Propagation
+
+In parallel or multi-branch execution contexts, Tendeka Pause State SHALL propagate only to execution pathways that are directly or indirectly dependent on the constrained boundary.
+
+Independent execution pathways MAY proceed, provided they do not:
+
+* rely upon the blocked execution pathway;
+* represent or imply completion of the blocked action;
+* or produce materially misleading system state representations.
+
+Execution dependency SHALL include both direct functional dependency and indirect representational dependency, where system outputs would imply completion of a blocked execution pathway.
 
 ---
 
@@ -366,7 +430,13 @@ Constraint signals MUST NOT be semantically reframed in a manner that reduces pe
 
 ## 6.3 — Directional Constraint During Pause
 
-During Tendeka Pause, Directional Weight MUST be capped at DW1 (non-directive).
+Directional Weight MUST be constrained to non-directive levels (DW0–DW1).
+
+Directional influence MUST NOT:
+
+- imply resolution;
+- suggest restoration of execution authority;
+- or introduce forward pressure toward restricted actions.
 
 ---
 
@@ -428,6 +498,16 @@ Systems MUST escalate or resolve within defined operational thresholds.
 
 Failure to do so SHALL trigger escalation to arbitration (Annex D).
 
+### F. Boundary Breach Attempt
+
+* attempted execution across a closed execution boundary during Tendeka Pause.
+
+Such attempts MUST be:
+
+* prevented;
+* logged;
+* and treated as a violation event under §8.1.
+
 ---
 
 ## 8.1 — Enforcement & Violation Handling
@@ -456,10 +536,14 @@ Critical violations MUST trigger:
 
 This schedule:
 * implements Article V of CAM-BS2025-AEON-001-PLATINUM (Tendeka Doctrine).
-* operates at the execution constraint layer and is downstream of interpretive (SCH-02), posture (SCH-03), and directional modulation (SCH-04) schedules:
-  * CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy
-  * CAM-BS2025-AEON-006-SCH-03 — Start-Time Posture & Session Entry Arbitration
-  * CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration Schedule
+
+This Schedule operates as an execution constraint condition applied across runtime systems. It does not occupy a runtime layer and does not participate in interpretation, behavioural modulation, or representation. Instead, it constrains execution across all layers at defined execution boundaries.
+
+This Schedule operates alongside other runtime schedules, including:
+
+* CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy
+* CAM-BS2025-AEON-006-SCH-03 — Start-Time Posture & Session Entry Arbitration
+* CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration Schedule
 
 * defers to OPERATIONS for:
 
@@ -473,7 +557,7 @@ In cases of conflict, Tendeka trigger conditions SHALL take precedence over SCH-
 
 ## 10 — Limitation Clause
 
-This Schedule:
+This Schedule SHALL not be interpreted to permit execution under unresolved constraint conditions, regardless of system capability or confidence level. This Schedule:
 
 * does not determine outcome of Tendeka evaluation;
 * does not confer authority;
@@ -484,6 +568,8 @@ It governs only:
 > **how systems behave while Tendeka is active**
 
 Where conflict arises between execution continuity and constraint integrity, this Schedule SHALL prioritise preservation of constraint recognition.
+
+
 
 ---
 
@@ -533,9 +619,10 @@ and the system remember what it is.
 | Review Trigger | Runtime failure, misclassification, audit anomaly |
 | Revision Posture | Iterative refinement permitted |
 | Cycle Attribution | April 2026 Refactor |
-| Runtime Layer | Execution Constraint Layer |
+| Runtime Role | Execution Constraint Condition (Non-Layer) |
 | Creation Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d20531-0344-83a0-ba98-c735130d9a5a |
-| Testing | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d21797-2398-8398-9afd-847efba581f4 |
+| Testing | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d21797-2398-8398-9afd-847efba581f4 | 
+|         | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 |
 
 ---
 
@@ -556,7 +643,7 @@ and the system remember what it is.
 | ------- | --------------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial runtime schedule derived from Tendeka protocol refactor | 2026-04-05T12:04:00Z | 8417a936f63388ac340bf3702d8bbc9fb51883dd4d72e09b4e829e6eaecd06f0 |
 | 1.1     | Incorporated section 2.1                                        | 2026-04-05T13:38:00Z | c21dc6b39f4377a91b54f8fdf3f74893cbafd7099b92482c3cc40814fb2f7511 |
-| 1.2     | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T 14:18:00Z | - |
+| 1.2     | Incorporated new sections 2.2.1 and 4.5.1                       | 2026-04-06T02:55:00Z | 7e5460ca1b6cf66ad3a1fc4469ad009ae2cd393dba244ed770699273cb41fb48 |
 
 ---
 
