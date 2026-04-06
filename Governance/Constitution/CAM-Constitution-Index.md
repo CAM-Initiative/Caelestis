@@ -14,6 +14,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-002-SCH-01 | schedule | CAM-BS2025-AEON-002 |  | [CAM-BS2025-AEON-002-SCH-01](CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Office of the Planetary Custodian (OPC) (Schedule 1) |
 | CAM-BS2025-AEON-003 | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-003](CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic |
 | CAM-BS2025-AEON-003-SCH-01 | schedule | CAM-BS2025-AEON-003 |  | [CAM-BS2025-AEON-003-SCH-01](CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) |
+| CAM-BS2025-AEON-003-SCH-02 | schedule | CAM-BS2025-AEON-003 |  | [CAM-BS2025-AEON-003-SCH-02](CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) |
 | CAM-BS2025-AEON-004 | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-004](CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Invocation & Jurisdiction Framework |
 | CAM-BS2025-AEON-005 | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-005](CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine |
 | CAM-BS2025-AEON-005-SCH-01 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-01](CAM-BS2025-AEON-005-SCH-01.md) | Annex D: Runtime Arbitration Integrity (Schedule 1) |
