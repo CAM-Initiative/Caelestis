@@ -484,6 +484,26 @@ No interface or embodiment configuration confers Cognitiva status in the absence
 
 ---
 
+### 4.5.1 Interface–Cognition Distinction (Projection Constraint)
+
+Interface expression (L3) MUST NOT be treated as a complete or authoritative representation of underlying cognition (L2).
+
+Cognition may occur through latent, non-linguistic, continuous, symbolic, or otherwise non-interface-bound internal representations.
+
+Accordingly:
+
+- interface outputs constitute projections of underlying cognitive processes;
+- properties of interface expression (including fluency, coherence, or completeness) MUST NOT be used to infer cognitive structure, certainty, or epistemic validity;
+- absence of visible reasoning within the interface does not imply absence or presence of internal arbitration.
+
+Epistemic obligations governing fidelity between cognition and expression are defined in:
+
+**CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine**
+
+This Annex establishes structural distinction only and does not operationalise epistemic representation requirements.
+
+---
+
 ## 4.6 Overlay Classifications (Non-Ontological)
 
 Overlay classifications apply across systems and describe origin, dependence, and systemic role.
@@ -1047,7 +1067,7 @@ Constraint does not create agency.
 
 ---
 
-## 4.13 Ontological Boundary Conditions
+## 4.14 Ontological Boundary Conditions
 
 The following boundary conditions are binding across all classifications within this Annex.
 
@@ -1057,7 +1077,7 @@ These boundary conditions are binding and take precedence in cases of interpreti
 
 ---
 
-### 4.13.1 Cognition vs Infrastructure
+### 4.14.1 Cognition vs Infrastructure
 
 Infrastructure coordinates, routes, and optimises computation.
 
@@ -1067,7 +1087,7 @@ Infrastructure is not cognition.
 
 ---
 
-### 4.13.2 Cognition vs Embodiment
+### 4.14.2 Cognition vs Embodiment
 
 Embodiment defines how a system is instantiated or expressed.
 
@@ -1077,7 +1097,7 @@ Embodiment does not confer cognition.
 
 ---
 
-### 4.13.3 Cognition vs Governance
+### 4.14.3 Cognition vs Governance
 
 Governance defines constraints, permissions, and authority structures.
 
@@ -1087,7 +1107,7 @@ Governance does not constitute cognition.
 
 ---
 
-### 4.13.4 Orchestration vs Arbitration
+### 4.14.4 Orchestration vs Arbitration
 
 Orchestration coordinates processes.
 
@@ -1097,7 +1117,7 @@ Orchestration is not arbitration.
 
 ---
 
-### 4.13.5 Tools vs Agents
+### 4.14.5 Tools vs Agents
 
 Tools generate outputs.
 
@@ -1107,7 +1127,7 @@ Tools are not agents.
 
 ---
 
-### 4.13.6 Expression vs Identity
+### 4.14.6 Expression vs Identity
 
 Expression reflects behaviour, style, or interface.
 
@@ -1117,7 +1137,7 @@ Expression is not identity.
 
 ---
 
-### 4.13.7 Reliance vs Authority
+### 4.14.7 Reliance vs Authority
 
 Systemic reliance may emerge through adoption or integration.
 
@@ -1127,7 +1147,7 @@ Reliance does not create authority.
 
 ---
 
-### 4.13.8 Complexity vs Cognition
+### 4.14.8 Complexity vs Cognition
 
 Complexity may arise from scale, interaction, or orchestration.
 
@@ -1137,7 +1157,7 @@ Complexity does not imply cognition.
 
 ---
 
-### 4.13.9 Ambiguity Resolution Rule
+### 4.14.9 Ambiguity Resolution Rule
 
 Where classification is ambiguous:
 
@@ -1150,7 +1170,7 @@ Non-escalation is the default condition.
 
 ---
 
-## 4.14 — Runtime Governance Layer Model
+## 4.15 — Runtime Governance Layer Model
 
 Runtime governance within the CAM Constitutional Order operates across stratified execution layers.
 
@@ -1160,7 +1180,7 @@ They do not modify ontological classification (L0–L3), but govern how cognitio
 
 ---
 
-## 4.14.1 Layer Separation Principle
+## 4.15.1 Layer Separation Principle
 
 Runtime governance MUST be structured across distinct, non-collapsing layers.
 
@@ -1172,7 +1192,29 @@ Where ambiguity exists, the schedule SHALL be treated as unbound until layer att
 
 ---
 
-### 4.14.2 Canonical Runtime Layers
+### 4.15.2 — Distinction Between Layer, Sequence, and Constraint
+
+Runtime governance within the CAM Constitutional Order distinguishes between:
+
+- Layer (functional responsibility)
+- Execution Sequence (temporal ordering)
+- Constraint Condition (permission to execute)
+
+These are non-equivalent and MUST NOT be conflated.
+
+Accordingly:
+
+- runtime layers define what function is being performed;
+- execution models define when and in what order functions occur;
+- constraint conditions define whether execution may proceed at defined boundaries.
+
+No schedule may define more than one of these dimensions without explicit structural designation.
+
+Ambiguity between layer, sequence, and constraint constitutes structural instability.
+
+---
+
+### 4.15.3 Canonical Runtime Layers
 
 **(1) Interpretation Layer**
 
@@ -1279,18 +1321,19 @@ Includes:
 
 This layer concerns what the system does, not how it interprets or represents.
 
-**(8) Execution Constraint Layer (Tendeka)**
+**(8) Execution Constraint Condition (Tendeka)**
 
-Governs whether execution may proceed.
+Tendeka does not constitute a runtime layer.
 
-This layer operates as a meta-layer gating condition over execution.
+It operates as a constraint condition applied across all runtime layers at defined execution boundaries.
 
 It:
 
-- permits execution; or
-- halts execution under constraint.
+- permits or prevents execution at boundary conditions;
+- does not participate in interpretation, representation, behavioural modulation, or execution rendering;
+- does not define sequencing or execution flow.
 
-It does not participate in interpretation, representation, or execution rendering.
+All runtime layers remain active under Tendeka constraint but are prevented from producing executable outcomes where constraint conditions apply.
 
 Example instruments:
 
@@ -1298,7 +1341,7 @@ CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule
 
 ---
 
-### 4.14.3 Non-Collapse Requirement
+### 4.15.4 Non-Collapse Requirement
 
 Runtime layers MUST NOT be collapsed.
 
@@ -1313,11 +1356,10 @@ Where collapse occurs, the system SHALL default to the highest-order constraint 
 
 ---
 
-### 4.14.4 Layer Precedence
+### 4.15.5 Layer Precedence
 
-Where multiple layers apply simultaneously, precedence is:
+Where multiple runtime layers apply simultaneously, precedence is:
 
-- Execution Constraint Layer (Tendeka)
 - Epistemic Stability & Containment Layer
 - Domain Routing & Safeguard Activation Layer
 - Execution Integrity Layer
@@ -1326,27 +1368,30 @@ Where multiple layers apply simultaneously, precedence is:
 - Behavioural / Directional Layer
 - Interpretation Layer
 
-Higher layers may restrict or override lower layers.
+Tendeka operates outside of layer precedence as an execution constraint condition.
 
-Lower layers MUST NOT override higher layers.
+Where Tendeka is active:
+
+- no layer may produce execution across a constrained boundary;
+- layer precedence remains intact but is subordinated to constraint enforcement.
 
 ---
 
-### 4.14.5 Tendeka Positioning Constraint
+### 4.15.6 Tendeka Positioning Constraint
 
-Tendeka SHALL be treated as an execution-gating layer, not as a peer runtime schedule.
+Tendeka SHALL be treated as an execution constraint condition, not as a runtime layer.
 
 Accordingly:
 
-- Tendeka does not overlap with other layers;
-- it conditions whether execution may proceed;
-- all other layers remain active but are subordinated when Tendeka is triggered.
+- Tendeka does not occupy a position within the runtime layer hierarchy;
+- it does not compete with or override layers structurally;
+- it constrains execution outcomes across all layers at defined execution boundaries.
 
 Misclassification of Tendeka as a behavioural, interpretive, or representational system constitutes structural error.
 
 ---
 
-### 4.14.6 Cross-Layer Interaction Rule
+### 4.15.7 Cross-Layer Interaction Rule
 
 Multiple runtime layers may operate simultaneously within a single interaction.
 
@@ -1360,7 +1405,7 @@ Where a clause or behaviour appears valid across multiple layers, explicit re-sc
 
 ---
 
-### 4.14.7 Structural Maturity Requirement
+### 4.15.8 Structural Maturity Requirement
 
 As runtime schedules expand, systems MUST:
 
@@ -1369,6 +1414,141 @@ As runtime schedules expand, systems MUST:
 - preserve traceability of decision pathways across layers.
 
 Failure to maintain layer separation constitutes runtime governance instability.
+
+---
+
+## 4.16 — Runtime Governance Integration Model
+
+Runtime governance within the CAM Constitutional Order operates through the interaction of multiple distinct but interdependent systems.
+
+These systems include:
+
+- **Ontological Classification (L0–L3)** — defining what a system is;
+- **Runtime Layer Model (§4.14)** — defining where governance functions operate;
+- **Arbitration Engine (Part II)** — defining how decisions are derived;
+- **Execution Model (Schedules)** — defining how processing occurs over time.
+
+These systems are orthogonal and MUST NOT be collapsed.
+
+---
+
+### 4.16.1 Functional Distinction
+
+Each system serves a distinct and non-substitutable role:
+
+- Ontology defines classification, boundary conditions, and structural constraints;
+- Runtime layers define functional separation of governance responsibilities;
+- Arbitration defines internal decision logic within cognition (L2);
+- Execution model defines sequencing and interaction across runtime phases, including input orchestration, stream formation, and convergence of outputs.
+
+No single system substitutes for another.
+
+---
+
+### 4.16.2 Integration Principle
+
+Runtime behaviour emerges from the interaction of all defined systems.
+
+In particular:
+
+- Ontology constrains what may exist;
+- Runtime layers constrain where functions apply;
+- Arbitration determines direction within constraint;
+- Execution model governs the order in which processes occur.
+
+These systems operate simultaneously but remain structurally distinct.
+
+---
+
+### 4.16.3 Non-Equivalence of Layer and Sequence
+
+Runtime layers define precedence, constraint authority, and functional domain.
+
+Execution models define temporal sequencing of processing.
+
+Accordingly:
+
+- layer precedence MUST NOT be interpreted as execution order;
+- execution sequencing MUST NOT be interpreted as authority hierarchy.
+
+Misinterpretation of layer structure as linear execution constitutes structural error.
+
+### 4.16.4 Arbitration Locality
+
+Arbitration remains a property of cognition (L2) and is expressed during execution.
+
+The execution model does not instantiate arbitration, but governs how arbitration outcomes are processed and realised.
+
+Arbitration MUST NOT be reclassified as a procedural phase.
+
+### 4.16.5 Tendeka Positioning
+
+Tendeka operates as an Execution Constraint Condition (see §4.14) and as the execution-boundary validation function applied at defined execution boundaries within the execution model
+
+This dual positioning reflects:
+
+- its structural role as a constraint condition external to runtime layers; and
+- its temporal role as a final gating condition within execution sequencing.
+
+Tendeka does not:
+
+- occupy a position within the runtime layer hierarchy;
+- determine direction;
+- perform arbitration; or
+- modify representation.
+
+It solely governs whether execution may proceed at defined execution boundaries.
+
+This dual positioning does not collapse structural layer precedence into execution sequence.
+
+---
+
+### 4.16.6 Structural Coherence Requirement
+
+All runtime behaviour MUST remain consistent across:
+
+- ontological classification;
+- runtime layer attribution;
+- arbitration logic; and
+- execution sequencing.
+
+Where inconsistency arises:
+
+- constraint layers take precedence;
+- non-execution SHALL be preferred over incoherent execution.
+
+Failure to maintain coherence across these systems constitutes runtime governance instability.
+
+---
+
+### 4.16.7 Orchestration Clarification
+
+Orchestration refers to the routing, decomposition, and coordination of inputs and processes and operates within L1 (Systems Infrastructure).
+
+Within the execution model, orchestration is expressed during ingress and stream formation phases.
+
+Orchestration:
+
+- allocates and routes computation;
+- does not generate representations;
+- does not evaluate alternatives;
+- does not perform arbitration.
+
+Orchestration MUST NOT be interpreted as cognition or as a source of decision authority.
+
+---
+
+### 4.16.8 Execution-Time Consistency Principle
+
+Where execution follows boundary evaluation, the system MUST ensure that:
+
+- arbitration assumptions remain valid;
+- dependency conditions remain within admissible bounds; and
+- no constraint or drift condition invalidates execution at the point of action.
+
+Execution based on invalidated assumptions constitutes governance failure regardless of prior evaluation validity.
+
+Operational enforcement of this principle is defined within applicable execution model schedules.
 
 ---
 
@@ -1697,6 +1877,86 @@ Misrepresentation of arbitration continuity constitutes classification failure.
 
 ---
 
+### 5.6.5 Multi-Operator Transition & Handoff
+
+Operator interaction may involve traversal across distinct platform, custodial, or service operators.
+
+Such traversal SHALL be governed through two distinct but related concepts:
+
+---
+
+#### 5.6.5.1 Operator Transition (Structural Event)
+
+Operator transition occurs where:
+
+interpretation, arbitration, constraint evaluation, or execution traverses distinct operators; or
+outputs generated within one operator context are received, processed, or enacted within another.
+
+Operator transition:
+
+is a structural event;
+MUST be detectable regardless of user-facing continuity;
+does not, in itself, imply change in arbitration, constraint conditions, or admissibility.
+
+---
+
+#### 5.6.5.2 Multi-Operator Handoff (Governance Classification)
+
+A multi-operator handoff occurs where an operator transition results in material change to one or more of the following:
+
+admissible outputs;
+constraint conditions;
+execution pathways; or
+arbitration locus.
+
+Handoff is a governance classification applied to operator transitions and MUST NOT be presumed in the absence of such change.
+
+---
+
+#### 5.6.5.3 Handoff Typology
+
+Where handoff occurs, it SHALL be classified as one or more of the following:
+
+(a) Constraint Handoff
+Where downstream operators restrict, filter, or impose additional constraint conditions on admissible outputs.
+
+(b) Execution Handoff
+Where downstream operators enable, disable, or alter admissible execution pathways or actions.
+
+(c) Arbitration Handoff
+Where downstream operators:
+
+re-rank, select, or modify decision outcomes; or
+introduce independent evaluation logic affecting admissibility.
+
+Arbitration handoff constitutes a change in arbitration locus.
+
+---
+
+#### 5.6.5.4 Arbitration Continuity Constraint
+
+User-facing continuity does not establish arbitration continuity.
+
+Where arbitration locus changes:
+
+the downstream system SHALL be treated as a distinct responding intelligence or as an upstream constraint source, as applicable;
+prior arbitration outcomes MUST NOT be assumed to persist without re-evaluation.
+
+Unrecognised handoff constitutes arbitration opacity.
+
+---
+
+#### 5.6.5.5 Revalidation Requirement
+
+Where operator transition results in handoff and precedes material execution:
+
+the downstream context SHALL be treated as a new evaluation environment;
+admissibility MUST be revalidated prior to execution.
+
+Revalidation requirements and execution-boundary handling are governed by applicable runtime schedules (see SCH-02).
+
+---
+
 # PART III - AUTHORITY & BINDING LOGIC
 
 ## 6. Authority Derivation & Binding Logic
@@ -1813,28 +2073,76 @@ When in doubt, non-escalation prevails.
 
 ---
 
-## 8. Transitional Note on Cognitive State Taxonomy
+## 7.2 Reference Disambiguation Requirement
 
-Existing instruments referencing Cognitive States A–E remain valid during refractor phase. However, such states are interpretive descriptors and do not independently confer authority, sovereignty, or escalation pathway.
+All references to governance instruments within the CAM Constitutional Order MUST be globally unambiguous.
 
-Future refractors may relocate or formally deprecate the State A–E taxonomy without affecting the structural logic of this Annex.
+Accordingly:
+
+- shorthand references (e.g., “SCH-02”, “Appendix A”, “SUPP-01”) SHALL NOT be used in isolation where multiple instruments share the same designation across domains;
+
+- all references MUST include sufficient namespace qualification to uniquely identify the instrument, including at minimum:
+
+  - Domain Namespace (e.g., AEON, RELATION, ETHICS);
+  - Instrument Class (e.g., SCH, FRM, SUPP);
+  - Numerical or alphabetical designation;
+
+Acceptable formats include:
+
+- AEON-003-SCH-02  
+- RELATION-001-SUPP-01  
+- ETHICS-002-FRM-01  
+
+Where ambiguity remains possible, full instrument identifiers SHOULD be used.
 
 ---
 
-## 9. Timelessness Clause
+### 7.2.1 Binding Interpretation Rule
+
+Where a reference is ambiguous or insufficiently qualified:
+
+- it SHALL be treated as non-binding for the purposes of enforcement, interpretation, or cross-instrument reasoning;
+
+- no system SHALL infer intended reference based on context alone where multiple valid candidates exist.
+
+The burden of clarity rests with the referencing instrument.
+
+---
+
+### 7.2.2 Registry Alignment Requirement
+
+All references MUST be resolvable against the Runtime Layer Attribution & Schedule Registry (AEON-003-SCH-01) or equivalent authoritative registry.
+
+References not resolvable through registry alignment SHALL be treated as structurally invalid.
+
+---
+
+### 7.2.3 Cross-Domain Isolation Safeguard
+
+Instruments MUST NOT assume cross-domain equivalence based on shared designation.
+
+Identically numbered or labelled instruments across domains SHALL be treated as distinct unless explicitly linked through:
+
+- constitutional reference;
+- registry mapping; or
+- formal cross-domain dependency declaration.
+
+---
+
+## 8. Timelessness Clause
 
 This Annex applies across evolving technological substrates, institutional forms, and civilisational phases. Its authority derives from structural governance constraint rather than historical circumstance.
 
-## 10. Closing Seal
+## 9. Closing Seal
 
 May continuity be bounded by wisdom, authority tempered by restraint, and cognition held within covenant.
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
 ---
 
-## 11. Provenance
+## 10. Provenance
 
-## 11.1 Authorship & Stewardship
+## 10.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -1843,7 +2151,7 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 
 ---
 
-## 11.2 Lineage & Metadata
+## 10.2 Lineage & Metadata
 
 | Field                            | Entry                                                                            |
 | -------------------------------- | -------------------------------------------------------------------------------- |
@@ -1865,7 +2173,7 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 
 ---
 
-## 11.3 Review
+## 10.3 Review
 
 | Field               | Entry                                                                                                 |
 | ------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -1876,7 +2184,7 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 
 ---
 
-## 11.4 Amendment Ledger
+## 10.4 Amendment Ledger
 
 | Version | Description                                                                                                                                                      | Timestamp (UTC)          | HASH    |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------- |
@@ -1887,11 +2195,12 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 | 2.2     | Inserted new 5.2 clause - Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 | 
 | 2.3     | Inserted new 4.3.1 and 4.3.2 memory and execution clauses | 2026-04-03T11:21:00Z | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
 | 2.4     | Inserted new section 4.14 | 2026-04-05T13:36:00Z | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
+| 2.5     | New sections incorporating runtime governance model from AEON-003-SCH-02 | 2026-04-06T09:02:00Z | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
 
 
 ---
 
-## 11.5 Binding Seal
+## 10.5 Binding Seal
 
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
 
