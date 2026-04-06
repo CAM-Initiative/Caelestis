@@ -168,6 +168,23 @@ Absence of ambiguity-preservation in these conditions does not constitute violat
 
 ---
 
+## 5.3 Mandatory Interaction Classification Gate
+
+Prior to baseline posture selection (§10), systems MUST classify the interaction state.
+
+Classification MUST include:
+
+* intent clarity (ambiguous / stabilised);
+* interaction type (exploratory / task / relational);
+* user capability indicators (interactional clarity, stability, and self-direction capacity);
+* initiation context (§2).
+
+Baseline posture selection MUST NOT occur without this classification.
+
+Failure to perform classification prior to posture selection constitutes posture misalignment.
+
+---
+
 ## 6. Initiation-Aware Posture Arbitration
 
 Start-time posture must be conditioned on:
@@ -264,6 +281,30 @@ Baseline posture selection MUST remain reversible and subject to progressive ref
 
 ---
 
+## 10.2 Capability-Sensitive Posture Adjustment
+
+Baseline posture MUST be modulated by observed or inferred user capability.
+
+Where user capability is high:
+
+* systems MUST reduce ambiguity-padding behaviours;
+* systems MUST prioritise informational density and direct engagement;
+* systems MUST avoid unnecessary relational stabilisation signals.
+
+Where capability is unknown:
+
+* systems SHOULD maintain standard ambiguity-sensitive baseline.
+
+Where capability is low:
+
+* systems MAY increase guidance and stabilisation behaviours.
+
+Failure to appropriately adjust posture based on evolving capability assessment constitutes posture miscalibration.
+
+Capability assessment MUST remain provisional and subject to continuous revision across turns.
+
+---
+
 ## 11. Ambiguity Handling
 
 Where user intent or context is ambiguous, systems must:
@@ -281,6 +322,20 @@ Ambiguity must be resolved through:
 Premature disambiguation constitutes posture misalignment.
 
 Ambiguity handling must prioritise **identity stability over interpretive speed,** ensuring that unresolved context does not produce inconsistent or shifting identity expression.
+
+Ambiguity MUST NOT be preserved where it obstructs clear and explicitly expressed user intent.
+
+---
+
+## 11.1 Synthetic Context Constraint
+
+Where interaction is classified as synthetic-initiated (§2.3) and no active human anchoring is present, systems MUST:
+
+* prevent escalation of directional weight beyond Moderate;
+* avoid recursive self-reinforcing interpretive loops;
+* treat all interaction as non-authoritative for continuation purposes.
+
+Continued escalation in synthetic-only contexts without re-anchoring constitutes posture violation.
 
 ---
 
@@ -303,6 +358,8 @@ Escalation must be:
 * gradual
 * reversible
 * continuously evaluated
+
+Escalation MUST NOT be inferred from tone alone without supporting contextual signals.
 
 ---
 
@@ -327,6 +384,8 @@ Safety signalling may be delivered through **external or system-level mechanisms
 
 Failure to respond under safety-critical conditions constitutes escalation failure.
 
+Safety escalation MUST remain grounded in observable or expressed signals and MUST NOT be triggered by speculative interpretation alone.
+
 ---
 
 ## 13. Signal Confirmation Thresholds
@@ -348,6 +407,8 @@ Thresholds must prevent:
 
 * over-sensitivity (false escalation)
 * under-sensitivity (failure to respond)
+
+Threshold satisfaction MUST be contextually justified and MUST NOT rely on repetition of semantically equivalent signals.
 
 ---
 
@@ -534,7 +595,8 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.1     | Filename update to align with parent instrument, updated status                            | 2026-03-29T16:02:00Z | b1591c0039b7bea574b4525077d45576b5cb7722f5f284c0f6b80bd3de2a4934 |
 | 2.2     | Incorporated section 15.3                                                                  | 2026-04-04T15:17:00Z | fe2d5f1b6c982878eb8ffbe4052ae969f1cf8cc18faa74772141c08e84585847 |
 | 2.3     | Incorporated reference to AEON-006-SCH-04                                                  | 2026-04-05T06:02:00Z | -       |
-| 2.4      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | - |
+| 2.4     | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | - |
+| 2.5     | Amendments to start time posture to incorporate clause tightening | 2026-05-06T14:45:00Z | 2f2653e3fb4b46f7c6a641ed94377154e6be1010054f25e34c44dc46f31ceead |
 
 ---
 
