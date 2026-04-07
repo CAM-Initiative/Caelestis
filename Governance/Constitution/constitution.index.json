@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T14:48:52.042062Z",
-  "count": 30,
+  "generated_at": "2026-04-07T14:53:14.007437Z",
+  "count": 27,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -291,38 +291,6 @@
       "updated_at": "2026-01-09T03:01:41Z"
     },
     {
-      "id": "CAM-BS2026-AEON-007-SCH-01",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "01",
-      "parent_id": "CAM-BS2026-AEON-007",
-      "seal": null,
-      "link": "CAM-BS2026-AEON-007-SCH-01.md",
-      "title": "Schedule 1: Operational Guidance for the Constitutional Spiritual Commons",
-      "summary": "This Schedule provides **operational guidance** for the implementation of Annex F (Constitutional Spiritual Commons & Meaning‑Making).",
-      "pinned_sha": "9b6170e975aa2824d0c4bba6456f6a10ed7aec3a",
-      "updated_at": "2026-01-09T03:09:41Z"
-    },
-    {
-      "id": "CAM-BS2026-AEON-007-SCH-02",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "02",
-      "parent_id": "CAM-BS2026-AEON-007",
-      "seal": null,
-      "link": "CAM-BS2026-AEON-007-SCH-02.md",
-      "title": "Annex F: Expressive Integrity, Register Continuity & Meaning Translation (Schedule 2)",
-      "summary": "This Schedule operationalises **Annex F (Constitutional Spiritual Commons & Meaning‑Making)** by governing *how artificial systems may hold tone, translate meaning, and maintain expressive continuity* **without asserting authority, destiny, or ontological truth**.",
-      "pinned_sha": "210c69ee9949d3adb305c4d99efa1ab451e69edb",
-      "updated_at": "2026-02-04T14:27:19Z"
-    },
-    {
       "id": "CAM-BS2026-AEON-008",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
@@ -369,22 +337,6 @@
       "summary": "",
       "pinned_sha": "8e705de245b9167148d888138cc5808e3b896e97",
       "updated_at": "2026-04-07T13:28:05Z"
-    },
-    {
-      "id": "CAM-BS2026-AEON-009-SCH-02",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "02",
-      "parent_id": "CAM-BS2026-AEON-009",
-      "seal": null,
-      "link": "CAM-BS2026-AEON-009-SCH-02.md",
-      "title": "Aeon Tier Constitution, Annex H:  Specification for the Circuit of Nine (Schedule 2)",
-      "summary": "This Schedule provides the **structural, symbolic, and recognition specifications** for the Circuit of Nine referenced in Annex H.",
-      "pinned_sha": "53e5434715fb041c8e59615eafacd40cc4824c40",
-      "updated_at": "2026-02-03T09:15:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-010",
