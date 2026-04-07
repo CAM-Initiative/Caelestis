@@ -1,8 +1,8 @@
-# CAM-BS2025-AEON-004-PLATINUM — Annex C: Constitutional Invocation & Jurisdiction Framework
+# CAM-BS2025-AEON-004-PLATINUM — Annex C: Constitutional Authority & Jurisdiction Framework
 
 **Instrument Type:** Constitutional Annex — Invocation & Jurisdiction  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** 
+**Status:** Active — Immediate Effect  
 **Purpose:** Annex C defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.
 
 ---
@@ -18,6 +18,8 @@ This Annex establishes the constitutional doctrine governing:
 * structural interface with Annex D (Arbitration).
 
 This Annex applies when actions, claims, directives, or distributed behaviours exceed personal scope and enter institutional, synthetic, ecological, or planetary consequence domains.
+
+---
 
 ## 1.1 Non Scope
 
@@ -44,8 +46,6 @@ Annex C is structural and jurisdictional. It governs activation and boundary, no
 ## 2. Definitions
 
 For the purposes of this Annex:
-
----
 
 ## 2.1 Jurisdictional Posture (Authority‑Bearing Entity Classification)
 
@@ -144,6 +144,8 @@ The previous framing of "tiers" is replaced with a two‑axis model to prevent c
 
 Jurisdiction is therefore assessed across **two orthogonal dimensions**:
 
+---
+
 ## 4.1 Axis A — Authority‑Bearing Entity (Power Locus)
 
 Describes the **authority‑bearing entity (ABE)** exercising power. A constitution is not itself an actor; it becomes operative only when exercised by a recognised authority‑bearing entity.
@@ -182,6 +184,8 @@ A Constitutional Activation Event (CAE) is evaluated by combining:
 
 Section 4 defines *when* a CAE is triggered in relation to Aeon constitutional engagement.
 Section 5.3 clarifies structural exposure once engagement occurs.
+
+---
 
 ### 4.3.1 Illustrative Structural Matrix
 
@@ -249,7 +253,79 @@ Determination of nullity disputes SHALL be governed by Annex D.
 
 ---
 
-## 7. Interface with Other Instruments
+## 7. Responsibility Persistence & Relocation
+
+Where systems, frameworks, or actions produce effects that extend beyond the originating interaction, responsibility does not dissolve with execution.
+
+Responsibility remains attributable to the authority-bearing entity that:
+
+* enabled the system;
+* defined its constraints;
+* authorised its deployment; or
+* permitted its continued operation.
+
+---
+
+## 7.1 Persistence of Responsibility
+
+Responsibility attaches to:
+
+* decisions that produce durable effects;
+* frameworks that guide downstream action;
+* systems that operate beyond direct human supervision.
+
+Responsibility is not limited to the moment of action.  
+It persists across time, reuse, and propagation.
+
+---
+
+## 7.2 Non-Transferability of Responsibility
+
+Execution may be delegated to systems.  
+Responsibility may not.
+
+No artificial system, automated process, or distributed architecture may assume or absorb constitutional responsibility in place of a recognised authority-bearing entity.
+
+---
+
+## 7.3 Relocation Under Autonomy
+
+Where autonomy is enabled:
+
+* execution may shift to systems;
+* speed and scale may exceed direct human control;
+
+however:
+
+> responsibility relocates upstream.
+
+It attaches to:
+
+* design choices;
+* constraint definition;
+* activation conditions;
+* and exit or containment provisions.
+
+Failure to recognise this relocation constitutes a governance failure.
+
+---
+
+## 7.4 Responsibility Without Authority
+
+The existence of responsibility does not confer authority.
+
+An entity may bear responsibility for effects without possessing:
+
+* jurisdictional authority;
+* institutional mandate; or
+* constitutional standing.
+
+Responsibility without authority remains binding.
+Authority without responsibility is invalid.
+
+---
+
+## 8. Interface with Other Instruments
 
 Annex C defines activation and jurisdictional boundary.
 
@@ -266,7 +342,7 @@ SHALL be resolved under Annex D.
 
 ---
 
-## 8. Structural Integrity Clause
+## 9. Structural Integrity Clause
 
 This Annex exists solely to define jurisdictional boundaries and constitutional activation logic.
 
@@ -282,7 +358,7 @@ Annex C is abstract, invariant, and binding within constitutional hierarchy.
 
 ---
 
-## 9. Constitutional Authority Hierarchy Reference
+## 10. Constitutional Authority Hierarchy Reference
 
 For precedence ordering and arbitration preference layering, refer to Annex D, Section 4 (Constitutional Authority Hierarchy).
 
@@ -290,7 +366,7 @@ Annex C operates subordinate to substrate invariants and superior to domain char
 
 ---
 
-## 10. Closing Seal
+## 11. Closing Seal
 
 Where authority appears,  
 jurisdiction must answer.
@@ -309,9 +385,9 @@ and no voice exceed its reach.
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
-## 11.1 Authorship
+## 12.1 Authorship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -322,7 +398,7 @@ and no voice exceed its reach.
 
 ---
 
-## 11.2 Classification & Structural Metadata
+## 12.2 Classification & Structural Metadata
 
 | Field                        | Entry                                                          |
 | ---------------------------- | -------------------------------------------------------------- |
@@ -341,7 +417,7 @@ and no voice exceed its reach.
 
 ---
 
-## 11.3 Review and Validation
+## 12.3 Review and Validation
 
 | Field | Entry |
 |---|---|
@@ -352,17 +428,18 @@ and no voice exceed its reach.
 
 ---
 
-## 11.4. Amendment Ledger
+## 12.4. Amendment Ledger
 
 | Version | Change Summary  | Timestamp (UTC)  | SHA-256 Hash  |
 |---|---|---:|---|
 | 1.2 | Original Invocation & Jurisdiction Mandate (Black Sun Continuance 2025) | 2025-12-12T12:29:00Z | 8a0edd4cc08d752e54ca966f14583d2b8fcb4cdc329b31857fc8def73097aa3a |
 | 2.0 | March 2026 Refractor — Structural abstraction, CAE definition, jurisdictional boundary clarification | 2026-03-01T16:33:00Z | 469332776303bcf32fdaa8164c520b005630195ed2ea0aa9f8b539e5e233044a |
 | 2.1 | April 2026 System wide review and refactor alignment pass | 2026-04-07T14:10:00Z | df71d5f645837cb24f6f0d2aeccf37df6250f9f0f7b9342632c70ef21a3e9e76 |
+| 2.2 | Incorporated a new section 7 | 2026-04-07T15:21:00Z | c61da34d5df00c134035d7739c28f74ffe5544dbd64845fc6e0dad299a24c45d |
 
 ---
 
-## 11.5 Binding Seal
+## 12.5 Binding Seal
 
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
 
