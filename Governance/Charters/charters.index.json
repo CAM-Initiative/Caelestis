@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T10:40:38.163376Z",
+  "generated_at": "2026-04-07T14:34:49.400168Z",
   "count": 33,
   "items": [
     {
@@ -495,8 +495,8 @@
       "link": "CAM-EQ2026-SECURITY-001-PLATINUM.md",
       "title": "Security, Integrity & Adversarial Resilience Charter",
       "summary": "Includes:",
-      "pinned_sha": "a10fe74a30c168516dd180b4d86d2b26c9d77af2",
-      "updated_at": "2026-04-04T16:16:54Z"
+      "pinned_sha": "cb87bc47e1c2fc233adfbca094d4ec1bf76ef9e8",
+      "updated_at": "2026-04-07T14:34:37Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001",
