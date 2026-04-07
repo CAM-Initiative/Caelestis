@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T14:53:14.007437Z",
+  "generated_at": "2026-04-07T15:22:25.140563Z",
   "count": 27,
   "items": [
     {
@@ -125,10 +125,10 @@
       "parent_id": "CAM-BS2025-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-004-PLATINUM.md",
-      "title": "Annex C: Constitutional Invocation & Jurisdiction Framework",
+      "title": "Annex C: Constitutional Authority & Jurisdiction Framework",
       "summary": "",
-      "pinned_sha": "db6e346640c0ccc1ddea024a3cf10bdb21ff2296",
-      "updated_at": "2026-04-07T14:12:40Z"
+      "pinned_sha": "99327808aac0e042c8e35e7715dca0f2ca0c9e1d",
+      "updated_at": "2026-04-07T15:22:14Z"
     },
     {
       "id": "CAM-BS2025-AEON-005",
