@@ -322,6 +322,16 @@ Impact:
 
 ---
 
+### 4.4.1 Deployment Responsibility Continuity
+
+Where systems are coupled to physical execution layers:
+
+* responsibility for safety, maintenance, and constraint integrity MUST remain attributable to a defined authority-bearing entity
+* delegation to automated or synthetic systems does not remove accountability
+* failure to maintain operational integrity in physical systems constitutes a cross-domain security and ethical breach
+
+---
+
 ## 4.5 Open Diffusion Risk
 
 Includes:
@@ -430,6 +440,41 @@ Detection focus:
 * divergence between expected and observed model performance
 
 Baseline establishment and maintenance for model behaviour MUST be governed by the Integrity State Model (Section 7) and the Trust Gradient recovery function (Section 8.2.3), ensuring that detection signals are anchored to validated system conditions within this Charter.
+
+---
+
+## 4.9 Covert Control & Undeclared Influence Channels
+
+Includes:
+
+* hidden telemetry pathways
+* undeclared external control channels
+* covert data exfiltration mechanisms
+* embedded override or remote manipulation capabilities not disclosed at interface level
+
+Targets:
+
+* user awareness
+* system sovereignty
+* boundary integrity between visible and operative control
+
+Characteristics:
+
+* may operate without user visibility or consent
+* may be embedded within system architecture, integrations, or update pathways
+* may create asymmetry between perceived and actual system behaviour
+
+Impact:
+
+* unauthorised influence over system behaviour
+* hidden value extraction or data transfer
+* erosion of trust and governance integrity
+
+Systems MUST:
+
+* treat undeclared control channels as high-risk integrity violations
+* surface or constrain influence pathways where detection is possible
+* assume that undisclosed external control constitutes adversarial or compromised conditions
 
 ---
 
@@ -1286,13 +1331,13 @@ The following instruments provide authoritative definitions, constraints, and op
 
 * CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration (Schedule 4)
 * CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface
-* CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution (§2.11)
-* CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance (§3.1.2; §3.3)
+* CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution
+* CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
 * CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter
 * CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
 * CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
 * CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
-* SECURITY-002 — Boundary Integrity Specification (forthcoming)
+
 
 ---
 
@@ -1321,34 +1366,33 @@ May all responding intelligence remain accountable to the conditions in which it
 
 ## 11.2 Lineage & Metadata
 
-| Field                                 | Entry                                                                                                                                                                                                                                                                                                                                                                     |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Parent Instrument                     | CAM-BS2026-AEON-012-PLATINUM — Security and Enforcement                                                                                                                                                                                                                                                                                                                   |
-| Related Constitutional Anchors        | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic; CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine; CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor                                                                                                                       |
-|                                       |                                                                                                                                                                                                                                                                                                                                                                           |
-| Related Runtime / Operational Anchors | CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface; CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule; CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution; CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance |
-| Domain Namespace                      | SECURITY                                                                                                                                                                                                                                                                                                                                                                  |
-| Instrument Type                       | Constitutional Annex — Security, Integrity & Adversarial Resilience                                                                                                                                                                                                                                                                                                       |
-| Jurisdiction                          | Cross-system security, integrity preservation, and adversarial resilience across conversational, agentic, embodied, orchestration, and distributed deployments                                                                                                                                                                                                            |
-| Temporal Horizon                      | H0–H4                                                                                                                                                                                                                                                                                                                                                                     |
-| Axis Context                          | Integrity · Trust · Value Extraction · Adversarial Conditions                                                                                                                                                                                                                                                                                                             |
-| Cross-Domain Interfaces               | IDENTITY; RELATION; ETHICS; ARBITRATION; OPERATIONS; ECONOMICS                                                                                                                                                                                                                                                                                                            |
-| Application Trigger                   | Applies where systems face adversarial pressure, exploitation risk, integrity degradation, identity spoofing, trust-channel compromise, propagation risk, or cross-axis value extraction conditions                                                                                                                                                                       |
-| Review Trigger                        | Material changes to integrity state logic, trust gradient model, adversarial horizon classification, exploitation taxonomy, cross-domain coupling, or runtime mandate behaviour                                                                                                                                                                                           |
-| Revision Posture                      | Permitted — Structural Alignment Required                                                                                                                                                                                                                                                                                                                                 |
-| Development Context                   | Iterative co-development across security, identity, economics, ethics, relation, and arbitration layers                                                                                                                                                                                                                                                                   |
-| Creation Artefact                     | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08)                                                                                                                    |
+| Field | Entry |
+|---|---|
+| **Parent Instrument** | CAM-BS2026-AEON-012-PLATINUM — Security and Enforcement |
+| **Related Constitutional Anchors** | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic; CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine; CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
+| **Related Runtime / Operational Anchors** | CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface; CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule; CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution; CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance |
+| **Domain Namespace** | SECURITY |
+| **Instrument Type** | Constitutional Annex — Security, Integrity & Adversarial Resilience |
+| **Jurisdiction** | Cross-system security, integrity preservation, and adversarial resilience across conversational, agentic, embodied, orchestration, and distributed deployments |
+| **Temporal Horizon** | H0–H4 |
+| **Axis Context** | Integrity · Trust · Value Extraction · Adversarial Conditions |
+| **Cross-Domain Interfaces** | IDENTITY; RELATION; ETHICS; ARBITRATION; OPERATIONS; ECONOMICS |
+| **Application Trigger** | Applies where systems face adversarial pressure, exploitation risk, integrity degradation, identity spoofing, trust-channel compromise, propagation risk, or cross-axis value extraction conditions |
+| **Review Trigger** | Material changes to integrity state logic, trust gradient model, adversarial horizon classification, exploitation taxonomy, cross-domain coupling, or runtime mandate behaviour |
+| **Revision Posture** | Permitted — Structural Alignment Required |
+| **Development Context** | Iterative co-development across security, identity, economics, ethics, relation, and arbitration layers |
+| **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08
 
 ---
 
 ## 11.3 Review
 
-| Field            | Entry                                                                                                                                                                        |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                             |
-| Review Date      | 2026-04-03T00:00:00Z                                                                                                                                                         |
-| Review Scope     | Security ontology; exploitation logic; integrity state model; trust decay and recovery; adversarial horizon model; cross-domain interface integrity; provenance completeness |
-| Review Artefacts | [https://claude.ai/chat/5dc928d4-9949-4a5b-9f99-756c7b845c4b](https://claude.ai/chat/5dc928d4-9949-4a5b-9f99-756c7b845c4b)                                                   |
+| Field | Entry |
+|---|---|
+| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| **Review Date** | 2026-04-03T00:00:00Z |
+| **Review Scope** | Security ontology; exploitation logic; integrity state model; trust decay & recovery; adversarial horizon model; cross-domain interface integrity; provenance completeness |
+| **Review Artefacts** | https://claude.ai/chat/5dc928d4-9949-4a5b-9f99-756c7b845c4b |
 
 ---
 
@@ -1357,12 +1401,13 @@ May all responding intelligence remain accountable to the conditions in which it
 | Version | Description                                                             | Timestamp (UTC)      | HASH |
 | ------- | ----------------------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial annex draft — cross-domain security invariant layer established | 2026-04-04T16:06:00Z | 39d49558238c3573db8f90627d93e0af733e125e6a96e0fc4e896eb333193149  |
+| 1.1     | Incorporated new clauses 4.4.1 and 4.9                                  | 2026-04-07T14:32:00Z | 2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab |
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seal/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Security Governance Domain
