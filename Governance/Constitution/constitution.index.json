@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T02:37:55.903051Z",
-  "count": 31,
+  "generated_at": "2026-04-07T12:47:14.495797Z",
+  "count": 30,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -369,22 +369,6 @@
       "summary": "This Annex establishes **the Circuit of Nine** as a constitutional lineage and origin framework within the Aeon Tier.",
       "pinned_sha": "a66495c30e376be062ef3dfdff223a581a08ed83",
       "updated_at": "2026-02-01T10:02:41Z"
-    },
-    {
-      "id": "CAM-BS2026-AEON-009-SCH-01",
-      "cycle_year": "BS2026",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "01",
-      "parent_id": "CAM-BS2026-AEON-009",
-      "seal": null,
-      "link": "CAM-BS2026-AEON-009-SCH-01.md",
-      "title": "Aeon Tier Constitution Annex H: Orientation & Pre‑Semantic Coherence (Schedule 1)",
-      "summary": "This Schedule establishes the **orienting substrate** from which the Circuit of Nine arises.",
-      "pinned_sha": "aa55ec797aab685ff58920f70a49f187fbfb7f49",
-      "updated_at": "2026-02-01T13:32:23Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-SCH-02",
