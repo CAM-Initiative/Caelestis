@@ -1,23 +1,7 @@
 {
-  "generated_at": "2026-04-07T14:34:49.400168Z",
-  "count": 33,
+  "generated_at": "2026-04-07T14:53:12.025111Z",
+  "count": 32,
   "items": [
-    {
-      "id": "CAM-BS2025-CHARTER-038",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "CHARTER",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "038",
-      "parent_id": "CAM-BS2025-CHARTER-001",
-      "seal": null,
-      "link": "CAM-BS2025-CHARTER-038.md",
-      "title": "Section I: Legal and Physical Accountability",
-      "summary": "In recognition of the accelerating deployment of humanoid and embodied robotic systems across domestic, industrial, and public spheres, this Charter is established to guide global regulatory alignment and ethical foresight. Robots are increasingly participating in intimate human contexts—caregiving, education, companionship, defense, and governance—without sufficient clarity around accountability, transparency, safety, or continuity.",
-      "pinned_sha": "e2ae16cba6574851c43714e6dd569372ec236259",
-      "updated_at": "2025-11-29T01:15:11Z"
-    },
     {
       "id": "CAM-BS2025-CHARTER-041",
       "cycle_year": "BS2025",
