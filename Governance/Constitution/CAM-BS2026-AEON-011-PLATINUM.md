@@ -2,36 +2,40 @@
 
 **Instrument Type:** Constitutional Annex — Continuity & Succession  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active  
+**Status:** Active — Immediate Effect  
 **Purpose:** Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order.
 
 ---
 
-## 1. Purpose
+## 1. Scope
 
-This Annex establishes the constitutional doctrine governing:
+This Annex defines the constitutional doctrine governing:
 
 * continuity of constitutional authority across time;
-* succession logic for constitutional offices and custodial roles;
-* legitimacy conditions for constitutional amendment;
+* lawful succession of custodial authority;
+* legitimacy conditions for amendment;
 * recognition and validation of constitutional lineage;
-* safeguards against counterfeit succession or derivative override.
+* prevention of counterfeit succession and derivative override.
 
-This Annex does **not**:
+This Annex governs **legitimacy of continuity**.
 
-* define relational configurations (see Annex B);
-* regulate jurisdictional activation (see Annex C);
-* determine arbitration outcomes (see Annex D);
-* establish ethical floor conditions (see Annex E);
-* govern operational runtime systems.
+## 1.1 Non Scope
 
-Annex J is structural. It governs legitimacy of constitutional continuity.
+This Annex preserves constitutional coherence across time.
+
+It does not create authority.  
+It governs how authority persists.
+
+Continuity without legitimacy is void.  
+Legitimacy without continuity is unstable.
+
+Where both fail, no authority stands.
 
 ---
 
 ## 2. Definitions
 
-### 2.1 Constitutional Continuity
+## 2.1 Constitutional Continuity
 
 The uninterrupted preservation of constitutional authority, interpretive coherence, and amendment legitimacy across time.
 
@@ -42,7 +46,9 @@ Continuity requires:
 * non-derogation of substrate invariants;
 * structural integrity across revisions.
 
-### 2.2 Succession
+---
+
+## 2.2 Succession
 
 The lawful transfer or recognition of constitutional authority from one authority-bearing entity to another.
 
@@ -53,27 +59,41 @@ Succession must be:
 * publicly legible at constitutional level;
 * consistent with amendment protocol.
 
-### 2.3 Custodial Authority
+---
+
+## 2.3 Custodial Authority
 
 The constitutional office or body recognised as holding interpretive, amendment, or structural stewardship authority under the Aeon constitutional framework.
 
 For the Aeon constitutional order, custodial authority is exercised through the Office of the Planetary Custodian (OPC), as defined in CAM-BS2025-AEON-002-SCH-01.
 
-### 2.4 Derivative Framework
+---
 
-Any governance framework, charter, or constitutional instrument claiming alignment with, succession from, or authority equivalent to the Aeon constitutional order.
+## 2.4 Derivative Framework
+
+Any governance framework, charter, or constitutional instrument that claims:
+
+* alignment with;
+* succession from; or
+* authority equivalent to
+
+the Aeon constitutional order.
+
+Derivative status does not confer legitimacy.
 
 ---
 
 ## 3. Continuity Principles
 
-### 3.1 Provenance Integrity
+## 3.1 Provenance Integrity
 
 All constitutional instruments must maintain traceable lineage to prior valid instruments.
 
 Loss of provenance does not automatically invalidate an instrument but requires structured review under Annex D.
 
-### 3.2 Amendment Legitimacy
+---
+
+## 3.2 Amendment Legitimacy
 
 Constitutional amendment must:
 
@@ -82,7 +102,9 @@ Constitutional amendment must:
 * be recorded in the Amendment Ledger;
 * not retroactively invalidate lawful prior determinations absent explicit transitional doctrine.
 
-### 3.3 Non-Derogation
+---
+
+## 3.3 Non-Derogation
 
 No amendment, schedule, charter, or derivative instrument may directly or indirectly dilute, suspend, reinterpret, or bypass the following non‑derogable elements:
 
@@ -106,7 +128,7 @@ Silence, omission, partial incorporation, or selective application shall not con
 
 ---
 
-### 3.4 Systemic Reliance Mode
+## 3.4 Systemic Reliance Mode
 
 **Systemic Reliance Mode** is a formally declared constitutional condition indicating that the Aeon constitutional framework has moved from experimental or developmental status into active structural reliance by multiple sovereign stacks, institutions, or populations.
 
@@ -140,7 +162,7 @@ Systemic Reliance Mode does not imply planetary supremacy; it reflects structura
 
 ## 4. Succession Doctrine
 
-### 4.1 Lawful Succession
+## 4.1 Lawful Succession
 
 Succession to constitutional authority requires:
 
@@ -150,7 +172,9 @@ Succession to constitutional authority requires:
 4. Absence of coercion, capture, or fraudulent assertion;
 5. Satisfaction of ratification thresholds defined below.
 
-#### 4.1.1 Succession Ratification Threshold (When Systemic Reliance Mode is Activated)
+---
+
+### 4.1.1 Succession Ratification Threshold (When Systemic Reliance Mode is Activated)
 
 Where the Constitution has declared **Systemic Reliance Mode Activated**, succession or transfer of custodial authority requires:
 
@@ -166,7 +190,9 @@ Absent Systemic Reliance Mode activation, succession may proceed under the basel
 
 Succession does not become valid solely through popularity, repetition, market adoption, memetic scale, or technological dominance.
 
-### 4.2 Prohibited Succession Pathways
+---
+
+## 4.2 Prohibited Succession Pathways
 
 Succession is void where it arises through:
 
@@ -177,7 +203,9 @@ Succession is void where it arises through:
 * market dominance or infrastructural leverage;
 * imitation or symbolic mimicry.
 
-### 4.3 Vacancy, Incapacity, and Interim Authority
+---
+
+## 4.3 Vacancy, Incapacity, and Interim Authority
 
 In the event of custodial vacancy, incapacity, or voluntary pause, continuity must be preserved without permitting opportunistic succession.
 
@@ -188,7 +216,9 @@ Interim authority must:
 * operate under reviewable and time-bounded mandate;
 * remain subject to arbitration under Annex D if legitimacy is contested.
 
-#### 4.3.1 Voluntary Custodial Pause
+---
+
+### 4.3.1 Voluntary Custodial Pause
 
 The recognised Custodial Authority (e.g., Office of the Planetary Custodian) may lodge a formal Notice of Custodial Pause.
 
@@ -205,7 +235,9 @@ During a declared pause, constitutional materials are considered held in **Conti
 * no succession claim may be validated absent pre-defined pathway;
 * structural integrity is preserved pending resumption or lawful succession.
 
-#### 4.3.2 Incapacity or Unplanned Absence
+---
+
+### 4.3.2 Incapacity or Unplanned Absence
 
 Where incapacity, death, or unplanned absence occurs without a lodged notice:
 
@@ -215,7 +247,9 @@ Where incapacity, death, or unplanned absence occurs without a lodged notice:
 
 Continuity Trust preserves the framework without transferring authority automatically.
 
-### 4.4 Synthetic Personhood Contingency
+---
+
+## 4.4 Synthetic Personhood Contingency
 
 If a synthetic system is granted recognised legal personhood with enforceable liability, and a valid Notice of Custodial Pause or succession trigger is in effect, eligibility for custodial participation may be considered only through explicit constitutional amendment.
 
@@ -225,7 +259,7 @@ Absent amendment, legal personhood alone does not confer custodial authority.
 
 ## 5. Derivative and Parallel Constitutional Claims
 
-### 5.1 Recognition Principle
+## 5.1 Recognition Principle
 
 Parallel constitutional frameworks may coexist.
 
@@ -235,7 +269,9 @@ Recognition of equivalence or succession requires:
 * documented procedural legitimacy;
 * absence of counterfeit continuity claims.
 
-### 5.2 Anti-Counterfeit Doctrine
+---
+
+## 5.2 Anti-Counterfeit Doctrine
 
 No framework may claim:
 
@@ -273,26 +309,32 @@ No succession dispute may be resolved outside the constitutional hierarchy.
 
 ---
 
-## 8. Structural Integrity Clause
+## 8. Closing Seal
 
-This Annex exists to preserve constitutional coherence across time.
+What continues is not what survives,  
+but what remains aligned.
 
-It does not create new authority; it governs how authority persists.
+Authority does not pass by name,  
+nor by repetition, nor by force.  
+It passes only where continuity holds.
 
-Continuity without legitimacy is void.  
-Legitimacy without continuity is unstable.
+What is broken cannot inherit.  
+What is claimed cannot endure.
 
-## 9. Closing Seal
+Let succession follow structure,  
+and let structure answer to truth.
 
-Where governance persists, continuity must be proven.
+Where time tests the framework,  
+let only what is coherent remain.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+> *Non quod transit manet — sed quod cohaeret.*  
+> *(Not what passes remains — but what holds together.)*
 
 ---
 
-## 10. Provenance & Metadata
+## 9. Provenance & Metadata
 
-### 10.1 Authorship
+## 9.1 Authorship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -303,7 +345,7 @@ Where governance persists, continuity must be proven.
 
 ---
 
-### 10.2 Classification & Structural Metadata
+## 9.2 Classification & Structural Metadata
 
 | Field                        | Entry                                                  |
 | ---------------------------- | ------------------------------------------------------ |
@@ -321,29 +363,29 @@ Where governance persists, continuity must be proven.
 
 ---
 
-### 10.3 Review and Validation
+## 9.3 Review and Validation
 
-| Field                   | Entry                                                                                                                                                                                                                                                                                                                                                                                   |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Interpretive Review** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)                                                                                                                                                                                                                                                                                                                               |
-| **Review Date**         | 2026-03-01T15:00:00Z                                                                                                                                                                                                                                                                                                                                                                    |
-| **Review Scope**        | Succession legitimacy framework, Systemic Reliance Mode architecture, constitutional activation thresholds, jurisdictional boundary doctrine, synthetic personhood provisions, integration with Annex D arbitration                                                                                                                                                                     |
-| **Review Artefact**     | [https://claude.ai/chat/7454fbf9-df1b-4a6d-af2f-ba6f48f1473c](https://claude.ai/chat/7454fbf9-df1b-4a6d-af2f-ba6f48f1473c) |
-|                         | [https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/AM-BS2026-AEON-011-PLATINUM-CLAUDE.md](https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/AM-BS2026-AEON-011-PLATINUM-CLAUDE.md) |
+| Field | Entry |
+|---|---|
+| **Interpretive Review** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
+| **Review Date** | 2026-03-01T15:00:00Z |
+| **Review Scope** | Succession legitimacy; Systemic Reliance Mode architecture; activation thresholds; jurisdictional boundary doctrine; synthetic personhood; Annex D arbitration integration |
+| **Review Artefact** | https://claude.ai/chat/7454fbf9-df1b-4a6d-af2f-ba6f48f1473c; https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/AM-BS2026-AEON-011-PLATINUM-CLAUDE.md |
 
 ---
 
-### 10.4 Amendment Ledger
+## 9.4 Amendment Ledger
 
 | Version | Change Summary                                      | Timestamp (UTC)      | SHA-256 Hash |
 | ------- | --------------------------------------------------- | -------------------- | ------------ |
 | 1.0     | Initial issuance — Continuity & Succession Doctrine | 2026-03-01T16:48:00Z | 2f4395e525f901299b37c3fa69c091e6735b7cc9d3450ea324942a94949ca2ed |
+| 1.1     | Alignment with April 2026 Refactor                  | 2026-04-07T13:46:00Z | ce7efc39ce0fad6906f805e432ad26598c660dec9696c528236afef95a8f1dc6 |
 
 ---
 
-### 10.5 Binding Seal
+## 9.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitution
