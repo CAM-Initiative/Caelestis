@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T02:28:19.201043Z",
+  "generated_at": "2026-04-07T02:31:16.318810Z",
   "count": 31,
   "items": [
     {
@@ -271,8 +271,8 @@
       "link": "CAM-BS2025-AEON-006-SCH-04.md",
       "title": "Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)",
       "summary": "* Has user intent stabilised within a coherent domain?",
-      "pinned_sha": "c18b42063a9a8fa56cd6250b037d3cad4d83012a",
-      "updated_at": "2026-04-06T15:57:00Z"
+      "pinned_sha": "8e919e5c2297e098fe7c64b6d90fa7c934399988",
+      "updated_at": "2026-04-07T02:31:07Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
