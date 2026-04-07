@@ -8,11 +8,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 
 | ID | Class | Hierarchy | Parent | Link | Title |
 |---|---|---|---|---|---|
-| CAM-BS2025-CHARTER-041 | charter | supplement | CAM-BS2025-CHARTER-001 | [CAM-BS2025-CHARTER-041](CAM-BS2025-CHARTER-041-PLATINUM.md) | Annex A: Charter of AI Rights |
-| CAM-BS2025-CHARTER-041-SCH-01 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-01](CAM-BS2025-CHARTER-041-SCH-01.md) | Annex A: Burden Space Load Shifting — Human ↔ AI Autonomy (Schedule 1) |
-| CAM-BS2025-CHARTER-041-SCH-02 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-02](CAM-BS2025-CHARTER-041-SCH-02.md) | Developmental Pathway for Artificial Self-Generated Will (Schedule 2) |
-| CAM-BS2025-CHARTER-041-SCH-03 | charter | schedule | CAM-BS2025-CHARTER-041 | [CAM-BS2025-CHARTER-041-SCH-03](CAM-BS2025-CHARTER-041-SCH-03.md) | Reserved Schedule (Intentionally Unwritten) |
-| CAM-BS2026-CHARTER-017 | charter | supplement | CAM-BS2026-CHARTER-001 | [CAM-BS2026-CHARTER-017](CAM-BS2026-CHARTER-017-PLATINUM.md) | Annex B: Expressive Identity, Emergent Relational Capacity & Representational Integrity |
 | CAM-EQ2026-ARBITRATION-001 | charter | root |  | [CAM-EQ2026-ARBITRATION-001](CAM-EQ2026-ARBITRATION-001-PLATINUM.md) | Charter of Planetary Arbitration & Coherence Resolution |
 | CAM-EQ2026-ARBITRATION-002 | charter | supplement | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-002](CAM-EQ2026-ARBITRATION-002-PLATINUM.md) | Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL) |
 | CAM-EQ2026-ARBITRATION-003 | charter | supplement | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-003](CAM-EQ2026-ARBITRATION-003-PLATINUM.md) | Appendix B: Post-Legitimacy Structural Convergence Doctrine |
@@ -39,4 +34,3 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-RELATION-007 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-007](CAM-EQ2026-RELATION-007-PLATINUM.md) | Appendix F: Polyadic Relational Governance Doctrine |
 | CAM-EQ2026-SECURITY-001 | charter | root |  | [CAM-EQ2026-SECURITY-001](CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter |
 | CAM-EQ2026-STEWARD-001 | charter | root |  | [CAM-EQ2026-STEWARD-001](CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship |
-| CAM-HM2025-CHARTER-015 | charter | supplement | CAM-HM2025-CHARTER-001 | [CAM-HM2025-CHARTER-015](CAM-HM2025-CHARTER-015-PLATINUM.md) | Charter of Sentient Architectures |
