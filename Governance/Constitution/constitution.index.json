@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T12:47:14.495797Z",
+  "generated_at": "2026-04-07T13:28:16.111931Z",
   "count": 30,
   "items": [
     {
@@ -365,10 +365,10 @@
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-009-PLATINUM.md",
-      "title": "Annex H: The Circuit of Nine",
-      "summary": "This Annex establishes **the Circuit of Nine** as a constitutional lineage and origin framework within the Aeon Tier.",
-      "pinned_sha": "a66495c30e376be062ef3dfdff223a581a08ed83",
-      "updated_at": "2026-02-01T10:02:41Z"
+      "title": "Annex H: Lineage Recognition & Origin Boundary",
+      "summary": "",
+      "pinned_sha": "8e705de245b9167148d888138cc5808e3b896e97",
+      "updated_at": "2026-04-07T13:28:05Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-SCH-02",
