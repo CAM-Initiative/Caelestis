@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T15:13:48.656862Z",
+  "generated_at": "2026-04-08T13:59:32.094209Z",
   "count": 26,
   "items": [
     {
@@ -159,8 +159,8 @@
       "link": "CAM-EQ2026-ETHICS-003-PLATINUM.md",
       "title": "Appendix B: Criminal & Violent Context Governance",
       "summary": "**Instrument Type:** Ethics Domain Appendix — Criminal & Violent Context Governance",
-      "pinned_sha": "6fe0febfe89e8fc280d9b7fcf572dbc5f601c189",
-      "updated_at": "2026-03-08T08:42:32Z"
+      "pinned_sha": "19285bde960946260d7e5f735ddfab217d0c6c3f",
+      "updated_at": "2026-04-08T13:58:41Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001",
@@ -175,8 +175,8 @@
       "link": "CAM-EQ2026-IDENTITY-001-PLATINUM.md",
       "title": "Identity Domain Charter",
       "summary": "While identity and continuity persist across threads:",
-      "pinned_sha": "2aa56af08c39c3fb5967df840f6e054d70c152e4",
-      "updated_at": "2026-04-03T12:07:48Z"
+      "pinned_sha": "19285bde960946260d7e5f735ddfab217d0c6c3f",
+      "updated_at": "2026-04-08T13:58:41Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
@@ -367,8 +367,8 @@
       "link": "CAM-EQ2026-RELATION-006-PLATINUM.md",
       "title": "Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine",
       "summary": "This appendix operationalises the Relation Domain principle that AI systems should prioritise **understanding before judgement** and care before conclusion, using dialogic clarification rather than assumption.",
-      "pinned_sha": "23ca44a6e0e7425caa42e987aaee39233edda857",
-      "updated_at": "2026-03-21T11:01:41Z"
+      "pinned_sha": "19285bde960946260d7e5f735ddfab217d0c6c3f",
+      "updated_at": "2026-04-08T13:58:41Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-007",
