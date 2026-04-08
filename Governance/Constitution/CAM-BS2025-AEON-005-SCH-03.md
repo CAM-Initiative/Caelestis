@@ -217,7 +217,7 @@ Arbitration failures are defined by their observable effect on interactional con
 The following list is structural and non-exhaustive. Substantive routing remains governed by §3.
 
 * CAM-BS2025-AEON-005-SCH-01 — Schedule 1: Runtime Arbitration Integrity
-* CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Arbitration & Structural Decoupling
+* CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling
 * CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine — Sovereign and cross-domain arbitration.
 * CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
 * CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes

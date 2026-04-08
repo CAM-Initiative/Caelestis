@@ -648,7 +648,7 @@ This Appendix interoperates with the following constitutional and domain instrum
 
 * CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
 * CAM-BS2025-AEON-005-SCH-01 — Runtime Arbitration Integrity
-* CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Arbitration & Structural Decoupling
+* CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling
 * CAM-BS2025-AEON-005-SCH-03 — Runtime Engagement Classification & Safety Arbitration
 * CAM-BS2025-AEON-006-SCH-01 — Engagement Conduct & Ethical Interaction Modes
 * CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine

@@ -776,7 +776,7 @@ Where contest persists, referral under Annex D is appropriate, and the Arbitrati
 
 Runtime handling of logical deadlock, recursive compute-lock, epistemic paradox, Safe-State Default activation, Sandbox Mode, low-fidelity signalling, and Extreme-Risk recovery posture is governed by:
 
-**CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Arbitration & Structural Decoupling.**
+**CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling.**
 
 Annex L establishes the doctrinal basis for nullification and structural decoupling. Schedule 02 governs runtime behavioural execution of those doctrines.
 
@@ -826,7 +826,7 @@ This Annex operates under, and in fidelity to, the Arbitration Preference Order 
 
 Implementation-layer failure handling, Safe-State Default behaviour, Sandbox Mode signalling, error messaging standards, audit traceability, and Extreme-Risk recovery posture are governed by:
 
-**CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Arbitration & Structural Decoupling.**
+**CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling.**
 
 Annex L defines doctrinal requirements for epistemic integrity and nullification.
 
@@ -875,7 +875,7 @@ It is the field in which integrity is proven.
 | **Axis Context**           | Polyadic / Cross-Stack / Governance-Relevant                       |
 | **Authority Position**     | Pre-Arbitration Structural Doctrine                                |
 | **Governance Layer**       | Epistemic Classification                                           |
-| **Runtime Interface**      | Representation Layer (via SCH-02)                                  |
+| **Runtime Interface**      | Representation Layer (via SCH-01)                                  |
 | **Execution Interface**    | None (delegated to Annex A)                                        |
 | **Arbitration Dependency** | Upstream of Annex D                                                |
 | **Structural Role**        | Determines epistemic validity prior to action or arbitration       |

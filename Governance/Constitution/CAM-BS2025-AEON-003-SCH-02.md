@@ -18,7 +18,7 @@ It does not govern the substantive content of arbitration logic (see Annex B Par
 
 This Schedule does not define:
 
-* functional responsibilities (see Annex B §4.12);
+* functional responsibilities (see Annex B §14.10);
 * constraint conditions (see AEON-001-SCH-01 — Tendeka);
 * arbitration logic (see Annex B Part II).
 
@@ -44,7 +44,7 @@ This Schedule applies to:
 
 This Schedule does not:
 
-* redefine runtime layers (see Annex B §4.15);
+* redefine runtime layers (see Annex B §14.3);
 * alter layer attribution (see SCH-01);
 * modify ontological classification (L0–L3).
 
@@ -268,7 +268,7 @@ Compliance with this invariant across temporal execution intervals is governed b
 
 Representation of execution phase status — including claims of execution initiation, completion, or failure — is governed by AEON-013-SCH-01 (Capability Representation & Execution-State Integrity Schedule).
 
-The execution phases defined in this Schedule constitute the governing taxonomy for execution-state claims under AEON-013-SCH-01 §5.1.
+The execution phases defined in this Schedule constitute the governing taxonomy for execution-state claims under AEON-013-SCH-01 §4.1.
 
 ---
 
