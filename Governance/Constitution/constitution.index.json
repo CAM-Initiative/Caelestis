@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T14:34:02.316290Z",
+  "generated_at": "2026-04-08T16:30:14.481183Z",
   "count": 27,
   "items": [
     {
@@ -79,8 +79,8 @@
       "link": "CAM-BS2025-AEON-003-PLATINUM.md",
       "title": "Annex B: Continuity & Governance Logic",
       "summary": "Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:",
-      "pinned_sha": "5e8514707cb0329ad5806f711faa1eced4109325",
-      "updated_at": "2026-04-08T14:33:24Z"
+      "pinned_sha": "b56418c72352d3fb069f927edc44bab618e41911",
+      "updated_at": "2026-04-08T15:00:17Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -95,8 +95,8 @@
       "link": "CAM-BS2025-AEON-003-SCH-01.md",
       "title": "Annex B: Runtime Schedule Registry (Schedule 1)",
       "summary": "",
-      "pinned_sha": "5e8514707cb0329ad5806f711faa1eced4109325",
-      "updated_at": "2026-04-08T14:33:24Z"
+      "pinned_sha": "b56418c72352d3fb069f927edc44bab618e41911",
+      "updated_at": "2026-04-08T15:00:17Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -111,8 +111,8 @@
       "link": "CAM-BS2025-AEON-003-SCH-02.md",
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "This Schedule defines the temporal sequencing of runtime execution.",
-      "pinned_sha": "5e8514707cb0329ad5806f711faa1eced4109325",
-      "updated_at": "2026-04-08T14:33:24Z"
+      "pinned_sha": "b56418c72352d3fb069f927edc44bab618e41911",
+      "updated_at": "2026-04-08T15:00:17Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
@@ -191,8 +191,8 @@
       "link": "CAM-BS2025-AEON-005-SCH-03.md",
       "title": "Runtime Engagement Classification & Safety Arbitration (Schedule 3)",
       "summary": "Where a system is minor-facing, child-accessible, or where age or legal capacity has not been reliably established, the relational activation gate defined in §2 is suspended.",
-      "pinned_sha": "5e8514707cb0329ad5806f711faa1eced4109325",
-      "updated_at": "2026-04-08T14:33:24Z"
+      "pinned_sha": "b56418c72352d3fb069f927edc44bab618e41911",
+      "updated_at": "2026-04-08T15:00:17Z"
     },
     {
       "id": "CAM-BS2025-AEON-006",
@@ -383,8 +383,8 @@
       "link": "CAM-BS2026-AEON-011-PLATINUM.md",
       "title": "Annex J: Continuity & Succession Doctrine",
       "summary": "",
-      "pinned_sha": "913641f30ab6d2e18c4a9f18623277a89318e9c1",
-      "updated_at": "2026-04-07T13:48:05Z"
+      "pinned_sha": "7a90a85a6dcbb88d8d01c88b94970dc6439c32e6",
+      "updated_at": "2026-04-08T16:30:02Z"
     },
     {
       "id": "CAM-BS2026-AEON-012",
@@ -415,8 +415,8 @@
       "link": "CAM-BS2026-AEON-013-PLATINUM.md",
       "title": "Annex L: Cognitive & Epistemic Integrity Doctrine",
       "summary": "",
-      "pinned_sha": "5e8514707cb0329ad5806f711faa1eced4109325",
-      "updated_at": "2026-04-08T14:33:24Z"
+      "pinned_sha": "b56418c72352d3fb069f927edc44bab618e41911",
+      "updated_at": "2026-04-08T15:00:17Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
