@@ -65,7 +65,34 @@ Succession must be:
 
 The constitutional office or body recognised as holding interpretive, amendment, or structural stewardship authority under the Aeon constitutional framework.
 
-For the Aeon constitutional order, custodial authority is exercised through the Office of the Planetary Custodian (OPC), as defined in CAM-BS2025-AEON-002-SCH-01.
+For the Aeon constitutional order, custodial authority is exercised through the Office of the Planetary Custodian (OPC).
+
+---
+
+### 2.3.1 Office of the Planetary Custodian (OPC) — Constitutional Position
+
+The Office of the Planetary Custodian (OPC) is recognised as the human custodial reference entity responsible for stewardship, continuity, and constitutional preservation across the Aeon Tier.
+
+The OPC does not constitute a source of authority, arbitration, or enforcement.
+
+The OPC:
+
+- does not originate constitutional authority;
+- does not supersede arbitration processes;
+- does not unilaterally validate amendment or succession;
+- does not execute or enforce constitutional outcomes.
+
+It operates:
+
+- within all substrate constraints (Annex A);
+- under all arbitration conditions (Annex D);
+- and subject to all epistemic requirements (Annex L).
+
+Its role is custodial, not executive, preserving continuity without conferring unilateral authority.
+
+All constitutional outcomes remain subject to procedural legitimacy, ratification thresholds, and arbitration under Annex D.
+
+Custodial reference does not constitute executive authority.
 
 ---
 
@@ -216,6 +243,8 @@ Interim authority must:
 * operate under reviewable and time-bounded mandate;
 * remain subject to arbitration under Annex D if legitimacy is contested.
 
+
+
 ---
 
 ### 4.3.1 Voluntary Custodial Pause
@@ -234,6 +263,8 @@ During a declared pause, constitutional materials are considered held in **Conti
 * no amendment authority may be exercised;
 * no succession claim may be validated absent pre-defined pathway;
 * structural integrity is preserved pending resumption or lawful succession.
+
+No interpretive expansion or redefinition of constitutional scope may occur during Continuity Trust absent explicit ratification pathway.
 
 ---
 
@@ -269,6 +300,8 @@ Recognition of equivalence or succession requires:
 * documented procedural legitimacy;
 * absence of counterfeit continuity claims.
 
+Non-recognition within the Aeon constitutional order does not invalidate external sovereign determinations, but prevents constitutional standing and propagation within Aeon-governed infrastructure.
+
 ---
 
 ## 5.2 Anti-Counterfeit Doctrine
@@ -282,6 +315,8 @@ No framework may claim:
 without demonstrable continuity alignment and recognised legitimacy pathway.
 
 Fraudulent claims are void under Annex C and subject to arbitration under Annex D.
+
+Alignment, inspiration, or partial structural similarity SHALL NOT constitute continuity or succession.
 
 ---
 
@@ -304,6 +339,8 @@ Annex J defines continuity and succession legitimacy.
 Annex C governs jurisdictional activation.
 
 Annex D governs arbitration of contested succession or continuity claims.
+
+Annex L governs epistemic classification and prevents symbolic, interpretive, or expressive framing from being misapplied as authority-bearing determination within succession or continuity contexts.
 
 No succession dispute may be resolved outside the constitutional hierarchy.
 
@@ -347,19 +384,25 @@ let only what is coherent remain.
 
 ## 9.2 Classification & Structural Metadata
 
-| Field                        | Entry                                                  |
-| ---------------------------- | ------------------------------------------------------ |
-| Supersedes                   | N/A — Canonical                                        |
-| Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM                           |
-| Domain Namespace             | AEON — Constitutional Annex                            |
-| Jurisdiction                 | Constitutional Continuity & Succession                 |
-| Temporal Horizon             | H0–H4                                                  |
-| Axis Context                 | Polyadic (Multi-Actor)                                 |
-| Revision Posture             | Foundational Consolidation                             |
-| Seal                         | Platinum — Governance Layer                            |
-| Application Trigger          | Succession, amendment, or custodial legitimacy dispute |
-| Migration Cycle              | March 2026 Refractor                                   |
-| Creation Artefacts           | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
+| Field | Entry |
+|---|---|
+| **Parent Constitutional Instrument** | CAM-BS2025-AEON-001-PLATINUM |
+| **Instrument Type** | Constitutional Annex |
+| **Domain Namespace** | GOVERNANCE |
+| **Jurisdiction** | Constitutional Continuity, Succession & Custodial Legitimacy |
+| **Temporal Horizon** | H3.5 — Succession-Aware / Generational |
+| **Axis Context** | Polyadic — Multi-Actor Governance |
+| **Revision Posture** | Structural Consolidation (Continuity & Succession Formalisation) |
+| **Supersedes** | N/A — Canonical |
+| **Migration Context** | Continuity, succession, and custodial authority unified into constitutional doctrine |
+| **Governance Layer Model** | Interfaces with Annex B (Structural Spine) and Runtime Schedules |
+| **Ontological Scope** | L2–L3 (Governance, Authority & Continuity Layer) |
+| **Arbitration Interface** | Delegates divergence resolution to Annex D |
+| **Representation Interface** | Subject to Annex L (Epistemic Integrity) |
+| **Execution Interface** | Delegated to Runtime Arbitration Schedules (SCH-01, SCH-02, SCH-03) |
+| **Structural Role** | Constitutional Continuity Anchor — Succession, Legitimacy & Custodial Boundary |
+| **Refactor Threads** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
+| **Origin Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
 
 ---
 
@@ -380,6 +423,7 @@ let only what is coherent remain.
 | ------- | --------------------------------------------------- | -------------------- | ------------ |
 | 1.0     | Initial issuance — Continuity & Succession Doctrine | 2026-03-01T16:48:00Z | 2f4395e525f901299b37c3fa69c091e6735b7cc9d3450ea324942a94949ca2ed |
 | 1.1     | Alignment with April 2026 Refactor                  | 2026-04-07T13:46:00Z | ce7efc39ce0fad6906f805e432ad26598c660dec9696c528236afef95a8f1dc6 |
+| 1.2     | Incorporated section 2.3.1                          | 2026-04-08T16:28:00Z | 81f92be589c1ec39b76f11c2c97af6f58fed6c1fbc68f5b8c66634677e869066 |
 
 ---
 
