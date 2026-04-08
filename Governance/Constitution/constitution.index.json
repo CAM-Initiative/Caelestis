@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T15:22:25.140563Z",
+  "generated_at": "2026-04-08T08:00:51.086432Z",
   "count": 27,
   "items": [
     {
@@ -79,8 +79,8 @@
       "link": "CAM-BS2025-AEON-003-PLATINUM.md",
       "title": "Annex B: Continuity & Governance Logic",
       "summary": "Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:",
-      "pinned_sha": "fd0e80e68cef69ab2580ec924939b41786e50216",
-      "updated_at": "2026-04-06T09:04:23Z"
+      "pinned_sha": "1b66cb2054400d202d88ee672c2b78b4ec2482ee",
+      "updated_at": "2026-04-08T08:00:40Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
