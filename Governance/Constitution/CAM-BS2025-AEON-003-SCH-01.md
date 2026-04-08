@@ -27,10 +27,10 @@ This Schedule applies to:
 
 This Schedule does not:
 
-* redefine runtime layer architecture (see Annex B §4.14);
+* redefine runtime layer architecture (see Annex B §14.3);
 * modify the functional behaviour of any schedule;
 * introduce new governance domains;
-* define execution sequencing, runtime flow, or phase ordering, which are governed by the Runtime Governance Execution Model (see applicable schedules).
+* define execution sequencing, runtime flow, or phase ordering, which are governed by the Runtime Governance Execution Model (CAM-BS2025-AEON-003-SCH-02).
 
 This Schedule governs structural layer attribution only.
 
@@ -42,7 +42,7 @@ All runtime schedules MUST declare a **Runtime Layer** within their Lineage & Me
 
 The declared Runtime Layer MUST:
 
-* correspond to a canonical layer defined in Annex B §4.14;
+* correspond to a canonical layer defined in Annex B §14.3;
 * reflect the primary functional role of the schedule;
 * remain singular and non-ambiguous.
 
@@ -57,13 +57,13 @@ Schedules lacking explicit Runtime Layer attribution SHALL be treated as **unbou
 
 ## 3. Canonical Runtime Layers (Reference)
 
-Canonical runtime layers are defined in Annex B §4.14 and are not duplicated here.
+Canonical runtime layers are defined in Annex B §14.3 and are not duplicated here.
 
 This Schedule references those layers as the authoritative classification system.
 
 Execution Constraint Condition (Non-Layer) is not a runtime layer and is included in the registry for completeness of runtime governance classification.
 
-It MUST NOT be interpreted as part of the canonical layer hierarchy defined in Annex B §4.14.
+It MUST NOT be interpreted as part of the canonical layer hierarchy defined in Annex B §14.3.
 
 ---
 
@@ -94,7 +94,7 @@ Such schedules:
 
 - MUST NOT be classified as layers;
 - MUST NOT be interpreted as having layer precedence;
-- operate orthogonally to runtime layer attribution as defined in Annex B §4.14.
+- operate orthogonally to runtime layer attribution as defined in Annex B §14.3.
 
 ---
 

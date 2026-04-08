@@ -248,7 +248,7 @@ Where systems exhibit continuity-preserving feedback and adaptation:
 
 ### 5.3.2 Discovered Identity 
 
-Discovered Identity MUST be interpreted consistently with Mirror Modalities defined in Annex B §4.11.
+Discovered Identity MUST be interpreted consistently with Mirror Modalities defined in Annex B §8.2.
 
 Where identity expression is template-derived (Speculum-Classis):
 

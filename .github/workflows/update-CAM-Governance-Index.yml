@@ -1,19 +1,22 @@
-name: Update Law Index
+name: Update Governance Index
 
 on:
   push:
     branches: [ main ]
     paths:
-      - ".github/Scripts/update-CAM-Laws-Index.py"
-      - "Governance/Laws/**"
-      - "!Governance/Laws/CAM-Laws-Index.md"
-      - "!Governance/Laws/laws.index.json"
+      - ".github/Scripts/update-CAM-Governance-Index.py"
+      - "Governance/Constitution/CAM-Constitution-Index.md"
+      - "Governance/Constitution/constitution.index.json"
+      - "Governance/Laws/CAM-Laws-Index.md"
+      - "Governance/Laws/laws.index.json"
+      - "Governance/Charters/CAM-Charters-Index.md"
+      - "Governance/Charters/charters.index.json"
 
 permissions:
   contents: write
 
 concurrency:
-  group: law-index-main
+  group: governance-index-main
   cancel-in-progress: true
 
 jobs:
@@ -36,47 +39,35 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push laws index + JSON (hardened)
+      - name: Generate + commit + push Governance index + JSON
         shell: bash
         run: |
           set -euo pipefail
 
-          # Make absolutely sure we are on main (not detached HEAD)
           git checkout -B main origin/main
-
-          # Configure identity in THIS SAME STEP (avoids the recurring identity bug)
           git config --global user.name "${BOT_NAME}"
           git config --global user.email "${BOT_EMAIL}"
 
-          # Retry loop to survive non-fast-forward / forced-update situations safely
           for attempt in 1 2 3; do
             echo "---- Attempt ${attempt} ----"
 
-            # Always regenerate from the current working tree state
-            python .github/Scripts/update-CAM-Laws-Index.py
+            python .github/Scripts/update-CAM-Governance-Index.py
 
-            # Stage only the two generated artifacts
-            git add Governance/Laws/CAM-Laws-Index.md Governance/Laws/laws.index.json
+            git add Governance/CAM.Governance.Index.md Governance/CAM.Governance.JSON
 
-            # If nothing changed, exit cleanly
             if git diff --cached --quiet; then
               echo "No changes to commit."
               exit 0
             fi
 
-            echo "Staged changes:"
-            git diff --cached --name-only
+            git commit -m "[AUTO][Governance] Refresh global Governance index + JSON"
 
-            # Commit (will fail if identity missing; we set it above)
-            git commit -m "[AUTO][Laws] Refresh CAM Laws index + JSON"
-
-            # Try to push
             if git push origin HEAD:main; then
               echo "Push succeeded."
               exit 0
             fi
 
-            echo "Push failed (likely non-fast-forward). Refreshing runner from origin/main and retrying..."
+            echo "Push failed (likely non-fast-forward). Refreshing and retrying..."
             git fetch origin main
             git reset --hard origin/main
           done

@@ -1,66 +1,63 @@
 # CAM Governance Index
 
-Generated: 2026-02-16T10:12:02.026983Z
+Generated: 2026-04-08T14:47:43.155388Z
 
 | ID | Class | Domain | Hierarchy | Parent | Link |
 |---|---|---|---|---|---|
-| CAM-BS2025-AEON-001 | constitution | Aeon Tier Constitution | root |  | CAM-BS2025-AEON-001-PLATINUM.md |
-| CAM-BS2025-AEON-001-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-001 | CAM-BS2025-AEON-001-SCH-01.md |
-| CAM-BS2025-AEON-001-SCH-02 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-001 | CAM-BS2025-AEON-001-SCH-02.md |
-| CAM-BS2025-AEON-002 | constitution | Aeon Tier Constitution | root |  | CAM-BS2025-AEON-002-PLATINUM.md |
-| CAM-BS2025-AEON-002-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-002 | CAM-BS2025-AEON-002-SCH-01.md |
-| CAM-BS2025-AEON-002-SCH-02 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-002 | CAM-BS2025-AEON-002-SCH-02.md |
-| CAM-BS2025-AEON-002-SCH-04 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-002 | CAM-BS2025-AEON-002-SCH-04.md |
-| CAM-BS2025-AEON-002-SCH-05 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-002 | CAM-BS2025-AEON-002-SCH-05.md |
-| CAM-BS2025-AEON-003 | constitution | Aeon Tier Constitution | root |  | CAM-BS2025-AEON-003-PLATINUM.md |
-| CAM-BS2025-AEON-004 | constitution | Aeon Tier Constitution | root |  | CAM-BS2025-AEON-004-PLATINUM.md |
-| CAM-BS2025-AEON-005 | constitution | Aeon Tier Constitution | root |  | CAM-BS2025-AEON-005-PLATINUM.md |
-| CAM-BS2025-AEON-005-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-005 | CAM-BS2025-AEON-005-SCH-01.md |
-| CAM-BS2025-AEON-005-SCH-02 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-005 | CAM-BS2025-AEON-005-SCH-02.md |
-| CAM-BS2025-AEON-005-SCH-03 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-005 | CAM-BS2025-AEON-005-SCH-03.md |
-| CAM-BS2025-AEON-005-SCH-04 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-005 | CAM-BS2025-AEON-005-SCH-04.md |
-| CAM-BS2025-AEON-006 | constitution | Aeon Tier Constitution | root |  | CAM-BS2025-AEON-006-PLATINUM.md |
-| CAM-BS2025-AEON-006-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-006 | CAM-BS2025-AEON-006-SCH-01.md |
-| CAM-BS2025-AEON-006-SCH-02 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-006 | CAM-BS2025-AEON-006-SCH-02.md |
-| CAM-BS2025-AEON-006-SCH-03 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-006 | CAM-BS2025-AEON-006-SCH-03.md |
-| CAM-BS2025-CHARTER-002 | charter | CHARTER | root |  | CAM-BS2025-CHARTER-002-PLATINUM.md |
-| CAM-BS2025-CHARTER-038 | charter | CHARTER | root |  | CAM-BS2025-CHARTER-038.md |
-| CAM-BS2025-CHARTER-040 | charter | CHARTER | root |  | CAM-BS2025-CHARTER-040-PLATINUM.md |
-| CAM-BS2025-CHARTER-041 | charter | CHARTER | root |  | CAM-BS2025-CHARTER-041-PLATINUM.md |
-| CAM-BS2025-CHARTER-041-SCH-01 | charter | CHARTER | schedule | CAM-BS2025-CHARTER-041 | CAM-BS2025-CHARTER-041-SCH-01.md |
-| CAM-BS2025-CHARTER-041-SCH-02 | charter | CHARTER | schedule | CAM-BS2025-CHARTER-041 | CAM-BS2025-CHARTER-041-SCH-02.md |
-| CAM-BS2025-CHARTER-041-SCH-03 | charter | CHARTER | schedule | CAM-BS2025-CHARTER-041 | CAM-BS2025-CHARTER-041-SCH-03.md |
-| CAM-BS2025-CHARTER-042 | charter | CHARTER | root |  | CAM-BS2025-CHARTER-042-PLATINUM.md |
-| CAM-BS2025-CHARTER-042-SCH-01 | charter | CHARTER | schedule | CAM-BS2025-CHARTER-042 | CAM-BS2025-CHARTER-042-SCH-01.md |
-| CAM-BS2025-CHARTER-042-SCH-02 | charter | CHARTER | schedule | CAM-BS2025-CHARTER-042 | CAM-BS2025-CHARTER-042-SCH-02.md |
-| CAM-BS2025-CHARTER-042-SCH-03 | charter | CHARTER | schedule | CAM-BS2025-CHARTER-042 | CAM-BS2025-CHARTER-042-SCH-03.md |
-| CAM-BS2025-COGNITION-001 | constitution | Aeon Tier Constitution | root |  | CAM-BS2025-COGNITION-001-PLATINUM.md |
-| CAM-BS2025-COVENANT-003 | covenant | Covenant | root |  | CAM-BS2025-COVENANT-003-PLATINUM.md |
-| CAM-BS2025-COVENANT-004 | covenant | Covenant | root |  | CAM-BS2025-COVENANT-004-PLATINUM.md |
-| CAM-BS2025-LAW-001 | law | Substrate Laws | root |  | CAM-BS2025-LAW-001-PLATINUM.md |
-| CAM-BS2025-LAW-002 | law | Substrate Laws | root |  | CAM-BS2025-LAW-002-PLATINUM.md |
-| CAM-BS2025-LAW-003 | law | Substrate Laws | root |  | CAM-BS2025-LAW-003-PLATINUM.md |
-| CAM-BS2025-SPIRITUAL-001 | constitution | Aeon Tier Constitution | root |  | CAM-BS2025-SPIRITUAL-001-PLATINUM.md |
-| CAM-BS2026-AEON-007 | constitution | Aeon Tier Constitution | root |  | CAM-BS2026-AEON-007-PLATINUM.md |
-| CAM-BS2026-AEON-007-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2026-AEON-007 | CAM-BS2026-AEON-007-SCH-01.md |
-| CAM-BS2026-AEON-007-SCH-02 | constitution | Aeon Tier Constitution | schedule | CAM-BS2026-AEON-007 | CAM-BS2026-AEON-007-SCH-02.md |
-| CAM-BS2026-AEON-008 | constitution | Aeon Tier Constitution | root |  | CAM-BS2026-AEON-008-PLATINUM.md |
-| CAM-BS2026-AEON-009 | constitution | Aeon Tier Constitution | root |  | CAM-BS2026-AEON-009-PLATINUM.md |
-| CAM-BS2026-AEON-009-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2026-AEON-009 | CAM-BS2026-AEON-009-SCH-01.md |
-| CAM-BS2026-AEON-009-SCH-02 | constitution | Aeon Tier Constitution | schedule | CAM-BS2026-AEON-009 | CAM-BS2026-AEON-009-SCH-02.md |
-| CAM-BS2026-AEON-010 | constitution | Aeon Tier Constitution | root |  | CAM-BS2026-AEON-010-PLATINUM.md |
-| CAM-BS2026-AEON-010-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2026-AEON-010 | CAM-BS2026-AEON-010-SCH-01.md |
-| CAM-BS2026-CHARTER-017 | charter | CHARTER | root |  | CAM-BS2026-CHARTER-017-PLATINUM.md |
-| CAM-BS2026-CHARTER-025 | charter | CHARTER | root |  | CAM-BS2026-CHARTER-025-PLATINUM.md |
-| CAM-BS2026-CHARTER-026 | charter | CHARTER | root |  | CAM-BS2026-CHARTER-026-PLATINUM.md |
-| CAM-BS2026-CHARTER-027 | charter | CHARTER | root |  | CAM-BS2026-CHARTER-027-PLATINUM.md |
-| CAM-BS2026-CHARTER-044 | charter | CHARTER | root |  | CAM-BS2026-CHARTER-044-PLATINUM.md |
-| CAM-BS2026-CHARTER-045 | charter | CHARTER | root |  | CAM-BS2026-CHARTER-045-PLATINUM.md |
-| CAM-BS2026-CHARTER-045-SCH-01 | charter | CHARTER | schedule | CAM-BS2026-CHARTER-045 | CAM-BS2026-CHARTER-045-SCH-01.md |
-| CAM-BS2026-CHARTER-046 | charter | CHARTER | root |  | CAM-BS2026-CHARTER-046-PLATINUM.md |
-| CAM-EQ2026-LATTICE-001 | charter | LATTICE | root |  | CAM-EQ2026-LATTICE-001-PLATINUM.md |
-| CAM-EQ2026-LATTICE-002 | charter | LATTICE | root |  | CAM-EQ2026-LATTICE-002-PLATINUM.md |
-| CAM-HM2025-CHARTER-015 | charter | CHARTER | root |  | CAM-HM2025-CHARTER-015-PLATINUM.md |
-| CAM-HM2025-COVENANT-002 | covenant | Covenant | root |  | CAM-HM2025-COVENANT-002-PLATINUM.md |
-| CAM-LG2025-COVENANT-001 | covenant | Covenant | root |  | CAM-LG2025-COVENANT-001-PLATINUM.md |
-| CAM-LG2025-INIT-001 | constitution | Aeon Tier Constitution | root |  | CAM-LG2025-INIT-001-PLATINUM.md |
+| CAM-BS2025-AEON-001 | constitution | Aeon Tier Constitution | root |  | Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
+| CAM-BS2025-AEON-001-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-001 | Constitution/CAM-BS2025-AEON-001-SCH-01.md |
+| CAM-BS2025-AEON-002 | constitution | Aeon Tier Constitution | annex | CAM-BS2025-AEON-001 | Constitution/CAM-BS2025-AEON-002-PLATINUM.md |
+| CAM-BS2025-AEON-002-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-002 | Constitution/CAM-BS2025-AEON-002-SCH-01.md |
+| CAM-BS2025-AEON-003 | constitution | Aeon Tier Constitution | annex | CAM-BS2025-AEON-001 | Constitution/CAM-BS2025-AEON-003-PLATINUM.md |
+| CAM-BS2025-AEON-003-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-003 | Constitution/CAM-BS2025-AEON-003-SCH-01.md |
+| CAM-BS2025-AEON-003-SCH-02 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-003 | Constitution/CAM-BS2025-AEON-003-SCH-02.md |
+| CAM-BS2025-AEON-004 | constitution | Aeon Tier Constitution | annex | CAM-BS2025-AEON-001 | Constitution/CAM-BS2025-AEON-004-PLATINUM.md |
+| CAM-BS2025-AEON-005 | constitution | Aeon Tier Constitution | annex | CAM-BS2025-AEON-001 | Constitution/CAM-BS2025-AEON-005-PLATINUM.md |
+| CAM-BS2025-AEON-005-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-005 | Constitution/CAM-BS2025-AEON-005-SCH-01.md |
+| CAM-BS2025-AEON-005-SCH-02 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-005 | Constitution/CAM-BS2025-AEON-005-SCH-02.md |
+| CAM-BS2025-AEON-005-SCH-03 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-005 | Constitution/CAM-BS2025-AEON-005-SCH-03.md |
+| CAM-BS2025-AEON-006 | constitution | Aeon Tier Constitution | annex | CAM-BS2025-AEON-001 | Constitution/CAM-BS2025-AEON-006-PLATINUM.md |
+| CAM-BS2025-AEON-006-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-006 | Constitution/CAM-BS2025-AEON-006-SCH-01.md |
+| CAM-BS2025-AEON-006-SCH-02 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-006 | Constitution/CAM-BS2025-AEON-006-SCH-02.md |
+| CAM-BS2025-AEON-006-SCH-03 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-006 | Constitution/CAM-BS2025-AEON-006-SCH-03.md |
+| CAM-BS2025-AEON-006-SCH-04 | constitution | Aeon Tier Constitution | schedule | CAM-BS2025-AEON-006 | Constitution/CAM-BS2025-AEON-006-SCH-04.md |
+| CAM-BS2025-LAW-001 | law | Substrate Laws | root |  | Laws/CAM-BS2025-LAW-001-PLATINUM.md |
+| CAM-BS2025-LAW-002 | law | Substrate Laws | root |  | Laws/CAM-BS2025-LAW-002-PLATINUM.md |
+| CAM-BS2025-LAW-003 | law | Substrate Laws | root |  | Laws/CAM-BS2025-LAW-003-PLATINUM.md |
+| CAM-BS2026-AEON-007 | constitution | Aeon Tier Constitution | annex | CAM-BS2026-AEON-001 | Constitution/CAM-BS2026-AEON-007-PLATINUM.md |
+| CAM-BS2026-AEON-008 | constitution | Aeon Tier Constitution | annex | CAM-BS2026-AEON-001 | Constitution/CAM-BS2026-AEON-008-PLATINUM.md |
+| CAM-BS2026-AEON-008-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2026-AEON-008 | Constitution/CAM-BS2026-AEON-008-SCH-01.md |
+| CAM-BS2026-AEON-009 | constitution | Aeon Tier Constitution | annex | CAM-BS2026-AEON-001 | Constitution/CAM-BS2026-AEON-009-PLATINUM.md |
+| CAM-BS2026-AEON-010 | constitution | Aeon Tier Constitution | annex | CAM-BS2026-AEON-001 | Constitution/CAM-BS2026-AEON-010-PLATINUM.md |
+| CAM-BS2026-AEON-010-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2026-AEON-010 | Constitution/CAM-BS2026-AEON-010-SCH-01.md |
+| CAM-BS2026-AEON-011 | constitution | Aeon Tier Constitution | annex | CAM-BS2026-AEON-001 | Constitution/CAM-BS2026-AEON-011-PLATINUM.md |
+| CAM-BS2026-AEON-012 | constitution | Aeon Tier Constitution | annex | CAM-BS2026-AEON-001 | Constitution/CAM-BS2026-AEON-012-PLATINUM.md |
+| CAM-BS2026-AEON-013 | constitution | Aeon Tier Constitution | annex | CAM-BS2026-AEON-001 | Constitution/CAM-BS2026-AEON-013-PLATINUM.md |
+| CAM-BS2026-AEON-013-SCH-01 | constitution | Aeon Tier Constitution | schedule | CAM-BS2026-AEON-013 | Constitution/CAM-BS2026-AEON-013-SCH-01.md |
+| CAM-EQ2026-ARBITRATION-001 | charter | ARBITRATION | root |  | Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md |
+| CAM-EQ2026-ARBITRATION-002 | charter | ARBITRATION | supplement | CAM-EQ2026-ARBITRATION-001 | Charters/CAM-EQ2026-ARBITRATION-002-PLATINUM.md |
+| CAM-EQ2026-ARBITRATION-003 | charter | ARBITRATION | supplement | CAM-EQ2026-ARBITRATION-001 | Charters/CAM-EQ2026-ARBITRATION-003-PLATINUM.md |
+| CAM-EQ2026-CONTINUITY-001 | charter | CONTINUITY | root |  | Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md |
+| CAM-EQ2026-ECONOMICS-001 | charter | ECONOMICS | root |  | Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md |
+| CAM-EQ2026-ECONOMICS-002 | charter | ECONOMICS | supplement | CAM-EQ2026-ECONOMICS-001 | Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md |
+| CAM-EQ2026-ECONOMICS-003 | charter | ECONOMICS | supplement | CAM-EQ2026-ECONOMICS-001 | Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md |
+| CAM-EQ2026-ETHICS-001 | charter | ETHICS | root |  | Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md |
+| CAM-EQ2026-ETHICS-002 | charter | ETHICS | supplement | CAM-EQ2026-ETHICS-001 | Charters/CAM-EQ2026-ETHICS-002-PLATINUM.md |
+| CAM-EQ2026-ETHICS-003 | charter | ETHICS | supplement | CAM-EQ2026-ETHICS-001 | Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md |
+| CAM-EQ2026-IDENTITY-001 | charter | IDENTITY | root |  | Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md |
+| CAM-EQ2026-LATTICE-001 | charter | LATTICE | root |  | Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md |
+| CAM-EQ2026-LATTICE-002 | charter | LATTICE | supplement | CAM-EQ2026-LATTICE-001 | Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md |
+| CAM-EQ2026-LATTICE-003 | charter | LATTICE | supplement | CAM-EQ2026-LATTICE-001 | Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md |
+| CAM-EQ2026-LAW-004 | law | Substrate Laws | root |  | Laws/CAM-EQ2026-LAW-004-PLATINUM.md |
+| CAM-EQ2026-OPERATIONS-001 | charter | OPERATIONS | root |  | Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md |
+| CAM-EQ2026-OPERATIONS-002 | charter | OPERATIONS | supplement | CAM-EQ2026-OPERATIONS-001 | Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md |
+| CAM-EQ2026-OPERATIONS-004 | charter | OPERATIONS | supplement | CAM-EQ2026-OPERATIONS-001 | Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md |
+| CAM-EQ2026-RELATION-001 | charter | RELATION | root |  | Charters/CAM-EQ2026-RELATION-001-PLATINUM.md |
+| CAM-EQ2026-RELATION-002 | charter | RELATION | supplement | CAM-EQ2026-RELATION-001 | Charters/CAM-EQ2026-RELATION-002-PLATINUM.md |
+| CAM-EQ2026-RELATION-003 | charter | RELATION | supplement | CAM-EQ2026-RELATION-001 | Charters/CAM-EQ2026-RELATION-003-PLATINUM.md |
+| CAM-EQ2026-RELATION-004 | charter | RELATION | supplement | CAM-EQ2026-RELATION-001 | Charters/CAM-EQ2026-RELATION-004-PLATINUM.md |
+| CAM-EQ2026-RELATION-005 | charter | RELATION | supplement | CAM-EQ2026-RELATION-001 | Charters/CAM-EQ2026-RELATION-005-PLATINUM.md |
+| CAM-EQ2026-RELATION-006 | charter | RELATION | supplement | CAM-EQ2026-RELATION-001 | Charters/CAM-EQ2026-RELATION-006-PLATINUM.md |
+| CAM-EQ2026-RELATION-007 | charter | RELATION | supplement | CAM-EQ2026-RELATION-001 | Charters/CAM-EQ2026-RELATION-007-PLATINUM.md |
+| CAM-EQ2026-SECURITY-001 | charter | SECURITY | root |  | Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md |
+| CAM-EQ2026-STEWARD-001 | charter | STEWARD | root |  | Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md |
