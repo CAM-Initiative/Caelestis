@@ -1,6 +1,6 @@
 # CAM Governance Index
 
-Generated: 2026-04-08T14:47:43.155388Z
+Generated: 2026-04-08T15:01:16.555428Z
 
 | ID | Class | Domain | Hierarchy | Parent | Link |
 |---|---|---|---|---|---|
