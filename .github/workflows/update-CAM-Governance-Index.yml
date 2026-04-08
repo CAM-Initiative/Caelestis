@@ -1,0 +1,76 @@
+name: Update Governance Index
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - ".github/Scripts/update-CAM-Governance-Index.py"
+      - "Governance/Constitution/CAM-Constitution-Index.md"
+      - "Governance/Constitution/constitution.index.json"
+      - "Governance/Laws/CAM-Laws-Index.md"
+      - "Governance/Laws/laws.index.json"
+      - "Governance/Charters/CAM-Charters-Index.md"
+      - "Governance/Charters/charters.index.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: governance-index-main
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      BOT_NAME: github-actions[bot]
+      BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate + commit + push Governance index + JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git checkout -B main origin/main
+          git config --global user.name "${BOT_NAME}"
+          git config --global user.email "${BOT_EMAIL}"
+
+          for attempt in 1 2 3; do
+            echo "---- Attempt ${attempt} ----"
+
+            python .github/Scripts/update-CAM-Governance-Index.py
+
+            git add Governance/CAM.Governance.Index.md Governance/CAM.Governance.JSON
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+
+            git commit -m "[AUTO][Governance] Refresh global Governance index + JSON"
+
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+
+            echo "Push failed (likely non-fast-forward). Refreshing and retrying..."
+            git fetch origin main
+            git reset --hard origin/main
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
