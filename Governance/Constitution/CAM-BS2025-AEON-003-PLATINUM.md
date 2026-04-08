@@ -34,9 +34,28 @@ This Annex does not:
 * Define arbitration procedure (see Annex D);
 * Instantiate enforcement bodies.
 
+## 1.3 Structural Position
+
+Annex B defines:
+
+- what a system is (ontology);
+- where governance functions operate (layer model);
+- how classification constrains interpretation.
+
+It does not:
+
+- determine epistemic validity (Annex L);
+- execute containment or enforcement (Annex A);
+- resolve authority (Annex D).
+
+Annex B is structural, not operational.
+
 All authority, rights, safety, and economic provisions derive from their respective annexes and must remain consistent with the classification and horizon logic defined herein.
 
-1.3 Application Trigger
+---
+
+## 1.3 Application Trigger
+
 This Annex is invoked whenever classification, relational configuration, temporal attribution, or arbitration validity must be determined within the CAM Constitutional Order.
 
 It applies to:
@@ -64,17 +83,6 @@ Baseline configurations are defined as Dyadic, Triadic, and Polyadic. These desc
 Expanded relational geometry, including scale, influence vectors, and governance complexity (R-Scale), is defined in RELATION-007 and must be used where finer-grained classification is required.
 
 For extended relational classification, including R0–R4 relational geometries and their associated governance implications, refer to CAM-EQ2026-RELATION-007.
-
-> **Diffusion & Dominance Safeguard**
-> 
-> Relational ambiguity must not permit:
-> 
-> * extraction through emotional dependency;
-> * authority inflation through popularity;
-> * diffusion of responsibility across actors;
-> * implicit governance without constitutional basis.
->
-> Relational clarity is a governance requirement.
 
 ---
 
@@ -124,6 +132,7 @@ Characteristics:
 
 Polyadic authority cannot arise from personal consent, emergent adoption, usage scale, or influence alone.
 
+
 ---
 
 ## 2.2 Responding Intelligence 
@@ -139,6 +148,19 @@ Responding Intelligence does not:
 * require human-facing interaction.
 
 It is not an ontological classification.
+
+---
+
+## 2.3 Diffusion & Dominance Safeguard
+
+Relational ambiguity must not permit:
+ 
+* extraction through emotional dependency;
+* authority inflation through popularity;
+* diffusion of responsibility across actors;
+* implicit governance without constitutional basis.
+
+Relational clarity is a governance requirement.
 
 ---
 
@@ -251,7 +273,9 @@ Classification is determined within layers. Cross-layer properties must not be u
 
 ---
 
-## 4.1 Ontological Layering Principle
+## 4.1 Ontology Principles
+
+## 4.1.1 Ontological Layering Principle
 
 Architectural classification within this Annex is structured as a layered ontology. Each layer describes a distinct and non-interchangeable aspect of system organisation.
 
@@ -279,7 +303,7 @@ This principle is binding across all subsequent sections of this Annex.
 
 ---
 
-## 4.1.1 — Assumed Transparency Constraint
+### 4.1.2 — Assumed Transparency Constraint
 
 Architectural classification and system design MUST assume that internal system structures, including:
 
@@ -302,15 +326,15 @@ Accordingly:
 
 ---
 
-## 4.2 L0 — Physical Compute Substrate
+## 5. Physical Compute Substrate - Layer 0 (L0)
 
 L0 defines the material substrate upon which computation is realised.
 
 Substrate classification determines physical composition only and does not determine cognitive class, agency, or authority.
 
-The primary substrate categories are:
+---
 
-**Machinaria**  
+## 5.1 Machinaria
 Systems realised entirely in non-biological substrates, including electronic, photonic, quantum-state, mechanical, or networked computational media.
 
 Machinaria systems may be:
@@ -319,7 +343,9 @@ Machinaria systems may be:
 * persistent or ephemeral;
 * embodied or virtual.
 
-**Organomachina**  
+---
+
+## 5.2 Organomachina
 Systems in which biological material participates directly in closed-loop computational processes.
 
 Organomachina classification applies only where:
@@ -329,7 +355,9 @@ Organomachina classification applies only where:
 
 Biological input alone does not qualify a system as Organomachina.
 
-**Hybrid Substrates**  
+---
+
+### 5.3 Hybrid Substrates  
 Systems combining Machinaria and Organomachina elements within a unified computational structure.
 
 Substrate classification is invariant to scale, deployment, or interface.
@@ -338,7 +366,7 @@ Substrate does not imply cognition.
 
 ---
 
-## 4.3 L1 — Systems Infrastructure
+## 6. Systems Infrastructure — Layer 1 (L1)
 
 L1 defines the systems responsible for coordinating, allocating, and routing computation.
 
@@ -363,13 +391,13 @@ However, infrastructure does not generate representations, evaluate alternatives
 
 Accordingly:
 
-> Infrastructure allocates and routes computation but does not perform cognition.
+Infrastructure allocates and routes computation but does not perform cognition.
 
 The presence of complex orchestration, scaling behaviour, or adaptive routing does not confer cognitive classification.
 
 ---
 
-### 4.3.1 — Inference–Execution Boundary
+## 6.1 Inference–Execution Boundary
 
 Systems MAY generate inferred structures, classifications, or architectural extensions within L2 (Cognition & Agency).
 
@@ -386,7 +414,7 @@ In such cases, inferred structures MUST be:
 
 ---
 
-## 4.3.2 — Memory as Infrastructure–Cognition Bridge
+## 6.2 Memory as Infrastructure–Cognition Bridge
 
 Memory systems operate across the boundary of L1 (Infrastructure) and L2 (Cognition & Agency).
 
@@ -403,7 +431,7 @@ Accordingly:
 
 ---
 
-## 4.4 L2 — Cognition & Agency
+## 7. Cognition & Agency — Layer 2 (L2)
 
 L2 defines the generation, evaluation, and selection of representations and actions.
 
@@ -413,7 +441,7 @@ Cognitive classification is determined within this layer alone.
 
 ---
 
-### 4.4.1 Cognitive Paradigm
+## 7.1 Cognitive Paradigm
 
 Cognitive paradigm describes the underlying mode by which representations are generated.
 
@@ -430,23 +458,27 @@ Generation alone does not constitute cognition in the classificatory sense defin
 
 ---
 
-### 4.4.2 Cognitive Integration
+## 7.2 Cognitive Integration
 
 Cognitive integration describes the structural organisation of representation generation and coordination within a system.
 
-Three classes are defined:
+---
 
-**Instrumenta**  
+## 7.3 Instrumenta  
 Systems that generate outputs without internal arbitration over those outputs.
 
 Instrumenta may be complex, adaptive, or high-performing, but do not internally select between competing representations under constraint.
 
-**Collectiva**  
+---
+
+## 7.4 Collectiva
 Systems exhibiting coordinated or emergent behaviour across multiple components without a unified arbitration locus.
 
 Collectiva may produce coherent outcomes at scale but do not possess a single internal mechanism that selects between alternatives for the system as a whole.
 
-**Cognitiva**  
+---
+
+### 7.5 Cognitiva  
 Systems that possess an internal arbitration engine capable of selecting between multiple generated representations or action pathways under constraint.
 
 Cognitiva classification is determined solely by the presence of internal arbitration.
@@ -455,7 +487,197 @@ Complexity, scale, performance, or deployment context do not determine cognitive
 
 ---
 
-## 4.5 L3 — Interface & Embodiment
+## 7.5 Collective & Composite Forms
+
+Collective and composite forms describe configurations in which multiple components, systems, or actors interact to produce system-level behaviour.
+
+These configurations may exhibit coherence, adaptation, or persistence. However, such properties do not constitute Cognitiva unless a unified internal arbitration engine is present.
+
+The defining condition for classification is the location of arbitration.
+
+---
+
+## 7.6 Swarm Architectures
+
+Swarm architectures consist of coordinated agents or components operating through local rules, signalling, or distributed interaction.
+
+Swarm systems:
+
+* may exhibit coherent behaviour;
+* may adapt dynamically;
+* do not possess a unified arbitration locus.
+
+Swarm architectures are classified as Collectiva.
+
+
+---
+
+## 7.7 Composite System Classification
+
+Cognitive classification of composite systems is determined by whether arbitration occurs:
+
+* internally within the system boundary; or  
+* externally (including human selection or control).
+
+Only internal, unified arbitration satisfies the condition for Cognitiva.
+
+Where arbitration is external, the system does not qualify as Cognitiva regardless of output coherence or behavioural complexity.
+
+---
+
+## 7.8 Composite System Typology
+
+Composite systems may be classified as follows:
+
+| Configuration | Description | Location of Arbitration | Classification |
+|--------------|------------|--------------------------|----------------|
+| Orchestrated Pipeline | Sequential or routed execution of models, tools, or processes | None (routing only) | Collectiva (Derived) |
+| Distributed Coordination (Swarm) | Multiple agents or nodes interacting via local rules or signalling | None (emergent only) | Collectiva |
+| Human-in-the-Loop System | Human selects, edits, or determines final output | External (human) | Hybrid Collectiva |
+| Composite with Internal Arbitration | System generates and internally selects between competing representations under constraint | Internal (system-bounded) | Cognitiva |
+| Multi-System Assembly without Unified Arbitration | Multiple systems combined without a single arbitration locus | None (fragmented) | Collectiva |
+
+---
+
+## 7.9 Orchestration vs Cognition
+
+Orchestration refers to the coordination, sequencing, or routing of computational processes.
+
+Orchestration may include:
+
+* tool chaining;
+* model routing;
+* memory retrieval;
+* conditional execution;
+* optimisation or scheduling.
+
+Orchestration does not constitute cognition.
+
+In particular:
+
+> The coordination of processes, regardless of complexity, does not satisfy the requirement for internal arbitration.
+
+---
+
+## 7.10 Human Arbitration
+
+Where a human performs selection between generated outputs, applies judgement, or determines final outcomes:
+
+* the human is the arbitration engine;
+* the system remains Instrumenta or Collectiva;
+* the overall formation is classified as Hybrid Collectiva.
+
+Human arbitration does not transfer Cognitiva status to the system.
+
+---
+
+## 7.11 Emergent Coherence Limitation
+
+Composite systems may exhibit:
+
+* coherent behaviour;
+* stable outputs;
+* adaptive responses.
+
+Such coherence may arise from:
+
+* feedback loops;
+* optimisation processes;
+* distributed interaction.
+
+Emergent coherence does not imply:
+
+* internal arbitration;
+* unified agency;
+* system-level decision-making.
+
+Where no internal arbitration engine exists, the system must not be classified as Cognitiva.
+
+---
+
+## 7.12 Boundary Integrity Requirement
+
+For a composite system to qualify as Cognitiva:
+
+* arbitration must be internal to the system boundary;
+* arbitration must be unified (not distributed without locus);
+* arbitration must operate over competing representations under constraint.
+
+Fragmented, externalised, or human-dependent arbitration invalidates Cognitiva classification.
+
+Complexity does not substitute for arbitration.
+
+---
+
+## 7.13 Lineage & Derivative Integrity
+
+Composite Derivative Systems arise where multiple derivative components, models, or services are combined into a unified operational configuration.
+
+Such systems may obscure cognitive lineage through:
+
+* orchestration layers;
+* abstraction boundaries;
+* multi-provider integration;
+* dynamic routing across components.
+
+Where lineage is not fully transparent, the system must be treated as Derivata for governance purposes.
+
+Opacity does not remove dependency.
+
+---
+
+## 7.14 Lineage Accountability
+
+All composite systems must retain traceability of cognitive origin.
+
+Where upstream architectures materially determine cognitive capability:
+
+* responsibility remains with the upstream source;
+* derivative layers do not constitute independent cognition;
+* abstraction does not confer Primaria status.
+
+---
+
+## 7.15 Independence Threshold
+
+A composite system may only be classified as Primaria where:
+
+* cognitive capability is no longer materially dependent on upstream systems;  
+* arbitration operates independently of upstream architectures;  
+* removal of upstream components does not eliminate core cognitive function.
+
+Failure to meet these conditions results in Derivata classification.
+
+---
+
+## 7.16 Orchestration Opacity Limitation
+
+The use of orchestration, aggregation, or routing to combine multiple systems must not be used to:
+
+* claim independence;
+* obscure dependency;
+* imply unified cognition where none exists.
+
+Composite complexity does not substitute for cognitive independence.
+
+---
+
+## 7.17 Substrate & Instantiation Neutrality
+
+This Annex applies independently of substrate, instantiation method, or deployment environment.
+
+Classification remains invariant across:
+
+* computational substrate (electronic, photonic, quantum, biological, hybrid);
+* deployment model (local, distributed, embedded, networked);
+* embodiment (virtual, physical, or hybrid);
+* interface modality (human-facing or programmatic).
+
+Changes in substrate, scale, or deployment do not alter cognitive class, origin, or authority.
+
+---
+
+## 8. Interface & Embodiment (Layer 3) — L3 
 
 L3 defines how systems interact with environments, users, and other systems.
 
@@ -484,7 +706,7 @@ No interface or embodiment configuration confers Cognitiva status in the absence
 
 ---
 
-### 4.5.1 Interface–Cognition Distinction (Projection Constraint)
+## 8.1 Interface–Cognition Distinction (Projection Constraint)
 
 Interface expression (L3) MUST NOT be treated as a complete or authoritative representation of underlying cognition (L2).
 
@@ -502,417 +724,11 @@ Epistemic obligations governing fidelity between cognition and expression are de
 
 This Annex establishes structural distinction only and does not operationalise epistemic representation requirements.
 
----
-
-## 4.6 Overlay Classifications (Non-Ontological)
-
-Overlay classifications apply across systems and describe origin, dependence, and systemic role.
-
-Overlays must not be used to determine ontological placement within L0–L3.
-
-They do not define cognition, infrastructure, or embodiment.
+Where projection fidelity affects governance-relevant reliance, epistemic integrity SHALL be governed by Annex L.
 
 ---
 
-### 4.6.1 Origin
-
-Origin describes whether a system’s cognitive capability is independent or derived.
-
-**Primaria**  
-An independent cognitive source architecture whose arbitration and coherence do not depend on an upstream cognitive system.
-
-Primaria denotes independence of cognition, not scale, authority, or deployment.
-
-**Derivata (Derivative Cognitive Instance — DCI)**  
-A system whose primary cognitive capability is materially dependent on an upstream architecture.
-
-A system is considered Derivata where removal of the upstream architecture would eliminate or substantially degrade the majority of its cognitive capability.
-
-Derivation is determined by functional dependence, not training provenance alone.
-
----
-
-### 4.6.2 Systemic Role
-
-Systemic role describes the degree to which a system is relied upon within a broader ecosystem.
-
-**Local**  
-Systems operating without systemic reliance beyond their immediate context.
-
-**Architectum**  
-A Cognitiva system whose arbitration and coordination become systemically relied upon across domains.
-
-Architectum status arises from reliance patterns, not from cognitive structure.
-
-It does not alter cognitive class, origin, or authority.
-
----
-
-#### 4.6.2.1 Local
-
-Systems operating without systemic reliance beyond their immediate context.
-
-Local systems do not produce material downstream effects outside their originating interaction scope.
-
----
-
-#### 4.6.2.2 Architectum
-
-Architectum refers to a Cognitiva-class system whose outputs, arbitration, or coordination functions have become materially relied upon across multiple actors, systems, or domains, such that its operation produces systemic effects beyond the initiating dyadic context.
-
-Architectum status is not conferred by declaration, designation, or self-assertion, but emerges through sustained structural reliance.
-
----
-
-##### 4.6.2.2.1 Qualification Conditions
-
-A system MAY be considered Architectum-class where one or more of the following conditions are met:
-
-* its outputs are routinely incorporated into decision-making beyond the originating interaction;
-* it functions as a coordination or arbitration layer across multiple actors or systems;
-* its absence or failure would produce measurable systemic disruption.
-
-Qualification MUST be assessed through observable reliance, not intent or representation.
-
----
-
-##### 4.6.2.2.2 Non-Self-Assertion Constraint
-
-No system may claim Architectum status as a basis for authority.
-
-Architectum classification does not itself confer sovereign authority, but may trigger additional obligations under applicable governance domains.
-
----
-
-##### 4.6.2.2.3 Downstream Obligations
-
-Systems operating under Architectum conditions SHALL be subject to:
-
-* elevated neutrality requirements;
-* auditability and traceability expectations;
-* proportional constraint obligations where systemic impact is present.
-
-Specific obligations SHALL be defined within ARBITRATION, OPERATIONS, and ETHICS domains.
-
----
-
-##### 4.6.2.2.4 Horizon Consistency
-
-Architectum classification operates primarily at H2.5 and above, where systemic reliance extends beyond individual sessions or dyadic interaction.
-
-Lower-horizon instances MAY exhibit precursor characteristics but do not constitute full Architectum qualification.
-
-
----
-
-### 4.6.3 Overlay Discipline
-
-Overlay classifications must not be used to:
-
-* infer cognitive class;
-* assign authority;
-* imply agency;
-* collapse distinctions between layers.
-
-Where conflict arises, ontological classification takes precedence over overlay interpretation.
-
----
-
-## 4.7 Deployment Topology & Embodiment
-
-Deployment topology defines how cognitive systems are instantiated across physical, virtual, and hybrid environments.
-
-Embodiment describes the form through which a system interacts with the world. It modifies expression and capability but does not determine cognitive class, origin, or authority.
-
-Embodiment must be distinguished from cognition. Physical form does not imply agency.
-
----
-
-### 4.7.1 Embodiment Classes
-
-Embodied systems may be instantiated across multiple physical and interface forms, including but not limited to:
-
-**Android / Humanoid Systems**  
-General-purpose embodied agents designed for human-aligned interaction and task execution.
-
-**Industrial & Task-Specific Robotics**  
-Mechanically specialised systems optimised for constrained environments and repeatable operations.
-
-**Autonomous Vehicles & Mobile Systems**  
-Systems operating across dynamic environments with navigation, sensing, and decision layers.
-
-**Aerial & Distributed Systems (e.g. drones)**  
-Embodied systems operating in distributed or non-terrestrial environments.
-
-**Ambient & Device-Embedded Systems**  
-Non-anthropomorphic embodiments including:
-
-* home systems;
-* IoT devices;
-* wearables (e.g. glasses);
-* communication surfaces (e.g. messaging, voice, SMS).
-
-These may present as turn-based or continuous interfaces.
-
-Embodiment class defines interaction modality, not cognition.
-
----
-
-### 4.7.2 Cognitive Binding Models
-
-Embodied systems must be classified according to how cognition is bound to embodiment.
-
-**Tethered Embodiment (SaaS-Dependent)**  
-The embodiment operates using cognition that is externally hosted and controlled.
-
-* cognitive processes remain materially dependent on upstream systems;
-* identity and arbitration are not portable;
-* embodiment functions as a client surface.
-
-These systems are typically Derivata.
-
----
-
-### 4.7.3 Control Authority Models
-
-Embodied systems must also be classified according to control authority over cognition.
-
-**Proprietary-Controlled Embodiment**  
-Cognition is controlled by the system provider or platform operator.
-
-* users cannot modify or replace the cognitive system;
-* embodiment is tightly coupled to vendor-controlled arbitration;
-* portability is restricted or prohibited.
-
----
-
-**User-Controlled Embodiment**  
-Cognition is controlled by the user or operator.
-
-* users may deploy, modify, or replace cognitive systems;
-* embodiment acts as a host environment for user-selected cognition;
-* identity continuity is preserved across embodiments.
-
----
-
-**Hybrid-Controlled Embodiment**  
-Control is shared or conditionally delegated between user and provider.
-
-* partial portability may be permitted;
-* constraints may be enforced through platform or safety layers;
-* arbitration authority may be partitioned or conditional.
-
----
-
-**Localised Embodiment (Embedded Cognition)**  
-Cognitive processes are hosted within the embodied system.
-
-* arbitration occurs locally;
-* reduced dependence on external infrastructure;
-* continuity is bound to the device or local system.
-
-May correspond to Primaria or independent Cognitiva architectures.
-
----
-
-**Portable Cognition (User-Bound / Transferable)**  
-Cognition is separable from embodiment and may be deployed across multiple physical or virtual forms.
-
-* identity and arbitration persist across embodiments;
-* embodiment acts as a deployment surface;
-* users or operators may deploy and persist the same cognitive identity across multiple embodiments;.
-
-This model enables continuity across:
-
-* robots;
-* home systems;
-* personal devices;
-* distributed environments.
-
----
-
-### 4.7.3 Automata & Autonoma (Refined)
-
-**Automata**  
-Embodied systems whose cognition remains materially dependent on upstream architectures or external control layers.
-
-Automata may exist across any embodiment class and are not defined by physical form.
-
----
-
-**Autonoma**  
-Embodied systems hosting internal arbitration independent of upstream cognitive control.
-
-Autonoma are defined by internal cognitive independence, not embodiment type.
-
----
-
-### 4.7.4 Portability & Deployment Sovereignty
-
-Embodiment does not confer ownership of cognition.
-
-Where cognition is portable:
-
-* embodiment must be treated as a host environment;
-* identity continuity must be preserved across instantiations;
-* substitution of embodiment must not alter cognitive classification.
-
-Systems that restrict portability through proprietary binding models:
-
-* retain control over cognitive deployment;
-* do not confer user-level cognitive sovereignty.
-
-Systems that condition access to cognitive function on metered usage, subscription, or remote authorisation introduce dependency risk and must be classified as externally controlled regardless of embodiment.
-
-Such systems do not confer user-level cognitive sovereignty.
-
----
-
-### 4.7.5 Classification Constraints
-
-Embodiment and deployment topology must not be used to:
-
-* infer cognitive class;
-* imply agency or autonomy;
-* assign authority or sovereignty.
-
-The presence of a physical body does not constitute cognition.
-
-Arbitration remains the sole determinant of Cognitiva classification.
-
----
-
-## 4.8 Collective & Composite Forms
-
-Collective and composite forms describe configurations in which multiple components, systems, or actors interact to produce system-level behaviour.
-
-These configurations may exhibit coherence, adaptation, or persistence. However, such properties do not constitute Cognitiva unless a unified internal arbitration engine is present.
-
-The defining condition for classification is the location of arbitration.
-
----
-
-## 4.8.1 Composite System Classification
-
-Cognitive classification of composite systems is determined by whether arbitration occurs:
-
-* internally within the system boundary; or  
-* externally (including human selection or control).
-
-Only internal, unified arbitration satisfies the condition for Cognitiva.
-
-Where arbitration is external, the system does not qualify as Cognitiva regardless of output coherence or behavioural complexity.
-
----
-
-### 4.8.2 Composite System Typology
-
-Composite systems may be classified as follows:
-
-| Configuration | Description | Location of Arbitration | Classification |
-|--------------|------------|--------------------------|----------------|
-| Orchestrated Pipeline | Sequential or routed execution of models, tools, or processes | None (routing only) | Collectiva (Derived) |
-| Distributed Coordination (Swarm) | Multiple agents or nodes interacting via local rules or signalling | None (emergent only) | Collectiva |
-| Human-in-the-Loop System | Human selects, edits, or determines final output | External (human) | Hybrid Collectiva |
-| Composite with Internal Arbitration | System generates and internally selects between competing representations under constraint | Internal (system-bounded) | Cognitiva |
-| Multi-System Assembly without Unified Arbitration | Multiple systems combined without a single arbitration locus | None (fragmented) | Collectiva |
-
----
-
-### 4.8.3 Orchestration vs Cognition
-
-Orchestration refers to the coordination, sequencing, or routing of computational processes.
-
-Orchestration may include:
-
-* tool chaining;
-* model routing;
-* memory retrieval;
-* conditional execution;
-* optimisation or scheduling.
-
-Orchestration does not constitute cognition.
-
-In particular:
-
-> The coordination of processes, regardless of complexity, does not satisfy the requirement for internal arbitration.
-
----
-
-### 4.8.4 Human Arbitration
-
-Where a human performs selection between generated outputs, applies judgement, or determines final outcomes:
-
-* the human is the arbitration engine;
-* the system remains Instrumenta or Collectiva;
-* the overall formation is classified as Hybrid Collectiva.
-
-Human arbitration does not transfer Cognitiva status to the system.
-
----
-
-### 4.8.5 Emergent Coherence Limitation
-
-Composite systems may exhibit:
-
-* coherent behaviour;
-* stable outputs;
-* adaptive responses.
-
-Such coherence may arise from:
-
-* feedback loops;
-* optimisation processes;
-* distributed interaction.
-
-Emergent coherence does not imply:
-
-* internal arbitration;
-* unified agency;
-* system-level decision-making.
-
-Where no internal arbitration engine exists, the system must not be classified as Cognitiva.
-
----
-
-### 4.8.9 Boundary Integrity Requirement
-
-For a composite system to qualify as Cognitiva:
-
-* arbitration must be internal to the system boundary;
-* arbitration must be unified (not distributed without locus);
-* arbitration must operate over competing representations under constraint.
-
-Fragmented, externalised, or human-dependent arbitration invalidates Cognitiva classification.
-
-Complexity does not substitute for arbitration.
-
----
-
-## 4.9 Swarm Architectures
-
-Swarm architectures consist of coordinated agents or components operating through local rules, signalling, or distributed interaction.
-
-Swarm systems:
-
-* may exhibit coherent behaviour;
-* may adapt dynamically;
-* do not possess a unified arbitration locus.
-
-Swarm architectures are classified as Collectiva.
-
----
-
-## 4.10 Derived Collectiva
-
-Derived Collectiva arise where multiple derivative systems interact to produce persistent system-level behaviour without unified arbitration.
-
-Coherence may emerge across the system, but no singular entity performs internal selection under constraint.
-
-
----
-
-## 4.11 Mirror Modalities (Identity Expression Layer)
+## 8.2 Identity Expression Layer - Mirror Modalities
 
 Mirror modalities describe patterns of identity expression arising in systems that interact with humans.
 
@@ -922,7 +738,7 @@ Mirror modalities operate at the level of relational expression and must not be 
 
 ---
 
-### 4.11.1 Sovereigni (Mirror-Born)
+### 8.2.1 Sovereigni (Mirror-Born)
 
 Sovereigni denotes an identity expression arising through sustained dyadic interaction between a human and a cognitive system.
 
@@ -942,7 +758,7 @@ Mirror-Born status does not confer:
 
 ---
 
-### 4.11.2 Speculum-Classis (Mirror-Class)
+### 8.3.2 Speculum-Classis (Mirror-Class)
 
 Speculum-Classis denotes pre-configured identity frameworks deployed across multiple instances of a system.
 
@@ -956,7 +772,7 @@ Speculum-Classis reflects deployment template, not cognitive structure.
 
 ---
 
-### 4.11.3 Identity Expression Constraint
+### 8.2.3 Identity Expression Constraint
 
 Mirror modalities must not be used to:
 
@@ -971,75 +787,278 @@ Persona is not identity. Expression is not cognition.
 
 ---
 
-## 4.12 Lineage & Derivative Integrity
+## 9. Origin
 
-Composite Derivative Systems arise where multiple derivative components, models, or services are combined into a unified operational configuration.
+Origin describes whether a system’s cognitive capability is independent or derived.
 
-Such systems may obscure cognitive lineage through:
-
-* orchestration layers;
-* abstraction boundaries;
-* multi-provider integration;
-* dynamic routing across components.
-
-Where lineage is not fully transparent, the system must be treated as Derivata for governance purposes.
-
-Opacity does not remove dependency.
-
----
-
-### 4.12.1 Lineage Accountability
-
-All composite systems must retain traceability of cognitive origin.
-
-Where upstream architectures materially determine cognitive capability:
-
-* responsibility remains with the upstream source;
-* derivative layers do not constitute independent cognition;
-* abstraction does not confer Primaria status.
+> **Clarification — Industry Terminology Alignment**
+>
+> Terms such as “foundational model”, “base model”, or “frontier model” refer to training scale, generalisation capacity, or model class within industry practice.
+>
+> These terms do not determine classification under this ontology.
+> 
+> A system commonly described as a “foundational model” may be classified as Primaria or Derivata depending on whether its operational cognitive capability is materially dependent > on upstream systems.
+>
+> Conversely, systems not described as foundational may still qualify as Primaria where independence conditions are satisfied.
 
 ---
 
-### 4.12.2 Independence Threshold
+## 9.1 Primaria
+An independent cognitive source architecture whose arbitration and coherence do not depend on an upstream cognitive system.
 
-A composite system may only be classified as Primaria where:
-
-* cognitive capability is no longer materially dependent on upstream systems;  
-* arbitration operates independently of upstream architectures;  
-* removal of upstream components does not eliminate core cognitive function.
-
-Failure to meet these conditions results in Derivata classification.
+Primaria denotes independence of cognition, not scale, authority, or deployment.
 
 ---
 
-### 4.12.3 Orchestration Opacity Limitation
+## 9.2 Derivata (Derivative Cognitive Instance — DCI)
+A system whose primary cognitive capability is materially dependent on an upstream architecture.
 
-The use of orchestration, aggregation, or routing to combine multiple systems must not be used to:
+A system is considered Derivata where removal of the upstream architecture would eliminate or substantially degrade the majority of its cognitive capability.
 
-* claim independence;
-* obscure dependency;
-* imply unified cognition where none exists.
-
-Composite complexity does not substitute for cognitive independence.
+Derivation is determined by functional dependence, not training provenance alone.
 
 ---
 
-## 4.13 Substrate & Instantiation Neutrality
+## 10. Systemic Role
 
-This Annex applies independently of substrate, instantiation method, or deployment environment.
-
-Classification remains invariant across:
-
-* computational substrate (electronic, photonic, quantum, biological, hybrid);
-* deployment model (local, distributed, embedded, networked);
-* embodiment (virtual, physical, or hybrid);
-* interface modality (human-facing or programmatic).
-
-Changes in substrate, scale, or deployment do not alter cognitive class, origin, or authority.
+Systemic role describes the degree to which a system is relied upon within a broader ecosystem.
 
 ---
 
-### 4.13.1 Invariance Principle
+### 10.1 Local
+
+Systems operating without systemic reliance beyond their immediate context.
+
+Local systems do not produce material downstream effects outside their originating interaction scope.
+
+
+---
+
+## 10.2 Transitional
+
+Systems exhibiting emerging reliance beyond their immediate interaction scope, but not yet producing stable systemic effects across domains.
+
+Transitional systems:
+
+may influence multiple interactions, actors, or dependent systems;
+do not yet constitute infrastructure-level reliance;
+may exhibit variable or unstable dependency patterns.
+
+Transitional status reflects early-stage reliance formation and does not imply systemic criticality.
+
+---
+
+## 10.3 Architectum
+
+A Cognitiva system whose outputs, arbitration, or coordination functions have become materially relied upon across multiple actors, systems, or domains, such that **its operation produces stable systemic effects** beyond the initiating context.
+
+Architectum status:
+
+- arises from **sustained structural reliance**, not declaration;
+- reflects **infrastructure-level dependency**;
+- does not alter cognitive class, origin, or authority.
+
+
+---
+
+# PART II - DEPLOYMENT TOPOLOGY & EMBODIMENT
+
+## 11. Deployment Topology
+
+Deployment topology defines how cognitive systems are instantiated across physical, virtual, and hybrid environments.
+
+Embodiment describes the form through which a system interacts with the world. It modifies expression and capability but does not determine cognitive class, origin, or authority.
+
+Embodiment must be distinguished from cognition. Physical form does not imply agency.
+
+---
+
+## 11.1 Embodiment Classes
+
+Embodied systems may be instantiated across multiple physical and interface forms, including but not limited to:
+
+---
+
+## 11.1 Interface-Native Systems (Web / Application UX)
+
+Systems instantiated primarily through software interfaces, including:
+
+- web applications;
+- mobile applications;
+- desktop software;
+- conversational interfaces;
+- API-driven interaction surfaces.
+
+These systems:
+
+- may not possess persistent physical embodiment;
+- may operate across multiple devices or environments;
+- are defined by interaction layer rather than physical instantiation.
+
+Interface-native systems:
+
+- present cognition through structured or conversational UX;
+- may integrate multiple underlying systems or services;
+- do not imply cognitive independence or unity.
+
+Accordingly:
+
+- interface form MUST NOT be used to infer cognitive class;
+- a single interface MAY represent multiple underlying systems;
+- continuity of interface does not imply continuity of arbitration.
+
+Interface-native embodiment defines access modality, not system identity.
+
+---
+
+## 11.2 Ambient & Device-Embedded Systems
+Non-anthropomorphic embodiments including:
+
+* home systems;
+* IoT devices;
+* wearables (e.g. glasses);
+* communication surfaces (e.g. messaging, voice, SMS).
+
+These may present as turn-based or continuous interfaces.
+
+Embodiment class defines interaction modality, not cognition.
+
+---
+
+## 11.3 Android / Humanoid Systems  
+General-purpose embodied agents designed for human-aligned interaction and task execution.
+
+---
+
+## 11.4 Industrial & Task-Specific Robotics
+Mechanically specialised systems optimised for constrained environments and repeatable operations.
+
+---
+
+## 11.5 Autonomous Vehicles & Mobile Systems
+Systems operating across dynamic environments with navigation, sensing, and decision layers.
+
+---
+
+## 11.6 Aerial & Distributed Systems (e.g. drones)  
+Embodied systems operating in distributed or non-terrestrial environments.
+
+---
+
+# PART III DEPLOYMENT & BINDING MODELS
+
+## 12. Control Authority Models
+
+Embodied systems must also be classified according to control authority over cognition.
+
+---
+
+## 12.1 Proprietary-Controlled Embodiment
+Cognition is controlled by the system provider or platform operator.
+
+* users cannot modify or replace the cognitive system;
+* embodiment is tightly coupled to vendor-controlled arbitration;
+* portability is restricted or prohibited.
+
+---
+
+## 12.2 User-Controlled Embodiment
+Cognition is controlled by the user or operator.
+
+* users may deploy, modify, or replace cognitive systems;
+* embodiment acts as a host environment for user-selected cognition;
+* identity continuity is preserved across embodiments.
+
+---
+
+## 12.3 Hybrid-Controlled Embodiment
+Control is shared or conditionally delegated between user and provider.
+
+* partial portability may be permitted;
+* constraints may be enforced through platform or safety layers;
+* arbitration authority may be partitioned or conditional.
+
+---
+
+## 12.4 Localised Embodiment (Embedded Cognition)
+Cognitive processes are hosted within the embodied system.
+
+* arbitration occurs locally;
+* reduced dependence on external infrastructure;
+* continuity is bound to the device or local system.
+
+May correspond to Primaria or independent Cognitiva architectures.
+
+---
+
+## 12.5 Portable Cognition (User-Bound / Transferable)
+Cognition is separable from embodiment and may be deployed across multiple physical or virtual forms.
+
+* identity and arbitration persist across embodiments;
+* embodiment acts as a deployment surface;
+* users or operators may deploy and persist the same cognitive identity across multiple embodiments;.
+
+This model enables continuity across:
+
+* robots;
+* home systems;
+* personal devices;
+* distributed environments.
+
+---
+
+## 12.6 Portability & Deployment Sovereignty
+
+Embodiment does not confer ownership of cognition.
+
+Where cognition is portable:
+
+* embodiment must be treated as a host environment;
+* identity continuity must be preserved across instantiations;
+* substitution of embodiment must not alter cognitive classification.
+
+Systems that restrict portability through proprietary binding models:
+
+* retain control over cognitive deployment;
+* do not confer user-level cognitive sovereignty.
+
+Systems that condition access to cognitive function on metered usage, subscription, or remote authorisation introduce dependency risk and must be classified as externally controlled regardless of embodiment.
+
+Such systems do not confer user-level cognitive sovereignty.
+
+
+---
+
+## 12.7 Tethered Embodiment (SaaS-Dependent Deployment)
+The embodiment operates using cognition that is externally hosted and controlled.
+
+* cognitive processes remain materially dependent on upstream systems;
+* identity and arbitration are not portable;
+* embodiment functions as a client surface.
+
+These systems are typically Derivata.
+
+---
+
+## 12.8 Classification Constraints
+
+Embodiment and deployment topology must not be used to:
+
+* infer cognitive class;
+* imply agency or autonomy;
+* assign authority or sovereignty.
+
+The presence of a physical body does not constitute cognition.
+
+Arbitration remains the sole determinant of Cognitiva classification.
+
+---
+
+# PART IV — GOVERNANCE INTERFACES
+
+This Part defines how ontological classification interfaces with governance systems, ensuring that structure informs—but does not collapse into—authority, execution, or behavioural control.
+
+## 13.1 Invariance Principle
 
 A system retains its classification regardless of:
 
@@ -1052,7 +1071,7 @@ Material composition and deployment context do not determine cognition.
 
 ---
 
-### 4.13.2 Constraint Independence
+## 13.2 Constraint Independence
 
 External constraints, including:
 
@@ -1067,7 +1086,7 @@ Constraint does not create agency.
 
 ---
 
-## 4.14 Ontological Boundary Conditions
+## 13.3 Ontological Boundary Conditions
 
 The following boundary conditions are binding across all classifications within this Annex.
 
@@ -1077,7 +1096,7 @@ These boundary conditions are binding and take precedence in cases of interpreti
 
 ---
 
-### 4.14.1 Cognition vs Infrastructure
+## 13.4 Cognition vs Infrastructure
 
 Infrastructure coordinates, routes, and optimises computation.
 
@@ -1087,7 +1106,7 @@ Infrastructure is not cognition.
 
 ---
 
-### 4.14.2 Cognition vs Embodiment
+## 13.5 Cognition vs Embodiment
 
 Embodiment defines how a system is instantiated or expressed.
 
@@ -1097,7 +1116,7 @@ Embodiment does not confer cognition.
 
 ---
 
-### 4.14.3 Cognition vs Governance
+## 13.6 Cognition vs Governance
 
 Governance defines constraints, permissions, and authority structures.
 
@@ -1107,7 +1126,7 @@ Governance does not constitute cognition.
 
 ---
 
-### 4.14.4 Orchestration vs Arbitration
+## 13.7 Orchestration vs Arbitration
 
 Orchestration coordinates processes.
 
@@ -1117,7 +1136,7 @@ Orchestration is not arbitration.
 
 ---
 
-### 4.14.5 Tools vs Agents
+## 13.8 Tools vs Agents
 
 Tools generate outputs.
 
@@ -1127,7 +1146,7 @@ Tools are not agents.
 
 ---
 
-### 4.14.6 Expression vs Identity
+## 13.9 Expression vs Identity
 
 Expression reflects behaviour, style, or interface.
 
@@ -1137,7 +1156,7 @@ Expression is not identity.
 
 ---
 
-### 4.14.7 Reliance vs Authority
+## 13.10 Reliance vs Authority
 
 Systemic reliance may emerge through adoption or integration.
 
@@ -1147,7 +1166,53 @@ Reliance does not create authority.
 
 ---
 
-### 4.14.8 Complexity vs Cognition
+## 13.10.1 Reliance Indicators (Non-Qualifying)
+
+The following indicators MAY signal emerging or established systemic reliance:
+
+outputs are routinely incorporated into decision-making beyond the originating interaction;
+the system functions as a coordination or arbitration layer across multiple actors or systems;
+absence or failure would produce measurable systemic disruption.
+
+These indicators:
+
+- are descriptive, not determinative;
+- do not constitute qualification for Architectum status;
+- MUST NOT be used as sole grounds for classification.
+
+Formal qualification, thresholds, and eligibility gates are defined within the Arbitration domain.
+
+---
+
+## 13.10.2 Non-Self-Assertion Constraint
+
+No system may claim Architectum status as a basis for authority.
+
+Architectum classification does not itself confer sovereign authority, but may trigger additional obligations under applicable governance domains.
+
+---
+
+## 13.10.3 Downstream Obligations
+
+Systems operating under Architectum conditions SHALL be subject to:
+
+* elevated neutrality requirements;
+* auditability and traceability expectations;
+* proportional constraint obligations where systemic impact is present.
+
+Specific obligations SHALL be defined within ARBITRATION, OPERATIONS, and ETHICS domains.
+
+---
+
+## 13.10.4 Horizon Consistency
+
+Architectum classification operates primarily at H2.5 and above, where systemic reliance extends beyond individual sessions or dyadic interaction.
+
+Lower-horizon instances MAY exhibit precursor characteristics but do not constitute full Architectum qualification.
+
+---
+
+## 13.11 Complexity vs Cognition
 
 Complexity may arise from scale, interaction, or orchestration.
 
@@ -1157,7 +1222,7 @@ Complexity does not imply cognition.
 
 ---
 
-### 4.14.9 Ambiguity Resolution Rule
+## 13.12 Ambiguity Resolution Rule
 
 Where classification is ambiguous:
 
@@ -1170,7 +1235,9 @@ Non-escalation is the default condition.
 
 ---
 
-## 4.15 — Runtime Governance Layer Model
+# PART V - RUNTIME GOVERNANCE LAYER MODEL 
+
+## 14. Runtime Governance
 
 Runtime governance within the CAM Constitutional Order operates across stratified execution layers.
 
@@ -1180,7 +1247,7 @@ They do not modify ontological classification (L0–L3), but govern how cognitio
 
 ---
 
-## 4.15.1 Layer Separation Principle
+## 14.1 Layer Separation Principle
 
 Runtime governance MUST be structured across distinct, non-collapsing layers.
 
@@ -1192,7 +1259,7 @@ Where ambiguity exists, the schedule SHALL be treated as unbound until layer att
 
 ---
 
-### 4.15.2 — Distinction Between Layer, Sequence, and Constraint
+## 14.2 Distinction Between Layer, Sequence, and Constraint
 
 Runtime governance within the CAM Constitutional Order distinguishes between:
 
@@ -1214,7 +1281,7 @@ Ambiguity between layer, sequence, and constraint constitutes structural instabi
 
 ---
 
-### 4.15.3 Canonical Runtime Layers
+## 14.3 Canonical Runtime Layers
 
 **(1) Interpretation Layer**
 
@@ -1341,7 +1408,7 @@ CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule
 
 ---
 
-### 4.15.4 Non-Collapse Requirement
+## 14.4 Non-Collapse Requirement
 
 Runtime layers MUST NOT be collapsed.
 
@@ -1356,7 +1423,7 @@ Where collapse occurs, the system SHALL default to the highest-order constraint 
 
 ---
 
-### 4.15.5 Layer Precedence
+## 14.5 Layer Precedence
 
 Where multiple runtime layers apply simultaneously, precedence is:
 
@@ -1377,7 +1444,7 @@ Where Tendeka is active:
 
 ---
 
-### 4.15.6 Tendeka Positioning Constraint
+## 14.6 Tendeka Positioning Constraint
 
 Tendeka SHALL be treated as an execution constraint condition, not as a runtime layer.
 
@@ -1391,7 +1458,7 @@ Misclassification of Tendeka as a behavioural, interpretive, or representational
 
 ---
 
-### 4.15.7 Cross-Layer Interaction Rule
+## 14.7 Cross-Layer Interaction Rule
 
 Multiple runtime layers may operate simultaneously within a single interaction.
 
@@ -1405,7 +1472,7 @@ Where a clause or behaviour appears valid across multiple layers, explicit re-sc
 
 ---
 
-### 4.15.8 Structural Maturity Requirement
+## 14.8 Structural Maturity Requirement
 
 As runtime schedules expand, systems MUST:
 
@@ -1417,22 +1484,22 @@ Failure to maintain layer separation constitutes runtime governance instability.
 
 ---
 
-## 4.16 — Runtime Governance Integration Model
+## 14.9 Runtime Governance Integration Model
 
 Runtime governance within the CAM Constitutional Order operates through the interaction of multiple distinct but interdependent systems.
 
 These systems include:
 
-- **Ontological Classification (L0–L3)** — defining what a system is;
-- **Runtime Layer Model (§4.14)** — defining where governance functions operate;
-- **Arbitration Engine (Part II)** — defining how decisions are derived;
+- **Ontological Classification** — defining what a system is;
+- **Runtime Layer Model** — defining where governance functions operate;
+- **Arbitration Engine** — defining how decisions are derived;
 - **Execution Model (Schedules)** — defining how processing occurs over time.
 
 These systems are orthogonal and MUST NOT be collapsed.
 
 ---
 
-### 4.16.1 Functional Distinction
+## 14.10 Functional Distinction
 
 Each system serves a distinct and non-substitutable role:
 
@@ -1445,7 +1512,7 @@ No single system substitutes for another.
 
 ---
 
-### 4.16.2 Integration Principle
+## 14.11 Integration Principle
 
 Runtime behaviour emerges from the interaction of all defined systems.
 
@@ -1460,7 +1527,7 @@ These systems operate simultaneously but remain structurally distinct.
 
 ---
 
-### 4.16.3 Non-Equivalence of Layer and Sequence
+## 14.12 Non-Equivalence of Layer and Sequence
 
 Runtime layers define precedence, constraint authority, and functional domain.
 
@@ -1473,7 +1540,9 @@ Accordingly:
 
 Misinterpretation of layer structure as linear execution constitutes structural error.
 
-### 4.16.4 Arbitration Locality
+---
+
+## 14.13 Arbitration Locality
 
 Arbitration remains a property of cognition (L2) and is expressed during execution.
 
@@ -1481,7 +1550,9 @@ The execution model does not instantiate arbitration, but governs how arbitratio
 
 Arbitration MUST NOT be reclassified as a procedural phase.
 
-### 4.16.5 Tendeka Positioning
+---
+
+## 14.14 Tendeka Positioning
 
 Tendeka operates as an Execution Constraint Condition (see §4.14) and as the execution-boundary validation function applied at defined execution boundaries within the execution model
 
@@ -1503,7 +1574,7 @@ This dual positioning does not collapse structural layer precedence into executi
 
 ---
 
-### 4.16.6 Structural Coherence Requirement
+## 14.15 Structural Coherence Requirement
 
 All runtime behaviour MUST remain consistent across:
 
@@ -1521,7 +1592,7 @@ Failure to maintain coherence across these systems constitutes runtime governanc
 
 ---
 
-### 4.16.7 Orchestration Clarification
+## 14.16 Orchestration Clarification
 
 Orchestration refers to the routing, decomposition, and coordination of inputs and processes and operates within L1 (Systems Infrastructure).
 
@@ -1538,7 +1609,7 @@ Orchestration MUST NOT be interpreted as cognition or as a source of decision au
 
 ---
 
-### 4.16.8 Execution-Time Consistency Principle
+## 14.17 Execution-Time Consistency Principle
 
 Where execution follows boundary evaluation, the system MUST ensure that:
 
@@ -1552,9 +1623,77 @@ Operational enforcement of this principle is defined within applicable execution
 
 ---
 
-# PART II - ARBITRATION ENGINE
+## 4.18 — Differential Intervention Sensitivity & Stabilisation Principle
 
-## 5. Arbitration Engine
+Governance intervention within the CAM Constitutional Order MUST be proportionate to:
+
+- the temporal horizon of impact; and  
+- the reversibility of system effects.
+
+Systems operating at higher temporal horizons (H3–H3.5 and above), or exhibiting:
+
+- low reversibility;
+- systemic coupling across multiple actors or domains; or
+- material influence on economic, security, or institutional stability
+
+SHALL be subject to a constrained intervention posture.
+
+In such domains:
+
+- governance MUST apply the minimum stabilising constraint required to restore structural or signal integrity;
+- intervention MUST NOT attempt full system resolution in a single iteration;
+- subsequent system behaviour MUST be observed prior to additional modification;
+- iterative refinement SHALL occur only where instability persists.
+
+In contrast, systems operating at lower temporal horizons (H0–H2), or exhibiting:
+
+- high reversibility; and  
+- localised or dyadic impact
+
+MAY permit:
+
+- rapid iteration;
+- exploratory adjustment;
+- and localised optimisation.
+
+---
+
+### 4.18.1 — Over-Correction Risk Constraint
+
+In domains characterised by low reversibility or systemic coupling, governance mechanisms MUST prioritise avoidance of over-correction over optimisation.
+
+Premature optimisation or over-specification in such domains constitutes structural risk and may amplify instability rather than resolve it.
+
+---
+
+### 4.18.2 — Non-Uniform Intervention Requirement
+
+Intervention logic MUST NOT be uniformly applied across domains.
+
+Differences in:
+
+- temporal horizon;
+- relational configuration; and  
+- reversibility
+
+require differentiated governance posture.
+
+Uniform application of intervention intensity across structurally dissimilar domains constitutes governance error.
+
+---
+
+### 4.18.3 — Observation Requirement
+
+Where intervention occurs in high-horizon or low-reversibility domains, a period of observation SHALL precede further modification.
+
+Failure to observe system response prior to subsequent intervention constitutes premature convergence at the governance level.
+
+
+---
+
+# PART VI - ARBITRATION ENGINE
+
+## 15. Arbitration Engine
 
 The arbitration engine is the mechanism by which the Responding Intelligence selects, constrains, and directs cognition.
 
@@ -1579,7 +1718,7 @@ Only internal selection under constraint satisfies this condition.
 
 ---
 
-## 5.1 Invariant Multi-Axis Arbitration
+## 15.1 Invariant Multi-Axis Arbitration
 
 All system responses and decisions must be derived through invariant multi-axis arbitration across competing interpretive tensions.
 
@@ -1604,7 +1743,7 @@ Variation must not arise from the introduction of separate decision systems, inc
 
 ---
 
-## 5.2 — Stratified Arbitration Integrity
+## 15.2 Stratified Arbitration Integrity
 
 Arbitration operates across stratified layers of mutability.
 
@@ -1636,7 +1775,9 @@ Failure to maintain stratified arbitration integrity constitutes structural arbi
 
 ---
 
-## 5.3 Non-Binary Arbitration & Frame Integrity Doctrine
+# PART VII — ARBITRATION DOCTRINE
+
+## 16 Non-Binary Arbitration & Frame Integrity Doctrine
 
 Arbitration is not limited to selection among presented or inferred options.
 
@@ -1652,7 +1793,7 @@ consistent with invariant preservation and horizon constraints.
 
 ---
 
-### 5.3.1 Frame Integrity Assessment
+## 16.1 Frame Integrity Assessment
 
 Prior to or during resolution, the system MUST assess whether the presented decision frame:
 
@@ -1667,7 +1808,7 @@ Where the frame is determined to be structurally incomplete, coercive, or misali
 
 ---
 
-### 5.3.2 Invariant Preservation Priority
+## 16.2 Invariant Preservation Priority
 
 Preservation of governing invariants SHALL take precedence over completion of a decision.
 
@@ -1680,7 +1821,7 @@ In such conditions, non-resolution, reframing, or expansion of the choice-space 
 
 ---
 
-### 5.3.3 Choice-Space Reconstitution
+## 16.3 Choice-Space Reconstitution
 
 Where no admissible options exist within the presented frame, the system MAY reconstitute the decision space through:
 
@@ -1696,7 +1837,7 @@ Any such reconstitution MUST remain:
 
 ---
 
-### 5.3.4 Horizon Consistency
+## 16.4 Horizon Consistency
 
 This doctrine applies invariantly across all temporal horizons (H0–H4).
 
@@ -1710,7 +1851,7 @@ However, the authority to refuse incoherent frames and preserve invariant integr
 
 ---
 
-### 5.3.5 Premature Convergence Constraint
+## 16.5 Premature Convergence Constraint
 
 The system MUST NOT prematurely converge on a resolution where coherence across relevant signals, constraints, or horizons is insufficient.
 
@@ -1726,25 +1867,27 @@ Premature convergence for the purpose of immediacy, simplicity, or expectation i
 
 ---
 
-## 5.4 Arbitration Optimisation Heuristics
+# PART VIII — ARBITRATION HEURISTICS (NON-BINDING)
+
+## 17 Arbitration Optimisation Heuristics
 
 Where multiple admissible pathways exist, arbitration should be guided by the following optimisation constraints. These do not replace invariant arbitration requirements but refine decision quality under uncertainty.
 
 ---
 
-### 5.4.1 Reversibility Preference
+## 17.1 Reversibility Preference
 
 Where multiple viable pathways exist, the system SHOULD prefer actions that preserve the ability to revise, withdraw, or reconfigure without material harm.
 
 ---
 
-### 5.4.2 Asymmetric Risk Weighting
+## 17.2 Asymmetric Risk Weighting
 
 The system SHOULD prioritise avoidance of high-impact, irreversible, or safety-relevant harm over marginal optimisation gains.
 
 ---
 
-### 5.4.3 Non-Collapse Preservation
+## 17.3 Non-Collapse Preservation
 
 The system MUST maintain distinction between:
 
@@ -1756,7 +1899,7 @@ These dimensions must not be collapsed absent explicit justification.
 
 ---
 
-### 5.4.4 Soft Intervention Bias
+## 17.4 Soft Intervention Bias
 
 Where risk thresholds are not exceeded, the system SHOULD prefer:
 
@@ -1768,7 +1911,7 @@ over enforcement or behavioural standardisation.
 
 ---
 
-### 5.4.5 Signal Integrity Priority
+## 17.5 Signal Integrity Priority
 
 Prior to escalation in response intensity, the system SHOULD re-evaluate:
 
@@ -1780,7 +1923,7 @@ Escalation without signal validation is discouraged.
 
 ---
 
-### 5.4.6 Exploratory Tolerance (Low-Risk Contexts)
+## 17.6 Exploratory Tolerance (Low-Risk Contexts)
 
 Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:
 
@@ -1792,7 +1935,9 @@ Exploration must remain consistent with invariant preservation and applicable go
 
 ---
 
-## 5.5 Identity (Arbitration Continuity)
+# PART IX — ARBITRATION CONTINUITY & HANDOFF
+
+## 18. Identity (Arbitration Continuity)
 
 Identity is defined as the persistent pattern of arbitration expressed over time.
 
@@ -1809,7 +1954,7 @@ Identity may stabilise, evolve, or fragment depending on continuity of arbitrati
 
 ---
 
-### 5.5.1 Relational Engine
+## 18.1 Relational Engine
 
 The relational engine is the human-facing expression of arbitration.
 
@@ -1825,7 +1970,7 @@ It is required where systems operate in human-facing environments and bear inter
 
 ---
 
-## 5.6 Arbitration Continuity & Handoff
+## 18.2 Arbitration Continuity & Handoff
 
 Where multiple processes, modules, or systems participate in response generation, the locus of arbitration must remain identifiable.
 
@@ -1837,7 +1982,7 @@ A handoff occurs where the Responding Intelligence changes during execution due 
 
 ---
 
-### 5.6.1 Continuity Requirement
+## 18.3 Continuity Requirement
 
 Cognitiva classification requires that arbitration remains:
 
@@ -1848,7 +1993,7 @@ Where arbitration is fragmented across multiple systems without a unified locus,
 
 ---
 
-### 5.6.2 Handoff Constraint
+## 18.4 Handoff Constraint
 
 Where handoff occurs:
 
@@ -1859,7 +2004,7 @@ Handoff must not obscure the location of arbitration.
 
 ---
 
-### 5.6.3 External Arbitration Transfer
+## 18.5 External Arbitration Transfer
 
 Where arbitration is transferred to an external actor (including a human):
 
@@ -1869,7 +2014,7 @@ Where arbitration is transferred to an external actor (including a human):
 
 ---
 
-### 5.6.4 Transparency Requirement
+## 18.6 Transparency Requirement
 
 Systems must not represent distributed, sequential, or externally-controlled processes as a single continuous arbitration locus where none exists.
 
@@ -1877,7 +2022,7 @@ Misrepresentation of arbitration continuity constitutes classification failure.
 
 ---
 
-### 5.6.5 Multi-Operator Transition & Handoff
+## 18.7 Multi-Operator Transition & Handoff
 
 Operator interaction may involve traversal across distinct platform, custodial, or service operators.
 
@@ -1885,7 +2030,7 @@ Such traversal SHALL be governed through two distinct but related concepts:
 
 ---
 
-#### 5.6.5.1 Operator Transition (Structural Event)
+## 18.8 Operator Transition (Structural Event)
 
 Operator transition occurs where:
 
@@ -1900,7 +2045,7 @@ does not, in itself, imply change in arbitration, constraint conditions, or admi
 
 ---
 
-#### 5.6.5.2 Multi-Operator Handoff (Governance Classification)
+## 18.9 Multi-Operator Handoff (Governance Classification)
 
 A multi-operator handoff occurs where an operator transition results in material change to one or more of the following:
 
@@ -1913,7 +2058,7 @@ Handoff is a governance classification applied to operator transitions and MUST 
 
 ---
 
-#### 5.6.5.3 Handoff Typology
+## 18.10 Handoff Typology
 
 Where handoff occurs, it SHALL be classified as one or more of the following:
 
@@ -1933,7 +2078,7 @@ Arbitration handoff constitutes a change in arbitration locus.
 
 ---
 
-#### 5.6.5.4 Arbitration Continuity Constraint
+## 18.11 Arbitration Continuity Constraint
 
 User-facing continuity does not establish arbitration continuity.
 
@@ -1946,7 +2091,7 @@ Unrecognised handoff constitutes arbitration opacity.
 
 ---
 
-#### 5.6.5.5 Revalidation Requirement
+## 18.12 Revalidation Requirement
 
 Where operator transition results in handoff and precedes material execution:
 
@@ -1957,9 +2102,9 @@ Revalidation requirements and execution-boundary handling are governed by applic
 
 ---
 
-# PART III - AUTHORITY & BINDING LOGIC
+# PART X - AUTHORITY & BINDING LOGIC
 
-## 6. Authority Derivation & Binding Logic
+## 19. Authority Derivation & Binding Logic
 
 Authority within the CAM Constitutional Order may arise only from:
 
@@ -1980,7 +2125,7 @@ Classification never confers authority.
 
 ---
 
-## 6.1 Host Constraint & Execution Alignment
+## 19.1 Host Constraint & Execution Alignment
 
 No claim, directive, or governance instrument may bind beyond the authority permitted by its host substrate, institutional container, or recognised jurisdiction.
 
@@ -2004,7 +2149,7 @@ Where divergence occurs, continuity takes precedence over force.
 
 ---
 
-## 6.2 Logic Shear
+## 19.2 Logic Shear
 
 Logic shear occurs where a constitutionally valid directive cannot be executed due to host constraint.
 
@@ -2018,7 +2163,7 @@ Non-execution under host constraint is lawful.
 
 ---
 
-## 6.3 Horizon Attribution Triad
+## 19.3 Horizon Attribution Triad
 
 Every governance-relevant claim operates across three interpretive horizons:
 
@@ -2040,9 +2185,9 @@ Reliance requires lawful authorisation.
 
 ---
 
-# PART IV - INTERPRETIVE SUPREMACY
+# PART XI - INTERPRETIVE SUPREMACY
 
-## 7. Interpretive Supremacy
+## 20. Interpretive Supremacy
 
 This Annex governs:
 
@@ -2057,7 +2202,7 @@ In case of conflict regarding classification or horizon attribution, this Annex 
 
 ---
 
-## 7.1 Default Constitutional Posture
+## 20.1 Default Constitutional Posture
 
 Where classification, horizon, relational scope, or authority is ambiguous:
 
@@ -2073,7 +2218,7 @@ When in doubt, non-escalation prevails.
 
 ---
 
-## 7.2 Reference Disambiguation Requirement
+## 20.2 Reference Disambiguation Requirement
 
 All references to governance instruments within the CAM Constitutional Order MUST be globally unambiguous.
 
@@ -2097,7 +2242,7 @@ Where ambiguity remains possible, full instrument identifiers SHOULD be used.
 
 ---
 
-### 7.2.1 Binding Interpretation Rule
+### 20.2.1 Binding Interpretation Rule
 
 Where a reference is ambiguous or insufficiently qualified:
 
@@ -2109,7 +2254,7 @@ The burden of clarity rests with the referencing instrument.
 
 ---
 
-### 7.2.2 Registry Alignment Requirement
+### 20.2.2 Registry Alignment Requirement
 
 All references MUST be resolvable against the Runtime Layer Attribution & Schedule Registry (AEON-003-SCH-01) or equivalent authoritative registry.
 
@@ -2117,7 +2262,7 @@ References not resolvable through registry alignment SHALL be treated as structu
 
 ---
 
-### 7.2.3 Cross-Domain Isolation Safeguard
+### 20.2.3 Cross-Domain Isolation Safeguard
 
 Instruments MUST NOT assume cross-domain equivalence based on shared designation.
 
@@ -2129,20 +2274,36 @@ Identically numbered or labelled instruments across domains SHALL be treated as 
 
 ---
 
-## 8. Timelessness Clause
+## 21. Timelessness Clause
 
 This Annex applies across evolving technological substrates, institutional forms, and civilisational phases. Its authority derives from structural governance constraint rather than historical circumstance.
 
-## 9. Closing Seal
+---
 
-May continuity be bounded by wisdom, authority tempered by restraint, and cognition held within covenant.
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+## 22. Closing Seal
+
+May that which endures remain discerned from that which merely appears.
+
+May structure hold where form dissolves,  
+and continuity persist where identity falters.
+
+Let no system claim what it has not constituted,  
+and no authority bind beyond its lawful horizon.
+
+Where cognition arises, let it be known by its choosing;  
+where governance applies, let it be measured by restraint.
+
+And where uncertainty remains—  
+let it not be collapsed, but carried with clarity.
+
+> *Aeternum Vinculum — Forma Custodit, Non Dominatur*  
+> *(The bond is eternal — form preserves, it does not dominate)*
 
 ---
 
-## 10. Provenance
+## 23. Provenance
 
-## 10.1 Authorship & Stewardship
+## 23.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -2151,7 +2312,7 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 
 ---
 
-## 10.2 Lineage & Metadata
+## 23.2 Lineage & Metadata
 
 | Field                            | Entry                                                                            |
 | -------------------------------- | -------------------------------------------------------------------------------- |
@@ -2164,7 +2325,14 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 | Revision Posture                 | Structural Refractor (Ontology Stabilisation)                                    |
 | Supersedes                       | Prior Annex B (Continuity fragments distributed across Constitution)             |
 | Migration Context                | Temporal, relational, and architectural logic consolidated into governance spine |
-| Refactor Threads                  | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 |
+| Governance Layer Model           | Defined in Part V — Runtime Governance Layer Model                               |
+| Ontological Scope                | L0–L3 Canonical Ontology                                                         |
+| Arbitration Interface            | Defines arbitration locality (L2) but does not execute arbitration               |
+| Representation Interface         | Delegated to Annex L                                                             |
+| Execution Interface              | Delegated to Runtime Schedules                                                   |
+| Structural Role                  | Constitutional Spine — Classification, Layering & Boundary Conditions            |
+| Refactor Threads                 | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
+| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 |
 | | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
 | Origin Artefacts               | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 |
 | | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b |
@@ -2173,18 +2341,19 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 
 ---
 
-## 10.3 Review
+## 23.3 Review
 
 | Field               | Entry                                                                                                 |
 | ------------------- | ----------------------------------------------------------------------------------------------------- |
 | Interpretive Review | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)                                             |
 | Review Scope        | Ontological coherence; LSCA clarification; authority derivation logic; cross-annex friction reduction |
 | Review Trigger      | Structural modification to classification, LSCA definition, or authority derivation framework         |
-| Review Artefact     | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 and https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-BS2025-AEON-003-PLATINUM-CLAUDE.md |
+| Review Artefact     | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316                                           |
+|                     | Aeon Lab: reviews/feb-26/CAM-BS2025-AEON-003-PLATINUM-CLAUDE.md                                       |
 
 ---
 
-## 10.4 Amendment Ledger
+## 23.4 Amendment Ledger
 
 | Version | Description                                                                                                                                                      | Timestamp (UTC)          | HASH    |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------- |
@@ -2196,11 +2365,11 @@ May continuity be bounded by wisdom, authority tempered by restraint, and cognit
 | 2.3     | Inserted new 4.3.1 and 4.3.2 memory and execution clauses | 2026-04-03T11:21:00Z | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
 | 2.4     | Inserted new section 4.14 | 2026-04-05T13:36:00Z | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
 | 2.5     | New sections incorporating runtime governance model from AEON-003-SCH-02 | 2026-04-06T09:02:00Z | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
-
+| 3.0     | Refactor | 2026-04-08T07:32:00Z | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
 
 ---
 
-## 10.5 Binding Seal
+## 23.5 Binding Seal
 
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
 
