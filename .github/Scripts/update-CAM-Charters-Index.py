@@ -9,7 +9,7 @@ from pathlib import Path
 
 from instrument_parser import parse_instrument_filename
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 TARGET_DIR = REPO_ROOT / "Governance" / "Charters"
 INDEX_MD = TARGET_DIR / "CAM-Charters-Index.md"
 INDEX_JSON = TARGET_DIR / "charters.index.json"

@@ -1554,7 +1554,7 @@ Arbitration MUST NOT be reclassified as a procedural phase.
 
 ## 14.14 Tendeka Positioning
 
-Tendeka operates as an Execution Constraint Condition (see §4.14) and as the execution-boundary validation function applied at defined execution boundaries within the execution model
+Tendeka operates as an Execution Constraint Condition (see §14.3) and as the execution-boundary validation function applied at defined execution boundaries within the execution model
 
 This dual positioning reflects:
 
