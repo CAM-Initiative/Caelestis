@@ -9,12 +9,12 @@ from pathlib import Path
 
 from instrument_parser import parse_instrument_filename
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-TARGET_DIR = REPO_ROOT / "Governance" / "Laws"
-INDEX_MD = TARGET_DIR / "CAM-Laws-Index.md"
-INDEX_JSON = TARGET_DIR / "laws.index.json"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+TARGET_DIR = REPO_ROOT / "Governance" / "Constitution"
+INDEX_MD = TARGET_DIR / "CAM-Constitution-Index.md"
+INDEX_JSON = TARGET_DIR / "constitution.index.json"
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
-SUMMARY_KEYWORDS = {"jurisdiction", "standing", "scope", "application", "purpose", "preamble", "intent"}
+SUMMARY_KEYWORDS = {"purpose", "preamble", "intent", "context"}
 SEAL_WORDS = {"platinum", "gold", "red", "black"}
 
 
@@ -89,7 +89,7 @@ def collect_items() -> list[dict]:
         if p.name == INDEX_MD.name:
             continue
 
-        parsed = parse_instrument_filename(p.name, "laws")
+        parsed = parse_instrument_filename(p.name, "constitution")
         if not parsed:
             continue
 
@@ -109,11 +109,14 @@ def collect_items() -> list[dict]:
 
 
 def render_markdown(items: list[dict]) -> str:
-    out = ["| ID | Class | Seal | Link | Title |", "|---|---|---|---|---|"]
+    out = ["| ID | Hierarchy | Parent | Seal | Link | Title |", "|---|---|---|---|---|---|"]
     for it in items:
+        hierarchy = it["hierarchy_type"] or "root"
+        parent = it["parent_id"] or ""
         seal = it["seal"] or ""
         out.append(
-            f"| {it['id']} | {it['instrument_class']} | {seal} | [{it['id']}]({it['link']}) | {it['title']} |"
+            f"| {it['id']} | {hierarchy} | {parent} | {seal} | "
+            f"[{it['id']}]({it['link']}) | {it['title']} |"
         )
     return "\n".join(out)
 

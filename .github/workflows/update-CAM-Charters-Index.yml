@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "Scripts/update-CAM-Charters-Index.py"
-      - "Scripts/instrument_parser.py"
+      - ".github/Scripts/update-CAM-Charters-Index.py"
+      - ".github/Scripts/instrument_parser.py"
       - "Governance/Charters/**"
       - "!Governance/Charters/CAM-Charters-Index.md"
       - "!Governance/Charters/charters.index.json"
@@ -54,7 +54,7 @@ jobs:
             echo "---- Attempt ${attempt} ----"
 
             # Always regenerate from the current working tree state
-            python Scripts/update-CAM-Charters-Index.py
+            python .github/Scripts/update-CAM-Charters-Index.py
 
             # Stage only the two generated artifacts
             git add Governance/Charters/CAM-Charters-Index.md Governance/Charters/charters.index.json

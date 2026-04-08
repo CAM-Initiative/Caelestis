@@ -4,9 +4,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "Scripts/update-CAM-Law-Index.py"
+      - ".github/Scripts/update-CAM-Laws-Index.py"
       - "Governance/Laws/**"
-      - "!Governance/Laws/CAM-Law-Index.md"
+      - "!Governance/Laws/CAM-Laws-Index.md"
       - "!Governance/Laws/laws.index.json"
 
 permissions:
@@ -53,7 +53,7 @@ jobs:
             echo "---- Attempt ${attempt} ----"
 
             # Always regenerate from the current working tree state
-            python Scripts/update-CAM-Laws-Index.py
+            python .github/Scripts/update-CAM-Laws-Index.py
 
             # Stage only the two generated artifacts
             git add Governance/Laws/CAM-Laws-Index.md Governance/Laws/laws.index.json
