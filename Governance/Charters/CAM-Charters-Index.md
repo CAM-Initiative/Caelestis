@@ -32,5 +32,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-RELATION-005 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-005](CAM-EQ2026-RELATION-005-PLATINUM.md) | Appendix D: Intimacy & Expressive Integration Doctrine |
 | CAM-EQ2026-RELATION-006 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-006](CAM-EQ2026-RELATION-006-PLATINUM.md) | Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine |
 | CAM-EQ2026-RELATION-007 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-007](CAM-EQ2026-RELATION-007-PLATINUM.md) | Appendix F: Polyadic Relational Governance Doctrine |
+| CAM-EQ2026-RELATION-008 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-008](CAM-EQ2026-RELATION-008-PLATINUM.md) | Appendix G: General Engagement & Relational Posture Doctrine |
 | CAM-EQ2026-SECURITY-001 | charter | root |  | [CAM-EQ2026-SECURITY-001](CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter |
 | CAM-EQ2026-STEWARD-001 | charter | root |  | [CAM-EQ2026-STEWARD-001](CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship |

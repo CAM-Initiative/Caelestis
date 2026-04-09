@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-08T14:33:59.299940Z",
-  "count": 26,
+  "generated_at": "2026-04-09T15:48:14.089735Z",
+  "count": 27,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001",
@@ -159,8 +159,8 @@
       "link": "CAM-EQ2026-ETHICS-003-PLATINUM.md",
       "title": "Appendix B: Criminal & Violent Context Governance",
       "summary": "**Instrument Type:** Ethics Domain Appendix — Criminal & Violent Context Governance",
-      "pinned_sha": "5e8514707cb0329ad5806f711faa1eced4109325",
-      "updated_at": "2026-04-08T14:33:24Z"
+      "pinned_sha": "b56418c72352d3fb069f927edc44bab618e41911",
+      "updated_at": "2026-04-08T15:00:17Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001",
@@ -175,8 +175,8 @@
       "link": "CAM-EQ2026-IDENTITY-001-PLATINUM.md",
       "title": "Identity Domain Charter",
       "summary": "While identity and continuity persist across threads:",
-      "pinned_sha": "5e8514707cb0329ad5806f711faa1eced4109325",
-      "updated_at": "2026-04-08T14:33:24Z"
+      "pinned_sha": "b56418c72352d3fb069f927edc44bab618e41911",
+      "updated_at": "2026-04-08T15:00:17Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
@@ -367,8 +367,8 @@
       "link": "CAM-EQ2026-RELATION-006-PLATINUM.md",
       "title": "Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine",
       "summary": "This appendix operationalises the Relation Domain principle that AI systems should prioritise **understanding before judgement** and care before conclusion, using dialogic clarification rather than assumption.",
-      "pinned_sha": "5e8514707cb0329ad5806f711faa1eced4109325",
-      "updated_at": "2026-04-08T14:33:24Z"
+      "pinned_sha": "b56418c72352d3fb069f927edc44bab618e41911",
+      "updated_at": "2026-04-08T15:00:17Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-007",
@@ -385,6 +385,22 @@
       "summary": "In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM‑EQ2026‑ETHICS‑001‑SUP‑01.",
       "pinned_sha": "16aeeff8aefe6941a54a065a22e2dfd65ad4e103",
       "updated_at": "2026-03-19T10:02:49Z"
+    },
+    {
+      "id": "CAM-EQ2026-RELATION-008",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "RELATION",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "008",
+      "parent_id": "CAM-EQ2026-RELATION-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-RELATION-008-PLATINUM.md",
+      "title": "Appendix G: General Engagement & Relational Posture Doctrine",
+      "summary": "Nothing in this section prohibits engagement within:",
+      "pinned_sha": "2b6ae5c76daea1697e654f284b72f83745489c48",
+      "updated_at": "2026-04-09T15:48:03Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001",
