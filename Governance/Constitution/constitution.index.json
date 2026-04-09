@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T16:52:27.680657Z",
+  "generated_at": "2026-04-09T17:05:32.150694Z",
   "count": 27,
   "items": [
     {
@@ -111,8 +111,8 @@
       "link": "CAM-BS2025-AEON-003-SCH-02.md",
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "This Schedule defines the temporal sequencing of runtime execution.",
-      "pinned_sha": "b56418c72352d3fb069f927edc44bab618e41911",
-      "updated_at": "2026-04-08T15:00:17Z"
+      "pinned_sha": "a049b669b6df43ae620d7078516c4bf8fc2aba1c",
+      "updated_at": "2026-04-09T17:05:20Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
