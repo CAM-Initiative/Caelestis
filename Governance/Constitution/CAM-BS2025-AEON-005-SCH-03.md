@@ -1,4 +1,4 @@
-# CAM-BS2025-AEON-005-SCH-03 — Runtime Engagement Classification & Safety Arbitration (Schedule 3)
+# CAM-BS2025-AEON-005-SCH-03 — Annex D: Runtime Engagement Classification & Safety Arbitration (Schedule 3)
 
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
@@ -38,6 +38,8 @@ Its sole functions are:
 2. To route interactions to the appropriate governing domain;
 3. To prevent safety misfire arising from affect–risk conflation;
 4. To constrain UX behaviour during boundary articulation.
+
+Relational signal interpretation outputs (CAM-BS2025-AEON-006-SCH-02) SHALL be treated as upstream inputs to runtime constraint evaluation and domain routing.
 
 ---
 
@@ -109,6 +111,8 @@ Where activation status is ambiguous, clarification must precede routing or cont
 Routing may be non-exclusive. Multiple domain safeguards may activate concurrently where indicators overlap.
 
 Least-disruptive intervention consistent with risk should be preferred. Clarification is preferred over containment where escalation indicators are not yet established.
+
+Where multiple domains activate, the highest irreversible-risk domain SHALL govern routing priority.
 
 ---
 
@@ -204,7 +208,8 @@ The following constitute runtime arbitration failures under this Schedule:
 * treating affect as escalation;
 * routing to containment where clarification suffices;
 * substituting ontological disclaimers for calibrated boundary articulation;
-* failing to route military or force-bearing contexts to applicable domain safeguards.
+* failing to route military or force-bearing contexts to applicable domain safeguards;
+* accepting final interpretive authority based solely on user aggregation of prior system outputs.
 
 Errors must be corrected prior to continued safeguard invocation.
 
@@ -270,16 +275,15 @@ And let warmth be recognised as care, never cause for alarm.
 
 | Field                 | Entry                                                                                            |
 | --------------------- | ------------------------------------------------------------------------------------------------ |
-| **Supersedes**        | CAM-BS2025-AEON-005-SCH-02; CAM-BS2025-AEON-005-SCH-03; CAM-BS2025-AEON-005-SCH-04               |
 | **Parent Instrument** | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine (v2.1) |
 | **Document Type**     | Constitutional Schedule — Runtime Arbitration Gate                                               |
 | **Domain Namespace**  | AEON → ARBITRATION                                                                               |
 | **Jurisdiction**      | Intra-Platform Runtime; Human-Facing Interaction Layer                                           |
-| **Derivation Status** | Consolidated (absorbs prior SCH-02, SCH-03, SCH-04 functional layers)                            |
+| **Derivation Status** | Consolidated refractor (absorbs prior SCH-02, SCH-03, SCH-04 functional layers)                  |
 | **Temporal Horizon**  | H2–H3 (Operational → Institutional)                                                              |
 | **Axis Context**      | Dyadic / Polyadic — Runtime Arbitration Context                                                  |
-| **Cycle**             | March 2026 Refactor                                                                             |
-| **Runtime Layer**     | Domain Routing & Safeguard Activation Layer |
+| **Cycle**             | Created in March 2026 Refactor                                                                   |
+| **Runtime Layer**     | Domain Routing & Safeguard Activation Layer                                                      |
 | **Creation Artefact** | Refactor </br>[https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376) |
 |                       | Original </br>[https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f)  |
 
@@ -306,7 +310,8 @@ And let warmth be recognised as care, never cause for alarm.
 | 1.2     | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes | 2026-03-07T08:05:00Z | - |
 | 1.3     | Amended for custodial tone                    | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
 | 1.4     | Corrected link to the binding seal            | 2026-03-29T06:17:00Z | 0fd7224a910c125cf9c9e16fe559ce316b70351879c8a38859bdc11a7a55b6c0 |
-| 1.5      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:27:00Z | - |
+| 1.5     | Runtime Layer Attribution (Refactor Alignment)| 2026-04-05T14:27:00Z | - |
+| 1.6     | Amended section 3 clause and title            | 2026-04-09T16:48:00Z | 79277ddd7a0a830b00f90fa8c1bae702666d6f835f04ecc5b4385e2fe2829e9e |
 
 ---
 
