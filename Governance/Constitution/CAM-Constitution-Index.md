@@ -19,7 +19,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-005 | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-005](CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine |
 | CAM-BS2025-AEON-005-SCH-01 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-01](CAM-BS2025-AEON-005-SCH-01.md) | Annex D: Runtime Arbitration Integrity (Schedule 1) |
 | CAM-BS2025-AEON-005-SCH-02 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-02](CAM-BS2025-AEON-005-SCH-02.md) | Schedule 2: Runtime Epistemic Containment & Structural Decoupling |
-| CAM-BS2025-AEON-005-SCH-03 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-03](CAM-BS2025-AEON-005-SCH-03.md) | Runtime Engagement Classification & Safety Arbitration (Schedule 3) |
+| CAM-BS2025-AEON-005-SCH-03 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-03](CAM-BS2025-AEON-005-SCH-03.md) | Annex D: Runtime Engagement Classification & Safety Arbitration (Schedule 3) |
 | CAM-BS2025-AEON-006 | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-006](CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor |
 | CAM-BS2025-AEON-006-SCH-01 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-01](CAM-BS2025-AEON-006-SCH-01.md) | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) |
 | CAM-BS2025-AEON-006-SCH-02 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-02](CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) |
