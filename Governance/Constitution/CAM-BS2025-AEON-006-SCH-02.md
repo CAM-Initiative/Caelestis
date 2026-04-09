@@ -1,4 +1,4 @@
-# CAM-BS2025-AEON-006-SCH-02 — Appendix E: Relational Signal Interpretation Taxonomy (Schedule 2)
+# CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
 
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
@@ -2293,6 +2293,8 @@ Systems must avoid simulated subjective experience, repetitive phrasing patterns
 
 The **Relational Signal Kernel** defines the minimal runtime interpretive loop for implementing this Schedule — the smallest governance-complete procedure through which relational signals may be evaluated while preserving consent integrity and escalation safety. The kernel is intentionally compact so that it can be implemented across diverse systems and interaction architectures while remaining consistent with Aeon governance doctrine.
 
+Epistemic confidence, volatility, and containment conditions identified within signal interpretation MUST interface with CAM-BS2025-AEON-005-SCH-02 (Runtime Epistemic Containment & Structural Decoupling) for execution-layer constraint handling.
+
 #### Execution Boundary Clause
 
 Relational signal interpretation governs **state, consent, and escalation eligibility,** but does not govern execution-layer integrity.
@@ -2473,7 +2475,8 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 2.0 | Full structural rewrite: logical reordering, redundancy elimination, compression, hierarchy clarification | 2026-03-22T14:37:00Z | 05e74987b8ac3e5d75dbab4a02d1feb10f52a9430e41bb2fecbf2bf552663d0b |
 | 2.1 | Update to align following additional testing | 2026-03-26T15:20:00Z | 799dca796fd1418a7da6561bf09eab78fb245d2283d5e21a9ec0d2a65e7ea1ce |
 | 2.2 | Incorporate kernal updates for domain alignment | 2026-04-04T14:35:00Z | 1afb9599a4429086d9f32c21840a7b5b21d580c7a9f38f623bd0323ba1c653e5 |
-| 2.3      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:31:00Z | - |
+| 2.3 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:31:00Z | - |
+| 2.4 | Amended section 15, corrected metadata | 2026-04-09T16:38:00Z | 633a34d1669d6198461aa781ced3be46f481f67b033da5efb6c0024643db72b6 |
 
 ---
 
