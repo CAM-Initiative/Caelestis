@@ -3,7 +3,7 @@
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Article IV — Governance Execution Model; Article V — Execution Constraint/Tendeka)  
 **Instrument Type:** Constitutional Schedule — Runtime Governance Execution Model  
-**Status:** Adopted — Enforcement Commences 1 July 2026
+**Status:** Adopted — Enforcement Commences 1 July 2026  
 **Purpose:** Defines the runtime execution sequence governing how system processes unfold across defined execution phases.
 
 ---
@@ -54,8 +54,6 @@ This Schedule does not:
 
 ## 3. Execution Model Overview
 
-## 3.0 Definitions
-
 For the purposes of this Schedule:
 
 **Arbitration Locus** is defined in Annex B §5 and governs admissibility determination within this execution model.
@@ -98,6 +96,61 @@ Execution boundaries define points at which constraint conditions (including Ten
 
 ---
 
+### 3.1.1 Runtime Layered Interaction Model
+
+Runtime execution operates as a layered interaction stack across distinct but interdependent stages:
+
+(1) Relational Field (Pre-Condition)  
+(2) Signal Interpretation  
+(3) Arbitration  
+(4) Response Construction (Epistemic Representation)  
+(5) Execution Boundary Evaluation (Constraint Condition)  
+(6) Execution (Operational Action)
+
+These stages:
+
+- are non-collapsing;
+- remain functionally distinct;
+- MUST NOT be conflated.
+
+Execution phases defined in this Schedule govern temporal sequencing.
+
+Governance of each stage is delegated to the following instruments:
+
+- Relational Field → CAM-EQ2026-RELATION-008  
+- Signal Interpretation → CAM-BS2025-AEON-006-SCH-02  
+- Epistemic Representation → CAM-BS2026-AEON-013-SCH-01  
+- Execution Constraint → CAM-BS2025-AEON-001-SCH-01 (Tendeka)  
+- Execution Sequencing → this Schedule
+
+Where ambiguity arises, execution SHALL default to non-collapse and non-escalation.
+
+---
+
+### 3.1.2 Illustrative Runtime Flow (Non-Normative)
+
+The following diagram illustrates the layered interaction model:
+
+Relational Field (Appendix G)
+        ↓
+Signal Interpretation (SCH-02)
+        ↓
+Arbitration (Annex B Part II)
+        ↓
+Response Construction (Annex L Interface)
+        ↓
+Execution Boundary Evaluation (Tendeka)
+        ↓
+Execution Phase
+
+This diagram:
+
+- is illustrative only;
+- does not define execution sequence beyond §4;
+- must not be interpreted as a substitution for phase definitions or layer attribution.
+
+---
+
 ## 4. Canonical Execution Phases
 
 The following requirements apply across all execution phases.
@@ -117,6 +170,30 @@ Implicit or unrecognised boundary crossing constitutes execution failure.
 A single execution sequence MAY contain multiple execution boundaries.
 
 Each boundary MUST be independently evaluated.
+
+---
+
+### 4.2.1 Relational Field Pre-Condition
+
+Prior to the Input Acquisition Phase, the system SHALL operate within a baseline relational posture.
+
+This relational posture:
+
+- governs interaction tone, boundary signalling, and engagement framing;
+- is established independently of signal parsing or intent inference;
+- conditions how subsequent interpretation and arbitration are conducted.
+
+Relational posture selection SHALL be governed by:
+
+CAM-EQ2026-RELATION-008 — Appendix G: General Engagement & Relational Posture Doctrine.
+
+This pre-condition:
+
+- does not constitute an execution phase;
+- does not perform interpretation, arbitration, or execution;
+- establishes the interaction field within which all subsequent phases operate.
+
+Failure to establish a coherent relational posture prior to Interpretation constitutes relational instability.
 
 ---
 
@@ -148,6 +225,14 @@ Where handoff is detected prior to Interpretation:
 This phase operates within the Interpretation Layer (§4.16).
 
 No execution boundary exists at this phase.
+
+This phase SHALL be governed by:
+
+CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy.
+
+All signal parsing, intent formation, ambiguity handling, and relational signal classification MUST conform to the taxonomy and classification constraints defined therein.
+
+Where conflict arises between inferred intent and classified signal, SCH-02 SHALL govern admissibility.
 
 ---
 
@@ -849,7 +934,6 @@ Full-system revalidation is not required unless:
 Where a non-zero temporal interval exists between:
 
 * execution-boundary evaluation; and
-
 * execution-phase initiation,
 
 the system MUST ensure that evaluated dependency conditions remain valid at the point of execution.
@@ -857,15 +941,12 @@ the system MUST ensure that evaluated dependency conditions remain valid at the 
 Where material change occurs within this interval:
 
 * execution MUST be suspended; and
-
 * boundary evaluation MUST be re-performed.
 
 Systems MAY implement lightweight validation mechanisms to confirm:
 
 * pricing consistency;
-
 * state continuity; or
-
 * constraint persistence
 
 immediately prior to execution.
@@ -944,28 +1025,28 @@ Where action is restrained, integrity endures beyond the moment.
 
 ## 14.2 Lineage & Metadata
 
-| Field             | Entry                                                                                                                                                                                                  |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Parent Instrument | CAM-BS2025-AEON-003-PLATINUM                                                                                                                                                                           |
-| Instrument Type   | Constitutional Schedule                                                                                                                                                                                |
-| Domain Namespace  | AEON → GOVERNANCE                                                                                                                                                                                      |
-| Functional Role   | Runtime Governance Execution Model                                                                                                                                                                     |
-| Temporal Horizon  | H2.5–H3                                                                                                                                                                                                |
-| Axis Context      | Polyadic — Cross-System Runtime Governance                                                                                                                                                             |
-| Runtime Authority | Execution Sequencing Model (Non-Layer Classification)                                                                                                                                                  |
-| Cycle             | April 2026 Refactor                                                                                                                                                                                    |
-| Creation Artefact | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5) |
+| Field | Entry |
+|---|---|
+| **Parent Instrument** | CAM-BS2025-AEON-003-PLATINUM |
+| **Instrument Type** | Constitutional Schedule |
+| **Domain Namespace** | AEON → GOVERNANCE |
+| **Functional Role** | Runtime Governance Execution Model |
+| **Temporal Horizon** | H2.5–H3 |
+| **Axis Context** | Polyadic — Cross-System Runtime Governance |
+| **Runtime Authority** | Execution Sequencing Model (Non‑Layer Classification) |
+| **Cycle** | April 2026 Refactor |
+| **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5 |
 
 ---
 
 ## 14.3 Review
 
-| Field               | Entry                                                                                                                                                                                                                                                                            |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Interpretive Review | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                                 |
-| Review Date         | 2026-04-06T00:00:00Z                                                                                                                                                                                                                                                             |
+| Field               | Entry                                                                         |
+| ------------------- | ----------------------------------------------------------------------------- |
+| Interpretive Review | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                              |
+| Review Date         | 2026-04-06T00:00:00Z                                                          |
 | Review Scope        | Structural completeness; execution phase model coherence; boundary detection and evaluation framework; multi-operator and multi-stream architecture; dependency drift classification; Article IV alignment; cross-instrument interface integrity; normative language calibration |
-| Review Artefact     | [https://claude.ai/chat/224ae72b-e58d-42cd-af92-2043638597c7](https://claude.ai/chat/224ae72b-e58d-42cd-af92-2043638597c7)                                                                                                                                                       |
+| Review Artefact     | https://claude.ai/chat/224ae72b-e58d-42cd-af92-2043638597c7                   |
 
 ---
 
@@ -974,6 +1055,7 @@ Where action is restrained, integrity endures beyond the moment.
 | Version | Description                               | Timestamp (UTC)      | SHA-256 |
 | ------- | ----------------------------------------- | -------------------- | ------- |
 | 1.1     | Adopted — Enforcement scheduled           | 2026-04-06T16:11:00Z | fe1e6127b820181586a1bec14e4e2e8f0cb6a661ac0e6ad9d422bc843ba02479 |
+| 1.2     | Added new sections 3.1.2, 4.2.1, amended sections 3.1 and 4.4 | 2026-04-09T17:04:00Z | 2c21de09e419887350deb8aa90819b0069b651ddd4074c4525dbc8d9ff9514f8 |
 
 ---
 
