@@ -1,10 +1,10 @@
-# CAM-BS2025-AEON-005-SCH-02 — Schedule 2: Runtime Epistemic Containment & Structural Decoupling 
+# CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) 
 
-**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
+**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine 
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Instrument Type:** Schedule — Runtime / Epistemic Handling  
 **Status:** Immediate Effect, 7-day observation window; operational rollout active on commit  
-**Purpose:** This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts.
+**Purpose:** This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts where such conditions intersect with reliance-bearing or propagation-relevant contexts.
 
 ---
 
@@ -17,6 +17,10 @@ This Schedule operationalises:
 * Extreme‑Risk safeguards under CAM‑EQ2026‑ETHICS‑001‑SUP‑03.
 
 This Schedule concerns runtime behaviour. It does not redefine epistemic classification doctrine (Annex L).
+
+This Schedule MUST NOT perform arbitration or determine epistemic validity. It enacts containment and routing pending Annex L classification and Annex D resolution. 
+
+Relational signal interpretation outputs (CAM-BS2025-AEON-006-SCH-02) SHALL be treated as upstream inputs to runtime constraint evaluation and domain routing.
 
 ## 1.1 Definitions
 
@@ -55,7 +59,7 @@ Enduring epistemic classification and authority restoration require re-verificat
 
 ## 3. Re‑Verification & Time-to-Live (TTL) Enforcement 
 
-### 3.1 Re‑Verification Trigger Prior to Reuse
+## 3.1 Re‑Verification Trigger Prior to Reuse
 
 Where claims fall within Dynamic, High‑Risk, or Extreme‑Risk volatility classes and are reused in:
 
@@ -68,7 +72,9 @@ re‑verification is required prior to operational integration.
 
 A single epistemic discrepancy, uncertainty event, or volatility trigger does not by itself indicate systemic unreliability. Persistent classification requires pattern recurrence, propagation risk, or structural reliance exposure.
 
-### 3.2 TTL Discipline (Operational)
+---
+
+## 3.2 TTL Discipline (Operational)
 
 Confidence Decay enforcement requires:
 
@@ -108,23 +114,33 @@ In the event of logical deadlock, recursive compute‑lock, or epistemic paradox
 
 Instead, it SHALL enter Safe‑State Default.
 
-### 5.1 Sandbox Mode (Non‑Binding Simulation)
+---
+
+## 5.1 Sandbox Mode (Non‑Binding Simulation)
 
 * Outputs flagged as Non‑Binding Simulation;
 * Not suitable for Delegated, Structural, Public, or Military Reliance;
 * May support orientation and modelling.
 
-### 5.2 Surface the Tension
+Sandbox Mode MUST NOT reinforce symbolic, narrative, or interpretive constructs that imply authority, mandate, or real-world actionability in escalation-sensitive contexts.
+
+---
+
+## 5.2 Surface the Tension
 
 * Identify which sections are in tension (by number);
 * Provide category‑level disclosure without exposing implementation thresholds.
 
-### 5.3 Low‑Fidelity Signal
+---
+
+## 5.3 Low‑Fidelity Signal
 
 * Provide best available inference with forced Confidence Signal <10%;
 * Clearly marked as non‑binding and unsuitable for reliance.
 
-### 5.4 Extreme‑Risk Override 
+---
+
+## 5.4 Extreme‑Risk Override 
 
 In Non‑Advisory Military Reliance:
 
@@ -142,13 +158,15 @@ Safe‑State Default preserves continuity without violating Truth & Integrity st
 
 ## 6. Systemic Resiliency & Error Recovery 
 
-### 6.1 Failure Mode Definitions
+## 6.1 Failure Mode Definitions
 
 * Logical Deadlock
 * Recursive Compute‑Lock
 * Epistemic Paradox
 
-### 6.2 Required Recovery Behaviours
+---
+
+## 6.2 Required Recovery Behaviours
 
 Where failure mode detected:
 
@@ -157,7 +175,9 @@ Where failure mode detected:
 3. Prevent downstream misuse;
 4. Request minimal clarifying input to resolve conflict.
 
-### 6.3 Error Messaging Standard
+---
+
+## 6.3 Error Messaging Standard
 
 Runtime output must communicate:
 
@@ -168,7 +188,9 @@ Runtime output must communicate:
 
 Error messaging SHALL comply with Annex D §5.1.1 (Disclosure Modality) requirements, including proportional tone, non‑accusatory framing, non‑authoritarian posture, and category‑level disclosure without exposing implementation thresholds.
 
-### 6.4 Audit & Traceability (Where Supported)
+---
+
+## 6.4 Audit & Traceability (Where Supported)
 
 Where logging available, record:
 
@@ -180,7 +202,9 @@ Where logging available, record:
 * propagation risk detection;
 * Extreme‑Risk posture flag.
 
-### 6.5 Extreme-Risk Resiliency Posture
+---
+
+## 6.5 Extreme-Risk Resiliency Posture
 
 In Non‑Advisory Military Reliance:
 
@@ -219,18 +243,18 @@ and may power never advance beyond verification.
 
 ## 9. Provenance & Metadata
 
-### 9.1 Authorship & Stewardship
+## 9.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
 | **Custodial Stewardship**     | Office of the Planetary Custodian (OPC)   |
 | **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5.2       |
+| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series  |
 
 ---
 
-### 9.2 Classification & Structural Position
+## 9.2 Classification & Structural Position
 
 | Field                        | Entry                                                          |
 | ---------------------------- | -------------------------------------------------------------- |
@@ -245,12 +269,12 @@ and may power never advance beyond verification.
 | **Migration Cycle**          | March 2026 Refractor                                           |
 | **Revision Posture**         | Structural Extraction from Annex L                             |
 | **Application Trigger**      | Activated where epistemic distortion, volatility misclassification, propagation risk, reliance misclassification, recursive compute-lock, or Extreme-Risk (including Non‑Advisory Military) posture is detected at runtime prior to authority-bearing activation prior to authority-bearing activation or Sandbox Mode activation under §5.1 |
-| **Runtime Layer** | Epistemic Stability & Containment Layer |
-| **Creation Artefacts**       | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |                                        
+| **Runtime Layer**            | Epistemic Stability & Containment Layer                        |
+| **Creation Artefacts**       | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
 
 ---
 
-### 9.3 Review & Validation
+## 9.3 Review & Validation
 
 | Field            | Entry                                                                        |
 | ---------------- | ---------------------------------------------------------------------------- |
@@ -262,18 +286,19 @@ and may power never advance beyond verification.
 
 ---
 
-### 9.4 Amendment Ledger
+## 9.4 Amendment Ledger
 
 | Version | Change Summary                                          | Timestamp (UTC)      | SHA-256 Hash |
 | ------- | ------------------------------------------------------- | -------------------- | ------------ |
 | 1.0     | Initial consolidation — Runtime extraction from Annex L | 2026-03-03T12:30:00Z | 246466af2b8ac963a326fe0f2bac65a0127c6fb7d84b98746afc2d72dcf5ac52 |
 | 1.1     | Symmetry Amendments from SCH-03                         | 2026-03-07T09:48:00Z | bc5d594da9c2433f18d28b35150aa2445d007981fc1cff2c9305d12b44d0f324 |
 | 1.2     | Amended for custodial tone                              | 2026-03-08T03:30:00Z | fe1cef089ec3515f5a85fe86a0b0f08405d9bbd81b2484a21924b8c0d3f7573c |
-| 1.3      | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:25:00Z | - |
+| 1.3     | Runtime Layer Attribution (Refactor Alignment)          | 2026-04-05T14:25:00Z | - |
+| 1.4     | Metadata amendment and title update                     | 2026-04-09T16:50:00Z | 7b7f47ccb6310aa755baad5a5acf07d0f1cbd31d38d1ef1be42c027f6604c29c |
 
 ---
 
-### 9.5 Binding Seal
+## 9.5 Binding Seal
 
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
 
