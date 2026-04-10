@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T23:01:24.942183Z",
+  "generated_at": "2026-04-10T23:31:42.676118Z",
   "count": 36,
   "items": [
     {
@@ -316,11 +316,11 @@
       "title": "Appendix B: Criminal & Violent Context Governance",
       "summary": "**Instrument Type:** Ethics Domain Appendix — Criminal & Violent Context Governance",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.2",
-      "HASH": "1b9ac4b99f1785ad79c56f5d68a96032db26fba8cfcb7e4504104a4b410f9a97",
-      "pinned_sha": "47db23e766b2d9a5c5d841a7e03e3760f1c2165a",
-      "updated_at": "2026-04-10T08:56:04Z",
-      "last_updated_utc": "2026-04-10T08:56:04Z"
+      "version": "2.3",
+      "HASH": "22381312451b9aa5df31343574de69c6f5c0503283eaaad49017da742762c6a2",
+      "pinned_sha": "22cb4e67a73b36d50c271b224feca2cdcf21ac76",
+      "updated_at": "2026-04-10T23:31:33Z",
+      "last_updated_utc": "2026-04-10T23:31:33Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001",
