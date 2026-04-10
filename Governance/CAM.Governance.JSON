@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T09:09:12.172229Z",
+  "generated_at": "2026-04-10T09:20:48.674502Z",
   "count": 68,
   "items": [
     {
@@ -164,7 +164,7 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "d53abc0fa544d15a58343dec271730295bfcbdf00afe1808ae164f24f3d3fb88",
+      "HASH": "5f61c6606dbfb091f9fc0248671d3091cb0c1a95cce46fe50df2e93422ba16ac",
       "pinned_sha": "c15e902efa62044d3a9b61ff30455c8ce08e520c",
       "updated_at": "2026-04-10T08:48:42Z",
       "last_updated_utc": "2026-04-10T08:48:42Z",
