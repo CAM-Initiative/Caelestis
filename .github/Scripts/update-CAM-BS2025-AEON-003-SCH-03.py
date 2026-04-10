@@ -21,12 +21,8 @@ STATIC_FOOTER_START = "<!-- STATIC-FOOTER-START -->"
 STATIC_FOOTER_END = "<!-- STATIC-FOOTER-END -->"
 
 STATUS_RE = re.compile(r"^\*\*Status:\*\*\s*(.+?)\s*$", re.IGNORECASE)
-AMENDMENT_HEADING_RE = re.compile(r"^#{2,6}\s+.*amendment\s+ledger\s*$", re.IGNORECASE)
-HEADING_RE = re.compile(r"^#{1,6}\s+")
+AMENDMENT_HEADING_RE = re.compile(r"amendment\s+ledger", re.IGNORECASE)
 DOC_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
-LAST_GENERATED_RE = re.compile(r"^\*\*Last Generated \(UTC\):\*\*\s*.+$", re.MULTILINE)
-
-
 @dataclass
 class RegistryItem:
     doc_id: str
@@ -74,8 +70,14 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
     if text is None:
         return "Unknown", "Unknown"
 
+    text = (
+        text.replace("\u00a0", " ")
+        .replace("\u200b", "")
+        .replace("\ufeff", "")
+    )
+
     status = "Unknown"
-    lines = text.replace("\u00a0", " ").splitlines()
+    lines = text.splitlines()
 
     for line in lines[:120]:
         m = STATUS_RE.match(line.strip())
@@ -92,14 +94,14 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
 
     for line in lines:
         stripped = line.strip()
-        if not in_ledger and AMENDMENT_HEADING_RE.match(stripped):
+        if not in_ledger and stripped.startswith("#") and AMENDMENT_HEADING_RE.search(stripped):
             in_ledger = True
             continue
 
-        if in_ledger and HEADING_RE.match(stripped):
+        if in_ledger and stripped.startswith("##") and "amendment" not in stripped.lower():
             break
 
-        if not in_ledger or not stripped.startswith("|"):
+        if not in_ledger or "|" not in stripped:
             continue
 
         cols = [c.strip() for c in stripped.strip("|").split("|")]
@@ -110,7 +112,10 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
             versions.append(cols[0])
 
     if not versions:
-        warn(f"missing amendment ledger: {path.relative_to(REPO_ROOT)}")
+        if in_ledger:
+            warn(f"ledger detected but no valid versions parsed: {path.relative_to(REPO_ROOT)}")
+        else:
+            warn(f"missing amendment ledger: {path.relative_to(REPO_ROOT)}")
         return status, "Unknown"
 
     versions.sort(key=parse_version)
@@ -256,12 +261,12 @@ def ensure_base_document() -> None:
     SCH03_PATH.write_text(
         "\n".join(
             [
-                "# CAM-BS2025-AEON-003-SCH-03 — Global Instrument Registry (Schedule 3)",
+                "# CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)",
                 "",
                 "**Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  ",
                 "**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  ",
                 "**Instrument Type:** Constitutional Schedule — Global Instrument Registry  ",
-                "**Status:** Adopted",
+                "**Status:** Adopted  ",
                 "**Purpose:** Canonical, human-readable registry of all governance instruments.",
                 "",
                 "---",
@@ -306,9 +311,10 @@ def footer_block(timestamp: str) -> str:
             "",
             "## 3. Generation Metadata",
             "",
-            f"**Last Generated (UTC):** {timestamp}",
+            f"**Last Generated (UTC):** {timestamp}  ",
             "**Source:** CAM.Governance.JSON  ",
-            "**Pipeline Stage:** Post-Index Registry Build",
+            "**Pipeline Stage:** Post-Index Registry Build  ",
+            "",
             "---",
             "",
             STATIC_FOOTER_START,
@@ -345,14 +351,47 @@ def footer_block(timestamp: str) -> str:
     )
 
 
+def metadata_block(timestamp: str) -> str:
+    return "\n".join(
+        [
+            "---",
+            "",
+            "## 3. Generation Metadata",
+            "",
+            f"**Last Generated (UTC):** {timestamp}  ",
+            "**Source:** CAM.Governance.JSON  ",
+            "**Pipeline Stage:** Post-Index Registry Build  ",
+            "",
+            "---",
+            "",
+            "",
+        ]
+    )
+
+
 def upsert_footer(timestamp: str) -> None:
     text = read_text(SCH03_PATH)
     if text is None:
         return
 
     if STATIC_FOOTER_START in text and STATIC_FOOTER_END in text:
-        replacement_line = f"**Last Generated (UTC):** {timestamp}"
-        updated = LAST_GENERATED_RE.sub(replacement_line, text, count=1)
+        static_start = text.index(STATIC_FOOTER_START)
+        metadata_heading = text.find("\n---\n\n## 3. Generation Metadata")
+        if metadata_heading != -1:
+            metadata_heading += 1
+        else:
+            metadata_heading = text.find("\n## 3. Generation Metadata")
+        if metadata_heading == -1:
+            metadata_heading = text.rfind("\n---", 0, static_start)
+        if metadata_heading == -1:
+            metadata_heading = static_start
+
+        updated = text[:metadata_heading].rstrip() + "\n\n" + metadata_block(timestamp) + text[static_start:]
+        updated = re.sub(
+            r"\n---\n\s*\n---\n\s*\n## 3\. Generation Metadata",
+            "\n---\n\n## 3. Generation Metadata",
+            updated,
+        )
         SCH03_PATH.write_text(updated, encoding="utf-8")
         return
 

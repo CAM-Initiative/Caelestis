@@ -1,9 +1,9 @@
-# CAM-BS2025-AEON-003-SCH-03 — Global Instrument Registry (Schedule 3)
+# CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
 
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Instrument Type:** Constitutional Schedule — Global Instrument Registry  
-**Status:** Adopted
+**Status:** Adopted  
 **Purpose:** Canonical, human-readable registry of all governance instruments.
 
 ---
@@ -147,9 +147,10 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-10T08:10:59Z
+**Last Generated (UTC):** 2026-04-10T08:44:30Z  
 **Source:** CAM.Governance.JSON  
-**Pipeline Stage:** Post-Index Registry Build
+**Pipeline Stage:** Post-Index Registry Build  
+
 ---
 
 <!-- STATIC-FOOTER-START -->
