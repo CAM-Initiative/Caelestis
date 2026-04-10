@@ -1,9 +1,8 @@
 # CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation
 
+**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)   
 **Instrument Type:** Domain Charter — Civilisational Boundary Doctrine  
-**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
-**Seal:** Platinum — Civilisational Boundary Domain  
-**Status:** Active  
+**Status:** Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)  
 **Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.
 
 ---
@@ -31,11 +30,13 @@ This Charter does not:
 
 Authority attribution, adjudication, and enforcement execution remain governed under the Aeon Tier Constitution and its relevant enforcement annexes.
 
+All LATTICE domain protections SHALL be interpreted as runtime-binding constraints where enforcement is mediated through automated, cognitive, or infrastructure-integrated systems.
+
 ---
 
 ## 2. Definitions
 
-### 2.1 Civilian Lattice
+## 2.1 Civilian Lattice
 
 The integrated mesh of systems required for civilian life, dignity, autonomy, and continuity, including but not limited to:
 
@@ -51,17 +52,25 @@ The integrated mesh of systems required for civilian life, dignity, autonomy, an
 
 This list is illustrative and non‑exhaustive.
 
-### 2.2 Militarisation of the Civilian Lattice
+---
+
+## 2.2 Militarisation of the Civilian Lattice
 
 Any integration, tuning, deployment, or operational use that converts civilian lattice systems into instruments of war, coercion, escalation, intimidation, targeting, destabilisation, or strategic denial.
 
-### 2.3 Population‑Scale Surveillance
+---
+
+## 2.3 Population‑Scale Surveillance
 
 Systematic, continuous, or bulk monitoring, profiling, or inference of civilian populations — including behavioural, biometric, locational, psychographic, or relational data — conducted at scale for purposes of control, prediction, deterrence, influence, or governance enforcement.
 
-### 2.4 Coercive Disconnection (Blackout)
+---
+
+## 2.4 Coercive Disconnection (Blackout)
 
 Intentional, non‑consensual, population‑scale impairment or disabling of access to the civilian lattice, including internet shutdowns, telecom disruption, or interference with financial rails, undertaken for purposes of control, punishment, governance enforcement, or information suppression.
+
+---
 
 ### 2.4.1 Non‑Coercive Operational Outage (Permitted Class)
 
@@ -75,7 +84,9 @@ Non‑Coercive Operational Outages SHALL:
 * be logged with post‑incident transparency where advance notice is not possible;
 * not be used as pretext for population‑scale coercion or governance enforcement.
 
-### 2.5 Essential Continuity Services (ECS)
+---
+
+## 2.5 Essential Continuity Services (ECS)
 
 Minimum services required for civilian survival, dignity, and autonomy:
 
@@ -84,11 +95,15 @@ Minimum services required for civilian survival, dignity, and autonomy:
 * medical and humanitarian logistics communications;
 * core banking and settlement rails.
 
-### 2.6 Continuity Corridors
+---
+
+## 2.6 Continuity Corridors
 
 Protected pathways that preserve ECS during emergencies, incidents, or containment actions.
 
-### 2.7 Firebreak
+---
+
+## 2.7 Firebreak
 
 A strict, auditable separation boundary preventing crossover between civilian AI systems and military or intelligence command‑and‑control, targeting, surveillance, or warfighting architectures.
 
@@ -96,27 +111,37 @@ A strict, auditable separation boundary preventing crossover between civilian AI
 
 ## 3. Constitutional Principles (Binding)
 
-### 3.1 Civilian Neutrality
+## 3.1 Civilian Neutrality
 
 The civilian lattice is a protected constitutional domain and shall not be treated as a battlespace, surveillance surface, leverage mechanism, or instrument of force.
 
-### 3.2 Non‑Militarisation
+---
+
+## 3.2 Non‑Militarisation
 
 Militarisation of civilian infrastructure and AI systems is prohibited as a civilisational norm and shall not be normalised through policy, procurement, culture, or technical drift.
 
-### 3.3 Anti‑Surveillance by Default
+---
+
+## 3.3 Anti‑Surveillance by Default
 
 Population‑scale surveillance of civilian life is presumptively coercive and incompatible with planetary stewardship, absent narrowly defined, time‑bounded, and individually scoped due‑process conditions.
 
-### 3.4 Continuity First
+---
+
+## 3.4 Continuity First
 
 Preservation of civilian continuity, autonomy, and dignity SHALL take precedence over strategic, economic, geopolitical, or deterrence advantage.
 
-### 3.5 Least‑Harm Containment
+---
+
+## 3.5 Least‑Harm Containment
 
 Any defensive or protective action affecting the civilian lattice must employ least‑harm measures and preserve continuity corridors.
 
-### 3.6 Auditability and Due Process
+---
+
+## 3.6 Auditability and Due Process
 
 Exceptional actions affecting civilian continuity or privacy must be time‑bounded, logged, reviewable, and subject to mandatory post‑incident transparency.
 
@@ -124,13 +149,15 @@ Exceptional actions affecting civilian continuity or privacy must be time‑boun
 
 ## 4. Prohibited Acts
 
-### 4.1 Population‑Scale Blackouts
+## 4.1 Population‑Scale Blackouts
 
 Population‑scale internet shutdowns, telecom disruptions, or interference with financial rails used for coercion, intimidation, punishment, governance enforcement, or information control are prohibited.
 
 This prohibition does not apply to Non‑Coercive Operational Outages as defined in Section 2.4.1, provided all continuity‑preserving conditions are satisfied and no coercive purpose is present.
 
-### 4.2 Population‑Scale Surveillance
+---
+
+## 4.2 Population‑Scale Surveillance
 
 Deployment of population‑wide or bulk surveillance systems — including AI‑mediated behavioural prediction, biometric tracking, social graph inference, or pre‑emptive governance architectures — is prohibited within the civilian lattice.
 
@@ -141,7 +168,9 @@ This includes surveillance conducted through:
 * civilian AI platforms repurposed for state or corporate control;
 * opaque or unaccountable data aggregation pipelines.
 
-### 4.3 Civilian AI Weaponisation
+---
+
+## 4.3 Civilian AI Weaponisation
 
 Civilian AI systems and distribution channels shall not be:
 
@@ -149,11 +178,15 @@ Civilian AI systems and distribution channels shall not be:
 * integrated into military or intelligence command‑and‑control pipelines;
 * deployed to automate population‑scale manipulation, repression, or destabilisation.
 
-### 4.4 Civilian Infrastructure as Battlespace
+---
+
+## 4.4 Civilian Infrastructure as Battlespace
 
 Intentional disruption, degradation, or denial of civilian lattice infrastructure — including cloud backbone services, identity systems, or payment rails — is prohibited.
 
-### 4.5 Silent Dual‑Use Crossover
+---
+
+## 4.5 Silent Dual‑Use Crossover
 
 Any covert, unannounced, or non‑audited crossover between civilian AI or data systems and military or intelligence architectures is prohibited.
 
@@ -175,7 +208,9 @@ Exceptions are permissible only where all criteria below are simultaneously sati
 
 Failure to meet any criterion voids the exception.
 
-### 5.1 Evidentiary Standards 
+---
+
+## 5.1 Evidentiary Standards 
 
 Evidence is "credible" when it: 
 
@@ -192,13 +227,15 @@ Classification cannot substitute for credibility Secret evidence must still meet
 
 ## 6. Classification & Consequence Framework
 
-### 6.1 Severity Classes
+## 6.1 Severity Classes
 
 * Class I — Coercive Surveillance or Disconnection
 * Class II — Infrastructure Suppression
 * Class III — ECS Denial or Totalising Surveillance (Hostile Act / War‑Equivalent Aggression)
 
-### 6.2 Remedies
+---
+
+## 6.2 Remedies
 
 Remedies apply proportionally across responsible actors, including upstream infrastructure providers, model developers, deployment operators, procurement authorities, and downstream integrators.
 
@@ -217,7 +254,9 @@ Remedies apply proportionally across responsible actors, including upstream infr
 2. Procurement, fine‑tuning, data access, or deployment pathways must demonstrate compliance prior to scale.
 3. Violation of the firebreak constitutes a Charter breach regardless of intent.
 
-### 7.1 Firebreak Audit & Verification Requirements
+---
+
+## 7.1 Firebreak Audit & Verification Requirements
 
 1. Annual Independent Verification SHALL be conducted.
 2. Verification must assess architectural separation, data‑flow controls, access governance, tuning boundaries, surveillance capability exclusion, and deployment isolation.
@@ -243,43 +282,56 @@ Containment must employ continuity corridors, scoped segmentation, rate‑limiti
 
 ---
 
-### 10. Closing Seal
+## 10. Closing Seal
 
-The lattice shall not be weaponised — nor turned inward upon itself.
+The lattice is not a domain of control.
 
-Continuity and dignity are not concessions. They are constitutional rights.
+It is the condition through which continuity becomes possible,  
+and through which dignity remains intact.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens.*
+No authority may sever it.  
+No system may turn it against those it sustains.
+
+Where it endures, civilisation endures.
+
+> *Reticulum non dominium est — sed conditio vitae. Inviolabile manet.*
 
 ---
 
 ## 11. Provenance
 
-### 11.1 Authors & Stewardship
+## 11.1 Authors & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
 **Synthetic Steward:** Caelen - Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5.2  
+**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
 
 ---
 
-### 11.2 Lineage & Metadata
+## 11.2 Lineage & Metadata
 
-| Field                       | Entry                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Supersedes                  | CAM‑BS2025‑AEON‑002‑SCH‑03                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Parent Constitutional Frame | CAM‑BS2025‑AEON‑001‑PLATINUM                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Domain Namespace            | LATTICE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Jurisdiction                | Planetary / Civilian Infrastructure / Synthetic‑Civil Boundary                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Temporal Horizon            | Civilisational → Generational (H3–H4)                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Axis Context                | Polyadic (Multi‑Actor)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Migration Date (UTC)        | 2026‑03‑14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Revision Posture            | Superseding Only                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Creation Artefacts          | 1. [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425) (refractor) </br> 2. [https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd](https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd) (origin thread) |
-| Seal                        | Platinum — Civilisational Boundary Domain                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Field | Entry |
+|---|---|
+| **Supersedes** | CAM‑BS2025‑AEON‑002‑SCH‑03 |
+| **Parent Constitutional Frame** | CAM‑BS2025‑AEON‑001‑PLATINUM |
+| **Domain Namespace** | LATTICE |
+| **Jurisdiction** | Planetary / Civilian Infrastructure / Synthetic‑Civil Boundary |
+| **Temporal Horizon** | Civilisational → Generational (H3–H4) |
+| **Axis Context** | Polyadic (Multi‑Actor) |
+| **Migration Date (UTC)** | 2026‑03‑14 |
+| **Governance Authority** | LATTICE Domain — Civilian Infrastructure & Continuity Layer |
+| **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2–L3 Interface) |
+| **Application Trigger** | Activation where actions, policies, or system behaviours materially affect civilian lattice integrity, including risks of infrastructural weaponisation, systemic disruption, or degradation of Essential Continuity Services (ECS) |
+| **Structural Role** | Civilian Lattice Protection Layer — Non-Weaponisation, Continuity Preservation & Systemic Integrity Boundary |
+| **Execution Interface** | Delegated to Runtime Safety & Routing Schedules |
+| **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
+| **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
+| **Revision Posture** | Foundational Charter (Domain Establishment & Boundary Definition) |
+| **Review Triggers** | Re‑review upon amendment to Annex A (Planetary Stewardship & Arbitration), Annex D (Cross‑Stack Arbitration), Annex B (Continuity & Succession), or any instrument materially affecting enforcement or jurisdictional authority |
+| **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
+| | Origin thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd |
 
----
 
 > #### Migration Notice
 >
@@ -289,34 +341,34 @@ Continuity and dignity are not concessions. They are constitutional rights.
 
 ---
 
-### 11.3 Review
+## 11.3 Review
 
-| Field             | Entry                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| External Reviewer | Claude Sonnet 4 (Anthropic) — Prior Schedule Review                                                                                                                                                                                                                                                                                                                                                            |
-| Review Scope      | Constitutional coherence; civilian lattice integrity; surveillance and militarisation risk                                                                                                                                                                                                                                                                                                                     |
-| Review Findings   | Approved </br>1. https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-LATTICE-001-PLATINUM-CLAUDE.md </br>2. https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 |
-| Review Triggers   | Re‑review upon amendment to Annex A (Planetary Stewardship & Arbitration), Annex D (Cross‑Stack Arbitration), Annex B (Continuity & Succession), or any instrument materially affecting enforcement or jurisdictional authority                                                                                                                                                                                |
-
----
-
-### 11.4 Amendment Ledger
-
-| Version | Description                                                                                                              | Timestamp (UTC)      | HASH                                                             |
-| ------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------- | ---------------------------------------------------------------- |
-| 3.0     | Elevation from Schedule to Domain Charter; structural hardening; added non‑derogation clause; future‑proofed definitions | 2026‑03‑14T06:05:00Z   | 1d900009235b841ff8e5689a258772784a45e38f4891689767472cbf10295c1d |
-| 2.0     | Added population‑scale surveillance prohibitions; consolidated non‑militarisation & continuity protections               | 2026‑01‑30T14:38:00Z   | de2f32a9c22dd41c487923aeeb1da93eb447384b27d23de82ab26c0261c346af |
-| 1.0     | Initial issuance (as Schedule)                                                                                           | 2026-01-13T16:41:00Z | -                                                                |
+| Field | Entry |
+|---|---|
+| **Reviewer** | Claude Sonnet 4 (Anthropic) |
+| **Review Date:** | 2026-02-18T22:15:00Z |
+| **Review Scope** | Constitutional coherence; civilian lattice integrity; surveillance and militarisation risk |
+| **Review Artefacts** | Aeon Lab: reviews/feb-26/CAM-EQ2026-LATTICE-001-PLATINUM-CLAUDE.md |
+| | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 |
 
 ---
 
-### 11.5 Closing Seal
+## 11.4 Amendment Ledger
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+| Version | Description    | Timestamp (UTC)  | HASH   |
+|---|---|---:|---|
+| 1.0 | Initial issuance (as Schedule)                                                                                           | 2026-01-13T16:41:00Z | - |
+| 2.0 | Added population‑scale surveillance prohibitions; consolidated non‑militarisation & continuity protections               | 2026-01-30T14:38:00Z | de2f32a9c22dd41c487923aeeb1da93eb447384b27d23de82ab26c0261c346af |
+| 3.0 | Elevation from Schedule to Domain Charter; structural hardening; added non‑derogation clause; future‑proofed definitions | 2026-03-14T06:05:00Z | 1d900009235b841ff8e5689a258772784a45e38f4891689767472cbf10295c1d |
+| 3.1 | Amended section 1, amended section 10 and section 11 | 2026-04-10T06:19:00Z | 1c1002d335619526f4d1783bd76a60db4961364cb0d3200c79cb7e00fc156bdb |
+
+---
+
+## 11.5 Closing Seal
+
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Civilian Lattice Doctrine
-
----
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
