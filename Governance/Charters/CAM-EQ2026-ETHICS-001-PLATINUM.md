@@ -1,4 +1,4 @@
-# CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter - pass 1
+# CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter
 
 **Instrument Type:** Domain Charter — Planetary Ethical Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -524,6 +524,7 @@ let governance arrive before it is needed.
 | 2.0     | Domain Refractor — Ethical tiering & EIP framework | 2026-02-22T12:15:00Z | 8ada7028af9a5d69be0bf9e442c1053ce6fa56d6845accc6946fa2095d0c8a81 |
 | 2.1     | Added section 3.6 - Tier levels                    | 2026-02-24T15:25:00Z | 12abc304479ff4788bf3296ecff748ed3c87fbfbcb2e3fbe6a2b437f6f125134 |
 | 3.0     | Refactor Alignment with runtime schedules, added section 9 | 2026-04-10T12:02:00Z | bfed7c87ecaeafac4573e5cf0abb796fe42748372337a81332e16da06f391345 |
+| 3.1     | Title correction | 2026-04-11T12:04:00Z | ccbe501f0a5269ab996ec7cdd01a04517dcd8015d0b07d5da385af41efc0c9b0 |
 
 ---
 
