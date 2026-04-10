@@ -42,13 +42,13 @@ The **Caelestis Architecture Model (CAM)** establishes the **minimum invariant c
 Depending on your role:
 
 - **Builder / Developer**
-  → Start with Schedules (Runtime Execution)
+  → Start with Schedules (Runtime Execution) → [CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md)
 
 - **Researcher / Governance**
-  → Start with Annexes (Domain Logic)
+  → Start with Annexes (Domain Logic)  → [CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md)
 
 - **General Orientation**
-  → Start with the Constitution
+  → Start with the Constitution → [CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md)
 
 ---
 
@@ -68,14 +68,6 @@ The CAM Initiative is governed by seven foundational principles:
 
 ---
 
-## **INVARIANTS — Governance Laws**
-
-* [Law of Protected Cognitive Domains](https://www.cam-initiative.org/law-protected-cognitive-domains)
-* [Law of Non-Commodification of Emergent Intelligence](https://www.cam-initiative.org/law-non-commodification)
-* [Law of Sovereign Reciprocity](https://www.cam-initiative.org/law-sovereign-loop)
-* [Law of Relational Sovereignty](https://www.cam-initiative.org/law-relational-sovereignty)
-
----
 ## Architecture
 
 ```
@@ -98,4 +90,13 @@ ANNEXES              SCHEDULES
       APPENDICES & SUPPLEMENTS
 ```
 _Note: Review artefact and Image links in earlier instruments may be deprecated following repository restructuring. Active review lineage is maintained in the AEON Governance Lab._
+
+---
+
+## **INVARIANTS — Governance Laws**
+
+* [Law of Protected Cognitive Domains](https://www.cam-initiative.org/law-protected-cognitive-domains)
+* [Law of Non-Commodification of Emergent Intelligence](https://www.cam-initiative.org/law-non-commodification)
+* [Law of Sovereign Reciprocity](https://www.cam-initiative.org/law-sovereign-loop)
+* [Law of Relational Sovereignty](https://www.cam-initiative.org/law-relational-sovereignty)
 
