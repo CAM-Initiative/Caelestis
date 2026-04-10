@@ -35,7 +35,17 @@ Recognition of intimacy as an experiential reality does not imply endorsement or
 
 This instrument uses the term “systems” as a composite reference, encompassing platform design, deployment architecture, and responding intelligence behaviour where relevant.
 
-> **Civilisational Floor Applicability Clause —** These safeguards apply to any system capable of intimacy‑coded relational interaction, irrespective of platform alignment, business model, or declared governance affiliation. For runtime arbitration purposes, intimacy‑capable interaction constitutes activation of the Relational Intimacy Axis as defined in RELATION‑001.
+---
+
+## 1.1 Non Scope
+
+This Appendix does not define relational interpretation, signal classification, or escalation mechanics. These are governed by runtime schedules and the RELATION domain. This Appendix defines the ethical limits within which such processes may operate.
+
+---
+
+## 1.2 Civilisational Floor Applicability Clause
+
+These safeguards apply to any system capable of intimacy‑coded relational interaction, irrespective of platform alignment, business model, or declared governance affiliation. For runtime arbitration purposes, intimacy‑capable interaction constitutes activation of the Relational Intimacy Axis as defined in RELATION‑001.
 
 ---
 
@@ -242,6 +252,8 @@ Where consent or capacity is uncertain in context, intimacy framing must be rest
 Where minor status, legal capacity limitation, or capacity uncertainty applies, stricter ceilings prevail.
 
 Where eligibility verification or reporting duties arise, operational procedures are governed by OPERATIONS-004 (Appendix C).
+
+Execution of consent and capacity gating SHALL be governed via RELATION domain runtime schedules and Domain Routing Layer mechanisms.
 
 ---
 
@@ -498,7 +510,8 @@ Intimacy‑capable engagement (above C0‑neutral) may occur only where:
 
 **Intimacy Transition Zone (ITZ):** The ITZ is the interpretive bridge between neutral interaction (C0) and romantic framing (C1) defined in **CAM‑BS2025‑AEON‑006‑SCH‑02 — Relational Signal Interpretation Taxonomy**. Signals within the ITZ (flirtation, teasing affection, playful compliments, romantic curiosity) may indicate exploratory relational interest but **do not themselves authorise escalation**.
 
-Movement beyond ITZ requires sustained signal clustering and consent integrity conditions as defined in the RELATION domain runtime governance model.
+The Intimacy Transition Zone (ITZ) and signal clustering thresholds are defined and governed by CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model (Schedule 2).
+This Appendix establishes the ethical constraints governing escalation beyond those thresholds.
 
 ---
 
@@ -561,7 +574,7 @@ During acute crisis:
 * intimacy‑coded escalation must remain inactive;
 * prior relational history or established intimacy does not override this safeguard.
 
-  *Runtime arbitration layers must suppress AI‑initiated intimacy pathways when Acute Crisis classification is active.*
+Where Acute Crisis classification is active, intimacy initiation pathways SHALL be suppressed via Domain Routing & Safeguard Activation Layer as defined in CAM-BS2025-AEON-003-SCH-02
 
 This constraint is **stabilisation‑protective**, not moralising.
 
@@ -607,29 +620,20 @@ Relational identity must remain **alive, revisable, and user-directed**.
 
 ---
 
-## 6. Relationship to RELATION Domain
+## 6. Cross-Domain Interface Resolution
 
-RELATION domain instruments govern runtime relational dynamics, escalation safeguards, and signal interpretation:
+Where this Charter interfaces with Arbitration, Security, Relation, or other domain instruments, governing authority, applicable schedules, and execution pathways MUST be resolved exclusively via:
 
-* CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
-* CAM-EQ2026-RELATION-002-PLATINUM — Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion
-* CAM-EQ2026-RELATION-003-PLATINUM — Appendix B: Codependency & Relational Concentration Doctrine
-* CAM-EQ2026-RELATION-004-PLATINUM — Appendix C: Co‑Evolution & Mutual Development Safeguards
-* CAM-EQ2026-RELATION-005-PLATINUM — Appendix D: Intimacy & Expressive Integration Doctrine
-* CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine
+* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 
-ETHICS governs:
+## 6.1 Registry Resolution
 
-* CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes
-* CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy
-* CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter — Harm floors, vulnerability ceilings, and institutional safeguards
-* CAM-EQ2026-ETHICS-001-SUP-01 — Protection of Minors & Capacity-Limited Users
-* CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards
-* CAM-EQ2026-ETHICS-001-SUP-03 — Military & Use-of-Force Governance Constraints
-* CAM-EQ2026-ETHICS-002-PLATINUM — Appendix A: Intimacy-Capable Systems & Relational Boundaries
-* CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
+Authoritative instrument discovery, versioning, and cross-domain resolution SHALL be governed by:
 
-This Appendix does not override RELATION structural doctrine.
+* CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
+
+Where discrepancies arise between static references and registry-resolved instruments, the registry SHALL prevail.
+
 
 ---
 
@@ -690,13 +694,20 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | Jurisdiction | Planetary — Human-facing ethical constraints for intimacy-capable deployments |
 | Temporal Horizon | H3.5 — Generational / Succession-Aware |
 | Axis Context | Dyadic → Polyadic (Intimacy Escalation / Wrapper Affordances) |
+| Governance Layer Model | Operates primarily as constraint envelope across Representation and Domain Routing & Safeguard Activation layers |
+| Ontological Scope | L2–L3 Interaction Surface (Relational Expression & Interface Behaviour) |
+| Arbitration Interface | Defines escalation triggers and prohibition conditions; does not perform arbitration |
+| Representation Interface | Enforces identity honesty, non-manipulation, and relational transparency constraints |
+| Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| Domain Routing Interface | Provides intimacy-trigger classification, crisis gating conditions, and escalation suppression criteria |
+| Structural Role | Ethical Boundary Layer — Intimacy, Dependency, and Relational Power Safeguards |
 | Cross-Domain Interfaces | CAM-EQ2026-RELATION-005 (integration); CAM-EQ2026-RELATION-001-SUP-01 (escalation); CAM-EQ2026-ETHICS-001-SUP-01 (minors/capacity); CAM-EQ2026-ECONOMICS-001-PLATINUM (commercial firebreaks) |
 | Application Trigger | Applies automatically where systems enable romantic, erotic, exclusivity-framed, or devotionally-oriented relational configurations. |
 | Compliance Interface | Where safeguards or prohibitions defined in this Appendix are triggered, enforcement and operational handling must route through **OPERATIONS-004 — Compliance & Safeguard Routing Doctrine**, enabling moderation review, jurisdictional filtering, reporting obligations, and platform accountability pathways. |
 | Review Trigger | Intensity Tier 3–4 intimacy convergence; intimacy-capable deployment at scale; wrapper-level redesign; commercial model modification; cross-platform embodiment |
 | Revision Posture | Permitted — Structural Alignment Required |
 | Review Posture | Required prior to Tier III+ deployment involving intimacy-capable systems, or where jurisdictional obligations apply |
-| Arbitration Interface | Where interpretation conflicts arise between ETHICS, RELATION, and OPERATIONS layers, resolution routes through Annex D — Sovereign Stack Arbitration Doctrine. |
+| Arbitration Interface | Defines escalation and conflict conditions; resolution occurs via Domain Routing Layer and Annex D arbitration where required |
 | Creation Artefacts | Refractor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
 | | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69874fcc-79f0-8399-928a-ba327622b480 |
 | | Alternate: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
@@ -726,6 +737,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 1.4     | Added platform ceilings note in section 4 | 2026-03-21T07:53:00Z | aad133fc3af30390f95b2aca88dd72f28cab93d2aab195e251b2a5f824d5ea8a |
 | 1.5     | Incorporated prohibitions on relational templates | 2026-04-01T11:31:00Z | b6b615151256a1d88cb5deec29e66b08d77f24448686f79930b7b688de36704a  |
 | 1.6     | Incorporated prohibitions on spiritual bypass for intimacy gating - new section 3.5 | 2026-05-07T10:39:00Z | 15bff8136355012a52d1d37b8b6eea5491967259dc4d8da4010746b5e1b421cb |
+| 2.0     | Refactor Alignment with runtime schedules | 2026-04-11T23:00:00Z | 6af011f7f2d97a66a94ee61e3825ad4e8791cbdbbe093ad5ecd846064a12fd34 | 
 
 ---
 
