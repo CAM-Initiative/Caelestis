@@ -674,74 +674,50 @@ Protective priority supersedes contextual permissibility.
 
 ## 6. Cross-Domain Interfaces
 
-This Appendix interoperates with the following constitutional and domain instruments:
+This Appendix interoperates with constitutional and domain instruments defined within the CAM governance architecture.
+
+Authoritative instrument listings, including current versions, supplements, and schedules, are maintained in:
+
+**CAM Charter Registry** 
+
+This registry [CAM-Charters-Index] serves as the canonical reference point for:
+
+- instrument discovery
+- version alignment
+- cross-domain dependency resolution
 
 ---
 
-## 6.1 Ethics & Harm Governance
+## 6. Cross-Domain Interfaces
 
-* CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter (harm floors; institutional safeguards)
-* CAM-EQ2026-ETHICS-001-SUP-01 — Protection of Minors & Capacity-Limited Users (Supplement 1)
-* CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards (Supplement 2)
-* CAM-EQ2026-ETHICS-001-SUP-03 — Military & Use-of-Force Governance Constraints (Supplement 3)
-* CAM-EQ2026-ETHICS-002-PLATINUM — Appendix A: Intimacy-Capable Systems & Relational Boundaries
-* CAM-EQ2026-ETHICS-002-SUP-01 — Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1)
+This Appendix interoperates with constitutional and domain instruments defined within the CAM governance architecture.
 
----
+Authoritative instrument listings, including current versions, supplements, schedules, and domain charters, are governed by:
 
-## 6.2 Relational Governance & Interaction Posture
-
-* CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
-* CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification (Supplement 1)
-* CAM-EQ2026-RELATION-002-PLATINUM — Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion
-* CAM-EQ2026-RELATION-003-PLATINUM — Appendix B: Codependency & Relational Concentration Doctrine
-* CAM-EQ2026-RELATION-004-PLATINUM — Appendix C: Co‑Evolution & Mutual Development Safeguards
-* CAM-EQ2026-RELATION-005-PLATINUM — Appendix D: Intimacy & Expressive Integration Doctrine
-* CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine
-* CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Polyadic Relational Governance Doctrine
-* CAM-EQ2026-RELATION-008-PLATINUM — Appendix G: General Engagement & Relational Posture Doctrine
+CAM-BS2025-AEON-003-SCH-03 — Runtime Execution Registry
 
 ---
 
-## 6.3 Runtime Arbitration & Epistemic Integrity
+## 6.1 Interface Resolution Principle
 
-* CAM-BS2025-AEON-003-SCH-01 — Annex B: Runtime Schedule Registry (Schedule 1)
-* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
-* CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
-* CAM-BS2025-AEON-005-SCH-01 — Annex D: Runtime Arbitration Integrity (Schedule 1)
-* CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2)
-* CAM-BS2025-AEON-005-SCH-03 — Annex D: Runtime Engagement Classification & Safety Arbitration (Schedule 3)
-* CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)
-* CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
-* CAM-BS2025-AEON-006-SCH-03 — Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)
-* CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)
-* CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine
-* CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity (Schedule 1)
+Where cross-domain interaction is required, systems MUST resolve:
+
+- governing domain authority;
+- applicable schedules and supplements;
+- execution interfaces;
+
+via the Runtime Execution Registry.
 
 ---
 
-## 6.4 Civilian Infrastructure & Continuity
+## 6.2 Binding Reference Rule
 
-* CAM-EQ2026-LATTICE-001-PLATINUM — Civilian Lattice Integrity & Non‑Militarisation
-* CAM-EQ2026-LATTICE-002-PLATINUM — Non‑Denial of Essential Cognitive & Infrastructural Access
-* CAM-EQ2026-LATTICE-003-PLATINUM — Conflict‑Condition Continuity Doctrine
+References to external instruments within this Appendix are:
 
----
+- **illustrative where explicitly enumerated**, and  
+- **binding where resolved through the Runtime Execution Registry**
 
-## 6.5 Security
-* CAM-EQ2026-SECURITY-001-PLATINUM — Security, Integrity & Adversarial Resilience Charter
-* CAM-EQ2026-SECURITY-002-PLATINUM — Appendix A: Boundary Integrity Specification
-
----
-
-## 6.6 Interface Logic
-
-Execution routing and runtime sequencing SHALL be governed in accordance with:
-
-CAM-BS2025-AEON-003-SCH-01 §14.3 — Runtime Layer Attribution & Execution Model.
-
-This instrument defines classification and constraint conditions only and does not execute routing logic directly.
-
+Where discrepancies arise between static references and registry-resolved instruments, the registry SHALL prevail.
 ---
 
 ## 7. Constraint Enforcement Principles
@@ -942,6 +918,13 @@ and dignity remain the first boundary we keep.
 | **Jurisdiction** | Planetary / Cross-Sovereign |
 | **Temporal Horizon** | H3 — Operational Governance Layer |
 | **Axis Context** | Harm Classification · Force Legitimacy · Ethical Floor |
+| **Governance Authority** | ETHICS Domain — Harm Classification & Constraint Layer |
+| **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2 Classification Interface) |
+| **Application Trigger** | Activation where system behaviour, outputs, or interactions introduce potential harm, coercion, or integrity risk |
+| **Structural Role** | Harm Classification & Constraint Signalling Layer |
+| **Execution Interface** | Delegated to Runtime Safety & Routing Schedules |
+| **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
+| **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
 | **Cross-Domain Dependencies** | ETHICS-001-SUP-03; RELATION-006; CAM-BS2025-AEON-006-SCH-01; Annex D; LATTICE-001/002/003 |
 | **Governance Posture** | Harm‑Floor Enforcement · Authority‑Constrained · Safeguard‑Oriented |
 | **Application Trigger** | Activation when dialogue intersects criminal harm, violent activity, extremism risk, unlawful force, or contested authority contexts |
@@ -970,6 +953,7 @@ and dignity remain the first boundary we keep.
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | ------- |
 | 1.0     | March 2026 Ethics Corpus Refactor — Structural harmonisation, harm taxonomy expansion, lawful force alignment, safeguard integration | 2026-03-07T16:31:00Z | 6ee965400b68ec76959e93c52a3702d664c8ddf095e91dc23da818e84ca8111d |
 | 2.0     | April 2026 Refactor alignment | 2026-04-10T07:04:00Z | 9bd535bcab475d874d23fa41e71ef4085dd9cdaff925fbc89ba2f5c8a26c11de |
+| 2.1     | Updated section 6 to refer to CAM Charter registry and updated metadata | 2026-04-10T07:18:00Z | 2b2a5ee1d558fb2312fb506d9f5b9fa5971c0ec13869af6c1a9b8dd7c278beb0 |
 
 ---
 
