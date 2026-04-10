@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-10T03:47:32.076883Z",
-  "count": 27,
+  "generated_at": "2026-04-10T08:14:01.654269Z",
+  "count": 28,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -113,6 +113,22 @@
       "summary": "This Schedule defines the temporal sequencing of runtime execution.",
       "pinned_sha": "a049b669b6df43ae620d7078516c4bf8fc2aba1c",
       "updated_at": "2026-04-09T17:05:20Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-003-SCH-03",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "03",
+      "parent_id": "CAM-BS2025-AEON-003",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-003-SCH-03.md",
+      "title": "Global Instrument Registry (Schedule 3)",
+      "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
+      "pinned_sha": "dd74f15fa89fedfb2a80ec657e732af7a7701b6b",
+      "updated_at": "2026-04-10T08:13:04Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
