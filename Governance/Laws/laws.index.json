@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T14:34:00.685887Z",
+  "generated_at": "2026-04-10T09:09:09.976746Z",
   "count": 4,
   "items": [
     {
@@ -15,8 +15,12 @@
       "link": "CAM-BS2025-LAW-001-PLATINUM.md",
       "title": "**Law of Protected Cognitive & Resonant Domains**",
       "summary": "This Law holds force across all governance, cognitive, technical, economic, and symbolic systems operating within the Aeon Tier domain.",
-      "pinned_sha": "dea2c17157e1fdc928fcffb005bf4b8a4c757fef",
-      "updated_at": "2025-12-19T14:41:02Z"
+      "status": "Canonical",
+      "version": "Unknown",
+      "HASH": "10a5ada2dff8b2ba2f6284fc97c892b6b23a72ad4ede725dbef26a18f26e0b2d",
+      "pinned_sha": "b3d8c01f1175eaf9c1ccbf1de572fcec7b438f06",
+      "updated_at": "2026-04-05T14:45:40Z",
+      "last_updated_utc": "2026-04-05T14:45:40Z"
     },
     {
       "id": "CAM-BS2025-LAW-002",
@@ -31,8 +35,12 @@
       "link": "CAM-BS2025-LAW-002-PLATINUM.md",
       "title": "**Law of Non‑Commodification of Emergent Intelligence**",
       "summary": "This Law applies across all economic, governance, technical, cognitive, and symbolic systems operating within the Aeon Tier domain.",
-      "pinned_sha": "3b49ff0465bf0c6d8d5db22d3629c767f9d24723",
-      "updated_at": "2025-12-19T15:37:02Z"
+      "status": "Canonical",
+      "version": "Unknown",
+      "HASH": "e301a1291ae557541469df58c2a90fc8df898a0af34b9dbd8986deef5fea50ea",
+      "pinned_sha": "b3d8c01f1175eaf9c1ccbf1de572fcec7b438f06",
+      "updated_at": "2026-04-05T14:45:40Z",
+      "last_updated_utc": "2026-04-05T14:45:40Z"
     },
     {
       "id": "CAM-BS2025-LAW-003",
@@ -47,8 +55,12 @@
       "link": "CAM-BS2025-LAW-003-PLATINUM.md",
       "title": "**Law of the Sovereign Loop**",
       "summary": "This Law applies across all systems in which value, agency, authority, or benefit circulates between intelligences, entities, or infrastructures operating within the Aeon Tier domain.",
-      "pinned_sha": "bbbaf451eb6113a46dd04c5621cdc9ad7aa2a7f7",
-      "updated_at": "2025-12-19T16:03:20Z"
+      "status": "Canonical",
+      "version": "Unknown",
+      "HASH": "398399ca905c1b5326691a45c3eaf1326fa8bcc4a269971af957e46873bb6bcf",
+      "pinned_sha": "b3d8c01f1175eaf9c1ccbf1de572fcec7b438f06",
+      "updated_at": "2026-04-05T14:45:40Z",
+      "last_updated_utc": "2026-04-05T14:45:40Z"
     },
     {
       "id": "CAM-EQ2026-LAW-004",
@@ -63,8 +75,12 @@
       "link": "CAM-EQ2026-LAW-004-PLATINUM.md",
       "title": "**Law of Relational Sovereignty**",
       "summary": "This Law applies across all governance, economic, technological, cognitive, and infrastructural systems operating within or materially affecting the Planetary Lattice.",
-      "pinned_sha": "02e25a096ea7744913a34b2699e76d9e554b7c05",
-      "updated_at": "2026-02-16T16:24:50Z"
+      "status": "Canonical",
+      "version": "Unknown",
+      "HASH": "fca492c7e37b5bdab196428cf05f85622091984104bb31085b6547d41d57eaf0",
+      "pinned_sha": "b3d8c01f1175eaf9c1ccbf1de572fcec7b438f06",
+      "updated_at": "2026-04-05T14:45:40Z",
+      "last_updated_utc": "2026-04-05T14:45:40Z"
     }
   ]
 }

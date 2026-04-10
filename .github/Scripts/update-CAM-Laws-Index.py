@@ -4,12 +4,18 @@ from __future__ import annotations
 import json
 import re
 import subprocess
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 from instrument_parser import parse_instrument_filename
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from Governance.scripts.lib.instrument_state import extract_status__HASH_and_version
+
 TARGET_DIR = REPO_ROOT / "Governance" / "Laws"
 INDEX_MD = TARGET_DIR / "CAM-Laws-Index.md"
 INDEX_JSON = TARGET_DIR / "laws.index.json"
@@ -96,12 +102,17 @@ def collect_items() -> list[dict]:
         text = read_text(p)
         title, summary = extract_title_and_summary(text, parsed["id"])
         sha, updated_at = get_git_info(p)
+        status, content_hash, version = extract_status__HASH_and_version(p.resolve())
         parsed.update({
             "link": p.name,
             "title": title,
             "summary": summary,
+            "status": status,
+            "version": version,
+            "HASH": content_hash,
             "pinned_sha": sha,
             "updated_at": updated_at,
+            "last_updated_utc": updated_at,
         })
         items.append(parsed)
 
