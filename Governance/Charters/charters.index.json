@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T12:03:48.719017Z",
+  "generated_at": "2026-04-10T12:05:28.276883Z",
   "count": 36,
   "items": [
     {
@@ -193,14 +193,14 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-ETHICS-001-PLATINUM.md",
-      "title": "Planetary Ethical Governance Charter - pass 1",
+      "title": "Planetary Ethical Governance Charter",
       "summary": "The Ethical Impact Assessment (EIA) is the primary operational mechanism through which Annex E civilisational constraints are translated into deployment-specific governance controls.",
       "status": "Active — Immediate Effect",
-      "version": "3.0",
-      "HASH": "cd274c9081e862e84b1b40c415a6e4e96d3952065453196e2ced3dad5902bdde",
-      "pinned_sha": "4ddef3638578b5a54453139eeb1a5e1bea37392e",
-      "updated_at": "2026-04-10T12:03:35Z",
-      "last_updated_utc": "2026-04-10T12:03:35Z"
+      "version": "3.1",
+      "HASH": "0f735bf8dcbfdd1f2e5d13494219b26ac1fc2a4c1c244bc1bda050cb8b59f60c",
+      "pinned_sha": "21813fc1cf4d4d89e8abdddd6f4af8b24cd57e8c",
+      "updated_at": "2026-04-10T12:05:16Z",
+      "last_updated_utc": "2026-04-10T12:05:16Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-01",
