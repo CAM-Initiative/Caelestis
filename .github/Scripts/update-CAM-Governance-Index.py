@@ -26,6 +26,7 @@ def load_items() -> list[dict]:
         for item in payload.get("items", []):
             row = dict(item)
             row["instrument_class"] = row.get("instrument_class") or default_class
+            row["purpose"] = (row.get("purpose") or row.get("summary") or "").strip()
             link_name = (row.get("link") or "").strip()
             if link_name:
                 row["link"] = f"{subdir}/{link_name}"
@@ -37,34 +38,62 @@ def load_items() -> list[dict]:
 
 def render_md(items: list[dict]) -> str:
     generated = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-    out = [
+    out: list[str] = [
         "# CAM Governance Index",
         "",
         f"Generated: {generated}",
         "",
-        "| ID | Class | Domain | Hierarchy | Parent | Link |",
-        "|---|---|---|---|---|---|",
+        "## Constitution & Instruments",
+        "",
     ]
 
-    for it in items:
-        out.append(
-            "| {id} | {instrument_class} | {domain} | {hierarchy} | {parent} | {link} |".format(
-                id=it.get("id", ""),
-                instrument_class=it.get("instrument_class", ""),
-                domain=it.get("domain", ""),
-                hierarchy=it.get("hierarchy_type") or "root",
-                parent=it.get("parent_id") or "",
-                link=it.get("link", ""),
+    def render_table(table_items: list[dict]) -> None:
+        out.extend([
+            "| ID | Class | Hierarchy | Parent | Document | Title | Purpose |",
+            "|---|---|---|---|---|---|---|",
+        ])
+        for it in table_items:
+            link = it.get("link", "")
+            link_md = f"[{it.get('id', '')}]({link})" if link else ""
+            out.append(
+                "| {id} | {instrument_class} | {hierarchy} | {parent} | {link_md} | {title} | {purpose} |".format(
+                    id=it.get("id", ""),
+                    instrument_class=it.get("instrument_class", ""),
+                    hierarchy=it.get("hierarchy_type") or "root",
+                    parent=it.get("parent_id") or "",
+                    link_md=link_md,
+                    title=it.get("title", ""),
+                    purpose=it.get("purpose", ""),
+                )
             )
-        )
-    return "\n".join(out) + "\n"
+        out.append("")
+
+    constitution_items = [it for it in items if it.get("instrument_class") == "constitution"]
+    render_table(constitution_items)
+
+    domain_items = [it for it in items if it.get("instrument_class") != "constitution"]
+    domain_names = sorted({it.get("domain", "") for it in domain_items if it.get("domain")})
+
+    for domain in domain_names:
+        out.extend([f"## Domain: {domain}", ""])
+        domain_group = [it for it in domain_items if it.get("domain") == domain]
+        domain_group.sort(key=lambda x: x.get("id", ""))
+        render_table(domain_group)
+
+    return "\n".join(out).rstrip() + "\n"
 
 
 def write_json(items: list[dict]) -> None:
+    normalized_items: list[dict] = []
+    for item in items:
+        row = dict(item)
+        row["purpose"] = (row.get("purpose") or row.get("summary") or "").strip()
+        normalized_items.append(row)
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "count": len(items),
-        "items": items,
+        "count": len(normalized_items),
+        "items": normalized_items,
     }
     OUT_JSON.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 

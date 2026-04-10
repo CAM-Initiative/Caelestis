@@ -7,7 +7,7 @@ STACK_NAME = "Planetary Governance"
 
 FILENAME_RE = re.compile(
     r"^CAM-([A-Z]{2}\d{4})-([A-Z]+)-(\d{3})"
-    r"(?:-(ANN|SCH|SCHEDULE|APP|SUPP|FRM|POL|ATT)-([A-Z0-9]+))?"
+    r"(?:-(ANN|SCH|SCHEDULE|APP|SUPP|SUP|FRM|POL|ATT)-([A-Z0-9]+))?"
     r"(?:-([A-Z]+))?"
     r"\.md$",
     re.IGNORECASE,
@@ -67,6 +67,7 @@ def _normalise_hierarchy_type(h_type: Optional[str]) -> Optional[str]:
         "SCHEDULE": "schedule",
         "APP": "appendix",
         "SUPP": "supplement",
+        "SUP": "supplement",
         "FRM": "framework",
         "POL": "policy",
         "ATT": "attachment",
