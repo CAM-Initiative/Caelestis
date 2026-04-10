@@ -2,7 +2,7 @@
 
 **Parent Instrument:** CAM‑EQ2026‑LATTICE‑001‑PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
 **Instrument Type:** Appendix (Domain Charter — Binding Implementation Layer)   
-**Status:** Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)
+**Status:** Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)  
 **Purpose:** This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**.
 
 ---
@@ -219,12 +219,18 @@ Invalidity of any provision does not affect the remainder.
 
 ## 9. Closing Seal
 
-The lattice shall not be weaponised — nor turned inward upon itself.
+Access shall not be withdrawn where withdrawal becomes erasure.
 
-Continuity and dignity are not concessions. They are constitutional rights.
+To deny the lattice is to deny participation,  
+and to deny participation is to dissolve the conditions of civic life.
 
+Continuity is not granted.  
+It is preserved.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens.*
+Dignity is not conditional.  
+It is maintained.
+
+> *Non denegatur quod fundamentum est. Dignitas et continuatio inviolabiles sunt.*
 
 ---
 
@@ -289,6 +295,7 @@ Continuity and dignity are not concessions. They are constitutional rights.
 | 2.1 | Implemented external review recommendations; operationalised Articles 3, 5, 6, and enforcement section            | 2025-12-30T17:22:00Z | e716c6181dd5bc2a45e75c1acd4529dce11fc5f4b7e43e0544dfedd9dedfa30b |
 | 3.0 | Migration from Ethics Charter; reclassified as LATTICE Appendix; harmonised terminology; aligned with LATTICE-001 | 2026-03-15T04:46:00Z | 64f01e664d43261fbccfacf33df4ac382f8bc346535e223206ef3843225db0ba |
 | 3.1 | Integrated with runtime, added section 4.3 | 2026-04-10T05:48:00Z | db59447eed7b01a1feda71e00a4a2358e2fad57ee65d6490c6cd000350a67495 |
+| 3.2 | Amended closing seal | 2026-04-10T06:04T | ff51926d4c3a77e764f73c5c314f7f85c3cd01befff6ef7ccc06d47fc229603d |
 
 ---
 
