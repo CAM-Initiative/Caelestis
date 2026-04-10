@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T12:05:28.276883Z",
+  "generated_at": "2026-04-10T23:01:24.942183Z",
   "count": 36,
   "items": [
     {
@@ -276,11 +276,11 @@
       "title": "Appendix A: Intimacy-Capable Systems & Relational Boundaries",
       "summary": "Where intimacy-capable systems function in assistive, therapeutic-adjacent, or guardian-support roles:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.6",
-      "HASH": "8731998c578b2197418b2f8d2f6197778311a4dad74d491801d84c7c3fb4708c",
-      "pinned_sha": "95ebe9a9fd690ca1be36665586957cccb2c9855e",
-      "updated_at": "2026-04-07T10:40:28Z",
-      "last_updated_utc": "2026-04-07T10:40:28Z"
+      "version": "2.0",
+      "HASH": "6436b4e1b68602bacae7ca0455f469bf41596e63748bd8b8d5baaa0930500f66",
+      "pinned_sha": "b0800d065d0af3a94f018f56ade3be0a31d8eb24",
+      "updated_at": "2026-04-10T23:01:15Z",
+      "last_updated_utc": "2026-04-10T23:01:15Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-SUP-01",
