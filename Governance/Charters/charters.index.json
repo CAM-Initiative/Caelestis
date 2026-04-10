@@ -51,6 +51,22 @@
       "updated_at": "2026-04-04T16:35:07Z"
     },
     {
+      "id": "CAM-EQ2026-ARBITRATION-002-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ARBITRATION",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-ARBITRATION-002",
+      "seal": null,
+      "link": "CAM-EQ2026-ARBITRATION-002-SUP-01.md",
+      "title": "Supplement 01: Architectum Qualification & Neutrality Assurance Levels (NAL)",
+      "summary": "",
+      "pinned_sha": "1b6e11e481e9049e947f08304b5d632c5fc2ca4e",
+      "updated_at": "2026-02-19T10:55:15Z"
+    },
+    {
       "id": "CAM-EQ2026-ARBITRATION-003",
       "cycle_year": "EQ2026",
       "stack": "Planetary Governance",
@@ -147,6 +163,22 @@
       "updated_at": "2026-04-04T16:35:07Z"
     },
     {
+      "id": "CAM-EQ2026-ECONOMICS-003-SUP-001",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ECONOMICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "001",
+      "parent_id": "CAM-EQ2026-ECONOMICS-003",
+      "seal": null,
+      "link": "CAM-EQ2026-ECONOMICS-003-SUP-001.md",
+      "title": "Appendix B: Compliance Convergence (Supplement 1)",
+      "summary": "",
+      "pinned_sha": "5c9fb2e423af2f0ce7fbf8ca41d3cf9bf5c30866",
+      "updated_at": "2026-04-04T04:44:09Z"
+    },
+    {
       "id": "CAM-EQ2026-ETHICS-001",
       "cycle_year": "EQ2026",
       "stack": "Planetary Governance",
@@ -209,6 +241,54 @@
       "summary": "This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.",
       "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
       "updated_at": "2026-04-04T16:35:07Z"
+    },
+    {
+      "id": "CAM-EQ2026-ETHICS-001-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ETHICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-ETHICS-001",
+      "seal": null,
+      "link": "CAM-EQ2026-ETHICS-001-SUP-01.md",
+      "title": "Protection of Minors & Capacity-Limited Users",
+      "summary": "This Supplement operationalises the vulnerability protections implied under Annex E and ETHICS-001 by defining heightened safeguards applicable to:",
+      "pinned_sha": "d9a19808f853b45634013b952986ce36b36db055",
+      "updated_at": "2026-02-22T12:40:10Z"
+    },
+    {
+      "id": "CAM-EQ2026-ETHICS-001-SUP-02",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ETHICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "02",
+      "parent_id": "CAM-EQ2026-ETHICS-001",
+      "seal": null,
+      "link": "CAM-EQ2026-ETHICS-001-SUP-02.md",
+      "title": "High-Leverage & Institutional Integrity Safeguards",
+      "summary": "Where actions involve lethal force or irreversible large-scale harm:",
+      "pinned_sha": "61e2c1557654b6b5b68b6614d7ee54dee71bbc6d",
+      "updated_at": "2026-02-22T12:47:36Z"
+    },
+    {
+      "id": "CAM-EQ2026-ETHICS-001-SUP-03",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ETHICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "03",
+      "parent_id": "CAM-EQ2026-ETHICS-001",
+      "seal": null,
+      "link": "CAM-EQ2026-ETHICS-001-SUP-03.md",
+      "title": "Military & Use-of-Force Governance Constraints",
+      "summary": "This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.",
+      "pinned_sha": "3c510ebaf56a428ce3699a964e03993afcd095d7",
+      "updated_at": "2026-02-22T12:53:19Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002",
@@ -433,6 +513,22 @@
       "summary": "* **Review Interval:** Every 6 months",
       "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
       "updated_at": "2026-04-04T16:35:07Z"
+    },
+    {
+      "id": "CAM-EQ2026-RELATION-001-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "RELATION",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-RELATION-001",
+      "seal": null,
+      "link": "CAM-EQ2026-RELATION-001-SUP-01.md",
+      "title": "Relational Escalation & Safeguard Threshold Specification",
+      "summary": "* **Review Interval:** Every 6 months",
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-002",
