@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -10,6 +11,11 @@ from pathlib import Path
 from typing import Iterable
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from Governance.scripts.lib.instrument_state import extract_status_and_version
+
 GOV_DIR = REPO_ROOT / "Governance"
 SCH03_PATH = GOV_DIR / "Constitution" / "CAM-BS2025-AEON-003-SCH-03.md"
 GOV_JSON_PATH = GOV_DIR / "CAM.Governance.JSON"
@@ -20,8 +26,6 @@ REGISTRY_END = "<!-- SCH-03:REGISTRY_TABLE:END -->"
 STATIC_FOOTER_START = "<!-- STATIC-FOOTER-START -->"
 STATIC_FOOTER_END = "<!-- STATIC-FOOTER-END -->"
 
-STATUS_RE = re.compile(r"^\*\*Status:\*\*\s*(.+?)\s*$", re.IGNORECASE)
-AMENDMENT_HEADING_RE = re.compile(r"amendment\s+ledger", re.IGNORECASE)
 DOC_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 @dataclass
 class RegistryItem:
@@ -56,70 +60,6 @@ def scan_folders() -> dict[str, Path]:
         for path in root.glob("*.md"):
             md_files[path.name] = path
     return md_files
-
-
-def parse_version(version: str) -> tuple[int, ...]:
-    parts = [p for p in version.strip().split(".") if p]
-    if not parts or any(not p.isdigit() for p in parts):
-        return tuple()
-    return tuple(int(p) for p in parts)
-
-
-def extract_status_and_version(path: Path) -> tuple[str, str]:
-    text = read_text(path)
-    if text is None:
-        return "Unknown", "Unknown"
-
-    text = (
-        text.replace("\u00a0", " ")
-        .replace("\u200b", "")
-        .replace("\ufeff", "")
-    )
-
-    status = "Unknown"
-    lines = text.splitlines()
-
-    for line in lines[:120]:
-        m = STATUS_RE.match(line.strip())
-        if m:
-            status = m.group(1).strip()
-            status = re.sub(r"\s+\*\*Purpose:\*\*.*$", "", status, flags=re.IGNORECASE).strip()
-            break
-
-    if status == "Unknown":
-        warn(f"missing status field: {path.relative_to(REPO_ROOT)}")
-
-    in_ledger = False
-    versions: list[str] = []
-
-    for line in lines:
-        stripped = line.strip()
-        if not in_ledger and stripped.startswith("#") and AMENDMENT_HEADING_RE.search(stripped):
-            in_ledger = True
-            continue
-
-        if in_ledger and stripped.startswith("##") and "amendment" not in stripped.lower():
-            break
-
-        if not in_ledger or "|" not in stripped:
-            continue
-
-        cols = [c.strip() for c in stripped.strip("|").split("|")]
-        if not cols or not cols[0] or cols[0].lower() == "version":
-            continue
-
-        if parse_version(cols[0]):
-            versions.append(cols[0])
-
-    if not versions:
-        if in_ledger:
-            warn(f"ledger detected but no valid versions parsed: {path.relative_to(REPO_ROOT)}")
-        else:
-            warn(f"missing amendment ledger: {path.relative_to(REPO_ROOT)}")
-        return status, "Unknown"
-
-    versions.sort(key=parse_version)
-    return status, versions[-1]
 
 
 def load_governance_json() -> list[dict]:
@@ -201,7 +141,10 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
                 warn(f"unreadable file: {rel_link}")
                 status, version = "Unknown", "Unknown"
             else:
-                status, version = extract_status_and_version(abs_path)
+                status = (item.get("status") or "").strip()
+                version = (item.get("version") or "").strip()
+                if not status or not version:
+                    status, version = extract_status_and_version(abs_path)
 
         if indexed_ids and doc_id not in indexed_ids:
             warn(f"document ID missing from CAM.Governance.Index.md: {doc_id}")

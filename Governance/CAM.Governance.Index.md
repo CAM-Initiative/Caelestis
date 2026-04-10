@@ -1,6 +1,6 @@
 # CAM Governance Index
 
-Generated: 2026-04-10T03:47:30.560852Z
+Generated: 2026-04-10T09:09:12.171506Z
 
 ## Constitution & Instruments
 
@@ -13,6 +13,7 @@ Generated: 2026-04-10T03:47:30.560852Z
 | [CAM-BS2025-AEON-003](Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | constitution | annex | CAM-BS2025-AEON-001 | Annex B: Continuity & Governance Logic | This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order. |
 | [CAM-BS2025-AEON-003-SCH-01](Constitution/CAM-BS2025-AEON-003-SCH-01.md) | constitution | schedule | CAM-BS2025-AEON-003 | Annex B: Runtime Schedule Registry (Schedule 1) | This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments. |
 | [CAM-BS2025-AEON-003-SCH-02](Constitution/CAM-BS2025-AEON-003-SCH-02.md) | constitution | schedule | CAM-BS2025-AEON-003 | Annex B: Runtime Governance Execution Model (Schedule 2) | Defines the runtime execution sequence governing how system processes unfold across defined execution phases. |
+| [CAM-BS2025-AEON-003-SCH-03](Constitution/CAM-BS2025-AEON-003-SCH-03.md) | constitution | schedule | CAM-BS2025-AEON-003 | Annex B: Global Instrument Registry (Schedule 3) | Canonical, human-readable registry of all governance instruments. |
 | [CAM-BS2025-AEON-004](Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | constitution | annex | CAM-BS2025-AEON-001 | Annex C: Constitutional Authority & Jurisdiction Framework | Annex C defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct. |
 | [CAM-BS2025-AEON-005](Constitution/CAM-BS2025-AEON-005-PLATINUM.md) | constitution | annex | CAM-BS2025-AEON-001 | Annex D: Arbitration & Sovereign Stack Resolution Doctrine | Annex D defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is recognised as a normal condition of plural systems, not an institutional failure |
 | [CAM-BS2025-AEON-005-SCH-01](Constitution/CAM-BS2025-AEON-005-SCH-01.md) | constitution | schedule | CAM-BS2025-AEON-005 | Annex D: Runtime Arbitration Integrity (Schedule 1) | This Schedule establishes runtime arbitration integrity standards. |

@@ -3,10 +3,16 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from Governance.scripts.lib.instrument_state import extract_status__HASH_and_version
+
 GOV_DIR = REPO_ROOT / "Governance"
 OUT_MD = GOV_DIR / "CAM.Governance.Index.md"
 OUT_JSON = GOV_DIR / "CAM.Governance.JSON"
@@ -70,9 +76,15 @@ def load_items() -> list[dict]:
             link_name = (row.get("link") or "").strip()
             if link_name:
                 row["link"] = f"{subdir}/{link_name}"
-                purpose_from_doc = extract_purpose_from_instrument(GOV_DIR / row["link"])
+                abs_path = (GOV_DIR / row["link"]).resolve()
+                purpose_from_doc = extract_purpose_from_instrument(abs_path)
                 if purpose_from_doc:
                     row["purpose"] = purpose_from_doc
+                status, content_hash, version = extract_status__HASH_and_version(abs_path)
+                row["status"] = status
+                row["version"] = version
+                row["HASH"] = content_hash
+            row["last_updated_utc"] = row.get("last_updated_utc") or row.get("updated_at") or ""
             rows.append(row)
 
     rows.sort(key=lambda x: x.get("id", ""))
