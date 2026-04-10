@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -17,6 +18,45 @@ SOURCES = [
 ]
 
 
+PURPOSE_META_RE = re.compile(r"^\*\*Purpose:\*\*\s*(.+?)\s*$", re.IGNORECASE)
+
+
+def read_text(path: Path) -> str:
+    try:
+        return path.read_text(encoding="utf-8")
+    except Exception:
+        return ""
+
+
+def extract_purpose_from_instrument(path: Path) -> str:
+    text = read_text(path)
+    if not text:
+        return ""
+
+    lines = text.replace("\u00a0", " ").splitlines()
+
+    # Preferred: explicit metadata header, e.g. "**Purpose:** ..."
+    for raw_line in lines[:120]:
+        line = raw_line.strip()
+        m = PURPOSE_META_RE.match(line)
+        if m:
+            return m.group(1).strip()
+
+    # Fallback: heading-based purpose block (e.g. "# PURPOSE" / "## Purpose").
+    for i, raw_line in enumerate(lines[:200]):
+        heading = raw_line.strip().lower().replace("#", "").strip()
+        if heading == "purpose":
+            for body_line in lines[i + 1 :]:
+                body = body_line.strip()
+                if not body:
+                    continue
+                if body.startswith("#") or body.startswith("|"):
+                    break
+                return body
+
+    return ""
+
+
 def load_items() -> list[dict]:
     rows: list[dict] = []
     for default_class, src, subdir in SOURCES:
@@ -30,6 +70,9 @@ def load_items() -> list[dict]:
             link_name = (row.get("link") or "").strip()
             if link_name:
                 row["link"] = f"{subdir}/{link_name}"
+                purpose_from_doc = extract_purpose_from_instrument(GOV_DIR / row["link"])
+                if purpose_from_doc:
+                    row["purpose"] = purpose_from_doc
             rows.append(row)
 
     rows.sort(key=lambda x: x.get("id", ""))
