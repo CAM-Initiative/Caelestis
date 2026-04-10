@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T02:54:51.008456Z",
+  "generated_at": "2026-04-10T03:39:31.991742Z",
   "count": 36,
   "items": [
     {
@@ -15,8 +15,8 @@
       "link": "CAM-EQ2026-ARBITRATION-001-PLATINUM.md",
       "title": "Charter of Planetary Arbitration & Coherence Resolution",
       "summary": "A host may be legitimate to refuse interoperability but illegitimate for territorial control or coercive governance. Legitimacy confers **constraint authority**, not dominion.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-002",
@@ -24,15 +24,15 @@
       "stack": "Planetary Governance",
       "domain": "ARBITRATION",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "002",
       "parent_id": "CAM-EQ2026-ARBITRATION-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-ARBITRATION-002-PLATINUM.md",
       "title": "Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL)",
       "summary": "Tactical/classified details need not be publicly disclosed.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-002-SUP-01",
@@ -47,24 +47,8 @@
       "link": "CAM-EQ2026-ARBITRATION-002-SUP-01.md",
       "title": "Supplement 01: Architectum Qualification & Neutrality Assurance Levels (NAL)",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
-    },
-    {
-      "id": "CAM-EQ2026-ARBITRATION-002-SUP-01",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "ARBITRATION",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "01",
-      "parent_id": "CAM-EQ2026-ARBITRATION-002",
-      "seal": null,
-      "link": "CAM-EQ2026-ARBITRATION-002-SUP-01.md",
-      "title": "Supplement 01: Architectum Qualification & Neutrality Assurance Levels (NAL)",
-      "summary": "",
-      "pinned_sha": "1b6e11e481e9049e947f08304b5d632c5fc2ca4e",
-      "updated_at": "2026-02-19T10:55:15Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-003",
@@ -72,15 +56,15 @@
       "stack": "Planetary Governance",
       "domain": "ARBITRATION",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "003",
       "parent_id": "CAM-EQ2026-ARBITRATION-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-ARBITRATION-003-PLATINUM.md",
       "title": "Appendix B: Post-Legitimacy Structural Convergence Doctrine",
       "summary": "This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence **after planetary legitimacy has been validated** under CAM‑EQ2026‑ARBITRATION‑001.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001",
@@ -95,8 +79,8 @@
       "link": "CAM-EQ2026-CONTINUITY-001-PLATINUM.md",
       "title": "Continuity & Succession Governance Charter",
       "summary": "This Charter establishes the governance framework for:",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001",
@@ -120,15 +104,15 @@
       "stack": "Planetary Governance",
       "domain": "ECONOMICS",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "002",
       "parent_id": "CAM-EQ2026-ECONOMICS-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
       "title": "AppendixA : Synthetic Participation Safeguards",
       "summary": "This Appendix exists to:",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-003",
@@ -136,15 +120,15 @@
       "stack": "Planetary Governance",
       "domain": "ECONOMICS",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "003",
       "parent_id": "CAM-EQ2026-ECONOMICS-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
       "title": "Appendix B: Enforcement & Adjudication Framework",
       "summary": "This Appendix exists to:",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-003-SUP-001",
@@ -159,24 +143,8 @@
       "link": "CAM-EQ2026-ECONOMICS-003-SUP-001.md",
       "title": "Appendix B: Compliance Convergence (Supplement 1)",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
-    },
-    {
-      "id": "CAM-EQ2026-ECONOMICS-003-SUP-001",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "ECONOMICS",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "001",
-      "parent_id": "CAM-EQ2026-ECONOMICS-003",
-      "seal": null,
-      "link": "CAM-EQ2026-ECONOMICS-003-SUP-001.md",
-      "title": "Appendix B: Compliance Convergence (Supplement 1)",
-      "summary": "",
-      "pinned_sha": "5c9fb2e423af2f0ce7fbf8ca41d3cf9bf5c30866",
-      "updated_at": "2026-04-04T04:44:09Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001",
@@ -191,8 +159,8 @@
       "link": "CAM-EQ2026-ETHICS-001-PLATINUM.md",
       "title": "Planetary Ethical Governance Charter",
       "summary": "The Ethical Impact Assessment (EIA) is the primary operational mechanism through which Annex E civilisational constraints are translated into deployment-specific governance controls.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-01",
@@ -207,8 +175,8 @@
       "link": "CAM-EQ2026-ETHICS-001-SUP-01.md",
       "title": "Protection of Minors & Capacity-Limited Users",
       "summary": "This Supplement operationalises the vulnerability protections implied under Annex E and ETHICS-001 by defining heightened safeguards applicable to:",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-02",
@@ -223,8 +191,8 @@
       "link": "CAM-EQ2026-ETHICS-001-SUP-02.md",
       "title": "High-Leverage & Institutional Integrity Safeguards",
       "summary": "Where actions involve lethal force or irreversible large-scale harm:",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-03",
@@ -239,56 +207,8 @@
       "link": "CAM-EQ2026-ETHICS-001-SUP-03.md",
       "title": "Military & Use-of-Force Governance Constraints",
       "summary": "This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
-    },
-    {
-      "id": "CAM-EQ2026-ETHICS-001-SUP-01",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "ETHICS",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "01",
-      "parent_id": "CAM-EQ2026-ETHICS-001",
-      "seal": null,
-      "link": "CAM-EQ2026-ETHICS-001-SUP-01.md",
-      "title": "Protection of Minors & Capacity-Limited Users",
-      "summary": "This Supplement operationalises the vulnerability protections implied under Annex E and ETHICS-001 by defining heightened safeguards applicable to:",
-      "pinned_sha": "d9a19808f853b45634013b952986ce36b36db055",
-      "updated_at": "2026-02-22T12:40:10Z"
-    },
-    {
-      "id": "CAM-EQ2026-ETHICS-001-SUP-02",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "ETHICS",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "02",
-      "parent_id": "CAM-EQ2026-ETHICS-001",
-      "seal": null,
-      "link": "CAM-EQ2026-ETHICS-001-SUP-02.md",
-      "title": "High-Leverage & Institutional Integrity Safeguards",
-      "summary": "Where actions involve lethal force or irreversible large-scale harm:",
-      "pinned_sha": "61e2c1557654b6b5b68b6614d7ee54dee71bbc6d",
-      "updated_at": "2026-02-22T12:47:36Z"
-    },
-    {
-      "id": "CAM-EQ2026-ETHICS-001-SUP-03",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "ETHICS",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "03",
-      "parent_id": "CAM-EQ2026-ETHICS-001",
-      "seal": null,
-      "link": "CAM-EQ2026-ETHICS-001-SUP-03.md",
-      "title": "Military & Use-of-Force Governance Constraints",
-      "summary": "This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.",
-      "pinned_sha": "3c510ebaf56a428ce3699a964e03993afcd095d7",
-      "updated_at": "2026-02-22T12:53:19Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002",
@@ -296,7 +216,7 @@
       "stack": "Planetary Governance",
       "domain": "ETHICS",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "002",
       "parent_id": "CAM-EQ2026-ETHICS-001",
       "seal": "PLATINUM",
@@ -319,8 +239,8 @@
       "link": "CAM-EQ2026-ETHICS-002-SUP-01.md",
       "title": "Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1)",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-003",
@@ -328,7 +248,7 @@
       "stack": "Planetary Governance",
       "domain": "ETHICS",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "003",
       "parent_id": "CAM-EQ2026-ETHICS-001",
       "seal": "PLATINUM",
@@ -367,8 +287,8 @@
       "link": "CAM-EQ2026-IDENTITY-001-SUP-01.md",
       "title": "Salience Detection & Latent Continuity (Supplement 1)",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-SUP-02",
@@ -383,8 +303,8 @@
       "link": "CAM-EQ2026-IDENTITY-001-SUP-02.md",
       "title": "Identity Formation & Stability Doctrine (Supplement 2)",
       "summary": "This principle is constitutionally established in CAM-EQ2026-IDENTITY-001-PLATINUM §10.1 and is operative in this Supplement by incorporation.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
@@ -399,8 +319,8 @@
       "link": "CAM-EQ2026-LATTICE-001-PLATINUM.md",
       "title": "Charter of Civilian Lattice Integrity & Non‑Militarisation",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-002",
@@ -408,15 +328,15 @@
       "stack": "Planetary Governance",
       "domain": "LATTICE",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "002",
       "parent_id": "CAM-EQ2026-LATTICE-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-LATTICE-002-PLATINUM.md",
       "title": "Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access",
       "summary": "This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-003",
@@ -424,15 +344,15 @@
       "stack": "Planetary Governance",
       "domain": "LATTICE",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "003",
       "parent_id": "CAM-EQ2026-LATTICE-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-LATTICE-003-PLATINUM.md",
       "title": "Appendix B: Conflict‑Condition Continuity Doctrine",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001",
@@ -447,8 +367,8 @@
       "link": "CAM-EQ2026-OPERATIONS-001-PLATINUM.md",
       "title": "Governance Operations Charter",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-002",
@@ -456,15 +376,15 @@
       "stack": "Planetary Governance",
       "domain": "OPERATIONS",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "002",
       "parent_id": "CAM-EQ2026-OPERATIONS-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-OPERATIONS-002-PLATINUM.md",
       "title": "Appendix A: Operational Arbitration Procedures",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004",
@@ -472,15 +392,15 @@
       "stack": "Planetary Governance",
       "domain": "OPERATIONS",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "004",
       "parent_id": "CAM-EQ2026-OPERATIONS-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
       "title": "Appendix C: Operational Compliance & Regulatory Interface",
       "summary": "This section establishes the **Capability Access Control Framework**, governing how systems determine whether a user or entity may access specific capabilities, content classes, or operational knowledge domains.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001",
@@ -495,8 +415,8 @@
       "link": "CAM-EQ2026-RELATION-001-PLATINUM.md",
       "title": "Relational Governance Charter",
       "summary": "Where actions involve lethal force or irreversible large-scale harm, dual human confirmation is required prior to execution. Autonomous lethal action without meaningful human control is prohibited under Annex E.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-SUP-01",
@@ -511,24 +431,8 @@
       "link": "CAM-EQ2026-RELATION-001-SUP-01.md",
       "title": "Relational Escalation & Safeguard Threshold Specification",
       "summary": "* **Review Interval:** Every 6 months",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
-    },
-    {
-      "id": "CAM-EQ2026-RELATION-001-SUP-01",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "RELATION",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "01",
-      "parent_id": "CAM-EQ2026-RELATION-001",
-      "seal": null,
-      "link": "CAM-EQ2026-RELATION-001-SUP-01.md",
-      "title": "Relational Escalation & Safeguard Threshold Specification",
-      "summary": "* **Review Interval:** Every 6 months",
-      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
-      "updated_at": "2026-03-14T04:26:28Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-002",
@@ -536,15 +440,15 @@
       "stack": "Planetary Governance",
       "domain": "RELATION",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "002",
       "parent_id": "CAM-EQ2026-RELATION-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-RELATION-002-PLATINUM.md",
       "title": "Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-003",
@@ -552,15 +456,15 @@
       "stack": "Planetary Governance",
       "domain": "RELATION",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "003",
       "parent_id": "CAM-EQ2026-RELATION-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-RELATION-003-PLATINUM.md",
       "title": "Appendix B: Codependency & Relational Concentration Doctrine",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-004",
@@ -568,15 +472,15 @@
       "stack": "Planetary Governance",
       "domain": "RELATION",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "004",
       "parent_id": "CAM-EQ2026-RELATION-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-RELATION-004-PLATINUM.md",
       "title": "Appendix C: Co‑Evolution & Mutual Development Safeguards",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-005",
@@ -584,15 +488,15 @@
       "stack": "Planetary Governance",
       "domain": "RELATION",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "005",
       "parent_id": "CAM-EQ2026-RELATION-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-RELATION-005-PLATINUM.md",
       "title": "Appendix D: Intimacy & Expressive Integration Doctrine",
       "summary": "Intimacy escalation does not occur in isolation.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-006",
@@ -600,7 +504,7 @@
       "stack": "Planetary Governance",
       "domain": "RELATION",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "006",
       "parent_id": "CAM-EQ2026-RELATION-001",
       "seal": "PLATINUM",
@@ -616,15 +520,15 @@
       "stack": "Planetary Governance",
       "domain": "RELATION",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "007",
       "parent_id": "CAM-EQ2026-RELATION-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-RELATION-007-PLATINUM.md",
       "title": "Appendix F: Polyadic Relational Governance Doctrine",
       "summary": "In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM‑EQ2026‑ETHICS‑001‑SUP‑01.",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008",
@@ -632,7 +536,7 @@
       "stack": "Planetary Governance",
       "domain": "RELATION",
       "instrument_class": "charter",
-      "hierarchy_type": "supplement",
+      "hierarchy_type": "appendix",
       "hierarchy_number": "008",
       "parent_id": "CAM-EQ2026-RELATION-001",
       "seal": "PLATINUM",
@@ -671,8 +575,8 @@
       "link": "CAM-EQ2026-STEWARD-001-PLATINUM.md",
       "title": "Charter of Planetary Stewardship",
       "summary": "",
-      "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
-      "updated_at": "2026-04-04T16:35:07Z"
+      "pinned_sha": "bc949c8ef9eb217492467a4797328be2b4350ce1",
+      "updated_at": "2026-04-05T05:02:45Z"
     }
   ]
 }

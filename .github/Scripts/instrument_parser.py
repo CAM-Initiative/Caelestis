@@ -106,9 +106,12 @@ def parse_instrument_filename(filename: str, folder_type: str) -> Optional[dict]
         hierarchy_number = _to_alpha_index(int(number) - 1)
         parent_id = f"CAM-{cycle_year}-{domain_token.upper()}-001"
 
-    # Treat non-001 base files as supplements only for Charter folders.
+    # Charter domain structure:
+    # - 001[-PLATINUM] is the root charter
+    # - 002+ base files are appendices
+    # - explicit -SUP- remains supplement and keeps parsed parent
     if folder_key == "charters" and not hierarchy_type and number != "001":
-        hierarchy_type = "supplement"
+        hierarchy_type = "appendix"
         hierarchy_number = number
         parent_id = f"CAM-{cycle_year}-{domain_token.upper()}-001"
 
