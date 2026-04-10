@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T23:31:42.676118Z",
+  "generated_at": "2026-04-10T23:53:51.331410Z",
   "count": 36,
   "items": [
     {
@@ -296,11 +296,11 @@
       "title": "Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1)",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.1",
-      "HASH": "74d8b43da382f78011c6e406a2ed77f748b60d5daced84ec9d27857d188515b0",
-      "pinned_sha": "67b8bf481701c2f72df25e2885e08e9027081550",
-      "updated_at": "2026-03-24T10:53:49Z",
-      "last_updated_utc": "2026-03-24T10:53:49Z"
+      "version": "1.2",
+      "HASH": "c669189ac6d85956f836924f5bf773598395c92e279d6ed8c55c3156cf257fe8",
+      "pinned_sha": "4803f52aa74cc7a9c70b54349b2693f2553a00d4",
+      "updated_at": "2026-04-10T23:53:40Z",
+      "last_updated_utc": "2026-04-10T23:53:40Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-003",
