@@ -92,15 +92,15 @@ def render_md(items: list[dict]) -> str:
 
     def render_table(table_items: list[dict]) -> None:
         out.extend([
-            "| ID | Class | Hierarchy | Parent | Document | Title | Purpose |",
-            "|---|---|---|---|---|---|---|",
+            "| Document | Class | Hierarchy | Parent | Title | Purpose |",
+            "|---|---|---|---|---|---|",
         ])
         for it in table_items:
             link = it.get("link", "")
-            link_md = f"[{it.get('id', '')}]({link})" if link else ""
+            document = it.get("id", "")
+            link_md = f"[{document}]({link})" if link else document
             out.append(
-                "| {id} | {instrument_class} | {hierarchy} | {parent} | {link_md} | {title} | {purpose} |".format(
-                    id=it.get("id", ""),
+                "| {link_md} | {instrument_class} | {hierarchy} | {parent} | {title} | {purpose} |".format(
                     instrument_class=it.get("instrument_class", ""),
                     hierarchy=it.get("hierarchy_type") or "root",
                     parent=it.get("parent_id") or "",

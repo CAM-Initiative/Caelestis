@@ -172,7 +172,7 @@ def parse_instrument_filename(
         parent_id = f"CAM-{cycle_year}-{domain_token}-001"
 
     if folder_key == "charters" and not hierarchy_type and number != "001":
-        hierarchy_type = "supplement"
+        hierarchy_type = "appendix"
         hierarchy_number = number
         parent_id = f"CAM-{cycle_year}-{domain_token}-001"
 
