@@ -676,25 +676,9 @@ Protective priority supersedes contextual permissibility.
 
 This Appendix interoperates with constitutional and domain instruments defined within the CAM governance architecture.
 
-Authoritative instrument listings, including current versions, supplements, and schedules, are maintained in:
-
-**CAM Charter Registry** 
-
-This registry [CAM-Charters-Index] serves as the canonical reference point for:
-
-- instrument discovery
-- version alignment
-- cross-domain dependency resolution
-
----
-
-## 6. Cross-Domain Interfaces
-
-This Appendix interoperates with constitutional and domain instruments defined within the CAM governance architecture.
-
 Authoritative instrument listings, including current versions, supplements, schedules, and domain charters, are governed by:
 
-CAM-BS2025-AEON-003-SCH-03 — Runtime Execution Registry
+CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
 
 ---
 
@@ -954,6 +938,7 @@ and dignity remain the first boundary we keep.
 | 1.0     | March 2026 Ethics Corpus Refactor — Structural harmonisation, harm taxonomy expansion, lawful force alignment, safeguard integration | 2026-03-07T16:31:00Z | 6ee965400b68ec76959e93c52a3702d664c8ddf095e91dc23da818e84ca8111d |
 | 2.0     | April 2026 Refactor alignment | 2026-04-10T07:04:00Z | 9bd535bcab475d874d23fa41e71ef4085dd9cdaff925fbc89ba2f5c8a26c11de |
 | 2.1     | Updated section 6 to refer to CAM Charter registry and updated metadata | 2026-04-10T07:18:00Z | 2b2a5ee1d558fb2312fb506d9f5b9fa5971c0ec13869af6c1a9b8dd7c278beb0 |
+| 2.2     | Corrected section 6 reference block | 2026-04-10T08:54:00Z | 98b0444720cf5d60aafb811761cc298578765c626344ac2e308c205499d973d9 |
 
 ---
 
