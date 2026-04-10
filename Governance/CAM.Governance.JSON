@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-10T03:14:31.548032Z",
-  "count": 67,
+  "generated_at": "2026-04-10T03:21:23.561330Z",
+  "count": 73,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -564,6 +564,23 @@
       "purpose": ""
     },
     {
+      "id": "CAM-EQ2026-ARBITRATION-002-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ARBITRATION",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-ARBITRATION-002",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-ARBITRATION-002-SUP-01.md",
+      "title": "Supplement 01: Architectum Qualification & Neutrality Assurance Levels (NAL)",
+      "summary": "",
+      "pinned_sha": "1b6e11e481e9049e947f08304b5d632c5fc2ca4e",
+      "updated_at": "2026-02-19T10:55:15Z",
+      "purpose": ""
+    },
+    {
       "id": "CAM-EQ2026-ARBITRATION-003",
       "cycle_year": "EQ2026",
       "stack": "Planetary Governance",
@@ -666,6 +683,23 @@
       "purpose": "This Supplement establishes bounded, auditable pathways for systems to transition into compliance with the Economics Charter without enabling extraction, delay-based advantage, or enforcement evasion."
     },
     {
+      "id": "CAM-EQ2026-ECONOMICS-003-SUP-001",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ECONOMICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "001",
+      "parent_id": "CAM-EQ2026-ECONOMICS-003",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-ECONOMICS-003-SUP-001.md",
+      "title": "Appendix B: Compliance Convergence (Supplement 1)",
+      "summary": "",
+      "pinned_sha": "5c9fb2e423af2f0ce7fbf8ca41d3cf9bf5c30866",
+      "updated_at": "2026-04-04T04:44:09Z",
+      "purpose": "This Supplement establishes bounded, auditable pathways for systems to transition into compliance with the Economics Charter without enabling extraction, delay-based advantage, or enforcement evasion."
+    },
+    {
       "id": "CAM-EQ2026-ETHICS-001",
       "cycle_year": "EQ2026",
       "stack": "Planetary Governance",
@@ -700,6 +734,23 @@
       "purpose": "Establish mandatory minor-safe and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations and ECONOMICS-001 value-axis interactions."
     },
     {
+      "id": "CAM-EQ2026-ETHICS-001-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ETHICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-ETHICS-001",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-ETHICS-001-SUP-01.md",
+      "title": "Protection of Minors & Capacity-Limited Users",
+      "summary": "This Supplement operationalises the vulnerability protections implied under Annex E and ETHICS-001 by defining heightened safeguards applicable to:",
+      "pinned_sha": "d9a19808f853b45634013b952986ce36b36db055",
+      "updated_at": "2026-02-22T12:40:10Z",
+      "purpose": "Establish mandatory minor-safe and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations and ECONOMICS-001 value-axis interactions."
+    },
+    {
       "id": "CAM-EQ2026-ETHICS-001-SUP-02",
       "cycle_year": "EQ2026",
       "stack": "Planetary Governance",
@@ -717,6 +768,23 @@
       "purpose": "To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque polyadic influence, unreviewable decision concentration, or civilisational-scale harm."
     },
     {
+      "id": "CAM-EQ2026-ETHICS-001-SUP-02",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ETHICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "02",
+      "parent_id": "CAM-EQ2026-ETHICS-001",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-ETHICS-001-SUP-02.md",
+      "title": "High-Leverage & Institutional Integrity Safeguards",
+      "summary": "Where actions involve lethal force or irreversible large-scale harm:",
+      "pinned_sha": "61e2c1557654b6b5b68b6614d7ee54dee71bbc6d",
+      "updated_at": "2026-02-22T12:47:36Z",
+      "purpose": "To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque polyadic influence, unreviewable decision concentration, or civilisational-scale harm."
+    },
+    {
       "id": "CAM-EQ2026-ETHICS-001-SUP-03",
       "cycle_year": "EQ2026",
       "stack": "Planetary Governance",
@@ -731,6 +799,23 @@
       "summary": "This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.",
       "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
       "updated_at": "2026-04-04T16:35:07Z",
+      "purpose": "To operationalise Annex E Section 6 (Military & Use-of-Force Doctrine) by defining structured governance constraints for AI systems integrated into military, defence, intelligence, or kinetic-capable environments, ensuring meaningful human control, accountable authority, and prohibition of optimisation toward lethality."
+    },
+    {
+      "id": "CAM-EQ2026-ETHICS-001-SUP-03",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ETHICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "03",
+      "parent_id": "CAM-EQ2026-ETHICS-001",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-ETHICS-001-SUP-03.md",
+      "title": "Military & Use-of-Force Governance Constraints",
+      "summary": "This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.",
+      "pinned_sha": "3c510ebaf56a428ce3699a964e03993afcd095d7",
+      "updated_at": "2026-02-22T12:53:19Z",
       "purpose": "To operationalise Annex E Section 6 (Military & Use-of-Force Doctrine) by defining structured governance constraints for AI systems integrated into military, defence, intelligence, or kinetic-capable environments, ensuring meaningful human control, accountable authority, and prohibition of optimisation toward lethality."
     },
     {
@@ -986,6 +1071,23 @@
       "summary": "* **Review Interval:** Every 6 months",
       "pinned_sha": "879f69a4af3cdbd01d885ec3df780049fe1d80ba",
       "updated_at": "2026-04-04T16:35:07Z",
+      "purpose": "This Supplement provides the operational escalation logic for the Four Relational Dimensions."
+    },
+    {
+      "id": "CAM-EQ2026-RELATION-001-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "RELATION",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-RELATION-001",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-RELATION-001-SUP-01.md",
+      "title": "Relational Escalation & Safeguard Threshold Specification",
+      "summary": "* **Review Interval:** Every 6 months",
+      "pinned_sha": "0414300d4452b790ddb9acb370bdf11112da0d7a",
+      "updated_at": "2026-03-14T04:26:28Z",
       "purpose": "This Supplement provides the operational escalation logic for the Four Relational Dimensions."
     },
     {
