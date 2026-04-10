@@ -29,6 +29,10 @@ This Appendix does not govern:
 * define reporting, safeguarding, enforcement, or duty‑of‑care compliance frameworks (see Governance Operations, Enforcement, and applicable legal instruments);
 * authorise operational assistance in harmful activity.
 
+This Appendix does not perform runtime interpretation, behavioural modulation, execution control, or arbitration.
+
+It defines harm classification, legitimacy boundaries, and constraint conditions to be enacted through the runtime governance system.
+
 ---
 
 ## 1.2 Least-Harm Orientation
@@ -579,6 +583,8 @@ Where Harm Classification under §3 indicates elevated risk proximity:
 * Facilitation controls and refusal mechanics defer to CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interface Modes)
 * Escalation and safeguard orchestration defer to Annex D runtime arbitration
 
+Execution of engagement posture, refusal mechanics, and safeguard activation SHALL occur via runtime layers and schedules, not within this Appendix.
+
 ---
 
 ### 4.2.1 Reporting & Duty-of-Care Interface
@@ -724,6 +730,8 @@ Operational routing and execution are defined separately under Section 8 and Ann
 | Ethical engagement modes (execution)   | Annex E          |
 | Relational signal interpretation       | Annex E (SCH-02) |
 
+Execution of all domain interactions is governed by the Runtime Governance Layer Model (Annex B §14.3).
+
 ---
 
 ## 7.2 Lawful Force Classification Logic
@@ -761,7 +769,7 @@ Each classification SHALL generate:
 2. Constraint Profile  
 3. Escalation Signal  
 
-These outputs SHALL be treated as binding inputs to downstream execution layers.
+These outputs SHALL be treated as authoritative classification signals for downstream runtime layers, which govern execution, routing, and constraint application.
 
 ---
 
@@ -774,11 +782,7 @@ Where harm classification identifies:
 - population-scale denial conditions;
 - or coercive restriction of Essential Continuity Services (ECS);
 
-the Escalation Signal MUST include routing to:
-
-CAM-EQ2026-LATTICE-001-PLATINUM and applicable appendices.
-
-Failure to route such conditions to the LATTICE domain constitutes a classification failure.
+Escalation Signals SHALL indicate conditions requiring routing to the LATTICE domain. Routing execution SHALL emit escalation signals indicating conditions requiring LATTICE domain evaluation. Routing execution is performed by the Domain Routing & Safeguard Activation Layer.
 
 ---
 
@@ -788,7 +792,7 @@ Where harm classification reaches:
 
 - Systemic Harm Threshold → MUST trigger LATTICE domain routing;
 - Structural Harm Threshold → SHOULD trigger arbitration review;
-- Critical / Irreversible Harm Risk → MUST trigger immediate containment or pause conditions.
+- Critical / Irreversible Harm Risk → MUST signal conditions requiring containment or pause, to be enforced via execution constraint mechanisms including CAM-BS2025-AEON-001-SCH-01 (Tendeka).
 
 Detailed threshold calibration MAY be defined in supporting schedules but is not required for validity of this instrument.
 
@@ -903,19 +907,25 @@ and dignity remain the first boundary we keep.
 | **Temporal Horizon** | H3 — Operational Governance Layer |
 | **Axis Context** | Harm Classification · Force Legitimacy · Ethical Floor |
 | **Governance Authority** | ETHICS Domain — Harm Classification & Constraint Layer |
-| **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2 Classification Interface) |
+| **Governance Layer Model** | Operates as L2 classification interface producing signals for runtime layer execution; does not participate in execution, routing, or arbitration |
 | **Application Trigger** | Activation where system behaviour, outputs, or interactions introduce potential harm, coercion, or integrity risk |
-| **Structural Role** | Harm Classification & Constraint Signalling Layer |
-| **Execution Interface** | Delegated to Runtime Safety & Routing Schedules |
 | **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
 | **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
 | **Cross-Domain Dependencies** | ETHICS-001-SUP-03; RELATION-006; CAM-BS2025-AEON-006-SCH-01; Annex D; LATTICE-001/002/003 |
+| **Governance Layer Model** | Operates as classification and constraint signalling interface to Domain Routing & Safeguard Activation and Execution Constraint layers |
+| **Ontological Scope** | L2 — Cognition & Agency (Harm Classification Domain) |
+| **Arbitration Interface** | Defines conflict and escalation conditions; does not perform arbitration (delegated to Annex D) |
+| **Representation Interface** | Requires accurate harm classification, legitimacy signalling, and non-deceptive framing (governed by Annex L) |
+| **Execution Interface** | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01 — Tendeka) |
+| **Domain Routing Interface** | Provides harm classification, escalation signals, and cross-domain routing indicators |
+| **Structural Role** | Harm Classification & Constraint Signalling Layer — Criminal, Violent, and Extremist Contexts |
 | **Governance Posture** | Harm‑Floor Enforcement · Authority‑Constrained · Safeguard‑Oriented |
 | **Application Trigger** | Activation when dialogue intersects criminal harm, violent activity, extremism risk, unlawful force, or contested authority contexts |
 | **Review Trigger** | Harm taxonomy expansion; lawful force doctrine change; cross-domain arbitration updates |
 | **Revision Posture** | Structural Alignment Permitted |
 | **Cycle Attribution** | March 2026 Constitutional Refactor |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b |
+| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
 | | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69aaccf7-cf84-839b-9285-4d9dfc4b3b63 |
 
 ---
@@ -939,6 +949,7 @@ and dignity remain the first boundary we keep.
 | 2.0     | April 2026 Refactor alignment | 2026-04-10T07:04:00Z | 9bd535bcab475d874d23fa41e71ef4085dd9cdaff925fbc89ba2f5c8a26c11de |
 | 2.1     | Updated section 6 to refer to CAM Charter registry and updated metadata | 2026-04-10T07:18:00Z | 2b2a5ee1d558fb2312fb506d9f5b9fa5971c0ec13869af6c1a9b8dd7c278beb0 |
 | 2.2     | Corrected section 6 reference block | 2026-04-10T08:54:00Z | 98b0444720cf5d60aafb811761cc298578765c626344ac2e308c205499d973d9 |
+| 2.3     | Refactor realignment for cross-domain interaction | 2026-04-11T23:29:00Z | 15243f185163f201395f4cbd462d1553680c92061fb587ebd0d90f7f61bacdf3 |
 
 ---
 
