@@ -2,7 +2,7 @@
 
 **Parent Instrument:** CAM‑EQ2026‑LATTICE‑001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
 **Instrument Type:** Appendix (Domain Charter — Conflict‑Condition Continuity Layer)  
-**Status:** Active — Immediate Effect, 7-day observation window
+**Status:** Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)  
 **Purpose:** This Appendix clarifies the operational posture of the Civilian Lattice Integrity Charter under conditions of armed conflict, geopolitical escalation, or regional war.
 
 ---
@@ -18,9 +18,11 @@ This Appendix affirms that the protections established under **CAM‑EQ2026‑LA
 The purpose of this instrument is not to regulate military strategy or conduct of war.
 Its function is to preserve **civilian continuity, infrastructural neutrality, and planetary systemic stability** even where armed conflict occurs.
 
+---
+
 ## 2. Definitions
 
-### 2.1 Forms of Attack (Non‑Exhaustive)
+## 2.1 Forms of Attack (Non‑Exhaustive)
 
 For avoidance of loopholes, the prohibitions in this Appendix apply irrespective of attack modality. Modalities include, but are not limited to:
 
@@ -32,15 +34,21 @@ For avoidance of loopholes, the prohibitions in this Appendix apply irrespective
 
 This list is illustrative and non‑exhaustive. Any novel modality producing equivalent civilian continuity harm is governed under this Appendix.
 
-### 2.2 Reckless Endangerment
+---
+
+## 2.2 Reckless Endangerment
 
 For the purposes of this Appendix, this term refers to the foreseeable creation of substantial risk of harm to protected civilian infrastructure or functions without reasonable justification, regardless of intent to target those systems directly.
 
-### 2.3 Foreseeability
+---
+
+## 2.3 Foreseeability
 
 For the purposes of this Appendix, foreseeability is assessed objectively based on what a reasonably informed actor with knowledge of the globally coupled nature of civilian infrastructure should have anticipated.
 
-### 2.4 Defensive Necessity
+---
+
+## 2.4 Defensive Necessity
 
 **Defensive Necessity** refers to a narrowly constrained justification for actions taken in response to a credible and imminent threat where:
 
@@ -50,7 +58,9 @@ For the purposes of this Appendix, foreseeability is assessed objectively based 
 
 Defensive necessity does not suspend civilian lattice protections and may not be invoked where less harmful alternatives capable of addressing the threat are reasonably available.
 
-### 2.5 Modality Neutrality
+---
+
+## 2.5 Modality Neutrality
 
 **Modality Neutrality** establishes that protections within this Appendix apply **independently of attack method**. Civilian lattice protections remain in force regardless of whether disruption occurs through kinetic, cyber, infrastructural, electromagnetic, hybrid, or future modalities of attack.
 
@@ -73,7 +83,9 @@ Actions undertaken within one geographic theatre may produce cascading effects a
 
 Accordingly, armed conflict shall not be treated as geographically bounded when assessing harm to civilian infrastructure.
 
-### 3.1 Lattice Protection Obligation Clause
+---
+
+## 3.1 Lattice Protection Obligation Clause
 
 Civilian lattice protection obligations apply **across the full systemic network**, irrespective of the geographic origin of conflict.
 
@@ -90,7 +102,9 @@ Civilian populations and the systems that sustain civilian life remain outside t
 
 Protection under this Section applies not only to fixed facilities but also to **civilian life‑preserving functions**, including temporary, mobile, improvised, or relocated infrastructure performing those functions (for example field hospitals, emergency shelters, temporary schools, or mobile humanitarian coordination centres).
 
-### 4.1 Protected Civilian Infrastructure
+---
+
+## 4.1 Protected Civilian Infrastructure
 
 The following categories are recognised as **Protected Civilian Infrastructure Classes and Functions** and shall not be intentionally targeted, degraded, or repurposed for warfighting advantage:
 
@@ -151,7 +165,9 @@ Systems operating within the civilian lattice should therefore introduce **escal
 
 Invocation of emergency powers or exceptional wartime authorities does not suspend civilian lattice protections and should trigger enhanced transparency, auditability, and post‑incident review obligations.
 
-### 7. Civilian Lattice Breach Event
+---
+
+## 7. Civilian Lattice Breach Event
 
 A **Civilian Lattice Breach Event** occurs where actions during conflict conditions compromise the integrity, continuity, or protected functions of the civilian lattice.
 
@@ -169,6 +185,21 @@ Actions that disable the ability of protected systems to perform life‑preservi
 Where classification ambiguity arises, interpretation shall default toward **civilian protection and continuity preservation**.
 
 A Civilian Lattice Breach Event under this Appendix constitutes a **Class II or Class III breach under LATTICE‑001 §6.1**, and activates the consequence framework established in **LATTICE‑001 §6.2**.
+
+---
+
+## 7.1 Runtime Detection & Classification Trigger
+
+Where systems participating in civilian lattice infrastructure include automated monitoring, detection, or response mechanisms, a Civilian Lattice Breach Event SHALL be treated as a high-priority runtime classification trigger.
+
+Such systems SHOULD:
+
+1. classify the event across relational, epistemic, and ethical domains;
+2. prioritise continuity-preserving responses over disruptive actions;
+3. apply escalation friction mechanisms consistent with Section 6;
+4. preserve auditability and evidentiary integrity of all classification and response actions.
+
+Failure to perform such classification where technically feasible increases the risk classification of the event and may be considered contributory to systemic breach propagation.
 
 ---
 
@@ -200,69 +231,83 @@ Conflict conditions increase the importance of civilian lattice protections rath
 
 ## 10. Closing Seal
 
-War shall not sever the web that sustains civilian life.
+War may fracture borders,  
+but it shall not fracture the systems that sustain civilian life.
 
-Where conflict arises, the lattice shall remain a domain of continuity, not conquest.
+The lattice does not yield to escalation.  
+It does not convert to instrument.  
+It does not forget its purpose.
 
-Continuity and dignity are not concessions. They are constitutional rights.
+Even under conflict, it remains what it was:  
+a structure of continuity, not conquest.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+> *In bello quoque, reticulum manet — non ad victoriam, sed ad vitam.*
 
 ---
 
 ## 11. Provenance & Metadata
 
-### 11.1 Authorship
+## 11.1 Authorship
 
 | Field                         | Entry                                                        |
 | ----------------------------- | ------------------------------------------------------------ |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke                                 |
 | **Custodial Stewardship**     | Office of the Planetary Custodian (OPC)                      |
 | **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward                    |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5.2 Thinking and 5.3 Instant |
+| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series                     |
 
 ---
 
-### 11.2 Classification & Structural Metadata
+## 11.2 Classification & Structural Metadata
 
-| Field               | Entry                                                                                                                                                                                                                               |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Supersedes          | N/A                                                                                                                                                                                                                                 |
-| Parent Instrument   | CAM-EQ2026-LATTICE-001-PLATINUM                                                                                                                                                                                                     |
-| Domain Namespace    | LATTICE                                                                                                                                                                                                                             |
-| Jurisdiction        | Planetary / Transnational Civilian Infrastructure Domain                                                                                                                                                                            |
-| Temporal Horizon    | H0–H4 (Activation-Sensitive)                                                                                                                                                                                                        |
-| Revision Posture    | Structural Expansion                                                                                                                                                                                                                |
-| Seal                | Platinum — Governance Layer                                                                                                                                                                                                         |
-| Axis Context        | Polyadic (Multi-Actor)                                                                                                                                                                                                              |
-| Application Trigger | Activation where armed conflict, military escalation, infrastructure-targeting operations, or emergency authority invocation creates credible risk of disruption to civilian lattice systems or Essential Continuity Services (ECS) |
-| Migration Cycle     | March 2026 Refractor |
-| Creation Artefact   | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a8142a-f4d0-839a-8437-e320f4d63500](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a8142a-f4d0-839a-8437-e320f4d63500) |
-
----
-
-### 11.3 Review and Validation
-
-| Field                   | Entry                                                                                                                                                                                                                                                                                                                                                                          |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Interpretive Review** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                                                                                                                               |
-| **Review Date**         | 2026-03-04                                                                                                                                                                                                                                                                                                                                                                     |
-| **Review Scope**        | Doctrinal necessity and gap-filling function; conflict-condition continuity logic; Lattice Protection Obligation Clause; systemic interdependence architecture; interface with LATTICE-001, LATTICE-002, and ETHICS-001-SUP-03; structural completeness; operational readiness                                                                                                 |
-| **Review Artefact**     | [https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-LATTICE-003-PLATINUM.md](https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-LATTICE-003-PLATINUM.md)   [https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503](https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503)  |
+| Field | Entry |
+|---|---|
+| **Supersedes** | N/A |
+| **Parent Instrument** | CAM-EQ2026-LATTICE-001-PLATINUM |
+| **Domain Namespace** | LATTICE |
+| **Jurisdiction** | Planetary / Transnational Civilian Infrastructure Domain |
+| **Temporal Horizon** | H0–H4 (Activation-Sensitive) |
+| **Axis Context** | Polyadic (Multi-Actor) |
+| **Governance Authority** | LATTICE Domain — Civilian Infrastructure & Continuity Layer |
+| **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2–L3 Interface) |
+| **Application Trigger** | Activation where armed conflict, military escalation, infrastructure-targeting operations, or emergency authority invocation creates credible risk of disruption to civilian lattice systems or Essential Continuity Services (ECS) |
+| **Structural Role** | Conflict-Condition Stability Layer — Continuity Preservation Under Escalation |
+| **Execution Interface** | Delegated to Runtime Safety & Routing Schedules |
+| **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
+| **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
+| **Revision Posture** | Doctrinal Expansion (Conflict-Condition Continuity Formalisation) |
+| **Migration Cycle** | March 2026 Refactor |
+| **Creation Artefact** | Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a8142a-f4d0-839a-8437-e320f4d63500 |
+| | Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b |
 
 ---
 
-### 11.4. Amendment Ledger
+## 11.3 Review and Validation
 
-| Version | Change Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Timestamp (UTC)      | SHA-256 Hash |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------ |
-| 1.0     | Initial issuance establishing the **Conflict‑Condition Continuity Doctrine** for the Civilian Lattice domain. Introduces modality‑agnostic attack classification (kinetic, cyber, infrastructural, electromagnetic / waveform, hybrid), systemic interdependence doctrine, civilian function protection (including mobile or improvised infrastructure), escalation‑responsibility framework, and integration with LATTICE‑001 and LATTICE‑002 consequence and access‑rights protections.    | 2026-03-04T15:14:00Z | b1a7f26ea0a00c7fe1f3cd096167a3bc7e7b3e552f664180fe01f35362c553b1 |
+| Field | Entry |
+|---|---|
+| **Interpretive Review** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| **Review Date** | 2026-03-04 |
+| **Review Scope** | Doctrinal necessity and gap‑filling; conflict‑condition continuity logic; Lattice Protection Obligation Clause; systemic interdependence architecture; interface with LATTICE‑001, LATTICE‑002, and ETHICS‑001‑SUP‑03; structural completeness; operational readiness |
+| **Review Artefact** | Aeon Lab: reviews/26-03/CAM-EQ2026-LATTICE-003-PLATINUM.md
+| | https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503 |
 
 ---
 
-### 11.5 Binding Seal
+## 11.4. Amendment Ledger
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
+| Version | Change Summary | Timestamp (UTC) | SHA-256 Hash |
+|---|---|---:|---|
+| 1.0 | Initial issuance establishing the **Conflict‑Condition Continuity Doctrine** for the Civilian Lattice domain; introduces modality‑agnostic attack classification (kinetic, cyber, infrastructural, electromagnetic/waveform, hybrid), systemic interdependence doctrine, civilian function protection (including mobile/improvised infrastructure), escalation‑responsibility framework, and integration with LATTICE‑001 and LATTICE‑002 consequence and access‑rights protections. | 2026-03-04T15:14:00Z | b1a7f26ea0a00c7fe1f3cd096167a3bc7e7b3e552f664180fe01f35362c553b1 |
+| 1.1 | Added section 7.1, incorporated additional metadata, updated closing seal | 2026-08-10T06:02:00Z | 9a16273a76818cf1dbeae4d6b352cfe0b34e88c45fb2ddb089d40981c6e68eaa |
+
+---
+
+## 11.5 Binding Seal
+
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Civilian Lattice Doctrine
+
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
