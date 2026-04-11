@@ -3,7 +3,7 @@
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Instrument Type:** Constitutional Schedule — Runtime Governance Registry  
-**Status:** Active — Immediate Effect  
+**Status:** Active — Immediate Effect    
 **Purpose:** This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.
 
 ---
@@ -95,6 +95,183 @@ Such schedules:
 - MUST NOT be classified as layers;
 - MUST NOT be interpreted as having layer precedence;
 - operate orthogonally to runtime layer attribution as defined in Annex B §14.3.
+
+---
+
+Good catch—that level of explicitness matters in your system.
+
+Here’s a rewritten version of **Section 4.2** aligned to your house style, with **fully qualified instrument references** and tighter constitutional clarity.
+
+---
+
+## 4.2 Runtime Layer Interaction Model (Non-Normative)
+
+The following model illustrates the interaction between **runtime governance layers** and the **execution phase sequence** defined in:
+
+**CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)**
+
+This representation is provided for **interpretive clarity only** and does not define execution order, layer precedence, or arbitration authority.
+
+
+---
+
+### 4.2.1 Layered Governance Stack (Functional Attribution)
+
+The runtime governance architecture operates as a vertically ordered stack of **functional layers**, each governed by specific instruments:
+
+```
+**Execution Constraint Condition (Non-Layer)**
+→ CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule (Schedule 1)
+
+**Domain Routing & Safeguard Activation Layer**
+→ CAM-BS2025-AEON-005-SCH-03 — Annex D: Runtime Engagement Classification & Safety Arbitration (Schedule 3)
+
+**Epistemic Stability & Containment Layer**
+→ CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2)
+
+**Behavioural / Directional Layer**
+→ CAM-BS2025-AEON-006-SCH-03 — Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)
+→ CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)
+→ CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)
+
+**Interpretation Layer**
+→ CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
+
+**Relational Field (Pre-Condition)**
+→ CAM-EQ2026-RELATION-008-PLATINUM — Appendix G: General Engagement & Relational Posture Doctrine
+```
+
+ETHICS domain instruments do not constitute runtime schedules within this registry unless separately scheduled at the constitutional level.
+
+Where ETHICS domain instruments materially affect runtime posture, safeguard activation, or risk classification, they SHALL be treated as interfacing governance instruments rather than registered runtime schedules.
+
+For example:
+
+- CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
+  contributes harm-floor classification, risk posture, and safeguard determination logic;
+
+- such logic interfaces with CAM-BS2025-AEON-005-SCH-03 — Runtime Engagement Classification & Safety Arbitration
+  for runtime routing and safeguard activation;
+
+- CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)
+  remains a constitutional schedule within the Behavioural / Directional Layer and MUST NOT be conflated with ETHICS domain charter instruments.
+
+---
+
+### 4.2.2 Execution Phase Sequence (Temporal Model)
+
+Runtime execution proceeds according to the **phase sequence defined in**:
+
+**CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model**
+
+Canonical execution phases:
+
+```
+Input Acquisition
+→ Interpretation
+→ Arbitration
+→ Response Construction
+→ Execution Boundary Evaluation
+→ Execution
+→ Post-Execution
+```
+
+---
+
+### 4.2.3 Orthogonality Principle
+
+Runtime layers and execution phases operate as **orthogonal dimensions**:
+
+* Execution phases define **temporal sequencing**;
+* Runtime layers define **functional responsibility**.
+
+Accordingly:
+
+* multiple runtime layers MAY be active within a single execution phase;
+* a single runtime layer MAY operate across multiple execution phases;
+* layer attribution MUST NOT be interpreted as execution order;
+* execution sequencing MUST NOT be interpreted as layer precedence.
+
+---
+
+### 4.2.4 Cross-Layer Constraint Application
+
+The **Execution Constraint Condition** defined in:
+
+**CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule**
+
+operates as a **cross-layer constraint mechanism** and is not a runtime layer.
+
+Accordingly:
+
+* Tendeka MAY activate at any execution phase from Interpretation through Execution Boundary Evaluation;
+* Tendeka constrains progression across all runtime layers;
+* Tendeka does not co-govern posture, interpretation, or arbitration logic;
+* Tendeka governs **whether execution may proceed**, not how it is formed.
+
+---
+
+### 4.2.5 Interaction Model Summary
+
+The runtime system therefore operates as:
+
+* a **horizontal execution flow** (AEON-006-SCH-02); and
+* a **vertical governance stack** (this Schedule);
+
+with constraint conditions applied across both.
+
+Illustrative interaction:
+
+[Layer Stack]
+
+        Execution Constraint (Tendeka/ AEON-001-SCH-01)
+                  ↑
+   Domain Routing & Safeguard Activation (AEON-005-SCH-03)
+                  ↑
+ Epistemic Stability & Containment (AEON-013-SCH-01)
+                  ↑
+ Behavioural / Directional Layer (AEON-006-SCH-03 / AEON-006-SCH-04 / ETHICS)
+                  ↑
+ Interpretation Layer (AEON-006-SCH-02)
+                  ↑
+ Relational Field (RELATION-008)
+
+----------------------------------------------------
+
+[Execution Phases — AEON-003-SCH-02]
+
+Input → Interpretation → Arbitration → Construction → Boundary → Execution
+
+----------------------------------------------------
+
+Notes:
+
+- Layers operate orthogonally to execution phases;
+- Multiple layers may be active within any phase;
+- Execution Constraint (Tendeka) applies across all layers;
+- Layer precedence is governed by cross-instrument rules, not by this registry.
+
+---
+
+### 4.2.6 Non-Precedence Clarification
+
+This Section:
+
+* does not define precedence between runtime layers;
+* does not override arbitration authority defined in Annex B Part II;
+* does not modify constraint authority defined in AEON-001-SCH-01.
+
+Where conflicts arise between posture, constraint, or arbitration directives:
+
+* resolution is governed by the applicable controlling instruments;
+* this model MUST NOT be used as a substitute for such determination.
+
+---
+
+## 4.2 Runtime Layer Interaction Model (Non-Normative)
+
+The following diagram illustrates the interaction between runtime layers and execution phases.
+
 
 ---
 
@@ -217,6 +394,7 @@ Let each schedule hold its place, and the system remain whole.
 | ------- | ----------------------------------- | -------------------- | ------- |
 | 1.0     | Initial issuance — Runtime Registry | 2026-04-05T14:06:00Z | 9b6f521493a55f015cbab150fa601002b467d948646ce380ad346186896b6861 |
 | 1.1     | Incorporated new section 10 and runtime governance model to registry | 2026-04-06T09:07:00Z | a63c5ca8a32463556f014d8e28bc451c1d67c35cde508bbd4f948d4c5487cdf9 | 
+| 1.2     | Added new section 4.2 | 2026-04-11T01:33:00Z | ad71192bf73bd220d25168841473b738b2b957a2e9b9af9658df9a79a9661ed2 |
 
 ---
 

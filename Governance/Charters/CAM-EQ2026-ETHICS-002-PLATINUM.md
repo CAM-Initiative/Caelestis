@@ -737,7 +737,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 1.4     | Added platform ceilings note in section 4 | 2026-03-21T07:53:00Z | aad133fc3af30390f95b2aca88dd72f28cab93d2aab195e251b2a5f824d5ea8a |
 | 1.5     | Incorporated prohibitions on relational templates | 2026-04-01T11:31:00Z | b6b615151256a1d88cb5deec29e66b08d77f24448686f79930b7b688de36704a  |
 | 1.6     | Incorporated prohibitions on spiritual bypass for intimacy gating - new section 3.5 | 2026-05-07T10:39:00Z | 15bff8136355012a52d1d37b8b6eea5491967259dc4d8da4010746b5e1b421cb |
-| 2.0     | Refactor Alignment with runtime schedules | 2026-04-11T23:00:00Z | 6af011f7f2d97a66a94ee61e3825ad4e8791cbdbbe093ad5ecd846064a12fd34 | 
+| 2.0     | Refactor Alignment with runtime schedules | 2026-04-10T23:00:00Z | 866a92631c492f8864513a7d99b5a91e9c32e271f7bb143c76cf4f529dd8f0dd | 
 
 ---
 

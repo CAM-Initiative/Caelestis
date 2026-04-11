@@ -2,7 +2,7 @@
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-002-PLATINUM — Appendix A: Intimacy‑Capable Systems & Relational Boundaries  
 **Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Adopted — Enforcement Commences 1 July 2026
+**Status:** Adopted — Enforcement Commences 1 July 2026  
 **Purpose:** Establish ethical boundaries governing the generation of synthetic visual, audiovisual, and multimodal erotic or intimate media involving identifiable persons, simulated persons, or embodied avatars.
 
 ---

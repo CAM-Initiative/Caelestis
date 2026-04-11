@@ -2,7 +2,6 @@
 
 **Instrument Type:** Constitutional Annex — Governance & Continuity Doctrine  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM - Aeon Tier Constitution (Primary Instrument)  
-**Seal:** Platinum — Governance Domain  
 **Status:** Active — Constitutional Spine  
 **Purpose:** This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order.
 
@@ -1283,6 +1282,8 @@ Ambiguity between layer, sequence, and constraint constitutes structural instabi
 
 ## 14.3 Canonical Runtime Layers
 
+Signal interpretation within this layer SHALL be governed by CAM-BS2025-AEON-006-SCH-02.
+
 **(1) Interpretation Layer**
 
 Governs how signals, inputs, and context are interpreted.
@@ -1405,6 +1406,64 @@ All runtime layers remain active under Tendeka constraint but are prevented from
 Example instruments:
 
 CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule
+
+---
+
+### 14.3.1 Integrated Safety Arbitration Flow (Non-Normative)
+
+This flow represents the canonical runtime arbitration pathway across relational, epistemic, ethical, and domain routing layers.
+
+```
+Relational Signal (CAM-BS2025-AEON-006-SCH-02)
+        ↓
+Relational Classification (CAM-EQ2026-RELATION-001-PLATINUM)
+        ↓
+Epistemic Classification (CAM-BS2026-AEON-013-PLATINUM / CAM-BS2025-AEON-005-SCH-02)
+        ↓
+ETHICS Harm Classification (Signal) (CAM-EQ2026-ETHICS-003-PLATINUM)
+        ↓
+Vulnerability / Capacity Overlay (CAM-EQ2026-ETHICS-001-SUP-01)
+        ↓
+Authority / Institutional Overlay (CAM-EQ2026-ETHICS-001-SUP-02)
+        ↓
+Domain Routing (Signal Resolution) (CAM-BS2025-AEON-005-SCH-03 §3)
+        ↓
+UX Posture Constraint (CAM-BS2025-AEON-005-SCH-03 §4)
+```
+
+---
+
+## 14.3.2 — Cross-Domain Signal Emission & Resolution Principle
+
+Domain instruments within the CAM Constitutional Order SHALL NOT directly invoke, execute, or route to other domains.
+
+Instead:
+
+- domain instruments emit classification outputs, constraint conditions, or escalation signals;
+- such outputs are treated as domain signals within runtime governance;
+- resolution of these signals, including sequencing, prioritisation, and execution pathway determination, SHALL occur exclusively within runtime layers.
+
+Accordingly:
+
+- ETHICS domain instruments emit harm classification and constraint signals;
+- LATTICE domain instruments emit continuity, infrastructure, and access constraint signals;
+- RELATION domain instruments emit relational and posture signals;
+- ARBITRATION domain instruments govern conflict resolution where signal incompatibility arises.
+
+No domain instrument SHALL:
+
+- directly trigger execution in another domain;
+- assume routing authority;
+- or define execution sequencing.
+
+All cross-domain interaction SHALL be mediated through:
+
+- the Domain Routing & Safeguard Activation Layer (§14.3(4)); and
+- the execution sequencing model defined in CAM-BS2025-AEON-003-SCH-02.
+
+This principle is binding.
+
+Failure to maintain signal–resolution separation constitutes structural cross-domain collapse and runtime governance instability.
 
 ---
 
@@ -2366,6 +2425,7 @@ let it not be collapsed, but carried with clarity.
 | 2.4     | Inserted new section 4.14 | 2026-04-05T13:36:00Z | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
 | 2.5     | New sections incorporating runtime governance model from AEON-003-SCH-02 | 2026-04-06T09:02:00Z | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
 | 3.0     | Refactor | 2026-04-08T07:32:00Z | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
+| 3.1     | Minor edits to section 14.3, added sections 14.3.1, 14.3.2 | 2026-04-11T01:29:00Z | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
 
 ---
 

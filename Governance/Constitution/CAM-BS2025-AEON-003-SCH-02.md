@@ -45,8 +45,8 @@ This Schedule applies to:
 This Schedule does not:
 
 * redefine runtime layers (see Annex B §14.3);
-* alter layer attribution (see SCH-01);
-* modify ontological classification (L0–L3).
+* alter layer attribution (CAM-BS2025-AEON-003-SCH-01 — Layer Attribution Schedule);
+* modify ontological classification (Annex B, L0–L3).
 
 ---
 
@@ -78,7 +78,7 @@ The following SHALL constitute the complete set of execution states within this 
 
 No additional execution states SHALL be inferred.
 
-Runtime transitions between these states MUST remain consistent with Annex B arbitration locality and SCH-02 boundary evaluation rules.
+Runtime transitions between these states MUST remain consistent with Annex B arbitration locality and AEON-001-SCH-01 boundary evaluation rules.
 
 Runtime execution is structured as a sequential flow across defined phases.
 
@@ -123,7 +123,9 @@ Governance of each stage is delegated to the following instruments:
 - Execution Constraint → CAM-BS2025-AEON-001-SCH-01 (Tendeka)  
 - Execution Sequencing → this Schedule
 
-Where ambiguity arises, execution SHALL default to non-collapse and non-escalation.
+Where ambiguity arises, execution SHALL default to non-collapse and non-escalation. 
+
+Signal Interpretation → CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy
 
 ---
 
@@ -133,7 +135,7 @@ The following diagram illustrates the layered interaction model:
 
 Relational Field (Appendix G)
         ↓
-Signal Interpretation (SCH-02)
+Signal Interpretation (CAM-BS2025-AEON-006-SCH-02)
         ↓
 Arbitration (Annex B Part II)
         ↓
@@ -151,13 +153,46 @@ This diagram:
 
 ---
 
+### 3.1.3 Cross Domain Interaction
+
+Cross-domain interaction during runtime execution SHALL operate through signal emission and resolution, not direct invocation.
+
+During execution:
+
+- domain-specific classification, constraint, and escalation outputs generated during Interpretation, Arbitration, or Response Construction phases SHALL be treated as signals;
+- such signals MAY influence admissibility, execution pathways, or response construction;
+- no phase SHALL directly invoke another domain as an execution step.
+
+Domain interaction is resolved as follows:
+
+- signals are emitted during Interpretation and Arbitration phases;
+- signals are resolved during the Domain Routing & Safeguard Activation Layer;
+- execution sequencing remains governed by the phase model defined in §4.
+
+Accordingly:
+
+- references to “routing to a domain” SHALL be interpreted as signal emission requiring runtime resolution;
+- references to “domain activation” SHALL be interpreted as layer-mediated signal resolution.
+
+Direct domain-to-domain invocation is prohibited.
+
+All domain interaction MUST remain:
+
+- layer-mediated;
+- phase-consistent; and
+- traceable to signal origin and resolution pathway.
+
+---
+
 ## 4. Canonical Execution Phases
 
 The following requirements apply across all execution phases.
 
 They do not constitute execution phases and MUST NOT be interpreted as part of the phase sequence.
 
-### 4.1 Boundary Detection Requirement
+---
+
+## 4.1 Boundary Detection Requirement
 
 Systems MUST explicitly detect execution boundaries prior to crossing.
 
@@ -165,7 +200,7 @@ Implicit or unrecognised boundary crossing constitutes execution failure.
 
 ---
 
-### 4.2 Multiple Boundary Handling
+## 4.2 Multiple Boundary Handling
 
 A single execution sequence MAY contain multiple execution boundaries.
 
@@ -232,7 +267,7 @@ CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy.
 
 All signal parsing, intent formation, ambiguity handling, and relational signal classification MUST conform to the taxonomy and classification constraints defined therein.
 
-Where conflict arises between inferred intent and classified signal, SCH-02 SHALL govern admissibility.
+Where conflict arises between inferred intent and classified signal, CAM-BS2025-AEON-006-SCH-02 SHALL govern admissibility.
 
 ---
 
@@ -1056,6 +1091,7 @@ Where action is restrained, integrity endures beyond the moment.
 | ------- | ----------------------------------------- | -------------------- | ------- |
 | 1.1     | Adopted — Enforcement scheduled           | 2026-04-06T16:11:00Z | fe1e6127b820181586a1bec14e4e2e8f0cb6a661ac0e6ad9d422bc843ba02479 |
 | 1.2     | Added new sections 3.1.2, 4.2.1, amended sections 3.1 and 4.4 | 2026-04-09T17:04:00Z | 2c21de09e419887350deb8aa90819b0069b651ddd4074c4525dbc8d9ff9514f8 |
+| 1.3     | Incorporated additional clarity in cross-system clause references, added section 3.1.3 | 2026-04-11T01:38:00Z | a706a41e0edc79ee1b3adec35061af3bc3cc848f7c2412f7595842f06f81ae67 |
 
 ---
 
