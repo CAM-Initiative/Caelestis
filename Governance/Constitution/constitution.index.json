@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T17:32:05.373879Z",
+  "generated_at": "2026-04-11T17:38:39.512750Z",
   "count": 28,
   "items": [
     {
@@ -157,10 +157,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "862e2caa7cd93c3b9a0170d60d30c7b148101206219f9f6190eda1b537c13ca3",
-      "pinned_sha": "1636e5af65df8cbc165a875a4a642d769513f798",
-      "updated_at": "2026-04-10T09:20:52Z",
-      "last_updated_utc": "2026-04-10T09:20:52Z"
+      "HASH": "8c806dde361a2b5a0db2968536598cb4b2169f9c3edd44ff32e39b6e19d0ad1d",
+      "pinned_sha": "559c6ea5764c1d2456d20b5ef4a98db6793b598b",
+      "updated_at": "2026-04-11T17:38:37Z",
+      "last_updated_utc": "2026-04-11T17:38:37Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
