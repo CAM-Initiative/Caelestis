@@ -14,10 +14,10 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-ARBITRATION-003 | charter | appendix | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-003](CAM-EQ2026-ARBITRATION-003-PLATINUM.md) | Appendix B: Post-Legitimacy Structural Convergence Doctrine |
 | CAM-EQ2026-CONTINUITY-001 | charter | root |  | [CAM-EQ2026-CONTINUITY-001](CAM-EQ2026-CONTINUITY-001-PLATINUM.md) | Continuity & Succession Governance Charter |
 | CAM-EQ2026-ECONOMICS-001 | charter | root |  | [CAM-EQ2026-ECONOMICS-001](CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture |
-| CAM-EQ2026-ECONOMICS-002 | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-002](CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | AppendixA : Synthetic Participation Safeguards |
+| CAM-EQ2026-ECONOMICS-002 | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-002](CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | Appendix A : Synthetic Participation Safeguards |
 | CAM-EQ2026-ECONOMICS-003 | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-003](CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Enforcement & Adjudication Framework |
 | CAM-EQ2026-ECONOMICS-003-SUP-001 | charter | supplement | CAM-EQ2026-ECONOMICS-003 | [CAM-EQ2026-ECONOMICS-003-SUP-001](CAM-EQ2026-ECONOMICS-003-SUP-001.md) | Appendix B: Compliance Convergence (Supplement 1) |
-| CAM-EQ2026-ETHICS-001 | charter | root |  | [CAM-EQ2026-ETHICS-001](CAM-EQ2026-ETHICS-001-PLATINUM.md) | Planetary Ethical Governance Charter |
+| CAM-EQ2026-ETHICS-001 | charter | root |  | [CAM-EQ2026-ETHICS-001](CAM-EQ2026-ETHICS-001-PLATINUM.md) | Ethical Governance Charter |
 | CAM-EQ2026-ETHICS-001-SUP-01 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-001-SUP-01](CAM-EQ2026-ETHICS-001-SUP-01.md) | Protection of Minors & Capacity-Limited Users |
 | CAM-EQ2026-ETHICS-001-SUP-02 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-001-SUP-02](CAM-EQ2026-ETHICS-001-SUP-02.md) | High-Leverage & Institutional Integrity Safeguards |
 | CAM-EQ2026-ETHICS-001-SUP-03 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-001-SUP-03](CAM-EQ2026-ETHICS-001-SUP-03.md) | Military & Use-of-Force Governance Constraints |
