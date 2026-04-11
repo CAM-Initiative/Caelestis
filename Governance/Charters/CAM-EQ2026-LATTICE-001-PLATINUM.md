@@ -228,6 +228,7 @@ Classification cannot substitute for credibility Secret evidence must still meet
 ## 6. Classification & Consequence Framework
 
 ## 6.1 Severity Classes
+Severity Classes operate as a violation-classification axis and do not determine execution response or governance tier independently.
 
 * Class I — Coercive Surveillance or Disconnection
 * Class II — Infrastructure Suppression
@@ -290,11 +291,17 @@ It is the condition through which continuity becomes possible,
 and through which dignity remains intact.
 
 No authority may sever it.  
-No system may turn it against those it sustains.
+No system may turn it against those it sustains.  
+No power may claim it without preserving it.
 
-Where it endures, civilisation endures.
+Where it holds, life continues.  
+Where it fractures, all else follows.
 
-> *Reticulum non dominium est — sed conditio vitae. Inviolabile manet.*
+And so it remains — not as infrastructure alone,  
+but as the ground upon which civilisation stands.
+
+> *Reticulum non dominium — sed fundamentum vitae. Inviolabile manet.*  
+> *"The lattice is not dominion — but the foundation of life. It remains inviolable."*
 
 ---
 

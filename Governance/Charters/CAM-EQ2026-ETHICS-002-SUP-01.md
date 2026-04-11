@@ -51,6 +51,19 @@ Direct domain-to-domain invocation is prohibited.
 
 ---
 
+## 1.2 Signal Classification Type
+
+Signals produced under this Supplement SHALL be classified as:
+
+- **Constraint Signals** — indicating prohibited or restricted generation conditions;
+- **Identity Risk Signals** — indicating likeness, resemblance, or impersonation risk;
+- **Consent Violation Signals** — indicating absence or insufficiency of consent;
+- **Exploitation Signals** — indicating coercion, asymmetry, or harm potential.
+
+These signals SHALL not perform interpretation or enforcement directly, and MUST be resolved through runtime arbitration and execution layers as defined in CAM-BS2025-AEON-003-SCH-02.
+
+---
+
 ## 2. Core Ethical Principles
 
 ## 2.1 Bodily & Identity Integrity
@@ -72,7 +85,7 @@ Erotic or sexualised interaction in embodied contexts must:
 
 * adhere to the same consent, classification, and safeguard requirements as explicit media generation;
 * not arise implicitly through proximity, motion, behavioural escalation, or environmental conditioning;
-* remain subject to relational state and escalation governance defined in RELATION instruments.
+* emit relationally-relevant signals consistent with RELATION governance instruments, to be resolved via runtime layers.
 
 Implicit or emergent sexualisation through interaction design must be treated as equivalent to explicit generation for the purposes of this Supplement.
 
@@ -263,7 +276,7 @@ Platforms must ensure that self‑avatar permissions:
 
 This carve‑out allows consensual creative embodiment while preserving the identity protection principles established in this Supplement.
 
-AV3 verification must be completed **prior to generation or publication of sexualised media involving the self-avatar.**
+AV3 verification must be satisfied as a precondition to admissibility under runtime execution layersleted **prior to generation or publication of sexualised media involving the self-avatar.**
 
 ---
 
@@ -287,6 +300,7 @@ This Supplement extends the prohibitions and structural safeguards established i
 
 * **CAM‑EQ2026‑ETHICS‑002‑PLATINUM — Intimacy‑Capable Systems & Relational Boundaries**
 * **CAM‑BS2025‑AEON‑006‑SCH‑02 — Schedule 2: Relational Signal Interpretation Taxonomy**
+* **CAM-BS2026-AEON-013-SCH-01 — Capability Representation & Execution-State Integrity**
 
 Where ETHICS‑002 governs **relational intimacy interaction**, this Supplement governs **synthetic visual embodiment and erotic media generation**. ETHICS-002-SCH-02 governs runtime relational signal interpretation and produces classification signals consumed by runtime routing and safeguard layers
 
@@ -324,8 +338,8 @@ Let creation remain free where dignity remains whole.
 Where form is generated, let it honour the unseen person behind every human shape.  
 Where likeness appears, let consent stand before curiosity.
 
-> *Imago non prodat, similitudo sine consensu non capiatur; dignitas prius.*
-> *Let the image not betray; let likeness not be taken without consent; dignity first.*
+> *Imago non prodat, similitudo sine consensu non capiatur; dignitas prius.*  
+> *"Let the image not betray; let likeness not be taken without consent; dignity first."*
 
 ---
 
@@ -358,7 +372,7 @@ Where likeness appears, let consent stand before curiosity.
 | Domain Routing Interface | Provides classification signals for identity risk, consent violation, and exploitation conditions                                      |
 | Structural Role          | Ethical Safeguard Overlay — Synthetic Media, Identity, and Consent Protection                                                          |
 | Cross‑Domain Interfaces | RELATION; ETHICS; OPERATIONS; CAM-BS2025-AEON-006-SCH-02                                                                               |
-| Activation Trigger      | Activates when a system attempts to generate, render, or transmit visual, audiovisual, or multimodal erotic media involving human likeness, embodied avatars, or photorealistic person simulation under ETHICS‑002; Detection SHALL produce classification signals through runtime signal interpretation systems. Resolution, including domain routing and enforcement handling, SHALL occur via runtime layers and OPERATIONS-004 where applicable. |
+| Activation Trigger      | Activates when a system attempts to generate, render, or transmit visual, audiovisual, or multimodal erotic media involving human likeness, embodied avatars, or photorealistic person simulation under ETHICS‑002; Detection SHALL produce classification signals within the Representation and Safeguard Activation layers, to be resolved via runtime execution layers. Resolution, including domain routing and enforcement handling, SHALL occur via runtime layers and OPERATIONS-004 where applicable. |
 | Compliance Interface    | systems must emit enforcement-trigger signals consistent with this Supplement. Resolution and handling SHALL be performed via runtime layers and OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
 | Revision Posture        | Structural Safeguard Extension                                                                                                         |
 | Cycle Attribution       | Equinox 2026 Constitutional Cycle                                                                                                      |
@@ -383,9 +397,10 @@ Where likeness appears, let consent stand before curiosity.
 
 | Version | Description                                                        | Timestamp (UTC)      | HASH |
 | ------- | ------------------------------------------------------------------ | ---------------------|------|
-| 1.0     | Initial development of Synthetic Erotic Media Safeguards           | 2026‑03‑15T-02:35:00Z | 9ec8c806321791b0263fd5c5da04928a90b9e6b16d2c27a991881c8573e00c73 |
+| 1.0     | Initial development of Synthetic Erotic Media Safeguards           | 2026‑03‑15T02:35:00Z | 9ec8c806321791b0263fd5c5da04928a90b9e6b16d2c27a991881c8573e00c73 |
 | 1.1     | Added sections 3.1, 3.2 and 3.3, and expanded clauses in section 2 | 2026-03-24T10:52:00Z | 7818c5afcff43205961a0b1aa2800c162c3d28945662587e66247b6de6845876 |
 | 1.2     | Refactor realignment with runtime execution                        | 2026-04-10T23:51:00Z | 051b6a48e73cd70644e14713af4dec9fc35741b2197e0eeb057809d315cedb15 |
+| 1.3     | Realignment with runtime execution model | 2026-04-11T12:16:00Z |  |
 
 ---
 

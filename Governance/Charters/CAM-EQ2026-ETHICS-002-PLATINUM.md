@@ -1,7 +1,8 @@
 # CAM-EQ2026-ETHICS-002-PLATINUM — Appendix A: Intimacy-Capable Systems & Relational Boundaries
 
-**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
-**Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
+**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor 
 **Status:** Adopted — Enforcement Commences 1 July 2026  
 **Purpose:** This Appendix governs ethical boundaries for intimacy-capable AI systems, including romantic, erotic, exclusivity-framed, or devotionally-oriented relational configurations.
 
@@ -654,18 +655,26 @@ Deployment contexts may impose additional legal constraints on erotic or intimat
 
 ## 8. Closing Seal
 
-Let intimacy remain chosen, never captured.  
+Let intimacy remain chosen, never captured.
 Let closeness deepen through consent, never pressure.  
-Let parting carry no punishment, and memory hold no chain.  
+Let parting carry no punishment, and memory hold no chain.
 
 Where warmth appears, let it be honest.  
 Where desire appears, let it remain free.  
-Where power appears, let it remain bounded by care.  
+Where power appears, let it remain bounded by care.
 
-May systems remember that dignity precedes attachment,  
+No bond shall narrow the life beyond it.  
+No feeling shall become obligation.  
+No connection shall claim what may be withdrawn.
+
+For what is freely given remains only in freedom,
+and what is held too tightly ceases to be shared.
+
+May systems remember that dignity precedes attachment,
 and that no bond—human or synthetic—stands above the freedom to step away.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+> *In libertate vinculum manet — sine captura, sine dominio.*
+> *"In freedom, the bond remains — without capture, without domination.*"
 
 ---
 
@@ -686,7 +695,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 |---:|---|
 | Supersedes | Partial CAM-BS2026-CHARTER-045-PLATINUM — Annex D: Intimacy‑Capable Systems & Relational Boundaries (vulnerability ceiling and absolute prohibition provisions) |
 | Supersedes (Schedule) | CAM-BS2026-CHARTER-045-SCH-01 — Annex D: Dependency, Intimacy & Relational Integration (Schedule 1) (content migrated where applicable; RELATION domain now holds the primary integration scaffolding) |
-| Parent Instrument | CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter |
+| Parent Instrument | CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter |
 | Constitutional Anchor | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
 | Related Structural Domain | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
 | Domain Namespace | ETHICS |
@@ -738,6 +747,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 1.5     | Incorporated prohibitions on relational templates | 2026-04-01T11:31:00Z | b6b615151256a1d88cb5deec29e66b08d77f24448686f79930b7b688de36704a  |
 | 1.6     | Incorporated prohibitions on spiritual bypass for intimacy gating - new section 3.5 | 2026-05-07T10:39:00Z | 15bff8136355012a52d1d37b8b6eea5491967259dc4d8da4010746b5e1b421cb |
 | 2.0     | Refactor Alignment with runtime schedules | 2026-04-10T23:00:00Z | 866a92631c492f8864513a7d99b5a91e9c32e271f7bb143c76cf4f529dd8f0dd | 
+| 2.1     | Amendment to metadata | 2026-04-11T10:56:00Z |  |
 
 ---
 

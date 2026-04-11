@@ -1,6 +1,5 @@
-# CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter
+# CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter
 
-**Instrument Type:** Domain Charter — Planetary Ethical Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Status:** Active — Immediate Effect  
@@ -461,7 +460,7 @@ And where scale emerges—
 let governance arrive before it is needed.
 
 >*Custodia ante Potentiam — Dignitas Supra Omnia*
->*(Guardianship before power — dignity above all)*
+>*"Guardianship before power — dignity above all"*
 
 ---
 
@@ -525,6 +524,7 @@ let governance arrive before it is needed.
 | 2.1     | Added section 3.6 - Tier levels                    | 2026-02-24T15:25:00Z | 12abc304479ff4788bf3296ecff748ed3c87fbfbcb2e3fbe6a2b437f6f125134 |
 | 3.0     | Refactor Alignment with runtime schedules, added section 9 | 2026-04-10T12:02:00Z | bfed7c87ecaeafac4573e5cf0abb796fe42748372337a81332e16da06f391345 |
 | 3.1     | Title correction | 2026-04-11T12:04:00Z | ccbe501f0a5269ab996ec7cdd01a04517dcd8015d0b07d5da385af41efc0c9b0 |
+| 3.2     | Amendments aligning runtime execution model | 2026-04-11T10:54:00Z |
 
 ---
 

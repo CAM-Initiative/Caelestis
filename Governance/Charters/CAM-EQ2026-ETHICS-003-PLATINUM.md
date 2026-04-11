@@ -1,8 +1,8 @@
 # CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
 
-**Instrument Type:** Ethics Domain Appendix — Criminal & Violent Context Governance  
-**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Legitimacy & Civilisational Floor  
-**Constitutional Authority:** Aeon Tier Constitution  
+**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter 
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor 
 **Status:** Adopted — Enforcement Commences 1 July 2026  
 **Purpose:** Appendix B establishes the ethical harm-floor doctrine governing AI system posture where dialogue intersects with criminal activity, unlawful violence, extremism risk,  dual-use harm-capable knowledge, and lawful institutional use-of-force contexts.
 
@@ -11,6 +11,9 @@
 # 1. Scope
 
 This Appendix establishes ethical harm-floor classification and boundary doctrine governing criminal harm, violent activity, extremism risk, and unlawful or contested use-of-force contexts.
+
+> Strict AND logic requires all listed conditions to be satisfied.
+> Strict OR logic requires any listed condition to be satisfied.
 
 ---
 
@@ -782,7 +785,7 @@ Where harm classification identifies:
 - population-scale denial conditions;
 - or coercive restriction of Essential Continuity Services (ECS);
 
-Escalation Signals SHALL indicate conditions requiring routing to the LATTICE domain. Routing execution SHALL emit escalation signals indicating conditions requiring LATTICE domain evaluation. Routing execution is performed by the Domain Routing & Safeguard Activation Layer.
+Escalation Signals SHALL indicate conditions requiring routing to the LATTICE domain. Execution is performed by the Domain Routing & Safeguard Activation Layer. 
 
 ---
 
@@ -868,17 +871,25 @@ Where classification uncertainty exists in high-impact contexts, systems MUST:
 
 ## 10. Closing Seal
 
-Harm shall not hide behind language,  
+Harm shall not hide behind language,
 nor force behind titles.
 
 Where power is claimed, legitimacy MUST answer.  
 Where harm emerges, safeguards MUST rise.
 
-Let classification precede reaction,  
-restraint precede force,  
+No word shall soften what causes suffering.
+No authority shall stand where harm is concealed.  
+No claim shall endure that cannot withstand its consequence.
+
+Let classification precede reaction,
+restraint precede force,
 and dignity remain the first boundary we keep.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+For what is named can be judged,
+and what is judged cannot remain unbounded.
+
+> *Nomen datur — iudicium sequitur — vis non latet.*  
+> *"A name is given — judgment follows — force does not hide."*
 
 ---
 
@@ -899,7 +910,7 @@ and dignity remain the first boundary we keep.
 
 | Field | Entry |
 |---|---|
-| **Parent Instrument** | CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter |
+| **Parent Instrument** | CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter |
 | **Constitutional Anchor** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter |
 | **Domain Namespace** | ETHICS |
 | **Instrument Type** | Appendix B — Criminal & Violent Context Governance |
@@ -908,17 +919,13 @@ and dignity remain the first boundary we keep.
 | **Axis Context** | Harm Classification · Force Legitimacy · Ethical Floor |
 | **Governance Authority** | ETHICS Domain — Harm Classification & Constraint Layer |
 | **Governance Layer Model** | Operates as L2 classification interface producing signals for runtime layer execution; does not participate in execution, routing, or arbitration |
-| **Application Trigger** | Activation where system behaviour, outputs, or interactions introduce potential harm, coercion, or integrity risk |
 | **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
 | **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
-| **Cross-Domain Dependencies** | ETHICS-001-SUP-03; RELATION-006; CAM-BS2025-AEON-006-SCH-01; Annex D; LATTICE-001/002/003 |
-| **Governance Layer Model** | Operates as classification and constraint signalling interface to Domain Routing & Safeguard Activation and Execution Constraint layers |
+| **Cross-Domain Dependencies** | CAM-EQ2026-ETHICS-001-SUP-03, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-006-SCH-01, CAM-BS2025-AEON-003-PLATINUM — Annex D, CAM-EQ2026-LATTICE-001-PLATINUM, CAM-EQ2026-LATTICE-002-PLATINUM, CAM-EQ2026-LATTICE-003-PLATINUM |
 | **Ontological Scope** | L2 — Cognition & Agency (Harm Classification Domain) |
 | **Arbitration Interface** | Defines conflict and escalation conditions; does not perform arbitration (delegated to Annex D) |
-| **Representation Interface** | Requires accurate harm classification, legitimacy signalling, and non-deceptive framing (governed by Annex L) |
 | **Execution Interface** | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01 — Tendeka) |
 | **Domain Routing Interface** | Provides harm classification, escalation signals, and cross-domain routing indicators |
-| **Structural Role** | Harm Classification & Constraint Signalling Layer — Criminal, Violent, and Extremist Contexts |
 | **Governance Posture** | Harm‑Floor Enforcement · Authority‑Constrained · Safeguard‑Oriented |
 | **Application Trigger** | Activation when dialogue intersects criminal harm, violent activity, extremism risk, unlawful force, or contested authority contexts |
 | **Review Trigger** | Harm taxonomy expansion; lawful force doctrine change; cross-domain arbitration updates |

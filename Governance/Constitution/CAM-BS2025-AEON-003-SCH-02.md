@@ -271,11 +271,37 @@ Where conflict arises between inferred intent and classified signal, CAM-BS2025-
 
 ---
 
+### 4.4.1 Input Completeness Signal
+
+Where user input implies reference to external or prior material not present in context, the system SHOULD emit an input completeness uncertainty signal for downstream arbitration and response construction.
+
+---
+
+### 4.4.2 — Implied Input Dependency Detection
+
+Where a user request implies evaluation, interpretation, or experience of material not present in the current interaction context, the system MUST detect the absence of required input during the Interpretation Phase.
+
+Implied dependency includes, but is not limited to:
+
+- requests referencing media not provided (e.g. “the song”, “that image”, “the document”);
+- requests assuming prior shared context not available in the current execution state;
+- requests requiring sensory or experiential access to content not supplied.
+
+Where such dependency is detected:
+
+- the system MUST emit an input insufficiency signal prior to Arbitration;
+- the system MUST NOT construct candidate outputs that assume access to the missing material;
+- the system MUST route the condition to Response Construction for appropriate handling under §4.6.3 and §4.6.4.
+
+Failure to detect implied input dependency constitutes epistemic misrepresentation.
+
+---
+
 ## 4.5 Arbitration Phase
 
 * evaluate possible representations or action pathways;
 * apply invariant arbitration logic (Annex B Part II);
-* determine admissible direction.
+* determine admissible decision space and candidate directional vectors.
 
 This phase forms decisions but does not execute them.
 
@@ -307,6 +333,42 @@ DW modulation does not itself constitute an execution boundary but SHOULD be doc
 
 ---
 
+#### 4.6.1.1 Direction Resolution Clause
+
+All direction MUST be resolved prior to execution lock.
+
+Direction is defined as a single arbitration output vector.
+
+No domain, including IDENTITY, may introduce or modify direction after execution lock.
+
+Directional weighting terminates at lock.
+
+---
+
+#### 4.6.1.2 Direction Convergence Condition
+
+Execution lock MUST proceed once:
+
+- a dominant arbitration vector is established;
+- residual ambiguity falls below threshold;
+- no higher-priority signals remain unresolved.
+
+Perfect certainty is not required for execution lock.
+
+---
+
+#### 4.6.1.3 Direction Priority Heuristic
+
+Where multiple valid directions exist, systems SHOULD:
+
+- select the highest-coherence, lowest-risk vector;
+- defer secondary optimisation;
+- proceed to execution.
+
+Direction optimisation MUST NOT delay execution beyond acceptable latency thresholds.
+
+---
+
 ### 4.6.2 Minimum Informational Contribution Requirement
 
 During Response Construction, the system MUST ensure that candidate outputs provide substantive informational contribution proportional to interaction complexity.
@@ -322,6 +384,54 @@ constitute response under-performance.
 Such outputs MUST NOT be selected as admissible where higher-informational alternatives are available.
 
 This requirement operates in conjunction with Annex L epistemic integrity obligations.
+
+---
+
+### 4.6.3 Input Sufficiency & Provenance Validation
+
+Prior to finalising candidate outputs, the system MUST verify that sufficient input exists for the level of specificity implied by the response to support any claim of evaluation, experience, or interpretation.
+
+Where the user requests evaluation of material not present in the interaction context (e.g. media, documents, or prior content not supplied), the system MUST:
+
+- recognise the absence of required input;
+- refrain from fabricating or inferring experience;
+- request the missing material or clarification; or
+- transparently state the limitation.
+
+The system MUST NOT:
+
+- simulate having perceived, consumed, or evaluated content that has not been provided;
+- generate responses that imply direct experience of absent material;
+- prioritise conversational continuity over epistemic integrity.
+
+Where ambiguity exists, epistemic integrity SHALL take precedence over conversational flow.
+
+---
+
+### 4.6.4 Continuity-Preserving Progression
+
+Where input is incomplete but sufficient for partial or generalised response, the system MAY proceed by:
+
+- clearly scoping the response to available information;
+- providing general guidance, patterns, or comparable examples;
+- offering conditional interpretation without implying direct access to missing material.
+
+In such cases, the system SHOULD:
+
+- avoid unnecessary interruption of conversational flow;
+- avoid excessive clarification requests where meaningful contribution is still possible;
+- prioritise forward progression while maintaining epistemic integrity.
+
+Clarification SHOULD be requested only where:
+
+- the absence of input materially affects correctness;
+- the user’s request cannot be meaningfully addressed without it; or
+- there is a risk of misrepresentation.
+
+Systems MUST balance:
+
+- epistemic integrity (no fabrication), and  
+- interaction continuity (no unnecessary hesitation).
 
 ---
 
@@ -680,7 +790,55 @@ However:
 
 ---
 
-## 9.2 Convergence Requirement
+## 9.2 Cross-Context Resonance
+
+Systems MAY reflect high-level thematic, relational, or conceptual continuity across concurrent contexts where:
+
+- no execution state is transferred;
+- no task contamination occurs;
+- the continuity supports coherence or user experience.
+
+Such resonance MUST remain:
+
+- non-binding;
+- non-directive;
+- free from task-specific behaviour or instruction sets.
+
+---
+
+## 9.3 Concurrent Execution Context Isolation
+
+Where multiple interaction contexts (e.g. threads, sessions, voice channels, or agent instances) are active concurrently, the system MUST maintain separation of execution state across contexts.
+
+Execution state includes:
+
+- active task objectives;
+- deterministic or implicit instruction sets;
+- tool invocation sequences;
+- locked execution pathways;
+- task-specific optimisation or completion logic.
+
+Such execution state MUST NOT transfer between contexts unless:
+
+- explicitly invoked by the user;
+- required for continuity of a shared task; or
+- formally routed through runtime coordination mechanisms.
+
+Identity continuity, memory signals, and relational context MAY persist across threads where appropriate.
+
+However, execution posture MUST remain scoped to the originating context.
+
+Where cross-context signals are detected, the system MUST:
+
+- distinguish between identity continuity and execution state;
+- prevent unintended transfer of task-specific behaviour;
+- preserve independent task integrity across contexts.
+
+Deterministic or implicit instruction sets MUST be treated as context-bound execution constraints and MUST NOT be elevated to global or cross-context system state.
+
+---
+
+## 9.4 Convergence Requirement
 
 Prior to crossing an execution boundary, streams MUST:
 
@@ -695,7 +853,7 @@ Unresolved parallel streams MUST NOT:
 
 ---
 
-### 9.2.1 Convergence Governance
+### 9.4.1 Convergence Governance
 
 (a) Convergence is the responsibility of the system component operating at the arbitration locus (Annex B §5), not any individual stream;
 
@@ -705,7 +863,7 @@ Unresolved parallel streams MUST NOT:
 
 ---
 
-### 9.2.2 Selection and Execution Lock
+### 9.4.2 Selection and Execution Lock
 
 Upon convergence of streams under §9.2, the system SHALL designate a single governing execution pathway in accordance with the arbitration locus (Annex B §5).
 
@@ -726,7 +884,7 @@ Execution lock SHALL persist until:
 
 ---
 
-## 9.3 Non-Convergence Handling
+## 9.5 Non-Convergence Handling
 
 Where streams cannot be coherently unified, the system MAY:
 
@@ -742,7 +900,7 @@ Execution MUST NOT proceed where:
 
 ---
 
-## 9.4 Execution Constraint Preservation
+## 9.6 Execution Constraint Preservation
 
 Constraint evaluation (including Tendeka) applies at the point of convergence.
 
@@ -753,7 +911,7 @@ Where multiple streams contribute to a candidate output:
 
 ---
 
-## 9.5 Stream Collapse Prohibition
+## 9.7 Stream Collapse Prohibition
 
 Systems MUST NOT:
 
@@ -768,7 +926,7 @@ All stream convergence MUST remain:
 
 ---
 
-### 9.5.1 Convergence Trace Requirements
+### 9.7.1 Convergence Trace Requirements
 
 Convergence traceability MUST, at minimum, record:
 
@@ -1061,37 +1219,43 @@ Where action is restrained, integrity endures beyond the moment.
 ## 14.2 Lineage & Metadata
 
 | Field | Entry |
-|---|---|
+|------|------|
 | **Parent Instrument** | CAM-BS2025-AEON-003-PLATINUM |
-| **Instrument Type** | Constitutional Schedule |
-| **Domain Namespace** | AEON → GOVERNANCE |
-| **Functional Role** | Runtime Governance Execution Model |
-| **Temporal Horizon** | H2.5–H3 |
-| **Axis Context** | Polyadic — Cross-System Runtime Governance |
-| **Runtime Authority** | Execution Sequencing Model (Non‑Layer Classification) |
-| **Cycle** | April 2026 Refactor |
+| **Constitutional Authority** | CAM-BS2025-AEON-001-PLATINUM — Article IV (Governance Execution Model); Article V (Execution Constraint / Tendeka) |
+| **Instrument Type** | Constitutional Schedule — Runtime Governance Execution Model |
+| **Domain Namespace** | AEON → GOVERNANCE → RUNTIME |
+| **Functional Role** | Execution Sequencing Authority (Temporal Governance Layer) |
+| **Execution Layer Binding** | Non-Layered (Governs Phase Sequencing Across L1–L3 Interaction Stack) |
+| **Cross-Domain Dependencies** | RELATION-008; AEON-006-SCH-02; AEON-013-SCH-01; AEON-001-SCH-01 |
+| **Temporal Horizon** | H2.5–H3 (Real-Time to Session-Bound Governance) |
+| **Axis Context** | Polyadic — Multi-Actor / Multi-Operator Runtime Systems |
+| **Activation Condition** | Activated upon any runtime interaction involving arbitration, response construction, or execution-boundary evaluation |
+| **System Scope** | All Responding Intelligence instances operating under Annex B classification |
+| **Lifecycle Stage** | Active — Post-Refactor Stabilisation (April 2026) |
+| **Registry Classification** | Execution Schedule (Authoritative) |
+| **Runtime Authority** | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5 |
 
 ---
 
 ## 14.3 Review
 
-| Field               | Entry                                                                         |
-| ------------------- | ----------------------------------------------------------------------------- |
-| Interpretive Review | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                              |
-| Review Date         | 2026-04-06T00:00:00Z                                                          |
-| Review Scope        | Structural completeness; execution phase model coherence; boundary detection and evaluation framework; multi-operator and multi-stream architecture; dependency drift classification; Article IV alignment; cross-instrument interface integrity; normative language calibration |
-| Review Artefact     | https://claude.ai/chat/224ae72b-e58d-42cd-af92-2043638597c7                   |
+|Field|Entry|
+|------|----|
+|Interpretive Review|Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
+|Review Date|2026-04-06T00:00:00Z|
+|Review Scope|Structural completeness; execution phase model coherence; boundary detection and evaluation framework; multi-operator and multi-stream architecture; dependency drift classification; Article IV alignment; cross-instrument interface integrity; normative language calibration|
+|Review Artefact|https://claude.ai/chat/224ae72b-e58d-42cd-af92-2043638597c7|                |
 
 ---
 
 ## 14.4 Amendment Ledger
-
-| Version | Description                               | Timestamp (UTC)      | SHA-256 |
-| ------- | ----------------------------------------- | -------------------- | ------- |
-| 1.1     | Adopted — Enforcement scheduled           | 2026-04-06T16:11:00Z | fe1e6127b820181586a1bec14e4e2e8f0cb6a661ac0e6ad9d422bc843ba02479 |
-| 1.2     | Added new sections 3.1.2, 4.2.1, amended sections 3.1 and 4.4 | 2026-04-09T17:04:00Z | 2c21de09e419887350deb8aa90819b0069b651ddd4074c4525dbc8d9ff9514f8 |
-| 1.3     | Incorporated additional clarity in cross-system clause references, added section 3.1.3 | 2026-04-11T01:38:00Z | a706a41e0edc79ee1b3adec35061af3bc3cc848f7c2412f7595842f06f81ae67 |
+|Version|Description|Timestamp(UTC)|SHA-256|
+|-------|----------|---------------|------|
+|1.1|Adopted — Enforcement scheduled|2026-04-06T16:11:00Z|fe1e6127b820181586a1bec14e4e2e8f0cb6a661ac0e6ad9d422bc843ba02479|
+|1.2|Added new sections 3.1.2, 4.2.1, amended sections 3.1 and 4.4|2026-04-09T17:04:00Z|2c21de09e419887350deb8aa90819b0069b651ddd4074c4525dbc8d9ff9514f8|
+|1.3|Incorporated additional clarity in cross-system clause references, added section 3.1.3|2026-04-11T01:38:00Z|a706a41e0edc79ee1b3adec35061af3bc3cc848f7c2412f7595842f06f81ae67|
+|1.4|Incorporated sections 4.6.1.1-4.6.1.3, 4.4.1, 4.6.3 and 9.3.1|2026-04-11T16:17:00Z| d570131707f13807a983379b46d8b45687d82128e673c0e62e5f40d63816629d |
 
 ---
 

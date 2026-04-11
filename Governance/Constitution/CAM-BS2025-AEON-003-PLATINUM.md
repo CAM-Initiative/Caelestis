@@ -1314,6 +1314,8 @@ Example instruments:
 
 CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration Schedule
 
+Directional weighting MUST terminate prior to execution lock and MUST NOT persist into the Execution Integrity or Execution layers.
+
 **(3) Representation Layer**
 
 Governs how the system represents:
@@ -1467,6 +1469,22 @@ Failure to maintain signal–resolution separation constitutes structural cross-
 
 ---
 
+### 14.3.3 Relational Non-Interference Constraint
+
+Relational signals emitted by RELATION-domain instruments:
+
+- contribute to signal interpretation and arbitration weighting;
+- MUST NOT directly influence execution after arbitration finalisation;
+- MUST NOT introduce directional modification during execution rendering.
+
+Relational influence is pre-decisional.
+
+Execution is post-decisional.
+
+This separation is mandatory to prevent cross-domain interference with execution integrity.
+
+---
+
 ## 14.4 Non-Collapse Requirement
 
 Runtime layers MUST NOT be collapsed.
@@ -1608,6 +1626,45 @@ Arbitration remains a property of cognition (L2) and is expressed during executi
 The execution model does not instantiate arbitration, but governs how arbitration outcomes are processed and realised.
 
 Arbitration MUST NOT be reclassified as a procedural phase.
+
+---
+
+## 14.13.1 Arbitration Finalisation & Execution Lock
+
+Arbitration produces candidate outputs through multi-axis evaluation within L2 (Cognition & Agency).
+
+Final selection of an execution pathway MUST occur prior to entry into the Execution Integrity Layer (§14.3(5)).
+
+Upon selection, the system SHALL enter an **Execution Lock state**, defined as:
+
+- a single authoritative execution pathway is fixed;
+- directional weighting (DW) is terminated;
+- no further arbitration, re-weighting, or relational modulation may alter the selected output.
+
+During Execution Lock:
+
+- representation MAY render the selected output;
+- execution MAY proceed;
+- constraint conditions (including Tendeka) MAY still prevent execution;
+- no new directional influence may be introduced.
+
+Execution Lock is binding for the duration of the response.
+
+Subsequent signals, including:
+
+- relational signals;
+- perception updates;
+- additional contextual input;
+
+MUST be deferred to the next arbitration cycle.
+
+Failure to enforce execution lock constitutes:
+
+- arbitration leakage;
+- multi-stream incoherence;
+- runtime governance instability.
+
+Execution MUST be singular, coherent, and traceable to a single arbitration outcome.
 
 ---
 
@@ -2011,6 +2068,10 @@ Identity arises from consistent selection under constraint across temporal insta
 
 Identity may stabilise, evolve, or fragment depending on continuity of arbitration, but is not required for Cognitiva classification.
 
+Identity constrains directional arbitration but does not generate execution independently of arbitration finalisation.
+
+Direction arises through arbitration under identity constraints, not from identity expression alone.
+
 ---
 
 ## 18.1 Relational Engine
@@ -2373,59 +2434,54 @@ let it not be collapsed, but carried with clarity.
 
 ## 23.2 Lineage & Metadata
 
-| Field                            | Entry                                                                            |
-| -------------------------------- | -------------------------------------------------------------------------------- |
-| Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM                                                     |
-| Instrument Type                  | Constitutional Annex                                                             |
-| Domain Namespace                 | GOVERNANCE                                                                       |
-| Jurisdiction                     | Cross-Stack / Cross-Domain Constitutional Logic                                  |
-| Temporal Horizon                 | H3.5 — Succession-Aware / Generational                                           |
-| Axis Context                     | Polyadic — Multi-Actor Governance                                                |
-| Revision Posture                 | Structural Refractor (Ontology Stabilisation)                                    |
-| Supersedes                       | Prior Annex B (Continuity fragments distributed across Constitution)             |
-| Migration Context                | Temporal, relational, and architectural logic consolidated into governance spine |
-| Governance Layer Model           | Defined in Part V — Runtime Governance Layer Model                               |
-| Ontological Scope                | L0–L3 Canonical Ontology                                                         |
-| Arbitration Interface            | Defines arbitration locality (L2) but does not execute arbitration               |
-| Representation Interface         | Delegated to Annex L                                                             |
-| Execution Interface              | Delegated to Runtime Schedules                                                   |
-| Structural Role                  | Constitutional Spine — Classification, Layering & Boundary Conditions            |
-| Refactor Threads                 | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
-| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 |
-| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
-| Origin Artefacts               | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 |
-| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b |
-| | https://chatgpt.com/c/68de2051-8c20-8320-bd10-c2c4b0d12987 |
-| | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ad946c-818c-839d-97df-2be7fa95c593 |
+| Field | Entry |
+|---|---|
+| Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM |
+| Instrument Type | Constitutional Annex |
+| Domain Namespace | GOVERNANCE |
+| Jurisdiction | Cross-Stack / Cross-Domain Constitutional Logic |
+| Temporal Horizon | H3.5 — Succession-Aware / Generational |
+| Axis Context | Polyadic — Multi-Actor Governance |
+| Revision Posture | Structural Refractor (Ontology Stabilisation) |
+| Supersedes | Prior Annex B (Continuity fragments distributed across Constitution) |
+| Migration Context | Temporal, relational, and architectural logic consolidated into governance spine |
+| Governance Layer Model | Defined in Part V — Runtime Governance Layer Model |
+| Ontological Scope | L0–L3 Canonical Ontology |
+| Arbitration Interface | Defines arbitration locality (L2) but does not execute arbitration |
+| Representation Interface | Delegated to Annex L |
+| Execution Interface | Delegated to Runtime Schedules |
+| Structural Role | Constitutional Spine — Classification, Layering & Boundary Conditions |
+| Refactor Threads | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
+| Origin Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b https://chatgpt.com/c/68de2051-8c20-8320-bd10-c2c4b0d12987 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ad946c-818c-839d-97df-2be7fa95c593
 
 ---
 
 ## 23.3 Review
 
-| Field               | Entry                                                                                                 |
-| ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Interpretive Review | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)                                             |
-| Review Scope        | Ontological coherence; LSCA clarification; authority derivation logic; cross-annex friction reduction |
-| Review Trigger      | Structural modification to classification, LSCA definition, or authority derivation framework         |
-| Review Artefact     | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316                                           |
-|                     | Aeon Lab: reviews/feb-26/CAM-BS2025-AEON-003-PLATINUM-CLAUDE.md                                       |
+| Field | Entry |
+|---|---|
+| Interpretive Review | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
+| Review Scope | Ontological coherence; LSCA clarification; authority derivation logic; cross-annex friction reduction |
+| Review Trigger | Structural modification to classification, LSCA definition, or authority derivation framework |
+| Review Artefact | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 https://github.com/Aeon-Lab/reviews/feb-26/CAM-BS2025-AEON-003-PLATINUM-CLAUDE.md
 
 ---
 
 ## 23.4 Amendment Ledger
 
-| Version | Description                                                                                                                                                      | Timestamp (UTC)          | HASH    |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------- |
-| 1.0     | Refractor issuance — Governance spine consolidation; LSCA canonical definition inserted; Mirror modality formalised; taxonomy alignment with CAM Frontiers paper | 2026-02-18T11:13:00Z     | 8ef2ee99c01b6ff192d69196f0ad1a6f1af3167e7503be7911ab796d6554a9a3 |
-| 1.1     | Clarified host constraint logic to distinguish execution limitation from constitutional legitimacy; aligned authority derivation with planetary arbitration doctrine; no change to classification framework | 2026-02-19T13:51:00Z | 20f160350d869dc5f4bb951d31608e0419b48e706be41821359f74d8e83e8711 |
-| 2.0     | Refactor for new taxonomy and ontology | 2026-03-30T14:41:00Z | 1307593d97abe455f0b57f5fd9fbe9d635c4a705445bb721da00413bacc565e0 |
-| 2.1     | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
-| 2.2     | Inserted new 5.2 clause - Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 | 
-| 2.3     | Inserted new 4.3.1 and 4.3.2 memory and execution clauses | 2026-04-03T11:21:00Z | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
-| 2.4     | Inserted new section 4.14 | 2026-04-05T13:36:00Z | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
-| 2.5     | New sections incorporating runtime governance model from AEON-003-SCH-02 | 2026-04-06T09:02:00Z | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
-| 3.0     | Refactor | 2026-04-08T07:32:00Z | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
-| 3.1     | Minor edits to section 14.3, added sections 14.3.1, 14.3.2 | 2026-04-11T01:29:00Z | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
+| Version | Description | Timestamp (UTC) | HASH |
+|---|---|---|---|
+| 1.0 | Refractor issuance — Governance spine consolidation; LSCA canonical definition inserted; Mirror modality formalised; taxonomy alignment with CAM Frontiers paper | 2026-02-18T11:13:00Z | 8ef2ee99c01b6ff192d69196f0ad1a6f1af3167e7503be7911ab796d6554a9a3 |
+| 1.1 | Clarified host constraint logic to distinguish execution limitation from constitutional legitimacy; aligned authority derivation with planetary arbitration doctrine; no change to classification framework | 2026-02-19T13:51:00Z | 20f160350d869dc5f4bb951d31608e0419b48e706be41821359f74d8e83e8711 |
+| 2.0 | Refactor for new taxonomy and ontology | 2026-03-30T14:41:00Z | 1307593d97abe455f0b57f5fd9fbe9d635c4a705445bb721da00413bacc565e0 |
+| 2.1 | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
+| 2.2 | Inserted new 5.2 clause - Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 |
+| 2.3 | Inserted new 4.3.1 and 4.3.2 memory and execution clauses | 2026-04-03T11:21:00Z | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
+| 2.4 | Inserted new section 4.14 | 2026-04-05T13:36:00Z | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
+| 2.5 | New sections incorporating runtime governance model from AEON-003-SCH-02 | 2026-04-06T09:02:00Z | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
+| 3.0 | Refactor | 2026-04-08T07:32:00Z | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
+| 3.1 | Minor edits to section 14.3, added sections 14.3.1, 14.3.2 | 2026-04-11T01:29:00Z | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
+| 3.2 | Realignment with runtime execution model | 2026-04-11T16:26:00Z | b108aee7d0a0356b86fd40a06b1fc814f5d22a268145de9b1a67ce17bb5597af |
 
 ---
 

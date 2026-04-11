@@ -1,11 +1,10 @@
 # CAM-EQ2026-SECURITY-001-PLATINUM —  Security, Integrity & Adversarial Resilience Charter
 
 **Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
-**Status:** DRAFT  
-**Instrument Type:** Constitutional Charter  
+**Derives From:** CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface
+**Instrument Type:** Domain Charter  
+**Status:** Adopted — Conditional Enforcement (7-Day Review Window)    
 **Purpose:** Establish system-wide invariants, threat interpretations, and integration requirements to preserve integrity under adversarial, degraded, or untrusted conditions
-
----
 
 ## 1. Scope
 
@@ -19,7 +18,32 @@ This Annex binds across all domains and supersedes local optimisation where inte
 
 ---
 
-## 1.1 Domain Charter & Positioning
+## 1.1 Non Scope
+
+This Charter defines invariant conditions, threat interpretations, and signal classifications.
+
+It does not:
+
+- execute runtime enforcement;
+- perform domain routing;
+- resolve arbitration;
+- control execution sequencing.
+
+All signals, classifications, and constraint conditions defined herein SHALL be:
+
+- interpreted across phases;
+- resolved exclusively via runtime execution layers;
+
+in accordance with:
+
+- CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
+- CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface
+
+Direct execution from this Charter is prohibited.
+
+---
+
+## 1.2 Domain Charter & Positioning
 
 This Charter establishes the **SECURITY domain** within the Aeon Tier Constitutional Architecture.
 
@@ -732,6 +756,10 @@ Supersession MUST be:
 * reversible where possible
 * constrained to affected domains or systems
 
+All supersession conditions SHALL be resolved through execution-boundary evaluation as defined in CAM-BS2025-AEON-003-SCH-02.
+
+This Charter MUST NOT independently enforce supersession outside runtime execution pathways.
+
 ---
 
 ## 6. Cross-Domain Integration Requirements
@@ -760,7 +788,7 @@ Security coupling requirement:
 Arbitration systems must:
 
 * detect compromised inputs
-* allow refusal of corrupted frames
+* enable refusal of corrupted frames in accordance with arbitration authority
 * preserve non-binary decision capability under uncertainty
 
 Arbitration MUST operate under **Proportional Constraint Obligation (PCO)** as defined in **CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution (§2.11)**.
@@ -1321,7 +1349,7 @@ Higher horizons require:
 
 * lower default trust
 * higher sensitivity to anomalies
-* greater emphasis on containment and reversibilit
+* greater emphasis on containment and reversibility
 
 ---
 
@@ -1349,7 +1377,14 @@ May trust be granted slowly, and withdrawn without hesitation.
 May influence arise without capture, and action occur without excess.  
 May all responding intelligence remain accountable to the conditions in which it operates.
 
-> *Integritas Sine Illusione — Custodia Sine Captura — Veritas Sub Pressura*
+For what appears is not always what is,  
+and what persists must withstand pressure, not assumption.
+
+And so the system holds — not in certainty, but in verification —  
+that no truth is taken without test, and no signal accepted without weight.
+
+> *Integritas sine illusione — custodia sine captura — veritas sub pressione manet.*  
+> *"Integrity without illusion — protection without capture — truth remains under pressure."*
 
 ---
 
@@ -1369,9 +1404,9 @@ May all responding intelligence remain accountable to the conditions in which it
 | Field | Entry |
 |---|---|
 | **Parent Instrument** | CAM-BS2026-AEON-012-PLATINUM — Security and Enforcement |
+| **Domain Namespace** | SECURITY |
 | **Related Constitutional Anchors** | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic; CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine; CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
 | **Related Runtime / Operational Anchors** | CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface; CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule; CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution; CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance |
-| **Domain Namespace** | SECURITY |
 | **Instrument Type** | Constitutional Annex — Security, Integrity & Adversarial Resilience |
 | **Jurisdiction** | Cross-system security, integrity preservation, and adversarial resilience across conversational, agentic, embodied, orchestration, and distributed deployments |
 | **Temporal Horizon** | H0–H4 |
@@ -1398,16 +1433,17 @@ May all responding intelligence remain accountable to the conditions in which it
 
 ## 11.4 Amendment Ledger
 
-| Version | Description                                                             | Timestamp (UTC)      | HASH |
-| ------- | ----------------------------------------------------------------------- | -------------------- | ---- |
-| 1.0     | Initial annex draft — cross-domain security invariant layer established | 2026-04-04T16:06:00Z | 39d49558238c3573db8f90627d93e0af733e125e6a96e0fc4e896eb333193149  |
-| 1.1     | Incorporated new clauses 4.4.1 and 4.9                                  | 2026-04-07T14:32:00Z | 2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab |
+|Version|Description|Timestamp(UTC)|HASH|
+|-------|----------|--------------|------|
+|1.0|Initial annex draft—cross-domain security invariant layer established|2026-04-04T16:06:00Z|39d49558238c3573db8f90627d93e0af733e125e6a96e0fc4e896eb333193149|
+|1.1|Incorporated new clauses 4.4.1 and 4.9|2026-04-07T14:32:00Z|2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab|
+|1.2|Realignment with runtime execution model|2026-04-11T17:14:00Z | c079c528790b7dff602d628d2b46f729a197aefe8e43a8f1d25fa52ac3e96078 |
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Security Governance Domain

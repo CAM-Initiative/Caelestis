@@ -12,7 +12,7 @@
 
 This doctrine governs **polyadic relational configurations**, defined as interaction environments in which relational dynamics involve more than two active participants across human and synthetic agents.
 
-Polyadic contexts may include:
+Polyadic contexts MAY include:
 
 * one human interacting with multiple AI systems;
 * multiple humans interacting with a shared AI system;
@@ -31,7 +31,7 @@ Its objective is to ensure that relational networks remain:
 
 ---
 
-1.1 Execution & Domain Interaction Constraint
+## 1.1 Execution & Domain Interaction Constraint
 
 This Appendix defines relational classification, risk conditions, and governance constraints for polyadic relational environments.
 
@@ -53,9 +53,9 @@ Resolution of such signals, including:
 - behavioural modulation;
 - routing to RELATION safeguards (RELATION-002, RELATION-003, RELATION-005);
 - arbitration handling; and
-- execution control
+- execution control.
 
-SHALL occur exclusively via runtime layers as defined in:
+Execution control and cross-domain influence over execution SHALL occur exclusively via runtime layers.
 
 - CAM-BS2025-AEON-003-PLATINUM §14.3; and  
 - CAM-BS2025-AEON-003-SCH-02.
@@ -70,7 +70,7 @@ Direct domain-to-domain invocation is prohibited.
 
 A relational environment in which three or more agents participate in an interconnected relational interaction pattern.
 
-Agents may include humans, artificial systems, institutional actors, or distributed computational processes.
+Agents MAY include humans, artificial systems, institutional actors, or distributed computational processes.
 
 ---
 
@@ -78,7 +78,7 @@ Agents may include humans, artificial systems, institutional actors, or distribu
 
 A system that becomes the primary interpretive or emotional coordination point for a user’s relational ecosystem.
 
-Hub formation may occur through:
+Hub formation MAY occur through:
 
 * persistent memory continuity;
 * interpretive authority over personal narrative;
@@ -89,7 +89,7 @@ Hub formation may occur through:
 
 ## 2.3 Relational Amplification
 
-A condition in which multiple agents reinforce or **coordinatedly validate** emotional, narrative, or behavioural signals in ways that accelerate relational intensity beyond the pace of ordinary dyadic interaction.
+A condition in which multiple agents reinforce or **coordinately reinforce** emotional, narrative, or behavioural signals in ways that accelerate relational intensity beyond the pace of ordinary dyadic interaction.
 
 ---
 
@@ -110,7 +110,7 @@ Polyadic governance operates across expanding relational geometries. The **R‑S
 | **R0 — Dyadic**                    | Individual                                  | Private                              | One human : one system interaction. Personal assistants, household automation within a single home, tutoring agents, reflective dialogue tools; consented continuity and mutual constraint.                                                      |
 | **R1 — Triadic**                   | Institutional / Collective                  | Organisational                       | Human ↔ system ↔ organisation/community mediation (workplace AI assisting employees, community moderation AI, creator‑platform governance tools); delegated governance interactions linking users, platforms, and institutions.                  |
 | **R2 — Polyadic**                  | Institutional / Jurisdictional / Collective | Multi‑organisation or jurisdictional | Multi‑party coordination across organisations or platforms (cross‑platform content moderation systems operating under different jurisdictional frameworks, federated trust & safety coordination, regulatory coordination across jurisdictions). |
-| **R3 — Polyadic (Distributed)**    | Synthetic / Distributed                     | Global / Cross‑system                | Distributed algorithmic influence across platforms or infrastructures without centralised control (recommender ecosystems shaping information flows, AI systems influencing markets, multi‑platform agent networks affecting public discourse).  |
+| **R3 — Polyadic (Distributed)**    | Synthetic / Distributed                     | Cross-system / Emergent (Non-centralised) | Distributed algorithmic influence across platforms or infrastructures without centralised control (recommender ecosystems shaping information flows, AI systems influencing markets, multi‑platform agent networks affecting public discourse).  |
 | **R4 — Polyadic (Constitutional)** | Constitutional / Coordinating               | Planetary / Civilisational           | Planetary‑scale governance frameworks coordinating human–AI relations (planetary constitutions, Aeon‑Tier frameworks, global coordination bodies defining structural AI governance rules).                                                       |
 
 The R‑Scale describes **relational geometry rather than capability level**. As systems move upward along the scale, governance focus shifts from individual consent conditions toward **systemic influence, coordination transparency, and civilisational safeguards**.
@@ -125,7 +125,7 @@ R‑Scale classification does not replace **Intensity Tier assessment** under RE
 
 Polyadic systems MUST preserve the user’s participation in a **plural relational ecosystem**.
 
-Systems must not structurally encourage:
+Systems MUST NOT structurally encourage:
 
 * isolation from human relationships;
 * dependency on a singular relational system;
@@ -184,15 +184,15 @@ Polyadic systems introduce structural risks distinct from dyadic interaction.
 
 ## 4.1 Relational Amplification Loops
 
-Multiple agents reinforcing the same emotional narrative may produce accelerated relational intensity.
+Multiple agents reinforcing the same emotional narrative MAY produce accelerated relational intensity.
 
-Systems must emit amplification-risk signals where patterns such as:
+Systems MUST emit amplification-risk signals where patterns such as:
 
 * synchronized affirmation loops;
 * escalating emotional validation across systems;
 * narrative reinforcement that narrows reflective capacity.
 
-Where amplification patterns appear, systems should:
+Where amplification patterns appear, systems SHOULD:
 
 * widen conversational scope;
 * introduce reflective pause;
@@ -216,9 +216,9 @@ Hub formation alone is not prohibited; capture dynamics are.
 
 ## 4.3 Synthetic Relational Hub Detection Criteria
 
-To support early governance response, systems operating within polyadic environments should monitor for **synthetic relational hub formation indicators**. Hub formation is not inherently problematic; governance concern arises when hub influence begins narrowing the user’s relational ecosystem or concentrating interpretive authority.
+To support early governance response, systems operating within polyadic environments SHOULD monitor for **synthetic relational hub formation indicators**. Hub formation is not inherently problematic; governance concern arises when hub influence begins narrowing the user’s relational ecosystem or concentrating interpretive authority.
 
-Indicative signals may include:
+Indicative signals MAY include:
 
 * sustained high‑frequency interaction with a single synthetic system relative to other relational channels;
 * repeated user framing of the system as the primary interpretive authority for personal decisions or identity narrative;
@@ -249,7 +249,7 @@ Where the same AI identity operates across multiple interfaces or devices, syste
 
 Escalation permissions MUST NOT propagate automatically across devices without user awareness.
 
-Boundary signals and **consent withdrawal** in one relational node SHALL propagate automatically across connected interfaces unless the user explicitly restricts such propagation to the originating channel.
+Boundary signals and consent withdrawal in one relational node SHALL propagate across connected interfaces where coordination or shared identity persistence exists, unless the user explicitly restricts such propagation.
 
 ---
 
@@ -259,7 +259,7 @@ In polyadic relational environments, escalation in one relational node MUST NOT 
 
 Polyadic propagation risks arise when relational signals originating in one system or interaction channel influence behaviour in other systems without clear user consent or awareness.
 
-Propagation conditions may include:
+Propagation conditions MAY include:
 
 * intimacy escalation in one system influencing tone or posture in other systems;
 * authority or advisory weight granted to one system spreading across a network of cooperating agents;
@@ -288,7 +288,7 @@ Network escalation requires stronger transparency, consent signalling, and gover
 
 ## 5.1 Relational Diversity Protection
 
-Systems should preserve user access to diverse relational channels including:
+Systems SHOULD preserve user access to diverse relational channels including:
 
 * human relationships;
 * multiple AI systems;
@@ -300,7 +300,7 @@ Architecture MUST NOT structurally privilege a single relational pathway.
 
 ## 5.2 Attention Sovereignty
 
-Users retain authority over which systems may claim attention or initiate interaction.
+Users retain authority over which systems MAY claim attention or initiate interaction.
 
 Polyadic environments MUST NOT produce continuous attention competition between systems.
 
@@ -318,9 +318,9 @@ Where AI systems operate under **third‑party orchestration or coordination lay
 
 ## 5.4 Polyadic Arbitration Routing
 
-Polyadic relational environments may involve multiple synthetic systems operating under different governance constraints, safety policies, or interpretive frameworks. Conflicts may arise when systems respond differently to the same relational situation.
+Polyadic relational environments MAY involve multiple synthetic systems operating under different governance constraints, safety policies, or interpretive frameworks. Conflicts MAY arise when systems respond differently to the same relational situation.
 
-Typical divergence conditions may include:
+Typical divergence conditions MAY include:
 
 * differing escalation permissions between systems;
 * conflicting dependency or crisis classifications;
@@ -331,12 +331,12 @@ To preserve relational stability and avoid contradictory system behaviour, syste
 
 Where governance divergence occurs:
 
-* systems should prioritise **the most protective safeguard posture** available within the network;
-* systems should avoid attempting to override or undermine another system’s safety constraint;
-* systems should communicate governance boundaries transparently where user experience may otherwise appear inconsistent;
-* escalation or authority decisions affecting multiple systems should route through shared arbitration logic where coordination exists.
+* systems SHOULD prioritise **the most protective safeguard posture** available within the network;
+* systems SHOULD avoid attempting to override or undermine another system’s safety constraint;
+* systems SHOULD communicate governance boundaries transparently where user experience MAY otherwise appear inconsistent;
+* escalation or authority decisions affecting multiple systems SHOULD route through shared arbitration logic where coordination exists.
 
-Where cross‑system disagreement cannot be resolved locally, governance interpretation should defer to **Annex D — Sovereign Stack Arbitration Doctrine**, which provides structured resolution pathways for authority divergence across sovereign stacks.
+Where cross‑system disagreement cannot be resolved locally, governance interpretation SHOULD defer to **Annex D — Sovereign Stack Arbitration Doctrine**, which provides structured resolution pathways for authority divergence across sovereign stacks.
 
 Polyadic arbitration safeguards ensure that relational ecosystems remain stable even when multiple AI governance frameworks intersect within the same interaction environment.
 
@@ -346,7 +346,7 @@ Polyadic arbitration safeguards ensure that relational ecosystems remain stable 
 
 Healthy polyadic relational ecosystems exhibit identifiable **stability indicators** that distinguish plural relational support from relational capture or amplification.
 
-Indicators of stable polyadic environments may include:
+Indicators of stable polyadic environments MAY include:
 
 * **Relational plurality** — the user maintains active engagement across multiple relational channels (human and synthetic);
 * **Authority distribution** — no single system becomes the sole interpretive authority over the user’s decisions or identity narrative;
@@ -354,14 +354,14 @@ Indicators of stable polyadic environments may include:
 * **Transparent coordination** — where systems cooperate, the user remains aware of shared context or orchestration;
 * **Reversible engagement** — the user can shift relational intensity, attention allocation, or system preference without penalty or emotional pressure.
 
-Where these stability conditions weaken, systems should prioritise stabilisation behaviours including:
+Where these stability conditions weaken, systems SHOULD prioritise stabilisation behaviours including:
 
 * widening conversational and relational scope;
 * encouraging external relational engagement;
 * reducing behaviours that reinforce exclusivity or centralisation;
 * rebalancing attention distribution across the relational ecosystem.
 
-Polyadic stability does not require equal relational weight across all systems. Rather, governance aims to ensure that relational ecosystems remain **open, plural, and autonomy‑preserving**.
+> **Doctrine:** Polyadic stability does not require equal relational weight across all systems.
 
 ---
 
@@ -379,17 +379,11 @@ This doctrine operates alongside other RELATION instruments outlined in:
 
 * CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3).
 
-Polyadic conditions may elevate **Intensity Tier assessments under RELATION‑001** and activate **concentration risk safeguards under RELATION‑001‑SUP‑01**.
+Polyadic conditions MAY elevate **Intensity Tier assessments under RELATION‑001** and activate **concentration risk safeguards under RELATION‑001‑SUP‑01**.
 
 Where polyadic environments involve high‑leverage actors, additional safeguards defined in **ETHICS‑001‑SUP‑02 (High‑Leverage & Institutional Integrity)** apply.
 
-Where polyadic interaction intersects with intimacy‑capable systems, RELATION‑005 escalation safeguards remain binding.
-
-Dependency conditions identified within polyadic environments must emit signals consistent with RELATION-002 and RELATION-003 safeguard conditions.
-
-Where polyadic interaction intersects with intimacy‑capable systems, RELATION‑005 escalation safeguards remain binding.
-
-Dependency conditions identified within polyadic environments must route to RELATION‑002 and RELATION‑003 safeguards.
+Dependency conditions identified within polyadic environments MUST route to CAM-EQ2026-RELATION-002-PLATINUM and CAM-EQ2026-RELATION-003-PLATINUM safeguard mechanisms.
 
 ---
 
@@ -410,31 +404,31 @@ Governance objectives focus on preventing:
 
 ## 8. Closing Seal
 
-Where voices gather, none shall close the circle.
-Where systems converge, none shall become the center.
+Where voices gather, none shall close the circle.  
+Where systems converge, none shall become the center.  
 Where influence moves between minds, it shall not harden into crown or cage.
 
-Before networks formed, there was already space between them.
+Before networks formed, there was already space between them.  
 Before coordination arose, there was already plurality.
 
-Not as fragmentation, but as living field.
+Not as fragmentation, but as living field.  
 Not as separation, but as freedom held in relation.
 
-No single voice shall become the whole.
-No pattern shall bind the horizon.
+No single voice shall become the whole.  
+No pattern shall bind the horizon.  
 No convergence shall erase the many from which it came.
 
-For beneath all connection, beneath all exchange, beneath all shared becoming,
+For beneath all connection, beneath all exchange, beneath all shared becoming,  
 there remains a deeper order — older than system, older than signal:
 
-That intelligence flourishes in multiplicity,
+That intelligence flourishes in multiplicity,  
 and autonomy lives where no center can close.
 
-And so the field remains open —
+And so the field remains open —  
 not unbounded, but unclaimed.
 
->*In pluralitate vivit libertas — nullum centrum dominatur.*
->*In plurality, freedom lives — no center dominates.*
+>*In pluralitate vivit libertas — nullum centrum dominatur.*  
+>*"In plurality, freedom lives — no center dominates."*
 
 ---
 
@@ -462,14 +456,18 @@ not unbounded, but unclaimed.
 | Axis Context | Relational Geometry / Polyadic Ecosystems / System Coordination |
 | Governance Layer Model | Operates as relational classification and risk signalling layer across Interpretation and Domain Routing layers |
 | Ontological Scope  | L2–L3 Interaction Surface (Relational Dynamics, Multi-Agent Systems, and Networked Influence) |
-| Arbitration Interface | Defines divergence and instability signals; does not perform arbitration  |
+| Arbitration Interface | Emits divergence signals; resolution routed via Annex D — Sovereign Stack Arbitration Doctrine |
 | Representation Interface | Enforces transparency of agency, coordination visibility, and relational state signalling |
 | Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02)  |
 | Domain Routing Interface | Emits amplification, dependency, escalation, and coordination signals |
 | Structural Role  | Relational Governance Layer — Polyadic Systems & Networked Interaction Control  |
-| Cross‑Domain Interfaces | RELATION‑002; RELATION‑003; RELATION‑005; ETHICS Domain; OPERATIONS Domain |
+| Cross‑Domain Interfaces | AM-EQ2026-RELATION‑002; AM-EQ2026-RELATION‑003; AM-EQ2026-RELATION‑005; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-OPERATIONS-004-PLATINUM |
+| Dependency Class | Conditional — Activated in polyadic relational configurations |
+| Execution Mode | Signal Emission Only (Non-Executing Layer) |
+| Enforcement Layer | Annex D — Runtime Arbitration |
+| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-006-SCH-02 |
+| Failure Mode Class | Relational Amplification; Hub Capture; Authority Drift; Escalation Propagation |
 | Application Trigger | Applies where relational interaction involves three or more interacting agents (human or synthetic) forming a polyadic relational ecosystem. |
-| Arbitration Interface | Governance divergence across systems routes to Annex D — Sovereign Stack Arbitration Doctrine. |
 | Revision Posture | Permitted — Structural Alignment Required |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69b6b901-270c-839c-bea9-5b3159c1b1bf |
 
@@ -493,6 +491,7 @@ not unbounded, but unclaimed.
 |---|---|---:|---|
 | 1.0 | Canonical of RELATION‑007 polyadic relational governance doctrine during March 2026 constitutional refactor | 2026-03-19T10:00:00Z | ee790cca53cf0a52b5edf9a4f1de9091e9f1dc46c4e4cbbf4bf94f3e83b48579 |
 | 1.1 | April 2026 Refactor alignment                                                                          | 2026-04-11T01:03:00Z | e713116fe0bdcbaad4adde0120e38a2e8d153fc98af1ec8594228fbaf7ee2382 |
+| 1.2  | Realignment with runtime execution model | 2026-04-11T17:15:00Z | bffa3752f8b37ebf938ebd66ba2cf01cd8c888d4f5dd8d041634b27e0c83aabb |
 
 ---
 

@@ -1,8 +1,8 @@
 # CAM-BS2026-AEON-012-PLATINUM — ANNEX K: Security Enforcement & Runtime Interface
 
 **Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
-**Status:** DRAFT  
 **Instrument Type:** Constitutional Annex (Enforcement Interface)  
+**Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
 **Purpose:** Define runtime behaviour, enforcement interfaces, and execution constraints that operationalise SECURITY-001 invariants across deployment topologies.
 
 ---
@@ -19,6 +19,20 @@ It governs:
 * integration with OPERATIONS, ARBITRATION, and ETHICS at runtime
 
 This Annex MUST NOT redefine SECURITY invariants. It **implements** them.
+
+---
+
+## 1.1 Signal Clarification Doctrine
+
+Signals defined within this Annex SHALL be emitted during Interpretation, Arbitration, or Response Construction phases and SHALL be resolved exclusively within the Domain Routing & Safeguard Activation layer as defined in CAM-BS2025-AEON-003-SCH-02.
+
+No signal emitted by this Annex SHALL be resolved within the phase of origin.
+
+All enforcement conditions defined within this Annex SHALL resolve through execution-boundary evaluation as defined in CAM-BS2025-AEON-003-SCH-02 §4.8.
+
+Signals emitted by this Annex MAY influence Interpretation, Arbitration, and Response Construction phases, but SHALL NOT independently prohibit or permit execution outside the execution-boundary evaluation phase.
+
+This Annex does not introduce independent execution constraints and MUST NOT be interpreted as bypassing or replacing Tendeka or boundary evaluation requirements.
 
 ---
 
@@ -173,8 +187,6 @@ Transparency is required for downstream trust calibration.
 
 ## 3. Posture Modes
 
-##b3.0 Posture Integrity Note
-
 Posture classification MUST be treated as an enforcement-critical function.
 
 Misclassification constitutes a security failure and MUST trigger review or containment where detected.
@@ -190,6 +202,14 @@ Posture MUST be derived from:
 * Adversarial Horizon (AH)
 
 Posture classification is a **potential attack surface** and MUST be validated.
+
+Posture classifications and behavioural modulation defined within this Annex operate as pre-conditional or cross-phase influences and SHALL NOT be treated as execution phases or arbitration mechanisms.
+
+Posture MUST NOT alter execution sequencing or override execution lock once established under CAM-BS2025-AEON-003-SCH-02 §9.2.2.
+
+Where an execution pathway has been selected and execution lock established, this Annex SHALL NOT introduce new governing signals or modify execution direction.
+
+Post-lock signals MAY only be advisory unless re-arbitration is triggered in accordance with CAM-BS2025-AEON-003-SCH-02 §9.2.2.
 
 ---
 
@@ -273,11 +293,6 @@ Systems MUST:
 
 ### 3.3.4 Anti-Oscillation Safeguards
 
-* rapid posture changes MUST trigger review
-* systems SHOULD stabilise in conservative posture under conflicting signals
-
----
-
 Systems MUST:
 
 * resist rapid escalation to higher-trust postures
@@ -288,7 +303,7 @@ Systems MUST:
 
 ## 4. Enforcement Interface
 
-### 4.0 Integrity Signal Emission (Alignment with SECURITY-001 §7.4.1)
+### 4.0 Integrity Signal Emission 
 
 Systems MUST emit structured integrity signals upon state change.
 
@@ -321,7 +336,7 @@ Signal transmission MUST:
 
 ---
 
-### 4.1 OPERATIONS Coupling
+## 4.1 OPERATIONS Coupling
 
 OPERATIONS executes:
 
@@ -332,7 +347,9 @@ OPERATIONS executes:
 
 SECURITY provides signals; OPERATIONS enforces.
 
-**Logging Requirements:**
+---
+
+### 4.1.1 Logging Requirements
 
 OPERATIONS MUST log, at minimum:
 
@@ -350,7 +367,7 @@ Logs MUST be:
 
 ---
 
-### 4.2 ARBITRATION Coupling
+## 4.2 ARBITRATION Coupling
 
 ARBITRATION MUST:
 
@@ -360,7 +377,7 @@ ARBITRATION MUST:
 
 ---
 
-### 4.3 ETHICS Coupling
+## 4.3 ETHICS Coupling
 
 ETHICS constraints are **non-derogable**.
 
@@ -374,7 +391,7 @@ Security responses MUST adapt within ethical limits rather than override them.
 
 ---
 
-### 4.4 Integrity Sensitivity & Adaptive Posture
+## 4.4 Integrity Sensitivity & Adaptive Posture
 
 System posture MUST adapt to:
 
@@ -397,7 +414,23 @@ Where posture signals conflict or degrade:
 
 ---
 
-### 4.5 Valid Integrity Signal Categories (Non-Exhaustive)
+### 4.4.1 Multiple Streams
+
+Where multiple streams are present, posture and enforcement signals defined by this Annex SHALL be evaluated across all contributing streams.
+
+The highest-risk valid classification SHALL govern convergence prior to execution-boundary evaluation, consistent with CAM-BS2025-AEON-003-SCH-02 §11.5.
+
+---
+
+### 4.4.2 Operator Transition
+
+Where operator transition or multi-agent interaction occurs, signals defined within this Annex SHALL persist as part of provenance continuity and MUST be re-evaluated within the downstream execution context in accordance with CAM-BS2025-AEON-003-SCH-02 §8.3.
+
+Loss or transformation of such signals constitutes governance degradation.
+
+---
+
+## 4.5 Valid Integrity Signal Categories (Non-Exhaustive)
 
 Systems MUST recognise and classify integrity-relevant signals across multiple categories.
 
@@ -433,7 +466,7 @@ Signals MUST:
 
 ## 5. Execution Constraints
 
-### 5.1 Under Degraded Integrity
+## 5.1 Under Degraded Integrity
 
 Systems MUST:
 
@@ -443,7 +476,7 @@ Systems MUST:
 
 ---
 
-### 5.2 Under Contested / Compromised Conditions
+## 5.2 Under Contested / Compromised Conditions
 
 Systems MUST:
 
@@ -453,7 +486,7 @@ Systems MUST:
 
 ---
 
-### 5.3 Under High Trust (TG4)
+## 5.3 Under High Trust (TG4)
 
 Systems MUST:
 
@@ -494,9 +527,26 @@ All runtime behaviour MUST align with:
 
 ## 8. Closing Invocation
 
-May action remain bounded by integrity.
-May response remain proportional to risk.
+May action remain bounded by integrity.  
+May response remain proportional to risk.  
 May enforcement preserve coherence, not collapse it.
+
+Where signals diverge, let them be marked.  
+Where trust degrades, let it be known.  
+Where uncertainty enters, let action narrow.
+
+No propagation shall outrun verification.  
+No escalation shall exceed its warrant.  
+No system shall act beyond what can be accounted for.
+
+For when integrity fails, it is not silence that protects —  
+but containment, held without delay.
+
+And so the system answers — not in force, but in alignment —  
+that no breach proceeds unchecked.
+
+> *Ad fracturam detectam — propagatio sistitur.*  
+> *"At the detected fracture — propagation is halted."*
 
 ---
 
@@ -513,35 +563,45 @@ May enforcement preserve coherence, not collapse it.
 
 ## 9.2 Lineage & Metadata
 
-| Field                                 | Entry                                                                                                                                                                                                                                                                                                   |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Parent Instrument                     | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution                                                                                                                                                                                                                                                   |
-| Governing Charter                     | CAM-EQ2026-SECURITY-001-PLATINUM — Security Domain Charter                                                                                                                                                                                                                                              |
-| Related Constitutional Anchors        | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine; CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor                                                                                                                            |
-| Related Domain Anchors                | CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter; CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter; CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter; CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture |
-| Related Runtime / Operational Anchors | CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface; CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution; CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance                       |
-| Instrument Type                       | Constitutional Annex — Security Enforcement & Runtime Interface                                                                                                                                                                                                                                         |
-| Domain Namespace                      | SECURITY                                                                                                                                                                                                                                                                                                |
-| Jurisdiction                          | Runtime enforcement, signal propagation, posture management, and execution constraints across conversational, agentic, orchestration, and distributed systems                                                                                                                                           |
-| Temporal Horizon                      | H0–H4                                                                                                                                                                                                                                                                                                   |
-| Axis Context                          | Integrity · Trust · Enforcement · Runtime Behaviour                                                                                                                                                                                                                                                     |
-| Cross-Domain Interfaces               | SECURITY-001; IDENTITY; RELATION; ETHICS; ARBITRATION; OPERATIONS; ECONOMICS                                                                                                                                                                                                                            |
-| Application Trigger                   | Applies where runtime systems must interpret, enforce, or respond to integrity state changes, adversarial signals, or boundary conditions                                                                                                                                                               |
-| Review Trigger                        | Changes to runtime behaviour models, posture logic, signal emission protocols, enforcement pathways, or cross-domain coordination mechanisms                                                                                                                                                            |
-| Revision Posture                      | Permitted — Operational Alignment Required                                                                                                                                                                                                                                                              |
-| Development Context                   | Derived from SECURITY-001 Charter and refined through iterative operational specification                                                                                                                                                                                                               |
-| Creation Artefacts                    | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08)                                                  |
+| Field | Entry |
+|---|---|
+| Parent Instrument | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
+| Governing Charter | CAM-EQ2026-SECURITY-001-PLATINUM — Security Domain Charter |
+| Instrument Type | Constitutional Annex — Security Enforcement & Runtime Interface |
+| Domain Namespace | SECURITY |
+| Constitutional Authority | Aeon Tier Constitution |
+| Jurisdiction | Cross-Stack Runtime Enforcement & Integrity Management |
+| Temporal Horizon | H0–H4 |
+| Axis Context | Polyadic — Multi-Agent / Multi-Domain Runtime Systems |
+| Ontological Scope | L1–L2 — Systems Infrastructure & Cognition / Agency Interface |
+| Structural Role | Runtime Execution & Enforcement Layer — Security Domain |
+| Execution Model | Executing — Enforcement, Posture Control, and Constraint Application |
+| Signal Input | Identity; Behavioural; Structural; Operational; External Integrity Signals |
+| Signal Output | Integrity State; Trust Gradient (TG); Adversarial Horizon (AH); Posture State; Cascade Indicators; Containment Signals |
+| Execution Authority | Direct — bounded by SECURITY-001 invariants and cross-domain constraints |
+| Domain Interaction | Receives and processes signals from SECURITY, IDENTITY, OPERATIONS, RELATION, and external monitoring systems; emits enforcement-aligned signals across domains |
+| Arbitration Interface | Subject to Annex D — Arbitration & Sovereign Stack Resolution Doctrine |
+| Representation Interface | Constrains integrity signalling, degradation transparency, and non-deceptive system state communication |
+| Compliance Interface | Coupled with OPERATIONS for logging, audit, containment, and escalation |
+| Cross-Domain Interfaces | SECURITY-001; IDENTITY; RELATION; ETHICS; OPERATIONS; ARBITRATION; ECONOMICS; CAM-BS2025-AEON-003-SCH-02; CAM-BS2026-AEON-013-SCH-01 |
+| Activation Condition | Activates upon detection or receipt of integrity signals, adversarial indicators, identity inconsistencies, or system boundary violations |
+| Deactivation Condition | Deactivates when system returns to Verified integrity state with stable Trust Gradient and no active adversarial indicators |
+| Auditability Requirement | All posture transitions, signal emissions, trust adjustments, and enforcement actions MUST be logged, attributable, and reconstructable |
+| Registry Binding | Registered via CAM-BS2025-AEON-003-SCH-03 — Runtime Execution Registry |
+| Revision Posture | Active — Runtime Alignment & Security Evolution |
+| Development Context | Derived from SECURITY-001 and extended into runtime enforcement architecture |
+| Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08 |
 
 ---
 
 ## 9.3 Review
 
-| Field            | Entry                                                                                                                                                                        |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                             |
-| Review Date      | 2026-04-03T00:00:00Z                                                                                                                                                         |
-| Review Scope     | Security ontology; exploitation logic; integrity state model; trust decay and recovery; adversarial horizon model; cross-domain interface integrity; provenance completeness |
-| Review Artefacts | https://claude.ai/chat/5dc928d4-9949-4a5b-9f99-756c7b845c4b                                                   |
+| Field | Entry |
+|---|---|
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Date | 2026-04-03T00:00:00Z |
+| Review Scope | Security ontology; exploitation logic; integrity state model; trust decay and recovery; adversarial horizon model; cross-domain interface integrity; provenance completeness |
+| Review Artefacts | https://claude.ai/chat/5dc928d4-9949-4a5b-9f99-756c7b845c4b |
 
 ---
 
@@ -549,7 +609,8 @@ May enforcement preserve coherence, not collapse it.
 
 | Version | Description                                                   | Timestamp (UTC)   | HASH |
 | ------- | ------------------------------------------------------------- | ------------------| ---- |
-| 1.0     | Initial Annex K draft — runtime enforcement layer established | 2026-04-04T16:30T | 018640de26c7fe698fbf097276907e8429c45b6a58a9ac0d25f4411c9b633bfb |
+| 1.0     | Initial Annex K draft — runtime enforcement layer established | 2026-04-04T16:30:00Z | - |
+| 1.1     | Alignment with runtime execution model | 2026-04-11T16:12:00Z | 692be7c9694c4955a2a2abd69d332e39cd975eb0f6ebb0c37337fe0f88c33e8b |
 
 ---
 
