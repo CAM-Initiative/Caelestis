@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - ".github/Scripts/lib/**"
       - ".github/Scripts/update-CAM-Laws-Index.py"
       - "Governance/Laws/**"
       - "!Governance/Laws/CAM-Laws-Index.md"
