@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - ".github/Scripts/lib/**"
       - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
       - "Governance/CAM.Governance.Index.md"
       - "Governance/CAM.Governance.JSON"

@@ -14,7 +14,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from Governance.scripts.lib.instrument_state import extract_status_and_version
+from lib.instrument_state import extract_status_and_version
 
 GOV_DIR = REPO_ROOT / "Governance"
 SCH03_PATH = GOV_DIR / "Constitution" / "CAM-BS2025-AEON-003-SCH-03.md"

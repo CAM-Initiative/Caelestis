@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - ".github/Scripts/lib/**"
       - ".github/Scripts/update-CAM-Governance-Index.py"
       - "Governance/Constitution/CAM-Constitution-Index.md"
       - "Governance/Constitution/constitution.index.json"

@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - ".github/Scripts/lib/**"
       - ".github/Scripts/update-CAM-Charters-Index.py"
       - ".github/Scripts/instrument_parser.py"
       - "Governance/Charters/**"
