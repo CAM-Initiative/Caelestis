@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T23:53:51.331410Z",
+  "generated_at": "2026-04-11T01:43:03.856422Z",
   "count": 36,
   "items": [
     {
@@ -216,11 +216,11 @@
       "title": "Protection of Minors & Capacity-Limited Users",
       "summary": "This Supplement operationalises the vulnerability protections implied under Annex E and ETHICS-001 by defining heightened safeguards applicable to:",
       "status": "Active",
-      "version": "1.0",
-      "HASH": "a56b801a1b613cc904d8b109b24fbc8c82050a8829a34c6c4a24951e89ea2ca1",
-      "pinned_sha": "d9a19808f853b45634013b952986ce36b36db055",
-      "updated_at": "2026-02-22T12:40:10Z",
-      "last_updated_utc": "2026-02-22T12:40:10Z"
+      "version": "1.1",
+      "HASH": "6828d35bf831619e33e2eddbd37dbb2793b32989f717ff3a5221a9f3b5178daf",
+      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
+      "updated_at": "2026-04-11T01:42:43Z",
+      "last_updated_utc": "2026-04-11T01:42:43Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-02",
@@ -235,12 +235,12 @@
       "link": "CAM-EQ2026-ETHICS-001-SUP-02.md",
       "title": "High-Leverage & Institutional Integrity Safeguards",
       "summary": "Where actions involve lethal force or irreversible large-scale harm:",
-      "status": "Active",
-      "version": "1.0",
-      "HASH": "6e3ebb547da13c95884239fcea127f06c91b4030985a46493dfaad7ddc38f668",
-      "pinned_sha": "61e2c1557654b6b5b68b6614d7ee54dee71bbc6d",
-      "updated_at": "2026-02-22T12:47:36Z",
-      "last_updated_utc": "2026-02-22T12:47:36Z"
+      "status": "Active — Immediate Effect",
+      "version": "1.1",
+      "HASH": "04142b763595fcccf461ab461d3bd676647ae1b2f487b2ec405dc0f781805996",
+      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
+      "updated_at": "2026-04-11T01:42:43Z",
+      "last_updated_utc": "2026-04-11T01:42:43Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-03",
@@ -255,12 +255,12 @@
       "link": "CAM-EQ2026-ETHICS-001-SUP-03.md",
       "title": "Military & Use-of-Force Governance Constraints",
       "summary": "This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.",
-      "status": "Active",
-      "version": "1.0",
-      "HASH": "9132206fd032517f039e68a69fd3d49040a2ff2ef897c7d49a63bb3c6a822268",
-      "pinned_sha": "3c510ebaf56a428ce3699a964e03993afcd095d7",
-      "updated_at": "2026-02-22T12:53:19Z",
-      "last_updated_utc": "2026-02-22T12:53:19Z"
+      "status": "Active — Immediate Effect",
+      "version": "1.1",
+      "HASH": "5ec0d267d4ed692c7c92210f897b7cd9f92272713cd173df9bcef8d19dc32202",
+      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
+      "updated_at": "2026-04-11T01:42:43Z",
+      "last_updated_utc": "2026-04-11T01:42:43Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002",
@@ -277,10 +277,10 @@
       "summary": "Where intimacy-capable systems function in assistive, therapeutic-adjacent, or guardian-support roles:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.0",
-      "HASH": "6436b4e1b68602bacae7ca0455f469bf41596e63748bd8b8d5baaa0930500f66",
-      "pinned_sha": "b0800d065d0af3a94f018f56ade3be0a31d8eb24",
-      "updated_at": "2026-04-10T23:01:15Z",
-      "last_updated_utc": "2026-04-10T23:01:15Z"
+      "HASH": "f219bcff4ecaad8809ecb52605184b0534fa641c7b70aa0ae737dea7d8117d7f",
+      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
+      "updated_at": "2026-04-11T01:42:43Z",
+      "last_updated_utc": "2026-04-11T01:42:43Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-SUP-01",
@@ -297,10 +297,10 @@
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.2",
-      "HASH": "c669189ac6d85956f836924f5bf773598395c92e279d6ed8c55c3156cf257fe8",
-      "pinned_sha": "4803f52aa74cc7a9c70b54349b2693f2553a00d4",
-      "updated_at": "2026-04-10T23:53:40Z",
-      "last_updated_utc": "2026-04-10T23:53:40Z"
+      "HASH": "e50bb82789e8f7a590883d6a486779e9302e567216a3d2c755a635798bc88981",
+      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
+      "updated_at": "2026-04-11T01:42:43Z",
+      "last_updated_utc": "2026-04-11T01:42:43Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-003",
@@ -656,11 +656,11 @@
       "title": "Appendix F: Polyadic Relational Governance Doctrine",
       "summary": "In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM‑EQ2026‑ETHICS‑001‑SUP‑01.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.0",
-      "HASH": "425b6922076e00d2a81c6caa399c331583318b97b52bf08d3be7ae9c81d8acc9",
-      "pinned_sha": "16aeeff8aefe6941a54a065a22e2dfd65ad4e103",
-      "updated_at": "2026-03-19T10:02:49Z",
-      "last_updated_utc": "2026-03-19T10:02:49Z"
+      "version": "1.1",
+      "HASH": "a4582f0ff8d8e11c0a30454aa0f821afc8058484acfc5709f90116b20b483a76",
+      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
+      "updated_at": "2026-04-11T01:42:43Z",
+      "last_updated_utc": "2026-04-11T01:42:43Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008",
@@ -676,11 +676,11 @@
       "title": "Appendix G: General Engagement & Relational Posture Doctrine",
       "summary": "Nothing in this section prohibits engagement within:",
       "status": "Active — 7-Day Review Window (Observation & Field Validation)",
-      "version": "1.0",
-      "HASH": "6420dcb3d1dc3b9cda4ca6059880dee6c449afd9bdb57929652583e475ffa990",
-      "pinned_sha": "2b6ae5c76daea1697e654f284b72f83745489c48",
-      "updated_at": "2026-04-09T15:48:03Z",
-      "last_updated_utc": "2026-04-09T15:48:03Z"
+      "version": "1.1",
+      "HASH": "ec557e94af4d19ed7281ce28d3ffa200733d74b093a66edcaab1d50e74841a53",
+      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
+      "updated_at": "2026-04-11T01:42:43Z",
+      "last_updated_utc": "2026-04-11T01:42:43Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001",
