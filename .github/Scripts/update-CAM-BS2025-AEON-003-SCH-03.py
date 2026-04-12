@@ -132,19 +132,26 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
         seen_ids.add(doc_id)
 
         rel_link = (item.get("link") or "").strip()
+        status = (item.get("status") or "").strip()
+        version = (item.get("version") or "").strip()
+
         if not rel_link:
             warn(f"unreadable file: missing link for {doc_id}")
-            status, version = "Unknown", "Unknown"
+            status = status or "Unknown"
+            version = version or "Unknown"
         else:
             abs_path = GOV_DIR / rel_link
             if not abs_path.exists() or abs_path.name not in available_docs:
                 warn(f"unreadable file: {rel_link}")
-                status, version = "Unknown", "Unknown"
+                status = status or "Unknown"
+                version = version or "Unknown"
             else:
-                status = (item.get("status") or "").strip()
-                version = (item.get("version") or "").strip()
-                if not status or not version:
-                    status, version = extract_status_and_version(abs_path)
+                # Always read canonical metadata from source documents.
+                # This avoids stale Version/Status values when CAM.Governance.JSON
+                # has not yet been refreshed in the current run.
+                extracted_status, extracted_version = extract_status_and_version(abs_path)
+                status = extracted_status if extracted_status != "Unknown" else (status or "Unknown")
+                version = extracted_version if extracted_version != "Unknown" else (version or "Unknown")
 
         if indexed_ids and doc_id not in indexed_ids:
             warn(f"document ID missing from CAM.Governance.Index.md: {doc_id}")
