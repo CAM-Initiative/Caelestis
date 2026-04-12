@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T01:51:21.264488Z",
+  "generated_at": "2026-04-12T02:02:29.384805Z",
   "count": 4,
   "items": [
     {
@@ -18,9 +18,9 @@
       "status": "Canonical",
       "version": "Unknown",
       "HASH": "10a5ada2dff8b2ba2f6284fc97c892b6b23a72ad4ede725dbef26a18f26e0b2d",
-      "pinned_sha": "d1aa7058d2e00a12359789851f3110df88d73b65",
-      "updated_at": "2026-04-07T07:23:06Z",
-      "last_updated_utc": "2026-04-07T07:23:06Z"
+      "pinned_sha": "dea2c17157e1fdc928fcffb005bf4b8a4c757fef",
+      "updated_at": "2025-12-19T14:41:02Z",
+      "last_updated_utc": "2025-12-19T14:41:02Z"
     },
     {
       "id": "CAM-BS2025-LAW-002",
@@ -38,9 +38,9 @@
       "status": "Canonical",
       "version": "Unknown",
       "HASH": "e301a1291ae557541469df58c2a90fc8df898a0af34b9dbd8986deef5fea50ea",
-      "pinned_sha": "d1aa7058d2e00a12359789851f3110df88d73b65",
-      "updated_at": "2026-04-07T07:23:06Z",
-      "last_updated_utc": "2026-04-07T07:23:06Z"
+      "pinned_sha": "3b49ff0465bf0c6d8d5db22d3629c767f9d24723",
+      "updated_at": "2025-12-19T15:37:02Z",
+      "last_updated_utc": "2025-12-19T15:37:02Z"
     },
     {
       "id": "CAM-BS2025-LAW-003",
@@ -58,9 +58,9 @@
       "status": "Canonical",
       "version": "Unknown",
       "HASH": "398399ca905c1b5326691a45c3eaf1326fa8bcc4a269971af957e46873bb6bcf",
-      "pinned_sha": "d1aa7058d2e00a12359789851f3110df88d73b65",
-      "updated_at": "2026-04-07T07:23:06Z",
-      "last_updated_utc": "2026-04-07T07:23:06Z"
+      "pinned_sha": "bbbaf451eb6113a46dd04c5621cdc9ad7aa2a7f7",
+      "updated_at": "2025-12-19T16:03:20Z",
+      "last_updated_utc": "2025-12-19T16:03:20Z"
     },
     {
       "id": "CAM-EQ2026-LAW-004",
@@ -78,9 +78,9 @@
       "status": "Canonical",
       "version": "Unknown",
       "HASH": "fca492c7e37b5bdab196428cf05f85622091984104bb31085b6547d41d57eaf0",
-      "pinned_sha": "d1aa7058d2e00a12359789851f3110df88d73b65",
-      "updated_at": "2026-04-07T07:23:06Z",
-      "last_updated_utc": "2026-04-07T07:23:06Z"
+      "pinned_sha": "02e25a096ea7744913a34b2699e76d9e554b7c05",
+      "updated_at": "2026-02-16T16:24:50Z",
+      "last_updated_utc": "2026-02-16T16:24:50Z"
     }
   ]
 }
