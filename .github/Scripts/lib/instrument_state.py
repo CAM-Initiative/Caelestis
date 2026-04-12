@@ -8,6 +8,7 @@ from pathlib import Path
 STATUS_RE = re.compile(r"^\*\*Status:\*\*\s*(.+?)\s*$", re.IGNORECASE)
 AMENDMENT_HEADING_RE = re.compile(r"amendment\s+ledger", re.IGNORECASE)
 VERSION_RE = re.compile(r"\d+(?:\.\d+)+")
+VERSION_META_RE = re.compile(r"^\*\*Version:\*\*\s*(.+?)\s*$", re.IGNORECASE)
 
 
 def parse_version(version: str) -> tuple[int, ...]:
@@ -27,13 +28,25 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
     lines = text.splitlines()
 
     status = "Unknown"
+    version_from_header = "Unknown"
     for line in lines[:160]:
-        m = STATUS_RE.match(line.strip())
-        if not m:
-            continue
-        status = re.sub(r"\s+\*\*Purpose:\*\*.*$", "", m.group(1), flags=re.IGNORECASE).strip(" -—–\t")
-        status = re.sub(r"\s{2,}", " ", status)
-        break
+        stripped = line.strip()
+
+        if status == "Unknown":
+            m_status = STATUS_RE.match(stripped)
+            if m_status:
+                status = re.sub(r"\s+\*\*Purpose:\*\*.*$", "", m_status.group(1), flags=re.IGNORECASE).strip(" -—–\t")
+                status = re.sub(r"\s{2,}", " ", status)
+
+        if version_from_header == "Unknown":
+            m_version = VERSION_META_RE.match(stripped)
+            if m_version:
+                vm = VERSION_RE.search(m_version.group(1))
+                if vm and parse_version(vm.group(0)):
+                    version_from_header = vm.group(0)
+
+        if status != "Unknown" and version_from_header != "Unknown":
+            break
 
     in_ledger = False
     versions: list[str] = []
@@ -73,6 +86,8 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
     latest_version = "Unknown"
     if versions:
         latest_version = sorted(versions, key=parse_version)[-1]
+    elif version_from_header != "Unknown":
+        latest_version = version_from_header
 
     return status or "Unknown", latest_version
 
