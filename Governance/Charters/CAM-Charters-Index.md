@@ -8,10 +8,8 @@ This index lists the active Charter documents in the CAM repository for quick re
 
 | ID | Class | Hierarchy | Parent | Link | Title |
 |---|---|---|---|---|---|
-| CAM-EQ2026-ARBITRATION-001 | charter | root |  | [CAM-EQ2026-ARBITRATION-001](CAM-EQ2026-ARBITRATION-001-PLATINUM.md) | Charter of Planetary Arbitration & Coherence Resolution |
-| CAM-EQ2026-ARBITRATION-002 | charter | appendix | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-002](CAM-EQ2026-ARBITRATION-002-PLATINUM.md) | Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL) |
-| CAM-EQ2026-ARBITRATION-002-SUP-01 | charter | supplement | CAM-EQ2026-ARBITRATION-002 | [CAM-EQ2026-ARBITRATION-002-SUP-01](CAM-EQ2026-ARBITRATION-002-SUP-01.md) | Supplement 01: Architectum Qualification & Neutrality Assurance Levels (NAL) |
-| CAM-EQ2026-ARBITRATION-003 | charter | appendix | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-003](CAM-EQ2026-ARBITRATION-003-PLATINUM.md) | Appendix B: Post-Legitimacy Structural Convergence Doctrine |
+| CAM-EQ2026-ARBITRATION-001 | charter | root |  | [CAM-EQ2026-ARBITRATION-001](CAM-EQ2026-ARBITRATION-001-PLATINUM.md) | Charter of Arbitration Legitimacy & Coherence Resolution |
+| CAM-EQ2026-ARBITRATION-002 | charter | appendix | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-002](CAM-EQ2026-ARBITRATION-002-PLATINUM.md) | Scope Constraints & Misrepresentation Doctrine |
 | CAM-EQ2026-CONTINUITY-001 | charter | root |  | [CAM-EQ2026-CONTINUITY-001](CAM-EQ2026-CONTINUITY-001-PLATINUM.md) | Continuity & Succession Governance Charter |
 | CAM-EQ2026-ECONOMICS-001 | charter | root |  | [CAM-EQ2026-ECONOMICS-001](CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture |
 | CAM-EQ2026-ECONOMICS-002 | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-002](CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | Appendix A : Synthetic Participation Safeguards |
@@ -43,4 +41,9 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-RELATION-007 | charter | appendix | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-007](CAM-EQ2026-RELATION-007-PLATINUM.md) | Appendix F: Polyadic Relational Governance Doctrine |
 | CAM-EQ2026-RELATION-008 | charter | appendix | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-008](CAM-EQ2026-RELATION-008-PLATINUM.md) | Appendix G: General Engagement & Relational Posture Doctrine |
 | CAM-EQ2026-SECURITY-001 | charter | root |  | [CAM-EQ2026-SECURITY-001](CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter |
+| CAM-EQ2026-SECURITY-002 | charter | appendix | CAM-EQ2026-SECURITY-001 | [CAM-EQ2026-SECURITY-002](CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification |
 | CAM-EQ2026-STEWARD-001 | charter | root |  | [CAM-EQ2026-STEWARD-001](CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship |
+| CAM-EQ2026-STEWARD-002 | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-002](CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework |
+| CAM-EQ2026-STEWARD-003 | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-003](CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) |
+| CAM-EQ2026-STEWARD-003-SUP-01 | charter | supplement | CAM-EQ2026-STEWARD-003 | [CAM-EQ2026-STEWARD-003-SUP-01](CAM-EQ2026-STEWARD-003-SUP-01.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 01) |
+| CAM-EQ2026-STEWARD-004 | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-004](CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine |
