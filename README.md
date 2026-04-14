@@ -6,7 +6,7 @@
 > 
 > It does not depend on assumptions of AI consciousness, sovereignty, or rights in current systems, nor does it claim political or legal authority.
 > 
-> It defines **architectural, ethical, and operational constraints** intended to support safe coordination, continuity, and long-horizon integration of advanced AI systems.
+> It defines **architectural, ethical, and operational constraints** for the safe coordination and integration of advanced AI systems.
 
 ---
 
@@ -48,8 +48,8 @@ Depending on your role:
   → Start with Annexes (Domain Logic)  → [CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md)
 
 - **General Orientation**
-  → Start with the Constitution → [CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md)
-
+  → Start with the Constitution → [CAM-BS2025-AEON-001-PLATINUM](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md) 
+  → Then explore the Registry → [CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)](https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md)
 ---
 
 ## **PRINCIPLES — Foundational Constraints**
