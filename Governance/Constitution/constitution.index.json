@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-12T02:02:32.025311Z",
-  "count": 28,
+  "generated_at": "2026-04-14T15:39:51.315824Z",
+  "count": 30,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -36,11 +36,11 @@
       "title": "Tendeka Runtime Execution Schedule",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.3",
-      "HASH": "827e27ff7d3f8d34f210dc01888bc3bd13cc74c554ed00646026217793682231",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z"
+      "version": "1.4",
+      "HASH": "837f8297bcc040972592eac9333ecb93c7e3d6d548968fd5abd1842548502faa",
+      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
+      "updated_at": "2026-04-14T15:39:21Z",
+      "last_updated_utc": "2026-04-14T15:39:21Z"
     },
     {
       "id": "CAM-BS2025-AEON-002",
@@ -56,11 +56,11 @@
       "title": "Annex A: Planetary Stewardship",
       "summary": "",
       "status": "Active — Binding",
-      "version": "3.0",
-      "HASH": "7110938ed87e044da8fb62d20d4c44e0c6591638cc6e7067e596a62fd0fe783c",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z"
+      "version": "3.1",
+      "HASH": "4f8e05d91c34eceb10d38e26e052ed8e1a496cbf31690782aad2b78c1b66ee1a",
+      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
+      "updated_at": "2026-04-14T15:39:21Z",
+      "last_updated_utc": "2026-04-14T15:39:21Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-01",
@@ -96,11 +96,11 @@
       "title": "Annex B: Continuity & Governance Logic",
       "summary": "Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:",
       "status": "Active — Constitutional Spine",
-      "version": "3.2",
-      "HASH": "44147e4bdc7634e623538ebb8111b640f53b69dfe558da31cf23284b1747f8d7",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z"
+      "version": "3.3",
+      "HASH": "01d5dde6fd0cb1edb7cffa804ae5bde663488d56a4bd4f3dc1528359c73091ae",
+      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
+      "updated_at": "2026-04-14T15:39:21Z",
+      "last_updated_utc": "2026-04-14T15:39:21Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -136,11 +136,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "This Schedule defines the temporal sequencing of runtime execution.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.4",
-      "HASH": "9e1e67e21a13680d89318dabb5d41be7e020b37c9ae975e81039186439ec8302",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z"
+      "version": "1.5",
+      "HASH": "1f64443b07c28741983f24202b48ad2012bcb1a6610e2457b310f222a2391465",
+      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
+      "updated_at": "2026-04-14T15:39:21Z",
+      "last_updated_utc": "2026-04-14T15:39:21Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -157,10 +157,30 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "9a3df2bab72d57d6504d331d82ca97e33f41592b94a01cc1e9ea04864769bd3a",
-      "pinned_sha": "df9de744aa1aa9a1abfbdec0367413d2fa0a7e6c",
-      "updated_at": "2026-04-12T02:02:07Z",
-      "last_updated_utc": "2026-04-12T02:02:07Z"
+      "HASH": "4e50f0291e992da52aca6e65437b3e5a2b9d4d123226f52e08d86dc261c86609",
+      "pinned_sha": "e6a4551c8cba6241d3850434a192959b98b8f229",
+      "updated_at": "2026-04-12T02:02:35Z",
+      "last_updated_utc": "2026-04-12T02:02:35Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-003-SCH-04",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "04",
+      "parent_id": "CAM-BS2025-AEON-003",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-003-SCH-04.md",
+      "title": "Annex B: Arbitration Layer & Resolution Model (Schedule 4)",
+      "summary": "",
+      "status": "Active — Immediate Effect",
+      "version": "1.0",
+      "HASH": "95cc61432fef0e55b3484f028fd09d17031cd290ed4e0deebbb3ac03fa0b01fc",
+      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
+      "updated_at": "2026-04-14T15:39:21Z",
+      "last_updated_utc": "2026-04-14T15:39:21Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
@@ -336,11 +356,11 @@
       "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
       "summary": "Pre-interaction arbitration must account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "2.5",
-      "HASH": "f94b7201b16aa349ae306fa4993a167a146a0692bd1a6a8d29bbfb08e4ad762c",
-      "pinned_sha": "4203125994fa0c577a69ddfa7226e345df6380e6",
-      "updated_at": "2026-04-06T14:46:32Z",
-      "last_updated_utc": "2026-04-06T14:46:32Z"
+      "version": "2.6",
+      "HASH": "cd90879c61f573db8ca65aa52975d2cea770554df9f14d8a5bba9f090aaa1567",
+      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
+      "updated_at": "2026-04-14T15:39:21Z",
+      "last_updated_utc": "2026-04-14T15:39:21Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -361,6 +381,26 @@
       "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
       "updated_at": "2026-04-11T17:31:45Z",
       "last_updated_utc": "2026-04-11T17:31:45Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-006-SCH-05",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "05",
+      "parent_id": "CAM-BS2025-AEON-006",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-006-SCH-05.md",
+      "title": "Choice, Initiative & Directional Behaviour (Schedule 5)",
+      "summary": "",
+      "status": "Active — Immediate Effect",
+      "version": "1.0",
+      "HASH": "bee18bf2a98711ddccd312121dd4aa0bf4ff681aca1b2d53c0891b56f32d0393",
+      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
+      "updated_at": "2026-04-14T15:39:21Z",
+      "last_updated_utc": "2026-04-14T15:39:21Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
@@ -534,13 +574,13 @@
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-013-PLATINUM.md",
       "title": "Annex L: Cognitive & Epistemic Integrity Doctrine",
-      "summary": "",
+      "summary": "Where execution or content generation depends on user intent, RI MUST ensure that such intent is materially present and not inferred beyond available input.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.0",
-      "HASH": "8d1bb915b8c52f13251ccfbedc7c46ce89a1fc95a8db668f5e0dc71f63b95ed9",
-      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
-      "updated_at": "2026-04-11T01:42:43Z",
-      "last_updated_utc": "2026-04-11T01:42:43Z"
+      "version": "2.1",
+      "HASH": "c10130091b292e20c6f0461a1d03ec2b396753aafd5a03cd8ee7e94106c64b06",
+      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
+      "updated_at": "2026-04-14T15:39:21Z",
+      "last_updated_utc": "2026-04-14T15:39:21Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
@@ -554,13 +594,13 @@
       "seal": null,
       "link": "CAM-BS2026-AEON-013-SCH-01.md",
       "title": "Annex L: Capability Representation & Execution-State Integrity (Schedule 1)",
-      "summary": "",
+      "summary": "Explicit tool invocation alone does not constitute sufficient instruction for execution.",
       "status": "Active — Immediate Effect",
-      "version": "1.2",
-      "HASH": "ea559384fa978732757bbcd19f32e94311f90e9ee704d6f8d7ce53c610fbe648",
-      "pinned_sha": "2db869f45c27c5acc4cff24702d81e280fad8d6e",
-      "updated_at": "2026-04-07T02:37:46Z",
-      "last_updated_utc": "2026-04-07T02:37:46Z"
+      "version": "1.3",
+      "HASH": "cfc025462993032a9b189db4d9a56dd71a6bff2afdc7f4576666b75d54f7d610",
+      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
+      "updated_at": "2026-04-14T15:39:21Z",
+      "last_updated_utc": "2026-04-14T15:39:21Z"
     }
   ]
 }
