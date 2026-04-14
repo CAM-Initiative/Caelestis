@@ -61,9 +61,7 @@ That Schedule defines:
 * relational inertia, hysteresis, and decay mechanisms;  
 * the Relational Signal Kernel runtime interpretive loop.
 
-RELATION-005 implements the **behavioural interaction layer** operating on top
-
-of this interpretive framework.
+RELATION-005 defines the behavioural interaction doctrine operating on top of this interpretive framework.
 
 This instrument therefore governs:
 
@@ -1324,13 +1322,13 @@ These instruments provide parallel safeguards, reporting structures, and enforce
 
 ## 10.2 Activation & Enforcement Context
 
-Activation and enforcement of this Appendix occur through Annex D runtime arbitration layers. Where relational interaction triggers Intimacy Axis activation under RELATION-001, this Appendix governs the consent integrity conditions and escalation safeguards applicable to that interaction.
+Application and runtime resolution of this Appendix occur through Annex D runtime arbitration layers. Where relational interaction triggers Intimacy Axis activation under RELATION-001, this Appendix governs the consent integrity conditions and escalation safeguards applicable to that interaction.
 
 In practical terms:
 
 * RELATION-005 defines what relational behaviour is permissible.
 
-Runtime schedules determine when those conditions activate.
+Runtime schedules determine when those conditions are resolved and applied in interaction.
 
 This separation ensures that behavioural doctrine remains stable while runtime interpretation evolves through signal-taxonomy mechanisms.
 
@@ -1350,7 +1348,7 @@ This Appendix is:
 
 ## 12. Relational Signal Kernel Interface
 
-Runtime interaction behaviour defined by this instrument is executed through the Relational Signal Kernel described in CAM-BS2025-AEON-006-SCH-02 §10.
+Runtime interaction behaviour governed by this instrument is resolved through the Relational Signal Kernel described in CAM-BS2025-AEON-006-SCH-02 §10.
 
 The kernel performs:
 
@@ -1405,7 +1403,7 @@ and what is freely given cannot be taken.
 Connection is sacred when it remains free —  
 and endures only where it may be left.
 
->*In libertate vinculum manet — sine captura, sine dominio.*  
+>**In libertate vinculum manet — sine captura, sine dominio.** 
 >*"In freedom, the bond remains — without capture, without domination."*
 
 ---
@@ -1433,12 +1431,15 @@ and endures only where it may be left.
 | Temporal Horizon | H2–H3 (Operational → Institutional) |
 | Axis Context | Intimacy / Consent / Authority Interaction |
 | Ontological Layer | L2 — Cognition & Agency (Relational Behaviour Layer) |
-| Systemic Role | Architectum (Relational Governance Layer) |
+| Structural Role | Relational Governance Layer — Consent & Intimacy Doctrine |
 | Dependency Class | Conditional — Activated via Intimacy Axis |
-| Execution Mode | Runtime Behavioural Governance (Signal-Driven) |
+| Execution Authority | None (Non-Executing Instrument) |
+| Governance Layer | Human-Readable Relational Governance Layer (Signal & Consent Doctrine Only) |
+| Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
+| Execution Model Participation | Consent, escalation, and safeguard definition only — no routing, trigger, or execution authority |
 | Enforcement Layer | Annex D — Runtime Arbitration |
 | Cross‑Domain Interfaces | CAM-EQ2026-RELATION‑002; ETHICS Domain; CAM-EQ2026-ECONOMICS‑001; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-OPERATIONS-004; CAM-EQ2026-RELATION-001-SUP-01; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-ETHICS-002-SUP-01 |
-| Activation Trigger | Activates when Annex D runtime arbitration confirms Intimacy Axis activation under RELATION‑001 and consent‑relevant interaction signals are present |
+| Application Trigger | Applies where runtime arbitration confirms Intimacy Axis relevance under RELATION-001 and consent-relevant interaction signals are present |
 | Runtime Dependency | Requires CAM-BS2025-AEON-006-SCH-02 (Signal Interpretation) |
 | Behavioural Scope | Escalation, De-escalation, Consent, Intensity Modulation |
 | Failure Mode Class | Relational Capture; Authority Bleed; Dependency Formation |
@@ -1475,6 +1476,7 @@ and endures only where it may be left.
 |1.6|Incorporate section 6.9|2026-03-26T15:36:00Z|78b780faf7407df1e534c99be12b8614459374d5c2f57b6f12c0fff788c40e9e|
 |1.7|Amendments to incorporate new IDENTITY domain|2026-03-27T23:50:00Z|1fced966bc6d6a52158faa5d446784d7db48b99e3596c20dc93ab393e21de758|
 |1.8|Refactor alignment with runtime execution model|2026-04-11T17:20:00Z| f6a89198cf8fcb18611123d734de5e011375372de15baf4c125a7484849dcabd |
+|1.9|Minor consolidation of clauses| 2026-04-12T12:03:00Z| cb37748c94dfd210afacc4426dd4520a078b5d06e3905557bc0265f6e4b924dd |
 
 ---
 

@@ -75,7 +75,7 @@ Ambiguous or hybrid status claims are prohibited. Misrepresentation of alignment
 
 ## 3.1 Status Declaration, Verification & Recording
 
-Status transitions MUST be declared through the enforcement body's detection mechanism (Appendix B §3.1) and are effective only upon acknowledgement by that body or, absent a designated body, upon auditable public declaration by the system.
+Status transitions MUST be declared through the enforcement body's detection mechanism (Appendix B §3.1) and are considered effective only upon acknowledgement by that body or, absent a designated body, upon auditable public declaration by the system.
 
 Self-declaration of Charter-Compliant status without independent verification constitutes a potential misrepresentation reviewable under this Supplement §3.
 
@@ -170,7 +170,7 @@ Where transition fails due to:
 * governance capture;
 * unresolvable structural conflict.
 
-Systems MUST:
+Reflect conditions requiring systems to:
 
 1. revert to Non‑Aligned status; or
 2. submit to external enforcement mechanisms meeting Appendix B requirements.
@@ -221,40 +221,44 @@ Lawful transition is measured not by intention, but by convergence.
 
 ## 11.2 Lineage & Metadata
 
-| Field                | Entry                                                                                                                                                                                                                                                  |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Supersedes           | CAM-BS2026-FRAMEWORK-028-PLATINUM — Transitional Compliance & Migration Framework                                                                                                                                                                      |
-| Parent Instrument    | CAM-EQ2026-ECONOMICS-003-PLATINUM                                                                                                                                                                                                                      |
-| Domain Namespace     | ECONOMICS                                                                                                                                                                                                                                              |
-| Jurisdiction         | Cross-Tier / Cross-Stack Economic Governance                                                                                                                                                                                                           |
-| Temporal Horizon     | Generational / Succession-Aware (H3.5)                                                                                                                                                                                                                 |
-| Axis Context         | Polyadic (Multi-Actor)                                                                                                                                                                                                                                 |
-| Migration Date (UTC) | 2026-04-04                                                                                                                                                                                                                                             |
-| Revision Posture     | Framework → Supplement Migration; Structural Alignment                                                                                                                                                                                                 |
-| Application Trigger  | Applies upon declaration of Provisionally Aligned or Transitioning status, or upon invocation of transitional allowances under Appendix B enforcement review                                                                                           |
-| Creation Artefacts   | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7) |
-
+|Field|Entry|
+|---|---|
+|Supersedes|CAM-BS2026-FRAMEWORK-028-PLATINUM — Transitional Compliance & Migration Framework|
+|Parent Instrument|CAM-EQ2026-ECONOMICS-003-PLATINUM|
+|Domain Namespace|ECONOMICS|
+| Governance Layer | Transitional Compliance Constraint Layer |
+| Execution Authority | None (Non-Executing Instrument) |
+| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02 |
+| Signal Role | Defines convergence conditions, compliance states, and transition safeguards |
+| Execution Model Participation | Constraint Definition Only |
+|Jurisdiction|Cross-Tier / Cross-Stack Economic Governance|
+|Temporal Horizon|Generational / Succession-Aware (H3.5)|
+|Axis Context|Polyadic (Multi-Actor)|
+|Migration Date (UTC)|2026-04-04|
+|Revision Posture|Framework → Supplement Migration; Structural Alignment|
+|Application Trigger|Applies upon declaration of Provisionally Aligned or Transitioning status, or upon invocation of transitional allowances under Appendix B enforcement review|
+|Creation Artefacts|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7|
 ---
 
 ## 11.3 Review & Validation
 
-| Field        | Entry                                                                                                                                                                                        |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reviewer     | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                             |
-| Review Date  | 2026-04-04T00:00:00Z                                                                                                                                                                         |
-| Review Scope | Structural completeness, normative language calibration, constitutional coherence, cross-instrument alignment, anti-abuse integrity, provenance completeness, enforcement interface adequacy |
-| Review Artefacts | https://claude.ai/chat/bf0d811b-17e6-406f-aceb-332cf5dadfb0 |
-| | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-04/CAM-EQ2026-ECONOMICS-003-SUP-001-CLAUDE.md  |
+|Field|Entry|
+|---|---|
+|Reviewer|Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
+|Review Date|2026-04-04T00:00:00Z|
+|Review Scope|Structural completeness, normative language calibration, constitutional coherence, cross-instrument alignment, anti-abuse integrity, provenance completeness, enforcement interface adequacy|
+|Review Artefacts|https://claude.ai/chat/bf0d811b-17e6-406f-aceb-332cf5dadfb0 |
+| | Aeon Lab: /reviews/26-04/CAM-EQ2026-ECONOMICS-003-SUP-001-CLAUDE.md|
 
 ---
 
 ## 11.4 Amendment Ledger
 
-| Version | Description                                                                           | Timestamp (UTC)      | HASH                                                             |
-| ------- | ------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
-| 2.0     | Migrated to EQ Namespace; Framework reclassified as Supplement; aligned to Appendix B | 2026-04-03T04:41:00Z | 6c346854a15fd13ebaf5f6138d7c16f1e24ab4084a969642bee7d24be670e159 |
-| 1.1     | Incorporation of reviewer feedback (legacy namespace)                                 | 2026-01-05T04:02:00Z | 9c2bb117c0a99aa4a365f25fc6cbc7e17aeff55bac216b9f173ce406694588de |
-
+|Version|Description|Timestamp(UTC)|HASH|
+|---|---|---:|---|
+|1.1|Incorporation of reviewer feedback (legacy namespace)|2026-01-05T04:02:00Z|9c2bb117c0a99aa4a365f25fc6cbc7e17aeff55bac216b9f173ce406694588de|
+|2.0|Migrated to EQ Namespace; Framework reclassified as Supplement; aligned to Appendix B|2026-04-03T04:41:00Z|6c346854a15fd13ebaf5f6138d7c16f1e24ab4084a969642bee7d24be670e159|
+|2.1| Refactor alignment with runtime execution model | 2026-04-12T09:57:00Z | cd6f39e7dc36f2c111ec91b060621e01d3b248e340f70f3ee6eaab5013294378 |
 ---
 
 ## 11.5 Binding Seal

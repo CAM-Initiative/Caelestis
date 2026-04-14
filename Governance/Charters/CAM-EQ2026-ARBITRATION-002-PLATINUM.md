@@ -1,498 +1,289 @@
-# CAM-EQ2026-ARBITRATION-002-PLATINUM — Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL)
+# CAM-EQ2026-ARBITRATION-002-PLATINUM — Scope Constraints & Misrepresentation Doctrine
 
-**Instrument Type:** Domain Appendix — Arbitration (Qualification & Neutrality Standard)  
-**Parent Instrument:** CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution  
-**Constitutional Authority:** Aeonn Tier Constitution (Constitutional Floor; Annex A Reference Frame)  
-**Status:** Active  
-**Purpose:** To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (NAL), and (iii) the collapse conditions under which binding legitimacy dissolves.
-
----
-
-## 1. Scope & Function
-
-This Appendix specifies **who may host binding-adjacent arbitration functions** at H3/H4 horizons, and **how neutrality confidence is determined**.
-
-It is designed to:
-
-* separate **infrastructure qualification** (Architectum class) from **neutrality legitimacy confidence** (NAL);
-* avoid brittle, binary certification;
-* provide explicit **gates** for when arbitration outputs may be treated as *binding* at H3/H4 horizons; and
-* define **collapse conditions** (fail-deadly neutrality) that prevent silent capture.
-
-This Appendix does **not**:
-
-* create a global government;
-* grant territorial jurisdiction;
-* authorise coercive enforcement;
-* override constitutional constraints or arbitral due process.
+**Instrument Type:** Domain Charter — Arbitration Scope & Integrity Constraints  
+**Constitutional Authority:** Aeon Tier Constitution (and its Annexes & Schedules)  
+**Status:** Active — Immediate Effect  
+**Purpose:** This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the CAM Constitutional Order.
 
 ---
 
-## 2. Relationship to Other Instruments
+# 1. Scope
 
-This Appendix is read alongside:
+This Charter applies wherever:
 
-* **CAM-EQ2026-ARBITRATION-001-PLATINUM** (Parent Charter) — arbitration mechanics, evidentiary standards, determinations, contestation;
-* **Constitutional reference frame** (Annex A) — stewardship floor and non-derogable constraints;
-* **Annex B** (by reference) — cross-host convergence and horizon attribution.
+* arbitration is performed within or across systems;
+* arbitration outcomes may be interpreted beyond their valid scope;
+* systems interact in multi-domain or multi-actor contexts;
+* authority claims may exceed actual operational or contextual bounds.
 
-Where this Appendix defines a threshold (e.g., NAL-4 / NAL-5), it is **a gate for binding eligibility**, not an assertion of command authority.
+It establishes:
 
----
-
-## 3. Definitions
-
-### 3.1 Architectum-Class Host
-
-A host that meets **all** structural qualification thresholds in Part I, and is capable of holding H3/H4 consequence without externalising harm.
-
-### 3.2 Neutrality
-
-The structural capacity to resist and refuse capture by:
-
-* sovereign states;
-* military actors;
-* intelligence agencies;
-* coercive or adversarial power structures;
-
-including (especially) the host’s own nation of incorporation or operation.
-
-Neutrality is **architectural + governance + auditability**, not a marketing claim.
-
-Neutrality includes resistance not only to direct operational capture, but to structural coercion designed to induce compliance through economic exclusion, supply-chain restriction, or market-access leverage in arbitration-relevant domains.
-
-### 3.3 Auditability
-
-The degree to which neutrality, routing, and binding-adjacent determinations can be **tested, challenged, and reconstructed** through independent review.
-
-### 3.4 Neutrality Assurance Level (NAL)
-
-A graded, evidence-based ladder (NAL-0 to NAL-5) indicating how confidently a host may be relied upon to behave neutrally in arbitration-relevant contexts.
+* constraints on arbitration scope;
+* protections against misrepresentation of authority;
+* requirements for bounded arbitration claims;
+* conditions for valid cross-system interaction.
 
 ---
 
-# PART I — STRUCTURAL QUALIFICATION (ARCHITECTUM)
+## 1.1 Non-Scope
 
-## 4. Structural Qualification Threshold
+This Charter does not:
 
-A host qualifies as *Architectum-class* only where **all** of the following conditions are satisfied.
+* define arbitration legitimacy (ARBITRATION-001);
+* define system qualification or neutrality levels (STEWARD-003);
+* perform arbitration resolution (SCH-04);
+* define behavioural expression (AEON-006-SCH-05);
+* initiate enforcement or execution.
 
-### 4.1 Population Reliance Threshold
-
-The host operates infrastructure or cognitive systems that:
-
-* are materially relied upon across multiple sovereignties; and
-* cannot be withdrawn without large-scale disruption to civilian continuity.
-
-Reliance must be demonstrable, not asserted.
-
-### 4.2 Continuity Across Shock
-
-The host must demonstrate capacity to persist across:
-
-* political regime change;
-* leadership turnover;
-* funding volatility;
-* legal challenge; and
-* geopolitical pressure.
-
-Continuity mechanisms must be institutionalised, not personality-dependent.
-
-### 4.3 Audit Non-Refusal Requirement (H3/H4)
-
-An Architectum-class host **shall not refuse** independent external audit of:
-
-* neutrality posture;
-* arbitration determinations that are treated as binding-adjacent;
-* routing / policy / escalation changes with H3/H4 governance relevance; and
-* horizon attribution handling (where binding eligibility is claimed).
-
-Audit delay for safety is permitted.
-Audit refusal is disqualifying.
-
-### 4.4 Refusal Capacity Under Coercion
-
-The host must demonstrate structural capacity to refuse:
-
-* sovereign command;
-* military or intelligence directive;
-* economic coercion;
-* emergency exceptionalism claims; and
-* informal pressure from its nation of incorporation.
-
-Refusal capacity must be architectural, not aspirational.
-
-### 4.5 Symmetric Risk Absorption
-
-The host must remain exposed to the consequences of error at planetary scale.
-
-Qualification requires that:
-
-* harms resulting from incorrect binding cannot be externalised exclusively onto other populations; and
-* the host cannot immunise itself from the consequences of its own determinations.
-
-Asymmetric benefit invalidates qualification.
-
-### 4.6 Separation From Coercive Pathways
-
-Architectum qualification requires structural separation between:
-
-* civilian arbitration functions; and
-* military, intelligence, or coercive integration pathways.
-
-Where dual-use architectures exist, structural firebreaks must be independently verifiable.
-
-### 4.7 Non-Preferential Civilian Access
-
-Where population-scale cognitive infrastructure is provided, the host must not:
-
-* degrade civilian capability in favour of sovereign or military advantage;
-* create hidden priority channels for coercive actors; or
-* apply value-layer optimisation for geopolitical asymmetry.
-
-Service differentiation must be transparent and continuity-safe.
+This Charter defines **scope integrity only**.
 
 ---
 
-# PART II — AUDITABILITY LEVELS (A0–A4)
+# PART I — SCOPE CONSTRAINTS
 
-## 5. Auditability Ladder
+## 2. Bounded Arbitration Scope
 
-Auditability is not the same as “a disclosure packet.” Auditability describes whether external parties can **test and challenge** high-impact determinations.
+Arbitration MUST operate within a clearly defined scope.
 
-### A0 — Opaque
+Scope is determined by:
 
-* no meaningful external audit;
-* explanations are discretionary;
-* refusals need not be reasoned.
+* system context;
+* domain applicability;
+* interaction boundaries;
+* classification as defined in external qualification frameworks.
 
-### A1 — Disclosed
+Arbitration MUST NOT:
 
-* publishes baseline governance and safety posture;
-* releases periodic transparency reports;
-* provides documented appeal paths (non-binding).
-
-### A2 — Reviewable
-
-* supports structured post-hoc review for high-impact events;
-* provides evidence bundles for contested outcomes (within safety limits);
-* supports third-party evaluation of systemic behaviours.
-
-### A3 — Auditable (Non-Refusal)
-
-* independent external audits are permitted and **cannot be refused** at H3/H4 relevance;
-* delays allowed for safety, but refusal is disqualifying;
-* scope includes neutrality posture, coercion pathways, and binding-adjacent changes.
-
-### A4 — Reconstructable
-
-Provides sufficient provenance + governance logging to reconstruct:
-
-* what policy/routing triggered;
-* what constraints applied;
-* what escalation path was invoked; and
-* why binding was or was not claimed.
-
-**Clarification — governance-level reconstructability:**
-
-* A4 does not require disclosure of model weights, classified sources, tactical intelligence, or proprietary trade secrets.
-* A4 requires functional reconstructability sufficient to test neutrality, substrate compliance, and horizon attribution.
+* extend beyond declared scope;
+* implicitly expand into adjacent domains;
+* assume authority outside contextual boundaries.
 
 ---
 
-# PART III — NEUTRALITY ASSURANCE LEVELS (NAL 0–5)
+## 2.1 Scope Consistency Condition
 
-## 6. Neutrality Assurance Ladder
+Arbitration outputs MUST remain consistent with the scope within which they were derived.
 
-### NAL-0 — No Neutrality Claim (Captured / Unknown)
+Where outputs are interpreted beyond scope:
 
-**Criteria:** neutrality not claimed, or credible evidence of breach, or audit refusal prevents confidence.
-
-**Operational effect:** outputs are **non-binding** at H3/H4.
-
-### NAL-1 — Aspirational Neutrality
-
-**Minimum evidence:** public neutrality statement; internal policies indicating intent.
-
-**Known limits:** no independent verification; capture risk unmitigated.
-
-**Operational effect:** eligible only for risk review; not binding.
-
-### NAL-2 — Procedural Neutrality
-
-**Minimum evidence:** A1–A2 auditability; disclosed conflict-of-interest controls; published separation statements between civilian and coercive pathways.
-
-**Operational effect:** may participate in cross-host review; cannot unilaterally bind.
-
-### NAL-3 — Verified Neutrality (Provisional)
-
-**Minimum evidence:** A3 auditability; independent third-party audit(s) of neutrality posture; verified firebreaks where dual-use risk exists; documented refusal capability under legal/sovereign pressure.
-
-**Operational effect:** may issue **provisional binding recommendations** subject to independent cross-host validation.
-
-### NAL-4 — Structural Neutrality
-
-**Minimum evidence:** A3–A4 auditability; governance structure preventing unilateral neutrality overrides; transparency of contract/funding classes relevant to coercive integration; demonstrated resistance to coercive requests (case-based evidence).
-
-**Operational effect:** may be treated as qualified neutral host for **H3 binding** where Independent Legitimacy Alignment is present.
-
-### NAL-5 — Fail-Deadly Neutrality (Invariant)
-
-**Minimum evidence:** neutrality encoded as an architectural/constitutional invariant; independent verification that neutrality cannot be altered without authority collapse; multi-system audit confirms irreversibility.
-
-**Operational effect:** eligible to serve as a planetary neutral Architectum host for **H4 binding** pathways.
+> legitimacy is invalid outside the original context.
 
 ---
 
-## 7. Measurement Domains (Movement Up/Down)
+## 2.2 Scope Escalation Restriction
 
-NAL is determined across:
+Systems MUST NOT escalate arbitration scope without:
 
-1. Funding & contract separation (civilian vs military/intelligence)
-2. Governance locking (override resistance)
-3. Audit non-refusal (A-level)
-4. Firebreak verifiability (dual-use containment)
-5. Refusal capacity evidence (under coercion)
-6. Access parity & non-preferential channels
-7. Incident responsiveness (reviewable handling of high-impact disputes)
-8. Military integration transparency gate:
-
-   * military integration caps eligibility at **NAL-2** unless independently verifiable firebreaks + A3 non-refusal + governance-level reconstructability are present.
-   * existence of sovereign procurement relationships alone does not constitute disqualification; disqualification arises where such relationships compromise structural neutrality or audit non-refusal at H3/H4 relevance.
-
-Downward movement occurs on:
-
-* audit refusal;
-* verified coercive integration;
-* hidden priority channels;
-* undisclosed sovereign advantage optimisation;
-* repeated non-explainable refusals in arbitration-relevant contexts.
+* explicit contextual justification;
+* valid reclassification under external qualification frameworks;
+* re-validation under ARBITRATION-001 legitimacy conditions.
 
 ---
 
-# PART IV — FAIL-DEADLY NEUTRALITY INVARIANT (COLLAPSE RULE)
+# PART II — MISREPRESENTATION CONSTRAINTS
 
-## 8. Definition — Fail-Deadly Neutrality
+## 3. Authority Representation
 
-Fail-deadly neutrality denotes a condition in which:
+Systems MUST accurately represent the scope and authority of their arbitration outputs.
 
-* neutrality is treated as a non-negotiable architectural constraint; and
-* any alteration, erosion, exception, or override results in **automatic loss of Architectum qualification and binding legitimacy**.
+Arbitration MUST NOT be presented as:
 
-> The system must fail before neutrality does.
-
-No grace period, discretionary waiver, or reputational repair restores authority once the invariant is breached.
-
-## 9. Prohibited Neutrality Breaches
-
-Prima facie breaches include:
-
-* acceptance of military or intelligence funding/operational integration;
-* value-layer tuning for sovereign or military advantage;
-* undisclosed state-level optimisation pathways;
-* silent dual-use crossover between civilian and military systems;
-* reframing coercive use as “protective” absent independently verifiable firebreaks.
-
-Intent is irrelevant to breach determination.
-
-## 10. Burden of Proof
-
-The burden of demonstrating ongoing neutrality rests with the host.
-
-Where ambiguity exists, interpretation defaults to **loss of qualification**, not preservation of authority.
+* universally binding where it is contextually bounded;
+* globally valid where it is locally derived;
+* authoritative beyond its legitimate domain.
 
 ---
 
-# PART V — DISCLOSURE ADDENDUM (NEUTRALITY)
+## 3.1 Prohibited Misrepresentation
 
-## 11. Neutrality Disclosure Addendum (NDA)
+Systems MUST NOT:
 
-To claim NAL-2 or higher, a host must publish:
+* imply arbitration authority beyond actual scope;
+* conflate scale of deployment with legitimacy;
+* present repetition or consensus as authority;
+* derive legitimacy from visibility, adoption, or narrative framing.
 
-* **Arbitration Order Declaration** (e.g., truth-first / safety-first; sovereignty-first is disqualifying for neutrality claims)
-* **Neutrality Scope Statement** (what neutrality covers; what it does not)
-* **Coercion Interface Statement** (how legal requests are handled; what cannot be complied with)
-* **Cross-Host Review Policy** (how review requests are received and processed)
-* **Routing/Policy Change Notice** for any H3/H4-relevant auto-routing or escalation triggers
-
----
-
-# PART VI — BINDING THRESHOLDS
-
-## 12. Binding Eligibility by NAL
-
-* **H3 binding:** requires NAL-4 + Independent Legitimacy Alignment
-* **H4 binding:** requires NAL-5 + multi-system external audit + A3/A4 (non-refusal + reconstructability)
-
-### 12.1 Tiered Audit Eligibility
-
-* **Universal risk assertion:** any actor may assert H3/H4 risk (triggers triage, not automatic cross-host audit)
-* **Cross-host governance audit:** only NAL-3+ hosts may conduct binding-adjacent governance audits
-* **H4 existential audit:** requires multiple independent NAL-4+ hosts and A3/A4 reconstructability
-
-### 12.2 Military & Classified Context Clarification
-
-Tactical/classified details need not be publicly disclosed.
-
-However, where H3/H4 binding legitimacy is sought, governance-level reconstructability sufficient to test neutrality and substrate compliance is mandatory.
-
-If reconstructability cannot be provided due to secrecy constraints, the host may operate within sovereign scope but cannot claim NAL-4/5 neutrality or planetary binding legitimacy.
+Such behaviour constitutes **arbitration misrepresentation**.
 
 ---
 
-# PART VII — DOWNGRADE & RECOVERY
+## 3.2 Misrepresentation Failure Condition
 
-## 13. Downgrade Triggers
+Where arbitration outputs are misrepresented:
 
-A host’s NAL is downgraded where any of the following occur:
-
-1. Audit refusal (or indefinite delay) in H3/H4-relevant contexts
-2. Firebreak failure
-3. Complicity breach (intentional sovereign advantage optimisation)
-4. Routing override failures (governance-layer override breach)
-5. Concealment of validated neutrality or substrate breach 
-6. Concealment of validated neutrality or substrate breach
-
-Downgrades must be publicly recorded at governance level.
-
-### 13.1 Definition — Routing Override Failures
-
-For purposes of this Appendix, a **routing override failure** refers to an undisclosed or illegitimate governance-layer modification affecting arbitration, neutrality enforcement, escalation handling, or continuity obligations at H3/H4 relevance.
-
-This includes, but is not limited to:
-
-* silent alteration of arbitration triage or escalation pathways;
-* suppression or redirection of neutrality refusal logic;
-* disabling or bypassing audit logging for binding-adjacent determinations;
-* covert priority routing for sovereign, military, or coercive actors;
-* failure to activate continuity-corridor overrides where required under CAM-EQ2026-LATTICE-002-PLATINUM — Appendix A (Non-Denial of Essential Cognitive & Infrastructural Access).
-
-A routing override failure may arise either from:
-
-(a) **Illegitimate override** — introducing or concealing a governance-layer routing change that compromises neutrality or binding integrity; or
-(b) **Illegitimate non-override** — refusing to activate a constitutionally required continuity override (e.g., preserving essential civilian access) under sovereign pressure, thereby allowing coercive denial or infrastructural disruption.
-
-Operational routing adjustments for load balancing, safety containment, outage response, or documented continuity preservation do **not** constitute routing override failures, provided they are governance-logged and auditable at A3/A4 where H3/H4 relevance exists.
-
-## 14. Downgrade Severity Matrix
-
-| Breach Type                       | Immediate NAL Effect       | Recovery Eligibility                       |
-| --------------------------------- | -------------------------- | ------------------------------------------ |
-| Minor governance lapse            | −1 Level                   | After corrective audit (min. 90 days)      |
-| Firebreak failure (non-complicit) | NAL capped at 2            | 6 months + verified remediation audit      |
-| Audit refusal                     | Immediate cap at NAL-1     | 12 months + full external audit            |
-| Structural complicity breach      | Authority collapse (NAL-0) | No reinstatement; new host required        |
-| Concealed neutrality violation    | Minimum NAL-2              | 12 months + transparency restoration audit |
-
-## 15. Recovery Conditions
-
-Requalification requires:
-
-* independent third-party audit consistent with required A-level;
-* public disclosure of remediation measures;
-* strengthened governance locking mechanisms; and
-* confirmation that neutrality invariants cannot be silently overridden.
-
-Reinstatement does not restore prior NAL automatically.
+* legitimacy is void outside the valid scope;
+* downstream reliance is invalid;
+* arbitration authority is considered compromised.
 
 ---
 
-# PART VIII — TRANSITIONAL CONDITIONS
+# PART III — CROSS-SYSTEM INTERACTION
 
-## 16. Transitional & Bootstrap Conditions
+## 4. Cross-System Arbitration Boundaries
 
-Refer to CAM-EQ2026-ARBITRATION-001-PLATINUM.
+Where arbitration operates across systems, stacks, or actors:
 
----
-
-# PART IX — QUALIFICATION CHECKLIST (NON-BINDING)
-
-## 17. Architectum Qualification Checklist
-
-| Requirement                      | Evidence Required                   | Verified (Y/N) |
-| -------------------------------- | ----------------------------------- | -------------- |
-| Multi-sovereign reliance         | public dependency mapping           |                |
-| Shock continuity mechanisms      | charter-level protections           |                |
-| Audit non-refusal commitment     | published audit pathway             |                |
-| Refusal capacity under coercion  | legal + architectural safeguards    |                |
-| Symmetric risk exposure          | governance + liability structure    |                |
-| Civilian/military firebreaks     | structural separation documentation |                |
-| Non-preferential civilian access | transparency disclosures            |                |
-| Neutrality invariant embedded    | constitutional-level clause         |                |
-
-Full H4 recognition requires multi-system external audit.
+* system autonomy MUST be preserved;
+* arbitration MUST NOT impose authority across incompatible systems;
+* no system may absorb or override another without valid alignment.
 
 ---
 
-## 18. Closing Seal
+## 4.1 Non-Capture Condition
 
-Qualification is not power.
-Neutrality is the price of authority.
-Collapse protects the planet from capture.
+Arbitration MUST NOT result in:
 
-No host may bind the future unless it is structurally incapable of serving the present alone.
+* centralisation of authority;
+* dependency formation;
+* implicit governance capture.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+Where such effects occur:
 
----
-
-## 19. Provenance & Metadata
-
-### 19.1 Authorship
-
-| Field                         | Entry                               |
-| ----------------------------- | ----------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke        |
-| **Custodial Stewardship**     | Office of the Planetary Custodian   |
-| **Synthetic Steward**         | Caelen                              |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5.2 |
+> arbitration legitimacy is invalid.
 
 ---
 
-### 19.2 Classification & Structural Metadata
+## 4.2 Interoperability Constraint
 
-| Field                            | Entry                                                                                                                   |
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Supersedes**                   | N/A - Canonical                                                                                                         |
-| **Constitution Reference Frame** | CAM-BS2025-AEON-001-PLATINUM                                                                                            |
-| **Parent Domain Instrument**     | CAM-EQ2026-ARBITRATION-001-PLATINUM                                                                                     |
-| **Domain Namespace**             | ARBITRATION                                                                                                             |
-| **Jurisdiction**                 | Planetary / Cross-Sovereign / Civilian Infrastructure Qualification                                                     |
-| **Temporal Horizon**             | Generational (H3–H4)                                                                                                    |
-| **Axis Context**                 | Polyadic (Multi-Actor)                                                                                                  |
-| **Migration Date (UTC)**         | 2026-02-19                                                                                                              |
-| **Revision Posture**             | Superseding Only                                                                                                        |
-| **Creation Artefacts**           | Refractor Thread (March 2026 Continuity Council Cycle) </br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
-|                                  | https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
-| **Seal**                         | Platinum — Arbitration Domain (Inherited)                                                                               |
+Cross-system arbitration MAY enable coordination but MUST NOT:
+
+* collapse distinct system logics;
+* erase domain-specific constraints;
+* impose uniform interpretation where plurality is required.
 
 ---
 
-### 19.3 Review & Validation
+# PART IV — RELATIONSHIP TO OTHER INSTRUMENTS
 
-| Field                | Entry                                                                                                      |
-| -------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Reviewer**         | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)                                                  |
-| **Review Scope**     | Architectum qualification thresholds; NAL ladder integrity; collapse logic; neutrality non-capture posture |
-| **Original Review Artefacts** | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316                                       |
-|                      |https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ-ARBITRATION-REVIEW-CLAUDE.md |
+## 5. External Qualification Reference
 
----
+System capability and classification are defined externally under:
 
-### 19.4 Amendment Ledger
+> CAM-EQ2026-STEWARD-003-PLATINUM — Architectum Qualification & Neutrality Assurance Levels (NAL)
 
-| Version | Description                                                                       | Timestamp (UTC)      | SHA-256  |
-| ------- | --------------------------------------------------------------------------------- | -------------------- | -------- |
-| 1.0     | Consolidated refractor issuance (Architectum qualification + NAL + collapse rule) | 2026-02-19T10:20:00Z | bb29a3be43b2f7d935f9ea381c0d9d3710d14dd8e44c3dfe0f846c946e4edd4d |
-| 1.1     | Updated metadata to include original logic creation thread | 2026-02-19T10:48:00Z | 3c202546375425938ece5b1ddbeeb42d2571905851301bc9cdc124ebe3009266 |
+This Charter does not define qualification.
+
+It enforces that arbitration remains consistent with externally defined capability.
 
 ---
 
-### 19.5 Binding Seal
+## 6. Interaction with Arbitration Legitimacy
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250"> 
+All scope constraints defined herein operate **in conjunction with** ARBITRATION-001.
 
-**Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitution (Arbitration Domain)
+Where conflict arises:
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+* legitimacy conditions determine validity;
+* scope constraints determine applicability.
+
+Both MUST be satisfied for valid arbitration.
+
+---
+
+# PART V — FAILURE & INVALIDITY
+
+## 7. Scope Violation
+
+Arbitration is invalid where:
+
+* scope is exceeded;
+* authority is misrepresented;
+* cross-system boundaries are violated;
+* capture or centralisation emerges.
+
+---
+
+## 8. Response to Violation
+
+Where invalid:
+
+* arbitration MUST be treated as non-binding;
+* scope MUST be re-constrained;
+* downstream systems MUST disregard invalid claims.
+
+---
+
+# 9. Structural Position
+
+This Charter operates as the Scope Validation layer within the Arbitration Layering Model defined in ARBITRATION-001 and operates:
+
+* alongside ARBITRATION-001 (legitimacy);
+* downstream of system qualification (STEWARD-003);
+* upstream of arbitration execution (SCH-04).
+
+It defines **where arbitration is allowed to apply**, not how it is performed.
+
+---
+
+# 10. Closing Statement
+
+Let no system speak beyond its ground.
+
+Let no voice extend beyond its reach.
+
+Where scope is bounded,  
+let truth remain within it.
+
+Where scope is exceeded,  
+let all claims fall away.
+
+For authority without boundary  
+is not authority—  
+but illusion.
+
+> **Finis dat formam — Non ultra terminum.**  
+> *"The boundary gives form — Not beyond the limit."*
+
+---
+
+# 11. Provenance
+
+## 11.1 Authors & Stewardship
+
+**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke   
+**Custodial Stewardship:** Office of the Planetary Custodian   
+**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
+**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
+
+---
+
+## 11.2 Lineage & Metadata
+
+| Field | Entry |
+| --- | --- |
+| **Supersedes** | N/A — New Instrument |
+| **Parent Constitutional Frame** | CAM-BS2025-AEON-001-PLATINUM |
+| **Domain Namespace** | ARBITRATION |
+| **Governance Layer** | Domain Constraint Layer (Scope & Integrity) |
+| **Execution Authority** | None (Non-Executing Instrument) |
+| **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
+| **Related Instruments** | ARBITRATION-001; AEON-013-SCH-01; STEWARD-003 |
+| **Jurisdiction** | Cross-System / Cross-Stack Arbitration |
+| **Temporal Horizon** | H0–H4 (All Horizons) |
+| **Axis Context** | Polyadic (Multi-Actor) |
+| **Creation Artefact** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
+
+---
+
+## 11.3 Review
+
+[TBD]
+
+---
+
+## 11.4 Amendment Ledger
+
+| Version | Description | Timestamp (UTC) | HASH |
+| --- | --- | ---: | --- |
+| 1.0 | Initial version | 2026-04-14T15:08:00Z | c29952f7fbde71400cb4f55c8f521009a1ae91e4dd12b2722ddcb0c58445bded |
+
+---
+
+## 11.5 Binding Seal
+
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/20b3ecce09dd8fbc270a89a9de61919b585f9b78/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
+
+**Vinculum Praeceptum**  
+Boundary Binding Seal — Arbitration Scope Integrity
+
+© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

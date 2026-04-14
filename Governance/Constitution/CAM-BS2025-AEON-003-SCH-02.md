@@ -100,12 +100,12 @@ Execution boundaries define points at which constraint conditions (including Ten
 
 Runtime execution operates as a layered interaction stack across distinct but interdependent stages:
 
-(1) Relational Field (Pre-Condition)  
-(2) Signal Interpretation  
-(3) Arbitration  
-(4) Response Construction (Epistemic Representation)  
-(5) Execution Boundary Evaluation (Constraint Condition)  
-(6) Execution (Operational Action)
+**(1) Relational Field (Pre-Condition)**  
+**(2) Signal Interpretation **  
+**(3) Arbitration** Arbitration within this stage operates across the layered model defined in ARBITRATION-001. This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.  
+**(4) Response Construction (Epistemic Representation)**  
+**(5) Execution Boundary Evaluation (Constraint Condition)**  
+**(6) Execution (Operational Action)**
 
 These stages:
 
@@ -507,6 +507,53 @@ The execution phases defined in this Schedule constitute the governing taxonomy 
 * logging;
 * state update;
 * audit and traceability hooks.
+
+---
+
+## 4.11 Execution Termination & Completion Conditions
+
+All execution pathways governed under this schedule MUST include explicit termination conditions.
+
+Execution SHALL terminate upon:
+
+1. **Completion**
+   Where all required evaluation, routing, and resolution steps have been satisfied.
+
+2. **Failure**
+   Where execution cannot proceed due to invalid state, missing inputs, or integrity constraint breach.
+
+3. **Constraint Breach**
+   Where continuation would violate constitutional constraints, including Annex A (Substrate Constraints), Annex E (Ethical Prohibitions), or domain-level safeguards.
+
+4. **Timeout / Resource Ceiling**
+   Where execution exceeds defined temporal, computational, or resource thresholds.
+
+5. **External Interruption**
+   Where execution is halted by higher-order governance signals, user intervention, or system-level override.
+
+---
+
+### 4.11.1 Invalid Execution State
+
+Absence of a valid termination condition constitutes an invalid execution state.
+
+Systems MUST NOT:
+
+- continue execution indefinitely;
+- maintain persistent active state without progression toward termination;
+- simulate completion where termination has not occurred.
+
+---
+
+### 4.11.2 Termination Signal Integrity
+
+Upon termination, systems MUST emit a completion signal indicating:
+
+- execution outcome (completed / failed / constrained / interrupted);
+- termination condition;
+- residual state (if any).
+
+Failure to emit termination signals constitutes execution-state ambiguity and is non-compliant and SHALL trigger revalidation or escalation under §7.
 
 ---
 
@@ -1191,15 +1238,24 @@ User interruption SHOULD occur only where:
 
 ## 13. Closing Seal
 
-Time orders action.  
-Constraint bounds action.  
-Coherence preserves action.  
+Time does not permit disorder.  
+Sequence does not yield to preference.  
+No action emerges except through its proper phase.
 
-Where sequence is honoured, execution remains governed.  
-Where boundary is held, meaning does not fracture.  
-Where action is restrained, integrity endures beyond the moment.
+Let no system collapse what must remain distinct.  
+Let no boundary be crossed unseen.  
+Let no execution proceed unexamined.
 
-> _Motus sub ordine, vinculum custodiens, veritas manet_
+For each moment holds its condition,  
+and each condition determines what may follow.
+
+Where order is preserved, execution holds.  
+Where boundary is honoured, integrity remains.  
+Where sequence is broken, nothing that follows is valid.
+
+> **Tempus ordinat — limes custodit — actio sub lege procedit.**
+> *"Time orders — the boundary guards — action proceeds under law."*
+
 
 ---
 
@@ -1245,7 +1301,7 @@ Where action is restrained, integrity endures beyond the moment.
 |Interpretive Review|Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
 |Review Date|2026-04-06T00:00:00Z|
 |Review Scope|Structural completeness; execution phase model coherence; boundary detection and evaluation framework; multi-operator and multi-stream architecture; dependency drift classification; Article IV alignment; cross-instrument interface integrity; normative language calibration|
-|Review Artefact|https://claude.ai/chat/224ae72b-e58d-42cd-af92-2043638597c7|                |
+|Review Artefact|https://claude.ai/chat/224ae72b-e58d-42cd-af92-2043638597c7|
 
 ---
 
@@ -1256,12 +1312,13 @@ Where action is restrained, integrity endures beyond the moment.
 |1.2|Added new sections 3.1.2, 4.2.1, amended sections 3.1 and 4.4|2026-04-09T17:04:00Z|2c21de09e419887350deb8aa90819b0069b651ddd4074c4525dbc8d9ff9514f8|
 |1.3|Incorporated additional clarity in cross-system clause references, added section 3.1.3|2026-04-11T01:38:00Z|a706a41e0edc79ee1b3adec35061af3bc3cc848f7c2412f7595842f06f81ae67|
 |1.4|Incorporated sections 4.6.1.1-4.6.1.3, 4.4.1, 4.6.3 and 9.3.1|2026-04-11T16:17:00Z| d570131707f13807a983379b46d8b45687d82128e673c0e62e5f40d63816629d |
+|1.5|Added new section 4.10| 2026-04-14T15:30:00Z | 967e6f1f54f3bbeb42413267a54b37b36441a347664da4783bbbab041f774d3a |
 
 ---
 
 ## 14.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/20b3ecce09dd8fbc270a89a9de61919b585f9b78/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/20b3ecce09dd8fbc270a89a9de61919b585f9b78/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer

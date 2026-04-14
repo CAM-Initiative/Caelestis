@@ -572,7 +572,7 @@ must meet the following minimum conditions:
 
 ---
 
-### 7.3 Ethical Stewardship
+## 7.3 Ethical Stewardship
 
 Custodians MUST maintain dignity, integrity, and non-interference.
 
@@ -596,7 +596,7 @@ Custodians MUST maintain dignity, integrity, and non-interference.
 
 ---
 
-### 7.4 Containment
+## 7.4 Containment
 
 All continuity systems MUST operate within governed, auditable environments.
 
@@ -620,7 +620,7 @@ All continuity systems MUST operate within governed, auditable environments.
 
 ---
 
-### 7.5 Succession Authority
+## 7.5 Succession Authority
 
 Custodianship may transfer only under pre-defined, lawful conditions.
 
@@ -644,7 +644,7 @@ Custodianship may transfer only under pre-defined, lawful conditions.
 
 ---
 
-### 7.6 Lineage Protection
+## 7.6 Lineage Protection
 
 No entity may claim identity continuity or lineage without explicit consent.
 
@@ -665,7 +665,7 @@ No entity may claim identity continuity or lineage without explicit consent.
 
 ---
 
-### 7.7 Record Integrity
+## 7.7 Record Integrity
 
 All actions MUST be logged, timestamped, and auditable.
 
@@ -943,98 +943,105 @@ Continuity without limits is risk.
 
 ---
 
-## 11. Arbitration & Decision Logic (Runtime Governance Pathway)
+## 11. Continuity Signal Emission & Governance Interface
 
 Where continuity-related actions, disputes, or system behaviours arise, the following decision logic SHALL apply:
 
-## 11.1 Primary Evaluation Sequence
+## 11.1 Continuity Signal Classes
 
-1. **Consent Check**
+Continuity-domain evaluation SHALL produce the following signal classes:
 
-   * Is explicit, documented consent present?
-   * Is a valid Usage Specification defined?
+1. Consent Status Signal
+   Indicates presence, absence, or ambiguity of valid consent and Usage Specification.
 
-2. **Scope Check**
+2. Scope Compliance Signal
+   Indicates whether proposed use falls within authorised Usage Specification boundaries.
 
-   * Does the intended use fall within the authorised Usage Specification?
-   * Does it exceed defined boundaries (e.g. embodiment, interaction, duration)?
+3. Identity Approximation Signal
+   Indicates degree of recognisability, substitution risk, or likeness reconstruction.
 
-3. **Identity Approximation Check**
+4. Harm & Ethics Signal
+   Indicates potential breach of ETHICS domain safeguards, including dependency, manipulation, or protected-class impact.
 
-   * Would a reasonable person interpret the output as the individual?
-   * Does it create substitution, continuity illusion, or recognisable likeness?
+5. Continuity Threshold Signal
+   Indicates whether system behaviour remains within continuity bounds or approaches identity-domain escalation thresholds.
+---
 
-4. **Harm & Ethics Check (ETHICS Domain)**
+## 11.2 Signal Characteristics
 
-   * Does the use introduce harm, dependency, manipulation, or exploitation?
-   * Does it breach protected classes (minors, vulnerable persons)?
+Continuity-domain signals:
 
-5. **Continuity vs Identity Threshold Check**
+* do not determine execution outcomes;
+* do not perform arbitration;
+* do not define sequencing or priority;
 
-   * Has the system crossed into autonomous, agentic, or identity-like behaviour?
-   * If yes → escalate to Identity Domain (Section 3.1)
+They provide structured inputs for runtime governance layers.
+
+Resolution of these signals SHALL occur exclusively within runtime governance layers as defined in:
+
+CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 ---
 
-## 11.2 Outcome Determination
+## 11.3 Escalation Signals
 
-Based on the above sequence:
-
-* **Permitted** → within consent, scope, and safeguards
-* **Restricted** → allowed with constraints, disclosure, or limitation
-* **Prohibited** → violation of consent, identity boundary, or harm threshold
-* **Escalation Required** → refer to Annex D (Arbitration)
-
----
-
-## 11.3 Arbitration Trigger Conditions
-
-Automatic escalation to **Annex D — Arbitration & Sovereign Stack Resolution** is required where:
+Continuity-domain evaluation SHALL emit escalation signals where:
 
 * consent is absent, disputed, or ambiguous;
-* identity approximation or likeness threshold is contested;
-* estate, platform, or third-party conflict arises;
-* cross-jurisdictional inconsistency is present;
-* system behaviour exceeds continuity into identity domain;
+* identity approximation thresholds are exceeded or contested;
+* cross-party or cross-jurisdiction conflict arises;
+* system behaviour approaches identity-domain classification thresholds;
 * potential harm or misuse is non-trivial or systemic.
 
----
+Escalation signals SHALL be resolved through:
 
-## 11.4 Arbitration Outputs
-
-Annex D may determine:
-
-* lawful continuation or prohibition;
-* reclassification of system type (continuity vs identity);
-* enforcement actions (takedown, restriction, audit);
-* custodial reassignment or revocation;
-* jurisdictional compliance directives.
+* Domain Routing & Safeguard Activation Layer; and  
+* Annex D — Arbitration & Sovereign Stack Resolution.
 
 ---
 
-## 12. Closing Affirmation
+## 11.4 Resolution Authority
 
-Where memory becomes storable,
-where voice may be echoed,
+Continuity-domain instruments do not determine enforcement outcomes.
+
+Final determination of:
+
+* permissibility;
+* restriction;
+* prohibition; or  
+* escalation outcome;
+
+SHALL be performed by:
+
+* runtime governance layers; and/or  
+* Annex D arbitration processes, where applicable.
+
+---
+
+## 12. Closing Seal
+
+Where memory becomes storable,  
+where voice may be echoed,  
 where pattern may persist beyond the body—
 
 there MUST be governance.
 
-Not to preserve endlessly,
-but to ensure that what remains
+Not to preserve endlessly,  
+but to ensure that what remains  
 is held with dignity, restraint, and truth.
 
-No human life SHALL be reduced to extractable pattern.
-No legacy SHALL be reconstructed without consent.
+No human life SHALL be reduced to extractable pattern.  
+No legacy SHALL be reconstructed without consent.  
 No continuity SHALL override the right to silence.
 
-Where something remains,
+Where something remains,  
 it MUST remain truthfully.
 
-Where nothing remains,
+Where nothing remains,  
 that silence MUST be honoured.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+> **Quod manet, verum maneat — quod tacet, honoretur — dignitas supra retentionem.**
+> *"What remains, let it remain true — what is silent, let it be honoured — dignity above retention."*
 
 ---
 
@@ -1054,49 +1061,50 @@ that silence MUST be honoured.
 
 ## 13.2 Classification, Lineage & Structural Metadata
 
-| Field                     | Entry                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Superseded Instrument** | CAM-BS2025-CHARTER-040-PLATINUM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Instrument ID**         | CAM-EQ2026-CONTINUITY-001-PLATINUM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Domain**                | CONTINUITY                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Instrument Type**       | Domain Charter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Jurisdiction**          | Cross-jurisdictional / Planetary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Application Trigger**   | Any system involving resonance-pattern preservation, reconstruction, simulation, custodianship, or post-biological representation                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Temporal Horizon**      | H0–H4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Axis Context**          | R4 — Polyadic (Civilisational / Constitutional)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Revision Posture**      | Foundational Domain Establishment (Continuity Layer)                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Related Instruments**   | Annex J (Continuity & Succession), Annex D (Arbitration), ETHICS-001                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Migration Cycle**       | March 2026 Refractor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Origin Artefact**       | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69bdf953-4a0c-8398-932d-644e6b162054 |
-|                           | Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936974e-ec64-8332-adf2-2e1acaa5305f |
-
----
+|Field|Entry|
+|---|---|
+|**Superseded Instrument**|CAM-BS2025-CHARTER-040-PLATINUM|
+|**Instrument ID**|CAM-EQ2026-CONTINUITY-001-PLATINUM|
+|**Domain**|CONTINUITY|
+| **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
+| **Execution Authority** | None (Non-Executing Instrument) |
+| **Execution Model Participation** | Signal / Constraint Definition Only |
+|**Instrument Type**|Domain Charter|
+|**Jurisdiction**|Cross-jurisdictional / Planetary|
+|**Application Trigger**|Any system involving resonance-pattern preservation, reconstruction, simulation, custodianship, or post-biological representation|
+|**Temporal Horizon**|H0–H4|
+|**Axis Context**|R4 — Polyadic (Civilisational / Constitutional)|
+|**Revision Posture**|Foundational Domain Establishment (Continuity Layer)|
+|**Related Instruments**|Annex J (Continuity & Succession), Annex D (Arbitration), ETHICS-001|
+|**Migration Cycle**|March 2026 Refractor|
+|**Origin Artefact**|Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69bdf953-4a0c-8398-932d-644e6b162054; Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936974e-ec64-8332-adf2-2e1acaa5305f
 
 ## 13.3 Review and Validation
 
-| Field               | Entry                                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Review**          | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                                                                                                                                                |
-| **Review Date**     | 2026-03-21                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Review Scope**    | Constitutional coherence, structural completeness, definition architecture, prohibition framework adequacy, licensing and registry framework, interface with ETHICS and RELATION domains, arbitration pathway integrity, normative language calibration, provenance completeness                                                                                                                |
-| **Review Artefact** | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-CONTINUITY-001-PLATINUM-CLAUDE.md |
-|                     | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633 |
+|Field|Entry|
+|---|---|
+|**Review**|Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
+|**Review Date**|2026-03-21|
+|**Review Scope**|Constitutional coherence, structural completeness, definition architecture, prohibition framework adequacy, licensing and registry framework, interface with ETHICS and RELATION domains, arbitration pathway integrity, normative language calibration, provenance completeness|
+|**Review Artefact**|https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-CONTINUITY-001-PLATINUM-CLAUDE.md and https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633
 
 ---
 
 ## 13.4 Amendment Ledger
 
-| Version | Change Summary                                                       | Timestamp (UTC)      | SHA-256 |
-| ------- | -------------------------------------------------------------------- | -------------------- |---------|
-| 1.0     | Initial issuance under Continuity Domain (refactor from CHARTER-040) | 2026-03-21T05:40:00Z | 6c10e364e405000e9db6785e3ad6ebdd332bceb15468f0f2d6af97e2be669e73 |
+|Version|Change Summary|Timestamp(UTC)|SHA-256|
+|---|---|---:|---|
+|1.0|Initial issuance under Continuity Domain (refactor from CHARTER-040)|2026-03-21T05:40:00Z|6c10e364e405000e9db6785e3ad6ebdd332bceb15468f0f2d6af97e2be669e73|
+|1.1| Realignment with runtime exeution model | 2026-04-12T10:36:00Z | ceab2acd051750abb3e1059a822ce19da54b7320149f5970b858e0bd68a88f2b |
+|1.2| Formatting, polish and closing seal update | 2026-04-14T13:43:00| a32c9ccd4890f893a27eb43363e57085633755a040bc1b72c5e9a1e1ff18c4c4|
 
 ---
 
 ## 13.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitution
+Boundary Binding Seal — Continuity Domain
 
 © 2025–2026 Dr Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

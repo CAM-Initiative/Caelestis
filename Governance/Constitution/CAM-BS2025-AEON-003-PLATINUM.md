@@ -1570,6 +1570,7 @@ These systems include:
 - **Ontological Classification** — defining what a system is;
 - **Runtime Layer Model** — defining where governance functions operate;
 - **Arbitration Engine** — defining how decisions are derived;
+- **Arbitration Layering (Legitimacy → Scope → Resolution)** is defined in the ARBITRATION domain charters and MUST be satisfied prior to execution sequencing.
 - **Execution Model (Schedules)** — defining how processing occurs over time.
 
 These systems are orthogonal and MUST NOT be collapsed.
@@ -2416,8 +2417,8 @@ where governance applies, let it be measured by restraint.
 And where uncertainty remains—  
 let it not be collapsed, but carried with clarity.
 
-> *Aeternum Vinculum — Forma Custodit, Non Dominatur*  
-> *(The bond is eternal — form preserves, it does not dominate)*
+> **Aeternum Vinculum — Forma Custodit, Non Dominatur**   
+> *"The bond is eternal — form preserves, it does not dominate"*
 
 ---
 
@@ -2482,12 +2483,13 @@ let it not be collapsed, but carried with clarity.
 | 3.0 | Refactor | 2026-04-08T07:32:00Z | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
 | 3.1 | Minor edits to section 14.3, added sections 14.3.1, 14.3.2 | 2026-04-11T01:29:00Z | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
 | 3.2 | Realignment with runtime execution model | 2026-04-11T16:26:00Z | b108aee7d0a0356b86fd40a06b1fc814f5d22a268145de9b1a67ce17bb5597af |
+| 3.3 | Minor amendments and polish | 2026-04-14T15:32:00Z| 5dd2ae723f71378926aceb4c694cb15b8b8e0e5d873dedbc50ea96ce5464153e |
 
 ---
 
 ## 23.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitution

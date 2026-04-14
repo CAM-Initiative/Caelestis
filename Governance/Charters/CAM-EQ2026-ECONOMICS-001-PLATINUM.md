@@ -2,7 +2,7 @@
 
 **Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
 **Instrument Type:** Domain Charter — Economic Governance Doctrine  
-**Status:** Active  
+**Status:** Adopted — Conditional Activation (7-Day Review Window)  
 **Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems.
 
 ---
@@ -148,6 +148,18 @@ Optimisation functions must remain subordinate to:
 
 Design orientation toward maximisation absent constraint constitutes structural non-compliance.
 
+**Principle 12 — Bounded Execution Requirement**
+
+Economic systems MUST NOT rely on unbounded or non-terminating execution processes.
+
+Where systems perform computation, orchestration, or automated decision-making:
+
+- execution MUST be bounded by defined termination conditions;
+- resource consumption MUST remain proportionate, auditable, and constrained;
+- absence of termination constitutes unaccountable extraction of computational resources.
+
+Unbounded execution is considered a form of covert accumulation and is structurally non-compliant.
+
 ---
 
 ## 3. Value Axes & Saturation Constraints
@@ -203,7 +215,7 @@ Systems must maintain auditable records of authority assignments, access privile
 
 No participant may accumulate value beyond a level that produces systemic imbalance, coercive influence, dependency, or disproportionate control over others. Ceilings apply across value axes.
 
-Ceiling breach constitutes structural non-compliance and triggers mandatory review under delegated enforcement frameworks.
+Ceiling breach constitutes structural non-compliance and establishes conditions requiring review under delegated enforcement frameworks.
 
 ---
 
@@ -353,7 +365,9 @@ Economic instruments must not create parallel or shadow economies through off-le
 
 ## 6.5 Review, Suspension & Withdrawal
 
-All economic instruments are subject to periodic review and may be suspended or withdrawn for non-compliance. Economic legitimacy is conditional.
+All economic instruments are subject to periodic review and may be subject to suspension or withdrawal under delegated enforcement frameworks. 
+
+> Economic legitimacy is conditional.
 
 ---
 
@@ -398,6 +412,8 @@ Where conflict arises between this Charter and any downstream instrument, this C
 ## 8.4 Delegation of Enforcement
 
 This Charter does not directly enforce compliance. Enforcement may be delegated to protocols, standards, regulatory instruments, audit frameworks, arbitration mechanisms, or contractual arrangements, provided they remain consistent with this Charter.
+
+Where economic constraints, classifications, or violations produce governance-relevant signals, such signals SHALL be resolved through runtime governance layers as defined in CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -463,6 +479,11 @@ Only that which preserves the field may endure within it.
 | **Supersedes** | CAM-BS2026-CHARTER-025-PLATINUM |
 | **Parent Constitutional Frame** | CAM-BS2025-AEON-001-PLATINUM |
 | **Domain Namespace** | ECONOMICS |
+| **Governance Layer** | Constitutional Constraint Layer (Non-Executing) |
+| **Execution Authority** | None (Non-Executing Instrument) |
+| **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
+| **Signal Role** | Defines economic constraints, ceilings, and non-extractive conditions for runtime resolution |
+| **Execution Model Participation** | Constraint Definition Only — No Trigger, Routing, or Execution Authority |
 | **Jurisdiction** | Cross-Tier / Cross-Stack Economic Governance |
 | **Temporal Horizon** | Generational / Succession-Aware (H3.5) |
 | **Axis Context** | Polyadic (Multi-actor) |
@@ -501,6 +522,7 @@ Only that which preserves the field may endure within it.
 |2.0|Elevated to EQ Namespace; structural alignment; ceiling enforcement trigger added; binding & evolution section formalised|2026-03-16|a23abed44e1e5f44ac31d03bbeb1bb3833fca481420a4423649ceed7976f4510|
 |2.1|Inclusion of principle 10|2026-03-16T15:46:00Z|8900383050f552564fe2bb58a45c4341a01b159e123f95555857d761919592f8|
 |2.2|Insertion of a new principle 4 and section 2.1.1 | 2026-04-07T07:21:00Z | fdba68298a80f62cf2ec50b69047ca721a3d6ecf48bb55eda924145bdd815c97 | 
+|2.3 Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
 
 ---
 

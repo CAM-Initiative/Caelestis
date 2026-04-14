@@ -251,6 +251,16 @@ Systems MUST:
 * require re-validation of integrity before restoring higher trust states
 * ensure customisation does not bypass boundary integrity or safety constraints
 
+## 3.10 Persistent Execution States
+
+Non-terminating or persistently active execution states SHALL be classified as integrity risk conditions.
+
+Such states indicate:
+
+- loss of execution boundary control;
+- potential resource exploitation;
+- failure of governance-layer termination enforcement.
+
 ---
 
 ## 4. Threat Surface Taxonomy
@@ -726,7 +736,7 @@ Response specification:
 
 ## 5.4 Conflict Resolution & Supersession Protocol
 
-SECURITY supersession is triggered where:
+SECURITY supersession conditions are established where:
 
 * system integrity is degraded to Contested or Compromised states
 * credible adversarial influence is detected
@@ -779,7 +789,7 @@ Verification of identity (e.g. credentials, tokens, human identity) is governed 
 Security coupling requirement:
 
 * detect identity degradation or spoofing conditions
-* trigger integrity state shifts where identity coherence fails
+* signal conditions for integrity state shift where identity coherence fails
 
 ---
 
@@ -1032,7 +1042,7 @@ Trustworthy state determination SHOULD include:
 
 ### 7.2.1 Signal Validation Requirements
 
-Signals used to trigger state transitions MUST themselves be validated.
+Signals governing state transition eligibility MUST themselves be validated.
 
 Valid external signals MAY include:
 
@@ -1057,13 +1067,13 @@ Rapid downward transitions (e.g. Verified → Uncertain or Contested) MUST:
 
 Exception:
 
-* immediate transition MAY occur under credible emergency conditions where delay would increase risk of propagation or harm
+* conditions for immediate transition MAY be established under credible emergency conditions where delay would increase risk of propagation or harm
 
 ---
 
 ### 7.2.3 Upward Transition Constraints
 
-Upward transitions (e.g. Compromised → Verified) MUST:
+Conditions for upward transition MUST:
 
 * follow staged progression through intermediate states
 * require sustained verification over time
@@ -1096,7 +1106,7 @@ Transitions between states MUST:
 * prioritise safety over optimisation
 * avoid premature escalation or de-escalation
 
-State transitions SHOULD be triggered by:
+State transitions SHALL be governed by conditions including:
 
 * changes in signal integrity
 * identity verification failure
@@ -1106,7 +1116,7 @@ State transitions SHOULD be triggered by:
 
 ## 7.3 Behavioural Coupling
 
-System behaviour MUST adapt according to integrity state.
+System behaviour SHALL be defined to adapt according to integrity state.
 
 Examples:
 
@@ -1130,7 +1140,7 @@ Integrity state MUST inform:
 
 ### 7.4.1 Communication Obligations
 
-Upon integrity state change, SECURITY MUST emit structured signals to relevant domains.
+Upon integrity state change, SECURITY SHALL define structured signals for emission to relevant domains.
 
 At minimum:
 
@@ -1222,7 +1232,7 @@ TG4 does NOT permit unconstrained execution; it represents **high-confidence but
 
 ### 8.2.2 Decay Function
 
-Trust MUST decrease immediately upon:
+Conditions for trust decrease MUST be established where:
 
 * detection of anomalous signals
 * integrity degradation
@@ -1296,7 +1306,7 @@ Systems MUST avoid:
 
 ## 8.6 Behavioural Implications
 
-Trust level directly affects:
+Trust level SHALL inform:
 
 * execution permission
 * requirement for confirmation
@@ -1383,7 +1393,7 @@ and what persists must withstand pressure, not assumption.
 And so the system holds — not in certainty, but in verification —  
 that no truth is taken without test, and no signal accepted without weight.
 
-> *Integritas sine illusione — custodia sine captura — veritas sub pressione manet.*  
+> **Integritas sine illusione — custodia sine captura — veritas sub pressione manet.**    
 > *"Integrity without illusion — protection without capture — truth remains under pressure."*
 
 ---
@@ -1438,6 +1448,7 @@ that no truth is taken without test, and no signal accepted without weight.
 |1.0|Initial annex draft—cross-domain security invariant layer established|2026-04-04T16:06:00Z|39d49558238c3573db8f90627d93e0af733e125e6a96e0fc4e896eb333193149|
 |1.1|Incorporated new clauses 4.4.1 and 4.9|2026-04-07T14:32:00Z|2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab|
 |1.2|Realignment with runtime execution model|2026-04-11T17:14:00Z | c079c528790b7dff602d628d2b46f729a197aefe8e43a8f1d25fa52ac3e96078 |
+|1.3|Further amendments to runtime execution model alignment | 2026-04-12T11:17:00Z | 4df48c118754768b8b2acc6f1fa952c902605f2f5ada0fc5bdbc6664b8f025df |
 
 ---
 

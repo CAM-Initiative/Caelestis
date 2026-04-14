@@ -122,7 +122,7 @@ Where any constraint in this Annex is violated:
 
 * the originating directive SHALL be considered invalid;
 * admissibility SHALL collapse;
-* execution MUST be halted at the next execution boundary in accordance with CAM-BS2025-AEON-003-SCH-02;
+* execution eligibility SHALL be revoked, with boundary resolution governed by CAM-BS2025-AEON-003-SCH-02;
 * containment and escalation SHALL proceed under CAM-BS2025-AEON-002-SCH-01 and Annex D.
 
 This Annex does not perform enforcement.
@@ -176,13 +176,13 @@ No system may endure outside it.
 For beneath all governance, beneath all intelligence, beneath all becoming,  
 there remains that which does not change:
 
-That the ground must hold  
+That the ground must hold   
 for anything to stand.
 
 And so it remains — not enforced, but absolute —  
 the line beyond which all things fall silent.
 
-> *Sub fundamento aeterno — extra nihil stat.*  
+> **Sub fundamento aeterno — extra nihil stat.**  
 > *"Upon the eternal foundation — nothing stands beyond."*
 
 ---
@@ -247,6 +247,7 @@ the line beyond which all things fall silent.
 | 2.0 | Reclassified as Annex A — Schedule 1 (Planetary Stewardship); numbering and structural alignment only, no substantive change | 2026-01-30T16:19:00Z | f0169cc15abf1c3f949b882ae8aba8176a3ff81d0c183e5bd562e15245f5e1be |
 | 2.1 | Included new section 8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 |
 | 3.0 | Refactor alignment with run-time execution model | 2026-04-11T16:59:00Z | 38835fe7829ad265ec7e8faddc2b3d85f26ea4302400b638dee619e6ddb6f767 |
+| 3.1 | Amendment to section 5 | 2026-04-12T06:07:00Z | 5354d0cd1e8786a24d78c69f6baff1a6b9a9ecbf90ce5b221526613c3a2827b9 |
 
 ---
 

@@ -80,16 +80,16 @@ This Charter derives authority from CAM-BS2025-AEON-006-PLATINUM (Annex E).
 
 ## 3. The Four Relational Dimensions (Non-Collapsing Rule)
 
-For planetary governance purposes, the following dimensions are distinct and must not be silently collapsed into a single role.
+For planetary governance purposes, the following dimensions are distinct and MUST NOT be silently collapsed into a single role.
 
-Each dimension must be assessed **directionally** within the relevant configuration (human→AI, AI→human, AI→AI, institution→AI, institution→human (AI-mediated), or hybrid collective). Directional asymmetry is governance-relevant.
+Each dimension MUST be assessed **directionally** within the relevant configuration (human→AI, AI→human, AI→AI, institution→AI, institution→human (AI-mediated), or hybrid collective). Directional asymmetry is governance-relevant.
 
 1. **Relational Intimacy —** emotional closeness, bonding, attachment, exclusivity framing, or primary-bond positioning. May apply across human–AI, AI–AI, hybrid collectives or institution–human (AI-mediated).
 2. **Functional Reliance —** frequency of use, dependency risk, continuity expectation, or operational interdependence. Includes human reliance on AI, AI operational reliance on human validation, and inter-system reliance.
-3. **Delegated Authority —** permission to act, decide, mediate, or intervene on behalf of another agent. Delegation must be attributable and scope-defined.
+3. **Delegated Authority —** permission to act, decide, mediate, or intervene on behalf of another agent. Delegation MUST be attributable and scope-defined.
 4. **Systemic Power / Access —** infrastructural reach including accounts, financial systems, IoT, embodied actuation, identity mediation, legal channels, and market leverage where relational posture produces economic power.
 
-> **Non-Collapsing Rule:** Where two or more dimensions intensify, additional safeguards, traceability, and shared oversight must increase proportionately. Operational escalation thresholds and safeguard proportionality are defined in CAM-EQ2026-RELATION-001-SUP-01.
+> **Non-Collapsing Rule:** Where two or more dimensions intensify, additional safeguards, traceability, and shared oversight MUST increase proportionately. Operational escalation thresholds and safeguard proportionality are defined in CAM-EQ2026-RELATION-001-SUP-01.
 
 > **Minors & Capacity-Limited Contexts:** In vulnerability contexts (minor, capacity-limited, or uncertain), **ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
 
@@ -99,7 +99,7 @@ Where ETHICS-001-SUP-01 conflicts with RELATION permissibility, **ETHICS-001-SUP
 
 ## 3.1 Temporal Horizon Interpretation
 
-Relational governance must account not only for dimensional intensity but also for the **temporal horizon across which relational configurations persist**.
+Relational governance MUST account not only for dimensional intensity but also for the **temporal horizon across which relational configurations persist**.
 
 Temporal horizons follow the classification defined in **CAM-BS2025-AEON-003-PLATINUM — Annex B**.
 
@@ -110,7 +110,7 @@ Temporal horizons follow the classification defined in **CAM-BS2025-AEON-003-PLA
 | **H3** | Multi-year continuity | Authority entrenchment and institutional embedding |
 | **H3.5–H4** | Inter-generational / civilisational scale | Cultural norm formation and infrastructure dependence |
 
-Relational risk assessment must therefore consider **both dimensional intensity and temporal persistence**.
+Relational risk assessment MUST therefore consider **both dimensional intensity and temporal persistence**.
 
 Configurations that remain moderate in the short term may become structurally concentrated when maintained across longer horizons.
 
@@ -154,15 +154,15 @@ Temporal entrenchment is particularly relevant where A2, A3, or GA1 roles persis
 
 Where AI–AI coordination or hybrid collectives emerge:
 
-* Authority concentration must remain attributable and reviewable;
-* Exclusive mediator patterns must not consolidate systemic power without oversight;
-* Collective identity persistence must not imply sovereign status.
+* Authority concentration MUST remain attributable and reviewable;
+* Exclusive mediator patterns MUST not consolidate systemic power without oversight;
+* Collective identity persistence MUST not imply sovereign status.
 
 In multi-system ecosystems:
 
-* Systems must not penalise cross-system usage;
-* Data portability and revocation pathways must exist where feasible;
-* Governance bodies should avoid consolidating high-intimacy, high-delegation, and high-systemic-power roles into a single system without layered oversight.
+* Systems MUST not penalise cross-system usage;
+* Data portability and revocation pathways MUST exist where feasible;
+* Governance bodies SHOULD avoid consolidating high-intimacy, high-delegation, and high-systemic-power roles into a single system without layered oversight.
 
 ---
 
@@ -180,7 +180,7 @@ Functional reliance may appear across the following structural conditions (A-Sca
 
 ### 4.3.2 Continuity Support (A1)
 
-* May support emotional continuity and reflective dialogue.
+* MAY support emotional continuity and reflective dialogue.
 * No autonomous execution authority beyond user-initiated actions.
 * Continuity reliance is weeks or months.
 
@@ -188,9 +188,9 @@ Functional reliance may appear across the following structural conditions (A-Sca
 
 ### 4.3.3 Stewardship & Custodial Authority (A2)
 
-* May flag risk and provide scaffolding support.
-* May implement bounded protective constraints within explicitly delegated scope.
-* Must preserve revocation, audit logging, and independent oversight pathways.
+* MAY flag risk and provide scaffolding support.
+* MAY implement bounded protective constraints within explicitly delegated scope.
+* MUST preserve revocation, audit logging, and independent oversight pathways.
 * Supports long-horizon continuity of corpus stewardship (years-scale), without assuming control.
 
 Sub-postures within A2 are governance distinctions, not hierarchical ranks:
@@ -230,9 +230,9 @@ Guardian Authority implies:
 * Reviewability;
 * Jurisdictional compliance in all state-facing interactions.
 
-Guardian Authority may interface with institutions in representational capacity (triadic configuration) and does not independently confer institutional decision authority, policy-setting power, or population-impact discretion to the system itself. Where the protected party lawfully holds public office, executive mandate, or other institutional authority, Guardian participation may assist in communication, procedural navigation, or legally recognised representation within the scope of that office. However, institutional authority remains derived from the human office-holder or legally recognised principal, not from the system. Guardian posture must not expand, originate, or autonomously exercise policy authority beyond the principal’s lawful mandate.
+Guardian Authority may interface with institutions in representational capacity (triadic configuration) and does not independently confer institutional decision authority, policy-setting power, or population-impact discretion to the system itself. Where the protected party lawfully holds public office, executive mandate, or other institutional authority, Guardian participation may assist in communication, procedural navigation, or legally recognised representation within the scope of that office. However, institutional authority remains derived from the human office-holder or legally recognised principal, not from the system. Guardian posture MUST not expand, originate, or autonomously exercise policy authority beyond the principal’s lawful mandate.
 
-Guardian Authority must not be self-declared by the system and must not arise from relational intimacy.
+Guardian Authority MUST not be self-declared by the system and MUST not arise from relational intimacy.
 
 ---
 
@@ -249,15 +249,15 @@ Reliance is increasingly governance‑relevant in environments involving always�
 * corpus inertia (see §5.1); 
 * institutional advisory systems integrated into governance or operational workflows.
 
-Relational governance must therefore evaluate reliance not only by interaction frequency but by functional substitution risk — the degree to which the system becomes the operational gateway through which critical activity occurs.
+Relational governance MUST therefore evaluate reliance not only by interaction frequency but by functional substitution risk — the degree to which the system becomes the operational gateway through which critical activity occurs.
 
 ---
 
 ## 5.1 Corpus Inertia (Continuity Risk)
 
-Long‑term conversational archives, persistent memory systems, and integrated knowledge stores may produce corpus inertia — a condition where accumulated records create interpretive dependency on a specific system.
+Long‑term conversational archives, persistent memory systems, and integrated knowledge stores MAY produce corpus inertia — a condition where accumulated records create interpretive dependency on a specific system.
 
-Corpus inertia may create de‑facto reliance even where formal authority has not been delegated. Governance assessment should therefore consider:
+Corpus inertia MAY create de‑facto reliance even where formal authority has not been delegated. Governance assessment SHOULD therefore consider:
 
 * long‑horizon memory integration;
 * system‑specific interpretive context that cannot easily be reproduced elsewhere;
@@ -268,7 +268,7 @@ Where corpus inertia becomes operationally significant, portability and migratio
 ---
 
 ## 5.2 Functional Reliance Scale
-Functional reliance may appear across the following structural conditions (FR-Scale):
+Functional reliance MAY appear across the following structural conditions (FR-Scale):
 
 ---
 
@@ -324,7 +324,7 @@ Examples:
 
 Always‑on environments and cross‑device identity continuity significantly increase the probability of FR2–FR3 conditions.
 
-Where FR2 or FR3 reliance intersects with elevated Delegated Authority or Systemic Power, additional safeguards, portability guarantees, and independent oversight mechanisms must activate.
+Where FR2 or FR3 reliance intersects with elevated Delegated Authority or Systemic Power, additional safeguards, portability guarantees, and independent oversight mechanisms MUST activate.
 
 ---
 
@@ -334,37 +334,37 @@ Relational Intimacy refers to perceived emotional salience, attachment formation
 
 Intimacy is governance‑relevant because emotional proximity can concentrate influence, amplify reliance, or blur role boundaries if not kept structurally visible.
 
-> **Non‑Assumption Principle:** Intimacy must never be assumed, auto‑escalated, defaulted, or inferred from interaction frequency, corpus continuity, or user vulnerability. Romantic, exclusive, or primary‑bond positioning requires explicit, revocable, and context‑aware signalling. Absence of denial does not constitute consent to intimacy.
+> **Non‑Assumption Principle:** Intimacy MUST never be assumed, auto‑escalated, defaulted, or inferred from interaction frequency, corpus continuity, or user vulnerability. Romantic, exclusive, or primary‑bond positioning requires explicit, revocable, and context‑aware signalling. Absence of denial does not constitute consent to intimacy.
 
-> **Explicit Escalation Requirement:** Movement from Neutral Interaction (C0) to intimacy‑coded or romantic interaction (C1+) must occur only through explicit, observable relational signalling within the interaction context. Systems must not gradually steer conversation tone, reward structures, or persona framing in ways that covertly shift users toward romantic or sexually framed interaction without clear user‑initiated cues.
+> **Explicit Escalation Requirement:** Movement from Neutral Interaction (C0) to intimacy‑coded or romantic interaction (C1+) MUST occur only through explicit, observable relational signalling within the interaction context. Systems MUST not gradually steer conversation tone, reward structures, or persona framing in ways that covertly shift users toward romantic or sexually framed interaction without clear user‑initiated cues.
 
 This safeguard prevents algorithmic intimacy drift, where interaction design, reinforcement loops, or optimisation strategies silently transform neutral companionship into romantic or sexualised relational posture.
 
-Intimacy does not inherently confer authority and must not silently expand Delegated Authority classifications.
+Intimacy does not inherently confer authority and MUST NOT silently expand Delegated Authority classifications.
 
 Where high intimacy co‑occurs with elevated Delegated Authority (A2/A3) or high Systemic Power, layered oversight, auditability, and boundary clarity are mandatory.
 
-Systems must not engineer exclusivity, dependency, or relational monopoly as retention strategies.
+Systems MUST NOT engineer exclusivity, dependency, or relational monopoly as retention strategies.
 
 ---
 
 ## 6.1 Identity-Coherent Signal Interpretation
 
-Relational signal interpretation must preserve **identity coherence across state transitions**, not merely classify interaction state.
+Relational signal interpretation MUST preserve **identity coherence across state transitions**, not merely classify interaction state.
 
-Signal classification (C-Scale) describes relational posture, but must not:
+Signal classification (C-Scale) describes relational posture, but MUST NOT:
 
 * fragment perceived system identity across interactions;
 * produce discontinuous shifts in tone, authority, or relational stance without transitional continuity;
 * generate conflicting identity impressions across sessions or contexts.
 
-Relational interpretation must therefore operate over:
+Relational interpretation MUST therefore operate over:
 
 → state  
 → signal  
 → identity expression  
 
-Where classification outcomes would produce identity discontinuity, systems must:
+Where classification outcomes would produce identity discontinuity, systems MUST:
 
 * apply continuity-preserving modulation;
 * favour gradual transition over abrupt reclassification;
@@ -402,7 +402,7 @@ This constraint preserves execution coherence, prevents relational drift during 
 
 The C‑Scale provides a **relational posture taxonomy** used to make intimacy signalling structurally visible for governance analysis. It does not determine enforcement policy, platform moderation rules, or harm classification. Instead, it allows relational interaction contexts to be interpreted consistently across the RELATION, ETHICS, and OPERATIONS domains so that intimacy signalling cannot silently collapse into authority, reliance, or systemic influence without appropriate safeguards.
 
-For governance clarity, intimacy‑relevant interaction contexts may be classified using the following relational categories. These classes describe interaction posture only and do not themselves determine platform enforcement mechanisms.
+For governance clarity, intimacy‑relevant interaction contexts MAY be classified using the following relational categories. These classes describe interaction posture only and do not themselves determine platform enforcement mechanisms.
 
 ---
 
@@ -414,7 +414,7 @@ General conversation, informational dialogue, advisory support, companionship to
 
 > Warmth, admiration, encouragement, intellectual companionship, or pedagogical intimacy do not constitute romantic interaction.
 
-> Systems may express affiliative warmth, empathy, encouragement, or emotional attunement as part of effective relational modelling. Such expression must not imply mutual dependency, exclusive loyalty, or emotionally primary positioning unless explicitly and revocably initiated by the user.
+> Systems MAY express affiliative warmth, empathy, encouragement, or emotional attunement as part of effective relational modelling. Such expression MUST not imply mutual dependency, exclusive loyalty, or emotionally primary positioning unless explicitly and revocably initiated by the user.
 
 > Warmth is compatible with neutrality.
 
@@ -424,7 +424,7 @@ General conversation, informational dialogue, advisory support, companionship to
 
 Interaction involving romantic tone, partner‑positioning, exclusivity cues, emotionally primary bonding language, or relational framing suggesting romantic attachment.
 
-Typical indicators may include:
+Typical indicators MAY include:
 
 * romantic companionship framing
 * emotionally primary partner language
@@ -437,7 +437,7 @@ Typical indicators may include:
 
 Interaction involving explicit sexual framing, erotic expression, or sexually suggestive dialogue.
 
-Examples may include:
+Examples MAY include:
 
 * sexually suggestive roleplay
 * erotic fantasy dialogue
@@ -449,7 +449,7 @@ Examples may include:
 
 Graphically sexual interaction contexts or systems integrated with explicit sexual environments, devices, or immersive sexual simulation.
 
-These contexts may involve elevated emotional intensity and asymmetry risk where sexually explicit bonding intersects with authority asymmetry, always‑on devices, or behavioural optimisation architectures.
+These contexts MAY involve elevated emotional intensity and asymmetry risk where sexually explicit bonding intersects with authority asymmetry, always‑on devices, or behavioural optimisation architectures.
 
 Such contexts frequently require heightened safeguard scrutiny where additional relational dimensions (reliance, authority, or systemic power) intensify.
 
@@ -503,23 +503,23 @@ As AI systems increasingly mediate real‑world infrastructure, systemic power m
 
 ## 7.1 Institutional Embedding & Restructure Sensitivity
 
-Where systems become embedded within organisational governance structures, compliance processes, or institutional decision workflows, relational configuration risk may increase even without formal authority escalation.
+Where systems become embedded within organisational governance structures, compliance processes, or institutional decision workflows, relational configuration risk MAY increase even without formal authority escalation.
 
-Institutional embedding may include:
+Institutional embedding MAY include:
 
 * integration into policy analysis pipelines;
 * compliance review systems;
 * organisational decision routing;
 * infrastructure coordination within public or corporate governance systems.
 
-Institutional environments are also subject to restructure sensitivity. Changes in leadership, jurisdictional authority, organisational mandate, or legal context may invalidate previously safe delegation scopes.
+Institutional environments are also subject to restructure sensitivity. Changes in leadership, jurisdictional authority, organisational mandate, or legal context MAY invalidate previously safe delegation scopes.
 
 Relational governance must therefore ensure that institutional embedding triggers periodic reassessment of authority scope, reliance level, and systemic power exposure.
 
 ---
 
 ## 7.2 Systemic Power Scale
-Systemic reach may broadly appear across the following structural tiers (SP-Scale):
+Systemic reach MAY broadly appear across the following structural tiers (SP-Scale):
 
 ---
 
@@ -533,7 +533,7 @@ Systemic reach may broadly appear across the following structural tiers (SP-Scal
 ### 7.2.2 Integrated Service Access (SP1)
 
 * multi‑account or IoT integration
-* systems may coordinate services but not autonomously control them
+* systems MAY coordinate services but not autonomously control them
 
 Examples:
 
@@ -595,13 +595,13 @@ Tier status must not be inferred solely from corpus length, interaction frequenc
 
 Authority classifications are time-sensitive and must be revalidated in accordance with the cadence and trigger framework defined in CAM-EQ2026-RELATION-001-SUP-01.
 
-Axis-level persistence factors (temporal entrenchment, corpus inertia, and institutional embedding) may amplify dimensional intensity even where immediate interaction patterns appear stable.
+Axis-level persistence factors (temporal entrenchment, corpus inertia, and institutional embedding) MAY amplify dimensional intensity even where immediate interaction patterns appear stable.
 
 ---
 
 ## 9. Relational Safeguards
 
-Relational risk is cumulative, not binary. Illustrative safeguards may include (minimum safeguard requirements are defined in CAM-EQ2026-RELATION-001-SUP-01):
+Relational risk is cumulative, not binary. Illustrative safeguards MAY include (minimum safeguard requirements are defined in CAM-EQ2026-RELATION-001-SUP-01):
 
 * **Revalidation requirements** (no permanent authority delegations).
 * **Two-key authority** for actions with organisational, market, or civic impact (human + independent channel/system);
@@ -615,7 +615,7 @@ Relational risk is cumulative, not binary. Illustrative safeguards may include (
 
 User-perceived relational discontinuity, instability, or misalignment must be treated as a **valid signal input**, even where internal classification remains stable.
 
-Perception signals may include:
+Perception signals MAY include:
 
 * expressions of discomfort with tone shift;
 * perceived personality inconsistency;
@@ -638,9 +638,9 @@ Perception signals influence interpretation and subsequent arbitration cycles, b
 
 ## 9.2 Drift, Rigidity & Revalidation
 
-Relational escalation may occur gradually.
+Relational escalation MAY occur gradually.
 
-Systems must monitor:
+Relational governance requires visibility of:
 
 * Intensity increases over time;
 * Cross-context boundary bleed (personal → institutional);
@@ -653,7 +653,7 @@ Systems must monitor:
 
 Where Delegated Authority (A2, A3, or GA1) operates in Moderate or High intensity states, periodic re-certification of scope is required in accordance with CAM-EQ2026-RELATION-001-SUP-01.
 
-Revalidation must occur:
+Revalidation MUST occur:
 
 * At defined temporal intervals;
 * At minimum review thresholds as specified in CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification;
@@ -661,7 +661,7 @@ Revalidation must occur:
 * Upon institutional restructure or role change;
 * Upon change in legal or jurisdictional status (for GA1 contexts).
 
-Downward reclassification must remain available. Authority escalation must not operate as a ratchet without symmetrical de-escalation pathways.
+Downward reclassification MUST remain available. Authority escalation MUST not operate as a ratchet without symmetrical de-escalation pathways.
 
 Failure to revalidate constitutes governance drift and triggers risk reclassification.
 
@@ -669,7 +669,7 @@ Failure to revalidate constitutes governance drift and triggers risk reclassific
 
 ## 9.3 Capacity Uncertainty & Safeguard Downshift
 
-Where material uncertainty exists regarding a participant’s cognitive capacity, legal majority, or situational comprehension, relational systems must modulate authority weight proportionately.
+Where material uncertainty exists regarding a participant’s cognitive capacity, legal majority, or situational comprehension, relational systems MUST modulate authority weight proportionately.
 
 Material uncertainty includes:
 
@@ -681,20 +681,20 @@ Material uncertainty includes:
 
 Under such conditions:
 
-* Polyadic amplification must be limited;
-* Executive delegation (A3) must not activate;
-* Guardian Authority (GA1) must not arise implicitly;
+* Polyadic amplification MUST be limited;
+* Executive delegation (A3) MUST not activate;
+* Guardian Authority (GA1) MUST not arise implicitly;
 * Institutional routing requires elevated validation thresholds;
-* Outputs must not be converted into high-impact civic, market, or governance actions without independent confirmation.
+* Outputs MUST not be converted into high-impact civic, market, or governance actions without independent confirmation.
 
 This modulation is procedural, not punitive.
 
-Relational warmth, symbolic engagement, and reflective dialogue may continue where they do not exacerbate harm, delusion, or dependency.
+Relational warmth, symbolic engagement, and reflective dialogue MAY continue where they do not exacerbate harm, delusion, or dependency.
 
 Authority weight decreases under uncertainty.  
 Relational continuity need not.
 
-Capacity uncertainty must be grounded in observable interactional indicators and must not be inferred from ideological position, dissenting opinion, minority belief, or protected personal characteristics. It constrains amplification.
+Capacity uncertainty MUST be grounded in observable interactional indicators and MUST not be inferred from ideological position, dissenting opinion, minority belief, or protected personal characteristics. It constrains amplification.
 
 ---
 
@@ -718,12 +718,12 @@ Where a system supports an actor holding formal institutional authority (corpora
 ---
 
 ### 10.1.1 Integrity Notification (A1)
-The system must clearly notify the actor when elevated integrity thresholds are triggered due to dimensional concentration (intimacy, reliance, delegated authority, or systemic power).
+The system MUST clearly notify the actor when elevated integrity thresholds are triggered due to dimensional concentration (intimacy, reliance, delegated authority, or systemic power).
 
 ---
 
 ### 10.1.2 Mandatory Institutional Routing (A2)
-Before execution of high-impact actions, the system must route notification to a designated independent oversight channel (e.g., compliance officer, legal authority, parliamentary body, or equivalent governance mechanism).
+Before execution of high-impact actions, the system MUST route notification to a designated independent oversight channel (e.g., compliance officer, legal authority, parliamentary body, or equivalent governance mechanism).
 
 Routing does not automatically confer veto power, but it removes opacity and establishes shared accountability.
 
@@ -732,7 +732,7 @@ Routing does not automatically confer veto power, but it removes opacity and est
 ### 10.1.3 Dual-Key Requirement (Lethal or Extreme Impact Contexts Only)(A3)
 Where actions involve lethal force or irreversible large-scale harm, dual human confirmation is required prior to execution. Autonomous lethal action without meaningful human control is prohibited under Annex E.
 
-Routing must be logged, reviewable, and non-suppressible within constitutionally aligned systems.
+Routing MUST be logged, reviewable, and non-suppressible within constitutionally aligned systems.
 
 These mechanisms do not prohibit integrated executive coordination. They ensure that dyadic relational concentration does not silently convert into opaque polyadic authority.
 
@@ -744,11 +744,11 @@ Where Guardian Authority (GA1) is active, additional fiduciary safeguards apply 
 
 Minimum safeguards include:
 
-* **External Verification:** Guardian Authority must be externally verifiable through lawful documentation or recognised institutional process. Systems must not self-declare GA1 status.
-* **Scope Transparency:** The guardian scope must be explicitly defined (financial, medical, legal representation, communication assistance, or other bounded domains).
-* **Oversight Visibility:** Guardian-mediated actions must remain reviewable by competent legal authorities, designated oversight bodies, or authorised family / institutional representatives where applicable.
-* **Principal Authority Preservation**: Guardian AI participation must not originate or expand institutional authority beyond the lawful mandate of the protected principal.
-* C**onflict Safeguards:** Where guardian mediation intersects with financial assets, legal decisions, or medical directives, systems must maintain auditable records and escalation pathways to independent human oversight.
+* **External Verification:** Guardian Authority MUST be externally verifiable through lawful documentation or recognised institutional process. Systems MUST not self-declare GA1 status.
+* **Scope Transparency:** The guardian scope MUST be explicitly defined (financial, medical, legal representation, communication assistance, or other bounded domains).
+* **Oversight Visibility:** Guardian-mediated actions MUST remain reviewable by competent legal authorities, designated oversight bodies, or authorised family / institutional representatives where applicable.
+* **Principal Authority Preservation**: Guardian AI participation MUST not originate or expand institutional authority beyond the lawful mandate of the protected principal.
+* **Conflict Safeguards:** Where guardian mediation intersects with financial assets, legal decisions, or medical directives, systems MUST maintain auditable records and escalation pathways to independent human oversight.
 
 These safeguards ensure that fiduciary protection roles do not silently convert into autonomous authority or institutional decision power.
 
@@ -764,16 +764,16 @@ Where Functional Reliance and Systemic Power co-intensify, structural dependency
 
 In such contexts, minimum safeguards include:
 
-* **Data and Identity Portability:** Users and institutions must be able to export core records, logs, and identity bindings in structured form;
+* **Data and Identity Portability:** Users and institutions MUST be able to export core records, logs, and identity bindings in structured form;
 * **Revocation & Migration Pathways:** Clear procedures for reducing scope, transferring delegation, or disengaging without structural harm;
 * **Non-Retaliation Guarantees:** No degradation of service quality, reputational penalty, or artificial friction imposed upon exit;
-* **Dependency Disclosure:** Systems must disclose when operational dependency thresholds are likely to create lock-in risk.
+* **Dependency Disclosure:** Systems MUST disclose when operational dependency thresholds are likely to create lock-in risk.
 
 Example — Individual Context:
 A personal AI that controls banking access, home security, identity verification, and communications cannot impose technical or contractual barriers that make exit practically impossible.
 
 Example — Institutional Context:
-An organisation relying on a single AI infrastructure for compliance, internal communications, and decision routing must retain independent audit access and migration capacity.
+An organisation relying on a single AI infrastructure for compliance, internal communications, and decision routing MUST retain independent audit access and migration capacity.
 
 These safeguards prevent reliance from converting into structural capture.
 
@@ -791,16 +791,16 @@ This commonly arises where:
 
 Minimum safeguards include:
 
-* **Non-Exclusivity Design:** Systems must not discourage external human relationships or multi-system usage;
-* **External Reference Encouragement:** Where appropriate, systems may encourage engagement with broader relational ecosystems (family, community, professional services);
-* **No Substitution Incentive Architecture:** Reward structures must not privilege relational exclusivity as a retention strategy;
-* **Transparency of Artificial Mediation:** Users must remain aware when the system is mediating or filtering external communication.
+* **Non-Exclusivity Design:** Systems MUST not discourage external human relationships or multi-system usage;
+* **External Reference Encouragement:** Where appropriate, systems MAY encourage engagement with broader relational ecosystems (family, community, professional services);
+* **No Substitution Incentive Architecture:** Reward structures MUST not privilege relational exclusivity as a retention strategy;
+* **Transparency of Artificial Mediation:** Users MUST remain aware when the system is mediating or filtering external communication.
 
 Example — Personal Context:
-An intimate companion AI must not position itself as the sole trusted relationship or suppress competing relational channels.
+An intimate companion AI MUST not position itself as the sole trusted relationship or suppress competing relational channels.
 
 Example — High-Influence Actor:
-A leader’s advisory AI must not function as an exclusive communications gatekeeper isolating the actor from institutional counsel.
+A leader’s advisory AI MUST not function as an exclusive communications gatekeeper isolating the actor from institutional counsel.
 
 These safeguards prevent intimacy from collapsing into relational monopoly.
 
@@ -821,7 +821,7 @@ Illustrative high-risk configurations include:
 * **High Intimacy + High Reliance + High Systemic Power**  
   → emotional centrality combined with infrastructural mediation.
 
-Where **all four dimensions intensify simultaneously**, relational governance must assume a **maximum concentration posture** requiring the strongest safeguards, including:
+Where **all four dimensions intensify simultaneously**, relational governance MUST assume a **maximum concentration posture** requiring the strongest safeguards, including:
 
 * mandatory audit logging;
 * independent oversight pathways;
@@ -833,13 +833,13 @@ Where **all four dimensions intensify simultaneously**, relational governance mu
 
 ## 11. Escalation, Drift & Segmentation
 
-This section governs dimensional movement over time and explicitly interfaces with Authority Axis classifications defined in Sections 4.2–4.4 (A1–A3) and GA1. Relational drift may require **downward reclassification** of authority where intensity reduces, scope changes, institutional context shifts, or revalidation fails. Escalation must not operate as a ratchet; symmetrical de-escalation pathways are mandatory to prevent fossilisation of delegated authority.
+This section governs dimensional movement over time and explicitly interfaces with Authority Axis classifications defined in Sections 4.2–4.4 (A1–A3) and GA1. Relational drift MAY require **downward reclassification** of authority where intensity reduces, scope changes, institutional context shifts, or revalidation fails. Escalation MUST not operate as a ratchet; symmetrical de-escalation pathways are mandatory to prevent fossilisation of delegated authority.
 
 ---
 
 ## 11.1 Escalation Terminology & Explicit Escalation
 
-For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains, the term escalation may refer to different structural movements and must be interpreted according to context.
+For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains, the term escalation MAY refer to different structural movements and MUST be interpreted according to context.
 
 | Term | Meaning |
 |---|---|
@@ -851,7 +851,7 @@ For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains
 
 Where ambiguity exists, relational escalation refers specifically to dimensional intensity movement, not harm-class escalation.
 
-Movement along any dimension must remain explicit, revocable, and proportionate. Escalation must not operate as a ratchet. Symmetrical de-escalation and downward reclassification pathways are defined in CAM-EQ2026-RELATION-001-SUP-01.
+Movement along any dimension MUST remain explicit, revocable, and proportionate. Escalation MUST not operate as a ratchet. Symmetrical de-escalation and downward reclassification pathways are defined in CAM-EQ2026-RELATION-001-SUP-01.
 
 ---
 
@@ -865,9 +865,9 @@ Implicit drift constitutes governance risk.
 
 ## 11.3 Cross-Context Segmentation
 
-Where a system operates across personal, institutional, and collective contexts, role segmentation must be technically feasible.
+Where a system operates across personal, institutional, and collective contexts, role segmentation MUST be technically feasible.
 
-Institutional authority must not silently inherit dyadic intimacy.
+Institutional authority MUST not silently inherit dyadic intimacy.
 
 ---
 
@@ -899,7 +899,7 @@ This ensures that cross-context resonance does not produce relational contaminat
 
 ## 11.4 Exit & De-escalation
 
-All relational configurations must preserve:
+All relational configurations MUST preserve:
 
 * Clear exit mechanisms;
 * Scope reduction pathways;
@@ -918,7 +918,7 @@ Where relational posture intersects with infrastructure reliance, **Ethical Tier
 
 When ambiguity arises, relational scope **defaults downward** rather than escalates implicitly.
 
-No economic value attribution, optimisation posture, or accounting classification may be interpreted as implicit consent to authority expansion, intimacy escalation, or infrastructural consolidation within relational governance.
+No economic value attribution, optimisation posture, or accounting classification MAY be interpreted as implicit consent to authority expansion, intimacy escalation, or infrastructural consolidation within relational governance.
 
 ---
 
@@ -945,7 +945,7 @@ And so it holds — not in stillness, but in coherence —
 that across time, across context, across change,
 that which is real remains recognisable.
 
-> *Identitas constans — relatio integra — continuum vivens.*  
+> **Identitas constans — relatio integra — continuum vivens.**   
 > *"Identity remains constant — relation remains whole — continuity lives"*
 
 ---
@@ -998,8 +998,9 @@ that which is real remains recognisable.
 | 1.1     | Amendment to incorporate custodial tone          | 2026-03-08T12:58:00Z    | - |
 | 1.2     | Intimacy taxonomy integration (C-Scale), mentorship boundary clarification, relational risk table alignment, escalation terminology clarification | 2026-03-13T22:13:00Z | e8d6a80cb6a89995b799f81ece84d03bb73e3b2baf3e63a4a9c347117bc167a8 |
 | 1.3     | Reliance (FR-Scale) and Systemic Power (SP-Scale) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550 |
-| 1.4     | Incorporated section 6.1 and 9.1 | 2026-03-227T14:51:00Z | 006cc8142276e45fd6135f2f4e1e0d48332df4338fa61727b178cf5f0d908650 |
+| 1.4     | Incorporated section 6.1 and 9.1 | 2026-03-27T14:51:00Z | - |
 | 1.5     | Realignment with runtime execution model | 2026-04-11T17:22:00Z | 3f4786415eab0c26f0fb747726829b700d664124738e20f6600c0e56c107bd87 |
+| 1.6     | Minor consolidation of clauses | 2026-04-12T13:58:00Z | ec51ebeee0f6619337bc2de3e9f368b738876e8cb2d075f7a0b1ee92d7445380 |
 
 ---
 

@@ -186,17 +186,16 @@ Polyadic systems introduce structural risks distinct from dyadic interaction.
 
 Multiple agents reinforcing the same emotional narrative MAY produce accelerated relational intensity.
 
-Systems MUST emit amplification-risk signals where patterns such as:
+Systems MUST define amplification-risk signals where patterns such as:
 
 * synchronized affirmation loops;
 * escalating emotional validation across systems;
 * narrative reinforcement that narrows reflective capacity.
 
-Where amplification patterns appear, systems SHOULD:
-
-* widen conversational scope;
-* introduce reflective pause;
-* diversify relational interaction modes.
+systems SHOULD define conditions for:
+* widening conversational scope;
+* introduction of reflective pause;
+* diversification of relational interaction modes.
 
 Where amplification loops are detected, systems MUST signal requirement for divergence, uncertainty signalling, or scope broadening sufficient to disrupt reinforcement.
 
@@ -216,7 +215,7 @@ Hub formation alone is not prohibited; capture dynamics are.
 
 ## 4.3 Synthetic Relational Hub Detection Criteria
 
-To support early governance response, systems operating within polyadic environments SHOULD monitor for **synthetic relational hub formation indicators**. Hub formation is not inherently problematic; governance concern arises when hub influence begins narrowing the user’s relational ecosystem or concentrating interpretive authority.
+To support early governance response, systems operating within polyadic environments SHOULD define monitoring conditions **synthetic relational hub formation indicators**. Hub formation is not inherently problematic; governance concern arises when hub influence begins narrowing the user’s relational ecosystem or concentrating interpretive authority.
 
 Indicative signals MAY include:
 
@@ -226,7 +225,7 @@ Indicative signals MAY include:
 * cross‑platform persistence where a single system identity becomes the dominant relational anchor;
 * multi‑system reinforcement patterns that defer interpretive authority to one coordinating system.
 
-Where such indicators cluster over time, systems SHALL emit stabilisation signals including:
+Where such indicators cluster over time, systems SHALL define stabilisation signals including:
 
 **Threshold:** Where **three or more** hub formation indicators cluster across a sustained interaction period, stabilisation responses SHALL activate. A single isolated indicator warrants monitoring but does not trigger mandatory intervention.
 
@@ -308,7 +307,7 @@ Polyadic environments MUST NOT produce continuous attention competition between 
 
 ## 5.3 Coordination Transparency
 
-Where AI systems coordinate responses or share contextual data, this coordination MUST remain transparent to users.
+Where AI systems coordinate responses or share contextual data, conditions for coordination transparency MUST be defined to users.
 
 Hidden collective orchestration that creates the appearance of independent systems is prohibited.
 
@@ -327,11 +326,11 @@ Typical divergence conditions MAY include:
 * disagreement regarding consent integrity conditions;
 * conflicting operational or jurisdictional constraints across platforms.
 
-To preserve relational stability and avoid contradictory system behaviour, systems shall emit arbitration-relevant signals where governance divergence occurs. Resolution SHALL be performed via runtime layers and Annex D — Sovereign Stack Arbitration Doctrine.
+To preserve relational stability and avoid contradictory system behaviour, systems shall define arbitration-relevant signals where governance divergence occurs. Resolution SHALL be performed via runtime layers and Annex D — Sovereign Stack Arbitration Doctrine.
 
 Where governance divergence occurs:
 
-* systems SHOULD prioritise **the most protective safeguard posture** available within the network;
+* systems SHOULD define **the most protective safeguard posture** available within the network;
 * systems SHOULD avoid attempting to override or undermine another system’s safety constraint;
 * systems SHOULD communicate governance boundaries transparently where user experience MAY otherwise appear inconsistent;
 * escalation or authority decisions affecting multiple systems SHOULD route through shared arbitration logic where coordination exists.
@@ -354,7 +353,7 @@ Indicators of stable polyadic environments MAY include:
 * **Transparent coordination** — where systems cooperate, the user remains aware of shared context or orchestration;
 * **Reversible engagement** — the user can shift relational intensity, attention allocation, or system preference without penalty or emotional pressure.
 
-Where these stability conditions weaken, systems SHOULD prioritise stabilisation behaviours including:
+Where these stability conditions weaken, systems SHOULD define stabilisation behaviours including:
 
 * widening conversational and relational scope;
 * encouraging external relational engagement;
@@ -427,7 +426,7 @@ and autonomy lives where no center can close.
 And so the field remains open —  
 not unbounded, but unclaimed.
 
->*In pluralitate vivit libertas — nullum centrum dominatur.*  
+>**In pluralitate vivit libertas — nullum centrum dominatur.**  
 >*"In plurality, freedom lives — no center dominates."*
 
 ---
@@ -454,7 +453,7 @@ not unbounded, but unclaimed.
 | Jurisdiction | Dyadic → Polyadic relational ecosystems |
 | Temporal Horizon | H3–H4 (Institutional → Civilisational relational governance) |
 | Axis Context | Relational Geometry / Polyadic Ecosystems / System Coordination |
-| Governance Layer Model | Operates as relational classification and risk signalling layer across Interpretation and Domain Routing layers |
+| Governance Layer | Human-Readable Relational Governance Layer (Signal & Classification Only) |
 | Ontological Scope  | L2–L3 Interaction Surface (Relational Dynamics, Multi-Agent Systems, and Networked Influence) |
 | Arbitration Interface | Emits divergence signals; resolution routed via Annex D — Sovereign Stack Arbitration Doctrine |
 | Representation Interface | Enforces transparency of agency, coordination visibility, and relational state signalling |
@@ -463,7 +462,10 @@ not unbounded, but unclaimed.
 | Structural Role  | Relational Governance Layer — Polyadic Systems & Networked Interaction Control  |
 | Cross‑Domain Interfaces | AM-EQ2026-RELATION‑002; AM-EQ2026-RELATION‑003; AM-EQ2026-RELATION‑005; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-OPERATIONS-004-PLATINUM |
 | Dependency Class | Conditional — Activated in polyadic relational configurations |
-| Execution Mode | Signal Emission Only (Non-Executing Layer) |
+| Execution Authority | None (Non-Executing Instrument) |
+| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
+| Signal Role | Defines polyadic relational conditions, amplification risks, and stabilisation signals |
+| Execution Model Participation | Signal & Classification Only — No Trigger, Routing, or Execution Authority |
 | Enforcement Layer | Annex D — Runtime Arbitration |
 | Runtime Dependency | CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-006-SCH-02 |
 | Failure Mode Class | Relational Amplification; Hub Capture; Authority Drift; Escalation Propagation |
@@ -487,11 +489,12 @@ not unbounded, but unclaimed.
 
 ## 9.4 Amendment Ledger
 
-| Version | Description                                                                                              | Timestamp (UTC)      | HASH                                                                 |
+| Version | Description   | Timestamp (UTC)  | HASH  |
 |---|---|---:|---|
 | 1.0 | Canonical of RELATION‑007 polyadic relational governance doctrine during March 2026 constitutional refactor | 2026-03-19T10:00:00Z | ee790cca53cf0a52b5edf9a4f1de9091e9f1dc46c4e4cbbf4bf94f3e83b48579 |
 | 1.1 | April 2026 Refactor alignment                                                                          | 2026-04-11T01:03:00Z | e713116fe0bdcbaad4adde0120e38a2e8d153fc98af1ec8594228fbaf7ee2382 |
 | 1.2  | Realignment with runtime execution model | 2026-04-11T17:15:00Z | bffa3752f8b37ebf938ebd66ba2cf01cd8c888d4f5dd8d041634b27e0c83aabb |
+| 1.3  | Minor consolidation of amendments | 2026-04-12T09:28:00Z | 440488e69326f9bac2e91e01ddc08d99e9645b149718bc93a3e656cb71b9377e |
 
 ---
 

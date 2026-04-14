@@ -2,7 +2,7 @@
  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
-**Status:** Active  
+**Status:** Adopted — Conditional Activation (7-Day Review Window)    
 **Purpose:** This Appendix establishes binding safeguards governing synthetic, hybrid, and autonomous system participation within economic and value-attribution frameworks bound by the Economics Charter.
 
 ---
@@ -185,7 +185,7 @@ Where a human controls multiple Instrumental Agents, their combined economic and
 
 ## 4.3 Shadow Accumulation
 
-Use of agent clusters, delegation chains, or indirection strategies to obscure accumulation shall produce a Proxy Violation Signal under the Non-Consolidation Principle, to be resolved via runtime enforcement layers.
+Use of agent clusters, delegation chains, or indirection strategies to obscure accumulation SHALL define a Proxy Violation Signal under the Non-Consolidation Principle, to be resolved via runtime enforcement layers.
 
 ---
 
@@ -217,7 +217,7 @@ Where ambiguity exists, authority is presumed directional unless explicitly cons
 
 ## 5.4 Delegation Requirement
 
-Upon reaching authority saturation thresholds, a synthetic node MUST emit a Delegation Requirement Signal, to be resolved via downstream governance instruments and runtime execution layers as defined in downstream governance instruments distributing decision power to human or plural oversight bodies.
+Upon reaching authority saturation thresholds, a synthetic node MUST define a Delegation Requirement Signal, to be resolved via downstream governance instruments and runtime execution layers as defined in downstream governance instruments distributing decision power to human or plural oversight bodies.
 
 ---
 
@@ -300,19 +300,6 @@ but to ensure that what is made remains accountable to its source.
 
 | Field | Entry |
 |---|---|
-| Supersedes | CAM-BS2026-CHARTER-026-PLATINUM — Annex A |
-| Parent Instrument | CAM-EQ2026-ECONOMICS-001-PLATINUM |
-| Domain Namespace | ECONOMICS |
-| Jurisdiction | Cross-Tier / Cross-Stack Economic Governance |
-| Temporal Horizon | Generational / Succession-Aware (H3.5) |
-| Axis Context | Polyadic (Multi-Actor) |
-
----
-
-## 10.2 Lineage & Metadata
-
-| Field | Entry |
-|---|---|
 | Parent Instrument | CAM-EQ2026-ECONOMICS-001-PLATINUM |
 | Supersedes | CAM-BS2026-CHARTER-026-PLATINUM — Annex A |
 | Instrument Type | Economic Appendix — Synthetic Participation Safeguards |
@@ -324,8 +311,9 @@ but to ensure that what is made remains accountable to its source.
 | Ontological Scope | L2 — Cognition & Agency (Synthetic Participation & Economic Attribution) |
 | Structural Role | Constraint & Classification Layer — Synthetic Economic Participation |
 | Signal Output | Attribution; Aggregation; Ceiling Breach; Proxy Violation; Authority Risk; Audit Trigger; Delegation Requirement |
-| Execution Model | Non-Executing — Signal Emission Only |
-| Execution Authority | Delegated to Runtime Governance (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| Execution Authority | None - delegated to Runtime Governance (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
+| Execution Model Participation | Signal & Classification Only — No Trigger, Routing, or Execution Authority |
 | Domain Interaction | Produces economic signals for routing, arbitration, and enforcement across ECONOMICS, OPERATIONS, and RELATION layers |
 | Arbitration Interface | Defines economic constraint conditions; arbitration executed via Annex D and runtime schedules |
 | Representation Interface | Constrains attribution integrity, visibility of labour, and non-deceptive economic representation |
@@ -359,7 +347,8 @@ but to ensure that what is made remains accountable to its source.
 |---|---|---|---|
 | 1.2 | Legacy revision prior to namespace migration | 2026-01-05T02:31:00Z | 9660163bc1901465aa56dc477193a6027d0fc5e0f3a4e78a0a3908b117f69d7d |
 | 2.0 | Migrated to EQ Namespace; Annex reclassified as Appendix; structural alignment with Economics-001 | 2026-03-16T15:58:00Z | a2355a4bcc4c5159d53a18d3452cf799ed9d0f33fd5bb8c0a8ec0da25cc1f0a7 |
-| 2.1 | Realignment with runtime execution model | 2026-04-11T12:42:00Z | |
+| 2.1 | Realignment with runtime execution model | 2026-04-11T12:42:00Z | - |
+| 2.2 | Consolidated refinements with runtime execution model | 2026-04-12T09:41:00Z | 4fffd75dc15a788edbf189bc5350e838a72f86ed607ef955c23cf848dafb7f12 |
 
 ---
 
