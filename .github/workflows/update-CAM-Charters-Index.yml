@@ -6,6 +6,8 @@ on:
     paths:
       - ".github/Scripts/lib/**"
       - ".github/Scripts/update-CAM-Charters-Index.py"
+      - ".github/Scripts/update-CAM-Governance-Index.py"
+      - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
       - ".github/Scripts/instrument_parser.py"
       - "Governance/Charters/**"
       - "!Governance/Charters/CAM-Charters-Index.md"
@@ -38,7 +40,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push Charters index + JSON (hardened)
+      - name: Generate + commit + push Charters index + Governance aggregate + SCH-03 (hardened)
         shell: bash
         run: |
           set -euo pipefail
@@ -55,10 +57,21 @@ jobs:
             echo "---- Attempt ${attempt} ----"
 
             # Always regenerate from the current working tree state
+            # Order is authoritative and required:
+            # 1) per-domain JSON generation
             python .github/Scripts/update-CAM-Charters-Index.py
+            # 2) aggregate governance JSON/index from per-domain JSON outputs
+            python .github/Scripts/update-CAM-Governance-Index.py
+            # 3) SCH-03 from aggregate governance JSON
+            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
-            # Stage only the two generated artifacts
-            git add Governance/Charters/CAM-Charters-Index.md Governance/Charters/charters.index.json
+            # Stage generated artifacts in dependency order
+            git add \
+              Governance/Charters/CAM-Charters-Index.md \
+              Governance/Charters/charters.index.json \
+              Governance/CAM.Governance.Index.md \
+              Governance/CAM.Governance.JSON \
+              Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
 
             # If nothing changed, exit cleanly
             if git diff --cached --quiet; then
@@ -70,7 +83,7 @@ jobs:
             git diff --cached --name-only
 
             # Commit (will fail if identity missing; we set it above)
-            git commit -m "[AUTO][Charters] Refresh CAM Charters index + JSON"
+            git commit -m "[AUTO][Charters] Refresh charter index, aggregate governance JSON, and SCH-03"
 
             # Try to push
             if git push origin HEAD:main; then
