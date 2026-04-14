@@ -6,8 +6,6 @@ on:
     paths:
       - ".github/Scripts/lib/**"
       - ".github/Scripts/update-CAM-Charters-Index.py"
-      - ".github/Scripts/update-CAM-Governance-Index.py"
-      - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
       - ".github/Scripts/instrument_parser.py"
       - "Governance/Charters/**"
       - "!Governance/Charters/CAM-Charters-Index.md"
@@ -22,6 +20,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     env:
       BOT_NAME: github-actions[bot]

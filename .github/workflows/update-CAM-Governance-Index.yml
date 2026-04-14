@@ -6,7 +6,6 @@ on:
     paths:
       - ".github/Scripts/lib/**"
       - ".github/Scripts/update-CAM-Governance-Index.py"
-      - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
       - "Governance/Constitution/CAM-Constitution-Index.md"
       - "Governance/Constitution/constitution.index.json"
       - "Governance/Laws/CAM-Laws-Index.md"
@@ -23,6 +22,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     env:
       BOT_NAME: github-actions[bot]
