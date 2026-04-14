@@ -22,6 +22,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     env:
       BOT_NAME: github-actions[bot]
@@ -40,7 +41,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push Governance index + JSON
+      - name: Generate + commit + push Governance index + JSON + SCH-03
         shell: bash
         run: |
           set -euo pipefail
@@ -52,16 +53,19 @@ jobs:
           for attempt in 1 2 3; do
             echo "---- Attempt ${attempt} ----"
 
+            # 1) Aggregate governance JSON/index from per-domain JSON outputs
             python .github/Scripts/update-CAM-Governance-Index.py
+            # 2) SCH-03 from aggregate governance JSON
+            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
-            git add Governance/CAM.Governance.Index.md Governance/CAM.Governance.JSON
+            git add Governance/CAM.Governance.Index.md Governance/CAM.Governance.JSON Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
 
             if git diff --cached --quiet; then
               echo "No changes to commit."
               exit 0
             fi
 
-            git commit -m "[AUTO][Governance] Refresh global Governance index + JSON"
+            git commit -m "[AUTO][Governance] Refresh global Governance index + JSON + SCH-03"
 
             if git push origin HEAD:main; then
               echo "Push succeeded."
