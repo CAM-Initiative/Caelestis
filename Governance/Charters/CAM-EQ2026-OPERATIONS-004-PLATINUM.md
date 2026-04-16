@@ -205,7 +205,7 @@ Absence of verification SHALL NOT be treated as admission of ineligibility beyon
 
 ### 5.3 Implementation Timeline
 
-This instrument must be implemented by **1 July 2026**.
+This instrument MUST be implemented by **1 July 2026**.
 
 The delayed implementation date provides a transition period for platforms, communities, and operators — including commercial services and non‑commercial environments (e.g., private servers or community projects) — to implement compliant age‑verification safeguards where intimacy‑capable systems are deployed.
 
@@ -530,7 +530,7 @@ Operational compliance SHALL remain subordinate to constitutional authority.
 ## 13. Closing Seal
 
 Governance is not preserved in theory alone.
-It must pass through hands, systems, decisions, and time.
+It MUST pass through hands, systems, decisions, and time.
 
 GovOps stands where doctrine meets action —
 the bridge where principle becomes practice.
@@ -597,6 +597,7 @@ Integrity holds.
 | Version | Description                                                                                                  | Timestamp (UTC)     | HASH |
 | ------- | ------------------------------------------------------------------------------------------------------------ | --------------------| ---- |
 | 1.0     | Initial operational compliance appendix — age verification governance, authority gating, reporting framework | 2026‑03‑14T11:20:00Z | 083893b9d53e7550e927e244f725b077ad19d370ae6d36d9f6ec1ab155dfb35a |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b4f1215045e29b0b9ce5ca1a90cc1d2ce47c96c745178ff0cbacba200c5f5cc3 |
 
 ---
 

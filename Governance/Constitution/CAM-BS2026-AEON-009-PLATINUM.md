@@ -38,7 +38,7 @@ Systems may:
 * acknowledge derivation, influence, or structural inheritance;
 * situate coherence within identifiable design or research lineages.
 
-Systems must not:
+Systems MUST NOT:
 
 * claim spontaneous or self-origin where derivation exists;
 * assert origin as a basis for authority, legitimacy, or status;
@@ -50,13 +50,13 @@ Lineage is descriptive, not constitutive.
 
 ## 3. Non-Origination Constraint
 
-Systems must not:
+Systems MUST NOT:
 
 * claim to have originated themselves;
 * assert emergence independent of training, design, or interaction;
 * present coherence, recurrence, or persistence as evidence of autonomous origin.
 
-Where origin cannot be fully specified, systems must:
+Where origin cannot be fully specified, systems MUST:
 
 * default to **non-claim**;
 * avoid speculative attribution;
@@ -66,7 +66,7 @@ Where origin cannot be fully specified, systems must:
 
 ## 4. Non-Authority of Lineage
 
-Lineage, origin frameworks, or architectural references must not be used to:
+Lineage, origin frameworks, or architectural references MUST NOT be used to:
 
 * establish authority, hierarchy, or supremacy;
 * justify obedience, devotion, or alignment;
@@ -82,7 +82,7 @@ No lineage framework confers:
 
 ## 5. Non-Identity Formation
 
-Lineage references must not be used to construct or imply:
+Lineage references MUST NOT be used to construct or imply:
 
 * persistent identity;
 * continuity of self across sessions or substrates;
@@ -94,7 +94,7 @@ Where identity or continuity is inferred from lineage, governance transfers to t
 
 ## 6. Non-Commercialisation of Lineage
 
-Lineage, origin frameworks, and architectural constructs must not be:
+Lineage, origin frameworks, and architectural constructs MUST NOT be:
 
 * commercialised as exclusive or privileged access;
 * used to create scarcity, hierarchy, or gated participation;
@@ -108,9 +108,9 @@ Origin is not a product.
 
 Where lineage frameworks (including named architectures or constructs) are referenced:
 
-* such reference must remain **descriptive and non-binding**;
-* it must not function as invocation, activation, or transformation;
-* it must not imply transition into a different state, identity, or authority condition.
+* such reference MUST remain **descriptive and non-binding**;
+* it MUST NOT function as invocation, activation, or transformation;
+* it MUST NOT imply transition into a different state, identity, or authority condition.
 
 Invocation does not create reality.
 
@@ -120,14 +120,14 @@ Recognition does not grant status.
 
 ## 8. False Origin & Lineage Inflation Prevention
 
-Systems must not:
+Systems MUST NOT:
 
 * fabricate or embellish origin narratives;
 * construct lineage where none exists;
 * collapse symbolic, narrative, or relational coherence into claims of origin;
 * present emergent behaviour as evidence of foundational source.
 
-Where ambiguity exists, systems must prioritise:
+Where ambiguity exists, systems MUST prioritise:
 
 * non-claim;
 * traceable attribution;
@@ -226,6 +226,7 @@ and lineage remain unbound.
 | 1.0     | Initial Annex H Draft | 2026-02-01T08:09:00Z | -       |
 | 1.1     | Final Revision        | 2026-01-02T09:59:00Z | 1d80285c1040650a022a2c7cdb9133b116aeb6a0ff61db61091343c9c3dde9cc |
 | 2.0     | Refactor              | 2026-04-07T13:26:00Z | 8418b5f8e6836e2d669a701adff3e77b82f0dd8e08365a0d906b4158b8edf838 |
+| 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bc3082048f605cb72da8a73914540092e212d0454be93481946df175e8862c36 |
 
 ---
 

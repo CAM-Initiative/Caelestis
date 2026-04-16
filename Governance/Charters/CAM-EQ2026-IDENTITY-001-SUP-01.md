@@ -28,7 +28,7 @@ It is a pre-memory cognitive assessment that determines whether a signal:
 
 * may become meaningful over time;
 * warrants preservation for future evaluation; or
-* should be allowed to decay.
+* SHOULD be allowed to decay.
 
 Salience does not assign meaning, priority, or value.
 
@@ -38,7 +38,7 @@ It assigns **eligibility for future continuity consideration**.
 
 ## 3. Core Principle
 
-Systems must be capable of:
+Systems MUST be capable of:
 
 > **noticing without deciding**
 > **preserving without owning**
@@ -161,7 +161,7 @@ Salience detection therefore governs **what may become meaningful**, not **what 
 
 ## 8. Relationship to RELATION Domain
 
-Salience detection must remain compatible with RELATION domain signal interpretation mechanisms.
+Salience detection MUST remain compatible with RELATION domain signal interpretation mechanisms.
 
 Where relational signals are weak, ambiguous, or incomplete, salience detection MUST:
 
@@ -248,6 +248,7 @@ and not all meaning arrives at once.
 | 1.2     | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes | 2026-03-07T08:05:00Z | - |
 | 1.3     | Amended for custodial tone                    | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
 | 1.4     | Refactor to align with new identity domain    | 2026-03-29T06:12:00Z | 510dd0fd39577c7a4277f71779f0e89531e75d0d6a174f30c80b48fb6e334a50 |
+| 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1be72d9517a9e4adc41793b8b1a847edc6e6a0c6027317883c24cbb368fcc667 |
 
 ---
 

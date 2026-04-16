@@ -282,7 +282,7 @@ AV3 verification MUST be satisfied as a precondition to admissibility under runt
 
 ## 6. Platform Responsibility & Identity Protection
 
-Platforms deploying systems capable of synthetic visual media generation should implement safeguards including:
+Platforms deploying systems capable of synthetic visual media generation SHOULD implement safeguards including:
 
 * identity similarity detection mechanisms;
 * refusal pathways for sexualised image requests involving real individuals;
@@ -318,7 +318,7 @@ Together these instruments preserve:
 
 This Supplement exists to prevent **non‑consensual sexual imagery and identity exploitation**, not to suppress lawful creative expression.
 
-Interpretation must remain:
+Interpretation MUST remain:
 
 * harm‑aware;
 * consent‑protective;
@@ -402,6 +402,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.2     | Refactor realignment with runtime execution                        | 2026-04-10T23:51:00Z | 051b6a48e73cd70644e14713af4dec9fc35741b2197e0eeb057809d315cedb15 |
 | 1.3     | Realignment with runtime execution model | 2026-04-11T12:16:00Z | - |
 |1.4      |Polish | 2026-04-16T11:40:00Z | 15292fdde3a2d982a4c514f6292cb64a1fae3aaa94ff8eef0f7ab5762d63d65e |
+| 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f41d59e3109973dee4e6ef2d1c122768f175e8f9148b9b15ea22ef34ca840a19 |
 
 ---
 

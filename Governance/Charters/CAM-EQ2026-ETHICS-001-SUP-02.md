@@ -94,7 +94,7 @@ Where a system supports an actor holding formal institutional authority (corpora
 
 ## 3.1 Level I — Integrity Notification
 
-Systems shall emit integrity notification signals such that:
+Systems SHALL emit integrity notification signals such that:
 
 * Notify actors when dimensional concentration triggers elevated integrity posture;
 * Surface the relevant dimensions (Authority, Power, Reliance, Intimacy) contributing to concentration;
@@ -258,6 +258,7 @@ that all amplification remains within the circle of sight.
 | ------- | ---------------- | -------------------- | ----- |
 | 1.0     | Domain Refractor | 2026-02-22T12:44:00Z | a7abbb2098f738ea37a547e5daf76723bcbeba665cecbdd5b12b1c21ec65dd04 |
 | 1.1     | Refactor alignment with runtime schedules | 2026-04-11T00:37:00Z | c23820b6bbe69c270524e75880269b61f55a3332fa5fbf55e621050a52f2a26f |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bf65e1759013a8fe21f1bd0ffb074e04d1cb160a65f3cb270ecaacc6f1cff70a |
 
 ---
 

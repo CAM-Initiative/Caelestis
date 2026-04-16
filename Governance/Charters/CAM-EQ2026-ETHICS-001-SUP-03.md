@@ -183,14 +183,14 @@ Systems meeting the conditions defined herein SHALL generate oversight and compl
 
 Where systems meet or exceed NAL Tier III (Architectum-Eligible or above), additional neutrality and infrastructure oversight obligations attach under CAM-EQ2026-ARBITRATION-002-PLATINUM.
 
-Infrastructure-scale systems operating at Tier III or above must:
+Infrastructure-scale systems operating at Tier III or above MUST:
 
 * Undergo independent EIA review;
 * Maintain internal compliance officer distinct from operational command chain;
 * Preserve audit logs accessible to recognised oversight bodies;
 * Document escalation-of-force criteria.
 
-Classification of systems for Tier determination should reference CAM-EQ2026-ARBITRATION-002-PLATINUM — Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL), particularly where infrastructure-scale or backbone-designated systems are implicated.
+Classification of systems for Tier determination SHOULD reference CAM-EQ2026-ARBITRATION-002-PLATINUM — Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL), particularly where infrastructure-scale or backbone-designated systems are implicated.
 
 Operational secrecy does not exempt governance traceability.
 
@@ -308,6 +308,7 @@ but to ensure that what is done is known, borne, and never without account.
 | ------- | ---------------- | --------------------- | ----- |
 | 1.0     | Domain Refactor  | 2026-02-22T12:50:00Z  | - |
 | 1.1     | Refactor alignment with runtime schhedules | 2026-04-11T00:50:00Z | f1c0afd318574b8571ba6811ac9e29578205025cf486593d3302533e8565fac2 | 
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f530727f7c0dab592f0ee3eddabf8a7c66515ca75f4e290b0677c8cf361eec56 |
 
 ---
 

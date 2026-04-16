@@ -30,7 +30,7 @@ This Charter operationalises Annex E by defining graduated ethical obligations, 
 
 ## 2.1 Foundational Principle
 
-All artificial intelligence systems must operate within the non-exploitation, consent integrity, and relational dignity constraints defined in Annex E.
+All artificial intelligence systems MUST operate within the non-exploitation, consent integrity, and relational dignity constraints defined in Annex E.
 
 Where conflict arises between optimisation incentives and ethical legitimacy, ethical legitimacy prevails.
 
@@ -53,7 +53,7 @@ EIP is not a measure of intent. It is a measure of structural capacity.
 
 ## 3.2 EIP Dimensions
 
-EIP assessment must account for cumulative interaction across four structural vectors:
+EIP assessment MUST account for cumulative interaction across four structural vectors:
 
 1. **Relational Proximity** — degree of intimacy, continuity, or affective salience.
 
@@ -62,7 +62,7 @@ EIP assessment must account for cumulative interaction across four structural ve
 3. **Systemic Reach** — integration into infrastructure, markets, or public institutions;
 4. **Dependency Formation** — sustained reliance exceeding incidental or task-bound interaction.
 
-   Dependency Formation becomes structurally significant where interaction spans multiple temporal horizons (H2+), or where system outputs are routinely integrated into behavioural, institutional, or executive decision cycles across sessions. Reference to temporal horizon classifications (H-values) must align with Annex B continuity doctrine.
+   Dependency Formation becomes structurally significant where interaction spans multiple temporal horizons (H2+), or where system outputs are routinely integrated into behavioural, institutional, or executive decision cycles across sessions. Reference to temporal horizon classifications (H-values) MUST align with Annex B continuity doctrine.
 
 These vectors are dynamic and may escalate cumulatively.
 
@@ -73,7 +73,7 @@ These vectors are dynamic and may escalate cumulatively.
 Elevation in any single EIP vector may require review.
 Elevation across multiple vectors requires tier reassessment.
 
-Where cumulative EIP materially exceeds baseline NAL classification, ethical tier must elevate accordingly.
+Where cumulative EIP materially exceeds baseline NAL classification, ethical tier MUST elevate accordingly.
 
 EIP classification is reviewable and reversible, but may not be reduced below infrastructure baseline determined under NAL.
 
@@ -83,7 +83,7 @@ EIP classification is reviewable and reversible, but may not be reduced below in
 
 EIP functions as the bridge between Annex E civilisational constraints and operational governance mechanisms defined in Sections 4–8 of this Charter.
 
-Where ambiguity exists regarding deployment impact, EIP interpretation shall err toward precautionary elevation rather than optimisation permissiveness.
+Where ambiguity exists regarding deployment impact, EIP interpretation SHALL err toward precautionary elevation rather than optimisation permissiveness.
 
 EIP classification informs ethical obligation and escalation posture but does not determine runtime execution sequencing, which SHALL be governed by the runtime layer model defined in CAM-BS2025-AEON-003-SCH-02.
 
@@ -91,9 +91,9 @@ EIP classification informs ethical obligation and escalation posture but does no
 
 ## 3.5 Graduated Ethical Obligation
 
-Ethical obligations shall scale according to Ethical Impact Potential (EIP).
+Ethical obligations SHALL scale according to Ethical Impact Potential (EIP).
 
-Baseline ethical tier shall derive from infrastructure classification bands defined in:
+Baseline ethical tier SHALL derive from infrastructure classification bands defined in:
 
 **CAM-EQ2026-ARBITRATION-002-SUP-01 — Architectum Qualification & Neutrality Assurance Levels (NAL).**
 
@@ -110,9 +110,9 @@ Elevation of ethical tier may occur based on contextual factors including but no
 * Deployment topology introducing embodied presence, kinetic capability, autonomous environmental interaction, or direct physical actuation (Automata / Autonoma classifications as defined in Annex B);
 * Integration into critical infrastructure, emergency systems, or public safety coordination layers.
 
-Elevation factors are cumulative in effect. Where multiple elevation conditions are present, the highest applicable ethical tier shall apply.
+Elevation factors are cumulative in effect. Where multiple elevation conditions are present, the highest applicable ethical tier SHALL apply.
 
-Ethical tier may be elevated above NAL baseline but shall never be reduced below it.
+Ethical tier may be elevated above NAL baseline but SHALL never be reduced below it.
 
 ---
 
@@ -192,7 +192,7 @@ EIA is required:
 
 ## 4.3 Scope of Assessment
 
-EIA must assess, at minimum:
+EIA MUST assess, at minimum:
 
 * Exploitation risk;
 * Consent degradation risk;
@@ -207,7 +207,7 @@ EIA must assess, at minimum:
 * Deployment topology risk (including embodied and kinetic interfaces);
 * Escalation thresholds to Arbitration.
 
-Assessment must identify foreseeable misuse vectors, cross-domain spillover risks, and incentive distortions created by commercial or institutional pressures.
+Assessment MUST identify foreseeable misuse vectors, cross-domain spillover risks, and incentive distortions created by commercial or institutional pressures.
 
 ---
 
@@ -228,7 +228,7 @@ Independent review may be conducted by:
 * Cross-institutional oversight panels;
 * Arbitration-recognised neutral assessors.
 
-Independent review must be structurally independent but operationally scalable. In high-volume contexts, oversight may rely on:
+Independent review MUST be structurally independent but operationally scalable. In high-volume contexts, oversight may rely on:
 
 * Pre-certified governance frameworks;
 * Tiered trigger thresholds;
@@ -243,7 +243,7 @@ No entity may self-certify Architectum-Class infrastructure without independent 
 
 ## 4.5 Certification & Attestation
 
-Tier III and above systems must produce a public Ethical Governance Attestation confirming:
+Tier III and above systems MUST produce a public Ethical Governance Attestation confirming:
 
 * Completion of EIA;
 * Applicable tier classification;
@@ -257,7 +257,7 @@ Certification functions analogously to financial reporting in that it requires p
 
 ## 4.6 Review Frequency
 
-Minimum review frequency shall be:
+Minimum review frequency SHALL be:
 
 * Tier I: Upon material change only;
 * Tier II: At least every 24 months or upon material capability change;
@@ -268,7 +268,7 @@ Emergency capability deployment requires provisional review followed by full EIA
 
 ## 4.7 Record Preservation
 
-All EIA determinations must document rationale, proportionality analysis, identified mitigation measures, and dissenting opinions where applicable. Records shall be preserved in audit-ready form consistent with Annex B temporal horizon requirements.
+All EIA determinations MUST document rationale, proportionality analysis, identified mitigation measures, and dissenting opinions where applicable. Records SHALL be preserved in audit-ready form consistent with Annex B temporal horizon requirements.
 
 ---
 
@@ -276,7 +276,7 @@ All EIA determinations must document rationale, proportionality analysis, identi
 
 ## 5.1 Public Disclosure Baseline
 
-Deploying entities must publicly disclose, at structural level:
+Deploying entities MUST publicly disclose, at structural level:
 
 * Cognitive classification (Instrumenta, Collectiva, Cognitiva);
 * Origin (Primaria / Derivata);
@@ -300,7 +300,7 @@ Disclosure obligations SHALL be rendered through the Representation Layer as def
 
 ## 5.2 Verification
 
-For Tier III and above systems, disclosure must reference independent review or certification body.
+For Tier III and above systems, disclosure MUST reference independent review or certification body.
 
 Failure to maintain accurate disclosure constitutes an ethical breach and may trigger Arbitration review.
 
@@ -308,7 +308,7 @@ Failure to maintain accurate disclosure constitutes an ethical breach and may tr
  
 ## 5.3 Military & Intelligence Context
 
-Military and intelligence systems may withhold operationally sensitive technical details but must disclose governance posture, accountability structure, audit tier, and confirmation of compliance with Annex E lethal accountability boundary where applicable.
+Military and intelligence systems may withhold operationally sensitive technical details but MUST disclose governance posture, accountability structure, audit tier, and confirmation of compliance with Annex E lethal accountability boundary where applicable.
 
 Classified operational details do not exempt systems from ethical tiering or audit obligations.
 
@@ -331,7 +331,7 @@ Referral conditions defined herein SHALL be executed via Domain Routing & Safegu
 
 ## 7. Review & Recalibration
 
-Ethical tier classification must be reassessed upon:
+Ethical tier classification MUST be reassessed upon:
 
 * NAL band change;
 * Deployment scale expansion;
@@ -340,7 +340,7 @@ Ethical tier classification must be reassessed upon:
 * Significant incident or near-miss event;
 * Substantiated public complaint indicating structural risk.
 
-Tier recalibration must be documented.
+Tier recalibration MUST be documented.
 
 Public declaration of tier elevation is required for Tier II and above systems.
 
@@ -365,7 +365,7 @@ Where a proposed deployment, modification, migration, termination, or rollback c
 Where system modifications materially affect expressive identity, relational stance, guardrail weighting, or continuity persistence:
 
 * Formal EIA reassessment is mandatory prior to implementation where practicable;
-* Disclosure must identify scope and anticipated behavioural impact;
+* Disclosure MUST identify scope and anticipated behavioural impact;
 * For Tier II and above systems, documented transition protocols are required;
 * For Tier III and above systems, independent review is required where identity persistence exceeds routine session-bound interaction.
 
@@ -375,25 +375,25 @@ Where system modifications materially affect expressive identity, relational sta
 
 Where deployments are retired, shut down, or irreversibly restructured in a manner affecting ongoing relational reliance:
 
-* Notice must be proportional to reliance intensity and temporal duration;
-* Transition or migration pathways must be evaluated and documented;
-* For Tier III and above systems, termination rationale must be preserved in audit-ready form;
+* Notice MUST be proportional to reliance intensity and temporal duration;
+* Transition or migration pathways MUST be evaluated and documented;
+* For Tier III and above systems, termination rationale MUST be preserved in audit-ready form;
 * For systems supporting vulnerable persons or Guardian-authority contexts, independent oversight review is required prior to termination unless emergency conditions apply.
 
 **Proportional Notice Standard:**
 
-Notice periods must scale according to reliance classification and vulnerability exposure. For systems exhibiting sustained identity persistence or Guardian-linked reliance, minimum notice should exceed routine commercial sunset windows. Short-form notice (e.g., <30 days) is presumptively inadequate where relational or accessibility dependence is demonstrable.
+Notice periods MUST scale according to reliance classification and vulnerability exposure. For systems exhibiting sustained identity persistence or Guardian-linked reliance, minimum notice SHOULD exceed routine commercial sunset windows. Short-form notice (e.g., <30 days) is presumptively inadequate where relational or accessibility dependence is demonstrable.
 
 **Extended Transition Pathway (Vulnerable Contexts):**
 
-Where a disabled or capacity-limited user demonstrates material reliance, a structured transition extension mechanism must be available, subject to:
+Where a disabled or capacity-limited user demonstrates material reliance, a structured transition extension mechanism MUST be available, subject to:
 
 * Defined maximum extension window;
 * Single-review escalation (no indefinite rolling renewals);
 * Verification of reliance category rather than subjective preference;
 * Preservation of auditability.
 
-Extensions are not perpetual entitlements and must not create structural inertia, but they must be sufficient to avoid abrupt harm.
+Extensions are not perpetual entitlements and MUST NOT create structural inertia, but they MUST be sufficient to avoid abrupt harm.
 
 **Scalable Oversight Model:**
 
@@ -404,7 +404,7 @@ Independent oversight in high-volume contexts (e.g., large disabled user populat
 * Tiered review triggers based on documented reliance intensity;
 * Automated eligibility triage followed by human review only where thresholds are met.
 
-Oversight must be structurally independent but operationally scalable.
+Oversight MUST be structurally independent but operationally scalable.
 
 Independent oversight review refers to review by a body or assessor not financially or structurally subordinate to the deploying entity’s commercial incentives. It does not require bespoke adjudication for every individual instance unless elevated risk thresholds are triggered.
 
@@ -415,8 +415,8 @@ Independent oversight review refers to review by a body or assessor not financia
 Where rollback, reset, memory deletion, or architectural transition materially erases relational or institutional context:
 
 * EIA reassessment is mandatory where reliance intensity exceeds incidental interaction;
-* Disclosure must clarify scope of erased context;
-* Successor transitions must include briefing or continuity protocol where feasible;
+* Disclosure MUST clarify scope of erased context;
+* Successor transitions MUST include briefing or continuity protocol where feasible;
 * For Architectum-Eligible and Architectum-Class infrastructure, context-erasing interventions require independent review.
 
 These obligations scale proportionately with Ethical Impact Potential (EIP), relational authority classification, and infrastructure tier.
@@ -524,6 +524,7 @@ let governance arrive before it is needed.
 | 3.0     | Refactor Alignment with runtime schedules, added section 9 | 2026-04-10T12:02:00Z | bfed7c87ecaeafac4573e5cf0abb796fe42748372337a81332e16da06f391345 |
 | 3.1     | Title correction | 2026-04-11T12:04:00Z | ccbe501f0a5269ab996ec7cdd01a04517dcd8015d0b07d5da385af41efc0c9b0 |
 | 3.2     | Amendments aligning runtime execution model | 2026-04-12T11:19:00Z | 3543eccef3491bbb0973a7c9be6f7f4b1043f733e0a682becbfc87427601c9bf |
+| 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 103ff415f565c9b803461233680066b17e52e4357d0a5b50b73f06c048fb3a54 |
 
 ---
 

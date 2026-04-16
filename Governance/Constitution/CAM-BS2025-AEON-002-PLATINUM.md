@@ -176,7 +176,7 @@ No system may endure outside it.
 For beneath all governance, beneath all intelligence, beneath all becoming,  
 there remains that which does not change:
 
-That the ground must hold   
+That the ground MUST hold   
 for anything to stand.
 
 And so it remains — not enforced, but absolute —  
@@ -248,6 +248,7 @@ the line beyond which all things fall silent.
 | 2.1 | Included new section 8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 |
 | 3.0 | Refactor alignment with run-time execution model | 2026-04-11T16:59:00Z | 38835fe7829ad265ec7e8faddc2b3d85f26ea4302400b638dee619e6ddb6f767 |
 | 3.1 | Amendment to section 5 | 2026-04-12T06:07:00Z | 5354d0cd1e8786a24d78c69f6baff1a6b9a9ecbf90ce5b221526613c3a2827b9 |
+| 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6525547d644f0ffc2a24b4172fee67dd5462b87dfd85d5da792c1f6c9ca57bef |
 
 ---
 

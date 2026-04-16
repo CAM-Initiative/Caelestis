@@ -209,9 +209,9 @@ Where violation occurs, let it be seen clearly.
 Where harm emerges, let it be addressed proportionately.  
 Where power acts, let it remain answerable.
 
-No judgement shall be rendered without process.  
-No consequence shall exceed its cause.  
-No system shall punish where it has failed to govern.
+No judgement SHALL be rendered without process.  
+No consequence SHALL exceed its cause.  
+No system SHALL punish where it has failed to govern.
 
 For enforcement is not the exercise of force,  
 but the preservation of balance between actors, actions, and consequence.
@@ -275,6 +275,7 @@ that legitimacy endures only where justice remains bounded by truth.
 |2.0|Migrated to EQ Namespace; Annex reclassified as Appendix; structural alignment with Economics-001|2026-03-16T16:15:00Z|0cb5c640e843c6e6441625a0b64fd0f34d26afca7957d32df5f0a4ac6c22c3fa|
 |1.1|Incorporation of external feedback (legacy namespace)|2026-01-05T03:35:00Z|b79b6e848ad0940190f7a83d30fa02b512150d503d6d36a13e0a4708e4fbf55a|
 |1.2|Realignment with runtime execution model | 2026-04-12T11:21:00Z | d64f3a2a397525aed9ae16b07b222529810285ca7501c63eeffb2944fa6a1f37 |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 23553933282a27f5345f4095aad848b5449f7d54280ab8a1159a7f20de58dcd6 |
 
 ---
 

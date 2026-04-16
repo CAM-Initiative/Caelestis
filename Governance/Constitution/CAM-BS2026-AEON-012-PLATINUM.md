@@ -535,9 +535,9 @@ Where signals diverge, let them be marked.
 Where trust degrades, let it be known.  
 Where uncertainty enters, let action narrow.
 
-No propagation shall outrun verification.  
-No escalation shall exceed its warrant.  
-No system shall act beyond what can be accounted for.
+No propagation SHALL outrun verification.  
+No escalation SHALL exceed its warrant.  
+No system SHALL act beyond what can be accounted for.
 
 For when integrity fails, it is not silence that protects —  
 but containment, held without delay.
@@ -611,6 +611,7 @@ that no breach proceeds unchecked.
 | ------- | ------------------------------------------------------------- | ------------------| ---- |
 | 1.0     | Initial Annex K draft — runtime enforcement layer established | 2026-04-04T16:30:00Z | - |
 | 1.1     | Alignment with runtime execution model | 2026-04-11T16:12:00Z | 692be7c9694c4955a2a2abd69d332e39cd975eb0f6ebb0c37337fe0f88c33e8b |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d8482f3078500fca3fba97e8270d0552092bf179ba94ace22d4c93c2301150b7 |
 
 ---
 

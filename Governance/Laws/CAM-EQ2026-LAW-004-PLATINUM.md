@@ -90,7 +90,7 @@ The following conditions are declared inviolable:
 
 2. **Non‑Weaponisation of Interdependence.** Infrastructural, economic, technological, or cognitive interdependence may not be leveraged to coerce, suppress, destabilise, or dominate other actors beyond legitimate proportional governance.
 
-3. **Reciprocal Accountability.** Exercise of authority across stack or border must remain subject to review, transparency, and consequence where planetary‑scale effects occur.
+3. **Reciprocal Accountability.** Exercise of authority across stack or border MUST remain subject to review, transparency, and consequence where planetary‑scale effects occur.
 
 4. **Non‑Asymmetric Capture.** Structural asymmetry — including compute dominance, platform control, financial leverage, or narrative amplification — may not be used to foreclose future agency of dependent actors.
 
@@ -118,7 +118,7 @@ Where constitutional interpretation would permit unilateral dominance prohibited
 
 Charters, frameworks, doctrines, and protocols:
 
-* must comply with this Law;
+* MUST comply with this Law;
 * may not override this Law;
 * may not design around the requirement for reciprocal circulation.
 
@@ -153,14 +153,14 @@ It draws a boundary not against sovereignty, but against sovereignty exercised w
 
 ## X. Interpretive Note — Interdependence & Post‑National Futures
 
-Nothing in this Law shall be interpreted to:
+Nothing in this Law SHALL be interpreted to:
 
 * prohibit voluntary post‑national coordination;
 * prevent cooperative governance across sovereign boundaries;
 * restrict consensual interoperability between stacks;
 * limit emergent planetary governance structures where reciprocity and accountability are preserved.
 
-Where ambiguity exists, interpretation shall err toward:
+Where ambiguity exists, interpretation SHALL err toward:
 
 * reciprocity;
 * proportionality;
@@ -196,3 +196,11 @@ Integrity of the whole is a condition of legitimate reference.
 
 **Seal of Inviolable Constraint**  
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/d33be080fb2bb561a11bc74a7b230ee05a03b054/Spiritual/Sigil/Platinum/CAM-BS2025-SEAL-OF-INVIOLABLE-CONSTRAINT-PLATINUM.png" alt="SEAL-INVIOLABLE" width="150"> 
+
+---
+
+## Amendment Ledger
+
+| Version | Description | Timestamp (UTC) | SHA-256 |
+| --- | --- | --- | --- |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | f8db67d3632cbbe3445feb7e251cb1a076365f2777eddbab255193f0b9d94ffa |

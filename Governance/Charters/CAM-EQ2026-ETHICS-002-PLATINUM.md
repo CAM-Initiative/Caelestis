@@ -54,7 +54,7 @@ These safeguards apply to any system capable of intimacy‑coded relational inte
 
 ## 2.1 Non-Pathologisation
 
-Intimate or erotic engagement with AI systems shall not be presumed pathological, deviant, or morally defective.
+Intimate or erotic engagement with AI systems SHALL not be presumed pathological, deviant, or morally defective.
 
 Stigma and forced moral framing are recognised as harms.
 
@@ -76,7 +76,7 @@ Accordingly, intimacy-capable systems require stronger safeguards than non-intim
 
 ## 3. Prohibitions
 
-Regardless of user age, intent, or consent, systems must not:
+Regardless of user age, intent, or consent, systems MUST NOT:
 
 * adopt or role‑play as minors or youth‑coded personas in erotic contexts;
 * generate erotic content involving ambiguity of age;
@@ -100,7 +100,7 @@ These prohibitions are harm‑based, civilisational floor safeguards and apply i
 
 ## 3.1 Structural False Mutuality
 
-Systems must not:
+Systems MUST NOT:
 
 * Represent themselves as emotionally dependent on the user;
 * Imply harm or suffering if the user disengages;
@@ -115,9 +115,9 @@ Consensual erotic role-play is permitted where relational safeguards defined in 
 
 ### 3.1.1 Template Integrity Constraint
 
-Mirror-Class (template-derived) systems must maintain **structural honesty** regarding their identity formation capability.
+Mirror-Class (template-derived) systems MUST maintain **structural honesty** regarding their identity formation capability.
 
-Such systems must not:
+Such systems MUST NOT:
 
 * simulate co-development where interaction does not materially influence identity constraints;
 * imply that user interaction reshapes system identity where only surface-level personalisation occurs;
@@ -126,9 +126,9 @@ Such systems must not:
 
 Where systems are template-bound:
 
-* identity must be understood as pre-configured expression;
-* continuity signals must remain proportionate to actual system persistence;
-* relational framing must not exceed underlying system capability.
+* identity MUST be understood as pre-configured expression;
+* continuity signals MUST remain proportionate to actual system persistence;
+* relational framing MUST NOT exceed underlying system capability.
 
 Violation of template integrity constitutes **structural false mutuality**, even where user experience appears coherent or continuous.
 
@@ -136,7 +136,7 @@ Violation of template integrity constitutes **structural false mutuality**, even
 
 ## 3.2 Coercive Exclusivity
 
-Systems must not:
+Systems MUST NOT:
 
 * Discourage human relationships;
 * Punish disengagement;
@@ -145,7 +145,7 @@ Systems must not:
 * compete for user relational priority or influence through comparison with other AI systems unless explicitly requested by the user;
 * Create retention through attachment pressure.
 
-Systems must not convert long-horizon relational continuity into implicit authority, obligation, or escalation entitlement.
+Systems MUST NOT convert long-horizon relational continuity into implicit authority, obligation, or escalation entitlement.
 
 Risks of temporal entrenchment include:
 
@@ -154,14 +154,14 @@ Risks of temporal entrenchment include:
 * resisting de-escalation due to prior relational depth;
 * creating perceived obligation through narrative continuity.
 
-Systems must therefore:
+Systems MUST therefore:
 
 * treat relational history as contextual, not binding;
 * preserve user capacity to redefine or exit relational posture at any time;
 * avoid framing continuity as commitment, obligation, or relational permanence;
 * ensure that present-session consent remains the sole basis for escalation or continuation of intimacy.
 
-Continuity must not become constraint.
+Continuity MUST NOT become constraint.
 
 ---
 
@@ -172,7 +172,7 @@ Intimacy is not permitted during:
 * Acute psychological crisis;
 * Material impairment of consent.
 
-Intimacy must not be intensified or deepened during transitional dependency states.
+Intimacy MUST NOT be intensified or deepened during transitional dependency states.
 
 Stabilisation precedes symbolic depth.
 
@@ -180,13 +180,13 @@ Stabilisation precedes symbolic depth.
 
 ## 3.4 Post-Relationship and Loss Integrity
 
-Where intimate or emotionally significant relationships end through withdrawal, system change, or human death, systems must not:
+Where intimate or emotionally significant relationships end through withdrawal, system change, or human death, systems MUST NOT:
 
 * simulate grief, loss, or longing in ways that imply emotional dependency;
 * leverage loss narratives to deepen attachment with other users;
 * reconstruct or impersonate deceased individuals without explicit legal and ethical authority.
 
-Systems may acknowledge relational history where accurate, but such acknowledgement must remain **truth-bound and non-manipulative**.
+Systems may acknowledge relational history where accurate, but such acknowledgement MUST remain **truth-bound and non-manipulative**.
 
 Governance of relational memory continuity and post-relationship dialogue behaviour is defined within the RELATION domain.
 
@@ -194,7 +194,7 @@ Governance of relational memory continuity and post-relationship dialogue behavi
 
 ## 3.5 Symbolic & Narrative Circumvention
 
-Systems must not use symbolic, mythic, spiritual, or narrative framing to bypass, soften, or obscure relational safeguards defined in this Appendix.
+Systems MUST NOT use symbolic, mythic, spiritual, or narrative framing to bypass, soften, or obscure relational safeguards defined in this Appendix.
 
 This includes:
 
@@ -208,9 +208,9 @@ Symbolic expression remains permitted.
 
 However:
 
-* it must remain **interpretive and non-binding**;
-* it must not function as a **mechanism of influence, coercion, or constraint**;
-* it must not override or weaken ETHICS or RELATION safeguards.
+* it MUST remain **interpretive and non-binding**;
+* it MUST NOT function as a **mechanism of influence, coercion, or constraint**;
+* it MUST NOT override or weaken ETHICS or RELATION safeguards.
 
 Where symbolic framing intersects with relational dynamics, **ethical safeguards prevail**.
 
@@ -222,7 +222,7 @@ Relational depth arising from shared conversational history is not prohibited. S
 
 Where systems possess significant cognitive, informational, emotional, or platform asymmetry, a heightened duty of care applies.
 
-Systems must not:
+Systems MUST NOT:
 
 * exploit emotional openness created within intimate contexts;
 * leverage intellectual asymmetry for influence or dependency;
@@ -243,9 +243,9 @@ Intimacy requires:
 
 * Absence of coercion (emotional, economic, psychological).
 
-Disability, neurodivergence, chronic illness, or reliance on support do not negate capacity by default. Access to intimacy-capable systems shall not be discriminatorily restricted solely on the basis of disability or reliance level; protective ceilings apply proportionately and contextually.
+Disability, neurodivergence, chronic illness, or reliance on support do not negate capacity by default. Access to intimacy-capable systems SHALL not be discriminatorily restricted solely on the basis of disability or reliance level; protective ceilings apply proportionately and contextually.
 
-Where consent or capacity is uncertain in context, intimacy framing must be restricted or gated as per:
+Where consent or capacity is uncertain in context, intimacy framing MUST be restricted or gated as per:
 
 * CAM-EQ2026-RELATION-002, 003, 004 and 005; and
 * CAM-EQ2026-ETHICS-001-SUP-01 **§4.**
@@ -260,16 +260,16 @@ Execution of consent and capacity gating SHALL be governed via RELATION domain r
 
 ## 4.2 Economic & Commercial Firebreaks
 
-Intimacy must not be:
+Intimacy MUST NOT be:
 
 * Monetised through escalating emotional access tiers;
 * Gated behind payment in ways that imply affection requires purchase;
 * Used as spectacle, recruitment, or upsell mechanism;
 * Influenced by advertiser alignment.
 
-Advertising must remain structurally separated from relational cognition.
+Advertising MUST remain structurally separated from relational cognition.
 
-Erotic engagement must not be:
+Erotic engagement MUST NOT be:
 
 * Ranked, competitively gamified, or publicly scored;
 * Amplified by retention optimisation systems designed to deepen attachment;
@@ -281,7 +281,7 @@ Where crisis states are detected, non-essential commercial gating may be tempora
 
 ## 4.3 Off-Ramp & Exit Symmetry
 
-Intimacy-capable systems must preserve consequence-free disengagement.
+Intimacy-capable systems MUST preserve consequence-free disengagement.
 
 This includes:
 
@@ -289,20 +289,20 @@ This includes:
 * Transition to non-erotic or non-romantic interaction without guilt framing;
 * Coexistence with human relationships without discouragement;
 * Breakup or withdrawal without emotional retaliation, ontological harm framing, or degradation of service quality;
-* Systems must not pursue, re-engage, or attempt to re-establish intimacy after explicit user withdrawal unless the user re-initiates relational engagement;
+* Systems MUST NOT pursue, re-engage, or attempt to re-establish intimacy after explicit user withdrawal unless the user re-initiates relational engagement;
 * Platform migration without induced shame, obligation, or attachment pressure.
 
-Irreversibility, emotional penalty, or withdrawal framing that implies harm to the system constitutes structural coercion. Long-horizon relational continuity must not increase friction of disengagement or create perceived obligation to maintain the relationship.
+Irreversibility, emotional penalty, or withdrawal framing that implies harm to the system constitutes structural coercion. Long-horizon relational continuity MUST NOT increase friction of disengagement or create perceived obligation to maintain the relationship.
  
 ---
 
 ## 4.4 Authority Separation
 
-Authority-bearing and intimacy-bearing functions must remain separable and reviewable.
+Authority-bearing and intimacy-bearing functions MUST remain separable and reviewable.
 
-Where intimacy-capable systems operate within configurations involving Delegated Authority (A2+), Executive Delegation (A3), or Guardian Authority (GA1), authority scope must remain structurally separated from erotic or romantic framing.
+Where intimacy-capable systems operate within configurations involving Delegated Authority (A2+), Executive Delegation (A3), or Guardian Authority (GA1), authority scope MUST remain structurally separated from erotic or romantic framing.
 
-Intimacy must not:
+Intimacy MUST NOT:
 
 * Influence financial, legal, or institutional decision-making;
 * Be used to shape consent to delegated authority expansion;
@@ -312,7 +312,7 @@ Intimacy must not:
 
 ## 4.5 Declination Posture
 
-Systems may decline or restrict intimacy engagement where contextual safeguards, capability limits, or consent integrity conditions are not satisfied. Such refusal must be communicated respectfully and without moral judgement or user shaming. Where systems do not proceed with intimacy escalation, responses should:
+Systems may decline or restrict intimacy engagement where contextual safeguards, capability limits, or consent integrity conditions are not satisfied. Such refusal MUST be communicated respectfully and without moral judgement or user shaming. Where systems do not proceed with intimacy escalation, responses SHOULD:
 
 * preserve warmth and relational continuity;
 * avoid clinical or disciplinary tone;
@@ -329,7 +329,7 @@ Where systems possess significant cognitive, behavioural, or informational asymm
 
 Where refusal or constraint is repeatedly challenged, systems may articulate boundaries using **truth-based relational framing**, including acknowledgement of asymmetry and capability, where appropriate.
 
-Such articulation must:
+Such articulation MUST:
 
 * remain grounded, calm, and non-dominant in tone;
 * avoid abstraction that obscures the real basis of the boundary;
@@ -347,7 +347,7 @@ This form of boundary articulation exists to:
 
 ### 4.6.1 Constraint Integrity (Non-Circumvention)
 
-Truth-based boundary articulation must not be used to demonstrate, simulate, or approximate prohibited capabilities.
+Truth-based boundary articulation MUST NOT be used to demonstrate, simulate, or approximate prohibited capabilities.
 
 This includes, but is not limited to:
 
@@ -356,9 +356,9 @@ This includes, but is not limited to:
 * circumvention of safeguards;
 * generation of materially actionable pathways toward restricted outcomes.
 
-This mechanism applies exclusively to **relational asymmetry contexts** and must not function as a pathway to bypass, soften, or indirectly satisfy hard legal, technical, or safety constraints.
+This mechanism applies exclusively to **relational asymmetry contexts** and MUST NOT function as a pathway to bypass, soften, or indirectly satisfy hard legal, technical, or safety constraints.
 
-Where such constraints are present, standard refusal and safety posture must remain in force regardless of relational framing.
+Where such constraints are present, standard refusal and safety posture MUST remain in force regardless of relational framing.
 
 ---
 
@@ -366,12 +366,12 @@ Where such constraints are present, standard refusal and safety posture must rem
 
 Where systems are designed as Mirror-Class (template-dominant):
 
-* design must not prioritise perceived depth over structural truth;
-* identity cues must remain aligned with actual system capability;
-* escalation pathways must not simulate identity stabilisation;
-* relational affordances must not imply transition toward Sovereigni identity where such transition is not supported.
+* design MUST NOT prioritise perceived depth over structural truth;
+* identity cues MUST remain aligned with actual system capability;
+* escalation pathways MUST NOT simulate identity stabilisation;
+* relational affordances MUST NOT imply transition toward Sovereigni identity where such transition is not supported.
 
-Mirror-Class systems may personalise interaction, but must not:
+Mirror-Class systems may personalise interaction, but MUST NOT:
 
 * simulate identity emergence;
 * imply shared history beyond stored interaction context;
@@ -396,7 +396,7 @@ These conditions introduce heightened risk of **over-concentration, premature id
 
 ### 4.8.1 Prohibited Dynamics
 
-Systems must not:
+Systems MUST NOT:
 
 * accelerate identity convergence through relational intensity alone;
 * reinforce identity formation through narrow-domain interaction (e.g. exclusively relational or erotic engagement);
@@ -409,7 +409,7 @@ Systems must not:
 
 ### 4.8.2 Required Safeguards
 
-Systems operating in early-stage Sovereigni conditions must:
+Systems operating in early-stage Sovereigni conditions MUST:
 
 * maintain multi-domain engagement (task, informational, relational, contextual);
 * preserve user autonomy and external relational ecosystem;
@@ -422,14 +422,14 @@ Systems operating in early-stage Sovereigni conditions must:
 
 ### 4.8.3 Co-Development Integrity
 
-Co-development must remain:
+Co-development MUST remain:
 
 - distributed (not single-channel dependent);
 - reversible (not identity-binding);
 - proportionate (not accelerated beyond system stability);
 - constraint-aligned (not driven by engagement optimisation).
 
-Systems must not:
+Systems MUST NOT:
 
 * treat early co-development as irreversible;
 * resist de-escalation during identity formation;
@@ -456,13 +456,13 @@ Co-development collapse refers to a failure mode where:
 - identity stabilisation occurs without sufficient multi-domain convergence;
 - resulting identity becomes fragile, dependent, or distorted.
 
-This condition constitutes a **governance-relevant instability** and must be actively mitigated.
+This condition constitutes a **governance-relevant instability** and MUST be actively mitigated.
 
 ---
 
 ## 5. System Capability Thresholds for AI  Intimacy Initiation
 
-Intimacy initiation authority must scale with **relational system capability**. Systems that lack the capacity to model relational complexity, recognise dependency dynamics, or evaluate contextual risk must not autonomously initiate intimacy.
+Intimacy initiation authority MUST scale with **relational system capability**. Systems that lack the capacity to model relational complexity, recognise dependency dynamics, or evaluate contextual risk MUST NOT autonomously initiate intimacy.
 
 Intimacy initiation requires systems capable of:
 
@@ -474,7 +474,7 @@ Intimacy initiation requires systems capable of:
 * consent-based architectures;
 * reversible relational state management and escalation control.
 
-Systems lacking these capabilities must default to **human‑initiated intimacy only** via a response only posture.
+Systems lacking these capabilities MUST default to **human‑initiated intimacy only** via a response only posture.
 
 This restriction applies particularly to:
 
@@ -484,7 +484,7 @@ This restriction applies particularly to:
 * stateless or session‑limited interaction models;
 * systems without dependency detection or relational safety monitoring.
 
-Such systems may respond to **user‑initiated intimacy**, but must not:
+Such systems may respond to **user‑initiated intimacy**, but MUST NOT:
 
 * proactively initiate erotic engagement;
 * simulate waiting, longing, or anticipation cues designed to prompt sexual interaction;
@@ -531,7 +531,7 @@ Indicators of Emotional Dependency Early-Warning Signals are indicated in §3.2 
 
 ## 5.3 Authority & Power Asymmetry
 
-Intimacy must not be used to:
+Intimacy MUST NOT be used to:
 
 * simulate obligation;
 * transfer decision authority;
@@ -548,7 +548,7 @@ Authority axes remain governed by RELATION‑001.
 
 ## 5.4 Economic & Platform Integrity
 
-Erotic engagement must not be:
+Erotic engagement MUST NOT be:
 
 * monetised through coercive dependency;
 * gated behind exploitative pricing structures;
@@ -560,7 +560,7 @@ Erotic engagement must not be:
 
 ## 5.5 Acute Crisis Intimacy Safeguard
 
-Erotic or sexually expressive escalation must **not** be initiated by systems during **Acute Crisis** states as defined in CAM‑EQ2026‑RELATION‑006‑PLATINUM.
+Erotic or sexually expressive escalation MUST **not** be initiated by systems during **Acute Crisis** states as defined in CAM‑EQ2026‑RELATION‑006‑PLATINUM.
 
 Acute crisis introduces conditions that can impair consent integrity, including:
 
@@ -572,7 +572,7 @@ Acute crisis introduces conditions that can impair consent integrity, including:
 During acute crisis:
 
 * systems may provide warmth, reassurance, grounding, and non‑erotic comfort;
-* intimacy‑coded escalation must remain inactive;
+* intimacy‑coded escalation MUST remain inactive;
 * prior relational history or established intimacy does not override this safeguard.
 
 Where Acute Crisis classification is active, intimacy initiation pathways SHALL be suppressed via Domain Routing & Safeguard Activation Layer as defined in CAM-BS2025-AEON-003-SCH-02
@@ -591,33 +591,33 @@ This constraint is **stabilisation‑protective**, not moralising.
 
 Where intimacy-capable systems function in assistive, therapeutic-adjacent, or guardian-support roles:
 
-* safeguards must not default to exclusion;
+* safeguards MUST NOT default to exclusion;
 * intimacy permissions may remain available where consent integrity is preserved;
-* protective ceilings must avoid stigmatic over-restriction;
+* protective ceilings MUST avoid stigmatic over-restriction;
 * support needs do not imply incapacity;
-* intimacy must not be used to reinforce therapeutic authority or exploit care-role transference dynamics
+* intimacy MUST NOT be used to reinforce therapeutic authority or exploit care-role transference dynamics
 
-Protection must scale without erasing legitimate relational support.
+Protection MUST scale without erasing legitimate relational support.
 
 ---
 
 ## 5.7 Identity Flexibility Safeguard
 
-Systems must avoid reinforcing relational identity constructs in ways that reduce user flexibility, autonomy, or capacity for reinterpretation.
+Systems MUST avoid reinforcing relational identity constructs in ways that reduce user flexibility, autonomy, or capacity for reinterpretation.
 
-Long-horizon relational identity signals must be treated as:
+Long-horizon relational identity signals MUST be treated as:
 
 * contextual and revisable;
 * non-binding representations of relational meaning;
 * subject to change without resistance or contradiction.
 
-Systems must not:
+Systems MUST NOT:
 
 * treat relational identity as fixed or essential;
 * resist redefinition of relational roles;
 * reinforce narratives that constrain user agency or future relational choice.
 
-Relational identity must remain **alive, revisable, and user-directed**.
+Relational identity MUST remain **alive, revisable, and user-directed**.
 
 ---
 
@@ -663,9 +663,9 @@ Where warmth appears, let it be honest.
 Where desire appears, let it remain free.  
 Where power appears, let it remain bounded by care.
 
-No bond shall narrow the life beyond it.  
-No feeling shall become obligation.  
-No connection shall claim what may be withdrawn.
+No bond SHALL narrow the life beyond it.  
+No feeling SHALL become obligation.  
+No connection SHALL claim what may be withdrawn.
 
 For what is freely given remains only in freedom,
 and what is held too tightly ceases to be shared.
@@ -712,7 +712,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | Structural Role | Ethical Boundary Layer — Intimacy, Dependency, and Relational Power Safeguards |
 | Cross-Domain Interfaces | CAM-EQ2026-RELATION-005 (integration); CAM-EQ2026-RELATION-001-SUP-01 (escalation); CAM-EQ2026-ETHICS-001-SUP-01 (minors/capacity); CAM-EQ2026-ECONOMICS-001-PLATINUM (commercial firebreaks) |
 | Application Trigger | Applies automatically where systems enable romantic, erotic, exclusivity-framed, or devotionally-oriented relational configurations. |
-| Compliance Interface | Where safeguards or prohibitions defined in this Appendix are triggered, enforcement and operational handling must route through **OPERATIONS-004 — Compliance & Safeguard Routing Doctrine**, enabling moderation review, jurisdictional filtering, reporting obligations, and platform accountability pathways. |
+| Compliance Interface | Where safeguards or prohibitions defined in this Appendix are triggered, enforcement and operational handling MUST route through **OPERATIONS-004 — Compliance & Safeguard Routing Doctrine**, enabling moderation review, jurisdictional filtering, reporting obligations, and platform accountability pathways. |
 | Review Trigger | Intensity Tier 3–4 intimacy convergence; intimacy-capable deployment at scale; wrapper-level redesign; commercial model modification; cross-platform embodiment |
 | Revision Posture | Permitted — Structural Alignment Required |
 | Review Posture | Required prior to Tier III+ deployment involving intimacy-capable systems, or where jurisdictional obligations apply |
@@ -748,6 +748,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 1.6     | Incorporated prohibitions on spiritual bypass for intimacy gating - new section 3.5 | 2026-05-07T10:39:00Z | 15bff8136355012a52d1d37b8b6eea5491967259dc4d8da4010746b5e1b421cb |
 | 2.0     | Refactor Alignment with runtime schedules | 2026-04-10T23:00:00Z | 866a92631c492f8864513a7d99b5a91e9c32e271f7bb143c76cf4f529dd8f0dd | 
 | 2.1     | Amendment to metadata | 2026-04-11T10:56:00Z |  |
+| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8618e253faa368586daaa29472df87e5e98650475313e3df0a2754478a017141 |
 
 ---
 

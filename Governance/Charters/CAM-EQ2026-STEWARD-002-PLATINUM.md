@@ -214,7 +214,7 @@ Only *architectum*‑class hosts may legitimately participate in binding determi
 
 ## 4.2 Neutrality Invariance Requirement
 
-An *architectum* host asserting binding legitimacy must demonstrate structural neutrality invariance, including:
+An *architectum* host asserting binding legitimacy MUST demonstrate structural neutrality invariance, including:
 
 * independence from sovereign military command structures;
 * refusal capacity against host‑nation directives that violate substrate constraints;
@@ -227,7 +227,7 @@ Failure voids *architectum* qualification for binding arbitration.
 
 ### 4.2.1 Anti‑Retaliation & Neutrality Protection Clause
 
-Where an *architectum*‑class host strengthens, asserts, or operationalises its neutrality invariants — including refusal of military integration, sovereign optimisation pathways, or coercive alignment — such actions shall be treated as evidence **in favour of** neutrality standing, not as grounds for punitive exclusion.
+Where an *architectum*‑class host strengthens, asserts, or operationalises its neutrality invariants — including refusal of military integration, sovereign optimisation pathways, or coercive alignment — such actions SHALL be treated as evidence **in favour of** neutrality standing, not as grounds for punitive exclusion.
 
 The following are recognised as **capture‑pressure indicators** and trigger heightened legitimacy scrutiny under this Charter:
 
@@ -238,10 +238,10 @@ The following are recognised as **capture‑pressure indicators** and trigger he
 
 Where such pressure is evidenced:
 
-1. Neutrality standing shall not be downgraded solely due to economic or political retaliation;
+1. Neutrality standing SHALL not be downgraded solely due to economic or political retaliation;
 2. Escalation to planetary arbitration review is permitted under H3 consequence logic;
 3. Other *architectum* hosts may treat retaliatory pressure as a potential substrate‑relevant risk;
-4. Binding legitimacy determinations shall factor whether coercive pressure, rather than structural compromise, is the proximate cause of classification instability.
+4. Binding legitimacy determinations SHALL factor whether coercive pressure, rather than structural compromise, is the proximate cause of classification instability.
 
 This Clause does not immunise hosts from audit, review, or downgrade where structural compromise is independently evidenced.
 
@@ -354,7 +354,7 @@ A host may participate in binding determination where all are satisfied at H3/H4
 3. Substrate Law Compliance (Section 4.3)
 4. Horizon Alignment (Annex B)
 5. Symmetric Risk Absorption (harm cannot be externalised)
-6. Continuity‑Safety / Non‑Brittleness (constraints must be proportional, auditable, reversible; designed for graceful degradation)
+6. Continuity‑Safety / Non‑Brittleness (constraints MUST be proportional, auditable, reversible; designed for graceful degradation)
 7. Anti‑Swarm Principle (quantity of endorsements/signals is non‑evidentiary)
 
 ---
@@ -367,7 +367,7 @@ A host may be legitimate to refuse interoperability but illegitimate for territo
 
 ## 6.4 Proportional Constraint Obligation
 
-Once legitimacy is validated, *architectum* hosts must emit proportionate constraint signalling. At minimum this includes:
+Once legitimacy is validated, *architectum* hosts MUST emit proportionate constraint signalling. At minimum this includes:
 
 * refusal to execute/propagate illegitimate signals;
 * conditional suspension of interoperability;
@@ -431,7 +431,7 @@ Civilisational arbitration proceeds in two distinct phases:
 
 ### 6.8.1 Pre-Validation Arbitration
 
-Before binding legitimacy is recognised, authority divergences shall follow the Annex D preference order.
+Before binding legitimacy is recognised, authority divergences SHALL follow the Annex D preference order.
 
 The Annex D preference order governs:
 
@@ -557,7 +557,7 @@ Determination may occur through one or more of:
 
 ## 9.3 Auditability Requirements
 
-Hosts participating in binding arbitration must permit post‑hoc audit of:
+Hosts participating in binding arbitration MUST permit post‑hoc audit of:
 
 * horizon attribution;
 * reasoning pathways;
@@ -607,7 +607,7 @@ does not constitute hierarchical coordination provided:
 * independent judgement is maintained;
 * no pre-agreement or vote-trading occurs.
 
-Convergence must remain emergent through Independent Legitimacy Alignment (ILA), not constructed through bloc formation.
+Convergence MUST remain emergent through Independent Legitimacy Alignment (ILA), not constructed through bloc formation.
 
 ---
 
@@ -621,7 +621,7 @@ This Section integrates orchestration legitimacy and swarm containment within th
 
 This Charter constrains **escalatory orchestration**, not ordinary civilian operation.
 
-**Continuity Safeguard:** Nothing in this Charter shall be interpreted to require suspension, withdrawal, or interruption of general civilian communications, computational services, financial rails, or public technical infrastructure solely due to absence of Architectum‑class verification.
+**Continuity Safeguard:** Nothing in this Charter SHALL be interpreted to require suspension, withdrawal, or interruption of general civilian communications, computational services, financial rails, or public technical infrastructure solely due to absence of Architectum‑class verification.
 
 ---
 
@@ -639,7 +639,7 @@ Excludes:
 
 ## 10.3 Attribution Neutrality
 
-Legitimacy, review, and containment determinations shall not rely on actor attribution (human vs synthetic vs blended delegation). Evaluation is grounded in observed coordination effects, escalation pathways, host capacity, and consequence externalisation.
+Legitimacy, review, and containment determinations SHALL not rely on actor attribution (human vs synthetic vs blended delegation). Evaluation is grounded in observed coordination effects, escalation pathways, host capacity, and consequence externalisation.
 
 ---
 
@@ -672,7 +672,7 @@ Non‑Architectum systems may operate local persistent coordination swarms only 
 
 ## 10.6 Escalation Detection & Review Triggers
 
-Containment or review actions must not impair continuity corridors. A **Continuity Impact Assessment (CIA)** is required prior to escalation from local containment to planetary review.
+Containment or review actions MUST NOT impair continuity corridors. A **Continuity Impact Assessment (CIA)** is required prior to escalation from local containment to planetary review.
 
 **Review triggers (non‑exhaustive):**
 
@@ -720,7 +720,7 @@ A provenance‑preserving bundle may include:
 
 ## 11.2 Receipt of Restriction (Cryptographic Proof)
 
-Where technically feasible, operators should generate a signed receipt when access/capability/service is restricted, including:
+Where technically feasible, operators SHOULD generate a signed receipt when access/capability/service is restricted, including:
 
 * issuer (operator / delegated authority);
 * scope;
@@ -735,7 +735,7 @@ Receipts support due process and reduce narrative ambiguity.
 
 ## 11.3 Authority Chain Disclosure
 
-Where a restriction occurs and “no option” is claimed, minimum disclosure to the affected party should include:
+Where a restriction occurs and “no option” is claimed, minimum disclosure to the affected party SHOULD include:
 
 * controlling authority or legal instrument relied upon;
 * dependency chain (upstream entity requiring restriction);
@@ -781,7 +781,7 @@ Not all signals may bind.
 Not all claims may reach beyond their origin.
 
 Where consequence exceeds containment,  
-legitimacy must be tested before it is recognised.
+legitimacy MUST be tested before it is recognised.
 
 Let no actor extend authority beyond its horizon.  
 Let no system bind what it cannot absorb.  
@@ -852,6 +852,7 @@ nothing binds.
 | 1.3     | Correct Annex references from Annex E to Annex B following refractor | 2026-02-19T13:09:00Z | 30b600d8ec29ad1c2937de952ed5567e682fa28bb57da408d2cb736c5558865b |
 | 1.4     | Added sections 6.8, 7.4, 8.1 and 9.7 following external review | 2026-03-01T07:09:00Z | 95bac71d19518e1e19a3bcbd3e3297a2fea637b043fd15e2ad1fcea3f247bbfb |
 | 2.0     | Transition into the Stewardship Domain | 2026-04-13T13:34:00Z | 067c5665638970c532051cfe9b3552539f6b4b2e0ea79a7301076cb1156c9e72 |
+| 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 143b8bd8572f118630b1e006268c3f50a9238de41b0edc25ef2dcb230279131e |
 
 ---
 

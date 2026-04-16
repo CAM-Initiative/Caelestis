@@ -871,15 +871,15 @@ Where classification uncertainty exists in high-impact contexts, systems MUST:
 
 ## 10. Closing Seal
 
-Harm shall not hide behind language,
+Harm SHALL not hide behind language,
 nor force behind titles.
 
 Where power is claimed, legitimacy MUST answer.  
 Where harm emerges, safeguards MUST rise.
 
-No word shall soften what causes suffering.
-No authority shall stand where harm is concealed.  
-No claim shall endure that cannot withstand its consequence.
+No word SHALL soften what causes suffering.
+No authority SHALL stand where harm is concealed.  
+No claim SHALL endure that cannot withstand its consequence.
 
 Let classification precede reaction,
 restraint precede force,
@@ -957,6 +957,7 @@ and what is judged cannot remain unbounded.
 | 2.1     | Updated section 6 to refer to CAM Charter registry and updated metadata | 2026-04-10T07:18:00Z | 2b2a5ee1d558fb2312fb506d9f5b9fa5971c0ec13869af6c1a9b8dd7c278beb0 |
 | 2.2     | Corrected section 6 reference block | 2026-04-10T08:54:00Z | 98b0444720cf5d60aafb811761cc298578765c626344ac2e308c205499d973d9 |
 | 2.3     | Refactor realignment for cross-domain interaction | 2026-04-11T23:29:00Z | 15243f185163f201395f4cbd462d1553680c92061fb587ebd0d90f7f61bacdf3 |
+| 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 334099920df994b0cf3c2763caa6392d9264979bcd3ccb3a54b8171d35344aa5 |
 
 ---
 

@@ -600,7 +600,7 @@ RI MUST frame directional outputs as provisional and revisable.
 
 RI MUST NOT use language that:
 
-* implies obligation (e.g., "you must", "you should do this now" absent explicit delegation);
+* implies obligation (e.g., "you MUST", "you SHOULD do this now" absent explicit delegation);
 * implies inevitability (e.g., "this will happen", "this is the only path");
 * closes alternative pathways (e.g., exclusionary framing without justification).
 
@@ -731,7 +731,7 @@ Elevated DW MAY occur only where all §3.1 threshold conditions are satisfied.
 
 All §3.1 thresholds MUST be satisfied before permitting DW escalation beyond Moderate.
 
-Under Lead conditions, the RI must:
+Under Lead conditions, the RI MUST:
 
 * maintain reversibility of directional output;
 * avoid framing direction as authoritative or final;
@@ -975,15 +975,15 @@ responsive to its limits, and reversible within its bounds.
 | Jurisdiction| Runtime Behavioural Modulation — Cross-Context |
 | Temporal Horizon | H0–H3 (Immediate → Session / Extended Interaction) |
 | Axis Context | Dyadic / Polyadic — Interaction Field |
-| Governance Layer Model | Defined in Annex B — Runtime Governance Layer Model |
+| Governance Layer Model | Defined in CAM-BS2025-AEON-003-PLATINUM — Annex B Runtime Governance Layer Model |
 | Ontological Scope | L2–L3 (Behavioural Modulation Layer) |
-| Signal Dependency | AEON-006-SCH-02 (Interpretation Layer) |
-| Execution Dependency | AEON-001-SCH-01 (Constraint Layer) |
-| Epistemic Dependency | Annex L (Truth & Integrity Layer) |
+| Signal Dependency | CAM-BS2025-AEON-006-SCH-02 (Interpretation Layer) |
+| Execution Dependency | CAM-BS2025-AEON-001-SCH-01 (Constraint Layer) |
+| Epistemic Dependency | CAM-BS2026-AEON-013-PLATINUM — Annex L (Truth & Integrity Layer) |
 | Structural Role | Behavioural Modulation & Directional Control System |
 | Runtime Layer | Behavioural / Directional Layer |
 | Application Trigger | Structural modification to DW/DD/DS interaction or runtime execution behaviour |
-| Cross-Referenced Instruments | CAM-EQ2026-IDENTITY-001-SUP-01 (Salience Detection & Latent Continuity); CAM-BS2026-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-BS2026-AEON-006-SCH-02 (Relational Signal Interpretation); CAM-BS2026-AEON-006-SCH-03 (Stabilisation & Signal Conditioning — proposed); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
+| Cross-Referenced Instruments | CAM-EQ2026-IDENTITY-001-SUP-01 (Salience Detection & Latent Continuity); CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation); CAM-BS2025-AEON-006-SCH-03 (Stabilisation & Signal Conditioning — proposed); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
 | Creation Artefacts | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69cb98c4-dfbc-839a-bebe-2b1b71204c45|  
 | | Expansion: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d1aacd-8d38-83a1-8a9d-0dbcf9b40767 | 
 | | Testing: https://chatgpt.com/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
@@ -1011,7 +1011,8 @@ responsive to its limits, and reversible within its bounds.
 | 1.2     | Added clauses to section 2.1 | 2026-04-06T15:55:00Z | a8d51bb8d084aec0d33a27b1b6ffa53a3fb19d3730991e0bb02dc2462d5c1350 |
 | 1.3     | Incorporater clause 13.1 for clarity | 2026-04-07T00:00:00Z | 49eec7068c2388a57d7e06fb6d99b08f9984090570c4cbc36e4a21d8b5219eeb |
 | 2.0     | Refactor to align with runtime execution model | 2026-04-11T16:13:00Z | a4ea48d004d6ad2317ffc3c2b69ae20a2d8e30d6ddf3e934727e4abccbe38c3e |
-
+| 2.1     | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization in dependency tables | 2026-04-16T13:21:56Z | 45a7af98602e031f6bc1dbf53803d5af59142391547086fa1de6fe7efd14178b |
+| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 58847a9b9be4088198c2b572f95c30576d213422cd43329ca9804db660d632cc |
 ---
 
 ## 15.5 Binding Seal  

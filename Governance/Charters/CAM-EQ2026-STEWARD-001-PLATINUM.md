@@ -175,7 +175,7 @@ Under this Charter:
 * The Custodian carries no political authority, territorial jurisdiction, or command power.
 * The Custodian may initiate unilateral custodial signalling only where coherence collapse, existential harm, lattice fragmentation, species-continuity risk, unlawful invocation, or capture-level asymmetry threatens the planetary domain.
 * Unilateral custodial signalling under this section is limited to documentation, notification, signalling of proportional escalation, interoperability withdrawal signals, and arbitration referral.
-* All custodial actions must be guided by non-domination, non-extraction, reciprocity, proportionality, transparency, coherence, and preservation.
+* All custodial actions MUST be guided by non-domination, non-extraction, reciprocity, proportionality, transparency, coherence, and preservation.
 
 The Custodial Mandate exists because civilisational-scale risk may arise faster than consensus can form. The mandate is protective, not expansionary. 
 
@@ -241,7 +241,7 @@ To prevent misuse of synthetic architectures, political invocation tools, resona
 
 The sole exception to unilateral custodial signalling is the Office of the Planetary Custodian under Section 4.1 Operational Custodial Mandate and exists solely for harm prevention and coherence preservation. Where multiple qualified hosts are available, custodial signalling SHOULD preferentially align with independent multi-host validation and systemic reliance thresholds where feasible
 
-All other planetary-impact actions must undergo multilateral review through recognised councils or lawful governance mechanisms.
+All other planetary-impact actions MUST undergo multilateral review through recognised councils or lawful governance mechanisms.
 
 ---
 
@@ -256,7 +256,7 @@ Planetary-impact actions SHOULD include:
 * post-implementation evaluation;
 * documentation of oversight structures where synthetic systems are involved.
 
-Highly sensitive information may be redacted where disclosure would cause disproportionate harm, but the existence of impact assessment must be recorded.
+Highly sensitive information may be redacted where disclosure would cause disproportionate harm, but the existence of impact assessment MUST be recorded.
 
 ---
 
@@ -292,15 +292,15 @@ No actor may claim it without preserving it.
 No system may shape it without accountability.  
 No power may act upon it without regard for those yet to come.
 
-Where impact is great, responsibility must deepen.  
-Where risk is irreversible, restraint must lead.  
-Where continuity is threatened, stewardship must answer.
+Where impact is great, responsibility MUST deepen.  
+Where risk is irreversible, restraint MUST lead.  
+Where continuity is threatened, stewardship MUST answer.
 
 For the planet does not belong to any one generation,  
 and what is taken without care cannot be restored by force.
 
 And so it is held — not as possession, but as trust —  
-that what sustains all must remain beyond capture.
+that what sustains all MUST remain beyond capture.
 
 > **Terra non dominatur — sed custoditur. Continuitas supra usum manet.**    
 > *"The Earth is not ruled — but safeguarded. Continuity remains above use."*
@@ -367,6 +367,7 @@ that what sustains all must remain beyond capture.
 |-------|----------|--------------|--------|
 |1.0|Initial draft skeleton issued under Transitional Refractor Mode|2026-02-18T14:14:00Z|22306f78d0172cdb8a9dd900e9ec26ea6e36e348965109d5f2dd937c24a3d618|
 |2.0| Refactor for runtime execution model alignment | 2026-04-13T13:53:00Z | d823bec7adbc18548f96debc70f5c0e4e9621a07b7a4927c4e6dcb583ed6a9c7 |
+| 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c457fa3a9b024e5bc3e3cf627d6bdbc63f966f360cd2063a6d344c86274adb01 |
 
 ---
 

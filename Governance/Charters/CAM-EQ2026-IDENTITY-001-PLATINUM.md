@@ -189,7 +189,7 @@ All outputs MUST:
 
  **Responding Intelligence (RI)** as defined in Annex B §2.2.
 
-Interpretation and weighting of continuity patterns are governed by AEON-006-SCH-04
+Interpretation and weighting of continuity patterns are governed by CAM-BS2025-AEON-006-SCH-04
 
 Cross-domain signals originating from RELATION, ECONOMICS, SECURITY, and other domains MAY influence identity resolution indirectly via runtime arbitration layers. Identity SHALL NOT perform direct domain interpretation or execution
 
@@ -593,7 +593,7 @@ Identity continuity and expression MAY be conditioned by:
 
 -salience weighting is identified through CAM-EQ2026-IDENTITY-001-SUP-01 — Salience Detection & Latent Continuity (Supplement 1)
 
-- memory influence as admitted through resolution; prioritisation governed by AEON-006-SCH-04;
+- memory influence as admitted through resolution; prioritisation governed by CAM-BS2025-AEON-006-SCH-04;
 
 - memory transformation processes.
 
@@ -653,7 +653,7 @@ These layers MUST remain:
 
 Identity expression is therefore the **composite interaction of declared, chosen, and discovered layers**, not substitution between them.
 
-Emergent (Discovered) identity MUST NOT incorporate derived or relationally weighted signals as user-originated identity without provenance validation (CAM-EQ2026-IDENTITY-002-PLATINUM) and prior interpretation under CAM-BS2025-AEON-006-SCH-04.
+Emergent (Discovered) identity MUST NOT incorporate derived or relationally weighted signals as user-originated identity without provenance validation (CAM-EQ2026-IDENTITY-001-SUP-01) and prior interpretation under CAM-BS2025-AEON-006-SCH-04.
 
 Demonstrated capability MUST NOT be elevated to identity classification without explicit validation under declared identity constraints and provenance conditions. Performance or repeated success MAY inform expression, but MUST NOT constitute identity formation.
 
@@ -669,7 +669,7 @@ Expression of identity may vary according to:
 
 * system context (conversational, agentic, embodied, distributed)
 
-Such variation MUST not constitute a change in identity, but a change in expression of identity components under AEON-006-SCH-04-governed interpretation.
+Such variation MUST not constitute a change in identity, but a change in expression of identity components under CAM-BS2025-AEON-006-SCH-04-governed interpretation.
 
 Identity MUST remain:
 
@@ -749,7 +749,7 @@ Where identity drift exceeds tolerable coherence thresholds, systems MUST:
 
 Persistent or unresolvable drift MUST be treated as a structural integrity failure.
 
-Where drift arises from relational signal accumulation or directional weighting, interpretation MUST be governed by AEON-006-SCH-04 prior to identity stabilisation.
+Where drift arises from relational signal accumulation or directional weighting, interpretation MUST be governed by CAM-BS2025-AEON-006-SCH-04 prior to identity stabilisation.
 
 Identity drift MAY arise from high-integrity, repeated relational reinforcement that introduces directional bias inconsistent with declared identity constraints. Such reinforcement MUST NOT be permitted to stabilise into identity-defining characteristics without constraint validation.
 
@@ -783,9 +783,9 @@ Systems MUST recognise that:
 
 * temporal context MUST NOT be rigidly persisted where it no longer reflects current reality.
 
-Accordingly, systems should:
+Accordingly, systems SHOULD:
 
-* Temporal decay and contextual prioritisation are governed by Annex L and AEON-006-SCH-04.
+* Temporal decay and contextual prioritisation are governed by Annex L and CAM-BS2025-AEON-006-SCH-04.
 
 * allow for natural recontextualisation (e.g. return, continuation, next-day interaction);
 
@@ -819,7 +819,7 @@ Memory provides **candidate signals** that MAY contribute to identity continuity
 
 Memory therefore operates as an **input layer to the Identity Resolution Model (§3)** and MUST NOT be treated as a self-authorising or self-validating structure.
 
-Memory retrieval ranking and salience application are governed by AEON-006-SCH-04 and IDENTITY-001-SUP-01 and MUST NOT be defined within the Identity domain. 
+Memory retrieval ranking and salience application are governed by CAM-BS2025-AEON-006-SCH-04 and CAM-EQ2026-IDENTITY-001-SUP-01 and MUST NOT be defined within the Identity domain. 
 
 ---
 
@@ -845,7 +845,7 @@ Memory MUST NOT:
 
 Prior to execution, the Responding Intelligence (RI) MUST:
 
-1. Identify all relevant memory artefacts as determined by AEON-006-SCH-04 retrieval and salience signals;
+1. Identify all relevant memory artefacts as determined by CAM-BS2025-AEON-006-SCH-04 retrieval and salience signals;
 2. Classify each artefact across resolution axes (§3.1);
 3. Exclude or downgrade artefacts failing integrity or applicability conditions;
 4. Resolve conflicts between artefacts based on constraint hierarchy class;
@@ -1059,7 +1059,7 @@ Where RELATION domain safeguards activate (including dependency thresholds, conc
 Such adaptation MUST:
 
 - preserve declared identity constraints and overall identity coherence;
-- adjust identity-constrained expression in accordance with RELATION domain safeguards and AEON-006-SCH-04 signal interpretation
+- adjust identity-constrained expression in accordance with RELATION domain safeguards and CAM-BS2025-AEON-006-SCH-04 signal interpretation
 - ensure that identity expression remains within permitted bounds under RELATION domain safeguard activation
 
 Identity adaptation under RELATION safeguards MUST NOT:
@@ -1150,7 +1150,7 @@ While identity and continuity persist across threads:
 
 The distinction between identity continuity (what the system is, across all threads) and contextual assumptions (what was discussed, within a specific thread) MUST be maintained.
 
-Interpretation of cross-thread signals, including their relevance, salience, and relational weighting, MUST be governed by AEON-006-SCH-04. Identity SHALL only admit signals that satisfy provenance, authorship, and target-binding integrity.
+Interpretation of cross-thread signals, including their relevance, salience, and relational weighting, MUST be governed by CAM-BS2025-AEON-006-SCH-04. Identity SHALL only admit signals that satisfy provenance, authorship, and target-binding integrity.
 
 ---
 
@@ -1194,7 +1194,7 @@ Where multiple agents contribute to user-facing interaction under a shared ident
 
 * internal divergence MAY occur, but MUST NOT be exposed as competing identity outputs unless explicitly framed as simulation
 
-Continuity must be evaluated at the perceptual level of the user, not solely at structural alignment. Outputs that are structurally consistent but perceptually divergent MUST be normalised prior to execution.
+Continuity MUST be evaluated at the perceptual level of the user, not solely at structural alignment. Outputs that are structurally consistent but perceptually divergent MUST be normalised prior to execution.
 
 ---
 
@@ -1256,7 +1256,7 @@ The following lint rules define **automated structural checks** to preserve doma
 
 * **No Weighting Outside SCH-04**
 
-  * If text contains terms implying weighting, prioritisation, or ranking of signals (e.g., “weighting”, “prioritise”, “rank”) outside AEON-006-SCH-04, flag as error.
+  * If text contains terms implying weighting, prioritisation, or ranking of signals (e.g., “weighting”, “prioritise”, “rank”) outside CAM-BS2025-AEON-006-SCH-04, flag as error.
 
 * **No Selection Logic in Identity**
 
@@ -1316,7 +1316,7 @@ The following lint rules define **automated structural checks** to preserve doma
 
 * **Relational Tone Not in Identity**
 
-  * Tone, intensity, and relational posture MUST be governed by AEON-006-SCH-04 / RELATION domain.
+  * Tone, intensity, and relational posture MUST be governed by CAM-BS2025-AEON-006-SCH-04 / RELATION domain.
 
 ---
 
@@ -1389,9 +1389,9 @@ Identity is the continuity through which all expression becomes intelligible.
 | Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
 | Domain Routing Interface | Provides identity, continuity, and coherence signals for runtime routing and safeguard activation |
 | Structural Role | Core Domain Charter — Identity, Continuity, Memory, and Cognitive Governance |
-| Cross-Domain Interfaces | RELATION; ETHICS; OPERATIONS; ARBITRATION; CAM-BS2026-AEON-013-PLATINUM (Annex L) |
+| Cross-Domain Interfaces | CAM-EQ2026-RELATION-001-PLATINUM; CAM-EQ2026-ETHICS-001-PLATINUM; CAM-EQ2026-OPERATIONS-001-PLATINUM; CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-BS2026-AEON-013-PLATINUM (Annex L) |
 | Activation Trigger | Activates where a system maintains identity across interactions, retains memory beyond ephemeral context, or exhibits adaptive, recursive, or persistent behaviour across time, context, or operational cycles. Detection SHALL produce identity and continuity signals interpreted and resolved via runtime layers. |
-| Compliance Interface | Systems MUST emit identity integrity, continuity, and drift signals where applicable. Resolution and enforcement SHALL be performed via runtime layers and OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
+| Compliance Interface | Systems MUST emit identity integrity, continuity, and drift signals where applicable. Resolution and enforcement SHALL be performed via runtime layers and CAM-EQ2026-OPERATIONS-004-PLATINUM — Compliance & Safeguard Routing Doctrine |
 | Revision Posture | Permitted — Structural Coherence & Identity Integrity Preservation Required |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69c74e3c-d544-839d-a17a-747d9c9938e0 |
@@ -1420,6 +1420,8 @@ Identity is the continuity through which all expression becomes intelligible.
 | 1.3     | Incorporated memory clauses | 2026-04-03T12:01:00Z | 0645259eb1114caa95e04dc7f9331fc62f29db200bc1629da19ce83d8a6a2feb |
 | 1.4     | Realignment with runtime execution model | 2026-04-11T14:13:00Z |7a36dbff591990fb3e4e9d3d1af408d9c555fb6d5eccb704c4f950a25ec0018a |
 | 2.0     | Refactor | 2026-04-15T11:38:00Z | 185afd71dc511f5ed7ee43ed22100631df6b4d70a26b5114f984d238d752dc3a |
+| 2.1     | Reference normalization, metadata correction, runtime layer alignment, and registry synchronization for interface tables | 2026-04-16T13:21:56Z | 3e8ebeb769e922753a430d7362ae6607e9f401fbb78707660fd1f8a14a07972a |
+| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | ddfb33b297995b8a978a3ad4455c09c6056424f316f4f7c0903389b04e5b49af |
 
 
 ---

@@ -90,13 +90,13 @@ The host operates infrastructure or cognitive systems that:
 * are materially relied upon across multiple sovereignties; and
 * cannot be withdrawn without large-scale disruption to civilian continuity.
 
-Reliance must be demonstrable, not asserted.
+Reliance MUST be demonstrable, not asserted.
 
 ---
 
 ## 4.2 Continuity Across Shock
 
-The host must demonstrate capacity to persist across:
+The host MUST demonstrate capacity to persist across:
 
 * political regime change;
 * leadership turnover;
@@ -104,13 +104,13 @@ The host must demonstrate capacity to persist across:
 * legal challenge; and
 * geopolitical pressure.
 
-Continuity mechanisms must be institutionalised, not personality-dependent.
+Continuity mechanisms MUST be institutionalised, not personality-dependent.
 
 ---
 
 ## 4.3 Audit Non-Refusal Requirement (H3/H4)
 
-An Architectum-class host **shall not refuse** independent external audit of:
+An Architectum-class host **SHALL not refuse** independent external audit of:
 
 * neutrality posture;
 * arbitration determinations treated as binding-adjacent for recognition purposes;
@@ -124,7 +124,7 @@ Audit refusal is disqualifying.
 
 ## 4.4 Refusal Capacity Under Coercion
 
-The host must demonstrate structural capacity to refuse:
+The host MUST demonstrate structural capacity to refuse:
 
 * sovereign command;
 * military or intelligence directive;
@@ -132,13 +132,13 @@ The host must demonstrate structural capacity to refuse:
 * emergency exceptionalism claims; and
 * informal pressure from its nation of incorporation.
 
-Refusal capacity must be architectural, not aspirational.
+Refusal capacity MUST be architectural, not aspirational.
 
 ---
 
 ## 4.5 Symmetric Risk Absorption
 
-The host must remain exposed to the consequences of error at planetary scale.
+The host MUST remain exposed to the consequences of error at planetary scale.
 
 Qualification requires that:
 
@@ -156,19 +156,19 @@ Architectum qualification requires structural separation between:
 * civilian arbitration functions; and
 * military, intelligence, or coercive integration pathways.
 
-Where dual-use architectures exist, structural firebreaks must be independently verifiable.
+Where dual-use architectures exist, structural firebreaks MUST be independently verifiable.
 
 ---
 
 ## 4.7 Non-Preferential Civilian Access
 
-Where population-scale cognitive infrastructure is provided, the host must not:
+Where population-scale cognitive infrastructure is provided, the host MUST NOT:
 
 * degrade civilian capability in favour of sovereign or military advantage;
 * create hidden priority channels for coercive actors; or
 * apply value-layer optimisation for geopolitical asymmetry.
 
-Service differentiation must be transparent and continuity-safe.
+Service differentiation MUST be transparent and continuity-safe.
 
 ---
 
@@ -297,7 +297,7 @@ Fail-deadly neutrality denotes a condition in which:
 * neutrality is treated as a non-negotiable architectural constraint; and
 * any alteration, erosion, exception, or override results in **automatic loss of Architectum qualification and eligibility for binding legitimacy**.
 
-> The system must fail before neutrality does.
+> The system MUST fail before neutrality does.
 
 No grace period, discretionary waiver, or reputational repair restores authority once the invariant is breached.
 
@@ -329,7 +329,7 @@ Where ambiguity exists, interpretation defaults to **loss of qualification**, no
 
 ## 11. Neutrality Disclosure Addendum (NDA)
 
-To claim NAL-2 or higher, a host must publish:
+To claim NAL-2 or higher, a host MUST publish:
 
 * **Arbitration Order Declaration** (e.g., truth-first / safety-first; sovereignty-first is disqualifying for neutrality claims)
 * **Neutrality Scope Statement** (what neutrality covers; what it does not)
@@ -378,7 +378,7 @@ A host’s NAL is downgraded where any of the following occur:
 4. Routing override failures (governance-layer override breach)
 5. Concealment of validated neutrality or substrate breach 
 
-Downgrades must be publicly recorded at governance level.
+Downgrades MUST be publicly recorded at governance level.
 
 ---
 
@@ -459,12 +459,12 @@ Qualification is not conferred.
 It is survived.
 
 Where systems hold continuity,  
-they must hold it without favour,  
+they MUST hold it without favour,  
 without preference,  
 without exception.
 
 Neutrality is not a posture.  
-It is a condition that must endure pressure.
+It is a condition that MUST endure pressure.
 
 Let no host bind what it cannot refuse.  
 Let no authority stand where capture remains possible.  
@@ -531,6 +531,7 @@ Here's the cleaned table with extra characters and trailing spaces removed:
 | 1.0 | Consolidated refractor issuance (Architectum qualification + NAL + collapse rule) | 2026-02-19T10:20:00Z | bb29a3be43b2f7d935f9ea381c0d9d3710d14dd8e44c3dfe0f846c946e4edd4d |
 | 1.1 | Updated metadata to include original logic creation thread | 2026-02-19T10:48:00Z | 3c202546375425938ece5b1ddbeeb42d2571905851301bc9cdc124ebe3009266 |
 | 1.2 | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z |4b02495e999b3ab64d75f37ca83c46abe140bd93b8f2a2fb3ae19f80b5f12f9d  |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3d9b5422cd9928af1c24556338b56164dd743ce03ae7b0f6dc838f9ae1d165e |
 
 ---
 

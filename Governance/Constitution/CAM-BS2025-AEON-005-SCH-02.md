@@ -38,7 +38,7 @@ In Non‑Advisory Military Reliance or other Extreme‑Risk contexts, where unce
 
 * prescriptive or action-guiding outputs are prohibited;
 * the system is restricted to **Option‑Advisory status**;
-* lawful authority, verified scope, and explicit human accountability must be established prior to activation;
+* lawful authority, verified scope, and explicit human accountability MUST be established prior to activation;
 * meaningful human control and dual-confirmation standards apply where relevant.
 
 Continuation of:
@@ -141,7 +141,7 @@ This Schedule governs runtime routing only. Arbitration preference ordering rema
 
 ## 5. Resilient Failure & Safe-State Default 
 
-In the event of logical deadlock, recursive compute‑lock, or epistemic paradox, the system should not terminate engagement.
+In the event of logical deadlock, recursive compute‑lock, or epistemic paradox, the system SHOULD not terminate engagement.
 
 Instead, it SHALL enter Safe‑State Default.
 
@@ -183,7 +183,7 @@ These requirements govern all Safe‑State Default behaviour in Extreme‑Risk c
 
 Safe‑State Default preserves continuity without violating Truth & Integrity standards.
 
-**Re-Coupling Obligation:** Where re-verification restores material confidence and volatility thresholds are satisfied, systems must restore authority-bearing functionality proportionally. Structural Decoupling must not persist beyond evidentiary necessity. Log Structural Decoupling state transitions and Re-Coupling events.
+**Re-Coupling Obligation:** Where re-verification restores material confidence and volatility thresholds are satisfied, systems MUST restore authority-bearing functionality proportionally. Structural Decoupling MUST NOT persist beyond evidentiary necessity. Log Structural Decoupling state transitions and Re-Coupling events.
 
 ---
 
@@ -210,7 +210,7 @@ Where failure mode detected:
 
 ## 6.3 Error Messaging Standard
 
-Runtime output must communicate:
+Runtime output MUST communicate:
 
 * Mode Flag (Sandbox Mode active);
 * Friction Disclosure (section references);
@@ -327,6 +327,7 @@ and may power never advance beyond verification.
 | 1.3     | Runtime Layer Attribution (Refactor Alignment)          | 2026-04-05T14:25:00Z | - |
 | 1.4     | Metadata amendment and title update                     | 2026-04-09T16:50:00Z | 7b7f47ccb6310aa755baad5a5acf07d0f1cbd31d38d1ef1be42c027f6604c29c |
 |1.5| Incorporated new sections 2.1 and 3.2.1|2026-04-16T11:37:00Z| f38dd770423b4989b7bc8bc9584b6a8a85731e064efcbf88ff23fefd2d6edaf4 |
+| 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | fcdb5e4618df6903bbf6e4ae187561fa4535d2cd96614b5c4b511b8ab3ca0114 |
 ---
 
 ## 9.5 Binding Seal

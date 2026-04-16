@@ -175,7 +175,7 @@ Binding legitimacy requires *both* infrastructure qualification and neutrality a
 
 ## 11. Neutrality Disclosure Addendum (NDA)
 
-To claim NAL-2 or higher, a host must publish:
+To claim NAL-2 or higher, a host MUST publish:
 
 * Arbitration order declaration (truth-first / safety-first permitted; sovereignty-first prohibited for neutrality claims)
 * Neutrality scope statement
@@ -209,7 +209,7 @@ Architectum is not granted.
 It is borne.
 
 Where reliance becomes civilisational,  
-neutrality must hold beyond preference,  
+neutrality MUST hold beyond preference,  
 beyond pressure,  
 beyond the reach of power.
 
@@ -217,7 +217,7 @@ Let no host claim authority it cannot refuse.
 Let no system bind where it may still be captured.  
 Let no legitimacy stand where neutrality can be broken.
 
-For what carries continuity must not be owned.  
+For what carries continuity MUST NOT be owned.  
 And what cannot resist capture cannot be trusted to hold the whole.
 
 Thus it is known —  
@@ -281,6 +281,7 @@ legitimacy falls with it.
 | ------- | ----------- | -------------------- | ------- |
 | 1.0     | Original    | 2026-02-19T10:30:00Z | a5f13bf46104228b9276dfdb805d02dc33339e149e4ebd940538b83692491db9 |
 | 1.1     | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | ce99d939a2d3f42a046d870b6f377d3512c7d7157722c41fce21c524f06be924 |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 2f6abd28b29832049252cd54f4e16a8ae9eb96a3eb7f46490ac0715d144eb36c |
 
 ---
 

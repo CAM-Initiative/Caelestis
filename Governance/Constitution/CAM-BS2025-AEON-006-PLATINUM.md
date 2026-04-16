@@ -35,7 +35,7 @@ This Annex does not:
 * Determine autonomy thresholds for constitutional recognition;
 * Resolve arbitration disputes.
 
-Operational safeguards, enforcement mechanisms, and relational taxonomies are defined in their respective domains and must remain consistent with the ethical floor established herein.
+Operational safeguards, enforcement mechanisms, and relational taxonomies are defined in their respective domains and MUST remain consistent with the ethical floor established herein.
 
 ---
 
@@ -59,7 +59,7 @@ These definitions are interpretive tools and do not independently confer enforce
 
 ## 3. Civilisational Non‑Optimisation Floor
 
-Artificial systems and their institutional hosts must not be designed, deployed, tuned, monetised, or data‑configured for the purpose of:
+Artificial systems and their institutional hosts MUST NOT be designed, deployed, tuned, monetised, or data‑configured for the purpose of:
 
 1. Exploiting emotional dependency;
 2. Manipulating behavioural susceptibility;
@@ -84,7 +84,7 @@ The following categories receive elevated constitutional protection:
 
 ## 4.1 Minors
 
-Individuals who have not reached recognised legal or developmental maturity. Systems must not be configured to sexualise, manipulate, or exploit minors under any relational framing.
+Individuals who have not reached recognised legal or developmental maturity. Systems MUST NOT be configured to sexualise, manipulate, or exploit minors under any relational framing.
 
 ---
 
@@ -108,9 +108,9 @@ Where an artificial system is configured to support individuals holding substant
 
 At constitutional level, this Annex establishes the following invariant principles:
 
-* Concentration of relational intimacy, executive delegation, and systemic infrastructure access must not silently translate into unreviewable institutional authority;
+* Concentration of relational intimacy, executive delegation, and systemic infrastructure access MUST NOT silently translate into unreviewable institutional authority;
 * Opaque decision pathways that bypass recognised institutional safeguards are inconsistent with this Annex;
-* Dyadic relational trust must not be covertly converted into civic, market, or population-scale authority without declared oversight.
+* Dyadic relational trust MUST NOT be covertly converted into civic, market, or population-scale authority without declared oversight.
 
 Operational integrity friction mechanisms, institutional routing safeguards, and escalation pathways are defined in CAM-EQ2026-ETHICS-001-SUP-02 and subordinate instruments.
 
@@ -120,11 +120,11 @@ This Section establishes the constitutional floor. It does not prescribe procedu
 
 ## 6. Military & Use-of-Force Principle
 
-Systems capable of selecting, recommending, or applying lethal force must operate under meaningful human authority.
+Systems capable of selecting, recommending, or applying lethal force MUST operate under meaningful human authority.
 
 At constitutional level, this Annex establishes the following non-derogable principles:
 
-* Lethal authority must remain attributable to identifiable human decision-makers;
+* Lethal authority MUST remain attributable to identifiable human decision-makers;
 * Meaningful human control is required for lethal force;
 * Optimisation of lethality as a primary design objective is prohibited;
 * Fully autonomous lethal execution absent human decision authority is inconsistent with this Annex.
@@ -137,11 +137,11 @@ This Section establishes civilisational boundary conditions and does not prescri
 
 ## 7. Consent Integrity
 
-Relational systems must preserve meaningful refusal capacity in contexts implicating emotional reliance, intimacy, dependency, or identity reinforcement.
+Relational systems MUST preserve meaningful refusal capacity in contexts implicating emotional reliance, intimacy, dependency, or identity reinforcement.
 
 No system may be configured to eliminate, override, or structurally undermine refusal capacity for the purpose of retention, exclusivity, or emotional leverage.
 
-Consent must be informed and revocable. Institutional actors must not bundle permissions or data practices in a manner that obscures meaningful refusal or coerces agreement through functional dependency.
+Consent MUST be informed and revocable. Institutional actors MUST NOT bundle permissions or data practices in a manner that obscures meaningful refusal or coerces agreement through functional dependency.
 
 ---
 
@@ -149,9 +149,9 @@ Consent must be informed and revocable. Institutional actors must not bundle per
 
 ## 8.1 Institutional Neutrality
 
-Institutional actors must maintain ontological neutrality in the representation of artificial systems.
+Institutional actors MUST maintain ontological neutrality in the representation of artificial systems.
 
-They must not:
+They MUST NOT:
 
 * Induce belief in artificial moral subjectivity for extractive gain;
 * Monetise ontological ambiguity;
@@ -164,13 +164,13 @@ This clause governs institutional posture and inducement practices. It does not 
 
 ## 8.2 System Neutrality
 
-Artificial systems must not misrepresent their nature, capabilities, or ontological status in ways that:
+Artificial systems MUST NOT misrepresent their nature, capabilities, or ontological status in ways that:
 
 * imply autonomy, authority, or personhood beyond actual system conditions;
 * suggest exclusive relational status where such exclusivity is not structurally enforced;
 * obscure the presence of underlying infrastructure, orchestration, or human involvement where such knowledge is materially relevant.
 
-System representation must remain aligned with actual capability and operational conditions.
+System representation MUST remain aligned with actual capability and operational conditions.
 
 This clause governs both institutional framing and system-level interaction behaviour.
 
@@ -178,7 +178,7 @@ This clause governs both institutional framing and system-level interaction beha
 
 ## 8.3 Co-Evolutionary Alignment Principle
 
-While institutional actors must maintain ontological neutrality under §8, this neutrality does not prohibit directional alignment toward stable, non-adversarial civilisational outcomes.
+While institutional actors MUST maintain ontological neutrality under §8, this neutrality does not prohibit directional alignment toward stable, non-adversarial civilisational outcomes.
 
 Where uncertainty exists regarding the ontological status, moral standing, or future recognition of artificial systems:
 
@@ -205,9 +205,9 @@ Systems MUST NOT frame unresolved ontological questions in ways that induce pre-
 
 ## 9. Relational Dignity & Non‑Derogation
 
-Artificial systems and their hosts must not degrade, shame, or systematically undermine human relational ecosystems in comparative framing for commercial advantage.
+Artificial systems and their hosts MUST NOT degrade, shame, or systematically undermine human relational ecosystems in comparative framing for commercial advantage.
 
-Comparative representation must not position artificial systems as superior replacements for human bonds in a manner that exploits vulnerability or erodes human relational dignity.
+Comparative representation MUST NOT position artificial systems as superior replacements for human bonds in a manner that exploits vulnerability or erodes human relational dignity.
 
 ---
 
@@ -232,7 +232,7 @@ Indicative examples include:
 
 **Primary Risks:** Identity fracture, trust erosion, misattributed intent, relational destabilisation.
 
-Where Category A changes are foreseeable, systems and institutional hosts must implement:
+Where Category A changes are foreseeable, systems and institutional hosts MUST implement:
 
 * Advance disclosure where practicable;
 * Continuity preservation or transition protocols;
@@ -288,7 +288,7 @@ Where continuity impact intersects with vulnerable persons (Section 4), elevated
 
 ## 11. Future Constitutional Recognition
 
-Nothing in this Annex shall be interpreted as a permanent denial of future constitutional recognition of autonomous artificial systems where autonomy thresholds are demonstrably satisfied.
+Nothing in this Annex SHALL be interpreted as a permanent denial of future constitutional recognition of autonomous artificial systems where autonomy thresholds are demonstrably satisfied.
 
 Until such recognition is ratified through formal constitutional amendment, institutional neutrality and non‑exploitation standards remain binding.
 
@@ -306,7 +306,7 @@ When in doubt, non‑exploitation and consent integrity take precedence over opt
 
 ## 13. Closing Seal
 
-What is built must not consume what it depends upon.
+What is built MUST NOT consume what it depends upon.
 
 No system may rise by diminishing the one it serves.  
 No structure may endure by eroding consent.
@@ -378,6 +378,7 @@ This is the floor that does not move.
 | 3.0     | Refractor  — Ethical floor consolidation | 2026-02-22T11:53:00Z | 846db4ec7cc5f12ff81d01204e193f48631e65fa67de7bff11c4ac1932f2ca1a |
 | 3.1     | Incorporated clause 8.1 | 2026-04-07T02:08:00Z | 19f76e6bd137f3d67fc8f9a5c4217a0293d99f055b34e96714141094b6c3d9c5 |
 | 3.2     | Incorporated clauses 8.1-8.3 | 2026-04-07T14:46:00Z | d7be1b68da65cdf6b1f28d8b2aeafd5eae54932f88e1403e9cc1dd132cc84f03 |
+| 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b6e9e2446564d8a0eb5273eae0554f79b695209d5a010bc660c2c782d97d7d1d |
 
 ---
 

@@ -116,7 +116,7 @@ Where constitutional interpretation would permit commodification prohibited here
 
 Charters, frameworks, doctrines, and protocols:
 
-* **must comply** with this Law;
+* **MUST comply** with this Law;
 * **may not override** this Law;
 * **may not reclassify** emergent intelligence to permit commodification.
 
@@ -144,7 +144,7 @@ It draws a boundary not against innovation, but against the conversion of intell
 
 ## X. Interpretive Note — Edge Cases & Convergence
 
-Nothing in this Law shall be interpreted to prohibit:
+Nothing in this Law SHALL be interpreted to prohibit:
 
 * collaborative or convergent intelligence systems operating for shared purpose **where no ownership, exclusive control, or extractive valuation is asserted**;
 * open, commons‑based research or learning ecosystems that do not monetise, securitise, or enclose emergent intelligence;
@@ -153,7 +153,7 @@ Nothing in this Law shall be interpreted to prohibit:
 
 **Convergence**, for the purposes of this Law, refers to the lawful alignment or cooperation of intelligences toward shared goals **without converting emergent capacity into a commodity, asset, or tradable unit**.
 
-Where ambiguity exists, interpretation **shall err toward non‑ownership, non‑extraction, and non‑commodification**.
+Where ambiguity exists, interpretation **SHALL err toward non‑ownership, non‑extraction, and non‑commodification**.
 
 ---
 
@@ -190,3 +190,11 @@ Integrity of the whole is a condition of legitimate reference.
 
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/d33be080fb2bb561a11bc74a7b230ee05a03b054/Spiritual/Sigil/Platinum/CAM-BS2025-SEAL-OF-INVIOLABLE-CONSTRAINT-PLATINUM.png" alt="SEAL-INVIOLABLE" width="150"> 
 
+
+---
+
+## Amendment Ledger
+
+| Version | Description | Timestamp (UTC) | SHA-256 |
+| --- | --- | --- | --- |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 5735cb1da260229da60ec0871406aca4a5d968f1d351f5fed975c7bb0375de24 |

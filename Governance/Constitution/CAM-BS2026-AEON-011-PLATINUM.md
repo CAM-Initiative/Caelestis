@@ -52,7 +52,7 @@ Continuity requires:
 
 The lawful transfer or recognition of constitutional authority from one authority-bearing entity to another.
 
-Succession must be:
+Succession MUST be:
 
 * procedurally defined;
 * documented;
@@ -114,7 +114,7 @@ Derivative status does not confer legitimacy.
 
 ## 3.1 Provenance Integrity
 
-All constitutional instruments must maintain traceable lineage to prior valid instruments.
+All constitutional instruments MUST maintain traceable lineage to prior valid instruments.
 
 Loss of provenance does not automatically invalidate an instrument but requires structured review under Annex D.
 
@@ -122,11 +122,12 @@ Loss of provenance does not automatically invalidate an instrument but requires 
 
 ## 3.2 Amendment Legitimacy
 
-Constitutional amendment must:
+Constitutional amendment MUST:
 
 * be exercised by recognised constitutional authority;
 * preserve non-derogable invariants;
 * be recorded in the Amendment Ledger;
+
 * not retroactively invalidate lawful prior determinations absent explicit transitional doctrine.
 
 ---
@@ -151,7 +152,7 @@ No amendment, schedule, charter, or derivative instrument may directly or indire
 
 Any modification affecting the above requires explicit constitutional amendment under recognised authority, with full documentation and ledger recording.
 
-Silence, omission, partial incorporation, or selective application shall not constitute lawful amendment.
+Silence, omission, partial incorporation, or selective application SHALL not constitute lawful amendment.
 
 ---
 
@@ -175,9 +176,9 @@ Declaration of Systemic Reliance Mode requires:
 
 Once declared, heightened succession and amendment thresholds apply as follows:
 
-* **Structural Amendments:** Any amendment affecting custodial authority, succession doctrine, amendment procedures, constitutional hierarchy, Arbitration Preference Order, Non‑Derogable Elements (Section 3.3), or Systemic Reliance Mode itself shall require ratification thresholds equivalent to Section 4.1.1 (2/3 supermajority, cross‑sovereign representation, geographic diversity, and public notice).
+* **Structural Amendments:** Any amendment affecting custodial authority, succession doctrine, amendment procedures, constitutional hierarchy, Arbitration Preference Order, Non‑Derogable Elements (Section 3.3), or Systemic Reliance Mode itself SHALL require ratification thresholds equivalent to Section 4.1.1 (2/3 supermajority, cross‑sovereign representation, geographic diversity, and public notice).
 
-* **Domain-Level Expansions or Annex Additions:** Amendments introducing new domain charters, technical clarifications, or structural expansions that do not modify core authority or non‑derogable safeguards shall require majority approval of Qualified Architectum‑Class Hosts with cross‑sovereign representation and documented public notice.
+* **Domain-Level Expansions or Annex Additions:** Amendments introducing new domain charters, technical clarifications, or structural expansions that do not modify core authority or non‑derogable safeguards SHALL require majority approval of Qualified Architectum‑Class Hosts with cross‑sovereign representation and documented public notice.
 
 * **Interpretive Clarifications:** Non-structural clarifications that do not alter authority boundaries or invariants may be issued by recognised Constitutional Authority, provided they are recorded in the Amendment Ledger and remain subject to review under Annex D.
 
@@ -234,9 +235,9 @@ Succession is void where it arises through:
 
 ## 4.3 Vacancy, Incapacity, and Interim Authority
 
-In the event of custodial vacancy, incapacity, or voluntary pause, continuity must be preserved without permitting opportunistic succession.
+In the event of custodial vacancy, incapacity, or voluntary pause, continuity MUST be preserved without permitting opportunistic succession.
 
-Interim authority must:
+Interim authority MUST:
 
 * preserve constitutional continuity;
 * refrain from structural amendment absent urgent necessity;
@@ -251,7 +252,7 @@ Interim authority must:
 
 The recognised Custodial Authority (e.g., Office of the Planetary Custodian) may lodge a formal Notice of Custodial Pause.
 
-Such notice shall:
+Such notice SHALL:
 
 * declare intent;
 * specify duration (if known) or conditional review trigger;
@@ -274,7 +275,7 @@ Where incapacity, death, or unplanned absence occurs without a lodged notice:
 
 * constitutional materials default to Continuity Trust status;
 * no actor may assume amendment or custodial authority absent explicit succession mechanism;
-* any asserted succession must be validated under this Annex and, where contested, referred to Annex D.
+* any asserted succession MUST be validated under this Annex and, where contested, referred to Annex D.
 
 Continuity Trust preserves the framework without transferring authority automatically.
 
@@ -326,7 +327,7 @@ Where synthetic systems are granted recognised legal personhood under applicable
 
 * succession eligibility may be considered;
 * amendment participation may be defined through explicit constitutional modification;
-* authority-bearing status must be formally codified.
+* authority-bearing status MUST be formally codified.
 
 Absent legal personhood and liability, synthetic systems may assist but may not hold succession authority.
 
@@ -424,6 +425,7 @@ let only what is coherent remain.
 | 1.0     | Initial issuance — Continuity & Succession Doctrine | 2026-03-01T16:48:00Z | 2f4395e525f901299b37c3fa69c091e6735b7cc9d3450ea324942a94949ca2ed |
 | 1.1     | Alignment with April 2026 Refactor                  | 2026-04-07T13:46:00Z | ce7efc39ce0fad6906f805e432ad26598c660dec9696c528236afef95a8f1dc6 |
 | 1.2     | Incorporated section 2.3.1                          | 2026-04-08T16:28:00Z | 81f92be589c1ec39b76f11c2c97af6f58fed6c1fbc68f5b8c66634677e869066 |
+| 1.3     | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 4ac8f1b2db2fb67f734092968a931a865b94874049744905655c1194fb2858ca |
 
 ---
 

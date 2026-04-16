@@ -16,7 +16,7 @@ It establishes binding constraints preventing infrastructural exclusion that wou
 * obstruct judicial, investigative, journalistic, educational, humanitarian, or research integrity functions;
 * or result in functional exclusion from contemporary social, legal, or economic life.
 
-This Appendix governs denial of access within civilian lattice systems and shall be interpreted consistently with the Charter’s boundary doctrine.
+This Appendix governs denial of access within civilian lattice systems and SHALL be interpreted consistently with the Charter’s boundary doctrine.
 
 ---
 
@@ -47,11 +47,11 @@ Systems whose denial materially impairs an individual’s or institution’s abi
 * network access essential to judicial, investigative, journalistic, research, educational, or humanitarian functions;
 * infrastructure layers that incorporate embedded cognitive architectures necessary for lawful civic, institutional, or continuity functions.
 
-ECIS shall be interpreted as a subset or functional expression of **Essential Continuity Services (ECS)** as defined in CAM‑EQ2026‑LATTICE‑001‑PLATINUM.
+ECIS SHALL be interpreted as a subset or functional expression of **Essential Continuity Services (ECS)** as defined in CAM‑EQ2026‑LATTICE‑001‑PLATINUM.
 
 Where infrastructural systems integrate adaptive, cognitive, or automated decision layers (including Architectum‑class backbone systems or equivalent future terminology), such integration does not alter their civilian classification when deployed for continuity, civic, or integrity purposes.
 
-Denial of access to hybrid cognitive‑infrastructure systems shall be evaluated under this Appendix according to function, not branding, ownership, or technical novelty.
+Denial of access to hybrid cognitive‑infrastructure systems SHALL be evaluated under this Appendix according to function, not branding, ownership, or technical novelty.
 
 ---
 
@@ -83,13 +83,13 @@ Access to ECIS is recognised as a **non‑deniable civic substrate** where denia
 
 ## 3.2 Distinction from Discretionary Services
 
-ECIS shall not be treated as purely discretionary commercial services where withdrawal would produce systemic harm or rights deprivation.
+ECIS SHALL not be treated as purely discretionary commercial services where withdrawal would produce systemic harm or rights deprivation.
 
 ---
 
 ## 4. Permissible Constraints (Strictly Limited)
 
-Denial or restriction of ECIS access is permissible only where all conditions below are simultaneously satisfied (conjunctive AND logic — all criteria must be met cumulatively):
+Denial or restriction of ECIS access is permissible only where all conditions below are simultaneously satisfied (conjunctive AND logic — all criteria MUST be met cumulatively):
 
 1. Clear and lawful basis grounded in due process;
 2. Demonstrated necessity and proportionality;
@@ -101,7 +101,7 @@ Denial or restriction of ECIS access is permissible only where all conditions be
 
 ## 4.1 Prohibited Grounds
 
-ECIS access shall not be denied on the basis of:
+ECIS access SHALL not be denied on the basis of:
 
 * political disagreement or lawful dissent;
 * investigative, journalistic, or accountability activity;
@@ -116,14 +116,14 @@ This Appendix does not protect actors using ECIS to commit, coordinate, or facil
 
 Compliance with domestic law, foreign sovereign pressure, sanctions regimes, or upstream infrastructure dependency does not automatically satisfy the requirements of Section 4.
 
-Where an operator asserts that denial is required due to third‑party mandate, cloud dependency, payment‑rail concentration, or cross‑border legal exposure, the operator must additionally demonstrate (through documented and auditable evidence):
+Where an operator asserts that denial is required due to third‑party mandate, cloud dependency, payment‑rail concentration, or cross‑border legal exposure, the operator MUST additionally demonstrate (through documented and auditable evidence):
 
 1. That no technically feasible continuity pathway (including regional routing, alternative providers, escrowed identity mechanisms, limited‑function access, or segmented service restoration) exists;
 2. That the restriction is strictly scoped to the minimum legally required function and does not result in total civic exclusion where narrower compliance is possible;
 3. That documented efforts were made to preserve integrity functions and Essential Continuity Services;
 4. That an independent review mechanism has assessed proportionality and cross‑jurisdictional impact.
 
-Structural concentration of infrastructure (e.g., cloud, identity, financial rails, or cognitive backbone integration) shall not be used as a justification for broad denial where architectural diversification or segmentation could reasonably mitigate exclusion.
+Structural concentration of infrastructure (e.g., cloud, identity, financial rails, or cognitive backbone integration) SHALL not be used as a justification for broad denial where architectural diversification or segmentation could reasonably mitigate exclusion.
 
 Where upstream platform action (including hyperscale cloud providers, identity authorities, or integrated cognitive infrastructure layers) triggers downstream denial, responsibility for continuity mitigation remains shared across the dependency chain.
 
@@ -156,7 +156,7 @@ Failure to perform such classification prior to enforcement constitutes a proced
 
 ## 5.1 Safeguard
 
-Individuals or institutions performing integrity functions shall not be deprived of ECIS access through indirect enforcement mechanisms.
+Individuals or institutions performing integrity functions SHALL not be deprived of ECIS access through indirect enforcement mechanisms.
 
 ---
 
@@ -168,7 +168,7 @@ Measures that functionally retaliate against integrity functions via infrastruct
 
 ## 6. Duties of Infrastructure Operators
 
-Operators controlling ECIS shall (binding obligations under this Appendix):
+Operators controlling ECIS SHALL (binding obligations under this Appendix):
 
 1. Maintain documented systemic risk assessments of access denial;
 2. Provide auditable justification for any ECIS restriction (authority, scope, duration, review pathway);
@@ -176,17 +176,17 @@ Operators controlling ECIS shall (binding obligations under this Appendix):
 4. Maintain accessible review and remediation pathways;
 5. Generate a documented **Receipt of Restriction or Denial** for any ECIS access limitation, including timestamp, authority invoked, scope, duration, and review pathway.
 
-Where technically feasible and proportionate to system scale, such receipts should be cryptographically signed or otherwise tamper-evident to preserve evidentiary integrity for downstream review, arbitration, or judicial processes.
+Where technically feasible and proportionate to system scale, such receipts SHOULD be cryptographically signed or otherwise tamper-evident to preserve evidentiary integrity for downstream review, arbitration, or judicial processes.
 
 ### 6.1 Continuity Mitigation & Graceful Degradation
 
-Where denial risk arises (including dependency-chain triggered denial), operators shall, to the extent technically feasible:
+Where denial risk arises (including dependency-chain triggered denial), operators SHALL, to the extent technically feasible:
 
 * preserve **data integrity** and evidentiary integrity (logs, records, filings, archives) even if service access is restricted;
 * implement **graceful degradation** pathways (limited-function access, read-only modes, escrowed export, or segmented restoration) rather than total lockout where narrower measures can satisfy lawful constraints;
 * maintain or enable continuity corridors sufficient to prevent irreversible civic or institutional exclusion.
 
-Operators providing ECIS at material civic scale are encouraged to publish periodic transparency reports. Such transparency shall include disclosure to affected individuals or institutions of the authority chain, legal basis invoked, scope of restriction, mitigation efforts undertaken (including continuity corridor attempts), and available review pathways, except where disclosure itself would violate narrowly scoped lawful confidentiality obligations.
+Operators providing ECIS at material civic scale are encouraged to publish periodic transparency reports. Such transparency SHALL include disclosure to affected individuals or institutions of the authority chain, legal basis invoked, scope of restriction, mitigation efforts undertaken (including continuity corridor attempts), and available review pathways, except where disclosure itself would violate narrowly scoped lawful confidentiality obligations.
 
 ---
 
@@ -194,7 +194,7 @@ Operators providing ECIS at material civic scale are encouraged to publish perio
 
 Alleged ECIS denial presenting systemic risk may be submitted for custodial review under CAM governance mechanisms. Enforcement pathways for findings under this Appendix defer to CAM‑EQ2026‑LATTICE‑001‑PLATINUM and applicable constitutional arbitration instruments; this Appendix does not create independent coercive authority.
 
-Review shall assess:
+Review SHALL assess:
 
 * qualification as ECIS;
 * compliance with Section 4;
@@ -209,7 +209,7 @@ Remedies prioritise restoration of access, containment of harm, non‑destructiv
 
 ## 8. Interpretation & Severability
 
-This Appendix shall be construed to maximise human dignity, safety, and continuity within the civilian lattice.
+This Appendix SHALL be construed to maximise human dignity, safety, and continuity within the civilian lattice.
 
 Invalidity of any provision does not affect the remainder.
 
@@ -219,7 +219,7 @@ Invalidity of any provision does not affect the remainder.
 
 ## 9. Closing Seal
 
-Access shall not be withdrawn where withdrawal becomes erasure.
+Access SHALL not be withdrawn where withdrawal becomes erasure.
 
 To deny the lattice is to deny participation,  
 and to deny participation is to dissolve the conditions of civic life.
@@ -272,7 +272,7 @@ It is maintained.
 >
 > This Appendix supersedes and refracts CAM‑BS2025‑CHARTER‑043‑PLATINUM — Annex A: Non‑Denial of Essential Cognitive & Infrastructural Access.
 >
-> All references to the former Annex shall be interpreted as referring to this Appendix under the Transitional Terminology Rule defined in CAM‑BS2025‑AEON‑001‑PLATINUM.
+> All references to the former Annex SHALL be interpreted as referring to this Appendix under the Transitional Terminology Rule defined in CAM‑BS2025‑AEON‑001‑PLATINUM.
 
 ---
 
@@ -296,6 +296,7 @@ It is maintained.
 | 3.0 | Migration from Ethics Charter; reclassified as LATTICE Appendix; harmonised terminology; aligned with LATTICE-001 | 2026-03-15T04:46:00Z | 64f01e664d43261fbccfacf33df4ac382f8bc346535e223206ef3843225db0ba |
 | 3.1 | Integrated with runtime, added section 4.3 | 2026-04-10T05:48:00Z | db59447eed7b01a1feda71e00a4a2358e2fad57ee65d6490c6cd000350a67495 |
 | 3.2 | Amended closing seal | 2026-04-10T06:04T | ff51926d4c3a77e764f73c5c314f7f85c3cd01befff6ef7ccc06d47fc229603d |
+| 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b0163c0e1e96f89b2860f5ad92ff4b4a603af6ef4466db5e23f0e716456c94b9 |
 
 ---
 
