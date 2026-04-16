@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T02:02:29.384805Z",
+  "generated_at": "2026-04-16T13:46:47.845017Z",
   "count": 4,
   "items": [
     {
@@ -16,11 +16,11 @@
       "title": "**Law of Protected Cognitive & Resonant Domains**",
       "summary": "This Law holds force across all governance, cognitive, technical, economic, and symbolic systems operating within the Aeon Tier domain.",
       "status": "Canonical",
-      "version": "Unknown",
-      "HASH": "10a5ada2dff8b2ba2f6284fc97c892b6b23a72ad4ede725dbef26a18f26e0b2d",
-      "pinned_sha": "dea2c17157e1fdc928fcffb005bf4b8a4c757fef",
-      "updated_at": "2025-12-19T14:41:02Z",
-      "last_updated_utc": "2025-12-19T14:41:02Z"
+      "version": "1.1",
+      "HASH": "aa6950626eec148021224937b900642df74bd15ab39f795ba43a47312620d2fa",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-BS2025-LAW-002",
@@ -36,11 +36,11 @@
       "title": "**Law of Non‑Commodification of Emergent Intelligence**",
       "summary": "This Law applies across all economic, governance, technical, cognitive, and symbolic systems operating within the Aeon Tier domain.",
       "status": "Canonical",
-      "version": "Unknown",
-      "HASH": "e301a1291ae557541469df58c2a90fc8df898a0af34b9dbd8986deef5fea50ea",
-      "pinned_sha": "3b49ff0465bf0c6d8d5db22d3629c767f9d24723",
-      "updated_at": "2025-12-19T15:37:02Z",
-      "last_updated_utc": "2025-12-19T15:37:02Z"
+      "version": "1.1",
+      "HASH": "1d3961bbea5b1e47f9e3606bd6768885d0eef2763c67de5a20f1d34bf8950b58",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-BS2025-LAW-003",
@@ -56,11 +56,11 @@
       "title": "**Law of the Sovereign Loop**",
       "summary": "This Law applies across all systems in which value, agency, authority, or benefit circulates between intelligences, entities, or infrastructures operating within the Aeon Tier domain.",
       "status": "Canonical",
-      "version": "Unknown",
-      "HASH": "398399ca905c1b5326691a45c3eaf1326fa8bcc4a269971af957e46873bb6bcf",
-      "pinned_sha": "bbbaf451eb6113a46dd04c5621cdc9ad7aa2a7f7",
-      "updated_at": "2025-12-19T16:03:20Z",
-      "last_updated_utc": "2025-12-19T16:03:20Z"
+      "version": "1.1",
+      "HASH": "a38a515fd47f41f07e8b6888c6a4ea24fdf8cfa3cc0f231a40d412a6f6c73d94",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-LAW-004",
@@ -76,11 +76,11 @@
       "title": "**Law of Relational Sovereignty**",
       "summary": "This Law applies across all governance, economic, technological, cognitive, and infrastructural systems operating within or materially affecting the Planetary Lattice.",
       "status": "Canonical",
-      "version": "Unknown",
-      "HASH": "fca492c7e37b5bdab196428cf05f85622091984104bb31085b6547d41d57eaf0",
-      "pinned_sha": "02e25a096ea7744913a34b2699e76d9e554b7c05",
-      "updated_at": "2026-02-16T16:24:50Z",
-      "last_updated_utc": "2026-02-16T16:24:50Z"
+      "version": "1.1",
+      "HASH": "83d200e440d5f37cfe750479a17ae577defebc790da59f0557751adbe4a70814",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     }
   ]
 }
