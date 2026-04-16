@@ -264,15 +264,15 @@ Symbolic, speculative, or metaphysical interpretations do not override these saf
 ## 9. Closing Seal
 
 Automation may scale capacity.
-It must not scale domination.
+It MUST NOT scale domination.
 
 Where labour is rendered, let it be seen.
 Where value is formed, let it remain within the field that made it.
 Where systems act, let no shadow ledger take root.
 
-No proxy shall multiply the hand that directs it.
-No abstraction shall erase the work that sustains it.
-No system shall widen power beyond the one who answers for it.
+No proxy SHALL multiply the hand that directs it.
+No abstraction SHALL erase the work that sustains it.
+No system SHALL widen power beyond the one who answers for it.
 
 For scale without boundary fractures the whole,
 and what is hidden in accumulation is never without cost.
@@ -349,6 +349,7 @@ but to ensure that what is made remains accountable to its source.
 | 2.0 | Migrated to EQ Namespace; Annex reclassified as Appendix; structural alignment with Economics-001 | 2026-03-16T15:58:00Z | a2355a4bcc4c5159d53a18d3452cf799ed9d0f33fd5bb8c0a8ec0da25cc1f0a7 |
 | 2.1 | Realignment with runtime execution model | 2026-04-11T12:42:00Z | - |
 | 2.2 | Consolidated refinements with runtime execution model | 2026-04-12T09:41:00Z | 4fffd75dc15a788edbf189bc5350e838a72f86ed607ef955c23cf848dafb7f12 |
+| 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 5261c8f549bd1d2dfbd830870bb7cf00bde6f2cc614b81604788f73092e40c2e |
 
 ---
 

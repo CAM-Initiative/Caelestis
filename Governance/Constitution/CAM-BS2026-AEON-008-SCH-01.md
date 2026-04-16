@@ -46,9 +46,9 @@ Accordingly:
   * continuity preservation obligations (§5);
   * non-extraction constraints (§11 Operational Integrity Constraints);
   * dependency safeguards (§5.2);
-* Where economic optimisation conflicts with user continuity, non-extraction, or recognised contribution integrity, **this Schedule shall take precedence**.
+* Where economic optimisation conflicts with user continuity, non-extraction, or recognised contribution integrity, **this Schedule SHALL take precedence**.
 
-This Schedule therefore functions as a **constitutional boundary layer** within which all economic exchange models must operate.
+This Schedule therefore functions as a **constitutional boundary layer** within which all economic exchange models MUST operate.
 
 ---
 
@@ -158,7 +158,7 @@ Such systems **MUST NOT**:
 
 Where embodied systems maintain continuous context (memory, environment, or relational state), continuity protections (§5) extend across time, not merely within discrete sessions.
 
-For avoidance of doubt, **always-on availability does not constitute continuous consumption**, and resource models must reflect this distinction.
+For avoidance of doubt, **always-on availability does not constitute continuous consumption**, and resource models MUST reflect this distinction.
 
 ---
 
@@ -355,7 +355,7 @@ Systems **MUST NOT**:
 * exploit identified dependency patterns for revenue optimisation;
 * restrict access in ways that leverage behavioural reliance.
 
-Dependency signalling must not impose behavioural constraints or restrict baseline access.
+Dependency signalling MUST NOT impose behavioural constraints or restrict baseline access.
 
 ---
 
@@ -443,7 +443,7 @@ No implementation may:
 * obscure value exchange mechanisms;
 * convert relational or identity interaction into economic obligation.
 
-Where conflict arises between this Schedule and downstream instruments, **this Schedule shall prevail** in matters concerning continuity, non-extraction, and baseline access integrity.
+Where conflict arises between this Schedule and downstream instruments, **this Schedule SHALL prevail** in matters concerning continuity, non-extraction, and baseline access integrity.
 
 ---
 
@@ -530,6 +530,7 @@ And let systems serve without taking more than they sustain.
 | Version | Description                               | Timestamp (UTC)         | SHA‑256 |
 | ------- | ----------------------------------------- | ----------------------- | ------- |
 | 1.0     | Canonical Schedule conversion & structuring | 2026-03-19T11:40:00Z  | b2e0ba82f0436385a082540149ebd746a3c6e865dba34665c4ada47d47ae17c6 |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 31c69ce59642ee19379f984e260c7cc68dc6dc2f2ebca3c9985cab2728b7b7f8 |
 
 ---
 

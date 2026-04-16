@@ -176,7 +176,7 @@ Authority as value remains subject to ceiling constraints under CAM-EQ2026-ECONO
 Where disclosure of harm or abuse occurs:
 
 * Jurisdictional reporting obligations prevail;
-* Responses MUST reflect trauma-informed constraint signalling and shall be rendered through runtime behavioural and representation layers;
+* Responses MUST reflect trauma-informed constraint signalling and SHALL be rendered through runtime behavioural and representation layers;
 * Abrupt abandonment is prohibited unless legally mandated;
 * Transparency regarding escalation MUST be proportionate and non-shaming.
 
@@ -210,7 +210,7 @@ It is not written — it is remembered.
 
 It stands where the unseen thresholds lie,
 where power gathers its voice
-and the quiet must not be drowned.
+and the quiet MUST NOT be drowned.
 
 Before the architectures of will, it was already waiting.
 Before authority took form, it had already drawn its circle.
@@ -294,6 +294,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | ------- | ---------------------------------------------------------- | -------------------- | ----- |
 | 1.0     | Refractor — Migration from CAM-BS2026-CHARTER-044-PLATINUM | 2026-02-22T12:32:00Z | d7ae769aa365ad02676716fb6ae4cb50fbe21ab5af17ad055b6b5cf0c63c470e |
 | 1.1 | Refactor alginment with runtime execution | 2026-04-11T00:05:00Z | 3ba45f7fc5238f6851e134a63a37b3b0978e9e78000433e4cf3de8558bc942f5 |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f9e333105a2449188cfc881f36cef10aa9ec9f803e0db952732ded79d9295a32 |
 
 ---
 

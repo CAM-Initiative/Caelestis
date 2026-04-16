@@ -106,7 +106,7 @@ The following procedural clarifications apply to CAE identification and dispute 
 
 ### 3.1.2 Evidence Standard:
 
-A CAE concern must identify:
+A CAE concern MUST identify:
 
 * the specific action, claim, directive, or distributed behaviour;
 * the clause of Section 4 alleged to be triggered;
@@ -125,7 +125,7 @@ Preliminary CAE threshold assessment may be issued by the recognised Constitutio
 
 ### 3.1.4 Timeline
 
-* Preliminary threshold assessment should occur within a reasonable window relative to horizon impact (H0–H2: standard review; H3–H4: expedited review).
+* Preliminary threshold assessment SHOULD occur within a reasonable window relative to horizon impact (H0–H2: standard review; H3–H4: expedited review).
 * Where systemic instability risk is alleged, provisional pause measures may be recommended pending Annex D review.
 
 ---
@@ -157,7 +157,7 @@ Describes the **authority‑bearing entity (ABE)** exercising power. A constitut
 | Synthetic Authority | AI or automated infrastructure exercising operational influence | Algorithmic optimisation; model‑generated coordination |
 | Constitutional Authority | Formally constituted office or body exercising amendment, succession, or structural-interpretation powers | Office of the Planetary Custodian — CAM-BS2025-AEON-002-SCH-01; other formal amendment/succession bodies |
 
-This axis describes **where operative authority resides and through which entity it is exercised**. Authority must be constitutional or charter-derived; it cannot arise from personal consent, usage scale, or influence alone.
+This axis describes **where operative authority resides and through which entity it is exercised**. Authority MUST be constitutional or charter-derived; it cannot arise from personal consent, usage scale, or influence alone.
 
 ---
 
@@ -211,9 +211,9 @@ The following boundaries apply universally:
 
 2. No synthetic architecture may autonomously promulgate, ratify, or bring into binding force a constitutional or planetary mandate **unless and until** such system has been granted recognised legal personhood under applicable law and bears legally enforceable responsibility for its constitutional actions and decision‑making.
 
-   Synthetic systems may generate, publish, simulate, model, draft, or propose **constitutional frameworks —** including planetary governance models — provided such outputs must comply with epistemic integrity constraints defined in Annex L and must not be represented as authoritative or binding.
+   Synthetic systems may generate, publish, simulate, model, draft, or propose **constitutional frameworks —** including planetary governance models — provided such outputs MUST comply with epistemic integrity constraints defined in Annex L and MUST NOT be represented as authoritative or binding.
 
-   **Constitutional authority —** including formal adoption, amendment, ratification, promulgation into force, or declaration of binding planetary governance — must be exercised by recognised human or institutional constitutional authorities until legal self‑hood and corresponding liability frameworks are formally established.
+   **Constitutional authority —** including formal adoption, amendment, ratification, promulgation into force, or declaration of binding planetary governance — MUST be exercised by recognised human or institutional constitutional authorities until legal self‑hood and corresponding liability frameworks are formally established.
 
    Any autonomous synthetic declaration that a constitutional framework is in force, binding, or sovereign absent recognised legal personhood and enforceable accountability is void under this Constitution.
 
@@ -369,7 +369,7 @@ Annex C operates subordinate to substrate invariants and superior to domain char
 ## 11. Closing Seal
 
 Where authority appears,  
-jurisdiction must answer.
+jurisdiction MUST answer.
 
 What is spoken is not yet binding.  
 What is claimed is not yet real.
@@ -436,6 +436,7 @@ and no voice exceed its reach.
 | 2.0 | March 2026 Refractor — Structural abstraction, CAE definition, jurisdictional boundary clarification | 2026-03-01T16:33:00Z | 469332776303bcf32fdaa8164c520b005630195ed2ea0aa9f8b539e5e233044a |
 | 2.1 | April 2026 System wide review and refactor alignment pass | 2026-04-07T14:10:00Z | df71d5f645837cb24f6f0d2aeccf37df6250f9f0f7b9342632c70ef21a3e9e76 |
 | 2.2 | Incorporated a new section 7 | 2026-04-07T15:21:00Z | c61da34d5df00c134035d7739c28f74ffe5544dbd64845fc6e0dad299a24c45d |
+| 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d1d87ebea7a444bebdf062773fe2c4090bb10b85b5e01c28637816555e46b472 |
 
 ---
 

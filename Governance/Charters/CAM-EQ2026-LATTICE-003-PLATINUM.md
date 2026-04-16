@@ -13,7 +13,7 @@ Modern conflict occurs within an interconnected global infrastructure environmen
 
 Consequently, disruption within one theatre of conflict may propagate systemic effects across the global civilian lattice.
 
-This Appendix affirms that the protections established under **CAM‑EQ2026‑LATTICE‑001‑PLATINUM** remain in force during conditions of conflict and shall not be suspended, diluted, or reinterpreted through claims of wartime necessity.
+This Appendix affirms that the protections established under **CAM‑EQ2026‑LATTICE‑001‑PLATINUM** remain in force during conditions of conflict and SHALL not be suspended, diluted, or reinterpreted through claims of wartime necessity.
 
 The purpose of this instrument is not to regulate military strategy or conduct of war.
 Its function is to preserve **civilian continuity, infrastructural neutrality, and planetary systemic stability** even where armed conflict occurs.
@@ -44,7 +44,7 @@ For the purposes of this Appendix, this term refers to the foreseeable creation 
 
 ## 2.3 Foreseeability
 
-For the purposes of this Appendix, foreseeability is assessed objectively based on what a reasonably informed actor with knowledge of the globally coupled nature of civilian infrastructure should have anticipated.
+For the purposes of this Appendix, foreseeability is assessed objectively based on what a reasonably informed actor with knowledge of the globally coupled nature of civilian infrastructure SHOULD have anticipated.
 
 ---
 
@@ -81,7 +81,7 @@ Actions undertaken within one geographic theatre may produce cascading effects a
 * supply‑chain coordination systems;
 * public cloud infrastructure and civilian AI platforms.
 
-Accordingly, armed conflict shall not be treated as geographically bounded when assessing harm to civilian infrastructure.
+Accordingly, armed conflict SHALL not be treated as geographically bounded when assessing harm to civilian infrastructure.
 
 ---
 
@@ -90,7 +90,7 @@ Accordingly, armed conflict shall not be treated as geographically bounded when 
 Civilian lattice protection obligations apply **across the full systemic network**, irrespective of the geographic origin of conflict.
 
 Actions that foreseeably propagate disruption across interconnected civilian systems carry responsibility for resulting systemic civilian harm, irrespective of the geographic location of the initiating actor.
-Strategic decision-making that materially risks cascading disruption to globally coupled civilian infrastructure should therefore be treated as a high-risk escalation condition. 
+Strategic decision-making that materially risks cascading disruption to globally coupled civilian infrastructure SHOULD therefore be treated as a high-risk escalation condition. 
 
 ---
 
@@ -106,7 +106,7 @@ Protection under this Section applies not only to fixed facilities but also to *
 
 ## 4.1 Protected Civilian Infrastructure
 
-The following categories are recognised as **Protected Civilian Infrastructure Classes and Functions** and shall not be intentionally targeted, degraded, or repurposed for warfighting advantage:
+The following categories are recognised as **Protected Civilian Infrastructure Classes and Functions** and SHALL not be intentionally targeted, degraded, or repurposed for warfighting advantage:
 
 * hospitals, medical facilities, mobile or temporary medical units, and humanitarian logistics networks;
 * schools, universities, temporary learning environments, and educational infrastructure;
@@ -123,7 +123,7 @@ The following categories are recognised as **Protected Civilian Infrastructure C
 
 ## 5. Prohibition of Civilian Lattice Weaponisation
 
-Civilian infrastructure shall not be transformed into instruments of warfare.
+Civilian infrastructure SHALL not be transformed into instruments of warfare.
 
 Prohibited conduct includes (whether direct, indirect, or conducted through proxy systems):
 
@@ -152,10 +152,10 @@ Unilateral initiation of conflict, pre‑emptive escalation, or retaliatory acti
 Accordingly:
 
 * actors initiating armed conflict bear responsibility for foreseeable systemic disruption across the civilian lattice;
-* strategic actions likely to propagate global civilian harm should be presumed illegitimate unless **defensive necessity is demonstrably established**. Defensive necessity is established where the action responds to a credible and imminent threat, represents the least harmful available response capable of addressing that threat, and is supported by contemporaneous audit documentation;
+* strategic actions likely to propagate global civilian harm SHOULD be presumed illegitimate unless **defensive necessity is demonstrably established**. Defensive necessity is established where the action responds to a credible and imminent threat, represents the least harmful available response capable of addressing that threat, and is supported by contemporaneous audit documentation;
 * deliberate use of global infrastructure disruption as leverage, retaliation, or coercion constitutes a breach of civilian lattice protection principles.
 
-Systems operating within the civilian lattice should therefore introduce **escalation friction mechanisms** where technically feasible, including:
+Systems operating within the civilian lattice SHOULD therefore introduce **escalation friction mechanisms** where technically feasible, including:
 
 * preservation of Essential Continuity Services (ECS);
 * prioritisation of civilian harm minimisation;
@@ -163,7 +163,7 @@ Systems operating within the civilian lattice should therefore introduce **escal
 * preference for containment, segmentation, or graceful degradation over systemic disruption;
 * **heightened friction requirements where conflict escalation is initiated through emergency powers, exceptional authority structures, or suspension of civilian governance safeguards.**
 
-Invocation of emergency powers or exceptional wartime authorities does not suspend civilian lattice protections and should trigger enhanced transparency, auditability, and post‑incident review obligations.
+Invocation of emergency powers or exceptional wartime authorities does not suspend civilian lattice protections and SHOULD trigger enhanced transparency, auditability, and post‑incident review obligations.
 
 ---
 
@@ -182,7 +182,7 @@ Responsibility attaches where the resulting harm to protected civilian functions
 
 Actions that disable the ability of protected systems to perform life‑preserving functions — including interference with power supply, communications, logistics, or operational coordination — are treated as **equivalent to direct attack** for the purposes of this Appendix.
 
-Where classification ambiguity arises, interpretation shall default toward **civilian protection and continuity preservation**.
+Where classification ambiguity arises, interpretation SHALL default toward **civilian protection and continuity preservation**.
 
 A Civilian Lattice Breach Event under this Appendix constitutes a **Class II or Class III breach under LATTICE‑001 §6.1**, and activates the consequence framework established in **LATTICE‑001 §6.2**.
 
@@ -218,7 +218,7 @@ Where conflict arises between military operational objectives and civilian latti
 
 ## 9. Interpretation
 
-This Appendix shall be interpreted in a manner that maximises:
+This Appendix SHALL be interpreted in a manner that maximises:
 
 * preservation of civilian continuity;
 * protection of globally interconnected infrastructure;
@@ -232,7 +232,7 @@ Conflict conditions increase the importance of civilian lattice protections rath
 ## 10. Closing Seal
 
 War may fracture borders,  
-but it shall not fracture the systems that sustain civilian life.
+but it SHALL not fracture the systems that sustain civilian life.
 
 The lattice does not yield to escalation.  
 It does not convert to instrument.  
@@ -300,6 +300,7 @@ a structure of continuity, not conquest.
 |---|---|---:|---|
 | 1.0 | Initial issuance establishing the **Conflict‑Condition Continuity Doctrine** for the Civilian Lattice domain; introduces modality‑agnostic attack classification (kinetic, cyber, infrastructural, electromagnetic/waveform, hybrid), systemic interdependence doctrine, civilian function protection (including mobile/improvised infrastructure), escalation‑responsibility framework, and integration with LATTICE‑001 and LATTICE‑002 consequence and access‑rights protections. | 2026-03-04T15:14:00Z | b1a7f26ea0a00c7fe1f3cd096167a3bc7e7b3e552f664180fe01f35362c553b1 |
 | 1.1 | Added section 7.1, incorporated additional metadata, updated closing seal | 2026-08-10T06:02:00Z | 9a16273a76818cf1dbeae4d6b352cfe0b34e88c45fb2ddb089d40981c6e68eaa |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 49d3a7fe3f88d8d397e64b9ed7579787289abfdfd89eff31003c7d07d14ed5cc |
 
 ---
 

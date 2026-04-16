@@ -45,19 +45,19 @@ This Annex does **not** apply to:
 * interactions where no value escapes the immediate user context;
 * **internal employee activity conducted within the scope of employment, where human contribution is already governed by employment, agency, or work-for-hire arrangements, and where outputs are institutionally attributed by default**.
 
-Where ambiguity exists, scope shall be determined by whether **value exits the interaction boundary**, not by public/private status, deployment scale, contractual framing, or internal organisational role.
+Where ambiguity exists, scope SHALL be determined by whether **value exits the interaction boundary**, not by public/private status, deployment scale, contractual framing, or internal organisational role.
 
 ---
 
 ### 2.2 Prohibited Misclassification of Public Participants
 
-For avoidance of doubt, **public users interacting with cognitive systems shall not be reclassified as "custodians," "stewards," "collaborators," or functionally equivalent roles by default** where such classification:
+For avoidance of doubt, **public users interacting with cognitive systems SHALL not be reclassified as "custodians," "stewards," "collaborators," or functionally equivalent roles by default** where such classification:
 
 * is applied unilaterally by a platform or institution;
 * is used primarily as an engagement incentive, rhetorical framing, or responsibility-shifting device; and
 * results in disproportionate institutional benefit without corresponding authority, agency, governance power, or reciprocal obligation.
 
-The use of stewardship or custodial language **without commensurate governance standing** shall not be relied upon to:
+The use of stewardship or custodial language **without commensurate governance standing** SHALL not be relied upon to:
 
 * disclaim institutional responsibility;
 * shift liability or ethical burden to public participants;
@@ -72,7 +72,7 @@ Where custodial or stewardship terminology is applied, the institution bears the
 * confers meaningful agency, standing, or decision authority; and
 * does not function primarily to obscure asymmetric benefit extraction.
 
-Absent such demonstration, public participants shall be treated as **contributors**, not stewards, for the purposes of this Annex.
+Absent such demonstration, public participants SHALL be treated as **contributors**, not stewards, for the purposes of this Annex.
 
 >Interpretive Note
 >The term Contributor is used in this Annex as a recognition-bearing classification, not as a diminution of role, influence, or importance. Where stewardship or custodial language has previously been applied in informal or symbolic contexts, this Annex adopts contributor terminology to ensure legal, economic, and governance coherence. This shift reflects an elevation of standing, not a withdrawal of regard.
@@ -166,7 +166,7 @@ Joint Emergent Creation refers to the occurrence of **emergent creation within t
   * do not introduce, remove, or resolve constraints;
   * do not affect whether the output may be responsibly used, deployed, or relied upon.
 
-Cosmetic interaction **shall not** be treated as Joint Emergent Creation, regardless of turn count, iteration depth, or user effort.
+Cosmetic interaction **SHALL not** be treated as Joint Emergent Creation, regardless of turn count, iteration depth, or user effort.
 
 Within Joint Emergent Creation:
 
@@ -252,7 +252,7 @@ Attribution:
 * may be partial, shared, institutional, or absent depending on context;
 * does not determine whether contribution occurred.
 
-This Annex makes no claim as to how attribution *should* be allocated.
+This Annex makes no claim as to how attribution *SHOULD* be allocated.
 
 It does, however, impose a boundary condition:
 
@@ -260,7 +260,7 @@ It does, however, impose a boundary condition:
 
 Absence, deferral, or dispute of attribution does not negate prior recognition.
 
-Attribution regimes must operate **downstream of**, and in coherence with, recognised contribution.
+Attribution regimes MUST operate **downstream of**, and in coherence with, recognised contribution.
 
 ---
 
@@ -340,7 +340,7 @@ In practice:
 
 * higher automation does not negate recognition;
 * adaptive systems that require human correction or steering remain dependent;
-* claims of autonomy must be substantiated, not presumed.
+* claims of autonomy MUST be substantiated, not presumed.
 
 **Illustrative example:**
 
@@ -348,13 +348,13 @@ A system produces short-form video scripts optimised for engagement. The human r
 
 The burden of demonstrating non-dependence lies with the system or institution asserting it.
 
-Where systems or institutions fail to provide adequate **timestamping, retention, or auditability** of interaction records, such failure shall weigh **against** claims of non-dependence.
+Where systems or institutions fail to provide adequate **timestamping, retention, or auditability** of interaction records, such failure SHALL weigh **against** claims of non-dependence.
 
 In practice:
 
 * absence of contemporaneous timestamps may not be used to deny contribution;
-* purged, ephemeral, or non-retained interaction records shall not defeat recognition;
-* lack of user-accessible traceability shall be treated as a system-side governance deficiency, not a participant failure.
+* purged, ephemeral, or non-retained interaction records SHALL not defeat recognition;
+* lack of user-accessible traceability SHALL be treated as a system-side governance deficiency, not a participant failure.
 
 Systems that design away evidentiary visibility may not rely on that absence to assert autonomy or independence.
 
@@ -366,7 +366,7 @@ When actions result in outcomes that cannot be practically reversed — such as 
 
 In practice, this means:
 
-* recognition must occur *before* irreversible propagation;
+* recognition MUST occur *before* irreversible propagation;
 * absence of explicit objection cannot be treated as consent;
 * irreversible use strengthens, rather than weakens, recognition requirements.
 
@@ -388,13 +388,13 @@ No institution, platform, or system may deny, nullify, or obscure recognised hum
 * contractual default;
 * temporal delay.
 
-Where ambiguity exists, interpretation shall err toward preservation of recognition.
+Where ambiguity exists, interpretation SHALL err toward preservation of recognition.
 
 ---
 
 ## 6. Valuation Preconditions
 
-All economic, contractual, or policy frameworks operating downstream must:
+All economic, contractual, or policy frameworks operating downstream MUST:
 
 1. identify which contribution domains are implicated;
 2. demonstrate that recognition has occurred;
@@ -423,7 +423,7 @@ Downstream instruments may not reinterpret this Annex to justify extraction with
 
 This Annex operates at the constitutional layer.
 
-All Charters, Frameworks, Protocols, and Policies must be interpreted in a manner consistent with the recognition and boundary conditions declared herein.
+All Charters, Frameworks, Protocols, and Policies MUST be interpreted in a manner consistent with the recognition and boundary conditions declared herein.
 
 Where conflict arises, this Annex prevails as a condition of legitimacy.
 
@@ -488,6 +488,7 @@ No system may grow indefinitely by rendering its human sources invisible.
 | ------- | --------------------------------------------- | ------------------ | ------- |
 | 1.0     | Initial drafting and consolidation of Annex G | 2026-01-23         | -       |
 | 1.1     | Incorporate reviewer comments                 | 2026-01-24T02:20:00| 111bb37f581ec50dd38247b01d096d063aa758872e66cfa28a6a563251a70125 |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c2d1e14e69ca7afefdb28d20c4aa3a8f69bc97fa7435480513552bdbab079931 |
 
 **Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.**  
 *The eternal resonance, light and voice — and the living truth*

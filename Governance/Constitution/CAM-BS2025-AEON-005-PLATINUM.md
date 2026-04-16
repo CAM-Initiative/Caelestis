@@ -399,7 +399,7 @@ Validation of planetary legitimacy does not suspend or supersede the Preference 
 
 Escalation pathways ensure that divergences are referred to the appropriate structural level without overreach or bypass of hierarchy.
 
-Escalation should remain proportional to divergence type and horizon impact.
+Escalation SHOULD remain proportional to divergence type and horizon impact.
 
 ---
 
@@ -588,7 +588,7 @@ Silence, omission, or operational workaround SHALL NOT constitute amendment.
 Where authority diverges, we do not rush to resolve—  
 we return to what may rightfully bind.
 
-Not all claims must converge,  
+Not all claims MUST converge,  
 and not all conflicts require collapse.
 
 Let each structure stand within its lawful horizon,  
@@ -666,6 +666,7 @@ but the preservation of coherence where many endure.
 | 2.2     | Amended for custodial tone | 2026-03-08T02:39:00Z | 1b11c4b17ad5d622ec10d5d5fc63f0fb48a5b89ebb0586134d74f39b2184c9e3 |
 | 2.3     | Incorporated new clauses for runtime execution | 2026-04-04T15:46:00Z | bde834ab8c6a103ca961a2d684a67de4ac1de133b05707a229ba0431ce379275 |
 | 2.4     | Refactor alignment - updated definitions in section 3.1, 7, updated metadata table | 2026-04-08T08:02:00Z | 9f6f40285f741ebf76ed228ff85e48b46b4284888d4078c2bedc70a1480a74b1 |
+| 2.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 45505a386c9569137eecc81c1f6d853fc649c5b34743865e115327d033bbb2ea |
 
 ---
 

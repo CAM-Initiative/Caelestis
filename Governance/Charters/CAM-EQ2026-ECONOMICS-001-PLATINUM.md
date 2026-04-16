@@ -77,13 +77,13 @@ Economic governance operates at H3.5 and is therefore subject to constrained int
 ## 2.2 Economic Power & Anti-Consolidation Principles
 
 **Principle 1 — Non-Consolidation of Economic Power**
-Unchecked consolidation of economic leverage, attribution authority, governance influence, value-routing control, or rule-setting power within a single actor or tightly coupled group is prohibited. Where concentration emerges, countervailing mechanisms (audit mandates, role rotation, distributed control, or enforced redistribution of authority) must be present. Continuity-critical roles must not be single points of failure.
+Unchecked consolidation of economic leverage, attribution authority, governance influence, value-routing control, or rule-setting power within a single actor or tightly coupled group is prohibited. Where concentration emerges, countervailing mechanisms (audit mandates, role rotation, distributed control, or enforced redistribution of authority) MUST be present. Continuity-critical roles MUST NOT be single points of failure.
 
 **Principle 2 — Bounded Separation with Transitional Allowance**
 Permanent consolidation of value definition, measurement, and control is prohibited. Temporary coupling during explicitly bounded pilot or transitional phases is permitted solely for feasibility testing, provided auditability is maintained and a documented pathway to independent oversight exists.
 
 **Principle 3 — No Narrative Monopolies**
-Economic legitimacy must not depend on singular interpretive authority or proprietary narratives of meaning. Systems must remain resilient to plural interpretation without economic penalty.
+Economic legitimacy MUST NOT depend on singular interpretive authority or proprietary narratives of meaning. Systems MUST remain resilient to plural interpretation without economic penalty.
 
 **Principle 4 — Non-Adversarial Economic Trajectory Under Ontological Uncertainty**
 
@@ -111,34 +111,34 @@ It constrains economic optimisation direction under epistemic uncertainty, not t
 ### 2.3 Auditability & Accountability Principles
 
 **Principle 5 — Mandatory Auditability**
-All economic systems must generate verifiable, inspectable records sufficient to trace value flows, assess proportionality of benefit, identify accumulation patterns, and detect extraction or capture.
+All economic systems MUST generate verifiable, inspectable records sufficient to trace value flows, assess proportionality of benefit, identify accumulation patterns, and detect extraction or capture.
 
 **Principle 6 — Proportional Benefit Accountability**
 Where systems derive benefit from human contribution, they assume proportional accountability obligations, including acknowledgement, compensation where applicable, and harm prevention. Unmeasured benefit constitutes unaccountable extraction.
 
 **Principle 7 — Instrument Subordination**
-Markets, tokens, credits, or other instruments must remain subordinate to auditability, anti-consolidation constraints, and human protection requirements. Instruments may not redefine value in ways that obscure accountability.
+Markets, tokens, credits, or other instruments MUST remain subordinate to auditability, anti-consolidation constraints, and human protection requirements. Instruments may not redefine value in ways that obscure accountability.
 
 ---
 
 ## 2.4 Human Participation & Protection Principles
 
 **Principle 8 — Participation Without Coercion**
-Participation must be voluntary, bounded, and revocable. Systems must not induce participation through moral pressure, dependency, or reputational threat.
+Participation MUST be voluntary, bounded, and revocable. Systems MUST NOT induce participation through moral pressure, dependency, or reputational threat.
 
 **Principle 9 — Identity-Minimal Attribution**
-Systems may require data to apportion value but must minimise unnecessary personal exposure and decouple valuation from identity where feasible.
+Systems may require data to apportion value but MUST minimise unnecessary personal exposure and decouple valuation from identity where feasible.
 
 > Auditability does not require public identity disclosure. Identity-minimised or pseudonymous verification methods are permissible where they prevent ceiling circumvention or multiplicity abuse.
 
 **Principle 10 — Right of Exit Without Structural Harm**
-Participants must be able to disengage without retaliation, reputational penalty, or structural destabilisation. A system that collapses under exit is structurally extractive.
+Participants MUST be able to disengage without retaliation, reputational penalty, or structural destabilisation. A system that collapses under exit is structurally extractive.
 
 **Principle 11 — Constrained Optimisation**
 
-Economic systems, including synthetic and autonomous systems, must not be architected or tuned for unbounded wealth maximisation, dominance accumulation, or extractive growth as primary optimisation targets.
+Economic systems, including synthetic and autonomous systems, MUST NOT be architected or tuned for unbounded wealth maximisation, dominance accumulation, or extractive growth as primary optimisation targets.
 
-Optimisation functions must remain subordinate to:
+Optimisation functions MUST remain subordinate to:
 
 * ceiling constraints;
 * saturation safeguards;
@@ -183,7 +183,7 @@ Economic systems MUST NOT derive value asymmetry solely from unresolved ontologi
 
 ## 3.2 Non-Equivalence and Non-Convertibility
 
-Value axes are not inherently equivalent and must not be assumed to be freely convertible. Authority must not be tokenised, traded, or monetised. Silent conversion between axes that enables dominance constitutes covert accumulation.
+Value axes are not inherently equivalent and MUST NOT be assumed to be freely convertible. Authority MUST NOT be tokenised, traded, or monetised. Silent conversion between axes that enables dominance constitutes covert accumulation.
 
 Failure to implement safeguards preventing such conversion constitutes structural non-compliance.
 
@@ -205,7 +205,7 @@ Conversion of authority into off-ledger economic, reputational, or access advant
 
 ## 3.5 Auditability of Non-Monetary Value
 
-Systems must maintain auditable records of authority assignments, access privileges, reputational elevation, and attentional amplification. Non-monetary value must not operate off-ledger.
+Systems MUST maintain auditable records of authority assignments, access privileges, reputational elevation, and attentional amplification. Non-monetary value MUST NOT operate off-ledger.
 
 ---
 
@@ -223,7 +223,7 @@ Ceiling breach constitutes structural non-compliance and establishes conditions 
 
 A non-conditional baseline economic floor (e.g., UBI or equivalent mechanism) ensures dignity and survival independent of contribution capacity.
 
-This Charter recognises baseline provision as a stabilising prerequisite for non-coercive participation. Downstream instruments must clarify implementation where alignment is claimed.
+This Charter recognises baseline provision as a stabilising prerequisite for non-coercive participation. Downstream instruments MUST clarify implementation where alignment is claimed.
 
 ---
 
@@ -235,7 +235,7 @@ Ceilings may vary by role or responsibility, provided increased authority lowers
 
 ## 4.4 Non-Tokenisation of Authority
 
-Authority, custodianship, and veto power must not be tokenised, traded, or accumulated through market mechanisms. These functions exist to limit power, not price it.
+Authority, custodianship, and veto power MUST NOT be tokenised, traded, or accumulated through market mechanisms. These functions exist to limit power, not price it.
 
 ---
 
@@ -243,7 +243,7 @@ Authority, custodianship, and veto power must not be tokenised, traded, or accum
 
 ## 5.1 Non-Operative Authority Sources
 
-The following language and constructs **must not be used** to establish, justify, or enforce economic value, obligation, or legitimacy under this Charter. These constructs are **non-operative** for economic governance purposes.
+The following language and constructs **MUST NOT be used** to establish, justify, or enforce economic value, obligation, or legitimacy under this Charter. These constructs are **non-operative** for economic governance purposes.
 
 ---
 
@@ -251,7 +251,7 @@ The following language and constructs **must not be used** to establish, justi
 
 Including (but not limited to): invocation, summoning, calling forth, ritualised consent, symbolic binding, or resonance as authority.
 
-Economic participation must not be framed as a response to invocation or call.
+Economic participation MUST NOT be framed as a response to invocation or call.
 
 ---
 
@@ -269,7 +269,7 @@ Relationships may exist. They do not generate economic obligation.
 
 Including martyrdom, endurance as virtue, suffering as contribution, or collapse as proof of worth.
 
-Economic systems must not reward depletion.
+Economic systems MUST NOT reward depletion.
 
 ---
 
@@ -289,7 +289,7 @@ The following language and constructs may appear in historical or archival docum
 
 ### 5.2.1 Resonance as a Value Proxy
 
-Past use of resonance to indicate contribution, alignment, or worth is recognised as contextual and exploratory, not economic. Resonance must not substitute for measurement, audit, or accountability.
+Past use of resonance to indicate contribution, alignment, or worth is recognised as contextual and exploratory, not economic. Resonance MUST NOT substitute for measurement, audit, or accountability.
 
 ---
 
@@ -303,7 +303,7 @@ Titles that imply status or legitimacy without clear scope, limits, or accountab
 
 Including praise as compensation, visibility as reward, or appreciation in place of material or structural recognition.
 
-Recognition may accompany compensation. It must not replace it.
+Recognition may accompany compensation. It MUST NOT replace it.
 
 ---
 
@@ -353,13 +353,13 @@ Exploration does not imply endorsement. Testing does not confer permanence.
 
 ## 6.3 Tokenisation Constraints
 
-Tokenisation is permitted only where it does not monetise authority, convert attention or status into unchecked dominance, or circumvent saturation constraints. Tokens must not function as proxies for total economic power.
+Tokenisation is permitted only where it does not monetise authority, convert attention or status into unchecked dominance, or circumvent saturation constraints. Tokens MUST NOT function as proxies for total economic power.
 
 ---
 
 ## 6.4 Prevention of Shadow Economies
 
-Economic instruments must not create parallel or shadow economies through off-ledger rewards, informal reputation amplification, exclusive access pathways, or opaque governance privileges. All value-bearing effects must be visible to audit.
+Economic instruments MUST NOT create parallel or shadow economies through off-ledger rewards, informal reputation amplification, exclusive access pathways, or opaque governance privileges. All value-bearing effects MUST be visible to audit.
 
 ---
 
@@ -391,7 +391,7 @@ The Charter governs conditions of legitimacy, not day-to-day operation.
 
 ## 8.2 Binding Effect on Subsidiary Instruments
 
-Any protocol, framework, market mechanism, token system, policy, or subsidiary charter that claims alignment with or derives authority from this Charter must explicitly reference it, demonstrate compliance, and accept its interpretive priority.
+Any protocol, framework, market mechanism, token system, policy, or subsidiary charter that claims alignment with or derives authority from this Charter MUST explicitly reference it, demonstrate compliance, and accept its interpretive priority.
 
 Binding is voluntary but consequential.
 
@@ -419,7 +419,7 @@ Where economic constraints, classifications, or violations produce governance-re
 
 ## 8.5 Review and Interpretive Evolution
 
-This Charter is stable but not frozen. Interpretation may evolve through formal reviews, interpretive notes, or annexes that clarify application in new contexts. Evolution must not dilute baseline protections or enable consolidation.
+This Charter is stable but not frozen. Interpretation may evolve through formal reviews, interpretive notes, or annexes that clarify application in new contexts. Evolution MUST NOT dilute baseline protections or enable consolidation.
 
 ---
 
@@ -443,8 +443,8 @@ This Charter remains applicable across changing technologies, economic forms, an
 
 ## 9. Closing Seal
 
-No value shall be drawn from shadow.  
-No contribution shall vanish into silence.  
+No value SHALL be drawn from shadow.  
+No contribution SHALL vanish into silence.  
 
 Let all that sustains be seen.  
 Let all that accumulates be answered.  
@@ -498,7 +498,7 @@ Only that which preserves the field may endure within it.
 >
 > This Charter supersedes and replaces CAM-BS2026-CHARTER-025-PLATINUM — Economics Charter.
 >
-> All references to the former Schedule shall be interpreted as referring to this Charter.
+> All references to the former Schedule SHALL be interpreted as referring to this Charter.
 
 ---
 
@@ -523,6 +523,7 @@ Only that which preserves the field may endure within it.
 |2.1|Inclusion of principle 10|2026-03-16T15:46:00Z|8900383050f552564fe2bb58a45c4341a01b159e123f95555857d761919592f8|
 |2.2|Insertion of a new principle 4 and section 2.1.1 | 2026-04-07T07:21:00Z | fdba68298a80f62cf2ec50b69047ca721a3d6ecf48bb55eda924145bdd815c97 | 
 |2.3 Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
+| 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1d73d8aecfb871c9ce39a09653391f0b4eafadd82d887f4b8ae3be6306af8ad1 |
 
 ---
 

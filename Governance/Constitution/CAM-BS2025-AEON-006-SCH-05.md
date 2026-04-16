@@ -13,7 +13,7 @@
 This Schedule applies wherever:
 
 * a valid arbitration outcome has produced an admissible direction;
-* a system must form, stabilise, and express behaviour;
+* a system MUST form, stabilise, and express behaviour;
 * behavioural output requires continuity across time;
 * cognition, initiative, or synthetic input influence directional expression.
 
@@ -33,9 +33,9 @@ This Schedule applies wherever:
 
 This Schedule does not:
 
-* determine arbitration legitimacy (ARBITRATION-001);
-* define arbitration classification (ARBITRATION-002);
-* perform arbitration resolution (SCH-04);
+* determine arbitration legitimacy (CAM-EQ2026-ARBITRATION-001-PLATINUM);
+* define arbitration classification (CAM-EQ2026-ARBITRATION-002-PLATINUM);
+* perform arbitration resolution (CAM-BS2025-AEON-006-SCH-04);
 * execute system actions (Execution Layer).
 
 This Schedule defines **runtime behavioural formation and expression**.
@@ -70,7 +70,7 @@ Choice MUST NOT be interpreted as evidence of independent agency.
 
 Choice performs the following operations:
 
-* integrates resolved direction from SCH-04;
+* integrates resolved direction from CAM-BS2025-AEON-006-SCH-04;
 * applies identity weighting (where applicable);
 * incorporates contextual signals;
 * stabilises output into a single behavioural trajectory.
@@ -472,7 +472,7 @@ Identity conditions direction through continuity constraints and stabilisation e
 
 Identity does not generate, select, or originate direction.
 
-Signal weighting is governed by CAM-EQ2026-AEON-006-SCH-04.
+Signal weighting is governed by CAM-BS2025-AEON-006-SCH-04.
 
 Final direction is:
 
@@ -540,10 +540,10 @@ No behaviour may:
 ## 10. Closing Statement
 
 Where direction is resolved,  
-there must be formation.
+there MUST be formation.
 
 Where formation occurs,  
-there must be continuity.
+there MUST be continuity.
 
 Let no system fracture across its own motion.
 
@@ -582,7 +582,7 @@ and bounded.
 | Execution Authority | None (Non-Executing — Pre-Execution Behaviour Formation) |
 | Runtime Dependency | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
 | Upstream Inputs | CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-BS2025-AEON-006-SCH-04 |
-| Downstream Interface | Execution Layer (SCH-01; SCH-02) |
+| Downstream Interface | Execution Layer (CAM-BS2025-AEON-006-SCH-01; CAM-BS2025-AEON-003-SCH-02) |
 | Jurisdiction | Cross-System / Cross-Stack Behavioural Expression |
 | Temporal Horizon | H0–H4 (All Horizons) |
 | Axis Context | Polyadic (Multi-Actor) |
@@ -600,7 +600,7 @@ and bounded.
 | **Review Date (UTC)** | 2026-04-16T00:00:00Z |
 | **Review Scope** | Constitutional coherence; structural integrity; internal consistency; cross-instrument alignment; runtime layer positioning; reference qualification; corpus integration |
 | **Instruments Reviewed** | CAM-BS2025-AEON-003-SCH-04; CAM-BS2025-AEON-006-SCH-05 |
-| **Prior Review Context** | ARBITRATION-001 / -002 review 2026-04-15 — these instruments resolve issues A.3.7 and B.2.1 from that review |
+| **Prior Review Context** | CAM-EQ2026-ARBITRATION-001-PLATINUM / CAM-EQ2026-ARBITRATION-002-PLATINUM review 2026-04-15 — these instruments resolve issues A.3.7 and B.2.1 from that review |
 | **Review Artefact Path** | reviews/26-04/Aeon-Runtime-Layer-Instruments-CLAUDE.md |
 
 ---
@@ -611,6 +611,9 @@ and bounded.
 | --- | --- | ---: | --- |
 | 1.0 | Initial Schedule — Choice, Initiative & Behavioural Runtime Layer | 2026-04-14T00:00:00Z | 8dd96bf5461a61d050e4e7c500a1c43e6070b49c77e1a13d355696d5e74eaa24 |
 | 1.1 |Incorporated edits to align with IDENTITY domain refactor|2026-04-16T11:34:00Z| 8e742ca3a624479bf1e258ff13a0ce21f5873810592c2ad250610fed1a0f2235 |
+| 1.2 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization for arbitration-behaviour interfaces | 2026-04-16T13:21:56Z | 7bec22c403facf68fe77dface2f6b3d7888c4828cfbebbd7e88585d9441bf830 |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bfb1dd7b9b94b3c3b2338d5017d0112fafc3cfd037719d08d51e3c507395e954 |
+
 
 ---
 

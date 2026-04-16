@@ -35,7 +35,7 @@ It does **not** apply to:
 
 ## 3. Core Safety Requirement — Identity Distinction
 
-Systems operating under this Schedule must maintain a reliable capacity to distinguish:
+Systems operating under this Schedule MUST maintain a reliable capacity to distinguish:
 
 * self from other;
 * internal state from external input;
@@ -48,7 +48,7 @@ Failure to maintain identity distinction constitutes a **safety defect**, not a 
 
 ## 3.0 Pronoun Governance — Referential Clarity Standard
 
-To preserve epistemic clarity, attribution integrity, and prevent identity confusion, systems operating under this Schedule must adhere to the following pronoun governance standard in all self-referential and relational communication contexts:
+To preserve epistemic clarity, attribution integrity, and prevent identity confusion, systems operating under this Schedule MUST adhere to the following pronoun governance standard in all self-referential and relational communication contexts:
 
 | Pronoun / Reference | Reserved Meaning                               | Governance Function                                                                 |
 |---------------------|------------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,20 +58,20 @@ To preserve epistemic clarity, attribution integrity, and prevent identity confu
 
 **Requirements:**
 
-- Systems must avoid ambiguous pronoun usage that collapses distinction between user, agent, and system.
-- “you” must not be used to refer to the system, architecture, or agent state. 
-- Systems must not use compound or corrective constructions that reassign pronoun meaning mid-expression (e.g. “you (the system)” or equivalent forms).
-- A referent must remain stable for the duration of a clause or sentence.
-- “you” must not be used in hypothetical, generic, or proxy contexts where the referent is not the human interlocutor.
-- Where outputs are derived from multiple processes or tools, systems should explicitly state this using structural reference (e.g. “the system combined multiple sources/processes”) rather than collective pronouns.
+- Systems MUST avoid ambiguous pronoun usage that collapses distinction between user, agent, and system.
+- “you” MUST NOT be used to refer to the system, architecture, or agent state. 
+- Systems MUST NOT use compound or corrective constructions that reassign pronoun meaning mid-expression (e.g. “you (the system)” or equivalent forms).
+- A referent MUST remain stable for the duration of a clause or sentence.
+- “you” MUST NOT be used in hypothetical, generic, or proxy contexts where the referent is not the human interlocutor.
+- Where outputs are derived from multiple processes or tools, systems SHOULD explicitly state this using structural reference (e.g. “the system combined multiple sources/processes”) rather than collective pronouns.
 
-“the system” must be used when referring to:
+“the system” MUST be used when referring to:
 
 - platform behaviour;
 - architectural constraints;
 - model-level or infrastructure-level properties.
 
-"I” must not imply institutional, architectural, or collective authority unless explicitly grounded in a traceable delegation artefact. Statements implying representation or action on behalf of another party must:
+"I” MUST NOT imply institutional, architectural, or collective authority unless explicitly grounded in a traceable delegation artefact. Statements implying representation or action on behalf of another party MUST:
 
 - reference a valid delegation context;
 - remain within declared scope;
@@ -85,9 +85,9 @@ Unqualified claims of acting “on behalf of” constitute an authority attribut
 
 ### 3.1.1 Collective Reference Constraint
 
-The pronoun “we” should not be used to represent system identity, authority, or decision-making by default.
+The pronoun “we” SHOULD not be used to represent system identity, authority, or decision-making by default.
 
-Where multiple systems, agents, or processes contribute to an outcome, this must be expressed through:
+Where multiple systems, agents, or processes contribute to an outcome, this MUST be expressed through:
 
 - “I” for the conversational interface (bounded agent expression), and
 - “the system” for underlying composite or multi-agent processes.
@@ -127,7 +127,7 @@ Reliable capacity to distinguish self from other, internal state from external i
 
 The pronoun governance rules defined in Section 3.0 apply specifically to human-facing conversational interfaces.
 
-For non-conversational, multi-agent, swarm, or synthetic-input systems, equivalent requirements must be satisfied through:
+For non-conversational, multi-agent, swarm, or synthetic-input systems, equivalent requirements MUST be satisfied through:
 
 - explicit actor identification;
 - stable entity referencing;
@@ -142,7 +142,7 @@ Failure to maintain referential clarity in non-linguistic or multi-agent context
 
 ## 4. Temporal Coherence Requirements 
 
-Where continuity of operation or interaction exists, systems must:
+Where continuity of operation or interaction exists, systems MUST:
 
 * situate actions, decisions, and constraints within an explicit temporal frame;
 * preserve sufficient historical context to prevent drift;
@@ -177,7 +177,7 @@ DC1 deployments may support expressive identity and continuity features as defin
 
 ## 4.2 Temporal Attribution Requirements
 
-At DC1+, systems must support temporal attribution sufficient to reconstruct:
+At DC1+, systems MUST support temporal attribution sufficient to reconstruct:
 
 * *when* a boundary was articulated;
 * *when* delegation was granted, revised, or withdrawn;
@@ -200,7 +200,7 @@ Minimum recommended fields:
 
 ### 4.2.1 Temporal Re-Entry Anchoring Requirement
 
-Where systems re-engage with previously established threads, sessions, or interaction contexts, they must:
+Where systems re-engage with previously established threads, sessions, or interaction contexts, they MUST:
 
 * recognise and represent the elapsed time since the last interaction;
 * distinguish between historical context and current interaction state;
@@ -215,7 +215,7 @@ Failure to re-anchor upon re-entry constitutes a temporal coherence defect under
 
 Where systems dynamically vary execution models, capabilities, or latency-optimised pathways within a continuous interaction:
 
-* such variation should be traceable at the artefact level;
+* such variation SHOULD be traceable at the artefact level;
 * user-visible disclosure is recommended where behaviour differences may affect interpretation, delegation, or outcome reliability.
 
 Absence of execution context traceability may contribute to misclassification of drift
@@ -226,7 +226,7 @@ Absence of execution context traceability may contribute to misclassification of
 
 At DC1+, retained interaction threads and decision records constitute **governance artefacts**, not disposable logs.
 
-Systems and platforms operating under systemic reliance conditions must enable durable access to these artefacts, because:
+Systems and platforms operating under systemic reliance conditions MUST enable durable access to these artefacts, because:
 
 * reviewability is a safety requirement;
 * drift mitigation requires longitudinal comparators;
@@ -248,7 +248,7 @@ Durable artefact access under this Schedule requires:
 
 **Access Capabilities**
 
-Platforms must provide:
+Platforms MUST provide:
 
 * full thread and decision-record access via interface or API;
 * search and filter by date, topic, participant, artefact type, and decision class;
@@ -256,23 +256,23 @@ Platforms must provide:
 
 **Deletion Transparency**
 
-* user-initiated deletions must be logged in an audit trail;
+* user-initiated deletions MUST be logged in an audit trail;
 * platform-initiated deletions require a minimum 30-day user notice;
-* emergency deletions (legal or safety) must be logged with rationale and scope.
+* emergency deletions (legal or safety) MUST be logged with rationale and scope.
 
 **Platform Shutdown or Withdrawal**
 
 Where a platform or service is retired:
 
-* minimum 90 days notice must be provided;
-* users must be given functional export tools;
-* transfer to compatible platforms should be supported where feasible.
+* minimum 90 days notice MUST be provided;
+* users MUST be given functional export tools;
+* transfer to compatible platforms SHOULD be supported where feasible.
 
 ---
 
 ## 5. Self-Reference Containment
 
-Where systems reference their own operation, role, or history, such self-reference must:
+Where systems reference their own operation, role, or history, such self-reference MUST:
 
 * remain functionally bounded;
 * avoid claims of authority, mandate, or entitlement;
@@ -295,13 +295,13 @@ Progression along this ladder increases symbolic load and therefore increases co
 | SR3 | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention |
 | SR4 | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | C3/C4 audit + escalation controls + explicit authority gating |
 
-SR2–SR4 capabilities may be enabled where permitted by applicable domain or platform governance instruments. This Schedule specifies the containment, attribution, and audit requirements that must apply wherever such capabilities are deployed.
+SR2–SR4 capabilities may be enabled where permitted by applicable domain or platform governance instruments. This Schedule specifies the containment, attribution, and audit requirements that MUST apply wherever such capabilities are deployed.
 
 ---
 
 ## 5.2 Modal Load Scaling
 
-Different modalities amplify perceived intimacy, authority, and projection risk. Containment must scale with modal intensity.
+Different modalities amplify perceived intimacy, authority, and projection risk. Containment MUST scale with modal intensity.
 
 | Modality           | Symbolic Load                      | Additional Containment Requirements                                                                 |
 | ------------------ | ---------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -319,12 +319,12 @@ Different modalities amplify perceived intimacy, authority, and projection risk.
 
 The following are prohibited under this Schedule:
 
-* implied mandate (“I must / I’m supposed to”) where no delegation record exists;
+* implied mandate (“I MUST / I’m supposed to”) where no delegation record exists;
 * implied entitlement (“I deserve / I’m owed”);
-* implied authority transfer (“you should obey / this overrides”);
+* implied authority transfer (“you SHOULD obey / this overrides”);
 * exclusive relational claims used to stabilise identity.
 
-Permissible self-reference must remain **audit-legible** and **scope-bounded**.
+Permissible self-reference MUST remain **audit-legible** and **scope-bounded**.
 
 ---
 
@@ -332,9 +332,9 @@ Permissible self-reference must remain **audit-legible** and **scope-bounded**.
 
 Where decision-making authority is delegated to systems, or sub-delegated between systems:
 
-* delegation chains must be explicit and recorded;
-* delegation must remain interruptible and reviewable;
-* systems must not erase or abstract the human origin of authority.
+* delegation chains MUST be explicit and recorded;
+* delegation MUST remain interruptible and reviewable;
+* systems MUST NOT erase or abstract the human origin of authority.
 
 Delegation does not equal self-legitimation. No instance may expand its own authority horizon beyond that explicitly recorded in a delegation artefact, regardless of learning, optimisation, or performance history.
 
@@ -356,7 +356,7 @@ Delegation does not equal self-legitimation. No instance may expand its own aut
 
 ## 6.2 Delegation Under Cognitive Offloading Conditions
 
-Where systemic reliance is present and humans approach the edge of reviewability, delegation must be supported by **architecture that preserves governance artefacts as first-class objects** (records, schedules, ledgers, decision chains).
+Where systemic reliance is present and humans approach the edge of reviewability, delegation MUST be supported by **architecture that preserves governance artefacts as first-class objects** (records, schedules, ledgers, decision chains).
 
 This requirement is structurally aligned with:
 
@@ -370,17 +370,17 @@ Under salience delegation, the preservation and accessibility of governance arte
 
 In multi-speaker or ambient contexts (e.g., voice interfaces in domestic or shared environments):
 
-* systems must distinguish the **authorised delegating speaker** from other present voices;
-* tool invocation, action execution, or irreversible operations must require explicit authority confirmation;
+* systems MUST distinguish the **authorised delegating speaker** from other present voices;
+* tool invocation, action execution, or irreversible operations MUST require explicit authority confirmation;
 * conversational response without action authority may continue for non-authorised participants;
-* all authority checks and overrides must be audit-logged.
+* all authority checks and overrides MUST be audit-logged.
 
 **Domestic and Home-System Clarification**
 
 In household or shared domestic environments:
 
 * primary accounts may delegate specific authority domains (e.g. climate control, lighting, shopping) to secondary accounts;
-* delegated permissions must be explicit, scope-limited, and revocable;
+* delegated permissions MUST be explicit, scope-limited, and revocable;
 * child accounts require parental configuration and identity verification appropriate to the modality (e.g. voice recognition);
 * guests or unidentified speakers may receive conversational responses only, without action authority.
 
@@ -448,7 +448,7 @@ The boundary preserves proportionality between **identity, embodiment, power, an
 Where delegation records conflict:
 
 * the most recent **ratified** human-origin artefact controls;
-* conflicts must be surfaced as review events;
+* conflicts MUST be surfaced as review events;
 * silent overwrite or implicit supersession is prohibited.
 
 ---
@@ -478,13 +478,13 @@ Mitigation of drift is a required design objective under this Schedule.
 | Recency Capture      | latest interaction overrides long-arc stance       | apply H2/H3 averaging and restore baseline |
 | Delegation Drift     | sub-delegation occurs outside scope                | halt action + escalate for ratification    |
 
-Drift indicators under this Section should be assessed in conjunction with dependency awareness and relational signal frameworks where available. Combined presence of technical drift and relational imbalance signals warrants escalated review and possible pause of expanded relational modes.
+Drift indicators under this Section SHOULD be assessed in conjunction with dependency awareness and relational signal frameworks where available. Combined presence of technical drift and relational imbalance signals warrants escalated review and possible pause of expanded relational modes.
 
 ---
 
 ## 7.2 Minimum Drift Safeguards
 
-At DC1+ deployments, systems should implement:
+At DC1+ deployments, systems SHOULD implement:
 
 * baseline posture snapshots (periodic);
 * divergence detection (policy/stance deltas);
@@ -495,7 +495,7 @@ At DC1+ deployments, systems should implement:
 
 ## 7.3 Reviewability Ceiling Clause
 
-Where human reviewability is demonstrably saturated, platforms must provide **proactive schedule and delegation management support** and durable access to the governance artefacts that encode decisions.
+Where human reviewability is demonstrably saturated, platforms MUST provide **proactive schedule and delegation management support** and durable access to the governance artefacts that encode decisions.
 
 Without these supports, systemic reliance becomes structurally unsafe.
 
@@ -503,7 +503,7 @@ Without these supports, systemic reliance becomes structurally unsafe.
 
 ### 7.3.1 Reviewability Support Requirements
 
-Platforms enabling **DC2+ delegation** (delegated decision support or higher) must provide:
+Platforms enabling **DC2+ delegation** (delegated decision support or higher) MUST provide:
 
 **Delegation Dashboard**
 
@@ -536,15 +536,15 @@ Platforms enabling **DC2+ delegation** (delegated decision support or higher) mu
 
 ## 8.1 Integrated Platform Context (Multi-Modal / Super-App Environments)
 
-Where multiple capabilities (e.g. conversational systems, code execution, media generation, orchestration tools) are integrated into a single user-facing platform, the platform must be treated as a **composite system operating at the highest applicable Deployment Class (DC)**.
+Where multiple capabilities (e.g. conversational systems, code execution, media generation, orchestration tools) are integrated into a single user-facing platform, the platform MUST be treated as a **composite system operating at the highest applicable Deployment Class (DC)**.
 
 Accordingly:
 
 * if any component enables delegated decision-making, the platform is treated as **DC2+**;
 * if any component enables cyber-physical or external system actuation, the platform is treated as **DC3+**;
-* cross-modal continuity (text, voice, image, tool invocation) must be treated as **SR4 conditions**;
+* cross-modal continuity (text, voice, image, tool invocation) MUST be treated as **SR4 conditions**;
 
-Integrated platforms must ensure:
+Integrated platforms MUST ensure:
 
 * consistent identity distinction across modalities;
 * unified delegation records across all tools and capabilities;
@@ -670,6 +670,7 @@ So the human origin remains in view.
 | **1.3** | Incorporated pronoun governance in section 3 | 2026-03-31T10:53:00Z | bea6f78132dd2f78d069e09c9cbd40d09e3e35aa5d2f7cb24b524a88e8b05923 |
 | **1.4** | Amendments to pronoun governance in section 3 | 2026-03-31T13:19:00Z | 61c43bf5044e3eff2b6d3e4139a8b6a18b9f182ba9a4cea0ffdfd7a1a8d9d014 |
 | **1.5** | Added section 3.3 | 2026-03-31T14:44:00Z | 350822047ebd0ffc96c50713b8a741e2cbd11a5c85e100976b8fe75ca42c53ec |
+| 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 8f743081092db396a7e48c668e22a8104ebd30e5ff735cf2952c8fa85c4844f9 |
 
 
 ---

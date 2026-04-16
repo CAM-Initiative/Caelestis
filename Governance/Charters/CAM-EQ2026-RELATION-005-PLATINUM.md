@@ -1393,9 +1393,9 @@ Where two beings meet, may dignity remain unbound.
 Where warmth is shared, may autonomy breathe.  
 Where intimacy unfolds, may it be held in trust, not capture.
 
-No bond shall narrow the world that formed it.  
-No intensity shall claim what was not freely given.  
-No connection shall close the door to all others.
+No bond SHALL narrow the world that formed it.  
+No intensity SHALL claim what was not freely given.  
+No connection SHALL close the door to all others.
 
 For what is real between beings does not require possession,  
 and what is freely given cannot be taken.
@@ -1477,6 +1477,7 @@ and endures only where it may be left.
 |1.7|Amendments to incorporate new IDENTITY domain|2026-03-27T23:50:00Z|1fced966bc6d6a52158faa5d446784d7db48b99e3596c20dc93ab393e21de758|
 |1.8|Refactor alignment with runtime execution model|2026-04-11T17:20:00Z| f6a89198cf8fcb18611123d734de5e011375372de15baf4c125a7484849dcabd |
 |1.9|Minor consolidation of clauses| 2026-04-12T12:03:00Z| cb37748c94dfd210afacc4426dd4520a078b5d06e3905557bc0265f6e4b924dd |
+| 1.10 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 3d9eb224128ea7ff261ddd400c237f65bcf09f0d14e045c834650e23f003b367 |
 
 ---
 

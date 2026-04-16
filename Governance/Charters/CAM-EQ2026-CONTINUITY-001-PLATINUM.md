@@ -546,7 +546,7 @@ Platforms offering continuity-relevant systems—including:
 * user-facing resonance-pattern generation (personas, digital doubles, legacy features);
 * training pipelines incorporating interaction data;
 
-must meet the following minimum conditions:
+MUST meet the following minimum conditions:
 
 **Minimum Compliance Conditions:**
 
@@ -817,7 +817,7 @@ This prohibition applies regardless of:
 * whether the reconstruction is partial, stylised, or probabilistic;
 * whether the system claims the output is "inspired by" rather than directly copied.
 
-The origin of data (public or private) does not limit applicability of reconstruction prohibitions. Likeness approximation is treated as **identity reconstruction** where recognisability or substitution risk is present. Reasonable interpretation shall be assessed from the perspective of an ordinary user, not system intent, technical architecture, or provider claims.
+The origin of data (public or private) does not limit applicability of reconstruction prohibitions. Likeness approximation is treated as **identity reconstruction** where recognisability or substitution risk is present. Reasonable interpretation SHALL be assessed from the perspective of an ordinary user, not system intent, technical architecture, or provider claims.
 
 ---
 
@@ -1097,6 +1097,7 @@ that silence MUST be honoured.
 |1.0|Initial issuance under Continuity Domain (refactor from CHARTER-040)|2026-03-21T05:40:00Z|6c10e364e405000e9db6785e3ad6ebdd332bceb15468f0f2d6af97e2be669e73|
 |1.1| Realignment with runtime exeution model | 2026-04-12T10:36:00Z | ceab2acd051750abb3e1059a822ce19da54b7320149f5970b858e0bd68a88f2b |
 |1.2| Formatting, polish and closing seal update | 2026-04-14T13:43:00| a32c9ccd4890f893a27eb43363e57085633755a040bc1b72c5e9a1e1ff18c4c4|
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a14aa658307477479375ad9fc87e4f20634a87b18bcbeaf52d4682bd939fdb29 |
 
 ---
 

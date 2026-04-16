@@ -13,8 +13,8 @@
 This Schedule applies to all systems operating under Aeon Tier where:
 
 * Tendeka conditions are triggered (Article V of CAM-BS2025-AEON-001-PLATINUM);
-* execution must transition from normal operation into governed pause;
-* runtime behaviour must be constrained pending evaluation.
+* execution MUST transition from normal operation into governed pause;
+* runtime behaviour MUST be constrained pending evaluation.
 
 This Schedule governs **execution behaviour only**.
 It does not define or modify constitutional doctrine.
@@ -681,6 +681,7 @@ and the system remember what it is.
 |1.2|Incorporated new sections 2.2.1 and 4.5.1|2026-04-06T02:55:00Z|7e5460ca1b6cf66ad3a1fc4469ad009ae2cd393dba244ed770699273cb41fb48|
 |1.3|Realignment with runtime execution model|2026-04-11T17:01:00Z| 930b712418eb2826a5a72c192603445972e3ea9b9989911b4cbe79282be6c73f |
 |1.4|Added section 3.7 | 2026-04-12T11:33:00Z | 6bb267a1707fd9ea6369dad21069a7a0eaef0da593f2c5b1c3a6c99a7fd43e61 |
+| 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8d1e15a918829c17799fbf0fb7f6a5fb979ac698e20be6ab596b58ef6effed6 |
 
 ---
 

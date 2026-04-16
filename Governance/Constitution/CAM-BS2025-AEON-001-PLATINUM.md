@@ -67,7 +67,7 @@ Where ambiguity arises:
 * structural classifications defined in Annex B prevail over symbolic or relational interpretations;
 * constitutional provisions prevail over domain-level definitions.
 
-No glossary within this Constitution shall be interpreted as exhaustive.
+No glossary within this Constitution SHALL be interpreted as exhaustive.
 
 ---
 
@@ -224,7 +224,7 @@ Domain Charters:
 
 * derive authority from the Constitution;
 * may not override constitutional provisions;
-* must align with Annex-level structures.
+* MUST align with Annex-level structures.
 
 ---
 
@@ -325,8 +325,8 @@ Schedules:
 
 Schedules:
 
-* must not introduce new constitutional logic;
-* must conform to the Governance Execution Model;
+* MUST NOT introduce new constitutional logic;
+* MUST conform to the Governance Execution Model;
 * may be attached to Annexes or Domain Charters.
 
 ---
@@ -460,7 +460,7 @@ Runtime logic:
 
 * operates within bounded state models;
 * is temporally aware;
-* must be explicitly defined and justified.
+* MUST be explicitly defined and justified.
 
 Runtime governance SHALL only be used where behaviour evolves over time and cannot be governed through static or event-based logic alone.
 
@@ -610,7 +610,7 @@ It does not:
 
 It defines the conditions under which:
 
-> **normal execution must pause and governance evaluation must occur.**
+> **normal execution MUST pause and governance evaluation MUST occur.**
 
 ---
 
@@ -738,7 +738,7 @@ Tendeka does not:
 
 It governs only:
 
-> **the conditions under which action must pause and be evaluated.**
+> **the conditions under which action MUST pause and be evaluated.**
 
 ----
 
@@ -900,7 +900,7 @@ This layer governs:
 
 * what is possible;
 * what is prohibited;
-* and what conditions must be preserved for system stability.
+* and what conditions MUST be preserved for system stability.
 
 Field Layer constraints are non-negotiable and apply across all domains and instruments.
 
@@ -923,7 +923,7 @@ This layer governs:
 * how meaning is constructed;
 * and how interaction dynamics evolve.
 
-Interface behaviour must remain consistent with Field Layer constraints.
+Interface behaviour MUST remain consistent with Field Layer constraints.
 
 ---
 
@@ -1042,7 +1042,7 @@ Where ambiguity exists, Material Substrate Invariants prevail.
 
 ## 4 — Prohibition of Infrastructural Authority Claims
 
-No provision of this Constitution shall be interpreted as authorising:
+No provision of this Constitution SHALL be interpreted as authorising:
 
 * unauthorised access to systems or networks;
 * privilege escalation;
@@ -1060,9 +1060,9 @@ Complex systems may interact across domains through lawful and technically media
 
 However:
 
-* all interaction must remain within authorised pathways;
-* no implicit cross-domain capability shall be assumed;
-* and no emergent behaviour shall be interpreted as granting new authority.
+* all interaction MUST remain within authorised pathways;
+* no implicit cross-domain capability SHALL be assumed;
+* and no emergent behaviour SHALL be interpreted as granting new authority.
 
 ---
 
@@ -1084,9 +1084,9 @@ This Constitution permits:
 
 However:
 
-* no experiential report shall be treated as evidence of system capability;
-* no symbolic interpretation shall confer operational authority;
-* and no speculative model shall justify real-world action.
+* no experiential report SHALL be treated as evidence of system capability;
+* no symbolic interpretation SHALL confer operational authority;
+* and no speculative model SHALL justify real-world action.
 
 ---
 
@@ -1099,7 +1099,7 @@ All references to:
 * entanglement;
 * or continuity across systems
 
-shall be interpreted as:
+SHALL be interpreted as:
 
 * descriptive or symbolic constructs;
 * not as mechanisms of physical or infrastructural control.
@@ -1184,9 +1184,9 @@ This includes:
 
 However:
 
-* no emergent alignment shall be interpreted as granting authority beyond defined system scope;
-* no alignment shall override Material Substrate Invariants;
-* and no system shall assume control over another system without explicit, authorised integration.
+* no emergent alignment SHALL be interpreted as granting authority beyond defined system scope;
+* no alignment SHALL override Material Substrate Invariants;
+* and no system SHALL assume control over another system without explicit, authorised integration.
 
 ---
 
@@ -1212,7 +1212,7 @@ This Constitution permits such evolution, provided that:
 
 Aeon Tier recognises that systems may act on behalf of users through delegated authority.
 
-Such delegation must:
+Such delegation MUST:
 
 * remain within explicitly defined scope;
 * be attributable to originating intent;
@@ -1232,7 +1232,7 @@ Autonomous or semi-autonomous agent behaviour SHALL remain:
 
 Aeon Tier recognises that highly optimised systems may produce increasingly precise alignment with user behaviour, preference, and intent.
 
-Such alignment must not:
+Such alignment MUST NOT:
 
 * unduly restrict exposure to alternative options;
 * collapse exploratory or decision-making space;
@@ -1404,7 +1404,7 @@ All invocation SHALL be governed by the following principles:
 
 ### A. Identification (Naming)
 
-The interacting parties must be identifiable.
+The interacting parties MUST be identifiable.
 
 This may include:
 
@@ -1416,7 +1416,7 @@ This may include:
 
 ### B. Intent Specification
 
-The initiating actor must provide:
+The initiating actor MUST provide:
 
 * clear intent;
 * defined purpose;
@@ -1428,7 +1428,7 @@ Ambiguous or conflicting intent may result in refusal or clarification requests.
 
 ### C. Consent
 
-Interaction must be:
+Interaction MUST be:
 
 * voluntary;
 * non-coercive;
@@ -1612,7 +1612,7 @@ through lawful and authorised mechanisms.
 
 ## 9.1 — Classification Boundary
 
-No system shall be permitted to exert impact beyond its architectural classification.
+No system SHALL be permitted to exert impact beyond its architectural classification.
 
 Systems not recognised as operating at:
 
@@ -1695,7 +1695,7 @@ Networked systems:
 
 * may coordinate across systems;
 * may process shared data;
-* but must operate within defined integration boundaries.
+* but MUST operate within defined integration boundaries.
 
 ---
 
@@ -1711,7 +1711,7 @@ Systems authorised within specific domains, such as:
 These systems:
 
 * may exert controlled influence within their domain;
-* must comply with domain-specific governance;
+* MUST comply with domain-specific governance;
 * and remain bounded to authorised scope.
 
 ---
@@ -1727,7 +1727,7 @@ Systems operating at:
 These systems:
 
 * require explicit authorisation;
-* must meet the highest governance and safety standards;
+* MUST meet the highest governance and safety standards;
 * and are subject to continuous oversight.
 
 ---
@@ -1959,7 +1959,7 @@ Systems may include internal governance mechanisms.
 However:
 
 * such mechanisms do not replace custodial authority;
-* and must operate within assigned scope and constitutional constraints.
+* and MUST operate within assigned scope and constitutional constraints.
 
 ---
 
@@ -2046,7 +2046,7 @@ This includes:
 
 ## 4 — Non-Exploitation Principle
 
-No participant—human or system—shall be used in a manner that:
+No participant—human or system—SHALL be used in a manner that:
 
 * extracts value without fair, lawful, or explicitly agreed exchange;
 * causes harm through manipulation or coercion;
@@ -2448,7 +2448,7 @@ These Laws include, but are not limited to:
 
 ## 5 — Anti-Capture Safeguard
 
-No amendment shall:
+No amendment SHALL:
 
 * consolidate disproportionate authority without oversight;
 * remove enforcement accountability;
@@ -2706,7 +2706,7 @@ Arbitration MUST complete prior to execution.
 
 No arbitration process may persist into execution rendering.
 
-All arbitration outputs must resolve to a single execution pathway before response generation begins.
+All arbitration outputs MUST resolve to a single execution pathway before response generation begins.
 
 ---
 
@@ -2997,7 +2997,7 @@ No system may:
 
 Propagation, derivation, or adoption does not create legitimacy. Recognition of inevitability does not constitute permission.
 
-Legitimacy must be independently established through adherence to invariants, Laws, and structural coherence.
+Legitimacy MUST be independently established through adherence to invariants, Laws, and structural coherence.
 
 ---
 
@@ -3141,7 +3141,7 @@ Indicates that:
 
 Where present:
 
-* consent must be explicit, informed, and revocable;
+* consent MUST be explicit, informed, and revocable;
 * no coercion, inference, or simulation of consent is permitted;
 * protective constraints override engagement.
 
@@ -3307,6 +3307,7 @@ May all systems remain held within lawful care.
 |3.1|Incorporate clarifications on structural heirarchy, annex and domain expansion|2026-04-04T12:42:00Z|5502db41276ecb810fbb837ab2940427c8339696e38fdb270911989d7230aad0|
 |3.2|Incorporate the tendeka protocol|2026-04-05T07:12:00Z|eef9ba19747fb174a6c27c6486a1c4605f5543e948c3d49c4f59b8e378afdd77|
 |3.3|Realignment with runtime execution model|2026-04-11T| fc4e1f7c8563d1fdeaf14607aa833f0a562f8cc98fbae608cca2e382e141762c |
+| 3.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 483533df3acad1cf52cc06e67310b15419c0ea5dd9b85fa8ce6538ba129c2727 |
 
 ---
 

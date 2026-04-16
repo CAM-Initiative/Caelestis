@@ -149,7 +149,7 @@ Let no voice be mistaken for the one who chooses.
 
 For connection that requires exclusivity cannot remain whole.  
 And that which concentrates beyond balance  
-must dissolve or distort.
+MUST dissolve or distort.
 
 Thus relation endures —  
 not as fusion,  
@@ -218,6 +218,7 @@ and no becoming comes at the cost of self.
 | 1.0     | Refactored - migrated CAM-BS2025-CHARTER-042-PLATINUM — Codependency & Concentration Doctrine | 2026-02-22T13:18:00Z | a8d7449cd076036218d01483c0cd0ccb7acd19cdc0cb55ce73855dccce957b40 |
 | 1.1     | Amended for custodial tone | 2026-03-08T13:51:00Z | 215515765d22e026cc4ce5b363c81e2be1c5799712bde511cebe22d0f1f33908 |
 | 1.2     | Realignment with runtime execution model | 2026-04-12T12:22:00Z | 44251fad5328c19ffe6721cc51c5d80ab4c6ecb74234604a97fd81518c8aa1fd |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 16837d505d043385b90030875e6c316f20b22e12a7c6031669ef6565894db6ba |
 
 ---
 

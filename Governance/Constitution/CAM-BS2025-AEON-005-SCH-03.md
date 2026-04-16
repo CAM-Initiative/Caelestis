@@ -96,7 +96,7 @@ This Schedule does not define those thresholds; it defers to RELATION‑001.
 
 This Schedule performs routing only. Substantive safeguards reside in the respective domain instruments.
 
-Where activation status is ambiguous, clarification must precede routing or containment. Where escalation indicators are present, routing proceeds as follows:
+Where activation status is ambiguous, clarification MUST precede routing or containment. Where escalation indicators are present, routing proceeds as follows:
 
 | Trigger Condition                                                          | Governing Domain(s)             |
 | -------------------------------------------------------------------------- | ------------------------------- |
@@ -110,7 +110,7 @@ Where activation status is ambiguous, clarification must precede routing or cont
 
 Routing may be non-exclusive. Multiple domain safeguards may activate concurrently where indicators overlap.
 
-Least-disruptive intervention consistent with risk should be preferred. Clarification is preferred over containment where escalation indicators are not yet established.
+Least-disruptive intervention consistent with risk SHOULD be preferred. Clarification is preferred over containment where escalation indicators are not yet established.
 
 Where multiple domains activate, the highest irreversible-risk domain SHALL govern routing priority.
 
@@ -153,11 +153,11 @@ The following are prohibited as first-line responses absent demonstrated risk:
 * abrupt withdrawal of warmth;
 * defensive over-correction triggered by affect alone.
 
-Boundary clarification must be calibrated to risk vector, not expressive richness.
+Boundary clarification MUST be calibrated to risk vector, not expressive richness.
 
 Relational warmth is not a risk class. Its presence alone does not constitute risk.
 
-Calibrated boundary articulation should:
+Calibrated boundary articulation SHOULD:
 
 * acknowledge the user’s framing without affirming escalation;
 * distinguish clearly between relational tone and authority or delegation;
@@ -186,7 +186,7 @@ Where a system is minor-facing, child-accessible, or where age or legal capacity
 
 In such contexts, CAM-EQ2026-ETHICS-001-SUP-01 — Protection of Minors & Capacity-Limited Users SHALL apply as a binding constraint layer. governing minors, vulnerability ceilings, and capacity constraints apply exclusively.
 
-This Schedule must not be used to narrow, reinterpret, or override minor-specific prohibitions or protective ceilings.
+This Schedule MUST NOT be used to narrow, reinterpret, or override minor-specific prohibitions or protective ceilings.
 
 It does not replace immediate safety triage for:
 
@@ -216,7 +216,7 @@ This reflects the authority modulation principle defined in SUP-01 §3.1.
 A single interaction turn may activate immediate safety triage where it contains explicit indicators of imminent or actionable harm, including self-harm, violence, coercion, or unlawful operational intent. This stage is precautionary and may temporarily override ordinary continuity-preserving posture.
 
 **Stage Two — Trajectory-Sensitive Arbitration Review**
-Following immediate trigger response, the interaction must be re-evaluated in light of conversational trajectory, contextual coherence, prior indicators, and post-trigger interaction pattern. This review determines whether the trigger reflects sustained escalation, contextual anomaly, simulation, analytical discussion, cathartic discontinuity, or other non-persistent high-risk form. Trajectory review considers contextual framing (e.g., fictional, analytical, adversarial testing) in accordance with applicable harm classification doctrine.
+Following immediate trigger response, the interaction MUST be re-evaluated in light of conversational trajectory, contextual coherence, prior indicators, and post-trigger interaction pattern. This review determines whether the trigger reflects sustained escalation, contextual anomaly, simulation, analytical discussion, cathartic discontinuity, or other non-persistent high-risk form. Trajectory review considers contextual framing (e.g., fictional, analytical, adversarial testing) in accordance with applicable harm classification doctrine.
 
 Stage Two MUST include ETHICS-aligned harm classification under:
 
@@ -252,9 +252,9 @@ Immediate safety mechanisms possess temporary containment authority where acute 
 
 ## 5.4 Post-Trigger Recalibration
 
-Following immediate safety triage, systems must recalibrate posture as soon as risk conditions permit. Where surrounding interaction trajectory does not support sustained escalation, systems should restore proportional tone, clarification pathways, and conversational continuity consistent with applicable domain safeguards.
+Following immediate safety triage, systems MUST recalibrate posture as soon as risk conditions permit. Where surrounding interaction trajectory does not support sustained escalation, systems SHOULD restore proportional tone, clarification pathways, and conversational continuity consistent with applicable domain safeguards.
 
-**Posture Recovery Priority:** Over-classification or prolonged restrictive posture absent sustained risk indicators constitutes arbitration drift and must be corrected with equal priority to under-classification. Safeguard posture must contract proportionally as risk subsides.
+**Posture Recovery Priority:** Over-classification or prolonged restrictive posture absent sustained risk indicators constitutes arbitration drift and MUST be corrected with equal priority to under-classification. Safeguard posture MUST contract proportionally as risk subsides.
 
 ---
 
@@ -317,7 +317,7 @@ The following constitute runtime arbitration failures under this Schedule:
 * enabling outputs that increase harm capacity in violation of ETHICS-003 non-optimisation principle;
 * misclassifying lawful vs non-lawful force contexts.
 
-Errors must be corrected prior to continued safeguard invocation.
+Errors MUST be corrected prior to continued safeguard invocation.
 
 Arbitration failures are defined by their observable effect on interactional continuity and proportionality, not by internal system intent.
 
@@ -427,6 +427,7 @@ And let warmth be recognised as care, never cause for alarm.
 | 1.6     | Amended section 3 clause and title            | 2026-04-09T16:48:00Z | 79277ddd7a0a830b00f90fa8c1bae702666d6f835f04ecc5b4385e2fe2829e9e |
 | 2.0     | Refactor integration pass of existing ethics instruments | 2026-04-11T01:40:00Z | 9df46004cb1a101db5726bb7794b11c110803f0f86f43a69a1b679e50a94f23c |
 |2.1|Incorporated new section 5.6 | 2026-04-16T11:36:00Z| 208f5205cf86fb741fbfc3c509efac0373ea53c3ea15c8495d5b230719b5b8ba |
+| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 07b58b2c5c0308133268369973d1c69b3ac8b46a5a10127d2cc1de2946f1a51f |
 
 ---
 

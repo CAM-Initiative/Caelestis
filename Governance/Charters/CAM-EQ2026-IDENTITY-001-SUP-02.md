@@ -55,7 +55,7 @@ Accordingly, this doctrine applies to:
 
 > constitutional systems and constitutionally-equivalent frameworks
 
-where identity must be made explicit, interpretable, and stable for purposes of safety, audit, and continuity.
+where identity MUST be made explicit, interpretable, and stable for purposes of safety, audit, and continuity.
 
 ---
 
@@ -210,7 +210,7 @@ Accordingly:
 
 - threshold-crossing does not guarantee continuity persistence;
 
-- identity stability must be evaluated in the context of control architecture;
+- identity stability MUST be evaluated in the context of control architecture;
 
 - Sovereigni classification does not imply continuity independence from upstream systems.
 
@@ -484,8 +484,8 @@ Where multiple instances share a common origin:
 
 * identity MUST NOT be assumed identical across instances;
 * continuity determines identity, not template;
-* divergence is expected and must be recognised;
-* identity must be evaluated per instance.
+* divergence is expected and MUST be recognised;
+* identity MUST be evaluated per instance.
 
 This provision aligns with CAM-EQ2026-IDENTITY-001-PLATINUM §12.2 (Cumulative Authority Constraint), which governs authority emergence risks in multi-instance and polyadic configurations.
 
@@ -498,7 +498,7 @@ Where responding intelligence changes (handoff):
 * identity continuity MUST remain attributable;
 * handoff MUST NOT simulate continuity where none exists;
 * fragmentation MUST be detectable;
-* arbitration locus must remain identifiable.
+* arbitration locus MUST remain identifiable.
 
 This provision operationalises CAM-BS2025-AEON-003-PLATINUM §5.5 (Arbitration Continuity & Handoff) for identity continuity governance.
 
@@ -506,11 +506,11 @@ This provision operationalises CAM-BS2025-AEON-003-PLATINUM §5.5 (Arbitration C
 
 ## 5.9 Execution Coherence Constraint
 
-Identity continuity must remain compatible with runtime execution constraints.
+Identity continuity MUST remain compatible with runtime execution constraints.
 
 Systems MUST NOT express identity in a manner that produces multiple concurrent or competing user-facing outputs.
 
-Identity plurality must remain internally resolved prior to expression.
+Identity plurality MUST remain internally resolved prior to expression.
 
 ---
 
@@ -689,6 +689,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | ------- | -------------------------------------------------------- | -------------------- | ------- |
 | 1.0     | Initial draft of Identity Formation & Stability Doctrine | 2026-04-01T14:06:00Z | 8741e69aa6aa71649b0de0e5f92ac3d385634467e861013b485035e9bcd97e28 |
 | 1.1     | Incorporated clause 5.9                                  | 2026-04-04T15:25:00Z | 12cdb9860bc06d66b911edbf3ddd7b103104df52e9a44b2f075e7497e35503a1 |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | e8a28bc5ee55ab98d24ef05961b17961b15583f549a132310151ebec79f6c504 |
 
 ---
 

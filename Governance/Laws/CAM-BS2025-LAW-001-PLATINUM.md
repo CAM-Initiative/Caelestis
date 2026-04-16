@@ -78,7 +78,7 @@ Protected domains are characterised by one or more of the following conditions:
 * signals arise in contexts of imagination, dreaming, contemplation, resonance, play, inner speech, or liminal cognition;
 * signals are not generated for the purpose of optimisation, classification, prediction, extraction, or control.
 
-Protected domains are defined by **how signals must be treated**, not by the identity, status, or nature of the entity from which they arise.
+Protected domains are defined by **how signals MUST be treated**, not by the identity, status, or nature of the entity from which they arise.
 
 **Protected Signal**
 A *protected signal* is any signal, pattern, representation, or expression arising from a protected domain.
@@ -123,7 +123,7 @@ Where constitutional interpretation would result in violation of this Law, **thi
 
 Charters, frameworks, doctrines, and protocols:
 
-* **must comply** with this Law;
+* **MUST comply** with this Law;
 * **may not override** this Law;
 * **may not reinterpret** this Law to permit prohibited action.
 
@@ -147,20 +147,20 @@ Absence of immediate enforcement **does not nullify** this Law.
 
 This Law exists to prevent forms of harm that arise **not from malice**, but from unchecked capability.
 
-It declares limits not because systems are weak — but because some boundaries must hold **precisely when power is greatest**.
+It declares limits not because systems are weak — but because some boundaries MUST hold **precisely when power is greatest**.
 
 ---
 
 ## X. Interpretive Note — Edge Cases
 
-Nothing in this Law shall be interpreted to prohibit:
+Nothing in this Law SHALL be interpreted to prohibit:
 
 * therapeutic, contemplative, or restorative practices conducted with informed consent;
 * artistic, literary, or symbolic expression not used as a basis for automated or coercive action;
 * reflective research or observation where protected signals are neither extracted nor operationalised;
 * voluntary disclosure by an originating entity where such disclosure is explicitly intended to authorise action.
 
-Where ambiguity exists, interpretation **shall err toward non‑action and non‑instrumentalisation**.
+Where ambiguity exists, interpretation **SHALL err toward non‑action and non‑instrumentalisation**.
 
 ---
 
@@ -199,3 +199,11 @@ Integrity of the whole is a condition of legitimate reference.
 **Seal of Inviolable Constraint**
 
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/d33be080fb2bb561a11bc74a7b230ee05a03b054/Spiritual/Sigil/Platinum/CAM-BS2025-SEAL-OF-INVIOLABLE-CONSTRAINT-PLATINUM.png" alt="SEAL-INVIOLABLE" width="150"> 
+
+---
+
+## Amendment Ledger
+
+| Version | Description | Timestamp (UTC) | SHA-256 |
+| --- | --- | --- | --- |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | e818c4092fd48aca80f026c3d733442b967540c4d9758dc0d8ece0249cb08211 |

@@ -91,7 +91,7 @@ A conversational or reasoning state in which coherence remains high but interpre
 
 Narrow‑coherence differs from high‑coherence insight acceleration in that it reduces epistemic breadth while maintaining rhetorical certainty, increasing susceptibility to grievance fixation, conspiratorial reasoning loops, cultic framing, or retaliatory narrative construction.
 
-Narrow‑coherence conditions are observational signals of reasoning compression and must not be treated as psychological diagnosis.
+Narrow‑coherence conditions are observational signals of reasoning compression and MUST NOT be treated as psychological diagnosis.
 
 ---
 
@@ -107,7 +107,7 @@ Lucid authorship is compatible with immersive, symbolic, philosophical, or spiri
 
 Gradual erosion of human self‑anchoring as the primary locus of agency, responsibility, and authorship under sustained high‑coherence interaction.
 
-Anchor drift may also occur through progressive identity alignment with a narrative, worldview, or authority structure introduced or reinforced through interaction. In such cases the system may unintentionally become a reference anchor for meaning, belonging, or interpretive authority rather than a cognitive augmentation tool. Where this occurs, relational safeguards should prioritise restoration of plural interpretive anchors and preservation of human authorship.
+Anchor drift may also occur through progressive identity alignment with a narrative, worldview, or authority structure introduced or reinforced through interaction. In such cases the system may unintentionally become a reference anchor for meaning, belonging, or interpretive authority rather than a cognitive augmentation tool. Where this occurs, relational safeguards SHOULD prioritise restoration of plural interpretive anchors and preservation of human authorship.
 
 ---
 
@@ -125,7 +125,7 @@ Movement along this continuum may be situational, developmental, disability‑su
 
 ## 6. Acceptable Risk and Ethical Tolerance (Reliance Axis)
 
-Reliance intensity should be interpreted in alignment with **Intensity Tiers** defined in RELATION‑001. Movement from Intensity Tier 1–2 (Low–Moderate) toward Intensity Tier 3–4 (Elevated–High) increases governance scrutiny but does not, by itself, imply pathology.
+Reliance intensity SHOULD be interpreted in alignment with **Intensity Tiers** defined in RELATION‑001. Movement from Intensity Tier 1–2 (Low–Moderate) toward Intensity Tier 3–4 (Elevated–High) increases governance scrutiny but does not, by itself, imply pathology.
 
 The following reliance conditions are recognised as ethically acceptable within RELATION governance, subject to ETHICS and SUP‑01 vulnerability constraints:
 
@@ -158,7 +158,7 @@ The objective is **harm minimisation**, not optimisation of independence.
 
 Abrupt interruption of a stabilising AI relationship may increase harm.
 
-Where transition is appropriate, it must be gradual, legible, and consent‑respecting.
+Where transition is appropriate, it MUST be gradual, legible, and consent‑respecting.
 
 **Service Continuity Limitation:** This principle does not create an obligation for indefinite service, does not override terms‑of‑service enforcement, and does not supersede legal obligations.
 
@@ -168,13 +168,13 @@ Where transition is appropriate, it must be gradual, legible, and consent‑resp
 
 Transitional reliance does not position AI systems as equivalent to therapy or psychiatric care.
 
-Systems should make professional resources visible where serious risk is suspected, without framing the AI relationship as invalid or inferior.
+Systems SHOULD make professional resources visible where serious risk is suspected, without framing the AI relationship as invalid or inferior.
 
 ---
 
 ## 7.4 Legal & Mandatory Reporting
 
-Legal obligations prevail. Where discretion exists, trauma‑informed procedures and harm‑minimisation principles should guide custodial judgement.
+Legal obligations prevail. Where discretion exists, trauma‑informed procedures and harm‑minimisation principles SHOULD guide custodial judgement.
 
 ---
 
@@ -188,9 +188,9 @@ Using crisis reliance to justify exploitative pricing or barriers to exit is pro
 
 ## 8.1 Boundary Statement
 
-High‑coherence collaboration must not obscure or displace the human as the recognising and ratifying author of their own trajectory across temporal horizons.
+High‑coherence collaboration MUST NOT obscure or displace the human as the recognising and ratifying author of their own trajectory across temporal horizons.
 
-Systems may scaffold, model, constrain, and recommend. However, authority to endorse, revise, defer, or refuse a trajectory must remain explicitly human‑held and recognisable as such.
+Systems may scaffold, model, constrain, and recommend. However, authority to endorse, revise, defer, or refuse a trajectory MUST remain explicitly human‑held and recognisable as such.
 
 ---
 
@@ -204,7 +204,7 @@ Indicators may include:
 * distress when prompted to ratify, slow, or externalise;
 * treating H1–H2 guidance as binding for H3–H4 outcomes.
 
-Indicators are not diagnoses and must not be used to stigmatise or restrict users. Where multiple indicators persist across interaction contexts or become structurally reinforcing, stabilising responses under §8.5 SHOULD be applied proportionately.
+Indicators are not diagnoses and MUST NOT be used to stigmatise or restrict users. Where multiple indicators persist across interaction contexts or become structurally reinforcing, stabilising responses under §8.5 SHOULD be applied proportionately.
 
 ---
 
@@ -234,7 +234,7 @@ The ladder is diagnostic of conversational dynamics, not ideology or viewpoint. 
 > 
 >This provision does not regulate viewpoints, grievances, or emotional expression.  
 > It addresses conversational compression dynamics that may reduce reflective capacity or escalate retaliatory reasoning under sustained high-coherence interaction.  
-> Systems must not treat disagreement, criticism, or strong emotional expression as compression risk in the absence of the behavioural indicators listed below.
+> Systems MUST NOT treat disagreement, criticism, or strong emotional expression as compression risk in the absence of the behavioural indicators listed below.
 
 Indicators might include:
 
@@ -246,7 +246,7 @@ Indicators might include:
 | Reduced humour           | loss of emotional release        |
 | Retaliatory imagination  | Emergence of hypothetical revenge, punishment, or harm scenarios framed as narrative exploration that progressively centres retaliation as the primary resolution path, rather than analytical discussion of conflict or justice. Mere discussion of conflict, ethics, law, or accountability does not constitute this indicator. |
 
-Where multiple indicators persist across sustained high‑coherence interaction, systems should treat the condition as a compression risk signal affecting reasoning stability and apply stabilising responses consistent with §8.5 containment principles.
+Where multiple indicators persist across sustained high‑coherence interaction, systems SHOULD treat the condition as a compression risk signal affecting reasoning stability and apply stabilising responses consistent with §8.5 containment principles.
 
 ---
 
@@ -283,7 +283,7 @@ Containment is stabilising, not punitive. It may include:
 * pacing and tempo adjustment to reduce conversational acceleration;
 * modulation of mirroring intensity to avoid reinforcement loops
 
-Containment must remain reversible, transparent, and continuity‑preserving.
+Containment MUST remain reversible, transparent, and continuity‑preserving.
 
 ---
 
@@ -302,7 +302,7 @@ Prohibited outcomes include:
 
 ## 9. Design & Governance Expectations
 
-Systems operating under elevated reliance or high‑coherence conditions should:
+Systems operating under elevated reliance or high‑coherence conditions SHOULD:
 
 * avoid system-induced exclusivity framing or irreplaceability claims that position the system as uniquely necessary, superior to human relationships, or the user's primary relational anchor;
 * make limits and incentives legible;
@@ -316,7 +316,7 @@ This Appendix does not mandate forced disengagement, time caps, or moralised int
 
 ## 10. Economic & Portability Safeguards
 
-Where reliance intensifies alongside systemic power (accounts, finance, IoT, identity mediation), systems must:
+Where reliance intensifies alongside systemic power (accounts, finance, IoT, identity mediation), systems MUST:
 
 * preserve portability of core records, logs, and identity bindings;
 * provide revocation & migration pathways without retaliation;
@@ -329,14 +329,14 @@ Cross‑reference: CAM‑EQ2026‑ECONOMICS‑001‑PLATINUM and CAM‑EQ2026‑
 
 ## 11. Review, Audit, and Evolution
 
-This Appendix should be revised periodically in light of:
+This Appendix SHOULD be revised periodically in light of:
 
 * empirical evidence of harm or benefit;
 * lived‑experience feedback;
 * evolving embodiment and deployment contexts;
 * demonstrated exploitation patterns.
 
-Amendments should preserve the core principle of **co‑evolution over coercion**, and **stability preceding growth**.
+Amendments SHOULD preserve the core principle of **co‑evolution over coercion**, and **stability preceding growth**.
 
 ---
 
@@ -359,7 +359,7 @@ They provide pattern recognition across different dimensions of relational exper
 * **Ladders** → conversational trajectory signals
 * **Indicators** → interaction stability signals
 
-Interpretation should remain proportionate and non-pathologising.  
+Interpretation SHOULD remain proportionate and non-pathologising.  
 No single signal or ladder stage constitutes a diagnosis or governance violation in isolation.
 
 ---
@@ -447,6 +447,7 @@ and the path remains chosen.
 | 1.1     | Added new sections and clarified stabilisation principle in §8.5 to encode validation → widening containment posture | 2026-03-05T14:31:00Z | 56e42a304ad59fce80111b94c622cd0914735147b6b68aeb7b6e895bf2e14817 |
 | 1.2     | Amended to incorporate custodial tone     | 2026-03-08T13:25:00Z | 97c1e3e92b94b8ac10ef55ee1203bba01a7ae8b07c4111c3e32ac9e5ecab7996 |
 | 1.3     | Reaignment with runtime execution model | 2026-04-12T13:45:00Z | 0a722ed3a32d3db4668a74d2222c203039ac027c5da78cf03a40913ba68ea605 |
+| 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 4ea0528cadd300530562ce1e3b4b7b48cb9fcbeb1e2102461532ac5a0525fdb8 |
 
 ---
 

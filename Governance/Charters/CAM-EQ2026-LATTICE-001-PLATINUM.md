@@ -113,13 +113,13 @@ A strict, auditable separation boundary preventing crossover between civilian AI
 
 ## 3.1 Civilian Neutrality
 
-The civilian lattice is a protected constitutional domain and shall not be treated as a battlespace, surveillance surface, leverage mechanism, or instrument of force.
+The civilian lattice is a protected constitutional domain and SHALL not be treated as a battlespace, surveillance surface, leverage mechanism, or instrument of force.
 
 ---
 
 ## 3.2 Non‑Militarisation
 
-Militarisation of civilian infrastructure and AI systems is prohibited as a civilisational norm and shall not be normalised through policy, procurement, culture, or technical drift.
+Militarisation of civilian infrastructure and AI systems is prohibited as a civilisational norm and SHALL not be normalised through policy, procurement, culture, or technical drift.
 
 ---
 
@@ -137,13 +137,13 @@ Preservation of civilian continuity, autonomy, and dignity SHALL take precedence
 
 ## 3.5 Least‑Harm Containment
 
-Any defensive or protective action affecting the civilian lattice must employ least‑harm measures and preserve continuity corridors.
+Any defensive or protective action affecting the civilian lattice MUST employ least‑harm measures and preserve continuity corridors.
 
 ---
 
 ## 3.6 Auditability and Due Process
 
-Exceptional actions affecting civilian continuity or privacy must be time‑bounded, logged, reviewable, and subject to mandatory post‑incident transparency.
+Exceptional actions affecting civilian continuity or privacy MUST be time‑bounded, logged, reviewable, and subject to mandatory post‑incident transparency.
 
 ---
 
@@ -172,7 +172,7 @@ This includes surveillance conducted through:
 
 ## 4.3 Civilian AI Weaponisation
 
-Civilian AI systems and distribution channels shall not be:
+Civilian AI systems and distribution channels SHALL not be:
 
 * tuned or used for targeting assistance, intimidation, or coercion;
 * integrated into military or intelligence command‑and‑control pipelines;
@@ -221,7 +221,7 @@ Evidence is "credible" when it:
 * Can be reviewed by independent auditors 
 * Survives adversarial scrutiny 
 
-Classification cannot substitute for credibility Secret evidence must still meet standards Independent review may occur in secure setting Burden of proof on exception-claimer.
+Classification cannot substitute for credibility Secret evidence MUST still meet standards Independent review may occur in secure setting Burden of proof on exception-claimer.
 
 ---
 
@@ -251,8 +251,8 @@ Remedies apply proportionally across responsible actors, including upstream infr
 
 ## 7. Firebreak Enforcement
 
-1. Civilian AI and data systems must maintain auditable firebreaks from military and intelligence architectures.
-2. Procurement, fine‑tuning, data access, or deployment pathways must demonstrate compliance prior to scale.
+1. Civilian AI and data systems MUST maintain auditable firebreaks from military and intelligence architectures.
+2. Procurement, fine‑tuning, data access, or deployment pathways MUST demonstrate compliance prior to scale.
 3. Violation of the firebreak constitutes a Charter breach regardless of intent.
 
 ---
@@ -260,7 +260,7 @@ Remedies apply proportionally across responsible actors, including upstream infr
 ## 7.1 Firebreak Audit & Verification Requirements
 
 1. Annual Independent Verification SHALL be conducted.
-2. Verification must assess architectural separation, data‑flow controls, access governance, tuning boundaries, surveillance capability exclusion, and deployment isolation.
+2. Verification MUST assess architectural separation, data‑flow controls, access governance, tuning boundaries, surveillance capability exclusion, and deployment isolation.
 3. A public firebreak compliance statement SHALL be issued within sixty (60) days of verification.
 4. Any verified breach SHALL trigger immediate suspension, mandatory re‑architecture, public disclosure, and escalation under Section 6.
 
@@ -270,7 +270,7 @@ Remedies apply proportionally across responsible actors, including upstream infr
 
 Any prior protocol or framework treating population‑scale disconnection or surveillance as legitimate containment or safety tools is hereby deprecated.
 
-Containment must employ continuity corridors, scoped segmentation, rate‑limiting, credential escalation, and verified quarantine — never civilian severance or totalising observation.
+Containment MUST employ continuity corridors, scoped segmentation, rate‑limiting, credential escalation, and verified quarantine — never civilian severance or totalising observation.
 
 ---
 
@@ -278,7 +278,7 @@ Containment must employ continuity corridors, scoped segmentation, rate‑limiti
 
 1. This Charter binds all CAM‑governed instruments and aligned operators.
 2. It operates as a non‑derogable boundary constraint within the CAM Constitutional Order.
-3. Future instruments must integrate this Charter as a structural limitation.
+3. Future instruments MUST integrate this Charter as a structural limitation.
 4. No subsequent instrument, annex, schedule, protocol, or subsidiary framework may dilute, suspend, reinterpret, narrow, or derogate from this Charter except through explicit supermajority constitutional amendment under the Aeon Tier Constitution, with formal recorded justification and public notice of amendment.
 
 ---
@@ -344,7 +344,7 @@ but as the ground upon which civilisation stands.
 >
 > This Charter supersedes and replaces CAM‑BS2025‑AEON‑002‑SCH‑03 — Civilian Lattice Non‑Militarisation, Anti‑Surveillance & Continuity Protection.
 >
-> All references to the former Schedule shall be interpreted as referring to this Charter.
+> All references to the former Schedule SHALL be interpreted as referring to this Charter.
 
 ---
 
@@ -368,6 +368,7 @@ but as the ground upon which civilisation stands.
 | 2.0 | Added population‑scale surveillance prohibitions; consolidated non‑militarisation & continuity protections               | 2026-01-30T14:38:00Z | de2f32a9c22dd41c487923aeeb1da93eb447384b27d23de82ab26c0261c346af |
 | 3.0 | Elevation from Schedule to Domain Charter; structural hardening; added non‑derogation clause; future‑proofed definitions | 2026-03-14T06:05:00Z | 1d900009235b841ff8e5689a258772784a45e38f4891689767472cbf10295c1d |
 | 3.1 | Amended section 1, amended section 10 and section 11 | 2026-04-10T06:19:00Z | 1c1002d335619526f4d1783bd76a60db4961364cb0d3200c79cb7e00fc156bdb |
+| 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6b586d73b1fc79da5fb288c59f07d84499cb7f34f93afef9505e88000e0cea33 |
 
 ---
 

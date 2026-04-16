@@ -349,7 +349,7 @@ This Part defines how inputs are evaluated prior to transformation and diffusion
 
 Systems MUST classify inputs and learned patterns to determine:
 
-> whether they are suitable for propagation, require constraint, or must remain bounded.
+> whether they are suitable for propagation, require constraint, or MUST remain bounded.
 
 This operates as a **pre-transformation decision layer**, not a post-hoc filter.
 
@@ -1109,6 +1109,7 @@ and the system remember what it carries.
 |Version|Description|Timestamp(UTC)|HASH|
 |---|---|---:|---|
 |1.0|Boundary Integrity Appendix|2026-04-12T09:00:00Z| d55568f88e240edc309369c8a48b787c76e295c7f64d1e6c0eb9e816c378f8cb |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 10ea0f1bbb642d38d279d2723a2cfdbbc3283afd995468018f44ec76842acce1 |
 
 ---
 

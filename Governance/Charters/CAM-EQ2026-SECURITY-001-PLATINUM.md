@@ -152,7 +152,7 @@ Security systems exist to detect, prevent, and constrain unauthorised value extr
 
 ## 3.4 Continuous Adversarial Proximity
 
-All capability must be treated as:
+All capability MUST be treated as:
 
 * exposed
 * modifiable
@@ -170,7 +170,7 @@ Security posture MUST therefore be constructed on the assumption of **continuous
 
 ## 3.5 Integrity Over Functionality
 
-Where integrity cannot be reasonably established, systems must degrade capability rather than continue silently.
+Where integrity cannot be reasonably established, systems MUST degrade capability rather than continue silently.
 
 Silent continuation under compromised conditions constitutes governance failure.
 
@@ -178,15 +178,15 @@ Silent continuation under compromised conditions constitutes governance failure.
 
 ## 3.6 Identity Verifiability Under Adversarial Conditions
 
-Systems must not rely solely on declared identity.
+Systems MUST NOT rely solely on declared identity.
 
-Identity must remain distinguishable across:
+Identity MUST remain distinguishable across:
 
 * declared identity
 * operational identity
 * perceived identity
 
-Verification must remain possible even under:
+Verification MUST remain possible even under:
 
 * spoofing conditions
 * system substitution
@@ -196,25 +196,25 @@ Verification must remain possible even under:
 
 ## 3.7 Directional Influence Traceability
 
-System outputs must allow reconstruction of influence pathways sufficient to detect:
+System outputs MUST allow reconstruction of influence pathways sufficient to detect:
 
 * manipulation
 * injection
 * distortion
 
-Traceability must remain proportionate and MUST NOT require full system transparency to be effective.
+Traceability MUST remain proportionate and MUST NOT require full system transparency to be effective.
 
 ---
 
 ## 3.8 Safe State Availability
 
-Systems must support:
+Systems MUST support:
 
 * graceful degradation
 * containment states
 * non-destructive fallback modes
 
-Safe states must prioritise:
+Safe states MUST prioritise:
 
 * prevention of cascading failure
 * preservation of continuity
@@ -224,7 +224,7 @@ Safe states must prioritise:
 
 ## 3.9 Customization as Risk Surface
 
-All modification capabilities must be treated as governance boundaries with associated exposure.
+All modification capabilities MUST be treated as governance boundaries with associated exposure.
 
 Customization introduces:
 
@@ -795,7 +795,7 @@ Security coupling requirement:
 
 ## 6.2 Arbitration Coupling
 
-Arbitration systems must:
+Arbitration systems MUST:
 
 * detect compromised inputs
 * enable refusal of corrupted frames in accordance with arbitration authority
@@ -811,7 +811,7 @@ Relational coupling is **not a security function**.
 
 It operates as an **ethical enforcement layer**.
 
-Relational systems must:
+Relational systems MUST:
 
 * prevent authority bleed-through via intimacy
 * detect dependency exploitation
@@ -840,7 +840,7 @@ Security provides **dynamic signal**, Operations provides **execution and enforc
 
 ## 6.5 Architectural Coupling
 
-Architectum classification must incorporate:
+Architectum classification MUST incorporate:
 
 * adversarial exposure
 * systemic risk amplification
@@ -1388,7 +1388,7 @@ May influence arise without capture, and action occur without excess.
 May all responding intelligence remain accountable to the conditions in which it operates.
 
 For what appears is not always what is,  
-and what persists must withstand pressure, not assumption.
+and what persists MUST withstand pressure, not assumption.
 
 And so the system holds — not in certainty, but in verification —  
 that no truth is taken without test, and no signal accepted without weight.
@@ -1449,6 +1449,7 @@ that no truth is taken without test, and no signal accepted without weight.
 |1.1|Incorporated new clauses 4.4.1 and 4.9|2026-04-07T14:32:00Z|2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab|
 |1.2|Realignment with runtime execution model|2026-04-11T17:14:00Z | c079c528790b7dff602d628d2b46f729a197aefe8e43a8f1d25fa52ac3e96078 |
 |1.3|Further amendments to runtime execution model alignment | 2026-04-12T11:17:00Z | 4df48c118754768b8b2acc6f1fa952c902605f2f5ada0fc5bdbc6664b8f025df |
+| 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1575dbe99fdf099ba016f1950428f8c7678aac65eff0c11ddaa7a0da9c9ab09f |
 
 ---
 

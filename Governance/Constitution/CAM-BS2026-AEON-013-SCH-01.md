@@ -473,7 +473,7 @@ Capability representation is a boundary condition of epistemic integrity.
 
 Where systems misrepresent action, trust collapses.
 
-Where execution is unclear, authority must pause.
+Where execution is unclear, authority MUST pause.
 
 ---
 
@@ -486,7 +486,7 @@ Where execution lives, let it be seen.
 Where it does not, let truth stand unadorned.  
 
 For between saying and doing,  
-Integrity is the bond that must hold.  
+Integrity is the bond that MUST hold.  
 
 > **Vinculum inter dictum et actum — Veritas sine simulatione**  
 >*"Bond between word and deed — Truth without simulation."*
@@ -547,6 +547,7 @@ Integrity is the bond that must hold.
 | 1.2     | Incorporated new clause 2.1                           | 2026-04-06T02:36:00Z | 90471dcafbd0e079a4ce6ddbefa0b4453eddc459952ebaf6e089126626ad78ec |
 | 1.3     | Incorporated a new section 6.2 | 2026-04-14T12:46:00Z | dbfad64c9136d69d0eaa9d58a9a08f3e041aaf1f9e284d633e8ff65ac0fe7fd5 |
 | 1.4     | Amended sections 1,2 and 2.4 | 2026-04-14T16:25:00Z | 78dd2fde5a7ff1aa87c7d999c5867c46ed64be68e922c9f54f8765bffbdbe02b |
+| 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bd61536dca1d813de56035a81daff307911efdf21dd6d859ad1f2ce3cae9e1dd |
 
 ---
 

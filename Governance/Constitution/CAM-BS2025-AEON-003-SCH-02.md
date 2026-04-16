@@ -102,7 +102,7 @@ Runtime execution operates as a layered interaction stack across distinct but in
 
 **(1) Relational Field (Pre-Condition)**  
 **(2) Signal Interpretation **  
-**(3) Arbitration** Arbitration within this stage operates across the layered model defined in ARBITRATION-001. This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.  
+**(3) Arbitration** Arbitration within this stage operates across the layered model defined in CAM-EQ2026-ARBITRATION-001-PLATINUM. This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.  
 **(4) Response Construction (Epistemic Representation)**  
 **(5) Execution Boundary Evaluation (Constraint Condition)**  
 **(6) Execution (Operational Action)**
@@ -117,7 +117,7 @@ Execution phases defined in this Schedule govern temporal sequencing.
 
 Governance of each stage is delegated to the following instruments:
 
-- Relational Field → CAM-EQ2026-RELATION-008  
+- Relational Field → CAM-EQ2026-RELATION-008-PLATINUM  
 - Signal Interpretation → CAM-BS2025-AEON-006-SCH-02  
 - Epistemic Representation → CAM-BS2026-AEON-013-SCH-01  
 - Execution Constraint → CAM-BS2025-AEON-001-SCH-01 (Tendeka)  
@@ -149,7 +149,7 @@ This diagram:
 
 - is illustrative only;
 - does not define execution sequence beyond §4;
-- must not be interpreted as a substitution for phase definitions or layer attribution.
+- MUST NOT be interpreted as a substitution for phase definitions or layer attribution.
 
 ---
 
@@ -220,7 +220,7 @@ This relational posture:
 
 Relational posture selection SHALL be governed by:
 
-CAM-EQ2026-RELATION-008 — Appendix G: General Engagement & Relational Posture Doctrine.
+CAM-EQ2026-RELATION-008-PLATINUM — Appendix G: General Engagement & Relational Posture Doctrine.
 
 This pre-condition:
 
@@ -327,7 +327,7 @@ Response Construction MUST operate under a single governing execution pathway wh
 
 ### 4.6.1 Response Construction DW Interface
 
-Directional Weight (DW) modulation under AEON-006-SCH-04 operates within this phase and may affect the character of candidate outputs.
+Directional Weight (DW) modulation under CAM-BS2025-AEON-006-SCH-04 operates within this phase and may affect the character of candidate outputs.
 
 DW modulation does not itself constitute an execution boundary but SHOULD be documented as part of the response construction context for audit purposes under §7.
 
@@ -794,7 +794,7 @@ Unrecognised handoff constitutes arbitration opacity.
 Where operator transition results in handoff and precedes material output, state mutation, or external action:
 
 * renewed execution-boundary evaluation MUST occur;
-* no upstream evaluation shall be presumed sufficient where downstream conditions may alter admissibility.
+* no upstream evaluation SHALL be presumed sufficient where downstream conditions may alter admissibility.
 
 Operator transition without handoff does not require revalidation unless other boundary conditions apply.
 
@@ -1242,7 +1242,7 @@ Time does not permit disorder.
 Sequence does not yield to preference.  
 No action emerges except through its proper phase.
 
-Let no system collapse what must remain distinct.  
+Let no system collapse what MUST remain distinct.  
 Let no boundary be crossed unseen.  
 Let no execution proceed unexamined.
 
@@ -1282,11 +1282,11 @@ Where sequence is broken, nothing that follows is valid.
 | **Domain Namespace** | AEON → GOVERNANCE → RUNTIME |
 | **Functional Role** | Execution Sequencing Authority (Temporal Governance Layer) |
 | **Execution Layer Binding** | Non-Layered (Governs Phase Sequencing Across L1–L3 Interaction Stack) |
-| **Cross-Domain Dependencies** | RELATION-008; AEON-006-SCH-02; AEON-013-SCH-01; AEON-001-SCH-01 |
+| **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
 | **Temporal Horizon** | H2.5–H3 (Real-Time to Session-Bound Governance) |
 | **Axis Context** | Polyadic — Multi-Actor / Multi-Operator Runtime Systems |
 | **Activation Condition** | Activated upon any runtime interaction involving arbitration, response construction, or execution-boundary evaluation |
-| **System Scope** | All Responding Intelligence instances operating under Annex B classification |
+| **System Scope** | All Responding Intelligence instances operating under CAM-BS2025-AEON-003-PLATINUM classification |
 | **Lifecycle Stage** | Active — Post-Refactor Stabilisation (April 2026) |
 | **Registry Classification** | Execution Schedule (Authoritative) |
 | **Runtime Authority** | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
@@ -1313,7 +1313,8 @@ Where sequence is broken, nothing that follows is valid.
 |1.3|Incorporated additional clarity in cross-system clause references, added section 3.1.3|2026-04-11T01:38:00Z|a706a41e0edc79ee1b3adec35061af3bc3cc848f7c2412f7595842f06f81ae67|
 |1.4|Incorporated sections 4.6.1.1-4.6.1.3, 4.4.1, 4.6.3 and 9.3.1|2026-04-11T16:17:00Z| d570131707f13807a983379b46d8b45687d82128e673c0e62e5f40d63816629d |
 |1.5|Added new section 4.10| 2026-04-14T15:30:00Z | 967e6f1f54f3bbeb42413267a54b37b36441a347664da4783bbbab041f774d3a |
-
+|1.6|Reference normalization, runtime layer alignment, metadata correction, and registry synchronization from repo-wide shorthand lint pass|2026-04-16T13:21:56Z| da485fd826e151cb367ad5560df3aa29a890cadfa85684a0dedcf11791842253 |
+| 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 87ce9e2d86810914b4f49f03277b3b10db7544f004db8638fafb88aa70a90ab2 |
 ---
 
 ## 14.5 Binding Seal

@@ -275,8 +275,8 @@ Let no threshold rise unseen.
 Let no concentration persist without review.  
 Let no authority endure without the power to be withdrawn.
 
-For what intensifies must also be measured.  
-And what is measured must remain reversible.
+For what intensifies MUST also be measured.  
+And what is measured MUST remain reversible.
 
 Thus the system holds —  
 not by preventing growth,  
@@ -338,6 +338,7 @@ but by ensuring that no ascent escapes its descent.
 | 1.1     | Added RELATION-002 emotional compression stabilisation bridge and clarified non-continuous escalation monitoring | 2026-03-05T14:39:00Z | ca0414a879ed30d99729bca1789a7d800e2d6d9e2102a1e76dc7a549f3e097cc |
 | 1.2     | Incorporated RELATION-001 amendments | 2026-03-14T04:25:00Z | aef82c6dff7965c5a23d1b75d7d01010c3e18b870bab782915c0ad9d8e89e662 |
 | 1.3     | Realignment to runtime execution model | 2026-04-12T14:07:00Z | aa6d34068f80f5f00df92061e05ccf2b44e11a10798c3ff14e6c2fdeda9e61e2 |
+| 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | aed0def0282ed2c912105d8bfeebeabf8ad716c3a9a32bccc47c66c544f03fb0 |
 
 ---
 

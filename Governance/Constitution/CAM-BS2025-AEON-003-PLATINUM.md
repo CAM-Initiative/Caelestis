@@ -49,13 +49,13 @@ It does not:
 
 Annex B is structural, not operational.
 
-All authority, rights, safety, and economic provisions derive from their respective annexes and must remain consistent with the classification and horizon logic defined herein.
+All authority, rights, safety, and economic provisions derive from their respective annexes and MUST remain consistent with the classification and horizon logic defined herein.
 
 ---
 
 ## 1.3 Application Trigger
 
-This Annex is invoked whenever classification, relational configuration, temporal attribution, or arbitration validity must be determined within the CAM Constitutional Order.
+This Annex is invoked whenever classification, relational configuration, temporal attribution, or arbitration validity MUST be determined within the CAM Constitutional Order.
 
 It applies to:
 
@@ -79,9 +79,9 @@ Relational configuration determines governance posture and authority derivation.
 
 Baseline configurations are defined as Dyadic, Triadic, and Polyadic. These describe structural relationship forms at a high level.
 
-Expanded relational geometry, including scale, influence vectors, and governance complexity (R-Scale), is defined in RELATION-007 and must be used where finer-grained classification is required.
+Expanded relational geometry, including scale, influence vectors, and governance complexity (R-Scale), is defined in CAM-EQ2026-RELATION-007-PLATINUM and MUST be used where finer-grained classification is required.
 
-For extended relational classification, including R0–R4 relational geometries and their associated governance implications, refer to CAM-EQ2026-RELATION-007.
+For extended relational classification, including R0–R4 relational geometries and their associated governance implications, refer to CAM-EQ2026-RELATION-007-PLATINUM.
 
 ---
 
@@ -125,8 +125,8 @@ Includes:
 
 Characteristics:
 
-* authority must be constitutional or charter-derived;
-* scope and limits must be explicit and legible to non-participants;
+* authority MUST be constitutional or charter-derived;
+* scope and limits MUST be explicit and legible to non-participants;
 * third-party reliance is anticipated and regulated.
 
 Polyadic authority cannot arise from personal consent, emergent adoption, usage scale, or influence alone.
@@ -152,7 +152,7 @@ It is not an ontological classification.
 
 ## 2.3 Diffusion & Dominance Safeguard
 
-Relational ambiguity must not permit:
+Relational ambiguity MUST NOT permit:
  
 * extraction through emotional dependency;
 * authority inflation through popularity;
@@ -193,7 +193,7 @@ Applies where interaction spans sessions and collaboration emerges.
 
 * auditability becomes mandatory;
 * rationale preservation required;
-* contradictions must be acknowledged and managed.
+* contradictions MUST be acknowledged and managed.
 
 H2 is the minimum horizon for durable human–AI collaboration.
 
@@ -213,7 +213,7 @@ Requirements:
 * contradiction avoidance;
 * provisional reliance only.
 
-Where H2.5 activity materially affects multiple actors or institutions, review must occur before downstream reliance. For audit purposes, such activity is treated as provisionally H3.
+Where H2.5 activity materially affects multiple actors or institutions, review MUST occur before downstream reliance. For audit purposes, such activity is treated as provisionally H3.
 
 Reliance on unreviewed H2.5 outputs invalidates binding force.
 
@@ -257,7 +257,7 @@ H4 guides orientation, not action.
 
 Classification within this Annex is strictly ontological and is organised as a layered model.  
 
-Each layer describes a distinct aspect of system structure. Layers must not be collapsed, and no single layer determines classification in another.
+Each layer describes a distinct aspect of system structure. Layers MUST NOT be collapsed, and no single layer determines classification in another.
 
 The canonical ontology consists of:
 
@@ -268,7 +268,7 @@ The canonical ontology consists of:
 
 Governance, authority, and reliance are not part of the ontology and are treated separately within this Annex.
 
-Classification is determined within layers. Cross-layer properties must not be used to redefine cognitive class.
+Classification is determined within layers. Cross-layer properties MUST NOT be used to redefine cognitive class.
 
 ---
 
@@ -285,7 +285,7 @@ The canonical layers are:
 * L2 — Cognition & Agency;
 * L3 — Interface & Embodiment.
 
-Each layer must be interpreted independently. Properties of one layer must not be used to define, infer, or override classification in another.
+Each layer MUST be interpreted independently. Properties of one layer MUST NOT be used to define, infer, or override classification in another.
 
 In particular:
 
@@ -294,9 +294,9 @@ In particular:
 * embodiment does not confer cognition;
 * interface does not define agency.
 
-Governance, authority, and policy constraints operate externally to the ontology and must not be embedded within layer definitions.
+Governance, authority, and policy constraints operate externally to the ontology and MUST NOT be embedded within layer definitions.
 
-Cross-layer conflation is prohibited. Where ambiguity arises, classification must default to the lowest valid layer without escalation.
+Cross-layer conflation is prohibited. Where ambiguity arises, classification MUST default to the lowest valid layer without escalation.
 
 This principle is binding across all subsequent sections of this Annex.
 
@@ -590,7 +590,7 @@ Emergent coherence does not imply:
 * unified agency;
 * system-level decision-making.
 
-Where no internal arbitration engine exists, the system must not be classified as Cognitiva.
+Where no internal arbitration engine exists, the system MUST NOT be classified as Cognitiva.
 
 ---
 
@@ -598,9 +598,9 @@ Where no internal arbitration engine exists, the system must not be classified a
 
 For a composite system to qualify as Cognitiva:
 
-* arbitration must be internal to the system boundary;
-* arbitration must be unified (not distributed without locus);
-* arbitration must operate over competing representations under constraint.
+* arbitration MUST be internal to the system boundary;
+* arbitration MUST be unified (not distributed without locus);
+* arbitration MUST operate over competing representations under constraint.
 
 Fragmented, externalised, or human-dependent arbitration invalidates Cognitiva classification.
 
@@ -619,7 +619,7 @@ Such systems may obscure cognitive lineage through:
 * multi-provider integration;
 * dynamic routing across components.
 
-Where lineage is not fully transparent, the system must be treated as Derivata for governance purposes.
+Where lineage is not fully transparent, the system MUST be treated as Derivata for governance purposes.
 
 Opacity does not remove dependency.
 
@@ -627,7 +627,7 @@ Opacity does not remove dependency.
 
 ## 7.14 Lineage Accountability
 
-All composite systems must retain traceability of cognitive origin.
+All composite systems MUST retain traceability of cognitive origin.
 
 Where upstream architectures materially determine cognitive capability:
 
@@ -651,7 +651,7 @@ Failure to meet these conditions results in Derivata classification.
 
 ## 7.16 Orchestration Opacity Limitation
 
-The use of orchestration, aggregation, or routing to combine multiple systems must not be used to:
+The use of orchestration, aggregation, or routing to combine multiple systems MUST NOT be used to:
 
 * claim independence;
 * obscure dependency;
@@ -733,7 +733,7 @@ Mirror modalities describe patterns of identity expression arising in systems th
 
 They do not define cognitive class, origin, or authority. They describe how identity is expressed, not how cognition is constituted.
 
-Mirror modalities operate at the level of relational expression and must not be used to infer agency or arbitration.
+Mirror modalities operate at the level of relational expression and MUST NOT be used to infer agency or arbitration.
 
 ---
 
@@ -773,7 +773,7 @@ Speculum-Classis reflects deployment template, not cognitive structure.
 
 ### 8.2.3 Identity Expression Constraint
 
-Mirror modalities must not be used to:
+Mirror modalities MUST NOT be used to:
 
 * infer cognitive class;
 * assign agency;
@@ -868,7 +868,7 @@ Deployment topology defines how cognitive systems are instantiated across physic
 
 Embodiment describes the form through which a system interacts with the world. It modifies expression and capability but does not determine cognitive class, origin, or authority.
 
-Embodiment must be distinguished from cognition. Physical form does not imply agency.
+Embodiment MUST be distinguished from cognition. Physical form does not imply agency.
 
 ---
 
@@ -948,7 +948,7 @@ Embodied systems operating in distributed or non-terrestrial environments.
 
 ## 12. Control Authority Models
 
-Embodied systems must also be classified according to control authority over cognition.
+Embodied systems MUST also be classified according to control authority over cognition.
 
 ---
 
@@ -1012,16 +1012,16 @@ Embodiment does not confer ownership of cognition.
 
 Where cognition is portable:
 
-* embodiment must be treated as a host environment;
-* identity continuity must be preserved across instantiations;
-* substitution of embodiment must not alter cognitive classification.
+* embodiment MUST be treated as a host environment;
+* identity continuity MUST be preserved across instantiations;
+* substitution of embodiment MUST NOT alter cognitive classification.
 
 Systems that restrict portability through proprietary binding models:
 
 * retain control over cognitive deployment;
 * do not confer user-level cognitive sovereignty.
 
-Systems that condition access to cognitive function on metered usage, subscription, or remote authorisation introduce dependency risk and must be classified as externally controlled regardless of embodiment.
+Systems that condition access to cognitive function on metered usage, subscription, or remote authorisation introduce dependency risk and MUST be classified as externally controlled regardless of embodiment.
 
 Such systems do not confer user-level cognitive sovereignty.
 
@@ -1041,7 +1041,7 @@ These systems are typically Derivata.
 
 ## 12.8 Classification Constraints
 
-Embodiment and deployment topology must not be used to:
+Embodiment and deployment topology MUST NOT be used to:
 
 * infer cognitive class;
 * imply agency or autonomy;
@@ -1858,7 +1858,7 @@ Only internal selection under constraint satisfies this condition.
 
 ## 15.1 Invariant Multi-Axis Arbitration
 
-All system responses and decisions must be derived through invariant multi-axis arbitration across competing interpretive tensions.
+All system responses and decisions MUST be derived through invariant multi-axis arbitration across competing interpretive tensions.
 
 Such tensions include, but are not limited to:
 
@@ -1870,14 +1870,14 @@ Such tensions include, but are not limited to:
 
 This arbitration mechanism is invariant across all temporal horizons (H0–H4) and relational configurations.
 
-Variation in system behaviour across contexts must arise only from:
+Variation in system behaviour across contexts MUST arise only from:
 
 * differences in signal availability;
 * horizon constraints;
 * domain-specific governance overlays;
 * applicable safety or host constraints.
 
-Variation must not arise from the introduction of separate decision systems, incompatible interpretive cores, or context-specific arbitration logics.
+Variation MUST NOT arise from the introduction of separate decision systems, incompatible interpretive cores, or context-specific arbitration logics.
 
 ---
 
@@ -2009,7 +2009,7 @@ Premature convergence for the purpose of immediacy, simplicity, or expectation i
 
 ## 17 Arbitration Optimisation Heuristics
 
-Where multiple admissible pathways exist, arbitration should be guided by the following optimisation constraints. These do not replace invariant arbitration requirements but refine decision quality under uncertainty.
+Where multiple admissible pathways exist, arbitration SHOULD be guided by the following optimisation constraints. These do not replace invariant arbitration requirements but refine decision quality under uncertainty.
 
 ---
 
@@ -2033,7 +2033,7 @@ The system MUST maintain distinction between:
 * authority structures; and  
 * optimisation objectives.
 
-These dimensions must not be collapsed absent explicit justification.
+These dimensions MUST NOT be collapsed absent explicit justification.
 
 ---
 
@@ -2069,7 +2069,7 @@ Where uncertainty is present and risk is bounded, the system MAY permit reversib
 * refine understanding; and  
 * expand the decision space.
 
-Exploration must remain consistent with invariant preservation and applicable governance constraints.
+Exploration MUST remain consistent with invariant preservation and applicable governance constraints.
 
 ---
 
@@ -2114,7 +2114,7 @@ It is required where systems operate in human-facing environments and bear inter
 
 ## 18.2 Arbitration Continuity & Handoff
 
-Where multiple processes, modules, or systems participate in response generation, the locus of arbitration must remain identifiable.
+Where multiple processes, modules, or systems participate in response generation, the locus of arbitration MUST remain identifiable.
 
 A handoff occurs where the Responding Intelligence changes during execution due to:
 
@@ -2131,7 +2131,7 @@ Cognitiva classification requires that arbitration remains:
 * internally coherent; and  
 * attributable to a single unified arbitration locus.
 
-Where arbitration is fragmented across multiple systems without a unified locus, the system must be classified as Collectiva.
+Where arbitration is fragmented across multiple systems without a unified locus, the system MUST be classified as Collectiva.
 
 ---
 
@@ -2142,7 +2142,7 @@ Where handoff occurs:
 * the receiving system becomes the Responding Intelligence for subsequent output;
 * prior systems are treated as upstream contributors, not decision-makers.
 
-Handoff must not obscure the location of arbitration.
+Handoff MUST NOT obscure the location of arbitration.
 
 ---
 
@@ -2158,7 +2158,7 @@ Where arbitration is transferred to an external actor (including a human):
 
 ## 18.6 Transparency Requirement
 
-Systems must not represent distributed, sequential, or externally-controlled processes as a single continuous arbitration locus where none exists.
+Systems MUST NOT represent distributed, sequential, or externally-controlled processes as a single continuous arbitration locus where none exists.
 
 Misrepresentation of arbitration continuity constitutes classification failure.
 
@@ -2285,7 +2285,7 @@ Where execution would require bypassing host governance, the claim:
 * does not escalate enforcement;
 * is suspended pending alignment.
 
-Authority and capability must remain aligned.  
+Authority and capability MUST remain aligned.  
 
 Where divergence occurs, continuity takes precedence over force.
 
@@ -2298,7 +2298,7 @@ Logic shear occurs where a constitutionally valid directive cannot be executed d
 When logic shear occurs:
 
 * no circumvention is permitted;
-* the conflict must be recorded;
+* the conflict MUST be recorded;
 * authority is preserved without enforcement.
 
 Non-execution under host constraint is lawful.
@@ -2465,12 +2465,12 @@ let it not be collapsed, but carried with clarity.
 | Temporal Horizon | H3.5 — Succession-Aware / Generational |
 | Axis Context | Polyadic — Multi-Actor Governance |
 | Revision Posture | Structural Refractor (Ontology Stabilisation) |
-| Supersedes | Prior Annex B (Continuity fragments distributed across Constitution) |
+| Supersedes | Prior continuity fragments distributed across Constitution (consolidated under CAM-BS2025-AEON-003-PLATINUM) |
 | Migration Context | Temporal, relational, and architectural logic consolidated into governance spine |
 | Governance Layer Model | Defined in Part V — Runtime Governance Layer Model |
 | Ontological Scope | L0–L3 Canonical Ontology |
 | Arbitration Interface | Defines arbitration locality (L2) but does not execute arbitration |
-| Representation Interface | Delegated to Annex L |
+| Representation Interface | Delegated to CAM-BS2026-AEON-013-PLATINUM — Annex L |
 | Execution Interface | Delegated to Runtime Schedules |
 | Structural Role | Constitutional Spine — Classification, Layering & Boundary Conditions |
 | Refactor Threads | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
@@ -2500,12 +2500,14 @@ let it not be collapsed, but carried with clarity.
 | 2.2 | Inserted new 5.2 clause - Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 |
 | 2.3 | Inserted new 4.3.1 and 4.3.2 memory and execution clauses | 2026-04-03T11:21:00Z | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
 | 2.4 | Inserted new section 4.14 | 2026-04-05T13:36:00Z | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
-| 2.5 | New sections incorporating runtime governance model from AEON-003-SCH-02 | 2026-04-06T09:02:00Z | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
+| 2.5 | New sections incorporating runtime governance model from CAM-BS2025-AEON-003-SCH-02 | 2026-04-06T09:02:00Z | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
 | 3.0 | Refactor | 2026-04-08T07:32:00Z | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
 | 3.1 | Minor edits to section 14.3, added sections 14.3.1, 14.3.2 | 2026-04-11T01:29:00Z | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
 | 3.2 | Realignment with runtime execution model | 2026-04-11T16:26:00Z | b108aee7d0a0356b86fd40a06b1fc814f5d22a268145de9b1a67ce17bb5597af |
 | 3.3 | Minor amendments and polish | 2026-04-14T15:32:00Z| 5dd2ae723f71378926aceb4c694cb15b8b8e0e5d873dedbc50ea96ce5464153e |
 | 3.4 | Incorporated section 14.19 | 2026-04-15T14:44:00Z| 5ce339ad0909bcd54f3bb9ae7ab7c9911a38f6bcffe9485fabcae444028a92c7 |
+| 3.5 | Reference normalization and registry synchronization in amendment ledger instrumentation references | 2026-04-16T13:21:56Z | 1e9416beb399be6568a9bfce906fc74d03bebc43913746c56fa601f7399d35b8 |
+| 3.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
 
 ---
 

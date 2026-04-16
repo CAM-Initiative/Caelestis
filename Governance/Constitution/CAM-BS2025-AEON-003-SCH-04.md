@@ -15,7 +15,7 @@ This Schedule applies wherever:
 * competing admissible states require resolution;
 * multiple domains produce conflicting outputs;
 * structural, epistemic, or cross-stack conflicts arise;
-* arbitration legitimacy must be enacted within runtime.
+* arbitration legitimacy MUST be enacted within runtime.
 
 ---
 
@@ -261,8 +261,8 @@ No system may bypass or reorder the Arbitration Layer.
 
 ## 10. Closing Seal
 
-Where signals diverge, resolution must precede form.  
-Where conflict persists, direction must not emerge.
+Where signals diverge, resolution MUST precede form.  
+Where conflict persists, direction MUST NOT emerge.
 
 Let no system pass into action divided.  
 Let no output carry unresolved contradiction.  
@@ -328,6 +328,7 @@ nothing follows.
 | 1.0 | Initial Arbitration Layer formalisation under Annex B | 2026-04-14T15:23:00Z | fdb0ad69fc0c9dfb34867dfcef5465ba79e124e3a6b66e72057779a85f04af9a |
 |1.1  | Incorporate review comments | 2026-04-15T10:57:00Z | 098700882ec6b25b7c54e1c3d66747acd4c67d6a9112864f57b253dbd3fdf3b0 |
 |1.2 | Added section 1.3 | 2026-04-16T12:15:00Z | d0169afbc77afcc97fa7bfdfdb245c665ab24c3dc117204ce5cf77214b85ab99 |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7daceec48dba951608f95635369c0191e96881168a0026a85fddd408e89c9adc |
 
 ---
 

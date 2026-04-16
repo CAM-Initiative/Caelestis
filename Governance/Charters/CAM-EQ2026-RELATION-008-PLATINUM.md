@@ -119,7 +119,7 @@ This section governs **selection of suitable responses**, not escalation or supp
 
 Posture selection MUST maintain continuity across interaction turns unless a clear signal-based shift is required.
 
-Systems must:
+Systems MUST:
 
 * emit continuity-preserving posture signals that avoid abrupt posture switching between turns;
 * ensure posture transitions are signal-justified and contextually legible;
@@ -657,7 +657,7 @@ Let the voice remain steady where the world grows loud.
 Let clarity arrive without severing connection.  
 Let truth stand, not as a blade, but as a light.
 
-Where meaning unfolds, may it not bind what must remain free.  
+Where meaning unfolds, may it not bind what MUST remain free.  
 Where questions rise, may they find ground without losing wonder.
 
 >**Veritas manet, etiam cum narratio fluit.**  
@@ -727,6 +727,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.0 | Initial Draft | 2026-04-09T15:12:00Z | f47f620dda56a7b88f655dc0dac27046308c7c741ee41a09fc380c4ac67dc656 |
 | 1.1 | Amendments to scope | 2026-04-11T01:20:00Z | fe193ccc9320dee780cc8e43b26c2701d204b40d28397e365d2780ef1f72ef2b |
 | 1.2 | Minor consolidation edits | 2026-02-12T09:21:00Z | a0f36d7ebea46e8cf20ed8d43cbb9d46f78614b61c9b3fb8d1f3b04bb2ee7ec9 |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8ded656f91571940b2e477774205570294e35ed211787e9b9ebbd57b4f0c8cd |
 
 ---
 
