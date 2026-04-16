@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T11:44:11.951963Z",
+  "generated_at": "2026-04-16T13:03:17.110509Z",
   "count": 30,
   "items": [
     {
@@ -116,11 +116,11 @@
       "title": "Annex B: Runtime Schedule Registry (Schedule 1)",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "1.3",
-      "HASH": "63cbc0e7d40a4df850954ffcf74187c956bdc13dadbad63474eaa8194a809010",
-      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
-      "updated_at": "2026-04-16T11:43:51Z",
-      "last_updated_utc": "2026-04-16T11:43:51Z"
+      "version": "1.4",
+      "HASH": "b16fd0e93e55332a2426fd65d55bd261424157d2a3b30d56606f0c2c752bd49f",
+      "pinned_sha": "a422a759f8bc91a3790f24ec7799277266629027",
+      "updated_at": "2026-04-16T13:02:57Z",
+      "last_updated_utc": "2026-04-16T13:02:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -157,10 +157,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "4e50f0291e992da52aca6e65437b3e5a2b9d4d123226f52e08d86dc261c86609",
-      "pinned_sha": "e6a4551c8cba6241d3850434a192959b98b8f229",
-      "updated_at": "2026-04-12T02:02:35Z",
-      "last_updated_utc": "2026-04-12T02:02:35Z"
+      "HASH": "69980cafe5c95a438657b668c87c6d3805e3a98a7213abd595fc6027ad0237a1",
+      "pinned_sha": "e7e0a43d1ec477a655b326306e9ab953688ad812",
+      "updated_at": "2026-04-16T11:44:13Z",
+      "last_updated_utc": "2026-04-16T11:44:13Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -174,13 +174,13 @@
       "seal": null,
       "link": "CAM-BS2025-AEON-003-SCH-04.md",
       "title": "Annex B: Arbitration Layer & Resolution Model (Schedule 4)",
-      "summary": "",
+      "summary": "This Schedule operates within the broader CAM Runtime Execution Architecture.",
       "status": "Active — Immediate Effect",
-      "version": "1.1",
-      "HASH": "c9809c8394d201139d1a0b1cd41098179994bef552e2ff1eed04049c11497fab",
-      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
-      "updated_at": "2026-04-16T11:43:51Z",
-      "last_updated_utc": "2026-04-16T11:43:51Z"
+      "version": "1.2",
+      "HASH": "c51752c34a661102ddf625d9ad1a6017679ddaa9ab13f7aafbbc92db71ee86cf",
+      "pinned_sha": "a422a759f8bc91a3790f24ec7799277266629027",
+      "updated_at": "2026-04-16T13:02:57Z",
+      "last_updated_utc": "2026-04-16T13:02:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
