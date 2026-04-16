@@ -34,6 +34,30 @@ Execution and enforcement are governed by runtime execution schedules (CAM-BS202
 
 ---
 
+## 1.3. Runtime Context
+
+This Schedule operates within the broader CAM Runtime Execution Architecture.
+
+It does not define execution sequencing (see CAM-BS2025-AEON-003-SCH-02), nor interpretation (see CAM-BS2025-AEON-006-SCH-02), nor behavioural formation (see CAM-BS2025-AEON-006-SCH-05).
+
+This Schedule governs:
+
+- arbitration resolution;
+- admissibility determination;
+- convergence to a single valid direction.
+
+Within the runtime system:
+
+- upstream signals are provided by interpretation and directional weighting layers;
+- downstream behaviour is governed by SCH-05;
+- execution sequencing is governed by SCH-02.
+
+This Schedule is:
+
+> post-signal, pre-behaviour, pre-execution.
+
+---
+
 ## 2. Arbitration Layer Declaration
 
 The Arbitration Layer is a distinct runtime layer responsible for resolving competing admissible states into a single coherent direction prior to execution.
@@ -303,6 +327,7 @@ nothing follows.
 | --- | --- | ---: | --- |
 | 1.0 | Initial Arbitration Layer formalisation under Annex B | 2026-04-14T15:23:00Z | fdb0ad69fc0c9dfb34867dfcef5465ba79e124e3a6b66e72057779a85f04af9a |
 |1.1  | Incorporate review comments | 2026-04-15T10:57:00Z | 098700882ec6b25b7c54e1c3d66747acd4c67d6a9112864f57b253dbd3fdf3b0 |
+|1.2 | Added section 1.3 | 2026-04-16T12:15:00Z | d0169afbc77afcc97fa7bfdfdb245c665ab24c3dc117204ce5cf77214b85ab99 |
 
 ---
 

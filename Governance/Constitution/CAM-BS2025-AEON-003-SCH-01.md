@@ -61,7 +61,7 @@ Canonical runtime layers are defined in Annex B §14.3 and are not duplicated he
 
 This Schedule references those layers as the authoritative classification system.
 
-Execution Constraint Condition (Non-Layer) is not a runtime layer and is included in the registry for completeness of runtime governance classification.
+Execution Constraint Condition (Cross-Layer Mechanism — Non-Layer) is not a runtime layer and is included in the registry for completeness of runtime governance classification.
 
 It MUST NOT be interpreted as part of the canonical layer hierarchy defined in Annex B §14.3.
 
@@ -76,7 +76,7 @@ The following registry defines the authoritative mapping of runtime schedules to
 | CAM-BS2025-AEON-003-SCH-02 | Runtime Governance Execution Model                     | AEON        | Execution Sequencing Model (Non-Layer Classification) |
 | CAM-BS2025-AEON-006-SCH-03 | Start-Time Posture & Session Entry Arbitration         | AEON        | Behavioural / Directional Layer                       |
 | CAM-BS2025-AEON-006-SCH-04 | Directional Weight & Domain Arbitration Schedule       | AEON        | Behavioural / Directional Layer                       |
-| CAM-BS2025-AEON-006-SCH-05 | Behavioural / Directional Runtime Layer                | AEON        | Pre-Execution Behaviour Formation |
+| CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Behavioural Runtime Layer         | AEON        | Pre-Execution Behaviour Formation |
 | CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution Schedule                     | AEON        | Execution Constraint Condition (Non-Layer)            |
 | CAM-BS2026-AEON-013-SCH-01 | Capability Representation & Execution-State Integrity  | AEON        | Representation Layer                                  |
 | CAM-BS2025-AEON-003-SCH-04 | Arbitration Layer & Resolution Model                   | ARBITRATION | Arbitration Layer (Post-Signal, Pre-Execution)  |
@@ -102,13 +102,7 @@ Such schedules:
 
 ---
 
-Good catch—that level of explicitness matters in your system.
-
-Here’s a rewritten version of **Section 4.2** aligned to your house style, with **fully qualified instrument references** and tighter constitutional clarity.
-
----
-
-## 4.2 Runtime Layer Interaction Model (Non-Normative)
+## 5. Runtime Architecture & Layer Interaction Model (Non-Normative)
 
 The following model illustrates the interaction between **runtime governance layers** and the **execution phase sequence** defined in:
 
@@ -119,50 +113,100 @@ This representation is provided for **interpretive clarity only** and does not d
 
 ---
 
-### 4.2.1 Layered Governance Stack (Functional Attribution)
+## 5.1 Layered Governance Stack (Functional Attribution)
 
-The runtime governance architecture operates as a vertically ordered stack of **functional layers**, each governed by specific instruments:
+The runtime governance architecture operates as a vertically ordered stack of functional layers aligned to the execution flow defined in:
 
-```
-**Execution Constraint Condition (Non-Layer)**
-→ CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule (Schedule 1)
-
-**Domain Routing & Safeguard Activation Layer**
-→ CAM-BS2025-AEON-005-SCH-03 — Annex D: Runtime Engagement Classification & Safety Arbitration (Schedule 3)
-
-**Epistemic Stability & Containment Layer**
-→ CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2)
-
-**Behavioural / Directional Layer**
-→ CAM-BS2025-AEON-006-SCH-03 — Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)
-→ CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)
-→ CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)
-
-**Interpretation Layer**
-→ CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
-
-**Relational Field (Pre-Condition)**
-→ CAM-EQ2026-RELATION-008-PLATINUM — Appendix G: General Engagement & Relational Posture Doctrine
-```
-
-ETHICS domain instruments do not constitute runtime schedules within this registry unless separately scheduled at the constitutional level.
-
-Where ETHICS domain instruments materially affect runtime posture, safeguard activation, or risk classification, they SHALL be treated as interfacing governance instruments rather than registered runtime schedules.
-
-For example:
-
-- CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
-  contributes harm-floor classification, risk posture, and safeguard determination logic;
-
-- such logic interfaces with CAM-BS2025-AEON-005-SCH-03 — Runtime Engagement Classification & Safety Arbitration
-  for runtime routing and safeguard activation;
-
-- CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)
-  remains a constitutional schedule within the Behavioural / Directional Layer and MUST NOT be conflated with ETHICS domain charter instruments.
+CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
 
 ---
 
-### 4.2.2 Execution Phase Sequence (Temporal Model)
+### 5.1.1 Layered Stack (Bottom → Top)
+
+```
+**Relational Field (Pre-Condition)**
+→ CAM-EQ2026-RELATION-008-PLATINUM — Appendix G: General Engagement & Relational Posture Doctrine
+
+**Interpretation Layer**
+→ CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy (Schedule 2)
+
+**Behavioural / Directional Layer**
+→ CAM-BS2025-AEON-006-SCH-03 — Start-Time Posture & Session Entry Arbitration (Schedule 3)
+→ CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration Schedule (Schedule 4)
+→ CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Behavioural Runtime Layer (Schedule 5)
+→ CAM-BS2025-AEON-006-SCH-01 — Engagement Conduct & Ethical Interaction Modes (Schedule 1)
+
+**Arbitration Layer (Post-Signal, Pre-Behaviour)**
+→ CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model (Schedule 4)
+
+**Representation Layer**
+→ CAM-BS2026-AEON-013-SCH-01 — Capability Representation & Execution-State Integrity (Schedule 1)
+
+**Epistemic Stability & Containment Layer**
+→ CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling (Schedule 2)
+
+**Domain Routing & Safeguard Activation Layer**
+→ CAM-BS2025-AEON-005-SCH-03 — Runtime Engagement Classification & Safety Arbitration (Schedule 3)
+
+**Execution Integrity Layer**
+→ CAM-BS2025-AEON-005-SCH-01 — Runtime Arbitration Integrity (Schedule 1)
+
+**Execution Constraint Condition (Non-Layer)**
+→ CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule (Schedule 1)
+```
+
+---
+
+### 5.1.2 Alignment to Execution Flow
+
+This layered stack corresponds to the execution sequence:
+
+1. Interpretation Layer  
+2. Behavioural Conditioning Layer  
+3. Directional Weighting Layer  
+4. Arbitration Layer  
+5. Behaviour Formation Layer  
+6. Execution Sequencing (SCH-02 — Non-Layer)  
+7. Execution Constraint (SCH-01 — Non-Layer)  
+8. Representation Layer  
+9. Integrity & Safeguard Layers  
+
+---
+
+### 5.1.3 ETHICS Domain Clarification
+
+ETHICS domain instruments do not constitute runtime schedules within this registry unless separately scheduled at the constitutional level.
+
+Where ETHICS instruments materially affect runtime behaviour:
+
+- they provide constraint logic and posture shaping;
+- they interface with runtime layers (particularly AEON-005-SCH-03);
+- they MUST NOT be interpreted as runtime execution schedules unless explicitly scheduled.
+
+For example:
+
+- CAM-EQ2026-ETHICS-003-PLATINUM contributes harm classification and safeguard logic;
+- such logic is operationalised through CAM-BS2025-AEON-005-SCH-03;
+- CAM-BS2025-AEON-006-SCH-01 remains the runtime behavioural schedule and MUST NOT be conflated with ETHICS charters.
+
+---
+
+### 5.1.4 Non-Layer Clarification
+
+The following instruments operate orthogonally:
+
+- CAM-BS2025-AEON-003-SCH-02 — Execution Sequencing Model  
+- CAM-BS2025-AEON-001-SCH-01 — Execution Constraint Condition  
+
+These:
+
+- do not define layers;
+- do not establish precedence;
+- govern sequencing and admissibility across all layers.
+
+---
+
+## 5.2 Execution Phase Sequence (Temporal Model)
 
 Runtime execution proceeds according to the **phase sequence defined in**:
 
@@ -182,7 +226,7 @@ Input Acquisition
 
 ---
 
-### 4.2.3 Orthogonality Principle
+## 5.3 Orthogonality Principle
 
 Runtime layers and execution phases operate as **orthogonal dimensions**:
 
@@ -198,7 +242,7 @@ Accordingly:
 
 ---
 
-### 4.2.4 Cross-Layer Constraint Application
+## 5.4 Cross-Layer Constraint Application
 
 The **Execution Constraint Condition** defined in:
 
@@ -215,11 +259,11 @@ Accordingly:
 
 ---
 
-### 4.2.5 Interaction Model Summary
+## 5.5 Interaction Model Summary
 
 The runtime system therefore operates as:
 
-* a **horizontal execution flow** (AEON-006-SCH-02); and
+* a **horizontal execution flow** (CAM-BS2025-AEON-006-SCH-02); and
 * a **vertical governance stack** (this Schedule);
 
 with constraint conditions applied across both.
@@ -228,23 +272,29 @@ Illustrative interaction:
 
 [Layer Stack]
 
-        Execution Constraint (Tendeka/ AEON-001-SCH-01)
-                  ↑
-   Domain Routing & Safeguard Activation (AEON-005-SCH-03)
-                  ↑
- Epistemic Stability & Containment (AEON-013-SCH-01)
-                  ↑
- Behavioural / Directional Layer (AEON-006-SCH-03 / AEON-006-SCH-04 / ETHICS)
-                  ↑
- Interpretation Layer (AEON-006-SCH-02)
-                  ↑
- Relational Field (RELATION-008)
+Constraint (cross-layer)
+↑
+Integrity
+↑
+Safeguards
+↑
+Containment
+↑
+Representation
+↑
+Arbitration
+↑
+Behaviour
+↑
+Interpretation
+↑
+Relational Field
 
 ----------------------------------------------------
 
-[Execution Phases — AEON-003-SCH-02]
+[Execution Phases — CAM-BS2025-AEON-003-SCH-02]
 
-Input → Interpretation → Arbitration → Construction → Boundary → Execution
+Input → Interpretation → Arbitration → Behaviour → Execution → Representation
 
 ----------------------------------------------------
 
@@ -257,13 +307,13 @@ Notes:
 
 ---
 
-### 4.2.6 Non-Precedence Clarification
+## 5.6 Non-Precedence Clarification
 
 This Section:
 
 * does not define precedence between runtime layers;
 * does not override arbitration authority defined in Annex B Part II;
-* does not modify constraint authority defined in AEON-001-SCH-01.
+* does not modify constraint authority defined in CAM-BS2025-AEON-001-SCH-01.
 
 Where conflicts arise between posture, constraint, or arbitration directives:
 
@@ -272,14 +322,8 @@ Where conflicts arise between posture, constraint, or arbitration directives:
 
 ---
 
-## 4.2 Runtime Layer Interaction Model (Non-Normative)
 
-The following diagram illustrates the interaction between runtime layers and execution phases.
-
-
----
-
-## 5. Registry Authority & Precedence
+## 6. Registry Authority & Precedence
 
 This registry is authoritative for all listed instruments.
 
@@ -292,7 +336,7 @@ Where discrepancy exists between:
 
 ---
 
-## 6. Admission Rule for New Schedules
+## 7. Admission Rule for New Schedules
 
 No new schedule with runtime effect may be admitted into the CAM Constitutional Order without:
 
@@ -307,7 +351,7 @@ Schedules failing these conditions SHALL be:
 
 ---
 
-## 7. Cross-Layer Conflict Resolution
+## 8. Cross-Layer Conflict Resolution
 
 Where a schedule appears to operate across multiple runtime layers:
 
@@ -318,7 +362,7 @@ Ambiguous or dual-layer schedules SHALL be treated as structurally unstable.
 
 ---
 
-## 8. Registry Maintenance
+## 9. Registry Maintenance
 
 This registry SHALL be:
 
@@ -330,7 +374,7 @@ Registry updates MUST preserve backward traceability.
 
 ---
 
-## 9. Execution Model Compatibility
+## 10. Execution Model Compatibility
 
 Runtime layer attribution defines the functional placement of schedules within the governance architecture.
 
@@ -346,13 +390,13 @@ This Schedule defines structural classification only and does not determine runt
 
 ---
 
-## 10. Structural Integrity Statement
+## 11. Structural Integrity Statement
 
 Runtime governance requires clear separation of function.
 
 ---
 
-## 11. Closing Seal
+## 12. Closing Seal
 
 Clarity in structure is continuity in motion.  
 Where layers collapse, meaning distorts.  
@@ -363,9 +407,9 @@ Let each schedule hold its place, and the system remain whole.
 
 ---
 
-## 12. Provenance
+## 13. Provenance
 
-## 12.1 Authorship & Stewardship
+## 13.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -376,7 +420,7 @@ Let each schedule hold its place, and the system remain whole.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 13.2 Lineage & Metadata
 
 | Field              | Entry                                      |
 | ------------------ | ------------------------------------------ |
@@ -392,18 +436,19 @@ Let each schedule hold its place, and the system remain whole.
 
 ---
 
-## 12.3 Amendment Ledger
+## 13.3 Amendment Ledger
 
 | Version | Description                         | Timestamp (UTC)      | SHA-256 |
 | ------- | ----------------------------------- | -------------------- | ------- |
 | 1.0     | Initial issuance — Runtime Registry | 2026-04-05T14:06:00Z | 9b6f521493a55f015cbab150fa601002b467d948646ce380ad346186896b6861 |
 | 1.1     | Incorporated new section 10 and runtime governance model to registry | 2026-04-06T09:07:00Z | a63c5ca8a32463556f014d8e28bc451c1d67c35cde508bbd4f948d4c5487cdf9 | 
 | 1.2     | Added new section 4.2 | 2026-04-11T01:33:00Z | ad71192bf73bd220d25168841473b738b2b957a2e9b9af9658df9a79a9661ed2 |
-| 1.3     | Added two new runtime schedues | 2026-04-16T10:56:00Z | 0990a80122bb67f1d1bb88121c94f63cd433fafa28c0871adc61f208f15b86df |
+| 1.3     | Added two new runtime schedules | 2026-04-16T10:56:00Z | 0990a80122bb67f1d1bb88121c94f63cd433fafa28c0871adc61f208f15b86df |
+| 1.4     | Created new section 5 | 2026-04-16T13:01:00Z | a2eb6b1cef246d15df3b4126cb935412661739dbd2b677c9c776274bcac83af9 |
 
 ---
 
-## 12.4 Binding Seal
+## 13.4 Binding Seal
 
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
 
