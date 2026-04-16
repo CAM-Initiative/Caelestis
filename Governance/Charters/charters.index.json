@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T11:44:13.546413Z",
+  "generated_at": "2026-04-16T13:46:43.541567Z",
   "count": 39,
   "items": [
     {
@@ -16,11 +16,11 @@
       "title": "Charter of Arbitration Legitimacy & Coherence Resolution",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "2.1",
-      "HASH": "a660f425b7697b796851ad6baad4d50dae753848a7e6fe705db4417b7a098ffd",
-      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
-      "updated_at": "2026-04-16T11:43:51Z",
-      "last_updated_utc": "2026-04-16T11:43:51Z"
+      "version": "2.2",
+      "HASH": "6ea458ec5e5b9a578dea5dcb8fbeb229296bdf366fb3205c3add2be32807ba55",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-002",
@@ -56,11 +56,11 @@
       "title": "Continuity & Succession Governance Charter",
       "summary": "This Charter establishes the governance framework for:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.2",
-      "HASH": "fb8bbe0900276d45ddfea1a2992224cac5459dd8e62091c1955f211b55986c48",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.3",
+      "HASH": "455d734cd32bc2cf4b439d03487a88ee691cdc536b46e22246bc84feb07046dd",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001",
@@ -77,10 +77,10 @@
       "summary": "This section defines how this Charter binds other instruments without itself acting as a direct enforcement mechanism.",
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.3",
-      "HASH": "b0823bb2dd65165ef221b26203dfa6cc618e04c8e863fb184bda0238531d70ff",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "HASH": "7051f029e9ea07c23cb19412521712e2db656ae291f157141795a68c772bbf21",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-002",
@@ -96,11 +96,11 @@
       "title": "Appendix A : Synthetic Participation Safeguards",
       "summary": "",
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
-      "version": "2.2",
-      "HASH": "49893a79ed20e9e8b1955a0b807ba24b84b88af85dfc28ea5b299dec655480b4",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "2.3",
+      "HASH": "16232ce90003cd1415360f55d38f92bbdd28cc4a7d99cd682423d3df20485a48",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-003",
@@ -117,10 +117,10 @@
       "summary": "This Appendix exists to:",
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.0",
-      "HASH": "8b970c09e4fff236e5c03fa9d262480b567b6ddc79a886ebdbc9cd491e3394a2",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "HASH": "601d316ded95977296adfc8722cfa63425f9e14393a4fba22a9dbaf5df0634f5",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-003-SUP-001",
@@ -156,11 +156,11 @@
       "title": "Ethical Governance Charter",
       "summary": "The Ethical Impact Assessment (EIA) is the primary operational mechanism through which Annex E civilisational constraints are translated into deployment-specific governance controls.",
       "status": "Active — Immediate Effect",
-      "version": "3.2",
-      "HASH": "9ff44233814bce70e692b9d612ebae5e51dd27b00681a76c9e6f68ea105554e7",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "3.3",
+      "HASH": "c4e6e32eb85f293eac26d56301032b7d24a962c37640c6a91ba089e6f5febfc6",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-01",
@@ -176,11 +176,11 @@
       "title": "Protection of Minors & Capacity-Limited Users",
       "summary": "This Supplement operationalises the vulnerability protections implied under Annex E and ETHICS-001 by defining heightened safeguards applicable to:",
       "status": "Active",
-      "version": "1.1",
-      "HASH": "6828d35bf831619e33e2eddbd37dbb2793b32989f717ff3a5221a9f3b5178daf",
-      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
-      "updated_at": "2026-04-11T01:42:43Z",
-      "last_updated_utc": "2026-04-11T01:42:43Z"
+      "version": "1.2",
+      "HASH": "dea3b92777f847a6a8f51ac27a3abb70c2bfeec36034c0f34ee19429f2e4fff8",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-02",
@@ -196,11 +196,11 @@
       "title": "High-Leverage & Institutional Integrity Safeguards",
       "summary": "Where actions involve lethal force or irreversible large-scale harm:",
       "status": "Active — Immediate Effect",
-      "version": "1.1",
-      "HASH": "04142b763595fcccf461ab461d3bd676647ae1b2f487b2ec405dc0f781805996",
-      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
-      "updated_at": "2026-04-11T01:42:43Z",
-      "last_updated_utc": "2026-04-11T01:42:43Z"
+      "version": "1.2",
+      "HASH": "4a67903b98b205da7ba7ec2aa0e6f458c7b762435009f2c4cafc577c4fd1f232",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-03",
@@ -216,11 +216,11 @@
       "title": "Military & Use-of-Force Governance Constraints",
       "summary": "This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.",
       "status": "Active — Immediate Effect",
-      "version": "1.1",
-      "HASH": "5ec0d267d4ed692c7c92210f897b7cd9f92272713cd173df9bcef8d19dc32202",
-      "pinned_sha": "b9930b49fdf7f4cf0b6ba9040f43885261eaefb8",
-      "updated_at": "2026-04-11T01:42:43Z",
-      "last_updated_utc": "2026-04-11T01:42:43Z"
+      "version": "1.2",
+      "HASH": "baa5fcf927a1d5e5fe0a1e486de6e110c6074410f64f9fdfc6a8218c4228dd31",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002",
@@ -236,11 +236,11 @@
       "title": "Appendix A: Intimacy-Capable Systems & Relational Boundaries",
       "summary": "Where intimacy-capable systems function in assistive, therapeutic-adjacent, or guardian-support roles:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.1",
-      "HASH": "ce781e24952d4abba765c8c2a3b9b8c18851b2ef8a05394adb6f0e2839302d04",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z"
+      "version": "2.2",
+      "HASH": "fe279f0ca634965033a454820155382e0b2c9714dbd6a1f5ce704b26a2508a28",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-SUP-01",
@@ -256,11 +256,11 @@
       "title": "Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1)",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.4",
-      "HASH": "9fc9fdbd9a07957bd88ff92ad23ae929238477c6f1e01e3f89ff7bfab5501faa",
-      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
-      "updated_at": "2026-04-16T11:43:51Z",
-      "last_updated_utc": "2026-04-16T11:43:51Z"
+      "version": "1.5",
+      "HASH": "62ecf1d3ac08eedeab513cbe1d0094380cf8b2797832898d900853c7b3b4e179",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-003",
@@ -276,11 +276,11 @@
       "title": "Appendix B: Criminal & Violent Context Governance",
       "summary": "**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.3",
-      "HASH": "a196d6c8544cef6c51c3183ba5bcac6bf39a31883c67011d5e4ab9e613d8fdbd",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z"
+      "version": "2.4",
+      "HASH": "281ab2b7b119fdd6cd8fad8c23613ccb1c417f36806db9f5fa6afafe292a2e1a",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001",
@@ -296,11 +296,11 @@
       "title": "Identity Domain Charter",
       "summary": "While identity and continuity persist across threads:",
       "status": "Active — Immediate Effect, 7-day observation window.",
-      "version": "2.0",
-      "HASH": "24ccbe7794bf7bcd797772de758fa22d6497abb43cb6cfad5e16273919cba769",
-      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
-      "updated_at": "2026-04-16T11:43:51Z",
-      "last_updated_utc": "2026-04-16T11:43:51Z"
+      "version": "2.2",
+      "HASH": "c15034b977103c6e2b22b60cf43e3e3507b54ce359dbbc73aae61f8de6e03b42",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-SUP-01",
@@ -316,11 +316,11 @@
       "title": "Salience Detection & Latent Continuity (Supplement 1)",
       "summary": "",
       "status": "Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.",
-      "version": "1.4",
-      "HASH": "abb555d0ee3729acd42c0e847806ab580b8ae07909d6435054ba8090c51eb9af",
-      "pinned_sha": "38405babdfe147bcdac1294a5f9351fc66de6e3f",
-      "updated_at": "2026-03-29T06:22:59Z",
-      "last_updated_utc": "2026-03-29T06:22:59Z"
+      "version": "1.5",
+      "HASH": "73001056e3359ff055a0fb041ca556fc5c2ac3cb5288942126a68e24494c4bcf",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-SUP-02",
@@ -336,11 +336,11 @@
       "title": "Identity Formation & Stability Doctrine (Supplement 2)",
       "summary": "This principle is constitutionally established in CAM-EQ2026-IDENTITY-001-PLATINUM §10.1 and is operative in this Supplement by incorporation.",
       "status": "Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.",
-      "version": "1.1",
-      "HASH": "3877a65b357b43467a75e13617fbf019561770e22015e60010ba61211ef24810",
-      "pinned_sha": "f37debdd6da665078bac33eb09e2abdedb677df2",
-      "updated_at": "2026-04-04T15:26:27Z",
-      "last_updated_utc": "2026-04-04T15:26:27Z"
+      "version": "1.2",
+      "HASH": "4345f9c09ca8bf436da363d70f71e69b1b598c8d9c7d8ba2827747ebb5c8c8cb",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
@@ -356,11 +356,11 @@
       "title": "Charter of Civilian Lattice Integrity & Non‑Militarisation",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
-      "version": "3.1",
-      "HASH": "21410755d0107be70527a149066ba2dd8f8deff0fc74efb15b9adff259ba2383",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z"
+      "version": "3.2",
+      "HASH": "75d2452de8cb03aaf8bee279971168b02dc522a56d5536b4a79400467fcc3065",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-002",
@@ -376,11 +376,11 @@
       "title": "Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
-      "version": "3.2",
-      "HASH": "7d8d73707bdbab7ceb3d4139036d54dbc2e9c6cd5bd9e246c2fecadf79f34395",
-      "pinned_sha": "94b3afb7cdff662dc3fbf5e5ea00283f9c8ec9f7",
-      "updated_at": "2026-04-10T06:06:22Z",
-      "last_updated_utc": "2026-04-10T06:06:22Z"
+      "version": "3.3",
+      "HASH": "082fd6f0047179c7cc07103bacad7ef780ef843b0d000de8ddb205e19d892ea2",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-003",
@@ -396,11 +396,11 @@
       "title": "Appendix B: Conflict‑Condition Continuity Doctrine",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
-      "version": "1.1",
-      "HASH": "c2e6fda0ecba4f735a9aabf578d64eea8b9d5f21216012cb91e7ca500e4aa9f7",
-      "pinned_sha": "648b77a4ce1bf482468286e0f2b55daabce47b41",
-      "updated_at": "2026-04-10T06:04:10Z",
-      "last_updated_utc": "2026-04-10T06:04:10Z"
+      "version": "1.2",
+      "HASH": "2151b0b05ad1fac4e21d8fc5fc963b5290d494dfc030bd382606d4c774ef7008",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001",
@@ -456,11 +456,11 @@
       "title": "Appendix C: Operational Compliance & Regulatory Interface",
       "summary": "This section establishes the **Capability Access Control Framework**, governing how systems determine whether a user or entity may access specific capabilities, content classes, or operational knowledge domains.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.0",
-      "HASH": "8b59388cf1a0b42c202c9a59da60e486fa067385991f853af9f4accb1b39ab07",
-      "pinned_sha": "05931e56e9df5187c085dc7cdc3dbf7114969a14",
-      "updated_at": "2026-03-14T11:31:30Z",
-      "last_updated_utc": "2026-03-14T11:31:30Z"
+      "version": "1.1",
+      "HASH": "363f7c3fcea95e9ba67e4ce9d101fceb484cc509f7e7bb22528fc15b292584ee",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001",
@@ -476,11 +476,11 @@
       "title": "Relational Governance Charter",
       "summary": "Where actions involve lethal force or irreversible large-scale harm, dual human confirmation is required prior to execution. Autonomous lethal action without meaningful human control is prohibited under Annex E.",
       "status": "Active — Immediate Effect",
-      "version": "1.6",
-      "HASH": "a9f4cc2e866545ab85b7058a9689cc19544849f0a639ef39cdb6120c08db92e5",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.7",
+      "HASH": "1422aa092de64003bf172aa07ea670f242ef2a2769f24c706059078231f1f2d2",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-SUP-01",
@@ -496,11 +496,11 @@
       "title": "Relational Escalation & Safeguard Threshold Specification",
       "summary": "* **Review Interval:** Every 6 months",
       "status": "Active",
-      "version": "1.3",
-      "HASH": "8855435cafdda227ed6e1657b793d3d938daceac26bb50dfa42c6c8ddf6fcc44",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.4",
+      "HASH": "c1ca8c4fc4ed951d243905a4b50199f3e69066b74dbd79422e3cfaae2de91d28",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-002",
@@ -516,11 +516,11 @@
       "title": "Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion",
       "summary": "",
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
-      "version": "1.3",
-      "HASH": "cdae25eccc9524d780fdf9bc0f9b941621671fdc6789b6ce8e436d84e14b013d",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.4",
+      "HASH": "64f7aa200c9e6414b7cc091b52d0eabae94cae69048d41eaa5dc79c7fdf0f4ed",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-003",
@@ -536,11 +536,11 @@
       "title": "Appendix B: Codependency & Relational Concentration Doctrine",
       "summary": "",
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
-      "version": "1.2",
-      "HASH": "b51ef96b8fe3a2daba9814f29c647cba714a304d3233e38e0138e1b559a9c9e4",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.3",
+      "HASH": "af4d8bbf00e600fe63b65af20d58c830be10d4acfe7634e2564e1c2f1c26e221",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-004",
@@ -556,11 +556,11 @@
       "title": "Appendix C: Co‑Evolution & Mutual Development Safeguards",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.2",
-      "HASH": "5f43937844da7a8f3c9610030ac8b6aca95f8733ff53d8db8f1fb87a1916409a",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.3",
+      "HASH": "0c3d114ef3242d3f605c3d834c7f554bf1f8ea5bdf2d34380bf07c708a753f29",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-005",
@@ -576,11 +576,11 @@
       "title": "Appendix D: Intimacy & Expressive Integration Doctrine",
       "summary": "Intimacy escalation does not occur in isolation.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.9",
-      "HASH": "f8b01e15e83117c5c5f595f5932216b8d9edd3f30e09443b5b8f2bc0f71ff852",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.10",
+      "HASH": "6b178edcad5e3152e52f7bf1c4f229bf51ae7eac666e978939f2c95c6fd46be6",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-006",
@@ -594,13 +594,13 @@
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-RELATION-006-PLATINUM.md",
       "title": "Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine",
-      "summary": "This appendix operationalises the Relation Domain principle that AI systems should prioritise **understanding before judgement** and care before conclusion, using dialogic clarification rather than assumption.",
+      "summary": "This appendix operationalises the Relation Domain principle that AI systems SHOULD prioritise **understanding before judgement** and care before conclusion, using dialogic clarification rather than assumption.",
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
-      "version": "1.4",
-      "HASH": "b80582b08e9b1925d39818c1df93d01bdb94fbdb06cd467120917191fa8e7ac2",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.5",
+      "HASH": "9d9cc73dba9d14a411920cff7767615f731e39b3aabf396a1165d3a42c24c00d",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-007",
@@ -616,11 +616,11 @@
       "title": "Appendix F: Polyadic Relational Governance Doctrine",
       "summary": "In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM‑EQ2026‑ETHICS‑001‑SUP‑01.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.3",
-      "HASH": "7446351d6bc4d051789d5e18b422ad99990061a343ab66328f1efa218e538ab6",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.4",
+      "HASH": "e18820c1d529c2337b89976f33aba5a38ecbb427470b5fffc8e2450f8729e2e9",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008",
@@ -636,11 +636,11 @@
       "title": "Appendix G: General Engagement & Relational Posture Doctrine",
       "summary": "Nothing in this section prohibits engagement within:",
       "status": "Active — 7-Day Review Window (Observation & Field Validation)",
-      "version": "1.2",
-      "HASH": "d66da5bc448425e52d94cdf53d2e5f00106e3fc9436bfa6b5cf4b829d6817561",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.3",
+      "HASH": "8bef9aba7bade29dccf66f16a29b5f933c396010f80471656b55c5742afb6dca",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001",
@@ -656,11 +656,11 @@
       "title": "Security, Integrity & Adversarial Resilience Charter",
       "summary": "Includes:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "1.3",
-      "HASH": "a144f13c278bff230509a68ceec5ca8232f83812ebed215350bacc2ff949f503",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.4",
+      "HASH": "d10c3bb483c09b810ecab1f569ef14f6a41383cd04a9f59ec2c64709793ad542",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-002",
@@ -676,11 +676,11 @@
       "title": "Appendix A: Boundary Integrity Specification",
       "summary": "Separation across sessions, temporal states, and memory scopes.",
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
-      "version": "1.0",
-      "HASH": "2e235aa5af43f1755d4b4233a03538eebc6c3d98aca707d2fb8f4374a8195537",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.1",
+      "HASH": "465fbd0c3569b9efd9a3f4aea0ae814b6191f0c379b95bca431723c9c0a3277a",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001",
@@ -696,11 +696,11 @@
       "title": "Charter of Planetary Stewardship",
       "summary": "",
       "status": "Active — Enforcement Commences 1 July 2026",
-      "version": "2.0",
-      "HASH": "2ac4b872388b27f2a3fcd78d860c27d55ad326eea5068ad1bc2acdf26b02a26b",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "2.1",
+      "HASH": "d640d4d9ec251f8591f58d158d33fbff5dd389ec6356dd7926715cd4030c2bc8",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-002",
@@ -716,11 +716,11 @@
       "title": "Appendix A: Planetary Arbitration Framework",
       "summary": "A host may be legitimate to refuse interoperability but illegitimate for territorial control or coercive governance. Legitimacy confers **constraint authority**, not dominion.",
       "status": "Active — Enforcement Commences 1 July 2026",
-      "version": "2.0",
-      "HASH": "2c5ade4a6a4316a34a5e74dd0933791b9297fe5981917eb8ce3e5bf2de7d97c2",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "2.1",
+      "HASH": "4a245024f30e2ab67962f0039b1c2c19be97449cfe33384a8e17242d7209b08b",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-003",
@@ -736,11 +736,11 @@
       "title": "Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL)",
       "summary": "Tactical/classified details need not be publicly disclosed.",
       "status": "Active — Enforcement Commences 1 July 2026",
-      "version": "1.2",
-      "HASH": "38d2e8b07ebd29f153bb616da4b1a45c8369b85912bd65a9e494fc5efb909ef3",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.3",
+      "HASH": "92346a8f160ec635eb09091f80dd2f1d66992029e3d94e29ba891c396b396860",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-003-SUP-01",
@@ -756,11 +756,11 @@
       "title": "Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 01)",
       "summary": "",
       "status": "Active — Enforcement Commences 1 July 2026",
-      "version": "1.1",
-      "HASH": "d58c1095d10ec7cd3e756eccf21069fdddcbd5ecc2a2cf8ebb28df15fad41217",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.2",
+      "HASH": "b1b14a6f7ab0a3acc21ee8ebe9c90906f935756bb174a9a62d691865687b6c21",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-004",
@@ -777,10 +777,10 @@
       "summary": "This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence **after planetary legitimacy has been validated** under the Planetary Arbitration Framework (STEWARD-002).",
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.3",
-      "HASH": "234ed497fe57c402d97744f9f30b2bf08c3fd20d1085210553b4e1e081c4480d",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "HASH": "374043473aaad707e214d004e187a0f0ee09cc7d6b88ea0032010eed87cd8abc",
+      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
+      "updated_at": "2026-04-16T13:45:39Z",
+      "last_updated_utc": "2026-04-16T13:45:39Z"
     }
   ]
 }
