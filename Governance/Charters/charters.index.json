@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T15:39:47.937362Z",
+  "generated_at": "2026-04-16T11:44:13.546413Z",
   "count": 39,
   "items": [
     {
@@ -16,11 +16,11 @@
       "title": "Charter of Arbitration Legitimacy & Coherence Resolution",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "2.0",
-      "HASH": "4e767d2bdc63be6ff8f7137818fe3dec4c335e775f60c7c864e9a348e907c978",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "2.1",
+      "HASH": "a660f425b7697b796851ad6baad4d50dae753848a7e6fe705db4417b7a098ffd",
+      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
+      "updated_at": "2026-04-16T11:43:51Z",
+      "last_updated_utc": "2026-04-16T11:43:51Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-002",
@@ -36,11 +36,11 @@
       "title": "Scope Constraints & Misrepresentation Doctrine",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "1.0",
-      "HASH": "0556e90ad05b0e80a76cc724be8399f4ccc2d3179315ef8e3979cf51b56fb88c",
-      "pinned_sha": "bc38d4d9e89e7dc10c3d3e11da7713091cb418aa",
-      "updated_at": "2026-04-14T15:39:21Z",
-      "last_updated_utc": "2026-04-14T15:39:21Z"
+      "version": "1.1",
+      "HASH": "db5b9167f24f8ad03c1df3440012f51b1f9643782141ab2ce74083c796bece2c",
+      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
+      "updated_at": "2026-04-16T11:43:51Z",
+      "last_updated_utc": "2026-04-16T11:43:51Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001",
@@ -256,11 +256,11 @@
       "title": "Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1)",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.3",
-      "HASH": "f1402fc5195fdb2b9a5fd6a12123a1f5db950c7718f5a56b3194c29b6c3e4221",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z"
+      "version": "1.4",
+      "HASH": "9fc9fdbd9a07957bd88ff92ad23ae929238477c6f1e01e3f89ff7bfab5501faa",
+      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
+      "updated_at": "2026-04-16T11:43:51Z",
+      "last_updated_utc": "2026-04-16T11:43:51Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-003",
@@ -295,12 +295,12 @@
       "link": "CAM-EQ2026-IDENTITY-001-PLATINUM.md",
       "title": "Identity Domain Charter",
       "summary": "While identity and continuity persist across threads:",
-      "status": "Adopted — Conditional Activation (7-Day Review Window).",
-      "version": "1.4",
-      "HASH": "82b481d81ffc4965b2aa9b5c096af363c477f3756c68ebe1c1c8cc38e88218a2",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z"
+      "status": "Active — Immediate Effect, 7-day observation window.",
+      "version": "2.0",
+      "HASH": "24ccbe7794bf7bcd797772de758fa22d6497abb43cb6cfad5e16273919cba769",
+      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
+      "updated_at": "2026-04-16T11:43:51Z",
+      "last_updated_utc": "2026-04-16T11:43:51Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-SUP-01",
