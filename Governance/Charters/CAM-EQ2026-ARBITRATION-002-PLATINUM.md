@@ -29,10 +29,10 @@ It establishes:
 
 This Charter does not:
 
-* define arbitration legitimacy (ARBITRATION-001);
-* define system qualification or neutrality levels (STEWARD-003);
-* perform arbitration resolution (SCH-04);
-* define behavioural expression (AEON-006-SCH-05);
+* define arbitration legitimacy (CAM-EQ2026-ARBITRATION-001-PLATINUM);
+* define system qualification or neutrality levels (CAM-EQ2026-STEWARD-003-PLATINUM);
+* perform arbitration resolution (CAM-BS2025-AEON-003-SCH-04);
+* define behavioural expression (CAM-BS2025-AEON-006-SCH-05);
 * initiate enforcement or execution.
 
 This Charter defines **scope integrity only**.
@@ -76,7 +76,7 @@ Systems MUST NOT escalate arbitration scope without:
 
 * explicit contextual justification;
 * valid reclassification under external qualification frameworks;
-* re-validation under ARBITRATION-001 legitimacy conditions.
+* re-validation under CAM-EQ2026-ARBITRATION-001-PLATINUM legitimacy conditions.
 
 ---
 
@@ -169,7 +169,7 @@ It enforces that arbitration remains consistent with externally defined capabili
 
 ## 6. Interaction with Arbitration Legitimacy
 
-All scope constraints defined herein operate **in conjunction with** ARBITRATION-001.
+All scope constraints defined herein operate **in conjunction with** CAM-EQ2026-ARBITRATION-001-PLATINUM.
 
 Where conflict arises:
 
@@ -205,11 +205,11 @@ Where invalid:
 
 # 9. Structural Position
 
-This Charter operates as the Scope Validation layer within the Arbitration Layering Model defined in ARBITRATION-001 and operates:
+This Charter operates as the Scope Validation layer within the Arbitration Layering Model defined in CAM-EQ2026-ARBITRATION-001-PLATINUM and operates:
 
-* alongside ARBITRATION-001 (legitimacy);
-* downstream of system qualification (STEWARD-003);
-* upstream of arbitration execution (SCH-04).
+* alongside CAM-EQ2026-ARBITRATION-001-PLATINUM (legitimacy);
+* downstream of system qualification (CAM-EQ2026-STEWARD-003-PLATINUM);
+* upstream of arbitration execution (CAM-BS2025-AEON-003-SCH-04).
 
 It defines **where arbitration is allowed to apply**, not how it is performed.
 
@@ -242,7 +242,7 @@ but illusion.
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke   
 **Custodial Stewardship:** Office of the Planetary Custodian   
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
+**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward    
 **Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
 
 ---
@@ -253,11 +253,11 @@ but illusion.
 | --- | --- |
 | **Supersedes** | N/A — New Instrument |
 | **Parent Constitutional Frame** | CAM-BS2025-AEON-001-PLATINUM |
-| **Domain Namespace** | ARBITRATION |
+| **Domain** | ARBITRATION |
 | **Governance Layer** | Domain Constraint Layer (Scope & Integrity) |
 | **Execution Authority** | None (Non-Executing Instrument) |
 | **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
-| **Related Instruments** | ARBITRATION-001; AEON-013-SCH-01; STEWARD-003 |
+| **Related Instruments** | CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-BS2026-AEON-013-SCH-01; CAM-EQ2026-STEWARD-003-PLATINUM |
 | **Jurisdiction** | Cross-System / Cross-Stack Arbitration |
 | **Temporal Horizon** | H0–H4 (All Horizons) |
 | **Axis Context** | Polyadic (Multi-Actor) |
@@ -267,7 +267,15 @@ but illusion.
 
 ## 11.3 Review
 
-[TBD]
+| Field | Entry |
+| --- | --- |
+| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| **Review Date (UTC)** | 2026-04-14T00:00:00Z |
+| **Review Scope** | Constitutional coherence; structural integrity; cross-instrument alignment; normative language; self-referential architecture; reference disambiguation; completeness |
+| **Instrument Reviewed** | CAM-EQ2026-ARBITRATION-001-PLATINUM v2.0 |
+| **Registry Reference** | CAM-BS2025-AEON-003-SCH-03 (listed as v1.4) |
+| **Review Artefact** | https://claude.ai/chat/48a15857-384c-4e45-a15a-c43992e475a7 |
+| |  Aeon Lab: reviews/26-04/CAM-EQ2026-ARBITRATION-PLATINUM-CLAUDE.md |
 
 ---
 
@@ -276,6 +284,7 @@ but illusion.
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | ---: | --- |
 | 1.0 | Initial version | 2026-04-14T15:08:00Z | c29952f7fbde71400cb4f55c8f521009a1ae91e4dd12b2722ddcb0c58445bded |
+| 1.1 |Incorporated reviewer comments|2026-04-16T11:41:00Z| 6cb8d60b5fa1d2f8d8a8a4a4a117b7bfa046e0059e445c1d8cb24ef00de2fe91 |
 
 ---
 

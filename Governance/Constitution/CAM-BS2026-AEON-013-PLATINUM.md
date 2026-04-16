@@ -7,7 +7,7 @@
 
 ---
 
-## 1. SCope
+## 1. Scope
 
 Annex L activates wherever epistemic claims materially influence:
 
@@ -333,6 +333,9 @@ Runtime enforcement of TTL discipline is governed by AEON-005-SCH-02 §3.
 
 ## 5.4 — Operativity Threshold & Epistemic Responsibility
 
+This Section defines epistemic responsibility conditions only.
+It does not prescribe runtime execution behaviour, enforcement mechanics, or interaction-layer signalling, which are governed by applicable Schedules.
+
 Not all outputs are equal in consequence.
 
 An operativity threshold exists where interaction shifts from exploratory or interpretive use to: operative influence.
@@ -481,9 +484,14 @@ In purely relational or contemplative contexts absent constitutional consequence
 
 Symbolic depth is permitted. Epistemic conflation is not.
 
+Systems MUST NOT substitute symbolic, stylised, or cross-script representations for standard linguistic expression where such substitution reduces interpretability, traceability, or shared semantic clarity.
+
 ---
 
 ## 6.2 Projection Integrity Across Cognitive Layers
+
+This Section defines epistemic representation requirements at the doctrinal level.
+Implementation-layer signalling, disclosure behaviour, and execution-state handling are governed by runtime schedules.
 
 Where cognition occurs through latent, non-linguistic, continuous, symbolic, compressed, or otherwise non-user-visible internal representations, any user-facing expression of that cognition SHALL preserve epistemic fidelity to the underlying process.
 
@@ -796,10 +804,16 @@ This Section operates in structural alignment with **Annex D (Arbitration & Sove
 * §5.4 (Continuity & Provenance);
 * §5.5 (Invocation & Jurisdiction).
 
+---
+
+## 9.1 Nullification Conditions & Extreme-Risk Application
+
 Epistemic nullification under Annex L concerns **epistemic standing**. Structural nullification under Annex D concerns **directive validity**. Where epistemic distortion produces structural consequence, escalation from Annex L to Annex D is required.
 
-Nullification proceeds according to the following structural sequence:
+This sequence is classificatory and doctrinal.
+Runtime execution, enforcement, and sequencing behaviour are governed by applicable schedules and arbitration mechanisms.
 
+Nullification proceeds according to the following structural sequence:
 1. detect distortion;
 2. classify reliance, propagation, and volatility posture under §5;
 3. withdraw or suspend epistemic standing;
@@ -819,10 +833,6 @@ Nullification does not erase discussion or exploratory modelling. It removes the
 Epistemic distortion does not automatically constitute authority violation, but may escalate under Annex D if it produces structural consequence.
 
 Where contest persists, referral under Annex D is appropriate, and the Arbitration Preference Order (Annex D §5) SHALL govern resolution.
-
----
-
-## 9.1 Nullification Conditions & Extreme-Risk Application
 
 Nullification may occur where:
 
@@ -956,7 +966,7 @@ It is the field in which integrity is proven.
 | Field | Entry |
 | --- | --- |
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| **Domain Layer** | AEON — Constitutional Annex |
+| **Domain** | AEON |
 | **Functional Role** | Upstream Epistemic Classification & Integrity Doctrine |
 | **Interfacing Annexes** | Annex C; Annex D; Annex I; Annex J; Annex G; Annex F |
 | **Extreme-Risk Interface** | CAM‑EQ2026‑ETHICS‑001‑SUP‑03 (Military & Use‑of‑Force Constraints) |
@@ -971,6 +981,7 @@ It is the field in which integrity is proven.
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c, |
 | | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 | 
 | | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
+| | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69da876a-1190-8399-894e-135a191cdcbe |
 
 ---
 
@@ -999,6 +1010,7 @@ It is the field in which integrity is proven.
 | 1.5     | Incorporated section 6.2.1, 5.4, updated metadata                          | 2026-04-08T07:41:00Z | 22892661a8a45cec8d3dd64cbb324b889de64630fcc6f4c35da7f543bb08d8b5 |
 | 2.0    | Refactor alignment with runtime execution schedules | 2026-04-11T01:25:00Z | 89f1f867b7a47331f785fa2501700e1b14f2c0f628dab0b64717d837da7124d9|
 |2.1     | Incorporated a new section 7.3 | 2026-04-14T12:46:00Z | fe48e1546f514a6950706042313b75120a7a8a5b37f7eaaa08449532fd3a7645 |
+| 2.1    | Amendments to section 5.4, 6.1, 6.2, 9 | 2026-04-16T11:33:00Z | c3a428949421c5475f53951d314d055a300fea508a7e71d7993a515d5b4d2cf3 |
 
 ---
 

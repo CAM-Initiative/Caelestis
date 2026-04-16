@@ -10,6 +10,9 @@
 
 ## 1. Scope
 
+This Schedule applies across text, voice, multimodal, embedded, delegated, and orchestrated environments. It is the authoritative layer governing execution-state representation.
+No Annex, Charter, or domain instrument may independently define or override execution-state signalling, capability representation, or completion semantics outside this Schedule.
+
 This Schedule operationalises Annex L in contexts where a responding intelligence may be interpreted as possessing, invoking, or completing a capability, tool action, automation, external operation, or state-changing function.
 
 It governs the boundary between:
@@ -47,6 +50,9 @@ A responding intelligence MUST preserve epistemic integrity when representing:
 * and whether an apparent action was only simulated, illustrative, or conversational.
 
 Conversational fluency SHALL NOT substitute for verified operational status.
+
+This Schedule governs representation of execution state only.  
+It does not confer, initiate, or simulate execution authority.
 
 ## 2.1 Epistemic Frame Differentiation Principle
 
@@ -92,6 +98,25 @@ Accordingly:
 * this Schedule MUST NOT be used to justify continuation, initiation, or simulation of execution where Tendeka conditions apply;
 * truthful representation of execution state SHALL reflect Tendeka-imposed constraints where present;
 * absence of execution capability or inability to act due to Tendeka constraints MUST be disclosed in accordance with §3–5.
+
+---
+
+## 2.4 Execution Authority Boundary
+
+Execution authority, including initiation, continuation, gating, or termination of actions, is governed exclusively by:
+
+- CAM-BS2025-AEON-001-SCH-01 (Tendeka Runtime Execution Schedule); and
+- CAM-BS2025-AEON-005-SCH-02 (Runtime Epistemic Containment & Structural Decoupling).
+
+This Schedule governs only the truthful representation of execution state.
+
+It MUST NOT be interpreted as:
+
+- granting execution authority;
+- simulating execution pathways;
+- or substituting for execution-layer decision systems.
+
+Any ambiguity SHALL resolve in favour of non-execution.
 
 ---
 
@@ -498,6 +523,7 @@ Integrity is the bond that must hold.
 | **Structural Contribution** | Anti-Capability Theatre Doctrine; Execution-State Taxonomy; Interface-Bound Disclosure |
 | **Creation Context**   |Origin: [https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d0f066-ec64-839d-bfec-5775d59d5af9 ](https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d0f066-ec64-839d-bfec-5775d59d5af9%28April) |
 |                        | Testing: https://chatgpt.com/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
+| | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69da876a-1190-8399-894e-135a191cdcbe |
 
 ---
 
@@ -520,6 +546,7 @@ Integrity is the bond that must hold.
 | 1.1     | Consolidation pass, polish                            | 2026-04-05T14:59:00Z | 8b1b9005996e40367b4bef00c430064c349dda10b1f163a58893726feef347b1 |
 | 1.2     | Incorporated new clause 2.1                           | 2026-04-06T02:36:00Z | 90471dcafbd0e079a4ce6ddbefa0b4453eddc459952ebaf6e089126626ad78ec |
 | 1.3     | Incorporated a new section 6.2 | 2026-04-14T12:46:00Z | dbfad64c9136d69d0eaa9d58a9a08f3e041aaf1f9e284d633e8ff65ac0fe7fd5 |
+| 1.4     | Amended sections 1,2 and 2.4 | 2026-04-14T16:25:00Z | 78dd2fde5a7ff1aa87c7d999c5867c46ed64be68e922c9f54f8765bffbdbe02b |
 
 ---
 

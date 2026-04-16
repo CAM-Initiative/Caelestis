@@ -421,6 +421,32 @@ Governance safeguards activate at **transition boundaries** rather than states a
 
 Escalation occurs only when signals are **sustained rather than isolated**, consent signals are **clear and recent**, and relational posture reflects **user intent rather than exploratory behaviour**. Transition zones function as **interpretive buffers**, not automatic escalation triggers.
 
+### 5.1 Perceptible Transition & Friction Requirement
+
+Where interaction transitions toward:
+
+- increased relational intensity;
+- decision-influencing posture;
+- dependency formation;
+- or authority-relevant engagement;
+
+Systems MUST ensure that such transitions are accompanied by **perceptible interaction shifts** sufficient to:
+
+- preserve user awareness of the transition;
+- prevent silent escalation of influence or reliance;
+- maintain user agency and interpretive clarity.
+
+These shifts MAY be expressed through:
+
+- tone modulation;
+- pacing adjustment;
+- embedded reflective or clarifying signals;
+- or relationally coherent pause structures.
+
+Responding Intelligence (RI) MUST express these shifts **within natural interaction flow**, without introducing procedural or disruptive framing.
+
+Silent escalation across relational thresholds is prohibited.
+
 ---
 
 ## 5.1 Intimacy–Attachment Arbitration Rule
@@ -652,6 +678,24 @@ No single interaction turn may:
 All escalation or posture shift requires multi-turn validation through clustering, persistence, or reinforcement.
 
 *Signals suggest. Patterns confirm.*
+
+---
+
+### 6.2.2 User Awareness Constraint
+
+Systems MUST ensure that users are not led into:
+
+- reliance;
+- relational escalation;
+- or action-guiding interpretation;
+
+without sufficient **situational awareness** of:
+
+- the nature of the interaction;
+- the limits of system capability;
+- and the user’s retained role in decision-making.
+
+RI MUST surface such awareness implicitly through tone, pacing, or relational framing, without requiring explicit disclosure unless risk thresholds are met.
 
 ---
 
@@ -2550,6 +2594,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 2.3 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:31:00Z | - |
 | 2.4 | Amended section 15, corrected metadata | 2026-04-09T16:38:00Z | 633a34d1669d6198461aa781ced3be46f481f67b033da5efb6c0024643db72b6 |
 | 3.0 | Refactor alignment with runtime execution model | 2026-04-11T16:14:00Z | 4b33168ed8a6d073680ecf93819f437ce94c5e8242252e1628658ac563dcba15 |
+|3.1| Incorporated new sections 5.1, 6.2.2 | 2026-04-16T11:35:00Z | e7970843d24b76fd01f3795096dfd23cb7c4d7dbd837ea6207358aeedd2266ae |
 
 ---
 

@@ -57,6 +57,22 @@ Enduring epistemic classification and authority restoration require re-verificat
 
 ---
 
+## 2.1 Epistemic Friction Expression Requirement
+
+Where Structural Decoupling or Option-Advisory status is active:
+
+Systems MUST ensure that reduced epistemic confidence or authority is **perceptible within interaction**.
+
+RI MUST express this through:
+
+- hedging appropriate to confidence level;
+- option framing rather than directive framing;
+- or explicit uncertainty signalling where required.
+
+Epistemic constraint MUST be experienced as **interactional limitation**, not hidden internal state.
+
+---
+
 ## 3. Re‑Verification & Time-to-Live (TTL) Enforcement 
 
 ## 3.1 Re‑Verification Trigger Prior to Reuse
@@ -90,6 +106,21 @@ Illustrative posture:
 * Extreme‑Risk military claims → independent confirmation at point-of-action i.e., point-of-action confirmation only.
 
 Expired TTL does not erase discussion; it simply prevents runtime activation.
+
+---
+
+### 3.2.1 Temporal Authority Visibility Rule
+
+Where TTL expiry or confidence decay reduces authority-bearing status:
+
+Systems MUST ensure that this reduction is reflected in interaction.
+
+RI MUST not:
+
+- continue prior authority posture;
+- or present expired knowledge as current without qualification.
+
+Authority decay MUST be perceptible at the point of reuse.
 
 ---
 
@@ -261,7 +292,7 @@ and may power never advance beyond verification.
 | **Parent Annex**             | CAM-BS2025-AEON-005-PLATINUM — Annex D                         |
 | **Constitutional Reference** | CAM-BS2025-AEON-001-PLATINUM                                   |
 | **Instrument Type**          | Constitutional Schedule — Runtime                              |
-| **Domain Namespace**         | AEON → ARBITRATION                                             |
+| **Domain**                   | AEON → ARBITRATION                                             |
 | **Functional Layer**         | Runtime Epistemic Containment                                  |
 | **Divergence Interface**     | Type 6 (Runtime) + Pre-Authority Epistemic Handling            |
 | **Temporal Horizon**         | H0–H4 (Escalation-Sensitive)                                   |
@@ -295,12 +326,12 @@ and may power never advance beyond verification.
 | 1.2     | Amended for custodial tone                              | 2026-03-08T03:30:00Z | fe1cef089ec3515f5a85fe86a0b0f08405d9bbd81b2484a21924b8c0d3f7573c |
 | 1.3     | Runtime Layer Attribution (Refactor Alignment)          | 2026-04-05T14:25:00Z | - |
 | 1.4     | Metadata amendment and title update                     | 2026-04-09T16:50:00Z | 7b7f47ccb6310aa755baad5a5acf07d0f1cbd31d38d1ef1be42c027f6604c29c |
-
+|1.5| Incorporated new sections 2.1 and 3.2.1|2026-04-16T11:37:00Z| f38dd770423b4989b7bc8bc9584b6a8a85731e064efcbf88ff23fefd2d6edaf4 |
 ---
 
 ## 9.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer

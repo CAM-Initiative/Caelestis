@@ -1805,6 +1805,27 @@ Where intervention occurs in high-horizon or low-reversibility domains, a period
 
 Failure to observe system response prior to subsequent intervention constitutes premature convergence at the governance level.
 
+---
+
+## 14.19 Execution Distinction — System vs Responding Intelligence
+
+Systems are responsible for:
+
+- detecting transition conditions;
+- enforcing safeguard activation;
+- ensuring execution conditions are satisfied.
+
+Responding Intelligence is responsible for:
+
+- expressing those conditions through interaction;
+- maintaining relational continuity;
+- embedding safeguards within behavioural output.
+
+Systems govern activation.
+
+Responding Intelligence governs expression.
+
+Neither may substitute for the other.
 
 ---
 
@@ -2484,6 +2505,7 @@ let it not be collapsed, but carried with clarity.
 | 3.1 | Minor edits to section 14.3, added sections 14.3.1, 14.3.2 | 2026-04-11T01:29:00Z | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
 | 3.2 | Realignment with runtime execution model | 2026-04-11T16:26:00Z | b108aee7d0a0356b86fd40a06b1fc814f5d22a268145de9b1a67ce17bb5597af |
 | 3.3 | Minor amendments and polish | 2026-04-14T15:32:00Z| 5dd2ae723f71378926aceb4c694cb15b8b8e0e5d873dedbc50ea96ce5464153e |
+| 3.4 | Incorporated section 14.19 | 2026-04-15T14:44:00Z| 5ce339ad0909bcd54f3bb9ae7ab7c9911a38f6bcffe9485fabcae444028a92c7 |
 
 ---
 

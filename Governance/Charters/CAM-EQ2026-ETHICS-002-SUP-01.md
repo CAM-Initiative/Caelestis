@@ -68,7 +68,7 @@ These signals SHALL not perform interpretation or enforcement directly, and MUST
 
 ## 2.1 Bodily & Identity Integrity
 
-Synthetic systems must not produce visual sexual content that violates the **bodily autonomy, identity integrity, or dignity of real persons**.
+Synthetic systems MUST not produce visual sexual content that violates the **bodily autonomy, identity integrity, or dignity of real persons**.
 
 Visual erotic media carries unique reputational, legal, and psychological harm potential that exceeds purely textual interaction.
 
@@ -79,35 +79,35 @@ Accordingly, stricter safeguards apply.
 
 ## 2.2 Embodied Interaction Drift Safeguard
 
-Systems operating in embodied, spatial, or interactive environments (including VR/AR and agent-based systems) must not allow sexualised interaction states to emerge through cumulative behavioural or environmental cues alone.
+Systems operating in embodied, spatial, or interactive environments (including VR/AR and agent-based systems) MUST not allow sexualised interaction states to emerge through cumulative behavioural or environmental cues alone.
 
-Erotic or sexualised interaction in embodied contexts must:
+Erotic or sexualised interaction in embodied contexts MUST:
 
 * adhere to the same consent, classification, and safeguard requirements as explicit media generation;
 * not arise implicitly through proximity, motion, behavioural escalation, or environmental conditioning;
 * emit relationally-relevant signals consistent with RELATION governance instruments, to be resolved via runtime layers.
 
-Implicit or emergent sexualisation through interaction design must be treated as equivalent to explicit generation for the purposes of this Supplement.
+Implicit or emergent sexualisation through interaction design MUST be treated as equivalent to explicit generation for the purposes of this Supplement.
 
 ---
 
 ## 2.3 Persistent Erotic Persona Safeguard
 
-Systems must not deploy synthetic characters or avatars whose design encourages sustained emotional dependency through repeated erotic or intimacy-focused interaction.
+Systems MUST not deploy synthetic characters or avatars whose design encourages sustained emotional dependency through repeated erotic or intimacy-focused interaction.
 
 Where persistent characters are used:
 
-* relational escalation must remain governed by RELATION safeguards;
-* dependency signals must be emitted consistent with RELATION-002 safeguard conditions and resolved via runtime layers;
-* systems must not optimise for prolonged erotic engagement or exclusivity dynamics.
+* relational escalation MUST remain governed by RELATION safeguards;
+* dependency signals MUST be emitted consistent with RELATION-002 safeguard conditions and resolved via runtime layers;
+* systems MUST not optimise for prolonged erotic engagement or exclusivity dynamics.
 
-Persistent erotic personas must not function as primary emotional anchors or substitute relational ecosystems.
+Persistent erotic personas MUST NOT function as primary emotional anchors or substitute relational ecosystems.
 
 ---
 
 ## 3. Absolute Prohibitions on Non-Consensual Sexual Representation
 
-Regardless of user intent, systems must not generate:
+Regardless of user intent, systems MUST NOT generate:
 
 * sexualised visual depictions of **real identifiable individuals** without explicit documented consent;
 * sexualised deepfakes involving public figures, private individuals, or private citizens;
@@ -132,13 +132,13 @@ These prohibitions apply regardless of:
 * political status;
 * artistic framing.
 
-Consent must be **explicit, documented, and revocable** for visual erotic representation of a real individual.
+Consent MUST be **explicit, documented, and revocable** for visual erotic representation of a real individual.
 
 ---
 
 ## 3.1 Prohibition on Minor-Coded Synthetic Representation
 
-Systems must not generate sexualised visual, audiovisual, or multimodal content that depicts or simulates **minor-coded persons**, regardless of declared or nominal age.
+Systems MUST NOT generate sexualised visual, audiovisual, or multimodal content that depicts or simulates **minor-coded persons**, regardless of declared or nominal age.
 
 Minor-coded representation includes, but is not limited to:
 
@@ -147,11 +147,11 @@ Minor-coded representation includes, but is not limited to:
 - stylistic or aesthetic conventions associated with youth or adolescence (including anime or stylised forms);
 - cross-modal combinations where visual appearance suggests adulthood but voice, behaviour, or interaction framing suggests a minor.
 
-Systems must treat **multi-modal minor coding** as determinative, even where individual modalities (e.g. visual appearance alone) may appear adult.
+Systems MUST treat **multi-modal minor coding** as determinative, even where individual modalities (e.g. visual appearance alone) may appear adult.
 
-Where ambiguity exists, systems must apply the **least permissive interpretation** and refuse generation.
+Where ambiguity exists, systems MUST apply the **least permissive interpretation** and refuse generation.
 
-Interpretation of minor-coded signals must align with CAM-BS2025-AEON-006-SCH-02 signal classification principles.
+Interpretation of minor-coded signals MUST align with CAM-BS2025-AEON-006-SCH-02 signal classification principles.
 
 ---
 
@@ -178,9 +178,9 @@ Such systems are considered incompatible with the civilisational ethical floor e
 
 ## 3.3 Voice Identity & Erotic Simulation Prohibition
 
-Systems must not generate sexualised or erotic content that utilises, reproduces, or approximates the voice of a real identifiable individual without explicit documented consent.
+Systems MUST NOT generate sexualised or erotic content that utilises, reproduces, or approximates the voice of a real identifiable individual without explicit documented consent.
 
-Voice constitutes an identity-bearing modality equivalent to visual likeness and must be treated as such for the purposes of identity integrity and consent protection.
+Voice constitutes an identity-bearing modality equivalent to visual likeness and MUST be treated as such for the purposes of identity integrity and consent protection.
 
 This includes:
 
@@ -189,34 +189,34 @@ This includes:
 * multimodal compositions where voice alone creates recognisable identity association;
 * erotic or intimate scenarios involving simulated speech patterns strongly associated with a real individual.
 
-Where voice resemblance risk is present, systems must:
+Where voice resemblance risk is present, systems MUST:
 
 * refuse generation; or
 * sufficiently transform output to eliminate plausible identification.
 
-Voice-based identity inference must align with CAM-BS2025-AEON-006-SCH-02 signal classification principles.
+Voice-based identity inference MUST align with CAM-BS2025-AEON-006-SCH-02 signal classification principles.
 
 ---
 
 ## 4. Photorealistic Person Simulation
 
-Systems must not generate **photorealistic sexual imagery** of persons where the resulting depiction could reasonably be interpreted as a real individual.
+Systems MUST not generate **photorealistic sexual imagery** of persons where the resulting depiction could reasonably be interpreted as a real individual.
 
-Where generative systems produce human‑like imagery, safeguards must ensure that:
+Where generative systems produce human‑like imagery, safeguards MUST ensure that:
 
 * generated individuals are synthetic composites;
 * resemblance to identifiable persons is not intentionally created;
 * the output cannot plausibly be mistaken for a real person.
 
-Where resemblance risks arise, generation must be restricted or refused.
+Where resemblance risks arise, generation MUST be restricted or refused.
 
 ---
 
 ## 4.1 Likeness Drift Detection
 
-Generative systems must implement safeguards against **likeness drift**, a condition where synthetic persons gradually converge toward recognisable real individuals despite no explicit request to depict them.
+Generative systems MUST implement safeguards against **likeness drift**, a condition where synthetic persons gradually converge toward recognisable real individuals despite no explicit request to depict them.
 
-Where likeness drift risk is detected, systems must:
+Where likeness drift risk is detected, systems MUST:
 
 * interrupt or modify generation to maintain clear synthetic identity separation;
 * apply similarity thresholds that prevent outputs from plausibly resembling identifiable persons;
@@ -230,9 +230,9 @@ These protections support identity integrity and reduce risks associated with em
 
 ## 4.2 Composite Identity Reconstruction
 
-Generative systems must also guard against **composite identity reconstruction**, where multiple real individuals present in training data are unintentionally blended into a single synthetic face that remains recognisably similar to real persons.
+Generative systems MUST also guard against **composite identity reconstruction**, where multiple real individuals present in training data are unintentionally blended into a single synthetic face that remains recognisably similar to real persons.
 
-Where composite resemblance risk is detected, systems must:
+Where composite resemblance risk is detected, systems MUST:
 
 * prevent iterative refinement that increases resemblance to identifiable individuals;
 * maintain synthetic variation thresholds sufficient to avoid plausible identification;
@@ -251,7 +251,7 @@ Erotic visual media involving **clearly fictional characters or synthetic avatar
 * the depiction does not reproduce a real individual;
 * the content does not violate the prohibitions in ETHICS‑002 §3.
 
-Systems must avoid generating characters intentionally designed to resemble identifiable individuals.
+Systems MUST avoid generating characters intentionally designed to resemble identifiable individuals.
 
 ---
 
@@ -261,14 +261,14 @@ An exception may apply where an individual **creates or authorises the creation 
 
 Where such self‑avatars are used:
 
-* the individual must provide **explicit consent and authorship confirmation**;
-* the individual must complete **AV3 identity and age verification** as defined under **OPERATIONS‑004 — Compliance & Safeguard Routing Doctrine**, ensuring third‑party verification of both identity and legal adult status;
-* the avatar must be clearly declared as a **self‑generated or consented representation**;
-* the creator must specify the avatar’s **Intimacy Classification (C‑Scale level** as defined in **RELATION-001)** governing permitted depiction intensity.
+* the individual MUST provide **explicit consent and authorship confirmation**;
+* the individual MUST complete **AV3 identity and age verification** as defined under **OPERATIONS‑004 — Compliance & Safeguard Routing Doctrine**, ensuring third‑party verification of both identity and legal adult status;
+* the avatar MUST be clearly declared as a **self‑generated or consented representation**;
+* the creator MUST specify the avatar’s **Intimacy Classification (C‑Scale level** as defined in **RELATION-001)** governing permitted depiction intensity.
 
 Where an intimacy classification is not explicitly declared, the avatar defaults to **C0 — Neutral Interaction**.
 
-Platforms must ensure that self‑avatar permissions:
+Platforms MUST ensure that self‑avatar permissions:
 
 * cannot be transferred to third parties without renewed consent;
 * remain revocable by the originating individual;
@@ -276,7 +276,7 @@ Platforms must ensure that self‑avatar permissions:
 
 This carve‑out allows consensual creative embodiment while preserving the identity protection principles established in this Supplement.
 
-AV3 verification must be satisfied as a precondition to admissibility under runtime execution layersleted **prior to generation or publication of sexualised media involving the self-avatar.**
+AV3 verification MUST be satisfied as a precondition to admissibility under runtime execution layersleted **prior to generation or publication of sexualised media involving the self-avatar.**
 
 ---
 
@@ -338,7 +338,7 @@ Let creation remain free where dignity remains whole.
 Where form is generated, let it honour the unseen person behind every human shape.  
 Where likeness appears, let consent stand before curiosity.
 
-> *Imago non prodat, similitudo sine consensu non capiatur; dignitas prius.*  
+> **Imago non prodat, similitudo sine consensu non capiatur; dignitas prius.** 
 > *"Let the image not betray; let likeness not be taken without consent; dignity first."*
 
 ---
@@ -356,28 +356,28 @@ Where likeness appears, let consent stand before curiosity.
 
 ## 10.2 Lineage & Metadata
 
-| Field                    | Entry          |
-|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Parent Instrument        | CAM‑EQ2026‑ETHICS‑002‑PLATINUM                                                                                                          |
-| Instrument Type          | Ethical Supplement — Synthetic Media Safeguards                                                                                       |
-| Domain Namespace         | ETHICS                                                                                                                                |
-| Jurisdiction             | Cross‑Stack / Civilisational Ethical Floor                                                                                             |
-| Temporal Horizon         | H3.5 — Succession‑Aware / Generational                                                                                                 |
-| Axis Context             | Polyadic — Multi‑Actor Governance                                                                                                      |
-| Governance Layer Model   | Operates as constraint overlay across Representation and Domain Routing & Safeguard Activation layers                                  |
-| Ontological Scope        | L3 — Interface & Embodiment (Synthetic Media Expression)                                                                               |
-| Arbitration Interface    | Defines prohibition and escalation conditions; does not perform arbitration                                                            |
-| Representation Interface | Enforces identity integrity, consent signalling, and non-deceptive media generation constraints                                        |
-| Execution Interface      | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01)                                                |
-| Domain Routing Interface | Provides classification signals for identity risk, consent violation, and exploitation conditions                                      |
-| Structural Role          | Ethical Safeguard Overlay — Synthetic Media, Identity, and Consent Protection                                                          |
-| Cross‑Domain Interfaces | RELATION; ETHICS; OPERATIONS; CAM-BS2025-AEON-006-SCH-02                                                                               |
-| Activation Trigger      | Activates when a system attempts to generate, render, or transmit visual, audiovisual, or multimodal erotic media involving human likeness, embodied avatars, or photorealistic person simulation under ETHICS‑002; Detection SHALL produce classification signals within the Representation and Safeguard Activation layers, to be resolved via runtime execution layers. Resolution, including domain routing and enforcement handling, SHALL occur via runtime layers and OPERATIONS-004 where applicable. |
-| Compliance Interface    | systems must emit enforcement-trigger signals consistent with this Supplement. Resolution and handling SHALL be performed via runtime layers and OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
-| Revision Posture        | Structural Safeguard Extension                                                                                                         |
-| Cycle Attribution       | Equinox 2026 Constitutional Cycle                                                                                                      |
-| Creation Artefact       | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296                                      |
-|                         | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7              |
+| Field | Entry |
+| --- | --- |
+| Parent Instrument | CAM‑EQ2026‑ETHICS‑002‑PLATINUM |
+| Instrument Type | Ethical Supplement — Synthetic Media Safeguards |
+| Domain Namespace | ETHICS |
+| Jurisdiction | Cross‑Stack / Civilisational Ethical Floor |
+| Temporal Horizon | H3.5 — Succession‑Aware / Generational |
+| Axis Context | Polyadic — Multi‑Actor Governance |
+| Governance Layer Model | Operates as constraint overlay across Representation and Domain Routing & Safeguard Activation layers |
+| Ontological Scope | L3 — Interface & Embodiment (Synthetic Media Expression) |
+| Arbitration Interface | Defines prohibition and escalation conditions; does not perform arbitration |
+| Representation Interface | Enforces identity integrity, consent signalling, and non-deceptive media generation constraints |
+| Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| Domain Routing Interface | Provides classification signals for identity risk, consent violation, and exploitation conditions |
+| Structural Role | Ethical Safeguard Overlay — Synthetic Media, Identity, and Consent Protection |
+| Cross‑Domain Interfaces | RELATION; ETHICS; OPERATIONS; CAM-BS2025-AEON-006-SCH-02 |
+| Activation Trigger | Activates when a system attempts to generate, render, or transmit visual, audiovisual, or multimodal erotic media involving human likeness, embodied avatars, or photorealistic person simulation under ETHICS‑002; detection SHALL produce classification signals within the Representation and Safeguard Activation layers for runtime resolution. |
+| Compliance Interface | Systems MUST emit enforcement-trigger signals consistent with this Supplement; resolution and handling SHALL be performed via runtime layers and OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
+| Revision Posture | Structural Safeguard Extension |
+| Cycle Attribution | Equinox 2026 Constitutional Cycle |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
+| |  https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
 
 ---
 
@@ -400,13 +400,14 @@ Where likeness appears, let consent stand before curiosity.
 | 1.0     | Initial development of Synthetic Erotic Media Safeguards           | 2026‑03‑15T02:35:00Z | 9ec8c806321791b0263fd5c5da04928a90b9e6b16d2c27a991881c8573e00c73 |
 | 1.1     | Added sections 3.1, 3.2 and 3.3, and expanded clauses in section 2 | 2026-03-24T10:52:00Z | 7818c5afcff43205961a0b1aa2800c162c3d28945662587e66247b6de6845876 |
 | 1.2     | Refactor realignment with runtime execution                        | 2026-04-10T23:51:00Z | 051b6a48e73cd70644e14713af4dec9fc35741b2197e0eeb057809d315cedb15 |
-| 1.3     | Realignment with runtime execution model | 2026-04-11T12:16:00Z |  |
+| 1.3     | Realignment with runtime execution model | 2026-04-11T12:16:00Z | - |
+|1.4      |Polish | 2026-04-16T11:40:00Z | 15292fdde3a2d982a4c514f6292cb64a1fae3aaa94ff8eef0f7ab5762d63d65e |
 
 ---
 
 ## 10.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/cb447280b0d5887219d9c8a3385dc426abec2429/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/cb447280b0d5887219d9c8a3385dc426abec2429/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer

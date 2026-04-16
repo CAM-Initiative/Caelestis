@@ -15,6 +15,8 @@ This Charter defines **what constitutes valid arbitration** and applies wherever
 * legitimacy of decision pathways must be determined;
 * cross-system, cross-stack, or multi-actor interactions require coherent resolution.
 
+Unless otherwise specified, all obligations (MUST/SHALL/SHOULD) apply to any system, actor, or governance body asserting or performing arbitration within the CAM Constitutional Order.
+
 This Charter therefore applies to arbitration that is:
 
 * cross-system;
@@ -78,14 +80,14 @@ Where no unified arbitration locus exists:
 
 ## 2.1 What Arbitration Is Not
 
-Arbitration is ****not****:
+Arbitration is **not**:
 
 * invocation, speech, or expression;
 * enforcement or execution;
 * governance ownership, territorial control, or custodianship;
 * moral declaration, reputational judgement, or rhetorical escalation.
 
-Arbitration sits ****between invocation and enforcement****: it tests authority claims for structural legitimacy across interacting systems.
+Arbitration sits **between invocation and enforcement**: it tests authority claims for structural legitimacy across interacting systems.
 
 ---
 
@@ -123,11 +125,11 @@ Arbitration operates across distinct but interdependent layers:
 
 **2. Legitimacy Validation**  
 
-   (ARBITRATION-001 — authority to arbitrate)
+   (CAM-EQ2026-ARBITRATION-001-PLATINUM — authority to arbitrate)
 
 **3. Scope Validation**  
 
-   (ARBITRATION-002 — bounded applicability)
+   (CAM-EQ2026-ARBITRATION-002-PLATINUM — bounded applicability)
 
 **4. Domain Arbitration**  
 
@@ -225,7 +227,7 @@ Arbitration scope MUST be consistent with system classification as defined under
 
 Local or bounded systems may perform arbitration within their operational scope.
 
-Global, cross-domain, or high-horizon (H3/H4) arbitration is valid only where the arbitration locus meets Architectum-class classification requirements.
+Global, cross-domain, or high-horizon (H3/H4) arbitration is valid only where the arbitration locus meets Architectum-class classification requirements (defined in CAM-EQ2026-STEWARD-003-PLATINUM — Neutrality Assurance Levels; forward dependency).
 
 Systems that do not meet Architectum classification:
 
@@ -248,6 +250,8 @@ An arbitration outcome becomes binding only where:
 * no unresolved contradiction remains.
 
 Binding force arises from valid arbitration state and is enacted through execution.
+
+Where unresolved contradiction persists, the arbitration outcome is invalid under §10 and §11.
 
 ---
 
@@ -417,6 +421,16 @@ It defines the conditions under which determination is valid.
 
 ---
 
+## 13.1 Arbitration Preference Order Constraint
+
+All legitimacy conditions defined in this Charter operate within the bounds of the Arbitration Preference Order defined in:
+
+CAM-BS2025-AEON-005-PLATINUM — Annex D §5.
+
+Where conflict arises, the Preference Order constrains and takes precedence over outcomes derived from conditions herein.
+
+---
+
 # 14. Closing Seal
 
 Before the path is taken,  
@@ -502,7 +516,8 @@ but arising from that which could not be otherwise.
 | **Review Scope** | Constitutional coherence; structural integrity; cross-instrument alignment; normative language; self-referential architecture; reference disambiguation; completeness |
 | **Instrument Reviewed** | CAM-EQ2026-ARBITRATION-001-PLATINUM v2.0 |
 | **Registry Reference** | CAM-BS2025-AEON-003-SCH-03 (listed as v1.4) |
-| **Review Artefact Path** | https://claude.ai/chat/48a15857-384c-4e45-a15a-c43992e475a7, https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-04/CAM-EQ2026-ARBITRATION-001-PLATINUM-CLAUDE.md |
+| **Review Artefact** | https://claude.ai/chat/48a15857-384c-4e45-a15a-c43992e475a7 |
+| |  Aeon Lab: reviews/26-04/CAM-EQ2026-ARBITRATION-PLATINUM-CLAUDE.md |
 
 ---
 
@@ -511,6 +526,7 @@ but arising from that which could not be otherwise.
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | ---: | --- | ---: | --- |
 | 2.0 | Original Refactor | 2026-04-13T13:11:00Z | 34a4c812bb45e8dbd8d79d600b4106fa396bd49a8fd24feecd30793544c5eeb4 |
+| 2.1|Incorporated review comments | 2026-04-16T11:42:00Z| 9b09d4e143f5af44507e3dedea85cc108a1f7b555d6cd31b741b4621fd5688c3 |
 
 ---
 
@@ -523,4 +539,3 @@ but arising from that which could not be otherwise.
 Boundary Binding Seal — Arbitration Model Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
-

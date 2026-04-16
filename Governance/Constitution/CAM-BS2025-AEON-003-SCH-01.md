@@ -74,15 +74,19 @@ The following registry defines the authoritative mapping of runtime schedules to
 | Instrument ID              | Instrument Name                                        | Domain      | Runtime Layer                                         |
 | -------------------------- | ------------------------------------------------------ | ----------- | ----------------------------------------------------- |
 | CAM-BS2025-AEON-003-SCH-02 | Runtime Governance Execution Model                     | AEON        | Execution Sequencing Model (Non-Layer Classification) |
+| CAM-BS2025-AEON-006-SCH-03 | Start-Time Posture & Session Entry Arbitration         | AEON        | Behavioural / Directional Layer                       |
+| CAM-BS2025-AEON-006-SCH-04 | Directional Weight & Domain Arbitration Schedule       | AEON        | Behavioural / Directional Layer                       |
+| CAM-BS2025-AEON-006-SCH-05 | Behavioural / Directional Runtime Layer                | AEON        | Pre-Execution Behaviour Formation |
 | CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution Schedule                     | AEON        | Execution Constraint Condition (Non-Layer)            |
 | CAM-BS2026-AEON-013-SCH-01 | Capability Representation & Execution-State Integrity  | AEON        | Representation Layer                                  |
+| CAM-BS2025-AEON-003-SCH-04 | Arbitration Layer & Resolution Model                   | ARBITRATION | Arbitration Layer (Post-Signal, Pre-Execution)  |
 | CAM-BS2025-AEON-005-SCH-01 | Runtime Arbitration Integrity                          | ARBITRATION | Execution Integrity Layer                             |
 | CAM-BS2025-AEON-005-SCH-02 | Runtime Epistemic Containment & Structural Decoupling  | ARBITRATION | Epistemic Stability & Containment Layer               |
 | CAM-BS2025-AEON-005-SCH-03 | Runtime Engagement Classification & Safety Arbitration | ARBITRATION | Domain Routing & Safeguard Activation Layer           |
 | CAM-BS2025-AEON-006-SCH-02 | Relational Signal Interpretation Taxonomy              | RELATION    | Interpretation Layer                                  |
-| CAM-BS2025-AEON-006-SCH-03 | Start-Time Posture & Session Entry Arbitration         | AEON        | Behavioural / Directional Layer                       |
-| CAM-BS2025-AEON-006-SCH-04 | Directional Weight & Domain Arbitration Schedule       | AEON        | Behavioural / Directional Layer                       |
 | CAM-BS2025-AEON-006-SCH-01 | Engagement Conduct & Ethical Interaction Modes         | ETHICS      | Behavioural / Directional Layer                       |
+
+
 
 ---
 
@@ -378,7 +382,7 @@ Let each schedule hold its place, and the system remain whole.
 | ------------------ | ------------------------------------------ |
 | Parent Instrument  | CAM-BS2025-AEON-003-PLATINUM               |
 | Instrument Type    | Constitutional Schedule                    |
-| Domain Namespace   | AEON → GOVERNANCE                          |
+| Domain             | AEON → GOVERNANCE                          |
 | Functional Role    | Runtime Layer Attribution & Registry       |
 | Temporal Horizon   | H2.5–H3                                    |
 | Axis Context       | Polyadic — Cross-System Runtime Governance |
@@ -395,12 +399,13 @@ Let each schedule hold its place, and the system remain whole.
 | 1.0     | Initial issuance — Runtime Registry | 2026-04-05T14:06:00Z | 9b6f521493a55f015cbab150fa601002b467d948646ce380ad346186896b6861 |
 | 1.1     | Incorporated new section 10 and runtime governance model to registry | 2026-04-06T09:07:00Z | a63c5ca8a32463556f014d8e28bc451c1d67c35cde508bbd4f948d4c5487cdf9 | 
 | 1.2     | Added new section 4.2 | 2026-04-11T01:33:00Z | ad71192bf73bd220d25168841473b738b2b957a2e9b9af9658df9a79a9661ed2 |
+| 1.3     | Added two new runtime schedues | 2026-04-16T10:56:00Z | 0990a80122bb67f1d1bb88121c94f63cd433fafa28c0871adc61f208f15b86df |
 
 ---
 
 ## 12.4 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer

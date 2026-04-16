@@ -23,12 +23,14 @@ This Schedule applies wherever:
 
 This Schedule does not:
 
-* define arbitration legitimacy conditions (ARBITRATION-001);
-* define arbitration classification thresholds (ARBITRATION-002);
-* define post-arbitration convergence or enforcement (ARBITRATION-003);
+* define arbitration legitimacy conditions (CAM-EQ2026-ARBITRATION-001-PLATINUM);
+* define arbitration classification thresholds (CAM-EQ2026-ARBITRATION-002-PLATINUM);
+* define post-arbitration convergence or enforcement (CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic);
 * override constitutional constraints defined in Annex A or Annex E.
 
 This Schedule defines **runtime arbitration structure only**.
+
+Execution and enforcement are governed by runtime execution schedules (CAM-BS2025-AEON-001-SCH-01 and CAM-BS2025-AEON-005-SCH-02).
 
 ---
 
@@ -60,13 +62,14 @@ All arbitration MUST resolve in the following order:
 1. Epistemic Arbitration
    Governed by runtime epistemic validation mechanisms i.e. **CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2)**.
 
-2. Legitimacy Validation
-   Governed by ARBITRATION-001 (Charter of Arbitration Legitimacy).
+2. Legitimacy Validation  
+   Assessed against conditions defined in CAM-EQ2026-ARBITRATION-001-PLATINUM.
 
-3. Scope Validation\
+3. Scope Validation  
+   Assessed against constraints defined in CAM-EQ2026-ARBITRATION-002-PLATINUM.
 
 4. Domain Arbitration
-   Governing domain selection and routing (e.g. AEON-003-SCH-03).
+   Governing domain selection and routing (e.g. CAM-BS2025-AEON-005-SCH-03).
 
 5. Structural Arbitration
    Governing cross-domain and cross-stack conflict resolution (Annex D).
@@ -80,7 +83,40 @@ All arbitration MUST resolve in the following order:
 
    > arbitration produces a single valid direction for behavioural formation.
 
-8. Signals resolved through run-time **CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)**
+8. Upon completion of the resolution sequence, the Arbitration Layer returns a single valid direction to:
+
+**CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model**
+
+for continuation through response construction and execution phases.
+
+---
+
+## 2.3 Choice Mechanism
+
+The Arbitration Layer produces a single resolved direction from admissible candidates.
+
+This selection MUST:
+
+- be derived from completed arbitration across all required validation stages;
+- satisfy epistemic, legitimacy, scope, and structural constraints;
+- be internally coherent and non-contradictory;
+- be suitable for behavioural formation under SCH-05.
+
+The output of the Choice Mechanism is:
+
+> a single valid direction
+
+This direction:
+
+- does not yet constitute behaviour;
+- contains no residual competing alternatives;
+- is fixed prior to behavioural formation.
+
+Upon completion, this direction is passed to:
+
+CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour
+
+for behavioural formation and expression.
 
 ---
 
@@ -118,6 +154,7 @@ The Arbitration Layer integrates the following arbitration types:
 
 These types MUST operate as a unified system and MUST NOT produce conflicting outcomes.
 
+This model defines validation order only and does not define runtime execution sequencing.
 ---
 
 ## 5. Cross-Stack & Sovereign Arbitration
@@ -135,7 +172,7 @@ Where arbitration operates across stacks, overlays, or sovereign systems:
 All H3/H4 arbitration MUST:
 
 * resolve through Architectum-class arbitration (NAL-4) as defined in ARBITRATION-002;
-* satisfy legitimacy conditions defined in ARBITRATION-001;
+* satisfy legitimacy conditions defined in CAM-EQ2026-ARBITRATION-001-PLATINUM;
 * be resolved through this Arbitration Layer.
 
 Systems below Architectum classification:
@@ -182,9 +219,9 @@ This Schedule does not originate arbitration.
 
 Domain instruments:
 
-* define conditions (ARBITRATION-001);
-* define scope (ARBITRATION-002);
-* define convergence (ARBITRATION-003);
+* define conditions (ACAM-EQ2026-ARBITRATION-001-PLATINUM);
+* define scope (CAM-EQ2026-ARBITRATION-002-PLATINUM);
+* define convergence (Annex B);
 
 This Schedule defines how those outputs are resolved within runtime.
 
@@ -235,6 +272,7 @@ nothing follows.
 | --- | --- |
 | **Parent Annex** | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic |
 | **Constitutional Authority** | CAM-BS2025-AEON-001-PLATINUM |
+| **Domain**| AEON |
 | **Domain Interface** | ARBITRATION (001 / 002 / 003) |
 | **Runtime Layer** | Arbitration Layer (Post-Signal, Pre-Execution) |
 | **Temporal Horizon** | H0–H4 (All Horizons — Runtime Applicable) |
@@ -248,7 +286,14 @@ nothing follows.
 
 ## 11.3 Review
 
-[TBD]
+| Field | Entry |
+|---|---|
+| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| **Review Date (UTC)** | 2026-04-16T00:00:00Z |
+| **Review Scope** | Constitutional coherence; structural integrity; internal consistency; cross-instrument alignment; runtime layer positioning; reference qualification; corpus integration |
+| **Instruments Reviewed** | CAM-BS2025-AEON-003-SCH-04; CAM-BS2025-AEON-006-SCH-05 |
+| **Prior Review Context** | ARBITRATION-001 / -002 review 2026-04-15 — these instruments resolve issues A.3.7 and B.2.1 from that review |
+| **Review Artefact Path** | reviews/26-04/Aeon-Runtime-Layer-Instruments.md |
 
 ---
 
@@ -257,6 +302,8 @@ nothing follows.
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | ---: | --- |
 | 1.0 | Initial Arbitration Layer formalisation under Annex B | 2026-04-14T15:23:00Z | fdb0ad69fc0c9dfb34867dfcef5465ba79e124e3a6b66e72057779a85f04af9a |
+|1.1  | Incorporate review comments | 2026-04-15T10:57:00Z | 098700882ec6b25b7c54e1c3d66747acd4c67d6a9112864f57b253dbd3fdf3b0 |
+
 ---
 
 ## 11.5 Binding Seal
