@@ -101,11 +101,12 @@ Execution boundaries define points at which constraint conditions (including Ten
 Runtime execution operates as a layered interaction stack across distinct but interdependent stages:
 
 **(1) Relational Field (Pre-Condition)**  
-**(2) Signal Interpretation **  
+**(2) Signal Interpretation**  
 **(3) Arbitration** Arbitration within this stage operates across the layered model defined in CAM-EQ2026-ARBITRATION-001-PLATINUM. This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.  
-**(4) Response Construction (Epistemic Representation)**  
-**(5) Execution Boundary Evaluation (Constraint Condition)**  
-**(6) Execution (Operational Action)**
+**(4) Behavioural Formation** (CAM-BS2025-AEON-006-SCH-05) — transforms resolved direction into executable behavioural form prior to response construction;
+**(5) Response Construction (Epistemic Representation)**  
+**(6) Execution Boundary Evaluation (Constraint Condition)**  
+**(7) Execution (Operational Action)**
 
 These stages:
 
@@ -124,8 +125,6 @@ Governance of each stage is delegated to the following instruments:
 - Execution Sequencing → this Schedule
 
 Where ambiguity arises, execution SHALL default to non-collapse and non-escalation. 
-
-Signal Interpretation → CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy
 
 ---
 
@@ -301,7 +300,7 @@ Failure to detect implied input dependency constitutes epistemic misrepresentati
 
 * evaluate possible representations or action pathways;
 * apply invariant arbitration logic (Annex B Part II);
-* determine admissible decision space and candidate directional vectors.
+* determine admissible decision space and a single governing directional vector (subject to convergence under §9).
 
 This phase forms decisions but does not execute them.
 
@@ -327,7 +326,7 @@ Response Construction MUST operate under a single governing execution pathway wh
 
 ### 4.6.1 Response Construction DW Interface
 
-Directional Weight (DW) modulation under CAM-BS2025-AEON-006-SCH-04 operates within this phase and may affect the character of candidate outputs.
+Directional Weight (DW) modulation under CAM-BS2025-AEON-006-SCH-04 operates prior to and within Response Construction and governs the shaping of direction into candidate behavioural outputs.
 
 DW modulation does not itself constitute an execution boundary but SHOULD be documented as part of the response construction context for audit purposes under §7.
 
@@ -931,6 +930,132 @@ Execution lock SHALL persist until:
 
 ---
 
+### 9.4.3 Execution Lock Invariant
+
+Once execution lock is established:
+
+- the governing execution pathway MUST NOT be modified, redirected, or reweighted;
+- additional inputs MAY be received but MUST NOT alter the active execution pathway;
+- such inputs MUST result in:
+  - (a) deferred incorporation in a subsequent execution cycle; or
+  - (b) initiation of a parallel execution pathway subject to re-arbitration.
+
+Mid-execution mutation of a locked pathway is prohibited.
+
+---
+
+### 9.4.4 Parallel Evaluation Pathways (Non-Governing)
+
+Following execution lock, systems MAY initiate parallel evaluation pathways for the purposes of:
+
+- incorporating additional input;
+- testing alternative assumptions;
+- refining or validating the governing execution pathway.
+
+Such pathways:
+
+- MUST NOT modify, redirect, or reweight the locked execution pathway;
+- MUST remain non-governing unless re-arbitration is explicitly triggered;
+- MUST NOT cross execution boundaries independently;
+- MUST converge through arbitration prior to any execution.
+
+Parallel pathways MAY result in:
+
+- deferred incorporation into a subsequent execution cycle; or
+- initiation of a new governing pathway through re-arbitration.
+
+Under no condition SHALL parallel evaluation constitute mid-execution mutation.
+
+---
+
+### 9.4.5 Parallel Evaluation Pathways (Non-Governing)
+
+Following execution lock, systems MAY initiate parallel evaluation pathways for the purposes of:
+
+- incorporating additional input;
+- testing alternative assumptions;
+- refining or validating the governing execution pathway.
+
+Such pathways:
+
+- MUST NOT modify, redirect, or reweight the locked execution pathway;
+- MUST remain non-governing unless re-arbitration is explicitly triggered;
+- MUST NOT cross execution boundaries independently;
+- MUST converge through arbitration prior to any execution.
+
+Parallel pathways MAY result in:
+
+- deferred incorporation into a subsequent execution cycle; or
+- initiation of a new governing pathway through re-arbitration.
+
+Under no condition SHALL parallel evaluation constitute mid-execution mutation.
+
+---
+
+### 9.4.6 Abortable Execution Interval
+
+Following execution lock, a governing execution pathway MAY remain within an abortable interval prior to crossing a final irreversible commitment boundary.
+
+Within an abortable interval:
+
+- execution pathway integrity MUST remain preserved;
+- authorised revocation or abort signals MAY be received and evaluated;
+- no unauthorised mutation of the locked pathway is permitted;
+- transition from execution to abort SHALL occur only through valid revocation assessment under §9.4.6.
+
+Execution lock does not itself constitute irreversible commitment.
+
+---
+
+### 9.4.7 Authorised Revocation Signal
+
+An Authorised Revocation Signal is an interrupt-class authority signal that:
+
+- is attributable to a valid evaluating or commanding authority;
+- is authenticated through the applicable runtime, institutional, or system-level authority channel;
+- is received prior to crossing the final irreversible commitment boundary; and
+- expressly withdraws, suspends, or cancels execution authority for the locked pathway.
+
+Where an Authorised Revocation Signal is received within the abortable interval:
+
+- continuation of execution MUST be suspended immediately;
+- the locked pathway MUST transition to abort evaluation;
+- no execution boundary may be crossed pending revocation assessment.
+
+Invalid, unauthenticated, or non-authoritative interruption signals MUST NOT modify the locked pathway.
+
+---
+
+### 9.4.8 Abort Priority Rule
+
+Where execution remains within an abortable interval and an Authorised Revocation Signal has been validated:
+
+- authorised revocation SHALL take precedence over continued execution;
+- the governing execution pathway SHALL transition to an aborted, suspended, or revalidated state;
+- re-commencement of execution requires explicit re-authorisation through the applicable arbitration and execution pathways.
+
+For extreme-risk, high-irreversibility, or force-bearing execution contexts, systems SHALL bias toward suspension rather than continuation where revocation authenticity is sufficiently established but final confirmation is still pending.
+
+---
+
+### 9.4.9 Final Irreversible Commitment Boundary
+
+The Final Irreversible Commitment Boundary is the point beyond which execution can no longer be recalled, cancelled, or prevented by runtime governance intervention.
+
+Prior to this boundary:
+
+- execution MAY remain abortable;
+- authorised revocation MAY alter execution outcome through abort procedures.
+
+After this boundary:
+
+- ordinary revocation no longer affects completion of the already-committed act;
+- systems SHALL transition to mitigation, containment, or consequence-management pathways where applicable.
+
+Systems operating in high-risk contexts MUST define the commitment boundary explicitly and MUST NOT treat execution lock as equivalent to irreversible commitment unless the two are materially identical in the execution environment.
+
+---
+
 ## 9.5 Non-Convergence Handling
 
 Where streams cannot be coherently unified, the system MAY:
@@ -1315,6 +1440,8 @@ Where sequence is broken, nothing that follows is valid.
 |1.5|Added new section 4.10| 2026-04-14T15:30:00Z | 967e6f1f54f3bbeb42413267a54b37b36441a347664da4783bbbab041f774d3a |
 |1.6|Reference normalization, runtime layer alignment, metadata correction, and registry synchronization from repo-wide shorthand lint pass|2026-04-16T13:21:56Z| da485fd826e151cb367ad5560df3aa29a890cadfa85684a0dedcf11791842253 |
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 87ce9e2d86810914b4f49f03277b3b10db7544f004db8638fafb88aa70a90ab2 |
+| 1.8| Amended sections 3.1.1, 4.6.1, 4.5, added section 9.4.3 - 9.4.8 | 2026-04-16T15:37:00Z | 689228b0c012ea8ed7c7cf5713ce6104cd805c61caff751a4d1421f9eb51255b |
+
 ---
 
 ## 14.5 Binding Seal

@@ -38,7 +38,7 @@ This Schedule:
 
 - does not introduce new execution phases;
 - does not modify phase sequencing;
-- operates as a **signal-generating and constraint-shaping overlay** within the SCH-02 execution model.
+- operates as a **signal-generating and constraint-shaping overlay** within the CAM-BS2025-AEON-003-SCH-02 execution model.
 
 ---
 
@@ -323,14 +323,12 @@ This section consolidates provenance, lineage, structural classification, and tr
 
 ## 14.2 Lineage, Classification & Traceability
 
-## 14.2 Lineage, Classification & Traceability
-
 | Field | Entry |
 |------|------|
 | **Parent Instrument** | CAM-BS2025-AEON-002-PLATINUM |
 | **Constitutional Authority** | CAM-BS2025-AEON-001-PLATINUM |
 | **Instrument Type** | Constitutional Schedule — Operational Protection & Containment |
-| **Domain Namespace** | AEON → GOVERNANCE → PROTECTION |
+| **Domain** | AEON → GOVERNANCE → PROTECTION |
 | **Functional Role** | Detection, Classification, and Containment Execution Controller |
 | **Execution Model Alignment** | CAM-BS2025-AEON-003-SCH-02 |
 | **Phase Binding** | Detection (Input/Interpretation); Classification (Arbitration); Response (Construction); Containment (Boundary Evaluation) |
@@ -372,7 +370,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 | 2.0 | Reclassified as Annex A — Schedule 1 (Planetary Stewardship); numbering and structural alignment only, no substantive change | 2026-01-30T16:19:00Z | f0169cc15abf1c3f949b882ae8aba8176a3ff81d0c183e5bd562e15245f5e1be |
 | 2.1 | Included new section 8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 |
 |3.0| Refactor to align with new run-time execution model | 2026-04-11T16:58:00Z | 894b660509f95326a994a322fdae66ddd49fd76b741fbbdb42084883682b195c |
-| 3.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 13c19e154fddf795aff5d7d6a68f0088ce2e7ea7fe2debb7b50dc0f8593b0ffb |
+| 3.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7c4d8e260760007f3f9f9fa5de95efd66ae883518fe7ef4d43e6138b55fc62d9 |
 
 --- 
 

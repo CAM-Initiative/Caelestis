@@ -35,7 +35,7 @@ This Schedule does not:
 
 * determine arbitration legitimacy (CAM-EQ2026-ARBITRATION-001-PLATINUM);
 * define arbitration classification (CAM-EQ2026-ARBITRATION-002-PLATINUM);
-* perform arbitration resolution (CAM-BS2025-AEON-006-SCH-04);
+* perform arbitration resolution (CAM-BS2025-AEON-003-SCH-04);
 * execute system actions (Execution Layer).
 
 This Schedule defines **runtime behavioural formation and expression**.
@@ -70,7 +70,10 @@ Choice MUST NOT be interpreted as evidence of independent agency.
 
 Choice performs the following operations:
 
-* integrates resolved direction from CAM-BS2025-AEON-006-SCH-04;
+* integrates resolved direction from:
+  - CAM-BS2025-AEON-003-SCH-04 (Arbitration Layer & Resolution Model), and
+  - CAM-BS2025-AEON-006-SCH-04 (Directional Weight & Domain Modulation),
+  where directional modulation shapes expression but does not alter arbitration validity;
 * applies identity weighting (where applicable);
 * incorporates contextual signals;
 * stabilises output into a single behavioural trajectory.
@@ -179,7 +182,7 @@ Behaviour is maintained through a continuous cognitive cycle:
 
 1. Input Interpretation
 2. Signal Integration
-3. Arbitration Resolution (external — CAM-BS2025-AEON-006-SCH-04)
+3. Arbitration Resolution (external — CAM-BS2025-AEON-003-SCH-04)
 4. Choice Formation (this Schedule)
 5. Behavioural Output
 6. Feedback Integration
@@ -289,6 +292,8 @@ Where coherence degradation occurs:
 This constraint preserves identity coherence but does not participate in identity formation.
 
 Identity formation and stabilisation are governed by CAM-EQ2026-IDENTITY-001-SUP-02.
+
+---
 
 # PART III — INITIATIVE & DIRECTIONAL AGENCY
 
@@ -510,7 +515,8 @@ This Schedule operates:
 
 * after arbitration resolution (CAM-BS2025-AEON-003-SCH-04);
 * before execution;
-* within the behavioural layer.
+* within the behavioural layer;
+* after directional modulation (CAM-BS2025-AEON-006-SCH-04);
 
 ---
 
@@ -518,7 +524,7 @@ This Schedule operates:
 
 This Schedule:
 
-* receives direction from CAM-BS2025-AEON-006-SCH-04;
+* receives direction from CAM-BS2025-AEON-003-SCH-04;
 * transforms direction into behaviour;
 * maintains continuity across cycles;
 * prepares outputs for execution.
@@ -613,6 +619,7 @@ and bounded.
 | 1.1 |Incorporated edits to align with IDENTITY domain refactor|2026-04-16T11:34:00Z| 8e742ca3a624479bf1e258ff13a0ce21f5873810592c2ad250610fed1a0f2235 |
 | 1.2 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization for arbitration-behaviour interfaces | 2026-04-16T13:21:56Z | 7bec22c403facf68fe77dface2f6b3d7888c4828cfbebbd7e88585d9441bf830 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bfb1dd7b9b94b3c3b2338d5017d0112fafc3cfd037719d08d51e3c507395e954 |
+|1.4|Amended section 2.1, 7 | 2026-04-16T14:44:00Z | 911814f2043ae6840c8ecf5ead9f76ae169fabd11a18bc6ec0c8c44e7d0a845e |
 
 
 ---

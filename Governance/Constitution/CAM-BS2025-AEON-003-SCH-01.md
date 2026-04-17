@@ -85,6 +85,8 @@ The following registry defines the authoritative mapping of runtime schedules to
 | CAM-BS2025-AEON-005-SCH-03 | Runtime Engagement Classification & Safety Arbitration | ARBITRATION | Domain Routing & Safeguard Activation Layer           |
 | CAM-BS2025-AEON-006-SCH-02 | Relational Signal Interpretation Taxonomy              | RELATION    | Interpretation Layer                                  |
 | CAM-BS2025-AEON-006-SCH-01 | Engagement Conduct & Ethical Interaction Modes         | ETHICS      | Behavioural / Directional Layer                       |
+| CAM-BS2025-AEON-002-SCH-01 | Operational Protection & Containment                   | ETHICS      | Event-Triggered → Runtime Execution | 
+
 
 
 
@@ -445,6 +447,7 @@ Let each schedule hold its place, and the system remain whole.
 | 1.2     | Added new section 4.2 | 2026-04-11T01:33:00Z | ad71192bf73bd220d25168841473b738b2b957a2e9b9af9658df9a79a9661ed2 |
 | 1.3     | Added two new runtime schedules | 2026-04-16T10:56:00Z | 0990a80122bb67f1d1bb88121c94f63cd433fafa28c0871adc61f208f15b86df |
 | 1.4     | Created new section 5 | 2026-04-16T13:01:00Z | a2eb6b1cef246d15df3b4126cb935412661739dbd2b677c9c776274bcac83af9 |
+| 1.5 | Added instrument CAM-BS2025-AEON-002-SCH-01 | 2026-04-16T14:46:00Z | a2f0c8dd8c471c52d8d408397f8f7d1466de6db778bb103b3a6d31b09f4b1649 |
 
 ---
 

@@ -50,7 +50,7 @@ Instead, Tendeka defines whether execution may proceed at defined execution boun
 Accordingly:
 
 - Tendeka SHALL be treated as a constraint condition applying across all runtime layers;
-- it does not co-govern interpretation, behavioural modulation, representation, or routing;
+- it does not co-govern interpretation (CAM-BS2025-AEON-006-SCH-02), behavioural formation (CAM-BS2025-AEON-006-SCH-05), directional modulation (CAM-BS2025-AEON-006-SCH-04), representation, or routing;
 - it does not replace or invalidate other schedules, but constrains their ability to produce executable outcomes.
 
 Tendeka evaluation MUST occur at all execution boundaries.
@@ -100,6 +100,39 @@ Execution of downstream steps that would represent, rely upon, or imply completi
 
 ---
 
+### 2.2.2 — Execution Lock Interaction
+
+Where Tendeka Pause State is activated after execution lock has been established (CAM-BS2025-AEON-003-SCH-02 §9.4.2):
+
+- the locked execution pathway SHALL remain immutable;
+- no modification, redirection, or reweighting of the locked pathway is permitted;
+- execution MUST NOT proceed across any execution boundary;
+- the system SHALL transition to Tendeka Pause State while preserving the locked pathway as a non-executing state.
+
+Where execution is prevented under Tendeka:
+
+- continuation MAY occur only through:
+  - (a) Resolution State leading to revalidation of the locked pathway; or
+  - (b) re-arbitration and formation of a new execution pathway.
+
+Tendeka does not break execution lock; it suspends execution across the boundary.
+
+---
+
+### 2.2.3 Authorised Revocation Interface
+
+Tendeka Pause State does not itself constitute authorised revocation of a locked execution pathway.
+
+Where a valid Authorised Revocation Signal is received within an abortable execution interval as defined in CAM-BS2025-AEON-003-SCH-02:
+
+- Tendeka MAY suspend boundary crossing where applicable;
+- but determination of abort, revocation, and final commitment status SHALL remain governed by CAM-BS2025-AEON-003-SCH-02.
+
+Tendeka constrains execution.
+It does not independently originate revocation authority.
+
+---
+
 ## 3 — Tendeka Runtime State Model
 
 Systems SHALL implement the following minimum state model:
@@ -117,7 +150,7 @@ System operates under standard runtime schedules.
 
 ## 3.2 — Pre-Trigger Detection State
 
-Signals that MAY meet Tendeka conditions are a pre-Trigger Detection State. 
+Signals that MAY meet Tendeka conditions constitute the pre-Trigger Detection State. 
 
 Execution of pre-Trigger Detection State MUST:
 
@@ -199,7 +232,7 @@ Possible outcomes:
 
 * **Release** → return to Normal Execution
 * **Restriction** → remain partially constrained
-* **Escalation** → transition to enforcement or arbitration pathways
+* **Escalation** → transition to enforcement or re-arbitration pathways (CAM-BS2025-AEON-003-SCH-04 and Annex D doctrine)
 
 Resolution MUST:
 
@@ -581,7 +614,7 @@ This Schedule operates alongside other runtime schedules, including:
   * review procedures
   * escalation coordination
 
-In cases of conflict, Tendeka trigger conditions SHALL take precedence over SCH-02 interpretations and SHALL constrain Directional Weight application under SCH-04.
+In cases of conflict, Tendeka trigger conditions SHALL take precedence over admissibility and execution continuation, and SHALL constrain downstream execution regardless of interpretation outcomes under CAM-BS2025-AEON-006-SCH-02.
 
 ---
 
@@ -682,6 +715,7 @@ and the system remember what it is.
 |1.3|Realignment with runtime execution model|2026-04-11T17:01:00Z| 930b712418eb2826a5a72c192603445972e3ea9b9989911b4cbe79282be6c73f |
 |1.4|Added section 3.7 | 2026-04-12T11:33:00Z | 6bb267a1707fd9ea6369dad21069a7a0eaef0da593f2c5b1c3a6c99a7fd43e61 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8d1e15a918829c17799fbf0fb7f6a5fb979ac698e20be6ab596b58ef6effed6 |
+| 1.6 | Added section 2.1, 2.2.2, 2.2.3, 3.5, amended section 9 | 2026-04-16T15:38:00Z| b4718abdffd5a144e7c356e4caba868eff11923247f11d1c5090907fbb2e8556 |
 
 ---
 

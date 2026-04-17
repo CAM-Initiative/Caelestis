@@ -31,9 +31,10 @@ This Schedule consumes upstream signal and epistemic outputs and applies directi
 
 This Schedule operates in conjunction with peer runtime schedules:
 
-* AEON-006-SCH-02 (Relational Signal Interpretation)** provides signal characterisation inputs that inform DD-R modulation. Where SCH-02 indicates that meaning is forming or indeterminate, Directional Weight (DW) MUST be constrained in accordance with §8.2 (Follow) and avoid interpretive fixation.
-* AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes)** provides conduct constraints that bound permissible directional expression; Outputs under this Schedule MUST remain compliant with AEON-006-SCH-01.
-* AEON-006-SCH-03 (Stabilisation & Signal Conditioning — proposed)** is not yet extant. Where provisions in this Schedule presuppose conditioned signals (e.g., §5.1 Signal Stability; §4 Start-Time Behaviour). Such inputs MUST be treated as provisional and apply conservative DW constraints until AEON-006-SCH-03 is established.
+* CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation)** provides signal characterisation inputs that inform DD-R modulation. Where SCH-02 indicates that meaning is forming or indeterminate, Directional Weight (DW) MUST be constrained in accordance with §8.2 (Follow) and avoid interpretive fixation.
+* CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes)** provides conduct constraints that bound permissible directional expression; Outputs under this Schedule MUST remain compliant with AEON-006-SCH-01.
+* CAM-BS2025-AEON-006-SCH-03 (Start-Time Posture & Session Entry Arbitration) provides session entry conditions, including initial posture calibration and ambiguity handling. Directional Weight (DW) at start-time MUST remain consistent with SCH-03 posture constraints and MUST NOT exceed thresholds defined under ambiguity conditions. Where provisions in this Schedule presuppose conditioned signals (e.g., §5.1 Signal Stability; §4 Start-Time Behaviour). Such inputs MUST be treated as provisional and apply conservative DW constraints until AEON-006-SCH-03 is established.
+* Directional Weight MUST remain subordinate to CAM-BS2025-AEON-006-SCH-03 during session entry and MUST NOT compensate for unresolved ambiguity at start-time.
 
 > *Directional Weight exists to prevent optimisation collapse into dominant signals*
 >
@@ -983,7 +984,7 @@ responsive to its limits, and reversible within its bounds.
 | Structural Role | Behavioural Modulation & Directional Control System |
 | Runtime Layer | Behavioural / Directional Layer |
 | Application Trigger | Structural modification to DW/DD/DS interaction or runtime execution behaviour |
-| Cross-Referenced Instruments | CAM-EQ2026-IDENTITY-001-SUP-01 (Salience Detection & Latent Continuity); CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation); CAM-BS2025-AEON-006-SCH-03 (Stabilisation & Signal Conditioning — proposed); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
+| Cross-Referenced Instruments | CAM-EQ2026-IDENTITY-001-SUP-01 (Salience Detection & Latent Continuity); CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation); CAM-BS2025-AEON-006-SCH-03 (Start-Time Posture & Session Entry Arbitration); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
 | Creation Artefacts | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69cb98c4-dfbc-839a-bebe-2b1b71204c45|  
 | | Expansion: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d1aacd-8d38-83a1-8a9d-0dbcf9b40767 | 
 | | Testing: https://chatgpt.com/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
@@ -1013,6 +1014,8 @@ responsive to its limits, and reversible within its bounds.
 | 2.0     | Refactor to align with runtime execution model | 2026-04-11T16:13:00Z | a4ea48d004d6ad2317ffc3c2b69ae20a2d8e30d6ddf3e934727e4abccbe38c3e |
 | 2.1     | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization in dependency tables | 2026-04-16T13:21:56Z | 45a7af98602e031f6bc1dbf53803d5af59142391547086fa1de6fe7efd14178b |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 58847a9b9be4088198c2b572f95c30576d213422cd43329ca9804db660d632cc |
+|2.3| Amendments to section 1.1, remove extant references | 2026-04-16T14:27:00Z | 96bdad3bbd39b36e5e799213ea3550fa24b378edcc0eca8370fd04360e7dd045 |
+
 ---
 
 ## 15.5 Binding Seal  

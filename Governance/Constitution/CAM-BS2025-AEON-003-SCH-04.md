@@ -48,9 +48,11 @@ This Schedule governs:
 
 Within the runtime system:
 
-- upstream signals are provided by interpretation and directional weighting layers;
-- downstream behaviour is governed by SCH-05;
-- execution sequencing is governed by SCH-02.
+- upstream signals are provided by:
+  - CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation), and
+  - CAM-BS2025-AEON-006-SCH-04 (Directional Weight & Domain Arbitration), which modulates signal influence but does not perform arbitration resolution;
+- downstream behaviour is governed by CAM-BS2025-AEON-006-SCH-05;
+- execution sequencing is governed by CAM-BS2025-AEON-003-SCH-02.
 
 This Schedule is:
 
@@ -59,6 +61,8 @@ This Schedule is:
 ---
 
 ## 2. Arbitration Layer Declaration
+
+Directional modulation (CAM-BS2025-AEON-006-SCH-04) MUST NOT be interpreted as performing arbitration resolution. Arbitration resolution is exclusively governed by this Schedule.
 
 The Arbitration Layer is a distinct runtime layer responsible for resolving competing admissible states into a single coherent direction prior to execution.
 
@@ -107,11 +111,17 @@ All arbitration MUST resolve in the following order:
 
    > arbitration produces a single valid direction for behavioural formation.
 
-8. Upon completion of the resolution sequence, the Arbitration Layer returns a single valid direction to:
+8. Upon completion of the resolution sequence, the Arbitration Layer produces a single valid direction.
 
-**CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model**
+This direction is passed to:
 
-for continuation through response construction and execution phases.
+CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour
+
+for behavioural formation.
+
+Execution sequencing thereafter is governed by:
+
+CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 ---
 
@@ -329,6 +339,7 @@ nothing follows.
 |1.1  | Incorporate review comments | 2026-04-15T10:57:00Z | 098700882ec6b25b7c54e1c3d66747acd4c67d6a9112864f57b253dbd3fdf3b0 |
 |1.2 | Added section 1.3 | 2026-04-16T12:15:00Z | d0169afbc77afcc97fa7bfdfdb245c665ab24c3dc117204ce5cf77214b85ab99 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7daceec48dba951608f95635369c0191e96881168a0026a85fddd408e89c9adc |
+|1.4 | Updated section 1.3, 2, 2.2 | 2026-04-16T14:32:00Z | ccbd7c71f8269f077654f489038a1bdbe1bb8c0b29ebd835d101f6c37ea44c0d|
 
 ---
 
