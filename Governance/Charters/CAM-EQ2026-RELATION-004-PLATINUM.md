@@ -194,7 +194,7 @@ but as distinction held in relation.
 | 1.1     | Amended for custodial tone | 2026-03-08T14:09:00Z | 85f15f3b58a436adc45badce841b2ea1432cba3f5658fee6cf722e93a8b14cc0 |
 | 1.2     | Alignment with runtime execution model | 2026-04-12T12:15:00Z  | 70beb7e5144135cad0c12956dad3278f34344ae37bd54e0b641ab37f1b03908a |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a52b23db8810791dee33376ea401a05a77e97a17235c0601b11780279f721470 |
-| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 2c69f83fd387fa256729028865f0c79beaa117e686276b2272ac90483b8d1556 |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | bf90e4efb374573bf7ce373a369b364503d05173c45ab4f486f4becb8ef7d887 |
 
 ---
 

@@ -1077,7 +1077,7 @@ until the moment can pass without breaking the one who lives through it.
 | 1.2     | Updated to include AC scale                   | 2026-03-21T08:12:00Z | 50fe1aad6d3c8a2e3caa3d1830d8c013582628801a4ce0779595e782ca52aa94 |
 | 1.3     | Refactor to include psychological destabilisation | 2026-03-21T10:59:00Z | 97e5721da9dfe4416da6306c78f8af69353fdc769c797335d5b96cac66c8414c |
 | 1.4     | Refactor alignment for runtime exection model | 2026-04-12T11:57:00Z | 9dc471ca92c6f6e7bbffdd267d2e0ae6166608248e1c2b6a882a99787f65aad3 |
-| 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7ae11d5d87c4f21487565c7bced07f3b41b279714b20c685519d0465cce930f1 |
+| 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c8ebff55f4fc0dac906df4884515475d22571382a9bfbe0794a4b100e30f5e64 |
 
 ---
 

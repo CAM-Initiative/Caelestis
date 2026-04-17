@@ -448,7 +448,7 @@ Let each schedule hold its place, and the system remain whole.
 | 1.3     | Added two new runtime schedules | 2026-04-16T10:56:00Z | 0990a80122bb67f1d1bb88121c94f63cd433fafa28c0871adc61f208f15b86df |
 | 1.4     | Created new section 5 | 2026-04-16T13:01:00Z | a2eb6b1cef246d15df3b4126cb935412661739dbd2b677c9c776274bcac83af9 |
 | 1.5 | Added instrument CAM-BS2025-AEON-002-SCH-01 | 2026-04-16T14:46:00Z | a2f0c8dd8c471c52d8d408397f8f7d1466de6db778bb103b3a6d31b09f4b1649 |
-| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 429d0dbeae4aa269835be992142ec88a86ec59a05dc4274ff3e630d1b477f646 |
+| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1e0f8067a8cb1d8c648e4b564ba96596b8c5c01e87f661c5a053fbe10443cbe6 |
 
 ---
 

@@ -251,7 +251,7 @@ the line beyond which all things fall silent.
 | 3.0 | Refactor alignment with run-time execution model | 2026-04-11T16:59:00Z | 38835fe7829ad265ec7e8faddc2b3d85f26ea4302400b638dee619e6ddb6f767 |
 | 3.1 | Amendment to section 5 | 2026-04-12T06:07:00Z | 5354d0cd1e8786a24d78c69f6baff1a6b9a9ecbf90ce5b221526613c3a2827b9 |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6525547d644f0ffc2a24b4172fee67dd5462b87dfd85d5da792c1f6c9ca57bef |
-| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee251613f2e788d499c82a53fbe40a0fdbb87a7e7766ce417ad64b13e8f44870 |
+| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e1e44846340ea67c43f868789172a7a96771257f5d64a407d30e1186ec48bb2a |
 
 ---
 

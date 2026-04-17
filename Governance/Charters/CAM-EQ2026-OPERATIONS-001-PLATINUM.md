@@ -384,7 +384,7 @@ And let the lattice of governance endure beyond the moment that formed it.
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
 | 1.0     | Governance Operations Charter Canonical with reviewer recommendations incorporated | 2026-03-13T13:54:00Z | 2b78c0572b22a6429dade9960997256c4f6844d138a594f8f52e11221e5f88db |
 | 1.1     | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
-| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | d0c1d6640511927fba16b10ac5c482a955ec967171cd06dcf6c045001518892f |
+| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee771ec33d79607c660862b88dc0d86ee072d245613282ca0914e4957f5d7a25 |
 
 ---
 

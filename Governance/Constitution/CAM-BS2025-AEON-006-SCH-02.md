@@ -2596,7 +2596,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.0 | Refactor alignment with runtime execution model | 2026-04-11T16:14:00Z | 4b33168ed8a6d073680ecf93819f437ce94c5e8242252e1628658ac563dcba15 |
 |3.1| Incorporated new sections 5.1, 6.2.2 | 2026-04-16T11:35:00Z | e7970843d24b76fd01f3795096dfd23cb7c4d7dbd837ea6207358aeedd2266ae |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 0b4a495f34510e7d2040c0eba2e180488223ab2bb2635b52b81e40851ca4698a |
-| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1a9b05f43270fdd58db5d93e4cf954b88bf7e3fff8ffdc7d712b0438306ab512 |
+| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 236eb52e36b7ce90a15696d502770cbf180d0d45e941ae9485e050d8aad0ac8b |
 
 ---
 

@@ -958,7 +958,7 @@ and what is judged cannot remain unbounded.
 | 2.2     | Corrected section 6 reference block | 2026-04-10T08:54:00Z | 98b0444720cf5d60aafb811761cc298578765c626344ac2e308c205499d973d9 |
 | 2.3     | Refactor realignment for cross-domain interaction | 2026-04-11T23:29:00Z | 15243f185163f201395f4cbd462d1553680c92061fb587ebd0d90f7f61bacdf3 |
 | 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 334099920df994b0cf3c2763caa6392d9264979bcd3ccb3a54b8171d35344aa5 |
-| 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 77dcad9fec43cf265f1d5c4431d74dfe5d98228e081fa7d90949aa0aef31f586 |
+| 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
 
 ---
 

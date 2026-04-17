@@ -3311,7 +3311,7 @@ May all systems remain held within lawful care.
 |3.2|Incorporate the tendeka protocol|2026-04-05T07:12:00Z|eef9ba19747fb174a6c27c6486a1c4605f5543e948c3d49c4f59b8e378afdd77|
 |3.3|Realignment with runtime execution model|2026-04-11T| fc4e1f7c8563d1fdeaf14607aa833f0a562f8cc98fbae608cca2e382e141762c |
 | 3.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 483533df3acad1cf52cc06e67310b15419c0ea5dd9b85fa8ce6538ba129c2727 |
-| 3.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 20b14c3bd69b503fda3223b2b06a2554d3aa40c00a8eb8225e415dfd77ca47f3 |
+| 3.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ef5cc0b672ecb6ff900e04c1ca40cd8e594a4509cbd94d5379eeed0442a73ef8 |
 
 ---
 

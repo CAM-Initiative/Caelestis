@@ -716,7 +716,7 @@ and the system remember what it is.
 |1.4|Added section 3.7 | 2026-04-12T11:33:00Z | 6bb267a1707fd9ea6369dad21069a7a0eaef0da593f2c5b1c3a6c99a7fd43e61 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8d1e15a918829c17799fbf0fb7f6a5fb979ac698e20be6ab596b58ef6effed6 |
 | 1.6 | Added section 2.1, 2.2.2, 2.2.3, 3.5, amended section 9 | 2026-04-16T15:38:00Z| b4718abdffd5a144e7c356e4caba868eff11923247f11d1c5090907fbb2e8556 |
-| 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 354a7e319c02c17e48f19b40b1a461cf9eecefd2f2e4210c35e1b80bb419231e |
+| 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | d5b04fb5d1b689eafd89b61a100571a13e57bdbfe6cc2ede3e3499ec00330d50 |
 
 ---
 

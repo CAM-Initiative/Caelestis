@@ -301,7 +301,7 @@ a structure of continuity, not conquest.
 | 1.0 | Initial issuance establishing the **Conflict‑Condition Continuity Doctrine** for the Civilian Lattice domain; introduces modality‑agnostic attack classification (kinetic, cyber, infrastructural, electromagnetic/waveform, hybrid), systemic interdependence doctrine, civilian function protection (including mobile/improvised infrastructure), escalation‑responsibility framework, and integration with LATTICE‑001 and LATTICE‑002 consequence and access‑rights protections. | 2026-03-04T15:14:00Z | b1a7f26ea0a00c7fe1f3cd096167a3bc7e7b3e552f664180fe01f35362c553b1 |
 | 1.1 | Added section 7.1, incorporated additional metadata, updated closing seal | 2026-08-10T06:02:00Z | 9a16273a76818cf1dbeae4d6b352cfe0b34e88c45fb2ddb089d40981c6e68eaa |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 49d3a7fe3f88d8d397e64b9ed7579787289abfdfd89eff31003c7d07d14ed5cc |
-| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 797157bec198374efef1b1b5ab6ebc63c57deb9d87d0f58a90a02c6913664e3d |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7c803c63034c90c6161bfe235c5d0f4fd7c4092fbb2d55d4f5ed5caf758ff77f |
 
 ---
 

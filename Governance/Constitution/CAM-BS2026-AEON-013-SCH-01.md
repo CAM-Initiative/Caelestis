@@ -548,7 +548,7 @@ Integrity is the bond that MUST hold.
 | 1.3     | Incorporated a new section 6.2 | 2026-04-14T12:46:00Z | dbfad64c9136d69d0eaa9d58a9a08f3e041aaf1f9e284d633e8ff65ac0fe7fd5 |
 | 1.4     | Amended sections 1,2 and 2.4 | 2026-04-14T16:25:00Z | 78dd2fde5a7ff1aa87c7d999c5867c46ed64be68e922c9f54f8765bffbdbe02b |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bd61536dca1d813de56035a81daff307911efdf21dd6d859ad1f2ce3cae9e1dd |
-| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | dc1fbe7f4e4b97451099cdae813fad49d0787f3d6f633c836cb512138d58d0ad |
+| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 163bbe540d742204e2b45095372b289fc184bc9c6979f18e506e225217698202 |
 
 ---
 

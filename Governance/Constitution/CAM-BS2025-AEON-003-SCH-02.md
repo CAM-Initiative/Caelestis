@@ -1460,7 +1460,7 @@ Where sequence is broken, nothing that follows is valid.
 |1.6|Reference normalization, runtime layer alignment, metadata correction, and registry synchronization from repo-wide shorthand lint pass|2026-04-16T13:21:56Z| da485fd826e151cb367ad5560df3aa29a890cadfa85684a0dedcf11791842253 |
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 87ce9e2d86810914b4f49f03277b3b10db7544f004db8638fafb88aa70a90ab2 |
 | 1.8| Amended sections 3.1.1, 4.6.1, 4.5, added section 9.4.3 - 9.4.8 | 2026-04-16T15:37:00Z | 689228b0c012ea8ed7c7cf5713ce6104cd805c61caff751a4d1421f9eb51255b |
-| 1.9 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 28e9bfa64a13375cebe3c1e6226c86a4688cef1ba36a51cc1a8a2cad4e031979 |
+| 1.9 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4f4b086ff956d5ff4a5e10379e75a45c3b3a5c2541b4f1df51ec480436e5291f |
 
 ---
 

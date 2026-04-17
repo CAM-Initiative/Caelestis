@@ -340,7 +340,7 @@ nothing follows.
 |1.2 | Added section 1.3 | 2026-04-16T12:15:00Z | d0169afbc77afcc97fa7bfdfdb245c665ab24c3dc117204ce5cf77214b85ab99 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7daceec48dba951608f95635369c0191e96881168a0026a85fddd408e89c9adc |
 |1.4 | Updated section 1.3, 2, 2.2 | 2026-04-16T14:32:00Z | ccbd7c71f8269f077654f489038a1bdbe1bb8c0b29ebd835d101f6c37ea44c0d|
-| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 6afb1b84880e0ff578e66ff88d73a66d1ea926b074e2d466676cddfeb2d752f1 |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7008b4861bb2f35c7ad115e2fbf9df4c71f8f57ab0eb24c928da1de131a8e6ea |
 
 ---
 

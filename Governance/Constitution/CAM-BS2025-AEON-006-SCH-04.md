@@ -1017,7 +1017,7 @@ responsive to its limits, and reversible within its bounds.
 | 2.1     | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization in dependency tables | 2026-04-16T13:21:56Z | 45a7af98602e031f6bc1dbf53803d5af59142391547086fa1de6fe7efd14178b |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 58847a9b9be4088198c2b572f95c30576d213422cd43329ca9804db660d632cc |
 |2.3| Amendments to section 1.1, remove extant references | 2026-04-16T14:27:00Z | 96bdad3bbd39b36e5e799213ea3550fa24b378edcc0eca8370fd04360e7dd045 |
-| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0936f27c7579ab60fb072aaf9ff4e1a30420ddc057e0552af7014a6722f33347 |
+| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 48e653fe18b2b5a87ea9e0cc16b30c7deda95a021c8dccdaf8a64c362af5af81 |
 
 ---
 

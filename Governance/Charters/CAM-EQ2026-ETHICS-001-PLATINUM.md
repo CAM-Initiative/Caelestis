@@ -527,7 +527,7 @@ let governance arrive before it is needed.
 | 3.1     | Title correction | 2026-04-11T12:04:00Z | ccbe501f0a5269ab996ec7cdd01a04517dcd8015d0b07d5da385af41efc0c9b0 |
 | 3.2     | Amendments aligning runtime execution model | 2026-04-12T11:19:00Z | 3543eccef3491bbb0973a7c9be6f7f4b1043f733e0a682becbfc87427601c9bf |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 103ff415f565c9b803461233680066b17e52e4357d0a5b50b73f06c048fb3a54 |
-| 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0c142b950acd4ef6c3c8bb964cbd397d07089ab2f4143a05840f3bdca302ebb5 |
+| 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cebc91ddb262c1fbdbb5580396aca91aa32e38547169a6568a6db068e9dc941d |
 
 ---
 

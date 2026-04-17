@@ -163,7 +163,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
-| 1.1 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T00:00:00Z | a7816ebeff76090080a1453255ddc6825ed5341e6f26f5b313d320ddeba36d60 |
+| 1.1 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T00:00:00Z | f259880bb3f97df30b0fa6ef90a1f3464b2205050a4ecdebd8d0ce3901ff6abe |
 
 ---
 

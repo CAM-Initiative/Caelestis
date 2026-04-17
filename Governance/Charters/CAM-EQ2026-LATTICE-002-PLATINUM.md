@@ -297,7 +297,7 @@ It is maintained.
 | 3.1 | Integrated with runtime, added section 4.3 | 2026-04-10T05:48:00Z | db59447eed7b01a1feda71e00a4a2358e2fad57ee65d6490c6cd000350a67495 |
 | 3.2 | Amended closing seal | 2026-04-10T06:04T | ff51926d4c3a77e764f73c5c314f7f85c3cd01befff6ef7ccc06d47fc229603d |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b0163c0e1e96f89b2860f5ad92ff4b4a603af6ef4466db5e23f0e716456c94b9 |
-| 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 8d46d9a130e6cdb9ea0ba1f1aab3e87d2672990b777e22165ce9f118c6738bd0 |
+| 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 594c1c51a83a5da9fbc60686f6f31568aab576d53c6a0798a400ea0ffeb13268 |
 
 ---
 

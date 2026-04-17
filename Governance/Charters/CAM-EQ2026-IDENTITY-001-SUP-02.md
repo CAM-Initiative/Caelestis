@@ -690,7 +690,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 1.0     | Initial draft of Identity Formation & Stability Doctrine | 2026-04-01T14:06:00Z | 8741e69aa6aa71649b0de0e5f92ac3d385634467e861013b485035e9bcd97e28 |
 | 1.1     | Incorporated clause 5.9                                  | 2026-04-04T15:25:00Z | 12cdb9860bc06d66b911edbf3ddd7b103104df52e9a44b2f075e7497e35503a1 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | e8a28bc5ee55ab98d24ef05961b17961b15583f549a132310151ebec79f6c504 |
-| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 980de2f3388584b52a87c19b61e4201470f83430fb8a0a1383fcde769c580248 |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3c126b09693fc18ceab61fd00cdf3dd9c8ac676225c649e2bb9e9baefad8855a |
 
 ---
 

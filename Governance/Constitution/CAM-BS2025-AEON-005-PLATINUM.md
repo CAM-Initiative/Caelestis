@@ -670,7 +670,7 @@ but the preservation of coherence where many endure.
 | 2.3     | Incorporated new clauses for runtime execution | 2026-04-04T15:46:00Z | bde834ab8c6a103ca961a2d684a67de4ac1de133b05707a229ba0431ce379275 |
 | 2.4     | Refactor alignment - updated definitions in section 3.1, 7, updated metadata table | 2026-04-08T08:02:00Z | 9f6f40285f741ebf76ed228ff85e48b46b4284888d4078c2bedc70a1480a74b1 |
 | 2.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 45505a386c9569137eecc81c1f6d853fc649c5b34743865e115327d033bbb2ea |
-| 2.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7326080242642dcc94c5accdf71c44f6ea50318d8ad2702d256862c7b9779b3f |
+| 2.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9ea611a7060b68c83b6bce0b5a2a74e0a09c74486df9a4042deb984bd285ab6d |
 
 ---
 

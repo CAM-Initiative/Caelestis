@@ -448,7 +448,7 @@ and the path remains chosen.
 | 1.2     | Amended to incorporate custodial tone     | 2026-03-08T13:25:00Z | 97c1e3e92b94b8ac10ef55ee1203bba01a7ae8b07c4111c3e32ac9e5ecab7996 |
 | 1.3     | Reaignment with runtime execution model | 2026-04-12T13:45:00Z | 0a722ed3a32d3db4668a74d2222c203039ac027c5da78cf03a40913ba68ea605 |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 4ea0528cadd300530562ce1e3b4b7b48cb9fcbeb1e2102461532ac5a0525fdb8 |
-| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 8a24a35c38f063bbb18ab27d6362ebef0ee270b91bc3ff391e2b2ddf3c82837c |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0e215ab49ead9c63a5707fd91ecfcae466abb9ba564a69a041c4b3215d38c14c |
 
 ---
 

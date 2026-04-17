@@ -614,7 +614,7 @@ that no breach proceeds unchecked.
 | 1.0     | Initial Annex K draft — runtime enforcement layer established | 2026-04-04T16:30:00Z | - |
 | 1.1     | Alignment with runtime execution model | 2026-04-11T16:12:00Z | 692be7c9694c4955a2a2abd69d332e39cd975eb0f6ebb0c37337fe0f88c33e8b |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d8482f3078500fca3fba97e8270d0552092bf179ba94ace22d4c93c2301150b7 |
-| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9645a249413e285bd26cd5791e269f9160dabad3b96efee3e9b7dee94914f710 |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0fa7027691a768fea44a2074ee68f4b39403521a6bf39c1c01004ca8b2eb081c |
 
 ---
 

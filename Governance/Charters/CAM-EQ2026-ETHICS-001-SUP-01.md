@@ -295,7 +295,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.0     | Refractor — Migration from CAM-BS2026-CHARTER-044-PLATINUM | 2026-02-22T12:32:00Z | d7ae769aa365ad02676716fb6ae4cb50fbe21ab5af17ad055b6b5cf0c63c470e |
 | 1.1 | Refactor alginment with runtime execution | 2026-04-11T00:05:00Z | 3ba45f7fc5238f6851e134a63a37b3b0978e9e78000433e4cf3de8558bc942f5 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f9e333105a2449188cfc881f36cef10aa9ec9f803e0db952732ded79d9295a32 |
-| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ccaff92d8d6ea56d394724b0f6e02907dfc8a22f6f6498e72f4e16f4751701f6 |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f8e4139f4ab9981452c2ab1df8133675406f78b7184d9feac71354a2aa39a3c9 |
 
 ---
 

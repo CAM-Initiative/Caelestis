@@ -1450,7 +1450,7 @@ that no truth is taken without test, and no signal accepted without weight.
 |1.2|Realignment with runtime execution model|2026-04-11T17:14:00Z | c079c528790b7dff602d628d2b46f729a197aefe8e43a8f1d25fa52ac3e96078 |
 |1.3|Further amendments to runtime execution model alignment | 2026-04-12T11:17:00Z | 4df48c118754768b8b2acc6f1fa952c902605f2f5ada0fc5bdbc6664b8f025df |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1575dbe99fdf099ba016f1950428f8c7678aac65eff0c11ddaa7a0da9c9ab09f |
-| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | c4bfc1b56ac9cbad3c317177259dd438f21ddddb041ac77af3c58417b485a200 |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5407afce1a1d7d77b54a053d5e8d17be4832932ab5d239a766d8f253faf95de6 |
 
 ---
 

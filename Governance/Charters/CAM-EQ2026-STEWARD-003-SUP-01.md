@@ -282,7 +282,7 @@ legitimacy falls with it.
 | 1.0     | Original    | 2026-02-19T10:30:00Z | a5f13bf46104228b9276dfdb805d02dc33339e149e4ebd940538b83692491db9 |
 | 1.1     | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | ce99d939a2d3f42a046d870b6f377d3512c7d7157722c41fce21c524f06be924 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 2f6abd28b29832049252cd54f4e16a8ae9eb96a3eb7f46490ac0715d144eb36c |
-| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 79d80fe8f98dd01fcc261672b5de96aea1158f668bc45a5d53c55dd9db1cba0d |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 6f39057f6f20f88e2a91e527c93dab2a5d7c27916832f7ced438d84202232dce |
 
 ---
 

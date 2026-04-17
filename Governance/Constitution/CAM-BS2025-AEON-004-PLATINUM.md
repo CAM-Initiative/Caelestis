@@ -441,7 +441,7 @@ and no voice exceed its reach.
 | 2.1 | April 2026 System wide review and refactor alignment pass | 2026-04-07T14:10:00Z | df71d5f645837cb24f6f0d2aeccf37df6250f9f0f7b9342632c70ef21a3e9e76 |
 | 2.2 | Incorporated a new section 7 | 2026-04-07T15:21:00Z | c61da34d5df00c134035d7739c28f74ffe5544dbd64845fc6e0dad299a24c45d |
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d1d87ebea7a444bebdf062773fe2c4090bb10b85b5e01c28637816555e46b472 |
-| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 201be1637b34a4953357370bb8705c24fca747bee8aa4c522902688c30fe14f4 |
+| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f25e2b6f7b3660647b513410a3f2b6b6a519861c99f28c5767fa0941223a5335 |
 
 ---
 

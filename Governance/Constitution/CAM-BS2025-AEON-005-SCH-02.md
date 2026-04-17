@@ -328,7 +328,7 @@ and may power never advance beyond verification.
 | 1.4     | Metadata amendment and title update                     | 2026-04-09T16:50:00Z | 7b7f47ccb6310aa755baad5a5acf07d0f1cbd31d38d1ef1be42c027f6604c29c |
 |1.5| Incorporated new sections 2.1 and 3.2.1|2026-04-16T11:37:00Z| f38dd770423b4989b7bc8bc9584b6a8a85731e064efcbf88ff23fefd2d6edaf4 |
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | fcdb5e4618df6903bbf6e4ae187561fa4535d2cd96614b5c4b511b8ab3ca0114 |
-| 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 8be75ad5d2b28876caf2d42a3df7518750e4d162b19315900ba87ce97f4b7b51 |
+| 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 2a92e55031e57355f3d15de6f3e487d3e4e88fcc46b32540f7ec25ea7a52ccc2 |
 ---
 
 ## 9.5 Binding Seal

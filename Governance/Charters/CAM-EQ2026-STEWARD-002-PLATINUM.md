@@ -853,7 +853,7 @@ nothing binds.
 | 1.4     | Added sections 6.8, 7.4, 8.1 and 9.7 following external review | 2026-03-01T07:09:00Z | 95bac71d19518e1e19a3bcbd3e3297a2fea637b043fd15e2ad1fcea3f247bbfb |
 | 2.0     | Transition into the Stewardship Domain | 2026-04-13T13:34:00Z | 067c5665638970c532051cfe9b3552539f6b4b2e0ea79a7301076cb1156c9e72 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 143b8bd8572f118630b1e006268c3f50a9238de41b0edc25ef2dcb230279131e |
-| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | baf55600aa6c115db2a4f6a0f79e21824919d65aecd7a081d63b662cb516e030 |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 05cacd41f908209a06a87136fe920b7c6cd9876e0a7ae9eb4d6416fb4fb4ce54 |
 
 ---
 

@@ -1098,7 +1098,7 @@ that silence MUST be honoured.
 |1.1| Realignment with runtime exeution model | 2026-04-12T10:36:00Z | ceab2acd051750abb3e1059a822ce19da54b7320149f5970b858e0bd68a88f2b |
 |1.2| Formatting, polish and closing seal update | 2026-04-14T13:43:00| a32c9ccd4890f893a27eb43363e57085633755a040bc1b72c5e9a1e1ff18c4c4|
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a14aa658307477479375ad9fc87e4f20634a87b18bcbeaf52d4682bd939fdb29 |
-| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 72b734c1ebfb07efdb95f14c693356759d47d1cc2df2f916aee241753e4feb96 |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 15008db24c07ec3edb90471a3a7488133675b157e10da0d9791a5ea5ee1e1e22 |
 
 ---
 

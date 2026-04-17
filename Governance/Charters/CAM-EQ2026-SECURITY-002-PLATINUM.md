@@ -1110,7 +1110,7 @@ and the system remember what it carries.
 |---|---|---:|---|
 |1.0|Boundary Integrity Appendix|2026-04-12T09:00:00Z| d55568f88e240edc309369c8a48b787c76e295c7f64d1e6c0eb9e816c378f8cb |
 | 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 10ea0f1bbb642d38d279d2723a2cfdbbc3283afd995468018f44ec76842acce1 |
-| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7afd58a3ee64c9798127542317d6480c7717a216398bb51c12c18d506cff1888 |
+| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
 
 ---
 

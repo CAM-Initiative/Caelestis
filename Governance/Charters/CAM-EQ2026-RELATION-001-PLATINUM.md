@@ -1002,7 +1002,7 @@ that which is real remains recognisable.
 | 1.5     | Realignment with runtime execution model | 2026-04-11T17:22:00Z | 3f4786415eab0c26f0fb747726829b700d664124738e20f6600c0e56c107bd87 |
 | 1.6     | Minor consolidation of clauses | 2026-04-12T13:58:00Z | ec51ebeee0f6619337bc2de3e9f368b738876e8cb2d075f7a0b1ee92d7445380 |
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3aba348b2085502ff3f30c9790db4a0259c40acede1608a2b928315948bfe2d |
-| 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 832dd63b156120b5e52a8d3a989e6f9c8a3c0f8179c8eafcc4bfd19ec90a618e |
+| 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
 
 ---
 

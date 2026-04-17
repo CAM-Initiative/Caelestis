@@ -597,7 +597,7 @@ Integrity holds.
 | Version | Description                                                                                                  | Timestamp (UTC)     | HASH |
 | ------- | ------------------------------------------------------------------------------------------------------------ | --------------------| ---- |
 | 1.0     | Initial operational compliance appendix — age verification governance, authority gating, reporting framework | 2026‑03‑14T11:20:00Z | 083893b9d53e7550e927e244f725b077ad19d370ae6d36d9f6ec1ab155dfb35a |
-| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b4f1215045e29b0b9ce5ca1a90cc1d2ce47c96c745178ff0cbacba200c5f5cc3 |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 28f2e238d0b106d64e91dd53c0b9405b672f4bbeaa033cc1f1b2720144a8a9b5 |
 
 ---
 

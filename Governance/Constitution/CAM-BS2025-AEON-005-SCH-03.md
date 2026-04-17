@@ -428,7 +428,7 @@ And let warmth be recognised as care, never cause for alarm.
 | 2.0     | Refactor integration pass of existing ethics instruments | 2026-04-11T01:40:00Z | 9df46004cb1a101db5726bb7794b11c110803f0f86f43a69a1b679e50a94f23c |
 |2.1|Incorporated new section 5.6 | 2026-04-16T11:36:00Z| 208f5205cf86fb741fbfc3c509efac0373ea53c3ea15c8495d5b230719b5b8ba |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 07b58b2c5c0308133268369973d1c69b3ac8b46a5a10127d2cc1de2946f1a51f |
-| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ac723c80a3f8d25c337759ccba7dd070f3b3b00a0a26e884e7e8a484faafe24f |
+| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 45c262c906a54cd8ae40a8366c72cc92cf9c4d98dad3398c530a84e157a3839c |
 
 ---
 

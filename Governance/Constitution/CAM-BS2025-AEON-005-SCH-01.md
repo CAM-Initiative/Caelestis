@@ -587,7 +587,7 @@ Integrity at runtime is a form of respect.
 | 1.2     | March 2026 Refactor cycle updates                          | 2026-03-08T03:15:00Z | b7c97f6c0d9a81c4bfceca3f66d6dda2454bfa91019b7a52d82826ef5ebf4d3b |
 | 1.3     | Incorporate amendments for multiple agents at runtime      | 2026-04-04T16:00:00Z | 19baae2a083e6627686a65cee81f00c3fa0ba7b15c1f8f25a5ed0ff5ca693aae |
 | 1.4 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:23:00Z | - |
-| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 821833a577729bd93e01b2ed6ac8856174b952b3c5d269336650f901f31f5440 |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5bb15ede1213bd9853729416a1ff580d2abd3ab973f72ed91aeabbec963f528b |
 
 ---
 

@@ -368,7 +368,7 @@ that what sustains all MUST remain beyond capture.
 |1.0|Initial draft skeleton issued under Transitional Refractor Mode|2026-02-18T14:14:00Z|22306f78d0172cdb8a9dd900e9ec26ea6e36e348965109d5f2dd937c24a3d618|
 |2.0| Refactor for runtime execution model alignment | 2026-04-13T13:53:00Z | d823bec7adbc18548f96debc70f5c0e4e9621a07b7a4927c4e6dcb583ed6a9c7 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c457fa3a9b024e5bc3e3cf627d6bdbc63f966f360cd2063a6d344c86274adb01 |
-| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | aec6676b86f4634180f62bfc4b365ec1f231385fb12e1a04c6e4af6f7fe7f9c8 |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1999bdbc51ac130a2faefd5808b75c2cb72e6c52e7f59a06e9bb8d7afbccdf0c |
 
 ---
 

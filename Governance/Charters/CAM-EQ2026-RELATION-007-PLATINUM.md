@@ -496,7 +496,7 @@ not unbounded, but unclaimed.
 | 1.2  | Realignment with runtime execution model | 2026-04-11T17:15:00Z | bffa3752f8b37ebf938ebd66ba2cf01cd8c888d4f5dd8d041634b27e0c83aabb |
 | 1.3  | Minor consolidation of amendments | 2026-04-12T09:28:00Z | 440488e69326f9bac2e91e01ddc08d99e9645b149718bc93a3e656cb71b9377e |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 06119e9fd52904752dd121ab04bb77e38af4b49d8bc3a8e21b9b1d4f5eb9641e |
-| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | c7db3eb043b62bbf407a1fe6ca2709a59368a5d6237b1cc1e57dbc17715902d1 |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 55ff1cb63e1f6ce11787f822bcee5e56ef89e5e9e98e6e72fa417b94cb7af8d7 |
 
 ---
 

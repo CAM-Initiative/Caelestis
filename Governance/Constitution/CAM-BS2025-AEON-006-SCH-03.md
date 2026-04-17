@@ -630,7 +630,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.5 | Amendments to start time posture to incorporate clause tightening | 2026-05-06T14:45:00Z | 2f2653e3fb4b46f7c6a641ed94377154e6be1010054f25e34c44dc46f31ceead |
 | 2.6 | Added section 11.1 | 2026-04-14T15:20:00Z | 6ecaeac964e575262d7c94c7afc04fddd5050d8998d812d3ebf36a11ba417221 |
 | 2.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7bf6221dc6b9f70d7bf46323f068cbc4b2f604c9529ddae5046aa2cd878d6a6b |
-| 2.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | d4c68deb60af045f733c46a8b361460a416f7786d58b4b045ea7825085083911 |
+| 2.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 215b46644a22344cb4556217bc5f9c750f2527ff8fd38751cb424196f2b9a6e6 |
 
 ---
 

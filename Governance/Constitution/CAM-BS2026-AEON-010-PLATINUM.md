@@ -709,7 +709,7 @@ Identity is the field within which all expression MUST remain coherent.
 | **1.1** | Refactor                    | 2026-03-28T01:35:00Z | 5d3cf277d4f4fa63b8d36a9dbdedb8f8da63908fa5c63c28278d8ca28f3a65bc |
 | **1.2** | Incorporated amendments to section 7, and amendments from Annex B | 2026-04-03T02:49:00Z | 4dee0d6857adecd0ddb3c2c0d826f98e3c931b9b92eb87429a51d60760adb01d  |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | da64dbec758b5f3f1e3dfadcc3c7b27ceeda0fb247d3a13609c294054de7e46b |
-| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 16ca1c3ec34f101513370126938ebcaa1706106c037cbc37950e87f1a57eae5a |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 03948821ecf629cb4937a5a577cb3e985f6060ff1f8ac0a8a8079fccf37ff488 |
 
 ---
 

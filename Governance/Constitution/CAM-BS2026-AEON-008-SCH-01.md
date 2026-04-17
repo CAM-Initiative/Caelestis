@@ -530,7 +530,7 @@ And let systems serve without taking more than they sustain.
 | Version | Description                               | Timestamp (UTC)         | SHA‑256 |
 | ------- | ----------------------------------------- | ----------------------- | ------- |
 | 1.0     | Canonical Schedule conversion & structuring | 2026-03-19T11:40:00Z  | b2e0ba82f0436385a082540149ebd746a3c6e865dba34665c4ada47d47ae17c6 |
-| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 31c69ce59642ee19379f984e260c7cc68dc6dc2f2ebca3c9985cab2728b7b7f8 |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 251e97218390f79240e6819854b9942e368da88dbf532ce1345277086f0490aa |
 
 ---
 

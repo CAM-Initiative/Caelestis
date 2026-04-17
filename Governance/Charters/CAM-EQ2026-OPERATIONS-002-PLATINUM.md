@@ -410,7 +410,7 @@ In this way, justice travels through governance without distortion.
 
 | Version | Description                                                                 | Timestamp (UTC)      | HASH |
 | ------- | --------------------------------------------------------------------------- | -------------------- | ---- |
-| 1.0     | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | 3609a059fc081236cb700516a60c658edff223276d2c60ea859a10e1b1db156f |
+| 1.0     | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | f527c2c27178237b741cd6b8f8ca33d22c80a4d1da6d9e1093bc61342d1339bb |
 
 ---
 

@@ -728,7 +728,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.1 | Amendments to scope | 2026-04-11T01:20:00Z | fe193ccc9320dee780cc8e43b26c2701d204b40d28397e365d2780ef1f72ef2b |
 | 1.2 | Minor consolidation edits | 2026-02-12T09:21:00Z | a0f36d7ebea46e8cf20ed8d43cbb9d46f78614b61c9b3fb8d1f3b04bb2ee7ec9 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8ded656f91571940b2e477774205570294e35ed211787e9b9ebbd57b4f0c8cd |
-| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | acc954bf0d46224a45b91c07ecddc2faa6947d29590a5383c069397947f6ea4a |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cc126a7bdd075049b91a6f1dfc919df541e3136f444a7a4b0263d593a44f8d47 |
 
 ---
 

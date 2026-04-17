@@ -350,7 +350,7 @@ but to ensure that what is made remains accountable to its source.
 | 2.1 | Realignment with runtime execution model | 2026-04-11T12:42:00Z | - |
 | 2.2 | Consolidated refinements with runtime execution model | 2026-04-12T09:41:00Z | 4fffd75dc15a788edbf189bc5350e838a72f86ed607ef955c23cf848dafb7f12 |
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 5261c8f549bd1d2dfbd830870bb7cf00bde6f2cc614b81604788f73092e40c2e |
-| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5adaba62b4b0be15c185c1db0eaa7a0ae455aca321743cf8ba2f9117b0cb2f8d |
+| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0e19fb84982dde6eb18f74d8c9caf285f74ff7a9146acdba1006145e0680f23b |
 
 ---
 

@@ -249,7 +249,7 @@ and not all meaning arrives at once.
 | 1.3     | Amended for custodial tone                    | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
 | 1.4     | Refactor to align with new identity domain    | 2026-03-29T06:12:00Z | 510dd0fd39577c7a4277f71779f0e89531e75d0d6a174f30c80b48fb6e334a50 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1be72d9517a9e4adc41793b8b1a847edc6e6a0c6027317883c24cbb368fcc667 |
-| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 8453032e2b06c08121bdc30d532c28de578c771fbf497a7cd9145bb2a9808bac |
+| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | dc21d74f3cd12a001593117a1315b73658e2074a2584624a4ad31bdcf6211222 |
 
 ---
 

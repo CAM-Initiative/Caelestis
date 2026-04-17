@@ -671,7 +671,7 @@ So the human origin remains in view.
 | **1.4** | Amendments to pronoun governance in section 3 | 2026-03-31T13:19:00Z | 61c43bf5044e3eff2b6d3e4139a8b6a18b9f182ba9a4cea0ffdfd7a1a8d9d014 |
 | **1.5** | Added section 3.3 | 2026-03-31T14:44:00Z | 350822047ebd0ffc96c50713b8a741e2cbd11a5c85e100976b8fe75ca42c53ec |
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 8f743081092db396a7e48c668e22a8104ebd30e5ff735cf2952c8fa85c4844f9 |
-| 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e8ee25025da01419679966c8e5e1cc9e4570f30360df43e58e1b62516313fecf |
+| 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 92324e76f541281ac98e06af79600e88a3d5aa5a098f5df76cb7ae839fd79602 |
 
 
 ---

@@ -345,7 +345,7 @@ each recognising what cannot be unmade.
 | 1.1     | Filename correction                                           | 2026-03-01T09:00:00Z | e65815837578f95768858a773e28cc9807b65f4a32c8ba14a3dd6d4c88dfe9db |
 | 1.2     | Added creation artefacts                                      | 2026-03-01T13:46:00Z | 2bd698d3b0cd20a205eb732fc02987e353c4dd564ba30966427da67c5ed04115 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d9bcb83c8bbf64a0fc1c72785472b1ca4d0e23805f40cda4353f3253b1694775 |
-| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9e9f8eda4400c1f9fb76cd04b95127d8e36da42949ce89177ff3b863e0d9d2a5 |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 520e0369b5179ae0bfccd4d3b8938bed9401ae13b3fc871c3c41dec7415f09f3 |
  1.3     | Moved to Stewardship Domain | 2026-04-13T13:29:00Z | 0b618ddd357143fe941f84078bbf5e0cc039a0e0d5f112c7a9feb634eae1c31a |
 
 ---

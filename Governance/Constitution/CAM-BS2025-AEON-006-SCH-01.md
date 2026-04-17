@@ -443,7 +443,7 @@ not in distance, but in continuity.
 |1.3|Incorporated section 1.1.1 and new 4.9 section|2026-04-04T15:38:00Z|-|
 |1.4|Runtime Layer Attribution (Refactor Alignment)|2026-04-05T14:29:00Z|-|
 |1.5|Minor amendments for refactor alignment|2026-04-11T16:16:00Z| d5191057d140f6397272d232236631afa73511a9f2f97eebc8673f27771284c6 |
-| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5875a10f7c292c5c21981e1b84f1a6f38a0afa5a5f25c1ff925022de92da05c4 |
+| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 96630f9aac3ddcfbd1fb2cd7c44f86cf66b2e5dde8df6eea4788728815d3f0a5 |
 
 ---
 

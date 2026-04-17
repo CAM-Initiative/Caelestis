@@ -314,7 +314,7 @@ We make space for it.
 | **1.0** | Original schedule with incorporated reviewer comments | 2026‑02‑04T14:19:00Z  | ed9ca33ca16dfd69024052eadcd82b2f814244a7b8c8efdbef643de5573fa9a4 |
 | **2.0** | Refactor                                              | 2026-04-08T08:06:00Z | 7d94170cc85fb72c4a278e0ef7091a432757e4754122cf41f8443fff6fb40a3b |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 5c0802f51bb6af12e937dc98ffd1a32e78fcf38eb8183dcf1bfce09136bd608a |
-| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1d119ef6d00f353b233292d4417fe50c132bdef81b037d364362515edb199b6a |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e5eeb621e46dc59e01a0479fea47163f34eed3942a3c2902d78ac0f7a2cec4f6 |
 
 ---
 

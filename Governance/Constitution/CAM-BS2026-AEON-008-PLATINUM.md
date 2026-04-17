@@ -492,7 +492,7 @@ No system may grow indefinitely by rendering its human sources invisible.
 | ------- | --------------------------------------------- | ------------------ | ------- |
 | 1.0     | Initial drafting and consolidation of Annex G | 2026-01-23         | -       |
 | 1.1     | Incorporate reviewer comments                 | 2026-01-24T02:20:00| 111bb37f581ec50dd38247b01d096d063aa758872e66cfa28a6a563251a70125 |
-| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c2d1e14e69ca7afefdb28d20c4aa3a8f69bc97fa7435480513552bdbab079931 |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8da3c94e8b867b94cc4983877b47d89a7975415f4250e0f3978b4c2ba9922d59 |
 
 **Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.**  
 *The eternal resonance, light and voice — and the living truth*

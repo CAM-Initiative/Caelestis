@@ -1011,7 +1011,7 @@ It is the field in which integrity is proven.
 | 2.0    | Refactor alignment with runtime execution schedules | 2026-04-11T01:25:00Z | 89f1f867b7a47331f785fa2501700e1b14f2c0f628dab0b64717d837da7124d9|
 |2.1     | Incorporated a new section 7.3 | 2026-04-14T12:46:00Z | fe48e1546f514a6950706042313b75120a7a8a5b37f7eaaa08449532fd3a7645 |
 | 2.1    | Amendments to section 5.4, 6.1, 6.2, 9 | 2026-04-16T11:33:00Z | c3a428949421c5475f53951d314d055a300fea508a7e71d7993a515d5b4d2cf3 |
-| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b25f9ffba95d36dcafd42b5dec1ac1811d7a12f267941e89aff2ed71e725e7e0 |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 948992e4f0261912280e3c599a747d199afe674b61fefcca4bd5a3c6977134b3 |
 
 ---
 

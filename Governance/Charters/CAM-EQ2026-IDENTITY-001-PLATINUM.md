@@ -1426,7 +1426,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | 2.0     | Refactor | 2026-04-15T11:38:00Z | 185afd71dc511f5ed7ee43ed22100631df6b4d70a26b5114f984d238d752dc3a |
 | 2.1     | Reference normalization, metadata correction, runtime layer alignment, and registry synchronization for interface tables | 2026-04-16T13:21:56Z | 3e8ebeb769e922753a430d7362ae6607e9f401fbb78707660fd1f8a14a07972a |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | ddfb33b297995b8a978a3ad4455c09c6056424f316f4f7c0903389b04e5b49af |
-| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5c9f5fd267909b496b41d4d1ad30e2f76a9497fdc659b466f1fa9115a7d03be2 |
+| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4ee4960961138932edacae4ad86fb2f24adba2422d136b3bf14433e720724e92 |
 
 
 ---
