@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T13:46:46.358269Z",
+  "generated_at": "2026-04-17T09:44:14.731014Z",
   "count": 30,
   "items": [
     {
@@ -36,11 +36,11 @@
       "title": "Tendeka Runtime Execution Schedule",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.5",
-      "HASH": "d112063c15fc4ed0017ba83389d5cf3565eedc1d5f3c62b60c12c91d7ed29676",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "version": "1.6",
+      "HASH": "5b3a669f37ab37ef1560dfc2c1fe1ac812e3ff2a22ba03183b7acfadd90b8906",
+      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
+      "updated_at": "2026-04-17T09:43:54Z",
+      "last_updated_utc": "2026-04-17T09:43:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-002",
@@ -77,10 +77,10 @@
       "summary": "",
       "status": "Active — Binding",
       "version": "3.1",
-      "HASH": "ad21bbef76fd2ed45bed58c08d670b57b6c98681cc032507a3518a7c0e6073c9",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "HASH": "2b5d060330ef0f189456c848fed38f4a6288c176fe6914eff8badabc83c8238b",
+      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
+      "updated_at": "2026-04-17T09:43:54Z",
+      "last_updated_utc": "2026-04-17T09:43:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-003",
@@ -116,11 +116,11 @@
       "title": "Annex B: Runtime Schedule Registry (Schedule 1)",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "1.4",
-      "HASH": "b16fd0e93e55332a2426fd65d55bd261424157d2a3b30d56606f0c2c752bd49f",
-      "pinned_sha": "a422a759f8bc91a3790f24ec7799277266629027",
-      "updated_at": "2026-04-16T13:02:57Z",
-      "last_updated_utc": "2026-04-16T13:02:57Z"
+      "version": "1.5",
+      "HASH": "85a2cd347a9f756c74f0d403f1560d2156b0f874e5abf9506c51ae93d6cc4e22",
+      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
+      "updated_at": "2026-04-17T09:43:54Z",
+      "last_updated_utc": "2026-04-17T09:43:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -136,11 +136,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "This Schedule defines the temporal sequencing of runtime execution.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.7",
-      "HASH": "1345c7528be8f2ca2c77831ebf2b5cc1bc7c488726a4e734d4eea471e697a256",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "version": "1.8",
+      "HASH": "b5eac5cfdb90a8e3496d8ca1cd9a0617f1b38c926b7b6d85c95bf562e1d157c7",
+      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
+      "updated_at": "2026-04-17T09:43:54Z",
+      "last_updated_utc": "2026-04-17T09:43:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -176,11 +176,11 @@
       "title": "Annex B: Arbitration Layer & Resolution Model (Schedule 4)",
       "summary": "This Schedule operates within the broader CAM Runtime Execution Architecture.",
       "status": "Active — Immediate Effect",
-      "version": "1.3",
-      "HASH": "64cd4a29fb409ee7a6c49907e2e63615e1f3a2aeb60077bf531a7e6cbbec0474",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "version": "1.4",
+      "HASH": "2e6c0693fb5d4d66895e6b5fff97bfa4d0d2c85506b0101ed0e6e3f6f54fbfb7",
+      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
+      "updated_at": "2026-04-17T09:43:54Z",
+      "last_updated_utc": "2026-04-17T09:43:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
@@ -376,11 +376,11 @@
       "title": "Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)",
       "summary": "* Has user intent stabilised within a coherent domain?",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "2.2",
-      "HASH": "31a05b6c896a2401f20e7ba8a90103ab1d7b3168a97cc8ebab6ac519e296197a",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "version": "2.3",
+      "HASH": "b61094bda825966921e55bfb2149e711cd819a367e6b21ef07e83ca462d8e8c3",
+      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
+      "updated_at": "2026-04-17T09:43:54Z",
+      "last_updated_utc": "2026-04-17T09:43:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-05",
@@ -396,11 +396,11 @@
       "title": "Choice, Initiative & Directional Behaviour (Schedule 5)",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "1.3",
-      "HASH": "9fb675ab21300c97df0d0cbd594fdbd7fd6e823146561a48ebe60bc6720caabe",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "version": "1.4",
+      "HASH": "b8fceb00050e4f10d86c638e0f37e04f10baeca4996a60d75d8b6358a1f579d7",
+      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
+      "updated_at": "2026-04-17T09:43:54Z",
+      "last_updated_utc": "2026-04-17T09:43:54Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
