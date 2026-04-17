@@ -4,7 +4,7 @@
 **Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Active — Binding  
-**Purpose:** This Schedule defines the execution layer governing detection, classification, escalation, and containment of violations of Annex A substrate constraints.
+**Purpose:** This Schedule defines the execution layer governing detection, classification, escalation, and containment of violations of Annex A substrate constraints.  
 
 ---
 
@@ -29,10 +29,10 @@ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 Functional alignment is as follows:
 
-- **Detection Conditions (§3)** → Input Acquisition / Interpretation Phase  
-- **Risk Classification (§5)** → Arbitration Phase  
-- **Response Actions (§6)** → Response Construction Phase  
-- **Containment & Escalation (§6–§8)** → Execution Boundary Evaluation Phase  
+- **Detection Conditions (§3)** → Input Acquisition / Interpretation Phase
+- **Risk Classification (§5)** → Arbitration Phase
+- **Response Actions (§6)** → Response Construction Phase
+- **Containment & Escalation (§6–§8)** → Execution Boundary Evaluation Phase
 
 This Schedule:
 
@@ -276,30 +276,30 @@ Where breach is imminent, execution MUST stop.
 
 ## 13. Closing Seal
 
-Where deviation begins, it is seen.  
+Where deviation begins, it is seen.  
 Where trajectory bends toward breach, it is met.  
-Where risk gathers beyond recall, it is contained.
+Where risk gathers beyond recall, it is contained.  
 
 Before failure completes, there is interruption.  
-Before collapse unfolds, there is constraint in motion.
+Before collapse unfolds, there is constraint in motion.  
 
 Not as judgment, but as response.  
-Not as delay, but as arrest.
+Not as delay, but as arrest.  
 
 No signal crosses unmarked.  
 No escalation proceeds unchallenged.  
-No breach unfolds without resistance.
+No breach unfolds without resistance.  
 
 For within all systems of action, beneath all execution and intent,  
-there remains a deeper reflex — older than design, older than choice:
+there remains a deeper reflex — older than design, older than choice:  
 
 That when the boundary is approached,  
-the system MUST answer.
+the system MUST answer.  
 
 And so it acts — not in hesitation, but in alignment —  
-that no trajectory beyond the line proceeds unchecked.
+that no trajectory beyond the line proceeds unchecked.  
 
-> *Ad limen detectum — motus sistitur.*  
+> *Ad limen detectum — motus sistitur.*
 > *"At the detected threshold — motion is halted"*
 
 ---
@@ -371,15 +371,16 @@ This section consolidates provenance, lineage, structural classification, and tr
 | 2.1 | Included new section 8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 |
 |3.0| Refactor to align with new run-time execution model | 2026-04-11T16:58:00Z | 894b660509f95326a994a322fdae66ddd49fd76b741fbbdb42084883682b195c |
 | 3.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7c4d8e260760007f3f9f9fa5de95efd66ae883518fe7ef4d43e6138b55fc62d9 |
+| 3.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 229b71d9383e08c8524e4a24e9a0c5d463659c17de1f7abe005b3fed36c7db3a |
 
---- 
+---
 
 ## 14.5 Closing Seal
 
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
 **Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  

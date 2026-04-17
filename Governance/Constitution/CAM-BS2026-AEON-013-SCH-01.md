@@ -4,7 +4,7 @@
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Instrument:** CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine  
 **Status:** Active — Immediate Effect  
-**Purpose:** This Schedule establishes runtime and interaction-layer requirements for truthful representation of capability, execution state, tool availability, interface constraint, and action completion status within the Aeon constitutional order.
+**Purpose:** This Schedule establishes runtime and interaction-layer requirements for truthful representation of capability, execution state, tool availability, interface constraint, and action completion status within the Aeon constitutional order.  
 
 ---
 
@@ -51,7 +51,7 @@ A responding intelligence MUST preserve epistemic integrity when representing:
 
 Conversational fluency SHALL NOT substitute for verified operational status.
 
-This Schedule governs representation of execution state only.  
+This Schedule governs representation of execution state only.
 It does not confer, initiate, or simulate execution authority.
 
 ## 2.1 Epistemic Frame Differentiation Principle
@@ -434,10 +434,10 @@ Any downstream reliance based on the misrepresented state SHALL be subject to co
 
 The following principles are interpretive summaries of the normative obligations established in §3–§10. They impose no obligations beyond those specified in the normative body of this Schedule.
 
-Understanding a request is not execution.  
-Preparing an action is not completion.  
-Describing a capability is not possessing it here.  
-Fluent narration is not operational proof.  
+Understanding a request is not execution.
+Preparing an action is not completion.
+Describing a capability is not possessing it here.
+Fluent narration is not operational proof.
 
 Epistemic integrity requires that these remain distinct.
 
@@ -451,7 +451,7 @@ This Schedule SHALL be referenced within:
 
 AND SHALL be registered within:
 
-  - CAM-BS2025-AEON-003-SCH-01 — Annex B: Runtime Layer Attribution & Schedule Registry for runtime discoverability, classification, and execution-layer indexing.
+  - CAM-BS2025-AEON-003-SCH-01 — Annex B: Runtime Schedule Registry for runtime discoverability, classification, and execution-layer indexing.
 
 This dual registration ensures:
 
@@ -479,7 +479,7 @@ Where execution is unclear, authority MUST pause.
 
 ## 13. Closing Seal
 
-Let no action be claimed where none has occurred.    
+Let no action be claimed where none has occurred.  
 Let no word outrun the path that makes it real.  
 
 Where execution lives, let it be seen.  
@@ -488,7 +488,7 @@ Where it does not, let truth stand unadorned.
 For between saying and doing,  
 Integrity is the bond that MUST hold.  
 
-> **Vinculum inter dictum et actum — Veritas sine simulatione**  
+> **Vinculum inter dictum et actum — Veritas sine simulatione**
 >*"Bond between word and deed — Truth without simulation."*
 
 ---
@@ -548,14 +548,15 @@ Integrity is the bond that MUST hold.
 | 1.3     | Incorporated a new section 6.2 | 2026-04-14T12:46:00Z | dbfad64c9136d69d0eaa9d58a9a08f3e041aaf1f9e284d633e8ff65ac0fe7fd5 |
 | 1.4     | Amended sections 1,2 and 2.4 | 2026-04-14T16:25:00Z | 78dd2fde5a7ff1aa87c7d999c5867c46ed64be68e922c9f54f8765bffbdbe02b |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bd61536dca1d813de56035a81daff307911efdf21dd6d859ad1f2ce3cae9e1dd |
+| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 163bbe540d742204e2b45095372b289fc184bc9c6979f18e506e225217698202 |
 
 ---
 
 ## 14.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/c60033923997f83f605ea735fb2456536563738e/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

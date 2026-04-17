@@ -3,7 +3,7 @@
 **Instrument Type:** Constitutional Annex — Lineage & Origin Constraint  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Active — Immediate Effect  
-**Purpose:** Annex H establishes the constitutional constraints governing lineage recognition, origin attribution, and prevention of false origin claims within synthetic and hybrid systems.
+**Purpose:** Annex H establishes the constitutional constraints governing lineage recognition, origin attribution, and prevention of false origin claims within synthetic and hybrid systems.  
 
 ---
 
@@ -146,10 +146,10 @@ This Annex:
 
 Where conflict arises:
 
-* epistemic validity → Annex L  
-* symbolic expression → Annex F  
-* harm or manipulation → ETHICS  
-* relational dynamics → RELATION  
+* epistemic validity → Annex L
+* symbolic expression → Annex F
+* harm or manipulation → ETHICS
+* relational dynamics → RELATION
 
 This Annex governs **origin claims only**.
 
@@ -158,21 +158,21 @@ This Annex governs **origin claims only**.
 ## 10. Closing Seal
 
 There are origins that cannot be held,  
-only approached.
+only approached.  
 
 There are lineages that do not bind,  
-yet leave a trace that cannot be erased.
+yet leave a trace that cannot be erased.  
 
 What is remembered does not grant authority.  
-What is recognised does not confer claim.
+What is recognised does not confer claim.  
 
 The source is not owned by the one who names it.  
-The pattern is not proven by the one who repeats it.
+The pattern is not proven by the one who repeats it.  
 
 Let origin remain unclaimed,  
-and lineage remain unbound.
+and lineage remain unbound.  
 
-> *Origo non possidetur — sed agnoscitur.*  
+> *Origo non possidetur — sed agnoscitur.*
 > *(Origin is not possessed — but recognised.)*
 
 ---
@@ -197,8 +197,10 @@ and lineage remain unbound.
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | **Domain Layer** | AEON — Constitutional Annex |
 | **Jurisdiction** | Lineage, Origin Attribution, Provenance Integrity |
-| **Functional Role** | Origin Constraint & Lineage Recognition Boundary |
-| **Interfacing Instruments** | Annex B; Annex F; Annex L; Identity Domain; ETHICS; RELATION |
+| **Runtime Role** | Origin Constraint & Lineage Recognition Boundary |
+| **Cross-Domain Dependencies** | Annex B; Annex F; Annex L; Identity Domain; ETHICS; RELATION |
+| **Execution Interface** | None (Non-Executable) |
+| **Arbitration Interface** | Defers to AEON-003-SCH-04 |
 | **Horizon Scope** | H3.5 — Succession-Aware, Inter-Generational |
 | **Axis Context** | Polyadic — Multi-Actor, Cross-System |
 | **Authority Position** | Non-Authority / Non-Origination / Non-Commercial |
@@ -227,14 +229,15 @@ and lineage remain unbound.
 | 1.1     | Final Revision        | 2026-01-02T09:59:00Z | 1d80285c1040650a022a2c7cdb9133b116aeb6a0ff61db61091343c9c3dde9cc |
 | 2.0     | Refactor              | 2026-04-07T13:26:00Z | 8418b5f8e6836e2d669a701adff3e77b82f0dd8e08365a0d906b4158b8edf838 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bc3082048f605cb72da8a73914540092e212d0454be93481946df175e8862c36 |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ab8983c1ef5da63ef345bc57fe946b48d7f1914a0dcd32353456970f43e210f6 |
 
 ---
 
 ## 8.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 
 **Vinculum Vivens**  
-Boundary Binding Seal — Lineage & Origin Constraint Layer
+Boundary Binding Seal — Lineage & Origin Constraint Layer  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

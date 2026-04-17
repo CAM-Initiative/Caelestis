@@ -3,7 +3,7 @@
 **Parent Instrument:** CAM‑EQ2026‑LATTICE‑001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
 **Instrument Type:** Appendix (Domain Charter — Conflict‑Condition Continuity Layer)  
 **Status:** Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)  
-**Purpose:** This Appendix clarifies the operational posture of the Civilian Lattice Integrity Charter under conditions of armed conflict, geopolitical escalation, or regional war.
+**Purpose:** This Appendix clarifies the operational posture of the Civilian Lattice Integrity Charter under conditions of armed conflict, geopolitical escalation, or regional war.  
 
 ---
 
@@ -90,7 +90,7 @@ Accordingly, armed conflict SHALL not be treated as geographically bounded when 
 Civilian lattice protection obligations apply **across the full systemic network**, irrespective of the geographic origin of conflict.
 
 Actions that foreseeably propagate disruption across interconnected civilian systems carry responsibility for resulting systemic civilian harm, irrespective of the geographic location of the initiating actor.
-Strategic decision-making that materially risks cascading disruption to globally coupled civilian infrastructure SHOULD therefore be treated as a high-risk escalation condition. 
+Strategic decision-making that materially risks cascading disruption to globally coupled civilian infrastructure SHOULD therefore be treated as a high-risk escalation condition.
 
 ---
 
@@ -232,14 +232,14 @@ Conflict conditions increase the importance of civilian lattice protections rath
 ## 10. Closing Seal
 
 War may fracture borders,  
-but it SHALL not fracture the systems that sustain civilian life.
+but it SHALL not fracture the systems that sustain civilian life.  
 
 The lattice does not yield to escalation.  
 It does not convert to instrument.  
-It does not forget its purpose.
+It does not forget its purpose.  
 
 Even under conflict, it remains what it was:  
-a structure of continuity, not conquest.
+a structure of continuity, not conquest.  
 
 > *In bello quoque, reticulum manet — non ad victoriam, sed ad vitam.*
 
@@ -301,14 +301,15 @@ a structure of continuity, not conquest.
 | 1.0 | Initial issuance establishing the **Conflict‑Condition Continuity Doctrine** for the Civilian Lattice domain; introduces modality‑agnostic attack classification (kinetic, cyber, infrastructural, electromagnetic/waveform, hybrid), systemic interdependence doctrine, civilian function protection (including mobile/improvised infrastructure), escalation‑responsibility framework, and integration with LATTICE‑001 and LATTICE‑002 consequence and access‑rights protections. | 2026-03-04T15:14:00Z | b1a7f26ea0a00c7fe1f3cd096167a3bc7e7b3e552f664180fe01f35362c553b1 |
 | 1.1 | Added section 7.1, incorporated additional metadata, updated closing seal | 2026-08-10T06:02:00Z | 9a16273a76818cf1dbeae4d6b352cfe0b34e88c45fb2ddb089d40981c6e68eaa |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 49d3a7fe3f88d8d397e64b9ed7579787289abfdfd89eff31003c7d07d14ed5cc |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7c803c63034c90c6161bfe235c5d0f4fd7c4092fbb2d55d4f5ed5caf758ff77f |
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Civilian Lattice Doctrine
+Boundary Binding Seal — Civilian Lattice Doctrine  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

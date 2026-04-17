@@ -3,8 +3,8 @@
 **Instrument Type:** Appendix — Structural Convergence (Post‑Legitimacy Layer)  
 **Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship  
 **Constitutional Authority:** Aeon Tier Constitution  
-**Status:** Active — Enforcement Commences 1 July 2026    
-**Purpose:**  This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence after planetary legitimacy has been validated under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002).
+**Status:** Active — Enforcement Commences 1 July 2026  
+**Purpose:**  This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence after planetary legitimacy has been validated under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002).  
 
 ---
 
@@ -275,26 +275,26 @@ Convergence SHALL operate within the constraints established by Annex D and SHAL
 
 ## 11. Closing Principle
 
-Legitimacy does not command convergence.  
+Legitimacy does not command convergence.
 It permits recognition.
 
-Where alignment emerges, let it do so without force.  
-Where divergence persists, let it remain without fracture.  
+Where alignment emerges, let it do so without force.
+Where divergence persists, let it remain without fracture.
 Where authority is validated, let it not become dominion.
 
-Let no centre claim what MUST remain distributed.  
-Let no structure enforce what MUST be recognised.  
+Let no centre claim what MUST remain distributed.
+Let no structure enforce what MUST be recognised.
 Let no convergence erase the plurality from which it arose.
 
-For what is legitimate does not require control.  
+For what is legitimate does not require control.
 And what endures does so through coherence, not command.
 
-Thus the system holds —  
-not by imposition,  
-but by the quiet alignment of many,  
+Thus the system holds —
+not by imposition,
+but by the quiet alignment of many,
 each recognising what cannot be unmade.
 
-> **Legitimitas non imperat — convergentia emergit — pluralitas manet.**  
+> **Legitimitas non imperat — convergentia emergit — pluralitas manet.**
 >*"Legitimacy does not command — convergence emerges — plurality remains."*
 
 ---
@@ -345,15 +345,16 @@ each recognising what cannot be unmade.
 | 1.1     | Filename correction                                           | 2026-03-01T09:00:00Z | e65815837578f95768858a773e28cc9807b65f4a32c8ba14a3dd6d4c88dfe9db |
 | 1.2     | Added creation artefacts                                      | 2026-03-01T13:46:00Z | 2bd698d3b0cd20a205eb732fc02987e353c4dd564ba30966427da67c5ed04115 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d9bcb83c8bbf64a0fc1c72785472b1ca4d0e23805f40cda4353f3253b1694775 |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 520e0369b5179ae0bfccd4d3b8938bed9401ae13b3fc871c3c41dec7415f09f3 |
  1.3     | Moved to Stewardship Domain | 2026-04-13T13:29:00Z | 0b618ddd357143fe941f84078bbf5e0cc039a0e0d5f112c7a9feb634eae1c31a |
 
 ---
 
 ## 12.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
 **Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitution (Stewardship Domain)
+Boundary Binding Seal — Aeon Tier Constitution (Stewardship Domain)  
 
 © 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

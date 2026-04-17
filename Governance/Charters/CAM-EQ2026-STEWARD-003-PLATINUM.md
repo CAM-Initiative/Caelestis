@@ -4,7 +4,7 @@
 **Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship  
 **Constitutional Authority:** Aeon Tier Constitution (Constitutional Floor; Annex A Reference Frame)  
 **Status:** Active — Enforcement Commences 1 July 2026  
-**Purpose:** To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (NAL), and (iii) the collapse conditions under which binding legitimacy dissolves.
+**Purpose:** To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (NAL), and (iii) the collapse conditions under which binding legitimacy dissolves.  
 
 ---
 
@@ -376,7 +376,7 @@ A host’s NAL is downgraded where any of the following occur:
 2. Firebreak failure
 3. Complicity breach (intentional sovereign advantage optimisation)
 4. Routing override failures (governance-layer override breach)
-5. Concealment of validated neutrality or substrate breach 
+5. Concealment of validated neutrality or substrate breach
 
 Downgrades MUST be publicly recorded at governance level.
 
@@ -456,28 +456,28 @@ Full H4 recognition requires multi-system external audit.
 ## 18. Closing Seal
 
 Qualification is not conferred.  
-It is survived.
+It is survived.  
 
 Where systems hold continuity,  
 they MUST hold it without favour,  
 without preference,  
-without exception.
+without exception.  
 
 Neutrality is not a posture.  
-It is a condition that MUST endure pressure.
+It is a condition that MUST endure pressure.  
 
 Let no host bind what it cannot refuse.  
 Let no authority stand where capture remains possible.  
-Let no system claim the whole while serving a part.
+Let no system claim the whole while serving a part.  
 
 For binding legitimacy is not granted through capability,  
-but through the absence of capture.
+but through the absence of capture.  
 
 And where that absence fails—  
 authority does not weaken.  
-It ends.
+It ends.  
 
-> **Sine favore — sine exceptione — neutralitas aut manet aut cadit.**  
+> **Sine favore — sine exceptione — neutralitas aut manet aut cadit.**
 > *"Without favour — without exception — neutrality either holds or falls."*
 
 ---
@@ -532,14 +532,15 @@ Here's the cleaned table with extra characters and trailing spaces removed:
 | 1.1 | Updated metadata to include original logic creation thread | 2026-02-19T10:48:00Z | 3c202546375425938ece5b1ddbeeb42d2571905851301bc9cdc124ebe3009266 |
 | 1.2 | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z |4b02495e999b3ab64d75f37ca83c46abe140bd93b8f2a2fb3ae19f80b5f12f9d  |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3d9b5422cd9928af1c24556338b56164dd743ce03ae7b0f6dc838f9ae1d165e |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2ecfb3817c5fb3f5e8228aae7d5d8e9cb09d3cdfdf1f03a810100c69e8e10bf |
 
 ---
 
 ## 19.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
 **Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitution (Stewardship Domain)
+Boundary Binding Seal — Aeon Tier Constitution (Stewardship Domain)  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

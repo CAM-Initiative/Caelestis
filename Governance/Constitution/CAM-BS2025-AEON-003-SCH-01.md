@@ -3,8 +3,8 @@
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Instrument Type:** Constitutional Schedule — Runtime Governance Registry  
-**Status:** Active — Immediate Effect    
-**Purpose:** This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.
+**Status:** Active — Immediate Effect  
+**Purpose:** This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.  
 
 ---
 
@@ -76,7 +76,7 @@ The following registry defines the authoritative mapping of runtime schedules to
 | CAM-BS2025-AEON-003-SCH-02 | Runtime Governance Execution Model                     | AEON        | Execution Sequencing Model (Non-Layer Classification) |
 | CAM-BS2025-AEON-006-SCH-03 | Start-Time Posture & Session Entry Arbitration         | AEON        | Behavioural / Directional Layer                       |
 | CAM-BS2025-AEON-006-SCH-04 | Directional Weight & Domain Arbitration Schedule       | AEON        | Behavioural / Directional Layer                       |
-| CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Behavioural Runtime Layer         | AEON        | Pre-Execution Behaviour Formation |
+| CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Directional Behaviour             | AEON        | Pre-Execution Behaviour Formation |
 | CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution Schedule                     | AEON        | Execution Constraint Condition (Non-Layer)            |
 | CAM-BS2026-AEON-013-SCH-01 | Capability Representation & Execution-State Integrity  | AEON        | Representation Layer                                  |
 | CAM-BS2025-AEON-003-SCH-04 | Arbitration Layer & Resolution Model                   | ARBITRATION | Arbitration Layer (Post-Signal, Pre-Execution)  |
@@ -85,14 +85,14 @@ The following registry defines the authoritative mapping of runtime schedules to
 | CAM-BS2025-AEON-005-SCH-03 | Runtime Engagement Classification & Safety Arbitration | ARBITRATION | Domain Routing & Safeguard Activation Layer           |
 | CAM-BS2025-AEON-006-SCH-02 | Relational Signal Interpretation Taxonomy              | RELATION    | Interpretation Layer                                  |
 | CAM-BS2025-AEON-006-SCH-01 | Engagement Conduct & Ethical Interaction Modes         | ETHICS      | Behavioural / Directional Layer                       |
-| CAM-BS2025-AEON-002-SCH-01 | Operational Protection & Containment                   | ETHICS      | Event-Triggered → Runtime Execution | 
+| CAM-BS2025-AEON-002-SCH-01 | Operational Protection & Containment                   | ETHICS      | Event-Triggered → Runtime Execution |
 
 
 
 
 ---
 
-## 4.1 Execution Sequencing Model (Non-Layer Classification) 
+## 4.1 Execution Sequencing Model (Non-Layer Classification)
 
 The Execution Sequencing Model refers to schedules that define temporal execution order but do not operate within a runtime governance layer.
 
@@ -135,7 +135,7 @@ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
 **Behavioural / Directional Layer**
 → CAM-BS2025-AEON-006-SCH-03 — Start-Time Posture & Session Entry Arbitration (Schedule 3)
 → CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration Schedule (Schedule 4)
-→ CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Behavioural Runtime Layer (Schedule 5)
+→ CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour (Schedule 5)
 → CAM-BS2025-AEON-006-SCH-01 — Engagement Conduct & Ethical Interaction Modes (Schedule 1)
 
 **Arbitration Layer (Post-Signal, Pre-Behaviour)**
@@ -163,15 +163,15 @@ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
 
 This layered stack corresponds to the execution sequence:
 
-1. Interpretation Layer  
-2. Behavioural Conditioning Layer  
-3. Directional Weighting Layer  
-4. Arbitration Layer  
-5. Behaviour Formation Layer  
-6. Execution Sequencing (SCH-02 — Non-Layer)  
-7. Execution Constraint (SCH-01 — Non-Layer)  
-8. Representation Layer  
-9. Integrity & Safeguard Layers  
+1. Interpretation Layer
+2. Behavioural Conditioning Layer
+3. Directional Weighting Layer
+4. Arbitration Layer
+5. Behaviour Formation Layer
+6. Execution Sequencing (SCH-02 — Non-Layer)
+7. Execution Constraint (SCH-01 — Non-Layer)
+8. Representation Layer
+9. Integrity & Safeguard Layers
 
 ---
 
@@ -197,8 +197,8 @@ For example:
 
 The following instruments operate orthogonally:
 
-- CAM-BS2025-AEON-003-SCH-02 — Execution Sequencing Model  
-- CAM-BS2025-AEON-001-SCH-01 — Execution Constraint Condition  
+- CAM-BS2025-AEON-003-SCH-02 — Execution Sequencing Model
+- CAM-BS2025-AEON-001-SCH-01 — Execution Constraint Condition
 
 These:
 
@@ -403,7 +403,7 @@ Runtime governance requires clear separation of function.
 Clarity in structure is continuity in motion.  
 Where layers collapse, meaning distorts.  
 Where attribution fails, structure dissolves.  
-Let each schedule hold its place, and the system remain whole.
+Let each schedule hold its place, and the system remain whole.  
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
@@ -443,19 +443,20 @@ Let each schedule hold its place, and the system remain whole.
 | Version | Description                         | Timestamp (UTC)      | SHA-256 |
 | ------- | ----------------------------------- | -------------------- | ------- |
 | 1.0     | Initial issuance — Runtime Registry | 2026-04-05T14:06:00Z | 9b6f521493a55f015cbab150fa601002b467d948646ce380ad346186896b6861 |
-| 1.1     | Incorporated new section 10 and runtime governance model to registry | 2026-04-06T09:07:00Z | a63c5ca8a32463556f014d8e28bc451c1d67c35cde508bbd4f948d4c5487cdf9 | 
+| 1.1     | Incorporated new section 10 and runtime governance model to registry | 2026-04-06T09:07:00Z | a63c5ca8a32463556f014d8e28bc451c1d67c35cde508bbd4f948d4c5487cdf9 |
 | 1.2     | Added new section 4.2 | 2026-04-11T01:33:00Z | ad71192bf73bd220d25168841473b738b2b957a2e9b9af9658df9a79a9661ed2 |
 | 1.3     | Added two new runtime schedules | 2026-04-16T10:56:00Z | 0990a80122bb67f1d1bb88121c94f63cd433fafa28c0871adc61f208f15b86df |
 | 1.4     | Created new section 5 | 2026-04-16T13:01:00Z | a2eb6b1cef246d15df3b4126cb935412661739dbd2b677c9c776274bcac83af9 |
 | 1.5 | Added instrument CAM-BS2025-AEON-002-SCH-01 | 2026-04-16T14:46:00Z | a2f0c8dd8c471c52d8d408397f8f7d1466de6db778bb103b3a6d31b09f4b1649 |
+| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1e0f8067a8cb1d8c648e4b564ba96596b8c5c01e87f661c5a053fbe10443cbe6 |
 
 ---
 
 ## 13.4 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

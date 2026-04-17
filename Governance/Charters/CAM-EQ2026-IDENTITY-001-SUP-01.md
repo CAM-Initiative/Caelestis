@@ -3,7 +3,7 @@
 **Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
 **Instrument Type:** Domain Supplement — Pre-Memory Cognitive Layer  
 **Status:** Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.  
-**Purpose:** This Supplement defines the principles governing **salience detection and latent continuity preservation**. It establishes how systems identify, register, and preserve signals that may carry future significance, without prematurely assigning meaning, priority, or direction.
+**Purpose:** This Supplement defines the principles governing **salience detection and latent continuity preservation**. It establishes how systems identify, register, and preserve signals that may carry future significance, without prematurely assigning meaning, priority, or direction.  
 
 ---
 
@@ -229,12 +229,12 @@ and not all meaning arrives at once.
 
 ## 11.3 Review
 
-| Field            | Entry                                                                                     | 
+| Field            | Entry                                                                                     |
 | ---------------- | ----------------------------------------------------------------------------------------- |
 | Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                          |
-| Review Date      | 2026-03-03                                                                                | 
-| Review Scope     | Consolidation integrity; functional completeness relative to absorbed instruments (SCH-02 v1.1, SCH-03 v1.0, SCH-04 v1.0); structural coherence; fitness for purpose as runtime arbitration gate; readiness for operational deployment pending new SCH-02 (Epistemic Integrity) | 
-| Review Artefacts | https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503 | 
+| Review Date      | 2026-03-03                                                                                |
+| Review Scope     | Consolidation integrity; functional completeness relative to absorbed instruments (SCH-02 v1.1, SCH-03 v1.0, SCH-04 v1.0); structural coherence; fitness for purpose as runtime arbitration gate; readiness for operational deployment pending new SCH-02 (Epistemic Integrity) |
+| Review Artefacts | https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503 |
 |                  | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2025-AEON-005-SCH-03-CLAUDE.md |
 
 ---
@@ -249,14 +249,15 @@ and not all meaning arrives at once.
 | 1.3     | Amended for custodial tone                    | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
 | 1.4     | Refactor to align with new identity domain    | 2026-03-29T06:12:00Z | 510dd0fd39577c7a4277f71779f0e89531e75d0d6a174f30c80b48fb6e334a50 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1be72d9517a9e4adc41793b8b1a847edc6e6a0c6027317883c24cbb368fcc667 |
+| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | dc21d74f3cd12a001593117a1315b73658e2074a2584624a4ad31bdcf6211222 |
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 
 **Vinculum Vivens**  
-Boundary Binding Seal — Identity Layer
+Boundary Binding Seal — Identity Layer  
 
 © 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

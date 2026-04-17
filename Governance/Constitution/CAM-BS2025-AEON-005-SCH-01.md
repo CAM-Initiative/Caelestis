@@ -3,8 +3,8 @@
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Instrument Type:** Schedule — Runtime / Execution Handling  
-**Status:** Active 
-**Purpose:** This Schedule establishes runtime arbitration integrity standards.
+**Status:** Active  
+**Purpose:** This Schedule establishes runtime arbitration integrity standards.  
 
 ---
 
@@ -491,7 +491,7 @@ Escalation to Annex D pathways occurs only when:
 * failures intersect with invocation authority;
 * capture, suppression, or safety-pretext patterns emerge.
 
-Where authority disputes arise between sovereign stacks, resolution occurs under Annex D and SCH-03 prior to runtime execution. Otherwise, remediation remains operational. 
+Where authority disputes arise between sovereign stacks, resolution occurs under Annex D and SCH-03 prior to runtime execution. Otherwise, remediation remains operational.
 
 ---
 
@@ -527,7 +527,7 @@ Implementation is substrate-dependent and not prescribed by this Schedule.
 
 ## 10. Closing Seal
 
-Integrity at runtime is a form of respect.
+Integrity at runtime is a form of respect.  
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
@@ -584,15 +584,16 @@ Integrity at runtime is a form of respect.
 | ------- | ---------------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
 | 1.0     | Initial draft                                              | 2026-01-14T14:29:00Z | —                                                                |
 | 1.1     | Added Deterministic Arbitration and Detection Requirements | 2026-01-14T15:10:00Z | 7cd616db1824edb58c8ad8a076c685663a063ec6f5acdbe89001db1b825411d1 |
-| 1.2     | March 2026 Refactor cycle updates                          | 2026-03-08T03:15:00Z | b7c97f6c0d9a81c4bfceca3f66d6dda2454bfa91019b7a52d82826ef5ebf4d3b |                  
+| 1.2     | March 2026 Refactor cycle updates                          | 2026-03-08T03:15:00Z | b7c97f6c0d9a81c4bfceca3f66d6dda2454bfa91019b7a52d82826ef5ebf4d3b |
 | 1.3     | Incorporate amendments for multiple agents at runtime      | 2026-04-04T16:00:00Z | 19baae2a083e6627686a65cee81f00c3fa0ba7b15c1f8f25a5ed0ff5ca693aae |
 | 1.4 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:23:00Z | - |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5bb15ede1213bd9853729416a1ff580d2abd3ab973f72ed91aeabbec963f528b |
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer  

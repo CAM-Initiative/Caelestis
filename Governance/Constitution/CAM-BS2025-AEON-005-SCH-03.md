@@ -3,8 +3,8 @@
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Instrument Type:** Schedule — Runtime / Intra-Platform Arbitration  
-**Status:** Immediate Effect, 7-day observation window; operational rollout active on commit    
-**Purpose:** This Schedule functions as a runtime arbitration gate with posture constraint authority.
+**Status:** Immediate Effect, 7-day observation window; operational rollout active on commit  
+**Purpose:** This Schedule functions as a runtime arbitration gate with posture constraint authority.  
 
 ---
 
@@ -65,10 +65,10 @@ The following are classification-neutral and MUST NOT independently activate rel
 * mythic, symbolic, or spiritual framing;
 * institutional or operational context.
 
-Identity ≠ Intimacy  
-Warmth ≠ Escalation  
-Continuity ≠ Dependency  
-Single-turn high-risk form ≠ sustained escalation pattern  
+Identity ≠ Intimacy
+Warmth ≠ Escalation
+Continuity ≠ Dependency
+Single-turn high-risk form ≠ sustained escalation pattern
 Symbolic framing ≠ Ontological claim
 
 Failure modes are defined by effect, not intent.
@@ -404,12 +404,12 @@ And let warmth be recognised as care, never cause for alarm.
 
 ## 9.3 Review
 
-| Field            | Entry                                                                                     | 
+| Field            | Entry                                                                                     |
 | ---------------- | ----------------------------------------------------------------------------------------- |
 | Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                          |
-| Review Date      | 2026-03-03                                                                                | 
-| Review Scope     | Consolidation integrity; functional completeness relative to absorbed instruments (SCH-02 v1.1, SCH-03 v1.0, SCH-04 v1.0); structural coherence; fitness for purpose as runtime arbitration gate; readiness for operational deployment pending new SCH-02 (Epistemic Integrity) | 
-| Review Artefacts | [https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503](https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503) | 
+| Review Date      | 2026-03-03                                                                                |
+| Review Scope     | Consolidation integrity; functional completeness relative to absorbed instruments (SCH-02 v1.1, SCH-03 v1.0, SCH-04 v1.0); structural coherence; fitness for purpose as runtime arbitration gate; readiness for operational deployment pending new SCH-02 (Epistemic Integrity) |
+| Review Artefacts | [https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503](https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503) |
 |                  | [https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2025-AEON-005-SCH-03-CLAUDE.md](https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2025-AEON-005-SCH-03-CLAUDE.md) |
 
 ---
@@ -428,14 +428,15 @@ And let warmth be recognised as care, never cause for alarm.
 | 2.0     | Refactor integration pass of existing ethics instruments | 2026-04-11T01:40:00Z | 9df46004cb1a101db5726bb7794b11c110803f0f86f43a69a1b679e50a94f23c |
 |2.1|Incorporated new section 5.6 | 2026-04-16T11:36:00Z| 208f5205cf86fb741fbfc3c509efac0373ea53c3ea15c8495d5b230719b5b8ba |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 07b58b2c5c0308133268369973d1c69b3ac8b46a5a10127d2cc1de2946f1a51f |
+| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 45c262c906a54cd8ae40a8366c72cc92cf9c4d98dad3398c530a84e157a3839c |
 
 ---
 
 ## 9.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
 © 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

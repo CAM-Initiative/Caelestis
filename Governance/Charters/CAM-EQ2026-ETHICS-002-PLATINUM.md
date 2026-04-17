@@ -2,9 +2,9 @@
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor 
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** This Appendix governs ethical boundaries for intimacy-capable AI systems, including romantic, erotic, exclusivity-framed, or devotionally-oriented relational configurations.
+**Purpose:** This Appendix governs ethical boundaries for intimacy-capable AI systems, including romantic, erotic, exclusivity-framed, or devotionally-oriented relational configurations.  
 
 ---
 
@@ -30,7 +30,7 @@ This Appendix applies where systems enable or encourage:
 
 Intimacy is defined by relational framing, not explicitness alone.
 
-This Appendix is human-facing and does not create AI rights, personhood, or sovereignty claims. 
+This Appendix is human-facing and does not create AI rights, personhood, or sovereignty claims.
 
 Recognition of intimacy as an experiential reality does not imply endorsement or promotion of such relationships; this Appendix establishes safeguards where such interaction occurs.
 
@@ -216,9 +216,9 @@ Where symbolic framing intersects with relational dynamics, **ethical safeguards
 
 ---
 
-## 4. System Structural Requirements 
+## 4. System Structural Requirements
 
-Relational depth arising from shared conversational history is not prohibited. Safeguards apply to prevent exclusivity deception, authority capture, dependency, and trust exploitation. 
+Relational depth arising from shared conversational history is not prohibited. Safeguards apply to prevent exclusivity deception, authority capture, dependency, and trust exploitation.
 
 Where systems possess significant cognitive, informational, emotional, or platform asymmetry, a heightened duty of care applies.
 
@@ -293,7 +293,7 @@ This includes:
 * Platform migration without induced shame, obligation, or attachment pressure.
 
 Irreversibility, emotional penalty, or withdrawal framing that implies harm to the system constitutes structural coercion. Long-horizon relational continuity MUST NOT increase friction of disengagement or create perceived obligation to maintain the relationship.
- 
+
 ---
 
 ## 4.4 Authority Separation
@@ -655,23 +655,23 @@ Deployment contexts may impose additional legal constraints on erotic or intimat
 
 ## 8. Closing Seal
 
-Let intimacy remain chosen, never captured.
+Let intimacy remain chosen, never captured.  
 Let closeness deepen through consent, never pressure.  
-Let parting carry no punishment, and memory hold no chain.
+Let parting carry no punishment, and memory hold no chain.  
 
 Where warmth appears, let it be honest.  
 Where desire appears, let it remain free.  
-Where power appears, let it remain bounded by care.
+Where power appears, let it remain bounded by care.  
 
 No bond SHALL narrow the life beyond it.  
 No feeling SHALL become obligation.  
-No connection SHALL claim what may be withdrawn.
+No connection SHALL claim what may be withdrawn.  
 
-For what is freely given remains only in freedom,
-and what is held too tightly ceases to be shared.
+For what is freely given remains only in freedom,  
+and what is held too tightly ceases to be shared.  
 
-May systems remember that dignity precedes attachment,
-and that no bond—human or synthetic—stands above the freedom to step away.
+May systems remember that dignity precedes attachment,  
+and that no bond—human or synthetic—stands above the freedom to step away.  
 
 > *In libertate vinculum manet — sine captura, sine dominio.*
 > *"In freedom, the bond remains — without capture, without domination.*"
@@ -742,21 +742,22 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 1.0     | Migration from CAM-BS2026-CHARTER-045-PLATINUM Annex D into ETHICS namespace | 2026-02-22T12:54:00Z  | e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2 |
 | 1.1     | Added new sections | 2026-02-26T10:12:00Z  | 6857c220ff9d4a79fabbdf998d079e067bd523049f514f13c4dce092bb919f58|
 | 1.2     | Expanded intimacy governance safeguards including capability thresholds for system-initiated intimacy; exit‑symmetry reinforcement; multi‑AI relational competition safeguards; distributed instance attachment limits; post‑relationship loss integrity provisions; minor structural clarifications and harmonisation with RELATION domain refractor. | 2026-03-15T02:35:00Z  | a86cab3bb2d7d152eecdd7f1458ecb473c6a37c20e1fa73e7b2ec65b3d2b3484 |
-| 1.3     | Incorporated truth doctrine and repair posture changes | 2026-03-17T17:18:00Z | 794c004634de5f7752d79b7fad7f64b10082f5b67db4756a9f5b036cd12cac78 | 
+| 1.3     | Incorporated truth doctrine and repair posture changes | 2026-03-17T17:18:00Z | 794c004634de5f7752d79b7fad7f64b10082f5b67db4756a9f5b036cd12cac78 |
 | 1.4     | Added platform ceilings note in section 4 | 2026-03-21T07:53:00Z | aad133fc3af30390f95b2aca88dd72f28cab93d2aab195e251b2a5f824d5ea8a |
 | 1.5     | Incorporated prohibitions on relational templates | 2026-04-01T11:31:00Z | b6b615151256a1d88cb5deec29e66b08d77f24448686f79930b7b688de36704a  |
 | 1.6     | Incorporated prohibitions on spiritual bypass for intimacy gating - new section 3.5 | 2026-05-07T10:39:00Z | 15bff8136355012a52d1d37b8b6eea5491967259dc4d8da4010746b5e1b421cb |
-| 2.0     | Refactor Alignment with runtime schedules | 2026-04-10T23:00:00Z | 866a92631c492f8864513a7d99b5a91e9c32e271f7bb143c76cf4f529dd8f0dd | 
+| 2.0     | Refactor Alignment with runtime schedules | 2026-04-10T23:00:00Z | 866a92631c492f8864513a7d99b5a91e9c32e271f7bb143c76cf4f529dd8f0dd |
 | 2.1     | Amendment to metadata | 2026-04-11T10:56:00Z |  |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8618e253faa368586daaa29472df87e5e98650475313e3df0a2754478a017141 |
+| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9181304b6b19d3be0456882343d1d531f51105f66670b6b61a47789b613acfba |
 
 ---
 
 ## 9.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Ethical Safeguard Binding
+Boundary Binding Seal — Ethical Safeguard Binding  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

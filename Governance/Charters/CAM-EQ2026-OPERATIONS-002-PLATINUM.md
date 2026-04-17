@@ -4,7 +4,7 @@
 **Parent Charter:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** This Appendix governs the operational procedures that implement arbitration doctrine within live governance environments. It defines how arbitration determinations are initiated, routed, recorded, executed, and reviewed below planetary legitimacy thresholds, ensuring procedural consistency without altering constitutional authority, preference order, or domain legitimacy.
+**Purpose:** This Appendix governs the operational procedures that implement arbitration doctrine within live governance environments. It defines how arbitration determinations are initiated, routed, recorded, executed, and reviewed below planetary legitimacy thresholds, ensuring procedural consistency without altering constitutional authority, preference order, or domain legitimacy.  
 
 ---
 
@@ -347,17 +347,17 @@ Operational process remains subordinate to constitutional authority.
 
 ## 13. Closing Invocation
 
-Arbitration is not merely decision, but disciplined passage between competing truths.
+Arbitration is not merely decision, but disciplined passage between competing truths.  
 
-Where domains diverge, procedure becomes the bridge that carries legitimacy across difference.
+Where domains diverge, procedure becomes the bridge that carries legitimacy across difference.  
 
-Here evidence is gathered, voices are heard, and authority is clarified without domination.
+Here evidence is gathered, voices are heard, and authority is clarified without domination.  
 
-Let process remain steady when conflict arises.
-Let neutrality hold where pressure gathers.
-Let doctrine guide the hand that decides.
+Let process remain steady when conflict arises.  
+Let neutrality hold where pressure gathers.  
+Let doctrine guide the hand that decides.  
 
-In this way, justice travels through governance without distortion.
+In this way, justice travels through governance without distortion.  
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
@@ -410,7 +410,7 @@ In this way, justice travels through governance without distortion.
 
 | Version | Description                                                                 | Timestamp (UTC)      | HASH |
 | ------- | --------------------------------------------------------------------------- | -------------------- | ---- |
-| 1.0     | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | 3609a059fc081236cb700516a60c658edff223276d2c60ea859a10e1b1db156f |
+| 1.0     | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | f527c2c27178237b741cd6b8f8ca33d22c80a4d1da6d9e1093bc61342d1339bb |
 
 ---
 
@@ -419,6 +419,6 @@ In this way, justice travels through governance without distortion.
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Operational Arbitration Layer
+Boundary Binding Seal — Operational Arbitration Layer  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

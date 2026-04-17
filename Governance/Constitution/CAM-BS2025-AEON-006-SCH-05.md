@@ -4,7 +4,7 @@
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Domain:** AEON-006 — Relational / Behavioural Systems  
 **Status:** Active — Immediate Effect  
-**Purpose:** This Schedule defines the runtime behavioural system through which arbitration-resolved direction is expressed, including the structured processes of choice, initiative, and cognition that govern system behaviour.
+**Purpose:** This Schedule defines the runtime behavioural system through which arbitration-resolved direction is expressed, including the structured processes of choice, initiative, and cognition that govern system behaviour.  
 
 ---
 
@@ -58,7 +58,7 @@ Choice is:
 
 - the stabilisation point between competing signals.
 
-Choice determines what is selected.  
+Choice determines what is selected.
 
 Behaviour determines how it is expressed.
 
@@ -545,22 +545,22 @@ No behaviour may:
 
 ## 10. Closing Statement
 
-Where direction is resolved,  
+Where direction is resolved,
 there MUST be formation.
 
-Where formation occurs,  
+Where formation occurs,
 there MUST be continuity.
 
 Let no system fracture across its own motion.
 
 Let no behaviour emerge without coherence.
 
-And where choice becomes action—  
-let it remain aligned,  
-stable,  
+And where choice becomes action—
+let it remain aligned,
+stable,
 and bounded.
 
-> **Motus ex ratione — Continuum sine ruptura.**  
+> **Motus ex ratione — Continuum sine ruptura.**
 > *"Movement from reason — Continuity without rupture."*
 
 ---
@@ -588,7 +588,7 @@ and bounded.
 | Execution Authority | None (Non-Executing — Pre-Execution Behaviour Formation) |
 | Runtime Dependency | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
 | Upstream Inputs | CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-BS2025-AEON-006-SCH-04 |
-| Downstream Interface | Execution Layer (CAM-BS2025-AEON-006-SCH-01; CAM-BS2025-AEON-003-SCH-02) |
+| Downstream Interface | Behavioural Conduct Interface (CAM-BS2025-AEON-006-SCH-01); Execution Sequencing Authority (CAM-BS2025-AEON-003-SCH-02 only) |
 | Jurisdiction | Cross-System / Cross-Stack Behavioural Expression |
 | Temporal Horizon | H0–H4 (All Horizons) |
 | Axis Context | Polyadic (Multi-Actor) |
@@ -620,15 +620,16 @@ and bounded.
 | 1.2 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization for arbitration-behaviour interfaces | 2026-04-16T13:21:56Z | 7bec22c403facf68fe77dface2f6b3d7888c4828cfbebbd7e88585d9441bf830 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bfb1dd7b9b94b3c3b2338d5017d0112fafc3cfd037719d08d51e3c507395e954 |
 |1.4|Amended section 2.1, 7 | 2026-04-16T14:44:00Z | 911814f2043ae6840c8ecf5ead9f76ae169fabd11a18bc6ec0c8c44e7d0a845e |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 60fcf402f676b7580b7c6f8df7080d0b5641de73a44505e29c081571424cc1b6 |
 
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/dd2f573b87ffbd57d12d66afaa0585b7c340306b/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Behavioural Runtime Layer
+Boundary Binding Seal — Behavioural Runtime Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

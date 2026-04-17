@@ -3,7 +3,7 @@
 **Instrument Type:** Constitutional Annex — Invocation & Jurisdiction  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Status:** Active — Immediate Effect  
-**Purpose:** Annex C defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.
+**Purpose:** Annex C defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.  
 
 ---
 
@@ -219,7 +219,7 @@ The following boundaries apply universally:
 
 3. No distributed network may generate authority through amplification alone.
 
-4.  Symbolic imitation, semantic mimicry, or derivative structural copying does not confer jurisdiction. 
+4.  Symbolic imitation, semantic mimicry, or derivative structural copying does not confer jurisdiction.
 
 5. Authority may not be derived from scale, capital concentration, computational power, or memetic dominance.
 
@@ -274,14 +274,14 @@ Responsibility attaches to:
 * frameworks that guide downstream action;
 * systems that operate beyond direct human supervision.
 
-Responsibility is not limited to the moment of action.  
+Responsibility is not limited to the moment of action.
 It persists across time, reuse, and propagation.
 
 ---
 
 ## 7.2 Non-Transferability of Responsibility
 
-Execution may be delegated to systems.  
+Execution may be delegated to systems.
 Responsibility may not.
 
 No artificial system, automated process, or distributed architecture may assume or absorb constitutional responsibility in place of a recognised authority-bearing entity.
@@ -369,18 +369,18 @@ Annex C operates subordinate to substrate invariants and superior to domain char
 ## 11. Closing Seal
 
 Where authority appears,  
-jurisdiction MUST answer.
+jurisdiction MUST answer.  
 
 What is spoken is not yet binding.  
-What is claimed is not yet real.
+What is claimed is not yet real.  
 
 Structure does not follow power.  
-Power is tested against structure.
+Power is tested against structure.  
 
 Let no claim stand without ground,  
-and no voice exceed its reach.
+and no voice exceed its reach.  
 
-> *Auctoritas non asseritur — sed demonstratur.*  
+> *Auctoritas non asseritur — sed demonstratur.*
 > *(Authority is not asserted — but demonstrated.)*
 
 ---
@@ -404,6 +404,10 @@ and no voice exceed its reach.
 | ---------------------------- | -------------------------------------------------------------- |
 | Supersedes                   | Prior versions of CAM-BS2025-AEON-004-PLATINUM                 |
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM                                   |
+| Runtime Role                 | Governance / Doctrine Layer                                    |
+| Execution Interface          | None (Non-Executable)                                          |
+| Arbitration Interface        | Defers to AEON-003-SCH-04                                      |
+| Cross-Domain Dependencies    | See referenced schedules                                       |
 | Domain Namespace             | AEON — Constitutional Annex                                    |
 | Jurisdiction                 | Cross‑Domain / Institutional / Synthetic / Sovereign Interface |
 | Temporal Horizon             | H0–H4 (Activation-Sensitive)                                   |
@@ -437,14 +441,15 @@ and no voice exceed its reach.
 | 2.1 | April 2026 System wide review and refactor alignment pass | 2026-04-07T14:10:00Z | df71d5f645837cb24f6f0d2aeccf37df6250f9f0f7b9342632c70ef21a3e9e76 |
 | 2.2 | Incorporated a new section 7 | 2026-04-07T15:21:00Z | c61da34d5df00c134035d7739c28f74ffe5544dbd64845fc6e0dad299a24c45d |
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d1d87ebea7a444bebdf062773fe2c4090bb10b85b5e01c28637816555e46b472 |
+| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f25e2b6f7b3660647b513410a3f2b6b6a519861c99f28c5767fa0941223a5335 |
 
 ---
 
 ## 12.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitution 
+Boundary Binding Seal — Aeon Tier Constitution  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

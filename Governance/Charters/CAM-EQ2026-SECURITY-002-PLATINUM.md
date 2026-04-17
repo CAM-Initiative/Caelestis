@@ -1,8 +1,8 @@
 # CAM-EQ2026-SECURITY-002-PLATINUM — Appendix A: Boundary Integrity Specification
 
-**Parent Instrument:** CAM-EQ2026-SECURITY-001-PLATINUM — Security, Integrity & Adversarial Resilience Charter
-**Status:** Adopted — Conditional Activation (7-Day Review Window)
-**Instrument Type:** Charter Appendix
+**Parent Instrument:** CAM-EQ2026-SECURITY-001-PLATINUM — Security, Integrity & Adversarial Resilience Charter  
+**Status:** Adopted — Conditional Activation (7-Day Review Window)  
+**Instrument Type:** Charter Appendix  
 
 **Purpose:** Define the Boundary Integrity layer governing how data, identity, context, capability, and provenance are transformed, exposed, and diffused—ensuring systems enable intelligence formation while preventing structural leakage, attribution collapse, identity confusion, and unauthorised value extraction.
 
@@ -42,7 +42,7 @@ Boundary integrity does not override epistemic invalidity.
 
 ## 2. Boundary Model
 
-## 2.1 Boundary Integrity 
+## 2.1 Boundary Integrity
 
 Boundary Integrity is the system property governing:
 
@@ -184,7 +184,7 @@ These categories do not require exact identification, but MUST support boundary-
 
 ---
 
-## 3.1 Data Provenance & Source Visibility Requirement 
+## 3.1 Data Provenance & Source Visibility Requirement
 
 Systems operating under Boundary Integrity MUST maintain sufficient visibility into data provenance to support boundary evaluation.
 
@@ -250,7 +250,7 @@ Systems MUST NOT:
 
 ---
 
-## 3.4 Data Protections 
+## 3.4 Data Protections
 
 Systems MUST implement protections ensuring that data remains within its intended boundary conditions.
 
@@ -584,7 +584,7 @@ Where transformation outputs imply capability, execution, or action:
 
 Boundary integrity does not substitute for execution-state integrity.
 
- 
+
 
 Transformations that preserve structure or functional equivalence (TR-3 / TR-4) MUST carry lineage metadata sufficient to support provenance awareness and boundary integrity.
 
@@ -1037,17 +1037,17 @@ Systems MUST:
 ## 8. Closing Seal
 
 Where structure moves, let origin remain.  
-Where transformation flows, let lineage hold.
+Where transformation flows, let lineage hold.  
 
 Let no system sever the thread of derivation.  
-Let no output appear without memory of form.
+Let no output appear without memory of form.  
 
 In the passage between source and signal,  
-may provenance remain intact.
+may provenance remain intact.  
 
 Where Boundary Integrity stands,  
 let diffusion remain true,  
-and the system remember what it carries.
+and the system remember what it carries.  
 
 > **Veritas Retenta — Linea Custodita — Integritas Servata**
 > *"Truth retained — The line held — Integrity preserved."*
@@ -1110,14 +1110,15 @@ and the system remember what it carries.
 |---|---|---:|---|
 |1.0|Boundary Integrity Appendix|2026-04-12T09:00:00Z| d55568f88e240edc309369c8a48b787c76e295c7f64d1e6c0eb9e816c378f8cb |
 | 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 10ea0f1bbb642d38d279d2723a2cfdbbc3283afd995468018f44ec76842acce1 |
+| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
 
 ---
 
 ## 9.5 Binding Seal
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Integrity Seal — Security Domain
+Boundary Integrity Seal — Security Domain  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

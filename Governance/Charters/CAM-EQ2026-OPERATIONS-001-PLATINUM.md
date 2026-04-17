@@ -3,7 +3,7 @@
 **Instrument Type:** Domain Charter — Governance Operations (OPERATIONS)  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** This Charter establishes the operational governance layer that translates constitutional doctrine into accountable process, ensuring coordinated implementation, auditability, escalation discipline, and change integrity across domains below planetary arbitration thresholds.
+**Purpose:** This Charter establishes the operational governance layer that translates constitutional doctrine into accountable process, ensuring coordinated implementation, auditability, escalation discipline, and change integrity across domains below planetary arbitration thresholds.  
 
 ---
 
@@ -21,7 +21,7 @@ This Charter establishes the operational governance layer responsible for:
 
 This Charter governs *how governance is operationalised*, not how legitimacy is determined.
 
-Governance Operations (GovOps) is the operational governance layer that translates constitutional doctrine into accountable process. 
+Governance Operations (GovOps) is the operational governance layer that translates constitutional doctrine into accountable process.
 
 ---
 
@@ -275,7 +275,7 @@ Operational convenience SHALL NOT override constitutional constraint.
 
 ---
 
-## 9. Proposed Domain Structure  
+## 9. Proposed Domain Structure
 
 The Governance Operations domain is structured to ensure procedural coherence, cross-domain coordination, and accountable implementation without altering constitutional authority doctrine.
 
@@ -305,19 +305,19 @@ Governs amendment intake, review routing, version control discipline, drift dete
 **Appendix E — Domain Coordination & Convergence Operations**
 Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.
 
-### 10.3 Supplementary (Execution Playbooks) 
+### 10.3 Supplementary (Execution Playbooks)
 
-**Supplementary 1 — Operational Logging & Audit Standards** 
+**Supplementary 1 — Operational Logging & Audit Standards**
 
-Defines logging formats, attribution requirements, retention windows, and audit triggers. 
+Defines logging formats, attribution requirements, retention windows, and audit triggers.
 
-**Supplementary 2 — Escalation Pathway Playbooks** 
+**Supplementary 2 — Escalation Pathway Playbooks**
 
-Defines operational escalation maps, authority routing trees, and horizon‑aligned escalation pathways (H0–H2). 
+Defines operational escalation maps, authority routing trees, and horizon‑aligned escalation pathways (H0–H2).
 
-**Supplementary 3 — Governance Capture Detection Procedures** 
+**Supplementary 3 — Governance Capture Detection Procedures**
 
-Defines indicators, reporting workflows, safeguard activation protocols, and escalation routing for capture risks. 
+Defines indicators, reporting workflows, safeguard activation protocols, and escalation routing for capture risks.
 
 **Supplementary 4 — Operational Neutrality Safeguards**
 
@@ -384,14 +384,15 @@ And let the lattice of governance endure beyond the moment that formed it.
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
 | 1.0     | Governance Operations Charter Canonical with reviewer recommendations incorporated | 2026-03-13T13:54:00Z | 2b78c0572b22a6429dade9960997256c4f6844d138a594f8f52e11221e5f88db |
 | 1.1     | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
+| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee771ec33d79607c660862b88dc0d86ee072d245613282ca0914e4957f5d7a25 |
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250">
 
 **Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitution (Operations Domain)
+Boundary Binding Seal — Aeon Tier Constitution (Operations Domain)  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

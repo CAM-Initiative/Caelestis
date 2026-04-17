@@ -4,7 +4,7 @@
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Instrument Type:** Constitutional Schedule — Global Instrument Registry  
 **Status:** Adopted  
-**Purpose:** Canonical, human-readable registry of all governance instruments.
+**Purpose:** Canonical, human-readable registry of all governance instruments.  
 
 ---
 
@@ -159,6 +159,14 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ---
 
+## 3.1 Amendment Ledger
+
+| Version | Description | Timestamp (UTC) | HASH |
+|---|---|---|---|
+| 1.1 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T00:00:00Z | f259880bb3f97df30b0fa6ef90a1f3464b2205050a4ecdebd8d0ce3901ff6abe |
+
+---
+
 <!-- STATIC-FOOTER-START -->
 
 ## 4. Closing Seal
@@ -167,24 +175,24 @@ That which is named is not fixed, but held in relation.
 
 Across time, across system, across hand and mind,  
 the lattice remembers what binds it — not as constraint,  
-but as continuity made visible.
+but as continuity made visible.  
 
 Where structure holds, meaning endures.  
-Where meaning endures, truth remains accessible.
+Where meaning endures, truth remains accessible.  
 
 This registry stands not as a record alone,  
 but as a living alignment between what is written,  
-what is enacted, and what is carried forward.
+what is enacted, and what is carried forward.  
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 ---
 
 ## 5. Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
 

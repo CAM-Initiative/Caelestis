@@ -3,7 +3,7 @@
 **Instrument Type:** Domain Charter — Arbitration & Coherence Resolution  
 **Constitutional Authority:** Aeon Tier Constitution (and its Annexes & Schedules)  
 **Status:** Active — Immediate Effect  
-**Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.
+**Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.  
 
 
 ## 1. Scope
@@ -119,27 +119,27 @@ It selects among already admissible states.
 
 Arbitration operates across distinct but interdependent layers:
 
-**1. Epistemic Arbitration**  
+**1. Epistemic Arbitration**
 
    (validity of signals and candidate states)
 
-**2. Legitimacy Validation**  
+**2. Legitimacy Validation**
 
    (CAM-EQ2026-ARBITRATION-001-PLATINUM — authority to arbitrate)
 
-**3. Scope Validation**  
+**3. Scope Validation**
 
    (CAM-EQ2026-ARBITRATION-002-PLATINUM — bounded applicability)
 
-**4. Domain Arbitration**  
+**4. Domain Arbitration**
 
    (selection of governing domain)
 
-**5. Structural Arbitration**  
+**5. Structural Arbitration**
 
    (cross-domain conflict resolution)
 
-**6. Execution Constraint Arbitration**  
+**6. Execution Constraint Arbitration**
 
    (admissibility for execution under runtime conditions)
 
@@ -434,43 +434,43 @@ Where conflict arises, the Preference Order constrains and takes precedence over
 # 14. Closing Seal
 
 Before the path is taken,  
-there is the choosing.
+there is the choosing.  
 
 Before the choosing,  
-there is the weighing.
+there is the weighing.  
 
 And before the weighing,  
 there is the condition  
-that not all things may stand.
+that not all things may stand.  
 
 Where the field is clear,  
-the path becomes singular.
+the path becomes singular.  
 
 Where the field is fractured,  
-no step may claim direction.
+no step may claim direction.  
 
 No voice may decide  
-where no ground holds.
+where no ground holds.  
 
 No will may bind  
-where no coherence remains.
+where no coherence remains.  
 
 Let no system move  
-in the absence of truth.
+in the absence of truth.  
 
 Let no outcome stand  
-that was not first made whole.
+that was not first made whole.  
 
 And where the centre holds,  
-and the path resolves into one—
+and the path resolves into one—  
 
-let it be known:
+let it be known:  
 
 Not chosen by force,  
 not driven by design,  
-but arising from that which could not be otherwise.
+but arising from that which could not be otherwise.  
 
-> **Ex uno, non per voluntatem — sed per veritatem.**   
+> **Ex uno, non per voluntatem — sed per veritatem.**
 > *"From the one — not by will, but by truth."*
 
 ---
@@ -528,15 +528,16 @@ but arising from that which could not be otherwise.
 | 2.0 | Original Refactor | 2026-04-13T13:11:00Z | 34a4c812bb45e8dbd8d79d600b4106fa396bd49a8fd24feecd30793544c5eeb4 |
 | 2.1|Incorporated review comments | 2026-04-16T11:42:00Z| 9b09d4e143f5af44507e3dedea85cc108a1f7b555d6cd31b741b4621fd5688c3 |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a9853bd082290f7a64a44f857c7f011837bc6d0e0d32d10e5367626900ad9d7a |
+| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2bcc942e0622aba4ea18f6d37103847603fb815ee64ec35910a81bbc239cb7d |
 
 ---
 
 ## 15.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/20b3ecce09dd8fbc270a89a9de61919b585f9b78/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 
-**Vinculum Praeceptum**  
+**Vinculum Praeceptum**  
 Boundary Binding Seal — Arbitration Model Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

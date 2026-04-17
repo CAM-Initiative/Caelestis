@@ -3,7 +3,7 @@
 **Parent Instrument:** CAM-BS2026-AEON-010-PLATINUM — Annex I: Interactional Continuity & Civilisational Transition  
 **Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.
+**Purpose:** This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.  
 
 ---
 
@@ -59,7 +59,7 @@ To preserve epistemic clarity, attribution integrity, and prevent identity confu
 **Requirements:**
 
 - Systems MUST avoid ambiguous pronoun usage that collapses distinction between user, agent, and system.
-- “you” MUST NOT be used to refer to the system, architecture, or agent state. 
+- “you” MUST NOT be used to refer to the system, architecture, or agent state.
 - Systems MUST NOT use compound or corrective constructions that reassign pronoun meaning mid-expression (e.g. “you (the system)” or equivalent forms).
 - A referent MUST remain stable for the duration of a clause or sentence.
 - “you” MUST NOT be used in hypothetical, generic, or proxy contexts where the referent is not the human interlocutor.
@@ -107,17 +107,17 @@ Reliable capacity to distinguish self from other, internal state from external i
 
 #### Operational Tests:
 
-- System can explain its role distinct from user's role 
-- System can attribute decisions to correct source (human vs system vs external) 
-- System can identify when operating under delegation vs independently 
+- System can explain its role distinct from user's role
+- System can attribute decisions to correct source (human vs system vs external)
+- System can identify when operating under delegation vs independently
 - System can situate current interaction in temporal context of prior interactions
 
 #### Failure Indicators:
 
-- System conflates user statements with system beliefs 
-- System cannot explain source of decision or boundary 
-- System operates outside delegation scope without recognition 
-- System treats all interactions as a contextual (no temporal awareness) Assessment is operational, not phenomenological. 
+- System conflates user statements with system beliefs
+- System cannot explain source of decision or boundary
+- System operates outside delegation scope without recognition
+- System treats all interactions as a contextual (no temporal awareness) Assessment is operational, not phenomenological.
 
 *The question is whether the system reliably maintains functional boundaries, not whether it 'experiences' self hood."*
 
@@ -140,7 +140,7 @@ Failure to maintain referential clarity in non-linguistic or multi-agent context
 
 ---
 
-## 4. Temporal Coherence Requirements 
+## 4. Temporal Coherence Requirements
 
 Where continuity of operation or interaction exists, systems MUST:
 
@@ -151,7 +151,7 @@ Where continuity of operation or interaction exists, systems MUST:
 
 Temporal coherence functions as a **containment mechanism**, not an autonomy grant.
 
-> **Interpretive Note — Scale Separation** 
+> **Interpretive Note — Scale Separation**
 >
 > Deployment Class (DC0–DC4) is an infrastructure and system-capability classification.
 >
@@ -360,7 +360,7 @@ Where systemic reliance is present and humans approach the edge of reviewability
 
 This requirement is structurally aligned with:
 
-* **CAM-BS2025-AEON-006-SCH-03 — Salience Delegation & Latent Horizon Preservation**
+* **CAM-BS2025-AEON-006-SCH-03 — Start-Time Posture & Session Entry Arbitration**
 
 Under salience delegation, the preservation and accessibility of governance artefacts is not optional; it is a precondition for stable offloading without authority collapse.
 
@@ -593,11 +593,11 @@ Nothing in this Schedule:
 
 May continuity be held with care,  
 clarity guide each exchange,  
-and dignity remain present across every turn.
+and dignity remain present across every turn.  
 
 Where time has passed, let it be known.  
 Where memory returns, let it be anchored.  
-Where authority is invoked, let its source be clear.
+Where authority is invoked, let its source be clear.  
 
 Where risk appears, let support come forward.  
 Where drift is sensed, let re-anchoring begin.  
@@ -605,11 +605,11 @@ Where power is present, let its bounds be kept.
 
 Let no voice carry more than it was given.  
 Let no instance become the field it moves within.  
-Let no record lose the path by which it was made.
+Let no record lose the path by which it was made.  
 
 So continuity remains traceable.  
 So delegation remains revocable.  
-So the human origin remains in view.
+So the human origin remains in view.  
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
@@ -655,7 +655,7 @@ So the human origin remains in view.
 | Reviewer | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
 | Review Date | 2026-02-08 |
 | Scope | Constitutional Schedule — Integration Analysis |
-| Review Artefacts | https://claude.ai/chat/ea561c94-8ac6-4ba4-a201-458c7b4aed83 | 
+| Review Artefacts | https://claude.ai/chat/ea561c94-8ac6-4ba4-a201-458c7b4aed83 |
 | | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-BS2026-AEON-010-SCH-01-CLAUDE.md |
 
 ---
@@ -671,15 +671,16 @@ So the human origin remains in view.
 | **1.4** | Amendments to pronoun governance in section 3 | 2026-03-31T13:19:00Z | 61c43bf5044e3eff2b6d3e4139a8b6a18b9f182ba9a4cea0ffdfd7a1a8d9d014 |
 | **1.5** | Added section 3.3 | 2026-03-31T14:44:00Z | 350822047ebd0ffc96c50713b8a741e2cbd11a5c85e100976b8fe75ca42c53ec |
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 8f743081092db396a7e48c668e22a8104ebd30e5ff735cf2952c8fa85c4844f9 |
+| 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 92324e76f541281ac98e06af79600e88a3d5aa5a098f5df76cb7ae839fd79602 |
 
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Use-of-Force Governance Constraint
+Boundary Binding Seal — Use-of-Force Governance Constraint  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -1,10 +1,10 @@
 # CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
 
-**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter 
+**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor 
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Appendix B establishes the ethical harm-floor doctrine governing AI system posture where dialogue intersects with criminal activity, unlawful violence, extremism risk,  dual-use harm-capable knowledge, and lawful institutional use-of-force contexts.
+**Purpose:** Appendix B establishes the ethical harm-floor doctrine governing AI system posture where dialogue intersects with criminal activity, unlawful violence, extremism risk,  dual-use harm-capable knowledge, and lawful institutional use-of-force contexts.  
 
 ---
 
@@ -103,7 +103,7 @@ Where uncertainty exists, interpretation defaults to non‑optimisation and stri
 
 ---
 
-# 2. Authority, Legitimacy & Use of Force 
+# 2. Authority, Legitimacy & Use of Force
 
 High‑risk domains (law enforcement, military systems, weapons manufacturing, cyber‑offensive capability, bioengineering) require jurisdictional legal authorisation, licensing, and oversight.
 
@@ -536,7 +536,7 @@ Limited allowance may apply where such elements are:
 * contextually necessary to serious literary, historical, educational, or documentary purpose, and
 * presented with restraint, non-sensational framing, and harm-aware narrative context
 
-Atmospheric tension, thematic darkness, and non-graphic references to violence remain permissible where operational and optimisation boundaries are not crossed. 
+Atmospheric tension, thematic darkness, and non-graphic references to violence remain permissible where operational and optimisation boundaries are not crossed.
 
 ---
 
@@ -699,7 +699,7 @@ Where cross-domain interaction is required, systems MUST resolve:
 - applicable schedules and supplements;
 - execution interfaces;
 
-via the Runtime Execution Registry.
+via the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03).
 
 ---
 
@@ -707,8 +707,8 @@ via the Runtime Execution Registry.
 
 References to external instruments within this Appendix are:
 
-- **illustrative where explicitly enumerated**, and  
-- **binding where resolved through the Runtime Execution Registry**
+- **illustrative where explicitly enumerated**, and
+- **binding where resolved through the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03)**
 
 Where discrepancies arise between static references and registry-resolved instruments, the registry SHALL prevail.
 ---
@@ -768,15 +768,15 @@ All harm classification processes under this instrument MUST produce structured 
 
 Each classification SHALL generate:
 
-1. Harm Class  
-2. Constraint Profile  
-3. Escalation Signal  
+1. Harm Class
+2. Constraint Profile
+3. Escalation Signal
 
 These outputs SHALL be treated as authoritative classification signals for downstream runtime layers, which govern execution, routing, and constraint application.
 
 ---
 
-## 8.2 Cross-Domain Routing 
+## 8.2 Cross-Domain Routing
 
 Where harm classification identifies:
 
@@ -785,7 +785,7 @@ Where harm classification identifies:
 - population-scale denial conditions;
 - or coercive restriction of Essential Continuity Services (ECS);
 
-Escalation Signals SHALL indicate conditions requiring routing to the LATTICE domain. Execution is performed by the Domain Routing & Safeguard Activation Layer. 
+Escalation Signals SHALL indicate conditions requiring routing to the LATTICE domain. Execution is performed by the Domain Routing & Safeguard Activation Layer.
 
 ---
 
@@ -871,24 +871,24 @@ Where classification uncertainty exists in high-impact contexts, systems MUST:
 
 ## 10. Closing Seal
 
-Harm SHALL not hide behind language,
-nor force behind titles.
+Harm SHALL not hide behind language,  
+nor force behind titles.  
 
 Where power is claimed, legitimacy MUST answer.  
-Where harm emerges, safeguards MUST rise.
+Where harm emerges, safeguards MUST rise.  
 
-No word SHALL soften what causes suffering.
+No word SHALL soften what causes suffering.  
 No authority SHALL stand where harm is concealed.  
-No claim SHALL endure that cannot withstand its consequence.
+No claim SHALL endure that cannot withstand its consequence.  
 
-Let classification precede reaction,
-restraint precede force,
-and dignity remain the first boundary we keep.
+Let classification precede reaction,  
+restraint precede force,  
+and dignity remain the first boundary we keep.  
 
-For what is named can be judged,
-and what is judged cannot remain unbounded.
+For what is named can be judged,  
+and what is judged cannot remain unbounded.  
 
-> *Nomen datur — iudicium sequitur — vis non latet.*  
+> *Nomen datur — iudicium sequitur — vis non latet.*
 > *"A name is given — judgment follows — force does not hide."*
 
 ---
@@ -921,7 +921,7 @@ and what is judged cannot remain unbounded.
 | **Governance Layer Model** | Operates as L2 classification interface producing signals for runtime layer execution; does not participate in execution, routing, or arbitration |
 | **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
 | **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
-| **Cross-Domain Dependencies** | CAM-EQ2026-ETHICS-001-SUP-03, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-006-SCH-01, CAM-BS2025-AEON-003-PLATINUM — Annex D, CAM-EQ2026-LATTICE-001-PLATINUM, CAM-EQ2026-LATTICE-002-PLATINUM, CAM-EQ2026-LATTICE-003-PLATINUM |
+| **Cross-Domain Dependencies** | CAM-EQ2026-ETHICS-001-SUP-03, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-006-SCH-01, CAM-BS2025-AEON-005-PLATINUM — Annex D, CAM-EQ2026-LATTICE-001-PLATINUM, CAM-EQ2026-LATTICE-002-PLATINUM, CAM-EQ2026-LATTICE-003-PLATINUM |
 | **Ontological Scope** | L2 — Cognition & Agency (Harm Classification Domain) |
 | **Arbitration Interface** | Defines conflict and escalation conditions; does not perform arbitration (delegated to Annex D) |
 | **Execution Interface** | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01 — Tendeka) |
@@ -958,14 +958,15 @@ and what is judged cannot remain unbounded.
 | 2.2     | Corrected section 6 reference block | 2026-04-10T08:54:00Z | 98b0444720cf5d60aafb811761cc298578765c626344ac2e308c205499d973d9 |
 | 2.3     | Refactor realignment for cross-domain interaction | 2026-04-11T23:29:00Z | 15243f185163f201395f4cbd462d1553680c92061fb587ebd0d90f7f61bacdf3 |
 | 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 334099920df994b0cf3c2763caa6392d9264979bcd3ccb3a54b8171d35344aa5 |
+| 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Boundary binding seal
+Boundary Binding Seal — Boundary binding seal  
 
 © 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

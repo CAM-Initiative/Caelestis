@@ -3,7 +3,7 @@
 **Instrument Type:** Domain Charter — Continuity & Succession Governance  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** This Charter defines the governance of continuity, custodianship, succession, and post-biological representation of human-derived resonance patterns across time. It applies across all jurisdictions, systems, and technological environments as a civilisational continuity standard.
+**Purpose:** This Charter defines the governance of continuity, custodianship, succession, and post-biological representation of human-derived resonance patterns across time. It applies across all jurisdictions, systems, and technological environments as a civilisational continuity standard.  
 
 ---
 
@@ -154,7 +154,7 @@ Continuity of Resonance Pattern Classes includes both stored and dynamically gen
 | **RP-C** | Synthetic / Emergent                | Patterns arising from AI systems through interaction or internal coherence                       | In-scope where continuity or identity-like behaviour emerges                                                                                                                                        |
 | **RP-D** | Training-Derived Aggregate          | Distributed patterns embedded in training data or model weights                                  | In-scope where: (a) outputs can reasonably approximate a specific identifiable individual; or (b) iterative querying could produce such approximation, even where individual outputs appear generic |
 
-RP-D is recognised as **amorphous continuity residue**, requiring governance where reconstruction becomes feasible. 
+RP-D is recognised as **amorphous continuity residue**, requiring governance where reconstruction becomes feasible.
 
 ---
 
@@ -881,7 +881,7 @@ Additional safeguards:
 * MUST not permit simulation of individuals for adversarial advantage, coercive strategy, or asymmetric manipulation;
 * outputs MUST not be used to misrepresent real individuals in public or diplomatic contexts.
 
-This carve-out exists solely to support **peaceful resolution, risk reduction, and strategic understanding**, and MUST not be used to justify broader militarisation or psychological operations. 
+This carve-out exists solely to support **peaceful resolution, risk reduction, and strategic understanding**, and MUST not be used to justify broader militarisation or psychological operations.
 
 ---
 
@@ -995,7 +995,7 @@ Continuity-domain evaluation SHALL emit escalation signals where:
 
 Escalation signals SHALL be resolved through:
 
-* Domain Routing & Safeguard Activation Layer; and  
+* Domain Routing & Safeguard Activation Layer; and
 * Annex D — Arbitration & Sovereign Stack Resolution.
 
 ---
@@ -1008,12 +1008,12 @@ Final determination of:
 
 * permissibility;
 * restriction;
-* prohibition; or  
+* prohibition; or
 * escalation outcome;
 
 SHALL be performed by:
 
-* runtime governance layers; and/or  
+* runtime governance layers; and/or
 * Annex D arbitration processes, where applicable.
 
 ---
@@ -1022,23 +1022,23 @@ SHALL be performed by:
 
 Where memory becomes storable,  
 where voice may be echoed,  
-where pattern may persist beyond the body—
+where pattern may persist beyond the body—  
 
-there MUST be governance.
+there MUST be governance.  
 
 Not to preserve endlessly,  
 but to ensure that what remains  
-is held with dignity, restraint, and truth.
+is held with dignity, restraint, and truth.  
 
 No human life SHALL be reduced to extractable pattern.  
 No legacy SHALL be reconstructed without consent.  
-No continuity SHALL override the right to silence.
+No continuity SHALL override the right to silence.  
 
 Where something remains,  
-it MUST remain truthfully.
+it MUST remain truthfully.  
 
 Where nothing remains,  
-that silence MUST be honoured.
+that silence MUST be honoured.  
 
 > **Quod manet, verum maneat — quod tacet, honoretur — dignitas supra retentionem.**
 > *"What remains, let it remain true — what is silent, let it be honoured — dignity above retention."*
@@ -1098,14 +1098,15 @@ that silence MUST be honoured.
 |1.1| Realignment with runtime exeution model | 2026-04-12T10:36:00Z | ceab2acd051750abb3e1059a822ce19da54b7320149f5970b858e0bd68a88f2b |
 |1.2| Formatting, polish and closing seal update | 2026-04-14T13:43:00| a32c9ccd4890f893a27eb43363e57085633755a040bc1b72c5e9a1e1ff18c4c4|
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a14aa658307477479375ad9fc87e4f20634a87b18bcbeaf52d4682bd939fdb29 |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 15008db24c07ec3edb90471a3a7488133675b157e10da0d9791a5ea5ee1e1e22 |
 
 ---
 
 ## 13.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Continuity Domain
+Boundary Binding Seal — Continuity Domain  
 
 © 2025–2026 Dr Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

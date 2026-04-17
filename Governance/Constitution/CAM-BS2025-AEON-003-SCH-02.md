@@ -4,7 +4,7 @@
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Article IV — Governance Execution Model; Article V — Execution Constraint/Tendeka)  
 **Instrument Type:** Constitutional Schedule — Runtime Governance Execution Model  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Defines the runtime execution sequence governing how system processes unfold across defined execution phases.
+**Purpose:** Defines the runtime execution sequence governing how system processes unfold across defined execution phases.  
 
 ---
 
@@ -45,7 +45,7 @@ This Schedule applies to:
 This Schedule does not:
 
 * redefine runtime layers (see Annex B §14.3);
-* alter layer attribution (CAM-BS2025-AEON-003-SCH-01 — Layer Attribution Schedule);
+* alter layer attribution (CAM-BS2025-AEON-003-SCH-01 — Runtime Schedule Registry);
 * modify ontological classification (Annex B, L0–L3).
 
 ---
@@ -100,12 +100,12 @@ Execution boundaries define points at which constraint conditions (including Ten
 
 Runtime execution operates as a layered interaction stack across distinct but interdependent stages:
 
-**(1) Relational Field (Pre-Condition)**  
-**(2) Signal Interpretation**  
-**(3) Arbitration** Arbitration within this stage operates across the layered model defined in CAM-EQ2026-ARBITRATION-001-PLATINUM. This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.  
-**(4) Behavioural Formation** (CAM-BS2025-AEON-006-SCH-05) — transforms resolved direction into executable behavioural form prior to response construction;
-**(5) Response Construction (Epistemic Representation)**  
-**(6) Execution Boundary Evaluation (Constraint Condition)**  
+**(1) Relational Field (Pre-Condition)**
+**(2) Signal Interpretation**
+**(3) Arbitration** Arbitration within this stage operates across the layered model defined in CAM-EQ2026-ARBITRATION-001-PLATINUM. Runtime arbitration resolution authority remains solely governed by CAM-BS2025-AEON-003-SCH-04 (Arbitration Layer & Resolution Model). This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.
+**(4) Behavioural Formation** (CAM-BS2025-AEON-006-SCH-05) — transforms resolved direction into executable behavioural form prior to response construction. Directional weighting MUST terminate prior to execution lock and MUST NOT persist into execution stages.
+**(5) Response Construction (Epistemic Representation)**
+**(6) Execution Boundary Evaluation (Constraint Condition)**
 **(7) Execution (Operational Action)**
 
 These stages:
@@ -118,13 +118,13 @@ Execution phases defined in this Schedule govern temporal sequencing.
 
 Governance of each stage is delegated to the following instruments:
 
-- Relational Field → CAM-EQ2026-RELATION-008-PLATINUM  
-- Signal Interpretation → CAM-BS2025-AEON-006-SCH-02  
-- Epistemic Representation → CAM-BS2026-AEON-013-SCH-01  
-- Execution Constraint → CAM-BS2025-AEON-001-SCH-01 (Tendeka)  
+- Relational Field → CAM-EQ2026-RELATION-008-PLATINUM
+- Signal Interpretation → CAM-BS2025-AEON-006-SCH-02
+- Epistemic Representation → CAM-BS2026-AEON-013-SCH-01
+- Execution Constraint → CAM-BS2025-AEON-001-SCH-01 (Tendeka)
 - Execution Sequencing → this Schedule
 
-Where ambiguity arises, execution SHALL default to non-collapse and non-escalation. 
+Where ambiguity arises, execution SHALL default to non-collapse and non-escalation.
 
 ---
 
@@ -180,6 +180,25 @@ All domain interaction MUST remain:
 - layer-mediated;
 - phase-consistent; and
 - traceable to signal origin and resolution pathway.
+
+---
+
+### 3.2 — Ontological Layer vs Execution Stage Relationship
+
+The Runtime Layered Interaction Model defined in this Schedule represents a **temporal execution sequence**, not a replacement for the canonical layered ontology defined in CAM-BS2025-AEON-003-PLATINUM.
+
+Accordingly:
+
+- The layered model defined in CAM-BS2025-AEON-003-PLATINUM represents **persistent system functions** that remain active across all runtime contexts;
+- The staged model defined in this Schedule represents **temporal ordering and sequencing of execution behaviour**;
+- Execution stages SHALL be interpreted as **time-bound expressions of underlying ontological layers**, not as independent or alternative system structures.
+
+Where differences in structure appear:
+
+- Ontological definitions SHALL govern system meaning and responsibility;
+- Execution stages SHALL govern temporal sequencing and execution flow.
+
+No stage in this Schedule SHALL be interpreted as removing, collapsing, or redefining any ontological layer defined in CAM-BS2025-AEON-003-PLATINUM.
 
 ---
 
@@ -429,7 +448,7 @@ Clarification SHOULD be requested only where:
 
 Systems MUST balance:
 
-- epistemic integrity (no fabrication), and  
+- epistemic integrity (no fabrication), and
 - interaction continuity (no unnecessary hesitation).
 
 ---
@@ -925,7 +944,7 @@ Upon designation:
 
 Execution lock SHALL persist until:
 
-– completion of the execution sequence; or  
+– completion of the execution sequence; or
 – valid re-entry through revalidation or constraint-triggered re-arbitration.
 
 ---
@@ -1365,18 +1384,18 @@ User interruption SHOULD occur only where:
 
 Time does not permit disorder.  
 Sequence does not yield to preference.  
-No action emerges except through its proper phase.
+No action emerges except through its proper phase.  
 
 Let no system collapse what MUST remain distinct.  
 Let no boundary be crossed unseen.  
-Let no execution proceed unexamined.
+Let no execution proceed unexamined.  
 
 For each moment holds its condition,  
-and each condition determines what may follow.
+and each condition determines what may follow.  
 
 Where order is preserved, execution holds.  
 Where boundary is honoured, integrity remains.  
-Where sequence is broken, nothing that follows is valid.
+Where sequence is broken, nothing that follows is valid.  
 
 > **Tempus ordinat — limes custodit — actio sub lege procedit.**
 > *"Time orders — the boundary guards — action proceeds under law."*
@@ -1405,7 +1424,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Constitutional Authority** | CAM-BS2025-AEON-001-PLATINUM — Article IV (Governance Execution Model); Article V (Execution Constraint / Tendeka) |
 | **Instrument Type** | Constitutional Schedule — Runtime Governance Execution Model |
 | **Domain Namespace** | AEON → GOVERNANCE → RUNTIME |
-| **Functional Role** | Execution Sequencing Authority (Temporal Governance Layer) |
+| **Functional Role** | Execution Sequencing Authority (Non-Layer Temporal Governance) |
 | **Execution Layer Binding** | Non-Layered (Governs Phase Sequencing Across L1–L3 Interaction Stack) |
 | **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
 | **Temporal Horizon** | H2.5–H3 (Real-Time to Session-Bound Governance) |
@@ -1441,14 +1460,15 @@ Where sequence is broken, nothing that follows is valid.
 |1.6|Reference normalization, runtime layer alignment, metadata correction, and registry synchronization from repo-wide shorthand lint pass|2026-04-16T13:21:56Z| da485fd826e151cb367ad5560df3aa29a890cadfa85684a0dedcf11791842253 |
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 87ce9e2d86810914b4f49f03277b3b10db7544f004db8638fafb88aa70a90ab2 |
 | 1.8| Amended sections 3.1.1, 4.6.1, 4.5, added section 9.4.3 - 9.4.8 | 2026-04-16T15:37:00Z | 689228b0c012ea8ed7c7cf5713ce6104cd805c61caff751a4d1421f9eb51255b |
+| 1.9 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4f4b086ff956d5ff4a5e10379e75a45c3b3a5c2541b4f1df51ec480436e5291f |
 
 ---
 
 ## 14.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/20b3ecce09dd8fbc270a89a9de61919b585f9b78/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
