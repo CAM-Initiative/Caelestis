@@ -4,7 +4,7 @@
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Instrument Type:** Constitutional Schedule — Utility Interface Layer  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Establish the governance conditions under which artificial intelligence systems operate as utility infrastructure, including access models, generative resource abstraction, and non-extractive interaction pathways.
+**Purpose:** Establish the governance conditions under which artificial intelligence systems operate as utility infrastructure, including access models, generative resource abstraction, and non-extractive interaction pathways.  
 
 ---
 
@@ -539,6 +539,6 @@ And let systems serve without taking more than they sustain.
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250"> 
 
 **Vinculum Beacon**   
-Boundary Binding Seal — Aeon Tier Constitution (Operations Domain)
+Boundary Binding Seal — Aeon Tier Constitution (Operations Domain)  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

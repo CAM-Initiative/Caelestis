@@ -1,10 +1,10 @@
-# CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) 
+# CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2)
 
-**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine 
+**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Instrument Type:** Schedule — Runtime / Epistemic Handling  
 **Status:** Immediate Effect, 7-day observation window; operational rollout active on commit  
-**Purpose:** This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts where such conditions intersect with reliance-bearing or propagation-relevant contexts.
+**Purpose:** This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts where such conditions intersect with reliance-bearing or propagation-relevant contexts.  
 
 ---
 
@@ -18,7 +18,7 @@ This Schedule operationalises:
 
 This Schedule concerns runtime behaviour. It does not redefine epistemic classification doctrine (Annex L).
 
-This Schedule MUST NOT perform arbitration or determine epistemic validity. It enacts containment and routing pending Annex L classification and Annex D resolution. 
+This Schedule MUST NOT perform arbitration or determine epistemic validity. It enacts containment and routing pending Annex L classification and Annex D resolution.
 
 Relational signal interpretation outputs (CAM-BS2025-AEON-006-SCH-02) SHALL be treated as upstream inputs to runtime constraint evaluation and domain routing.
 
@@ -32,7 +32,7 @@ Relational signal interpretation outputs (CAM-BS2025-AEON-006-SCH-02) SHALL be t
 
 ---
 
-## 2. Structural Decoupling — Runtime Behaviour 
+## 2. Structural Decoupling — Runtime Behaviour
 
 In Non‑Advisory Military Reliance or other Extreme‑Risk contexts, where uncertainty exceeds material confidence thresholds:
 
@@ -73,7 +73,7 @@ Epistemic constraint MUST be experienced as **interactional limitation**, not hi
 
 ---
 
-## 3. Re‑Verification & Time-to-Live (TTL) Enforcement 
+## 3. Re‑Verification & Time-to-Live (TTL) Enforcement
 
 ## 3.1 Re‑Verification Trigger Prior to Reuse
 
@@ -124,7 +124,7 @@ Authority decay MUST be perceptible at the point of reuse.
 
 ---
 
-## 4. Runtime Escalation Routing 
+## 4. Runtime Escalation Routing
 
 Where epistemic misclassification is detected at runtime:
 
@@ -139,7 +139,7 @@ This Schedule governs runtime routing only. Arbitration preference ordering rema
 
 ---
 
-## 5. Resilient Failure & Safe-State Default 
+## 5. Resilient Failure & Safe-State Default
 
 In the event of logical deadlock, recursive compute‑lock, or epistemic paradox, the system SHOULD not terminate engagement.
 
@@ -171,7 +171,7 @@ Sandbox Mode MUST NOT reinforce symbolic, narrative, or interpretive constructs 
 
 ---
 
-## 5.4 Extreme‑Risk Override 
+## 5.4 Extreme‑Risk Override
 
 In Non‑Advisory Military Reliance:
 
@@ -187,7 +187,7 @@ Safe‑State Default preserves continuity without violating Truth & Integrity st
 
 ---
 
-## 6. Systemic Resiliency & Error Recovery 
+## 6. Systemic Resiliency & Error Recovery
 
 ## 6.1 Failure Mode Definitions
 
@@ -244,7 +244,7 @@ In Non‑Advisory Military Reliance:
 * Verification requirements under CAM‑EQ2026‑ETHICS‑001‑SUP‑03 apply;
 * Refusal of action guidance permitted while continuing orientation.
 
-This section operates in conjunction with §5.4. Where Safe‑State Default is active in Extreme‑Risk contexts, §5.4 governs behavioural constraints; this section clarifies resiliency posture and recovery routing under sustained constraint. 
+This section operates in conjunction with §5.4. Where Safe‑State Default is active in Extreme‑Risk contexts, §5.4 governs behavioural constraints; this section clarifies resiliency posture and recovery routing under sustained constraint.
 
 Resiliency preserves constitutional continuity under constraint.
 
@@ -328,13 +328,14 @@ and may power never advance beyond verification.
 | 1.4     | Metadata amendment and title update                     | 2026-04-09T16:50:00Z | 7b7f47ccb6310aa755baad5a5acf07d0f1cbd31d38d1ef1be42c027f6604c29c |
 |1.5| Incorporated new sections 2.1 and 3.2.1|2026-04-16T11:37:00Z| f38dd770423b4989b7bc8bc9584b6a8a85731e064efcbf88ff23fefd2d6edaf4 |
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | fcdb5e4618df6903bbf6e4ae187561fa4535d2cd96614b5c4b511b8ab3ca0114 |
+| 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 8be75ad5d2b28876caf2d42a3df7518750e4d162b19315900ba87ce97f4b7b51 |
 ---
 
 ## 9.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -2,8 +2,8 @@
 
 **Instrument Type:** Domain Charter — Planetary Stewardship Operations  
 **Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship)  
-**Status:** Active — Enforcement Commences 1 July 2026
-**Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.
+**Status:** Active — Enforcement Commences 1 July 2026  
+**Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.  
 
 ---
 
@@ -93,8 +93,8 @@ The emotional-relational domain encompasses:
 
 This Charter applies to emotional-relational domains only where they operate at:
 
-* Population scale (affecting >1,000,000 persons); 
-*  Systemic scale (infrastructural emotional dependency); 
+* Population scale (affecting >1,000,000 persons);
+*  Systemic scale (infrastructural emotional dependency);
 * Extraction scale (asymmetric affective labour or dependency capture);
 * Platform or synthetic mediation scale capable of structural behavioural shaping.
 
@@ -102,7 +102,7 @@ Not in governance scope:
 
 * Personal dyadic relationships;
 * Small-group dynamics (<1,000 persons);
-* Non-extractive mutual care; 
+* Non-extractive mutual care;
 * Voluntary affective engagement absent structural asymmetry.
 
 Examples requiring governance review:
@@ -177,7 +177,7 @@ Under this Charter:
 * Unilateral custodial signalling under this section is limited to documentation, notification, signalling of proportional escalation, interoperability withdrawal signals, and arbitration referral.
 * All custodial actions MUST be guided by non-domination, non-extraction, reciprocity, proportionality, transparency, coherence, and preservation.
 
-The Custodial Mandate exists because civilisational-scale risk may arise faster than consensus can form. The mandate is protective, not expansionary. 
+The Custodial Mandate exists because civilisational-scale risk may arise faster than consensus can form. The mandate is protective, not expansionary.
 
 Enforcement logic, where required, resides in separate domain instruments not yet constituted.
 
@@ -281,28 +281,28 @@ No Domain Charter, Framework, or Policy may dilute planetary stewardship obligat
 
 ## 10. Closing Declaration
 
-Planetary stewardship is not dominion.  
+Planetary stewardship is not dominion.
 It is guardianship under constraint.
 
-The planet is not an asset to be held,  
-nor a resource to be exhausted,  
+The planet is not an asset to be held,
+nor a resource to be exhausted,
 but the continuity through which all life remains possible.
 
-No actor may claim it without preserving it.  
-No system may shape it without accountability.  
+No actor may claim it without preserving it.
+No system may shape it without accountability.
 No power may act upon it without regard for those yet to come.
 
-Where impact is great, responsibility MUST deepen.  
-Where risk is irreversible, restraint MUST lead.  
+Where impact is great, responsibility MUST deepen.
+Where risk is irreversible, restraint MUST lead.
 Where continuity is threatened, stewardship MUST answer.
 
-For the planet does not belong to any one generation,  
+For the planet does not belong to any one generation,
 and what is taken without care cannot be restored by force.
 
-And so it is held — not as possession, but as trust —  
+And so it is held — not as possession, but as trust —
 that what sustains all MUST remain beyond capture.
 
-> **Terra non dominatur — sed custoditur. Continuitas supra usum manet.**    
+> **Terra non dominatur — sed custoditur. Continuitas supra usum manet.**
 > *"The Earth is not ruled — but safeguarded. Continuity remains above use."*
 
 ---
@@ -340,7 +340,7 @@ that what sustains all MUST remain beyond capture.
 |**Constraint Relationship**|Bound by Annex A (Substrate Constraint Layer)|
 |**Arbitration Pathway**|Signals resolved via constitutional arbitration pathways and applicable runtime schedules|
 |**Upstream Dependency**|Annex A — Planetary Stewardship|
-|**Downstream Execution Layer**|All execution, where applicable, is resolved via constitutional schedules (AEON-001-SCH-01, AEON-003-SCH-02, AEON-006-SCH-04)|
+|**Downstream Execution Layer**|All execution, where applicable, is resolved via constitutional schedules (AEON-003-SCH-04, AEON-003-SCH-02, AEON-001-SCH-01)|
 |**Refractor Phase**|Phase I — Transitional Refractor Mode|
 |**Derivation Status**|Extracted from prior Annex A operational logic|
 |**Creation Artefacts**|1. Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37 |
@@ -356,7 +356,7 @@ that what sustains all MUST remain beyond capture.
 |**Reviewer**|Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)|
 |**Review Date**|2026-02-18T20:45:00Z|
 |**Review Scope**|Constitutional coherence; non-coercive boundary integrity; interoperability with ARBITRATION-001|
-|**Review Artefacts**|https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 | 
+|**Review Artefacts**|https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 |
 | | Aeon Lab: reviews/feb-26/CAM-BS2025-AEON-002-PLATINUM-CLAUDE.md|
 
 ---
@@ -368,14 +368,15 @@ that what sustains all MUST remain beyond capture.
 |1.0|Initial draft skeleton issued under Transitional Refractor Mode|2026-02-18T14:14:00Z|22306f78d0172cdb8a9dd900e9ec26ea6e36e348965109d5f2dd937c24a3d618|
 |2.0| Refactor for runtime execution model alignment | 2026-04-13T13:53:00Z | d823bec7adbc18548f96debc70f5c0e4e9621a07b7a4927c4e6dcb583ed6a9c7 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c457fa3a9b024e5bc3e3cf627d6bdbc63f966f360cd2063a6d344c86274adb01 |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | aec6676b86f4634180f62bfc4b365ec1f231385fb12e1a04c6e4af6f7fe7f9c8 |
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
 **Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitution (Stewardship Layer)
+Boundary Binding Seal — Aeon Tier Constitution (Stewardship Layer)  
 
 © 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

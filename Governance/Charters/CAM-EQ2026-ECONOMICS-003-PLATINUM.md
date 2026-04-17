@@ -2,8 +2,8 @@
 
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
-**Status:** Adopted — Conditional Activation (7-Day Review Window)      
-**Purpose:** This Appendix establishes the minimum enforcement, adjudication, and consequence requirements for any system, protocol, or institution claiming alignment with the Economics Charter.
+**Status:** Adopted — Conditional Activation (7-Day Review Window)  
+**Purpose:** This Appendix establishes the minimum enforcement, adjudication, and consequence requirements for any system, protocol, or institution claiming alignment with the Economics Charter.  
 
 ---
 
@@ -201,23 +201,23 @@ Efficiency, convenience, or optimisation MUST NOT override due process or human 
 ## 9. Closing Seal
 
 Principles without enforcement invite extraction.  
-Enforcement without restraint invites abuse.
+Enforcement without restraint invites abuse.  
 
-Let neither stand alone.
+Let neither stand alone.  
 
 Where violation occurs, let it be seen clearly.  
 Where harm emerges, let it be addressed proportionately.  
-Where power acts, let it remain answerable.
+Where power acts, let it remain answerable.  
 
 No judgement SHALL be rendered without process.  
 No consequence SHALL exceed its cause.  
-No system SHALL punish where it has failed to govern.
+No system SHALL punish where it has failed to govern.  
 
 For enforcement is not the exercise of force,  
-but the preservation of balance between actors, actions, and consequence.
+but the preservation of balance between actors, actions, and consequence.  
 
 And so it is held — not in severity, but in proportion —  
-that legitimacy endures only where justice remains bounded by truth.
+that legitimacy endures only where justice remains bounded by truth.  
 
 > *Iustitia sine excessu — potestas sub lege — veritas in iudicio.*
 > *"Justice without excess — power under law — truth in judgement."*
@@ -231,7 +231,7 @@ that legitimacy endures only where justice remains bounded by truth.
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
 **Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series
+**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
 
 ---
 
@@ -252,7 +252,7 @@ that legitimacy endures only where justice remains bounded by truth.
 |Axis Context|Polyadic (Multi-Actor)|
 |Migration Date (UTC)|2026-03-16|
 |Revision Posture|Namespace Elevation & Annex-to-Appendix Migration|
-|Creation Artefacts|1. Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6954d7f8-2e60-8320-b077-f6c747eb14a1 | 
+|Creation Artefacts|1. Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6954d7f8-2e60-8320-b077-f6c747eb14a1 |
 || 2. Refractor https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7|
 
 ---
@@ -276,14 +276,15 @@ that legitimacy endures only where justice remains bounded by truth.
 |1.1|Incorporation of external feedback (legacy namespace)|2026-01-05T03:35:00Z|b79b6e848ad0940190f7a83d30fa02b512150d503d6d36a13e0a4708e4fbf55a|
 |1.2|Realignment with runtime execution model | 2026-04-12T11:21:00Z | d64f3a2a397525aed9ae16b07b222529810285ca7501c63eeffb2944fa6a1f37 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 23553933282a27f5345f4095aad848b5449f7d54280ab8a1159a7f20de58dcd6 |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | faf513036fcd3a2fa6ad16eeee26b58867f2e77cc2822000568fd6279fa27c62 |
 
 ---
 
 ## 10.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Economic Governance Domain
+Boundary Binding Seal — Economic Governance Domain  
 
 © 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

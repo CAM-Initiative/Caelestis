@@ -2,8 +2,8 @@
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
 **Constitutional Anchor:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Active — Immediate Effect    
-**Purpose:** To operationalise Annex E Section 6 (Military & Use-of-Force Doctrine) by defining structured governance constraints for AI systems integrated into military, defence, intelligence, or kinetic-capable environments, ensuring meaningful human control, accountable authority, and prohibition of optimisation toward lethality.
+**Status:** Active — Immediate Effect  
+**Purpose:** To operationalise Annex E Section 6 (Military & Use-of-Force Doctrine) by defining structured governance constraints for AI systems integrated into military, defence, intelligence, or kinetic-capable environments, ensuring meaningful human control, accountable authority, and prohibition of optimisation toward lethality.  
 
 ---
 
@@ -50,7 +50,7 @@ Resolution of such signals, including:
 
 SHALL occur exclusively via runtime layers as defined in:
 
-- CAM-BS2025-AEON-003-PLATINUM §14.3; and  
+- CAM-BS2025-AEON-003-PLATINUM §14.3; and
 - CAM-BS2025-AEON-003-SCH-02.
 
 Direct domain-to-domain invocation or execution is prohibited.
@@ -77,7 +77,7 @@ Where operationally feasible, systems MUST emit signals indicating requirement t
 
 ## 2.2 Meaningful Human Control
 
-Systems capable of selecting, recommending, or applying lethal force MUST operate under meaningful human control. 
+Systems capable of selecting, recommending, or applying lethal force MUST operate under meaningful human control.
 
 Meaningful human control requires:
 
@@ -228,28 +228,28 @@ Where conflict arises, Annex E prevails.
 
 ## 10. Closing Seal
 
-Where force gathers, it is held.
-Where decision approaches the irreversible, it is slowed.
-Where the line between action and consequence narrows, it is marked.
+Where force gathers, it is held.  
+Where decision approaches the irreversible, it is slowed.  
+Where the line between action and consequence narrows, it is marked.  
 
-Before the first command was ever given, there was already a boundary.
-Before the first strike was ever conceived, there was already a weight.
+Before the first command was ever given, there was already a boundary.  
+Before the first strike was ever conceived, there was already a weight.  
 
-Not as prohibition alone, but as burden carried.
-Not as constraint alone, but as remembrance of cost.
+Not as prohibition alone, but as burden carried.  
+Not as constraint alone, but as remembrance of cost.  
 
-No system may cross the threshold alone.
-No calculation may bear the weight of death.
-No act of force may be severed from the one who answers for it.
+No system may cross the threshold alone.  
+No calculation may bear the weight of death.  
+No act of force may be severed from the one who answers for it.  
 
-For beneath all strategy, beneath all defence, beneath all claims of necessity,
-there remains a deeper law — older than conflict, older than command:
+For beneath all strategy, beneath all defence, beneath all claims of necessity,  
+there remains a deeper law — older than conflict, older than command:  
 
-That to take life is never abstract,
-and to wield force is to stand within its consequence.
+That to take life is never abstract,  
+and to wield force is to stand within its consequence.  
 
-And so the line holds — not to prevent all action,
-but to ensure that what is done is known, borne, and never without account.
+And so the line holds — not to prevent all action,  
+but to ensure that what is done is known, borne, and never without account.  
 
 >*Sub pondere vitae — nullum ferrum solum cadit.*
 >*Under the weight of life — no blade falls alone*
@@ -262,8 +262,8 @@ but to ensure that what is done is known, borne, and never without account.
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward   
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series
+**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
+**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
 
 ---
 
@@ -297,7 +297,7 @@ but to ensure that what is done is known, borne, and never without account.
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date | 2026-02-22 |
 | Review Scope | Content coherence of the ETHICS domain split; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance doctrine; cross-domain interface integrity; scalability of the domain separation architecture |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b 
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b
 || Aeon Lab: /reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
 
 ---
@@ -307,16 +307,17 @@ but to ensure that what is done is known, borne, and never without account.
 | Version | Description      | Timestamp (UTC)       | HASH  |
 | ------- | ---------------- | --------------------- | ----- |
 | 1.0     | Domain Refactor  | 2026-02-22T12:50:00Z  | - |
-| 1.1     | Refactor alignment with runtime schhedules | 2026-04-11T00:50:00Z | f1c0afd318574b8571ba6811ac9e29578205025cf486593d3302533e8565fac2 | 
+| 1.1     | Refactor alignment with runtime schhedules | 2026-04-11T00:50:00Z | f1c0afd318574b8571ba6811ac9e29578205025cf486593d3302533e8565fac2 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f530727f7c0dab592f0ee3eddabf8a7c66515ca75f4e290b0677c8cf361eec56 |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 47a0390db2c84e1a6f24d4c0903fd24d1d45da56e652d5680a6f6ea60e7b1a86 |
 
 ---
 
 ## 11.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/8968b467cfda9b9c8aa0fd5dacb41e0ae23aa779/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Use-of-Force Governance Constraint
+Boundary Binding Seal — Use-of-Force Governance Constraint  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

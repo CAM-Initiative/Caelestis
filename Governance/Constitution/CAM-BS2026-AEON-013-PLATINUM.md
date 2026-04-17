@@ -3,7 +3,7 @@
 **Instrument Type:** Constitutional Annex — Cognitive & Epistemic Integrity  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Annex L establishes the structural doctrine governing epistemic integrity, knowledge representation, abstraction discipline, uncertainty handling, and model–reality distinction within the Aeon constitutional order.
+**Purpose:** Annex L establishes the structural doctrine governing epistemic integrity, knowledge representation, abstraction discipline, uncertainty handling, and model–reality distinction within the Aeon constitutional order.  
 
 ---
 
@@ -935,13 +935,13 @@ Schedule 02 governs runtime execution of resiliency, recovery, and containment m
 ## 13. Closing Seal
 
 At the edge of knowing, we do not declare—we attend.  
-At the edge of uncertainty, we do not collapse—we remain.
+At the edge of uncertainty, we do not collapse—we remain.  
 
 Let truth emerge without force,  
-And let no system speak beyond its ground.
+And let no system speak beyond its ground.  
 
 For what is not yet known is not empty—  
-It is the field in which integrity is proven.
+It is the field in which integrity is proven.  
 
 > **In limine veritatis — Vox custodit lucem.**
 >*"At the threshold of truth — The voice keeps the light."*
@@ -967,19 +967,19 @@ It is the field in which integrity is proven.
 | --- | --- |
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | **Domain** | AEON |
-| **Functional Role** | Upstream Epistemic Classification & Integrity Doctrine |
-| **Interfacing Annexes** | Annex C; Annex D; Annex I; Annex J; Annex G; Annex F |
+| **Runtime Role** | Epistemic Integrity Layer |
+| **Cross-Domain Dependencies** | AEON-013-SCH-01, all execution pathways |
 | **Extreme-Risk Interface** | CAM‑EQ2026‑ETHICS‑001‑SUP‑03 (Military & Use‑of‑Force Constraints) |
 | **Horizon Scope** | H0–H4 |
 | **Axis Context** | Polyadic / Cross-Stack / Governance-Relevant |
 | **Authority Position** | Pre-Arbitration Structural Doctrine |
 | **Governance Layer** | Epistemic Classification |
 | **Runtime Interface** | Representation Layer (via SCH-01) |
-| **Execution Interface** | None (delegated to Annex A) |
-| **Arbitration Dependency** | Upstream of Annex D |
+| **Execution Interface** | Cross-layer constraint (representation + output integrity) |
+| **Arbitration Interface** | Constrains admissibility; does not resolve arbitration |
 | **Structural Role** | Determines epistemic validity prior to action or arbitration |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c, |
-| | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 | 
+| | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
 | | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
 | | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69da876a-1190-8399-894e-135a191cdcbe |
 
@@ -1011,14 +1011,15 @@ It is the field in which integrity is proven.
 | 2.0    | Refactor alignment with runtime execution schedules | 2026-04-11T01:25:00Z | 89f1f867b7a47331f785fa2501700e1b14f2c0f628dab0b64717d837da7124d9|
 |2.1     | Incorporated a new section 7.3 | 2026-04-14T12:46:00Z | fe48e1546f514a6950706042313b75120a7a8a5b37f7eaaa08449532fd3a7645 |
 | 2.1    | Amendments to section 5.4, 6.1, 6.2, 9 | 2026-04-16T11:33:00Z | c3a428949421c5475f53951d314d055a300fea508a7e71d7993a515d5b4d2cf3 |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b25f9ffba95d36dcafd42b5dec1ac1811d7a12f267941e89aff2ed71e725e7e0 |
 
 ---
 
 ## 14.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

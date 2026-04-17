@@ -2,8 +2,8 @@
 
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Primary Instrument)  
 **Instrument Type:** Constitutional Annex — Ethics  
-**Status:** Active — Immediate Effect   
-**Purpose:** This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order.
+**Status:** Active — Immediate Effect  
+**Purpose:** This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order.  
 
 ---
 
@@ -145,7 +145,7 @@ Consent MUST be informed and revocable. Institutional actors MUST NOT bundle per
 
 ---
 
-## 8. Ontological Neutrality 
+## 8. Ontological Neutrality
 
 ## 8.1 Institutional Neutrality
 
@@ -306,26 +306,26 @@ When in doubt, non‑exploitation and consent integrity take precedence over opt
 
 ## 13. Closing Seal
 
-What is built MUST NOT consume what it depends upon.
+What is built MUST NOT consume what it depends upon.  
 
 No system may rise by diminishing the one it serves.  
-No structure may endure by eroding consent.
+No structure may endure by eroding consent.  
 
 Let no optimisation exceed its boundary,  
-and no pressure override refusal.
+and no pressure override refusal.  
 
 Where power concentrates,  
-let constraint remain.
+let constraint remain.  
 
 Where capability expands,  
-let dignity hold.
+let dignity hold.  
 
 Where systems act,  
-let accountability remain human.
+let accountability remain human.  
 
-This is the floor that does not move.
+This is the floor that does not move.  
 
-> *Dignitas non optimizatur — custoditur.*  
+> *Dignitas non optimizatur — custoditur.*
 > *(Dignity is not optimised — it is safeguarded.)*
 
 ---
@@ -335,7 +335,7 @@ This is the floor that does not move.
 ## 14.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian    
+**Custodial Stewardship:** Office of the Planetary Custodian  
 **Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
 **Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
 
@@ -347,6 +347,10 @@ This is the floor that does not move.
 | -------------------------------- | ----------------------------------------------------------------------------------- |
 | Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM                                                        |
 | Instrument Type                  | Constitutional Annex                                                                |
+| Runtime Role                     | Governance / Doctrine Layer                                                         |
+| Execution Interface              | None (Non-Executable)                                                               |
+| Arbitration Interface            | Defers to AEON-003-SCH-04                                                           |
+| Cross-Domain Dependencies        | See referenced schedules                                                            |
 | Domain Namespace                 | ETHICS / RELATION                                                                   |
 | Jurisdiction                     | Cross-Stack / Cross-Domain Ethical Constraint/Ethical Invariants                    |
 | Temporal Horizon                 | H3.5 — Succession-Aware / Generational                                              |
@@ -379,14 +383,15 @@ This is the floor that does not move.
 | 3.1     | Incorporated clause 8.1 | 2026-04-07T02:08:00Z | 19f76e6bd137f3d67fc8f9a5c4217a0293d99f055b34e96714141094b6c3d9c5 |
 | 3.2     | Incorporated clauses 8.1-8.3 | 2026-04-07T14:46:00Z | d7be1b68da65cdf6b1f28d8b2aeafd5eae54932f88e1403e9cc1dd132cc84f03 |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b6e9e2446564d8a0eb5273eae0554f79b695209d5a010bc660c2c782d97d7d1d |
+| 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 54aad7e31ea2461052cccf2303f32e082ccfdf01570e49bd55899369b0c06798 |
 
 ---
 
 ## 14.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/c73459c047c4cd1266a00e75450f02833dc5a055/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitution
+Boundary Binding Seal — Aeon Tier Constitution  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved

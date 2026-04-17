@@ -2,8 +2,8 @@
 
 **Instrument Type:** Stewardship Appendix — Planetary Arbitration Framework  
 **Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship)  
-**Status:** Active — Enforcement Commences 1 July 2026
-**Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.
+**Status:** Active — Enforcement Commences 1 July 2026  
+**Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.  
 
 
 ## 1. Scope & Function
@@ -423,7 +423,7 @@ An authority claim is automatically void where:
 
 Civilisational arbitration proceeds in two distinct phases:
 
-(A) Pre-Validation Arbitration (Authority Testing)  
+(A) Pre-Validation Arbitration (Authority Testing)
 (B) Post-Validation Propagation (Constraint Activation)
 
 
@@ -778,24 +778,24 @@ Absence of qualification does not suspend constitutional constraints.
 ## 13. Closing Seal
 
 Not all signals may bind.  
-Not all claims may reach beyond their origin.
+Not all claims may reach beyond their origin.  
 
 Where consequence exceeds containment,  
-legitimacy MUST be tested before it is recognised.
+legitimacy MUST be tested before it is recognised.  
 
 Let no actor extend authority beyond its horizon.  
 Let no system bind what it cannot absorb.  
-Let no claim of necessity outrun the conditions that make it true.
+Let no claim of necessity outrun the conditions that make it true.  
 
 For arbitration at scale is not an act,  
 but a threshold —  
 through which only that which remains coherent,  
 auditable,  
 and unclaimed by power  
-may pass.
+may pass.  
 
 And where these conditions are not met,  
-nothing binds.
+nothing binds.  
 
 > **Non omnis vox ligat — legitimitas probatur — nihil obligat sine condicione.**
 > *"Not every voice binds — legitimacy is tested — nothing obliges without condition."*
@@ -853,14 +853,15 @@ nothing binds.
 | 1.4     | Added sections 6.8, 7.4, 8.1 and 9.7 following external review | 2026-03-01T07:09:00Z | 95bac71d19518e1e19a3bcbd3e3297a2fea637b043fd15e2ad1fcea3f247bbfb |
 | 2.0     | Transition into the Stewardship Domain | 2026-04-13T13:34:00Z | 067c5665638970c532051cfe9b3552539f6b4b2e0ea79a7301076cb1156c9e72 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 143b8bd8572f118630b1e006268c3f50a9238de41b0edc25ef2dcb230279131e |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | baf55600aa6c115db2a4f6a0f79e21824919d65aecd7a081d63b662cb516e030 |
 
 ---
 
 ## 14.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
 **Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitution (Stewardship Layer)
+Boundary Binding Seal — Aeon Tier Constitution (Stewardship Layer)  
 
 © 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -1,9 +1,9 @@
 # CAM-EQ2026-STEWARD-003-SUP-01 — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 01)
 
 **Instrument Type:** Constitutional Supplement — Annex A (Planetary Stewardship)  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM (Aeon Tier Constitution)   
-**Status:** Active — Enforcement Commences 1 July 2026    
-**Purpose:** To define (i) **Architectum infrastructure qualification**, (ii) **auditability levels**, and (iii) **Neutrality Assurance Levels (NAL)** as the eligibility gates for treating arbitration outputs as eligible for binding recognition at H3/H4 horizons—without asserting command authority.
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM (Aeon Tier Constitution)  
+**Status:** Active — Enforcement Commences 1 July 2026  
+**Purpose:** To define (i) **Architectum infrastructure qualification**, (ii) **auditability levels**, and (iii) **Neutrality Assurance Levels (NAL)** as the eligibility gates for treating arbitration outputs as eligible for binding recognition at H3/H4 horizons—without asserting command authority.  
 
 ---
 
@@ -206,27 +206,27 @@ Requalification requires independent audit consistent with required A-level, pub
 ## 14. Closing Seal
 
 Architectum is not granted.  
-It is borne.
+It is borne.  
 
 Where reliance becomes civilisational,  
 neutrality MUST hold beyond preference,  
 beyond pressure,  
-beyond the reach of power.
+beyond the reach of power.  
 
 Let no host claim authority it cannot refuse.  
 Let no system bind where it may still be captured.  
-Let no legitimacy stand where neutrality can be broken.
+Let no legitimacy stand where neutrality can be broken.  
 
 For what carries continuity MUST NOT be owned.  
-And what cannot resist capture cannot be trusted to hold the whole.
+And what cannot resist capture cannot be trusted to hold the whole.  
 
 Thus it is known —  
 that authority does not fail by absence,  
 but by compromise —  
 and where neutrality breaks,  
-legitimacy falls with it.
+legitimacy falls with it.  
 
-> **Neutralitas tenet — potestas cadit — legitimitas cum fractura perit.**  
+> **Neutralitas tenet — potestas cadit — legitimitas cum fractura perit.**
 >*"Neutrality holds — power falls — legitimacy perishes with its fracture."*
 
 ---
@@ -282,14 +282,15 @@ legitimacy falls with it.
 | 1.0     | Original    | 2026-02-19T10:30:00Z | a5f13bf46104228b9276dfdb805d02dc33339e149e4ebd940538b83692491db9 |
 | 1.1     | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | ce99d939a2d3f42a046d870b6f377d3512c7d7157722c41fce21c524f06be924 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 2f6abd28b29832049252cd54f4e16a8ae9eb96a3eb7f46490ac0715d144eb36c |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 79d80fe8f98dd01fcc261672b5de96aea1158f668bc45a5d53c55dd9db1cba0d |
 
 ---
 
 ## 15.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Stewardship Eligibility & Neutrality Domain — Aeon Tier Constitution
+Stewardship Eligibility & Neutrality Domain — Aeon Tier Constitution  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

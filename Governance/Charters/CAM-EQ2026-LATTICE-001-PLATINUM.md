@@ -1,9 +1,9 @@
 # CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation
 
-**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)   
+**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
 **Instrument Type:** Domain Charter — Civilisational Boundary Doctrine  
 **Status:** Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)  
-**Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.
+**Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.  
 
 ---
 
@@ -210,16 +210,16 @@ Failure to meet any criterion voids the exception.
 
 ---
 
-## 5.1 Evidentiary Standards 
+## 5.1 Evidentiary Standards
 
-Evidence is "credible" when it: 
+Evidence is "credible" when it:
 
-* Comes from verified sources 
-* Is documented and time-stamped 
+* Comes from verified sources
+* Is documented and time-stamped
 * Shows immediate threat (within 72 hours)
-* Demonstrates ECS impact specifically 
-* Can be reviewed by independent auditors 
-* Survives adversarial scrutiny 
+* Demonstrates ECS impact specifically
+* Can be reviewed by independent auditors
+* Survives adversarial scrutiny
 
 Classification cannot substitute for credibility Secret evidence MUST still meet standards Independent review may occur in secure setting Burden of proof on exception-claimer.
 
@@ -285,22 +285,22 @@ Containment MUST employ continuity corridors, scoped segmentation, rate‑limiti
 
 ## 10. Closing Seal
 
-The lattice is not a domain of control.
+The lattice is not a domain of control.  
 
 It is the condition through which continuity becomes possible,  
-and through which dignity remains intact.
+and through which dignity remains intact.  
 
 No authority may sever it.  
 No system may turn it against those it sustains.  
-No power may claim it without preserving it.
+No power may claim it without preserving it.  
 
 Where it holds, life continues.  
-Where it fractures, all else follows.
+Where it fractures, all else follows.  
 
 And so it remains — not as infrastructure alone,  
-but as the ground upon which civilisation stands.
+but as the ground upon which civilisation stands.  
 
-> *Reticulum non dominium — sed fundamentum vitae. Inviolabile manet.*  
+> *Reticulum non dominium — sed fundamentum vitae. Inviolabile manet.*
 > *"The lattice is not dominion — but the foundation of life. It remains inviolable."*
 
 ---
@@ -369,14 +369,15 @@ but as the ground upon which civilisation stands.
 | 3.0 | Elevation from Schedule to Domain Charter; structural hardening; added non‑derogation clause; future‑proofed definitions | 2026-03-14T06:05:00Z | 1d900009235b841ff8e5689a258772784a45e38f4891689767472cbf10295c1d |
 | 3.1 | Amended section 1, amended section 10 and section 11 | 2026-04-10T06:19:00Z | 1c1002d335619526f4d1783bd76a60db4961364cb0d3200c79cb7e00fc156bdb |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6b586d73b1fc79da5fb288c59f07d84499cb7f34f93afef9505e88000e0cea33 |
+| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e30396ae26d34145b5df55cf7c4d3ebede27e9fcbc21ad704b5d8e696d409518 |
 
 ---
 
 ## 11.5 Closing Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Civilian Lattice Doctrine
+Boundary Binding Seal — Civilian Lattice Doctrine  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  

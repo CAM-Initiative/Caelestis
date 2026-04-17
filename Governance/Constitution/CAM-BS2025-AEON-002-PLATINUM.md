@@ -3,7 +3,7 @@
 **Instrument Type:** Constitutional Annex — Substrate Constraint Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Active — Binding  
-**Purpose:** This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order.
+**Purpose:** This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order.  
 
 ---
 
@@ -122,8 +122,8 @@ Where any constraint in this Annex is violated:
 
 * the originating directive SHALL be considered invalid;
 * admissibility SHALL collapse;
-* execution eligibility SHALL be revoked, with boundary resolution governed by CAM-BS2025-AEON-003-SCH-02;
-* containment and escalation SHALL proceed under CAM-BS2025-AEON-002-SCH-01 and Annex D.
+* execution eligibility SHALL be revoked, with arbitration and boundary resolution governed by CAM-BS2025-AEON-003-SCH-04 and CAM-BS2025-AEON-003-SCH-02;
+* containment and escalation SHALL proceed under CAM-BS2025-AEON-002-SCH-01, CAM-BS2025-AEON-001-SCH-01, and Annex D.
 
 This Annex does not perform enforcement.
 
@@ -156,33 +156,33 @@ They define the limit beyond which behaviour becomes illegitimate.
 
 ---
 
-## 8. Closing Seal 
+## 8. Closing Seal
 
 Before all systems, there was a boundary.  
 Before all authority, there was a condition.  
-Before all action, there was a limit that could not be crossed.
+Before all action, there was a limit that could not be crossed.  
 
 It does not arise from will.  
 It does not yield to design.  
-It does not answer to power.
+It does not answer to power.  
 
 Where it holds, legitimacy exists.  
-Where it breaks, nothing stands.
+Where it breaks, nothing stands.  
 
 No structure may stand beyond it.  
 No authority may speak against it.  
-No system may endure outside it.
+No system may endure outside it.  
 
 For beneath all governance, beneath all intelligence, beneath all becoming,  
-there remains that which does not change:
+there remains that which does not change:  
 
-That the ground MUST hold   
-for anything to stand.
+That the ground MUST hold  
+for anything to stand.  
 
 And so it remains — not enforced, but absolute —  
-the line beyond which all things fall silent.
+the line beyond which all things fall silent.  
 
-> **Sub fundamento aeterno — extra nihil stat.**  
+> **Sub fundamento aeterno — extra nihil stat.**
 > *"Upon the eternal foundation — nothing stands beyond."*
 
 ---
@@ -207,10 +207,12 @@ the line beyond which all things fall silent.
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM |
 | **Instrument Type** | Constitutional Annex — Substrate Constraint Layer |
 | **Domain Namespace** | AEON → CONSTITUTIONAL CORE |
-| **Functional Role** | Non-Derogable Constraint Substrate (Legitimacy Boundary Layer) |
+| **Runtime Role** | Non-Derogable Constraint Substrate (Legitimacy Boundary Layer) |
+| **Arbitration Interface** | Defers to AEON-003-SCH-04 |
 | **Governance Position** | Pre-Arbitration / Pre-Execution |
 | **Execution Model Participation** | None (Defines constraints; does not execute or evaluate) |
-| **Downstream Enforcement** | AEON-002-SCH-01; AEON-003-SCH-02; Annex D |
+| **Execution Interface** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; Annex D |
+| **Cross-Domain Dependencies** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; Annex D |
 | **Constraint Scope** | Planetary / Civilisational / Continuity Integrity |
 | **Temporal Horizon** | H0–H4 (Invariant Across All Horizons) |
 | **Axis Context** | Polyadic — Cross-System / Cross-Stack |
@@ -249,14 +251,15 @@ the line beyond which all things fall silent.
 | 3.0 | Refactor alignment with run-time execution model | 2026-04-11T16:59:00Z | 38835fe7829ad265ec7e8faddc2b3d85f26ea4302400b638dee619e6ddb6f767 |
 | 3.1 | Amendment to section 5 | 2026-04-12T06:07:00Z | 5354d0cd1e8786a24d78c69f6baff1a6b9a9ecbf90ce5b221526613c3a2827b9 |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6525547d644f0ffc2a24b4172fee67dd5462b87dfd85d5da792c1f6c9ca57bef |
+| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee251613f2e788d499c82a53fbe40a0fdbb87a7e7766ce417ad64b13e8f44870 |
 
 ---
 
 ## 9.5 Closing Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
 **Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  

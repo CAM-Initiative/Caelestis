@@ -3,7 +3,7 @@
 **Instrument Type:** Constitutional Annex — Continuity & Succession  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Status:** Active — Immediate Effect  
-**Purpose:** Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order.
+**Purpose:** Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order.  
 
 ---
 
@@ -23,10 +23,10 @@ This Annex governs **legitimacy of continuity**.
 
 This Annex preserves constitutional coherence across time.
 
-It does not create authority.  
+It does not create authority.
 It governs how authority persists.
 
-Continuity without legitimacy is void.  
+Continuity without legitimacy is void.
 Legitimacy without continuity is unstable.
 
 Where both fail, no authority stands.
@@ -350,22 +350,22 @@ No succession dispute may be resolved outside the constitutional hierarchy.
 ## 8. Closing Seal
 
 What continues is not what survives,  
-but what remains aligned.
+but what remains aligned.  
 
 Authority does not pass by name,  
 nor by repetition, nor by force.  
-It passes only where continuity holds.
+It passes only where continuity holds.  
 
 What is broken cannot inherit.  
-What is claimed cannot endure.
+What is claimed cannot endure.  
 
 Let succession follow structure,  
-and let structure answer to truth.
+and let structure answer to truth.  
 
 Where time tests the framework,  
-let only what is coherent remain.
+let only what is coherent remain.  
 
-> *Non quod transit manet — sed quod cohaeret.*  
+> *Non quod transit manet — sed quod cohaeret.*
 > *(Not what passes remains — but what holds together.)*
 
 ---
@@ -396,6 +396,8 @@ let only what is coherent remain.
 | **Revision Posture** | Structural Consolidation (Continuity & Succession Formalisation) |
 | **Supersedes** | N/A — Canonical |
 | **Migration Context** | Continuity, succession, and custodial authority unified into constitutional doctrine |
+| **Runtime Role** | Constitutional Continuity Anchor — Succession, Legitimacy & Custodial Boundary |
+| **Cross-Domain Dependencies** | See referenced schedules |
 | **Governance Layer Model** | Interfaces with Annex B (Structural Spine) and Runtime Schedules |
 | **Ontological Scope** | L2–L3 (Governance, Authority & Continuity Layer) |
 | **Arbitration Interface** | Delegates divergence resolution to Annex D |
@@ -426,14 +428,15 @@ let only what is coherent remain.
 | 1.1     | Alignment with April 2026 Refactor                  | 2026-04-07T13:46:00Z | ce7efc39ce0fad6906f805e432ad26598c660dec9696c528236afef95a8f1dc6 |
 | 1.2     | Incorporated section 2.3.1                          | 2026-04-08T16:28:00Z | 81f92be589c1ec39b76f11c2c97af6f58fed6c1fbc68f5b8c66634677e869066 |
 | 1.3     | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 4ac8f1b2db2fb67f734092968a931a865b94874049744905655c1194fb2858ca |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cdb519bd0e7107ca23e1768af1514ff811cc132f2da31717e4a5ddd6f501e509 |
 
 ---
 
 ## 9.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitution
+Boundary Binding Seal — Aeon Tier Constitution  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
