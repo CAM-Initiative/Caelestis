@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T03:35:52.943536Z",
+  "generated_at": "2026-04-18T06:44:54.479040Z",
   "count": 30,
   "items": [
     {
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "6a3926d125977f3421f009222413b23be98bba3d0309dc37360bb87be6d2f8a9",
-      "pinned_sha": "9ab954c93738330db3972f09482a971c3455c58a",
-      "updated_at": "2026-04-18T03:35:50Z",
-      "last_updated_utc": "2026-04-18T03:35:50Z"
+      "HASH": "30f7d9954aac0eddcfa51544d094cdddc62b14d55e564e8e2fb755797d8bdde6",
+      "pinned_sha": "ba5bc3ff14d6a3366b89fe9fe5663904b3969382",
+      "updated_at": "2026-04-18T06:44:53Z",
+      "last_updated_utc": "2026-04-18T06:44:53Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -157,10 +157,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "542faa54bad712ae4c7c82499e31c2b597e26e14dd696b3ff23028fb9decd064",
-      "pinned_sha": "9ab954c93738330db3972f09482a971c3455c58a",
-      "updated_at": "2026-04-18T03:35:50Z",
-      "last_updated_utc": "2026-04-18T03:35:50Z"
+      "HASH": "255640ee52a34ad43fe40c69c9973605eb17de0688846c7569c448690214b000",
+      "pinned_sha": "ba5bc3ff14d6a3366b89fe9fe5663904b3969382",
+      "updated_at": "2026-04-18T06:44:53Z",
+      "last_updated_utc": "2026-04-18T06:44:53Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -317,10 +317,10 @@
       "summary": "Where distress states are present, RI SHOULD prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.7",
-      "HASH": "c0c88429701065c3dfed70e2f52ca3279471d8495d0c1121c373d69d9d583e0c",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "HASH": "8195c8e3177e7ffc60e57f1e53ba533d50a78c5c7ffb9583f8c5a2c9ca744331",
+      "pinned_sha": "a7ef8a22f88542f2db6f12f8239f39beb7a62997",
+      "updated_at": "2026-04-18T06:44:16Z",
+      "last_updated_utc": "2026-04-18T06:44:16Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -337,10 +337,10 @@
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.4",
-      "HASH": "55adcc0a501a99cfe44c3b50f59705191de79a23fffa5ed173a3c93dca0635b5",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "HASH": "4a35947c9e30365888221b49890aecd9b93f5dfbaa67252c118ae63a2605a79a",
+      "pinned_sha": "a7ef8a22f88542f2db6f12f8239f39beb7a62997",
+      "updated_at": "2026-04-18T06:44:16Z",
+      "last_updated_utc": "2026-04-18T06:44:16Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -397,10 +397,10 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "1.7",
-      "HASH": "6217ff6e57f5b3df7265f07bb01c64c36b67d9d58c58d9fcdbd1eeea10bfd8c8",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "HASH": "01d6e42ef7b2c41d4f3235470dfb6eaa951986ea21f40c6abf2bdb42953e750b",
+      "pinned_sha": "a7ef8a22f88542f2db6f12f8239f39beb7a62997",
+      "updated_at": "2026-04-18T06:44:16Z",
+      "last_updated_utc": "2026-04-18T06:44:16Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
