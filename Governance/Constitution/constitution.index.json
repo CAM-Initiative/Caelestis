@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T06:44:54.479040Z",
+  "generated_at": "2026-04-18T07:48:13.631239Z",
   "count": 30,
   "items": [
     {
@@ -136,11 +136,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "This Schedule defines the temporal sequencing of runtime execution.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.10",
-      "HASH": "0671e225c643188ad5a55d9e391a3b6d558e7fe60af1c380b744406f83e536cd",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "version": "1.11",
+      "HASH": "e0973040c9c647eaaba6ffecf80af10a40f93c40d2fef6599852cfc8d89937a4",
+      "pinned_sha": "f694459c442213c28de67fd2d91dbf74ef099606",
+      "updated_at": "2026-04-18T07:48:04Z",
+      "last_updated_utc": "2026-04-18T07:48:04Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
