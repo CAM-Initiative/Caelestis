@@ -26,8 +26,7 @@ def sha256_of(path: str) -> str:
 
 def ensure_sha256_sidecar(path: str, digest: str):
     sidecar = path + ".sha256"
-    line = f"{digest}  {os.path.basename(path)}
-"
+    line = f"{digest}  {os.path.basename(path)}\n"
     need_write = True
     if os.path.exists(sidecar):
         try:
@@ -95,7 +94,7 @@ for root, dirs, files in os.walk(ROOT):
             continue
 
         path = os.path.join(root, fn)
-        rel_path = os.path.relpath(path, ROOT).replace('\', '/')
+        rel_path = os.path.relpath(path, ROOT).replace("\\", "/")
 
         # compute hash
         try:

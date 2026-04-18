@@ -2547,7 +2547,7 @@ let dignity remain the constant star.
 |-------|-------|
 | Parent Instrument | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| Domain Namespace | AEON |
+| Domain Namespace | RELATION |
 | Instrument Type | Constitutional Schedule — Runtime Interpretive Layer |
 | Jurisdiction | Dyadic → Polyadic Relational Contexts |
 | Temporal Horizon | H2–H3 (Operational → Institutional) |
@@ -2598,7 +2598,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 |3.1| Incorporated new sections 5.1, 6.2.2 | 2026-04-16T11:35:00Z | e7970843d24b76fd01f3795096dfd23cb7c4d7dbd837ea6207358aeedd2266ae |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 0b4a495f34510e7d2040c0eba2e180488223ab2bb2635b52b81e40851ca4698a |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 236eb52e36b7ce90a15696d502770cbf180d0d45e941ae9485e050d8aad0ac8b |
-| 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 336b0434ff9aee4ee6c2da6b089743efeb6a5a2d2a937872f64b9b466481d21c |
 
 ---
 

@@ -16,6 +16,7 @@ SCOPED_PREFIXES = (
 
 AMENDMENT_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
 NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
+VERSION_CELL_RE = re.compile(r"^\d+\.\d+$")
 
 
 def run_git(args: list[str], check: bool = True) -> str:
@@ -65,6 +66,33 @@ def has_amendment_ledger(text: str) -> bool:
     return AMENDMENT_HEADING_RE.search(text) is not None
 
 
+def parse_ledger_versions(section: str) -> list[str]:
+    versions: list[str] = []
+    for line in section.splitlines():
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            continue
+        cols = [c.strip() for c in stripped.strip("|").split("|")]
+        if not cols:
+            continue
+        first = cols[0]
+        if first.lower() == "version":
+            continue
+        if set(first) <= {"-"}:
+            continue
+        if VERSION_CELL_RE.match(first):
+            versions.append(first)
+    return versions
+
+
+def is_minor_only_increment(previous: str, current: str) -> bool:
+    prev_major, prev_minor = previous.split(".")
+    curr_major, curr_minor = current.split(".")
+    if prev_major != curr_major:
+        return False
+    return int(curr_minor) == int(prev_minor) + 1
+
+
 def lint(base: str, head: str) -> int:
     failures: list[str] = []
 
@@ -83,10 +111,27 @@ def lint(base: str, head: str) -> int:
 
         if before_ledger == after_ledger:
             failures.append(path)
+            continue
+
+        before_versions = parse_ledger_versions(before_ledger)
+        after_versions = parse_ledger_versions(after_ledger)
+        if len(after_versions) >= 2:
+            previous_version = after_versions[-2]
+            current_version = after_versions[-1]
+            if not is_minor_only_increment(previous_version, current_version):
+                failures.append(f"{path}: Amendment version must increment MINOR only (no MAJOR bump)")
+        elif before_versions and after_versions:
+            previous_version = before_versions[-1]
+            current_version = after_versions[-1]
+            if previous_version != current_version and not is_minor_only_increment(previous_version, current_version):
+                failures.append(f"{path}: Amendment version must increment MINOR only (no MAJOR bump)")
 
     if failures:
-        for path in failures:
-            print(f"{path}: Amendment Ledger not updated")
+        for failure in failures:
+            if ": " in failure:
+                print(failure)
+            else:
+                print(f"{failure}: Amendment Ledger not updated")
         return 1
 
     print("Amendment Ledger lint passed")

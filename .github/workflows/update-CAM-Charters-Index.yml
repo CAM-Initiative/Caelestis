@@ -4,9 +4,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - ".github/Scripts/lib/**"
-      - ".github/Scripts/update-CAM-Charters-Index.py"
-      - ".github/Scripts/instrument_parser.py"
+      - ".github/scripts/lib/**"
+      - ".github/scripts/update-CAM-Charters-Index.py"
+      - ".github/scripts/instrument_parser.py"
       - "Governance/Charters/**"
       - "!Governance/Charters/CAM-Charters-Index.md"
       - "!Governance/Charters/charters.index.json"
@@ -58,13 +58,13 @@ jobs:
             # Always regenerate from the current working tree state
             # Order is authoritative and required:
             # 1) per-domain JSON generation
-            python .github/Scripts/update-CAM-Charters-Index.py
+            python .github/scripts/update-CAM-Charters-Index.py
             # 2) aggregate governance JSON/index from per-domain JSON outputs
-            python .github/Scripts/update-CAM-Governance-Index.py
+            python .github/scripts/update-CAM-Governance-Index.py
             # 3) SCH-01 runtime registry from aggregate governance JSON
-            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
             # 4) SCH-03 from aggregate governance JSON
-            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
             # Stage generated artifacts in dependency order
             git add \

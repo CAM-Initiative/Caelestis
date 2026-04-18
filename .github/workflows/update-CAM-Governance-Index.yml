@@ -4,9 +4,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - ".github/Scripts/lib/**"
-      - ".github/Scripts/update-CAM-Governance-Index.py"
-      - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
+      - ".github/scripts/lib/**"
+      - ".github/scripts/update-CAM-Governance-Index.py"
+      - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
       - "Governance/Constitution/CAM-Constitution-Index.md"
       - "Governance/Constitution/constitution.index.json"
       - "Governance/Laws/CAM-Laws-Index.md"
@@ -55,11 +55,11 @@ jobs:
             echo "---- Attempt ${attempt} ----"
 
             # 1) Aggregate governance JSON/index from per-domain JSON outputs
-            python .github/Scripts/update-CAM-Governance-Index.py
+            python .github/scripts/update-CAM-Governance-Index.py
             # 2) SCH-01 runtime registry from aggregate governance JSON
-            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
             # 3) SCH-03 from aggregate governance JSON
-            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
             git add Governance/CAM.Governance.Index.md Governance/CAM.Governance.JSON Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
 

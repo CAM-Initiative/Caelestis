@@ -4,9 +4,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - ".github/Scripts/lib/**"
-      - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
-      - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
+      - ".github/scripts/lib/**"
+      - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
+      - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
 
 permissions:
   contents: write
@@ -48,8 +48,8 @@ jobs:
           for attempt in 1 2 3; do
             echo "---- Attempt ${attempt} ----"
 
-            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
             git add Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
 
             if git diff --cached --quiet; then

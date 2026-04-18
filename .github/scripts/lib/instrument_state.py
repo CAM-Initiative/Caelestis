@@ -23,6 +23,12 @@ def _normalise_text(text: str) -> str:
     return text.replace("\u00a0", " ").replace("\u200b", "").replace("\ufeff", "")
 
 
+def compute_full_document_sha256(text: str) -> str:
+    """Return SHA-256 for the full, post-modification document content."""
+    normalised = _normalise_text(text)
+    return hashlib.sha256(normalised.encode("utf-8")).hexdigest()
+
+
 def extract_status_and_version(path: Path) -> tuple[str, str]:
     text = _normalise_text(path.read_text(encoding="utf-8"))
     lines = text.splitlines()
@@ -95,7 +101,7 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
 def extract_status_hash_and_version(path: Path) -> tuple[str, str, str]:
     status, version = extract_status_and_version(path)
     text = _normalise_text(path.read_text(encoding="utf-8"))
-    content_hash = hashlib.sha256(text.encode("utf-8")).hexdigest()
+    content_hash = compute_full_document_sha256(text)
     return status, content_hash, version
 
 

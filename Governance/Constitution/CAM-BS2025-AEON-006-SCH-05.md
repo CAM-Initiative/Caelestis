@@ -583,7 +583,7 @@ and bounded.
 | Field | Entry |
 | --- | --- |
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
-| Domain  | AEON |
+| Domain  | ETHICS |
 | Activation Mode | Continuous |
 | Runtime Layer | Pre-Execution Behaviour Formation |
 | Execution Authority | None (Non-Executing — Pre-Execution Behaviour Formation) |
@@ -623,7 +623,7 @@ and bounded.
 |1.4|Amended section 2.1, 7 | 2026-04-16T14:44:00Z | 911814f2043ae6840c8ecf5ead9f76ae169fabd11a18bc6ec0c8c44e7d0a845e |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 60fcf402f676b7580b7c6f8df7080d0b5641de73a44505e29c081571424cc1b6 |
 | 1.6 | Added explicit Runtime Layer metadata (`Pre-Execution Behaviour Formation`) for SCH-01 registry extraction. | 2026-04-18T03:05:00Z | - |
-| 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 26ab07fa0d4d61b9354eced8e5f9945dcb4b9932c416a3cdcaac6711f5a3a39c |
 
 
 ---
