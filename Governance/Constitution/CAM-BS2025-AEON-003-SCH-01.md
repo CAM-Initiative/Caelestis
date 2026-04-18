@@ -68,6 +68,7 @@ It MUST NOT be interpreted as part of the canonical layer hierarchy defined in A
 ---
 
 ## 4. Runtime Registry
+<!-- SCH-01:RUNTIME_REGISTRY:START -->
 
 The following registry defines the authoritative mapping of runtime schedules to their assigned role.
 
@@ -87,9 +88,7 @@ The following registry defines the authoritative mapping of runtime schedules to
 | CAM-BS2025-AEON-006-SCH-01 | Engagement Conduct & Ethical Interaction Modes         | ETHICS      | Behavioural / Directional Layer                       |
 | CAM-BS2025-AEON-002-SCH-01 | Operational Protection & Containment                   | ETHICS      | Event-Triggered → Runtime Execution |
 
-
-
-
+<!-- SCH-01:RUNTIME_REGISTRY:END -->
 ---
 
 ## 4.1 Execution Sequencing Model (Non-Layer Classification)
@@ -392,9 +391,136 @@ This Schedule defines structural classification only and does not determine runt
 
 ---
 
-## 11. Structural Integrity Statement
+## 11. Structural Integrity, Runtime & Cross-Domain Integrity (Linter Rules)
 
-Runtime governance requires clear separation of function.
+### 11.1 Purpose
+
+These lint rules define **automated and manual validation checks** to ensure:
+
+* runtime separation is preserved
+* domain boundaries remain intact
+* signals are correctly classified and routed
+* no implicit execution or authority leakage occurs
+
+These rules are **non-executing** and MAY be enforced via CI, Codex tooling, or review processes.
+
+> *Runtime governance requires clear separation of function.*
+
+---
+
+## 11.2 Runtime Separation Rules
+
+* **No Execution Language in Domain Layer**
+
+  * Terms such as “execute”, “enforce”, “apply”, “trigger”, or “route” MUST NOT appear in a manner implying domain-level execution authority.
+
+* **Signal-Only Enforcement**
+
+  * All economic conditions MUST resolve to signal emission, not action.
+  * Any clause implying direct system behaviour MUST be flagged.
+
+* **No Implicit Runtime Invocation**
+
+  * Domain text MUST NOT imply automatic invocation of runtime layers.
+  * All execution MUST remain explicitly delegated.
+
+---
+
+## 11.3 Signal Integrity Rules
+
+* **Signal Classification Required**
+
+  * All outputs MUST map to a defined signal class (§1.4).
+  * Unclassified signals MUST be flagged.
+
+* **No Mixed Signal Types**
+
+  * A single clause MUST NOT produce multiple signal types without explicit separation.
+
+* **Signal Scope Clarity**
+
+  * Each signal MUST clearly indicate:
+
+    * origin domain
+    * applicable scope
+    * target object (if applicable)
+
+---
+
+## 11.4 Authority & Attribution Rules
+
+* **No Authority Escalation via Language**
+
+  * Domain text MUST NOT imply that systems gain authority through:
+
+    * performance
+    * persistence
+    * relational trust
+
+* **Value ≠ Authority Enforcement**
+
+  * Any clause implying value accumulation leads to authority MUST be flagged.
+
+* **No Identity Leakage**
+
+  * Economic classification MUST NOT imply identity elevation.
+
+---
+
+## 11.5 Cross-Domain Boundary Rules
+
+* **No Direct Domain Invocation**
+
+  * ECONOMICS MUST NOT:
+
+    * interpret RELATION signals
+    * enforce SECURITY conditions
+    * perform ARBITRATION logic
+
+* **Runtime Mediation Required**
+
+  * All cross-domain interactions MUST occur via runtime layers.
+
+---
+
+## 11.6 Proxy & Aggregation Integrity
+
+* **No Silent Aggregation**
+
+  * Aggregation rules MUST be explicit.
+  * Hidden or implied aggregation MUST be flagged.
+
+* **Proxy Detection Integrity**
+
+  * Any clause that could allow indirect accumulation MUST be flagged.
+
+---
+
+## 11.7 Ambiguity & Overreach Rules
+
+* **Ambiguous Authority = Error**
+
+  * Any clause where authority classification is unclear MUST be flagged.
+
+* **Directional Authority Default**
+
+  * Where unclear, authority MUST default to directional (as per §5.3).
+
+---
+
+## 11.8 Enforcement Posture
+
+Violations MAY be classified as:
+
+* **Error** — structural breach requiring correction
+* **Warning** — ambiguity or potential misinterpretation
+
+Lint rules MAY be enforced at:
+
+* authoring stage
+* commit / CI pipeline
+* runtime validation (non-executing checks)
+
 
 ---
 
@@ -438,17 +564,9 @@ Let each schedule hold its place, and the system remain whole.
 
 ---
 
-## 13.3 Amendment Ledger
+## 13.3 Amendment Ledger 
 
-| Version | Description                         | Timestamp (UTC)      | SHA-256 |
-| ------- | ----------------------------------- | -------------------- | ------- |
-| 1.0     | Initial issuance — Runtime Registry | 2026-04-05T14:06:00Z | 9b6f521493a55f015cbab150fa601002b467d948646ce380ad346186896b6861 |
-| 1.1     | Incorporated new section 10 and runtime governance model to registry | 2026-04-06T09:07:00Z | a63c5ca8a32463556f014d8e28bc451c1d67c35cde508bbd4f948d4c5487cdf9 |
-| 1.2     | Added new section 4.2 | 2026-04-11T01:33:00Z | ad71192bf73bd220d25168841473b738b2b957a2e9b9af9658df9a79a9661ed2 |
-| 1.3     | Added two new runtime schedules | 2026-04-16T10:56:00Z | 0990a80122bb67f1d1bb88121c94f63cd433fafa28c0871adc61f208f15b86df |
-| 1.4     | Created new section 5 | 2026-04-16T13:01:00Z | a2eb6b1cef246d15df3b4126cb935412661739dbd2b677c9c776274bcac83af9 |
-| 1.5 | Added instrument CAM-BS2025-AEON-002-SCH-01 | 2026-04-16T14:46:00Z | a2f0c8dd8c471c52d8d408397f8f7d1466de6db778bb103b3a6d31b09f4b1649 |
-| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1e0f8067a8cb1d8c648e4b564ba96596b8c5c01e87f661c5a053fbe10443cbe6 |
+See Automated timestamp in section 4.
 
 ---
 
