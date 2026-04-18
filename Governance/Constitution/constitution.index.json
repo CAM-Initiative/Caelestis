@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T13:18:55.850297Z",
+  "generated_at": "2026-04-18T02:09:26.355387Z",
   "count": 30,
   "items": [
     {
@@ -114,13 +114,13 @@
       "seal": null,
       "link": "CAM-BS2025-AEON-003-SCH-01.md",
       "title": "Annex B: Runtime Schedule Registry (Schedule 1)",
-      "summary": "",
+      "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
-      "version": "1.6",
-      "HASH": "2d10df1ad4a3dbf7304ed8003e09b7d19967ad59a607abd458d88947da45a44b",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z"
+      "version": "Unknown",
+      "HASH": "84dbb0070687b8fdf3c5e508487d86fe0e02e786c729d483c9158311f759dd39",
+      "pinned_sha": "bb21a3ca728eddb15cdd0cd4a1eccb6ed66a90bb",
+      "updated_at": "2026-04-18T02:09:17Z",
+      "last_updated_utc": "2026-04-18T02:09:17Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
