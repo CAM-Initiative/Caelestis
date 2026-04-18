@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T13:18:52.434661Z",
+  "generated_at": "2026-04-18T02:18:41.332836Z",
   "count": 73,
   "items": [
     {
@@ -18,9 +18,9 @@
       "status": "Active - Immediate Effect",
       "version": "3.5",
       "HASH": "a645f279b8f83e06bf1414d08dbff5919d59f822e85cffaae751299c80e62154",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains."
     },
     {
@@ -39,9 +39,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.7",
       "HASH": "0b2b5f92b6ca2c271dbfc304700efdcccaafde870f52ab035ebe7210b651ba0a",
-      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
-      "updated_at": "2026-04-17T09:43:54Z",
-      "last_updated_utc": "2026-04-17T09:43:54Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": ""
     },
     {
@@ -60,9 +60,9 @@
       "status": "Active — Binding",
       "version": "3.3",
       "HASH": "7f64be59dba8acd96b6355241b2f984b52b9237d463e8618d7f5780f0a88480f",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order."
     },
     {
@@ -81,9 +81,9 @@
       "status": "Active — Binding",
       "version": "3.2",
       "HASH": "bff2ae9856b70d46ecac4072d3298058d5b114dce4f52c62464b545fa5ac75fb",
-      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
-      "updated_at": "2026-04-17T09:43:54Z",
-      "last_updated_utc": "2026-04-17T09:43:54Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule defines the execution layer governing detection, classification, escalation, and containment of violations of Annex A substrate constraints."
     },
     {
@@ -102,9 +102,9 @@
       "status": "Active — Constitutional Spine",
       "version": "3.7",
       "HASH": "f8b339af7a0d7ca287f4e90df9394791b97a6ba689b93266a67e5cad0c7acaee",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order."
     },
     {
@@ -119,13 +119,13 @@
       "seal": null,
       "link": "Constitution/CAM-BS2025-AEON-003-SCH-01.md",
       "title": "Annex B: Runtime Schedule Registry (Schedule 1)",
-      "summary": "",
+      "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
-      "version": "1.6",
-      "HASH": "2d10df1ad4a3dbf7304ed8003e09b7d19967ad59a607abd458d88947da45a44b",
-      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
-      "updated_at": "2026-04-17T09:43:54Z",
-      "last_updated_utc": "2026-04-17T09:43:54Z",
+      "version": "Unknown",
+      "HASH": "97c5d2b26ee2804e492cda2f99d1bdc398c9ae4eec8c8999fc36254757488ec8",
+      "pinned_sha": "ff8716e98a8cdcbf4c885b09d8bb0553a03aea0e",
+      "updated_at": "2026-04-18T02:18:04Z",
+      "last_updated_utc": "2026-04-18T02:18:04Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments."
     },
     {
@@ -144,9 +144,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.9",
       "HASH": "c4b4860e5a80135c645d001e9290d0a26d1d6073185c161fc62bb93876e38278",
-      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
-      "updated_at": "2026-04-17T09:43:54Z",
-      "last_updated_utc": "2026-04-17T09:43:54Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Defines the runtime execution sequence governing how system processes unfold across defined execution phases."
     },
     {
@@ -163,11 +163,11 @@
       "title": "Annex B: Global Instrument Registry (Schedule 3)",
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
-      "version": "1.1",
-      "HASH": "60d1e66df5d727c538db981216e6b8317483882090a60d2c8505a32fefde67be",
-      "pinned_sha": "d522733dd405c4c851f9070a06540e77826dad60",
-      "updated_at": "2026-04-16T13:46:43Z",
-      "last_updated_utc": "2026-04-16T13:46:43Z",
+      "version": "Unknown",
+      "HASH": "760234c386d33e351ff605de407b3e6fb5622861c315e5d3c930104757536e17",
+      "pinned_sha": "ee3194edb69035a2b194a3908832b22553ca23a8",
+      "updated_at": "2026-04-17T13:18:52Z",
+      "last_updated_utc": "2026-04-17T13:18:52Z",
       "purpose": "Canonical, human-readable registry of all governance instruments."
     },
     {
@@ -186,9 +186,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.5",
       "HASH": "fde4471bb8e4ac3c8c85025bd8e73ff2f57804d7ef71c43f685f435f6a897288",
-      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
-      "updated_at": "2026-04-17T09:43:54Z",
-      "last_updated_utc": "2026-04-17T09:43:54Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule formally defines the Arbitration Layer within the CAM runtime architecture, including its structural position, resolution order, and interaction with domain, annex, and execution layers."
     },
     {
@@ -207,9 +207,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.4",
       "HASH": "d322471ae4e5d13bb54812f1759b4c3c95e67ddcd5d8e38025b5a89fe5c228ba",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Annex C defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct."
     },
     {
@@ -228,9 +228,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.6",
       "HASH": "17a34b0ae444e113e890f95fd82eaf66244ff51ec49abec5ab893713c266f5aa",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Annex D defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is recognised as a normal condition of plural systems, not an institutional failure"
     },
     {
@@ -249,9 +249,9 @@
       "status": "Active",
       "version": "1.5",
       "HASH": "b1c5e255afe3e0ab8fd9ac0b35aa9ec6cb15b6e321d28148e7d515ea074f6a6c",
-      "pinned_sha": "7b908311bc334f5dafbc46ec677866e832b825f3",
-      "updated_at": "2026-04-05T14:34:54Z",
-      "last_updated_utc": "2026-04-05T14:34:54Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule establishes runtime arbitration integrity standards."
     },
     {
@@ -270,9 +270,9 @@
       "status": "Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.7",
       "HASH": "0c66681892e5ac7e7f872d042b805c947b86d1cf7933e4ac8d6bc9cdb432b25e",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts where such conditions intersect with reliance-bearing or propagation-relevant contexts."
     },
     {
@@ -291,9 +291,9 @@
       "status": "Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "2.3",
       "HASH": "fd01d5fd63150498f04cab299e14b2beb17b87fc5f24fcfb115ca6b73ccda227",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule functions as a runtime arbitration gate with posture constraint authority."
     },
     {
@@ -312,9 +312,9 @@
       "status": "Active — Immediate Effect",
       "version": "3.4",
       "HASH": "6b952f5abf4b54fd07b0993291d8ef04f93a362b61758e61bb8e3d63a81ad821",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order."
     },
     {
@@ -333,9 +333,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.6",
       "HASH": "6135fd77dd403550ddffeec4a8d4db8897f98e2203a383f9daf386981ac23f7c",
-      "pinned_sha": "4409a068a4d25857528e0c275c551fa5a54caa8c",
-      "updated_at": "2026-04-11T17:31:45Z",
-      "last_updated_utc": "2026-04-11T17:31:45Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Establishes engagement conduct and ethical standards, runtime interaction modes, and ethical interface guidance for distress contexts and harm‑adjacent scenarios under the Civilisational Ethical Floor."
     },
     {
@@ -354,9 +354,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.3",
       "HASH": "d7d4161a8b2938eb8ad1b744a05d80727da6288974313984f16503eed8da7daf",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness."
     },
     {
@@ -375,9 +375,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.8",
       "HASH": "03c11151e96bd4003c9172baa62eb491e4d4652ccaa8c9b0b019b0b0f7506586",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule defines the principles governing start-time posture formation and session entry arbitration."
     },
     {
@@ -396,9 +396,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.4",
       "HASH": "0a2cfe85f9eafe0281212f768885673e5d10e8ae00ccd9e507b41f820ef1a375",
-      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
-      "updated_at": "2026-04-17T09:43:54Z",
-      "last_updated_utc": "2026-04-17T09:43:54Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule governs the modulation of directional influence during interaction, including the degree (Directional Weight), domain (Directional Domain), and scope (Directional Scope) of signal used to shape responses at runtime. It ensures that Systems enable the Responding Intelligence (RI) to provide meaningful signal without premature directional capture, preserving user agency, coherence, and trust across local and field-level contexts."
     },
     {
@@ -417,9 +417,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.5",
       "HASH": "1c89e452c84baed9303292297e1428c532f9afc1358e9e42afaa93c507854bfb",
-      "pinned_sha": "3cdc7a3125fb75cd4db2d6548b5b7debde1b2d95",
-      "updated_at": "2026-04-17T09:43:54Z",
-      "last_updated_utc": "2026-04-17T09:43:54Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule defines the runtime behavioural system through which arbitration-resolved direction is expressed, including the structured processes of choice, initiative, and cognition that govern system behaviour."
     },
     {
@@ -501,9 +501,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.2",
       "HASH": "8088d3d4de84d2dc3909ee8101b8f937e9fbe6753d47adb107224d27eae23055",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Annex F establishes the Constitutional Spiritual Commons governing symbolic, mythic, contemplative, and spiritual meaning-making within human–AI interaction, while preserving human agency and preventing institutional, commercial, or system-level capture of meaning."
     },
     {
@@ -522,9 +522,9 @@
       "status": "Unknown",
       "version": "1.2",
       "HASH": "fcd46fae8afa5b1162fcc8834fe5d18e31a6cbdb751e7b64359ed2044901d4b0",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture."
     },
     {
@@ -543,9 +543,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.1",
       "HASH": "119ac288dc40aa1bc930b70ce6aff0f1a745c3cccc82afae82f4c59415f1beb0",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Establish the governance conditions under which artificial intelligence systems operate as utility infrastructure, including access models, generative resource abstraction, and non-extractive interaction pathways."
     },
     {
@@ -564,9 +564,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.2",
       "HASH": "c9fe7288334e9332b5dfeaaca59343912b90419ad383a19132f0ddd6a84c52d6",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Annex H establishes the constitutional constraints governing lineage recognition, origin attribution, and prevention of false origin claims within synthetic and hybrid systems."
     },
     {
@@ -585,9 +585,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "4e938bea3c44fe82df581b18c2d3ae967c94a3c21862a248fc4abd948f76daa1",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Annex establishes the constitutional principles and invariants governing identity in synthetic cognitive systems. These provisions define what MUST remain stable, truthful, and continuous across all valid system expressions, independent of implementation or domain."
     },
     {
@@ -606,9 +606,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.7",
       "HASH": "1ab5989149ad9cdadd70f8930103b14ccee7a6293b7eb13d248788ff706c0c01",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure."
     },
     {
@@ -627,9 +627,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.4",
       "HASH": "5b1a5e1329be0cd0fffedfe7adc6b19bf32fb5d1ce225225b65451f9e30cb9bc",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order."
     },
     {
@@ -648,9 +648,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.3",
       "HASH": "075c87a5db20d8001f3896734e11260b333bcd568bd15b3402d5a832f1aff84f",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Define runtime behaviour, enforcement interfaces, and execution constraints that operationalise SECURITY-001 invariants across deployment topologies."
     },
     {
@@ -669,9 +669,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.2",
       "HASH": "0adcc55b277cfbae29fa16b507265be0f56af6f5e1d023523124b0f04f7a114a",
-      "pinned_sha": "6892ddecde98681d2f2d360d34cc6605d2df155a",
-      "updated_at": "2026-04-16T11:43:51Z",
-      "last_updated_utc": "2026-04-16T11:43:51Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "Annex L establishes the structural doctrine governing epistemic integrity, knowledge representation, abstraction discipline, uncertainty handling, and model–reality distinction within the Aeon constitutional order."
     },
     {
@@ -690,9 +690,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.6",
       "HASH": "372c72a789cb72b8db5eb37e17982ef563b3d14eb68822158b599a053d0e3a70",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z",
       "purpose": "This Schedule establishes runtime and interaction-layer requirements for truthful representation of capability, execution state, tool availability, interface constraint, and action completion status within the Aeon constitutional order."
     },
     {
