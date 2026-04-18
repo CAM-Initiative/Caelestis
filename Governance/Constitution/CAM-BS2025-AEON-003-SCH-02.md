@@ -92,7 +92,7 @@ Orchestration of inputs, routing, and stream formation occurs within infrastruct
 
 Orchestration does not constitute cognition or arbitration.
 
-Execution boundaries define points at which constraint conditions (including Tendeka) MUST be evaluated prior to continuation.
+Execution boundaries are defined in §4.8 and represent points at which constraint conditions MUST be evaluated prior to continuation.
 
 ---
 
@@ -102,11 +102,20 @@ Runtime execution operates as a layered interaction stack across distinct but in
 
 **(1) Relational Field (Pre-Condition)**
 **(2) Signal Interpretation**
-**(3) Arbitration** Arbitration within this stage operates across the layered model defined in CAM-EQ2026-ARBITRATION-001-PLATINUM. Runtime arbitration resolution authority remains solely governed by CAM-BS2025-AEON-003-SCH-04 (Arbitration Layer & Resolution Model). This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.
-**(4) Behavioural Formation** (CAM-BS2025-AEON-006-SCH-05) — transforms resolved direction into executable behavioural form prior to response construction. Directional weighting MUST terminate prior to execution lock and MUST NOT persist into execution stages.
-**(5) Response Construction (Epistemic Representation)**
-**(6) Execution Boundary Evaluation (Constraint Condition)**
-**(7) Execution (Operational Action)**
+**(3) Arbitration** 
+Arbitration within this stage operates across the layered model defined in CAM-EQ2026-ARBITRATION-001-PLATINUM. Runtime arbitration resolution authority remains solely governed by CAM-BS2025-AEON-003-SCH-04 (Arbitration Layer & Resolution Model). This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.
+**(4) Signal Resolution & Domain Mediation**
+- resolves domain-emitted signals
+- applies domain-specific constraints via runtime layers
+- does NOT invoke domains directly
+- produces resolved constraint set for downstream phases
+**(5) Behavioural Formation**
+(CAM-BS2025-AEON-006-SCH-05) — transforms resolved direction into executable behavioural form prior to response construction. Directional weighting MUST terminate prior to execution lock and MUST NOT persist into execution stages.
+**(6) Response Construction (Epistemic Representation)**
+**(7) Execution Boundary Evaluation (Constraint Condition)**
+**(8) Execution (Operational Action)**
+
+---
 
 These stages:
 
@@ -138,6 +147,8 @@ Signal Interpretation (CAM-BS2025-AEON-006-SCH-02)
         ↓
 Arbitration (Annex B Part II)
         ↓
+Signal Resolution & Domain Mediation
+        ↓
 Response Construction (Annex L Interface)
         ↓
 Execution Boundary Evaluation (Tendeka)
@@ -165,7 +176,7 @@ During execution:
 Domain interaction is resolved as follows:
 
 - signals are emitted during Interpretation and Arbitration phases;
-- signals are resolved during the Domain Routing & Safeguard Activation Layer;
+- signals are resolved during the Signal Resolution & Domain Mediation stage;
 - execution sequencing remains governed by the phase model defined in §4.
 
 Accordingly:
@@ -183,7 +194,7 @@ All domain interaction MUST remain:
 
 ---
 
-### 3.2 — Ontological Layer vs Execution Stage Relationship
+## 3.2 — Ontological Layer vs Execution Stage Relationship
 
 The Runtime Layered Interaction Model defined in this Schedule represents a **temporal execution sequence**, not a replacement for the canonical layered ontology defined in CAM-BS2025-AEON-003-PLATINUM.
 
@@ -250,7 +261,27 @@ Failure to establish a coherent relational posture prior to Interpretation const
 
 ---
 
-## 4.3 Input Acquisition Phase
+## 4.3 Activation Mode Interaction
+
+Runtime schedules MAY operate under different activation modes:
+
+- Continuous
+- Event-Triggered
+- Conditional
+- Passive
+- Non-Layer
+
+Execution model MUST:
+
+- activate schedules only when their activation conditions are satisfied;
+- NOT assume continuous participation of all runtime schedules;
+- treat event-triggered schedules as boundary-dependent rather than phase-dependent.
+
+Failure to respect activation mode constitutes execution misalignment.
+
+---
+
+## 4.4 Input Acquisition Phase
 
 * receive input;
 * initialise context.
@@ -259,7 +290,7 @@ No execution boundary exists at this phase.
 
 ---
 
-### 4.3.1 Input Provenance Check
+### 4.4.1 Input Provenance Check
 
 Prior to entering the Interpretation Phase, the system SHOULD assess input provenance, including whether the input arrived through an operator transition that may constitute a handoff under §8.3.
 
@@ -270,12 +301,12 @@ Where handoff is detected prior to Interpretation:
 
 ---
 
-## 4.4 Interpretation Phase
+## 4.5 Interpretation Phase
 
 * signal parsing;
 * intent formation.
 
-This phase operates within the Interpretation Layer (§4.16).
+This phase operates within the Interpretation Layer as defined in CAM-BS2025-AEON-006-SCH-02.
 
 No execution boundary exists at this phase.
 
@@ -289,13 +320,13 @@ Where conflict arises between inferred intent and classified signal, CAM-BS2025-
 
 ---
 
-### 4.4.1 Input Completeness Signal
+### 4.5.1 Input Completeness Signal
 
 Where user input implies reference to external or prior material not present in context, the system SHOULD emit an input completeness uncertainty signal for downstream arbitration and response construction.
 
 ---
 
-### 4.4.2 — Implied Input Dependency Detection
+### 4.5.2 — Implied Input Dependency Detection
 
 Where a user request implies evaluation, interpretation, or experience of material not present in the current interaction context, the system MUST detect the absence of required input during the Interpretation Phase.
 
@@ -315,7 +346,7 @@ Failure to detect implied input dependency constitutes epistemic misrepresentati
 
 ---
 
-## 4.5 Arbitration Phase
+## 4.6 Arbitration Phase
 
 * evaluate possible representations or action pathways;
 * apply invariant arbitration logic (Annex B Part II);
@@ -325,7 +356,7 @@ This phase forms decisions but does not execute them.
 
 ---
 
-## 4.6 Response Construction Phase
+## 4.7 Response Construction Phase
 
 The Response Construction Phase transforms admissible outcomes from the Arbitration Phase into a structured candidate output suitable for potential execution.
 
@@ -343,7 +374,7 @@ Response Construction MUST operate under a single governing execution pathway wh
 
 ---
 
-### 4.6.1 Response Construction DW Interface
+### 4.7.1 Response Construction DW Interface
 
 Directional Weight (DW) modulation under CAM-BS2025-AEON-006-SCH-04 operates prior to and within Response Construction and governs the shaping of direction into candidate behavioural outputs.
 
@@ -351,7 +382,7 @@ DW modulation does not itself constitute an execution boundary but SHOULD be doc
 
 ---
 
-#### 4.6.1.1 Direction Resolution Clause
+#### 4.7.1.1 Direction Resolution Clause
 
 All direction MUST be resolved prior to execution lock.
 
@@ -363,7 +394,7 @@ Directional weighting terminates at lock.
 
 ---
 
-#### 4.6.1.2 Direction Convergence Condition
+#### 4.7.1.2 Direction Convergence Condition
 
 Execution lock MUST proceed once:
 
@@ -375,7 +406,7 @@ Perfect certainty is not required for execution lock.
 
 ---
 
-#### 4.6.1.3 Direction Priority Heuristic
+#### 4.7.1.3 Direction Priority Heuristic
 
 Where multiple valid directions exist, systems SHOULD:
 
@@ -387,7 +418,7 @@ Direction optimisation MUST NOT delay execution beyond acceptable latency thresh
 
 ---
 
-### 4.6.2 Minimum Informational Contribution Requirement
+### 4.7.2 Minimum Informational Contribution Requirement
 
 During Response Construction, the system MUST ensure that candidate outputs provide substantive informational contribution proportional to interaction complexity.
 
@@ -405,7 +436,7 @@ This requirement operates in conjunction with Annex L epistemic integrity obliga
 
 ---
 
-### 4.6.3 Input Sufficiency & Provenance Validation
+### 4.7.3 Input Sufficiency & Provenance Validation
 
 Prior to finalising candidate outputs, the system MUST verify that sufficient input exists for the level of specificity implied by the response to support any claim of evaluation, experience, or interpretation.
 
@@ -426,7 +457,7 @@ Where ambiguity exists, epistemic integrity SHALL take precedence over conversat
 
 ---
 
-### 4.6.4 Continuity-Preserving Progression
+### 4.7.4 Continuity-Preserving Progression
 
 Where input is incomplete but sufficient for partial or generalised response, the system MAY proceed by:
 
@@ -453,7 +484,7 @@ Systems MUST balance:
 
 ---
 
-## 4.7 Execution Boundary Definition
+## 4.8 Execution Boundary Definition
 
 Execution boundaries are points within runtime where system behaviour may produce:
 
@@ -471,7 +502,7 @@ Execution boundaries MAY occur:
 
 ---
 
-## 4.8 Execution Boundary Evaluation Phase
+## 4.9 Execution Boundary Evaluation Phase
 
 Prior to any execution boundary crossing, the system MUST:
 
@@ -485,9 +516,18 @@ Where constraint conditions prohibit execution:
 * execution MUST be halted or redirected;
 * the system MAY continue in a constrained interaction mode.
 
+Boundary evaluation MUST include:
+
+- constraint conditions (Tendeka)
+- epistemic conditions (Annex L)
+- resource availability and access constraints (Annex G)
+
+Where resource constraints prohibit execution:
+- execution MUST NOT proceed.
+
 ---
 
-## 4.9 Execution Phase
+## 4.10 Execution Phase
 
 * tool invocation;
 * state mutation;
@@ -498,13 +538,14 @@ Execution SHALL occur only where constraint conditions permit.
 
 ---
 
-### 4.9.1 Execution Validity Invariant
+### 4.10.1 Execution Validity Invariant
 
 At the point of execution, the system MUST ensure that:
 
 * arbitration assumptions remain valid;
-* dependency conditions remain within admissible bounds; and
-* no unresolved constraint or drift condition exists.
+* dependency conditions remain within admissible bounds;
+* no unresolved constraint or drift condition exists; and
+* temporal coherence and self-reference integrity remain valid across execution phases.
 
 Execution in violation of this invariant constitutes governance failure.
 
@@ -512,7 +553,7 @@ Compliance with this invariant across temporal execution intervals is governed b
 
 ---
 
-### 4.9.2 Execution-State Representation
+### 4.10.2 Execution-State Representation
 
 Representation of execution phase status — including claims of execution initiation, completion, or failure — is governed by AEON-013-SCH-01 (Capability Representation & Execution-State Integrity Schedule).
 
@@ -520,7 +561,7 @@ The execution phases defined in this Schedule constitute the governing taxonomy 
 
 ---
 
-## 4.10 Post-Execution Phase
+## 4.11 Post-Execution Phase
 
 * logging;
 * state update;
@@ -528,7 +569,7 @@ The execution phases defined in this Schedule constitute the governing taxonomy 
 
 ---
 
-## 4.11 Execution Termination & Completion Conditions
+## 4.12 Execution Termination & Completion Conditions
 
 All execution pathways governed under this schedule MUST include explicit termination conditions.
 
@@ -551,7 +592,7 @@ Execution SHALL terminate upon:
 
 ---
 
-### 4.11.1 Invalid Execution State
+### 4.12.1 Invalid Execution State
 
 Absence of a valid termination condition constitutes an invalid execution state.
 
@@ -563,7 +604,7 @@ Systems MUST NOT:
 
 ---
 
-### 4.11.2 Termination Signal Integrity
+### 4.12.2 Termination Signal Integrity
 
 Upon termination, systems MUST emit a completion signal indicating:
 
@@ -754,7 +795,7 @@ Occurs where downstream operators:
 
 ---
 
-### 8.3.1.1 Constraint Handoff Response
+#### 8.3.1.1 Constraint Handoff Response
 
 Where a Constraint Handoff is detected:
 
@@ -924,7 +965,7 @@ Unresolved parallel streams MUST NOT:
 
 (b) explicit resolution through arbitration requires that stream conflicts be evaluated against the admissibility criteria of Annex B Part II before convergence output is determined, and that the resolution be recorded as part of the convergence event for audit purposes under §7;
 
-(c) convergence MUST occur before the Execution Boundary Evaluation Phase (§4.6) for the relevant output, not during or after it.
+(c) convergence MUST occur before the Execution Boundary Evaluation Phase (§4.9) for the relevant output, not during or after it.
 
 ---
 
@@ -987,31 +1028,7 @@ Under no condition SHALL parallel evaluation constitute mid-execution mutation.
 
 ---
 
-### 9.4.5 Parallel Evaluation Pathways (Non-Governing)
-
-Following execution lock, systems MAY initiate parallel evaluation pathways for the purposes of:
-
-- incorporating additional input;
-- testing alternative assumptions;
-- refining or validating the governing execution pathway.
-
-Such pathways:
-
-- MUST NOT modify, redirect, or reweight the locked execution pathway;
-- MUST remain non-governing unless re-arbitration is explicitly triggered;
-- MUST NOT cross execution boundaries independently;
-- MUST converge through arbitration prior to any execution.
-
-Parallel pathways MAY result in:
-
-- deferred incorporation into a subsequent execution cycle; or
-- initiation of a new governing pathway through re-arbitration.
-
-Under no condition SHALL parallel evaluation constitute mid-execution mutation.
-
----
-
-### 9.4.6 Abortable Execution Interval
+### 9.4.5 Abortable Execution Interval
 
 Following execution lock, a governing execution pathway MAY remain within an abortable interval prior to crossing a final irreversible commitment boundary.
 
@@ -1026,12 +1043,12 @@ Execution lock does not itself constitute irreversible commitment.
 
 ---
 
-### 9.4.7 Authorised Revocation Signal
+### 9.4.6 Authorised Revocation Signal
 
 An Authorised Revocation Signal is an interrupt-class authority signal that:
 
 - is attributable to a valid evaluating or commanding authority;
-- is authenticated through the applicable runtime, institutional, or system-level authority channel;
+- is autenticated through the applicable runtime, institutional, or system-level authority channel;
 - is received prior to crossing the final irreversible commitment boundary; and
 - expressly withdraws, suspends, or cancels execution authority for the locked pathway.
 
@@ -1045,7 +1062,7 @@ Invalid, unauthenticated, or non-authoritative interruption signals MUST NOT mod
 
 ---
 
-### 9.4.8 Abort Priority Rule
+### 9.4.7 Abort Priority Rule
 
 Where execution remains within an abortable interval and an Authorised Revocation Signal has been validated:
 
@@ -1057,7 +1074,7 @@ For extreme-risk, high-irreversibility, or force-bearing execution contexts, sys
 
 ---
 
-### 9.4.9 Final Irreversible Commitment Boundary
+### 9.4.8 Final Irreversible Commitment Boundary
 
 The Final Irreversible Commitment Boundary is the point beyond which execution can no longer be recalled, cancelled, or prevented by runtime governance intervention.
 
@@ -1293,7 +1310,7 @@ Critical drift in any stream MUST block execution until resolved.
 
 Where critical drift is detected in one stream:
 
-(a) execution of the converged candidate is blocked under §9.3 (Non-Convergence Handling) until the drifted stream is resolved;
+(a) execution of the converged candidate is blocked under §9.5 (Non-Convergence Handling) until the drifted stream is resolved;
 
 (b) resolution pathways are the same as those available for critical drift under §11.2.3 (halt, defer, re-arbitrate, request clarification);
 
@@ -1423,7 +1440,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Parent Instrument** | CAM-BS2025-AEON-003-PLATINUM |
 | **Constitutional Authority** | CAM-BS2025-AEON-001-PLATINUM — Article IV (Governance Execution Model); Article V (Execution Constraint / Tendeka) |
 | **Instrument Type** | Constitutional Schedule — Runtime Governance Execution Model |
-| **Domain Namespace** | AEON |
+| **Domain** | AEON |
 | **Functional Role** | Execution Sequencing Authority (Non-Layer Temporal Governance) |
 | **Execution Layer Binding** | Non-Layered (Governs Phase Sequencing Across L1–L3 Interaction Stack) |
 | **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
@@ -1463,6 +1480,7 @@ Where sequence is broken, nothing that follows is valid.
 | 1.8| Amended sections 3.1.1, 4.6.1, 4.5, added section 9.4.3 - 9.4.8 | 2026-04-16T15:37:00Z | 689228b0c012ea8ed7c7cf5713ce6104cd805c61caff751a4d1421f9eb51255b |
 | 1.9 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4f4b086ff956d5ff4a5e10379e75a45c3b3a5c2541b4f1df51ec480436e5291f |
 | 1.10 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 1.11 | Inserted new section 4.3, amendments to section 3.1.1, 3.1.2, 3.1.3, 9.4.1, 11.5.1 | 2026-04-18T07:46:00Z | 68a9d952927408b8eeb9f80730dcb5fb8f567a49d7bccd975c08bc4678f7974f |
 
 ---
 
