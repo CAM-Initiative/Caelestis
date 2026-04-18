@@ -89,7 +89,7 @@ It MUST NOT be interpreted as part of the canonical layer hierarchy defined in A
 | CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | Aeon Tier Constitution | UNBOUND |
 | CAM-BS2026-AEON-013-SCH-01 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | Aeon Tier Constitution | UNBOUND |
 
-Last Generated (UTC): 2026-04-18T02:14:26Z
+Last Generated (UTC): 2026-04-18T02:18:39Z
 Source: CAM.Governance.JSON
 Pipeline Stage: Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->
