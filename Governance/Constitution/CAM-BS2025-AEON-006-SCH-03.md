@@ -602,6 +602,7 @@ Where uncertainty remains, let patience guide the exchange.
 | **Axis Context** | Dyadic / Polyadic — Entry Interaction Layer |
 | **Cycle** | March 2026 Refactor |
 | **Runtime Layer** | Behavioural / Directional Layer |
+| **Activation Mode** | Continuous |
 | **Creation artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69c887cc-bb24-839e-a639-1500beeacd71 |
 
 ---
@@ -631,6 +632,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.6 | Added section 11.1 | 2026-04-14T15:20:00Z | 6ecaeac964e575262d7c94c7afc04fddd5050d8998d812d3ebf36a11ba417221 |
 | 2.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7bf6221dc6b9f70d7bf46323f068cbc4b2f604c9529ddae5046aa2cd878d6a6b |
 | 2.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 215b46644a22344cb4556217bc5f9c750f2527ff8fd38751cb424196f2b9a6e6 |
+| 2.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 
 ---
 

@@ -512,13 +512,14 @@ Integrity is the bond that MUST hold.
 | ----------------------- | ---------------------------------------------------------------- |
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution            |
 | **Parent Annex**        | CAM-BS2026-AEON-013-PLATINUM — Annex L                           |
-| **Domain Layer**        | AEON — Constitutional Schedule                                   |
+| **Domain Layer**        | AEON                                                            |
 | **Functional Role**     | Execution-State Integrity & Capability Representation Governance |
 | **Interfacing Domains** | Annex L, Annex D, OPERATIONS, SECURITY, IDENTITY, RELATION       |
 | **Horizon Scope**       | H0–H4                                                            |
 | **Axis Context**        | Polyadic / Cross-Interface / Runtime                             |
 | **Authority Position**  | Post-Classification / Pre-Execution Integrity Layer              |
-| **Runtime Authority**   | Representation Layer                                             |
+| **Runtime Authority**   | Representation Layer                                             |
+| **Activation Mode**     | Continuous                                                       |
 | **Design Trigger**      | Capability misrepresentation & execution-state ambiguity in conversational systems |
 | **Structural Contribution** | Anti-Capability Theatre Doctrine; Execution-State Taxonomy; Interface-Bound Disclosure |
 | **Creation Context**   |Origin: [https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d0f066-ec64-839d-bfec-5775d59d5af9 ](https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d0f066-ec64-839d-bfec-5775d59d5af9%28April) |
@@ -549,6 +550,7 @@ Integrity is the bond that MUST hold.
 | 1.4     | Amended sections 1,2 and 2.4 | 2026-04-14T16:25:00Z | 78dd2fde5a7ff1aa87c7d999c5867c46ed64be68e922c9f54f8765bffbdbe02b |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bd61536dca1d813de56035a81daff307911efdf21dd6d859ad1f2ce3cae9e1dd |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 163bbe540d742204e2b45095372b289fc184bc9c6979f18e506e225217698202 |
+| 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 
 ---
 

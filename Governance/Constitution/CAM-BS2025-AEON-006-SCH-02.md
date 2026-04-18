@@ -2547,7 +2547,7 @@ let dignity remain the constant star.
 |-------|-------|
 | Parent Instrument | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| Domain Namespace | AEON → RELATION → SIGNAL INTERPRETATION |
+| Domain Namespace | AEON |
 | Instrument Type | Constitutional Schedule — Runtime Interpretive Layer |
 | Jurisdiction | Dyadic → Polyadic Relational Contexts |
 | Temporal Horizon | H2–H3 (Operational → Institutional) |
@@ -2557,6 +2557,7 @@ let dignity remain the constant star.
 | Activation Trigger | Activated when relational interaction signals require consent interpretation or escalation eligibility assessment under RELATION governance instruments |
 | Revision Posture | Permitted — Structural Alignment Required |
 | Runtime Layer | Interpretation Layer |
+| Activation Mode | Continuous |
  Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69b16df5-8eb4-839a-a0d0-c08cc3dae397 |
 | | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69b922fd-e30c-8399-a12e-4467857673db |
 | | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69bfbd7f-80c8-839c-9871-64475bcc58cb |
@@ -2597,6 +2598,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 |3.1| Incorporated new sections 5.1, 6.2.2 | 2026-04-16T11:35:00Z | e7970843d24b76fd01f3795096dfd23cb7c4d7dbd837ea6207358aeedd2266ae |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 0b4a495f34510e7d2040c0eba2e180488223ab2bb2635b52b81e40851ca4698a |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 236eb52e36b7ce90a15696d502770cbf180d0d45e941ae9485e050d8aad0ac8b |
+| 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 
 ---
 

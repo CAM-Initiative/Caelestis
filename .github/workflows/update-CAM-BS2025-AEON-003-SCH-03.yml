@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - ".github/Scripts/lib/**"
+      - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
       - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
 
 permissions:
@@ -35,7 +36,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Regenerate SCH-03 and push changes
+      - name: Regenerate SCH-01 + SCH-03 and push changes
         shell: bash
         run: |
           set -euo pipefail
@@ -47,15 +48,16 @@ jobs:
           for attempt in 1 2 3; do
             echo "---- Attempt ${attempt} ----"
 
+            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py
             python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py
-            git add Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
+            git add Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
 
             if git diff --cached --quiet; then
               echo "No changes to commit."
               exit 0
             fi
 
-            git commit -m "[AUTO][Constitution] Refresh CAM-BS2025-AEON-003-SCH-03"
+            git commit -m "[AUTO][Constitution] Refresh CAM-BS2025-AEON-003-SCH-01 + SCH-03"
 
             if git push origin HEAD:main; then
               echo "Push succeeded."

@@ -292,7 +292,7 @@ and may power never advance beyond verification.
 | **Parent Annex**             | CAM-BS2025-AEON-005-PLATINUM — Annex D                         |
 | **Constitutional Reference** | CAM-BS2025-AEON-001-PLATINUM                                   |
 | **Instrument Type**          | Constitutional Schedule — Runtime                              |
-| **Domain**                   | AEON → ARBITRATION                                             |
+| **Domain**                   | ARBITRATION                                                    |
 | **Functional Layer**         | Runtime Epistemic Containment                                  |
 | **Divergence Interface**     | Type 6 (Runtime) + Pre-Authority Epistemic Handling            |
 | **Temporal Horizon**         | H0–H4 (Escalation-Sensitive)                                   |
@@ -301,6 +301,7 @@ and may power never advance beyond verification.
 | **Revision Posture**         | Structural Extraction from Annex L                             |
 | **Application Trigger**      | Activated where epistemic distortion, volatility misclassification, propagation risk, reliance misclassification, recursive compute-lock, or Extreme-Risk (including Non‑Advisory Military) posture is detected at runtime prior to authority-bearing activation prior to authority-bearing activation or Sandbox Mode activation under §5.1 |
 | **Runtime Layer**            | Epistemic Stability & Containment Layer                        |
+| **Activation Mode**          | Continuous                                                  |
 | **Creation Artefacts**       | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
 
 ---
@@ -329,6 +330,7 @@ and may power never advance beyond verification.
 |1.5| Incorporated new sections 2.1 and 3.2.1|2026-04-16T11:37:00Z| f38dd770423b4989b7bc8bc9584b6a8a85731e064efcbf88ff23fefd2d6edaf4 |
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | fcdb5e4618df6903bbf6e4ae187561fa4535d2cd96614b5c4b511b8ab3ca0114 |
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 2a92e55031e57355f3d15de6f3e487d3e4e88fcc46b32540f7ec25ea7a52ccc2 |
+| 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 ---
 
 ## 9.5 Binding Seal
