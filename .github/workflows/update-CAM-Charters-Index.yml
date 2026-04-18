@@ -39,7 +39,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push Charters index + Governance aggregate + SCH-03 (hardened)
+      - name: Generate + commit + push Charters index + Governance aggregate + SCH-01 + SCH-03 (hardened)
         shell: bash
         run: |
           set -euo pipefail
@@ -61,7 +61,9 @@ jobs:
             python .github/Scripts/update-CAM-Charters-Index.py
             # 2) aggregate governance JSON/index from per-domain JSON outputs
             python .github/Scripts/update-CAM-Governance-Index.py
-            # 3) SCH-03 from aggregate governance JSON
+            # 3) SCH-01 runtime registry from aggregate governance JSON
+            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+            # 4) SCH-03 from aggregate governance JSON
             python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
             # Stage generated artifacts in dependency order
@@ -70,6 +72,7 @@ jobs:
               Governance/Charters/charters.index.json \
               Governance/CAM.Governance.Index.md \
               Governance/CAM.Governance.JSON \
+              Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md \
               Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
 
             # If nothing changed, exit cleanly
@@ -82,7 +85,7 @@ jobs:
             git diff --cached --name-only
 
             # Commit (will fail if identity missing; we set it above)
-            git commit -m "[AUTO][Charters] Refresh charter index, aggregate governance JSON, and SCH-03"
+            git commit -m "[AUTO][Charters] Refresh charter index, aggregate governance JSON, SCH-01, and SCH-03"
 
             # Try to push
             if git push origin HEAD:main; then

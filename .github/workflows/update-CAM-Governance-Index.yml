@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/Scripts/lib/**"
       - ".github/Scripts/update-CAM-Governance-Index.py"
+      - ".github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
       - "Governance/Constitution/CAM-Constitution-Index.md"
       - "Governance/Constitution/constitution.index.json"
       - "Governance/Laws/CAM-Laws-Index.md"
@@ -41,7 +42,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push Governance index + JSON + SCH-03
+      - name: Generate + commit + push Governance index + JSON + SCH-01 + SCH-03
         shell: bash
         run: |
           set -euo pipefail
@@ -55,17 +56,19 @@ jobs:
 
             # 1) Aggregate governance JSON/index from per-domain JSON outputs
             python .github/Scripts/update-CAM-Governance-Index.py
-            # 2) SCH-03 from aggregate governance JSON
+            # 2) SCH-01 runtime registry from aggregate governance JSON
+            python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+            # 3) SCH-03 from aggregate governance JSON
             python .github/Scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
-            git add Governance/CAM.Governance.Index.md Governance/CAM.Governance.JSON Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
+            git add Governance/CAM.Governance.Index.md Governance/CAM.Governance.JSON Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
 
             if git diff --cached --quiet; then
               echo "No changes to commit."
               exit 0
             fi
 
-            git commit -m "[AUTO][Governance] Refresh global Governance index + JSON + SCH-03"
+            git commit -m "[AUTO][Governance] Refresh global Governance index + JSON + SCH-01 + SCH-03"
 
             if git push origin HEAD:main; then
               echo "Push succeeded."

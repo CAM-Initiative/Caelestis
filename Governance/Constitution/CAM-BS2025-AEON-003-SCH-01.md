@@ -69,25 +69,29 @@ It MUST NOT be interpreted as part of the canonical layer hierarchy defined in A
 
 ## 4. Runtime Registry
 <!-- SCH-01:RUNTIME_REGISTRY:START -->
+| Instrument ID | Instrument Name | Domain | Runtime Layer |
+|---------------|----------------|--------|----------------|
+| CAM-BS2025-AEON-003-SCH-04 | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Aeon Tier Constitution | Arbitration Layer (Post-Signal, Pre-Execution) |
+| CAM-BS2025-AEON-006-SCH-01 | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | Aeon Tier Constitution | Behavioural / Directional Layer |
+| CAM-BS2025-AEON-006-SCH-04 | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | Aeon Tier Constitution | Behavioural / Directional Layer |
+| CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | Aeon Tier Constitution | Interpretation Layer |
+| CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution Schedule | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2025-AEON-002-SCH-01 | Annex A: Operational Protection & Containment (Schedule 1) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2025-AEON-003-SCH-02 | Annex B: Runtime Governance Execution Model (Schedule 2) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2025-AEON-005-SCH-01 | Annex D: Runtime Arbitration Integrity (Schedule 1) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2025-AEON-005-SCH-02 | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Engagement Classification & Safety Arbitration (Schedule 3) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Directional Behaviour (Schedule 5) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | Aeon Tier Constitution | UNBOUND |
+| CAM-BS2026-AEON-013-SCH-01 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | Aeon Tier Constitution | UNBOUND |
 
-The following registry defines the authoritative mapping of runtime schedules to their assigned role.
-
-| Instrument ID              | Instrument Name                                        | Domain      | Runtime Layer                                         |
-| -------------------------- | ------------------------------------------------------ | ----------- | ----------------------------------------------------- |
-| CAM-BS2025-AEON-003-SCH-02 | Runtime Governance Execution Model                     | AEON        | Execution Sequencing Model (Non-Layer Classification) |
-| CAM-BS2025-AEON-006-SCH-03 | Start-Time Posture & Session Entry Arbitration         | AEON        | Behavioural / Directional Layer                       |
-| CAM-BS2025-AEON-006-SCH-04 | Directional Weight & Domain Arbitration Schedule       | AEON        | Behavioural / Directional Layer                       |
-| CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Directional Behaviour             | AEON        | Pre-Execution Behaviour Formation |
-| CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution Schedule                     | AEON        | Execution Constraint Condition (Non-Layer)            |
-| CAM-BS2026-AEON-013-SCH-01 | Capability Representation & Execution-State Integrity  | AEON        | Representation Layer                                  |
-| CAM-BS2025-AEON-003-SCH-04 | Arbitration Layer & Resolution Model                   | ARBITRATION | Arbitration Layer (Post-Signal, Pre-Execution)  |
-| CAM-BS2025-AEON-005-SCH-01 | Runtime Arbitration Integrity                          | ARBITRATION | Execution Integrity Layer                             |
-| CAM-BS2025-AEON-005-SCH-02 | Runtime Epistemic Containment & Structural Decoupling  | ARBITRATION | Epistemic Stability & Containment Layer               |
-| CAM-BS2025-AEON-005-SCH-03 | Runtime Engagement Classification & Safety Arbitration | ARBITRATION | Domain Routing & Safeguard Activation Layer           |
-| CAM-BS2025-AEON-006-SCH-02 | Relational Signal Interpretation Taxonomy              | RELATION    | Interpretation Layer                                  |
-| CAM-BS2025-AEON-006-SCH-01 | Engagement Conduct & Ethical Interaction Modes         | ETHICS      | Behavioural / Directional Layer                       |
-| CAM-BS2025-AEON-002-SCH-01 | Operational Protection & Containment                   | ETHICS      | Event-Triggered → Runtime Execution |
-
+Last Generated (UTC): 2026-04-18T02:14:26Z
+Source: CAM.Governance.JSON
+Pipeline Stage: Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->
 ---
 
