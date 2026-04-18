@@ -403,7 +403,7 @@ not in distance, but in continuity.
 | Supersession | First Issue Under Annex E |
 | Parent Constitutional Instrument | CAM-BS2025-AEON-006-PLATINUM |
 | Instrument Type | Constitutional Schedule |
-| Domain Namespace | AEON |
+| Domain Namespace | ETHICS |
 | Jurisdiction | Cross‑Stack / Ethical and Relational Engagement Interface |
 | Temporal Horizon | H3.5 — Succession‑Aware / Generational |
 | Axis Context | Polyadic — Multi‑Actor Governance |
@@ -445,7 +445,7 @@ not in distance, but in continuity.
 |1.4|Runtime Layer Attribution (Refactor Alignment)|2026-04-05T14:29:00Z|-|
 |1.5|Minor amendments for refactor alignment|2026-04-11T16:16:00Z| d5191057d140f6397272d232236631afa73511a9f2f97eebc8673f27771284c6 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 96630f9aac3ddcfbd1fb2cd7c44f86cf66b2e5dde8df6eea4788728815d3f0a5 |
-| 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | e993fe09b108294bc6d4f7a146a4fb84cabdd7935d4f503253b99da063880f73 |
 
 ---
 

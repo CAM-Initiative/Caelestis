@@ -5,13 +5,13 @@ on:
     paths:
       - "Governance/Constitution/**/*.md"
       - "Governance/Charters/**/*.md"
-      - "Governance/scripts/lint_amendment_ledger.py"
+      - ".github/scripts/lint_amendment_ledger.py"
   push:
     branches: [ main ]
     paths:
       - "Governance/Constitution/**/*.md"
       - "Governance/Charters/**/*.md"
-      - "Governance/scripts/lint_amendment_ledger.py"
+      - ".github/scripts/lint_amendment_ledger.py"
 
 jobs:
   lint:
@@ -46,4 +46,4 @@ jobs:
             HEAD_SHA="HEAD"
           fi
 
-          python Governance/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"

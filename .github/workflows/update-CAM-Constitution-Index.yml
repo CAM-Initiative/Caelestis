@@ -4,9 +4,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - ".github/Scripts/lib/**"
-      - ".github/Scripts/update-CAM-Constitution-Index.py"
-      - ".github/Scripts/instrument_parser.py"
+      - ".github/scripts/lib/**"
+      - ".github/scripts/update-CAM-Constitution-Index.py"
+      - ".github/scripts/instrument_parser.py"
       - "Governance/Constitution/**"
       - "!Governance/Constitution/CAM-Constitution-Index.md"
       - "!Governance/Constitution/constitution.index.json"
@@ -56,7 +56,7 @@ jobs:
             echo "---- Attempt ${attempt} ----"
 
             # Always regenerate from the current working tree state
-            python .github/Scripts/update-CAM-Constitution-Index.py
+            python .github/scripts/update-CAM-Constitution-Index.py
 
             # Stage only the two generated artifacts
             git add Governance/Constitution/CAM-Constitution-Index.md Governance/Constitution/constitution.index.json
