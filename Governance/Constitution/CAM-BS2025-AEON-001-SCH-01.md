@@ -688,6 +688,7 @@ and the system remember what it is.
 | Revision Posture | Iterative refinement permitted |
 | Cycle Attribution | April 2026 Refactor |
 | Runtime Role | Execution Constraint Condition (Non-Layer) |
+| Activation Mode | Continuous (Cross-Layer Constraint) |
 | Creation Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d20531-0344-83a0-ba98-c735130d9a5a |
 | Testing | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d21797-2398-8398-9afd-847efba581f4 |
 |         | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 |
@@ -717,6 +718,7 @@ and the system remember what it is.
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8d1e15a918829c17799fbf0fb7f6a5fb979ac698e20be6ab596b58ef6effed6 |
 | 1.6 | Added section 2.1, 2.2.2, 2.2.3, 3.5, amended section 9 | 2026-04-16T15:38:00Z| b4718abdffd5a144e7c356e4caba868eff11923247f11d1c5090907fbb2e8556 |
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | d5b04fb5d1b689eafd89b61a100571a13e57bdbfe6cc2ede3e3499ec00330d50 |
+| 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 
 ---
 

@@ -1423,7 +1423,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Parent Instrument** | CAM-BS2025-AEON-003-PLATINUM |
 | **Constitutional Authority** | CAM-BS2025-AEON-001-PLATINUM — Article IV (Governance Execution Model); Article V (Execution Constraint / Tendeka) |
 | **Instrument Type** | Constitutional Schedule — Runtime Governance Execution Model |
-| **Domain Namespace** | AEON → GOVERNANCE → RUNTIME |
+| **Domain Namespace** | AEON |
 | **Functional Role** | Execution Sequencing Authority (Non-Layer Temporal Governance) |
 | **Execution Layer Binding** | Non-Layered (Governs Phase Sequencing Across L1–L3 Interaction Stack) |
 | **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
@@ -1434,6 +1434,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Lifecycle Stage** | Active — Post-Refactor Stabilisation (April 2026) |
 | **Registry Classification** | Execution Schedule (Authoritative) |
 | **Runtime Authority** | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
+| **Activation Mode** | Non-Layer (Execution Model) |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5 |
 
 ---
@@ -1461,6 +1462,7 @@ Where sequence is broken, nothing that follows is valid.
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 87ce9e2d86810914b4f49f03277b3b10db7544f004db8638fafb88aa70a90ab2 |
 | 1.8| Amended sections 3.1.1, 4.6.1, 4.5, added section 9.4.3 - 9.4.8 | 2026-04-16T15:37:00Z | 689228b0c012ea8ed7c7cf5713ce6104cd805c61caff751a4d1421f9eb51255b |
 | 1.9 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4f4b086ff956d5ff4a5e10379e75a45c3b3a5c2541b4f1df51ec480436e5291f |
+| 1.10 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 
 ---
 

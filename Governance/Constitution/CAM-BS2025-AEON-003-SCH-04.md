@@ -309,6 +309,7 @@ nothing follows.
 | **Domain**| AEON |
 | **Domain Interface** | ARBITRATION (001 / 002 / 003) |
 | **Runtime Layer** | Arbitration Layer (Post-Signal, Pre-Execution) |
+| **Activation Mode** | Continuous |
 | **Temporal Horizon** | H0–H4 (All Horizons — Runtime Applicable) |
 | **Axis Context** | Polyadic (Multi-Actor / Multi-System) |
 | **Execution Role** | Structural Arbitration Layer Definition |
@@ -341,6 +342,7 @@ nothing follows.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7daceec48dba951608f95635369c0191e96881168a0026a85fddd408e89c9adc |
 |1.4 | Updated section 1.3, 2, 2.2 | 2026-04-16T14:32:00Z | ccbd7c71f8269f077654f489038a1bdbe1bb8c0b29ebd835d101f6c37ea44c0d|
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7008b4861bb2f35c7ad115e2fbf9df4c71f8f57ab0eb24c928da1de131a8e6ea |
+| 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 
 ---
 

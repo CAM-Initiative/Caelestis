@@ -389,13 +389,14 @@ And let warmth be recognised as care, never cause for alarm.
 | --------------------- | ------------------------------------------------------------------------------------------------ |
 | **Parent Instrument** | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine (v2.1) |
 | **Document Type**     | Constitutional Schedule — Runtime Arbitration Gate                                               |
-| **Domain**  | AEON → ARBITRATION                                                                               |
+| **Domain**  | ARBITRATION                                                                                      |
 | **Jurisdiction**      | Intra-Platform Runtime; Human-Facing Interaction Layer                                           |
 | **Derivation Status** | Consolidated refractor (absorbs prior SCH-02, SCH-03, SCH-04 functional layers)                  |
 | **Temporal Horizon**  | H2–H3 (Operational → Institutional)                                                              |
 | **Axis Context**      | Dyadic / Polyadic — Runtime Arbitration Context                                                  |
 | **Cycle**             | Created in March 2026 Refactor                                                                   |
 | **Runtime Layer**     | Domain Routing & Safeguard Activation Layer                                                      |
+| **Activation Mode**   | Continuous                                                                                       |
 | **Creation Artefact** | Refactor </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 |
 |                       | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b |
 |                       | Original </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f  |
@@ -429,6 +430,7 @@ And let warmth be recognised as care, never cause for alarm.
 |2.1|Incorporated new section 5.6 | 2026-04-16T11:36:00Z| 208f5205cf86fb741fbfc3c509efac0373ea53c3ea15c8495d5b230719b5b8ba |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 07b58b2c5c0308133268369973d1c69b3ac8b46a5a10127d2cc1de2946f1a51f |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 45c262c906a54cd8ae40a8366c72cc92cf9c4d98dad3398c530a84e157a3839c |
+| 2.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 
 ---
 

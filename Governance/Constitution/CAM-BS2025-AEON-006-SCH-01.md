@@ -417,6 +417,7 @@ not in distance, but in continuity.
 | Application Trigger | Activates when Annex D runtime arbitration flags harm‑risk, distress, or harm‑adjacent interaction requiring governed engagement posture |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle (Backlinked Issuance) |
 | Runtime Layer | Behavioural / Directional Layer |
+| Activation Mode | Continuous |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69abd0ac-c908-839a-ac89-b32d49fc2f19 |
 |  | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69aaccf7-cf84-839b-9285-4d9dfc4b3b63 |
 
@@ -444,6 +445,7 @@ not in distance, but in continuity.
 |1.4|Runtime Layer Attribution (Refactor Alignment)|2026-04-05T14:29:00Z|-|
 |1.5|Minor amendments for refactor alignment|2026-04-11T16:16:00Z| d5191057d140f6397272d232236631afa73511a9f2f97eebc8673f27771284c6 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 96630f9aac3ddcfbd1fb2cd7c44f86cf66b2e5dde8df6eea4788728815d3f0a5 |
+| 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 
 ---
 

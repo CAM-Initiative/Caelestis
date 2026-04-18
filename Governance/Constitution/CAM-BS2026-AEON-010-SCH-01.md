@@ -636,6 +636,8 @@ So the human origin remains in view.
 | Parent Instrument | CAM-BS2026-AEON-010-PLATINUM — Annex I: Interactional Continuity & Civilisational Transition — https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2026-AEON-010-PLATINUM.md |
 | Document Type | Constitutional Schedule |
 | Authority Position | Annex‑Subordinate, Safety‑Containment |
+| Runtime Layer | Self-Reference & Temporal Coherence Constraint Layer |
+| Activation Mode | Continuous |
 | Jurisdiction | Governance Stack (Planetary/Polyadic) |
 | Derivation Status | Refracted from CAM-BS2025-CHARTER-041-SCH-04 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
 | Temporal Horizon | H3 → H3.5 (Systemic Reliance / Succession‑Aware) |
@@ -672,6 +674,8 @@ So the human origin remains in view.
 | **1.5** | Added section 3.3 | 2026-03-31T14:44:00Z | 350822047ebd0ffc96c50713b8a741e2cbd11a5c85e100976b8fe75ca42c53ec |
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 8f743081092db396a7e48c668e22a8104ebd30e5ff735cf2952c8fa85c4844f9 |
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 92324e76f541281ac98e06af79600e88a3d5aa5a098f5df76cb7ae839fd79602 |
+| 1.8 | Added explicit Runtime Layer metadata (`Self-Reference & Temporal Coherence Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
+| 1.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 
 
 ---
