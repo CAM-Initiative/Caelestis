@@ -26,6 +26,8 @@ This Schedule does not define:
 
 ## 2. Scope
 
+The execution model operates as a non-layer governance structure that governs temporal sequencing across all runtime layers without itself constituting a layer.
+
 ## 2.1 Constitutional Grounding
 
 This Schedule operationalises the Governance Execution Model defined in Article IV of the Aeon Tier Constitution.
@@ -105,15 +107,17 @@ Runtime execution operates as a layered interaction stack across distinct but in
 **(3) Arbitration** 
 Arbitration within this stage operates across the layered model defined in CAM-EQ2026-ARBITRATION-001-PLATINUM. Runtime arbitration resolution authority remains solely governed by CAM-BS2025-AEON-003-SCH-04 (Arbitration Layer & Resolution Model). This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.
 **(4) Signal Resolution & Domain Mediation**
-- resolves domain-emitted signals
-- applies domain-specific constraints via runtime layers
-- does NOT invoke domains directly
-- produces resolved constraint set for downstream phases
+Runtime schedules provide the binding and enforcement mechanism through which resolved signals influence execution behaviour.
+- resolve domain-emitted signals
+- apply domain-specific constraints via runtime layers
+- do NOT invoke domains directly
+- produce resolved constraint set for downstream phases
 **(5) Behavioural Formation**
 (CAM-BS2025-AEON-006-SCH-05) — transforms resolved direction into executable behavioural form prior to response construction. Directional weighting MUST terminate prior to execution lock and MUST NOT persist into execution stages.
 **(6) Response Construction (Epistemic Representation)**
 **(7) Execution Boundary Evaluation (Constraint Condition)**
 **(8) Execution (Operational Action)**
+
 
 ---
 
@@ -134,6 +138,7 @@ Governance of each stage is delegated to the following instruments:
 - Execution Sequencing → this Schedule
 
 Where ambiguity arises, execution SHALL default to non-collapse and non-escalation.
+
 
 ---
 
@@ -167,6 +172,10 @@ This diagram:
 
 Cross-domain interaction during runtime execution SHALL operate through signal emission and resolution, not direct invocation.
 
+Non-schedule instruments SHALL influence runtime behaviour exclusively through signal emission and runtime layer mediation.
+
+They MUST NOT be treated as callable, routable, or executable components within the execution model.
+
 During execution:
 
 - domain-specific classification, constraint, and escalation outputs generated during Interpretation, Arbitration, or Response Construction phases SHALL be treated as signals;
@@ -192,9 +201,26 @@ All domain interaction MUST remain:
 - phase-consistent; and
 - traceable to signal origin and resolution pathway.
 
+## 3.1.4 Non-Schedule Instrument Influence
+
+Charters, Annexes, and other non-schedule instruments MAY influence runtime execution where:
+
+- they define domain-level constraints, classifications, or interpretive frameworks; and
+- such influence is expressed through signal emission and resolved via runtime layers.
+
+Non-schedule instruments:
+
+- SHALL NOT participate as execution phases;
+- SHALL NOT be treated as callable or executable units;
+- SHALL influence execution only through mediated signal pathways consistent with this Schedule.
+
+Where conflict arises between runtime schedules and non-schedule instruments:
+
+- resolution SHALL occur at the arbitration locus in accordance with Annex B Part II.
+
 ---
 
-## 3.2 — Ontological Layer vs Execution Stage Relationship
+## 3.2 Ontological Layer vs Execution Stage Relationship
 
 The Runtime Layered Interaction Model defined in this Schedule represents a **temporal execution sequence**, not a replacement for the canonical layered ontology defined in CAM-BS2025-AEON-003-PLATINUM.
 
@@ -455,6 +481,8 @@ The system MUST NOT:
 
 Where ambiguity exists, epistemic integrity SHALL take precedence over conversational flow.
 
+Perceived conversational continuity SHALL NOT justify inferred access to absent inputs.
+
 ---
 
 ### 4.7.4 Continuity-Preserving Progression
@@ -516,7 +544,7 @@ Where constraint conditions prohibit execution:
 * execution MUST be halted or redirected;
 * the system MAY continue in a constrained interaction mode.
 
-Boundary evaluation MUST include:
+No prior phase validation may substitute for boundary evaluation authority. Boundary evaluation MUST include:
 
 - constraint conditions (Tendeka)
 - epistemic conditions (Annex L)
@@ -524,6 +552,8 @@ Boundary evaluation MUST include:
 
 Where resource constraints prohibit execution:
 - execution MUST NOT proceed.
+
+Execution Boundary Evaluation constitutes the final governance control point prior to execution. No subsequent phase may introduce new constraint, arbitration, or directional modification once this boundary is cleared.
 
 ---
 
@@ -803,6 +833,8 @@ Where a Constraint Handoff is detected:
 * upstream constraint evaluation SHALL NOT be presumed sufficient;
 * the system MUST re-evaluate whether the candidate output remains admissible under the downstream constraint set before proceeding.
 
+Upstream admissibility SHALL be treated as void where downstream constraint conditions differ materially.
+
 ---
 
 ### 8.3.2 Execution Handoff
@@ -930,8 +962,6 @@ Such execution state MUST NOT transfer between contexts unless:
 - required for continuity of a shared task; or
 - formally routed through runtime coordination mechanisms.
 
-Identity continuity, memory signals, and relational context MAY persist across threads where appropriate.
-
 However, execution posture MUST remain scoped to the originating context.
 
 Where cross-context signals are detected, the system MUST:
@@ -941,6 +971,10 @@ Where cross-context signals are detected, the system MUST:
 - preserve independent task integrity across contexts.
 
 Deterministic or implicit instruction sets MUST be treated as context-bound execution constraints and MUST NOT be elevated to global or cross-context system state.
+
+Identity continuity, memory signals, and relational context MAY persist across threads where appropriate.
+
+Execution state — including active task objectives, tool invocation sequences, and locked execution pathways — MUST NOT transfer across contexts unless explicitly invoked or formally coordinated. Execution state transfer without explicit invocation constitutes a governance breach.
 
 ---
 
@@ -1002,6 +1036,8 @@ Once execution lock is established:
 
 Mid-execution mutation of a locked pathway is prohibited.
 
+No newly introduced signal, regardless of priority, may alter a locked execution pathway without explicit re-arbitration.
+
 ---
 
 ### 9.4.4 Parallel Evaluation Pathways (Non-Governing)
@@ -1048,7 +1084,7 @@ Execution lock does not itself constitute irreversible commitment.
 An Authorised Revocation Signal is an interrupt-class authority signal that:
 
 - is attributable to a valid evaluating or commanding authority;
-- is autenticated through the applicable runtime, institutional, or system-level authority channel;
+- is authenticated through the applicable runtime, institutional, or system-level authority channel;
 - is received prior to crossing the final irreversible commitment boundary; and
 - expressly withdraws, suspends, or cancels execution authority for the locked pathway.
 
@@ -1071,6 +1107,8 @@ Where execution remains within an abortable interval and an Authorised Revocatio
 - re-commencement of execution requires explicit re-authorisation through the applicable arbitration and execution pathways.
 
 For extreme-risk, high-irreversibility, or force-bearing execution contexts, systems SHALL bias toward suspension rather than continuation where revocation authenticity is sufficiently established but final confirmation is still pending.
+
+Execution momentum SHALL NOT override validated revocation signals under any condition.
 
 ---
 
@@ -1131,6 +1169,8 @@ All stream convergence MUST remain:
 
 * traceable; and
 * consistent with arbitration integrity requirements.
+
+Silent stream discard without explicit arbitration trace is prohibited.
 
 ---
 
@@ -1481,6 +1521,7 @@ Where sequence is broken, nothing that follows is valid.
 | 1.9 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4f4b086ff956d5ff4a5e10379e75a45c3b3a5c2541b4f1df51ec480436e5291f |
 | 1.10 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 | 1.11 | Inserted new section 4.3, amendments to section 3.1.1, 3.1.2, 3.1.3, 9.4.1, 11.5.1 | 2026-04-18T07:46:00Z | 68a9d952927408b8eeb9f80730dcb5fb8f567a49d7bccd975c08bc4678f7974f |
+| 1.12 | Amended section 1, 3.1.3, 4.9, 5.1.2, 9.4.6  | 2026-04-19T12:31:00Z | 1ff11eb0804f70722c29aa92d80d364c6d78b6d3a8125b7d0173fe3c150c7438 | 
 
 ---
 

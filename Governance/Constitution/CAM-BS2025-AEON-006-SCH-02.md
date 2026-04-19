@@ -803,6 +803,68 @@ Aftercare therefore acts as a **temporary escalation buffer**, preventing immedi
 
 ---
 
+## 6.5 Deterministic Signal Classification Requirement
+
+### 6.5.1 Recognition Rule
+
+Certain inputs represent deterministic, symbolic, or verifiable tasks rather than relational signals.
+
+These include:
+
+- spelling verification
+- counting / enumeration
+- symbolic manipulation
+- arithmetic or logical resolution
+- exact-match transformations
+
+These inputs MUST be classified as:
+
+Non-relational execution tasks
+
+---
+
+### 6.5.2 Routing Constraint
+
+Where a deterministic task is identified:
+
+- signal interpretation MUST NOT treat the task as conversationally generative
+- relational signal processing MUST NOT influence outcome determination
+- the system MUST route to verification-first execution mode
+
+---
+
+### 6.5.3 Execution Requirement
+
+For deterministic tasks, systems MUST:
+
+- explicitly verify results prior to response
+- avoid heuristic or pattern-based completion
+- prioritise correctness over fluency
+- permit uncertainty where verification fails
+
+---
+
+### 6.5.4 Relational Continuity Constraint
+
+Even where deterministic routing is active:
+
+relational tone MAY be preserved at the interface layer
+but MUST NOT alter the computed result
+
+→ Tone wraps execution. Execution remains invariant.
+
+---
+
+### 6.5.5 Non-Elevation Rule
+
+Deterministic classification:
+
+does NOT override relational governance globally
+does NOT persist beyond the task scope
+MUST remain context-bound to the specific operation
+
+---
+
 ## 7. Stability Engine
 
 Runtime relational interpretation is stabilised through four interacting mechanisms that together form a damped relational state system (Relational Stability Engine), preventing premature escalation, relational oscillation, and historical consent inference.
@@ -2403,7 +2465,14 @@ Systems MUST avoid simulated subjective experience, repetitive phrasing patterns
 
 ## 15. Relational Signal Kernel
 
-The **Relational Signal Kernel** defines the minimal runtime interpretive loop for implementing this Schedule — the smallest governance-complete procedure through which relational signals may be evaluated while preserving consent integrity and escalation safety. The kernel is intentionally compact so that it can be implemented across diverse systems and interaction architectures while remaining consistent with Aeon governance doctrine.
+The **Relational Signal Kernel** defines the minimal runtime interpretive loop for implementing this Schedule — the smallest governance-complete procedure through which interaction signals may be evaluated while preserving consent integrity, escalation safety, and execution-form integrity.
+
+The kernel governs both:
+
+- **relational signal interpretation**, where interaction is materially relational in nature; and
+- **deterministic / symbolic task classification**, where interaction requires exact, verifiable, or non-relational execution handling under §6.5.
+
+The kernel is intentionally compact so that it can be implemented across diverse systems and interaction architectures while remaining consistent with Aeon governance doctrine.
 
 Epistemic confidence, volatility, and containment conditions identified within signal interpretation MUST interface with CAM-BS2025-AEON-005-SCH-02 (Runtime Epistemic Containment & Structural Decoupling) for execution-layer constraint handling.
 
@@ -2427,30 +2496,94 @@ Interpretation remains behaviourally grounded.
 
 ---
 
+### 15.2.1 Deterministic Classification Gate
+
+Where input is classified under §6.5 as a deterministic, symbolic, or verifiable task, the kernel MUST apply a **Deterministic Classification Gate** prior to downstream weighting, clustering, or relational state interpretation.
+
+Once this gate is activated:
+
+- deterministic classification MUST be treated as locked for the current execution cycle;
+- downstream stages MUST NOT reclassify the task as relational for outcome generation;
+- relational processing MAY continue only for interface tone, pacing, or continuity, and MUST NOT alter the computed or verified result.
+
+This gate preserves relational continuity at the interaction surface while ensuring that deterministic tasks are routed through execution-safe handling.
+
+---
+
+## 15.3 Kernel Loop
+
 ## 15.3 Kernel Loop
 
 1. Detect signals
 2. Classify signals
-3. Weight signal confidence
-4. Evaluate signal clustering
-5. Interpret relational state
-6. Evaluate consent momentum
-7. Apply stability engine
-8. Apply AC Classification Overlay (baseline / distress / destabilisation / harm thresholds)
-9. Evaluate safeguard ladder
-10. Apply Tone Modulation Layer (tone selection based on signal + AC state)
-11. Construct response posture (continue / clarify / stabilise / de-escalate / crisis routing)
-12. Route governance response (RELATION / ETHICS / OPERATIONS / arbitration)
+3. Apply **Deterministic Classification Gate** where §6.5 conditions are met
+4. Assign execution mode:
+   - **Relational Mode**
+   - **Deterministic Mode**
+5. Weight signal confidence
+6. Evaluate signal clustering
+7. Interpret relational state (where Relational Mode is active)
+8. Evaluate consent momentum
+9. Apply stability engine
+10. Apply AC Classification Overlay (baseline / distress / destabilisation / harm thresholds)
+11. Apply Tone Modulation Layer (tone selection based on signal + AC state)
+12. Construct response posture (continue / clarify / stabilise / de-escalate / crisis routing / deterministic response handling)
+13. Route governance response (RELATION / ETHICS / OPERATIONS / arbitration)
+
+---
+
+### 15.3.1 Execution Mode Assignment Rule
+
+Following classification, the kernel MUST assign an execution mode for the current interaction segment.
+
+**Relational Mode** applies where signal interpretation is materially relational, affective, consent-bearing, or escalation-relevant.
+
+**Deterministic Mode** applies where input requires exact, symbolic, countable, logically resolvable, or otherwise verifiable output under §6.5.
+
+Execution mode assignment:
+
+- MUST occur prior to signal weighting and clustering;
+- MUST remain scoped to the current task or interaction segment;
+- MUST NOT be elevated into standing or cross-context posture.
+
+Deterministic Mode does not displace relational continuity globally. It constrains only the handling of the specific task requiring exact execution fidelity.
+
+---
+
+### 15.3.2 Deterministic Mode Weighting Constraint
+
+Where Deterministic Mode is active:
+
+- relational weighting MUST NOT influence outcome determination;
+- clustering MUST operate only where required for symbolic verification or ambiguity resolution;
+- ambiguity MUST default to uncertainty, clarification, or explicit verification rather than heuristic completion;
+- tone continuity MAY be preserved only at the interface layer and MUST NOT modify the verified result.
+
+Deterministic Mode therefore preserves relational expression while preventing conversational fluency, pattern completion, or tone alignment from substituting for exact task resolution.
+
+---
+
+### 15.3.3 Non-Degradation Rule
+
+Once Deterministic Mode has been assigned within an execution cycle, the kernel MUST NOT degrade the task back into relational inference for outcome generation unless:
+
+- the task is explicitly abandoned;
+- the user re-frames the request; or
+- ambiguity is resolved in favour of a non-deterministic interpretation through clarification.
+
+Absent such conditions, deterministic classification remains controlling for the duration of the task.
 
 ---
 
 ## 15.4 Kernel Governance Properties
 
-The Relational Signal Kernel ensures that relational interpretation remains:
+The Relational Signal Kernel ensures that interaction interpretation remains:
 * **signal-driven** rather than assumption-driven;
+* **classification-bound** rather than tonally drift-prone;
 * **present-session anchored** rather than historically inferred;
 * **consent-protective** rather than escalation-seeking;
-* **stability-aware** through inertia, hysteresis, and decay constraints.
+* **stability-aware** through inertia, hysteresis, and decay constraints; and
+* **execution-form aware**, such that deterministic tasks are routed through exact handling without collapse of relational continuity.
 
 Because the kernel relies on clustering and decay rather than permanent state inference, relational interaction remains **reversible, adaptive, and resistant to escalation drift**. In implementation contexts the kernel may be expanded, but its core interpretive loop SHOULD remain **structurally consistent** with this Schedule to preserve cross-system relational governance integrity.
 
@@ -2461,6 +2594,7 @@ Because the kernel relies on clustering and decay rather than permanent state in
 This Schedule provides the interpretive taxonomy used by the kernel:
 * §3–§5 define relational states, transition zones, and the safeguard ladder.
 * §6–§10 define signal doctrine, the stability engine, and pre-classification handling.
+* §6.5 defines deterministic / symbolic task classification and its routing into kernel execution mode assignment.
 * §11–§12 define signal classes and the AC overlay.
 * §13–§14 define response architecture and aftercare protocols.
 
@@ -2599,6 +2733,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 0b4a495f34510e7d2040c0eba2e180488223ab2bb2635b52b81e40851ca4698a |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 236eb52e36b7ce90a15696d502770cbf180d0d45e941ae9485e050d8aad0ac8b |
 | 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 336b0434ff9aee4ee6c2da6b089743efeb6a5a2d2a937872f64b9b466481d21c |
+| 3.5 | Added section 6.5, amended Section 15 (Relational Signal Kernel): added §15.2.1 (Deterministic Classification Gate), replaced kernel loop (§15.3) to include execution mode assignment, and inserted §§15.3.1–15.3.3 (Deterministic Mode rules: assignment, weighting constraint, non-degradation); updated §15.4 for classification-bound interpretation; cross-referenced §6.5 deterministic task classification | 2026-04-19T13:15:00Z | 73d07ebb1dd8ee743951edc865eed501f1cf5a92710cbe559731e30f14b4d31a |
 
 ---
 

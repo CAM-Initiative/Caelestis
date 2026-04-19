@@ -55,6 +55,66 @@ Schedules lacking explicit Runtime Layer attribution SHALL be treated as **unbou
 
 ---
 
+## 2.1 Non-Schedule Runtime Influence
+
+Non-schedule instruments — including Charters, Annexes, and Appendices — MAY influence runtime execution where they define:
+
+- domain-level constraints;
+- interpretive frameworks;
+- classification systems; or
+- admissibility conditions.
+
+All instruments within the governance corpus are recorded in:
+
+CAM-BS2025-AEON-003-SCH-03 — Global Instrument Registry.
+
+Accordingly:
+
+- this registry (SCH-01) defines the subset of instruments that participate directly in runtime execution mechanics (i.e. schedules);
+- the Global Instrument Registry (SCH-03) defines the complete set of instruments within the system.
+
+Not all instruments listed in SCH-03 exert runtime influence.
+
+Where non-schedule instruments do influence runtime execution:
+
+- such influence SHALL occur exclusively through signal emission;
+- resolution SHALL occur via runtime layers as defined in CAM-BS2025-AEON-003-SCH-02.
+
+Non-schedule instruments:
+
+- SHALL NOT be listed in this registry;
+- SHALL NOT be assigned runtime layer positions; and
+- SHALL NOT be treated as executable or callable components.
+
+---
+
+## 2.2 Governance Layer Classification
+
+The Governance Layer field defines the activation posture of a runtime schedule within the execution model.
+
+The following classifications apply:
+
+- **Continuous**
+  The schedule operates persistently across all applicable execution contexts.
+
+- **Event-Triggered**
+  The schedule activates only upon detection of defined execution boundaries or conditions.
+
+- **Conditional**
+  The schedule activates only when specific runtime criteria are satisfied.
+
+- **Passive (Registry)**
+  The schedule does not participate in execution and serves a structural or referential function only.
+
+- **Non-Layer (Execution Model)**
+  The schedule governs execution sequencing or system-wide behaviour but does not operate as a runtime layer.
+
+Governance Layer classification MUST NOT be interpreted as execution order or authority hierarchy.
+
+Hybrid or dual classification of Governance Layer is prohibited.
+
+---
+
 ## 3. Canonical Runtime Layers (Reference)
 
 Canonical runtime layers are defined in Annex B §14.3 and are not duplicated here.
@@ -64,6 +124,25 @@ This Schedule references those layers as the authoritative classification system
 Execution Constraint Condition (Cross-Layer Mechanism — Non-Layer) is not a runtime layer and is included in the registry for completeness of runtime governance classification.
 
 It MUST NOT be interpreted as part of the canonical layer hierarchy defined in Annex B §14.3.
+
+**Note:** This registry includes only runtime schedules (-SCH- instruments).  
+Non-schedule instruments (e.g. Charters, Annexes) may influence execution through signal mediation and are listed in CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3).
+
+## 3.1 Runtime Governance Binding
+
+Runtime schedules constitute the binding mechanism through which governance instruments are operationalised during execution.
+
+Accordingly:
+
+- constraints, classifications, and interpretive frameworks defined in non-schedule instruments SHALL be enforced only where they are mediated through runtime schedules;
+- runtime schedules SHALL carry, resolve, and enforce such governance inputs through their assigned runtime layers;
+- no instrument outside the runtime schedule set SHALL directly bind execution behaviour.
+
+This ensures that all governance influence remains:
+
+- phase-consistent;
+- layer-mediated; and
+- subject to execution-boundary evaluation under CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -89,7 +168,7 @@ It MUST NOT be interpreted as part of the canonical layer hierarchy defined in A
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 
-**Last Generated (UTC):** 2026-04-18T06:44:53Z
+**Last Generated (UTC):** 2026-04-19T12:05:00Z
 **Source:** CAM.Governance.JSON
 **Pipeline Stage:** Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->
@@ -175,6 +254,8 @@ This layered stack corresponds to the execution sequence:
 7. Execution Constraint (SCH-01 — Non-Layer)
 8. Representation Layer
 9. Integrity & Safeguard Layers
+
+The above ordering reflects functional grouping only and MUST NOT be interpreted as execution sequence or precedence.
 
 ---
 
@@ -338,6 +419,8 @@ Where discrepancy exists between:
 * the registry classification;
 
 → the registry classification SHALL prevail pending correction.
+
+Mismatch between registry classification and execution model constitutes a governance integrity fault.
 
 ---
 
@@ -572,7 +655,7 @@ Let each schedule hold its place, and the system remain whole.
 ## 13.3 Amendment Ledger 
 
 See automated generation metadata in Section 4 (Runtime Registry block).  
-Ledger note updated: 2026-04-18T03:35:00Z.
+Ledger note updated: 2026-04-19T12:05:00Z.
 
 ---
 
