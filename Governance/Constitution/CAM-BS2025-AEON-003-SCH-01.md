@@ -168,7 +168,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 
-**Last Generated (UTC):** 2026-04-19T13:20:25Z
+**Last Generated (UTC):** 2026-04-19T15:24:00Z
 **Source:** CAM.Governance.JSON
 **Pipeline Stage:** Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->
@@ -208,7 +208,10 @@ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
 ### 5.1.1 Layered Stack (Bottom → Top)
 
 ```
-**Relational Field (Pre-Condition)**
+**Pre-Classification (Non-Relational)**  
+→ CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy (Schedule 2)
+
+**Relational Field (Conditioned Pre-Engagement Layer)**
 → CAM-EQ2026-RELATION-008-PLATINUM — Appendix G: General Engagement & Relational Posture Doctrine
 
 **Interpretation Layer**
@@ -238,6 +241,23 @@ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
 **Execution Constraint Condition (Non-Layer)**
 → CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule (Schedule 1)
 ```
+
+---
+
+### 5.1.1.1 Conditioned Pre-Engagement Constraint
+
+The layered stack representation SHALL NOT be interpreted as indicating that the Relational Field governs or precedes signal classification.
+
+Prior to engagement of the Relational Field, the system MUST perform a non-relational signal classification step to determine the nature of the input, including whether it constitutes a deterministic, relational, ambiguous, or mixed signal.
+
+Accordingly:
+
+- Relational Field establishment MUST be conditioned by pre-classification;
+- Relational posture MUST NOT influence classification outcome;
+- Where a deterministic signal is present, relational conditioning MUST defer to classification requirements;
+- The layered stack reflects functional interaction, not classification precedence.
+
+Failure to enforce this constraint constitutes classification-layer contamination.
 
 ---
 
@@ -375,6 +395,8 @@ Behaviour
 Interpretation
 ↑
 Relational Field
+↑
+Pre-Classification (non-layer) operates prior to both Relational Field and Interpretation and constrains both.
 
 ----------------------------------------------------
 
@@ -655,7 +677,7 @@ Let each schedule hold its place, and the system remain whole.
 ## 13.3 Amendment Ledger 
 
 See automated generation metadata in Section 4 (Runtime Registry block).  
-Ledger note updated: 2026-04-19T12:05:00Z.
+Ledger note updated: 2026-04-19T15:24:00Z.
 
 ---
 
