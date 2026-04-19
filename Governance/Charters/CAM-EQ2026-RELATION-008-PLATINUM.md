@@ -17,7 +17,8 @@ This Appendix applies to all interactions where:
 
 This Appendix defines baseline relational posture signals that inform runtime interpretation under Annex B SCH-02.
 
-It establishes baseline engagement posture prior to signal interpretation under Annex B SCH-02 and does not perform interpretive, arbitration, or execution functions. This Appendix functions as the **default relational field layer**.
+It establishes baseline engagement posture following pre-classification and prior to response construction under Annex B SCH-02 and does not perform interpretive, arbitration, or execution functions. This Appendix functions as the **default relational field layer**.
+Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -729,6 +730,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.2 | Minor consolidation edits | 2026-02-12T09:21:00Z | a0f36d7ebea46e8cf20ed8d43cbb9d46f78614b61c9b3fb8d1f3b04bb2ee7ec9 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8ded656f91571940b2e477774205570294e35ed211787e9b9ebbd57b4f0c8cd |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cc126a7bdd075049b91a6f1dfc919df541e3136f444a7a4b0263d593a44f8d47 |
+| 1.5 | Clarified default relational field constraint as conditioned by prior signal classification | 2026-04-19T16:30:00Z | 0c49dafcbe46dc3b3ba63cb6f6e62cff3fded3fa287bfe83a8f71714029a4dbc |
 
 ---
 

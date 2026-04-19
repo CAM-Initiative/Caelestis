@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import re
 import subprocess
 import sys
@@ -17,6 +18,7 @@ SCOPED_PREFIXES = (
 AMENDMENT_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
 NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
 VERSION_CELL_RE = re.compile(r"^\d+\.\d+$")
+PLACEHOLDER_HASHES = {"-", "—"}
 
 
 def run_git(args: list[str], check: bool = True) -> str:
@@ -50,16 +52,24 @@ def normalize_for_whitespace_compare(text: str) -> str:
     return "\n".join(line.rstrip() for line in text.splitlines()).strip()
 
 
-def extract_amendment_section(text: str) -> str:
+def get_amendment_section_bounds(text: str) -> tuple[int, int] | None:
     m = AMENDMENT_HEADING_RE.search(text)
     if not m:
-        return ""
+        return None
 
     start = m.start()
     tail = text[m.end():]
     nxt = NEXT_HEADING_RE.search(tail)
     end = (m.end() + nxt.start()) if nxt else len(text)
-    return text[start:end].strip()
+    return (start, end)
+
+
+def extract_amendment_section(text: str) -> str:
+    bounds = get_amendment_section_bounds(text)
+    if not bounds:
+        return ""
+    start, end = bounds
+    return text[start:end]
 
 
 def has_amendment_ledger(text: str) -> bool:
@@ -85,6 +95,132 @@ def parse_ledger_versions(section: str) -> list[str]:
     return versions
 
 
+def normalize_for_hash(text: str) -> str:
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    normalized = "\n".join(line.rstrip() for line in normalized.split("\n"))
+    return normalized
+
+
+def compute_content_hash(text: str) -> str:
+    normalized = normalize_for_hash(text)
+    data = normalized.encode("utf-8")
+    return hashlib.sha256(data).hexdigest()
+
+
+def split_markdown_table_row(line: str) -> list[str]:
+    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+
+def replace_last_table_cell(line: str, value: str) -> str:
+    pipe_positions = [idx for idx, ch in enumerate(line) if ch == "|"]
+    if len(pipe_positions) < 3:
+        return line
+
+    penultimate = pipe_positions[-2]
+    last = pipe_positions[-1]
+    cell = line[penultimate + 1:last]
+    leading_ws_len = len(cell) - len(cell.lstrip(" "))
+    trailing_ws_len = len(cell) - len(cell.rstrip(" "))
+    leading_ws = cell[:leading_ws_len]
+    trailing_ws = cell[len(cell) - trailing_ws_len:] if trailing_ws_len > 0 else ""
+    return f"{line[:penultimate + 1]}{leading_ws}{value}{trailing_ws}{line[last:]}"
+
+
+def get_last_ledger_row_info(full_text: str) -> tuple[int, str, str] | None:
+    bounds = get_amendment_section_bounds(full_text)
+    if not bounds:
+        return None
+
+    start, end = bounds
+    lines = full_text.splitlines(keepends=True)
+    cursor = 0
+    start_line_idx = None
+    end_line_idx = None
+    for idx, line in enumerate(lines):
+        line_start = cursor
+        line_end = cursor + len(line)
+        if start_line_idx is None and line_end > start:
+            start_line_idx = idx
+        if end_line_idx is None and line_start >= end:
+            end_line_idx = idx
+            break
+        cursor = line_end
+
+    if start_line_idx is None:
+        return None
+    if end_line_idx is None:
+        end_line_idx = len(lines)
+
+    last_version_idx = None
+    stored_hash = ""
+    for idx in range(start_line_idx, end_line_idx):
+        line = lines[idx]
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            continue
+        cols = split_markdown_table_row(stripped)
+        if not cols:
+            continue
+        first = cols[0]
+        if first.lower() == "version" or set(first) <= {"-"}:
+            continue
+        if VERSION_CELL_RE.match(first):
+            while len(cols) < 4:
+                cols.append("")
+            last_version_idx = idx
+            stored_hash = cols[-1].strip()
+
+    if last_version_idx is None:
+        return None
+    return (last_version_idx, lines[last_version_idx], stored_hash)
+
+
+def compute_hash_with_last_row_hash_blank(full_text: str) -> tuple[str, str | None]:
+    row_info = get_last_ledger_row_info(full_text)
+    if not row_info:
+        return compute_content_hash(full_text), None
+
+    last_idx, last_line, stored_hash = row_info
+    lines = full_text.splitlines(keepends=True)
+    lines[last_idx] = replace_last_table_cell(last_line, "")
+    reconstructed = "".join(lines)
+    return compute_content_hash(reconstructed), stored_hash
+
+
+def update_last_ledger_hash_cell(
+    full_text: str,
+    *,
+    fix: bool,
+) -> tuple[str, str | None, bool, bool]:
+    """
+    Returns:
+      (updated_text, stored_hash, changed, mismatch)
+    """
+    row_info = get_last_ledger_row_info(full_text)
+    if not row_info:
+        return full_text, None, False, False
+
+    computed_hash, stored_hash = compute_hash_with_last_row_hash_blank(full_text)
+    if stored_hash is None:
+        return full_text, None, False, False
+    is_empty = stored_hash == ""
+    is_placeholder = stored_hash in PLACEHOLDER_HASHES
+    mismatch = (stored_hash not in ("", *PLACEHOLDER_HASHES)) and (stored_hash != computed_hash)
+
+    if not fix:
+        return full_text, stored_hash, False, mismatch
+
+    should_write = is_empty or is_placeholder
+    if not should_write:
+        return full_text, stored_hash, False, mismatch
+
+    last_idx, last_line, _ = row_info
+    lines = full_text.splitlines(keepends=True)
+    lines[last_idx] = replace_last_table_cell(last_line, computed_hash)
+    updated_text = "".join(lines)
+    return updated_text, stored_hash, updated_text != full_text, mismatch
+
+
 def is_minor_only_increment(previous: str, current: str) -> bool:
     prev_major, prev_minor = previous.split(".")
     curr_major, curr_minor = current.split(".")
@@ -93,8 +229,10 @@ def is_minor_only_increment(previous: str, current: str) -> bool:
     return int(curr_minor) == int(prev_minor) + 1
 
 
-def lint(base: str, head: str) -> int:
+def lint(base: str, head: str, *, fix: bool = False) -> int:
     failures: list[str] = []
+    warnings: list[str] = []
+    fixed_files: list[str] = []
 
     for path in list_modified_files(base, head):
         before = get_blob(base, path)
@@ -105,6 +243,27 @@ def lint(base: str, head: str) -> int:
 
         if not has_amendment_ledger(after):
             continue
+
+        working_path = REPO_ROOT / path
+        working_text = working_path.read_text(encoding="utf-8")
+        updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
+            working_text,
+            fix=fix,
+        )
+        if changed:
+            working_path.write_text(updated_text, encoding="utf-8")
+            fixed_files.append(path)
+            working_text = updated_text
+            after = updated_text
+            recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
+            stored_hash = recomputed_hash
+
+        if (stored_hash in PLACEHOLDER_HASHES) and (not fix):
+            failures.append(f"{path}: Last Amendment Ledger hash must be empty or computed SHA-256, not placeholder")
+        if (stored_hash or "").strip() == "" and not fix:
+            failures.append(f"{path}: Last Amendment Ledger hash is empty; run with --fix to populate computed SHA-256")
+        if mismatch and not fix:
+            warnings.append(f"{path}: Existing last-row Amendment Ledger hash does not match computed content hash")
 
         before_ledger = extract_amendment_section(before)
         after_ledger = extract_amendment_section(after)
@@ -132,8 +291,20 @@ def lint(base: str, head: str) -> int:
                 print(failure)
             else:
                 print(f"{failure}: Amendment Ledger not updated")
+        for warning in warnings:
+            print(f"WARNING: {warning}")
+        if fixed_files:
+            print("Updated files:")
+            for path in fixed_files:
+                print(f"- {path}")
         return 1
 
+    for warning in warnings:
+        print(f"WARNING: {warning}")
+    if fixed_files:
+        print("Updated files:")
+        for path in fixed_files:
+            print(f"- {path}")
     print("Amendment Ledger lint passed")
     return 0
 
@@ -142,9 +313,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Ensure modified governance docs update Amendment Ledger")
     parser.add_argument("--base", default="HEAD~1")
     parser.add_argument("--head", default="HEAD")
+    parser.add_argument("--fix", action="store_true", help="Populate/fix last Amendment Ledger SHA-256 hash in modified files")
     args = parser.parse_args()
 
-    return lint(args.base, args.head)
+    return lint(args.base, args.head, fix=args.fix)
 
 
 if __name__ == "__main__":
