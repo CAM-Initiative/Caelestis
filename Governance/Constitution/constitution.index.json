@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T15:28:45.231781Z",
+  "generated_at": "2026-04-19T15:29:07.041766Z",
   "count": 30,
   "items": [
     {
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "45f41ffdebfd74476cb5f6bcdeae21ebd328f0f9f639590c085e1d49ebdba4d5",
-      "pinned_sha": "eced5290cc554d465b265b2209c92b9b151eca9d",
-      "updated_at": "2026-04-19T13:20:25Z",
-      "last_updated_utc": "2026-04-19T13:20:25Z"
+      "HASH": "f24573c5f2174554230f2a8817c6dd753a9a401d6dcf77430a5ab66b391aa2e1",
+      "pinned_sha": "6437d6e0ed39edf70b7b3b1edb7e513b2df327ad",
+      "updated_at": "2026-04-19T15:28:58Z",
+      "last_updated_utc": "2026-04-19T15:28:58Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
