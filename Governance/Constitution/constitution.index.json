@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T07:48:13.631239Z",
+  "generated_at": "2026-04-19T13:20:23.517501Z",
   "count": 30,
   "items": [
     {
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "30f7d9954aac0eddcfa51544d094cdddc62b14d55e564e8e2fb755797d8bdde6",
-      "pinned_sha": "ba5bc3ff14d6a3366b89fe9fe5663904b3969382",
-      "updated_at": "2026-04-18T06:44:53Z",
-      "last_updated_utc": "2026-04-18T06:44:53Z"
+      "HASH": "41f5d26348c1e54f55e4b76e90061b7a6ad8d7466bea4a4d02fa890bb8b0faf1",
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -136,11 +136,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "This Schedule defines the temporal sequencing of runtime execution.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.11",
-      "HASH": "e0973040c9c647eaaba6ffecf80af10a40f93c40d2fef6599852cfc8d89937a4",
-      "pinned_sha": "f694459c442213c28de67fd2d91dbf74ef099606",
-      "updated_at": "2026-04-18T07:48:04Z",
-      "last_updated_utc": "2026-04-18T07:48:04Z"
+      "version": "1.12",
+      "HASH": "9b523c3fcb343041da17f29828f15a9e42070f2f07dd2c402ce87061fb4171dc",
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -336,11 +336,11 @@
       "title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "3.4",
-      "HASH": "4a35947c9e30365888221b49890aecd9b93f5dfbaa67252c118ae63a2605a79a",
-      "pinned_sha": "a7ef8a22f88542f2db6f12f8239f39beb7a62997",
-      "updated_at": "2026-04-18T06:44:16Z",
-      "last_updated_utc": "2026-04-18T06:44:16Z"
+      "version": "3.5",
+      "HASH": "efd4e795260d090b43afa95152b9000a788a002218b4e74303aa7e92e9ad5498",
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -436,11 +436,11 @@
       "title": "Annex G: Human Creative & Cognitive Contribution",
       "summary": "This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture.",
       "status": "Unknown",
-      "version": "1.2",
-      "HASH": "fcd46fae8afa5b1162fcc8834fe5d18e31a6cbdb751e7b64359ed2044901d4b0",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z"
+      "version": "2.0",
+      "HASH": "1c16896df99cd83f27da553dfd26451e88d28978674ea59a85a798a842a83ed2",
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-01",
@@ -456,11 +456,11 @@
       "title": "Annex G: AI Utility Access & Generative Resource Model (Schedule 1)",
       "summary": "This Schedule operationalises the interaction conditions under which **recognised human creative and cognitive contribution (Annex G)** interfaces with system-mediated resource access.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.3",
-      "HASH": "054cd9657ec064e8589d14e1317c17ba8d5a451c70001b8b9d8b31021e5aa151",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "version": "1.4",
+      "HASH": "ee82575dca32066b527e26f5f47c16c8e7bf9edae01799d0e279f4ff4f4e7976",
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
     },
     {
       "id": "CAM-BS2026-AEON-009",
@@ -596,11 +596,11 @@
       "title": "Annex L: Capability Representation & Execution-State Integrity (Schedule 1)",
       "summary": "Explicit tool invocation alone does not constitute sufficient instruction for execution.",
       "status": "Active — Immediate Effect",
-      "version": "1.7",
-      "HASH": "dd2118b70b4f038c00a3824a9dd94968d960e6282f1ad69eeb6e711e234b753c",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "version": "1.8",
+      "HASH": "42bfe4d969d529aaf23712d0ee4f4c5cb289e01f142e22c3e8697ef23960cb8e",
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
     }
   ]
 }
