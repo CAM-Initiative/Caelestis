@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T13:20:23.517501Z",
+  "generated_at": "2026-04-19T15:28:06.201141Z",
   "count": 30,
   "items": [
     {
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "41f5d26348c1e54f55e4b76e90061b7a6ad8d7466bea4a4d02fa890bb8b0faf1",
-      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
-      "updated_at": "2026-04-19T13:20:05Z",
-      "last_updated_utc": "2026-04-19T13:20:05Z"
+      "HASH": "45f41ffdebfd74476cb5f6bcdeae21ebd328f0f9f639590c085e1d49ebdba4d5",
+      "pinned_sha": "eced5290cc554d465b265b2209c92b9b151eca9d",
+      "updated_at": "2026-04-19T13:20:25Z",
+      "last_updated_utc": "2026-04-19T13:20:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -157,10 +157,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "255640ee52a34ad43fe40c69c9973605eb17de0688846c7569c448690214b000",
-      "pinned_sha": "ba5bc3ff14d6a3366b89fe9fe5663904b3969382",
-      "updated_at": "2026-04-18T06:44:53Z",
-      "last_updated_utc": "2026-04-18T06:44:53Z"
+      "HASH": "ef5195c6a2125351ac6fc59c287ebdfaf4d2ba04c4006938dd661bad0a3e1230",
+      "pinned_sha": "eced5290cc554d465b265b2209c92b9b151eca9d",
+      "updated_at": "2026-04-19T13:20:25Z",
+      "last_updated_utc": "2026-04-19T13:20:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -356,11 +356,11 @@
       "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
       "summary": "Pre-interaction arbitration MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "2.9",
-      "HASH": "fc8cf8da5bf25adacbd66830fe4634d927a55cd98aef40b31482082e959e437b",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "version": "2.10",
+      "HASH": "260d6d2e2e33dc37b97f5f876e4177f66791b8d71dde59024623843a71b0aa4b",
+      "pinned_sha": "2ec13b52182a4e30c238e7aec3c70ef692d14e81",
+      "updated_at": "2026-04-19T15:27:57Z",
+      "last_updated_utc": "2026-04-19T15:27:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
