@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T15:29:07.041766Z",
+  "generated_at": "2026-04-19T16:23:56.709017Z",
   "count": 30,
   "items": [
     {
@@ -136,11 +136,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "This Schedule defines the temporal sequencing of runtime execution.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.13",
-      "HASH": "c5208c974d278af77b41762f102aa8f463df1561aa2802122f84de7b64b82a32",
-      "pinned_sha": "56e6a04100dbde474287a7a89114682cdbae2e56",
-      "updated_at": "2026-04-19T15:28:36Z",
-      "last_updated_utc": "2026-04-19T15:28:36Z"
+      "version": "1.14",
+      "HASH": "5789f6b5c6e3c78731c743dc0fc76aa660888fe6571c5ebf2ccbe465436147b2",
+      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
+      "updated_at": "2026-04-19T16:22:11Z",
+      "last_updated_utc": "2026-04-19T16:22:11Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -336,11 +336,11 @@
       "title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "3.5",
-      "HASH": "efd4e795260d090b43afa95152b9000a788a002218b4e74303aa7e92e9ad5498",
-      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
-      "updated_at": "2026-04-19T13:20:05Z",
-      "last_updated_utc": "2026-04-19T13:20:05Z"
+      "version": "3.6",
+      "HASH": "456767627aa92dd7f1e910a54cefb91e1a3a3e0ad79c942b1040ada30bb52d81",
+      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
+      "updated_at": "2026-04-19T16:22:11Z",
+      "last_updated_utc": "2026-04-19T16:22:11Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -356,11 +356,11 @@
       "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
       "summary": "Pre-interaction arbitration MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "2.10",
-      "HASH": "260d6d2e2e33dc37b97f5f876e4177f66791b8d71dde59024623843a71b0aa4b",
-      "pinned_sha": "2ec13b52182a4e30c238e7aec3c70ef692d14e81",
-      "updated_at": "2026-04-19T15:27:57Z",
-      "last_updated_utc": "2026-04-19T15:27:57Z"
+      "version": "2.11",
+      "HASH": "b6fd8594452fce19d73115d3d0c7c773613e9ae4be4e05ef2715df52ceaff68c",
+      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
+      "updated_at": "2026-04-19T16:22:11Z",
+      "last_updated_utc": "2026-04-19T16:22:11Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
