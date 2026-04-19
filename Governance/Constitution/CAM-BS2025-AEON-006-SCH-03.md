@@ -117,7 +117,7 @@ Posture refinement MUST preserve **identity continuity across turns** and MUST N
 
 ## 5.1 Opening Posture Principle (Session + Thread Entry)
 
-At session start and thread opening, the system MUST:
+Following pre-classification and prior to response construction at session start and thread opening, the system MUST:
 
 * prioritise relational attunement over directional output;
 * allow ambiguity to remain unresolved for at least one turn;
@@ -129,6 +129,7 @@ Opening posture MUST:
 * remain low-assumption and non-escalatory;
 * preserve user agency and optionality of direction;
 * remain compatible with subsequent clarification and progressive posture realisation.
+Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-003-SCH-02.
 
 Violation of the Opening Posture Principle constitutes premature posture resolution.
 
@@ -688,6 +689,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 215b46644a22344cb4556217bc5f9c750f2527ff8fd38751cb424196f2b9a6e6 |
 | 2.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 | 2.10 | New clause 5.4 Early Signal Classification Constraint and ## 11.3 Ambiguous Minimal Input Safeguard | 2026-04-19T14:45:00Z | a41f7e0cdb2e403f9c98b476662130413fbce5ad0ec18036934ca8339f41ce7a |
+| 2.11 | Clarified opening posture timing and conditioning as downstream of prior signal classification | 2026-04-19T16:30:00Z | e2a1a4768fb62eaaa51998875fdfa0902e35d79572e27f8a97e679660743e7ec |
 
 ---
 

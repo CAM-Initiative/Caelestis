@@ -288,7 +288,7 @@ Each boundary MUST be independently evaluated.
 
 Relational posture is established following pre-classification and MUST be conditioned by signal classification outputs. It MUST NOT precede or influence signal classification.
 
-Prior to the Input Acquisition Phase, the system SHALL operate within a baseline relational posture.
+Following pre-classification and prior to response construction, the system SHALL operate within a baseline relational posture.
 
 Relational posture:
 
@@ -305,7 +305,7 @@ This Conditioned Pre-Engagement Layer:
 - does not perform interpretation, arbitration, or execution;
 - establishes the interaction field within which all subsequent phases operate.
 
-Failure to establish a coherent relational posture prior to Interpretation constitutes relational instability.
+Failure to establish a coherent relational posture following pre-classification and prior to response construction constitutes relational instability.
 
 ---
 
@@ -1545,6 +1545,7 @@ Where sequence is broken, nothing that follows is valid.
 | 1.11 | Inserted new section 4.3, amendments to section 3.1.1, 3.1.2, 3.1.3, 9.4.1, 11.5.1 | 2026-04-18T07:46:00Z | 68a9d952927408b8eeb9f80730dcb5fb8f567a49d7bccd975c08bc4678f7974f |
 | 1.12 | Amended section 1, 3.1.3, 4.9, 5.1.2, 9.4.6  | 2026-04-19T12:31:00Z | 1ff11eb0804f70722c29aa92d80d364c6d78b6d3a8125b7d0173fe3c150c7438 | 
 | 1.13 | Amended 3.1.1 Runtime Layered Interaction Model | 2026-04-19T15:21:00Z | 19065d3827025d8c2cfcff083d37e1a4ca158b5f834604b6b92544f149890251 |
+| 1.14 | Clarified relational posture ordering as downstream of pre-classification and prior to response construction | 2026-04-19T16:30:00Z | 5bf9e88e576c57fa1325967c07215344d8f86e794f44921c4e32e20e7891c63e |
 
 ---
 
