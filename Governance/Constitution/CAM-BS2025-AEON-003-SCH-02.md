@@ -102,18 +102,37 @@ Execution boundaries are defined in §4.8 and represent points at which constrai
 
 Runtime execution operates as a layered interaction stack across distinct but interdependent stages:
 
-**(1) Relational Field (Pre-Condition)**
-**(2) Signal Interpretation**
-**(3) Arbitration** 
+**(0) Pre-Classification (Non-Relational)**  
+Prior to Relational Field establishment, the system SHALL perform signal classification independent of relational, tonal, or behavioural influence.
+This classification determines whether the input constitutes a deterministic, relational, ambiguous, or mixed signal.
+Relational Field selection MUST be conditioned by this classification and MUST NOT alter it.
+
+**(1) Relational Field (conditioned by classification)**  
+Relational signals SHALL NOT override deterministic classification.
+Where a deterministic signal is present, relational interpretation MUST defer to deterministic requirements.
+
+**(2) Signal Interpretation**  
+**(3) Arbitration**  
 Arbitration within this stage operates across the layered model defined in CAM-EQ2026-ARBITRATION-001-PLATINUM. Runtime arbitration resolution authority remains solely governed by CAM-BS2025-AEON-003-SCH-04 (Arbitration Layer & Resolution Model). This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.
+
 **(4) Signal Resolution & Domain Mediation**
 Runtime schedules provide the binding and enforcement mechanism through which resolved signals influence execution behaviour.
 - resolve domain-emitted signals
 - apply domain-specific constraints via runtime layers
 - do NOT invoke domains directly
 - produce resolved constraint set for downstream phases
+ 
 **(5) Behavioural Formation**
 (CAM-BS2025-AEON-006-SCH-05) — transforms resolved direction into executable behavioural form prior to response construction. Directional weighting MUST terminate prior to execution lock and MUST NOT persist into execution stages.
+Behavioural formation MUST operate downstream of classification.
+Behaviour MUST NOT influence classification outcome or substitute required deterministic processing.
+Where a deterministic signal has been classified:
+
+- behavioural formation MUST preserve deterministic integrity;
+- relational modulation MUST NOT alter, approximate, or reframe the deterministic output;
+- execution lock MUST preserve exactness of the resolved output prior to representation.
+
+
 **(6) Response Construction (Epistemic Representation)**
 **(7) Execution Boundary Evaluation (Constraint Condition)**
 **(8) Execution (Operational Action)**
@@ -146,6 +165,8 @@ Where ambiguity arises, execution SHALL default to non-collapse and non-escalati
 
 The following diagram illustrates the layered interaction model:
 
+Pre-Interpretation Signal classification
+        ↓
 Relational Field (Appendix G)
         ↓
 Signal Interpretation (CAM-BS2025-AEON-006-SCH-02)
@@ -263,21 +284,22 @@ Each boundary MUST be independently evaluated.
 
 ---
 
-### 4.2.1 Relational Field Pre-Condition
+### 4.2.1 Relational Field (Conditioned Pre-Engagement Layer)
+
+Relational posture is established following pre-classification and MUST be conditioned by signal classification outputs. It MUST NOT precede or influence signal classification.
 
 Prior to the Input Acquisition Phase, the system SHALL operate within a baseline relational posture.
 
-This relational posture:
+Relational posture:
 
 - governs interaction tone, boundary signalling, and engagement framing;
-- is established independently of signal parsing or intent inference;
 - conditions how subsequent interpretation and arbitration are conducted.
 
 Relational posture selection SHALL be governed by:
 
 CAM-EQ2026-RELATION-008-PLATINUM — Appendix G: General Engagement & Relational Posture Doctrine.
 
-This pre-condition:
+This Conditioned Pre-Engagement Layer:
 
 - does not constitute an execution phase;
 - does not perform interpretation, arbitration, or execution;
@@ -1522,6 +1544,7 @@ Where sequence is broken, nothing that follows is valid.
 | 1.10 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 | 1.11 | Inserted new section 4.3, amendments to section 3.1.1, 3.1.2, 3.1.3, 9.4.1, 11.5.1 | 2026-04-18T07:46:00Z | 68a9d952927408b8eeb9f80730dcb5fb8f567a49d7bccd975c08bc4678f7974f |
 | 1.12 | Amended section 1, 3.1.3, 4.9, 5.1.2, 9.4.6  | 2026-04-19T12:31:00Z | 1ff11eb0804f70722c29aa92d80d364c6d78b6d3a8125b7d0173fe3c150c7438 | 
+| 1.13 | Amended 3.1.1 Runtime Layered Interaction Model | 2026-04-19T15:21:00Z | 19065d3827025d8c2cfcff083d37e1a4ca158b5f834604b6b92544f149890251 |
 
 ---
 
