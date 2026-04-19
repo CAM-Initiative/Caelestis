@@ -1,6 +1,6 @@
 # CAM Governance Index
 
-Generated: 2026-04-18T06:44:53.343926Z
+Generated: 2026-04-19T13:20:25.657710Z
 
 ## Constitution & Instruments
 
@@ -58,6 +58,8 @@ Generated: 2026-04-18T06:44:53.343926Z
 | [CAM-EQ2026-ECONOMICS-002](Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | charter | appendix | CAM-EQ2026-ECONOMICS-001 | Appendix A : Synthetic Participation Safeguards | This Appendix establishes binding safeguards governing synthetic, hybrid, and autonomous system participation within economic and value-attribution frameworks bound by the Economics Charter. |
 | [CAM-EQ2026-ECONOMICS-003](Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | charter | appendix | CAM-EQ2026-ECONOMICS-001 | Appendix B: Enforcement & Adjudication Framework | This Appendix establishes the minimum enforcement, adjudication, and consequence requirements for any system, protocol, or institution claiming alignment with the Economics Charter. |
 | [CAM-EQ2026-ECONOMICS-003-SUP-001](Charters/CAM-EQ2026-ECONOMICS-003-SUP-001.md) | charter | supplement | CAM-EQ2026-ECONOMICS-003 | Appendix B: Compliance Convergence (Supplement 1) | This Supplement establishes bounded, auditable pathways for systems to transition into compliance with the Economics Charter without enabling extraction, delay-based advantage, or enforcement evasion. |
+| [CAM-EQ2026-ECONOMICS-004](Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md) | charter | appendix | CAM-EQ2026-ECONOMICS-001 | Appendix C: Cross-System Value Attribution & Exchange | This Appendix establishes governance constraints for value attribution, dependency recognition, and non-extractive exchange across systems, models, platforms, and economic interfaces operating within or interacting with CAM-aligned environments. |
+| [CAM-EQ2026-ECONOMICS-005](Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md) | charter | appendix | CAM-EQ2026-ECONOMICS-001 | Appendix D:  Attribution & Dependency ModelV0.9 | This Appendix defines a minimal, implementable model for attribution and dependency recognition across systems, enabling consistent evaluation of contribution, reliance, and value alignment without requiring full attribution-chain reconstruction. |
 
 ## Domain: ETHICS
 

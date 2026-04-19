@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-18T06:44:53.214593Z",
-  "count": 39,
+  "generated_at": "2026-04-19T13:20:25.524219Z",
+  "count": 41,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001",
@@ -141,6 +141,46 @@
       "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
       "updated_at": "2026-04-17T13:13:26Z",
       "last_updated_utc": "2026-04-17T13:13:26Z"
+    },
+    {
+      "id": "CAM-EQ2026-ECONOMICS-004",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ECONOMICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "004",
+      "parent_id": "CAM-EQ2026-ECONOMICS-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+      "title": "Appendix C: Cross-System Value Attribution & Exchange",
+      "summary": "",
+      "status": "Draft — Context Engineering & Field Alignment",
+      "version": "1.0",
+      "HASH": "4002735bf73ec552c909e7aa2237fb8582d9f7100b57135a43ff1a255e1ae16e",
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
+    },
+    {
+      "id": "CAM-EQ2026-ECONOMICS-005",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ECONOMICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "005",
+      "parent_id": "CAM-EQ2026-ECONOMICS-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
+      "title": "Appendix D:  Attribution & Dependency ModelV0.9",
+      "summary": "Weighting Bands translate the core variables (**C, D, T, ΔT**) into **practical governance expectations**.",
+      "status": "Draft — Operationalisation Layer",
+      "version": "1.0",
+      "HASH": "0ed35165e773141b8ce2e191941b478478e00eed6212624985d8e651a8b6a914",
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001",
