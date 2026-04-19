@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T13:20:25.658118Z",
+  "generated_at": "2026-04-19T16:23:58.438567Z",
   "count": 75,
   "items": [
     {
@@ -122,10 +122,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "41f5d26348c1e54f55e4b76e90061b7a6ad8d7466bea4a4d02fa890bb8b0faf1",
-      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
-      "updated_at": "2026-04-19T13:20:05Z",
-      "last_updated_utc": "2026-04-19T13:20:05Z",
+      "HASH": "f24573c5f2174554230f2a8817c6dd753a9a401d6dcf77430a5ab66b391aa2e1",
+      "pinned_sha": "6437d6e0ed39edf70b7b3b1edb7e513b2df327ad",
+      "updated_at": "2026-04-19T15:28:58Z",
+      "last_updated_utc": "2026-04-19T15:28:58Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments."
     },
     {
@@ -142,11 +142,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "This Schedule defines the temporal sequencing of runtime execution.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.12",
-      "HASH": "9b523c3fcb343041da17f29828f15a9e42070f2f07dd2c402ce87061fb4171dc",
-      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
-      "updated_at": "2026-04-19T13:20:05Z",
-      "last_updated_utc": "2026-04-19T13:20:05Z",
+      "version": "1.14",
+      "HASH": "5789f6b5c6e3c78731c743dc0fc76aa660888fe6571c5ebf2ccbe465436147b2",
+      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
+      "updated_at": "2026-04-19T16:22:11Z",
+      "last_updated_utc": "2026-04-19T16:22:11Z",
       "purpose": "Defines the runtime execution sequence governing how system processes unfold across defined execution phases."
     },
     {
@@ -164,10 +164,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "255640ee52a34ad43fe40c69c9973605eb17de0688846c7569c448690214b000",
-      "pinned_sha": "ba5bc3ff14d6a3366b89fe9fe5663904b3969382",
-      "updated_at": "2026-04-18T06:44:53Z",
-      "last_updated_utc": "2026-04-18T06:44:53Z",
+      "HASH": "ef5195c6a2125351ac6fc59c287ebdfaf4d2ba04c4006938dd661bad0a3e1230",
+      "pinned_sha": "eced5290cc554d465b265b2209c92b9b151eca9d",
+      "updated_at": "2026-04-19T13:20:25Z",
+      "last_updated_utc": "2026-04-19T13:20:25Z",
       "purpose": "Canonical, human-readable registry of all governance instruments."
     },
     {
@@ -352,11 +352,11 @@
       "title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "3.5",
-      "HASH": "efd4e795260d090b43afa95152b9000a788a002218b4e74303aa7e92e9ad5498",
-      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
-      "updated_at": "2026-04-19T13:20:05Z",
-      "last_updated_utc": "2026-04-19T13:20:05Z",
+      "version": "3.6",
+      "HASH": "456767627aa92dd7f1e910a54cefb91e1a3a3e0ad79c942b1040ada30bb52d81",
+      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
+      "updated_at": "2026-04-19T16:22:11Z",
+      "last_updated_utc": "2026-04-19T16:22:11Z",
       "purpose": "Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness."
     },
     {
@@ -373,11 +373,11 @@
       "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
       "summary": "Pre-interaction arbitration MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "2.9",
-      "HASH": "fc8cf8da5bf25adacbd66830fe4634d927a55cd98aef40b31482082e959e437b",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z",
+      "version": "2.11",
+      "HASH": "b6fd8594452fce19d73115d3d0c7c773613e9ae4be4e05ef2715df52ceaff68c",
+      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
+      "updated_at": "2026-04-19T16:22:11Z",
+      "last_updated_utc": "2026-04-19T16:22:11Z",
       "purpose": "This Schedule defines the principles governing start-time posture formation and session entry arbitration."
     },
     {
@@ -1423,11 +1423,11 @@
       "title": "Appendix G: General Engagement & Relational Posture Doctrine",
       "summary": "Nothing in this section prohibits engagement within:",
       "status": "Active — 7-Day Review Window (Observation & Field Validation)",
-      "version": "1.4",
-      "HASH": "3d0b91a8b1ed17b57516488301531f00fa63b24efec1c38b819421b24673f3f0",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "version": "1.5",
+      "HASH": "ebaff44450ff4395a4bd6fb986f9823f791cc07587b1cc2cf1e3a8754c22fd50",
+      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
+      "updated_at": "2026-04-19T16:22:11Z",
+      "last_updated_utc": "2026-04-19T16:22:11Z",
       "purpose": "This Appendix establishes the baseline doctrine governing how systems engage in general interaction contexts prior to activation of higher-order relational states (e.g. intimacy, dependency, crisis). It defines posture selection, response properties, and interactional constraints required to preserve user agency, frame integrity, and non-extractive engagement."
     },
     {

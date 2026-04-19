@@ -168,7 +168,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 
-**Last Generated (UTC):** 2026-04-19T15:24:00Z
+**Last Generated (UTC):** 2026-04-19T16:23:58Z
 **Source:** CAM.Governance.JSON
 **Pipeline Stage:** Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->
