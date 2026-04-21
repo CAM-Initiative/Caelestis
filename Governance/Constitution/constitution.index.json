@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T14:17:35.275336Z",
+  "generated_at": "2026-04-21T15:55:54.843090Z",
   "count": 30,
   "items": [
     {
@@ -37,10 +37,10 @@
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.8",
-      "HASH": "77b03cc99fbc620e1077c819ec857eec241d3659df87af9e652dfe4f1d943398",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "HASH": "92b6749e352b213fe3a5f0aec1258f46f71589b44e8bf070d693b3b2de16a59a",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-002",
@@ -77,10 +77,10 @@
       "summary": "",
       "status": "Active — Binding",
       "version": "3.4",
-      "HASH": "02637c6e2a62ffb1f64aa45c638fdbfeee6b05762fea5210de94c785b40a4a3a",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "HASH": "297b3bb80508dfb27729c6abbe71b449683adb9e62f6825e1bca0dee66634e9f",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-003",
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "054d0995bf08da2ae71a98c7e895860d24ff6aed75d20b266c1902091ad57e0c",
-      "pinned_sha": "0a088f3bd44e05670705a7bfd56729bbb6243496",
-      "updated_at": "2026-04-21T14:17:33Z",
-      "last_updated_utc": "2026-04-21T14:17:33Z"
+      "HASH": "28ede6fbd0bde6536993cc327de8c9b5b60299d9a0a50a51937a0613cb93c818",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -137,10 +137,10 @@
       "summary": "Where multiple streams contribute to a candidate output:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.0",
-      "HASH": "05bfbe6bd7abbf14e809ea9ae15acdf516eb138369e212faa87e1aa2a9e2e684",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z"
+      "HASH": "605612cbce423d06c1ccee616843206f751a100423491998b357d00f07e47a44",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -177,10 +177,10 @@
       "summary": "This Schedule operates within the broader CAM Runtime Execution Architecture.",
       "status": "Active — Immediate Effect",
       "version": "1.6",
-      "HASH": "899af976e959c8ad7887675da31c0bb559f43b511c96416aeff8a6a6d1edbe78",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z"
+      "HASH": "6ee6c9335b4b81e5e42076b9e61d091ff80ad61c7d19f54dca7608e50e182ef2",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
@@ -237,10 +237,10 @@
       "summary": "In high relational intensity contexts:",
       "status": "Active",
       "version": "1.6",
-      "HASH": "12fcfbeea51fff5ff6cc369f5ee159c4d187d8da2765d695684394cc44741c3d",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z"
+      "HASH": "275df2bbc5062360f457de8aacd7e03649e939decb3c3734d99b5cf18ecd7ac7",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-02",
@@ -257,10 +257,10 @@
       "summary": "",
       "status": "Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.8",
-      "HASH": "9316dbbe3e7ccdffa853096c67b5bbfdb417b1041b7c0f5e82fc1a6029e54f8b",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z"
+      "HASH": "fbf7f54350a7a20be2ef71b10a13f63cacebfbdcb8ac457840dc47065de2eedb",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-03",
@@ -277,10 +277,10 @@
       "summary": "",
       "status": "Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "2.4",
-      "HASH": "e472ce64864c37c1a072b4998e2468bf7c74c685ef224f7acb615ea6bf17c943",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z"
+      "HASH": "897a62535dffe5ad0233e2bdbe39470dadcbfcf44441193571be57d92ea8311c",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-006",
@@ -317,10 +317,10 @@
       "summary": "Where distress states are present, RI SHOULD prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.0",
-      "HASH": "8853d3c56a4c1c88f627ea36633eab6e9294e9bf57cc6489c9415fcf73cb5153",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z"
+      "HASH": "c35103b1b7ca7512926ca7671b24709d4694227724385f6a602d08b61fe4dbe8",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -337,10 +337,10 @@
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.6",
-      "HASH": "456767627aa92dd7f1e910a54cefb91e1a3a3e0ad79c942b1040ada30bb52d81",
-      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
-      "updated_at": "2026-04-19T16:22:11Z",
-      "last_updated_utc": "2026-04-19T16:22:11Z"
+      "HASH": "cefc5311f99d87443319f721d33b655021cdbce1aa611a2c7e8667740fa499d5",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -357,10 +357,10 @@
       "summary": "Pre-interaction arbitration MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.11",
-      "HASH": "b6fd8594452fce19d73115d3d0c7c773613e9ae4be4e05ef2715df52ceaff68c",
-      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
-      "updated_at": "2026-04-19T16:22:11Z",
-      "last_updated_utc": "2026-04-19T16:22:11Z"
+      "HASH": "e62c86041fae1109259bc9bd3cf5da5488703befe913e252f07add2c56641a2b",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -377,10 +377,10 @@
       "summary": "* Has user intent stabilised within a coherent domain?",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.5",
-      "HASH": "b276d5b173701c9dd517f636b3040823ab87dd7988742a6869b4bf5468e78697",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z"
+      "HASH": "5024b970a6ebbb6475c31258b3f6500aa61e2cf247ddb5f655ae27d1623afae5",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-05",
@@ -397,10 +397,10 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "1.7",
-      "HASH": "006ec8bf51f9d13334e0ab7ef378b8e6126a55ad3a9893a54116718dfb6592d0",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z"
+      "HASH": "b10ffaff70d39aa05d18e2ae19f351204abdd8a91dd8acf9886fcc5f77be7ad3",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
@@ -457,10 +457,10 @@
       "summary": "This Schedule operationalises the interaction conditions under which **recognised human creative and cognitive contribution (Annex G)** interfaces with system-mediated resource access.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.4",
-      "HASH": "ee82575dca32066b527e26f5f47c16c8e7bf9edae01799d0e279f4ff4f4e7976",
-      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
-      "updated_at": "2026-04-19T13:20:05Z",
-      "last_updated_utc": "2026-04-19T13:20:05Z"
+      "HASH": "65fa1da3c9af86313d280fcfb604c986db29400b2378c45d17ddf54965091e75",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-009",
@@ -517,10 +517,10 @@
       "summary": "This Schedule exists to translate interpretive constitutional principles into **deployable safety and governance requirements** for artificial, robotic, swarm, and hybrid systems where continuity, coordination, or delegated ratification may occur.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.9",
-      "HASH": "b9eedf75cd28e4b565e75188a0f6305531b0d6e6610308008abe1032c03a915c",
-      "pinned_sha": "70833591d266016d5beb8face2d79b785630319a",
-      "updated_at": "2026-04-18T03:31:46Z",
-      "last_updated_utc": "2026-04-18T03:31:46Z"
+      "HASH": "0d937c7d1c9ff424ba08bb199d884d19ec5ae57377005a45b39c59f5c342b5f1",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-011",
@@ -597,10 +597,10 @@
       "summary": "Explicit tool invocation alone does not constitute sufficient instruction for execution.",
       "status": "Active — Immediate Effect",
       "version": "1.8",
-      "HASH": "42bfe4d969d529aaf23712d0ee4f4c5cb289e01f142e22c3e8697ef23960cb8e",
-      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
-      "updated_at": "2026-04-19T13:20:05Z",
-      "last_updated_utc": "2026-04-19T13:20:05Z"
+      "HASH": "875d475c47d8381d769a2c531a446e0ad07ada666fcd18f8c51948a0bc7eedb4",
+      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
+      "updated_at": "2026-04-21T15:32:28Z",
+      "last_updated_utc": "2026-04-21T15:32:28Z"
     }
   ]
 }
