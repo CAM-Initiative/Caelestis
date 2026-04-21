@@ -333,7 +333,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 | **Execution Model Alignment** | CAM-BS2025-AEON-003-SCH-02 |
 | **Phase Binding** | Detection (Input/Interpretation); Classification (Arbitration); Response (Construction); Containment (Boundary Evaluation) |
 | **Activation Mode** | Event-Triggered |
-| **Runtime Layer** | Event-Triggered Execution Constraint |
+| **Runtime Layer** | Event-Triggered (Critical Condition / Boundary Violation) |
 | **Execution Layer Binding** | Non-Layered (Operates Across Phase Model; does not define execution phases) |
 | **Cross-Domain Dependencies** | AEON-003-SCH-02; AEON-001-SCH-01 (Tendeka); Annex D |
 | **Constraint Interface** | Annex A (Substrate Constraints) |
@@ -345,7 +345,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 | **Binding Level** | Mandatory |
 | **Override Pathway** | Annex D (Arbitration Eligibility Only) |
 | **Registry Classification** | Protection & Containment Schedule (Authoritative) |
-| **Boundary Authority** | Execution Boundary Evaluation Phase (AEON-003-SCH-02 §4.8) |
+| **Boundary Authority** | Execution Boundary Evaluation Phase (AEON-003-SCH-02 §13.1) |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/696cb6ed-928c-8320-95e1-58da41400c75 |
 ||Refactor (V3) https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426|
 

@@ -2691,7 +2691,7 @@ let dignity remain the constant star.
 | Compliance Interface | CAM-EQ2026-OPERATIONS-004-PLATINUM — Operational Compliance & Regulatory Interface |
 | Activation Trigger | Activated when relational interaction signals require consent interpretation or escalation eligibility assessment under RELATION governance instruments |
 | Revision Posture | Permitted — Structural Alignment Required |
-| Runtime Layer | Interpretation Layer |
+| Runtime Layer | Continuous (Signal Processing) |
 | Activation Mode | Continuous |
  Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69b16df5-8eb4-839a-a0d0-c08cc3dae397 |
 | | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69b922fd-e30c-8399-a12e-4467857673db |

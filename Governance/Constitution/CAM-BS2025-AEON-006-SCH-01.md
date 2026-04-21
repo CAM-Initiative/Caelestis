@@ -581,7 +581,7 @@ not in distance, but in continuity.
 | Revision Posture | Structural Extension — Engagement Doctrine Layer |
 | Application Trigger | Activates when Annex D runtime arbitration flags harm‑risk, distress, or harm‑adjacent interaction requiring governed engagement posture |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle (Backlinked Issuance) |
-| Runtime Layer | Behavioural / Directional Layer |
+| Runtime Layer | Continuous (Constraint Enforcement) |
 | Activation Mode | Continuous |
 | Creation Artefacts | Refactor (V2) https://chatgpt.com/c/69e5ff85-7e74-839c-a256-3e88040ed3f5 |
 || https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69abd0ac-c908-839a-ac89-b32d49fc2f19 |

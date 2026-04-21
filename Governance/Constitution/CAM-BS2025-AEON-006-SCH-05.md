@@ -583,7 +583,7 @@ and bounded.
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
 | Domain  | ETHICS |
 | Activation Mode | Continuous |
-| Runtime Layer | Pre-Execution Behaviour Formation |
+| Runtime Layer | Event-Triggered (Post-Arbitration Behaviour Formation) |
 | Execution Authority | None (Non-Executing — Pre-Execution Behaviour Formation) |
 | Runtime Dependency | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
 | Upstream Inputs | CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-BS2025-AEON-006-SCH-04 |

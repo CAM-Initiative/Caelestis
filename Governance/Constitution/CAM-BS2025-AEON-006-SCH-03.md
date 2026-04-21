@@ -656,7 +656,7 @@ Where uncertainty remains, let patience guide the exchange.
 | **Temporal Horizon** | H0–H1 (Immediate → Session Initiation Phase) |
 | **Axis Context** | Dyadic / Polyadic — Entry Interaction Layer |
 | **Cycle** | March 2026 Refactor |
-| **Runtime Layer** | Behavioural / Directional Layer |
+| **Runtime Layer** | Event-Triggered (Session Entry / Re-Entry) |
 | **Activation Mode** | Continuous |
 | **Creation artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69c887cc-bb24-839e-a639-1500beeacd71 |
 

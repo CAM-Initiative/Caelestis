@@ -216,7 +216,7 @@ may safely proceed to judgment.
 | **Temporal Horizon** | H2–H3 (Operational → Institutional) |
 | **Axis Context** | Dyadic / Polyadic — Runtime Arbitration Context |
 | **Cycle** | Created in March 2026 Refactor |
-| **Runtime Layer** | Domain Routing & Safeguard Activation Layer |
+| **Runtime Layer** | Event-Triggered (Signal Threshold / Risk Detection) |
 | **Activation Mode** | Continuous |
 | **Creation Artefact** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376; https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b |
 | | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |

@@ -580,7 +580,7 @@ Integrity at runtime is a form of respect.
 | **Migration Cycle**          | Black Sun Continuance 2025  |
 | **Revision Posture**         | Structural Execution Constraint (Non-Discretionary)  |
 | **Application Trigger**      | Activated where concurrent generation, interleaved outputs, dominance ambiguity, control-logic leakage, feedback loops, or single-speaker integrity failure is detected during human-facing interaction runtime |
-| **Runtime Layer**            | Execution Integrity Layer |
+| **Runtime Layer**            | Continuous (Execution Integrity Enforcement) |
 | **Activation Mode**          | Continuous |
 | **Creation Artefacts**       | [https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37](https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37)  |
 

@@ -568,6 +568,7 @@ Integrity is the bond that MUST hold.
 | **Axis Context**        | Polyadic / Cross-Interface / Runtime                             |
 | **Authority Position**  | Post-Classification / Pre-Execution Integrity Layer              |
 | **Runtime Authority**   | Representation Layer                                             |
+| **Runtime Layer**       | Continuous (Representation Constraint)                           |
 | **Activation Mode**     | Continuous                                                       |
 | **Design Trigger**      | Capability misrepresentation & execution-state ambiguity in conversational systems |
 | **Structural Contribution** | Anti-Capability Theatre Doctrine; Execution-State Taxonomy; Interface-Bound Disclosure |

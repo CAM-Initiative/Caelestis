@@ -984,7 +984,7 @@ responsive to its limits, and reversible within its bounds.
 | Execution Dependency | CAM-BS2025-AEON-001-SCH-01 (Constraint Layer) |
 | Epistemic Dependency | CAM-BS2026-AEON-013-PLATINUM — Annex L (Truth & Integrity Layer) |
 | Structural Role | Behavioural Modulation & Directional Control System |
-| Runtime Layer | Behavioural / Directional Layer |
+| Runtime Layer | Continuous (Dynamic Modulation) |
 | Activation Mode | Continuous |
 | Application Trigger | Structural modification to DW/DD/DS interaction or runtime execution behaviour |
 | Cross-Referenced Instruments | CAM-EQ2026-IDENTITY-001-SUP-01 (Salience Detection & Latent Continuity); CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation); CAM-BS2025-AEON-006-SCH-03 (Start-Time Posture & Session Entry Arbitration); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
