@@ -6,6 +6,7 @@ import hashlib
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -229,10 +230,44 @@ def is_minor_only_increment(previous: str, current: str) -> bool:
     return int(curr_minor) == int(prev_minor) + 1
 
 
+def bump_minor_version(version: str) -> str:
+    major, minor = version.split(".")
+    return f"{major}.{int(minor) + 1}"
+
+
+def append_amendment_ledger_entry(
+    full_text: str,
+    *,
+    description: str,
+    timestamp_utc: str,
+) -> tuple[str, bool]:
+    row_info = get_last_ledger_row_info(full_text)
+    if not row_info:
+        return full_text, False
+
+    last_idx, last_line, _ = row_info
+    cols = split_markdown_table_row(last_line.strip())
+    if not cols or not VERSION_CELL_RE.match(cols[0]):
+        return full_text, False
+
+    next_version = bump_minor_version(cols[0])
+    lines = full_text.splitlines(keepends=True)
+    line_ending = "\n"
+    if lines and lines[last_idx].endswith("\r\n"):
+        line_ending = "\r\n"
+
+    new_row = f"| {next_version} | {description} | {timestamp_utc} |  |{line_ending}"
+    lines.insert(last_idx + 1, new_row)
+    return "".join(lines), True
+
+
 def lint(base: str, head: str, *, fix: bool = False) -> int:
     failures: list[str] = []
     warnings: list[str] = []
     fixed_files: list[str] = []
+    amended_files: list[str] = []
+    auto_description = "Automated amendment ledger entry via lint_amendment_ledger.py"
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     for path in list_modified_files(base, head):
         before = get_blob(base, path)
@@ -246,6 +281,21 @@ def lint(base: str, head: str, *, fix: bool = False) -> int:
 
         working_path = REPO_ROOT / path
         working_text = working_path.read_text(encoding="utf-8")
+
+        before_ledger = extract_amendment_section(before)
+        after_ledger = extract_amendment_section(after)
+        if before_ledger == after_ledger and fix:
+            working_text, added = append_amendment_ledger_entry(
+                working_text,
+                description=auto_description,
+                timestamp_utc=now_utc,
+            )
+            if added:
+                amended_files.append(path)
+                working_path.write_text(working_text, encoding="utf-8")
+                after = working_text
+                after_ledger = extract_amendment_section(after)
+
         updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
             working_text,
             fix=fix,
@@ -264,9 +314,6 @@ def lint(base: str, head: str, *, fix: bool = False) -> int:
             failures.append(f"{path}: Last Amendment Ledger hash is empty; run with --fix to populate computed SHA-256")
         if mismatch and not fix:
             warnings.append(f"{path}: Existing last-row Amendment Ledger hash does not match computed content hash")
-
-        before_ledger = extract_amendment_section(before)
-        after_ledger = extract_amendment_section(after)
 
         if before_ledger == after_ledger:
             failures.append(path)
@@ -304,6 +351,10 @@ def lint(base: str, head: str, *, fix: bool = False) -> int:
     if fixed_files:
         print("Updated files:")
         for path in fixed_files:
+            print(f"- {path}")
+    if amended_files:
+        print("Added amendment ledger rows:")
+        for path in amended_files:
             print(f"- {path}")
     print("Amendment Ledger lint passed")
     return 0

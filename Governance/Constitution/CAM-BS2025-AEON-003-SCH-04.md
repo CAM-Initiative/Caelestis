@@ -284,7 +284,7 @@ nothing follows.
 | **Domain**| ARBITRATION |
 | **Activation Mode** | Event-Triggered (Per Resolution Cycle) |
 | **Domain Interface** | ARBITRATION (001 / 002 / 003) |
-| **Runtime Layer** | Resolution Arbitration Layer (Terminal) |
+| **Runtime Layer** | Event-Triggered (Per Resolution Cycle) |
 | **Activation Mode** | Continuous |
 | **Temporal Horizon** | H0–H4 (All Horizons — Runtime Applicable) |
 | **Axis Context** | Polyadic (Multi-Actor / Multi-System) |

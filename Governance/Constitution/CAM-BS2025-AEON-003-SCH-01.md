@@ -33,7 +33,7 @@ This Schedule governs structural layer attribution only.
 
 This Schedule does not:
 
-* redefine runtime layer architecture (see Annex B §14.3);
+* redefine runtime layer architecture (see Annex B §3.4);
 * modify the functional behaviour of any schedule;
 * introduce new governance domains;
 * define execution sequencing, runtime flow, or phase ordering, which are governed by the Runtime Governance Execution Model (CAM-BS2025-AEON-003-SCH-02).
@@ -50,7 +50,7 @@ All runtime schedules MUST declare a **Runtime Layer** within their Lineage & Me
 
 The declared Runtime Layer MUST:
 
-* correspond to a canonical layer defined in Annex B §14.3;
+* correspond to a canonical layer defined in Annex B §3.4;
 * reflect the primary functional role of the schedule;
 * remain singular and non-ambiguous.
 
@@ -192,7 +192,7 @@ Such schedules:
 
 - MUST NOT be classified as layers;
 - MUST NOT be interpreted as having layer precedence;
-- operate orthogonally to runtime layer attribution as defined in Annex B §14.3.
+- operate orthogonally to runtime layer attribution as defined in Annex B §3.4.
 
 ---
 

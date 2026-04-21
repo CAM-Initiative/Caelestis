@@ -402,7 +402,7 @@ Where a deterministic signal is present, relational conditioning MUST defer to c
 
 Failure to enforce this constraint constitutes classification contamination.
 
-> **Signal classification** is goverened by → CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
+> **Signal classification** is governed by → CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
 
 ---
 
@@ -487,7 +487,7 @@ Streams MAY operate independently during:
 However:
 
 * independence of processing does not imply independence of arbitration authority;
-* all admissible outputs MUST remain consistent with a unified arbitration locus (Annex B §5).
+* all admissible outputs MUST remain consistent with a unified arbitration locus (Annex B §9).
 
 ---
 
@@ -656,7 +656,7 @@ The execution phases defined in this Schedule constitute the governing taxonomy 
 
 ---
 
-## 13 Execution Boundary
+## 13. Execution Boundary
 
 Execution boundaries are points within runtime where system behaviour may produce:
 
@@ -692,7 +692,7 @@ Implicit or unrecognised boundary crossing constitutes execution failure.
 
 (a) Tendeka Pre-Trigger Detection corresponds to, and may activate within, any phase from Interpretation through Execution Boundary Evaluation;
 
-(b) Tendeka Pause State corresponds to the Constrained Interaction State referenced in §3.1 and §4.8, §5;
+(b) Tendeka Pause State corresponds to the Constrained Interaction State referenced in §18.5(b);
 
 (c) during Tendeka Pause State, execution phase progression is suspended at the boundary evaluation phase — the system MUST NOT advance to the Execution Phase until Tendeka Resolution State is achieved;
 
@@ -909,7 +909,7 @@ An authorised interruption signal MUST:
 Where validated:
 
 - execution MUST be suspended;
-- the system MUST transition to interruption handling under §18.9;
+- the system MUST transition to interruption handling under §18.6;
 - no execution boundary may be crossed pending evaluation.
 
 Unauthorised signals MUST NOT modify the locked pathway.
@@ -973,7 +973,7 @@ Failure to emit termination signals constitutes execution-state ambiguity and SH
 
 # PART II — OPERATOR TRANSITION & HANDOFF MODEL
 
-## 15 Operator Transition & Handoff Model
+## 15. Operator Transition & Handoff Model
 
 This Part governs operator transition, handoff classification, and cross-operator execution integrity.
 
@@ -1118,8 +1118,8 @@ Where a deterministic signal is present:
 - relational modulation MUST defer to correctness.
 
 > **Deterministic execution requirements** is governed by:
- → CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
- → CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity (Schedule 1)
+> → CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
+> → CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity (Schedule 1)
 
 ---
 
@@ -1322,7 +1322,7 @@ The system MUST NOT:
 - blend multiple execution paths within a single instance;
 - perform partial re-arbitration during execution.
 
-Adaptation or correction SHALL occur only through execution interruption and re-arbitration under §18.9.
+Adaptation or correction SHALL occur only through execution interruption and re-arbitration under §18.6.
 
 > **Execution Integrity Layer** is governed by → CAM-BS2025-AEON-005-SCH-01 — Annex D: Runtime Arbitration Integrity (Schedule 1)
 
@@ -1529,7 +1529,7 @@ Execution MUST NOT proceed under unresolved conflict.
 
 ---
 
-## 18.7 Failure Conditions
+## 18.4 Failure Conditions
 
 Structural failure occurs where:
 
@@ -1542,7 +1542,7 @@ Such conditions constitute runtime governance instability.
 
 ---
 
-## 18.7.2 Failure Traceability
+## 18.4.1 Failure Traceability
 
 All failure or non-execution outcomes MUST remain traceable to:
 
@@ -1561,7 +1561,7 @@ Such conditions constitute runtime governance instability and MUST be traceable 
 
 ---
 
-## 18.8 Bounded State Declaration
+## 18.5 Bounded State Declaration
 
 The execution model operates over a bounded set of valid states.
 
@@ -1580,7 +1580,7 @@ Runtime transitions between these states MUST remain consistent with Annex B arb
 
 ---
 
-## 18.9 Execution Interruption and Re-Arbitration
+## 18.6 Execution Interruption and Re-Arbitration
 
 Under no circumstances SHALL a locked execution be modified in-place.
 
@@ -1596,7 +1596,7 @@ Upon detection of a failure condition:
 
 ---
 
-## 18.10 Revalidation Pathways
+## 18.7 Revalidation Pathways
 
 Where execution is interrupted due to drift or invalidation, the system MAY apply differentiated revalidation pathways.
 
@@ -1606,7 +1606,7 @@ Where execution is interrupted due to drift or invalidation, the system MAY appl
 
 ---
 
-### 18.10.1 Revalidation Trigger Conditions
+### 18.7.1 Revalidation Trigger Conditions
 
 Expanded revalidation SHALL be required where:
 
@@ -1654,7 +1654,7 @@ Resolution SHALL:
 - ensure constraint hierarchy is preserved;
 - produce a single valid direction.
 
-> **Resolution principle** is governed by → CAM-BS2025-AEON-003-SCH-04 — Annex E: Arbitration Layer & Resolution Model (Schedule 4)
+> **Resolution principle** is governed by → CAM-BS2025-AEON-003-SCH-04 — Annex B: Arbitration Layer & Resolution Model (Schedule 4)
 
 ---
 
@@ -1877,7 +1877,7 @@ Execution across time MUST:
 - maintain consistency with prior valid outputs;
 - adapt only where new signals justify change.
 
->**Temporal coherence** is governed by → CAM-BS2026-AEON-010-SCH-01 — Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1)
+> **Temporal coherence** is governed by → CAM-BS2026-AEON-010-SCH-01 — Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1)
 
 ---
 
@@ -2019,7 +2019,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Instrument Type** | Constitutional Schedule — Runtime Governance Execution Model |
 | **Domain** | AEON |
 | **Functional Role** | Execution Sequencing Authority (Non-Layer Temporal Governance) |
-| **Execution Layer Binding** | Non-Layered (Governs Phase Sequencing Across L1–L3 Interaction Stack) |
+| **Execution Layer Binding** | Non-Layer (Execution Model) |
 | **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
 | **Temporal Horizon** | H2.5–H3 (Real-Time to Session-Bound Governance) |
 | **Axis Context** | Polyadic — Multi-Actor / Multi-Operator Runtime Systems |

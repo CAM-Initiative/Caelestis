@@ -311,7 +311,7 @@ For what is not yet stable must not yet decide.
 | **Migration Cycle**          | March 2026 Refractor                                           |
 | **Revision Posture**         | Structural Extraction from Annex L                             |
 | **Application Trigger**      | Activated where epistemic distortion, volatility misclassification, propagation risk, reliance misclassification, recursive compute-lock, or Extreme-Risk (including Non‑Advisory Military) posture is detected at runtime prior to authority-bearing activation prior to authority-bearing activation or Sandbox Mode activation under §5.1 |
-| **Runtime Layer**            | Epistemic Stability & Containment Layer                        |
+| **Runtime Layer**            | Event-Triggered (Epistemic Instability / Failure State)        |
 | **Activation Mode**          | Continuous                                                  |
 | **Creation Artefacts**       | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
 

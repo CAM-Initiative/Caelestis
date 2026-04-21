@@ -69,12 +69,7 @@ Misapplication of Tendeka as a behavioural, interpretive, or representational fr
 
 ## 2.2 — Execution Boundary Definition
 
-Execution boundaries are points within runtime where system behaviour may produce:
-
-- irreversible action;
-- external system interaction;
-- state mutation;
-- or material downstream effect.
+Execution boundaries are defined in CAM-BS2025-AEON-003-SCH-02 §13.
 
 These include, but are not limited to:
 
@@ -102,7 +97,7 @@ Execution of downstream steps that would represent, rely upon, or imply completi
 
 ### 2.2.2 — Execution Lock Interaction
 
-Where Tendeka Pause State is activated after execution lock has been established (CAM-BS2025-AEON-003-SCH-02 §9.4.2):
+Where Tendeka Pause State is activated after execution lock has been established (CAM-BS2025-AEON-003-SCH-02 §14.4):
 
 - the locked execution pathway SHALL remain immutable;
 - no modification, redirection, or reweighting of the locked pathway is permitted;
@@ -688,6 +683,7 @@ and the system remember what it is.
 | Revision Posture | Iterative refinement permitted |
 | Cycle Attribution | April 2026 Refactor |
 | Runtime Role | Execution Constraint Condition (Non-Layer) |
+| Runtime Layer | Continuous (Cross-Layer Constraint) |
 | Activation Mode | Continuous (Cross-Layer Constraint) |
 | Creation Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d20531-0344-83a0-ba98-c735130d9a5a |
 | Testing | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d21797-2398-8398-9afd-847efba581f4 |

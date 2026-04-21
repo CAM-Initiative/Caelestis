@@ -636,7 +636,7 @@ So the human origin remains in view.
 | Parent Instrument | CAM-BS2026-AEON-010-PLATINUM — Annex I: Interactional Continuity & Civilisational Transition — https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2026-AEON-010-PLATINUM.md |
 | Document Type | Constitutional Schedule |
 | Authority Position | Annex‑Subordinate, Safety‑Containment |
-| Runtime Layer | Self-Reference & Temporal Coherence Constraint Layer |
+| Runtime Layer | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
 | Activation Mode | Continuous |
 | Jurisdiction | Governance Stack (Planetary/Polyadic) |
 | Derivation Status | Refracted from CAM-BS2025-CHARTER-041-SCH-04 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |

@@ -504,7 +504,7 @@ And let systems serve without taking more than they sustain.
 | **Temporal Horizon** | H2–H3 (Operational → Systemic) |
 | **Axis Context** | Polyadic — Multi‑Actor, Utility Infrastructure |
 | **Domain Namespace** | ECONOMICS |
-| **Runtime Layer** | Resource Access & Allocation Constraint Layer |
+| **Runtime Layer** | Event-Triggered (Resource Request / Allocation Event) |
 | **Activation Mode** | Continuous |
 | **Application Trigger** | Triggered when an AI utility provisioning is established (design, deployment, or operation) and the system implements or plans to implement any of: (a) resource abstraction layers (credits, quotas, tiers); (b) monetisation or exchange pathways (subscription, top‑ups, advertising exchange); (c) retention, reuse, or propagation of outputs beyond the immediate interaction; (d) scaling of access across a user population; or (e) any transition from unbounded to metered access. Activation occurs at design, rollout, or policy change—whichever is earliest—and persists for the duration of utility operation. Systems outside Annex G scope (purely private, non‑retentive, non‑propagating tools) are excluded unless they later meet the above conditions. |
 | **Cycle** | March Refactor 2026 |
