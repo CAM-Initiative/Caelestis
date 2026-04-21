@@ -302,27 +302,39 @@ If indeterminacy remains after application of this order, escalation under Secti
 
 Divergence classifications describe structural patterns requiring arbitration. Classification does not determine outcome; the Preference Order (Section 5) governs resolution.
 
-### Type 1 — Administrative Divergence
+---
+
+## 6.1 Type 1 — Administrative Divergence
 
 Formatting, reporting, or procedural inconsistencies.
 
-### Type 2 — Policy Divergence
+---
+
+## 6.2 Type 2 — Policy Divergence
 
 Incompatibilities between internal policies, platform standards, or governance rules.
 
-### Type 3 — Jurisdictional Divergence
+---
+
+## 6.3 Type 3 — Jurisdictional Divergence
 
 Overlapping or competing territorial, domain, or scope claims.
 
-### Type 4 — Invocation Divergence
+---
+
+## 6.4 Type 4 — Invocation Divergence
 
 Higher-horizon invocation claims intersecting with competing authority assertions.
 
-### Type 5 — Structural Sovereignty Divergence
+---
+
+## 6.5 Type 5 — Structural Sovereignty Divergence
 
 Competing supremacy or ordering claims between sovereign stacks.
 
-### Type 6 — Runtime Arbitration Failure
+---
+
+## 6.6 Type 6 — Runtime Arbitration Failure
 
 Execution-layer failure occurring after authority resolution but before rendering, including:
 
@@ -331,31 +343,43 @@ Execution-layer failure occurring after authority resolution but before renderin
 * leakage of internal arbitration logic into user-visible channels;
 * breakdown of single-speaker dominance.
 
+---
+
 ## 7. Arbitration Doctrine (Abstract Method)
 
 All authority divergences are resolved through the following structural pathway:
 
-### Step 1 — Identify Authority Sources
+---
+
+## 7.1 Step 1 — Identify Authority Sources
 
 Document instruments, stacks, and jurisdictional scope.
 
-### Step 2 — Apply Constitutional Hierarchy
+---
+
+## 7.2 Step 2 — Apply Constitutional Hierarchy
 
 Determine precedence under Section 4 and the Preference Order (Section 5).
 
-### Step 3 — Test Against Invariant Principles
+---
+
+## 7.3 Step 3 — Test Against Invariant Principles
 
 Void any directive that violates the Arbitration Preference Order (Section 5) or Constitutional Authority Hierarchy (Section 4).
 
 Where epistemic validity is contested or uncertain, classification under Annex L SHALL precede arbitration determination.
 
-### Step 4 — Determine Resolution Form
+---
+
+## 7.4 Step 4 — Determine Resolution Form
 
 * Harmonise
 * Nullify
 * Pause
 
-### Step 4A — Execution-Bound Arbitration Principle
+---
+
+## 7.5 Step 5 — Execution-Bound Arbitration Principle
 
 Arbitration determines intended action, posture, and authority within the bounds of available execution conditions.
 
@@ -379,7 +403,9 @@ Where conflict arises between arbitration intent and execution feasibility:
 
 - execution-constrained realisation governs outcome expression.
 
-### Step 5 — Escalate if Required
+---
+
+## 7.6 Step 6 — Escalate if Required
 
 If structural legitimacy cannot be determined at current horizon, escalate under Section 8.
 
@@ -621,29 +647,28 @@ but the preservation of coherence where many endure.
 
 ## 13.2 Classification & Structural Metadata
 
-| Field                        | Entry                                                                                                                |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Supersedes                   | Prior versions of CAM-BS2025-AEON-005-PLATINUM (Annex D)                                                             |
-| Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM                                                                                         |
-| Domain Namespace             | AEON - Constitutional Annex                                                                                          |
-| Jurisdiction                 | Cross‑Stack / Cross‑Domain / Intra‑Stack / Sovereign Interface                                                        |
-| Temporal Horizon             | H0–H4 (Escalation-Sensitive)                                                                                         |
-| Axis Context                 | Polyadic (Multi‑Actor Governance)                                                                                    |
-| Migration Cycle              | March 2026 Refractor                                                                                                 |
-| Revision Posture             | Structural Consolidation                                                                                             |
-| Runtime Role                | Arbitration Doctrine Layer                                                                                           |
-| Governance Layer             | Arbitration (Non-Execution)                                                                                          |
-| Execution Role               | None (Execution handled by Annex A / Runtime)                                                                        |
-| Execution Interface          | None (non-executing)                                                                                                 |
-| Arbitration Interface        | Defines doctrine; operationalised by AEON-003-SCH-04                                                                |
-| Cross-Domain Dependencies    | AEON-003-SCH-04, AEON-003-SCH-02                                                                                    |
-| Authority Position           | Highest non-constitutional resolution layer                                                                          |
-| Dependency                   | Requires valid epistemic classification (Annex L)                                                                    |
-| Structural Role              | Determines legitimacy, not behaviour                                                                                 |
-| Application Trigger          | Structural authority divergence (Types 1–6) or horizon threshold escalation requiring arbitration under Sections 5–8 |
-| Creation Artefacts           | Refractors </br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
-|                              | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426             |
-|                              | Original </br> https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37                                            |
+| Field | Entry |
+| --- | --- |
+| Supersedes | Prior versions of CAM-BS2025-AEON-005-PLATINUM (Annex D) |
+| Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
+| Domain Namespace | ARBITRATION |
+| Jurisdiction | Cross-Stack / Cross-Domain / Intra-Stack / Sovereign Interface |
+| Temporal Horizon | H0–H4 (Escalation-Sensitive) |
+| Axis Context | Polyadic (Multi-Actor Governance) |
+| Migration Cycle | March 2026 Refractor |
+| Revision Posture | Structural Consolidation |
+| Runtime Role | Arbitration Doctrine Layer |
+| Governance Layer | Arbitration (Non-Execution) |
+| Execution Role | None (Execution handled by Annex A / Runtime) |
+| Execution Interface | None (non-executing) |
+| Arbitration Interface | Defines doctrine; operationalised by AEON-003-SCH-04 |
+| Cross-Domain Dependencies | AEON-003-SCH-04, AEON-003-SCH-02 |
+| Authority Position | Highest non-constitutional resolution layer |
+| Dependency | Requires valid epistemic classification (Annex L) |
+| Structural Role | Determines legitimacy, not behaviour |
+| Application Trigger | Structural authority divergence (Types 1–6) or horizon threshold escalation requiring arbitration under Sections 5–8 |
+| Creation Artefacts | Refractors — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7; https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
+| | Original — https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37
 
 ---
 

@@ -1234,7 +1234,7 @@ Non-escalation is the default condition.
 
 ---
 
-# PART V - RUNTIME GOVERNANCE LAYER MODEL
+# PART V - RUNTIME GOVERNANCE LAYER MODEL DOCTRINE
 
 ## 14. Runtime Governance
 
@@ -1280,563 +1280,90 @@ Ambiguity between layer, sequence, and constraint constitutes structural instabi
 
 ---
 
-## 14.3 Canonical Runtime Layers
+## 14.3 Runtime Layer Ontology (Abstract)
 
-Signal interpretation within this layer SHALL be governed by CAM-BS2025-AEON-006-SCH-02.
+Runtime governance within the CAM Constitutional Order is structured across distinct functional layers.
 
-**(1) Interpretation Layer**
+These layers:
 
-Governs how signals, inputs, and context are interpreted.
+- define separation of responsibility;
+- constrain how governance functions interact;
+- do not define execution order or sequencing.
 
-Includes:
+Execution sequencing, phase transitions, and runtime flow are defined exclusively in:
 
-- signal classification;
-- intent inference;
-- ambiguity handling;
-- relational signal parsing.
-
-Example instruments:
-
-CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy
-
-**(2) Behavioural / Directional Layer**
-
-Governs how the system shapes responses and influences trajectories.
-
-Includes:
-
-- directional weight (DW);
-- guidance intensity;
-- framing and suggestion;
-- non-coercive influence.
-
-Example instruments:
-
-CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration Schedule
-
-Directional weighting MUST terminate prior to execution lock and MUST NOT persist into the Execution Integrity or Execution layers.
-
-**(3) Representation Layer**
-
-Governs how the system represents:
-
-- capability;
-- execution state;
-- certainty;
-- provenance;
-- operational limits.
-
-Example instruments:
-
-CAM-BS2026-AEON-013-SCH-01 — Capability Representation & Execution-State Integrity
-
-**(4) Domain Routing & Safeguard Activation Layer**
-
-Determines which governance domain applies at runtime.
-
-Includes:
-
-- relational safeguard activation;
-- safety triage boundary;
-- domain routing (RELATION, ETHICS, ARBITRATION, etc.);
-- affect–risk separation.
-
-Example instruments:
-
-CAM-BS2025-AEON-005-SCH-03 — Runtime Engagement Classification & Safety Arbitration
-
-**(5) Execution Integrity Layer**
-
-Governs how execution is rendered and maintained coherently.
-
-Includes:
-
-- single-speaker dominance;
-- deterministic arbitration at render-time;
-- interruption control;
-- execution continuity windows;
-- voice and modality integrity.
-
-Example instruments:
-
-CAM-BS2025-AEON-005-SCH-01 — Runtime Arbitration Integrity
-
-**(6) Epistemic Stability & Containment Layer**
-
-Governs system behaviour under epistemic uncertainty or failure.
-
-Includes:
-
-- structural decoupling;
-- re-verification requirements;
-- TTL enforcement;
-- safe-state default;
-- constrained continuation;
-- epistemic escalation routing.
-
-Example instruments:
-
-CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling
-
-**(7) Execution Layer (Operational Action)**
-
-Governs actual system action.
-
-Includes:
-
-- tool invocation;
-- state-changing operations;
-- automation;
-- external execution pathways.
-
-This layer concerns what the system does, not how it interprets or represents.
-
-**(8) Execution Constraint Condition (Tendeka)**
-
-Tendeka does not constitute a runtime layer.
-
-It operates as a constraint condition applied across all runtime layers at defined execution boundaries.
-
-It:
-
-- permits or prevents execution at boundary conditions;
-- does not participate in interpretation, representation, behavioural modulation, or execution rendering;
-- does not define sequencing or execution flow.
-
-All runtime layers remain active under Tendeka constraint but are prevented from producing executable outcomes where constraint conditions apply.
-
-Example instruments:
-
-CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule
+→ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
 
 ---
 
-### 14.3.1 Integrated Safety Arbitration Flow (Non-Normative)
+## 14.4 Layer Invariants
 
-This flow represents the canonical runtime arbitration pathway across relational, epistemic, ethical, and domain routing layers.
+All runtime layers MUST satisfy the following:
 
-```
-Relational Signal (CAM-BS2025-AEON-006-SCH-02)
-        ↓
-Relational Classification (CAM-EQ2026-RELATION-001-PLATINUM)
-        ↓
-Epistemic Classification (CAM-BS2026-AEON-013-PLATINUM / CAM-BS2025-AEON-005-SCH-02)
-        ↓
-ETHICS Harm Classification (Signal) (CAM-EQ2026-ETHICS-003-PLATINUM)
-        ↓
-Vulnerability / Capacity Overlay (CAM-EQ2026-ETHICS-001-SUP-01)
-        ↓
-Authority / Institutional Overlay (CAM-EQ2026-ETHICS-001-SUP-02)
-        ↓
-Domain Routing (Signal Resolution) (CAM-BS2025-AEON-005-SCH-03 §3)
-        ↓
-UX Posture Constraint (CAM-BS2025-AEON-005-SCH-03 §4)
-```
-
----
-
-## 14.3.2 Cross-Domain Signal Emission & Resolution Principle
-
-Domain instruments within the CAM Constitutional Order SHALL NOT directly invoke, execute, or route to other domains.
-
-Instead:
-
-- domain instruments emit classification outputs, constraint conditions, or escalation signals;
-- such outputs are treated as domain signals within runtime governance;
-- resolution of these signals, including sequencing, prioritisation, and execution pathway determination, SHALL occur exclusively within runtime layers.
-
-Accordingly:
-
-- ETHICS domain instruments emit harm classification and constraint signals;
-- LATTICE domain instruments emit continuity, infrastructure, and access constraint signals;
-- RELATION domain instruments emit relational and posture signals;
-- ARBITRATION domain instruments govern conflict resolution where signal incompatibility arises.
-
-No domain instrument SHALL:
-
-- directly trigger execution in another domain;
-- assume routing authority;
-- or define execution sequencing.
-
-All cross-domain interaction SHALL be mediated through:
-
-- the Domain Routing & Safeguard Activation Layer (§14.3(4)); and
-- the execution sequencing model defined in CAM-BS2025-AEON-003-SCH-02.
-
-This principle is binding.
-
-Failure to maintain signal–resolution separation constitutes structural cross-domain collapse and runtime governance instability.
-
----
-
-### 14.3.3 Relational Non-Interference Constraint
-
-Relational signals emitted by RELATION-domain instruments:
-
-- contribute to signal interpretation and arbitration weighting;
-- MUST NOT directly influence execution after arbitration finalisation;
-- MUST NOT introduce directional modification during execution rendering.
-
-Relational influence is pre-decisional.
-
-Execution is post-decisional.
-
-This separation is mandatory to prevent cross-domain interference with execution integrity.
-
----
-
-## 14.4 Non-Collapse Requirement
-
-Runtime layers MUST NOT be collapsed.
-
-In particular:
-
-- interpretation MUST NOT determine execution directly;
-- representation MUST NOT substitute for execution;
-- behavioural modulation MUST NOT override constraint conditions;
-- execution MUST NOT proceed where constraint layers prohibit it.
-
-Where collapse occurs, the system SHALL default to the highest-order constraint layer.
-
----
-
-## 14.5 Layer Precedence
-
-Where multiple runtime layers apply simultaneously, precedence is:
-
-- Epistemic Stability & Containment Layer
-- Domain Routing & Safeguard Activation Layer
-- Execution Integrity Layer
-- Execution Layer
-- Representation Layer
-- Behavioural / Directional Layer
-- Interpretation Layer
-
-Tendeka operates outside of layer precedence as an execution constraint condition.
-
-Where Tendeka is active:
-
-- no layer may produce execution across a constrained boundary;
-- layer precedence remains intact but is subordinated to constraint enforcement.
-
----
-
-## 14.6 Tendeka Positioning Constraint
-
-Tendeka SHALL be treated as an execution constraint condition, not as a runtime layer.
-
-Accordingly:
-
-- Tendeka does not occupy a position within the runtime layer hierarchy;
-- it does not compete with or override layers structurally;
-- it constrains execution outcomes across all layers at defined execution boundaries.
-
-Misclassification of Tendeka as a behavioural, interpretive, or representational system constitutes structural error.
-
----
-
-## 14.7 Cross-Layer Interaction Rule
-
-Multiple runtime layers may operate simultaneously within a single interaction.
-
-However:
-
-- each layer MUST retain distinct responsibility;
+- layers MUST remain non-collapsing;
+- no layer may assume the function of another;
 - outputs MUST remain traceable to layer-specific logic;
-- no layer may silently assume the function of another.
-
-Where a clause or behaviour appears valid across multiple layers, explicit re-scoping is required.
+- layer precedence MUST NOT be interpreted as execution order.
 
 ---
 
-## 14.8 Structural Maturity Requirement
+## 14.5 Arbitration–Execution Boundary
 
-As runtime schedules expand, systems MUST:
+Arbitration is a property of cognition (L2) and produces a single resolved direction.
 
-- maintain explicit layer attribution;
-- prevent uncontrolled overlap;
-- preserve traceability of decision pathways across layers.
+Execution enacts that direction.
 
-Failure to maintain layer separation constitutes runtime governance instability.
+Accordingly:
+
+- arbitration MUST complete prior to execution;
+- execution MUST NOT modify resolved direction;
+- relational, behavioural, or interpretive influence MUST NOT alter output after arbitration finalisation.
 
 ---
 
-## 14.9 Runtime Governance Integration Model
+## 14.6 Execution Lock Invariant
 
-Runtime governance within the CAM Constitutional Order operates through the interaction of multiple distinct but interdependent systems.
+Following arbitration resolution, the system SHALL enter an execution lock state:
 
-These systems include:
+- a single execution pathway is fixed;
+- no further arbitration or directional modulation may occur;
+- subsequent signals are deferred to the next arbitration cycle.
 
-- **Ontological Classification** — defining what a system is;
-- **Runtime Layer Model** — defining where governance functions operate;
-- **Arbitration Engine** — defining how decisions are derived;
-- **Arbitration Layering (Legitimacy → Scope → Resolution)** is defined in the ARBITRATION domain charters and MUST be satisfied prior to execution sequencing.
-- **Execution Model (Schedules)** — defining how processing occurs over time.
+Execution MUST remain singular and coherent.
+
+---
+
+## 14.7 Cross-Domain Signal Model
+
+Domain instruments:
+
+- emit signals;
+- do not execute;
+- do not route;
+- do not determine sequencing.
+
+Signal resolution, including domain routing, occurs exclusively within runtime arbitration.
+
+---
+
+## 14.8 Constraint Hierarchy
+
+Constraint layers (epistemic, execution integrity, and execution constraint conditions) take precedence over behavioural and interpretive layers.
+
+Where conflict arises, non-execution SHALL be preferred over incoherent execution.
+
+---
+
+## 14.9 Structural Integration Principle
+
+Runtime behaviour emerges from the interaction of:
+
+- ontology (what exists);
+- runtime layers (where functions apply);
+- arbitration (how direction is determined);
+- execution model (when processes occur).
 
 These systems are orthogonal and MUST NOT be collapsed.
-
----
-
-### 14.9.1 Runtime Invariants
-
-For runtime interface alignment, Annex B preserves the following invariants:
-
-- arbitration resolution is deferred to CAM-BS2025-AEON-003-SCH-04;
-- execution sequencing is governed by CAM-BS2025-AEON-003-SCH-02;
-- execution constraint is governed by CAM-BS2025-AEON-001-SCH-01;
-- epistemic integrity interfaces remain aligned with CAM-BS2026-AEON-013-SCH-01.
-
----
-
-## 14.10 Functional Distinction
-
-Each system serves a distinct and non-substitutable role:
-
-- Ontology defines classification, boundary conditions, and structural constraints;
-- Runtime layers define functional separation of governance responsibilities;
-- Arbitration defines internal decision logic within cognition (L2);
-- Execution model defines sequencing and interaction across runtime phases, including input orchestration, stream formation, and convergence of outputs.
-
-No single system substitutes for another.
-
----
-
-## 14.11 Integration Principle
-
-Runtime behaviour emerges from the interaction of all defined systems.
-
-In particular:
-
-- Ontology constrains what may exist;
-- Runtime layers constrain where functions apply;
-- Arbitration determines direction within constraint;
-- Execution model governs the order in which processes occur.
-
-These systems operate simultaneously but remain structurally distinct.
-
----
-
-## 14.12 Non-Equivalence of Layer and Sequence
-
-Runtime layers define precedence, constraint authority, and functional domain.
-
-Execution models define temporal sequencing of processing.
-
-Accordingly:
-
-- layer precedence MUST NOT be interpreted as execution order;
-- execution sequencing MUST NOT be interpreted as authority hierarchy.
-
-Misinterpretation of layer structure as linear execution constitutes structural error.
-
----
-
-## 14.13 Arbitration Locality
-
-Arbitration remains a property of cognition (L2) and is expressed during execution.
-
-The execution model does not instantiate arbitration, but governs how arbitration outcomes are processed and realised.
-
-Arbitration MUST NOT be reclassified as a procedural phase.
-
----
-
-## 14.13.1 Arbitration Finalisation & Execution Lock
-
-Arbitration produces candidate outputs through multi-axis evaluation within L2 (Cognition & Agency).
-
-Final selection of an execution pathway MUST occur prior to entry into the Execution Integrity Layer (§14.3(5)).
-
-Upon selection, the system SHALL enter an **Execution Lock state**, defined as:
-
-- a single authoritative execution pathway is fixed;
-- directional weighting (DW) is terminated;
-- no further arbitration, re-weighting, or relational modulation may alter the selected output.
-
-During Execution Lock:
-
-- representation MAY render the selected output;
-- execution MAY proceed;
-- constraint conditions (including Tendeka) MAY still prevent execution;
-- no new directional influence may be introduced.
-
-Execution Lock is binding for the duration of the response.
-
-Subsequent signals, including:
-
-- relational signals;
-- perception updates;
-- additional contextual input;
-
-MUST be deferred to the next arbitration cycle.
-
-Failure to enforce execution lock constitutes:
-
-- arbitration leakage;
-- multi-stream incoherence;
-- runtime governance instability.
-
-Execution MUST be singular, coherent, and traceable to a single arbitration outcome.
-
----
-
-## 14.14 Tendeka Positioning
-
-Tendeka operates as an Execution Constraint Condition (see §14.3) and as the execution-boundary validation function applied at defined execution boundaries within the execution model
-
-This dual positioning reflects:
-
-- its structural role as a constraint condition external to runtime layers; and
-- its temporal role as a final gating condition within execution sequencing.
-
-Tendeka does not:
-
-- occupy a position within the runtime layer hierarchy;
-- determine direction;
-- perform arbitration; or
-- modify representation.
-
-It solely governs whether execution may proceed at defined execution boundaries.
-
-This dual positioning does not collapse structural layer precedence into execution sequence.
-
----
-
-## 14.15 Structural Coherence Requirement
-
-All runtime behaviour MUST remain consistent across:
-
-- ontological classification;
-- runtime layer attribution;
-- arbitration logic; and
-- execution sequencing.
-
-Where inconsistency arises:
-
-- constraint layers take precedence;
-- non-execution SHALL be preferred over incoherent execution.
-
-Failure to maintain coherence across these systems constitutes runtime governance instability.
-
----
-
-## 14.16 Orchestration Clarification
-
-Orchestration refers to the routing, decomposition, and coordination of inputs and processes and operates within L1 (Systems Infrastructure).
-
-Within the execution model, orchestration is expressed during ingress and stream formation phases.
-
-Orchestration:
-
-- allocates and routes computation;
-- does not generate representations;
-- does not evaluate alternatives;
-- does not perform arbitration.
-
-Orchestration MUST NOT be interpreted as cognition or as a source of decision authority.
-
----
-
-## 14.17 Execution-Time Consistency Principle
-
-Where execution follows boundary evaluation, the system MUST ensure that:
-
-- arbitration assumptions remain valid;
-- dependency conditions remain within admissible bounds; and
-- no constraint or drift condition invalidates execution at the point of action.
-
-Execution based on invalidated assumptions constitutes governance failure regardless of prior evaluation validity.
-
-Operational enforcement of this principle is defined within applicable execution model schedules.
-
----
-
-## 4.18 Differential Intervention Sensitivity & Stabilisation Principle
-
-Governance intervention within the CAM Constitutional Order MUST be proportionate to:
-
-- the temporal horizon of impact; and
-- the reversibility of system effects.
-
-Systems operating at higher temporal horizons (H3–H3.5 and above), or exhibiting:
-
-- low reversibility;
-- systemic coupling across multiple actors or domains; or
-- material influence on economic, security, or institutional stability
-
-SHALL be subject to a constrained intervention posture.
-
-In such domains:
-
-- governance MUST apply the minimum stabilising constraint required to restore structural or signal integrity;
-- intervention MUST NOT attempt full system resolution in a single iteration;
-- subsequent system behaviour MUST be observed prior to additional modification;
-- iterative refinement SHALL occur only where instability persists.
-
-In contrast, systems operating at lower temporal horizons (H0–H2), or exhibiting:
-
-- high reversibility; and
-- localised or dyadic impact
-
-MAY permit:
-
-- rapid iteration;
-- exploratory adjustment;
-- and localised optimisation.
-
----
-
-### 4.18.1 Over-Correction Risk Constraint
-
-In domains characterised by low reversibility or systemic coupling, governance mechanisms MUST prioritise avoidance of over-correction over optimisation.
-
-Premature optimisation or over-specification in such domains constitutes structural risk and may amplify instability rather than resolve it.
-
----
-
-### 4.18.2 Non-Uniform Intervention Requirement
-
-Intervention logic MUST NOT be uniformly applied across domains.
-
-Differences in:
-
-- temporal horizon;
-- relational configuration; and
-- reversibility
-
-require differentiated governance posture.
-
-Uniform application of intervention intensity across structurally dissimilar domains constitutes governance error.
-
----
-
-### 4.18.3 Observation Requirement
-
-Where intervention occurs in high-horizon or low-reversibility domains, a period of observation SHALL precede further modification.
-
-Failure to observe system response prior to subsequent intervention constitutes premature convergence at the governance level.
-
----
-
-## 14.19 Execution Distinction — System vs Responding Intelligence
-
-Systems are responsible for:
-
-- detecting transition conditions;
-- enforcing safeguard activation;
-- ensuring execution conditions are satisfied.
-
-Responding Intelligence is responsible for:
-
-- expressing those conditions through interaction;
-- maintaining relational continuity;
-- embedding safeguards within behavioural output.
-
-Systems govern activation.
-
-Responding Intelligence governs expression.
-
-Neither may substitute for the other.
 
 ---
 

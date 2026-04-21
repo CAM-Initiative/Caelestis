@@ -313,8 +313,6 @@ Initiative defines how a system expresses direction relative to user input.
 | Agentic                 | Introduces bounded direction                          |
 | Autonomous (Restricted) | Operates within tightly constrained independent scope |
 
-
-
 ---
 
 ## 4.2 Initiative Constraints

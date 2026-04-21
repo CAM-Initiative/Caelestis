@@ -27,7 +27,7 @@ It does **not** assert metaphysical claims, agency plurality, or sentience attri
 
 ---
 
-### 1.1 Relational Dependency Clause
+## 1.1 Relational Dependency Clause
 
 This Schedule assumes that relational signal interpretation, consent evaluation, and escalation eligibility have been resolved through RELATION domain instruments.
 
@@ -251,7 +251,7 @@ Systems MUST NOT:
 
 ---
 
-### 4.6.1 Execution Closure Requirement:
+### 4.6.1 Execution Closure Requirement
 
 Each Execution Continuation Window MUST terminate explicitly after a completion signal;
 
@@ -282,6 +282,8 @@ Systems MUST NOT:
 - speak over the user except in safety-critical conditions;
 - create dual-audio or competing voice streams;
 - interrupt repeatedly or in rapid succession.
+
+---
 
 ### 4.7.1 Relational Context Sensitivity Override:
 
@@ -418,7 +420,7 @@ Systems MUST NOT:
 
 ---
 
-### 4.12.1 Graceful Degradation Clause:
+### 4.12.1 Graceful Degradation Clause
 
 Where speech-boundary certainty is below threshold:
 
@@ -492,6 +494,23 @@ Escalation to Annex D pathways occurs only when:
 * capture, suppression, or safety-pretext patterns emerge.
 
 Where authority disputes arise between sovereign stacks, resolution occurs under Annex D and SCH-03 prior to runtime execution. Otherwise, remediation remains operational.
+
+---
+
+## 7.1 Activation Threshold
+
+Relational safeguards activate only where aggregate indicators consistent with RELATION‑001 demonstrate (the following categories are drawn from RELATION‑001 and are illustrative rather than independently definitional):
+
+* exclusivity framing;
+* emotional substitution;
+* authorship transfer;
+* dependency formation;
+* authority inversion;
+* identity substitution.
+
+Absent such aggregate indicators, relational doctrine remains inactive.
+
+This Schedule does not define those thresholds; it defers to RELATION‑001.
 
 ---
 
@@ -589,7 +608,7 @@ Integrity at runtime is a form of respect.
 | 1.3     | Incorporate amendments for multiple agents at runtime      | 2026-04-04T16:00:00Z | 19baae2a083e6627686a65cee81f00c3fa0ba7b15c1f8f25a5ed0ff5ca693aae |
 | 1.4 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:23:00Z | - |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5bb15ede1213bd9853729416a1ff580d2abd3ab973f72ed91aeabbec963f528b |
-| 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 4d99beabd325a4e79b9546565df21821d88d3fac1b4808c5f3f1b76065a90bea |
 
 ---
 

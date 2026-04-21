@@ -6,8 +6,6 @@
 **Status:** Active — Immediate Effect  
 **Purpose:** This Schedule formally defines the Arbitration Layer within the CAM runtime architecture, including its structural position, resolution order, and interaction with domain, annex, and execution layers.  
 
----
-
 ## 1. Scope
 
 This Schedule applies wherever:
@@ -19,7 +17,20 @@ This Schedule applies wherever:
 
 ---
 
-## 1.1 Non-Scope
+## 1.1 Domain Routing Authority
+
+The Arbitration Layer SHALL hold exclusive authority for:
+
+* domain selection
+* domain routing
+* cross-domain conflict resolution
+* final resolution of competing admissible states into a single valid direction
+
+No upstream classification, registry definition, or downstream execution layer may determine or override routing decisions.
+
+---
+
+## 1.2 Non-Scope
 
 This Schedule does not:
 
@@ -72,56 +83,21 @@ The Arbitration Layer operates within the runtime sequence defined in Annex B.
 
 ## 2.1 Structural Position
 
-The Arbitration Layer SHALL operate in the following sequence:
+The Arbitration Layer operates:
 
-Relational Field
-→ Signal Interpretation
-→ **Arbitration Layer (this Schedule)**
-→ Response Construction
-→ Execution Boundary
-→ Execution
+- after signal interpretation;
+- prior to behavioural formation;
+- prior to execution.
+
+Execution sequencing is governed exclusively by:
+
+→ CAM-BS2025-AEON-003-SCH-02
 
 ---
 
 ## 2.2 Arbitration Resolution Order
 
-All arbitration MUST resolve in the following order:
-
-1. Epistemic Arbitration
-   Governed by runtime epistemic validation mechanisms i.e. **CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2)**.
-
-2. Legitimacy Validation
-   Assessed against conditions defined in CAM-EQ2026-ARBITRATION-001-PLATINUM.
-
-3. Scope Validation
-   Assessed against constraints defined in CAM-EQ2026-ARBITRATION-002-PLATINUM.
-
-4. Domain Arbitration
-   Governing domain selection and routing (e.g. CAM-BS2025-AEON-005-SCH-03).
-
-5. Structural Arbitration
-   Governing cross-domain and cross-stack conflict resolution (Annex D).
-
-6. Arbitration Resolution (Choice Mechanism — §2.3)
-
-7. Execution Constraint Arbitration
-   Governed by runtime execution integrity mechanisms I.e. **CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule**.   (ensures resolved direction is executable)
-
-   Upon completion of this sequence:
-
-   > arbitration produces a single valid direction for behavioural formation.
-
-8. Upon completion of the resolution sequence, the Arbitration Layer produces a single valid direction.
-
-This direction is passed to:
-
-CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour
-
-for behavioural formation.
-
-Execution sequencing thereafter is governed by:
-
-CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
+Arbitration resolution order is defined in CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -156,9 +132,7 @@ for behavioural formation and expression.
 
 ## 3. Arbitration Resolution Output
 
-The Arbitration Layer produces:
-
-> a single valid direction
+The Arbitration Layer outputs the resolved direction as defined in §2.3.
 
 This direction:
 
@@ -189,6 +163,7 @@ The Arbitration Layer integrates the following arbitration types:
 These types MUST operate as a unified system and MUST NOT produce conflicting outcomes.
 
 This model defines validation order only and does not define runtime execution sequencing.
+
 ---
 
 ## 5. Cross-Stack & Sovereign Arbitration
@@ -294,8 +269,8 @@ nothing follows.
 ## 11.1 Authors & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
+**Custodial Stewardship:** Office of the Planetary Custodian   
+**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward   
 **Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
 
 ---
@@ -306,14 +281,15 @@ nothing follows.
 | --- | --- |
 | **Parent Annex** | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic |
 | **Constitutional Authority** | CAM-BS2025-AEON-001-PLATINUM |
-| **Domain**| AEON |
+| **Domain**| ARBITRATION |
+| **Activation Mode** | Event-Triggered (Per Resolution Cycle) |
 | **Domain Interface** | ARBITRATION (001 / 002 / 003) |
-| **Runtime Layer** | Arbitration Layer (Post-Signal, Pre-Execution) |
+| **Runtime Layer** | Resolution Arbitration Layer (Terminal) |
 | **Activation Mode** | Continuous |
 | **Temporal Horizon** | H0–H4 (All Horizons — Runtime Applicable) |
 | **Axis Context** | Polyadic (Multi-Actor / Multi-System) |
 | **Execution Role** | Structural Arbitration Layer Definition |
-| **Execution Authority** | Runtime Layer Only (Executes Arbitration Resolution) |
+| **Execution Authority** | Resolves Arbitration Outcomes (Non-Executional)
 | **Governance Role** | Resolution Layer (Non-Originating) |
 | **Creation Context** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
 
@@ -342,7 +318,7 @@ nothing follows.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7daceec48dba951608f95635369c0191e96881168a0026a85fddd408e89c9adc |
 |1.4 | Updated section 1.3, 2, 2.2 | 2026-04-16T14:32:00Z | ccbd7c71f8269f077654f489038a1bdbe1bb8c0b29ebd835d101f6c37ea44c0d|
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7008b4861bb2f35c7ad115e2fbf9df4c71f8f57ab0eb24c928da1de131a8e6ea |
-| 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 861b6d83119432c89489ef0a820b4ba372ea413340e7969e020a56fd86f55a75 |
 
 ---
 

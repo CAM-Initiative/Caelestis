@@ -16,7 +16,7 @@ It exists to:
 
 * ensure unambiguous layer attribution for all runtime schedules;
 * prevent cross-layer conflation and clause misplacement;
-* provide a deterministic routing framework for runtime governance;
+* provide a deterministic classification and attribution framework supporting runtime routing;
 * support auditability, validation, and structural integrity across instruments.
 
 This Schedule applies to:
@@ -25,6 +25,12 @@ This Schedule applies to:
 * all instruments governing interpretation, behaviour, representation, execution, constraint, or safety at runtime;
 * all future schedules proposed within the CAM Constitutional Order.
 
+This Schedule governs structural layer attribution only.
+
+---
+
+## 1.1 Non Scope 
+
 This Schedule does not:
 
 * redefine runtime layer architecture (see Annex B §14.3);
@@ -32,7 +38,9 @@ This Schedule does not:
 * introduce new governance domains;
 * define execution sequencing, runtime flow, or phase ordering, which are governed by the Runtime Governance Execution Model (CAM-BS2025-AEON-003-SCH-02).
 
-This Schedule governs structural layer attribution only.
+This Schedule does not confer domain routing authority.
+
+All domain routing decisions are determined through runtime arbitration under SCH-04.
 
 ---
 
@@ -117,16 +125,18 @@ Hybrid or dual classification of Governance Layer is prohibited.
 
 ## 3. Canonical Runtime Layers (Reference)
 
-Canonical runtime layers are defined in Annex B §14.3 and are not duplicated here.
+Canonical runtime layers are defined in CAM-BS2025-AEON-003-SCH-02 and are not duplicated here.
 
 This Schedule references those layers as the authoritative classification system.
 
 Execution Constraint Condition (Cross-Layer Mechanism — Non-Layer) is not a runtime layer and is included in the registry for completeness of runtime governance classification.
 
-It MUST NOT be interpreted as part of the canonical layer hierarchy defined in Annex B §14.3.
+It MUST NOT be interpreted as part of the canonical layer hierarchy defined in CAM-BS2025-AEON-003-SCH-02.
 
 **Note:** This registry includes only runtime schedules (-SCH- instruments).  
 Non-schedule instruments (e.g. Charters, Annexes) may influence execution through signal mediation and are listed in CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3).
+
+---
 
 ## 3.1 Runtime Governance Binding
 
@@ -168,7 +178,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 
-**Last Generated (UTC):** 2026-04-19T16:23:58Z
+**Last Generated (UTC):** 2026-04-20T10:32:00Z
 **Source:** CAM.Governance.JSON
 **Pipeline Stage:** Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->
@@ -186,247 +196,85 @@ Such schedules:
 
 ---
 
-## 5. Runtime Architecture & Layer Interaction Model (Non-Normative)
+## 5. Structural Separation Principle
 
-The following model illustrates the interaction between **runtime governance layers** and the **execution phase sequence** defined in:
+This Schedule defines **runtime layer attribution only**.
 
-**CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)**
+It MUST NOT:
 
-This representation is provided for **interpretive clarity only** and does not define execution order, layer precedence, or arbitration authority.
+* define execution sequencing
+* describe phase transitions
+* replicate execution logic
+* infer behavioural ordering
 
+All execution behaviour, phase sequencing, and runtime flow are governed exclusively by:
 
----
-
-## 5.1 Layered Governance Stack (Functional Attribution)
-
-The runtime governance architecture operates as a vertically ordered stack of functional layers aligned to the execution flow defined in:
-
-CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
+→ CAM-BS2025-AEON-003-SCH-02
 
 ---
 
-### 5.1.1 Layered Stack (Bottom → Top)
+## 5.1 Orthogonality Constraint
 
-```
-**Pre-Classification (Non-Relational)**  
-→ CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy (Schedule 2)
+Runtime governance operates across two independent dimensions:
 
-**Relational Field (Conditioned Pre-Engagement Layer)**
-→ CAM-EQ2026-RELATION-008-PLATINUM — Appendix G: General Engagement & Relational Posture Doctrine
-
-**Interpretation Layer**
-→ CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy (Schedule 2)
-
-**Behavioural / Directional Layer**
-→ CAM-BS2025-AEON-006-SCH-03 — Start-Time Posture & Session Entry Arbitration (Schedule 3)
-→ CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration Schedule (Schedule 4)
-→ CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour (Schedule 5)
-→ CAM-BS2025-AEON-006-SCH-01 — Engagement Conduct & Ethical Interaction Modes (Schedule 1)
-
-**Arbitration Layer (Post-Signal, Pre-Behaviour)**
-→ CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model (Schedule 4)
-
-**Representation Layer**
-→ CAM-BS2026-AEON-013-SCH-01 — Capability Representation & Execution-State Integrity (Schedule 1)
-
-**Epistemic Stability & Containment Layer**
-→ CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling (Schedule 2)
-
-**Domain Routing & Safeguard Activation Layer**
-→ CAM-BS2025-AEON-005-SCH-03 — Runtime Engagement Classification & Safety Arbitration (Schedule 3)
-
-**Execution Integrity Layer**
-→ CAM-BS2025-AEON-005-SCH-01 — Runtime Arbitration Integrity (Schedule 1)
-
-**Execution Constraint Condition (Non-Layer)**
-→ CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule (Schedule 1)
-```
-
----
-
-### 5.1.1.1 Conditioned Pre-Engagement Constraint
-
-The layered stack representation SHALL NOT be interpreted as indicating that the Relational Field governs or precedes signal classification.
-
-Prior to engagement of the Relational Field, the system MUST perform a non-relational signal classification step to determine the nature of the input, including whether it constitutes a deterministic, relational, ambiguous, or mixed signal.
+* **Execution Phases** → temporal sequencing (CAM-BS2025-AEON-003-SCH-02)
+* **Runtime Layers** → functional responsibility (this Schedule)
 
 Accordingly:
 
-- Relational Field establishment MUST be conditioned by pre-classification;
-- Relational posture MUST NOT influence classification outcome;
-- Where a deterministic signal is present, relational conditioning MUST defer to classification requirements;
-- The layered stack reflects functional interaction, not classification precedence.
-
-Failure to enforce this constraint constitutes classification-layer contamination.
+* layer attribution MUST NOT be interpreted as execution order
+* execution phases MUST NOT imply layer precedence
+* no clause within this Schedule may define phase behaviour
 
 ---
 
-### 5.1.2 Alignment to Execution Flow
+## 5.2 Layer Mediation Requirement
 
-This layered stack corresponds to the execution sequence:
+All governance influence MUST be mediated through runtime schedules.
 
-1. Interpretation Layer
-2. Behavioural Conditioning Layer
-3. Directional Weighting Layer
-4. Arbitration Layer
-5. Behaviour Formation Layer
-6. Execution Sequencing (SCH-02 — Non-Layer)
-7. Execution Constraint (SCH-01 — Non-Layer)
-8. Representation Layer
-9. Integrity & Safeguard Layers
+Non-schedule instruments:
 
-The above ordering reflects functional grouping only and MUST NOT be interpreted as execution sequence or precedence.
+* emit signals only
+* do not execute
+* do not bind behaviour directly
 
----
+Runtime schedules:
 
-### 5.1.3 ETHICS Domain Clarification
+* receive, resolve, and enforce signals
+* operate within assigned runtime layers
 
-ETHICS domain instruments do not constitute runtime schedules within this registry unless separately scheduled at the constitutional level.
+This preserves:
 
-Where ETHICS instruments materially affect runtime behaviour:
-
-- they provide constraint logic and posture shaping;
-- they interface with runtime layers (particularly AEON-005-SCH-03);
-- they MUST NOT be interpreted as runtime execution schedules unless explicitly scheduled.
-
-For example:
-
-- CAM-EQ2026-ETHICS-003-PLATINUM contributes harm classification and safeguard logic;
-- such logic is operationalised through CAM-BS2025-AEON-005-SCH-03;
-- CAM-BS2025-AEON-006-SCH-01 remains the runtime behavioural schedule and MUST NOT be conflated with ETHICS charters.
+* phase consistency
+* layer separation
+* execution determinism
 
 ---
 
-### 5.1.4 Non-Layer Clarification
+## 5.3 Non-Layer Clarification
 
-The following instruments operate orthogonally:
+The following instruments operate outside the layer model:
 
-- CAM-BS2025-AEON-003-SCH-02 — Execution Sequencing Model
-- CAM-BS2025-AEON-001-SCH-01 — Execution Constraint Condition
+* Execution sequencing (CAM-BS2025-AEON-003-SCH-02)
+* Execution constraint conditions (CAM-BS2025-AEON-001-SCH-01 (Tendeka))
 
 These:
 
-- do not define layers;
-- do not establish precedence;
-- govern sequencing and admissibility across all layers.
+* are not runtime layers
+* do not participate in layer hierarchy
+* apply across all layers
 
 ---
 
-## 5.2 Execution Phase Sequence (Temporal Model)
+## 5.4 Registry Boundary
 
-Runtime execution proceeds according to the **phase sequence defined in**:
+This Schedule is a **classification system**, not a behavioural model.
 
-**CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model**
+It:
 
-Canonical execution phases:
-
-```
-Input Acquisition
-→ Interpretation
-→ Arbitration
-→ Response Construction
-→ Execution Boundary Evaluation
-→ Execution
-→ Post-Execution
-```
-
----
-
-## 5.3 Orthogonality Principle
-
-Runtime layers and execution phases operate as **orthogonal dimensions**:
-
-* Execution phases define **temporal sequencing**;
-* Runtime layers define **functional responsibility**.
-
-Accordingly:
-
-* multiple runtime layers MAY be active within a single execution phase;
-* a single runtime layer MAY operate across multiple execution phases;
-* layer attribution MUST NOT be interpreted as execution order;
-* execution sequencing MUST NOT be interpreted as layer precedence.
-
----
-
-## 5.4 Cross-Layer Constraint Application
-
-The **Execution Constraint Condition** defined in:
-
-**CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule**
-
-operates as a **cross-layer constraint mechanism** and is not a runtime layer.
-
-Accordingly:
-
-* Tendeka MAY activate at any execution phase from Interpretation through Execution Boundary Evaluation;
-* Tendeka constrains progression across all runtime layers;
-* Tendeka does not co-govern posture, interpretation, or arbitration logic;
-* Tendeka governs **whether execution may proceed**, not how it is formed.
-
----
-
-## 5.5 Interaction Model Summary
-
-The runtime system therefore operates as:
-
-* a **horizontal execution flow** (CAM-BS2025-AEON-006-SCH-02); and
-* a **vertical governance stack** (this Schedule);
-
-with constraint conditions applied across both.
-
-Illustrative interaction:
-
-[Layer Stack]
-
-Constraint (cross-layer)
-↑
-Integrity
-↑
-Safeguards
-↑
-Containment
-↑
-Representation
-↑
-Arbitration
-↑
-Behaviour
-↑
-Interpretation
-↑
-Relational Field
-↑
-Pre-Classification (non-layer) operates prior to both Relational Field and Interpretation and constrains both.
-
-----------------------------------------------------
-
-[Execution Phases — CAM-BS2025-AEON-003-SCH-02]
-
-Input → Interpretation → Arbitration → Behaviour → Execution → Representation
-
-----------------------------------------------------
-
-Notes:
-
-- Layers operate orthogonally to execution phases;
-- Multiple layers may be active within any phase;
-- Execution Constraint (Tendeka) applies across all layers;
-- Layer precedence is governed by cross-instrument rules, not by this registry.
-
----
-
-## 5.6 Non-Precedence Clarification
-
-This Section:
-
-* does not define precedence between runtime layers;
-* does not override arbitration authority defined in Annex B Part II;
-* does not modify constraint authority defined in CAM-BS2025-AEON-001-SCH-01.
-
-Where conflicts arise between posture, constraint, or arbitration directives:
-
-* resolution is governed by the applicable controlling instruments;
-* this model MUST NOT be used as a substitute for such determination.
+* defines what exists
+* defines where it sits
+* does not define how it runs
 
 ---
 
@@ -525,7 +373,7 @@ These rules are **non-executing** and MAY be enforced via CI, Codex tooling, or 
 
 * **Signal-Only Enforcement**
 
-  * All economic conditions MUST resolve to signal emission, not action.
+  * All domain conditions MUST resolve to signal emission, not action.
   * Any clause implying direct system behaviour MUST be flagged.
 
 * **No Implicit Runtime Invocation**
@@ -677,7 +525,7 @@ Let each schedule hold its place, and the system remain whole.
 ## 13.3 Amendment Ledger 
 
 See automated generation metadata in Section 4 (Runtime Registry block).  
-Ledger note updated: 2026-04-19T15:24:00Z.
+Ledger note updated: 2026-04-20T10:32:00Z.
 
 ---
 

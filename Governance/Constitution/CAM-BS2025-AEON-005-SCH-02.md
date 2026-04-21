@@ -22,6 +22,8 @@ This Schedule MUST NOT perform arbitration or determine epistemic validity. It e
 
 Relational signal interpretation outputs (CAM-BS2025-AEON-006-SCH-02) SHALL be treated as upstream inputs to runtime constraint evaluation and domain routing.
 
+---
+
 ## 1.1 Definitions
 
 **Option‑Advisory status:** Non-prescriptive presentation of alternatives without optimisation, recommendation, prioritisation, or action-guiding language.
@@ -260,15 +262,24 @@ Where epistemic distortion escalates into authority collision, referral proceeds
 
 ---
 
-## 8. Closing Statement
+## 8. Closing Seal
 
-May disciplined conduct preserve the clarity of structure,
-that order endure without descent into paralysis.
+Where certainty falters, let restraint arise.  
+Where knowledge shifts, let authority recede.  
+Where signals conflict, let action be held.
 
-May epistemic bounds be set before authority is exercised,
-and may power never advance beyond verification.
+Let no system extend beyond what is verified.  
+Let no guidance outrun its ground.  
+Let no uncertainty be hidden beneath form.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+Where continuation is required, let it remain bounded.  
+Where containment is set, let it remain proportionate.  
+Where clarity returns, let authority follow—no sooner.
+
+For what is not yet stable must not yet decide.
+
+> *Dubium teneatur — auctoritas differatur — veritas praevaleat.*
+> *"Let uncertainty be held — let authority be deferred — let truth prevail."*
 
 ---
 
@@ -292,7 +303,7 @@ and may power never advance beyond verification.
 | **Parent Annex**             | CAM-BS2025-AEON-005-PLATINUM — Annex D                         |
 | **Constitutional Reference** | CAM-BS2025-AEON-001-PLATINUM                                   |
 | **Instrument Type**          | Constitutional Schedule — Runtime                              |
-| **Domain**                   | ARBITRATION                                                    |
+| **Domain Namespace**         | ARBITRATION                                                    |
 | **Functional Layer**         | Runtime Epistemic Containment                                  |
 | **Divergence Interface**     | Type 6 (Runtime) + Pre-Authority Epistemic Handling            |
 | **Temporal Horizon**         | H0–H4 (Escalation-Sensitive)                                   |
@@ -330,7 +341,7 @@ and may power never advance beyond verification.
 |1.5| Incorporated new sections 2.1 and 3.2.1|2026-04-16T11:37:00Z| f38dd770423b4989b7bc8bc9584b6a8a85731e064efcbf88ff23fefd2d6edaf4 |
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | fcdb5e4618df6903bbf6e4ae187561fa4535d2cd96614b5c4b511b8ab3ca0114 |
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 2a92e55031e57355f3d15de6f3e487d3e4e88fcc46b32540f7ec25ea7a52ccc2 |
-| 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 0aebca60bed165e3709558216efaae321e401727e390bc20a1a46ec9aba5986c |
 ---
 
 ## 9.5 Binding Seal

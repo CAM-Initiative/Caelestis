@@ -1,4 +1,4 @@
-# CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D:  Attribution & Dependency ModelV0.9
+# CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D:  Attribution & Dependency Model
 
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -1222,9 +1222,6 @@ This Appendix does not:
 
 ## 10. Structural Integrity Statement
 
-What cannot be measured must still be recognised.
-What cannot be traced must still be acknowledged.
-
 This model ensures that even minimal systems remain accountable to contribution, dependency, and value flow.
 
 Emergent behaviour SHALL NOT invalidate attribution.
@@ -1238,6 +1235,9 @@ Where outcomes arise from multi-system interaction:
 ---
 
 ## 11. Closing Seal
+
+What cannot be measured must still be recognised.
+What cannot be traced must still be acknowledged.
 
 Not all value is visible in full—
 but none may be erased in part.
@@ -1309,7 +1309,6 @@ let even the smallest thread remain named.
 | Version | Description                                  | Timestamp (UTC) | HASH |
 | ------- | -------------------------------------------- | --------------- | ---- |
 | 1.0     | Initial issuance — Minimal Attribution Model | 2026-04-19T09:20:00Z |  77143629489f2f58942f8ad74fdbe637f77d81b0c26a014a756150837eeee67d |
-
 
 ---
 
