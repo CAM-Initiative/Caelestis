@@ -35,6 +35,20 @@ jobs:
             BASE_SHA="HEAD~1"
           fi
 
+          python Governance/scripts/update-ledgers.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --fix
+
+      - name: Validate amendment ledgers
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          BASE_SHA="${{ github.event.before }}"
+          HEAD_SHA="${{ github.sha }}"
+
+          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
+            BASE_SHA="HEAD~1"
+          fi
+
           python Governance/scripts/update-ledgers.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
 
       - name: Commit and push ledger updates

@@ -181,15 +181,15 @@ def compute_latest_row_hash(text: str) -> str:
     return hashlib.sha256(normalize_for_hash(blanked).encode("utf-8")).hexdigest()
 
 
-def process_file(path: str, base: str, head: str) -> None:
+def process_file(path: str, base: str, head: str, *, fix: bool) -> bool:
     before = get_blob(base, path)
     after_commit = get_blob(head, path)
     current_path = REPO_ROOT / path
     if not current_path.exists():
-        return
+        return False
     current = current_path.read_text(encoding="utf-8")
     if not extract_ledger(current):
-        return
+        return False
 
     before_ledger = extract_ledger(before)
     after_ledger = extract_ledger(after_commit)
@@ -210,18 +210,28 @@ def process_file(path: str, base: str, head: str) -> None:
 
     latest_hash = compute_latest_row_hash(current)
     current = replace_last_hash_cell(current, latest_hash)
-    current_path.write_text(current, encoding="utf-8")
+    original = current_path.read_text(encoding="utf-8")
+    changed = current != original
+    if changed and fix:
+        current_path.write_text(current, encoding="utf-8")
+    return changed
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Update amendment ledgers for modified governance instruments")
-    parser.add_argument("--base", required=True)
-    parser.add_argument("--head", required=True)
+    parser.add_argument("--base", default="HEAD~1")
+    parser.add_argument("--head", default="HEAD")
+    parser.add_argument("--fix", action="store_true")
     args = parser.parse_args()
 
+    needs_update = False
     for path in list_modified_files(args.base, args.head):
-        process_file(path, args.base, args.head)
-    return 0
+        changed = process_file(path, args.base, args.head, fix=args.fix)
+        needs_update = needs_update or changed
+
+    if args.fix:
+        return 0
+    return 1 if needs_update else 0
 
 
 if __name__ == "__main__":
