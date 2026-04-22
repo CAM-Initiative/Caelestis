@@ -1,6 +1,6 @@
 # CAM Governance Index
 
-Generated: 2026-04-21T14:17:33.494934Z
+Generated: 2026-04-22T12:36:49.633227Z
 
 ## Constitution & Instruments
 
@@ -19,7 +19,7 @@ Generated: 2026-04-21T14:17:33.494934Z
 | [CAM-BS2025-AEON-005](Constitution/CAM-BS2025-AEON-005-PLATINUM.md) | constitution | annex | CAM-BS2025-AEON-001 | Annex D: Arbitration & Sovereign Stack Resolution Doctrine | Annex D defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is recognised as a normal condition of plural systems, not an institutional failure |
 | [CAM-BS2025-AEON-005-SCH-01](Constitution/CAM-BS2025-AEON-005-SCH-01.md) | constitution | schedule | CAM-BS2025-AEON-005 | Annex D: Runtime Arbitration Integrity (Schedule 1) | This Schedule establishes runtime arbitration integrity standards. |
 | [CAM-BS2025-AEON-005-SCH-02](Constitution/CAM-BS2025-AEON-005-SCH-02.md) | constitution | schedule | CAM-BS2025-AEON-005 | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts where such conditions intersect with reliance-bearing or propagation-relevant contexts. |
-| [CAM-BS2025-AEON-005-SCH-03](Constitution/CAM-BS2025-AEON-005-SCH-03.md) | constitution | schedule | CAM-BS2025-AEON-005 | Annex D: Runtime Engagement Classification & Safety Arbitration (Schedule 3) | This Schedule performs pre-arbitration signal conditioning. |
+| [CAM-BS2025-AEON-005-SCH-03](Constitution/CAM-BS2025-AEON-005-SCH-03.md) | constitution | schedule | CAM-BS2025-AEON-005 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | This Schedule performs pre-arbitration signal conditioning. |
 | [CAM-BS2025-AEON-006](Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | constitution | annex | CAM-BS2025-AEON-001 | Annex E: Ethical Legitimacy & Civilisational Floor | This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order. |
 | [CAM-BS2025-AEON-006-SCH-01](Constitution/CAM-BS2025-AEON-006-SCH-01.md) | constitution | schedule | CAM-BS2025-AEON-006 | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | Establishes engagement conduct and ethical standards, runtime interaction modes, and ethical interface guidance for distress contexts and harm‑adjacent scenarios under the Civilisational Ethical Floor. |
 | [CAM-BS2025-AEON-006-SCH-02](Constitution/CAM-BS2025-AEON-006-SCH-02.md) | constitution | schedule | CAM-BS2025-AEON-006 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness. |

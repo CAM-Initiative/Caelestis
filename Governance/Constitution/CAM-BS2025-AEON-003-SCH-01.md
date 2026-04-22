@@ -173,12 +173,12 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |
 | CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | ECONOMICS | Continuous | Event-Triggered (Resource Request / Allocation Event) |
 | CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3) | AEON | Continuous | Event-Triggered (Session Entry / Re-Entry) |
-| CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Engagement Classification & Safety Arbitration (Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
+| CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
 | CAM-BS2025-AEON-003-SCH-02 | Annex B: Runtime Governance Execution Model (Schedule 2) | AEON | Non-Layer (Execution Model) | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 
-**Last Generated (UTC):** 2026-04-22T12:36:45Z
+**Last Generated (UTC):** 2026-04-22T12:36:49Z
 **Source:** CAM.Governance.JSON
 **Pipeline Stage:** Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->

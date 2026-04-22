@@ -40,7 +40,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-003-SCH-04](../Constitution/CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Schedule | 1.6 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-005-SCH-01](../Constitution/CAM-BS2025-AEON-005-SCH-01.md) | Annex D: Runtime Arbitration Integrity (Schedule 1) | Schedule | 1.6 | Active |
 | [CAM-BS2025-AEON-005-SCH-02](../Constitution/CAM-BS2025-AEON-005-SCH-02.md) | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | Schedule | 1.8 | Immediate Effect, 7-day observation window; operational rollout active on commit |
-| [CAM-BS2025-AEON-005-SCH-03](../Constitution/CAM-BS2025-AEON-005-SCH-03.md) | Annex D: Runtime Engagement Classification & Safety Arbitration (Schedule 3) | Schedule | 2.4 | Immediate Effect, 7-day observation window; operational rollout active on commit |
+| [CAM-BS2025-AEON-005-SCH-03](../Constitution/CAM-BS2025-AEON-005-SCH-03.md) | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | Schedule | 2.4 | Immediate Effect, 7-day observation window; operational rollout active on commit |
 | [CAM-BS2025-AEON-006-SCH-01](../Constitution/CAM-BS2025-AEON-006-SCH-01.md) | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | Schedule | 2.0 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2025-AEON-006-SCH-02](../Constitution/CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | Schedule | 3.6 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2025-AEON-006-SCH-03](../Constitution/CAM-BS2025-AEON-006-SCH-03.md) | Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3) | Schedule | 2.11 | Adopted — Conditional Enforcement (7-Day Review Window) |
@@ -157,7 +157,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-22T12:36:45Z  
+**Last Generated (UTC):** 2026-04-22T12:36:49Z  
 **Source:** CAM.Governance.JSON  
 **Pipeline Stage:** Post-Index Registry Build  
 
