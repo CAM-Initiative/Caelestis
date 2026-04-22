@@ -2116,7 +2116,7 @@ Where sequence is broken, nothing that follows is valid.
 | 1.13 | Amended 3.1.1 Runtime Layered Interaction Model | 2026-04-19T15:21:00Z | 19065d3827025d8c2cfcff083d37e1a4ca158b5f834604b6b92544f149890251 |
 | 1.14 | Clarified relational posture ordering as downstream of pre-classification and prior to response construction | 2026-04-19T16:30:00Z | 5bf9e88e576c57fa1325967c07215344d8f86e794f44921c4e32e20e7891c63e |
 | 2.0 | Refactor | 2026-04-21T14:02:00Z | 139b5a3a7d49a47db2f3fbb609e3be1eed39e11938ccd7a7611859a485acd9dd |
-| 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z | - |
+| 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z |  |
 
 ---
 
