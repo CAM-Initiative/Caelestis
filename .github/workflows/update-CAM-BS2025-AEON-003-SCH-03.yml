@@ -7,6 +7,10 @@ on:
       - ".github/scripts/lib/**"
       - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
       - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
+  workflow_run:
+    workflows: ["Update Amendment Ledgers"]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: write
@@ -17,7 +21,9 @@ concurrency:
 
 jobs:
   build:
-    if: github.actor != 'github-actions[bot]'
+    if: |
+      (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
     env:
       BOT_NAME: github-actions[bot]

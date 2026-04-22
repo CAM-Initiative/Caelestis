@@ -15,6 +15,7 @@ on:
 
 jobs:
   lint:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     steps:
@@ -28,7 +29,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Lint amendment ledger updates
+      - name: Resolve ledger comparison SHAs
         shell: bash
         run: |
           set -euo pipefail
@@ -45,5 +46,39 @@ jobs:
             BASE_SHA="HEAD~1"
             HEAD_SHA="HEAD"
           fi
+
+          {
+            echo "BASE_SHA=${BASE_SHA}"
+            echo "HEAD_SHA=${HEAD_SHA}"
+          } >> "${GITHUB_ENV}"
+
+      - name: Fix Amendment Ledger (auto-hash)
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python .github/scripts/lint_amendment_ledger.py \
+            --base "${BASE_SHA}" \
+            --head "${HEAD_SHA}" \
+            --fix
+
+      - name: Commit ledger fixes
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "Auto-fix Amendment Ledger (hash update)"
+            git push origin HEAD:main
+          fi
+
+      - name: Lint Amendment Ledger
+        shell: bash
+        run: |
+          set -euo pipefail
 
           python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
