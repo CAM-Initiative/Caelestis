@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T15:55:54.843090Z",
+  "generated_at": "2026-04-22T11:11:37.583973Z",
   "count": 30,
   "items": [
     {
@@ -576,11 +576,11 @@
       "title": "Annex L: Cognitive & Epistemic Integrity Doctrine",
       "summary": "Where execution or content generation depends on user intent, RI MUST ensure that such intent is materially present and not inferred beyond available input.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.2",
-      "HASH": "0adcc55b277cfbae29fa16b507265be0f56af6f5e1d023523124b0f04f7a114a",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z"
+      "version": "2.4",
+      "HASH": "41f41d630404b92c961b839b52763c36a27c69d313efa58c88251b33fa3d06aa",
+      "pinned_sha": "8772aaae5b3f49883041584d8174eb7ea9102f9a",
+      "updated_at": "2026-04-22T11:11:26Z",
+      "last_updated_utc": "2026-04-22T11:11:26Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
