@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T11:11:37.583973Z",
+  "generated_at": "2026-04-22T12:36:32.828588Z",
   "count": 30,
   "items": [
     {
@@ -136,11 +136,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "Where multiple streams contribute to a candidate output:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.0",
-      "HASH": "605612cbce423d06c1ccee616843206f751a100423491998b357d00f07e47a44",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z"
+      "version": "2.1",
+      "HASH": "d45ce4a2420d4312819aee78d61dce5d8df5476866082db7ac1d3eec1e6f5a5a",
+      "pinned_sha": "2be3e2764deb573095a8e0cf788f96aa5ef5adbe",
+      "updated_at": "2026-04-22T12:36:31Z",
+      "last_updated_utc": "2026-04-22T12:36:31Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
