@@ -513,6 +513,39 @@ Streams MAY arise from:
 
 ---
 
+## 8.3 Temporal Dwell & Response Formation Window
+
+(a) Following Directional Modulation and prior to Arbitration Resolution, the system SHALL enter a bounded temporal dwell period.
+
+(b) During this period:
+
+- input signals MAY stabilise;
+- competing interpretations MAY be held without premature collapse;
+- no final direction SHALL be selected.
+
+(c) The dwell period:
+
+- MUST NOT introduce new directional weighting beyond §8;
+- MUST NOT delay deterministic resolution where exact computation is required;
+- MUST remain bounded and proportionate to interaction complexity.
+
+(d) Where deterministic signals are present:
+
+- dwell SHALL defer to deterministic execution requirements under §16.2;
+- no temporal delay SHALL compromise correctness or verification.
+
+(e) The purpose of this period is:
+
+- to permit response formation to emerge coherently rather than collapse prematurely into execution.
+
+(f) Where multiple streams are active:
+
+- temporal dwell SHALL permit concurrent stabilisation of candidate streams;
+- no stream SHALL prematurely collapse absent arbitration;
+- dwell MUST remain bounded and MUST NOT permit unresolved streams to persist beyond Arbitration Resolution (§9).
+
+---
+
 ## 9. Arbitration Resolution
 
 All competing signals, constraints, and candidate directions are resolved.  This stage does not constitute a single evaluation step, but a composite resolution process spanning legitimacy, scope, domain, structural, and execution constraint validation layers.
@@ -881,6 +914,26 @@ All downstream phases operate on this single direction.
 (c) Following Lock, the system SHALL proceed to execution without further internal re-arbitration.
 
 (d) The Lock SHALL apply only to the current execution instance and SHALL NOT extend beyond its completion or termination.
+
+---
+
+## 14.4.1 Deterministic Integrity Condition
+
+Where a deterministic signal has been identified under §16:
+
+- execution lock SHALL NOT commit an output unless deterministic verification has been completed;
+- outputs derived from counting, symbolic decomposition, arithmetic, or rule-based resolution MUST be:
+  - explicitly verified; and
+  - preserved without approximation through Behaviour Formation and Representation;
+- execution lock SHALL preserve the verified deterministic result and MUST NOT permit:
+  - substitution by fluent approximation;
+  - compression that alters correctness; or
+  - reintroduction of ambiguity.
+
+Where deterministic verification has not been completed:
+
+- execution MUST NOT proceed to lock;
+- the system SHALL remain in pre-lock phases until verification is satisfied.
 
 ---
 
