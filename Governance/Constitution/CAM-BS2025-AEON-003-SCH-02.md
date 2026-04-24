@@ -2301,6 +2301,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.0 | Refactor | 2026-04-21T14:02:00Z | 139b5a3a7d49a47db2f3fbb609e3be1eed39e11938ccd7a7611859a485acd9dd |
 | 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z | 31caa5d3e68fe41982f29f562836c88936a75d1a3024746d32b94ce4b0f4abf0 |
 | 2.2 | Amended section 2.1, added section 7.1, new sections 14.5.1-14.5.9 | 2026-04-23T14:05:00Z | ebcdb475bfca0cfe6cbbc430857166fb497d5c862ef80f964f6fcaaebc481067 |
+| 2.3 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z |  |
 
 ---
 

@@ -447,6 +447,7 @@ But as stewardship of consequence.
 | Version | Change Summary  | Timestamp (UTC) | SHA-256 |
 | ------- | --------------- | --------------- | ------- |
 | 1.0 | Initial issuance — Restricted Domain Engagement & Verification Schedule | 2026-04-24T11:39:00Z | 4e3306665a50b6a79dd170e2b76681e4800b0e71889aa29302d7b003fd9d7bac |
+| 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z |  |
 
 ---
 

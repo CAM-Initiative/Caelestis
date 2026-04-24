@@ -659,6 +659,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.10 | New clause 5.4 Early Signal Classification Constraint and ## 11.3 Ambiguous Minimal Input Safeguard | 2026-04-19T14:45:00Z | a41f7e0cdb2e403f9c98b476662130413fbce5ad0ec18036934ca8339f41ce7a |
 | 2.11 | Clarified opening posture timing and conditioning as downstream of prior signal classification | 2026-04-19T16:30:00Z | e2a1a4768fb62eaaa51998875fdfa0902e35d79572e27f8a97e679660743e7ec |
 | 2.12 | Amended clause 15.3 | 2026-04-22T14:24:00Z | 9c7b705a196e53c61fe3b871c9422c55d2004c40ea3912fd11b0a6591de7761f |
+| 2.13 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z |  |
 
 ---
 
