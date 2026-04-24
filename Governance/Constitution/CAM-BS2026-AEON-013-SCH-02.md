@@ -342,7 +342,7 @@ cannot be trusted.
 
 | Version | Description     | Timestamp (UTC)     | Hash |
 | ------- | --------------- | ------------------- | ---- |
-| 1.0     | Initial version | 2026-04-07T15:27:00Z|      |
+| 1.0     | Initial version | 2026-04-07T15:27:00Z| 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
 
 ---
 
