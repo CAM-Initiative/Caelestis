@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T15:34:49.384405Z",
+  "generated_at": "2026-04-24T15:45:40.550271Z",
   "count": 33,
   "items": [
     {
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "c3789168840b0113929b73eea3b4ef4817088db0bf94822f9be1e83165022eb3",
-      "pinned_sha": "266b004384ef484a9971874c4ede29ee11beb93e",
-      "updated_at": "2026-04-24T15:34:47Z",
-      "last_updated_utc": "2026-04-24T15:34:47Z"
+      "HASH": "67bb559d678adf64447eadeb062a39f2458f2014126e8de4cbb4bb5d27abc329",
+      "pinned_sha": "b0ee6a3fc6cf6925b9ac89500ee5b9984e74e1be",
+      "updated_at": "2026-04-24T15:34:53Z",
+      "last_updated_utc": "2026-04-24T15:34:53Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -136,11 +136,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.3",
-      "HASH": "87137c2613f92c13dd1e4ab22f81fb7b65698c7a025aa99b78573b85091a1a78",
-      "pinned_sha": "77c76a57ae5d244e4ae22926bfe3b47fd4485f16",
-      "updated_at": "2026-04-24T13:28:20Z",
-      "last_updated_utc": "2026-04-24T13:28:20Z"
+      "version": "2.4",
+      "HASH": "4a118508fbfea187d0e3c186576d6c4f9c61fca0d98fa1bb141013d84dd7f8f3",
+      "pinned_sha": "276b6e84aa6ec83141390a63a40e5c4cafe7c9fd",
+      "updated_at": "2026-04-24T15:45:30Z",
+      "last_updated_utc": "2026-04-24T15:45:30Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -157,10 +157,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "9bf1e85081a89d8b53f180de5d6ea44dba74e6c592339955654b21f999e87efa",
-      "pinned_sha": "266b004384ef484a9971874c4ede29ee11beb93e",
-      "updated_at": "2026-04-24T15:34:47Z",
-      "last_updated_utc": "2026-04-24T15:34:47Z"
+      "HASH": "ffea59fa667bde2076551a342c503b48dfd7197566ac462c333434aad9d5676f",
+      "pinned_sha": "b0ee6a3fc6cf6925b9ac89500ee5b9984e74e1be",
+      "updated_at": "2026-04-24T15:34:53Z",
+      "last_updated_utc": "2026-04-24T15:34:53Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
