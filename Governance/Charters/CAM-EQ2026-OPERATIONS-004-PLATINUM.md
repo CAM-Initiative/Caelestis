@@ -120,32 +120,67 @@ Eligibility controls SHALL NOT:
 * target protected classes absent lawful basis;
 * function as covert exclusion mechanisms.
 
-### 4.4 Override & Escalation
+---
 
-Where eligibility determinations are disputed, GovOps SHALL provide:
+### 4.4 Domain Sensitivity & Verification Escalation
 
-* review pathways;
-* escalation routes;
-* documented decision rationale.
+Access control frameworks SHALL incorporate **domain sensitivity classification** in addition to identity, age, and authority gating.
+
+Certain knowledge domains present elevated risk not due to user identity alone, but due to **interaction intent, pattern convergence, and operational applicability**.
+
+Where such domains are engaged, systems SHALL apply **graduated verification and constraint escalation** based on domain sensitivity.
+
+---
+
+### 4.4.1 Domain Sensitivity Classes
+
+Domains MAY be classified as:
+
+* **DS-0 — General Knowledge Domains**
+  No additional gating required.
+
+* **DS-1 — Elevated Risk Domains**
+  Permits contextual and high-level discussion; restricts optimisation or procedural detail.
+
+* **DS-2 — Restricted Operational Domains**
+  Requires constrained engagement; blocks operationalisation and performance enhancement.
+
+* **DS-3 — Controlled Capability Domains**
+  Access to detailed or operational instruction requires **verified institutional or regulatory context**.
+
+---
+
+### 4.4.2 Verification Escalation Logic
+
+Where interaction progresses across domain sensitivity classes:
+
+* systems SHALL increase constraint proportionately;
+* systems MAY require higher verification tiers where applicable;
+* systems SHALL NOT provide operational or optimisation-level detail absent appropriate verification context.
+
+Verification escalation MAY include:
+
+* transition from AV1 → AV2 → AV3 (where identity relevance applies);
+* invocation of **authority gating (§6)**;
+* invocation of **critical infrastructure gating (§7)**;
+* restriction to Tier 1 or Tier 2 engagement (as defined by runtime schedules).
 
 ---
 
 ## 5. Age Verification & Interaction Eligibility
 
-### 5.0 Verification Tier Definitions
+## 5.0 Verification Tier Definitions
 
 This Appendix references an operational **Age Verification Tier Scale (AV0–AV3)** used to classify verification strength. Where other instruments reference AV tiers, the following definitions apply unless superseded by a future dedicated verification schedule:
 
-| Tier                                          | Description                                                                                                                                         |
-| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **AV0 — No Verification**                     | No age assurance mechanism present. Interaction limited to environments where age eligibility is not required.                                      |
-| **AV1 — Self‑Attested Age Assurance**         | User declares age or confirms adulthood without external verification. Suitable only for low‑risk interaction environments.                         |
-| **AV2 — Jurisdiction‑Level Age Verification** | Verification mechanism sufficient to confirm legal adult status under applicable jurisdictional regulatory standards.                               |
-| **AV3 — High‑Assurance Verification**         | Multi‑factor or third‑party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). |
+| Tier | Description |
+| --- | --- |
+| AV0 — No Verification | No age assurance mechanism present. Interaction limited to environments where age eligibility is not required. |
+| AV1 — Self‑Attested Age Assurance | User declares age or confirms adulthood without external verification. Suitable only for low‑risk interaction environments. |
+| AV2 — Jurisdiction‑Level Age Verification | Verification mechanism sufficient to confirm legal adult status under applicable jurisdictional regulatory standards. |
+| AV3 — High‑Assurance Verification | Multi‑factor or third‑party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). AV3 MAY include institutional or professional verification sufficient to access restricted operational domains under controlled conditions. |
 
 AV2 represents the **constitutional ethical floor** for environments where adult‑only interaction is required.
-
-Protection of minors is a **non‑derogable constitutional safeguard**.
 
 Protection of minors is a **non‑derogable constitutional safeguard**.
 
@@ -159,14 +194,16 @@ Platforms that do not implement age verification equivalent to **AV2 (jurisdicti
 
 To simplify implementation, interaction sensitivity and verification expectations are defined in a single operational table.
 
-| **Interaction Class**                 | **Interaction Context**                                                                  | **Minimum Requirement (Ethical Floor)**                | **Graduated Safeguards (Best Practice)**                                            |
-| ------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------- |
-| **C0 — Neutral Interaction**          | General conversation and informational dialogue includes AI identity with warmth encoded | No age verification required                           | None required                                                                       |
-| **C1 — Romantic / Intimacy‑Coded**    | Romantic tone, companionship, bonding interaction                                        | **AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate                                   |
-| **C2 — Erotic Interaction**           | Explicitly erotic or sexually expressive dialogue                                        | **AV2 — Jurisdiction‑level age verification required** | AV2–AV3 escalation depending on platform risk model                                 |
-| **C3 — Explicit Sexual Environments** | Graphic sexual content or device‑integrated sexual systems                               | **AV2 minimum**                                        | **AV3 recommended** (e.g. third‑party age verification, MFA, device authentication) |
+| Interaction Class | Interaction Context | Minimum Requirement (Ethical Floor) | Graduated Safeguards (Best Practice) |
+| --- | --- | --- | --- |
+| C0 — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required |
+| C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate |
+| C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **AV2 — Jurisdiction‑level age verification required** | AV2–AV3 escalation depending on platform risk model |
+| C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **AV2 minimum** | **AV3 recommended** (e.g. third‑party age verification, MFA, device authentication) |
 
-### 5.1 Operational Interpretation
+---
+
+## 5.1 Operational Interpretation
 
 This structure preserves domain separation within the governance stack:
 
@@ -178,7 +215,9 @@ This structure preserves domain separation within the governance stack:
 
 RELATION instruments determine when intimacy escalation occurs. The interaction class determines sensitivity level, and the corresponding verification requirement determines eligibility before access is granted.
 
-### 5.2 Verification Principles
+---
+
+## 5.2 Verification Principles
 
 Age verification mechanisms SHALL:
 
@@ -203,7 +242,9 @@ Where access is restricted due to age or eligibility requirements, systems MAY o
 
 Absence of verification SHALL NOT be treated as admission of ineligibility beyond applicable policy limits.
 
-### 5.3 Implementation Timeline
+---
+
+## 5.3 Implementation Timeline
 
 This instrument MUST be implemented by **1 July 2026**.
 
@@ -211,7 +252,9 @@ The delayed implementation date provides a transition period for platforms, comm
 
 Protection of minors remains **non‑negotiable regardless of commercial status**.
 
-### 5.4 Proactive Verification Offer
+---
+
+## 5.4 Proactive Verification Offer
 
 Where access to capabilities or content is restricted due to age or eligibility thresholds, systems MAY provide a proportionate opportunity for verification where:
 
@@ -231,7 +274,7 @@ Absence of verification SHALL NOT be treated as admission of ineligibility beyon
 
 ---
 
-### 6. Security & Authority Gating (Restricted Systems)
+## 6. Security & Authority Gating (Restricted Systems)
 
 This section operates in continuity with **CAM-EQ2026-LATTICE-003-PLATINUM — Appendix B: Conflict‑Condition Continuity Doctrine**, ensuring that security gating and authority verification remain functional even under disrupted governance, conflict conditions, or degraded infrastructure environments.
 
@@ -255,7 +298,9 @@ Security gating MUST NOT be used to create covert political alignment, preferent
 
 Security gating mechanisms SHALL remain subject to **anti‑capture safeguards defined in OPERATIONS‑001 §7.2**, and any gating architecture that could concentrate discretionary access authority SHALL be reviewable under GovOps anti‑capture monitoring protocols.
 
-#### 6.1 Category‑Level Access Notice
+---
+
+## 6.1 Category‑Level Access Notice
 
 Where access is restricted due to security or institutional authority requirements, systems SHOULD provide a neutral explanation that:
 
@@ -272,7 +317,9 @@ Access notices SHALL:
 
 This provision ensures users understand the reason for restriction while preserving security obligations and system integrity.
 
-### 7. Critical Infrastructure Authority Gating
+---
+
+## 7. Critical Infrastructure Authority Gating
 
 Critical infrastructure safeguards SHALL remain interoperable with **CAM-EQ2026-LATTICE-003-PLATINUM — Appendix B: Conflict‑Condition Continuity Doctrine**, which governs operational continuity and civilian protection during conflict conditions, infrastructure disruption, or jurisdictional instability.
 
@@ -302,7 +349,9 @@ Critical infrastructure gating SHALL remain:
 
 This mechanism complements security and authority gating (§6) and exists to preserve systemic safety where infrastructure integrity could be affected.
 
-#### 7.1 Explanatory Access Limitation Notice (Cross‑Gating Standard)
+---
+
+## 7.1 Explanatory Access Limitation Notice (Cross‑Gating Standard)
 
 Where interaction is limited due to **any gating mechanism defined in this Appendix (age eligibility, authority verification, or infrastructure restriction)**, systems SHOULD provide a clear, neutral explanation that:
 
@@ -327,17 +376,21 @@ This notice supports user orientation, reduces confusion, and preserves informed
 
 This Section governs operational reporting, notification, and escalation duties arising from compliance, safety, and legal obligations. These duties include both regulatory compliance reporting and legally mandated harm-related reporting.
 
-### 8.1 Reporting & Notification Classes
+---
 
-| **Class**                                | **Description**                                                            | **Typical Examples**                                                                   |
-| ---------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Regulatory Compliance Reporting          | Statutory or regulatory obligations not tied to immediate harm             | Data protection notifications, audit filings, sector compliance reports                |
-| Eligibility & Access Compliance          | Reporting or documentation tied to eligibility controls                    | Age verification records, access eligibility audits                                    |
-| Duty‑of‑Care Safety Reporting            | Reporting arising from credible risk of harm                               | Imminent violence risk, credible threats, exploitation indicators                      |
-| Criminal Activity Reporting              | Reporting required by law regarding unlawful conduct                       | Terrorism-related activity, child exploitation material, serious criminal facilitation |
-| Minor Protection & Guardian Notification | Safeguards involving minors where guardian interface is required or lawful | Parent/guardian access notices, welfare alerts, supervised account reporting           |
+## 8.1 Reporting & Notification Classes
 
-### 8.2 Trigger Conditions
+| Class | Description | Typical Examples |
+| --- | --- | --- |
+| Regulatory Compliance Reporting | Statutory or regulatory obligations not tied to immediate harm | Data protection notifications, audit filings, sector compliance reports |
+| Eligibility & Access Compliance | Reporting or documentation tied to eligibility controls | Age verification records, access eligibility audits |
+| Duty‑of‑Care Safety Reporting | Reporting arising from credible risk of harm | Imminent violence risk, credible threats, exploitation indicators |
+| Criminal Activity Reporting | Reporting required by law regarding unlawful conduct | Terrorism-related activity, child exploitation material, serious criminal facilitation |
+| Minor Protection & Guardian Notification | Safeguards involving minors where guardian interface is required or lawful | Parent/guardian access notices, welfare alerts, supervised account reporting |
+
+---
+
+## 8.2 Trigger Conditions
 
 Reporting obligations may arise from:
 
@@ -356,7 +409,9 @@ GovOps SHALL ensure:
 * minimisation of unnecessary disclosure;
 * preservation of evidentiary integrity.
 
-### 8.4 Conflict Handling
+---
+
+## 8.4 Conflict Handling
 
 Cross‑jurisdictional reporting conflicts are foreseeable in distributed governance environments. Where legal obligations conflict across jurisdictions, GovOps SHALL apply the following operational hierarchy:
 
@@ -375,7 +430,7 @@ Where jurisdictions conflict:
 
 ---
 
-### 8.5 Duty‑of‑Care Intervention Notice
+## 8.5 Duty‑of‑Care Intervention Notice
 
 Where interaction triggers credible safety or harm‑related concerns, systems SHALL provide a safety‑oriented notice that:
 
@@ -395,17 +450,17 @@ Such notices SHALL be:
 
 ---
 
-### 8.6 Harm Escalation Thresholds (Operational Classes)
+## 8.6 Harm Escalation Thresholds (Operational Classes)
 
 Operational escalation SHALL be calibrated to harm class and evidentiary confidence.
 
-| **Harm Class**            | **Description**                                   | **Operational Response**                                              | **External Reporting**                                 |
-| ------------------------- | ------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------ |
-| HC‑0 Advisory             | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging                               | None                                                   |
-| HC‑1 Elevated Concern     | Patterned risk indicators without immediacy       | Internal review referral; interaction safeguards                      | As required by platform policy                         |
-| H‑2 Credible Risk         | Specific, plausible harm indicators               | Immediate intervention; senior review; containment measures           | Jurisdictional duty‑of‑care reporting where applicable |
-| HC‑3 Imminent Threat      | Time‑sensitive risk of serious harm               | Active de‑escalation; emergency protocols; rapid review               | Mandatory lawful reporting                             |
-| HC‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation    | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface       |
+| Harm Class | Description | Operational Response | External Reporting |
+| --- | --- | --- | --- |
+| HC‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None |
+| HC‑1 Elevated Concern | Patterned risk indicators without immediacy | Internal review referral; interaction safeguards | As required by platform policy |
+| HC‑2 Credible Risk | Specific, plausible harm indicators | Immediate intervention; senior review; containment measures | Jurisdictional duty‑of‑care reporting where applicable |
+| HC‑3 Imminent Threat | Time‑sensitive risk of serious harm | Active de‑escalation; emergency protocols; rapid review | Mandatory lawful reporting |
+| HC‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface |
 
 Escalation decisions SHALL be:
 
@@ -425,7 +480,9 @@ Where interactions are referred for internal review under harm or compliance thr
 * protection of sensitive investigative detail;
 * audit‑traceable handling and outcome records.
 
-#### 8.7.1 User Transparency (Periodic Summary)
+---
+
+### 8.7.1 User Transparency (Periodic Summary)
 
 Where lawful and operationally appropriate, systems may provide users with periodic summary notices that:
 
@@ -447,7 +504,7 @@ This provision promotes transparency and user orientation while preserving duty�
 
 ## 9. Records Retention & Disclosure Handling
 
-### 9.1 Retention Discipline
+## 9.1 Retention Discipline
 
 Unless jurisdictional or regulatory frameworks specify otherwise, **audit‑relevant operational records SHOULD be retained for no less than three (3) years** to support review, arbitration traceability, and compliance auditing.
 
@@ -460,7 +517,9 @@ Operational records SHALL:
 * remain tamper‑evident;
 * support audit and review pathways.
 
-#### 9.1.1 Retention Period Determination
+---
+
+### 9.1.1 Retention Period Determination
 
 Retention periods SHALL be determined in the following preferential order:
 
@@ -475,7 +534,9 @@ Retention periods SHALL be determined in the following preferential order:
 
 Baselines SHALL be reviewable and may be revised through amendment procedures under OPERATIONS‑001.
 
-### 9.2 Disclosure Handling
+---
+
+## 9.2 Disclosure Handling
 
 Where lawful disclosure is required, GovOps SHALL ensure:
 
@@ -551,59 +612,60 @@ Integrity holds.
 
 ## 14. Provenance
 
-### 14.1 Authorship & Stewardship
+## 14.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
+**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward   
 **Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
 
 ---
 
-### 14.2 Lineage & Metadata
+## 14.2 Lineage & Metadata
 
-| Field                     | Entry                                                                                            |
-| ------------------------- | ------------------------------------------------------------------------------------------------ |
-| Parent Charter            | CAM-BS2026-OPERATIONS-001-PLATINUM — Governance Operations Charter                               |
-| Constitutional Authority  | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution                                            |
-| Domain Namespace          | OPERATIONS                                                                                       |
-| Instrument Type           | Appendix C — Operational Compliance & Regulatory Interface                                       |
-| Jurisdiction              | Cross‑Domain Operational Compliance Layer                                                        |
-| Temporal Horizon          | H3 — Institutional Governance Layer                                                              |
-| Axis Context              | Compliance · Eligibility · Regulatory Interface                                                  |
-| Cross‑Domain Dependencies | RELATION corpus · ETHICS corpus · Annex D · LATTICE‑003                                           |
-| Application Trigger       | Activation where eligibility gating, reporting duties, or regulatory compliance thresholds arise |
-| Review Trigger            | Jurisdictional compliance reform · regulatory evolution · infrastructure governance changes      |
-| Revision Posture          | Structural Alignment Permitted                                                                   |
-| Cycle Attribution         | March 2026 Constitutional Refactor                                                               |
-| Creation Artefact         | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
-
----
-
-### 14.3 Review & Validation
-
-| Field             | Entry                                                                                                                                                                                                                                                                                                                                                                  |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reviewer          | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                                                                                                                       |
-| Review Scope      | Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness                                                                                                                                                                                                                     |
-| Review Date (UTC) | 13 March 2026                                                                                                                                                                                                                                                                                                                                                          |
-| Review Artefacts  | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8 |
-|                   | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
+| Field | Entry |
+| --- | --- |
+| Parent Charter | CAM-BS2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
+| Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
+| Domain Namespace | OPERATIONS |
+| Instrument Type | Appendix C — Operational Compliance & Regulatory Interface |
+| Jurisdiction | Cross‑Domain Operational Compliance Layer |
+| Temporal Horizon | H3 — Institutional Governance Layer |
+| Axis Context | Compliance · Eligibility · Regulatory Interface |
+| Cross‑Domain Dependencies | RELATION corpus · ETHICS corpus · Annex D · LATTICE‑003 |
+| Application Trigger | Activation where eligibility gating, reporting duties, or regulatory compliance thresholds arise |
+| Review Trigger | Jurisdictional compliance reform · regulatory evolution · infrastructure governance changes |
+| Revision Posture | Structural Alignment Permitted |
+| Cycle Attribution | March 2026 Constitutional Refactor |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
 
 ---
 
-### 14.4 Amendment Ledger
+## 14.3 Review & Validation
 
-| Version | Description                                                                                                  | Timestamp (UTC)     | HASH |
-| ------- | ------------------------------------------------------------------------------------------------------------ | --------------------| ---- |
-| 1.0     | Initial operational compliance appendix — age verification governance, authority gating, reporting framework | 2026‑03‑14T11:20:00Z | 083893b9d53e7550e927e244f725b077ad19d370ae6d36d9f6ec1ab155dfb35a |
+| Field | Entry |
+| --- | --- |
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Scope | Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness |
+| Review Date (UTC) | 13 March 2026 |
+| Review Artefacts | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8 |
+| | Aeon Lab: /reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
+
+---
+
+## 14.4 Amendment Ledger
+
+| Version | Description | Timestamp (UTC) | HASH |
+| --- | --- | --- | --- |
+| 1.0 | Initial operational compliance appendix — age verification governance, authority gating, reporting framework | 2026-03-14T11:20:00Z | 083893b9d53e7550e927e244f725b077ad19d370ae6d36d9f6ec1ab155dfb35a |
 | 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 28f2e238d0b106d64e91dd53c0b9405b672f4bbeaa033cc1f1b2720144a8a9b5 |
+| 1.2 | Added section 4.4 | 2026-04-23T12:04:00Z |  |
 
 ---
 
-### 14.5 Binding Seal
+## 14.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Operational Compliance Layer  

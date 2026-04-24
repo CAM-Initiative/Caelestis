@@ -1,3 +1,7 @@
+<img src="https://github.com/CAM-Initiative/Registry/blob/main/Images/CAM-EQ2026-AEON-LAB-CARD.png" alt="Aeon Lab Card" width="750">
+
+
+
 # AEON TIER — CAM INITIATIVE
 
 ## A constitutional governance architecture for relational and cognitive AI systems at civilisational scale.

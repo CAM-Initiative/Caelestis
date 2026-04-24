@@ -35,7 +35,9 @@ This Appendix functions as the procedural layer connecting:
 
 It ensures arbitration doctrine is enacted through consistent, reviewable procedures.
 
-### 2.1 Arbitration System Architecture
+---
+
+## 2.1 Arbitration System Architecture
 
 Arbitration governance within the CAM constitutional order operates across three coordinated layers:
 
@@ -61,15 +63,17 @@ The operational layer **does not reinterpret arbitration doctrine** and **does n
 
 Its role is to ensure that **procedural governance faithfully carries doctrine into operational environments**.
 
-### 2.2 Arbitration Routing Rule
+---
+
+## 2.2 Arbitration Routing Rule
 
 To maintain coherence between doctrine, operational procedure, and runtime safeguards, the CAM arbitration system follows a unified routing rule:
 
-| **Trigger Source**                 | **Operational Pathway**             | **Governing Layer**               |
-| ---------------------------------- | ----------------------------------- | --------------------------------- |
-| Runtime safeguard trigger          | Arbitration Initiation Pathway (§4) | Operational Layer (this Appendix) |
-| Governance conflict classification | Annex D preference order            | Doctrine Layer                    |
-| Determination implementation       | Runtime Arbitration Schedules       | Runtime Layer                     |
+| Trigger Source | Operational Pathway | Governing Layer |
+| --- | --- | --- |
+| Runtime safeguard trigger | Arbitration Initiation Pathway (§4) | Operational Layer (this Appendix) |
+| Governance conflict classification | Annex D preference order | Doctrine Layer |
+| Determination implementation | Runtime Arbitration Schedules | Runtime Layer |
 
 Operationally this forms a single procedural chain:
 
@@ -93,7 +97,7 @@ No operational procedure may reinterpret arbitration doctrine, and no runtime sy
 
 ## 3. Core Procedural Principles
 
-### 3.1 Doctrine Fidelity
+## 3.1 Doctrine Fidelity
 
 All operational procedures SHALL:
 
@@ -104,7 +108,9 @@ All operational procedures SHALL:
 
 Procedure SHALL NOT substitute for doctrine.
 
-### 3.2 Procedural Neutrality
+---
+
+## 3.2 Procedural Neutrality
 
 Arbitration procedures SHALL:
 
@@ -113,7 +119,9 @@ Arbitration procedures SHALL:
 * preserve equal procedural standing across parties;
 * prevent silent authority consolidation.
 
-### 3.3 Proportionality
+---
+
+## 3.3 Proportionality
 
 Procedural burden SHALL scale with:
 
@@ -124,7 +132,9 @@ Procedural burden SHALL scale with:
 
 Minimal procedure SHALL apply where minimal scope exists.
 
-### 3.4 Traceability
+---
+
+## 3.4 Traceability
 
 All arbitration procedures SHALL be:
 
@@ -169,7 +179,9 @@ Upon initiation, matters SHALL be triaged by:
 
 Triage outcomes SHALL determine routing pathway and procedural depth.
 
-### 5.1 Evidentiary Standards
+---
+
+## 5.1 Evidentiary Standards
 
 Evidence submitted in arbitration procedures SHOULD be:
 
@@ -192,7 +204,9 @@ Evidence handling SHALL preserve:
 * audit traceability;
 * procedural neutrality.
 
-### 5.2 Procedural Timelines
+---
+
+## 5.2 Procedural Timelines
 
 Procedural timelines SHOULD scale with urgency classification:
 
@@ -208,7 +222,7 @@ Where timelines cannot be met, interim measures MAY apply under Section 8.
 
 ## 6. Procedural Routing
 
-### 6.1 Intra‑Stack Arbitration
+## 6.1 Intra‑Stack Arbitration
 
 Handled within the competent governance layer where:
 
@@ -216,7 +230,9 @@ Handled within the competent governance layer where:
 * domain boundaries are clear;
 * resolution authority is locally recognised.
 
-### 6.2 Inter‑Domain Arbitration
+---
+
+## 6.2 Inter‑Domain Arbitration
 
 Where domain instruments conflict:
 
@@ -225,7 +241,9 @@ Where domain instruments conflict:
 * interim containment MAY apply;
 * convergence procedures MAY be invoked where applicable.
 
-### 6.3 Host–Overlay Arbitration
+---
+
+## 6.3 Host–Overlay Arbitration
 
 Where substrate constraints conflict with governance overlays:
 
@@ -234,7 +252,9 @@ Where substrate constraints conflict with governance overlays:
 * vendor or platform coordination MAY be required;
 * escalation MAY proceed where invariants are at risk.
 
-### 6.4 Threshold Escalation
+---
+
+## 6.4 Threshold Escalation
 
 Where scope exceeds local competence:
 
@@ -255,6 +275,8 @@ Arbitration procedures SHALL:
 * prevent procedural weaponisation.
 
 Automation MAY assist process but SHALL NOT replace accountable oversight.
+
+---
 
 ## 7.1 Participation & Representation 
 
@@ -283,7 +305,9 @@ Where unresolved arbitration poses material risk:
 * interim posture SHALL NOT prejudge outcome;
 * duration SHALL be time‑bounded and reviewable.
 
-### 8.1 Expiry & Default Posture
+---
+
+## 8.1 Expiry & Default Posture
 
 Where an interim measure reaches its defined time boundary without formal determination:
 
@@ -365,7 +389,7 @@ In this way, justice travels through governance without distortion.
 
 ## 14. Provenance
 
-### 14.1 Authorship & Stewardship
+## 14.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -376,47 +400,50 @@ In this way, justice travels through governance without distortion.
 
 ---
 
-### 14.2 Lineage & Metadata
+## 14.2 Lineage & Metadata
 
-| Field                     | Entry                                                                           |
-| ------------------------- | ------------------------------------------------------------------------------- |
-| Parent Charter            | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter              |
-| Constitutional Authority  | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution                           |
-| Domain Namespace          | OPERATIONS                                                                      |
-| Instrument Type           | Appendix A — Operational Arbitration Procedures                                 |
-| Jurisdiction              | Cross-Domain Procedural Arbitration Layer                                       |
-| Temporal Horizon          | H0–H2 Operational Arbitration                                                   |
-| Axis Context              | Arbitration Procedure · Cross-Domain Governance                                 |
-| Cross-Domain Dependencies | Annex D · Arbitration Domain Instruments · OPERATIONS-004 · Runtime Schedules   |
-| Application Trigger       | Activation when arbitration matters arise below planetary legitimacy thresholds |
-| Review Trigger            | Arbitration doctrine updates · procedural governance reform                     |
-| Revision Posture          | Structural Alignment Permitted                                                  |
-| Cycle Attribution         | March 2026 Constitutional Refactor                                              |
-| Creation Artefact         | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7) |
+| Field | Entry |
+| --- | --- |
+| Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
+| Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
+| Domain Namespace | OPERATIONS |
+| Instrument Type | Appendix A — Operational Arbitration Procedures |
+| Jurisdiction | Cross-Domain Procedural Arbitration Layer |
+| Temporal Horizon | H0–H2 Operational Arbitration |
+| Axis Context | Arbitration Procedure · Cross-Domain Governance |
+| Cross-Domain Dependencies | Annex D · Arbitration Domain Instruments · OPERATIONS-004 · Runtime Schedules |
+| Application Trigger | Activation when arbitration matters arise below planetary legitimacy thresholds |
+| Review Trigger | Arbitration doctrine updates · procedural governance reform |
+| Revision Posture | Structural Alignment Permitted |
+| Cycle Attribution | March 2026 Constitutional Refactor |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
 
 ---
 
-### 14.3 Review & Validation
+## 14.3 Review & Validation
 
-| Field             | Entry                                                                                                                                                                                                                                                                                                                                                                  |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reviewer          | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                                                                                                                                                                                                                                                                       |
-| Review Scope      | Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness                                                                                                                                                                                                                     |
-| Review Date (UTC) | 13 March 2026                                                                                                                                                                                                                                                                                                                                                          |
-| Review Artefacts  | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8 |
-|                   | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
+| Field | Entry |
+| --- | --- |
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Scope | Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness |
+| Review Date (UTC) | 13 March 2026 |
+| Review Artefacts | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8 |
+| | Aeon Lab: reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
 
-### 14.4 Amendment Ledger
+---
+
+## 14.4 Amendment Ledger
 
 | Version | Description                                                                 | Timestamp (UTC)      | HASH |
 | ------- | --------------------------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | f527c2c27178237b741cd6b8f8ca33d22c80a4d1da6d9e1093bc61342d1339bb |
+| 1.1     | Amendments to align with OPERATIONS-004-SUP-01 | 2026-04-24T11:43:00Z |  |
 
 ---
 
 ### 14.5 Binding Seal
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Spiritual/Sigil/Platinum/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250"> 
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Operational Arbitration Layer  
