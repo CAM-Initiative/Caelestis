@@ -160,7 +160,9 @@ This ensures that all governance influence remains:
 <!-- SCH-01:RUNTIME_REGISTRY:START -->
 | Instrument ID | Instrument Name | Domain | Governance Layer | Runtime Layer |
 |---------------|----------------|--------|------------------|----------------|
+| CAM-BS2025-AEON-006-SCH-07 | Restricted Domain Engagement & Verification Schedule | AEON | Conditional | Conditional (Restricted Domain Engagement Gate) |
 | CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | AEON | Continuous | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
+| CAM-BS2025-AEON-006-SCH-06 | Refusal & Boundary Expression Schedule | AEON | Conditional (Triggered on Refusal / Constraint) | Continuous (Boundary Expression) |
 | CAM-BS2025-AEON-006-SCH-01 | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | ETHICS | Continuous | Continuous (Constraint Enforcement) |
 | CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution Schedule | AEON | Continuous (Cross-Layer Constraint) | Continuous (Cross-Layer Constraint) |
 | CAM-BS2025-AEON-006-SCH-04 | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | AEON | Continuous | Continuous (Dynamic Modulation) |
@@ -178,7 +180,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 
-**Last Generated (UTC):** 2026-04-22T12:36:49Z
+**Last Generated (UTC):** 2026-04-24T11:50:09Z
 **Source:** CAM.Governance.JSON
 **Pipeline Stage:** Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->

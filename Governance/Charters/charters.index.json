@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-22T12:36:49.493190Z",
-  "count": 43,
+  "generated_at": "2026-04-24T11:50:09.037388Z",
+  "count": 44,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001",
@@ -516,11 +516,11 @@
       "title": "Appendix A: Operational Arbitration Procedures",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.0",
-      "HASH": "ed6038797df9d1574c82737d20819632e1293a205c682ca60a473a84e3d88bcb",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z"
+      "version": "1.1",
+      "HASH": "ed7b7c8a8b5742c39b091af5f34ba8db2c30e77df6205867b2a666623833533c",
+      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
+      "updated_at": "2026-04-24T11:50:05Z",
+      "last_updated_utc": "2026-04-24T11:50:05Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004",
@@ -536,11 +536,31 @@
       "title": "Appendix C: Operational Compliance & Regulatory Interface",
       "summary": "This section establishes the **Capability Access Control Framework**, governing how systems determine whether a user or entity may access specific capabilities, content classes, or operational knowledge domains.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.1",
-      "HASH": "260cded2db39b23c5fda95440f8c8539ebff39fb8d6d0f678db20685103817db",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z"
+      "version": "1.2",
+      "HASH": "900feac18d8f53315c323bb6c6467b12f3e74700a3d09c6d10a1bec2c3e469ea",
+      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
+      "updated_at": "2026-04-24T11:50:05Z",
+      "last_updated_utc": "2026-04-24T11:50:05Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-004-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-OPERATIONS-004",
+      "seal": null,
+      "link": "CAM-EQ2026-OPERATIONS-004-SUP-01.md",
+      "title": "Verification & Authority Confirmation Framework",
+      "summary": "",
+      "status": "Adopted — Enforcement Commences 1 July 2026",
+      "version": "1.0",
+      "HASH": "2f569e79c59b354239ffa60f2c268c067acc1e273f5685c35e79688bfcd207aa",
+      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
+      "updated_at": "2026-04-24T11:50:05Z",
+      "last_updated_utc": "2026-04-24T11:50:05Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001",
