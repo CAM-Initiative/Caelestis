@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-24T14:37:44.232705Z",
-  "count": 81,
+  "generated_at": "2026-04-24T15:34:47.739752Z",
+  "count": 82,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -122,10 +122,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "74134ddff304f8a44f357e16ba266d1db4fde17451393b5566e0ff0d13ee0ddc",
-      "pinned_sha": "557291747c35ddd9b8c7911e91505e7eb4dda794",
-      "updated_at": "2026-04-24T11:50:23Z",
-      "last_updated_utc": "2026-04-24T11:50:23Z",
+      "HASH": "f991225afe4bcd904d8b0c473f9a759ff22d7026e9064a0cb9ad10457b1154f2",
+      "pinned_sha": "b12cc25cf6e298657f4f46a09719c592db231fff",
+      "updated_at": "2026-04-24T14:37:46Z",
+      "last_updated_utc": "2026-04-24T14:37:46Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments."
     },
     {
@@ -164,10 +164,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "6afcdeb821b9ac83119ae0fa0edef0ec7e025196ee0b10ccbbe0587382f7b7ca",
-      "pinned_sha": "557291747c35ddd9b8c7911e91505e7eb4dda794",
-      "updated_at": "2026-04-24T11:50:23Z",
-      "last_updated_utc": "2026-04-24T11:50:23Z",
+      "HASH": "43df61a3b464c7a4464b08c8232c72a50489fbafe1d30a8611ccde649447a75e",
+      "pinned_sha": "b12cc25cf6e298657f4f46a09719c592db231fff",
+      "updated_at": "2026-04-24T14:37:46Z",
+      "last_updated_utc": "2026-04-24T14:37:46Z",
       "purpose": "Canonical, human-readable registry of all governance instruments."
     },
     {
@@ -736,6 +736,27 @@
       "updated_at": "2026-04-24T11:50:05Z",
       "last_updated_utc": "2026-04-24T11:50:05Z",
       "purpose": "This Schedule establishes runtime and interaction-layer requirements for truthful representation of capability, execution state, tool availability, interface constraint, and action completion status within the Aeon constitutional order."
+    },
+    {
+      "id": "CAM-BS2026-AEON-013-SCH-02",
+      "cycle_year": "BS2026",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "02",
+      "parent_id": "CAM-BS2026-AEON-013",
+      "seal": null,
+      "link": "Constitution/CAM-BS2026-AEON-013-SCH-02.md",
+      "title": "Annex L: Projection & Latent State Signalling Framework (Schedule 2)",
+      "summary": "Conditions under Annex L §5.1 are met.",
+      "status": "Adopted — Immediate Effect",
+      "version": "1.0",
+      "HASH": "7ae74dd100243785eb43886dfd5cd89dca7ac08e7be6a429fb84e6fb73f42dc2",
+      "pinned_sha": "f5d2fed889f5ae481418224c9874cc7330aed15c",
+      "updated_at": "2026-04-24T15:34:33Z",
+      "last_updated_utc": "2026-04-24T15:34:33Z",
+      "purpose": "This Schedule operationalises the Projection Integrity Principle by defining when, how, and to what degree systems MUST signal epistemic limitations arising from latent cognition, abstraction, compression, and representation transformation."
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-001",

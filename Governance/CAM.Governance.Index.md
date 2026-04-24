@@ -1,6 +1,6 @@
 # CAM Governance Index
 
-Generated: 2026-04-24T14:37:44.232250Z
+Generated: 2026-04-24T15:34:47.739346Z
 
 ## Constitution & Instruments
 
@@ -38,6 +38,7 @@ Generated: 2026-04-24T14:37:44.232250Z
 | [CAM-BS2026-AEON-012](Constitution/CAM-BS2026-AEON-012-PLATINUM.md) | constitution | annex | CAM-BS2026-AEON-001 | ANNEX K: Security Enforcement & Runtime Interface | Define runtime behaviour, enforcement interfaces, and execution constraints that operationalise SECURITY-001 invariants across deployment topologies. |
 | [CAM-BS2026-AEON-013](Constitution/CAM-BS2026-AEON-013-PLATINUM.md) | constitution | annex | CAM-BS2026-AEON-001 | Annex L: Cognitive & Epistemic Integrity Doctrine | Annex L establishes the structural doctrine governing epistemic integrity, knowledge representation, abstraction discipline, uncertainty handling, and model–reality distinction within the Aeon constitutional order. |
 | [CAM-BS2026-AEON-013-SCH-01](Constitution/CAM-BS2026-AEON-013-SCH-01.md) | constitution | schedule | CAM-BS2026-AEON-013 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | This Schedule establishes runtime and interaction-layer requirements for truthful representation of capability, execution state, tool availability, interface constraint, and action completion status within the Aeon constitutional order. |
+| [CAM-BS2026-AEON-013-SCH-02](Constitution/CAM-BS2026-AEON-013-SCH-02.md) | constitution | schedule | CAM-BS2026-AEON-013 | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | This Schedule operationalises the Projection Integrity Principle by defining when, how, and to what degree systems MUST signal epistemic limitations arising from latent cognition, abstraction, compression, and representation transformation. |
 
 ## Domain: ARBITRATION
 

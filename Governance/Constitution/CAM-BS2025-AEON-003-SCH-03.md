@@ -51,6 +51,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2026-AEON-008-SCH-01](../Constitution/CAM-BS2026-AEON-008-SCH-01.md) | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | Schedule | 1.4 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2026-AEON-010-SCH-01](../Constitution/CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | Schedule | 1.9 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2026-AEON-013-SCH-01](../Constitution/CAM-BS2026-AEON-013-SCH-01.md) | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | Schedule | 1.9 | Active — Immediate Effect |
+| [CAM-BS2026-AEON-013-SCH-02](../Constitution/CAM-BS2026-AEON-013-SCH-02.md) | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | Schedule | 1.0 | Adopted — Immediate Effect |
 
 ## ARBITRATION
 
@@ -161,7 +162,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-24T14:37:46Z  
+**Last Generated (UTC):** 2026-04-24T15:34:47Z  
 **Source:** CAM.Governance.JSON  
 **Pipeline Stage:** Post-Index Registry Build  
 
