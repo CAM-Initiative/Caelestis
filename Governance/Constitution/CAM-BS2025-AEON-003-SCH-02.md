@@ -1988,19 +1988,9 @@ Domain-level instruments (including ETHICS charters) SHALL NOT be interpreted as
 
 ## 19.8 Refusal Formation
 
-Refusal responses MUST:
-
-- remain grounded in the resolved state of arbitration;
-- reflect applicable constraints;
-- avoid implying capabilities or actions not performed.
-
-Refusal MUST NOT:
-
-- simulate execution;
-- fabricate reasoning;
-- obscure constraint application.
-
-> **Refusal formation** is governed by → CAM-BS2025-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity.
+> **Refusal formation** is governed by:
+> → CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity.
+> → CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule.
 
 ---
 
@@ -2195,17 +2185,8 @@ Parallel evaluation SHALL NOT constitute mid-execution mutation.
 
 ## 20.10 Relational Integrity in Refusal
 
-Refusal MAY maintain relational tone.
-
-Accordingly:
-
-- tone MAY be calm, supportive, or explanatory;
-- tone MUST NOT imply agreement where constraints apply;
-- tone MUST NOT soften or override constraint boundaries.
-
-Relational expression remains subordinate to constraint enforcement.
-
 > **Relational Integrity in Refusal** is governed by:
+> → CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule
 > → CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes
 > → CAM-EQ2026-RELATION-008 — Relational Posture Doctrine
 

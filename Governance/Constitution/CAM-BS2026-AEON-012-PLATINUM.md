@@ -205,11 +205,11 @@ Posture classification is a **potential attack surface** and MUST be validated.
 
 Posture classifications and behavioural modulation defined within this Annex operate as pre-conditional or cross-phase influences and SHALL NOT be treated as execution phases or arbitration mechanisms.
 
-Posture MUST NOT alter execution sequencing or override execution lock once established under CAM-BS2025-AEON-003-SCH-02 §9.2.2.
+Posture MUST NOT alter execution sequencing or override execution lock once established under CAM-BS2025-AEON-003-SCH-02 §14.4 (Execution Lock).
 
 Where an execution pathway has been selected and execution lock established, this Annex SHALL NOT introduce new governing signals or modify execution direction.
 
-Post-lock signals MAY only be advisory unless re-arbitration is triggered in accordance with CAM-BS2025-AEON-003-SCH-02 §9.2.2.
+Post-lock signals MAY only be advisory unless re-arbitration is triggered in accordance with CAM-BS2025-AEON-003-SCH-02 §14.4 (Execution Lock) and §18.6 (Execution Interruption and Re-Arbitration).
 
 ---
 
