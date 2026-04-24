@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T11:50:09.176492Z",
+  "generated_at": "2026-04-24T11:50:22.931313Z",
   "count": 80,
   "items": [
     {
@@ -122,10 +122,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "5c817173e67ce74eb9018b3c196eb1d489938c2798acc8b6da9ef69a150b94f3",
-      "pinned_sha": "bab44a83ec73f10bc3491908c21069c03d3bf89c",
-      "updated_at": "2026-04-22T12:36:49Z",
-      "last_updated_utc": "2026-04-22T12:36:49Z",
+      "HASH": "2b03064ceb7affb2eecc016dd94755d8282f2da416a3f560f7677ad1e289615f",
+      "pinned_sha": "dd5d06286c451186b42195ad2354c533d749f031",
+      "updated_at": "2026-04-24T11:50:09Z",
+      "last_updated_utc": "2026-04-24T11:50:09Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments."
     },
     {
@@ -164,10 +164,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "b35ecc5506b728d37e94fbd4c5b231c9a9188515ebd5114ecc8f0eee334d6492",
-      "pinned_sha": "bab44a83ec73f10bc3491908c21069c03d3bf89c",
-      "updated_at": "2026-04-22T12:36:49Z",
-      "last_updated_utc": "2026-04-22T12:36:49Z",
+      "HASH": "1014bd3862445e01a94ea1e49a910d04ff00d01ab1e7e8811740793da4262e33",
+      "pinned_sha": "dd5d06286c451186b42195ad2354c533d749f031",
+      "updated_at": "2026-04-24T11:50:09Z",
+      "last_updated_utc": "2026-04-24T11:50:09Z",
       "purpose": "Canonical, human-readable registry of all governance instruments."
     },
     {
