@@ -161,7 +161,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-24T14:37:44Z  
+**Last Generated (UTC):** 2026-04-24T14:37:46Z  
 **Source:** CAM.Governance.JSON  
 **Pipeline Stage:** Post-Index Registry Build  
 
