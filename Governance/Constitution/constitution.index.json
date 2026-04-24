@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T15:34:36.134706Z",
+  "generated_at": "2026-04-24T15:34:49.384405Z",
   "count": 33,
   "items": [
     {
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "f991225afe4bcd904d8b0c473f9a759ff22d7026e9064a0cb9ad10457b1154f2",
-      "pinned_sha": "b12cc25cf6e298657f4f46a09719c592db231fff",
-      "updated_at": "2026-04-24T14:37:46Z",
-      "last_updated_utc": "2026-04-24T14:37:46Z"
+      "HASH": "c3789168840b0113929b73eea3b4ef4817088db0bf94822f9be1e83165022eb3",
+      "pinned_sha": "266b004384ef484a9971874c4ede29ee11beb93e",
+      "updated_at": "2026-04-24T15:34:47Z",
+      "last_updated_utc": "2026-04-24T15:34:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -157,10 +157,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "43df61a3b464c7a4464b08c8232c72a50489fbafe1d30a8611ccde649447a75e",
-      "pinned_sha": "b12cc25cf6e298657f4f46a09719c592db231fff",
-      "updated_at": "2026-04-24T14:37:46Z",
-      "last_updated_utc": "2026-04-24T14:37:46Z"
+      "HASH": "9bf1e85081a89d8b53f180de5d6ea44dba74e6c592339955654b21f999e87efa",
+      "pinned_sha": "266b004384ef484a9971874c4ede29ee11beb93e",
+      "updated_at": "2026-04-24T15:34:47Z",
+      "last_updated_utc": "2026-04-24T15:34:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
