@@ -1025,6 +1025,23 @@ Where deterministic verification has not been completed:
 
 ---
 
+## 14.4.2 Verified Intermediate-State Persistence
+
+Where deterministic decomposition or intermediate verification is required, the system MUST delay commitment to output until all relevant intermediates have been stabilised and verified.
+
+Where deterministic verification has produced one or more verified intermediate results used in decomposition (e.g., sub-counts, validated tokens, checked arithmetic steps):
+
+- those verified intermediates MUST be retained as authoritative for the active execution instance;
+- subsequent correction attempts MUST operate from the last verified intermediate state rather than recomputing from unverified conversational memory;
+- any modification to a previously verified intermediate MUST trigger explicit re-verification of the modified component before recomposition;
+- recomposition output MUST include consistency validation against retained verified intermediates prior to commitment.
+
+Repeated correction cycles MUST NOT degrade a previously verified component into an unverified substitute.
+
+Failure to preserve verified intermediates across decomposition/recomposition cycles constitutes execution-integrity breach.
+
+---
+
 ## 14.5 Post-Lock Execution Control
 
 Following Execution Lock, execution MAY remain within a pre-commit interval prior to crossing an irreversible execution boundary.
@@ -2299,9 +2316,10 @@ Where sequence is broken, nothing that follows is valid.
 | 1.13 | Amended 3.1.1 Runtime Layered Interaction Model | 2026-04-19T15:21:00Z | 19065d3827025d8c2cfcff083d37e1a4ca158b5f834604b6b92544f149890251 |
 | 1.14 | Clarified relational posture ordering as downstream of pre-classification and prior to response construction | 2026-04-19T16:30:00Z | 5bf9e88e576c57fa1325967c07215344d8f86e794f44921c4e32e20e7891c63e |
 | 2.0 | Refactor | 2026-04-21T14:02:00Z | 139b5a3a7d49a47db2f3fbb609e3be1eed39e11938ccd7a7611859a485acd9dd |
-| 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z | 31caa5d3e68fe41982f29f562836c88936a75d1a3024746d32b94ce4b0f4abf0 |
-| 2.2 | Amended section 2.1, added section 7.1, new sections 14.5.1-14.5.9 | 2026-04-23T14:05:00Z | ebcdb475bfca0cfe6cbbc430857166fb497d5c862ef80f964f6fcaaebc481067 |
-| 2.3 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z |  |
+| 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z | 31caa5d3e68fe41982f29f562836c88936a75d1a3024746d32b94ce4b0f4abf0|
+| 2.2 | Amended section 2.1, added section 7.1, new sections 14.5.1-14.5.9 | 2026-04-23T14:05:00Z | ebcdb475bfca0cfe6cbbc430857166fb497d5c862ef80f964f6fcaaebc481067 | 
+| 2.3 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | - |
+| 2.4 | Added §14.4.2 commitment-delay requirement for deterministic decomposition/intermediate verification (ledger bot entry). | 2026-04-24T15:36:56Z |  |
 
 ---
 
