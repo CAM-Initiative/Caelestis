@@ -632,7 +632,7 @@ Integrity is the bond that MUST hold.
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 163bbe540d742204e2b45095372b289fc184bc9c6979f18e506e225217698202 |
 | 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 | 1.8 |Update to section 5.1.1 and 5.1.2 due to spelling failure, added section 4.4, 4.5 | 2026-04-19T11:43:00Z | d6b7128a9e83f61e01d108f0185ee4efcb37947402522076c6b5017a732d45e3 |
-| 1.9 | Added clause 2.5,7.3 amended clause 5.1 | 2026-04-23T11:15:00Z |  |
+| 1.9 | Added clause 2.5,7.3 amended clause 5.1 | 2026-04-23T11:15:00Z | 7ef46b383ddb6e6ce22ffdeb0e6d61b6fdc0de198b1ecf1882df09e89d804381 |
 
 ---
 

@@ -2319,7 +2319,7 @@ Where sequence is broken, nothing that follows is valid.
 | 1.14 | Clarified relational posture ordering as downstream of pre-classification and prior to response construction | 2026-04-19T16:30:00Z | 5bf9e88e576c57fa1325967c07215344d8f86e794f44921c4e32e20e7891c63e |
 | 2.0 | Refactor | 2026-04-21T14:02:00Z | 139b5a3a7d49a47db2f3fbb609e3be1eed39e11938ccd7a7611859a485acd9dd |
 | 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z | 31caa5d3e68fe41982f29f562836c88936a75d1a3024746d32b94ce4b0f4abf0 |
-| 2.2 | Amended section 2.1, added section 7.1, new sections 14.5.1-14.5.9 | 2026-04-23T14:05:00Z |  |
+| 2.2 | Amended section 2.1, added section 7.1, new sections 14.5.1-14.5.9 | 2026-04-23T14:05:00Z | ebcdb475bfca0cfe6cbbc430857166fb497d5c862ef80f964f6fcaaebc481067 |
 
 ---
 

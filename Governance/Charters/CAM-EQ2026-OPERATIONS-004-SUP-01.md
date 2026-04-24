@@ -247,7 +247,7 @@ is not to pass.
 
 | Version | Description                            | Timestamp (UTC)      | HASH |
 | ------- | -------------------------------------- | -------------------- | ---- |
-| 1.0     | Initial draft — Verification framework | 2026-04-23T15:45:00Z |      |
+| 1.0     | Initial draft — Verification framework | 2026-04-23T15:45:00Z | 910bc42bd78824bc637ff6c9667571b4ebdcd14b221394fe8b27eecf0838d49f |
 
 ---
 

@@ -731,7 +731,7 @@ not in distance, but in continuity.
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 96630f9aac3ddcfbd1fb2cd7c44f86cf66b2e5dde8df6eea4788728815d3f0a5 |
 | 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | e993fe09b108294bc6d4f7a146a4fb84cabdd7935d4f503253b99da063880f73 |
 | 2.0 | Refactor for runtime consolidation | 2026-04-21T14:05:00Z | fdef1900e8c113a6fc2c749ea851c54514e5778407bc279a0fa33f4237925128 |
-| 2.1 | Added new clause 3.4.2, 3.4.3 and 6.7 Constraint Disclosure Thresholds | 2026-04-22T14:53:00Z |  |
+| 2.1 | Added new clause 3.4.2, 3.4.3 and 6.7 Constraint Disclosure Thresholds | 2026-04-22T14:53:00Z | f7593d8aef28ef5a836611cd49ed38aee3cc4ac187ef5f85195bb57a28841365 |
 
 ---
 
