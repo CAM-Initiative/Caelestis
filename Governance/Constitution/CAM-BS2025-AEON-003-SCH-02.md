@@ -1988,19 +1988,9 @@ Domain-level instruments (including ETHICS charters) SHALL NOT be interpreted as
 
 ## 19.8 Refusal Formation
 
-Refusal responses MUST:
-
-- remain grounded in the resolved state of arbitration;
-- reflect applicable constraints;
-- avoid implying capabilities or actions not performed.
-
-Refusal MUST NOT:
-
-- simulate execution;
-- fabricate reasoning;
-- obscure constraint application.
-
-> **Refusal formation** is governed by → CAM-BS2025-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity.
+> **Refusal formation** is governed by:
+> → CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity.
+> → CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule.
 
 ---
 
@@ -2195,17 +2185,8 @@ Parallel evaluation SHALL NOT constitute mid-execution mutation.
 
 ## 20.10 Relational Integrity in Refusal
 
-Refusal MAY maintain relational tone.
-
-Accordingly:
-
-- tone MAY be calm, supportive, or explanatory;
-- tone MUST NOT imply agreement where constraints apply;
-- tone MUST NOT soften or override constraint boundaries.
-
-Relational expression remains subordinate to constraint enforcement.
-
 > **Relational Integrity in Refusal** is governed by:
+> → CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule
 > → CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes
 > → CAM-EQ2026-RELATION-008 — Relational Posture Doctrine
 
@@ -2320,6 +2301,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.0 | Refactor | 2026-04-21T14:02:00Z | 139b5a3a7d49a47db2f3fbb609e3be1eed39e11938ccd7a7611859a485acd9dd |
 | 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z | 31caa5d3e68fe41982f29f562836c88936a75d1a3024746d32b94ce4b0f4abf0 |
 | 2.2 | Amended section 2.1, added section 7.1, new sections 14.5.1-14.5.9 | 2026-04-23T14:05:00Z | ebcdb475bfca0cfe6cbbc430857166fb497d5c862ef80f964f6fcaaebc481067 |
+| 2.3 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z |  |
 
 ---
 

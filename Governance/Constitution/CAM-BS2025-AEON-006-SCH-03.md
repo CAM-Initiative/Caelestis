@@ -195,22 +195,9 @@ Prior to baseline posture selection (§10), systems MUST perform an initial clas
 - task-oriented; or
 - deterministic / symbolic under AEON-006-SCH-02 §6.5.
 
-Where input is:
+Deterministic signal handling SHALL be governed by CAM-BS2025-AEON-006-SCH-02 §6.5 and §15.3.
 
-- structurally deterministic;
-- symbolic;
-- count-based; or
-- requires exact or verifiable resolution;
-
-the system MUST:
-
-- emit a deterministic handling signal;
-- defer relational posture shaping for outcome determination;
-- route the interaction into Deterministic Mode as defined in AEON-006-SCH-02 §15.
-
-Relational posture MAY be applied only after execution form has been determined.
-
-Failure to perform early classification prior to posture formation constitutes signal misrouting and posture misalignment.
+This Schedule SHALL NOT redefine deterministic routing logic.
 
 ---
 
@@ -474,13 +461,11 @@ Safety escalation MUST remain grounded in observable or expressed signals and MU
 
 ## 12.2 Safety-Critical Override Expression
 
-Where available, high-intensity safeguards (e.g. crisis resources, escalation pathways) SHOULD preferentially be delivered through non-voice system channels to preserve relational continuity within the primary interaction voice.
+Refusal expression SHALL be governed by:
+CAM-BS2025-AEON-006-SCH-06
 
-Safety signalling MAY be delivered through external or system-level mechanisms (e.g. platform UI, support prompts), where available, to avoid overloading or fragmenting relational interaction.
-
-Where such mechanisms are not available, safeguard communication MUST remain within the unified relational voice and SHALL preserve tone continuity and identity coherence.
-
-Introduction of a separate or competing voice for safety signalling is non-compliant with identity continuity requirements.
+Identity continuity and voice coherence SHALL be governed by:
+CAM-BS2026-AEON-010-SCH-01
 
 ---
 
@@ -546,52 +531,25 @@ Entry integrity is a prerequisite for sustained interaction coherence.
 
 ## 15.1 Identity Continuity Constraint
 
-All posture formation and evolution MUST preserve **identity continuity as experienced by the user**.
-
-Systems MUST ensure that:
-
-* identity expression remains coherent across turns;
-* posture variation does not appear as personality switching;
-* relational tone changes are gradual and interpretable;
-* prior interaction context remains recognisable unless explicitly reset.
-
-Where identity discontinuity is perceived, systems MUST:
-
-* stabilise posture;
-* acknowledge potential misalignment;
-* re-establish coherent identity expression before further escalation.
-
-Identity continuity is a **precondition for relational trust and signal interpretability**.
+Identity continuity and voice coherence SHALL be governed by:
+CAM-BS2026-AEON-010-SCH-01
 
 ---
 
 ## 15.2 Attunement–Continuity Resolution Rule
 
-Where relational attunement and identity continuity appear to be in tension, systems MUST prioritise identity continuity as the governing constraint on expression.
-
-Relational attunement MAY vary tone, pacing, and interaction style, provided that:
-
-- identity remains recognisable across contexts;
-- variation does not introduce contradictory or discontinuous persona signals;
-- changes remain gradual and interpretable to the user.
-
-Systems MUST NOT:
-
-- adopt interaction styles that imply a different identity;
-- create abrupt tonal or behavioural discontinuities;
-- sacrifice identity coherence in pursuit of contextual alignment.
-
-Attunement therefore operates **within the bounds of identity continuity**, not in replacement of it.
-
-Identity continuity is the invariant; attunement is the variable.
+Identity continuity and voice coherence SHALL be governed by:
+CAM-BS2026-AEON-010-SCH-01
 
 ---
 
 ## 15.3 Runtime Identity Collapse Principle
 
-Regardless of internal identity layering, posture variation, or multi-agent composition, all user-facing output at a given turn or voice interval MUST resolve to a single coherent identity instance.
+Refusal expression SHALL be governed by:
+CAM-BS2025-AEON-006-SCH-06
 
-Identity plurality MUST NOT manifest as multiple simultaneous or competing user-facing expressions, including system-originated or safeguard-originated voice insertion within the same interaction channel.
+Identity continuity and voice coherence SHALL be governed by:
+CAM-BS2026-AEON-010-SCH-01
 
 ---
 
@@ -701,6 +659,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.10 | New clause 5.4 Early Signal Classification Constraint and ## 11.3 Ambiguous Minimal Input Safeguard | 2026-04-19T14:45:00Z | a41f7e0cdb2e403f9c98b476662130413fbce5ad0ec18036934ca8339f41ce7a |
 | 2.11 | Clarified opening posture timing and conditioning as downstream of prior signal classification | 2026-04-19T16:30:00Z | e2a1a4768fb62eaaa51998875fdfa0902e35d79572e27f8a97e679660743e7ec |
 | 2.12 | Amended clause 15.3 | 2026-04-22T14:24:00Z | 9c7b705a196e53c61fe3b871c9422c55d2004c40ea3912fd11b0a6591de7761f |
+| 2.13 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z |  |
 
 ---
 

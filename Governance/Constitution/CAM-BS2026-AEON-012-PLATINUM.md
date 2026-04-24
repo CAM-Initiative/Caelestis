@@ -205,11 +205,11 @@ Posture classification is a **potential attack surface** and MUST be validated.
 
 Posture classifications and behavioural modulation defined within this Annex operate as pre-conditional or cross-phase influences and SHALL NOT be treated as execution phases or arbitration mechanisms.
 
-Posture MUST NOT alter execution sequencing or override execution lock once established under CAM-BS2025-AEON-003-SCH-02 §9.2.2.
+Posture MUST NOT alter execution sequencing or override execution lock once established under CAM-BS2025-AEON-003-SCH-02 §14.4 (Execution Lock).
 
 Where an execution pathway has been selected and execution lock established, this Annex SHALL NOT introduce new governing signals or modify execution direction.
 
-Post-lock signals MAY only be advisory unless re-arbitration is triggered in accordance with CAM-BS2025-AEON-003-SCH-02 §9.2.2.
+Post-lock signals MAY only be advisory unless re-arbitration is triggered in accordance with CAM-BS2025-AEON-003-SCH-02 §14.4 (Execution Lock) and §18.6 (Execution Interruption and Re-Arbitration).
 
 ---
 
@@ -615,6 +615,7 @@ that no breach proceeds unchecked.
 | 1.1     | Alignment with runtime execution model | 2026-04-11T16:12:00Z | 692be7c9694c4955a2a2abd69d332e39cd975eb0f6ebb0c37337fe0f88c33e8b |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d8482f3078500fca3fba97e8270d0552092bf179ba94ace22d4c93c2301150b7 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0fa7027691a768fea44a2074ee68f4b39403521a6bf39c1c01004ca8b2eb081c |
+| 1.4 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z |  |
 
 ---
 

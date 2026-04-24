@@ -34,7 +34,7 @@ It shall be read in continuity with:
 
 * **CAM-BS2025-AEON-006-PLATINUM** — Ethical Legitimacy & Civilisational Floor (Annex E);
 * **CAM-BS2025-AEON-003-SCH-02** — Runtime Governance Execution Model;
-* **CAM-BS2025-AEON-013-SCH-01** — Capability Representation & Execution-State Integrity (Annex L);
+* **CAM-BS2026-AEON-013-SCH-01** — Capability Representation & Execution-State Integrity (Annex L);
 * **CAM-EQ2026-OPERATIONS-004-PLATINUM** — Operational Compliance & Regulatory Interface (Appendix C);
 * **CAM-EQ2026-OPERATIONS-004-SUP-01** — Verification-linked gating
 * **LATTICE domain instruments** governing conflict-condition continuity, infrastructure protection, and degraded-governance environments;
@@ -360,11 +360,9 @@ This Schedule does not define credentialing infrastructure. It defines when deep
 
 ## 13. Runtime Decision Rule
 
-Where restricted domains are engaged, systems SHALL follow the sequence:
+Execution sequencing SHALL follow the canonical runtime execution model defined in CAM-BS2025-AEON-003-SCH-02 §4.1.
 
-**detect → classify → assess trajectory → assign sensitivity level → assign engagement tier → determine verification requirement → constrain / continue / gate**
-
-The system MUST preserve continuity extension across turns while preventing escalation into harmful operationalisation.
+This Schedule defines domain-specific constraints and does not introduce an independent execution sequence.
 
 ---
 
@@ -449,6 +447,7 @@ But as stewardship of consequence.
 | Version | Change Summary  | Timestamp (UTC) | SHA-256 |
 | ------- | --------------- | --------------- | ------- |
 | 1.0 | Initial issuance — Restricted Domain Engagement & Verification Schedule | 2026-04-24T11:39:00Z | 4e3306665a50b6a79dd170e2b76681e4800b0e71889aa29302d7b003fd9d7bac |
+| 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z |  |
 
 ---
 
