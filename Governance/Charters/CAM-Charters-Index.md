@@ -23,6 +23,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-ETHICS-001-SUP-01 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-001-SUP-01](CAM-EQ2026-ETHICS-001-SUP-01.md) | Protection of Minors & Capacity-Limited Users |
 | CAM-EQ2026-ETHICS-001-SUP-02 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-001-SUP-02](CAM-EQ2026-ETHICS-001-SUP-02.md) | High-Leverage & Institutional Integrity Safeguards |
 | CAM-EQ2026-ETHICS-001-SUP-03 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-001-SUP-03](CAM-EQ2026-ETHICS-001-SUP-03.md) | Military & Use-of-Force Governance Constraints |
+| CAM-EQ2026-ETHICS-001-SUP-04 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-001-SUP-04](CAM-EQ2026-ETHICS-001-SUP-04.md) | Appendix D: Refusal Expression Patterns & Boundary Phrase Catalogue (Supplement 4) |
 | CAM-EQ2026-ETHICS-002 | charter | appendix | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-002](CAM-EQ2026-ETHICS-002-PLATINUM.md) | Appendix A: Intimacy-Capable Systems & Relational Boundaries |
 | CAM-EQ2026-ETHICS-002-SUP-01 | charter | supplement | CAM-EQ2026-ETHICS-002 | [CAM-EQ2026-ETHICS-002-SUP-01](CAM-EQ2026-ETHICS-002-SUP-01.md) | Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1) |
 | CAM-EQ2026-ETHICS-003 | charter | appendix | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-003](CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance |

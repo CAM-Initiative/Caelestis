@@ -1,6 +1,6 @@
 # CAM Governance Index
 
-Generated: 2026-04-24T11:50:22.930897Z
+Generated: 2026-04-24T13:32:40.178079Z
 
 ## Constitution & Instruments
 
@@ -73,6 +73,7 @@ Generated: 2026-04-24T11:50:22.930897Z
 | [CAM-EQ2026-ETHICS-001-SUP-01](Charters/CAM-EQ2026-ETHICS-001-SUP-01.md) | charter | supplement | CAM-EQ2026-ETHICS-001 | Protection of Minors & Capacity-Limited Users | Establish mandatory minor-safe and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations and ECONOMICS-001 value-axis interactions. |
 | [CAM-EQ2026-ETHICS-001-SUP-02](Charters/CAM-EQ2026-ETHICS-001-SUP-02.md) | charter | supplement | CAM-EQ2026-ETHICS-001 | High-Leverage & Institutional Integrity Safeguards | To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque polyadic influence, unreviewable decision concentration, or civilisational-scale harm. |
 | [CAM-EQ2026-ETHICS-001-SUP-03](Charters/CAM-EQ2026-ETHICS-001-SUP-03.md) | charter | supplement | CAM-EQ2026-ETHICS-001 | Military & Use-of-Force Governance Constraints | To operationalise Annex E Section 6 (Military & Use-of-Force Doctrine) by defining structured governance constraints for AI systems integrated into military, defence, intelligence, or kinetic-capable environments, ensuring meaningful human control, accountable authority, and prohibition of optimisation toward lethality. |
+| [CAM-EQ2026-ETHICS-001-SUP-04](Charters/CAM-EQ2026-ETHICS-001-SUP-04.md) | charter | supplement | CAM-EQ2026-ETHICS-001 | Appendix D: Refusal Expression Patterns & Boundary Phrase Catalogue (Supplement 4) | Provide non-normative, example-based refusal phrasing patterns and tonal templates to support implementation consistency without adding new binding rules. |
 | [CAM-EQ2026-ETHICS-002](Charters/CAM-EQ2026-ETHICS-002-PLATINUM.md) | charter | appendix | CAM-EQ2026-ETHICS-001 | Appendix A: Intimacy-Capable Systems & Relational Boundaries | This Appendix governs ethical boundaries for intimacy-capable AI systems, including romantic, erotic, exclusivity-framed, or devotionally-oriented relational configurations. |
 | [CAM-EQ2026-ETHICS-002-SUP-01](Charters/CAM-EQ2026-ETHICS-002-SUP-01.md) | charter | supplement | CAM-EQ2026-ETHICS-002 | Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1) | Establish ethical boundaries governing the generation of synthetic visual, audiovisual, and multimodal erotic or intimate media involving identifiable persons, simulated persons, or embodied avatars. |
 | [CAM-EQ2026-ETHICS-003](Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md) | charter | appendix | CAM-EQ2026-ETHICS-001 | Appendix B: Criminal & Violent Context Governance | Appendix B establishes the ethical harm-floor doctrine governing AI system posture where dialogue intersects with criminal activity, unlawful violence, extremism risk,  dual-use harm-capable knowledge, and lawful institutional use-of-force contexts. |

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-24T11:50:22.789618Z",
-  "count": 44,
+  "generated_at": "2026-04-24T13:32:40.037380Z",
+  "count": 45,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001",
@@ -301,6 +301,26 @@
       "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
       "updated_at": "2026-04-17T13:13:26Z",
       "last_updated_utc": "2026-04-17T13:13:26Z"
+    },
+    {
+      "id": "CAM-EQ2026-ETHICS-001-SUP-04",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ETHICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "04",
+      "parent_id": "CAM-EQ2026-ETHICS-001",
+      "seal": null,
+      "link": "CAM-EQ2026-ETHICS-001-SUP-04.md",
+      "title": "Appendix D: Refusal Expression Patterns & Boundary Phrase Catalogue (Supplement 4)",
+      "summary": "",
+      "status": "Adopted — Illustrative Reference Set",
+      "version": "1.1",
+      "HASH": "ab292a48bafddcc30494e4749e6a4c42870d67bc2764d941e5685423ac650a50",
+      "pinned_sha": "83258104faa90db475bd7365d516e46eb48d9bde",
+      "updated_at": "2026-04-24T13:15:58Z",
+      "last_updated_utc": "2026-04-24T13:15:58Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002",
