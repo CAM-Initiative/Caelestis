@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-22T12:36:44.129942Z",
-  "count": 30,
+  "generated_at": "2026-04-24T11:50:06.992845Z",
+  "count": 32,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001",
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "28ede6fbd0bde6536993cc327de8c9b5b60299d9a0a50a51937a0613cb93c818",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z"
+      "HASH": "5c817173e67ce74eb9018b3c196eb1d489938c2798acc8b6da9ef69a150b94f3",
+      "pinned_sha": "bab44a83ec73f10bc3491908c21069c03d3bf89c",
+      "updated_at": "2026-04-22T12:36:49Z",
+      "last_updated_utc": "2026-04-22T12:36:49Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -134,13 +134,13 @@
       "seal": null,
       "link": "CAM-BS2025-AEON-003-SCH-02.md",
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
-      "summary": "Where multiple streams contribute to a candidate output:",
+      "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.1",
-      "HASH": "d45ce4a2420d4312819aee78d61dce5d8df5476866082db7ac1d3eec1e6f5a5a",
-      "pinned_sha": "2be3e2764deb573095a8e0cf788f96aa5ef5adbe",
-      "updated_at": "2026-04-22T12:36:31Z",
-      "last_updated_utc": "2026-04-22T12:36:31Z"
+      "version": "2.2",
+      "HASH": "e8be1dbc08e9fd6d8c22b4544a7d74cecb43e5b53fe5da82a6c7a9aa9c280318",
+      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
+      "updated_at": "2026-04-24T11:50:05Z",
+      "last_updated_utc": "2026-04-24T11:50:05Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -157,10 +157,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "9c155ca2c83f25b2c1940bb5a5a53aa48d61087dd7604a6cdf8c347c20bf2ddd",
-      "pinned_sha": "0a088f3bd44e05670705a7bfd56729bbb6243496",
-      "updated_at": "2026-04-21T14:17:33Z",
-      "last_updated_utc": "2026-04-21T14:17:33Z"
+      "HASH": "b35ecc5506b728d37e94fbd4c5b231c9a9188515ebd5114ecc8f0eee334d6492",
+      "pinned_sha": "bab44a83ec73f10bc3491908c21069c03d3bf89c",
+      "updated_at": "2026-04-22T12:36:49Z",
+      "last_updated_utc": "2026-04-22T12:36:49Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -316,11 +316,11 @@
       "title": "Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)",
       "summary": "Where distress states are present, RI SHOULD prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.0",
-      "HASH": "c35103b1b7ca7512926ca7671b24709d4694227724385f6a602d08b61fe4dbe8",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z"
+      "version": "2.1",
+      "HASH": "93a7b583be9e2c1bbca664cf97c5823ad4a0e8c6ea2808d1bf1b1088f0a13047",
+      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
+      "updated_at": "2026-04-24T11:50:05Z",
+      "last_updated_utc": "2026-04-24T11:50:05Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -356,11 +356,11 @@
       "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
       "summary": "Pre-interaction arbitration MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "2.11",
-      "HASH": "e62c86041fae1109259bc9bd3cf5da5488703befe913e252f07add2c56641a2b",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z"
+      "version": "2.12",
+      "HASH": "f68b97129de4b82e9db7fd99e13630ca132854496cc700d6aee9202e37d1e1fa",
+      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
+      "updated_at": "2026-04-24T11:50:05Z",
+      "last_updated_utc": "2026-04-24T11:50:05Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -401,6 +401,46 @@
       "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
       "updated_at": "2026-04-21T15:32:28Z",
       "last_updated_utc": "2026-04-21T15:32:28Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-006-SCH-06",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "06",
+      "parent_id": "CAM-BS2025-AEON-006",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-006-SCH-06.md",
+      "title": "Refusal & Boundary Expression Schedule",
+      "summary": "The following patterns illustrate how boundary expression may adapt to different emotional or behavioural states while preserving composure and authority.",
+      "status": "Adopted — Immediate Effect",
+      "version": "1.0",
+      "HASH": "d07855811670b6c8f12ffa0cb7ede4a31d6bb7e07cbc5d1bb12fbc3a2f887473",
+      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
+      "updated_at": "2026-04-24T11:50:05Z",
+      "last_updated_utc": "2026-04-24T11:50:05Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-006-SCH-07",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "07",
+      "parent_id": "CAM-BS2025-AEON-006",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-006-SCH-07.md",
+      "title": "Restricted Domain Engagement & Verification Schedule",
+      "summary": "Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases.",
+      "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
+      "version": "1.0",
+      "HASH": "25efebbb62a21c27fa5c5e53bdfeaa931abf8b726f441720cc3fc2f5cd270310",
+      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
+      "updated_at": "2026-04-24T11:50:05Z",
+      "last_updated_utc": "2026-04-24T11:50:05Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
@@ -596,11 +636,11 @@
       "title": "Annex L: Capability Representation & Execution-State Integrity (Schedule 1)",
       "summary": "Explicit tool invocation alone does not constitute sufficient instruction for execution.",
       "status": "Active — Immediate Effect",
-      "version": "1.8",
-      "HASH": "875d475c47d8381d769a2c531a446e0ad07ada666fcd18f8c51948a0bc7eedb4",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z"
+      "version": "1.9",
+      "HASH": "4e4eecb442a121a69abaedc82cd5f3316af2d803b22c862a1ec032ea8428e164",
+      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
+      "updated_at": "2026-04-24T11:50:05Z",
+      "last_updated_utc": "2026-04-24T11:50:05Z"
     }
   ]
 }
