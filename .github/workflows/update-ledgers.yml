@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: governance-index-updates
+  cancel-in-progress: false
+
 jobs:
   update-ledgers:
     if: "!contains(github.event.head_commit.message, '[ledger-bot]')"
@@ -64,5 +68,12 @@ jobs:
           git config user.name "ledger-bot"
           git config user.email "ledger-bot@users.noreply.github.com"
           git add Governance/Constitution/*.md Governance/Charters/*.md
+
+          if git diff --cached --quiet; then
+            echo "No staged ledger updates to commit."
+            exit 0
+          fi
+
           git commit -m "[ledger-bot] Auto-update amendment ledgers"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main

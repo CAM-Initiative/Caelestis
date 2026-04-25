@@ -18,8 +18,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: law-index-main
-  cancel-in-progress: true
+  group: governance-index-updates
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -44,50 +44,25 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push laws index + JSON (hardened)
+      - name: Generate + commit + push laws index + JSON
         shell: bash
         run: |
           set -euo pipefail
 
-          # Make absolutely sure we are on main (not detached HEAD)
           git checkout -B main origin/main
-
-          # Configure identity in THIS SAME STEP (avoids the recurring identity bug)
           git config --global user.name "${BOT_NAME}"
           git config --global user.email "${BOT_EMAIL}"
 
-          # Retry loop to survive non-fast-forward / forced-update situations safely
-          for attempt in 1 2 3; do
-            echo "---- Attempt ${attempt} ----"
+          python .github/scripts/update-CAM-Laws-Index.py
 
-            # Always regenerate from the current working tree state
-            python .github/scripts/update-CAM-Laws-Index.py
+          git add Governance/Laws/CAM-Laws-Index.md Governance/Laws/laws.index.json
 
-            # Stage only the two generated artifacts
-            git add Governance/Laws/CAM-Laws-Index.md Governance/Laws/laws.index.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-            # If nothing changed, exit cleanly
-            if git diff --cached --quiet; then
-              echo "No changes to commit."
-              exit 0
-            fi
+          git commit -m "[AUTO][Laws] Refresh CAM Laws index + JSON"
 
-            echo "Staged changes:"
-            git diff --cached --name-only
-
-            # Commit (will fail if identity missing; we set it above)
-            git commit -m "[AUTO][Laws] Refresh CAM Laws index + JSON"
-
-            # Try to push
-            if git push origin HEAD:main; then
-              echo "Push succeeded."
-              exit 0
-            fi
-
-            echo "Push failed (likely non-fast-forward). Refreshing runner from origin/main and retrying..."
-            git fetch origin main
-            git reset --hard origin/main
-          done
-
-          echo "Push failed after 3 attempts."
-          exit 1
+          git pull --rebase origin main
+          git push origin HEAD:main
