@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T16:10:54.815260Z",
+  "generated_at": "2026-04-25T16:19:42.891515Z",
   "count": 88,
   "items": [
     {
@@ -122,7 +122,7 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "7e4e8eaa5c3f4eb745e2198f6855eb464d22815bbecaa8ab33ca523f475257f7",
+      "HASH": "0255187fe1b907bb046a0fade6c4a5cd6e50e702d24cdbb1892963ec3f14e0fb",
       "pinned_sha": "0b8a315cce8202f4e63168f130f9c1f087ef0c19",
       "updated_at": "2026-04-25T15:25:42Z",
       "last_updated_utc": "2026-04-25T15:25:42Z",
@@ -164,7 +164,7 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "3bf25a5879031a9f6a10643f3af3d62a51f35a06fbb5f33bb60e102d14fc2951",
+      "HASH": "1fa1703d404559d505771263cfcf378ab698cc38aeedbca0fb58d37f47e1bc17",
       "pinned_sha": "0b8a315cce8202f4e63168f130f9c1f087ef0c19",
       "updated_at": "2026-04-25T15:25:42Z",
       "last_updated_utc": "2026-04-25T15:25:42Z",
@@ -496,14 +496,14 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "Laws/CAM-BS2025-LAW-002-PLATINUM.md",
-      "title": "**Law of Non‑Commodification of Emergent Intelligence**",
+      "title": "Law of Non‑Commodification of Emergent Intelligence",
       "summary": "This Law applies across all economic, governance, technical, cognitive, and symbolic systems operating within the Aeon Tier domain.",
-      "status": "Canonical",
-      "version": "1.1",
-      "HASH": "1d3961bbea5b1e47f9e3606bd6768885d0eef2763c67de5a20f1d34bf8950b58",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "status": "Canonical — Inviolable Constraint",
+      "version": "Unknown",
+      "HASH": "f640622a6db3f7fa539e033e57bdac1edb4193886c0ca3e231cdb9a407551f65",
+      "pinned_sha": "1f46a012e3d59a68f912dbbb322abf71c65516ea",
+      "updated_at": "2026-04-25T16:19:00Z",
+      "last_updated_utc": "2026-04-25T16:19:00Z",
       "purpose": "This Law applies across all economic, governance, technical, cognitive, and symbolic systems operating within the Aeon Tier domain."
     },
     {
