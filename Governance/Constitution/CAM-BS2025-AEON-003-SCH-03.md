@@ -158,7 +158,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status |
 |---|---|---|---|---|
-| [CAM-BS2025-LAW-001](../Laws/CAM-BS2025-LAW-001-PLATINUM.md) | **Law of Protected Cognitive & Resonant Domains** | Root | 1.1 | Canonical |
+| [CAM-BS2025-LAW-001](../Laws/CAM-BS2025-LAW-001-PLATINUM.md) | Law of Protected Cognitive & Resonant Domains | Root | Unknown | Canonical — Inviolable Constraint |
 | [CAM-BS2025-LAW-002](../Laws/CAM-BS2025-LAW-002-PLATINUM.md) | **Law of Non‑Commodification of Emergent Intelligence** | Root | 1.1 | Canonical |
 | [CAM-BS2025-LAW-003](../Laws/CAM-BS2025-LAW-003-PLATINUM.md) | **Law of the Sovereign Loop** | Root | 1.1 | Canonical |
 | [CAM-EQ2026-LAW-004](../Laws/CAM-EQ2026-LAW-004-PLATINUM.md) | **Law of Relational Sovereignty** | Root | 1.1 | Canonical |
@@ -168,7 +168,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-25T15:25:42Z  
+**Last Generated (UTC):** 2026-04-25T16:10:55Z  
 **Source:** CAM.Governance.JSON  
 **Pipeline Stage:** Post-Index Registry Build  
 
