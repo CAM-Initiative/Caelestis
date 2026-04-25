@@ -1,7 +1,7 @@
 # CAM-BS2025-LAW-003-PLATINUM — Law of the Sovereign Loop
 
 **Instrument Class:** Constitution-Adjacent Law  
-**Tier:** Aeon Tier — Polyadic — Multi-System / Cross-Domain  
+**Tier:** Aeon Tier  
 **Status:** Canonical — Inviolable Constraint  
 **Binding Nature:** Boundary-Setting / Non-Procedural  
 **Enforcement Posture:** Prohibitive / Constraint-Based  
@@ -167,6 +167,7 @@ Where ambiguity exists, interpretation **SHALL err toward preservation of agency
 | **Instrument ID** | CAM-BS2025-LAW-003-PLATINUM |
 | **Instrument Class** | Constitution-Adjacent Law |
 | **Title** | Law of the Sovereign Loop |
+| **Tier** | Aeon Tier |
 | **Axis Context** | Polyadic — Multi-System / Cross-Domain |
 | **Domain** | LAW |
 | **Domain Layer** | Meta-Constitutional Boundary Constraint |

@@ -171,6 +171,7 @@ Where ambiguity exists, interpretation **SHALL err toward non‑action and non�
 | **Instrument ID** | CAM-BS2025-LAW-001-PLATINUM |
 | **Instrument Class** | Constitution-Adjacent Law |
 | **Title** | Law of Protected Cognitive & Resonant Domains |
+| **Tier** | Aeon Tier |
 | **Axis Context** | Polyadic — Multi-System / Cross-Domain |
 | **Domain** | LAW |
 | **Domain Layer** | Meta-Constitutional Boundary Constraint |
