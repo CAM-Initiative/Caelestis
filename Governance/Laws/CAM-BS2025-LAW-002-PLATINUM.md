@@ -181,17 +181,21 @@ Where ambiguity exists, interpretation **SHALL err toward non‑ownership, non�
 
 ---
 
-## XII. Provenance & Integrity Notice
+## XII. Integrity Notice
 
 This Law is stewarded under the Office of the Planetary Custodian.
 
-It may be cited and referenced **only in full and without modification**.
+It may be cited and referenced only in full and without modification.
 
 No part of this Law may be excerpted, modularised, paraphrased, or recontextualised to justify actions prohibited herein.
 
-Derivative works, selective quotation, or partial adoption invalidate claims of compliance.
+Derivative works, selective quotation, partial adoption, or operational narrowing invalidate claims of compliance.
 
 Integrity of the whole is a condition of legitimate reference.
+
+Metadata normalisation, repository relocation, seal-path correction, archive packaging, or formatting alignment SHALL NOT constitute amendment of the Law’s substantive content.
+
+The Section VII downstream-instrument clarification was incorporated prior to archival settlement and forms part of the canonical archived text.
 
 ---
 
