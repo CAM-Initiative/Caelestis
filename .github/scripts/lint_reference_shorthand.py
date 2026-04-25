@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-from __future__ import annotations
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
+
 import argparse
 import pathlib
 import re

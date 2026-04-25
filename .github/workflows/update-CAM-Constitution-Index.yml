@@ -6,7 +6,7 @@ on:
     paths:
       - ".github/scripts/lib/**"
       - ".github/scripts/update-CAM-Constitution-Index.py"
-      - ".github/scripts/instrument_parser.py"
+      - ".github/scripts/lib/instrument_parser.py"
       - "Governance/Constitution/**"
       - "!Governance/Constitution/CAM-Constitution-Index.md"
       - "!Governance/Constitution/constitution.index.json"

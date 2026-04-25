@@ -6,7 +6,7 @@ on:
     paths:
       - ".github/scripts/lib/**"
       - ".github/scripts/update-CAM-Charters-Index.py"
-      - ".github/scripts/instrument_parser.py"
+      - ".github/scripts/lib/instrument_parser.py"
       - "Governance/Charters/**"
       - "!Governance/Charters/CAM-Charters-Index.md"
       - "!Governance/Charters/charters.index.json"
