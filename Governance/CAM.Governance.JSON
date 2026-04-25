@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T14:31:11.518001Z",
+  "generated_at": "2026-04-25T14:37:26.568840Z",
   "count": 88,
   "items": [
     {
@@ -122,10 +122,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "8aba8bd6a1b2e090b062a4879d6de72492a791e937f51bf13737c84927f0bb14",
-      "pinned_sha": "859ad3e649c42d7c0303cf8be0003d75e1852280",
-      "updated_at": "2026-04-25T14:03:55Z",
-      "last_updated_utc": "2026-04-25T14:03:55Z",
+      "HASH": "e8cabd04efc1628a96889818c8acdf0ab9ea5cf963ea354b12ec4667b43051ca",
+      "pinned_sha": "6ab545d43c96d69ad7c8523e7e4a87f7148189cc",
+      "updated_at": "2026-04-25T14:31:11Z",
+      "last_updated_utc": "2026-04-25T14:31:11Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments."
     },
     {
@@ -164,10 +164,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "9ef16627b22024327361fdb2850d6f53630810cf9bb5d42884a40184f162572f",
-      "pinned_sha": "859ad3e649c42d7c0303cf8be0003d75e1852280",
-      "updated_at": "2026-04-25T14:03:55Z",
-      "last_updated_utc": "2026-04-25T14:03:55Z",
+      "HASH": "7cc7df3faf2147c0cbc02fe9a39784fbf111addb63993f01cc91bc6f1821dc77",
+      "pinned_sha": "6ab545d43c96d69ad7c8523e7e4a87f7148189cc",
+      "updated_at": "2026-04-25T14:31:11Z",
+      "last_updated_utc": "2026-04-25T14:31:11Z",
       "purpose": "Canonical, human-readable registry of all governance instruments."
     },
     {
@@ -373,11 +373,11 @@
       "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
       "summary": "Pre-interaction arbitration MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "2.13",
-      "HASH": "cd3d13cdd5c9e8997dd01a3cb13fcdbcdf8bb33683d01d9903703f4b6a626159",
-      "pinned_sha": "77c76a57ae5d244e4ae22926bfe3b47fd4485f16",
-      "updated_at": "2026-04-24T13:28:20Z",
-      "last_updated_utc": "2026-04-24T13:28:20Z",
+      "version": "2.14",
+      "HASH": "dec008de1d2340a096327d7cad761ed829302af445d2a10629355ef880e8030f",
+      "pinned_sha": "981cd982b3ae1c7fd2573933ded0b302d3a7a150",
+      "updated_at": "2026-04-25T14:36:59Z",
+      "last_updated_utc": "2026-04-25T14:36:59Z",
       "purpose": "This Schedule defines the principles governing start-time posture formation and session entry arbitration."
     },
     {

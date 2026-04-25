@@ -43,7 +43,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-005-SCH-03](../Constitution/CAM-BS2025-AEON-005-SCH-03.md) | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | Schedule | 2.4 | Immediate Effect, 7-day observation window; operational rollout active on commit |
 | [CAM-BS2025-AEON-006-SCH-01](../Constitution/CAM-BS2025-AEON-006-SCH-01.md) | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | Schedule | 2.2 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2025-AEON-006-SCH-02](../Constitution/CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | Schedule | 3.6 | Adopted — Enforcement Commences 1 July 2026 |
-| [CAM-BS2025-AEON-006-SCH-03](../Constitution/CAM-BS2025-AEON-006-SCH-03.md) | Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3) | Schedule | 2.13 | Adopted — Conditional Enforcement (7-Day Review Window) |
+| [CAM-BS2025-AEON-006-SCH-03](../Constitution/CAM-BS2025-AEON-006-SCH-03.md) | Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3) | Schedule | 2.14 | Adopted — Conditional Enforcement (7-Day Review Window) |
 | [CAM-BS2025-AEON-006-SCH-04](../Constitution/CAM-BS2025-AEON-006-SCH-04.md) | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | Schedule | 2.5 | Adopted — Conditional Enforcement (7-Day Review Window) |
 | [CAM-BS2025-AEON-006-SCH-05](../Constitution/CAM-BS2025-AEON-006-SCH-05.md) | Choice, Initiative & Directional Behaviour (Schedule 5) | Schedule | 1.7 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-006-SCH-06](../Constitution/CAM-BS2025-AEON-006-SCH-06.md) | Refusal & Boundary Expression Schedule | Schedule | 1.1 | Adopted — Immediate Effect |
@@ -168,7 +168,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-25T14:31:11Z  
+**Last Generated (UTC):** 2026-04-25T14:37:26Z  
 **Source:** CAM.Governance.JSON  
 **Pipeline Stage:** Post-Index Registry Build  
 
