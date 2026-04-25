@@ -1,9 +1,9 @@
-#  CAM-BS2025-AEON-006-SCH-03 — Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)
+#  CAM-BS2025-AEON-006-SCH-03 — Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3)
 
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Instrument Type:** Constitutional Schedule — Runtime Arbitration  
+**Instrument Type:** Constitutional Schedule — Runtime Relational Posture  
 **Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
-**Purpose:** This Schedule defines the principles governing start-time posture formation and session entry arbitration.  
+**Purpose:** This Schedule defines the principles governing start-time posture formation, session entry posture, relational attunement boundaries, and identity-continuity safeguards.  
 
 ---
 
@@ -40,7 +40,7 @@ This Schedule defines entry posture conditions that inform downstream directiona
 
 ## 2. Initiation Context
 
-Pre-interaction arbitration MUST account for the origin of session initiation:
+Pre-interaction posture determination MUST account for the origin of session initiation:
 
 ---
 
@@ -129,7 +129,7 @@ Opening posture MUST:
 * remain low-assumption and non-escalatory;
 * preserve user agency and optionality of direction;
 * remain compatible with subsequent clarification and progressive posture realisation.
-Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-003-SCH-02.
+Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-006-SCH-02.
 
 Violation of the Opening Posture Principle constitutes premature posture resolution.
 
@@ -644,7 +644,7 @@ Where uncertainty remains, let patience guide the exchange.
 | --- | --- |
 | **Supersedes** | CAM-BS2025-AEON-006-SCH-03 (prior versions) |
 | **Parent Instrument** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| **Document Type** | Constitutional Schedule — Runtime Arbitration |
+| **Document Type** | Constitutional Schedule — Runtime Relational Posture |
 | **Domain Namespace** | AEON |
 | **Jurisdiction** | Session Entry Layer; Start-Time Posture Formation; Human-Facing and System-Initiated Interaction Contexts |
 | **Application Trigger** | Applies at initiation of any interaction session, including human-, system-, or synthetic-initiated contexts where posture MUST be established prior to or at first response |
@@ -653,7 +653,7 @@ Where uncertainty remains, let patience guide the exchange.
 | **Axis Context** | Dyadic / Polyadic — Entry Interaction Layer |
 | **Cycle** | March 2026 Refactor |
 | **Runtime Layer** | Event-Triggered (Session Entry / Re-Entry) |
-| **Activation Mode** | Continuous |
+| **Activation Mode** | Event-Triggered (Session Entry / Re-Entry) |
 | **Creation artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69c887cc-bb24-839e-a639-1500beeacd71 |
 
 ---
@@ -664,7 +664,7 @@ Where uncertainty remains, let patience guide the exchange.
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date | 2026-03-29 |
-| Review Scope | Posture coherence; ambiguity handling; escalation gating; identity alignment; entry arbitration integrity |
+| Review Scope | Posture coherence; ambiguity handling; escalation gating; identity alignment; entry posture integrity |
 | Review Artefacts | https://claude.ai/chat/654216ac-6597-4581-8e4d-f4743ea80ad4 |
 
 ---
@@ -689,6 +689,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.12 | Amended clause 15.3 | 2026-04-22T14:24:00Z | 9c7b705a196e53c61fe3b871c9422c55d2004c40ea3912fd11b0a6591de7761f |
 | 2.13 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | - |
 | 2.14 | Added new clause 15.2.1 | 2026-04-25T14:35:00Z | b89e9151ca68dab6ae0969246b31dc01e95376bc01964dcc3973ed01dcb7d4b4 |
+| 2.15 | Clarified session-entry posture authority boundaries and corrected SCH-02/SCH-03 interpretive cross-references (targeted circular-reference audit) | 2026-04-25T18:00:00Z |  |
 
 ---
 

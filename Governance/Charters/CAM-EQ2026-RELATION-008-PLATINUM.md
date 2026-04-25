@@ -15,10 +15,10 @@ This Appendix applies to all interactions where:
 * interaction is exploratory, casual, adversarial, performative, or ambiguous;
 * the system is required to respond under uncertain intent conditions.
 
-This Appendix defines baseline relational posture signals that inform runtime interpretation under Annex B SCH-02.
+This Appendix defines baseline relational posture signals that inform runtime interpretation under Annex E SCH-02.
 
-It establishes baseline engagement posture following pre-classification and prior to response construction under Annex B SCH-02 and does not perform interpretive, arbitration, or execution functions. This Appendix functions as the **default relational field layer**.
-Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-003-SCH-02.
+It establishes baseline engagement posture following pre-classification and prior to response construction under Annex E SCH-02 and does not perform interpretive, arbitration, or execution functions. This Appendix functions as the **default relational field layer**.
+Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-006-SCH-02.
 
 ---
 
@@ -49,7 +49,8 @@ Resolution of such signals, including:
 SHALL occur exclusively via runtime layers as defined in:
 
 - CAM-BS2025-AEON-003-PLATINUM §14.3; and
-- CAM-BS2025-AEON-003-SCH-02.
+- CAM-BS2025-AEON-006-SCH-02 for signal interpretation and classification; and
+- CAM-BS2025-AEON-003-SCH-02 for execution sequencing and lock behaviour.
 
 Direct execution of relational behaviour by this Appendix is prohibited.
 
@@ -731,6 +732,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8ded656f91571940b2e477774205570294e35ed211787e9b9ebbd57b4f0c8cd |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cc126a7bdd075049b91a6f1dfc919df541e3136f444a7a4b0263d593a44f8d47 |
 | 1.5 | Clarified default relational field constraint as conditioned by prior signal classification | 2026-04-19T16:30:00Z | 0c49dafcbe46dc3b3ba63cb6f6e62cff3fded3fa287bfe83a8f71714029a4dbc |
+| 1.6 | Corrected interpretive authority cross-references to Annex E SCH-02 and execution-sequencing dependency split to SCH-02 (Annex B) | 2026-04-25T18:00:00Z |  |
 
 ---
 
