@@ -22,8 +22,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: governance-index-main
-  cancel-in-progress: true
+  group: governance-index-updates
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -57,34 +57,25 @@ jobs:
           git config --global user.name "${BOT_NAME}"
           git config --global user.email "${BOT_EMAIL}"
 
-          for attempt in 1 2 3; do
-            echo "---- Attempt ${attempt} ----"
+          # 1) Aggregate governance JSON/index from per-domain JSON outputs
+          python .github/scripts/update-CAM-Governance-Index.py
+          # 2) SCH-01 runtime registry from aggregate governance JSON
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+          # 3) SCH-03 from aggregate governance JSON
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
-            # 1) Aggregate governance JSON/index from per-domain JSON outputs
-            python .github/scripts/update-CAM-Governance-Index.py
-            # 2) SCH-01 runtime registry from aggregate governance JSON
-            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-            # 3) SCH-03 from aggregate governance JSON
-            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          git add \
+            Governance/CAM.Governance.Index.md \
+            Governance/CAM.Governance.JSON \
+            Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md \
+            Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
 
-            git add Governance/CAM.Governance.Index.md Governance/CAM.Governance.JSON Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-            if git diff --cached --quiet; then
-              echo "No changes to commit."
-              exit 0
-            fi
+          git commit -m "[AUTO][Governance] Refresh global Governance index + JSON + SCH-01 + SCH-03"
 
-            git commit -m "[AUTO][Governance] Refresh global Governance index + JSON + SCH-01 + SCH-03"
-
-            if git push origin HEAD:main; then
-              echo "Push succeeded."
-              exit 0
-            fi
-
-            echo "Push failed (likely non-fast-forward). Refreshing and retrying..."
-            git fetch origin main
-            git reset --hard origin/main
-          done
-
-          echo "Push failed after 3 attempts."
-          exit 1
+          git pull --rebase origin main
+          git push origin HEAD:main

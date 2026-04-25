@@ -16,8 +16,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-cam-bs2025-aeon-003-sch-03-main
-  cancel-in-progress: true
+  group: governance-index-updates
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -51,29 +51,17 @@ jobs:
           git config --global user.name "${BOT_NAME}"
           git config --global user.email "${BOT_EMAIL}"
 
-          for attempt in 1 2 3; do
-            echo "---- Attempt ${attempt} ----"
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
-            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-            python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
-            git add Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
+          git add Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
 
-            if git diff --cached --quiet; then
-              echo "No changes to commit."
-              exit 0
-            fi
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-            git commit -m "[AUTO][Constitution] Refresh CAM-BS2025-AEON-003-SCH-01 + SCH-03"
+          git commit -m "[AUTO][Constitution] Refresh CAM-BS2025-AEON-003-SCH-01 + SCH-03"
 
-            if git push origin HEAD:main; then
-              echo "Push succeeded."
-              exit 0
-            fi
-
-            echo "Push failed; refreshing and retrying..."
-            git fetch origin main
-            git reset --hard origin/main
-          done
-
-          echo "Push failed after 3 attempts."
-          exit 1
+          git pull --rebase origin main
+          git push origin HEAD:main
