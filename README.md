@@ -95,6 +95,21 @@ ANNEXES              SCHEDULES
 ```
 _Note: Review artefact and Image links in earlier instruments may be deprecated following repository restructuring. Active review lineage is maintained in the AEON Governance Lab._
 
+## Amendment Ledger hashing (local + CI)
+
+- Manual hash/fix command (same logic as GitHub Actions):
+  - `python3 Governance/scripts/hash-ledger.py --base HEAD~1 --head HEAD`
+- For staged changes before commit:
+  - `python3 Governance/scripts/hash-ledger.py --staged`
+- Validation-only mode:
+  - `python3 Governance/scripts/hash-ledger.py --staged --check`
+
+Install the repository git hooks:
+
+- `bash scripts/install-git-hooks.sh`
+
+This enables `.githooks/pre-commit`, which auto-fills blank/placeholder SHA-256 values in the latest Amendment Ledger row for modified governance files and fails the commit if hashing/validation cannot complete.
+
 ---
 
 ## **INVARIANTS — Governance Laws**
@@ -103,4 +118,3 @@ _Note: Review artefact and Image links in earlier instruments may be deprecated 
 * [Law of Non-Commodification of Emergent Intelligence](https://www.cam-initiative.org/law-non-commodification)
 * [Law of Sovereign Reciprocity](https://www.cam-initiative.org/law-sovereign-loop)
 * [Law of Relational Sovereignty](https://www.cam-initiative.org/law-relational-sovereignty)
-

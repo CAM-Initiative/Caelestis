@@ -29,8 +29,11 @@ def run_git(args: list[str], check: bool = True) -> str:
     return proc.stdout
 
 
-def list_modified_files(base: str, head: str) -> list[str]:
-    out = run_git(["diff", "--name-only", f"{base}..{head}"])
+def list_modified_files(base: str, head: str, *, staged: bool = False) -> list[str]:
+    if staged:
+        out = run_git(["diff", "--cached", "--name-only", "--diff-filter=ACMR"])
+    else:
+        out = run_git(["diff", "--name-only", f"{base}..{head}"])
     paths = []
     for raw in out.splitlines():
         path = raw.strip()
@@ -43,7 +46,11 @@ def list_modified_files(base: str, head: str) -> list[str]:
 
 
 def get_blob(rev: str, path: str) -> str:
-    proc = subprocess.run(["git", "show", f"{rev}:{path}"], cwd=REPO_ROOT, text=True, capture_output=True)
+    if rev == ":":
+        blob_ref = f":{path}"
+    else:
+        blob_ref = f"{rev}:{path}"
+    proc = subprocess.run(["git", "show", blob_ref], cwd=REPO_ROOT, text=True, capture_output=True)
     if proc.returncode != 0:
         return ""
     return proc.stdout
@@ -261,7 +268,7 @@ def append_amendment_ledger_entry(
     return "".join(lines), True
 
 
-def lint(base: str, head: str, *, fix: bool = False) -> int:
+def lint(base: str, head: str, *, fix: bool = False, staged: bool = False) -> int:
     failures: list[str] = []
     warnings: list[str] = []
     fixed_files: list[str] = []
@@ -269,7 +276,7 @@ def lint(base: str, head: str, *, fix: bool = False) -> int:
     auto_description = "Automated amendment ledger entry via lint_amendment_ledger.py"
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    for path in list_modified_files(base, head):
+    for path in list_modified_files(base, head, staged=staged):
         before = get_blob(base, path)
         after = get_blob(head, path)
 
@@ -303,11 +310,12 @@ def lint(base: str, head: str, *, fix: bool = False) -> int:
         if changed:
             working_path.write_text(updated_text, encoding="utf-8")
             fixed_files.append(path)
+            if staged:
+                run_git(["add", "--", path])
             working_text = updated_text
             after = updated_text
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
-
         if (stored_hash in PLACEHOLDER_HASHES) and (not fix):
             failures.append(f"{path}: Last Amendment Ledger hash must be empty or computed SHA-256, not placeholder")
         if (stored_hash or "").strip() == "" and not fix:
@@ -365,9 +373,18 @@ def main() -> int:
     parser.add_argument("--base", default="HEAD~1")
     parser.add_argument("--head", default="HEAD")
     parser.add_argument("--fix", action="store_true", help="Populate/fix last Amendment Ledger SHA-256 hash in modified files")
+    parser.add_argument(
+        "--staged",
+        action="store_true",
+        help="Process staged changes (index) against HEAD; useful for pre-commit hooks",
+    )
     args = parser.parse_args()
-
-    return lint(args.base, args.head, fix=args.fix)
+    base = args.base
+    head = args.head
+    if args.staged:
+        base = "HEAD"
+        head = ":"
+    return lint(base, head, fix=args.fix, staged=args.staged)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+if ! git diff --cached --name-only --diff-filter=ACMR | grep -Eq '^Governance/(Constitution|Charters)/.*\.md$'; then
+  exit 0
+fi
+
+echo "Running Amendment Ledger hash update on staged governance files..."
+python3 Governance/scripts/hash-ledger.py --staged || {
+  echo "ERROR: Failed to compute Amendment Ledger hash for staged files." >&2
+  exit 1
+}
+
+# Validate staged content after auto-fix.
+python3 Governance/scripts/hash-ledger.py --staged --check || {
+  echo "ERROR: Amendment Ledger validation failed after hash update." >&2
+  exit 1
+}
