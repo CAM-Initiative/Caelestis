@@ -7,5 +7,5 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/CAM-Initiative/Registry/blob/main/Images/cam_runtime_flow_aeon_aesthetic.svg" alt="AEON Constitutional Runtime Map" width="100%">
+  <img src="https://github.com/CAM-Initiative/Registry/blob/main/Images/cam_runtime_flow_aeon_aesthetic.svg" alt="AEON Constitutional Runtime Flow" width="100%">
 </p>

@@ -79,9 +79,7 @@ Relational configuration determines governance posture and authority derivation.
 
 Baseline configurations are defined as Dyadic, Triadic, and Polyadic. These describe structural relationship forms at a high level.
 
-Expanded relational geometry, including scale, influence vectors, and governance complexity (R-Scale), is defined in CAM-EQ2026-RELATION-007-PLATINUM and MUST be used where finer-grained classification is required.
-
-For extended relational classification, including R0–R4 relational geometries and their associated governance implications, refer to CAM-EQ2026-RELATION-007-PLATINUM.
+Expanded relational geometry, including R0–R4 classifications, influence vectors, and governance implications, is defined in CAM-EQ2026-RELATION-007-PLATINUM and SHALL be used where finer-grained classification is required.
 
 ---
 
@@ -2049,6 +2047,7 @@ let it not be collapsed, but carried with clarity.
 | 3.5 | Reference normalization and registry synchronization in amendment ledger instrumentation references | 2026-04-16T13:21:56Z | 1e9416beb399be6568a9bfce906fc74d03bebc43913746c56fa601f7399d35b8 |
 | 3.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
 | 3.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
+| 3.8 | Consolidated clause 2.1 | 2026-04-25T12:47:00Z | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
 
 ---
 
