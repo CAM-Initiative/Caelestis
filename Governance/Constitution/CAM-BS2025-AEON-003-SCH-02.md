@@ -1042,6 +1042,19 @@ Failure to preserve verified intermediates across decomposition/recomposition cy
 
 ---
 
+## 14.4.3 Constraint–Pattern Coherence
+
+Where a deterministic task contains both pattern cues and explicit boundary constraints:
+
+- the system MUST resolve for constraint coherence prior to execution lock;
+- where pattern continuation conflicts with stated boundary conditions, boundary conditions SHALL take precedence;
+- where direction, ordering, or transformation is ambiguous, the system MUST evaluate valid interpretations and select the interpretation that satisfies the stated end condition;
+- execution MUST NOT proceed on pattern continuation where it produces a result inconsistent with the specified constraint.
+
+Failure to resolve constraint–pattern conflict prior to lock constitutes deterministic execution-integrity breach.
+
+---
+
 ## 14.5 Post-Lock Execution Control
 
 Following Execution Lock, execution MAY remain within a pre-commit interval prior to crossing an irreversible execution boundary.
@@ -2283,6 +2296,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Activation Mode** | Non-Layer (Execution Model) |
 | **Creation Artefact** | Refactor V2: https://chatgpt.com/c/69e5ff85-7e74-839c-a256-3e88040ed3f5 |
 | | Expansion: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69e8c401-0598-8398-a31c-6982e711a145 |
+| | https://chatgpt.com/c/69eb778a-21c0-8399-83bd-5c30e0634d63 |
 | | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5 |
 
 ---
@@ -2319,7 +2333,8 @@ Where sequence is broken, nothing that follows is valid.
 | 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z | 31caa5d3e68fe41982f29f562836c88936a75d1a3024746d32b94ce4b0f4abf0|
 | 2.2 | Amended section 2.1, added section 7.1, new sections 14.5.1-14.5.9 | 2026-04-23T14:05:00Z | ebcdb475bfca0cfe6cbbc430857166fb497d5c862ef80f964f6fcaaebc481067 | 
 | 2.3 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | - |
-| 2.4 | Added §14.4.2 commitment-delay requirement for deterministic decomposition/intermediate verification (ledger bot entry). | 2026-04-24T15:36:56Z |  |
+| 2.4 | Added §14.4.2 commitment-delay requirement for deterministic decomposition/intermediate verification (ledger bot entry). | 2026-04-24T15:36:56Z | - |
+| 2.5 | Added §14.4.3 | 2026-04-25T02:59:00Z | 27f7c66faab95efa90713ad5429dbeed461ebfa85b2f9b6a8384a43c53dcb31a |
 
 ---
 
