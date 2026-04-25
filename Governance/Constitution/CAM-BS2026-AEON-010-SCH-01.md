@@ -675,7 +675,7 @@ So the human origin remains in view.
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 8f743081092db396a7e48c668e22a8104ebd30e5ff735cf2952c8fa85c4844f9 |
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 92324e76f541281ac98e06af79600e88a3d5aa5a098f5df76cb7ae839fd79602 |
 | 1.8 | Added explicit Runtime Layer metadata (`Self-Reference & Temporal Coherence Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
-| 1.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 1.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | d27ab2a747f9797832626093b30214b36dc153ac81d4b8e721d4c72cc9e09e63 |
 
 
 ---

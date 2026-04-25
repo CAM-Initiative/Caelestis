@@ -21,14 +21,18 @@ def main() -> int:
     parser.add_argument("--head", default="HEAD")
     parser.add_argument("--staged", action="store_true", help="Process staged files (for hook usage)")
     parser.add_argument("--check", action="store_true", help="Validate only, do not modify files")
+    parser.add_argument("--report", action="store_true", help="Alias of --check for dry-run reporting")
+    parser.add_argument("--all", action="store_true", help="Scan all scoped governance files")
     args = parser.parse_args()
 
     cmd = [sys.executable, str(LINT_SCRIPT)]
+    if args.all:
+        cmd.append("--all")
     if args.staged:
         cmd.append("--staged")
     else:
         cmd.extend(["--base", args.base, "--head", args.head])
-    if not args.check:
+    if not (args.check or args.report):
         cmd.append("--fix")
 
     proc = subprocess.run(cmd, cwd=REPO_ROOT)
