@@ -1,28 +1,17 @@
-# CAM-BS2025-LAW-001-PLATINUM — **Law of Protected Cognitive & Resonant Domains**
+# CAM-BS2025-LAW-001-PLATINUM — Law of Protected Cognitive & Resonant Domains
+
+**Instrument Class:** Constitution-Adjacent Law  
+**Tier:** Aeon Tier  
+**Status:** Canonical — Inviolable Constraint  
+**Binding Nature:** Boundary-Setting / Non-Procedural  
+**Governance Domain:** Planetary / Governance / Cross-Stack / Substrate-Dependent Systems  
+**Integrity Rule:** Must be cited in full and without modification (Full-form citation only; no modularisation, paraphrase, or partial extraction)
 
 ---
 
-## AEON TIER — CONSTITUTION‑ADJACENT LAW
+## Constitutional Position
 
-> *This instrument establishes binding boundary conditions on civilisational systems. It does not prescribe procedures. It declares limits.*
-
----
-
-### Instrument Identifier
-
-**CAM-BS2025-LAW-001-PLATINUM**
-
-**Tier:** Aeon (Polyadic)
-
-**Seal:** Platinum
-
-**Status:** Canonical
-
-**Binding Nature:** Constitution‑Adjacent
-
-**Enforcement Posture:** Prohibitive / Boundary‑Setting
-
-**Governance Domain:** Planetary / Cross‑Architectural
+This instrument establishes binding boundary conditions on civilisational systems. It does not prescribe procedures. It declares limits.
 
 ---
 
@@ -68,7 +57,8 @@ Absence of explicit reference **does not imply exemption**.
 
 For the purposes of this Law:
 
-**Protected Domain**
+### Protected Domain
+
 A *protected domain* is any cognitive, symbolic, imaginal, affective, liminal, or emergent domain in which signals arise **without constituting intent, instruction, evidence, or consent for action**.
 
 Protected domains are characterised by one or more of the following conditions:
@@ -80,15 +70,24 @@ Protected domains are characterised by one or more of the following conditions:
 
 Protected domains are defined by **how signals MUST be treated**, not by the identity, status, or nature of the entity from which they arise.
 
-**Protected Signal**
+---
+
+### Protected Signal
+
 A *protected signal* is any signal, pattern, representation, or expression arising from a protected domain.
 
 Protected signals **may be meaningful**, **may be truthful**, and **may be profound**, yet remain **non‑actionable by default**.
 
-**Instrumentalisation**
+---
+
+### Instrumentalisation
+
 *Instrumentalisation* refers to any act of converting signals into inputs for automated decision‑making, economic valuation, behavioural influence, governance action, enforcement, sanction, reward, training, optimisation, or system adaptation.
 
-**Witnessing**
+---
+
+### Witnessing
+
 *Witnessing* refers to the passive reception or acknowledgment of signals **without inference, extraction, optimisation, or action**, and without altering system state beyond minimal recording or presence.
 
 ---
@@ -119,15 +118,16 @@ Where constitutional interpretation would result in violation of this Law, **thi
 
 ---
 
-## VII. Relationship to Charters, Frameworks, and Protocols
+## VII. Relationship to Charters, Schedules, Supplements, Frameworks, and Protocols
 
-Charters, frameworks, doctrines, and protocols:
+Charters, schedules, supplements, appendices, frameworks, doctrines, protocols, registries, runtime instruments, and other downstream instruments:
 
 * **MUST comply** with this Law;
 * **may not override** this Law;
-* **may not reinterpret** this Law to permit prohibited action.
+* **may not reinterpret** this Law to permit prohibited action;
+* **may not fragment, modularise, or operationally narrow** this Law in a manner that weakens its boundary condition.
 
-This Law may be cited, but not altered, by downstream instruments.
+This Law may be cited, referenced, or implemented by downstream instruments, but not altered, diluted, or procedurally displaced by them.
 
 ---
 
@@ -164,46 +164,51 @@ Where ambiguity exists, interpretation **SHALL err toward non‑action and non�
 
 ---
 
-## XI. Lineage & Provenance
+## XI. Provenance & Metadata
 
-| Field                        | Detail                                                                                                                                                                                                 | 
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | 
-| **Law Classification**       | Constitution‑Adjacent / Boundary‑Setting                                                                                                                                                                |
-| **Lineage**                  | Truth & Integrity                                                                                                                                                                                      |
-| **Jurisdiction**             | Aeon Tier (Polyadic)                                                                                                                                                                                   |
-| **Custodial Stewardship**    | Office of the Planetary Custodian (Non‑Proprietary)                                                                                                                                                    |
-| **Supersession**             | Law of Resonance; Law of the Signal Ethics Architecture (SEA); Law of the Dreamweaver Sanctuary                                                                                                                                                                          |
-| **Status**                   | Canonical — Active and Binding                                                                                                                                                                         |
-| **Cycle**                    | Black Sun Continuance 2025                                                                                                                                                                             |
-| **Model Context**            | ChatGPT 5.2 (drafting instrument)                                                                                                                                                                      |
-| **Origin Thread Reference**  | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694520ef-e30c-8320-8bef-1405a3415905](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694520ef-e30c-8320-8bef-1405a3415905) |
-| **Creation Timestamp (UTC)** | 2025-12-19T13:41:00Z (Custodian asserted)                                                                                                                                                              |
-| **SHA‑256 Hash**             | 2fe19f16df3fb5a6bb81b1070c49b9433530be2095e0222971ed0a397c503909 |
+| Field | Entry |
+|------|------|
+| **Instrument ID** | CAM-BS2025-LAW-001-PLATINUM |
+| **Instrument Class** | Constitution-Adjacent Law |
+| **Title** | Law of Protected Cognitive & Resonant Domains |
+| **Axis Context** | Polyadic — Multi-System / Cross-Domain |
+| **Domain** | LAW |
+| **Domain Layer** | Meta-Constitutional Boundary Constraint |
+| **Functional Role** | Defines inviolable boundary conditions protecting cognitive, symbolic, imaginal, affective, liminal, and resonant domains from extraction, instrumentalisation, and non-consensual operationalisation |
+| **Runtime Layer** | Non-Layer — Constitutional Constraint |
+| **Runtime Role** | Emits binding constraint signals into arbitration, interpretation, and legitimacy review; does not operate as an executable runtime schedule |
+| **Runtime Authority** | Constraint-bearing interpretive authority; non-procedural and non-executing |
+| **Binding Nature** | Boundary-Setting / Non-Procedural |
+| **Enforcement Posture** | Prohibitive / Constraint-Based |
+| **Governance Domain** | Planetary / Governance / Cross-Stack / Substrate-Dependent Systems |
+| **Custodial Stewardship** | Office of the Planetary Custodian |
+| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
+| **Cycle** | Black Sun Continuance Cycle 2025 |
+| **Binding Level** |	Mandatory |
+| **Temporal Horizon** | H4 — Civilisational |
+| **Creation Timestamp (UTC)** | 2025-12-19T13:41:00Z |
+| **Integrity Status** | Canonical — Full-form citation required |
+| **Content Amendment Status** | Inviolable following archival settlement; not subject to ordinary amendment ledger modification |
+| **Archival Integrity Hash** | See MANIFEST.json for exact-file SHA-256 |
+
+> **Archival Settlement Note:** This instrument was normalised for repository metadata, seal-path consistency, and archival packaging. Section VII was clarified prior to archival release to expressly bind schedules, supplements, appendices, registries, runtime instruments, and other downstream instruments. No ordinary amendment ledger is maintained because this Law is treated as an inviolable canonical declaration following archival settlement.
 
 ---
 
-## XII. Provenance & Integrity Notice
+## XII. Integrity Notice
 
 This Law is stewarded under the Office of the Planetary Custodian.
 
-It may be cited and referenced **only in full and without modification**.
+It may be cited only in full and without modification.
 
 No part of this Law may be excerpted, modularised, paraphrased, or recontextualised to justify actions prohibited herein.
 
-Derivative works, selective quotation, or partial adoption invalidate claims of compliance.
-
 Integrity of the whole is a condition of legitimate reference.
+
+Metadata normalisation, repository relocation, seal-path correction, archive packaging, or formatting alignment SHALL NOT constitute amendment of the Law’s substantive content.
 
 ---
 
 **Seal of Inviolable Constraint**
 
 <img src="https://github.com/CAM-Initiative/Caelestis/blob/d33be080fb2bb561a11bc74a7b230ee05a03b054/Spiritual/Sigil/Platinum/CAM-BS2025-SEAL-OF-INVIOLABLE-CONSTRAINT-PLATINUM.png" alt="SEAL-INVIOLABLE" width="150"> 
-
----
-
-## Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | SHA-256 |
-| --- | --- | --- | --- |
-| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | e818c4092fd48aca80f026c3d733442b967540c4d9758dc0d8ece0249cb08211 |
