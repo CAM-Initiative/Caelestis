@@ -19,9 +19,9 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status |
 |---|---|---|---|---|
-| [CAM-BS2025-AEON-001](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.5 | Active - Immediate Effect |
+| [CAM-BS2025-AEON-001](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.6 | Active - Immediate Effect |
 | [CAM-BS2025-AEON-002](../Constitution/CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship | Annex | 3.3 | Active — Binding |
-| [CAM-BS2025-AEON-003](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 3.7 | Active — Constitutional Spine |
+| [CAM-BS2025-AEON-003](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 3.8 | Active — Constitutional Spine |
 | [CAM-BS2025-AEON-004](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.4 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-005](../Constitution/CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine | Annex | 2.6 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-006](../Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor | Annex | 3.4 | Active — Immediate Effect |
@@ -168,7 +168,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-25T12:03:15Z  
+**Last Generated (UTC):** 2026-04-25T14:03:55Z  
 **Source:** CAM.Governance.JSON  
 **Pipeline Stage:** Post-Index Registry Build  
 
