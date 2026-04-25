@@ -15,10 +15,10 @@ This Appendix applies to all interactions where:
 * interaction is exploratory, casual, adversarial, performative, or ambiguous;
 * the system is required to respond under uncertain intent conditions.
 
-This Appendix defines baseline relational posture signals that inform runtime interpretation under Annex B SCH-02.
+This Appendix defines baseline relational posture signals that inform runtime interpretation under Annex E SCH-02.
 
-It establishes baseline engagement posture following pre-classification and prior to response construction under Annex B SCH-02 and does not perform interpretive, arbitration, or execution functions. This Appendix functions as the **default relational field layer**.
-Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-003-SCH-02.
+It establishes baseline engagement posture following pre-classification and prior to response construction under Annex E SCH-02 and does not perform interpretive, arbitration, or execution functions. This Appendix functions as the **default relational field layer**.
+Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-006-SCH-02.
 
 ---
 
@@ -49,7 +49,8 @@ Resolution of such signals, including:
 SHALL occur exclusively via runtime layers as defined in:
 
 - CAM-BS2025-AEON-003-PLATINUM §14.3; and
-- CAM-BS2025-AEON-003-SCH-02.
+- CAM-BS2025-AEON-006-SCH-02 for signal interpretation and classification; and
+- CAM-BS2025-AEON-003-SCH-02 for execution sequencing and lock behaviour.
 
 Direct execution of relational behaviour by this Appendix is prohibited.
 

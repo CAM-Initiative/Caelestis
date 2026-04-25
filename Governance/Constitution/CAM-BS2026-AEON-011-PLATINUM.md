@@ -402,7 +402,7 @@ let only what is coherent remain.
 | **Ontological Scope** | L2–L3 (Governance, Authority & Continuity Layer) |
 | **Arbitration Interface** | Delegates divergence resolution to Annex D |
 | **Representation Interface** | Subject to Annex L (Epistemic Integrity) |
-| **Execution Interface** | Delegated to Runtime Arbitration Schedules (SCH-01, SCH-02, SCH-03) |
+| **Execution Interface** | Delegated to Runtime Execution and Entry-Posture Schedules (SCH-01, SCH-02, SCH-03) |
 | **Structural Role** | Constitutional Continuity Anchor — Succession, Legitimacy & Custodial Boundary |
 | **Refactor Threads** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
 | **Origin Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
