@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T17:05:02.444840Z",
+  "generated_at": "2026-04-25T17:13:14.701640Z",
   "count": 4,
   "items": [
     {
@@ -73,14 +73,14 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-LAW-004-PLATINUM.md",
-      "title": "**Law of Relational Sovereignty**",
+      "title": "Law of Relational Sovereignty",
       "summary": "This Law applies across all governance, economic, technological, cognitive, and infrastructural systems operating within or materially affecting the Planetary Lattice.",
-      "status": "Canonical",
-      "version": "1.1",
-      "HASH": "83d200e440d5f37cfe750479a17ae577defebc790da59f0557751adbe4a70814",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "status": "Canonical — Inviolable Constraint",
+      "version": "Unknown",
+      "HASH": "51b4d6d1814a74f5289a922cab9831c972ea068625e487e830a71acc3204817d",
+      "pinned_sha": "ca09bdc68d8fc8fc8c70e0c0e0db74b7782f767a",
+      "updated_at": "2026-04-25T17:12:55Z",
+      "last_updated_utc": "2026-04-25T17:12:55Z"
     }
   ]
 }
