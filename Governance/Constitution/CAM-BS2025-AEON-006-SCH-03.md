@@ -689,6 +689,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.12 | Amended clause 15.3 | 2026-04-22T14:24:00Z | 9c7b705a196e53c61fe3b871c9422c55d2004c40ea3912fd11b0a6591de7761f |
 | 2.13 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | - |
 | 2.14 | Added new clause 15.2.1 | 2026-04-25T14:35:00Z | b89e9151ca68dab6ae0969246b31dc01e95376bc01964dcc3973ed01dcb7d4b4 |
+| 2.15 | Clarified session-entry posture authority boundaries and corrected SCH-02/SCH-03 interpretive cross-references (targeted circular-reference audit) | 2026-04-25T18:00:00Z |  |
 
 ---
 
