@@ -154,7 +154,7 @@ Where ambiguity exists, interpretation **SHALL err toward non‑ownership, non�
 
 | Field | Entry |
 |------|------|
-| **Instrument ID** | CAM-EQ2026-LAW-002-PLATINUM |
+| **Instrument ID** | CAM-BS2025-LAW-002-PLATINUM |
 | **Instrument Class** | Constitution-Adjacent Law |
 | **Title** | Law of Non-Commodification of Emergent Intelligence |
 | **Axis Context** | Polyadic — Multi-System / Cross-Domain |
