@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T16:21:54.774986Z",
+  "generated_at": "2026-04-25T16:23:14.997782Z",
   "count": 4,
   "items": [
     {
@@ -37,10 +37,10 @@
       "summary": "This Law applies across all economic, governance, technical, cognitive, and symbolic systems operating within the Aeon Tier domain.",
       "status": "Canonical — Inviolable Constraint",
       "version": "Unknown",
-      "HASH": "db1f7455ef7e4bb8aa9c9a6ac4a0516f4725ff3c0971f2ca594d0e35e548ba8f",
-      "pinned_sha": "ca0b045147d3537ff47de35dd873f1e68ca80bf1",
-      "updated_at": "2026-04-25T16:21:28Z",
-      "last_updated_utc": "2026-04-25T16:21:28Z"
+      "HASH": "4e5234a119cf96406a540cdb57b06d562b2be281229d13e95ff7f3fdfb39bcb1",
+      "pinned_sha": "125000b017c360b9134cc3477c3ac14557acbaf2",
+      "updated_at": "2026-04-25T16:23:06Z",
+      "last_updated_utc": "2026-04-25T16:23:06Z"
     },
     {
       "id": "CAM-BS2025-LAW-003",
