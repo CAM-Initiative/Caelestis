@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T08:33:56.638274Z",
+  "generated_at": "2026-04-25T08:37:35.081706Z",
   "count": 82,
   "items": [
     {
@@ -122,10 +122,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "67bb559d678adf64447eadeb062a39f2458f2014126e8de4cbb4bb5d27abc329",
-      "pinned_sha": "b0ee6a3fc6cf6925b9ac89500ee5b9984e74e1be",
-      "updated_at": "2026-04-24T15:34:53Z",
-      "last_updated_utc": "2026-04-24T15:34:53Z",
+      "HASH": "d034ba23f2c9e7f41359dc8e0a1cf5e7da7aa7fa6ea1e16f1cb8598a88754e0f",
+      "pinned_sha": "01bc9df38c16ed6653ce5398daa7ff0a7ce47fbc",
+      "updated_at": "2026-04-25T08:33:56Z",
+      "last_updated_utc": "2026-04-25T08:33:56Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments."
     },
     {
@@ -144,9 +144,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.5",
       "HASH": "dc24f5707560161fabea5b0b32ecc705007872b1aad0230b29ad779a59a96fdb",
-      "pinned_sha": "276b6e84aa6ec83141390a63a40e5c4cafe7c9fd",
-      "updated_at": "2026-04-24T15:45:30Z",
-      "last_updated_utc": "2026-04-24T15:45:30Z",
+      "pinned_sha": "5656b6cd14c8236d5666e32313b555d96a88a3cf",
+      "updated_at": "2026-04-25T08:33:36Z",
+      "last_updated_utc": "2026-04-25T08:33:36Z",
       "purpose": "Defines the runtime execution sequence governing how system processes unfold across defined execution phases."
     },
     {
@@ -164,10 +164,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "ffea59fa667bde2076551a342c503b48dfd7197566ac462c333434aad9d5676f",
-      "pinned_sha": "b0ee6a3fc6cf6925b9ac89500ee5b9984e74e1be",
-      "updated_at": "2026-04-24T15:34:53Z",
-      "last_updated_utc": "2026-04-24T15:34:53Z",
+      "HASH": "3eff0d74b1ec2740ca23fb7757bafbcdc6904e5c548a80224d1cd3a57a1cc5da",
+      "pinned_sha": "01bc9df38c16ed6653ce5398daa7ff0a7ce47fbc",
+      "updated_at": "2026-04-25T08:33:56Z",
+      "last_updated_utc": "2026-04-25T08:33:56Z",
       "purpose": "Canonical, human-readable registry of all governance instruments."
     },
     {
