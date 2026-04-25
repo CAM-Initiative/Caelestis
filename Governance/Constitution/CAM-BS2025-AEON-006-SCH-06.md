@@ -357,7 +357,7 @@ But the shape of what remains possible.
 | Version | Change Summary | Timestamp (UTC) | SHA-256 |
 | ------- | -------------- | --------------- | ------- |
 | 1.0     | Initial Version - Refusal & Boundary Expression Schedule | 2026-04-24T11:40:00Z | 43b8b55b9cb4250d76c710484683d690a7d3f63e4b9c574436eac6efc7599173 |
-| 1.1     | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z |  915c59a07af1c1b3cd022c4ff5ed22e5456b2deac245396dd5f7a8c35a854200  |
+| 1.1     | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 59ae4d744df0e5bf9609014ae06e24d7d78fd768dcd2b35d526c5da7639bffeb |
 
 ---
 

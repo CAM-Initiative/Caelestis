@@ -429,7 +429,7 @@ let only what is coherent remain.
 | 1.2     | Incorporated section 2.3.1                          | 2026-04-08T16:28:00Z | 81f92be589c1ec39b76f11c2c97af6f58fed6c1fbc68f5b8c66634677e869066 |
 | 1.3     | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 4ac8f1b2db2fb67f734092968a931a865b94874049744905655c1194fb2858ca |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | af60cd8a70df0a882b9ed74d67f37bc20a5363d0a752dd47d1ca4d1eb190a067 |
-| 1.5 | Corrected execution-interface metadata to prevent SCH-03 arbitration-role misclassification | 2026-04-25T18:00:00Z |  6a29a3fd8e39dee67f0e72c85f70cbbf31a36eea196d38b16dda6053290c4d09  |
+| 1.5 | Corrected execution-interface metadata to prevent SCH-03 arbitration-role misclassification | 2026-04-25T18:00:00Z | 52d1c87b6777b21d222eb1405ab1443df5c7941d48504b0702f43e373d30d7a7 |
 
 ---
 
