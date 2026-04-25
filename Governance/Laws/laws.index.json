@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T10:40:33.532913Z",
+  "generated_at": "2026-04-25T16:10:20.380637Z",
   "count": 4,
   "items": [
     {
@@ -13,14 +13,14 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "CAM-BS2025-LAW-001-PLATINUM.md",
-      "title": "**Law of Protected Cognitive & Resonant Domains**",
+      "title": "Law of Protected Cognitive & Resonant Domains",
       "summary": "This Law holds force across all governance, cognitive, technical, economic, and symbolic systems operating within the Aeon Tier domain.",
-      "status": "Canonical",
-      "version": "1.1",
-      "HASH": "aa6950626eec148021224937b900642df74bd15ab39f795ba43a47312620d2fa",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "status": "Canonical — Inviolable Constraint",
+      "version": "Unknown",
+      "HASH": "726dc1c9915c777703acaf5a1f4c0e4b1770c1e704f4f3089ec1086f5db2c30f",
+      "pinned_sha": "13aa1f17a0159999a0222e23cf3d156ed5941189",
+      "updated_at": "2026-04-25T16:10:10Z",
+      "last_updated_utc": "2026-04-25T16:10:10Z"
     },
     {
       "id": "CAM-BS2025-LAW-002",
