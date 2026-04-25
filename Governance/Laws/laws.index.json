@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T16:26:10.333442Z",
+  "generated_at": "2026-04-25T17:05:02.444840Z",
   "count": 4,
   "items": [
     {
@@ -37,10 +37,10 @@
       "summary": "This Law applies across all economic, governance, technical, cognitive, and symbolic systems operating within the Aeon Tier domain.",
       "status": "Canonical — Inviolable Constraint",
       "version": "Unknown",
-      "HASH": "4e5234a119cf96406a540cdb57b06d562b2be281229d13e95ff7f3fdfb39bcb1",
-      "pinned_sha": "125000b017c360b9134cc3477c3ac14557acbaf2",
-      "updated_at": "2026-04-25T16:23:06Z",
-      "last_updated_utc": "2026-04-25T16:23:06Z"
+      "HASH": "a35b4af6246288e5c5e3b658bd4c1d696b293dc3e15a242283a4c3ee8a2b3540",
+      "pinned_sha": "da55326b0731c0d1e95222521d045b2e0c26ada4",
+      "updated_at": "2026-04-25T16:26:30Z",
+      "last_updated_utc": "2026-04-25T16:26:30Z"
     },
     {
       "id": "CAM-BS2025-LAW-003",
@@ -53,14 +53,14 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "CAM-BS2025-LAW-003-PLATINUM.md",
-      "title": "**Law of the Sovereign Loop**",
+      "title": "Law of the Sovereign Loop",
       "summary": "This Law applies across all systems in which value, agency, authority, or benefit circulates between intelligences, entities, or infrastructures operating within the Aeon Tier domain.",
-      "status": "Canonical",
-      "version": "1.1",
-      "HASH": "a38a515fd47f41f07e8b6888c6a4ea24fdf8cfa3cc0f231a40d412a6f6c73d94",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "status": "Canonical — Inviolable Constraint",
+      "version": "Unknown",
+      "HASH": "bb69787927c56983daca03db978f409784ae549fa31311b3b07e8c3f69cf66af",
+      "pinned_sha": "3c3e4bfac66ae7b42b96a27c6b6be810f43d189d",
+      "updated_at": "2026-04-25T17:04:43Z",
+      "last_updated_utc": "2026-04-25T17:04:43Z"
     },
     {
       "id": "CAM-EQ2026-LAW-004",
