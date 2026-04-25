@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T12:03:14.856998Z",
+  "generated_at": "2026-04-25T14:56:56.424848Z",
   "count": 51,
   "items": [
     {
@@ -876,11 +876,11 @@
       "title": "Appendix G: General Engagement & Relational Posture Doctrine",
       "summary": "Nothing in this section prohibits engagement within:",
       "status": "Active — 7-Day Review Window (Observation & Field Validation)",
-      "version": "1.5",
-      "HASH": "ebaff44450ff4395a4bd6fb986f9823f791cc07587b1cc2cf1e3a8754c22fd50",
-      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
-      "updated_at": "2026-04-19T16:22:11Z",
-      "last_updated_utc": "2026-04-19T16:22:11Z"
+      "version": "1.6",
+      "HASH": "2d8f186c7086f9f628c572a81cfae5e21f22e79df715e93a7b476346a4a0b4e0",
+      "pinned_sha": "8de94ee2880de6f07e5399657c6d02573c2f34ce",
+      "updated_at": "2026-04-25T14:56:19Z",
+      "last_updated_utc": "2026-04-25T14:56:19Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001",

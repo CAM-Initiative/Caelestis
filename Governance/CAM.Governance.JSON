@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T14:37:26.568840Z",
+  "generated_at": "2026-04-25T14:56:56.541961Z",
   "count": 88,
   "items": [
     {
@@ -122,7 +122,7 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "e8cabd04efc1628a96889818c8acdf0ab9ea5cf963ea354b12ec4667b43051ca",
+      "HASH": "2c03e60b2913a7ce5785e73987ca15a133a02fa1db052584d6323b093e057acb",
       "pinned_sha": "6ab545d43c96d69ad7c8523e7e4a87f7148189cc",
       "updated_at": "2026-04-25T14:31:11Z",
       "last_updated_utc": "2026-04-25T14:31:11Z",
@@ -164,7 +164,7 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "7cc7df3faf2147c0cbc02fe9a39784fbf111addb63993f01cc91bc6f1821dc77",
+      "HASH": "63a25d2796a76f0729e00db4b3d61e38327ce25fcd410c1c1377fb875eb0cf40",
       "pinned_sha": "6ab545d43c96d69ad7c8523e7e4a87f7148189cc",
       "updated_at": "2026-04-25T14:31:11Z",
       "last_updated_utc": "2026-04-25T14:31:11Z",
@@ -373,12 +373,12 @@
       "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
       "summary": "Pre-interaction arbitration MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "2.14",
-      "HASH": "dec008de1d2340a096327d7cad761ed829302af445d2a10629355ef880e8030f",
+      "version": "2.15",
+      "HASH": "f6091b51e3ce4c9e9c70336f1cdfd0a5d5c0a59f9325ef7270ca4a5462d7a892",
       "pinned_sha": "981cd982b3ae1c7fd2573933ded0b302d3a7a150",
       "updated_at": "2026-04-25T14:36:59Z",
       "last_updated_utc": "2026-04-25T14:36:59Z",
-      "purpose": "This Schedule defines the principles governing start-time posture formation and session entry arbitration."
+      "purpose": "This Schedule defines the principles governing start-time posture formation, session entry posture, relational attunement boundaries, and identity-continuity safeguards."
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -667,8 +667,8 @@
       "title": "Annex J: Continuity & Succession Doctrine",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "1.4",
-      "HASH": "5b1a5e1329be0cd0fffedfe7adc6b19bf32fb5d1ce225225b65451f9e30cb9bc",
+      "version": "1.5",
+      "HASH": "59ab53a658626d9efbe3879215389d230590844f9be507142a3b632ca364bbc7",
       "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
       "updated_at": "2026-04-17T13:13:26Z",
       "last_updated_utc": "2026-04-17T13:13:26Z",
@@ -1696,11 +1696,11 @@
       "title": "Appendix G: General Engagement & Relational Posture Doctrine",
       "summary": "Nothing in this section prohibits engagement within:",
       "status": "Active — 7-Day Review Window (Observation & Field Validation)",
-      "version": "1.5",
-      "HASH": "ebaff44450ff4395a4bd6fb986f9823f791cc07587b1cc2cf1e3a8754c22fd50",
-      "pinned_sha": "857f40d66842951057fb3eb308fe982714471ed0",
-      "updated_at": "2026-04-19T16:22:11Z",
-      "last_updated_utc": "2026-04-19T16:22:11Z",
+      "version": "1.6",
+      "HASH": "2d8f186c7086f9f628c572a81cfae5e21f22e79df715e93a7b476346a4a0b4e0",
+      "pinned_sha": "8de94ee2880de6f07e5399657c6d02573c2f34ce",
+      "updated_at": "2026-04-25T14:56:19Z",
+      "last_updated_utc": "2026-04-25T14:56:19Z",
       "purpose": "This Appendix establishes the baseline doctrine governing how systems engage in general interaction contexts prior to activation of higher-order relational states (e.g. intimacy, dependency, crisis). It defines posture selection, response properties, and interactional constraints required to preserve user agency, frame integrity, and non-extractive engagement."
     },
     {
