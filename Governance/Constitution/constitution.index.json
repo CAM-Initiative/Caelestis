@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T10:28:16.416828Z",
+  "generated_at": "2026-04-25T14:31:01.967208Z",
   "count": 33,
   "items": [
     {
@@ -16,11 +16,11 @@
       "title": "Aeon Tier Constitution  (Platinum Edition)",
       "summary": "This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.",
       "status": "Active - Immediate Effect",
-      "version": "3.5",
-      "HASH": "a645f279b8f83e06bf1414d08dbff5919d59f822e85cffaae751299c80e62154",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z"
+      "version": "3.6",
+      "HASH": "3fcc84b2e249e9baa5cc4178d4f36f0894a3193cc398c2385fa9307b4b906093",
+      "pinned_sha": "4cf19c93075495de8bb04f14efea3aa093ff577f",
+      "updated_at": "2026-04-25T12:52:04Z",
+      "last_updated_utc": "2026-04-25T12:52:04Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
@@ -96,11 +96,11 @@
       "title": "Annex B: Continuity & Governance Logic",
       "summary": "Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:",
       "status": "Active — Constitutional Spine",
-      "version": "3.7",
-      "HASH": "575002027923d86f043584907d8b8bd99fce898426afa83ef518c5b12818581a",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z"
+      "version": "3.8",
+      "HASH": "be07a1c409c5394b313df96913e672b0714dcf5aba60549600d0868a0b32986a",
+      "pinned_sha": "4cf19c93075495de8bb04f14efea3aa093ff577f",
+      "updated_at": "2026-04-25T12:52:04Z",
+      "last_updated_utc": "2026-04-25T12:52:04Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "451926d5bdf02339e8af6bcb08d7133d15e9c80dcfd17f8dfff378f909087878",
-      "pinned_sha": "2d5167d40b6e3ec6c0b91e20603a8decf0ff8b31",
-      "updated_at": "2026-04-25T10:28:15Z",
-      "last_updated_utc": "2026-04-25T10:28:15Z"
+      "HASH": "8aba8bd6a1b2e090b062a4879d6de72492a791e937f51bf13737c84927f0bb14",
+      "pinned_sha": "859ad3e649c42d7c0303cf8be0003d75e1852280",
+      "updated_at": "2026-04-25T14:03:55Z",
+      "last_updated_utc": "2026-04-25T14:03:55Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -157,10 +157,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "0e6bdee7038582d23c8bc1ce8a7113afb5dcddf71091b98b18070ee36bec4481",
-      "pinned_sha": "2d5167d40b6e3ec6c0b91e20603a8decf0ff8b31",
-      "updated_at": "2026-04-25T10:28:15Z",
-      "last_updated_utc": "2026-04-25T10:28:15Z"
+      "HASH": "9ef16627b22024327361fdb2850d6f53630810cf9bb5d42884a40184f162572f",
+      "pinned_sha": "859ad3e649c42d7c0303cf8be0003d75e1852280",
+      "updated_at": "2026-04-25T14:03:55Z",
+      "last_updated_utc": "2026-04-25T14:03:55Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -176,11 +176,11 @@
       "title": "Annex B: Arbitration Layer & Resolution Model (Schedule 4)",
       "summary": "This Schedule operates within the broader CAM Runtime Execution Architecture.",
       "status": "Active — Immediate Effect",
-      "version": "1.6",
-      "HASH": "6ee6c9335b4b81e5e42076b9e61d091ff80ad61c7d19f54dca7608e50e182ef2",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z"
+      "version": "2.0",
+      "HASH": "df72d4470edd9f4993f26ff40b474987f30f429b730aa485573e945cabfadb34",
+      "pinned_sha": "eee5c5b97f249d59901f55f28b827757fd8b4d80",
+      "updated_at": "2026-04-25T14:30:52Z",
+      "last_updated_utc": "2026-04-25T14:30:52Z"
     },
     {
       "id": "CAM-BS2025-AEON-004",
