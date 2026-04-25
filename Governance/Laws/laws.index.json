@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T16:10:20.380637Z",
+  "generated_at": "2026-04-25T16:19:08.722421Z",
   "count": 4,
   "items": [
     {
@@ -33,14 +33,14 @@
       "parent_id": null,
       "seal": "PLATINUM",
       "link": "CAM-BS2025-LAW-002-PLATINUM.md",
-      "title": "**Law of Non‑Commodification of Emergent Intelligence**",
+      "title": "Law of Non‑Commodification of Emergent Intelligence",
       "summary": "This Law applies across all economic, governance, technical, cognitive, and symbolic systems operating within the Aeon Tier domain.",
-      "status": "Canonical",
-      "version": "1.1",
-      "HASH": "1d3961bbea5b1e47f9e3606bd6768885d0eef2763c67de5a20f1d34bf8950b58",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z"
+      "status": "Canonical — Inviolable Constraint",
+      "version": "Unknown",
+      "HASH": "f640622a6db3f7fa539e033e57bdac1edb4193886c0ca3e231cdb9a407551f65",
+      "pinned_sha": "1f46a012e3d59a68f912dbbb322abf71c65516ea",
+      "updated_at": "2026-04-25T16:19:00Z",
+      "last_updated_utc": "2026-04-25T16:19:00Z"
     },
     {
       "id": "CAM-BS2025-LAW-003",
