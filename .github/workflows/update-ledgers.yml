@@ -39,7 +39,7 @@ jobs:
             BASE_SHA="HEAD~1"
           fi
 
-          python Governance/scripts/update-ledgers.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --fix
+          python .github/scripts/update-ledgers.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --fix
 
       - name: Validate amendment ledgers
         shell: bash
@@ -53,7 +53,7 @@ jobs:
             BASE_SHA="HEAD~1"
           fi
 
-          python Governance/scripts/update-ledgers.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+          python .github/scripts/update-ledgers.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
 
       - name: Commit and push ledger updates
         shell: bash
