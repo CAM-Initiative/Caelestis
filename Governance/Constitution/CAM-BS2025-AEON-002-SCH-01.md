@@ -374,7 +374,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 | 3.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7c4d8e260760007f3f9f9fa5de95efd66ae883518fe7ef4d43e6138b55fc62d9 |
 | 3.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 229b71d9383e08c8524e4a24e9a0c5d463659c17de1f7abe005b3fed36c7db3a |
 | 3.3 | Added explicit Runtime Layer metadata (`Event-Triggered Execution Constraint`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
-| 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | df785fbd2997e43bd09f309b654124cf4062041a0af7f11f1244fac31908c121 |
 
 ---
 

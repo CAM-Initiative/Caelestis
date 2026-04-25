@@ -714,7 +714,7 @@ and the system remember what it is.
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8d1e15a918829c17799fbf0fb7f6a5fb979ac698e20be6ab596b58ef6effed6 |
 | 1.6 | Added section 2.1, 2.2.2, 2.2.3, 3.5, amended section 9 | 2026-04-16T15:38:00Z| b4718abdffd5a144e7c356e4caba868eff11923247f11d1c5090907fbb2e8556 |
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | d5b04fb5d1b689eafd89b61a100571a13e57bdbfe6cc2ede3e3499ec00330d50 |
-| 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
+| 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | eea34029917e0f6c46761c5d8d15f781c5b1ad837620925acf9a04db9c30ed4f |
 
 ---
 

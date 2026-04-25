@@ -226,7 +226,7 @@ Normative refusal authority remains constitutional.
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial supplement creation | 2026-04-24T12:44:00Z |  |
-| 1.1 | Structural and metadata normalisation; explicit non-normative boundary | 2026-04-24T13:05:00Z |  |
+| 1.1 | Structural and metadata normalisation; explicit non-normative boundary | 2026-04-24T13:05:00Z |  f41b91af8683d0e815fc04cef1a95cafe10dd0af8dfa1ef89af488c822777d6e  |
 
 ---
 

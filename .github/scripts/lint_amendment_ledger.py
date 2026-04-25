@@ -48,6 +48,18 @@ def list_modified_files(base: str, head: str, *, staged: bool = False) -> list[s
     return paths
 
 
+def list_scoped_markdown_files() -> list[str]:
+    paths: list[str] = []
+    for prefix in SCOPED_PREFIXES:
+        scope = REPO_ROOT / prefix
+        if not scope.exists():
+            continue
+        for md in sorted(scope.glob("*.md")):
+            rel = md.relative_to(REPO_ROOT).as_posix()
+            paths.append(rel)
+    return paths
+
+
 def get_blob(rev: str, path: str) -> str:
     if rev == ":":
         blob_ref = f":{path}"
@@ -232,6 +244,96 @@ def update_last_ledger_hash_cell(
     return updated_text, stored_hash, updated_text != full_text, mismatch
 
 
+def has_malformed_ledger_row(full_text: str) -> bool:
+    bounds = get_amendment_section_bounds(full_text)
+    if not bounds:
+        return False
+
+    start, end = bounds
+    lines = full_text.splitlines(keepends=True)
+    cursor = 0
+    start_line_idx = None
+    end_line_idx = None
+    for idx, line in enumerate(lines):
+        line_start = cursor
+        line_end = cursor + len(line)
+        if start_line_idx is None and line_end > start:
+            start_line_idx = idx
+        if end_line_idx is None and line_start >= end:
+            end_line_idx = idx
+            break
+        cursor = line_end
+    if start_line_idx is None:
+        return False
+    if end_line_idx is None:
+        end_line_idx = len(lines)
+
+    for idx in range(start_line_idx, end_line_idx):
+        stripped = lines[idx].strip()
+        if not stripped.startswith("|"):
+            continue
+        cols = split_markdown_table_row(stripped)
+        if not cols:
+            continue
+        first = cols[0]
+        if first.lower() == "version" or set(first) <= {"-"}:
+            continue
+        if VERSION_CELL_RE.match(first) and len(cols) < 4:
+            return True
+    return False
+
+
+def lint_all(*, fix: bool = False) -> int:
+    failures: list[str] = []
+    warnings: list[str] = []
+    fixed_files: list[str] = []
+    scanned = 0
+
+    for path in list_scoped_markdown_files():
+        working_path = REPO_ROOT / path
+        working_text = working_path.read_text(encoding="utf-8")
+        if not has_amendment_ledger(working_text):
+            continue
+        scanned += 1
+
+        if has_malformed_ledger_row(working_text):
+            failures.append(f"{path}: Malformed Amendment Ledger row (expected at least 4 table columns)")
+            continue
+
+        updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
+            working_text,
+            fix=fix,
+        )
+        if changed:
+            working_path.write_text(updated_text, encoding="utf-8")
+            fixed_files.append(path)
+            recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
+            stored_hash = recomputed_hash
+
+        if (stored_hash is not None) and (stored_hash in PLACEHOLDER_HASHES) and (not fix):
+            failures.append(f"{path}: Last Amendment Ledger hash must be empty or computed SHA-256, not placeholder")
+        if (stored_hash is not None) and ((stored_hash or "").strip() == "") and not fix:
+            failures.append(f"{path}: Last Amendment Ledger hash is empty; run with --fix to populate computed SHA-256")
+        if mismatch and not fix:
+            warnings.append(f"{path}: Existing last-row Amendment Ledger hash does not match computed content hash")
+
+    for warning in warnings:
+        print(f"WARNING: {warning}")
+    if fixed_files:
+        print("Updated files:")
+        for path in fixed_files:
+            print(f"- {path}")
+    print(f"Scanned ledger files: {scanned}")
+
+    if failures:
+        for failure in failures:
+            print(failure)
+        return 1
+
+    print("Amendment Ledger lint passed")
+    return 0
+
+
 def is_minor_only_increment(previous: str, current: str) -> bool:
     prev_major, prev_minor = previous.split(".")
     curr_major, curr_minor = current.split(".")
@@ -319,9 +421,9 @@ def lint(base: str, head: str, *, fix: bool = False, staged: bool = False) -> in
             after = updated_text
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
-        if (stored_hash in PLACEHOLDER_HASHES) and (not fix):
+        if (stored_hash is not None) and (stored_hash in PLACEHOLDER_HASHES) and (not fix):
             failures.append(f"{path}: Last Amendment Ledger hash must be empty or computed SHA-256, not placeholder")
-        if (stored_hash or "").strip() == "" and not fix:
+        if (stored_hash is not None) and ((stored_hash or "").strip() == "") and not fix:
             failures.append(f"{path}: Last Amendment Ledger hash is empty; run with --fix to populate computed SHA-256")
         if mismatch and not fix:
             warnings.append(f"{path}: Existing last-row Amendment Ledger hash does not match computed content hash")
@@ -381,7 +483,14 @@ def main() -> int:
         action="store_true",
         help="Process staged changes (index) against HEAD; useful for pre-commit hooks",
     )
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        help="Process all scoped governance markdown files instead of just git-modified files",
+    )
     args = parser.parse_args()
+    if args.all:
+        return lint_all(fix=args.fix)
     base = args.base
     head = args.head
     if args.staged:
