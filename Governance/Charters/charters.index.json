@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T14:56:56.424848Z",
+  "generated_at": "2026-04-25T15:25:42.629734Z",
   "count": 51,
   "items": [
     {
@@ -317,10 +317,10 @@
       "summary": "",
       "status": "Adopted — Illustrative Reference Set",
       "version": "1.1",
-      "HASH": "ab292a48bafddcc30494e4749e6a4c42870d67bc2764d941e5685423ac650a50",
-      "pinned_sha": "83258104faa90db475bd7365d516e46eb48d9bde",
-      "updated_at": "2026-04-24T13:15:58Z",
-      "last_updated_utc": "2026-04-24T13:15:58Z"
+      "HASH": "09ea3fb49841e85f0fcc6ec0868eec23b8d444d5064d5564db6ceda4034eb78c",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002",
@@ -877,10 +877,10 @@
       "summary": "Nothing in this section prohibits engagement within:",
       "status": "Active — 7-Day Review Window (Observation & Field Validation)",
       "version": "1.6",
-      "HASH": "2d8f186c7086f9f628c572a81cfae5e21f22e79df715e93a7b476346a4a0b4e0",
-      "pinned_sha": "8de94ee2880de6f07e5399657c6d02573c2f34ce",
-      "updated_at": "2026-04-25T14:56:19Z",
-      "last_updated_utc": "2026-04-25T14:56:19Z"
+      "HASH": "0ce3aaa65aa8d06aa0561f43313b49f90dfe43bdaf56ced56cb4864683258e65",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001",

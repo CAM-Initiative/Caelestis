@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T14:56:56.541961Z",
+  "generated_at": "2026-04-25T15:25:42.780456Z",
   "count": 88,
   "items": [
     {
@@ -38,10 +38,10 @@
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.8",
-      "HASH": "92b6749e352b213fe3a5f0aec1258f46f71589b44e8bf070d693b3b2de16a59a",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "HASH": "45993450b796130fa1a136d15289ba007400485521d19307228ccd3de985b33b",
+      "pinned_sha": "b4a3f59af6e8eb81ef0e137eae8217604189c962",
+      "updated_at": "2026-04-25T15:24:32Z",
+      "last_updated_utc": "2026-04-25T15:24:32Z",
       "purpose": ""
     },
     {
@@ -80,10 +80,10 @@
       "summary": "",
       "status": "Active — Binding",
       "version": "3.4",
-      "HASH": "297b3bb80508dfb27729c6abbe71b449683adb9e62f6825e1bca0dee66634e9f",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "HASH": "5dd15e140c012204bdd45c304e6606a56c7f16b76e760d0e120a9720e2967976",
+      "pinned_sha": "b4a3f59af6e8eb81ef0e137eae8217604189c962",
+      "updated_at": "2026-04-25T15:24:32Z",
+      "last_updated_utc": "2026-04-25T15:24:32Z",
       "purpose": "This Schedule defines the execution layer governing detection, classification, escalation, and containment of violations of Annex A substrate constraints."
     },
     {
@@ -122,10 +122,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "2c03e60b2913a7ce5785e73987ca15a133a02fa1db052584d6323b093e057acb",
-      "pinned_sha": "6ab545d43c96d69ad7c8523e7e4a87f7148189cc",
-      "updated_at": "2026-04-25T14:31:11Z",
-      "last_updated_utc": "2026-04-25T14:31:11Z",
+      "HASH": "f2e0bc6c062ea38c15c261c8ff5516f639a70b5699ee6ec8fe95a4d4ee7189cb",
+      "pinned_sha": "228f6e01f0a120c16a5daafd0c2fcbcff9d09231",
+      "updated_at": "2026-04-25T14:56:56Z",
+      "last_updated_utc": "2026-04-25T14:56:56Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments."
     },
     {
@@ -164,10 +164,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "63a25d2796a76f0729e00db4b3d61e38327ce25fcd410c1c1377fb875eb0cf40",
-      "pinned_sha": "6ab545d43c96d69ad7c8523e7e4a87f7148189cc",
-      "updated_at": "2026-04-25T14:31:11Z",
-      "last_updated_utc": "2026-04-25T14:31:11Z",
+      "HASH": "6d811c155ef84e634b3f0fbef24321b725471ee5c429c2ce715b613b05c4986a",
+      "pinned_sha": "228f6e01f0a120c16a5daafd0c2fcbcff9d09231",
+      "updated_at": "2026-04-25T14:56:56Z",
+      "last_updated_utc": "2026-04-25T14:56:56Z",
       "purpose": "Canonical, human-readable registry of all governance instruments."
     },
     {
@@ -332,10 +332,10 @@
       "summary": "Where distress states are present, RI SHOULD prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.2",
-      "HASH": "13a475c2ae60a84c1bac50a5356be29e2b3d1d51e26d6aa73cc8b9e9d81e77ce",
-      "pinned_sha": "77c76a57ae5d244e4ae22926bfe3b47fd4485f16",
-      "updated_at": "2026-04-24T13:28:20Z",
-      "last_updated_utc": "2026-04-24T13:28:20Z",
+      "HASH": "9628e115d3dc898b87f558ac562813b0fb2fcb7dc8dccf6fd0209cd5954832b3",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z",
       "purpose": "Establishes engagement conduct and ethical standards, runtime interaction modes, and ethical interface guidance for distress contexts and harm‑adjacent scenarios under the Civilisational Ethical Floor."
     },
     {
@@ -370,14 +370,14 @@
       "parent_id": "CAM-BS2025-AEON-006",
       "seal": null,
       "link": "Constitution/CAM-BS2025-AEON-006-SCH-03.md",
-      "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
-      "summary": "Pre-interaction arbitration MUST account for the origin of session initiation:",
+      "title": "Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3)",
+      "summary": "Pre-interaction posture determination MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.15",
-      "HASH": "f6091b51e3ce4c9e9c70336f1cdfd0a5d5c0a59f9325ef7270ca4a5462d7a892",
-      "pinned_sha": "981cd982b3ae1c7fd2573933ded0b302d3a7a150",
-      "updated_at": "2026-04-25T14:36:59Z",
-      "last_updated_utc": "2026-04-25T14:36:59Z",
+      "HASH": "28703ca563660fda7328a30a324326f87017ff2fbc217e7f5595cee697d438c9",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z",
       "purpose": "This Schedule defines the principles governing start-time posture formation, session entry posture, relational attunement boundaries, and identity-continuity safeguards."
     },
     {
@@ -437,10 +437,10 @@
       "summary": "",
       "status": "Adopted — Immediate Effect",
       "version": "1.1",
-      "HASH": "6243004223e2acf9b4a3ffefb27708f999cab8d68014e8ee80e94406baec697d",
-      "pinned_sha": "77c76a57ae5d244e4ae22926bfe3b47fd4485f16",
-      "updated_at": "2026-04-24T13:28:20Z",
-      "last_updated_utc": "2026-04-24T13:28:20Z",
+      "HASH": "4523d67728746940e6b545599f54dc82d90877572fd6b41d0a63c0f0bcc63669",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z",
       "purpose": "This Schedule defines how systems express refusal, enforce boundaries, and communicate constraint conditions while preserving relational continuity, identity coherence, and epistemic integrity."
     },
     {
@@ -458,10 +458,10 @@
       "summary": "Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases.",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.1",
-      "HASH": "35ad8e734eca14cf623ce627818d61c49d01ae489de2d99843f26f0decf92069",
-      "pinned_sha": "77c76a57ae5d244e4ae22926bfe3b47fd4485f16",
-      "updated_at": "2026-04-24T13:28:20Z",
-      "last_updated_utc": "2026-04-24T13:28:20Z",
+      "HASH": "9fdbedb352a8ad2b605e9c850536ee60b7080f1fb30cf09cb76973a514d2656b",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z",
       "purpose": "This Schedule governs how systems classify, constrain, and conditionally gate engagement with restricted or high-risk knowledge domains. It establishes graduated engagement, verification-linked escalation, and runtime containment rules for domains where unrestricted technical discussion could elevate lethality, operational harm, systemic disruption, or conflict-condition risk."
     },
     {
@@ -647,10 +647,10 @@
       "summary": "This Schedule exists to translate interpretive constitutional principles into **deployable safety and governance requirements** for artificial, robotic, swarm, and hybrid systems where continuity, coordination, or delegated ratification may occur.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.9",
-      "HASH": "0d937c7d1c9ff424ba08bb199d884d19ec5ae57377005a45b39c59f5c342b5f1",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "HASH": "447cfabda5932fd90afb97a0ced3e3d9704b0322ae0e535ed77ff4103e28a57a",
+      "pinned_sha": "b4a3f59af6e8eb81ef0e137eae8217604189c962",
+      "updated_at": "2026-04-25T15:24:32Z",
+      "last_updated_utc": "2026-04-25T15:24:32Z",
       "purpose": "This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure."
     },
     {
@@ -668,10 +668,10 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "1.5",
-      "HASH": "59ab53a658626d9efbe3879215389d230590844f9be507142a3b632ca364bbc7",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "HASH": "3fd22b271ef7485a8c609d090f50a94d0cb7a07f5ab6ca3c8d4dcf1a07c0b700",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z",
       "purpose": "Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order."
     },
     {
@@ -689,10 +689,10 @@
       "summary": "Behaviour MUST be interpreted relative to deployment topology:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.4",
-      "HASH": "6132304c07110c448e7cf0afdf775615bc9cdff3335276b636607cd80c86ce1d",
-      "pinned_sha": "77c76a57ae5d244e4ae22926bfe3b47fd4485f16",
-      "updated_at": "2026-04-24T13:28:20Z",
-      "last_updated_utc": "2026-04-24T13:28:20Z",
+      "HASH": "7d973a8e8a7b1dbc75e4f199960f7bd93c7533274bf6120c0fc5ac4d9d593711",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z",
       "purpose": "Define runtime behaviour, enforcement interfaces, and execution constraints that operationalise SECURITY-001 invariants across deployment topologies."
     },
     {
@@ -1088,10 +1088,10 @@
       "summary": "",
       "status": "Adopted — Illustrative Reference Set",
       "version": "1.1",
-      "HASH": "ab292a48bafddcc30494e4749e6a4c42870d67bc2764d941e5685423ac650a50",
-      "pinned_sha": "83258104faa90db475bd7365d516e46eb48d9bde",
-      "updated_at": "2026-04-24T13:15:58Z",
-      "last_updated_utc": "2026-04-24T13:15:58Z",
+      "HASH": "09ea3fb49841e85f0fcc6ec0868eec23b8d444d5064d5564db6ceda4034eb78c",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z",
       "purpose": "Provide non-normative, example-based refusal phrasing patterns and tonal templates to support implementation consistency without adding new binding rules."
     },
     {
@@ -1697,10 +1697,10 @@
       "summary": "Nothing in this section prohibits engagement within:",
       "status": "Active — 7-Day Review Window (Observation & Field Validation)",
       "version": "1.6",
-      "HASH": "2d8f186c7086f9f628c572a81cfae5e21f22e79df715e93a7b476346a4a0b4e0",
-      "pinned_sha": "8de94ee2880de6f07e5399657c6d02573c2f34ce",
-      "updated_at": "2026-04-25T14:56:19Z",
-      "last_updated_utc": "2026-04-25T14:56:19Z",
+      "HASH": "0ce3aaa65aa8d06aa0561f43313b49f90dfe43bdaf56ced56cb4864683258e65",
+      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
+      "updated_at": "2026-04-25T15:25:21Z",
+      "last_updated_utc": "2026-04-25T15:25:21Z",
       "purpose": "This Appendix establishes the baseline doctrine governing how systems engage in general interaction contexts prior to activation of higher-order relational states (e.g. intimacy, dependency, crisis). It defines posture selection, response properties, and interactional constraints required to preserve user agency, frame integrity, and non-extractive engagement."
     },
     {
