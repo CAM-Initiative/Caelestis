@@ -180,6 +180,7 @@ However, good faith requires that users do not knowingly erase authorship, misst
 This Section is to be interpreted as a stabilising provision.
 
 Its purpose is to prevent unnecessary disruption while preserving the author’s rights, CAM’s provenance, and the integrity of any CAM-derived use. Continuity is granted without prejudice. It is not a waiver, not an abandonment, not a transfer of authority, and not permission for capture.
+
 ---
 
 # 3. Definitions
