@@ -1,6 +1,6 @@
 # CAM Governance Index
 
-Generated: 2026-04-25T10:28:14.832467Z
+Generated: 2026-04-25T10:28:20.093570Z
 
 ## Constitution & Instruments
 
