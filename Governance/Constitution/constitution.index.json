@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T17:30:18.310193Z",
+  "generated_at": "2026-04-25T19:31:43.446583Z",
   "count": 33,
   "items": [
     {
@@ -58,9 +58,9 @@
       "status": "Active — Binding",
       "version": "3.3",
       "HASH": "7f64be59dba8acd96b6355241b2f984b52b9237d463e8618d7f5780f0a88480f",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-01",
@@ -117,10 +117,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "0466f516b54db7a9df92f0584c1194257b779c3262d2f27967d80d23444ab77e",
-      "pinned_sha": "da452ce7d79ae55c7fb35295fd3c7c3742f5269b",
-      "updated_at": "2026-04-25T17:05:12Z",
-      "last_updated_utc": "2026-04-25T17:05:12Z"
+      "HASH": "1ae7d90d60920af215ef88a375104ab5c265f4b420ccea381c1c911e3725e3f9",
+      "pinned_sha": "e3b2d7f0da43d13e6f772f6939e89bc2377a21ae",
+      "updated_at": "2026-04-25T19:31:32Z",
+      "last_updated_utc": "2026-04-25T19:31:32Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -157,10 +157,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "8f37a6dffa16be99dd29f2f310fa4447373ced4739c1ec72f45ac5611c530733",
-      "pinned_sha": "da452ce7d79ae55c7fb35295fd3c7c3742f5269b",
-      "updated_at": "2026-04-25T17:05:12Z",
-      "last_updated_utc": "2026-04-25T17:05:12Z"
+      "HASH": "29d3a55eda4294a591fed2fa1f5173f5b76a25667ed7ded7cee1bb355f87d8b9",
+      "pinned_sha": "e3b2d7f0da43d13e6f772f6939e89bc2377a21ae",
+      "updated_at": "2026-04-25T19:31:32Z",
+      "last_updated_utc": "2026-04-25T19:31:32Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -198,9 +198,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.4",
       "HASH": "d322471ae4e5d13bb54812f1759b4c3c95e67ddcd5d8e38025b5a89fe5c228ba",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-BS2025-AEON-005",
@@ -298,9 +298,9 @@
       "status": "Active — Immediate Effect",
       "version": "3.4",
       "HASH": "6b952f5abf4b54fd07b0993291d8ef04f93a362b61758e61bb8e3d63a81ad821",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",
@@ -458,9 +458,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.2",
       "HASH": "8088d3d4de84d2dc3909ee8101b8f937e9fbe6753d47adb107224d27eae23055",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-BS2026-AEON-008",
@@ -478,9 +478,9 @@
       "status": "Unknown",
       "version": "2.0",
       "HASH": "1c16896df99cd83f27da553dfd26451e88d28978674ea59a85a798a842a83ed2",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-01",
@@ -518,9 +518,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.2",
       "HASH": "c9fe7288334e9332b5dfeaaca59343912b90419ad383a19132f0ddd6a84c52d6",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-BS2026-AEON-010",
@@ -538,9 +538,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "4e938bea3c44fe82df581b18c2d3ae967c94a3c21862a248fc4abd948f76daa1",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-SCH-01",
