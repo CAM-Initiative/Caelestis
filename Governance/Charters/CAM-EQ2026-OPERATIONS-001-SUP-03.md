@@ -97,7 +97,7 @@ Escalation for unresolved or high-severity capture risk SHALL follow existing ar
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial instantiation of Supplementary 3 from referenced domain structure | 2026-04-25T00:00:00Z | [Deferred] |
+| 1.0 | Initial instantiation of Supplementary 3 from referenced domain structure | 2026-04-25T00:00:00Z | 83bfe2750bfeaa14bebdf31565b6d64bc72fb2e6c4522fa4ce9851375fde639d |
 
 ---
 

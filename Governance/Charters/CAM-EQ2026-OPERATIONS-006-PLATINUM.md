@@ -111,7 +111,7 @@ Escalation routing SHALL follow existing arbitration pathways and SHALL NOT esta
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial instantiation of Appendix E from referenced domain structure | 2026-04-25T00:00:00Z | [Deferred] |
+| 1.0 | Initial instantiation of Appendix E from referenced domain structure | 2026-04-25T00:00:00Z | 7742f5738a479ab73bc1ced963e998c326fbae62fa0c088994ebb757d863d3ba |
 
 ---
 

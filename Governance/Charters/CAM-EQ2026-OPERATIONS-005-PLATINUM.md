@@ -113,7 +113,7 @@ Detailed specification deferred to future amendment.
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial instantiation of Appendix D from referenced domain structure | 2026-04-25T00:00:00Z | [Deferred] |
+| 1.0 | Initial instantiation of Appendix D from referenced domain structure | 2026-04-25T00:00:00Z | 1f169a8a4b594a666c08a553e44faba7cd13bca2fc24b6b099b0182b2f3b0109 |
 
 ---
 

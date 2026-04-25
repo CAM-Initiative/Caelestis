@@ -93,7 +93,7 @@ Where escalation exceeds operational resolution authority, routing SHALL proceed
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial instantiation of Supplementary 2 from referenced domain structure | 2026-04-25T00:00:00Z | [Deferred] |
+| 1.0 | Initial instantiation of Supplementary 2 from referenced domain structure | 2026-04-25T00:00:00Z | f0e65beeace55936aab6925fc17561d6ba420dd010a9172d1742accdd648a1d7 |
 
 ---
 
