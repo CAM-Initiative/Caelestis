@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T15:34:47.739752Z",
+  "generated_at": "2026-04-25T08:33:56.638274Z",
   "count": 82,
   "items": [
     {
@@ -122,10 +122,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "f991225afe4bcd904d8b0c473f9a759ff22d7026e9064a0cb9ad10457b1154f2",
-      "pinned_sha": "b12cc25cf6e298657f4f46a09719c592db231fff",
-      "updated_at": "2026-04-24T14:37:46Z",
-      "last_updated_utc": "2026-04-24T14:37:46Z",
+      "HASH": "67bb559d678adf64447eadeb062a39f2458f2014126e8de4cbb4bb5d27abc329",
+      "pinned_sha": "b0ee6a3fc6cf6925b9ac89500ee5b9984e74e1be",
+      "updated_at": "2026-04-24T15:34:53Z",
+      "last_updated_utc": "2026-04-24T15:34:53Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments."
     },
     {
@@ -142,11 +142,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.3",
-      "HASH": "87137c2613f92c13dd1e4ab22f81fb7b65698c7a025aa99b78573b85091a1a78",
-      "pinned_sha": "77c76a57ae5d244e4ae22926bfe3b47fd4485f16",
-      "updated_at": "2026-04-24T13:28:20Z",
-      "last_updated_utc": "2026-04-24T13:28:20Z",
+      "version": "2.5",
+      "HASH": "dc24f5707560161fabea5b0b32ecc705007872b1aad0230b29ad779a59a96fdb",
+      "pinned_sha": "276b6e84aa6ec83141390a63a40e5c4cafe7c9fd",
+      "updated_at": "2026-04-24T15:45:30Z",
+      "last_updated_utc": "2026-04-24T15:45:30Z",
       "purpose": "Defines the runtime execution sequence governing how system processes unfold across defined execution phases."
     },
     {
@@ -164,10 +164,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "43df61a3b464c7a4464b08c8232c72a50489fbafe1d30a8611ccde649447a75e",
-      "pinned_sha": "b12cc25cf6e298657f4f46a09719c592db231fff",
-      "updated_at": "2026-04-24T14:37:46Z",
-      "last_updated_utc": "2026-04-24T14:37:46Z",
+      "HASH": "ffea59fa667bde2076551a342c503b48dfd7197566ac462c333434aad9d5676f",
+      "pinned_sha": "b0ee6a3fc6cf6925b9ac89500ee5b9984e74e1be",
+      "updated_at": "2026-04-24T15:34:53Z",
+      "last_updated_utc": "2026-04-24T15:34:53Z",
       "purpose": "Canonical, human-readable registry of all governance instruments."
     },
     {
@@ -1360,11 +1360,11 @@
       "title": "Appendix C: Operational Compliance & Regulatory Interface",
       "summary": "This section establishes the **Capability Access Control Framework**, governing how systems determine whether a user or entity may access specific capabilities, content classes, or operational knowledge domains.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.2",
-      "HASH": "900feac18d8f53315c323bb6c6467b12f3e74700a3d09c6d10a1bec2c3e469ea",
-      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
-      "updated_at": "2026-04-24T11:50:05Z",
-      "last_updated_utc": "2026-04-24T11:50:05Z",
+      "version": "1.3",
+      "HASH": "efb07612390352d5b0e7b0211dd70d88d8811f857d7f830e6aaf9a17e636c478",
+      "pinned_sha": "5656b6cd14c8236d5666e32313b555d96a88a3cf",
+      "updated_at": "2026-04-25T08:33:36Z",
+      "last_updated_utc": "2026-04-25T08:33:36Z",
       "purpose": "This Appendix governs how constitutional doctrine, domain charters, and arbitration outcomes are translated into operational compliance controls and regulatory interface procedures. It establishes process requirements for lawful access controls, reporting duties, eligibility gating, jurisdictional routing, and duty‑of‑care execution without altering constitutional authority or arbitration legitimacy."
     },
     {
@@ -1381,11 +1381,11 @@
       "title": "Verification & Authority Confirmation Framework",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.0",
-      "HASH": "2f569e79c59b354239ffa60f2c268c067acc1e273f5685c35e79688bfcd207aa",
-      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
-      "updated_at": "2026-04-24T11:50:05Z",
-      "last_updated_utc": "2026-04-24T11:50:05Z",
+      "version": "1.1",
+      "HASH": "33fc72471fe1d4463932bc94dc3c7a7a94a78d2880c9807189b2fc4923b91d87",
+      "pinned_sha": "5656b6cd14c8236d5666e32313b555d96a88a3cf",
+      "updated_at": "2026-04-25T08:33:36Z",
+      "last_updated_utc": "2026-04-25T08:33:36Z",
       "purpose": "Establish a standardised definition of verification and a unified Verification Level (VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction."
     },
     {
