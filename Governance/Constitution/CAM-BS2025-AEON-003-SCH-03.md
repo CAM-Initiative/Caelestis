@@ -114,7 +114,13 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|
 | [CAM-EQ2026-OPERATIONS-001](../Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter | Root | 1.2 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-EQ2026-OPERATIONS-002](../Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md) | Appendix A: Operational Arbitration Procedures | Appendix | 1.1 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-OPERATIONS-003](../Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md) | Appendix B: Incident Response & Continuity Operations | Appendix | 1.0 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-EQ2026-OPERATIONS-004](../Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface | Appendix | 1.3 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-OPERATIONS-005](../Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md) | Appendix D: Change Governance & Amendment Operations | Appendix | 1.0 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-OPERATIONS-006](../Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md) | Appendix E: Domain Coordination & Convergence Operations | Appendix | 1.0 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-OPERATIONS-001-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md) | Supplementary 1: Operational Logging & Audit Standards | Supplement | 1.0 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-OPERATIONS-001-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Supplementary 2: Escalation Pathway Playbooks | Supplement | 1.0 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Supplementary 3: Governance Capture Detection Procedures | Supplement | 1.0 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.1 | Adopted — Enforcement Commences 1 July 2026 |
 
 ## RELATION
@@ -162,7 +168,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-25T10:40:23Z  
+**Last Generated (UTC):** 2026-04-25T12:03:06Z  
 **Source:** CAM.Governance.JSON  
 **Pipeline Stage:** Post-Index Registry Build  
 

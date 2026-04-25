@@ -34,9 +34,15 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-LATTICE-002 | charter | appendix | CAM-EQ2026-LATTICE-001 | [CAM-EQ2026-LATTICE-002](CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access |
 | CAM-EQ2026-LATTICE-003 | charter | appendix | CAM-EQ2026-LATTICE-001 | [CAM-EQ2026-LATTICE-003](CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine |
 | CAM-EQ2026-OPERATIONS-001 | charter | root |  | [CAM-EQ2026-OPERATIONS-001](CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter |
+| CAM-EQ2026-OPERATIONS-001-SUP-01 | charter | supplement | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-001-SUP-01](CAM-EQ2026-OPERATIONS-001-SUP-01.md) | Supplementary 1: Operational Logging & Audit Standards |
+| CAM-EQ2026-OPERATIONS-001-SUP-02 | charter | supplement | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-001-SUP-02](CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Supplementary 2: Escalation Pathway Playbooks |
+| CAM-EQ2026-OPERATIONS-001-SUP-03 | charter | supplement | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-001-SUP-03](CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Supplementary 3: Governance Capture Detection Procedures |
 | CAM-EQ2026-OPERATIONS-002 | charter | appendix | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-002](CAM-EQ2026-OPERATIONS-002-PLATINUM.md) | Appendix A: Operational Arbitration Procedures |
+| CAM-EQ2026-OPERATIONS-003 | charter | appendix | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-003](CAM-EQ2026-OPERATIONS-003-PLATINUM.md) | Appendix B: Incident Response & Continuity Operations |
 | CAM-EQ2026-OPERATIONS-004 | charter | appendix | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-004](CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface |
 | CAM-EQ2026-OPERATIONS-004-SUP-01 | charter | supplement | CAM-EQ2026-OPERATIONS-004 | [CAM-EQ2026-OPERATIONS-004-SUP-01](CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework |
+| CAM-EQ2026-OPERATIONS-005 | charter | appendix | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-005](CAM-EQ2026-OPERATIONS-005-PLATINUM.md) | Appendix D: Change Governance & Amendment Operations |
+| CAM-EQ2026-OPERATIONS-006 | charter | appendix | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-006](CAM-EQ2026-OPERATIONS-006-PLATINUM.md) | Appendix E: Domain Coordination & Convergence Operations |
 | CAM-EQ2026-RELATION-001 | charter | root |  | [CAM-EQ2026-RELATION-001](CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter |
 | CAM-EQ2026-RELATION-001-SUP-01 | charter | supplement | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-001-SUP-01](CAM-EQ2026-RELATION-001-SUP-01.md) | Relational Escalation & Safeguard Threshold Specification |
 | CAM-EQ2026-RELATION-002 | charter | appendix | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-002](CAM-EQ2026-RELATION-002-PLATINUM.md) | Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion |

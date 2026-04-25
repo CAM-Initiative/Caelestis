@@ -1,6 +1,6 @@
 # CAM Governance Index
 
-Generated: 2026-04-25T10:28:20.093570Z
+Generated: 2026-04-25T12:03:05.942676Z
 
 ## Constitution & Instruments
 
@@ -100,9 +100,15 @@ Generated: 2026-04-25T10:28:20.093570Z
 | Document | Class | Hierarchy | Parent | Title | Purpose |
 |---|---|---|---|---|---|
 | [CAM-EQ2026-OPERATIONS-001](Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | charter | root |  | Governance Operations Charter | This Charter establishes the operational governance layer that translates constitutional doctrine into accountable process, ensuring coordinated implementation, auditability, escalation discipline, and change integrity across domains below planetary arbitration thresholds. |
+| [CAM-EQ2026-OPERATIONS-001-SUP-01](Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md) | charter | supplement | CAM-EQ2026-OPERATIONS-001 | Supplementary 1: Operational Logging & Audit Standards | Defines logging formats, attribution requirements, retention windows, and audit triggers. |
+| [CAM-EQ2026-OPERATIONS-001-SUP-02](Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | charter | supplement | CAM-EQ2026-OPERATIONS-001 | Supplementary 2: Escalation Pathway Playbooks | Defines operational escalation maps, authority routing trees, and horizon-aligned escalation pathways (H0–H2). |
+| [CAM-EQ2026-OPERATIONS-001-SUP-03](Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | charter | supplement | CAM-EQ2026-OPERATIONS-001 | Supplementary 3: Governance Capture Detection Procedures | Defines indicators, reporting workflows, safeguard activation protocols, and escalation routing for capture risks. |
 | [CAM-EQ2026-OPERATIONS-002](Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md) | charter | appendix | CAM-EQ2026-OPERATIONS-001 | Appendix A: Operational Arbitration Procedures | This Appendix governs the operational procedures that implement arbitration doctrine within live governance environments. It defines how arbitration determinations are initiated, routed, recorded, executed, and reviewed below planetary legitimacy thresholds, ensuring procedural consistency without altering constitutional authority, preference order, or domain legitimacy. |
+| [CAM-EQ2026-OPERATIONS-003](Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md) | charter | appendix | CAM-EQ2026-OPERATIONS-001 | Appendix B: Incident Response & Continuity Operations | Governs coordinated operational response to systemic failures, cross-domain incidents, continuity corridor protection, fail-safe activation, and recovery governance. |
 | [CAM-EQ2026-OPERATIONS-004](Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | charter | appendix | CAM-EQ2026-OPERATIONS-001 | Appendix C: Operational Compliance & Regulatory Interface | This Appendix governs how constitutional doctrine, domain charters, and arbitration outcomes are translated into operational compliance controls and regulatory interface procedures. It establishes process requirements for lawful access controls, reporting duties, eligibility gating, jurisdictional routing, and duty‑of‑care execution without altering constitutional authority or arbitration legitimacy. |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | charter | supplement | CAM-EQ2026-OPERATIONS-004 | Verification & Authority Confirmation Framework | Establish a standardised definition of verification and a unified Verification Level (VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction. |
+| [CAM-EQ2026-OPERATIONS-005](Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md) | charter | appendix | CAM-EQ2026-OPERATIONS-001 | Appendix D: Change Governance & Amendment Operations | Governs amendment intake, review routing, version control discipline, drift detection workflows, and cross‑instrument harmonisation procedures. |
+| [CAM-EQ2026-OPERATIONS-006](Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md) | charter | appendix | CAM-EQ2026-OPERATIONS-001 | Appendix E: Domain Coordination & Convergence Operations | Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required. |
 
 ## Domain: RELATION
 
