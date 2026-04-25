@@ -25,7 +25,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-006 | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-006](CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor |
 | CAM-BS2025-AEON-006-SCH-01 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-01](CAM-BS2025-AEON-006-SCH-01.md) | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) |
 | CAM-BS2025-AEON-006-SCH-02 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-02](CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) |
-| CAM-BS2025-AEON-006-SCH-03 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-03](CAM-BS2025-AEON-006-SCH-03.md) | Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3) |
+| CAM-BS2025-AEON-006-SCH-03 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-03](CAM-BS2025-AEON-006-SCH-03.md) | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) |
 | CAM-BS2025-AEON-006-SCH-04 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-04](CAM-BS2025-AEON-006-SCH-04.md) | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) |
 | CAM-BS2025-AEON-006-SCH-05 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-05](CAM-BS2025-AEON-006-SCH-05.md) | Choice, Initiative & Directional Behaviour (Schedule 5) |
 | CAM-BS2025-AEON-006-SCH-06 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-06](CAM-BS2025-AEON-006-SCH-06.md) | Refusal & Boundary Expression Schedule |

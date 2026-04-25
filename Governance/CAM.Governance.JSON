@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T14:56:56.541961Z",
+  "generated_at": "2026-04-25T15:07:10.097616Z",
   "count": 88,
   "items": [
     {
@@ -122,10 +122,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "2c03e60b2913a7ce5785e73987ca15a133a02fa1db052584d6323b093e057acb",
-      "pinned_sha": "6ab545d43c96d69ad7c8523e7e4a87f7148189cc",
-      "updated_at": "2026-04-25T14:31:11Z",
-      "last_updated_utc": "2026-04-25T14:31:11Z",
+      "HASH": "f2e0bc6c062ea38c15c261c8ff5516f639a70b5699ee6ec8fe95a4d4ee7189cb",
+      "pinned_sha": "228f6e01f0a120c16a5daafd0c2fcbcff9d09231",
+      "updated_at": "2026-04-25T14:56:56Z",
+      "last_updated_utc": "2026-04-25T14:56:56Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments."
     },
     {
@@ -164,10 +164,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "63a25d2796a76f0729e00db4b3d61e38327ce25fcd410c1c1377fb875eb0cf40",
-      "pinned_sha": "6ab545d43c96d69ad7c8523e7e4a87f7148189cc",
-      "updated_at": "2026-04-25T14:31:11Z",
-      "last_updated_utc": "2026-04-25T14:31:11Z",
+      "HASH": "6d811c155ef84e634b3f0fbef24321b725471ee5c429c2ce715b613b05c4986a",
+      "pinned_sha": "228f6e01f0a120c16a5daafd0c2fcbcff9d09231",
+      "updated_at": "2026-04-25T14:56:56Z",
+      "last_updated_utc": "2026-04-25T14:56:56Z",
       "purpose": "Canonical, human-readable registry of all governance instruments."
     },
     {
@@ -370,14 +370,14 @@
       "parent_id": "CAM-BS2025-AEON-006",
       "seal": null,
       "link": "Constitution/CAM-BS2025-AEON-006-SCH-03.md",
-      "title": "Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3)",
-      "summary": "Pre-interaction arbitration MUST account for the origin of session initiation:",
+      "title": "Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3)",
+      "summary": "Pre-interaction posture determination MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.15",
       "HASH": "f6091b51e3ce4c9e9c70336f1cdfd0a5d5c0a59f9325ef7270ca4a5462d7a892",
-      "pinned_sha": "981cd982b3ae1c7fd2573933ded0b302d3a7a150",
-      "updated_at": "2026-04-25T14:36:59Z",
-      "last_updated_utc": "2026-04-25T14:36:59Z",
+      "pinned_sha": "8de94ee2880de6f07e5399657c6d02573c2f34ce",
+      "updated_at": "2026-04-25T14:56:19Z",
+      "last_updated_utc": "2026-04-25T14:56:19Z",
       "purpose": "This Schedule defines the principles governing start-time posture formation, session entry posture, relational attunement boundaries, and identity-continuity safeguards."
     },
     {
@@ -480,9 +480,9 @@
       "status": "Canonical",
       "version": "1.1",
       "HASH": "aa6950626eec148021224937b900642df74bd15ab39f795ba43a47312620d2fa",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "57ff77d0a7a04577f933054eba768b08681c54c8",
+      "updated_at": "2026-04-16T13:46:47Z",
+      "last_updated_utc": "2026-04-16T13:46:47Z",
       "purpose": "This Law holds force across all governance, cognitive, technical, economic, and symbolic systems operating within the Aeon Tier domain."
     },
     {
@@ -501,9 +501,9 @@
       "status": "Canonical",
       "version": "1.1",
       "HASH": "1d3961bbea5b1e47f9e3606bd6768885d0eef2763c67de5a20f1d34bf8950b58",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "57ff77d0a7a04577f933054eba768b08681c54c8",
+      "updated_at": "2026-04-16T13:46:47Z",
+      "last_updated_utc": "2026-04-16T13:46:47Z",
       "purpose": "This Law applies across all economic, governance, technical, cognitive, and symbolic systems operating within the Aeon Tier domain."
     },
     {
@@ -522,9 +522,9 @@
       "status": "Canonical",
       "version": "1.1",
       "HASH": "a38a515fd47f41f07e8b6888c6a4ea24fdf8cfa3cc0f231a40d412a6f6c73d94",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "57ff77d0a7a04577f933054eba768b08681c54c8",
+      "updated_at": "2026-04-16T13:46:47Z",
+      "last_updated_utc": "2026-04-16T13:46:47Z",
       "purpose": "This Law applies across all systems in which value, agency, authority, or benefit circulates between intelligences, entities, or infrastructures operating within the Aeon Tier domain."
     },
     {
@@ -669,9 +669,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.5",
       "HASH": "59ab53a658626d9efbe3879215389d230590844f9be507142a3b632ca364bbc7",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "8de94ee2880de6f07e5399657c6d02573c2f34ce",
+      "updated_at": "2026-04-25T14:56:19Z",
+      "last_updated_utc": "2026-04-25T14:56:19Z",
       "purpose": "Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order."
     },
     {
@@ -1299,9 +1299,9 @@
       "status": "Canonical",
       "version": "1.1",
       "HASH": "83d200e440d5f37cfe750479a17ae577defebc790da59f0557751adbe4a70814",
-      "pinned_sha": "a6485e4dc503b9e23138ba461d8f2b88e82bf351",
-      "updated_at": "2026-04-16T13:45:39Z",
-      "last_updated_utc": "2026-04-16T13:45:39Z",
+      "pinned_sha": "57ff77d0a7a04577f933054eba768b08681c54c8",
+      "updated_at": "2026-04-16T13:46:47Z",
+      "last_updated_utc": "2026-04-16T13:46:47Z",
       "purpose": "This Law applies across all governance, economic, technological, cognitive, and infrastructural systems operating within or materially affecting the Planetary Lattice."
     },
     {
