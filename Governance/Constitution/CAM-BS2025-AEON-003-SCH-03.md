@@ -37,7 +37,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | Unknown | Active — Immediate Effect |
 | [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 2.5 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted |
-| [CAM-BS2025-AEON-003-SCH-04](../Constitution/CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Schedule | 1.6 | Active — Immediate Effect |
+| [CAM-BS2025-AEON-003-SCH-04](../Constitution/CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Schedule | 2.0 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-005-SCH-01](../Constitution/CAM-BS2025-AEON-005-SCH-01.md) | Annex D: Runtime Arbitration Integrity (Schedule 1) | Schedule | 1.6 | Active |
 | [CAM-BS2025-AEON-005-SCH-02](../Constitution/CAM-BS2025-AEON-005-SCH-02.md) | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | Schedule | 1.8 | Immediate Effect, 7-day observation window; operational rollout active on commit |
 | [CAM-BS2025-AEON-005-SCH-03](../Constitution/CAM-BS2025-AEON-005-SCH-03.md) | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | Schedule | 2.4 | Immediate Effect, 7-day observation window; operational rollout active on commit |
@@ -168,7 +168,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-25T14:03:55Z  
+**Last Generated (UTC):** 2026-04-25T14:31:11Z  
 **Source:** CAM.Governance.JSON  
 **Pipeline Stage:** Post-Index Registry Build  
 

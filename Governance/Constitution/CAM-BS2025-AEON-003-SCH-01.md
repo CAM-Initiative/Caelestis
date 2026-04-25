@@ -171,17 +171,17 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RELATION | Continuous | Continuous (Signal Processing) |
 | CAM-BS2025-AEON-002-SCH-01 | Annex A: Operational Protection & Containment (Schedule 1) | AEON | Event-Triggered | Event-Triggered (Critical Condition / Boundary Violation) |
 | CAM-BS2025-AEON-005-SCH-02 | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | ARBITRATION | Continuous | Event-Triggered (Epistemic Instability / Failure State) |
-| CAM-BS2025-AEON-003-SCH-04 | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | ARBITRATION | Continuous | Event-Triggered (Per Resolution Cycle) |
 | CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |
 | CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | ECONOMICS | Continuous | Event-Triggered (Resource Request / Allocation Event) |
 | CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Arbitration (Schedule 3) | AEON | Continuous | Event-Triggered (Session Entry / Re-Entry) |
 | CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
+| CAM-BS2025-AEON-003-SCH-04 | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | ARBITRATION | Event-Triggered (Per Arbitration Resolution Cycle) | Final Arbitration Authority Layer |
 | CAM-BS2025-AEON-003-SCH-02 | Annex B: Runtime Governance Execution Model (Schedule 2) | AEON | Non-Layer (Execution Model) | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2026-AEON-013-SCH-02 | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | AEON | Continuous (background constraint presence) | UNBOUND |
 
-**Last Generated (UTC):** 2026-04-25T14:03:54Z
+**Last Generated (UTC):** 2026-04-25T14:31:11Z
 **Source:** CAM.Governance.JSON
 **Pipeline Stage:** Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->
