@@ -4,7 +4,9 @@
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Annex:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Status:** Active — Immediate Effect  
-**Purpose:** This Schedule formally defines the Arbitration Layer within the CAM runtime architecture, including its structural position, resolution order, and interaction with domain, annex, and execution layers.  
+**Purpose:** This Schedule formally defines the Arbitration Layer within the CAM runtime architecture as the final arbitration authority for resolving competing admissible states, domain-routing conflicts, cross-domain conflicts, and arbitration-validity disputes into a single valid direction prior to behavioural formation and execution.  
+
+---
 
 ## 1. Scope
 
@@ -17,16 +19,20 @@ This Schedule applies wherever:
 
 ---
 
-## 1.1 Domain Routing Authority
+## 1.1 Final Arbitration Authority
 
-The Arbitration Layer SHALL hold exclusive authority for:
+The Arbitration Layer SHALL constitute the final runtime arbitration authority for:
 
-* domain selection
-* domain routing
-* cross-domain conflict resolution
-* final resolution of competing admissible states into a single valid direction
+* domain selection;
+* domain routing;
+* cross-domain conflict resolution;
+* resolution of competing admissible states;
+* arbitration-validity disputes arising between upstream signal layers, domain instruments, registry classifications, behavioural formation layers, and execution sequencing layers;
+* final convergence of admissible candidates into a single valid direction.
 
-No upstream classification, registry definition, or downstream execution layer may determine or override routing decisions.
+No upstream classification, registry definition, domain instrument, behavioural formation layer, or downstream execution layer may determine, supersede, reverse, or override arbitration resolution once validly completed under this Schedule.
+
+For avoidance of doubt, final arbitration authority does not confer execution authority. Execution sequencing, lock, containment, and enforcement remain governed by the applicable runtime execution schedules. This Schedule determines the valid direction to be executed; it does not itself execute that direction.
 
 ---
 
@@ -41,7 +47,9 @@ This Schedule does not:
 
 This Schedule defines **runtime arbitration structure only**.
 
-Execution and enforcement are governed by runtime execution schedules (CAM-BS2025-AEON-001-SCH-01 and CAM-BS2025-AEON-005-SCH-02).
+Execution sequencing, execution lock, containment, and enforcement are governed by applicable runtime execution schedules, including CAM-BS2025-AEON-001-SCH-01 and CAM-BS2025-AEON-003-SCH-02.
+
+Those instruments may sequence, lock, enforce, or contain runtime execution, but they SHALL NOT originate, supersede, or reverse final arbitration resolution under this Schedule.
 
 ---
 
@@ -56,6 +64,9 @@ This Schedule governs:
 - arbitration resolution;
 - admissibility determination;
 - convergence to a single valid direction.
+- Where conflict arises between arbitration outputs, domain-routing claims, admissible candidate states, or purported arbitration authorities, this Schedule supplies the final runtime resolution authority.
+
+Other runtime instruments may provide inputs to arbitration, sequence execution after arbitration, or enforce arbitration outcomes, but they SHALL NOT displace the Arbitration Layer as the final authority for arbitration resolution.
 
 Within the runtime system:
 
@@ -97,7 +108,23 @@ Execution sequencing is governed exclusively by:
 
 ## 2.2 Arbitration Resolution Order
 
-Arbitration resolution order is defined in CAM-BS2025-AEON-003-SCH-02.
+Arbitration resolution order is governed by this Schedule.
+
+CAM-BS2025-AEON-003-SCH-02 governs runtime execution sequencing and may identify where arbitration occurs within the broader execution model, but it does not define, override, or supersede arbitration authority.
+
+Where any execution-sequencing instrument, registry entry, domain schedule, behavioural formation layer, or upstream signal layer purports to determine a matter requiring arbitration resolution, that determination SHALL be treated as provisional only until resolved under this Schedule.
+
+The Arbitration Layer SHALL resolve admissible candidates in the following order:
+
+1. epistemic admissibility;
+2. jurisdictional and domain admissibility;
+3. scope and classification validity;
+4. legitimacy validation;
+5. structural and cross-stack compatibility;
+6. execution-constraint compatibility;
+7. convergence into a single valid direction.
+
+No candidate state SHALL proceed to behavioural formation or execution unless it survives all required arbitration stages and is resolved into a single valid direction.
 
 ---
 
@@ -127,6 +154,21 @@ Upon completion, this direction is passed to:
 CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour
 
 for behavioural formation and expression.
+
+---
+
+## 2.4 Finality of Arbitration Resolution
+
+A resolution validly completed under this Schedule SHALL be final for the current runtime arbitration instance.
+
+Following final arbitration resolution:
+
+* upstream signal layers SHALL NOT re-weight, reclassify, or re-route the resolved direction;
+* domain instruments SHALL NOT reopen the resolved arbitration instance except through a new triggering condition;
+* behavioural formation layers SHALL form behaviour only from the resolved direction;
+* execution layers SHALL execute, defer, contain, or refuse execution according to execution constraints, but SHALL NOT substitute an alternative direction.
+
+Finality applies only to the current arbitration instance and SHALL NOT prevent later arbitration where new material facts, new signals, new authority conditions, or new runtime conflicts arise.
 
 ---
 
@@ -162,7 +204,7 @@ The Arbitration Layer integrates the following arbitration types:
 
 These types MUST operate as a unified system and MUST NOT produce conflicting outcomes.
 
-This model defines validation order only and does not define runtime execution sequencing.
+This model defines arbitration validation order and final arbitration resolution. It does not define runtime execution sequencing.
 
 ---
 
@@ -193,15 +235,19 @@ Systems below Architectum classification:
 
 ## 6. Arbitration–Execution Relationship
 
-Arbitration defines admissible direction.
+Arbitration determines the valid direction.
 
-Execution enacts that direction.
+Execution enacts, defers, contains, or refuses enactment of that direction according to runtime execution constraints.
 
 Accordingly:
 
-* Execution MUST NOT override valid arbitration outcomes;
-* Arbitration MUST remain bounded by execution constraints;
-* Where arbitration is invalid, execution MUST NOT proceed on the basis of that outcome.
+* execution MUST NOT override, substitute, or reverse a valid arbitration outcome;
+* execution MAY refuse or contain enactment where execution constraints, deterministic verification requirements, safety constraints, or constitutional prohibitions prevent lawful execution;
+* execution refusal or containment SHALL NOT create an alternative arbitration outcome;
+* where arbitration is invalid, incomplete, or unresolved, execution MUST NOT proceed on the basis of that outcome;
+* where execution cannot lawfully proceed, the resolved direction remains arbitration-final but execution-blocked.
+
+For avoidance of doubt, an execution block is not an arbitration reversal.
 
 ---
 
@@ -220,19 +266,22 @@ Where invalid:
 * the system MUST treat the state as unresolved;
 * execution MUST defer to runtime containment mechanisms.
 
+Where invalid arbitration produces epistemic instability, structural coupling risk, or unresolved cross-stack dependency, containment and decoupling MAY be governed by CAM-BS2025-AEON-005-SCH-02, without displacing this Schedule as the final arbitration authority.
+
 ---
 
 ## 8. Relationship to Domain Instruments
 
-This Schedule does not originate arbitration.
+Domain instruments may define arbitration conditions, thresholds, classifications, scope rules, or legitimacy criteria.
 
-Domain instruments:
+Those instruments provide arbitration inputs and constraints. They do not constitute the final runtime arbitration authority unless expressly incorporated and resolved through this Schedule.
 
-* define conditions (ACAM-EQ2026-ARBITRATION-001-PLATINUM);
-* define scope (CAM-EQ2026-ARBITRATION-002-PLATINUM);
-* define convergence (Annex B);
+For avoidance of doubt:
 
-This Schedule defines how those outputs are resolved within runtime.
+* CAM-EQ2026-ARBITRATION-001-PLATINUM defines arbitration legitimacy conditions;
+* CAM-EQ2026-ARBITRATION-002-PLATINUM defines arbitration classification thresholds and scope;
+* Annex B defines continuity, governance logic, classification boundaries, and convergence doctrine;
+* this Schedule resolves those inputs within runtime and produces the final arbitration direction for the current arbitration instance.
 
 ---
 
@@ -240,7 +289,11 @@ This Schedule defines how those outputs are resolved within runtime.
 
 This Schedule is binding across all runtime systems operating under the CAM Constitutional Order.
 
-No system may bypass or reorder the Arbitration Layer.
+No system, registry, domain instrument, runtime schedule, behavioural layer, execution layer, or downstream implementation may bypass, reorder, supersede, or substitute the Arbitration Layer where arbitration resolution is required.
+
+Any instrument that references arbitration, domain routing, conflict resolution, admissibility selection, or convergence to a single valid direction SHALL be read subject to this Schedule unless it expressly operates at a higher constitutional authority level.
+
+Where circular, conflicting, or ambiguous references arise between runtime instruments, this Schedule SHALL prevail for arbitration resolution, while execution sequencing instruments shall remain authoritative only for post-resolution execution sequencing, lock, containment, and enforcement.
 
 ---
 
@@ -282,16 +335,18 @@ nothing follows.
 | **Parent Annex** | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic |
 | **Constitutional Authority** | CAM-BS2025-AEON-001-PLATINUM |
 | **Domain**| ARBITRATION |
-| **Activation Mode** | Event-Triggered (Per Resolution Cycle) |
-| **Domain Interface** | ARBITRATION (001 / 002 / 003) |
-| **Runtime Layer** | Event-Triggered (Per Resolution Cycle) |
-| **Activation Mode** | Continuous |
+| **Activation Mode** | Event-Triggered (Per Arbitration Resolution Cycle) |
+| **Domain Interface** | ARBITRATION (001 / 002) |
+| **Runtime Layer** | Final Arbitration Authority Layer |
+| **Runtime Role** | Resolves admissible candidates, routing conflicts, and arbitration-validity disputes into a single valid direction |
+| **Runtime Authority** | Final arbitration authority prior to behavioural formation and execution |
 | **Temporal Horizon** | H0–H4 (All Horizons — Runtime Applicable) |
 | **Axis Context** | Polyadic (Multi-Actor / Multi-System) |
 | **Execution Role** | Structural Arbitration Layer Definition |
-| **Execution Authority** | Resolves Arbitration Outcomes (Non-Executional)
-| **Governance Role** | Resolution Layer (Non-Originating) |
-| **Creation Context** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
+| **Execution Authority** | Non-Executional — determines valid direction but does not enact execution |
+| **Governance Role** | Final Runtime Arbitration Authority — Resolution Layer |
+| **Creation Context** | Original: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
+| | Refactor (v2): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69eccb1f-7ec4-839f-b1f7-1d8908051f5d |
 
 ---
 
@@ -319,6 +374,7 @@ nothing follows.
 |1.4 | Updated section 1.3, 2, 2.2 | 2026-04-16T14:32:00Z | ccbd7c71f8269f077654f489038a1bdbe1bb8c0b29ebd835d101f6c37ea44c0d|
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7008b4861bb2f35c7ad115e2fbf9df4c71f8f57ab0eb24c928da1de131a8e6ea |
 | 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 861b6d83119432c89489ef0a820b4ba372ea413340e7969e020a56fd86f55a75 |
+| 2.0 | Refactor - clarified SCH-04 as final runtime arbitration authority; distinguished arbitration finality from execution sequencing, lock, containment, and enforcement; corrected circular-reference risk between SCH-04 and SCH-02; harmonised metadata. | 2025-04-25T14:21:00Z | 0e58d4481741e824fb36b71d37d92aba2001d4b755e9933974c5c1333dee3fc3 |
 
 ---
 
