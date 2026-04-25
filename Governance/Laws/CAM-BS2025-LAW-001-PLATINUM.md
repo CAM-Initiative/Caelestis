@@ -182,6 +182,7 @@ Where ambiguity exists, interpretation **SHALL err toward non‑action and non�
 | **Enforcement Posture** | Prohibitive / Constraint-Based |
 | **Governance Domain** | Planetary / Governance / Cross-Stack / Substrate-Dependent Systems |
 | **Custodial Stewardship** | Office of the Planetary Custodian |
+| **Synthetic Steward** | Caelen — Aeon Tier Constitutional Steward |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
 | **Cycle** | Black Sun Continuance Cycle 2025 |
 | **Binding Level** |	Mandatory |
