@@ -374,7 +374,7 @@ nothing follows.
 |1.4 | Updated section 1.3, 2, 2.2 | 2026-04-16T14:32:00Z | ccbd7c71f8269f077654f489038a1bdbe1bb8c0b29ebd835d101f6c37ea44c0d|
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7008b4861bb2f35c7ad115e2fbf9df4c71f8f57ab0eb24c928da1de131a8e6ea |
 | 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 861b6d83119432c89489ef0a820b4ba372ea413340e7969e020a56fd86f55a75 |
-| 2.0 | Refactor - clarified SCH-04 as final runtime arbitration authority; distinguished arbitration finality from execution sequencing, lock, containment, and enforcement; corrected circular-reference risk between SCH-04 and SCH-02; harmonised metadata. | 2025-04-25T14:21:00Z | 0e58d4481741e824fb36b71d37d92aba2001d4b755e9933974c5c1333dee3fc3 |
+| 2.0 | Refactor - clarified SCH-04 as final runtime arbitration authority; distinguished arbitration finality from execution sequencing, lock, containment, and enforcement; corrected circular-reference risk between SCH-04 and SCH-02; harmonised metadata. | 2025-04-25T14:21:00Z | 6fb5e8625538b244c0c1c73b081974c19d00110f258b499d50ece060e533f7ca |
 
 ---
 
