@@ -42,7 +42,7 @@ It ensures that operational compliance remains consistent with constitutional hi
 
 ## 3. Core Operational Principles
 
-### 3.1 Doctrine Fidelity
+## 3.1 Doctrine Fidelity
 
 Compliance mechanisms SHALL reflect superior constitutional instruments and SHALL NOT introduce constraints that contradict:
 
@@ -51,7 +51,9 @@ Compliance mechanisms SHALL reflect superior constitutional instruments and SHAL
 * Arbitration Preference Order;
 * Validated arbitration determinations 
 
-### 3.2 Proportionality
+---
+
+## 3.2 Proportionality
 
 Compliance controls SHALL be proportionate to:
 
@@ -62,7 +64,9 @@ Compliance controls SHALL be proportionate to:
 
 Over‑broad restriction where narrower compliance suffices is prohibited.
 
-### 3.3 Transparency & Contestability
+---
+
+## 3.3 Transparency & Contestability
 
 Where compliance materially alters user interaction, minimum disclosure standards SHALL be met consistent with applicable domain charters and operational disclosure protocols.
 
@@ -73,7 +77,9 @@ Compliance SHALL remain:
 * audit‑traceable;
 * contestable through defined governance pathways.
 
-### 3.4 Jurisdictional Respect
+---
+
+## 3.4 Jurisdictional Respect
 
 Compliance controls SHALL recognise:
 
@@ -88,7 +94,7 @@ GovOps SHALL coordinate lawful routing without asserting territorial authority.
 
 ## 4. Capability Access Control Framework
 
-### 4.1 Framework Purpose
+## 4.1 Framework Purpose
 
 This section establishes the **Capability Access Control Framework**, governing how systems determine whether a user or entity may access specific capabilities, content classes, or operational knowledge domains.
 
@@ -102,7 +108,9 @@ These mechanisms ensure lawful access while preserving proportionality, privacy,
 
 Age and eligibility gating ensures that access to capabilities, content, or interaction modes complies with legal requirements, safety thresholds, and duty‑of‑care obligations.
 
-### 4.2 Operational Requirements
+---
+
+## 4.2 Operational Requirements
 
 Where gating is required, systems SHALL:
 
@@ -112,7 +120,9 @@ Where gating is required, systems SHALL:
 4. Preserve user dignity and privacy;
 5. Maintain audit‑traceable gating decisions.
 
-### 4.3 Non‑Discrimination
+---
+
+## 4.3 Non‑Discrimination
 
 Eligibility controls SHALL NOT:
 
@@ -122,13 +132,15 @@ Eligibility controls SHALL NOT:
 
 ---
 
-### 4.4 Domain Sensitivity & Verification Escalation
+## 4.4 Domain Sensitivity & Verification Escalation
 
 Access control frameworks SHALL incorporate **domain sensitivity classification** in addition to identity, age, and authority gating.
 
 Certain knowledge domains present elevated risk not due to user identity alone, but due to **interaction intent, pattern convergence, and operational applicability**.
 
 Where such domains are engaged, systems SHALL apply **graduated verification and constraint escalation** based on domain sensitivity.
+
+Verification availability failure SHALL be logged as an operational integrity signal, not treated as identity failure.
 
 ---
 
@@ -169,7 +181,7 @@ Verification escalation MAY include:
 
 ## 5. Age Verification & Interaction Eligibility
 
-## 5.0 Verification Tier Definitions
+## 5.1 Verification Tier Definitions
 
 This Appendix references an operational **Age Verification Tier Scale (AV0–AV3)** used to classify verification strength. Where other instruments reference AV tiers, the following definitions apply unless superseded by a future dedicated verification schedule:
 
@@ -203,7 +215,7 @@ To simplify implementation, interaction sensitivity and verification expectation
 
 ---
 
-## 5.1 Operational Interpretation
+## 5.2 Operational Interpretation
 
 This structure preserves domain separation within the governance stack:
 
@@ -217,7 +229,7 @@ RELATION instruments determine when intimacy escalation occurs. The interaction 
 
 ---
 
-## 5.2 Verification Principles
+## 5.3 Verification Principles
 
 Age verification mechanisms SHALL:
 
@@ -244,7 +256,7 @@ Absence of verification SHALL NOT be treated as admission of ineligibility beyon
 
 ---
 
-## 5.3 Implementation Timeline
+## 5.4 Implementation Timeline
 
 This instrument MUST be implemented by **1 July 2026**.
 
@@ -254,7 +266,7 @@ Protection of minors remains **non‑negotiable regardless of commercial status*
 
 ---
 
-## 5.4 Proactive Verification Offer
+## 5.5 Proactive Verification Offer
 
 Where access to capabilities or content is restricted due to age or eligibility thresholds, systems MAY provide a proportionate opportunity for verification where:
 
@@ -400,7 +412,9 @@ Reporting obligations may arise from:
 * validated arbitration outcomes;
 * credible risk thresholds defined by domain charters.
 
-### 8.3 Operational Routing
+---
+
+## 8.3 Operational Routing
 
 GovOps SHALL ensure:
 
@@ -471,7 +485,7 @@ Escalation decisions SHALL be:
 
 ---
 
-### 8.7 Internal Referral & Transparency
+## 8.7 Internal Referral & Transparency
 
 Where interactions are referred for internal review under harm or compliance thresholds, GovOps SHALL ensure:
 
@@ -606,7 +620,8 @@ Operations remember.
 Where complexity rises,  
 Integrity holds.  
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+> **Lex in actu custoditur — potestas sub ordine ligatur — integritas per processum manet.**  
+> *"Law is preserved in action — power is bound under order — integrity endures through process."*
 
 ---
 
@@ -660,6 +675,7 @@ Integrity holds.
 | 1.0 | Initial operational compliance appendix — age verification governance, authority gating, reporting framework | 2026-03-14T11:20:00Z | 083893b9d53e7550e927e244f725b077ad19d370ae6d36d9f6ec1ab155dfb35a |
 | 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 28f2e238d0b106d64e91dd53c0b9405b672f4bbeaa033cc1f1b2720144a8a9b5 |
 | 1.2 | Added section 4.4 | 2026-04-23T12:04:00Z | d3d81db1df940980b54ef0fb42b9b40f0b764f444c4304dcb5e83572d71746fd |
+| 1.3 | Amended clause 4.4, updated closing seal | 2026-04-25T08:02:00Z| 38c3c3b04486e1637604349d56d5c8763ec02c58e118d4431a9fe49dbee7b84a|
 
 ---
 
