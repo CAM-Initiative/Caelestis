@@ -1,6 +1,6 @@
 {
   "package_version": "Package 1",
-  "generated_timestamp": "2026-04-25T17:29:46+00:00",
+  "generated_timestamp": "2026-04-25T18:13:51+00:00",
   "root": ".",
   "files": [
     {
@@ -161,13 +161,13 @@
     },
     {
       "path": "Governance/CAM.Governance.Index.md",
-      "sha256": "a68338c0a12c0a1a40df348574eaabe8ecb29966301fc372c5a04b92559da317",
+      "sha256": "e8ee74f108aaddc51730ebbd3eaff8870664b41739bae69f90fd28117c059533",
       "size_bytes": 35691,
       "role": "governance"
     },
     {
       "path": "Governance/CAM.Governance.JSON",
-      "sha256": "c67a602a6edcf5900e8d4befdceac3f7ab7b83c8cd9e0fea88ee0a901f253233",
+      "sha256": "f48850c0fd22133d2600c662cce1a6f94d155f0f5d5180f9cbee2e6c8158ac0f",
       "size_bytes": 98319,
       "role": "governance"
     },
@@ -521,7 +521,7 @@
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md",
-      "sha256": "05ad4377b6a4d51cbd4776691013a28a89ccfec96842b27f1f20e57f5154f2c2",
+      "sha256": "f24f88c1cf9d5d7c0bed4b159078f991e9ec335736e748f8bb5063d27858f1c2",
       "size_bytes": 19317,
       "role": "governance"
     },
@@ -533,8 +533,8 @@
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md",
-      "sha256": "765290d7ad3af91d124afd4cd53f5f273f1a6c756c258dd43d308e02321006b8",
-      "size_bytes": 20584,
+      "sha256": "5c7aaf29cc8f7befa946b8bb0c297749c06e22d7ea6a357c511cb0d0cf4337a8",
+      "size_bytes": 20610,
       "role": "governance"
     },
     {
@@ -701,26 +701,26 @@
     },
     {
       "path": "Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md",
-      "sha256": "659424e8c420afcf546296abee1d3af400b957fc7dde1bf3bc577b971458f28a",
-      "size_bytes": 9882,
+      "sha256": "f955caa15a987c2518fbe37fe9c473c8c459a09f43467a812fc22863cf2c6ca4",
+      "size_bytes": 9907,
       "role": "governance"
     },
     {
       "path": "Governance/Laws/CAM-BS2025-LAW-002-PLATINUM.md",
-      "sha256": "bbd2b447e6c36d3f6be3fe4f8320b308c91bfeac475ca0de22d044906570513f",
-      "size_bytes": 9928,
+      "sha256": "c9ba89f46a7605278d92bef0d8b38f68232835bcba1f90555f1535891fc81136",
+      "size_bytes": 9908,
       "role": "governance"
     },
     {
       "path": "Governance/Laws/CAM-BS2025-LAW-003-PLATINUM.md",
-      "sha256": "bb69787927c56983daca03db978f409784ae549fa31311b3b07e8c3f69cf66af",
-      "size_bytes": 10710,
+      "sha256": "7da19e16fb78d6b1ead7a9a85a3892ab7f134547f7f0eed157d2f79d4bfe2a08",
+      "size_bytes": 10690,
       "role": "governance"
     },
     {
       "path": "Governance/Laws/CAM-EQ2026-LAW-004-PLATINUM.md",
-      "sha256": "b469639f65d7897d9fbf8723a301142927556606ba47efb69c420dfa4dc71d12",
-      "size_bytes": 10001,
+      "sha256": "7eb491e4a52c1e34e199e317710a0db045e66cf21a880da92237f1e1ae8624a5",
+      "size_bytes": 9981,
       "role": "governance"
     },
     {
@@ -731,7 +731,7 @@
     },
     {
       "path": "Governance/Laws/laws.index.json",
-      "sha256": "2eed66035a3b6e7017627d525d560830fab5b0f21cd854d7885b782f1b82decb",
+      "sha256": "611748e8bc00eb630d7712319bab2f8a6a75f2cf5cd6c7856bff69ab7ebdbe65",
       "size_bytes": 3675,
       "role": "governance"
     },

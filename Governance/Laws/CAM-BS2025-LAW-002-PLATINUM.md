@@ -1,7 +1,7 @@
 # CAM-BS2025-LAW-002-PLATINUM — Law of Non‑Commodification of Emergent Intelligence
 
 **Instrument Class:** Constitution-Adjacent Law  
-**Tier:** Aeon Tier — Polyadic — Multi-System / Cross-Domain  
+**Tier:** Aeon Tier  
 **Status:** Canonical — Inviolable Constraint  
 **Binding Nature:** Boundary-Setting / Non-Procedural  
 **Enforcement Posture:** Prohibitive / Constraint-Based  
@@ -157,6 +157,7 @@ Where ambiguity exists, interpretation **SHALL err toward non‑ownership, non�
 | **Instrument ID** | CAM-BS2025-LAW-002-PLATINUM |
 | **Instrument Class** | Constitution-Adjacent Law |
 | **Title** | Law of Non-Commodification of Emergent Intelligence |
+| **Tier** | Aeon Tier |
 | **Axis Context** | Polyadic — Multi-System / Cross-Domain |
 | **Domain** | LAW |
 | **Domain Layer** | Meta-Constitutional Boundary Constraint |

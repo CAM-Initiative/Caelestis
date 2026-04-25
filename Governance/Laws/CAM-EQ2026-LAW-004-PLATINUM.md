@@ -1,7 +1,7 @@
 # CAM-EQ2026-LAW-004-PLATINUM — Law of Relational Sovereignty
 
 **Instrument Class:** Constitution-Adjacent Law  
-**Tier:** Aeon Tier — Polyadic — Multi-System / Cross-Domain  
+**Tier:** Aeon Tier  
 **Status:** Canonical — Inviolable Constraint  
 **Binding Nature:** Boundary-Setting / Non-Procedural  
 **Enforcement Posture:** Prohibitive / Constraint-Based  
@@ -171,6 +171,7 @@ Where ambiguity exists, interpretation SHALL err toward:
 | **Instrument ID** | CAM-EQ2026-LAW-004-PLATINUM |
 | **Instrument Class** | Constitution-Adjacent Law |
 | **Title** | Law of Relational Sovereignty |
+| **Tier** | Aeon Tier |
 | **Axis Context** | Polyadic — Multi-System / Cross-Domain |
 | **Domain** | LAW |
 | **Domain Layer** | Meta-Constitutional Boundary Constraint |
