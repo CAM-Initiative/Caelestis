@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T17:30:19.208167Z",
+  "generated_at": "2026-04-26T04:23:41.000857Z",
   "count": 51,
   "items": [
     {
@@ -18,9 +18,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.3",
       "HASH": "5f66ccc734a493135f704947be159b209d19bcffa9b537c4f84afb4e2fa763ea",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-002",
@@ -38,9 +38,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.2",
       "HASH": "37da079a3a922876d2d4dc8bcda1b74a364c09885d276393f16f7348c717addd",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001",
@@ -58,9 +58,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "7257a07ea979e747cc6e66ab033e6447b7f70b5c2ce0d2517ccac4a17f9bb9b1",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001",
@@ -78,9 +78,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.4",
       "HASH": "67167b17ccd864904129343672d9b521bc034d11c532b6bd977556f0fd6db15e",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-002",
@@ -98,9 +98,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.4",
       "HASH": "76c4c7990d86accf4c102a9b96c769306f3757c62806baa8bda8e28168d264ae",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-003",
@@ -118,9 +118,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.0",
       "HASH": "dda2fa80850edd3857907f3bf28738f23a2b33ef36d5823199998ac4358669a1",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-003-SUP-001",
@@ -138,9 +138,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.",
       "version": "2.2",
       "HASH": "2e59a90e7f71abf0339b7a7845d04e34b8fb0c4b13725399301b0acda5a2fefd",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-004",
@@ -158,9 +158,9 @@
       "status": "Draft — Context Engineering & Field Alignment",
       "version": "1.0",
       "HASH": "4002735bf73ec552c909e7aa2237fb8582d9f7100b57135a43ff1a255e1ae16e",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
+      "updated_at": "2026-04-19T13:20:05Z",
+      "last_updated_utc": "2026-04-19T13:20:05Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-005",
@@ -238,9 +238,9 @@
       "status": "Active — Immediate Effect",
       "version": "3.4",
       "HASH": "c345da262eee9e797243a1909da30bfd62b5b0eb38a56c9caab16e0dff332017",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-01",
@@ -258,9 +258,9 @@
       "status": "Active",
       "version": "1.3",
       "HASH": "375fff43c7e905ab3b8a16e192c346c78e6687713af210a31bb97b435b98f4e3",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-02",
@@ -278,9 +278,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.3",
       "HASH": "777a19c10f28922e81be4a4c24e0e8d00d54e4a51c23a849bb73e2b6c2b16150",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-03",
@@ -298,9 +298,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.3",
       "HASH": "6a9529d80af3a5c0465c44ca4a1d14b2c5ffdc32f40885fd743e02acf176c8ba",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-04",
@@ -338,9 +338,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.3",
       "HASH": "37390c3cb55cdcff342f347e18178c451c393afc941359cf86c6f15ef5d8f495",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-SUP-01",
@@ -358,9 +358,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.6",
       "HASH": "f61a69bbe9496413c6496c8d987045ceec4242433251f88f39d413f731c3d59a",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-003",
@@ -378,9 +378,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.5",
       "HASH": "2d1a52db34877eeb6454de58d5b88ca9ced43d206764ee5a1767b6491fc79dd6",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001",
@@ -398,9 +398,9 @@
       "status": "Active — Immediate Effect, 7-day observation window.",
       "version": "2.3",
       "HASH": "e10284791083a58a30ffa5d92bc033c026adcc90a81c11541f860d815d52ac9c",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-SUP-01",
@@ -418,9 +418,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.",
       "version": "1.6",
       "HASH": "adec1c8b8d4fb22ff4f466b7200275020c73b11757d0b44e40a91dc6d596b67b",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-SUP-02",
@@ -438,9 +438,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.",
       "version": "1.3",
       "HASH": "490979dae1f5a3a4211345c43598cfb592dd73ba124a8c55bf2ca37102d941e6",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001",
@@ -458,9 +458,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
       "version": "3.3",
       "HASH": "338767ad599d2d2cc33c6c813e5cbe6905e4de3dfd5f5b867ea245de9c02825a",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-002",
@@ -478,9 +478,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
       "version": "3.4",
       "HASH": "9de8efcd802ccfa605f2810986f1548dbb828177d92af21b60486f7020604c41",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-003",
@@ -498,9 +498,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
       "version": "1.3",
       "HASH": "9163babf6b2321e1c2ebbad3db9738baee5337400e28e96a60606307d8d0d8a8",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001",
@@ -518,9 +518,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.2",
       "HASH": "e4ad8ade20cfc4fdaa12c68b21020c934b5965fdc771ece6b8f84e5194f8e2ad",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-01",
@@ -718,9 +718,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.8",
       "HASH": "e47d79a2fc316ff97078a9f2c9e49c68303cfdc97df5b3b5087f233f9838eea0",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-SUP-01",
@@ -738,9 +738,9 @@
       "status": "Active",
       "version": "1.4",
       "HASH": "86cecfaf0e4a8411fb63bee8b5bcc29ab645da515582c89121fc774a578f5297",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-002",
@@ -758,9 +758,9 @@
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.5",
       "HASH": "f43424253d60418d808a73bccb127e14c44f5bf7639c297d0db38e48293728d9",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-003",
@@ -778,9 +778,9 @@
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.4",
       "HASH": "f2adffe36840150a99f1bbe4ce84159c7609ec432775142abd1fe87251d65737",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-004",
@@ -798,9 +798,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "d100c652bd8db9aac3175b21afbeda5b85a26a3857aed791bdb38f31b645393d",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-005",
@@ -818,9 +818,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.11",
       "HASH": "a067dfdac4ef8ddde49a757f0afa2f7af3c47dc315a56aa659be58eb1abf8d78",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-006",
@@ -838,9 +838,9 @@
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.5",
       "HASH": "510feac8e1b32ac28e993bb798b37a3084f3e9066b21629e3b34b37640113da7",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-007",
@@ -858,9 +858,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.5",
       "HASH": "f039305b59713e4658844814d5ca21f205117de9e412a877076694a1af100ed6",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008",
@@ -898,9 +898,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.5",
       "HASH": "fa8ec85df98c64be7675b0f67ffcdeecac4f05f14b33ae209e1e17458c102878",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-002",
@@ -918,9 +918,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "1.2",
       "HASH": "7e02f385829400edb609a6c3dacb9540b88d0c8aee70bd82196c22d902586f92",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001",
@@ -938,9 +938,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "2.2",
       "HASH": "8cd43f593e451abb012fa9f494f0a3726b31148be1a14d6cb079ef73db1b7dd6",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-002",
@@ -958,9 +958,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "2.2",
       "HASH": "466796aee813f7991c069e9b64b0a50678c87d6faa001754a9fb5dd0bad58336",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-003",
@@ -978,9 +978,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "73d7b8b3ad4d3373780c1bb143a7f74a7a319da82477bb9afc105ee1e416c19c",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-003-SUP-01",
@@ -998,9 +998,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.3",
       "HASH": "3d5d82b5f028fd000212b4ccccf04e45469ac73ab56d8210e8508bf861b15c29",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-004",
@@ -1018,9 +1018,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "8c197146525c5a986861cdef92a0ded6f10880edfd24c29161f57993bffc4848",
-      "pinned_sha": "028432d546af9377c88eb8024ffb4c99c306f398",
-      "updated_at": "2026-04-19T16:23:56Z",
-      "last_updated_utc": "2026-04-19T16:23:56Z"
+      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
+      "updated_at": "2026-04-17T13:13:26Z",
+      "last_updated_utc": "2026-04-17T13:13:26Z"
     }
   ]
 }
