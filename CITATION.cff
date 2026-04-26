@@ -1,12 +1,13 @@
-cff-version: 1.2.0
-title: "Caelestis Governance Repository Archival Package"
+cff-version: 1.3.0
+title: "Caelestis Architecture Model — Public Archive"
+version: "1.0.0"
+doi: 10.5281/zenodo.19779351
+date-released: 2026-04-26
 message: "If you use this archival package, please cite it using the metadata below."
 authors:
   - family-names: "O'Rourke"
     given-names: "Michelle Vivian"
     name-particle: "Dr"
-version: "Package 1"
-date-released: "2026-04-25"
 license: "See licence.md (CAM Custodial Reference and Deployment Licence, Continuity Without Prejudice Version 0.3)"
 repository-code: "https://github.com/CAM-Initiative/Caelestis/tree/main"
 keywords:

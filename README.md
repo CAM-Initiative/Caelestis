@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19779351.svg)](https://doi.org/10.5281/zenodo.19779351)
+
 <p align="center">
   <img src="https://github.com/CAM-Initiative/Registry/blob/main/Images/aeon-magazine-readme-cover-v3.svg" alt="AEON Tier — CAM Initiative" width="100%">
 </p>
