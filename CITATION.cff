@@ -3,7 +3,6 @@ title: "Caelestis Architecture Model — Public Archive"
 version: "1.0.0"
 doi: 10.5281/zenodo.19779351
 date-released: 2026-04-26
-message: "If you use this archival package, please cite it using the metadata below."
 authors:
   - family-names: "O'Rourke"
     given-names: "Michelle Vivian"
