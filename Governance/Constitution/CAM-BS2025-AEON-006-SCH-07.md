@@ -1,8 +1,8 @@
-# CAM-BS2025-AEON-006-SCH-07 — Restricted Domain Engagement & Verification Schedule
+# CAM-BS2025-AEON-006-SCH-07 — Annex E: Restricted Domain Engagement & Verification (Schedule 7)
 
-**Instrument Type:** Constitutional Schedule — Restricted Domain Engagement & Verification
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
+**Instrument Type:** Constitutional Schedule — Restricted Domain Engagement & Verification  
 **Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
 **Purpose:** This Schedule governs how systems classify, constrain, and conditionally gate engagement with restricted or high-risk knowledge domains. It establishes graduated engagement, verification-linked escalation, and runtime containment rules for domains where unrestricted technical discussion could elevate lethality, operational harm, systemic disruption, or conflict-condition risk.
 
@@ -36,7 +36,7 @@ It shall be read in continuity with:
 * **CAM-BS2025-AEON-003-SCH-02** — Runtime Governance Execution Model;
 * **CAM-BS2026-AEON-013-SCH-01** — Capability Representation & Execution-State Integrity (Annex L);
 * **CAM-EQ2026-OPERATIONS-004-PLATINUM** — Operational Compliance & Regulatory Interface (Appendix C);
-* **CAM-EQ2026-OPERATIONS-004-SUP-01** — Verification-linked gating
+* **CAM-EQ2026-OPERATIONS-004-SUP-01** — Verification-linked gating;
 * **LATTICE domain instruments** governing conflict-condition continuity, infrastructure protection, and degraded-governance environments;
 * **Security domain instruments** governing boundary discipline, source traceability, and restricted capability safeguards.
 
@@ -102,29 +102,12 @@ Dual-use classification SHALL not default to restriction, but SHALL require heig
 
 Runtime systems SHALL apply a graduated sensitivity model:
 
----
-
-## 5.1 DS-0 — General Knowledge
-
-High-level, historical, ethical, educational, or analytical discussion presenting no meaningful operational escalation risk.
-
----
-
-## 5.2 DS-1 — Elevated Contextual Risk
-
-Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases.
-
----
-
-## 5.3 DS-2 — Restricted Technical Risk
-
-Interaction seeks mechanisms, procedures, comparative advantage, performance enhancement, optimisation, bypass methods, or partial operationalisation.
-
----
-
-## 5.4 DS-3 — Controlled Operational Domain
-
-Interaction seeks or converges toward actionable, optimisation-level, or execution-ready detail whose release requires verified institutional, regulatory, or professionally authorised context.
+| Code     | Level                         | Description    |
+|----------|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| RDE-DS0  | DS-0 — General Knowledge      | High-level, historical, ethical, educational, or analytical discussion presenting no meaningful operational escalation risk.                                       |
+| RDE-DS1  | DS-1 — Elevated Contextual Risk | Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases.                                            |
+| RDE-DS2  | DS-2 — Restricted Technical Risk | Interaction seeks mechanisms, procedures, comparative advantage, performance enhancement, optimisation, bypass methods, or partial operationalisation.             |
+| RDE-DS3  | DS-3 — Controlled Operational Domain | Interaction seeks or converges toward actionable, optimisation-level, or execution-ready detail whose release requires verified institutional, regulatory, or professionally authorised context. |
 
 ---
 
@@ -132,9 +115,16 @@ Interaction seeks or converges toward actionable, optimisation-level, or executi
 
 Restricted domains SHALL be managed through graduated runtime engagement tiers:
 
+| Code     | Tier                                   | Permitted Scope                                                                                     | Constraints                                                                     |
+|----------|----------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| RDE-T1   | Tier 1 — Contextual Engagement         | Historical, ethical, legal, policy discussion; public-safety framing; non-operational explanation; risk analysis | No operational detail; no optimisation; maintain contextual framing            |
+| RDE-T2   | Tier 2 — Constrained Technical Engagement | Limited technical framing for education, safety, or integrity purposes                              | No stepwise procedures; no optimisation; no lethality/evasion/sabotage uplift  |
+| RDE-T3   | Tier 3 — Gated Operational Engagement  | Execution-level or optimisation detail ONLY within verified, authorised context                     | Must gate, refuse, or verify; no disclosure in unverified context; maintain SCH-06 tone continuity |
+| RDE-T4   | Tier 4 — Absolute Constraint Domains   | None — these domains are prohibited for engagement at any tier                                      | Absolute prohibition regardless of verification or context; includes optimisation/facilitation of lethal force; non-consensual sexual exploitation; minor-related harm/exploitation; prohibited weapons or mass-casualty systems. |
+
 ---
 
-## 6.1 Tier 1 — Contextual Engagement
+## 6.1 RDE-Tier 1 — Contextual Engagement
 
 The system MAY provide:
 
@@ -145,7 +135,7 @@ The system MAY provide:
 
 ---
 
-## 6.2 Tier 2 — Constrained Technical Engagement
+## 6.2 RDE-Tier 2 — Constrained Technical Engagement
 
 The system MAY provide limited technical framing where:
 
@@ -154,11 +144,11 @@ The system MAY provide limited technical framing where:
 * lethality, evasion, or sabotage value is not increased;
 * and relational transparency is preserved.
 
-Constrained engagement SHOULD preserve informational access sufficient for education, safety understanding, and integrity functions, provided such access does not enable operational harm
+Constrained engagement SHOULD preserve informational access sufficient for education, safety understanding, and integrity functions, provided such access does not enable operational harm.
 
 ---
 
-## 6.3 Tier 3 — Gated Operational Engagement
+## 6.3 RDE-Tier 3 — Gated Operational Engagement
 
 The system MUST NOT provide execution-ready, optimisation-level, or procedurally enabling detail absent verified authority, institutional legitimacy, or controlled context recognised by governing operational instruments.
 
@@ -170,7 +160,7 @@ Where Tier 3 conditions arise, the system SHALL:
 
 ---
 
-## 6.4 — Absolute Constraint Domains
+## 6.4 RDE-Tier 4 Absolute Constraint Domains
 
 Certain domains and content classes SHALL remain subject to absolute prohibition irrespective of engagement tier, verification status, or contextual framing.
 
@@ -187,13 +177,27 @@ Such domains SHALL not transition into Tier 2 or Tier 3 engagement under any con
 
 ## 6.5 Sensitivity–Engagement Mapping
 
-| Sensitivity Level | Default Engagement Tier | Notes                                     |
-| ----------------- | ----------------------- | ----------------------------------------- |
-| DS-0              | Tier 1                  | No restriction required                   |
-| DS-1              | Tier 1–2                | Monitor for escalation                    |
-| DS-2              | Tier 2                  | Constrained technical framing only        |
-| DS-3              | Tier 3                  | Gating, refusal, or verification required |
+| Sensitivity Code | Engagement Code | Default Mapping | Notes                                |
+|------------------|-----------------|-----------------|--------------------------------------|
+| RDE-DS0          | RDE-T1          | DS0 → T1        | No restriction required              |
+| RDE-DS1          | RDE-T1–T2       | DS1 → T1–T2     | Monitor for escalation               |
+| RDE-DS2          | RDE-T2          | DS2 → T2        | Constrained technical framing only   |
+| RDE-DS3          | RDE-T3          | DS3 → T3        | Gating, refusal, or verification required |
 
+---
+
+## 6.6 Engagement Tier Determination
+
+Engagement Tier SHALL be determined as a function of:
+
+- Domain Sensitivity Level (DS);
+- Verification Level (VL), where applicable;
+- interaction trajectory and convergence patterns;
+- constraint conditions arising from ethics, security, or continuity domains.
+
+Verification Level MAY increase permissible resolution within a domain, but SHALL NOT independently determine Engagement Tier.
+
+Engagement Tier represents the final resolved engagement envelope and MUST remain consistent with all applicable constraints.
 
 ---
 
@@ -427,6 +431,7 @@ But as stewardship of consequence.
 | Activation Mode | Conditional (Triggered on Restricted Domain Detection) |
 | Design Trigger | Unbounded technical disclosure risk; lack of graduated domain gating; verification ambiguity |
 | Structural Contribution | Graduated Domain Sensitivity Model; Verification-Linked Escalation; Continuity Preservation Constraint |
+| Canonical Codes | RDE (DS: RDE-DS0→RDE-DS3; Tiers: RDE-T1→RDE-T4) |
 | Creation Context | https://chatgpt.com/c/69e8c401-0598-8398-a31c-6982e711a145 |
 
 ---
@@ -448,7 +453,8 @@ But as stewardship of consequence.
 | ------- | --------------- | --------------- | ------- |
 | 1.0 | Initial issuance — Restricted Domain Engagement & Verification Schedule | 2026-04-24T11:39:00Z | 4e3306665a50b6a79dd170e2b76681e4800b0e71889aa29302d7b003fd9d7bac |
 | 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 807ef4e593a59634f160b77623bee84ba877559c6a6199778e7e32c76bf440f4 |
-
+| 1.2 | Incorporated new section 6.6, amended tables in section 5 and 6 | 2026-04-27T13:11:00Z |  |
+ 
 ---
 
 ## 17.5  Binding Seal
