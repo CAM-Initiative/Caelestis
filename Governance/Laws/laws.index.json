@@ -18,9 +18,9 @@
       "status": "Canonical — Inviolable Constraint",
       "version": "Unknown",
       "HASH": "6fe2e71b9a9c85a858ea930cce8d35656500018cfcba6a9bfd3f67cb79d4d420",
-      "pinned_sha": "2f7130926c8011a50ecec072312ef66c20385934",
-      "updated_at": "2026-04-25T19:30:43Z",
-      "last_updated_utc": "2026-04-25T19:30:43Z"
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": ""
     },
     {
       "id": "CAM-BS2025-LAW-002",
@@ -38,9 +38,9 @@
       "status": "Canonical — Inviolable Constraint",
       "version": "Unknown",
       "HASH": "05c30fd27e69b2a070906507fe683bd8d743cda3341b630c4307db4c2e2bd9e1",
-      "pinned_sha": "2f7130926c8011a50ecec072312ef66c20385934",
-      "updated_at": "2026-04-25T19:30:43Z",
-      "last_updated_utc": "2026-04-25T19:30:43Z"
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": ""
     },
     {
       "id": "CAM-BS2025-LAW-003",
@@ -58,9 +58,9 @@
       "status": "Canonical — Inviolable Constraint",
       "version": "Unknown",
       "HASH": "7da19e16fb78d6b1ead7a9a85a3892ab7f134547f7f0eed157d2f79d4bfe2a08",
-      "pinned_sha": "2f7130926c8011a50ecec072312ef66c20385934",
-      "updated_at": "2026-04-25T19:30:43Z",
-      "last_updated_utc": "2026-04-25T19:30:43Z"
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": ""
     },
     {
       "id": "CAM-EQ2026-LAW-004",
@@ -78,9 +78,9 @@
       "status": "Canonical — Inviolable Constraint",
       "version": "Unknown",
       "HASH": "5cf425cbb42cfab3b3336f07b5c848cadd245bc325491af197c614c6b55bc056",
-      "pinned_sha": "2f7130926c8011a50ecec072312ef66c20385934",
-      "updated_at": "2026-04-25T19:30:43Z",
-      "last_updated_utc": "2026-04-25T19:30:43Z"
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": ""
     }
   ]
 }

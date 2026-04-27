@@ -9,7 +9,6 @@ import re
 import sys
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
@@ -257,14 +256,14 @@ def update_registry_section(table_content: str) -> None:
     SCH03_PATH.write_text(updated, encoding="utf-8")
 
 
-def footer_block(timestamp: str) -> str:
+def footer_block() -> str:
     return "\n".join(
         [
             "---",
             "",
             "## 3. Generation Metadata",
             "",
-            f"**Last Generated (UTC):** {timestamp}  ",
+            "**Generation:** Deterministic (timestamp omitted)  ",
             "**Source:** CAM.Governance.JSON  ",
             "**Pipeline Stage:** Post-Index Registry Build  ",
             "",
@@ -304,14 +303,14 @@ def footer_block(timestamp: str) -> str:
     )
 
 
-def metadata_block(timestamp: str) -> str:
+def metadata_block() -> str:
     return "\n".join(
         [
             "---",
             "",
             "## 3. Generation Metadata",
             "",
-            f"**Last Generated (UTC):** {timestamp}  ",
+            "**Generation:** Deterministic (timestamp omitted)  ",
             "**Source:** CAM.Governance.JSON  ",
             "**Pipeline Stage:** Post-Index Registry Build  ",
             "",
@@ -322,7 +321,7 @@ def metadata_block(timestamp: str) -> str:
     )
 
 
-def upsert_footer(timestamp: str) -> None:
+def upsert_footer() -> None:
     text = read_text(SCH03_PATH)
     if text is None:
         return
@@ -339,7 +338,7 @@ def upsert_footer(timestamp: str) -> None:
         if metadata_heading == -1:
             metadata_heading = static_start
 
-        updated = text[:metadata_heading].rstrip() + "\n\n" + metadata_block(timestamp) + text[static_start:]
+        updated = text[:metadata_heading].rstrip() + "\n\n" + metadata_block() + text[static_start:]
         updated = re.sub(
             r"\n---\n\s*\n---\n\s*\n## 3\. Generation Metadata",
             "\n---\n\n## 3. Generation Metadata",
@@ -348,7 +347,7 @@ def upsert_footer(timestamp: str) -> None:
         SCH03_PATH.write_text(updated, encoding="utf-8")
         return
 
-    updated = text.rstrip() + "\n\n" + footer_block(timestamp) + "\n"
+    updated = text.rstrip() + "\n\n" + footer_block() + "\n"
     SCH03_PATH.write_text(updated, encoding="utf-8")
 
 
@@ -367,8 +366,7 @@ def main() -> None:
     rows = generate_registry_rows(items, available_docs, indexed_ids)
     table_content = render_registry(rows)
     update_registry_section(table_content)
-    timestamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    upsert_footer(timestamp)
+    upsert_footer()
 
     print(f"Updated: {SCH03_PATH.relative_to(REPO_ROOT)}")
 

@@ -6,30 +6,28 @@ on:
     paths:
       - ".github/scripts/lib/**"
       - ".github/scripts/update-CAM-Governance-Index.py"
+      - ".github/scripts/update-CAM-Constitution-Index.py"
       - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
+      - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
+      - ".github/scripts/build-symbolic-structures-index.py"
       - "Governance/Constitution/CAM-Constitution-Index.md"
       - "Governance/Constitution/constitution.index.json"
       - "Governance/Laws/CAM-Laws-Index.md"
       - "Governance/Laws/laws.index.json"
       - "Governance/Charters/CAM-Charters-Index.md"
       - "Governance/Charters/charters.index.json"
-  workflow_run:
-    workflows: ["Update Amendment Ledgers"]
-    types: [completed]
-    branches: [main]
+      - "Governance/Indices/CAM.Governance.Symbolic-Structures.Registry.json"
 
 permissions:
   contents: write
 
 concurrency:
-  group: governance-index-updates
+  group: governance-generated-writes-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   build:
-    if: |
-      (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     env:
       BOT_NAME: github-actions[bot]
@@ -48,7 +46,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push Governance index + JSON + SCH-01 + SCH-03
+      - name: Generate + commit + push Governance + schedule + symbolic indexes
         shell: bash
         run: |
           set -euo pipefail
@@ -63,19 +61,29 @@ jobs:
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
           # 3) SCH-03 from aggregate governance JSON
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          # 4) Rebuild Constitution index after schedule updates
+          python .github/scripts/update-CAM-Constitution-Index.py
+          # 5) Rebuild aggregate governance index after constitution refresh
+          python .github/scripts/update-CAM-Governance-Index.py
+          # 6) symbolic structures index from governance corpus
+          python .github/scripts/build-symbolic-structures-index.py
 
           git add \
             Governance/CAM.Governance.Index.md \
             Governance/CAM.Governance.JSON \
+            Governance/Constitution/CAM-Constitution-Index.md \
+            Governance/Constitution/constitution.index.json \
             Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md \
-            Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
+            Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md \
+            Governance/Indices/CAM.Governance.Symbolic-Structures.Index.json \
+            Governance/Indices/CAM.Governance.Symbolic-Structures.Index.md
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "[AUTO][Governance] Refresh global Governance index + JSON + SCH-01 + SCH-03"
+          git commit -m "[AUTO][Governance] Refresh global indexes + schedules + symbolic index"
 
           git pull --rebase origin main
           git push origin HEAD:main

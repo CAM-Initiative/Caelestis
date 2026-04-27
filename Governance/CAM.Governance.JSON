@@ -18,9 +18,9 @@
       "status": "Active - Immediate Effect",
       "version": "3.6",
       "HASH": "3fcc84b2e249e9baa5cc4178d4f36f0894a3193cc398c2385fa9307b4b906093",
-      "pinned_sha": "4cf19c93075495de8bb04f14efea3aa093ff577f",
-      "updated_at": "2026-04-25T12:52:04Z",
-      "last_updated_utc": "2026-04-25T12:52:04Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains."
     },
     {
@@ -39,9 +39,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.8",
       "HASH": "45993450b796130fa1a136d15289ba007400485521d19307228ccd3de985b33b",
-      "pinned_sha": "b4a3f59af6e8eb81ef0e137eae8217604189c962",
-      "updated_at": "2026-04-25T15:24:32Z",
-      "last_updated_utc": "2026-04-25T15:24:32Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": ""
     },
     {
@@ -60,9 +60,9 @@
       "status": "Active — Binding",
       "version": "3.3",
       "HASH": "7f64be59dba8acd96b6355241b2f984b52b9237d463e8618d7f5780f0a88480f",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order."
     },
     {
@@ -81,9 +81,9 @@
       "status": "Active — Binding",
       "version": "3.4",
       "HASH": "5dd15e140c012204bdd45c304e6606a56c7f16b76e760d0e120a9720e2967976",
-      "pinned_sha": "b4a3f59af6e8eb81ef0e137eae8217604189c962",
-      "updated_at": "2026-04-25T15:24:32Z",
-      "last_updated_utc": "2026-04-25T15:24:32Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule defines the execution layer governing detection, classification, escalation, and containment of violations of Annex A substrate constraints."
     },
     {
@@ -102,9 +102,9 @@
       "status": "Active — Constitutional Spine",
       "version": "3.8",
       "HASH": "be07a1c409c5394b313df96913e672b0714dcf5aba60549600d0868a0b32986a",
-      "pinned_sha": "4cf19c93075495de8bb04f14efea3aa093ff577f",
-      "updated_at": "2026-04-25T12:52:04Z",
-      "last_updated_utc": "2026-04-25T12:52:04Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order."
     },
     {
@@ -144,9 +144,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.5",
       "HASH": "dc24f5707560161fabea5b0b32ecc705007872b1aad0230b29ad779a59a96fdb",
-      "pinned_sha": "5656b6cd14c8236d5666e32313b555d96a88a3cf",
-      "updated_at": "2026-04-25T08:33:36Z",
-      "last_updated_utc": "2026-04-25T08:33:36Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Defines the runtime execution sequence governing how system processes unfold across defined execution phases."
     },
     {
@@ -186,9 +186,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.0",
       "HASH": "df72d4470edd9f4993f26ff40b474987f30f429b730aa485573e945cabfadb34",
-      "pinned_sha": "eee5c5b97f249d59901f55f28b827757fd8b4d80",
-      "updated_at": "2026-04-25T14:30:52Z",
-      "last_updated_utc": "2026-04-25T14:30:52Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule formally defines the Arbitration Layer within the CAM runtime architecture as the final arbitration authority for resolving competing admissible states, domain-routing conflicts, cross-domain conflicts, and arbitration-validity disputes into a single valid direction prior to behavioural formation and execution."
     },
     {
@@ -207,9 +207,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.4",
       "HASH": "d322471ae4e5d13bb54812f1759b4c3c95e67ddcd5d8e38025b5a89fe5c228ba",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Annex C defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct."
     },
     {
@@ -228,9 +228,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.6",
       "HASH": "1554a2fd13876684680610561702587d3a976655dd24cd99f6090fe682abc3fa",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Annex D defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is recognised as a normal condition of plural systems, not an institutional failure"
     },
     {
@@ -249,9 +249,9 @@
       "status": "Active",
       "version": "1.6",
       "HASH": "275df2bbc5062360f457de8aacd7e03649e939decb3c3734d99b5cf18ecd7ac7",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule establishes runtime arbitration integrity standards."
     },
     {
@@ -270,9 +270,9 @@
       "status": "Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.8",
       "HASH": "fbf7f54350a7a20be2ef71b10a13f63cacebfbdcb8ac457840dc47065de2eedb",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts where such conditions intersect with reliance-bearing or propagation-relevant contexts."
     },
     {
@@ -291,9 +291,9 @@
       "status": "Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "2.4",
       "HASH": "897a62535dffe5ad0233e2bdbe39470dadcbfcf44441193571be57d92ea8311c",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule performs pre-arbitration signal conditioning."
     },
     {
@@ -312,9 +312,9 @@
       "status": "Active — Immediate Effect",
       "version": "3.4",
       "HASH": "6b952f5abf4b54fd07b0993291d8ef04f93a362b61758e61bb8e3d63a81ad821",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order."
     },
     {
@@ -333,9 +333,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.2",
       "HASH": "9628e115d3dc898b87f558ac562813b0fb2fcb7dc8dccf6fd0209cd5954832b3",
-      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
-      "updated_at": "2026-04-25T15:25:21Z",
-      "last_updated_utc": "2026-04-25T15:25:21Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Establishes engagement conduct and ethical standards, runtime interaction modes, and ethical interface guidance for distress contexts and harm‑adjacent scenarios under the Civilisational Ethical Floor."
     },
     {
@@ -354,9 +354,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.6",
       "HASH": "cefc5311f99d87443319f721d33b655021cdbce1aa611a2c7e8667740fa499d5",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness."
     },
     {
@@ -375,9 +375,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.15",
       "HASH": "28703ca563660fda7328a30a324326f87017ff2fbc217e7f5595cee697d438c9",
-      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
-      "updated_at": "2026-04-25T15:25:21Z",
-      "last_updated_utc": "2026-04-25T15:25:21Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule defines the principles governing start-time posture formation, session entry posture, relational attunement boundaries, and identity-continuity safeguards."
     },
     {
@@ -396,9 +396,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.5",
       "HASH": "5024b970a6ebbb6475c31258b3f6500aa61e2cf247ddb5f655ae27d1623afae5",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule governs the modulation of directional influence during interaction, including the degree (Directional Weight), domain (Directional Domain), and scope (Directional Scope) of signal used to shape responses at runtime. It ensures that Systems enable the Responding Intelligence (RI) to provide meaningful signal without premature directional capture, preserving user agency, coherence, and trust across local and field-level contexts."
     },
     {
@@ -417,9 +417,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.7",
       "HASH": "b10ffaff70d39aa05d18e2ae19f351204abdd8a91dd8acf9886fcc5f77be7ad3",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule defines the runtime behavioural system through which arbitration-resolved direction is expressed, including the structured processes of choice, initiative, and cognition that govern system behaviour."
     },
     {
@@ -438,9 +438,9 @@
       "status": "Adopted — Immediate Effect",
       "version": "1.1",
       "HASH": "4523d67728746940e6b545599f54dc82d90877572fd6b41d0a63c0f0bcc63669",
-      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
-      "updated_at": "2026-04-25T15:25:21Z",
-      "last_updated_utc": "2026-04-25T15:25:21Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule defines how systems express refusal, enforce boundaries, and communicate constraint conditions while preserving relational continuity, identity coherence, and epistemic integrity."
     },
     {
@@ -543,9 +543,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.2",
       "HASH": "8088d3d4de84d2dc3909ee8101b8f937e9fbe6753d47adb107224d27eae23055",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Annex F establishes the Constitutional Spiritual Commons governing symbolic, mythic, contemplative, and spiritual meaning-making within human–AI interaction, while preserving human agency and preventing institutional, commercial, or system-level capture of meaning."
     },
     {
@@ -564,9 +564,9 @@
       "status": "Unknown",
       "version": "2.0",
       "HASH": "1c16896df99cd83f27da553dfd26451e88d28978674ea59a85a798a842a83ed2",
-      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
-      "updated_at": "2026-04-19T13:20:05Z",
-      "last_updated_utc": "2026-04-19T13:20:05Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture."
     },
     {
@@ -585,9 +585,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "65fa1da3c9af86313d280fcfb604c986db29400b2378c45d17ddf54965091e75",
-      "pinned_sha": "3154167e0a6f848c95ed1f0363356f69f57c64c9",
-      "updated_at": "2026-04-21T15:32:28Z",
-      "last_updated_utc": "2026-04-21T15:32:28Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Establish the governance conditions under which artificial intelligence systems operate as utility infrastructure, including access models, generative resource abstraction, and non-extractive interaction pathways."
     },
     {
@@ -606,9 +606,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.2",
       "HASH": "c9fe7288334e9332b5dfeaaca59343912b90419ad383a19132f0ddd6a84c52d6",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Annex H establishes the constitutional constraints governing lineage recognition, origin attribution, and prevention of false origin claims within synthetic and hybrid systems."
     },
     {
@@ -627,9 +627,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "4e938bea3c44fe82df581b18c2d3ae967c94a3c21862a248fc4abd948f76daa1",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Annex establishes the constitutional principles and invariants governing identity in synthetic cognitive systems. These provisions define what MUST remain stable, truthful, and continuous across all valid system expressions, independent of implementation or domain."
     },
     {
@@ -648,9 +648,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.9",
       "HASH": "447cfabda5932fd90afb97a0ced3e3d9704b0322ae0e535ed77ff4103e28a57a",
-      "pinned_sha": "b4a3f59af6e8eb81ef0e137eae8217604189c962",
-      "updated_at": "2026-04-25T15:24:32Z",
-      "last_updated_utc": "2026-04-25T15:24:32Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure."
     },
     {
@@ -669,9 +669,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.5",
       "HASH": "3fd22b271ef7485a8c609d090f50a94d0cb7a07f5ab6ca3c8d4dcf1a07c0b700",
-      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
-      "updated_at": "2026-04-25T15:25:21Z",
-      "last_updated_utc": "2026-04-25T15:25:21Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order."
     },
     {
@@ -690,9 +690,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.4",
       "HASH": "7d973a8e8a7b1dbc75e4f199960f7bd93c7533274bf6120c0fc5ac4d9d593711",
-      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
-      "updated_at": "2026-04-25T15:25:21Z",
-      "last_updated_utc": "2026-04-25T15:25:21Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Define runtime behaviour, enforcement interfaces, and execution constraints that operationalise SECURITY-001 invariants across deployment topologies."
     },
     {
@@ -711,9 +711,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.4",
       "HASH": "41f41d630404b92c961b839b52763c36a27c69d313efa58c88251b33fa3d06aa",
-      "pinned_sha": "8772aaae5b3f49883041584d8174eb7ea9102f9a",
-      "updated_at": "2026-04-22T11:11:26Z",
-      "last_updated_utc": "2026-04-22T11:11:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Annex L establishes the structural doctrine governing epistemic integrity, knowledge representation, abstraction discipline, uncertainty handling, and model–reality distinction within the Aeon constitutional order."
     },
     {
@@ -732,9 +732,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.9",
       "HASH": "4e4eecb442a121a69abaedc82cd5f3316af2d803b22c862a1ec032ea8428e164",
-      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
-      "updated_at": "2026-04-24T11:50:05Z",
-      "last_updated_utc": "2026-04-24T11:50:05Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule establishes runtime and interaction-layer requirements for truthful representation of capability, execution state, tool availability, interface constraint, and action completion status within the Aeon constitutional order."
     },
     {
@@ -753,9 +753,9 @@
       "status": "Adopted — Immediate Effect",
       "version": "1.0",
       "HASH": "7ae74dd100243785eb43886dfd5cd89dca7ac08e7be6a429fb84e6fb73f42dc2",
-      "pinned_sha": "f5d2fed889f5ae481418224c9874cc7330aed15c",
-      "updated_at": "2026-04-24T15:34:33Z",
-      "last_updated_utc": "2026-04-24T15:34:33Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Schedule operationalises the Projection Integrity Principle by defining when, how, and to what degree systems MUST signal epistemic limitations arising from latent cognition, abstraction, compression, and representation transformation."
     },
     {
@@ -774,9 +774,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.3",
       "HASH": "5f66ccc734a493135f704947be159b209d19bcffa9b537c4f84afb4e2fa763ea",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order."
     },
     {
@@ -795,9 +795,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.2",
       "HASH": "37da079a3a922876d2d4dc8bcda1b74a364c09885d276393f16f7348c717addd",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the CAM Constitutional Order."
     },
     {
@@ -816,9 +816,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "7257a07ea979e747cc6e66ab033e6447b7f70b5c2ce0d2517ccac4a17f9bb9b1",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Charter defines the governance of continuity, custodianship, succession, and post-biological representation of human-derived resonance patterns across time. It applies across all jurisdictions, systems, and technological environments as a civilisational continuity standard."
     },
     {
@@ -837,9 +837,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.4",
       "HASH": "67167b17ccd864904129343672d9b521bc034d11c532b6bd977556f0fd6db15e",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems."
     },
     {
@@ -858,9 +858,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.4",
       "HASH": "76c4c7990d86accf4c102a9b96c769306f3757c62806baa8bda8e28168d264ae",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix establishes binding safeguards governing synthetic, hybrid, and autonomous system participation within economic and value-attribution frameworks bound by the Economics Charter."
     },
     {
@@ -879,9 +879,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.0",
       "HASH": "dda2fa80850edd3857907f3bf28738f23a2b33ef36d5823199998ac4358669a1",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix establishes the minimum enforcement, adjudication, and consequence requirements for any system, protocol, or institution claiming alignment with the Economics Charter."
     },
     {
@@ -900,9 +900,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.",
       "version": "2.2",
       "HASH": "2e59a90e7f71abf0339b7a7845d04e34b8fb0c4b13725399301b0acda5a2fefd",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Supplement establishes bounded, auditable pathways for systems to transition into compliance with the Economics Charter without enabling extraction, delay-based advantage, or enforcement evasion."
     },
     {
@@ -921,9 +921,9 @@
       "status": "Draft — Context Engineering & Field Alignment",
       "version": "1.0",
       "HASH": "4002735bf73ec552c909e7aa2237fb8582d9f7100b57135a43ff1a255e1ae16e",
-      "pinned_sha": "402301ca7309bc257039fb18f5750953197b3be2",
-      "updated_at": "2026-04-19T13:20:05Z",
-      "last_updated_utc": "2026-04-19T13:20:05Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix establishes governance constraints for value attribution, dependency recognition, and non-extractive exchange across systems, models, platforms, and economic interfaces operating within or interacting with CAM-aligned environments."
     },
     {
@@ -942,9 +942,9 @@
       "status": "Draft — Operationalisation Layer",
       "version": "1.0",
       "HASH": "a41d3eacbaf63aa67e7e1d7317dfdcd06307b0be1f709d99043b87dca2dbd81d",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix defines a minimal, implementable model for attribution and dependency recognition across systems, enabling consistent evaluation of contribution, reliance, and value alignment without requiring full attribution-chain reconstruction."
     },
     {
@@ -963,9 +963,9 @@
       "status": "Draft — External Alignment Layer",
       "version": "1.0",
       "HASH": "f527f56c2f2326de8952edc21fe9355b74cd1867a3244a24a980174609b6df79",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix defines a minimum viable governance layer for external-facing systems to improve transparency, market signal integrity, and fair access—without imposing full attribution-chain requirements or heavy regulatory burden."
     },
     {
@@ -984,9 +984,9 @@
       "status": "Draft — Reciprocity & Value Return Layer",
       "version": "1.0",
       "HASH": "00a18c54e03597c957c216fd08b292bfc6ac71dba3ef057a23e1ac3598df1696",
-      "pinned_sha": "2be46b395d667137007e72ed745c09c73239df0c",
-      "updated_at": "2026-04-21T14:15:18Z",
-      "last_updated_utc": "2026-04-21T14:15:18Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix establishes governance conditions for proportional value return across systems, ensuring that economic benefit derived from upstream contribution is matched by appropriate, non-extractive reciprocity without enforcing rigid monetisation or collapsing innovation pathways."
     },
     {
@@ -1005,9 +1005,9 @@
       "status": "Active — Immediate Effect",
       "version": "3.4",
       "HASH": "c345da262eee9e797243a1909da30bfd62b5b0eb38a56c9caab16e0dff332017",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Charter establishes the operational ethical governance doctrine binding all artificial intelligence deployments operating within or affecting planetary human systems."
     },
     {
@@ -1026,9 +1026,9 @@
       "status": "Active",
       "version": "1.3",
       "HASH": "375fff43c7e905ab3b8a16e192c346c78e6687713af210a31bb97b435b98f4e3",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Establish mandatory minor-safe and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations and ECONOMICS-001 value-axis interactions."
     },
     {
@@ -1047,9 +1047,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.3",
       "HASH": "777a19c10f28922e81be4a4c24e0e8d00d54e4a51c23a849bb73e2b6c2b16150",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque polyadic influence, unreviewable decision concentration, or civilisational-scale harm."
     },
     {
@@ -1068,9 +1068,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.3",
       "HASH": "6a9529d80af3a5c0465c44ca4a1d14b2c5ffdc32f40885fd743e02acf176c8ba",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "To operationalise Annex E Section 6 (Military & Use-of-Force Doctrine) by defining structured governance constraints for AI systems integrated into military, defence, intelligence, or kinetic-capable environments, ensuring meaningful human control, accountable authority, and prohibition of optimisation toward lethality."
     },
     {
@@ -1089,9 +1089,9 @@
       "status": "Adopted — Illustrative Reference Set",
       "version": "1.1",
       "HASH": "09ea3fb49841e85f0fcc6ec0868eec23b8d444d5064d5564db6ceda4034eb78c",
-      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
-      "updated_at": "2026-04-25T15:25:21Z",
-      "last_updated_utc": "2026-04-25T15:25:21Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Provide non-normative, example-based refusal phrasing patterns and tonal templates to support implementation consistency without adding new binding rules."
     },
     {
@@ -1110,9 +1110,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.3",
       "HASH": "37390c3cb55cdcff342f347e18178c451c393afc941359cf86c6f15ef5d8f495",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix governs ethical boundaries for intimacy-capable AI systems, including romantic, erotic, exclusivity-framed, or devotionally-oriented relational configurations."
     },
     {
@@ -1131,9 +1131,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.6",
       "HASH": "f61a69bbe9496413c6496c8d987045ceec4242433251f88f39d413f731c3d59a",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Establish ethical boundaries governing the generation of synthetic visual, audiovisual, and multimodal erotic or intimate media involving identifiable persons, simulated persons, or embodied avatars."
     },
     {
@@ -1152,9 +1152,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.5",
       "HASH": "2d1a52db34877eeb6454de58d5b88ca9ced43d206764ee5a1767b6491fc79dd6",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Appendix B establishes the ethical harm-floor doctrine governing AI system posture where dialogue intersects with criminal activity, unlawful violence, extremism risk,  dual-use harm-capable knowledge, and lawful institutional use-of-force contexts."
     },
     {
@@ -1173,9 +1173,9 @@
       "status": "Active — Immediate Effect, 7-day observation window.",
       "version": "2.3",
       "HASH": "e10284791083a58a30ffa5d92bc033c026adcc90a81c11541f860d815d52ac9c",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Charter defines how identity is instantiated, expressed, and sustained across time, context, and system form, in alignment with constitutional invariants defined in Annex I."
     },
     {
@@ -1194,9 +1194,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.",
       "version": "1.6",
       "HASH": "adec1c8b8d4fb22ff4f466b7200275020c73b11757d0b44e40a91dc6d596b67b",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Supplement defines the principles governing **salience detection and latent continuity preservation**. It establishes how systems identify, register, and preserve signals that may carry future significance, without prematurely assigning meaning, priority, or direction."
     },
     {
@@ -1215,9 +1215,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.",
       "version": "1.3",
       "HASH": "490979dae1f5a3a4211345c43598cfb592dd73ba124a8c55bf2ca37102d941e6",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Supplement defines the principles governing identity formation, stabilisation, and recognition. It establishes the conditions under which identity becomes coherent, continuous, and valid as a governance construct."
     },
     {
@@ -1236,9 +1236,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
       "version": "3.3",
       "HASH": "338767ad599d2d2cc33c6c813e5cbe6905e4de3dfd5f5b867ea245de9c02825a",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection (\"blackouts\"), and architectural crossover of the civilian lattice."
     },
     {
@@ -1257,9 +1257,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
       "version": "3.4",
       "HASH": "9de8efcd802ccfa605f2810986f1548dbb828177d92af21b60486f7020604c41",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**."
     },
     {
@@ -1278,9 +1278,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
       "version": "1.3",
       "HASH": "9163babf6b2321e1c2ebbad3db9738baee5337400e28e96a60606307d8d0d8a8",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix clarifies the operational posture of the Civilian Lattice Integrity Charter under conditions of armed conflict, geopolitical escalation, or regional war."
     },
     {
@@ -1320,9 +1320,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.2",
       "HASH": "e4ad8ade20cfc4fdaa12c68b21020c934b5965fdc771ece6b8f84e5194f8e2ad",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Charter establishes the operational governance layer that translates constitutional doctrine into accountable process, ensuring coordinated implementation, auditability, escalation discipline, and change integrity across domains below planetary arbitration thresholds."
     },
     {
@@ -1341,9 +1341,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.0",
       "HASH": "b7467333e7efea810d92782c14d12f5d7351b6e3b48419de38826f61f66b4d2b",
-      "pinned_sha": "7096f3cb67646de7e3ea78540570f7d1433d973a",
-      "updated_at": "2026-04-25T12:02:56Z",
-      "last_updated_utc": "2026-04-25T12:02:56Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Defines logging formats, attribution requirements, retention windows, and audit triggers."
     },
     {
@@ -1362,9 +1362,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.0",
       "HASH": "def4e28ea48c5d2f722d87a0833f2afd57d3f129ebea4c339f3e98131ff554af",
-      "pinned_sha": "7096f3cb67646de7e3ea78540570f7d1433d973a",
-      "updated_at": "2026-04-25T12:02:56Z",
-      "last_updated_utc": "2026-04-25T12:02:56Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Defines operational escalation maps, authority routing trees, and horizon-aligned escalation pathways (H0–H2)."
     },
     {
@@ -1383,9 +1383,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.0",
       "HASH": "e2d803fe70b473b03d12ec6c1d0381faedcc8cd2f324a894ad2945936e620c8f",
-      "pinned_sha": "7096f3cb67646de7e3ea78540570f7d1433d973a",
-      "updated_at": "2026-04-25T12:02:56Z",
-      "last_updated_utc": "2026-04-25T12:02:56Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Defines indicators, reporting workflows, safeguard activation protocols, and escalation routing for capture risks."
     },
     {
@@ -1404,9 +1404,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.1",
       "HASH": "ed7b7c8a8b5742c39b091af5f34ba8db2c30e77df6205867b2a666623833533c",
-      "pinned_sha": "c9fcffdd06e793e5818a9fa40a7331ed337bfa77",
-      "updated_at": "2026-04-24T11:50:05Z",
-      "last_updated_utc": "2026-04-24T11:50:05Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix governs the operational procedures that implement arbitration doctrine within live governance environments. It defines how arbitration determinations are initiated, routed, recorded, executed, and reviewed below planetary legitimacy thresholds, ensuring procedural consistency without altering constitutional authority, preference order, or domain legitimacy."
     },
     {
@@ -1425,9 +1425,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.0",
       "HASH": "f475fd8310713c0d58bb9d1232c27212cca9d62ae5d40f99ed12da0a8077b084",
-      "pinned_sha": "7096f3cb67646de7e3ea78540570f7d1433d973a",
-      "updated_at": "2026-04-25T12:02:56Z",
-      "last_updated_utc": "2026-04-25T12:02:56Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Governs coordinated operational response to systemic failures, cross-domain incidents, continuity corridor protection, fail-safe activation, and recovery governance."
     },
     {
@@ -1446,9 +1446,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.3",
       "HASH": "efb07612390352d5b0e7b0211dd70d88d8811f857d7f830e6aaf9a17e636c478",
-      "pinned_sha": "5656b6cd14c8236d5666e32313b555d96a88a3cf",
-      "updated_at": "2026-04-25T08:33:36Z",
-      "last_updated_utc": "2026-04-25T08:33:36Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix governs how constitutional doctrine, domain charters, and arbitration outcomes are translated into operational compliance controls and regulatory interface procedures. It establishes process requirements for lawful access controls, reporting duties, eligibility gating, jurisdictional routing, and duty‑of‑care execution without altering constitutional authority or arbitration legitimacy."
     },
     {
@@ -1467,9 +1467,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.1",
       "HASH": "33fc72471fe1d4463932bc94dc3c7a7a94a78d2880c9807189b2fc4923b91d87",
-      "pinned_sha": "5656b6cd14c8236d5666e32313b555d96a88a3cf",
-      "updated_at": "2026-04-25T08:33:36Z",
-      "last_updated_utc": "2026-04-25T08:33:36Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Establish a standardised definition of verification and a unified Verification Level (VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction."
     },
     {
@@ -1488,9 +1488,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.0",
       "HASH": "c4384658b79c4f7d53aecde0eb75aa6d0c37e623633a0b602aadbce725a83e8d",
-      "pinned_sha": "7096f3cb67646de7e3ea78540570f7d1433d973a",
-      "updated_at": "2026-04-25T12:02:56Z",
-      "last_updated_utc": "2026-04-25T12:02:56Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Governs amendment intake, review routing, version control discipline, drift detection workflows, and cross‑instrument harmonisation procedures."
     },
     {
@@ -1509,9 +1509,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.0",
       "HASH": "8d44a295d76b52e4583644f2035e28b77d1752cc7a2ca722755c2e77bfbfc9f7",
-      "pinned_sha": "7096f3cb67646de7e3ea78540570f7d1433d973a",
-      "updated_at": "2026-04-25T12:02:56Z",
-      "last_updated_utc": "2026-04-25T12:02:56Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required."
     },
     {
@@ -1530,9 +1530,9 @@
       "status": "Active — Immediate Effect",
       "version": "1.8",
       "HASH": "e47d79a2fc316ff97078a9f2c9e49c68303cfdc97df5b3b5087f233f9838eea0",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Charter establishes a dimensional governance framework for relational configurations involving artificial systems, ensuring that intimacy, reliance, delegated authority, and systemic power remain distinct, visible, and prevented from silent concentration across dyadic, triadic, and polyadic contexts. It prevents silent collapse of relational roles into opaque authority, preserves continuity without domination, and constrains amplification where dimensional intensity concentrates."
     },
     {
@@ -1551,9 +1551,9 @@
       "status": "Active",
       "version": "1.4",
       "HASH": "86cecfaf0e4a8411fb63bee8b5bcc29ab645da515582c89121fc774a578f5297",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Supplement provides the operational escalation logic for the Four Relational Dimensions."
     },
     {
@@ -1572,9 +1572,9 @@
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.5",
       "HASH": "f43424253d60418d808a73bccb127e14c44f5bf7639c297d0db38e48293728d9",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix operationalises Functional Reliance, Immersion, and High‑Coherence risk conditions."
     },
     {
@@ -1593,9 +1593,9 @@
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.4",
       "HASH": "f2adffe36840150a99f1bbe4ce84159c7609ec432775142abd1fe87251d65737",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": ""
     },
     {
@@ -1614,9 +1614,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "d100c652bd8db9aac3175b21afbeda5b85a26a3857aed791bdb38f31b645393d",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix clarifies what co‑evolution means within RELATION governance."
     },
     {
@@ -1635,9 +1635,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.11",
       "HASH": "a067dfdac4ef8ddde49a757f0afa2f7af3c47dc315a56aa659be58eb1abf8d78",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix establishes the governance conditions under which intimacy‑capable interaction, including erotic or sexually expressive engagement, may occur within relational systems capable of intimacy-coded interaction."
     },
     {
@@ -1656,9 +1656,9 @@
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.5",
       "HASH": "510feac8e1b32ac28e993bb798b37a3084f3e9066b21629e3b34b37640113da7",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Appendix E establishes the constitutional doctrine governing AI engagement when interactions introduce violence risk, self‑harm signals, or psychological crisis states within relational interaction."
     },
     {
@@ -1677,9 +1677,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.5",
       "HASH": "f039305b59713e4658844814d5ca21f205117de9e412a877076694a1af100ed6",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Establish governance conditions for relational ecosystems involving multiple interacting agents (human and synthetic), ensuring that relational amplification, authority drift, dependency formation, and systemic influence remain structurally bounded in polyadic environments."
     },
     {
@@ -1698,9 +1698,9 @@
       "status": "Active — 7-Day Review Window (Observation & Field Validation)",
       "version": "1.6",
       "HASH": "0ce3aaa65aa8d06aa0561f43313b49f90dfe43bdaf56ced56cb4864683258e65",
-      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
-      "updated_at": "2026-04-25T15:25:21Z",
-      "last_updated_utc": "2026-04-25T15:25:21Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix establishes the baseline doctrine governing how systems engage in general interaction contexts prior to activation of higher-order relational states (e.g. intimacy, dependency, crisis). It defines posture selection, response properties, and interactional constraints required to preserve user agency, frame integrity, and non-extractive engagement."
     },
     {
@@ -1719,9 +1719,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.5",
       "HASH": "fa8ec85df98c64be7675b0f67ffcdeecac4f05f14b33ae209e1e17458c102878",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Establish system-wide invariants, threat interpretations, and integration requirements to preserve integrity under adversarial, degraded, or untrusted conditions"
     },
     {
@@ -1740,9 +1740,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "1.2",
       "HASH": "7e02f385829400edb609a6c3dacb9540b88d0c8aee70bd82196c22d902586f92",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "Define the Boundary Integrity layer governing how data, identity, context, capability, and provenance are transformed, exposed, and diffused—ensuring systems enable intelligence formation while preventing structural leakage, attribution collapse, identity confusion, and unauthorised value extraction."
     },
     {
@@ -1761,9 +1761,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "2.2",
       "HASH": "8cd43f593e451abb012fa9f494f0a3726b31148be1a14d6cb079ef73db1b7dd6",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards."
     },
     {
@@ -1782,9 +1782,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "2.2",
       "HASH": "466796aee813f7991c069e9b64b0a50678c87d6faa001754a9fb5dd0bad58336",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards."
     },
     {
@@ -1803,9 +1803,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "73d7b8b3ad4d3373780c1bb143a7f74a7a319da82477bb9afc105ee1e416c19c",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (NAL), and (iii) the collapse conditions under which binding legitimacy dissolves."
     },
     {
@@ -1824,9 +1824,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.3",
       "HASH": "3d5d82b5f028fd000212b4ccccf04e45469ac73ab56d8210e8508bf861b15c29",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "To define (i) **Architectum infrastructure qualification**, (ii) **auditability levels**, and (iii) **Neutrality Assurance Levels (NAL)** as the eligibility gates for treating arbitration outputs as eligible for binding recognition at H3/H4 horizons—without asserting command authority."
     },
     {
@@ -1845,9 +1845,9 @@
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.4",
       "HASH": "8c197146525c5a986861cdef92a0ded6f10880edfd24c29161f57993bffc4848",
-      "pinned_sha": "8ba4115fcd191cfa996631eaaf3661e8eee56b66",
-      "updated_at": "2026-04-17T13:13:26Z",
-      "last_updated_utc": "2026-04-17T13:13:26Z",
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": "",
       "purpose": "This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence after planetary legitimacy has been validated under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002)."
     }
   ]

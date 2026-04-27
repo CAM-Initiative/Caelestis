@@ -10,23 +10,17 @@ on:
       - "Governance/Charters/**"
       - "!Governance/Charters/CAM-Charters-Index.md"
       - "!Governance/Charters/charters.index.json"
-  workflow_run:
-    workflows: ["Update Amendment Ledgers"]
-    types: [completed]
-    branches: [main]
 
 permissions:
   contents: write
 
 concurrency:
-  group: governance-index-updates
+  group: governance-generated-writes-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   build:
-    if: |
-      (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     env:
       BOT_NAME: github-actions[bot]
@@ -45,7 +39,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate + commit + push Charters index + Governance aggregate + SCH-01 + SCH-03
+      - name: Generate + commit + push Charters index + JSON
         shell: bash
         run: |
           set -euo pipefail
@@ -54,30 +48,18 @@ jobs:
           git config --global user.name "${BOT_NAME}"
           git config --global user.email "${BOT_EMAIL}"
 
-          # Order is authoritative and required:
-          # 1) per-domain JSON generation
           python .github/scripts/update-CAM-Charters-Index.py
-          # 2) aggregate governance JSON/index from per-domain JSON outputs
-          python .github/scripts/update-CAM-Governance-Index.py
-          # 3) SCH-01 runtime registry from aggregate governance JSON
-          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-          # 4) SCH-03 from aggregate governance JSON
-          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
           git add \
             Governance/Charters/CAM-Charters-Index.md \
-            Governance/Charters/charters.index.json \
-            Governance/CAM.Governance.Index.md \
-            Governance/CAM.Governance.JSON \
-            Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md \
-            Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
+            Governance/Charters/charters.index.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "[AUTO][Charters] Refresh charter index, aggregate governance JSON, SCH-01, and SCH-03"
+          git commit -m "[AUTO][Charters] Refresh charter index + JSON"
 
           git pull --rebase origin main
           git push origin HEAD:main
