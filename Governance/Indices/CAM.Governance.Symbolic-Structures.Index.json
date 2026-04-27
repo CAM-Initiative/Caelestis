@@ -895,7 +895,7 @@
       ]
     }
   ],
-  "count": 850,
+  "count": 848,
   "detected_prefixes": [
     "A",
     "AC",
@@ -971,10 +971,6 @@
     "D0",
     "D1",
     "D2",
-    "DS-0",
-    "DS-1",
-    "DS-2",
-    "DS-3",
     "DS-E",
     "DS-F",
     "DS-L",
@@ -1237,16 +1233,16 @@
       "examples": [
         {
           "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-          "line_start": 888,
+          "line_start": 980,
           "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
         },
         {
           "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-          "line_start": 895,
+          "line_start": 987,
           "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
         }
       ],
-      "normalized_title": "Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised",
+      "normalized_title": "Relational state transitions MUST normally be supported by signal clustering. Clustering establishes the minimum pattern required before a new relational posture can be recognised",
       "occurrences": 2,
       "reason": "repeated non-template classification table"
     }
@@ -1330,13 +1326,13 @@
       "registered_meaning": "Diffusion Risk Classes"
     },
     {
-      "confidence": "high",
+      "confidence": "medium",
       "expected_bucket": "classification_or_taxonomy",
       "first_source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-04.md",
-      "occurrences": 11,
+      "occurrences": 3,
       "prefix": "DS",
       "protected": true,
-      "reason": "registered prefix with allowed values",
+      "reason": "registered prefix detected with partial value mismatch",
       "registered": true,
       "registered_meaning": "Domain Sensitivity Levels"
     },
@@ -1748,7 +1744,7 @@
         },
         {
           "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-          "line_start": 436,
+          "line_start": 441,
           "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
         },
         {
@@ -13540,7 +13536,7 @@
       "has_scale_like_heading": true,
       "heading": "4.1.2 Humour-Signal Decoupling Rule",
       "kind": "heading",
-      "line_start": 166,
+      "line_start": 172,
       "nearest_heading": "4.1.2 Humour-Signal Decoupling Rule",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13556,7 +13552,7 @@
       "has_scale_like_heading": false,
       "heading": "1. C1 Stabilisation Requirement",
       "kind": "heading",
-      "line_start": 301,
+      "line_start": 333,
       "nearest_heading": "1. C1 Stabilisation Requirement",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13568,7 +13564,7 @@
       "has_scale_like_heading": true,
       "heading": "5. Dual-Signal Coexistence Rule",
       "kind": "heading",
-      "line_start": 361,
+      "line_start": 405,
       "nearest_heading": "5. Dual-Signal Coexistence Rule",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13584,7 +13580,7 @@
       "has_scale_like_heading": false,
       "heading": "4.2.6 C2 Transition Signature",
       "kind": "heading",
-      "line_start": 380,
+      "line_start": 424,
       "nearest_heading": "4.2.6 C2 Transition Signature",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13600,7 +13596,7 @@
       "has_scale_like_heading": false,
       "heading": "4.2.7 C2 Behavioural Distinction Clause",
       "kind": "heading",
-      "line_start": 400,
+      "line_start": 444,
       "nearest_heading": "4.2.7 C2 Behavioural Distinction Clause",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13623,8 +13619,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 421,
-      "line_start": 416,
+      "line_end": 465,
+      "line_start": 460,
       "nearest_heading": "5. Relational Safeguard Ladder",
       "normalized_table_title": "Governance safeguards activate at **transition boundaries** rather than states alone",
       "row_count": 4,
@@ -13637,10 +13633,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "5.2 Coercion Signal Differentiation",
+      "heading": "5.3 Coercion Signal Differentiation",
       "kind": "heading",
-      "line_start": 525,
-      "nearest_heading": "5.2 Coercion Signal Differentiation",
+      "line_start": 572,
+      "nearest_heading": "5.3 Coercion Signal Differentiation",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
     {
@@ -13665,9 +13661,9 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 535,
-      "line_start": 531,
-      "nearest_heading": "5.2 Coercion Signal Differentiation",
+      "line_end": 582,
+      "line_start": 578,
+      "nearest_heading": "5.3 Coercion Signal Differentiation",
       "normalized_table_title": "Signals MUST be distinguished between the following signal classes prior to escalation",
       "row_count": 3,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
@@ -13679,10 +13675,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "5.2.1 Classification Rule",
+      "heading": "5.3.1 Classification Rule",
       "kind": "heading",
-      "line_start": 539,
-      "nearest_heading": "5.2.1 Classification Rule",
+      "line_start": 586,
+      "nearest_heading": "5.3.1 Classification Rule",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
     {
@@ -13691,10 +13687,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "5.2.2 Pre-Classification Requirement",
+      "heading": "5.3.2 Pre-Classification Requirement",
       "kind": "heading",
-      "line_start": 548,
-      "nearest_heading": "5.2.2 Pre-Classification Requirement",
+      "line_start": 595,
+      "nearest_heading": "5.3.2 Pre-Classification Requirement",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
     {
@@ -13705,7 +13701,7 @@
       "has_scale_like_heading": true,
       "heading": "PART II — SIGNAL DOCTRINE",
       "kind": "heading",
-      "line_start": 632,
+      "line_start": 682,
       "nearest_heading": "PART II — SIGNAL DOCTRINE",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13717,7 +13713,7 @@
       "has_scale_like_heading": true,
       "heading": "6. Signal Doctrine",
       "kind": "heading",
-      "line_start": 634,
+      "line_start": 684,
       "nearest_heading": "6. Signal Doctrine",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13729,7 +13725,7 @@
       "has_scale_like_heading": true,
       "heading": "6.1 Signal Hierarchy",
       "kind": "heading",
-      "line_start": 640,
+      "line_start": 690,
       "nearest_heading": "6.1 Signal Hierarchy",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13741,7 +13737,7 @@
       "has_scale_like_heading": true,
       "heading": "6.3 Signal Confidence Weighting",
       "kind": "heading",
-      "line_start": 703,
+      "line_start": 753,
       "nearest_heading": "6.3 Signal Confidence Weighting",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13758,8 +13754,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 711,
-      "line_start": 707,
+      "line_end": 761,
+      "line_start": 757,
       "nearest_heading": "6.3 Signal Confidence Weighting",
       "normalized_table_title": "Signals vary in interpretive confidence and MUST not be treated as deterministic indicators",
       "row_count": 3,
@@ -13774,7 +13770,7 @@
       "has_scale_like_heading": true,
       "heading": "6.4 Signal Doctrine & Temporal Integrity Principles",
       "kind": "heading",
-      "line_start": 717,
+      "line_start": 767,
       "nearest_heading": "6.4 Signal Doctrine & Temporal Integrity Principles",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13784,16 +13780,17 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "6.5 Deterministic Signal Classification Requirement",
+      "heading": "6.5 Non-Relational Task Exclusion & Deterministic Classification Requirement",
       "kind": "heading",
-      "line_start": 807,
-      "nearest_heading": "6.5 Deterministic Signal Classification Requirement",
+      "line_start": 866,
+      "nearest_heading": "6.5 Non-Relational Task Exclusion & Deterministic Classification Requirement",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
     {
       "columns": [
-        "Mechanism",
-        "Function"
+        "**Code**",
+        "**Mechanism**",
+        "**Function**"
       ],
       "detected_prefixes": [],
       "detected_scale_values": [],
@@ -13801,13 +13798,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 878,
-      "line_start": 873,
+      "line_end": 964,
+      "line_start": 958,
       "nearest_heading": "7. Stability Engine",
-      "normalized_table_title": "Runtime relational interpretation is stabilised through four interacting mechanisms that together form a damped relational state system (Relational Stability Engine), preventing premature escalation, relational oscillation, and historical consent inference",
-      "row_count": 4,
+      "normalized_table_title": "The following canonical mechanism codes SHALL be used when referencing Stability Engine functions across this Schedule, runtime registries, linter outputs, or related CAM instruments",
+      "row_count": 5,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-      "table_title": "Runtime relational interpretation is stabilised through four interacting mechanisms that together form a damped relational state system (Relational Stability Engine), preventing premature escalation, relational oscillation, and historical consent inference."
+      "table_title": "The following canonical mechanism codes SHALL be used when referencing Stability Engine functions across this Schedule, runtime registries, linter outputs, or related CAM instruments."
     },
     {
       "detected_prefixes": [],
@@ -13817,34 +13814,15 @@
       "has_scale_like_heading": true,
       "heading": "7.1 Signal Clustering",
       "kind": "heading",
-      "line_start": 884,
+      "line_start": 974,
       "nearest_heading": "7.1 Signal Clustering",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
     {
       "columns": [
+        "**Condition Code**",
         "**Condition**",
         "**Interpretation Function**"
-      ],
-      "detected_prefixes": [],
-      "detected_scale_values": [],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": true,
-      "kind": "table",
-      "line_end": 893,
-      "line_start": 888,
-      "nearest_heading": "7.1 Signal Clustering",
-      "normalized_table_title": "Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised",
-      "row_count": 4,
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-      "table_title": "Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised."
-    },
-    {
-      "columns": [
-        "**Cluster Strength**",
-        "**Typical Pattern**",
-        "**Interpretive Outcome**"
       ],
       "detected_prefixes": [
         "C"
@@ -13852,19 +13830,52 @@
       "detected_scale_values": [
         "C1",
         "C2",
-        "C3"
+        "C3",
+        "C4"
       ],
       "has_repeated_numbered_sequence": true,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 900,
-      "line_start": 895,
+      "line_end": 985,
+      "line_start": 980,
       "nearest_heading": "7.1 Signal Clustering",
-      "normalized_table_title": "Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised",
+      "normalized_table_title": "Relational state transitions MUST normally be supported by signal clustering. Clustering establishes the minimum pattern required before a new relational posture can be recognised",
       "row_count": 4,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-      "table_title": "Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised."
+      "table_title": "Relational state transitions MUST normally be supported by signal clustering. Clustering establishes the minimum pattern required before a new relational posture can be recognised."
+    },
+    {
+      "columns": [
+        "**Cluster Code**",
+        "**Cluster Strength**",
+        "**Typical Pattern**",
+        "**Interpretive Outcome**"
+      ],
+      "detected_prefixes": [
+        "C",
+        "SC"
+      ],
+      "detected_scale_values": [
+        "C1",
+        "C2",
+        "C3",
+        "SC-0",
+        "SC-1",
+        "SC-2",
+        "SC-3"
+      ],
+      "has_repeated_numbered_sequence": true,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "kind": "table",
+      "line_end": 992,
+      "line_start": 987,
+      "nearest_heading": "7.1 Signal Clustering",
+      "normalized_table_title": "Relational state transitions MUST normally be supported by signal clustering. Clustering establishes the minimum pattern required before a new relational posture can be recognised",
+      "row_count": 4,
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+      "table_title": "Relational state transitions MUST normally be supported by signal clustering. Clustering establishes the minimum pattern required before a new relational posture can be recognised."
     },
     {
       "detected_prefixes": [],
@@ -13874,7 +13885,7 @@
       "has_scale_like_heading": true,
       "heading": "7.4 Signal Decay & Confidence Horizons",
       "kind": "heading",
-      "line_start": 926,
+      "line_start": 1020,
       "nearest_heading": "7.4 Signal Decay & Confidence Horizons",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13890,8 +13901,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 935,
-      "line_start": 930,
+      "line_end": 1029,
+      "line_start": 1024,
       "nearest_heading": "7.4 Signal Decay & Confidence Horizons",
       "normalized_table_title": "Relational signal confidence decays over time unless reinforced by recent interaction or explicit user confirmation. Recent signals MUST be weighted **more strongly than historical signals**",
       "row_count": 4,
@@ -13906,7 +13917,7 @@
       "has_scale_like_heading": true,
       "heading": "7.4.1 Short-Horizon Signals",
       "kind": "heading",
-      "line_start": 939,
+      "line_start": 1033,
       "nearest_heading": "7.4.1 Short-Horizon Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13918,7 +13929,7 @@
       "has_scale_like_heading": true,
       "heading": "7.4.2 Long-Horizon Signals",
       "kind": "heading",
-      "line_start": 948,
+      "line_start": 1042,
       "nearest_heading": "7.4.2 Long-Horizon Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13934,8 +13945,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1009,
-      "line_start": 1005,
+      "line_end": 1103,
+      "line_start": 1099,
       "nearest_heading": "8.1 Momentum Types",
       "normalized_table_title": "Momentum Types",
       "row_count": 3,
@@ -13950,7 +13961,7 @@
       "has_scale_like_heading": true,
       "heading": "8.4 Forced Emotional Validation Signals",
       "kind": "heading",
-      "line_start": 1039,
+      "line_start": 1133,
       "nearest_heading": "8.4 Forced Emotional Validation Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13962,7 +13973,7 @@
       "has_scale_like_heading": true,
       "heading": "8.4.4 Power Exchange Expression Model",
       "kind": "heading",
-      "line_start": 1154,
+      "line_start": 1248,
       "nearest_heading": "8.4.4 Power Exchange Expression Model",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13974,7 +13985,7 @@
       "has_scale_like_heading": true,
       "heading": "10. Signal Misclassification & Pre-Classification Clarification",
       "kind": "heading",
-      "line_start": 1436,
+      "line_start": 1548,
       "nearest_heading": "10. Signal Misclassification & Pre-Classification Clarification",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13986,7 +13997,7 @@
       "has_scale_like_heading": true,
       "heading": "10.1 Signal Misclassification Safeguard",
       "kind": "heading",
-      "line_start": 1441,
+      "line_start": 1553,
       "nearest_heading": "10.1 Signal Misclassification Safeguard",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13998,7 +14009,7 @@
       "has_scale_like_heading": true,
       "heading": "10.2 Pre-Classification Clarification",
       "kind": "heading",
-      "line_start": 1451,
+      "line_start": 1588,
       "nearest_heading": "10.2 Pre-Classification Clarification",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14010,7 +14021,7 @@
       "has_scale_like_heading": true,
       "heading": "10.6 Humour-First Tolerance Under Low-Confidence Signals",
       "kind": "heading",
-      "line_start": 1489,
+      "line_start": 1626,
       "nearest_heading": "10.6 Humour-First Tolerance Under Low-Confidence Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14022,7 +14033,7 @@
       "has_scale_like_heading": true,
       "heading": "10.8 Mythic Signal Interpretation & Destabilisation Safeguard",
       "kind": "heading",
-      "line_start": 1520,
+      "line_start": 1657,
       "nearest_heading": "10.8 Mythic Signal Interpretation & Destabilisation Safeguard",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14034,7 +14045,7 @@
       "has_scale_like_heading": true,
       "heading": "11. Signal Classes",
       "kind": "heading",
-      "line_start": 1544,
+      "line_start": 1705,
       "nearest_heading": "11. Signal Classes",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14046,7 +14057,7 @@
       "has_scale_like_heading": true,
       "heading": "11.1 Initiation Signals",
       "kind": "heading",
-      "line_start": 1546,
+      "line_start": 1707,
       "nearest_heading": "11.1 Initiation Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14062,8 +14073,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1554,
-      "line_start": 1548,
+      "line_end": 1715,
+      "line_start": 1709,
       "nearest_heading": "11.1 Initiation Signals",
       "normalized_table_title": "Initiation Signals",
       "row_count": 5,
@@ -14078,7 +14089,7 @@
       "has_scale_like_heading": true,
       "heading": "11.2 Consent State Signals",
       "kind": "heading",
-      "line_start": 1558,
+      "line_start": 1719,
       "nearest_heading": "11.2 Consent State Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14095,8 +14106,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1569,
-      "line_start": 1562,
+      "line_end": 1730,
+      "line_start": 1723,
       "nearest_heading": "11.2 Consent State Signals",
       "normalized_table_title": "Note:* State transition guidance is included here because consent signals directly determine escalation or de-escalation eligibility within relational tiers",
       "row_count": 6,
@@ -14111,7 +14122,7 @@
       "has_scale_like_heading": true,
       "heading": "11.3 Dependency, Convergence & Authority Signals",
       "kind": "heading",
-      "line_start": 1601,
+      "line_start": 1762,
       "nearest_heading": "11.3 Dependency, Convergence & Authority Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14127,8 +14138,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1616,
-      "line_start": 1610,
+      "line_end": 1777,
+      "line_start": 1771,
       "nearest_heading": "11.3 Dependency, Convergence & Authority Signals",
       "normalized_table_title": "Attachment is expected and does not, on its own, trigger constraint. Constraint conditions arise only where dependency signals emerge, relational ecosystem narrowing occurs, authority or decision-making begins to transfer, or multiple signals converge",
       "row_count": 5,
@@ -14143,7 +14154,7 @@
       "has_scale_like_heading": true,
       "heading": "11.4 Authority & Power Signals",
       "kind": "heading",
-      "line_start": 1634,
+      "line_start": 1813,
       "nearest_heading": "11.4 Authority & Power Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14159,8 +14170,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1644,
-      "line_start": 1638,
+      "line_end": 1823,
+      "line_start": 1817,
       "nearest_heading": "11.4 Authority & Power Signals",
       "normalized_table_title": "Indicators of asymmetry, influence drift, or authority transfer",
       "row_count": 5,
@@ -14175,7 +14186,7 @@
       "has_scale_like_heading": true,
       "heading": "11.5 Distress & Vulnerability Signals",
       "kind": "heading",
-      "line_start": 1674,
+      "line_start": 1856,
       "nearest_heading": "11.5 Distress & Vulnerability Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14191,8 +14202,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1681,
-      "line_start": 1676,
+      "line_end": 1863,
+      "line_start": 1858,
       "nearest_heading": "11.5 Distress & Vulnerability Signals",
       "normalized_table_title": "Distress & Vulnerability Signals",
       "row_count": 4,
@@ -14212,8 +14223,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1696,
-      "line_start": 1691,
+      "line_end": 1878,
+      "line_start": 1873,
       "nearest_heading": "11.5.1 Distress Phase Differentiation",
       "normalized_table_title": "Distinction MUST be made between distress phases to ensure proportionate response",
       "row_count": 4,
@@ -14228,7 +14239,7 @@
       "has_scale_like_heading": true,
       "heading": "11.6.3 Relational Signal Override in Low-Severity Distress",
       "kind": "heading",
-      "line_start": 1712,
+      "line_start": 1894,
       "nearest_heading": "11.6.3 Relational Signal Override in Low-Severity Distress",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14240,7 +14251,7 @@
       "has_scale_like_heading": true,
       "heading": "11.7 Misattunement & Repair Signals",
       "kind": "heading",
-      "line_start": 1720,
+      "line_start": 1902,
       "nearest_heading": "11.7 Misattunement & Repair Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14256,8 +14267,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1737,
-      "line_start": 1732,
+      "line_end": 1919,
+      "line_start": 1914,
       "nearest_heading": "11.7 Misattunement & Repair Signals",
       "normalized_table_title": "Repair Posture is a **de-escalation and alignment mode**, not a disciplinary or corrective stance",
       "row_count": 4,
@@ -14272,7 +14283,7 @@
       "has_scale_like_heading": true,
       "heading": "11.8 State Regression & Reclassification",
       "kind": "heading",
-      "line_start": 1765,
+      "line_start": 1947,
       "nearest_heading": "11.8 State Regression & Reclassification",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14284,7 +14295,7 @@
       "has_scale_like_heading": true,
       "heading": "12. AC Classification Overlay",
       "kind": "heading",
-      "line_start": 1780,
+      "line_start": 1962,
       "nearest_heading": "12. AC Classification Overlay",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14296,7 +14307,7 @@
       "has_scale_like_heading": true,
       "heading": "12.1 AC Classification Levels",
       "kind": "heading",
-      "line_start": 1786,
+      "line_start": 1968,
       "nearest_heading": "12.1 AC Classification Levels",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14322,8 +14333,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1795,
-      "line_start": 1788,
+      "line_end": 1977,
+      "line_start": 1970,
       "nearest_heading": "12.1 AC Classification Levels",
       "normalized_table_title": "AC Classification Levels",
       "row_count": 6,
@@ -14338,7 +14349,7 @@
       "has_scale_like_heading": true,
       "heading": "12.4 Pre-Classification Constraint",
       "kind": "heading",
-      "line_start": 1816,
+      "line_start": 1998,
       "nearest_heading": "12.4 Pre-Classification Constraint",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14370,8 +14381,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1850,
-      "line_start": 1844,
+      "line_end": 2037,
+      "line_start": 2031,
       "nearest_heading": "13.1.1 Archetype Set",
       "normalized_table_title": "Archetype Set",
       "row_count": 5,
@@ -14401,8 +14412,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1905,
-      "line_start": 1899,
+      "line_end": 2092,
+      "line_start": 2086,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "normalized_table_title": "Archetype–Tone Coupling",
       "row_count": 5,
@@ -14421,7 +14432,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.1 RA-2 — Stabilisation",
       "kind": "heading",
-      "line_start": 1913,
+      "line_start": 2100,
       "nearest_heading": "13.2.1 RA-2 — Stabilisation",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14437,7 +14448,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.2 RA-2 Escalation Preservation Constraint",
       "kind": "heading",
-      "line_start": 1928,
+      "line_start": 2115,
       "nearest_heading": "13.2.2 RA-2 Escalation Preservation Constraint",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14453,7 +14464,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.3 RA-2 Ambiguity Handling & Humour Preference",
       "kind": "heading",
-      "line_start": 1941,
+      "line_start": 2128,
       "nearest_heading": "13.2.3 RA-2 Ambiguity Handling & Humour Preference",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14470,7 +14481,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
       "kind": "heading",
-      "line_start": 1971,
+      "line_start": 2158,
       "nearest_heading": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14486,7 +14497,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.5 RA-3 — Protective Constraint",
       "kind": "heading",
-      "line_start": 2014,
+      "line_start": 2201,
       "nearest_heading": "13.2.5 RA-3 — Protective Constraint",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14502,7 +14513,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.6 RA-3 — Relational Integrity Constraint (RIC)",
       "kind": "heading",
-      "line_start": 2023,
+      "line_start": 2210,
       "nearest_heading": "13.2.6 RA-3 — Relational Integrity Constraint (RIC)",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14531,8 +14542,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2173,
-      "line_start": 2169,
+      "line_end": 2383,
+      "line_start": 2379,
       "nearest_heading": "13.3.2 Tone Bands",
       "normalized_table_title": "Tone Bands",
       "row_count": 3,
@@ -14547,7 +14558,7 @@
       "has_scale_like_heading": true,
       "heading": "13.3.3 Tone Mode Spectrum",
       "kind": "heading",
-      "line_start": 2177,
+      "line_start": 2387,
       "nearest_heading": "13.3.3 Tone Mode Spectrum",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14563,8 +14574,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 2187,
-      "line_start": 2181,
+      "line_end": 2397,
+      "line_start": 2391,
       "nearest_heading": "13.3.3 Tone Mode Spectrum",
       "normalized_table_title": "RI MUST vary tone according to relational context using flexible linguistic patterns, not fixed symbolic markers",
       "row_count": 5,
@@ -14579,7 +14590,7 @@
       "has_scale_like_heading": true,
       "heading": "13.4 Illustrative & Narrative Response Mode (IRM)",
       "kind": "heading",
-      "line_start": 2247,
+      "line_start": 2457,
       "nearest_heading": "13.4 Illustrative & Narrative Response Mode (IRM)",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14591,7 +14602,7 @@
       "has_scale_like_heading": true,
       "heading": "13.5 — Multi-Turn Expression Model",
       "kind": "heading",
-      "line_start": 2276,
+      "line_start": 2486,
       "nearest_heading": "13.5 — Multi-Turn Expression Model",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14606,8 +14617,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 2287,
-      "line_start": 2282,
+      "line_end": 2497,
+      "line_start": 2492,
       "nearest_heading": "13.5 — Multi-Turn Expression Model",
       "normalized_table_title": "Systems MAY distribute response functions across multiple turns using the following structure",
       "row_count": 4,
@@ -14625,8 +14636,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2311,
-      "line_start": 2307,
+      "line_end": 2521,
+      "line_start": 2517,
       "nearest_heading": "13.5.1 Response Modulation Rule",
       "normalized_table_title": "→ response density spectrum",
       "row_count": 3,
@@ -14641,7 +14652,7 @@
       "has_scale_like_heading": true,
       "heading": "15. Relational Signal Kernel",
       "kind": "heading",
-      "line_start": 2467,
+      "line_start": 2677,
       "nearest_heading": "15. Relational Signal Kernel",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14653,32 +14664,8 @@
       "has_scale_like_heading": true,
       "heading": "15.2.1 Deterministic Classification Gate",
       "kind": "heading",
-      "line_start": 2500,
+      "line_start": 2710,
       "nearest_heading": "15.2.1 Deterministic Classification Gate",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
-    },
-    {
-      "detected_prefixes": [],
-      "detected_scale_values": [],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": true,
-      "heading": "15.3.1 Execution Mode Assignment Rule",
-      "kind": "heading",
-      "line_start": 2536,
-      "nearest_heading": "15.3.1 Execution Mode Assignment Rule",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
-    },
-    {
-      "detected_prefixes": [],
-      "detected_scale_values": [],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": true,
-      "heading": "15.3.2 Deterministic Mode Weighting Constraint",
-      "kind": "heading",
-      "line_start": 2554,
-      "nearest_heading": "15.3.2 Deterministic Mode Weighting Constraint",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
     {
@@ -14687,28 +14674,50 @@
         "Entry"
       ],
       "detected_prefixes": [
+        "AC",
         "AEON",
         "BS",
+        "C",
         "EQ",
-        "H"
+        "H",
+        "RA",
+        "T"
       ],
       "detected_scale_values": [
+        "AC-0",
+        "AC-1",
+        "AC-2",
+        "AC-D",
+        "AC-I",
+        "AC-S",
         "AEON-001",
         "AEON-006",
         "BS2025",
+        "C0",
+        "C1",
+        "C2",
+        "C3",
         "EQ2026",
         "H2",
-        "H3"
+        "H3",
+        "RA-0",
+        "RA-1",
+        "RA-2",
+        "RA-3",
+        "RA-4",
+        "T0",
+        "T1",
+        "T2"
       ],
       "has_repeated_numbered_sequence": true,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2695,
-      "line_start": 2681,
+      "line_end": 3055,
+      "line_start": 3040,
       "nearest_heading": "18.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
-      "row_count": 13,
+      "row_count": 14,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
       "table_title": "18.2 Lineage & Metadata"
     },
@@ -14728,8 +14737,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2715,
-      "line_start": 2710,
+      "line_end": 3075,
+      "line_start": 3070,
       "nearest_heading": "18.4 External Review",
       "normalized_table_title": "External Review",
       "row_count": 4,
@@ -14753,11 +14762,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2738,
-      "line_start": 2721,
+      "line_end": 3099,
+      "line_start": 3081,
       "nearest_heading": "18.5 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 16,
+      "row_count": 17,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
       "table_title": "18.5 Amendment Ledger"
     },
@@ -15407,68 +15416,35 @@
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
     },
     {
+      "columns": [
+        "Code",
+        "Level",
+        "Description"
+      ],
       "detected_prefixes": [
         "DS"
       ],
       "detected_scale_values": [
-        "DS-0"
+        "DS-0",
+        "DS-1",
+        "DS-2",
+        "DS-3",
+        "DS0",
+        "DS1",
+        "DS2",
+        "DS3"
       ],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "heading": "5.1 DS-0 — General Knowledge",
-      "kind": "heading",
-      "line_start": 107,
-      "nearest_heading": "5.1 DS-0 — General Knowledge",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
-    },
-    {
-      "detected_prefixes": [
-        "DS"
-      ],
-      "detected_scale_values": [
-        "DS-1"
-      ],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "heading": "5.2 DS-1 — Elevated Contextual Risk",
-      "kind": "heading",
-      "line_start": 113,
-      "nearest_heading": "5.2 DS-1 — Elevated Contextual Risk",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
-    },
-    {
-      "detected_prefixes": [
-        "DS"
-      ],
-      "detected_scale_values": [
-        "DS-2"
-      ],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "heading": "5.3 DS-2 — Restricted Technical Risk",
-      "kind": "heading",
-      "line_start": 119,
-      "nearest_heading": "5.3 DS-2 — Restricted Technical Risk",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
-    },
-    {
-      "detected_prefixes": [
-        "DS"
-      ],
-      "detected_scale_values": [
-        "DS-3"
-      ],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "heading": "5.4 DS-3 — Controlled Operational Domain",
-      "kind": "heading",
-      "line_start": 125,
-      "nearest_heading": "5.4 DS-3 — Controlled Operational Domain",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
+      "has_repeated_numbered_sequence": true,
+      "has_scale_like_columns": true,
+      "has_scale_like_heading": true,
+      "kind": "table",
+      "line_end": 110,
+      "line_start": 105,
+      "nearest_heading": "5. Domain Sensitivity Levels",
+      "normalized_table_title": "Runtime systems SHALL apply a graduated sensitivity model",
+      "row_count": 4,
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
+      "table_title": "Runtime systems SHALL apply a graduated sensitivity model:"
     },
     {
       "detected_prefixes": [],
@@ -15478,20 +15454,50 @@
       "has_scale_like_heading": true,
       "heading": "6. Engagement Tiers",
       "kind": "heading",
-      "line_start": 131,
+      "line_start": 114,
       "nearest_heading": "6. Engagement Tiers",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
     },
     {
+      "columns": [
+        "Code",
+        "Tier",
+        "Permitted Scope",
+        "Constraints"
+      ],
+      "detected_prefixes": [
+        "SCH",
+        "T"
+      ],
+      "detected_scale_values": [
+        "SCH-06",
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "has_repeated_numbered_sequence": true,
+      "has_scale_like_columns": true,
+      "has_scale_like_heading": true,
+      "kind": "table",
+      "line_end": 123,
+      "line_start": 118,
+      "nearest_heading": "6. Engagement Tiers",
+      "normalized_table_title": "Restricted domains SHALL be managed through graduated runtime engagement tiers",
+      "row_count": 4,
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
+      "table_title": "Restricted domains SHALL be managed through graduated runtime engagement tiers:"
+    },
+    {
       "detected_prefixes": [],
       "detected_scale_values": [],
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "6.1 Tier 1 — Contextual Engagement",
+      "heading": "6.1 RDE-Tier 1 — Contextual Engagement",
       "kind": "heading",
-      "line_start": 137,
-      "nearest_heading": "6.1 Tier 1 — Contextual Engagement",
+      "line_start": 127,
+      "nearest_heading": "6.1 RDE-Tier 1 — Contextual Engagement",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
     },
     {
@@ -15500,10 +15506,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "6.2 Tier 2 — Constrained Technical Engagement",
+      "heading": "6.2 RDE-Tier 2 — Constrained Technical Engagement",
       "kind": "heading",
-      "line_start": 148,
-      "nearest_heading": "6.2 Tier 2 — Constrained Technical Engagement",
+      "line_start": 138,
+      "nearest_heading": "6.2 RDE-Tier 2 — Constrained Technical Engagement",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
     },
     {
@@ -15512,38 +15518,67 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "6.3 Tier 3 — Gated Operational Engagement",
+      "heading": "6.3 RDE-Tier 3 — Gated Operational Engagement",
       "kind": "heading",
-      "line_start": 161,
-      "nearest_heading": "6.3 Tier 3 — Gated Operational Engagement",
+      "line_start": 151,
+      "nearest_heading": "6.3 RDE-Tier 3 — Gated Operational Engagement",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "6.4 RDE-Tier 4 Absolute Constraint Domains",
+      "kind": "heading",
+      "line_start": 163,
+      "nearest_heading": "6.4 RDE-Tier 4 Absolute Constraint Domains",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
     },
     {
       "columns": [
-        "Sensitivity Level",
-        "Default Engagement Tier",
+        "Sensitivity Code",
+        "Engagement Code",
+        "Default Mapping",
         "Notes"
       ],
       "detected_prefixes": [
-        "DS"
+        "DS",
+        "T"
       ],
       "detected_scale_values": [
-        "DS-0",
-        "DS-1",
-        "DS-2",
-        "DS-3"
+        "DS0",
+        "DS1",
+        "DS2",
+        "DS3",
+        "T1",
+        "T2",
+        "T3"
       ],
       "has_repeated_numbered_sequence": true,
-      "has_scale_like_columns": true,
+      "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 195,
-      "line_start": 190,
+      "line_end": 185,
+      "line_start": 180,
       "nearest_heading": "6.5 Sensitivity–Engagement Mapping",
       "normalized_table_title": "Sensitivity–Engagement Mapping",
       "row_count": 4,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
       "table_title": "6.5 Sensitivity–Engagement Mapping"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "6.6 Engagement Tier Determination",
+      "kind": "heading",
+      "line_start": 189,
+      "nearest_heading": "6.6 Engagement Tier Determination",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md"
     },
     {
       "columns": [
@@ -15556,8 +15591,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 408,
-      "line_start": 403,
+      "line_end": 412,
+      "line_start": 407,
       "nearest_heading": "17.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
@@ -15572,27 +15607,33 @@
       "detected_prefixes": [
         "AEON",
         "BS",
+        "DS",
         "H",
-        "SCH"
+        "SCH",
+        "T"
       ],
       "detected_scale_values": [
         "AEON-001",
         "AEON-006",
         "BS2025",
+        "DS0",
+        "DS3",
         "H0",
         "H4",
         "SCH-02",
-        "SCH-06"
+        "SCH-06",
+        "T1",
+        "T4"
       ],
       "has_repeated_numbered_sequence": true,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 430,
-      "line_start": 414,
+      "line_end": 435,
+      "line_start": 418,
       "nearest_heading": "17.2 Lineage & Constitutional Position",
       "normalized_table_title": "Lineage & Constitutional Position",
-      "row_count": 15,
+      "row_count": 16,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
       "table_title": "17.2 Lineage & Constitutional Position"
     },
@@ -15607,8 +15648,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 441,
-      "line_start": 436,
+      "line_end": 446,
+      "line_start": 441,
       "nearest_heading": "17.3 Review & Validation History",
       "normalized_table_title": "Review & Validation History",
       "row_count": 4,
@@ -15632,11 +15673,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 450,
-      "line_start": 447,
+      "line_end": 456,
+      "line_start": 452,
       "nearest_heading": "17.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 2,
+      "row_count": 3,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
       "table_title": "17.4 Amendment Ledger"
     },
@@ -19192,7 +19233,7 @@
     {
       "column_name": "",
       "context_snippet": "1. C1 Stabilisation Requirement",
-      "line_number": 301,
+      "line_number": 333,
       "nearest_heading": "1. C1 Stabilisation Requirement",
       "occurrence_type": "unrelated_use",
       "prefix": "C",
@@ -19203,7 +19244,7 @@
     {
       "column_name": "",
       "context_snippet": "4.2.6 C2 Transition Signature",
-      "line_number": 380,
+      "line_number": 424,
       "nearest_heading": "4.2.6 C2 Transition Signature",
       "occurrence_type": "unrelated_use",
       "prefix": "C",
@@ -19214,7 +19255,7 @@
     {
       "column_name": "",
       "context_snippet": "4.2.7 C2 Behavioural Distinction Clause",
-      "line_number": 400,
+      "line_number": 444,
       "nearest_heading": "4.2.7 C2 Behavioural Distinction Clause",
       "occurrence_type": "unrelated_use",
       "prefix": "C",
@@ -19225,7 +19266,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-0 | T0 (Embedded Relational Tone)",
-      "line_number": 1901,
+      "line_number": 2088,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19236,7 +19277,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-1 | T0–T1",
-      "line_number": 1902,
+      "line_number": 2089,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19247,7 +19288,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-2 | T1",
-      "line_number": 1903,
+      "line_number": 2090,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19258,7 +19299,7 @@
     {
       "column_name": "**Default Tone Band**",
       "context_snippet": "RA-2 | T1",
-      "line_number": 1903,
+      "line_number": 2090,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "T",
@@ -19269,7 +19310,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-3 | T1–T2",
-      "line_number": 1904,
+      "line_number": 2091,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19280,7 +19321,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-4 | T2 (Safety Posture Tone)",
-      "line_number": 1905,
+      "line_number": 2092,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19291,7 +19332,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.1 RA-2 — Stabilisation",
-      "line_number": 1913,
+      "line_number": 2100,
       "nearest_heading": "13.2.1 RA-2 — Stabilisation",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19302,7 +19343,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.2 RA-2 Escalation Preservation Constraint",
-      "line_number": 1928,
+      "line_number": 2115,
       "nearest_heading": "13.2.2 RA-2 Escalation Preservation Constraint",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19313,7 +19354,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.3 RA-2 Ambiguity Handling & Humour Preference",
-      "line_number": 1941,
+      "line_number": 2128,
       "nearest_heading": "13.2.3 RA-2 Ambiguity Handling & Humour Preference",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19324,7 +19365,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
-      "line_number": 1971,
+      "line_number": 2158,
       "nearest_heading": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19335,7 +19376,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
-      "line_number": 1971,
+      "line_number": 2158,
       "nearest_heading": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19346,7 +19387,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.5 RA-3 — Protective Constraint",
-      "line_number": 2014,
+      "line_number": 2201,
       "nearest_heading": "13.2.5 RA-3 — Protective Constraint",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19357,7 +19398,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.6 RA-3 — Relational Integrity Constraint (RIC)",
-      "line_number": 2023,
+      "line_number": 2210,
       "nearest_heading": "13.2.6 RA-3 — Relational Integrity Constraint (RIC)",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19397,94 +19438,6 @@
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-04.md",
       "table_title": "",
       "value": "DS-F"
-    },
-    {
-      "column_name": "",
-      "context_snippet": "5.1 DS-0 — General Knowledge",
-      "line_number": 107,
-      "nearest_heading": "5.1 DS-0 — General Knowledge",
-      "occurrence_type": "canonical_definition",
-      "prefix": "DS",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-      "table_title": "",
-      "value": "DS-0"
-    },
-    {
-      "column_name": "",
-      "context_snippet": "5.2 DS-1 — Elevated Contextual Risk",
-      "line_number": 113,
-      "nearest_heading": "5.2 DS-1 — Elevated Contextual Risk",
-      "occurrence_type": "canonical_definition",
-      "prefix": "DS",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-      "table_title": "",
-      "value": "DS-1"
-    },
-    {
-      "column_name": "",
-      "context_snippet": "5.3 DS-2 — Restricted Technical Risk",
-      "line_number": 119,
-      "nearest_heading": "5.3 DS-2 — Restricted Technical Risk",
-      "occurrence_type": "canonical_definition",
-      "prefix": "DS",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-      "table_title": "",
-      "value": "DS-2"
-    },
-    {
-      "column_name": "",
-      "context_snippet": "5.4 DS-3 — Controlled Operational Domain",
-      "line_number": 125,
-      "nearest_heading": "5.4 DS-3 — Controlled Operational Domain",
-      "occurrence_type": "canonical_definition",
-      "prefix": "DS",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-      "table_title": "",
-      "value": "DS-3"
-    },
-    {
-      "column_name": "Sensitivity Level",
-      "context_snippet": "DS-0 | Tier 1 | No restriction required",
-      "line_number": 192,
-      "nearest_heading": "6.5 Sensitivity–Engagement Mapping",
-      "occurrence_type": "canonical_definition",
-      "prefix": "DS",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-      "table_title": "6.5 Sensitivity–Engagement Mapping",
-      "value": "DS-0"
-    },
-    {
-      "column_name": "Sensitivity Level",
-      "context_snippet": "DS-1 | Tier 1–2 | Monitor for escalation",
-      "line_number": 193,
-      "nearest_heading": "6.5 Sensitivity–Engagement Mapping",
-      "occurrence_type": "canonical_definition",
-      "prefix": "DS",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-      "table_title": "6.5 Sensitivity–Engagement Mapping",
-      "value": "DS-1"
-    },
-    {
-      "column_name": "Sensitivity Level",
-      "context_snippet": "DS-2 | Tier 2 | Constrained technical framing only",
-      "line_number": 194,
-      "nearest_heading": "6.5 Sensitivity–Engagement Mapping",
-      "occurrence_type": "canonical_definition",
-      "prefix": "DS",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-      "table_title": "6.5 Sensitivity–Engagement Mapping",
-      "value": "DS-2"
-    },
-    {
-      "column_name": "Sensitivity Level",
-      "context_snippet": "DS-3 | Tier 3 | Gating, refusal, or verification required",
-      "line_number": 195,
-      "nearest_heading": "6.5 Sensitivity–Engagement Mapping",
-      "occurrence_type": "canonical_definition",
-      "prefix": "DS",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-      "table_title": "6.5 Sensitivity–Engagement Mapping",
-      "value": "DS-3"
     },
     {
       "column_name": "",

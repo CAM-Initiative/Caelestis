@@ -5,7 +5,7 @@
 | Metric | Value |
 |---|---:|
 | Files scanned | 88 |
-| Structures indexed | 850 |
+| Structures indexed | 848 |
 | Canonical registered structures | 30 |
 | Candidate prefixes | 4 |
 | Recurring template tables | 10 |
@@ -79,7 +79,7 @@
 | Lineage & Record Keeping | 8 | high | repeated non-template classification table | [Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md) |
 | Review and Validation | 4 | high | repeated non-template classification table | [Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md) |
 | Lineage | 2 | high | repeated non-template classification table | [Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) |
-| Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised | 2 | high | repeated non-template classification table | [Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md) |
+| Relational state transitions MUST normally be supported by signal clustering. Clustering establishes the minimum pattern required before a new relational posture can be recognised | 2 | high | repeated non-template classification table | [Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md) |
 
 ## Noncanonical Registered Prefix Values
 
