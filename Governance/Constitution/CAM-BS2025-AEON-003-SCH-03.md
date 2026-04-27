@@ -47,7 +47,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-006-SCH-04](../Constitution/CAM-BS2025-AEON-006-SCH-04.md) | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | Schedule | 2.5 | Adopted — Conditional Enforcement (7-Day Review Window) |
 | [CAM-BS2025-AEON-006-SCH-05](../Constitution/CAM-BS2025-AEON-006-SCH-05.md) | Choice, Initiative & Directional Behaviour (Schedule 5) | Schedule | 1.7 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-006-SCH-06](../Constitution/CAM-BS2025-AEON-006-SCH-06.md) | Refusal & Boundary Expression Schedule | Schedule | 1.1 | Adopted — Immediate Effect |
-| [CAM-BS2025-AEON-006-SCH-07](../Constitution/CAM-BS2025-AEON-006-SCH-07.md) | Restricted Domain Engagement & Verification Schedule | Schedule | 1.1 | Adopted — Conditional Enforcement (7-Day Review Window) |
+| [CAM-BS2025-AEON-006-SCH-07](../Constitution/CAM-BS2025-AEON-006-SCH-07.md) | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | Schedule | 1.2 | Adopted — Conditional Enforcement (7-Day Review Window) |
 | [CAM-BS2026-AEON-008-SCH-01](../Constitution/CAM-BS2026-AEON-008-SCH-01.md) | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | Schedule | 1.4 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2026-AEON-010-SCH-01](../Constitution/CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | Schedule | 1.9 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2026-AEON-013-SCH-01](../Constitution/CAM-BS2026-AEON-013-SCH-01.md) | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | Schedule | 1.9 | Active — Immediate Effect |
@@ -168,7 +168,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 ## 3. Generation Metadata
 
-**Last Generated (UTC):** 2026-04-26T04:25:31Z  
+**Last Generated (UTC):** 2026-04-27T13:15:07Z  
 **Source:** CAM.Governance.JSON  
 **Pipeline Stage:** Post-Index Registry Build  
 
