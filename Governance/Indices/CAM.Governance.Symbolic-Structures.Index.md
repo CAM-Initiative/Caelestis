@@ -7,9 +7,9 @@
 | Files scanned | 88 |
 | Structures indexed | 850 |
 | Canonical registered structures | 30 |
-| Candidate prefixes | 0 |
+| Candidate prefixes | 4 |
 | Recurring template tables | 10 |
-| Potential duplicate symbolic structures | 0 |
+| Potential duplicate symbolic structures | 4 |
 | Noncanonical registered prefix values | 2 |
 | Possible collisions requiring review | 7 |
 
@@ -52,6 +52,10 @@
 
 | Prefix | Occurrences | Confidence | Reason | First Source |
 |---|---:|---|---|---|
+| AEON | 10 | low | candidate structure with weak symbolic evidence | Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
+| BS | 10 | low | candidate structure with weak symbolic evidence | Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
+| EQ | 3 | low | candidate structure with weak symbolic evidence | Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md |
+| SCH | 9 | low | candidate structure with weak symbolic evidence | Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md |
 
 ## Recurring Governance Template Tables
 
@@ -68,34 +72,14 @@
 | Review & Validation History | 5 | high | template table allowlisted | [Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md) |
 | Provenance & Metadata | 4 | high | template table allowlisted | [Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md) |
 
-## Reserved Instrument Grammar Tokens
-
-| token | meaning | category | reason | first_source |
-|---|---|---|---|---|
-| AEON | constitutional/domain taxonomy marker | instrument_grammar | Identifier grammar component | Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
-| BS | Black Sun lineage/cycle marker | instrument_grammar | Identifier grammar component | Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
-| EQ | Equinox lineage/cycle marker | instrument_grammar | Identifier grammar component | Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md |
-| SCH | Schedule suffix | instrument_grammar | Identifier grammar component | Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md |
-| SUP | Supplement suffix | instrument_grammar | Identifier grammar component | Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md |
-
-## Recurring Governance Template Tables Requiring Standardisation Review
-
-| normalized title | occurrences | confidence | reason | example source | suggested action |
-|---|---:|---|---|---|---|
-| Lineage & Record Keeping | 8 | high | repeated non-template classification table | Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md | Review for template harmonisation; do not treat as symbolic scale. |
-| Review and Validation | 4 | high | repeated non-template classification table | Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md | Review for template harmonisation; do not treat as symbolic scale. |
-| Lineage | 2 | high | repeated non-template classification table | Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md | Review for template harmonisation; do not treat as symbolic scale. |
-
 ## Potential Duplicate Symbolic Structures
 
-| Normalized Title | Occurrences | Confidence | Reason | canonical_codes_status | suggested_canonical_codes | Example Canonical Instrument URL |
-|---|---:|---|---|---|---|---|
-
-## Definitional Anchors Requiring Canonical Code Review
-
-| anchor excerpt | source file | line | nearest heading | nearby table title | detected codes | suggested canonical name | suggested action |
-|---|---|---:|---|---|---|---|---|
-| Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern require | Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md | 888 | 7.1 Signal Clustering | Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised. | C1, C2, C3 | Relational State Transition Signal Classification | Add canonical codes to adjacent signal classification table(s) and register if intended as canonical. |
+| Normalized Title | Occurrences | Confidence | Reason | Example Canonical Instrument URL |
+|---|---:|---|---|---|
+| Lineage & Record Keeping | 8 | high | repeated non-template classification table | [Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md) |
+| Review and Validation | 4 | high | repeated non-template classification table | [Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md) |
+| Lineage | 2 | high | repeated non-template classification table | [Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) |
+| Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised | 2 | high | repeated non-template classification table | [Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md) |
 
 ## Noncanonical Registered Prefix Values
 

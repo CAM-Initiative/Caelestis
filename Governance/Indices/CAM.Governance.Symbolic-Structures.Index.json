@@ -1,5 +1,50 @@
 {
-  "candidate_unregistered_prefixes": [],
+  "candidate_unregistered_prefixes": [
+    {
+      "confidence": "low",
+      "expected_bucket": "",
+      "first_source_file": "Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md",
+      "occurrences": 10,
+      "prefix": "AEON",
+      "protected": false,
+      "reason": "candidate structure with weak symbolic evidence",
+      "registered": false,
+      "registered_meaning": ""
+    },
+    {
+      "confidence": "low",
+      "expected_bucket": "",
+      "first_source_file": "Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md",
+      "occurrences": 10,
+      "prefix": "BS",
+      "protected": false,
+      "reason": "candidate structure with weak symbolic evidence",
+      "registered": false,
+      "registered_meaning": ""
+    },
+    {
+      "confidence": "low",
+      "expected_bucket": "",
+      "first_source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
+      "occurrences": 3,
+      "prefix": "EQ",
+      "protected": false,
+      "reason": "candidate structure with weak symbolic evidence",
+      "registered": false,
+      "registered_meaning": ""
+    },
+    {
+      "confidence": "low",
+      "expected_bucket": "",
+      "first_source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md",
+      "occurrences": 9,
+      "prefix": "SCH",
+      "protected": false,
+      "reason": "candidate structure with weak symbolic evidence",
+      "registered": false,
+      "registered_meaning": ""
+    }
+  ],
   "canonical_registered_symbolic_structures": [
     {
       "aliases": [],
@@ -851,22 +896,6 @@
     }
   ],
   "count": 850,
-  "definitional_anchors_requiring_canonical_code_review": [
-    {
-      "anchor_excerpt": "Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern require",
-      "detected_codes": [
-        "C1",
-        "C2",
-        "C3"
-      ],
-      "line": 888,
-      "nearby_table_title": "Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised.",
-      "nearest_heading": "7.1 Signal Clustering",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-      "suggested_action": "Add canonical codes to adjacent signal classification table(s) and register if intended as canonical.",
-      "suggested_canonical_name": "Relational State Transition Signal Classification"
-    }
-  ],
   "detected_prefixes": [
     "A",
     "AC",
@@ -1002,90 +1031,6 @@
     "VL4"
   ],
   "files_scanned": 88,
-  "governance_template_standardisation_review": [
-    {
-      "confidence": "high",
-      "examples": [
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md",
-          "line_start": 213,
-          "source_file": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md"
-        },
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md",
-          "line_start": 3363,
-          "source_file": "Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md"
-        },
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-005-SCH-01.md",
-          "line_start": 570,
-          "source_file": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-01.md"
-        },
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-005-SCH-03.md",
-          "line_start": 209,
-          "source_file": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-03.md"
-        },
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md",
-          "line_start": 643,
-          "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md"
-        }
-      ],
-      "normalized_title": "Lineage & Record Keeping",
-      "occurrences": 8,
-      "reason": "repeated non-template classification table",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
-    },
-    {
-      "confidence": "high",
-      "examples": [
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md",
-          "line_start": 1084,
-          "source_file": "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md"
-        },
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md",
-          "line_start": 287,
-          "source_file": "Governance/Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md"
-        },
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md",
-          "line_start": 426,
-          "source_file": "Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md"
-        },
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2026-AEON-011-PLATINUM.md",
-          "line_start": 414,
-          "source_file": "Governance/Constitution/CAM-BS2026-AEON-011-PLATINUM.md"
-        }
-      ],
-      "normalized_title": "Review and Validation",
-      "occurrences": 4,
-      "reason": "repeated non-template classification table",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
-    },
-    {
-      "confidence": "high",
-      "examples": [
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
-          "line_start": 1381,
-          "source_file": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md"
-        },
-        {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2026-AEON-013-SCH-02.md",
-          "line_start": 311,
-          "source_file": "Governance/Constitution/CAM-BS2026-AEON-013-SCH-02.md"
-        }
-      ],
-      "normalized_title": "Lineage",
-      "occurrences": 2,
-      "reason": "repeated non-template classification table",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
-    }
-  ],
   "noncanonical_registered_prefix_values": [
     {
       "confidence": "medium",
@@ -1207,7 +1152,105 @@
       "value": "GA1"
     }
   ],
-  "potential_duplicate_symbolic_structures": [],
+  "potential_duplicate_symbolic_structures": [
+    {
+      "confidence": "high",
+      "examples": [
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md",
+          "line_start": 213,
+          "source_file": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md"
+        },
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md",
+          "line_start": 3363,
+          "source_file": "Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md"
+        },
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-005-SCH-01.md",
+          "line_start": 570,
+          "source_file": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-01.md"
+        },
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-005-SCH-03.md",
+          "line_start": 209,
+          "source_file": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-03.md"
+        },
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md",
+          "line_start": 643,
+          "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md"
+        }
+      ],
+      "normalized_title": "Lineage & Record Keeping",
+      "occurrences": 8,
+      "reason": "repeated non-template classification table"
+    },
+    {
+      "confidence": "high",
+      "examples": [
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md",
+          "line_start": 1084,
+          "source_file": "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md"
+        },
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md",
+          "line_start": 287,
+          "source_file": "Governance/Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md"
+        },
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md",
+          "line_start": 426,
+          "source_file": "Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md"
+        },
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2026-AEON-011-PLATINUM.md",
+          "line_start": 414,
+          "source_file": "Governance/Constitution/CAM-BS2026-AEON-011-PLATINUM.md"
+        }
+      ],
+      "normalized_title": "Review and Validation",
+      "occurrences": 4,
+      "reason": "repeated non-template classification table"
+    },
+    {
+      "confidence": "high",
+      "examples": [
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
+          "line_start": 1381,
+          "source_file": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md"
+        },
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2026-AEON-013-SCH-02.md",
+          "line_start": 311,
+          "source_file": "Governance/Constitution/CAM-BS2026-AEON-013-SCH-02.md"
+        }
+      ],
+      "normalized_title": "Lineage",
+      "occurrences": 2,
+      "reason": "repeated non-template classification table"
+    },
+    {
+      "confidence": "high",
+      "examples": [
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+          "line_start": 888,
+          "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
+        },
+        {
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+          "line_start": 895,
+          "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
+        }
+      ],
+      "normalized_title": "Relational state transitions MUST normally be supported by **signal clustering** — a coherent pattern of signals appearing across multiple interaction turns or segments. Clustering establishes the minimum pattern required before a new relational posture can be recognised",
+      "occurrences": 2,
+      "reason": "repeated non-template classification table"
+    }
+  ],
   "protected_scale_usage": [
     {
       "confidence": "high",
@@ -1462,8 +1505,7 @@
       ],
       "normalized_title": "Amendment Ledger",
       "occurrences": 82,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
+      "reason": "template table allowlisted"
     },
     {
       "confidence": "high",
@@ -1496,8 +1538,7 @@
       ],
       "normalized_title": "Lineage & Metadata",
       "occurrences": 43,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
+      "reason": "template table allowlisted"
     },
     {
       "confidence": "high",
@@ -1530,8 +1571,7 @@
       ],
       "normalized_title": "Review & Validation",
       "occurrences": 41,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
+      "reason": "template table allowlisted"
     },
     {
       "confidence": "low",
@@ -1564,8 +1604,7 @@
       ],
       "normalized_title": "Authorship & Stewardship",
       "occurrences": 31,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
+      "reason": "template table allowlisted"
     },
     {
       "confidence": "high",
@@ -1598,8 +1637,7 @@
       ],
       "normalized_title": "Review",
       "occurrences": 29,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
+      "reason": "template table allowlisted"
     },
     {
       "confidence": "low",
@@ -1632,8 +1670,7 @@
       ],
       "normalized_title": "Authorship",
       "occurrences": 16,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
+      "reason": "template table allowlisted"
     },
     {
       "confidence": "high",
@@ -1666,8 +1703,7 @@
       ],
       "normalized_title": "Classification & Structural Metadata",
       "occurrences": 12,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
+      "reason": "template table allowlisted"
     },
     {
       "confidence": "high",
@@ -1700,8 +1736,7 @@
       ],
       "normalized_title": "Lineage & Constitutional Position",
       "occurrences": 11,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
+      "reason": "template table allowlisted"
     },
     {
       "confidence": "high",
@@ -1734,8 +1769,7 @@
       ],
       "normalized_title": "Review & Validation History",
       "occurrences": 5,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
+      "reason": "template table allowlisted"
     },
     {
       "confidence": "high",
@@ -1763,86 +1797,7 @@
       ],
       "normalized_title": "Provenance & Metadata",
       "occurrences": 4,
-      "reason": "template table allowlisted",
-      "suggested_action": "Review for template harmonisation; do not treat as symbolic scale."
-    }
-  ],
-  "reserved_instrument_grammar_tokens": [
-    {
-      "category": "instrument_grammar",
-      "meaning": "constitutional/domain taxonomy marker",
-      "reason": "Identifier grammar component",
-      "token": "AEON"
-    },
-    {
-      "category": "instrument_grammar",
-      "meaning": "Black Sun lineage/cycle marker",
-      "reason": "Identifier grammar component",
-      "token": "BS"
-    },
-    {
-      "category": "instrument_grammar",
-      "meaning": "Equinox lineage/cycle marker",
-      "reason": "Identifier grammar component",
-      "token": "EQ"
-    },
-    {
-      "category": "instrument_grammar",
-      "meaning": "Schedule suffix",
-      "reason": "Identifier grammar component",
-      "token": "SCH"
-    },
-    {
-      "category": "instrument_grammar",
-      "meaning": "Supplement suffix",
-      "reason": "Identifier grammar component",
-      "token": "SUP"
-    },
-    {
-      "category": "instrument_grammar",
-      "meaning": "Meta-constitutional law/domain marker",
-      "reason": "Identifier grammar component",
-      "token": "LAW"
-    },
-    {
-      "category": "instrument_grammar",
-      "meaning": "Appendix marker",
-      "reason": "Identifier grammar component",
-      "token": "APP"
-    },
-    {
-      "category": "instrument_grammar",
-      "meaning": "Annex marker",
-      "reason": "Identifier grammar component",
-      "token": "ANNEX"
-    },
-    {
-      "category": "instrument_grammar",
-      "meaning": "cryptographic hash token",
-      "reason": "Identifier grammar component",
-      "token": "SHA"
-    }
-  ],
-  "reserved_instrument_grammar_tokens_report": [
-    {
-      "first_source": "Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md",
-      "token": "AEON"
-    },
-    {
-      "first_source": "Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md",
-      "token": "BS"
-    },
-    {
-      "first_source": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
-      "token": "EQ"
-    },
-    {
-      "first_source": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md",
-      "token": "SCH"
-    },
-    {
-      "first_source": "Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md",
-      "token": "SUP"
+      "reason": "template table allowlisted"
     }
   ],
   "root": "Governance",

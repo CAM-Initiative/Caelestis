@@ -80,11 +80,6 @@ def canonical_maps(registry: dict) -> tuple[dict[str, dict], dict[str, set[str]]
     return by_prefix, allowed
 
 
-
-
-def reserved_tokens(registry: dict) -> set[str]:
-    return {r.get("token", "") for r in registry.get("reserved_instrument_grammar_tokens", []) if r.get("token")}
-
 def classify_occurrence(occ: dict, canonical: dict, allowed_values: set[str]) -> str:
     value = occ["value"]
     context = occ["context_snippet"].lower()
@@ -233,19 +228,15 @@ def parse_file(path: Path, registry: dict) -> tuple[list[dict], list[dict]]:
     return structures, occurrences
 
 
-def build_prefix_summary(structures: list[dict], occurrences: list[dict], registry: dict) -> tuple[list[dict], list[dict], list[dict]]:
+def build_prefix_summary(structures: list[dict], occurrences: list[dict], registry: dict) -> tuple[list[dict], list[dict]]:
     canonical_by_prefix, allowed = canonical_maps(registry)
     protected = set(registry.get("protected_prefixes", {}).keys())
-    reserved = reserved_tokens(registry)
     by_prefix = defaultdict(list)
     for occ in occurrences:
         by_prefix[occ["prefix"]].append(occ)
 
-    registered_rows, candidate_rows, reserved_rows = [], [], []
+    registered_rows, candidate_rows = [], []
     for prefix, items in sorted(by_prefix.items()):
-        if prefix in reserved:
-            reserved_rows.append({"token": prefix, "first_source": min(i["source_file"] for i in items)})
-            continue
         registered = prefix in canonical_by_prefix
         allowed_match = any(o["value"] in allowed.get(prefix, set()) for o in items)
         row = {
@@ -264,18 +255,17 @@ def build_prefix_summary(structures: list[dict], occurrences: list[dict], regist
         else:
             if row["occurrences"] >= 3:
                 candidate_rows.append(row)
-    return registered_rows, candidate_rows, sorted(reserved_rows, key=lambda r:r["token"])
+    return registered_rows, candidate_rows
 
 
-def analyze_tables(structures: list[dict], registry: dict) -> tuple[list[dict], list[dict], list[dict], list[dict]]:
+def analyze_tables(structures: list[dict], registry: dict) -> tuple[list[dict], list[dict]]:
     allowlist = {normalize_for_compare(x) for x in registry.get("recurring_template_allowlist", [])}
-    apparatus_titles = {"lineage & record keeping", "review and validation", "lineage"}
     groups = defaultdict(list)
-    tables = [s for s in structures if s.get("kind") == "table"]
-    for s in tables:
-        groups[normalize_for_compare(s.get("normalized_table_title", ""))].append(s)
+    for s in structures:
+        if s.get("kind") == "table":
+            groups[normalize_for_compare(s.get("normalized_table_title", ""))].append(s)
 
-    recurring, dupes, apparatus, anchors = [], [], [], []
+    recurring, dupes = [], []
     for norm, rows in sorted(groups.items()):
         if not norm:
             continue
@@ -285,35 +275,14 @@ def analyze_tables(structures: list[dict], registry: dict) -> tuple[list[dict], 
             "confidence": "high" if any(r.get("detected_scale_values") for r in rows) else "low",
             "reason": "template table allowlisted" if norm in allowlist else "repeated non-template classification table",
             "examples": [{"source_file": r["source_file"], "line_start": r["line_start"], "canonical_url": BASE_CANONICAL_URL + r["source_file"]} for r in rows[:5]],
-            "suggested_action": "Review for template harmonisation; do not treat as symbolic scale.",
         }
         if norm in allowlist:
             recurring.append(entry)
-        elif norm in apparatus_titles:
-            apparatus.append(entry)
-        elif "relational state transitions must normally be supported" in norm:
-            src = rows[0]["source_file"]
-            line = rows[0]["line_start"]
-            nearby = [t for t in tables if t["source_file"] == src and t["line_start"] > line and t["line_start"] <= line + 120]
-            nearby_title = nearby[0]["table_title"] if nearby else ""
-            detected = sorted({v for n in nearby for v in n.get("detected_scale_values", [])})
-            anchors.append({
-                "anchor_excerpt": rows[0].get("table_title", "")[:220],
-                "source_file": src,
-                "line": line,
-                "nearest_heading": rows[0].get("nearest_heading", ""),
-                "nearby_table_title": nearby_title,
-                "detected_codes": detected,
-                "suggested_canonical_name": "Relational State Transition Signal Classification",
-                "suggested_action": "Add canonical codes to adjacent signal classification table(s) and register if intended as canonical.",
-            })
         elif len(rows) > 1 and any(r.get("detected_scale_values") for r in rows):
             dupes.append(entry)
-
     recurring.sort(key=lambda x: (-x["occurrences"], x["normalized_title"].lower()))
     dupes.sort(key=lambda x: (-x["occurrences"], x["normalized_title"].lower()))
-    apparatus.sort(key=lambda x: (-x["occurrences"], x["normalized_title"].lower()))
-    return recurring, dupes, apparatus, anchors
+    return recurring, dupes
 
 
 def build_noncanonical_and_collisions(occurrences: list[dict], registry: dict) -> tuple[list[dict], list[dict]]:
@@ -360,26 +329,6 @@ def build_noncanonical_and_collisions(occurrences: list[dict], registry: dict) -
     return noncanonical_rows, collision_rows
 
 
-
-
-def build_candidate_structures_with_codes(dupes: list[dict], registry: dict) -> list[dict]:
-    canonical_by_prefix, allowed = canonical_maps(registry)
-    out=[]
-    for d in dupes:
-        codes=[]
-        for ex in d.get("examples", []):
-            pass
-        # derive status from confidence and known code presence
-        detected=[]
-        for ex in d.get("examples", []):
-            # no direct values in summary examples
-            continue
-        status="not_applicable"
-        if d.get("confidence") == "high":
-            status="missing"
-        out.append({**d, "canonical_codes_status": status, "suggested_canonical_codes": detected})
-    return out
-
 def render_report(payload: dict) -> str:
     lines = [
         "# CAM Governance Symbolic Structures (Human Readable Index)",
@@ -414,25 +363,10 @@ def render_report(payload: dict) -> str:
         ex = r["examples"][0] if r["examples"] else {"source_file": "", "canonical_url": ""}
         lines.append(f"| {r['normalized_title']} | {r['occurrences']} | {r['confidence']} | {r['reason']} | [{ex['source_file']}]({ex['canonical_url']}) |")
 
-    lines += ["", "## Reserved Instrument Grammar Tokens", "", "| token | meaning | category | reason | first_source |", "|---|---|---|---|---|"]
-    meanings = {r["token"]: r for r in payload.get("reserved_instrument_grammar_tokens", [])}
-    for r in payload.get("reserved_instrument_grammar_tokens_report", []):
-        m = meanings.get(r["token"], {})
-        lines.append(f"| {r['token']} | {m.get('meaning','')} | {m.get('category','')} | {m.get('reason','')} | {r.get('first_source','')} |")
-
-    lines += ["", "## Recurring Governance Template Tables Requiring Standardisation Review", "", "| normalized title | occurrences | confidence | reason | example source | suggested action |", "|---|---:|---|---|---|---|"]
-    for r in payload.get("governance_template_standardisation_review", []):
-        ex = r["examples"][0] if r["examples"] else {"source_file":""}
-        lines.append(f"| {r['normalized_title']} | {r['occurrences']} | {r['confidence']} | {r['reason']} | {ex['source_file']} | {r['suggested_action']} |")
-
-    lines += ["", "## Potential Duplicate Symbolic Structures", "", "| Normalized Title | Occurrences | Confidence | Reason | canonical_codes_status | suggested_canonical_codes | Example Canonical Instrument URL |", "|---|---:|---|---|---|---|---|"]
+    lines += ["", "## Potential Duplicate Symbolic Structures", "", "| Normalized Title | Occurrences | Confidence | Reason | Example Canonical Instrument URL |", "|---|---:|---|---|---|"]
     for r in payload["potential_duplicate_symbolic_structures"]:
         ex = r["examples"][0] if r["examples"] else {"source_file": "", "canonical_url": ""}
-        lines.append(f"| {r['normalized_title']} | {r['occurrences']} | {r['confidence']} | {r['reason']} | {r.get('canonical_codes_status','not_applicable')} | {', '.join(r.get('suggested_canonical_codes', []))} | [{ex['source_file']}]({ex['canonical_url']}) |")
-
-    lines += ["", "## Definitional Anchors Requiring Canonical Code Review", "", "| anchor excerpt | source file | line | nearest heading | nearby table title | detected codes | suggested canonical name | suggested action |", "|---|---|---:|---|---|---|---|---|"]
-    for a in payload.get("definitional_anchors_requiring_canonical_code_review", []):
-        lines.append(f"| {a['anchor_excerpt']} | {a['source_file']} | {a['line']} | {a['nearest_heading']} | {a['nearby_table_title']} | {', '.join(a.get('detected_codes', []))} | {a['suggested_canonical_name']} | {a['suggested_action']} |")
+        lines.append(f"| {r['normalized_title']} | {r['occurrences']} | {r['confidence']} | {r['reason']} | [{ex['source_file']}]({ex['canonical_url']}) |")
 
     lines += ["", "## Noncanonical Registered Prefix Values", "", "| Value | Prefix | Severity | Reason | Source File | Line | Nearest Heading | Context | Occurrences |", "|---|---|---|---|---|---:|---|---|---:|"]
     for r in payload["noncanonical_registered_prefix_values"]:
@@ -459,9 +393,8 @@ def build_index() -> dict:
     structures.sort(key=lambda s: (s.get("source_file", ""), s.get("line_start", 0), s.get("kind", "")))
     occurrences.sort(key=lambda o: (o["source_file"], o["line_number"], o["value"], o["occurrence_type"]))
 
-    registered_usage, candidates, reserved_report = build_prefix_summary(structures, occurrences, registry)
-    recurring, dupes, apparatus, anchors = analyze_tables(structures, registry)
-    dupes = build_candidate_structures_with_codes(dupes, registry)
+    registered_usage, candidates = build_prefix_summary(structures, occurrences, registry)
+    recurring, dupes = analyze_tables(structures, registry)
     noncanonical, collisions = build_noncanonical_and_collisions(occurrences, registry)
 
     payload = {
@@ -474,11 +407,7 @@ def build_index() -> dict:
         "canonical_registered_symbolic_structures": registry.get("canonical_registered_structures", []),
         "protected_scale_usage": registered_usage,
         "candidate_unregistered_prefixes": candidates,
-        "reserved_instrument_grammar_tokens": registry.get("reserved_instrument_grammar_tokens", []),
-        "reserved_instrument_grammar_tokens_report": reserved_report,
         "recurring_governance_template_tables": recurring,
-        "governance_template_standardisation_review": apparatus,
-        "definitional_anchors_requiring_canonical_code_review": anchors,
         "potential_duplicate_symbolic_structures": dupes,
         "noncanonical_registered_prefix_values": noncanonical,
         "possible_collisions_requiring_review": collisions,

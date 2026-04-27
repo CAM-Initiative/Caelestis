@@ -160,7 +160,7 @@ This ensures that all governance influence remains:
 <!-- SCH-01:RUNTIME_REGISTRY:START -->
 | Instrument ID | Instrument Name | Domain | Governance Layer | Runtime Layer |
 |---------------|----------------|--------|------------------|----------------|
-| CAM-BS2025-AEON-006-SCH-07 | Restricted Domain Engagement & Verification Schedule | AEON | Conditional | Conditional (Restricted Domain Engagement Gate) |
+| CAM-BS2025-AEON-006-SCH-07 | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | AEON | Conditional | Conditional (Restricted Domain Engagement Gate) |
 | CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | AEON | Continuous | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
 | CAM-BS2025-AEON-006-SCH-06 | Refusal & Boundary Expression Schedule | AEON | Conditional (Triggered on Refusal / Constraint) | Continuous (Boundary Expression) |
 | CAM-BS2025-AEON-006-SCH-01 | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | ETHICS | Continuous | Continuous (Constraint Enforcement) |
@@ -181,7 +181,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2026-AEON-013-SCH-02 | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | AEON | Continuous (background constraint presence) | UNBOUND |
 
-**Generation:** Deterministic (timestamp omitted)
+**Last Generated (UTC):** 2026-04-27T13:15:06Z
 **Source:** CAM.Governance.JSON
 **Pipeline Stage:** Runtime Registry Build
 <!-- SCH-01:RUNTIME_REGISTRY:END -->
