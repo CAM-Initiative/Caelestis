@@ -233,7 +233,7 @@ def update_last_ledger_hash_cell(
     if not fix:
         return full_text, stored_hash, False, mismatch
 
-    should_write = is_empty or is_placeholder
+    should_write = is_empty or is_placeholder or mismatch
     if not should_write:
         return full_text, stored_hash, False, mismatch
 
@@ -242,6 +242,38 @@ def update_last_ledger_hash_cell(
     lines[last_idx] = replace_last_table_cell(last_line, computed_hash)
     updated_text = "".join(lines)
     return updated_text, stored_hash, updated_text != full_text, mismatch
+
+
+def evaluate_hash_state(
+    *,
+    path: str,
+    stored_hash: str | None,
+    mismatch: bool,
+    strict: bool,
+    failures: list[str],
+    warnings: list[str],
+) -> None:
+    if stored_hash is None:
+        return
+    if stored_hash in PLACEHOLDER_HASHES:
+        failures.append(f"{path}: Last Amendment Ledger hash must be empty or computed SHA-256, not placeholder")
+        return
+    if (stored_hash or "").strip() == "":
+        msg = (
+            f"{path}: Latest Amendment Ledger hash is empty. This is allowed before the hash fixer runs; "
+            "run with --fix to populate the computed SHA-256. Strict validation will fail if this remains blank "
+            "after the fixer stage."
+        )
+        if strict:
+            failures.append(msg)
+        else:
+            warnings.append(msg)
+        return
+    if mismatch:
+        if strict:
+            failures.append(f"{path}: Latest Amendment Ledger hash does not match computed content SHA-256")
+        else:
+            warnings.append(f"{path}: Existing last-row Amendment Ledger hash does not match computed content hash")
 
 
 def has_malformed_ledger_row(full_text: str) -> bool:
@@ -283,7 +315,7 @@ def has_malformed_ledger_row(full_text: str) -> bool:
     return False
 
 
-def lint_all(*, fix: bool = False) -> int:
+def lint_all(*, fix: bool = False, strict: bool = False) -> int:
     failures: list[str] = []
     warnings: list[str] = []
     fixed_files: list[str] = []
@@ -310,12 +342,15 @@ def lint_all(*, fix: bool = False) -> int:
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
 
-        if (stored_hash is not None) and (stored_hash in PLACEHOLDER_HASHES) and (not fix):
-            failures.append(f"{path}: Last Amendment Ledger hash must be empty or computed SHA-256, not placeholder")
-        if (stored_hash is not None) and ((stored_hash or "").strip() == "") and not fix:
-            failures.append(f"{path}: Last Amendment Ledger hash is empty; run with --fix to populate computed SHA-256")
-        if mismatch and not fix:
-            warnings.append(f"{path}: Existing last-row Amendment Ledger hash does not match computed content hash")
+        if not fix:
+            evaluate_hash_state(
+                path=path,
+                stored_hash=stored_hash,
+                mismatch=mismatch,
+                strict=strict,
+                failures=failures,
+                warnings=warnings,
+            )
 
     for warning in warnings:
         print(f"WARNING: {warning}")
@@ -373,7 +408,7 @@ def append_amendment_ledger_entry(
     return "".join(lines), True
 
 
-def lint(base: str, head: str, *, fix: bool = False, staged: bool = False) -> int:
+def lint(base: str, head: str, *, fix: bool = False, staged: bool = False, strict: bool = False) -> int:
     failures: list[str] = []
     warnings: list[str] = []
     fixed_files: list[str] = []
@@ -421,12 +456,15 @@ def lint(base: str, head: str, *, fix: bool = False, staged: bool = False) -> in
             after = updated_text
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
-        if (stored_hash is not None) and (stored_hash in PLACEHOLDER_HASHES) and (not fix):
-            failures.append(f"{path}: Last Amendment Ledger hash must be empty or computed SHA-256, not placeholder")
-        if (stored_hash is not None) and ((stored_hash or "").strip() == "") and not fix:
-            failures.append(f"{path}: Last Amendment Ledger hash is empty; run with --fix to populate computed SHA-256")
-        if mismatch and not fix:
-            warnings.append(f"{path}: Existing last-row Amendment Ledger hash does not match computed content hash")
+        if not fix:
+            evaluate_hash_state(
+                path=path,
+                stored_hash=stored_hash,
+                mismatch=mismatch,
+                strict=strict,
+                failures=failures,
+                warnings=warnings,
+            )
 
         if before_ledger == after_ledger:
             failures.append(path)
@@ -479,6 +517,11 @@ def main() -> int:
     parser.add_argument("--head", default="HEAD")
     parser.add_argument("--fix", action="store_true", help="Populate/fix last Amendment Ledger SHA-256 hash in modified files")
     parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="Treat empty/mismatched latest Amendment Ledger SHA-256 as hard failures (post-fixer validation mode).",
+    )
+    parser.add_argument(
         "--staged",
         action="store_true",
         help="Process staged changes (index) against HEAD; useful for pre-commit hooks",
@@ -490,13 +533,13 @@ def main() -> int:
     )
     args = parser.parse_args()
     if args.all:
-        return lint_all(fix=args.fix)
+        return lint_all(fix=args.fix, strict=args.strict)
     base = args.base
     head = args.head
     if args.staged:
         base = "HEAD"
         head = ":"
-    return lint(base, head, fix=args.fix, staged=args.staged)
+    return lint(base, head, fix=args.fix, staged=args.staged, strict=args.strict)
 
 
 if __name__ == "__main__":
