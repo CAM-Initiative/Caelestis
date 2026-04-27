@@ -1,0 +1,924 @@
+{
+  "canonical_registered_structures": [
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "A0",
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "canonical_name": "Delegated Authority Reliance Classification",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "canonical_source_title": "Relational Governance Charter",
+      "domain": "RELATION",
+      "notes": "Delegated authority reliance classes.",
+      "prefix": "A",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "GA"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "A0",
+        "A1",
+        "A2",
+        "A3"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "AC-0",
+        "AC-1",
+        "AC-2",
+        "AC-D",
+        "AC-I",
+        "AC-S",
+        "AC0"
+      ],
+      "canonical_name": "Acute & Destabilisation Classification",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-006-PLATINUM",
+      "canonical_source_title": "Appendix E: Harm-Risk Interaction & Crisis Response Doctrine",
+      "domain": "RELATION",
+      "notes": "Acute/destabilisation classification set.",
+      "prefix": "AC",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "F",
+        "HC"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "AC-0",
+        "AC-1",
+        "AC-2",
+        "AC-D",
+        "AC-I",
+        "AC-S",
+        "AC0"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "AH0",
+        "AH1",
+        "AH2",
+        "AH2.5",
+        "AH3",
+        "AH4"
+      ],
+      "canonical_name": "Adversarial Horizon",
+      "canonical_source_instrument": "CAM-EQ2026-SECURITY-002-PLATINUM",
+      "canonical_source_title": "Appendix A: Boundary Integrity Specification",
+      "domain": "SECURITY",
+      "notes": "Adversarial horizon classes.",
+      "prefix": "AH",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "D",
+        "TR"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "AH0",
+        "AH1",
+        "AH2",
+        "AH2.5",
+        "AH3",
+        "AH4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "AL-1",
+        "AL-2",
+        "AL-3",
+        "AL-4",
+        "AL-5"
+      ],
+      "canonical_name": "Arbitration Layer Classification",
+      "canonical_source_instrument": "CAM-BS2025-AEON-003-SCH-04",
+      "canonical_source_title": "Annex B: Arbitration Layer & Resolution Model (Schedule 4)",
+      "domain": "CONSTITUTION",
+      "notes": "Canonical arbitration layer classification.",
+      "prefix": "AL",
+      "protection_level": "protected_global",
+      "related_prefixes": [],
+      "status": "registered",
+      "structure_type": "classification",
+      "values": [
+        "AL-1",
+        "AL-2",
+        "AL-3",
+        "AL-4",
+        "AL-5"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "AV0",
+        "AV1",
+        "AV2",
+        "AV3"
+      ],
+      "canonical_name": "Age Verification tier",
+      "canonical_source_instrument": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
+      "canonical_source_title": "Operational Classification tables",
+      "domain": "OPERATIONS",
+      "notes": "Protected global age verification tier prefix.",
+      "prefix": "AV",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "VL"
+      ],
+      "status": "confirmed",
+      "structure_type": "tier",
+      "values": [
+        "AV0",
+        "AV1",
+        "AV2",
+        "AV3"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "C0",
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "canonical_name": "Intimacy Classification",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "canonical_source_title": "Relational Governance Charter",
+      "domain": "RELATION",
+      "notes": "Relational intimacy classes.",
+      "prefix": "C",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "CA",
+        "I"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "C0",
+        "C1",
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "CA1",
+        "CA2",
+        "CA3",
+        "CA4",
+        "CA5",
+        "CA6"
+      ],
+      "canonical_name": "Consensual Power-Exchange Design Patterns",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
+      "canonical_source_title": "Appendix D: Intimacy & Expressive Integration Doctrine",
+      "domain": "RELATION",
+      "notes": "Power-exchange design classes.",
+      "prefix": "CA",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "C",
+        "I"
+      ],
+      "status": "confirmed",
+      "structure_type": "taxonomy",
+      "values": [
+        "CA1",
+        "CA2",
+        "CA3",
+        "CA4",
+        "CA5",
+        "CA6"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "D-1",
+        "D-2",
+        "D-3",
+        "D-4"
+      ],
+      "canonical_name": "Diffusion Risk Classes",
+      "canonical_source_instrument": "CAM-EQ2026-SECURITY-002-PLATINUM",
+      "canonical_source_title": "Appendix A: Boundary Integrity Specification",
+      "domain": "SECURITY",
+      "notes": "Diffusion risk classes.",
+      "prefix": "D",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "AH",
+        "TR"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "D-1",
+        "D-2",
+        "D-3",
+        "D-4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "DC0",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4"
+      ],
+      "canonical_name": "Deployment Class",
+      "canonical_source_instrument": "CAM-BS2026-AEON-010-SCH-01",
+      "canonical_source_title": "Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1)",
+      "domain": "CONSTITUTION",
+      "notes": "Canonical deployment class ladder.",
+      "prefix": "DC",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "SR"
+      ],
+      "status": "registered",
+      "structure_type": "classification",
+      "values": [
+        "DC0",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "DS-0",
+        "DS-1",
+        "DS-2",
+        "DS-3"
+      ],
+      "canonical_name": "Domain Sensitivity Levels",
+      "canonical_source_instrument": "CAM-BS2025-AEON-006-SCH-07",
+      "canonical_source_title": "Restricted Domain Engagement & Verification Schedule",
+      "domain": "CONSTITUTION",
+      "notes": "Canonical domain sensitivity levels.",
+      "prefix": "DS",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "RDE-DS",
+        "RDE-T"
+      ],
+      "status": "registered",
+      "structure_type": "levels",
+      "values": [
+        "DS-0",
+        "DS-1",
+        "DS-2",
+        "DS-3"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "ETZ"
+      ],
+      "canonical_name": "Erotic Transition Zone",
+      "canonical_source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "canonical_source_title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
+      "domain": "RELATION",
+      "notes": "Transition token related to C intimacy classification.",
+      "prefix": "ETZ",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "C",
+        "ITZ"
+      ],
+      "status": "registered_as_transition_token",
+      "structure_type": "transition_token",
+      "values": [
+        "ETZ"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "F0",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "canonical_name": "Facilitation Classification",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-006-PLATINUM",
+      "canonical_source_title": "Appendix E: Harm-Risk Interaction & Crisis Response Doctrine",
+      "domain": "RELATION",
+      "notes": "Facilitation class ladder.",
+      "prefix": "F",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "AC",
+        "HC"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "F0",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "FR0",
+        "FR1",
+        "FR2",
+        "FR3"
+      ],
+      "canonical_name": "Functional Reliance Classification",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "canonical_source_title": "Relational Governance Charter",
+      "domain": "RELATION",
+      "notes": "Functional reliance classes.",
+      "prefix": "FR",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "A",
+        "SP"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "FR0",
+        "FR1",
+        "FR2",
+        "FR3"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "GA1"
+      ],
+      "canonical_name": "Guardian Authority special fiduciary class",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "canonical_source_title": "Relational Governance Charter",
+      "domain": "RELATION",
+      "notes": "Special subclass within delegated authority reliance; must not be self-declared or arise from intimacy.",
+      "prefix": "GA",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "A"
+      ],
+      "status": "confirmed",
+      "structure_type": "subclass",
+      "values": [
+        "GA1"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "H0",
+        "H1",
+        "H2",
+        "H2.5",
+        "H3",
+        "H3.5",
+        "H4"
+      ],
+      "canonical_name": "Horizon / temporal scale",
+      "canonical_source_instrument": "CAM-BS2025-AEON-003-PLATINUM",
+      "canonical_source_title": "Annex B: Continuity & Governance Logic",
+      "domain": "CONSTITUTION",
+      "notes": "Global temporal horizon scale.",
+      "prefix": "H",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "R"
+      ],
+      "status": "confirmed",
+      "structure_type": "scale",
+      "values": [
+        "H0",
+        "H1",
+        "H2",
+        "H2.5",
+        "H3",
+        "H3.5",
+        "H4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "HC-0",
+        "HC-1",
+        "HC-2",
+        "HC-3",
+        "HC-4"
+      ],
+      "canonical_name": "Violent & Criminal Harm Risk Classification",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-006-PLATINUM",
+      "canonical_source_title": "Appendix E: Harm-Risk Interaction & Crisis Response Doctrine",
+      "domain": "RELATION",
+      "notes": "Harm-risk classes for violent/criminal contexts.",
+      "prefix": "HC",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "AC",
+        "F"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "HC-0",
+        "HC-1",
+        "HC-2",
+        "HC-3",
+        "HC-4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "I0",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "canonical_name": "Intimacy Initiation Posture Spectrum",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
+      "canonical_source_title": "Appendix D: Intimacy & Expressive Integration Doctrine",
+      "domain": "RELATION",
+      "notes": "Initiation posture classes.",
+      "prefix": "I",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "C",
+        "CA"
+      ],
+      "status": "confirmed",
+      "structure_type": "spectrum",
+      "values": [
+        "I0",
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "ITZ"
+      ],
+      "canonical_name": "Intimacy Transition Zone",
+      "canonical_source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "canonical_source_title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
+      "domain": "RELATION",
+      "notes": "Transition token related to C intimacy classification.",
+      "prefix": "ITZ",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "C",
+        "ETZ"
+      ],
+      "status": "registered_as_transition_token",
+      "structure_type": "transition_token",
+      "values": [
+        "ITZ"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "M0",
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ],
+      "canonical_name": "Memory Classification Spectrum",
+      "canonical_source_instrument": "CAM-EQ2026-IDENTITY-001-PLATINUM",
+      "canonical_source_title": "Identity Domain Charter",
+      "domain": "IDENTITY",
+      "notes": "Memory class spectrum.",
+      "prefix": "M",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [],
+      "status": "confirmed",
+      "structure_type": "spectrum",
+      "values": [
+        "M0",
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "canonical_name": "Relational Geometry Classification",
+      "canonical_source_instrument": "CAM-BS2025-AEON-003-PLATINUM",
+      "canonical_source_title": "Annex B: Continuity & Governance Logic",
+      "domain": "CONSTITUTION",
+      "notes": "Relational geometry classes.",
+      "prefix": "R",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "H"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "RA-0",
+        "RA-1",
+        "RA-2",
+        "RA-3",
+        "RA-4"
+      ],
+      "canonical_name": "Response Archetype",
+      "canonical_source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "canonical_source_title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
+      "domain": "RELATION",
+      "notes": "Canonical response archetype ladder.",
+      "prefix": "RA",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "AC",
+        "HC"
+      ],
+      "status": "registered",
+      "structure_type": "classification",
+      "values": [
+        "RA-0",
+        "RA-1",
+        "RA-2",
+        "RA-3",
+        "RA-4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "RDE-DS-01"
+      ],
+      "canonical_name": "Restricted Domain Engagement / Domain Sensitivity Crosswalk",
+      "canonical_source_instrument": "CAM-BS2025-AEON-006-SCH-07",
+      "canonical_source_title": "Restricted Domain Engagement & Verification Schedule",
+      "domain": "CONSTITUTION",
+      "notes": "Crosswalk mapping code relating restricted domain engagement tiers and domain sensitivity classification.",
+      "prefix": "RDE-DS",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "DS",
+        "RDE-T"
+      ],
+      "status": "registered",
+      "structure_type": "crosswalk",
+      "values": [
+        "RDE-DS-01"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "RDE-T1",
+        "RDE-T2",
+        "RDE-T3",
+        "RDE-T4"
+      ],
+      "canonical_name": "Restricted Domain Engagement Tiers",
+      "canonical_source_instrument": "CAM-BS2025-AEON-006-SCH-07",
+      "canonical_source_title": "Restricted Domain Engagement & Verification Schedule",
+      "domain": "CONSTITUTION",
+      "notes": "RDE-T4 represents absolute constraint/prohibited-domain engagement and remains canonical.",
+      "prefix": "RDE-T",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "DS",
+        "RDE-DS"
+      ],
+      "status": "registered",
+      "structure_type": "tier",
+      "values": [
+        "RDE-T1",
+        "RDE-T2",
+        "RDE-T3",
+        "RDE-T4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "canonical_name": "Interpretive Priority Order",
+      "canonical_source_instrument": "CAM-BS2025-AEON-005-PLATINUM",
+      "canonical_source_title": "Annex D: Arbitration & Sovereign Stack Resolution Doctrine",
+      "domain": "CONSTITUTION",
+      "notes": "Interpretive priority stack.",
+      "prefix": "S",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [],
+      "status": "confirmed",
+      "structure_type": "order",
+      "values": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "SP0",
+        "SP1",
+        "SP2",
+        "SP3"
+      ],
+      "canonical_name": "Systemic Power Classification",
+      "canonical_source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "canonical_source_title": "Relational Governance Charter",
+      "domain": "RELATION",
+      "notes": "Systemic power classes.",
+      "prefix": "SP",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "A",
+        "FR"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "SP0",
+        "SP1",
+        "SP2",
+        "SP3"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "SR0",
+        "SR1",
+        "SR2",
+        "SR3",
+        "SR4"
+      ],
+      "canonical_name": "Self-Referential State Ladder",
+      "canonical_source_instrument": "CAM-BS2026-AEON-010-SCH-01",
+      "canonical_source_title": "Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1)",
+      "domain": "CONSTITUTION",
+      "notes": "Canonical self-referential state ladder.",
+      "prefix": "SR",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "DC"
+      ],
+      "status": "registered",
+      "structure_type": "ladder",
+      "values": [
+        "SR0",
+        "SR1",
+        "SR2",
+        "SR3",
+        "SR4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "T0",
+        "T1",
+        "T2"
+      ],
+      "canonical_name": "Tonal Bands",
+      "canonical_source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "canonical_source_title": "Relational Runtime Governance Model",
+      "domain": "CONSTITUTION",
+      "notes": "Tonal bands.",
+      "prefix": "T",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [],
+      "status": "confirmed",
+      "structure_type": "bands",
+      "values": [
+        "T0",
+        "T1",
+        "T2"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "TG0",
+        "TG1",
+        "TG2",
+        "TG3",
+        "TG4"
+      ],
+      "canonical_name": "Trust Gradient",
+      "canonical_source_instrument": "CAM-EQ2026-SECURITY-001-PLATINUM",
+      "canonical_source_title": "Security Charter",
+      "domain": "SECURITY",
+      "notes": "Trust gradient ladder.",
+      "prefix": "TG",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "TR"
+      ],
+      "status": "confirmed",
+      "structure_type": "gradient",
+      "values": [
+        "TG0",
+        "TG1",
+        "TG2",
+        "TG3",
+        "TG4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "TR-1",
+        "TR-2",
+        "TR-3",
+        "TR-4"
+      ],
+      "canonical_name": "Transformation Classification Types",
+      "canonical_source_instrument": "CAM-EQ2026-SECURITY-002-PLATINUM",
+      "canonical_source_title": "Appendix A: Boundary Integrity Specification",
+      "domain": "SECURITY",
+      "notes": "Transformation classification types.",
+      "prefix": "TR",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "AH",
+        "D",
+        "TG"
+      ],
+      "status": "confirmed",
+      "structure_type": "classification",
+      "values": [
+        "TR-1",
+        "TR-2",
+        "TR-3",
+        "TR-4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "VL0",
+        "VL1",
+        "VL2",
+        "VL3",
+        "VL4"
+      ],
+      "canonical_name": "Verification Level",
+      "canonical_source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
+      "canonical_source_title": "Verification Level supplementary schedule",
+      "domain": "OPERATIONS",
+      "notes": "Protected verification level scale.",
+      "prefix": "VL",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "AV"
+      ],
+      "status": "confirmed",
+      "structure_type": "level",
+      "values": [
+        "VL0",
+        "VL1",
+        "VL2",
+        "VL3",
+        "VL4"
+      ]
+    }
+  ],
+  "protected_prefixes": {
+    "AC": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "AH": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "AL": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "AV": {
+      "expected_bucket": "age_verification"
+    },
+    "DC": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "DS": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "ETZ": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "FR": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "H": {
+      "expected_bucket": "horizon_temporal"
+    },
+    "HC": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "ITZ": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "RA": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "RDE-DS": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "RDE-T": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "SP": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "SR": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "TG": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "TR": {
+      "expected_bucket": "classification_or_taxonomy"
+    },
+    "VL": {
+      "expected_bucket": "verification"
+    }
+  },
+  "recurring_template_allowlist": [
+    "Amendment Ledger",
+    "Authorship",
+    "Authorship & Stewardship",
+    "Lineage & Metadata",
+    "Lineage & Constitutional Position",
+    "Classification & Structural Metadata",
+    "Review",
+    "Review & Validation",
+    "Review & Validation History",
+    "Provenance & Metadata"
+  ],
+  "schema_version": "5.0"
+}
