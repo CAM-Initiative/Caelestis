@@ -1,5 +1,4 @@
 {
-  "generated_at": "2026-04-27T13:48:47.753737Z",
   "count": 33,
   "items": [
     {
@@ -118,9 +117,9 @@
       "status": "Active — Immediate Effect",
       "version": "Unknown",
       "HASH": "bce082f3eb6627389b0fca54bda6c9fa7cfd805ed835f9619f32b0cf83dd3f92",
-      "pinned_sha": "152d24ace00458fc0846196c73e3d40c9c6e1046",
-      "updated_at": "2026-04-27T13:15:07Z",
-      "last_updated_utc": "2026-04-27T13:15:07Z"
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": ""
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -158,9 +157,9 @@
       "status": "Adopted",
       "version": "Unknown",
       "HASH": "de242eda88a6e124478a08955f58cea58c0ad98b7f7fde919256ce4c67e55830",
-      "pinned_sha": "152d24ace00458fc0846196c73e3d40c9c6e1046",
-      "updated_at": "2026-04-27T13:15:07Z",
-      "last_updated_utc": "2026-04-27T13:15:07Z"
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": ""
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -336,8 +335,8 @@
       "title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "3.6",
-      "HASH": "cefc5311f99d87443319f721d33b655021cdbce1aa611a2c7e8667740fa499d5",
+      "version": "3.7",
+      "HASH": "f81c2d48f89344ef7812f7ee1b9487be8e562e17631ab31b299a056ad2ee17c7",
       "pinned_sha": "",
       "updated_at": "",
       "last_updated_utc": ""
@@ -438,9 +437,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.2",
       "HASH": "a59d6a7f54a26392f636246c589f6ad0bd83bf16cebc3973f97ec0a2d69452f1",
-      "pinned_sha": "b839a225a630b5641bd610ecdd295b7ddeaa9809",
-      "updated_at": "2026-04-27T13:14:44Z",
-      "last_updated_utc": "2026-04-27T13:14:44Z"
+      "pinned_sha": "",
+      "updated_at": "",
+      "last_updated_utc": ""
     },
     {
       "id": "CAM-BS2026-AEON-007",
