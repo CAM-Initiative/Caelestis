@@ -3,15 +3,19 @@ name: Lint Amendment Ledger
 on:
   pull_request:
     paths:
-      - "Governance/Constitution/**/*.md"
-      - "Governance/Charters/**/*.md"
+      - "Governance/**/*.md"
+      - "Governance/Indices/*.json"
       - ".github/scripts/lint_amendment_ledger.py"
+      - ".github/scripts/build-symbolic-structures-index.py"
+      - ".github/scripts/lint-symbolic-structures.py"
   push:
     branches: [ main ]
     paths:
-      - "Governance/Constitution/**/*.md"
-      - "Governance/Charters/**/*.md"
+      - "Governance/**/*.md"
+      - "Governance/Indices/*.json"
       - ".github/scripts/lint_amendment_ledger.py"
+      - ".github/scripts/build-symbolic-structures-index.py"
+      - ".github/scripts/lint-symbolic-structures.py"
 
 jobs:
   lint:
@@ -28,6 +32,30 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      - name: Build symbolic structures index
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python .github/scripts/build-symbolic-structures-index.py
+
+      - name: Lint symbolic structures
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python .github/scripts/lint-symbolic-structures.py
+
+      - name: Ensure symbolic structures index is up to date
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if ! git diff --exit-code -- Governance/Indices/CAM.Governance.Symbolic-Structures.Index.json; then
+            echo "Symbolic structures index is stale. Run: python .github/scripts/build-symbolic-structures-index.py"
+            exit 1
+          fi
 
       - name: Resolve ledger comparison SHAs
         shell: bash
