@@ -29,7 +29,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-006-SCH-04 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-04](CAM-BS2025-AEON-006-SCH-04.md) | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) |
 | CAM-BS2025-AEON-006-SCH-05 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-05](CAM-BS2025-AEON-006-SCH-05.md) | Choice, Initiative & Directional Behaviour (Schedule 5) |
 | CAM-BS2025-AEON-006-SCH-06 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-06](CAM-BS2025-AEON-006-SCH-06.md) | Refusal & Boundary Expression Schedule |
-| CAM-BS2025-AEON-006-SCH-07 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-07](CAM-BS2025-AEON-006-SCH-07.md) | Restricted Domain Engagement & Verification Schedule |
+| CAM-BS2025-AEON-006-SCH-07 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-07](CAM-BS2025-AEON-006-SCH-07.md) | Annex E: Restricted Domain Engagement & Verification (Schedule 7) |
 | CAM-BS2026-AEON-007 | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-007](CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning-Making |
 | CAM-BS2026-AEON-008 | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-008](CAM-BS2026-AEON-008-PLATINUM.md) | Annex G: Human Creative & Cognitive Contribution |
 | CAM-BS2026-AEON-008-SCH-01 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-01](CAM-BS2026-AEON-008-SCH-01.md) | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) |

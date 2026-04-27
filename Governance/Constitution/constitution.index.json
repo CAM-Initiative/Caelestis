@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T04:26:12.623737Z",
+  "generated_at": "2026-04-27T13:14:54.998119Z",
   "count": 33,
   "items": [
     {
@@ -433,14 +433,14 @@
       "parent_id": "CAM-BS2025-AEON-006",
       "seal": null,
       "link": "CAM-BS2025-AEON-006-SCH-07.md",
-      "title": "Restricted Domain Engagement & Verification Schedule",
-      "summary": "Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases.",
+      "title": "Annex E: Restricted Domain Engagement & Verification (Schedule 7)",
+      "summary": "The system MAY provide:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "1.1",
-      "HASH": "9fdbedb352a8ad2b605e9c850536ee60b7080f1fb30cf09cb76973a514d2656b",
-      "pinned_sha": "5a5a20729fd69444a1169f301776c5f616a7071b",
-      "updated_at": "2026-04-25T15:25:21Z",
-      "last_updated_utc": "2026-04-25T15:25:21Z"
+      "version": "1.2",
+      "HASH": "a59d6a7f54a26392f636246c589f6ad0bd83bf16cebc3973f97ec0a2d69452f1",
+      "pinned_sha": "b839a225a630b5641bd610ecdd295b7ddeaa9809",
+      "updated_at": "2026-04-27T13:14:44Z",
+      "last_updated_utc": "2026-04-27T13:14:44Z"
     },
     {
       "id": "CAM-BS2026-AEON-007",
