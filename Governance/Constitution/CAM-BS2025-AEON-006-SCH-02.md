@@ -3046,6 +3046,7 @@ let dignity remain the constant star.
 | Jurisdiction | Dyadic → Polyadic Relational Contexts |
 | Temporal Horizon | H2–H3 (Operational → Institutional) |
 | Axis Context | Consent Integrity / Relational Signalling / Authority Containment |
+| Canonical Code | C0; C1; C2; C3; ITZ; ETZ; RA-0; RA-1; RA-2; RA-3; RA-4; T0; T1; T2; AC-0; AC-1; AC-2; AC-S; AC-D; AC-I |
 | Cross-Domain Interfaces | RELATION-001; RELATION-002; RELATION-003; RELATION-004; RELATION-005; ETHICS Domain |
 | Compliance Interface | CAM-EQ2026-OPERATIONS-004-PLATINUM — Operational Compliance & Regulatory Interface |
 | Activation Trigger | Activated when relational interaction signals require consent interpretation or escalation eligibility assessment under RELATION governance instruments |
