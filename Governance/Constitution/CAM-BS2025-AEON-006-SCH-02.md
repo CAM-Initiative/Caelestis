@@ -3096,7 +3096,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 336b0434ff9aee4ee6c2da6b089743efeb6a5a2d2a937872f64b9b466481d21c |
 | 3.5 | Added section 6.5, amended Section 15 (Relational Signal Kernel): added §15.2.1 (Deterministic Classification Gate), replaced kernel loop (§15.3) to include execution mode assignment, and inserted §§15.3.1–15.3.3 (Deterministic Mode rules: assignment, weighting constraint, non-degradation); updated §15.4 for classification-bound interpretation; cross-referenced §6.5 deterministic task classification | 2026-04-19T13:15:00Z | 73d07ebb1dd8ee743951edc865eed501f1cf5a92710cbe559731e30f14b4d31a |
 | 3.6 | Clarified relational state and ITZ posture language to preserve pre-classification ordering constraints | 2026-04-19T16:30:00Z | d66c21bc4ff726d22c14289946aa275d450f7e53691304dc3f72d1e39b6a757e |
-| 3.7 | Added deterministic-priority execution clauses, stream-based kernel loop refinements, and normalized missing section breaks. | 2026-04-27T12:00:00Z |  |
+| 3.7 | Added deterministic-priority execution clauses, stream-based kernel loop refinements, and normalized missing section breaks. | 2026-04-27T12:00:00Z | a4262895087a09521c08d8d0e07b818000b18a22f88a7f631136b9051ed57ffe |
 
 ---
 
