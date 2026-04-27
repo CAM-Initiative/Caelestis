@@ -7,7 +7,6 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
 import json
 import re
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -95,11 +94,8 @@ def load_items() -> list[dict]:
 
 
 def render_md(items: list[dict]) -> str:
-    generated = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     out: list[str] = [
         "# CAM Governance Index",
-        "",
-        f"Generated: {generated}",
         "",
         "## Constitution & Instruments",
         "",
@@ -149,7 +145,6 @@ def write_json(items: list[dict]) -> None:
         normalized_items.append(row)
 
     payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "count": len(normalized_items),
         "items": normalized_items,
     }

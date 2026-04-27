@@ -1,7 +1,5 @@
 # CAM Governance Index
 
-Generated: 2026-04-26T04:25:31.338397Z
-
 ## Constitution & Instruments
 
 | Document | Class | Hierarchy | Parent | Title | Purpose |

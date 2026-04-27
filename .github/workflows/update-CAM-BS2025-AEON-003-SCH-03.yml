@@ -1,67 +1,40 @@
 name: Update CAM-BS2025-AEON-003-SCH-03
 
 on:
-  push:
-    branches: [ main ]
+  pull_request:
     paths:
       - ".github/scripts/lib/**"
       - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
       - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
-  workflow_run:
-    workflows: ["Update Amendment Ledgers"]
-    types: [completed]
-    branches: [main]
-
-permissions:
-  contents: write
-
-concurrency:
-  group: governance-index-updates
-  cancel-in-progress: false
+  workflow_dispatch:
 
 jobs:
-  build:
-    if: |
-      (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+  validate:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    env:
-      BOT_NAME: github-actions[bot]
-      BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: main
           fetch-depth: 0
-          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Regenerate SCH-01 + SCH-03 and push changes
+      - name: Validate SCH-01 + SCH-03 generation determinism
         shell: bash
         run: |
           set -euo pipefail
 
-          git checkout -B main origin/main
-          git config --global user.name "${BOT_NAME}"
-          git config --global user.email "${BOT_EMAIL}"
-
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
-          git add Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
+          if ! git diff --exit-code -- \
+            Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md \
+            Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md; then
+            echo "Schedule outputs are stale. Regenerate via Update Governance Index writer workflow."
+            exit 1
           fi
-
-          git commit -m "[AUTO][Constitution] Refresh CAM-BS2025-AEON-003-SCH-01 + SCH-03"
-
-          git pull --rebase origin main
-          git push origin HEAD:main

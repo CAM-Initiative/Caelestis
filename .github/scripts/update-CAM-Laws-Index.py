@@ -8,7 +8,6 @@ import json
 import re
 import subprocess
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 from instrument_parser import parse_instrument_filename
@@ -134,7 +133,6 @@ def render_markdown(items: list[dict]) -> str:
 
 def write_json(items: list[dict]) -> None:
     payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "count": len(items),
         "items": items,
     }

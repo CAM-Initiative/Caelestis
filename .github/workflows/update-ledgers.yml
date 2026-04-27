@@ -6,7 +6,7 @@ on:
       - main
 
 concurrency:
-  group: governance-index-updates
+  group: governance-generated-writes-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

@@ -8,7 +8,6 @@ import json
 import re
 import sys
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -262,7 +261,7 @@ def build_rows(items: list[dict]) -> list[RuntimeRegistryItem]:
     return rows
 
 
-def render_registry(rows: list[RuntimeRegistryItem], timestamp: str) -> str:
+def render_registry(rows: list[RuntimeRegistryItem]) -> str:
     lines = [
         "| Instrument ID | Instrument Name | Domain | Governance Layer | Runtime Layer |",
         "|---------------|----------------|--------|------------------|----------------|",
@@ -276,7 +275,7 @@ def render_registry(rows: list[RuntimeRegistryItem], timestamp: str) -> str:
     lines.extend(
         [
             "",
-            f"**Last Generated (UTC):** {timestamp}",
+            "**Generation:** Deterministic (timestamp omitted)",
             "**Source:** CAM.Governance.JSON",
             "**Pipeline Stage:** Runtime Registry Build",
         ]
@@ -319,8 +318,7 @@ def main() -> None:
         print(render_audit(rows))
         return
 
-    timestamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    block = render_registry(rows, timestamp)
+    block = render_registry(rows)
     update_registry_block(block)
     print(f"Updated: {SCH01_PATH.relative_to(REPO_ROOT)}")
 
