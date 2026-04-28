@@ -6,6 +6,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
 
 import argparse
 import hashlib
+import json
 import re
 import subprocess
 import sys
@@ -23,6 +24,7 @@ AMENDMENT_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE 
 NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
 VERSION_CELL_RE = re.compile(r"^\d+\.\d+$")
 PLACEHOLDER_HASHES = {"-", "—"}
+VALIDATION_STAGES = {"pre_fix", "fix", "post_fix", "downstream_block"}
 
 
 def run_git(args: list[str], check: bool = True) -> str:
@@ -244,6 +246,25 @@ def update_last_ledger_hash_cell(
     return updated_text, stored_hash, updated_text != full_text, mismatch
 
 
+def classify_latest_sha_status(
+    *,
+    full_text: str,
+    stored_hash: str | None,
+    mismatch: bool,
+) -> str:
+    if has_malformed_ledger_row(full_text):
+        return "malformed"
+    if stored_hash is None:
+        return "missing"
+    if stored_hash in PLACEHOLDER_HASHES:
+        return "invalid"
+    if (stored_hash or "").strip() == "":
+        return "unsealed"
+    if mismatch:
+        return "invalid"
+    return "sealed"
+
+
 def evaluate_hash_state(
     *,
     path: str,
@@ -252,6 +273,7 @@ def evaluate_hash_state(
     strict: bool,
     failures: list[str],
     warnings: list[str],
+    stage: str,
 ) -> None:
     if stored_hash is None:
         return
@@ -260,12 +282,17 @@ def evaluate_hash_state(
         return
     if (stored_hash or "").strip() == "":
         msg = (
-            f"{path}: Latest Amendment Ledger hash is empty. This is allowed before the hash fixer runs; "
-            "run with --fix to populate the computed SHA-256. Strict validation will fail if this remains blank "
-            "after the fixer stage."
+            f"{path}: Latest Amendment Ledger row is unsealed: SHA-256 cell is blank. "
+            "This is expected before the ledger bot runs; run with --fix to seal the row."
         )
         if strict:
-            failures.append(msg)
+            if stage == "downstream_block":
+                failures.append(
+                    "Downstream generated ledger update blocked because source ledger remains unsealed "
+                    f"after ledger bot stage: {path}"
+                )
+            else:
+                failures.append(msg)
         else:
             warnings.append(msg)
         return
@@ -274,6 +301,26 @@ def evaluate_hash_state(
             failures.append(f"{path}: Latest Amendment Ledger hash does not match computed content SHA-256")
         else:
             warnings.append(f"{path}: Existing last-row Amendment Ledger hash does not match computed content hash")
+
+
+def report_status(
+    *,
+    path: str,
+    ledger_present: bool,
+    latest_row_present: bool,
+    latest_sha_status: str,
+    action_required: str,
+    stage: str,
+) -> None:
+    record = {
+        "file": path,
+        "ledger_present": "yes" if ledger_present else "no",
+        "latest_row_present": "yes" if latest_row_present else "no",
+        "latest_sha_status": latest_sha_status,
+        "action_required": action_required,
+        "stage": stage,
+    }
+    print(f"LEDGER_STATUS {json.dumps(record, sort_keys=True)}")
 
 
 def has_malformed_ledger_row(full_text: str) -> bool:
@@ -315,7 +362,7 @@ def has_malformed_ledger_row(full_text: str) -> bool:
     return False
 
 
-def lint_all(*, fix: bool = False, strict: bool = False) -> int:
+def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix") -> int:
     failures: list[str] = []
     warnings: list[str] = []
     fixed_files: list[str] = []
@@ -330,6 +377,14 @@ def lint_all(*, fix: bool = False, strict: bool = False) -> int:
 
         if has_malformed_ledger_row(working_text):
             failures.append(f"{path}: Malformed Amendment Ledger row (expected at least 4 table columns)")
+            report_status(
+                path=path,
+                ledger_present=True,
+                latest_row_present=False,
+                latest_sha_status="malformed",
+                action_required="fix malformed ledger row",
+                stage=stage,
+            )
             continue
 
         updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
@@ -341,6 +396,26 @@ def lint_all(*, fix: bool = False, strict: bool = False) -> int:
             fixed_files.append(path)
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
+        latest_sha_status = classify_latest_sha_status(
+            full_text=updated_text if changed else working_text,
+            stored_hash=stored_hash,
+            mismatch=mismatch,
+        )
+        action_required = "none"
+        if latest_sha_status == "unsealed":
+            action_required = "run --fix to seal latest row"
+        elif latest_sha_status == "invalid":
+            action_required = "repair latest SHA-256 value"
+        elif latest_sha_status in {"missing", "malformed"}:
+            action_required = "repair amendment ledger row structure"
+        report_status(
+            path=path,
+            ledger_present=True,
+            latest_row_present=stored_hash is not None,
+            latest_sha_status=latest_sha_status,
+            action_required=action_required,
+            stage=stage,
+        )
 
         if not fix:
             evaluate_hash_state(
@@ -350,6 +425,7 @@ def lint_all(*, fix: bool = False, strict: bool = False) -> int:
                 strict=strict,
                 failures=failures,
                 warnings=warnings,
+                stage=stage,
             )
 
     for warning in warnings:
@@ -408,7 +484,15 @@ def append_amendment_ledger_entry(
     return "".join(lines), True
 
 
-def lint(base: str, head: str, *, fix: bool = False, staged: bool = False, strict: bool = False) -> int:
+def lint(
+    base: str,
+    head: str,
+    *,
+    fix: bool = False,
+    staged: bool = False,
+    strict: bool = False,
+    stage: str = "pre_fix",
+) -> int:
     failures: list[str] = []
     warnings: list[str] = []
     fixed_files: list[str] = []
@@ -428,6 +512,17 @@ def lint(base: str, head: str, *, fix: bool = False, staged: bool = False, stric
 
         working_path = REPO_ROOT / path
         working_text = working_path.read_text(encoding="utf-8")
+        if has_malformed_ledger_row(working_text):
+            failures.append(f"{path}: Malformed Amendment Ledger row (expected at least 4 table columns)")
+            report_status(
+                path=path,
+                ledger_present=True,
+                latest_row_present=False,
+                latest_sha_status="malformed",
+                action_required="fix malformed ledger row",
+                stage=stage,
+            )
+            continue
 
         before_ledger = extract_amendment_section(before)
         after_ledger = extract_amendment_section(after)
@@ -464,10 +559,19 @@ def lint(base: str, head: str, *, fix: bool = False, staged: bool = False, stric
                 strict=strict,
                 failures=failures,
                 warnings=warnings,
+                stage=stage,
             )
 
         if before_ledger == after_ledger:
             failures.append(path)
+            report_status(
+                path=path,
+                ledger_present=True,
+                latest_row_present=stored_hash is not None,
+                latest_sha_status="missing",
+                action_required="append a new amendment ledger row",
+                stage=stage,
+            )
             continue
 
         before_versions = parse_ledger_versions(before_ledger)
@@ -482,6 +586,27 @@ def lint(base: str, head: str, *, fix: bool = False, staged: bool = False, stric
             current_version = after_versions[-1]
             if previous_version != current_version and not is_minor_only_increment(previous_version, current_version):
                 failures.append(f"{path}: Amendment version must increment MINOR only (no MAJOR bump)")
+
+        latest_sha_status = classify_latest_sha_status(
+            full_text=after if after else working_text,
+            stored_hash=stored_hash,
+            mismatch=mismatch,
+        )
+        action_required = "none"
+        if latest_sha_status == "unsealed":
+            action_required = "run --fix to seal latest row"
+        elif latest_sha_status == "invalid":
+            action_required = "repair latest SHA-256 value"
+        elif latest_sha_status in {"missing", "malformed"}:
+            action_required = "append/fix amendment ledger row"
+        report_status(
+            path=path,
+            ledger_present=True,
+            latest_row_present=stored_hash is not None,
+            latest_sha_status=latest_sha_status,
+            action_required=action_required,
+            stage=stage,
+        )
 
     if failures:
         for failure in failures:
@@ -531,15 +656,21 @@ def main() -> int:
         action="store_true",
         help="Process all scoped governance markdown files instead of just git-modified files",
     )
+    parser.add_argument(
+        "--stage",
+        default="pre_fix",
+        choices=sorted(VALIDATION_STAGES),
+        help="Label status output for lifecycle phase reporting.",
+    )
     args = parser.parse_args()
     if args.all:
-        return lint_all(fix=args.fix, strict=args.strict)
+        return lint_all(fix=args.fix, strict=args.strict, stage=args.stage)
     base = args.base
     head = args.head
     if args.staged:
         base = "HEAD"
         head = ":"
-    return lint(base, head, fix=args.fix, staged=args.staged, strict=args.strict)
+    return lint(base, head, fix=args.fix, staged=args.staged, strict=args.strict, stage=args.stage)
 
 
 if __name__ == "__main__":
