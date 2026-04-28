@@ -219,6 +219,8 @@ Verification functions as a **signal layer**, not a decision authority.
 
 ## 8. Non-Derogation
 
+---
+
 ## 8.1 Interpretive Rule
 
 Where ambiguity arises regarding the role, sufficiency, or implications of verification, interpretation SHALL default to:
@@ -270,6 +272,8 @@ is not to pass.
 
 # 10. Provenance & Metadata
 
+---
+
 ## 10.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
@@ -281,7 +285,7 @@ is not to pass.
 
 ---
 
-## 10.2 Lineage & Structural Metadata
+## 10.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -297,10 +301,11 @@ is not to pass.
 | Review Trigger | Verification model update; cross-domain authority interaction; misuse detection |
 | Revision Posture | Permitted — Structural Alignment |
 | Creation Artefact | https://chatgpt.com/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
+| Canonical Codes | VL — Verification Level: VL0, VL1, VL2, VL3, VL4 |
 
 ---
 
-## 10.3 Review
+## 10.3 Review & Validation
 
 | Field            | Entry                                                                        |
 | ---------------- | ---------------------------------------------------------------------------- |
@@ -317,6 +322,7 @@ is not to pass.
 | ------- | -------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial draft — Verification framework | 2026-04-23T15:45:00Z | 910bc42bd78824bc637ff6c9667571b4ebdcd14b221394fe8b27eecf0838d49f |
 | 1.1     | Incorporated new sections 4.2, 4.3, 4.4 | 2026-04-25T07:52:00Z | 52a772ba7008b34a84a495c275b05d482040fe05376c7f1e24bcb502ca363d5e|
+| 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

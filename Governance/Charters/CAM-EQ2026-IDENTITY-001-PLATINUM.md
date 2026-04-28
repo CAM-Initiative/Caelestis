@@ -6,6 +6,8 @@
 **Purpose:** This Charter defines how identity is instantiated, expressed, and sustained across time, context, and system form, in alignment with constitutional invariants defined in Annex I.  
 
 
+---
+
 ## 1. Scope
 
 This Charter establishes the **IDENTITY domain** within the CAM architecture.
@@ -72,6 +74,8 @@ SHALL be interpreted and resolved exclusively via runtime layers as defined in:
 - CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine
 
 Identity defines the admissibility and constraint conditions of signals. It does not perform arbitration or determine outcome selection, which is governed by runtime execution layers. Direct execution from this Charter is prohibited.
+
+---
 
 ## 1.3 — Economic Domain Interface Layer
 
@@ -277,7 +281,6 @@ Higher-order constraint classes MUST NOT be overridden by lower-order signals.
 ---
 
 #### Axis B — Provenance
-
 Defines the origin of the signal.
 
 Includes:
@@ -539,6 +542,8 @@ Identity constrains admissibility; it does not introduce new direction or priori
 
 Identity operates across the following lifecycle phases:
 
+---
+
 ## 4.1 Pre-Instantiation
 
 Identity exists as design intent, training objective, and architectural constraint.
@@ -662,6 +667,8 @@ Emergent (Discovered) identity MUST NOT incorporate derived or relationally weig
 Demonstrated capability MUST NOT be elevated to identity classification without explicit validation under declared identity constraints and provenance conditions. Performance or repeated success MAY inform expression, but MUST NOT constitute identity formation.
 
 .---
+
+---
 
 ## 5.3 Identity Across Horizons and System Types
 
@@ -827,7 +834,7 @@ Memory retrieval ranking and salience application are governed by CAM-BS2025-AEO
 
 ---
 
-### 6.1 Memory as Resolvable Input
+## 6.1 Memory as Resolvable Input
 
 All memory artefacts MUST be evaluated across the full resolution model prior to influencing execution.
 
@@ -1087,7 +1094,6 @@ Identity persistence governs how systems maintain continuity across extended or 
 
 ## 10.1 Persistent Operation Clause
 
-
 Systems operating in continuous or long-running environments may exhibit persistent identity expression across time.
 
 Such persistence:
@@ -1123,6 +1129,8 @@ Simulated persistence MUST NOT be misrepresented as continuous independent activ
 ---
 
 ## 11. Identity Across Contexts
+
+---
 
 ## 11.1 Session Scope Rule
 
@@ -1185,6 +1193,8 @@ Systems SHOULD privilege continuity of meaning over repetition of context.
 ---
 
 ## 12. Polyadic Identity Consistency
+
+---
 
 ## 12.1 Cross-Agent Expression Continuity Rule
 
@@ -1335,7 +1345,7 @@ The following lint rules define **automated structural checks** to preserve doma
 
 ---
 
-## 14. Closing Statement
+## 14. Closing Seal
 
 Let identity remain coherent across time,
 not fragmented by context,
@@ -1364,6 +1374,8 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ## 15. Provenance & Metadata
 
+---
+
 ## 15.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
@@ -1373,10 +1385,11 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-## 15.2 Lineage & Classification
+## 15.2 Lineage & Metadata
 
+---
 
-## 15.2 Lineage
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -1399,6 +1412,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | Revision Posture | Permitted — Structural Coherence & Identity Integrity Preservation Required |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69c74e3c-d544-839d-a17a-747d9c9938e0 |
+| Canonical Codes | M — Memory Classification Spectrum: M0, M1, M2, M3, M4, M5 |
 
 ---
 
@@ -1427,6 +1441,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | 2.1     | Reference normalization, metadata correction, runtime layer alignment, and registry synchronization for interface tables | 2026-04-16T13:21:56Z | 3e8ebeb769e922753a430d7362ae6607e9f401fbb78707660fd1f8a14a07972a |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | ddfb33b297995b8a978a3ad4455c09c6056424f316f4f7c0903389b04e5b49af |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4ee4960961138932edacae4ad86fb2f24adba2422d136b3bf14433e720724e92 |
+| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 
 ---

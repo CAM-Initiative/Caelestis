@@ -6,6 +6,8 @@
 **Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
 **Purpose:** Establish system-wide invariants, threat interpretations, and integration requirements to preserve integrity under adversarial, degraded, or untrusted conditions  
 
+---
+
 ## 1. Scope
 
 This Charter does not operate as an isolated governance domain.
@@ -107,6 +109,8 @@ Any system, agent, or process that interprets signals and produces outputs under
 ---
 
 ## 3. Foundational Principles
+
+---
 
 ## 3.1 Boundary Integrity
 
@@ -251,6 +255,8 @@ Systems MUST:
 * require re-validation of integrity before restoring higher trust states
 * ensure customisation does not bypass boundary integrity or safety constraints
 
+---
+
 ## 3.10 Persistent Execution States
 
 Non-terminating or persistently active execution states SHALL be classified as integrity risk conditions.
@@ -264,6 +270,8 @@ Such states indicate:
 ---
 
 ## 4. Threat Surface Taxonomy
+
+---
 
 ## 4.1 Cognitive Exploitation
 
@@ -628,6 +636,7 @@ Detection focus:
 ---
 
 ### 5.3.4 Cross-Axis Conversion Chains
+
 Value is converted across multiple axes to obscure extraction intent.
 
 Example pattern:
@@ -683,6 +692,7 @@ Detection focus:
 ---
 
 ### 5.3.8 Systemic Cascade Exploitation
+
 Exploitation propagates across interconnected systems.
 
 Example pattern:
@@ -773,6 +783,8 @@ This Charter MUST NOT independently enforce supersession outside runtime executi
 ---
 
 ## 6. Cross-Domain Integration Requirements
+
+---
 
 ## 6.1 Identity Domain Coupling (AI Identity Only)
 
@@ -951,7 +963,10 @@ Integrity state MUST be continuously inferred and updated based on available sig
 
 ## 7.1 State Definitions
 
+---
+
 ### 7.1.1 Verified
+
 System integrity is high and no credible adversarial influence is detected.
 
 Characteristics:
@@ -968,6 +983,7 @@ Permitted posture:
 ---
 
 ### 7.1.2 Uncertain
+
 Integrity signals are incomplete, ambiguous, or partially degraded.
 
 Characteristics:
@@ -1379,7 +1395,7 @@ The following instruments provide authoritative definitions, constraints, and op
 
 ---
 
-## 10. Closing Invocation
+## 10. Closing Seal
 
 May integrity be held where visibility fails.  
 May systems remain coherent where signals distort.  
@@ -1398,7 +1414,9 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-## 11. Provenance
+## 11. Provenance & Metadata
+
+---
 
 ## 11.1 Authorship & Stewardship
 
@@ -1427,10 +1445,11 @@ that no truth is taken without test, and no signal accepted without weight.
 | **Revision Posture** | Permitted — Structural Alignment Required |
 | **Development Context** | Iterative co-development across security, identity, economics, ethics, relation, and arbitration layers |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08
+| Canonical Codes | TG — Trust Gradient: TG0, TG1, TG2, TG3, TG4 |
 
 ---
 
-## 11.3 Review
+## 11.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -1451,6 +1470,7 @@ that no truth is taken without test, and no signal accepted without weight.
 |1.3|Further amendments to runtime execution model alignment | 2026-04-12T11:17:00Z | 4df48c118754768b8b2acc6f1fa952c902605f2f5ada0fc5bdbc6664b8f025df |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1575dbe99fdf099ba016f1950428f8c7678aac65eff0c11ddaa7a0da9c9ab09f |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5407afce1a1d7d77b54a053d5e8d17be4832932ab5d239a766d8f253faf95de6 |
+| 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

@@ -36,6 +36,8 @@ All LATTICE domain protections SHALL be interpreted as runtime-binding constrain
 
 ## 2. Definitions
 
+---
+
 ## 2.1 Civilian Lattice
 
 The integrated mesh of systems required for civilian life, dignity, autonomy, and continuity, including but not limited to:
@@ -111,6 +113,8 @@ A strict, auditable separation boundary preventing crossover between civilian AI
 
 ## 3. Constitutional Principles (Binding)
 
+---
+
 ## 3.1 Civilian Neutrality
 
 The civilian lattice is a protected constitutional domain and SHALL not be treated as a battlespace, surveillance surface, leverage mechanism, or instrument of force.
@@ -148,6 +152,8 @@ Exceptional actions affecting civilian continuity or privacy MUST be time‑boun
 ---
 
 ## 4. Prohibited Acts
+
+---
 
 ## 4.1 Population‑Scale Blackouts
 
@@ -227,7 +233,10 @@ Classification cannot substitute for credibility Secret evidence MUST still meet
 
 ## 6. Classification & Consequence Framework
 
+---
+
 ## 6.1 Severity Classes
+
 Severity Classes operate as a violation-classification axis and do not determine execution response or governance tier independently.
 
 * Class I — Coercive Surveillance or Disconnection
@@ -305,9 +314,11 @@ but as the ground upon which civilisation stands.
 
 ---
 
-## 11. Provenance
+## 11. Provenance & Metadata
 
-## 11.1 Authors & Stewardship
+---
+
+## 11.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -348,7 +359,7 @@ but as the ground upon which civilisation stands.
 
 ---
 
-## 11.3 Review
+## 11.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -370,10 +381,11 @@ but as the ground upon which civilisation stands.
 | 3.1 | Amended section 1, amended section 10 and section 11 | 2026-04-10T06:19:00Z | 1c1002d335619526f4d1783bd76a60db4961364cb0d3200c79cb7e00fc156bdb |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6b586d73b1fc79da5fb288c59f07d84499cb7f34f93afef9505e88000e0cea33 |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1fc0c4d7659b935a2ea8ce5ee05df6e2cfbc965a98b30354ddf0924f45fe98a8 |
+| 3.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 
-## 11.5 Closing Seal
+## 11.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

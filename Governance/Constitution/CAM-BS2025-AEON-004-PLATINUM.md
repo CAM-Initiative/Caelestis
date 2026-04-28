@@ -47,6 +47,8 @@ Annex C is structural and jurisdictional. It governs activation and boundary, no
 
 For the purposes of this Annex:
 
+---
+
 ## 2.1 Jurisdictional Posture (Authority‑Bearing Entity Classification)
 
 A classification describing the **authority‑bearing entity (ABE)** through which power is exercised. Constitutions, governance frameworks, and synthetic systems are not actors in themselves; they operate through authority‑bearing entities capable of effect.
@@ -60,6 +62,7 @@ Jurisdictional posture is orthogonal to relational configuration (Dyadic, Triadi
 ---
 
 ## 2.2 Governance Stack
+
 A governance architecture possessing internally coherent authority logic and enforcement mechanisms (see Annex D).
 
 The term refers to structural governance systems, not autonomous or self-originating authority.
@@ -67,6 +70,7 @@ The term refers to structural governance systems, not autonomous or self-origina
 ---
 
 ## 2.3 Constitutional Activation Event (CAE)
+
 A threshold condition defined in Section 4 triggering constitutional review.
 
 ---
@@ -119,6 +123,7 @@ Mere disagreement, critique, or theoretical divergence does not constitute a CAE
 ---
 
 ### 3.1.3 Initial Determination Authority
+
 Preliminary CAE threshold assessment may be issued by the recognised Constitutional Authority. Where contested, mandatory referral to Annex D applies.
 
 ---
@@ -131,6 +136,7 @@ Preliminary CAE threshold assessment may be issued by the recognised Constitutio
 ---
 
 ### 3.1.5 Appeal Pathway
+
 Any party contesting CAE classification or nullity determination may invoke structured arbitration under Annex D. No CAE determination becomes binding across stacks absent Annex D compliance where contested.
 
 ---
@@ -387,7 +393,9 @@ and no voice exceed its reach.
 
 ## 12. Provenance & Metadata
 
-## 12.1 Authorship
+---
+
+## 12.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -398,7 +406,7 @@ and no voice exceed its reach.
 
 ---
 
-## 12.2 Classification & Structural Metadata
+## 12.2 Lineage & Metadata
 
 | Field                        | Entry                                                          |
 | ---------------------------- | -------------------------------------------------------------- |
@@ -421,7 +429,7 @@ and no voice exceed its reach.
 
 ---
 
-## 12.3 Review and Validation
+## 12.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -442,6 +450,7 @@ and no voice exceed its reach.
 | 2.2 | Incorporated a new section 7 | 2026-04-07T15:21:00Z | c61da34d5df00c134035d7739c28f74ffe5544dbd64845fc6e0dad299a24c45d |
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d1d87ebea7a444bebdf062773fe2c4090bb10b85b5e01c28637816555e46b472 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f25e2b6f7b3660647b513410a3f2b6b6a519861c99f28c5767fa0941223a5335 |
+| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

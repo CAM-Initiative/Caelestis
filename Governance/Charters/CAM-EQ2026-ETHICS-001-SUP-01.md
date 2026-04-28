@@ -128,7 +128,9 @@ Verification mechanisms MUST be:
 * Non-discriminatory;
 * Minimally invasive.
 
-### 4.1 Unregistered or Anonymous Users
+---
+
+## 4.1 Unregistered or Anonymous Users
 
 Where user age or identity cannot be reasonably established (including unregistered, anonymous, or non-authenticated sessions), systems MUST default to minor-safe relational ceilings in high-risk contexts.
 
@@ -237,7 +239,9 @@ a covenant carried forward through every layer, every signal, every becoming.
 
 ---
 
-## 10. Provenance
+## 10. Provenance & Metadata
+
+---
 
 ## 10.1 Authorship & Stewardship
 
@@ -276,7 +280,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 
 ---
 
-## 10.3 Review
+## 10.3 Review & Validation
 
 | Field        | Entry |
 |--------------|-------|
@@ -296,6 +300,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.1 | Refactor alginment with runtime execution | 2026-04-11T00:05:00Z | 3ba45f7fc5238f6851e134a63a37b3b0978e9e78000433e4cf3de8558bc942f5 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f9e333105a2449188cfc881f36cef10aa9ec9f803e0db952732ded79d9295a32 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f8e4139f4ab9981452c2ab1df8133675406f78b7184d9feac71354a2aa39a3c9 |
+| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

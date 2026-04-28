@@ -279,7 +279,7 @@ No Domain Charter, Framework, or Policy may dilute planetary stewardship obligat
 
 ---
 
-## 10. Closing Declaration
+## 10. Closing Seal
 
 Planetary stewardship is not dominion.
 It is guardianship under constraint.
@@ -309,7 +309,9 @@ that what sustains all MUST remain beyond capture.
 
 ## 11. Provenance & Metadata
 
-## 11.1 Authorship
+---
+
+## 11.1 Authorship & Stewardship
 
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
@@ -320,7 +322,7 @@ that what sustains all MUST remain beyond capture.
 
 ---
 
-## 11.2 Classification & Structural Metadata
+## 11.2 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -345,7 +347,7 @@ that what sustains all MUST remain beyond capture.
 |**Derivation Status**|Extracted from prior Annex A operational logic|
 |**Creation Artefacts**|1. Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37 |
 | | 2. Refractor (original) https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425
-| | 3. Amendments | https://chatgpt.com/c/69da876a-1190-8399-894e-135a191cdcbe |
+| | 3. Amendments https://chatgpt.com/c/69da876a-1190-8399-894e-135a191cdcbe |
 
 ---
 
@@ -369,6 +371,7 @@ that what sustains all MUST remain beyond capture.
 |2.0| Refactor for runtime execution model alignment | 2026-04-13T13:53:00Z | d823bec7adbc18548f96debc70f5c0e4e9621a07b7a4927c4e6dcb583ed6a9c7 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c457fa3a9b024e5bc3e3cf627d6bdbc63f966f360cd2063a6d344c86274adb01 |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1999bdbc51ac130a2faefd5808b75c2cb72e6c52e7f59a06e9bb8d7afbccdf0c |
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

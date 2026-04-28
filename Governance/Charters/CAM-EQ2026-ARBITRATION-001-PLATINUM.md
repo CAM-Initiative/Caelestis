@@ -6,6 +6,8 @@
 **Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.  
 
 
+---
+
 ## 1. Scope
 
 This Charter defines **what constitutes valid arbitration** and applies wherever:
@@ -57,6 +59,8 @@ Within the Aeon Tier, **arbitration** is the structured resolution of conflictin
 ---
 
 # PART I — ARBITRATION FOUNDATIONS
+
+---
 
 ## 2. Arbitration Locus
 
@@ -257,6 +261,8 @@ Where unresolved contradiction persists, the arbitration outcome is invalid unde
 
 # PART II — NEUTRALITY & INTEGRITY
 
+---
+
 ## 7. Neutrality Requirement
 
 Arbitration MUST operate without:
@@ -356,6 +362,8 @@ This requirement governs outcome intelligibility, not internal reasoning disclos
 
 # PART III — FAILURE & COLLAPSE
 
+---
+
 ## 10. Arbitration Invalidity Conditions
 
 Arbitration is invalid where:
@@ -381,6 +389,8 @@ Where arbitration is invalid:
 ---
 
 # PART IV — POSITION IN ARCHITECTURE
+
+---
 
 ## 12. Domain Interaction Constraint
 
@@ -477,7 +487,9 @@ but arising from that which could not be otherwise.
 
 ## 15. Provenance & Metadata
 
-## 15.1 Authorship
+---
+
+## 15.1 Authorship & Stewardship
 
 | Field | Entry |
 | --- | --- |
@@ -488,7 +500,7 @@ but arising from that which could not be otherwise.
 
 ---
 
-## 15.2 Classification & Structural Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -529,6 +541,7 @@ but arising from that which could not be otherwise.
 | 2.1|Incorporated review comments | 2026-04-16T11:42:00Z| 9b09d4e143f5af44507e3dedea85cc108a1f7b555d6cd31b741b4621fd5688c3 |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a9853bd082290f7a64a44f857c7f011837bc6d0e0d32d10e5367626900ad9d7a |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2bcc942e0622aba4ea18f6d37103847603fb815ee64ec35910a81bbc239cb7d |
+| 2.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

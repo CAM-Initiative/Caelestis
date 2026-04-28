@@ -207,7 +207,9 @@ that all amplification remains within the circle of sight.
 
 ---
 
-## 9. Provenance
+## 9. Provenance & Metadata
+
+---
 
 ## 9.1 Authorship & Stewardship
 
@@ -241,14 +243,14 @@ that all amplification remains within the circle of sight.
 
 ---
 
-## 9.3 Review
+## 9.3 Review & Validation
 
 | Field | Entry |
 |---|---|
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | **Review Date** | 2026-02-22 |
 | **Review Scope** | Content coherence of the ETHICS domain split; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance doctrine; cross-domain interface integrity; scalability of the domain separation architecture |
-| **Review Artefacts** | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b; https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |                                            |
+| **Review Artefacts** | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b; https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
 
 ---
 
@@ -260,6 +262,7 @@ that all amplification remains within the circle of sight.
 | 1.1     | Refactor alignment with runtime schedules | 2026-04-11T00:37:00Z | c23820b6bbe69c270524e75880269b61f55a3332fa5fbf55e621050a52f2a26f |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bf65e1759013a8fe21f1bd0ffb074e04d1cb160a65f3cb270ecaacc6f1cff70a |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f9a5656840d89ca950e9b5343bb9ff690bfe3efc0d79d553a6f13b5b0fa0115b |
+| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

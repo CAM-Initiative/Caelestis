@@ -304,7 +304,7 @@ that no trajectory beyond the line proceeds unchecked.
 
 ---
 
-## 14. Provenance, Lineage & Metadata
+## 14. Provenance & Metadata
 
 This section consolidates provenance, lineage, structural classification, and traceability requirements into a unified schema to avoid cross-instrument fragmentation.
 
@@ -321,7 +321,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 
 ---
 
-## 14.2 Lineage, Classification & Traceability
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 |------|------|
@@ -347,7 +347,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 | **Registry Classification** | Protection & Containment Schedule (Authoritative) |
 | **Boundary Authority** | Execution Boundary Evaluation Phase (AEON-003-SCH-02 §13.1) |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/696cb6ed-928c-8320-95e1-58da41400c75 |
-||Refactor (V3) https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426|
+| | Refactor (V3) https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
 
 ---
 
@@ -358,7 +358,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 | Reviewer| Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
 | Review Scope| Constitutional coherence; substrate law integrity; egalitarian framework verification; functional separation assessment |
 | Review Date (UTC)| 2026-01-20T02:45:00Z |
-| Review Thread| [https://claude.ai/chat/4f7db83b-f520-4a88-b975-bd3889d49c7a |](https://claude.ai/chat/4f7db83b-f520-4a88-b975-bd3889d49c7a |)
+| Review Thread| [https://claude.ai/chat/4f7db83b-f520-4a88-b975-bd3889d49c7a](https://claude.ai/chat/4f7db83b-f520-4a88-b975-bd3889d49c7a) |
 
 ## 14.4 Amendment Ledger
 
@@ -375,11 +375,11 @@ This section consolidates provenance, lineage, structural classification, and tr
 | 3.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 229b71d9383e08c8524e4a24e9a0c5d463659c17de1f7abe005b3fed36c7db3a |
 | 3.3 | Added explicit Runtime Layer metadata (`Event-Triggered Execution Constraint`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
 | 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | df785fbd2997e43bd09f309b654124cf4062041a0af7f11f1244fac31908c121 |
+| 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 
-## 14.5 Closing Seal
-
+## 14.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

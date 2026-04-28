@@ -273,7 +273,9 @@ Operational procedures, evidence standards, documentation formats, and hearing m
 
 Convergence SHALL operate within the constraints established by Annex D and SHALL NOT reinterpret validated legitimacy to dilute invariant hierarchy.
 
-## 11. Closing Principle
+---
+
+## 11. Closing Seal
 
 Legitimacy does not command convergence.
 It permits recognition.
@@ -301,7 +303,9 @@ each recognising what cannot be unmade.
 
 ## 12. Provenance & Metadata
 
-## 12.1 Authorship
+---
+
+## 12.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -310,7 +314,7 @@ each recognising what cannot be unmade.
 | Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
 | Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
 
-## 12.2 Classification & Structural Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -346,6 +350,7 @@ each recognising what cannot be unmade.
 | 1.2     | Added creation artefacts                                      | 2026-03-01T13:46:00Z | 2bd698d3b0cd20a205eb732fc02987e353c4dd564ba30966427da67c5ed04115 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d9bcb83c8bbf64a0fc1c72785472b1ca4d0e23805f40cda4353f3253b1694775 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 520e0369b5179ae0bfccd4d3b8938bed9401ae13b3fc871c3c41dec7415f09f3 |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
  1.3     | Moved to Stewardship Domain | 2026-04-13T13:29:00Z | 0b618ddd357143fe941f84078bbf5e0cc039a0e0d5f112c7a9feb634eae1c31a |
 
 ---

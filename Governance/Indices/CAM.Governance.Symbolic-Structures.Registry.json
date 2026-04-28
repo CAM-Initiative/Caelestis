@@ -96,6 +96,37 @@
     {
       "aliases": [],
       "canonical_codes": [
+        "AII-0-9",
+        "AII-10-17",
+        "AII-18-23",
+        "AII-24-27",
+        "AII-28-30"
+      ],
+      "canonical_name": "Architectum Infrastructure Index",
+      "canonical_source_instrument": "CAM-EQ2026-STEWARD-003-SUP-01",
+      "canonical_source_title": "Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 01)",
+      "domain": "STEWARD",
+      "notes": "Infrastructure classification bands for Architectum eligibility and continuity-obligation assessment.",
+      "prefix": "AII",
+      "protection_level": "protected_contextual",
+      "related_prefixes": [
+        "AQ",
+        "NAL",
+        "H"
+      ],
+      "status": "registered",
+      "structure_type": "classification",
+      "values": [
+        "AII-0-9",
+        "AII-10-17",
+        "AII-18-23",
+        "AII-24-27",
+        "AII-28-30"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
         "AL-1",
         "AL-2",
         "AL-3",
@@ -118,6 +149,38 @@
         "AL-3",
         "AL-4",
         "AL-5"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "AQ0",
+        "AQ1",
+        "AQ2",
+        "AQ3",
+        "AQ4"
+      ],
+      "canonical_name": "Auditability Qualification Level",
+      "canonical_source_instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
+      "canonical_source_title": "Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL)",
+      "domain": "STEWARD",
+      "notes": "Canonical auditability qualification ladder for external review, audit non-refusal, and governance-level reconstructability in H3/H4 binding-adjacent contexts. Replaces local A0–A4 usage to avoid collision with the A prefix reserved for Delegated Authority Reliance Classification.",
+      "prefix": "AQ",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "NAL",
+        "H",
+        "AD",
+        "S"
+      ],
+      "status": "registered",
+      "structure_type": "classification",
+      "values": [
+        "AQ0",
+        "AQ1",
+        "AQ2",
+        "AQ3",
+        "AQ4"
       ]
     },
     {
@@ -539,6 +602,40 @@
         "M3",
         "M4",
         "M5"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "NAL-0",
+        "NAL-1",
+        "NAL-2",
+        "NAL-3",
+        "NAL-4",
+        "NAL-5"
+      ],
+      "canonical_name": "Neutrality Assurance Level",
+      "canonical_source_instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
+      "canonical_source_title": "Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL)",
+      "domain": "STEWARD",
+      "notes": "Canonical neutrality assurance ladder for determining host neutrality confidence and binding-recognition eligibility at H3/H4 horizons.",
+      "prefix": "NAL",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "AQ",
+        "H",
+        "AD",
+        "S"
+      ],
+      "status": "registered",
+      "structure_type": "classification",
+      "values": [
+        "NAL-0",
+        "NAL-1",
+        "NAL-2",
+        "NAL-3",
+        "NAL-4",
+        "NAL-5"
       ]
     },
     {

@@ -157,6 +157,7 @@ This ensures that all governance influence remains:
 ---
 
 ## 4. Runtime Registry
+
 <!-- SCH-01:RUNTIME_REGISTRY:START -->
 | Instrument ID | Instrument Name | Domain | Governance Layer | Runtime Layer |
 |---------------|----------------|--------|------------------|----------------|
@@ -353,7 +354,9 @@ This Schedule defines structural classification only and does not determine runt
 
 ## 11. Structural Integrity, Runtime & Cross-Domain Integrity (Linter Rules)
 
-### 11.1 Purpose
+---
+
+## 11.1 Purpose
 
 These lint rules define **automated and manual validation checks** to ensure:
 
@@ -495,7 +498,9 @@ Let each schedule hold its place, and the system remain whole.
 
 ---
 
-## 13. Provenance
+## 13. Provenance & Metadata
+
+---
 
 ## 13.1 Authorship & Stewardship
 

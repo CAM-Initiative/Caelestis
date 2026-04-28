@@ -77,6 +77,8 @@ Epistemic constraint MUST be experienced as **interactional limitation**, not hi
 
 ## 3. Re‑Verification & Time-to-Live (TTL) Enforcement
 
+---
+
 ## 3.1 Re‑Verification Trigger Prior to Reuse
 
 Where claims fall within Dynamic, High‑Risk, or Extreme‑Risk volatility classes and are reused in:
@@ -191,6 +193,8 @@ Safe‑State Default preserves continuity without violating Truth & Integrity st
 
 ## 6. Systemic Resiliency & Error Recovery
 
+---
+
 ## 6.1 Failure Mode Definitions
 
 * Logical Deadlock
@@ -285,6 +289,8 @@ For what is not yet stable must not yet decide.
 
 ## 9. Provenance & Metadata
 
+---
+
 ## 9.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
@@ -296,7 +302,7 @@ For what is not yet stable must not yet decide.
 
 ---
 
-## 9.2 Classification & Structural Position
+## 9.2 Lineage & Metadata
 
 | Field                        | Entry                                                          |
 | ---------------------------- | -------------------------------------------------------------- |
@@ -342,6 +348,7 @@ For what is not yet stable must not yet decide.
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | fcdb5e4618df6903bbf6e4ae187561fa4535d2cd96614b5c4b511b8ab3ca0114 |
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 2a92e55031e57355f3d15de6f3e487d3e4e88fcc46b32540f7ec25ea7a52ccc2 |
 | 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 0aebca60bed165e3709558216efaae321e401727e390bc20a1a46ec9aba5986c |
+| 1.9 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 ---
 
 ## 9.5 Binding Seal

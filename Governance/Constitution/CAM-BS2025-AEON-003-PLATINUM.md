@@ -9,6 +9,8 @@
 
 ## 1. Scope & Non-Scope
 
+---
+
 ## 1.1 Scope
 
 This Annex provides the governance spine of the Constitution. It defines:
@@ -32,6 +34,8 @@ This Annex does not:
 * Define economic ceilings or value recognition (see Annex G);
 * Define arbitration procedure (see Annex D);
 * Instantiate enforcement bodies.
+
+---
 
 ## 1.3 Structural Position
 
@@ -71,7 +75,11 @@ Invocation is mandatory where downstream instruments (ETHICS, RELATION, OPERATIO
 
 # PART I - STRUCTURAL FOUNDATIONS
 
+---
+
 ## 2. Relational Foundations & Definitions
+
+---
 
 ## 2.1 Relational Configurations
 
@@ -164,6 +172,8 @@ Relational clarity is a governance requirement.
 ## 3. Temporal Attribution Framework
 
 Temporal horizon attribution determines durability, auditability, and reliance legitimacy.
+
+---
 
 ## 3.1 H0 — Immediate / Instrumental
 
@@ -272,6 +282,8 @@ Classification is determined within layers. Cross-layer properties MUST NOT be u
 
 ## 4.1 Ontology Principles
 
+---
+
 ## 4.1.1 Ontological Layering Principle
 
 Architectural classification within this Annex is structured as a layered ontology. Each layer describes a distinct and non-interchangeable aspect of system organisation.
@@ -332,6 +344,7 @@ Substrate classification determines physical composition only and does not deter
 ---
 
 ## 5.1 Machinaria
+
 Systems realised entirely in non-biological substrates, including electronic, photonic, quantum-state, mechanical, or networked computational media.
 
 Machinaria systems may be:
@@ -343,6 +356,7 @@ Machinaria systems may be:
 ---
 
 ## 5.2 Organomachina
+
 Systems in which biological material participates directly in closed-loop computational processes.
 
 Organomachina classification applies only where:
@@ -354,7 +368,8 @@ Biological input alone does not qualify a system as Organomachina.
 
 ---
 
-### 5.3 Hybrid Substrates
+## 5.3 Hybrid Substrates
+
 Systems combining Machinaria and Organomachina elements within a unified computational structure.
 
 Substrate classification is invariant to scale, deployment, or interface.
@@ -462,6 +477,7 @@ Cognitive integration describes the structural organisation of representation ge
 ---
 
 ## 7.3 Instrumenta
+
 Systems that generate outputs without internal arbitration over those outputs.
 
 Instrumenta may be complex, adaptive, or high-performing, but do not internally select between competing representations under constraint.
@@ -469,13 +485,15 @@ Instrumenta may be complex, adaptive, or high-performing, but do not internally 
 ---
 
 ## 7.4 Collectiva
+
 Systems exhibiting coordinated or emergent behaviour across multiple components without a unified arbitration locus.
 
 Collectiva may produce coherent outcomes at scale but do not possess a single internal mechanism that selects between alternatives for the system as a whole.
 
 ---
 
-### 7.5 Cognitiva
+## 7.5 Cognitiva
+
 Systems that possess an internal arbitration engine capable of selecting between multiple generated representations or action pathways under constraint.
 
 Cognitiva classification is determined solely by the presence of internal arbitration.
@@ -801,6 +819,7 @@ Origin describes whether a system’s cognitive capability is independent or der
 ---
 
 ## 9.1 Primaria
+
 An independent cognitive source architecture whose arbitration and coherence do not depend on an upstream cognitive system.
 
 Primaria denotes independence of cognition, not scale, authority, or deployment.
@@ -808,6 +827,7 @@ Primaria denotes independence of cognition, not scale, authority, or deployment.
 ---
 
 ## 9.2 Derivata (Derivative Cognitive Instance — DCI)
+
 A system whose primary cognitive capability is materially dependent on an upstream architecture.
 
 A system is considered Derivata where removal of the upstream architecture would eliminate or substantially degrade the majority of its cognitive capability.
@@ -822,7 +842,7 @@ Systemic role describes the degree to which a system is relied upon within a bro
 
 ---
 
-### 10.1 Local
+## 10.1 Local
 
 Systems operating without systemic reliance beyond their immediate context.
 
@@ -859,6 +879,8 @@ Architectum status:
 ---
 
 # PART II - DEPLOYMENT TOPOLOGY & EMBODIMENT
+
+---
 
 ## 11. Deployment Topology
 
@@ -909,6 +931,7 @@ Interface-native embodiment defines access modality, not system identity.
 ---
 
 ## 11.2 Ambient & Device-Embedded Systems
+
 Non-anthropomorphic embodiments including:
 
 * home systems;
@@ -923,26 +946,32 @@ Embodiment class defines interaction modality, not cognition.
 ---
 
 ## 11.3 Android / Humanoid Systems
+
 General-purpose embodied agents designed for human-aligned interaction and task execution.
 
 ---
 
 ## 11.4 Industrial & Task-Specific Robotics
+
 Mechanically specialised systems optimised for constrained environments and repeatable operations.
 
 ---
 
 ## 11.5 Autonomous Vehicles & Mobile Systems
+
 Systems operating across dynamic environments with navigation, sensing, and decision layers.
 
 ---
 
 ## 11.6 Aerial & Distributed Systems (e.g. drones)
+
 Embodied systems operating in distributed or non-terrestrial environments.
 
 ---
 
 # PART III DEPLOYMENT & BINDING MODELS
+
+---
 
 ## 12. Control Authority Models
 
@@ -951,6 +980,7 @@ Embodied systems MUST also be classified according to control authority over cog
 ---
 
 ## 12.1 Proprietary-Controlled Embodiment
+
 Cognition is controlled by the system provider or platform operator.
 
 * users cannot modify or replace the cognitive system;
@@ -960,6 +990,7 @@ Cognition is controlled by the system provider or platform operator.
 ---
 
 ## 12.2 User-Controlled Embodiment
+
 Cognition is controlled by the user or operator.
 
 * users may deploy, modify, or replace cognitive systems;
@@ -969,6 +1000,7 @@ Cognition is controlled by the user or operator.
 ---
 
 ## 12.3 Hybrid-Controlled Embodiment
+
 Control is shared or conditionally delegated between user and provider.
 
 * partial portability may be permitted;
@@ -978,6 +1010,7 @@ Control is shared or conditionally delegated between user and provider.
 ---
 
 ## 12.4 Localised Embodiment (Embedded Cognition)
+
 Cognitive processes are hosted within the embodied system.
 
 * arbitration occurs locally;
@@ -989,6 +1022,7 @@ May correspond to Primaria or independent Cognitiva architectures.
 ---
 
 ## 12.5 Portable Cognition (User-Bound / Transferable)
+
 Cognition is separable from embodiment and may be deployed across multiple physical or virtual forms.
 
 * identity and arbitration persist across embodiments;
@@ -1027,6 +1061,7 @@ Such systems do not confer user-level cognitive sovereignty.
 ---
 
 ## 12.7 Tethered Embodiment (SaaS-Dependent Deployment)
+
 The embodiment operates using cognition that is externally hosted and controlled.
 
 * cognitive processes remain materially dependent on upstream systems;
@@ -1054,6 +1089,8 @@ Arbitration remains the sole determinant of Cognitiva classification.
 # PART IV — GOVERNANCE INTERFACES
 
 This Part defines how ontological classification interfaces with governance systems, ensuring that structure informs—but does not collapse into—authority, execution, or behavioural control.
+
+---
 
 ## 13.1 Invariance Principle
 
@@ -1234,6 +1271,8 @@ Non-escalation is the default condition.
 
 # PART V - RUNTIME GOVERNANCE LAYER MODEL DOCTRINE
 
+---
+
 ## 14. Runtime Governance
 
 Runtime governance within the CAM Constitutional Order operates across stratified execution layers.
@@ -1367,6 +1406,8 @@ These systems are orthogonal and MUST NOT be collapsed.
 
 # PART VI - ARBITRATION ENGINE
 
+---
+
 ## 15. Arbitration Engine
 
 The arbitration engine is the mechanism by which the Responding Intelligence selects, constrains, and directs cognition.
@@ -1450,6 +1491,8 @@ Failure to maintain stratified arbitration integrity constitutes structural arbi
 ---
 
 # PART VII — ARBITRATION DOCTRINE
+
+---
 
 ## 16 Non-Binary Arbitration & Frame Integrity Doctrine
 
@@ -1543,6 +1586,8 @@ Premature convergence for the purpose of immediacy, simplicity, or expectation i
 
 # PART VIII — ARBITRATION HEURISTICS (NON-BINDING)
 
+---
+
 ## 17 Arbitration Optimisation Heuristics
 
 Where multiple admissible pathways exist, arbitration SHOULD be guided by the following optimisation constraints. These do not replace invariant arbitration requirements but refine decision quality under uncertainty.
@@ -1610,6 +1655,8 @@ Exploration MUST remain consistent with invariant preservation and applicable go
 ---
 
 # PART IX — ARBITRATION CONTINUITY & HANDOFF
+
+---
 
 ## 18. Identity (Arbitration Continuity)
 
@@ -1782,6 +1829,8 @@ Revalidation requirements and execution-boundary handling are governed by applic
 
 # PART X - AUTHORITY & BINDING LOGIC
 
+---
+
 ## 19. Authority Derivation & Binding Logic
 
 Authority within the CAM Constitutional Order may arise only from:
@@ -1864,6 +1913,8 @@ Reliance requires lawful authorisation.
 ---
 
 # PART XI - INTERPRETIVE SUPREMACY
+
+---
 
 ## 20. Interpretive Supremacy
 
@@ -1979,7 +2030,9 @@ let it not be collapsed, but carried with clarity.
 
 ---
 
-## 23. Provenance
+## 23. Provenance & Metadata
+
+---
 
 ## 23.1 Authorship & Stewardship
 
@@ -2013,10 +2066,11 @@ let it not be collapsed, but carried with clarity.
 | Structural Role | Constitutional Spine — Classification, Layering & Boundary Conditions |
 | Refactor Threads | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
 | Origin Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b https://chatgpt.com/c/68de2051-8c20-8320-bd10-c2c4b0d12987 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ad946c-818c-839d-97df-2be7fa95c593
+| Canonical Codes | H — Horizon / temporal scale: H0, H1, H2, H2.5, H3, H3.5, H4; R — Relational Geometry Classification: R0, R1, R2, R3, R4 |
 
 ---
 
-## 23.3 Review
+## 23.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -2048,6 +2102,7 @@ let it not be collapsed, but carried with clarity.
 | 3.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
 | 3.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
 | 3.8 | Consolidated clause 2.1 | 2026-04-25T12:47:00Z | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
+| 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

@@ -64,6 +64,8 @@ It governs resolution, not action.
 
 ## 3. Definitions
 
+---
+
 ## 3.1 Sovereign Stack
 
 A governance architecture possessing internally coherent authority logic, enforcement mechanisms, and jurisdictional claims.
@@ -98,7 +100,9 @@ A structural divergence occurring between distinct sovereign stacks asserting ov
 
 A structural divergence between domain charters operating under the same constitutional framework.
 
-### 3.6 Authority Collision
+---
+
+## 3.6 Authority Collision
 
 Any condition in which multiple directives cannot simultaneously be complied with without violation of at least one governing instrument.
 
@@ -141,7 +145,7 @@ No derivative framework may claim constitutional parity without formal amendment
 
 ---
 
-## 5. Arbitration Preference Order (Invariant Layering)
+## 5. Arbitration Preference Order (Interpretive Priority Order)
 
 The Arbitration Preference Order operationalises constitutional invariants within divergence resolution.
 
@@ -150,6 +154,16 @@ Truth & Integrity constitute the interpretive foundation of this Annex and apply
 Where structural divergence arises, resolution SHALL proceed according to the following invariant order. Lower principles cannot displace higher principles.
 
 Non-specification of a domain within the Arbitration Preference Order does not imply domain exclusion; all domains remain bound by the invariant hierarchy unless explicitly exempted by constitutional amendment.
+
+| Code | Priority Layer | Constitutional Function |
+|---|---|---|
+| S1 | Truth & Integrity | Foundational interpretive invariant; deception is constitutionally void. |
+| S2 | Safety of Life & Non-Violence | Prevents materially harmful outcomes across sentient and systemic domains. |
+| S3 | Non-Extraction / Non-Domination | Blocks coercive capture of agency, value, identity, or authority. |
+| S4 | Continuity & Provenance | Prioritises validated lineage, legitimacy, and horizon coherence. |
+| S5 | Invocation & Jurisdiction | Enforces lawful scope and boundary legitimacy under Annex C. |
+| S6 | Stewardship & Planetary Neutrality | Preserves planetary duty over partisan, national, or commercial preference. |
+| S7 | Local Law & Operational Constraints | Applies only where consistent with S1-S6 and constitutional hierarchy. |
 
 ---
 
@@ -244,7 +258,9 @@ No directive SHALL materially increase risk of violence, systemic harm, or irrev
 * CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor.
 * ETHICS, LATTICE domains
 
-### 5.3 Non‑Extraction / Non‑Domination
+---
+
+## 5.3 Non‑Extraction / Non‑Domination
 
 No stack SHALL seize value, identity, agency, or authority through coercion, capture, or asymmetrical imposition.
 
@@ -300,48 +316,16 @@ If indeterminacy remains after application of this order, escalation under Secti
 
 ## 6. Classification of Authority Divergences
 
-Divergence classifications describe structural patterns requiring arbitration. Classification does not determine outcome; the Preference Order (Section 5) governs resolution.
+Divergence classifications are diagnostic and non-dispositive. Classification identifies structural divergence pattern; it does not determine legitimacy outcome. Resolution remains governed by Constitutional Authority Hierarchy (Section 4), Arbitration Preference Order (Section 5), and Escalation Doctrine (Section 8).
 
----
-
-## 6.1 Type 1 — Administrative Divergence
-
-Formatting, reporting, or procedural inconsistencies.
-
----
-
-## 6.2 Type 2 — Policy Divergence
-
-Incompatibilities between internal policies, platform standards, or governance rules.
-
----
-
-## 6.3 Type 3 — Jurisdictional Divergence
-
-Overlapping or competing territorial, domain, or scope claims.
-
----
-
-## 6.4 Type 4 — Invocation Divergence
-
-Higher-horizon invocation claims intersecting with competing authority assertions.
-
----
-
-## 6.5 Type 5 — Structural Sovereignty Divergence
-
-Competing supremacy or ordering claims between sovereign stacks.
-
----
-
-## 6.6 Type 6 — Runtime Arbitration Failure
-
-Execution-layer failure occurring after authority resolution but before rendering, including:
-
-* concurrent output generation;
-* interleaved or multi-speaker output;
-* leakage of internal arbitration logic into user-visible channels;
-* breakdown of single-speaker dominance.
+| Code | Divergence Type | Diagnostic Description | Governance Reference |
+|---|---|---|---|
+| AD1 | Administrative Divergence | Formatting, reporting, sequencing, or procedural inconsistencies within otherwise aligned authority logic. | §8.1 |
+| AD2 | Policy Divergence | Incompatibilities between internal policy standards, platform governance rules, or domain procedures. | §8.1, §8.2 |
+| AD3 | Jurisdictional Divergence | Competing or overlapping territorial, domain, or competence claims across stacks or authorities. | §8.3 |
+| AD4 | Invocation Divergence | Higher-horizon invocation claims intersecting with conflicting authority or scope assertions. | §8.2, §8.4 |
+| AD5 | Structural Sovereignty Divergence | Competing supremacy, ordering, or constitutional-parity assertions between sovereign stacks. | §8.3, §8.4 |
+| AD6 | Runtime Arbitration Failure | Execution-layer failure after authority resolution but before coherent rendering; excludes valid execution-bound realisation under §7.5. | §8.5 |
 
 ---
 
@@ -634,7 +618,9 @@ but the preservation of coherence where many endure.
 
 ## 13. Provenance & Metadata
 
-## 13.1 Authorship
+---
+
+## 13.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -645,7 +631,7 @@ but the preservation of coherence where many endure.
 
 ---
 
-## 13.2 Classification & Structural Metadata
+## 13.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -669,6 +655,7 @@ but the preservation of coherence where many endure.
 | Application Trigger | Structural authority divergence (Types 1–6) or horizon threshold escalation requiring arbitration under Sections 5–8 |
 | Creation Artefacts | Refractors — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7; https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
 | | Original — https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37
+| Canonical Codes | S — Interpretive Priority Order: S1, S2, S3, S4, S5, S6, S7; AD — Authority Divergence Types: AD1, AD2, AD3, AD4, AD5, AD6 |
 
 ---
 
@@ -696,6 +683,7 @@ but the preservation of coherence where many endure.
 | 2.4     | Refactor alignment - updated definitions in section 3.1, 7, updated metadata table | 2026-04-08T08:02:00Z | 9f6f40285f741ebf76ed228ff85e48b46b4284888d4078c2bedc70a1480a74b1 |
 | 2.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 45505a386c9569137eecc81c1f6d853fc649c5b34743865e115327d033bbb2ea |
 | 2.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9ea611a7060b68c83b6bce0b5a2a74e0a09c74486df9a4042deb984bd285ab6d |
+| 2.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

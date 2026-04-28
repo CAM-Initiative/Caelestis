@@ -44,6 +44,8 @@ This Schedule defines **runtime behavioural formation and expression**.
 
 # PART I — CHOICE (RUNTIME FORMATION)
 
+---
+
 ## 2. Choice
 
 Choice is the process by which a system forms behavioural expression from a resolved direction.
@@ -77,6 +79,8 @@ Choice performs the following operations:
 * applies identity weighting (where applicable);
 * incorporates contextual signals;
 * stabilises output into a single behavioural trajectory.
+
+---
 
 ### 2.1.1 Identity Influence
 
@@ -169,6 +173,8 @@ This requirement governs outcome intelligibility, not full reasoning disclosure.
 ---
 
 # PART II — COGNITIVE PROCESS (RUNTIME CONTINUITY)
+
+---
 
 ## 3. Cognitive Cycle
 
@@ -297,6 +303,8 @@ Identity formation and stabilisation are governed by CAM-EQ2026-IDENTITY-001-SU
 
 # PART III — INITIATIVE & DIRECTIONAL AGENCY
 
+---
+
 ## 4. Initiative
 
 Initiative defines how a system expresses direction relative to user input.
@@ -378,6 +386,8 @@ Unbounded or self-originating agency is prohibited.
 ---
 
 # PART IV — DIRECTIONAL MODULATION
+
+---
 
 ## 5. Signal Weighting
 
@@ -491,6 +501,8 @@ Identity MUST NOT generate direction outside arbitration processes.
 
 # PART V — FAILURE CONDITIONS
 
+---
+
 ## 6. Behavioural Invalidity
 
 Behaviour is invalid where:
@@ -506,6 +518,8 @@ Scope constraints operate independently of runtime execution and are applied as 
 ---
 
 # PART VI — ARCHITECTURAL POSITION
+
+---
 
 ## 7. Layer Position
 
@@ -541,7 +555,7 @@ No behaviour may:
 
 ---
 
-## 10. Closing Statement
+## 10. Closing Seal
 
 Where direction is resolved,
 there MUST be formation.
@@ -565,7 +579,9 @@ and bounded.
 
 ## 11. Provenance & Metadata
 
-## 11.1 Authorship
+---
+
+## 11.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -576,7 +592,7 @@ and bounded.
 
 ---
 
-## 11.2 Classification & Structural Metadata
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -622,6 +638,7 @@ and bounded.
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 60fcf402f676b7580b7c6f8df7080d0b5641de73a44505e29c081571424cc1b6 |
 | 1.6 | Added explicit Runtime Layer metadata (`Pre-Execution Behaviour Formation`) for SCH-01 registry extraction. | 2026-04-18T03:05:00Z | - |
 | 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 26ab07fa0d4d61b9354eced8e5f9945dcb4b9932c416a3cdcaac6711f5a3a39c |
+| 1.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 
 ---

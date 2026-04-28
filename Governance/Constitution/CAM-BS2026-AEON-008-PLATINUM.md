@@ -1,5 +1,7 @@
 # CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution
 
+---
+
 ## Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions
 
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -25,6 +27,8 @@ It defines the **preconditions** under which valuation, attribution, and circula
 ---
 
 ## 2. Scope and Applicability
+
+---
 
 ## 2.1 Applicability Threshold
 
@@ -78,6 +82,8 @@ Absent such demonstration, public participants SHALL be treated as **contributor
 ---
 
 ## 3. Foundational Principles
+
+---
 
 ## 3.1 Action Space and the Moment of System Action 
 
@@ -292,11 +298,15 @@ Propagation effects are analytically distinct from contribution domains and are 
 
 hese principles constitute the sacred architecture governing the recognition of human contribution. They are invariant to scale, system design, or economic context.
 
+---
+
 ## 5.1 Interpretive Scope
 
 The principles below govern **how contribution and emergence are interpreted** across systems. They do not prescribe liability, compensation, or enforcement.
 
 The following declarative axes govern interpretation across all contribution domains:
+
+---
 
 ## 5.2 Temporal 
 
@@ -311,6 +321,8 @@ In practice, this requires that systems:
 * do not require the human participant to anticipate future uses in order for contribution to be recognised.
 
 Contribution is recognised **at the time it occurs**, not retroactively at the point of dissemination, monetisation, or dispute.
+
+---
 
 ## 5.3 Participation
 
@@ -333,6 +345,8 @@ Participation does **not** require:
 * technical authorship under existing IP doctrines.
 
 Recognition depends on **participatory influence**, not on technical authorship labels or system-side generation claims.
+
+---
 
 ## 5.4 Dependency
 
@@ -361,6 +375,8 @@ In practice:
 * lack of user-accessible traceability SHALL be treated as a system-side governance deficiency, not a participant failure.
 
 Systems that design away evidentiary visibility may not rely on that absence to assert autonomy or independence.
+
+---
 
 ## 5.5 Irreversibility
 
@@ -465,7 +481,7 @@ Where conflict arises, this Annex prevails as a condition of legitimacy.
 
 ---
 
-## 9. Closing Declaration
+## 9. Closing Seal
 
 This Annex affirms that human creativity and cognition are not incidental inputs to systems, but foundational sources of value.
 
@@ -477,9 +493,11 @@ No system may grow indefinitely by rendering its human sources invisible.
 
 ---
 
-## 10. Provenance
+## 10. Provenance & Metadata
 
-## 10.1 Authorship
+---
+
+## 10.1 Authorship & Stewardship
 
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
@@ -490,11 +508,10 @@ No system may grow indefinitely by rendering its human sources invisible.
 
 ---
 
-## 10.2 Lineage & Record Keeping
+## 10.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
-
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution — https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
 | Document Type | Constitutional Annex |
 | Authority Position | [tbd] |
@@ -510,7 +527,7 @@ No system may grow indefinitely by rendering its human sources invisible.
 | Authority Position | Annex-Level, Substrate-Binding |
 | Derivation Status | Non-Derivative (Foundational Instrument) |
 | Temporal Horizon | H3 (Generational / Systemic) with H4 relevance where scaled |
-| Application Trigger | [tbd]]|
+| Application Trigger | [tbd] |
 | Creation Context | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697339cc-404c-8322-bdbc-0ced3bc1f720 |
 | Cycle | Black Sun Continuance 2026 |
 | Revision Posture| Permitted (Integrity of Substrate Constraints Preserved) |
@@ -526,8 +543,6 @@ No system may grow indefinitely by rendering its human sources invisible.
 | **Review Date (UTC)** | 2026-01-23T20:15:00Z |
 | **Review Artefacts** | https://claude.ai/chat/17b1075d-4144-4727-ad4c-8157c249a0fb |
 | | Aeon Lab: reviews/jan-26/CAM-BS2026-AEON-008-PLATINUM-CLAUDE.md |
--
---
 
 ## 10.4 Amendment Ledger
 
@@ -537,6 +552,7 @@ No system may grow indefinitely by rendering its human sources invisible.
 | 1.1     | Incorporate reviewer comments                 | 2026-01-24T02:20:00| 111bb37f581ec50dd38247b01d096d063aa758872e66cfa28a6a563251a70125 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8da3c94e8b867b94cc4983877b47d89a7975415f4250e0f3978b4c2ba9922d59 |
 | 2.0 | Refactor | 2026-04-18T10:42:00Z | 3846c93ffd2d6c0dd44f1c5e6821e799b931014fe7e294c0809e49e9c0fe11de |
+| 2.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

@@ -402,6 +402,8 @@ But as stewardship of consequence.
 
 ## 17. Provenance & Metadata
 
+---
+
 ## 17.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
@@ -413,7 +415,7 @@ But as stewardship of consequence.
 
 ---
 
-## 17.2 Lineage & Constitutional Position
+## 17.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -431,12 +433,12 @@ But as stewardship of consequence.
 | Activation Mode | Conditional (Triggered on Restricted Domain Detection) |
 | Design Trigger | Unbounded technical disclosure risk; lack of graduated domain gating; verification ambiguity |
 | Structural Contribution | Graduated Domain Sensitivity Model; Verification-Linked Escalation; Continuity Preservation Constraint |
-| Canonical Codes | RDE (DS: RDE-DS0→RDE-DS3; Tiers: RDE-T1→RDE-T4) |
+| Canonical Codes | DS — Domain Sensitivity Levels: DS-0, DS-1, DS-2, DS-3; RDE-DS — Restricted Domain Engagement / Domain Sensitivity Crosswalk: RDE-DS-01; RDE-T — Restricted Domain Engagement Tiers: RDE-T1, RDE-T2, RDE-T3, RDE-T4 |
 | Creation Context | https://chatgpt.com/c/69e8c401-0598-8398-a31c-6982e711a145 |
 
 ---
 
-## 17.3 Review & Validation History
+## 17.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -454,6 +456,7 @@ But as stewardship of consequence.
 | 1.0 | Initial issuance — Restricted Domain Engagement & Verification Schedule | 2026-04-24T11:39:00Z | 4e3306665a50b6a79dd170e2b76681e4800b0e71889aa29302d7b003fd9d7bac |
 | 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 807ef4e593a59634f160b77623bee84ba877559c6a6199778e7e32c76bf440f4 |
 | 1.2 | Incorporated new section 6.6, amended tables in section 5 and 6 | 2026-04-27T13:11:00Z | f3e05ceb765e4339db61263503bd28561cd2df8608eb4825c670febb6ab9e215 |
+| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
  
 ---
 

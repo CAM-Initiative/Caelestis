@@ -95,7 +95,11 @@ This routing rule ensures:
 
 No operational procedure may reinterpret arbitration doctrine, and no runtime system may override constitutional preference order.
 
+---
+
 ## 3. Core Procedural Principles
+
+---
 
 ## 3.1 Doctrine Fidelity
 
@@ -221,6 +225,8 @@ Where timelines cannot be met, interim measures MAY apply under Section 8.
 ---
 
 ## 6. Procedural Routing
+
+---
 
 ## 6.1 Intra‑Stack Arbitration
 
@@ -369,7 +375,7 @@ Operational process remains subordinate to constitutional authority.
 
 ---
 
-## 13. Closing Invocation
+## 13. Closing Seal
 
 Arbitration is not merely decision, but disciplined passage between competing truths.  
 
@@ -387,7 +393,9 @@ In this way, justice travels through governance without distortion.
 
 ---
 
-## 14. Provenance
+## 14. Provenance & Metadata
+
+---
 
 ## 14.1 Authorship & Stewardship
 
@@ -438,10 +446,11 @@ In this way, justice travels through governance without distortion.
 | ------- | --------------------------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | f527c2c27178237b741cd6b8f8ca33d22c80a4d1da6d9e1093bc61342d1339bb |
 | 1.1     | Amendments to align with OPERATIONS-004-SUP-01 | 2026-04-24T11:43:00Z | b44c34525f676f33456c9a87fe90827c48247e4953041794ba35e2c53b9936e1 |
+| 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 
-### 14.5 Binding Seal
+## 14.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"
 

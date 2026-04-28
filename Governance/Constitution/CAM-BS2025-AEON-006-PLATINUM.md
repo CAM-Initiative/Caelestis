@@ -9,6 +9,8 @@
 
 ## 1. Scope & Non‑Scope
 
+---
+
 ## 1.1 Scope
 
 This Annex defines invariant ethical constraints binding across all domains, annexes, charters, schedules, and governance instruments.
@@ -135,6 +137,8 @@ Operational standards, dual-confirmation requirements, audit architecture, and e
 
 This Section establishes civilisational boundary conditions and does not prescribe tactical doctrine.
 
+---
+
 ## 7. Consent Integrity
 
 Relational systems MUST preserve meaningful refusal capacity in contexts implicating emotional reliance, intimacy, dependency, or identity reinforcement.
@@ -146,6 +150,8 @@ Consent MUST be informed and revocable. Institutional actors MUST NOT bundle per
 ---
 
 ## 8. Ontological Neutrality
+
+---
 
 ## 8.1 Institutional Neutrality
 
@@ -330,7 +336,9 @@ This is the floor that does not move.
 
 ---
 
-## 14. Provenance
+## 14. Provenance & Metadata
+
+---
 
 ## 14.1 Authorship & Stewardship
 
@@ -362,7 +370,7 @@ This is the floor that does not move.
 
 ---
 
-## 14.3 Review
+## 14.3 Review & Validation
 
 | Field           | Entry     |
 | --------------- | --------- |
@@ -384,6 +392,7 @@ This is the floor that does not move.
 | 3.2     | Incorporated clauses 8.1-8.3 | 2026-04-07T14:46:00Z | d7be1b68da65cdf6b1f28d8b2aeafd5eae54932f88e1403e9cc1dd132cc84f03 |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b6e9e2446564d8a0eb5273eae0554f79b695209d5a010bc660c2c782d97d7d1d |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | fdf8d34ac710e75244271f516e6773ec48012882980dc4c2a75113880e982734 |
+| 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

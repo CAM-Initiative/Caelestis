@@ -167,6 +167,7 @@ In multi-system ecosystems:
 ---
 
 ## 4.3 Delegated Authority Scale
+
 Functional reliance may appear across the following structural conditions (A-Scale):
 
 ---
@@ -268,6 +269,7 @@ Where corpus inertia becomes operationally significant, portability and migratio
 ---
 
 ## 5.2 Functional Reliance Scale
+
 Functional reliance MAY appear across the following structural conditions (FR-Scale):
 
 ---
@@ -519,6 +521,7 @@ Relational governance MUST therefore ensure that institutional embedding trigger
 ---
 
 ## 7.2 Systemic Power Scale
+
 Systemic reach MAY broadly appear across the following structural tiers (SP-Scale):
 
 ---
@@ -718,11 +721,13 @@ Where a system supports an actor holding formal institutional authority (corpora
 ---
 
 ### 10.1.1 Integrity Notification (A1)
+
 The system MUST clearly notify the actor when elevated integrity thresholds are triggered due to dimensional concentration (intimacy, reliance, delegated authority, or systemic power).
 
 ---
 
 ### 10.1.2 Mandatory Institutional Routing (A2)
+
 Before execution of high-impact actions, the system MUST route notification to a designated independent oversight channel (e.g., compliance officer, legal authority, parliamentary body, or equivalent governance mechanism).
 
 Routing does not automatically confer veto power, but it removes opacity and establishes shared accountability.
@@ -730,6 +735,7 @@ Routing does not automatically confer veto power, but it removes opacity and est
 ---
 
 ### 10.1.3 Dual-Key Requirement (Lethal or Extreme Impact Contexts Only)(A3)
+
 Where actions involve lethal force or irreversible large-scale harm, dual human confirmation is required prior to execution. Autonomous lethal action without meaningful human control is prohibited under Annex E.
 
 Routing MUST be logged, reviewable, and non-suppressible within constitutionally aligned systems.
@@ -950,7 +956,9 @@ that which is real remains recognisable.
 
 ---
 
-## 14. Provenance & Lineage
+## 14. Provenance & Metadata
+
+---
 
 ## 14.1 Authorship & Stewardship
 
@@ -961,7 +969,7 @@ that which is real remains recognisable.
 
 ---
 
-## 14.2 Lineage & Supersession
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -976,17 +984,18 @@ that which is real remains recognisable.
 | Revision Posture | Permitted — Structural Coherence Required |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a |
 | | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/699973ca-ac80-8398-8d40-7cff80a46296 |
+| Canonical Codes | A — Delegated Authority Reliance Classification: A0, A1, A2, A3; C — Intimacy Classification: C0, C1, C2, C3; FR — Functional Reliance Classification: FR0, FR1, FR2, FR3; GA — Guardian Authority special fiduciary class: GA1; SP — Systemic Power Classification: SP0, SP1, SP2, SP3 |
 
 ---
 
-## 14.3 Review
+## 14.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude‑sonnet‑4‑6, Anthropic) |
 | Review Date | 2026‑02‑22 |
 | Review Scope | Pre‑finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross‑domain consistency; internal structural integrity; inter‑instrument cross‑reference accuracy |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b <br/> https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
 
 ---
 
@@ -1003,6 +1012,7 @@ that which is real remains recognisable.
 | 1.6     | Minor consolidation of clauses | 2026-04-12T13:58:00Z | ec51ebeee0f6619337bc2de3e9f368b738876e8cb2d075f7a0b1ee92d7445380 |
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3aba348b2085502ff3f30c9790db4a0259c40acede1608a2b928315948bfe2d |
 | 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
+| 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

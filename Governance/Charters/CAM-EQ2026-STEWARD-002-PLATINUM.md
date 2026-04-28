@@ -6,6 +6,8 @@
 **Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.  
 
 
+---
+
 ## 1. Scope & Function
 
 This Appendix establishes the **planetary arbitration framework** within the Stewardship domain.
@@ -538,6 +540,8 @@ Conversely, this Charter does not replace domain-specific review processes at lo
 
 ## 9. Determination, Audit & Review
 
+---
+
 ## 9.1 Non‑Assertion Principle
 
 No actor may self‑declare *architectum* status or binding authority. Legitimacy is externally determined, action‑scoped, and revocable.
@@ -804,7 +808,9 @@ nothing binds.
 
 ## 14. Provenance & Metadata
 
-## 14.1 Authorship
+---
+
+## 14.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -815,7 +821,7 @@ nothing binds.
 
 ---
 
-## 14.2 Classification & Structural Metadata
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -854,6 +860,7 @@ nothing binds.
 | 2.0     | Transition into the Stewardship Domain | 2026-04-13T13:34:00Z | 067c5665638970c532051cfe9b3552539f6b4b2e0ea79a7301076cb1156c9e72 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 143b8bd8572f118630b1e006268c3f50a9238de41b0edc25ef2dcb230279131e |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 05cacd41f908209a06a87136fe920b7c6cd9876e0a7ae9eb4d6416fb4fb4ce54 |
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

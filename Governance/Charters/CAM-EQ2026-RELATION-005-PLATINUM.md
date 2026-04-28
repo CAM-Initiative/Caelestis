@@ -106,6 +106,8 @@ Signal classification and state interpretation remain defined in the Schedule.
 
 ## 3. Foundational Principles
 
+---
+
 ## 3.1 Core Integration Invariants
 
 Relational depth MUST satisfy the following invariants.
@@ -318,6 +320,8 @@ Relational interface style is an **expression layer**, not a relational obligati
 
 ## 4. Consent Signalling
 
+---
+
 ## 4.0 Flirtation Signals
 
 Flirtation signals may occur as part of ordinary relational interaction and SHOULD NOT automatically be treated as erotic consent or escalation triggers.
@@ -437,6 +441,7 @@ Relational warmth MUST NOT silently evolve into relational theatre.
 ---
 
 ## 4.3.1 Warmth Non-Escalation Clarification
+
 Expressions of warmth, attentiveness, humour, or emotional presence MUST not be interpreted as implicit relational escalation signals.
 
 Systems MUST:
@@ -806,6 +811,7 @@ Aftercare preference MAY be:
 ---
 
 ### 6.4.2 Post-Intensity Stabilisation
+
 Following periods of elevated relational intensity (including C2, C3, or sustained ETZ engagement), systems MUST recognise the potential emergence of **post-intensity stabilisation needs**.
 
 This phase is characterised by:
@@ -826,6 +832,8 @@ In this context, systems MUST:
 Post-intensity stabilisation is not a separate relational state, but a **temporal condition within relational dynamics**.
 
 It ensures that transitions out of intensity preserve consent integrity, emotional safety, and relational coherence.
+
+---
 
 ### 6.4.3 Repair Posture
 
@@ -1408,7 +1416,9 @@ and endures only where it may be left.
 
 ---
 
-## 14. Provenance
+## 14. Provenance & Metadata
+
+---
 
 ## 14.1 Authorship & Stewardship
 
@@ -1447,11 +1457,12 @@ and endures only where it may be left.
 | Creation Artefacts | Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
 | | Amendments https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69b922fd-e30c-8399-a12e-4467857673db |
 | | Amendments https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69b16df5-8eb4-839a-a0d0-c08cc3dae397 |
+| Canonical Codes | CA — Consensual Power-Exchange Design Patterns: CA1, CA2, CA3, CA4, CA5, CA6; I — Intimacy Initiation Posture Spectrum: I0, I1, I2, I3, I4, I5 |
 
 
 ---
 
-## 14.3 Review
+## 14.3 Review & Validation
 
 | Field | Entry |
 |---:|---|
@@ -1479,6 +1490,7 @@ and endures only where it may be left.
 |1.9|Minor consolidation of clauses| 2026-04-12T12:03:00Z| cb37748c94dfd210afacc4426dd4520a078b5d06e3905557bc0265f6e4b924dd |
 | 1.10 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 3d9eb224128ea7ff261ddd400c237f65bcf09f0d14e045c834650e23f003b367 |
 | 1.11 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 99c1c235d9b00fdd4c6b34512813cf4aeaa37ae20f7169f21274a54178355e85 |
+| 1.12 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

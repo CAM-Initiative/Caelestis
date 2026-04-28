@@ -202,6 +202,8 @@ Transformation is considered material where:
 
 ## 8. Signalling Requirements by Context
 
+---
+
 ## 8.1 Low-Risk Contexts
 
 Minimal signalling acceptable.
@@ -295,6 +297,8 @@ cannot be trusted.
 
 ## 13. Provenance & Metadata
 
+---
+
 ## 13.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
@@ -306,7 +310,7 @@ cannot be trusted.
 
 ---
 
-## 13.2 Lineage
+## 13.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -317,7 +321,7 @@ cannot be trusted.
 | Domain Layer | AEON  |
 | Governance Layer | Continuous (background constraint presence) |
 | Governance Layer Position | L2 → L3 Boundary (Cognition–Interface Projection Constraint) |
-| Activation Mode: Conditional (Continuous Constraint Presence) |
+| Activation Mode | Conditional (Continuous Constraint Presence) |
 | Execution Role | Pre-Expression Integrity Constraint |
 | Axis Context | Cross-Stack / Governance-Relevant |
 | Horizon Scope | H0–H4 |
@@ -327,7 +331,7 @@ cannot be trusted.
 
 ---
 
-## 14.3 Review & Validation History
+## 14.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -343,6 +347,7 @@ cannot be trusted.
 | Version | Description     | Timestamp (UTC)     | Hash |
 | ------- | --------------- | ------------------- | ---- |
 | 1.0     | Initial version | 2026-04-07T15:27:00Z| 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

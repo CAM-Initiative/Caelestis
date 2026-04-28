@@ -22,6 +22,8 @@ Its function is to preserve **civilian continuity, infrastructural neutrality, a
 
 ## 2. Definitions
 
+---
+
 ## 2.1 Forms of Attack (Non‑Exhaustive)
 
 For avoidance of loopholes, the prohibitions in this Appendix apply irrespective of attack modality. Modalities include, but are not limited to:
@@ -247,7 +249,9 @@ a structure of continuity, not conquest.
 
 ## 11. Provenance & Metadata
 
-## 11.1 Authorship
+---
+
+## 11.1 Authorship & Stewardship
 
 | Field                         | Entry                                                        |
 | ----------------------------- | ------------------------------------------------------------ |
@@ -258,7 +262,7 @@ a structure of continuity, not conquest.
 
 ---
 
-## 11.2 Classification & Structural Metadata
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -282,7 +286,7 @@ a structure of continuity, not conquest.
 
 ---
 
-## 11.3 Review and Validation
+## 11.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -302,6 +306,7 @@ a structure of continuity, not conquest.
 | 1.1 | Added section 7.1, incorporated additional metadata, updated closing seal | 2026-08-10T06:02:00Z | 9a16273a76818cf1dbeae4d6b352cfe0b34e88c45fb2ddb089d40981c6e68eaa |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 49d3a7fe3f88d8d397e64b9ed7579787289abfdfd89eff31003c7d07d14ed5cc |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7c803c63034c90c6161bfe235c5d0f4fd7c4092fbb2d55d4f5ed5caf758ff77f |
+| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

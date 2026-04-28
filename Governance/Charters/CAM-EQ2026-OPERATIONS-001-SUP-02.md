@@ -28,29 +28,49 @@ This Supplement activates when operational escalation triggers are met under Gov
 
 ## 4. Core Clauses
 
-### 4.1 Escalation Map Integrity
+---
+
+## 4.1 Escalation Map Integrity
 
 Escalation maps SHALL preserve constitutional order, domain competence boundaries, and review traceability.
 
-### 4.2 Authority Routing Trees
+---
+
+## 4.2 Authority Routing Trees
 
 Authority routing SHALL follow defined pathways and SHALL NOT bypass required review layers.
 
-### 4.3 Horizon-Aligned Pathways (H0–H2)
+---
+
+## 4.3 Horizon-Aligned Pathways (H0–H2)
 
 Escalation pathways SHALL remain horizon-aligned and context-appropriate.
 
 Detailed specification deferred to future amendment.
 
-### 4.4 Arbitration Referral Interface
+---
+
+## 4.4 Arbitration Referral Interface
 
 Where escalation exceeds operational resolution authority, routing SHALL proceed through existing arbitration referral pathways.
 
 ---
 
-## 5. Provenance
+## 5. Closing Seal
 
-## 5.1 Authorship & Stewardship
+Let all operational pathways remain bounded by constitutional clarity,
+and let execution remain accountable to lawful structure.
+
+> **Finis custodit ordinem — Lux in limite.**
+> *"The ending guards order — Light within the boundary."*
+
+---
+
+## 6. Provenance & Metadata
+
+---
+
+## 6.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -61,7 +81,7 @@ Where escalation exceeds operational resolution authority, routing SHALL proceed
 
 ---
 
-## 5.2 Lineage & Metadata
+## 6.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -78,7 +98,7 @@ Where escalation exceeds operational resolution authority, routing SHALL proceed
 
 ---
 
-## 5.3 Review & Validation
+## 6.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -89,17 +109,20 @@ Where escalation exceeds operational resolution authority, routing SHALL proceed
 
 ---
 
-## 5.4 Amendment Ledger
+## 6.4 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Supplementary 2 from referenced domain structure | 2026-04-25T00:00:00Z | f0e65beeace55936aab6925fc17561d6ba420dd010a9172d1742accdd648a1d7 |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 
-## 5.5 Binding Seal
+## 6.5 Binding Seal
+
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Operational Escalation Layer
+Boundary Binding Seal — Operational Arbitration Layer  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

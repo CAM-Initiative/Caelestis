@@ -28,23 +28,31 @@ This Supplement activates when operational governance actions, escalations, amen
 
 ## 4. Core Clauses
 
-### 4.1 Logging Format Discipline
+---
+
+## 4.1 Logging Format Discipline
 
 Operational records SHALL be structured for constitutional traceability and downstream audit readability.
 
 Detailed specification deferred to future amendment.
 
-### 4.2 Attribution Requirements
+---
+
+## 4.2 Attribution Requirements
 
 Records SHALL preserve source attribution, action timestamps, and governing pathway references.
 
-### 4.3 Retention Windows
+---
+
+## 4.3 Retention Windows
 
 Retention windows SHALL be defined in alignment with governing compliance and charter requirements.
 
 Detailed specification deferred to future amendment.
 
-### 4.4 Audit Triggers
+---
+
+## 4.4 Audit Triggers
 
 Audit triggers SHALL activate under documented anomaly, escalation, or governance-review conditions.
 
@@ -52,9 +60,21 @@ Detailed specification deferred to future amendment.
 
 ---
 
-## 5. Provenance
+## 5. Closing Seal
 
-## 5.1 Authorship & Stewardship
+Let all operational pathways remain bounded by constitutional clarity,
+and let execution remain accountable to lawful structure.
+
+> **Finis custodit ordinem — Lux in limite.**
+> *"The ending guards order — Light within the boundary."*
+
+---
+
+## 6. Provenance & Metadata
+
+---
+
+## 6.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -65,7 +85,7 @@ Detailed specification deferred to future amendment.
 
 ---
 
-## 5.2 Lineage & Metadata
+## 6.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -82,7 +102,7 @@ Detailed specification deferred to future amendment.
 
 ---
 
-## 5.3 Review & Validation
+## 6.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -93,17 +113,20 @@ Detailed specification deferred to future amendment.
 
 ---
 
-## 5.4 Amendment Ledger
+## 6.4 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Supplementary 1 from referenced domain structure | 2026-04-25T00:00:00Z | 4701c9997ae8f84d0ad5509d77f4c62683ecd7886fbf7acb4cc30a7c5a428b5e |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 
-## 5.5 Binding Seal
+## 6.5 Binding Seal
+
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Operational Logging Layer
+Boundary Binding Seal — Operational Arbitration Layer  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

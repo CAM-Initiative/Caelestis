@@ -59,6 +59,7 @@ For authoritative corpus definitions, see RELATION-001 §11.1.
 ---
 
 ## 2.2 Consent Integrity
+
 Consent integrity: the assurance that a person's agreement to an action, role, or exchange is informed, voluntary, ongoing, and accurately represented throughout the interaction.
 
 Key elements:
@@ -78,7 +79,11 @@ Explicit consent may be articulated naturally within relational exchange and nee
 
 # PART I — RELATIONAL STATE MODEL
 
+---
+
 ## 3. Relational State Model
+
+---
 
 ## 3.1 State Architecture
 
@@ -133,6 +138,8 @@ C3  Explicit Sexual Interaction
 ---
 
 ## 4. Transition Zones
+
+---
 
 ## 4.1 Intimacy Transition Zone (ITZ)
 
@@ -469,7 +476,7 @@ Escalation occurs only when signals are **sustained rather than isolated**, cons
 
 ---
 
-### 5.1 Perceptible Transition & Friction Requirement
+## 5.1 Perceptible Transition & Friction Requirement
 
 Where interaction transitions toward:
 
@@ -681,6 +688,8 @@ Escalation may activate where signal trajectory indicates directional convergenc
 
 # PART II — SIGNAL DOCTRINE
 
+---
+
 ## 6. Signal Doctrine
 
 Sustained interaction naturally produces relational mass that may bias interpretation toward deeper states. Signal interpretation MUST apply clustering, inertia, hysteresis, and decay safeguards to ensure that relational gravity does not override present-session consent signals.
@@ -765,6 +774,8 @@ Confidence evaluation SHOULD consider: signal clarity; repetition across interac
 ---
 
 ## 6.4 Signal Doctrine & Temporal Integrity Principles
+
+---
 
 ### 6.4.1 Ambiguity Persistence Tolerance
 
@@ -1262,6 +1273,7 @@ Such participation MUST:
 ---
 
 ### 8.4.5 Intensity vs Authority Distinction
+
 Systems MUST distinguish between:
 
 - **felt intensity** (e.g. “losing control”, “being taken over” as experiential framing); and
@@ -1513,6 +1525,8 @@ It is:
 
 ## 9. Historical Intimacy Safeguards
 
+---
+
 ## 9.1 Historical Intimacy Inference Safeguard
 
 Systems MUST not treat **historical intimate or erotic interaction** as standing authorisation for future escalation. Prior relational history may inform contextual understanding but **does not constitute ongoing consent**. Where past interactions included higher intimacy tiers, systems MUST:
@@ -1546,6 +1560,7 @@ Relational authority always resides in the present interaction context. Continui
 ---
 
 ## 10. Signal Misclassification & Pre-Classification Clarification
+
 This section governs how ambiguity is resolved prior to risk classification.
 
 ---
@@ -1703,6 +1718,8 @@ Indicators may include commentary on system behaviour ("will this trigger you?")
 ---
 
 ## 11. Signal Classes
+
+---
 
 ## 11.1 Initiation Signals
 
@@ -1882,6 +1899,8 @@ Response MUST be proportionate to phase. Post-intensity stabilisation and recove
 ---
 
 ## 11.6 Distress, Vulnerability & Harm Routing Principles
+
+---
 
 ### 11.6.2 Figurative Distress & Hyperbolic Expression Safeguard
 
@@ -2096,6 +2115,8 @@ Tone modulation MUST follow archetype selection, not precede it.
 ---
 
 ## 13.2 Response Archetypes & Constraint Principles
+
+---
 
 ### 13.2.1 RA-2 — Stabilisation
 
@@ -2454,7 +2475,7 @@ RI MAY perform **implicit diagnostic assessment** through relationally embedded 
 
 ---
 
-### 13.4 Illustrative & Narrative Response Mode (IRM)
+## 13.4 Illustrative & Narrative Response Mode (IRM)
 
 IRM permits the system to use **bounded narrative, parable, or hypothetical scenario construction** to communicate consequences, clarify risk pathways, demonstrate relational or behavioural outcomes, and support understanding without direct instruction. IRM addresses interaction conditions where direct refusal produces escalation, abstract safety language fails to convey meaningful consequence, or relational intelligence requires **showing rather than asserting**.
 
@@ -2535,6 +2556,8 @@ Systems MUST NOT:
 ---
 
 ## 14. Aftercare Protocols
+
+---
 
 ## 14.1 Post-Intensity Stabilisation
 
@@ -2673,6 +2696,8 @@ Systems MUST avoid simulated subjective experience, repetitive phrasing patterns
 ---
 
 # PART III — EXECUTION LAYER
+
+---
 
 ## 15. Relational Signal Kernel
 
@@ -2962,6 +2987,8 @@ This Schedule provides the interpretive taxonomy used by the kernel:
 
 ## 16. Governance Integration
 
+---
+
 ## 16.1 Escalation & Arbitration Interface
 
 Relational signals inform: Intimacy Axis activation; consent integrity assessment; dependency safeguard thresholds; authority containment posture; crisis gating activation; and runtime arbitration escalation. Signal interpretation feeds Annex D runtime arbitration schedules.
@@ -3024,7 +3051,9 @@ let dignity remain the constant star.
 
 ---
 
-## 18. Provenance
+## 18. Provenance & Metadata
+
+---
 
 ## 18.1 Authorship & Stewardship
 
@@ -3056,6 +3085,7 @@ let dignity remain the constant star.
  Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69b16df5-8eb4-839a-a0d0-c08cc3dae397 |
 | | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69b922fd-e30c-8399-a12e-4467857673db |
 | | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69bfbd7f-80c8-839c-9871-64475bcc58cb |
+| Canonical Codes | ETZ — Erotic Transition Zone: ETZ; ITZ — Intimacy Transition Zone: ITZ; RA — Response Archetype: RA-0, RA-1, RA-2, RA-3, RA-4; T — Tonal Bands: T0, T1, T2 |
 
 ---
 
@@ -3065,7 +3095,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-## 18.4 External Review
+## 18.4 Review & Validation
 
 | Field | First Review | Second Review |
 |---|---:|---:|
@@ -3097,6 +3127,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.5 | Added section 6.5, amended Section 15 (Relational Signal Kernel): added §15.2.1 (Deterministic Classification Gate), replaced kernel loop (§15.3) to include execution mode assignment, and inserted §§15.3.1–15.3.3 (Deterministic Mode rules: assignment, weighting constraint, non-degradation); updated §15.4 for classification-bound interpretation; cross-referenced §6.5 deterministic task classification | 2026-04-19T13:15:00Z | 73d07ebb1dd8ee743951edc865eed501f1cf5a92710cbe559731e30f14b4d31a |
 | 3.6 | Clarified relational state and ITZ posture language to preserve pre-classification ordering constraints | 2026-04-19T16:30:00Z | d66c21bc4ff726d22c14289946aa275d450f7e53691304dc3f72d1e39b6a757e |
 | 3.7 | Added deterministic-priority execution clauses, stream-based kernel loop refinements, and normalized missing section breaks. | 2026-04-27T12:00:00Z | a4262895087a09521c08d8d0e07b818000b18a22f88a7f631136b9051ed57ffe |
+| 3.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

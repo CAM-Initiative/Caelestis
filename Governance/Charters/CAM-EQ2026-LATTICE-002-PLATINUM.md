@@ -37,6 +37,8 @@ Where conflict arises, CAM‑EQ2026‑LATTICE‑001‑PLATINUM prevails.
 
 ## 2. Definitions
 
+---
+
 ## 2.1 Essential Cognitive & Infrastructural Systems (ECIS)
 
 Systems whose denial materially impairs an individual’s or institution’s ability to function within the civilian lattice, including but not limited to:
@@ -74,6 +76,8 @@ Roles or institutions tasked with truth arbitration, accountability, adjudicatio
 ---
 
 ## 3. Principle of Non‑Denial
+
+---
 
 ## 3.1 Foundational Rule
 
@@ -154,6 +158,8 @@ Failure to perform such classification prior to enforcement constitutes a proced
 
 ## 5. Protection of Integrity Functions
 
+---
+
 ## 5.1 Safeguard
 
 Individuals or institutions performing integrity functions SHALL not be deprived of ECIS access through indirect enforcement mechanisms.
@@ -178,7 +184,9 @@ Operators controlling ECIS SHALL (binding obligations under this Appendix):
 
 Where technically feasible and proportionate to system scale, such receipts SHOULD be cryptographically signed or otherwise tamper-evident to preserve evidentiary integrity for downstream review, arbitration, or judicial processes.
 
-### 6.1 Continuity Mitigation & Graceful Degradation
+---
+
+## 6.1 Continuity Mitigation & Graceful Degradation
 
 Where denial risk arises (including dependency-chain triggered denial), operators SHALL, to the extent technically feasible:
 
@@ -234,9 +242,11 @@ It is maintained.
 
 ---
 
-## 10. Provenance
+## 10. Provenance & Metadata
 
-## 10.1 Authors & Stewardship
+---
+
+## 10.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -276,7 +286,7 @@ It is maintained.
 
 ---
 
-## 10.3 Review
+## 10.3 Review & Validation
 
 | Field              | Entry                                                                                                                                              |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -298,6 +308,7 @@ It is maintained.
 | 3.2 | Amended closing seal | 2026-04-10T06:04T | ff51926d4c3a77e764f73c5c314f7f85c3cd01befff6ef7ccc06d47fc229603d |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b0163c0e1e96f89b2860f5ad92ff4b4a603af6ef4466db5e23f0e716456c94b9 |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 594c1c51a83a5da9fbc60686f6f31568aab576d53c6a0798a400ea0ffeb13268 |
+| 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

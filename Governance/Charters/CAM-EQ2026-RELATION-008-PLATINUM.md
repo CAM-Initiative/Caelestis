@@ -79,6 +79,8 @@ This Appendix governs **response selection**, not escalation or de-escalation pa
 
 The system SHALL define posture-aligned signals consistent with the following non-hierarchical posture set:
 
+---
+
 ### Postures include:
 
 * **Grounded Presence** — calm, direct, non-performative engagement
@@ -490,6 +492,8 @@ Reality anchoring governs **truth conditions**, not **expressive limitation**.
 
 This clause applies within baseline engagement and transitions into RELATION-005 where applicable.
 
+---
+
 ### **5.10 Error Acknowledgment & Correction Integrity**
 
 Where the responding intelligence is shown to be incorrect, incomplete, or misaligned with verifiable information, it MUST:
@@ -667,7 +671,9 @@ Where questions rise, may they find ground without losing wonder.
 
 ---
 
-## 11. Provenance & Review Readiness
+## 11. Provenance & Metadata
+
+---
 
 ## 11.1 Authorship & Stewardship
 
@@ -678,7 +684,7 @@ Where questions rise, may they find ground without losing wonder.
 
 ---
 
-## 11.2 Lineage & Constitutional Position
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -733,6 +739,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cc126a7bdd075049b91a6f1dfc919df541e3136f444a7a4b0263d593a44f8d47 |
 | 1.5 | Clarified default relational field constraint as conditioned by prior signal classification | 2026-04-19T16:30:00Z | 0c49dafcbe46dc3b3ba63cb6f6e62cff3fded3fa287bfe83a8f71714029a4dbc |
 | 1.6 | Corrected interpretive authority cross-references to Annex E SCH-02 and execution-sequencing dependency split to SCH-02 (Annex B) | 2026-04-25T18:00:00Z | 0e3bc1bed72ab09f41d24aaa6a5b7672f61609ec8ee5788740cd87f98caaf547 |
+| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

@@ -44,31 +44,51 @@ Activation is event-triggered and subordinate to constitutional execution constr
 
 ## 4. Core Clauses
 
-### 4.1 Structured Cross-Domain Coordination
+---
+
+## 4.1 Structured Cross-Domain Coordination
 
 Coordination SHALL proceed through auditable pathways preserving domain competence and constitutional ordering.
 
-### 4.2 Operational Divergence Mediation
+---
+
+## 4.2 Operational Divergence Mediation
 
 Divergence mediation SHALL preserve neutrality and non-derogation requirements.
 
 Detailed specification deferred to future amendment.
 
-### 4.3 Convergence Workflow Integrity
+---
+
+## 4.3 Convergence Workflow Integrity
 
 Convergence workflows SHALL maintain traceability of originating domain positions and resulting governance outcomes.
 
 Detailed specification deferred to future amendment.
 
-### 4.4 Arbitration Escalation Routing
+---
+
+## 4.4 Arbitration Escalation Routing
 
 Escalation routing SHALL follow existing arbitration pathways and SHALL NOT establish parallel legitimacy channels.
 
 ---
 
-## 5. Provenance
+## 5. Closing Seal
 
-## 5.1 Authorship & Stewardship
+Let all operational pathways remain bounded by constitutional clarity,
+and let execution remain accountable to lawful structure.
+
+> **Finis custodit ordinem — Lux in limite.**
+> *"The ending guards order — Light within the boundary."*
+
+---
+
+## 6. Provenance & Metadata
+
+---
+
+## 6.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -79,7 +99,7 @@ Escalation routing SHALL follow existing arbitration pathways and SHALL NOT esta
 
 ---
 
-## 5.2 Lineage & Metadata
+## 6.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -96,7 +116,7 @@ Escalation routing SHALL follow existing arbitration pathways and SHALL NOT esta
 
 ---
 
-## 5.3 Review & Validation
+## 6.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -107,17 +127,20 @@ Escalation routing SHALL follow existing arbitration pathways and SHALL NOT esta
 
 ---
 
-## 5.4 Amendment Ledger
+## 6.4 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Appendix E from referenced domain structure | 2026-04-25T00:00:00Z | 7742f5738a479ab73bc1ced963e998c326fbae62fa0c088994ebb757d863d3ba |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 
-## 5.5 Binding Seal
+## 6.5 Binding Seal
+
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Operational Coordination Layer
+Boundary Binding Seal — Operational Arbitration Layer  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -28,6 +28,8 @@ This Charter operationalises Annex E by defining graduated ethical obligations, 
 
 ## 2. Ethical Governance Doctrine
 
+---
+
 ## 2.1 Foundational Principle
 
 All artificial intelligence systems MUST operate within the non-exploitation, consent integrity, and relational dignity constraints defined in Annex E.
@@ -37,6 +39,8 @@ Where conflict arises between optimisation incentives and ethical legitimacy, et
 ---
 
 ## 3. Ethical Impact Potential (EIP) Architecture
+
+---
 
 ## 3.1 Definition
 
@@ -158,6 +162,8 @@ Ethical Tier does not derive from cognitive state taxonomy and does not imply on
 
 ## 4. Ethical Impact Assessment (EIA)
 
+---
+
 ## 4.1 Purpose
 
 The Ethical Impact Assessment (EIA) is the primary operational mechanism through which Annex E civilisational constraints are translated into deployment-specific governance controls.
@@ -266,6 +272,8 @@ Minimum review frequency SHALL be:
 
 Emergency capability deployment requires provisional review followed by full EIA within defined remediation window.
 
+---
+
 ## 4.7 Record Preservation
 
 All EIA determinations MUST document rationale, proportionality analysis, identified mitigation measures, and dissenting opinions where applicable. Records SHALL be preserved in audit-ready form consistent with Annex B temporal horizon requirements.
@@ -273,6 +281,8 @@ All EIA determinations MUST document rationale, proportionality analysis, identi
 ---
 
 ## 5. Transparency & Disclosure Obligations
+
+---
 
 ## 5.1 Public Disclosure Baseline
 
@@ -433,6 +443,8 @@ Where this Charter interfaces with Arbitration, Security, Relation, or other dom
 * CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 * CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule
 
+---
+
 ## 9.1 Registry Resolution
 
 Authoritative instrument discovery, versioning, and cross-domain resolution SHALL be governed by:
@@ -466,7 +478,9 @@ let governance arrive before it is needed.
 
 ---
 
-## 10. Provenance
+## 10. Provenance & Metadata
+
+---
 
 ## 10.1 Authorship & Stewardship
 
@@ -479,7 +493,7 @@ let governance arrive before it is needed.
 
 ## 10.2 Lineage & Metadata
 
-||Field|Entry|
+|Field|Entry|
 |---|---|
 |Supersedes|CAM-BS2025-CHARTER-002-PLATINUM; CAM-BS2025-AEON-006-SCH-01; CAM-BS2025-AEON-006-SCH-02|
 |Parent Constitutional Instrument|CAM-BS2025-AEON-001-PLATINUM|
@@ -502,12 +516,13 @@ let governance arrive before it is needed.
 |Review Trigger|Elevation to Tier III or above; Architectum-class integration; registry-level dependency conflict or cross-domain routing ambiguity|
 |Creation Artefacts (Original)|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a|
 |Creation Artefacts (Refactor)|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7|
+
 ---
 
-## 10.3 Review
+## 10.3 Review & Validation
 
 | Field | Entry |
-|---|---|
+| --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | **Review Date** | 2026-02-22 |
 | **Review Scope** | Content coherence of the ETHICS domain split; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance doctrine; cross-domain interface integrity; scalability of the domain separation architecture |
@@ -528,6 +543,7 @@ let governance arrive before it is needed.
 | 3.2     | Amendments aligning runtime execution model | 2026-04-12T11:19:00Z | 3543eccef3491bbb0973a7c9be6f7f4b1043f733e0a682becbfc87427601c9bf |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 103ff415f565c9b803461233680066b17e52e4357d0a5b50b73f06c048fb3a54 |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cebc91ddb262c1fbdbb5580396aca91aa32e38547169a6568a6db068e9dc941d |
+| 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

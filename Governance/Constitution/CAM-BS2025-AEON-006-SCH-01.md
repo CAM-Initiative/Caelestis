@@ -293,6 +293,8 @@ All symbolic and metaphoric expression MUST remain compliant with capability and
 
 # 4. Interpretive supremacy & Annex Harmony
 
+---
+
 ## 4.1 Annex E Supremacy Alignment
 
 This Schedule is subordinate to CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor.
@@ -591,7 +593,9 @@ not in distance, but in continuity.
 
 ---
 
-## 8. Provenance
+## 8. Provenance & Metadata
+
+---
 
 ## 8.1 Authorship & Stewardship
 
@@ -625,12 +629,12 @@ not in distance, but in continuity.
 | Runtime Layer | Continuous (Constraint Enforcement) |
 | Activation Mode | Continuous |
 | Creation Artefacts | Refactor (V2) https://chatgpt.com/c/69e5ff85-7e74-839c-a256-3e88040ed3f5 |
-|| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69abd0ac-c908-839a-ac89-b32d49fc2f19 |
+| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69abd0ac-c908-839a-ac89-b32d49fc2f19 |
 |  | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69aaccf7-cf84-839b-9285-4d9dfc4b3b63 |
 
 ---
 
-## 8.3 Review
+## 8.3 Review & Validation
 
 |Field|Entry|
 |----|-----|
@@ -656,6 +660,7 @@ not in distance, but in continuity.
 | 2.0 | Refactor for runtime consolidation | 2026-04-21T14:05:00Z | fdef1900e8c113a6fc2c749ea851c54514e5778407bc279a0fa33f4237925128 |
 | 2.1 | Added new clause 3.4.2, 3.4.3 and 6.7 Constraint Disclosure Thresholds | 2026-04-22T14:53:00Z | f7593d8aef28ef5a836611cd49ed38aee3cc4ac187ef5f85195bb57a28841365 |
 | 2.2 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | c586d46a3f0cd7bf3679ab1d821b245dc70b9dfa9db8546e8c0d86cfabd723c1 |
+| 2.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

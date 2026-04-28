@@ -42,6 +42,8 @@ It ensures that operational compliance remains consistent with constitutional hi
 
 ## 3. Core Operational Principles
 
+---
+
 ## 3.1 Doctrine Fidelity
 
 Compliance mechanisms SHALL reflect superior constitutional instruments and SHALL NOT introduce constraints that contradict:
@@ -93,6 +95,8 @@ GovOps SHALL coordinate lawful routing without asserting territorial authority.
 ---
 
 ## 4. Capability Access Control Framework
+
+---
 
 ## 4.1 Framework Purpose
 
@@ -180,6 +184,8 @@ Verification escalation MAY include:
 ---
 
 ## 5. Age Verification & Interaction Eligibility
+
+---
 
 ## 5.1 Verification Tier Definitions
 
@@ -518,6 +524,8 @@ This provision promotes transparency and user orientation while preserving duty�
 
 ## 9. Records Retention & Disclosure Handling
 
+---
+
 ## 9.1 Retention Discipline
 
 Unless jurisdictional or regulatory frameworks specify otherwise, **audit‑relevant operational records SHOULD be retained for no less than three (3) years** to support review, arbitration traceability, and compliance auditing.
@@ -625,7 +633,9 @@ Integrity holds.
 
 ---
 
-## 14. Provenance
+## 14. Provenance & Metadata
+
+---
 
 ## 14.1 Authorship & Stewardship
 
@@ -653,6 +663,7 @@ Integrity holds.
 | Revision Posture | Structural Alignment Permitted |
 | Cycle Attribution | March 2026 Constitutional Refactor |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
+| Canonical Codes | AV — Age Verification tier: AV0, AV1, AV2, AV3 |
 
 ---
 
@@ -676,6 +687,7 @@ Integrity holds.
 | 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 28f2e238d0b106d64e91dd53c0b9405b672f4bbeaa033cc1f1b2720144a8a9b5 |
 | 1.2 | Added section 4.4 | 2026-04-23T12:04:00Z | d3d81db1df940980b54ef0fb42b9b40f0b764f444c4304dcb5e83572d71746fd |
 | 1.3 | Amended clause 4.4, updated closing seal | 2026-04-25T08:02:00Z| 38c3c3b04486e1637604349d56d5c8763ec02c58e118d4431a9fe49dbee7b84a|
+| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

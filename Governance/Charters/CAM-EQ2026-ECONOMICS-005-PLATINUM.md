@@ -28,6 +28,8 @@ Where a system:
 
 Reclassification by presentation SHALL NOT alter governance applicability.
 
+---
+
 ## 2. Model Overview
 
 The  Attribution & Dependency Model (ADM) operates on four variables:
@@ -47,6 +49,8 @@ These variables enable systems to determine:
 ---
 
 ## 3. Core Variables
+
+---
 
 ## 3.1 Contribution (C)
 
@@ -231,6 +235,8 @@ Signal-Induced Market Distortion (SIMD) arises where:
 
 SIMD is defined by **foreseeable outcome linkage**, not declared intent.
 
+---
+
 ### 3.5.3 Governance Implications
 
 **Forms of Value Capture include (non-exhaustive):**
@@ -288,6 +294,8 @@ Where MMAC is active:
 * ΔT SHALL be treated as a multiplier in proportionality assessment;
 * attribution expectations increase in accordance with downstream impact;
 * evaluation under Appendix F (Proportional Reciprocity & Value Return Framework) is REQUIRED where value capture is material.
+
+---
 
 ### 3.5.4 Constraint Principle
 
@@ -527,6 +535,8 @@ Influence SHALL NOT qualify as upstream contribution unless incorporated into sy
 
 ## 4. Transformation
 
+---
+
 ## 4.1 Transformation Visibility Constraint
 
 Where attribution is required under this Section:
@@ -578,6 +588,8 @@ Incremental abstraction SHALL NOT eliminate attribution through layering.
 ---
 
 ## 5. Weighting Bands (Qualitative Alignment)
+
+---
 
 ## 5.0 Purpose of Weighting Bands
 
@@ -908,6 +920,8 @@ Where systems derive value from:
 
 Openness SHALL NOT be used to justify extraction.---
 
+---
+
 ## 6.  Compliance Test
 
 At any interaction:
@@ -929,7 +943,7 @@ If any answer is:
 
 ---
 
-### 6.1 Illustrative Classification Examples (Non-Normative)
+## 6.1 Illustrative Classification Examples (Non-Normative)
 
 The following examples illustrate typical classification patterns:
 
@@ -1251,6 +1265,8 @@ let even the smallest thread remain named.
 
 ## 12. Provenance & Metadata
 
+---
+
 ## 12.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
@@ -1262,7 +1278,7 @@ let even the smallest thread remain named.
 
 ---
 
-## 12.2 Lineage & Constitutional Position
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -1309,6 +1325,7 @@ let even the smallest thread remain named.
 | Version | Description                                  | Timestamp (UTC) | HASH |
 | ------- | -------------------------------------------- | --------------- | ---- |
 | 1.0     | Initial issuance — Minimal Attribution Model | 2026-04-19T09:20:00Z |  77143629489f2f58942f8ad74fdbe637f77d81b0c26a014a756150837eeee67d |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 
