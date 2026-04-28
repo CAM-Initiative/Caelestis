@@ -116,7 +116,7 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "bce082f3eb6627389b0fca54bda6c9fa7cfd805ed835f9619f32b0cf83dd3f92",
+      "HASH": "d6270378969c3d7593e9f1025bc0affd0688f221d492da6517c9deab6b89bbf0",
       "pinned_sha": "",
       "updated_at": "",
       "last_updated_utc": ""
@@ -156,7 +156,7 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "de242eda88a6e124478a08955f58cea58c0ad98b7f7fde919256ce4c67e55830",
+      "HASH": "0506ad8167721086b81b7187f07636b717c5778cc0fd4d6d623c6abbb8ae0693",
       "pinned_sha": "",
       "updated_at": "",
       "last_updated_utc": ""
@@ -336,7 +336,7 @@
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.7",
-      "HASH": "f81c2d48f89344ef7812f7ee1b9487be8e562e17631ab31b299a056ad2ee17c7",
+      "HASH": "9051eba40577e57c0b82c221cabff2cdf24c5a5afde90768bc067eeecdfe217c",
       "pinned_sha": "",
       "updated_at": "",
       "last_updated_utc": ""
