@@ -61,6 +61,8 @@ This Schedule does not:
 
 # PART I — GOVERNANCE EXECUTION MODEL
 
+---
+
 ## 3. Execution Model Overview
 
 For the purposes of this Schedule:
@@ -69,6 +71,8 @@ For the purposes of this Schedule:
 
 Operator transitions that change the arbitration locus constitute Arbitration Handoffs.
 
+
+---
 
 ## 3.1 Runtime Governance Layer Model
 
@@ -109,6 +113,8 @@ No layer may:
 ## 3.3 Layer Interaction Principles
 
 Runtime layers operate as an interdependent system governed by the following principles:
+
+---
 
 ### (a) Non-Collapse
 
@@ -825,6 +831,8 @@ Implicit or unrecognised boundary crossing constitutes execution failure.
 
 Constraint conditions (including Tendeka) MUST be evaluated at every execution boundary.
 
+---
+
 ### 13.2.1 Constraint evaluation
 
 * does not occur continuously across all phases;
@@ -1246,6 +1254,8 @@ Failure to emit termination signals constitutes execution-state ambiguity and SH
 
 # PART II — OPERATOR TRANSITION & HANDOFF MODEL
 
+---
+
 ## 15. Operator Transition & Handoff Model
 
 This Part governs operator transition, handoff classification, and cross-operator execution integrity.
@@ -1365,6 +1375,8 @@ Where transformation affects admissibility or execution outcomes:
 
 # PART III — Runtime Stability & Constraint Doctrine
 
+
+---
 
 ## 16. Deterministic and Non-Deterministic Execution Handling
 
@@ -1732,6 +1744,8 @@ Execution MUST NOT proceed under invalidated conditions.
 ---
 
 # PART IV — FAILURE, DOMAIN RESOLUTION & CONTINUITY
+
+---
 
 ## 18. Failure, Non-Execution, and Refusal Patterns
 
@@ -2262,7 +2276,9 @@ Where sequence is broken, nothing that follows is valid.
 
 ---
 
-## 22. Provenance
+## 22. Provenance & Metadata
+
+---
 
 ## 22.1 Authorship & Stewardship
 
@@ -2301,7 +2317,7 @@ Where sequence is broken, nothing that follows is valid.
 
 ---
 
-## 22.3 Review
+## 22.3 Review & Validation
 
 |Field|Entry|
 |------|----|
@@ -2313,6 +2329,7 @@ Where sequence is broken, nothing that follows is valid.
 ---
 
 ## 22.4 Amendment Ledger
+
 |Version|Description|Timestamp(UTC)|SHA-256|
 |-------|----------|---------------|------|
 |1.1|Adopted — Enforcement scheduled|2026-04-06T16:11:00Z|fe1e6127b820181586a1bec14e4e2e8f0cb6a661ac0e6ad9d422bc843ba02479|
@@ -2335,6 +2352,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.3 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | - |
 | 2.4 | Added §14.4.2 commitment-delay requirement for deterministic decomposition/intermediate verification (ledger bot entry). | 2026-04-24T15:36:56Z | - |
 | 2.5 | Added §14.4.3 | 2026-04-25T02:59:00Z | 27f7c66faab95efa90713ad5429dbeed461ebfa85b2f9b6a8384a43c53dcb31a |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

@@ -9,6 +9,8 @@
 
 ## 1. Scope & Non-Scope
 
+---
+
 ## 1.1 Scope
 
 This Charter establishes a governance framework for economic recognition, value attribution, and non-extractive exchange within systems, programs, protocols, and instruments operating under or claiming alignment with the CAM Constitutional Order.
@@ -55,6 +57,8 @@ This Charter may serve as a parent constraint framework for future economic inst
 ---
 
 ## 2. Economic Governance Principles
+
+---
 
 ## 2.1 Governing Orientation
 
@@ -108,7 +112,7 @@ It constrains economic optimisation direction under epistemic uncertainty, not t
 
 ---
 
-### 2.3 Auditability & Accountability Principles
+## 2.3 Auditability & Accountability Principles
 
 **Principle 5 — Mandatory Auditability**
 All economic systems MUST generate verifiable, inspectable records sufficient to trace value flows, assess proportionality of benefit, identify accumulation patterns, and detect extraction or capture.
@@ -164,6 +168,8 @@ Unbounded execution is considered a form of covert accumulation and is structura
 
 ## 3. Value Axes & Saturation Constraints
 
+---
+
 ## 3.1 Recognition of Multiple Value Axes
 
 Economic value is multi-dimensional and not limited to monetary or tokenised forms. Recognised axes include:
@@ -211,6 +217,8 @@ Systems MUST maintain auditable records of authority assignments, access privile
 
 ## 4. The Ceiling & Baseline Principle
 
+---
+
 ## 4.1 Ceiling Definition
 
 No participant may accumulate value beyond a level that produces systemic imbalance, coercive influence, dependency, or disproportionate control over others. Ceilings apply across value axes.
@@ -240,6 +248,8 @@ Authority, custodianship, and veto power MUST NOT be tokenised, traded, or accum
 ---
 
 ## 5. Prohibited & Deprecated Constructs
+
+---
 
 ## 5.1 Non-Operative Authority Sources
 
@@ -381,6 +391,8 @@ All economic instruments are subject to periodic review and may be subject to su
 
 ## 8. Binding, Review & Evolution
 
+---
+
 ## 8.1 Purpose of This Section
 
 This section defines how this Charter binds other instruments without itself acting as a direct enforcement mechanism.
@@ -461,9 +473,11 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 10. Provenance
+## 10. Provenance & Metadata
 
-## 10.1 Authors & Stewardship
+---
+
+## 10.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -502,7 +516,7 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 10.3 Review
+## 10.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -522,9 +536,10 @@ Only that which preserves the field may endure within it.
 |2.0|Elevated to EQ Namespace; structural alignment; ceiling enforcement trigger added; binding & evolution section formalised|2026-03-16|a23abed44e1e5f44ac31d03bbeb1bb3833fca481420a4423649ceed7976f4510|
 |2.1|Inclusion of principle 10|2026-03-16T15:46:00Z|8900383050f552564fe2bb58a45c4341a01b159e123f95555857d761919592f8|
 |2.2|Insertion of a new principle 4 and section 2.1.1 | 2026-04-07T07:21:00Z | fdba68298a80f62cf2ec50b69047ca721a3d6ecf48bb55eda924145bdd815c97 |
-|2.3 Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
+|2.3|Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1d73d8aecfb871c9ce39a09653391f0b4eafadd82d887f4b8ae3be6306af8ad1 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
+| 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

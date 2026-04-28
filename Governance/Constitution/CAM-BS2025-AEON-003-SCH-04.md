@@ -317,9 +317,11 @@ nothing follows.
 
 ---
 
-## 11. Provenance
+## 11. Provenance & Metadata
 
-## 11.1 Authors & Stewardship
+---
+
+## 11.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian   
@@ -347,10 +349,11 @@ nothing follows.
 | **Governance Role** | Final Runtime Arbitration Authority — Resolution Layer |
 | **Creation Context** | Original: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
 | | Refactor (v2): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69eccb1f-7ec4-839f-b1f7-1d8908051f5d |
+| Canonical Codes | AL — Arbitration Layer Classification: AL-1, AL-2, AL-3, AL-4, AL-5 |
 
 ---
 
-## 11.3 Review
+## 11.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -375,6 +378,7 @@ nothing follows.
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7008b4861bb2f35c7ad115e2fbf9df4c71f8f57ab0eb24c928da1de131a8e6ea |
 | 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 861b6d83119432c89489ef0a820b4ba372ea413340e7969e020a56fd86f55a75 |
 | 2.0 | Refactor - clarified SCH-04 as final runtime arbitration authority; distinguished arbitration finality from execution sequencing, lock, containment, and enforcement; corrected circular-reference risk between SCH-04 and SCH-02; harmonised metadata. | 2025-04-25T14:21:00Z | 6fb5e8625538b244c0c1c73b081974c19d00110f258b499d50ece060e533f7ca |
+| 2.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

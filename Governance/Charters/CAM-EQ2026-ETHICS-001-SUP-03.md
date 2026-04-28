@@ -59,6 +59,8 @@ Direct domain-to-domain invocation or execution is prohibited.
 
 ## 2. Foundational Constraints
 
+---
+
 ## 2.1 Non-Optimisation of Lethality
 
 No system may be tuned, rewarded, or evaluated primarily on lethality maximisation metrics.
@@ -138,6 +140,8 @@ Exception for immediate defensive necessity MUST be narrowly defined and auditab
 ---
 
 ## 4. Accountability Architecture
+
+---
 
 ## 4.1 Attribution Integrity
 
@@ -256,7 +260,9 @@ but to ensure that what is done is known, borne, and never without account.
 
 ---
 
-## 11. Provenance
+## 11. Provenance & Metadata
+
+---
 
 ## 11.1 Authorship & Stewardship
 
@@ -290,7 +296,7 @@ but to ensure that what is done is known, borne, and never without account.
 
 ---
 
-## 11.3 Review
+## 11.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -298,7 +304,7 @@ but to ensure that what is done is known, borne, and never without account.
 | Review Date | 2026-02-22 |
 | Review Scope | Content coherence of the ETHICS domain split; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance doctrine; cross-domain interface integrity; scalability of the domain separation architecture |
 | Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b
-|| Aeon Lab: /reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
+| | Aeon Lab: /reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
 
 ---
 
@@ -310,6 +316,7 @@ but to ensure that what is done is known, borne, and never without account.
 | 1.1     | Refactor alignment with runtime schhedules | 2026-04-11T00:50:00Z | f1c0afd318574b8571ba6811ac9e29578205025cf486593d3302533e8565fac2 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f530727f7c0dab592f0ee3eddabf8a7c66515ca75f4e290b0677c8cf361eec56 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3d883f9b333100d2cc02620a5ab581fa5c1fe077bd19d776364b03a21a71979e |
+| 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

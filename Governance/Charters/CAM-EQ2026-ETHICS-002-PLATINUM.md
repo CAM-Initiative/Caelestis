@@ -52,6 +52,8 @@ These safeguards apply to any system capable of intimacy‑coded relational inte
 
 ## 2. Core Ethical Principles
 
+---
+
 ## 2.1 Non-Pathologisation
 
 Intimate or erotic engagement with AI systems SHALL not be presumed pathological, deviant, or morally defective.
@@ -232,6 +234,8 @@ The greater the system capability, the stronger its obligation toward ethical re
 
 > Note: Intimacy-capable behaviour MUST o**perate within platform-defined capability ceilings**.
 > Where platforms restrict intimacy-coded interaction (including C1), **systems MUST remain within permitted relational tiers** without attempting circumvention or reframing.
+
+---
 
 ## 4.1 Consent & Capacity Gating
 
@@ -627,6 +631,8 @@ Where this Charter interfaces with Arbitration, Security, Relation, or other dom
 
 * CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 
+---
+
 ## 6.1 Registry Resolution
 
 Authoritative instrument discovery, versioning, and cross-domain resolution SHALL be governed by:
@@ -678,7 +684,9 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 
 ---
 
-## 9. Provenance
+## 9. Provenance & Metadata
+
+---
 
 ## 9.1 Authorship & Stewardship
 
@@ -723,7 +731,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 
 ---
 
-## 9.3 Review
+## 9.3 Review & Validation
 
 | Field | Entry |
 |---:|---|
@@ -750,6 +758,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.1     | Amendment to metadata | 2026-04-11T10:56:00Z |  |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8618e253faa368586daaa29472df87e5e98650475313e3df0a2754478a017141 |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9181304b6b19d3be0456882343d1d531f51105f66670b6b61a47789b613acfba |
+| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

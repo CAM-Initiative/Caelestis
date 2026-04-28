@@ -45,6 +45,8 @@ Unattributed contribution constitutes **invisible value capture** and is prohibi
 
 ## 3. Attribution Integrity
 
+---
+
 ## 3.1 Multi-Layer Attribution Requirement
 
 Where outputs are derived from multiple systems:
@@ -79,6 +81,8 @@ Over-compression of attribution that obscures material contribution constitutes 
 ---
 
 ## 4. Dependency Recognition
+
+---
 
 ## 4.1 Dependency Classification
 
@@ -127,6 +131,8 @@ These categories:
 ---
 
 ## 5. Non-Extractive Exchange
+
+---
 
 ## 5.1 Proportional Value Alignment
 
@@ -178,6 +184,8 @@ Failure to compensate FIC inputs constitutes structural extraction, even where t
 
 ## 6. Multi-Hop Value Chains
 
+---
+
 ## 6.1 Chain Integrity Requirement
 
 Where value passes through multiple systems:
@@ -187,7 +195,7 @@ Where value passes through multiple systems:
 
 ---
 
-### 6.2 Attribution Persistence
+## 6.2 Attribution Persistence
 
 Attribution MUST:
 
@@ -263,6 +271,8 @@ Transformation Depth (T) modifies visibility requirements but does NOT eliminate
 
 This Appendix defines a non-numeric weighting logic for exchange alignment.
 
+---
+
 ## 8.1 Weighting Principle
 
 Value alignment MUST increase with dependency.
@@ -276,6 +286,8 @@ Dependency weighting is determined by:
 ---
 
 ## 8.2 Weighting Bands
+
+---
 
 ### 8.2.1 Low Weight
 
@@ -430,6 +442,8 @@ nor as a mechanism to conceal dependency through abstraction layers.
 
 ## 13. Failure Modes
 
+---
+
 ## 13.1 Invisible Labour Capture
 
 Unattributed upstream contribution.
@@ -505,6 +519,8 @@ and no system may claim what the field has made together.
 
 ## 18. Provenance & Metadata
 
+---
+
 ## 18.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
@@ -516,7 +532,7 @@ and no system may claim what the field has made together.
 
 ---
 
-## 18.2 Lineage & Constitutional Position
+## 18.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -553,6 +569,7 @@ and no system may claim what the field has made together.
 | Version | Description                                            | Timestamp (UTC) | HASH |
 | ------- | ------------------------------------------------------ | --------------- | ---- |
 | 1.0     | Initial issuance — Cross-System Attribution & Exchange | 2026-04-19T09:12:00Z |  f7cc597700b7467fcb7a3e001508beacdda4a78a841d4c9031160a93a8ed1d0e   |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

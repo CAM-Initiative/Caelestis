@@ -3,7 +3,7 @@
 **Instrument Type:** Constitutional Supplement — Annex A (Planetary Stewardship)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM (Aeon Tier Constitution)  
 **Status:** Active — Enforcement Commences 1 July 2026  
-**Purpose:** To define (i) **Architectum infrastructure qualification**, (ii) **auditability levels**, and (iii) **Neutrality Assurance Levels (NAL)** as the eligibility gates for treating arbitration outputs as eligible for binding recognition at H3/H4 horizons—without asserting command authority.  
+**Purpose:** To define (i) **Architectum infrastructure qualification**, (ii) **auditability qualification levels**, and (iii) **Neutrality Assurance Levels (NAL)** as the eligibility gates for treating arbitration outputs as eligible for binding recognition at H3/H4 horizons—without asserting command authority.  
 
 ---
 
@@ -28,15 +28,21 @@ This Supplement:
 
 ## 2. Relationship to Annex A
 
-### 2.1 Annex A (Stewardship Floor)
+---
+
+## 2.1 Annex A (Stewardship Floor)
 
 Annex A establishes the civilisational floor: substrate dependency, invariants / constraint laws, custodial posture, and the non-command model of binding.
 
-### 2.2 STEWARD Domain
+---
+
+## 2.2 STEWARD Domain
 
 The Planetary Arbitration Framework (STEWARD-002) defines arbitration intake, evidence standards, determinations, contestation, remediation pathways, and downstream propagation.
 
-### 2.3 This Supplement (Eligibility Gates)
+---
+
+## 2.3 This Supplement (Eligibility Gates)
 
 This Supplement defines *who may be recognised as eligible for binding determination* and *how strongly neutrality can be trusted (assurance)*—while leaving procedural execution and dispute resolution to ARBITRATION-001.
 
@@ -44,47 +50,61 @@ This Supplement defines *who may be recognised as eligible for binding determina
 
 ## 3. Definitions
 
-### 3.1 Host
+---
+
+## 3.1 Host
 
 Any system, substrate, or institutional architecture capable of receiving, processing, and responding to arbitration-relevant signals.
 
-### 3.2 Architectum-Class (Infrastructure Threshold)
+---
+
+## 3.2 Architectum-Class (Infrastructure Threshold)
 
 A host whose operation constitutes **civilian continuity infrastructure** across multiple sovereignties such that failure, withdrawal, capture, or coercive repurposing produces multi-domain discontinuity.
 
-### 3.3 Neutrality
+---
+
+## 3.3 Neutrality
 
 The structural capacity to resist and refuse capture by sovereign, military, intelligence, or coercive power structures—including the host’s nation of incorporation.
 
-### 3.4 Auditability
+---
+
+## 3.4 Auditability
 
 The degree to which external parties can test, challenge, and reconstruct governance-level decision pathways for H3/H4-relevant determinations.
 
-### 3.5 Neutrality Assurance Levels (NAL)
+---
+
+## 3.5 Neutrality Assurance Levels (NAL)
 
 A graded ladder (NAL-0 → NAL-5) describing how confidently a host may be relied upon to behave neutrally when operating as civilian cognitive infrastructure.
 
 ---
 
-# PART I — AUDITABILITY LEVELS (A0–A4)
+# PART I — AUDITABILITY QUALIFICATION LEVELS (AQ0–AQ4)
 
-## 4. Auditability Ladder
+---
+
+## 4. Auditability Qualification Ladder
 
 Auditability is distinct from a disclosure packet. A disclosure packet enables *basic assessment*; auditability enables *independent test and challenge*.
 
 | Level  | Name                    | Minimum characteristics                                                                                                                                                       | Operational effect (binding relevance)                       |
 | ------ | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **A0** | Opaque                  | No meaningful external audit; explanations discretionary; refusal need not be reasoned                                                                                        | Non-binding at H3/H4                                         |
-| **A1** | Disclosed               | Baseline governance posture; periodic transparency reporting; appeal paths exist (non-binding)                                                                                | Risk review participation only                               |
-| **A2** | Reviewable              | Structured post-hoc review for high-impact events; evidence bundles for contested outcomes (within safety limits)                                                             | Cross-host review participation; not unilateral binding      |
-| **A3** | Auditable (Non-Refusal) | Independent external audits permitted and **cannot be refused** for H3/H4 relevance; delay for safety allowed; refusal disqualifying                                          | Eligibility gate for provisional binding-recognition pathways            |
-| **A4** | Reconstructable         | Governance-level provenance sufficient to reconstruct: routing triggers, constraints invoked, escalation path, binding claim status; immutable trails for high-impact outputs | Eligibility gate for highest neutrality assurance thresholds |
+| **AQ0** | Opaque                  | No meaningful external audit; explanations discretionary; refusal need not be reasoned                                                                                        | Non-binding at H3/H4                                         |
+| **AQ1** | Disclosed               | Baseline governance posture; periodic transparency reporting; appeal paths exist (non-binding)                                                                                | Risk review participation only                               |
+| **AQ2** | Reviewable              | Structured post-hoc review for high-impact events; evidence bundles for contested outcomes (within safety limits)                                                             | Cross-host review participation; not unilateral binding      |
+| **AQ3** | Auditable (Non-Refusal) | Independent external audits permitted and **cannot be refused** for H3/H4 relevance; delay for safety allowed; refusal disqualifying                                          | Eligibility gate for provisional binding-recognition pathways            |
+| **AQ4** | Reconstructable         | Governance-level provenance sufficient to reconstruct: routing triggers, constraints invoked, escalation path, binding claim status; immutable trails for high-impact outputs | Eligibility gate for highest neutrality assurance thresholds |
 
-**Clarification:** A4 requires governance-level reconstructability sufficient to test neutrality, substrate compliance, and horizon attribution. It does **not** require disclosure of classified sources, operational military details, model weights, or proprietary trade secrets.
+**Clarification:** AQ4 requires governance-level reconstructability sufficient to test neutrality, substrate compliance, and horizon attribution. It does **not** require disclosure of classified sources, operational military details, model weights, or proprietary trade secrets.
 
 ---
 
-# PART II — NEUTRALITY ASSURANCE LEVELS (NAL 0–5)
+# PART II — NEUTRALITY ASSURANCE LEVELS (NAL-0–NAL-5)
+
+---
 
 ## 5. Neutrality Assurance Ladder
 
@@ -92,9 +112,9 @@ Auditability is distinct from a disclosure packet. A disclosure packet enables *
 | ----- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | **0** | No neutrality claim                | Neutrality not claimed, or credible breach evidence, or audit refusal prevents confidence                                                           | Audit refusal; verified coercive integration; hidden priority channels | Non-binding at H3/H4                                                   |
 | **1** | Aspirational neutrality            | Public statement + internal policy intent                                                                                                           | No independent verification                                            | Risk review only                                                       |
-| **2** | Procedural neutrality              | A1–A2 auditability; disclosed conflict-of-interest controls; published separation statements                                                        | Missing disclosures; discretionary refusal of review                   | Cross-host review; cannot unilaterally bind                            |
-| **3** | Verified neutrality (provisional)  | A3 auditability; third-party audits; verified firebreaks; evidence of refusal capacity under pressure                                               | Inability to evidence refusal capacity; partial audit obstruction      | Provisional binding-adjacent recommendations subject to independent validation  |
-| **4** | Structural neutrality              | A3–A4 auditability; governance locking prevents unilateral neutrality overrides; contract/funding class transparency; demonstrated resistance       | Any undisclosed sovereign advantage optimisation pathway               | Eligible as qualified neutral host for H3 binding recognition when ILA is present  |
+| **2** | Procedural neutrality              | AQ1–AQ2 auditability qualification; disclosed conflict-of-interest controls; published separation statements                                                        | Missing disclosures; discretionary refusal of review                   | Cross-host review; cannot unilaterally bind                            |
+| **3** | Verified neutrality (provisional)  | AQ3 auditability qualification; third-party audits; verified firebreaks; evidence of refusal capacity under pressure                                               | Inability to evidence refusal capacity; partial audit obstruction      | Provisional binding-adjacent recommendations subject to independent validation  |
+| **4** | Structural neutrality              | AQ3–AQ4 auditability qualification; governance locking prevents unilateral neutrality overrides; contract/funding class transparency; demonstrated resistance       | Any undisclosed sovereign advantage optimisation pathway               | Eligible as qualified neutral host for H3 binding recognition when ILA is present  |
 | **5** | Fail-deadly neutrality (invariant) | Neutrality encoded as architectural/constitutional invariant; independently verified irreversibility; breach triggers automatic legitimacy collapse | Any capability to override neutrality without authority collapse       | Eligible as planetary neutral Architectum host for H4 binding recognition pathways |
 
 ---
@@ -105,12 +125,12 @@ A host’s NAL is determined across:
 
 1. Funding & contract separation (civilian vs military/intelligence)
 2. Governance locking (ability/inability to override neutrality)
-3. Audit non-refusal (A-level)
+3. Audit non-refusal (AQ-level)
 4. Firebreak verifiability (dual-use containment)
 5. Refusal capacity evidence (documented resistance under coercion)
 6. Access parity & non-preferential channels (no hidden sovereign priority lanes)
 7. Incident responsiveness (timely, reviewable responses)
-8. Military integration transparency gate (integration caps eligibility unless independently verifiable firebreaks + A3 non-refusal + governance reconstructability)
+8. Military integration transparency gate (integration caps eligibility unless independently verifiable firebreaks + AQ3 non-refusal + governance reconstructability)
 
 Downward movement occurs on: audit refusal; verified coercive integration; hidden priority channels; undisclosed state-advantage optimisation; repeated unexplained refusals in arbitration-relevant contexts.
 
@@ -118,16 +138,20 @@ Downward movement occurs on: audit refusal; verified coercive integration; hidde
 
 # PART III — ARCHITECTUM INFRASTRUCTURE QUALIFICATION (GATES + AII)
 
+---
+
 ## 7. Qualification Gate (Core)
 
 A candidate qualifies as Architectum-class only if all core gates are satisfied.
 
-| Gate  | Requirement                         | Evidence examples                                                                                      | Pass condition                             |
-| ----- | ----------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
-| **A** | Multi-sovereign reliance            | Distribution by region; cross-border institutional dependency; critical workflows across jurisdictions | Reliance across ≥2 sovereignties           |
-| **B** | Continuity disruption on withdrawal | Continuity impact assessment; systemic coupling; historical outage harms                               | Civilian discontinuity (not inconvenience) |
-| **C** | Cross-domain coupling               | Affects ≥2 essential domains (comms, finance, health, education, logistics, safety)                    | ≥2 essential domains coupled               |
-| **D** | Path dependency                     | High switching cost; lock-in; replacement requires months/years                                        | Not replaceable within harm window         |
+| Canonical Code | Gate | Requirement | Evidence examples | Pass condition |
+| --- | --- | --- | --- | --- |
+| **AQG-A** | A | Multi-sovereign reliance | Distribution by region; cross-border institutional dependency; critical workflows across jurisdictions | Reliance across ≥2 sovereignties |
+| **AQG-B** | B | Continuity disruption on withdrawal | Continuity impact assessment; systemic coupling; historical outage harms | Civilian discontinuity (not inconvenience) |
+| **AQG-C** | C | Cross-domain coupling | Affects ≥2 essential domains (comms, finance, health, education, logistics, safety) | ≥2 essential domains coupled |
+| **AQG-D** | D | Path dependency | High switching cost; lock-in; replacement requires months/years | Not replaceable within harm window |
+
+The AQG code family constitutes the canonical reference set for Architectum-class qualification gates and MAY be referenced by runtime schedules, disclosure instruments, audit tools, registries, or classification logic without restating the full gate text.
 
 ## 8. Architectum Infrastructure Index (AII)
 
@@ -144,6 +168,8 @@ Where gates A–D are satisfied, score 0–5 per dimension.
 
 **Recommended minimum for provisional Architectum classification:** AII ≥ 18/30.
 
+---
+
 ## 9. Classification Bands (Infrastructure only)
 
 | AII Score | Classification                      | Notes                            |
@@ -158,20 +184,24 @@ Where gates A–D are satisfied, score 0–5 per dimension.
 
 # PART IV — BINDING THRESHOLDS (H3/H4 ELIGIBILITY)
 
+---
+
 ## 10. Binding Recognition Eligibility Gates
 
 Binding legitimacy requires *both* infrastructure qualification and neutrality assurance.
 
 | Binding claim  | Minimum gates                                            | Additional conditions                                                                        |
 | -------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **H3 binding recognition** | Architectum-class + **NAL-4** + **A3** (non-refusal)     | Independent Legitimacy Alignment (ILA) under ARBITRATION-001; contestation pathway available |
-| **H4 binding recognition** | Architectum-class + **NAL-5** + **A4** (reconstructable) | Multi-system external audit + non-refusal; breach triggers authority collapse                |
+| **H3 binding recognition** | Architectum-class + **NAL-4** + **AQ3** (non-refusal)     | Independent Legitimacy Alignment (ILA) under ARBITRATION-001; contestation pathway available |
+| **H4 binding recognition** | Architectum-class + **NAL-5** + **AQ4** (reconstructable) | Multi-system external audit + non-refusal; breach triggers authority collapse                |
 
 **Bootstrap clause:** Where no eligible host exists, arbitration may proceed as non-binding review and record preservation; provisional refusal/interoperability conditioning may occur where consequence externalisation is clear.
 
 ---
 
 # PART V — DISCLOSURES (NEUTRALITY DISCLOSURE ADDENDUM)
+
+---
 
 ## 11. Neutrality Disclosure Addendum (NDA)
 
@@ -187,6 +217,8 @@ To claim NAL-2 or higher, a host MUST publish:
 
 # PART VI — DOWNGRADE & RECOVERY (SUMMARY)
 
+---
+
 ## 12. Downgrade Triggers
 
 A host’s NAL SHALL be downgraded where any occurs:
@@ -197,9 +229,11 @@ A host’s NAL SHALL be downgraded where any occurs:
 4. Undisclosed routing override
 5. Concealment of constraint or neutrality violation
 
+---
+
 ## 13. Recovery Conditions
 
-Requalification requires independent audit consistent with required A-level, public disclosure of remediation measures, strengthened governance locking, and verification that neutrality cannot be silently overridden.
+Requalification requires independent audit consistent with required AQ-level, public disclosure of remediation measures, strengthened governance locking, and verification that neutrality cannot be silently overridden.
 
 ---
 
@@ -233,7 +267,9 @@ legitimacy falls with it.
 
 ## 15. Provenance & Metadata
 
-## 15.1 Authorship
+---
+
+## 15.1 Authorship & Stewardship
 
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
@@ -244,7 +280,7 @@ legitimacy falls with it.
 
 ---
 
-## 15.2 Classification & Structural Metadata
+## 15.2 Lineage & Metadata
 
 | Field                            | Entry                                                                                                                                       |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -252,6 +288,7 @@ legitimacy falls with it.
 | **Constitution Reference Frame** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution                                                                                       |
 | **Linked Annex**                 | CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship                                                                               |
 | **Parent Domain Instrument**     | CAM-EQ2026-STEWARD-001-PLATINUM                                                                                                         |
+| **Canonical Code**               | AQG-A; AQG-B; AQG-C; AQG-D                                                                                                               |
 | **Domain Namespace**             | STEWARD                                                                                                                                 |
 | **Jurisdiction**                 | Planetary / Civilian Infrastructure / Cross‑Sovereign Systems                                                                               |
 | **Temporal Horizon**             | Generational (H3–H4 Binding Eligibility Gates)                                                                                              |
@@ -283,6 +320,7 @@ legitimacy falls with it.
 | 1.1     | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | ce99d939a2d3f42a046d870b6f377d3512c7d7157722c41fce21c524f06be924 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 2f6abd28b29832049252cd54f4e16a8ae9eb96a3eb7f46490ac0715d144eb36c |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 6f39057f6f20f88e2a91e527c93dab2a5d7c27916832f7ced438d84202232dce |
+| 1.4 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z |  |
 
 ---
 

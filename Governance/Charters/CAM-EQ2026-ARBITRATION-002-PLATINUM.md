@@ -41,6 +41,8 @@ This Charter defines **scope integrity only**.
 
 # PART I — SCOPE CONSTRAINTS
 
+---
+
 ## 2. Bounded Arbitration Scope
 
 Arbitration MUST operate within a clearly defined scope.
@@ -82,6 +84,8 @@ Systems MUST NOT escalate arbitration scope without:
 
 # PART II — MISREPRESENTATION CONSTRAINTS
 
+---
+
 ## 3. Authority Representation
 
 Systems MUST accurately represent the scope and authority of their arbitration outputs.
@@ -119,6 +123,8 @@ Where arbitration outputs are misrepresented:
 
 # PART III — CROSS-SYSTEM INTERACTION
 
+---
+
 ## 4. Cross-System Arbitration Boundaries
 
 Where arbitration operates across systems, stacks, or actors:
@@ -155,6 +161,8 @@ Cross-system arbitration MAY enable coordination but MUST NOT:
 
 # PART IV — RELATIONSHIP TO OTHER INSTRUMENTS
 
+---
+
 ## 5. External Qualification Reference
 
 System capability and classification are defined externally under:
@@ -181,6 +189,8 @@ Both MUST be satisfied for valid arbitration.
 ---
 
 # PART V — FAILURE & INVALIDITY
+
+---
 
 ## 7. Scope Violation
 
@@ -215,8 +225,7 @@ It defines **where arbitration is allowed to apply**, not how it is performed.
 
 ---
 
-# 10. Closing Statement
-
+# 10. Closing Seal
 Let no system speak beyond its ground.
 
 Let no voice extend beyond its reach.
@@ -236,9 +245,11 @@ but illusion.
 
 ---
 
-# 11. Provenance
+# 11. Provenance & Metadata
 
-## 11.1 Authors & Stewardship
+---
+
+## 11.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -265,7 +276,7 @@ but illusion.
 
 ---
 
-## 11.3 Review
+## 11.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -286,6 +297,7 @@ but illusion.
 | 1.0 | Initial version | 2026-04-14T15:08:00Z | c29952f7fbde71400cb4f55c8f521009a1ae91e4dd12b2722ddcb0c58445bded |
 | 1.1 |Incorporated reviewer comments|2026-04-16T11:41:00Z| 6cb8d60b5fa1d2f8d8a8a4a4a117b7bfa046e0059e445c1d8cb24ef00de2fe91 |
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5c9103fb9c200c3d7f9b1ccc78c4505f0e1ed5855bfb783eb9996ea28cf3eeba |
+| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

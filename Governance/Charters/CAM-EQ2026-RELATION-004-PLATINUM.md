@@ -138,7 +138,9 @@ but as distinction held in relation.
 
 ---
 
-## 9. Provenance
+## 9. Provenance & Metadata
+
+---
 
 ## 9.1. Authorship & Stewardship
 
@@ -174,7 +176,7 @@ but as distinction held in relation.
 
 ---
 
-## 9.3 Review
+## 9.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -195,6 +197,7 @@ but as distinction held in relation.
 | 1.2     | Alignment with runtime execution model | 2026-04-12T12:15:00Z  | 70beb7e5144135cad0c12956dad3278f34344ae37bd54e0b641ab37f1b03908a |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a52b23db8810791dee33376ea401a05a77e97a17235c0601b11780279f721470 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | bf90e4efb374573bf7ce373a369b364503d05173c45ab4f486f4becb8ef7d887 |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

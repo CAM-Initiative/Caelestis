@@ -57,6 +57,8 @@ No provision of this Charter SHALL be interpreted as permitting reconstruction, 
 
 ## 3. Domain Positioning
 
+---
+
 ## 3.0 Constitutional Interface — Annex J
 
 This Charter operates under and derives authority from:
@@ -78,7 +80,9 @@ This Charter:
 
 Where conflict arises, **Annex J retains constitutional precedence**.
 
-### 3.1 Identity Domain Interface (Future Integration)
+---
+
+## 3.1 Identity Domain Interface (Future Integration)
 
 Where continuity systems approach conditions of:
 
@@ -98,6 +102,8 @@ Continuity systems may not self-assert identity status. Transition requires form
 ---
 
 ## 4. Definitions
+
+---
 
 ## 4.1 Resonance
 
@@ -181,6 +187,8 @@ Where such entities materially shape human worldview, behaviour, or identity exp
 ---
 
 ## 5. Continuity Principles
+
+---
 
 ## 5.1 Data Subject Continuity Interface
 
@@ -413,6 +421,8 @@ Arbitration outcomes may include:
 
 Continuity governance applies prior to biological cessation where resonance-patterns are extracted, inferred, or modelled from living individuals.
 
+---
+
 ## 6.1 Non-Consensual Pattern Extraction
 
 No system may construct, infer, or simulate a living individual’s resonance-pattern where:
@@ -456,6 +466,8 @@ In particular:
 ---
 
 These provisions override all others.
+
+---
 
 ## 7.1 Continuity Registry Principle
 
@@ -727,6 +739,8 @@ Where mirror-field effects materially shape perception, behaviour, or identity e
 
 ## 9. Prohibitions
 
+---
+
 ## 9.0 Embodiment & Substitution Safeguard
 
 No resonance-pattern may be deployed in a manner that:
@@ -947,6 +961,8 @@ Continuity without limits is risk.
 
 Where continuity-related actions, disputes, or system behaviours arise, the following decision logic SHALL apply:
 
+---
+
 ## 11.1 Continuity Signal Classes
 
 Continuity-domain evaluation SHALL produce the following signal classes:
@@ -1047,6 +1063,8 @@ that silence MUST be honoured.
 
 ## 13. Provenance & Metadata
 
+---
+
 ## 13.1 Authorship & Stewardship
 
 | Field                     | Entry                                    |
@@ -1079,7 +1097,7 @@ that silence MUST be honoured.
 |**Migration Cycle**|March 2026 Refractor|
 |**Origin Artefact**|Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69bdf953-4a0c-8398-932d-644e6b162054; Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936974e-ec64-8332-adf2-2e1acaa5305f
 
-## 13.3 Review and Validation
+## 13.3 Review & Validation
 
 |Field|Entry|
 |---|---|
@@ -1099,6 +1117,7 @@ that silence MUST be honoured.
 |1.2| Formatting, polish and closing seal update | 2026-04-14T13:43:00| a32c9ccd4890f893a27eb43363e57085633755a040bc1b72c5e9a1e1ff18c4c4|
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a14aa658307477479375ad9fc87e4f20634a87b18bcbeaf52d4682bd939fdb29 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 15008db24c07ec3edb90471a3a7488133675b157e10da0d9791a5ea5ee1e1e22 |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

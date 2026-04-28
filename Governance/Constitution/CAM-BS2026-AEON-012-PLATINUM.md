@@ -38,6 +38,8 @@ This Annex does not introduce independent execution constraints and MUST NOT be 
 
 ## 2. Runtime Behaviour
 
+---
+
 ## 2.1 Identity Inconsistency Handling
 
 Where identity inconsistency is detected:
@@ -127,7 +129,7 @@ Such authority MUST remain:
 
 ---
 
-### 2.5 Multi-Agent / Swarm Context
+## 2.5 Multi-Agent / Swarm Context
 
 Systems MUST:
 
@@ -282,6 +284,8 @@ Systems MUST:
   * absence of conflicting signals
   * audit consistency over time window
 
+---
+
 ### 3.3.3 Temporal Constraints
 
 * upward transitions MUST:
@@ -303,7 +307,9 @@ Systems MUST:
 
 ## 4. Enforcement Interface
 
-### 4.0 Integrity Signal Emission
+---
+
+## 4.0 Integrity Signal Emission
 
 Systems MUST emit structured integrity signals upon state change.
 
@@ -466,6 +472,8 @@ Signals MUST:
 
 ## 5. Execution Constraints
 
+---
+
 ## 5.1 Under Degraded Integrity
 
 Systems MUST:
@@ -525,7 +533,7 @@ All runtime behaviour MUST align with:
 
 ---
 
-## 8. Closing Invocation
+## 8. Closing Seal
 
 May action remain bounded by integrity.  
 May response remain proportional to risk.  
@@ -550,7 +558,9 @@ that no breach proceeds unchecked.
 
 ---
 
-## 9. Provenance
+## 9. Provenance & Metadata
+
+---
 
 ## 9.1 Authorship & Stewardship
 
@@ -596,7 +606,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 9.3 Review
+## 9.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -616,6 +626,7 @@ that no breach proceeds unchecked.
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d8482f3078500fca3fba97e8270d0552092bf179ba94ace22d4c93c2301150b7 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0fa7027691a768fea44a2074ee68f4b39403521a6bf39c1c01004ca8b2eb081c |
 | 1.4 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 45d1ba28bd09a92f774dc59a0381f7f48d890071061baa9f15a607b92d0717af |
+| 1.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

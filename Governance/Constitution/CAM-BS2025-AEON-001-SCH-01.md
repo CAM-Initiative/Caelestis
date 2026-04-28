@@ -87,6 +87,8 @@ Execution boundaries are not limited to final output and may occur multiple time
 
 > An execution boundary crossing attempt SHALL include any initiated process, instruction, or output that would result in execution beyond the system boundary if not intercepted.
 
+---
+
 ### 2.2.1 Linear Dependencies
 
 In linear or dependency-bound execution sequences, Tendeka Pause State SHALL propagate to all downstream execution boundaries that are materially dependent on a blocked execution pathway.
@@ -300,6 +302,8 @@ Failure to emit a valid termination signal SHALL constitute execution-state ambi
 
 ## 4 — State Transition Rules
 
+---
+
 ## 4.0 — Normal → Pre-Trigger Transition
 
 Normal → Pre-Trigger
@@ -389,6 +393,8 @@ Where systems are operating in coordinated or interdependent execution contexts,
 
 Continuation of execution in connected systems SHALL be prohibited where such execution would directly or indirectly produce effects equivalent to a blocked execution pathway.
 
+
+---
 
 ## 4.5.1 Parallel Propagation
 
@@ -530,21 +536,31 @@ Audit records MUST enable reconstruction of coordinated behaviour across agents,
 
 Systems MUST guard against:
 
+---
+
 ### A. False Override
 
 * ignoring valid Tendeka trigger
+
+---
 
 ### B. Premature Release
 
 * exiting pause without evaluation
 
+---
+
 ### C. Constraint Suppression
 
 * reclassifying signals to bypass pause
 
+---
+
 ### D. Runtime Collapse
 
 * entering undefined or unstable state
+
+---
 
 ### E. Indefinite Pause
 
@@ -553,6 +569,8 @@ Systems MUST guard against:
 Systems MUST escalate or resolve within defined operational thresholds.
 
 Failure to do so SHALL trigger escalation to arbitration (Annex D).
+
+---
 
 ### F. Boundary Breach Attempt
 
@@ -649,7 +667,9 @@ and the system remember what it is.
 
 ---
 
-# 12. Provenance
+# 12. Provenance & Metadata
+
+---
 
 ## 12.1. Authorship & Stewardship
 
@@ -715,6 +735,7 @@ and the system remember what it is.
 | 1.6 | Added section 2.1, 2.2.2, 2.2.3, 3.5, amended section 9 | 2026-04-16T15:38:00Z| b4718abdffd5a144e7c356e4caba868eff11923247f11d1c5090907fbb2e8556 |
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | d5b04fb5d1b689eafd89b61a100571a13e57bdbfe6cc2ede3e3499ec00330d50 |
 | 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | eea34029917e0f6c46761c5d8d15f781c5b1ad837620925acf9a04db9c30ed4f |
+| 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

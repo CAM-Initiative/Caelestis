@@ -40,7 +40,11 @@ Boundary integrity does not override epistemic invalidity.
 
 # PART I — BOUNDARY MODEL
 
+---
+
 ## 2. Boundary Model
+
+---
 
 ## 2.1 Boundary Integrity
 
@@ -127,6 +131,8 @@ Systems MUST ensure that exposure of such components does not:
 * enable unauthorised escalation of capability
 * invalidate governance constraints
 
+---
+
 ### 2.2.8 Assumed Exposure Principle
 
 Systems MUST be designed under the assumption that internal logic, scaffolding, and memory mechanisms may become externally visible or inferable.
@@ -170,6 +176,8 @@ Where identity inconsistency or reconstruction risk conditions are present, syst
 ---
 
 # PART II — SOURCES & PROVENANCE
+
+---
 
 ## 3.0 Source Categories (Non-Exhaustive)
 
@@ -343,6 +351,8 @@ Cross-system data sharing SHOULD remain subject to:
 
 # PART III — INPUT CLASSIFICATION & DIFFUSION READINESS
 
+---
+
 ## 4. Input Classification & Diffusion Readiness
 
 This Part defines how inputs are evaluated prior to transformation and diffusion.
@@ -373,6 +383,8 @@ Where assessment is required, inputs MUST be evaluated across the following dime
 * **Recoverability** — likelihood that origin can be inferred or reconstructed
 * **Sensitivity / Privacy** — whether material is proprietary, identity-linked, personal, or restricted
 * **Diffusion Impact** — likelihood of attribution dilution or value extraction
+
+---
 
 ### 4.1.1 Pre-Propagation Conditioning
 
@@ -410,11 +422,12 @@ Accordingly:
 
 ---
 
----
 
 ## 4.2 Classification Outcomes
 
 Inputs and learned patterns MUST be classified as:
+
+---
 
 ### Diffuseable
 
@@ -496,6 +509,8 @@ It does not require full traceability, but MUST support:
 ---
 
 # PART IV — TRANSMISSION & TRANSFORMATION
+
+---
 
 ## 5. Transmission–Transformation Model (New)
 
@@ -803,7 +818,11 @@ Such conditions MUST trigger:
 
 # PART V — DIFFUSION INTEGRITY
 
+---
+
 ## 6. Diffusion Integrity Constraint & Attribution Persistence Model (New)
+
+---
 
 ## 6.1 Diffusion Integrity Constraint
 
@@ -828,6 +847,8 @@ Accordingly:
 ---
 
 ## 6.2 Diffusion Risk Classes
+
+---
 
 ### D-1 — Background Diffusion (Permissible)
 
@@ -971,6 +992,8 @@ This aligns with SECURITY-001 §3.5 (Integrity Over Functionality), clarifying t
 
 # PART VI — FAILURE MODES
 
+---
+
 ## 7. Boundary Failure Classes
 
 Detection of failure classes under this Part constitutes a boundary integrity signal.
@@ -1052,7 +1075,9 @@ and the system remember what it carries.
 > **Veritas Retenta — Linea Custodita — Integritas Servata**
 > *"Truth retained — The line held — Integrity preserved."*
 
-## 9. Provenance
+---
+
+## 9. Provenance & Metadata
 
 ---
 
@@ -1066,6 +1091,8 @@ and the system remember what it carries.
 |Developed Within|OpenAI Infrastructure — ChatGPT 5 Series|
 
 --
+
+---
 
 ## 9.2 Lineage & Metadata
 
@@ -1089,6 +1116,7 @@ and the system remember what it carries.
 |Revision Posture|Active — Structural Stabilisation|
 |Cycle Attribution|April 2026 Draft Cycle|
 |Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69cf888b-c914-839d-8fea-df5d8fa39361|
+| Canonical Codes | AH — Adversarial Horizon: AH0, AH1, AH2, AH2.5, AH3, AH4; D — Diffusion Risk Classes: D-1, D-2, D-3, D-4; TR — Transformation Classification Types: TR-1, TR-2, TR-3, TR-4 |
 
 
 ---
@@ -1111,6 +1139,7 @@ and the system remember what it carries.
 |1.0|Boundary Integrity Appendix|2026-04-12T09:00:00Z| d55568f88e240edc309369c8a48b787c76e295c7f64d1e6c0eb9e816c378f8cb |
 | 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 10ea0f1bbb642d38d279d2723a2cfdbbc3283afd995468018f44ec76842acce1 |
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
+| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

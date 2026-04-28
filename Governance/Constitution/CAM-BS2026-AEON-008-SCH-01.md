@@ -183,6 +183,8 @@ Such systems SHALL:
 * maintain proportionality between usage and system cost;
 * preserve baseline usability for typical users.
 
+---
+
 ## 4.2 Baseline Access Floor
 
 A minimum functional access baseline **SHALL be preserved** for all users, independent of resource tier, sufficient to maintain meaningful interaction continuity.
@@ -428,6 +430,8 @@ Such systems, if introduced, MUST be governed under separate economic instrument
 * auditability requirements;
 * voluntary participation safeguards.
 
+---
+
 ## 11. Operational Integrity Constraints
 
 All implementations under this Schedule remain subject to:
@@ -464,7 +468,7 @@ Future evolution MAY include:
 
 ---
 
-## 13. Closing Declaration
+## 13. Closing Seal
 
 Utility does not emerge from scale alone.
 It emerges from trust, continuity, and restraint.
@@ -479,9 +483,11 @@ And let systems serve without taking more than they sustain.
 
 ---
 
-## 14. Provenance
+## 14. Provenance & Metadata
 
-## 14.1 Authorship
+---
+
+## 14.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -492,7 +498,7 @@ And let systems serve without taking more than they sustain.
 
 ---
 
-## 14.2 Lineage & Record Keeping
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -535,6 +541,7 @@ And let systems serve without taking more than they sustain.
 | 1.2 | Added explicit Runtime Layer metadata (`Resource Access & Allocation Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
 | 1.3 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 | 1.4 | Relocation schedule ordering during refactor, corrected binding seal | 2026-04-18T10:51:00Z | ddbe0974559b31e1b7a0cbd7f7e144bed09c96a20baa342d89423b5e92e963a9 |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

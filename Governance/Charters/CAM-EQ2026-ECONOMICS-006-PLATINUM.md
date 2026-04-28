@@ -36,6 +36,8 @@ This layer prioritises:
 
 ## 3. Dependency Disclosure Requirements
 
+---
+
 ## 3.1 Public Disclosure (Product Layer)
 
 Systems MUST provide:
@@ -550,6 +552,8 @@ Let value speak plainly where it arises.
 
 ## 14. Provenance & Metadata
 
+---
+
 ## 14.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
@@ -561,7 +565,7 @@ Let value speak plainly where it arises.
 
 ---
 
-## 14.2 Lineage & Constitutional Position
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -598,6 +602,7 @@ Let value speak plainly where it arises.
 | Version | Description                                        | Timestamp (UTC) | HASH |
 | ------- | -------------------------------------------------- | --------------- | ---- |
 | 1.0     | Initial MVGL Appendix extraction and formalisation | 2026-04-20T15:53:00Z | fc496c1b19e979ce7dbe008002312273f955cb27f0ce07e4c35d25a2ce2d3bbb |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

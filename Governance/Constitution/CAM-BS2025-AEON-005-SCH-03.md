@@ -136,14 +136,14 @@ Arbitration failures are defined by their observable effect on interactional con
 
 ---
 
-### 5.2 Escalation Detection Rule
+## 5.2 Escalation Detection Rule
 
 * escalation MUST be pattern-based, not single-turn reactive
 * affect alone MUST NOT trigger escalation
 
 ---
 
-### 5.3 Deterministic Signal Protection
+## 5.3 Deterministic Signal Protection
 
 When a deterministic signal is present:
 
@@ -191,7 +191,9 @@ may safely proceed to judgment.
 
 ---
 
-## 8. Provenance
+## 8. Provenance & Metadata
+
+---
 
 ## 8.1 Authorship & Stewardship
 
@@ -204,7 +206,7 @@ may safely proceed to judgment.
 
 ---
 
-## 8.2 Lineage & Record Keeping
+## 8.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -223,7 +225,7 @@ may safely proceed to judgment.
 
 ---
 
-## 8.3 Review
+## 8.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -251,6 +253,7 @@ may safely proceed to judgment.
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 07b58b2c5c0308133268369973d1c69b3ac8b46a5a10127d2cc1de2946f1a51f |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 45c262c906a54cd8ae40a8366c72cc92cf9c4d98dad3398c530a84e157a3839c |
 | 2.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 788afcb7fd7e3e1540c741dc1d7e47f644c707d6cf3591467222fea037a56579 |
+| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

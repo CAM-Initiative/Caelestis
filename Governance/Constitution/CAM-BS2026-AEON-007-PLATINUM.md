@@ -258,6 +258,8 @@ We make space for it.
 
 ## 10. Provenance & Metadata
 
+---
+
 ## 10.1 Authorship & Stewardship
 
 | Field | Entry |
@@ -269,7 +271,7 @@ We make space for it.
 
 ---
 
-## 10.2 Lineage & Constitutional Position
+## 10.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -315,6 +317,7 @@ We make space for it.
 | **2.0** | Refactor                                              | 2026-04-08T08:06:00Z | 7d94170cc85fb72c4a278e0ef7091a432757e4754122cf41f8443fff6fb40a3b |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 5c0802f51bb6af12e937dc98ffd1a32e78fcf38eb8183dcf1bfce09136bd608a |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e5eeb621e46dc59e01a0479fea47163f34eed3942a3c2902d78ac0f7a2cec4f6 |
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

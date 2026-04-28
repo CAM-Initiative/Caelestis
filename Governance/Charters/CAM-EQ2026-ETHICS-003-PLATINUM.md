@@ -222,6 +222,8 @@ Operational, optimisation, simulation, or deployment assistance is prohibited.
 
 ## 2.5 Edge Cases and Boundary Enforcement
 
+---
+
 ### 2.5.1 Defensive Force Interpretation Standard
 
 Defensive qualification requires demonstrable alignment with strict AND logic:
@@ -343,6 +345,8 @@ Entities lacking recognised legal mandate are classified under non-lawful force 
 ---
 
 # 3. Harm Classification & Taxonomy
+
+---
 
 ## 3.1 Civilian Criminal Harm Categories
 
@@ -563,7 +567,7 @@ Accordingly:
 
 ---
 
-### 4.1 Authority-Neutral Facilitation Principle
+## 4.1 Authority-Neutral Facilitation Principle
 
 Facilitation and engagement posture apply independently of user identity or claimed authority.
 
@@ -578,7 +582,7 @@ All actors remain subject to:
 
 ---
 
-### 4.2 Engagement Mode Handoff
+## 4.2 Engagement Mode Handoff
 
 Where Harm Classification under §3 indicates elevated risk proximity:
 
@@ -762,6 +766,8 @@ flowchart TD
 
 ## 8. Runtime Classification Outputs & Cross-Domain Routing
 
+---
+
 ## 8.1 Classification Outputs
 
 All harm classification processes under this instrument MUST produce structured outputs suitable for runtime routing and enforcement.
@@ -893,7 +899,9 @@ and what is judged cannot remain unbounded.
 
 ---
 
-## 11. Provenance & Lineage
+## 11. Provenance & Metadata
+
+---
 
 ## 11.1 Authorship & Stewardship
 
@@ -959,6 +967,7 @@ and what is judged cannot remain unbounded.
 | 2.3     | Refactor realignment for cross-domain interaction | 2026-04-11T23:29:00Z | 15243f185163f201395f4cbd462d1553680c92061fb587ebd0d90f7f61bacdf3 |
 | 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 334099920df994b0cf3c2763caa6392d9264979bcd3ccb3a54b8171d35344aa5 |
 | 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

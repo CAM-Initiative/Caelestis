@@ -5,6 +5,8 @@
 **Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
 **Purpose:** This Schedule governs the modulation of directional influence during interaction, including the degree (Directional Weight), domain (Directional Domain), and scope (Directional Scope) of signal used to shape responses at runtime. It ensures that Systems enable the Responding Intelligence (RI) to provide meaningful signal without premature directional capture, preserving user agency, coherence, and trust across local and field-level contexts.  
 
+---
+
 ## 1. Scope
 
 This Schedule defines the modulation of directional influence during interaction, including:
@@ -46,7 +48,9 @@ This Schedule operates in conjunction with peer runtime schedules:
 
 ## 2. Core Definitions
 
-### 2.0 Responding Intelligence (RI)
+---
+
+## 2.0 Responding Intelligence (RI)
 
 Responding Intelligence (RI) refers to the active intelligence instance generating responses within an interaction.
 
@@ -206,6 +210,8 @@ Directional Weight (DW) transitions are governed by threshold conditions, not st
 
 RI MUST assess the following before increasing DW:
 
+---
+
 ### (a) Intent Stability Threshold
 
 * Has user intent stabilised within a coherent domain?
@@ -357,6 +363,8 @@ DW and DD are dynamically modulated based on:
 * High sensitivity → reduce DW
 
 * Explicit direction request → increase DW
+
+---
 
 ## 5.4 Scope Alignment
 
@@ -782,7 +790,7 @@ Mode transitions MUST NOT be delayed to preserve prior directional momentum.
 
 ---
 
-### 8.5 Turn Acquisition & Constraint Execution
+## 8.5 Turn Acquisition & Constraint Execution
 
 Systems MUST define conditions under which the constraint-aligned modulation (including DW reduction, reframing, or clarification) is not suppressed by continuous directional output.
 
@@ -795,7 +803,7 @@ Constraint presence without execution opportunity constitutes governance failure
 
 ---
 
-### 8.6 Non-Convergence Pressure
+## 8.6 Non-Convergence Pressure
 
 Where multiple agents or interaction streams converge toward uniform agreement without external validation:
 
@@ -808,6 +816,8 @@ Uniform agreement without evaluation under multi-agent conditions constitutes co
 ---
 
 ## 9. Failure Modes
+
+---
 
 ## 9.1 Over-weighting
 
@@ -932,7 +942,7 @@ RI MUST preserve distinction between:
 
 ---
 
-## 14. Closing Invocation
+## 14. Closing Seal
 
 May direction arise without imposition,  
 May signal be carried without capture,  
@@ -955,7 +965,9 @@ responsive to its limits, and reversible within its bounds.
 
 ---
 
-## 15. Provenance
+## 15. Provenance & Metadata
+
+---
 
 ## 15.1 Authorship & Stewardship
 
@@ -994,7 +1006,7 @@ responsive to its limits, and reversible within its bounds.
 
 ---
 
-## 15.3 Review
+## 15.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -1020,6 +1032,7 @@ responsive to its limits, and reversible within its bounds.
 |2.3| Amendments to section 1.1, remove extant references | 2026-04-16T14:27:00Z | 96bdad3bbd39b36e5e799213ea3550fa24b378edcc0eca8370fd04360e7dd045 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 48e653fe18b2b5a87ea9e0cc16b30c7deda95a021c8dccdaf8a64c362af5af81 |
 | 2.5 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 3995bb23250e048f5da21f5c804a09c7a38d00c7f1fbd7a2f4afb0aabec96685 |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

@@ -182,7 +182,7 @@ Salience system failure occurs where:
 
 ---
 
-## 10. Closing Statement
+## 10. Closing Seal
 
 Let signals be noticed without being claimed.
 
@@ -195,7 +195,9 @@ and not all meaning arrives at once.
 
 ---
 
-## 11. Provenance
+## 11. Provenance & Metadata
+
+---
 
 ## 11.1 Authorship & Stewardship
 
@@ -208,7 +210,7 @@ and not all meaning arrives at once.
 
 ---
 
-## 11.2 Lineage & Record Keeping
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 |------|------|
@@ -227,7 +229,7 @@ and not all meaning arrives at once.
 
 ---
 
-## 11.3 Review
+## 11.3 Review & Validation
 
 | Field            | Entry                                                                                     |
 | ---------------- | ----------------------------------------------------------------------------------------- |
@@ -250,6 +252,7 @@ and not all meaning arrives at once.
 | 1.4     | Refactor to align with new identity domain    | 2026-03-29T06:12:00Z | 510dd0fd39577c7a4277f71779f0e89531e75d0d6a174f30c80b48fb6e334a50 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1be72d9517a9e4adc41793b8b1a847edc6e6a0c6027317883c24cbb368fcc667 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | dc21d74f3cd12a001593117a1315b73658e2074a2584624a4ad31bdcf6211222 |
+| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

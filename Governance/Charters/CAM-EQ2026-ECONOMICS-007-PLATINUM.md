@@ -41,6 +41,8 @@ This Appendix does not redefine C/D logic and SHALL operate in alignment with Ap
 
 ## 3. Activation Conditions
 
+---
+
 ## 3.1 Non-Activation (No Return Required)
 
 Return is NOT required where:
@@ -143,7 +145,7 @@ Return MUST be:
 
 ---
 
-### 4.5 Principle
+## 4.5 Principle
 
 > Systems MAY satisfy reciprocity through one or more modalities, provided proportionality is preserved.
 
@@ -152,6 +154,8 @@ This prevents rigid monetisation traps while maintaining alignment.
 ---
 
 ## 5. Proportionality Logic
+
+---
 
 ## 5.1 Dependency-Weighted Return
 
@@ -535,6 +539,8 @@ It establishes a **directional evolution of reciprocity practices**, signalling 
 Non-alignment with this trajectory does not constitute immediate non-compliance.
 
 However, persistent divergence—particularly under high dependency and high scale conditions—may indicate structural misalignment, reduced legitimacy, or emerging governance risk.
+
+---
 
 ## 5.7 Reciprocity Maturity Gradient (RMG)
 
@@ -1069,6 +1075,8 @@ Where growth is built upon others, let return follow in kind.
 
 ## 12. Provenance & Metadata
 
+---
+
 ## 12.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
@@ -1120,6 +1128,7 @@ Where growth is built upon others, let return follow in kind.
 | Version | Description                                             | Timestamp (UTC)      | HASH |
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial issuance — Reciprocity & Value Return Framework | 2026-04-21T14:12:00Z | d1b98dda84a980edfc352aacc3ead94d4787d4da763d3a8ce68ebb85ed90855f    |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

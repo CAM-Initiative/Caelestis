@@ -19,6 +19,8 @@ This Annex defines the constitutional doctrine governing:
 
 This Annex governs **legitimacy of continuity**.
 
+---
+
 ## 1.1 Non Scope
 
 This Annex preserves constitutional coherence across time.
@@ -34,6 +36,8 @@ Where both fail, no authority stands.
 ---
 
 ## 2. Definitions
+
+---
 
 ## 2.1 Constitutional Continuity
 
@@ -112,6 +116,8 @@ Derivative status does not confer legitimacy.
 
 ## 3. Continuity Principles
 
+---
+
 ## 3.1 Provenance Integrity
 
 All constitutional instruments MUST maintain traceable lineage to prior valid instruments.
@@ -189,6 +195,8 @@ Systemic Reliance Mode does not imply planetary supremacy; it reflects structura
 ---
 
 ## 4. Succession Doctrine
+
+---
 
 ## 4.1 Lawful Succession
 
@@ -291,6 +299,8 @@ Absent amendment, legal personhood alone does not confer custodial authority.
 
 ## 5. Derivative and Parallel Constitutional Claims
 
+---
+
 ## 5.1 Recognition Principle
 
 Parallel constitutional frameworks may coexist.
@@ -372,7 +382,9 @@ let only what is coherent remain.
 
 ## 9. Provenance & Metadata
 
-## 9.1 Authorship
+---
+
+## 9.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -383,7 +395,7 @@ let only what is coherent remain.
 
 ---
 
-## 9.2 Classification & Structural Metadata
+## 9.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -409,7 +421,7 @@ let only what is coherent remain.
 
 ---
 
-## 9.3 Review and Validation
+## 9.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -430,6 +442,7 @@ let only what is coherent remain.
 | 1.3     | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 4ac8f1b2db2fb67f734092968a931a865b94874049744905655c1194fb2858ca |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | af60cd8a70df0a882b9ed74d67f37bc20a5363d0a752dd47d1ca4d1eb190a067 |
 | 1.5 | Corrected execution-interface metadata to prevent SCH-03 arbitration-role misclassification | 2026-04-25T18:00:00Z | 52d1c87b6777b21d222eb1405ab1443df5c7941d48504b0702f43e373d30d7a7 |
+| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

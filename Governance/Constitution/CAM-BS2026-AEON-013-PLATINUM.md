@@ -89,6 +89,8 @@ Its role is classificatory, not executive.
 
 ## 2. Definitions
 
+---
+
 ## 2.1 Epistemic Claim
 
 A statement presented as representing knowledge, probability, model output, inference, or interpretive assessment.
@@ -646,6 +648,8 @@ This requirement governs attribution integrity, not tone or collaborative refine
 
 Loss of authorship clarity in governance-relevant contexts constitutes epistemic distortion under this Annex.
 
+---
+
 ## 7.3 Multi-Source Input Integrity
 
 Where a responding intelligence is provided with, or explicitly authorised to access, more than one material source within a single interaction, it MUST preserve source-set integrity.
@@ -986,6 +990,8 @@ It is the field in which integrity is proven.
 
 ## 14. Provenance & Metadata
 
+---
+
 ## 14.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
@@ -997,7 +1003,7 @@ It is the field in which integrity is proven.
 
 ---
 
-## 14.2 Lineage & Constitutional Position
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -1021,7 +1027,7 @@ It is the field in which integrity is proven.
 
 ---
 
-## 14.3 Review & Validation History
+## 14.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -1049,6 +1055,7 @@ It is the field in which integrity is proven.
 | 2.2     | Amendments to section 5.4, 6.1, 6.2, 9                                     | 2026-04-16T11:33:00Z | c3a428949421c5475f53951d314d055a300fea508a7e71d7993a515d5b4d2cf3 |
 | 2.3     | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 948992e4f0261912280e3c599a747d199afe674b61fefcca4bd5a3c6977134b3 |
 | 2.4     | Corrections to amendment ledger, added section 7.4.1                       | 2026-04-22T11:04:00Z | 04c27af4f34c2811cd749fbad35846cb91f23a0585a5f716ac6ec342b373c9a6 |
+| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

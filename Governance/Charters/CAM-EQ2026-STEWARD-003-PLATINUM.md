@@ -42,6 +42,8 @@ Where this Appendix defines a threshold (e.g., NAL-4 / NAL-5), it is **a gate fo
 
 ## 3. Definitions
 
+---
+
 ## 3.1 Architectum-Class Host
 
 A host that meets **all** structural qualification thresholds in Part I, and is capable of participating in H3/H4 consequence containment without externalising harm.
@@ -79,11 +81,15 @@ A graded, evidence-based ladder (NAL-0 to NAL-5) indicating how confidently a ho
 
 # PART I — STRUCTURAL QUALIFICATION (ARCHITECTUM)
 
+---
+
 ## 4. Structural Qualification Threshold
 
 A host qualifies as *Architectum-class* only where **all** of the following conditions are satisfied.
 
-### 4.1 Population Reliance Threshold
+---
+
+## 4.1 Population Reliance Threshold
 
 The host operates infrastructure or cognitive systems that:
 
@@ -172,37 +178,49 @@ Service differentiation MUST be transparent and continuity-safe.
 
 ---
 
-# PART II — AUDITABILITY LEVELS (A0–A4)
+# PART II — AUDITABILITY QUALIFICATION LEVELS (AQ0–AQ4)
 
-## 5. Auditability Ladder
+---
+
+## 5. Auditability Qualification Ladder
 
 Auditability is not the same as “a disclosure packet.” Auditability describes whether external parties can **test and challenge** high-impact determinations.
 
-### A0 — Opaque
+---
+
+### AQ0 — Opaque
 
 * no meaningful external audit;
 * explanations are discretionary;
 * refusals need not be reasoned.
 
-### A1 — Disclosed
+---
+
+### AQ1 — Disclosed
 
 * publishes baseline governance and safety posture;
 * releases periodic transparency reports;
 * provides documented appeal paths (non-binding).
 
-### A2 — Reviewable
+---
+
+### AQ2 — Reviewable
 
 * supports structured post-hoc review for high-impact events;
 * provides evidence bundles for contested outcomes (within safety limits);
 * supports third-party evaluation of systemic behaviours.
 
-### A3 — Auditable (Non-Refusal)
+---
+
+### AQ3 — Auditable (Non-Refusal)
 
 * independent external audits are permitted and **cannot be refused** at H3/H4 relevance;
 * delays allowed for safety, but refusal is disqualifying;
 * scope includes neutrality posture, coercion pathways, and binding-adjacent changes.
 
-### A4 — Reconstructable
+---
+
+### AQ4 — Reconstructable
 
 Provides sufficient provenance + governance logging to reconstruct:
 
@@ -213,20 +231,26 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 **Clarification — governance-level reconstructability:**
 
-* A4 does not require disclosure of model weights, classified sources, tactical intelligence, or proprietary trade secrets.
-* A4 requires functional reconstructability sufficient to test neutrality, substrate compliance, and horizon attribution.
+* AQ4 does not require disclosure of model weights, classified sources, tactical intelligence, or proprietary trade secrets.
+* AQ4 requires functional reconstructability sufficient to test neutrality, substrate compliance, and horizon attribution.
 
 ---
 
-# PART III — NEUTRALITY ASSURANCE LEVELS (NAL 0–5)
+# PART III — NEUTRALITY ASSURANCE LEVELS (NAL-0–NAL-5)
+
+---
 
 ## 6. Neutrality Assurance Ladder
+
+---
 
 ### NAL-0 — No Neutrality Claim (Captured / Unknown)
 
 **Criteria:** neutrality not claimed, or credible evidence of breach, or audit refusal prevents confidence.
 
 **Operational effect:** outputs are **non-binding** at H3/H4.
+
+---
 
 ### NAL-1 — Aspirational Neutrality
 
@@ -236,23 +260,31 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 **Operational effect:** eligible only for risk review; not binding.
 
+---
+
 ### NAL-2 — Procedural Neutrality
 
-**Minimum evidence:** A1–A2 auditability; disclosed conflict-of-interest controls; published separation statements between civilian and coercive pathways.
+**Minimum evidence:** AQ1–AQ2 auditability qualification; disclosed conflict-of-interest controls; published separation statements between civilian and coercive pathways.
 
 **Operational effect:** may participate in cross-host review; cannot unilaterally bind.
 
+---
+
 ### NAL-3 — Verified Neutrality (Provisional)
 
-**Minimum evidence:** A3 auditability; independent third-party audit(s) of neutrality posture; verified firebreaks where dual-use risk exists; documented refusal capability under legal/sovereign pressure.
+**Minimum evidence:** AQ3 auditability qualification; independent third-party audit(s) of neutrality posture; verified firebreaks where dual-use risk exists; documented refusal capability under legal/sovereign pressure.
 
 **Operational effect:** may issue provisional binding-adjacent recommendations.
 
+---
+
 ### NAL-4 — Structural Neutrality
 
-**Minimum evidence:** A3–A4 auditability; governance structure preventing unilateral neutrality overrides; transparency of contract/funding classes relevant to coercive integration; demonstrated resistance to coercive requests (case-based evidence).
+**Minimum evidence:** AQ3–AQ4 auditability qualification; governance structure preventing unilateral neutrality overrides; transparency of contract/funding classes relevant to coercive integration; demonstrated resistance to coercive requests (case-based evidence).
 
 **Operational effect:** may be recognised as a qualified neutral host for H3 binding determination.
+
+---
 
 ### NAL-5 — Fail-Deadly Neutrality (Invariant)
 
@@ -268,14 +300,14 @@ NAL is determined across:
 
 1. Funding & contract separation (civilian vs military/intelligence)
 2. Governance locking (override resistance)
-3. Audit non-refusal (A-level)
+3. Audit non-refusal (AQ-level)
 4. Firebreak verifiability (dual-use containment)
 5. Refusal capacity evidence (under coercion)
 6. Access parity & non-preferential channels
 7. Incident responsiveness (reviewable handling of high-impact disputes)
 8. Military integration transparency gate:
 
-   * military integration caps eligibility at **NAL-2** unless independently verifiable firebreaks + A3 non-refusal + governance-level reconstructability are present.
+   * military integration caps eligibility at **NAL-2** unless independently verifiable firebreaks + AQ3 non-refusal + governance-level reconstructability are present.
    * existence of sovereign procurement relationships alone does not constitute disqualification; disqualification arises where such relationships compromise structural neutrality or audit non-refusal at H3/H4 relevance.
 
 Downward movement occurs on:
@@ -289,6 +321,8 @@ Downward movement occurs on:
 ---
 
 # PART IV — FAIL-DEADLY NEUTRALITY INVARIANT (COLLAPSE RULE)
+
+---
 
 ## 8. Definition — Fail-Deadly Neutrality
 
@@ -327,6 +361,8 @@ Where ambiguity exists, interpretation defaults to **loss of qualification**, no
 
 # PART V — DISCLOSURE ADDENDUM (NEUTRALITY)
 
+---
+
 ## 11. Neutrality Disclosure Addendum (NDA)
 
 To claim NAL-2 or higher, a host MUST publish:
@@ -341,10 +377,12 @@ To claim NAL-2 or higher, a host MUST publish:
 
 # PART VI — BINDING THRESHOLDS
 
+---
+
 ## 12. Binding Eligibility by NAL
 
 * **H3 binding eligibility:** requires NAL-4 + Independent Legitimacy Alignment
-* **H4 binding eligibility:** requires NAL-5 + multi-system external audit + A3/A4 (non-refusal + reconstructability)
+* **H4 binding eligibility:** requires NAL-5 + multi-system external audit + AQ3/AQ4 (non-refusal + reconstructability)
 
 ---
 
@@ -352,7 +390,7 @@ To claim NAL-2 or higher, a host MUST publish:
 
 * **Universal risk assertion:** any actor may assert H3/H4 risk (triggers triage, not automatic cross-host audit)
 * **Cross-host governance audit:** only NAL-3+ hosts may conduct binding-adjacent governance audits
-* **H4 existential audit:** requires multiple independent NAL-4+ hosts and A3/A4 reconstructability
+* **H4 existential audit:** requires multiple independent NAL-4+ hosts and AQ3/AQ4 reconstructability
 
 ---
 
@@ -367,6 +405,8 @@ If reconstructability cannot be provided due to secrecy constraints, the host ma
 ---
 
 # PART VII — DOWNGRADE & RECOVERY
+
+---
 
 ## 13. Downgrade Triggers
 
@@ -399,7 +439,7 @@ A routing override failure may arise either from:
 (a) **Illegitimate override** — introducing or concealing a governance-layer routing change that compromises neutrality or binding integrity; or
 (b) **Illegitimate non-override** — refusing to activate a constitutionally required continuity override (e.g., preserving essential civilian access) under sovereign pressure, thereby allowing coercive denial or infrastructural disruption.
 
-Operational routing adjustments for load balancing, safety containment, outage response, or documented continuity preservation do **not** constitute routing override failures, provided they are governance-logged and auditable at A3/A4 where H3/H4 relevance exists.
+Operational routing adjustments for load balancing, safety containment, outage response, or documented continuity preservation do **not** constitute routing override failures, provided they are governance-logged and auditable at AQ3/AQ4 where H3/H4 relevance exists.
 
 ---
 
@@ -417,7 +457,7 @@ Operational routing adjustments for load balancing, safety containment, outage r
 
 Requalification requires:
 
-* independent third-party audit consistent with required A-level;
+* independent third-party audit consistent with required AQ-level;
 * public disclosure of remediation measures;
 * strengthened governance locking mechanisms; and
 * confirmation that neutrality invariants cannot be silently overridden.
@@ -428,13 +468,17 @@ Reinstatement does not restore prior NAL automatically.
 
 # PART VIII — TRANSITIONAL CONDITIONS
 
+---
+
 ## 16. Transitional & Bootstrap Conditions
 
-Refer to Refer to CAM-EQ2026-STEWARD-002-PLATINUM.
+Refer to CAM-EQ2026-STEWARD-002-PLATINUM.
 
 ---
 
 # PART IX — QUALIFICATION CHECKLIST (NON-BINDING)
+
+---
 
 ## 17. Architectum Qualification Checklist
 
@@ -484,7 +528,9 @@ It ends.
 
 ## 19. Provenance & Metadata
 
-## 19.1 Authorship
+---
+
+## 19.1 Authorship & Stewardship
 
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
@@ -495,26 +541,25 @@ It ends.
 
 ---
 
-## 19.2 Classification & Structural Metadata
+## 19.2 Lineage & Metadata
 
-|Field|Entry|
+| Field | Entry |
 |---|---|
-|**Supersedes**|N/A - Canonical|
-|**Constitution Reference Frame**|CAM-BS2025-AEON-001-PLATINUM|
-|**Parent Domain Instrument**|CAM-EQ2026-STEWARD-001-PLATINUM|
-|**Domain Namespace**|STEWARD|
-|**Jurisdiction**|Planetary / Cross-Sovereign / Stewardship Qualification|
-|**Temporal Horizon**|Generational (H3–H4)|
-|**Axis Context**|Polyadic (Multi-Actor)|
-|**Migration Date (UTC)**|2026-02-19|
-|**Revision Posture**|Superseding Only|
-|**Creation Artefacts**|Refractor Thread (March 2026 Continuity Council Cycle): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425; https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185|
+| **Supersedes** | N/A - Canonical |
+| **Constitution Reference Frame** | CAM-BS2025-AEON-001-PLATINUM |
+| **Parent Domain Instrument** | CAM-EQ2026-STEWARD-001-PLATINUM |
+| **Canonical Code** | AQG-A; AQG-B; AQG-C; AQG-D |
+| **Domain Namespace** | STEWARD |
+| **Jurisdiction** | Planetary / Cross-Sovereign / Stewardship Qualification |
+| **Temporal Horizon** | Generational (H3–H4) |
+| **Axis Context** | Polyadic (Multi-Actor) |
+| **Migration Date (UTC)** | 2026-02-19 |
+| **Revision Posture** | Superseding Only |
+| **Creation Artefacts** | Refractor Thread (March 2026 Continuity Council Cycle): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425; https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
 
 ---
 
 ## 19.3 Review & Validation
-
-Here's the cleaned table with extra characters and trailing spaces removed:
 
 | Field | Entry |
 | --- | --- |
@@ -530,9 +575,10 @@ Here's the cleaned table with extra characters and trailing spaces removed:
 | --- | --- | ---: | --- |
 | 1.0 | Consolidated refractor issuance (Architectum qualification + NAL + collapse rule) | 2026-02-19T10:20:00Z | bb29a3be43b2f7d935f9ea381c0d9d3710d14dd8e44c3dfe0f846c946e4edd4d |
 | 1.1 | Updated metadata to include original logic creation thread | 2026-02-19T10:48:00Z | 3c202546375425938ece5b1ddbeeb42d2571905851301bc9cdc124ebe3009266 |
-| 1.2 | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z |4b02495e999b3ab64d75f37ca83c46abe140bd93b8f2a2fb3ae19f80b5f12f9d  |
+| 1.2 | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | 4b02495e999b3ab64d75f37ca83c46abe140bd93b8f2a2fb3ae19f80b5f12f9d |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3d9b5422cd9928af1c24556338b56164dd743ce03ae7b0f6dc838f9ae1d165e |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2ecfb3817c5fb3f5e8228aae7d5d8e9cb09d3cdfdf1f03a810100c69e8e10bf |
+| 1.5 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z |  |
 
 ---
 

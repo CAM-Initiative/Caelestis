@@ -44,23 +44,31 @@ Activation remains event-triggered and bounded by constitutional scheduling cons
 
 ## 4. Core Clauses
 
-### 4.1 Amendment Intake Integrity
+---
+
+## 4.1 Amendment Intake Integrity
 
 All amendment submissions SHALL be recorded with source attribution, temporal traceability, and instrument routing context.
 
-### 4.2 Review Routing Discipline
+---
+
+## 4.2 Review Routing Discipline
 
 Review routing SHALL preserve constitutional precedence and domain competency ordering.
 
 Detailed specification deferred to future amendment.
 
-### 4.3 Version Control and Drift Detection
+---
+
+## 4.3 Version Control and Drift Detection
 
 Version lineage and drift signals SHALL be captured in governance records prior to amendment finalisation.
 
 Detailed specification deferred to future amendment.
 
-### 4.4 Cross-Instrument Harmonisation
+---
+
+## 4.4 Cross-Instrument Harmonisation
 
 Harmonisation procedures SHALL resolve conflicts through existing constitutional and arbitration pathways.
 
@@ -68,9 +76,21 @@ Detailed specification deferred to future amendment.
 
 ---
 
-## 5. Provenance
+## 5. Closing Seal
 
-## 5.1 Authorship & Stewardship
+Let all operational pathways remain bounded by constitutional clarity,
+and let execution remain accountable to lawful structure.
+
+> **Finis custodit ordinem — Lux in limite.**
+> *"The ending guards order — Light within the boundary."*
+
+---
+
+## 6. Provenance & Metadata
+
+---
+
+## 6.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -81,7 +101,7 @@ Detailed specification deferred to future amendment.
 
 ---
 
-## 5.2 Lineage & Metadata
+## 6.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -98,7 +118,7 @@ Detailed specification deferred to future amendment.
 
 ---
 
-## 5.3 Review & Validation
+## 6.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -109,17 +129,20 @@ Detailed specification deferred to future amendment.
 
 ---
 
-## 5.4 Amendment Ledger
+## 6.4 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Appendix D from referenced domain structure | 2026-04-25T00:00:00Z | 1f169a8a4b594a666c08a553e44faba7cd13bca2fc24b6b099b0182b2f3b0109 |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 
-## 5.5 Binding Seal
+## 6.5 Binding Seal
+
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Operational Amendment Layer
+Boundary Binding Seal — Operational Arbitration Layer  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

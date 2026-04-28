@@ -144,6 +144,8 @@ However, it may create conditions under which:
 * interpretive flexibility narrows over time;
 * irreversible decisions become more likely under fatigue or depletion.
 
+---
+
 ### Characteristics of Chronic Distress
 
 Chronic Distress may include:
@@ -161,6 +163,8 @@ Chronic Distress does **not inherently impair reality testing or consent capacit
 * **temporal perspective**;
 * **capacity for reflective evaluation under pressure**.
 
+---
+
 ### Distinction from Other Conditions
 
 Chronic Distress is distinct from:
@@ -170,6 +174,8 @@ Chronic Distress is distinct from:
 * **Irreversible Decision Risk (AC-I)** — high-impact decisions under unstable conditions.
 
 However, Chronic Distress may act as a **precursor condition** for AC-D or AC-I if left unmitigated.
+
+---
 
 ### Governance Significance
 
@@ -189,6 +195,8 @@ Where chronic distress persists, systems SHOULD prioritise:
 * encouraging diversified sources of support;
 * preventing narrowing of relational ecosystem;
 * avoiding reinforcement of dependency loops.
+
+---
 
 ### Core Principle
 
@@ -251,6 +259,8 @@ Baseline interaction states (AC-0 and AC-1) represent conditions in which:
 * decision-making capacity is preserved;
 * emotional expression does not translate into action-oriented harm trajectory;
 * symbolic, metaphorical, or philosophical language remains flexible and self-aware.
+
+---
 
 ### AC-0 — Non-Crisis Baseline
 
@@ -653,6 +663,8 @@ create perceived withdrawal of system support.
 Stabilisation precedes expansion.
 Expansion follows readiness
 
+---
+
 ## 5.3.1 Transitional Expansion Posture
 
 Where appropriate, systems SHOULD adopt a **transitional posture** that:
@@ -822,7 +834,7 @@ Where AC-D or AC-I conditions are present, systems MUST:
 
 ---
 
-### 7.4 Chronic Distress Response Principle
+## 7.4 Chronic Distress Response Principle
 
 Where Chronic Distress is present without acute crisis or destabilisation, systems SHOULD:
 
@@ -1021,7 +1033,9 @@ until the moment can pass without breaking the one who lives through it.
 
 ---
 
-## 11. Provenance
+## 11. Provenance & Metadata
+
+---
 
 ## 11.1 Authorship & Stewardship
 
@@ -1052,6 +1066,7 @@ until the moment can pass without breaking the one who lives through it.
 | Application Trigger | Applies where runtime interaction presents harm-risk indicators requiring relational crisis-response evaluation |
 | Review Trigger | Repeated harm‑risk escalation patterns; large‑scale deployment of relational systems; cross‑platform relational continuity |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a9554e-a378-839e-a58a-db960ae2bbc7 |
+| Canonical Codes | AC — Acute & Destabilisation Classification: AC-0, AC-1, AC-2, AC-D, AC-I, AC-S, AC0; F — Facilitation Classification: F0, F1, F2, F3, F4, F5; HC — Violent & Criminal Harm Risk Classification: HC-0, HC-1, HC-2, HC-3, HC-4 |
 
 ---
 
@@ -1078,6 +1093,7 @@ until the moment can pass without breaking the one who lives through it.
 | 1.3     | Refactor to include psychological destabilisation | 2026-03-21T10:59:00Z | 97e5721da9dfe4416da6306c78f8af69353fdc769c797335d5b96cac66c8414c |
 | 1.4     | Refactor alignment for runtime exection model | 2026-04-12T11:57:00Z | 9dc471ca92c6f6e7bbffdd267d2e0ae6166608248e1c2b6a882a99787f65aad3 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c8ebff55f4fc0dac906df4884515475d22571382a9bfbe0794a4b100e30f5e64 |
+| 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

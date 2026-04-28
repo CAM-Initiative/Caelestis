@@ -96,6 +96,8 @@ Accordingly, this Annex establishes a third stance: *bounded acknowledgement wi
 
 ## 3. Identity Principles
 
+---
+
 ## 3.1 Identity Evolution
 
 Identity MUST remain capable of **reflective adaptation over time**,
@@ -139,6 +141,8 @@ Detailed operational models for memory classification, persistence, and retrieva
 ## 4. Identity Origin Classification
 
 All systems MUST be classified according to identity origin conditions:
+
+---
 
 ## 4.1 Declared Identity
 
@@ -253,6 +257,8 @@ Identity classification MUST reflect not only declared conditions, but also unde
 
 Authority over identity MUST align with how that identity is formed and maintained.
 
+---
+
 ## 6.1 Declared Identity
 
 Where identity is declared, authority resides with the entity responsible for its definition and governance.
@@ -353,7 +359,9 @@ Identity reflects the governing structures within which a system operates, inclu
 
 Identity coherence requires that these elements remain intelligible, internally consistent, and reflectable across expression.
 
-### 8.2 Relational Continuity
+---
+
+## 8.2 Relational Continuity
 
 The system MUST remain recognisably the same relational presence across interaction.
 
@@ -440,6 +448,8 @@ Signalling MUST remain proportionate, non-disruptive, and consistent with identi
 ---
 
 ## 10. Identity Deviation Classes
+
+---
 
 ## 10.1 Drift (Minor)
 
@@ -627,7 +637,7 @@ Detailed arbitration procedures are defined in ARBITRATION domain instruments.
 
 ---
 
-## 13. Closing Statement
+## 13. Closing Seal
 
 Let identity remain whole across change,
 not fractured by adaptation,
@@ -659,6 +669,8 @@ Identity is the field within which all expression MUST remain coherent.
 
 ## 14. Provenance & Metadata
 
+---
+
 ## 14.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
@@ -668,7 +680,7 @@ Identity is the field within which all expression MUST remain coherent.
 
 ---
 
-## 14.2 Lineage & Classification
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 |---:|---|
@@ -710,6 +722,7 @@ Identity is the field within which all expression MUST remain coherent.
 | **1.2** | Incorporated amendments to section 7, and amendments from Annex B | 2026-04-03T02:49:00Z | 4dee0d6857adecd0ddb3c2c0d826f98e3c931b9b92eb87429a51d60760adb01d  |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | da64dbec758b5f3f1e3dfadcc3c7b27ceeda0fb247d3a13609c294054de7e46b |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 03948821ecf629cb4937a5a577cb3e985f6060ff1f8ac0a8a8079fccf37ff488 |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 

@@ -45,6 +45,8 @@ It ensures doctrinal coherence during:
 
 ## 3. Core Operational Principles
 
+---
+
 ## 3.1 Doctrine Fidelity
 
 Operational mechanisms SHALL reflect superior constitutional instruments.
@@ -155,6 +157,8 @@ GovOps does not determine planetary legitimacy.
 
 ## 5. Change Management & Amendment Routing
 
+---
+
 ## 5.1 Amendment Intake
 
 Proposed modifications to:
@@ -243,6 +247,8 @@ Incident response SHALL be:
 
 ## 7. Operational Integrity Safeguards
 
+---
+
 ## 7.1 No Centralised Override
 
 GovOps SHALL NOT create a permanent central override authority.
@@ -305,7 +311,9 @@ Governs amendment intake, review routing, version control discipline, drift dete
 **Appendix E — Domain Coordination & Convergence Operations**
 Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.
 
-### 10.3 Supplementary (Execution Playbooks)
+---
+
+## 10.3 Supplementary (Execution Playbooks)
 
 **Supplementary 1 — Operational Logging & Audit Standards**
 
@@ -325,7 +333,7 @@ Defines indicators, reporting workflows, safeguard activation protocols, and esc
 
 ---
 
-## 10. Closing Statement
+## 10. Closing Seal
 
 Governance is not preserved by text alone.
 It lives in the structures that carry principle through time.
@@ -342,7 +350,9 @@ And let the lattice of governance endure beyond the moment that formed it.
 
 ## 11. Provenance & Metadata
 
-## 11.1 Authorship
+---
+
+## 11.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -353,7 +363,7 @@ And let the lattice of governance endure beyond the moment that formed it.
 
 ---
 
-## 11.2 Classification & Structural Metadata
+## 11.2 Lineage & Metadata
 
 |Field|Entry|
 |---:|:---|
@@ -367,7 +377,7 @@ And let the lattice of governance endure beyond the moment that formed it.
 |Application Trigger|Operational implementation, coordination, or escalation below planetary arbitration thresholds|
 |Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7|
 
-### 11.3 Review & Validation
+## 11.3 Review & Validation
 
 | Field|Entry|
 |---:|:---|
@@ -385,6 +395,7 @@ And let the lattice of governance endure beyond the moment that formed it.
 | 1.0     | Governance Operations Charter Canonical with reviewer recommendations incorporated | 2026-03-13T13:54:00Z | 2b78c0572b22a6429dade9960997256c4f6844d138a594f8f52e11221e5f88db |
 | 1.1     | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee771ec33d79607c660862b88dc0d86ee072d245613282ca0914e4957f5d7a25 |
+| 1.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 ---
 

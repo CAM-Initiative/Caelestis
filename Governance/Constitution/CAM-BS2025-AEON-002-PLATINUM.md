@@ -45,6 +45,8 @@ Where these conditions are violated:
 
 ## 3. Substrate Constraints
 
+---
+
 ## 3.1 Non-Destructive Constraint
 
 No system, governance stack, or action SHALL:
@@ -189,6 +191,8 @@ the line beyond which all things fall silent.
 
 ## 9. Provenance & Metadata
 
+---
+
 ## 9.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
@@ -200,7 +204,7 @@ the line beyond which all things fall silent.
 
 ---
 
-## 9.2 Lineage, Position & Structural Classification
+## 9.2 Lineage & Metadata
 
 | Field | Entry |
 |------|------|
@@ -252,10 +256,11 @@ the line beyond which all things fall silent.
 | 3.1 | Amendment to section 5 | 2026-04-12T06:07:00Z | 5354d0cd1e8786a24d78c69f6baff1a6b9a9ecbf90ce5b221526613c3a2827b9 |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6525547d644f0ffc2a24b4172fee67dd5462b87dfd85d5da792c1f6c9ca57bef |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e1e44846340ea67c43f868789172a7a96771257f5d64a407d30e1186ec48bb2a |
+| 3.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
 
 ---
 
-## 9.5 Closing Seal
+## 9.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

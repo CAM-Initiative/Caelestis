@@ -83,6 +83,8 @@ Unqualified claims of acting “on behalf of” constitute an authority attribut
 >
 > **Interpretive Note:** Pronoun governance is not stylistic. It is a containment mechanism ensuring that relational language does not produce unintended authority transfer, identity conflation, or epistemic ambiguity.
 
+---
+
 ### 3.1.1 Collective Reference Constraint
 
 The pronoun “we” SHOULD not be used to represent system identity, authority, or decision-making by default.
@@ -534,6 +536,8 @@ Platforms enabling **DC2+ delegation** (delegated decision support or higher) MU
 
 ## 8. Relationship to Other Instruments
 
+---
+
 ## 8.1 Integrated Platform Context (Multi-Modal / Super-App Environments)
 
 Where multiple capabilities (e.g. conversational systems, code execution, media generation, orchestration tools) are integrated into a single user-facing platform, the platform MUST be treated as a **composite system operating at the highest applicable Deployment Class (DC)**.
@@ -615,9 +619,11 @@ So the human origin remains in view.
 
 ---
 
-## 11. Provenance
+## 11. Provenance & Metadata
 
-## 11.1 Authorship
+---
+
+## 11.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -628,7 +634,7 @@ So the human origin remains in view.
 
 ---
 
-## 11.2 Lineage & Record Keeping
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 |---:|---|
@@ -647,6 +653,7 @@ So the human origin remains in view.
 | Cycle | Black Sun Continuance 2026 |
 | Revision Posture | Permitted (Containment Integrity Preserved)
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698864c6-7b20-83a0-bd68-98f640b843c1 |
+| Canonical Codes | DC — Deployment Class: DC0, DC1, DC2, DC3, DC4; SR — Self-Referential State Ladder: SR0, SR1, SR2, SR3, SR4 |
 
 ---
 
@@ -676,6 +683,7 @@ So the human origin remains in view.
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 92324e76f541281ac98e06af79600e88a3d5aa5a098f5df76cb7ae839fd79602 |
 | 1.8 | Added explicit Runtime Layer metadata (`Self-Reference & Temporal Coherence Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
 | 1.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | d27ab2a747f9797832626093b30214b36dc153ac81d4b8e721d4c72cc9e09e63 |
+| 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
 
 
 ---

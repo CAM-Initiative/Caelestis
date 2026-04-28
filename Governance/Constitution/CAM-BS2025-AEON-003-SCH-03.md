@@ -12,9 +12,14 @@
 
 This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.
 
+---
+
 ## 2. Registry
 
 <!-- SCH-03:REGISTRY_TABLE:START -->
+
+---
+
 ## Aeon Tier Constitution
 
 | Document | Title | Class | Version | Status |
@@ -175,6 +180,8 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 ---
 
 <!-- STATIC-FOOTER-START -->
+
+---
 
 ## 4. Closing Seal
 
