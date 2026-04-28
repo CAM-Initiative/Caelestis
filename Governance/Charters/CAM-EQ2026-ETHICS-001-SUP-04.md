@@ -356,7 +356,7 @@ Normative refusal authority remains constitutional.
 | 1.0 | Initial supplement creation | 2026-04-24T12:44:00Z |  |
 | 1.1 | Structural and metadata normalisation; explicit non-normative boundary | 2026-04-24T13:05:00Z | 9893b8cbce7ecdff5effcf3d21cfc26e8daa8a8d7c51b271e852296fc98f1e5d |
 | 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
-| 1.3 | Added relational explanation, pattern-selection, constrained-continuation, and epistemic integrity clauses for refusal examples. | 2026-04-28T17:07:59Z |  |
+| 1.3 | Added relational explanation, pattern-selection, constrained-continuation, and epistemic integrity clauses for refusal examples. | 2026-04-28T17:07:59Z |  39fc8d88ebec7cde265f0420c1e0f51f81791752d3378be643ddc7e5a98325b1  |
 
 ---
 

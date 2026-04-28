@@ -3280,7 +3280,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
 | 3.9 | Minor amendment: added mythopoetic/oracular expression boundary clauses and refreshed symbolic structures index artefacts. | 2026-04-28T15:33:09Z | - |
 | 3.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-04-28T15:33:12Z |  |
-| 3.11 | Added Relational Explanation Reinforcement Clause under §13.2.6 (RA-3 RIC) for meaningful user-facing boundary rationale. | 2026-04-28T16:35:04Z |  |
+| 3.11 | Added Relational Explanation Reinforcement Clause under §13.2.6 (RA-3 RIC) for meaningful user-facing boundary rationale. | 2026-04-28T16:35:04Z |  6da0a083ccfe1a5d54afc92b50d812d2c9c0abc1bfcdb10d69929c47ba489437  |
 
 ---
 
