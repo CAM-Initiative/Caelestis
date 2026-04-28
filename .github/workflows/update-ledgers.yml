@@ -1,99 +1,35 @@
 name: Update Amendment Ledgers
-
 on:
   push:
-    branches:
-      - main
-
+    branches: [ main ]
 concurrency:
   group: governance-generated-writes-${{ github.ref }}
   cancel-in-progress: false
-
 jobs:
   update-ledgers:
     if: "!contains(github.event.head_commit.message, '[ledger-bot]')"
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Verify amendment rows exist for changed instruments (pre-fix)
-        shell: bash
-        run: |
+      - uses: actions/checkout@v5
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.11" }
+      - run: python -m pip install --upgrade pip
+      - run: |
+          echo "BASE_SHA=${{ github.event.before }}" >> "$GITHUB_ENV"
+          echo "HEAD_SHA=${{ github.sha }}" >> "$GITHUB_ENV"
+      - run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --stage pre_fix
+      - run: python .github/scripts/hash-ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+      - run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage post_fix
+      - run: |
           set -euo pipefail
-
-          BASE_SHA="${{ github.event.before }}"
-          HEAD_SHA="${{ github.sha }}"
-
-          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
-            BASE_SHA="HEAD~1"
-          fi
-
-          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --stage pre_fix
-
-      - name: Seal amendment ledgers
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          BASE_SHA="${{ github.event.before }}"
-          HEAD_SHA="${{ github.sha }}"
-
-          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
-            BASE_SHA="HEAD~1"
-          fi
-
-          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --fix --stage fix
-
-      - name: Strict post-fix ledger validation
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          BASE_SHA="${{ github.event.before }}"
-          HEAD_SHA="${{ github.sha }}"
-
-          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
-            BASE_SHA="HEAD~1"
-          fi
-
-          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage post_fix
-
-      - name: Commit and push ledger updates
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          if git diff --quiet; then
-            echo "No ledger updates to commit."
-            exit 0
-          fi
-
+          if git diff --quiet; then echo "No ledger updates to commit."; exit 0; fi
           git config user.name "ledger-bot"
           git config user.email "ledger-bot@users.noreply.github.com"
-
-          while IFS= read -r path; do
-            [[ -z "${path}" ]] && continue
-            if [[ "${path}" == Governance/Constitution/*.md || "${path}" == Governance/Charters/*.md ]]; then
-              git add -- "${path}"
-            fi
-          done < <(git diff --name-only)
-
-          if git diff --cached --quiet; then
-            echo "No staged ledger updates to commit."
-            exit 0
-          fi
-
+          git add Governance/Constitution/*.md Governance/Charters/*.md
+          if git diff --cached --quiet; then echo "No staged ledger updates to commit."; exit 0; fi
           git commit -m "[ledger-bot] Auto-update amendment ledgers"
           git pull --rebase origin main
           git push origin HEAD:main

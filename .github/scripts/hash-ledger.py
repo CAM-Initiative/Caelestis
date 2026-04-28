@@ -25,6 +25,16 @@ def main() -> int:
     parser.add_argument("--all", action="store_true", help="Scan all scoped governance files")
     args = parser.parse_args()
 
+    print("Ledger hash step started")
+
+    before = subprocess.run(
+        ["git", "diff", "--name-only"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
     cmd = [sys.executable, str(LINT_SCRIPT)]
     if args.all:
         cmd.append("--all")
@@ -36,7 +46,22 @@ def main() -> int:
         cmd.append("--fix")
 
     proc = subprocess.run(cmd, cwd=REPO_ROOT)
-    return proc.returncode
+    if proc.returncode != 0:
+        print(f"ERROR: Ledger hash step failed with exit code {proc.returncode}", file=sys.stderr)
+        return proc.returncode
+
+    after = subprocess.run(
+        ["git", "diff", "--name-only"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    before_set = {p.strip() for p in before.stdout.splitlines() if p.strip()}
+    after_set = {p.strip() for p in after.stdout.splitlines() if p.strip()}
+    updated_files = sorted(after_set - before_set)
+    print(f"Ledger hash step completed (files updated: {len(updated_files)})")
+    return 0
 
 
 if __name__ == "__main__":
