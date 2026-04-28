@@ -7,6 +7,7 @@ on:
       - ".github/scripts/lib/**"
       - ".github/scripts/update-CAM-Laws-Index.py"
       - ".github/scripts/lint_amendment_ledger.py"
+      - ".github/scripts/hash-ledger.py"
       - "Governance/Laws/**"
       - "!Governance/Laws/CAM-Laws-Index.md"
       - "!Governance/Laws/laws.index.json"
@@ -28,50 +29,45 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 0
           persist-credentials: true
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
-      - name: Block downstream updates if source ledgers are unsealed
-        shell: bash
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
+
+      - name: Resolve ledger comparison SHAs
+        run: |
+          echo "BASE_SHA=${{ github.event.before }}" >> "$GITHUB_ENV"
+          echo "HEAD_SHA=${{ github.sha }}" >> "$GITHUB_ENV"
+
+      - name: Run registry/state builders
+        run: python .github/scripts/update-CAM-Laws-Index.py
+
+      - name: Run validation/lint checks
+        run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage downstream_block
+
+      - name: Run ledger hash computation
+        run: python .github/scripts/hash-ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+
+      - name: Stage + commit + push changes (if any)
         run: |
           set -euo pipefail
-
-          BASE_SHA="${{ github.event.before }}"
-          HEAD_SHA="${{ github.sha }}"
-
-          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
-            BASE_SHA="HEAD~1"
-          fi
-
-          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage downstream_block
-
-      - name: Generate + commit + push laws index + JSON
-        shell: bash
-        run: |
-          set -euo pipefail
-
           git checkout -B main origin/main
           git config --global user.name "${BOT_NAME}"
           git config --global user.email "${BOT_EMAIL}"
-
-          python .github/scripts/update-CAM-Laws-Index.py
-
-          git add Governance/Laws/CAM-Laws-Index.md Governance/Laws/laws.index.json
-
+          git add Governance/Laws/CAM-Laws-Index.md Governance/Laws/laws.index.json Governance/Laws/*.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-
-          git commit -m "[AUTO][Laws] Refresh CAM Laws index + JSON"
-
+          git commit -m "[AUTO][Laws] Refresh CAM Laws index + JSON + ledger hashes"
           git pull --rebase origin main
           git push origin HEAD:main
