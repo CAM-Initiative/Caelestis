@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Update amendment ledgers
+      - name: Verify amendment rows exist for changed instruments (pre-fix)
         shell: bash
         run: |
           set -euo pipefail
@@ -39,9 +39,9 @@ jobs:
             BASE_SHA="HEAD~1"
           fi
 
-          python .github/scripts/update-ledgers.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --fix
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --stage pre_fix
 
-      - name: Validate amendment ledgers
+      - name: Seal amendment ledgers
         shell: bash
         run: |
           set -euo pipefail
@@ -53,7 +53,21 @@ jobs:
             BASE_SHA="HEAD~1"
           fi
 
-          python .github/scripts/update-ledgers.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --fix --stage fix
+
+      - name: Strict post-fix ledger validation
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          BASE_SHA="${{ github.event.before }}"
+          HEAD_SHA="${{ github.sha }}"
+
+          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
+            BASE_SHA="HEAD~1"
+          fi
+
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage post_fix
 
       - name: Commit and push ledger updates
         shell: bash
@@ -67,7 +81,13 @@ jobs:
 
           git config user.name "ledger-bot"
           git config user.email "ledger-bot@users.noreply.github.com"
-          git add Governance/Constitution/*.md Governance/Charters/*.md
+
+          while IFS= read -r path; do
+            [[ -z "${path}" ]] && continue
+            if [[ "${path}" == Governance/Constitution/*.md || "${path}" == Governance/Charters/*.md ]]; then
+              git add -- "${path}"
+            fi
+          done < <(git diff --name-only)
 
           if git diff --cached --quiet; then
             echo "No staged ledger updates to commit."

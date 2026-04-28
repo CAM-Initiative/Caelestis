@@ -85,4 +85,4 @@ jobs:
         run: |
           set -euo pipefail
 
-          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --stage pre_fix
