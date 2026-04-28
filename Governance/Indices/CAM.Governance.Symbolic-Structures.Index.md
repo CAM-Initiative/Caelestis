@@ -5,7 +5,7 @@
 | Metric | Value |
 |---|---:|
 | Files scanned | 88 |
-| Structures indexed | 839 |
+| Structures indexed | 840 |
 | Canonical registered structures | 33 |
 | Candidate prefixes | 5 |
 | Recurring template tables | 6 |

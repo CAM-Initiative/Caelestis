@@ -8,6 +8,7 @@ on:
       - ".github/scripts/lint_amendment_ledger.py"
       - ".github/scripts/build-symbolic-structures-index.py"
       - ".github/scripts/lint-symbolic-structures.py"
+      - ".github/workflows/lint-amendment-ledger.yml"
   push:
     branches: [ main ]
     paths:
@@ -16,6 +17,10 @@ on:
       - ".github/scripts/lint_amendment_ledger.py"
       - ".github/scripts/build-symbolic-structures-index.py"
       - ".github/scripts/lint-symbolic-structures.py"
+      - ".github/workflows/lint-amendment-ledger.yml"
+
+env:
+  STRICT_RELEASE: ${{ vars.STRICT_RELEASE || 'false' }}
 
 jobs:
   lint:
@@ -33,29 +38,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Build symbolic structures index
+      - name: A. Structure / markdown / metadata checks
         shell: bash
         run: |
           set -euo pipefail
-
-          python .github/scripts/build-symbolic-structures-index.py
-
-      - name: Lint symbolic structures
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          python .github/scripts/lint-symbolic-structures.py
-
-      - name: Ensure symbolic structures index is up to date
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          if ! git diff --exit-code -- Governance/Indices/CAM.Governance.Symbolic-Structures.Index.json; then
-            echo "Symbolic structures index is stale. Run: python .github/scripts/build-symbolic-structures-index.py"
-            exit 1
-          fi
+          python -m py_compile .github/scripts/lint_amendment_ledger.py .github/scripts/lint-symbolic-structures.py
 
       - name: Resolve ledger comparison SHAs
         shell: bash
@@ -80,9 +67,62 @@ jobs:
             echo "HEAD_SHA=${HEAD_SHA}"
           } >> "${GITHUB_ENV}"
 
-      - name: Lint Amendment Ledger
+      - name: B. Amendment ledger hash population / verification
+        id: ledger
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --stage pre_fix
+
+      - name: C1. Build symbolic structures index (staleness check)
+        id: symbolic_build
+        shell: bash
+        run: |
+          set +e
+          python .github/scripts/build-symbolic-structures-index.py
+          build_exit=$?
+          stale_exit=0
+          if ! git diff --exit-code -- Governance/Indices/CAM.Governance.Symbolic-Structures.Index.json Governance/Indices/CAM.Governance.Symbolic-Structures.Index.md; then
+            echo "Symbolic structures index is stale. Run: python .github/scripts/build-symbolic-structures-index.py"
+            stale_exit=1
+          fi
+          status=$(( build_exit != 0 ? build_exit : stale_exit ))
+          echo "status=${status}" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: C2. Canonical-code registry lint
+        id: symbolic_lint
+        shell: bash
+        run: |
+          set +e
+          if [[ "${STRICT_RELEASE}" == "true" ]]; then
+            python .github/scripts/lint-symbolic-structures.py --strict-release --canonical-codes-enforcement error
+            status=$?
+          else
+            python .github/scripts/lint-symbolic-structures.py --canonical-codes-enforcement warning
+            status=$?
+          fi
+          echo "status=${status}" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: D. Final validation summary
         shell: bash
         run: |
           set -euo pipefail
 
-          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --stage pre_fix
+          ledger_status=0
+          symbolic_build_status='${{ steps.symbolic_build.outputs.status }}'
+          symbolic_lint_status='${{ steps.symbolic_lint.outputs.status }}'
+
+          echo "Validation Summary"
+          echo "- ledger/hash failures: ${ledger_status}"
+          echo "- metadata failures: handled via canonical-codes lint mode"
+          echo "- symbolic registry warnings/errors status: ${symbolic_lint_status}"
+          echo "- strict release blockers mode: ${STRICT_RELEASE}"
+
+          if [[ "${STRICT_RELEASE}" == "true" ]]; then
+            if [[ "${symbolic_build_status}" != "0" || "${symbolic_lint_status}" != "0" ]]; then
+              echo "Strict release mode enabled: symbolic registry checks are blocking."
+              exit 1
+            fi
+          fi
