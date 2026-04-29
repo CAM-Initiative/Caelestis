@@ -3,7 +3,7 @@
 | Workflow | Triggers | Scripts Run | Writes / Generated Files | Pushes to `main` | Broad `git add .` |
 |---|---|---|---|---|---|
 | Lint Amendment Ledger | `pull_request`, `push` | `build-symbolic-structures-index.py`, `lint-symbolic-structures.py`, `lint_amendment_ledger.py` | none (validation-only) | no | no |
-| Update Amendment Ledgers | `push` (`main`) | `update-ledgers.py --fix` and validate | Governance ledger sections in changed Constitution/Charters files | yes | no (`git add Governance/Constitution/*.md Governance/Charters/*.md`) |
+| Update Amendment Ledgers | Removed | N/A | N/A | N/A | N/A |
 | Update Constitution Index | `push` (`main`) | `update-CAM-Constitution-Index.py` | `Governance/Constitution/CAM-Constitution-Index.md`, `Governance/Constitution/constitution.index.json` | yes | no |
 | Update Law Index | `push` (`main`) | `update-CAM-Laws-Index.py` | `Governance/Laws/CAM-Laws-Index.md`, `Governance/Laws/laws.index.json` | yes | no |
 | Update Charters Index | `push` (`main`) | `update-CAM-Charters-Index.py` | `Governance/Charters/CAM-Charters-Index.md`, `Governance/Charters/charters.index.json` | yes | no |

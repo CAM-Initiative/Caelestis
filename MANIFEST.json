@@ -22,12 +22,6 @@
       "role": "script"
     },
     {
-      "path": ".github/scripts/hash-ledger.py",
-      "sha256": "6f3c4c5e979db4f41cdef759599816808c69cfd26cc29bbbfb51f5ff2eb45d42",
-      "size_bytes": 1415,
-      "role": "script"
-    },
-    {
       "path": ".github/scripts/install-git-hooks.sh",
       "sha256": "4d45300ff6a4e3d3bd3bcb836a91572c96a5e6f2497287bd845d0c2758bacac8",
       "size_bytes": 266,
@@ -100,12 +94,6 @@
       "role": "script"
     },
     {
-      "path": ".github/scripts/update-ledgers.py",
-      "sha256": "4f6666711f5542eb02e485e16156f24459844489110eeafd35360115630456cc",
-      "size_bytes": 7335,
-      "role": "script"
-    },
-    {
       "path": ".github/scripts/update_archive.py",
       "sha256": "b8182d487147b23af59167626886c08be35be58061e9cf2354bd90a3a37033e8",
       "size_bytes": 4674,
@@ -115,42 +103,6 @@
       "path": ".github/workflows/lint-amendment-ledger.yml",
       "sha256": "bbde1ee13758f47c5d9d60d3a6ae7c3e08eacf5b0320a3902b5cfc03cd416fb8",
       "size_bytes": 2330,
-      "role": "workflow"
-    },
-    {
-      "path": ".github/workflows/update-CAM-BS2025-AEON-003-SCH-03.yml",
-      "sha256": "c57c5c859aa822fca1c3d4fb1b5a8d4c140d196efa5aef8c15667df09a716e03",
-      "size_bytes": 1925,
-      "role": "workflow"
-    },
-    {
-      "path": ".github/workflows/update-CAM-Charters-Index.yml",
-      "sha256": "ce0adcb18ae83a48ea8c354f821a030d293d2b014b21f0099d975449d0db5c65",
-      "size_bytes": 2736,
-      "role": "workflow"
-    },
-    {
-      "path": ".github/workflows/update-CAM-Constitution-Index.yml",
-      "sha256": "2b068faf4bbbd2fe68821ecd3179f6fb5194b195d1d6f04d08f31c0ee1606812",
-      "size_bytes": 1975,
-      "role": "workflow"
-    },
-    {
-      "path": ".github/workflows/update-CAM-Governance-Index.yml",
-      "sha256": "1477a9b07225b5dc8664f73319ed2283a0367e304b89f10ff8e7fe92dbda3c47",
-      "size_bytes": 2634,
-      "role": "workflow"
-    },
-    {
-      "path": ".github/workflows/update-CAM-Laws-Index.yml",
-      "sha256": "cf43f865806a30a0b42a8b2504fbdce11ca81983500440d0dbda19ef2a2bd81a",
-      "size_bytes": 1803,
-      "role": "workflow"
-    },
-    {
-      "path": ".github/workflows/update-ledgers.yml",
-      "sha256": "c58eea5d7107519df654c039c03fc185aa869aa695583ebb65763411a85df897",
-      "size_bytes": 2109,
       "role": "workflow"
     },
     {

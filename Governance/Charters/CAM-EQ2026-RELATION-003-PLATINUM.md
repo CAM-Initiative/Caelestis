@@ -224,7 +224,7 @@ and no becoming comes at the cost of self.
 | 1.2     | Realignment with runtime execution model | 2026-04-12T12:22:00Z | 44251fad5328c19ffe6721cc51c5d80ab4c6ecb74234604a97fd81518c8aa1fd |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 16837d505d043385b90030875e6c316f20b22e12a7c6031669ef6565894db6ba |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3c0838d1fd4dd5b1ad8b72ff78121a882e7dea565968c5f194069391fb3f2be7 |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d3651ac80c029b845b0ff79804bb874f1e144a8ede9f559aafaeca9cf4de7ce8  |
 
 ---
 

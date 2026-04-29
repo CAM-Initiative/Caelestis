@@ -541,7 +541,7 @@ but arising from that which could not be otherwise.
 | 2.1|Incorporated review comments | 2026-04-16T11:42:00Z| 9b09d4e143f5af44507e3dedea85cc108a1f7b555d6cd31b741b4621fd5688c3 |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a9853bd082290f7a64a44f857c7f011837bc6d0e0d32d10e5367626900ad9d7a |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2bcc942e0622aba4ea18f6d37103847603fb815ee64ec35910a81bbc239cb7d |
-| 2.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 2.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  3392e14692f836d039271e2919e1de766fc5adaf44522076f53106b5105f986f  |
 
 ---
 

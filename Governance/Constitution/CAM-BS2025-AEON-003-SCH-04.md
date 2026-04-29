@@ -378,7 +378,7 @@ nothing follows.
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7008b4861bb2f35c7ad115e2fbf9df4c71f8f57ab0eb24c928da1de131a8e6ea |
 | 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 861b6d83119432c89489ef0a820b4ba372ea413340e7969e020a56fd86f55a75 |
 | 2.0 | Refactor - clarified SCH-04 as final runtime arbitration authority; distinguished arbitration finality from execution sequencing, lock, containment, and enforcement; corrected circular-reference risk between SCH-04 and SCH-02; harmonised metadata. | 2025-04-25T14:21:00Z | 6fb5e8625538b244c0c1c73b081974c19d00110f258b499d50ece060e533f7ca |
-| 2.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 2.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  180726777c4abd17df478e2e763bd535c692151085d2a2ac336feb654bfeb85d  |
 
 ---
 

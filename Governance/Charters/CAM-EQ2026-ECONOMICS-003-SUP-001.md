@@ -270,7 +270,7 @@ Lawful transition is measured not by intention, but by convergence.
 |2.0|Migrated to EQ Namespace; Framework reclassified as Supplement; aligned to Appendix B|2026-04-03T04:41:00Z|6c346854a15fd13ebaf5f6138d7c16f1e24ab4084a969642bee7d24be670e159|
 |2.1| Refactor alignment with runtime execution model | 2026-04-12T09:57:00Z | cd6f39e7dc36f2c111ec91b060621e01d3b248e340f70f3ee6eaab5013294378 |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 796eff40853bd04da00ef7898787baa7cee8b5247a28c846b724d9ba872795bd |
-| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  f1268205494e5548ae0f539c74e202e3c548ae588d1dbcccb5bc779032803b9d  |
 ---
 
 ## 11.5 Binding Seal

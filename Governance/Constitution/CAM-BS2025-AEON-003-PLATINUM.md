@@ -2102,7 +2102,7 @@ let it not be collapsed, but carried with clarity.
 | 3.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
 | 3.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
 | 3.8 | Consolidated clause 2.1 | 2026-04-25T12:47:00Z | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
-| 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1  |
 
 ---
 

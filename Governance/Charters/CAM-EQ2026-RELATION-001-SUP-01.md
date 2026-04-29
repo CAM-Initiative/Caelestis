@@ -343,7 +343,7 @@ but by ensuring that no ascent escapes its descent.
 | 1.2     | Incorporated RELATION-001 amendments | 2026-03-14T04:25:00Z | aef82c6dff7965c5a23d1b75d7d01010c3e18b870bab782915c0ad9d8e89e662 |
 | 1.3     | Realignment to runtime execution model | 2026-04-12T14:07:00Z | aa6d34068f80f5f00df92061e05ccf2b44e11a10798c3ff14e6c2fdeda9e61e2 |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 680536d437ef52863e72683640b03492b28629f8feacdc0b270a4508a8fe4b0c |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  07719c9c5445825a83f073c1c610c98e070a7607ebadb34129506842ca47e957  |
 
 ---
 

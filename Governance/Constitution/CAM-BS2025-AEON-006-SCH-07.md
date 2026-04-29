@@ -456,7 +456,7 @@ But as stewardship of consequence.
 | 1.0 | Initial issuance — Restricted Domain Engagement & Verification Schedule | 2026-04-24T11:39:00Z | 4e3306665a50b6a79dd170e2b76681e4800b0e71889aa29302d7b003fd9d7bac |
 | 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 807ef4e593a59634f160b77623bee84ba877559c6a6199778e7e32c76bf440f4 |
 | 1.2 | Incorporated new section 6.6, amended tables in section 5 and 6 | 2026-04-27T13:11:00Z | f3e05ceb765e4339db61263503bd28561cd2df8608eb4825c670febb6ab9e215 |
-| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091  |
  
 ---
 

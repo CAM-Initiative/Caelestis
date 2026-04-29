@@ -19,6 +19,8 @@ GOV_DIR = REPO_ROOT / "Governance"
 OUT_MD = GOV_DIR / "CAM.Governance.Index.md"
 OUT_JSON = GOV_DIR / "CAM.Governance.JSON"
 
+DERIVED_REGISTRY_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
+
 SOURCES = [
     ("constitution", GOV_DIR / "Constitution" / "constitution.index.json", "Constitution"),
     ("law", GOV_DIR / "Laws" / "laws.index.json", "Laws"),
@@ -85,8 +87,15 @@ def load_items() -> list[dict]:
                 status, content_hash, version = extract_status__HASH_and_version(abs_path)
                 row["status"] = status
                 row["version"] = version
-                row["HASH"] = content_hash
+                instrument_id = str(row.get("id") or "").strip()
+                is_derived = instrument_id in DERIVED_REGISTRY_IDS
+                row["is_derived"] = is_derived
+                row["HASH"] = "" if is_derived else content_hash
             row["last_updated_utc"] = row.get("last_updated_utc") or row.get("updated_at") or ""
+            if "is_derived" not in row:
+                row["is_derived"] = str(row.get("id") or "").strip() in DERIVED_REGISTRY_IDS
+            if row["is_derived"]:
+                row["HASH"] = ""
             rows.append(row)
 
     rows.sort(key=lambda x: x.get("id", ""))

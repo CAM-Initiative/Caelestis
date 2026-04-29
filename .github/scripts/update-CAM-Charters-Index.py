@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
-import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
-
-
 import json
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
 from instrument_parser import parse_instrument_filename
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from instrument_state import extract_status__HASH_and_version
+from instrument_state import extract_status_and_version
 
 TARGET_DIR = REPO_ROOT / "Governance" / "Charters"
 INDEX_MD = TARGET_DIR / "CAM-Charters-Index.md"
@@ -24,27 +22,49 @@ INDEX_JSON = TARGET_DIR / "charters.index.json"
 HEADER_MARKER = "<!-- BEGIN AUTO-GENERATED -->"
 SUMMARY_KEYWORDS = {"purpose", "preamble", "intent", "context"}
 SEAL_WORDS = {"platinum", "gold", "red", "black"}
+LEDGER_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
+NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
+VERSION_RE = re.compile(r"^\d+(?:\.\d+)+$")
+HEX64_RE = re.compile(r"^[a-f0-9]{64}$", re.IGNORECASE)
 
 
 def read_text(path: Path) -> str:
-    try:
-        return path.read_text(encoding="utf-8")
-    except Exception:
-        return ""
+    return path.read_text(encoding="utf-8")
 
 
 def get_git_info(path: Path) -> tuple[str, str]:
-    try:
-        out = subprocess.check_output(
-            ["git", "log", "--follow", "-n", "1", "--format=%H|%cI", "--", str(path)],
-            cwd=REPO_ROOT,
-            text=True,
-        ).strip()
-        sha, iso = out.split("|", 1)
-        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
-        return sha, dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
-    except Exception:
+    out = subprocess.check_output(
+        ["git", "log", "--follow", "-n", "1", "--format=%H|%cI", "--", str(path)],
+        cwd=REPO_ROOT,
+        text=True,
+    ).strip()
+    if not out:
         return "", ""
+    sha, iso = out.split("|", 1)
+    dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    return sha, dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+
+def latest_ledger_hash(text: str) -> str:
+    m = LEDGER_HEADING_RE.search(text)
+    if not m:
+        return ""
+    tail = text[m.end():]
+    nxt = NEXT_HEADING_RE.search(tail)
+    end = (m.end() + nxt.start()) if nxt else len(text)
+    section = text[m.start():end]
+
+    latest = ""
+    for line in section.splitlines():
+        s = line.strip()
+        if not s.startswith("|"):
+            continue
+        cols = [c.strip() for c in s.strip("|").split("|")]
+        if not cols or not VERSION_RE.match(cols[0]):
+            continue
+        candidate = cols[-1].strip() if cols else ""
+        if HEX64_RE.match(candidate):
+            latest = candidate.lower()
+    return latest
 
 
 def normalise(text: str) -> str:
@@ -91,20 +111,25 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
     return title, summary
 
 
-def collect_items() -> list[dict]:
+def collect_items() -> tuple[list[dict], list[str], int]:
     items = []
-    for p in sorted(TARGET_DIR.glob("*.md")):
-        if p.name == INDEX_MD.name:
-            continue
+    skipped = []
+    md_files = sorted(p for p in TARGET_DIR.glob("*.md") if p.name != INDEX_MD.name)
+    print(f"[debug] {TARGET_DIR.name}: detected markdown files={len(md_files)}")
 
+    for p in md_files:
         parsed = parse_instrument_filename(p.name, "charters")
         if not parsed:
+            skipped.append(f"{p.name}: filename did not match instrument pattern")
             continue
+        if parsed.get("seal"):
+            parsed["id"] = p.stem
 
         text = read_text(p)
         title, summary = extract_title_and_summary(text, parsed["id"])
         sha, updated_at = get_git_info(p)
-        status, content_hash, version = extract_status__HASH_and_version(p.resolve())
+        status, version = extract_status_and_version(p.resolve())
+        content_hash = latest_ledger_hash(text)
         parsed.update({
             "link": p.name,
             "title": title,
@@ -118,7 +143,7 @@ def collect_items() -> list[dict]:
         })
         items.append(parsed)
 
-    return sorted(items, key=lambda x: x["id"])
+    return sorted(items, key=lambda x: x["id"]), skipped, len(md_files)
 
 
 def render_markdown(items: list[dict]) -> str:
@@ -142,7 +167,7 @@ def write_json(items: list[dict]) -> None:
 
 
 def main() -> None:
-    items = collect_items()
+    items, skipped, detected = collect_items()
     table = render_markdown(items)
     old = read_text(INDEX_MD)
     if HEADER_MARKER in old:
@@ -155,6 +180,14 @@ def main() -> None:
     write_json(items)
     print(f"Updated: {INDEX_MD}")
     print(f"Wrote:   {INDEX_JSON}")
+    print(f"[debug] files detected={detected}")
+    print(f"[debug] entries written={len(items)}")
+    if skipped:
+        print("[debug] skipped files:")
+        for s in skipped:
+            print(f"[debug] - {s}")
+    else:
+        print("[debug] skipped files: none")
 
 
 if __name__ == "__main__":

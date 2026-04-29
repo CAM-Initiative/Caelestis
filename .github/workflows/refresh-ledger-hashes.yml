@@ -1,0 +1,62 @@
+name: Refresh Ledger Hashes (Manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: governance-rebuild-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - run: python -m pip install --upgrade pip
+
+      - name: Resolve comparison SHAs
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE_SHA="HEAD~1"
+          HEAD_SHA="HEAD"
+          echo "BASE_SHA=${BASE_SHA}" >> "$GITHUB_ENV"
+          echo "HEAD_SHA=${HEAD_SHA}" >> "$GITHUB_ENV"
+
+      - run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --all --fix
+      - run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --all --strict
+
+      - run: python .github/scripts/update-CAM-Constitution-Index.py
+      - run: python .github/scripts/update-CAM-Charters-Index.py
+      - run: python .github/scripts/update-CAM-Laws-Index.py
+      - run: python .github/scripts/verify-ledger-sha-coverage.py
+      - run: python .github/scripts/update-CAM-Governance-Index.py
+
+      - name: Commit once
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Governance/ .github/scripts/verify-ledger-sha-coverage.py .github/workflows/refresh-ledger-hashes.yml
+          if git diff --cached --quiet; then
+            echo "No staged changes to commit."
+            exit 0
+          fi
+          git commit -m "[MANUAL][Governance] Refresh latest ledger hashes and rebuild indexes"
+          git pull --rebase origin main
+          git push origin HEAD:main
