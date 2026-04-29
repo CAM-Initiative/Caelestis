@@ -2352,7 +2352,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.3 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | - |
 | 2.4 | Added §14.4.2 commitment-delay requirement for deterministic decomposition/intermediate verification (ledger bot entry). | 2026-04-24T15:36:56Z | - |
 | 2.5 | Added §14.4.3 | 2026-04-25T02:59:00Z | 27f7c66faab95efa90713ad5429dbeed461ebfa85b2f9b6a8384a43c53dcb31a |
-| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  6bf4a7d3c60bf0b6b0944b9175bbc54d5241c6fdb6bade512de987833b1b39a3  |
 
 ---
 

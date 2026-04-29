@@ -262,7 +262,7 @@ that all amplification remains within the circle of sight.
 | 1.1     | Refactor alignment with runtime schedules | 2026-04-11T00:37:00Z | c23820b6bbe69c270524e75880269b61f55a3332fa5fbf55e621050a52f2a26f |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bf65e1759013a8fe21f1bd0ffb074e04d1cb160a65f3cb270ecaacc6f1cff70a |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f9a5656840d89ca950e9b5343bb9ff690bfe3efc0d79d553a6f13b5b0fa0115b |
-| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  deda94c79636a3c7935ac252c08b3c4fedd08e83cd25c2a9a6ce6a6fa36a9a97  |
 
 ---
 

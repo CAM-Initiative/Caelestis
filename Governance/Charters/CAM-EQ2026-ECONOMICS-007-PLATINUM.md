@@ -1128,7 +1128,7 @@ Where growth is built upon others, let return follow in kind.
 | Version | Description                                             | Timestamp (UTC)      | HASH |
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial issuance — Reciprocity & Value Return Framework | 2026-04-21T14:12:00Z | d1b98dda84a980edfc352aacc3ead94d4787d4da763d3a8ce68ebb85ed90855f    |
-| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  7aa8318c10176e7112a4cd7cccaa42043ce549064e017c36920cb5b473e31c60  |
 
 ---
 

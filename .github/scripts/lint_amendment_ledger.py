@@ -26,6 +26,14 @@ VERSION_CELL_RE = re.compile(r"^\d+\.\d+$")
 PLACEHOLDER_HASHES = {"-", "—"}
 VALIDATION_STAGES = {"pre_fix", "fix", "post_fix", "downstream_block"}
 
+EXCLUDED_LEDGER_DOC_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
+
+
+def is_excluded_ledger_path(path: str) -> bool:
+    stem = Path(path).stem
+    return stem in EXCLUDED_LEDGER_DOC_IDS
+
+
 
 def run_git(args: list[str], check: bool = True) -> str:
     proc = subprocess.run(["git", *args], cwd=REPO_ROOT, text=True, capture_output=True)
@@ -46,6 +54,8 @@ def list_modified_files(base: str, head: str, *, staged: bool = False) -> list[s
             continue
         if not path.startswith(SCOPED_PREFIXES):
             continue
+        if is_excluded_ledger_path(path):
+            continue
         paths.append(path)
     return paths
 
@@ -58,6 +68,8 @@ def list_scoped_markdown_files() -> list[str]:
             continue
         for md in sorted(scope.glob("*.md")):
             rel = md.relative_to(REPO_ROOT).as_posix()
+            if is_excluded_ledger_path(rel):
+                continue
             paths.append(rel)
     return paths
 

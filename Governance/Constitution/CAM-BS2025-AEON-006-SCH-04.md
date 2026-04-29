@@ -1032,7 +1032,7 @@ responsive to its limits, and reversible within its bounds.
 |2.3| Amendments to section 1.1, remove extant references | 2026-04-16T14:27:00Z | 96bdad3bbd39b36e5e799213ea3550fa24b378edcc0eca8370fd04360e7dd045 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 48e653fe18b2b5a87ea9e0cc16b30c7deda95a021c8dccdaf8a64c362af5af81 |
 | 2.5 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 3995bb23250e048f5da21f5c804a09c7a38d00c7f1fbd7a2f4afb0aabec96685 |
-| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  acdd4ba57d1c108087a16cc5a336a5415a6dfe824ba1bbc25dd6fae64802c0b8  |
 
 ---
 

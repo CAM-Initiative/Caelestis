@@ -184,7 +184,7 @@ def refresh_generated_governance_views() -> None:
     run_checked(["python3", ".github/scripts/update-CAM-Charters-Index.py"])
     run_checked(["python3", ".github/scripts/update-CAM-Laws-Index.py"])
     run_checked(["python3", ".github/scripts/update-CAM-Governance-Index.py"])
-    run_checked(["python3", ".github/scripts/update-ledgers.py"])
+    run_checked(["python3", ".github/scripts/lint_amendment_ledger.py", "--all", "--fix"])
     run_checked(["python3", ".github/scripts/lint_amendment_ledger.py"])
 
 

@@ -1,0 +1,147 @@
+name: Governance Rebuild
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "Governance/Constitution/**"
+      - "Governance/Charters/**"
+      - "Governance/Laws/**"
+      - ".github/scripts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: governance-rebuild-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
+
+      - name: Resolve comparison SHAs
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE_SHA="${{ github.event.before }}"
+          HEAD_SHA="${{ github.sha }}"
+          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
+            BASE_SHA="HEAD~1"
+            HEAD_SHA="HEAD"
+          fi
+          echo "BASE_SHA=${BASE_SHA}" >> "$GITHUB_ENV"
+          echo "HEAD_SHA=${HEAD_SHA}" >> "$GITHUB_ENV"
+
+      - name: Phase 1 — Rebuild Constitution index/json
+        run: python .github/scripts/update-CAM-Constitution-Index.py
+
+      - name: Phase 1 — Rebuild Charters index/json
+        run: python .github/scripts/update-CAM-Charters-Index.py
+
+      - name: Phase 1 — Rebuild Laws index/json
+        run: python .github/scripts/update-CAM-Laws-Index.py
+
+      - name: Detect law-only changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          RUN_LEDGER=true
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            CHANGED="$(git diff --name-only "${BASE_SHA}" "${HEAD_SHA}")"
+            if [[ -n "$CHANGED" ]] && ! echo "$CHANGED" | grep -qvE '^Governance/Laws/'; then
+              RUN_LEDGER=false
+            fi
+          fi
+          echo "RUN_LEDGER=${RUN_LEDGER}" >> "$GITHUB_ENV"
+
+      - name: Phase 2 — Populate latest ledger hashes (fix)
+        if: env.RUN_LEDGER == 'true'
+        run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --fix
+
+      - name: Phase 2 — Validate ledger hashes (strict)
+        if: env.RUN_LEDGER == 'true'
+        run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict
+
+      - name: Phase 3 — Rebuild Constitution index/json (post-hash)
+        run: python .github/scripts/update-CAM-Constitution-Index.py
+
+      - name: Phase 3 — Rebuild Charters index/json (post-hash)
+        run: python .github/scripts/update-CAM-Charters-Index.py
+
+      - name: Phase 3 — Rebuild Laws index/json (post-hash)
+        run: python .github/scripts/update-CAM-Laws-Index.py
+
+      - name: Phase 4 — Verify ledger SHA coverage and JSON consistency
+        run: python .github/scripts/verify-ledger-sha-coverage.py
+
+      - name: Phase 5 — Build global Governance registry
+        run: python .github/scripts/update-CAM-Governance-Index.py
+
+      - name: Phase 6 — Mutate SCH-01 and SCH-03
+        run: |
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+
+      - name: Phase 7 — Final global Governance rebuild
+        run: python .github/scripts/update-CAM-Governance-Index.py
+
+      - name: Phase 8 — Final strict ledger validation
+        if: env.RUN_LEDGER == 'true'
+        run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict
+
+      - name: Phase 8 — Symbolic/index validation
+        run: python .github/scripts/lint-symbolic-structures.py
+
+      - name: Phase 8 — Stale output check (idempotency)
+        shell: bash
+        run: |
+          set -euo pipefail
+          BEFORE_STATUS="$(git status --porcelain)"
+          python .github/scripts/update-CAM-Constitution-Index.py
+          python .github/scripts/update-CAM-Charters-Index.py
+          python .github/scripts/update-CAM-Laws-Index.py
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          python .github/scripts/update-CAM-Governance-Index.py
+          AFTER_STATUS="$(git status --porcelain)"
+          if [[ "$BEFORE_STATUS" != "$AFTER_STATUS" ]]; then
+            echo "Stale/non-idempotent generated outputs detected after re-run."
+            git status --short
+            exit 1
+          fi
+
+      - name: Phase 9 — Commit generated changes once
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Governance/ .github/workflows/ .github/scripts/
+          if git diff --cached --quiet; then
+            echo "No staged changes to commit."
+            exit 0
+          fi
+          git commit -m "[AUTO][Governance] Deterministic rebuild pipeline refresh"
+          git pull --rebase origin main
+          git push origin HEAD:main

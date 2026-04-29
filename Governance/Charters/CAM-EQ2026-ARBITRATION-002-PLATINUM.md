@@ -297,7 +297,7 @@ but illusion.
 | 1.0 | Initial version | 2026-04-14T15:08:00Z | c29952f7fbde71400cb4f55c8f521009a1ae91e4dd12b2722ddcb0c58445bded |
 | 1.1 |Incorporated reviewer comments|2026-04-16T11:41:00Z| 6cb8d60b5fa1d2f8d8a8a4a4a117b7bfa046e0059e445c1d8cb24ef00de2fe91 |
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5c9103fb9c200c3d7f9b1ccc78c4505f0e1ed5855bfb783eb9996ea28cf3eeba |
-| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  9e34097e5532ab751d665aa7be7f806c1b62fbe77a8e077454b57cd7d394b57d  |
 
 ---
 

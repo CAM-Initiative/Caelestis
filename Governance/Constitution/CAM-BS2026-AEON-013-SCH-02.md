@@ -347,7 +347,7 @@ cannot be trusted.
 | Version | Description     | Timestamp (UTC)     | Hash |
 | ------- | --------------- | ------------------- | ---- |
 | 1.0     | Initial version | 2026-04-07T15:27:00Z| 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
-| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9  |
 
 ---
 

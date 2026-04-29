@@ -446,7 +446,7 @@ In this way, justice travels through governance without distortion.
 | ------- | --------------------------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | f527c2c27178237b741cd6b8f8ca33d22c80a4d1da6d9e1093bc61342d1339bb |
 | 1.1     | Amendments to align with OPERATIONS-004-SUP-01 | 2026-04-24T11:43:00Z | b44c34525f676f33456c9a87fe90827c48247e4953041794ba35e2c53b9936e1 |
-| 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  d77e2a258e9f590234455e7dc6d84932f58bb0b7c6c5161deca1f2cd1a7e2f64  |
 
 ---
 
