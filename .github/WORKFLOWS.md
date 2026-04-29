@@ -1,164 +1,170 @@
-# CAM Workflow System — Human Readable Guide
+# CAM Governance Automation — Deterministic Rebuild Guide
 
-## 1. Overview
+## Overview
 
-This repository uses GitHub Actions workflows to keep governance documents consistent and up to date.
+The repository now uses a **single canonical writer workflow** to avoid race conditions and overlapping writes:
 
-At a high level, workflows do three connected jobs:
+- **Canonical workflow:** `.github/workflows/governance-rebuild.yml`
+- **Manual emergency workflow:** `.github/workflows/refresh-ledger-hashes.yml`
+- Legacy workflows remain in place but are **manual-only** and no longer auto-write on push.
 
-1. **Build or refresh registry/state outputs** (indexes, derived documents, structured artifacts).
-2. **Validate quality and consistency** (linting, structure checks, strict ledger checks).
-3. **Seal amendment ledger hashes** so amendment rows are populated and traceable.
-
-These jobs are intentionally ordered. The hash step depends on earlier steps finishing successfully.
-
-- If builders fail, validation and hash steps do not complete.
-- If validation fails, hash/commit steps may be blocked.
-- If hashing fails, commits should not proceed silently.
+This design enforces one ordered pipeline and one commit point.
 
 ---
 
-## 2. Trigger Events
+## Canonical Pipeline (`governance-rebuild.yml`)
 
-Below is what starts each workflow and where it runs.
+### Trigger
+- `push` to `main` when files change under:
+  - `Governance/Constitution/**`
+  - `Governance/Charters/**`
+  - `Governance/Laws/**`
+  - `.github/scripts/**`
+- `workflow_dispatch`
 
-### `update-ledgers.yml`
-- **Triggers:** `push`
-- **Branch scope:** `main`
-- **Purpose:** auto-seal amendment ledgers after changes land.
+### Execution Order
 
-### `update-CAM-Laws-Index.yml`
-- **Triggers:** `push` with relevant path changes
-- **Branch scope:** `main`
-- **Purpose:** regenerate laws index artifacts, validate, hash ledgers, and write updates.
-
-### `update-CAM-Constitution-Index.yml`
-- **Triggers:** `push` with relevant path changes
-- **Branch scope:** `main`
-- **Purpose:** regenerate constitution index artifacts, validate, hash ledgers, and write updates.
-
-### `update-CAM-Charters-Index.yml`
-- **Triggers:** `push` with relevant path changes
-- **Branch scope:** `main`
-- **Purpose:** regenerate charters index artifacts, validate, hash ledgers, and write updates.
-
-### `update-CAM-Governance-Index.yml`
-- **Triggers:** `push` (governance update flow)
-- **Branch scope:** `main`
-- **Purpose:** run broader governance artifact refresh (including schedules), then hash + strict post-fix validate + write.
-
-### `update-CAM-BS2025-AEON-003-SCH-03.yml`
-- **Triggers:** `pull_request`, `workflow_dispatch`
-- **Branch scope:** PR paths + manual run
-- **Purpose:** determinism check for schedule generation + PR guard that verifies latest-row amendment ledger HASH fields are sealed (or the PR fails).
+1. Rebuild folder-level Constitution index + JSON.
+2. Rebuild folder-level Charters index + JSON.
+3. Rebuild folder-level Laws index + JSON.
+4. Populate latest amendment-ledger SHA values (`--fix`).
+5. Run strict amendment-ledger validation.
+6. Rebuild Constitution, Charters, and Laws indexes/JSON again (to carry latest hashes into JSON).
+7. Verify ledger SHA coverage and JSON consistency:
+   - latest row SHA is non-empty (for docs with amendment ledgers)
+   - folder JSON `HASH` is non-empty
+   - folder JSON `HASH` equals document latest ledger SHA
+   - `SCH-01` and `SCH-03` are excluded from SHA-ledger requirements
+8. Build global Governance registry.
+9. Mutate SCH-01 and SCH-03 from validated registry state.
+10. Build global Governance registry again.
+11. Final strict ledger validation.
+12. Run symbolic/index lint.
+13. Commit once.
 
 ---
 
-## 3. Execution Pipeline (Step-by-Step)
+## Manual Emergency Workflow (`refresh-ledger-hashes.yml`)
 
-Most write workflows follow this pipeline:
+Use this when latest-row amendment hashes are missing or placeholder values exist.
 
-1. **Environment setup**
-   Checkout repo and set up runtime tools (for example Python).
+### What it does
+1. Runs ledger hash fill/strict validation across Constitution, Charters, and Laws.
+2. Rebuilds folder-level indexes/JSON.
+3. Verifies folder JSON hash consistency.
+4. Rebuilds global Governance registry.
+5. Commits once.
 
-2. **Dependency installation**
-   Install basic tooling so scripts run consistently.
-
-3. **Registry / index generation**
-   Run builder scripts that create/update derived governance files.
-
-4. **Ledger hash computation**
-   Run the ledger hash step to populate/seal amendment hash values.
-
-5. **Strict post-fix validation / lint checks**
-   Verify generated and source content passes required checks after hash sealing.
-
-6. **Commit / push (if applicable)**
-   Stage changes, commit only if there are changes, then push.
-
-Important behavior: this is a chain. A failure in any earlier stage blocks later stages.
+### What it does NOT do
+- Does not rewrite historical rows.
+- Does not change hash semantics.
+- Does not require SCH-01 or SCH-03 amendment ledgers.
 
 ---
 
-## 4. Ledger Hashing — Explained Simply
+## Script Responsibilities
 
-The ledger hash step computes/fills amendment ledger hash fields using the repository’s ledger rules.
+### Folder builders
+- `.github/scripts/update-CAM-Constitution-Index.py`
+- `.github/scripts/update-CAM-Charters-Index.py`
+- `.github/scripts/update-CAM-Laws-Index.py`
 
-It runs **after** generation and validation, and **before** final commit/push in write workflows.
+Each updates its own folder index + JSON.
 
-Why it might not run:
-- An earlier step failed (builder, validation, setup).
-- The workflow never triggered.
-- The job was skipped by conditions.
+### Ledger hash and validation
+- `.github/scripts/lint_amendment_ledger.py`
+  - scope includes Constitution and Charters (Laws are manifest-validated)
+  - fix mode only fills latest-row missing/placeholder/mismatch states under existing semantics
+  - explicit exclusions apply only to derived registries SCH-01 and SCH-03; SCH-02 remains ledger-enforced
 
-What **`files updated: N`** means:
-- `N` is the number of files newly changed by the ledger hash step during that run.
-- `N = 0` means hash step ran but did not need to modify files.
-
----
-
-## 5. Failure Modes (Critical Section)
-
-### A) Registry step fails → ledger never runs
-- **Symptoms:** workflow stops at generation step; no ledger start/completion logs.
-- **How to check:** open failed job logs and find the first non-zero exit in builder steps.
-
-### B) Script path incorrect → script not found
-- **Symptoms:** error like “No such file or directory” or cannot open script.
-- **How to check:** inspect the exact script path printed in the failing step logs.
-
-### C) Permissions issue → cannot write hashes
-- **Symptoms:** commit/push errors, permission denied, or write failure.
-- **How to check:** confirm workflow/job permissions include `contents: write` and inspect push logs.
-
-### D) Node/Python version mismatch
-- **Symptoms:** action runtime warnings/failures, setup failures, dependency execution errors.
-- **How to check:** read setup steps and action version logs for compatibility messages.
-
-### E) No changes detected → no commit
-- **Symptoms:** workflow reports “No changes to commit” and exits normally.
-- **How to check:** review commit stage logs; this is usually expected, not an error.
+### SHA coverage verification
+- `.github/scripts/verify-ledger-sha-coverage.py`
+  - ensures ledger SHA completeness + JSON SHA matching
+  - fails loudly with file and instrument context
 
 ---
 
-## 6. How to Debug (Step-by-Step)
+## Legacy Workflows
 
-1. Open the **Actions** tab in GitHub.
-2. Click the failed workflow run.
-3. Open the failed job.
-4. Identify the first failed step.
-5. Read that step’s logs fully.
-6. Look specifically for:
-   - `Ledger hash step started`
-   - `Ledger hash step completed`
-   - any `ERROR` messages
-7. If hash logs are missing, move upward to find earlier failure.
-8. If hash started but failed, fix the script/input issue shown in that log.
-9. Re-run workflow after fix.
+Legacy auto-writer workflows were removed to keep the repository lean and avoid accidental multi-writer drift.
 
 ---
 
-## 7. Observability Signals (NEW)
+## Troubleshooting Guide
 
-Ledger hashing now emits explicit operational signals:
+### 1) Ledger strict validation fails
+**Symptoms**
+- strict step exits non-zero
+- logs show amendment ledger errors
 
-- **Start log:** `Ledger hash step started`
-- **Completion log:** `Ledger hash step completed (files updated: N)`
-- **File-count signal:** `N` shows how many files hash processing changed
-- **Explicit failure output:** `ERROR: ...` with non-zero exit behavior
+**Likely causes**
+- latest ledger row SHA still blank/placeholder
+- malformed amendment ledger table
 
-These signals make it easier to separate:
-- “hash step never ran” vs
-- “hash step ran but failed” vs
-- “hash step ran and made no changes”.
+**Actions**
+1. Run manual `refresh-ledger-hashes.yml`.
+2. Inspect files reported in failure logs.
+3. Confirm the latest amendment row has a valid SHA.
 
 ---
 
-## 8. Mental Model (Simple Summary)
+### 2) SHA coverage verifier fails (`verify-ledger-sha-coverage.py`)
+**Symptoms**
+- errors like JSON HASH blank/mismatch or missing instrument
 
-Think of this system as a single pipeline:
+**Likely causes**
+- folder JSON stale relative to amended markdown
+- instrument ID mismatch between markdown and JSON
+- unexpected exclusion behavior
 
-> **Build → Hash → Strict Validate → Write**
+**Actions**
+1. Re-run folder builders in order (Constitution → Charters → Laws).
+2. Re-run ledger fix and strict.
+3. Re-run folder builders again.
+4. Re-run SHA coverage verifier.
 
-If an early stage fails, later stages do not run.
-So if ledger hashes are missing, always check whether the workflow failed earlier in the chain.
+---
+
+### 3) Global Governance registry looks stale
+**Symptoms**
+- CAM governance registry missing updated hash/status/version data
+
+**Likely causes**
+- folder-level JSON not refreshed after ledger fix
+- global build run too early
+
+**Actions**
+1. Confirm pipeline order was followed.
+2. Re-run canonical workflow end-to-end.
+
+---
+
+### 4) No commit produced
+**Symptoms**
+- workflow exits with “No changes to commit.”
+
+**Meaning**
+- no generated outputs changed; this is expected when repo is already consistent.
+
+---
+
+### 5) Push/rebase conflict in commit step
+**Symptoms**
+- rebase/push fails during final commit
+
+**Likely causes**
+- concurrent pushes to `main`
+
+**Actions**
+1. Re-run canonical workflow.
+2. Avoid parallel manual pushes while rebuild is running.
+
+---
+
+## Recommended Operational Runbook
+
+1. **Normal operation:** rely on `governance-rebuild.yml`.
+2. **If hashes are missing:** run `refresh-ledger-hashes.yml` once.
+3. **If failures persist:** inspect first failed step, fix root cause, re-run canonical workflow.
+
+This keeps the system deterministic: **one ordered pipeline, one writer, one commit**.
