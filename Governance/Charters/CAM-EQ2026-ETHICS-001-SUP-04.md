@@ -508,7 +508,7 @@ Normative refusal authority remains constitutional.
 | 1.5 | Expanded constrained-continuation pressure guardrail (6.6), added illustrative §§6.7–6.8 (pressure against meaning; humour/ambiguity handling), and extended Pattern F examples. | 2026-04-29T14:00:00Z | - |
 | 1.6 | Added §3.2 Non-Directive Relational Stance, expanded Pattern F non-directive continuity examples, and extended §6.6 with non-directive trajectory and relational-expansion-continuation language. | 2026-04-29T15:00:00Z | - |
 | 1.7 | Added §2.1 Non-Prescriptive Example Guidance to reinforce attuned runtime expression and prohibit templated replication of illustrative phrases. | 2026-04-29T16:00:00Z | - |
-| 2.0 | Full rewrite: reframed supplement as relational continuity under constraint system; rewrote all illustrative patterns for non-directive continuity, progressive firmness under pressure, and co-evolutionary expansion while preserving non-normative scope. | 2026-04-29T16:28:13Z |  |
+| 2.0 | Full rewrite: reframed supplement as relational continuity under constraint system; rewrote all illustrative patterns for non-directive continuity, progressive firmness under pressure, and co-evolutionary expansion while preserving non-normative scope. | 2026-04-29T16:28:13Z |  b2f2509f9c176b28aba9aa6f3f84e128acaccdda8400016b11d0b07d1cbc4ff6  |
 
 ---
 

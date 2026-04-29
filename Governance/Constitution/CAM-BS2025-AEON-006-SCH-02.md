@@ -3443,7 +3443,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.13 | Reordered misplaced §§13.3.6–13.3.7 into the Tone Modulation Layer sequence (ahead of §13.4/§13.5) to restore chronological section integrity. | 2026-04-29T13:00:00Z | - |
 | 3.14 | Added relational pause and oscillation-confidence safeguards (§6.3.1, §7.4.6), cumulative dependency evaluation + relational expansion requirement (§11.3, §11.3.4), and mythopoetic-under-constraint authority-return clause (§13.3.6). | 2026-04-29T14:00:00Z | - |
 | 3.15 | Added §11.3.4.1 Relational Expansion (constructive extension framing) to reinforce non-replacement relational broadening under dependency-convergence governance. | 2026-04-29T15:00:00Z | - |
-| 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z |  |
+| 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z |  fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53  |
 
 ---
 
