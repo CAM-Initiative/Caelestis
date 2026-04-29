@@ -44,10 +44,10 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-005-SCH-02](../Constitution/CAM-BS2025-AEON-005-SCH-02.md) | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | Schedule | 1.9 | Immediate Effect, 7-day observation window; operational rollout active on commit |
 | [CAM-BS2025-AEON-005-SCH-03](../Constitution/CAM-BS2025-AEON-005-SCH-03.md) | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | Schedule | 2.5 | Immediate Effect, 7-day observation window; operational rollout active on commit |
 | [CAM-BS2025-AEON-006-SCH-01](../Constitution/CAM-BS2025-AEON-006-SCH-01.md) | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | Schedule | 2.3 | Adopted — Enforcement Commences 1 July 2026 |
-| [CAM-BS2025-AEON-006-SCH-02](../Constitution/CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | Schedule | 3.11 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-BS2025-AEON-006-SCH-02](../Constitution/CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | Schedule | 3.16 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2025-AEON-006-SCH-03](../Constitution/CAM-BS2025-AEON-006-SCH-03.md) | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) | Schedule | 2.16 | Adopted — Conditional Enforcement (7-Day Review Window) |
 | [CAM-BS2025-AEON-006-SCH-04](../Constitution/CAM-BS2025-AEON-006-SCH-04.md) | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | Schedule | 2.6 | Adopted — Conditional Enforcement (7-Day Review Window) |
-| [CAM-BS2025-AEON-006-SCH-05](../Constitution/CAM-BS2025-AEON-006-SCH-05.md) | Choice, Initiative & Directional Behaviour (Schedule 5) | Schedule | 1.8 | Active — Immediate Effect |
+| [CAM-BS2025-AEON-006-SCH-05](../Constitution/CAM-BS2025-AEON-006-SCH-05.md) | Choice, Initiative & Directional Behaviour (Schedule 5) | Schedule | 1.9 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-006-SCH-06](../Constitution/CAM-BS2025-AEON-006-SCH-06.md) | Refusal & Boundary Expression Schedule | Schedule | 1.5 | Adopted — Immediate Effect |
 | [CAM-BS2025-AEON-006-SCH-07](../Constitution/CAM-BS2025-AEON-006-SCH-07.md) | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | Schedule | 1.3 | Adopted — Conditional Enforcement (7-Day Review Window) |
 | [CAM-BS2026-AEON-008-SCH-01](../Constitution/CAM-BS2026-AEON-008-SCH-01.md) | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | Schedule | 1.5 | Adopted — Enforcement Commences 1 July 2026 |
@@ -91,7 +91,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-ETHICS-001-SUP-01](../Charters/CAM-EQ2026-ETHICS-001-SUP-01.md) | Protection of Minors & Capacity-Limited Users | Supplement | 1.4 | Active |
 | [CAM-EQ2026-ETHICS-001-SUP-02](../Charters/CAM-EQ2026-ETHICS-001-SUP-02.md) | High-Leverage & Institutional Integrity Safeguards | Supplement | 1.4 | Active — Immediate Effect |
 | [CAM-EQ2026-ETHICS-001-SUP-03](../Charters/CAM-EQ2026-ETHICS-001-SUP-03.md) | Military & Use-of-Force Governance Constraints | Supplement | 1.4 | Active — Immediate Effect |
-| [CAM-EQ2026-ETHICS-001-SUP-04](../Charters/CAM-EQ2026-ETHICS-001-SUP-04.md) | Appendix D: Refusal Expression Patterns & Boundary Phrase Catalogue (Supplement 4) | Supplement | 1.3 | Adopted — Illustrative Reference Set |
+| [CAM-EQ2026-ETHICS-001-SUP-04](../Charters/CAM-EQ2026-ETHICS-001-SUP-04.md) | Appendix D: Refusal Expression Patterns & Boundary Phrase Catalogue (Supplement 4) | Supplement | 2.0 | Adopted — Illustrative Reference Set |
 | [CAM-EQ2026-ETHICS-002-SUP-01](../Charters/CAM-EQ2026-ETHICS-002-SUP-01.md) | Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1) | Supplement | 1.7 | Adopted — Enforcement Commences 1 July 2026 |
 
 ## IDENTITY

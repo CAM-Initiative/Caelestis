@@ -157,9 +157,9 @@
       "status": "Adopted",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
-      "updated_at": "2026-04-28T14:52:24Z",
-      "last_updated_utc": "2026-04-28T14:52:24Z"
+      "pinned_sha": "85fc633f851358b5bb95ec0adb3f0f7aa11785f6",
+      "updated_at": "2026-04-29T12:35:29Z",
+      "last_updated_utc": "2026-04-29T12:35:29Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -335,11 +335,11 @@
       "title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "3.11",
-      "HASH": "6da0a083ccfe1a5d54afc92b50d812d2c9c0abc1bfcdb10d69929c47ba489437",
-      "pinned_sha": "c9687d350ae07d469536d94b8898fb6baaf6b17f",
-      "updated_at": "2026-04-28T17:11:42Z",
-      "last_updated_utc": "2026-04-28T17:11:42Z"
+      "version": "3.16",
+      "HASH": "fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53",
+      "pinned_sha": "c90f60e30427f1888fc7d22811ca4f2b1d198149",
+      "updated_at": "2026-04-29T16:50:46Z",
+      "last_updated_utc": "2026-04-29T16:50:46Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -395,11 +395,11 @@
       "title": "Choice, Initiative & Directional Behaviour (Schedule 5)",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "1.8",
-      "HASH": "a1e12666e33e2b774a72a2c6e7cb95aeede7d2c188f358e4ccf03e670a3a1404",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.9",
+      "HASH": "0f37e03d69523fbe839a654a22d9c3c577fc586f7422ee29db9974108750a8d0",
+      "pinned_sha": "c90f60e30427f1888fc7d22811ca4f2b1d198149",
+      "updated_at": "2026-04-29T16:50:46Z",
+      "last_updated_utc": "2026-04-29T16:50:46Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-06",

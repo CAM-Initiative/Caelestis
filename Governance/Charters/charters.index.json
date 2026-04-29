@@ -315,11 +315,11 @@
       "title": "Appendix D: Refusal Expression Patterns & Boundary Phrase Catalogue (Supplement 4)",
       "summary": "",
       "status": "Adopted — Illustrative Reference Set",
-      "version": "1.3",
-      "HASH": "39fc8d88ebec7cde265f0420c1e0f51f81791752d3378be643ddc7e5a98325b1",
-      "pinned_sha": "c9687d350ae07d469536d94b8898fb6baaf6b17f",
-      "updated_at": "2026-04-28T17:11:42Z",
-      "last_updated_utc": "2026-04-28T17:11:42Z"
+      "version": "2.0",
+      "HASH": "b2f2509f9c176b28aba9aa6f3f84e128acaccdda8400016b11d0b07d1cbc4ff6",
+      "pinned_sha": "c90f60e30427f1888fc7d22811ca4f2b1d198149",
+      "updated_at": "2026-04-29T16:50:46Z",
+      "last_updated_utc": "2026-04-29T16:50:46Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-PLATINUM",
