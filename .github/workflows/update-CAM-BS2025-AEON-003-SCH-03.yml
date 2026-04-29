@@ -69,7 +69,7 @@ jobs:
           python .github/scripts/update-CAM-Governance-Index.py
           echo "Registry rebuild completed"
 
-      - name: Lint/validation
+      - name: Lint/validation (pre-fix)
         shell: bash
         run: |
           set -euo pipefail
@@ -86,6 +86,23 @@ jobs:
         run: |
           set -euo pipefail
           python .github/scripts/hash-ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+
+      - name: Lint/validation (strict post-fix)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage post_fix
+
+      - name: Ensure PR does not require bot-generated ledger/hash rewrites
+        if: github.event_name == 'pull_request'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! git diff --exit-code -- Governance/Constitution/*.md Governance/Charters/*.md; then
+            echo "PR still contains unsealed/mismatched last-row Amendment Ledger HASH fields."
+            echo "Run: python .github/scripts/hash-ledger.py --base <base_sha> --head <head_sha> and commit the result."
+            exit 1
+          fi
 
       - name: Commit changes if any
         if: github.event_name == 'workflow_dispatch'

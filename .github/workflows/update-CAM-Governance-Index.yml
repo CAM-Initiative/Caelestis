@@ -23,11 +23,10 @@ jobs:
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
           python .github/scripts/update-CAM-Constitution-Index.py
           python .github/scripts/update-CAM-Governance-Index.py
-          python .github/scripts/build-symbolic-structures-index.py
-      - name: Run validation/lint checks
-        run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage downstream_block
       - name: Run ledger hash computation
         run: python .github/scripts/hash-ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+      - name: Run validation/lint checks
+        run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage post_fix
       - name: Commit if changed
         run: |
           set -euo pipefail
