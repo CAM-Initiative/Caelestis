@@ -7,6 +7,7 @@ on:
       - ".github/scripts/lib/**"
       - ".github/scripts/update-CAM-Constitution-Index.py"
       - ".github/scripts/lint_amendment_ledger.py"
+      - ".github/scripts/hash-ledger.py"
       - ".github/scripts/lib/instrument_parser.py"
       - "Governance/Constitution/**"
       - "!Governance/Constitution/CAM-Constitution-Index.md"
@@ -28,51 +29,28 @@ jobs:
       BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
           persist-credentials: true
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-
-      - name: Block downstream updates if source ledgers are unsealed
-        shell: bash
-        run: |
+      - run: python -m pip install --upgrade pip
+      - run: |
+          echo "BASE_SHA=${{ github.event.before }}" >> "$GITHUB_ENV"
+          echo "HEAD_SHA=${{ github.sha }}" >> "$GITHUB_ENV"
+      - run: python .github/scripts/update-CAM-Constitution-Index.py
+      - run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage downstream_block
+      - run: python .github/scripts/hash-ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+      - run: |
           set -euo pipefail
-
-          BASE_SHA="${{ github.event.before }}"
-          HEAD_SHA="${{ github.sha }}"
-
-          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
-            BASE_SHA="HEAD~1"
-          fi
-
-          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage downstream_block
-
-      - name: Generate + commit + push Constitution index + JSON
-        shell: bash
-        run: |
-          set -euo pipefail
-
           git checkout -B main origin/main
           git config --global user.name "${BOT_NAME}"
           git config --global user.email "${BOT_EMAIL}"
-
-          python .github/scripts/update-CAM-Constitution-Index.py
-
-          git add Governance/Constitution/CAM-Constitution-Index.md Governance/Constitution/constitution.index.json
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          git commit -m "[AUTO][Constitution] Refresh CAM Constitution index + JSON"
-
+          git add Governance/Constitution/CAM-Constitution-Index.md Governance/Constitution/constitution.index.json Governance/Constitution/*.md
+          if git diff --cached --quiet; then echo "No changes to commit."; exit 0; fi
+          git commit -m "[AUTO][Constitution] Refresh index + ledger hashes"
           git pull --rebase origin main
           git push origin HEAD:main
