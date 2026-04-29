@@ -42,8 +42,8 @@ jobs:
           echo "BASE_SHA=${{ github.event.before }}" >> "$GITHUB_ENV"
           echo "HEAD_SHA=${{ github.sha }}" >> "$GITHUB_ENV"
       - run: python .github/scripts/update-CAM-Constitution-Index.py
-      - run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage downstream_block
       - run: python .github/scripts/hash-ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+      - run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage post_fix
       - run: |
           set -euo pipefail
           git checkout -B main origin/main

@@ -22,11 +22,6 @@ These jobs are intentionally ordered. The hash step depends on earlier steps fin
 
 Below is what starts each workflow and where it runs.
 
-### `lint-amendment-ledger.yml`
-- **Triggers:** `pull_request`, `push`
-- **Branch scope:** push events on `main`; PR events against repo paths
-- **Purpose:** pre-merge and post-push quality checks for ledger and symbolic structures.
-
 ### `update-ledgers.yml`
 - **Triggers:** `push`
 - **Branch scope:** `main`
@@ -50,12 +45,12 @@ Below is what starts each workflow and where it runs.
 ### `update-CAM-Governance-Index.yml`
 - **Triggers:** `push` (governance update flow)
 - **Branch scope:** `main`
-- **Purpose:** run broader governance artifact refresh (including schedules/symbolic outputs), then validate + hash + write.
+- **Purpose:** run broader governance artifact refresh (including schedules), then hash + strict post-fix validate + write.
 
 ### `update-CAM-BS2025-AEON-003-SCH-03.yml`
 - **Triggers:** `pull_request`, `workflow_dispatch`
 - **Branch scope:** PR paths + manual run
-- **Purpose:** determinism check for schedule generation (validation-oriented, no normal write-back step).
+- **Purpose:** determinism check for schedule generation + PR guard that verifies latest-row amendment ledger HASH fields are sealed (or the PR fails).
 
 ---
 
@@ -63,22 +58,22 @@ Below is what starts each workflow and where it runs.
 
 Most write workflows follow this pipeline:
 
-1. **Environment setup**  
+1. **Environment setup**
    Checkout repo and set up runtime tools (for example Python).
 
-2. **Dependency installation**  
+2. **Dependency installation**
    Install basic tooling so scripts run consistently.
 
-3. **Registry / index generation**  
+3. **Registry / index generation**
    Run builder scripts that create/update derived governance files.
 
-4. **Validation / lint checks**  
-   Verify generated and source content passes required checks.
-
-5. **Ledger hash computation**  
+4. **Ledger hash computation**
    Run the ledger hash step to populate/seal amendment hash values.
 
-6. **Commit / push (if applicable)**  
+5. **Strict post-fix validation / lint checks**
+   Verify generated and source content passes required checks after hash sealing.
+
+6. **Commit / push (if applicable)**
    Stage changes, commit only if there are changes, then push.
 
 Important behavior: this is a chain. A failure in any earlier stage blocks later stages.
@@ -163,7 +158,7 @@ These signals make it easier to separate:
 
 Think of this system as a single pipeline:
 
-> **Build → Validate → Hash → Write**
+> **Build → Hash → Strict Validate → Write**
 
-If an early stage fails, later stages do not run.  
+If an early stage fails, later stages do not run.
 So if ledger hashes are missing, always check whether the workflow failed earlier in the chain.

@@ -51,11 +51,11 @@ jobs:
       - name: Run registry/state builders
         run: python .github/scripts/update-CAM-Laws-Index.py
 
-      - name: Run validation/lint checks
-        run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage downstream_block
-
       - name: Run ledger hash computation
         run: python .github/scripts/hash-ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+
+      - name: Run validation/lint checks
+        run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict --stage post_fix
 
       - name: Stage + commit + push changes (if any)
         run: |
