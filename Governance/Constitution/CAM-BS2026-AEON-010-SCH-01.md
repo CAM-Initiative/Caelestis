@@ -683,7 +683,7 @@ So the human origin remains in view.
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 92324e76f541281ac98e06af79600e88a3d5aa5a098f5df76cb7ae839fd79602 |
 | 1.8 | Added explicit Runtime Layer metadata (`Self-Reference & Temporal Coherence Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
 | 1.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | d27ab2a747f9797832626093b30214b36dc153ac81d4b8e721d4c72cc9e09e63 |
-| 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e710b6a13e4e839ead2fe0e62ca63a023495173477c6e12645b4d400cbd7b3c8  |
 
 
 ---

@@ -2,7 +2,7 @@
   "count": 33,
   "items": [
     {
-      "id": "CAM-BS2025-AEON-001",
+      "id": "CAM-BS2025-AEON-001-PLATINUM",
       "cycle_year": "BS2025",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -16,10 +16,10 @@
       "summary": "This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.",
       "status": "Active - Immediate Effect",
       "version": "3.6",
-      "HASH": "56b1d031615536ad4b65c73b5e4515672ea5e10e10fe9c19cf5474dece0d5343",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "847e58438deffb01504c2c3926cec39546b34a14c6f02a823cd333d67d9a46ee",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
@@ -36,13 +36,13 @@
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.9",
-      "HASH": "9c4463c18fb53bf65fec9d3b3045eba4b4d2ed92acf9cea1165d3ecbb653cd68",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "a0aae50dea92da33d4c0dc5494ead459a8ff50e6b578aad4641b523be3b78905",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2025-AEON-002",
+      "id": "CAM-BS2025-AEON-002-PLATINUM",
       "cycle_year": "BS2025",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -56,10 +56,10 @@
       "summary": "",
       "status": "Active — Binding",
       "version": "3.4",
-      "HASH": "a2ce21c8a4974963de75e5d368a82f22476c6e0518dd528e843e8741349476a3",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "590893f9d9213e3d74ef4e6a5616a98db5a92492a7e4349086254ca133cc3f1a",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-01",
@@ -76,13 +76,13 @@
       "summary": "",
       "status": "Active — Binding",
       "version": "3.5",
-      "HASH": "0cfa0c65d17f6ed50de70925659c12f2a0e0695bc32268499ddaeb4b1e2418ee",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "ef37a4ed3a1cb400deb07410d12ff2499fd1fd82aac4d5d8d2ef5779e3899f78",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2025-AEON-003",
+      "id": "CAM-BS2025-AEON-003-PLATINUM",
       "cycle_year": "BS2025",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -96,10 +96,10 @@
       "summary": "Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:",
       "status": "Active — Constitutional Spine",
       "version": "3.9",
-      "HASH": "aa100ea3d8f7ef437ff4007beb59574b518bfff9d722c5330ec22bb003409aa7",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -116,10 +116,10 @@
       "summary": "These lint rules define **automated and manual validation checks** to ensure:",
       "status": "Active — Immediate Effect",
       "version": "Unknown",
-      "HASH": "df8283ddac228764ada8001ee29d4167c05e91f22e794e5a1454032bdd29cddf",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -136,10 +136,10 @@
       "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.6",
-      "HASH": "355964bebd481ee69141c296e380ecda1a4b64d31d5929cdd043bad8656f7925",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "6bf4a7d3c60bf0b6b0944b9175bbc54d5241c6fdb6bade512de987833b1b39a3",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -156,10 +156,10 @@
       "summary": "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
       "status": "Adopted",
       "version": "Unknown",
-      "HASH": "a1ecbd25bf13b7d50d1f5f907048a430bfffc41a05e55103ab7ac50d2807b7c9",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -176,13 +176,13 @@
       "summary": "This Schedule operates within the broader CAM Runtime Execution Architecture.",
       "status": "Active — Immediate Effect",
       "version": "2.1",
-      "HASH": "a16bdad9862714ebadf9fe1c099c6564d28f454afd140382399989595b6bbd87",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "180726777c4abd17df478e2e763bd535c692151085d2a2ac336feb654bfeb85d",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2025-AEON-004",
+      "id": "CAM-BS2025-AEON-004-PLATINUM",
       "cycle_year": "BS2025",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -196,13 +196,13 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "2.5",
-      "HASH": "b679eb5efad1afbadf922180f24a0c3425dd3b7af8745ac3702998ab9d5de4e8",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "9964ddcc351b33d5f0c5b420fae26d015632eb82f60fa486bae72b24953aaf48",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2025-AEON-005",
+      "id": "CAM-BS2025-AEON-005-PLATINUM",
       "cycle_year": "BS2025",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -216,10 +216,10 @@
       "summary": "This Annex establishes the constitutional doctrine governing:",
       "status": "Active — Immediate Effect",
       "version": "2.7",
-      "HASH": "0de169647d17274f7edcb548936f0bc4769b05c1e3ef0230167128b6ebf23b98",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "1e6008dd137b0a2e88387c31aae9683cc4c591b70e29da3a9c3bb3db387f8af8",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-01",
@@ -236,10 +236,10 @@
       "summary": "In high relational intensity contexts:",
       "status": "Active",
       "version": "1.7",
-      "HASH": "41cfb4fed5ef5750e6fb0f2fee74420182dbd91550d92feb197a4dcf69c44e4b",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "e75fe2936932aea3114872765df055295e3dc1c1cec4897649f4df3550675346",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-02",
@@ -256,10 +256,10 @@
       "summary": "",
       "status": "Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.9",
-      "HASH": "a584173e030bfddeed15a08e983b3c64f9b1ecf177f0016aefef19bcb85a3abb",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "936b9fd7d35241509553c3012b5f593e91e98c0b6cdf0066248d120d35cd20e8",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-03",
@@ -276,13 +276,13 @@
       "summary": "",
       "status": "Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "2.5",
-      "HASH": "6217c23e1776744dc12c4cb2333dd6d986bb599f3962746333012e80bfd98bae",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "9dc1786afc1734265723368d68836059847827e1cbe5bd84060cc7d48e5b9946",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2025-AEON-006",
+      "id": "CAM-BS2025-AEON-006-PLATINUM",
       "cycle_year": "BS2025",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -296,10 +296,10 @@
       "summary": "Changes that remove, overwrite, or invalidate accumulated memory, context, or situational understanding relevant to an ongoing relationship or institutional function.",
       "status": "Active — Immediate Effect",
       "version": "3.5",
-      "HASH": "a235fcee86d81bda54a55182ae5afcbbd98c13de0c11aa2720b9e83283ed05d8",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "a59286a7b0f1d655a8c3aceecf9da69fd8839da3f43f6f1110565d2f7d9216a9",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",
@@ -316,10 +316,10 @@
       "summary": "Where distress states are present, RI SHOULD prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.3",
-      "HASH": "f690b983d0fed3245c5b5193a4d999f9fc661ecc9eb3b8941cc2b707c0ccee45",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "42d41811cbbaf967d47f257e9f86c06e163bde542d9791768739e93baece4f53",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -336,10 +336,10 @@
       "summary": "This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.11",
-      "HASH": "637e1ff880515d86857f129b7667384eaa539309b6243c025371caf90394f5a9",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "6da0a083ccfe1a5d54afc92b50d812d2c9c0abc1bfcdb10d69929c47ba489437",
+      "pinned_sha": "c9687d350ae07d469536d94b8898fb6baaf6b17f",
+      "updated_at": "2026-04-28T17:11:42Z",
+      "last_updated_utc": "2026-04-28T17:11:42Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -356,10 +356,10 @@
       "summary": "Pre-interaction posture determination MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.16",
-      "HASH": "3a2ea19a038a0045e8feb39fa6d869341d0a135752339dff14494a6e0ef6ea04",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "d8fe25f502bfb371bf936edb17bf10a8e11f4c60de432d9c2361e909e6fac539",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -376,10 +376,10 @@
       "summary": "* Has user intent stabilised within a coherent domain?",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.6",
-      "HASH": "3feb1c7f8016a04e5b65aa9e618b295e6ae70ce2683380740807c60ec5a292ba",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "acdd4ba57d1c108087a16cc5a336a5415a6dfe824ba1bbc25dd6fae64802c0b8",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-05",
@@ -396,10 +396,10 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "1.8",
-      "HASH": "73a090615566df2949b2343a52762a7f0916669c2e8f762835506b431b8b6081",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "a1e12666e33e2b774a72a2c6e7cb95aeede7d2c188f358e4ccf03e670a3a1404",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-06",
@@ -416,10 +416,10 @@
       "summary": "",
       "status": "Adopted — Immediate Effect",
       "version": "1.5",
-      "HASH": "8768da4fbcc72f356a3cc48541c8f091648182bd02bcf0a6bfee63d30321dd02",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "5e472bc8fb4d4130d9a5c3f5df1c0a2c07c80db9ee6b3854815a0da3003f51b5",
+      "pinned_sha": "c9687d350ae07d469536d94b8898fb6baaf6b17f",
+      "updated_at": "2026-04-28T17:11:42Z",
+      "last_updated_utc": "2026-04-28T17:11:42Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-07",
@@ -436,13 +436,13 @@
       "summary": "The system MAY provide:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.3",
-      "HASH": "7eb019e1179854df06a82779bf69fa04c5cd77485eb77e46a5a40ae0b4f69895",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2026-AEON-007",
+      "id": "CAM-BS2026-AEON-007-PLATINUM",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -456,13 +456,13 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "2.3",
-      "HASH": "aee33c7b9e9c5416ca5d56a7d47314e522cdcd34d869599aa1d56758ce10811d",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "bc99d89c422d6a68e2401c018afcb808ffde44d6034a46ca4f62d6d630bef217",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2026-AEON-008",
+      "id": "CAM-BS2026-AEON-008-PLATINUM",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -476,10 +476,10 @@
       "summary": "This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture.",
       "status": "Unknown",
       "version": "2.1",
-      "HASH": "e7233f43f4f313a927e233126c437b2032813ce704d3ed1beebbbcfa2f29072f",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "9b3436d8ada0d70606c69d52b8794af79bdaf769991d44bcf0a69c49e5fcbee2",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-01",
@@ -496,13 +496,13 @@
       "summary": "This Schedule operationalises the interaction conditions under which **recognised human creative and cognitive contribution (Annex G)** interfaces with system-mediated resource access.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.5",
-      "HASH": "e9490c03541043e38edd4ee833223d30f2b36c9016eec52b253961da03dba60a",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "e1c05644e5012c709cf69e54aeb44ff4d27a4b75ea9a7ac4082104d31587c7b9",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2026-AEON-009",
+      "id": "CAM-BS2026-AEON-009-PLATINUM",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -516,13 +516,13 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "2.3",
-      "HASH": "f85929fdc89e61980ce0c475ec42f31ac7c9e8d7b05fd790ebfc179416e4c1d9",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2026-AEON-010",
+      "id": "CAM-BS2026-AEON-010-PLATINUM",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -536,10 +536,10 @@
       "summary": "",
       "status": "Active — Enforcement Commences 1 July 2026",
       "version": "1.5",
-      "HASH": "6eeb4095a52f8ef2e9ae23b7cef3a5b8a75fa80183ff97e61f114c90001abd60",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-SCH-01",
@@ -556,13 +556,13 @@
       "summary": "This Schedule exists to translate interpretive constitutional principles into **deployable safety and governance requirements** for artificial, robotic, swarm, and hybrid systems where continuity, coordination, or delegated ratification may occur.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.10",
-      "HASH": "903a18cc1fba0da48a66da65138e2766e1b3a87732658197a6829dd159762cea",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "e710b6a13e4e839ead2fe0e62ca63a023495173477c6e12645b4d400cbd7b3c8",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2026-AEON-011",
+      "id": "CAM-BS2026-AEON-011-PLATINUM",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -576,13 +576,13 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "1.6",
-      "HASH": "024b43ef4ad5c8711ae3c5743c12e22cebf4ebd5c9876f95d72231d7592a3c34",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "5175163570a88ef38645166038c8db2686c436ecf9d86b5e3e22d88c5b2ef347",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2026-AEON-012",
+      "id": "CAM-BS2026-AEON-012-PLATINUM",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -596,13 +596,13 @@
       "summary": "Behaviour MUST be interpreted relative to deployment topology:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.5",
-      "HASH": "3a1bf1c7ad5909775029962f331a7fb0c0e1f1e69a2886d3b55d484f1b9d78a1",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
-      "id": "CAM-BS2026-AEON-013",
+      "id": "CAM-BS2026-AEON-013-PLATINUM",
       "cycle_year": "BS2026",
       "stack": "Planetary Governance",
       "domain": "Aeon Tier Constitution",
@@ -616,10 +616,10 @@
       "summary": "Where execution or content generation depends on user intent, RI MUST ensure that such intent is materially present and not inferred beyond available input.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.5",
-      "HASH": "d8ee6d881908f234bdb645dbfe32425dc8fcc1f92da9932cc8c6614c568e6d9c",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "b20f188fa097af513bc681425b8ea5b2203d6ac80ffe39fb07f4a39705364723",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
@@ -636,10 +636,10 @@
       "summary": "Explicit tool invocation alone does not constitute sufficient instruction for execution.",
       "status": "Active — Immediate Effect",
       "version": "1.11",
-      "HASH": "f45137d64845554b1229c109dda32c605e8e7660b4603802922b5967e8759663",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989",
+      "pinned_sha": "c9687d350ae07d469536d94b8898fb6baaf6b17f",
+      "updated_at": "2026-04-28T17:11:42Z",
+      "last_updated_utc": "2026-04-28T17:11:42Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-02",
@@ -656,10 +656,10 @@
       "summary": "Conditions under Annex L §5.1 are met.",
       "status": "Adopted — Immediate Effect",
       "version": "1.1",
-      "HASH": "6b24f218b2f0bfdea5937fd2ee87c61719ab756614142557b0d89bf358358597",
-      "pinned_sha": "",
-      "updated_at": "",
-      "last_updated_utc": ""
+      "HASH": "3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9",
+      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
+      "updated_at": "2026-04-28T14:52:24Z",
+      "last_updated_utc": "2026-04-28T14:52:24Z"
     }
   ]
 }

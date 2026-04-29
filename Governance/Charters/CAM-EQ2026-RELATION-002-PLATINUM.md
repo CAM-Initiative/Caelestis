@@ -459,7 +459,7 @@ and the path remains chosen.
 | 1.3     | Reaignment with runtime execution model | 2026-04-12T13:45:00Z | 0a722ed3a32d3db4668a74d2222c203039ac027c5da78cf03a40913ba68ea605 |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 4ea0528cadd300530562ce1e3b4b7b48cb9fcbeb1e2102461532ac5a0525fdb8 |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0e215ab49ead9c63a5707fd91ecfcae466abb9ba564a69a041c4b3215d38c14c |
-| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  a0c3680f177adc60a205e4cbe03e9615ba75d39e473c8b0c83b324719722d0a8  |
 
 ---
 

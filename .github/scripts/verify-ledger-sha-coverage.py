@@ -49,6 +49,8 @@ def latest_ledger_hash(text: str):
 
 
 def infer_id(md_text: str, path: Path) -> str:
+    if path.stem.startswith("CAM-"):
+        return path.stem
     for line in md_text.splitlines()[:20]:
         if line.startswith("# ") and line[2:].startswith("CAM-"):
             return line[2:].split()[0]

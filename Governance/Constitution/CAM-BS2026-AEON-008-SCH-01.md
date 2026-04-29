@@ -541,7 +541,7 @@ And let systems serve without taking more than they sustain.
 | 1.2 | Added explicit Runtime Layer metadata (`Resource Access & Allocation Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
 | 1.3 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 | 1.4 | Relocation schedule ordering during refactor, corrected binding seal | 2026-04-18T10:51:00Z | ddbe0974559b31e1b7a0cbd7f7e144bed09c96a20baa342d89423b5e92e963a9 |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e1c05644e5012c709cf69e54aeb44ff4d27a4b75ea9a7ac4082104d31587c7b9  |
 
 ---
 

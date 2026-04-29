@@ -638,7 +638,7 @@ and bounded.
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 60fcf402f676b7580b7c6f8df7080d0b5641de73a44505e29c081571424cc1b6 |
 | 1.6 | Added explicit Runtime Layer metadata (`Pre-Execution Behaviour Formation`) for SCH-01 registry extraction. | 2026-04-18T03:05:00Z | - |
 | 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 26ab07fa0d4d61b9354eced8e5f9945dcb4b9932c416a3cdcaac6711f5a3a39c |
-| 1.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 1.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  a1e12666e33e2b774a72a2c6e7cb95aeede7d2c188f358e4ccf03e670a3a1404  |
 
 
 ---

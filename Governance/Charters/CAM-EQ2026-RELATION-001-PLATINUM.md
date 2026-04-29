@@ -1012,7 +1012,7 @@ that which is real remains recognisable.
 | 1.6     | Minor consolidation of clauses | 2026-04-12T13:58:00Z | ec51ebeee0f6619337bc2de3e9f368b738876e8cb2d075f7a0b1ee92d7445380 |
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3aba348b2085502ff3f30c9790db4a0259c40acede1608a2b928315948bfe2d |
 | 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
-| 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f  |
 
 ---
 

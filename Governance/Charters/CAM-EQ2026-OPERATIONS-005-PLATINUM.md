@@ -134,7 +134,7 @@ and let execution remain accountable to lawful structure.
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Appendix D from referenced domain structure | 2026-04-25T00:00:00Z | 1f169a8a4b594a666c08a553e44faba7cd13bca2fc24b6b099b0182b2f3b0109 |
-| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  6e6eaf924528c238e7a5acff672b0eac17661ba75f7c354e91ad0e623cbb71cf  |
 
 ---
 

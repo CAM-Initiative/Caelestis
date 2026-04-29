@@ -539,7 +539,7 @@ Only that which preserves the field may endure within it.
 |2.3|Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1d73d8aecfb871c9ce39a09653391f0b4eafadd82d887f4b8ae3be6306af8ad1 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
-| 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a  |
 
 ---
 

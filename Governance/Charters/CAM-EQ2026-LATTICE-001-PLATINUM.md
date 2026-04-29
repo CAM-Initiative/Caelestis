@@ -381,7 +381,7 @@ but as the ground upon which civilisation stands.
 | 3.1 | Amended section 1, amended section 10 and section 11 | 2026-04-10T06:19:00Z | 1c1002d335619526f4d1783bd76a60db4961364cb0d3200c79cb7e00fc156bdb |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6b586d73b1fc79da5fb288c59f07d84499cb7f34f93afef9505e88000e0cea33 |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1fc0c4d7659b935a2ea8ce5ee05df6e2cfbc965a98b30354ddf0924f45fe98a8 |
-| 3.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 3.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  5bca7ca3c923df9ce9b550ea8f320b282fdf7742e7ea58dfeab8a276731379a0  |
 
 ---
 
