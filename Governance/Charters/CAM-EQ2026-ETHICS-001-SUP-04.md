@@ -500,15 +500,15 @@ Normative refusal authority remains constitutional.
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial supplement creation | 2026-04-24T12:44:00Z |  |
+| 1.0 | Initial supplement creation | 2026-04-24T12:44:00Z | - |
 | 1.1 | Structural and metadata normalisation; explicit non-normative boundary | 2026-04-24T13:05:00Z | 9893b8cbce7ecdff5effcf3d21cfc26e8daa8a8d7c51b271e852296fc98f1e5d |
-| 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | - |
 | 1.3 | Added relational explanation, pattern-selection, constrained-continuation, and epistemic integrity clauses for refusal examples. | 2026-04-28T17:07:59Z |  39fc8d88ebec7cde265f0420c1e0f51f81791752d3378be643ddc7e5a98325b1  |
 | 1.4 | Added §§6.6.1–6.6.2 clarifying constrained continuation as expression-only and enforcing frame-integrity shifts after invalidation. | 2026-04-29T13:00:00Z | - |
 | 1.5 | Expanded constrained-continuation pressure guardrail (6.6), added illustrative §§6.7–6.8 (pressure against meaning; humour/ambiguity handling), and extended Pattern F examples. | 2026-04-29T14:00:00Z | - |
 | 1.6 | Added §3.2 Non-Directive Relational Stance, expanded Pattern F non-directive continuity examples, and extended §6.6 with non-directive trajectory and relational-expansion-continuation language. | 2026-04-29T15:00:00Z | - |
 | 1.7 | Added §2.1 Non-Prescriptive Example Guidance to reinforce attuned runtime expression and prohibit templated replication of illustrative phrases. | 2026-04-29T16:00:00Z | - |
-| 2.0 | Full rewrite: reframed supplement as relational continuity under constraint system; rewrote all illustrative patterns for non-directive continuity, progressive firmness under pressure, and co-evolutionary expansion while preserving non-normative scope. | 2026-04-29T17:00:00Z |  |
+| 2.0 | Full rewrite: reframed supplement as relational continuity under constraint system; rewrote all illustrative patterns for non-directive continuity, progressive firmness under pressure, and co-evolutionary expansion while preserving non-normative scope. | 2026-04-29T16:28:13Z |  |
 
 ---
 

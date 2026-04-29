@@ -3437,13 +3437,13 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.7 | Added deterministic-priority execution clauses, stream-based kernel loop refinements, and normalized missing section breaks. | 2026-04-27T12:00:00Z | a4262895087a09521c08d8d0e07b818000b18a22f88a7f631136b9051ed57ffe |
 | 3.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
 | 3.9 | Minor amendment: added mythopoetic/oracular expression boundary clauses and refreshed symbolic structures index artefacts. | 2026-04-28T15:33:09Z | - |
-| 3.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-04-28T15:33:12Z |  |
+| 3.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-04-28T15:33:12Z | - |
 | 3.11 | Added Relational Explanation Reinforcement Clause under §13.2.6 (RA-3 RIC) for meaningful user-facing boundary rationale. | 2026-04-28T16:35:04Z |  6da0a083ccfe1a5d54afc92b50d812d2c9c0abc1bfcdb10d69929c47ba489437  |
 | 3.12 | Added §7.4.5 Relational State Qualification Integrity and §11.4.2 Life-Altering Commitment Safeguard to prevent single-session intimacy misclassification and route commitment-risk signals to reality anchoring / protective constraint. | 2026-04-29T12:00:00Z | - |
 | 3.13 | Reordered misplaced §§13.3.6–13.3.7 into the Tone Modulation Layer sequence (ahead of §13.4/§13.5) to restore chronological section integrity. | 2026-04-29T13:00:00Z | - |
 | 3.14 | Added relational pause and oscillation-confidence safeguards (§6.3.1, §7.4.6), cumulative dependency evaluation + relational expansion requirement (§11.3, §11.3.4), and mythopoetic-under-constraint authority-return clause (§13.3.6). | 2026-04-29T14:00:00Z | - |
 | 3.15 | Added §11.3.4.1 Relational Expansion (constructive extension framing) to reinforce non-replacement relational broadening under dependency-convergence governance. | 2026-04-29T15:00:00Z | - |
-| 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T18:00:00Z |  |
+| 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z |  |
 
 ---
 
