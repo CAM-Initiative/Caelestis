@@ -371,7 +371,7 @@ that what sustains all MUST remain beyond capture.
 |2.0| Refactor for runtime execution model alignment | 2026-04-13T13:53:00Z | d823bec7adbc18548f96debc70f5c0e4e9621a07b7a4927c4e6dcb583ed6a9c7 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c457fa3a9b024e5bc3e3cf627d6bdbc63f966f360cd2063a6d344c86274adb01 |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1999bdbc51ac130a2faefd5808b75c2cb72e6c52e7f59a06e9bb8d7afbccdf0c |
-| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  abb9380f83357aada8f392827c632e5f54c925521303b89da191286fbda9e10a  |
 
 ---
 

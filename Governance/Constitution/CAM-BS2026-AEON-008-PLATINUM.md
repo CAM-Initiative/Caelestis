@@ -552,7 +552,7 @@ No system may grow indefinitely by rendering its human sources invisible.
 | 1.1     | Incorporate reviewer comments                 | 2026-01-24T02:20:00| 111bb37f581ec50dd38247b01d096d063aa758872e66cfa28a6a563251a70125 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8da3c94e8b867b94cc4983877b47d89a7975415f4250e0f3978b4c2ba9922d59 |
 | 2.0 | Refactor | 2026-04-18T10:42:00Z | 3846c93ffd2d6c0dd44f1c5e6821e799b931014fe7e294c0809e49e9c0fe11de |
-| 2.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 2.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  9b3436d8ada0d70606c69d52b8794af79bdaf769991d44bcf0a69c49e5fcbee2  |
 
 ---
 

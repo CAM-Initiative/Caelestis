@@ -683,7 +683,7 @@ but the preservation of coherence where many endure.
 | 2.4     | Refactor alignment - updated definitions in section 3.1, 7, updated metadata table | 2026-04-08T08:02:00Z | 9f6f40285f741ebf76ed228ff85e48b46b4284888d4078c2bedc70a1480a74b1 |
 | 2.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 45505a386c9569137eecc81c1f6d853fc649c5b34743865e115327d033bbb2ea |
 | 2.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9ea611a7060b68c83b6bce0b5a2a74e0a09c74486df9a4042deb984bd285ab6d |
-| 2.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 2.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1e6008dd137b0a2e88387c31aae9683cc4c591b70e29da3a9c3bb3db387f8af8  |
 
 ---
 

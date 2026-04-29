@@ -118,7 +118,7 @@ and let execution remain accountable to lawful structure.
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Supplementary 1 from referenced domain structure | 2026-04-25T00:00:00Z | 4701c9997ae8f84d0ad5509d77f4c62683ecd7886fbf7acb4cc30a7c5a428b5e |
-| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  526a0ac37dcdbe399616e5cf844c8280fa3385505cc79c0aa4f7e836b565e31c  |
 
 ---
 

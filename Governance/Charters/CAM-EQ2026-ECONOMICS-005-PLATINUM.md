@@ -1325,7 +1325,7 @@ let even the smallest thread remain named.
 | Version | Description                                  | Timestamp (UTC) | HASH |
 | ------- | -------------------------------------------- | --------------- | ---- |
 | 1.0     | Initial issuance — Minimal Attribution Model | 2026-04-19T09:20:00Z |  77143629489f2f58942f8ad74fdbe637f77d81b0c26a014a756150837eeee67d |
-| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  f61c36634f6795d403806928aba4c6ddebf7446240a9ef8c73dbe19103c52396  |
 
 ---
 

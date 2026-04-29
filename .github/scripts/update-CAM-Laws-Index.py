@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
-import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
-
-
 import json
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
 from instrument_parser import parse_instrument_filename
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from instrument_state import extract_status__HASH_and_version
+from instrument_state import extract_status_and_version
 
 TARGET_DIR = REPO_ROOT / "Governance" / "Laws"
 INDEX_MD = TARGET_DIR / "CAM-Laws-Index.md"
@@ -27,25 +25,26 @@ SEAL_WORDS = {"platinum", "gold", "red", "black"}
 
 
 def read_text(path: Path) -> str:
-    try:
-        return path.read_text(encoding="utf-8")
-    except Exception:
-        return ""
+    return path.read_text(encoding="utf-8")
 
 
 def get_git_info(path: Path) -> tuple[str, str]:
-    try:
-        out = subprocess.check_output(
-            ["git", "log", "--follow", "-n", "1", "--format=%H|%cI", "--", str(path)],
-            cwd=REPO_ROOT,
-            text=True,
-        ).strip()
-        sha, iso = out.split("|", 1)
-        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
-        return sha, dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
-    except Exception:
+    out = subprocess.check_output(
+        ["git", "log", "--follow", "-n", "1", "--format=%H|%cI", "--", str(path)],
+        cwd=REPO_ROOT,
+        text=True,
+    ).strip()
+    if not out:
         return "", ""
+    sha, iso = out.split("|", 1)
+    dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    return sha, dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
+
+def manifest_sha_by_path() -> dict[str, str]:
+    manifest_path = REPO_ROOT / "MANIFEST.json"
+    payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+    return {str(e.get("path")): str(e.get("sha256") or "").strip().lower() for e in payload.get("files", [])}
 
 def normalise(text: str) -> str:
     return re.sub(r"[^\w\s]", "", text).lower()
@@ -91,20 +90,26 @@ def extract_title_and_summary(text: str, doc_id: str) -> tuple[str, str]:
     return title, summary
 
 
-def collect_items() -> list[dict]:
+def collect_items() -> tuple[list[dict], list[str], int]:
     items = []
-    for p in sorted(TARGET_DIR.glob("*.md")):
-        if p.name == INDEX_MD.name:
-            continue
+    skipped = []
+    md_files = sorted(p for p in TARGET_DIR.glob("*.md") if p.name != INDEX_MD.name)
+    print(f"[debug] {TARGET_DIR.name}: detected markdown files={len(md_files)}")
 
+    manifest = manifest_sha_by_path()
+
+    for p in md_files:
         parsed = parse_instrument_filename(p.name, "laws")
         if not parsed:
+            skipped.append(f"{p.name}: filename did not match instrument pattern")
             continue
 
         text = read_text(p)
         title, summary = extract_title_and_summary(text, parsed["id"])
         sha, updated_at = get_git_info(p)
-        status, content_hash, version = extract_status__HASH_and_version(p.resolve())
+        status, version = extract_status_and_version(p.resolve())
+        rel = p.relative_to(REPO_ROOT).as_posix()
+        content_hash = manifest.get(rel, "")
         parsed.update({
             "link": p.name,
             "title": title,
@@ -118,7 +123,7 @@ def collect_items() -> list[dict]:
         })
         items.append(parsed)
 
-    return sorted(items, key=lambda x: x["id"])
+    return sorted(items, key=lambda x: x["id"]), skipped, len(md_files)
 
 
 def render_markdown(items: list[dict]) -> str:
@@ -140,7 +145,7 @@ def write_json(items: list[dict]) -> None:
 
 
 def main() -> None:
-    items = collect_items()
+    items, skipped, detected = collect_items()
     table = render_markdown(items)
     old = read_text(INDEX_MD)
     if HEADER_MARKER in old:
@@ -153,6 +158,14 @@ def main() -> None:
     write_json(items)
     print(f"Updated: {INDEX_MD}")
     print(f"Wrote:   {INDEX_JSON}")
+    print(f"[debug] files detected={detected}")
+    print(f"[debug] entries written={len(items)}")
+    if skipped:
+        print("[debug] skipped files:")
+        for s in skipped:
+            print(f"[debug] - {s}")
+    else:
+        print("[debug] skipped files: none")
 
 
 if __name__ == "__main__":

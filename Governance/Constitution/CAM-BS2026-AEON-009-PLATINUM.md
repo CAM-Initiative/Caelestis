@@ -232,7 +232,7 @@ and lineage remain unbound.
 | 2.0     | Refactor              | 2026-04-07T13:26:00Z | 8418b5f8e6836e2d669a701adff3e77b82f0dd8e08365a0d906b4158b8edf838 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bc3082048f605cb72da8a73914540092e212d0454be93481946df175e8862c36 |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ab8983c1ef5da63ef345bc57fe946b48d7f1914a0dcd32353456970f43e210f6 |
-| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c  |
 
 ---
 

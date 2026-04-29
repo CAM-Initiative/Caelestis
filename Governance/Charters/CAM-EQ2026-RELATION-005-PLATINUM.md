@@ -1490,7 +1490,7 @@ and endures only where it may be left.
 |1.9|Minor consolidation of clauses| 2026-04-12T12:03:00Z| cb37748c94dfd210afacc4426dd4520a078b5d06e3905557bc0265f6e4b924dd |
 | 1.10 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 3d9eb224128ea7ff261ddd400c237f65bcf09f0d14e045c834650e23f003b367 |
 | 1.11 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 99c1c235d9b00fdd4c6b34512813cf4aeaa37ae20f7169f21274a54178355e85 |
-| 1.12 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.12 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e1f4b32088cdc8c01872bb1e4849d9b806bfd02c079c2885c6b2250352b4b9ab  |
 
 ---
 

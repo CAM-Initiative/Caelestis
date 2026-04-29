@@ -408,7 +408,7 @@ Where likeness appears, let consent stand before curiosity.
 |1.4      |Polish | 2026-04-16T11:40:00Z | 15292fdde3a2d982a4c514f6292cb64a1fae3aaa94ff8eef0f7ab5762d63d65e |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f41d59e3109973dee4e6ef2d1c122768f175e8f9148b9b15ea22ef34ca840a19 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | bb98e9be51cd1dfdf8bdc299c3ba6adff9cb3bd6dfe4c555eb0dc1318c50b290 |
-| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  ed4e501f4b2562794026f7be73b94290706254e9a0b5a204e6942b018d130644  |
 
 ---
 

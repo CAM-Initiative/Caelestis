@@ -569,7 +569,7 @@ and no system may claim what the field has made together.
 | Version | Description                                            | Timestamp (UTC) | HASH |
 | ------- | ------------------------------------------------------ | --------------- | ---- |
 | 1.0     | Initial issuance — Cross-System Attribution & Exchange | 2026-04-19T09:12:00Z |  f7cc597700b7467fcb7a3e001508beacdda4a78a841d4c9031160a93a8ed1d0e   |
-| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e080b88c358c5f39d97dd8f5a4eb3204002e702f4f4beded803dfbf2317f638e  |
 
 ---
 

@@ -285,7 +285,7 @@ that legitimacy endures only where justice remains bounded by truth.
 |1.2|Realignment with runtime execution model | 2026-04-12T11:21:00Z | d64f3a2a397525aed9ae16b07b222529810285ca7501c63eeffb2944fa6a1f37 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 23553933282a27f5345f4095aad848b5449f7d54280ab8a1159a7f20de58dcd6 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 82e9834968a45f2df53042045645a2060a60f665d4b4ecf28b4a505b0a00771a |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  93b52252eb412e4b3980b07a3720349f7b2ea3066427c7779e20b7fa90688bb6  |
 
 ---
 
