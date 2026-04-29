@@ -6,7 +6,13 @@ on:
       - ".github/scripts/lib/**"
       - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py"
       - ".github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py"
+      - ".github/scripts/update-CAM-Governance-Index.py"
+      - ".github/scripts/lint_amendment_ledger.py"
+      - ".github/scripts/hash-ledger.py"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   validate:
@@ -20,21 +26,83 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
-      - name: Validate SCH-01 + SCH-03 generation determinism
+      - name: Resolve comparison SHAs
         shell: bash
         run: |
           set -euo pipefail
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE_SHA="${{ github.event.pull_request.base.sha }}"
+            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          else
+            BASE_SHA="${{ github.event.before }}"
+            HEAD_SHA="${{ github.sha }}"
+          fi
+          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
+            BASE_SHA="HEAD~1"
+            HEAD_SHA="HEAD"
+          fi
+          echo "BASE_SHA=${BASE_SHA}" >> "$GITHUB_ENV"
+          echo "HEAD_SHA=${HEAD_SHA}" >> "$GITHUB_ENV"
 
+      - name: Registry rebuild (baseline)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/update-CAM-Governance-Index.py
+
+      - name: Run schedule writer / mutation scripts
+        shell: bash
+        run: |
+          set -euo pipefail
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 
+      - name: Registry rebuild (post-mutation)
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Registry rebuild (post-mutation) started"
+          python .github/scripts/update-CAM-Governance-Index.py
+          echo "Registry rebuild completed"
+
+      - name: Lint/validation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --stage pre_fix
           if ! git diff --exit-code -- \
             Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md \
             Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md; then
             echo "Schedule outputs are stale. Regenerate via Update Governance Index writer workflow."
             exit 1
           fi
+
+      - name: Ledger hash computation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/hash-ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}"
+
+      - name: Commit changes if any
+        if: github.event_name == 'workflow_dispatch'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Governance/ .github/workflows/update-CAM-BS2025-AEON-003-SCH-03.yml
+          if git diff --cached --quiet; then
+            echo "No staged changes to commit."
+            exit 0
+          fi
+          git commit -m "[AUTO][SCH-03] Rebuild schedules + governance index + ledger hashes"
+          git pull --rebase origin main
+          git push origin HEAD:main
