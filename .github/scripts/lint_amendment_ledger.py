@@ -448,9 +448,16 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
 def is_minor_only_increment(previous: str, current: str) -> bool:
     prev_major, prev_minor = previous.split(".")
     curr_major, curr_minor = current.split(".")
-    if prev_major != curr_major:
-        return False
-    return int(curr_minor) == int(prev_minor) + 1
+    prev_major_i, prev_minor_i = int(prev_major), int(prev_minor)
+    curr_major_i, curr_minor_i = int(curr_major), int(curr_minor)
+    # Allow either:
+    # - traditional minor bump within same major: 1.7 -> 1.8
+    # - major bump with minor reset: 1.7 -> 2.0
+    if curr_major_i == prev_major_i:
+        return curr_minor_i == prev_minor_i + 1
+    if curr_major_i == prev_major_i + 1:
+        return curr_minor_i == 0
+    return False
 
 
 def bump_minor_version(version: str) -> str:
@@ -580,12 +587,12 @@ def lint(
             previous_version = after_versions[-2]
             current_version = after_versions[-1]
             if not is_minor_only_increment(previous_version, current_version):
-                failures.append(f"{path}: Amendment version must increment MINOR only (no MAJOR bump)")
+                failures.append(f"{path}: Amendment version must increment by +0.1 or by +1.0 with minor reset (x.0)")
         elif before_versions and after_versions:
             previous_version = before_versions[-1]
             current_version = after_versions[-1]
             if previous_version != current_version and not is_minor_only_increment(previous_version, current_version):
-                failures.append(f"{path}: Amendment version must increment MINOR only (no MAJOR bump)")
+                failures.append(f"{path}: Amendment version must increment by +0.1 or by +1.0 with minor reset (x.0)")
 
         latest_sha_status = classify_latest_sha_status(
             full_text=after if after else working_text,
