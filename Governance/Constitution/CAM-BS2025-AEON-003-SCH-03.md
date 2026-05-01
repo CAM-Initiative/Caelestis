@@ -37,7 +37,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-001-SCH-01](../Constitution/CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution Schedule | Schedule | 1.9 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.5 | Active — Binding |
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | Unknown | Active — Immediate Effect |
-| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 2.6 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 2.7 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted |
 | [CAM-BS2025-AEON-003-SCH-04](../Constitution/CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Schedule | 2.1 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-005-SCH-01](../Constitution/CAM-BS2025-AEON-005-SCH-01.md) | Annex D: Runtime Arbitration Integrity (Schedule 1) | Schedule | 1.7 | Active |

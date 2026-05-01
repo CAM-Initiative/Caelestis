@@ -135,11 +135,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.6",
-      "HASH": "6bf4a7d3c60bf0b6b0944b9175bbc54d5241c6fdb6bade512de987833b1b39a3",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "2.7",
+      "HASH": "af2468a9e77983f180dcf3605146a65f198ece2875cf17667997fb7ab177072b",
+      "pinned_sha": "caa5f46446b52bcb01587dd15b596eea6879a18e",
+      "updated_at": "2026-04-30T23:54:10Z",
+      "last_updated_utc": "2026-04-30T23:54:10Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -157,9 +157,9 @@
       "status": "Adopted",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "85fc633f851358b5bb95ec0adb3f0f7aa11785f6",
-      "updated_at": "2026-04-29T12:35:29Z",
-      "last_updated_utc": "2026-04-29T12:35:29Z"
+      "pinned_sha": "c9d94bba1bb024d4b366642048a24b17211e89bf",
+      "updated_at": "2026-04-29T16:56:40Z",
+      "last_updated_utc": "2026-04-29T16:56:40Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
