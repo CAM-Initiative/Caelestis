@@ -377,7 +377,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 | 3.3 | Added explicit Runtime Layer metadata (`Event-Triggered Execution Constraint`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
 | 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | df785fbd2997e43bd09f309b654124cf4062041a0af7f11f1244fac31908c121 |
 | 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ef37a4ed3a1cb400deb07410d12ff2499fd1fd82aac4d5d8d2ef5779e3899f78  |
-| 3.6 | Included canonical codes in metadata | 2026-05-01T11:3:00Z |  |
+| 3.6 | Included canonical codes in metadata | 2026-05-01T11:3:00Z |  36beaeb61740de93841ed76dc59d420041e92295f5a440fe4a24bd9f243409d3  |
 
 ---
 

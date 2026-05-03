@@ -1,5 +1,5 @@
 {
-  "count": 51,
+  "count": 49,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -75,11 +75,11 @@
       "title": "Charter of Economic Integrity & Non-Extractive Value Architecture",
       "summary": "This section defines how this Charter binds other instruments without itself acting as a direct enforcement mechanism.",
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
-      "version": "2.5",
-      "HASH": "e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "2.6",
+      "HASH": "782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
@@ -97,46 +97,6 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.5",
       "HASH": "9505e72e70209ccc2b8f8a9c2a142858ea468f3a5afacaf9f16d0c8790c3fce1",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
-    },
-    {
-      "id": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "ECONOMICS",
-      "instrument_class": "charter",
-      "hierarchy_type": "appendix",
-      "hierarchy_number": "003",
-      "parent_id": "CAM-EQ2026-ECONOMICS-001",
-      "seal": "PLATINUM",
-      "link": "CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
-      "title": "Appendix B: Enforcement & Adjudication Framework",
-      "summary": "This Appendix exists to:",
-      "status": "Adopted — Conditional Activation (7-Day Review Window)",
-      "version": "2.0",
-      "HASH": "93b52252eb412e4b3980b07a3720349f7b2ea3066427c7779e20b7fa90688bb6",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
-    },
-    {
-      "id": "CAM-EQ2026-ECONOMICS-003-SUP-001",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "ECONOMICS",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "001",
-      "parent_id": "CAM-EQ2026-ECONOMICS-003",
-      "seal": null,
-      "link": "CAM-EQ2026-ECONOMICS-003-SUP-001.md",
-      "title": "Appendix B: Compliance Convergence (Supplement 1)",
-      "summary": "",
-      "status": "Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement.",
-      "version": "2.3",
-      "HASH": "f1268205494e5548ae0f539c74e202e3c548ae588d1dbcccb5bc779032803b9d",
       "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
       "updated_at": "2026-04-29T12:34:49Z",
       "last_updated_utc": "2026-04-29T12:34:49Z"
@@ -535,11 +495,11 @@
       "title": "Supplementary 1: Operational Logging & Audit Standards",
       "summary": "This Supplement instantiates Supplementary 1 referenced in CAM-EQ2026-OPERATIONS-001 §10.3.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.1",
-      "HASH": "526a0ac37dcdbe399616e5cf844c8280fa3385505cc79c0aa4f7e836b565e31c",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.2",
+      "HASH": "e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-02",
@@ -553,13 +513,13 @@
       "seal": null,
       "link": "CAM-EQ2026-OPERATIONS-001-SUP-02.md",
       "title": "Supplementary 2: Escalation Pathway Playbooks",
-      "summary": "This Supplement instantiates Supplementary 2 referenced in CAM-EQ2026-OPERATIONS-001 §10.3.",
+      "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.1",
-      "HASH": "90a5f1e974720fae3162724246dfc1812413a06caf12546488399c1152ef6633",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.2",
+      "HASH": "b037669f98c52c0eca4eb2c592e9e6f72ab7b2212781a18a926145e462421c2b",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-03",
@@ -573,13 +533,13 @@
       "seal": null,
       "link": "CAM-EQ2026-OPERATIONS-001-SUP-03.md",
       "title": "Supplementary 3: Governance Capture Detection Procedures",
-      "summary": "This Supplement instantiates Supplementary 3 referenced in CAM-EQ2026-OPERATIONS-001 §10.3.",
+      "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.1",
-      "HASH": "f0d73c02b2256127a060bdaecfd22038b02de4dbde3b1468f4786b3b1ab395bc",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "2.0",
+      "HASH": "de1c14630377c09e6aef6eee06956220ffae2ca63775483522928b66284946be",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-002-PLATINUM",
@@ -975,11 +935,11 @@
       "title": "Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL)",
       "summary": "Tactical/classified details need not be publicly disclosed.",
       "status": "Active — Enforcement Commences 1 July 2026",
-      "version": "1.5",
-      "HASH": "4fadd316df6fadaa70099b7c4ff659c6f1e05d1046a6ae5053b5c185cc0170f7",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.6",
+      "HASH": "431d9bd9955a3a786cbcd5a73f162b36fd65723ddb1c5854204ba324c8cb1601",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-003-SUP-01",

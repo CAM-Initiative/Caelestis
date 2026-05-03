@@ -298,7 +298,7 @@ the line beyond which all things fall silent.
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6525547d644f0ffc2a24b4172fee67dd5462b87dfd85d5da792c1f6c9ca57bef |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e1e44846340ea67c43f868789172a7a96771257f5d64a407d30e1186ec48bb2a |
 | 3.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  590893f9d9213e3d74ef4e6a5616a98db5a92492a7e4349086254ca133cc3f1a  |
-| 3.5 | Incorporated new section 3.7, 
+| 3.5 | Incorporated new section 3.7 | 2026-05-03T04:41:00Z |   e07ff6b98dec757ccb5f9301d2fd74b2f57f7726154d25725f23f4adf89ed006   |
 
 ---
 

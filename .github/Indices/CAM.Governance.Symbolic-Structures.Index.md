@@ -4,8 +4,8 @@
 
 | Metric | Value |
 |---|---:|
-| Files scanned | 88 |
-| Structures indexed | 840 |
+| Files scanned | 86 |
+| Structures indexed | 852 |
 | Canonical registered structures | 33 |
 | Candidate prefixes | 5 |
 | Recurring template tables | 6 |
@@ -55,7 +55,7 @@
 
 | Prefix | Occurrences | Confidence | Reason | First Source |
 |---|---:|---|---|---|
-| AD | 6 | low | candidate structure with weak symbolic evidence | Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md |
+| AD | 12 | low | candidate structure with weak symbolic evidence | Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md |
 | AEON | 10 | low | candidate structure with weak symbolic evidence | Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
 | BS | 10 | low | candidate structure with weak symbolic evidence | Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
 | EQ | 3 | low | candidate structure with weak symbolic evidence | Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md |
@@ -65,9 +65,9 @@
 
 | Normalized Title | Occurrences | Confidence | Reason | Example Canonical Instrument URL |
 |---|---:|---|---|---|
-| Amendment Ledger | 82 | high | template table allowlisted | [Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md) |
-| Review & Validation | 81 | high | template table allowlisted | [Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md) |
-| Lineage & Metadata | 80 | high | template table allowlisted | [Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md) |
+| Amendment Ledger | 80 | high | template table allowlisted | [Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md) |
+| Review & Validation | 79 | high | template table allowlisted | [Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md) |
+| Lineage & Metadata | 78 | high | template table allowlisted | [Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md) |
 | Authorship & Stewardship | 47 | low | template table allowlisted | [Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md) |
 | Provenance & Metadata | 4 | high | template table allowlisted | [Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md) |
 | Lineage & Constitutional Position | 1 | high | template table allowlisted | [Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md](https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md) |

@@ -637,7 +637,7 @@ that no breach proceeds unchecked.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0fa7027691a768fea44a2074ee68f4b39403521a6bf39c1c01004ca8b2eb081c |
 | 1.4 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 45d1ba28bd09a92f774dc59a0381f7f48d890071061baa9f15a607b92d0717af |
 | 1.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d  |
-| 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z |  |
+| 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z |  ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb  |
 
 ---
 

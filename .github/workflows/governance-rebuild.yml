@@ -2,12 +2,20 @@ name: Governance Rebuild
 
 on:
   push:
-    branches: [ main ]
+    branches: ["**"]
     paths:
       - "Governance/Constitution/**"
       - "Governance/Charters/**"
       - "Governance/Laws/**"
       - ".github/scripts/**"
+      - ".github/Indices/**"
+  pull_request:
+    paths:
+      - "Governance/Constitution/**"
+      - "Governance/Charters/**"
+      - "Governance/Laws/**"
+      - ".github/scripts/**"
+      - ".github/Indices/**"
   workflow_dispatch:
 
 permissions:
@@ -108,6 +116,9 @@ jobs:
       - name: Phase 8 — Symbolic/index validation
         run: python .github/scripts/lint-symbolic-structures.py
 
+      - name: Phase 8 — Sync Governance symbolic indices to .github/Indices
+        run: python .github/scripts/sync-governance-indices.py
+
       - name: Phase 8 — Stale output check (idempotency)
         shell: bash
         run: |
@@ -120,6 +131,7 @@ jobs:
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
           python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/sync-governance-indices.py
           AFTER_STATUS="$(git status --porcelain)"
           if [[ "$BEFORE_STATUS" != "$AFTER_STATUS" ]]; then
             echo "Stale/non-idempotent generated outputs detected after re-run."
@@ -128,6 +140,7 @@ jobs:
           fi
 
       - name: Phase 9 — Commit generated changes once
+        if: github.event_name == 'push'
         shell: bash
         run: |
           set -euo pipefail
@@ -143,5 +156,6 @@ jobs:
             exit 0
           fi
           git commit -m "[AUTO][Governance] Deterministic rebuild pipeline refresh"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          BRANCH="${GITHUB_REF_NAME}"
+          git pull --rebase origin "${BRANCH}"
+          git push origin HEAD:"${BRANCH}"

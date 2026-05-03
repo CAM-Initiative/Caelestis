@@ -5,8 +5,8 @@ import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-INDEX_PATH = REPO_ROOT / "Governance" / "Indices" / "CAM.Governance.Symbolic-Structures.Index.json"
-REGISTRY_PATH = REPO_ROOT / "Governance" / "Indices" / "CAM.Governance.Symbolic-Structures.Registry.json"
+INDEX_PATH = REPO_ROOT / ".github" / "Indices" / "CAM.Governance.Symbolic-Structures.Index.json"
+REGISTRY_PATH = REPO_ROOT / ".github" / "Indices" / "CAM.Governance.Symbolic-Structures.Registry.json"
 
 REQUIRED_FIELDS = [
     "prefix",

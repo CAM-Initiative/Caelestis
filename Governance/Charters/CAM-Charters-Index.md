@@ -13,8 +13,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-CONTINUITY-001-PLATINUM | charter | root |  | [CAM-EQ2026-CONTINUITY-001-PLATINUM](CAM-EQ2026-CONTINUITY-001-PLATINUM.md) | Continuity & Succession Governance Charter |
 | CAM-EQ2026-ECONOMICS-001-PLATINUM | charter | root |  | [CAM-EQ2026-ECONOMICS-001-PLATINUM](CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture |
 | CAM-EQ2026-ECONOMICS-002-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-002-PLATINUM](CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | Appendix A : Synthetic Participation Safeguards |
-| CAM-EQ2026-ECONOMICS-003-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-003-PLATINUM](CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Enforcement & Adjudication Framework |
-| CAM-EQ2026-ECONOMICS-003-SUP-001 | charter | supplement | CAM-EQ2026-ECONOMICS-003 | [CAM-EQ2026-ECONOMICS-003-SUP-001](CAM-EQ2026-ECONOMICS-003-SUP-001.md) | Appendix B: Compliance Convergence (Supplement 1) |
 | CAM-EQ2026-ECONOMICS-004-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-004-PLATINUM](CAM-EQ2026-ECONOMICS-004-PLATINUM.md) | Appendix C: Cross-System Value Attribution & Exchange |
 | CAM-EQ2026-ECONOMICS-005-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-005-PLATINUM](CAM-EQ2026-ECONOMICS-005-PLATINUM.md) | Appendix D:  Attribution & Dependency Model |
 | CAM-EQ2026-ECONOMICS-006-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-006-PLATINUM](CAM-EQ2026-ECONOMICS-006-PLATINUM.md) | Appendix E: Minimum Viable Governance Layer (External Alignment) |

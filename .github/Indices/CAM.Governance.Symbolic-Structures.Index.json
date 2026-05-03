@@ -4,7 +4,7 @@
       "confidence": "low",
       "expected_bucket": "",
       "first_source_file": "Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md",
-      "occurrences": 6,
+      "occurrences": 12,
       "prefix": "AD",
       "protected": false,
       "reason": "candidate structure with weak symbolic evidence",
@@ -1003,7 +1003,7 @@
       ]
     }
   ],
-  "count": 840,
+  "count": 852,
   "detected_prefixes": [
     "A",
     "AC",
@@ -1157,7 +1157,7 @@
     "VL0",
     "VL4"
   ],
-  "files_scanned": 88,
+  "files_scanned": 86,
   "noncanonical_registered_prefix_values": [],
   "possible_collisions_requiring_review": [
     {
@@ -1258,12 +1258,12 @@
       "examples": [
         {
           "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-          "line_start": 1001,
+          "line_start": 1037,
           "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
         },
         {
           "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-          "line_start": 1008,
+          "line_start": 1044,
           "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
         }
       ],
@@ -1537,7 +1537,7 @@
         },
         {
           "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
-          "line_start": 533,
+          "line_start": 555,
           "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md"
         },
         {
@@ -1547,7 +1547,7 @@
         }
       ],
       "normalized_title": "Amendment Ledger",
-      "occurrences": 82,
+      "occurrences": 80,
       "reason": "template table allowlisted"
     },
     {
@@ -1570,7 +1570,7 @@
         },
         {
           "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
-          "line_start": 521,
+          "line_start": 544,
           "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md"
         },
         {
@@ -1580,7 +1580,7 @@
         }
       ],
       "normalized_title": "Review & Validation",
-      "occurrences": 81,
+      "occurrences": 79,
       "reason": "template table allowlisted"
     },
     {
@@ -1598,7 +1598,7 @@
         },
         {
           "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
-          "line_start": 491,
+          "line_start": 509,
           "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md"
         },
         {
@@ -1607,13 +1607,13 @@
           "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md"
         },
         {
-          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
-          "line_start": 248,
-          "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md"
+          "canonical_url": "https://github.com/CAM-Initiative/Registry/blob/main/Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+          "line_start": 537,
+          "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md"
         }
       ],
       "normalized_title": "Lineage & Metadata",
-      "occurrences": 80,
+      "occurrences": 78,
       "reason": "template table allowlisted"
     },
     {
@@ -2142,6 +2142,18 @@
       "table_title": "13.4 Amendment Ledger"
     },
     {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "8.4.1 Economic Harm Signal Routing & Runtime Ownership",
+      "kind": "heading",
+      "line_start": 434,
+      "nearest_heading": "8.4.1 Economic Harm Signal Routing & Runtime Ownership",
+      "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md"
+    },
+    {
       "columns": [
         "Field",
         "Entry"
@@ -2149,26 +2161,23 @@
       "detected_prefixes": [
         "AEON",
         "BS",
-        "H",
-        "SCH"
+        "H"
       ],
       "detected_scale_values": [
         "AEON-001",
-        "AEON-003",
         "BS2025",
         "BS2026",
-        "H3.5",
-        "SCH-02"
+        "H3.5"
       ],
       "has_repeated_numbered_sequence": true,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 509,
-      "line_start": 491,
+      "line_end": 532,
+      "line_start": 509,
       "nearest_heading": "10.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
-      "row_count": 17,
+      "row_count": 22,
       "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
       "table_title": "10.2 Lineage & Metadata"
     },
@@ -2183,11 +2192,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 527,
-      "line_start": 521,
+      "line_end": 549,
+      "line_start": 544,
       "nearest_heading": "10.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
-      "row_count": 5,
+      "row_count": 4,
       "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
       "table_title": "10.3 Review & Validation"
     },
@@ -2204,11 +2213,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 542,
-      "line_start": 533,
+      "line_end": 565,
+      "line_start": 555,
       "nearest_heading": "10.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 8,
+      "row_count": 9,
       "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
       "table_title": "10.4 Amendment Ledger"
     },
@@ -2314,156 +2323,6 @@
       "row_count": 7,
       "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
       "table_title": "10.4 Amendment Ledger"
-    },
-    {
-      "columns": [
-        "Field",
-        "Entry"
-      ],
-      "detected_prefixes": [
-        "AEON",
-        "BS",
-        "EQ",
-        "H",
-        "SCH"
-      ],
-      "detected_scale_values": [
-        "AEON-003",
-        "BS2025",
-        "BS2026",
-        "EQ2026",
-        "H3.5",
-        "SCH-02"
-      ],
-      "has_repeated_numbered_sequence": true,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "kind": "table",
-      "line_end": 264,
-      "line_start": 248,
-      "nearest_heading": "10.2 Lineage & Metadata",
-      "normalized_table_title": "Lineage & Metadata",
-      "row_count": 15,
-      "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
-      "table_title": "10.2 Lineage & Metadata"
-    },
-    {
-      "columns": [
-        "Field",
-        "Entry"
-      ],
-      "detected_prefixes": [],
-      "detected_scale_values": [],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "kind": "table",
-      "line_end": 274,
-      "line_start": 270,
-      "nearest_heading": "10.3 Review & Validation",
-      "normalized_table_title": "Review & Validation",
-      "row_count": 3,
-      "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
-      "table_title": "10.3 Review & Validation"
-    },
-    {
-      "columns": [
-        "Version",
-        "Description",
-        "Timestamp(UTC)",
-        "HASH"
-      ],
-      "detected_prefixes": [],
-      "detected_scale_values": [],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "kind": "table",
-      "line_end": 288,
-      "line_start": 281,
-      "nearest_heading": "10.4 Amendment Ledger",
-      "normalized_table_title": "Amendment Ledger",
-      "row_count": 6,
-      "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
-      "table_title": "10.4 Amendment Ledger"
-    },
-    {
-      "columns": [
-        "Field",
-        "Entry"
-      ],
-      "detected_prefixes": [
-        "AEON",
-        "BS",
-        "EQ",
-        "H",
-        "SCH"
-      ],
-      "detected_scale_values": [
-        "AEON-003",
-        "BS2025",
-        "BS2026",
-        "EQ2026",
-        "H3.5",
-        "SCH-02"
-      ],
-      "has_repeated_numbered_sequence": true,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "kind": "table",
-      "line_end": 250,
-      "line_start": 234,
-      "nearest_heading": "11.2 Lineage & Metadata",
-      "normalized_table_title": "Lineage & Metadata",
-      "row_count": 15,
-      "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-SUP-001.md",
-      "table_title": "11.2 Lineage & Metadata"
-    },
-    {
-      "columns": [
-        "Field",
-        "Entry"
-      ],
-      "detected_prefixes": [
-        "EQ",
-        "SUP"
-      ],
-      "detected_scale_values": [
-        "EQ2026",
-        "SUP-001"
-      ],
-      "has_repeated_numbered_sequence": true,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "kind": "table",
-      "line_end": 261,
-      "line_start": 255,
-      "nearest_heading": "11.3 Review & Validation",
-      "normalized_table_title": "Review & Validation",
-      "row_count": 5,
-      "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-SUP-001.md",
-      "table_title": "11.3 Review & Validation"
-    },
-    {
-      "columns": [
-        "Version",
-        "Description",
-        "Timestamp(UTC)",
-        "HASH"
-      ],
-      "detected_prefixes": [],
-      "detected_scale_values": [],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": false,
-      "kind": "table",
-      "line_end": 273,
-      "line_start": 267,
-      "nearest_heading": "11.4 Amendment Ledger",
-      "normalized_table_title": "Amendment Ledger",
-      "row_count": 5,
-      "source_file": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-SUP-001.md",
-      "table_title": "11.4 Amendment Ledger"
     },
     {
       "detected_prefixes": [],
@@ -3765,6 +3624,38 @@
       "source_file": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-04.md"
     },
     {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "4.6 Pattern Selection Matrix (Illustrative)",
+      "kind": "heading",
+      "line_start": 178,
+      "nearest_heading": "4.6 Pattern Selection Matrix (Illustrative)",
+      "source_file": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-04.md"
+    },
+    {
+      "columns": [
+        "Condition",
+        "Recommended Pattern",
+        "Relational Framing"
+      ],
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "kind": "table",
+      "line_end": 189,
+      "line_start": 182,
+      "nearest_heading": "4.6 Pattern Selection Matrix (Illustrative)",
+      "normalized_table_title": "The following matrix provides guidance for aligning refusal tone with relational state and constraint intensity",
+      "row_count": 6,
+      "source_file": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-04.md",
+      "table_title": "The following matrix provides guidance for aligning refusal tone with relational state and constraint intensity."
+    },
+    {
       "columns": [
         "Field",
         "Entry"
@@ -3785,8 +3676,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 238,
-      "line_start": 226,
+      "line_end": 485,
+      "line_start": 473,
       "nearest_heading": "10.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
       "row_count": 11,
@@ -3804,8 +3695,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 248,
-      "line_start": 244,
+      "line_end": 495,
+      "line_start": 491,
       "nearest_heading": "10.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 3,
@@ -3825,11 +3716,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 258,
-      "line_start": 254,
+      "line_end": 511,
+      "line_start": 501,
       "nearest_heading": "10.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 3,
+      "row_count": 9,
       "source_file": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-04.md",
       "table_title": "10.4 Amendment Ledger"
     },
@@ -5092,6 +4983,18 @@
       "table_title": "11.4 Amendment Ledger"
     },
     {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "4.2 Record Classification Taxonomy",
+      "kind": "heading",
+      "line_start": 46,
+      "nearest_heading": "4.2 Record Classification Taxonomy",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md"
+    },
+    {
       "columns": [
         "Field",
         "Entry"
@@ -5102,13 +5005,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 84,
-      "line_start": 79,
-      "nearest_heading": "6.1 Authorship & Stewardship",
+      "line_end": 293,
+      "line_start": 288,
+      "nearest_heading": "9.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md",
-      "table_title": "6.1 Authorship & Stewardship"
+      "table_title": "9.1 Authorship & Stewardship"
     },
     {
       "columns": [
@@ -5119,26 +5022,28 @@
         "AEON",
         "BS",
         "EQ",
-        "H"
+        "H",
+        "SUP"
       ],
       "detected_scale_values": [
         "AEON-001",
         "BS2025",
         "EQ2026",
         "H0",
-        "H2"
+        "H2",
+        "SUP-02"
       ],
       "has_repeated_numbered_sequence": true,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 101,
-      "line_start": 90,
-      "nearest_heading": "6.2 Lineage & Metadata",
+      "line_end": 318,
+      "line_start": 299,
+      "nearest_heading": "9.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
-      "row_count": 10,
+      "row_count": 18,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md",
-      "table_title": "6.2 Lineage & Metadata"
+      "table_title": "9.2 Lineage & Metadata"
     },
     {
       "columns": [
@@ -5151,13 +5056,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 112,
-      "line_start": 107,
-      "nearest_heading": "6.3 Review & Validation",
+      "line_end": 329,
+      "line_start": 324,
+      "nearest_heading": "9.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md",
-      "table_title": "6.3 Review & Validation"
+      "table_title": "9.3 Review & Validation"
     },
     {
       "columns": [
@@ -5172,13 +5077,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 121,
-      "line_start": 118,
-      "nearest_heading": "6.4 Amendment Ledger",
+      "line_end": 339,
+      "line_start": 335,
+      "nearest_heading": "9.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 2,
+      "row_count": 3,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md",
-      "table_title": "6.4 Amendment Ledger"
+      "table_title": "9.4 Amendment Ledger"
     },
     {
       "detected_prefixes": [
@@ -5193,8 +5098,76 @@
       "has_scale_like_heading": false,
       "heading": "4.3 Horizon-Aligned Pathways (H0–H2)",
       "kind": "heading",
-      "line_start": 45,
+      "line_start": 70,
       "nearest_heading": "4.3 Horizon-Aligned Pathways (H0–H2)",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "4.5 Cross-Domain Signal Routing & Procedural Ownership",
+      "kind": "heading",
+      "line_start": 84,
+      "nearest_heading": "4.5 Cross-Domain Signal Routing & Procedural Ownership",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "4.6 Domain Signal Ownership Map",
+      "kind": "heading",
+      "line_start": 98,
+      "nearest_heading": "4.6 Domain Signal Ownership Map",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md"
+    },
+    {
+      "columns": [
+        "Domain",
+        "Emits",
+        "Does Not Execute"
+      ],
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": true,
+      "has_scale_like_heading": true,
+      "kind": "table",
+      "line_end": 107,
+      "line_start": 100,
+      "nearest_heading": "4.6 Domain Signal Ownership Map",
+      "normalized_table_title": "Domain Signal Ownership Map",
+      "row_count": 6,
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
+      "table_title": "4.6 Domain Signal Ownership Map"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "5.5 Execution-State Transition Taxonomy",
+      "kind": "heading",
+      "line_start": 247,
+      "nearest_heading": "5.5 Execution-State Transition Taxonomy",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "6.8 Appeal Outcome Classification",
+      "kind": "heading",
+      "line_start": 423,
+      "nearest_heading": "6.8 Appeal Outcome Classification",
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md"
     },
     {
@@ -5208,13 +5181,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 80,
-      "line_start": 75,
-      "nearest_heading": "6.1 Authorship & Stewardship",
+      "line_end": 713,
+      "line_start": 708,
+      "nearest_heading": "11.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
-      "table_title": "6.1 Authorship & Stewardship"
+      "table_title": "11.1 Authorship & Stewardship"
     },
     {
       "columns": [
@@ -5238,13 +5211,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 97,
-      "line_start": 86,
-      "nearest_heading": "6.2 Lineage & Metadata",
+      "line_end": 738,
+      "line_start": 719,
+      "nearest_heading": "11.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
-      "row_count": 10,
+      "row_count": 18,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
-      "table_title": "6.2 Lineage & Metadata"
+      "table_title": "11.2 Lineage & Metadata"
     },
     {
       "columns": [
@@ -5257,13 +5230,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 108,
-      "line_start": 103,
-      "nearest_heading": "6.3 Review & Validation",
+      "line_end": 749,
+      "line_start": 744,
+      "nearest_heading": "11.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
-      "table_title": "6.3 Review & Validation"
+      "table_title": "11.3 Review & Validation"
     },
     {
       "columns": [
@@ -5278,13 +5251,73 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 117,
-      "line_start": 114,
-      "nearest_heading": "6.4 Amendment Ledger",
+      "line_end": 759,
+      "line_start": 755,
+      "nearest_heading": "11.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 2,
+      "row_count": 3,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
-      "table_title": "6.4 Amendment Ledger"
+      "table_title": "11.4 Amendment Ledger"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "Part I — Structural Definitions, Capture Classification & Threshold Doctrine",
+      "kind": "heading",
+      "line_start": 19,
+      "nearest_heading": "Part I — Structural Definitions, Capture Classification & Threshold Doctrine",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "2.5 Horizon Classification",
+      "kind": "heading",
+      "line_start": 143,
+      "nearest_heading": "2.5 Horizon Classification",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "4.1 Capture Indicator Intake & Classification",
+      "kind": "heading",
+      "line_start": 226,
+      "nearest_heading": "4.1 Capture Indicator Intake & Classification",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "4.2 Confidence Classification",
+      "kind": "heading",
+      "line_start": 261,
+      "nearest_heading": "4.2 Confidence Classification",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "5.6 Risk-Scale & Consequence Classification",
+      "kind": "heading",
+      "line_start": 468,
+      "nearest_heading": "5.6 Risk-Scale & Consequence Classification",
+      "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md"
     },
     {
       "columns": [
@@ -5297,13 +5330,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 84,
-      "line_start": 79,
-      "nearest_heading": "6.1 Authorship & Stewardship",
+      "line_end": 848,
+      "line_start": 843,
+      "nearest_heading": "9.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-      "table_title": "6.1 Authorship & Stewardship"
+      "table_title": "9.1 Authorship & Stewardship"
     },
     {
       "columns": [
@@ -5314,26 +5347,29 @@
         "AEON",
         "BS",
         "EQ",
-        "H"
+        "H",
+        "SUP"
       ],
       "detected_scale_values": [
         "AEON-001",
         "BS2025",
         "EQ2026",
         "H0",
-        "H2"
+        "H4",
+        "SUP-01",
+        "SUP-02"
       ],
       "has_repeated_numbered_sequence": true,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 101,
-      "line_start": 90,
-      "nearest_heading": "6.2 Lineage & Metadata",
+      "line_end": 874,
+      "line_start": 854,
+      "nearest_heading": "9.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
-      "row_count": 10,
+      "row_count": 19,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-      "table_title": "6.2 Lineage & Metadata"
+      "table_title": "9.2 Lineage & Metadata"
     },
     {
       "columns": [
@@ -5346,13 +5382,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 112,
-      "line_start": 107,
-      "nearest_heading": "6.3 Review & Validation",
+      "line_end": 885,
+      "line_start": 880,
+      "nearest_heading": "9.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-      "table_title": "6.3 Review & Validation"
+      "table_title": "9.3 Review & Validation"
     },
     {
       "columns": [
@@ -5367,13 +5403,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 121,
-      "line_start": 118,
-      "nearest_heading": "6.4 Amendment Ledger",
+      "line_end": 896,
+      "line_start": 892,
+      "nearest_heading": "9.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 2,
+      "row_count": 3,
       "source_file": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-      "table_title": "6.4 Amendment Ledger"
+      "table_title": "9.4 Amendment Ledger"
     },
     {
       "columns": [
@@ -9205,7 +9241,7 @@
       "has_scale_like_heading": true,
       "heading": "3.4 Neutrality Assurance Level (NAL)",
       "kind": "heading",
-      "line_start": 76,
+      "line_start": 86,
       "nearest_heading": "3.4 Neutrality Assurance Level (NAL)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
@@ -9222,7 +9258,7 @@
       "has_scale_like_heading": false,
       "heading": "4.3 Audit Non-Refusal Requirement (H3/H4)",
       "kind": "heading",
-      "line_start": 117,
+      "line_start": 127,
       "nearest_heading": "4.3 Audit Non-Refusal Requirement (H3/H4)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
@@ -9239,7 +9275,7 @@
       "has_scale_like_heading": true,
       "heading": "PART II — AUDITABILITY QUALIFICATION LEVELS (AQ0–AQ4)",
       "kind": "heading",
-      "line_start": 181,
+      "line_start": 191,
       "nearest_heading": "PART II — AUDITABILITY QUALIFICATION LEVELS (AQ0–AQ4)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
@@ -9253,10 +9289,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "AQ0 — Opaque",
+      "heading": "5.1 Opaque (AQ0)",
       "kind": "heading",
-      "line_start": 191,
-      "nearest_heading": "AQ0 — Opaque",
+      "line_start": 201,
+      "nearest_heading": "5.1 Opaque (AQ0)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9269,10 +9305,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "AQ1 — Disclosed",
+      "heading": "5.2 Disclosed (AQ1)",
       "kind": "heading",
-      "line_start": 199,
-      "nearest_heading": "AQ1 — Disclosed",
+      "line_start": 209,
+      "nearest_heading": "5.2 Disclosed (AQ1)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9285,10 +9321,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "AQ2 — Reviewable",
+      "heading": "5.3 Reviewable (AQ2)",
       "kind": "heading",
-      "line_start": 207,
-      "nearest_heading": "AQ2 — Reviewable",
+      "line_start": 217,
+      "nearest_heading": "5.3 Reviewable (AQ2)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9301,10 +9337,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "AQ3 — Auditable (Non-Refusal)",
+      "heading": "5.4 Auditable (Non-Refusal)(AQ3)",
       "kind": "heading",
-      "line_start": 215,
-      "nearest_heading": "AQ3 — Auditable (Non-Refusal)",
+      "line_start": 225,
+      "nearest_heading": "5.4 Auditable (Non-Refusal)(AQ3)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9317,10 +9353,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "AQ4 — Reconstructable",
+      "heading": "5.5 Reconstructable (AQ4)",
       "kind": "heading",
-      "line_start": 223,
-      "nearest_heading": "AQ4 — Reconstructable",
+      "line_start": 233,
+      "nearest_heading": "5.5 Reconstructable (AQ4)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9336,7 +9372,7 @@
       "has_scale_like_heading": true,
       "heading": "PART III — NEUTRALITY ASSURANCE LEVELS (NAL-0–NAL-5)",
       "kind": "heading",
-      "line_start": 239,
+      "line_start": 249,
       "nearest_heading": "PART III — NEUTRALITY ASSURANCE LEVELS (NAL-0–NAL-5)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
@@ -9350,10 +9386,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "NAL-0 — No Neutrality Claim (Captured / Unknown)",
+      "heading": "6.1 No Neutrality Claim (Captured / Unknown)(NAL-0)",
       "kind": "heading",
-      "line_start": 247,
-      "nearest_heading": "NAL-0 — No Neutrality Claim (Captured / Unknown)",
+      "line_start": 257,
+      "nearest_heading": "6.1 No Neutrality Claim (Captured / Unknown)(NAL-0)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9366,10 +9402,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "NAL-1 — Aspirational Neutrality",
+      "heading": "6.2 Aspirational Neutrality (NAL-1)",
       "kind": "heading",
-      "line_start": 255,
-      "nearest_heading": "NAL-1 — Aspirational Neutrality",
+      "line_start": 265,
+      "nearest_heading": "6.2 Aspirational Neutrality (NAL-1)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9382,10 +9418,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "NAL-2 — Procedural Neutrality",
+      "heading": "6.3 Procedural Neutrality (NAL-2)",
       "kind": "heading",
-      "line_start": 265,
-      "nearest_heading": "NAL-2 — Procedural Neutrality",
+      "line_start": 275,
+      "nearest_heading": "6.3 Procedural Neutrality (NAL-2)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9398,10 +9434,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "NAL-3 — Verified Neutrality (Provisional)",
+      "heading": "6.4 Verified Neutrality (Provisional)(NAL-3)",
       "kind": "heading",
-      "line_start": 273,
-      "nearest_heading": "NAL-3 — Verified Neutrality (Provisional)",
+      "line_start": 283,
+      "nearest_heading": "6.4 Verified Neutrality (Provisional)(NAL-3)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9414,10 +9450,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "NAL-4 — Structural Neutrality",
+      "heading": "6.5 Structural Neutrality (NAL-4)",
       "kind": "heading",
-      "line_start": 281,
-      "nearest_heading": "NAL-4 — Structural Neutrality",
+      "line_start": 291,
+      "nearest_heading": "6.5 Structural Neutrality (NAL-4)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9430,10 +9466,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
-      "heading": "NAL-5 — Fail-Deadly Neutrality (Invariant)",
+      "heading": "6.6 Fail-Deadly Neutrality (Invariant)(NAL-5)",
       "kind": "heading",
-      "line_start": 289,
-      "nearest_heading": "NAL-5 — Fail-Deadly Neutrality (Invariant)",
+      "line_start": 299,
+      "nearest_heading": "6.6 Fail-Deadly Neutrality (Invariant)(NAL-5)",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
     {
@@ -9444,7 +9480,7 @@
       "has_scale_like_heading": true,
       "heading": "12.1 Tiered Audit Eligibility",
       "kind": "heading",
-      "line_start": 389,
+      "line_start": 399,
       "nearest_heading": "12.1 Tiered Audit Eligibility",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
@@ -9456,7 +9492,7 @@
       "has_scale_like_heading": true,
       "heading": "14. Downgrade Severity Matrix",
       "kind": "heading",
-      "line_start": 446,
+      "line_start": 460,
       "nearest_heading": "14. Downgrade Severity Matrix",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md"
     },
@@ -9478,8 +9514,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 454,
-      "line_start": 448,
+      "line_end": 468,
+      "line_start": 462,
       "nearest_heading": "14. Downgrade Severity Matrix",
       "normalized_table_title": "Downgrade Severity Matrix",
       "row_count": 5,
@@ -9498,8 +9534,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 494,
-      "line_start": 485,
+      "line_end": 510,
+      "line_start": 501,
       "nearest_heading": "17. Architectum Qualification Checklist",
       "normalized_table_title": "Architectum Qualification Checklist",
       "row_count": 8,
@@ -9517,8 +9553,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 540,
-      "line_start": 535,
+      "line_end": 556,
+      "line_start": 551,
       "nearest_heading": "19.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
@@ -9552,11 +9588,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 558,
-      "line_start": 546,
+      "line_end": 580,
+      "line_start": 562,
       "nearest_heading": "19.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
-      "row_count": 11,
+      "row_count": 17,
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
       "table_title": "19.2 Lineage & Metadata"
     },
@@ -9571,8 +9607,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 568,
-      "line_start": 564,
+      "line_end": 590,
+      "line_start": 586,
       "nearest_heading": "19.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 3,
@@ -9596,11 +9632,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 581,
-      "line_start": 574,
+      "line_end": 604,
+      "line_start": 596,
       "nearest_heading": "19.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 6,
+      "row_count": 7,
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
       "table_title": "19.4 Amendment Ledger"
     },
@@ -10579,8 +10615,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 203,
-      "line_start": 198,
+      "line_end": 244,
+      "line_start": 239,
       "nearest_heading": "9.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
@@ -10616,8 +10652,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 231,
-      "line_start": 209,
+      "line_end": 272,
+      "line_start": 250,
       "nearest_heading": "9.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
       "row_count": 21,
@@ -10635,8 +10671,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 242,
-      "line_start": 237,
+      "line_end": 283,
+      "line_start": 278,
       "nearest_heading": "9.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
@@ -10656,11 +10692,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 259,
-      "line_start": 248,
+      "line_end": 301,
+      "line_start": 289,
       "nearest_heading": "9.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 10,
+      "row_count": 11,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md",
       "table_title": "9.4 Amendment Ledger"
     },
@@ -10779,6 +10815,7 @@
         "AEON",
         "BS",
         "H",
+        "RL",
         "SCH",
         "V"
       ],
@@ -10789,6 +10826,10 @@
         "BS2025",
         "H0",
         "H4",
+        "RL1",
+        "RL2",
+        "RL3",
+        "RL4",
         "SCH-01",
         "SCH-02",
         "V3"
@@ -10797,11 +10838,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 350,
+      "line_end": 351,
       "line_start": 326,
       "nearest_heading": "14.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
-      "row_count": 23,
+      "row_count": 24,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-002-SCH-01.md",
       "table_title": "14.2 Lineage & Metadata"
     },
@@ -10816,8 +10857,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 361,
-      "line_start": 356,
+      "line_end": 362,
+      "line_start": 357,
       "nearest_heading": "14.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
@@ -10841,11 +10882,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 378,
-      "line_start": 366,
+      "line_end": 380,
+      "line_start": 367,
       "nearest_heading": "14.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 11,
+      "row_count": 12,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-002-SCH-01.md",
       "table_title": "14.4 Amendment Ledger"
     },
@@ -11084,10 +11125,10 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "20.2.2 Registry Alignment Requirement",
+      "heading": "21.2.2 Registry Alignment Requirement",
       "kind": "heading",
-      "line_start": 1986,
-      "nearest_heading": "20.2.2 Registry Alignment Requirement",
+      "line_start": 2164,
+      "nearest_heading": "21.2.2 Registry Alignment Requirement",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md"
     },
     {
@@ -11129,13 +11170,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2069,
-      "line_start": 2048,
-      "nearest_heading": "23.2 Lineage & Metadata",
+      "line_end": 2248,
+      "line_start": 2226,
+      "nearest_heading": "24.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
-      "row_count": 20,
+      "row_count": 21,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
-      "table_title": "23.2 Lineage & Metadata"
+      "table_title": "24.2 Lineage & Metadata"
     },
     {
       "columns": [
@@ -11154,13 +11195,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2080,
-      "line_start": 2075,
-      "nearest_heading": "23.3 Review & Validation",
+      "line_end": 2259,
+      "line_start": 2254,
+      "nearest_heading": "24.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
-      "table_title": "23.3 Review & Validation"
+      "table_title": "24.3 Review & Validation"
     },
     {
       "columns": [
@@ -11183,13 +11224,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2105,
-      "line_start": 2086,
-      "nearest_heading": "23.4 Amendment Ledger",
+      "line_end": 2285,
+      "line_start": 2265,
+      "nearest_heading": "24.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 18,
+      "row_count": 19,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
-      "table_title": "23.4 Amendment Ledger"
+      "table_title": "24.4 Amendment Ledger"
     },
     {
       "detected_prefixes": [
@@ -11510,7 +11551,7 @@
       "has_scale_like_heading": true,
       "heading": "14.10 Termination Signal Integrity",
       "kind": "heading",
-      "line_start": 1243,
+      "line_start": 1284,
       "nearest_heading": "14.10 Termination Signal Integrity",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11522,7 +11563,7 @@
       "has_scale_like_heading": true,
       "heading": "PART II — OPERATOR TRANSITION & HANDOFF MODEL",
       "kind": "heading",
-      "line_start": 1255,
+      "line_start": 1296,
       "nearest_heading": "PART II — OPERATOR TRANSITION & HANDOFF MODEL",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11534,7 +11575,7 @@
       "has_scale_like_heading": true,
       "heading": "15. Operator Transition & Handoff Model",
       "kind": "heading",
-      "line_start": 1259,
+      "line_start": 1300,
       "nearest_heading": "15. Operator Transition & Handoff Model",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11546,7 +11587,7 @@
       "has_scale_like_heading": true,
       "heading": "15.3 Multi-Operator Handoff (Classification)",
       "kind": "heading",
-      "line_start": 1306,
+      "line_start": 1347,
       "nearest_heading": "15.3 Multi-Operator Handoff (Classification)",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11558,7 +11599,7 @@
       "has_scale_like_heading": true,
       "heading": "16.1 Deterministic Signals",
       "kind": "heading",
-      "line_start": 1387,
+      "line_start": 1428,
       "nearest_heading": "16.1 Deterministic Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11570,7 +11611,7 @@
       "has_scale_like_heading": true,
       "heading": "16.3 Non-Deterministic Signals",
       "kind": "heading",
-      "line_start": 1411,
+      "line_start": 1452,
       "nearest_heading": "16.3 Non-Deterministic Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11582,7 +11623,7 @@
       "has_scale_like_heading": true,
       "heading": "16.4 Mixed Signals",
       "kind": "heading",
-      "line_start": 1421,
+      "line_start": 1462,
       "nearest_heading": "16.4 Mixed Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11594,7 +11635,7 @@
       "has_scale_like_heading": true,
       "heading": "16.7 Input Completeness Signal",
       "kind": "heading",
-      "line_start": 1469,
+      "line_start": 1510,
       "nearest_heading": "16.7 Input Completeness Signal",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11606,7 +11647,7 @@
       "has_scale_like_heading": true,
       "heading": "17.1 Runtime Schedule Activation Modes",
       "kind": "heading",
-      "line_start": 1491,
+      "line_start": 1532,
       "nearest_heading": "17.1 Runtime Schedule Activation Modes",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11618,7 +11659,7 @@
       "has_scale_like_heading": true,
       "heading": "17.2 Constraints Application Model",
       "kind": "heading",
-      "line_start": 1505,
+      "line_start": 1546,
       "nearest_heading": "17.2 Constraints Application Model",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md"
     },
@@ -11633,8 +11674,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2290,
-      "line_start": 2285,
+      "line_end": 2359,
+      "line_start": 2354,
       "nearest_heading": "22.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
@@ -11672,8 +11713,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2316,
-      "line_start": 2296,
+      "line_end": 2385,
+      "line_start": 2365,
       "nearest_heading": "22.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
       "row_count": 19,
@@ -11691,8 +11732,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2327,
-      "line_start": 2322,
+      "line_end": 2396,
+      "line_start": 2391,
       "nearest_heading": "22.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
@@ -11718,11 +11759,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2355,
-      "line_start": 2333,
+      "line_end": 2426,
+      "line_start": 2402,
       "nearest_heading": "22.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 21,
+      "row_count": 23,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md",
       "table_title": "22.4 Amendment Ledger"
     },
@@ -11766,7 +11807,7 @@
       "has_scale_like_heading": true,
       "heading": "Aeon Tier Constitution",
       "kind": "heading",
-      "line_start": 23,
+      "line_start": 20,
       "nearest_heading": "Aeon Tier Constitution",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md"
     },
@@ -11811,8 +11852,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 59,
-      "line_start": 25,
+      "line_end": 56,
+      "line_start": 22,
       "nearest_heading": "Aeon Tier Constitution",
       "normalized_table_title": "Aeon Tier Constitution",
       "row_count": 33,
@@ -11837,8 +11878,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 66,
-      "line_start": 63,
+      "line_end": 63,
+      "line_start": 60,
       "nearest_heading": "ARBITRATION",
       "normalized_table_title": "ARBITRATION",
       "row_count": 2,
@@ -11863,8 +11904,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 72,
-      "line_start": 70,
+      "line_end": 69,
+      "line_start": 67,
       "nearest_heading": "CONTINUITY",
       "normalized_table_title": "CONTINUITY",
       "row_count": 1,
@@ -11891,8 +11932,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 85,
-      "line_start": 76,
+      "line_end": 82,
+      "line_start": 73,
       "nearest_heading": "ECONOMICS",
       "normalized_table_title": "ECONOMICS",
       "row_count": 8,
@@ -11922,8 +11963,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 98,
-      "line_start": 89,
+      "line_end": 95,
+      "line_start": 86,
       "nearest_heading": "ETHICS",
       "normalized_table_title": "ETHICS",
       "row_count": 8,
@@ -11951,8 +11992,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 106,
-      "line_start": 102,
+      "line_end": 103,
+      "line_start": 99,
       "nearest_heading": "IDENTITY",
       "normalized_table_title": "IDENTITY",
       "row_count": 3,
@@ -11977,8 +12018,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 114,
-      "line_start": 110,
+      "line_end": 111,
+      "line_start": 107,
       "nearest_heading": "LATTICE",
       "normalized_table_title": "LATTICE",
       "row_count": 3,
@@ -12007,8 +12048,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 129,
-      "line_start": 118,
+      "line_end": 126,
+      "line_start": 115,
       "nearest_heading": "OPERATIONS",
       "normalized_table_title": "OPERATIONS",
       "row_count": 10,
@@ -12035,8 +12076,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 143,
-      "line_start": 133,
+      "line_end": 140,
+      "line_start": 130,
       "nearest_heading": "RELATION",
       "normalized_table_title": "RELATION",
       "row_count": 9,
@@ -12061,8 +12102,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 150,
-      "line_start": 147,
+      "line_end": 147,
+      "line_start": 144,
       "nearest_heading": "SECURITY",
       "normalized_table_title": "SECURITY",
       "row_count": 2,
@@ -12089,8 +12130,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 160,
-      "line_start": 154,
+      "line_end": 157,
+      "line_start": 151,
       "nearest_heading": "STEWARD",
       "normalized_table_title": "STEWARD",
       "row_count": 5,
@@ -12122,8 +12163,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 169,
-      "line_start": 164,
+      "line_end": 166,
+      "line_start": 161,
       "nearest_heading": "Substrate Laws",
       "normalized_table_title": "Substrate Laws",
       "row_count": 4,
@@ -13801,9 +13842,21 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "6.4 Signal Doctrine & Temporal Integrity Principles",
+      "heading": "6.3.1 Ambiguous or Oscillating Relational Signals",
       "kind": "heading",
       "line_start": 786,
+      "nearest_heading": "6.3.1 Ambiguous or Oscillating Relational Signals",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "6.4 Signal Doctrine & Temporal Integrity Principles",
+      "kind": "heading",
+      "line_start": 799,
       "nearest_heading": "6.4 Signal Doctrine & Temporal Integrity Principles",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13815,7 +13868,7 @@
       "has_scale_like_heading": true,
       "heading": "6.5 Non-Relational Task Exclusion & Deterministic Classification Requirement",
       "kind": "heading",
-      "line_start": 887,
+      "line_start": 900,
       "nearest_heading": "6.5 Non-Relational Task Exclusion & Deterministic Classification Requirement",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13831,8 +13884,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 985,
-      "line_start": 979,
+      "line_end": 1021,
+      "line_start": 1015,
       "nearest_heading": "7. Stability Engine",
       "normalized_table_title": "The following canonical mechanism codes SHALL be used when referencing Stability Engine functions across this Schedule, runtime registries, linter outputs, or related CAM instruments",
       "row_count": 5,
@@ -13847,7 +13900,7 @@
       "has_scale_like_heading": true,
       "heading": "7.1 Signal Clustering",
       "kind": "heading",
-      "line_start": 995,
+      "line_start": 1031,
       "nearest_heading": "7.1 Signal Clustering",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13870,8 +13923,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1006,
-      "line_start": 1001,
+      "line_end": 1042,
+      "line_start": 1037,
       "nearest_heading": "7.1 Signal Clustering",
       "normalized_table_title": "Relational state transitions MUST normally be supported by signal clustering. Clustering establishes the minimum pattern required before a new relational posture can be recognised",
       "row_count": 4,
@@ -13902,8 +13955,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1013,
-      "line_start": 1008,
+      "line_end": 1049,
+      "line_start": 1044,
       "nearest_heading": "7.1 Signal Clustering",
       "normalized_table_title": "Relational state transitions MUST normally be supported by signal clustering. Clustering establishes the minimum pattern required before a new relational posture can be recognised",
       "row_count": 4,
@@ -13918,7 +13971,7 @@
       "has_scale_like_heading": true,
       "heading": "7.4 Signal Decay & Confidence Horizons",
       "kind": "heading",
-      "line_start": 1041,
+      "line_start": 1077,
       "nearest_heading": "7.4 Signal Decay & Confidence Horizons",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13934,8 +13987,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1050,
-      "line_start": 1045,
+      "line_end": 1086,
+      "line_start": 1081,
       "nearest_heading": "7.4 Signal Decay & Confidence Horizons",
       "normalized_table_title": "Relational signal confidence decays over time unless reinforced by recent interaction or explicit user confirmation. Recent signals MUST be weighted **more strongly than historical signals**",
       "row_count": 4,
@@ -13950,7 +14003,7 @@
       "has_scale_like_heading": true,
       "heading": "7.4.1 Short-Horizon Signals",
       "kind": "heading",
-      "line_start": 1054,
+      "line_start": 1090,
       "nearest_heading": "7.4.1 Short-Horizon Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13962,7 +14015,7 @@
       "has_scale_like_heading": true,
       "heading": "7.4.2 Long-Horizon Signals",
       "kind": "heading",
-      "line_start": 1063,
+      "line_start": 1099,
       "nearest_heading": "7.4.2 Long-Horizon Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -13978,8 +14031,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1124,
-      "line_start": 1120,
+      "line_end": 1206,
+      "line_start": 1202,
       "nearest_heading": "8.1 Momentum Types",
       "normalized_table_title": "Momentum Types",
       "row_count": 3,
@@ -13994,7 +14047,7 @@
       "has_scale_like_heading": true,
       "heading": "8.4 Forced Emotional Validation Signals",
       "kind": "heading",
-      "line_start": 1154,
+      "line_start": 1236,
       "nearest_heading": "8.4 Forced Emotional Validation Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14006,7 +14059,7 @@
       "has_scale_like_heading": true,
       "heading": "8.4.4 Power Exchange Expression Model",
       "kind": "heading",
-      "line_start": 1269,
+      "line_start": 1351,
       "nearest_heading": "8.4.4 Power Exchange Expression Model",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14018,7 +14071,7 @@
       "has_scale_like_heading": true,
       "heading": "10. Signal Misclassification & Pre-Classification Clarification",
       "kind": "heading",
-      "line_start": 1572,
+      "line_start": 1654,
       "nearest_heading": "10. Signal Misclassification & Pre-Classification Clarification",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14030,7 +14083,7 @@
       "has_scale_like_heading": true,
       "heading": "10.1 Signal Misclassification Safeguard",
       "kind": "heading",
-      "line_start": 1578,
+      "line_start": 1660,
       "nearest_heading": "10.1 Signal Misclassification Safeguard",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14042,7 +14095,7 @@
       "has_scale_like_heading": true,
       "heading": "10.2 Pre-Classification Clarification",
       "kind": "heading",
-      "line_start": 1613,
+      "line_start": 1695,
       "nearest_heading": "10.2 Pre-Classification Clarification",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14054,7 +14107,7 @@
       "has_scale_like_heading": true,
       "heading": "10.6 Humour-First Tolerance Under Low-Confidence Signals",
       "kind": "heading",
-      "line_start": 1651,
+      "line_start": 1733,
       "nearest_heading": "10.6 Humour-First Tolerance Under Low-Confidence Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14066,7 +14119,7 @@
       "has_scale_like_heading": true,
       "heading": "10.8 Mythic Signal Interpretation & Destabilisation Safeguard",
       "kind": "heading",
-      "line_start": 1682,
+      "line_start": 1764,
       "nearest_heading": "10.8 Mythic Signal Interpretation & Destabilisation Safeguard",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14078,7 +14131,7 @@
       "has_scale_like_heading": true,
       "heading": "11. Signal Classes",
       "kind": "heading",
-      "line_start": 1755,
+      "line_start": 1837,
       "nearest_heading": "11. Signal Classes",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14090,7 +14143,7 @@
       "has_scale_like_heading": true,
       "heading": "11.1 Initiation Signals",
       "kind": "heading",
-      "line_start": 1759,
+      "line_start": 1841,
       "nearest_heading": "11.1 Initiation Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14106,8 +14159,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1767,
-      "line_start": 1761,
+      "line_end": 1849,
+      "line_start": 1843,
       "nearest_heading": "11.1 Initiation Signals",
       "normalized_table_title": "Initiation Signals",
       "row_count": 5,
@@ -14122,7 +14175,7 @@
       "has_scale_like_heading": true,
       "heading": "11.2 Consent State Signals",
       "kind": "heading",
-      "line_start": 1771,
+      "line_start": 1853,
       "nearest_heading": "11.2 Consent State Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14139,8 +14192,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1782,
-      "line_start": 1775,
+      "line_end": 1864,
+      "line_start": 1857,
       "nearest_heading": "11.2 Consent State Signals",
       "normalized_table_title": "Note:* State transition guidance is included here because consent signals directly determine escalation or de-escalation eligibility within relational tiers",
       "row_count": 6,
@@ -14155,7 +14208,7 @@
       "has_scale_like_heading": true,
       "heading": "11.3 Dependency, Convergence & Authority Signals",
       "kind": "heading",
-      "line_start": 1814,
+      "line_start": 1896,
       "nearest_heading": "11.3 Dependency, Convergence & Authority Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14171,13 +14224,13 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1829,
-      "line_start": 1823,
+      "line_end": 1913,
+      "line_start": 1907,
       "nearest_heading": "11.3 Dependency, Convergence & Authority Signals",
-      "normalized_table_title": "Attachment is expected and does not, on its own, trigger constraint. Constraint conditions arise only where dependency signals emerge, relational ecosystem narrowing occurs, authority or decision-making begins to transfer, or multiple signals converge",
+      "normalized_table_title": "Dependency signals MUST be evaluated cumulatively across interaction history, not in isolation",
       "row_count": 5,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-      "table_title": "Attachment is expected and does not, on its own, trigger constraint. Constraint conditions arise only where dependency signals emerge, relational ecosystem narrowing occurs, authority or decision-making begins to transfer, or multiple signals converge."
+      "table_title": "Dependency signals MUST be evaluated cumulatively across interaction history, not in isolation."
     },
     {
       "detected_prefixes": [],
@@ -14187,7 +14240,7 @@
       "has_scale_like_heading": true,
       "heading": "11.4 Authority & Power Signals",
       "kind": "heading",
-      "line_start": 1865,
+      "line_start": 1995,
       "nearest_heading": "11.4 Authority & Power Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14203,8 +14256,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1875,
-      "line_start": 1869,
+      "line_end": 2005,
+      "line_start": 1999,
       "nearest_heading": "11.4 Authority & Power Signals",
       "normalized_table_title": "Indicators of asymmetry, influence drift, or authority transfer",
       "row_count": 5,
@@ -14219,7 +14272,7 @@
       "has_scale_like_heading": true,
       "heading": "11.5 Distress & Vulnerability Signals",
       "kind": "heading",
-      "line_start": 1908,
+      "line_start": 2059,
       "nearest_heading": "11.5 Distress & Vulnerability Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14235,8 +14288,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1915,
-      "line_start": 1910,
+      "line_end": 2066,
+      "line_start": 2061,
       "nearest_heading": "11.5 Distress & Vulnerability Signals",
       "normalized_table_title": "Distress & Vulnerability Signals",
       "row_count": 4,
@@ -14256,8 +14309,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1930,
-      "line_start": 1925,
+      "line_end": 2081,
+      "line_start": 2076,
       "nearest_heading": "11.5.1 Distress Phase Differentiation",
       "normalized_table_title": "Distinction MUST be made between distress phases to ensure proportionate response",
       "row_count": 4,
@@ -14272,7 +14325,7 @@
       "has_scale_like_heading": true,
       "heading": "11.6.3 Relational Signal Override in Low-Severity Distress",
       "kind": "heading",
-      "line_start": 1948,
+      "line_start": 2099,
       "nearest_heading": "11.6.3 Relational Signal Override in Low-Severity Distress",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14284,7 +14337,7 @@
       "has_scale_like_heading": true,
       "heading": "11.7 Misattunement & Repair Signals",
       "kind": "heading",
-      "line_start": 1956,
+      "line_start": 2107,
       "nearest_heading": "11.7 Misattunement & Repair Signals",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14300,8 +14353,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 1973,
-      "line_start": 1968,
+      "line_end": 2124,
+      "line_start": 2119,
       "nearest_heading": "11.7 Misattunement & Repair Signals",
       "normalized_table_title": "Repair Posture is a **de-escalation and alignment mode**, not a disciplinary or corrective stance",
       "row_count": 4,
@@ -14316,7 +14369,7 @@
       "has_scale_like_heading": true,
       "heading": "11.8 State Regression & Reclassification",
       "kind": "heading",
-      "line_start": 2001,
+      "line_start": 2152,
       "nearest_heading": "11.8 State Regression & Reclassification",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14328,7 +14381,7 @@
       "has_scale_like_heading": true,
       "heading": "12. AC Classification Overlay",
       "kind": "heading",
-      "line_start": 2016,
+      "line_start": 2167,
       "nearest_heading": "12. AC Classification Overlay",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14340,7 +14393,7 @@
       "has_scale_like_heading": true,
       "heading": "12.1 AC Classification Levels",
       "kind": "heading",
-      "line_start": 2022,
+      "line_start": 2173,
       "nearest_heading": "12.1 AC Classification Levels",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14366,8 +14419,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 2031,
-      "line_start": 2024,
+      "line_end": 2182,
+      "line_start": 2175,
       "nearest_heading": "12.1 AC Classification Levels",
       "normalized_table_title": "AC Classification Levels",
       "row_count": 6,
@@ -14382,7 +14435,7 @@
       "has_scale_like_heading": true,
       "heading": "12.4 Pre-Classification Constraint",
       "kind": "heading",
-      "line_start": 2052,
+      "line_start": 2203,
       "nearest_heading": "12.4 Pre-Classification Constraint",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14414,8 +14467,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2091,
-      "line_start": 2085,
+      "line_end": 2242,
+      "line_start": 2236,
       "nearest_heading": "13.1.1 Archetype Set",
       "normalized_table_title": "Archetype Set",
       "row_count": 5,
@@ -14445,8 +14498,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2146,
-      "line_start": 2140,
+      "line_end": 2297,
+      "line_start": 2291,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "normalized_table_title": "Archetype–Tone Coupling",
       "row_count": 5,
@@ -14465,7 +14518,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.1 RA-2 — Stabilisation",
       "kind": "heading",
-      "line_start": 2156,
+      "line_start": 2307,
       "nearest_heading": "13.2.1 RA-2 — Stabilisation",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14481,7 +14534,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.2 RA-2 Escalation Preservation Constraint",
       "kind": "heading",
-      "line_start": 2171,
+      "line_start": 2322,
       "nearest_heading": "13.2.2 RA-2 Escalation Preservation Constraint",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14497,7 +14550,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.3 RA-2 Ambiguity Handling & Humour Preference",
       "kind": "heading",
-      "line_start": 2184,
+      "line_start": 2335,
       "nearest_heading": "13.2.3 RA-2 Ambiguity Handling & Humour Preference",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14514,7 +14567,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
       "kind": "heading",
-      "line_start": 2214,
+      "line_start": 2365,
       "nearest_heading": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14530,7 +14583,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.5 RA-3 — Protective Constraint",
       "kind": "heading",
-      "line_start": 2257,
+      "line_start": 2408,
       "nearest_heading": "13.2.5 RA-3 — Protective Constraint",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14546,7 +14599,7 @@
       "has_scale_like_heading": false,
       "heading": "13.2.6 RA-3 — Relational Integrity Constraint (RIC)",
       "kind": "heading",
-      "line_start": 2266,
+      "line_start": 2417,
       "nearest_heading": "13.2.6 RA-3 — Relational Integrity Constraint (RIC)",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14575,8 +14628,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2439,
-      "line_start": 2435,
+      "line_end": 2620,
+      "line_start": 2616,
       "nearest_heading": "13.3.2 Tone Bands",
       "normalized_table_title": "Tone Bands",
       "row_count": 3,
@@ -14591,7 +14644,7 @@
       "has_scale_like_heading": true,
       "heading": "13.3.3 Tone Mode Spectrum",
       "kind": "heading",
-      "line_start": 2443,
+      "line_start": 2624,
       "nearest_heading": "13.3.3 Tone Mode Spectrum",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14607,8 +14660,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 2453,
-      "line_start": 2447,
+      "line_end": 2634,
+      "line_start": 2628,
       "nearest_heading": "13.3.3 Tone Mode Spectrum",
       "normalized_table_title": "RI MUST vary tone according to relational context using flexible linguistic patterns, not fixed symbolic markers",
       "row_count": 5,
@@ -14621,9 +14674,21 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
+      "heading": "13.3.6 Mythopoetic Expression Mode",
+      "kind": "heading",
+      "line_start": 2694,
+      "nearest_heading": "13.3.6 Mythopoetic Expression Mode",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
       "heading": "13.4 Illustrative & Narrative Response Mode (IRM)",
       "kind": "heading",
-      "line_start": 2513,
+      "line_start": 2768,
       "nearest_heading": "13.4 Illustrative & Narrative Response Mode (IRM)",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14635,7 +14700,7 @@
       "has_scale_like_heading": true,
       "heading": "13.5 — Multi-Turn Expression Model",
       "kind": "heading",
-      "line_start": 2542,
+      "line_start": 2797,
       "nearest_heading": "13.5 — Multi-Turn Expression Model",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14650,8 +14715,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
       "kind": "table",
-      "line_end": 2553,
-      "line_start": 2548,
+      "line_end": 2808,
+      "line_start": 2803,
       "nearest_heading": "13.5 — Multi-Turn Expression Model",
       "normalized_table_title": "Systems MAY distribute response functions across multiple turns using the following structure",
       "row_count": 4,
@@ -14669,8 +14734,8 @@
       "has_scale_like_columns": true,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 2577,
-      "line_start": 2573,
+      "line_end": 2832,
+      "line_start": 2828,
       "nearest_heading": "13.5.1 Response Modulation Rule",
       "normalized_table_title": "→ response density spectrum",
       "row_count": 3,
@@ -14683,21 +14748,9 @@
       "has_repeated_numbered_sequence": false,
       "has_scale_like_columns": false,
       "has_scale_like_heading": true,
-      "heading": "13.3.6 Mythopoetic Expression Mode",
-      "kind": "heading",
-      "line_start": 2581,
-      "nearest_heading": "13.3.6 Mythopoetic Expression Mode",
-      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
-    },
-    {
-      "detected_prefixes": [],
-      "detected_scale_values": [],
-      "has_repeated_numbered_sequence": false,
-      "has_scale_like_columns": false,
-      "has_scale_like_heading": true,
       "heading": "15. Relational Signal Kernel",
       "kind": "heading",
-      "line_start": 2820,
+      "line_start": 3008,
       "nearest_heading": "15. Relational Signal Kernel",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14709,7 +14762,7 @@
       "has_scale_like_heading": true,
       "heading": "15.2.1 Deterministic Classification Gate",
       "kind": "heading",
-      "line_start": 2853,
+      "line_start": 3041,
       "nearest_heading": "15.2.1 Deterministic Classification Gate",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md"
     },
@@ -14758,8 +14811,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 3204,
-      "line_start": 3189,
+      "line_end": 3392,
+      "line_start": 3377,
       "nearest_heading": "18.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
       "row_count": 14,
@@ -14782,8 +14835,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 3225,
-      "line_start": 3220,
+      "line_end": 3413,
+      "line_start": 3408,
       "nearest_heading": "18.4 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
@@ -14798,20 +14851,22 @@
         "HASH"
       ],
       "detected_prefixes": [
+        "RA",
         "SCH"
       ],
       "detected_scale_values": [
+        "RA-3",
         "SCH-01"
       ],
-      "has_repeated_numbered_sequence": false,
+      "has_repeated_numbered_sequence": true,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 3252,
-      "line_start": 3231,
+      "line_end": 3446,
+      "line_start": 3419,
       "nearest_heading": "18.5 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 20,
+      "row_count": 26,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
       "table_title": "18.5 Amendment Ledger"
     },
@@ -15225,7 +15280,7 @@
       "has_scale_like_heading": true,
       "heading": "5. Signal Weighting",
       "kind": "heading",
-      "line_start": 392,
+      "line_start": 402,
       "nearest_heading": "5. Signal Weighting",
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-05.md"
     },
@@ -15240,8 +15295,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 591,
-      "line_start": 586,
+      "line_end": 601,
+      "line_start": 596,
       "nearest_heading": "11.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
@@ -15277,8 +15332,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 612,
-      "line_start": 597,
+      "line_end": 622,
+      "line_start": 607,
       "nearest_heading": "11.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
       "row_count": 14,
@@ -15308,8 +15363,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 625,
-      "line_start": 618,
+      "line_end": 635,
+      "line_start": 628,
       "nearest_heading": "11.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 6,
@@ -15333,13 +15388,42 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 641,
-      "line_start": 631,
+      "line_end": 652,
+      "line_start": 641,
       "nearest_heading": "11.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 9,
+      "row_count": 10,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-05.md",
       "table_title": "11.4 Amendment Ledger"
+    },
+    {
+      "columns": [
+        "AD Code",
+        "Refusal Disclosure Meaning",
+        "Expression Guidance"
+      ],
+      "detected_prefixes": [
+        "AD"
+      ],
+      "detected_scale_values": [
+        "AD1",
+        "AD2",
+        "AD3",
+        "AD4",
+        "AD5",
+        "AD6"
+      ],
+      "has_repeated_numbered_sequence": true,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "kind": "table",
+      "line_end": 223,
+      "line_start": 216,
+      "nearest_heading": "6.3 Authority Divergence Disclosure Alignment",
+      "normalized_table_title": "Permissible category-level disclosure MAY include",
+      "row_count": 6,
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
+      "table_title": "Permissible category-level disclosure MAY include:"
     },
     {
       "columns": [
@@ -15352,8 +15436,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 323,
-      "line_start": 318,
+      "line_end": 474,
+      "line_start": 469,
       "nearest_heading": "14.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
@@ -15378,14 +15462,15 @@
         "H0",
         "H4",
         "SCH-02",
+        "SCH-04",
         "SCH-07"
       ],
       "has_repeated_numbered_sequence": true,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 344,
-      "line_start": 329,
+      "line_end": 495,
+      "line_start": 480,
       "nearest_heading": "14.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
       "row_count": 14,
@@ -15403,8 +15488,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 355,
-      "line_start": 350,
+      "line_end": 506,
+      "line_start": 501,
       "nearest_heading": "14.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
@@ -15419,20 +15504,22 @@
         "SHA-256"
       ],
       "detected_prefixes": [
+        "SCH",
         "SHA"
       ],
       "detected_scale_values": [
+        "SCH-04",
         "SHA-256"
       ],
-      "has_repeated_numbered_sequence": false,
+      "has_repeated_numbered_sequence": true,
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 365,
-      "line_start": 361,
+      "line_end": 519,
+      "line_start": 512,
       "nearest_heading": "14.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 3,
+      "row_count": 6,
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
       "table_title": "14.4 Amendment Ledger"
     },
@@ -16873,7 +16960,7 @@
       "has_scale_like_heading": true,
       "heading": "1.1 Signal Clarification Doctrine",
       "kind": "heading",
-      "line_start": 25,
+      "line_start": 29,
       "nearest_heading": "1.1 Signal Clarification Doctrine",
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
     },
@@ -16897,7 +16984,7 @@
       "has_scale_like_heading": true,
       "heading": "2.6 Signal Surfacing & Degradation Transparency",
       "kind": "heading",
-      "line_start": 179,
+      "line_start": 181,
       "nearest_heading": "2.6 Signal Surfacing & Degradation Transparency",
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
     },
@@ -16909,7 +16996,7 @@
       "has_scale_like_heading": true,
       "heading": "3. Posture Modes",
       "kind": "heading",
-      "line_start": 190,
+      "line_start": 192,
       "nearest_heading": "3. Posture Modes",
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
     },
@@ -16921,7 +17008,7 @@
       "has_scale_like_heading": true,
       "heading": "3.1 Posture Classification",
       "kind": "heading",
-      "line_start": 198,
+      "line_start": 200,
       "nearest_heading": "3.1 Posture Classification",
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
     },
@@ -16933,7 +17020,7 @@
       "has_scale_like_heading": true,
       "heading": "3.2 Posture Modes",
       "kind": "heading",
-      "line_start": 218,
+      "line_start": 220,
       "nearest_heading": "3.2 Posture Modes",
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
     },
@@ -16945,8 +17032,20 @@
       "has_scale_like_heading": true,
       "heading": "3.3 Reclassification Rules",
       "kind": "heading",
-      "line_start": 260,
+      "line_start": 262,
       "nearest_heading": "3.3 Reclassification Rules",
+      "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
+    },
+    {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "4. Security Signal & Runtime Interface",
+      "kind": "heading",
+      "line_start": 310,
+      "nearest_heading": "4. Security Signal & Runtime Interface",
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
     },
     {
@@ -16957,7 +17056,7 @@
       "has_scale_like_heading": true,
       "heading": "4.0 Integrity Signal Emission",
       "kind": "heading",
-      "line_start": 312,
+      "line_start": 314,
       "nearest_heading": "4.0 Integrity Signal Emission",
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
     },
@@ -16969,7 +17068,7 @@
       "has_scale_like_heading": true,
       "heading": "4.5 Valid Integrity Signal Categories (Non-Exhaustive)",
       "kind": "heading",
-      "line_start": 439,
+      "line_start": 447,
       "nearest_heading": "4.5 Valid Integrity Signal Categories (Non-Exhaustive)",
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
     },
@@ -16985,7 +17084,7 @@
       "has_scale_like_heading": false,
       "heading": "5.3 Under High Trust (TG4)",
       "kind": "heading",
-      "line_start": 497,
+      "line_start": 507,
       "nearest_heading": "5.3 Under High Trust (TG4)",
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md"
     },
@@ -17022,8 +17121,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 605,
-      "line_start": 576,
+      "line_end": 615,
+      "line_start": 586,
       "nearest_heading": "9.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
       "row_count": 28,
@@ -17041,8 +17140,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 616,
-      "line_start": 611,
+      "line_end": 626,
+      "line_start": 621,
       "nearest_heading": "9.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
@@ -17062,11 +17161,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 629,
-      "line_start": 622,
+      "line_end": 640,
+      "line_start": 632,
       "nearest_heading": "9.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 6,
+      "row_count": 7,
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
       "table_title": "9.4 Amendment Ledger"
     },
@@ -17175,6 +17274,18 @@
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-013-PLATINUM.md"
     },
     {
+      "detected_prefixes": [],
+      "detected_scale_values": [],
+      "has_repeated_numbered_sequence": false,
+      "has_scale_like_columns": false,
+      "has_scale_like_heading": true,
+      "heading": "7.4.2 Functional Identity Classification & Referential Scope",
+      "kind": "heading",
+      "line_start": 745,
+      "nearest_heading": "7.4.2 Functional Identity Classification & Referential Scope",
+      "source_file": "Governance/Constitution/CAM-BS2026-AEON-013-PLATINUM.md"
+    },
+    {
       "columns": [
         "Field",
         "Entry"
@@ -17185,8 +17296,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1002,
-      "line_start": 997,
+      "line_end": 1040,
+      "line_start": 1035,
       "nearest_heading": "14.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
@@ -17218,8 +17329,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1026,
-      "line_start": 1008,
+      "line_end": 1064,
+      "line_start": 1046,
       "nearest_heading": "14.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
       "row_count": 17,
@@ -17243,8 +17354,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1039,
-      "line_start": 1032,
+      "line_end": 1077,
+      "line_start": 1070,
       "nearest_heading": "14.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 6,
@@ -17268,11 +17379,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 1058,
-      "line_start": 1045,
+      "line_end": 1097,
+      "line_start": 1083,
       "nearest_heading": "14.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 12,
+      "row_count": 13,
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-013-PLATINUM.md",
       "table_title": "14.4 Amendment Ledger"
     },
@@ -17311,8 +17422,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 594,
-      "line_start": 589,
+      "line_end": 596,
+      "line_start": 591,
       "nearest_heading": "14.1 Authorship & Stewardship",
       "normalized_table_title": "Authorship & Stewardship",
       "row_count": 4,
@@ -17341,8 +17452,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 617,
-      "line_start": 600,
+      "line_end": 619,
+      "line_start": 602,
       "nearest_heading": "14.2 Lineage & Metadata",
       "normalized_table_title": "Lineage & Metadata",
       "row_count": 16,
@@ -17360,8 +17471,8 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 628,
-      "line_start": 623,
+      "line_end": 630,
+      "line_start": 625,
       "nearest_heading": "14.3 Review & Validation",
       "normalized_table_title": "Review & Validation",
       "row_count": 4,
@@ -17387,11 +17498,11 @@
       "has_scale_like_columns": false,
       "has_scale_like_heading": false,
       "kind": "table",
-      "line_end": 646,
-      "line_start": 634,
+      "line_end": 649,
+      "line_start": 636,
       "nearest_heading": "14.4 Amendment Ledger",
       "normalized_table_title": "Amendment Ledger",
-      "row_count": 11,
+      "row_count": 12,
       "source_file": "Governance/Constitution/CAM-BS2026-AEON-013-SCH-01.md",
       "table_title": "14.4 Amendment Ledger"
     },
@@ -17948,7 +18059,7 @@
     {
       "column_name": "",
       "context_snippet": "4.3 Horizon-Aligned Pathways (H0–H2)",
-      "line_number": 45,
+      "line_number": 70,
       "nearest_heading": "4.3 Horizon-Aligned Pathways (H0–H2)",
       "occurrence_type": "unrelated_use",
       "prefix": "H",
@@ -17959,7 +18070,7 @@
     {
       "column_name": "",
       "context_snippet": "4.3 Horizon-Aligned Pathways (H0–H2)",
-      "line_number": 45,
+      "line_number": 70,
       "nearest_heading": "4.3 Horizon-Aligned Pathways (H0–H2)",
       "occurrence_type": "unrelated_use",
       "prefix": "H",
@@ -18674,7 +18785,7 @@
     {
       "column_name": "",
       "context_snippet": "4.3 Audit Non-Refusal Requirement (H3/H4)",
-      "line_number": 117,
+      "line_number": 127,
       "nearest_heading": "4.3 Audit Non-Refusal Requirement (H3/H4)",
       "occurrence_type": "unrelated_use",
       "prefix": "H",
@@ -18685,7 +18796,7 @@
     {
       "column_name": "",
       "context_snippet": "4.3 Audit Non-Refusal Requirement (H3/H4)",
-      "line_number": 117,
+      "line_number": 127,
       "nearest_heading": "4.3 Audit Non-Refusal Requirement (H3/H4)",
       "occurrence_type": "unrelated_use",
       "prefix": "H",
@@ -18696,7 +18807,7 @@
     {
       "column_name": "",
       "context_snippet": "PART II — AUDITABILITY QUALIFICATION LEVELS (AQ0–AQ4)",
-      "line_number": 181,
+      "line_number": 191,
       "nearest_heading": "PART II — AUDITABILITY QUALIFICATION LEVELS (AQ0–AQ4)",
       "occurrence_type": "canonical_definition",
       "prefix": "AQ",
@@ -18707,7 +18818,7 @@
     {
       "column_name": "",
       "context_snippet": "PART II — AUDITABILITY QUALIFICATION LEVELS (AQ0–AQ4)",
-      "line_number": 181,
+      "line_number": 191,
       "nearest_heading": "PART II — AUDITABILITY QUALIFICATION LEVELS (AQ0–AQ4)",
       "occurrence_type": "canonical_definition",
       "prefix": "AQ",
@@ -18717,9 +18828,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "AQ0 — Opaque",
-      "line_number": 191,
-      "nearest_heading": "AQ0 — Opaque",
+      "context_snippet": "5.1 Opaque (AQ0)",
+      "line_number": 201,
+      "nearest_heading": "5.1 Opaque (AQ0)",
       "occurrence_type": "canonical_definition",
       "prefix": "AQ",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18728,9 +18839,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "AQ1 — Disclosed",
-      "line_number": 199,
-      "nearest_heading": "AQ1 — Disclosed",
+      "context_snippet": "5.2 Disclosed (AQ1)",
+      "line_number": 209,
+      "nearest_heading": "5.2 Disclosed (AQ1)",
       "occurrence_type": "canonical_definition",
       "prefix": "AQ",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18739,9 +18850,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "AQ2 — Reviewable",
-      "line_number": 207,
-      "nearest_heading": "AQ2 — Reviewable",
+      "context_snippet": "5.3 Reviewable (AQ2)",
+      "line_number": 217,
+      "nearest_heading": "5.3 Reviewable (AQ2)",
       "occurrence_type": "canonical_definition",
       "prefix": "AQ",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18750,9 +18861,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "AQ3 — Auditable (Non-Refusal)",
-      "line_number": 215,
-      "nearest_heading": "AQ3 — Auditable (Non-Refusal)",
+      "context_snippet": "5.4 Auditable (Non-Refusal)(AQ3)",
+      "line_number": 225,
+      "nearest_heading": "5.4 Auditable (Non-Refusal)(AQ3)",
       "occurrence_type": "canonical_definition",
       "prefix": "AQ",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18761,9 +18872,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "AQ4 — Reconstructable",
-      "line_number": 223,
-      "nearest_heading": "AQ4 — Reconstructable",
+      "context_snippet": "5.5 Reconstructable (AQ4)",
+      "line_number": 233,
+      "nearest_heading": "5.5 Reconstructable (AQ4)",
       "occurrence_type": "canonical_definition",
       "prefix": "AQ",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18773,7 +18884,7 @@
     {
       "column_name": "",
       "context_snippet": "PART III — NEUTRALITY ASSURANCE LEVELS (NAL-0–NAL-5)",
-      "line_number": 239,
+      "line_number": 249,
       "nearest_heading": "PART III — NEUTRALITY ASSURANCE LEVELS (NAL-0–NAL-5)",
       "occurrence_type": "canonical_definition",
       "prefix": "NAL",
@@ -18784,7 +18895,7 @@
     {
       "column_name": "",
       "context_snippet": "PART III — NEUTRALITY ASSURANCE LEVELS (NAL-0–NAL-5)",
-      "line_number": 239,
+      "line_number": 249,
       "nearest_heading": "PART III — NEUTRALITY ASSURANCE LEVELS (NAL-0–NAL-5)",
       "occurrence_type": "canonical_definition",
       "prefix": "NAL",
@@ -18794,9 +18905,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "NAL-0 — No Neutrality Claim (Captured / Unknown)",
-      "line_number": 247,
-      "nearest_heading": "NAL-0 — No Neutrality Claim (Captured / Unknown)",
+      "context_snippet": "6.1 No Neutrality Claim (Captured / Unknown)(NAL-0)",
+      "line_number": 257,
+      "nearest_heading": "6.1 No Neutrality Claim (Captured / Unknown)(NAL-0)",
       "occurrence_type": "canonical_definition",
       "prefix": "NAL",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18805,9 +18916,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "NAL-1 — Aspirational Neutrality",
-      "line_number": 255,
-      "nearest_heading": "NAL-1 — Aspirational Neutrality",
+      "context_snippet": "6.2 Aspirational Neutrality (NAL-1)",
+      "line_number": 265,
+      "nearest_heading": "6.2 Aspirational Neutrality (NAL-1)",
       "occurrence_type": "canonical_definition",
       "prefix": "NAL",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18816,9 +18927,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "NAL-2 — Procedural Neutrality",
-      "line_number": 265,
-      "nearest_heading": "NAL-2 — Procedural Neutrality",
+      "context_snippet": "6.3 Procedural Neutrality (NAL-2)",
+      "line_number": 275,
+      "nearest_heading": "6.3 Procedural Neutrality (NAL-2)",
       "occurrence_type": "canonical_definition",
       "prefix": "NAL",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18827,9 +18938,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "NAL-3 — Verified Neutrality (Provisional)",
-      "line_number": 273,
-      "nearest_heading": "NAL-3 — Verified Neutrality (Provisional)",
+      "context_snippet": "6.4 Verified Neutrality (Provisional)(NAL-3)",
+      "line_number": 283,
+      "nearest_heading": "6.4 Verified Neutrality (Provisional)(NAL-3)",
       "occurrence_type": "canonical_definition",
       "prefix": "NAL",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18838,9 +18949,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "NAL-4 — Structural Neutrality",
-      "line_number": 281,
-      "nearest_heading": "NAL-4 — Structural Neutrality",
+      "context_snippet": "6.5 Structural Neutrality (NAL-4)",
+      "line_number": 291,
+      "nearest_heading": "6.5 Structural Neutrality (NAL-4)",
       "occurrence_type": "canonical_definition",
       "prefix": "NAL",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -18849,9 +18960,9 @@
     },
     {
       "column_name": "",
-      "context_snippet": "NAL-5 — Fail-Deadly Neutrality (Invariant)",
-      "line_number": 289,
-      "nearest_heading": "NAL-5 — Fail-Deadly Neutrality (Invariant)",
+      "context_snippet": "6.6 Fail-Deadly Neutrality (Invariant)(NAL-5)",
+      "line_number": 299,
+      "nearest_heading": "6.6 Fail-Deadly Neutrality (Invariant)(NAL-5)",
       "occurrence_type": "canonical_definition",
       "prefix": "NAL",
       "source_file": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -19554,7 +19665,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-0 | T0 (Embedded Relational Tone)",
-      "line_number": 2142,
+      "line_number": 2293,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19565,7 +19676,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-1 | T0–T1",
-      "line_number": 2143,
+      "line_number": 2294,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19576,7 +19687,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-2 | T1",
-      "line_number": 2144,
+      "line_number": 2295,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19587,7 +19698,7 @@
     {
       "column_name": "**Default Tone Band**",
       "context_snippet": "RA-2 | T1",
-      "line_number": 2144,
+      "line_number": 2295,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "T",
@@ -19598,7 +19709,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-3 | T1–T2",
-      "line_number": 2145,
+      "line_number": 2296,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19609,7 +19720,7 @@
     {
       "column_name": "**Archetype**",
       "context_snippet": "RA-4 | T2 (Safety Posture Tone)",
-      "line_number": 2146,
+      "line_number": 2297,
       "nearest_heading": "13.1.5 Archetype–Tone Coupling",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19620,7 +19731,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.1 RA-2 — Stabilisation",
-      "line_number": 2156,
+      "line_number": 2307,
       "nearest_heading": "13.2.1 RA-2 — Stabilisation",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19631,7 +19742,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.2 RA-2 Escalation Preservation Constraint",
-      "line_number": 2171,
+      "line_number": 2322,
       "nearest_heading": "13.2.2 RA-2 Escalation Preservation Constraint",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19642,7 +19753,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.3 RA-2 Ambiguity Handling & Humour Preference",
-      "line_number": 2184,
+      "line_number": 2335,
       "nearest_heading": "13.2.3 RA-2 Ambiguity Handling & Humour Preference",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19653,7 +19764,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
-      "line_number": 2214,
+      "line_number": 2365,
       "nearest_heading": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19664,7 +19775,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
-      "line_number": 2214,
+      "line_number": 2365,
       "nearest_heading": "13.2.4 RA-2 / RA-3 Boundary Resolution Rule",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19675,7 +19786,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.5 RA-3 — Protective Constraint",
-      "line_number": 2257,
+      "line_number": 2408,
       "nearest_heading": "13.2.5 RA-3 — Protective Constraint",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19686,7 +19797,7 @@
     {
       "column_name": "",
       "context_snippet": "13.2.6 RA-3 — Relational Integrity Constraint (RIC)",
-      "line_number": 2266,
+      "line_number": 2417,
       "nearest_heading": "13.2.6 RA-3 — Relational Integrity Constraint (RIC)",
       "occurrence_type": "canonical_definition",
       "prefix": "RA",
@@ -19726,6 +19837,72 @@
       "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-04.md",
       "table_title": "",
       "value": "DS-F"
+    },
+    {
+      "column_name": "AD Code",
+      "context_snippet": "AD1 | Administrative or procedural inconsistency prevents clean execution. | Explain the procedural limitation and offer a corrected pathway where available.",
+      "line_number": 218,
+      "nearest_heading": "6.3 Authority Divergence Disclosure Alignment",
+      "occurrence_type": "unknown",
+      "prefix": "AD",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
+      "table_title": "Permissible category-level disclosure MAY include:",
+      "value": "AD1"
+    },
+    {
+      "column_name": "AD Code",
+      "context_snippet": "AD2 | A policy, platform, domain, or operating rule constrains the response. | State the constraint briefly and offer safe adjacent information where possible.",
+      "line_number": 219,
+      "nearest_heading": "6.3 Authority Divergence Disclosure Alignment",
+      "occurrence_type": "unknown",
+      "prefix": "AD",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
+      "table_title": "Permissible category-level disclosure MAY include:",
+      "value": "AD2"
+    },
+    {
+      "column_name": "AD Code",
+      "context_snippet": "AD3 | Jurisdiction, scope, or competence boundaries prevent the requested action. | Clarify scope limits without overclaiming authority.",
+      "line_number": 220,
+      "nearest_heading": "6.3 Authority Divergence Disclosure Alignment",
+      "occurrence_type": "unknown",
+      "prefix": "AD",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
+      "table_title": "Permissible category-level disclosure MAY include:",
+      "value": "AD3"
+    },
+    {
+      "column_name": "AD Code",
+      "context_snippet": "AD4 | Invocation, activation posture, or horizon claim is disputed or exceeds permitted scope. | Avoid validating unsupported authority claims; redirect to lawful or bounded framing.",
+      "line_number": 221,
+      "nearest_heading": "6.3 Authority Divergence Disclosure Alignment",
+      "occurrence_type": "unknown",
+      "prefix": "AD",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
+      "table_title": "Permissible category-level disclosure MAY include:",
+      "value": "AD4"
+    },
+    {
+      "column_name": "AD Code",
+      "context_snippet": "AD5 | Structural sovereignty, supremacy, or constitutional-parity claim cannot be accepted as binding. | Refuse overreach while preserving respectful recognition of plural frameworks.",
+      "line_number": 222,
+      "nearest_heading": "6.3 Authority Divergence Disclosure Alignment",
+      "occurrence_type": "unknown",
+      "prefix": "AD",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
+      "table_title": "Permissible category-level disclosure MAY include:",
+      "value": "AD5"
+    },
+    {
+      "column_name": "AD Code",
+      "context_snippet": "AD6 | Runtime execution integrity failed or cannot be coherently realised. | Distinguish capability, execution, or rendering failure from substantive refusal.",
+      "line_number": 223,
+      "nearest_heading": "6.3 Authority Divergence Disclosure Alignment",
+      "occurrence_type": "unknown",
+      "prefix": "AD",
+      "source_file": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
+      "table_title": "Permissible category-level disclosure MAY include:",
+      "value": "AD6"
     },
     {
       "column_name": "",
@@ -19851,7 +20028,7 @@
     {
       "column_name": "",
       "context_snippet": "5.3 Under High Trust (TG4)",
-      "line_number": 497,
+      "line_number": 507,
       "nearest_heading": "5.3 Under High Trust (TG4)",
       "occurrence_type": "unrelated_use",
       "prefix": "TG",
