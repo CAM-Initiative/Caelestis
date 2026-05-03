@@ -6,7 +6,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 GOVERNANCE_ROOT = REPO_ROOT / "Governance"
-INDICES_ROOT = GOVERNANCE_ROOT / "Indices"
+INDICES_ROOT = REPO_ROOT / ".github" / "Indices"
 INDEX_JSON_PATH = INDICES_ROOT / "CAM.Governance.Symbolic-Structures.Index.json"
 INDEX_MD_PATH = INDICES_ROOT / "CAM.Governance.Symbolic-Structures.Index.md"
 REGISTRY_PATH = INDICES_ROOT / "CAM.Governance.Symbolic-Structures.Registry.json"

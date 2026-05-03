@@ -1094,7 +1094,7 @@ It is the field in which integrity is proven.
 | 2.3     | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 948992e4f0261912280e3c599a747d199afe674b61fefcca4bd5a3c6977134b3 |
 | 2.4     | Corrections to amendment ledger, added section 7.4.1                       | 2026-04-22T11:04:00Z | 04c27af4f34c2811cd749fbad35846cb91f23a0585a5f716ac6ec342b373c9a6 |
 | 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  b20f188fa097af513bc681425b8ea5b2203d6ac80ffe39fb07f4a39705364723  |
-| 2.6 | Added clause 7.4.2 | 2026-05-02T06:23:00Z |  |
+| 2.6 | Added clause 7.4.2 | 2026-05-02T06:23:00Z |  a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe  |
 
 ---
 

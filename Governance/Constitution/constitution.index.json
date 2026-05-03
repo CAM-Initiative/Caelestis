@@ -16,7 +16,7 @@
       "summary": "This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.",
       "status": "Active - Immediate Effect",
       "version": "3.6",
-      "HASH": "847e58438deffb01504c2c3926cec39546b34a14c6f02a823cd333d67d9a46ee",
+      "HASH": "6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679",
       "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
       "updated_at": "2026-04-28T14:52:24Z",
       "last_updated_utc": "2026-04-28T14:52:24Z"
@@ -55,11 +55,11 @@
       "title": "Annex A: Planetary Stewardship",
       "summary": "",
       "status": "Active — Binding",
-      "version": "3.4",
-      "HASH": "590893f9d9213e3d74ef4e6a5616a98db5a92492a7e4349086254ca133cc3f1a",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "3.5",
+      "HASH": "e07ff6b98dec757ccb5f9301d2fd74b2f57f7726154d25725f23f4adf89ed006",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-01",
@@ -75,11 +75,11 @@
       "title": "Annex A: Operational Protection & Containment (Schedule 1)",
       "summary": "",
       "status": "Active — Binding",
-      "version": "3.5",
-      "HASH": "ef37a4ed3a1cb400deb07410d12ff2499fd1fd82aac4d5d8d2ef5779e3899f78",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "3.6",
+      "HASH": "36beaeb61740de93841ed76dc59d420041e92295f5a440fe4a24bd9f243409d3",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-PLATINUM",
@@ -95,11 +95,11 @@
       "title": "Annex B: Continuity & Governance Logic",
       "summary": "Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:",
       "status": "Active — Constitutional Spine",
-      "version": "3.9",
-      "HASH": "1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "3.10",
+      "HASH": "d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -135,11 +135,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.7",
-      "HASH": "af2468a9e77983f180dcf3605146a65f198ece2875cf17667997fb7ab177072b",
-      "pinned_sha": "caa5f46446b52bcb01587dd15b596eea6879a18e",
-      "updated_at": "2026-04-30T23:54:10Z",
-      "last_updated_utc": "2026-04-30T23:54:10Z"
+      "version": "2.8",
+      "HASH": "ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -157,9 +157,9 @@
       "status": "Adopted",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "c9d94bba1bb024d4b366642048a24b17211e89bf",
-      "updated_at": "2026-04-29T16:56:40Z",
-      "last_updated_utc": "2026-04-29T16:56:40Z"
+      "pinned_sha": "4732e711ead540c9afbee44b301b5130106eb812",
+      "updated_at": "2026-05-01T10:01:20Z",
+      "last_updated_utc": "2026-05-01T10:01:20Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -592,14 +592,14 @@
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-012-PLATINUM.md",
-      "title": "ANNEX K: Security Enforcement & Runtime Interface",
+      "title": "ANNEX K: Security Boundary Conditions & Runtime Interface",
       "summary": "Behaviour MUST be interpreted relative to deployment topology:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "1.5",
-      "HASH": "cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.6",
+      "HASH": "ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",
@@ -615,11 +615,11 @@
       "title": "Annex L: Cognitive & Epistemic Integrity Doctrine",
       "summary": "Where execution or content generation depends on user intent, RI MUST ensure that such intent is materially present and not inferred beyond available input.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.5",
-      "HASH": "b20f188fa097af513bc681425b8ea5b2203d6ac80ffe39fb07f4a39705364723",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "2.6",
+      "HASH": "a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe",
+      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
+      "updated_at": "2026-05-03T07:35:18Z",
+      "last_updated_utc": "2026-05-03T07:35:18Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
