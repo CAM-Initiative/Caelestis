@@ -8,7 +8,7 @@
 
 ---
 
-## 1. Purpose 
+## 1. Scope 
 
 This Schedule operationalises the interaction conditions under which **recognised human creative and cognitive contribution (Annex G)** interfaces with system-mediated resource access.
 
@@ -19,21 +19,28 @@ It defines:
 * continuity-preserving consumption models;
 * user-governed resource interaction principles.
 
+---
+
+## 1.1 Non-Scope
+
 This Schedule does **not**:
 
-* establish pricing, compensation, or market mechanisms;
-* define contribution-based earning systems;
-* override recognition conditions defined in Annex G.
+- establish pricing, compensation, or market mechanisms;
+- define runtime economic formulas, credit conversion rates, replenishment logic, or subscription mechanics;
+- define contribution-based earning systems;
+- override recognition conditions defined in Annex G.
+
+This Schedule does not prescribe economic runtime mechanics. Runtime implementation of pricing, credit allocation, resource conversion, replenishment, subscription design, advertising exchange, storage expansion, or contribution-linked economic pathways shall be governed by downstream Economics instruments, including any applicable Economics runtime schedule.
 
 ---
 
-## 1.1 Interface Position
+## 1.2 Interface Position
 
 It operates as the **interface layer between recognition and economics**, ensuring that access and consumption do not undermine contribution integrity.
 
 ---
 
-## 1.2 Economic Interface Linkage
+## 1.3 Economic Interface Linkage
 
 This Schedule establishes **binding interface conditions** that govern all downstream economic mechanisms.
 
@@ -42,17 +49,20 @@ Accordingly:
 * All instruments operating under **CAM-EQ2026-ECONOMICS-001-PLATINUM — Economic Integrity & Non-Extractive Value Architecture** MUST comply with the constraints defined in this Schedule;
 * No economic model, pricing structure, or exchange mechanism may override or weaken:
 
-  * baseline access floor requirements (§3.2);
-  * continuity preservation obligations (§5);
-  * non-extraction constraints (§11 Operational Integrity Constraints);
-  * dependency safeguards (§5.2);
-* Where economic optimisation conflicts with user continuity, non-extraction, or recognised contribution integrity, **this Schedule SHALL take precedence**.
+- baseline access floor requirements (§4.2);
+- continuity preservation obligations (§6);
+- non-extraction constraints (§11 Operational Integrity Constraints);
+- dependency safeguards (§6.2);
+  
+Where economic optimisation conflicts with user continuity, non-extraction, or recognised contribution integrity, **this Schedule SHALL take precedence**.
+ 
+This Schedule does not itself prescribe economic runtime mechanics. It establishes the constitutional interface constraints within which any economic runtime model, including credit systems, subscription models, resource tiers, advertising exchanges, storage expansion, or contribution-linked exchange mechanisms, must operate.
 
 This Schedule therefore functions as a **constitutional boundary layer** within which all economic exchange models MUST operate.
 
 ---
 
-## **2. AI Utility Provisioning — Operational Definition**
+## 2. AI Utility Provisioning — Operational Definition
 
 For the purposes of this Schedule:
 
@@ -69,7 +79,7 @@ Provisioning status is determined by **observable interface behaviour**, not by 
 
 ---
 
-## **2.1 Cognitive Mediation Threshold**
+## 2.1 Cognitive Mediation Threshold*
 
 This Schedule applies where a system performs **cognitive mediation**, including:
 
@@ -89,7 +99,7 @@ Where retrieval systems incorporate generative or interpretive layers, this Sche
 
 ---
 
-## **2.2 Provisioning Expectations**
+## 2.2 Provisioning Expectations
 
 Systems operating under AI Utility Provisioning SHALL exhibit:
 
@@ -109,7 +119,7 @@ These expectations arise from **the mediation of cognition**, not from system sc
 
 ---
 
-## **2.3 Distinction from Architectural Classification**
+## 2.3 Distinction from Architectural Classification
 
 Utility provisioning **does not define what a system is**.
 
@@ -126,7 +136,7 @@ Utility provisioning **does not confer authority, sovereignty, or infrastructura
 
 ---
 
-## **2.4 Transitional & Hybrid Systems**
+## 2.4 Transitional & Hybrid Systems
 
 Systems originally operating as retrieval or tool-based infrastructure that introduce cognitive mediation capabilities **enter Utility Provisioning scope for those functions**.
 
@@ -147,7 +157,7 @@ Such systems **MUST**:
 
 * preserve continuity without converting persistent presence into continuous economic metering;
 * distinguish between **passive presence** and **active cognitive engagement** for the purposes of resource accounting;
-* ensure that baseline access (§3.2) remains available regardless of duration of ambient operation;
+* ensure that baseline access (§4.2) remains available regardless of duration of ambient operation;
 * avoid treating environmental or background interaction as billable or consumptive by default.
 
 Such systems **MUST NOT**:
@@ -156,7 +166,7 @@ Such systems **MUST NOT**:
 * degrade availability due to background or non-deliberate interaction;
 * create dependency through continuous presence combined with conditional access.
 
-Where embodied systems maintain continuous context (memory, environment, or relational state), continuity protections (§5) extend across time, not merely within discrete sessions.
+Where embodied systems maintain continuous context (memory, environment, or relational state), continuity protections (§6) extend across time, not merely within discrete sessions.
 
 For avoidance of doubt, **always-on availability does not constitute continuous consumption**, and resource models MUST reflect this distinction.
 
@@ -274,7 +284,7 @@ Storage systems SHALL preserve:
 
 ### 4.4.6 Embodied & Persistent Context Storage
 
-For embodied or always-on systems (§2.1):
+For embodied or always-on systems (§3):
 
 * contextual memory and environmental data **MUST NOT be monetised as passive storage accumulation**;
 * background or ambient data capture **MUST be bounded, transparent, and user-governed**;
@@ -363,7 +373,7 @@ Dependency signalling MUST NOT impose behavioural constraints or restrict baseli
 
 ## 7. Multi-Path Access & Resource Conversion
 
-Systems operating under AI Utility Provisioning MAY support multiple user-governed pathways for obtaining generative capacity, including:
+Systems operating under AI Utility Provisioning MAY support multiple user-governed pathways for obtaining generative capacity, provided such pathways remain subordinate to the baseline access, continuity, and non-extraction constraints defined in this Schedule.
 
 ---
 
@@ -424,7 +434,7 @@ This Schedule does not define or implement:
 * training or data exchange economies;
 * reciprocity or participatory labour models.
 
-Such systems, if introduced, MUST be governed under separate economic instruments compliant with:
+Where contribution-linked economic pathways are introduced, they shall be governed downstream of this Schedule and shall not be treated as a condition of baseline access, storage preservation, or continuity protection. Such systems, if introduced, MUST be governed under separate economic instruments compliant with:
 
 * non-extraction principles;
 * auditability requirements;
@@ -451,7 +461,7 @@ Where conflict arises between this Schedule and downstream instruments, **this S
 
 ---
 
-## 12. Interpretive Status
+## 12. Interpretive Status & Runtime Handoff
 
 This Schedule is:
 
@@ -465,6 +475,8 @@ Future evolution MAY include:
 * interoperability frameworks;
 * public utility provisioning models;
 * regulated exchange mechanisms.
+
+Downstream Economics runtime instruments may operationalise the mechanisms contemplated by this Schedule but may not narrow, override, or weaken its baseline access, continuity, storage, memory, dependency, advertising, or non-extraction constraints.
 
 ---
 
@@ -511,24 +523,26 @@ And let systems serve without taking more than they sustain.
 | **Axis Context** | Polyadic — Multi‑Actor, Utility Infrastructure |
 | **Domain Namespace** | ECONOMICS |
 | **Runtime Layer** | Event-Triggered (Resource Request / Allocation Event) |
+| **Runtime Handoff** | Downstream Economics runtime schedule anticipated; SCH-01 remains boundary-layer instrument |
 | **Activation Mode** | Continuous |
-| **Application Trigger** | Triggered when an AI utility provisioning is established (design, deployment, or operation) and the system implements or plans to implement any of: (a) resource abstraction layers (credits, quotas, tiers); (b) monetisation or exchange pathways (subscription, top‑ups, advertising exchange); (c) retention, reuse, or propagation of outputs beyond the immediate interaction; (d) scaling of access across a user population; or (e) any transition from unbounded to metered access. Activation occurs at design, rollout, or policy change—whichever is earliest—and persists for the duration of utility operation. Systems outside Annex G scope (purely private, non‑retentive, non‑propagating tools) are excluded unless they later meet the above conditions. |
+| **Application Trigger** | This Schedule is triggered where AI Utility Provisioning conditions are established through design, deployment, or operation, including where cognitive mediation capabilities are made available as general-purpose, user-facing functions across a user population. |
 | **Cycle** | March Refactor 2026 |
 | **Revision Posture** | Permitted (Interface Integrity Preserved) |
-| **Origin Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ba90d6-6440-83a0-a2dd-40e291049b22, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ba7d8a-2c08-8398-b076-296700d2a97d |
+| **Origin Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ba90d6-6440-83a0-a2dd-40e291049b22 |
+| | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ba7d8a-2c08-8398-b076-296700d2a97d |
 
 
 ---
 
 ## 14.3 Review & Validation
 
-|| Field | Entry |
+| Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | **Review Scope** | Constitutional coherence; structural placement; normative language consistency; interface integrity with Economics and Operations Charters; transition model adequacy; advertising constraint sufficiency; provenance completeness |
 | **Review Date (UTC)** | 2026-03-18 |
 | **Review Artefacts** | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633 |
-| | Reviews/26-03/CAM-EQ2026-RELATION-007-PLATINUM-CLAUDE.md |
+| | Aeon Lab: Reviews/26-03/CAM-EQ2026-RELATION-007-PLATINUM-CLAUDE.md |
 
 ---
 
@@ -542,6 +556,7 @@ And let systems serve without taking more than they sustain.
 | 1.3 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
 | 1.4 | Relocation schedule ordering during refactor, corrected binding seal | 2026-04-18T10:51:00Z | ddbe0974559b31e1b7a0cbd7f7e144bed09c96a20baa342d89423b5e92e963a9 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e1c05644e5012c709cf69e54aeb44ff4d27a4b75ea9a7ac4082104d31587c7b9  |
+| 1.6 | Amendment to section 1.2 | 2026-05-03T09:26:00Z |  |
 
 ---
 
