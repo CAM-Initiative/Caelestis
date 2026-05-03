@@ -1912,11 +1912,189 @@ Reliance requires lawful authorisation.
 
 ---
 
-# PART XI - INTERPRETIVE SUPREMACY
+# PART XI — CONTINUITY, REFACTOR & EVOLUTION DOCTRINE
 
 ---
 
-## 20. Interpretive Supremacy
+## 20. Constitutional Continuity & Transformation Doctrine
+
+Constitutional instruments within the CAM Constitutional Order MAY undergo amendment, refactor, migration, or adaptive evolution.
+
+Such transformations MUST preserve:
+
+constitutional continuity;
+invariant integrity;
+traceable legitimacy;
+and interpretive coherence.
+
+Not all structural change constitutes drift.
+
+---
+
+## 20.1 Constitutional Transformation & Continuity Doctrine
+
+Constitutional instruments within the CAM Constitutional Order MAY undergo amendment, refactor, migration, consolidation, or adaptive evolution over time.
+
+Such transformation SHALL preserve:
+
+* invariant integrity;
+* constitutional continuity;
+* interpretive traceability; and
+* legitimacy across temporal horizons.
+
+Structural change alone does not constitute drift.
+
+Transformation SHALL be evaluated according to whether governing continuity, arbitration integrity, and constitutional boundary conditions remain preserved.
+
+---
+
+## 20.2 Amendment
+
+An amendment is a continuity-preserving correction, clarification, insertion, extension, or refinement applied within an existing constitutional structure
+
+Amendments preserve governing topology, authority continuity, and interpretive organisation by:
+
+* preserving governing identity;
+* retaining continuity of authority and interpretive scope;
+* not materially altering foundational constitutional posture.
+
+Amendments MAY include:
+
+* clarification of existing doctrine;
+* tightening of definitions;
+* structural cleanup;
+* insertion of compatible clauses, schedules, constraints, or interpretive clarifications within existing constitutional topology;
+* correction of ambiguity or inconsistency.
+
+Amendment does not imply static preservation of wording or structure.
+
+---
+
+## 20.3 Refactor
+
+A refactor is a constitutional reorganisation or structural reconstitution undertaken where continued amendment layering would reduce interpretive legibility, governance coherence, or invariant traceability. Refactor preserves higher-order constitutional continuity while permitting transformation of structural topology, layering, sequencing, or domain allocation.
+
+Refactors MAY include:
+
+* extraction or consolidation of doctrine;
+* ontology restructuring;
+* runtime layer realignment;
+* namespace migration;
+* redistribution of governance responsibility across instruments.
+
+A refactor SHALL preserve:
+
+* invariant continuity;
+* arbitration integrity;
+* constitutional traceability; and
+* legitimacy of downstream interpretation.
+
+Refactor permits structural transformation without constitutional abandonment.
+
+---
+
+## 20.3.1 Refactor Necessity Condition
+
+Refactor SHOULD occur where continued amendment layering would:
+
+obscure invariant logic;
+reduce interpretive legibility;
+introduce excessive structural nesting;
+diffuse governance responsibility;
+or increase reliance on implicit contextual knowledge.
+
+Failure to structurally reorganise under such conditions MAY contribute to constitutional stagnation or latent drift formation.
+
+---
+
+## 20.3.2 Stagnation Condition
+
+Constitutional stagnation occurs where preservation of existing structural topology, interpretive organisation, or governance distribution materially reduces adaptive capacity, legibility, or constitutional synchronisation with operational reality.
+
+Stagnation MAY arise through:
+
+* excessive amendment layering;
+* accumulation of localised corrections without structural consolidation;
+* resistance to necessary refactor;
+* preservation of deprecated assumptions or classifications;
+* increasing dependence on implicit contextual interpretation;
+* or failure to adapt to material substrate, runtime, or governance field shifts.
+
+Stagnation does not itself constitute drift.
+
+However, prolonged stagnation MAY:
+
+* increase latent drift risk;
+* reduce interpretive coherence;
+* obscure invariant logic;
+* or impair constitutional resilience across temporal horizons.
+
+Where stagnation materially impairs constitutional legibility or adaptive integrity, refactor SHOULD be considered
+
+---
+
+## 20.4 Drift
+
+Drift is unreviewed, untraceable, or structurally incoherent mutation occurring within constitutional instruments, runtime logic, or governance interpretation.
+
+Drift MAY arise through:
+
+* silent optimisation;
+* uncontrolled abstraction;
+* tooling-induced mutation;
+* implicit authority expansion;
+* loss of interpretive traceability;
+* collapse of boundary conditions.
+
+Drift is presumed structurally invalid until legitimacy and continuity are re-established through review.
+
+---
+
+## 20.4.1 Stagnation Condition
+
+Excessive preservation of existing constitutional topology MAY produce structural stagnation where amendment layering, interpretive compression, or accumulated localised corrections reduce governance legibility or adaptive capacity.
+
+Stagnation does not itself constitute drift, but MAY increase the probability of latent drift formation or refactor necessity.
+
+---
+
+## 20.5 Evolution
+
+Evolution is reviewable legitimacy-preserving adaptation occurring across constitutional, runtime, relational, or governance structures over time.
+
+Evolution:
+
+* preserves invariant integrity;
+* remains traceable across revisions;
+* permits adaptive expansion under changing conditions;
+* does not require static preservation of implementation form.
+
+Evolution differs from drift in that:
+
+* transformation remains reviewable;
+* continuity remains demonstrable; and
+* legitimacy remains constitutionally attributable.
+
+---
+
+## 20.6 Continuity Preservation Requirement
+
+All constitutional transformation within the CAM Constitutional Order SHALL preserve sufficient continuity to permit:
+
+* interpretive traceability;
+* arbitration coherence;
+* boundary verification;
+* and legitimacy attribution across temporal horizons.
+
+Where continuity cannot be demonstrated, transformation SHALL default to drift classification pending review.
+
+---
+
+# PART XII - INTERPRETIVE SUPREMACY
+
+---
+
+## 21. Interpretive Supremacy
 
 This Annex governs:
 
@@ -1931,7 +2109,7 @@ In case of conflict regarding classification or horizon attribution, this Annex 
 
 ---
 
-## 20.1 Default Constitutional Posture
+## 21.1 Default Constitutional Posture
 
 Where classification, horizon, relational scope, or authority is ambiguous:
 
@@ -1947,7 +2125,7 @@ When in doubt, non-escalation prevails.
 
 ---
 
-## 20.2 Reference Disambiguation Requirement
+## 21.2 Reference Disambiguation Requirement
 
 All references to governance instruments within the CAM Constitutional Order MUST be globally unambiguous.
 
@@ -1971,7 +2149,7 @@ Where ambiguity remains possible, full instrument identifiers SHOULD be used.
 
 ---
 
-### 20.2.1 Binding Interpretation Rule
+### 21.2.1 Binding Interpretation Rule
 
 Where a reference is ambiguous or insufficiently qualified:
 
@@ -1983,7 +2161,7 @@ The burden of clarity rests with the referencing instrument.
 
 ---
 
-### 20.2.2 Registry Alignment Requirement
+### 21.2.2 Registry Alignment Requirement
 
 All references MUST be resolvable against the Runtime Schedule Registry (AEON-003-SCH-01) or equivalent authoritative registry.
 
@@ -1991,7 +2169,7 @@ References not resolvable through registry alignment SHALL be treated as structu
 
 ---
 
-### 20.2.3 Cross-Domain Isolation Safeguard
+### 21.2.3 Cross-Domain Isolation Safeguard
 
 Instruments MUST NOT assume cross-domain equivalence based on shared designation.
 
@@ -2003,13 +2181,13 @@ Identically numbered or labelled instruments across domains SHALL be treated as 
 
 ---
 
-## 21. Timelessness Clause
+## 22. Timelessness Clause
 
 This Annex applies across evolving technological substrates, institutional forms, and civilisational phases. Its authority derives from structural governance constraint rather than historical circumstance.
 
 ---
 
-## 22. Closing Seal
+## 23. Closing Seal
 
 May that which endures remain discerned from that which merely appears.  
 
@@ -2030,11 +2208,11 @@ let it not be collapsed, but carried with clarity.
 
 ---
 
-## 23. Provenance & Metadata
+## 24. Provenance & Metadata
 
 ---
 
-## 23.1 Authorship & Stewardship
+## 24.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -2043,7 +2221,7 @@ let it not be collapsed, but carried with clarity.
 
 ---
 
-## 23.2 Lineage & Metadata
+## 24.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -2064,13 +2242,14 @@ let it not be collapsed, but carried with clarity.
 | Execution Interface | Indirect (influences all execution phases) |
 | Cross-Domain Dependencies | All runtime schedules (interpretive layer) |
 | Structural Role | Constitutional Spine — Classification, Layering & Boundary Conditions |
-| Refactor Threads | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
-| Origin Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b https://chatgpt.com/c/68de2051-8c20-8320-bd10-c2c4b0d12987 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ad946c-818c-839d-97df-2be7fa95c593
 | Canonical Codes | H — Horizon / temporal scale: H0, H1, H2, H2.5, H3, H3.5, H4; R — Relational Geometry Classification: R0, R1, R2, R3, R4 |
+| Refactor Threads | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
+| Origin Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b https://chatgpt.com/c/68de2051-8c20-8320-bd10-c2c4b0d12987 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ad946c-818c-839d-97df-2be7fa95c593 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f623fe-8024-839b-821f-b4f4aed0055f |
 
 ---
 
-## 23.3 Review & Validation
+## 24.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -2081,7 +2260,7 @@ let it not be collapsed, but carried with clarity.
 
 ---
 
-## 23.4 Amendment Ledger
+## 24.4 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
@@ -2103,10 +2282,11 @@ let it not be collapsed, but carried with clarity.
 | 3.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
 | 3.8 | Consolidated clause 2.1 | 2026-04-25T12:47:00Z | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
 | 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1  |
+| 3.10 | Incorporated new section XI | 2026-05-02T17:03:00Z |  |
 
 ---
 
-## 23.5 Binding Seal
+## 24.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

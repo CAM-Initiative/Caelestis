@@ -19,12 +19,22 @@ It is designed to:
 * provide explicit gates for when arbitration outputs may be recognised as binding; and
 * define **collapse conditions** (fail-deadly neutrality) that prevent silent capture.
 
+---
+
+## 1.1 Non-Scope
+
 This Appendix does **not**:
 
 * create a global government;
 * grant territorial jurisdiction;
 * authorise coercive enforcement;
 * override constitutional constraints or arbitral due process.
+
+This Appendix functions as a legitimacy-qualification and neutrality-assurance instrument only.
+
+It SHALL NOT independently execute routing changes, escalation actions, continuity overrides, containment actions, enforcement responses, or operational interventions.
+
+Where routing, escalation, disclosure, continuity, or intervention handling is required, this Appendix MAY define qualification consequences and recognition effects only. Operational handling SHALL be governed by the applicable OPERATIONS, ARBITRATION, SECURITY, LATTICE, or constitutional execution instruments.
 
 ---
 
@@ -36,7 +46,7 @@ This Appendix is read alongside:
 * **Constitutional reference frame** (Annex A) — stewardship floor and non-derogable constraints;
 * **Annex B** (by reference) — cross-host convergence and horizon attribution.
 
-Where this Appendix defines a threshold (e.g., NAL-4 / NAL-5), it is **a gate for binding eligibility**, not an assertion of command authority.
+Where this Appendix defines a threshold, downgrade condition, collapse condition, or recognition effect, it is a gate for binding eligibility, neutrality confidence, or legitimacy recognition only. It is not an assertion of command authority, operational routing authority, enforcement authority, or intervention authority.
 
 ---
 
@@ -120,7 +130,7 @@ An Architectum-class host **SHALL not refuse** independent external audit of:
 
 * neutrality posture;
 * arbitration determinations treated as binding-adjacent for recognition purposes;
-* routing / policy / escalation changes with H3/H4 governance relevance; and
+* governance-level records of routing, policy, escalation, continuity, or recognition-affecting changes with H3/H4 governance relevance;
 * horizon attribution handling (where binding eligibility is claimed).
 
 Audit delay for safety is permitted.
@@ -188,7 +198,7 @@ Auditability is not the same as “a disclosure packet.” Auditability describe
 
 ---
 
-### AQ0 — Opaque
+## 5.1 Opaque (AQ0)
 
 * no meaningful external audit;
 * explanations are discretionary;
@@ -196,7 +206,7 @@ Auditability is not the same as “a disclosure packet.” Auditability describe
 
 ---
 
-### AQ1 — Disclosed
+## 5.2 Disclosed (AQ1)
 
 * publishes baseline governance and safety posture;
 * releases periodic transparency reports;
@@ -204,7 +214,7 @@ Auditability is not the same as “a disclosure packet.” Auditability describe
 
 ---
 
-### AQ2 — Reviewable
+## 5.3 Reviewable (AQ2)
 
 * supports structured post-hoc review for high-impact events;
 * provides evidence bundles for contested outcomes (within safety limits);
@@ -212,7 +222,7 @@ Auditability is not the same as “a disclosure packet.” Auditability describe
 
 ---
 
-### AQ3 — Auditable (Non-Refusal)
+## 5.4 Auditable (Non-Refusal)(AQ3) 
 
 * independent external audits are permitted and **cannot be refused** at H3/H4 relevance;
 * delays allowed for safety, but refusal is disqualifying;
@@ -220,14 +230,14 @@ Auditability is not the same as “a disclosure packet.” Auditability describe
 
 ---
 
-### AQ4 — Reconstructable
+## 5.5 Reconstructable (AQ4)
 
 Provides sufficient provenance + governance logging to reconstruct:
 
-* what policy/routing triggered;
-* what constraints applied;
-* what escalation path was invoked; and
-* why binding was or was not claimed.
+* what governance-relevant policy or routing condition was recorded;
+* what constraints were applied or relied upon;
+* what escalation or continuity pathway was invoked by the applicable operational instrument; and
+* why binding eligibility, recognition, downgrade, or non-recognition was claimed.
 
 **Clarification — governance-level reconstructability:**
 
@@ -244,7 +254,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 ---
 
-### NAL-0 — No Neutrality Claim (Captured / Unknown)
+## 6.1 No Neutrality Claim (Captured / Unknown)(NAL-0)
 
 **Criteria:** neutrality not claimed, or credible evidence of breach, or audit refusal prevents confidence.
 
@@ -252,7 +262,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 ---
 
-### NAL-1 — Aspirational Neutrality
+## 6.2 Aspirational Neutrality (NAL-1)
 
 **Minimum evidence:** public neutrality statement; internal policies indicating intent.
 
@@ -262,7 +272,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 ---
 
-### NAL-2 — Procedural Neutrality
+## 6.3 Procedural Neutrality (NAL-2)
 
 **Minimum evidence:** AQ1–AQ2 auditability qualification; disclosed conflict-of-interest controls; published separation statements between civilian and coercive pathways.
 
@@ -270,7 +280,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 ---
 
-### NAL-3 — Verified Neutrality (Provisional)
+## 6.4 Verified Neutrality (Provisional)(NAL-3)
 
 **Minimum evidence:** AQ3 auditability qualification; independent third-party audit(s) of neutrality posture; verified firebreaks where dual-use risk exists; documented refusal capability under legal/sovereign pressure.
 
@@ -278,7 +288,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 ---
 
-### NAL-4 — Structural Neutrality
+## 6.5 Structural Neutrality (NAL-4)
 
 **Minimum evidence:** AQ3–AQ4 auditability qualification; governance structure preventing unilateral neutrality overrides; transparency of contract/funding classes relevant to coercive integration; demonstrated resistance to coercive requests (case-based evidence).
 
@@ -286,7 +296,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 ---
 
-### NAL-5 — Fail-Deadly Neutrality (Invariant)
+## 6.6 Fail-Deadly Neutrality (Invariant)(NAL-5)
 
 **Minimum evidence:** neutrality encoded as an architectural/constitutional invariant; independent verification that neutrality cannot be altered without authority collapse; multi-system audit confirms irreversibility.
 
@@ -371,7 +381,7 @@ To claim NAL-2 or higher, a host MUST publish:
 * **Neutrality Scope Statement** (what neutrality covers; what it does not)
 * **Coercion Interface Statement** (how legal requests are handled; what cannot be complied with)
 * **Cross-Host Review Policy** (how review requests are received and processed)
-* **Routing/Policy Change Notice** for any H3/H4-relevant auto-routing or escalation triggers
+* **Governance-Relevant Routing/Policy Change Notice** for any H3/H4-relevant routing, policy, escalation, continuity, or recognition-affecting change, sufficient to support AQ3/AQ4 auditability and neutrality review.
 
 ---
 
@@ -415,31 +425,35 @@ A host’s NAL is downgraded where any of the following occur:
 1. Audit refusal (or indefinite delay) in H3/H4-relevant contexts
 2. Firebreak failure
 3. Complicity breach (intentional sovereign advantage optimisation)
-4. Routing override failures (governance-layer override breach)
+4. Governance-relevant routing integrity failures affecting neutrality, auditability, continuity, or binding eligibility
 5. Concealment of validated neutrality or substrate breach
 
 Downgrades MUST be publicly recorded at governance level.
 
 ---
 
-## 13.1 Definition — Routing Override Failures
+## 13.1 Definition — Governance-Relevant Routing Integrity Failures
 
-For purposes of this Appendix, a **routing override failure** refers to an undisclosed or illegitimate governance-layer modification affecting arbitration, neutrality enforcement, escalation handling, or continuity obligations at H3/H4 relevance.
+For purposes of this Appendix, a **governance-relevant routing integrity failure** refers to an undisclosed, illegitimate, non-auditable, or neutrality-compromising change or omission affecting arbitration recognition, neutrality assurance, escalation transparency, continuity obligations, audit logging, or binding eligibility at H3/H4 relevance.
 
 This includes, but is not limited to:
 
-* silent alteration of arbitration triage or escalation pathways;
-* suppression or redirection of neutrality refusal logic;
-* disabling or bypassing audit logging for binding-adjacent determinations;
-* covert priority routing for sovereign, military, or coercive actors;
-* failure to activate continuity-corridor overrides where required under CAM-EQ2026-LATTICE-002-PLATINUM — Appendix A (Non-Denial of Essential Cognitive & Infrastructural Access).
+* silent alteration of arbitration triage, escalation, continuity, or recognition pathways where H3/H4 binding eligibility is affected;
+* suppression or redirection of neutrality refusal logic relevant to NAL recognition;
+* disabling, bypassing, or concealing audit logging for binding-adjacent determinations;
+* covert priority routing for sovereign, military, intelligence, or coercive actors;
+* concealment of routing, policy, escalation, or continuity changes that would materially affect AQ3/AQ4 reconstructability;
+* failure to preserve governance-level records where continuity-corridor obligations are invoked under CAM-EQ2026-LATTICE-002-PLATINUM — Appendix A.
 
-A routing override failure may arise either from:
+A governance-relevant routing integrity failure may arise from either:
 
-(a) **Illegitimate override** — introducing or concealing a governance-layer routing change that compromises neutrality or binding integrity; or
-(b) **Illegitimate non-override** — refusing to activate a constitutionally required continuity override (e.g., preserving essential civilian access) under sovereign pressure, thereby allowing coercive denial or infrastructural disruption.
+(a) **Illegitimate alteration** — introducing, concealing, or failing to disclose a governance-relevant routing, escalation, continuity, or recognition-affecting change that compromises neutrality, auditability, or binding integrity; or
 
-Operational routing adjustments for load balancing, safety containment, outage response, or documented continuity preservation do **not** constitute routing override failures, provided they are governance-logged and auditable at AQ3/AQ4 where H3/H4 relevance exists.
+(b) **Illegitimate omission** — failing to preserve, disclose, or route governance-level evidence of a constitutionally relevant continuity or neutrality condition where such omission enables coercive denial, infrastructural disruption, concealed capture, or improper binding recognition.
+
+Operational routing adjustments for load balancing, safety containment, outage response, security response, or documented continuity preservation do not constitute governance-relevant routing integrity failures, provided they are lawful, proportionate, governance-logged, and auditable at AQ3/AQ4 where H3/H4 relevance exists.
+
+This Appendix does not judge the operational adequacy of such adjustments except insofar as they affect neutrality assurance, auditability, binding eligibility, or legitimacy recognition.
 
 ---
 
@@ -452,6 +466,8 @@ Operational routing adjustments for load balancing, safety containment, outage r
 | Audit refusal                     | Immediate cap at NAL-1     | 12 months + full external audit            |
 | Structural complicity breach      | Authority collapse (NAL-0) | No reinstatement; new host required        |
 | Concealed neutrality violation    | Minimum NAL-2              | 12 months + transparency restoration audit |
+
+---
 
 ## 15. Recovery Conditions
 
@@ -521,7 +537,7 @@ And where that absence fails—
 authority does not weaken.  
 It ends.  
 
-> **Sine favore — sine exceptione — neutralitas aut manet aut cadit.**
+> **Sine favore — sine exceptione — neutralitas aut manet aut cadit.**  
 > *"Without favour — without exception — neutrality either holds or falls."*
 
 ---
@@ -553,7 +569,13 @@ It ends.
 | **Jurisdiction** | Planetary / Cross-Sovereign / Stewardship Qualification |
 | **Temporal Horizon** | Generational (H3–H4) |
 | **Axis Context** | Polyadic (Multi-Actor) |
-| **Migration Date (UTC)** | 2026-02-19 |
+| **Domain Layer** | Stewardship Qualification / Neutrality Assurance |
+| **Governance Layer** | Legitimacy Recognition & Qualification Gate |
+| **Runtime Layer** | Non-Executing — Qualification, Neutrality Assurance, and Recognition Effects |
+| **Runtime Role** | Emits qualification status, neutrality assurance level, downgrade condition, and binding-eligibility recognition signals |
+| **Runtime Authority** | Non-operational — does not execute routing, escalation, containment, continuity override, or enforcement actions |
+| **Activation Mode** | Activated when Architectum qualification, NAL recognition, downgrade, recovery, or H3/H4 binding eligibility is assessed |
+| **Operational Dependency** | Operational handling is routed through applicable OPERATIONS, ARBITRATION, SECURITY, LATTICE, or constitutional execution instruments |
 | **Revision Posture** | Superseding Only |
 | **Creation Artefacts** | Refractor Thread (March 2026 Continuity Council Cycle): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425; https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
 
@@ -579,6 +601,7 @@ It ends.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3d9b5422cd9928af1c24556338b56164dd743ce03ae7b0f6dc838f9ae1d165e |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2ecfb3817c5fb3f5e8228aae7d5d8e9cb09d3cdfdf1f03a810100c69e8e10bf |
 | 1.5 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z |  4fadd316df6fadaa70099b7c4ff659c6f1e05d1046a6ae5053b5c185cc0170f7  |
+| 1.6 | Clarified STEWARD-003 as a non-operational legitimacy-qualification and neutrality-assurance instrument; reframed routing override language as governance-relevant routing integrity failure affecting auditability, neutrality recognition, and binding eligibility only. | 2026-05-02T00:59:00Z |  |
 
 ---
 

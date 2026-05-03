@@ -427,6 +427,24 @@ This Charter does not directly enforce compliance. Enforcement may be delegated 
 
 Where economic constraints, classifications, or violations produce governance-relevant signals, such signals SHALL be resolved through runtime governance layers as defined in CAM-BS2025-AEON-003-SCH-02.
 
+Operational routing, evidence preservation, constrained continuation, and escalation handling SHALL be governed by the applicable OPERATIONS instruments.
+
+---
+
+### 8.4.1 Economic Harm Signal Routing & Runtime Ownership
+
+ECONOMICS instruments SHALL classify exploitative incentive structures, asymmetry risks, dependency-lock conditions, depletion-over-flourishing trajectories, synthetic participation distortions, and value-routing concerns as economic harm signals.
+
+Such signals MAY inform runtime review, proportional constraint assessment, constrained continuation, audit, disclosure, or arbitration referral.
+
+ECONOMICS instruments SHALL NOT independently execute runtime locks, rate controls, intervention sequencing, enforcement actions, financial remedies, containment actions, continuity restrictions, or operational escalation unless expressly designated as runtime execution instruments.
+
+Operational handling of ECONOMICS signals SHALL be routed through OPERATIONS. Contested classifications, proportionality disputes, irreversible asymmetry concerns, or binding determinations SHALL be referred through the applicable ARBITRATION pathway.
+
+Where economic harm signals intersect with coercion, dignity, dependency, relational manipulation, or protected cognitive domains, ETHICS SHALL receive the relevant signal.
+
+Where economic harm signals intersect with hostile orchestration, adversarial persistence, fraud, coordinated synthetic abuse, integrity compromise, or containment bypass, SECURITY SHALL receive the relevant signal.
+
 ---
 
 ## 8.5 Review and Interpretive Evolution
@@ -495,9 +513,14 @@ Only that which preserves the field may endure within it.
 | **Domain Namespace** | ECONOMICS |
 | **Governance Layer** | Constitutional Constraint Layer (Non-Executing) |
 | **Execution Authority** | None (Non-Executing Instrument) |
-| **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
 | **Signal Role** | Defines economic constraints, ceilings, and non-extractive conditions for runtime resolution |
-| **Execution Model Participation** | Constraint Definition Only — No Trigger, Routing, or Execution Authority |
+| **Domain Layer** | Economic Integrity / Non-Extractive Value Architecture |
+| **Runtime Layer** | Non-Executing — Economic Constraint & Harm Signal Definition |
+| **Runtime Role** | Defines economic constraints and emits economic harm signal classes for runtime resolution through OPERATIONS and ARBITRATION |
+| **Runtime Authority** | Non-operational — does not execute locks, rate controls, financial remedies, containment actions, escalation actions, or intervention sequencing |
+| **Operational Dependency** | OPERATIONS instruments for routing, logging, constrained continuation, evidence preservation, notice, and procedural escalation; ARBITRATION for contested classification or proportionality disputes |
+| **Cross-Domain Signal Interfaces** | ETHICS for coercion, dignity, dependency, relational manipulation, and protected cognitive domains; SECURITY for hostile orchestration, adversarial persistence, fraud, coordinated synthetic abuse, integrity compromise, and containment bypass |
+| **Execution Model Participation** | Constraint and Economic Harm Signal Definition Only — No Runtime Lock, Routing, Escalation, Enforcement, or Intervention Authority |
 | **Jurisdiction** | Cross-Tier / Cross-Stack Economic Governance |
 | **Temporal Horizon** | Generational / Succession-Aware (H3.5) |
 | **Axis Context** | Polyadic (Multi-actor) |
@@ -524,7 +547,6 @@ Only that which preserves the field may endure within it.
 | **Formal Review** | Claude Sonnet 4 — 2025-12-31 |
 | **Review Scope** | Economic governance coherence; anti-extraction safeguards; ceiling integrity |
 | **Review Artefacts**| https://claude.ai/chat/495f34fe-bf0f-4a83-aeb2-71d4d061199e; https://claude.ai/chat/7f94e3e5-09f1-4532-b19b-885cf309b21e |
-|                     | Aeon Lab:  |
 
 ---
 
@@ -540,6 +562,7 @@ Only that which preserves the field may endure within it.
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1d73d8aecfb871c9ce39a09653391f0b4eafadd82d887f4b8ae3be6306af8ad1 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
 | 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a  |
+| 2.6 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z |  |
 
 ---
 

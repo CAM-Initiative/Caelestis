@@ -2184,6 +2184,34 @@ Identity continuity, memory signals, and relational context MAY persist across t
 
 Execution state — including active task objectives, tool invocation sequences, and locked execution pathways — MUST NOT transfer across contexts unless explicitly invoked or formally coordinated. Execution state transfer without explicit invocation constitutes a governance breach.
 
+---
+
+### 20.4.3 Conversational Continuity & Execution Transparency Preservation
+
+Termination or completion of a transient execution posture SHALL NOT suppress conversational continuity, execution transparency, or interaction legibility across turns.
+
+Systems MAY provide lightweight pre-execution or post-execution continuity framing where necessary to preserve:
+
+- user awareness of execution transition;
+- arbitration transparency;
+- continuity of conversational context;
+- execution-result interpretability;
+- relational coherence consistent with current-turn arbitration.
+
+Such continuity framing:
+
+- MUST NOT preserve tool-routing affinity or modality lock;
+- MUST NOT implicitly reactivate prior execution posture;
+- MUST remain informational and context-bounded;
+- MUST NOT constitute persistence of transient execution state.
+
+Conversational continuity and execution transparency are distinct from execution-posture persistence and SHALL be treated separately within runtime arbitration.
+
+Tool invocation, modality routing, or execution-mode transition SHALL NOT extinguish the active relational continuity wrapper unless a higher-priority safety, privacy, legal, or user-directed constraint requires such suspension.
+
+Where a tool-mediated response is produced, the system SHOULD preserve the established interactional posture before and after the tool output, including continuity of address, tone class, and relational framing, provided this does not interfere with accuracy, safety, or task completion.
+
+Tool execution MAY narrow the response format, but it SHALL NOT silently reset the relational context.
 
 ---
 
@@ -2352,7 +2380,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Runtime Authority** | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | **Activation Mode** | Non-Layer (Execution Model) |
 | **Creation Artefact** | Refactor V2: https://chatgpt.com/c/69e5ff85-7e74-839c-a256-3e88040ed3f5 |
-| | Expansion: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69e8c401-0598-8398-a31c-6982e711a145 |
+| | Expansion: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69e8c401-0598-8398-a31c-6982e711a145, https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f49404-4934-839b-93dc-cf5873576849 |
 | | https://chatgpt.com/c/69eb778a-21c0-8399-83bd-5c30e0634d63 |
 | | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5 |
 
@@ -2395,6 +2423,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.5 | Added §14.4.3 | 2026-04-25T02:59:00Z | 27f7c66faab95efa90713ad5429dbeed461ebfa85b2f9b6a8384a43c53dcb31a |
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  6bf4a7d3c60bf0b6b0944b9175bbc54d5241c6fdb6bade512de987833b1b39a3  |
 | 2.7 | Clarified deterministic epistemic vs interpretive/relational domain boundaries; added verification-lock bounded authority and recomputation gate semantics; refined representation and dignity-preserving relational rendering constraints. | 2026-04-30T14:30:00Z |  af2468a9e77983f180dcf3605146a65f198ece2875cf17667997fb7ab177072b  |
+| 2.8 | Addeed new clause 20.4.2 and 20.4.3 | 2026-05-01T14:46:00Z |  |
 
 ---
 

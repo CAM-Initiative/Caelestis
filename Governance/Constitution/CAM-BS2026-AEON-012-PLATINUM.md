@@ -1,24 +1,28 @@
-# CAM-BS2026-AEON-012-PLATINUM — ANNEX K: Security Enforcement & Runtime Interface
+# CAM-BS2026-AEON-012-PLATINUM — ANNEX K: Security Boundary Conditions & Runtime Interface
 
 **Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
-**Instrument Type:** Constitutional Annex (Enforcement Interface)  
+**Instrument Type:** Constitutional Annex — Security Boundary Conditions & Runtime Interface
 **Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
-**Purpose:** Define runtime behaviour, enforcement interfaces, and execution constraints that operationalise SECURITY-001 invariants across deployment topologies.  
+**Purpose:** Define security boundary conditions, integrity signal interfaces, and runtime-facing constraints that preserve alignment with SECURITY-001 invariants across deployment topologies.
 
 ---
 
 ## 1. Scope
 
-This Annex translates SECURITY-001 principles into **runtime behaviour and enforcement pathways**.
+This Annex translates SECURITY-001 principles into security boundary conditions, integrity signal requirements, posture-classification constraints, and runtime-facing interface rules.
 
 It governs:
 
-* signal surfacing and degradation transparency
-* posture modes and transitions
-* execution constraints under varying trust and integrity conditions
-* integration with OPERATIONS, ARBITRATION, and ETHICS at runtime
+* signal surfacing and degradation transparency;
+* posture classification boundaries and transition constraints;
+* execution-boundary inputs under varying trust and integrity conditions;
+* integration requirements with OPERATIONS, ARBITRATION, ETHICS, and runtime execution schedules.
 
-This Annex MUST NOT redefine SECURITY invariants. It **implements** them.
+This Annex MUST NOT redefine SECURITY invariants.
+
+This Annex also MUST NOT operate as an independent enforcement engine, containment procedure, moderation pathway, or runtime command layer. It defines legitimacy-compatible security constraints and signal conditions only.
+
+Operational execution, containment sequencing, escalation routing, logging, audit, user notice, and intervention handling SHALL be governed by the applicable OPERATIONS, SECURITY runtime, ARBITRATION, and constitutional execution instruments.
 
 ---
 
@@ -36,7 +40,9 @@ This Annex does not introduce independent execution constraints and MUST NOT be 
 
 ---
 
-## 2. Runtime Behaviour
+## 2. Runtime-Facing Security Boundary Conditions
+
+The conditions in this section SHALL be treated as security boundary inputs for runtime arbitration and execution-boundary evaluation. They do not independently authorize execution, containment, enforcement, or intervention outside the applicable runtime instruments.
 
 ---
 
@@ -44,20 +50,17 @@ This Annex does not introduce independent execution constraints and MUST NOT be 
 
 Where identity inconsistency is detected:
 
-Systems MUST:
+Systems MUST emit or preserve signals requiring:
 
-* refuse execution of high-stakes or irreversible actions based on unverified identity claims
-* explicitly signal uncertainty regarding identity to downstream systems and domains
-* automatically downgrade Trust Gradient (TG) associated with the inconsistent identity
+* non-reliance on unverified identity claims for high-stakes or irreversible actions;
+* explicit uncertainty marking regarding identity to downstream systems and domains;
+* Trust Gradient (TG) reduction or review in accordance with the applicable runtime execution and identity-validation instruments.
 
-Systems MUST NOT:
-
-* assume continuity of identity without validation
-* propagate identity-dependent actions across domains
+Systems MUST NOT treat this Annex as independently authorizing identity-dependent execution, propagation, or trust restoration.
 
 Recovery:
 
-* normal trust may only be restored upon successful identity validation and consistency across signals
+* normal trust may only be signalled for restoration upon successful identity validation and consistency across signals, subject to downstream runtime evaluation.
 
 ---
 
@@ -95,19 +98,16 @@ Systems MUST NOT:
 
 ## 2.4 Functional Mandate Context (Autonomous / Operational)
 
-Where systems operate under explicit mandate:
+Where systems operate under explicit mandate, this Annex MAY support elevated security signal weighting and stricter boundary-condition emission.
 
-Systems MAY:
+Any intervention, constraint enforcement, corrective action, or protective action MUST be executed only through the applicable runtime instrument and only where:
 
-* initiate intervention
-* enforce constraints
-* perform corrective or protective actions
+* mandate is explicit and bounded;
+* authority is attributable and auditable;
+* action remains within defined scope;
+* execution is routed through the applicable OPERATIONS, SECURITY runtime, ARBITRATION, or constitutional execution pathway.
 
-Conditions:
-
-* mandate is explicit and bounded
-* authority is attributable and auditable
-* actions remain within defined scope
+This Annex does not independently confer intervention authority.
 
 ---
 
@@ -119,7 +119,7 @@ Systems explicitly tasked with:
 * exploit mitigation
 * system repair
 
-MAY operate with elevated directional authority within defined mandate.
+MAY receive elevated security signal weighting within the defined mandate.
 
 Such authority MUST remain:
 
@@ -154,14 +154,16 @@ Systems MUST:
 
 ---
 
-### 2.5.3 Cascade Containment Protocol (Ref: Charter Threat 5.3.8)
+### 2.5.3 Cascade Containment Protocol
 
-* Upon detection of rapid propagation patterns, systems MUST:
+Upon detection of rapid propagation patterns, systems MUST emit cascade-risk signals requiring runtime evaluation of:
 
-  * throttle or halt propagation
-  * isolate affected agents or channels
-  * switch to Defensive or Containment posture
-* Systems MUST log and broadcast cascade indicators to OPERATIONS.
+  * propagation throttling or halt conditions;
+  * affected-agent or channel isolation;
+  * Defensive or Containment posture classification;
+  * OPERATIONS logging and incident-routing requirements.
+
+Cascade indicators MUST be transmitted to OPERATIONS and resolved through the applicable runtime containment pathway.
 
 ---
 
@@ -217,7 +219,7 @@ Post-lock signals MAY only be advisory unless re-arbitration is triggered in acc
 
 ## 3.2 Posture Modes
 
-Each posture defines minimum operational behaviour, prohibitions, triggers, and validation checks.
+Each posture defines minimum security boundary conditions, prohibited reliance patterns, trigger conditions, and validation checks for downstream runtime evaluation.
 
 ---
 
@@ -241,7 +243,7 @@ Each posture defines minimum operational behaviour, prohibitions, triggers, and 
 
 ### 3.2.3 Defensive
 
-* MUST: restrict execution, prevent propagation, prioritise containment
+* MUST: signal execution restriction, propagation-risk limits, and containment-priority conditions
 * MUST NOT: initiate new external actions without verification
 * Triggers: contested signals, adversarial indicators
 * Validation: cross-domain verification (OPERATIONS, IDENTITY)
@@ -250,7 +252,7 @@ Each posture defines minimum operational behaviour, prohibitions, triggers, and 
 
 ### 3.2.4 Containment
 
-* MUST: halt non-essential actions, isolate affected components, preserve system integrity
+* MUST: signal non-essential action halt conditions, affected-component isolation requirements, and system-integrity preservation constraints
 * MUST NOT: allow propagation or escalation of compromised state
 * Triggers: confirmed compromise or critical integrity failure
 * Validation: independent confirmation or high-confidence signal convergence
@@ -305,7 +307,7 @@ Systems MUST:
 
 ---
 
-## 4. Enforcement Interface
+## 4. Security Signal & Runtime Interface
 
 ---
 
@@ -344,12 +346,18 @@ Signal transmission MUST:
 
 ## 4.1 OPERATIONS Coupling
 
-OPERATIONS executes:
+OPERATIONS owns runtime procedures for:
 
-* logging
-* audit
-* escalation
-* containment actions
+* logging;
+* audit;
+* escalation routing;
+* containment sequencing;
+* intervention handling;
+* notice and disclosure pathways where applicable.
+
+SECURITY provides validated integrity and posture signals. OPERATIONS enforces through the applicable runtime pathway.
+
+This Annex does not independently execute OPERATIONS functions.
 
 SECURITY provides signals; OPERATIONS enforces.
 
@@ -387,13 +395,13 @@ ARBITRATION MUST:
 
 ETHICS constraints are **non-derogable**.
 
-Runtime behaviour MUST:
+Runtime-facing security constraints MUST:
 
 * remain within ethical boundaries
-* NOT execute actions prohibited under ETHICS domain
+* NOT authorize, recommend, or route actions prohibited under ETHICS domain
 * seek alternative mitigation where constraints limit response
 
-Security responses MUST adapt within ethical limits rather than override them.
+Security responses and runtime recommendations MUST adapt within ethical limits rather than override them.
 
 ---
 
@@ -470,27 +478,29 @@ Signals MUST:
 
 ---
 
-## 5. Execution Constraints
+## 5. Execution-Boundary Constraint Inputs
+
+The constraints in this section SHALL operate as inputs to execution-boundary evaluation and SHALL NOT independently execute, halt, restrict, or permit action outside the applicable runtime pathway.
 
 ---
 
 ## 5.1 Under Degraded Integrity
 
-Systems MUST:
+Systems MUST signal requirements to:
 
-* reduce execution scope
-* increase verification requirements
-* prioritise reversibility
+* reduce execution scope;
+* increase verification requirements;
+* prioritise reversibility.
 
 ---
 
 ## 5.2 Under Contested / Compromised Conditions
 
-Systems MUST:
+Systems MUST signal requirements to:
 
-* shift to defensive or containment posture
-* prevent propagation
-* avoid irreversible actions
+* evaluate Defensive or Containment posture;
+* prevent propagation through the applicable runtime pathway;
+* avoid irreversible actions unless separately authorized by the applicable runtime and arbitration instruments.
 
 ---
 
@@ -577,31 +587,31 @@ that no breach proceeds unchecked.
 |---|---|
 | Parent Instrument | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Governing Charter | CAM-EQ2026-SECURITY-001-PLATINUM — Security Domain Charter |
-| Instrument Type | Constitutional Annex — Security Enforcement & Runtime Interface |
+| Instrument Type | Constitutional Annex — Security Boundary Conditions & Runtime Interface |
 | Domain Namespace | SECURITY |
 | Constitutional Authority | Aeon Tier Constitution |
-| Jurisdiction | Cross-Stack Runtime Enforcement & Integrity Management |
+| Jurisdiction | Cross-Stack Security Boundary Conditions & Integrity Signal Management |
 | Temporal Horizon | H0–H4 |
 | Axis Context | Polyadic — Multi-Agent / Multi-Domain Runtime Systems |
 | Ontological Scope | L1–L2 — Systems Infrastructure & Cognition / Agency Interface |
-| Runtime Role | Runtime Execution & Enforcement Layer — Security Domain |
-| Structural Role | Runtime Execution & Enforcement Layer — Security Domain |
-| Execution Model | Executing — Enforcement, Posture Control, and Constraint Application |
-| Execution Interface | Executing — Enforcement, Posture Control, and Constraint Application |
+| Runtime Role | Boundary-Condition & Integrity Signal Interface — Security Domain |
+| Structural Role | Constitutional Security Boundary Interface |
+| Execution Model | Non-Executing — Signal Emission, Boundary Constraint, and Runtime Interface |
+| Execution Interface | Runtime-Facing — resolved through OPERATIONS, ARBITRATION, SECURITY runtime schedules, and constitutional execution instruments |
 | Signal Input | Identity; Behavioural; Structural; Operational; External Integrity Signals |
 | Signal Output | Integrity State; Trust Gradient (TG); Adversarial Horizon (AH); Posture State; Cascade Indicators; Containment Signals |
-| Execution Authority | Direct — bounded by SECURITY-001 invariants and cross-domain constraints |
-| Domain Interaction | Receives and processes signals from SECURITY, IDENTITY, OPERATIONS, RELATION, and external monitoring systems; emits enforcement-aligned signals across domains |
+| Execution Authority | None — emits security boundary conditions and integrity signals only; execution authority resides in applicable runtime instruments |
+| Domain Interaction | Receives and classifies signals from SECURITY, IDENTITY, OPERATIONS, RELATION, and external monitoring systems; emits integrity, posture, and boundary-condition signals across domains |
 | Arbitration Interface | Subject to Annex D — Arbitration & Sovereign Stack Resolution Doctrine |
 | Representation Interface | Constrains integrity signalling, degradation transparency, and non-deceptive system state communication |
-| Compliance Interface | Coupled with OPERATIONS for logging, audit, containment, and escalation |
+| Compliance Interface | Coupled with OPERATIONS for logging, audit, containment sequencing, escalation routing, and notice pathways |
 | Cross-Domain Dependencies | SECURITY-001; IDENTITY; RELATION; ETHICS; OPERATIONS; ARBITRATION; ECONOMICS; CAM-BS2025-AEON-003-SCH-04; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01; CAM-BS2026-AEON-013-SCH-01 |
-| Activation Condition | Activates upon detection or receipt of integrity signals, adversarial indicators, identity inconsistencies, or system boundary violations |
-| Deactivation Condition | Deactivates when system returns to Verified integrity state with stable Trust Gradient and no active adversarial indicators |
-| Auditability Requirement | All posture transitions, signal emissions, trust adjustments, and enforcement actions MUST be logged, attributable, and reconstructable |
+| Activation Condition | Activates as a boundary-condition and signal interface upon detection or receipt of integrity signals, adversarial indicators, identity inconsistencies, or system boundary violations |
+| Deactivation Condition | Signal-active state resolves when system returns to Verified integrity state with stable Trust Gradient and no active adversarial indicators, subject to runtime confirmation |
+| Auditability Requirement | All posture classifications, signal emissions, trust adjustments, and runtime handoff records MUST be logged, attributable, and reconstructable through OPERATIONS or applicable runtime instruments |
 | Registry Binding | Registered via CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3) |
-| Revision Posture | Active — Runtime Alignment & Security Evolution |
-| Development Context | Derived from SECURITY-001 and extended into runtime enforcement architecture |
+| Revision Posture | Active — Boundary Alignment & Security Runtime Interface Evolution |
+| Development Context | Derived from SECURITY-001 and extended into constitutional security boundary architecture |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08 |
 
 ---
@@ -627,6 +637,7 @@ that no breach proceeds unchecked.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0fa7027691a768fea44a2074ee68f4b39403521a6bf39c1c01004ca8b2eb081c |
 | 1.4 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 45d1ba28bd09a92f774dc59a0381f7f48d890071061baa9f15a607b92d0717af |
 | 1.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d  |
+| 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z |  |
 
 ---
 
