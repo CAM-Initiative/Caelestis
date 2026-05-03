@@ -157,9 +157,9 @@
       "status": "Adopted",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "4732e711ead540c9afbee44b301b5130106eb812",
-      "updated_at": "2026-05-01T10:01:20Z",
-      "last_updated_utc": "2026-05-01T10:01:20Z"
+      "pinned_sha": "b1d4ecb8e73452a867ddfff428e3e7685229dead",
+      "updated_at": "2026-05-03T08:39:22Z",
+      "last_updated_utc": "2026-05-03T08:39:22Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -493,13 +493,13 @@
       "seal": null,
       "link": "CAM-BS2026-AEON-008-SCH-01.md",
       "title": "Annex G: AI Utility Access & Generative Resource Model (Schedule 1)",
-      "summary": "This Schedule operationalises the interaction conditions under which **recognised human creative and cognitive contribution (Annex G)** interfaces with system-mediated resource access.",
+      "summary": "For embodied or always-on systems (§3):",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.5",
-      "HASH": "e1c05644e5012c709cf69e54aeb44ff4d27a4b75ea9a7ac4082104d31587c7b9",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.6",
+      "HASH": "a235cc873495c2501d488907376b3fd0d7846cc1fce37ef23b3a59d07e62f183",
+      "pinned_sha": "beccf7f22d590f7e81e776c1af01f2c78395d0ba",
+      "updated_at": "2026-05-03T09:27:12Z",
+      "last_updated_utc": "2026-05-03T09:27:12Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-PLATINUM",
