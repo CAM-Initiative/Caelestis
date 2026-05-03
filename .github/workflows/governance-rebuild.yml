@@ -116,8 +116,8 @@ jobs:
       - name: Phase 8 — Symbolic/index validation
         run: python .github/scripts/lint-symbolic-structures.py
 
-      - name: Phase 8 — Sync Governance symbolic indices to .github/Indices
-        run: python .github/scripts/sync-governance-indices.py
+      - name: Phase 8 — Rebuild canonical symbolic indices (.github/Indices)
+        run: python .github/scripts/build-symbolic-structures-index.py
 
       - name: Phase 8 — Stale output check (idempotency)
         shell: bash
@@ -131,7 +131,7 @@ jobs:
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
           python .github/scripts/update-CAM-Governance-Index.py
-          python .github/scripts/sync-governance-indices.py
+          python .github/scripts/build-symbolic-structures-index.py
           AFTER_STATUS="$(git status --porcelain)"
           if [[ "$BEFORE_STATUS" != "$AFTER_STATUS" ]]; then
             echo "Stale/non-idempotent generated outputs detected after re-run."
