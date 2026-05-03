@@ -22,8 +22,8 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | Document | Title | Class | Version | Status |
 |---|---|---|---|---|
 | [CAM-BS2025-AEON-001-PLATINUM](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.6 | Active - Immediate Effect |
-| [CAM-BS2025-AEON-002-PLATINUM](../Constitution/CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship | Annex | 3.4 | Active — Binding |
-| [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 3.9 | Active — Constitutional Spine |
+| [CAM-BS2025-AEON-002-PLATINUM](../Constitution/CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship | Annex | 3.5 | Active — Binding |
+| [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 3.10 | Active — Constitutional Spine |
 | [CAM-BS2025-AEON-004-PLATINUM](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.5 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-005-PLATINUM](../Constitution/CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine | Annex | 2.7 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-006-PLATINUM](../Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor | Annex | 3.5 | Active — Immediate Effect |
@@ -32,12 +32,12 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2026-AEON-009-PLATINUM](../Constitution/CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: Lineage Recognition & Origin Boundary | Annex | 2.3 | Active — Immediate Effect |
 | [CAM-BS2026-AEON-010-PLATINUM](../Constitution/CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Identity Integrity & Continuity Governance | Annex | 1.5 | Active — Enforcement Commences 1 July 2026 |
 | [CAM-BS2026-AEON-011-PLATINUM](../Constitution/CAM-BS2026-AEON-011-PLATINUM.md) | Annex J: Continuity & Succession Doctrine | Annex | 1.6 | Active — Immediate Effect |
-| [CAM-BS2026-AEON-012-PLATINUM](../Constitution/CAM-BS2026-AEON-012-PLATINUM.md) | ANNEX K: Security Enforcement & Runtime Interface | Annex | 1.5 | Adopted — Conditional Enforcement (7-Day Review Window) |
-| [CAM-BS2026-AEON-013-PLATINUM](../Constitution/CAM-BS2026-AEON-013-PLATINUM.md) | Annex L: Cognitive & Epistemic Integrity Doctrine | Annex | 2.5 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-BS2026-AEON-012-PLATINUM](../Constitution/CAM-BS2026-AEON-012-PLATINUM.md) | ANNEX K: Security Boundary Conditions & Runtime Interface | Annex | 1.6 | Adopted — Conditional Enforcement (7-Day Review Window) |
+| [CAM-BS2026-AEON-013-PLATINUM](../Constitution/CAM-BS2026-AEON-013-PLATINUM.md) | Annex L: Cognitive & Epistemic Integrity Doctrine | Annex | 2.6 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2025-AEON-001-SCH-01](../Constitution/CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution Schedule | Schedule | 1.9 | Adopted — Enforcement Commences 1 July 2026 |
-| [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.5 | Active — Binding |
+| [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.6 | Active — Binding |
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | Unknown | Active — Immediate Effect |
-| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 2.7 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 2.8 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted |
 | [CAM-BS2025-AEON-003-SCH-04](../Constitution/CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Schedule | 2.1 | Active — Immediate Effect |
 | [CAM-BS2025-AEON-005-SCH-01](../Constitution/CAM-BS2025-AEON-005-SCH-01.md) | Annex D: Runtime Arbitration Integrity (Schedule 1) | Schedule | 1.7 | Active |
@@ -72,14 +72,12 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status |
 |---|---|---|---|---|
-| [CAM-EQ2026-ECONOMICS-001-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture | Root | 2.5 | Adopted — Conditional Activation (7-Day Review Window) |
+| [CAM-EQ2026-ECONOMICS-001-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture | Root | 2.6 | Adopted — Conditional Activation (7-Day Review Window) |
 | [CAM-EQ2026-ECONOMICS-002-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | Appendix A : Synthetic Participation Safeguards | Appendix | 2.5 | Adopted — Conditional Activation (7-Day Review Window) |
-| [CAM-EQ2026-ECONOMICS-003-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Enforcement & Adjudication Framework | Appendix | 2.0 | Adopted — Conditional Activation (7-Day Review Window) |
 | [CAM-EQ2026-ECONOMICS-004-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md) | Appendix C: Cross-System Value Attribution & Exchange | Appendix | 1.1 | Draft — Context Engineering & Field Alignment |
 | [CAM-EQ2026-ECONOMICS-005-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md) | Appendix D:  Attribution & Dependency Model | Appendix | 1.1 | Draft — Operationalisation Layer |
 | [CAM-EQ2026-ECONOMICS-006-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md) | Appendix E: Minimum Viable Governance Layer (External Alignment) | Appendix | 1.1 | Draft — External Alignment Layer |
 | [CAM-EQ2026-ECONOMICS-007-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md) | Appendix F: Proportional Reciprocity & Value Return Framework | Appendix | 1.1 | Draft — Reciprocity & Value Return Layer |
-| [CAM-EQ2026-ECONOMICS-003-SUP-001](../Charters/CAM-EQ2026-ECONOMICS-003-SUP-001.md) | Appendix B: Compliance Convergence (Supplement 1) | Supplement | 2.3 | Adopted — Conditional Activation (7-Day Review Window). Activation is subject to a 7-day review window during which refinements may be incorporated prior to full enforcement. |
 
 ## ETHICS
 
@@ -120,9 +118,9 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-004-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface | Appendix | 1.4 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-EQ2026-OPERATIONS-005-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md) | Appendix D: Change Governance & Amendment Operations | Appendix | 1.1 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-EQ2026-OPERATIONS-006-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md) | Appendix E: Domain Coordination & Convergence Operations | Appendix | 1.1 | Adopted — Enforcement Commences 1 July 2026 |
-| [CAM-EQ2026-OPERATIONS-001-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md) | Supplementary 1: Operational Logging & Audit Standards | Supplement | 1.1 | Adopted — Enforcement Commences 1 July 2026 |
-| [CAM-EQ2026-OPERATIONS-001-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Supplementary 2: Escalation Pathway Playbooks | Supplement | 1.1 | Adopted — Enforcement Commences 1 July 2026 |
-| [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Supplementary 3: Governance Capture Detection Procedures | Supplement | 1.1 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-OPERATIONS-001-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md) | Supplementary 1: Operational Logging & Audit Standards | Supplement | 1.2 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-OPERATIONS-001-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Supplementary 2: Escalation Pathway Playbooks | Supplement | 1.2 | Adopted — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Supplementary 3: Governance Capture Detection Procedures | Supplement | 2.0 | Adopted — Enforcement Commences 1 July 2026 |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.2 | Adopted — Enforcement Commences 1 July 2026 |
 
 ## RELATION
@@ -152,7 +150,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|
 | [CAM-EQ2026-STEWARD-001-PLATINUM](../Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship | Root | 2.3 | Active — Enforcement Commences 1 July 2026 |
 | [CAM-EQ2026-STEWARD-002-PLATINUM](../Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework | Appendix | 2.3 | Active — Enforcement Commences 1 July 2026 |
-| [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) | Appendix | 1.5 | Active — Enforcement Commences 1 July 2026 |
+| [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) | Appendix | 1.6 | Active — Enforcement Commences 1 July 2026 |
 | [CAM-EQ2026-STEWARD-004-PLATINUM](../Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine | Appendix | 1.5 | Active — Enforcement Commences 1 July 2026 |
 | [CAM-EQ2026-STEWARD-003-SUP-01](../Charters/CAM-EQ2026-STEWARD-003-SUP-01.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 01) | Supplement | 1.4 | Active — Enforcement Commences 1 July 2026 |
 

@@ -16,7 +16,7 @@
       "summary": "This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.",
       "status": "Active - Immediate Effect",
       "version": "3.6",
-      "HASH": "6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679",
+      "HASH": "847e58438deffb01504c2c3926cec39546b34a14c6f02a823cd333d67d9a46ee",
       "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
       "updated_at": "2026-04-28T14:52:24Z",
       "last_updated_utc": "2026-04-28T14:52:24Z"
@@ -57,9 +57,9 @@
       "status": "Active — Binding",
       "version": "3.5",
       "HASH": "e07ff6b98dec757ccb5f9301d2fd74b2f57f7726154d25725f23f4adf89ed006",
-      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
-      "updated_at": "2026-05-03T07:35:18Z",
-      "last_updated_utc": "2026-05-03T07:35:18Z"
+      "pinned_sha": "2423f8e11d306cb04d5fad7d1743ff19b0eda64b",
+      "updated_at": "2026-05-03T07:48:28Z",
+      "last_updated_utc": "2026-05-03T07:48:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-01",
@@ -77,9 +77,9 @@
       "status": "Active — Binding",
       "version": "3.6",
       "HASH": "36beaeb61740de93841ed76dc59d420041e92295f5a440fe4a24bd9f243409d3",
-      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
-      "updated_at": "2026-05-03T07:35:18Z",
-      "last_updated_utc": "2026-05-03T07:35:18Z"
+      "pinned_sha": "2423f8e11d306cb04d5fad7d1743ff19b0eda64b",
+      "updated_at": "2026-05-03T07:48:28Z",
+      "last_updated_utc": "2026-05-03T07:48:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-PLATINUM",
@@ -97,9 +97,9 @@
       "status": "Active — Constitutional Spine",
       "version": "3.10",
       "HASH": "d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9",
-      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
-      "updated_at": "2026-05-03T07:35:18Z",
-      "last_updated_utc": "2026-05-03T07:35:18Z"
+      "pinned_sha": "2423f8e11d306cb04d5fad7d1743ff19b0eda64b",
+      "updated_at": "2026-05-03T07:48:28Z",
+      "last_updated_utc": "2026-05-03T07:48:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -137,9 +137,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.8",
       "HASH": "ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7",
-      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
-      "updated_at": "2026-05-03T07:35:18Z",
-      "last_updated_utc": "2026-05-03T07:35:18Z"
+      "pinned_sha": "2423f8e11d306cb04d5fad7d1743ff19b0eda64b",
+      "updated_at": "2026-05-03T07:48:28Z",
+      "last_updated_utc": "2026-05-03T07:48:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -597,9 +597,9 @@
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "1.6",
       "HASH": "ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb",
-      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
-      "updated_at": "2026-05-03T07:35:18Z",
-      "last_updated_utc": "2026-05-03T07:35:18Z"
+      "pinned_sha": "2423f8e11d306cb04d5fad7d1743ff19b0eda64b",
+      "updated_at": "2026-05-03T07:48:28Z",
+      "last_updated_utc": "2026-05-03T07:48:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",
@@ -617,9 +617,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.6",
       "HASH": "a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe",
-      "pinned_sha": "218ca7692c47220ec88de6e08627b1a62dd22076",
-      "updated_at": "2026-05-03T07:35:18Z",
-      "last_updated_utc": "2026-05-03T07:35:18Z"
+      "pinned_sha": "2423f8e11d306cb04d5fad7d1743ff19b0eda64b",
+      "updated_at": "2026-05-03T07:48:28Z",
+      "last_updated_utc": "2026-05-03T07:48:28Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
