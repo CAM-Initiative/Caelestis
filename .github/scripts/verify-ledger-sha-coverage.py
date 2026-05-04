@@ -21,7 +21,7 @@ NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
 VERSION_RE = re.compile(r"^\d+\.\d+$")
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 PLACEHOLDERS = {"-", "—"}
-HISTORICAL_KNOWN_NULL = "-"
+HISTORICAL_KNOWN_NULLS = {"-", "—"}
 
 
 def ledger_bounds(text: str):
@@ -133,7 +133,7 @@ def main() -> int:
             for h in historical:
                 if SHA256_RE.match(h):
                     summary["valid_historical_shas"] += 1
-                elif h == HISTORICAL_KNOWN_NULL:
+                elif h in HISTORICAL_KNOWN_NULLS:
                     summary["historical_known_null_shas"] += 1
                 else:
                     summary["invalid_historical_shas"] += 1
