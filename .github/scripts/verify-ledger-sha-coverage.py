@@ -21,6 +21,7 @@ NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
 VERSION_RE = re.compile(r"^\d+\.\d+$")
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 PLACEHOLDERS = {"-", "—"}
+HISTORICAL_KNOWN_NULL = "-"
 
 
 def ledger_bounds(text: str):
@@ -82,8 +83,11 @@ def verify_law_manifest() -> int:
     return proc.returncode
 
 
-def is_valid_settled_sha(value: str) -> bool:
-    return bool(SHA256_RE.match(value)) or value in PLACEHOLDERS
+def is_valid_historical_sha(value: str) -> bool:
+    return bool(SHA256_RE.match(value)) or value == HISTORICAL_KNOWN_NULL
+
+def is_valid_latest_sha(value: str) -> bool:
+    return bool(SHA256_RE.match(value))
 
 
 def main() -> int:
@@ -100,6 +104,7 @@ def main() -> int:
         "valid_latest_shas": 0,
         "blank_latest_shas_allowed": 0,
         "blank_latest_shas_rejected": 0,
+        "historical_known_null_shas": 0,
     }
 
     for scope_name, (folder, json_path) in SCOPES.items():
@@ -126,8 +131,10 @@ def main() -> int:
             latest = hashes[-1]
 
             for h in historical:
-                if is_valid_settled_sha(h):
+                if SHA256_RE.match(h):
                     summary["valid_historical_shas"] += 1
+                elif h == HISTORICAL_KNOWN_NULL:
+                    summary["historical_known_null_shas"] += 1
                 else:
                     summary["invalid_historical_shas"] += 1
                     failures.append(f"{scope_name}:{doc_id}: historical ledger SHA is blank/placeholder/malformed in {relpath(md)}")
@@ -141,7 +148,7 @@ def main() -> int:
                 warn(f"{scope_name}:{doc_id}: latest ledger SHA is blank/placeholder; allowed as pending finalisation in {relpath(md)}")
                 continue
 
-            if not is_valid_settled_sha(latest):
+            if not is_valid_latest_sha(latest):
                 failures.append(f"{scope_name}:{doc_id}: latest ledger SHA is malformed in {relpath(md)}")
                 continue
             summary["valid_latest_shas"] += 1

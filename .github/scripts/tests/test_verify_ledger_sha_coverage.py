@@ -56,3 +56,9 @@ def test_latest_valid_passes(tmp_path):
     rows = [f"|1.0|d|t|{'a'*64}|"]
     assert run_with(tmp_path, rows, strict=False) == 0
     assert run_with(tmp_path, rows, strict=True) == 0
+
+
+def test_historical_dash_passes(tmp_path):
+    rows = ["|1.0|d|t|-|", f"|1.1|d|t|{'a'*64}|"]
+    assert run_with(tmp_path, rows, strict=False) == 0
+    assert run_with(tmp_path, rows, strict=True) == 0
