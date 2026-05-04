@@ -26,6 +26,55 @@ VERSION_CELL_RE = re.compile(r"^\d+\.\d+$")
 PLACEHOLDER_HASHES = {"-", "—"}
 VALIDATION_STAGES = {"pre_fix", "fix", "post_fix", "downstream_block"}
 
+SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
+
+
+def extract_ledger_hash_cells(full_text: str) -> list[str]:
+    bounds = get_amendment_section_bounds(full_text)
+    if not bounds:
+        return []
+    start, end = bounds
+    section = full_text[start:end]
+    hashes: list[str] = []
+    for line in section.splitlines():
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            continue
+        cols = split_markdown_table_row(stripped)
+        if not cols:
+            continue
+        first = cols[0]
+        if first.lower() == "version" or set(first) <= {"-"}:
+            continue
+        if VERSION_CELL_RE.match(first):
+            while len(cols) < 4:
+                cols.append("")
+            hashes.append(cols[-1].strip())
+    return hashes
+
+
+def evaluate_historical_and_latest_hashes(path: str, full_text: str, failures: list[str], warnings: list[str], summary: dict[str,int]) -> None:
+    hashes = extract_ledger_hash_cells(full_text)
+    if not hashes:
+        return
+    latest = hashes[-1]
+    historical = hashes[:-1]
+    for h in historical:
+        if h in PLACEHOLDER_HASHES or SHA256_RE.match(h):
+            summary["valid_historical_sha"] = summary.get("valid_historical_sha",0)+1
+        else:
+            summary["invalid_historical_sha"] = summary.get("invalid_historical_sha",0)+1
+            failures.append(f"{path}: Historical Amendment Ledger SHA is blank or malformed")
+    if latest.strip() == "":
+        summary["blank_latest_sha_allowed"] = summary.get("blank_latest_sha_allowed",0)+1
+        warnings.append(f"{path}: latest ledger SHA is blank; allowed for pending/current ledger entry")
+    elif latest in PLACEHOLDER_HASHES or SHA256_RE.match(latest):
+        summary["valid_latest_sha"] = summary.get("valid_latest_sha",0)+1
+    else:
+        # latest malformed non-blank remains warning in default mode
+        warnings.append(f"{path}: Latest Amendment Ledger SHA appears malformed")
+
+
 EXCLUDED_LEDGER_DOC_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
 
 
@@ -379,6 +428,7 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
     warnings: list[str] = []
     fixed_files: list[str] = []
     scanned = 0
+    summary: dict[str,int] = {}
 
     for path in list_scoped_markdown_files():
         working_path = REPO_ROOT / path
@@ -408,6 +458,8 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
             fixed_files.append(path)
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
+        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary)
+
         latest_sha_status = classify_latest_sha_status(
             full_text=updated_text if changed else working_text,
             stored_hash=stored_hash,
@@ -429,6 +481,8 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
             stage=stage,
         )
 
+        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary)
+
         if not fix:
             evaluate_hash_state(
                 path=path,
@@ -447,6 +501,11 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
         for path in fixed_files:
             print(f"- {path}")
     print(f"Scanned ledger files: {scanned}")
+    for k in ["valid_historical_sha","invalid_historical_sha","valid_latest_sha","blank_latest_sha_allowed"]:
+        print(f"{k.upper()}={summary.get(k,0)}")
+
+    for k in ["valid_historical_sha","invalid_historical_sha","valid_latest_sha","blank_latest_sha_allowed"]:
+        print(f"{k.upper()}={summary.get(k,0)}")
 
     if failures:
         for failure in failures:
@@ -516,6 +575,7 @@ def lint(
     warnings: list[str] = []
     fixed_files: list[str] = []
     amended_files: list[str] = []
+    summary: dict[str,int] = {}
     auto_description = "Automated amendment ledger entry via lint_amendment_ledger.py"
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -570,6 +630,8 @@ def lint(
             after = updated_text
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
+        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary)
+
         if not fix:
             evaluate_hash_state(
                 path=path,
@@ -605,6 +667,8 @@ def lint(
             current_version = after_versions[-1]
             if previous_version != current_version and not is_minor_only_increment(previous_version, current_version):
                 failures.append(f"{path}: Amendment version must increment by +0.1 or by +1.0 with minor reset (x.0)")
+
+        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary)
 
         latest_sha_status = classify_latest_sha_status(
             full_text=after if after else working_text,
@@ -656,7 +720,7 @@ def lint(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Ensure modified governance docs update Amendment Ledger")
+    parser = argparse.ArgumentParser(description="Ensure modified governance docs update Amendment Ledger. Historical rows require valid SHA/placeholder; latest blank SHA is allowed by default.")
     parser.add_argument("--base", default="HEAD~1")
     parser.add_argument("--head", default="HEAD")
     parser.add_argument("--fix", action="store_true", help="Populate/fix last Amendment Ledger SHA-256 hash in modified files")
