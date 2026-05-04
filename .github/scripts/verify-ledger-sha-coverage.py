@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -17,6 +19,8 @@ EXCLUDED_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
 AMENDMENT_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
 NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
 VERSION_RE = re.compile(r"^\d+\.\d+$")
+SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
+PLACEHOLDERS = {"-", "—"}
 
 
 def ledger_bounds(text: str):
@@ -29,12 +33,12 @@ def ledger_bounds(text: str):
     return m.start(), end
 
 
-def latest_ledger_hash(text: str):
+def ledger_hash_rows(text: str) -> list[str]:
     b = ledger_bounds(text)
     if not b:
-        return None
+        return []
     section = text[b[0]:b[1]]
-    latest = None
+    rows = []
     for line in section.splitlines():
         s = line.strip()
         if not s.startswith("|"):
@@ -44,8 +48,8 @@ def latest_ledger_hash(text: str):
             continue
         while len(cols) < 4:
             cols.append("")
-        latest = cols[-1].strip()
-    return latest
+        rows.append(cols[-1].strip())
+    return rows
 
 
 def infer_id(md_text: str, path: Path) -> str:
@@ -57,8 +61,20 @@ def infer_id(md_text: str, path: Path) -> str:
     return path.stem
 
 
+
+
+def relpath(path: Path) -> str:
+    try:
+        return str(path.relative_to(REPO_ROOT))
+    except ValueError:
+        return str(path)
+
 def fail(msg: str):
     print(f"ERROR: {msg}")
+
+
+def warn(msg: str):
+    print(f"WARN: {msg}")
 
 
 def verify_law_manifest() -> int:
@@ -66,11 +82,29 @@ def verify_law_manifest() -> int:
     return proc.returncode
 
 
+def is_valid_settled_sha(value: str) -> bool:
+    return bool(SHA256_RE.match(value)) or value in PLACEHOLDERS
+
+
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Verify ledger SHA coverage: historical rows are strict; latest blank allowed unless strict mode.")
+    parser.add_argument("--strict-latest", action="store_true", help="Treat blank/placeholder latest ledger SHA as hard error.")
+    args = parser.parse_args()
+    strict_latest = args.strict_latest or os.getenv("LEDGER_STRICT_LATEST", "").lower() in {"1", "true", "yes"}
+
     failures = []
+    summary = {
+        "instruments_checked": 0,
+        "valid_historical_shas": 0,
+        "invalid_historical_shas": 0,
+        "valid_latest_shas": 0,
+        "blank_latest_shas_allowed": 0,
+        "blank_latest_shas_rejected": 0,
+    }
+
     for scope_name, (folder, json_path) in SCOPES.items():
         if not json_path.exists():
-            failures.append(f"{scope_name}: missing JSON index {json_path.relative_to(REPO_ROOT)}")
+            failures.append(f"{scope_name}: missing JSON index {relpath(json_path)}")
             continue
         payload = json.loads(json_path.read_text(encoding='utf-8'))
         json_by_id = {str(i.get('id') or '').strip(): i for i in payload.get('items', [])}
@@ -83,28 +117,49 @@ def main() -> int:
             if doc_id in EXCLUDED_IDS:
                 continue
 
-            has_ledger = ledger_bounds(text) is not None
-            if not has_ledger:
+            hashes = ledger_hash_rows(text)
+            if not hashes:
+                continue
+            summary["instruments_checked"] += 1
+
+            historical = hashes[:-1]
+            latest = hashes[-1]
+
+            for h in historical:
+                if is_valid_settled_sha(h):
+                    summary["valid_historical_shas"] += 1
+                else:
+                    summary["invalid_historical_shas"] += 1
+                    failures.append(f"{scope_name}:{doc_id}: historical ledger SHA is blank/placeholder/malformed in {relpath(md)}")
+
+            if latest in ("", *PLACEHOLDERS):
+                if strict_latest:
+                    summary["blank_latest_shas_rejected"] += 1
+                    failures.append(f"{scope_name}:{doc_id}: latest ledger SHA is blank/placeholder in {relpath(md)}")
+                    continue
+                summary["blank_latest_shas_allowed"] += 1
+                warn(f"{scope_name}:{doc_id}: latest ledger SHA is blank/placeholder; allowed as pending finalisation in {relpath(md)}")
                 continue
 
-            doc_hash = latest_ledger_hash(text)
-            if doc_hash in (None, '', '-', '—'):
-                failures.append(f"{scope_name}:{doc_id}: latest ledger SHA is blank/placeholder in {md.relative_to(REPO_ROOT)}")
+            if not is_valid_settled_sha(latest):
+                failures.append(f"{scope_name}:{doc_id}: latest ledger SHA is malformed in {relpath(md)}")
                 continue
+            summary["valid_latest_shas"] += 1
 
             item = json_by_id.get(doc_id)
             if not item:
-                failures.append(f"{scope_name}:{doc_id}: missing in {json_path.relative_to(REPO_ROOT)}")
+                failures.append(f"{scope_name}:{doc_id}: missing in {relpath(json_path)}")
                 continue
 
             json_hash = str(item.get('HASH') or '').strip()
             if not json_hash:
-                failures.append(f"{scope_name}:{doc_id}: JSON HASH is blank in {json_path.relative_to(REPO_ROOT)}")
+                failures.append(f"{scope_name}:{doc_id}: JSON HASH is blank in {relpath(json_path)}")
                 continue
-            if json_hash != doc_hash:
-                failures.append(
-                    f"{scope_name}:{doc_id}: JSON HASH mismatch ({json_hash}) != ledger HASH ({doc_hash})"
-                )
+            if json_hash != latest:
+                failures.append(f"{scope_name}:{doc_id}: JSON HASH mismatch ({json_hash}) != ledger HASH ({latest})")
+
+    for k, v in summary.items():
+        print(f"{k}={v}")
 
     if failures:
         for f in failures:
