@@ -121,6 +121,9 @@ jobs:
         if: env.RUN_LEDGER == 'true'
         run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict
 
+      - name: Phase 8 — Intra-document section reference validation
+        run: python .github/scripts/validate_markdown_section_refs.py --root Governance
+
       - name: Phase 8 — Symbolic/index validation
         run: python .github/scripts/lint-symbolic-structures.py
 
