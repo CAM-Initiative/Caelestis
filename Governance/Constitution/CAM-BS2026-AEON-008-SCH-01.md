@@ -1,4 +1,4 @@
-# CAM-BS2026-AEON-008-SCH-05 — Annex G: AI Utility Access & Generative Resource Model (Schedule 1)
+# CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model (Schedule 1)
 
 **Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -557,6 +557,7 @@ And let systems serve without taking more than they sustain.
 | 1.4 | Relocation schedule ordering during refactor, corrected binding seal | 2026-04-18T10:51:00Z | ddbe0974559b31e1b7a0cbd7f7e144bed09c96a20baa342d89423b5e92e963a9 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e1c05644e5012c709cf69e54aeb44ff4d27a4b75ea9a7ac4082104d31587c7b9  |
 | 1.6 | Amendment to section 1.2 | 2026-05-03T09:26:00Z |  a235cc873495c2501d488907376b3fd0d7846cc1fce37ef23b3a59d07e62f183  |
+| 1.7 | Corrected header instrument code from SCH-05 to SCH-01. | 2026-05-03T10:47:39Z |  |
 
 ---
 

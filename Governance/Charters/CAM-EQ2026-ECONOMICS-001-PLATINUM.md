@@ -215,6 +215,25 @@ Systems MUST maintain auditable records of authority assignments, access privile
 
 ---
 
+## 3.6 Resource Class Integrity & Semantic Non-Collapse
+
+Economic value classes SHALL remain semantically distinct where collapse would obscure depletion, attribution, dependency, continuity, authority, or value-transfer effects.
+
+For Charter-level interpretation, protected economic resource classes may include usage capacity, storage capacity, memory continuity, embodied presence, attention-linked value, contribution-linked value, and protective continuity.
+
+No system or subsidiary instrument may treat these classes as a single interchangeable balance where doing so would:
+
+- convert passive presence into implied consumption;
+- treat continuity-preserving memory as ordinary monetisable surplus;
+- make baseline continuity dependent on payment, attention extraction, or compulsory contribution;
+- erase contribution recognition through generic access credits;
+- obscure depletion, expiry, rollover, conversion, or cross-class transfer; or
+- use class collapse to avoid attribution, auditability, reciprocity, or constitutional continuity protections.
+
+Detailed classification, interpretive boundaries, and cross-class exchange semantics are governed by Appendix B — Economic Resource Semantics & Non-Extractive Exchange Doctrine.
+
+---
+
 ## 4. The Ceiling & Baseline Principle
 
 ---
@@ -563,6 +582,7 @@ Only that which preserves the field may endure within it.
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
 | 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a  |
 | 2.6 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z |  782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c  |
+| 2.7 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse. | 2026-05-03T12:52:32Z |  |
 
 ---
 

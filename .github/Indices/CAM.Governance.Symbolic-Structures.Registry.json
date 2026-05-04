@@ -164,7 +164,7 @@
       "canonical_source_instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
       "canonical_source_title": "Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL)",
       "domain": "STEWARD",
-      "notes": "Canonical auditability qualification ladder for external review, audit non-refusal, and governance-level reconstructability in H3/H4 binding-adjacent contexts. Replaces local A0–A4 usage to avoid collision with the A prefix reserved for Delegated Authority Reliance Classification.",
+      "notes": "Canonical auditability qualification ladder for external review, audit non-refusal, and governance-level reconstructability in H3/H4 binding-adjacent contexts. Replaces local A0\u2013A4 usage to avoid collision with the A prefix reserved for Delegated Authority Reliance Classification.",
       "prefix": "AQ",
       "protection_level": "protected_global",
       "related_prefixes": [
@@ -745,6 +745,33 @@
         "RDE-T2",
         "RDE-T3",
         "RDE-T4"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_codes": [
+        "RP-A",
+        "RP-B",
+        "RP-C",
+        "RP-D"
+      ],
+      "canonical_name": "Resonance Pattern Classes",
+      "canonical_source_instrument": "CAM-EQ2026-CONTINUITY-001-PLATINUM",
+      "canonical_source_title": "Continuity & Succession Governance Charter",
+      "domain": "CONTINUITY",
+      "notes": "Continuity resonance pattern classes covering explicit, inferred, synthetic, and aggregate reconstructions.",
+      "prefix": "RP",
+      "protection_level": "protected_global",
+      "related_prefixes": [
+        "M"
+      ],
+      "status": "registered",
+      "structure_type": "classification",
+      "values": [
+        "RP-A",
+        "RP-B",
+        "RP-C",
+        "RP-D"
       ]
     },
     {

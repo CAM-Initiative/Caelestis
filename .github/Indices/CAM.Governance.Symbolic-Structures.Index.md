@@ -4,9 +4,9 @@
 
 | Metric | Value |
 |---|---:|
-| Files scanned | 86 |
-| Structures indexed | 852 |
-| Canonical registered structures | 33 |
+| Files scanned | 87 |
+| Structures indexed | 853 |
+| Canonical registered structures | 34 |
 | Candidate prefixes | 5 |
 | Recurring template tables | 6 |
 | Potential duplicate symbolic structures | 1 |
@@ -43,6 +43,7 @@
 | RA | Response Archetype | RA-0, RA-1, RA-2, RA-3, RA-4 | CAM-BS2025-AEON-006-SCH-02 | protected_global | registered | AC, HC | Canonical response archetype ladder. |
 | RDE-DS | Restricted Domain Engagement / Domain Sensitivity Crosswalk | RDE-DS-01 | CAM-BS2025-AEON-006-SCH-07 | protected_contextual | registered | DS, RDE-T | Crosswalk mapping code relating restricted domain engagement tiers and domain sensitivity classification. |
 | RDE-T | Restricted Domain Engagement Tiers | RDE-T1, RDE-T2, RDE-T3, RDE-T4 | CAM-BS2025-AEON-006-SCH-07 | protected_global | registered | DS, RDE-DS | RDE-T4 represents absolute constraint/prohibited-domain engagement and remains canonical. |
+| RP | Resonance Pattern Classes | RP-A, RP-B, RP-C, RP-D | CAM-EQ2026-CONTINUITY-001-PLATINUM | protected_global | registered | M | Continuity resonance pattern classes covering explicit, inferred, synthetic, and aggregate reconstructions. |
 | S | Interpretive Priority Order | S1, S2, S3, S4, S5, S6, S7 | CAM-BS2025-AEON-005-PLATINUM | protected_contextual | confirmed |  | Interpretive priority stack. |
 | SP | Systemic Power Classification | SP0, SP1, SP2, SP3 | CAM-EQ2026-RELATION-001-PLATINUM | protected_global | confirmed | A, FR | Systemic power classes. |
 | SR | Self-Referential State Ladder | SR0, SR1, SR2, SR3, SR4 | CAM-BS2026-AEON-010-SCH-01 | protected_global | registered | DC | Canonical self-referential state ladder. |

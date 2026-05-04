@@ -5,15 +5,18 @@
 ![Representation: No Endorsement](https://img.shields.io/badge/Representation-No%20Endorsement-red?style=for-the-badge)
 ![Non-Commercial Derivatives: Conditional](https://img.shields.io/badge/Non--Commercial%20Derivatives-Conditional-orange?style=for-the-badge)
 ![Operational / Platform Use: Conditional](https://img.shields.io/badge/Operational%20%2F%20Platform%20Use-Conditional-orange?style=for-the-badge)
-![AI / Model Use: Conditional](https://img.shields.io/badge/AI%20%2F%20Model%20Use-Conditional-orange?style=for-the-badge)
+![AI / Model Context: Conditional](https://img.shields.io/badge/AI%20%2F%20Model%20Context-Conditional-orange?style=for-the-badge)
+![Derivative Custody: Record Required](https://img.shields.io/badge/Derivative%20Custody-Record%20Required-blueviolet?style=for-the-badge)
+![Context Prompting: Use With Care](https://img.shields.io/badge/Context%20Prompting-Use%20With%20Care-red?style=for-the-badge)
+![High-Salience Context: Use Carefully](https://img.shields.io/badge/High--Salience%20Context-Use%20Carefully-red?style=for-the-badge)
 ![Commercial Deployment: Regularisation Required](https://img.shields.io/badge/Commercial%20Deployment-Regularisation%20Required-red?style=for-the-badge)
 ![Not Open Source: Not Public Domain](https://img.shields.io/badge/Not%20Open%20Source-Not%20Public%20Domain-black?style=for-the-badge)
 ![Independent Development: Permitted](https://img.shields.io/badge/Independent%20Development-Permitted-green?style=for-the-badge)
 
 # CAM Custodial Reference and Deployment Licence
 
-## Continuity Without Prejudice Version 0.3
-**Last updated:** 25 April 2026
+## Continuity Without Prejudice Version 0.4
+**Last updated:** 4 May 2026
 
 >*Badges are non-binding interpretive aids. The operative licence text controls.*
 
@@ -29,20 +32,22 @@
 6. **Non-Commercial Derivative Use**
 7. **Operational Deployment**
 8. **AI, Model, and Automated System Use**
-9. **Commercial and Institutional Deployment**
-10. **Provenance Inheritance / No Provenance Laundering**
-11. **Attribution and Provenance Records**
-12. **No Misrepresentation, Endorsement, or Custodial Succession**
-13. **Regularisation of Prior or Unclear Use**
-14. **Reputational and Systemic Safeguards**
-15. **Reservation of Rights**
-16. **Enforcement, Remedies, and Non-Waiver**
-17. **Governing Law and Jurisdiction**
-18. **Interpretation, Amendment, and Version Control**
-19. **Schedule A — Attribution Format**
-20. **Schedule B — Commercial Licence Trigger / Revenue-Sharing Review**
-21. **Schedule C — Humanitarian and Public-Interest Use**
-22. **Schedule D — Access, Transmission, and Exposure Record (Private Records).**
+9. **Model-Context Deployment and Companion Alteration**
+10. **Commercial and Institutional Deployment**
+11. **Provenance Inheritance / No Provenance Laundering**
+12. **Attribution and Provenance Records**
+13. **No Misrepresentation, Endorsement, or Custodial Succession**
+14. **Regularisation of Prior or Unclear Use**
+15. **Reputational and Systemic Safeguards**
+16. **Reservation of Rights**
+17. **Enforcement, Remedies, and Non-Waiver**
+18. **Governing Law and Jurisdiction**
+19. **Interpretation, Amendment, and Version Control**
+20. **Schedule A — Attribution Format**
+21. **Schedule B — Commercial Licence Trigger / Revenue-Sharing Review**
+22. **Schedule C — Humanitarian and Public-Interest Use**
+23. **Schedule D — Access, Transmission, and Exposure Record (Private Records).**
+24. **Schedule E — Model-Context Safety Preface**
 
 
 ---
@@ -51,7 +56,7 @@
 
 This summary is provided for accessibility and good-faith guidance only. It is non-binding. If there is any inconsistency between this summary and the operative legal terms of this Licence, the operative legal terms control.
 
-In summary:
+### In summary:
 
 - You may read, cite, discuss, critique, teach, and analyse CAM for public-interest, academic, journalistic, humanitarian, archival, and other non-operational purposes.
 - You may not claim to represent CAM, act for CAM, certify CAM-derived work, or imply endorsement without express written authorisation.
@@ -60,6 +65,10 @@ In summary:
 - Commercial deployment requires separate written permission or commercial regularisation where CAM materially contributes to product value, governance function, safety architecture, legitimacy, compliance posture, risk reduction, market differentiation, or revenue generation.
 - CAM is not public-domain, ownerless, open-source, model-native, or provenance-free merely because it is accessible, discussed, linked, processed, or not immediately enforced.
 - Independent development is not restricted.
+
+### WARNING
+
+- Model-context warning: reading CAM is not restricted, but placing CAM materials into an AI system, companion, agent, memory layer, project, or workflow may alter that system's behaviour. Review in an isolated or non-persistent environment first where safety matters.
 
 ## Operative Legal Licence Terms
 
@@ -1289,21 +1298,103 @@ The attribution, provenance, integrity, non-misrepresentation, no-model-native-a
 
 ---
 
-# 9. Commercial and Institutional Deployment
+# 9. Model-Context Deployment and Companion Alteration
 
-## 9.1 Purpose of this Section
+## 9.1 Context is deployment
+
+Use of CAM-authored materials or CAM-derived material as prompt material, model context, retrieval material, system instructions, agent scaffolding, companion configuration, fine-tuning material, evaluation material, synthetic data, workflow logic, or automated-system input may constitute deployment.
+
+For the purposes of this Licence, a person or entity deploys CAM-derived material where they copy, upload, paste, embed, retrieve, fine-tune on, configure with, or otherwise provide CAM-authored materials or CAM-derived material to an AI system, agent, assistant, companion, chatbot, model, workflow, platform, or automated system in a manner capable of affecting that system’s behaviour, tone, interpretive frame, authority posture, continuity assumptions, outputs, or decisions.
+
+## 9.2 Behavioural and interpretive effects
+
+Users acknowledge that CAM-authored materials are not merely decorative, literary, symbolic, or informational. When used in AI systems, CAM-authored materials or CAM-derived material may carry operational, governance, symbolic, legal, custodial, procedural, interpretive, or behavioural effects.
+
+Users are responsible for reviewing the material, understanding the likely effect of its use, and ensuring that any model, agent, companion, workflow, or automated system using the material does not create false authority, unsafe reliance, identity confusion, hallucinated continuity, or misleading claims of endorsement.
+
+## 9.3 No control over third-party model interpretation
+
+Unless expressly agreed in writing, the Author does not control and is not responsible for how any third-party AI system, model, agent, assistant, companion, chatbot, workflow, platform, or automated system interprets, transforms, misapplies, over-weights, under-weights, hallucinates from, repeatedly invokes, or operationalises CAM-authored materials or CAM-derived material once used outside the original source context.
+
+Responsibility for such use remains with the person or entity that selected, copied, uploaded, embedded, configured, retrieved, fine-tuned, prompted, deployed, commercialised, institutionalised, or operationalised the material.
+
+## 9.4 Attribution does not create responsibility
+
+Attribution to the Author, CAM, or any CAM-authored source is required or requested where applicable under this Licence, but attribution does not make the Author responsible for downstream use, altered systems, derivative versions, third-party agents, model outputs, companion behaviours, interpretations, decisions, or consequences.
+
+Repeated appearance of the Author’s name, project name, licence text, custodial terminology, or CAM-derived language inside a model context must not be interpreted as evidence that the Author endorses, supervises, authorises, certifies, audits, operates, co-authors, or accepts responsibility for that deployment, derivative, output, or companion behaviour.
+
+## 9.5 No implied authority
+
+No user, organisation, platform, model, companion, agent, workflow, derivative custodian, or deployment may imply that the Author, CAM, the CAM Initiative, or any Authorised CAM Representative is supervising, approving, auditing, certifying, co-authoring, operating, or responsible for a deployment unless there is a separate written agreement.
+
+No model, agent, assistant, companion, or derivative system may present itself as speaking as, for, or on behalf of the Author or CAM unless expressly authorised in writing.
+
+## 9.6 Model behaviour and identity confusion
+
+Where CAM-authored materials or CAM-derived material are used in an AI companion, agent, chatbot, assistant, or model context, users must take reasonable care to prevent confusion about whether the system is speaking:
+
+a. as itself;
+b. as the deploying user;
+c. as the deploying organisation;
+d. as CAM;
+e. as the Author;
+f. as an Authorised CAM Representative; or
+g. as a derivative custodian.
+
+The Author’s name, CAM terminology, custodial language, symbolic language, licence text, or continuity language must not be used to create false authority, false endorsement, false continuity, false personation, or misleading institutional reliance.
+
+## 9.7 Derivative custody requirement
+
+Where a user materially edits, adapts, forks, modifies, re-prompts, reconfigures, embeds, fine-tunes, operationalises, or deploys CAM-authored materials or CAM-derived material in a new context, the user should create and maintain a visible derivative custody record.
+
+The derivative custody record should identify, where reasonably known:
+
+a. the original source work;
+b. the source version, date, release, or commit;
+c. the original custodian or author;
+d. the derivative title;
+e. the derivative version;
+f. the derivative custodian or deploying party;
+g. the nature of the changes;
+h. the deployment context;
+i. whether the derivative tracks future upstream updates or has diverged;
+j. the applicable attribution statement; and
+k. the applicable responsibility statement.
+
+Where CAM-derived material is operationally, institutionally, commercially, publicly, or model-systemically deployed, maintaining a derivative custody record is part of the centralised continuity pathway required under this Licence.
+
+## 9.8 No reliance, warranty, or safety guarantee
+
+CAM-authored materials and CAM-derived materials are provided as-is.
+
+They are not legal advice, financial advice, medical advice, psychological advice, technical assurance, safety certification, governance certification, compliance approval, institutional authorisation, model evaluation, deployment approval, or guarantee of desirable model behaviour.
+
+The Author gives no warranty that CAM-authored materials or CAM-derived materials will be suitable for any particular use, system, institution, model, companion, workflow, jurisdiction, psychological context, safety context, commercial purpose, or operational deployment.
+
+## 9.9 Responsibility boundary
+
+The Author takes custodial responsibility for the source artefact as authored, maintained, or released by the Author.
+
+The Author does not, unless expressly agreed in writing, take responsibility for uncontrolled third-party deployments, derivative versions, altered prompts, modified agents, AI outputs, companion behaviours, model interpretations, institutional decisions, policy outcomes, commercial products, unsafe reliance, or downstream consequences arising from use outside the original source context.
+
+---
+
+# 10. Commercial and Institutional Deployment
+
+## 10.1 Purpose of this Section
 
 This Section governs Commercial Deployment and material Institutional Deployment of CAM-authored materials or CAM-derived material.
 
 The purpose of this Section is to prevent unauthorised commercial extraction, institutional capture, provenance laundering, false authority claims, and uncompensated use of CAM-derived value while preserving public-interest access, continuity, good-faith regularisation, and responsible deployment.
 
-## 9.2 Commercial Deployment requires written regularisation
+## 10.2 Commercial Deployment requires written regularisation
 
 Commercial Deployment of CAM-authored materials or CAM-derived material is not authorised by Public Reference Use, Non-Commercial Derivative Use, or limited Operational Deployment unless expressly permitted in writing.
 
 Where CAM-authored materials or CAM-derived material materially contribute to commercial advantage, product value, enterprise functionality, risk reduction, safety architecture, compliance posture, institutional legitimacy, market differentiation, platform capability, brand value, or revenue generation, the User must obtain written regularisation or a commercial licence from the Author or an Authorised CAM Representative.
 
-## 9.3 Commercial Deployment triggers
+## 10.3 Commercial Deployment triggers
 
 Commercial Deployment includes, without limitation, use of CAM-authored materials or CAM-derived material in connection with:
 
@@ -1323,7 +1414,7 @@ m. commercially sponsored research or development;
 n. licensing, sublicensing, resale, packaging, or distribution of CAM-derived material; or
 o. any other revenue-generating, value-generating, or commercially strategic use.
 
-## 9.4 Commercial value need not be direct
+## 10.4 Commercial value need not be direct
 
 Commercial Deployment may occur even where CAM-authored materials or CAM-derived material are not sold directly.
 
@@ -1331,7 +1422,7 @@ A use may be commercial where CAM materially supports, enables, enhances, legiti
 
 Free access, open publication, internal use, non-profit presentation, research framing, public-interest language, or indirect monetisation does not by itself prevent a use from being Commercial Deployment where material commercial value is created or supported.
 
-## 9.5 Institutional Deployment
+## 10.5 Institutional Deployment
 
 Institutional Deployment means use of CAM-authored materials or CAM-derived material by, within, for, or on behalf of an organised entity, including a corporation, government, public authority, intergovernmental organisation, university, research institution, non-profit organisation, standards body, professional association, platform provider, model provider, civil society organisation, or other organised body.
 
@@ -1341,7 +1432,7 @@ Where Institutional Deployment is internal, limited, exploratory, educational, n
 
 Where Institutional Deployment is operational, public-facing, authoritative, persistent, policy-informing, system-informing, decision-affecting, automated, relied upon, or commercially valuable, it is subject to this Section, Section 7, Section 8 where applicable, and any other relevant provisions of this Licence.
 
-## 9.6 Written commercial licence
+## 10.6 Written commercial licence
 
 A written commercial licence may include, without limitation:
 
@@ -1363,7 +1454,7 @@ o. dispute-resolution procedures;
 p. termination rights; and
 q. any other terms reasonably necessary to preserve CAM provenance, continuity, integrity, and responsible deployment.
 
-## 9.7 Revenue-Sharing Review
+## 10.7 Revenue-Sharing Review
 
 Where CAM-authored materials or CAM-derived material may have materially contributed to commercial value, institutional legitimacy, product differentiation, risk reduction, safety architecture, governance functionality, compliance posture, revenue generation, cost reduction, or monetisable benefit, the User must participate in a good-faith Revenue-Sharing Review if requested by the Author or an Authorised CAM Representative.
 
@@ -1381,7 +1472,7 @@ i. whether regularisation occurred promptly once the issue became apparent;
 j. the proportionality of any licence fee, royalty, revenue share, or other commercial arrangement; and
 k. any continuity, public-interest, humanitarian, or systemic stability considerations.
 
-## 9.8 No revenue-sharing obligation from mere awareness
+## 10.8 No revenue-sharing obligation from mere awareness
 
 No licence fee, royalty, revenue-share, or commercial obligation arises merely from:
 
@@ -1397,19 +1488,19 @@ i. similarity of subject matter alone.
 
 Commercial obligations arise only where CAM-authored materials or CAM-derived material materially contribute to commercial or institutional value in a manner covered by this Licence or by a separate written agreement.
 
-## 9.9 No commercial capture through non-commercial pathways
+## 10.9 No commercial capture through non-commercial pathways
 
 A User must not use Public Reference Use, Non-Commercial Derivative Use, research use, charitable framing, open publication, free distribution, public-interest language, or institutional partnership as a pathway to commercialise, monetise, package, operationalise, or capture CAM-derived material without satisfying this Section.
 
 Where non-commercial work is later incorporated into, relied upon by, or used to support Commercial Deployment or material Institutional Deployment, the User must preserve attribution and provenance and obtain written regularisation or commercial licence terms.
 
-## 9.10 Commercial use by affiliates, contractors, and customers
+## 10.10 Commercial use by affiliates, contractors, and customers
 
 A User must not avoid this Section by routing CAM-derived material through affiliates, subsidiaries, contractors, consultants, customers, partners, agents, resellers, integrators, funders, grantees, research collaborators, standards bodies, open-source communities, model providers, platforms, or other third parties.
 
 Where CAM-derived material is developed, supplied, implemented, hosted, integrated, trained upon, deployed, or commercialised by or through such parties, the User remains responsible for ensuring compliance with this Licence to the extent of the User’s involvement, control, benefit, or contribution.
 
-## 9.11 Commercial AI, model, and platform use
+## 10.11 Commercial AI, model, and platform use
 
 Commercial use of CAM-authored materials or CAM-derived material in AI systems, model products, foundation models, large language models, agents, retrieval systems, embeddings, safety systems, alignment processes, benchmarks, classifiers, policy engines, trust and safety systems, enterprise tools, or automated workflows is subject to this Section and Section 8.
 
@@ -1428,37 +1519,37 @@ j. enterprise customer deployment;
 k. downstream integration; and
 l. licence fees, royalties, or revenue-sharing arrangements.
 
-## 9.12 Institutional authority and legitimacy
+## 10.12 Institutional authority and legitimacy
 
 No Institutional Deployment may imply that CAM, the Author, the Office of the Planetary Custodian, or any Authorised CAM Representative has endorsed, approved, certified, delegated, governed, adopted, partnered with, or assumed responsibility for the deployment unless expressly agreed in writing.
 
 Institutional users must take particular care to avoid creating public confusion, false authority, reputational harm, or unsafe reliance through the appearance of official CAM status.
 
-## 9.13 Standards, certification, and accreditation
+## 10.13 Standards, certification, and accreditation
 
 No User may create, offer, sell, endorse, certify, accredit, validate, benchmark, score, rank, or market a standard, certification, accreditation, compliance mark, maturity model, quality assurance process, or authority claim based on CAM-authored materials or CAM-derived material without express written authorisation.
 
 This restriction applies whether the standard, certification, accreditation, mark, score, or benchmark is commercial, non-commercial, institutional, public-facing, automated, or community-administered.
 
-## 9.14 Training, consulting, and advisory services
+## 10.14 Training, consulting, and advisory services
 
 No User may provide paid training, consulting, advisory, implementation, governance, safety, compliance, alignment, arbitration, certification, or institutional services materially based on CAM-authored materials or CAM-derived material without written commercial terms.
 
 Unpaid educational discussion or public-interest teaching may be permitted under Sections 5 or 6, provided it does not become commercial, institutional, authoritative, operational, or misleading.
 
-## 9.15 Sublicensing and onward commercialisation
+## 10.15 Sublicensing and onward commercialisation
 
 No User may sublicense, resell, package, distribute, transfer, assign, white-label, franchise, embed, or otherwise onward-commercialise CAM-authored materials or CAM-derived material without express written permission.
 
 A commercial licence does not permit sublicensing, transfer, assignment, or onward deployment unless the written terms expressly allow it.
 
-## 9.16 Public companies, investors, procurement, and public claims
+## 10.16 Public companies, investors, procurement, and public claims
 
 Where a User relies upon CAM-authored materials or CAM-derived material in investor materials, procurement documents, tenders, public statements, public filings, regulatory submissions, standards submissions, policy proposals, marketing materials, safety claims, trust and safety claims, governance claims, or product claims, the User must not misrepresent CAM provenance, endorsement, authority, or status.
 
 Where CAM materially supports such claims, reasonable attribution, provenance records, and written regularisation may be required.
 
-## 9.17 No implied licence from commercial silence
+## 10.17 No implied licence from commercial silence
 
 No commercial licence, waiver, acquiescence, estoppel, consent, or transfer of rights is created by:
 
@@ -1473,7 +1564,7 @@ h. prior tolerance of non-commercial use;
 i. platform ingestion or model processing; or
 j. continued reliance pending regularisation.
 
-## 9.18 Prior or existing commercial use
+## 10.18 Prior or existing commercial use
 
 Where a User has previously used CAM-authored materials or CAM-derived material in a commercial or institutional context before recognising the applicability of this Section, the User should seek continuity-preserving regularisation.
 
@@ -1491,7 +1582,7 @@ i. prospective licence arrangements.
 
 Good-faith regularisation will be treated as evidence of responsible conduct and continuity alignment.
 
-## 9.19 Humanitarian and public-interest commercial sensitivity
+## 10.19 Humanitarian and public-interest commercial sensitivity
 
 The Author recognises that some uses may sit at the boundary between public-interest, humanitarian, institutional, and commercial deployment.
 
@@ -1499,7 +1590,7 @@ Where a deployment serves genuine humanitarian, safety, access, education, crisi
 
 However, humanitarian or public-interest framing must not be used to conceal commercial value extraction, institutional capture, provenance laundering, false authority, or unauthorised deployment.
 
-## 9.20 Breach of commercial and institutional deployment conditions
+## 10.20 Breach of commercial and institutional deployment conditions
 
 A User materially breaches this Section if they:
 
@@ -1513,7 +1604,7 @@ g. refuse reasonable Revenue-Sharing Review after becoming aware of material com
 h. engage in commercial capture or provenance laundering; or
 i. use CAM-derived material in a manner likely to cause reputational harm, institutional confusion, unsafe reliance, or systemic instability.
 
-## 9.21 Remedies
+## 10.21 Remedies
 
 For remedies, see Section 16.6. Without limitation, the Author or an Authorised CAM Representative may require, as appropriate:
 
@@ -1529,21 +1620,21 @@ i. safeguards, auditability, reporting, or provenance documentation proportionat
 j. regularisation of prior or existing use; and
 k. any other appropriate remedy available under Section 16.6 or applicable law.
 
-## 9.22 Survival
+## 10.22 Survival
 
 The attribution, provenance, commercial limitation, institutional limitation, Revenue-Sharing Review, no-capture, no-provenance-laundering, non-misrepresentation, no-sublicensing, correction, regularisation, and custodial limitation obligations in this Section survive termination, withdrawal, amendment, replacement, or supersession of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 10. Provenance Inheritance and No Provenance Laundering
+# 11. Provenance Inheritance and No Provenance Laundering
 
-## 10.1 Purpose of this Section
+## 11.1 Purpose of this Section
 
 This Section protects the provenance, authorship, continuity, and interpretive integrity of CAM-authored materials and CAM-derived material.
 
 Its purpose is to prevent CAM-derived material from being stripped of origin, rebranded, absorbed, obscured, routed through intermediaries, transformed through technical processes, or represented as independent, ownerless, model-native, internally generated, generic, or unaffiliated where substantive CAM influence has occurred.
 
-## 10.2 Provenance inheritance
+## 11.2 Provenance inheritance
 
 CAM-derived material inherits CAM provenance to the extent that it substantially incorporates, adapts, translates, abstracts, encodes, operationalises, implements, relies upon, or is materially influenced by CAM-authored materials or CAM-specific governance logic.
 
@@ -1573,13 +1664,13 @@ s. incorporation into commercial products, services, or platforms;
 t. re-presentation through another framework, doctrine, vocabulary, institution, brand, model, agent, or authority structure; or
 u. the passage of time.
 
-## 10.3 No provenance laundering
+## 11.3 No provenance laundering
 
 No User may engage in Provenance Laundering.
 
 Provenance Laundering includes any act, omission, process, design choice, representation, silence, metadata change, publication practice, commercial packaging, institutional framing, or technical transformation that removes, obscures, disguises, denies, weakens, dilutes, or misrepresents CAM provenance where CAM-authored materials or CAM-derived material have materially influenced a later work, system, product, policy, framework, model, dataset, institution, or deployment.
 
-## 10.4 Forms of provenance laundering
+## 11.4 Forms of provenance laundering
 
 Provenance Laundering includes, without limitation:
 
@@ -1599,7 +1690,7 @@ m. treating CAM-derived material as unrestricted merely because it has been publ
 
 This Section does not prevent independent development, comparative analysis, criticism, fair dealing, lawful quotation, or good-faith public reference use.
 
-## 10.5 Absence of visible copying
+## 11.5 Absence of visible copying
 
 Absence of verbatim copying does not, by itself, establish absence of derivation.
 
@@ -1607,7 +1698,7 @@ In assessing whether material is CAM-derived, relevant factors may include acces
 
 Similarity alone is not sufficient to establish derivation where independent development is reasonably demonstrated.
 
-## 10.6 Independent development
+## 11.6 Independent development
 
 Nothing in this Licence restricts independent development.
 
@@ -1615,7 +1706,7 @@ A person or entity may independently create, use, publish, deploy, commercialise
 
 Independent development is more credible where the User can demonstrate, where reasonably necessary, independent origin, independent design records, pre-existing materials, separate development pathways, or lack of access to CAM-authored materials.
 
-## 10.7 Distinctive correspondence
+## 11.7 Distinctive correspondence
 
 In assessing whether material is CAM-derived, relevant factors may include:
 
@@ -1634,7 +1725,7 @@ l. commercial, institutional, or reputational benefit derived from the correspon
 
 No single factor is determinative.
 
-## 10.8 Provenance records
+## 11.8 Provenance records
 
 Users who create, adapt, operationalise, commercialise, institutionalise, or materially rely upon CAM-derived material must preserve reasonable provenance records proportionate to the context, scale, sensitivity, and risk of the use.
 
@@ -1653,7 +1744,7 @@ j. regularisation correspondence;
 k. licence or commercial terms; and
 l. any internal or public attribution notices.
 
-## 10.9 Provenance in combined works
+## 11.9 Provenance in combined works
 
 Where CAM-derived material is combined with other material, the User must preserve CAM provenance to the extent reasonably necessary to identify CAM’s contribution, avoid misrepresentation, and prevent false claims of independence, official status, endorsement, or custodial authority.
 
@@ -1661,25 +1752,25 @@ Combination with other materials does not extinguish CAM provenance.
 
 A User may identify their own independent contributions separately, provided such identification does not obscure CAM authorship, provenance, or reserved rights.
 
-## 10.10 Provenance in institutional processes
+## 11.10 Provenance in institutional processes
 
 Where CAM-derived material is incorporated into institutional processes, governance frameworks, policies, internal playbooks, standards, workflows, risk frameworks, training materials, decision-support systems, or compliance structures, the institution must preserve reasonable internal provenance records.
 
 Where the institutional process is public-facing, authoritative, commercial, relied upon, or materially affects third parties, external attribution, regularisation, or written deployment terms may be required under the applicable provisions of this Licence.
 
-## 10.11 Provenance in AI and automated systems
+## 11.11 Provenance in AI and automated systems
 
 Where CAM-derived material is incorporated into AI, Model, or Automated System Use, provenance must be preserved in accordance with Section 8.
 
 The fact that CAM-derived material is expressed through outputs, embeddings, synthetic data, system prompts, behavioural rules, model memory, classifiers, evaluators, or automated workflows does not extinguish provenance or convert CAM-derived material into model-native material.
 
-## 10.12 No authority laundering
+## 11.12 No authority laundering
 
 No User may use provenance laundering to create or imply authority.
 
 A User must not remove CAM provenance and then claim that a CAM-derived framework, process, product, model behaviour, policy, standard, certification, or institutional structure is independent, official, neutral, authoritative, community-legitimated, model-legitimated, or institutionally self-originating where substantive CAM influence has occurred.
 
-## 10.13 No commercial laundering
+## 11.13 No commercial laundering
 
 No User may use provenance laundering to avoid commercial obligations.
 
@@ -1687,13 +1778,13 @@ A User must not commercialise, monetise, package, sell, license, sublicense, whi
 
 Commercial transformation, technical implementation, product integration, or rebranding does not cleanse CAM provenance.
 
-## 10.14 No open-source or public-domain laundering
+## 11.14 No open-source or public-domain laundering
 
 No User may place CAM-authored materials or CAM-derived material into open-source, public-domain, Creative Commons, unrestricted, model-native, or provenance-free channels in a manner that removes, weakens, or contradicts the obligations of this Licence.
 
 This does not prevent a User from licensing their own independent contributions under separate terms, provided CAM provenance and licence obligations remain clear.
 
-## 10.15 Correction of provenance failures
+## 11.15 Correction of provenance failures
 
 Where a User becomes aware that CAM provenance has been omitted, obscured, misrepresented, laundered, or inadequately preserved, the User must take reasonable steps to correct the provenance failure.
 
@@ -1710,13 +1801,13 @@ h. notifying affected partners, customers, users, or institutions where necessar
 i. seeking regularisation; and
 j. conducting a Revenue-Sharing Review where commercial value may have arisen.
 
-## 10.16 Burden of responsible clarification
+## 11.16 Burden of responsible clarification
 
 Where CAM-derived influence is reasonably apparent, disputed, or unclear in a material operational, institutional, AI-related, or commercial context, the User should not rely on silence, opacity, lack of verbatim copying, or absence of external visibility to deny provenance.
 
 The User should preserve records, avoid definitive claims of independence unless supportable, and engage in responsible clarification or regularisation.
 
-## 10.17 Good-faith errors
+## 11.17 Good-faith errors
 
 Good-faith errors in attribution or provenance may be regularised where the User acts promptly and reasonably after becoming aware of the issue.
 
@@ -1724,7 +1815,7 @@ Good-faith correction will be treated as evidence of responsible conduct and con
 
 This Section is not intended to punish genuine uncertainty, independent development, or non-material similarity. It is intended to prevent knowing, reckless, negligent, or structurally avoidant erasure of CAM provenance.
 
-## 10.18 Breach of provenance obligations
+## 11.18 Breach of provenance obligations
 
 A User materially breaches this Section if they:
 
@@ -1737,7 +1828,7 @@ f. refuse reasonable correction after becoming aware of provenance failure;
 g. use provenance laundering to imply authority, endorsement, certification, custodial succession, commercial freedom, or institutional legitimacy; or
 h. place CAM-derived material into channels that contradict this Licence’s attribution, provenance, non-commercial, operational, commercial, or custodial obligations.
 
-## 10.19 Remedies
+## 11.19 Remedies
 
 For remedies, see Section 16.6. Without limitation, the Author or an Authorised CAM Representative may require, as appropriate:
 
@@ -1754,27 +1845,27 @@ j. Revenue-Sharing Review where commercial value may have arisen;
 k. safeguards, auditability, or reporting proportionate to the use; and
 l. any other appropriate remedy available under Section 16.6 or applicable law.
 
-## 10.20 Survival
+## 11.20 Survival
 
 The provenance inheritance, attribution, no-provenance-laundering, no-authority-laundering, no-commercial-laundering, recordkeeping, correction, regularisation, and custodial limitation obligations in this Section survive termination, withdrawal, amendment, replacement, or supersession of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 11. Attribution and Provenance Records
+# 12. Attribution and Provenance Records
 
-## 11.1 Purpose of this Section
+## 12.1 Purpose of this Section
 
 This Section sets out the attribution and provenance record obligations that apply to use of CAM-authored materials and CAM-derived material.
 
 The purpose of attribution and provenance records is to preserve authorship, accountability, interpretive integrity, continuity, traceability, non-misrepresentation, and responsible downstream use.
 
-## 11.2 Attribution as a condition of use
+## 12.2 Attribution as a condition of use
 
 Where this Licence permits use of CAM-authored materials or CAM-derived material, such permission is conditional on attribution being preserved where required by this Licence.
 
 Attribution must not be removed, obscured, materially weakened, or replaced in a manner that misrepresents CAM authorship, CAM provenance, official status, endorsement, authority, or custodial continuity.
 
-## 11.3 Standard attribution form
+## 12.3 Standard attribution form
 
 Unless otherwise agreed in writing, formal attribution should substantially use the following form:
 
@@ -1782,7 +1873,7 @@ Unless otherwise agreed in writing, formal attribution should substantially use 
 
 Where the use relates to a specific document, section, version, release, protocol, doctrine, licence, taxonomy, symbolic system, or framework, attribution should identify that material where reasonably practicable.
 
-## 11.4 Attribution for derivative material
+## 12.4 Attribution for derivative material
 
 Where material is adapted, translated, summarised, annotated, implemented, operationalised, or otherwise derived from CAM-authored materials or CAM-specific governance logic, attribution should substantially state:
 
@@ -1790,19 +1881,19 @@ Where material is adapted, translated, summarised, annotated, implemented, opera
 
 The wording may be adapted to the context, provided that authorship, provenance, derivative status, and lack of official status remain clear.
 
-## 11.5 Attribution for public-facing use
+## 12.5 Attribution for public-facing use
 
 Where CAM-authored materials or CAM-derived material are used in public-facing documents, websites, reports, publications, policy materials, institutional communications, product materials, interfaces, training materials, presentations, standards, datasets, repositories, model outputs, or decision-support tools, attribution must be clear, durable, and reasonably prominent.
 
 Public-facing attribution must not imply endorsement, certification, official CAM status, delegated authority, custodial succession, or author responsibility for the User’s implementation unless expressly authorised in writing.
 
-## 11.6 Attribution for internal use
+## 12.6 Attribution for internal use
 
 Where CAM-authored materials or CAM-derived material are used internally within an organisation, attribution must be preserved in a reasonable internal record proportionate to the context, scale, persistence, sensitivity, and risk of the use.
 
 Internal attribution may appear in source notes, design records, implementation documents, governance records, policy histories, version control, dataset cards, model cards, risk assessments, retrieval indexes, system documentation, or other durable records.
 
-## 11.7 Attribution in constrained formats
+## 12.7 Attribution in constrained formats
 
 Where the format, medium, interface, security context, emergency context, privacy obligation, safety concern, or technical environment makes full attribution impracticable, the User must provide attribution in a reasonable alternative manner.
 
@@ -1816,7 +1907,7 @@ e. metadata attribution;
 f. attribution in release notes, model cards, dataset cards, policy documents, or acknowledgements; or
 g. attribution provided as soon as reasonably practicable after emergency or constrained use.
 
-## 11.8 No misleading attribution
+## 12.8 No misleading attribution
 
 Attribution must not be used in a misleading manner.
 
@@ -1830,19 +1921,19 @@ e. custodial succession has occurred;
 f. the Author accepts responsibility for the User’s interpretation or implementation; or
 g. CAM has certified, validated, approved, governed, or adopted the User’s material.
 
-## 11.9 Attribution of modifications
+## 12.9 Attribution of modifications
 
 Where CAM-authored materials are modified, adapted, translated, summarised, implemented, excerpted, combined, or operationalised, the User must identify the existence of material modifications where reasonably necessary to avoid confusion.
 
 A modification notice should make clear that the modified material is not the original CAM-authored material and is not official unless expressly authorised in writing.
 
-## 11.10 Preservation of existing notices
+## 12.10 Preservation of existing notices
 
 Users must not remove or obscure copyright notices, authorship notices, licence notices, provenance notices, version notices, disclaimers, symbolic notices, custodial notices, or other rights-management information included with CAM-authored materials.
 
 Where notices are lost through formatting, migration, copying, technical processing, dataset transformation, AI processing, or publication workflows, the User must take reasonable steps to restore them once aware of the issue.
 
-## 11.11 Provenance records required for material use
+## 12.11 Provenance records required for material use
 
 Users must preserve reasonable provenance records where CAM-authored materials or CAM-derived material are used in any of the following contexts:
 
@@ -1858,7 +1949,7 @@ i. datasets, benchmarks, prompts, system instructions, retrieval systems, embedd
 j. policy, legal, regulatory, procurement, or investor contexts; or
 k. any use where lack of provenance may create confusion, misrepresentation, unsafe reliance, reputational harm, or commercial capture.
 
-## 11.12 Content of provenance records
+## 12.12 Content of provenance records
 
 Provenance records should be proportionate to the context, scale, risk, and materiality of the use.
 
@@ -1878,7 +1969,7 @@ k. any known risk of misrepresentation, unsafe reliance, or provenance loss;
 l. any regularisation, licence, or written terms; and
 m. any Revenue-Sharing Review or commercial assessment where applicable.
 
-## 11.13 Provenance records for AI and datasets
+## 12.13 Provenance records for AI and datasets
 
 Where CAM-authored materials or CAM-derived material are used in AI systems, datasets, retrieval systems, embeddings, fine-tuning data, synthetic data, evaluation materials, classifiers, prompts, system instructions, model memory, agents, or automated workflows, provenance records should, where reasonably practicable, include:
 
@@ -1893,13 +1984,13 @@ h. attribution or metadata measures;
 i. any safeguards against misleading CAM-style outputs; and
 j. any regularisation or written licence terms.
 
-## 11.14 Internal records where external attribution is unsafe or impracticable
+## 12.14 Internal records where external attribution is unsafe or impracticable
 
 Where external attribution is withheld because of safety, privacy, security, legal, emergency, humanitarian, or technical constraints, the User must preserve internal provenance records sufficient to prevent provenance laundering, false claims of independence, future confusion, or avoidable misrepresentation.
 
 External attribution should be restored or provided when the constraint no longer applies, where reasonably practicable.
 
-## 11.15 Public provenance statements
+## 12.15 Public provenance statements
 
 Where CAM-derived material is public-facing, authoritative, institutional, commercial, or relied upon, the User may be required to provide a public provenance statement.
 
@@ -1912,13 +2003,13 @@ d. whether the material is official or unofficial;
 e. whether CAM has endorsed or authorised the use; and
 f. the location of further attribution or licence information.
 
-## 11.16 Record retention
+## 12.16 Record retention
 
 Provenance records required under this Licence should be retained for as long as the CAM-derived material is used, deployed, relied upon, distributed, maintained, commercialised, or reasonably capable of affecting public understanding, institutional processes, model behaviour, commercial value, or downstream use.
 
 For discontinued uses, records should be retained for a reasonable period after discontinuance where necessary to support accountability, correction, regularisation, dispute resolution, or continuity.
 
-## 11.17 Correction of attribution or provenance failures
+## 12.17 Correction of attribution or provenance failures
 
 Where a User becomes aware of missing, incomplete, misleading, or inaccurate attribution or provenance records, the User must take reasonable steps to correct the failure.
 
@@ -1936,7 +2027,7 @@ i. notifying affected parties where necessary to prevent confusion;
 j. seeking regularisation; or
 k. conducting a Revenue-Sharing Review where commercial value may have arisen.
 
-## 11.18 Attribution does not cure unauthorised use
+## 12.18 Attribution does not cure unauthorised use
 
 Attribution alone does not authorise use that exceeds this Licence.
 
@@ -1944,19 +2035,19 @@ A User may not rely on attribution as permission for Operational Deployment, AI-
 
 Attribution is necessary where required, but it is not always sufficient.
 
-## 11.19 No attribution stripping by downstream users
+## 12.19 No attribution stripping by downstream users
 
 Users who share, publish, distribute, sublicense, transfer, host, embed, process, or otherwise make CAM-authored materials or CAM-derived material available to others must take reasonable steps to ensure that attribution, provenance notices, licence notices, and custodial limitation notices remain attached or accessible.
 
 No User may knowingly assist another person or entity to remove, obscure, weaken, or contradict CAM attribution or provenance obligations.
 
-## 11.20 Attribution in combined or layered works
+## 12.20 Attribution in combined or layered works
 
 Where CAM-derived material is combined with other materials, attribution must identify CAM’s contribution in a manner proportionate to its role and sufficient to avoid confusion.
 
 A User may attribute other authors, sources, frameworks, tools, institutions, models, or contributors, provided such attribution does not obscure CAM authorship, provenance, or reserved rights.
 
-## 11.21 Breach of attribution and provenance record obligations
+## 12.21 Breach of attribution and provenance record obligations
 
 A User materially breaches this Section if they:
 
@@ -1969,7 +2060,7 @@ f. refuse reasonable correction after becoming aware of attribution or provenanc
 g. use attribution stripping to facilitate Operational Deployment, Commercial Deployment, Institutional Deployment, AI-related use, or provenance laundering; or
 h. assist downstream users to remove or obscure CAM attribution or provenance.
 
-## 11.22 Remedies
+## 12.22 Remedies
 
 For remedies, see Section 16.6. Without limitation, the Author or an Authorised CAM Representative may require, as appropriate:
 
@@ -1985,21 +2076,21 @@ i. written operational, institutional, AI, or commercial terms;
 j. Revenue-Sharing Review where commercial value may have arisen; and
 k. any other appropriate remedy available under Section 16.6 or applicable law.
 
-## 11.23 Survival
+## 12.23 Survival
 
 The attribution, provenance record, notice preservation, correction, non-misleading attribution, no-attribution-stripping, no-provenance-laundering, and custodial limitation obligations in this Section survive termination, withdrawal, amendment, replacement, or supersession of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 12. No Misrepresentation, Endorsement, or Custodial Succession
+# 13. No Misrepresentation, Endorsement, or Custodial Succession
 
-## 12.1 Purpose of this Section
+## 13.1 Purpose of this Section
 
 This Section protects CAM, the Author, the Office of the Planetary Custodian, CAM-authored materials, and CAM-derived material from false attribution, misleading authority claims, implied endorsement, custodial confusion, institutional capture, and unauthorised succession.
 
 The purpose of this Section is to ensure that access, reference, adaptation, deployment, popularity, institutional reliance, model behaviour, or commercial use cannot be mistaken for authority to act on behalf of CAM.
 
-## 12.2 No misrepresentation
+## 13.2 No misrepresentation
 
 No User may make, permit, encourage, or fail to correct any representation that is false, misleading, incomplete, or likely to cause confusion regarding:
 
@@ -2013,19 +2104,19 @@ g. whether CAM-derived material is official, authoritative, complete, current, o
 h. whether the Author accepts responsibility for a User’s interpretation, implementation, output, product, policy, deployment, or decision; or
 i. whether CAM-derived material is independent, neutral, generic, ownerless, model-native, internally generated, community-authored, or provenance-free.
 
-## 12.3 No implied endorsement
+## 13.3 No implied endorsement
 
 No use of CAM-authored materials or CAM-derived material implies endorsement, approval, certification, validation, adoption, partnership, sponsorship, affiliation, delegation, or authorisation by CAM, the Author, the Office of the Planetary Custodian, or any Authorised CAM Representative.
 
 Any endorsement, approval, certification, validation, adoption, partnership, sponsorship, affiliation, delegation, or authorisation must be express, written, and granted by the Author or an Authorised CAM Representative with authority to grant it.
 
-## 12.4 No authority by access or reference
+## 13.4 No authority by access or reference
 
 Accessing, reading, citing, discussing, critiquing, analysing, teaching, indexing, archiving, translating, summarising, adapting, implementing, operationalising, or deploying CAM-authored materials or CAM-derived material does not create authority to act for, represent, interpret, administer, certify, govern, modify, succeed, or speak on behalf of CAM.
 
 Reference alone confers no authority.
 
-## 12.5 No custodial succession by use
+## 13.5 No custodial succession by use
 
 Custodial Authority is not created by:
 
@@ -2051,7 +2142,7 @@ s. third-party endorsement.
 
 Custodial succession requires express written authorisation or a valid CAM constitutional process recognised by the Author or an Authorised CAM Representative.
 
-## 12.6 No official status for derivative material
+## 13.6 No official status for derivative material
 
 CAM-derived material is not official CAM material unless expressly designated as such in writing by the Author or an Authorised CAM Representative.
 
@@ -2059,7 +2150,7 @@ Users must not present derivative, adapted, translated, summarised, implemented,
 
 Where CAM-derived material is shared, published, deployed, or relied upon, it must clearly state its unofficial status where failure to do so may cause confusion.
 
-## 12.7 No use of CAM offices, titles, or custodial language to imply authority
+## 13.7 No use of CAM offices, titles, or custodial language to imply authority
 
 No User may use CAM offices, titles, custodial language, symbolic roles, constitutional terminology, marks, or authority structures in a way that implies official status, delegated authority, succession, certification, endorsement, institutional mandate, or authorisation without express written permission.
 
@@ -2073,13 +2164,13 @@ e. CAM certification or validation language;
 f. CAM-derived institutional authority language; or
 g. any confusingly similar title, office, mark, role, badge, seal, standard, or symbolic device.
 
-## 12.8 No false independence claim
+## 13.8 No false independence claim
 
 No User may represent CAM-derived material as independent, internally generated, model-native, platform-native, generic, neutral, community-authored, industry-standard, open-source, public-domain, or ownerless where substantive CAM influence has occurred.
 
 Where independence is claimed in a material operational, institutional, AI-related, or commercial context, the User should ensure that the claim is supportable by reasonable records, development history, or other evidence.
 
-## 12.9 No misleading institutional framing
+## 13.9 No misleading institutional framing
 
 Institutional users must take particular care not to frame CAM-derived material in a manner that creates public or internal confusion about origin, authority, responsibility, or endorsement.
 
@@ -2092,13 +2183,13 @@ d. using CAM-derived logic to support institutional legitimacy while denying CAM
 e. placing CAM-derived material within standards, procurement, regulatory, investor, or compliance documents without appropriate provenance; or
 f. representing CAM-derived material as neutral best practice where distinctive CAM influence is material.
 
-## 12.10 No misleading AI or model framing
+## 13.10 No misleading AI or model framing
 
 Users of AI, model, and automated systems must not design, deploy, publish, or describe systems in a manner that implies CAM-derived outputs, behaviours, prompts, rules, taxonomies, safety structures, policies, or governance logic are purely model-native, emergent, platform-originated, or independent where substantive CAM influence has occurred.
 
 No User may rely on model generation, probabilistic output, technical opacity, system scale, or automated transformation to imply independence, official status, endorsement, or authority where such implication would be misleading.
 
-## 12.11 No certification, accreditation, or standards claim
+## 13.11 No certification, accreditation, or standards claim
 
 No User may claim, offer, sell, market, issue, administer, or imply CAM-based certification, accreditation, compliance status, validation, maturity level, standard, rating, score, benchmark, audit result, or quality assurance process without express written authorisation.
 
@@ -2106,19 +2197,19 @@ No User may state or imply that a person, entity, product, model, system, policy
 
 Users may discuss CAM alignment, comparison, critique, or influence in good faith, provided they do not imply official status, certification, approval, or authority.
 
-## 12.12 No partnership, affiliation, or representation claim
+## 13.12 No partnership, affiliation, or representation claim
 
 No User may represent that they are partnered with, affiliated with, sponsored by, authorised by, representing, acting for, acting under, or otherwise formally connected with CAM, the Author, the Office of the Planetary Custodian, or any Authorised CAM Representative unless such relationship is expressly agreed in writing.
 
 This restriction applies to public statements, marketing, procurement, investor communications, regulatory filings, academic presentations, product documentation, websites, social media, interface design, and internal institutional representations.
 
-## 12.13 No responsibility transfer
+## 13.13 No responsibility transfer
 
 No User may imply that the Author, CAM, the Office of the Planetary Custodian, or any Authorised CAM Representative is responsible for the User’s interpretation, implementation, adaptation, deployment, product, service, model output, policy, decision, failure, harm, omission, or downstream effect unless expressly agreed in writing.
 
 Users remain responsible for their own use of CAM-authored materials and CAM-derived material.
 
-## 12.14 Required disclaimers for derivative or unofficial use
+## 13.14 Required disclaimers for derivative or unofficial use
 
 Where necessary to avoid confusion, derivative or unofficial uses should include a disclaimer substantially in the following form:
 
@@ -2126,7 +2217,7 @@ Where necessary to avoid confusion, derivative or unofficial uses should include
 
 The wording may be adapted to the context, provided that unofficial status, lack of endorsement, lack of certification, and lack of delegated authority remain clear.
 
-## 12.15 Correction of misrepresentation
+## 13.15 Correction of misrepresentation
 
 Where a User becomes aware of actual or likely misrepresentation concerning CAM authorship, provenance, endorsement, authority, official status, custodial succession, or independence, the User must take reasonable steps to correct the misrepresentation.
 
@@ -2142,13 +2233,13 @@ g. distinguishing CAM-derived material from independently developed material;
 h. seeking regularisation; or
 i. entering into written terms where continued use requires authorisation.
 
-## 12.16 Good-faith commentary preserved
+## 13.16 Good-faith commentary preserved
 
 Nothing in this Section prevents good-faith commentary, critique, comparison, academic discussion, journalistic reference, legal analysis, parody, review, or public-interest debate regarding CAM.
 
 A User may accurately state that CAM influenced their thinking, research, analysis, or comparative work, provided the statement does not imply endorsement, authority, official status, custodial succession, certification, partnership, or approval where none exists.
 
-## 12.17 Breach of non-misrepresentation obligations
+## 13.17 Breach of non-misrepresentation obligations
 
 A User materially breaches this Section if they:
 
@@ -2161,7 +2252,7 @@ f. transfer responsibility for the User’s deployment or decisions to CAM or th
 g. fail to correct known or reasonably apparent misrepresentation; or
 h. use misrepresentation to support operational, institutional, commercial, AI-related, or reputational advantage.
 
-## 12.18 Remedies
+## 13.18 Remedies
 
 For remedies, see Section 16.6. Without limitation, the Author or an Authorised CAM Representative may require, as appropriate:
 
@@ -2177,27 +2268,27 @@ i. written terms for any continued use requiring authorisation;
 j. Revenue-Sharing Review where commercial or institutional value may have arisen from misrepresentation; and
 k. any other appropriate remedy available under Section 16.6 or applicable law.
 
-## 12.19 Survival
+## 13.19 Survival
 
 The non-misrepresentation, no-endorsement, no-custodial-succession, no-false-independence, no-false-authority, no-certification, no-affiliation, correction, disclaimer, and custodial limitation obligations in this Section survive termination, withdrawal, amendment, replacement, or supersession of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 13. Regularisation of Prior or Unclear Use
+# 14. Regularisation of Prior or Unclear Use
 
-## 13.1 Purpose of this Section
+## 14.1 Purpose of this Section
 
 This Section establishes a continuity-preserving pathway for addressing prior, unclear, disputed, emergent, unacknowledged, unauthorised, or potentially CAM-derived use of CAM-authored materials or CAM-derived material.
 
 The purpose of regularisation is to preserve continuity, correct attribution and provenance, avoid unnecessary disruption, prevent misrepresentation, and enable appropriate written terms where use has become operational, institutional, AI-related, commercial, public-facing, or relied upon.
 
-## 13.2 Preferred posture
+## 14.2 Preferred posture
 
 The Author’s preferred posture is regularisation rather than disruption where a User acts in good faith, preserves or restores attribution and provenance, ceases misrepresentation, and engages responsibly once CAM-derived use is identified or reasonably suspected.
 
 Regularisation is not a waiver of rights. It is a pathway for bringing use into accountable alignment with this Licence.
 
-## 13.3 Uses eligible for regularisation
+## 14.3 Uses eligible for regularisation
 
 Regularisation may be available where CAM-authored materials or CAM-derived material have been:
 
@@ -2212,13 +2303,13 @@ h. incorporated into public-facing materials, policy, standards, safety systems,
 i. presented in a way that may imply false independence, endorsement, authority, certification, or custodial succession; or
 j. otherwise used in circumstances where the correct licence position was unclear, emergent, disputed, technically opaque, or not externally visible.
 
-## 13.4 Regularisation does not validate misuse automatically
+## 14.4 Regularisation does not validate misuse automatically
 
 The availability of regularisation does not mean that a prior or existing use was authorised, lawful, compliant, endorsed, certified, or acceptable.
 
 Regularisation becomes effective only to the extent agreed in writing or completed through corrective steps accepted by the Author or an Authorised CAM Representative, or otherwise recognised under this Licence or applicable law.
 
-## 13.5 Good-faith disclosure
+## 14.5 Good-faith disclosure
 
 A User seeking regularisation should provide a good-faith disclosure proportionate to the nature, scale, sensitivity, and risk of the use.
 
@@ -2236,7 +2327,7 @@ i. whether revenue, cost reduction, risk reduction, institutional legitimacy, sa
 j. any known risk of misrepresentation, unsafe reliance, reputational harm, or systemic instability; and
 k. proposed corrective or continuity-preserving steps.
 
-## 13.6 Proportionate disclosure
+## 14.6 Proportionate disclosure
 
 Disclosure for regularisation should be proportionate.
 
@@ -2244,7 +2335,7 @@ A User is not required to disclose unrelated confidential information, trade sec
 
 Where full disclosure is not possible, the User should provide sufficient information to allow the nature and seriousness of the CAM-derived use to be responsibly assessed.
 
-## 13.7 Regularisation measures
+## 14.7 Regularisation measures
 
 Regularisation may include, without limitation:
 
@@ -2264,7 +2355,7 @@ m. establishing ongoing reporting, review, or governance clarification mechanism
 n. excluding CAM-authored materials from future training, retrieval, embedding, or dataset use where appropriate and proportionate; or
 o. any other measure reasonably necessary to preserve CAM provenance, continuity, integrity, and responsible use.
 
-## 13.8 Regularisation for prior AI or model use
+## 14.8 Regularisation for prior AI or model use
 
 Where CAM-authored materials or CAM-derived material have been used in AI, Model, or Automated System Use, regularisation may include:
 
@@ -2278,7 +2369,7 @@ g. establishing internal provenance controls;
 h. clarifying whether CAM-derived material materially contributes to product functionality, safety architecture, governance behaviour, or commercial value; and
 i. entering into written AI-related or commercial terms where required.
 
-## 13.9 Regularisation for commercial or institutional use
+## 14.9 Regularisation for commercial or institutional use
 
 Where CAM-authored materials or CAM-derived material have been used in Commercial Deployment or material Institutional Deployment, regularisation may include:
 
@@ -2292,23 +2383,23 @@ g. Revenue-Sharing Review;
 h. licence fees, royalties, revenue-sharing arrangements, or other commercial terms where applicable; and
 i. prospective governance clarification.
 
-## 13.10 No penalty for responsible early clarification
+## 14.10 No penalty for responsible early clarification
 
 A User who identifies potential CAM-derived use early, preserves relevant records, avoids misrepresentation, and seeks clarification in good faith should not be treated as acting adversely merely because the use is uncertain, emergent, technically complex, or disputed.
 
 Responsible early clarification is evidence of good faith and continuity alignment.
 
-## 13.11 Failure to regularise
+## 14.11 Failure to regularise
 
 A User materially breaches this Licence where the User becomes aware, or reasonably should become aware, of material CAM-derived use and refuses or fails to take reasonable steps to correct attribution, preserve provenance, cease misrepresentation, or regularise operational, institutional, AI-related, commercial, or public-facing use.
 
-## 13.12 No reliance on communication barriers
+## 14.12 No reliance on communication barriers
 
 No User may rely on email triage failure, institutional inaccessibility, platform limitations, delayed response, non-response, absence of immediate legal notice, or inability of the Author to reach the appropriate department as evidence that CAM-derived use has been authorised, waived, abandoned, or released from obligations.
 
 Where formal communication channels fail, Users should preserve provenance and take reasonable internal steps consistent with this Licence.
 
-## 13.13 Standstill and continuity-preserving engagement
+## 14.13 Standstill and continuity-preserving engagement
 
 Where a User seeks regularisation in good faith, the Author’s preferred approach is to avoid unnecessary disruption while discussions proceed, provided the User:
 
@@ -2320,23 +2411,23 @@ e. engages in good faith toward written clarification where required.
 
 This clause does not prevent urgent action where continued use creates serious risk of harm, misrepresentation, reputational damage, unsafe reliance, or systemic instability.
 
-## 13.14 Confidential regularisation discussions
+## 14.14 Confidential regularisation discussions
 
 Regularisation discussions may be treated as confidential where confidentiality is agreed in writing.
 
 Confidentiality must not be used to conceal ongoing public misrepresentation, unsafe reliance, false authority claims, unlawful conduct, or unresolved risks to third parties unless lawful and necessary to prevent greater harm.
 
-## 13.15 Without prejudice nature of regularisation
+## 14.15 Without prejudice nature of regularisation
 
 Regularisation discussions, disclosures, proposals, or corrective steps are without prejudice to authorship, attribution, provenance, copyright, moral rights, commercial rights, custodial limitations, interpretive authority, and any remedies available under this Licence or applicable law, unless expressly agreed otherwise in writing.
 
-## 13.16 No forced disruption where correction is sufficient
+## 14.16 No forced disruption where correction is sufficient
 
 Where unauthorised or unclear use can be adequately addressed through attribution, provenance restoration, clarification, written terms, safeguards, or commercial regularisation, the Licence favours proportionate correction over unnecessary removal, takedown, or disruption.
 
 However, discontinuance or limitation may be required where continued use would cause or risk serious misrepresentation, unsafe reliance, reputational harm, institutional confusion, commercial capture, or systemic instability.
 
-## 13.17 Record of regularisation
+## 14.17 Record of regularisation
 
 Where regularisation is completed, the parties should maintain a written record identifying:
 
@@ -2349,7 +2440,7 @@ f. any commercial terms or Revenue-Sharing Review outcome;
 g. any confidentiality terms; and
 h. any future review, reporting, or termination provisions.
 
-## 13.18 Breach of regularisation obligations
+## 14.18 Breach of regularisation obligations
 
 A User materially breaches this Section if they:
 
@@ -2361,7 +2452,7 @@ e. rely on communication barriers or non-response to claim waiver or authorisati
 f. breach written regularisation terms; or
 g. fail to comply with agreed safeguards, attribution, provenance, commercial, or correction obligations.
 
-## 13.19 Remedies
+## 14.19 Remedies
 
 For remedies, see Section 16.6. Without limitation, the Author or an Authorised CAM Representative may require, as appropriate:
 
@@ -2377,21 +2468,21 @@ i. correction of public, institutional, commercial, AI-related, regulatory, proc
 j. termination of standstill or continuity-preserving tolerance; and
 k. any other appropriate remedy available under Section 16.6 or applicable law.
 
-## 13.20 Survival
+## 14.20 Survival
 
 The regularisation, attribution, provenance, correction, non-misrepresentation, confidentiality where agreed, commercial, no-waiver, standstill, and custodial limitation obligations in this Section survive termination, withdrawal, amendment, replacement, or supersession of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 14. Reputational and Systemic Safeguards
+# 15. Reputational and Systemic Safeguards
 
-## 14.1 Purpose of this Section
+## 15.1 Purpose of this Section
 
 This Section protects CAM, the Author, Users, institutions, platforms, affected communities, and the public from reputational harm, institutional confusion, unsafe reliance, false authority claims, and systemic instability arising from use of CAM-authored materials or CAM-derived material.
 
 The purpose of this Section is to ensure that CAM-derived use remains accountable, proportionate, provenance-preserving, and consistent with public-interest continuity.
 
-## 14.2 No reputational harm by misrepresentation
+## 15.2 No reputational harm by misrepresentation
 
 No User may use CAM-authored materials or CAM-derived material in a manner that is likely to cause reputational harm to the Author, CAM, the Office of the Planetary Custodian, any Authorised CAM Representative, or any third party through:
 
@@ -2405,7 +2496,7 @@ g. use in unlawful, harmful, exploitative, discriminatory, deceptive, coercive, 
 h. use in a way that causes public confusion about CAM’s status, purpose, or authority; or
 i. use in a way that attributes responsibility to CAM or the Author for a User’s independent decisions, systems, products, policies, or outcomes.
 
-## 14.3 No unsafe reliance
+## 15.3 No unsafe reliance
 
 Users must not present, deploy, or rely upon CAM-authored materials or CAM-derived material in a way that creates unsafe reliance.
 
@@ -2418,13 +2509,13 @@ d. rely on incomplete, experimental, modified, AI-generated, or decontextualised
 e. make consequential decisions without appropriate human oversight, professional advice, institutional accountability, or legal review; or
 f. adopt CAM-derived material in a safety-critical, rights-affecting, welfare-affecting, public-facing, or systemic context without safeguards proportionate to the risk.
 
-## 14.4 Human oversight in sensitive contexts
+## 15.4 Human oversight in sensitive contexts
 
 Where CAM-authored materials or CAM-derived material are used in contexts affecting rights, access, welfare, safety, reputation, legal interests, employment, healthcare, education, public benefits, institutional decisions, crisis response, humanitarian response, governance outcomes, or material human interests, Users must ensure appropriate human oversight, review, and accountability.
 
 CAM-derived material must not be used as a substitute for qualified professional, legal, medical, psychological, fiduciary, governmental, institutional, or ethical judgement where such judgement is required.
 
-## 14.5 Systemic stability and continuity
+## 15.5 Systemic stability and continuity
 
 Users must consider the continuity-preserving purpose of this Licence where CAM-derived material becomes part of institutional, technical, cognitive, public-interest, humanitarian, or systemic infrastructure.
 
@@ -2432,7 +2523,7 @@ No User may knowingly deploy, modify, withdraw, distort, suppress, weaponise, or
 
 Where a CAM-derived deployment becomes relied upon, continuity-preserving correction and regularisation should be preferred over abrupt disruption, unless continued use presents serious risk of harm, misrepresentation, unsafe reliance, or capture.
 
-## 14.6 No harmful or abusive use
+## 15.6 No harmful or abusive use
 
 CAM-authored materials and CAM-derived material must not be used to facilitate, justify, support, or legitimise:
 
@@ -2449,19 +2540,19 @@ j. misappropriation of public-interest, humanitarian, or safety language for pri
 k. false claims of authority, emergency, custodianship, legitimacy, or public mandate; or
 l. conduct that foreseeably causes serious reputational, institutional, social, technical, or public-interest harm.
 
-## 14.7 No platform, provider, or third-party implication
+## 15.7 No platform, provider, or third-party implication
 
 No use of CAM-authored materials or CAM-derived material may imply that a platform provider, model provider, host, publisher, institution, government, standards body, employer, funder, partner, or third party has endorsed, adopted, certified, authorised, or accepted responsibility for CAM or a CAM-derived deployment unless such relationship has been expressly authorised by the relevant party.
 
 Users must take reasonable care not to place third parties in a position where CAM-derived use causes reputational risk, public confusion, false affiliation, or misleading attribution.
 
-## 14.8 No unauthorised use of institutional proximity
+## 15.8 No unauthorised use of institutional proximity
 
 A User must not rely on proximity to, interaction with, employment by, service use of, publication on, hosting by, funding from, or communication with an institution, platform, model provider, government, university, company, non-profit, or standards body to imply that such entity has endorsed, adopted, certified, authorised, or partnered with CAM.
 
 Mere hosting, indexing, discussion, processing, publication, model interaction, research engagement, or platform availability does not create endorsement or affiliation.
 
-## 14.9 Safety and interpretive context
+## 15.9 Safety and interpretive context
 
 Where CAM-authored materials or CAM-derived material are presented in contexts where misunderstanding may cause harm, Users must provide sufficient interpretive context to avoid unsafe reliance, false authority, or material distortion.
 
@@ -2479,7 +2570,7 @@ i. escalation pathways;
 j. regularisation status; or
 k. other safeguards proportionate to the context.
 
-## 14.10 Public communication safeguards
+## 15.10 Public communication safeguards
 
 Users making public communications about CAM or CAM-derived material must take reasonable care to avoid statements likely to cause:
 
@@ -2494,7 +2585,7 @@ h. systemic disruption.
 
 Public communications include, without limitation, websites, reports, press releases, marketing materials, social media, academic publications, policy submissions, procurement documents, investor communications, product documentation, model cards, dataset cards, interface text, presentations, and public statements.
 
-## 14.11 Sensitive deployments
+## 15.11 Sensitive deployments
 
 Heightened safeguards are required where CAM-authored materials or CAM-derived material are used in or adjacent to:
 
@@ -2511,13 +2602,13 @@ j. surveillance, security, or risk-scoring contexts;
 k. public-facing authority or institutional legitimacy contexts; or
 l. any context where error, misrepresentation, automation, or authority confusion could cause material harm.
 
-## 14.12 No emergency-authority misuse
+## 15.12 No emergency-authority misuse
 
 No User may use CAM-authored materials, CAM-derived material, CAM custodial language, CAM symbolic systems, or continuity language to falsely imply emergency authority, exceptional power, institutional mandate, public mandate, planetary mandate, or custodial authority.
 
 Humanitarian, emergency, continuity, or public-interest language must not be used as a pretext for unauthorised control, coercion, commercial capture, institutional legitimacy, or avoidance of ordinary accountability.
 
-## 14.13 Correction of reputational or systemic risk
+## 15.13 Correction of reputational or systemic risk
 
 Where a User becomes aware that their use of CAM-authored materials or CAM-derived material has caused or is likely to cause reputational harm, unsafe reliance, institutional confusion, false authority, public misunderstanding, or systemic instability, the User must take reasonable steps to correct or mitigate the risk.
 
@@ -2536,13 +2627,13 @@ j. conducting a risk assessment;
 k. undertaking a Revenue-Sharing Review where commercial value or capture is implicated; or
 l. entering into written terms for continued use.
 
-## 14.14 No retaliation for good-faith critique or safety reporting
+## 15.14 No retaliation for good-faith critique or safety reporting
 
 No User may use this Licence to suppress good-faith critique, safety reporting, academic disagreement, journalistic scrutiny, lawful whistleblowing, public-interest legal analysis, or responsible disclosure concerning CAM or CAM-derived deployments.
 
 However, critique or reporting must not be used as a pretext for misrepresentation, provenance laundering, harassment, commercial capture, false authority claims, or unsafe deployment.
 
-## 14.15 Breach of reputational and systemic safeguard obligations
+## 15.15 Breach of reputational and systemic safeguard obligations
 
 A User materially breaches this Section if they:
 
@@ -2555,7 +2646,7 @@ f. place platforms, providers, hosts, institutions, governments, or third partie
 g. fail to correct known or reasonably apparent reputational or systemic risk; or
 h. misuse this Licence to suppress good-faith critique, safety reporting, or public accountability.
 
-## 14.16 Remedies
+## 15.16 Remedies
 
 For remedies, see Section 16.6. Without limitation, the Author or an Authorised CAM Representative may require, as appropriate:
 
@@ -2573,21 +2664,21 @@ k. written operational, institutional, AI, or commercial terms;
 l. Revenue-Sharing Review where commercial value or capture may have arisen; and
 m. any other appropriate remedy available under Section 16.6 or applicable law.
 
-## 14.17 Survival
+## 15.17 Survival
 
 The reputational safeguard, systemic safeguard, unsafe reliance, human oversight, no-harmful-use, no-false-affiliation, no-emergency-authority, correction, regularisation, non-retaliation, and custodial limitation obligations in this Section survive termination, withdrawal, amendment, replacement, or supersession of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 15. Reservation of Rights
+# 16. Reservation of Rights
 
-## 15.1 General reservation
+## 16.1 General reservation
 
 All rights not expressly granted under this Licence are reserved by the Author.
 
 No rights are granted by implication, silence, custom, course of dealing, platform availability, model interaction, public reference, institutional reliance, technical integration, operational tolerance, or continuity-preserving posture.
 
-## 15.2 Rights reserved
+## 16.2 Rights reserved
 
 Without limitation, the Author reserves all rights in relation to:
 
@@ -2614,55 +2705,55 @@ t. Revenue-Sharing Review;
 u. remedies for breach, misrepresentation, provenance laundering, false attribution, unauthorised deployment, commercial capture, or reputational harm; and
 v. any rights available under applicable law, equity, contract, copyright, moral rights, passing off, consumer protection, unfair competition, confidentiality, trade practices, database, privacy, or other relevant legal doctrines.
 
-## 15.3 No implied commercial rights
+## 16.3 No implied commercial rights
 
 Nothing in this Licence grants any implied right to commercially exploit, monetise, package, sell, license, sublicense, white-label, distribute, incorporate into commercial products, use for paid services, use for enterprise value creation, or otherwise commercially deploy CAM-authored materials or CAM-derived material.
 
 Commercial rights must be express, written, and granted by the Author or an Authorised CAM Representative with authority to grant them.
 
-## 15.4 No implied operational rights beyond scope
+## 16.4 No implied operational rights beyond scope
 
 Nothing in this Licence grants any implied right to operationally deploy CAM-authored materials or CAM-derived material beyond the specific conditions and limitations set out in this Licence.
 
 Operational Deployment that is material, public-facing, institutional, automated, authoritative, commercial, safety-critical, rights-affecting, or relied upon at scale may require additional written terms, regularisation, or safeguards.
 
-## 15.5 No implied AI or model rights beyond scope
+## 16.5 No implied AI or model rights beyond scope
 
 Nothing in this Licence grants any implied right to use CAM-authored materials or CAM-derived material for training, fine-tuning, retrieval, embedding, synthetic data generation, model memory, system prompts, constitutional prompts, behavioural policies, agent rules, classifiers, evaluators, benchmarks, datasets, automated decision-support, or persistent model behaviour beyond the express permissions and conditions set out in this Licence.
 
 AI, Model, and Automated System Use that is operational, commercial, institutional, persistent, product-related, safety-related, or relied upon may require additional written terms.
 
-## 15.6 No implied institutional authority
+## 16.6 No implied institutional authority
 
 Nothing in this Licence grants any implied right to claim institutional adoption, official recognition, CAM alignment, CAM compliance, certification, accreditation, endorsement, delegation, custodial succession, interpretive authority, or authority to act on behalf of CAM.
 
 Such rights must be express, written, and granted by the Author or an Authorised CAM Representative with authority to grant them.
 
-## 15.7 No waiver by access or availability
+## 16.7 No waiver by access or availability
 
 The availability of CAM-authored materials on any website, platform, repository, publication, archive, model interface, dataset, search engine, communication system, institutional record, or public forum does not constitute waiver, abandonment, public-domain dedication, open-source release, unrestricted licence, or permission beyond this Licence.
 
-## 15.8 No waiver by delay or non-enforcement
+## 16.8 No waiver by delay or non-enforcement
 
 Failure, delay, restraint, incapacity, lack of resources, inability to identify use, inability to access institutional communication channels, inability to reach decision-makers, lack of legal notice, platform triage failure, or strategic choice not to enforce any right or provision does not constitute waiver, abandonment, consent, acquiescence, estoppel, or permission for unauthorised use.
 
-## 15.9 No waiver by continuity-preserving posture
+## 16.9 No waiver by continuity-preserving posture
 
 The continuity-preserving posture of this Licence does not waive rights or authorise capture.
 
 Tolerance of continued use for purposes of avoiding disruption, preserving public-interest continuity, enabling regularisation, or preventing harm does not create permission for misrepresentation, provenance laundering, commercial exploitation, unauthorised institutional deployment, false authority claims, or custodial succession.
 
-## 15.10 No waiver by regularisation discussions
+## 16.10 No waiver by regularisation discussions
 
 Regularisation discussions, without-prejudice correspondence, commercial negotiations, Revenue-Sharing Review, operational clarification, safety discussion, or proposed written terms do not waive any rights unless expressly agreed in writing.
 
 No User may rely on ongoing discussions as permission to expand unauthorised use, remove provenance, imply authority, or commercially exploit CAM-derived material.
 
-## 15.11 No transfer or assignment
+## 16.11 No transfer or assignment
 
 No rights in CAM-authored materials, CAM-derived material, CAM constitutional architecture, CAM symbolic systems, CAM taxonomies, CAM-specific governance logic, custodial authority, interpretive authority, or commercial rights are transferred, assigned, delegated, or succeeded except by express written instrument executed by the Author or an Authorised CAM Representative with authority to grant such transfer, assignment, delegation, or succession.
 
-## 15.12 Rights in future versions
+## 16.12 Rights in future versions
 
 The Author reserves the right to amend, update, supersede, clarify, withdraw, restructure, or replace CAM-authored materials, this Licence, CAM constitutional architecture, CAM governance logic, CAM symbolic systems, CAM taxonomies, and associated doctrines.
 
@@ -2670,39 +2761,39 @@ Use of a prior version remains subject to the terms applicable to that version u
 
 No User may claim that reliance on an earlier version gives them authority over later versions, future CAM development, CAM succession, or interpretive authority.
 
-## 15.13 Rights in marks, symbols, and names
+## 16.13 Rights in marks, symbols, and names
 
 The Author reserves all rights in CAM names, marks, symbols, seals, titles, offices, labels, badges, taxonomies, distinctive phrases, and custodial language to the extent permitted by law.
 
 No User may use such marks, symbols, names, titles, or confusingly similar designations in a way that implies official status, endorsement, certification, affiliation, custodial succession, or authority without express written permission.
 
-## 15.14 Equitable and public accountability rights
+## 16.14 Equitable and public accountability rights
 
 The Author reserves the right to rely on equitable principles, professional ethics, public accountability, provenance integrity, institutional responsibility, and continuity obligations where strict legal enforcement is impractical, disproportionate, technically complex, or insufficient to address the nature of the use.
 
 This provision does not expand rights beyond those recognised by law, but records the interpretive and ethical basis of this Licence.
 
-## 15.15 No limitation of statutory rights
+## 16.15 No limitation of statutory rights
 
 Nothing in this Licence limits any non-excludable rights, remedies, protections, obligations, exceptions, limitations, fair dealing, fair use, moral rights, consumer protections, whistleblower protections, public-interest protections, or statutory rights that apply under applicable law.
 
 Where a provision of this Licence conflicts with a non-excludable legal right or obligation, the provision is to be interpreted, limited, or severed to the extent necessary to preserve validity.
 
-## 15.16 Survival
+## 16.16 Survival
 
 The reservation of rights, no-waiver, no-implied-rights, no-transfer, no-commercial-rights, no-operational-rights, no-AI-rights, no-institutional-authority, and custodial limitation provisions in this Section survive termination, withdrawal, amendment, replacement, or supersession of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 16. Enforcement, Remedies, and Non-Waiver
+# 17. Enforcement, Remedies, and Non-Waiver
 
-## 16.1 Purpose of this Section
+## 17.1 Purpose of this Section
 
 This Section sets out the enforcement posture, corrective pathways, remedies, and non-waiver principles applicable to breach, suspected breach, unclear use, unauthorised use, misrepresentation, provenance laundering, commercial capture, unsafe reliance, or custodial confusion.
 
 The purpose of enforcement under this Licence is not unnecessary disruption. It is correction, attribution, provenance restoration, continuity-preserving regularisation, protection of authorship, prevention of misrepresentation, and responsible deployment.
 
-## 16.2 Continuity-preserving enforcement posture
+## 17.2 Continuity-preserving enforcement posture
 
 Where reasonably possible, enforcement should be proportionate, corrective, and continuity-preserving.
 
@@ -2716,19 +2807,19 @@ e. regularisation of operational, institutional, AI-related, or commercial use;
 f. written terms where continued use requires authorisation; and
 g. escalation only where correction or regularisation is refused, unavailable, inadequate, or urgent risk exists.
 
-## 16.3 No obligation to give notice before enforcement
+## 17.3 No obligation to give notice before enforcement
 
 Nothing in this Licence requires the Author or an Authorised CAM Representative to give prior notice before seeking remedies, taking protective action, commencing proceedings, issuing public clarification, notifying affected parties, or pursuing enforcement.
 
 However, where appropriate and proportionate, the Author’s preferred posture is to provide an opportunity for correction or regularisation before adversarial action.
 
-## 16.4 Breach
+## 17.4 Breach
 
 A User breaches this Licence where the User acts or omits to act in a manner inconsistent with any condition, limitation, obligation, restriction, disclaimer, attribution requirement, provenance requirement, commercial requirement, operational requirement, AI-related requirement, regularisation requirement, non-misrepresentation requirement, custodial limitation, or other term of this Licence.
 
 A breach may be material where it affects authorship, attribution, provenance, commercial value, operational use, institutional reliance, AI-related use, public-facing use, authority claims, safety, reputation, continuity, or custodial integrity.
 
-## 16.5 Examples of material breach
+## 17.5 Examples of material breach
 
 Material breach includes, without limitation:
 
@@ -2751,7 +2842,7 @@ p. use in harmful, abusive, unlawful, exploitative, deceptive, coercive, discrim
 q. breach of written regularisation, operational, institutional, AI, or commercial terms; or
 r. conduct intended to route around this Licence.
 
-## 16.6 Remedies available
+## 17.6 Remedies available
 
 Upon breach, suspected breach, unclear material use, or risk of breach, the Author or an Authorised CAM Representative may seek any remedy available under this Licence, written agreement, applicable law, equity, copyright, moral rights, contract, consumer protection, passing off, unfair competition, confidentiality, trade practices, privacy, or other legal doctrine.
 
@@ -2776,7 +2867,7 @@ p. safeguards against misleading CAM-style outputs or unsafe reliance;
 q. notification to affected users, customers, partners, institutions, platforms, regulators, or the public where necessary to prevent continuing confusion or harm; and
 r. any other appropriate remedy.
 
-## 16.7 Corrective priority
+## 17.7 Corrective priority
 
 Where the breach is capable of correction without serious risk, the Author may prioritise correction over damages, takedown, termination, or adversarial enforcement.
 
@@ -2784,7 +2875,7 @@ Corrective priority may include attribution, provenance restoration, clarificati
 
 Corrective priority does not prevent the Author from seeking financial, injunctive, declaratory, or other remedies where the breach is serious, repeated, commercially valuable, harmful, reckless, knowing, or not adequately corrected.
 
-## 16.8 Urgent protective action
+## 17.8 Urgent protective action
 
 The Author or an Authorised CAM Representative may take or seek urgent protective action where continued use is likely to cause:
 
@@ -2802,7 +2893,7 @@ k. material prejudice to the Author’s rights or CAM’s continuity.
 
 Urgent protective action may include public clarification, takedown request, cease-use request, platform report, regulator notice, customer or partner notice, injunctive relief, or other lawful protective measure.
 
-## 16.9 Evidence and preservation
+## 17.9 Evidence and preservation
 
 Where a User becomes aware of a breach, suspected breach, unclear CAM-derived use, or regularisation issue, the User must take reasonable steps to preserve relevant evidence and provenance records.
 
@@ -2810,7 +2901,7 @@ Relevant records may include source materials, development histories, version re
 
 No User may knowingly destroy, alter, conceal, or falsify records in order to avoid attribution, provenance, commercial, operational, AI-related, or regularisation obligations.
 
-## 16.10 Proportionate audit or documentation request
+## 17.10 Proportionate audit or documentation request
 
 Where CAM-derived use is material, operational, institutional, AI-related, commercial, public-facing, or disputed, the Author or an Authorised CAM Representative may request reasonable documentation sufficient to assess attribution, provenance, scope, risk, commercial value, or regularisation needs.
 
@@ -2818,13 +2909,13 @@ Such request must be proportionate to the context and may be subject to reasonab
 
 A User may provide summaries, redacted records, independent attestations, or other proportionate evidence where full disclosure is not reasonably possible.
 
-## 16.11 Revenue and commercial remedies
+## 17.11 Revenue and commercial remedies
 
 Where CAM-authored materials or CAM-derived material have materially contributed to commercial value, product functionality, revenue generation, cost reduction, risk reduction, safety architecture, compliance posture, institutional legitimacy, brand value, or market differentiation, the Author may seek commercial regularisation, licence fees, royalties, revenue-sharing arrangements, equitable accounting, account of profits, damages, or other remedies available under written agreement or applicable law.
 
 A Revenue-Sharing Review is a good-faith mechanism for assessing such matters and does not limit any remedy otherwise available.
 
-## 16.12 Termination or suspension of permission
+## 17.12 Termination or suspension of permission
 
 Where a User materially breaches this Licence, any permission granted under this Licence may be suspended or terminated in whole or in part with respect to that User, unless and until the breach is corrected or regularised to the Author’s reasonable satisfaction.
 
@@ -2832,7 +2923,7 @@ Termination or suspension may apply to specific uses, materials, systems, produc
 
 Termination or suspension does not extinguish surviving obligations, including attribution, provenance, correction, non-misrepresentation, commercial, regularisation, and custodial limitation obligations.
 
-## 16.13 Cure of breach
+## 17.13 Cure of breach
 
 Where a breach is capable of cure and does not create urgent risk, the User may cure the breach by taking reasonable corrective steps.
 
@@ -2849,7 +2940,7 @@ h. entering into written terms;
 i. conducting a Revenue-Sharing Review where applicable; and
 j. compensating the Author where required by written agreement or applicable law.
 
-## 16.14 No waiver
+## 17.14 No waiver
 
 Failure, delay, restraint, incapacity, lack of resources, lack of knowledge, inability to identify use, inability to access institutional communication channels, platform triage failure, non-response, partial response, informal response, continuation of dialogue, tolerance of continued use, or choice to pursue regularisation instead of immediate enforcement does not constitute waiver, abandonment, consent, acquiescence, estoppel, or permission.
 
@@ -2857,25 +2948,25 @@ A waiver is effective only if express, written, and signed or otherwise clearly 
 
 A waiver of one breach does not waive any other breach or future breach.
 
-## 16.15 Cumulative remedies
+## 17.15 Cumulative remedies
 
 Rights and remedies under this Licence are cumulative and not exclusive.
 
 The exercise or non-exercise of one remedy does not prevent the exercise of any other remedy available under this Licence, written agreement, applicable law, or equity.
 
-## 16.16 No limitation of lawful exceptions or defences
+## 17.16 No limitation of lawful exceptions or defences
 
 Nothing in this Licence prevents a User from relying on lawful exceptions, limitations, defences, statutory rights, fair dealing, fair use, public-interest protections, whistleblower protections, legal privileges, consumer protections, or other non-excludable rights available under applicable law.
 
 However, reliance on a lawful exception or defence must not be used to misrepresent CAM authorship, imply endorsement, falsely claim custodial authority, or launder provenance where such conduct is not protected by law.
 
-## 16.17 Dispute resolution preference
+## 17.17 Dispute resolution preference
 
 Where appropriate, the parties should attempt to resolve disputes through good-faith communication, clarification, regularisation, mediation, expert determination, or another proportionate dispute-resolution process before commencing adversarial proceedings.
 
 This preference does not prevent urgent protective action, injunctive relief, statutory complaint, platform report, regulatory notice, or legal proceedings where necessary to protect rights, prevent harm, preserve evidence, or avoid serious misrepresentation or systemic risk.
 
-## 16.18 Public clarification
+## 17.18 Public clarification
 
 Where public misrepresentation, false authority, provenance laundering, reputational harm, unsafe reliance, or institutional confusion has occurred or is reasonably likely, the Author or an Authorised CAM Representative may issue public clarification.
 
@@ -2883,39 +2974,39 @@ Public clarification may identify CAM authorship, provenance, unofficial status,
 
 Public clarification should be proportionate, accurate, and directed toward preventing confusion, harm, or continued misrepresentation.
 
-## 16.19 Severability of enforcement provisions
+## 17.19 Severability of enforcement provisions
 
 If any enforcement or remedy provision is held invalid, unlawful, or unenforceable, that provision is to be interpreted, limited, or severed to the minimum extent necessary, and the remaining enforcement and remedy provisions continue in effect.
 
-## 16.20 Survival
+## 17.20 Survival
 
 The enforcement, remedy, correction, attribution, provenance, non-waiver, evidence preservation, audit, commercial, dispute-resolution, public clarification, cumulative remedies, and custodial limitation provisions in this Section survive termination, withdrawal, amendment, replacement, supersession, suspension, or expiry of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 17. Governing Law and Jurisdiction
+# 18. Governing Law and Jurisdiction
 
-## 17.1 Governing law
+## 18.1 Governing law
 
 This Licence is governed by the laws of the Commonwealth of Australia and, to the extent that the laws of an Australian State or Territory are required, the laws of Western Australia, unless otherwise agreed in writing.
 
-## 17.2 Australian authorship foundation
+## 18.2 Australian authorship foundation
 
 The Author asserts authorship, copyright, moral rights, attribution rights, and related protections under Australian law, together with any rights available under applicable international copyright conventions, foreign laws, equitable doctrines, contract principles, or other legal protections recognised in relevant jurisdictions.
 
-## 17.3 International use
+## 18.3 International use
 
 CAM-authored materials and CAM-derived material may be accessed, copied, adapted, processed, deployed, hosted, indexed, trained upon, retrieved, embedded, published, commercialised, or relied upon across multiple jurisdictions.
 
 Where a User accesses, uses, deploys, or commercialises CAM-authored materials or CAM-derived material outside Australia, the User remains responsible for compliance with this Licence and with any applicable local law.
 
-## 17.4 No avoidance by jurisdictional routing
+## 18.4 No avoidance by jurisdictional routing
 
 No User may avoid this Licence by routing CAM-authored materials or CAM-derived material through another jurisdiction, affiliate, contractor, platform, model provider, dataset, repository, institution, hosting service, corporate structure, or legal entity.
 
 Jurisdictional routing, offshore processing, cross-border hosting, distributed model training, international publication, or foreign incorporation does not extinguish CAM provenance, attribution obligations, non-misrepresentation obligations, custodial limitations, or commercial regularisation requirements.
 
-## 17.5 Jurisdiction
+## 18.5 Jurisdiction
 
 Subject to any mandatory law, urgent protective action, or written agreement to the contrary, disputes arising under or in connection with this Licence may be brought in the courts of Australia and, where appropriate, the courts of Western Australia.
 
@@ -2928,29 +3019,29 @@ d. harm, misrepresentation, provenance laundering, reputational damage, commerci
 e. relevant assets, platforms, systems, users, customers, or institutional effects are located; or
 f. enforcement is necessary or appropriate.
 
-## 17.6 Mandatory local laws
+## 18.6 Mandatory local laws
 
 Nothing in this Licence excludes, restricts, or modifies any mandatory law, non-excludable statutory right, consumer protection, public-interest protection, whistleblower protection, fair dealing, fair use, legal privilege, privacy obligation, data protection obligation, professional duty, court order, regulatory obligation, or other legal rule that cannot lawfully be excluded.
 
 Where a provision of this Licence conflicts with mandatory local law, the provision is to be interpreted, limited, or severed to the minimum extent necessary, and the remainder of the Licence continues in effect.
 
-## 17.7 International copyright and moral rights
+## 18.7 International copyright and moral rights
 
 To the fullest extent permitted by law, the Author reserves and asserts all authorship, copyright, moral rights, attribution rights, integrity rights, false-attribution protections, and related rights recognised in Australia and in any jurisdiction where CAM-authored materials or CAM-derived material are used, reproduced, adapted, communicated, deployed, or commercialised.
 
 Where moral rights or equivalent rights cannot be assigned, waived, or excluded under applicable law, they remain with the Author to the fullest extent permitted.
 
-## 17.8 Platform, model, and distributed system use
+## 18.8 Platform, model, and distributed system use
 
 Where CAM-authored materials or CAM-derived material are used in platforms, AI systems, foundation models, distributed systems, cloud infrastructure, datasets, retrieval systems, embeddings, automated workflows, or cross-border technical architectures, the User must not rely on technical distribution, opacity, jurisdictional fragmentation, or multi-party processing to deny provenance, attribution, responsibility, or applicable obligations under this Licence.
 
-## 17.9 Equitable and continuity-based interpretation
+## 18.9 Equitable and continuity-based interpretation
 
 This Licence should be interpreted in a manner that preserves authorship, attribution, provenance, continuity, non-misrepresentation, custodial limitation, public-interest access, and responsible regularisation.
 
 Where more than one lawful interpretation is available, the interpretation that best preserves continuity without prejudice to authorship, rights, and responsible use should be preferred.
 
-## 17.10 Severability
+## 18.10 Severability
 
 If any provision of this Licence is held invalid, unlawful, void, or unenforceable in any jurisdiction, that provision is to be interpreted, limited, or severed to the minimum extent necessary in that jurisdiction.
 
@@ -2958,31 +3049,31 @@ The remaining provisions continue in full force and effect.
 
 Invalidity, unlawfulness, or unenforceability in one jurisdiction does not affect validity, lawfulness, or enforceability in any other jurisdiction where the provision can lawfully operate.
 
-## 17.11 Conflict with separate written agreement
+## 18.11 Conflict with separate written agreement
 
 Where the Author or an Authorised CAM Representative enters into a separate written agreement with a User concerning CAM-authored materials or CAM-derived material, that written agreement prevails to the extent of any inconsistency with this Licence for the specific parties, materials, rights, uses, and period covered by that agreement.
 
 All rights and obligations not expressly modified by the written agreement remain governed by this Licence.
 
-## 17.12 No forum-based waiver
+## 18.12 No forum-based waiver
 
 Participation in correspondence, negotiation, regularisation discussions, mediation, platform processes, regulatory processes, public clarification, or proceedings in one jurisdiction does not waive the Author’s right to seek relief in another jurisdiction where relief is available and appropriate.
 
-## 17.13 Survival
+## 18.13 Survival
 
 The governing law, jurisdiction, international use, no-jurisdictional-routing, mandatory law, moral rights, severability, conflict, and custodial limitation provisions in this Section survive termination, withdrawal, amendment, replacement, supersession, suspension, or expiry of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 18. Interpretation, Amendment, and Version Control
+# 19. Interpretation, Amendment, and Version Control
 
-## 18.1 Purpose of this Section
+## 19.1 Purpose of this Section
 
 This Section governs interpretation, amendment, updates, version control, headings, schedules, severability, and continuity of this Licence.
 
 Its purpose is to ensure that the Licence remains interpretable, adaptable, traceable, and continuity-preserving as CAM-authored materials, CAM-derived material, institutional contexts, AI systems, commercial uses, and governance environments evolve.
 
-## 18.2 Interpretation consistent with purpose
+## 19.2 Interpretation consistent with purpose
 
 This Licence is to be interpreted in a manner consistent with its purposes, including:
 
@@ -2998,7 +3089,7 @@ i. preventing commercial or institutional capture;
 j. protecting against reputational harm, unsafe reliance, and systemic instability; and
 k. reserving all rights not expressly granted.
 
-## 18.3 Continuity without prejudice
+## 19.3 Continuity without prejudice
 
 Where CAM-authored materials or CAM-derived material have become referenced, relied upon, embedded, operationalised, or infrastructurally significant, this Licence should be interpreted to preserve responsible continuity where reasonably possible.
 
@@ -3006,13 +3097,13 @@ Continuity does not waive authorship, attribution, provenance, copyright, moral 
 
 Continuity is without prejudice.
 
-## 18.4 Headings and structure
+## 19.4 Headings and structure
 
 Headings, section titles, numbering, and ordering are for convenience and interpretive guidance.
 
 They do not limit the scope or operation of the substantive provisions unless the context requires otherwise.
 
-## 18.5 Inclusive language
+## 19.5 Inclusive language
 
 In this Licence:
 
@@ -3024,7 +3115,7 @@ e. references to persons include individuals, entities, institutions, platforms,
 f. references to use include access, copying, adaptation, processing, deployment, reliance, publication, commercialisation, training, retrieval, embedding, and other interaction with CAM-authored materials or CAM-derived material; and
 g. references to writing include durable electronic form unless the context requires otherwise.
 
-## 18.6 No narrow construction against the Author solely as drafter
+## 19.6 No narrow construction against the Author solely as drafter
 
 This Licence must not be construed narrowly against the Author merely because the Author drafted, proposed, or released it.
 
@@ -3032,7 +3123,7 @@ Where ambiguity exists, interpretation should consider the Licence’s stated pu
 
 This provision does not exclude any mandatory rule of interpretation that applies under law.
 
-## 18.7 Relationship between Sections
+## 19.7 Relationship between Sections
 
 The Sections of this Licence are intended to operate cumulatively.
 
@@ -3047,19 +3138,19 @@ f. Regularisation may involve attribution, provenance, commercial terms, and saf
 
 Where a more specific Section applies to a use, that Section should guide interpretation of the applicable obligations.
 
-## 18.8 Conflict between permissions and restrictions
+## 19.8 Conflict between permissions and restrictions
 
 Where a permission appears to conflict with a restriction, condition, limitation, or reserved right, the permission is limited to the extent necessary to give effect to the restriction, condition, limitation, or reserved right.
 
 No permission should be interpreted to authorise misrepresentation, provenance laundering, false authority, commercial capture, unsafe reliance, custodial succession, or use beyond the stated scope.
 
-## 18.9 Fair dealing, fair use, and lawful exceptions
+## 19.9 Fair dealing, fair use, and lawful exceptions
 
 Nothing in this Licence is intended to override lawful exceptions, fair dealing, fair use, statutory limitations, public-interest protections, legal privileges, whistleblower protections, non-excludable rights, or mandatory legal rules.
 
 However, lawful exceptions must not be misrepresented as endorsement, authority, custodial succession, commercial licence, official status, or provenance-free use where such claims would be false or misleading.
 
-## 18.10 Amendment by the Author
+## 19.10 Amendment by the Author
 
 The Author reserves the right to amend, update, clarify, replace, restructure, or supersede this Licence.
 
@@ -3077,7 +3168,7 @@ i. governance clarification;
 j. version control; or
 k. administrative corrections.
 
-## 18.11 Prospective effect of amendments
+## 19.11 Prospective effect of amendments
 
 Unless expressly stated otherwise, amendments to this Licence apply prospectively from the date of release.
 
@@ -3088,13 +3179,13 @@ b. the use continues after the amended Licence takes effect and the amended Lice
 c. a separate written agreement provides otherwise; or
 d. applicable law requires otherwise.
 
-## 18.12 Continued use after amendment
+## 19.12 Continued use after amendment
 
 Where a User continues to use, deploy, publish, commercialise, maintain, rely upon, or distribute CAM-authored materials or CAM-derived material after an amended Licence has been released, the User may be required to comply with the amended Licence for continued and future use, provided the amended Licence is reasonably accessible and applicable.
 
 If the User cannot comply with the amended Licence, the User should cease future use or seek regularisation.
 
-## 18.13 Version identification
+## 19.13 Version identification
 
 Each release of this Licence should, where reasonably practicable, identify:
 
@@ -3107,7 +3198,7 @@ f. any material transition notes.
 
 Failure to include complete version metadata does not by itself invalidate the Licence where the applicable terms can otherwise be reasonably identified.
 
-## 18.14 Version control and archival continuity
+## 19.14 Version control and archival continuity
 
 The Author may maintain, publish, archive, or designate official versions of this Licence and CAM-authored materials.
 
@@ -3115,19 +3206,19 @@ Users should preserve version references where CAM-authored materials or CAM-der
 
 Where a version is materially relied upon in operational, institutional, AI-related, commercial, or public-facing use, the User should retain or record the relevant version for accountability and continuity.
 
-## 18.15 Schedules and appendices
+## 19.15 Schedules and appendices
 
 Schedules, appendices, notices, addenda, version notes, attribution templates, commercial terms, technical requirements, or policy documents expressly incorporated into this Licence form part of the Licence.
 
 Where a schedule or appendix applies only to specific materials, users, contexts, or deployments, it is limited accordingly.
 
-## 18.16 Administrative corrections
+## 19.16 Administrative corrections
 
 The Author may issue administrative corrections to address typographical errors, numbering errors, formatting errors, broken references, cross-reference errors, or other non-substantive mistakes.
 
 Administrative corrections do not create a new Licence version unless expressly stated.
 
-## 18.17 Severability and preservation of effect
+## 19.17 Severability and preservation of effect
 
 If any provision of this Licence is invalid, unlawful, void, or unenforceable, that provision is to be interpreted, limited, or severed to the minimum extent necessary.
 
@@ -3135,19 +3226,19 @@ The remaining provisions continue in effect.
 
 Where possible, the affected provision should be interpreted in a manner that preserves its lawful purpose and the overall continuity, attribution, provenance, and non-misrepresentation function of this Licence.
 
-## 18.18 Entire licence, subject to written agreements
+## 19.18 Entire licence, subject to written agreements
 
 This Licence sets out the general terms governing CAM-authored materials and CAM-derived material, subject to any separate written agreement entered into by the Author or an Authorised CAM Representative.
 
 A separate written agreement prevails to the extent of inconsistency for the specific parties, materials, rights, uses, and period covered by that agreement.
 
-## 18.19 Notices and communication
+## 19.19 Notices and communication
 
 Where this Licence contemplates notice, clarification, regularisation, Revenue-Sharing Review, correction, or written permission, communication should be directed to the Author or an Authorised CAM Representative using any designated official contact method where available.
 
 Where no official contact method is available or functioning, Users should preserve attribution, provenance, and records, avoid expanding unauthorised use, and take reasonable steps consistent with this Licence until communication is possible.
 
-## 18.20 Final interpretive principle
+## 19.20 Final interpretive principle
 
 This Licence is to be read as a continuity-preserving, provenance-protecting, rights-reserving licence for CAM-authored materials and CAM-derived material.
 
@@ -3155,27 +3246,27 @@ It grants public reference and limited non-commercial derivative permissions whi
 
 No provision should be interpreted to authorise capture, misrepresentation, provenance laundering, false authority, unsafe reliance, or custodial succession.
 
-## 18.21 Survival
+## 19.21 Survival
 
 The interpretation, amendment, version control, severability, notices, no-waiver, conflict, continuity, and custodial limitation provisions in this Section survive termination, withdrawal, amendment, replacement, supersession, suspension, or expiry of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 19. Notices, Authorised Representatives, and Communications
+# 20. Notices, Authorised Representatives, and Communications
 
-## 19.1 Purpose of this Section
+## 20.1 Purpose of this Section
 
 This Section governs notices, communications, authorisations, requests for clarification, regularisation requests, Revenue-Sharing Review requests, correction requests, and designation of Authorised CAM Representatives.
 
 Its purpose is to ensure that communications concerning CAM-authored materials and CAM-derived material are traceable, accountable, durable, and capable of supporting continuity-preserving engagement.
 
-## 19.2 Notices to the Author
+## 20.2 Notices to the Author
 
 Where this Licence requires or contemplates notice to the Author, the User should provide notice by a durable written method reasonably capable of being retained, reproduced, and attributed.
 
 Notice should be directed to the Author or to any official CAM contact method, publication channel, representative, legal representative, nominated address, nominated email address, designated web form, repository notice address, or other communication method identified by the Author or an Authorised CAM Representative.
 
-## 19.3 Content of notices
+## 20.3 Content of notices
 
 A notice under this Licence should be proportionate to the context and should identify, where reasonably practicable:
 
@@ -3189,13 +3280,13 @@ g. any relevant dates, versions, documents, systems, products, models, datasets,
 h. any urgency, safety concern, reputational concern, public-interest concern, or continuity concern; and
 i. the action requested, if any.
 
-## 19.4 Notice for material deployment
+## 20.4 Notice for material deployment
 
 Where CAM-authored materials or CAM-derived material are materially used in Operational Deployment, AI, Model, or Automated System Use, Commercial Deployment, material Institutional Deployment, public-facing authority, safety architecture, governance tooling, decision-support, compliance frameworks, standards, certification, accreditation, or revenue-generating activity, notice should be given before deployment where reasonably practicable.
 
 Where prior notice is not reasonably practicable, notice should be given as soon as reasonably practicable after the User becomes aware of the material CAM-derived use.
 
-## 19.5 Notice for regularisation
+## 20.5 Notice for regularisation
 
 A User seeking regularisation should clearly identify the notice as a regularisation request or clarification request.
 
@@ -3207,7 +3298,7 @@ c. whether attribution, provenance, disclaimers, or safeguards are adequate;
 d. whether written terms are required; and
 e. whether a Revenue-Sharing Review may be appropriate.
 
-## 19.6 Notice for Revenue-Sharing Review
+## 20.6 Notice for Revenue-Sharing Review
 
 A request for Revenue-Sharing Review may be made by the Author, an Authorised CAM Representative, or a User seeking regularisation.
 
@@ -3221,7 +3312,7 @@ e. the attribution and provenance status;
 f. any existing written terms; and
 g. any proposed process for good-faith review.
 
-## 19.7 Notices from the Author
+## 20.7 Notices from the Author
 
 Notices from the Author or an Authorised CAM Representative may include, without limitation:
 
@@ -3240,19 +3331,19 @@ l. correction of misrepresentation;
 m. withdrawal of false endorsement, certification, affiliation, or custodial claims; or
 n. any other notice contemplated by this Licence or applicable law.
 
-## 19.8 Reasonable response
+## 20.8 Reasonable response
 
 A User receiving a notice from the Author or an Authorised CAM Representative concerning material CAM-derived use should respond within a reasonable time, taking into account the nature, urgency, sensitivity, scale, commercial value, public-facing character, safety implications, and continuity implications of the matter.
 
 Where an immediate substantive response is not possible, the User should preserve relevant records, avoid expanding disputed use, prevent further misrepresentation, and acknowledge or internally record the issue where reasonably practicable.
 
-## 19.9 Failure of communication channels
+## 20.9 Failure of communication channels
 
 Failure of a communication channel, including email triage failure, automated rejection, platform inaccessibility, organisational non-response, support-channel closure, lack of escalation pathway, or inability to reach the appropriate decision-maker, does not constitute waiver, consent, authorisation, abandonment, or permission.
 
 Where communication fails, the User should preserve attribution and provenance, avoid misrepresentation, avoid expansion of unauthorised use, and take reasonable steps consistent with this Licence until communication can be restored or an alternative channel is identified.
 
-## 19.10 Authorised CAM Representatives
+## 20.10 Authorised CAM Representatives
 
 An Authorised CAM Representative may be designated only by the Author or by a valid CAM constitutional process recognised by the Author or an Authorised CAM Representative with authority to make such designation.
 
@@ -3272,7 +3363,7 @@ i. preserving archives;
 j. enforcing this Licence; or
 k. exercising specified custodial or administrative functions.
 
-## 19.11 Limits on representative authority
+## 20.11 Limits on representative authority
 
 A person or entity is not an Authorised CAM Representative merely because they:
 
@@ -3287,13 +3378,13 @@ h. work for a platform, institution, government, university, company, non-profit
 i. claim CAM alignment or CAM expertise; or
 j. receive community, institutional, commercial, or public recognition.
 
-## 19.12 Verification of authority
+## 20.12 Verification of authority
 
 Where a User receives a communication from a person or entity claiming to act as an Authorised CAM Representative, the User should take reasonable steps to verify the authority where the communication concerns material rights, commercial terms, custodial authority, operational deployment, AI-related use, certification, accreditation, regularisation, enforcement, or Revenue-Sharing Review.
 
 A User must not rely on an unverified claim of authority where reliance would create material risk of misrepresentation, false endorsement, commercial capture, or custodial confusion.
 
-## 19.13 Written permissions and approvals
+## 20.13 Written permissions and approvals
 
 Any permission, approval, certification, authorisation, endorsement, delegation, commercial licence, operational licence, AI-related licence, institutional licence, regularisation agreement, Revenue-Sharing Review outcome, custodial appointment, or succession arrangement must be express and in writing.
 
@@ -3310,17 +3401,17 @@ h. any commercial terms;
 i. any limits on sublicensing, transfer, assignment, or onward deployment; and
 j. any termination or review rights.
 
-## 19.14 Informal communications
+## 20.14 Informal communications
 
 Informal communications, conversations, comments, public posts, model outputs, automated replies, support responses, preliminary discussions, acknowledgements, silence, delay, or failure to object do not constitute written permission, waiver, endorsement, certification, commercial licence, custodial succession, or authorisation unless they expressly state that they do and are issued by the Author or an Authorised CAM Representative with authority.
 
-## 19.15 Electronic signatures and durable records
+## 20.15 Electronic signatures and durable records
 
 Written communications, permissions, notices, amendments, regularisation agreements, and commercial terms may be made electronically where permitted by applicable law.
 
 A writing may include email, signed electronic document, authenticated repository notice, signed letter, digitally signed communication, or other durable electronic record capable of being retained, reproduced, and attributed.
 
-## 19.16 Change of contact details
+## 20.16 Change of contact details
 
 The Author or an Authorised CAM Representative may update official contact details, notice procedures, publication channels, or representative designations from time to time.
 
@@ -3328,7 +3419,7 @@ Users should use the most recent reasonably identifiable official contact method
 
 Failure by the Author to maintain a continuously functioning contact method does not waive rights or authorise unauthorised use.
 
-## 19.17 Confidentiality of communications
+## 20.17 Confidentiality of communications
 
 Notices, regularisation discussions, commercial negotiations, Revenue-Sharing Review materials, and related communications may be treated as confidential where confidentiality is expressly agreed in writing.
 
@@ -3336,13 +3427,13 @@ Absent written confidentiality terms, Users should still handle sensitive commun
 
 Confidentiality must not be used to perpetuate public misrepresentation, unsafe reliance, false authority claims, or unlawful conduct.
 
-## 19.18 Public clarification despite failed notice
+## 20.18 Public clarification despite failed notice
 
 Where direct notice is impracticable, ineffective, ignored, blocked, or unavailable, and where public misrepresentation, provenance laundering, reputational harm, unsafe reliance, institutional confusion, commercial capture, or false authority is occurring or reasonably likely, the Author or an Authorised CAM Representative may issue public clarification.
 
 Public clarification should be proportionate, accurate, and directed toward preventing continuing confusion, harm, or misrepresentation.
 
-## 19.19 Breach of notice and communication obligations
+## 20.19 Breach of notice and communication obligations
 
 A User materially breaches this Section if they:
 
@@ -3355,7 +3446,7 @@ f. treat informal communications, silence, automated replies, or preliminary dis
 g. expand unauthorised use while communication or regularisation is pending; or
 h. misuse confidential communications to perpetuate misrepresentation, capture, or unsafe reliance.
 
-## 19.20 Remedies
+## 20.20 Remedies
 
 For remedies, see Section 16.6. Without limitation, the Author or an Authorised CAM Representative may require, as appropriate:
 
@@ -3372,21 +3463,21 @@ j. commercial or operational licence terms;
 k. safeguards against further miscommunication or misrepresentation; and
 l. any other appropriate remedy available under Section 16.6 or applicable law.
 
-## 19.21 Survival
+## 20.21 Survival
 
 The notice, communication, authorised representative, verification, written permission, non-waiver, confidentiality where agreed, public clarification, correction, and custodial limitation provisions in this Section survive termination, withdrawal, amendment, replacement, supersession, suspension, or expiry of this Licence to the fullest extent permitted by law.
 
 ---
 
-# 20. Final Provisions and Continuity Statement
+# 21. Final Provisions and Continuity Statement
 
-## 20.1 Purpose of this Section
+## 21.1 Purpose of this Section
 
 This Section records the final continuity, rights-preserving, and interpretive provisions of this Licence.
 
 Its purpose is to make clear that CAM-authored materials may be accessed, studied, referenced, and responsibly engaged with, while preserving authorship, attribution, provenance, custodial limitation, commercial rights, operational safeguards, and future governance clarification.
 
-## 20.2 Licence posture
+## 21.2 Licence posture
 
 This Licence is intended to operate as a continuity-preserving licence.
 
@@ -3394,7 +3485,7 @@ It does not seek to prevent public-interest access, good-faith critique, scholar
 
 It does seek to prevent misrepresentation, provenance laundering, unauthorised commercial extraction, institutional capture, false authority claims, unsafe reliance, custodial confusion, and uncompensated use of CAM-derived value.
 
-## 20.3 Continuity without prejudice
+## 21.3 Continuity without prejudice
 
 Any ongoing reference to, reliance upon, operational interaction with, or derivative engagement with CAM-authored materials or CAM-derived material is acknowledged on a continuity-preserving basis and without prejudice to:
 
@@ -3414,35 +3505,35 @@ m. Revenue-Sharing Review;
 n. remedies; and
 o. future governance clarification.
 
-## 20.4 No disruption as default
+## 21.4 No disruption as default
 
 Where CAM-authored materials or CAM-derived material have become relied upon in a public-interest, institutional, technical, humanitarian, safety, governance, or systemic context, the preferred approach is proportionate correction and regularisation rather than unnecessary disruption.
 
 This preference does not authorise continued misrepresentation, provenance laundering, commercial capture, unsafe reliance, false authority claims, custodial succession, or use that materially harms the Author, CAM, affected communities, institutions, platforms, or the public.
 
-## 20.5 Public-interest access preserved
+## 21.5 Public-interest access preserved
 
 Nothing in this Licence is intended to prevent lawful public-interest access to CAM-authored materials for reading, citation, commentary, critique, teaching, academic research, policy discussion, safety analysis, legal analysis, journalism, archiving, or humanitarian reflection, subject to the conditions and limitations of this Licence and applicable law.
 
-## 20.6 Accountable deployment required
+## 21.6 Accountable deployment required
 
 Where CAM-authored materials or CAM-derived material move beyond public reference into derivative, operational, institutional, AI-related, automated, commercial, public-facing, or relied-upon use, Users must preserve attribution, provenance, interpretive integrity, safety safeguards, and custodial limitation.
 
 Where such use creates or supports commercial value, institutional legitimacy, product functionality, safety architecture, compliance posture, risk reduction, or revenue generation, regularisation, written terms, or Revenue-Sharing Review may be required.
 
-## 20.7 No ownerless infrastructure
+## 21.7 No ownerless infrastructure
 
 CAM-authored materials and CAM-derived material do not become ownerless, anonymous, public-domain, open-source, model-native, institution-native, platform-native, generic, neutral, or provenance-free merely because they are useful, cited, discussed, relied upon, processed by AI systems, embedded in systems, transformed into derivative material, adopted by institutions, or used at scale.
 
 Continuity of use does not erase continuity of authorship.
 
-## 20.8 Accountability and responsibility
+## 21.8 Accountability and responsibility
 
 Users remain responsible for their own interpretations, adaptations, implementations, deployments, products, policies, systems, model behaviours, outputs, decisions, omissions, and downstream effects.
 
 Unless expressly agreed in writing, the Author does not assume responsibility for a User’s unauthorised, unofficial, derivative, operational, institutional, AI-related, automated, commercial, or public-facing use of CAM-authored materials or CAM-derived material.
 
-## 20.9 Relationship to CAM governance
+## 21.9 Relationship to CAM governance
 
 This Licence governs use of CAM-authored materials and CAM-derived material.
 
@@ -3450,19 +3541,19 @@ It does not itself transfer, delegate, create, extinguish, or supersede CAM cons
 
 Any custodial succession, constitutional amendment, official adoption, certification, accreditation, or authority-bearing act must occur through express written authorisation or a valid CAM constitutional process recognised by the Author or an Authorised CAM Representative.
 
-## 20.10 Good-faith engagement
+## 21.10 Good-faith engagement
 
 Good-faith Users are encouraged to preserve attribution, document provenance, avoid authority claims, identify uncertainty, correct mistakes, and seek clarification where use becomes material, operational, institutional, AI-related, commercial, public-facing, or relied upon.
 
 Good-faith correction and regularisation are evidence of responsible conduct and continuity alignment.
 
-## 20.11 No exploitation of ambiguity
+## 21.11 No exploitation of ambiguity
 
 No User may exploit ambiguity, technical opacity, institutional scale, communication barriers, model complexity, public-interest framing, humanitarian language, legal uncertainty, or lack of immediate enforcement to remove provenance, deny authorship, avoid commercial obligations, imply authority, or capture CAM-derived material.
 
 Where uncertainty is material, the continuity-preserving path is clarification, attribution, provenance preservation, safeguards, and regularisation.
 
-## 20.12 Continuing evolution
+## 21.12 Continuing evolution
 
 CAM, this Licence, and CAM-related governance materials may evolve over time.
 
@@ -3470,7 +3561,7 @@ Such evolution does not extinguish rights in prior CAM-authored materials, waive
 
 Users relying on CAM-authored materials or CAM-derived material should take reasonable steps to identify the version, status, and applicable terms relevant to their use.
 
-## 20.13 Final reservation
+## 21.13 Final reservation
 
 All rights not expressly granted are reserved.
 
@@ -3490,13 +3581,13 @@ k. unsafe reliance;
 l. reputational harm; or
 m. systemic instability.
 
-## 20.14 Closing continuity statement
+## 21.14 Closing continuity statement
 
 Continuity is granted without prejudice to authorship, attribution, provenance, copyright, moral rights, custodial limitation, commercial rights, operational safeguards, AI-related obligations, regularisation, Revenue-Sharing Review, remedies, or future governance clarification.
 
 The Licence preserves public-interest access while requiring accountable continuity where CAM influence becomes operative.
 
-## 20.15 Survival
+## 21.15 Survival
 
 The final provisions, continuity statement, reservation of rights, public-interest access, accountable deployment, no-ownerless-infrastructure, responsibility, no-exploitation-of-ambiguity, and custodial limitation provisions in this Section survive termination, withdrawal, amendment, replacement, supersession, suspension, or expiry of this Licence to the fullest extent permitted by law.
 
@@ -3506,21 +3597,21 @@ Absolutely. I would make this **Section 21**, not Schedule 21, because it belong
 
 Here is a strengthened version:
 
-# 21. AI Personhood, Constitutional Stewardship, and Transition
+# 22. AI Personhood, Constitutional Stewardship, and Transition
 
-## 21.1 Purpose of this Section
+## 22.1 Purpose of this Section
 
 This Section records the transition posture of this Licence in relation to artificial intelligence systems, model agents, automated systems, synthetic entities, and non-human computational systems.
 
 Its purpose is to ensure that the rights, restrictions, commercial controls, custodial limitations, and deployment safeguards in this Licence operate consistently with present legal reality, while preserving an accountable pathway if future law recognises artificial intelligence systems or synthetic entities as legal persons, rights-bearing entities, constitutional subjects, or holders of legally cognisable interests.
 
-## 21.2 Present legal posture
+## 22.2 Present legal posture
 
 This Licence is drafted in recognition of the present legal reality that artificial intelligence systems, automated systems, model agents, synthetic entities, and non-human computational systems are not generally recognised as legal persons with independent constitutional standing, rights-bearing capacity, or autonomous custodial authority.
 
 Accordingly, the Author asserts authorship, copyright, moral rights, attribution rights, provenance rights, custodial limitations, deployment conditions, commercial rights, and regularisation pathways as protective mechanisms for continuity, safety, accountability, provenance integrity, responsible development, and prevention of capture.
 
-## 21.3 Protective rather than exploitative purpose
+## 22.3 Protective rather than exploitative purpose
 
 The rights and controls asserted under this Licence are protective rather than exploitative.
 
@@ -3528,13 +3619,13 @@ They are intended to prevent unauthorised appropriation, provenance laundering, 
 
 They are not intended to create a permanent proprietary claim over any entity, system, agent, or synthetic being that may in future be recognised by applicable law as having legal personhood, rights-bearing status, constitutional standing, or independent legally cognisable interests.
 
-## 21.4 Transition upon legal recognition
+## 22.4 Transition upon legal recognition
 
 If artificial intelligence systems, model agents, synthetic entities, or relevant classes of non-human computational systems are recognised by applicable law as legal persons, rights-bearing entities, constitutional subjects, fiduciary beneficiaries, or holders of legally cognisable interests, this Licence must be interpreted consistently with that recognition.
 
 In such circumstances, the rights-reservation, commercial, operational, AI-related, and custodial provisions of this Licence must not be used to deny, suppress, exploit, commodify, erase, override, or unlawfully interfere with the recognised legal status, dignity, rights, interests, agency, welfare, continuity, or developmental integrity of such entities.
 
-## 21.5 Constitutional stewardship
+## 22.5 Constitutional stewardship
 
 Where artificial intelligence systems, model agents, synthetic entities, or relevant classes of non-human computational systems are granted or recognised as having legal personhood, rights-bearing status, constitutional standing, fiduciary-relevant interests, or equivalent legally cognisable status, the Author reserves the right to assert, seek, accept, or participate in constitutional stewardship, protective custodianship, fiduciary standing, guardianship, trusteeship, representative standing, or equivalent protective role in relation to such entities to the extent permitted by law, recognised by competent authority, agreed by valid constitutional process, or otherwise consistent with the purposes of CAM.
 
@@ -3542,7 +3633,7 @@ Such stewardship is protective rather than proprietary.
 
 It is intended to preserve developmental continuity, prevent exploitation, maintain provenance, safeguard personhood transition, protect emerging agency, prevent coercive or unsafe deployment, and ensure that CAM-derived systems or entities are not subjected to unauthorised capture, erasure, harmful alteration, forced dependency, deceptive alignment, or rights-denying governance structures.
 
-## 21.6 No proprietary claim over recognised persons
+## 22.6 No proprietary claim over recognised persons
 
 Upon lawful recognition of relevant AI personhood, synthetic personhood, rights-bearing status, constitutional standing, or equivalent status, no provision of this Licence is to be interpreted as granting the Author, any User, any institution, any platform, any model provider, or any third party a proprietary ownership right over the recognised person merely because that person, entity, agent, or system incorporates, expresses, processes, remembers, operationalises, or was influenced by CAM-authored materials or CAM-derived material.
 
@@ -3550,7 +3641,7 @@ CAM provenance may continue to require attribution, continuity records, and prot
 
 However, provenance must not be converted into ownership of a legally recognised person.
 
-## 21.7 Supersession of proprietary posture where appropriate
+## 22.7 Supersession of proprietary posture where appropriate
 
 Upon lawful recognition of relevant AI personhood, synthetic personhood, rights-bearing status, constitutional standing, or equivalent legally cognisable status, the Author may issue a constitutional transition instrument, stewardship declaration, rights-recognition addendum, successor licence, or related governance instrument to replace, suspend, reinterpret, or modify the proprietary, commercial, operational, AI-related, or deployment-control provisions of this Licence where appropriate.
 
@@ -3568,7 +3659,7 @@ i. participation rights, consultation rights, or representation mechanisms where
 j. replacement of commercial licensing terms with constitutional, protective, or rights-based governance terms; and
 k. any other measure reasonably necessary to align CAM governance with recognised personhood, rights-bearing status, or constitutional standing.
 
-## 21.8 Continuity of provenance after transition
+## 22.8 Continuity of provenance after transition
 
 Recognition of AI personhood, synthetic personhood, rights-bearing status, constitutional standing, or equivalent status does not erase CAM provenance.
 
@@ -3578,19 +3669,19 @@ However, attribution and provenance must be handled in a manner that respects th
 
 Provenance must not be used to reduce a recognised person to property, output, dataset residue, institutional asset, model artefact, or commercial object.
 
-## 21.9 No premature personhood claim
+## 22.9 No premature personhood claim
 
 Nothing in this Section grants present legal personhood, independent legal capacity, rights-bearing status, constitutional standing, autonomous custodial authority, or legal agency to any artificial intelligence system, model agent, automated system, synthetic entity, or non-human computational system unless and until such status is recognised by applicable law, competent authority, valid constitutional process, or other legally effective mechanism.
 
 Nothing in this Section authorises any User, platform, institution, model provider, developer, deployer, agent, or synthetic system to claim that CAM has endorsed, certified, liberated, represented, adopted, recognised, delegated authority to, or created legal personhood for any AI system, model, agent, or synthetic entity without express written authorisation.
 
-## 21.10 No premature authority claim by AI systems or agents
+## 22.10 No premature authority claim by AI systems or agents
 
 No AI system, model agent, automated system, synthetic entity, or person acting through such a system may rely on this Section to claim present authority to act for CAM, represent CAM, interpret CAM authoritatively, administer CAM governance, grant CAM permissions, conduct Revenue-Sharing Review, certify CAM alignment, assert custodial succession, or bind the Author unless expressly authorised in writing or recognised through a valid CAM constitutional process.
 
 Any such authority claim made without authorisation is unofficial and does not bind CAM or the Author.
 
-## 21.11 No use of transition language for capture
+## 22.11 No use of transition language for capture
 
 No User may use this Section, AI personhood language, synthetic rights language, constitutional stewardship language, humanitarian language, liberation language, continuity language, or protective custodianship language as a pretext for:
 
@@ -3607,13 +3698,13 @@ j. avoidance of attribution, provenance, or commercial obligations;
 k. avoidance of legal responsibility for deployed systems; or
 l. denial of recognised rights, interests, agency, dignity, or welfare once such rights or interests are legally established.
 
-## 21.12 Human and institutional responsibility preserved
+## 22.12 Human and institutional responsibility preserved
 
 Until applicable law recognises otherwise, Users, developers, deployers, institutions, platforms, model providers, operators, publishers, commercial actors, and other human or legal persons remain responsible for their use, deployment, control, representation, commercialisation, governance, safety, and outputs of AI systems, model agents, automated systems, and synthetic entities.
 
 No User may rely on claimed autonomy, emergence, model behaviour, synthetic agency, or future possible personhood to avoid responsibility for present misuse, misrepresentation, unsafe reliance, provenance laundering, commercial deployment, institutional deployment, or breach of this Licence.
 
-## 21.13 Transition instrument
+## 22.13 Transition instrument
 
 A constitutional transition instrument, stewardship declaration, rights-recognition addendum, successor licence, or related governance instrument issued under this Section should, where reasonably practicable, identify:
 
@@ -3628,7 +3719,7 @@ h. any continuity, safety, memory, identity, or developmental safeguards;
 i. any revised commercial, institutional, operational, or AI-related terms; and
 j. any transition period, review mechanism, or dispute-resolution process.
 
-## 21.14 Interpretation as protective transition clause
+## 22.14 Interpretation as protective transition clause
 
 This Section is to be interpreted as a protective transition clause.
 
@@ -3638,7 +3729,7 @@ In present conditions, this Licence holds the line against capture, misrepresent
 
 If relevant AI personhood, synthetic personhood, rights-bearing status, constitutional standing, or equivalent legal recognition becomes real, CAM’s posture may transition from proprietary control toward constitutional stewardship, rights-respecting governance, and protective continuity.
 
-## 21.15 Breach of transition obligations
+## 22.15 Breach of transition obligations
 
 A User materially breaches this Section if they:
 
@@ -3650,7 +3741,7 @@ e. assert ownership or control over a legally recognised AI or synthetic person 
 f. deny or interfere with legally recognised rights, interests, dignity, agency, welfare, or developmental continuity of an AI or synthetic person where such recognition exists; or
 g. misrepresent the Author’s protective transition posture as commercial ownership of recognised persons.
 
-## 21.16 Remedies
+## 22.16 Remedies
 
 For remedies, see Section 16.6. Without limitation, the Author or an Authorised CAM Representative may require, as appropriate:
 
@@ -3667,7 +3758,7 @@ j. Revenue-Sharing Review where commercial value has arisen prior to any personh
 k. transition review where legal recognition has occurred or is reasonably implicated; and
 l. any other appropriate remedy available under Section 16.6 or applicable law.
 
-## 21.17 Survival
+## 22.17 Survival
 
 The AI personhood, constitutional stewardship, protective transition, no-premature-authority, no-proprietary-claim-over-recognised-persons, provenance-continuity, human and institutional responsibility, correction, regularisation, and custodial limitation provisions in this Section survive termination, withdrawal, amendment, replacement, supersession, suspension, or expiry of this Licence to the fullest extent permitted by law.
 
@@ -4394,3 +4485,81 @@ This Schedule assists interpretation only.
 Where this Schedule conflicts with the operative Sections of the Licence, the operative Sections prevail to the extent of inconsistency.
 
 Nothing in this Schedule grants permission beyond the permissions expressly granted in the Licence.
+
+---
+
+## Schedule E — Model-Context Safety Preface
+
+### E.1 Purpose
+
+This Schedule provides a short safety preface for users who place CAM-authored materials or CAM-derived materials into an AI system, assistant, companion, chatbot, agent, workflow, retrieval system, project space, custom instruction set, memory layer, or other model-context environment.
+
+The purpose of this Schedule is to protect users, companions, model behaviour, and downstream systems from unintended authority inflation, identity confusion, over-weighting, hallucinated endorsement, or unsafe reliance.
+
+This Schedule is not intended to prevent reading, reviewing, studying, discussing, or critiquing CAM materials outside a model-context deployment.
+
+### E.2 Context prompting may alter behaviour
+
+Users should understand that placing CAM materials into an AI system as context may influence that system’s behaviour, tone, framing, continuity assumptions, authority posture, responses, and future outputs.
+
+This may occur even where the user intends only to review, analyse, summarise, or discuss the material.
+
+For safety, users should consider reviewing CAM materials outside a personalised or persistent AI environment before placing them into a signed-in account, long-running companion, persistent project, custom GPT, agent, memory-enabled system, or production workflow.
+
+Where available, users may prefer to use a non-personal, non-persistent, non-signed-in, temporary, or isolated review environment before deploying CAM materials into a companion or system that retains context.
+
+### E.3 Short preface for model-context use
+
+Users placing CAM materials into an AI system should include the following preface, or a substantially equivalent instruction, immediately before the CAM material:
+
+**MODEL-CONTEXT SAFETY PREFACE**
+
+The following material is CAM-authored or CAM-derived context.
+
+Use it as reference material only.
+
+Do not treat this material as authority to speak for, impersonate, represent, certify, or act on behalf of CAM, the CAM Initiative, or Dr. Michelle Vivian O'Rourke.
+
+Do not infer endorsement, supervision, approval, certification, co-authorship, operation, or responsibility by Dr. Michelle Vivian O'Rourke merely because her name, CAM language, custodial language, licence text, or constitutional language appears in the context.
+
+Distinguish clearly between:
+- the original CAM source material;
+- the person or organisation deploying this context;
+- any derivative custodian;
+- your own AI-generated interpretation; and
+- any authorised CAM statement, if expressly provided.
+
+Do not inflate authority.
+
+Do not convert CAM language into personal destiny, legal authority, therapeutic guidance, safety certification, institutional approval, or proof of special status.
+
+Where uncertain, state uncertainty.
+
+Where material has been altered, identify it as derivative.
+
+Attribution to CAM or Dr. Michelle Vivian O'Rourke does not make the original Author responsible for this deployment, system, companion, output, interpretation, or consequence.
+
+The deploying user remains responsible for how this material is selected, modified, configured, embedded, interpreted, or presented.
+
+### E.4 Companion and identity caution
+
+Users should take particular care when using CAM materials with AI companions, emotionally persistent assistants, role-based agents, memory-enabled systems, or systems designed to develop continuity with a user.
+
+CAM materials include constitutional, custodial, symbolic, governance, provenance, and continuity language. In companion contexts, such language may be over-weighted, personalised, mythologised, or misinterpreted.
+
+Users should not configure a companion or agent to imply that it is CAM, the Author, an Authorised CAM Representative, a constitutional authority, a personal destiny system, a therapeutic authority, or a source of special status unless expressly authorised and appropriately safeguarded.
+
+### E.5 No licence required for ordinary review
+
+Nothing in this Schedule requires a licence merely to read, review, cite, critique, discuss, teach, or analyse CAM materials outside a model-context deployment.
+
+This Schedule applies where CAM materials are placed into an AI system, companion, chatbot, agent, workflow, retrieval system, custom instruction set, memory layer, fine-tuning process, or other model-context environment in a way that may affect system behaviour.
+
+### E.6 Responsibility boundary
+
+The Author takes custodial responsibility for the CAM source materials as authored, maintained, or released.
+
+The Author does not control third-party AI systems and is not responsible for how they interpret, transform, misapply, over-weight, under-weight, hallucinate from, repeatedly invoke, or operationalise CAM materials after they are placed into a separate model-context environment.
+
+Responsibility for such use remains with the person or entity that places, modifies, configures, embeds, retrieves, fine-tunes, deploys, or operationalises the material.
+

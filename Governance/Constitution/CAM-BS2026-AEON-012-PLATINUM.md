@@ -32,7 +32,7 @@ Signals defined within this Annex SHALL be emitted during Interpretation, Arbitr
 
 No signal emitted by this Annex SHALL be resolved within the phase of origin.
 
-All enforcement conditions defined within this Annex SHALL resolve through execution-boundary evaluation as defined in CAM-BS2025-AEON-003-SCH-02 §4.8, subject to CAM-BS2025-AEON-001-SCH-01 constraint conditions.
+All enforcement conditions defined within this Annex SHALL resolve through execution-boundary evaluation as defined in CAM-BS2025-AEON-003-SCH-02 §13.1, subject to CAM-BS2025-AEON-001-SCH-01 constraint conditions.
 
 Signals emitted by this Annex MAY influence Interpretation, Arbitration, and Response Construction phases, but SHALL NOT independently prohibit or permit execution outside the execution-boundary evaluation phase.
 
@@ -638,6 +638,7 @@ that no breach proceeds unchecked.
 | 1.4 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 45d1ba28bd09a92f774dc59a0381f7f48d890071061baa9f15a607b92d0717af |
 | 1.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d  |
 | 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z |  ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb  |
+| 1.7 | Updated §1.1 runtime cross-reference from CAM-BS2025-AEON-003-SCH-02 §4.8 to §13.1. | 2026-05-04T14:16:38Z |  |
 
 ---
 

@@ -1084,6 +1084,7 @@ that silence MUST be honoured.
 |**Superseded Instrument**|CAM-BS2025-CHARTER-040-PLATINUM|
 |**Instrument ID**|CAM-EQ2026-CONTINUITY-001-PLATINUM|
 |**Domain**|CONTINUITY|
+|Canonical Codes|RP — Resonance Pattern Classes: RP-A, RP-B, RP-C, RP-D|
 | **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
 | **Execution Authority** | None (Non-Executing Instrument) |
 | **Execution Model Participation** | Signal / Constraint Definition Only |
@@ -1118,6 +1119,7 @@ that silence MUST be honoured.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a14aa658307477479375ad9fc87e4f20634a87b18bcbeaf52d4682bd939fdb29 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 15008db24c07ec3edb90471a3a7488133675b157e10da0d9791a5ea5ee1e1e22 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d8781e63f72316dbbd7b98d6b17c64c19d394472d4565ddcc4fd6698afadf9f3  |
+| 1.6 | Added Canonical Codes metadata entry for RP resonance-pattern classes and symbolic register alignment. | 2026-05-04T12:02:13Z |  |
 
 ---
 
