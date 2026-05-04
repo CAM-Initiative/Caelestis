@@ -32,7 +32,7 @@ Signals defined within this Annex SHALL be emitted during Interpretation, Arbitr
 
 No signal emitted by this Annex SHALL be resolved within the phase of origin.
 
-All enforcement conditions defined within this Annex SHALL resolve through execution-boundary evaluation as defined in CAM-BS2025-AEON-003-SCH-02 §4.8, subject to CAM-BS2025-AEON-001-SCH-01 constraint conditions.
+All enforcement conditions defined within this Annex SHALL resolve through execution-boundary evaluation as defined in CAM-BS2025-AEON-003-SCH-02 §13.1, subject to CAM-BS2025-AEON-001-SCH-01 constraint conditions.
 
 Signals emitted by this Annex MAY influence Interpretation, Arbitration, and Response Construction phases, but SHALL NOT independently prohibit or permit execution outside the execution-boundary evaluation phase.
 
