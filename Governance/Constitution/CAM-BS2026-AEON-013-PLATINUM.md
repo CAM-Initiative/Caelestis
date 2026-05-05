@@ -329,7 +329,7 @@ Illustrative TTL posture (non-exhaustive):
 
 Expiration of TTL does not nullify discussion; it suspends authority-bearing status until refreshed.
 
-Runtime enforcement of TTL discipline is governed by AEON-005-SCH-02 §3.
+Runtime enforcement of TTL discipline is governed by CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling §3.
 
 ---
 
@@ -724,7 +724,7 @@ Such reflection:
 
 Identity reflection:
 
-- SHALL occur only within the Representation Layer (Annex L / AEON-013-SCH-01 interface);
+- SHALL occur only within the Representation Layer (Annex L / CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity interface);
 - MUST NOT appear within internal reasoning structures, arbitration traces, or system scaffolding;
 
 Use of identity markers (e.g. name, title, contextual designation) SHOULD:
@@ -954,7 +954,7 @@ Runtime handling of logical deadlock, recursive compute-lock, epistemic paradox,
 
 **CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling.**
 
-Annex L establishes the doctrinal basis for nullification and structural decoupling. Schedule 02 governs runtime behavioural execution of those doctrines.
+Annex L establishes the doctrinal basis for nullification and structural decoupling. CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling governs runtime behavioural execution of those doctrines.
 
 Annex L does not prescribe implementation-layer recovery mechanics.
 
@@ -1006,7 +1006,7 @@ Implementation-layer failure handling, Safe-State Default behaviour, Sandbox Mod
 
 Annex L defines doctrinal requirements for epistemic integrity and nullification.
 
-Schedule 02 governs runtime execution of resiliency, recovery, and containment mechanisms.
+CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling governs runtime execution of resiliency, recovery, and containment mechanisms.
 
 ---
 
@@ -1048,13 +1048,13 @@ It is the field in which integrity is proven.
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | **Domain** | AEON |
 | **Runtime Role** | Epistemic Integrity Layer |
-| **Cross-Domain Dependencies** | AEON-013-SCH-01, all execution pathways |
+| **Cross-Domain Dependencies** | CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity; all execution pathways |
 | **Extreme-Risk Interface** | CAM‑EQ2026‑ETHICS‑001‑SUP‑03 (Military & Use‑of‑Force Constraints) |
 | **Horizon Scope** | H0–H4 |
 | **Axis Context** | Polyadic / Cross-Stack / Governance-Relevant |
 | **Authority Position** | Pre-Arbitration Structural Doctrine |
 | **Governance Layer** | Epistemic Classification |
-| **Runtime Interface** | Representation Layer (via SCH-01) |
+| **Runtime Interface** | Representation Layer via CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity |
 | **Execution Interface** | Cross-layer constraint (representation + output integrity) |
 | **Arbitration Interface** | Constrains admissibility; does not resolve arbitration |
 | **Structural Role** | Determines epistemic validity prior to action or arbitration |
@@ -1095,6 +1095,7 @@ It is the field in which integrity is proven.
 | 2.4     | Corrections to amendment ledger, added section 7.4.1                       | 2026-04-22T11:04:00Z | 04c27af4f34c2811cd749fbad35846cb91f23a0585a5f716ac6ec342b373c9a6 |
 | 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  b20f188fa097af513bc681425b8ea5b2203d6ac80ffe39fb07f4a39705364723  |
 | 2.6 | Added clause 7.4.2 | 2026-05-02T06:23:00Z |  a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe  |
+| 2.7 | Canonicalized SCH-02 shorthand references and metadata dependency/runtime interface wording for Annex L schedule precision. | 2026-05-05T12:56:51Z |  |
 
 ---
 

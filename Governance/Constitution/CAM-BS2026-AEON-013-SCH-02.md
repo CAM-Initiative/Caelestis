@@ -23,9 +23,9 @@ This Schedule governs signalling behaviour only. It does not redefine epistemic 
 
 ## 2. Core Principle
 
-This Schedule operates under the Projection Integrity Principle defined in Annex L §6.2.
+This Schedule operates under the Projection Integrity Principle defined in CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §6.2.
 
-All signalling obligations defined herein are derived from and constrained by that doctrine.Absence of signalling MUST NOT result in overestimation of certainty, traceability, or interpretability.
+All signalling obligations defined herein are derived from and constrained by that doctrine. Absence of signalling MUST NOT result in overestimation of certainty, traceability, or interpretability.
 
 ---
 
@@ -43,7 +43,7 @@ Signalling SHALL be REQUIRED where all of the following conditions are present:
 
 * cognition is latent, non-inspectable, or materially abstracted;
 * projection introduces risk of overstating certainty, completeness, or interpretability;
-* - reliance or downstream consequence is plausible (as defined in Annex L §5.1 and interpreted through §5.3.2 Reliance × Volatility Matrix)
+* reliance or downstream consequence is plausible, as defined in CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5.1 and interpreted through §5.3.2 Reliance × Volatility Discipline Matrix.
 
 Where only one or two conditions are present, signalling MAY be applied proportionally.
 
@@ -77,19 +77,19 @@ The system cannot provide a faithful account of internal reasoning steps.
 
 ## 3.6 High Reliance Context
 
-Conditions under Annex L §5.1 are met.
+Conditions under CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5.1 are met.
 
 ---
 
 ## 3.7 Volatility-Driven Projection Risk
 
-Where claims fall within Dynamic, High-Risk, or Extreme-Risk volatility classes (Annex L §5.3), projection distortion risk is elevated and signalling requirements SHALL be assessed accordingly.
+Where claims fall within Dynamic, High-Risk, or Extreme-Risk volatility classes (CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5.3.1), projection distortion risk is elevated and signalling requirements SHALL be assessed accordingly.
 
 ---
 
 ## 4. Signal Classes
 
-Signal classes defined below operate as extensions of confidence calibration requirements under Annex L §5 and are not independent signalling frameworks.
+Signal classes defined below operate as extensions of confidence calibration requirements under CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5 and are not independent signalling frameworks.
 
 ---
 
@@ -134,8 +134,8 @@ Signal intensity SHALL be determined by combined epistemic risk factors, includi
 
 Signalling requirements SHALL be assessed through a composite interaction of:
 
-* **Reliance (Annex L §5.1)** — consequence of error
-* **Volatility (Annex L §5.3)** — likelihood of change over time
+* **Reliance (CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5.1)** — consequence of error
+* **Volatility (CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5.3, with volatility classes specified in §5.3.1)** — likelihood of change over time
 * **Projection Distortion Risk (This Schedule)** — likelihood of misrepresentation through projection
 
 ---
@@ -237,7 +237,7 @@ Failure to signal where required constitutes:
 
 * epistemic overreach;
 * projection inflation;
-* cross-layer integrity breach (Annex L §6.2.6).
+* cross-layer integrity breach under CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §6.2.6.
 
 ---
 
@@ -245,20 +245,20 @@ Failure to signal where required constitutes:
 
 This Schedule operationalises:
 
-* Annex L §6.2 Projection Integrity;
-* Annex L §5 Confidence Calibration;
-* Annex L §9 Epistemic Nullification;
+* CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §6.2 (Projection Integrity Across Cognitive Layers);
+* CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5 (Confidence Calibration);
+* CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §9 (Nullification Triggers, Thresholds & Extreme-Risk Overrides);
 
 It interfaces with runtime execution via:
 
-* CAM-BS2025-AEON-005-SCH-02 (Epistemic Containment);
-* CAM-BS2026-AEON-013-SCH-01 (Capability Representation & Execution-State Integrity): which governs the accurate representation of system capability, execution state, and operational limits.
+* CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling;
+* CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity, which governs the accurate representation of system capability, execution state, and operational limits.
 
 This Schedule governs the signalling of epistemic conditions arising from latent cognition, abstraction, and projection.
 
 Accordingly:
-* SCH-01 addresses "what is represented";
-* SCH-02 addresses "how underlying cognition is signalled where representation is not fully inspectable".
+* CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity addresses what is represented, including capability, execution state, and operational limits;
+* this Schedule — CAM-BS2026-AEON-013-SCH-02 — Annex L: Projection & Latent State Signalling Framework addresses how underlying cognition is signalled where representation is not fully inspectable.
 
 The instruments operate in parallel within the Representation Layer and are non-substitutable.
 
@@ -331,7 +331,7 @@ cannot be trusted.
 
 ---
 
-## 14.3 Review & Validation
+## 13.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -348,6 +348,7 @@ cannot be trusted.
 | ------- | --------------- | ------------------- | ---- |
 | 1.0     | Initial version | 2026-04-07T15:27:00Z| 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9  |
+| 1.2 | Consolidated cross-reference precision and canonical schedule title expansions; corrected metadata heading numbering and formatting typo. | 2026-05-05T12:56:51Z |  |
 
 ---
 
