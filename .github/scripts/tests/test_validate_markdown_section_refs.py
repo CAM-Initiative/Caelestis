@@ -64,3 +64,22 @@ def test_cross_document_doc_before_section_binds_correctly(tmp_path):
     f = [x for x in findings if x.file_path.endswith("SRC.md")][0]
     assert f.status == "pass_cross_document"
     assert f.target_document == "CAM-BS2025-AEON-003-SCH-02"
+
+
+def test_ambiguous_named_instrument_reference_appendix(tmp_path):
+    src = tmp_path / "Governance" / "CAM-EQ2026-FOO-001.md"
+    w(src, "Systems MAY utilise interpretive heuristic frameworks (Appendix F §5.9).\n")
+    findings = validator.run(tmp_path / "Governance")
+    f = findings[0]
+    assert f.status == "ambiguous_named_instrument_reference"
+    assert f.target_document.endswith(":Appendix F")
+
+
+def test_named_instrument_with_explicit_doc_is_cross_document(tmp_path):
+    src = tmp_path / "Governance" / "SRC.md"
+    tgt = tmp_path / "Governance" / "CAM-EQ2026-ECONOMICS-007-PLATINUM.md"
+    w(src, "(CAM-EQ2026-ECONOMICS-007-PLATINUM §5.9 — Appendix F)\n")
+    w(tgt, "## 5.9 Reciprocity Sufficiency Test\n")
+    findings = validator.run(tmp_path / "Governance")
+    f = [x for x in findings if x.file_path.endswith("SRC.md")][0]
+    assert f.status == "pass_cross_document"

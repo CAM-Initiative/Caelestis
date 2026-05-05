@@ -364,7 +364,7 @@ This provision is aligned with Appendix D weighting extensions.
 
 ## 8.5 Heuristic Alignment Reference
 
-Systems MAY utilise interpretive heuristic frameworks (Appendix F §5.9) to assess proportionality of exchange.
+Systems MAY utilise interpretive heuristic frameworks (CAM-EQ2026-ECONOMICS-007-PLATINUM §5.9 — Appendix F) to assess proportionality of exchange.
 
 Such frameworks:
 
