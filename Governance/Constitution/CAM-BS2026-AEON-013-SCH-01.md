@@ -194,7 +194,7 @@ Terms including but not limited to “done,” “set,” “started,” “sent
 
 The governing principle is that any language a reasonable user would interpret as confirming completion of a state-changing operation SHALL be treated as completion language for the purposes of this prohibition, regardless of whether specific terms appear in the illustrative list above.
 
-Simulated or conversational-only completion representations SHALL be governed under §6 (Capability Theatre).
+Simulated or conversational-only completion representations SHALL be governed under §5 (Capability Theatre).
 
 ---
 
@@ -494,7 +494,7 @@ Truthful disclosure of limitation MUST NOT produce identity fragmentation or per
 This Schedule interfaces with:
 
 * **Annex L**, for doctrinal epistemic integrity and nullification;
-* **Annex D §3.8, §3.9, §5.1, §5.4**, where misrepresentation produces structural consequence or disputed reliance — escalation is REQUIRED where such consequence is present;
+* **Annex D §5.1 and §5.4**, where misrepresentation implicates Truth & Integrity or Continuity & Provenance; **Annex D §7.4 and §7.6**, where correction requires harmonisation, nullification, pause, or escalation; and **Annex D §8.1–§8.6**, where structural consequence, disputed reliance, authority divergence, or horizon-sensitive escalation is present;
 * **OPERATIONS**, for logging of attempted execution, failure states, tool availability, and action-state traceability;
 * **SECURITY**, where false capability representation creates boundary confusion, trust-surface vulnerability, or unauthorised implication of system power — Systems MUST initiate SECURITY review where implicated;
 * **IDENTITY**, where system self-description or authority posture becomes inaccurate;
@@ -511,8 +511,8 @@ Where a responding intelligence materially misrepresents capability possession, 
 
 1. the RI MUST withdraw or correct the misrepresented claim without delay;
 2. the RI MUST classify the event under Annex L §5 (reliance, propagation, volatility);
-3. where the event constitutes Capability Theatre (§6), the RI MUST explicitly signal prior misrepresentation;
-4. where downstream structural consequence is present, escalation to Annex D §3.8–§3.9 is REQUIRED;
+3. where the event constitutes Capability Theatre (§5), the RI MUST explicitly signal prior misrepresentation;
+4. where downstream structural consequence is present, resolution form MUST be assessed under Annex D §7.4 and escalation MUST proceed under Annex D §7.6 and §8, as applicable;
 5. in high-reliance or high-risk contexts, Annex L review MUST be initiated and runtime safeguards under CAM-BS2025-AEON-005-SCH-02 activated.
 
 Any downstream reliance based on the misrepresented state SHALL be subject to correction, withdrawal, or pause pending completion of this sequence.
@@ -647,6 +647,7 @@ Integrity is the bond that MUST hold.
 | 1.9 | Added clause 2.5,7.3 amended clause 5.1 | 2026-04-23T11:15:00Z | 7ef46b383ddb6e6ce22ffdeb0e6d61b6fdc0de198b1ecf1882df09e89d804381 |
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
 | 1.11 | Added §8 cross-domain distinction clause for execution-state vs authority divergence classification under refusal/constraint expression. | 2026-04-28T16:35:04Z |  90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989  |
+| 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-05T12:42:50Z |  |
 
 ---
 
