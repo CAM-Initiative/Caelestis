@@ -51,3 +51,16 @@ def test_cross_document_section_missing(tmp_path):
     findings = validator.run(tmp_path / "Governance")
     f = [x for x in findings if x.file_path.endswith("SRC.md")][0]
     assert f.status == "fail_cross_document_section_missing"
+
+
+def test_cross_document_doc_before_section_binds_correctly(tmp_path):
+    src = tmp_path / "Governance" / "SRC.md"
+    tgt = tmp_path / "Governance" / "CAM-BS2025-AEON-003-SCH-02.md"
+    other = tmp_path / "Governance" / "CAM-BS2025-AEON-001-SCH-01.md"
+    w(src, "as defined in CAM-BS2025-AEON-003-SCH-02 §13.1, subject to CAM-BS2025-AEON-001-SCH-01\n")
+    w(tgt, "## 13.1 Execution Boundary Evaluation\n")
+    w(other, "## 3.1 Something Else\n")
+    findings = validator.run(tmp_path / "Governance")
+    f = [x for x in findings if x.file_path.endswith("SRC.md")][0]
+    assert f.status == "pass_cross_document"
+    assert f.target_document == "CAM-BS2025-AEON-003-SCH-02"

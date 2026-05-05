@@ -14,8 +14,10 @@ from dataclasses import dataclass
 
 HEADING_NUMBER_RE = re.compile(r"^(?:#+\s+)?(?P<section>\d+(?:\.\d+)*)\b")
 SECTION_REF_RE = re.compile(r"§(?P<section>\d+(?:\.\d+)*)")
-CROSS_DOC_ADJ_RE = re.compile(r"^\s+(?P<doc_id>CAM-[A-Z0-9]+(?:-[A-Z0-9]+)+)")
-CROSS_DOC_NEAR_RE = re.compile(r"\b(?P<doc_id>CAM-[A-Z0-9]+(?:-[A-Z0-9]+)+)\b")
+DOC_ID_RE = r"CAM-[A-Z0-9]+(?:-[A-Z0-9]+)+"
+CROSS_DOC_AFTER_RE = re.compile(rf"^\s+(?P<doc_id>{DOC_ID_RE})")
+DOC_BEFORE_SECTION_RE = re.compile(rf"(?P<doc_id>{DOC_ID_RE})\s+$")
+PHRASE_DOC_SECTION_RE = re.compile(rf"(?:as defined in|under|pursuant to)\s+(?P<doc_id>{DOC_ID_RE})\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
 INSTRUMENT_NEARBY_RE = re.compile(r"\b(?:AEON-\d{3}(?:-SCH-\d{2})?|LAW-\d{3}|SCH-\d{2}|Constitution|Charter|Law|Annex)\b", re.IGNORECASE)
 
 
@@ -70,14 +72,26 @@ def build_doc_index(root: pathlib.Path) -> dict[str, pathlib.Path]:
 
 
 def classify_reference(line: str, match: re.Match) -> tuple[str, str]:
+    # precedence A: doc id immediately before section (CAM-... §x)
+    before = line[max(0, match.start()-120):match.start()]
+    mb = DOC_BEFORE_SECTION_RE.search(before)
+    if mb:
+        return "cross_document", mb.group("doc_id")
+
+    # precedence B: section immediately before doc id (§x CAM-...)
     tail = line[match.end():]
-    m = CROSS_DOC_ADJ_RE.match(tail)
-    if m:
-        return "cross_document", m.group("doc_id")
+    ma = CROSS_DOC_AFTER_RE.match(tail)
+    if ma:
+        return "cross_document", ma.group("doc_id")
+
+    # precedence C: explicit phrase forms near this match
+    nearby = line[max(0, match.start()-80):match.end()+80]
+    for pm in PHRASE_DOC_SECTION_RE.finditer(nearby):
+        if pm.group("section") == match.group("section"):
+            return "cross_document", pm.group("doc_id")
+
+    # avoid binding to later unrelated doc ids (e.g., subject to CAM-...)
     near = line[match.end(): match.end()+80]
-    m2 = CROSS_DOC_NEAR_RE.search(near)
-    if m2 and m2.start() < 20:
-        return "cross_document", m2.group("doc_id")
     if INSTRUMENT_NEARBY_RE.search(near):
         return "manual_review", ""
     return "local", ""
