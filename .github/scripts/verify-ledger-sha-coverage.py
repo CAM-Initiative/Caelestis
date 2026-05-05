@@ -7,6 +7,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
+from ledger_sha_policy import classify_ledger_sha
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 LAW_VERIFY_SCRIPT = REPO_ROOT / ".github" / "scripts" / "verify-law-manifest-integrity.py"
 
@@ -21,7 +24,6 @@ NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
 VERSION_RE = re.compile(r"^\d+\.\d+$")
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 PLACEHOLDERS = {"-", "—"}
-HISTORICAL_KNOWN_NULLS = {"-", "—"}
 
 
 def ledger_bounds(text: str):
@@ -82,14 +84,6 @@ def verify_law_manifest() -> int:
     proc = subprocess.run([sys.executable, str(LAW_VERIFY_SCRIPT)], cwd=REPO_ROOT)
     return proc.returncode
 
-
-def is_valid_historical_sha(value: str) -> bool:
-    return bool(SHA256_RE.match(value)) or value == HISTORICAL_KNOWN_NULL
-
-def is_valid_latest_sha(value: str) -> bool:
-    return bool(SHA256_RE.match(value))
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Verify ledger SHA coverage: historical rows are strict; latest blank allowed unless strict mode.")
     parser.add_argument("--strict-latest", action="store_true", help="Treat blank/placeholder latest ledger SHA as hard error.")
@@ -131,27 +125,26 @@ def main() -> int:
             latest = hashes[-1]
 
             for h in historical:
-                if SHA256_RE.match(h):
+                classification = classify_ledger_sha(h, is_latest=False, strict_latest=False)
+                if classification == "valid_hash":
                     summary["valid_historical_shas"] += 1
-                elif h in HISTORICAL_KNOWN_NULLS:
+                elif classification == "known_null":
                     summary["historical_known_null_shas"] += 1
                 else:
                     summary["invalid_historical_shas"] += 1
                     failures.append(f"{scope_name}:{doc_id}: historical ledger SHA is blank/placeholder/malformed in {relpath(md)}")
 
-            if latest in ("", *PLACEHOLDERS):
-                if strict_latest:
-                    summary["blank_latest_shas_rejected"] += 1
-                    failures.append(f"{scope_name}:{doc_id}: latest ledger SHA is blank/placeholder in {relpath(md)}")
-                    continue
+            latest_class = classify_ledger_sha(latest, is_latest=True, strict_latest=strict_latest)
+            if latest_class == "valid_hash":
+                summary["valid_latest_shas"] += 1
+            elif latest_class == "latest_pending_blank":
                 summary["blank_latest_shas_allowed"] += 1
                 warn(f"{scope_name}:{doc_id}: latest ledger SHA is blank/placeholder; allowed as pending finalisation in {relpath(md)}")
                 continue
-
-            if not is_valid_latest_sha(latest):
-                failures.append(f"{scope_name}:{doc_id}: latest ledger SHA is malformed in {relpath(md)}")
+            else:
+                summary["blank_latest_shas_rejected"] += 1
+                failures.append(f"{scope_name}:{doc_id}: latest ledger SHA is blank/placeholder in {relpath(md)}")
                 continue
-            summary["valid_latest_shas"] += 1
 
             item = json_by_id.get(doc_id)
             if not item:

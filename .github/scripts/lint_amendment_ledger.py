@@ -13,6 +13,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from ledger_sha_policy import classify_ledger_sha
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
 SCOPED_PREFIXES = (
@@ -53,27 +55,59 @@ def extract_ledger_hash_cells(full_text: str) -> list[str]:
     return hashes
 
 
-def evaluate_historical_and_latest_hashes(path: str, full_text: str, failures: list[str], warnings: list[str], summary: dict[str,int]) -> None:
-    hashes = extract_ledger_hash_cells(full_text)
-    if not hashes:
-        return
-    latest = hashes[-1]
-    historical = hashes[:-1]
-    for h in historical:
-        if h in PLACEHOLDER_HASHES or SHA256_RE.match(h):
-            summary["valid_historical_sha"] = summary.get("valid_historical_sha",0)+1
-        else:
-            summary["invalid_historical_sha"] = summary.get("invalid_historical_sha",0)+1
-            failures.append(f"{path}: Historical Amendment Ledger SHA is blank or malformed")
-    if latest.strip() == "":
-        summary["blank_latest_sha_allowed"] = summary.get("blank_latest_sha_allowed",0)+1
-        warnings.append(f"{path}: latest ledger SHA is blank; allowed for pending/current ledger entry")
-    elif latest in PLACEHOLDER_HASHES or SHA256_RE.match(latest):
-        summary["valid_latest_sha"] = summary.get("valid_latest_sha",0)+1
-    else:
-        # latest malformed non-blank remains warning in default mode
-        warnings.append(f"{path}: Latest Amendment Ledger SHA appears malformed")
 
+
+def extract_ledger_hash_rows_with_lines(full_text: str) -> list[tuple[int, str, str]]:
+    bounds = get_amendment_section_bounds(full_text)
+    if not bounds:
+        return []
+    start, end = bounds
+    rows: list[tuple[int, str, str]] = []
+    section = full_text[start:end]
+    section_start_line = full_text[:start].count("\n") + 1
+    for offset, line in enumerate(section.splitlines(), start=0):
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            continue
+        cols = split_markdown_table_row(stripped)
+        if not cols:
+            continue
+        first = cols[0]
+        if first.lower() == "version" or set(first) <= {"-"}:
+            continue
+        if VERSION_CELL_RE.match(first):
+            while len(cols) < 4:
+                cols.append("")
+            rows.append((section_start_line + offset, first, cols[-1].strip()))
+    return rows
+
+def evaluate_historical_and_latest_hashes(path: str, full_text: str, failures: list[str], warnings: list[str], summary: dict[str,int], *, strict_latest: bool = False) -> None:
+    rows = extract_ledger_hash_rows_with_lines(full_text)
+    if not rows:
+        return
+    latest = rows[-1]
+    historical = rows[:-1]
+    for line_no, version, h in historical:
+        classification = classify_ledger_sha(h, is_latest=False, strict_latest=False)
+        if classification == "valid_hash":
+            summary["valid_historical_sha"] = summary.get("valid_historical_sha", 0) + 1
+        elif classification == "known_null":
+            summary["historical_known_null_shas"] = summary.get("historical_known_null_shas", 0) + 1
+        else:
+            summary["invalid_historical_sha"] = summary.get("invalid_historical_sha", 0) + 1
+            reason = "blank_historical" if classification == "blank_historical" else "malformed_historical"
+            failures.append(f"{path}:{line_no}: Historical Amendment Ledger SHA invalid (version {version}, hash={h!r}, reason={reason})")
+
+    latest_line, latest_version, latest_hash = latest
+    latest_class = classify_ledger_sha(latest_hash, is_latest=True, strict_latest=strict_latest)
+    if latest_class == "valid_hash":
+        summary["valid_latest_sha"] = summary.get("valid_latest_sha", 0) + 1
+    elif latest_class == "latest_pending_blank":
+        summary["blank_latest_sha_allowed"] = summary.get("blank_latest_sha_allowed", 0) + 1
+        warnings.append(f"{path}: latest ledger SHA is blank; allowed for pending/current ledger entry")
+    else:
+        summary["blank_latest_sha_rejected"] = summary.get("blank_latest_sha_rejected", 0) + 1
+        failures.append(f"{path}: latest ledger SHA is blank/placeholder and strict-latest mode is enabled")
 
 EXCLUDED_LEDGER_DOC_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
 
@@ -273,6 +307,35 @@ def compute_hash_with_last_row_hash_blank(full_text: str) -> tuple[str, str | No
     return compute_content_hash(reconstructed), stored_hash
 
 
+
+
+def normalize_historical_blank_hashes(full_text: str) -> tuple[str, int]:
+    """Replace blank historical ledger SHA cells with known-null '-' marker."""
+    bounds = get_amendment_section_bounds(full_text)
+    if not bounds:
+        return full_text, 0
+    row_info = get_last_ledger_row_info(full_text)
+    if not row_info:
+        return full_text, 0
+    last_idx, _, _ = row_info
+    lines = full_text.splitlines(keepends=True)
+    changed = 0
+    for idx, line in enumerate(lines):
+        if idx == last_idx:
+            continue
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            continue
+        cols = split_markdown_table_row(stripped)
+        if not cols or not VERSION_CELL_RE.match(cols[0]):
+            continue
+        while len(cols) < 4:
+            cols.append("")
+        if cols[-1].strip() == "":
+            lines[idx] = replace_last_table_cell(line, "-")
+            changed += 1
+    return "".join(lines), changed
+
 def update_last_ledger_hash_cell(
     full_text: str,
     *,
@@ -449,6 +512,18 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
             )
             continue
 
+        if fix:
+            working_text, normalized_count = normalize_historical_blank_hashes(working_text)
+            if normalized_count:
+                working_path.write_text(working_text, encoding="utf-8")
+                fixed_files.append(path)
+        if fix:
+            working_text, normalized_count = normalize_historical_blank_hashes(working_text)
+            if normalized_count:
+                working_path.write_text(working_text, encoding="utf-8")
+                fixed_files.append(path)
+                if staged:
+                    run_git(["add", "--", path])
         updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
             working_text,
             fix=fix,
@@ -458,8 +533,7 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
             fixed_files.append(path)
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
-        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary)
-
+        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary, strict_latest=strict)
         latest_sha_status = classify_latest_sha_status(
             full_text=updated_text if changed else working_text,
             stored_hash=stored_hash,
@@ -481,8 +555,6 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
             stage=stage,
         )
 
-        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary)
-
         if not fix:
             evaluate_hash_state(
                 path=path,
@@ -501,10 +573,7 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
         for path in fixed_files:
             print(f"- {path}")
     print(f"Scanned ledger files: {scanned}")
-    for k in ["valid_historical_sha","invalid_historical_sha","valid_latest_sha","blank_latest_sha_allowed"]:
-        print(f"{k.upper()}={summary.get(k,0)}")
-
-    for k in ["valid_historical_sha","invalid_historical_sha","valid_latest_sha","blank_latest_sha_allowed"]:
+    for k in ["valid_historical_sha","historical_known_null_shas","invalid_historical_sha","valid_latest_sha","blank_latest_sha_allowed","blank_latest_sha_rejected"]:
         print(f"{k.upper()}={summary.get(k,0)}")
 
     if failures:
@@ -630,8 +699,7 @@ def lint(
             after = updated_text
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
-        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary)
-
+        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary, strict_latest=strict)
         if not fix:
             evaluate_hash_state(
                 path=path,
@@ -667,8 +735,6 @@ def lint(
             current_version = after_versions[-1]
             if previous_version != current_version and not is_minor_only_increment(previous_version, current_version):
                 failures.append(f"{path}: Amendment version must increment by +0.1 or by +1.0 with minor reset (x.0)")
-
-        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary)
 
         latest_sha_status = classify_latest_sha_status(
             full_text=after if after else working_text,
@@ -727,7 +793,7 @@ def main() -> int:
     parser.add_argument(
         "--strict",
         action="store_true",
-        help="Treat empty/mismatched latest Amendment Ledger SHA-256 as hard failures (post-fixer validation mode).",
+        help="Treat blank/placeholder latest Amendment Ledger SHA as hard failures (strict latest finalisation mode).",
     )
     parser.add_argument(
         "--staged",
