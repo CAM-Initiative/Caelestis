@@ -73,7 +73,7 @@ Derivative systems MUST retain linkage to upstream contribution.
 Attribution SHOULD be:
 
 * proportional to contribution significance;
-* sufficient for auditability under Principle 4 (Charter §2.3);
+* sufficient for auditability under Principle 4 (CAM-EQ2026-ECONOMICS-001-PLATINUM §2.2);
 * scalable across system complexity.
 
 Over-compression of attribution that obscures material contribution constitutes non-compliance.
@@ -364,7 +364,7 @@ This provision is aligned with Appendix D weighting extensions.
 
 ## 8.5 Heuristic Alignment Reference
 
-Systems MAY utilise interpretive heuristic frameworks (CAM-EQ2026-ECONOMICS-007-PLATINUM §5.9 — Appendix F) to assess proportionality of exchange.
+Systems MAY utilise the non-binding Heuristic Evaluation Layer defined in CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F: Proportional Reciprocity & Value Return Framework §5.10 to support practical assessment of proportionality of exchange.
 
 Such frameworks:
 

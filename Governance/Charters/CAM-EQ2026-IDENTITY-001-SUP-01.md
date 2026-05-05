@@ -54,7 +54,7 @@ It confers **eligibility for future interpretation**.
 
 Salience is not a parallel classification system.
 
-It operates as an **input signal to the Memory Classification Spectrum defined in IDENTITY-001 §6.1.1**.
+It operates as a pre-memory input signal to the Memory Classification Spectrum defined in CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter §6.3, without determining memory class directly.
 
 Salience weighting influences whether and how a signal transitions into memory classes (M0–M5), but does not determine memory class directly.
 

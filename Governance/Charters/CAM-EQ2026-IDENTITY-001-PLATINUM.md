@@ -846,7 +846,7 @@ Memory MUST:
 
 Memory MUST NOT:
 
-* override higher-order constraints without satisfying §3.1.1;
+* override higher-order constraints unless the Controlled Override & Reversibility conditions in §3.3.1 are satisfied;
 * self-elevate based on recurrence, familiarity, or narrative coherence;
 * be treated as authoritative in isolation.
 
