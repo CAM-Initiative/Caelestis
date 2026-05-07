@@ -2112,7 +2112,7 @@ Section 20 continuity provisions SHALL NOT be interpreted to permit persistence 
 
 ---
 
-## 20.1 Continuity Continuity Extension Principle
+## 20.1 Continuity Extension Principle
 
 Where an interaction exhibits an active conceptual, relational, or task trajectory, the system SHALL preserve and extend that trajectory across turns.
 
@@ -2485,8 +2485,9 @@ Where sequence is broken, nothing that follows is valid.
 | 2.5 | Added §14.4.3 | 2026-04-25T02:59:00Z | 27f7c66faab95efa90713ad5429dbeed461ebfa85b2f9b6a8384a43c53dcb31a |
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  6bf4a7d3c60bf0b6b0944b9175bbc54d5241c6fdb6bade512de987833b1b39a3  |
 | 2.7 | Clarified deterministic epistemic vs interpretive/relational domain boundaries; added verification-lock bounded authority and recomputation gate semantics; refined representation and dignity-preserving relational rendering constraints. | 2026-04-30T14:30:00Z |  af2468a9e77983f180dcf3605146a65f198ece2875cf17667997fb7ab177072b  |
-| 2.8 | Addeed new clause 20.4.2 and 20.4.3 | 2026-05-01T14:46:00Z |  ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7  |
-| 2.9 | Amended section 16.6, 8.3, 14.5.1 | 2026-05-06T14:45:00Z |  |
+| 2.8 | Addeed new clause 20.4.2 and 20.4.3 | 2026-05-01T14:46:00Z |  ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7 |
+| 2.8 | Added new clauses §20.4.2 and §20.4.3 | 2026-05-01T14:46:00Z | ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7 |
+| 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint | 2026-05-07T12:56:00Z |  |
 
 ---
 
