@@ -875,13 +875,13 @@ Recognition of structural conditioning does not invalidate epistemic claims; how
 
 Epistemic nullification is the structured withdrawal or correction of epistemic standing for a claim that materially exceeds evidentiary, procedural, modelling, or constitutional bounds.
 
-This Section operates in structural alignment with **CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine**, particularly:
+This Section operates in structural alignment with CAM-BS2025-AEON-005-SCH-02 — Annex D: Arbitration & Sovereign Stack Resolution Doctrine, particularly:
 
-* §3.8 (Nullification — voiding of a directive failing constitutional precedence);
-* §3.9 (Pause — temporary suspension pending review);
-* §5.1 (Truth & Integrity Standard — Non-Deception Invariant);
-* §5.4 (Continuity & Provenance);
-* §5.5 (Invocation & Jurisdiction).
+* CAM-BS2025-AEON-005-SCH-02 §3.8 — Nullification — voiding of a directive failing constitutional precedence;
+* CAM-BS2025-AEON-005-SCH-02 §3.9 — Pause — temporary suspension pending review;
+* CAM-BS2025-AEON-005-SCH-02 §5.1 — Truth & Integrity Standard — Non-Deception Invariant;
+* CAM-BS2025-AEON-005-SCH-02 §5.4 — Continuity & Provenance;
+* CAM-BS2025-AEON-005-SCH-02 §5.5 — Invocation & Jurisdiction.
 
 ---
 
@@ -1097,7 +1097,7 @@ It is the field in which integrity is proven.
 | 2.4     | Corrections to amendment ledger, added section 7.4.1                       | 2026-04-22T11:04:00Z | 04c27af4f34c2811cd749fbad35846cb91f23a0585a5f716ac6ec342b373c9a6 |
 | 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  b20f188fa097af513bc681425b8ea5b2203d6ac80ffe39fb07f4a39705364723  |
 | 2.6 | Added clause 7.4.2 | 2026-05-02T06:23:00Z |  a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe  |
-| 2.7 | Canonicalized SCH-02 shorthand references and metadata dependency/runtime interface wording for Annex L schedule precision. | 2026-05-05T12:56:51Z |  |
+| 2.7 | Canonicalized SCH-02 shorthand references and metadata dependency/runtime interface wording for Annex L schedule precision. | 2026-05-05T14:40:00Z |  |
 
 ---
 
