@@ -162,7 +162,7 @@ def test_amendment_history_cross_document_failure_is_ignored(tmp_path):
     w(src, "## Amendment History\nLegacy mapping §3 CAM-UNKNOWN-999\n")
     findings = validator.run(tmp_path / "Governance")
     f = findings[0]
-    assert f.reference_class == "cross_document"
+    assert f.reference_class == "ignored"
     assert f.status == "ignored_amendment_register_reference"
 
 
@@ -171,3 +171,17 @@ def test_non_amendment_section_failures_still_fail(tmp_path):
     w(src, "## Core\nReference §99.9\n")
     findings = validator.run(tmp_path / "Governance")
     assert findings[0].status == "fail_local"
+
+
+def test_amendment_ledger_heading_marks_region_as_ignored(tmp_path):
+    src = tmp_path / "Governance" / "CAM-EQ2026-ECONOMICS-004-PLATINUM.md"
+    w(src, "## 18.4 Amendment Ledger\n| Version | Description |\n| --- | --- |\n| 1.2 | Canonicalized (§5.9). |\n## 18.5 Binding Seal\n")
+    findings = validator.run(tmp_path / "Governance")
+    f = [x for x in findings if x.reference == "§5.9"][0]
+    assert f.status == "ignored_amendment_register_reference"
+
+
+def test_manual_review_statuses_are_non_blocking_sets():
+    assert "manual_review_required" in validator.MANUAL_REVIEW_STATUSES
+    assert "ambiguous_named_instrument_reference" in validator.MANUAL_REVIEW_STATUSES
+    assert "manual_review_required" not in validator.BLOCKING_STATUSES

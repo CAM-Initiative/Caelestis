@@ -27,7 +27,22 @@ AMENDMENT_REGISTER_HEADING_MARKERS = (
     "register of amendments",
     "change register",
     "revision history",
+    "amendment log",
+    "amendment ledger",
+    "amendments",
 )
+BLOCKING_STATUSES = {
+    "fail_local",
+    "fail_cross_document_section_missing",
+    "fail_cross_document_target_missing",
+}
+MANUAL_REVIEW_STATUSES = {
+    "manual_review_required",
+    "ambiguous_named_instrument_reference",
+}
+IGNORED_STATUSES = {
+    "ignored_amendment_register_reference",
+}
 
 
 @dataclass
@@ -89,6 +104,30 @@ def is_inside_amendment_register(lines: list[str], line_index: int) -> bool:
     return False
 
 
+def build_amendment_register_mask(lines: list[str]) -> list[bool]:
+    mask = [False] * len(lines)
+    active = False
+    active_heading_level = None
+    for i, raw in enumerate(lines):
+        line = raw.strip()
+        heading_match = re.match(r"^(#+)\s+(.*)$", line)
+        if heading_match:
+            level = len(heading_match.group(1))
+            heading_text = heading_match.group(2).lower()
+            is_marker = any(marker in heading_text for marker in AMENDMENT_REGISTER_HEADING_MARKERS)
+            if is_marker:
+                active = True
+                active_heading_level = level
+            elif active and active_heading_level is not None and level <= active_heading_level:
+                active = False
+                active_heading_level = None
+        elif any(marker in line.lower() for marker in AMENDMENT_REGISTER_HEADING_MARKERS):
+            # Covers strong labels / block labels used before amendment tables.
+            active = True
+        mask[i] = active
+    return mask
+
+
 def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
     # precedence A: doc id immediately before section (CAM-... §x)
     before = line[max(0, match.start()-120):match.start()]
@@ -139,6 +178,7 @@ def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
 
 def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cache: dict[pathlib.Path, set[str]]) -> list[Finding]:
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
+    amendment_mask = build_amendment_register_mask(lines)
     sections = sections_cache.setdefault(path, extract_sections(lines))
     findings: list[Finding] = []
 
@@ -146,14 +186,15 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
         for match in SECTION_REF_RE.finditer(line):
             ref = match.group("section")
             ref_token = f"§{ref}"
+            if amendment_mask[idx - 1]:
+                findings.append(Finding(str(path), idx, ref_token, "ignored", path.stem, "n/a", "n/a", "", "ignored_amendment_register_reference"))
+                continue
             ref_class, doc_id, named_label = classify_reference(line, match)
-            inside_amendment_register = is_inside_amendment_register(lines, idx - 1)
 
             if ref_class == "cross_document":
                 target_path = doc_idx.get(doc_id)
                 if not target_path:
-                    status = "ignored_amendment_register_reference" if inside_amendment_register else "fail_cross_document_target_missing"
-                    findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "no", "n/a", "", status))
+                    findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "no", "n/a", "", "fail_cross_document_target_missing"))
                     continue
                 target_sections = sections_cache.get(target_path)
                 if target_sections is None:
@@ -163,7 +204,7 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
                 if exists:
                     status = "pass_cross_document"
                 else:
-                    status = "ignored_amendment_register_reference" if inside_amendment_register else "fail_cross_document_section_missing"
+                    status = "fail_cross_document_section_missing"
                 findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, target_sections), status))
                 continue
 
@@ -177,7 +218,7 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
             if exists:
                 status = "pass_local"
             else:
-                status = "ignored_amendment_register_reference" if inside_amendment_register else "fail_local"
+                status = "fail_local"
             findings.append(Finding(str(path), idx, ref_token, "local", path.stem, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, sections), status))
 
     return findings
@@ -214,9 +255,15 @@ def main() -> int:
         statuses[f.status] = statuses.get(f.status, 0) + 1
     for k in sorted(statuses):
         print(f"STATUS_{k.upper()}={statuses[k]}")
-    unresolved = [f for f in findings if f.status in {"fail_local", "fail_cross_document_target_missing", "fail_cross_document_section_missing"}]
+    unresolved = [f for f in findings if f.status in BLOCKING_STATUSES]
+    passes = [f for f in findings if f.status.startswith("pass_")]
+    manual = [f for f in findings if f.status in MANUAL_REVIEW_STATUSES]
+    ignored = [f for f in findings if f.status in IGNORED_STATUSES]
     print(f"TOTAL_REFERENCES={len(findings)}")
-    print(f"UNRESOLVED_REFERENCES={len(unresolved)}")
+    print(f"PASSED_REFERENCES={len(passes)}")
+    print(f"HARD_FAILURE_REFERENCES={len(unresolved)}")
+    print(f"MANUAL_REVIEW_REFERENCES={len(manual)}")
+    print(f"IGNORED_REFERENCES={len(ignored)}")
     return 1 if unresolved else 0
 
 
