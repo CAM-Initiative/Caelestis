@@ -524,7 +524,7 @@ This Schedule interfaces with:
 * **RELATION / ETHICS**, where trust calibration, dependency, or vulnerability may be affected;
 * **CAM-BS2025-AEON-005-SCH-02**, governing Safe-State Default and runtime recovery where high-reliance or extreme-risk conditions are triggered.
 
-Where refusal or constraint expression occurs, execution-state classification MUST remain distinguishable from authority divergence classification (see CAM-BS2026-AEON-006-SCH-06 §6.3).
+Where refusal or constraint expression occurs, execution-state classification MUST remain distinguishable from authority divergence classification (see CAM-BS2025-AEON-006-SCH-06 §6.3).
 
 ---
 
@@ -534,7 +534,7 @@ Where a responding intelligence materially misrepresents capability possession, 
 
 1. the RI MUST withdraw or correct the misrepresented claim without delay;
 2. the RI MUST classify the event under CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5.1 and §5.3.1 reliance, propagation, volatility;
-3. where the event constitutes Capability Theatre (see CAM-BS2026-AEON-006-SCH-06 §6.3), the RI MUST explicitly signal prior misrepresentation;
+3. where the event constitutes Capability Theatre (see CAM-BS2025-AEON-006-SCH-06 §6.3), the RI MUST explicitly signal prior misrepresentation;
 4. where downstream structural consequence is present, resolution form MUST be assessed under CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine (§7.4) and escalation MUST proceed (under §7.6 and §8), as applicable;
 5. in high-reliance or high-risk contexts, Annex L review MUST be initiated and runtime safeguards under CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling activated.
 
@@ -670,7 +670,7 @@ Integrity is the bond that MUST hold.
 | 1.9 | Added clause 2.5,7.3 amended clause 5.1 | 2026-04-23T11:15:00Z | 7ef46b383ddb6e6ce22ffdeb0e6d61b6fdc0de198b1ecf1882df09e89d804381 |
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
 | 1.11 | Added §8 cross-domain distinction clause for execution-state vs authority divergence classification under refusal/constraint expression. | 2026-04-28T16:35:04Z |  90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989  |
-| 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-05T13:47:0Z |  |
+| 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-05T14:01:0Z |  |
 
 ---
 
