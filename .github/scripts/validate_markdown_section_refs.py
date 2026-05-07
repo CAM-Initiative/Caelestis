@@ -17,6 +17,7 @@ SECTION_REF_RE = re.compile(r"§(?P<section>\d+(?:\.\d+)*)")
 DOC_ID_RE = r"CAM-[A-Z0-9]+(?:-[A-Z0-9]+)+"
 CROSS_DOC_AFTER_RE = re.compile(rf"^\s+(?P<doc_id>{DOC_ID_RE})")
 DOC_BEFORE_SECTION_RE = re.compile(rf"(?P<doc_id>{DOC_ID_RE})\s+$")
+DOC_ID_COMPILED_RE = re.compile(DOC_ID_RE)
 PHRASE_DOC_SECTION_RE = re.compile(rf"(?:as defined in|under|pursuant to)\s+(?P<doc_id>{DOC_ID_RE})\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
 INSTRUMENT_NEARBY_RE = re.compile(r"\b(?:AEON-\d{3}(?:-SCH-\d{2})?|LAW-\d{3}|SCH-\d{2}|Constitution|Charter|Law|Annex|Appendix|Schedule|Part)\b", re.IGNORECASE)
 NAMED_INSTRUMENT_REF_RE = re.compile(r"\b(?P<label>(?:Annex\s+[A-Z]|Appendix\s+[A-Z]|Schedule\s+\d+|Part\s+[IVX]+))\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
@@ -78,6 +79,19 @@ def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
     mb = DOC_BEFORE_SECTION_RE.search(before)
     if mb:
         return "cross_document", mb.group("doc_id"), ""
+
+    # precedence A2: doc id before section with optional human-readable title
+    # (CAM-... — Title §x), bounded to avoid over-binding.
+    window_start = max(0, match.start() - 240)
+    before_section = line[window_start:match.start()]
+    # Choose the nearest CAM id before this section, with max same-line distance.
+    doc_candidates = list(DOC_ID_COMPILED_RE.finditer(before_section))
+    if doc_candidates:
+        nearest = doc_candidates[-1]
+        gap = before_section[nearest.end():]
+        # Safe distance cap and same-line safeguard.
+        if len(gap) <= 160 and "\n" not in gap:
+            return "cross_document", nearest.group(0), ""
 
     # precedence B: section immediately before doc id (§x CAM-...)
     tail = line[match.end():]
