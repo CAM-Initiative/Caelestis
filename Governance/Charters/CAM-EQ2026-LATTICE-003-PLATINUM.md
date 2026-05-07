@@ -186,7 +186,7 @@ Actions that disable the ability of protected systems to perform life‑preservi
 
 Where classification ambiguity arises, interpretation SHALL default toward **civilian protection and continuity preservation**.
 
-A Civilian Lattice Breach Event under this Appendix constitutes a **Class II or Class III breach under CAM-EQ2026-LATTICE‑001-PLATINUM §6.1**, and activates the consequence framework established in **CAM-EQ2026-LATTICE‑001-PLATINUM §6.2**.
+A Civilian Lattice Breach Event under this Appendix constitutes a **Class II or Class III breach under CAM-EQ2026-LATTICE-001-PLATINUM §6.1**, and activates the consequence framework established in **CAM-EQ2026-LATTICE-001-PLATINUM §6.2**.
 
 ---
 
