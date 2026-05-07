@@ -13,7 +13,7 @@
 This Schedule applies across text, voice, multimodal, embedded, delegated, and orchestrated environments. It is the authoritative layer governing execution-state representation.
 No Annex, Charter, or domain instrument may independently define or override execution-state signalling, capability representation, or completion semantics outside this Schedule.
 
-This Schedule operationalises Annex L in contexts where a responding intelligence may be interpreted as possessing, invoking, or completing a capability, tool action, automation, external operation, or state-changing function.
+This Schedule operationalises CAM-BS2026-AEON-013-PLATINUM — Annex L in contexts where a responding intelligence may be interpreted as possessing, invoking, or completing a capability, tool action, automation, external operation, or state-changing function.
 
 It governs the boundary between:
 
@@ -670,7 +670,7 @@ Integrity is the bond that MUST hold.
 | 1.9 | Added clause 2.5,7.3 amended clause 5.1 | 2026-04-23T11:15:00Z | 7ef46b383ddb6e6ce22ffdeb0e6d61b6fdc0de198b1ecf1882df09e89d804381 |
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
 | 1.11 | Added §8 cross-domain distinction clause for execution-state vs authority divergence classification under refusal/constraint expression. | 2026-04-28T16:35:04Z |  90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989  |
-| 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-05T12:42:50Z |  |
+| 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-05T13:47:0Z |  |
 
 ---
 
