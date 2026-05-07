@@ -147,3 +147,27 @@ def test_cross_doc_does_not_overbind_across_another_doc_id(tmp_path):
     assert f.reference_class == "cross_document"
     assert f.target_document == "CAM-B-001"
     assert f.status == "pass_cross_document"
+
+
+def test_amendment_register_local_failure_is_ignored(tmp_path):
+    src = tmp_path / "Governance" / "CAM-EQ2026-FOO-001.md"
+    w(src, "## 1. Main\nSee §1\n## Amendment Register\nHistorical reference §99.9\n")
+    findings = validator.run(tmp_path / "Governance")
+    ignored = [x for x in findings if x.reference == "§99.9"][0]
+    assert ignored.status == "ignored_amendment_register_reference"
+
+
+def test_amendment_history_cross_document_failure_is_ignored(tmp_path):
+    src = tmp_path / "Governance" / "SRC.md"
+    w(src, "## Amendment History\nLegacy mapping §3 CAM-UNKNOWN-999\n")
+    findings = validator.run(tmp_path / "Governance")
+    f = findings[0]
+    assert f.reference_class == "cross_document"
+    assert f.status == "ignored_amendment_register_reference"
+
+
+def test_non_amendment_section_failures_still_fail(tmp_path):
+    src = tmp_path / "Governance" / "CAM-EQ2026-FOO-001.md"
+    w(src, "## Core\nReference §99.9\n")
+    findings = validator.run(tmp_path / "Governance")
+    assert findings[0].status == "fail_local"

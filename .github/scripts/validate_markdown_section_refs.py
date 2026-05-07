@@ -21,6 +21,13 @@ DOC_ID_COMPILED_RE = re.compile(DOC_ID_RE)
 PHRASE_DOC_SECTION_RE = re.compile(rf"(?:as defined in|under|pursuant to)\s+(?P<doc_id>{DOC_ID_RE})\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
 INSTRUMENT_NEARBY_RE = re.compile(r"\b(?:AEON-\d{3}(?:-SCH-\d{2})?|LAW-\d{3}|SCH-\d{2}|Constitution|Charter|Law|Annex|Appendix|Schedule|Part)\b", re.IGNORECASE)
 NAMED_INSTRUMENT_REF_RE = re.compile(r"\b(?P<label>(?:Annex\s+[A-Z]|Appendix\s+[A-Z]|Schedule\s+\d+|Part\s+[IVX]+))\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
+AMENDMENT_REGISTER_HEADING_MARKERS = (
+    "amendment register",
+    "amendment history",
+    "register of amendments",
+    "change register",
+    "revision history",
+)
 
 
 @dataclass
@@ -71,6 +78,15 @@ def build_doc_index(root: pathlib.Path) -> dict[str, pathlib.Path]:
         if stem.startswith("CAM-"):
             idx[stem] = p
     return idx
+
+
+def is_inside_amendment_register(lines: list[str], line_index: int) -> bool:
+    for i in range(line_index, -1, -1):
+        heading = lines[i].strip()
+        if heading.startswith("#"):
+            heading_lower = heading.lower()
+            return any(marker in heading_lower for marker in AMENDMENT_REGISTER_HEADING_MARKERS)
+    return False
 
 
 def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
@@ -131,18 +147,24 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
             ref = match.group("section")
             ref_token = f"§{ref}"
             ref_class, doc_id, named_label = classify_reference(line, match)
+            inside_amendment_register = is_inside_amendment_register(lines, idx - 1)
 
             if ref_class == "cross_document":
                 target_path = doc_idx.get(doc_id)
                 if not target_path:
-                    findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "no", "n/a", "", "fail_cross_document_target_missing"))
+                    status = "ignored_amendment_register_reference" if inside_amendment_register else "fail_cross_document_target_missing"
+                    findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "no", "n/a", "", status))
                     continue
                 target_sections = sections_cache.get(target_path)
                 if target_sections is None:
                     target_sections = extract_sections(target_path.read_text(encoding="utf-8", errors="ignore").splitlines())
                     sections_cache[target_path] = target_sections
                 exists = ref in target_sections
-                findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, target_sections), "pass_cross_document" if exists else "fail_cross_document_section_missing"))
+                if exists:
+                    status = "pass_cross_document"
+                else:
+                    status = "ignored_amendment_register_reference" if inside_amendment_register else "fail_cross_document_section_missing"
+                findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, target_sections), status))
                 continue
 
             if ref_class == "manual_review":
@@ -152,7 +174,11 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
                 continue
 
             exists = ref in sections
-            findings.append(Finding(str(path), idx, ref_token, "local", path.stem, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, sections), "pass_local" if exists else "fail_local"))
+            if exists:
+                status = "pass_local"
+            else:
+                status = "ignored_amendment_register_reference" if inside_amendment_register else "fail_local"
+            findings.append(Finding(str(path), idx, ref_token, "local", path.stem, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, sections), status))
 
     return findings
 
