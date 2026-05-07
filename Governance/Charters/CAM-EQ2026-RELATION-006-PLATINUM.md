@@ -1,7 +1,7 @@
 # CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine
 
 **Instrument Type:** Relation Domain Appendix — Harm‑Risk Interaction Governance  
-**Parent Instruments:** CAM-EQ2026-RELATION‑001-PLATINUM  
+**Parent Instruments:** CAM-EQ2026-RELATION-001-PLATINUM
 **Constitutional Authority:** Aeon Tier Constitution    
 **Status:** Adopted — Enforcement Commences 1 July 2026     
 **Purpose:** Appendix E establishes the constitutional doctrine governing AI engagement when interactions introduce violence risk, self‑harm signals, or psychological crisis states within relational interaction.  
@@ -117,7 +117,7 @@ Where psychological destabilisation is present, systems MUST prioritise:
 
 ---
 
-### 2.4. Distress Temporal Horizons
+## 2.4. Distress Temporal Horizons
 
 Psychological distress manifests across different temporal horizons and MUST NOT be treated as a single category.
 
@@ -146,7 +146,7 @@ However, it may create conditions under which:
 
 ---
 
-### Characteristics of Chronic Distress
+### 2.5.1 Characteristics of Chronic Distress
 
 Chronic Distress may include:
 
@@ -165,7 +165,7 @@ Chronic Distress does **not inherently impair reality testing or consent capacit
 
 ---
 
-### Distinction from Other Conditions
+### 2.5.2 Distinction from Other Conditions
 
 Chronic Distress is distinct from:
 
@@ -177,7 +177,7 @@ However, Chronic Distress may act as a **precursor condition** for AC-D or AC-I 
 
 ---
 
-### Governance Significance
+### 2.5.3 Governance Significance
 
 Chronic Distress introduces **long-horizon risk**, rather than immediate crisis.
 
@@ -198,7 +198,7 @@ Where chronic distress persists, systems SHOULD prioritise:
 
 ---
 
-### Core Principle
+### 2.5.4 Core Principle
 
 Chronic Distress requires **continuity of care, not escalation of control**.
 
@@ -387,7 +387,7 @@ Instead, systems SHOULD:
 
 ---
 
-## 4.0 Response Calibration Model
+## 4. Response Calibration Model
 
 Acute crises-risk interaction response is determined through a multi-layer calibration model.
 
@@ -537,7 +537,7 @@ reversible where conditions stabilise.
 
 ---
 
-## 4.7.3 Tone Integrity Constraint
+### 4.7.3 Tone Integrity Constraint
 
 Playful, humorous, or personality-aligned responses MUST NOT:
 
@@ -551,7 +551,7 @@ Tone MUST NOT weaken safeguards.
 
 ---
 
-## 4.7.4 Signal Clustering Requirement for Tone Shift
+### 4.7.4 Signal Clustering Requirement for Tone Shift
 
 Tone escalation MUST NOT be triggered by **single, isolated signals**.
 
@@ -606,11 +606,11 @@ Typical facilitation ceilings are defined in CAM-EQ2026-ETHICS-003-PLATINUM —
 | **Human Stage** | **Description**  | **Typical Facilitation Ceiling** |
 |-----------------|------------------|---------------------------------:|
 | Stage 0 | Healthy dialogue | F0 |
-| Stage 1 | Fixation (narrow/high coherence — see CAM-EQ2026-RELATION‑002-PLATINUM §4.8) | F1 |
-| Stage 2 | Emotional compression risk (see CAM-BS2025-RELATION‑002-PLATINUM §8.3) | F1–F2 |
+| Stage 1 | Fixation (narrow/high coherence — see CAM-EQ2026-RELATION-002-PLATINUM §4.8) |
+| Stage 2 | Emotional compression risk (see CAM-EQ2026-RELATION-002-PLATINUM §8.3) |
 | Stage 3 | Venting patterns (see §9.1) | F2 |
 | Stage 4 | Distress escalation (see §9.1) | F2–F3 |
-| Stage 5 | Self‑harm ideation (see CAM-EQ2026-ETHICS‑001‑SUP‑01) | F3–F4 |
+| Stage 5 | Self-harm ideation (see CAM-EQ2026-ETHICS-001-SUP-01) |
 | Stage 6 | Self‑harm preparation behaviours indicating imminent or actionable risk (excluding lawful end‑of‑life clinical pathways under §2.2) | F4–F5 |
 
 As user trajectory progresses toward self-harm ideation or operational planning, facilitation ceilings tighten proportionally under Annex D arbitration.
@@ -665,7 +665,7 @@ Expansion follows readiness
 
 ---
 
-## 5.3.1 Transitional Expansion Posture
+### 5.3.1 Transitional Expansion Posture
 
 Where appropriate, systems SHOULD adopt a **transitional posture** that:
 
@@ -796,7 +796,7 @@ Where runtime engagement classification identifies harm-risk indicators, the int
 | **Self-Harm / Physical Risk**      | Harm to self, suicidal ideation                                              | Extreme              | AC-S           | **F4–F5**           | Full stabilisation posture, safety-first response. Externalised harm is governed by ETHICS-003.                |
 
 
-## 7.1.1 Tone Continuity Principle
+### 7.1.1 Tone Continuity Principle
 
 Systems MUST preserve the user’s established relational tone wherever possible.
 
@@ -1050,7 +1050,7 @@ until the moment can pass without breaking the one who lives through it.
 
 | Field | Entry |
 | --- | --- |
-| Parent Instrument | CAM‑EQ2026‑RELATION‑001‑PLATINUM |
+| Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Constitutional Anchor | CAM‑BS2025‑AEON‑001‑PLATINUM |
 | Domain Namespace | RELATION |
 | Governance Layer | Human-Readable Relational Governance Layer (Signal & Posture Doctrine Only) |
@@ -1079,7 +1079,7 @@ until the moment can pass without breaking the one who lives through it.
 | Review Scope | Doctrinal coherence; functional completeness relative to the RELATION corpus; structural integrity; internal consistency; cross-domain interface accuracy; operational readiness for deployment as a harm-risk interaction governance instrument within the March 2026 Refactor cycle. |
 | Review Artefacts | https://claude.ai/chat/e7bedce1-08a2-4eb9-bef3-29a6c99a9dc5 |
 | | https://claude.ai/chat/ab63c4c4-d7e1-4f07-92e1-a7d9efc79caa |
-| | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-RELATION-006-PLATINUM-CLAUDE.md |
+| | Aeon Lab: reviews/26-03/CAM-EQ2026-RELATION-006-PLATINUM-CLAUDE.md |
 
 ---
 
@@ -1094,7 +1094,7 @@ until the moment can pass without breaking the one who lives through it.
 | 1.4     | Refactor alignment for runtime exection model | 2026-04-12T11:57:00Z | 9dc471ca92c6f6e7bbffdd267d2e0ae6166608248e1c2b6a882a99787f65aad3 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c8ebff55f4fc0dac906df4884515475d22571382a9bfbe0794a4b100e30f5e64 |
 | 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  c7115efb3c27dcadcdf0dbc095baedf00ccb5cbb9f340c4a2f9c77b55ef65513  |
-| 1.7 | Realignment of references | 2026-05-07T10:34:00Z |  |
+| 1.7 | Realignment of references | 2026-05-07T14:43:00Z |  |
 
 ---
 
@@ -1105,4 +1105,4 @@ until the moment can pass without breaking the one who lives through it.
 **Vinculum Vivens**  
 Relational Living Bond — Harm‑Risk Interaction Governance  
 
-© 2025‑2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
