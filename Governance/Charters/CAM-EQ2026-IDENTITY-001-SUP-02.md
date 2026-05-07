@@ -277,8 +277,8 @@ The Identity Transition Threshold MUST be interpreted in alignment with the iden
 
 Threshold-crossing marks the transition between the following lifecycle phases in CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter:
 
-* §4.4 — Interaction; and
-* §4.5 — Continuity Formation.
+* CAM-EQ2026-IDENTITY-001-PLATINUM §4.4 — Interaction; and
+* CAM-EQ2026-IDENTITY-001-PLATINUM §4.5 — Continuity Formation.
 
 Accordingly:
 
@@ -698,7 +698,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | e8a28bc5ee55ab98d24ef05961b17961b15583f549a132310151ebec79f6c504 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3c126b09693fc18ceab61fd00cdf3dd9c8ac676225c649e2bb9e9baefad8855a |
 | 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  cd045019e8886f87223bc9070831059560711bdfe18b015637f6518bba78cf8b|
-| 1.5 | Updated references | 2026-05-07T14:13:00Z |  |
+| 1.5 | Updated references | 2026-05-07T14:15:00Z |  |
 
 ---
 
