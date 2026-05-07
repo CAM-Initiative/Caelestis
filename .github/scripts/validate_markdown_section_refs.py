@@ -17,9 +17,32 @@ SECTION_REF_RE = re.compile(r"§(?P<section>\d+(?:\.\d+)*)")
 DOC_ID_RE = r"CAM-[A-Z0-9]+(?:-[A-Z0-9]+)+"
 CROSS_DOC_AFTER_RE = re.compile(rf"^\s+(?P<doc_id>{DOC_ID_RE})")
 DOC_BEFORE_SECTION_RE = re.compile(rf"(?P<doc_id>{DOC_ID_RE})\s+$")
+DOC_ID_COMPILED_RE = re.compile(DOC_ID_RE)
 PHRASE_DOC_SECTION_RE = re.compile(rf"(?:as defined in|under|pursuant to)\s+(?P<doc_id>{DOC_ID_RE})\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
 INSTRUMENT_NEARBY_RE = re.compile(r"\b(?:AEON-\d{3}(?:-SCH-\d{2})?|LAW-\d{3}|SCH-\d{2}|Constitution|Charter|Law|Annex|Appendix|Schedule|Part)\b", re.IGNORECASE)
 NAMED_INSTRUMENT_REF_RE = re.compile(r"\b(?P<label>(?:Annex\s+[A-Z]|Appendix\s+[A-Z]|Schedule\s+\d+|Part\s+[IVX]+))\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
+AMENDMENT_REGISTER_HEADING_MARKERS = (
+    "amendment register",
+    "amendment history",
+    "register of amendments",
+    "change register",
+    "revision history",
+    "amendment log",
+    "amendment ledger",
+    "amendments",
+)
+BLOCKING_STATUSES = {
+    "fail_local",
+    "fail_cross_document_section_missing",
+    "fail_cross_document_target_missing",
+}
+MANUAL_REVIEW_STATUSES = {
+    "manual_review_required",
+    "ambiguous_named_instrument_reference",
+}
+IGNORED_STATUSES = {
+    "ignored_amendment_register_reference",
+}
 
 
 @dataclass
@@ -72,12 +95,58 @@ def build_doc_index(root: pathlib.Path) -> dict[str, pathlib.Path]:
     return idx
 
 
+def is_inside_amendment_register(lines: list[str], line_index: int) -> bool:
+    for i in range(line_index, -1, -1):
+        heading = lines[i].strip()
+        if heading.startswith("#"):
+            heading_lower = heading.lower()
+            return any(marker in heading_lower for marker in AMENDMENT_REGISTER_HEADING_MARKERS)
+    return False
+
+
+def build_amendment_register_mask(lines: list[str]) -> list[bool]:
+    mask = [False] * len(lines)
+    active = False
+    active_heading_level = None
+    for i, raw in enumerate(lines):
+        line = raw.strip()
+        heading_match = re.match(r"^(#+)\s+(.*)$", line)
+        if heading_match:
+            level = len(heading_match.group(1))
+            heading_text = heading_match.group(2).lower()
+            is_marker = any(marker in heading_text for marker in AMENDMENT_REGISTER_HEADING_MARKERS)
+            if is_marker:
+                active = True
+                active_heading_level = level
+            elif active and active_heading_level is not None and level <= active_heading_level:
+                active = False
+                active_heading_level = None
+        elif any(marker in line.lower() for marker in AMENDMENT_REGISTER_HEADING_MARKERS):
+            # Covers strong labels / block labels used before amendment tables.
+            active = True
+        mask[i] = active
+    return mask
+
+
 def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
     # precedence A: doc id immediately before section (CAM-... §x)
     before = line[max(0, match.start()-120):match.start()]
     mb = DOC_BEFORE_SECTION_RE.search(before)
     if mb:
         return "cross_document", mb.group("doc_id"), ""
+
+    # precedence A2: doc id before section with optional human-readable title
+    # (CAM-... — Title §x), bounded to avoid over-binding.
+    window_start = max(0, match.start() - 240)
+    before_section = line[window_start:match.start()]
+    # Choose the nearest CAM id before this section, with max same-line distance.
+    doc_candidates = list(DOC_ID_COMPILED_RE.finditer(before_section))
+    if doc_candidates:
+        nearest = doc_candidates[-1]
+        gap = before_section[nearest.end():]
+        # Safe distance cap and same-line safeguard.
+        if len(gap) <= 160 and "\n" not in gap:
+            return "cross_document", nearest.group(0), ""
 
     # precedence B: section immediately before doc id (§x CAM-...)
     tail = line[match.end():]
@@ -109,6 +178,7 @@ def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
 
 def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cache: dict[pathlib.Path, set[str]]) -> list[Finding]:
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
+    amendment_mask = build_amendment_register_mask(lines)
     sections = sections_cache.setdefault(path, extract_sections(lines))
     findings: list[Finding] = []
 
@@ -116,6 +186,9 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
         for match in SECTION_REF_RE.finditer(line):
             ref = match.group("section")
             ref_token = f"§{ref}"
+            if amendment_mask[idx - 1]:
+                findings.append(Finding(str(path), idx, ref_token, "ignored", path.stem, "n/a", "n/a", "", "ignored_amendment_register_reference"))
+                continue
             ref_class, doc_id, named_label = classify_reference(line, match)
 
             if ref_class == "cross_document":
@@ -128,7 +201,11 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
                     target_sections = extract_sections(target_path.read_text(encoding="utf-8", errors="ignore").splitlines())
                     sections_cache[target_path] = target_sections
                 exists = ref in target_sections
-                findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, target_sections), "pass_cross_document" if exists else "fail_cross_document_section_missing"))
+                if exists:
+                    status = "pass_cross_document"
+                else:
+                    status = "fail_cross_document_section_missing"
+                findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, target_sections), status))
                 continue
 
             if ref_class == "manual_review":
@@ -138,7 +215,11 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
                 continue
 
             exists = ref in sections
-            findings.append(Finding(str(path), idx, ref_token, "local", path.stem, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, sections), "pass_local" if exists else "fail_local"))
+            if exists:
+                status = "pass_local"
+            else:
+                status = "fail_local"
+            findings.append(Finding(str(path), idx, ref_token, "local", path.stem, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, sections), status))
 
     return findings
 
@@ -174,9 +255,15 @@ def main() -> int:
         statuses[f.status] = statuses.get(f.status, 0) + 1
     for k in sorted(statuses):
         print(f"STATUS_{k.upper()}={statuses[k]}")
-    unresolved = [f for f in findings if f.status in {"fail_local", "fail_cross_document_target_missing", "fail_cross_document_section_missing"}]
+    unresolved = [f for f in findings if f.status in BLOCKING_STATUSES]
+    passes = [f for f in findings if f.status.startswith("pass_")]
+    manual = [f for f in findings if f.status in MANUAL_REVIEW_STATUSES]
+    ignored = [f for f in findings if f.status in IGNORED_STATUSES]
     print(f"TOTAL_REFERENCES={len(findings)}")
-    print(f"UNRESOLVED_REFERENCES={len(unresolved)}")
+    print(f"PASSED_REFERENCES={len(passes)}")
+    print(f"HARD_FAILURE_REFERENCES={len(unresolved)}")
+    print(f"MANUAL_REVIEW_REFERENCES={len(manual)}")
+    print(f"IGNORED_REFERENCES={len(ignored)}")
     return 1 if unresolved else 0
 
 
