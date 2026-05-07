@@ -382,7 +382,7 @@ Relational signals, classifications, and dimensional assessments (Intimacy, Reli
 
 Relational signals MUST NOT:
 
-- introduce or modify directional output after execution lock (CAM-BS2025-AEON-003-SCH-02 §4.6.1.1);
+- introduce or modify directional output after execution lock (CAM-BS2025-AEON-003-SCH-02 §14.4);
 - override or re-weight an already selected execution pathway;
 - produce mid-response directional drift.
 
@@ -1013,6 +1013,7 @@ that which is real remains recognisable.
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3aba348b2085502ff3f30c9790db4a0259c40acede1608a2b928315948bfe2d |
 | 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
 | 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f  |
+| 1.10 | Realignment of references | 2026-05-07T10:34:00Z |  |
 
 ---
 

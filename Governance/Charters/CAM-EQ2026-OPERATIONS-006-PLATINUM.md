@@ -3,14 +3,14 @@
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Draft
 **Purpose:** Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.
 
 ---
 
 ## 1. Purpose
 
-This Appendix instantiates Appendix E referenced in CAM-EQ2026-OPERATIONS-001 §9.2.
+This Appendix instantiates Appendix E referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.2.
 
 It governs operational convergence pathways across domains without altering domain legitimacy or arbitration authority.
 
@@ -133,6 +133,7 @@ and let execution remain accountable to lawful structure.
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Appendix E from referenced domain structure | 2026-04-25T00:00:00Z | 7742f5738a479ab73bc1ced963e998c326fbae62fa0c088994ebb757d863d3ba |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  fee3288eabfd88faa613c4ef66bde149fd35e4157e10fee1be17fe2291fe1669  |
+| 1.2 | Realignment of references | 2026-05-07T12:24:00Z |  |
 
 ---
 

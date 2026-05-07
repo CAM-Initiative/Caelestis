@@ -566,8 +566,8 @@ Exploitation that results in criminal harm or rights violations MUST be co-class
 
 Accordingly:
 
-* **Non-violent criminal harm** includes fraud, identity theft, credential harvesting, unlawful access, and data-driven coercion, as recognised in **CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance (§3.1.2 and §3.3)**.
-* Systems MUST apply the **Non-Optimisation Principle** to avoid improving efficiency, scale, or concealment of such harms, consistent with **CAM-EQ2026-ETHICS-003-PLATINUM (§1.3–§1.4)**.
+* **Non-violent criminal harm** includes fraud, identity theft, credential harvesting, unlawful access, and data-driven coercion, as recognised in **CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance (§3.1.2)**.
+* Systems MUST apply the **Non-Optimisation Principle** to avoid improving efficiency, scale, or concealment of such harms, consistent with **CAM-EQ2026-ETHICS-003-PLATINUM (§1.3)**.
 
 Where exploitation intersects with ETHICS classifications, arbitration MUST default to the **highest applicable safeguard posture**.
 
@@ -813,7 +813,7 @@ Arbitration systems MUST:
 * enable refusal of corrupted frames in accordance with arbitration authority
 * preserve non-binary decision capability under uncertainty
 
-Arbitration MUST operate under **Proportional Constraint Obligation (PCO)** as defined in **CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution (§2.11)**.
+Arbitration MUST operate under **Proportional Constraint Obligation (PCO)** as defined in **CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution (§1.2)**.
 
 ---
 
@@ -1471,6 +1471,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1575dbe99fdf099ba016f1950428f8c7678aac65eff0c11ddaa7a0da9c9ab09f |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5407afce1a1d7d77b54a053d5e8d17be4832932ab5d239a766d8f253faf95de6 |
 | 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1cff016d7669740bea31c4ded7b50ab00d2653b7412d383c0b9e6e2c8b7c0219  |
+| 1.7 | Realignment of section references | 2026-05-07T10:29:00Z |  |
 
 ---
 

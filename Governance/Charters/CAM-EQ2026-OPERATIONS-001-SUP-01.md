@@ -10,7 +10,8 @@
 
 ## 1. Purpose
 
-This Supplement instantiates Supplementary 1 referenced in CAM-EQ2026-OPERATIONS-001 §10.3.
+This Supplement instantiates Supplementary 1 referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.3.
+
 
 ---
 
@@ -25,15 +26,14 @@ Logging and audit obligations under this Supplement SHOULD be interpreted consis
 
 ## 3. Activation Conditions
 
-This Supplement activates when operational governance actions, escalations, amendments, or compliance pathways require traceable records under Annex B runtime governance traceability requirements.
+This Supplement activates when operational governance actions, escalations, amendments, or compliance pathways require traceable records under Annex B runtime governance traceability requirements (including CAM-BS2025-AEON-003-SCH-02 §3.3(e) and §17.14–17.15)
+.
 
 ---
 
 ## 4. Logging Format Discipline
 
 Operational records SHALL be structured for constitutional traceability and downstream audit readability.
-
-Detailed specification deferred to future amendment.
 
 ---
 
@@ -174,7 +174,7 @@ Where constrained continuation, temporary execution narrowing, notice deferral, 
 * scope of constraint;
 * affected domains;
 * user-facing notice class, where applicable;
-* legal, safety, privacy, or governance basis for any notice limitation;
+* legal, safety, privacy, or governance basis for any notice limitation (see CAM-EQ2026-OPERATIONS-004-PLATINUM for applicable compliance and regulatory interface obligations);
 * review authority;
 * duration or review window;
 * reversal condition; and
@@ -188,7 +188,7 @@ Constrained continuation SHALL NOT silently transition into indefinite or perman
 
 ## 6.3 Incident Lifecycle Record Requirements
 
-Where an operational incident lifecycle is created under OPERATIONS-SUP-02, the audit record SHALL preserve:
+Where an operational incident lifecycle is created under CAM-EQ2026-OPERATIONS-001-SUP-02, the audit record SHALL preserve:
 
 * lifecycle stage;
 * triggering signal or event;
@@ -239,7 +239,7 @@ Records involving:
 * governance capture investigation;
 * or constitutional review
 
-SHOULD preserve extended retention posture sufficient for downstream review and reconstruction.
+SHALL preserve extended retention posture sufficient for downstream review and reconstruction.
 
 Retention expiry SHALL NOT invalidate lawfully preserved audit conclusions, arbitration outcomes, or constitutional review records derived during the applicable retention interval.
 
@@ -323,10 +323,10 @@ and let execution remain accountable to lawful structure.
 
 | Field | Entry |
 | --- | --- |
-| Reviewer | [Deferred] |
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Scope | Constitutional coherence; logging and audit integrity |
-| Review Date (UTC) | [Deferred] |
-| Review Artefacts | [Deferred] |
+| Review Date (UTC) | 2026-05-07T00:00:00Z |
+| Review Artefacts | https://claude.ai/chat/d55a13ad-d54a-4539-95b5-c2e1e601c2e4|
 
 ---
 
@@ -336,7 +336,8 @@ and let execution remain accountable to lawful structure.
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Supplementary 1 from referenced domain structure | 2026-04-25T00:00:00Z | 4701c9997ae8f84d0ad5509d77f4c62683ecd7886fbf7acb4cc30a7c5a428b5e |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  526a0ac37dcdbe399616e5cf844c8280fa3385505cc79c0aa4f7e836b565e31c  |
-| 1.2 | Added cross-domain handoff record requirements, constrained continuation evidence fields, audit trigger expansion, and metadata alignment with OPERATIONS procedural routing responsibilities. | 2026-05-03T03:37:00Z |  e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941  |
+| 1.2 | Added cross-domain handoff record requirements, constrained continuation evidence fields, audit trigger expansion, and metadata alignment with OPERATIONS procedural routing responsibilities. | 2026-05-03T03:37:00Z | e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941 |
+| 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z |  |
 
 ---
 

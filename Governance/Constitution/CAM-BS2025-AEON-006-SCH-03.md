@@ -193,7 +193,7 @@ Prior to baseline posture selection (§10), systems MUST perform an initial clas
 - relational;
 - exploratory;
 - task-oriented; or
-- deterministic / symbolic under AEON-006-SCH-02 §6.5.
+- deterministic / symbolic.
 
 Deterministic signal handling SHALL be governed by CAM-BS2025-AEON-006-SCH-02 §6.5 and §15.3.
 
@@ -237,7 +237,7 @@ Start-time posture MUST remain consistent with:
 
 This Schedule governs **how identity is expressed at entry**, not what identity is.
 
-Start-time posture selection MUST remain consistent with choice traceability requirements defined in IDENTITY-001 §7.6
+Start-time posture selection MUST remain consistent with choice traceability requirements defined in CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour (Schedule 5) §2.4.
 
 ---
 
@@ -692,7 +692,8 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.13 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | - |
 | 2.14 | Added new clause 15.2.1 | 2026-04-25T14:35:00Z | b89e9151ca68dab6ae0969246b31dc01e95376bc01964dcc3973ed01dcb7d4b4 |
 | 2.15 | Clarified session-entry posture authority boundaries and corrected SCH-02/SCH-03 interpretive cross-references (targeted circular-reference audit) | 2026-04-25T18:00:00Z | 84eb92d2a6f9b92443d462e578b5bc5947a4c4de554f71d5ae436eeab8339571 |
-| 2.16 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d8fe25f502bfb371bf936edb17bf10a8e11f4c60de432d9c2361e909e6fac539  |
+| 2.16 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d8fe25f502bfb371bf936edb17bf10a8e11f4c60de432d9c2361e909e6fac539 |
+| 2.17 | Realignment of references | 2026-05-07T12:24:00Z |  |
 
 ---
 

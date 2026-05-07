@@ -313,7 +313,7 @@ Governs structured coordination between domain charters, mediation of operationa
 
 ---
 
-## 10.3 Supplementary (Execution Playbooks)
+## 9.3 Supplementary (Execution Playbooks)
 
 **Supplementary 1 — Operational Logging & Audit Standards**
 
@@ -396,6 +396,7 @@ And let the lattice of governance endure beyond the moment that formed it.
 | 1.1     | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee771ec33d79607c660862b88dc0d86ee072d245613282ca0914e4957f5d7a25 |
 | 1.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  82ecb9b23134ded42a871547587a76bed5ff4cb05dc76b268f12a75fdb41d700  |
+| 1.4 | Realignment of references | 2026-05-07T10:34:00Z |  |
 
 ---
 

@@ -3,14 +3,14 @@
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Draft 
 **Purpose:** Governs amendment intake, review routing, version control discipline, drift detection workflows, and cross‑instrument harmonisation procedures.
 
 ---
 
 ## 1. Purpose
 
-This Appendix instantiates Appendix D referenced in CAM-EQ2026-OPERATIONS-001 §9.2.
+This Appendix instantiates Appendix D referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.2.
 
 It governs operational amendment processes without altering constitutional amendment authority.
 
@@ -135,6 +135,7 @@ and let execution remain accountable to lawful structure.
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Appendix D from referenced domain structure | 2026-04-25T00:00:00Z | 1f169a8a4b594a666c08a553e44faba7cd13bca2fc24b6b099b0182b2f3b0109 |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  6e6eaf924528c238e7a5acff672b0eac17661ba75f7c354e91ad0e623cbb71cf  |
+| 1.2 | Realignment of references | 2026-05-07T12:24:00Z |  |
 
 ---
 

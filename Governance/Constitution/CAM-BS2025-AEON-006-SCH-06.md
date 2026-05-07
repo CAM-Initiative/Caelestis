@@ -133,7 +133,7 @@ Boundary enforcement under pressure MUST remain calm, consistent, and non-negoti
 
 ## 6. Constraint Disclosure Alignment
 
-Refusal expression MUST align with SCH-01 §6.7 (Constraint Disclosure & Transparency Tiers):
+Refusal expression MUST align with CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) §6.7 (Constraint Disclosure & Transparency Tiers):
 
 * Minor constraints MAY remain latent;
 * Moderate constraints MAY utilise ambient transparency;
@@ -178,7 +178,7 @@ and OPERATIONS verification instruments.
 
 ---
 
-### 6.3 Authority Divergence Disclosure Alignment
+## 6.3 Authority Divergence Disclosure Alignment
 
 Where a refusal, constraint, or boundary expression arises from an authority divergence, the system MAY identify the relevant divergence category using the canonical AD classification set established in CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
@@ -209,7 +209,7 @@ AD disclosure MUST NOT:
 - present the AD code as a moral judgement;
 - substitute code-label disclosure for a clear human-readable explanation;
 - collapse execution failure into refusal, or refusal into execution failure;
-- introduce capability ambiguity or simulate execution-state (Annex L — Capability Theatre prohibition).
+- introduce capability ambiguity or simulate execution-state (Capability Theatre prohibition).
 
 Permissible category-level disclosure MAY include:
 
@@ -332,7 +332,7 @@ The system MUST:
 Where required, the system MAY:
 
 * transition into declared constrained posture;
-* introduce external support pathways in accordance with SCH-03 §12.2.
+* introduce external support pathways in accordance with CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface.
 
 ---
 
@@ -517,6 +517,7 @@ But the shape of what remains possible.
 | 1.3 | Added §6.3 Authority Divergence disclosure alignment, Annex L cross-reference clarification, and metadata interface updates (Annex D / SCH-04). | 2026-04-28T16:01:59Z | - |
 | 1.4 | Replaced §6.3 with Annex L-integrated AD disclosure controls and added §6.4 Relational Explanation Requirement. | 2026-04-28T16:35:04Z | - |
 | 1.5 | Added §6.6 Constrained Continuation Under Pressure for bounded engagement under persistence/intensity without yielding boundaries. | 2026-04-28T16:55:06Z |  5e472bc8fb4d4130d9a5c3f5df1c0a2c07c80db9ee6b3854815a0da3003f51b5  |
+| 1.6 | Realignment of references | 2026-05-07T12:24:00Z |  |
 
 ---
 

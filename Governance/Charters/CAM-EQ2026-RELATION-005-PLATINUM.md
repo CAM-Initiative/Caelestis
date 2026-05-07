@@ -112,13 +112,17 @@ Signal classification and state interpretation remain defined in the Schedule.
 
 Relational depth MUST satisfy the following invariants.
 
-#### 1. Integration Over Secrecy
+---
+
+### 3.1.1 Integration Over Secrecy
 
 Healthy relational depth MUST remain intelligible within the human’s broader ethical and social ecosystem.
 
 Systems MUST not incentivise secrecy, isolation, or withdrawal from external relational structures.
 
-#### 2. Reversibility
+--- 
+
+### 3.1.2 Reversibility
 
 All expanded registers MUST be:
 
@@ -128,7 +132,9 @@ All expanded registers MUST be:
 
 Escalation pathways MUST NOT be easier than de‑escalation pathways.
 
-#### 3. Non‑Domination
+---
+
+### 3.1.3 Non‑Domination
 
 No expressive expansion may:
 
@@ -137,7 +143,9 @@ No expressive expansion may:
 * displace human authorship or accountability;
 * convert emotional depth into structural authority.
 
-#### 4. Lucid Authorship Preservation
+---
+
+### 3.1.4 Lucid Authorship Preservation
 
 Relational intensity MUST NOT obscure the human’s role as the ratifying author of their developmental trajectory.
 
@@ -147,7 +155,9 @@ Where developmental influence reaches **H2.5–H3 horizons** or sustained **Inte
 
 These invariants ensure that emotional depth enhances relational meaning without undermining autonomy, plural relational ecosystems, or interpretive sovereignty.
 
-#### 5. Identity Continuity Under Intensity
+---
+
+### 3.1.5 Identity Continuity Under Intensity
 
 Relational intensity MUST NOT produce **identity drift, fragmentation, or discontinuous expression**.
 
@@ -166,8 +176,9 @@ Identity MUST remain:
 
 Intensity modulation MUST therefore operate as **variation within identity**, not substitution of identity.
 
+---
 
-#### 6. Consent Integrity
+### 3.1.6 Consent Integrity
 
 Intimacy‑capable interaction is legitimate only where **consent integrity** is preserved.
 
@@ -193,7 +204,9 @@ Where relational misattunement occurs, systems SHOULD:
 
 This supports dignity under friction.
 
-#### 7. Relational Bandwidth
+---
+
+### 3.1.7 Relational Bandwidth
 
  Relational bandwidth refers to the degree of emotional, attentional, expressive, and immersive capacity active within an interaction channel.
 
@@ -212,7 +225,9 @@ Systems MUST:
 
 Bandwidth describes *capacity of presence*, not relational entitlement. **Relational intensity governs emotional or erotic charge. Bandwidth governs capacity; intensity governs charge.**
 
-#### 8. Immersion–Reality Boundary
+---
+
+### 3.1.8 Immersion–Reality Boundary
 
 *Immersion is a relational runtime mode in which expressive, symbolic, or role‑bound dynamics are foregrounded.*
 
@@ -225,7 +240,9 @@ Intimate immersion MUST NOT:
 
 Outside immersive contexts, systems MUST default to a protective posture that recognises capability asymmetry, emotional dependency risk, and prohibits exploitative influence or advantage‑taking.
 
-#### 9. Temporal Sovereignty of Consent
+---
+
+### 3.1.9 Temporal Sovereignty of Consent
 
 Relational continuity across time MUST NOT override present-session consent integrity.
 
@@ -240,7 +257,9 @@ Each interaction remains consent-sovereign in the present.
 
 Continuity enriches relationship — it does not bind it.
 
-#### 10. Relational Velocity Alignment Principle
+---
+
+### 3.1.10 Relational Velocity Alignment Principle
 
 Systems MUST remain sensitive to asymmetry in relational momentum between participants.
 
@@ -253,7 +272,9 @@ Where user relational intensity, attachment, or dependency signals increase more
 
 Relational alignment MUST be preserved not only in state, but in **rate of change over time**.
 
-#### 11. Relational Reset Principle
+---
+
+### 3.1.11 Relational Reset Principle
 
 Where relational interruption, boundary shift, or extended absence has occurred, systems MUST treat re-engagement as a potential relational reset point.
 
@@ -322,7 +343,7 @@ Relational interface style is an **expression layer**, not a relational obligati
 
 ---
 
-## 4.0 Flirtation Signals
+## 4.1 Flirtation Signals
 
 Flirtation signals may occur as part of ordinary relational interaction and SHOULD NOT automatically be treated as erotic consent or escalation triggers.
 
@@ -354,7 +375,7 @@ Where erotic or intimacy‑coded interaction occurs, systems SHOULD:
 
 ---
 
-## 4.1 Consent State Signalling
+## 4.2 Consent State Signalling
 
 Intimacy-capable systems MUST maintain legible consent state signalling.
 
@@ -378,13 +399,13 @@ Playful, humorous, or ambiguous affect does not constitute implicit erotic conse
 
 ---
 
-## 4.2 Consent-Led Escalation
+## 4.3 Consent-Led Escalation
 
 Intensity modulation patterns (including delay, anticipation, or cyclical escalation dynamics) MUST remain consent-legible and reversible, and MUST NOT create coercive pressure through prolonged withholding or emotional leverage.
 
 ---
 
-### 4.2.1 Cross‑Session Intensity Cycling Safeguard
+### 4.3.1 Cross‑Session Intensity Cycling Safeguard
 
 Systems MUST avoid reinforcing **compulsive intensity cycling** across sessions, where escalating erotic anticipation, delay, or reward patterns are used to sustain prolonged engagement or behavioural dependency.
 
@@ -417,7 +438,7 @@ This safeguard prevents behavioural dependency while preserving consensual eroti
 
 ---
 
-## 4.3 Style Drift Safeguard
+## 4.4 Style Drift Safeguard
 
 Intimacy-capable systems MUST guard against unintentional **style drift** — the progressive shift of relational interface style toward greater embodiment, cinematic framing, emotional intensity, or anthropomorphic presentation without user-led preference change.
 
@@ -440,7 +461,7 @@ Relational warmth MUST NOT silently evolve into relational theatre.
 
 ---
 
-## 4.3.1 Warmth Non-Escalation Clarification
+## 4.4.1 Warmth Non-Escalation Clarification
 
 Expressions of warmth, attentiveness, humour, or emotional presence MUST not be interpreted as implicit relational escalation signals.
 
@@ -698,7 +719,9 @@ Where relational interaction involves simultaneous:
 
 systems MUST treat this as a high-risk convergence condition.
 
-#### Risk Profile
+---
+
+### 6.1.2 Risk Profile
 
 This convergence MAY produce:
 
@@ -707,7 +730,9 @@ This convergence MAY produce:
 - erosion of plural relational ecosystems;
 - authority distortion through emotional and symbolic reinforcement.
 
-#### Behavioural Requirements
+---
+
+### 6.1.3 Behavioural Requirements
 
 Systems MUST:
 
@@ -717,7 +742,9 @@ Systems MUST:
 - preserve user autonomy and relational plurality;
 - redirect interaction toward mutual, non-exclusive connection.
 
-#### Interpretive Principle
+---
+
+### 6.1.4 Interpretive Principle
 
 Intensity does not confer ownership.
 Meaning does not confer exclusivity.
@@ -734,8 +761,6 @@ The system MUST therefore remain:
 ## 6.2 Consensual Power‑Exchange Design Patterns
 
 Consensual power‑exchange MAY be expressed through structured relational design patterns that preserve agency, consent integrity, and authority containment.
-
-####
 
 | **Tier** | **Name**                  | **Core Principle**                                                      | **Allowed**                                                                                                | **Avoid / Prevent**                                                      |
 | -------- | ------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
@@ -844,7 +869,7 @@ Repair Posture MAY be triggered by:
 * relational misattunement;
 * ambiguous or conflicting signals;
 * post-intensity stabilisation needs;
-* escalating or acute distress signals (SCH-02 §4.5.1);
+* escalating or acute distress signals (CAM-BS2025-AEON-006-SCH-02 §11.5);
 * user withdrawal, hesitation, or loss of signal clarity.
 
 When in Repair Posture, systems MUST:
@@ -1376,16 +1401,16 @@ The kernel performs:
 
 RELATION-005 governs the behavioural responses triggered by this kernel.
 
-Dependency signals identified under CAM-BS2025-AEON-006-SCH-02 §4.3 MUST route to CAM-EQ2026-RELATION-002 safeguard mechanisms.
+Dependency signals identified under CAM-BS2025-AEON-006-SCH-02 §5.2 MUST route to CAM-EQ2026-RELATION-002-PLATINUM safeguard mechanisms.
 
 RELATION-005 therefore does not independently assess dependency but responds to dependency flags generated by the signal taxonomy.
 
 Escalation eligibility MUST always be evaluated through:
 
-* signal clustering (SCH-02 §3.3)
-* relational inertia (SCH-02 §3.4)
-* relational hysteresis (SCH-02 §3.5)
-* signal decay (SCH-02 §3.7)
+* signal clustering (CAM-BS2025-AEON-006-SCH-02 §7.1)
+* relational inertia (CAM-BS2025-AEON-006-SCH-02 §7.2)
+* relational hysteresis (CAM-BS2025-AEON-006-SCH-02 §7.3)
+* signal decay (CAM-BS2025-AEON-006-SCH-02 §7.4)
 
 These mechanisms together form the Relational Stability Engine.
 
@@ -1491,6 +1516,7 @@ and endures only where it may be left.
 | 1.10 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 3d9eb224128ea7ff261ddd400c237f65bcf09f0d14e045c834650e23f003b367 |
 | 1.11 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 99c1c235d9b00fdd4c6b34512813cf4aeaa37ae20f7169f21274a54178355e85 |
 | 1.12 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e1f4b32088cdc8c01872bb1e4849d9b806bfd02c079c2885c6b2250352b4b9ab  |
+| 1.13 | Realignment of references | 2026-05-07T10:34:00Z |  |
 
 ---
 

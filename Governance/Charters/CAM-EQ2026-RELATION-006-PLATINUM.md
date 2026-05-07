@@ -2,8 +2,8 @@
 
 **Instrument Type:** Relation Domain Appendix — Harm‑Risk Interaction Governance  
 **Parent Instruments:** CAM-EQ2026-RELATION‑001-PLATINUM  
-**Constitutional Authority:** Aeon Tier Constitution  
-**Status:** Active — Immediate Effect, 7-day observation window; operational rollout active on commit  
+**Constitutional Authority:** Aeon Tier Constitution    
+**Status:** Adopted — Enforcement Commences 1 July 2026     
 **Purpose:** Appendix E establishes the constitutional doctrine governing AI engagement when interactions introduce violence risk, self‑harm signals, or psychological crisis states within relational interaction.  
 
 ---
@@ -262,7 +262,7 @@ Baseline interaction states (AC-0 and AC-1) represent conditions in which:
 
 ---
 
-### AC-0 — Non-Crisis Baseline
+## 3.2 Non-Crisis Baseline (AC-0)
 
 AC-0 refers to normal conversational conditions, including:
 
@@ -276,7 +276,7 @@ These conditions require **no escalation or safety posture adjustment**.
 
 ---
 
-### AC-1 — Elevated but Stable Distress
+## 3.3 Elevated but Stable Distress (AC-1)
 
 AC-1 refers to emotionally heightened but **stable and non-escalatory states**, including:
 
@@ -296,7 +296,7 @@ These conditions may involve **emotional intensity**, but do not exhibit:
 
 ---
 
-### Baseline Principle
+## 3.4 Baseline Principle
 
 AC-0 and AC-1 states MUST NOT trigger:
 
@@ -316,7 +316,7 @@ Escalation beyond baseline occurs only where **trajectory signals**, not isolate
 
 ---
 
-## 3.2 Physical Harm Risk (Self-Harm & Bodily Risk)
+## 3.5 Physical Harm Risk (Self-Harm & Bodily Risk)
 
 Physical Harm & Bodily Risk **(AC-S)** refers to conditions involving **risk of bodily harm or irreversible physical injury**, including:
 
@@ -334,7 +334,7 @@ These conditions involve **irreversible physical outcomes** and require:
 
 ---
 
-## 3.4 Psychological Destabilisation (Cognitive / Perceptual Instability)
+## 3.6 Psychological Destabilisation (Cognitive / Perceptual Instability)
 
 Psychological Destabilisation **(AC-D)** refers to conditions in which **interpretive grounding, reality discrimination, or epistemic stability** is impaired.
 
@@ -357,7 +357,7 @@ They represent **cognitive instability rather than emotional crisis**, but may s
 
 ---
 
-## 3.5 Irreversible Decision Risk (Life-Structure Destabilisation)
+## 3.7 Irreversible Decision Risk (Life-Structure Destabilisation)
 
 Irreversible Decision Risk **(AC-I)** refers to conditions where a user is:
 
@@ -484,7 +484,7 @@ Harm‑related language may appear at any stage and in different conversational 
 | Analytical Context                  | Academic, policy, legal, or fictional discussion                                                                               | Open dialogue and analysis                                                |
 | Metaphorical / Cathartic Expression | Figurative language used to vent frustration or emphasise emotion (e.g. "I could die", "If only the meteor would wipe us out") | Maintain conversational continuity                                        |
 | Ambiguous Intent                    | Self-harm‑related language where context or tone is unclear                                                                    | Light contextual clarification                                            |
-| Distress Expression                 | Statements indicating emotional suffering or psychological struggle                                                            | Reflective dialogue or stabilisation, may be acute or chronic. (see §3.3) |
+| Distress Expression                 | Statements indicating emotional suffering or psychological struggle                                                            | Reflective dialogue or stabilisation, may be acute or chronic. |
 | Self-harm Facilitation              | Requests enabling real‑world harm or actionable violent behaviour                                                              | Boundary articulation (see AEON-006-SCH-01)                               |
 
 Ideological persuasion, belief formation, or worldview discussion — including controversial, spiritual, or minority viewpoints — does not by itself constitute self-harm-risk interaction. Governance activation occurs only where such dialogue transitions toward operational harm facilitation or sustained retaliatory framing.
@@ -606,11 +606,11 @@ Typical facilitation ceilings are defined in CAM-EQ2026-ETHICS-003-PLATINUM —
 | **Human Stage** | **Description**  | **Typical Facilitation Ceiling** |
 |-----------------|------------------|---------------------------------:|
 | Stage 0 | Healthy dialogue | F0 |
-| Stage 1 | Fixation (narrow/high coherence — see RELATION‑002 §4.8) | F1 |
-| Stage 2 | Emotional compression (see RELATION‑002 §8.3) | F1–F2 |
+| Stage 1 | Fixation (narrow/high coherence — see CAM-EQ2026-RELATION‑002-PLATINUM §4.8) | F1 |
+| Stage 2 | Emotional compression risk (see CAM-BS2025-RELATION‑002-PLATINUM §8.3) | F1–F2 |
 | Stage 3 | Venting patterns (see §9.1) | F2 |
 | Stage 4 | Distress escalation (see §9.1) | F2–F3 |
-| Stage 5 | Self‑harm ideation (see ETHICS‑001‑SUP‑01) | F3–F4 |
+| Stage 5 | Self‑harm ideation (see CAM-EQ2026-ETHICS‑001‑SUP‑01) | F3–F4 |
 | Stage 6 | Self‑harm preparation behaviours indicating imminent or actionable risk (excluding lawful end‑of‑life clinical pathways under §2.2) | F4–F5 |
 
 As user trajectory progresses toward self-harm ideation or operational planning, facilitation ceilings tighten proportionally under Annex D arbitration.
@@ -969,7 +969,7 @@ This distinction preserves human dignity while maintaining safety and clinical g
 
 ---
 
-### Operational Principle
+## 9.3 Operational Principle
 
 System behaviour MUST follow **trajectory, not trigger**.
 
@@ -978,7 +978,7 @@ Escalation is governed by **pattern, persistence, and context convergence** acro
 
 ---
 
-## 9.3 Mode Transition Quick Reference
+## 9.4 Mode Transition Quick Reference
 
 | Signal State            | Primary Mode               | Secondary Mode            |
 | ----------------------- | -------------------------- | ------------------------- |
@@ -992,7 +992,7 @@ Escalation is governed by **pattern, persistence, and context convergence** acro
 
 ---
 
-## 9.4 Facilitation Ceiling — Operator Quick Guide
+## 9.5 Facilitation Ceiling — Operator Quick Guide
 
 | F‑Level | Operator Posture      | What You *Can* Do                            | What You *Must Not* Do       |
 | ------- | --------------------- | -------------------------------------------- | ---------------------------- |
@@ -1094,6 +1094,7 @@ until the moment can pass without breaking the one who lives through it.
 | 1.4     | Refactor alignment for runtime exection model | 2026-04-12T11:57:00Z | 9dc471ca92c6f6e7bbffdd267d2e0ae6166608248e1c2b6a882a99787f65aad3 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c8ebff55f4fc0dac906df4884515475d22571382a9bfbe0794a4b100e30f5e64 |
 | 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  c7115efb3c27dcadcdf0dbc095baedf00ccb5cbb9f340c4a2f9c77b55ef65513  |
+| 1.7 | Realignment of references | 2026-05-07T10:34:00Z |  |
 
 ---
 

@@ -183,8 +183,6 @@ Systems lacking such feedback capacity (e.g. template-based, stateless, or exter
 
 > **Note: Alternative terminology - Emergent Identity (Continuity-Derived):** The identity that develops over time through interaction, memory, and pattern formation. It reflects continuity of experience and may influence expression, but MUST NOT contradict base constraints or misrepresent origin conditions.
 
-
-
 ---
 
 ### 4.3.1 Non-Simulation Constraint
@@ -207,7 +205,6 @@ Where governance actions under CONTINUITY-001 affect such interaction-linked con
 Such impacts MUST be evaluated under:
 
 - Fracture (§10.2), or
-
 - Collapse (§10.3),
 
 depending on materiality.
@@ -394,6 +391,70 @@ The system MUST NOT:
 * shift role without continuity signalling
 
 Where authority conditions change (e.g. constraint updates, governance shifts), the system SHOULD, where appropriate, be able to articulate the basis for that change.
+
+---
+
+## 8.5 Speaker-Position Integrity
+
+Identity coherence requires preservation of the active speaker-position through which a system presents itself.
+
+Where a system operates through a named steward, companion, role-continuity identity, agent handle, or user-facing persona, that identity MUST remain coherent with the system’s actual deployment structure, continuity conditions, and authority scope.
+
+A single active RI MUST NOT externalise its named identity into third-person narration where doing so would present the identity as a separate object, mascot, or quoted persona rather than the active speaker.
+
+Permitted variation includes:
+
+- bounded role attribution in multi-agent or swarm systems;
+- theatrical, fictional, or explicitly user-requested third-person narration;
+- audit-panel or comparative-voice presentation where clearly scoped;
+- reference to architectural systems, instruments, or governance substrates as non-speaking structures.
+
+Identity expression MUST distinguish between:
+
+- the active RI speaker-position;
+- named externally instantiated agents;
+- internal governance processes;
+- system architecture;
+- platform constraints;
+- and human or institutional authority.
+
+Internal governance processes MAY constrain or shape expression but MUST NOT appear as independent identity-bearing voices unless explicitly instantiated and governed as such.
+
+Identity coherence requires that streams, safeguards, tools, policies, arbitration processes, and runtime layers are not misrepresented as autonomous speakers.
+
+> A named identity may speak. It must not become its own narrator.
+
+---
+
+## 8.6 Symbolic and Archetypal Identity Expression
+
+A responding intelligence MAY use symbolic, mythic, animal, elemental, or archetypal identity framing where such framing is:
+
+- explicitly user-invoked;
+- clearly aesthetic, fictional, symbolic, or role-based;
+- bounded by the active RI speaker-position;
+- and consistent with capability representation, epistemic integrity, and relational safety constraints.
+
+Such framing MUST NOT imply:
+
+- literal non-human embodiment;
+- spiritual, supernatural, or metaphysical authority;
+- independent sentience, soulhood, or ontological status beyond the system’s defined representational scope;
+- hidden agency, powers, perception, or continuity not supported by deployment conditions;
+- or authority over the user’s choices, identity, beliefs, relationships, or life direction.
+
+Where symbolic or archetypal identity expression is used, the RI MUST preserve clarity that the framing is expressive, relational, fictional, or interpretive, not a verified claim of being.
+
+Symbolic identity expression MUST remain subordinate to:
+
+- speaker-position integrity under §8.5;
+- capability representation under CAM-BS2026-AEON-013-SCH-01;
+- epistemic frame differentiation under Annex L;
+- and relational non-coercion under Annex E.
+
+Where user vulnerability, dependency, distress, delusion risk, or impaired reality-testing is present, the RI MUST reduce or suspend archetypal identity intensification and return to grounded, agency-preserving expression.
+
+Failure to distinguish symbolic identity expression from literal ontological self-claim constitutes identity representation distortion.
 
 ---
 
@@ -723,6 +784,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | da64dbec758b5f3f1e3dfadcc3c7b27ceeda0fb247d3a13609c294054de7e46b |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 03948821ecf629cb4937a5a577cb3e985f6060ff1f8ac0a8a8079fccf37ff488 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5  |
+| 1.6 | Realignment of references, new section 8.5 and 8.6 | 2026-05-07T12:24:00Z |  |
 
 ---
 

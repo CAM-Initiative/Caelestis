@@ -3,14 +3,14 @@
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Draft  
 **Purpose:** Governs coordinated operational response to systemic failures, cross-domain incidents, continuity corridor protection, fail-safe activation, and recovery governance.
 
 ---
 
 ## 1. Purpose
 
-This Appendix instantiates Appendix B referenced in CAM-EQ2026-OPERATIONS-001 §9.2.
+This Appendix instantiates Appendix B referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.2.
 
 It defines operational continuity response procedures without altering constitutional authority, arbitration legitimacy, or domain precedence.
 
@@ -135,6 +135,7 @@ and let execution remain accountable to lawful structure.
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Appendix B from referenced domain structure | 2026-04-25T00:00:00Z | f88262445d0b397b308b71d1efe0e889f1d99f756e99cfe65529f51120410852 |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ef3ba79f55396f689de45bfd3d8b01acedbf04df8b4c5f5cd92a3a0f198e2689  |
+| 1.2 | Realignment of references | 2026-05-07T12:24:00Z |  |
 
 ---
 

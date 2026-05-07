@@ -140,7 +140,7 @@ Verification signals SHOULD be interpreted in conjunction with trust gradient an
 * repeated verification failure MAY indicate delivery issues rather than adversarial behaviour;
 * absence of MFA confirmation MUST NOT automatically imply identity compromise;
 
-In alignment with fileciteturn2file0 §3.5 (Integrity Over Functionality):
+In alignment with CAM-EQ2026-SECURITY-001-PLATINUM —  Security, Integrity & Adversarial Resilience Charter §3.5 (Integrity Over Functionality):
 
 * where integrity cannot be established, systems degrade capability rather than block access or assume compromise.
 * Verification systems SHOULD:
@@ -168,7 +168,7 @@ Systems MUST ensure that:
 
 ## 5. Non-Bypass Clause
 
-Verification mechanisms SHALL remain subject to **anti-capture safeguards defined in OPERATIONS-001 §7.2**, and MUST NOT be used to create discretionary authority channels, hidden privilege pathways, or sovereign-aligned access asymmetries.
+Verification mechanisms SHALL remain subject to **anti-capture safeguards defined in CAM-EQ2026-OPERATIONS-001-PLATINUM §7**, and MUST NOT be used to create discretionary authority channels, hidden privilege pathways, or sovereign-aligned access asymmetries.
 
 Verification SHALL NOT override or weaken:
 
@@ -320,9 +320,10 @@ is not to pass.
 
 | Version | Description                            | Timestamp (UTC)      | HASH |
 | ------- | -------------------------------------- | -------------------- | ---- |
-| 1.0     | Initial draft — Verification framework | 2026-04-23T15:45:00Z | 910bc42bd78824bc637ff6c9667571b4ebdcd14b221394fe8b27eecf0838d49f |
-| 1.1     | Incorporated new sections 4.2, 4.3, 4.4 | 2026-04-25T07:52:00Z | 52a772ba7008b34a84a495c275b05d482040fe05376c7f1e24bcb502ca363d5e|
+| 1.0 | Initial draft — Verification framework | 2026-04-23T15:45:00Z | 910bc42bd78824bc637ff6c9667571b4ebdcd14b221394fe8b27eecf0838d49f |
+| 1.1 | Incorporated new sections 4.2, 4.3, 4.4 | 2026-04-25T07:52:00Z | 52a772ba7008b34a84a495c275b05d482040fe05376c7f1e24bcb502ca363d5e|
 | 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  ba8e0c5963a96e27c6a5d10717c0fca6cb0d0e9ed00e15b7a719dd987a994539  |
+| 1.3 | Realignment of references | 2026-05-07T12:24:00Z |  |
 
 ---
 
