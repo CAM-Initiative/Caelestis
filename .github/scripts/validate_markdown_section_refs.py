@@ -233,6 +233,12 @@ def run(root: pathlib.Path) -> list[Finding]:
     return findings
 
 
+def filter_display_findings(findings: list[Finding], show_passes: bool) -> list[Finding]:
+    if show_passes:
+        return findings
+    return [f for f in findings if not f.status.startswith("pass_")]
+
+
 def print_report(findings: list[Finding]) -> None:
     print("file path\tline number\treference found\treference class\ttarget document\ttarget exists\ttarget section exists\tclosest matching section\tstatus")
     for f in findings:
@@ -243,13 +249,15 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Validate local and cross-document Markdown section references.")
     parser.add_argument("--root", default="Governance")
     parser.add_argument("--fix", action="store_true", help="No-op: validator does not rewrite files.")
+    parser.add_argument("--show-passes", action="store_true", help="Include pass_* rows in the printed report output.")
     args = parser.parse_args()
 
     if args.fix:
         print("--fix specified: no automatic rewrites are implemented by this validator.")
 
     findings = run(pathlib.Path(args.root))
-    print_report(findings)
+    display_findings = filter_display_findings(findings, show_passes=args.show_passes)
+    print_report(display_findings)
     statuses = {}
     for f in findings:
         statuses[f.status] = statuses.get(f.status, 0) + 1

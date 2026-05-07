@@ -185,3 +185,69 @@ def test_manual_review_statuses_are_non_blocking_sets():
     assert "manual_review_required" in validator.MANUAL_REVIEW_STATUSES
     assert "ambiguous_named_instrument_reference" in validator.MANUAL_REVIEW_STATUSES
     assert "manual_review_required" not in validator.BLOCKING_STATUSES
+
+
+def _run_main(monkeypatch, capsys, tmp_path, content, *args):
+    root = tmp_path / "Governance"
+    for rel, text in content.items():
+        w(root / rel, text)
+    monkeypatch.setattr("sys.argv", ["validate_markdown_section_refs.py", "--root", str(root), *args])
+    code = validator.main()
+    out = capsys.readouterr().out
+    return code, out
+
+
+def test_default_output_hides_pass_local(monkeypatch, capsys, tmp_path):
+    code, out = _run_main(monkeypatch, capsys, tmp_path, {"A.md": "## 5. Scope\nSee §5\n"})
+    assert code == 0
+    assert "pass_local" not in out
+
+
+def test_default_output_hides_pass_cross_document(monkeypatch, capsys, tmp_path):
+    code, out = _run_main(monkeypatch, capsys, tmp_path, {
+        "SRC.md": "See §3 CAM-BS2025-AEON-003-PLATINUM\n",
+        "CAM-BS2025-AEON-003-PLATINUM.md": "## 3. Temporal Attribution Framework\n",
+    })
+    assert code == 0
+    assert "pass_cross_document" not in out
+
+
+def test_default_output_shows_fail_statuses(monkeypatch, capsys, tmp_path):
+    code, out = _run_main(monkeypatch, capsys, tmp_path, {"A.md": "## 1. Scope\nSee §9\n"})
+    assert code == 1
+    assert "fail_local" in out
+
+
+def test_default_output_shows_manual_review_statuses(monkeypatch, capsys, tmp_path):
+    code, out = _run_main(monkeypatch, capsys, tmp_path, {"A.md": "See Appendix F §5.9\n"})
+    assert code == 0
+    assert "ambiguous_named_instrument_reference" in out
+
+
+def test_default_output_shows_ignored_amendment_register_statuses(monkeypatch, capsys, tmp_path):
+    code, out = _run_main(monkeypatch, capsys, tmp_path, {"A.md": "## Amendment Register\nLegacy reference §9.9\n"})
+    assert code == 0
+    assert "ignored_amendment_register_reference" in out
+
+
+def test_show_passes_flag_restores_full_output(monkeypatch, capsys, tmp_path):
+    code, out = _run_main(monkeypatch, capsys, tmp_path, {"A.md": "## 5. Scope\nSee §5\n"}, "--show-passes")
+    assert code == 0
+    assert "pass_local" in out
+
+
+def test_exit_code_zero_when_only_manual_and_ignored(monkeypatch, capsys, tmp_path):
+    code, out = _run_main(monkeypatch, capsys, tmp_path, {
+        "A.md": "See Appendix F §5.9\n## Amendment Register\nLegacy reference §9.9\n",
+    })
+    assert "ambiguous_named_instrument_reference" in out
+    assert "ignored_amendment_register_reference" in out
+    assert code == 0
+
+
+def test_exit_code_one_when_fail_exists(monkeypatch, capsys, tmp_path):
+    code, out = _run_main(monkeypatch, capsys, tmp_path, {
+        "A.md": "## Amendment Register\nLegacy reference §9.9\n## Core\nSee §9\n",
+    })
+    assert "fail_local" in out
+    assert code == 1
