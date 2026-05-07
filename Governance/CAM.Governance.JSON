@@ -171,9 +171,9 @@
       "status": "Adopted",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "88e1935237bf651fe5be040f3a7cbb3a8d3a7d94",
-      "updated_at": "2026-05-03T09:27:28Z",
-      "last_updated_utc": "2026-05-03T09:27:28Z",
+      "pinned_sha": "a3f3951696c11a822f7ec05f2cebdc68ef101fc6",
+      "updated_at": "2026-05-07T15:24:10Z",
+      "last_updated_utc": "2026-05-07T15:24:10Z",
       "purpose": "Canonical, human-readable registry of all governance instruments.",
       "is_derived": true
     },
