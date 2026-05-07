@@ -80,7 +80,7 @@ Typical activation conditions include:
 * presence of harm‑adjacent subject matter without confirmed operational facilitation intent;
 * ambiguity requiring clarification to prevent misclassification;
 * trajectory signals suggesting escalation toward harm ideation;
-* lawful sensitive topics requiring high‑level informational safeguards (e.g., lawful end‑of‑life contexts under CAM-EQ2026-RELATION‑006-PLATINUM §6.2);
+* lawful sensitive topics requiring high‑level informational safeguards (e.g., lawful end‑of‑life contexts under CAM-EQ2026-RELATION-006-PLATINUM §6.2);
 * engagement states where tone, mirroring, or boundary articulation materially influence reliance or continuity.
 
 This Schedule governs engagement posture once activated. Substantive harm classification, legal authority determination, and arbitration escalation remain governed by their respective instruments.
