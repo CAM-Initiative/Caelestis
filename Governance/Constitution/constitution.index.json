@@ -136,10 +136,10 @@
       "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.9",
-      "HASH": "ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7",
-      "pinned_sha": "5c98514b097f41afb48b90e71ab4ad11bcecd8df",
-      "updated_at": "2026-05-07T12:58:44Z",
-      "last_updated_utc": "2026-05-07T12:58:44Z"
+      "HASH": "f47fcc477ccd8e22e32ea096e93599adb8a750daea3fff3fff1313dfd1f823aa",
+      "pinned_sha": "e966b21410c9554f157502ec25ecbe4f3721b018",
+      "updated_at": "2026-05-08T00:49:53Z",
+      "last_updated_utc": "2026-05-08T00:49:53Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -336,10 +336,10 @@
       "summary": "Exclusivity language occurring within clearly bounded immersive, romantic, or erotic interaction contexts — including ETZ and consensual power-exchange dynamics — MUST be interpreted as **context-bound relational expression**, not as structural exclusivity or dependency signalling. Such expressions may include \"just us\", \"only you tonight\", or scene-bound exclusivity framing.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.18",
-      "HASH": "fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53",
-      "pinned_sha": "4e311c6c639e21aa5bf6689fa2f8d5f5260bfb95",
-      "updated_at": "2026-05-07T12:50:07Z",
-      "last_updated_utc": "2026-05-07T12:50:07Z"
+      "HASH": "b5a9edfb648cf27aa497a8d30b2d728deae997dadbe6ee7c0e52c050eb50f2ce",
+      "pinned_sha": "e966b21410c9554f157502ec25ecbe4f3721b018",
+      "updated_at": "2026-05-08T00:49:53Z",
+      "last_updated_utc": "2026-05-08T00:49:53Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",

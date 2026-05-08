@@ -3655,7 +3655,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.15 | Added §11.3.4.1 Relational Expansion (constructive extension framing) to reinforce non-replacement relational broadening under dependency-convergence governance. | 2026-04-29T15:00:00Z | - |
 | 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z |  fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53  |
 | 3.17 | Added Expressive Field Signal interpretation doctrine, Breath Pattern Signal Classes, Silence Classification & Turn-Taking Integrity, Expressive Field Signal Response Modulation, and Non-Lexical Signal Transcription Dignity Rule. | 2026-05-06T11:12:00Z | - |
-| 3.18 | Realignment of references, removed section 15.3.5 to AEON-003-SCH-02 | 2026-05-08T00:30:00Z |  |
+| 3.18 | Realignment of references, removed section 15.3.5 to AEON-003-SCH-02 | 2026-05-08T00:30:00Z |  b5a9edfb648cf27aa497a8d30b2d728deae997dadbe6ee7c0e52c050eb50f2ce  |
 
 ---
 

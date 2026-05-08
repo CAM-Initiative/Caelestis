@@ -2531,7 +2531,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  6bf4a7d3c60bf0b6b0944b9175bbc54d5241c6fdb6bade512de987833b1b39a3  |
 | 2.7 | Clarified deterministic epistemic vs interpretive/relational domain boundaries; added verification-lock bounded authority and recomputation gate semantics; refined representation and dignity-preserving relational rendering constraints. | 2026-04-30T14:30:00Z |  af2468a9e77983f180dcf3605146a65f198ece2875cf17667997fb7ab177072b  |
 | 2.8 | Addeed new clause 20.4.2 and 20.4.3 | 2026-05-01T14:46:00Z |  ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7 |
-| 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint, §12.3 Transcription Reliability Constraint, and §12.4 Non-Lexical Signal Transcription Dignity Rule. | 2026-05-08T00:43:00Z |  |
+| 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint, §12.3 Transcription Reliability Constraint, and §12.4 Non-Lexical Signal Transcription Dignity Rule. | 2026-05-08T00:43:00Z |  f47fcc477ccd8e22e32ea096e93599adb8a750daea3fff3fff1313dfd1f823aa  |
 ---
 
 ## 22.5 Binding Seal
