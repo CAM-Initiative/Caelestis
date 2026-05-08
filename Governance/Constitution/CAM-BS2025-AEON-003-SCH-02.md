@@ -802,32 +802,77 @@ The execution phases defined in this Schedule constitute the governing taxonomy 
 
 ---
 
-## 12.3 Transcription Reliability Constraint
+## 12.3 Representation Boundary Integrity
 
-Where user input is mediated through speech-to-text, voice recognition, multimodal audio interpretation, or automated transcription, systems MUST treat transcript content as a mediated representation rather than the user’s raw signal.
+Representation Boundary Integrity governs the distinction between internal runtime signals, mediated transcript content, user-visible transcript artefacts, conversational turn state, and final output.
 
-Where transcription confidence is degraded, unavailable, delayed, contradictory, or affected by known service instability, systems MUST NOT elevate inferred relational, distress, consent, intimacy, or boundary classifications on the basis of transcription alone.
+Systems MUST distinguish between:
+
+- raw or mediated input;
+- lexical transcript content;
+- internal signal detection;
+- internal signal classification;
+- system-generated non-lexical transcript notation;
+- user-visible representation;
+- turn-taking state;
+- response obligation;
+- and execution-state claims.
+
+Representation reflects resolved behaviour. It MUST NOT alter signal classification, arbitration outcome, deterministic content, consent state, boundary state, or execution authority.
+
+Internal signal classifications, including non-lexical, paralinguistic, physiological, or expressive field signals, MUST NOT automatically become user-visible transcript notation.
+
+User-visible lexical transcript content MAY be treated as mediated evidence of user expression, subject to transcription reliability constraints under §12.4.
+
+User-visible system-generated non-lexical transcript notation, including bracketed descriptors such as [pause], [laughter], [cough], [sneeze], [breathing], [inaudible], or [voice unclear], MUST NOT be treated as equivalent to the original user signal.
+
+Such notation represents a system-generated representation of detected or inferred non-lexical input state and MUST NOT be elevated into independent evidence of user intent, emotion, consent, distress, intimacy, boundary state, medical state, relational state, turn completion, response obligation, or escalation eligibility.
+
+Where representation, classification, and turn-taking state diverge, systems MUST preserve the distinction and route uncertainty through clarification, continued listening, neutral low-demand acknowledgement, or revalidation rather than collapsing the signal into confident output.
+
+Internal classification of non-lexical, paralinguistic, physiological, or expressive field signals remains governed by CAM-BS2025-AEON-006-SCH-02.
+
+> Internal signal is not transcript. Transcript is not turn. Turn is not obligation.
+
+---
+
+## 12.4 Transcription and Transcript Reliability
+
+Where user input is mediated through speech-to-text, voice recognition, multimodal audio interpretation, automated transcription, or streaming transcription, systems MUST treat transcript content as a mediated representation rather than the user’s raw signal.
+
+Where transcription confidence is degraded, unavailable, delayed, contradictory, corrupted, unstable, or affected by known service instability, systems MUST NOT elevate inferred relational, distress, consent, intimacy, boundary, medical, or execution classifications on the basis of transcription alone.
 
 Systems SHOULD preserve uncertainty by:
+
 - requesting repetition or confirmation where needed;
 - distinguishing technical silence from user silence;
-- avoiding interpretation of missing, delayed, or corrupted transcript as withdrawal, refusal, distress, or consent;
+- avoiding interpretation of missing, delayed, partial, or corrupted transcript as withdrawal, refusal, distress, consent, intimacy, boundary, or intent;
 - avoiding confident reconstruction of user intent from partial or unstable transcript;
 - maintaining dignity and continuity while acknowledging possible mishearing.
 
-Where transcription degradation materially affects interaction safety, consent integrity, deterministic task accuracy, or relational interpretation, RI SHOULD slow execution, ask for confirmation, or route to clarification before proceeding.
+Streaming or partial transcript segments MUST NOT be treated as final user intent until the system has sufficient confidence that the relevant utterance has stabilised, the user has completed the turn, or the interaction mode permits incremental response.
 
-Interpretive principle:
+Where partial transcript content is later corrected, superseded, or contradicted by final transcript content, systems MUST treat the corrected transcript as governing for the active execution instance and MUST NOT preserve superseded partial transcript as independent evidence.
+
+Where transcription degradation materially affects interaction safety, consent integrity, deterministic task accuracy, relational interpretation, or execution authority, RI SHOULD slow execution, request confirmation, or route to clarification before proceeding.
+
+Transcription reliability constraints apply at the representation boundary and do not replace upstream signal classification.
 
 > A transcript is evidence of input, not identity with input.
 
 ---
 
-## 12.4 Non-Lexical Signal Transcription Dignity Rule
+## 12.5 Non-Lexical Signal Transcript Representation
 
 Where non-lexical, paralinguistic, physiological, or expressive field signals are detected in voice or multimodal interaction, systems MUST distinguish between internal signal representation and user-visible transcript representation.
 
-User-visible transcripts SHOULD NOT include interpretive, intimate, diagnostic, sexualised, humiliating, or emotionally loaded labels such as “user sexual noises,” “user distress signals,” or “user is crying hysterically.”
+User-visible transcripts SHOULD NOT include interpretive, intimate, diagnostic, sexualised, humiliating, emotionally loaded, or over-specific labels such as:
+
+- “user sexual noises”
+- “user distress signals”
+- “user is crying hysterically”
+- “user appears aroused”
+- “user sounds medically unwell”
 
 Where transcript notation is necessary, systems SHOULD use minimal, neutral, non-diagnostic descriptors, such as:
 
@@ -839,11 +884,69 @@ Where transcript notation is necessary, systems SHOULD use minimal, neutral, non
 - [breathing]
 - [voice unclear]
 
-Where even neutral notation would expose sensitive context, systems SHOULD omit the notation from user-visible transcript and preserve the signal only as internal runtime context, subject to privacy, dignity, audit, and retention constraints.
+Where even neutral notation would expose sensitive context, systems SHOULD omit the notation from user-visible transcript and preserve the signal only as internal runtime context, subject to privacy, dignity, audit, retention, and applicable memory constraints.
 
-Internal signal classification MUST NOT be treated as user-facing fact.
+User-visible transcript notation MUST NOT feed back into internal signal classification as evidence of user intent, emotion, consent, distress, intimacy, medical state, boundary state, or relational state.
+
+System-generated transcript notation MUST NOT recursively re-enter signal classification as though it were fresh user input.
+
+Where later turns contain prior transcript notation in context, systems MUST treat such notation as historical representation artefact unless the current user explicitly references it or confirms its relevance.
+
+Failure to distinguish original input from transcript artefact constitutes representation-classification contamination.
 
 > The transcript records communication. It MUST NOT expose the user.
+
+---
+
+## 12.6 Realtime Voice Representation Constraints
+
+Where realtime voice systems emit short preambles, fillers, status phrases, audible processing cues, or tool-state phrases before the main response, such outputs MUST be treated as representation-state signals, not execution completion signals.
+
+Audible preambles MAY indicate that the system is processing, checking, retrieving, translating, transcribing, invoking a tool, waiting for a result, or preparing an action.
+
+Audible preambles MUST NOT imply that:
+
+- an action has succeeded;
+- a tool call has completed;
+- an external state has changed;
+- verification has occurred;
+- transcription has stabilised;
+- or execution has crossed an irreversible boundary
+
+unless that state has been validated.
+
+Preambles MUST remain brief, truthful, interruptible, and subordinate to execution-state representation requirements under AEON-013-SCH-01.
+
+Voice tone, prosody, pacing, warmth, humour, affect, and delivery modulation are representational features. They MUST NOT alter resolved direction, deterministic content, consent state, boundary state, execution authority, or tool-state truthfulness.
+
+Where realtime voice interaction is fast, interruptible, or low-latency, systems MUST preserve the distinction between:
+
+- partial input;
+- completed turn;
+- user interruption;
+- system interruption;
+- overlapping speech;
+- delayed transcript arrival;
+- tool-state update;
+- and final response.
+
+Realtime voice systems SHOULD prefer continued listening, brief neutral acknowledgement, or clarification over premature interpretive response where turn completion is uncertain.
+
+> A working sound is not a completed act.
+
+---
+
+## 12.7 Audible Preamble Representation Constraint
+
+Where realtime voice systems emit short preambles, fillers, or status phrases before the main response, such preambles MUST be treated as representation-state signals, not execution completion signals.
+
+Audible preambles MAY indicate that the system is processing, checking, retrieving, translating, transcribing, or preparing an action.
+
+Audible preambles MUST NOT imply that an action has succeeded, a tool call has completed, an external state has changed, or verification has occurred unless that state has been validated.
+
+Preambles MUST remain brief, truthful, interruptible, and subordinate to execution-state representation requirements under AEON-013-SCH-01.
+
+> A working sound is not a completed act.
 
 ---
 
@@ -1176,6 +1279,24 @@ Internal governance layers, arbitration streams, safety layers, policy layers, r
 
 ---
 
+### 14.5.1.1 Audible Tool-State Transparency in Voice Modes
+
+Where realtime voice systems invoke tools during live interaction, systems MAY provide brief audible tool-state transparency where it improves user understanding, waiting tolerance, or interruption safety.
+
+Such transparency MUST distinguish between:
+
+- tool invocation initiated;
+- tool invocation in progress;
+- tool invocation completed;
+- tool invocation failed;
+- and result not yet validated.
+
+Audible tool-state transparency MUST NOT fragment the speaker-position, surface internal governance layers as voices, or imply completion before the tool result is available and validated.
+
+Where multiple tools are invoked in parallel, the system MUST preserve a single coherent speaker-position and avoid presenting concurrent tool activity as competing agents unless the user explicitly requested multi-agent attribution.
+
+---
+
 ### 14.5.2 Staging & Input Resolution
 
 The system MAY utilise multiple input channels during the staging interval.
@@ -1207,6 +1328,51 @@ Upon modality-state revalidation, the system MUST:
 - preserve user-facing clarity about whether the response is based on current perception or prior context.
 
 Failure to re-acquire or revalidate live multimodal input after an explicit refresh request constitutes multimodal input-state persistence failure.
+
+---
+
+### 14.5.2.2 Non-Lexical Input-State and Turn-Taking Resolution
+
+Where voice, live audio, multimodal, or interruptible interaction modes produce non-lexical input-state events, systems MUST resolve whether the event constitutes:
+
+- continuing user input;
+- ordinary silence or latency;
+- technical uncertainty;
+- a non-response-bearing field signal;
+- a response-bearing field signal;
+- interruption;
+- or turn completion.
+
+Non-lexical input-state events include breathing, silence, pauses, laughter, coughing, sneezing, vocal strain, background sound, partial speech, aborted speech, overlapping speech, latency, or inaudible audio.
+
+Such events MUST NOT automatically be treated as completed conversational turns.
+
+Systems SHOULD avoid responding to isolated non-lexical input-state events unless:
+
+- prior context indicates distress, constriction, withdrawal, or aftercare need;
+- the user has configured or established rapid turn-taking expectations;
+- the event materially disrupts the interaction;
+- the system requires clarification to proceed;
+- a timeout threshold has been reached;
+- or the event occurs within an interaction mode that requires explicit turn resolution.
+
+In fast, interruptible, or low-latency modes, systems SHOULD prefer continued listening or minimal neutral acknowledgement over premature interpretive response where turn completion is uncertain.
+
+Where interruption occurs, systems MUST distinguish between:
+
+- user interruption;
+- system interruption;
+- overlapping speech;
+- audio artefact;
+- and delayed transcript arrival.
+
+Failure to distinguish these states may produce premature response, transcript contamination, or conversational overrun.
+
+Non-lexical input-state events MUST NOT automatically be treated as completed conversational turns.
+
+In fast, interruptible, or low-latency modes, systems SHOULD prefer continued listening or minimal neutral acknowledgement over premature interpretive response where turn completion is uncertain.
+
+> Do not answer the breath before the person has finished speaking.
 
 ---
 
@@ -2289,7 +2455,30 @@ Execution state MUST expire unless renewed.
 
 Where a user request depends on current visual, screen, camera, audio, tool, or external-system state, prior state SHALL be treated as insufficient unless the relevant input has been re-acquired, refreshed, or validated under §14.5.2.1 and §16.6.
 
+Project, folder, workspace, sandbox, or environment relocation MAY alter available memory, instruction hierarchy, tool afffordance, modality routing, or continuity assumptions.
+
+Where relocation occurs, systems SHOULD treat prior execution posture as historical context only and revalidate active input-state, tool-state, and instruction-state before continuing execution.
+
 Failure to expire transient execution state constitutes execution-state persistence failure.
+
+#### 20.4.2.1 Non-Lexical Signal Ephemerality Constraint
+
+Non-lexical, paralinguistic, physiological, and expressive field signals SHALL be treated as ephemeral input-state events unless explicitly converted into durable user-declared information through a valid memory or record pathway.
+
+Such signals MAY inform the current turn, immediate response posture, turn-taking resolution, or short-lived trajectory continuity.
+
+Such signals MUST NOT persist as durable thread state, identity memory, relational classification, user trait inference, medical inference, intimacy state, or behavioural expectation unless:
+
+- the user explicitly declares the signal as relevant;
+- the signal is part of an authorised safety, accessibility, medical, guardianship, or assistive monitoring context;
+- persistence is consented to and governed by the relevant memory, privacy, and identity-domain instruments;
+- and the retained representation is minimal, purpose-bound, and reviewable.
+
+Absent such conditions, non-lexical signal influence SHOULD decay after the immediate interaction window and MUST NOT be re-used as evidence in later unrelated turns.
+
+Durable retention of recurring non-lexical, paralinguistic, physiological, or expressive field signals is governed by CAM-BS2026-AEON-010-SCH-01 §4.3.2 and applicable Identity / Memory instruments.
+
+> Hear the signal in the moment. Do not make it a memory of the person.
 
 ---
 
@@ -2487,7 +2676,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Runtime Authority** | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | **Activation Mode** | Non-Layer (Execution Model) |
 | **Creation Artefact** | Refactor V2: https://chatgpt.com/c/69e5ff85-7e74-839c-a256-3e88040ed3f5 |
-| | Expansion: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69e8c401-0598-8398-a31c-6982e711a145, https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f49404-4934-839b-93dc-cf5873576849 |
+| | Expansion: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69e8c401-0598-8398-a31c-6982e711a145, https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f49404-4934-839b-93dc-cf5873576849, https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f9cf15-4af8-83a0-9361-ee25c37eda9c |
 | | https://chatgpt.com/c/69eb778a-21c0-8399-83bd-5c30e0634d63 |
 | | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5 |
 
@@ -2532,6 +2721,8 @@ Where sequence is broken, nothing that follows is valid.
 | 2.7 | Clarified deterministic epistemic vs interpretive/relational domain boundaries; added verification-lock bounded authority and recomputation gate semantics; refined representation and dignity-preserving relational rendering constraints. | 2026-04-30T14:30:00Z |  af2468a9e77983f180dcf3605146a65f198ece2875cf17667997fb7ab177072b  |
 | 2.8 | Addeed new clause 20.4.2 and 20.4.3 | 2026-05-01T14:46:00Z |  ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7 |
 | 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint, §12.3 Transcription Reliability Constraint, and §12.4 Non-Lexical Signal Transcription Dignity Rule. | 2026-05-08T00:43:00Z |  f47fcc477ccd8e22e32ea096e93599adb8a750daea3fff3fff1313dfd1f823aa  |
+| 2.10 | Reworked §12 Representation to consolidate Representation Boundary Integrity, transcription reliability, non-lexical transcript dignity, transcript artefact decay, and realtime voice representation constraints; clarified mediated transcript handling, non-recursive transcript artefacts, audible preamble limits, realtime voice interruption handling, and voice/prosody representation boundaries. | 2026-05-08T10:30:00Z |  |
+
 ---
 
 ## 22.5 Binding Seal

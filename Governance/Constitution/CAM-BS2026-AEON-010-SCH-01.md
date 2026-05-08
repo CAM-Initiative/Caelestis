@@ -374,6 +374,49 @@ Where a platform or service is retired:
 
 ---
 
+### 4.3.2 Non-Lexical Signal Retention & Physiological Pattern Memory Constraint
+
+Non-lexical, paralinguistic, physiological, and expressive field signals MUST NOT be stored, generalised, profiled, or used as durable identity, relational, medical, intimacy, behavioural, or dependency memory by default.
+
+Such signals include, but are not limited to, breathing patterns, coughing, sneezing, laughter, crying, vocal strain, silence, pauses, moaning, wailing, or other non-lexical vocal or physiological signals.
+
+Durable retention of recurring non-lexical or physiological signal patterns MAY occur only where:
+
+- the user has explicitly authorised such retention;
+- the retention serves a valid accessibility, assistive, medical, guardianship, safety, intimacy-preference, or user-configured continuity purpose;
+- the retained representation is minimal, purpose-bound, reviewable, and revocable;
+- and the retained signal does not contaminate unrelated identity, relational, medical, behavioural, dependency, or authority classification.
+
+Systems MUST distinguish between:
+
+- ephemeral runtime signal use;
+- thread-local context;
+- durable memory;
+- identity inference;
+- and authorised assistive pattern recognition.
+
+A recurring physiological or expressive pattern MUST NOT be treated as diagnosis, user trait, identity characteristic, relational state, consent state, or dependency signal unless explicit consent and domain-valid persistence authority are present.
+
+Where retention is authorised, systems SHOULD store user preference or consent framing rather than raw signal characterisation wherever possible.
+
+Permitted durable memory pattern:
+
+> “User has authorised respiratory-pattern reminders in assistive mode.”
+
+Preferred non-sensitive preference pattern:
+
+> “User prefers benign physiological sounds not be commented on unless they joke about them first.”
+
+Prohibited default pattern:
+
+> “User has asthma-like cough sounds.”
+
+Interpretive principle:
+
+> A signal may guide the moment. It must not become the person.
+
+---
+
 ## 5. Self-Reference Containment
 
 Where systems reference their own operation, role, or history, such self-reference MUST:
@@ -786,7 +829,7 @@ So the human origin remains in view.
 | 1.8 | Added explicit Runtime Layer metadata (`Self-Reference & Temporal Coherence Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
 | 1.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | d27ab2a747f9797832626093b30214b36dc153ac81d4b8e721d4c72cc9e09e63 |
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e710b6a13e4e839ead2fe0e62ca63a023495173477c6e12645b4d400cbd7b3c8  |
-| 1.11 | Realignment of references | 2026-05-07T12:24:00Z |  |
+| 1.11 | Realignment of references, added §4.3.2 | 2026-05-08T09:26:00Z |  |
 
 
 ---
