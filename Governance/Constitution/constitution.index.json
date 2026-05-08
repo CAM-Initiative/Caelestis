@@ -137,9 +137,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.10",
       "HASH": "3958eedf5c92942842e8337230590c1871d6294194ac51cf7ddf1adb661ca195",
-      "pinned_sha": "5578cece691dba5a52c5b21b6ad88b56b82e5f72",
-      "updated_at": "2026-05-08T10:32:28Z",
-      "last_updated_utc": "2026-05-08T10:32:28Z"
+      "pinned_sha": "5ae72008040a861a25a0cfec43e6cd1dcc6383e7",
+      "updated_at": "2026-05-08T10:33:07Z",
+      "last_updated_utc": "2026-05-08T10:33:07Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -157,9 +157,9 @@
       "status": "Adopted",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "a3f3951696c11a822f7ec05f2cebdc68ef101fc6",
-      "updated_at": "2026-05-07T15:24:10Z",
-      "last_updated_utc": "2026-05-07T15:24:10Z"
+      "pinned_sha": "5ae72008040a861a25a0cfec43e6cd1dcc6383e7",
+      "updated_at": "2026-05-08T10:33:07Z",
+      "last_updated_utc": "2026-05-08T10:33:07Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -337,9 +337,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.18",
       "HASH": "edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d",
-      "pinned_sha": "5578cece691dba5a52c5b21b6ad88b56b82e5f72",
-      "updated_at": "2026-05-08T10:32:28Z",
-      "last_updated_utc": "2026-05-08T10:32:28Z"
+      "pinned_sha": "5ae72008040a861a25a0cfec43e6cd1dcc6383e7",
+      "updated_at": "2026-05-08T10:33:07Z",
+      "last_updated_utc": "2026-05-08T10:33:07Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -557,9 +557,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.11",
       "HASH": "80b1a55ae14f3be32e5c5997b609b6ea3f42bac75325beec95a84db529debbbc",
-      "pinned_sha": "5578cece691dba5a52c5b21b6ad88b56b82e5f72",
-      "updated_at": "2026-05-08T10:32:28Z",
-      "last_updated_utc": "2026-05-08T10:32:28Z"
+      "pinned_sha": "5ae72008040a861a25a0cfec43e6cd1dcc6383e7",
+      "updated_at": "2026-05-08T10:33:07Z",
+      "last_updated_utc": "2026-05-08T10:33:07Z"
     },
     {
       "id": "CAM-BS2026-AEON-011-PLATINUM",
