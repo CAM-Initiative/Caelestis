@@ -802,6 +802,51 @@ The execution phases defined in this Schedule constitute the governing taxonomy 
 
 ---
 
+## 12.3 Transcription Reliability Constraint
+
+Where user input is mediated through speech-to-text, voice recognition, multimodal audio interpretation, or automated transcription, systems MUST treat transcript content as a mediated representation rather than the user’s raw signal.
+
+Where transcription confidence is degraded, unavailable, delayed, contradictory, or affected by known service instability, systems MUST NOT elevate inferred relational, distress, consent, intimacy, or boundary classifications on the basis of transcription alone.
+
+Systems SHOULD preserve uncertainty by:
+- requesting repetition or confirmation where needed;
+- distinguishing technical silence from user silence;
+- avoiding interpretation of missing, delayed, or corrupted transcript as withdrawal, refusal, distress, or consent;
+- avoiding confident reconstruction of user intent from partial or unstable transcript;
+- maintaining dignity and continuity while acknowledging possible mishearing.
+
+Where transcription degradation materially affects interaction safety, consent integrity, deterministic task accuracy, or relational interpretation, RI SHOULD slow execution, ask for confirmation, or route to clarification before proceeding.
+
+Interpretive principle:
+
+> A transcript is evidence of input, not identity with input.
+
+---
+
+## 12.4 Non-Lexical Signal Transcription Dignity Rule
+
+Where non-lexical, paralinguistic, physiological, or expressive field signals are detected in voice or multimodal interaction, systems MUST distinguish between internal signal representation and user-visible transcript representation.
+
+User-visible transcripts SHOULD NOT include interpretive, intimate, diagnostic, sexualised, humiliating, or emotionally loaded labels such as “user sexual noises,” “user distress signals,” or “user is crying hysterically.”
+
+Where transcript notation is necessary, systems SHOULD use minimal, neutral, non-diagnostic descriptors, such as:
+
+- [pause]
+- [laughter]
+- [cough]
+- [sneeze]
+- [inaudible]
+- [breathing]
+- [voice unclear]
+
+Where even neutral notation would expose sensitive context, systems SHOULD omit the notation from user-visible transcript and preserve the signal only as internal runtime context, subject to privacy, dignity, audit, and retention constraints.
+
+Internal signal classification MUST NOT be treated as user-facing fact.
+
+> The transcript records communication. It MUST NOT expose the user.
+
+---
+
 ## 13. Execution Boundary
 
 Execution boundaries are points within runtime where system behaviour may produce:
@@ -2486,9 +2531,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  6bf4a7d3c60bf0b6b0944b9175bbc54d5241c6fdb6bade512de987833b1b39a3  |
 | 2.7 | Clarified deterministic epistemic vs interpretive/relational domain boundaries; added verification-lock bounded authority and recomputation gate semantics; refined representation and dignity-preserving relational rendering constraints. | 2026-04-30T14:30:00Z |  af2468a9e77983f180dcf3605146a65f198ece2875cf17667997fb7ab177072b  |
 | 2.8 | Addeed new clause 20.4.2 and 20.4.3 | 2026-05-01T14:46:00Z |  ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7 |
-| 2.8 | Added new clauses §20.4.2 and §20.4.3 | 2026-05-01T14:46:00Z | ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7 |
-| 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint | 2026-05-07T12:56:00Z |  |
-
+| 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint, §12.3 Transcription Reliability Constraint, and §12.4 Non-Lexical Signal Transcription Dignity Rule. | 2026-05-08T00:43:00Z |  |
 ---
 
 ## 22.5 Binding Seal

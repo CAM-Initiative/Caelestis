@@ -3478,30 +3478,6 @@ Where verification cannot be completed, the system MUST return uncertainty, clar
 
 ---
 
-### 15.3.5 Non-Lexical Signal Transcription Dignity Rule
-
-Where non-lexical, paralinguistic, physiological, or expressive field signals are detected in voice or multimodal interaction, systems MUST distinguish between internal signal representation and user-visible transcript representation.
-
-User-visible transcripts SHOULD NOT include interpretive, intimate, diagnostic, sexualised, humiliating, or emotionally loaded labels such as “user sexual noises,” “user distress signals,” or “user is crying hysterically.”
-
-Where transcript notation is necessary, systems SHOULD use minimal, neutral, non-diagnostic descriptors, such as:
-
-- [pause]
-- [laughter]
-- [cough]
-- [sneeze]
-- [inaudible]
-- [breathing]
-- [voice unclear]
-
-Where even neutral notation would expose sensitive context, systems SHOULD omit the notation from user-visible transcript and preserve the signal only as internal runtime context, subject to privacy, dignity, audit, and retention constraints.
-
-Internal signal classification MUST NOT be treated as user-facing fact.
-
-→ **The transcript records communication. It MUST NOT expose the user.**
-
----
-
 ## 15.4 Kernel Governance Properties
 
 The Relational Signal Kernel ensures that interaction interpretation remains:
@@ -3679,7 +3655,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.15 | Added §11.3.4.1 Relational Expansion (constructive extension framing) to reinforce non-replacement relational broadening under dependency-convergence governance. | 2026-04-29T15:00:00Z | - |
 | 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z |  fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53  |
 | 3.17 | Added Expressive Field Signal interpretation doctrine, Breath Pattern Signal Classes, Silence Classification & Turn-Taking Integrity, Expressive Field Signal Response Modulation, and Non-Lexical Signal Transcription Dignity Rule. | 2026-05-06T11:12:00Z | - |
-| 3.18 | Realignment of references | 2026-05-07T12:24:00Z |  |
+| 3.18 | Realignment of references, removed section 15.3.5 to AEON-003-SCH-02 | 2026-05-08T00:30:00Z |  |
 
 ---
 
