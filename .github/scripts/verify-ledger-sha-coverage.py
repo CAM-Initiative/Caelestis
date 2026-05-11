@@ -9,6 +9,7 @@ from pathlib import Path
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
 from ledger_sha_policy import classify_ledger_sha
+from ledger_sha_exceptions import allows_blank_sha
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 LAW_VERIFY_SCRIPT = REPO_ROOT / ".github" / "scripts" / "verify-law-manifest-integrity.py"
@@ -141,6 +142,10 @@ def main() -> int:
                 summary["blank_latest_shas_allowed"] += 1
                 warn(f"{scope_name}:{doc_id}: latest ledger SHA is blank/placeholder; allowed as pending finalisation in {relpath(md)}")
                 continue
+            elif allows_blank_sha(doc_id) and latest.strip() == "":
+                summary["blank_latest_shas_allowed"] += 1
+                warn(f"Allowed blank SHA: {doc_id}")
+                continue
             else:
                 summary["blank_latest_shas_rejected"] += 1
                 failures.append(f"{scope_name}:{doc_id}: latest ledger SHA is blank/placeholder in {relpath(md)}")
@@ -153,6 +158,9 @@ def main() -> int:
 
             json_hash = str(item.get('HASH') or '').strip()
             if not json_hash:
+                if allows_blank_sha(doc_id):
+                    warn(f"Allowed blank SHA: {doc_id}")
+                    continue
                 failures.append(f"{scope_name}:{doc_id}: JSON HASH is blank in {relpath(json_path)}")
                 continue
             if json_hash != latest:

@@ -51,3 +51,17 @@ def test_multiple_files_simulated_summary_behavior():
     ledger.evaluate_historical_and_latest_hashes("b.md", mk([f"|1.0|a|t|{'b'*64}|","|1.1|b|t|-|"]), f,w,s, strict_latest=False)
     assert not f
     assert s.get("valid_historical_sha",0) == 2
+
+
+def test_allowlisted_latest_blank_passes_in_strict_mode():
+    f=[]; w=[]; s={}
+    ledger.evaluate_historical_and_latest_hashes(
+        "Governance/Charters/CAM-BS2025-AEON-006-SCH-01.md",
+        mk([f"|1.0|a|t|{'a'*64}|", "|1.1|b|t|  |"]),
+        f,
+        w,
+        s,
+        strict_latest=True,
+    )
+    assert not f
+    assert any("Allowed blank SHA: CAM-BS2025-AEON-006-SCH-01" in msg for msg in w)
