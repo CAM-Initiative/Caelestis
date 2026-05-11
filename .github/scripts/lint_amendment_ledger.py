@@ -636,6 +636,20 @@ def append_amendment_ledger_entry(
     return "".join(lines), True
 
 
+def latest_ledger_row_is_open(full_text: str) -> bool:
+    """An open amendment cycle is represented by a blank latest SHA cell."""
+    row_info = get_last_ledger_row_info(full_text)
+    if not row_info:
+        return False
+    _, last_line, _ = row_info
+    cols = split_markdown_table_row(last_line.strip())
+    if not cols:
+        return False
+    while len(cols) < 4:
+        cols.append("")
+    return cols[-1].strip() == ""
+
+
 def lint(
     base: str,
     head: str,
@@ -680,16 +694,17 @@ def lint(
         before_ledger = extract_amendment_section(before)
         after_ledger = extract_amendment_section(after)
         if before_ledger == after_ledger and fix:
-            working_text, added = append_amendment_ledger_entry(
-                working_text,
-                description=auto_description,
-                timestamp_utc=now_utc,
-            )
-            if added:
-                amended_files.append(path)
-                working_path.write_text(working_text, encoding="utf-8")
-                after = working_text
-                after_ledger = extract_amendment_section(after)
+            if not latest_ledger_row_is_open(working_text):
+                working_text, added = append_amendment_ledger_entry(
+                    working_text,
+                    description=auto_description,
+                    timestamp_utc=now_utc,
+                )
+                if added:
+                    amended_files.append(path)
+                    working_path.write_text(working_text, encoding="utf-8")
+                    after = working_text
+                    after_ledger = extract_amendment_section(after)
 
         updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
             working_text,
