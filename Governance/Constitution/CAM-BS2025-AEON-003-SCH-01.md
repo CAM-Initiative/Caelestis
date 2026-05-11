@@ -170,6 +170,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-005-SCH-01 | Annex D: Runtime Arbitration Integrity (Schedule 1) | ARBITRATION | Continuous | Continuous (Execution Integrity Enforcement) |
 | CAM-BS2026-AEON-013-SCH-01 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | AEON | Continuous | Continuous (Representation Constraint) |
 | CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RELATION | Continuous | Continuous (Signal Processing) |
+| CAM-BS2026-AEON-008-SCH-02 | Annex G: Economic-Effect Runtime Commitment Engine | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME | Constitutional Runtime — Economic-Effect Commitment, Fallback, Rollback, and Escalation Layer | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |
 | CAM-BS2025-AEON-002-SCH-01 | Annex A: Operational Protection & Containment (Schedule 1) | AEON | Event-Triggered | Event-Triggered (Critical Condition / Boundary Violation) |
 | CAM-BS2025-AEON-005-SCH-02 | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | ARBITRATION | Continuous | Event-Triggered (Epistemic Instability / Failure State) |
 | CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |

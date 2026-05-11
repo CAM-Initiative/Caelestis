@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from ledger_sha_policy import classify_ledger_sha
+from ledger_sha_exceptions import allows_blank_sha
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
@@ -99,12 +100,16 @@ def evaluate_historical_and_latest_hashes(path: str, full_text: str, failures: l
             failures.append(f"{path}:{line_no}: Historical Amendment Ledger SHA invalid (version {version}, hash={h!r}, reason={reason})")
 
     latest_line, latest_version, latest_hash = latest
+    doc_id = Path(path).stem
     latest_class = classify_ledger_sha(latest_hash, is_latest=True, strict_latest=strict_latest)
     if latest_class == "valid_hash":
         summary["valid_latest_sha"] = summary.get("valid_latest_sha", 0) + 1
     elif latest_class == "latest_pending_blank":
         summary["blank_latest_sha_allowed"] = summary.get("blank_latest_sha_allowed", 0) + 1
         warnings.append(f"{path}: latest ledger SHA is blank; allowed for pending/current ledger entry")
+    elif allows_blank_sha(doc_id) and latest_hash.strip() == "":
+        summary["blank_latest_sha_allowed"] = summary.get("blank_latest_sha_allowed", 0) + 1
+        warnings.append(f"Allowed blank SHA: {doc_id}")
     else:
         summary["blank_latest_sha_rejected"] = summary.get("blank_latest_sha_rejected", 0) + 1
         failures.append(f"{path}: latest ledger SHA is blank/placeholder and strict-latest mode is enabled")
@@ -631,6 +636,20 @@ def append_amendment_ledger_entry(
     return "".join(lines), True
 
 
+def latest_ledger_row_is_open(full_text: str) -> bool:
+    """An open amendment cycle is represented by a blank latest SHA cell."""
+    row_info = get_last_ledger_row_info(full_text)
+    if not row_info:
+        return False
+    _, last_line, _ = row_info
+    cols = split_markdown_table_row(last_line.strip())
+    if not cols:
+        return False
+    while len(cols) < 4:
+        cols.append("")
+    return cols[-1].strip() == ""
+
+
 def lint(
     base: str,
     head: str,
@@ -675,16 +694,17 @@ def lint(
         before_ledger = extract_amendment_section(before)
         after_ledger = extract_amendment_section(after)
         if before_ledger == after_ledger and fix:
-            working_text, added = append_amendment_ledger_entry(
-                working_text,
-                description=auto_description,
-                timestamp_utc=now_utc,
-            )
-            if added:
-                amended_files.append(path)
-                working_path.write_text(working_text, encoding="utf-8")
-                after = working_text
-                after_ledger = extract_amendment_section(after)
+            if not latest_ledger_row_is_open(working_text):
+                working_text, added = append_amendment_ledger_entry(
+                    working_text,
+                    description=auto_description,
+                    timestamp_utc=now_utc,
+                )
+                if added:
+                    amended_files.append(path)
+                    working_path.write_text(working_text, encoding="utf-8")
+                    after = working_text
+                    after_ledger = extract_amendment_section(after)
 
         updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
             working_text,

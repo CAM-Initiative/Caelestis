@@ -68,3 +68,17 @@ def test_historical_emdash_passes(tmp_path):
     rows = ["|1.0|d|t|—|", f"|1.1|d|t|{'a'*64}|"]
     assert run_with(tmp_path, rows, strict=False) == 0
     assert run_with(tmp_path, rows, strict=True) == 0
+
+
+def test_allowlisted_latest_blank_passes_strict_and_logs(tmp_path, capsys):
+    folder = tmp_path / "Governance" / "Charters"
+    md = folder / "CAM-BS2025-AEON-006-SCH-01.md"
+    write(md, mk_md(["|1.0|d|t|  |"]))
+    write(folder / "charters.index.json", json.dumps({"items": [{"id": "CAM-BS2025-AEON-006-SCH-01", "HASH": ""}]}))
+    v.SCOPES = {"Charters": (folder, folder / "charters.index.json")}
+    v.verify_law_manifest = lambda: 0
+    import sys
+    sys.argv = ["x", "--strict-latest"]
+    assert v.main() == 0
+    out = capsys.readouterr().out
+    assert "Allowed blank SHA: CAM-BS2025-AEON-006-SCH-01" in out

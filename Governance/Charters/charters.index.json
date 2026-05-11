@@ -1,5 +1,5 @@
 {
-  "count": 49,
+  "count": 51,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -77,9 +77,9 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.7",
       "HASH": "782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c",
-      "pinned_sha": "2dd2d08918db34e232485271f5ad28e8b9c7298e",
-      "updated_at": "2026-05-04T10:52:27Z",
-      "last_updated_utc": "2026-05-04T10:52:27Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
@@ -97,9 +97,29 @@
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "2.5",
       "HASH": "9505e72e70209ccc2b8f8a9c2a142858ea468f3a5afacaf9f16d0c8790c3fce1",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
+    },
+    {
+      "id": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ECONOMICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "003",
+      "parent_id": "CAM-EQ2026-ECONOMICS-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
+      "title": "Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine",
+      "summary": "This Appendix establishes the economic semantics required to interpret resource provision, exchange, attribution, depletion, replenishment, storage, attention-linked value, and contribution-linked value within the Economics domain.",
+      "status": "Adopted — Conditional Activation (7-Day Review Window)",
+      "version": "1.0",
+      "HASH": "",
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
@@ -114,12 +134,12 @@
       "link": "CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
       "title": "Appendix C: Cross-System Value Attribution & Exchange",
       "summary": "",
-      "status": "Draft — Context Engineering & Field Alignment",
+      "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "1.2",
       "HASH": "e080b88c358c5f39d97dd8f5a4eb3204002e702f4f4beded803dfbf2317f638e",
-      "pinned_sha": "6e7ddabb66718d42d223df3a81edb99a3fe83ff9",
-      "updated_at": "2026-05-05T14:04:01Z",
-      "last_updated_utc": "2026-05-05T14:04:01Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
@@ -134,12 +154,12 @@
       "link": "CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
       "title": "Appendix D:  Attribution & Dependency Model",
       "summary": "Weighting Bands translate the core variables (**C, D, T, ΔT**) into **practical governance expectations**.",
-      "status": "Draft — Operationalisation Layer",
+      "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "1.1",
       "HASH": "f61c36634f6795d403806928aba4c6ddebf7446240a9ef8c73dbe19103c52396",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-006-PLATINUM",
@@ -154,12 +174,12 @@
       "link": "CAM-EQ2026-ECONOMICS-006-PLATINUM.md",
       "title": "Appendix E: Minimum Viable Governance Layer (External Alignment)",
       "summary": "",
-      "status": "Draft — External Alignment Layer",
+      "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "1.1",
       "HASH": "2b24aa1951fbcc89af0c6ada5f33c825a20f32e5f547f4327ae5a9357ba92e5b",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
@@ -174,12 +194,12 @@
       "link": "CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
       "title": "Appendix F: Proportional Reciprocity & Value Return Framework",
       "summary": "The purpose of this layer is to:",
-      "status": "Draft — Reciprocity & Value Return Layer",
+      "status": "Adopted — Conditional Activation (7-Day Review Window)",
       "version": "1.1",
       "HASH": "7aa8318c10176e7112a4cd7cccaa42043ce549064e017c36920cb5b473e31c60",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-PLATINUM",
@@ -492,14 +512,14 @@
       "parent_id": "CAM-EQ2026-OPERATIONS-001",
       "seal": null,
       "link": "CAM-EQ2026-OPERATIONS-001-SUP-01.md",
-      "title": "Supplementary 1: Operational Logging & Audit Standards",
+      "title": "Operational Logging & Audit Standards (Supplementary 1)",
       "summary": "This Supplement instantiates Supplementary 1 referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.3.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.3",
       "HASH": "e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941",
-      "pinned_sha": "4e311c6c639e21aa5bf6689fa2f8d5f5260bfb95",
-      "updated_at": "2026-05-07T12:50:07Z",
-      "last_updated_utc": "2026-05-07T12:50:07Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-02",
@@ -512,14 +532,14 @@
       "parent_id": "CAM-EQ2026-OPERATIONS-001",
       "seal": null,
       "link": "CAM-EQ2026-OPERATIONS-001-SUP-02.md",
-      "title": "Supplementary 2: Escalation Pathway Playbooks",
+      "title": "Escalation Pathway Playbooks (Supplementary 2)",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.2",
+      "version": "1.3",
       "HASH": "b037669f98c52c0eca4eb2c592e9e6f72ab7b2212781a18a926145e462421c2b",
-      "pinned_sha": "4e311c6c639e21aa5bf6689fa2f8d5f5260bfb95",
-      "updated_at": "2026-05-07T12:50:07Z",
-      "last_updated_utc": "2026-05-07T12:50:07Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-03",
@@ -532,14 +552,14 @@
       "parent_id": "CAM-EQ2026-OPERATIONS-001",
       "seal": null,
       "link": "CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-      "title": "Supplementary 3: Governance Capture Detection Procedures",
+      "title": "Governance Capture Detection Procedures (Supplementary 3)",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.1",
       "HASH": "de1c14630377c09e6aef6eee06956220ffae2ca63775483522928b66284946be",
-      "pinned_sha": "4e311c6c639e21aa5bf6689fa2f8d5f5260bfb95",
-      "updated_at": "2026-05-07T12:50:07Z",
-      "last_updated_utc": "2026-05-07T12:50:07Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-002-PLATINUM",
@@ -575,11 +595,31 @@
       "title": "Appendix B: Incident Response & Continuity Operations",
       "summary": "This Appendix instantiates Appendix B referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.2.",
       "status": "Draft",
-      "version": "1.2",
+      "version": "2.0",
       "HASH": "ef3ba79f55396f689de45bfd3d8b01acedbf04df8b4c5f5cd92a3a0f198e2689",
-      "pinned_sha": "4e311c6c639e21aa5bf6689fa2f8d5f5260bfb95",
-      "updated_at": "2026-05-07T12:50:07Z",
-      "last_updated_utc": "2026-05-07T12:50:07Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-003-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-OPERATIONS-003",
+      "seal": null,
+      "link": "CAM-EQ2026-OPERATIONS-003-SUP-01.md",
+      "title": "Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1)",
+      "summary": "Failures where the system improperly preserves, loses, or misapplies state.",
+      "status": "Draft — Discovery & Classification Phase",
+      "version": "1.0",
+      "HASH": "",
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -813,13 +853,13 @@
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-RELATION-007-PLATINUM.md",
       "title": "Appendix F: Polyadic Relational Governance Doctrine",
-      "summary": "In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM‑EQ2026‑ETHICS‑001‑SUP‑01.",
+      "summary": "In group, shared-thread, multi-user, or polyadic interaction environments, systems MUST distinguish between:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.6",
+      "version": "1.7",
       "HASH": "6e24806ef8b303325f1037953919c258397c12bb846c8a6063d0116276cfa660",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
+      "updated_at": "2026-05-11T13:11:33Z",
+      "last_updated_utc": "2026-05-11T13:11:33Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008-PLATINUM",

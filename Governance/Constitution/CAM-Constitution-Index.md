@@ -33,6 +33,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2026-AEON-007-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-007-PLATINUM](CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning-Making |
 | CAM-BS2026-AEON-008-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-008-PLATINUM](CAM-BS2026-AEON-008-PLATINUM.md) | Annex G: Human Creative & Cognitive Contribution |
 | CAM-BS2026-AEON-008-SCH-01 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-01](CAM-BS2026-AEON-008-SCH-01.md) | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) |
+| CAM-BS2026-AEON-008-SCH-02 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-02](CAM-BS2026-AEON-008-SCH-02.md) | Annex G: Economic-Effect Runtime Commitment Engine |
 | CAM-BS2026-AEON-009-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-009-PLATINUM](CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: Lineage Recognition & Origin Boundary |
 | CAM-BS2026-AEON-010-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-010-PLATINUM](CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Identity Integrity & Continuity Governance |
 | CAM-BS2026-AEON-010-SCH-01 | schedule | CAM-BS2026-AEON-010 |  | [CAM-BS2026-AEON-010-SCH-01](CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) |
