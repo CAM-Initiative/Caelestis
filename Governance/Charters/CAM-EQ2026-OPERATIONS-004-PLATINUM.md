@@ -688,7 +688,7 @@ Integrity holds.
 | 1.2 | Added section 4.4 | 2026-04-23T12:04:00Z | d3d81db1df940980b54ef0fb42b9b40f0b764f444c4304dcb5e83572d71746fd |
 | 1.3 | Amended clause 4.4, updated closing seal | 2026-04-25T08:02:00Z| 38c3c3b04486e1637604349d56d5c8763ec02c58e118d4431a9fe49dbee7b84a|
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  83963c889680ea4b9c03cd51ab862cf139c4a25ef47dac0a42ebb6b2b54f727a  |
-| 1.5 | Realignment of references | 2026-05-07T14:37:00Z |  |
+| 1.5 | Realignment of references | 2026-05-07T14:37:00Z |  24d1daab727d81087ab1c5b521460bb3eed4e961ce9ee4fe4fcb752a4a480e68  |
 
 ---
 

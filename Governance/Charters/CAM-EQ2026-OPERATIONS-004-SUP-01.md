@@ -323,7 +323,7 @@ is not to pass.
 | 1.0 | Initial draft — Verification framework | 2026-04-23T15:45:00Z | 910bc42bd78824bc637ff6c9667571b4ebdcd14b221394fe8b27eecf0838d49f |
 | 1.1 | Incorporated new sections 4.2, 4.3, 4.4 | 2026-04-25T07:52:00Z | 52a772ba7008b34a84a495c275b05d482040fe05376c7f1e24bcb502ca363d5e|
 | 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  ba8e0c5963a96e27c6a5d10717c0fca6cb0d0e9ed00e15b7a719dd987a994539  |
-| 1.3 | Realignment of references | 2026-05-07T12:24:00Z |  |
+| 1.3 | Realignment of references | 2026-05-07T12:24:00Z |  139098cd1ab447162ab704cd5591847d09c2cd9d9c42cbff5764b7f972d4f2bf  |
 
 ---
 

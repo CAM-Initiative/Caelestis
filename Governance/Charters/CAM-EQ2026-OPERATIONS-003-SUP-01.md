@@ -501,7 +501,7 @@ but in what was broken while someone was there to see it.
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z  |  |
+| 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z  |  0e0b63a8b83440d0ec44557a68045403c45a71a698971842bcc3e34512896b41  |
 
 ---
 

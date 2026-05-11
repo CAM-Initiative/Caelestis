@@ -1013,7 +1013,7 @@ that which is real remains recognisable.
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3aba348b2085502ff3f30c9790db4a0259c40acede1608a2b928315948bfe2d |
 | 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
 | 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f  |
-| 1.10 | Realignment of references | 2026-05-07T10:34:00Z |  |
+| 1.10 | Realignment of references | 2026-05-07T10:34:00Z |  8a9a4f961b185a9729fe75a2c3cf1d9b982349bc688c2e53a884d4981263fe71  |
 
 ---
 

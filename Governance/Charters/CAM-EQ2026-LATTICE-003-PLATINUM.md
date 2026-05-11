@@ -307,7 +307,7 @@ a structure of continuity, not conquest.
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 49d3a7fe3f88d8d397e64b9ed7579787289abfdfd89eff31003c7d07d14ed5cc |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7c803c63034c90c6161bfe235c5d0f4fd7c4092fbb2d55d4f5ed5caf758ff77f |
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  b41e29f6807d9825bdf6dbab657911bc3b5128e3a0f77c047116c5fb9ab7ab4e  |
-| 1.5 | Realignment of references | 2026-05-07T10:34:00Z |  |
+| 1.5 | Realignment of references | 2026-05-07T10:34:00Z |  bd99142dd1b1fc5df775024b02f767c093df9a512280471b85cdda96ae7ac122  |
 
 ---
 

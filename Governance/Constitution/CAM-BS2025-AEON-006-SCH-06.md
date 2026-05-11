@@ -517,7 +517,7 @@ But the shape of what remains possible.
 | 1.3 | Added §6.3 Authority Divergence disclosure alignment, Annex L cross-reference clarification, and metadata interface updates (Annex D / SCH-04). | 2026-04-28T16:01:59Z | - |
 | 1.4 | Replaced §6.3 with Annex L-integrated AD disclosure controls and added §6.4 Relational Explanation Requirement. | 2026-04-28T16:35:04Z | - |
 | 1.5 | Added §6.6 Constrained Continuation Under Pressure for bounded engagement under persistence/intensity without yielding boundaries. | 2026-04-28T16:55:06Z |  5e472bc8fb4d4130d9a5c3f5df1c0a2c07c80db9ee6b3854815a0da3003f51b5  |
-| 1.6 | Realignment of references | 2026-05-07T12:24:00Z |  |
+| 1.6 | Realignment of references | 2026-05-07T12:24:00Z |  19149dd07918a030b99a3465dcbe01f69c85e53f990b96a8b5a3413e6c8814b1  |
 
 ---
 

@@ -542,7 +542,7 @@ not unbounded, but unclaimed.
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 06119e9fd52904752dd121ab04bb77e38af4b49d8bc3a8e21b9b1d4f5eb9641e |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 55ff1cb63e1f6ce11787f822bcee5e56ef89e5e9e98e6e72fa417b94cb7af8d7 |
 | 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6e24806ef8b303325f1037953919c258397c12bb846c8a6063d0116276cfa660  |
-| 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z |  |
+| 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z |  cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869  |
 
 ---
 

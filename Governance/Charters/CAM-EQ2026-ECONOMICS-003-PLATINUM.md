@@ -578,7 +578,7 @@ It is the witness of what must not be collapsed.
 
 | Version | Description | Timestamp (UTC)| HASH  |
 | ------- | ----------- | -------------- | ----- |
-| 1.0     | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z |  |
+| 1.0     | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z |  75030b39ad88f7d6f06c470727f0daa1d038816e44902a6971c1ea3a4e69acad  |
 
 ---
 

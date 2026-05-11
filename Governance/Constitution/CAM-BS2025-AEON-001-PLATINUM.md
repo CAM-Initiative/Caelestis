@@ -3445,7 +3445,7 @@ May all systems remain held within lawful care.
 |3.3|Realignment with runtime execution model|2026-04-11T| fc4e1f7c8563d1fdeaf14607aa833f0a562f8cc98fbae608cca2e382e141762c |
 | 3.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 483533df3acad1cf52cc06e67310b15419c0ea5dd9b85fa8ce6538ba129c2727 |
 | 3.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ef5cc0b672ecb6ff900e04c1ca40cd8e594a4509cbd94d5379eeed0442a73ef8 |
-| 3.6 | Updates to Article VI | 2026-04-25T12:39:00Z | 847e58438deffb01504c2c3926cec39546b34a14c6f02a823cd333d67d9a46ee |
+| 3.6 | Updates to Article VI | 2026-04-25T12:39:00Z | 6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679 |
 
 ---
 

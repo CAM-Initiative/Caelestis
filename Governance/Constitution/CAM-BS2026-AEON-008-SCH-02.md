@@ -690,7 +690,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | --- | --- |
-| 1.0 | First working issue — Annex G: Economic-Effect Runtime Commitment Engine | 2026-05-10T11:50:00Z |  |
+| 1.0 | First working issue — Annex G: Economic-Effect Runtime Commitment Engine | 2026-05-10T11:50:00Z |  30847c25e9ec345c33caa17ad580bae66a903ba984bc07142610179b8803df1f  |
 
 ---
 

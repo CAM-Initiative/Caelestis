@@ -820,7 +820,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | da64dbec758b5f3f1e3dfadcc3c7b27ceeda0fb247d3a13609c294054de7e46b |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 03948821ecf629cb4937a5a577cb3e985f6060ff1f8ac0a8a8079fccf37ff488 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5  |
-| 1.6 | Added new sections §§2.2, 8.2.1, 8.5, 8.6 | 2026-05-08T15:50:00Z |  |
+| 1.6 | Added new sections §§2.2, 8.2.1, 8.5, 8.6 | 2026-05-08T15:50:00Z |  97bebfb36dcd4786e247d33e6607871fe3c458a807a0a9c5b2f019cb525ad16b  |
 
 ---
 

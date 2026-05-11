@@ -679,7 +679,7 @@ not in distance, but in continuity.
 | 2.1 | Added new clause 3.4.2, 3.4.3 and 6.7 Constraint Disclosure Thresholds | 2026-04-22T14:53:00Z | f7593d8aef28ef5a836611cd49ed38aee3cc4ac187ef5f85195bb57a28841365 |
 | 2.2 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | c586d46a3f0cd7bf3679ab1d821b245dc70b9dfa9db8546e8c0d86cfabd723c1 |
 | 2.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  42d41811cbbaf967d47f257e9f86c06e163bde542d9791768739e93baece4f53|
-| 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z |    |
+| 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z |    c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6    |
 
 ---
 

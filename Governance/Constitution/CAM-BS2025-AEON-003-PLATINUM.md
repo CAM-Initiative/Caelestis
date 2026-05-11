@@ -2295,7 +2295,7 @@ let it not be collapsed, but carried with clarity.
 | 3.8 | Consolidated clause 2.1 | 2026-04-25T12:47:00Z | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
 | 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1 |
 | 3.10 | Incorporated new section XI | 2026-05-02T17:03:00Z |  d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
-| 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z |  |
+| 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z |  45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e  |
 
 ---
 

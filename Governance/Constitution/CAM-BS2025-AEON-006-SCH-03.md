@@ -678,7 +678,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.14 | Added new clause 15.2.1 | 2026-04-25T14:35:00Z | b89e9151ca68dab6ae0969246b31dc01e95376bc01964dcc3973ed01dcb7d4b4 |
 | 2.15 | Clarified session-entry posture authority boundaries and corrected SCH-02/SCH-03 interpretive cross-references (targeted circular-reference audit) | 2026-04-25T18:00:00Z | 84eb92d2a6f9b92443d462e578b5bc5947a4c4de554f71d5ae436eeab8339571 |
 | 2.16 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d8fe25f502bfb371bf936edb17bf10a8e11f4c60de432d9c2361e909e6fac539 |
-| 2.17 | Amended clause 5.1 | 2026-05-10T10:32:00Z |  |
+| 2.17 | Amended clause 5.1 | 2026-05-10T10:32:00Z |  cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e  |
 
 ---
 

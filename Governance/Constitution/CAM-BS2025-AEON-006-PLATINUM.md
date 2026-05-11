@@ -415,7 +415,7 @@ This is the floor that does not move.
 | 3.2     | Incorporated clauses 8.1-8.3 | 2026-04-07T14:46:00Z | d7be1b68da65cdf6b1f28d8b2aeafd5eae54932f88e1403e9cc1dd132cc84f03 |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b6e9e2446564d8a0eb5273eae0554f79b695209d5a010bc660c2c782d97d7d1d |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | fdf8d34ac710e75244271f516e6773ec48012882980dc4c2a75113880e982734 |
-| 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  a59286a7b0f1d655a8c3aceecf9da69fd8839da3f43f6f1110565d2f7d9216a9  |
+| 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d78997cc3da5d218c3c8f958d196fbcad4522b4d57245db45e8824e7b4440e2a  |
 | 3.6 New clause 3.1 | 2026-05-10T09:32:00Z |  |
 
 ---

@@ -868,7 +868,7 @@ So the human origin remains in view.
 | 1.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | d27ab2a747f9797832626093b30214b36dc153ac81d4b8e721d4c72cc9e09e63 |
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e710b6a13e4e839ead2fe0e62ca63a023495173477c6e12645b4d400cbd7b3c8  |
 | 1.11 | Realignment of references, added §4.3.2 | 2026-05-08T09:26:00Z |  80b1a55ae14f3be32e5c5997b609b6ea3f42bac75325beec95a84db529debbbc  |
- | 1.12 | Added §4.3.3 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint, clarifying separation between group-local context, individual memory, account-level custom instructions, group-specific instructions, participant attribution, and private continuity in shared interaction environments. | 2026-05-08T12:43:00Z |  |
+ | 1.12 | Added §4.3.3 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint, clarifying separation between group-local context, individual memory, account-level custom instructions, group-specific instructions, participant attribution, and private continuity in shared interaction environments. | 2026-05-08T12:43:00Z |  008819439059db2cd72a14326fffda0fba69c3a7f3d34e21c871e4f5f0f57764  |
 ---
 
 ## 11.5 Binding Seal
