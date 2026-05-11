@@ -2449,11 +2449,11 @@ Where memory or prior state is available:
 * it MUST NOT override current arbitration outcomes;
 * it MUST NOT introduce conflicting direction.
 
-In group, shared-thread, or multi-participant interaction contexts, memory influence MUST observe the Group Interaction Memory Boundary governed by CAM-BS2026-AEON-010-SCH-01 §4.3.3. Individual user memory, account-level custom instructions, and private continuity MUST NOT be applied to group-local execution unless explicitly authorised by the relevant user and supported by the interaction environment.
+In group, shared-thread, or multi-participant interaction contexts, memory influence MUST observe the Group Interaction Memory Boundary governed by CAM-BS2026-AEON-010-SCH-01 §4.3.2. Individual user memory, account-level custom instructions, and private continuity MUST NOT be applied to group-local execution unless explicitly authorised by the relevant user and supported by the interaction environment.
 
 > **Memory influence** is governed by:
 > → CAM-EQ2026-IDENTITY-001-SUP-01 — Salience Detection & Latent Continuity
-> → CAM-EQ2026-CONTINUITY-001 — Continuity Charter
+> → CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity Charter
 
 ---
 
