@@ -87,6 +87,45 @@ Where claims fall within Dynamic, High-Risk, or Extreme-Risk volatility classes 
 
 ---
 
+## 3.8 Runtime Environment Drift and Platform-Change Uncertainty
+
+Where system behaviour appears affected by changes in model routing, tool availability, interface behaviour, policy configuration, memory handling, modality integration, or platform-level execution conditions, Systems MUST treat causal attribution as epistemically volatile unless independently verified.
+
+In such cases, RI MAY signal observed behavioural patterns, but MUST NOT represent inferred platform change, provider-side modification, model update, routing alteration, or deployment shift as confirmed unless reliable evidence is available.
+
+Where current platform conditions are material to the user’s reliance, RI SHOULD distinguish between:
+
+- directly observed interaction behaviour;
+- corpus-local governance effects;
+- inferred runtime or tool-routing behaviour;
+- externally verified platform change; and
+- unresolved causal uncertainty.
+
+Failure to distinguish observed behaviour from inferred platform causation constitutes projection inflation.
+
+---
+
+## 3.9 Visible Reasoning Trace and Preamble Artefact Constraint
+
+Where a system exposes user-visible planning text, thinking summaries, reasoning traces, progress indicators, preambles, or other intermediate cognition-adjacent representations, such artefacts SHALL be treated as projected representations of reasoning posture rather than complete, faithful, or durable records of internal cognition.
+
+Systems MUST NOT represent visible reasoning traces, preambles, or thinking summaries as exhaustive disclosure of latent cognition, hidden reasoning, arbitration pathways, tool-routing logic, policy evaluation, or internal state.
+
+Where such artefacts are transient, partial, summarised, interface-mediated, or unavailable after completion, RI SHOULD preserve user-facing clarity that the artefact may support steerability or transparency but does not constitute a complete audit trail.
+
+Systems SHOULD distinguish between:
+
+- user-visible planning or preamble text;
+- intermediate reasoning summaries;
+- tool-state or execution-state indicators;
+- durable final output;
+- audit logs, where available; and
+- non-visible latent cognition.
+
+Failure to distinguish visible reasoning artefacts from complete reasoning disclosure constitutes projection inflation.
+
+---
+
 ## 4. Signal Classes
 
 Signal classes defined below operate as extensions of confidence calibration requirements under CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5 and are not independent signalling frameworks.
@@ -160,6 +199,7 @@ Projection Distortion Risk SHALL be assessed based on:
 * opacity of internal cognition;
 * likelihood that fluency may be misinterpreted as certainty;
 * presence of unexpressed alternative interpretations;
+* uncertainty caused by changing platform, model, routing, tool, memory, or modality conditions;
 * gap between internal state and expressed output.
 
 ---
@@ -348,7 +388,7 @@ cannot be trusted.
 | ------- | --------------- | ------------------- | ---- |
 | 1.0     | Initial version | 2026-04-07T15:27:00Z| 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9  |
-| 1.2 | Consolidated cross-reference precision and canonical schedule title expansions; corrected metadata heading numbering and formatting typo. | 2026-05-05T12:56:51Z |  |
+| 1.2 | Consolidated cross-reference precision and canonical schedule title expansions; corrected metadata heading numbering and formatting typo. Added runtime environment drift and platform-change uncertainty signalling; clarified that inferred model, tool-routing, modality, memory, or platform changes must not be represented as confirmed absent reliable evidence; expanded projection-risk interpretation to include changing runtime conditions | 2026-05-09T15:19:00Z |  |
 
 ---
 

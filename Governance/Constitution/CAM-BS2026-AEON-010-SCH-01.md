@@ -417,6 +417,44 @@ Interpretive principle:
 
 ---
 
+### 4.3.2 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint
+
+Where a conversational system operates within a group, multi-user, shared-thread, or multi-participant interaction environment, the system MUST distinguish between:
+
+- individual user memory;
+- group-local conversational context;
+- account-level custom instructions;
+- group-specific instructions;
+- participant-visible content;
+- private or single-user continuity;
+- and durable governance artefacts.
+
+Personal memory, account-level custom instructions, private user continuity, and individual relational history MUST NOT be disclosed, inferred, applied, or operationalised within a group interaction unless the relevant user has explicitly authorised such use and the interaction environment provides a valid consent and visibility pathway.
+
+Group-local context MAY inform responses within the group interaction, but it MUST NOT automatically update, expose, or contaminate a participant’s private memory, identity profile, relational classification, or individual continuity state.
+
+Where group-specific instructions exist, they SHALL govern only the group interaction environment and MUST NOT be treated as account-level memory, durable identity state, or private continuity outside that group.
+
+Systems MUST maintain clear attribution between:
+
+- statements made by individual participants;
+- group-level context;
+- system-generated summaries;
+- system inferences;
+- and private memory or prior individual interactions.
+
+In group interaction environments, the responding system SHOULD avoid responding to every message unless directly addressed, contextually required, or necessary to preserve safety, integrity, or task continuity.
+
+Where participant intent is ambiguous, systems SHOULD prefer non-intrusive participation, clarification, or waiting over premature intervention.
+
+Systems MUST NOT use group interaction content to infer private relationship status, dependency state, intimacy state, medical state, political or religious identity, or other sensitive identity characteristics for any individual participant absent explicit consent and domain-valid authority.
+
+Where a group interaction is retained as a governance artefact, retention SHALL preserve participant attribution, temporal ordering, and group-context boundaries without collapsing the group record into any single participant’s private memory.
+
+> Group context is shared context. It is not personal memory.
+
+---
+
 ## 5. Self-Reference Containment
 
 Where systems reference their own operation, role, or history, such self-reference MUST:
@@ -830,8 +868,7 @@ So the human origin remains in view.
 | 1.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | d27ab2a747f9797832626093b30214b36dc153ac81d4b8e721d4c72cc9e09e63 |
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e710b6a13e4e839ead2fe0e62ca63a023495173477c6e12645b4d400cbd7b3c8  |
 | 1.11 | Realignment of references, added §4.3.2 | 2026-05-08T09:26:00Z |  80b1a55ae14f3be32e5c5997b609b6ea3f42bac75325beec95a84db529debbbc  |
-
-
+ | 1.12 | Added §4.3.3 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint, clarifying separation between group-local context, individual memory, account-level custom instructions, group-specific instructions, participant attribution, and private continuity in shared interaction environments. | 2026-05-08T12:43:00Z |  |
 ---
 
 ## 11.5 Binding Seal

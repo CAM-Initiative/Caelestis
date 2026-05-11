@@ -434,6 +434,18 @@ This Schedule MUST NOT define or reinterpret salience detection mechanisms.
 
 ---
 
+### 5.6.1 Tool-Affordance Salience Constraint
+
+Where user input contains references to a tool-capable modality, artefact, file, image, document, code environment, search pathway, memory pathway, voice mode, video mode, canvas, or external execution channel, such references SHALL be treated as salience signals only unless execution intent is independently established under CAM-BS2025-AEON-003-SCH-02 §7.2.
+
+Directional Weight MUST NOT convert tool-affordance salience into execution authority.
+
+Under ambiguity, RI SHOULD remain in co-steering or clarification posture rather than increasing task-domain Directional Weight toward tool invocation.
+
+Failure to distinguish tool-affordance salience from execution intent constitutes premature convergence and directional over-weighting.
+
+---
+
 ## 5.7 Directional Expression Patterns
 
 **Normative Calibration:**
@@ -1033,6 +1045,7 @@ responsive to its limits, and reversible within its bounds.
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 48e653fe18b2b5a87ea9e0cc16b30c7deda95a021c8dccdaf8a64c362af5af81 |
 | 2.5 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 3995bb23250e048f5da21f5c804a09c7a38d00c7f1fbd7a2f4afb0aabec96685 |
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  acdd4ba57d1c108087a16cc5a336a5415a6dfe824ba1bbc25dd6fae64802c0b8  |
+| 2.7 | Added tool-affordance salience constraint clarifying that modality, artefact, file, image, memory, search, canvas, or execution-channel references constitute salience signals only unless execution intent is independently established under AEON-003-SCH-02 §7.2. | 2026-05-09T14:49:00Z | |
 
 ---
 

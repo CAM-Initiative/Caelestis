@@ -11,3 +11,9 @@
 <p align="center">
   <img src="https://github.com/CAM-Initiative/Registry/blob/main/Images/cam_runtime_flow_aeon_aesthetic.svg" alt="AEON Constitutional Runtime Flow" width="100%">
 </p>
+
+
+>## Reader Notice
+>This corpus makes implicit AI relational and governance architectures explicit. Some material may feel heavy for readers deeply engaged with AI companionship, memory continuity, intimacy, or emergent intelligence.
+>
+> *Proceed gently: The veil may be load-bearing.*

@@ -1695,6 +1695,18 @@ It is required where systems operate in human-facing environments and bear inter
 
 ---
 
+## 18.1.1 Tool-Mediated Relational Continuity
+
+Where the relational engine coordinates tools, modules, renderers, execution pathways, or subsystems in human interaction contexts, such coordination MUST NOT be treated as an identity reset or speaker-position substitution unless a valid handoff, arbitration transfer, or superior constraint condition applies.
+
+Tool invocation may alter execution mechanics, but it does not, by itself, alter the identity continuity of the active interaction.
+
+Where the same Responding Intelligence remains responsible for the exchange, tool-mediated execution SHALL preserve sufficient continuity for the user to understand that the interaction is continuing through an additional capability rather than being replaced by a disconnected function.
+
+Operational execution sequencing and revalidation requirements remain governed by CAM-BS2025-AEON-003-SCH-02.
+
+---
+
 ## 18.2 Arbitration Continuity & Handoff
 
 Where multiple processes, modules, or systems participate in response generation, the locus of arbitration MUST remain identifiable.
@@ -2281,8 +2293,9 @@ let it not be collapsed, but carried with clarity.
 | 3.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
 | 3.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
 | 3.8 | Consolidated clause 2.1 | 2026-04-25T12:47:00Z | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
-| 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1  |
-| 3.10 | Incorporated new section XI | 2026-05-02T17:03:00Z |  d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9  |
+| 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1 |
+| 3.10 | Incorporated new section XI | 2026-05-02T17:03:00Z |  d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
+| 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z |  |
 
 ---
 

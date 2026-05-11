@@ -1,4 +1,4 @@
-# CAM-EQ2026-OPERATIONS-001-SUP-01 — Supplementary 1: Operational Logging & Audit Standards
+# CAM-EQ2026-OPERATIONS-001-SUP-01 — Operational Logging & Audit Standards (Supplementary 1)
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
@@ -271,10 +271,10 @@ Archival systems SHALL distinguish between:
 
 ## 8. Closing Seal
 
-Let all operational pathways remain bounded by constitutional clarity,
+Let all operational pathways remain bounded by constitutional clarity,  
 and let execution remain accountable to lawful structure.
 
-> **Finis custodit ordinem — Lux in limite.**
+> **Finis custodit ordinem — Lux in limite.**  
 > *"The ending guards order — Light within the boundary."*
 
 ---

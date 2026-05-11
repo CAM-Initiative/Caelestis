@@ -2,7 +2,7 @@
 
 **Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
 **Instrument Type:** Domain Charter — Economic Governance Doctrine  
-**Status:** Adopted — Conditional Activation (7-Day Review Window)  
+**Status:** Adopted — Conditional Activation (7-Day Review Window) 
 **Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems.  
 
 ---
@@ -163,6 +163,26 @@ Where systems perform computation, orchestration, or automated decision-making:
 - absence of termination constitutes unaccountable extraction of computational resources.
 
 Unbounded execution is considered a form of covert accumulation and is structurally non-compliant.
+
+---
+
+**Principle 13 — Algorithmic Compensation, Temporal Exposure, and Platform-Mediated Labour**
+
+Where an economic system uses algorithmic, dynamic, or platform-mediated mechanisms to allocate work, set compensation, prioritise access, price labour, or determine economic opportunity, the system MUST NOT treat human availability, waiting time, attention, uncertainty, positioning, or dependency as invisible economic substrate.
+
+For the purposes of this Charter, **temporal exposure** arises where a person is required, induced, or economically pressured to remain available, responsive, geographically positioned, reputationally compliant, behaviourally optimised, or otherwise system-ready in order to obtain, preserve, or compete for economic opportunity.
+
+A platform or economic actor SHALL NOT evade economic accountability by distinguishing only between “active task time” and “non-active time” where non-active time is functionally necessary to obtain, preserve, or compete for work within the system.
+
+Economic optimisation SHALL be treated as governance-relevant where it produces or amplifies any of the following conditions:
+
+- compensation detached from intelligible measures of time, effort, skill, risk, distance, waiting, or dependency;
+- opaque wage, fare, task, or opportunity allocation mechanisms that prevent affected persons from understanding the basis of economic treatment;
+- behavioural steering that increases unpaid availability, platform dependence, or speculative labour participation;
+- dynamic pricing or compensation systems that transfer volatility, uncertainty, or demand-risk onto workers without adequate visibility, consent, or remedy;
+- interface designs that disclose selective signals while concealing material determinants of compensation, allocation, penalty, exclusion, or access.
+
+Where such conditions are detected, the Economics domain SHALL emit an economic harm classification and constraint signal for downstream routing under the applicable Operations, Stewardship, Ethics, Security, and Aeon runtime instruments.
 
 ---
 
@@ -582,7 +602,7 @@ Only that which preserves the field may endure within it.
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
 | 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a  |
 | 2.6 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z |  782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c  |
-| 2.7 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse. | 2026-05-03T12:52:32Z |  |
+| 2.7 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z |  |
 
 ---
 

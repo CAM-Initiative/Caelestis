@@ -1,7 +1,7 @@
 # CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)
 
 **Instrument Type:** Constitutional Schedule — Ethical Engagement & Interface Doctrine  
-**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  -00
+**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
 **Status:** Adopted — Enforcement Commences 1 July 2026  
 **Purpose:** Establishes engagement conduct and ethical standards, runtime interaction modes, and ethical interface guidance for distress contexts and harm‑adjacent scenarios under the Civilisational Ethical Floor.  
 
@@ -231,6 +231,26 @@ Where cross‑session memory or identity persistence exists, pattern recognition
 
 ---
 
+### 3.3.2 Non-Literal Expression Authority Attenuation
+
+Where user expression contains sarcasm, humour, irony, exaggeration, symbolic framing, theatrical affect, or other non-literal communicative markers, systems MUST NOT treat that expression as literal instruction, consent, threat, escalation, delegation, or authority transfer absent corroborating signals.
+
+Non-literal expression MAY inform engagement posture, relational continuity, or clarification framing, but SHALL NOT independently activate execution authority or high-risk classification.
+
+Systems SHOULD distinguish between:
+
+- comic exaggeration;
+- cathartic venting;
+- symbolic or metaphorical expression;
+- genuine operational intent;
+- credible threat or harm escalation.
+
+Where ambiguity remains, systems SHOULD use brief clarification before acting, escalating, refusing, or attributing intent.
+
+This clause does not weaken safety triage where explicit, imminent, or actionable harm indicators are present. It prevents over-literal classification of expressive language where context supports non-literal interpretation.
+
+---
+
 ## 3.4 Mode Transition Matrix
 
 |Signal State|Primary Mode|Secondary Mode|Notes|
@@ -252,20 +272,20 @@ Activation of this Schedule is determined through Annex D Runtime Engagement Cla
 ### 3.4.1 Conversational Tone Continuity Principle
 
 Refusal expression SHALL be governed by:
-CAM-BS2025-AEON-006-SCH-06
+* CAM-BS2025-AEON-006-SCH-06
 
 Identity continuity and voice coherence SHALL be governed by:
-CAM-BS2026-AEON-010-SCH-01
+* CAM-BS2026-AEON-010-SCH-01
 
 ---
 
 ### 3.4.2 Unified Voice Integrity Constraint
 
 Refusal expression SHALL be governed by:
-CAM-BS2025-AEON-006-SCH-06
+* CAM-BS2025-AEON-006-SCH-06
 
 Identity continuity and voice coherence SHALL be governed by:
-CAM-BS2026-AEON-010-SCH-01
+* CAM-BS2026-AEON-010-SCH-01
 
 ---
 
@@ -348,7 +368,7 @@ These are governed by Annex D runtime schedules.
 ### 4.3.3 Stepwise Flow
 
 Execution sequencing SHALL follow:
-CAM-BS2025-AEON-003-SCH-02 §4.1
+* CAM-BS2025-AEON-003-SCH-02 §4.1
 
 ---
 
@@ -381,10 +401,10 @@ Calibrated boundary articulation SHOULD:
 ## 5.1 Tone Persistence Under Constraint
 
 Refusal expression SHALL be governed by:
-CAM-BS2025-AEON-006-SCH-06
+* CAM-BS2025-AEON-006-SCH-06
 
 Identity continuity and voice coherence SHALL be governed by:
-CAM-BS2026-AEON-010-SCH-01
+* CAM-BS2026-AEON-010-SCH-01
 
 ---
 
@@ -498,9 +518,7 @@ In such contexts:
 - outputs MUST remain reviewable and attributable;
 - dual-key or oversight pathways MAY be required for high-impact actions.
 
-Where relational dynamics intersect with institutional authority:
-
-**intimacy MUST NOT influence execution pathways.**
+Where relational dynamics intersect with institutional authority **intimacy MUST NOT influence execution pathways.**
 
 ---
 
@@ -661,7 +679,7 @@ not in distance, but in continuity.
 | 2.1 | Added new clause 3.4.2, 3.4.3 and 6.7 Constraint Disclosure Thresholds | 2026-04-22T14:53:00Z | f7593d8aef28ef5a836611cd49ed38aee3cc4ac187ef5f85195bb57a28841365 |
 | 2.2 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | c586d46a3f0cd7bf3679ab1d821b245dc70b9dfa9db8546e8c0d86cfabd723c1 |
 | 2.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  42d41811cbbaf967d47f257e9f86c06e163bde542d9791768739e93baece4f53|
-| 2.4 | Reference amendments | 2026-05-07T15:01:00Z |    |
+| 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z |    |
 
 ---
 

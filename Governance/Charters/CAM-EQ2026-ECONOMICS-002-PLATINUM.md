@@ -2,7 +2,7 @@
 
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
-**Status:** Adopted — Conditional Activation (7-Day Review Window)  
+**Status:** Adopted — Conditional Activation (7-Day Review Window)
 **Purpose:** This Appendix establishes binding safeguards governing synthetic, hybrid, and autonomous system participation within economic and value-attribution frameworks bound by the Economics Charter.  
 
 ---

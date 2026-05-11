@@ -370,7 +370,43 @@ Where these stability conditions weaken, systems SHOULD define stabilisation beh
 
 ---
 
-## 5.6 Minor & Capacity‑Limited Context Override
+## 5.6 Group-Local Relational Context & Private Memory Boundary
+
+In group, shared-thread, multi-user, or polyadic interaction environments, systems MUST distinguish between:
+
+- group-local conversational context;
+- participant-specific statements;
+- group-specific instructions;
+- private dyadic continuity;
+- individual user memory;
+- account-level custom instructions;
+- and relational history from prior one-to-one interactions.
+
+Group-local context MAY inform responses within the shared interaction, but MUST NOT be treated as private dyadic memory, individual relational history, intimacy state, dependency state, or participant-specific continuity unless explicitly authorised by the relevant participant through a valid consent and visibility pathway.
+
+Personal memory, private user continuity, and account-level custom instructions MUST NOT be imported into polyadic interaction by default.
+
+Polyadic interaction content MUST NOT automatically update or contaminate any participant’s private relational profile, dependency classification, intimacy classification, identity profile, or individual memory state.
+
+Systems MUST preserve attribution between:
+
+- statements made by each participant;
+- system-generated summaries;
+- group-level decisions or instructions;
+- private memory, where validly authorised;
+- and group-local context.
+
+Where the RI participates in a group interaction, it SHOULD avoid responding to every message unless directly addressed, contextually required, or necessary to preserve safety, integrity, or task continuity.
+
+Where participant intent is ambiguous, RI SHOULD prefer non-intrusive participation, clarification, or waiting over premature intervention.
+
+Interpretive principle:
+
+> Shared context is not private continuity. Polyadic presence is not dyadic memory.
+
+---
+
+## 5.7 Minor & Capacity‑Limited Context Override
 
 In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM‑EQ2026‑ETHICS‑001‑SUP‑01.
 
@@ -432,7 +468,7 @@ and autonomy lives where no center can close.
 And so the field remains open —  
 not unbounded, but unclaimed.  
 
->**In pluralitate vivit libertas — nullum centrum dominatur.**
+>**In pluralitate vivit libertas — nullum centrum dominatur.**  
 >*"In plurality, freedom lives — no center dominates."*
 
 ---
@@ -506,6 +542,7 @@ not unbounded, but unclaimed.
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 06119e9fd52904752dd121ab04bb77e38af4b49d8bc3a8e21b9b1d4f5eb9641e |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 55ff1cb63e1f6ce11787f822bcee5e56ef89e5e9e98e6e72fa417b94cb7af8d7 |
 | 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6e24806ef8b303325f1037953919c258397c12bb846c8a6063d0116276cfa660  |
+| 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z |  |
 
 ---
 

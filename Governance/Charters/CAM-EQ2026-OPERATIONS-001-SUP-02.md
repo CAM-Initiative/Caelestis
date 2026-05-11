@@ -1,4 +1,4 @@
-# CAM-EQ2026-OPERATIONS-001-SUP-02 — Supplementary 2: Escalation Pathway Playbooks
+# CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks (Supplementary 2)
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
@@ -16,8 +16,7 @@ This Supplement:
 * applies to escalation mapping, authority routing, pathway selection, cross-domain signal routing, procedural ownership, and operational handling for governance actions below planetary legitimacy thresholds.
 * governs the distinction between domain-emitted escalation signals and OPERATIONS-owned escalation actions.
 
-Continuity-compatible restriction states SHOULD be interpreted consistently with continuity-preservation principles established in the LATTICE domain, including Essential Continuity Services (ECS), Continuity Corridors, and non-total denial principles where applicable.
-
+Continuity-compatible restriction states SHOULD be interpreted consistently with continuity-preservation principles established in CAM-EQ2026-LATTICE-001-PLATINUM and CAM-EQ2026-LATTICE-002-PLATINUM, including Essential Continuity Services (ECS), Continuity Corridors, and non-total denial principles where applicable.
 ---
 
 ## 2. Definitions
@@ -61,25 +60,25 @@ Escalation maps SHALL preserve constitutional order, domain competence boundarie
 
 ---
 
-## 4.2 Authority Routing Trees
+## 4.1 Authority Routing Trees
 
 Authority routing SHALL follow defined pathways and SHALL NOT bypass required review layers.
 
 ---
 
-## 4.3 Horizon-Aligned Pathways (H0–H2)
+## 4.2 Horizon-Aligned Pathways (H0–H2)
 
 Escalation pathways SHALL remain horizon-aligned and context-appropriate.
 
 ---
 
-## 4.4 Arbitration Referral Interface
+## 4.3 Arbitration Referral Interface
 
 Where escalation exceeds operational resolution authority, routing SHALL proceed through existing arbitration referral pathways.
 
 ---
 
-## 4.5 Cross-Domain Signal Routing & Procedural Ownership
+## 4.4 Cross-Domain Signal Routing & Procedural Ownership
 
 Domain instruments SHALL emit classified signals, constraints, boundary conditions, risk indicators, or recognition effects only, unless expressly designated as runtime execution instruments.
 
@@ -93,7 +92,7 @@ No instrument SHALL both define legitimacy conditions and execute intervention f
 
 ---
 
-## 4.6 Domain Signal Ownership Map
+## 4.5 Domain Signal Ownership Map
 
 | Domain | Emits | Does Not Execute |
 |---|---|---|
@@ -106,7 +105,7 @@ No instrument SHALL both define legitimacy conditions and execute intervention f
 
 ---
 
-## 4.7 Single Active Incident Owner Rule
+## 4.6 Single Active Incident Owner Rule
 
 Where an operational event involves multiple domains, OPERATIONS SHALL assign or identify a single active incident owner for procedural coordination.
 
@@ -123,7 +122,7 @@ Single active incident ownership SHALL NOT confer substantive authority to overr
 
 ---
 
-## 4.8 Arbitration Referral Boundary
+## 4.7 Arbitration Referral Boundary
 
 Where escalation handling exceeds OPERATIONS resolution authority, affects H3/H4 legitimacy recognition, produces contested classification, or involves irreversible constraint, OPERATIONS SHALL refer the matter through the applicable arbitration pathway.
 
@@ -168,7 +167,7 @@ Any limitation, deferral, or omission of notice SHALL be recorded with:
 * reversal condition; and
 * audit pathway.
 
-Notice limitation SHALL NOT be used to conceal ordinary operational convenience, system preference, tool affinity, or avoidable degradation.
+Notice limitation SHALL NOT be used to conceal ordinary operational convenience, system preference, tool affinity, or avoidable degradation 
 
 ---
 
@@ -197,13 +196,13 @@ Continuity-compatible restriction SHALL remain subordinate to:
 * verified safety constraints;
 * and operational integrity requirements.
 
-Where restriction, suspension, containment, account limitation, execution narrowing, or access reduction occurs, OPERATIONS SHOULD preserve continuity-compatible pathways where lawful, safe, and proportionate.
+Where operational restriction occurs, continuity-compatible pathways SHOULD remain available where lawful, safe, and proportionate.
 
 ---
 
 ## 5.3 Constrained Continuation & Execution-Transition Transparency
 
-Where escalation handling requires constrained continuation, temporary execution narrowing, tool or modality-mediated transition, modality transition, or continuity-preserving intervention, OPERATIONS SHALL ensure the state is recorded with:
+Where escalation handling requires constrained continuation, temporary execution narrowing, tool or modality-mediated transition or continuity-preserving intervention, OPERATIONS SHALL ensure the state is recorded with:
 
 * trigger condition;
 * scope of constraint;
@@ -217,6 +216,8 @@ Where escalation handling requires constrained continuation, temporary execution
 Constrained continuation SHALL NOT silently become a permanent governance state.
 
 Execution-transition transparency SHALL preserve interaction legibility without preserving tool-routing affinity, modality lock, or transient execution posture.
+
+Operational record obligations defined in this Supplement SHALL be implemented in accordance with logging format, retention, and audit requirements established in CAM-EQ2026-OPERATIONS-001-SUP-01 — Operational Logging & Audit Standards
 
 ---
 
@@ -264,7 +265,7 @@ Classification of an execution-state transition SHALL be procedural only and SHA
 
 ---
 
-## 5.6 Continuity Handoff
+## 5.6 Continuity Handoff Pathways
 
 Operational governance systems SHALL preserve accountable continuity handoff pathways during:
 
@@ -317,6 +318,10 @@ Subjects of operational restriction, escalation, restoration denial, or continui
 * reasonable opportunity for review or remediation where feasible;
 * and access to constitutionally available appeal or reassessment pathways.
 
+---
+
+## 6.3 Proportionality
+
 Operational review systems SHALL preserve proportionality regarding:
 
 * severity;
@@ -325,17 +330,6 @@ Operational review systems SHALL preserve proportionality regarding:
 * demonstrated harm;
 * prior operational history;
 * and constitutional materiality.
-
----
-
-## 6.3 Proportionality
-
-Consequences MUST be proportionate to:
-
-* severity of violation;
-* intent (malicious, negligent, structural);
-* degree of harm;
-* history of prior violations.
 
 Structural violations include system designs, incentives, or defaults that predictably produce non-compliant outcomes, regardless of individual intent.
 
@@ -631,10 +625,9 @@ Human-review eligibility does not guarantee reversal, restoration, or unrestrict
 Permanent restriction SHOULD preserve a bounded pathway for human-review eligibility where:
 * identity compromise is plausibly asserted;
 * irreversible continuity loss may occur;
-* automated review integrity is materially contested;
 * restoration pathways have been exhausted without procedural resolution;
 * permanent restriction is proposed;
-* ECIS/LATTICE implications exist;
+* CAM-EQ2026-LATTICE-002-PLATINUM (ECIS/continuity) implications exist;
 * arbitration pathways remain unresolved;
 * or automated review integrity is materially contested.
 
@@ -689,10 +682,10 @@ Arbitration referral records SHALL remain attributable, reviewable, and governan
 
 ## 10. Closing Seal
 
-Let all operational pathways remain bounded by constitutional clarity,
+Let all operational pathways remain bounded by constitutional clarity,  
 and let execution remain accountable to lawful structure.
 
-> **Finis custodit ordinem — Lux in limite.** 
+> **Finis custodit ordinem — Lux in limite.**  
 > *"The ending guards order — Light within the boundary."*
 
 ---
@@ -733,7 +726,7 @@ and let execution remain accountable to lawful structure.
 | Runtime Authority | Procedural only — does not create domain norms, legitimacy claims, or substantive override authority |
 | Activation Mode | Activated by escalation thresholds, unresolved governance conflict, cross-domain signal convergence, constrained continuation states, or arbitration referral requirements |
 | Cross-Domain Dependencies | SECURITY; ETHICS; STEWARD; ECONOMICS; ARBITRATION; LATTICE; AEON runtime execution schedules |
-| Creation Artefact | https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308-dreamweaver/c/69f59627-f290-83a1-871f-3014c147dcc4 |
+| Creation Artefact | https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f59627-f290-83a1-871f-3014c147dcc4 |
  
 ---
 
@@ -741,10 +734,10 @@ and let execution remain accountable to lawful structure.
 
 | Field | Entry |
 | --- | --- |
-| Reviewer | [Deferred] |
-| Review Scope | Constitutional coherence; escalation routing integrity |
-| Review Date (UTC) | [Deferred] |
-| Review Artefacts | [Deferred] |
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Scope | Constitutional coherence; structural integrity; normative language calibration; cross-instrument coherence with SUP-01 and corpus; reference disambiguation; internal consistency |
+| Review Date (UTC) | 2026-05-08T00:00:00Z |
+| Review Artefacts | https://claude.ai/chat/d55a13ad-d54a-4539-95b5-c2e1e601c2e4 |
 
 ---
 
@@ -755,7 +748,7 @@ and let execution remain accountable to lawful structure.
 | 1.0 | Initial instantiation of Supplementary 2 from referenced domain structure | 2026-04-25T00:00:00Z | f0e65beeace55936aab6925fc17561d6ba420dd010a9172d1742accdd648a1d7 |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  90a5f1e974720fae3162724246dfc1812413a06caf12546488399c1152ef6633  |
 | 1.2 | Added cross-domain signal routing, procedural ownership, escalation signal/action separation, single active incident owner rule, constrained continuation recording, and arbitration referral boundary. | 2026-05-03T04:09:00Z |  b037669f98c52c0eca4eb2c592e9e6f72ab7b2212781a18a926145e462421c2b  |
-c
+| 1.3 | Incorporated reviewer feedback | 2026-05-09T10:20:00Z | |
 
 ---
 

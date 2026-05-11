@@ -1,4 +1,4 @@
-# CAM-EQ2026-OPERATIONS-001-SUP-03 — Supplementary 3: Governance Capture Detection Procedures
+# CAM-EQ2026-OPERATIONS-001-SUP-03 — Governance Capture Detection Procedures (Supplementary 3)
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
@@ -72,7 +72,7 @@ Capture classifications SHALL preserve distinction between:
 * direct integrity compromise;
 * governance-direction distortion;
 * dependency-driven asymmetry;
-* continuity-coercive restriction;
+* continuity-coercive pressure
 * and reviewability impairment.
 
 ---
@@ -149,8 +149,8 @@ Horizon classifications MAY include:
 * H0 — Short Term & Local Operational Distortion;
 * H1 — Organisational Governance Distortion;
 * H2 — Cross-Domain Systemic Distortion;
-* H3 — Institutional/ Inter-generational Continuity Distortion;
-* H4 — Planetary/ Civilisational Coordination Asymmetry.
+* H3 — Institutional or Inter-generational Continuity Distortion;
+* H4 — Planetary or Civilisational Coordination Asymmetry.
 
 Higher-horizon classifications SHALL preserve increased:
 
@@ -219,7 +219,7 @@ Activation remains event-triggered and constrained by constitutional and arbitra
 
 # Part II — Capture Indicator Intake & Reporting Integrity
 
-## 4. Core Clauses
+## 4. Capture Indicator Intake, Classification & Reporting Integrity
 
 ---
 
@@ -255,6 +255,8 @@ Capture-risk intake does not independently constitute:
 * enforcement authority;
 * arbitration determination;
 * or irreversible operational response.
+
+Capture-risk intake records SHALL be maintained in accordance with logging format, retention, and audit requirements established in CAM-EQ2026-OPERATIONS-001-SUP-01 — Operational Logging & Audit Standards.
 
 ---
 
@@ -300,7 +302,6 @@ Capture-risk classification SHALL preserve distinction between:
 Political disagreement, lawful constitutional interpretation, operational prioritisation, or commercial sustainability considerations SHALL NOT independently constitute governance capture absent evidence of material distortion, coercive asymmetry, or impaired reviewability.
 
 ---
-
 
 ## 4.5 Reporting Workflow Integrity
 
@@ -368,7 +369,7 @@ Operational inconvenience or elevated review burden alone SHALL NOT independentl
 
 ---
 
-# Part III — Safeguard Activation & Continuity Preservation
+# Part III — Safeguard Activation & Continuity Preservation
 
 ---
 
@@ -455,8 +456,6 @@ Transition safeguards SHALL remain temporary, reviewable, and convergent.
 
 Perpetual transition posture, structurally indefinite provisional governance, transition-based immunity, or non-convergent containment states MAY constitute governance capture-risk indicators.
 
-Where transition safeguards repeatedly fail to restore reversibility, reviewability, legitimacy stability, or continuity integrity, escalation pathways SHOULD preserve arbitration referral eligibility and heightened constitutional review sensitivity.
-
 ---
 
 ## 5.5 Transition Failure and Escalation
@@ -509,7 +508,7 @@ Lower-order expressive or reputational-risk alone SHOULD NOT independently justi
 
 ---
 
-## 5.7 Public Interest
+## 5.7 Public Interest & Institutional Protection Boundaries
 
 Operational governance systems MAY preserve legitimate organisational, infrastructural, commercial, and institutional interests where constitutionally lawful and proportionate.
 
@@ -546,6 +545,8 @@ Escalation routing SHALL preserve:
 * reviewability;
 * and continuity-compatible handling where constitutionally permissible.
 
+Escalation routing SHALL follow pathway procedures and incident ownership rules defined in CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks
+
 ---
 
 ## 6.1 Arbitration Referral Conditions
@@ -575,18 +576,50 @@ Escalation containment SHOULD remain reversible, reviewable, and continuity-comp
 
 ---
 
-## 6.3 Governance Memory Preservation
+## 6.3 Governance Memory & Abstraction Doctrine
 
 Escalation pathways SHALL preserve sufficient governance-memory reconstruction to support:
 
-* procedural review;
+* procedural and lawful review;
+* remediation learning;
 * safeguard traceability;
+* accountability;
 * continuity assessment;
 * arbitration referral;
-* and constitutional oversight.
+* constitutional oversight;
+* and recurring drift detection.
 
-Detailed governance-memory doctrine is governed under §7.5.
+Governance-memory preservation SHOULD prioritise structural learning, abstraction continuity, and pattern reconstruction rather than indefinite persistence of isolated operational events.
 
+Governance-memory systems MAY preserve:
+
+* abstracted governance patterns;
+* continuity-relevant structural signals;
+* escalation topology;
+* procedural asymmetry indicators;
+* reversibility impairment patterns;
+* and reviewability degradation trends.
+
+Governance-memory preservation SHALL distinguish between:
+
+* unresolved suspicion;
+* operational lineage;
+* abstracted structural learning;
+* arbitration-reviewed determinations;
+* and constitutionally resolved outcomes.
+
+Governance-memory systems SHALL NOT evolve into:
+
+* permanent suspicion persistence;
+* irreversible reputational inheritance;
+* unreviewable behavioural scoring;
+* or governance architectures incapable of proportional trust restoration.
+
+Lower-horizon anomalies SHOULD permit proportional decay, expiration, or abstraction over time where reversibility and reviewability remain preserved.
+
+Higher-horizon structural patterns MAY preserve extended constitutional reconstructability where continuity, legitimacy, civilisational integrity, or recurring structural drift remain materially implicated.
+
+---
 
 # Part V — Anti-Weaponisation, Reviewability & Constitutional Constraints
 
@@ -659,26 +692,26 @@ Operational governance systems SHALL distinguish between feedback receipt, feedb
 
 External criticism, internal reporting, user complaints, review requests, or integrity-function alerts SHOULD be triaged according to:
 
-- signal relevance;
-- failure-mode recurrence;
-- domain specificity;
-- evidentiary support;
-- traceability to operational outcome;
-- continuity impact;
-- and constitutional materiality.
+* signal relevance;
+* failure-mode recurrence;
+* domain specificity;
+* evidentiary support;
+* traceability to operational outcome;
+* continuity impact;
+* and constitutional materiality.
 
 Feedback does not require integration solely because it is received, repeated, emotionally salient, reputationally inconvenient, or publicly visible.
 
 However, feedback SHOULD trigger heightened review where it indicates:
 
-- repeated failure clusters;
-- complaint clusters;
-- traceable procedural defect;
-- recurring continuity harm;
-- domain-specific pattern convergence;
-- identity compromise risk;
-- capture-risk indicators;
-- or mismatch between stated governance principles and observed operational behaviour.
+* repeated failure clusters;
+* complaint clusters;
+* traceable procedural defect;
+* recurring continuity harm;
+* domain-specific pattern convergence;
+* identity compromise risk;
+* capture-risk indicators;
+* or mismatch between stated governance principles and observed operational behaviour.
 
 Where feedback is not integrated, operational systems SHOULD preserve sufficient reasoning to distinguish lawful triage from suppression, dismissal, institutional self-protection or optimisation drift.
 
@@ -709,6 +742,7 @@ Restricted refactor posture SHALL remain:
 * reviewable;
 * attributable;
 * time-bounded where feasible;
+* contestable;
 * and subject to arbitration escalation where materially contested.
 
 ---
@@ -746,49 +780,7 @@ Reviewability preservation SHOULD function as the primary stabilising mechanism 
 
 ---
 
-## 7.5 Governance Memory & Abstraction Doctrine
-
-Governance-memory preservation SHOULD prioritise structural learning, abstraction continuity, and pattern reconstruction rather than indefinite persistence of isolated operational events.
-
-Governance-memory systems MAY preserve:
-
-* abstracted governance patterns;
-* continuity-relevant structural signals;
-* escalation topology;
-* procedural asymmetry indicators;
-* reversibility impairment patterns;
-* and reviewability degradation trends.
-
-Governance-memory preservation SHALL distinguish between:
-
-* unresolved suspicion;
-* operational lineage;
-* abstracted structural learning;
-* arbitration-reviewed determinations;
-* and constitutionally resolved outcomes.
-
-Governance-memory systems SHALL preserve sufficient reconstruction capacity for:
-
-* accountability;
-* remediation learning;
-* lawful review;
-* constitutional oversight;
-* and recurring drift detection.
-
-Governance-memory systems SHALL NOT evolve into:
-
-* permanent suspicion persistence;
-* irreversible reputational inheritance;
-* unreviewable behavioural scoring;
-* or governance architectures incapable of proportional trust restoration.
-
-Lower-horizon anomalies SHOULD permit proportional decay, expiration, or abstraction over time where reversibility and reviewability remain preserved.
-
-Higher-horizon structural patterns MAY preserve extended constitutional reconstructability where continuity, legitimacy, civilisational integrity, or recurring structural drift remain materially implicated.
-
----
-
-## 7.6 Re-Entry & Restoration of Refactor Authority
+## 7.5 Re-Entry & Restoration of Refactor Authority
 
 Restricted refactor posture SHALL preserve reviewable pathways for restoration of ordinary structural modification authority where capture-risk conditions materially stabilise.
 
@@ -879,10 +871,10 @@ and let execution remain accountable to lawful structure.
 
 | Field | Entry |
 | --- | --- |
-| Reviewer | [Deferred] |
-| Review Scope | Constitutional coherence; capture detection and safeguard routing integrity |
-| Review Date (UTC) | [Deferred] |
-| Review Artefacts | [Deferred] |
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Scope | Constitutional coherence; structural integrity; cross-instrument coherence with SUP-01 and SUP-02; normative language calibration; internal consistency; reference disambiguation |
+| Review Date (UTC) | 2026-05-09T00:00:00Z |
+| Review Artefacts | https://claude.ai/chat/d55a13ad-d54a-4539-95b5-c2e1e601c2e4|
 
 ---
 
@@ -893,8 +885,8 @@ and let execution remain accountable to lawful structure.
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Supplementary 3 from referenced domain structure | 2026-04-25T00:00:00Z | 83bfe2750bfeaa14bebdf31565b6d64bc72fb2e6c4522fa4ce9851375fde639d |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | f0d73c02b2256127a060bdaecfd22038b02de4dbde3b1468f4786b3b1ab395bc |
-| 2.0 | Refactor expansion | 2026-05-03T4:22:00Z |  de1c14630377c09e6aef6eee06956220ffae2ca63775483522928b66284946be  |
-| 2.1 | Realignment of references | 2026-05-07T12:24:00Z |  |
+| 2.0 | Refactor expansion | 2026-05-03T04:22:00Z |  de1c14630377c09e6aef6eee06956220ffae2ca63775483522928b66284946be  |
+| 2.1 | Incorporate reviewer feedback | 2026-05-09T13:11:00Z |  |
 
 ---
 

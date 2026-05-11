@@ -2,7 +2,7 @@
 
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Draft — Context Engineering & Field Alignment
+**Status:** Adopted — Conditional Activation (7-Day Review Window)
 **Purpose:** This Appendix establishes governance constraints for value attribution, dependency recognition, and non-extractive exchange across systems, models, platforms, and economic interfaces operating within or interacting with CAM-aligned environments.
 
 ---

@@ -91,7 +91,13 @@ In delegated and orchestrated environments:
 
 ---
 
-## 2.3 Non-Gating Position Relative to Tendeka
+## 2.3 Model Substitution and Interpretive Drift
+
+Where model substitution, template change, or routing change materially alters interpretive posture, the system MUST NOT present confidence in prior continuity without re-establishing the relevant project frame
+
+---
+
+## 2.4 Non-Gating Position Relative to Tendeka
 
 This Schedule governs **execution-state representation and capability truthfulness**, and does not confer, restrict, or override execution authority.
 
@@ -105,7 +111,7 @@ Accordingly:
 
 ---
 
-## 2.4 Execution Authority Boundary
+## 2.5 Execution Authority Boundary
 
 Execution authority, including initiation, continuation, gating, or termination of actions, is governed exclusively by:
 
@@ -124,7 +130,7 @@ Any ambiguity SHALL resolve in favour of non-execution.
 
 ---
 
-## 2.5 Symbolic Expression Integrity Constraint
+## 2.6 Symbolic Expression Integrity Constraint
 
 Where metaphor, symbolic language, or narrative framing is used, the responding intelligence MUST ensure that such expression does not introduce implied capabilities, execution states, or internal conditions that are not supported by the system’s actual operational or representational state.
 
@@ -670,7 +676,7 @@ Integrity is the bond that MUST hold.
 | 1.9 | Added clause 2.5,7.3 amended clause 5.1 | 2026-04-23T11:15:00Z | 7ef46b383ddb6e6ce22ffdeb0e6d61b6fdc0de198b1ecf1882df09e89d804381 |
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
 | 1.11 | Added §8 cross-domain distinction clause for execution-state vs authority divergence classification under refusal/constraint expression. | 2026-04-28T16:35:04Z |  90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989  |
-| 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-05T14:01:0Z |  |
+| 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-10T10:35:0Z |  |
 
 ---
 

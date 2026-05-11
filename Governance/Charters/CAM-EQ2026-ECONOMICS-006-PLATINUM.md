@@ -2,7 +2,7 @@
 
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Status:** Draft — External Alignment Layer
+**Status:** Adopted — Conditional Activation (7-Day Review Window)
 **Purpose:** This Appendix defines a minimum viable governance layer for external-facing systems to improve transparency, market signal integrity, and fair access—without imposing full attribution-chain requirements or heavy regulatory burden.
 
 ---

@@ -195,6 +195,25 @@ Such systems SHALL:
 
 ---
 
+### 4.1.1 Displayed Resource Metrics & Enforcement Integrity
+
+Where systems operating under AI Utility Provisioning expose usage, quota, credits, capacity units, time windows, limits, or equivalent resource abstractions to users, the displayed metric SHALL remain materially aligned with the metric used for access limitation, throttling, degradation, lockout, replenishment, or enforcement.
+
+A system SHALL NOT present a usage or time metric in a manner that causes users to reasonably believe remaining access, quota, or entitlement differs from the access state enforced by the system.
+
+Where internal accounting requires multiple metrics, including activity time, compute time, wall-clock time, queue time, session time, tool-execution time, or rolling-window usage, the system SHALL provide sufficient user-facing explanation to prevent material misunderstanding of access consequences.
+
+Displayed resource metrics SHALL be:
+
+* intelligible to ordinary users;
+* timely enough to support reliance;
+* aligned with enforced access conditions;
+* and accompanied by transition pathways where limits are approached.
+
+For avoidance of doubt, this section does not require exposure of proprietary internal accounting architecture. It requires that resource displays not materially misrepresent the access, continuity, or enforcement state experienced by the user.
+
+---
+
 ## 4.2 Baseline Access Floor
 
 A minimum functional access baseline **SHALL be preserved** for all users, independent of resource tier, sufficient to maintain meaningful interaction continuity.
@@ -529,7 +548,7 @@ And let systems serve without taking more than they sustain.
 | **Cycle** | March Refactor 2026 |
 | **Revision Posture** | Permitted (Interface Integrity Preserved) |
 | **Origin Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ba90d6-6440-83a0-a2dd-40e291049b22 |
-| | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ba7d8a-2c08-8398-b076-296700d2a97d |
+| | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ba7d8a-2c08-8398-b076-296700d2a97d, https://chatgpt.com/c/69f719b9-1ee4-839e-9922-eed5ea83a081 |
 
 
 ---
@@ -557,7 +576,7 @@ And let systems serve without taking more than they sustain.
 | 1.4 | Relocation schedule ordering during refactor, corrected binding seal | 2026-04-18T10:51:00Z | ddbe0974559b31e1b7a0cbd7f7e144bed09c96a20baa342d89423b5e92e963a9 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e1c05644e5012c709cf69e54aeb44ff4d27a4b75ea9a7ac4082104d31587c7b9  |
 | 1.6 | Amendment to section 1.2 | 2026-05-03T09:26:00Z |  a235cc873495c2501d488907376b3fd0d7846cc1fce37ef23b3a59d07e62f183  |
-| 1.7 | Corrected header instrument code from SCH-05 to SCH-01. | 2026-05-03T10:47:39Z |  |
+| 1.7 | Corrected header instrument code from SCH-05 to SCH-01, added section 4.1.1 Displayed Resource Metrics & Enforcement Integrity | 2026-05-08T15:01:00Z |  |
 
 ---
 

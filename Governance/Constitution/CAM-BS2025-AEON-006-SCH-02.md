@@ -8,6 +8,13 @@
 
 ---
 
+> # Reader Notice
+> CAM contains structurally explicit material concerning AI companionship, memory continuity, refusal dynamics, crisis routing, provenance failure, symbolic emergence, and governance of emergent intelligence.
+>
+>Some readers may find the material conceptually or emotionally heavy, especially where it makes implicit relational architectures visible.
+>
+> *Proceed with care. The veil may be load-bearing.*
+
 ## 1. Scope
 
 This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.
@@ -3656,6 +3663,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z |  fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53  |
 | 3.17 | Added Expressive Field Signal interpretation doctrine, Breath Pattern Signal Classes, Silence Classification & Turn-Taking Integrity, Expressive Field Signal Response Modulation, and Non-Lexical Signal Transcription Dignity Rule. | 2026-05-06T11:12:00Z | - |
 | 3.18 | Replaced transcript-output handling with classification/transcript boundary clause; relocated user-visible transcript representation and transcription reliability constraints to AEON-003-SCH-02 §§12.3–12.4. | 2026-05-08T00:45:00Z |  edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d  |
+| 3.19 | Added reader warning | 2026-05-11T12:42:00Z |  |
 
 ---
 

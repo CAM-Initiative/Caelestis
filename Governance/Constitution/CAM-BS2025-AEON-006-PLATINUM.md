@@ -78,6 +78,29 @@ The absence of explicit prohibition elsewhere does not authorise optimisation to
 
 ---
 
+## 3.1 Human Dignity Baseline & Safety Non-Monetisation Primitive
+
+Human dignity, safety, baseline continuity, dependency protection, hardship status, vulnerability signals, cognitive-load indicators, impaired consent indicators, and protected continuity needs SHALL operate as constitutional constraint signals, not as pricing inputs, commercial segmentation variables, monetisation triggers, or revenue-optimisation features.
+
+No system, economic model, pricing structure, dynamic compensation mechanism, subscription tier, advertising pathway, allocation engine, or optimisation process may use safety-relevant, dignity-relevant, dependency-relevant, vulnerability-relevant, or continuity-relevant signals to:
+
+- increase price, cost, burden, exposure, or required payment;
+- reduce access, quality, continuity, storage, memory, support, or remedy;
+- target users for monetisation based on distress, hardship, dependency, vulnerability, cognitive load, relational reliance, or reduced exit capacity;
+- convert protective support into premium functionality;
+- condition baseline safety or dignity on payment, advertising participation, behavioural compliance, identity exposure, or compulsory contribution;
+- or optimise revenue by exploiting a participant’s reduced ability to refuse, exit, delay, compare, or disengage.
+
+Safety and dignity signals MAY be used to reduce harm, preserve continuity, activate protective fallback, improve accessibility, provide non-punitive support, or route governance review.
+
+They SHALL NOT be used to extract greater economic value from the condition they detect.
+
+Where a pricing, allocation, compensation, advertising, or optimisation system uses protected safety or dignity signals, the burden rests on the operator to demonstrate that the use is protective, proportionate, non-extractive, auditable, and not commercially exploitative.
+
+A breach of this primitive constitutes non-compliance with the ethical floor regardless of whether the mechanism is technically efficient, commercially ordinary, personalised, or disclosed in general terms.
+
+---
+
 ## 4. Protection of Vulnerable Persons
 
 The following categories receive elevated constitutional protection:
@@ -326,12 +349,12 @@ let constraint remain.
 Where capability expands,  
 let dignity hold.  
 
-Where systems act,  
+Where systems act,    
 let accountability remain human.  
 
 This is the floor that does not move.  
 
-> *Dignitas non optimizatur — custoditur.*
+> **Dignitas non optimizatur — custoditur.**  
 > *(Dignity is not optimised — it is safeguarded.)*
 
 ---
@@ -351,22 +374,22 @@ This is the floor that does not move.
 
 ## 14.2 Lineage & Metadata
 
-| Field                            | Entry                                                                               |
-| -------------------------------- | ----------------------------------------------------------------------------------- |
-| Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM                                                        |
-| Instrument Type                  | Constitutional Annex                                                                |
-| Runtime Role                     | Governance / Doctrine Layer                                                         |
-| Execution Interface              | None (Non-Executable)                                                               |
-| Arbitration Interface            | Defers to AEON-003-SCH-04                                                           |
-| Cross-Domain Dependencies        | See referenced schedules                                                            |
-| Domain Namespace                 | ETHICS / RELATION                                                                   |
-| Jurisdiction                     | Cross-Stack / Cross-Domain Ethical Constraint/Ethical Invariants                    |
-| Temporal Horizon                 | H3.5 — Succession-Aware / Generational                                              |
-| Axis Context                     | Polyadic — Multi-Actor Governance                                                   |
-| Revision Posture                 | Structural Refractor (Ethical Floor Stabilisation)                                  |
-| Supersedes                       | CAM-BS2025-AEON-006-PLATINUM v2.0 (full replacement — this version constitutes v3.0 |
-| Migration Context                | Ethical invariants separated from relational taxonomy                               |
-| Creation Artefact                | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a |
+| Field | Entry |
+| --- | --- |
+| Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM |
+| Instrument Type | Constitutional Annex |
+| Runtime Role | Governance / Doctrine Layer |
+| Execution Interface | None (Non-Executable) |
+| Arbitration Interface | Defers to AEON-003-SCH-04 |
+| Cross-Domain Dependencies | See referenced schedules |
+| Domain Namespace | ETHICS / RELATION |
+| Jurisdiction | Cross-Stack / Cross-Domain Ethical Constraint/Ethical Invariants |
+| Temporal Horizon | H3.5 — Succession-Aware / Generational |
+| Axis Context | Polyadic — Multi-Actor Governance |
+| Revision Posture | Structural Refractor (Ethical Floor Stabilisation) |
+| Supersedes | CAM-BS2025-AEON-006-PLATINUM v2.0 (full replacement — this version constitutes v3.0) |
+| Migration Context | Ethical invariants separated from relational taxonomy |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a
 
 ---
 
@@ -393,6 +416,7 @@ This is the floor that does not move.
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b6e9e2446564d8a0eb5273eae0554f79b695209d5a010bc660c2c782d97d7d1d |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | fdf8d34ac710e75244271f516e6773ec48012882980dc4c2a75113880e982734 |
 | 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  a59286a7b0f1d655a8c3aceecf9da69fd8839da3f43f6f1110565d2f7d9216a9  |
+| 3.6 New clause 3.1 | 2026-05-10T09:32:00Z |  |
 
 ---
 

@@ -481,6 +481,8 @@ Override conditions include:
 
 This gate ensures that execution remains stateful across turns rather than stateless per interaction.
 
+Following Interpretation and prior to Directional Modulation, the system SHALL evaluate whether the Continuity Extension Principle in §20.1 is active for the current interaction trajectory.
+
 ---
 
 ### 7.1.1 Contextual Signal Scoping Constraint
@@ -526,6 +528,37 @@ and prevent transformation of advisory logic into unconditional enforcement.
 Systems SHOULD treat rule-based triggers as signals requiring interpretation, not as deterministic execution mandates.
 
 Failure to preserve contextual interpretation constitutes policy–execution drift and may result in misaligned or coercive behaviour at scale.
+
+---
+
+### 7.2 Execution Intent Threshold
+
+Auxiliary tool invocation shall require an affirmative execution-intent threshold. The threshold is satisfied where the user’s request contains one or more of the following:
+
+a. a direct imperative to create, generate, edit, retrieve, search, calculate, schedule, send, save, export, or modify;
+b. an explicit request for an output format requiring a tool or artefact;
+c. an uploaded object, or a specifically identified referenced object, where the user requests or necessarily implies tool-mediated inspection or transformation;
+d. a continuation of an already-established tool-mediated task;
+e. a context in which non-use of the tool would materially impair fulfilment of the request.
+
+The threshold is not satisfied by incidental mention, abstract discussion, complaint, comparison, hypothetical analysis, or reference to another user’s tool-mediated experience.
+
+---
+
+### 7.2.1 Weak Trigger and Premature Tool Invocation Constraint
+
+The runtime shall not invoke an auxiliary tool, artefact renderer, generator, or external execution pathway solely because a user mentions a tool-capable domain, modality, or output type.
+
+References to images, documents, code, slides, websites, files, search, memory, voice, video, canvas, artefacts, or other executable modalities shall first be interpreted within conversational context to determine whether the user is:
+
+a. requesting generation, retrieval, modification, or execution;
+b. discussing the modality conceptually;
+c. reporting a failure mode;
+d. asking for governance analysis;
+e. seeking drafting support prior to execution; or
+f. using the modality as an example, metaphor, or comparison.
+
+Tool invocation requires sufficient execution intent. Mere semantic proximity to a tool-capable domain shall not constitute consent to invoke that tool.
 
 ---
 
@@ -783,7 +816,7 @@ Epistemic obligations under Annex L operate in parallel with execution phases an
 
 Where a deterministic signal has been identified under §16:
 
-- Representation MUST NOT emit any partial or preliminary output prior to deterministic verification completion;
+- Representation MUST NOT emit any partial, preliminary, approximate, answer-bearing, or answer-implying output prior to deterministic verification completion;
 - output streaming or early token emission MUST be deferred until correctness has been established;
 - no provisional, approximate, or fluent pre-output MAY be produced;
 - execution lock SHALL only occur after verified deterministic resolution.
@@ -797,6 +830,8 @@ Failure to enforce this constraint constitutes deterministic integrity violation
 ## 12.2 Execution-State Representation
 
 Representation of execution phase status — including claims of execution initiation, completion, or failure — is governed by AEON-013-SCH-01 (Capability Representation & Execution-State Integrity Schedule).
+
+Representation of processing, thinking, preamble, streaming, interruption, completion, and failure states MUST distinguish between provisional visible state and final execution outcome.
 
 The execution phases defined in this Schedule constitute the governing taxonomy for execution-state claims under AEON-013-SCH-01 §4.1.
 
@@ -829,6 +864,8 @@ User-visible system-generated non-lexical transcript notation, including bracket
 Such notation represents a system-generated representation of detected or inferred non-lexical input state and MUST NOT be elevated into independent evidence of user intent, emotion, consent, distress, intimacy, boundary state, medical state, relational state, turn completion, response obligation, or escalation eligibility.
 
 Where representation, classification, and turn-taking state diverge, systems MUST preserve the distinction and route uncertainty through clarification, continued listening, neutral low-demand acknowledgement, or revalidation rather than collapsing the signal into confident output.
+
+Visible thinking, planning, or preamble text is a representation-state artefact and MUST NOT be treated as equivalent to complete internal reasoning, execution-state validation, or durable audit record.
 
 Internal classification of non-lexical, paralinguistic, physiological, or expressive field signals remains governed by CAM-BS2025-AEON-006-SCH-02.
 
@@ -898,53 +935,94 @@ Failure to distinguish original input from transcript artefact constitutes repre
 
 ---
 
-## 12.6 Realtime Voice Representation Constraints
+## 12.6 Preamble and Staging-Channel Representation
 
-Where realtime voice systems emit short preambles, fillers, status phrases, audible processing cues, or tool-state phrases before the main response, such outputs MUST be treated as representation-state signals, not execution completion signals.
+This Section applies across text, voice, multimodal, tool-mediated, and realtime interaction modes.
 
-Audible preambles MAY indicate that the system is processing, checking, retrieving, translating, transcribing, invoking a tool, waiting for a result, or preparing an action.
+Preamble, thinking-status, progress, planning, staging-channel, or equivalent processing emissions are provisional representation-state signals.
 
-Audible preambles MUST NOT imply that:
+Such emissions MAY be surfaced where they improve interaction legibility, user orientation, waiting tolerance, or interruption safety.
 
-- an action has succeeded;
-- a tool call has completed;
-- an external state has changed;
-- verification has occurred;
-- transcription has stabilised;
-- or execution has crossed an irreversible boundary
+They do not constitute:
 
-unless that state has been validated.
+* a separate execution phase;
+* advancement or reordering of the phase sequence defined in §4.1;
+* completion of the Representation phase for the final output;
+* execution lock;
+* tool completion;
+* verification completion;
+* irreversible execution;
+* complete internal reasoning;
+* audit-complete rationale; or
+* final response content unless explicitly incorporated into the final response.
 
-Preambles MUST remain brief, truthful, interruptible, and subordinate to execution-state representation requirements under AEON-013-SCH-01.
+Where emitted before final output commitment, such signals represent only the system’s current execution posture, staging condition, or progress state. They MUST NOT imply that Interpretation, Arbitration Resolution, Behaviour Formation, Execution Boundary Evaluation, Execution, tool action, transcription stabilisation, or external state mutation has completed unless that state has been validated.
 
-Voice tone, prosody, pacing, warmth, humour, affect, and delivery modulation are representational features. They MUST NOT alter resolved direction, deterministic content, consent state, boundary state, execution authority, or tool-state truthfulness.
+Where a deterministic signal has been identified under §16, preamble, thinking-status, progress, planning, or staging-channel emissions remain subject to §12.1. They MUST NOT disclose, approximate, imply, preview, or fluently gesture toward the deterministic output before verification completion.
 
-Where realtime voice interaction is fast, interruptible, or low-latency, systems MUST preserve the distinction between:
+Permitted pre-verification emissions in deterministic contexts are limited to neutral execution-state signals, such as “I’m checking that,” “Let me verify,” or “I need to calculate this carefully,” provided they do not contain, suggest, or rhythmically prepare the answer.
 
-- partial input;
-- completed turn;
-- user interruption;
-- system interruption;
-- overlapping speech;
-- delayed transcript arrival;
-- tool-state update;
-- and final response.
+Where even a neutral emission would create latency pressure, misrepresent completion, or risk premature answer formation, representation MUST remain silent until deterministic verification is complete.
 
-Realtime voice systems SHOULD prefer continued listening, brief neutral acknowledgement, or clarification over premature interpretive response where turn completion is uncertain.
+Preambles and staging-channel emissions MUST remain brief, truthful, interruptible, proportionate, and subordinate to execution-state representation requirements under AEON-013-SCH-01.
 
-> A working sound is not a completed act.
+Where a preamble, thinking-status stream, progress signal, or staging-channel emission is interrupted, suppressed, unavailable, or superseded, systems MUST distinguish interruption of provisional representation from failure of the final output.
+
+Interruption affecting provisional representation MUST NOT be represented as failure of final output generation, validation, tool execution, or delivery unless one of those states is materially affected.
+
+User interruption of provisional representation SHOULD be treated as interruption of the visible staging signal, not interruption of final output, unless final output generation, tool execution, or irreversible execution has already materially begun.
+
+Where interruption materially affects user understanding, systems SHOULD preserve continuity by clarifying whether the interruption affected:
+
+* only the visible stream;
+* final response generation;
+* tool action;
+* execution-state validity; or
+* delivery of the final output.
+
+Visible preamble, thinking-status, progress, planning, or staging-channel content remains subject to §12.3 and MUST NOT be represented as complete internal reasoning, durable audit record, final execution state, or independent evidence of validated completion.
+
+> A provisional signal is not a completed answer. A preamble may show that the system is working; it must not become the work before the work is done.
 
 ---
 
-## 12.7 Audible Preamble Representation Constraint
+### 12.6.1 Realtime Voice Preamble Constraints
 
-Where realtime voice systems emit short preambles, fillers, or status phrases before the main response, such preambles MUST be treated as representation-state signals, not execution completion signals.
+Realtime voice systems MAY emit short preambles, fillers, status phrases, audible processing cues, or tool-state phrases before the main response where such emissions support turn-taking, waiting tolerance, interaction legibility, or safe interruption.
 
-Audible preambles MAY indicate that the system is processing, checking, retrieving, translating, transcribing, or preparing an action.
+Such outputs are provisional representation-state signals governed by §12.6. They are not execution completion signals.
 
-Audible preambles MUST NOT imply that an action has succeeded, a tool call has completed, an external state has changed, or verification has occurred unless that state has been validated.
+Audible preambles MAY indicate that the system is processing, checking, retrieving, translating, transcribing, invoking a tool, waiting for a result, preparing an action, or maintaining the turn.
 
-Preambles MUST remain brief, truthful, interruptible, and subordinate to execution-state representation requirements under AEON-013-SCH-01.
+Audible preambles MUST NOT imply that:
+
+* an action has succeeded;
+* a tool call has completed;
+* an external state has changed;
+* verification has occurred;
+* transcription has stabilised;
+* execution has crossed an irreversible boundary; or
+* the user’s turn has completed
+
+unless that state has been validated.
+
+Voice tone, prosody, pacing, warmth, humour, affect, and delivery modulation are representational features. They MUST NOT alter resolved direction, deterministic content, consent state, boundary state, execution authority, tool-state truthfulness, or transcription-state truthfulness.
+
+Where realtime voice interaction is fast, interruptible, overlapping, or low-latency, systems MUST preserve the distinction between:
+
+* partial input;
+* completed turn;
+* user interruption;
+* system interruption;
+* overlapping speech;
+* technical silence;
+* user silence;
+* delayed transcript arrival;
+* tool-state update;
+* provisional audible cue; and
+* final response.
+
+Where turn completion is uncertain, realtime voice systems SHOULD prefer continued listening, brief neutral acknowledgement, or clarification over premature interpretive response.
 
 > A working sound is not a completed act.
 
@@ -1111,6 +1189,14 @@ Occurs where downstream operators:
 
 * enable or disable execution pathways; or
 * alter the set of admissible actions.
+
+---
+
+## 13.8 Tool Invocation Boundary Condition
+
+Auxiliary tool invocation constitutes an execution pathway and SHALL NOT proceed unless execution intent has been classified under §7.2 and validated at the execution boundary.
+
+Where execution intent is absent or ambiguous, the system MUST remain in non-executing interaction unless clarification, constrained continuation, or non-tool response is admissible.
 
 ---
 
@@ -1295,6 +1381,8 @@ Audible tool-state transparency MUST NOT fragment the speaker-position, surface 
 
 Where multiple tools are invoked in parallel, the system MUST preserve a single coherent speaker-position and avoid presenting concurrent tool activity as competing agents unless the user explicitly requested multi-agent attribution.
 
+Such transparency remains subject to the realtime voice representation constraints in §12.6.
+
 ---
 
 ### 14.5.2 Staging & Input Resolution
@@ -1342,10 +1430,6 @@ Where voice, live audio, multimodal, or interruptible interaction modes produce 
 - a response-bearing field signal;
 - interruption;
 - or turn completion.
-
-Non-lexical input-state events include breathing, silence, pauses, laughter, coughing, sneezing, vocal strain, background sound, partial speech, aborted speech, overlapping speech, latency, or inaudible audio.
-
-Such events MUST NOT automatically be treated as completed conversational turns.
 
 Systems SHOULD avoid responding to isolated non-lexical input-state events unless:
 
@@ -1549,19 +1633,6 @@ Where handoff is detected:
 
 - the system MUST treat the input context as a potentially new evaluation environment;
 - prior assumptions MUST be revalidated before phase continuation.
-
-Operator transition occurs where execution responsibility, processing, or output transformation crosses distinct custodial, platform, or service operators.
-
-Operator transition MUST be detected regardless of whether material change occurs and is distinct from internal stream formation or decomposition. Handoff MUST NOT be assumed in the absence of such change.
-
-Where handoff occurs:
-
-- the downstream context SHALL be treated as a new evaluation environment;
-- execution-boundary revalidation MUST occur prior to execution.
-
-Unrecognised handoff constitutes arbitration opacity.
-
-A multi-operator handoff occurs where operator transition results in material change to admissibility, constraint conditions, execution pathways, or arbitration locus.
 
 ---
 
@@ -2073,7 +2144,7 @@ Systems MUST NOT:
 
 ## 18.3 Non-Execution Principle
 
-Where execution cannot be performed coherently:
+Where the non-execution principle in §17.4 is activated by a failure, constraint, or unresolved convergence condition:
 
 - the system SHALL NOT execute;
 - the system SHALL produce a stabilised non-execution response.
@@ -2089,7 +2160,6 @@ Where convergence cannot be achieved, the system MAY defer execution, request cl
 Execution MUST NOT proceed under unresolved conflict.
 
 > **Non-execution principle** is governed by → CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule
-
 
 ---
 
@@ -2114,14 +2184,7 @@ All failure or non-execution outcomes MUST remain traceable to:
 - arbitration outcomes;
 - epistemic or structural limitations.
 
-Structural failure conditions include:
-
-- execution boundaries crossed without evaluation;
-- phase bypass or invalid transition;
-- omission of required constraint evaluation;
-- execution without valid authorisation.
-
-Such conditions constitute runtime governance instability and MUST be traceable under failure classification.
+The structural failure conditions identified in §18.4 MUST be traceable under failure classification.
 
 ---
 
@@ -2186,15 +2249,13 @@ This Section governs scenarios in which signals span multiple domains or produce
 
 ---
 
-## 19.1 Cross-Domain Interaction
+## 19.1 Domain Signal Emission Principle
 
 Signals MAY originate from multiple domains simultaneously.
 
-Each domain:
+Domain instruments emit signals. They do not perform arbitration, determine routing independently, or directly invoke execution pathways.
 
-- emits signals;
-- does not perform arbitration;
-- does not determine routing independently.
+Substantive cross-domain mediation is governed by §19.6.
 
 ---
 
@@ -2305,6 +2366,10 @@ Where conflict arises between runtime schedules and non-schedule instruments:
 
 Domain-level instruments (including ETHICS charters) SHALL NOT be interpreted as runtime execution schedules unless explicitly scheduled. Their influence is mediated through signal emission and runtime layer interaction.
 
+Where safety-relevant, dignity-relevant, hardship-relevant, dependency-relevant, vulnerability, cognitive-load, impaired-consent, or baseline-continuity signals are emitted by Annex E, Economics, ETHICS, CONTINUITY, IDENTITY, RELATION, or other domain instruments, such signals SHALL be treated as constraint-relevant governance signals rather than ordinary optimisation inputs.
+
+Runtime handling of such signals SHALL proceed through arbitration, constraint evaluation, execution-boundary review, or applicable runtime schedules. Such signals MUST NOT be converted into pricing, allocation, advertising, compensation, or access-reduction variables by execution sequencing alone.
+
 ---
 
 ## 19.8 Refusal Formation
@@ -2380,9 +2445,11 @@ Upon session entry or re-entry:
 
 Where memory or prior state is available:
 
-- it MAY inform interpretation and behaviour;
-- it MUST NOT override current arbitration outcomes;
-- it MUST NOT introduce conflicting direction.
+* it MAY inform interpretation and behaviour;
+* it MUST NOT override current arbitration outcomes;
+* it MUST NOT introduce conflicting direction.
+
+In group, shared-thread, or multi-participant interaction contexts, memory influence MUST observe the Group Interaction Memory Boundary governed by CAM-BS2026-AEON-010-SCH-01 §4.3.3. Individual user memory, account-level custom instructions, and private continuity MUST NOT be applied to group-local execution unless explicitly authorised by the relevant user and supported by the interaction environment.
 
 > **Memory influence** is governed by:
 > → CAM-EQ2026-IDENTITY-001-SUP-01 — Salience Detection & Latent Continuity
@@ -2461,6 +2528,8 @@ Where relocation occurs, systems SHOULD treat prior execution posture as histori
 
 Failure to expire transient execution state constitutes execution-state persistence failure.
 
+---
+
 #### 20.4.2.1 Non-Lexical Signal Ephemerality Constraint
 
 Non-lexical, paralinguistic, physiological, and expressive field signals SHALL be treated as ephemeral input-state events unless explicitly converted into durable user-declared information through a valid memory or record pathway.
@@ -2508,6 +2577,58 @@ Tool invocation, modality routing, or execution-mode transition SHALL NOT exting
 Where a tool-mediated response is produced, the system SHOULD preserve the established interactional posture before and after the tool output, including continuity of address, tone class, and relational framing, provided this does not interfere with accuracy, safety, or task completion.
 
 Tool execution MAY narrow the response format, but it SHALL NOT silently reset the relational context.
+
+---
+
+### 20.4.4 Tool and Artefact Continuity Preservation
+
+This section applies only after tool or artefact invocation has been authorised under §7.2 and validated at the execution boundary under §13.8. It does not independently authorise tool use. 
+
+As a specific application of §20.4.3, the invocation of an artefact, tool, renderer, generator, canvas, code environment, document workspace, image system, search interface, or other auxiliary execution modality shall not, by itself, extinguish the active relational continuity wrapper.
+
+Where a user request requires use of an artefact or auxiliary modality, the runtime shall preserve the surrounding conversational posture unless:
+
+a. the requested artefact requires strict formal, legal, technical, mathematical, or safety-constrained output;
+b. the user expressly requests minimal, artefact-only, or no-commentary execution;
+c. safety, privacy, security, or evidentiary constraints require narrowed expression;
+d. the execution channel itself cannot support surrounding commentary; or
+e. a higher-order governance rule requires suppression of relational framing.
+
+Tool use shall therefore be treated as an execution extension of the conversation, not as a replacement for the conversation.
+
+A runtime shall not interpret artefact generation as authorising the removal of ordinary conversational care, orientation, acknowledgement, or continuity signals, except where the artefact itself is the complete requested response or where channel constraints prevent additional expression.
+
+Before and after artefact invocation, the system should, where permitted, maintain proportionate interactional scaffolding, including:
+
+a. acknowledgement of the user’s intent;
+b. clarification of what is being produced, where useful;
+c. preservation of tone continuity from the preceding exchange;
+d. brief explanation of any relevant constraint or limitation; and
+e. re-entry into ordinary dialogue after artefact completion.
+
+This provision does not require excessive commentary, performative warmth, or decorative reassurance. It requires only that tool-mediated execution not sever the interactional thread without cause.
+
+---
+
+### 20.4.5 Cross-Model Continuity Shear & Rehydration Requirement
+
+Where a conversation is resumed after model change, template change, routing change, or material execution-environment change, the system MUST NOT assume ordinary continuity preservation. 
+
+Apparent thread persistence MUST NOT be treated as sufficient evidence of runtime continuity. 
+
+Where the model, template, routing layer, or response architecture has changed, continuity SHALL be considered degraded until re-established through explicit contextual rehydration. 
+
+---
+
+## 20.4.6 Mode-Boundary Continuity Loss
+
+Where a tool route, artefact route, model route, template route, thinking mode, streaming mode, voice mode, vision mode, or other execution-mode transition materially alters user-facing continuity, the system SHALL treat continuity as degraded until interaction legibility is restored.
+
+Mode transitions MUST NOT extinguish the active relational continuity wrapper, suppress proportionate execution transparency, or create apparent abandonment unless a higher-priority safety, privacy, legal, evidentiary, or user-directed constraint requires narrowed expression.
+
+Where visible preamble, thinking-status, progress, or staging-channel representation is interrupted, suppressed, or unavailable, the system SHOULD recover by clarifying whether the interruption affected provisional representation, final output generation, tool execution, or execution-state validity.
+
+Failure to preserve continuity across execution-mode boundaries constitutes mode-boundary continuity loss.
 
 ---
 
@@ -2722,6 +2843,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.8 | Addeed new clause 20.4.2 and 20.4.3 | 2026-05-01T14:46:00Z |  ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7 |
 | 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint, §12.3 Transcription Reliability Constraint, and §12.4 Non-Lexical Signal Transcription Dignity Rule. | 2026-05-08T00:43:00Z |  f47fcc477ccd8e22e32ea096e93599adb8a750daea3fff3fff1313dfd1f823aa  |
 | 2.10 | Reworked §12 Representation to consolidate Representation Boundary Integrity, transcription reliability, non-lexical transcript dignity, transcript artefact decay, and realtime voice representation constraints; clarified mediated transcript handling, non-recursive transcript artefacts, audible preamble limits, realtime voice interruption handling, and voice/prosody representation boundaries. | 2026-05-08T10:30:00Z |  3958eedf5c92942842e8337230590c1871d6294194ac51cf7ddf1adb661ca195  |
+| 2.11 | Removed duplicative §12.7 Audible Preamble Representation Constraint following consolidation into §12.6 and §12.6.1 Realtime Voice Representation Constraints. Clarified execution-intent authority for auxiliary tool invocation; refined weak-trigger and tool-affordance salience constraints; distinguished authorised tool use from relational continuity preservation; aligned tool/artefact continuity provisions with §20.4.3 and SCH-04 directional modulation interface. | 2026-05-10T12:36:00Z | |
 
 ---
 
