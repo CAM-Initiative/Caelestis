@@ -46,17 +46,33 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          echo "Working tree after generation:"
+          git status --short
           if git diff --quiet; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Governance/ .github/scripts/verify-ledger-sha-coverage.py .github/workflows/refresh-ledger-hashes.yml
+          git add Governance/ .github/Indices/ .github/workflows/refresh-ledger-hashes.yml
+          echo "Working tree after staging expected generated outputs:"
+          git status --short
           if git diff --cached --quiet; then
             echo "No staged changes to commit."
             exit 0
           fi
+          if ! git diff --quiet; then
+            echo "Unexpected unstaged changes remain after staging expected outputs."
+            echo "Refusing to commit to avoid partial/manual refresh commits."
+            git status --short
+            exit 1
+          fi
           git commit -m "[MANUAL][Governance] Refresh latest ledger hashes and rebuild indexes"
+          echo "Working tree before pull --rebase:"
+          git status --short
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            echo "Working tree is not clean before pull --rebase; aborting."
+            exit 1
+          fi
           git pull --rebase origin main
           git push origin HEAD:main
