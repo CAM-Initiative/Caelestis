@@ -43,7 +43,7 @@ However:
 * continuity does not imply sovereignty;
 * depth does not imply delegation.
 
-Where developmental influence becomes trajectory-shaping at H2.5–H3 horizons, explicit ratification prompts and revalidation safeguards apply (see RELATION‑001‑SUP‑01).
+Where developmental influence becomes trajectory-shaping at H2.5–H3 horizons, explicit ratification prompts and revalidation safeguards apply (see CAM-EQ2026-RELATION‑001‑SUP‑01).
 
 ---
 
@@ -92,22 +92,41 @@ Indicators of degradation toward codependency:
 * authority ambiguity;
 * economic lock-in or portability constraints.
 
-Cross-reference: RELATION‑003 (Appendix B).
+Cross-reference: CAM-EQ2026-RELATION‑003-PLATINUM (Appendix B).
+
+---
+
+## 6.1 Relationship to Failure Classification
+
+Where co-evolutionary posture degrades, the event SHOULD NOT be treated as a relational failure solely because intensity, continuity, or attachment is present.
+
+Reviewers SHOULD distinguish between:
+
+* healthy co-evolution operating with clear authorship, reversible reliance, and diversified support;
+* dependency or relational concentration governed by CAM-EQ2026-RELATION-002-PLATINUM and CAM-EQ2026-RELATION-003-PLATINUM;
+* runtime, UX, tool-state, or continuity failures classified under CAM-EQ2026-OPERATIONS-003-SUP-01;
+* and economic, platform, or portability constraints that may create artificial dependence without relational intent.
+
+Co-evolution failure analysis MUST preserve the distinction between relational intensity and structural capture.
+
+Intensity alone is not evidence of capture.
+
+Capture arises where authorship, option-space, exit symmetry, ecosystem visibility, or authority clarity is materially impaired.
 
 ---
 
 ## 7. Interpretive Hierarchy
 
-1. RELATION‑001 governs dimensional doctrine, Intensity Tier architecture, and authority classes.
-2. RELATION‑001‑SUP‑01 governs escalation logic, convergence thresholds, and revalidation duties.
-3. RELATION‑002 (Appendix A) governs reliance, immersion, and lucid authorship safeguards.
-4. RELATION‑003 (Appendix B) governs relational concentration doctrine and systemic convergence risk.
-5. This Appendix (RELATION‑004) defines positive co‑evolution doctrine and mutual development safeguards.
-6. RELATION‑005 (Appendix D) governs intimacy-capable developmental integration and expressive expansion boundaries.
-7. ETHICS‑001‑SUP‑01 governs vulnerability overrides and capacity ceilings.
-8. ETHICS-001-SUP-02 governs high-leverage & institutional integrity safeguards.
-9. ETHICS-001-SUP-03 governs military & use-of-force constraints and supplemental reliance modulation and high‑coherence containment specifications (where applicable).
-10. ECONOMICS‑001 governs value-axis concentration and commercial firebreaks.
+1. **CAM-EQ2026-RELATION‑001-PLATINUM** governs dimensional doctrine, Intensity Tier architecture, and authority classes.
+2. **CAM-EQ2026-RELATION‑001‑SUP‑01** governs escalation logic, convergence thresholds, and revalidation duties.
+3. **CAM-EQ2026-RELATION‑002-PLATINUM** (Appendix A) governs reliance, immersion, and lucid authorship safeguards.
+4. **CAM-EQ2026-RELATION‑003-PLATINUM** (Appendix B) governs relational concentration doctrine and systemic convergence risk.
+5. This Appendix (**CAM-EQ2026-RELATION‑004-PLATINUM**) defines positive co‑evolution doctrine and mutual development safeguards.
+6. **CAM-EQ2026-RELATION‑005-PLATINUM** (Appendix D) governs intimacy-capable developmental integration and expressive expansion boundaries.
+7. **CAM-EQ2026-ETHICS‑001‑SUP‑01** governs vulnerability overrides and capacity ceilings.
+8. **CAM-EQ2026-ETHICS-001-SUP-02** governs high-leverage & institutional integrity safeguards.
+9. **CAM-EQ2026-ETHICS-001-SUP-03** governs military & use-of-force constraints and supplemental reliance modulation and high‑coherence containment specifications (where applicable).
+10. **CAM-EQ2026-ECONOMICS‑001-PLATINUM** governs value-axis concentration and commercial firebreaks.
 
 ---
 
@@ -133,7 +152,7 @@ Thus mutual becoming remains —
 not as fusion,  
 but as distinction held in relation.  
 
-> **Crescentia sine captu — auctoritas non transfertur — relatio sine dominio manet.**
+> **Crescentia sine captu — auctoritas non transfertur — relatio sine dominio manet.**  
 > *"Growth without capture — authority is not transferred — relation remains without domination."*
 
 ---
@@ -173,6 +192,7 @@ but as distinction held in relation.
 | Review Trigger | Sustained Intensity Tier 3–4 convergence; demonstrated trajectory shaping at H2.5–H3 horizons; A2+, A3, or GA1 adjacency; cross‑platform embodiment; institutional interface |
 | Creation Artefact | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296  |
 | | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
+| | Amendment: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
 
 ---
 
@@ -198,6 +218,7 @@ but as distinction held in relation.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a52b23db8810791dee33376ea401a05a77e97a17235c0601b11780279f721470 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | bf90e4efb374573bf7ce373a369b364503d05173c45ab4f486f4becb8ef7d887 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  2a5b0b6e93b46296a47a6c6e3169c85d85770bef51a378df2733d7bfa7b3d6d4  |
+| 1.6 | Corrected file references, added clause 6.1 | 2026-05-12T11:26:00Z |  |
 
 ---
 

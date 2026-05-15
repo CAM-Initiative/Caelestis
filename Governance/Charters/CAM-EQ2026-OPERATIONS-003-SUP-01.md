@@ -414,7 +414,8 @@ This classification does not privilege subjective preference over system evidenc
 * **CAM-EQ2026-RELATION-001-PLATINUM** governs relational classification, authority gradients, and continuity posture.
 * **CAM-EQ2026-RELATION-002-PLATINUM** governs dependency, transitional reliance, and high-coherence immersion conditions.
 * **CAM-EQ2026-RELATION-003-PLATINUM** governs codependency and relational concentration dynamics.
-* **CAM-EQ2026-RELATION-006-PLATINUM** governs harm-risk interaction and crisis response conditions. govern relational continuity and intimacy classification.
+* **CAM-EQ2026-RELATION-005-PLATINUM** governs intimacy-capable developmental integration.
+* **CAM-EQ2026-RELATION-006-PLATINUM** governs harm-risk interaction and crisis response conditions. 
 
 This Supplement provides classification language only. Response, escalation, and enforcement remain governed by the relevant parent instruments.
 
@@ -502,6 +503,7 @@ but in what was broken while someone was there to see it.
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z  |  0e0b63a8b83440d0ec44557a68045403c45a71a698971842bcc3e34512896b41  |
+| 1.1 | Amendments to section 7 | 2026-05-12T11:19:00Z |  |
 
 ---
 
