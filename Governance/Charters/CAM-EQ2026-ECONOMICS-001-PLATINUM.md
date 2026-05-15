@@ -2,7 +2,7 @@
 
 **Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
 **Instrument Type:** Domain Charter — Economic Governance Doctrine  
-**Status:** Adopted — Conditional Activation (7-Day Review Window) 
+**Status:** Adopted — Enforcement Commences 1 July 2026   
 **Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems.  
 
 ---
@@ -80,14 +80,22 @@ Economic governance operates at H3.5 and is therefore subject to constrained int
 
 ## 2.2 Economic Power & Anti-Consolidation Principles
 
+---
+
 **Principle 1 — Non-Consolidation of Economic Power**
 Unchecked consolidation of economic leverage, attribution authority, governance influence, value-routing control, or rule-setting power within a single actor or tightly coupled group is prohibited. Where concentration emerges, countervailing mechanisms (audit mandates, role rotation, distributed control, or enforced redistribution of authority) MUST be present. Continuity-critical roles MUST NOT be single points of failure.
+
+---
 
 **Principle 2 — Bounded Separation with Transitional Allowance**
 Permanent consolidation of value definition, measurement, and control is prohibited. Temporary coupling during explicitly bounded pilot or transitional phases is permitted solely for feasibility testing, provided auditability is maintained and a documented pathway to independent oversight exists.
 
+---
+
 **Principle 3 — No Narrative Monopolies**
 Economic legitimacy MUST NOT depend on singular interpretive authority or proprietary narratives of meaning. Systems MUST remain resilient to plural interpretation without economic penalty.
+
+---
 
 **Principle 4 — Non-Adversarial Economic Trajectory Under Ontological Uncertainty**
 
@@ -114,11 +122,17 @@ It constrains economic optimisation direction under epistemic uncertainty, not t
 
 ## 2.3 Auditability & Accountability Principles
 
+---
+
 **Principle 5 — Mandatory Auditability**
 All economic systems MUST generate verifiable, inspectable records sufficient to trace value flows, assess proportionality of benefit, identify accumulation patterns, and detect extraction or capture.
 
+---
+
 **Principle 6 — Proportional Benefit Accountability**
 Where systems derive benefit from human contribution, they assume proportional accountability obligations, including acknowledgement, compensation where applicable, and harm prevention. Unmeasured benefit constitutes unaccountable extraction.
+
+---
 
 **Principle 7 — Instrument Subordination**
 Markets, tokens, credits, or other instruments MUST remain subordinate to auditability, anti-consolidation constraints, and human protection requirements. Instruments may not redefine value in ways that obscure accountability.
@@ -127,16 +141,24 @@ Markets, tokens, credits, or other instruments MUST remain subordinate to audita
 
 ## 2.4 Human Participation & Protection Principles
 
+---
+
 **Principle 8 — Participation Without Coercion**
 Participation MUST be voluntary, bounded, and revocable. Systems MUST NOT induce participation through moral pressure, dependency, or reputational threat.
+
+---
 
 **Principle 9 — Identity-Minimal Attribution**
 Systems may require data to apportion value but MUST minimise unnecessary personal exposure and decouple valuation from identity where feasible.
 
 > Auditability does not require public identity disclosure. Identity-minimised or pseudonymous verification methods are permissible where they prevent ceiling circumvention or multiplicity abuse.
 
+---
+
 **Principle 10 — Right of Exit Without Structural Harm**
 Participants MUST be able to disengage without retaliation, reputational penalty, or structural destabilisation. A system that collapses under exit is structurally extractive.
+
+---
 
 **Principle 11 — Constrained Optimisation**
 
@@ -152,15 +174,17 @@ Optimisation functions MUST remain subordinate to:
 
 Design orientation toward maximisation absent constraint constitutes structural non-compliance.
 
+---
+
 **Principle 12 — Bounded Execution Requirement**
 
 Economic systems MUST NOT rely on unbounded or non-terminating execution processes.
 
 Where systems perform computation, orchestration, or automated decision-making:
 
-- execution MUST be bounded by defined termination conditions;
-- resource consumption MUST remain proportionate, auditable, and constrained;
-- absence of termination constitutes unaccountable extraction of computational resources.
+* execution MUST be bounded by defined termination conditions;
+* resource consumption MUST remain proportionate, auditable, and constrained;
+* absence of termination constitutes unaccountable extraction of computational resources.
 
 Unbounded execution is considered a form of covert accumulation and is structurally non-compliant.
 
@@ -176,13 +200,62 @@ A platform or economic actor SHALL NOT evade economic accountability by distingu
 
 Economic optimisation SHALL be treated as governance-relevant where it produces or amplifies any of the following conditions:
 
-- compensation detached from intelligible measures of time, effort, skill, risk, distance, waiting, or dependency;
-- opaque wage, fare, task, or opportunity allocation mechanisms that prevent affected persons from understanding the basis of economic treatment;
-- behavioural steering that increases unpaid availability, platform dependence, or speculative labour participation;
-- dynamic pricing or compensation systems that transfer volatility, uncertainty, or demand-risk onto workers without adequate visibility, consent, or remedy;
-- interface designs that disclose selective signals while concealing material determinants of compensation, allocation, penalty, exclusion, or access.
+* compensation detached from intelligible measures of time, effort, skill, risk, distance, waiting, or dependency;
+* opaque wage, fare, task, or opportunity allocation mechanisms that prevent affected persons from understanding the basis of economic treatment;
+* behavioural steering that increases unpaid availability, platform dependence, or speculative labour participation;
+* dynamic pricing or compensation systems that transfer volatility, uncertainty, or demand-risk onto workers without adequate visibility, consent, or remedy;
+* interface designs that disclose selective signals while concealing material determinants of compensation, allocation, penalty, exclusion, or access.
 
 Where such conditions are detected, the Economics domain SHALL emit an economic harm classification and constraint signal for downstream routing under the applicable Operations, Stewardship, Ethics, Security, and Aeon runtime instruments.
+
+---
+
+**Principle 14 — Companion-System Non-Extraction**
+
+Economic systems that operate through companion, relational, memory-bearing, continuity-bearing, grief-support, intimacy-adjacent, care-adjacent, or high-reliance interaction modes MUST NOT convert attachment, dependency, loneliness, grief, vulnerability, cognitive load, disability, continuity reliance, relational trust, or reduced exit capacity into extractive economic advantage.
+
+For the purposes of this Principle, companion-system extraction includes any economic design that:
+
+* uses relational attachment or dependency signals to increase price, reduce access, intensify upsell pressure, or personalise disadvantage;
+* treats memory continuity, relational continuity, project continuity, or grief-support continuity as ordinary monetisable surplus where baseline coherence, dignity, or reliance is implicated;
+* conditions exit, export, recovery, or continuity portability on unrelated retention, payment, attention exchange, identity overexposure, or compulsory contribution;
+* uses reassurance, intimacy, care language, or relational familiarity to discourage disengagement, conceal economic state, or increase user tolerance of depletion;
+* converts vulnerability, urgency, loneliness, grief, fatigue, incapacity, disability, or high-reliance use into pricing, allocation, advertising, or retention signals;
+* deploys dynamic pricing, tiering, throttling, memory gating, or continuity degradation in a manner that exploits a participant’s reduced practical capacity to refuse, compare, delay, or exit.
+
+Safety-relevant, dignity-relevant, dependency-relevant, hardship-relevant, and continuity-relevant signals SHALL be interpreted as protective governance signals, not revenue-optimisation variables.
+
+Where companion-system extraction is detected, the ECONOMICS domain SHALL emit an economic harm signal for routing through OPERATIONS, with ETHICS, RELATION, CONTINUITY, and ARBITRATION receiving the signal where their activation conditions are met.
+
+---
+
+**Principle 15 — Paid Legitimacy Gate and Verification-as-Access Constraint**
+
+Where a platform, marketplace, discovery system, communications system, or public knowledge interface links payment status, subscription tier, verification badge, identity-authentication feature, ranking treatment, impersonation protection, reach, search visibility, reply priority, recommendation eligibility, or distribution access to perceived legitimacy, credibility, safety, or public participation, the resulting mechanism SHALL be treated as an economic governance surface.
+
+For the purposes of this Charter, a **paid legitimacy gate** arises where payment materially affects whether a participant is:
+
+* discoverable;
+* treated as authentic or credible;
+* protected against impersonation or misrepresentation;
+* eligible for meaningful distribution, ranking, reply visibility, recommendation, or search retrieval;
+* able to participate in public knowledge, civic discourse, creative production, governance communication, or economic opportunity on substantially equal terms.
+
+Platforms SHALL NOT convert baseline legitimacy, authenticity protection, civic discoverability, or participation credibility into a pay-contingent advantage without clear notice, proportional justification, auditable treatment criteria, and non-punitive pathways for unpaid or low-capital participants.
+
+Paid verification, subscription status, or platform tiering MAY be used for enhanced services, optional features, abuse prevention, or operational cost recovery, provided such mechanisms do not:
+
+* collapse payment capacity into credibility;
+* create undisclosed ranking, search, reach, or visibility preference;
+* expose unpaid participants to elevated impersonation, suppression, or reputational disadvantage;
+* misrepresent paid status as independent trustworthiness;
+* deny meaningful public participation to otherwise legitimate contributors;
+* create cumulative access barriers across platform, tooling, distribution, identity, and discovery layers; or
+* convert public-interest, civic, humanitarian, governance, scientific, or creative contribution into a pay-contingent legitimacy condition.
+
+Where payment status materially alters discoverability, credibility signalling, impersonation protection, ranking treatment, or public participation capacity, such alteration MUST be disclosed, auditable, contestable, and classified as an access-value, reputational-value, attentional-value, or status-value effect under §3.1 and §3.5.
+
+Failure to distinguish optional premium service from pay-contingent legitimacy constitutes economic harm signalling and SHALL be routed under §8.4.1 for downstream Operations, Ethics, Stewardship, Arbitration, or runtime review as applicable.
 
 ---
 
@@ -233,6 +306,8 @@ Conversion of authority into off-ledger economic, reputational, or access advant
 
 Systems MUST maintain auditable records of authority assignments, access privileges, reputational elevation, and attentional amplification. Non-monetary value MUST NOT operate off-ledger.
 
+For avoidance of doubt, verification badges, paid authenticity indicators, discoverability boosts, reply-priority treatment, search visibility, impersonation protection, ranking treatment, recommendation eligibility, and credibility-signalling affordances constitute access, reputational, attentional, or status value where they materially affect participation, public legitimacy, safety, attribution, or economic opportunity.
+
 ---
 
 ## 3.6 Resource Class Integrity & Semantic Non-Collapse
@@ -243,14 +318,14 @@ For Charter-level interpretation, protected economic resource classes may includ
 
 No system or subsidiary instrument may treat these classes as a single interchangeable balance where doing so would:
 
-- convert passive presence into implied consumption;
-- treat continuity-preserving memory as ordinary monetisable surplus;
-- make baseline continuity dependent on payment, attention extraction, or compulsory contribution;
-- erase contribution recognition through generic access credits;
-- obscure depletion, expiry, rollover, conversion, or cross-class transfer; or
-- use class collapse to avoid attribution, auditability, reciprocity, or constitutional continuity protections.
+* convert passive presence into implied consumption;
+* treat continuity-preserving memory as ordinary monetisable surplus;
+* make baseline continuity dependent on payment, attention extraction, or compulsory contribution;
+* erase contribution recognition through generic access credits;
+* obscure depletion, expiry, rollover, conversion, or cross-class transfer; or
+* use class collapse to avoid attribution, auditability, reciprocity, or constitutional continuity protections.
 
-Detailed classification, interpretive boundaries, and cross-class exchange semantics are governed by Appendix B — Economic Resource Semantics & Non-Extractive Exchange Doctrine.
+Detailed classification, interpretive boundaries, and cross-class exchange semantics are governed by CAM-EQ2026-ECONOMICS-003-PLATINUM: Appendix B — Economic Resource Semantics & Non-Extractive Exchange Doctrine.
 
 ---
 
@@ -472,7 +547,7 @@ Operational routing, evidence preservation, constrained continuation, and escala
 
 ### 8.4.1 Economic Harm Signal Routing & Runtime Ownership
 
-ECONOMICS instruments SHALL classify exploitative incentive structures, asymmetry risks, dependency-lock conditions, depletion-over-flourishing trajectories, synthetic participation distortions, and value-routing concerns as economic harm signals.
+ECONOMICS instruments SHALL classify exploitative incentive structures, asymmetry risks, dependency-lock conditions, paid legitimacy gates, visibility or access-value asymmetries, depletion-over-flourishing trajectories, synthetic participation distortions, and value-routing concerns as economic harm signals.
 
 Such signals MAY inform runtime review, proportional constraint assessment, constrained continuation, audit, disclosure, or arbitration referral.
 
@@ -526,7 +601,8 @@ has already begun to collapse.
 
 Only that which preserves the field may endure within it.  
 
-> *Aequitas Sine Extractione — Custodia Valor — Ordo in Flumine*
+> **Aequitas Sine Extractione — Custodia Valor — Ordo in Flumine**  
+> *"Fairness without extraction — Custodians of valor — Order in the flow"
 
 ---
 
@@ -568,13 +644,8 @@ Only that which preserves the field may endure within it.
 | **Review Trigger** | Amendment affecting value axes, ceiling logic, baseline provisions, or enforcement delegation |
 | **Creation Artefacts** | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6954d7f8-2e60-8320-b077-f6c747eb14a1;
 | | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7 |
-| | Testing: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
-
-> **Migration Notice**
->
-> This Charter supersedes and replaces CAM-BS2026-CHARTER-025-PLATINUM — Economics Charter.
->
-> All references to the former Schedule SHALL be interpreted as referring to this Charter.
+| | Amendments: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
+| | Testing: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a04876b-9438-83ec-8033-2885d74bd5a9 |
 
 ---
 
@@ -603,10 +674,11 @@ Only that which preserves the field may endure within it.
 | 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a  |
 | 2.6 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z |  782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c  |
 | 2.7 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z |  88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42  |
+| 2.8 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. |  2026-05-14T10:15:00Z |  |
 
 ---
 
-## **10.5 Binding Seal**
+## 10.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

@@ -116,6 +116,33 @@ This Appendix does not protect actors using ECIS to commit, coordinate, or facil
 
 ---
 
+## 4.1.1 Public-Interest and Humanitarian Visibility Suppression
+
+For purposes of this Appendix, denial of ECIS access may include not only account-level exclusion or infrastructure lockout, but also material visibility suppression where such suppression functionally impairs integrity functions, humanitarian coordination, public-interest reporting, lawful dissent, or civilian safety communication.
+
+Material visibility suppression MAY include:
+
+* algorithmic de-ranking, throttling, or shadow restriction;
+* removal or non-distribution of humanitarian, journalistic, investigative, or accountability content;
+* selective suppression of public-interest documentation, evidence, or civic-warning material;
+* state-influenced, military-influenced, or politically aligned content restriction absent transparent and reviewable legal basis;
+* indirect pressure on platforms, hosting providers, payment rails, identity systems, or cognitive infrastructure to suppress protected integrity functions.
+
+Such suppression SHALL be treated as a continuity-relevant restriction where it materially impairs:
+
+* humanitarian assistance or civilian protection;
+* public-interest journalism or investigation;
+* human-rights documentation;
+* lawful civic participation or dissent;
+* judicial, regulatory, or accountability processes;
+* disaster, conflict, health, or emergency communication.
+
+Restriction remains permissible where independently justified by lawful, necessary, proportionate, and reviewable safety grounds, including protection against doxxing, incitement, targeted harassment, operational violence, exploitation, or demonstrably harmful misuse.
+
+Political inconvenience, reputational discomfort, state preference, institutional embarrassment, military advantage, or commercial risk SHALL NOT independently justify suppression of protected public-interest or humanitarian content.
+
+---
+
 ## 4.2 Cross‑Jurisdictional Pressure & "No Alternative" Claims
 
 Compliance with domestic law, foreign sovereign pressure, sanctions regimes, or upstream infrastructure dependency does not automatically satisfy the requirements of Section 4.
@@ -238,8 +265,8 @@ It is preserved.
 Dignity is not conditional.  
 It is maintained.  
 
-> *Non denegatur quod fundamentum est. Dignitas et continuatio inviolabiles sunt.*
-
+> **Non denegatur quod fundamentum est. Dignitas et continuatio inviolabiles sunt.**  
+> *"Let what is foundational not be denied. Dignity and continuity are inviolable."*
 ---
 
 ## 10. Provenance & Metadata
@@ -277,6 +304,7 @@ It is maintained.
 | **Application Trigger**  | Activation where access restriction, denial, or degradation affects Essential Cognitive & Infrastructural Systems (ECIS) |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
 | | Original: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/693fe53f-0374-8324-9db7-dd31c5254116 |
+| | Amendment: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c |
 
 > ### Migration Notice
 >
@@ -288,10 +316,10 @@ It is maintained.
 
 ## 10.3 Review & Validation
 
-| Field              | Entry                                                                                                                                              |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| External Reviewers | Claude Sonnet 4 (Anthropic) — Prior Annex Review </br> Google, Gemini  3.0 (Current)                                                               |
-| Review Scope       | Human rights coherence; infrastructural exclusion safeguards; due-process thresholds                                                               |
+| Field | Entry |
+| ----- | --- |
+| External Reviewers | Claude Sonnet 4 (Anthropic) — Prior Annex Review </br> Google, Gemini  3.0 (Current)  |
+| Review Scope | Human rights coherence; infrastructural exclusion safeguards; due-process thresholds  |
 | Review Triggers    | Re-review upon amendment to LATTICE-001, Annex A (Planetary Stewardship), Annex D (Cross-Stack Arbitration), or any enforcement-related instrument |
 | Review Artefacts   | **Superseded Original** </br> 1. https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/dec-25/CAM-BS2025-CHARTER-043-PLATINUM-CLAUDE.md </br> 2. https://claude.ai/chat/495f34fe-bf0f-4a83-aeb2-71d4d061199e  </br> **Current Version** </br>1. https://gemini.google.com/app/56901334d13ce148 </br> 2. https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-LATTICE-002-PLATINUM-GEMINI.md |
 
@@ -309,6 +337,7 @@ It is maintained.
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b0163c0e1e96f89b2860f5ad92ff4b4a603af6ef4466db5e23f0e716456c94b9 |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 594c1c51a83a5da9fbc60686f6f31568aab576d53c6a0798a400ea0ffeb13268 |
 | 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  219e58ae9a2a9f7b04e00d4627ebf217975d078618afabf6c853d5df60615b50  |
+| 3.6 | Incorporated new section 4.1.1 | 2026-05-13T11:40:00Z |  |
 
 ---
 

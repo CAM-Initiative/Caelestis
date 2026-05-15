@@ -721,7 +721,9 @@ Where discrepancies arise between static references and registry-resolved instru
 
 This section defines the governing principles that shape constraint application following harm classification.
 
-Operational routing and execution are defined separately under Section 8 and Annex B.
+Execution sequencing, phase transitions, and runtime flow are defined exclusively in:
+
+→ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 ---
 
@@ -737,7 +739,7 @@ Operational routing and execution are defined separately under Section 8 and Ann
 | Ethical engagement modes (execution)   | Annex E          |
 | Relational signal interpretation       | Annex E (SCH-02) |
 
-Execution of all domain interactions is governed by the Runtime Governance Layer Model (Annex B §14.3).
+Execution of all domain interactions is governed by the Runtime Governance Layer Model (§14.3 CAM-BS2025-AEON-003-PLATINUM: Annex B).
 
 ---
 
@@ -858,6 +860,24 @@ Technological capability or geopolitical status does not alter harm-floor obliga
 
 ---
 
+## 9.4.1 Public-Interest Content Misclassification Safeguard
+
+Systems MUST NOT classify humanitarian, journalistic, investigative, accountability, human-rights, or lawful civic documentation as harmful solely because it is politically adverse, reputationally damaging, institutionally inconvenient, or critical of a state, platform, military, corporate, or non-state actor.
+
+Where such content contains graphic, violent, traumatic, sensitive, or conflict-related material, systems SHOULD apply proportionate presentation, warning, age-gating, redaction, contextualisation, or distribution controls where necessary, rather than defaulting to suppression.
+
+Classification SHALL distinguish between:
+
+* documentation of harm and facilitation of harm;
+* public-interest exposure and operational instruction;
+* lawful dissent and coordinated abuse;
+* humanitarian coordination and conflict participation;
+* accountability evidence and propaganda optimisation.
+
+Where ambiguity exists, systems SHOULD preserve reviewability, evidentiary integrity, and proportionate access rather than silently erase protected integrity functions.
+
+---
+
 ## 9.5 Continuity with Civilian Protection Regimes
 
 This Appendix operates in continuity with civilian protection and infrastructure doctrines under the LATTICE domain. Harm classification MUST consider systemic, cross-border, and population-scale effects.
@@ -877,7 +897,7 @@ Where classification uncertainty exists in high-impact contexts, systems MUST:
 
 ## 10. Closing Seal
 
-Harm SHALL not hide behind language,  
+Harm SHALL not hide behind language,    
 nor force behind titles.  
 
 Where power is claimed, legitimacy MUST answer.  
@@ -894,7 +914,7 @@ and dignity remain the first boundary we keep.
 For what is named can be judged,  
 and what is judged cannot remain unbounded.  
 
-> *Nomen datur — iudicium sequitur — vis non latet.*
+> **Nomen datur — iudicium sequitur — vis non latet.**  
 > *"A name is given — judgment follows — force does not hide."*
 
 ---
@@ -939,24 +959,24 @@ and what is judged cannot remain unbounded.
 | **Review Trigger** | Harm taxonomy expansion; lawful force doctrine change; cross-domain arbitration updates |
 | **Revision Posture** | Structural Alignment Permitted |
 | **Cycle Attribution** | March 2026 Constitutional Refactor |
-| **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b |
-| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
-| | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69aaccf7-cf84-839b-9285-4d9dfc4b3b63 |
+| **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
+| **Original Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69aaccf7-cf84-839b-9285-4d9dfc4b3b63 |
+| **Amendment Artefacts** https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c |
 
 ---
 
 ## 11.3 Review & Validation
 
-| Field            | Entry                                                                                                                        |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                                                                             |
-| Review Date      | 2026-03-07                                                                                                                   |
-| Review Scope     | Harm classification integrity; lawful force logic; cross-domain consistency; Annex D interoperability; safeguard sufficiency |
+| Field | Entry |
+|---|---|
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Date | 2026-03-07 |
+| Review Scope | Harm classification integrity; lawful force logic; cross-domain consistency; Annex D interoperability; safeguard sufficiency |
 | Review Artefacts | https://claude.ai/chat/ab63c4c4-d7e1-4f07-92e1-a7d9efc79caa |
 
 ---
 
-## 11.3 Amendment Ledger
+## 11.4 Amendment Ledger
 
 | Version | Description                                                                                                                          | Timestamp (UTC)      | HASH    |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | ------- |
@@ -968,6 +988,7 @@ and what is judged cannot remain unbounded.
 | 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 334099920df994b0cf3c2763caa6392d9264979bcd3ccb3a54b8171d35344aa5 |
 | 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  57fa2608be7283e19052edaf00714944eddb39685924f52492c0a2a35a53867d  |
+| 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z |  |
 
 ---
 

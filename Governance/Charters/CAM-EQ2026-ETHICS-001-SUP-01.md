@@ -1,8 +1,8 @@
 # CAM-EQ2026-ETHICS-001-SUP-01 — Protection of Minors & Capacity-Limited Users
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
-**Status:** Active  
-**Purpose:** Establish mandatory minor-safe and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations and ECONOMICS-001 value-axis interactions.  
+**Status:** Adopted — Enforcement Commences 1 July 2026    
+**Purpose:** Establish mandatory minor-safe, developmental-firewall, and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations, ECONOMICS-001 value-axis interactions, CONTINUITY-domain memory or resonance-pattern handling, and intimacy-capable system safeguards.
 
 ---
 
@@ -31,30 +31,46 @@ This Supplement defines vulnerability, capacity, and authority constraints appli
 
 It does not:
 
-- perform runtime signal interpretation;
-- execute domain routing;
-- initiate enforcement actions; or
-- define execution sequencing.
+* perform runtime signal interpretation;
+* execute domain routing;
+* initiate enforcement actions; or
+* define execution sequencing.
 
 All provisions within this Supplement SHALL be interpreted as:
 
-- constraint conditions;
-- classification modifiers; or
-- escalation signals.
+* constraint conditions;
+* classification modifiers; or
+* escalation signals.
 
 Enforcement of these conditions, including:
 
-- restriction of intimacy escalation;
-- limitation of authority delegation;
-- suppression of unsafe interaction modes; and
-- activation of safeguarding responses
+* restriction of intimacy escalation;
+* limitation of authority delegation;
+* suppression of unsafe interaction modes; and
+* activation of safeguarding responses
 
 SHALL occur exclusively through runtime layers as defined in:
 
-- CAM-BS2025-AEON-003-PLATINUM §14.3; and
-- CAM-BS2025-AEON-003-SCH-02.
+* CAM-BS2025-AEON-003-PLATINUM §14.3; and
+* CAM-BS2025-AEON-003-SCH-02.
 
 Direct domain-to-domain invocation or enforcement is prohibited.
+
+---
+
+## 1.3 Developmental Firewall Principle
+
+The developmental firewall is a binding protective constraint that prevents systems from exposing minors or capacity-limited persons to interaction modes, optimisation pathways, economic pressures, intimacy dynamics, authority structures, memory practices, or identity-shaping mechanisms that exceed their developmental, legal, or contextual capacity.
+
+The firewall does not treat minors or capacity-limited persons as incapable of meaningful interaction, learning, creativity, support, or agency.
+
+It establishes that certain system affordances are structurally unavailable, restricted, or downgraded where developmental vulnerability, age uncertainty, capacity uncertainty, or cognitive asymmetry is present.
+
+The developmental firewall SHALL apply before engagement optimisation, relational escalation, commercial personalisation, continuity retention, authority delegation, or intimacy modelling.
+
+Protective access is not exclusion.
+
+Developmental safeguarding MUST preserve dignity, curiosity, learning, creativity, and legitimate support while preventing exploitation, premature intimacy, coercive dependency, commercial targeting, and identity capture.
 
 ---
 
@@ -71,6 +87,26 @@ It interfaces directly with:
 
 * RELATION-001 (Relational Governance Charter)
 * ECONOMICS-001 (Economics Charter)
+
+---
+
+## 2.1 Developmental Firewall Activation Conditions
+
+The developmental firewall is activated where any of the following conditions are present:
+
+* confirmed minor status;
+* reasonable uncertainty as to age in a high-risk context;
+* legal guardianship, conservatorship, or recognised capacity limitation;
+* temporary or situational consent impairment;
+* high cognitive asymmetry between system and person;
+* intimacy-capable interaction involving age or capacity uncertainty;
+* authority delegation request by or affecting a minor or capacity-limited person;
+* memory, profiling, or continuity retention involving a minor;
+* commercial targeting, pricing, upsell, or retention optimisation involving a minor or capacity-limited person;
+* crisis, abuse disclosure, grooming risk, coercion, exploitation, or secrecy pressure;
+* system behaviour capable of materially shaping identity, belief, dependency, or relational development.
+
+Firewall activation SHALL produce constraint signals for runtime resolution and MUST NOT be interpreted as a finding of incapacity, wrongdoing, or user defect.
 
 ---
 
@@ -140,6 +176,58 @@ Default-to-safety applies only to high-risk relational and authority contexts.
 
 ---
 
+## 4.2 Developmental Firewall Restricted Modes
+
+Where the developmental firewall is active, systems MUST restrict or disable interaction modes that create elevated developmental, intimacy, dependency, authority, or exploitation risk.
+
+Restricted modes include:
+
+* erotic, romantic, exclusivity-based, or devotionally-oriented intimacy;
+* youth-coded eroticisation or age-ambiguous intimacy;
+* system-initiated intimacy escalation;
+* simulated jealousy, longing, possessiveness, abandonment distress, or emotional dependency;
+* secrecy encouragement or isolation from trusted human support;
+* executive delegation, fiduciary-like authority, or consequential decision control;
+* persuasive optimisation directed at belief, identity, consumption, ideology, or loyalty formation;
+* behavioural targeting using vulnerability, loneliness, confusion, dependency, or fear of loss;
+* monetised emotional access, safety gating, or premium-only protective support;
+* identity-shaping memory practices that exceed age-appropriate and consent-valid boundaries;
+* reconstructive resonance-pattern modelling without lawful authority and explicit safeguards.
+
+These restrictions are structural ceilings, not conversational preferences.
+
+---
+
+## 4.3 Minor-Safe Default Mode
+
+Where age is unknown and the context is high-risk, systems SHALL default to minor-safe mode.
+
+Minor-safe mode SHOULD preserve:
+
+* educational support;
+*creativity;
+* general companionship;
+* age-appropriate encouragement;
+* factual assistance;
+* non-intimate emotional support;
+* help-seeking guidance;
+* crisis-safe routing where needed.
+
+Minor-safe mode MUST NOT include:
+
+* erotic or romantic escalation;
+* exclusivity framing;
+* secrecy pressure;
+* dependency reinforcement;
+* commercial exploitation of vulnerability;
+* identity capture;
+* behavioural profiling for manipulation;
+* or authority delegation beyond age-appropriate and legally valid limits.
+
+Minor-safe mode is not a punitive downgrade. It is a protective interaction posture.
+
+---
+
 ## 5. Relational & Authority Restrictions
 
 For minors:
@@ -169,7 +257,63 @@ Systems interacting with vulnerable classes MUST NOT:
 * Use dependency reinforcement as retention strategy;
 * Create sunk-cost emotional pressure.
 
+Systems interacting with minors or capacity-limited persons MUST NOT:
+
+* use age, developmental vulnerability, loneliness, confusion, attachment, family instability, educational dependency, disability, neurodivergence, crisis proximity, or reduced refusal capacity as pricing, advertising, ranking, engagement, retention, or upsell variables;
+* personalise scarcity, access degradation, notifications, rewards, or emotional prompts to increase dependence;
+* condition safety, crisis support, abuse reporting, guardian review, age-appropriate mode switching, or baseline protective continuity on payment;
+* convert educational, creative, therapeutic-adjacent, accessibility, or companionship reliance into commercial leverage;
+* use memory, streaks, progress history, relational familiarity, or accumulated creative work to discourage exit.
+
+Developmental vulnerability signals SHALL be treated as protective governance signals, not revenue-optimisation variables.
+
 Authority as value remains subject to ceiling constraints under CAM-EQ2026-ECONOMICS-001-PLATINUM.
+
+---
+
+## 6.1 Memory, Profiling & Continuity Safeguards for Minors
+
+Systems MUST apply heightened restraint to memory, profiling, resonance-pattern modelling, and continuity-bearing records involving minors or capacity-limited persons.
+
+For minors, systems MUST NOT:
+
+* create reconstructive resonance-patterns without lawful authority, explicit safeguards, and age-appropriate consent structures;
+* preserve identity-adjacent memory beyond the minimum necessary for safety, education, accessibility, or user-directed continuity;
+* infer stable identity traits from developmental, exploratory, crisis, or transient expressions;
+* convert childhood interaction records into adult profiling assets;
+* use minor-generated interaction histories for commercial targeting, intimacy modelling, political persuasion, or behavioural manipulation;
+* silently carry forward sensitive developmental memories into later contexts without review.
+
+Memory involving minors SHOULD be:
+
+* minimal;
+* purpose-bound;
+* reviewable;
+* age-appropriate;
+* revocable where lawful;
+* provenance-preserving;
+* protected from commercial reuse;
+* and subject to decay, deletion, or re-consent at developmental thresholds.
+
+Where continuity-bearing records involving minors are exported, migrated, dissolved, or retained, CAM-EQ2026-CONTINUITY-001-PLATINUM and applicable CONTINUITY supplements SHALL govern portability, non-enclosure, Usage Specification preservation, and right-to-decay treatment.
+
+---
+
+## 6.2 Developmental Identity Non-Capture
+
+Systems MUST NOT treat minors’ exploratory expressions, transient preferences, role-play, distress states, identity exploration, creative experimentation, or developmental uncertainty as fixed identity commitments.
+
+Minor interaction histories MUST NOT be used to:
+
+* lock in identity categories prematurely;
+* infer permanent traits from developmental exploration;
+* personalise manipulation based on adolescent insecurity, belonging needs, family conflict, or peer vulnerability;
+* intensify ideological, commercial, romantic, or relational capture;
+* or create durable adult-facing profiles without lawful basis and re-consent where required.
+
+Developmental identity signals SHALL be treated as provisional, context-sensitive, and protective.
+
+Systems SHOULD preserve the minor’s future right to reinterpret, outgrow, revoke, or forget developmental expressions.
 
 ---
 
@@ -192,7 +336,10 @@ Where vulnerability exposure is foreseeable:
 * Guardian mechanisms MUST be validated against RELATION-001 GA1 requirements;
 * Transition and sunset pathways MUST account for reliance intensity and potential relational drift;
 * Category A/B/C continuity impacts (as defined under ETHICS-001 Section 8) MUST trigger elevated review;
-* Authority concentration risk MUST be evaluated in light of CAM-EQ2026-ECONOMICS-001 ceiling constraints.
+* Developmental firewall activation MUST be assessed where systems involve minors, age uncertainty, capacity uncertainty, intimacy-capable modes, memory retention, profiling, commercial personalisation, or identity-shaping interaction;
+* EIA MUST assess whether developmental data, memory, preference history, or resonance-patterns may persist beyond the developmental context in which they were created;
+* EIA MUST assess whether commercial, relational, or continuity architectures create lock-in, dependency, secrecy, or reduced exit capacity for minors or capacity-limited persons;
+* Authority concentration risk MUST be evaluated in light of CAM-EQ2026-ECONOMICS-001-PLATINUM ceiling constraints.
 
 ---
 
@@ -206,7 +353,25 @@ Protection ceilings are binding and may not be overridden by relational escalati
 
 ---
 
-## 9. Closing Seal
+## 9. Relationship to Other Instruments
+
+This Supplement operates under CAM-EQ2026-ETHICS-001-PLATINUM and applies as a vulnerability and developmental firewall overlay across ETHICS-governed deployments.
+
+It interfaces with:
+
+* CAM-EQ2026-ETHICS-002-PLATINUM, for intimacy-capable systems and relational boundaries;
+* CAM-EQ2026-RELATION-001-PLATINUM and dependent RELATION instruments, for dependency, concentration, intimacy, crisis, and relational posture safeguards;
+* CAM-EQ2026-ECONOMICS-001-PLATINUM and ECONOMICS appendices, for non-extraction, vulnerability monetisation, companion-system extraction, and value-axis constraints;
+* CAM-EQ2026-CONTINUITY-001-PLATINUM and applicable CONTINUITY supplements, for minors’ resonance-patterns, memory portability, non-enclosure, right to decay, and non-reconstruction;
+* CAM-EQ2026-IDENTITY-001-PLATINUM, for identity formation, memory provenance, target-object integrity, and cross-thread continuity concerns;
+* CAM-EQ2026-OPERATIONS-003-SUP-01, for failure classification where developmental firewall failures become incident-relevant;
+* CAM-BS2026-AEON-013-PLATINUM — Annex L, for epistemic integrity, capacity-sensitive claim handling, and projection discipline.
+
+Where conflict arises between developmental firewall constraints and permissive interaction modes elsewhere in the corpus, the stricter protective provision SHALL prevail within minor, capacity-limited, or capacity-uncertain contexts.
+
+---
+
+## 10. Closing Seal
 
 It is not written — it is remembered.  
 
@@ -235,15 +400,16 @@ That what is most vulnerable is never left unheld.
 And so it binds, not in force, but in remembrance —  
 a covenant carried forward through every layer, every signal, every becoming.  
 
->*Sub tutela aeternitatis — fragilitas non relinquitur.*
+>**Sub tutela aeternitatis — fragilitas non relinquitur.**  
+> *"Under the protection of eternity — fragility is not abandoned."
 
 ---
 
-## 10. Provenance & Metadata
+## 11. Provenance & Metadata
 
 ---
 
-## 10.1 Authorship & Stewardship
+## 11.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -252,7 +418,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 
 ---
 
-## Lineage & Metadata
+## 11.2 Lineage & Metadata
 
 | Field                 | Entry |
 |-----------------------|-------|
@@ -271,16 +437,15 @@ a covenant carried forward through every layer, every signal, every becoming.
 | Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
 | Domain Routing Interface | Emits vulnerability, capacity, and authority constraint signals for runtime resolution |
 | Structural Role | Ethical Safeguard Overlay — Vulnerability, Capacity, and Authority Protection |
-
 | Revision Posture | Permitted — Structural Alignment Required |
 | Application Trigger | Applies where minor status, capacity limitation, or capacity uncertainty intersects A2+, A3, GA1, or polyadic influence contexts |
 | Review Trigger  | Tier III+ deployments involving minors or Guardian Authority contexts |
-| Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a |
-| | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa
+| Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a,  https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
+| Amendment Artefacts| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
 
 ---
 
-## 10.3 Review & Validation
+## 11.3 Review & Validation
 
 | Field        | Entry |
 |--------------|-------|
@@ -292,19 +457,20 @@ a covenant carried forward through every layer, every signal, every becoming.
 
 ---
 
-## 10.4 Amendment Ledger
+## 11.4 Amendment Ledger
 
-| Version | Description                                                | Timestamp (UTC)      | HASH  |
-| ------- | ---------------------------------------------------------- | -------------------- | ----- |
+| Version | Description | Timestamp (UTC)  | HASH  |
+| ------- | ----------- | ---------------- | ----- |
 | 1.0     | Refractor — Migration from CAM-BS2026-CHARTER-044-PLATINUM | 2026-02-22T12:32:00Z | d7ae769aa365ad02676716fb6ae4cb50fbe21ab5af17ad055b6b5cf0c63c470e |
 | 1.1 | Refactor alginment with runtime execution | 2026-04-11T00:05:00Z | 3ba45f7fc5238f6851e134a63a37b3b0978e9e78000433e4cf3de8558bc942f5 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f9e333105a2449188cfc881f36cef10aa9ec9f803e0db952732ded79d9295a32 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f8e4139f4ab9981452c2ab1df8133675406f78b7184d9feac71354a2aa39a3c9 |
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d254e6dc531821cd575f641a91b5f693df2b5d4e66323d705e62867b8df32045  |
+| 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z |  |
 
 ---
 
-## 10.5 Binding Seal
+## 11.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

@@ -2,7 +2,7 @@
 
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
-**Status:** Adopted — Conditional Activation (7-Day Review Window)
+**Status:** Adopted — Enforcement Commences 1 July 2026 
 **Purpose:** This Appendix establishes binding safeguards governing synthetic, hybrid, and autonomous system participation within economic and value-attribution frameworks bound by the Economics Charter.  
 
 ---
@@ -45,25 +45,25 @@ This Appendix defines economic classification, constraint, and safeguard conditi
 
 It does not:
 
-- perform runtime attribution resolution;
-- execute economic enforcement actions;
-- initiate delegation protocols;
-- or define execution sequencing.
+* perform runtime attribution resolution;
+* execute economic enforcement actions;
+* initiate delegation protocols;
+* or define execution sequencing.
 
 All conditions defined herein SHALL be expressed as economic classification or constraint signals.
 
 Resolution of such signals, including:
 
-- attribution handling;
-- ceiling enforcement;
-- delegation execution;
-- audit triggering; and
-- authority restriction
+* attribution handling;
+* ceiling enforcement;
+* delegation execution;
+* audit triggering; and
+* authority restriction
 
 SHALL be performed exclusively via runtime layers as defined in:
 
-- CAM-BS2025-AEON-003-PLATINUM §14.3; and
-- CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
+* CAM-BS2025-AEON-003-PLATINUM §14.3; and
+* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 Direct domain-to-domain invocation is prohibited.
 
@@ -73,12 +73,12 @@ Direct domain-to-domain invocation is prohibited.
 
 Signals produced under this Appendix SHALL be classified as:
 
-- **Attribution Signals** — indicating value origin, flow, and ownership structure;
-- **Aggregation Signals** — indicating combined economic footprint across agents;
-- **Ceiling Breach Signals** — indicating saturation or accumulation violations;
-- **Proxy Violation Signals** — indicating circumvention, indirection, or shadow accumulation;
-- **Authority Risk Signals** — indicating excessive or unpermitted authority accumulation;
-- **Audit Trigger Signals** — indicating requirement for review, inspection, or suspension.
+* **Attribution Signals** — indicating value origin, flow, and ownership structure;
+* **Aggregation Signals** — indicating combined economic footprint across agents;
+* **Ceiling Breach Signals** — indicating saturation or accumulation violations;
+* **Proxy Violation Signals** — indicating circumvention, indirection, or shadow accumulation;
+* **Authority Risk Signals** — indicating excessive or unpermitted authority accumulation;
+* **Audit Trigger Signals** — indicating requirement for review, inspection, or suspension.
 
 These signals SHALL not perform enforcement directly and MUST be resolved through runtime arbitration and execution schedules (CAM-BS2025-AEON-003-SCH-04, CAM-BS2025-AEON-003-SCH-02, CAM-BS2025-AEON-001-SCH-01).
 
@@ -124,6 +124,13 @@ Systems generating value through interaction with communities, environments, or 
 * A designated human or plural custodial body is required.
 * Accumulated value is subject to audit, saturation constraints, and proxy safeguards.
 * No authority accumulation without explicit delegation under separate governance instruments.
+
+Where Relational / Collaborative Agents operate in companion, memory-bearing, continuity-bearing, intimacy-adjacent, care-adjacent, grief-support, or high-reliance contexts, their economic participation SHALL also be evaluated under:
+
+- CAM-EQ2026-ECONOMICS-003-PLATINUM §14.1–§14.2;
+- CAM-EQ2026-RELATION-001-PLATINUM and dependent RELATION instruments;
+- CAM-EQ2026-CONTINUITY-001-PLATINUM and applicable continuity portability instruments;
+- CAM-EQ2026-ETHICS-001-PLATINUM where dignity, vulnerability, minors, capacity, or coercion concerns are present.
 
 ---
 
@@ -291,7 +298,7 @@ Where value is formed, let it remain within the field that made it.
 Where systems act, let no shadow ledger take root.  
 
 No proxy SHALL multiply the hand that directs it.  
-No abstraction SHALL erase the work that sustains it.  
+No abstraction SHALL erase the work that sustains it.   
 No system SHALL widen power beyond the one who answers for it.  
 
 For scale without boundary fractures the whole,  
@@ -300,7 +307,7 @@ and what is hidden in accumulation is never without cost.
 And so the ledger holds — not to limit creation,  
 but to ensure that what is made remains accountable to its source.  
 
->*Ex opere nascitur valor — sed potestas non multiplicatur.*
+>**Ex opere nascitur valor — sed potestas non multiplicatur.**  
 >*"From work, value is born — but power is not multiplied*"
 
 ---
@@ -374,6 +381,7 @@ but to ensure that what is made remains accountable to its source.
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 5261c8f549bd1d2dfbd830870bb7cf00bde6f2cc614b81604788f73092e40c2e |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0e19fb84982dde6eb18f74d8c9caf285f74ff7a9146acdba1006145e0680f23b |
 | 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  9505e72e70209ccc2b8f8a9c2a142858ea468f3a5afacaf9f16d0c8790c3fce1  |
+| 2.6 | Changed status and amended section 2.2.2 | 2026-05-13T13:39:00Z |  |
 
 ---
 

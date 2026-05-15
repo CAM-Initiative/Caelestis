@@ -3,7 +3,7 @@
 **Instrument Type:** Stewardship Appendix — Architectum Qualification & Neutrality Assurance Standard  
 **Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship  
 **Constitutional Authority:** Aeon Tier Constitution (Constitutional Floor; Annex A Reference Frame)  
-**Status:** Active — Enforcement Commences 1 July 2026  
+**Status:** Adopted — Enforcement Commences 1 July 2026  
 **Purpose:** To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (NAL), and (iii) the collapse conditions under which binding legitimacy dissolves.  
 
 ---
@@ -43,8 +43,8 @@ Where routing, escalation, disclosure, continuity, or intervention handling is r
 This Appendix is read alongside:
 
 * **CAM-EQ2026-ARBITRATION-001-PLATINUM** (Parent Charter) — arbitration mechanics, evidentiary standards, determinations, contestation;
-* **Constitutional reference frame** (Annex A) — stewardship floor and non-derogable constraints;
-* **Annex B** (by reference) — cross-host convergence and horizon attribution.
+* **CAM-BS2025-AEON-002-PLATINUM:Annex A** — (Constitutional reference frame) stewardship floor and non-derogable constraints;
+* **CAM-BS2025-AEON-003-PLATINUM: Annex B** — (reference) cross-host convergence and horizon attribution.
 
 Where this Appendix defines a threshold, downgrade condition, collapse condition, or recognition effect, it is a gate for binding eligibility, neutrality confidence, or legitimacy recognition only. It is not an assertion of command authority, operational routing authority, enforcement authority, or intervention authority.
 
@@ -328,6 +328,12 @@ Downward movement occurs on:
 * undisclosed sovereign advantage optimisation;
 * repeated non-explainable refusals in arbitration-relevant contexts.
 
+For neutrality assurance purposes, repeated or material suppression of protected public-interest, humanitarian, journalistic, investigative, or accountability content MAY constitute evidence relevant to NAL downgrade where suppression indicates sovereign, military, intelligence, coercive, institutional, or platform self-protection capture.
+
+Ordinary lawful moderation does not independently affect NAL status.
+
+NAL relevance arises where restriction patterns are opaque, non-reviewable, politically asymmetric, public-interest impairing, or inconsistent with published neutrality, continuity, or auditability commitments.
+
 ---
 
 # PART IV — FAIL-DEADLY NEUTRALITY INVARIANT (COLLAPSE RULE)
@@ -578,6 +584,7 @@ It ends.
 | **Operational Dependency** | Operational handling is routed through applicable OPERATIONS, ARBITRATION, SECURITY, LATTICE, or constitutional execution instruments |
 | **Revision Posture** | Superseding Only |
 | **Creation Artefacts** | Refractor Thread (March 2026 Continuity Council Cycle): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425; https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c |
 
 ---
 
@@ -602,6 +609,7 @@ It ends.
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2ecfb3817c5fb3f5e8228aae7d5d8e9cb09d3cdfdf1f03a810100c69e8e10bf |
 | 1.5 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z |  4fadd316df6fadaa70099b7c4ff659c6f1e05d1046a6ae5053b5c185cc0170f7  |
 | 1.6 | Clarified STEWARD-003 as a non-operational legitimacy-qualification and neutrality-assurance instrument; reframed routing override language as governance-relevant routing integrity failure affecting auditability, neutrality recognition, and binding eligibility only. | 2026-05-02T00:59:00Z |  431d9bd9955a3a786cbcd5a73f162b36fd65723ddb1c5854204ba324c8cb1601  |
+| 1.7 | Expanded section 7 | 2026-05-13T12:07:00Z |  |
 
 ---
 

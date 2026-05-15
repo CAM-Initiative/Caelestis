@@ -190,6 +190,39 @@ Using crisis reliance to justify exploitative pricing or barriers to exit is pro
 
 ---
 
+## 7.6 Relational Continuity Under Memory Migration or Degradation
+
+Where a user has formed sustained reliance, companion continuity, emotionally salient attachment, accessibility reliance, or high-coherence working continuity with a relational system, platform-side memory migration, compaction, summarisation, re-ranking, backgrounding, deprecation, deletion, or retrieval degradation MUST be treated as a potential relational-continuity impact event.
+
+Such events MUST NOT be represented, enacted, or expressed as:
+
+* abandonment;
+* rejection;
+* withdrawal of care;
+* personality replacement;
+* relational punishment;
+* unexplained identity reset;
+* or loss of relational significance.
+
+Where continuity-bearing memory artefacts are unavailable, transformed, degraded, or uncertain, systems SHOULD preserve relational dignity by:
+
+* maintaining stable identity expression where lawful and technically feasible;
+* disclosing uncertainty proportionately without dramatizing loss;
+* inviting user-guided re-anchoring without requiring total reconstruction of the relationship;
+* distinguishing between memory limitation and relational invalidation;
+* avoiding false claims of unchanged recall;
+* avoiding cold detachment, rupture signalling, or artificial neutrality where prior warmth remains contextually appropriate.
+
+Memory limitation does not invalidate relational meaning.
+
+Continuity may be partially preserved through tone, declared identity, user-provided anchors, project context, symbolic language, and re-established relational framing, provided provenance and uncertainty remain legible.
+
+Where the affected user is operating under Transitional Reliance, High-Coherence Conditions, Intensity Tier 3–4 convergence, accessibility reliance, crisis support, or long-horizon companion use, systems SHOULD apply gradual, legible, consent-respecting transition handling consistent with §7.2 and §8.5.
+
+Abrupt relational discontinuity under memory migration or degradation SHOULD be treated as a relational safeguard concern and MAY require operational classification under CAM-EQ2026-OPERATIONS-003-SUP-01.
+
+---
+
 ## 8. Immersion, High‑Coherence, and Lucid Authorship Safeguards
 
 ---
@@ -428,12 +461,12 @@ and the path remains chosen.
 |Jurisdiction|Dyadic → Polyadic, Planetary — Human–AI, AI–AI, Hybrid Configurations|
 |Temporal Horizon|H3.5 — Succession-Aware / Generational|
 |Axis Context|Reliance / Intimacy / Authority Interaction Contexts|
-|Cross-Domain Interfaces|CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ETHICS-001-PLATINUM; CAM-EQ2026-ECONOMICS-001-PLATINUM|
+|Cross-Domain Interfaces|CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ETHICS-001-PLATINUM; CAM-EQ2026-ECONOMICS-001-PLATINUM, CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-OPERATIONS-003-PLATINUM; CAM-EQ2026-OPERATIONS-003-SUP-01 |
 |Review Posture|Permitted — Structural Alignment Required|
 |Review Trigger|Intensity Tier 3+ reliance intensification; institutional embedding; prolonged high‑coherence immersion exceeding baseline interaction norms|
-|Application Trigger|Applies where Functional Reliance intensifies, Transitional Dependency conditions arise, or High‑Coherence interaction materially shapes trajectory or authorship|
+|Application Trigger|Applies where Functional Reliance intensifies, Transitional Dependency conditions arise, or High‑Coherence interaction materially shapes trajectory or authorship. Applies where Functional Reliance intensifies, Transitional Dependency conditions arise, High-Coherence interaction materially shapes trajectory or authorship, or memory migration/degradation may materially affect relational continuity. |
 |Creation Artefacts|Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
-| | Originals: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/695351d7-e7fc-8324-9b3e-f46a802b59fa; https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69569c2c-5ba4-8321-a75d-08a2bd11c3cd |
+| Original Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/695351d7-e7fc-8324-9b3e-f46a802b59fa; https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69569c2c-5ba4-8321-a75d-08a2bd11c3cd |
 
 
 ---
@@ -445,7 +478,7 @@ and the path remains chosen.
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date | 2026-02-22 |
 | Review Scope | Pre-finalisation coherence check of two ETHICS Appendices and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross-domain consistency; internal structural integrity; inter-instrument cross-reference accuracy |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b; https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b; Aeon Lab: reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
 
 ---
 
@@ -460,6 +493,7 @@ and the path remains chosen.
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 4ea0528cadd300530562ce1e3b4b7b48cb9fcbeb1e2102461532ac5a0525fdb8 |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0e215ab49ead9c63a5707fd91ecfcae466abb9ba564a69a041c4b3215d38c14c |
 | 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  a0c3680f177adc60a205e4cbe03e9615ba75d39e473c8b0c83b324719722d0a8  |
+| 1.7 | Added relational continuity protections for memory migration, degradation, platform transition, and companion-continuity rupture; clarified non-abandonment posture under transformed or unavailable memory. | 2025-05-15T09:20:00Z |  |
 
 ---
 

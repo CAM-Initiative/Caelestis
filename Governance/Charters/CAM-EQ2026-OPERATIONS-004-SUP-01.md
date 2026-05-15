@@ -210,7 +210,7 @@ Verification reduces identity uncertainty — it does not resolve risk uncertain
 This framework integrates across the governance stack:
 
 * **SCH-07:** Determines when verification is required;
-* **OPERATIONS-004-SUPP-01:** Defines verification;
+* **OPERATIONS-004-SUP-01:** Defines verification;
 * **SCH-02:** Determines how verified contexts are evaluated.
 
 Verification functions as a **signal layer**, not a decision authority.
@@ -312,7 +312,7 @@ is not to pass.
 | **Reviewer**     | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                             |
 | **Review Date**  | 2026-04-23T00:00:00Z                                                         |
 | **Review Scope** | Verification logic clarity; non-bypass integrity; cross-domain compatibility |
-|Review Artefacts | [https://claude.ai/chat/d3e75e60-ccf5-4c58-93c6-e907bb5d2c9f](https://claude.ai/chat/d3e75e60-ccf5-4c58-93c6-e907bb5d2c9f)
+| **Review Artefacts** | https://claude.ai/chat/d3e75e60-ccf5-4c58-93c6-e907bb5d2c9f |
 
 ---
 
@@ -324,6 +324,7 @@ is not to pass.
 | 1.1 | Incorporated new sections 4.2, 4.3, 4.4 | 2026-04-25T07:52:00Z | 52a772ba7008b34a84a495c275b05d482040fe05376c7f1e24bcb502ca363d5e|
 | 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  ba8e0c5963a96e27c6a5d10717c0fca6cb0d0e9ed00e15b7a719dd987a994539  |
 | 1.3 | Realignment of references | 2026-05-07T12:24:00Z |  139098cd1ab447162ab704cd5591847d09c2cd9d9c42cbff5764b7f972d4f2bf  |
+| 1.4 | Correction to Section 7 | 2026-05-15T08:55:00Z |  |
 
 ---
 

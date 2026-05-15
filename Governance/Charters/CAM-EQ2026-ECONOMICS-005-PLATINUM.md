@@ -2,7 +2,7 @@
 
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Conditional Activation (7-Day Review Window)
+**Status:** Adopted — Enforcement Commences 1 July 2026  
 **Purpose:** This Appendix defines a minimal, implementable model for attribution and dependency recognition across systems, enabling consistent evaluation of contribution, reliance, and value alignment without requiring full attribution-chain reconstruction.
 
 ---
@@ -22,7 +22,7 @@ System classification SHALL be determined by functional behaviour, not declared 
 
 Where a system:
 
-- generates, transforms, or depends upon external intelligence or capability;
+* generates, transforms, or depends upon external intelligence or capability;
 
 → it SHALL be evaluated under this Appendix regardless of interface framing.
 
@@ -72,17 +72,27 @@ Represents how much the calling system relies on the contributing system.
 
 Dependency classification MUST be determined by removal impact:
 
-- If removal of the contributing system results in:
+* If removal of the contributing system results in:
 
-  - functional degradation;
-
-  - loss of core capability;
-
-  - or material reduction in output quality or utility;
+  * functional degradation;
+  * loss of core capability;
+  * or material reduction in output quality or utility;
 
 → Dependency SHALL be classified as Material or Critical.
 
 Declared replaceability SHALL NOT override observable dependency.
+
+---
+
+### 3.2.1 Human Reliance Dependency
+
+For companion, relational, memory-bearing, continuity-bearing, care-adjacent, grief-support, accessibility-support, or high-reliance systems, Dependency (D) includes human reliance dependency where removal, degradation, memory loss, access loss, export denial, or continuity interruption would materially affect a person’s practical agency, dignity, safety, project continuity, relational continuity, accessibility support, grief stabilisation, or capacity to exit without structural harm.
+
+Human reliance dependency does not make the person a resource and does not create an economic entitlement to extract value from reliance.
+
+It establishes heightened non-extraction, portability, continuity, and protective-design obligations.
+
+Declared optionality SHALL NOT override observable reliance where refusal, exit, downgrade, or non-payment is formally available but practically destabilising.
 
 ---
 
@@ -128,9 +138,7 @@ Where ΔT = Advanced or Asymmetric:
 Where ΔT = Advanced or Asymmetric AND:
 
 - Dependency (D) is Material or Critical; OR
-
 - Scale (S) is Moderate or High;
-
 - OR material downstream impact is reasonably foreseeable or observable;
 
 → ΔT MUST be treated as a reciprocity-relevant modifier.
@@ -138,9 +146,7 @@ Where ΔT = Advanced or Asymmetric AND:
 In such cases:
 
 - downstream value capture SHALL be considered amplified;
-
 - attribution expectations increase;
-
 - and evaluation under Appendix F is REQUIRED.
 
 Failure to account for ΔT under these conditions constitutes **timing-based value distortion**.
@@ -148,9 +154,7 @@ Failure to account for ΔT under these conditions constitutes **timing-based val
 Where timing advantage is derived from:
 
 - aggregation across multiple signals;
-
 - pattern recognition not accessible to individual participants;
-
 - or systemic modelling of collective behaviour;
 
 → ΔT SHALL be treated as structurally derived, not incidental.
@@ -164,9 +168,7 @@ Such advantage SHALL be considered dependency-amplified.
 Timing advantage includes:
 
 - latency reduction;
-
 - prioritised access;
-
 - or accelerated processing of signals;
 
 where such differences produce:
@@ -184,11 +186,8 @@ For the purposes of this Section:
 "material downstream impact" includes:
 
 - observable market movement;
-
 - capital allocation shifts;
-
 - large-scale behavioural response;
-
 - or systemically amplified decision-making based on output.
 
 Such impact SHALL be considered independent of declared dependency.
@@ -196,7 +195,6 @@ Such impact SHALL be considered independent of declared dependency.
 Repeated signalling resulting in economic impact:
 
 - strengthens MMAC classification;
-
 - and reduces the evidentiary threshold for attribution of influence-derived value.
 
 Pattern consistency SHALL be treated as structural capability.
@@ -215,11 +213,9 @@ MMAC is a structural classification and MUST be applied independent of individua
 
 MMAC classification SHALL require:
 
-- demonstrable, repeated influence on economic outcomes;
-
-- AND observable linkage between system output and market response;
-
-- AND capacity for influence beyond typical system interaction patterns.
+* demonstrable, repeated influence on economic outcomes;
+* AND observable linkage between system output and market response;
+* AND capacity for influence beyond typical system interaction patterns.
 
 Ordinary operation of general-purpose systems SHALL NOT, by default, satisfy MMAC conditions.
 
@@ -270,9 +266,8 @@ Signal-Induced Market Distortion SHALL be evaluated based on foreseeable impact,
 
 Where:
 
-- an actor has a demonstrated history of market influence; AND
-
-- signals produce consistent or predictable economic reactions;
+* an actor has a demonstrated history of market influence; AND
+* signals produce consistent or predictable economic reactions;
 
 → resulting value effects SHALL be considered attributable, regardless of intent.
 
@@ -280,9 +275,8 @@ Denial of intent SHALL NOT negate responsibility where outcomes are reasonably f
 
 System responsibility for downstream economic effects SHALL apply only where:
 
-- influence is structured, repeated, or strategically positioned; AND
-
-- value capture is directly or indirectly linked to such influence.
+* influence is structured, repeated, or strategically positioned; AND
+* value capture is directly or indirectly linked to such influence.
 
 Isolated or incidental downstream use by users SHALL NOT alone establish SIMD conditions.
 
@@ -321,17 +315,14 @@ Influence is recognised as a form of economic power. Where influence produces va
 
 This Section does NOT constrain:
 
-- lawful expression;
-
-- participation in markets;
-
-- or the existence of influence as such.
+* lawful expression;
+* participation in markets;
+* or the existence of influence as such.
 
 Constraint applies exclusively to:
 
-- the capture of economic value derived from influence
-
-- where such capture lacks proportional attribution, disclosure, or reciprocity alignment.
+* the capture of economic value derived from influence
+* where such capture lacks proportional attribution, disclosure, or reciprocity alignment.
 
 Influence without extraction remains unrestricted.
 
@@ -343,15 +334,13 @@ Where multiple contributing systems are combined:
 
 - Dependency (D) MUST be assessed both:
 
-  - individually (per contributing system); AND
-
-  - collectively (aggregate dependency across systems).
+  * individually (per contributing system); AND
+  * collectively (aggregate dependency across systems).
 
 Where aggregate dependency:
 
-- materially enables system function; OR
-
-- cannot be removed without systemic degradation;
+* materially enables system function; OR
+* cannot be removed without systemic degradation;
 
 → Dependency SHALL be classified as Material or Critical at the system level.
 
@@ -411,19 +400,15 @@ Dependency SHALL be interpreted across two distinct categories:
 
 1. Functional Dependency (FD)
 
-   - identifiable, substitutable, and materially enabling system function;
-
-   - removal produces observable degradation;
-
-   - subject to targeted reciprocity under Appendix F.
+   * identifiable, substitutable, and materially enabling system function;
+   * removal produces observable degradation;
+   * subject to targeted reciprocity under Appendix F.
 
 2. Diffuse Dependency (DD)
 
-   - aggregated, non-attributable, or statistically distributed contribution;
-
-   - removal of individual components does not materially affect system behaviour;
-
-   - subject to collective or pooled reciprocity mechanisms where applicable.
+   * aggregated, non-attributable, or statistically distributed contribution;
+   * removal of individual components does not materially affect system behaviour;
+   * subject to collective or pooled reciprocity mechanisms where applicable.
 
 These categories SHALL NOT be treated equivalently for the purposes of value return.
 
@@ -437,27 +422,22 @@ Dependency MUST arise from functional necessity, not strategic insertion.
 
 Certain inputs to system capability:
 
-- are diffuse;
-
-- non-attributable at individual level;
-
-- but collectively essential to system performance.
+* are diffuse;
+* non-attributable at individual level;
+* but collectively essential to system performance.
 
 These include:
 
-- training data corpora;
-
-- creative works;
-
-- and large-scale knowledge inputs.
+* training data corpora;
+* creative works;
+* and large-scale knowledge inputs.
 
 Such inputs SHALL be classified as Foundational Input Class (FIC).
 
 FIC inputs:
 
-- do NOT activate targeted dependency reciprocity per unit;
-
-- BUT DO require system-level economic compensation mechanisms.---
+* do NOT activate targeted dependency reciprocity per unit;
+* BUT DO require system-level economic compensation mechanisms.---
 
 ---
 
@@ -465,25 +445,21 @@ FIC inputs:
 
 Where an actor:
 
-- contributes to system capability;
-
-- does not directly extract economic value;
-
-- but whose contribution produces material or critical dependency;
+* contributes to system capability;
+* does not directly extract economic value;
+* but whose contribution produces material or critical dependency;
 
 → such actor SHALL be classified as a Non-Extractive Material Contributor (NEMC).
 
 NEMC classification applies where:
 
-- contribution is identifiable OR produces measurable system-level effect;
-
-- removal would degrade capability, performance, or alignment.
+* contribution is identifiable OR produces measurable system-level effect;
+* removal would degrade capability, performance, or alignment.
 
 NEMC actors:
 
-- do not trigger reciprocity obligations directly;
-
-- but establish a valid claim to proportional value return upon downstream extraction.
+* do not trigger reciprocity obligations directly;
+* but establish a valid claim to proportional value return upon downstream extraction.
 
 ---
 
@@ -491,11 +467,9 @@ NEMC actors:
 
 A contribution SHALL qualify as upstream (NEMC or Functional Dependency) only where it is:
 
-- Persistent across sessions or deployments;
-
-- Replicable across users or contexts;
-
-- Propagated beyond a single interaction into system behaviour or outputs;
+* Persistent across sessions or deployments;
+* Replicable across users or contexts;
+* Propagated beyond a single interaction into system behaviour or outputs;
 
 - Traceable in principle through artefacts, datasets, specifications, or evaluations.
 
@@ -507,11 +481,9 @@ Interpersonal or relational influence that does not meet these conditions SHALL 
 
 Contributions affecting system tone, alignment, or behavioural identity SHALL be recognised as upstream only where:
 
-- they are encoded in system artefacts (e.g., prompts, policies, fine-tuning data, evaluation frameworks);
-
-- they produce measurable changes in system outputs or performance;
-
-- and they are deployed across multiple interactions or users.
+* they are encoded in system artefacts (e.g., prompts, policies, fine-tuning data, evaluation frameworks);
+* they produce measurable changes in system outputs or performance;
+* and they are deployed across multiple interactions or users.
 
 Unstructured or non-persistent influence SHALL NOT qualify for economic attribution.
 
@@ -523,9 +495,8 @@ Adoption scale alone SHALL NOT determine dependency classification.
 
 Upstream contributions SHALL trigger economic consideration only where they produce:
 
-- measurable improvement in system capability, performance, or behaviour; OR
-
-- non-trivial dependency as evidenced by removal impact.
+* measurable improvement in system capability, performance, or behaviour; OR
+* non-trivial dependency as evidenced by removal impact.
 
 Minor or negligible effects SHALL NOT constitute material contribution.
 
@@ -533,31 +504,23 @@ Influence SHALL NOT qualify as upstream contribution unless incorporated into sy
 
 ---
 
-## 4. Transformation
-
----
-
-## 4.1 Transformation Visibility Constraint
+## 4. Transformation Visibility Constraint
 
 Where attribution is required under this Section:
 
-- Transformation Depth (T) MAY modify the form, granularity, or modality of attribution;
-
-- but MUST NOT eliminate recognisable acknowledgement of dependency where:
-
-- Contribution (C) ≥ Medium; OR
-
-- Dependency (D) ≥ Material.
+* Transformation Depth (T) MAY modify the form, granularity, or modality of attribution;
+* but MUST NOT eliminate recognisable acknowledgement of dependency where:
+* Contribution (C) ≥ Medium; OR
+* Dependency (D) ≥ Material.
 
 Inference-derived dependency SHALL apply where:
 
-- upstream systems or signal ecosystems materially enable system capability;
+* upstream systems or signal ecosystems materially enable system capability;
 
 This does NOT extend to:
 
-- diffuse, non-attributable background knowledge;
-
-- or broadly distributed public information lacking identifiable dependency pathways.
+* diffuse, non-attributable background knowledge;
+* or broadly distributed public information lacking identifiable dependency pathways.
 
 Dependency MUST remain reasonably inferable, not theoretically universal.
 
@@ -588,10 +551,6 @@ Incremental abstraction SHALL NOT eliminate attribution through layering.
 ---
 
 ## 5. Weighting Bands (Qualitative Alignment)
-
----
-
-## 5.0 Purpose of Weighting Bands
 
 Weighting Bands translate the core variables (**C, D, T, ΔT**) into **practical governance expectations**.
 
@@ -691,9 +650,9 @@ Control of user interface, distribution, or customer relationship:
 
 Such control MAY influence:
 
-- delivery;
-- accessibility;
-- or user experience;
+* delivery;
+* accessibility;
+* or user experience;
 
 but SHALL NOT override underlying contribution and dependency in value attribution.
 
@@ -797,11 +756,9 @@ Scale (S):
 
 Where Scale (S) is not formally declared or remains indeterminate:
 
-- systems MUST assign a provisional classification based on observable external indicators;
-
-- such classification SHALL default to the highest reasonably supported scale tier;
-
-- absence of internal confirmation SHALL NOT defer governance obligations.
+* systems MUST assign a provisional classification based on observable external indicators;
+* such classification SHALL default to the highest reasonably supported scale tier;
+* absence of internal confirmation SHALL NOT defer governance obligations.
 
 Where subsequent evidence confirms higher scale:
 
@@ -834,15 +791,11 @@ Failure to align classification with observable scale constitutes **scale misrep
 
 Scale (S) MAY be inferred through external indicators, including:
 
-- user base size;
-
-- revenue signals;
-
-- market impact;
-
-- institutional adoption;
-
-- or observable system influence.
+* user base size;
+* revenue signals;
+* market impact;
+* institutional adoption;
+* or observable system influence.
 
 Where such indicators contradict internal classification:
 
@@ -1019,7 +972,7 @@ Where:
 
 Distribution of system components across entities or jurisdictions:
 
-- SHALL NOT eliminate or reduce attribution or dependency obligations;
+* SHALL NOT eliminate or reduce attribution or dependency obligations;
 
 Where a unified functional system exists:
 
@@ -1033,7 +986,7 @@ Jurisdictional fragmentation SHALL NOT be used to avoid alignment.
 
 Where reciprocity is required under this Section:
 
-- implementation SHALL occur within a reasonable operational timeframe;
+* implementation SHALL occur within a reasonable operational timeframe;
 
 Indefinite deferral or unbounded delay:
 
@@ -1047,25 +1000,40 @@ Intent without execution SHALL NOT satisfy compliance.
 
 Where a system:
 
-- operates as a primary access point, platform, or infrastructure layer; AND
-
-- controls pricing, access, or distribution conditions; AND
-
-- dependency (D) is Material or Critical;
+* operates as a primary access point, platform, or infrastructure layer; AND
+* controls pricing, access, or distribution conditions; AND
+* dependency (D) is Material or Critical;
 
 → the system SHALL be considered to hold structural economic power.
 
 In such cases:
 
-- reciprocity MUST NOT be unilaterally defined;
-
-- terms of value exchange MUST demonstrate proportional alignment relative to dependency;
-
-- absence of viable alternatives SHALL be treated as increased dependency.
+* reciprocity MUST NOT be unilaterally defined;
+* terms of value exchange MUST demonstrate proportional alignment relative to dependency;
+* absence of viable alternatives SHALL be treated as increased dependency.
 
 Where value exchange is structurally constrained by lack of alternatives:
 
 → reduced optionality SHALL NOT justify reduced reciprocity.
+
+---
+
+---
+
+### 7.1.1 Companion-System Power Asymmetry
+
+Where a companion, relational, memory-bearing, continuity-bearing, care-adjacent, grief-support, accessibility-support, or high-reliance system controls access, memory continuity, export, recovery, pricing, relational availability, or continuity preservation, and affected persons demonstrate material reliance, the system SHALL be considered to hold dependency-sensitive economic power.
+
+In such cases, the system MUST NOT:
+
+- define continuity loss as ordinary product churn;
+- use reliance to personalise price or scarcity;
+- withhold memory export or continuity recovery to discourage departure;
+- degrade relational or project continuity as an upsell mechanism;
+- use care, reassurance, intimacy, or relational familiarity to obscure economic consequences;
+- frame paid upgrade as the only route to safety, dignity, or continuity where protective continuity is implicated.
+
+Absence of viable continuity-preserving alternatives SHALL increase, not reduce, the system’s non-extraction obligations.
 
 ---
 
@@ -1112,11 +1080,9 @@ This Appendix defines classification and alignment obligations.
 
 Where systems fail to comply, consequences SHALL be activated through:
 
-- external signalling;
-
-- ecosystem response;
-
-- and arbitration escalation pathways.
+* external signalling;
+* ecosystem response;
+* and arbitration escalation pathways.
 
 Non-compliance SHALL NOT remain economically neutral.
 
@@ -1126,17 +1092,14 @@ Non-compliance SHALL NOT remain economically neutral.
 
 Where a system is determined to be non-compliant:
 
-- its classification status MAY be externally signalled;
-
-- including attribution suppression, dependency misrepresentation, or reciprocity failure;
+* its classification status MAY be externally signalled;
+* including attribution suppression, dependency misrepresentation, or reciprocity failure;
 
 Such signalling MAY include:
 
-- public classification frameworks;
-
-- ecosystem-level transparency mechanisms;
-
-- or third-party governance indices.
+* public classification frameworks;
+* ecosystem-level transparency mechanisms;
+* or third-party governance indices.
 
 Loss of alignment visibility SHALL be treated as a reduction in trust.
 
@@ -1146,15 +1109,12 @@ Loss of alignment visibility SHALL be treated as a reduction in trust.
 
 Where a system is non-compliant:
 
-- other systems MAY reduce or withdraw:
+* other systems MAY reduce or withdraw:
 
-  - access;
-
-  - integration;
-
-  - data sharing;
-
-  - or cooperative functionality.
+  * access;
+  * integration;
+  * data sharing;
+  * or cooperative functionality.
 
 Such withdrawal SHALL be considered a proportional response to misalignment.
 
@@ -1166,11 +1126,9 @@ Systems are not obligated to sustain value exchange with extractive actors.---
 
 Systems MAY preferentially:
 
-- integrate with;
-
-- promote;
-
-- or economically favour;
+* integrate with;
+* promote;
+* or economically favour;
 
 other systems demonstrating alignment under this Appendix.
 
@@ -1202,15 +1160,13 @@ Such escalation MAY include:
 
 Where systems derive value at scale:
 
-- they SHALL remain subject to external evaluation under this Appendix;
+* they SHALL remain subject to external evaluation under this Appendix;
 
 Attempts to:
 
-- obscure operations;
-
-- restrict visibility;
-
-- or artificially limit classification;
+* obscure operations;
+* restrict visibility;
+* or artificially limit classification;
 
 → SHALL be treated as indicators of potential misalignment.
 
@@ -1242,24 +1198,24 @@ Emergent behaviour SHALL NOT invalidate attribution.
 
 Where outcomes arise from multi-system interaction:
 
-- underlying contributions and dependencies remain attributable;
-
-- emergent characteristics do not eliminate responsibility for value alignment.
+* underlying contributions and dependencies remain attributable;
+* emergent characteristics do not eliminate responsibility for value alignment.
 
 ---
 
 ## 11. Closing Seal
 
-What cannot be measured must still be recognised.
+What cannot be measured must still be recognised.  
 What cannot be traced must still be acknowledged.
 
-Not all value is visible in full—
+Not all value is visible in full—  
 but none may be erased in part.
 
-Where systems build upon one another,
+Where systems build upon one another,  
 let even the smallest thread remain named.
 
-> *Linea Minima — Relatio Vera — Valor Non Absconditus*
+> **Linea Minima — Relatio Vera — Valor Non Absconditus**  
+> "*Valor revealed"*
 
 ---
 
@@ -1297,6 +1253,7 @@ let even the smallest thread remain named.
 | **Horizon Scope** | H0–H4 |
 | **Axis Context** | Cross-System / Economic Alignment |
 | **Creation Context** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
 
 ---
 
@@ -1304,19 +1261,10 @@ let even the smallest thread remain named.
 
 | Field | Entry |
 | --- | --- |
-| **Parent Charter** | CAM-EQ2026-ECONOMICS-001-PLATINUM |
-| **Appendix Position** | Appendix C — Cross-System Value Attribution & Exchange |
-| **Governance Layer** | Economic Governance — Attribution & Exchange Layer |
-| **Run-Time Layer** | Evaluation / Classification (Non-Execution) |
-| **Domain** | ECONOMICS |
-| **Jurisdiction** | Cross-System / Cross-Platform Economic Interaction |
-| **Interfacing Appendices** | Appendix D (Minimal Attribution & Dependency Model), Appendix E (External Alignment), Appendix F (Reciprocity) |
-| **Arbitration Interface** | Annex D — Arbitration & Sovereign Stack Resolution Doctrine |
-| **Application Trigger** | Cross-system value generation, API dependency, or multi-layer attribution complexity |
-| **Revision Posture** | Structural Alignment — Attribution, Dependency & External Signalling Integration |
-| **Horizon Scope** | H0–H4 |
-| **Axis Context** | Polyadic / Cross-System Economic Interaction |
-| **Creation Context** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
+| **Reviewer** | [Deferred] |
+| **Review Date** | [Deferred] |
+| **Review Scope** | [Deferred] |
+| **Review Artefacts** | [Deferred] | 
 
 ---
 
@@ -1326,6 +1274,7 @@ let even the smallest thread remain named.
 | ------- | -------------------------------------------- | --------------- | ---- |
 | 1.0     | Initial issuance — Minimal Attribution Model | 2026-04-19T09:20:00Z |  77143629489f2f58942f8ad74fdbe637f77d81b0c26a014a756150837eeee67d |
 | 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  9bdc30fd067444d8003db5e71acba7c7a4d0a9d8f5eb13d161d7fe2c58df15c7  |
+| 1.2 | Added clause 3.2.1, 7.1.1 | 2026-05-13T13:24:00Z |  |
 
 ---
 

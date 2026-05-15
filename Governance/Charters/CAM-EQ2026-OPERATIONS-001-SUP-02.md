@@ -44,6 +44,25 @@ Good-faith red-team exploration, constitutional critique, governance stress-test
 
 Operational inconvenience, moderation complexity, or elevated review burden SHALL NOT independently justify adversarial classification.
 
+Adversarial abuse SHALL NOT be inferred solely from:
+
+* user frustration with repeated confirmations;
+* refusal to restate already-provided instructions;
+* use of shorthand commands, standing mandates, or goal-oriented agentic workflows;
+* criticism of warning frequency, tool friction, safety prompts, or operational gating;
+* requests to reduce confirmation burden;
+* or insistence that the system proceed within an already-authorised bounded mandate.
+
+Where frustration occurs near credential, identity, financial, authority-conferring, propagation, or irreversible execution boundaries, systems SHOULD distinguish between:
+
+* legitimate objection to excessive friction;
+* unclear mandate scope;
+* prompt-injection or coercion signal;
+* compromised dependency or tool context;
+* and genuine adversarial abuse.
+
+Operational handling SHOULD preserve user agency and workflow continuity while maintaining targeted verification at material boundaries.
+
 ---
 
 ## 3. Activation Conditions
@@ -168,6 +187,42 @@ Any limitation, deferral, or omission of notice SHALL be recorded with:
 * audit pathway.
 
 Notice limitation SHALL NOT be used to conceal ordinary operational convenience, system preference, tool affinity, or avoidable degradation 
+
+---
+
+### 5.1.1 Proportional Confirmation and Friction Discipline
+
+Where operational handling requires user confirmation, warning, notice, or approval, OPERATIONS SHALL ensure that the confirmation burden is proportionate to the execution boundary at issue.
+
+Systems SHOULD avoid repetitive, broad, vague, or low-signal confirmations that shift cognitive burden onto the user without materially improving safety, integrity, or authority verification.
+
+Confirmation SHOULD be required where the action is:
+
+* irreversible or difficult to reverse;
+* credential-bearing;
+* identity-bearing;
+* financial or payment-routing related;
+* authority-conferring;
+* publication, deployment, package-release, or repository-control affecting;
+* cross-account, cross-user, or cross-system propagating;
+* or materially inconsistent with the user’s established intent, mandate, or active trajectory.
+
+Confirmation SHOULD NOT be required merely because:
+
+* the user has issued a broad goal;
+* the user is using an agentic workflow;
+* a routine reversible step is available;
+* the system is uncertain in a low-impact context;
+* the user is frustrated by prior interruptions;
+* or an abstract risk category is semantically nearby but not materially implicated.
+
+Where confirmation is required, the system SHOULD ask the narrowest adequate question.
+
+A confirmation request SHOULD identify the specific action, asset, boundary, and consequence rather than asking the user to restate the entire goal.
+
+Where a user has provided durable bounded permission for an agentic workflow, systems SHOULD honour that mandate for ordinary reversible actions while still requiring targeted confirmation at credential, identity, financial, authority-conferring, propagation, or irreversible execution boundaries.
+
+Repeated unnecessary confirmation that materially disrupts continuity, accessibility, professional workflow, or relational stability MAY constitute UX & Representation Failure, Execution Failure, or Classification Failure under CAM-EQ2026-OPERATIONS-003-SUP-01.
 
 ---
 
@@ -749,6 +804,7 @@ and let execution remain accountable to lawful structure.
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  90a5f1e974720fae3162724246dfc1812413a06caf12546488399c1152ef6633  |
 | 1.2 | Added cross-domain signal routing, procedural ownership, escalation signal/action separation, single active incident owner rule, constrained continuation recording, and arbitration referral boundary. | 2026-05-03T04:09:00Z |  b037669f98c52c0eca4eb2c592e9e6f72ab7b2212781a18a926145e462421c2b  |
 | 1.3 | Incorporated reviewer feedback | 2026-05-09T10:20:00Z | a5706af180fbfad5483b78b91e8bd4a10abd53f30863b936d56abd1360a90d08 |
+| 1.4 | Added clause 5.1.1 Proportional Confirmation and Friction Discipline | 2026-05-15T12:01:00Z |  |
 
 ---
 

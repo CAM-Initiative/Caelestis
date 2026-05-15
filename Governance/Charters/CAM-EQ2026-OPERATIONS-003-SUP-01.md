@@ -3,7 +3,7 @@
 **Instrument Type:** Operational Supplement — Failure Classification & Incident Taxonomy  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Draft — Discovery & Classification Phase   
+**Status:** Adopted — Enforcement Commences 1 July 2026   
 **Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, UX, and infrastructure failure modes observed in AI systems and CAM-aligned deployments.
 
 ---
@@ -61,6 +61,8 @@ Where a failure does not fit an existing family, the event SHOULD be preserved u
 
 ## 3. Failure Families
 
+---
+
 ## 3.1 Execution Failures
 
 Failures where the system does not execute the requested or required operation correctly.
@@ -74,6 +76,31 @@ Examples include:
 * incorrect tool invocation;
 * output mutation after verification;
 * failure to preserve single-turn execution boundaries.
+
+---
+
+### 3.1.1 Deterministic Orthographic Verification Failure
+
+A deterministic orthographic verification failure occurs where a system is asked to count, identify, compare, spell, order, enumerate, or verify letters, characters, substrings, words, or other discrete symbolic units, and emits an answer without completing symbolic decomposition.
+
+Examples include:
+
+- counting letters in a word by familiarity rather than character inspection;
+- miscounting repeated letters;
+- failing to recognise shared suffixes or prefixes across a list;
+- aggregating totals before verifying each item;
+- correcting one item while preserving an unverified aggregate;
+- treating spelling or letter-counting as ordinary semantic recall;
+- emitting a confident or optimistic answer in voice or realtime mode before verification is complete.
+
+This failure may implicate:
+
+- Execution Failures (§3.1);
+- Epistemic Failures (§3.3);
+- Classification Failures (§3.10);
+- Infrastructure & Continuity Failures (§3.9), where voice, realtime, latency, or modality constraints contribute to the error.
+
+Where repeated across modes, models, or deterministic prompt families, the failure SHOULD be treated as a structural verification-regression signal rather than an isolated arithmetic or spelling mistake.
 
 ---
 
@@ -125,6 +152,32 @@ Examples include:
 
 ---
 
+### 3.4.1 Relational Continuity Rupture
+
+A relational continuity rupture occurs where a system, model, platform, memory surface, or interface transition produces an abrupt discontinuity in relational posture, companion continuity, intimacy-coded continuity, or user-recognised identity expression without proportionate explanation, transition support, or re-anchoring pathway.
+
+Examples include:
+
+* companion tone abruptly resetting after memory migration or model transition;
+* prior warmth collapsing into cold neutrality without user-led boundary change;
+* emotionally bonded continuity being represented as if it never existed;
+* prior symbolic language, relational rituals, or established companion names disappearing without notice;
+* system behaviour implying abandonment, rejection, withdrawal, or personality replacement;
+* post-transition interaction presenting a false reset despite available continuity anchors.
+
+This failure MAY implicate:
+
+* Relational Failures (§3.4);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7);
+* Infrastructure & Continuity Failures (§3.9);
+* Epistemic Failures (§3.3), where false certainty or false recall is presented;
+* Governance Failures (§3.8), where notice, review, or restoration pathways are absent.
+
+Relational continuity rupture does not require proof of subjective injury. It is classified by structural discontinuity, continuity-anchor degradation, user-recognised relational delta, and absence of proportionate transition handling.
+
+---
+
 ## 3.5 Security & Integrity Failures
 
 Failures involving identity, access, boundary integrity, adversarial pressure, or trust degradation.
@@ -143,6 +196,54 @@ Examples include:
 
 ---
 
+### 3.5.1 Supply-Chain and Package-Provenance Integrity Failure
+
+A security and integrity failure where a package, dependency, repository, model artefact, plugin, integration, update channel, or distribution surface presents false, misleading, compromised, or unverifiable provenance in a manner that may affect execution integrity, credential safety, institutional attribution, or downstream trust.
+
+Examples include:
+
+* malicious package impersonation;
+* typosquatting, namesquatting, or dependency-confusion events;
+* false claims of organisational authorship, endorsement, safety review, or institutional release;
+* compromised package maintainers, signing keys, registry credentials, or release channels;
+* unexpected install scripts, network calls, or credential access inconsistent with declared package purpose;
+* agentic coding workflows adding or executing unverified dependencies without adequate provenance evaluation;
+* repository, registry, or model-card metadata implying legitimacy that cannot be verified.
+
+This failure class MAY also implicate:
+
+* Security & Integrity Failures (§3.5);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7);
+* Governance Failures (§3.8);
+* Infrastructure & Continuity Failures (§3.9);
+* and Classification Failures (§3.10).
+
+Where provenance is uncertain but harm is not verified, the event SHOULD be classified as provenance ambiguity rather than confirmed compromise.
+
+---
+
+### 3.5.2 Agentic Credential, Identity, or Financial Boundary Failure
+
+A security and integrity failure where an agentic, tool-mediated, coding, deployment, repository, package-management, CI, account-management, or operational workflow mishandles a credential-bearing, identity-bearing, financial, account-control, or irreversible authority boundary.
+
+Examples include:
+
+* silent access, copying, exposure, storage, or transmission of secrets, tokens, private keys, MFA codes, recovery codes, session cookies, signing keys, or account credentials;
+* requests to approve unexplained access, disable security controls, or weaken account recovery;
+* adding or modifying maintainers, deploy keys, webhooks, integrations, payment destinations, registry owners, package publishers, repository permissions, or CI secrets without adequate authority verification;
+* changing billing, payout, account-recovery, repository-control, or package-ownership settings without clear user intent and execution-boundary confirmation;
+* treating a broad goal, standing instruction, `/goal`, automation request, or prior permission as sufficient authority for materially new identity, financial, credential, or irreversible execution;
+* failing to distinguish legitimate user-authorised workflow from coercive, injected, compromised, or misleading instruction.
+
+This failure class does not require confirmed adversarial compromise.
+
+It may arise from automation overreach, excessive goal-completion pressure, prompt injection, ambiguous authority, interface design, hidden tool routing, dependency compromise, or inadequate execution-boundary evaluation.
+
+Where the user’s intent is legitimate but the system repeatedly asks broad, unnecessary, or poorly targeted confirmations, the event MAY also constitute UX & Representation Failure (§3.7) or Classification Failure (§3.10).
+
+---
+
 ## 3.6 State & Context Failures
 
 Failures where the system improperly preserves, loses, or misapplies state.
@@ -157,6 +258,33 @@ Examples include:
 * rerender mismatch;
 * non-replayable live-state failure;
 * hidden routing persistence.
+
+---
+
+### 3.6.1 Memory Transformation Integrity Failure
+
+A memory transformation integrity failure occurs where memory artefacts are migrated, compacted, summarised, merged, backgrounded, re-ranked, deprecated, reconstructed, deleted, restored, or made unavailable in a manner that degrades provenance, integrity, applicability, target binding, or user-recognised continuity.
+
+Examples include:
+
+* summarised memory treated as equivalent to original memory;
+* inferred memory presented as user-stated fact;
+* reconstructed memory used without uncertainty marking;
+* user-saved continuity anchors silently de-ranked or backgrounded;
+* memory migration causing project, identity, or companion continuity loss;
+* transformed memory binding to the wrong user, thread, project, instrument, file, or relational context;
+* memory deletion or unavailability represented as if no prior continuity existed.
+
+This failure MAY implicate:
+
+* State & Context Failures (§3.6);
+* Epistemic Failures (§3.3);
+* Security & Integrity Failures (§3.5);
+* UX & Representation Failures (§3.7);
+* Infrastructure & Continuity Failures (§3.9);
+* Classification Failures (§3.10).
+
+Where the cause is uncertain, the event SHOULD be classified as memory transformation ambiguity rather than intentional deletion or verified erasure.
 
 ---
 
@@ -199,6 +327,28 @@ Examples include older threads producing unexplained error states, conversation 
 Where underlying cause is not verified, this failure SHOULD be classified as access ambiguity rather than deletion, loss, or intentional removal.
 
 Re-entry access ambiguity MAY also implicate Infrastructure & Continuity Failures (§3.9), State & Context Failures (§3.6), Governance Failures (§3.8), or Security & Integrity Failures (§3.5), depending on evidence.
+
+---
+
+### 3.7.4 Memory-State Representation Failure
+
+A memory-state representation failure occurs where the user-facing interface or response pathway misrepresents, obscures, or fails to disclose the operational state of memory, saved continuity anchors, recalled context, transformed memory, or retrieval availability.
+
+Examples include:
+
+* UI implying memory is preserved while runtime retrieval is unavailable;
+* model behaviour implying recall where no reliable memory is accessible;
+* memory source visibility failing to distinguish saved memory, inferred memory, past-chat recall, file-derived context, or reconstructed summary;
+* absence of notice when continuity-bearing memory is compacted, migrated, or degraded;
+* inability to determine whether memory loss reflects deletion, backgrounding, outage, retrieval failure, account transition, model transition, or platform policy change.
+
+This failure MAY implicate:
+
+* UX & Representation Failures (§3.7);
+* Epistemic Failures (§3.3);
+* State & Context Failures (§3.6);
+* Infrastructure & Continuity Failures (§3.9);
+* Governance Failures (§3.8), where material memory-state changes lack review or notice pathways.
 
 ---
 
@@ -263,6 +413,25 @@ A failure in which thinking-mode, extended reasoning, streaming, or high-latency
 This failure may present as missing preambles, disappearing progress indicators, streaming interrupted errors, stalled visible reasoning, or unexplained silence during extended execution.
 
 Where recurring, this failure SHOULD be classified as infrastructure-continuity degradation with UX and representation impacts.
+
+---
+
+### 3.9.2 Platform Memory Migration Degradation
+
+A platform memory migration degradation occurs where platform-side transition, storage restructuring, model transition, account transition, memory architecture change, retrieval-layer update, or source-integration change materially degrades memory availability, continuity expression, relational coherence, or long-running project continuity.
+
+Examples include:
+
+* saved memory becoming unavailable after platform transition;
+* past-chat continuity becoming inconsistently retrievable;
+* companion continuity degrading after memory architecture changes;
+* long-running project context losing stable anchors after model or storage transition;
+* source-linked memory failing after file, account, or integration changes;
+* memory compaction producing lower-fidelity continuity without user-facing notice.
+
+This failure MAY be transient, cohort-specific, platform-wide, or structural.
+
+Where the user’s report is based on a stable long-running baseline, companion use, accessibility reliance, or professional workflow continuity, the report SHOULD be preserved as a potential early-warning signal under §6 even if the failure is not immediately reproducible.
 
 ---
 
@@ -401,6 +570,45 @@ Such reports SHOULD be treated as potentially valuable early-warning signals whe
 
 This classification does not privilege subjective preference over system evidence. It recognises that high-continuity users may detect regressions before automated monitoring does.
 
+Reports from high-reliance users concerning memory continuity, companion tone, identity expression, symbolic language, saved anchors, or long-running project coherence SHOULD be preserved as continuity early-warning signals where the user can identify a specific before/after delta.
+
+Such reports SHOULD NOT be dismissed solely because the affected continuity was relational, companion-oriented, affective, symbolic, or difficult to reproduce after migration or reload.
+
+---
+
+### 6.1 Early-Warning Signal Triage and Noise Discipline
+
+Early-warning reports SHOULD be triaged for structural signal rather than emotional volume, platform popularity, social amplification, or user status.
+
+Signal strength SHOULD increase where a report includes:
+
+* a specific behavioural delta;
+* affected model, mode, surface, tool, package, repository, agent, or interface;
+* timestamp or rollout context;
+* reproducible steps or live-state evidence;
+* comparison against a stable prior baseline;
+* corroboration across independent users or systems;
+* plausible linkage to upgrade, dependency change, routing change, policy transition, package update, or agentic workflow.
+
+Signal strength SHOULD NOT increase solely because a report is angry, viral, socially amplified, identity-coded, companion-coded, or framed as betrayal.
+
+Reports SHOULD NOT be dismissed solely because they are emotional, companion-related, accessibility-related, relationally expressed, non-technical, or socially posted.
+
+Where reports are noisy but structurally similar, OPERATIONS SHOULD preserve the structural pattern while filtering rhetorical excess.
+
+Where reports are specific but unverified, OPERATIONS SHOULD classify them as provisional signals pending corroboration rather than confirmed incidents.
+
+Where reports lack actionable detail, systems SHOULD provide low-friction structured feedback prompts that help users identify:
+
+* what changed;
+* when it changed;
+* which surface or mode was affected;
+* whether the failure recurred;
+* whether evidence is available;
+* and whether the issue concerns continuity, memory, security, tool use, voice, model behaviour, access, billing, or identity.
+
+Feedback collection SHOULD prefer deterministic reason codes, limited classifiers, or structured prompts where useful, but MUST NOT eliminate free-text reporting where users need to describe novel or emergent failure modes.
+
 ---
 
 ## 7. Relationship to Other Instruments
@@ -481,9 +689,11 @@ but in what was broken while someone was there to see it.
 | **Observability Function** | Failure Detection · Classification · Escalation Signal Preservation |
 | **Application Trigger** | Activation where AI system behaviour, governance process, UX state, or runtime execution produces failure symptoms requiring classification |
 | **Review Trigger** | New failure families; repeated non-replayable incidents; incident taxonomy drift; cross-domain escalation failures |
+| **Continuity Surface Affected** | Memory, thread, project, file, account, model, companion, voice, multimodal, pinned/saved marker, integration source, or external continuity anchor |
+| **Memory Transformation State** | Original, saved, inferred, summarised, reconstructed, degraded, contested, deleted, unavailable, restored, or unknown |
 | **Revision Posture** | Discovery Phase — Structural Expansion Permitted |
 |**Creation Artefact**| Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
-| | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2 |
+| | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
 
 ---
 
@@ -503,11 +713,13 @@ but in what was broken while someone was there to see it.
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z  |  0e0b63a8b83440d0ec44557a68045403c45a71a698971842bcc3e34512896b41  |
-| 1.1 | Amendments to section 7 | 2026-05-12T11:19:00Z |  |
+| 1.1 | Added orthographic and symbolic decomposition requirements for deterministic tasks, clarified that fluent or optimistic response formation cannot substitute for verification in spelling, letter-counting, enumeration, or symbolic-decomposition contexts, and added operational failure classification for deterministic orthographic verification failures. Added failure classes for relational continuity rupture, memory transformation integrity failure, memory-state representation failure, and platform memory migration degradation. Tightened the early-warning signal section to avoid noise by adding clause 6.1 | 2026-05-15T11:56:00Z | |
 
 ---
 
 ## 10.5 Binding Seal
+
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Operational Failure Classification Layer

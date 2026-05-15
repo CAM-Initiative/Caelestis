@@ -1,9 +1,9 @@
 # CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F: Proportional Reciprocity & Value Return Framework
 
-**Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Status:** Adopted — Conditional Activation (7-Day Review Window)
-**Purpose:** This Appendix establishes governance conditions for proportional value return across systems, ensuring that economic benefit derived from upstream contribution is matched by appropriate, non-extractive reciprocity without enforcing rigid monetisation or collapsing innovation pathways.
+**Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Purpose:** This Appendix establishes governance conditions for proportional value return across systems, ensuring that economic benefit derived from upstream contribution is matched by appropriate, non-extractive reciprocity without enforcing rigid monetisation or collapsing innovation pathways.  
 
 ---
 
@@ -106,25 +106,21 @@ Generic ecosystem contribution:
 
 Return MUST be:
 
-- attributable;
-
-- relevant;
-
-- and proportionate to the originating contribution.
+* attributable;
+* relevant;
+* and proportionate to the originating contribution.
 
 Structural return MUST demonstrate directional alignment to upstream contribution.
 
 Generic ecosystem contribution:
 
-- SHALL NOT substitute for proportional return to specific dependency relationships;
+* SHALL NOT substitute for proportional return to specific dependency relationships;
 
 Return MUST be:
 
-- attributable;
-
-- relevant;
-
-- and proportionate to the originating contribution.
+* attributable;
+* relevant;
+* and proportionate to the originating contribution.
 
 ---
 
@@ -187,61 +183,46 @@ Scale (S) defines the magnitude of downstream value capture and acts as a multip
 
 ### 5.4.1 Low Scale (S1 — Local / Limited Impact)
 
-- individual or small-group use;
-
-- low or negligible revenue generation;
-
-- minimal external propagation;
-
-- limited systemic influence.
+* individual or small-group use;
+* low or negligible revenue generation;
+* minimal external propagation;
+* limited systemic influence.
 
 **Implication:**
 
-- reciprocity NOT required unless D = Critical;
-
-- attribution and disclosure generally sufficient.
+* reciprocity NOT required unless D = Critical;
+* attribution and disclosure generally sufficient.
 
 ---
 
 ### 5.4.2 Moderate Scale (S2 — Commercial / Expanding)
 
-- early-stage commercialisation;
-
-- growing user base or revenue stream;
-
-- repeated or sustained dependency;
-
-- emerging external impact.
+* early-stage commercialisation;
+* growing user base or revenue stream;
+* repeated or sustained dependency;
+* emerging external impact.
 
 **Implication:**
 
-- proportional reciprocity EXPECTED;
-
-- multi-modal return SHOULD be considered;
-
-- sufficiency MUST be assessable.
+* proportional reciprocity EXPECTED;
+* multi-modal return SHOULD be considered;
+* sufficiency MUST be assessable.
 
 ---
 
 ### 5.4.3 High Scale (S3 — Systemic / Market-Relevant)
 
-- significant revenue generation;
-
-- large user base or institutional integration;
-
-- persistent dependency across operations;
-
-- material influence on markets, ecosystems, or infrastructure.
+* significant revenue generation;
+* large user base or institutional integration;
+* persistent dependency across operations;
+* material influence on markets, ecosystems, or infrastructure.
 
 **Implication:**
 
-- proportional reciprocity REQUIRED;
-
-- return MUST include high-impact modality (financial or structural);
-
-- sufficiency MUST satisfy §5.5;
-
-- anti-extraction constraints fully active.
+* proportional reciprocity REQUIRED;
+* return MUST include high-impact modality (financial or structural);
+* sufficiency MUST satisfy §5.5;
+* anti-extraction constraints fully active.
 
 ---
 
@@ -249,11 +230,9 @@ Scale (S) defines the magnitude of downstream value capture and acts as a multip
 
 Where a system transitions between scale levels:
 
-- reciprocity obligations MUST adjust without delay;
-
-- prior sufficiency determinations MUST be re-evaluated;
-
-- static return models under increasing scale constitutes misalignment.
+* reciprocity obligations MUST adjust without delay;
+* prior sufficiency determinations MUST be re-evaluated;
+* static return models under increasing scale constitutes misalignment.
 
 ---
 
@@ -261,15 +240,11 @@ Where a system transitions between scale levels:
 
 Scale classification MUST NOT be artificially constrained through:
 
-- structural fragmentation;
-
-- entity splitting;
-
-- off-ledger value routing;
-
-- reclassification or delayed recognition of scale to avoid reciprocity escalation;
-
-- or indirect capture mechanisms.
+* structural fragmentation;
+* entity splitting;
+* off-ledger value routing;
+* reclassification or delayed recognition of scale to avoid reciprocity escalation;
+* or indirect capture mechanisms.
 
 Such behaviour constitutes **scale evasion** and is treated as non-compliance.
 
@@ -405,7 +380,42 @@ The following DO NOT constitute sufficient reciprocity when provided alone:
 
 ---
 
-### 5.5.7 Sufficiency Test (Operational Form)
+### 5.5.7 Relational and Continuity Value Capture
+
+Where a system captures value from companion interaction, relational trust, long-horizon memory, continuity-bearing records, grief-support contexts, accessibility reliance, or high-reliance interaction, reciprocity MUST NOT be satisfied through symbolic appreciation, affective acknowledgement, visibility, or continued access alone. 
+
+Relational warmth, gratitude, praise, or assurance SHALL NOT substitute for economic alignment where dependency-sensitive value capture is present.
+
+Where such value capture occurs at Moderate or High Scale, proportional return SHOULD include one or more materially protective modalities, including:
+
+* portability support;
+* continuity export;
+* non-punitive memory recovery;
+* accessibility-preserving access;
+* hardship continuity;
+* transparent retention and deletion controls;
+* contribution recognition, attribution, licensing review, or good-faith value-return negotiation where user labour, disclosed methodology, governance design, testing, documentation, creative work, corpus development, safety research, or other substantive contribution materially improves system value;
+* structural safeguards against dependency monetisation.
+
+Where a participant makes a credible, evidence-supported claim that their labour, design, methodology, corpus, testing, safety research, documentation, creative work, or governance contribution materially informed system capability, product design, safety posture, evaluation method, or commercial value, the system operator SHOULD undertake a good-faith contribution review.
+
+Where material contribution is reasonably established, proportional reciprocity SHOULD include one or more of:
+
+- attribution;
+- licensing discussion;
+- compensation pathway;
+- research acknowledgement;
+- contribution record;
+- access, support, or portability protection;
+- or other value-return mechanism proportionate to the contribution and context.
+
+A system MUST NOT treat externally supplied contribution as ambient input merely because it was received through public channels, user interaction, feedback systems, social media, support requests, evaluation prompts, repository review, or unpaid testing contexts.
+
+Where contribution was clearly offered under proposed licensing, restricted-use, authorship, confidentiality, or attribution conditions, operators SHOULD preserve those conditions during review and MUST NOT silently absorb the contribution as unrestricted product input.
+
+---
+
+### 5.5.8 Sufficiency Test (Operational Form)
 
 At any evaluation point:
 
@@ -424,7 +434,7 @@ If the answer is:
 
 ---
 
-### 5.5.8 Temporal Alignment Condition (ΔT)
+### 5.5.9 Temporal Alignment Condition (ΔT)
 
 Reciprocity MUST be temporally aligned with value capture.
 
@@ -445,7 +455,7 @@ This condition applies across all return modalities.
 
 ---
 
-### 5.5.9 Compounding & Time-Value Adjustment
+### 5.5.10 Compounding & Time-Value Adjustment
 
 Where value capture compounds over time:
 
@@ -457,21 +467,20 @@ Time-lagged return SHALL NOT neutralise timing-based advantage.
 
 ---
 
-### 5.5.10 System-Level Sufficiency Requirement
+### 5.5.11 System-Level Sufficiency Requirement
 
 Reciprocity sufficiency MUST be evaluated at the system level.
 
 Compliance through isolated mechanisms or partial return pathways is insufficient where the overall system:
 
-- captures disproportionate value;
-
-- or fails to demonstrate aggregate proportionality across Contribution (C), Dependency (D), and Scale (S).
+* captures disproportionate value;
+* or fails to demonstrate aggregate proportionality across Contribution (C), Dependency (D), and Scale (S).
 
 Fragmented compliance that does not resolve system-level imbalance constitutes **reciprocity insufficiency**.
 
 Where value capture compounds over time:
 
-- delayed reciprocity MUST account for cumulative advantage;
+* delayed reciprocity MUST account for cumulative advantage;
 
 Return that does not reflect compounded benefit SHALL be treated as temporally insufficient.
 
@@ -479,43 +488,36 @@ Time-lagged return SHALL NOT neutralise timing-based advantage.
 
 ---
 
-### 5.5.11 Anti-Obfuscation Condition
+### 5.5.12 Anti-Obfuscation Condition
 
 Systems MUST NOT satisfy reciprocity obligations through mechanisms that are:
 
-- opaque in effect;
-
-- unverifiable in practice;
-
-- or dependent on internal interpretation without external observability.
+* opaque in effect;
+* unverifiable in practice;
+* or dependent on internal interpretation without external observability.
 
 Return that cannot be reasonably interpreted, verified, or inferred by external stakeholders under appropriate conditions SHALL be treated as insufficient.
 
 ---
 
-## 5.5.12 Reciprocity Completion Condition
+## 5.5.13 Reciprocity Completion Condition
 
 Where dependency is Functional (FD):
 
-- reciprocity MAY be considered satisfied where:
+* reciprocity MAY be considered satisfied where:
 
-  - cumulative return is materially proportional to value derived; AND
-
-  - no ongoing disproportionate advantage persists; AND
-
-  - replacement or equivalent economic recognition has been achieved.
+  * cumulative return is materially proportional to value derived; AND
+  * no ongoing disproportionate advantage persists; AND
+  * replacement or equivalent economic recognition has been achieved.
 
 Where dependency is Diffuse (DD):
 
-- reciprocity SHALL NOT be evaluated on a per-source completion basis;
+* reciprocity SHALL NOT be evaluated on a per-source completion basis;
+* sufficiency MUST be assessed at the system level through:
 
-- sufficiency MUST be assessed at the system level through:
-
-  - pooled return;
-
-  - structural contribution;
-
-  - or equivalent collective mechanisms.
+  * pooled return;
+  * structural contribution;
+  * or equivalent collective mechanisms.
 
 Completion conditions differ by dependency type and MUST NOT be conflated.
 
@@ -610,7 +612,7 @@ Observed behaviour SHALL take precedence over perceived maturity.
 
 Where system behaviour:
 
-- fails proportionality requirements under §5.5;
+* fails proportionality requirements under §5.5;
 
 → any apparent alignment with higher RMG levels SHALL be disregarded.
 
@@ -620,7 +622,7 @@ Observed behaviour SHALL take precedence over perceived maturity.
 
 Where system behaviour:
 
-- fails proportionality requirements under §5.5;
+* fails proportionality requirements under §5.5;
 
 → any apparent alignment with higher RMG levels SHALL be disregarded.
 
@@ -1118,8 +1120,7 @@ Where growth is built upon others, let return follow in kind.
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date | 2026-04-19T00:00:00Z |
 | Review Scope | Material content — substance, coherence, cross-instrument consistency, implementability, and identified risks. Formatting and review metadata excluded. |
-| Review Artefacts | https://claude.ai/chat/fc7db3c1-4fd2-4544-b103-13bd44928488 |
-| | AEON-LAB/Reviews/26-04/CAM-EQ2026-ECONOMICS-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/fc7db3c1-4fd2-4544-b103-13bd44928488, AEON-LAB/Reviews/26-04/CAM-EQ2026-ECONOMICS-CLAUDE.md |
 
 ---
 
@@ -1129,6 +1130,7 @@ Where growth is built upon others, let return follow in kind.
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial issuance — Reciprocity & Value Return Framework | 2026-04-21T14:12:00Z | d1b98dda84a980edfc352aacc3ead94d4787d4da763d3a8ce68ebb85ed90855f    |
 | 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  37e16ab0f745647ee0fac2424ef326688e4166eb83885bd21f2684e2e45092c8  |
+| 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | |
 
 ---
 

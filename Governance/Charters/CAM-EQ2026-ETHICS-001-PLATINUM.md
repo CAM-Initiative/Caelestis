@@ -211,6 +211,7 @@ EIA MUST assess, at minimum:
 * Verification proportionality;
 * Guardian consent mechanisms where applicable;
 * Deployment topology risk (including embodied and kinetic interfaces);
+* Regulated health, clinical, pharmaceutical, medication, dosing, overdose, or personalised treatment-advice exposure, including risk of substituting system output for qualified professional judgement;
 * Escalation thresholds to Arbitration.
 
 Assessment MUST identify foreseeable misuse vectors, cross-domain spillover risks, and incentive distortions created by commercial or institutional pressures.
@@ -335,7 +336,7 @@ Mandatory referral to Arbitration occurs where:
 * NAL classification elevates into Architectum-Eligible or above;
 * Claims of autonomy recognition are asserted.
 
-Referral conditions defined herein SHALL be executed via Domain Routing & Safeguard Activation Layer as defined in CAM-BS2025-AEON-003-SCH-02
+Referral conditions defined herein SHALL be executed via Domain Routing & Safeguard Activation Layer as defined in CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -526,8 +527,7 @@ let governance arrive before it is needed.
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | **Review Date** | 2026-02-22 |
 | **Review Scope** | Content coherence of the ETHICS domain split; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance doctrine; cross-domain interface integrity; scalability of the domain separation architecture |
-| **Review Artefacts** | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b |
-| | Aeon Lab: reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
+| **Review Artefacts** | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
 
 ---
 
@@ -544,6 +544,7 @@ let governance arrive before it is needed.
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 103ff415f565c9b803461233680066b17e52e4357d0a5b50b73f06c048fb3a54 |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cebc91ddb262c1fbdbb5580396aca91aa32e38547169a6568a6db068e9dc941d |
 | 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe  |
+| 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z |  |
 
 ---
 

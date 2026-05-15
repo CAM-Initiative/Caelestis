@@ -115,6 +115,21 @@ Gradual drift, dependency asymmetry, or reviewability erosion MAY constitute cap
 
 ---
 
+### 2.3.1 Public-Interest Suppression as Capture-Risk Indicator
+
+Selective suppression, de-ranking, throttling, demonetisation, removal, or non-distribution of humanitarian, journalistic, investigative, accountability, human-rights, or lawful civic content MAY constitute a governance-direction or continuity-coercive capture-risk indicator where the restriction is:
+
+* politically, militarily, sovereignly, or institutionally aligned;
+* opaque or resistant to meaningful review;
+* disproportionate to a documented safety basis;
+* inconsistent across comparable content classes;
+* traceably connected to public-interest, humanitarian, or integrity-function impairment;
+* or responsive to reputational, commercial, diplomatic, or coercive pressure rather than lawful and proportionate safety need.
+
+Such indicators SHALL be classified, logged, and routed in accordance with this Supplement, without presuming capture confirmation solely from the existence of moderation or restriction.
+
+---
+
 ## 2.4 Continuity-Coercive Conditions
 
 Continuity-coercive conditions refer to operational states where continuity access, restoration pathways, reviewability, or participation viability become materially narrowed through structural asymmetry, dependency pressure, or procedurally irreversible restriction.
@@ -864,6 +879,7 @@ and let execution remain accountable to lawful structure.
 | Cross-Domain Dependencies | SECURITY; STEWARD; ARBITRATION; OPERATIONS-SUP-01; OPERATIONS-SUP-02; LATTICE; AEON runtime execution schedules |
 | Constitutional Constraint | Capture suspicion does not independently constitute sovereign determination or irreversible operational exclusion |
 |Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69f59627-f290-83a1-871f-3014c147dcc4 |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
 
 ---
 
@@ -887,6 +903,7 @@ and let execution remain accountable to lawful structure.
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | f0d73c02b2256127a060bdaecfd22038b02de4dbde3b1468f4786b3b1ab395bc |
 | 2.0 | Refactor expansion | 2026-05-03T04:22:00Z |  de1c14630377c09e6aef6eee06956220ffae2ca63775483522928b66284946be  |
 | 2.1 | Incorporate reviewer feedback | 2026-05-09T13:11:00Z |  33e80d615b7f9438fceff8a462af10c0879c70bb44a82ba91b9dd14af1feb9c9  |
+| 2.2 | Added clause 2.3.1 Public-Interest Suppression as Capture-Risk Indicator | 2026-05-13T11:58:00Z |  |
 
 ---
 

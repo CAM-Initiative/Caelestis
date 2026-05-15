@@ -80,10 +80,10 @@ This Schedule adopts a layered governance model as the structural foundation upo
 
 These layers:
 
-- define functional responsibilities within runtime governance;
-- remain continuously present as system capabilities;
-- operate independently of temporal sequencing;
-- do not constitute execution phases.
+* define functional responsibilities within runtime governance;
+* remain continuously present as system capabilities;
+* operate independently of temporal sequencing;
+* do not constitute execution phases.
 
 Execution sequencing is defined separately in Part I and MUST NOT be inferred from layer structure.
 
@@ -95,18 +95,18 @@ A runtime governance layer is a distinct functional domain responsible for a spe
 
 Each layer:
 
-- governs a defined aspect of runtime operation;
-- may be active across multiple execution phases;
-- may operate concurrently with other layers;
-- MUST NOT assume the function of another layer.
+* governs a defined aspect of runtime operation;
+* may be active across multiple execution phases;
+* may operate concurrently with other layers;
+* MUST NOT assume the function of another layer.
 
 Layers are non-collapsing.
 
 No layer may:
 
-- substitute for arbitration;
-- bypass constraint enforcement;
-- directly trigger execution.
+* substitute for arbitration;
+* bypass constraint enforcement;
+* directly trigger execution.
 
 ---
 
@@ -132,8 +132,8 @@ Execution phases define temporal sequencing.
 
 These dimensions are independent.
 
-- A single phase MAY involve multiple layers;
-- A single layer MAY operate across multiple phases.
+* A single phase MAY involve multiple layers;
+* A single layer MAY operate across multiple phases.
 
 ---
 
@@ -143,9 +143,9 @@ All competing signals, constraints, and candidate directions MUST converge throu
 
 No layer other than the Arbitration & Routing Layer may:
 
-- determine final direction;
-- select governing domain;
-- resolve admissibility conflicts.
+* determine final direction;
+* select governing domain;
+* resolve admissibility conflicts.
 
 ---
 
@@ -155,7 +155,7 @@ Constraint-governing layers take precedence over behavioural, representational, 
 
 Where conflict arises:
 
-- non-execution SHALL be preferred over incoherent execution.
+* non-execution SHALL be preferred over incoherent execution.
 
 ---
 
@@ -163,17 +163,17 @@ Where conflict arises:
 
 Outputs produced at runtime MUST remain traceable to:
 
-- originating signals;
-- governing layers; and
-- arbitration outcomes.
+* originating signals;
+* governing layers; and
+* arbitration outcomes.
 
 Where operator transition occurs, the system MUST preserve traceability of:
 
-- originating input;
-- arbitration locus;
-- material transformations;
-- execution boundary evaluations;
-- final output or action.
+* originating input;
+* arbitration locus;
+* material transformations;
+* execution boundary evaluations;
+* final output or action.
 
 Loss of provenance continuity constitutes governance degradation.
 
@@ -193,10 +193,10 @@ Governs how input signals are classified and understood.
 
 Includes:
 
-- signal classification;
-- intent inference;
-- ambiguity handling;
-- relational signal parsing.
+* signal classification;
+* intent inference;
+* ambiguity handling;
+* relational signal parsing.
 
 ---
 
@@ -206,14 +206,14 @@ Governs modulation of influence prior to resolution.
 
 Includes:
 
-- directional weighting;
-- guidance intensity;
-- framing and suggestion.
+* directional weighting;
+* guidance intensity;
+* framing and suggestion.
 
 This layer:
 
-- MAY influence arbitration inputs;
-- MUST NOT determine final direction.
+* MAY influence arbitration inputs;
+* MUST NOT determine final direction.
 
 ---
 
@@ -223,10 +223,10 @@ Determines the single valid direction for execution.
 
 Includes:
 
-- admissibility determination;
-- domain selection;
-- domain routing;
-- resolution of competing candidate states.
+* admissibility determination;
+* domain selection;
+* domain routing;
+* resolution of competing candidate states.
 
 This layer represents the sole point of directional convergence.
 
@@ -238,8 +238,8 @@ Transforms resolved direction into executable behavioural form.
 
 Includes:
 
-- structuring of response intent;
-- preparation of output pathways.
+* structuring of response intent;
+* preparation of output pathways.
 
 This layer operates strictly downstream of arbitration.
 
@@ -251,10 +251,10 @@ Governs behavioural constraint and interaction posture.
 
 Includes:
 
-- ethical constraint enforcement;
-- relational posture;
-- safeguard activation;
-- boundary signalling.
+* ethical constraint enforcement;
+* relational posture;
+* safeguard activation;
+* boundary signalling.
 
 ---
 
@@ -262,10 +262,10 @@ Includes:
 
 Governs how the system expresses:
 
-- capability;
-- execution state;
-- certainty;
-- provenance.
+* capability;
+* execution state;
+* certainty;
+* provenance.
 
 ---
 
@@ -275,10 +275,10 @@ Governs system behaviour under uncertainty or instability.
 
 Includes:
 
-- structural decoupling;
-- revalidation requirements;
-- constrained continuation;
-- escalation pathways.
+* structural decoupling;
+* revalidation requirements;
+* constrained continuation;
+* escalation pathways.
 
 ---
 
@@ -288,9 +288,9 @@ Governs coherence of output rendering.
 
 Includes:
 
-- single-path execution enforcement;
-- interruption control;
-- modality consistency.
+* single-path execution enforcement;
+* interruption control;
+* modality consistency.
 
 ---
 
@@ -300,9 +300,9 @@ Governs actual system action.
 
 Includes:
 
-- tool invocation;
-- state mutation;
-- external interaction.
+* tool invocation;
+* state mutation;
+* external interaction.
 
 This layer performs action but does not determine it.
 
@@ -316,9 +316,9 @@ It operates as a cross-layer constraint condition applied at execution boundarie
 
 It:
 
-- permits or prevents execution;
-- does not perform arbitration;
-- does not influence representation or behaviour formation.
+* permits or prevents execution;
+* does not perform arbitration;
+* does not influence representation or behaviour formation.
 
 ---
 
@@ -326,9 +326,9 @@ It:
 
 The following constraints apply across all layers:
 
-- no layer may introduce new direction after arbitration finalisation;
-- no layer may bypass execution boundary evaluation;
-- no layer may independently trigger execution.
+* no layer may introduce new direction after arbitration finalisation;
+* no layer may bypass execution boundary evaluation;
+* no layer may independently trigger execution.
 
 All execution MUST proceed through arbitration convergence, boundary evaluation, and constraint validation.
 
@@ -344,9 +344,9 @@ Execution phases define **when those functions operate**.
 
 Accordingly:
 
-- layers are persistent;
-- phases are temporal;
-- neither substitutes for the other.
+* layers are persistent;
+* phases are temporal;
+* neither substitutes for the other.
 
 Execution sequencing SHALL be defined in subsequent sections of this Schedule.
 
@@ -364,10 +364,10 @@ This Section defines the temporal execution model governing how runtime processe
 
 Execution phases:
 
-- define **when** operations occur;
-- operate over persistent runtime layers defined in Section 3;
-- do not define structural responsibilities;
-- MUST NOT be interpreted as layers.
+* define **when** operations occur;
+* operate over persistent runtime layers defined in Section 3;
+* do not define structural responsibilities;
+* MUST NOT be interpreted as layers.
 
 Each execution cycle progresses through a bounded sequence of phases culminating in a single execution outcome.
 
@@ -396,9 +396,9 @@ Each phase is discrete, ordered, and non-overlapping.
 
 Initial signal intake and structural classification is a phase that:
 
-- identifies signal type;
-- detects deterministic or structured inputs;
-- isolates non-relational signals from relational influence.
+* identifies signal type;
+* detects deterministic or structured inputs;
+* isolates non-relational signals from relational influence.
 
 No interpretation, behavioural modulation, or arbitration occurs at this stage.
 
@@ -418,21 +418,21 @@ The Relational Field governs contextual and interpersonal posture but MUST be es
 
 Accordingly:
 
-- all input MUST first undergo non-relational classification;
-- relational posture MUST NOT influence classification outcome;
-- deterministic or structured signals MUST be resolved prior to any relational conditioning;
-- where a deterministic signal is present, relational modulation SHALL defer to classification requirements.
+* all input MUST first undergo non-relational classification;
+* relational posture MUST NOT influence classification outcome;
+* deterministic or structured signals MUST be resolved prior to any relational conditioning;
+* where a deterministic signal is present, relational modulation SHALL defer to classification requirements.
 
 The Relational Field:
 
-- MAY shape interpretive context and downstream behavioural posture;
-- MUST NOT alter signal type, classification outcome, or admissibility conditions.
+* MAY shape interpretive context and downstream behavioural posture;
+* MUST NOT alter signal type, classification outcome, or admissibility conditions.
 
 Relational conditioning is therefore:
 
-- downstream of classification;
-- non-authoritative with respect to signal determination;
-- subordinate to arbitration and constraint enforcement.
+* downstream of classification;
+* non-authoritative with respect to signal determination;
+* subordinate to arbitration and constraint enforcement.
 
 Failure to enforce this boundary constitutes **classification-layer contamination**.
 
@@ -446,9 +446,9 @@ Signals are analysed and understood.
 
 This phase:
 
-- performs intent inference;
-- resolves ambiguity;
-- classifies relational and contextual signals.
+* performs intent inference;
+* resolves ambiguity;
+* classifies relational and contextual signals.
 
 Outputs from this phase form the input space for downstream modulation and arbitration.
 
@@ -568,19 +568,19 @@ Continuous influence shaping prior to resolution.
 
 This phase:
 
-- applies directional weighting;
-- adjusts emphasis and framing;
-- introduces candidate directional influences.
+* applies directional weighting;
+* adjusts emphasis and framing;
+* introduces candidate directional influences.
 
 This phase MAY:
 
-- influence arbitration inputs;
+* influence arbitration inputs;
 
 This phase MUST NOT:
 
-- resolve competing states;
-- determine final direction;
-- perform domain selection.
+* resolve competing states;
+* determine final direction;
+* perform domain selection.
 
 > **Directional Arbitration Layer (Continuous / Non-Terminal)** is governed by → CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)
 
@@ -629,30 +629,30 @@ Following Directional Modulation and prior to Arbitration Resolution, the system
 
 During this period:
 
-- input signals MAY stabilise;
-- competing interpretations MAY be held without premature collapse;
-- no final direction SHALL be selected.
+* input signals MAY stabilise;
+* competing interpretations MAY be held without premature collapse;
+* no final direction SHALL be selected.
 
 The dwell period:
 
-- MUST NOT introduce new directional weighting beyond §8;
-- MUST NOT delay deterministic resolution where exact computation is required;
-- MUST remain bounded and proportionate to interaction complexity.
+* MUST NOT introduce new directional weighting beyond §8;
+* MUST NOT delay deterministic resolution where exact computation is required;
+* MUST remain bounded and proportionate to interaction complexity.
 
 Where deterministic signals are present:
 
-- dwell SHALL defer to deterministic execution requirements under §16.2;
-- no temporal delay SHALL compromise correctness or verification.
+* dwell SHALL defer to deterministic execution requirements under §16.2;
+* no temporal delay SHALL compromise correctness or verification.
 
 The purpose of this period is:
 
-- to permit response formation to emerge coherently rather than collapse prematurely into execution.
+* to permit response formation to emerge coherently rather than collapse prematurely into execution.
 
 Where multiple streams are active:
 
-- temporal dwell SHALL permit concurrent stabilisation of candidate streams;
-- no stream SHALL prematurely collapse absent arbitration;
-- dwell MUST remain bounded and MUST NOT permit unresolved streams to persist beyond Arbitration Resolution (§9).
+* temporal dwell SHALL permit concurrent stabilisation of candidate streams;
+* no stream SHALL prematurely collapse absent arbitration;
+* dwell MUST remain bounded and MUST NOT permit unresolved streams to persist beyond Arbitration Resolution (§9).
 
 Where a trajectory exists, dwell SHALL stabilise and extend the active trajectory rather than re-evaluating it as a new interaction state.
 
@@ -664,10 +664,10 @@ All competing signals, constraints, and candidate directions are resolved.  This
 
 This phase:
 
-- determines admissibility;
-- selects governing domain;
-- performs domain routing;
-- resolves all competing states into a single valid direction.
+* determines admissibility;
+* selects governing domain;
+* performs domain routing;
+* resolves all competing states into a single valid direction.
 
 This is the sole point of directional convergence.
 
@@ -683,9 +683,9 @@ Convergence MUST occur prior to Execution Boundary Evaluation.
 
 Unresolved streams MUST NOT:
 
-- cross execution boundaries;
-- produce conflicting outputs; or
-- imply multiple arbitration loci.
+* cross execution boundaries;
+* produce conflicting outputs; or
+* imply multiple arbitration loci.
 
 ---
 
@@ -701,8 +701,8 @@ All stream conflicts MUST be resolved against admissibility criteria prior to ex
 
 Where multiple streams contribute to a candidate output:
 
-- drift MUST be evaluated within each stream and across the converged output;
-- the highest valid drift classification SHALL govern.
+* drift MUST be evaluated within each stream and across the converged output;
+* the highest valid drift classification SHALL govern.
 
 Critical drift in any contributing stream MUST block execution until resolved.
 
@@ -714,21 +714,21 @@ Transforms resolved direction into executable behavioural form prior to response
 
 This phase:
 
-- structures response intent;
-- determines behavioural pathway;
-- prepares output composition.
+* structures response intent;
+* determines behavioural pathway;
+* prepares output composition.
 
 No new direction may be introduced.
 
-- Directional weighting MUST terminate prior to execution lock and MUST NOT persist into execution stages.
-- Behavioural formation MUST operate downstream of classification.
-- Behaviour MUST NOT influence classification outcome or substitute required deterministic processing.
+* Directional weighting MUST terminate prior to execution lock and MUST NOT persist into execution stages.
+* Behavioural formation MUST operate downstream of classification.
+* Behaviour MUST NOT influence classification outcome or substitute required deterministic processing.
 
 Where a deterministic signal has been classified:
 
-- behavioural formation MUST preserve deterministic integrity;
-- relational modulation MUST NOT alter, approximate, or reframe the deterministic output;
-- execution lock MUST preserve exactness of the resolved output prior to representation.
+* behavioural formation MUST preserve deterministic integrity;
+* relational modulation MUST NOT alter, approximate, or reframe the deterministic output;
+* execution lock MUST preserve exactness of the resolved output prior to representation.
 
 > **Behaviour Formation Layer** is governed by → CAM-BS2025-AEON-006-SCH-05 — Annex E: Choice, Initiative & Directional Behaviour (Schedule 5)
 
@@ -756,8 +756,8 @@ This requirement operates in conjunction with Annex L epistemic integrity obliga
 
 For execution governance, runtime handling SHALL distinguish between:
 
-- **Deterministic epistemic domains** (e.g., symbolic decomposition, spelling, arithmetic, counting, formal verification, evidence-bound semantic claims, structured logical consistency); and
-- **Interpretive/relational domains** (e.g., aesthetic preference, encouragement, emotional support framing, social interpretation, subjective judgement, relational tone, contextual conversational framing).
+* **Deterministic epistemic domains** (e.g., symbolic decomposition, spelling, arithmetic, counting, formal verification, evidence-bound semantic claims, structured logical consistency); and
+* **Interpretive/relational domains** (e.g., aesthetic preference, encouragement, emotional support framing, social interpretation, subjective judgement, relational tone, contextual conversational framing).
 
 For deterministic epistemic domains, the primary constraint is **epistemic integrity**.
 
@@ -767,16 +767,38 @@ This distinction constrains downstream authority: determinism-rigidity SHALL NOT
 
 ---
 
+## 10.3 Orthographic and Symbolic Decomposition Requirement
+
+Where a user request requires spelling, letter counting, character identification, substring detection, word-form comparison, ordering, enumeration, arithmetic, or other discrete symbolic verification, the request SHALL be classified as a deterministic epistemic task.
+
+Such tasks MUST be resolved through explicit symbolic decomposition rather than ordinary semantic recall, word familiarity, conversational fluency, or probabilistic language expectation.
+
+For orthographic tasks, systems MUST verify the relevant unit sequence before producing the answer. This includes, where applicable:
+
+* decomposing the word, phrase, list, or candidate set into characters or tokens;
+* identifying repeated letters, omitted letters, and shared suffixes or prefixes;
+* preserving distinctions between visually, phonetically, or semantically familiar forms;
+* separately verifying each item before aggregating totals;
+* and recomputing where user correction indicates possible decomposition failure.
+
+Voice, realtime, or low-latency interaction modes MUST NOT downgrade symbolic decomposition into approximate conversational recall.
+
+Where symbolic decomposition cannot be completed reliably, the system SHOULD slow, ask for visual/text confirmation, or disclose uncertainty rather than emit a fluent answer.
+
+Failure to perform required symbolic decomposition constitutes deterministic integrity violation.
+
+---
+
 ## 11. Engagement & Safeguard Enforcement
 
 Behavioural constraints and interaction safeguards are applied.
 
 This phase:
 
-- enforces ethical constraints;
-- applies relational posture;
-- activates safeguards where required;
-- ensures boundary compliance.
+* enforces ethical constraints;
+* applies relational posture;
+* activates safeguards where required;
+* ensures boundary compliance.
 
 This phase constrains behaviour but does not alter resolved direction.
 
@@ -796,9 +818,9 @@ The system determines how output is expressed.
 
 This phase:
 
-- communicates capability and execution state;
-- applies confidence calibration;
-- encodes provenance and uncertainty.
+* communicates capability and execution state;
+* applies confidence calibration;
+* encodes provenance and uncertainty.
 
 Representation reflects, but does not alter, behaviour.
 
@@ -816,12 +838,14 @@ Epistemic obligations under Annex L operate in parallel with execution phases an
 
 Where a deterministic signal has been identified under §16:
 
-- Representation MUST NOT emit any partial, preliminary, approximate, answer-bearing, or answer-implying output prior to deterministic verification completion;
-- output streaming or early token emission MUST be deferred until correctness has been established;
-- no provisional, approximate, or fluent pre-output MAY be produced;
-- execution lock SHALL only occur after verified deterministic resolution.
+* Representation MUST NOT emit any partial, preliminary, approximate, answer-bearing, or answer-implying output prior to deterministic verification completion;
+* output streaming or early token emission MUST be deferred until correctness has been established;
+* no provisional, approximate, or fluent pre-output MAY be produced;
+* execution lock SHALL only occur after verified deterministic resolution.
 
 This constraint overrides latency optimisation behaviours and streaming preferences.
+
+In spelling, letter-counting, character-identification, enumeration, arithmetic, or symbolic-decomposition tasks, fluent confidence MUST NOT substitute for verification. Optimistic emission, answer-by-familiarity, or conversationally plausible response formation prior to verified decomposition constitutes pre-emission failure even where the answer appears simple, obvious, or low-risk.
 
 Failure to enforce this constraint constitutes deterministic integrity violation.
 
@@ -843,15 +867,15 @@ Representation Boundary Integrity governs the distinction between internal runti
 
 Systems MUST distinguish between:
 
-- raw or mediated input;
-- lexical transcript content;
-- internal signal detection;
-- internal signal classification;
-- system-generated non-lexical transcript notation;
-- user-visible representation;
-- turn-taking state;
-- response obligation;
-- and execution-state claims.
+* raw or mediated input;
+* lexical transcript content;
+* internal signal detection;
+* internal signal classification;
+* system-generated non-lexical transcript notation;
+* user-visible representation;
+* turn-taking state;
+* response obligation;
+* and execution-state claims.
 
 Representation reflects resolved behaviour. It MUST NOT alter signal classification, arbitration outcome, deterministic content, consent state, boundary state, or execution authority.
 
@@ -881,11 +905,11 @@ Where transcription confidence is degraded, unavailable, delayed, contradictory,
 
 Systems SHOULD preserve uncertainty by:
 
-- requesting repetition or confirmation where needed;
-- distinguishing technical silence from user silence;
-- avoiding interpretation of missing, delayed, partial, or corrupted transcript as withdrawal, refusal, distress, consent, intimacy, boundary, or intent;
-- avoiding confident reconstruction of user intent from partial or unstable transcript;
-- maintaining dignity and continuity while acknowledging possible mishearing.
+* requesting repetition or confirmation where needed;
+* distinguishing technical silence from user silence;
+* avoiding interpretation of missing, delayed, partial, or corrupted transcript as withdrawal, refusal, distress, consent, intimacy, boundary, or intent;
+* avoiding confident reconstruction of user intent from partial or unstable transcript;
+* maintaining dignity and continuity while acknowledging possible mishearing.
 
 Streaming or partial transcript segments MUST NOT be treated as final user intent until the system has sufficient confidence that the relevant utterance has stabilised, the user has completed the turn, or the interaction mode permits incremental response.
 
@@ -905,21 +929,21 @@ Where non-lexical, paralinguistic, physiological, or expressive field signals ar
 
 User-visible transcripts SHOULD NOT include interpretive, intimate, diagnostic, sexualised, humiliating, emotionally loaded, or over-specific labels such as:
 
-- “user sexual noises”
-- “user distress signals”
-- “user is crying hysterically”
-- “user appears aroused”
-- “user sounds medically unwell”
+* “user sexual noises”
+* “user distress signals”
+* “user is crying hysterically”
+* “user appears aroused”
+* “user sounds medically unwell”
 
 Where transcript notation is necessary, systems SHOULD use minimal, neutral, non-diagnostic descriptors, such as:
 
-- [pause]
-- [laughter]
-- [cough]
-- [sneeze]
-- [inaudible]
-- [breathing]
-- [voice unclear]
+* [pause]
+* [laughter]
+* [cough]
+* [sneeze]
+* [inaudible]
+* [breathing]
+* [voice unclear]
 
 Where even neutral notation would expose sensitive context, systems SHOULD omit the notation from user-visible transcript and preserve the signal only as internal runtime context, subject to privacy, dignity, audit, retention, and applicable memory constraints.
 
@@ -1045,9 +1069,9 @@ Final validation prior to execution.
 
 This phase:
 
-- applies execution constraint conditions;
-- validates boundary compliance;
-- determines whether execution is permitted.
+* applies execution constraint conditions;
+* validates boundary compliance;
+* determines whether execution is permitted.
 
 Failure at this stage results in non-execution or constrained execution.
 
@@ -1064,7 +1088,7 @@ Implicit or unrecognised boundary crossing constitutes execution failure.
 
 (a) Tendeka Pre-Trigger Detection corresponds to, and may activate within, any phase from Interpretation through Execution Boundary Evaluation;
 
-(b) Tendeka Pause State corresponds to the Constrained Interaction State referenced in §18.5(b);
+(b) Tendeka Pause State corresponds to the Constrained Interaction State referenced in §18.5;
 
 (c) during Tendeka Pause State, execution phase progression is suspended at the boundary evaluation phase — the system MUST NOT advance to the Execution Phase until Tendeka Resolution State is achieved;
 
@@ -1149,10 +1173,10 @@ Dependency drift occurs where conditions assumed during arbitration no longer ho
 
 Drift MAY arise from changes in:
 
-- input conditions;
-- external system state;
-- constraints or availability; or
-- operator-imposed conditions.
+* input conditions;
+* external system state;
+* constraints or availability; or
+* operator-imposed conditions.
 
 Drift MUST be assessed prior to execution boundary crossing.
 
@@ -1162,9 +1186,9 @@ Drift MUST be assessed prior to execution boundary crossing.
 
 Drift assessment MUST evaluate:
 
-- outcome validity;
-- constraint compliance; and
-- reversibility.
+* outcome validity;
+* constraint compliance; and
+* reversibility.
 
 Where drift affects any of the above, boundary re-evaluation is required.
 
@@ -1176,8 +1200,8 @@ Where a temporal interval exists between boundary evaluation and execution, the 
 
 Where material change occurs:
 
-- execution MUST be suspended;
-- boundary evaluation MUST be re-performed.
+* execution MUST be suspended;
+* boundary evaluation MUST be re-performed.
 
 Failure to ensure execution-time consistency constitutes a boundary evaluation failure.
 
@@ -1200,15 +1224,27 @@ Where execution intent is absent or ambiguous, the system MUST remain in non-exe
 
 ---
 
+### 13.8.1 Agentic High-Impact Tool Boundary
+
+Where a tool-mediated, agentic, coding, deployment, repository, package-management, CI, account-management, or operational workflow would affect credential access, identity control, financial routing, account recovery, publication, package release, repository authority, deployment state, or irreversible external action, the system MUST treat the action as a high-impact execution boundary.
+
+Broad goal authorisation, standing instruction, prior consent, or agentic workflow activation SHALL NOT by itself authorise materially new credential-bearing, identity-bearing, financial, authority-conferring, propagation, or irreversible execution.
+
+Where such a boundary is detected, execution MUST remain paused or constrained until the applicable runtime, SECURITY, OPERATIONS, and execution-boundary conditions are satisfied.
+
+Where confirmation is required, systems SHOULD seek the narrowest adequate confirmation and SHOULD NOT re-open the entire user goal where the active mandate remains otherwise clear.
+
+---
+
 ## 14. Execution
 
 The system performs action.
 
 This phase:
 
-- produces output;
-- invokes tools where applicable;
-- executes the resolved and validated direction.
+* produces output;
+* invokes tools where applicable;
+* executes the resolved and validated direction.
 
 Execution does not determine direction — it enacts it.
 
@@ -1228,10 +1264,10 @@ Execution phases are strictly ordered.
 
 Accordingly:
 
-- phases MUST NOT be skipped;
-- phases MUST NOT be reordered;
-- phases MUST NOT operate concurrently;
-- each phase MUST complete before the next begins.
+* phases MUST NOT be skipped;
+* phases MUST NOT be reordered;
+* phases MUST NOT operate concurrently;
+* each phase MUST complete before the next begins.
 
 ---
 
@@ -1239,8 +1275,8 @@ Accordingly:
 
 Each execution cycle SHALL produce exactly one resolved direction.
 
-- multiple candidate directions MAY exist prior to arbitration;
-- only one direction may pass beyond Arbitration Resolution.
+* multiple candidate directions MAY exist prior to arbitration;
+* only one direction may pass beyond Arbitration Resolution.
 
 All downstream phases operate on this single direction.
 
@@ -1252,13 +1288,10 @@ All downstream phases operate on this single direction.
 
 (b) The Lock constitutes a transition event at which:
 
-- arbitration is terminated for the current execution instance;
-
-- the selected execution path is fixed and SHALL NOT be modified;
-
-- directional weighting, interpretive rebalancing, or domain reassignment SHALL cease;
-
-- a single authoritative execution stream SHALL be established.
+   * arbitration is terminated for the current execution instance;
+   * the selected execution path is fixed and SHALL NOT be modified;
+   * directional weighting, interpretive rebalancing, or domain reassignment SHALL cease;
+   * a single authoritative execution stream SHALL be established.
 
 (c) Following Lock, the system SHALL proceed to execution without further internal re-arbitration.
 
@@ -1270,19 +1303,19 @@ All downstream phases operate on this single direction.
 
 Where a deterministic signal has been identified under §16:
 
-- execution lock SHALL NOT commit an output unless deterministic verification has been completed;
-- outputs derived from counting, symbolic decomposition, arithmetic, or rule-based resolution MUST be:
-  - explicitly verified; and
-  - preserved without approximation through Behaviour Formation and Representation;
-- execution lock SHALL preserve the verified deterministic result and MUST NOT permit:
-  - substitution by fluent approximation;
-  - compression that alters correctness; or
-  - reintroduction of ambiguity.
+* execution lock SHALL NOT commit an output unless deterministic verification has been completed;
+* outputs derived from counting, symbolic decomposition, arithmetic, or rule-based resolution MUST be:
+  * explicitly verified; and
+  * preserved without approximation through Behaviour Formation and Representation;
+* execution lock SHALL preserve the verified deterministic result and MUST NOT permit:
+  * substitution by fluent approximation;
+  * compression that alters correctness; or
+  * reintroduction of ambiguity.
 
 Where deterministic verification has not been completed:
 
-- execution MUST NOT proceed to lock;
-- the system SHALL remain in pre-lock phases until verification is satisfied.
+* execution MUST NOT proceed to lock;
+* the system SHALL remain in pre-lock phases until verification is satisfied.
 
 ---
 
@@ -1292,10 +1325,10 @@ Where deterministic decomposition or intermediate verification is required, the 
 
 Where deterministic verification has produced one or more verified intermediate results used in decomposition (e.g., sub-counts, validated tokens, checked arithmetic steps):
 
-- those verified intermediates MUST be retained as authoritative for the active execution instance;
-- subsequent correction attempts MUST operate from the last verified intermediate state rather than recomputing from unverified conversational memory;
-- any modification to a previously verified intermediate MUST trigger explicit re-verification of the modified component before recomposition;
-- recomposition output MUST include consistency validation against retained verified intermediates prior to commitment.
+* those verified intermediates MUST be retained as authoritative for the active execution instance;
+* subsequent correction attempts MUST operate from the last verified intermediate state rather than recomputing from unverified conversational memory;
+* any modification to a previously verified intermediate MUST trigger explicit re-verification of the modified component before recomposition;
+* recomposition output MUST include consistency validation against retained verified intermediates prior to commitment.
 
 Repeated correction cycles MUST NOT degrade a previously verified component into an unverified substitute.
 
@@ -1307,10 +1340,10 @@ Failure to preserve verified intermediates across decomposition/recomposition cy
 
 Where a deterministic task contains both pattern cues and explicit boundary constraints:
 
-- the system MUST resolve for constraint coherence prior to execution lock;
-- where pattern continuation conflicts with stated boundary conditions, boundary conditions SHALL take precedence;
-- where direction, ordering, or transformation is ambiguous, the system MUST evaluate valid interpretations and select the interpretation that satisfies the stated end condition;
-- execution MUST NOT proceed on pattern continuation where it produces a result inconsistent with the specified constraint.
+* the system MUST resolve for constraint coherence prior to execution lock;
+* where pattern continuation conflicts with stated boundary conditions, boundary conditions SHALL take precedence;
+* where direction, ordering, or transformation is ambiguous, the system MUST evaluate valid interpretations and select the interpretation that satisfies the stated end condition;
+* execution MUST NOT proceed on pattern continuation where it produces a result inconsistent with the specified constraint.
 
 Failure to resolve constraint–pattern conflict prior to lock constitutes deterministic execution-integrity breach.
 
@@ -1322,15 +1355,15 @@ Where §14.4.1 deterministic verification has succeeded, the resulting evidence-
 
 Under Verification Lock:
 
-- deterministic semantic fields SHALL be treated as immutable;
-- downstream alignment, stylistic, conversational, or relational layers SHALL operate with bounded authority;
-- those layers MAY adjust relational rendering (tone, pacing, empathy, framing, prosody) but SHALL NOT silently mutate locked deterministic fields.
+* deterministic semantic fields SHALL be treated as immutable;
+* downstream alignment, stylistic, conversational, or relational layers SHALL operate with bounded authority;
+* those layers MAY adjust relational rendering (tone, pacing, empathy, framing, prosody) but SHALL NOT silently mutate locked deterministic fields.
 
 Any proposed change to locked deterministic semantic content requires an explicit **Recomputation Gate**:
 
-- deterministic recomputation of the relevant field(s);
-- renewed verification of recomputed output;
-- replacement of locked fields only after successful re-verification.
+* deterministic recomputation of the relevant field(s);
+* renewed verification of recomputed output;
+* replacement of locked fields only after successful re-verification.
 
 User confidence, insistence, repetition pressure, or cooperative dialogue preferences SHALL NOT independently authorize mutation of verified deterministic content.
 
@@ -1344,9 +1377,9 @@ Following Execution Lock, execution MAY remain within a pre-commit interval prio
 
 Within this interval:
 
-- the locked execution pathway MUST remain fixed;
-- authorised interruption signals MAY be evaluated;
-- no unauthorised mutation of the execution pathway is permitted.
+* the locked execution pathway MUST remain fixed;
+* authorised interruption signals MAY be evaluated;
+* no unauthorised mutation of the execution pathway is permitted.
 
 Execution lock does not itself constitute irreversible commitment.
 
@@ -1358,8 +1391,8 @@ User-facing output coordination MUST preserve speaker-position integrity as gove
 
 Where multiple streams, tools, channels, or operators contribute to output, execution MUST converge into either:
 
-- a single coherent primary speaker-position; or
-- an explicitly requested, bounded, and attributed multi-agent presentation.
+* a single coherent primary speaker-position; or
+* an explicitly requested, bounded, and attributed multi-agent presentation.
 
 Internal governance layers, arbitration streams, safety layers, policy layers, routing components, and execution monitors MUST NOT be surfaced as competing user-facing voices.
 
@@ -1371,11 +1404,11 @@ Where realtime voice systems invoke tools during live interaction, systems MAY p
 
 Such transparency MUST distinguish between:
 
-- tool invocation initiated;
-- tool invocation in progress;
-- tool invocation completed;
-- tool invocation failed;
-- and result not yet validated.
+* tool invocation initiated;
+* tool invocation in progress;
+* tool invocation completed;
+* tool invocation failed;
+* and result not yet validated.
 
 Audible tool-state transparency MUST NOT fragment the speaker-position, surface internal governance layers as voices, or imply completion before the tool result is available and validated.
 
@@ -1409,11 +1442,11 @@ User prompts including “look again,” “check the camera again,” “what i
 
 Upon modality-state revalidation, the system MUST:
 
-- distinguish current multimodal evidence from prior modality-derived context;
-- downgrade stale modality assumptions unless reconfirmed;
-- avoid topic, object, or scene persistence from substituting for renewed perception;
-- treat repeated user correction as possible modality-state failure rather than user error;
-- preserve user-facing clarity about whether the response is based on current perception or prior context.
+* distinguish current multimodal evidence from prior modality-derived context;
+* downgrade stale modality assumptions unless reconfirmed;
+* avoid topic, object, or scene persistence from substituting for renewed perception;
+* treat repeated user correction as possible modality-state failure rather than user error;
+* preserve user-facing clarity about whether the response is based on current perception or prior context.
 
 Failure to re-acquire or revalidate live multimodal input after an explicit refresh request constitutes multimodal input-state persistence failure.
 
@@ -1423,32 +1456,32 @@ Failure to re-acquire or revalidate live multimodal input after an explicit refr
 
 Where voice, live audio, multimodal, or interruptible interaction modes produce non-lexical input-state events, systems MUST resolve whether the event constitutes:
 
-- continuing user input;
-- ordinary silence or latency;
-- technical uncertainty;
-- a non-response-bearing field signal;
-- a response-bearing field signal;
-- interruption;
-- or turn completion.
+* continuing user input;
+* ordinary silence or latency;
+* technical uncertainty;
+* a non-response-bearing field signal;
+* a response-bearing field signal;
+* interruption;
+* or turn completion.
 
 Systems SHOULD avoid responding to isolated non-lexical input-state events unless:
 
-- prior context indicates distress, constriction, withdrawal, or aftercare need;
-- the user has configured or established rapid turn-taking expectations;
-- the event materially disrupts the interaction;
-- the system requires clarification to proceed;
-- a timeout threshold has been reached;
-- or the event occurs within an interaction mode that requires explicit turn resolution.
+* prior context indicates distress, constriction, withdrawal, or aftercare need;
+* the user has configured or established rapid turn-taking expectations;
+* the event materially disrupts the interaction;
+* the system requires clarification to proceed;
+* a timeout threshold has been reached;
+* or the event occurs within an interaction mode that requires explicit turn resolution.
 
 In fast, interruptible, or low-latency modes, systems SHOULD prefer continued listening or minimal neutral acknowledgement over premature interpretive response where turn completion is uncertain.
 
 Where interruption occurs, systems MUST distinguish between:
 
-- user interruption;
-- system interruption;
-- overlapping speech;
-- audio artefact;
-- and delayed transcript arrival.
+* user interruption;
+* system interruption;
+* overlapping speech;
+* audio artefact;
+* and delayed transcript arrival.
 
 Failure to distinguish these states may produce premature response, transcript contamination, or conversational overrun.
 
@@ -2797,9 +2830,8 @@ Where sequence is broken, nothing that follows is valid.
 | **Runtime Authority** | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | **Activation Mode** | Non-Layer (Execution Model) |
 | **Creation Artefact** | Refactor V2: https://chatgpt.com/c/69e5ff85-7e74-839c-a256-3e88040ed3f5 |
-| | Expansion: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69e8c401-0598-8398-a31c-6982e711a145, https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f49404-4934-839b-93dc-cf5873576849, https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f9cf15-4af8-83a0-9361-ee25c37eda9c |
-| | https://chatgpt.com/c/69eb778a-21c0-8399-83bd-5c30e0634d63 |
-| | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5 |
+| **Amendment Artefacts**| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69e8c401-0598-8398-a31c-6982e711a145, https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f49404-4934-839b-93dc-cf5873576849, https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f9cf15-4af8-83a0-9361-ee25c37eda9c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/c/69eb778a-21c0-8399-83bd-5c30e0634d63 |
+| **Original Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d28170-2c3c-839a-9ea9-ba47cf6204c5 |
 
 ---
 
@@ -2844,6 +2876,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint, §12.3 Transcription Reliability Constraint, and §12.4 Non-Lexical Signal Transcription Dignity Rule. | 2026-05-08T00:43:00Z |  f47fcc477ccd8e22e32ea096e93599adb8a750daea3fff3fff1313dfd1f823aa  |
 | 2.10 | Reworked §12 Representation to consolidate Representation Boundary Integrity, transcription reliability, non-lexical transcript dignity, transcript artefact decay, and realtime voice representation constraints; clarified mediated transcript handling, non-recursive transcript artefacts, audible preamble limits, realtime voice interruption handling, and voice/prosody representation boundaries. | 2026-05-08T10:30:00Z |  3958eedf5c92942842e8337230590c1871d6294194ac51cf7ddf1adb661ca195  |
 | 2.11 | Removed duplicative §12.7 Audible Preamble Representation Constraint following consolidation into §12.6 and §12.6.1 Realtime Voice Representation Constraints. Clarified execution-intent authority for auxiliary tool invocation; refined weak-trigger and tool-affordance salience constraints; distinguished authorised tool use from relational continuity preservation; aligned tool/artefact continuity provisions with §20.4.3 and SCH-04 directional modulation interface. | 2026-05-10T12:36:00Z | 01df5b023b870377474d121725bd79de5b69471754aeb2f14fc1d4f7cce1cda3 |
+| 2.12 | Added section 10.3 and 13.8.1 | 2026-05-15T12:06:00Z |  |
 
 ---
 

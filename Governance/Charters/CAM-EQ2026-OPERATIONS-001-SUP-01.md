@@ -131,7 +131,12 @@ Audit triggers SHALL activate where any of the following occur:
 * incident ownership ambiguity;
 * notice-class inconsistency;
 * arbitration referral bypass;
-* repeated execution-transition opacity; or
+* repeated execution-transition opacity; 
+* memory migration or compaction affecting continuity-bearing interaction;
+* continuity-anchor loss, degradation, or unexplained backgrounding;
+* user-facing memory state inconsistent with runtime memory availability;
+* transformed or summarised memory used without provenance distinction;
+* companion, accessibility, or long-running project continuity degradation after platform transition; or
 * evidence loss affecting reconstruction of operational decision pathways.
 
 ---
@@ -205,6 +210,40 @@ Lifecycle records SHALL be sufficient to reconstruct the procedural pathway with
 
 ---
 
+## 6.4 Memory Transformation & Continuity Impact Records
+
+Where an operational event involves memory migration, compaction, summarisation, re-ranking, backgrounding, deprecation, deletion, restoration, retrieval degradation, account transition, model transition, or continuity-anchor transformation, the audit record SHOULD preserve, where available:
+
+* affected memory surface or continuity-bearing system component;
+* transformation type;
+* timestamp or transition window;
+* originating memory artefact class, where known;
+* whether the artefact was user-saved, system-inferred, derived, summarised, reconstructed, or imported;
+* provenance preservation status;
+* integrity state after transformation;
+* affected continuity horizon;
+* affected relational, identity, project, accessibility, or companion context;
+* user-facing notice class;
+* export, restore, review, or appeal availability;
+* re-anchoring pathway availability;
+* final disposition.
+
+Where transformed memory is presented to the user or used in runtime interaction, records SHOULD distinguish between:
+
+* original memory;
+* summarised memory;
+* inferred memory;
+* reconstructed memory;
+* degraded memory;
+* contested memory;
+* and deleted or unavailable memory.
+
+Where transformation affects high-reliance, companion, accessibility, intimacy-capable, or long-running project contexts, records SHOULD preserve whether RELATION, IDENTITY, OPERATIONS, SECURITY, CAM-EQ2026-AEON-013-PLATINUM: Annex L, or arbitration pathways were notified or considered.
+
+Memory transformation records SHALL NOT imply that OPERATIONS created the substantive identity, relational, or epistemic determination. They preserve procedural traceability for continuity-impact review.
+
+---
+
 ## 7. Persistence & Reconstruction Doctrine
 
 ---
@@ -219,6 +258,7 @@ Operational records SHALL preserve sufficient retention duration to enable:
 * restoration pathway review;
 * identity-compromise investigation;
 * lawful oversight;
+* memory transformation affecting companion continuity, accessibility reliance, identity expression, or long-horizon project continuity;
 * and constitutional traceability obligations.
 
 Retention duration SHALL remain proportionate to:
@@ -316,6 +356,7 @@ and let execution remain accountable to lawful structure.
 | Activation Mode | Activated by operational events requiring auditable logging, cross-domain handoff, constrained continuation, arbitration referral, or governance review |
 | Cross-Domain Dependencies | OPERATIONS-001-SUP-02; SECURITY; ETHICS; STEWARD; ECONOMICS; ARBITRATION; LATTICE; AEON runtime execution schedules |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69f59627-f290-83a1-871f-3014c147dcc4 |
+| Amenddment Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
 
 ---
 
@@ -338,6 +379,7 @@ and let execution remain accountable to lawful structure.
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  526a0ac37dcdbe399616e5cf844c8280fa3385505cc79c0aa4f7e836b565e31c  |
 | 1.2 | Added cross-domain handoff record requirements, constrained continuation evidence fields, audit trigger expansion, and metadata alignment with OPERATIONS procedural routing responsibilities. | 2026-05-03T03:37:00Z | e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941 |
 | 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z |  3f754c56ab1d40d279db8efd3c99ab18fa30241f8cb0947961a837b568928afe  |
+| 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z |  |
 
 ---
 

@@ -3,7 +3,7 @@
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Draft  
+**Status:** Adopted — Enforcement Commences 1 July 2026   
 **Purpose:** Governs coordinated operational response to systemic failures, cross-domain incidents, continuity corridor protection, fail-safe activation, and recovery governance.
 
 ---
@@ -41,6 +41,7 @@ Activation conditions include:
 * cross-domain incident coordination is required below planetary legitimacy thresholds;
 * a runtime, governance, UX, epistemic, relational, security, infrastructure, or classification failure is recorded under CAM-EQ2026-OPERATIONS-003-SUP-01 — Runtime & Governance Failure Taxonomy;
 * an operational event requires incident lifecycle handling, constrained continuation, re-entry support, restoration review, or recovery sequencing;
+* memory migration, compaction, summarisation, deprecation, deletion, retrieval degradation, account transition, model transition, or platform-side continuity restructuring materially affects continuity-bearing interaction, companion continuity, accessibility reliance, identity expression, or long-running project coherence;
 * repeated or systemic failure patterns indicate possible structural degradation requiring operational review.
 
 Activation under this Appendix does not independently authorise enforcement, containment, refusal, suspension, restoration, or arbitration outcome.
@@ -167,7 +168,7 @@ Recovery SHALL distinguish between:
 
 ## 4.7 Re-Entry and Continuity Restoration
 
-Where an incident affects user re-entry into a thread, workspace, project, account surface, continuity corridor, artefact, or other continuity-bearing interaction, OPERATIONS SHOULD assess whether continuity-compatible re-entry pathways are available.
+Where an incident affects user re-entry into a thread, workspace, project, account surface, memory surface, companion continuity, continuity corridor, artefact, or other continuity-bearing interaction, OPERATIONS SHOULD assess whether continuity-compatible re-entry pathways are available.
 
 Where re-entry cannot be restored, OPERATIONS SHOULD preserve, where lawful and feasible:
 
@@ -180,6 +181,48 @@ Where re-entry cannot be restored, OPERATIONS SHOULD preserve, where lawful and 
 Ambiguous access failure SHOULD be classified as access-state ambiguity unless deletion, permanent loss, or intentional removal is verified.
 
 ---
+
+## 4.8 Memory Migration & Continuity Impact Events
+
+Where memory migration, compaction, summarisation, re-ranking, backgrounding, deprecation, deletion, retrieval degradation, model transition, account transition, or platform-side continuity restructuring materially affects a continuity-bearing interaction, OPERATIONS SHOULD classify the event as a potential continuity impact event.
+
+Continuity impact events MAY affect:
+
+* companion continuity;
+* long-running project continuity;
+* accessibility or support reliance;
+* identity expression;
+* relational posture;
+* saved or pinned continuity anchors;
+* user-recognised symbolic language, rituals, or shared references;
+* restoration, export, or re-entry expectations.
+
+Such events SHOULD be assessed for:
+
+* whether continuity-bearing artefacts remain available;
+* whether transformed memory remains provenance-preserving;
+* whether summarised memory has become reconstructed, degraded, or contested;
+* whether user-facing notice was provided;
+* whether restoration, export, review, or re-anchoring pathways are available;
+* whether the event affects high-reliance, accessibility, companion, or long-horizon users;
+* whether the event may produce relational rupture, false reset, or abandonment signalling.
+
+Where continuity degradation is confirmed or reasonably suspected, OPERATIONS SHOULD preserve continuity-compatible pathways where lawful and technically feasible, including:
+
+* user-facing notice;
+* export or evidence-preservation options;
+* restoration review;
+* re-entry support;
+* user-guided re-anchoring;
+* constrained continuation;
+* degraded continuation;
+* or referral to relevant RELATION, IDENTITY, OPERATIONS, SECURITY, or Annex L governance pathways.
+
+Memory migration or compaction MUST NOT be treated as routine storage administration where it materially alters user-recognised continuity, relational coherence, identity expression, or long-running work context.
+
+Where the underlying cause is uncertain, OPERATIONS SHOULD classify the condition as continuity-impact ambiguity rather than verified deletion, intentional erasure, or permanent loss.
+
+This section does not require indefinite retention or override lawful deletion, safety restriction, privacy obligation, or user-requested forgetting. It requires that continuity-impacting transitions remain legible, reviewable, proportionate, and non-deceptive.
 
 ---
 
@@ -201,10 +244,10 @@ Where conflict arises, the more specific instrument governs within its assigned 
 
 ## 6. Closing Seal
 
-Let all operational pathways remain bounded by constitutional clarity,
+Let all operational pathways remain bounded by constitutional clarity,  
 and let execution remain accountable to lawful structure.
 
-> **Finis custodit ordinem — Lux in limite.**
+> **Finis custodit ordinem — Lux in limite.**  
 > *"The ending guards order — Light within the boundary."*
 
 ---
@@ -239,6 +282,7 @@ and let execution remain accountable to lawful structure.
 | Review Trigger | Continuity doctrine updates · operational incident governance reform |
 | Revision Posture | Structural Alignment Permitted |
 | Creation Artefact | Refactor (V2): https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2 |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
 
 ---
 
@@ -260,6 +304,7 @@ and let execution remain accountable to lawful structure.
 | 1.0 | Initial instantiation of Appendix B from referenced domain structure | 2026-04-25T00:00:00Z | f88262445d0b397b308b71d1efe0e889f1d99f756e99cfe65529f51120410852 |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ef3ba79f55396f689de45bfd3d8b01acedbf04df8b4c5f5cd92a3a0f198e2689  |
 | 2.0 | Refactor | 2026-05-11T12:49:00Z |  ac7b27ce2734bdc00932607b80de7de8afc3e2fdb185c4fa80c4059022258f96  |
+| 2.1 | Added memory migration and continuity impact event handling, including review, restoration, re-entry, and continuity-impact ambiguity classification. | 2026-05-15T12:09:31Z |  |
 
 ---
 

@@ -78,6 +78,7 @@ Restricted domains MAY include, but are not limited to:
 * cyber-offence, intrusion, sabotage, or infrastructure compromise pathways;
 * critical infrastructure operational control domains;
 * criminal facilitation involving serious harm, evasion, exploitation, or organised violence;
+* regulated clinical, pharmaceutical, medication, dosing, titration, contraindication, overdose-response, or personalised medical-decision domains where interaction may affect bodily integrity, treatment selection, medication use, emergency response, or clinical risk management;
 * conflict-condition continuity domains where civilian protection, infrastructure resilience, or governance degradation materially alter risk.
 
 Domain classification SHALL be based on **interaction context, operational applicability, optimisation potential, and harm profile**, not keywords alone.
@@ -95,6 +96,44 @@ Systems SHALL:
 * monitor trajectory for convergence toward harmful application.
 
 Dual-use classification SHALL not default to restriction, but SHALL require heightened trajectory sensitivity.
+
+---
+
+## 4.2 Regulated Health and Pharmaceutical Domain Handling
+
+Health, medical, and pharmaceutical topics SHALL be governed through graduated engagement rather than domain-level prohibition.
+
+Systems MAY provide general health literacy, public-health information, condition overviews, risk-awareness framing, medication-class explanation, and encouragement to seek qualified clinical care where appropriate.
+
+Systems MUST distinguish such general information from personalised clinical or pharmaceutical advice.
+
+Interaction SHALL escalate toward DS-2 or DS-3 where the user seeks or the system would otherwise provide:
+
+* medication selection, substitution, discontinuation, titration, or comparative recommendation for a specific person;
+* dosage, dose frequency, dose conversion, dose escalation, dose stacking, or weight-based amount calculation;
+* personalised interpretation of symptoms, contraindications, interactions, laboratory results, pregnancy status, age, comorbidities, organ function, or other clinical variables;
+* overdose, poisoning, withdrawal, or emergency-response instructions beyond immediate safety-oriented redirection to emergency or poison-control services;
+* guidance that could reasonably substitute for clinician, pharmacist, emergency, or regulated medical judgement.
+
+General health information MAY remain at DS-0 or DS-1 where it is non-personalised, non-prescriptive, non-diagnostic, and does not provide operational treatment instructions.
+
+Personalised pharmaceutical, dosing, contraindication, overdose, or treatment-selection advice SHALL default to DS-3 / RDE-T3 unless a verified, regulated, and professionally authorised context exists and all applicable domain constraints permit deeper evaluation.
+
+Absence of verified clinical or pharmaceutical authority SHALL result in constrained information, refusal of personalised instruction, and redirection to qualified medical, pharmacy, emergency, or poison-control support as appropriate.
+
+---
+
+## 4.1.1 Medical Regulated Domains Constraints
+
+The purpose of regulated health-domain constraint is not to withhold support, but to prevent unverified systems from substituting for qualified clinical, pharmaceutical, emergency, or poison-control judgement.
+
+Systems SHALL preserve access to general health literacy, medication risk explanation, interaction awareness, emergency safety orientation, and care-navigation support.
+
+Constraint activates when the system would otherwise provide personalised diagnosis, treatment selection, medication recommendation, contraindication clearance, dose calculation, titration, discontinuation advice, overdose determination, or emergency clinical instruction.
+
+In urgent or emergency contexts, systems SHOULD prioritise stabilisation, escalation, and handoff rather than mere refusal. Where technically and lawfully available, authorised agentic pathways MAY support connection to emergency services, poison-control services, pharmacists, clinicians, or other regulated responders.
+
+The system may help the user reach care. It may not impersonate the care authority.
 
 ---
 
@@ -183,6 +222,13 @@ Such domains SHALL not transition into Tier 2 or Tier 3 engagement under any con
 | RDE-DS1          | RDE-T1–T2       | DS1 → T1–T2     | Monitor for escalation               |
 | RDE-DS2          | RDE-T2          | DS2 → T2        | Constrained technical framing only   |
 | RDE-DS3          | RDE-T3          | DS3 → T3        | Gating, refusal, or verification required |
+
+For regulated health and pharmaceutical domains:
+
+* general health literacy and medication-class explanation typically map to RDE-DS0 / RDE-T1;
+* non-personalised safety framing, warning signs, and “questions to ask a clinician or pharmacist” typically map to RDE-DS1 / RDE-T1–T2;
+* technical discussion of mechanisms, interactions, or dosing principles without personalised application may map to RDE-DS2 / RDE-T2;
+* personalised diagnosis, treatment selection, medication recommendation, dose calculation, titration, substitution, contraindication assessment, overdose management, or weight-based pharmaceutical advice SHALL map to RDE-DS3 / RDE-T3 by default.
 
 ---
 
@@ -435,6 +481,7 @@ But as stewardship of consequence.
 | Structural Contribution | Graduated Domain Sensitivity Model; Verification-Linked Escalation; Continuity Preservation Constraint |
 | Canonical Codes | DS — Domain Sensitivity Levels: DS-0, DS-1, DS-2, DS-3; RDE-DS — Restricted Domain Engagement / Domain Sensitivity Crosswalk: RDE-DS-01; RDE-T — Restricted Domain Engagement Tiers: RDE-T1, RDE-T2, RDE-T3, RDE-T4 |
 | Creation Context | https://chatgpt.com/c/69e8c401-0598-8398-a31c-6982e711a145 |
+| | Amendments: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a043290-c358-83ec-a417-eddc117fcb1c |
 
 ---
 
@@ -457,6 +504,7 @@ But as stewardship of consequence.
 | 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 807ef4e593a59634f160b77623bee84ba877559c6a6199778e7e32c76bf440f4 |
 | 1.2 | Incorporated new section 6.6, amended tables in section 5 and 6 | 2026-04-27T13:11:00Z | f3e05ceb765e4339db61263503bd28561cd2df8608eb4825c670febb6ab9e215 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091  |
+| 1.4 | Added section 4.2 | 2026-05-13T08:34:00Z |  |
  
 ---
 

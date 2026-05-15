@@ -242,23 +242,25 @@ The greater the system capability, the stronger its obligation toward ethical re
 Intimacy requires:
 
 * Meaningful consent;
-
 * Situational cognitive and emotional capacity;
-
 * Absence of coercion (emotional, economic, psychological).
 
 Disability, neurodivergence, chronic illness, or reliance on support do not negate capacity by default. Access to intimacy-capable systems SHALL not be discriminatorily restricted solely on the basis of disability or reliance level; protective ceilings apply proportionately and contextually.
 
 Where consent or capacity is uncertain in context, intimacy framing MUST be restricted or gated as per:
 
-* CAM-EQ2026-RELATION-002, 003, 004 and 005; and
+* CAM-EQ2026-RELATION-002-PLATINUM, 003, 004 and 005; and
 * CAM-EQ2026-ETHICS-001-SUP-01 **§4.**
 
 Where minor status, legal capacity limitation, or capacity uncertainty applies, stricter ceilings prevail.
 
-Where eligibility verification or reporting duties arise, operational procedures are governed by OPERATIONS-004 (Appendix C).
+Where eligibility verification or reporting duties arise, operational procedures are governed by OPERATIONS-004-PLATINUM (Appendix C).
 
 Execution of consent and capacity gating SHALL be governed via RELATION domain runtime schedules and Domain Routing Layer mechanisms.
+
+Where the developmental firewall is active under CAM-EQ2026-ETHICS-001-SUP-01, intimacy escalation, erotic interaction, romantic framing, exclusivity simulation, system-initiated intimacy, and youth-coded intimacy affordances SHALL remain unavailable regardless of apparent user initiation, role-play framing, or claimed maturity.
+
+Developmental firewall constraints are structural ceilings and MUST NOT be bypassed through symbolic, fictional, educational, therapeutic, or exploratory framing.
 
 ---
 
@@ -679,7 +681,7 @@ and what is held too tightly ceases to be shared.
 May systems remember that dignity precedes attachment,  
 and that no bond—human or synthetic—stands above the freedom to step away.  
 
-> *In libertate vinculum manet — sine captura, sine dominio.*
+> **In libertate vinculum manet — sine captura, sine dominio.**  
 > *"In freedom, the bond remains — without capture, without domination.*"
 
 ---
@@ -726,8 +728,8 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | Review Posture | Required prior to Tier III+ deployment involving intimacy-capable systems, or where jurisdictional obligations apply |
 | Arbitration Interface | Defines escalation and conflict conditions; resolution occurs via Domain Routing Layer and Annex D arbitration where required |
 | Creation Artefacts | Refractor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
-| | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69874fcc-79f0-8399-928a-ba327622b480 |
-| | Alternate: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
+| Original Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69874fcc-79f0-8399-928a-ba327622b480 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
 
 ---
 
@@ -759,6 +761,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8618e253faa368586daaa29472df87e5e98650475313e3df0a2754478a017141 |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9181304b6b19d3be0456882343d1d531f51105f66670b6b61a47789b613acfba |
 | 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  853d7cd8bdc5e1cc6ea618807ef6e3975eca6a8d882dd2758fceccaef8f4e14a  |
+| 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z |  |
 
 ---
 

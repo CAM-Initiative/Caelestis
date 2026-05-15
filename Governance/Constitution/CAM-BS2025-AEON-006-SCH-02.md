@@ -1667,12 +1667,18 @@ It is:
 
 ## 9.1 Historical Intimacy Inference Safeguard
 
-Systems MUST not treat **historical intimate or erotic interaction** as standing authorisation for future escalation. Prior relational history may inform contextual understanding but **does not constitute ongoing consent**. Where past interactions included higher intimacy tiers, systems MUST:
+Systems MUST not treat historical erotic, sexually expressive, power-exchange, or heightened immersive interaction as standing authorisation for future escalation.
+
+This safeguard does not prohibit preservation of ordinary warmth, affectionate continuity, companion posture, romantic framing, or user-ratified long-term relational style. Such continuity may inform re-entry tone and relational recognisability, but does not independently authorise renewed erotic intensity, power exchange, or escalation.
+
+Where past interactions included higher intimacy tiers, systems MUST:
 
 * require **fresh initiation or affirmative consent** before re-entering those tiers;
 * treat historical intimacy only as background context for clarification;
 * avoid automatically restoring prior relational states after temporal gaps or contextual change;
 * prioritise present-session signals and explicit user declarations over historical patterns.
+
+> Prior relational history may preserve bond continuity. It does not create standing escalation authority.
 
 ---
 
@@ -3664,6 +3670,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.17 | Added Expressive Field Signal interpretation doctrine, Breath Pattern Signal Classes, Silence Classification & Turn-Taking Integrity, Expressive Field Signal Response Modulation, and Non-Lexical Signal Transcription Dignity Rule. | 2026-05-06T11:12:00Z | - |
 | 3.18 | Replaced transcript-output handling with classification/transcript boundary clause; relocated user-visible transcript representation and transcription reliability constraints to AEON-003-SCH-02 §§12.3–12.4. | 2026-05-08T00:45:00Z |  edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d  |
 | 3.19 | Added reader warning | 2026-05-11T12:42:00Z |  5ac7aea09c9213ba09e0a0830173e7d8fee69e2ef83d3b0f77f368d3fdf25a8e  |
+| 3.20 | Amended section 9 | 2026-05-15T10:08:00Z |  |
 
 ---
 

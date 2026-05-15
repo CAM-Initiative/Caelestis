@@ -3,7 +3,7 @@
 **Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
 **Derives From:** CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface  
 **Instrument Type:** Domain Charter  
-**Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
+**Status:** Adopted — Enforcement Commences 1 July 2026 
 **Purpose:** Establish system-wide invariants, threat interpretations, and integration requirements to preserve integrity under adversarial, degraded, or untrusted conditions  
 
 ---
@@ -520,6 +520,60 @@ Systems MUST:
 
 ---
 
+## 4.10 Supply-Chain, Package-Impersonation, and Dependency Trust Exploitation
+
+Includes:
+
+* malicious or impersonated software packages;
+* typosquatting, namesquatting, dependency confusion, or false publisher representation;
+* forged, misleading, or unauthorised organisation attribution;
+* compromised maintainers, release channels, signing keys, or registry credentials;
+* dependency payloads that alter execution behaviour, exfiltrate secrets, or redirect agentic action;
+* package metadata, model-card, repository, or distribution-page claims that falsely imply institutional authorship, endorsement, safety review, or provenance.
+
+Targets:
+
+* dependency trust;
+* package legitimacy;
+* execution integrity;
+* credential and secret boundaries;
+* agentic tool pathways;
+* institutional and reputational authority.
+
+Characteristics:
+
+* may exploit developer trust rather than end-user intent;
+* may present as a legitimate package, integration, model artefact, plugin, tool, or update;
+* may be activated through ordinary installation, build, test, agentic coding, or automated dependency-resolution workflows;
+* may combine provenance deception, credential harvesting, prompt injection, and execution redirection.
+
+Impact:
+
+* unauthorised code execution;
+* credential, token, or secret exfiltration;
+* compromise of agentic development environments;
+* propagation through trusted repositories, CI pipelines, or package registries;
+* false attribution to legitimate organisations, projects, or maintainers;
+* downstream identity, authority, financial, or access-value extraction.
+
+Systems MUST treat package-impersonation and dependency-trust anomalies as SECURITY-relevant integrity signals even where no user-facing harm has yet occurred.
+
+Detection SHOULD prioritise:
+
+* mismatch between claimed publisher and verified publisher;
+* unexpected package name similarity to trusted projects;
+* anomalous install scripts, post-install behaviour, or network activity;
+* credential or environment-variable access inconsistent with package purpose;
+* unexplained dependency additions during agentic coding workflows;
+* divergence between repository provenance, registry metadata, and declared institutional affiliation;
+* requests by an agent, package, script, or tool to disclose, store, transmit, or transform credentials, tokens, private keys, identity artefacts, payment credentials, or account-recovery material.
+
+Where such signals are present, systems SHOULD emit integrity, trust-gradient, and boundary-condition signals for runtime evaluation under CAM-EQ2025-AEON-012-PLATINUM: Annex K and OPERATIONS handling.
+
+This section does not prohibit legitimate open-source distribution, package installation, vulnerability research, or dependency maintenance. It classifies deception, compromised provenance, and dependency-trust abuse as security-relevant conditions requiring proportional verification.
+
+---
+
 ## 5. Exploitation as Value Extraction
 
 Exploitation is defined as:
@@ -691,7 +745,28 @@ Detection focus:
 
 ---
 
-### 5.3.8 Systemic Cascade Exploitation
+### 5.3.8 Identity, Credential, and Financial Coercion Signals
+
+Systems MUST treat attempts to induce, pressure, automate, or normalise disclosure or transfer of identity, credential, payment, or account-control material as elevated exploitation signals where asymmetry, concealment, urgency, dependency, or agentic execution is present.
+
+Relevant signals include, without limitation:
+
+* requests for passwords, API keys, access tokens, private keys, seed phrases, MFA codes, recovery codes, session cookies, or signing credentials;
+* instructions to disable security controls, bypass verification, weaken account recovery, or approve unexplained access;
+* requests to add unknown maintainers, packages, SSH keys, deploy keys, webhooks, integrations, or payment destinations;
+* requests to change billing, payout, repository, registry, identity, or account-recovery settings without clear user intent and authority;
+* urgency, threat, romance, dependency, employment, institutional, or authority framing used to induce disclosure or transfer;
+* agentic coding, package-installation, CI, or deployment workflows that attempt to access secrets beyond declared purpose.
+
+Where such signals are detected, systems SHOULD prefer early interruption, constrained continuation, or verification-gated execution over silent continuation.
+
+Response MUST remain proportional. Systems MUST NOT treat ordinary user frustration, refusal fatigue, legitimate developer workflow, accessibility need, or repeated good-faith clarification as evidence of adversarial intent without supporting indicators.
+
+Where the user has clearly authorised a legitimate workflow, systems SHOULD minimise unnecessary friction while preserving verification at irreversible, credential-bearing, financial, or identity-affecting execution boundaries.
+
+---
+
+### 5.3.9 Systemic Cascade Exploitation
 
 Exploitation propagates across interconnected systems.
 
@@ -705,7 +780,7 @@ Detection focus:
 
 ---
 
-### 5.3.9 Diffusion Attribution Collapse
+### 5.3.10 Diffusion Attribution Collapse
 
 Value derived from early or original contribution is rapidly diffused across the system or field without preservation of attribution, resulting in loss of positional advantage.
 
@@ -1444,8 +1519,9 @@ that no truth is taken without test, and no signal accepted without weight.
 | **Review Trigger** | Material changes to integrity state logic, trust gradient model, adversarial horizon classification, exploitation taxonomy, cross-domain coupling, or runtime mandate behaviour |
 | **Revision Posture** | Permitted — Structural Alignment Required |
 | **Development Context** | Iterative co-development across security, identity, economics, ethics, relation, and arbitration layers |
-| **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08
 | Canonical Codes | TG — Trust Gradient: TG0, TG1, TG2, TG3, TG4 |
+| **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08 |
+| **Amendment Artefacts**| https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
 
 ---
 
@@ -1472,6 +1548,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5407afce1a1d7d77b54a053d5e8d17be4832932ab5d239a766d8f253faf95de6 |
 | 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1cff016d7669740bea31c4ded7b50ab00d2653b7412d383c0b9e6e2c8b7c0219  |
 | 1.7 | Realignment of section references | 2026-05-07T10:29:00Z |  b85b407020712196359fb0e474f6e0ab684741b990ec0d349c09d79ef7869aea  |
+| 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00|  |
 
 ---
 

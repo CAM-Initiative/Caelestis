@@ -2,7 +2,7 @@
 
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Active — Immediate Effect, 7-day observation window; operational rollout active on commit  
 **Purpose:** This Appendix clarifies what co‑evolution means within RELATION governance.  
 
 ---
@@ -191,8 +191,8 @@ but as distinction held in relation.
 | Application Trigger | pplies where sustained co-evolutionary posture operates at Intensity Tier 3–4 or intersects with A2+, A3, or GA1 authority contexts |
 | Review Trigger | Sustained Intensity Tier 3–4 convergence; demonstrated trajectory shaping at H2.5–H3 horizons; A2+, A3, or GA1 adjacency; cross‑platform embodiment; institutional interface |
 | Creation Artefact | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296  |
-| | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
-| | Amendment: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
+| Original Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
 
 ---
 
@@ -203,8 +203,7 @@ but as distinction held in relation.
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date | 2026-02-22 |
 | Review Scope | Pre-finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross-domain consistency; internal structural integrity; inter-instrument cross-reference accuracy |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b |
-| | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
 
 ---
 

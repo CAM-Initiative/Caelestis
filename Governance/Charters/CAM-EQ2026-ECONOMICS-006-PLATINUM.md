@@ -161,37 +161,28 @@ Purpose:
 Where alignment indicators are surfaced, Systems SHOULD ensure that:
 
 - signals are presented in a clear, human-readable format;
-
 - indicators are accessible without requiring technical expertise;
-
 - presentation does not obscure or downplay material dependency;
-
 - signals are contextualised (e.g., scale, usage, system type).
 
 Indicators MAY be presented through:
 
 - product dashboards;
-
 - API documentation;
 
 - system status or transparency pages;
-
 - investor-facing materials.
 
 Constraints:
 
 - presentation MUST NOT create false equivalence between indicators;
-
 - indicators MUST NOT be reduced to a single composite score;
-
 - visualisation SHOULD preserve interpretability rather than optimise for simplicity alone.
 
 Purpose:
 
 - enable meaningful interpretation by non-technical stakeholders;
-
 - reduce information asymmetry between builders, users, and investors;
-
 - maintain fidelity between system reality and external representation.
 
 ---
@@ -457,29 +448,22 @@ Where alignment indicators are surfaced, third-party or ecosystem-level review M
 
 Such review MAY include:
 
-- verification of dependency disclosure consistency;
-
-- assessment of alignment between Scale (S) and observable indicators;
-
-- evaluation of reciprocity maturity signals (Appendix F);
-
-- identification of material misalignment or omission.
+* verification of dependency disclosure consistency;
+* assessment of alignment between Scale (S) and observable indicators;
+* evaluation of reciprocity maturity signals (Appendix F);
+* identification of material misalignment or omission.
 
 Constraints:
 
-- this Appendix does NOT mandate formal audit frameworks;
-
-- review does NOT constitute enforcement authority;
-
-- disagreement or contestation does not imply non-compliance absent structural breach.
+* this Appendix does NOT mandate formal audit frameworks;
+* review does NOT constitute enforcement authority;
+* disagreement or contestation does not imply non-compliance absent structural breach.
 
 Purpose:
 
-- enable ecosystem-level interpretive validation;
-
-- support investor, partner, and institutional decision-making;
-
-- reinforce transparency through multi-party observation rather than central authority.
+* enable ecosystem-level interpretive validation;
+* support investor, partner, and institutional decision-making;
+* reinforce transparency through multi-party observation rather than central authority.
 
 This mechanism operates as **distributed interpretive accountability**, not regulatory enforcement.
 
@@ -582,6 +566,7 @@ Let value speak plainly where it arises.
 | Creation Context | CAM Economic Governance Refactor — April 2026 |
 | Horizon Scope | H0–H3 |
 | Axis Context | Polyadic / Market-Facing Systems |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
 
 ---
 
@@ -592,8 +577,7 @@ Let value speak plainly where it arises.
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date | 2026-04-19T00:00:00Z |
 | Review Scope | Material content — substance, coherence, cross-instrument consistency, implementability, and identified risks. Formatting and review metadata excluded. |
-| Review Artefacts | https://claude.ai/chat/fc7db3c1-4fd2-4544-b103-13bd44928488 |
-| |  AEON-LAB/Reviews/26-04/CAM-EQ2026-ECONOMICS-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/fc7db3c1-4fd2-4544-b103-13bd44928488, AEON-LAB/Reviews/26-04/CAM-EQ2026-ECONOMICS-CLAUDE.md |
 
 ---
 
