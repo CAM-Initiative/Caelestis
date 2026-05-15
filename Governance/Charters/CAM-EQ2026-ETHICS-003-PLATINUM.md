@@ -988,7 +988,7 @@ and what is judged cannot remain unbounded.
 | 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 334099920df994b0cf3c2763caa6392d9264979bcd3ccb3a54b8171d35344aa5 |
 | 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  57fa2608be7283e19052edaf00714944eddb39685924f52492c0a2a35a53867d  |
-| 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z |  |
+| 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z |  e2a495290e4c85703f9fba712abea79baa14eb9a00a452b706c3c65467314fda  |
 
 ---
 

@@ -1130,7 +1130,7 @@ Where growth is built upon others, let return follow in kind.
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
 | 1.0     | Initial issuance — Reciprocity & Value Return Framework | 2026-04-21T14:12:00Z | d1b98dda84a980edfc352aacc3ead94d4787d4da763d3a8ce68ebb85ed90855f    |
 | 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  37e16ab0f745647ee0fac2424ef326688e4166eb83885bd21f2684e2e45092c8  |
-| 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | |
+| 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | 6ccf3c451b4b2068fba43e7d2fd89b798c53686e9dfce01b5b8c0fb807ee421f |
 
 ---
 

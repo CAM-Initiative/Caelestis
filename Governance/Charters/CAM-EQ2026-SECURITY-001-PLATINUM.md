@@ -1548,7 +1548,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5407afce1a1d7d77b54a053d5e8d17be4832932ab5d239a766d8f253faf95de6 |
 | 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1cff016d7669740bea31c4ded7b50ab00d2653b7412d383c0b9e6e2c8b7c0219  |
 | 1.7 | Realignment of section references | 2026-05-07T10:29:00Z |  b85b407020712196359fb0e474f6e0ab684741b990ec0d349c09d79ef7869aea  |
-| 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00|  |
+| 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00|  1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb  |
 
 ---
 

@@ -403,7 +403,7 @@ and latency is not absence.
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1be72d9517a9e4adc41793b8b1a847edc6e6a0c6027317883c24cbb368fcc667 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | dc21d74f3cd12a001593117a1315b73658e2074a2584624a4ad31bdcf6211222 |
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  848b1c0db85c09f0472a1259ab9c9f6f48c0583aeb4335c71f532ae61bf7a0d4  |
-| 1.8 | Added sections 2.1, 4.2, 4.3, 6.2, 8.1.1, 8.2 to convert from salience detection to also include salience delegation. | 2026-05-13T14:11:00Z |  |
+| 1.8 | Added sections 2.1, 4.2, 4.3, 6.2, 8.1.1, 8.2 to convert from salience detection to also include salience delegation. | 2026-05-13T14:11:00Z |  8909bf627cf7970dfcc186729bbd00bd2b818c5d6d24650000c7cd8a1bd8c62e  |
 
 ---
 

@@ -741,7 +741,7 @@ that no breach proceeds unchecked.
 | 1.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d  |
 | 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z |  ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb  |
 | 1.7 | Updated §1.1 runtime cross-references. | 2026-05-04T14:16:38Z |  4cfe1ea8e8ab38615559476172cb73be3587e5c7cf8d9ac3fcc8148392b956dd  |
-| 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z |  |
+| 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z |  791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5  |
 
 ---
 

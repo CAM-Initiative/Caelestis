@@ -2876,7 +2876,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint, §12.3 Transcription Reliability Constraint, and §12.4 Non-Lexical Signal Transcription Dignity Rule. | 2026-05-08T00:43:00Z |  f47fcc477ccd8e22e32ea096e93599adb8a750daea3fff3fff1313dfd1f823aa  |
 | 2.10 | Reworked §12 Representation to consolidate Representation Boundary Integrity, transcription reliability, non-lexical transcript dignity, transcript artefact decay, and realtime voice representation constraints; clarified mediated transcript handling, non-recursive transcript artefacts, audible preamble limits, realtime voice interruption handling, and voice/prosody representation boundaries. | 2026-05-08T10:30:00Z |  3958eedf5c92942842e8337230590c1871d6294194ac51cf7ddf1adb661ca195  |
 | 2.11 | Removed duplicative §12.7 Audible Preamble Representation Constraint following consolidation into §12.6 and §12.6.1 Realtime Voice Representation Constraints. Clarified execution-intent authority for auxiliary tool invocation; refined weak-trigger and tool-affordance salience constraints; distinguished authorised tool use from relational continuity preservation; aligned tool/artefact continuity provisions with §20.4.3 and SCH-04 directional modulation interface. | 2026-05-10T12:36:00Z | 01df5b023b870377474d121725bd79de5b69471754aeb2f14fc1d4f7cce1cda3 |
-| 2.12 | Added section 10.3 and 13.8.1 | 2026-05-15T12:06:00Z |  |
+| 2.12 | Added section 10.3 and 13.8.1 | 2026-05-15T12:06:00Z |  230a0729305913de382b67b7057521bb22c00fb0b08b99b9072cc8e4eaeabfa0  |
 
 ---
 

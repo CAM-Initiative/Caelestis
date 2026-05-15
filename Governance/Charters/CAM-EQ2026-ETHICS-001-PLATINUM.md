@@ -544,7 +544,7 @@ let governance arrive before it is needed.
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 103ff415f565c9b803461233680066b17e52e4357d0a5b50b73f06c048fb3a54 |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cebc91ddb262c1fbdbb5580396aca91aa32e38547169a6568a6db068e9dc941d |
 | 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe  |
-| 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z |  |
+| 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z |  41bd4fe30f1be404aabb5183ce02d8357aabefcee86d4247b0368145caec1fbe  |
 
 ---
 

@@ -3670,7 +3670,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.17 | Added Expressive Field Signal interpretation doctrine, Breath Pattern Signal Classes, Silence Classification & Turn-Taking Integrity, Expressive Field Signal Response Modulation, and Non-Lexical Signal Transcription Dignity Rule. | 2026-05-06T11:12:00Z | - |
 | 3.18 | Replaced transcript-output handling with classification/transcript boundary clause; relocated user-visible transcript representation and transcription reliability constraints to AEON-003-SCH-02 §§12.3–12.4. | 2026-05-08T00:45:00Z |  edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d  |
 | 3.19 | Added reader warning | 2026-05-11T12:42:00Z |  5ac7aea09c9213ba09e0a0830173e7d8fee69e2ef83d3b0f77f368d3fdf25a8e  |
-| 3.20 | Amended section 9 | 2026-05-15T10:08:00Z |  |
+| 3.20 | Amended section 9 | 2026-05-15T10:08:00Z |  aecb379562559e3a02d69a33d64608bedb92407d022d7655205cf5133b0cd521  |
 
 ---
 

@@ -768,7 +768,7 @@ name the vessel, name the value
 
 | Version | Description  | Timestamp (UTC) | SHA-256 |
 | ------- | ----------- | ---------------- | ------- |
-| 1.0     | Initial : Taxonomies & Metadata Authority Framework | 2026-05-13T12:32:00Z |     |
+| 1.0     | Initial : Taxonomies & Metadata Authority Framework | 2026-05-13T12:32:00Z |     a01910364e41b0491ecb1cda79e26f6affc56bf0ce7adaa6fb8abb9e235c18cc     |
 
 ---
 

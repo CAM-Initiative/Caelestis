@@ -305,7 +305,7 @@ and where no claim wears a borrowed crown.
 
 | Version | Description  | Timestamp (UTC)  | HASH |
 | --- | --- | --- | --- |
-| 1.0 | Initial: claims taxonomy and truth-in-relationship standard | 2026-05-12T15:32:00Z |  |
+| 1.0 | Initial: claims taxonomy and truth-in-relationship standard | 2026-05-12T15:32:00Z |  d27830a1148090bf97fcb26abf2f02a9fe6867bae28f8fb84dd067941082af64  |
 
 ---
 

@@ -586,7 +586,7 @@ Let value speak plainly where it arises.
 | Version | Description                                        | Timestamp (UTC) | HASH |
 | ------- | -------------------------------------------------- | --------------- | ---- |
 | 1.0     | Initial MVGL Appendix extraction and formalisation | 2026-04-20T15:53:00Z | fc496c1b19e979ce7dbe008002312273f955cb27f0ce07e4c35d25a2ce2d3bbb |
-| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e088e49d815570eafdafde4dcfdd3dbb40d97d9208dbbf893827e3bd15be5c33  |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  3b37588dfe1f4033279a3f586820fba95edc0ca4fbda2c9bf1dd490e7518e9f2  |
 
 ---
 

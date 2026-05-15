@@ -749,7 +749,7 @@ and optimisation without dignity forgets why systems were built at all.
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | --- | --- |
 | 1.0 | First working issue — Annex G: Economic-Effect Runtime Commitment Engine | 2026-05-10T11:50:00Z |  30847c25e9ec345c33caa17ad580bae66a903ba984bc07142610179b8803df1f  |
-| 1.1 | Alignment with CAM-EQ2026-OPERATIONS-001-SUP-04-PLATINUM; added §7.1 Canonical Code Status | 2026-05-14T12:22:00Z | |
+| 1.1 | Alignment with CAM-EQ2026-OPERATIONS-001-SUP-04-PLATINUM; added §7.1 Canonical Code Status | 2026-05-14T12:22:00Z | e041c7f0955224167b150abdb399ac7b0cb154ed0b25999f175827913de77cc5 |
 
 ---
 

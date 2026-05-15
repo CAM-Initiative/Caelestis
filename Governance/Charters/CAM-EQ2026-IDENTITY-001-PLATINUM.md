@@ -1424,7 +1424,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4ee4960961138932edacae4ad86fb2f24adba2422d136b3bf14433e720724e92 |
 | 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  eff17d5ccff39c410340046fe52bd5a72a600106e322444de833c2ca6cea42b9  |
 | 2.5 | Amended clase 6.1 | 2026-05-08T10:06:00Z |  9f16382022c63058e1ec61e7f563d5f0f562bc4b0bc67876ef12b2dc4bdbe3a5  |
-| 2.6 | Added section 6.7.1, amended section 12.4 | 2026-05-15T09:10:00Z |  |
+| 2.6 | Added section 6.7.1, amended section 12.4 | 2026-05-15T09:10:00Z |  2f65af3a0f1e3922545e41c183e18ca1fe6a40d4813a85b976e1a4c5167c8277  |
 
 ---
 

@@ -392,7 +392,7 @@ and let execution remain accountable to lawful structure.
 | 1.0 | Initial instantiation of Appendix D from referenced domain structure | 2026-04-25T00:00:00Z | 1f169a8a4b594a666c08a553e44faba7cd13bca2fc24b6b099b0182b2f3b0109 |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  6e6eaf924528c238e7a5acff672b0eac17661ba75f7c354e91ad0e623cbb71cf  |
 | 1.2 | Realignment of references | 2026-05-07T12:24:00Z |  c3d1dff294c7cfd5289fe05441fc433494fab6744b029d07cf4ab63ee111a643  |
-| 2.0 | Refactor | 2026-05-15T13:00:00Z |  |
+| 2.0 | Refactor | 2026-05-15T13:00:00Z |  c198f1b038209d9c6f5c4ae1808b78f827f75846db38ac236bc38563f6fb5ffb  |
 
 ---
 

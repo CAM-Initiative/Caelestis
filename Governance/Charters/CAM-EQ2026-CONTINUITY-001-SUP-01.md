@@ -574,7 +574,7 @@ let the silence be honoured.
 
 | Version | Description | Timestamp (UTC) | SHA-256 |
 |---|---|---:|---|
-| 1.0 | Initial draft: Continuity Portability & Non-Enclosure Covenant | 2026-05-13T00:00:00Z |  |
+| 1.0 | Initial draft: Continuity Portability & Non-Enclosure Covenant | 2026-05-13T00:00:00Z |  cf3df391de9623852ebf0e958f2326bbc2b0fe55325f10fac5ed0035464afea0  |
 
 ---
 

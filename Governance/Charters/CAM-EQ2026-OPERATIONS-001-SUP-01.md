@@ -379,7 +379,7 @@ and let execution remain accountable to lawful structure.
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  526a0ac37dcdbe399616e5cf844c8280fa3385505cc79c0aa4f7e836b565e31c  |
 | 1.2 | Added cross-domain handoff record requirements, constrained continuation evidence fields, audit trigger expansion, and metadata alignment with OPERATIONS procedural routing responsibilities. | 2026-05-03T03:37:00Z | e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941 |
 | 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z |  3f754c56ab1d40d279db8efd3c99ab18fa30241f8cb0947961a837b568928afe  |
-| 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z |  |
+| 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z |  0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e  |
 
 ---
 

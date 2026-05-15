@@ -466,7 +466,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f9e333105a2449188cfc881f36cef10aa9ec9f803e0db952732ded79d9295a32 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f8e4139f4ab9981452c2ab1df8133675406f78b7184d9feac71354a2aa39a3c9 |
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d254e6dc531821cd575f641a91b5f693df2b5d4e66323d705e62867b8df32045  |
-| 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z |  |
+| 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z |  4a731b5b0f76daac731094d3f914ac111f3a95232f36232d944d017bcc302eff  |
 
 ---
 

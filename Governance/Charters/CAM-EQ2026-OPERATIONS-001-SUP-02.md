@@ -804,7 +804,7 @@ and let execution remain accountable to lawful structure.
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  90a5f1e974720fae3162724246dfc1812413a06caf12546488399c1152ef6633  |
 | 1.2 | Added cross-domain signal routing, procedural ownership, escalation signal/action separation, single active incident owner rule, constrained continuation recording, and arbitration referral boundary. | 2026-05-03T04:09:00Z |  b037669f98c52c0eca4eb2c592e9e6f72ab7b2212781a18a926145e462421c2b  |
 | 1.3 | Incorporated reviewer feedback | 2026-05-09T10:20:00Z | a5706af180fbfad5483b78b91e8bd4a10abd53f30863b936d56abd1360a90d08 |
-| 1.4 | Added clause 5.1.1 Proportional Confirmation and Friction Discipline | 2026-05-15T12:01:00Z |  |
+| 1.4 | Added clause 5.1.1 Proportional Confirmation and Friction Discipline | 2026-05-15T12:01:00Z |  bbb45017b7ba17308291e7a333460979b9680d921f6874d1a2216c0ec0d3f07d  |
 
 ---
 

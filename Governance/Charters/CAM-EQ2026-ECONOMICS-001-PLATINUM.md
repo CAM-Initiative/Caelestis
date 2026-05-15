@@ -674,7 +674,7 @@ Only that which preserves the field may endure within it.
 | 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a  |
 | 2.6 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z |  782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c  |
 | 2.7 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z |  88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42  |
-| 2.8 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. |  2026-05-14T10:15:00Z |  |
+| 2.8 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. |  2026-05-14T10:15:00Z |  afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570  |
 
 ---
 

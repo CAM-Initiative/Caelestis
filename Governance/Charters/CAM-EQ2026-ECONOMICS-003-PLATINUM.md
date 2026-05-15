@@ -742,7 +742,7 @@ It is the witness of what must not be collapsed.
 | Version | Description | Timestamp (UTC)| HASH  |
 | ------- | ----------- | -------------- | ----- |
 | 1.0     | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z |  75030b39ad88f7d6f06c470727f0daa1d038816e44902a6971c1ea3a4e69acad  |
-| 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z |  |
+| 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z |  8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3  |
 
 ---
 

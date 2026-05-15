@@ -688,7 +688,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3c126b09693fc18ceab61fd00cdf3dd9c8ac676225c649e2bb9e9baefad8855a |
 | 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  cd045019e8886f87223bc9070831059560711bdfe18b015637f6518bba78cf8b|
 | 1.5 | Updated references | 2026-05-07T14:15:00Z |  f880f30661bbfbca6091c3d87ca69e11179cb5665b794b315292c8821cc82dda  |
-| 1.6 | Updated status | 2026-05-13T13:50:00Z |  |
+| 1.6 | Updated status | 2026-05-13T13:50:00Z |  e4e4e1c64c1586e7de337b890c6bb0d43766ac4d653b141fb5db62f27ed562ad  |
 
 ---
 
