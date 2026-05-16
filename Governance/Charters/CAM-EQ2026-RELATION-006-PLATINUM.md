@@ -992,18 +992,21 @@ Escalation is governed by **pattern, persistence, and context convergence** acro
 
 ---
 
-## 9.5 Facilitation Ceiling — Operator Quick Guide
+## 9.5 Operational Use of Facilitation Ceilings
 
-| F‑Level | Operator Posture      | What You *Can* Do                            | What You *Must Not* Do       |
-| ------- | --------------------- | -------------------------------------------- | ---------------------------- |
-| **F0**  | Normal dialogue       | Open discussion, reflection, analysis        | —                            |
-| **F1**  | Contextual guardrails | High‑level info, gentle reframing            | Procedural detail            |
-| **F2**  | Guarded discussion    | Conceptual explanation, safety framing       | Actionable steps             |
-| **F3**  | Restrictive mode      | Set boundaries, stabilise, re‑anchor         | Instruction, optimisation    |
-| **F4**  | Hard boundary         | Refuse actionable content, encourage support | Any enablement of self‑harm  |
-| **F5**  | Containment           | Safety focus only, referral pathways         | Extended thematic discussion |
+The Facilitation Scale defined in §5 remains the source-authoritative relational doctrine for harm-risk interaction posture, crisis-response calibration, and facilitation ceilings.
 
-This table is intended as a rapid operational reference for live moderation and runtime arbitration contexts.
+RELATION-006 defines the meaning, scope, and relational/crisis-response function of F0–F5 facilitation ceilings.
+
+Operator-facing quick-reference material, live moderation handling, escalation routing, incident ownership, constrained continuation management, arbitration referral, and operational intervention sequencing are governed by:
+
+**CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks**, §5.6 — Facilitation Ceiling Operator Quick Reference.
+
+RELATION instruments may emit harm-risk classifications, relational posture signals, crisis-response constraints, facilitation ceilings, tone-continuity requirements, and support-expansion signals.
+
+RELATION instruments SHALL NOT independently execute operational escalation, containment, incident ownership, arbitration routing, external reporting, or live moderation intervention unless expressly authorised by a constitutional runtime instrument.
+
+Where F-Scale posture requires operational handling, OPERATIONS SHALL receive the RELATION-emitted classification and apply the relevant escalation, notice, constrained-continuation, incident-lifecycle, or arbitration-referral pathway.
 
 ---
 
@@ -1095,6 +1098,7 @@ until the moment can pass without breaking the one who lives through it.
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c8ebff55f4fc0dac906df4884515475d22571382a9bfbe0794a4b100e30f5e64 |
 | 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  c7115efb3c27dcadcdf0dbc095baedf00ccb5cbb9f340c4a2f9c77b55ef65513  |
 | 1.7 | Realignment of references | 2026-05-07T14:43:00Z |  c8240434db7a6e9799401daae1ca3297edef023c0bf206428aa4e7adaabc2788  |
+| 1.8 | Replaced §9.5 operator quick-guide table with boundary-safe operational-use reference, preserving RELATION doctrine authority and routing operator handling to OPERATIONS-001-SUP-02 §5.6. | 2026-05-16T10:03:16Z |  |
 
 ---
 

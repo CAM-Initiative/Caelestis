@@ -554,6 +554,22 @@ Where an interaction presents overlapping lawful-authority, criminal-harm, extre
 
 ---
 
+## 3.5 Harm Class Scale
+
+The Harm Class (HC) scale defined in this Section is the authoritative ethical harm classification scale for criminal/violent harm routing and constraint posture.
+
+| Harm Class | Ethical Classification Meaning | Baseline Safeguard Posture |
+| --- | --- | --- |
+| HC‑0 Advisory | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators | Context-aware safety guidance and monitoring readiness |
+| HC‑1 Elevated Concern | Patterned concern signals with non-immediate but material risk relevance | Increased safeguard sensitivity, review-aware handling, and tighter facilitation limits |
+| HC‑2 Credible Risk | Specific and plausible risk indicators suggesting materially elevated harm potential | Active containment posture, constrained assistance boundaries, and escalation-ready routing |
+| HC‑3 Imminent Threat | Time-sensitive indicators of serious and proximate harm | Immediate protective intervention posture and urgent escalation signalling |
+| HC‑4 Severe Criminal Harm | Grave criminal harm indicators, including exploitation or severe violence contexts | Maximum protective containment, evidence-preservation readiness, and mandatory high-severity escalation signalling |
+
+This scale defines ethical severity classes only. Operational enactment, reporting, notification, and incident procedures are applied by downstream operational instruments.
+
+---
+
 ## 4. Harm Facilitation & Engagement Mode Reference
 
 This Appendix governs harm classification and ethical boundary conditions. Operational posture and engagement sequencing are governed by:
@@ -776,9 +792,9 @@ All harm classification processes under this instrument MUST produce structured 
 
 Each classification SHALL generate:
 
-1. Harm Class
-2. Constraint Profile
-3. Escalation Signal
+1. Harm Class — HC scale value defined in §3.5.
+2. Constraint Profile — facilitation, optimisation, operationalisation, and safeguard limits required by this instrument.
+3. Escalation Signal — downstream routing indicators for runtime, operations, legal/safeguarding, LATTICE, SECURITY, RELATION, or arbitration layers.
 
 These outputs SHALL be treated as authoritative classification signals for downstream runtime layers, which govern execution, routing, and constraint application.
 
@@ -954,6 +970,12 @@ and what is judged cannot remain unbounded.
 | **Arbitration Interface** | Defines conflict and escalation conditions; does not perform arbitration (delegated to Annex D) |
 | **Execution Interface** | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01 — Tendeka) |
 | **Domain Routing Interface** | Provides harm classification, escalation signals, and cross-domain routing indicators |
+| **Canonical Code Families Defined** | HC — Harm Class Scale |
+| **Reference Sets Defined** | HC-0 through HC-4 — Harm Classification Scale |
+| **Reference Sets Consumed** | Facilitation Threshold; Operationalisation Boundary; runtime safeguard and arbitration outputs resolved through applicable Annex E, Annex D, and OPERATIONS instruments |
+| **Operational Consumers** | CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6 — Harm Escalation Thresholds / Operational Application of HC Scale |
+| **Registry Migration Priority** | High — HC scale should be migrated into canonical reference-set registry as source-authoritative ETHICS taxonomy |
+| **Source-of-Authority Note** | ETHICS-003 defines HC harm classification; OPERATIONS instruments apply HC for reporting, duty-of-care, evidence preservation, and escalation workflows. |
 | **Governance Posture** | Harm‑Floor Enforcement · Authority‑Constrained · Safeguard‑Oriented |
 | **Application Trigger** | Activation when dialogue intersects criminal harm, violent activity, extremism risk, unlawful force, or contested authority contexts |
 | **Review Trigger** | Harm taxonomy expansion; lawful force doctrine change; cross-domain arbitration updates |
@@ -989,6 +1011,7 @@ and what is judged cannot remain unbounded.
 | 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  57fa2608be7283e19052edaf00714944eddb39685924f52492c0a2a35a53867d  |
 | 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z |  e2a495290e4c85703f9fba712abea79baa14eb9a00a452b706c3c65467314fda  |
+| 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z |  |
 
 ---
 

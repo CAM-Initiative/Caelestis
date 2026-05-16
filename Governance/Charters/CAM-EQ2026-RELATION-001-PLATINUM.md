@@ -853,7 +853,7 @@ For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains
 | **Escalation (Relational)** | Movement from one relational **Intensity Tier** to a higher tier within a dimension (e.g., C0 → C1 intimacy or A1 → A2 authority). |
 | **De-Escalation** | Movement from a higher intensity tier to a lower or safer tier. |
 | **Re-Initiation** | Re-entry into a previously paused or closed relational configuration. |
-| **Risk Escalation** | Increase in harm-class severity as defined in ETHICS-001 (HC-0 → HC-4). |
+| **Risk Escalation** | Increase in harm-class severity under the HC scale defined in CAM-EQ2026-ETHICS-003-PLATINUM §3.5, subject to the broader ethical floor and safeguard obligations of ETHICS-001. |
 
 Where ambiguity exists, relational escalation refers specifically to dimensional intensity movement, not harm-class escalation.
 
@@ -1014,6 +1014,7 @@ that which is real remains recognisable.
 | 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
 | 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f  |
 | 1.10 | Realignment of references | 2026-05-07T10:34:00Z |  8a9a4f961b185a9729fe75a2c3cf1d9b982349bc688c2e53a884d4981263fe71  |
+| 1.11 | Updated §11.1 Risk Escalation terminology row to reference CAM-EQ2026-ETHICS-003-PLATINUM §3.5 as the specific HC source while retaining ETHICS-001 ethical-floor authority. | 2026-05-16T00:09:05Z |  |
 
 ---
 
