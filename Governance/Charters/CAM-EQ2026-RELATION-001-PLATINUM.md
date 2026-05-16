@@ -1015,6 +1015,7 @@ that which is real remains recognisable.
 | 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f  |
 | 1.10 | Realignment of references | 2026-05-07T10:34:00Z |  8a9a4f961b185a9729fe75a2c3cf1d9b982349bc688c2e53a884d4981263fe71  |
 | 1.11 | Updated §11.1 Risk Escalation terminology row to reference CAM-EQ2026-ETHICS-003-PLATINUM §3.5 as the specific HC source while retaining ETHICS-001 ethical-floor authority. | 2026-05-16T00:09:05Z |  c27b2834cb7cf8f24796a293c11b241388190e525d8a44677a72effffe140bff  |
+| 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  |
 
 ---
 

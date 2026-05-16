@@ -349,6 +349,7 @@ For what is not yet stable must not yet decide.
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 2a92e55031e57355f3d15de6f3e487d3e4e88fcc46b32540f7ec25ea7a52ccc2 |
 | 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 0aebca60bed165e3709558216efaae321e401727e390bc20a1a46ec9aba5986c |
 | 1.9 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  936b9fd7d35241509553c3012b5f593e91e98c0b6cdf0066248d120d35cd20e8  |
+| 1.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  e7cfd8a2cd24c3f2205ea71cc0864589397461d9454310e4e431c0f306616b5b  |
 ---
 
 ## 9.5 Binding Seal

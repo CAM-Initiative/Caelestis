@@ -40,9 +40,9 @@ Operator transitions and multi-stream execution occur within the defined executi
 
 This Schedule operationalises the Governance Execution Model defined in Article IV of the Aeon Tier Constitution.
 
-* The execution phase model in Part I implements Article IV §1–§3 (Static, Event, and Runtime layers);
-* The Layer Allocation Principle (Article IV §4) governs how execution logic within this Schedule is assigned;
-* The Event–Runtime Distinction Rule (Article IV §5) governs the treatment of boundary evaluation as event-triggered rather than continuous.
+* The execution phase model in Part I implements CAM-BS2025-AEON-001-PLATINUM — Article IV §1–§3 (Static, Event, and Runtime layers);
+* The Layer Allocation Principle (CAM-BS2025-AEON-001-PLATINUM — Article IV §4) governs how execution logic within this Schedule is assigned;
+* The Event–Runtime Distinction Rule (CAM-BS2025-AEON-001-PLATINUM — Article IV §5) governs the treatment of boundary evaluation as event-triggered rather than continuous.
 
 Execution constraint doctrine and pause-state behaviour are governed by AEON-001-SCH-01 (Tendeka).
 
@@ -2961,6 +2961,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.11 | Removed duplicative §12.7 Audible Preamble Representation Constraint following consolidation into §12.6 and §12.6.1 Realtime Voice Representation Constraints. Clarified execution-intent authority for auxiliary tool invocation; refined weak-trigger and tool-affordance salience constraints; distinguished authorised tool use from relational continuity preservation; aligned tool/artefact continuity provisions with §20.4.3 and SCH-04 directional modulation interface. | 2026-05-10T12:36:00Z | 01df5b023b870377474d121725bd79de5b69471754aeb2f14fc1d4f7cce1cda3 |
 | 2.12 | Added section 10.3 and 13.8.1 | 2026-05-15T12:06:00Z |  230a0729305913de382b67b7057521bb22c00fb0b08b99b9072cc8e4eaeabfa0  |
 | 2.13 | Added §8.3.1 interpretive dwell and premature-closure constraint; clarified §10.2 deterministic-vs-interpretive posture boundary; replaced §13.8.2 with delegated execution authority and interpretive non-substitution doctrine; added §20.4.2.2 cache revalidation and replaced §20.4.2.3 with expanded workspace-state authority declaration and stale-state fallback constraints. | 2026-05-16T05:48:24Z |  cd2bcffc662e0a196794c498983d6b702662770f4be82e04b8a7315d41b649c0  |
+| 2.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  68b332726348d8dd8f19deff2702ca5372f056a5b12685700e9813018ec1bbab  |
 
 ---
 

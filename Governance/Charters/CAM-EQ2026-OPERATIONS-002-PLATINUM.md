@@ -71,7 +71,7 @@ To maintain coherence between doctrine, operational procedure, and runtime safeg
 
 | Trigger Source | Operational Pathway | Governing Layer |
 | --- | --- | --- |
-| Runtime safeguard trigger | Arbitration Initiation Pathway (§4) | Operational Layer (this Appendix) |
+| Runtime safeguard trigger | CAM-EQ2026-OPERATIONS-002-PLATINUM — Arbitration Initiation Pathway §4 | Operational Layer (this Appendix) |
 | Governance conflict classification | Annex D preference order | Doctrine Layer |
 | Determination implementation | Runtime Arbitration Schedules | Runtime Layer |
 
@@ -454,6 +454,7 @@ In this way, justice travels through governance without distortion.
 | 1.1     | Amendments to align with OPERATIONS-004-SUP-01 | 2026-04-24T11:43:00Z | b44c34525f676f33456c9a87fe90827c48247e4953041794ba35e2c53b9936e1 |
 | 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  d77e2a258e9f590234455e7dc6d84932f58bb0b7c6c5161deca1f2cd1a7e2f64  |
 | 1.3 | Added §5 triage cross-reference preserving RELATION-emitted F-Scale classification and routing operator application to OPERATIONS-001-SUP-02 §5.6 without redefining F doctrine. | 2026-05-16T10:03:16Z |  d0ec36a5b9fb6e5630fa906114b023c65166f3017f29dcc1cd67476b44bb2ff9  |
+| 1.4 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  |
 
 ---
 

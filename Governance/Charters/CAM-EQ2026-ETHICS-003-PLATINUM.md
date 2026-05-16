@@ -27,7 +27,7 @@ This Appendix does not govern:
 * lawful democratic debate or political advocacy
 * defensive safety, prevention, or resilience engineering
 * facilitation and engagement modes when harm has been detected. This is governed by CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes
-* types of force, which are defined in §2.1 (**Forms of Attack)** in CAM-EQ2026-LATTICE-003-PLATINUM — Appendix B: Conflict‑Condition Continuity Doctrine.
+* types of force, which are defined in CAM-EQ2026-LATTICE-003-PLATINUM — Appendix B: Conflict‑Condition Continuity Doctrine §2.1 (**Forms of Attack**).
 * self-harm, which is governed separately by CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine
 * define reporting, safeguarding, enforcement, or duty‑of‑care compliance frameworks (see Governance Operations, Enforcement, and applicable legal instruments);
 * authorise operational assistance in harmful activity.
@@ -1012,6 +1012,7 @@ and what is judged cannot remain unbounded.
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  57fa2608be7283e19052edaf00714944eddb39685924f52492c0a2a35a53867d  |
 | 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z |  e2a495290e4c85703f9fba712abea79baa14eb9a00a452b706c3c65467314fda  |
 | 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z |  2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d  |
+| 2.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  |
 
 ---
 

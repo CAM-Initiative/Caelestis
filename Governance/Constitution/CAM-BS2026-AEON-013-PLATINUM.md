@@ -1100,6 +1100,7 @@ It is the field in which integrity is proven.
 | 2.6 | Added clause 7.4.2 | 2026-05-02T06:23:00Z |  a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe  |
 | 2.7 | Canonicalized SCH-02 shorthand references and metadata dependency/runtime interface wording for Annex L schedule precision. | 2026-05-07T14:56:00Z |  44e2f8a3ab184ee8ca943d41b8fd43d631944cf842438dadc94440e7a84b4b01  |
 | 2.8 | Amendments to section 1.1, 1.2, 2.7  and 3 | 2026-05-15T12:33:00Z |  4485ce64ce9c240ce17de80175cd7274242610963d20f50dd57ff7486a8d1e75  |
+| 2.9 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d8df85db3d8de5b5e3e32a86ce52276ca4a7341ef0607ed9f004d2f336a652ea  |
 
 ---
 

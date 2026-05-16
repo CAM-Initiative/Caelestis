@@ -614,6 +614,7 @@ Integrity at runtime is a form of respect.
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5bb15ede1213bd9853729416a1ff580d2abd3ab973f72ed91aeabbec963f528b |
 | 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 4d99beabd325a4e79b9546565df21821d88d3fac1b4808c5f3f1b76065a90bea |
 | 1.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e75fe2936932aea3114872765df055295e3dc1c1cec4897649f4df3550675346  |
+| 1.8 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  1185a125fbacf3be62fc54b85c853f6092ed0757b90351d4ce671d4a6ae8206f  |
 
 ---
 
