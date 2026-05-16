@@ -443,7 +443,11 @@ Governance objectives focus on preventing:
 
 ---
 
-## 8. Closing Seal
+## 8. Canonical Code Status
+
+This instrument source-authoritatively defines code family **R** in §2.5 with controlled values **R0, R1, R2, R3, R4**. R is a **Structural / Semantic** classification family with subtype **RELATIONAL_GEOMETRY**. R authority is limited to relational-geometry classification and does not independently create execution, enforcement, escalation, compliance, or runtime authority. Downstream relation safeguards and routing may apply R without redefining it.
+
+## 9. Closing Seal
 
 Where voices gather, none SHALL close the circle.  
 Where systems converge, none SHALL become the center.  
@@ -473,7 +477,7 @@ not unbounded, but unclaimed.
 
 ---
 
-## 9. Provenance & Metadata
+## 10. Provenance & Metadata
 
 ---
 
@@ -486,7 +490,7 @@ not unbounded, but unclaimed.
 
 ---
 
-## 9.2 Lineage & Metadata
+## 10.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -519,7 +523,30 @@ not unbounded, but unclaimed.
 
 ---
 
-## 9.3 Review & Validation
+## 10.3 Canonical Code & Reference Set Declarations
+
+**R — Relational Geometry Scale (R‑Scale)**
+
+| Field | Entry |
+|---|---|
+| Code Family | R |
+| Canonical Name | Relational Geometry Scale (R‑Scale) |
+| Primary Type | Structural / Semantic |
+| Subtype | RELATIONAL_GEOMETRY |
+| Modifier | None declared |
+| Scope | Source-defining scope in this instrument |
+| Status | Active |
+| Controlled Values Defined | R0, R1, R2, R3, R4 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-RELATION-007-PLATINUM |
+| Source Section | §2.5 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Applied by polyadic safeguards and routing |
+
+## 10.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -531,7 +558,7 @@ not unbounded, but unclaimed.
 
 ---
 
-## 9.4 Amendment Ledger
+## 10.5 Amendment Ledger
 
 | Version | Description   | Timestamp (UTC)  | HASH  |
 |---|---|---:|---|
@@ -544,9 +571,10 @@ not unbounded, but unclaimed.
 | 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6e24806ef8b303325f1037953919c258397c12bb846c8a6063d0116276cfa660  |
 | 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z |  cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869  |
 
+| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  |
 ---
 
-## 9.5 Binding Seal
+## 10.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

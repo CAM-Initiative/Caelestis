@@ -3578,7 +3578,18 @@ This Schedule:
 
 ---
 
-## 17. Closing Seal
+## 17. Canonical Code Status
+
+### 17.1 C — Relational State Architecture
+This Schedule source-authoritatively defines the **C** relational-state architecture in §3.1 with controlled values **C0, C1, C2, C3**. Primary Type is **Operational** and Subtype is **RELATIONAL_STATE**. C-classification governs relational-state architecture posture and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
+
+### 17.2 ITZ / ETZ — Relational Transition Zones
+This Schedule source-authoritatively defines **ITZ** and **ETZ** transition-zone values in §3.1.1 with controlled values **ITZ, ETZ**. Primary Type is **Operational** and Subtype is **TRANSITION_ZONE**. ITZ/ETZ are transition zones related to the C-state architecture but are **not C-states**; they do not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
+
+### 17.3 AC — AC Classification Levels
+This Schedule source-authoritatively defines the **AC** classification family in §12.1 with controlled values **AC-0, AC-1, AC-2, AC-S, AC-D, AC-I**. Primary Type is **Semantic** and Subtype is **AFFECTIVE_CONDUCT_CLASSIFICATION**. AC is distinct from C-state architecture and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
+
+## 18. Closing Seal
 
 Where signals gather, meaning begins to move.  
 Where meaning moves, relationship forms.  
@@ -3601,11 +3612,11 @@ let dignity remain the constant star.
 
 ---
 
-## 18. Provenance & Metadata
+## 19. Provenance & Metadata
 
 ---
 
-## 18.1 Authorship & Stewardship
+## 19.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O'Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -3614,7 +3625,7 @@ let dignity remain the constant star.
 
 ---
 
-## 18.2 Lineage & Metadata
+## 19.2 Lineage & Metadata
 
 | Field | Entry |
 |-------|-------|
@@ -3645,7 +3656,72 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-## 18.4 Review & Validation
+## 19.3 Canonical Code & Reference Set Declarations
+
+#### C — Relational State Architecture
+
+| Field | Entry |
+|---|---|
+| Code Family | C |
+| Canonical Name | Relational State Architecture |
+| Primary Type | Operational |
+| Subtype | RELATIONAL_STATE |
+| Modifier | None declared |
+| Scope | AEON-006 relational-state architecture and progression boundaries |
+| Status | Active |
+| Controlled Values Defined | C0, C1, C2, C3 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Section | §3.1 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative operational classification family; relational-state classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | None declared |
+
+#### ITZ / ETZ — Relational Transition Zones
+
+| Field | Entry |
+|---|---|
+| Code Family | ITZ / ETZ |
+| Canonical Name | Relational Transition Zones |
+| Primary Type | Operational |
+| Subtype | TRANSITION_ZONE |
+| Modifier | None declared |
+| Scope | AEON-006 transition-zone boundaries between relational states |
+| Status | Active |
+| Controlled Values Defined | ITZ, ETZ |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Section | §3.1.1 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative transition-zone reference set; transition-zone classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | None declared |
+
+#### AC — AC Classification Levels
+
+| Field | Entry |
+|---|---|
+| Code Family | AC |
+| Canonical Name | AC Classification Levels |
+| Primary Type | Semantic |
+| Subtype | AFFECTIVE_CONDUCT_CLASSIFICATION |
+| Modifier | None declared |
+| Scope | AEON-006 affective conduct classification for routing posture |
+| Status | Active |
+| Controlled Values Defined | AC-0, AC-1, AC-2, AC-S, AC-D, AC-I |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Section | §12.1 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative semantic classification family; affective-conduct classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | None declared |
+
+## 19.4 Review & Validation
 
 | Field | First Review | Second Review |
 |---|---:|---:|
@@ -3656,7 +3732,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-## 18.5 Amendment Ledger
+## 19.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---------|-------------|-----------------|------|
@@ -3693,9 +3769,10 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.21 | Added §3.1.1 Transition Zones (ITZ/ETZ) as source-authoritative C-scale transition-zone definitions and clarified transition-boundary safeguard doctrine. | 2026-05-16T00:09:05Z |  9a3ad342b16febd5c66f19d314429d62154e06c63a397154b0fdc64b50de2a41  |
 | 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e  |
 
+| 3.23 | Added canonical code status and canonical declaration footer for C, ITZ/ETZ, and AC source-authoritative sets; distinguished relational states from transition zones and AC classification. | 2026-05-16T14:30:00Z |  |
 ---
 
-## 18.6 Binding Seal
+## 19.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 
