@@ -312,7 +312,7 @@ and let execution remain accountable to lawful structure.
 | 2.0 | Refactor | 2026-05-11T12:49:00Z |  ac7b27ce2734bdc00932607b80de7de8afc3e2fdb185c4fa80c4059022258f96  |
 | 2.1 | Added memory migration and continuity impact event handling, including review, restoration, re-entry, and continuity-impact ambiguity classification. | 2026-05-15T12:09:31Z |  5296ef594b9f5f2b80d09c09e53eb5dfe9719c9024cb34c8d90810bbd949bdd5  |
 | 2.2 | Added §4.1 incident-routing cross-reference preserving RELATION-emitted F-Scale classifications and routing operational use to OPERATIONS-001-SUP-02 §5.6 with doctrine/procedure distinction. | 2026-05-16T10:03:16Z |  3b8e464926b328e17d017cce438a87889e6a1fbbd56d957d82a0ee567c19bb79  |
-| 2.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  |
+| 2.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  6dbf11673eeca1d773d3258ce7e6f837fce34e7dca2153fc8cd3e670bb32dcfc  |
 
 ---
 

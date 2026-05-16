@@ -841,7 +841,7 @@ and let execution remain accountable to lawful structure.
 | 1.3 | Incorporated reviewer feedback | 2026-05-09T10:20:00Z | a5706af180fbfad5483b78b91e8bd4a10abd53f30863b936d56abd1360a90d08 |
 | 1.4 | Added clause 5.1.1 Proportional Confirmation and Friction Discipline | 2026-05-15T12:01:00Z |  bbb45017b7ba17308291e7a333460979b9680d921f6874d1a2216c0ec0d3f07d  |
 | 1.5 | Added §5.6 Facilitation Ceiling Operator Quick Reference under OPERATIONS authority (RELATION-006 §5 source doctrine), and renumbered continuity handoff pathways to §5.7. | 2026-05-16T10:03:16Z |  715e59cc8b2aae944caec0fac471e6849eb744facb20090e17867b3af79880a8  |
-| 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  |
+| 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc  |
 
 ---
 

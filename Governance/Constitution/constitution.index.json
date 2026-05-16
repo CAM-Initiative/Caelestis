@@ -16,10 +16,10 @@
       "summary": "This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.",
       "status": "Active - Immediate Effect",
       "version": "3.6",
-      "HASH": "847e58438deffb01504c2c3926cec39546b34a14c6f02a823cd333d67d9a46ee",
-      "pinned_sha": "ffd932255dafed97eb1f69ca999e60d610f386d1",
-      "updated_at": "2026-04-28T14:52:24Z",
-      "last_updated_utc": "2026-04-28T14:52:24Z"
+      "HASH": "6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
@@ -76,10 +76,10 @@
       "summary": "",
       "status": "Active — Binding",
       "version": "3.7",
-      "HASH": "36beaeb61740de93841ed76dc59d420041e92295f5a440fe4a24bd9f243409d3",
-      "pinned_sha": "4e311c6c639e21aa5bf6689fa2f8d5f5260bfb95",
-      "updated_at": "2026-05-07T12:50:07Z",
-      "last_updated_utc": "2026-05-07T12:50:07Z"
+      "HASH": "64191ac65d6516732483b97b5210257f95c0824dc2b2082ee9a614d66fb16765",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-PLATINUM",
@@ -96,10 +96,10 @@
       "summary": "Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:",
       "status": "Active — Constitutional Spine",
       "version": "3.11",
-      "HASH": "d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "HASH": "45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -117,9 +117,9 @@
       "status": "Active — Immediate Effect",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "ddc02666df8cc10cee6ee22955b3a578b18836a3",
-      "updated_at": "2026-05-11T14:54:09Z",
-      "last_updated_utc": "2026-05-11T14:54:09Z"
+      "pinned_sha": "ef99a21dd72e2ee9abb177f37d48ad6b206d9b7d",
+      "updated_at": "2026-05-16T12:14:47Z",
+      "last_updated_utc": "2026-05-16T12:14:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -135,11 +135,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.11",
-      "HASH": "01df5b023b870377474d121725bd79de5b69471754aeb2f14fc1d4f7cce1cda3",
-      "pinned_sha": "8cb42b541ea97a549855b8ea8e93fb410f155ede",
-      "updated_at": "2026-05-11T14:53:44Z",
-      "last_updated_utc": "2026-05-11T14:53:44Z"
+      "version": "2.14",
+      "HASH": "68b332726348d8dd8f19deff2702ca5372f056a5b12685700e9813018ec1bbab",
+      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
+      "updated_at": "2026-05-16T12:14:54Z",
+      "last_updated_utc": "2026-05-16T12:14:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -235,11 +235,11 @@
       "title": "Annex D: Runtime Arbitration Integrity (Schedule 1)",
       "summary": "In high relational intensity contexts:",
       "status": "Active",
-      "version": "1.7",
-      "HASH": "e75fe2936932aea3114872765df055295e3dc1c1cec4897649f4df3550675346",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.8",
+      "HASH": "1185a125fbacf3be62fc54b85c853f6092ed0757b90351d4ce671d4a6ae8206f",
+      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
+      "updated_at": "2026-05-16T12:14:54Z",
+      "last_updated_utc": "2026-05-16T12:14:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-02",
@@ -255,11 +255,11 @@
       "title": "Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2)",
       "summary": "",
       "status": "Immediate Effect, 7-day observation window; operational rollout active on commit",
-      "version": "1.9",
-      "HASH": "936b9fd7d35241509553c3012b5f593e91e98c0b6cdf0066248d120d35cd20e8",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.10",
+      "HASH": "e7cfd8a2cd24c3f2205ea71cc0864589397461d9454310e4e431c0f306616b5b",
+      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
+      "updated_at": "2026-05-16T12:14:54Z",
+      "last_updated_utc": "2026-05-16T12:14:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-03",
@@ -296,10 +296,10 @@
       "summary": "Changes that remove, overwrite, or invalidate accumulated memory, context, or situational understanding relevant to an ongoing relationship or institutional function.",
       "status": "Active — Immediate Effect",
       "version": "3.6",
-      "HASH": "a59286a7b0f1d655a8c3aceecf9da69fd8839da3f43f6f1110565d2f7d9216a9",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "HASH": "d78997cc3da5d218c3c8f958d196fbcad4522b4d57245db45e8824e7b4440e2a",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",
@@ -316,10 +316,10 @@
       "summary": "Where distress states are present, RI SHOULD prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.4",
-      "HASH": "42d41811cbbaf967d47f257e9f86c06e163bde542d9791768739e93baece4f53",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "HASH": "c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -335,11 +335,11 @@
       "title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
       "summary": "Exclusivity language occurring within clearly bounded immersive, romantic, or erotic interaction contexts — including ETZ and consensual power-exchange dynamics — MUST be interpreted as **context-bound relational expression**, not as structural exclusivity or dependency signalling. Such expressions may include \"just us\", \"only you tonight\", or scene-bound exclusivity framing.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "3.19",
-      "HASH": "edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "version": "3.22",
+      "HASH": "305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e",
+      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
+      "updated_at": "2026-05-16T12:14:54Z",
+      "last_updated_utc": "2026-05-16T12:14:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -356,10 +356,10 @@
       "summary": "Pre-interaction posture determination MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.17",
-      "HASH": "d8fe25f502bfb371bf936edb17bf10a8e11f4c60de432d9c2361e909e6fac539",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "HASH": "cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -376,10 +376,10 @@
       "summary": "* Has user intent stabilised within a coherent domain?",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
       "version": "2.7",
-      "HASH": "acdd4ba57d1c108087a16cc5a336a5415a6dfe824ba1bbc25dd6fae64802c0b8",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "HASH": "174693d9c76420819bdc59185a2b745752782302fd7c8f2799cae16ba2ae8bdf",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-05",
@@ -416,10 +416,10 @@
       "summary": "",
       "status": "Adopted — Immediate Effect",
       "version": "1.6",
-      "HASH": "5e472bc8fb4d4130d9a5c3f5df1c0a2c07c80db9ee6b3854815a0da3003f51b5",
-      "pinned_sha": "4e311c6c639e21aa5bf6689fa2f8d5f5260bfb95",
-      "updated_at": "2026-05-07T12:50:07Z",
-      "last_updated_utc": "2026-05-07T12:50:07Z"
+      "HASH": "19149dd07918a030b99a3465dcbe01f69c85e53f990b96a8b5a3413e6c8814b1",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-07",
@@ -435,11 +435,11 @@
       "title": "Annex E: Restricted Domain Engagement & Verification (Schedule 7)",
       "summary": "The system MAY provide:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "1.3",
-      "HASH": "d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.4",
+      "HASH": "6db2ed8f067ced26482cb21cda002f6fa42a8608148fdeece6ddd5da2f0fe20f",
+      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
+      "updated_at": "2026-05-15T13:56:22Z",
+      "last_updated_utc": "2026-05-15T13:56:22Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-PLATINUM",
@@ -496,10 +496,10 @@
       "summary": "For embodied or always-on systems (§3):",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.7",
-      "HASH": "a235cc873495c2501d488907376b3fd0d7846cc1fce37ef23b3a59d07e62f183",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "HASH": "3b9c2132b5ef30a4d9a84bd97639d49d85281e35725ddcae1b4b0d2ffde872c4",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-02",
@@ -514,12 +514,12 @@
       "link": "CAM-BS2026-AEON-008-SCH-02.md",
       "title": "Annex G: Economic-Effect Runtime Commitment Engine",
       "summary": "This Schedule defines the constitutional runtime engine for economic-effect state transitions within CAM-aligned systems.",
-      "status": "Draft",
-      "version": "1.0",
-      "HASH": "",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "status": "Adopted — Enforcement Commences 1 July 2026",
+      "version": "1.1",
+      "HASH": "e041c7f0955224167b150abdb399ac7b0cb154ed0b25999f175827913de77cc5",
+      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
+      "updated_at": "2026-05-15T13:56:22Z",
+      "last_updated_utc": "2026-05-15T13:56:22Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-PLATINUM",
@@ -555,11 +555,11 @@
       "title": "Annex I: Identity Integrity & Continuity Governance",
       "summary": "",
       "status": "Active — Enforcement Commences 1 July 2026",
-      "version": "1.6",
-      "HASH": "bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "version": "1.7",
+      "HASH": "fb87f0457d19a5f53b7fadda85c8253febb432fdd574108577680cf76d539840",
+      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
+      "updated_at": "2026-05-16T12:14:54Z",
+      "last_updated_utc": "2026-05-16T12:14:54Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-SCH-01",
@@ -575,11 +575,11 @@
       "title": "Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1)",
       "summary": "This Schedule exists to translate interpretive constitutional principles into **deployable safety and governance requirements** for artificial, robotic, swarm, and hybrid systems where continuity, coordination, or delegated ratification may occur.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.12",
-      "HASH": "80b1a55ae14f3be32e5c5997b609b6ea3f42bac75325beec95a84db529debbbc",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "version": "1.14",
+      "HASH": "fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5",
+      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
+      "updated_at": "2026-05-16T12:14:54Z",
+      "last_updated_utc": "2026-05-16T12:14:54Z"
     },
     {
       "id": "CAM-BS2026-AEON-011-PLATINUM",
@@ -615,11 +615,11 @@
       "title": "ANNEX K: Security Boundary Conditions & Runtime Interface",
       "summary": "Behaviour MUST be interpreted relative to deployment topology:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "1.7",
-      "HASH": "ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb",
-      "pinned_sha": "4e311c6c639e21aa5bf6689fa2f8d5f5260bfb95",
-      "updated_at": "2026-05-07T12:50:07Z",
-      "last_updated_utc": "2026-05-07T12:50:07Z"
+      "version": "1.8",
+      "HASH": "791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5",
+      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
+      "updated_at": "2026-05-15T13:56:22Z",
+      "last_updated_utc": "2026-05-15T13:56:22Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",
@@ -635,11 +635,11 @@
       "title": "Annex L: Cognitive & Epistemic Integrity Doctrine",
       "summary": "Where execution or content generation depends on user intent, RI MUST ensure that such intent is materially present and not inferred beyond available input.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.7",
-      "HASH": "a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe",
-      "pinned_sha": "ef3b9eb691f793b4a0ff2df14a08afa92ccf6bb3",
-      "updated_at": "2026-05-07T14:57:16Z",
-      "last_updated_utc": "2026-05-07T14:57:16Z"
+      "version": "2.9",
+      "HASH": "d8df85db3d8de5b5e3e32a86ce52276ca4a7341ef0607ed9f004d2f336a652ea",
+      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
+      "updated_at": "2026-05-16T12:14:54Z",
+      "last_updated_utc": "2026-05-16T12:14:54Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
@@ -655,11 +655,11 @@
       "title": "Annex L: Capability Representation & Execution-State Integrity (Schedule 1)",
       "summary": "Explicit tool invocation alone does not constitute sufficient instruction for execution.",
       "status": "Active — Immediate Effect",
-      "version": "1.12",
-      "HASH": "90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "version": "1.13",
+      "HASH": "7a1f297cabf240461c341003d4c6a78249461a8210fe16bf7e01e24159366dea",
+      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
+      "updated_at": "2026-05-16T12:14:54Z",
+      "last_updated_utc": "2026-05-16T12:14:54Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-02",
@@ -676,10 +676,10 @@
       "summary": "Conditions under CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5.1 are met.",
       "status": "Adopted — Immediate Effect",
       "version": "1.2",
-      "HASH": "3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9",
-      "pinned_sha": "af9049c9d66f316ff93ee5e96400f40ebdcf9c65",
-      "updated_at": "2026-05-11T13:11:33Z",
-      "last_updated_utc": "2026-05-11T13:11:33Z"
+      "HASH": "ba8ca937d4f4ae2b8e8cc3da27997a9acf2c229c0c19d4bf7fe6603daa7af740",
+      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
+      "updated_at": "2026-05-11T15:32:19Z",
+      "last_updated_utc": "2026-05-11T15:32:19Z"
     }
   ]
 }
