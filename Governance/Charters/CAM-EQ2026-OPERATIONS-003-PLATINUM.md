@@ -87,7 +87,7 @@ Incident intake, triage, and routing SHALL follow Governance Operations domain p
 
 Where cross-domain signals are present, OPERATIONS SHALL preserve domain signal provenance and assign or identify a single active incident owner in accordance with CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks.
 
-Where an incident involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHOULD preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006 §5.
+Where an incident involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHOULD preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006-PLATINUM §5.
 
 Operational application of F0–F5 ceilings during incident handling SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02 §5.6 — Facilitation Ceiling Operator Quick Reference.
 

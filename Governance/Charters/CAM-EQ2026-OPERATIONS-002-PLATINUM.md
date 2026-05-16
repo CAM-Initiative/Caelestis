@@ -183,7 +183,7 @@ Upon initiation, matters SHALL be triaged by:
 
 Triage outcomes SHALL determine routing pathway and procedural depth.
 
-Where arbitration initiation involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHALL preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006 §5.
+Where arbitration initiation involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHALL preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006-PLATINUM §5.
 
 Operator-facing application of F0–F5 ceilings SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02 §5.6 — Facilitation Ceiling Operator Quick Reference.
 
