@@ -27,7 +27,7 @@ The purpose of this Annex is to:
 
 This Annex does not prescribe behavioural outputs. It defines the **constraints and invariants** within which all valid expressions MUST occur.
 
-Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in Annex B §5.2.
+Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §5.2.
 
 ---
 

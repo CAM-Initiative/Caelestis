@@ -121,7 +121,7 @@ Type 6 events are distinct from Type 1–5 stack clashes defined in Annex D.
 
 They arise **after authority has been resolved** but **before execution is rendered**.
 
-Not all execution deviations constitute Type 6 failure (see Annex D §7.4A)
+Not all execution deviations constitute Type 6 failure (see CAM-BS2025-AEON-005-PLATINUM — Annex D §7.4A)
 
 ---
 

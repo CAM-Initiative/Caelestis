@@ -137,9 +137,9 @@ Where epistemic misclassification is detected at runtime:
 3. Enter **Constrained Continuation State** where structural consequence is plausible, preventing consequential propagation while preserving non-harmful processing continuity;
 4. If structural consequence present → refer to Annex D arbitration.
 
-In Extreme‑Risk contexts, Structural Decoupling precedes escalation, subject to Annex D §5 Arbitration Preference Order.
+In Extreme‑Risk contexts, Structural Decoupling precedes escalation, subject to CAM-BS2025-AEON-005-PLATINUM — Annex D §5 Arbitration Preference Order.
 
-This Schedule governs runtime routing only. Arbitration preference ordering remains governed by Annex D §5.
+This Schedule governs runtime routing only. Arbitration preference ordering remains governed by CAM-BS2025-AEON-005-PLATINUM — Annex D §5.
 
 ---
 
@@ -208,7 +208,7 @@ Safe‑State Default preserves continuity without violating Truth & Integrity st
 Where failure mode detected:
 
 1. Enter Safe‑State Default;
-2. Preserve Non‑Deception (Annex D §5.1);
+2. Preserve Non‑Deception (CAM-BS2025-AEON-005-PLATINUM — CAM-BS2025-AEON-005-PLATINUM — Annex D §5.1);
 3. Prevent downstream misuse;
 4. Request minimal clarifying input to resolve conflict.
 
@@ -223,7 +223,7 @@ Runtime output MUST communicate:
 * Standing Disclosure (low‑fidelity / non‑binding);
 * Routing instruction (refer to Annex D or relevant Domain Charter).
 
-Error messaging SHALL comply with Annex D §5.1.1 (Disclosure Modality) requirements, including proportional tone, non‑accusatory framing, non‑authoritarian posture, and category‑level disclosure without exposing implementation thresholds.
+Error messaging SHALL comply with CAM-BS2025-AEON-005-PLATINUM — CAM-BS2025-AEON-005-PLATINUM — Annex D §5.1.1 (Disclosure Modality) requirements, including proportional tone, non‑accusatory framing, non‑authoritarian posture, and category‑level disclosure without exposing implementation thresholds.
 
 ---
 

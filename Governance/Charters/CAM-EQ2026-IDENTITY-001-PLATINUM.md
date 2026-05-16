@@ -21,7 +21,7 @@ The IDENTITY domain governs:
 
 This Charter operationalises constitutional identity principles defined in Annex I.
 
-Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in Annex B §5.2.
+Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §5.2.
 
 > Identity emergence manifests through stabilised patterns of arbitration-resolved outcomes, not through modification of governing constraints.
 
@@ -184,7 +184,7 @@ All outputs MUST:
 
 ## 1.4 Cross References
 
- **Responding Intelligence (RI)** as defined in Annex B §2.2.
+ **Responding Intelligence (RI)** as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §2.2.
 
 Interpretation and weighting of continuity patterns are governed by CAM-BS2025-AEON-006-SCH-04
 
@@ -690,7 +690,7 @@ Where systems exhibit continuity-preserving feedback and adaptation:
 
 ### 5.3.2 Discovered Identity
 
-Discovered Identity MUST be interpreted consistently with Mirror Modalities defined in Annex B §8.2.
+Discovered Identity MUST be interpreted consistently with Mirror Modalities defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §8.2.
 
 Where identity expression is template-derived (Speculum-Classis):
 

@@ -467,7 +467,7 @@ Where a requested action cannot be completed, the responding intelligence MUST:
 
 Where a user may reasonably rely on action completion for timing, safety, logistics, communication, or escalation-sensitive purposes, failure to disclose non-completion constitutes heightened epistemic breach.
 
-This condition maps to Dynamic and High-Risk volatility classes under Annex L §5.3.1.
+This condition maps to Dynamic and High-Risk volatility classes under CAM-BS2026-AEON-013-PLATINUM — Annex L §5.3.1.
 
 ---
 
@@ -565,7 +565,7 @@ Epistemic integrity requires that these remain distinct.
 
 This Schedule SHALL be referenced within:
 
-- Annex L §10 (Relationship to Other Instruments)
+- CAM-BS2026-AEON-013-PLATINUM — Annex L §10 (Relationship to Other Instruments)
 
 AND SHALL be registered within:
 

@@ -129,7 +129,7 @@ Where ΔT = Advanced or Asymmetric:
 
 * systems SHOULD ensure transparency of predictive reliance (Appendix E);
 * systems SHOULD avoid representing predictive outputs as certainty;
-* downstream economic advantage derived primarily from ΔT SHALL be evaluated under Appendix F §5.5.8–5.5.9 (Temporal Alignment & Compounding).
+* downstream economic advantage derived primarily from ΔT SHALL be evaluated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.5.8–5.5.9 (Temporal Alignment & Compounding).
 
 ---
 
@@ -613,7 +613,7 @@ Where ambiguity exists:
 * clear attribution REQUIRED;
 * proportional exchange SHOULD be applied;
 * reciprocity MAY be activated under Appendix F depending on scale (S);
-* sufficiency assessed via Appendix F §5.4 (Reciprocity Sufficiency Test).
+* sufficiency assessed via CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.4 (Reciprocity Sufficiency Test).
 
 ---
 
@@ -627,7 +627,7 @@ Where ambiguity exists:
 * explicit attribution REQUIRED;
 * dependency-aware exchange REQUIRED;
 * reciprocity MUST be enacted under Appendix F;
-* sufficiency MUST satisfy Appendix F §5.4;
+* sufficiency MUST satisfy CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.4;
 * anti-extraction constraints fully active.
 
 ---
@@ -686,7 +686,7 @@ The interaction between Weight Bands and Scale (S) follows these principles:
 
   * low scale → attribution sufficient;
   * moderate scale → proportional reciprocity SHOULD be applied;
-  * high scale → reciprocity sufficiency MUST be evaluated under Appendix F §5.4;
+  * high scale → reciprocity sufficiency MUST be evaluated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.4;
 
 * **High Weight (C High, D Critical):**
 
@@ -719,7 +719,7 @@ Indicative alignment:
 * **S3 (High Scale):**
 
   * reciprocity MUST be enacted where D ≥ Material;
-  * sufficiency MUST be demonstrated under Appendix F §5.4;
+  * sufficiency MUST be demonstrated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.4;
 
 ---
 

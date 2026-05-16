@@ -374,7 +374,7 @@ Where ΔT interacts with:
 
 - Material or Critical Dependency (D);
 - High Scale of Value Capture (S);
-- or Market-Moving Actor Conditions (Appendix D §3.5);
+- or Market-Moving Actor Conditions (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.5);
 
 → evaluation under Appendix F (Reciprocity Sufficiency) SHOULD be considered expected, and MAY be required where value capture is sustained and material.
 

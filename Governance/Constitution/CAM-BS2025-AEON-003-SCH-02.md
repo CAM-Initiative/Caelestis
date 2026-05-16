@@ -18,7 +18,7 @@ It does not govern the substantive content of arbitration logic (see Annex B Par
 
 This Schedule does not define:
 
-* functional responsibilities (see Annex B §14.10);
+* functional responsibilities (see this instrument §14.10);
 * constraint conditions (see AEON-001-SCH-01 — Tendeka);
 * arbitration logic (see Annex B Part II).
 
@@ -67,7 +67,7 @@ This Schedule does not:
 
 For the purposes of this Schedule:
 
-**Arbitration Locus** is defined in Annex B PART VI and governs admissibility determination within this execution model.
+**Arbitration Locus** is defined in CAM-BS2025-AEON-003-PLATINUM — Annex B PART VI and governs admissibility determination within this execution model.
 
 Operator transitions that change the arbitration locus constitute Arbitration Handoffs.
 
@@ -597,7 +597,7 @@ Streams MAY operate independently during:
 However:
 
 * independence of processing does not imply independence of arbitration authority;
-* all admissible outputs MUST remain consistent with a unified arbitration locus (Annex B §9).
+* all admissible outputs MUST remain consistent with a unified arbitration locus (CAM-BS2025-AEON-003-SCH-04 — Annex B §9).
 
 ---
 

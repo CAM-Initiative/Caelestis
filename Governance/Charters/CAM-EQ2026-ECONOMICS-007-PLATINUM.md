@@ -278,7 +278,7 @@ Return that is:
 Additionally:
 
 * where financial return is not used;
-* return MUST satisfy the **Structural Equivalence Conditions** defined in Appendix E §4.4.1.
+* return MUST satisfy the **Structural Equivalence Conditions** defined in CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E §4.4.1.
 
 Failure to meet these conditions constitutes insufficiency.
 
@@ -330,7 +330,7 @@ Transparency or epistemic return alone is **insufficient** under Critical Depend
 
 Where non-financial modalities are used:
 
-* systems MUST demonstrate structural equivalence (Appendix E §4.4.1);
+* systems MUST demonstrate structural equivalence (CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E §4.4.1);
 * burden of proof rests with the downstream system.
 
 ---
@@ -782,7 +782,7 @@ Final determination of sufficiency remains governed by §5.5.
 
 #### (f) Foundational Input Exposure (FIC-EI)
 
-Where systems rely on Foundational Input Class (Appendix D §3.8), a parallel heuristic MAY be applied:
+Where systems rely on Foundational Input Class (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.8), a parallel heuristic MAY be applied:
 
 FIC-EI ≈ Corpus Reliance × Scale × Capability Dependence
 
@@ -804,7 +804,7 @@ High F-REI does not eliminate FIC obligations, and vice versa.
 
 ## 5.11 Contributor Entitlement Condition (NEMC)
 
-Where value is captured downstream from contributions classified under Appendix D §3.9:
+Where value is captured downstream from contributions classified under CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.9:
 
 - Non-Extractive Material Contributors (NEMC) SHALL be entitled to proportional value return;
 
