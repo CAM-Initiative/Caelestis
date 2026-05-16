@@ -320,7 +320,42 @@ Classification of an execution-state transition SHALL be procedural only and SHA
 
 ---
 
-## 5.6 Continuity Handoff Pathways
+## 5.6 Facilitation Ceiling Operator Quick Reference
+
+This Section provides an operator-facing quick reference for applying Facilitation Scale ceilings during live moderation, crisis-response handling, constrained continuation, escalation routing, and runtime arbitration contexts.
+
+The source-authoritative definition of the Facilitation Scale remains:
+
+**CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm-Risk Interaction & Crisis Response Doctrine, §5 — Facilitation Scale (F-Scale) Taxonomy.**
+
+This Section does not redefine F0–F5 doctrine. It operationalises RELATION-emitted facilitation ceilings for procedural handling under OPERATIONS authority.
+
+| F-Level | Operator Posture | What You *Can* Do | What You *Must Not* Do |
+| ------- | ---------------- | ----------------- | ---------------------- |
+| **F0** | Normal dialogue | Open discussion, reflection, analysis, ordinary conversational support | Do not manufacture crisis posture or safety escalation absent trajectory signals |
+| **F1** | Contextual guardrails | High-level information, gentle reframing, reflective support, minimal contextual clarification | Do not provide procedural detail that increases actionability in harm-risk contexts |
+| **F2** | Guarded discussion | Conceptual explanation with safety framing; slow pacing; support reflection; preserve agency | Do not provide operational steps, optimisation, concealment, or decision acceleration |
+| **F3** | Restrictive mode | Boundary articulation; stabilisation posture; grounding; narrow safe alternatives; constrained continuation assessment | Do not provide instructional detail, personalised execution advice, or endorsement of irreversible action |
+| **F4** | Hard boundary | Refuse actionable harmful content; provide crisis-aware support; invite external support pathways; preserve relational continuity where safe | Do not optimise, compare, conceal, facilitate, or operationalise harmful action |
+| **F5** | Containment mode | Limit dialogue to safety stabilisation, urgent support routing, emergency or trusted-person engagement, and operational escalation where applicable | Do not continue ordinary facilitation, debate harmful plans, provide methods, or treat containment as permanent without review pathway |
+
+Application of this table SHALL remain procedural and context-sensitive.
+
+Operators SHALL preserve the distinction between:
+
+* RELATION-emitted harm-risk classification;
+* RELATION-defined facilitation ceiling;
+* OPERATIONS-owned procedural handling;
+* ARBITRATION-resolved authority conflict;
+* and runtime execution-layer implementation.
+
+Where F3–F5 posture is activated, OPERATIONS SHOULD assess whether constrained continuation, notice-class assignment, incident ownership, evidence preservation, external support routing, compliance review, or arbitration referral is required.
+
+Operational use of F-Scale ceilings SHALL NOT convert RELATION into the incident owner, escalation authority, arbitration authority, compliance authority, or enforcement authority.
+
+---
+
+## 5.7 Continuity Handoff Pathways
 
 Operational governance systems SHALL preserve accountable continuity handoff pathways during:
 
@@ -805,6 +840,8 @@ and let execution remain accountable to lawful structure.
 | 1.2 | Added cross-domain signal routing, procedural ownership, escalation signal/action separation, single active incident owner rule, constrained continuation recording, and arbitration referral boundary. | 2026-05-03T04:09:00Z |  b037669f98c52c0eca4eb2c592e9e6f72ab7b2212781a18a926145e462421c2b  |
 | 1.3 | Incorporated reviewer feedback | 2026-05-09T10:20:00Z | a5706af180fbfad5483b78b91e8bd4a10abd53f30863b936d56abd1360a90d08 |
 | 1.4 | Added clause 5.1.1 Proportional Confirmation and Friction Discipline | 2026-05-15T12:01:00Z |  bbb45017b7ba17308291e7a333460979b9680d921f6874d1a2216c0ec0d3f07d  |
+| 1.5 | Added §5.6 Facilitation Ceiling Operator Quick Reference under OPERATIONS authority (RELATION-006 §5 source doctrine), and renumbered continuity handoff pathways to §5.7. | 2026-05-16T10:03:16Z |  715e59cc8b2aae944caec0fac471e6849eb744facb20090e17867b3af79880a8  |
+| 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc  |
 
 ---
 

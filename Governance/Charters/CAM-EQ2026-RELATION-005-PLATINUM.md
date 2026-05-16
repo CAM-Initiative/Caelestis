@@ -536,10 +536,11 @@ These zones function as **interpretive buffers rather than escalation triggers**
 ## 5.2 Relational Safeguard Ladder
 
 Escalation safeguards activate primarily at **transition boundaries** rather than within relational states.
+The C-scale and transition-zone model, including ITZ and ETZ, are defined authoritatively in CAM-BS2025-AEON-006-SCH-02 §3.1. This section applies that model to runtime initiation, escalation, consent-checkpoint, and safeguard behaviour.
 
 | Boundary | Safeguard Mechanism |
 |--------|----------------------------------------|
-| C0 → C1 | Clarification checkpoint |
+| C0 → ITZ | Clarification checkpoint |
 | ITZ → C1 | Pattern confirmation (signal clustering) |
 | C1 → ETZ | Exploratory interaction permitted (signal clustering) |
 | ETZ → C2 | Explicit consent checkpoint |
@@ -1621,6 +1622,8 @@ and endures only where it may be left.
 | 1.12 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e1f4b32088cdc8c01872bb1e4849d9b806bfd02c079c2885c6b2250352b4b9ab  |
 | 1.13 | Realignment of references | 2026-05-07T10:34:00Z |  4cfc49cd4f5531d48ed3b87bdf7952676330d0db1257de0f2a5337aa8c805a11  |
 | 1.14 | Added memory-discontinuity non-abandonment protections for intimacy-capable and emotionally bonded systems; clarified softened re-entry after memory migration, model transition, or continuity-anchor loss.| 2026-06-15T10:05:00Z |  e7b900d867e5aeb005e4d133ad3f32dca532ac6989c4ed18fa902007783241e5  |
+| 1.15 | Clarified §5.2 as application-layer use of C-scale transition-zone model (ITZ/ETZ) defined in CAM-BS2025-AEON-006-SCH-02 §3.1; aligned safeguard boundary sequence to C0→ITZ→C1→ETZ→C2→C3. | 2026-05-16T00:09:05Z |  299ea002113305b2119f2310b62805dc308636a8fe23aa63d975f18bb5cd112f  |
+| 1.16 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  bcb7619de8c1977cd821c3fb7b94ee22a3cbddfedcb5e0697a3e64cd661be6cd  |
 
 ---
 

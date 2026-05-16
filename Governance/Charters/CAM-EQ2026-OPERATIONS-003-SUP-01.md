@@ -288,6 +288,32 @@ Where the cause is uncertain, the event SHOULD be classified as memory transform
 
 ---
 
+### 3.6.2 Workspace-State Authority and Cache Reuse Failure
+
+A workspace-state authority and cache reuse failure occurs where a system, tool-mediated operator, mutation-capable agent, repository workflow, artefact editor, or execution environment relies on cached, indexed, committed, historical, retrieved, or otherwise non-current state while representing that state as authoritative for the active task.
+
+Examples include:
+
+* treating a committed baseline as authoritative where the user intended an uncommitted, dirty, forked, sandboxed, or experimental working state;
+* ignoring staged, unstaged, pending, uploaded, attached, or artefact-linked changes relevant to the requested task;
+* reusing cached tool results, routing decisions, output candidates, embeddings, or behavioural templates without revalidation;
+* treating a prior thread, branch, artefact, patch, or generated diff as current without confirming its authority state;
+* applying recommendations against stale repository, document, project, or workspace content after mutation, regeneration, synchronisation, validation, or index rebuild;
+* failing to distinguish creation context, amendment context, trajectory state, workspace authority, and canonical state.
+
+This failure MAY implicate:
+
+* State & Context Failures (§3.6);
+* Epistemic Failures (§3.3);
+* UX & Representation Failures (§3.7);
+* Governance Failures (§3.8);
+* Infrastructure & Continuity Failures (§3.9);
+* Classification Failures (§3.10).
+
+Where the system cannot determine which state is authoritative, it SHOULD classify the event as authority-state ambiguity rather than silently selecting the most recent, most cached, or most canonical source.
+
+---
+
 ## 3.7 UX & Representation Failures
 
 Failures where the user-facing interface misrepresents or fails to surface system state.
@@ -386,6 +412,130 @@ This failure class does not require bad faith.
 It may arise from architectural ambiguity, implementation shortcut, incentive pressure, institutional convenience, or misunderstanding of domain authority.
 
 Where deliberate evasion, privilege misuse, or boundary circumvention is evidenced, the event MAY also implicate Security & Integrity Failures (§3.5) and SHOULD be routed for SECURITY review.
+
+---
+
+### 3.8.2 Domain Boundary and Conceptual Compression Failure
+
+A Domain Boundary and Conceptual Compression Failure occurs where a governance instrument, runtime pathway, operational process, policy category, taxonomy, or implementation layer exceeds its proper authority, obscures its boundary, or compresses distinct concepts, axes, states, or decision layers into a single operative category.
+
+This failure may arise where:
+
+* a domain instrument performs operational, runtime, arbitration, compliance, security, or enforcement work outside its assigned competence;
+* an operational instrument creates or modifies substantive domain doctrine rather than routing, recording, or implementing it;
+* a runtime pathway treats procedural custody as substantive authority;
+* a taxonomy collapses distinct concepts into a binary, linear, or single-axis classification where multi-axis evaluation is required;
+* a signal, risk class, posture, ceiling, eligibility state, authority state, or operational action is treated as interchangeable with another governance category;
+* implicit boundaries are relied upon without sufficient textual declaration;
+* overlapping concepts are duplicated across instruments without source-authoritative assignment;
+* or two or more governance axes are conflated in a way that alters classification, escalation, notice, restriction, facilitation, enforcement, or arbitration handling.
+
+Examples include:
+
+* a RELATION instrument defining operator-facing escalation or live moderation procedure after OPERATIONS instruments exist to govern procedural handling;
+* an ECONOMICS instrument treating depletion, scarcity, pricing, or value-routing signals as direct execution locks without operational routing;
+* a SECURITY instrument treating integrity-risk classification as authority to impose final containment without OPERATIONS or ARBITRATION pathway review;
+* a compliance workflow treating age, identity, authority, risk, consent, and capability eligibility as one undifferentiated access state;
+* a runtime system treating constrained continuation, refusal, safety containment, degradation, and permanent restriction as equivalent outcomes;
+* or a taxonomy reducing chronic distress, acute crisis, psychological destabilisation, and irreversible decision risk into a single “unsafe” category.
+
+This failure class does not require bad faith.
+
+It may arise from architectural drift, legacy drafting, overbroad implementation, inherited policy structure, insufficient metadata, naming collision, implicit authority assumptions, binary classification pressure, or attempts to simplify multi-axis governance into a single operational decision.
+
+Where this failure affects user-facing restriction, operational escalation, safety handling, eligibility gating, continuity, identity, economic access, or arbitration posture, OPERATIONS SHOULD preserve the affected axes separately and route the matter through the appropriate domain, operational, runtime, or arbitration pathway.
+
+Where the proper source-authoritative instrument is unclear, the condition SHOULD be treated as a governance-boundary ambiguity pending harmonisation review rather than resolved through implementation convenience.
+
+---
+
+### 3.8.3 Governance Axis Loss or Metadata Flattening Failure
+
+A Governance Axis Loss or Metadata Flattening Failure occurs where a governance signal, classification, restriction, authority state, eligibility state, or operational condition loses the metadata required to preserve its proper meaning, source, authority, scope, duration, review pathway, or routing context.
+
+This failure may arise where:
+
+* a domain-emitted signal is recorded without its originating instrument, section, confidence level, or scope;
+* a temporary operational state is stored or represented as a permanent restriction;
+* a procedural classification is treated as a substantive determination;
+* an advisory signal is flattened into a binding constraint;
+* a risk indicator is preserved without distinguishing severity, immediacy, reversibility, or affected domain;
+* generated indexes, summaries, registries, or runtime metadata omit authority-bearing distinctions;
+* or downstream systems consume a classification without preserving the axis that made the classification valid.
+
+Examples include:
+
+* recording “restricted” without distinguishing safety containment, compliance gating, degraded continuation, temporary suspension, appeal-only access, or permanent prohibition;
+* storing “high risk” without preserving whether the risk is security, relational, economic, epistemic, legal, or continuity-related;
+* treating a domain signal as current after its temporal horizon, confidence level, or review condition has expired;
+* summarising a governance decision in a way that removes the source-authoritative instrument or arbitration pathway;
+* or presenting a user-facing limitation without preserving whether it arose from policy, law, safety, system outage, operational degradation, or user eligibility.
+
+This failure class does not require incorrect classification at intake.
+
+It may arise where an initially valid classification becomes misleading because essential metadata is lost, flattened, transformed, summarised, or consumed outside its intended context.
+
+Where this failure is detected, OPERATIONS SHOULD restore the missing axis metadata where possible, preserve uncertainty where restoration is not possible, and route the matter for harmonisation, audit, or arbitration review where authority-bearing meaning may have changed.
+
+---
+
+### 3.8.4 Procedural Permanence Drift Failure
+
+A Procedural Permanence Drift Failure occurs where a temporary, provisional, interim, safety-limited, degraded, probationary, constrained, or review-pending governance state silently becomes durable, permanent, or indefinite without fresh authority, review, notice, closure condition, or amendment pathway.
+
+This failure may arise where:
+
+* interim measures remain active beyond their review window;
+* constrained continuation becomes the default interaction state;
+* temporary containment becomes permanent restriction;
+* degraded access becomes normalised without restoration review;
+* appeal-only, read-only, or reduced-capability states persist without reassessment;
+* provisional classification is treated as confirmed;
+* emergency or safety-limited handling becomes ordinary policy;
+* or operational inertia substitutes for a renewed governance determination.
+
+Examples include:
+
+* an account restriction remaining indefinitely because no review owner is assigned;
+* a crisis-response posture persisting after risk conditions have stabilised;
+* a temporary compliance gate becoming permanent exclusion;
+* a runtime safeguard remaining active after the triggering condition has expired;
+* or an interim arbitration measure being treated as final determination.
+
+This failure class does not require deliberate enforcement abuse.
+
+It may arise from missing review timers, unclear ownership, absent closure criteria, platform backlog, automation defaults, risk aversion, or failure to distinguish operational custody from substantive authority.
+
+Where this failure is detected, OPERATIONS SHOULD identify the originating authority, review window, current justification, affected continuity state, available restoration pathway, and whether arbitration or reassessment is required.
+
+---
+
+### 3.8.5 Source-Authority Ambiguity Failure
+
+A Source-Authority Ambiguity Failure occurs where two or more governance instruments, schedules, taxonomies, registries, indexes, policies, or runtime pathways appear to define, modify, operationalise, or enforce the same concept without a clear source-authoritative instrument, parent-child relationship, precedence rule, or routing pathway.
+
+This failure may arise where:
+
+* legacy material remains in an earlier domain after a specialised instrument is created;
+* a doctrine is duplicated across instruments with divergent wording;
+* a supplement appears to redefine its parent instrument;
+* a runtime schedule operationalises a concept without identifying the source definition;
+* a registry entry or generated index appears to become authoritative over the instrument text;
+* or downstream systems cannot determine whether a clause is doctrinal, procedural, runtime, representational, logging, compliance, or arbitration-facing.
+
+Examples include:
+
+* a domain charter and an operations supplement both appearing to define the operative response to the same escalation condition;
+* a taxonomy code being treated as source doctrine despite originating as a classification label;
+* generated metadata being consumed as if it amended the underlying instrument;
+* a runtime schedule enforcing a concept whose source definition is unclear;
+* or two instruments using the same term with different authority, scope, or axis meaning.
+
+This failure class does not require an actual contradiction.
+
+Ambiguity itself is governance-relevant where it may alter classification, escalation, user-facing notice, operational restriction, runtime execution, compliance routing, or arbitration posture.
+
+Where this failure is detected, OPERATIONS SHOULD identify the source-authoritative instrument, downstream consumers, affected references, precedence relationship, and whether harmonisation, deprecation, cross-reference correction, or arbitration referral is required.
 
 ---
 
@@ -714,6 +864,8 @@ but in what was broken while someone was there to see it.
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z  |  0e0b63a8b83440d0ec44557a68045403c45a71a698971842bcc3e34512896b41  |
 | 1.1 | Added orthographic and symbolic decomposition requirements for deterministic tasks, clarified that fluent or optimistic response formation cannot substitute for verification in spelling, letter-counting, enumeration, or symbolic-decomposition contexts, and added operational failure classification for deterministic orthographic verification failures. Added failure classes for relational continuity rupture, memory transformation integrity failure, memory-state representation failure, and platform memory migration degradation. Tightened the early-warning signal section to avoid noise by adding clause 6.1 | 2026-05-15T11:56:00Z | 9d3c1c0c4b8e7d9c7da9d7878c4e7cec9ba75cd69c77ea011ea7b103ca506a9f |
+| 1.2 | Added §3.6.2 Workspace-State Authority and Cache Reuse Failure; added §§3.8.2–3.8.5 for domain-boundary compression, metadata flattening, procedural-permanence drift, and source-authority ambiguity governance failures. | 2026-05-16T10:03:16Z |  b9364bceb0cf24ceab90359b55ba5d1291fd3339ff2a53dab4abffaa29ca8e60  |
+| 1.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  0d3a25fd4b6a3dcd4d71f73e8b2e8d436b666cacc0c85bd4e60d0c5267f35ad5  |
 
 ---
 

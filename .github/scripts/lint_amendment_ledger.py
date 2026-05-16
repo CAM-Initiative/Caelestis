@@ -86,6 +86,17 @@ def evaluate_historical_and_latest_hashes(path: str, full_text: str, failures: l
     rows = extract_ledger_hash_rows_with_lines(full_text)
     if not rows:
         return
+    trailing_blank_rows = 0
+    for _line_no, _version, h in reversed(rows):
+        if h.strip() == "":
+            trailing_blank_rows += 1
+        else:
+            break
+    if trailing_blank_rows > 1:
+        failures.append(
+            f"{path}: Open Amendment Cycle Fragmentation detected ({trailing_blank_rows} trailing unsealed rows). "
+            "Only the latest Amendment Ledger row may remain blank; consolidate unsealed rows into one latest open row."
+        )
     latest = rows[-1]
     historical = rows[:-1]
     for line_no, version, h in historical:

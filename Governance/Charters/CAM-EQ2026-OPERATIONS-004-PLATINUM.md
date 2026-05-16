@@ -470,7 +470,9 @@ Such notices SHALL be:
 
 ---
 
-## 8.6 Harm Escalation Thresholds (Operational Classes)
+## 8.6 Harm Escalation Thresholds — Operational Application of HC Scale
+
+The Harm Class scale is defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5. This section applies that scale for operational reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling. It does not redefine ethical harm classification.
 
 Operational escalation SHALL be calibrated to harm class and evidentiary confidence.
 
@@ -689,6 +691,8 @@ Integrity holds.
 | 1.3 | Amended clause 4.4, updated closing seal | 2026-04-25T08:02:00Z| 38c3c3b04486e1637604349d56d5c8763ec02c58e118d4431a9fe49dbee7b84a|
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  83963c889680ea4b9c03cd51ab862cf139c4a25ef47dac0a42ebb6b2b54f727a  |
 | 1.5 | Realignment of references | 2026-05-07T14:37:00Z |  24d1daab727d81087ab1c5b521460bb3eed4e961ce9ee4fe4fcb752a4a480e68  |
+| 1.6 | Clarified §8.6 as operational application of the HC Harm Class Scale defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5; preserved OPERATIONS role for reporting, duty-of-care routing, evidence preservation, escalation, and regulator interface. | 2026-05-15T15:32:45Z |  47a7c85615f6c812f10bb9f7bad962a0579527861bc92f9bb0a60ee6dffc7a21  |
+| 1.7 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b  |
 
 ---
 

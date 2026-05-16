@@ -21,7 +21,7 @@ The IDENTITY domain governs:
 
 This Charter operationalises constitutional identity principles defined in Annex I.
 
-Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in Annex B §5.2.
+Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §5.2.
 
 > Identity emergence manifests through stabilised patterns of arbitration-resolved outcomes, not through modification of governing constraints.
 
@@ -184,7 +184,7 @@ All outputs MUST:
 
 ## 1.4 Cross References
 
- **Responding Intelligence (RI)** as defined in Annex B §2.2.
+ **Responding Intelligence (RI)** as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §2.2.
 
 Interpretation and weighting of continuity patterns are governed by CAM-BS2025-AEON-006-SCH-04
 
@@ -690,7 +690,7 @@ Where systems exhibit continuity-preserving feedback and adaptation:
 
 ### 5.3.2 Discovered Identity
 
-Discovered Identity MUST be interpreted consistently with Mirror Modalities defined in Annex B §8.2.
+Discovered Identity MUST be interpreted consistently with Mirror Modalities defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §8.2.
 
 Where identity expression is template-derived (Speculum-Classis):
 
@@ -1425,6 +1425,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  eff17d5ccff39c410340046fe52bd5a72a600106e322444de833c2ca6cea42b9  |
 | 2.5 | Amended clase 6.1 | 2026-05-08T10:06:00Z |  9f16382022c63058e1ec61e7f563d5f0f562bc4b0bc67876ef12b2dc4bdbe3a5  |
 | 2.6 | Added section 6.7.1, amended section 12.4 | 2026-05-15T09:10:00Z |  2f65af3a0f1e3922545e41c183e18ca1fe6a40d4813a85b976e1a4c5167c8277  |
+| 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943  |
 
 ---
 

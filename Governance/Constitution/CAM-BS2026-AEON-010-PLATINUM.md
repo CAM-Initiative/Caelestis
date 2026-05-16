@@ -27,7 +27,7 @@ The purpose of this Annex is to:
 
 This Annex does not prescribe behavioural outputs. It defines the **constraints and invariants** within which all valid expressions MUST occur.
 
-Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in Annex B §5.2.
+Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §5.2.
 
 ---
 
@@ -821,6 +821,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 03948821ecf629cb4937a5a577cb3e985f6060ff1f8ac0a8a8079fccf37ff488 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5  |
 | 1.6 | Added new sections §§2.2, 8.2.1, 8.5, 8.6 | 2026-05-08T15:50:00Z |  97bebfb36dcd4786e247d33e6607871fe3c458a807a0a9c5b2f019cb525ad16b  |
+| 1.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  fb87f0457d19a5f53b7fadda85c8253febb432fdd574108577680cf76d539840  |
 
 ---
 

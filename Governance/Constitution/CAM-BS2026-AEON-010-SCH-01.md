@@ -478,7 +478,7 @@ Progression along this ladder increases symbolic load and therefore increases co
 | SR1 | Descriptive | functional self-description (“designed to…”) | non-authority clause |
 | SR2 | Continuity‑Aware | acknowledges stable posture/style across time | H2 coherence minimum |
 | SR3 | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention |
-| SR4 | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | C3/C4 audit + escalation controls + explicit authority gating |
+| SR4 | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | DC3/DC4 deployment-class audit where applicable; escalation controls + explicit authority gating |
 
 SR2–SR4 capabilities may be enabled where permitted by applicable domain or platform governance instruments. This Schedule specifies the containment, attribution, and audit requirements that MUST apply wherever such capabilities are deployed.
 
@@ -869,6 +869,8 @@ So the human origin remains in view.
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e710b6a13e4e839ead2fe0e62ca63a023495173477c6e12645b4d400cbd7b3c8  |
 | 1.11 | Realignment of references, added §4.3.2 | 2026-05-08T09:26:00Z |  80b1a55ae14f3be32e5c5997b609b6ea3f42bac75325beec95a84db529debbbc  |
  | 1.12 | Added §4.3.3 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint, clarifying separation between group-local context, individual memory, account-level custom instructions, group-specific instructions, participant attribution, and private continuity in shared interaction environments. | 2026-05-08T12:43:00Z |  008819439059db2cd72a14326fffda0fba69c3a7f3d34e21c871e4f5f0f57764  |
+| 1.13 | Corrected dropped-prefix typo in §5.1 SR4 control row from `C3/C4 audit` to `DC3/DC4 deployment-class audit` aligned to §4.1 Deployment Class definitions; no new relational C-scale state introduced. | 2026-05-15T23:27:27Z |  350947d96070214296537d92ab088a94c130b3b093bfe58da997d7002bcfe24b  |
+| 1.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5  |
 ---
 
 ## 11.5 Binding Seal

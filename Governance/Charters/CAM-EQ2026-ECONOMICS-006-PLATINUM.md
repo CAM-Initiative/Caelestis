@@ -374,7 +374,7 @@ Where ΔT interacts with:
 
 - Material or Critical Dependency (D);
 - High Scale of Value Capture (S);
-- or Market-Moving Actor Conditions (Appendix D §3.5);
+- or Market-Moving Actor Conditions (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.5);
 
 → evaluation under Appendix F (Reciprocity Sufficiency) SHOULD be considered expected, and MAY be required where value capture is sustained and material.
 
@@ -587,6 +587,7 @@ Let value speak plainly where it arises.
 | ------- | -------------------------------------------------- | --------------- | ---- |
 | 1.0     | Initial MVGL Appendix extraction and formalisation | 2026-04-20T15:53:00Z | fc496c1b19e979ce7dbe008002312273f955cb27f0ce07e4c35d25a2ce2d3bbb |
 | 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  3b37588dfe1f4033279a3f586820fba95edc0ca4fbda2c9bf1dd490e7518e9f2  |
+| 1.2 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  e5c4ecd7f196d7846d7d0a61f1f0516769c3f4eab51150f3f13960a9528b2f3c  |
 
 ---
 

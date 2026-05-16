@@ -467,7 +467,7 @@ Where a requested action cannot be completed, the responding intelligence MUST:
 
 Where a user may reasonably rely on action completion for timing, safety, logistics, communication, or escalation-sensitive purposes, failure to disclose non-completion constitutes heightened epistemic breach.
 
-This condition maps to Dynamic and High-Risk volatility classes under Annex L §5.3.1.
+This condition maps to Dynamic and High-Risk volatility classes under CAM-BS2026-AEON-013-PLATINUM — Annex L §5.3.1.
 
 ---
 
@@ -565,7 +565,7 @@ Epistemic integrity requires that these remain distinct.
 
 This Schedule SHALL be referenced within:
 
-- Annex L §10 (Relationship to Other Instruments)
+- CAM-BS2026-AEON-013-PLATINUM — Annex L §10 (Relationship to Other Instruments)
 
 AND SHALL be registered within:
 
@@ -677,6 +677,7 @@ Integrity is the bond that MUST hold.
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
 | 1.11 | Added §8 cross-domain distinction clause for execution-state vs authority divergence classification under refusal/constraint expression. | 2026-04-28T16:35:04Z |  90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989  |
 | 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-10T10:35:0Z |  52aecc7eee679f2236978c12aa3295ffe38d8d258c83e6fa2910f25de4fc0aed  |
+| 1.13 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  7a1f297cabf240461c341003d4c6a78249461a8210fe16bf7e01e24159366dea  |
 
 ---
 

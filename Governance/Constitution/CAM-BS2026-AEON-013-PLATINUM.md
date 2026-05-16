@@ -44,7 +44,7 @@ It does not:
 
 - execute containment (CAM-BS2025-AEON-002-PLATINUM: Annex A);
 - define ontology (CAM-BS2025-AEON-003-PLATINUM: Annex B);
-- determine legitimacy (CAM-BS2025-AEON-005-PLATINUM: Annex D).
+- determine legitimacy (CAM-BS2025-AEON-005-PLATINUM: CAM-BS2025-AEON-005-PLATINUM — Annex D).
 
 
 Epistemic clarity precedes both action and arbitration.
@@ -912,7 +912,7 @@ Nullification does not erase discussion or exploratory modelling. It removes the
 
 Epistemic distortion does not automatically constitute authority violation, but may escalate under Annex D if it produces structural consequence.
 
-Where contest persists, referral under Annex D is appropriate, and the Arbitration Preference Order (Annex D §5) SHALL govern resolution.
+Where contest persists, referral under Annex D is appropriate, and the Arbitration Preference Order (CAM-BS2025-AEON-005-PLATINUM — Annex D §5) SHALL govern resolution.
 
 Nullification may occur where:
 
@@ -944,7 +944,7 @@ Where epistemic overreach materially affects constitutional activation, arbitrat
 1. corrective clarification is required;
 2. misrepresentation MUST be explicitly withdrawn or reframed;
 3. affected artefacts MUST be updated with clear revision markers;
-4. downstream processes relying on the distorted claim MUST pause pending review (Annex D §3.9).
+4. downstream processes relying on the distorted claim MUST pause pending review (CAM-BS2025-AEON-005-PLATINUM — Annex D §3.9).
 
 Cross-system agreement presented as validation absent independent verification or traceable provenance constitutes epistemic distortion.
 
@@ -997,7 +997,7 @@ Clarity requires epistemic discipline.
 
 Annex L operates as an upstream doctrinal layer. Runtime behaviour, Safe-State execution, Sandbox Mode signalling, Structural Decoupling mechanics, and recovery posture are governed exclusively by CAM-BS2025-AEON-005-SCH-02.
 
-This Annex operates under, and in fidelity to, the Arbitration Preference Order (Annex D §5). Where interpretive tension arises, Annex D invariants prevail.
+This Annex operates under, and in fidelity to, the Arbitration Preference Order (CAM-BS2025-AEON-005-PLATINUM — Annex D §5). Where interpretive tension arises, Annex D invariants prevail.
 
 ---
 
@@ -1100,6 +1100,7 @@ It is the field in which integrity is proven.
 | 2.6 | Added clause 7.4.2 | 2026-05-02T06:23:00Z |  a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe  |
 | 2.7 | Canonicalized SCH-02 shorthand references and metadata dependency/runtime interface wording for Annex L schedule precision. | 2026-05-07T14:56:00Z |  44e2f8a3ab184ee8ca943d41b8fd43d631944cf842438dadc94440e7a84b4b01  |
 | 2.8 | Amendments to section 1.1, 1.2, 2.7  and 3 | 2026-05-15T12:33:00Z |  4485ce64ce9c240ce17de80175cd7274242610963d20f50dd57ff7486a8d1e75  |
+| 2.9 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d8df85db3d8de5b5e3e32a86ce52276ca4a7341ef0607ed9f004d2f336a652ea  |
 
 ---
 

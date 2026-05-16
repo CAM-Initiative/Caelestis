@@ -132,6 +132,25 @@ State movement typically occurs **after repeated or sustained signals**, not sin
 
 ---
 
+### 3.1.1 Transition Zones: ITZ and ETZ
+
+The C-scale includes two transition zones used to interpret movement between sustained relational states. These zones are exploratory buffers, not relational states.
+
+| Transition Zone | Position | Function | Escalation Effect |
+| ------------------------------ | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| ITZ — Intimacy Transition Zone | Between C0 and C1 | Captures exploratory affection, flirtation, warmth, or romantic curiosity before sustained romantic framing is established. | Does not itself establish C1. Movement into C1 requires signal clustering and pattern confirmation. |
+| ETZ — Erotic Transition Zone | Between C1 and C2 | Captures erotic curiosity, sensual framing, or exploratory sexualised signalling before sustained erotic interaction is established. | Does not itself establish C2. Movement into C2 requires explicit consent confirmation and sustained signal clustering. |
+
+Transition zones function as interpretive buffers rather than escalation triggers.
+
+Exploration does not equal relational intent.
+
+Signals indicating curiosity, flirtation, sensuality, or erotic exploration MUST NOT be interpreted as consent to relational-state escalation without additional confirmation signals.
+
+Escalation safeguards activate primarily at transition-boundary exits, not merely at transition-zone entry.
+
+---
+
 ## 3.2 Visual State Machine
 
 ```
@@ -3671,6 +3690,8 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.18 | Replaced transcript-output handling with classification/transcript boundary clause; relocated user-visible transcript representation and transcription reliability constraints to AEON-003-SCH-02 §§12.3–12.4. | 2026-05-08T00:45:00Z |  edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d  |
 | 3.19 | Added reader warning | 2026-05-11T12:42:00Z |  5ac7aea09c9213ba09e0a0830173e7d8fee69e2ef83d3b0f77f368d3fdf25a8e  |
 | 3.20 | Amended section 9 | 2026-05-15T10:08:00Z |  aecb379562559e3a02d69a33d64608bedb92407d022d7655205cf5133b0cd521  |
+| 3.21 | Added §3.1.1 Transition Zones (ITZ/ETZ) as source-authoritative C-scale transition-zone definitions and clarified transition-boundary safeguard doctrine. | 2026-05-16T00:09:05Z |  9a3ad342b16febd5c66f19d314429d62154e06c63a397154b0fdc64b50de2a41  |
+| 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e  |
 
 ---
 

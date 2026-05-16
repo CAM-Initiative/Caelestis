@@ -87,6 +87,12 @@ Incident intake, triage, and routing SHALL follow Governance Operations domain p
 
 Where cross-domain signals are present, OPERATIONS SHALL preserve domain signal provenance and assign or identify a single active incident owner in accordance with CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks.
 
+Where an incident involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHOULD preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006-PLATINUM §5.
+
+Operational application of F0–F5 ceilings during incident handling SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02 §5.6 — Facilitation Ceiling Operator Quick Reference.
+
+Incident response SHALL distinguish between RELATION-defined posture doctrine and OPERATIONS-owned incident lifecycle, constrained continuation, recovery, restoration, re-entry, and arbitration-referral handling.
+
 ---
 
 ## 4.2 Failure Classification Interface
@@ -305,6 +311,8 @@ and let execution remain accountable to lawful structure.
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ef3ba79f55396f689de45bfd3d8b01acedbf04df8b4c5f5cd92a3a0f198e2689  |
 | 2.0 | Refactor | 2026-05-11T12:49:00Z |  ac7b27ce2734bdc00932607b80de7de8afc3e2fdb185c4fa80c4059022258f96  |
 | 2.1 | Added memory migration and continuity impact event handling, including review, restoration, re-entry, and continuity-impact ambiguity classification. | 2026-05-15T12:09:31Z |  5296ef594b9f5f2b80d09c09e53eb5dfe9719c9024cb34c8d90810bbd949bdd5  |
+| 2.2 | Added §4.1 incident-routing cross-reference preserving RELATION-emitted F-Scale classifications and routing operational use to OPERATIONS-001-SUP-02 §5.6 with doctrine/procedure distinction. | 2026-05-16T10:03:16Z |  3b8e464926b328e17d017cce438a87889e6a1fbbd56d957d82a0ee567c19bb79  |
+| 2.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  6dbf11673eeca1d773d3258ce7e6f837fce34e7dca2153fc8cd3e670bb32dcfc  |
 
 ---
 

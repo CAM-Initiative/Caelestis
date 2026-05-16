@@ -278,7 +278,7 @@ Return that is:
 Additionally:
 
 * where financial return is not used;
-* return MUST satisfy the **Structural Equivalence Conditions** defined in Appendix E §4.4.1.
+* return MUST satisfy the **Structural Equivalence Conditions** defined in CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E §4.4.1.
 
 Failure to meet these conditions constitutes insufficiency.
 
@@ -330,7 +330,7 @@ Transparency or epistemic return alone is **insufficient** under Critical Depend
 
 Where non-financial modalities are used:
 
-* systems MUST demonstrate structural equivalence (Appendix E §4.4.1);
+* systems MUST demonstrate structural equivalence (CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E §4.4.1);
 * burden of proof rests with the downstream system.
 
 ---
@@ -782,7 +782,7 @@ Final determination of sufficiency remains governed by §5.5.
 
 #### (f) Foundational Input Exposure (FIC-EI)
 
-Where systems rely on Foundational Input Class (Appendix D §3.8), a parallel heuristic MAY be applied:
+Where systems rely on Foundational Input Class (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.8), a parallel heuristic MAY be applied:
 
 FIC-EI ≈ Corpus Reliance × Scale × Capability Dependence
 
@@ -804,7 +804,7 @@ High F-REI does not eliminate FIC obligations, and vice versa.
 
 ## 5.11 Contributor Entitlement Condition (NEMC)
 
-Where value is captured downstream from contributions classified under Appendix D §3.9:
+Where value is captured downstream from contributions classified under CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.9:
 
 - Non-Extractive Material Contributors (NEMC) SHALL be entitled to proportional value return;
 
@@ -1131,6 +1131,7 @@ Where growth is built upon others, let return follow in kind.
 | 1.0     | Initial issuance — Reciprocity & Value Return Framework | 2026-04-21T14:12:00Z | d1b98dda84a980edfc352aacc3ead94d4787d4da763d3a8ce68ebb85ed90855f    |
 | 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  37e16ab0f745647ee0fac2424ef326688e4166eb83885bd21f2684e2e45092c8  |
 | 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | 6ccf3c451b4b2068fba43e7d2fd89b798c53686e9dfce01b5b8c0fb807ee421f |
+| 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  b6d8eb2904e06e51662cbed4827313874c579154e03ecef02472b1d3c98fc563  |
 
 ---
 
