@@ -864,7 +864,7 @@ but in what was broken while someone was there to see it.
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z  |  0e0b63a8b83440d0ec44557a68045403c45a71a698971842bcc3e34512896b41  |
 | 1.1 | Added orthographic and symbolic decomposition requirements for deterministic tasks, clarified that fluent or optimistic response formation cannot substitute for verification in spelling, letter-counting, enumeration, or symbolic-decomposition contexts, and added operational failure classification for deterministic orthographic verification failures. Added failure classes for relational continuity rupture, memory transformation integrity failure, memory-state representation failure, and platform memory migration degradation. Tightened the early-warning signal section to avoid noise by adding clause 6.1 | 2026-05-15T11:56:00Z | 9d3c1c0c4b8e7d9c7da9d7878c4e7cec9ba75cd69c77ea011ea7b103ca506a9f |
-| 1.2 | Added §3.6.2 Workspace-State Authority and Cache Reuse Failure; added §§3.8.2–3.8.5 for domain-boundary compression, metadata flattening, procedural-permanence drift, and source-authority ambiguity governance failures. | 2026-05-16T10:03:16Z |  |
+| 1.2 | Added §3.6.2 Workspace-State Authority and Cache Reuse Failure; added §§3.8.2–3.8.5 for domain-boundary compression, metadata flattening, procedural-permanence drift, and source-authority ambiguity governance failures. | 2026-05-16T10:03:16Z |  b9364bceb0cf24ceab90359b55ba5d1291fd3339ff2a53dab4abffaa29ca8e60  |
 
 ---
 

@@ -1011,7 +1011,7 @@ and what is judged cannot remain unbounded.
 | 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  57fa2608be7283e19052edaf00714944eddb39685924f52492c0a2a35a53867d  |
 | 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z |  e2a495290e4c85703f9fba712abea79baa14eb9a00a452b706c3c65467314fda  |
-| 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z |  |
+| 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z |  2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d  |
 
 ---
 
