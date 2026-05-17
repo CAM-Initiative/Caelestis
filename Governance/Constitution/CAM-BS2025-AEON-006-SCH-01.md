@@ -478,9 +478,17 @@ Immediate trigger response does not by itself establish enduring escalation clas
 
 ---
 
-### 6.2.1 Integrated Safety Arbitration Flow (Non-Normative)
+### 6.2.1 Runtime Safety Integration Note (Non-Normative)
 
-See §14.3.1 **Integrated Safety Arbitration Flow (Non-Normative)** in CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic.
+This Schedule does not define a standalone integrated safety arbitration flow.
+
+The two-stage determination in §6.2 is applied through the runtime execution sequence defined in CAM-BS2025-AEON-003-SCH-02 §4.1 — Phase Model Overview.
+
+Immediate safety trigger assessment, trajectory-sensitive review, ETHICS-aligned harm classification, safeguard activation, and engagement posture operate through the ordered runtime phases, including Interpretation, Arbitration Resolution, Behaviour Formation, Engagement & Safeguard Enforcement, Representation, Execution Boundary Evaluation, and Execution.
+
+Domain instruments emit signals and constraints into runtime processing; they do not independently route, execute, or determine sequencing. Cross-domain signal handling and conflict resolution remain governed by CAM-BS2025-AEON-003-SCH-02 §19.1 — Domain Signal Emission Principle, §19.3 — Resolution Principle, and §19.6 — Cross Domain Interaction.
+
+This Schedule governs engagement posture and safeguard expression. It does not replace arbitration, routing, execution-boundary evaluation, or runtime sequencing.
 
 ---
 
@@ -681,6 +689,7 @@ not in distance, but in continuity.
 | 2.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  42d41811cbbaf967d47f257e9f86c06e163bde542d9791768739e93baece4f53|
 | 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z |    c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6    |
 
+| 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832  |
 ---
 
 ## 8.5 Binding Seal

@@ -612,7 +612,11 @@ Operational compliance SHALL remain subordinate to constitutional authority.
 
 ---
 
-## 13. Closing Seal
+## 13. Canonical Code Status
+
+This instrument source-authoritatively defines code family **AV** in §5.1 with controlled values **AV0, AV1, AV2, AV3**. AV is an **Operational** handling family with subtype **ACCESS_VERIFICATION_TIER**. AV authority is limited to verification-tier classification and access-handling posture and does not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority. OPERATIONS-004 may consume C and HC, crosswalk AV × C, and operationalise HC in §8.6, but it does not define C or HC.
+
+## 14. Closing Seal
 
 Governance is not preserved in theory alone.  
 It MUST pass through hands, systems, decisions, and time.  
@@ -635,7 +639,7 @@ Integrity holds.
 
 ---
 
-## 14. Provenance & Metadata
+## 15. Provenance & Metadata
 
 ---
 
@@ -648,7 +652,7 @@ Integrity holds.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -669,7 +673,30 @@ Integrity holds.
 
 ---
 
-## 14.3 Review & Validation
+## 15.3 Canonical Code & Reference Set Declarations
+
+**AV — Verification Tier Definitions**
+
+| Field | Entry |
+|---|---|
+| Code Family | AV |
+| Canonical Name | Verification Tier Definitions |
+| Primary Type | Operational |
+| Subtype | ACCESS_VERIFICATION_TIER |
+| Modifier | None declared |
+| Scope | Source-defining scope in this instrument |
+| Status | Active |
+| Controlled Values Defined | AV0, AV1, AV2, AV3 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
+| Source Section | §5.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Consumes Code Families | Consumes C, HC where applied |
+| Crosswalks Code Families | Crosswalk AV × C |
+| Operationalises or Applies Code Families | Operationalises HC in §8.6 without redefining HC |
+
+## 15.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -681,7 +708,7 @@ Integrity holds.
 
 ---
 
-## 14.4 Amendment Ledger
+## 15.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | --- | --- |
@@ -694,9 +721,10 @@ Integrity holds.
 | 1.6 | Clarified §8.6 as operational application of the HC Harm Class Scale defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5; preserved OPERATIONS role for reporting, duty-of-care routing, evidence preservation, escalation, and regulator interface. | 2026-05-15T15:32:45Z |  47a7c85615f6c812f10bb9f7bad962a0579527861bc92f9bb0a60ee6dffc7a21  |
 | 1.7 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b  |
 
+| 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  |
 ---
 
-## 14.5 Binding Seal
+## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"
 

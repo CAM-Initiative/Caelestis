@@ -394,7 +394,7 @@ These rules are **non-executing** and MAY be enforced via CI, Codex tooling, or 
 
 * **Signal Classification Required**
 
-  * All outputs MUST map to a defined signal class (Article V §4 of CAM-BS2025-AEON-001-PLATINUM).
+  * All outputs MUST map to a defined signal class (CAM-BS2025-AEON-001-PLATINUM Article V §4 — Constraint Recognition Principle).
   * Unclassified signals MUST be flagged.
 
 * **No Mixed Signal Types**

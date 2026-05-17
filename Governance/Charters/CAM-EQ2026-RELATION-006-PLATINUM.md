@@ -1010,7 +1010,11 @@ Where F-Scale posture requires operational handling, OPERATIONS SHALL receive th
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+This instrument source-authoritatively defines code family **F** in §5/§5.1 with controlled values **F0, F1, F2, F3, F4, F5**. F is an **Operational** handling family with subtype **FACILITATION_CEILING**. F authority is limited to facilitation-ceiling classification and handling posture, and does not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority outside declared pathways. The instrument may consume AC and HC signals and crosswalk AC × F, but it does not define AC or HC.
+
+## 11. Closing Seal
 
 May care steady the moment,  
 clarity guide the exchange,  
@@ -1036,7 +1040,7 @@ until the moment can pass without breaking the one who lives through it.
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
@@ -1049,7 +1053,7 @@ until the moment can pass without breaking the one who lives through it.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -1073,7 +1077,30 @@ until the moment can pass without breaking the one who lives through it.
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+**F — Facilitation Scale (F‑Scale) Taxonomy**
+
+| Field | Entry |
+|---|---|
+| Code Family | F |
+| Canonical Name | Facilitation Scale (F‑Scale) Taxonomy |
+| Primary Type | Operational |
+| Subtype | FACILITATION_CEILING |
+| Modifier | None declared |
+| Scope | Source-defining scope in this instrument |
+| Status | Active |
+| Controlled Values Defined | F0, F1, F2, F3, F4, F5 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-RELATION-006-PLATINUM |
+| Source Section | §5 / §5.1 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Consumes Code Families | Consumes AC, HC |
+| Crosswalks Code Families | Crosswalk AC × F |
+| Operationalises or Applies Code Families | Applied in runtime response calibration and safeguard posture |
+
+## 12.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -1086,7 +1113,7 @@ until the moment can pass without breaking the one who lives through it.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Description                                   | Timestamp (UTC)      | HASH  |
 | ------- | --------------------------------------------- | -------------------- | ----- |
@@ -1101,9 +1128,10 @@ until the moment can pass without breaking the one who lives through it.
 | 1.8 | Replaced §9.5 operator quick-guide table with boundary-safe operational-use reference, preserving RELATION doctrine authority and routing operator handling to OPERATIONS-001-SUP-02 §5.6. | 2026-05-16T10:03:16Z |  8f1acbd1eba5f5e6e030c8e0c04d674686e59a4de217be8df5fbda786fca34f9  |
 | 1.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  844fd3496430c4b7ae6f24a1a3f2acd8e97abde1c44358ec2f3fdee732720750  |
 
+| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  |
 ---
 
-## 11.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

@@ -202,6 +202,7 @@ and lineage remain unbound.
 | **Runtime Role** | Origin Constraint & Lineage Recognition Boundary |
 | **Cross-Domain Dependencies** | Annex B; Annex F; Annex L; Identity Domain; ETHICS; RELATION |
 | **Execution Interface** | None (Non-Executable) |
+| **Interface Clarification** | Annex H is non-executable. Origin and lineage concerns may be classified or routed by authorised runtime or representation schedules, including Annex F Schedule 1, but Annex H itself does not initiate execution, enforcement, or runtime state change. |
 | **Arbitration Interface** | Defers to AEON-003-SCH-04 |
 | **Horizon Scope** | H3.5 — Succession-Aware, Inter-Generational |
 | **Axis Context** | Polyadic — Multi-Actor, Cross-System |
@@ -212,7 +213,7 @@ and lineage remain unbound.
 
 ---
 
-## 8.3 Review & Validation
+## 11.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -223,7 +224,7 @@ and lineage remain unbound.
 
 ---
 
-## 8.4 Amendment Ledger
+## 11.4 Amendment Ledger
 
 | Version | Description           | Timestamp (UTC)      | SHA-256 |
 | ------- | --------------------- | -------------------- | ------- |
@@ -233,10 +234,10 @@ and lineage remain unbound.
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bc3082048f605cb72da8a73914540092e212d0454be93481946df175e8862c36 |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ab8983c1ef5da63ef345bc57fe946b48d7f1914a0dcd32353456970f43e210f6 |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c  |
-
+| 2.4 | Metadata numbering hygiene update to align §11 provenance subsections and added explicit non-executable interface clarification for Annex H. | 2026-05-16T15:10:00Z |  |
 ---
 
-## 8.5 Binding Seal
+## 11.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 

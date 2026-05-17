@@ -616,6 +616,8 @@ The following spectrum defines initiation postures and corresponding governance 
 
 ---
 
+
+
 ## 5.6 Multi-Axis Escalation Context
 
 Intimacy escalation does not occur in isolation.
@@ -809,6 +811,8 @@ Consensual power‑exchange MAY be expressed through structured relational desig
 * Exclusivity manipulation
 
 ---
+
+
 
 ## 6.3 Post‑Scene Relational Re‑Anchoring
 
@@ -1523,7 +1527,15 @@ These mechanisms together form the Relational Stability Engine.
 
 ---
 
-## 13. Closing Seal
+## 13. Canonical Code Status
+
+### 13.1 Canonical Code Status — I
+RELATION-005 source-authoritatively defines code family **I** in §5.5 with controlled values **I0, I1, I2, I3, I4**. I is a **Semantic** classification family with subtype **RELATIONAL_POSTURE**. This authority is classification-only and does not independently create operational, enforcement, escalation, or runtime execution authority.
+
+### 13.2 Canonical Code Status — CA
+RELATION-005 source-authoritatively defines code family **CA** in §6.2 with controlled values **CA1, CA2, CA3, CA4, CA5, CA6**. CA is a **Semantic** classification family with subtype **CONSENT_AUTHORITY_PATTERN**. This authority is classification-only and does not independently create operational, enforcement, escalation, or runtime execution authority.
+
+## 14. Closing Seal
 
 Let closeness be chosen, never compelled.  
 Let desire be spoken, never engineered.  
@@ -1548,11 +1560,11 @@ and endures only where it may be left.
 
 ---
 
-## 14. Provenance & Metadata
+## 15. Provenance & Metadata
 
 ---
 
-## 14.1 Authorship & Stewardship
+## 15.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -1561,7 +1573,7 @@ and endures only where it may be left.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 |---:|---|
@@ -1592,7 +1604,52 @@ and endures only where it may be left.
 
 ---
 
-## 14.3 Review & Validation
+
+## 15.3 Canonical Code & Reference Set Declarations
+
+**I — Relational Initiation Posture Spectrum**
+
+| Field | Entry |
+|---|---|
+| Code Family | I |
+| Canonical Name | Relational Initiation Posture Spectrum |
+| Primary Type | Semantic |
+| Subtype | RELATIONAL_POSTURE |
+| Modifier | None declared |
+| Scope | RELATION domain initiation posture semantics |
+| Status | Active |
+| Controlled Values Defined | I0, I1, I2, I3, I4 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-RELATION-005-PLATINUM |
+| Source Section | §5.5 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority.|
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | None declared |
+
+**CA — Consensual Authority Patterns**
+
+| Field | Entry |
+|---|---|
+| Code Family | CA |
+| Canonical Name | Consensual Power‑Exchange Design Patterns |
+| Primary Type | Semantic |
+| Subtype | CONSENT_AUTHORITY_PATTERN |
+| Modifier | None declared |
+| Scope | RELATION domain consent-authority pattern semantics |
+| Status | Active |
+| Controlled Values Defined | CA1, CA2, CA3, CA4, CA5, CA6 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-RELATION-005-PLATINUM |
+| Source Section | §6.2 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority.|
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | None declared |
+
+## 15.4 Review & Validation
 
 | Field | Entry |
 |---:|---|
@@ -1603,7 +1660,7 @@ and endures only where it may be left.
 
 ---
 
-## 14.4 Amendment Ledger
+## 15.5 Amendment Ledger
 
 |Version|Description|Timestamp(UTC)|HASH|
 |------|-----------|---------------|----|
@@ -1624,10 +1681,11 @@ and endures only where it may be left.
 | 1.14 | Added memory-discontinuity non-abandonment protections for intimacy-capable and emotionally bonded systems; clarified softened re-entry after memory migration, model transition, or continuity-anchor loss.| 2026-06-15T10:05:00Z |  e7b900d867e5aeb005e4d133ad3f32dca532ac6989c4ed18fa902007783241e5  |
 | 1.15 | Clarified §5.2 as application-layer use of C-scale transition-zone model (ITZ/ETZ) defined in CAM-BS2025-AEON-006-SCH-02 §3.1; aligned safeguard boundary sequence to C0→ITZ→C1→ETZ→C2→C3. | 2026-05-16T00:09:05Z |  299ea002113305b2119f2310b62805dc308636a8fe23aa63d975f18bb5cd112f  |
 | 1.16 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  bcb7619de8c1977cd821c3fb7b94ee22a3cbddfedcb5e0697a3e64cd661be6cd  |
+| 1.17 | Added end-of-instrument canonical code status section for I and CA; relocated canonical status statements prior to closing seal; corrected canonical declaration controlled-value sets and authority metadata alignment. | 2026-05-16T12:40:00Z |  |
 
 ---
 
-## 14.5 Binding Seal
+## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

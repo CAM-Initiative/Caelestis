@@ -911,7 +911,11 @@ Where classification uncertainty exists in high-impact contexts, systems MUST:
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+This instrument source-authoritatively defines code family **HC** in §3.5 with controlled values **HC‑0, HC‑1, HC‑2, HC‑3, HC‑4**. HC is a **Semantic** classification family with subtype **HARM_CLASSIFICATION**. HC provides harm-classification authority only and does not independently create execution, enforcement, escalation, compliance, or runtime authority. Downstream operational instruments apply HC for routing and safeguards without redefining HC.
+
+## 11. Closing Seal
 
 Harm SHALL not hide behind language,    
 nor force behind titles.  
@@ -935,7 +939,7 @@ and what is judged cannot remain unbounded.
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
@@ -950,7 +954,7 @@ and what is judged cannot remain unbounded.
 
 ---
 
-## 11.2. Lineage & Metadata
+## 12.2. Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -973,7 +977,7 @@ and what is judged cannot remain unbounded.
 | **Canonical Code Families Defined** | HC — Harm Class Scale |
 | **Reference Sets Defined** | HC-0 through HC-4 — Harm Classification Scale |
 | **Reference Sets Consumed** | Facilitation Threshold; Operationalisation Boundary; runtime safeguard and arbitration outputs resolved through applicable Annex E, Annex D, and OPERATIONS instruments |
-| **Operational Consumers** | CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6 — Harm Escalation Thresholds / Operational Application of HC Scale |
+| **Operational Consumers** | See CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6. This is a cross-document operational-consumer reference applying the HC scale defined in this instrument. |
 | **Registry Migration Priority** | High — HC scale should be migrated into canonical reference-set registry as source-authoritative ETHICS taxonomy |
 | **Source-of-Authority Note** | ETHICS-003 defines HC harm classification; OPERATIONS instruments apply HC for reporting, duty-of-care, evidence preservation, and escalation workflows. |
 | **Governance Posture** | Harm‑Floor Enforcement · Authority‑Constrained · Safeguard‑Oriented |
@@ -987,7 +991,30 @@ and what is judged cannot remain unbounded.
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+**HC — Harm Class Scale**
+
+| Field | Entry |
+|---|---|
+| Code Family | HC |
+| Canonical Name | Harm Class Scale |
+| Primary Type | Semantic |
+| Subtype | HARM_CLASSIFICATION |
+| Modifier | None declared |
+| Scope | Source-defining scope in this instrument |
+| Status | Active |
+| Controlled Values Defined | HC‑0, HC‑1, HC‑2, HC‑3, HC‑4 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-ETHICS-003-PLATINUM |
+| Source Section | §3.5 |
+| Domain Namespace | ETHICS |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Consumed by CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6 operational application |
+
+## 12.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -998,7 +1025,7 @@ and what is judged cannot remain unbounded.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Description                                                                                                                          | Timestamp (UTC)      | HASH    |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | ------- |
@@ -1014,9 +1041,10 @@ and what is judged cannot remain unbounded.
 | 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z |  2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d  |
 | 2.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b  |
 
+| 3.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  |
 ---
 
-## 11.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

@@ -776,7 +776,12 @@ Nothing in this Schedule:
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+### 10.1 DC — Deployment Class
+This Schedule source-authoritatively defines the **DC** code family in §4.1 with controlled values **DC0, DC1, DC2, DC3, DC4**. Primary Type is **Operational** and Subtype is **DEPLOYMENT_CLASS**. DC classifies deployment-mode, delegation, and execution-state posture for identity-continuity governance. DC does not independently create identity reconstruction authority, memory authority, escalation authority, enforcement authority, or runtime execution authority. SR-related rows and modal load scaling are not promoted by this patch and remain outside this declaration unless separately reviewed.
+
+## 11. Closing Seal
 
 May continuity be held with care,  
 clarity guide each exchange,  
@@ -802,11 +807,11 @@ So the human origin remains in view.
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -817,7 +822,7 @@ So the human origin remains in view.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 |---:|---|
@@ -840,7 +845,30 @@ So the human origin remains in view.
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+#### DC — Deployment Class
+
+| Field | Entry |
+|---|---|
+| Code Family | DC |
+| Canonical Name | Deployment Class |
+| Primary Type | Operational |
+| Subtype | DEPLOYMENT_CLASS |
+| Modifier | None declared |
+| Scope | AEON-010 identity-continuity deployment and delegation posture |
+| Status | Active |
+| Controlled Values Defined | DC0, DC1, DC2, DC3, DC4 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-BS2026-AEON-010-SCH-01 |
+| Source Section | §4.1 |
+| Domain Namespace | IDENTITY |
+| Authority / Protection Level | Source-authoritative operational classification family; deployment-classification authority only; no independent reconstruction, memory, enforcement, escalation, or runtime execution authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | None declared |
+
+## 12.4 Review & Validation
 
 | Field | Entry |
 |---:|---|
@@ -852,7 +880,7 @@ So the human origin remains in view.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Detail                       | Timestamp (UTC) | SHA-256 Hash |
 | ------- | ---------------------------- | --------------- | ------------ |
@@ -871,9 +899,10 @@ So the human origin remains in view.
  | 1.12 | Added §4.3.3 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint, clarifying separation between group-local context, individual memory, account-level custom instructions, group-specific instructions, participant attribution, and private continuity in shared interaction environments. | 2026-05-08T12:43:00Z |  008819439059db2cd72a14326fffda0fba69c3a7f3d34e21c871e4f5f0f57764  |
 | 1.13 | Corrected dropped-prefix typo in §5.1 SR4 control row from `C3/C4 audit` to `DC3/DC4 deployment-class audit` aligned to §4.1 Deployment Class definitions; no new relational C-scale state introduced. | 2026-05-15T23:27:27Z |  350947d96070214296537d92ab088a94c130b3b093bfe58da997d7002bcfe24b  |
 | 1.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5  |
+| 1.15 | Added canonical DC code-family declaration section and footer metadata for §4.1 Deployment Class source authority; no SR promotion included. | 2026-05-16T14:00:00Z |  |
 ---
 
-## 11.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
