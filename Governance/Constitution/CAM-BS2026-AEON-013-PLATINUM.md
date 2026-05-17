@@ -1102,6 +1102,7 @@ It is the field in which integrity is proven.
 | 2.8 | Amendments to section 1.1, 1.2, 2.7  and 3 | 2026-05-15T12:33:00Z |  4485ce64ce9c240ce17de80175cd7274242610963d20f50dd57ff7486a8d1e75  |
 | 2.9 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d8df85db3d8de5b5e3e32a86ce52276ca4a7341ef0607ed9f004d2f336a652ea  |
 
+| 2.10 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  62ef952ff29f1fd5d06982485eacb41e70c1031622688ba5662a5c7cda9a22c3  |
 ---
 
 ## 14.5 Binding Seal

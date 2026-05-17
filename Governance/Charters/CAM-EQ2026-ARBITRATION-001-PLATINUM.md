@@ -543,6 +543,7 @@ but arising from that which could not be otherwise.
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2bcc942e0622aba4ea18f6d37103847603fb815ee64ec35910a81bbc239cb7d |
 | 2.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  3392e14692f836d039271e2919e1de766fc5adaf44522076f53106b5105f986f  |
 
+| 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  0e0b8d9c0727eb184d018c0758803cd751c4df3fdd37d074f3a129afb2d05b9e  |
 ---
 
 ## 15.5 Binding Seal

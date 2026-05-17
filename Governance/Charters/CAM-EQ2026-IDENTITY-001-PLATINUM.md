@@ -1455,6 +1455,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943  |
 
 | 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf  |
+| 2.9 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  94199ec5eed71139c3df2fa58b524508245d97435e34cca0fa9c093d9f12ddaf  |
 ---
 
 ## 16.6 Binding Seal
