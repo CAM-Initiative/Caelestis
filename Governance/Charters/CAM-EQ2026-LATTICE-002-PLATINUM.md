@@ -418,7 +418,7 @@ It is maintained.
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 594c1c51a83a5da9fbc60686f6f31568aab576d53c6a0798a400ea0ffeb13268 |
 | 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  219e58ae9a2a9f7b04e00d4627ebf217975d078618afabf6c853d5df60615b50  |
 | 3.6 | Incorporated new section 4.1.1 | 2026-05-13T11:40:00Z |  1f52d64d8c2e02ee0d66b5a6d70db3520c9a406a4480cbad7d647acf52c629a0  |
-| 3.7 | Added §§4.4-4.5 addressing limbo-state restriction, review-pathway continuity, public legitimacy layers, and economic access effects; expanded §6 and §6.1 to preserve appeal, recovery, account-control, social graph, and restriction-state continuity during constrained access conditions. | 2026-05-17T12:39:00Z | |
+| 3.7 | Added §§4.4-4.5 addressing limbo-state restriction, review-pathway continuity, public legitimacy layers, and economic access effects; expanded §6 and §6.1 to preserve appeal, recovery, account-control, social graph, and restriction-state continuity during constrained access conditions. | 2026-05-17T12:39:00Z | 2874ab1c9777632f9859316b34bbc14cfeeec0b19c5376e71d32ac0c17f8fdd7 |
 
 ---
 

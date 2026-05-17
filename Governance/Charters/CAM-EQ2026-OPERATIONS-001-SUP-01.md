@@ -412,7 +412,7 @@ and let execution remain accountable to lawful structure.
 | 1.2 | Added cross-domain handoff record requirements, constrained continuation evidence fields, audit trigger expansion, and metadata alignment with OPERATIONS procedural routing responsibilities. | 2026-05-03T03:37:00Z | e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941 |
 | 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z |  3f754c56ab1d40d279db8efd3c99ab18fa30241f8cb0947961a837b568928afe  |
 | 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z |  0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e  |
-| 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | |
+| 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | 21b34b53aebb3adca48f86d4db8a970874aec086affb4c8596a4f6396272fba8 |
 
 ---
 

@@ -900,7 +900,7 @@ that no breach proceeds unchecked.
 | 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z |  ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb  |
 | 1.7 | Updated §1.1 runtime cross-references. | 2026-05-04T14:16:38Z |  4cfe1ea8e8ab38615559476172cb73be3587e5c7cf8d9ac3fcc8148392b956dd  |
 | 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z |  791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5  |
-| 1.9 | Added §2.6.3 Platform Trust-State Labels and Participation Access Integrity; expanded §4.5 and §4.1.1 to recognise trust-state, visibility-state, appeal-pathway, and non-ban exclusion signals as security-relevant participation-access conditions. | 2026-05-17T12:06:00Z |  |
+| 1.9 | Added §2.6.3 Platform Trust-State Labels and Participation Access Integrity; expanded §4.5 and §4.1.1 to recognise trust-state, visibility-state, appeal-pathway, and non-ban exclusion signals as security-relevant participation-access conditions. | 2026-05-17T12:06:00Z |  47ba674e027ceb75a8e3190d613f2c486983337c68f0aea22ab7e1e8b9922d69  |
 
 ---
 

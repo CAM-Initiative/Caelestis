@@ -553,7 +553,7 @@ But as stewardship of consequence.
 | 1.2 | Incorporated new section 6.6, amended tables in section 5 and 6 | 2026-04-27T13:11:00Z | f3e05ceb765e4339db61263503bd28561cd2df8608eb4825c670febb6ab9e215 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091  |
 | 1.4 | Added section 4.2 | 2026-05-13T08:34:00Z |  6db2ed8f067ced26482cb21cda002f6fa42a8608148fdeece6ddd5da2f0fe20f  |
-| 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z |  | 
+| 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z |  d9db19487b333732fc769f6499218a13221d0a41e0784b7e5c26fda78164524d  | 
  
 ---
 

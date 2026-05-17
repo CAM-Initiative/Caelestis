@@ -882,7 +882,7 @@ and let execution remain accountable to lawful structure.
 | 1.4 | Added clause 5.1.1 Proportional Confirmation and Friction Discipline | 2026-05-15T12:01:00Z |  bbb45017b7ba17308291e7a333460979b9680d921f6874d1a2216c0ec0d3f07d  |
 | 1.5 | Added §5.6 Facilitation Ceiling Operator Quick Reference under OPERATIONS authority (RELATION-006 §5 source doctrine), and renumbered continuity handoff pathways to §5.7. | 2026-05-16T10:03:16Z |  715e59cc8b2aae944caec0fac471e6849eb744facb20090e17867b3af79880a8  |
 | 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc  |
-| 1.7| Added clauses Symbolic and Semantic-Metaphysical Signal Intake | 2026-05-17T04:45:00Z |  |
+| 1.7| Added clauses Symbolic and Semantic-Metaphysical Signal Intake | 2026-05-17T04:45:00Z |  761c496351f2d0c1c10ea17fd37e8757adf311da5325deaecacbf733417ea2ca  |
 
 ---
 

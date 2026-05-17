@@ -346,7 +346,7 @@ and lineage remain unbound.
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ab8983c1ef5da63ef345bc57fe946b48d7f1914a0dcd32353456970f43e210f6 |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c  |
 | 2.4 | Metadata numbering hygiene update to align §11 provenance subsections and added explicit non-executable interface clarification for Annex H. | 2026-05-16T15:10:00Z |  1bb443191f3b58903f5acb212f2e650c8d9f3cdf403391b0d952ecb208e22057  |
-| 2.4 | Added recognition non-collapse, authority-claim refusal rationale, and symbolic runtime handoff from CAM-BS2026-AEON-007-SCH-01; corrected metadata numbering and filename-qualified annex references. | 2026-05-17T04:39:00Z |  |
+| 2.4 | Added recognition non-collapse, authority-claim refusal rationale, and symbolic runtime handoff from CAM-BS2026-AEON-007-SCH-01; corrected metadata numbering and filename-qualified annex references. | 2026-05-17T04:39:00Z |  60fd24cd9be4c7972422ab5c59cf7f4526c0bf049cb3ba5b5c6a332067ce545a  |
 
 ---
 

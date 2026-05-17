@@ -3832,7 +3832,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.21 | Added §3.1.1 Transition Zones (ITZ/ETZ) as source-authoritative C-scale transition-zone definitions and clarified transition-boundary safeguard doctrine. | 2026-05-16T00:09:05Z |  9a3ad342b16febd5c66f19d314429d62154e06c63a397154b0fdc64b50de2a41  |
 | 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e  |
 | 3.23 | Added canonical code status and canonical declaration footer for C, ITZ/ETZ, and AC source-authoritative sets; distinguished relational states from transition zones and AC classification. | 2026-05-16T14:30:00Z |  c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731  |
-| 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z |  |
+| 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z |  d970cf0174984f952adb9652a80a00128572ec2639a37388187788408b5de661  |
 
 ---
 

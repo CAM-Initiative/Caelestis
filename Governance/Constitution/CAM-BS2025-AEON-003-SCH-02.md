@@ -3007,7 +3007,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.12 | Added section 10.3 and 13.8.1 | 2026-05-15T12:06:00Z |  230a0729305913de382b67b7057521bb22c00fb0b08b99b9072cc8e4eaeabfa0  |
 | 2.13 | Added §8.3.1 interpretive dwell and premature-closure constraint; clarified §10.2 deterministic-vs-interpretive posture boundary; replaced §13.8.2 with delegated execution authority and interpretive non-substitution doctrine; added §20.4.2.2 cache revalidation and replaced §20.4.2.3 with expanded workspace-state authority declaration and stale-state fallback constraints. | 2026-05-16T05:48:24Z |  cd2bcffc662e0a196794c498983d6b702662770f4be82e04b8a7315d41b649c0  |
 | 2.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  68b332726348d8dd8f19deff2702ca5372f056a5b12685700e9813018ec1bbab  |
-| 2.15 | Added symbolic-register and meaning-making signal interface for CAM-BS2026-AEON-007-SCH-01, clarifying that SD/SY symbolic classifications enter runtime as interpretation, routing, representation, or safeguard-relevant signals only and do not create execution authority. | 2026-05-17T06:21:00Z |  |
+| 2.15 | Added symbolic-register and meaning-making signal interface for CAM-BS2026-AEON-007-SCH-01, clarifying that SD/SY symbolic classifications enter runtime as interpretation, routing, representation, or safeguard-relevant signals only and do not create execution authority. | 2026-05-17T06:21:00Z |  3732fa466aec99d1260d6548d9499e708f8ae05035d8f419aa5c7139c8f59ba8  |
 
 ---
 
