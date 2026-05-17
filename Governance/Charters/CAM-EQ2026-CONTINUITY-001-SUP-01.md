@@ -496,7 +496,11 @@ Dissolution does not mean erasure of accountability where a dissolution receipt,
 
 ---
 
-## 16. Closing Seal
+## 16. Canonical Code Status
+
+This instrument source-authoritatively defines code families **CBR** (§3) and **CPS** (§4–§5). **CBR** controlled values are **CBR.MEM, CBR.PREF, CBR.REL, CBR.RES, CBR.SUM, CBR.USAGE, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS** with Primary Type **Semantic** and subtype **RECORD_CLASSIFICATION**. **CPS** controlled values are **CPS-0, CPS-1, CPS-2, CPS-3, CPS-4, CPS-U** with Primary Type **Operational** and subtype **DECISION_STATE**. These families provide classification and handling authority only and do not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
+
+## 17. Closing Seal
 
 Let memory travel without capture.  
 Let what was entrusted remain bound to its terms.
@@ -519,7 +523,7 @@ let the silence be honoured.
 
 ---
 
-## 17. Provenance & Metadata
+## 18. Provenance & Metadata
 
 ---
 
@@ -534,7 +538,7 @@ let the silence be honoured.
 
 ---
 
-## 17.2 Classification, Lineage & Structural Metadata
+## 18.2 Classification, Lineage & Structural Metadata
 
 | Field | Entry |
 |---|---|
@@ -559,7 +563,51 @@ let the silence be honoured.
 
 ---
 
-## 17.3 Review & Validation
+## 18.3 Canonical Code & Reference Set Declarations
+
+**CBR — Continuity-Bearing Record Classes**
+
+| Field | Entry |
+|---|---|
+| Code Family | CBR |
+| Canonical Name | Continuity-Bearing Record Classes |
+| Primary Type | Semantic |
+| Subtype | RECORD_CLASSIFICATION |
+| Modifier | None declared |
+| Scope | Source-defining scope in this instrument |
+| Status | Active |
+| Controlled Values Defined | CBR.MEM, CBR.PREF, CBR.REL, CBR.RES, CBR.SUM, CBR.USAGE, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-CONTINUITY-001-SUP-01 |
+| Source Section | §3 |
+| Domain Namespace | CONTINUITY |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Applied in continuity portability governance |
+
+**CPS — Continuity Portability State**
+
+| Field | Entry |
+|---|---|
+| Code Family | CPS |
+| Canonical Name | Continuity Portability State |
+| Primary Type | Operational |
+| Subtype | DECISION_STATE |
+| Modifier | None declared |
+| Scope | Source-defining scope in this instrument |
+| Status | Active |
+| Controlled Values Defined | CPS-0, CPS-1, CPS-2, CPS-3, CPS-4, CPS-U |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-CONTINUITY-001-SUP-01 |
+| Source Section | §4–§5 |
+| Domain Namespace | CONTINUITY |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Consumes Code Families | Consumes RP, M where declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Applied in export, migration, recovery, and dissolution handling |
+
+## 18.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -570,15 +618,16 @@ let the silence be honoured.
 
 ---
 
-## 17.4 Amendment Ledger
+## 18.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | SHA-256 |
 |---|---|---:|---|
 | 1.0 | Initial draft: Continuity Portability & Non-Enclosure Covenant | 2026-05-13T00:00:00Z |  cf3df391de9623852ebf0e958f2326bbc2b0fe55325f10fac5ed0035464afea0  |
 
+| 1.1 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  |
 ---
 
-## 17.5 Binding Seal
+## 18.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

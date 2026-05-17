@@ -1325,7 +1325,11 @@ The following lint rules define **automated structural checks** to preserve doma
 
 ---
 
-## 14. Closing Seal
+## 14. Canonical Code Status
+
+This instrument source-authoritatively defines code family **M** in §6.3 with controlled values **M0, M1, M2, M3, M4, M5**. M is a **Semantic** classification family with subtype **MEMORY_CLASSIFICATION**. The family provides memory classification authority only and does not independently create execution, enforcement, escalation, compliance, or runtime authority. Downstream systems may consume M classifications for continuity, arbitration weighting, and memory handling without redefining M.
+
+## 15. Closing Seal
 
 Let identity remain coherent across time,
 not fragmented by context,
@@ -1352,7 +1356,7 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-## 15. Provenance & Metadata
+## 16. Provenance & Metadata
 
 ---
 
@@ -1365,7 +1369,7 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 16.2 Lineage & Metadata
 
 ---
 
@@ -1397,7 +1401,30 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-## 15.3 Review & Validation
+## 16.3 Canonical Code & Reference Set Declarations
+
+**M — Memory Classification**
+
+| Field | Entry |
+|---|---|
+| Code Family | M |
+| Canonical Name | Memory Classification |
+| Primary Type | Semantic |
+| Subtype | MEMORY_CLASSIFICATION |
+| Modifier | None declared |
+| Scope | Source-defining scope in this instrument |
+| Status | Active |
+| Controlled Values Defined | M0, M1, M2, M3, M4, M5 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM |
+| Source Section | §6.3 |
+| Domain Namespace | IDENTITY |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | None declared |
+
+## 16.4 Review & Validation
 
 | Field            | Entry      |
 | ---------------- | ---------- |
@@ -1409,7 +1436,7 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-## 15.4 Amendment Ledger
+## 16.5 Amendment Ledger
 
 | Version | Detail          | Date (UTC)            | HASH |
 | ------- | --------------- | --------------------- |------|
@@ -1427,9 +1454,10 @@ Identity is the continuity through which all expression becomes intelligible.
 | 2.6 | Added section 6.7.1, amended section 12.4 | 2026-05-15T09:10:00Z |  2f65af3a0f1e3922545e41c183e18ca1fe6a40d4813a85b976e1a4c5167c8277  |
 | 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943  |
 
+| 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf  |
 ---
 
-## 15.5 Binding Seal
+## 16.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

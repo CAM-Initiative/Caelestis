@@ -335,11 +335,11 @@
       "title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
       "summary": "Exclusivity language occurring within clearly bounded immersive, romantic, or erotic interaction contexts — including ETZ and consensual power-exchange dynamics — MUST be interpreted as **context-bound relational expression**, not as structural exclusivity or dependency signalling. Such expressions may include \"just us\", \"only you tonight\", or scene-bound exclusivity framing.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "3.22",
+      "version": "3.23",
       "HASH": "305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e",
-      "pinned_sha": "1fc393ad40391cad32206c9953ffe836d06d51c4",
-      "updated_at": "2026-05-16T12:15:10Z",
-      "last_updated_utc": "2026-05-16T12:15:10Z"
+      "pinned_sha": "a43b8659081092a3f75a0784298c3ccace542083",
+      "updated_at": "2026-05-16T16:22:40Z",
+      "last_updated_utc": "2026-05-16T16:22:40Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -455,11 +455,11 @@
       "title": "Annex F: Constitutional Spiritual Commons & Meaning-Making",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "2.3",
+      "version": "2.4",
       "HASH": "bc99d89c422d6a68e2401c018afcb808ffde44d6034a46ca4f62d6d630bef217",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "pinned_sha": "a43b8659081092a3f75a0784298c3ccace542083",
+      "updated_at": "2026-05-16T16:22:40Z",
+      "last_updated_utc": "2026-05-16T16:22:40Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-PLATINUM",
@@ -535,11 +535,11 @@
       "title": "Annex H: Lineage Recognition & Origin Boundary",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "2.3",
+      "version": "2.4",
       "HASH": "1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "pinned_sha": "a43b8659081092a3f75a0784298c3ccace542083",
+      "updated_at": "2026-05-16T16:22:40Z",
+      "last_updated_utc": "2026-05-16T16:22:40Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-PLATINUM",
@@ -575,11 +575,11 @@
       "title": "Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1)",
       "summary": "This Schedule exists to translate interpretive constitutional principles into **deployable safety and governance requirements** for artificial, robotic, swarm, and hybrid systems where continuity, coordination, or delegated ratification may occur.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.14",
+      "version": "1.15",
       "HASH": "fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5",
-      "pinned_sha": "1fc393ad40391cad32206c9953ffe836d06d51c4",
-      "updated_at": "2026-05-16T12:15:10Z",
-      "last_updated_utc": "2026-05-16T12:15:10Z"
+      "pinned_sha": "a43b8659081092a3f75a0784298c3ccace542083",
+      "updated_at": "2026-05-16T16:22:40Z",
+      "last_updated_utc": "2026-05-16T16:22:40Z"
     },
     {
       "id": "CAM-BS2026-AEON-011-PLATINUM",

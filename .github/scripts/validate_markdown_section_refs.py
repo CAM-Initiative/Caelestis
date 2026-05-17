@@ -15,10 +15,11 @@ from dataclasses import dataclass
 HEADING_NUMBER_RE = re.compile(r"^(?:#+\s+)?(?P<section>\d+(?:\.\d+)*)\b")
 SECTION_REF_RE = re.compile(r"§(?P<section>\d+(?:\.\d+)*)")
 DOC_ID_RE = r"CAM-[A-Z0-9]+(?:-[A-Z0-9]+)+"
-CROSS_DOC_AFTER_RE = re.compile(rf"^\s+(?P<doc_id>{DOC_ID_RE})")
-DOC_BEFORE_SECTION_RE = re.compile(rf"(?P<doc_id>{DOC_ID_RE})\s+$")
-DOC_ID_COMPILED_RE = re.compile(DOC_ID_RE)
-PHRASE_DOC_SECTION_RE = re.compile(rf"(?:as defined in|under|pursuant to)\s+(?P<doc_id>{DOC_ID_RE})\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
+DOC_ID_WITH_EXT_RE = rf"(?P<doc_id>{DOC_ID_RE})(?:\.md)?"
+CROSS_DOC_AFTER_RE = re.compile(rf"^\s+{DOC_ID_WITH_EXT_RE}")
+DOC_BEFORE_SECTION_RE = re.compile(rf"{DOC_ID_WITH_EXT_RE}\s*(?:,|:|—|–|-)?\s*$")
+DOC_ID_COMPILED_RE = re.compile(DOC_ID_WITH_EXT_RE)
+PHRASE_DOC_SECTION_RE = re.compile(rf"(?:as defined in|under|pursuant to)\s+{DOC_ID_WITH_EXT_RE}\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
 INSTRUMENT_NEARBY_RE = re.compile(r"\b(?:AEON-\d{3}(?:-SCH-\d{2})?|LAW-\d{3}|SCH-\d{2}|Constitution|Charter|Law|Annex|Appendix|Schedule|Part)\b", re.IGNORECASE)
 NAMED_INSTRUMENT_REF_RE = re.compile(r"\b(?P<label>(?:Annex\s+[A-Z]|Appendix\s+[A-Z]|Schedule\s+\d+|Part\s+[IVX]+))\s+§(?P<section>\d+(?:\.\d+)*)", re.IGNORECASE)
 AMENDMENT_REGISTER_HEADING_MARKERS = (
@@ -135,6 +136,12 @@ def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
     if mb:
         return "cross_document", mb.group("doc_id"), ""
 
+    # annex placeholders with explicit doc id become manual review (non-blocking)
+    phrase = line[max(0, match.start()-220):match.end()+40]
+    if re.search(rf"{DOC_ID_WITH_EXT_RE}\s*(?:,|:|—|–|-)?\s*Annex\s*\[[^\]]+\]\s*§{re.escape(match.group('section'))}", phrase, re.IGNORECASE):
+        d = re.search(DOC_ID_WITH_EXT_RE, phrase)
+        return "manual_review", d.group("doc_id") if d else "", "Annex [x]"
+
     # precedence A2: doc id before section with optional human-readable title
     # (CAM-... — Title §x), bounded to avoid over-binding.
     window_start = max(0, match.start() - 240)
@@ -146,7 +153,7 @@ def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
         gap = before_section[nearest.end():]
         # Safe distance cap and same-line safeguard.
         if len(gap) <= 160 and "\n" not in gap:
-            return "cross_document", nearest.group(0), ""
+            return "cross_document", nearest.group("doc_id"), ""
 
     # precedence B: section immediately before doc id (§x CAM-...)
     tail = line[match.end():]
@@ -233,10 +240,13 @@ def run(root: pathlib.Path) -> list[Finding]:
     return findings
 
 
-def filter_display_findings(findings: list[Finding], show_passes: bool) -> list[Finding]:
-    if show_passes:
-        return findings
-    return [f for f in findings if not f.status.startswith("pass_")]
+def filter_display_findings(findings: list[Finding], show_passes: bool, show_ignored: bool=False) -> list[Finding]:
+    out = findings
+    if not show_passes:
+        out = [f for f in out if not f.status.startswith("pass_")]
+    if not show_ignored:
+        out = [f for f in out if f.status not in IGNORED_STATUSES]
+    return out
 
 
 def print_report(findings: list[Finding]) -> None:
@@ -250,13 +260,14 @@ def main() -> int:
     parser.add_argument("--root", default="Governance")
     parser.add_argument("--fix", action="store_true", help="No-op: validator does not rewrite files.")
     parser.add_argument("--show-passes", action="store_true", help="Include pass_* rows in the printed report output.")
+    parser.add_argument("--show-ignored", action="store_true", help="Include ignored_amendment_register_reference rows in table output.")
     args = parser.parse_args()
 
     if args.fix:
         print("--fix specified: no automatic rewrites are implemented by this validator.")
 
     findings = run(pathlib.Path(args.root))
-    display_findings = filter_display_findings(findings, show_passes=args.show_passes)
+    display_findings = filter_display_findings(findings, show_passes=args.show_passes, show_ignored=args.show_ignored)
     print_report(display_findings)
     statuses = {}
     for f in findings:
@@ -272,6 +283,8 @@ def main() -> int:
     print(f"HARD_FAILURE_REFERENCES={len(unresolved)}")
     print(f"MANUAL_REVIEW_REFERENCES={len(manual)}")
     print(f"IGNORED_REFERENCES={len(ignored)}")
+    if not args.show_ignored and ignored:
+        print(f"SUPPRESSED_IGNORED_ROWS={len(ignored)} (use --show-ignored to display)")
     return 1 if unresolved else 0
 
 

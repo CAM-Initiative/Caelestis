@@ -224,10 +224,11 @@ def test_default_output_shows_manual_review_statuses(monkeypatch, capsys, tmp_pa
     assert "ambiguous_named_instrument_reference" in out
 
 
-def test_default_output_shows_ignored_amendment_register_statuses(monkeypatch, capsys, tmp_path):
+def test_default_output_hides_ignored_amendment_register_statuses(monkeypatch, capsys, tmp_path):
     code, out = _run_main(monkeypatch, capsys, tmp_path, {"A.md": "## Amendment Register\nLegacy reference §9.9\n"})
     assert code == 0
-    assert "ignored_amendment_register_reference" in out
+    assert "ignored_amendment_register_reference" not in out
+    assert "SUPPRESSED_IGNORED_ROWS=1" in out
 
 
 def test_show_passes_flag_restores_full_output(monkeypatch, capsys, tmp_path):
@@ -241,7 +242,7 @@ def test_exit_code_zero_when_only_manual_and_ignored(monkeypatch, capsys, tmp_pa
         "A.md": "See Appendix F §5.9\n## Amendment Register\nLegacy reference §9.9\n",
     })
     assert "ambiguous_named_instrument_reference" in out
-    assert "ignored_amendment_register_reference" in out
+    assert "SUPPRESSED_IGNORED_ROWS=1" in out
     assert code == 0
 
 
@@ -251,3 +252,37 @@ def test_exit_code_one_when_fail_exists(monkeypatch, capsys, tmp_path):
     })
     assert "fail_local" in out
     assert code == 1
+
+
+def test_cross_doc_cam_direct_variants(tmp_path):
+    src = tmp_path / "Governance" / "SRC.md"
+    tgt = tmp_path / "Governance" / "CAM-EQ2026-OPERATIONS-004-PLATINUM.md"
+    w(tgt, "## 8.6 Harm Escalation Thresholds — Operational Application of HC Scale\n")
+    for line in [
+        "CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6",
+        "CAM-EQ2026-OPERATIONS-004-PLATINUM: §8.6",
+        "CAM-EQ2026-OPERATIONS-004-PLATINUM, §8.6",
+        "CAM-EQ2026-OPERATIONS-004-PLATINUM.md §8.6",
+    ]:
+        w(src, line+"\n")
+        f = validator.run(tmp_path / "Governance")[0]
+        assert f.status == "pass_cross_document"
+
+
+def test_annex_forms_and_placeholder(tmp_path):
+    src = tmp_path / "Governance" / "SRC.md"
+    tgt = tmp_path / "Governance" / "CAM-BS2025-AEON-004-PLATINUM.md"
+    w(tgt, "## 1.2 Any\n")
+    w(src, "CAM-BS2025-AEON-004-PLATINUM - Annex A §1.2\n")
+    assert validator.run(tmp_path / "Governance")[0].status == "pass_cross_document"
+    w(src, "CAM-BS2025-AEON-004-PLATINUM: Annex A\n")
+    assert validator.run(tmp_path / "Governance") == []
+    w(src, "CAM-BS2025-AEON-004-PLATINUM: Annex [x] §1.2\n")
+    assert validator.run(tmp_path / "Governance")[0].status == "ambiguous_named_instrument_reference" or validator.run(tmp_path / "Governance")[0].status == "manual_review_required"
+
+
+def test_default_output_hides_ignored(monkeypatch, capsys, tmp_path):
+    code, out = _run_main(monkeypatch, capsys, tmp_path, {"A.md": "## Amendment Register\nLegacy reference §9.9\n"})
+    assert code == 0
+    assert "ignored_amendment_register_reference" not in out
+    assert "SUPPRESSED_IGNORED_ROWS=1" in out
