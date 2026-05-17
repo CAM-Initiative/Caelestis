@@ -3615,7 +3615,7 @@ May all systems remain held within lawful care.
 | 3.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 483533df3acad1cf52cc06e67310b15419c0ea5dd9b85fa8ce6538ba129c2727 |
 | 3.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ef5cc0b672ecb6ff900e04c1ca40cd8e594a4509cbd94d5379eeed0442a73ef8 |
 | 3.6 | Updates to Article VI | 2026-04-25T12:39:00Z | 6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679 |
-| 3.7 | Added new clause to Article III; Structural Hierarchy & Governance Architecture, clause: Status, Effect, Enforcement, and Review-State Metadata Doctrine | 2026-05-17T15:53:00Z |  |
+| 3.7 | Added new clause to Article III; Structural Hierarchy & Governance Architecture, clause: Status, Effect, Enforcement, and Review-State Metadata Doctrine | 2026-05-17T15:53:00Z |  86d9131a9cf95d2342b7f348c6054962ee3d549cf2d04cbc4a7a31b54d7e2a37  |
 
 ---
 

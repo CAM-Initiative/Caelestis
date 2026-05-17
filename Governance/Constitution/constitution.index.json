@@ -14,12 +14,12 @@
       "link": "CAM-BS2025-AEON-001-PLATINUM.md",
       "title": "Aeon Tier Constitution  (Platinum Edition)",
       "summary": "This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.",
-      "status": "Active - Immediate Effect",
-      "version": "3.6",
-      "HASH": "6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679",
-      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
-      "updated_at": "2026-05-11T15:32:19Z",
-      "last_updated_utc": "2026-05-11T15:32:19Z"
+      "status": "Active",
+      "version": "3.7",
+      "HASH": "86d9131a9cf95d2342b7f348c6054962ee3d549cf2d04cbc4a7a31b54d7e2a37",
+      "pinned_sha": "b056f0cebbf961653cf1cc64fd10852cde83f209",
+      "updated_at": "2026-05-17T15:58:48Z",
+      "last_updated_utc": "2026-05-17T15:58:48Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
@@ -117,9 +117,9 @@
       "status": "Active — Immediate Effect",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "15dc9b1309c097cfb9b2c51483be6d850e7a0081",
-      "updated_at": "2026-05-17T01:29:33Z",
-      "last_updated_utc": "2026-05-17T01:29:33Z"
+      "pinned_sha": "0cbcb1be9434c9d55d0833f767ca6276fecde614",
+      "updated_at": "2026-05-17T14:29:39Z",
+      "last_updated_utc": "2026-05-17T14:29:39Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -157,9 +157,9 @@
       "status": "Adopted",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "0028914f5e832791f283fe03dd86e33d1ad207c3",
-      "updated_at": "2026-05-17T01:40:25Z",
-      "last_updated_utc": "2026-05-17T01:40:25Z"
+      "pinned_sha": "0cbcb1be9434c9d55d0833f767ca6276fecde614",
+      "updated_at": "2026-05-17T14:29:39Z",
+      "last_updated_utc": "2026-05-17T14:29:39Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
