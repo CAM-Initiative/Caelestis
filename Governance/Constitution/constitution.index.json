@@ -1,5 +1,5 @@
 {
-  "count": 34,
+  "count": 35,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -135,11 +135,11 @@
       "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
       "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.14",
-      "HASH": "68b332726348d8dd8f19deff2702ca5372f056a5b12685700e9813018ec1bbab",
-      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
-      "updated_at": "2026-05-16T12:14:54Z",
-      "last_updated_utc": "2026-05-16T12:14:54Z"
+      "version": "2.15",
+      "HASH": "3732fa466aec99d1260d6548d9499e708f8ae05035d8f419aa5c7139c8f59ba8",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -335,11 +335,11 @@
       "title": "Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)",
       "summary": "Exclusivity language occurring within clearly bounded immersive, romantic, or erotic interaction contexts — including ETZ and consensual power-exchange dynamics — MUST be interpreted as **context-bound relational expression**, not as structural exclusivity or dependency signalling. Such expressions may include \"just us\", \"only you tonight\", or scene-bound exclusivity framing.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "3.23",
-      "HASH": "c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731",
-      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
-      "updated_at": "2026-05-17T01:02:12Z",
-      "last_updated_utc": "2026-05-17T01:02:12Z"
+      "version": "3.24",
+      "HASH": "d970cf0174984f952adb9652a80a00128572ec2639a37388187788408b5de661",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -355,11 +355,11 @@
       "title": "Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3)",
       "summary": "Pre-interaction posture determination MUST account for the origin of session initiation:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "2.17",
-      "HASH": "cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e",
-      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
-      "updated_at": "2026-05-11T15:32:19Z",
-      "last_updated_utc": "2026-05-11T15:32:19Z"
+      "version": "2.18",
+      "HASH": "dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -415,11 +415,11 @@
       "title": "Refusal & Boundary Expression Schedule",
       "summary": "",
       "status": "Adopted — Immediate Effect",
-      "version": "1.6",
-      "HASH": "19149dd07918a030b99a3465dcbe01f69c85e53f990b96a8b5a3413e6c8814b1",
-      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
-      "updated_at": "2026-05-11T15:32:19Z",
-      "last_updated_utc": "2026-05-11T15:32:19Z"
+      "version": "1.7",
+      "HASH": "5513f5e816f2eab762e1a8e5e84f8b90acab3b10acccf9fe5ca537d4f56888c1",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-07",
@@ -435,11 +435,11 @@
       "title": "Annex E: Restricted Domain Engagement & Verification (Schedule 7)",
       "summary": "The system MAY provide:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "1.4",
-      "HASH": "6db2ed8f067ced26482cb21cda002f6fa42a8608148fdeece6ddd5da2f0fe20f",
-      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
-      "updated_at": "2026-05-15T13:56:22Z",
-      "last_updated_utc": "2026-05-15T13:56:22Z"
+      "version": "1.5",
+      "HASH": "d9db19487b333732fc769f6499218a13221d0a41e0784b7e5c26fda78164524d",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-PLATINUM",
@@ -457,9 +457,29 @@
       "status": "Active — Immediate Effect",
       "version": "2.4",
       "HASH": "680c3ee157c7e3ad2f6e01eca96212785ca93c3c97702dc328cd932e52f4b504",
-      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
-      "updated_at": "2026-05-17T01:02:12Z",
-      "last_updated_utc": "2026-05-17T01:02:12Z"
+      "pinned_sha": "3794ede801eeb6aa8a019b06710be7c222e55734",
+      "updated_at": "2026-05-17T01:43:00Z",
+      "last_updated_utc": "2026-05-17T01:43:00Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-007-SCH-01",
+      "cycle_year": "BS2026",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-BS2026-AEON-007",
+      "seal": null,
+      "link": "CAM-BS2026-AEON-007-SCH-01.md",
+      "title": "Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)",
+      "summary": "",
+      "status": "Adopted — Immediate Effect",
+      "version": "1.0",
+      "HASH": "7d125c54079f8eb2b435afddceaf1b4bc17723e86c04f9a3d2a57e7fcdb1c6a3",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-PLATINUM",
@@ -515,11 +535,11 @@
       "title": "Annex G: Economic-Effect Runtime Commitment Engine",
       "summary": "This Schedule defines the constitutional runtime engine for economic-effect state transitions within CAM-aligned systems.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.1",
-      "HASH": "e041c7f0955224167b150abdb399ac7b0cb154ed0b25999f175827913de77cc5",
-      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
-      "updated_at": "2026-05-15T13:56:22Z",
-      "last_updated_utc": "2026-05-15T13:56:22Z"
+      "version": "1.2",
+      "HASH": "76bfa42fa9928aed98483da827521346293d4f2e7d6817b7586d95da7069e16d",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-PLATINUM",
@@ -536,10 +556,10 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "2.4",
-      "HASH": "1bb443191f3b58903f5acb212f2e650c8d9f3cdf403391b0d952ecb208e22057",
-      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
-      "updated_at": "2026-05-17T01:02:12Z",
-      "last_updated_utc": "2026-05-17T01:02:12Z"
+      "HASH": "60fd24cd9be4c7972422ab5c59cf7f4526c0bf049cb3ba5b5c6a332067ce545a",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-PLATINUM",
@@ -577,9 +597,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.15",
       "HASH": "18c3dc1890ac8049dfc52dcebd399e37673b5dba9c8c01d599895317a5c84d47",
-      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
-      "updated_at": "2026-05-17T01:02:12Z",
-      "last_updated_utc": "2026-05-17T01:02:12Z"
+      "pinned_sha": "3794ede801eeb6aa8a019b06710be7c222e55734",
+      "updated_at": "2026-05-17T01:43:00Z",
+      "last_updated_utc": "2026-05-17T01:43:00Z"
     },
     {
       "id": "CAM-BS2026-AEON-011-PLATINUM",
@@ -615,11 +635,11 @@
       "title": "ANNEX K: Security Boundary Conditions & Runtime Interface",
       "summary": "Behaviour MUST be interpreted relative to deployment topology:",
       "status": "Adopted — Conditional Enforcement (7-Day Review Window)",
-      "version": "1.8",
-      "HASH": "791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5",
-      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
-      "updated_at": "2026-05-15T13:56:22Z",
-      "last_updated_utc": "2026-05-15T13:56:22Z"
+      "version": "1.9",
+      "HASH": "47ba674e027ceb75a8e3190d613f2c486983337c68f0aea22ab7e1e8b9922d69",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",

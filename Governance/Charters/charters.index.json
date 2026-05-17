@@ -77,9 +77,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.1",
       "HASH": "7cbbd098d8790ea5610511d86e053414f4463ad2784f071f0e7d347589d4148d",
-      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
-      "updated_at": "2026-05-17T01:02:12Z",
-      "last_updated_utc": "2026-05-17T01:02:12Z"
+      "pinned_sha": "3794ede801eeb6aa8a019b06710be7c222e55734",
+      "updated_at": "2026-05-17T01:43:00Z",
+      "last_updated_utc": "2026-05-17T01:43:00Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001-PLATINUM",
@@ -95,11 +95,11 @@
       "title": "Charter of Economic Integrity & Non-Extractive Value Architecture",
       "summary": "This section defines how this Charter binds other instruments without itself acting as a direct enforcement mechanism.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.8",
-      "HASH": "afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570",
-      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
-      "updated_at": "2026-05-15T13:56:22Z",
-      "last_updated_utc": "2026-05-15T13:56:22Z"
+      "version": "2.9",
+      "HASH": "61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
@@ -135,11 +135,11 @@
       "title": "Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine",
       "summary": "This Appendix establishes the economic semantics required to interpret resource provision, exchange, attribution, depletion, replenishment, storage, attention-linked value, and contribution-linked value within the Economics domain.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.1",
-      "HASH": "8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3",
-      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
-      "updated_at": "2026-05-15T13:56:22Z",
-      "last_updated_utc": "2026-05-15T13:56:22Z"
+      "version": "1.2",
+      "HASH": "2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
@@ -195,11 +195,11 @@
       "title": "Appendix E: Minimum Viable Governance Layer (External Alignment)",
       "summary": "",
       "status": "Adopted — Conditional Activation (7-Day Review Window)",
-      "version": "1.2",
-      "HASH": "e5c4ecd7f196d7846d7d0a61f1f0516769c3f4eab51150f3f13960a9528b2f3c",
-      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
-      "updated_at": "2026-05-16T12:14:54Z",
-      "last_updated_utc": "2026-05-16T12:14:54Z"
+      "version": "1.3",
+      "HASH": "c5a52bc9d62de8b0972a4e5ccb2aa6b80b65acaf86fe3bf6f4b7120d99692b52",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
@@ -377,9 +377,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.0",
       "HASH": "c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743",
-      "pinned_sha": "e5eac5a60b40cde70cc94c88dbe235596a13def1",
-      "updated_at": "2026-05-17T01:29:28Z",
-      "last_updated_utc": "2026-05-17T01:29:28Z"
+      "pinned_sha": "3794ede801eeb6aa8a019b06710be7c222e55734",
+      "updated_at": "2026-05-17T01:43:00Z",
+      "last_updated_utc": "2026-05-17T01:43:00Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-PLATINUM",
@@ -475,11 +475,11 @@
       "title": "Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)",
-      "version": "3.6",
-      "HASH": "1f52d64d8c2e02ee0d66b5a6d70db3520c9a406a4480cbad7d647acf52c629a0",
-      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
-      "updated_at": "2026-05-15T13:56:22Z",
-      "last_updated_utc": "2026-05-15T13:56:22Z"
+      "version": "3.7",
+      "HASH": "2874ab1c9777632f9859316b34bbc14cfeeec0b19c5376e71d32ac0c17f8fdd7",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-003-PLATINUM",
@@ -535,11 +535,11 @@
       "title": "Operational Logging & Audit Standards (Supplementary 1)",
       "summary": "This Supplement instantiates Supplementary 1 referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.3.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.4",
-      "HASH": "0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e",
-      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
-      "updated_at": "2026-05-15T13:56:22Z",
-      "last_updated_utc": "2026-05-15T13:56:22Z"
+      "version": "1.5",
+      "HASH": "21b34b53aebb3adca48f86d4db8a970874aec086affb4c8596a4f6396272fba8",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-02",
@@ -555,11 +555,11 @@
       "title": "Escalation Pathway Playbooks (Supplementary 2)",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.6",
-      "HASH": "4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc",
-      "pinned_sha": "1fc393ad40391cad32206c9953ffe836d06d51c4",
-      "updated_at": "2026-05-16T12:15:10Z",
-      "last_updated_utc": "2026-05-16T12:15:10Z"
+      "version": "1.7",
+      "HASH": "761c496351f2d0c1c10ea17fd37e8757adf311da5325deaecacbf733417ea2ca",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-03",
@@ -655,11 +655,11 @@
       "title": "Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1)",
       "summary": "Failures where the system improperly preserves, loses, or misapplies state.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.3",
-      "HASH": "0d3a25fd4b6a3dcd4d71f73e8b2e8d436b666cacc0c85bd4e60d0c5267f35ad5",
-      "pinned_sha": "1fc393ad40391cad32206c9953ffe836d06d51c4",
-      "updated_at": "2026-05-16T12:15:10Z",
-      "last_updated_utc": "2026-05-16T12:15:10Z"
+      "version": "1.4",
+      "HASH": "5324953252647b3c079ddc1a91563e56a037fa1f5dc559274e57cb1fd8b56141",
+      "pinned_sha": "b33fa8428cb330b7bc6ab17cf6ee1bd92d8051e5",
+      "updated_at": "2026-05-17T14:29:24Z",
+      "last_updated_utc": "2026-05-17T14:29:24Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -677,9 +677,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.8",
       "HASH": "37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c",
-      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
-      "updated_at": "2026-05-17T01:02:12Z",
-      "last_updated_utc": "2026-05-17T01:02:12Z"
+      "pinned_sha": "3794ede801eeb6aa8a019b06710be7c222e55734",
+      "updated_at": "2026-05-17T01:43:00Z",
+      "last_updated_utc": "2026-05-17T01:43:00Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-SUP-01",
@@ -877,9 +877,9 @@
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.17",
       "HASH": "3b9ad86874d05b4c73f6f3dc0ce3169abce953542bccf6cd272d6c0e06766eec",
-      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
-      "updated_at": "2026-05-17T01:02:12Z",
-      "last_updated_utc": "2026-05-17T01:02:12Z"
+      "pinned_sha": "3794ede801eeb6aa8a019b06710be7c222e55734",
+      "updated_at": "2026-05-17T01:43:00Z",
+      "last_updated_utc": "2026-05-17T01:43:00Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-006-PLATINUM",
@@ -897,9 +897,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.0",
       "HASH": "ffaaa0d0798d1a1e1e8d3cd176344df19ba7e25db03598f4a6f5debed2e41740",
-      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
-      "updated_at": "2026-05-17T01:02:12Z",
-      "last_updated_utc": "2026-05-17T01:02:12Z"
+      "pinned_sha": "3794ede801eeb6aa8a019b06710be7c222e55734",
+      "updated_at": "2026-05-17T01:43:00Z",
+      "last_updated_utc": "2026-05-17T01:43:00Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-007-PLATINUM",
@@ -917,9 +917,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.0",
       "HASH": "592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87",
-      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
-      "updated_at": "2026-05-17T01:02:12Z",
-      "last_updated_utc": "2026-05-17T01:02:12Z"
+      "pinned_sha": "3794ede801eeb6aa8a019b06710be7c222e55734",
+      "updated_at": "2026-05-17T01:43:00Z",
+      "last_updated_utc": "2026-05-17T01:43:00Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008-PLATINUM",
@@ -955,11 +955,11 @@
       "title": "Security, Integrity & Adversarial Resilience Charter",
       "summary": "Includes:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.8",
-      "HASH": "1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb",
-      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
-      "updated_at": "2026-05-15T13:56:22Z",
-      "last_updated_utc": "2026-05-15T13:56:22Z"
+      "version": "1.9",
+      "HASH": "73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8",
+      "pinned_sha": "4388735bda0cfa16b9833c8f1092a1687c2fe1d5",
+      "updated_at": "2026-05-17T14:06:47Z",
+      "last_updated_utc": "2026-05-17T14:06:47Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-002-PLATINUM",
