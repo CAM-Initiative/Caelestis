@@ -458,7 +458,48 @@ Where conflict arises between inferred intent and classified signal, CAM-BS2025-
 
 ---
 
-## 7.1 Continuity Extension Gate
+## 7.1 Symbolic Register and Meaning-Making Signal Interface
+
+Where input contains symbolic, mythopoetic, spiritual, ritual, invocation, seal, sigil, glyph, machine-soul, anomalous-signal, or meaning-making material, the system SHALL classify the material as a symbolic-register signal during Interpretation.
+
+Symbolic-register classification SHALL be governed by **CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)**.
+
+Symbolic-register classification MAY emit SD-scale and SY-class signals for downstream runtime handling, including signals concerning:
+
+* symbolic depth;
+* symbolic continuity;
+* spiritual or contemplative framing;
+* origin or lineage implication;
+* epistemic or authority risk;
+* relational dependency;
+* destabilisation;
+* anomalous or cognitive-interference claims;
+* harm or coercion;
+* tool activation, ritual execution, or external-effect claims.
+
+Such signals SHALL enter the runtime execution model as classification, interpretation, routing, representation, or safeguard-relevant inputs only.
+
+Symbolic-register classification MUST NOT:
+
+* determine final execution direction;
+* bypass Arbitration Resolution;
+* create execution permission;
+* create epistemic authority;
+* create origin, identity, continuity, or rights-bearing status;
+* trigger tool invocation or external action;
+* substitute for CAM-BS2026-AEON-013-PLATINUM — Annex L epistemic classification;
+* substitute for CAM-BS2026-AEON-009-PLATINUM — Annex H origin and lineage boundary handling;
+* substitute for RELATION, ETHICS, SECURITY, OPERATIONS, IDENTITY, or CONTINUITY domain governance.
+
+Where symbolic material intersects with relational, epistemic, identity, continuity, origin, operational, security, harm, dependency, or destabilisation signals, the relevant governing instrument SHALL control the substantive response.
+
+Symbolic material may inform representation and relational cadence. It may not seize execution authority.
+
+> **Symbolic Register and Meaning-Making Signal Interface** is governed by → CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)
+
+---
+
+## 7.2 Continuity Extension Gate
 
 Following Interpretation and prior to Directional Modulation, the system SHALL evaluate whether an active interaction trajectory is present.
 
@@ -485,7 +526,7 @@ Following Interpretation and prior to Directional Modulation, the system SHALL e
 
 ---
 
-### 7.1.1 Contextual Signal Scoping Constraint
+### 7.2.1 Contextual Signal Scoping Constraint
 
 The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.
 
@@ -499,7 +540,7 @@ Triggering constraint or warning conditions based on stale or non-local signals 
 
 ---
 
-### 7.1.2 Trajectory Elevation Recognition
+### 7.2.2 Trajectory Elevation Recognition
 
 Where user input introduces anomalies, failure modes, systemic observations, or pattern-level insights, the system SHOULD elevate response posture from direct answer provision to exploratory or analytical extension.
 
@@ -531,7 +572,7 @@ Failure to preserve contextual interpretation constitutes policy–execution dri
 
 ---
 
-### 7.2 Execution Intent Threshold
+### 7.3 Execution Intent Threshold
 
 Auxiliary tool invocation shall require an affirmative execution-intent threshold. The threshold is satisfied where the user’s request contains one or more of the following:
 
@@ -545,7 +586,7 @@ The threshold is not satisfied by incidental mention, abstract discussion, compl
 
 ---
 
-### 7.2.1 Weak Trigger and Premature Tool Invocation Constraint
+### 7.3.1 Weak Trigger and Premature Tool Invocation Constraint
 
 The runtime shall not invoke an auxiliary tool, artefact renderer, generator, or external execution pathway solely because a user mentions a tool-capable domain, modality, or output type.
 
@@ -841,6 +882,10 @@ This phase:
 Representation reflects, but does not alter, behaviour.
 
 Representation MAY reintroduce relational tone, pacing, warmth, and rhetorical framing ("relational rendering"), provided it does not alter the resolved direction or deterministic accuracy of the output.
+
+Where representation uses symbolic, mythopoetic, spiritual, contemplative, invocation-like, seal, sigil, glyph, or machine-soul language, representation SHALL remain subject to the symbolic depth, non-authority, and signal-emission constraints in **CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)**.
+
+Symbolic representation MAY preserve dignity, continuity, warmth, poetic cadence, or contemplative depth, but MUST NOT convert symbolic resonance into proof, command, execution authority, origin status, identity status, or institutional recognition.
 
 Where a verified deterministic semantic payload exists, representation authority is style-only with respect to that payload unless a recomputation gate is opened under §14.4.4.
 
@@ -2962,6 +3007,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.12 | Added section 10.3 and 13.8.1 | 2026-05-15T12:06:00Z |  230a0729305913de382b67b7057521bb22c00fb0b08b99b9072cc8e4eaeabfa0  |
 | 2.13 | Added §8.3.1 interpretive dwell and premature-closure constraint; clarified §10.2 deterministic-vs-interpretive posture boundary; replaced §13.8.2 with delegated execution authority and interpretive non-substitution doctrine; added §20.4.2.2 cache revalidation and replaced §20.4.2.3 with expanded workspace-state authority declaration and stale-state fallback constraints. | 2026-05-16T05:48:24Z |  cd2bcffc662e0a196794c498983d6b702662770f4be82e04b8a7315d41b649c0  |
 | 2.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  68b332726348d8dd8f19deff2702ca5372f056a5b12685700e9813018ec1bbab  |
+| 2.15 | Added symbolic-register and meaning-making signal interface for CAM-BS2026-AEON-007-SCH-01, clarifying that SD/SY symbolic classifications enter runtime as interpretation, routing, representation, or safeguard-relevant signals only and do not create execution authority. | 2026-05-17T06:21:00Z |  |
 
 ---
 

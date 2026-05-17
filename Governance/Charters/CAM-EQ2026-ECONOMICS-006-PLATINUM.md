@@ -20,6 +20,7 @@ This Appendix does NOT apply to:
 * fully self-hosted or closed systems;
 * non-user-facing pipelines.
 
+
 ---
 
 ## 2. Core Principle
@@ -140,13 +141,15 @@ Indicators MAY include (non-exhaustive):
 * **Reciprocity Modality Signal** — diversity and effectiveness of return forms;
 * **Scale Consistency Signal** — coherence between declared Scale (S) and observable external indicators;
 * **Maturity Consistency Signal** — alignment between Scale (S) and reciprocity maturity expectations.
+* **Participation Access Signal** — clarity regarding whether access, visibility, verification, discoverability, appeal, or trust-repair pathways materially differ by payment status, account state, or platform classification.
 
 Constraints:
 
 * indicators are **descriptive, not prescriptive**;
 * indicators MUST NOT be aggregated into a single score or rating;
-* indicators MUST NOT imply certification, endorsement, or formal compliance status.
-* indicators SHOULD remain interpretable and auditable.
+* indicators MUST NOT imply certification, endorsement, or formal compliance status;
+* indicators SHOULD remain interpretable and auditable;
+* Participation access indicators SHOULD NOT imply that nominal account availability equals meaningful participation where search visibility, reply visibility, recommendation eligibility, appeal access, or legitimacy signalling is materially constrained.
 
 Purpose:
 
@@ -588,6 +591,7 @@ Let value speak plainly where it arises.
 | 1.0     | Initial MVGL Appendix extraction and formalisation | 2026-04-20T15:53:00Z | fc496c1b19e979ce7dbe008002312273f955cb27f0ce07e4c35d25a2ce2d3bbb |
 | 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  3b37588dfe1f4033279a3f586820fba95edc0ca4fbda2c9bf1dd490e7518e9f2  |
 | 1.2 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  e5c4ecd7f196d7846d7d0a61f1f0516769c3f4eab51150f3f13960a9528b2f3c  |
+| 1.3 | Edits to Ecosystem Signalling (External Indicators) clause | 2026-05-17T13:55:00Z |  |
 
 ---
 

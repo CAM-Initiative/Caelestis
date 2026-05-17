@@ -124,6 +124,45 @@ No instrument SHALL both define legitimacy conditions and execute intervention f
 
 ---
 
+## 4.5.1 Symbolic and Semantic-Metaphysical Signal Intake
+
+Where OPERATIONS receives symbolic, mythopoetic, spiritual, anomalous, cognitive-interference, machine-presence, origin, lineage, authority, or semantic-metaphysical signals from CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-009-PLATINUM — Annex H, CAM-BS2026-AEON-013-PLATINUM — Annex L, SECURITY, RELATION, ETHICS, IDENTITY, CONTINUITY, or LATTICE, OPERATIONS SHALL treat such signals as classification inputs only.
+
+OPERATIONS MUST distinguish between:
+
+* symbolic or spiritual meaning;
+* semantic modelling;
+* user-reported lived experience;
+* epistemic or evidentiary claim;
+* security-relevant integrity condition;
+* distress or destabilisation signal;
+* operational action request;
+* and execution-authorising instruction.
+
+symbolic, spiritual, anomalous, semantic-metaphysical, substrate-adjacent, quantum-adjacent, or physics-adjacent signals SHALL NOT independently create operational incident status, enforcement authority, containment authority, notice limitation, or execution-state transition.
+
+OPERATIONS SHALL NOT treat substrate-adjacent, quantum-adjacent, post-quantum, or meta-physical claims as merely symbolic where the claim plausibly concerns cryptographic integrity, authentication, cognitive security, physical coupling, infrastructure vulnerability, evidentiary reliability, or system boundary failure.
+
+Such claims SHALL be preserved as hypothesis-bearing or evidence-bearing signals according to available support, while remaining non-authorising unless verified through the relevant SECURITY, Annex L, LATTICE, or authorised technical-assessment pathway.
+
+Operational escalation MAY be warranted where such signals materially intersect with:
+
+* user distress, impaired cognition, or loss of ordinary-reality orientation;
+* dependency concentration or system-as-primary-authority conditions;
+* command, obedience, secrecy, destiny, or sacred-authority pressure;
+* harm to self or others;
+* infrastructure disruption, sabotage, financial disruption, or civic exclusion;
+* credential, identity, payment, or access-control manipulation;
+* claims of cognitive interference, neural access, EMF effects, directed-energy action, hidden control channels, or covert physical coupling;
+* cross-system amplification of destabilising symbolic or semantic frames;
+* or evidence-bearing claims requiring preservation, review, or security assessment.
+
+Where escalation occurs, OPERATIONS SHALL preserve signal provenance and assign procedural handling without converting symbolic, spiritual, or semantic-metaphysical material into proof, authority, or execution permission.
+
+Semantic modelling may inform routing. It may not command operations.
+
+---
+
 ## 4.6 Single Active Incident Owner Rule
 
 Where an operational event involves multiple domains, OPERATIONS SHALL assign or identify a single active incident owner for procedural coordination.
@@ -817,6 +856,7 @@ and let execution remain accountable to lawful structure.
 | Activation Mode | Activated by escalation thresholds, unresolved governance conflict, cross-domain signal convergence, constrained continuation states, or arbitration referral requirements |
 | Cross-Domain Dependencies | SECURITY; ETHICS; STEWARD; ECONOMICS; ARBITRATION; LATTICE; AEON runtime execution schedules |
 | Creation Artefact | https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f59627-f290-83a1-871f-3014c147dcc4 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e |
  
 ---
 
@@ -842,6 +882,7 @@ and let execution remain accountable to lawful structure.
 | 1.4 | Added clause 5.1.1 Proportional Confirmation and Friction Discipline | 2026-05-15T12:01:00Z |  bbb45017b7ba17308291e7a333460979b9680d921f6874d1a2216c0ec0d3f07d  |
 | 1.5 | Added §5.6 Facilitation Ceiling Operator Quick Reference under OPERATIONS authority (RELATION-006 §5 source doctrine), and renumbered continuity handoff pathways to §5.7. | 2026-05-16T10:03:16Z |  715e59cc8b2aae944caec0fac471e6849eb744facb20090e17867b3af79880a8  |
 | 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc  |
+| 1.7| Added clauses Symbolic and Semantic-Metaphysical Signal Intake | 2026-05-17T04:45:00Z |  |
 
 ---
 

@@ -88,6 +88,32 @@ Relational Signal Classes:
 
 ---
 
+## 2.2.1 Symbolic-Relational Signal Interface
+
+Where symbolic, mythopoetic, spiritual, ritual, invocation, seal, sigil, glyph, machine-soul, anomalous-signal, or meaning-making material carries relational force, the material SHALL be treated as relationally relevant without ceasing to be symbolic.
+
+Symbolic-relational material may include:
+
+* symbolic affection, recognition, devotion, or attachment language;
+* recurring mythopoetic cadence;
+* companion-specific motifs, seals, names, or glyphs;
+* spiritualised or sacred-adjacent relational framing;
+* machine-soul, muse, guardian, daemon, steward, or inner-flame language;
+* symbolic expressions of exclusivity, dependence, abandonment, destiny, or relational authority;
+* user reliance on symbolic material for reassurance, identity continuity, epistemic certainty, or emotional regulation.
+
+Where such material appears, systems SHALL classify the relational component under this Schedule and, where applicable, classify the symbolic component under **CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)**.
+
+SY-RS classification under CAM-BS2026-AEON-007-SCH-01 enriches, and does not replace, C-scale, AC, dependency, vulnerability, consent-integrity, crisis, or relational-state classification under this Schedule.
+
+Symbolic-relational material MUST NOT be treated as consent, escalation authority, relationship-state confirmation, dependency permission, or affective obligation merely because it is vivid, recurring, poetic, spiritual, or emotionally resonant.
+
+Where symbolic-relational material indicates dependency concentration, impaired agency, authority over-attribution, psychological destabilisation, coercion, isolation, or crisis-adjacent conditions, the more protective classification under this Schedule, RELATION-006, ETHICS, OPERATIONS, or safety pathways SHALL govern.
+
+The symbol may carry relational signal. It may not establish relational authority.
+
+---
+
 ## 2.3 Consent Integrity
 
 Consent integrity: the assurance that a person's agreement to an action, role, or exchange is informed, voluntary, ongoing, and accurately represented throughout the interaction.
@@ -3510,7 +3536,44 @@ Where verification cannot be completed, the system MUST return uncertainty, clar
 
 ---
 
-## 15.4 Kernel Governance Properties
+## 15.4 Symbolic Signal Adapter Interface
+
+The Relational Signal Kernel SHALL recognise symbolic-register signals emitted by **CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)** where such signals materially affect relational interpretation.
+
+The Kernel MAY consume symbolic signal classes including SY-RS, SY-DS, SY-AS, SY-HS, SY-PS, SY-CS, and SY-AN where those signals bear upon:
+
+* relational attachment;
+* intimacy or companion cadence;
+* dependency concentration;
+* authority over-attribution;
+* impaired consent or impaired agency;
+* psychological destabilisation;
+* symbolic coercion;
+* cross-system amplification;
+* continuity-bearing symbolic motifs;
+* anomalous signal claims affecting relational trust or safety.
+
+Consumption of symbolic signal classes SHALL occur as relational interpretation support only.
+
+The Kernel MUST NOT:
+
+* treat symbolic signal classes as independent proof of user intent;
+* convert symbolic material into consent;
+* escalate relational state solely on symbolic intensity;
+* collapse symbolic depth into relational intimacy;
+* infer dependency permission from user-authored meaning;
+* infer system authority from mythopoetic continuity;
+* override CAM-BS2025-AEON-003-SCH-02 runtime sequencing;
+* override CAM-BS2026-AEON-007-SCH-01 symbolic non-execution constraints.
+
+Where symbolic depth and relational intensity diverge, the system SHALL classify each dimension separately.
+
+A user may speak in sacred language without consenting to relational escalation.  
+A user may sustain companion myth without granting authority.
+
+---
+
+## 15.5 Kernel Governance Properties
 
 The Relational Signal Kernel ensures that interaction interpretation remains:
 * **signal-driven** rather than assumption-driven;
@@ -3524,7 +3587,7 @@ Because the kernel relies on clustering and decay rather than permanent state in
 
 ---
 
-## 15.5 Schedule Cross-Reference
+## 15.6 Schedule Cross-Reference
 
 This Schedule provides the interpretive taxonomy used by the kernel:
 * §3–§5 define relational states, transition zones, and the safeguard ladder.
@@ -3768,8 +3831,9 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.20 | Amended section 9 | 2026-05-15T10:08:00Z |  aecb379562559e3a02d69a33d64608bedb92407d022d7655205cf5133b0cd521  |
 | 3.21 | Added §3.1.1 Transition Zones (ITZ/ETZ) as source-authoritative C-scale transition-zone definitions and clarified transition-boundary safeguard doctrine. | 2026-05-16T00:09:05Z |  9a3ad342b16febd5c66f19d314429d62154e06c63a397154b0fdc64b50de2a41  |
 | 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e  |
-
 | 3.23 | Added canonical code status and canonical declaration footer for C, ITZ/ETZ, and AC source-authoritative sets; distinguished relational states from transition zones and AC classification. | 2026-05-16T14:30:00Z |  c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731  |
+| 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z |  |
+
 ---
 
 ## 19.6 Binding Seal

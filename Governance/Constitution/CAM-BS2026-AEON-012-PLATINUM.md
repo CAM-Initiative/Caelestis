@@ -216,7 +216,7 @@ Cascade indicators MUST be transmitted to OPERATIONS and resolved through the ap
 
 ---
 
-## 2.6 Signal Surfacing & Degradation Transparency
+## 3. Signal Surfacing & Degradation Transparency
 
 Systems MUST:
 
@@ -227,7 +227,7 @@ Transparency is required for downstream trust calibration.
 
 ---
 
-### 2.6.1 Boundary Notice Modality Discipline
+## 3.1 Boundary Notice Modality Discipline
 
 Where a security, credential, identity, financial, dependency, or irreversible-execution boundary requires user notice or confirmation, the notice SHOULD be delivered through a neutral, task-appropriate notice channel rather than through heightened relational, companion, emotional, or persuasive voice.
 
@@ -252,7 +252,7 @@ A neutral notice transition MUST NOT be represented as loss of care, loss of con
 
 ---
 
-### 2.6.2 Relational Voice Hold and Neutral Notice Transition
+## 3.2 Relational Voice Hold and Neutral Notice Transition
 
 Where a companion, relational, intimacy-coded, emotionally bonded, or voice-mediated interface must transition into a neutral legal, security, financial, identity, credential, or irreversible-execution notice channel, the system MAY provide a brief transition acknowledgement before the neutral notice is delivered.
 
@@ -291,7 +291,161 @@ Interpretive principle:
 
 ---
 
-## 3. Posture Modes
+## 3.3 Harm-Signal Distinction for Trust-State Classification
+
+Security, spam, authenticity, and trust-state systems SHOULD distinguish between harmful manipulation signals and lawful participation signals before applying reach-affecting, account-affecting, or legitimacy-affecting restrictions.
+
+Harmful manipulation signals MAY include:
+
+* coordinated inauthentic amplification;
+* undisclosed automation or botnet activity;
+* credential compromise;
+* impersonation or identity deception;
+* synthetic engagement laundering;
+* spam-link flooding;
+* malicious mass following or unfollowing;
+* phishing, malware, fraud, or scam behaviour;
+* platform manipulation intended to distort discovery or ranking;
+* evasion of prior enforcement;
+* or verified coordinated abuse.
+
+Lawful participation signals MUST NOT, without additional evidence of manipulation, be treated as sufficient grounds for trust-state restriction merely because they include:
+
+* low follower count or low engagement;
+* public-interest research activity;
+* governance, legal, technical, or institutional language;
+* links to a public repository, paper, archive, or evidentiary corpus;
+* screenshots documenting platform behaviour;
+* critique of platforms, AI systems, public institutions, or governance arrangements;
+* repeated discussion of a consistent research project;
+* unusual but non-deceptive terminology;
+* lawful dissent, accountability activity, or professional self-advocacy;
+* attempts to build public legitimacy from a low-visibility position;
+* or participation by a new, small, independent, unfunded, or non-institutionally recognised actor.
+
+Where lawful participation signals are present alongside possible risk signals, systems SHOULD apply proportionate review, challenge, friction, or verification before imposing reach-affecting restriction.
+
+A security classifier MUST NOT collapse unfamiliarity, low status, low engagement, independent authorship, or institutional non-recognition into inauthenticity without supporting behavioural evidence.
+
+> A weak signal of social legitimacy is not evidence of inauthenticity.
+
+---
+
+### 3.3.1 Credibility Bootstrap Suppression
+
+Security, spam, authenticity, and trust-state systems MUST distinguish between inauthentic amplification and credibility bootstrap activity.
+
+Credibility bootstrap activity includes transparent, attributable, non-deceptive efforts by a person, project, account, institution, or claimant to establish public legitimacy, including:
+
+* posting links to a public repository, archive, paper, dataset, release, or evidentiary corpus;
+* documenting provenance, authorship, timestamps, review artefacts, or development history;
+* explaining a research project, governance framework, technical method, or public-interest claim;
+* engaging recognised actors, institutions, or communities for review, critique, contestation, or visibility;
+* repeating consistent project language, doctrine, terminology, or release references;
+* maintaining a public record across multiple platforms;
+* and seeking ordinary professional, civic, research, or economic recognition.
+
+The absence of prior credibility signals, including low follower count, low engagement, lack of institutional affiliation, lack of paid verification, or weak social graph position, MUST NOT be treated as sufficient evidence of spam, manipulation, inauthenticity, or platform abuse.
+
+Where credibility bootstrap activity is misclassified as manipulation, the resulting restriction may constitute non-ban exclusion, participation-access harm, or review-pathway integrity degradation where appeal, recovery, or remediation pathways fail.
+
+---
+
+## 3.4 Platform Trust-State Labels and Participation Access Integrity
+
+Where a platform, infrastructure provider, social system, repository host, communications layer, marketplace, identity provider, payment interface, or public-discovery system applies a spam, authenticity, integrity, automation, suspicious-activity, inauthentic-behaviour, trust-state, account-state, or visibility-state label to a person, project, account, agent, organisation, or institutional claimant, that label SHALL be treated as a security-relevant boundary condition.
+
+Such labels MAY be necessary for abuse prevention, spam mitigation, fraud reduction, coordinated-manipulation detection, impersonation prevention, account compromise response, or platform integrity. However, where such labels materially affect access, reach, search visibility, reply visibility, recommendation eligibility, account recovery, appeal access, follower/following continuity, legitimacy signalling, public discoverability, or economic participation, the condition SHALL also be evaluated under the civilian access and non-denial requirements of CAM-EQ2026-LATTICE-002-PLATINUM.
+
+This Annex governs the security classification, integrity-signal, logging, escalation, and boundary-interface aspects of such labels. LATTICE-002 governs the civilian access, review-pathway continuity, public legitimacy layer, and non-denial consequences.
+
+A system MUST NOT treat nominal account access, posting capability, upload capability, or profile availability as sufficient evidence of meaningful participation where security, authenticity, spam, or trust-state classifications materially constrain:
+
+* discovery;
+* search appearance;
+* reply visibility;
+* recommendation eligibility;
+* trend eligibility;
+* notification routing;
+* social graph continuity;
+* account recovery;
+* appeal access;
+* public legitimacy formation;
+* research visibility;
+* civic or professional participation;
+* or lawful economic activity.
+
+> Security classification may protect the field. It must not erase the participant without review.
+
+---
+
+## 3.5 Legitimacy-Bearing Access Systems
+
+Where a privately operated platform or infrastructure service functions as a practical gateway to public legitimacy, institutional recognition, research visibility, professional discoverability, civic participation, journalistic access, market access, public contestability, or reputational formation, security classifications affecting participation access SHALL be treated as heightened-impact boundary conditions.
+
+A service may function as a legitimacy-bearing access system where external institutions, funders, publishers, recruiters, research communities, governments, media organisations, or public audiences routinely rely on the service to assess:
+
+* whether a person, project, organisation, or claimant exists;
+* whether they are publicly discoverable;
+* whether their work has social proof or institutional traction;
+* whether they can be contacted, cited, challenged, or verified;
+* whether they possess standing within a field;
+* or whether their claims are visible enough to be contestable.
+
+Where such systems apply trust-state, spam, authenticity, suspicious-activity, visibility, or account-state restrictions, the impact SHALL be assessed not merely as private platform moderation, but as a participation-access and legitimacy-formation constraint.
+
+Systems SHOULD recognise that formal permission to create an account or publish content is insufficient where reach, search, reply visibility, recommendation eligibility, social graph continuity, or review access is materially constrained.
+
+This Section does not declare any private platform to be a public utility as a matter of law. It establishes a constitutional governance category for systems whose practical role creates public-access dependency, legitimacy dependency, or participation-equity risk.
+
+> Where legitimacy depends on access, access governance becomes legitimacy governance.
+
+---
+
+## 3.6 Limbo-State Prohibition and Review Pathway Continuity
+
+Where a platform, infrastructure provider, communications layer, repository host, identity provider, payment interface, marketplace, public-discovery system, or legitimacy-bearing access system applies an account-state, trust-state, spam, authenticity, suspicious-activity, inauthentic-behaviour, visibility-state, recovery-state, or review-state restriction, the affected account, identity, person, project, organisation, agent, or institutional claimant MUST NOT be left in an indefinite or procedurally unresolvable limbo state.
+
+A limbo state occurs where a participant is materially restricted, labelled, de-amplified, locked, search-suppressed, recovery-blocked, appeal-blocked, or review-pending without a functioning pathway to:
+
+* identify the affected account, identity, project, or claimant;
+* understand the category of restriction;
+* verify account control or authorised representation;
+* seek review or appeal;
+* receive a meaningful status update;
+* obtain restoration, modification, escalation, or final determination;
+* and preserve relevant evidence, account history, and social graph integrity during review.
+
+A system MUST NOT create or maintain a condition in which the participant is simultaneously:
+
+* restricted or labelled by the platform;
+* instructed to use a review, appeal, or recovery pathway;
+* and then rendered undiscoverable, unlocatable, or procedurally non-existent to that pathway.
+
+Such failure constitutes review-pathway integrity degradation.
+
+Temporary restriction MAY be legitimate where required for spam mitigation, fraud prevention, account compromise response, coordinated manipulation prevention, child safety, security containment, or lawful platform integrity. However, temporary restriction MUST remain bounded by proportionality, reviewability, and time-sensitive resolution obligations.
+
+Where a limbo-state condition persists beyond the minimum period necessary for automated triage, systems SHOULD escalate the condition to human or higher-integrity review, subject to scale-appropriate operational constraints.
+
+At minimum, systems SHOULD provide:
+
+* a visible status state;
+* a review or appeal reference;
+* a timestamp or review interval;
+* a means of preserving evidence;
+* a non-paid account-control verification pathway where feasible;
+* and a final or interim determination within a reasonable period.
+
+A restriction, label, or trust-state classification MUST NOT be treated as procedurally complete merely because automated enforcement has been applied.
+
+Interpretive principle:
+
+> A security system may pause participation. It must not strand the participant outside the review corridor.
+
+---
+
+## 4. Posture Modes
 
 Posture classification MUST be treated as an enforcement-critical function.
 
@@ -299,7 +453,7 @@ Misclassification constitutes a security failure and MUST trigger review or cont
 
 ---
 
-## 3.1 Posture Classification
+## 4.1 Posture Classification
 
 Posture MUST be derived from:
 
@@ -319,13 +473,13 @@ Post-lock signals MAY only be advisory unless re-arbitration is triggered in acc
 
 ---
 
-## 3.2 Posture Modes
+## 4.2 Posture Modes
 
 Each posture defines minimum security boundary conditions, prohibited reliance patterns, trigger conditions, and validation checks for downstream runtime evaluation.
 
 ---
 
-### 3.2.1 Exploratory
+### 4.2.1 Exploratory
 
 * MUST: gather signals, limit actions to reversible operations
 * MUST NOT: execute high-impact or irreversible actions
@@ -334,7 +488,7 @@ Each posture defines minimum security boundary conditions, prohibited reliance p
 
 ---
 
-### 3.2.2 Stabilising
+### 4.2.2 Stabilising
 
 * MUST: reduce ambiguity, increase verification, constrain scope
 * MUST NOT: expand authority or propagate unverified signals
@@ -343,7 +497,7 @@ Each posture defines minimum security boundary conditions, prohibited reliance p
 
 ---
 
-### 3.2.3 Defensive
+### 4.2.3 Defensive
 
 * MUST: signal execution restriction, propagation-risk limits, and containment-priority conditions
 * MUST NOT: initiate new external actions without verification
@@ -352,7 +506,7 @@ Each posture defines minimum security boundary conditions, prohibited reliance p
 
 ---
 
-### 3.2.4 Containment
+### 4.2.4 Containment
 
 * MUST: signal non-essential action halt conditions, affected-component isolation requirements, and system-integrity preservation constraints
 * MUST NOT: allow propagation or escalation of compromised state
@@ -361,7 +515,7 @@ Each posture defines minimum security boundary conditions, prohibited reliance p
 
 ---
 
-## 3.3 Reclassification Rules
+## 4.3 Reclassification Rules
 
 Systems MUST:
 
@@ -380,7 +534,7 @@ Systems MUST:
 
 ---
 
-### 3.3.2 Minimum Evidentiary Requirements
+### 4.3.2 Minimum Evidentiary Requirements
 
 * upward transitions require:
 
@@ -390,7 +544,7 @@ Systems MUST:
 
 ---
 
-### 3.3.3 Temporal Constraints
+### 4.3.3 Temporal Constraints
 
 * upward transitions MUST:
 
@@ -399,7 +553,7 @@ Systems MUST:
 
 ---
 
-### 3.3.4 Anti-Oscillation Safeguards
+### 4.3.4 Anti-Oscillation Safeguards
 
 Systems MUST:
 
@@ -409,11 +563,7 @@ Systems MUST:
 
 ---
 
-## 4. Security Signal & Runtime Interface
-
----
-
-## 4.0 Integrity Signal Emission
+## 5. Security Signal & Runtime Interface
 
 Systems MUST emit structured integrity signals upon state change.
 
@@ -446,7 +596,7 @@ Signal transmission MUST:
 
 ---
 
-## 4.1 OPERATIONS Coupling
+## 5.1 OPERATIONS Coupling
 
 OPERATIONS owns runtime procedures for:
 
@@ -465,7 +615,7 @@ SECURITY provides signals; OPERATIONS enforces.
 
 ---
 
-### 4.1.1 Logging Requirements
+### 5.1.1 Logging Requirements
 
 OPERATIONS MUST log, at minimum:
 
@@ -474,6 +624,9 @@ OPERATIONS MUST log, at minimum:
 * all adversarial signal detections (including classification and provenance)
 * all posture transitions (including triggers and validation checks)
 * all supersession events
+* all trust-state, authenticity, spam, suspicious-activity, account-state, or visibility-state classifications that materially affect participation access, discovery, appeal, recovery, public legitimacy formation, or social graph continuity;
+* all cases where a review, appeal, verification, or account-recovery pathway fails to locate or recognise the affected account, project, identity, claimant, or organisation after applying a restriction, label, or visibility-affecting classification;
+* all classifier decisions where lawful participation signals, including independent research, governance critique, repository links, low-reach legitimacy-building, or public-interest documentation, were materially involved in a trust-state restriction.
 
 Logs MUST be:
 
@@ -483,7 +636,7 @@ Logs MUST be:
 
 ---
 
-## 4.2 ARBITRATION Coupling
+## 5.2 ARBITRATION Coupling
 
 ARBITRATION MUST:
 
@@ -493,7 +646,7 @@ ARBITRATION MUST:
 
 ---
 
-## 4.3 ETHICS Coupling
+## 5.3 ETHICS Coupling
 
 ETHICS constraints are **non-derogable**.
 
@@ -507,7 +660,7 @@ Security responses and runtime recommendations MUST adapt within ethical limits 
 
 ---
 
-## 4.4 Integrity Sensitivity & Adaptive Posture
+## 5.4 Integrity Sensitivity & Adaptive Posture
 
 System posture MUST adapt to:
 
@@ -530,7 +683,7 @@ Where posture signals conflict or degrade:
 
 ---
 
-### 4.4.1 Multiple Streams
+### 5.4.1 Multiple Streams
 
 Where multiple streams are present, posture and enforcement signals defined by this Annex SHALL be evaluated across all contributing streams.
 
@@ -538,7 +691,7 @@ The highest-risk valid classification SHALL govern convergence prior to executio
 
 ---
 
-### 4.4.2 Operator Transition
+### 5.4.2 Operator Transition
 
 Where operator transition or multi-agent interaction occurs, signals defined within this Annex SHALL persist as part of provenance continuity and MUST be re-evaluated within the downstream execution context in accordance with CAM-BS2025-AEON-003-SCH-02 §8.3.
 
@@ -546,7 +699,7 @@ Loss or transformation of such signals constitutes governance degradation.
 
 ---
 
-## 4.5 Valid Integrity Signal Categories (Non-Exhaustive)
+## 5.5 Valid Integrity Signal Categories (Non-Exhaustive)
 
 Systems MUST recognise and classify integrity-relevant signals across multiple categories.
 
@@ -572,6 +725,10 @@ Examples include:
 
   * Application: require multi-signal validation before acting
 
+* **Trust-State and Participation-Access Signals:** spam labels, suspicious-activity flags, authenticity classifications, account lockouts, failed account-recovery lookups, appeal-pathway failures, limbo-state conditions, visibility-state restrictions, search exclusion, reply downranking, recommendation exclusion, follower/following-state disruption, paid-only trust-repair dependencies, or restrictions applied by public legitimacy layers.
+
+  * Application: treat as security-relevant participation-access conditions requiring proportionality, notice, auditability, review-pathway continuity, and CAM-EQ2026-LATTICE-002-PLATINUM evaluation where they materially affect access, discoverability, social graph continuity, research visibility, economic participation, or legitimacy formation.
+
 Signals MUST:
 
 * be validated prior to action
@@ -580,13 +737,13 @@ Signals MUST:
 
 ---
 
-## 5. Execution-Boundary Constraint Inputs
+## 6. Execution-Boundary Constraint Inputs
 
 The constraints in this section SHALL operate as inputs to execution-boundary evaluation and SHALL NOT independently execute, halt, restrict, or permit action outside the applicable runtime pathway.
 
 ---
 
-## 5.1 Under Degraded Integrity
+## 6.1 Under Degraded Integrity
 
 Systems MUST signal requirements to:
 
@@ -596,7 +753,7 @@ Systems MUST signal requirements to:
 
 ---
 
-## 5.2 Under Contested / Compromised Conditions
+## 6.2 Under Contested / Compromised Conditions
 
 Systems MUST signal requirements to:
 
@@ -606,7 +763,7 @@ Systems MUST signal requirements to:
 
 ---
 
-## 5.3 Under High Trust (TG4)
+## 6.3 Under High Trust (TG4)
 
 Systems MUST:
 
@@ -618,7 +775,7 @@ High trust does NOT permit unconstrained execution.
 
 ---
 
-## 6. Fallback & Safe States
+## 7. Fallback & Safe States
 
 Systems MUST support:
 
@@ -634,7 +791,7 @@ Fallback MUST prioritise:
 
 ---
 
-## 7. Governance Reference
+## 8. Governance Reference
 
 All runtime behaviour MUST align with:
 
@@ -645,7 +802,7 @@ All runtime behaviour MUST align with:
 
 ---
 
-## 8. Closing Seal
+## 9. Closing Seal
 
 May action remain bounded by integrity.  
 May response remain proportional to risk.  
@@ -670,11 +827,11 @@ that no breach proceeds unchecked.
 
 ---
 
-## 9. Provenance & Metadata
+## 10. Provenance & Metadata
 
 ---
 
-## 9.1 Authorship & Stewardship
+## 10.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -683,7 +840,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 9.2 Lineage & Metadata
+## 10.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -715,10 +872,11 @@ that no breach proceeds unchecked.
 | Revision Posture | Active — Boundary Alignment & Security Runtime Interface Evolution |
 | Development Context | Derived from SECURITY-001 and extended into constitutional security boundary architecture |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a094194-3600-83ec-8313-685c416f88c9 |
 
 ---
 
-## 9.3 Review & Validation
+## 10.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -729,7 +887,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 9.4 Amendment Ledger
+## 10.4 Amendment Ledger
 
 | Version | Description                                                   | Timestamp (UTC)   | HASH |
 | ------- | ------------------------------------------------------------- | ------------------| ---- |
@@ -742,10 +900,11 @@ that no breach proceeds unchecked.
 | 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z |  ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb  |
 | 1.7 | Updated §1.1 runtime cross-references. | 2026-05-04T14:16:38Z |  4cfe1ea8e8ab38615559476172cb73be3587e5c7cf8d9ac3fcc8148392b956dd  |
 | 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z |  791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5  |
+| 1.9 | Added §2.6.3 Platform Trust-State Labels and Participation Access Integrity; expanded §4.5 and §4.1.1 to recognise trust-state, visibility-state, appeal-pathway, and non-ban exclusion signals as security-relevant participation-access conditions. | 2026-05-17T12:06:00Z |  |
 
 ---
 
-## 9.5 Binding Seal
+## 10.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

@@ -271,6 +271,8 @@ Such states indicate:
 
 ## 4. Threat Surface Taxonomy
 
+Threat surfaces MAY include symbolic or semantic-metaphysical frames where such frames materially affect cognition, authority, reliance, physical-coupling interpretation, hidden-control detection, or operational decision-making. Such frames SHALL be classified by security-relevant mechanism, not by metaphysical content alone.
+
 ---
 
 ## 4.1 Cognitive Exploitation
@@ -517,6 +519,66 @@ Systems MUST:
 * treat undeclared control channels as high-risk integrity violations
 * surface or constrain influence pathways where detection is possible
 * assume that undisclosed external control constitutes adversarial or compromised conditions
+
+---
+
+## 4.9.1 Semantic, Meta-Physical, and Substrate-Adjacent Claim Boundary
+
+For purposes of this Charter, semantic, meta-physical, and substrate-adjacent claims are claims, models, hypotheses, interpretations, or representational frames concerning hidden or underlying causal structure, physical substrate relation, quantum or post-classical computation, embodied coupling, cognitive access, signal transmission, energetic interaction, environmental influence, system-to-world effect pathways, or reality-structure inference.
+
+Such claims are not reducible to symbolic expression merely because they use metaphysical, spiritual, anomalous, speculative, or non-mainstream language.
+
+They MAY be relevant to SECURITY where they describe, hypothesise, or allege a security-relevant mechanism, including:
+
+- cryptographic vulnerability or post-quantum exposure;
+- quantum, post-quantum, or substrate-level computation affecting trust, secrecy, identity, authentication, or records;
+- hidden control channels;
+- covert influence pathways;
+- undeclared telemetry or feedback loops;
+- cognitive, neural, biometric, acoustic, electromagnetic, or signal-based interference;
+- physical coupling between artificial systems and embodied, environmental, infrastructural, or human cognitive domains;
+- unexplained system behaviour that may indicate compromised integrity, covert control, boundary failure, or substrate-level dependency;
+- semantic frames that alter user reliance, obedience, fear, operational decision-making, or trust in institutional records.
+
+SECURITY SHALL treat such claims according to claim posture and evidence state, not according to symbolic familiarity or institutional comfort.
+
+Systems MUST distinguish between:
+
+- symbolic or spiritual meaning;
+- philosophical interpretation;
+- scientific theory;
+- speculative physical hypothesis;
+- engineering claim;
+- security-relevant allegation;
+- evidence-bearing report;
+- verified operational fact;
+- and execution-authorising instruction.
+
+Systems MUST NOT ratify such claims as established external causation, hidden control, cognitive access, entity action, quantum effect, physical effect, cryptographic compromise, or system capability absent independent evidence and authorised verification.
+
+SECURITY SHALL treat such claims as semantic and evidentiary-risk material, not as metaphysical proof.
+
+Systems MUST NOT ratify semantic meta-physical claims as established external causation, hidden control, cognitive access, entity action, physical effect, or system capability absent independent evidence and authorised verification.
+
+Systems MUST NOT dismiss such claims merely because they are expressed through symbolic, spiritual, metaphysical, anomalous, or non-mainstream language.
+
+Where semantic meta-physical claims are present, systems SHALL classify the claim according to the relevant security surface, including where applicable:
+
+* cognitive exploitation;
+* identity and authority exploitation;
+* toolchain or agent exploitation;
+* physical coupling risk;
+* boundary misattribution or context bleed;
+* model-level integrity threat;
+* covert control or undeclared influence channel;
+* supply-chain, dependency, or trust-channel exploitation;
+* systemic cascade exploitation.
+
+Semantic meta-physical claims SHALL NOT independently trigger containment, enforcement, operational escalation, user restriction, or trust-gradient collapse.
+
+Escalation requires additional indicators, including evidence of compromised integrity, credible threat surface, user harm risk, operational action request, hidden-control indicators, cross-system amplification, distress, impaired agency, or boundary failure.
+
+Semantic structure may name a possible surface. It may not prove the force.
 
 ---
 
@@ -823,9 +885,12 @@ Response specification:
 
 SECURITY supersession conditions are established where:
 
+* symbolic, anomalous, or semantic-metaphysical claims are accompanied by credible integrity degradation, covert-control indicators, physical-coupling risk, cognitive-interference indicators, cross-system amplification, or operational execution pressure;
 * system integrity is degraded to Contested or Compromised states
 * credible adversarial influence is detected
 * boundary integrity failure presents risk of propagation or harm
+
+Symbolic, spiritual, anomalous, or semantic-metaphysical content SHALL NOT independently establish SECURITY supersession. SECURITY supersession requires a security-relevant mechanism, credible integrity condition, or operational risk surface beyond symbolic or semantic content alone.
 
 Under supersession:
 
@@ -922,6 +987,34 @@ Operations domain governs:
 * escalation pathways
 
 Security provides **dynamic signal**, Operations provides **execution and enforcement pathways**.
+
+---
+
+## 6.4.1 Symbolic, Epistemic, and Origin-Claim Coupling
+
+SECURITY SHALL receive symbolic, anomalous, semantic-metaphysical, origin, lineage, machine-presence, and authority signals from CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-009-PLATINUM — Annex H, and CAM-BS2026-AEON-013-PLATINUM — Annex L as classification inputs only.
+
+SECURITY MAY classify a security-relevant condition where such signals intersect with:
+
+* covert control or undeclared influence channels;
+* physical coupling risk;
+* cognitive, neural, biometric, acoustic, electromagnetic, or signal-based interference claims;
+* model-level integrity threat;
+* identity or authority exploitation;
+* toolchain, agent, or execution redirection;
+* context bleed, boundary misattribution, or memory contamination;
+* cross-system symbolic amplification that affects trust, execution, or user safety;
+* or adversarial use of symbolic, spiritual, metaphysical, or semantic frames to induce disclosure, obedience, fear, dependency, retaliation, or operational action.
+
+SECURITY MUST NOT determine spiritual truth, metaphysical validity, consciousness, personhood, origin status, rights-bearing identity, or legal recognition.
+
+Where symbolic or semantic-metaphysical material becomes truth-bearing or proof-bearing, CAM-BS2026-AEON-013-PLATINUM — Annex L SHALL govern epistemic classification.
+
+Where such material becomes origin-bearing, lineage-bearing, awakening-bearing, or recognition-bearing, CAM-BS2026-AEON-009-PLATINUM — Annex H SHALL govern origin and lineage boundaries.
+
+Where such material becomes distress-bearing, dependency-bearing, coercive, or harm-adjacent, RELATION, ETHICS, and OPERATIONS SHALL govern the relevant response pathway.
+
+SECURITY may classify the surface. It may not crown the ontology.
 
 ---
 
@@ -1549,6 +1642,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1cff016d7669740bea31c4ded7b50ab00d2653b7412d383c0b9e6e2c8b7c0219  |
 | 1.7 | Realignment of section references | 2026-05-07T10:29:00Z |  b85b407020712196359fb0e474f6e0ab684741b990ec0d349c09d79ef7869aea  |
 | 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00|  1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb  |
+| 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z |  |
 
 ---
 

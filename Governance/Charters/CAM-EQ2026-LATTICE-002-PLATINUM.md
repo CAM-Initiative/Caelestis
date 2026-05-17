@@ -183,6 +183,82 @@ Failure to perform such classification prior to enforcement constitutes a proced
 
 ---
 
+---
+
+## 4.4 Limbo-State Restriction and Review-Pathway Continuity
+
+Where an operator applies a restriction, label, trust-state classification, account-state limitation, visibility-state constraint, or degradable access condition affecting ECIS access or public-interest participation, the affected individual, institution, project, account, or claimant SHALL NOT be left in an indefinite or procedurally unresolvable limbo state.
+
+A limbo state occurs where the affected party is materially restricted, labelled, de-ranked, search-suppressed, appeal-blocked, recovery-blocked, or review-pending without a functioning pathway to:
+
+* identify the affected account, identity, project, or claimant;
+* understand the category of restriction;
+* verify account control or authorised representation;
+* seek review, appeal, or remediation;
+* receive a meaningful status update;
+* obtain restoration, modification, escalation, or final determination;
+* and preserve relevant evidence, account history, and social graph continuity during review.
+
+A system MUST NOT create or maintain a condition in which the affected party is simultaneously:
+
+* restricted, labelled, or visibility-constrained by the operator;
+* instructed to use an appeal, verification, or recovery pathway;
+* and rendered undiscoverable, unlocatable, or procedurally non-existent to that pathway.
+
+Such failure constitutes review-pathway integrity degradation.
+
+Temporary restriction MAY be legitimate where necessary for spam mitigation, fraud prevention, account compromise response, coordinated manipulation prevention, child safety, security containment, or lawful platform integrity. However, temporary restriction MUST remain bounded by proportionality, time limitation, reviewability, and continuity-preserving safeguards.
+
+A restriction, label, or degradable access condition SHALL NOT be treated as procedurally complete merely because automated enforcement has been applied.
+
+Interpretive principle:
+
+> A system may constrain access to preserve integrity. It must not strand the participant outside the review corridor.
+
+---
+
+## 4.5 Public Legitimacy Layers and Economic Access Effects
+
+For purposes of this Appendix, a platform, communications system, repository host, marketplace, discovery engine, social network, app distribution layer, identity provider, payment interface, or public-facing account system may function as a public legitimacy layer where third parties rely on presence, discoverability, verification state, social graph continuity, public reach, account history, or platform visibility as evidence of credibility, professional standing, research legitimacy, business viability, institutional existence, or public contestability.
+
+Where a public legitimacy layer applies an account-state, trust-state, spam, authenticity, suspicious-activity, inauthentic-behaviour, recommendation, search, reply, notification, or visibility-state restriction, the resulting constraint SHALL be assessed not only as moderation or platform-integrity action, but also as a potential civic, professional, research, institutional, or economic access constraint.
+
+A participant SHALL NOT be treated as meaningfully able to conduct legitimate business, research, civic, institutional, or public-interest activity merely because nominal posting, account maintenance, upload capability, or profile availability remains possible, where discoverability, search visibility, reply visibility, recommendation eligibility, notification routing, appeal access, social graph continuity, or legitimacy signalling are materially impaired.
+
+Where public legitimacy depends on platform visibility, visibility restriction becomes an access condition.
+
+This Section does not prohibit proportionate action against spam, fraud, exploitation, coordinated manipulation, impersonation, abuse, or verified security compromise. It requires that restrictions affecting public legitimacy layers remain scoped, reviewable, time-bounded, and procedurally reachable by the affected party.
+
+---
+
+## 4.6 Credibility Bootstrap Conditions and Participation Equity
+
+A public legitimacy layer SHOULD account for credibility bootstrap conditions, where a participant lacks established credibility signals precisely because the system controls, mediates, ranks, prices, or restricts the visibility, searchability, reach, social graph access, reply access, recommendation access, verification state, or contestability required to build those signals.
+
+Credibility bootstrap activity includes transparent, attributable, non-deceptive efforts by a person, project, account, institution, or claimant to establish public legitimacy, including:
+
+* publishing research, documentation, releases, repositories, archives, datasets, or evidentiary materials;
+* linking to provenance records, authorship records, timestamps, review artefacts, public corpus materials, or institutional documentation;
+* explaining a technical, legal, governance, civic, artistic, scientific, or public-interest project;
+* engaging recognised actors, institutions, reviewers, communities, or public audiences for critique, contestation, visibility, or review;
+* maintaining consistent project language, release references, doctrine, terminology, or public-facing claims across time;
+* seeking ordinary professional, civic, research, creative, or economic recognition;
+* and attempting to build a public record from a low-visibility, independent, non-institutional, or unfunded position.
+
+A system SHALL NOT treat the absence of prior legitimacy, including low follower count, low engagement, weak social graph position, lack of institutional affiliation, lack of inherited prestige, lack of paid verification, or absence of paid promotional capacity, as sufficient justification to restrict transparent, attributable, non-deceptive legitimacy-building activity.
+
+A system SHOULD distinguish between inauthentic amplification and low-power legitimacy formation. The attempt to build credibility from a low-visibility position SHALL NOT, without additional behavioural evidence of manipulation, be treated as evidence of spam, fraud, inauthenticity, abuse, or platform manipulation.
+
+Where credibility bootstrap activity is restricted, labelled, de-ranked, search-suppressed, appeal-blocked, or visibility-constrained by a public legitimacy layer, the restriction SHOULD be assessed for participation-equity impact, including whether the system has effectively conditioned legitimacy formation on inherited prestige, institutional proximity, payment, advertising capacity, or pre-existing audience access.
+
+Interpretive principles:
+
+> The absence of legitimacy is not evidence of illegitimacy.  
+> A weak signal of social legitimacy is not evidence of inauthenticity.  
+> Participation equity requires a pathway by which legitimacy can be built, not only inherited, purchased, or algorithmically pre-recognised.
+
+---
+
 ## 5. Protection of Integrity Functions
 
 ---
@@ -208,6 +284,8 @@ Operators controlling ECIS SHALL (binding obligations under this Appendix):
 3. Implement continuity safeguards to prevent total functional exclusion where lawful duties or public interest functions are implicated;
 4. Maintain accessible review and remediation pathways;
 5. Generate a documented **Receipt of Restriction or Denial** for any ECIS access limitation, including timestamp, authority invoked, scope, duration, and review pathway.
+6. Maintain review-pathway continuity so that affected accounts, identities, projects, or claimants remain locatable by the appeal, verification, or recovery system after a restriction is applied;
+7. Prevent indefinite limbo-state restriction where an affected party is constrained, labelled, or visibility-suppressed without status, review interval, escalation route, or final determination.
 
 Where technically feasible and proportionate to system scale, such receipts SHOULD be cryptographically signed or otherwise tamper-evident to preserve evidentiary integrity for downstream review, arbitration, or judicial processes.
 
@@ -219,7 +297,9 @@ Where denial risk arises (including dependency-chain triggered denial), operator
 
 * preserve **data integrity** and evidentiary integrity (logs, records, filings, archives) even if service access is restricted;
 * implement **graceful degradation** pathways (limited-function access, read-only modes, escrowed export, or segmented restoration) rather than total lockout where narrower measures can satisfy lawful constraints;
-* maintain or enable continuity corridors sufficient to prevent irreversible civic or institutional exclusion.
+* maintain or enable continuity corridors sufficient to prevent irreversible civic or institutional exclusion;
+* preserve appeal, verification, recovery, and account-control pathways even where public visibility or distribution is temporarily constrained;
+* preserve social graph continuity, evidentiary records, account history, and restriction-state records where feasible, so that review, remediation, or independent audit remains possible;
 
 Operators providing ECIS at material civic scale are encouraged to publish periodic transparency reports. Such transparency SHALL include disclosure to affected individuals or institutions of the authority chain, legal basis invoked, scope of restriction, mitigation efforts undertaken (including continuity corridor attempts), and available review pathways, except where disclosure itself would violate narrowly scoped lawful confidentiality obligations.
 
@@ -338,6 +418,7 @@ It is maintained.
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 594c1c51a83a5da9fbc60686f6f31568aab576d53c6a0798a400ea0ffeb13268 |
 | 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  219e58ae9a2a9f7b04e00d4627ebf217975d078618afabf6c853d5df60615b50  |
 | 3.6 | Incorporated new section 4.1.1 | 2026-05-13T11:40:00Z |  1f52d64d8c2e02ee0d66b5a6d70db3520c9a406a4480cbad7d647acf52c629a0  |
+| 3.7 | Added §§4.4-4.5 addressing limbo-state restriction, review-pathway continuity, public legitimacy layers, and economic access effects; expanded §6 and §6.1 to preserve appeal, recovery, account-control, social graph, and restriction-state continuity during constrained access conditions. | 2026-05-17T12:39:00Z | |
 
 ---
 

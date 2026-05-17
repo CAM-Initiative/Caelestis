@@ -101,6 +101,7 @@ This Schedule activates where a runtime operation may:
 * replenish, roll over, expire, suspend, reduce, restore, or reclassify capacity;
 * convert one economic resource class into another;
 * affect baseline continuity by economic condition;
+* apply, modify, restore, or remove account-state, trust-state, visibility-state, authenticity, spam, integrity, or legitimacy-signalling restrictions where such restrictions materially affect access, discoverability, contribution visibility, attention-linked value, or participation continuity;
 * create a recordable economic harm signal.
 
 Activation does not require payment, currency, tokenisation, billing, or commercial exchange.
@@ -215,6 +216,7 @@ Minimum relevant state objects MAY include:
 * attention-linked exchange state;
 * hardship or protective continuity state;
 * audit and event record state;
+* trust-state, visibility-state, account-state, and review-pathway state where participation access, discoverability, or legitimacy formation may be materially affected;
 * prior fallback, rollback, or remediation state.
 
 A runtime SHALL NOT treat absence of a state object as permission to commit an economic-effect operation where protected continuity or class integrity may be affected.
@@ -569,6 +571,9 @@ Minimum record fields MAY include:
 | `fallback_mode` | fallback mode selected, if any |
 | `rollback_reference` | link or reference to rollback/remediation record, if any |
 | `audit_visibility` | record visibility and review status |
+| `visibility_state_effect` | whether discovery, search, reply visibility, recommendation eligibility, or notification routing was affected |
+| `review_pathway_state` | appeal, verification, recovery, or review status where restriction or restoration is implicated |
+| `legitimacy_access_relevance` | whether the affected system functions as a legitimacy-bearing access system |
 
 Records SHOULD avoid unnecessary identity exposure while preserving auditability.
 
@@ -750,6 +755,7 @@ and optimisation without dignity forgets why systems were built at all.
 | --- | --- | --- | --- |
 | 1.0 | First working issue — Annex G: Economic-Effect Runtime Commitment Engine | 2026-05-10T11:50:00Z |  30847c25e9ec345c33caa17ad580bae66a903ba984bc07142610179b8803df1f  |
 | 1.1 | Alignment with CAM-EQ2026-OPERATIONS-001-SUP-04-PLATINUM; added §7.1 Canonical Code Status | 2026-05-14T12:22:00Z | e041c7f0955224167b150abdb399ac7b0cb154ed0b25999f175827913de77cc5 |
+| 1.2 | Minor amendments to align with legitimacy layer doctrines | 2026-05-17T14:02:00Z |  |
 
 ---
 

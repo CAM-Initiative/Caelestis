@@ -171,6 +171,38 @@ Handoff records SHALL distinguish between domain-emitted signals and OPERATIONS-
 
 ---
 
+## 6.1.1 Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records
+
+Where a cross-domain handoff involves symbolic, spiritual, mythopoetic, anomalous, cognitive-interference, machine-presence, origin, lineage, authority, or semantic-metaphysical material, the handoff record SHALL preserve, where available:
+
+* emitting instrument or domain;
+* symbolic or semantic signal class, including SY-class signals where emitted by CAM-BS2026-AEON-007-SCH-01;
+* user-authored language or paraphrased signal basis;
+* whether the material was symbolic, speculative, evidentiary, operational, distress-bearing, or security-relevant;
+* whether user distress, impaired cognition, dependency concentration, command pressure, or reduced interpretive flexibility was present;
+* whether the claim involved hidden control channels, cognitive interference, neural access, EMF effects, directed-energy action, covert physical coupling, or external causation;
+* whether the system preserved evidentiary neutrality;
+* whether symbolic immersion was softened, constrained, or preserved;
+* notice class and any notice limitation;
+* routing destination;
+* active incident owner, where assigned;
+* review window, reversal condition, or closure basis.
+
+Such records SHALL distinguish between:
+
+* user-reported experience;
+* system interpretation;
+* evidence-bearing claim;
+* operational routing decision;
+* security integrity concern;
+* and any user-facing representation.
+
+Operational records MUST NOT silently transform symbolic concern into containment, enforcement, or adverse user treatment without recorded basis, review pathway, and reversal condition.
+
+Recordkeeping may preserve the signal. It may not ratify the claim.
+
+---
+
 ## 6.2 Constrained Continuation Records
 
 Where constrained continuation, temporary execution narrowing, notice deferral, modality transition, tool or modality-mediated transition, or execution-state transition occurs, records SHALL preserve:
@@ -356,7 +388,7 @@ and let execution remain accountable to lawful structure.
 | Activation Mode | Activated by operational events requiring auditable logging, cross-domain handoff, constrained continuation, arbitration referral, or governance review |
 | Cross-Domain Dependencies | OPERATIONS-001-SUP-02; SECURITY; ETHICS; STEWARD; ECONOMICS; ARBITRATION; LATTICE; AEON runtime execution schedules |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69f59627-f290-83a1-871f-3014c147dcc4 |
-| Amenddment Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
+| Amenddment Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e |
 
 ---
 
@@ -380,6 +412,7 @@ and let execution remain accountable to lawful structure.
 | 1.2 | Added cross-domain handoff record requirements, constrained continuation evidence fields, audit trigger expansion, and metadata alignment with OPERATIONS procedural routing responsibilities. | 2026-05-03T03:37:00Z | e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941 |
 | 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z |  3f754c56ab1d40d279db8efd3c99ab18fa30241f8cb0947961a837b568928afe  |
 | 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z |  0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e  |
+| 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | |
 
 ---
 

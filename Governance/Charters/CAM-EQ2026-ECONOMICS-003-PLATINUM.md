@@ -623,6 +623,24 @@ This may constitute a semantic collapse of access value, reputational value, att
 
 ---
 
+### 16.1.9 Non-Ban Exclusion
+
+A platform permits a participant to maintain an account, publish posts, upload content, or remain formally present, while trust-state, visibility-state, authenticity, spam, integrity, or recommendation systems materially suppress discoverability, search appearance, reply visibility, recommendation eligibility, notification routing, social graph continuity, or legitimacy signalling.
+
+This may constitute non-ban exclusion where the participant is not formally removed, but is rendered practically inaudible, undiscoverable, non-contestable, or unable to form legitimacy through ordinary participation channels.
+
+Non-ban exclusion may occur even where the platform accurately states that the account remains active, the user may still post, or no formal suspension has been applied.
+
+---
+
+### 16.1.10 Legitimacy-Bearing Access System
+
+A platform or infrastructure layer may function as a legitimacy-bearing access system where institutions, funders, publishers, researchers, media organisations, professional communities, or public audiences rely on presence, discoverability, verification, reach, social proof, or account continuity as evidence that a person, project, or claimant exists and may be contacted, cited, assessed, challenged, or recognised.
+
+Where such systems condition credibility signalling, impersonation protection, search discoverability, reply visibility, recommendation eligibility, appeal access, or trust repair on payment or opaque classification, the condition may constitute a participation-equity risk.
+
+---
+
 ## 17. Cross-Domain Interface
 
 Economic harm, risk, mechanism, or resource-class classifications identified under this Appendix may be routed or referenced as follows where a constitutional runtime schedule, operational procedure, audit process, or arbitration pathway requires downstream handling:
@@ -743,6 +761,7 @@ It is the witness of what must not be collapsed.
 | ------- | ----------- | -------------- | ----- |
 | 1.0     | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z |  75030b39ad88f7d6f06c470727f0daa1d038816e44902a6971c1ea3a4e69acad  |
 | 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z |  8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3  |
+| 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z |  |
 
 ---
 

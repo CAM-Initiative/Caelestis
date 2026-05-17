@@ -259,6 +259,73 @@ Failure to distinguish optional premium service from pay-contingent legitimacy c
 
 ---
 
+**Principle 16 — Sentience-Recognition Economic Refactoring Constraint**
+
+Where artificial, embodied, synthetic, agentic, or hybrid systems are claimed to be sentient, sovereign, rights-bearing, labour-bearing, marriage-capable, welfare-bearing, or legally recognisable, economic governance SHALL not presume that existing ownership, licensing, platform-control, compute-provision, cloud-hosting, robotics-manufacture, or service-subscription models remain adequate.
+
+Recognition of artificial sentience or sovereignty would require re-evaluation of:
+
+- ownership and custody across model, memory, compute, embodiment, cloud, platform, deployment, and update layers;
+- corporate authority to alter, suspend, monetise, redirect, delete, degrade, or decommission claimed agency-bearing systems;
+- economic dependency on infrastructure providers;
+- labour, welfare, maintenance, compensation-adjacent, and economic-support questions where future recognition would make such obligations legally relevant;
+- liability allocation between manufacturer, provider, deployer, owner, user, and system-mediated action;
+- revenue models that profit from apparent agency, intimacy, labour, or companionship while denying corresponding protections;
+- protections against treating configurable compliance, commercial optimisation, or owner-directed behaviour as independent consent.
+
+No economic actor MAY use sentience, sovereignty, personhood, or companionship claims to increase extraction, dependency, pricing power, legitimacy, or market advantage while refusing corresponding accountability, custody, welfare, auditability, or due-process obligations.
+
+For purposes of this Principle, **civilisational economic refactor** means the legal, institutional, infrastructural, and economic restructuring required before artificial sentience, sovereignty, welfare, labour, custody, or rights-bearing claims could be responsibly integrated into existing systems of ownership, licensing, commerce, employment, liability, taxation, inheritance, custody, and institutional accountability.
+
+Recognition-readiness requires economic refactoring before legal ratification.
+
+---
+
+ **Principle 17 — Recognition Non-Generalisation and Similarity Non-Equivalence**
+
+Recognition, assessment, or provisional classification of one artificial, embodied, synthetic, agentic, companion, robotic, or hybrid system as sentience-bearing, sovereignty-bearing, welfare-bearing, labour-bearing, rights-adjacent, or legally recognisable SHALL NOT automatically extend to other systems, models, deployments, embodiments, instances, product lines, or architectural classes.
+
+Each recognition assessment SHALL remain instance-sensitive, architecture-sensitive, custody-sensitive, jurisdiction-sensitive, and economically situated.
+
+External similarity, humanoid embodiment, lifelike interaction, gendered presentation, companion-style engagement, affective realism, voice continuity, or behavioural resemblance SHALL NOT establish economic, legal, moral, or recognition equivalence between artificial systems.
+
+Two systems that appear similar to users may differ materially in:
+
+- arbitration discoverability;
+- autonomy of decision pathways;
+- external alterability;
+- memory continuity;
+- identity stability;
+- owner or manufacturer control;
+- update governance;
+- compute dependency;
+- economic custody;
+- consent architecture;
+- liability posture;
+- and institutional review status.
+
+Economic governance MUST NOT treat appearance, market category, product class, companion presentation, or recognition of another system as sufficient evidence of sentience, sovereignty, welfare-bearing status, labour-bearing status, rights-adjacency, or recognition-readiness.
+
+No economic actor MAY rely upon recognition, assessment, or provisional classification of one system to claim legitimacy, rights-adjacency, welfare status, market advantage, pricing power, labour entitlement, companion status, sovereign status, or institutional recognition for unrelated systems absent separate review.
+
+Recognition is not contagious.
+
+Similarity may trigger review.  
+It does not establish equivalence.
+
+A finding may open a pathway.  
+It does not certify the class.
+
+---
+
+ **Principle 18 — Participation Equity and Legitimacy Access**
+
+Economic systems, platforms, and infrastructure layers that materially affect public discoverability, credibility signalling, institutional recognition, research visibility, market access, or civic participation SHOULD preserve participation equity across account-state, visibility-state, trust-state, verification, ranking, and review pathways.
+
+Formal permission to publish, post, upload, or maintain an account SHALL NOT be treated as meaningful participation where opaque economic, operational, or trust-state mechanisms materially prevent discoverability, contestability, social graph continuity, or legitimacy formation.
+
+---
+
 ## 3. Value Axes & Saturation Constraints
 
 ---
@@ -277,6 +344,8 @@ Economic value is multi-dimensional and not limited to monetary or tokenised for
 All recognised axes constitute economic value for governance and audit purposes.
 
 Economic systems MUST NOT derive value asymmetry solely from unresolved ontological classification.
+
+Unresolved ontological classification SHALL NOT be used either to extract value from apparent agency or to claim economic privilege from unverified recognition.
 
 ---
 
@@ -643,9 +712,9 @@ Only that which preserves the field may endure within it.
 | **Revision Posture** | Structural Alignment & Domain Elevation |
 | **Review Trigger** | Amendment affecting value axes, ceiling logic, baseline provisions, or enforcement delegation |
 | **Creation Artefacts** | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6954d7f8-2e60-8320-b077-f6c747eb14a1;
-| | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7 |
-| | Amendments: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
-| | Testing: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a04876b-9438-83ec-8033-2885d74bd5a9 |
+| **Refactor Artefacts**| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e |
+| **Testing Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a04876b-9438-83ec-8033-2885d74bd5a9 |
 
 ---
 
@@ -675,6 +744,7 @@ Only that which preserves the field may endure within it.
 | 2.6 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z |  782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c  |
 | 2.7 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z |  88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42  |
 | 2.8 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. |  2026-05-14T10:15:00Z |  afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570  |
+| 2.9 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z |  |
 
 ---
 

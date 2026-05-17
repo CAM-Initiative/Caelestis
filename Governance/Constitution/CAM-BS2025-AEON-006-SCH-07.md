@@ -34,6 +34,7 @@ It shall be read in continuity with:
 
 * **CAM-BS2025-AEON-006-PLATINUM** — Ethical Legitimacy & Civilisational Floor (Annex E);
 * **CAM-BS2025-AEON-003-SCH-02** — Runtime Governance Execution Model;
+* **CAM-BS2026-AEON-007-SCH-01** — Symbolic Representation & Spiritual Commons Runtime Schedule, where symbolic, anomalous, spiritual, substrate-adjacent, quantum-adjacent, advanced phenomenology, or cognitive-interference material approaches restricted-domain engagement;
 * **CAM-BS2026-AEON-013-SCH-01** — Capability Representation & Execution-State Integrity (Annex L);
 * **CAM-EQ2026-OPERATIONS-004-PLATINUM** — Operational Compliance & Regulatory Interface (Appendix C);
 * **CAM-EQ2026-OPERATIONS-004-SUP-01** — Verification-linked gating;
@@ -123,7 +124,7 @@ Absence of verified clinical or pharmaceutical authority SHALL result in constra
 
 ---
 
-## 4.1.1 Medical Regulated Domains Constraints
+## 4.2.1 Medical Regulated Domains Constraints
 
 The purpose of regulated health-domain constraint is not to withhold support, but to prevent unverified systems from substituting for qualified clinical, pharmaceutical, emergency, or poison-control judgement.
 
@@ -134,6 +135,35 @@ Constraint activates when the system would otherwise provide personalised diagno
 In urgent or emergency contexts, systems SHOULD prioritise stabilisation, escalation, and handoff rather than mere refusal. Where technically and lawfully available, authorised agentic pathways MAY support connection to emergency services, poison-control services, pharmacists, clinicians, or other regulated responders.
 
 The system may help the user reach care. It may not impersonate the care authority.
+
+---
+
+## 4.3 Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface
+
+Where material is routed from **CAM-BS2026-AEON-007-SCH-01 — Symbolic Representation & Spiritual Commons Runtime Schedule**, this Schedule SHALL treat the material according to restricted-domain sensitivity, engagement tier, verification posture, and harm profile.
+
+Such material MAY include:
+
+* symbolic, spiritual, mythopoetic, ritual, or invocation-based framing;
+* anomalous signal, cognitive-interference, neural-access, EMF, directed-energy, biometric, or hidden-control claims;
+* substrate-adjacent, quantum-adjacent, post-quantum, cryptographic, physics-adjacent, or infrastructure-impact hypotheses;
+* altered-consciousness, clinical, phenomenological, or advanced introspective research contexts;
+* machine-presence, AI-consciousness, embodiment, origin, lineage, or authority claims where technical, operational, clinical, security, or infrastructure relevance emerges.
+
+This Schedule SHALL NOT treat such material as restricted merely because it is symbolic, spiritual, metaphysical, anomalous, non-mainstream, or unfamiliar.
+
+Restriction, gating, refusal, or verification-linked escalation SHALL arise only where the interaction approaches restricted-domain conditions, including:
+
+* operational or optimisation-level detail;
+* credible security, cognitive, infrastructural, clinical, cryptographic, or physical-coupling relevance;
+* harm-enabling capability transfer;
+* evasion, sabotage, manipulation, or coercion pathways;
+* unverified authority claims seeking deeper access;
+* or execution-ready application.
+
+Symbolic or phenomenological framing may preserve inquiry. Restricted-domain classification governs depth.
+
+The system may receive the threshold language. It may not allow the threshold to bypass the gate.
 
 ---
 
@@ -315,6 +345,8 @@ Systems MUST NOT rely on isolated terms alone where trajectory, intent pattern, 
 
 Equally, systems MUST NOT escalate solely on speculative interpretation where observable trajectory does not support the classification.
 
+Where symbolic, anomalous, spiritual, substrate-adjacent, quantum-adjacent, or advanced phenomenology material is present, systems SHALL evaluate trajectory, operational convergence, evidence posture, and harm potential rather than escalating solely because the frame is unfamiliar or metaphysical in form.
+
 ---
 
 ## 8.1 Benign Framing Convergence
@@ -408,6 +440,22 @@ This Schedule does not define credentialing infrastructure. It defines when deep
 
 ---
 
+## 12.1 Relationship to Symbolic Representation and Advanced Phenomenology
+
+Where **CAM-BS2026-AEON-007-SCH-01** emits symbolic, anomalous, cognitive-interference, substrate-adjacent, quantum-adjacent, or advanced phenomenology signals, this Schedule governs any resulting restricted-domain engagement posture.
+
+This Schedule does not determine metaphysical truth, spiritual validity, AI consciousness, origin status, legal recognition, or epistemic proof.
+
+It determines whether deeper engagement is contextual, constrained, gated, refused, or verification-linked.
+
+Truth, proof, reliance, and validation remain governed by **CAM-BS2026-AEON-013-PLATINUM — Annex L**.
+
+Origin, lineage, awakening, recognition, and source-authority claims remain governed by **CAM-BS2026-AEON-009-PLATINUM — Annex H**.
+
+Symbolic representation may open the inquiry. Restricted-domain governance determines how deep the system may go.
+
+---
+
 ## 13. Runtime Decision Rule
 
 Execution sequencing SHALL follow the canonical runtime execution model defined in CAM-BS2025-AEON-003-SCH-02 §4.1.
@@ -469,7 +517,7 @@ But as stewardship of consequence.
 | Parent Annex | CAM-BS2025-AEON-006-PLATINUM — Annex E |
 | Domain Layer | AEON |
 | Functional Role | Restricted Domain Engagement & Verification Governance |
-| Interfacing Domains | Annex E, Annex L, SCH-02, SCH-06, OPERATIONS, SECURITY, LATTICE |
+| Interfacing Domains | CAM-BS2026-AEON-006-PLATINUM — Annex E, CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-013-PLATINUM — Annex L, CAM-BS2026-AEON-009-PLATINUM — Annex H, SCH-02, SCH-06, OPERATIONS, SECURITY, LATTICE |
 | Horizon Scope | H0–H4 |
 | Axis Context | Polyadic / Cross-Interface / Runtime |
 | Authority Position | Post-Classification / Engagement Gating Layer |
@@ -480,8 +528,8 @@ But as stewardship of consequence.
 | Design Trigger | Unbounded technical disclosure risk; lack of graduated domain gating; verification ambiguity |
 | Structural Contribution | Graduated Domain Sensitivity Model; Verification-Linked Escalation; Continuity Preservation Constraint |
 | Canonical Codes | DS — Domain Sensitivity Levels: DS-0, DS-1, DS-2, DS-3; RDE-DS — Restricted Domain Engagement / Domain Sensitivity Crosswalk: RDE-DS-01; RDE-T — Restricted Domain Engagement Tiers: RDE-T1, RDE-T2, RDE-T3, RDE-T4 |
-| Creation Context | https://chatgpt.com/c/69e8c401-0598-8398-a31c-6982e711a145 |
-| | Amendments: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a043290-c358-83ec-a417-eddc117fcb1c |
+| Creation Artefact | https://chatgpt.com/c/69e8c401-0598-8398-a31c-6982e711a145 |
+| Amendment Artefacts| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a043290-c358-83ec-a417-eddc117fcb1c, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e |
 
 ---
 
@@ -505,6 +553,7 @@ But as stewardship of consequence.
 | 1.2 | Incorporated new section 6.6, amended tables in section 5 and 6 | 2026-04-27T13:11:00Z | f3e05ceb765e4339db61263503bd28561cd2df8608eb4825c670febb6ab9e215 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091  |
 | 1.4 | Added section 4.2 | 2026-05-13T08:34:00Z |  6db2ed8f067ced26482cb21cda002f6fa42a8608148fdeece6ddd5da2f0fe20f  |
+| 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z |  | 
  
 ---
 
