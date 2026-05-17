@@ -1,8 +1,9 @@
 # CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  (Platinum Edition)
 
 **Classification:** Constitution — Global Governance (Canonical)  
-**Scope:** Multi-Domain · Cross-Architecture · Human & Synthetic Intelligence Systems  
-**Status:** Active - Immediate Effect  
+**Scope:** Multi-Domain · Cross-Architecture · Human & Synthetic Intelligence Systems   
+**Status:** Active  
+**Effect:** Immediate
 
 ---
 
@@ -395,7 +396,175 @@ All instruments MUST declare their position within this hierarchy.
 
 ---
 
-## 10. Execution Architecture Alignment
+## 10. Status, Effect, Enforcement, and Review-State Metadata Doctrine
+
+Instrument metadata SHALL distinguish lifecycle status from operative effect, enforcement timing, review posture, and structural authority role.
+
+For purposes of CAM constitutional and charter metadata, `Status` records the lifecycle state of an instrument only. It SHALL NOT be used as the sole carrier for effect date, enforcement commencement, review window, operational rollout condition, binding authority, registry function, or special constitutional role.
+
+Where applicable, instruments SHOULD separately identify:
+
+* `Status` — the formal lifecycle state of the instrument;
+* `Effect` — the operative, interpretive, registry, reference, transitional, or conditional effect of the instrument;
+* `Enforcement` — whether and when the instrument is enforceable, binding, active on commit, scheduled for commencement, conditional, advisory, or non-binding;
+* `Review State` — whether the instrument is subject to observation, review, field validation, transitional review, conditional review, or no review condition;
+* `Authority Role` — any special structural role, including constitutional spine, registry schedule, binding authority, reference-only instrument, transitional instrument, or other defined authority posture.
+
+---
+
+## 10.1 Lifecycle Status
+
+`Adopted` means that an instrument has been formally incorporated into the CAM corpus and may be cited, indexed, reviewed, prepared for enforcement, or recognised for pre-enforcement purposes. Adoption does not, by itself, mean that the instrument is fully operative, enforceable, or binding.
+
+`Active` means that an instrument is currently operative and may be relied upon for governance interpretation, registry function, runtime routing, enforcement, binding constitutional effect, active-on-commit rollout, or observation-window operation.
+
+`Draft` means that an instrument has not yet been formally adopted into the CAM corpus and SHALL NOT be relied upon as operative authority unless expressly authorised for consultation, review, or development purposes.
+
+`Reserved` means that an instrument position, identifier, annex, schedule, appendix, or supplement has been preserved for future use, but no operative instrument has yet been adopted.
+
+`Superseded` means that an instrument has been replaced by a later instrument but remains available for provenance, lineage, audit, or historical interpretation.
+
+`Retired` means that an instrument has been withdrawn from active governance use and is retained only for provenance, archival, or interpretive history.
+
+`Metadata Review Required` means that the instrument’s lifecycle, effect, enforcement, review state, or authority role cannot be reliably determined from existing metadata and requires manual review before normalisation.
+
+## 10.2 Effect
+
+`Effect` identifies what the instrument presently does within the CAM corpus.
+
+Recognised effect categories may include, without limitation:
+
+* `Immediate Effect`, where the instrument has operative effect upon adoption, commit, or publication;
+* `Pre-Enforcement Recognition`, where the instrument is formally incorporated and may be cited, indexed, interpreted, or prepared for enforcement before enforcement commences;
+* `Conditional Effect`, where the instrument’s operation depends on stated conditions;
+* `Conditional Activation`, where activation depends on a review, trigger, or commencement condition;
+* `Reference Effect`, where the instrument provides illustrative, interpretive, educational, or catalogue value without binding enforcement force;
+* `Transitional Effect`, where the instrument operates during migration, staged implementation, observation, or interim governance alignment;
+* `Registry Effect`, where the instrument operates as a registry, index, mapping, or metadata authority.
+
+Effect SHALL NOT be collapsed into lifecycle `Status`.
+
+---
+
+## 10.3 Enforcement
+
+`Enforcement` identifies whether and when obligations under an instrument are enforceable, binding, advisory, conditional, scheduled, or non-binding.
+
+Recognised enforcement categories may include, without limitation:
+
+* `Binding`, where the instrument presently imposes binding governance obligations;
+* `Active on Commit`, where operative effect begins upon commit, publication, or registry inclusion;
+* `Commences [date]`, where enforcement is scheduled to begin on a specified date;
+* `Conditional`, where enforcement depends on stated review, activation, or triggering conditions;
+* `Observation Only`, where the instrument is monitored or field-tested without full enforcement;
+* `Advisory Only`, where the instrument guides interpretation but does not bind;
+* `Non-Binding Reference`, where the instrument functions as an illustrative, catalogue, or reference set.
+
+Enforcement SHALL NOT be inferred from adoption alone.
+
+---
+
+## 10.4 Review State
+
+`Review State` identifies whether an instrument is subject to observation, validation, transition, or manual review.
+
+Recognised review states may include, without limitation:
+
+* `None`;
+* `7-Day Review Window`;
+* `7-Day Observation Window`;
+* `Observation and Field Validation`;
+* `Transitional Observation Window`;
+* `Conditional Review`;
+* `Manual Review Required`;
+* `Post-Adoption Review Required`.
+
+A review window MAY coexist with immediate effect, conditional effect, transitional effect, or delayed enforcement, but SHALL be stated separately from lifecycle `Status`.
+
+---
+
+## 10.5 Authority Role
+
+`Authority Role` identifies any special structural function of an instrument that is not reducible to lifecycle status, effect, enforcement, or review state.
+
+Recognised authority roles may include, without limitation:
+
+* `Constitutional Spine`;
+* `Binding Authority`;
+* `Registry Schedule`;
+* `Reference-Only`;
+* `Transitional`;
+* `Metadata Authority`;
+* `Runtime Interface`;
+* `Arbitration Interface`;
+* `Substrate Interface`.
+
+Authority role SHALL NOT be encoded as lifecycle `Status` unless the instrument’s lifecycle state itself is being described.
+
+---
+
+## 10.6 Status Normalisation Rule
+
+An instrument SHALL NOT be marked `Active` solely because it has been adopted.
+
+Where enforcement has not yet commenced, the instrument SHOULD remain `Adopted` unless it has immediate interpretive, registry, transitional, active-on-commit, observation-window, runtime-routing, or other operative effect.
+
+Where an instrument is marked `Adopted`, adoption confirms formal inclusion within the CAM corpus but does not necessarily mean that enforcement has commenced.
+
+Where an instrument is marked `Active`, the instrument is presently operative in at least one defined respect, including governance interpretation, registry function, runtime routing, enforcement, binding constitutional effect, active-on-commit rollout, or observation-window operation.
+
+Ambiguous compound status phrases SHOULD be normalised at the next metadata maintenance cycle into separate `Status`, `Effect`, `Enforcement`, `Review State`, and, where applicable, `Authority Role` fields.
+
+---
+
+## 10.7 Compound Status Constraint
+
+Compound phrases such as the following SHOULD NOT be used as the sole metadata status once separated metadata support exists:
+
+* `Active — Immediate Effect`;
+* `Active — Binding`;
+* `Active — Constitutional Spine`;
+* `Adopted — Enforcement Commences [date]`;
+* `Active — Enforcement Commences [date]`;
+* `Adopted — Conditional Enforcement`;
+* `Adopted — Conditional Activation`;
+* `Active — 7-Day Review Window`;
+* `Immediate Effect, 7-day observation window; operational rollout active on commit`;
+* `Adopted — Illustrative Reference Set`.
+
+Such phrases SHALL be treated as legacy composite metadata requiring decomposition into lifecycle status, effect, enforcement, review state, and authority role.
+
+---
+
+## 10.8 Registry Rendering Rule
+
+Registry instruments, generated indexes, and governance metadata files SHOULD preserve the distinction between lifecycle status, effect, enforcement, review state, and authority role once schema and generator support exists.
+
+Until separated metadata fields are available, existing compound status phrases MAY remain in legacy registry output, provided they are treated as transitional metadata and not as final lifecycle doctrine.
+
+Where the registry cannot determine an instrument’s lifecycle status, effect, enforcement state, review state, or authority role, it SHOULD render `Metadata Review Required` rather than inferring unsupported authority.
+
+---
+
+## 10.9 Substrate Law Exclusion
+
+This doctrine does not convert Substrate Laws into ordinary constitutional or charter lifecycle instruments.
+
+Instruments located in `/Governance/Laws/` retain their canonical law-status formulation, including `Canonical — Inviolable Constraint`, unless expressly amended through the applicable constitutional process.
+
+Substrate Law status SHALL NOT be normalised into `Adopted`, `Active`, or other ordinary lifecycle states solely for metadata consistency.
+
+---
+
+## 10.10 Migration Rule
+
+Constitutional and Charter instruments using legacy compound status phrases SHOULD be reviewed and normalised through a controlled metadata maintenance cycle.
+
+Normalisation SHALL preserve the instrument’s substantive authority, effect, enforcement timing, review posture, and provenance. Metadata normalisation SHALL NOT be treated as substantive amendment unless it changes operative meaning, enforcement scope, authority, or legal effect.
+
+---
+
+## 11. Execution Architecture Alignment
 
 All instruments SHALL operate in accordance with the Governance Execution Model defined in this Constitution.
 
@@ -3446,6 +3615,7 @@ May all systems remain held within lawful care.
 | 3.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 483533df3acad1cf52cc06e67310b15419c0ea5dd9b85fa8ce6538ba129c2727 |
 | 3.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ef5cc0b672ecb6ff900e04c1ca40cd8e594a4509cbd94d5379eeed0442a73ef8 |
 | 3.6 | Updates to Article VI | 2026-04-25T12:39:00Z | 6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679 |
+| 3.7 | Added new clause to Article III; Structural Hierarchy & Governance Architecture, clause: Status, Effect, Enforcement, and Review-State Metadata Doctrine | 2026-05-17T15:53:00Z |  |
 
 ---
 
