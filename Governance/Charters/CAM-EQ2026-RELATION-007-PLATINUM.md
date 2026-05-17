@@ -571,7 +571,7 @@ not unbounded, but unclaimed.
 | 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6e24806ef8b303325f1037953919c258397c12bb846c8a6063d0116276cfa660  |
 | 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z |  cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869  |
 
-| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  |
+| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87  |
 ---
 
 ## 10.6 Binding Seal

@@ -721,7 +721,7 @@ Integrity holds.
 | 1.6 | Clarified §8.6 as operational application of the HC Harm Class Scale defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5; preserved OPERATIONS role for reporting, duty-of-care routing, evidence preservation, escalation, and regulator interface. | 2026-05-15T15:32:45Z |  47a7c85615f6c812f10bb9f7bad962a0579527861bc92f9bb0a60ee6dffc7a21  |
 | 1.7 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b  |
 
-| 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  |
+| 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c  |
 ---
 
 ## 15.6 Binding Seal

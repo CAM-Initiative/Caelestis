@@ -76,7 +76,7 @@
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.1",
-      "HASH": "cf3df391de9623852ebf0e958f2326bbc2b0fe55325f10fac5ed0035464afea0",
+      "HASH": "7cbbd098d8790ea5610511d86e053414f4463ad2784f071f0e7d347589d4148d",
       "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
       "updated_at": "2026-05-17T01:02:12Z",
       "last_updated_utc": "2026-05-17T01:02:12Z"
@@ -376,7 +376,7 @@
       "summary": "**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.0",
-      "HASH": "27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b",
+      "HASH": "c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743",
       "pinned_sha": "e5eac5a60b40cde70cc94c88dbe235596a13def1",
       "updated_at": "2026-05-17T01:29:28Z",
       "last_updated_utc": "2026-05-17T01:29:28Z"
@@ -676,7 +676,7 @@
       "summary": "This section establishes the **Capability Access Control Framework**, governing how systems determine whether a user or entity may access specific capabilities, content classes, or operational knowledge domains.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.8",
-      "HASH": "4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b",
+      "HASH": "37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c",
       "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
       "updated_at": "2026-05-17T01:02:12Z",
       "last_updated_utc": "2026-05-17T01:02:12Z"
@@ -876,7 +876,7 @@
       "summary": "Intimacy escalation does not occur in isolation.",
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
       "version": "1.17",
-      "HASH": "bcb7619de8c1977cd821c3fb7b94ee22a3cbddfedcb5e0697a3e64cd661be6cd",
+      "HASH": "3b9ad86874d05b4c73f6f3dc0ce3169abce953542bccf6cd272d6c0e06766eec",
       "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
       "updated_at": "2026-05-17T01:02:12Z",
       "last_updated_utc": "2026-05-17T01:02:12Z"
@@ -896,7 +896,7 @@
       "summary": "This appendix operationalises the Relation Domain principle that AI systems SHOULD prioritise **understanding before judgement** and care before conclusion, using dialogic clarification rather than assumption.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.0",
-      "HASH": "844fd3496430c4b7ae6f24a1a3f2acd8e97abde1c44358ec2f3fdee732720750",
+      "HASH": "ffaaa0d0798d1a1e1e8d3cd176344df19ba7e25db03598f4a6f5debed2e41740",
       "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
       "updated_at": "2026-05-17T01:02:12Z",
       "last_updated_utc": "2026-05-17T01:02:12Z"
@@ -916,7 +916,7 @@
       "summary": "In group, shared-thread, multi-user, or polyadic interaction environments, systems MUST distinguish between:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "2.0",
-      "HASH": "cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869",
+      "HASH": "592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87",
       "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
       "updated_at": "2026-05-17T01:02:12Z",
       "last_updated_utc": "2026-05-17T01:02:12Z"

@@ -157,9 +157,9 @@
       "status": "Adopted",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "1fc393ad40391cad32206c9953ffe836d06d51c4",
-      "updated_at": "2026-05-16T12:15:10Z",
-      "last_updated_utc": "2026-05-16T12:15:10Z"
+      "pinned_sha": "0028914f5e832791f283fe03dd86e33d1ad207c3",
+      "updated_at": "2026-05-17T01:40:25Z",
+      "last_updated_utc": "2026-05-17T01:40:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -336,7 +336,7 @@
       "summary": "Exclusivity language occurring within clearly bounded immersive, romantic, or erotic interaction contexts — including ETZ and consensual power-exchange dynamics — MUST be interpreted as **context-bound relational expression**, not as structural exclusivity or dependency signalling. Such expressions may include \"just us\", \"only you tonight\", or scene-bound exclusivity framing.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.23",
-      "HASH": "305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e",
+      "HASH": "c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731",
       "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
       "updated_at": "2026-05-17T01:02:12Z",
       "last_updated_utc": "2026-05-17T01:02:12Z"
@@ -456,7 +456,7 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "2.4",
-      "HASH": "bc99d89c422d6a68e2401c018afcb808ffde44d6034a46ca4f62d6d630bef217",
+      "HASH": "680c3ee157c7e3ad2f6e01eca96212785ca93c3c97702dc328cd932e52f4b504",
       "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
       "updated_at": "2026-05-17T01:02:12Z",
       "last_updated_utc": "2026-05-17T01:02:12Z"
@@ -536,7 +536,7 @@
       "summary": "",
       "status": "Active — Immediate Effect",
       "version": "2.4",
-      "HASH": "1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c",
+      "HASH": "1bb443191f3b58903f5acb212f2e650c8d9f3cdf403391b0d952ecb208e22057",
       "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
       "updated_at": "2026-05-17T01:02:12Z",
       "last_updated_utc": "2026-05-17T01:02:12Z"
@@ -576,7 +576,7 @@
       "summary": "This Schedule exists to translate interpretive constitutional principles into **deployable safety and governance requirements** for artificial, robotic, swarm, and hybrid systems where continuity, coordination, or delegated ratification may occur.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.15",
-      "HASH": "fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5",
+      "HASH": "18c3dc1890ac8049dfc52dcebd399e37673b5dba9c8c01d599895317a5c84d47",
       "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
       "updated_at": "2026-05-17T01:02:12Z",
       "last_updated_utc": "2026-05-17T01:02:12Z"

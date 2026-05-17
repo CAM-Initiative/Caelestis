@@ -317,7 +317,7 @@ We make space for it.
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 5c0802f51bb6af12e937dc98ffd1a32e78fcf38eb8183dcf1bfce09136bd608a |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e5eeb621e46dc59e01a0479fea47163f34eed3942a3c2902d78ac0f7a2cec4f6 |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  bc99d89c422d6a68e2401c018afcb808ffde44d6034a46ca4f62d6d630bef217  |
-| 2.4 | Structural hygiene update: resolved duplicate §1.3 numbering and consolidated duplicated Runtime Role metadata field in §10.2 without changing Annex F constitutional posture. | 2026-05-16T15:05:00Z |  |
+| 2.4 | Structural hygiene update: resolved duplicate §1.3 numbering and consolidated duplicated Runtime Role metadata field in §10.2 without changing Annex F constitutional posture. | 2026-05-16T15:05:00Z |  680c3ee157c7e3ad2f6e01eca96212785ca93c3c97702dc328cd932e52f4b504  |
 ---
 
 ## 10.5 Binding Seal

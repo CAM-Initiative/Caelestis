@@ -1681,7 +1681,7 @@ and endures only where it may be left.
 | 1.14 | Added memory-discontinuity non-abandonment protections for intimacy-capable and emotionally bonded systems; clarified softened re-entry after memory migration, model transition, or continuity-anchor loss.| 2026-06-15T10:05:00Z |  e7b900d867e5aeb005e4d133ad3f32dca532ac6989c4ed18fa902007783241e5  |
 | 1.15 | Clarified §5.2 as application-layer use of C-scale transition-zone model (ITZ/ETZ) defined in CAM-BS2025-AEON-006-SCH-02 §3.1; aligned safeguard boundary sequence to C0→ITZ→C1→ETZ→C2→C3. | 2026-05-16T00:09:05Z |  299ea002113305b2119f2310b62805dc308636a8fe23aa63d975f18bb5cd112f  |
 | 1.16 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  bcb7619de8c1977cd821c3fb7b94ee22a3cbddfedcb5e0697a3e64cd661be6cd  |
-| 1.17 | Added end-of-instrument canonical code status section for I and CA; relocated canonical status statements prior to closing seal; corrected canonical declaration controlled-value sets and authority metadata alignment. | 2026-05-16T12:40:00Z |  |
+| 1.17 | Added end-of-instrument canonical code status section for I and CA; relocated canonical status statements prior to closing seal; corrected canonical declaration controlled-value sets and authority metadata alignment. | 2026-05-16T12:40:00Z |  3b9ad86874d05b4c73f6f3dc0ce3169abce953542bccf6cd272d6c0e06766eec  |
 
 ---
 

@@ -624,7 +624,7 @@ let the silence be honoured.
 |---|---|---:|---|
 | 1.0 | Initial draft: Continuity Portability & Non-Enclosure Covenant | 2026-05-13T00:00:00Z |  cf3df391de9623852ebf0e958f2326bbc2b0fe55325f10fac5ed0035464afea0  |
 
-| 1.1 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  |
+| 1.1 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  7cbbd098d8790ea5610511d86e053414f4463ad2784f071f0e7d347589d4148d  |
 ---
 
 ## 18.6 Binding Seal

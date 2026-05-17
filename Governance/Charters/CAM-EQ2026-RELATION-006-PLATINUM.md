@@ -1128,7 +1128,7 @@ until the moment can pass without breaking the one who lives through it.
 | 1.8 | Replaced §9.5 operator quick-guide table with boundary-safe operational-use reference, preserving RELATION doctrine authority and routing operator handling to OPERATIONS-001-SUP-02 §5.6. | 2026-05-16T10:03:16Z |  8f1acbd1eba5f5e6e030c8e0c04d674686e59a4de217be8df5fbda786fca34f9  |
 | 1.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  844fd3496430c4b7ae6f24a1a3f2acd8e97abde1c44358ec2f3fdee732720750  |
 
-| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  |
+| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  ffaaa0d0798d1a1e1e8d3cd176344df19ba7e25db03598f4a6f5debed2e41740  |
 ---
 
 ## 12.6 Binding Seal
