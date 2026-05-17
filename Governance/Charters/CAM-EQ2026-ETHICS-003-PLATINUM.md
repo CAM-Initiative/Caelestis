@@ -977,7 +977,7 @@ and what is judged cannot remain unbounded.
 | **Canonical Code Families Defined** | HC — Harm Class Scale |
 | **Reference Sets Defined** | HC-0 through HC-4 — Harm Classification Scale |
 | **Reference Sets Consumed** | Facilitation Threshold; Operationalisation Boundary; runtime safeguard and arbitration outputs resolved through applicable Annex E, Annex D, and OPERATIONS instruments |
-| **Operational Consumers** | CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6 — Harm Escalation Thresholds / Operational Application of HC Scale |
+| **Operational Consumers** | See CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6. This is a cross-document operational-consumer reference applying the HC scale defined in this instrument. |
 | **Registry Migration Priority** | High — HC scale should be migrated into canonical reference-set registry as source-authoritative ETHICS taxonomy |
 | **Source-of-Authority Note** | ETHICS-003 defines HC harm classification; OPERATIONS instruments apply HC for reporting, duty-of-care, evidence preservation, and escalation workflows. |
 | **Governance Posture** | Harm‑Floor Enforcement · Authority‑Constrained · Safeguard‑Oriented |
@@ -1012,7 +1012,7 @@ and what is judged cannot remain unbounded.
 | Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Consumed by OPERATIONS-004 §8.6 operational application |
+| Operationalises or Applies Code Families | Consumed by CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6 operational application |
 
 ## 12.4 Review & Validation
 
