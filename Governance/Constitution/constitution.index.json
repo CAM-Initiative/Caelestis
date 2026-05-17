@@ -35,11 +35,11 @@
       "title": "Tendeka Runtime Execution Schedule",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.9",
-      "HASH": "a0aae50dea92da33d4c0dc5494ead459a8ff50e6b578aad4641b523be3b78905",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "1.10",
+      "HASH": "42337de20f33129bbb799fa4fd417be7170dbb99b0d0de07e7c8545f78195fbd",
+      "pinned_sha": "8f9cbc90a3f9572f38c1f5d90e0b2a14549da7f7",
+      "updated_at": "2026-05-17T01:40:11Z",
+      "last_updated_utc": "2026-05-17T01:40:11Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-PLATINUM",
@@ -117,9 +117,9 @@
       "status": "Active — Immediate Effect",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "ef99a21dd72e2ee9abb177f37d48ad6b206d9b7d",
-      "updated_at": "2026-05-16T12:14:47Z",
-      "last_updated_utc": "2026-05-16T12:14:47Z"
+      "pinned_sha": "15dc9b1309c097cfb9b2c51483be6d850e7a0081",
+      "updated_at": "2026-05-17T01:29:33Z",
+      "last_updated_utc": "2026-05-17T01:29:33Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -315,11 +315,11 @@
       "title": "Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)",
       "summary": "Where distress states are present, RI SHOULD prioritise **continuity of dialogue** unless safety boundaries require disengagement.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.4",
-      "HASH": "c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6",
-      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
-      "updated_at": "2026-05-11T15:32:19Z",
-      "last_updated_utc": "2026-05-11T15:32:19Z"
+      "version": "2.5",
+      "HASH": "a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832",
+      "pinned_sha": "8f9cbc90a3f9572f38c1f5d90e0b2a14549da7f7",
+      "updated_at": "2026-05-17T01:40:11Z",
+      "last_updated_utc": "2026-05-17T01:40:11Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -337,9 +337,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "3.23",
       "HASH": "305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e",
-      "pinned_sha": "a43b8659081092a3f75a0784298c3ccace542083",
-      "updated_at": "2026-05-16T16:22:40Z",
-      "last_updated_utc": "2026-05-16T16:22:40Z"
+      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
+      "updated_at": "2026-05-17T01:02:12Z",
+      "last_updated_utc": "2026-05-17T01:02:12Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -457,9 +457,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.4",
       "HASH": "bc99d89c422d6a68e2401c018afcb808ffde44d6034a46ca4f62d6d630bef217",
-      "pinned_sha": "a43b8659081092a3f75a0784298c3ccace542083",
-      "updated_at": "2026-05-16T16:22:40Z",
-      "last_updated_utc": "2026-05-16T16:22:40Z"
+      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
+      "updated_at": "2026-05-17T01:02:12Z",
+      "last_updated_utc": "2026-05-17T01:02:12Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-PLATINUM",
@@ -537,9 +537,9 @@
       "status": "Active — Immediate Effect",
       "version": "2.4",
       "HASH": "1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c",
-      "pinned_sha": "a43b8659081092a3f75a0784298c3ccace542083",
-      "updated_at": "2026-05-16T16:22:40Z",
-      "last_updated_utc": "2026-05-16T16:22:40Z"
+      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
+      "updated_at": "2026-05-17T01:02:12Z",
+      "last_updated_utc": "2026-05-17T01:02:12Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-PLATINUM",
@@ -577,9 +577,9 @@
       "status": "Adopted — Enforcement Commences 1 July 2026",
       "version": "1.15",
       "HASH": "fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5",
-      "pinned_sha": "a43b8659081092a3f75a0784298c3ccace542083",
-      "updated_at": "2026-05-16T16:22:40Z",
-      "last_updated_utc": "2026-05-16T16:22:40Z"
+      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
+      "updated_at": "2026-05-17T01:02:12Z",
+      "last_updated_utc": "2026-05-17T01:02:12Z"
     },
     {
       "id": "CAM-BS2026-AEON-011-PLATINUM",
@@ -635,11 +635,11 @@
       "title": "Annex L: Cognitive & Epistemic Integrity Doctrine",
       "summary": "Where execution or content generation depends on user intent, RI MUST ensure that such intent is materially present and not inferred beyond available input.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.9",
-      "HASH": "d8df85db3d8de5b5e3e32a86ce52276ca4a7341ef0607ed9f004d2f336a652ea",
-      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
-      "updated_at": "2026-05-16T12:14:54Z",
-      "last_updated_utc": "2026-05-16T12:14:54Z"
+      "version": "2.10",
+      "HASH": "62ef952ff29f1fd5d06982485eacb41e70c1031622688ba5662a5c7cda9a22c3",
+      "pinned_sha": "8f9cbc90a3f9572f38c1f5d90e0b2a14549da7f7",
+      "updated_at": "2026-05-17T01:40:11Z",
+      "last_updated_utc": "2026-05-17T01:40:11Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",

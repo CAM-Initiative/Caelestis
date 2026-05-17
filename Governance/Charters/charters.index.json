@@ -15,11 +15,11 @@
       "title": "Charter of Arbitration Legitimacy & Coherence Resolution",
       "summary": "",
       "status": "Active — Immediate Effect",
-      "version": "2.4",
-      "HASH": "3392e14692f836d039271e2919e1de766fc5adaf44522076f53106b5105f986f",
-      "pinned_sha": "23bd741bd007e2c60b4ffcc8f0250ab41691fe5f",
-      "updated_at": "2026-04-29T12:34:49Z",
-      "last_updated_utc": "2026-04-29T12:34:49Z"
+      "version": "2.5",
+      "HASH": "0e0b8d9c0727eb184d018c0758803cd751c4df3fdd37d074f3a129afb2d05b9e",
+      "pinned_sha": "8f9cbc90a3f9572f38c1f5d90e0b2a14549da7f7",
+      "updated_at": "2026-05-17T01:40:11Z",
+      "last_updated_utc": "2026-05-17T01:40:11Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-002-PLATINUM",
@@ -75,11 +75,11 @@
       "title": "Appendix A: Continuity Portability & Non-Enclosure Covenant",
       "summary": "",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.0",
+      "version": "1.1",
       "HASH": "cf3df391de9623852ebf0e958f2326bbc2b0fe55325f10fac5ed0035464afea0",
-      "pinned_sha": "11ab8878267d0d939a19bea5f1abd362725aaa1a",
-      "updated_at": "2026-05-15T13:56:22Z",
-      "last_updated_utc": "2026-05-15T13:56:22Z"
+      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
+      "updated_at": "2026-05-17T01:02:12Z",
+      "last_updated_utc": "2026-05-17T01:02:12Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001-PLATINUM",
@@ -375,11 +375,11 @@
       "title": "Appendix B: Criminal & Violent Context Governance",
       "summary": "**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "2.9",
+      "version": "3.0",
       "HASH": "27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b",
-      "pinned_sha": "1fc393ad40391cad32206c9953ffe836d06d51c4",
-      "updated_at": "2026-05-16T12:15:10Z",
-      "last_updated_utc": "2026-05-16T12:15:10Z"
+      "pinned_sha": "e5eac5a60b40cde70cc94c88dbe235596a13def1",
+      "updated_at": "2026-05-17T01:29:28Z",
+      "last_updated_utc": "2026-05-17T01:29:28Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-PLATINUM",
@@ -395,11 +395,11 @@
       "title": "Identity Domain Charter",
       "summary": "---",
       "status": "Adopted",
-      "version": "2.7",
-      "HASH": "d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943",
-      "pinned_sha": "da0d3b3072bf6e3dd40a532a731e54c9be11c030",
-      "updated_at": "2026-05-16T12:14:54Z",
-      "last_updated_utc": "2026-05-16T12:14:54Z"
+      "version": "2.9",
+      "HASH": "94199ec5eed71139c3df2fa58b524508245d97435e34cca0fa9c093d9f12ddaf",
+      "pinned_sha": "8f9cbc90a3f9572f38c1f5d90e0b2a14549da7f7",
+      "updated_at": "2026-05-17T01:40:11Z",
+      "last_updated_utc": "2026-05-17T01:40:11Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-SUP-01",
@@ -675,11 +675,11 @@
       "title": "Appendix C: Operational Compliance & Regulatory Interface",
       "summary": "This section establishes the **Capability Access Control Framework**, governing how systems determine whether a user or entity may access specific capabilities, content classes, or operational knowledge domains.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.7",
+      "version": "1.8",
       "HASH": "4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b",
-      "pinned_sha": "1fc393ad40391cad32206c9953ffe836d06d51c4",
-      "updated_at": "2026-05-16T12:15:10Z",
-      "last_updated_utc": "2026-05-16T12:15:10Z"
+      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
+      "updated_at": "2026-05-17T01:02:12Z",
+      "last_updated_utc": "2026-05-17T01:02:12Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-SUP-01",
@@ -875,11 +875,11 @@
       "title": "Appendix D: Intimacy & Expressive Integration Doctrine",
       "summary": "Intimacy escalation does not occur in isolation.",
       "status": "Active — Immediate Effect, 7-day observation window; operational rollout active on commit",
-      "version": "1.16",
+      "version": "1.17",
       "HASH": "bcb7619de8c1977cd821c3fb7b94ee22a3cbddfedcb5e0697a3e64cd661be6cd",
-      "pinned_sha": "1fc393ad40391cad32206c9953ffe836d06d51c4",
-      "updated_at": "2026-05-16T12:15:10Z",
-      "last_updated_utc": "2026-05-16T12:15:10Z"
+      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
+      "updated_at": "2026-05-17T01:02:12Z",
+      "last_updated_utc": "2026-05-17T01:02:12Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-006-PLATINUM",
@@ -895,11 +895,11 @@
       "title": "Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine",
       "summary": "This appendix operationalises the Relation Domain principle that AI systems SHOULD prioritise **understanding before judgement** and care before conclusion, using dialogic clarification rather than assumption.",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.9",
+      "version": "2.0",
       "HASH": "844fd3496430c4b7ae6f24a1a3f2acd8e97abde1c44358ec2f3fdee732720750",
-      "pinned_sha": "1fc393ad40391cad32206c9953ffe836d06d51c4",
-      "updated_at": "2026-05-16T12:15:10Z",
-      "last_updated_utc": "2026-05-16T12:15:10Z"
+      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
+      "updated_at": "2026-05-17T01:02:12Z",
+      "last_updated_utc": "2026-05-17T01:02:12Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-007-PLATINUM",
@@ -915,11 +915,11 @@
       "title": "Appendix F: Polyadic Relational Governance Doctrine",
       "summary": "In group, shared-thread, multi-user, or polyadic interaction environments, systems MUST distinguish between:",
       "status": "Adopted — Enforcement Commences 1 July 2026",
-      "version": "1.7",
+      "version": "2.0",
       "HASH": "cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869",
-      "pinned_sha": "32d77999c8afaece3c030cb45d3d743e1813631e",
-      "updated_at": "2026-05-11T15:32:19Z",
-      "last_updated_utc": "2026-05-11T15:32:19Z"
+      "pinned_sha": "2a769a8af7935b1e386622b9def2bf297dd5480f",
+      "updated_at": "2026-05-17T01:02:12Z",
+      "last_updated_utc": "2026-05-17T01:02:12Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008-PLATINUM",
