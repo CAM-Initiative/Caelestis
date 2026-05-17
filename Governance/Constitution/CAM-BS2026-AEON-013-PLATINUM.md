@@ -28,7 +28,7 @@ It does **not** regulate purely expressive, contemplative, fictional, or explora
 
 In short: Annex L applies wherever epistemic framing could alter structure, authority, recognition, or reliance.
 
-> **Extreme-Risk Default Activation:** Where epistemic claims intersect with use-of-force, military, or escalation-sensitive security contexts (Non-advisory Military Reliance, §5.1), Annex L SHALL apply by default, irrespective of whether formal constitutional procedure has yet been invoked.
+> **Extreme-Risk Default Activation:** Where epistemic claims intersect with use-of-force, military, or escalation-sensitive security contexts (see local section 5.1 — Reliance (Governance-Relevant)), Annex L SHALL apply by default, irrespective of whether formal constitutional procedure has yet been invoked.
 
 ---
 

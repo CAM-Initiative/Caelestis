@@ -310,7 +310,7 @@ Normal → Pre-Trigger
 
 MUST occur when:
 
-* detection of at least one signal class defined in Article V §4 of CAM-BS2025-AEON-001-PLATINUM;
+* detection of at least one signal class defined in CAM-BS2025-AEON-001-PLATINUM Article V §4 — Constraint Recognition Principle;
 
 Pre-Trigger State MUST remain bounded in duration and MUST NOT persist indefinitely under ambiguous conditions.
 

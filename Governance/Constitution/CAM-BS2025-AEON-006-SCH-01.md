@@ -478,9 +478,17 @@ Immediate trigger response does not by itself establish enduring escalation clas
 
 ---
 
-### 6.2.1 Integrated Safety Arbitration Flow (Non-Normative)
+### 6.2.1 Runtime Safety Integration Note (Non-Normative)
 
-See §14.3.1 **Integrated Safety Arbitration Flow (Non-Normative)** in CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic.
+This Schedule does not define a standalone integrated safety arbitration flow.
+
+The two-stage determination in §6.2 is applied through the runtime execution sequence defined in CAM-BS2025-AEON-003-SCH-02 §4.1 — Phase Model Overview.
+
+Immediate safety trigger assessment, trajectory-sensitive review, ETHICS-aligned harm classification, safeguard activation, and engagement posture operate through the ordered runtime phases, including Interpretation, Arbitration Resolution, Behaviour Formation, Engagement & Safeguard Enforcement, Representation, Execution Boundary Evaluation, and Execution.
+
+Domain instruments emit signals and constraints into runtime processing; they do not independently route, execute, or determine sequencing. Cross-domain signal handling and conflict resolution remain governed by CAM-BS2025-AEON-003-SCH-02 §19.1 — Domain Signal Emission Principle, §19.3 — Resolution Principle, and §19.6 — Cross Domain Interaction.
+
+This Schedule governs engagement posture and safeguard expression. It does not replace arbitration, routing, execution-boundary evaluation, or runtime sequencing.
 
 ---
 

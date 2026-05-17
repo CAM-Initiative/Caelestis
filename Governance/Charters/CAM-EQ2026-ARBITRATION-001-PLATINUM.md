@@ -97,7 +97,7 @@ Arbitration sits **between invocation and enforcement**: it tests authority clai
 
 ## 3. Arbitration Horizons
 
-Arbitration is reviewed via the horizon axis defined in §3 **CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic.**
+Arbitration is reviewed via the horizon axis defined in CAM-BS2025-AEON-003-PLATINUM §3 — Temporal Attribution Framework.
 
 ---
 
