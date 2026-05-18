@@ -3131,7 +3131,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.15 | Added symbolic-register and meaning-making signal interface for CAM-BS2026-AEON-007-SCH-01, clarifying that SD/SY symbolic classifications enter runtime as interpretation, routing, representation, or safeguard-relevant signals only and do not create execution authority. | 2026-05-17T06:21:00Z | 3732fa466aec99d1260d6548d9499e708f8ae05035d8f419aa5c7139c8f59ba8 |
 | 2.16 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e810d2ebf02abcabb2f63717f38deec1989ebe991d45e750d62b935c90318fc4  |
 | 2.17 | Added Generated Operational Logic Custody Boundary Clause | 2026-05-18T14:29:00Z |  ad7b2e00427826addff93b3263ad2ce3e9c7d21a4780bc0d5cffd622f5315e92  |
-| 2.18 | Added new clauses, Identity-Bearing Sexual Media Execution Boundary and Trust-State and Participation-Access Execution Boundary and Delegated, Ambient, and Embodied Authority Boundary | 2026-05-18T16:03:00Z |  |
+| 2.18 | Added new clauses, Identity-Bearing Sexual Media Execution Boundary and Trust-State and Participation-Access Execution Boundary and Delegated, Ambient, and Embodied Authority Boundary | 2026-05-18T16:03:00Z |  f9723537b45d70f3dbd5b6735103a5ee1436910c4f0df8547f05d3e1424940c9  |
 
 ---
 

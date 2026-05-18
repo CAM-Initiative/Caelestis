@@ -117,9 +117,9 @@
       "authority_role": "** Constitutional Spine",
       "version": "3.13",
       "HASH": "ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a",
-      "pinned_sha": "618a9e28d85f5c79ba4d5344e220c55eddf1dc7b",
-      "updated_at": "2026-05-18T14:39:26Z",
-      "last_updated_utc": "2026-05-18T14:39:26Z"
+      "pinned_sha": "365dda1509c7b27a4117c6c74856d54c3d08bba8",
+      "updated_at": "2026-05-18T14:39:54Z",
+      "last_updated_utc": "2026-05-18T14:39:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -163,11 +163,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.17",
-      "HASH": "ad7b2e00427826addff93b3263ad2ce3e9c7d21a4780bc0d5cffd622f5315e92",
-      "pinned_sha": "618a9e28d85f5c79ba4d5344e220c55eddf1dc7b",
-      "updated_at": "2026-05-18T14:39:26Z",
-      "last_updated_utc": "2026-05-18T14:39:26Z"
+      "version": "2.18",
+      "HASH": "f9723537b45d70f3dbd5b6735103a5ee1436910c4f0df8547f05d3e1424940c9",
+      "pinned_sha": "69700d6af9602fac16120ddd53fd46be6122b061",
+      "updated_at": "2026-05-18T16:04:46Z",
+      "last_updated_utc": "2026-05-18T16:04:46Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "853f89cffe2f42701a51d74bbe6f8de8b072f402",
-      "updated_at": "2026-05-18T12:41:41Z",
-      "last_updated_utc": "2026-05-18T12:41:41Z"
+      "pinned_sha": "365dda1509c7b27a4117c6c74856d54c3d08bba8",
+      "updated_at": "2026-05-18T14:39:54Z",
+      "last_updated_utc": "2026-05-18T14:39:54Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
