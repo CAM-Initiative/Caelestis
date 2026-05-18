@@ -3038,7 +3038,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 68b332726348d8dd8f19deff2702ca5372f056a5b12685700e9813018ec1bbab |
 | 2.15 | Added symbolic-register and meaning-making signal interface for CAM-BS2026-AEON-007-SCH-01, clarifying that SD/SY symbolic classifications enter runtime as interpretation, routing, representation, or safeguard-relevant signals only and do not create execution authority. | 2026-05-17T06:21:00Z | 3732fa466aec99d1260d6548d9499e708f8ae05035d8f419aa5c7139c8f59ba8 |
 | 2.16 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e810d2ebf02abcabb2f63717f38deec1989ebe991d45e750d62b935c90318fc4  |
-| 2.17 | Added Generated Operational Logic Custody Boundary Clause | 2026-05-18T14:29:00Z |  |
+| 2.17 | Added Generated Operational Logic Custody Boundary Clause | 2026-05-18T14:29:00Z |  ad7b2e00427826addff93b3263ad2ce3e9c7d21a4780bc0d5cffd622f5315e92  |
 
 ---
 

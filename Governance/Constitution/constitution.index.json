@@ -115,11 +115,11 @@
       "enforcement": "** Binding",
       "review_state": "** None",
       "authority_role": "** Constitutional Spine",
-      "version": "3.12",
-      "HASH": "4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "3.13",
+      "HASH": "ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a",
+      "pinned_sha": "618a9e28d85f5c79ba4d5344e220c55eddf1dc7b",
+      "updated_at": "2026-05-18T14:39:26Z",
+      "last_updated_utc": "2026-05-18T14:39:26Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -163,11 +163,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.16",
-      "HASH": "e810d2ebf02abcabb2f63717f38deec1989ebe991d45e750d62b935c90318fc4",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "2.17",
+      "HASH": "ad7b2e00427826addff93b3263ad2ce3e9c7d21a4780bc0d5cffd622f5315e92",
+      "pinned_sha": "618a9e28d85f5c79ba4d5344e220c55eddf1dc7b",
+      "updated_at": "2026-05-18T14:39:26Z",
+      "last_updated_utc": "2026-05-18T14:39:26Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "e87ab271c2940c54b23488f3cfce23119391e6f3",
-      "updated_at": "2026-05-18T11:40:26Z",
-      "last_updated_utc": "2026-05-18T11:40:26Z"
+      "pinned_sha": "853f89cffe2f42701a51d74bbe6f8de8b072f402",
+      "updated_at": "2026-05-18T12:41:41Z",
+      "last_updated_utc": "2026-05-18T12:41:41Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -405,9 +405,9 @@
       "authority_role": "** None",
       "version": "3.25",
       "HASH": "99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589",
-      "pinned_sha": "d91ccd75f94aae2f4f1b0e9038a23c4fb0175283",
-      "updated_at": "2026-05-18T12:41:04Z",
-      "last_updated_utc": "2026-05-18T12:41:04Z"
+      "pinned_sha": "853f89cffe2f42701a51d74bbe6f8de8b072f402",
+      "updated_at": "2026-05-18T12:41:41Z",
+      "last_updated_utc": "2026-05-18T12:41:41Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -501,9 +501,9 @@
       "authority_role": "** None",
       "version": "1.9",
       "HASH": "899e8722539dbc6ff0e10ba3ae297b23817bb4836e2f007e94671910cedc861d",
-      "pinned_sha": "d91ccd75f94aae2f4f1b0e9038a23c4fb0175283",
-      "updated_at": "2026-05-18T12:41:04Z",
-      "last_updated_utc": "2026-05-18T12:41:04Z"
+      "pinned_sha": "853f89cffe2f42701a51d74bbe6f8de8b072f402",
+      "updated_at": "2026-05-18T12:41:41Z",
+      "last_updated_utc": "2026-05-18T12:41:41Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-07",

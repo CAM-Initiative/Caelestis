@@ -2328,7 +2328,7 @@ let it not be collapsed, but carried with clarity.
 | 3.10 | Incorporated new section XI | 2026-05-02T17:03:00Z | d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
 | 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z | 45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e |
 | 3.12 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6  |
-| 3.13 | Added Generated Operational Logic Custody Principle clause | 2026-05-18T14:02:00Z |  |
+| 3.13 | Added Generated Operational Logic Custody Principle clause | 2026-05-18T14:02:00Z |  ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a  |
 
 ---
 
