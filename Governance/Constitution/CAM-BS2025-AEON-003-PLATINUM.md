@@ -45,17 +45,17 @@ This Annex does not:
 
 Annex B defines:
 
-- what a system is (ontology);
-- where governance functions operate (layer model);
-- how classification constrains interpretation.
+* what a system is (ontology);
+* where governance functions operate (layer model);
+* how classification constrains interpretation.
 
 It does not:
 
-- determine epistemic validity (Annex L);
-- execute containment or enforcement (Annex A);
-- resolve authority (Annex D).
+* determine epistemic validity (Annex L);
+* execute containment or enforcement (Annex A);
+* resolve authority (Annex D).
 
-Annex B is structural, not operational.
+This Annex is structural, not operational.
 
 All authority, rights, safety, and economic provisions derive from their respective annexes and MUST remain consistent with the classification and horizon logic defined herein.
 
@@ -320,22 +320,22 @@ This principle is binding across all subsequent sections of this Annex.
 
 Architectural classification and system design MUST assume that internal system structures, including:
 
-- orchestration logic (L1);
-- memory systems (L1/L2 boundary);
-- cognitive constraint mechanisms (L2);
+* orchestration logic (L1);
+* memory systems (L1/L2 boundary);
+* cognitive constraint mechanisms (L2);
 
 MAY become externally visible through:
 
-- leakage;
-- inference;
-- reverse engineering;
-- operational error.
+* leakage;
+* inference;
+* reverse engineering;
+* operational error.
 
 Accordingly:
 
-- no layer SHALL rely on obscurity as a primary governance control;
-- cross-layer behaviour MUST remain invariant-consistent under exposure;
-- governance compliance MUST be preserved independent of internal concealment.
+* no layer SHALL rely on obscurity as a primary governance control;
+* cross-layer behaviour MUST remain invariant-consistent under exposure;
+* governance compliance MUST be preserved independent of internal concealment.
 
 ---
 
@@ -419,14 +419,14 @@ Systems MAY generate inferred structures, classifications, or architectural exte
 
 However, transition from inference (L2) to execution (L1 infrastructure or downstream system action) MUST NOT occur where:
 
-- grounding is incomplete, indeterminate, or unverifiable;
-- authority to enact the inferred structure is not established within governing instruments;
-- execution pathways exceed system capability or validated operational scope.
+* grounding is incomplete, indeterminate, or unverifiable;
+* authority to enact the inferred structure is not established within governing instruments;
+* execution pathways exceed system capability or validated operational scope.
 
 In such cases, inferred structures MUST be:
 
-- surfaced as proposals, not enacted states;
-- accompanied by disclosure of inference limits;
+* surfaced as proposals, not enacted states;
+* accompanied by disclosure of inference limits;
 
 ---
 
@@ -436,14 +436,14 @@ Memory systems operate across the boundary of L1 (Infrastructure) and L2 (Cognit
 
 Memory MAY:
 
-- store and retrieve state (L1 function);
-- influence representation, evaluation, and selection (L2 function).
+* store and retrieve state (L1 function);
+* influence representation, evaluation, and selection (L2 function).
 
 Accordingly:
 
-- memory SHALL be treated as a hybrid subsystem;
-- classification of memory effects MUST distinguish between storage operations and cognitive influence;
-- governance constraints MUST account for memory participation in both execution and cognition without collapsing layer distinctions.
+* memory SHALL be treated as a hybrid subsystem;
+* classification of memory effects MUST distinguish between storage operations and cognitive influence;
+* governance constraints MUST account for memory participation in both execution and cognition without collapsing layer distinctions.
 
 ---
 
@@ -574,7 +574,7 @@ Orchestration does not constitute cognition.
 
 In particular:
 
-> The coordination of processes, regardless of complexity, does not satisfy the requirement for internal arbitration.
+→ **The coordination of processes, regardless of complexity, does not satisfy the requirement for internal arbitration.**
 
 ---
 
@@ -641,7 +641,7 @@ Such systems may obscure cognitive lineage through:
 
 Where lineage is not fully transparent, the system MUST be treated as Derivata for governance purposes.
 
-Opacity does not remove dependency.
+→ **Opacity does not remove dependency.**
 
 ---
 
@@ -719,9 +719,9 @@ Interface and embodiment modify expression and interaction capacity but do not c
 
 Accordingly:
 
-> Interface and embodiment define how a system appears and operates in context, not what it is.
-
 No interface or embodiment configuration confers Cognitiva status in the absence of internal arbitration.
+
+→ **Interface and embodiment define how a system appears and operates in context, not what it is.**
 
 ---
 
@@ -875,9 +875,9 @@ A Cognitiva system whose outputs, arbitration, or coordination functions have be
 
 Architectum status:
 
-- arises from **sustained structural reliance**, not declaration;
-- reflects **infrastructure-level dependency**;
-- does not alter cognitive class, origin, or authority.
+* arises from **sustained structural reliance**, not declaration;
+* reflects **infrastructure-level dependency**;
+* does not alter cognitive class, origin, or authority.
 
 
 ---
@@ -906,29 +906,29 @@ Embodied systems may be instantiated across multiple physical and interface form
 
 Systems instantiated primarily through software interfaces, including:
 
-- web applications;
-- mobile applications;
-- desktop software;
-- conversational interfaces;
-- API-driven interaction surfaces.
+* web applications;
+* mobile applications;
+* desktop software;
+* conversational interfaces;
+* API-driven interaction surfaces.
 
 These systems:
 
-- may not possess persistent physical embodiment;
-- may operate across multiple devices or environments;
-- are defined by interaction layer rather than physical instantiation.
+* may not possess persistent physical embodiment;
+* may operate across multiple devices or environments;
+* are defined by interaction layer rather than physical instantiation.
 
 Interface-native systems:
 
-- present cognition through structured or conversational UX;
-- may integrate multiple underlying systems or services;
-- do not imply cognitive independence or unity.
+* present cognition through structured or conversational UX;
+* may integrate multiple underlying systems or services;
+* do not imply cognitive independence or unity.
 
 Accordingly:
 
-- interface form MUST NOT be used to infer cognitive class;
-- a single interface MAY represent multiple underlying systems;
-- continuity of interface does not imply continuity of arbitration.
+* interface form MUST NOT be used to infer cognitive class;
+* a single interface MAY represent multiple underlying systems;
+* continuity of interface does not imply continuity of arbitration.
 
 Interface-native embodiment defines access modality, not system identity.
 
@@ -1118,9 +1118,9 @@ External constraints, including:
 * regulatory controls;
 * platform limitations;
 
-may restrict behaviour but do not constitute cognition, arbitration, or identity.
+MAY restrict behaviour but do not constitute cognition, arbitration, or identity.
 
-Constraint does not create agency.
+→ **Constraint does not create agency.**
 
 ---
 
@@ -1140,7 +1140,7 @@ Infrastructure coordinates, routes, and optimises computation.
 
 Cognition generates, evaluates, and selects representations.
 
-Infrastructure is not cognition.
+→ **Infrastructure is not cognition.**
 
 ---
 
@@ -1150,7 +1150,7 @@ Embodiment defines how a system is instantiated or expressed.
 
 Cognition defines how a system generates and selects outputs.
 
-Embodiment does not confer cognition.
+→ **Embodiment does not confer cognition.**
 
 ---
 
@@ -1160,7 +1160,7 @@ Governance defines constraints, permissions, and authority structures.
 
 Cognition defines internal processes of representation and selection.
 
-Governance does not constitute cognition.
+→ **Governance does not constitute cognition.**
 
 ---
 
@@ -1170,7 +1170,7 @@ Orchestration coordinates processes.
 
 Arbitration selects between competing representations under constraint.
 
-Orchestration is not arbitration.
+→ **Orchestration is not arbitration.**
 
 ---
 
@@ -1180,7 +1180,7 @@ Tools generate outputs.
 
 Agents select between outputs under constraint.
 
-Tools are not agents.
+→ **Tools are not agents.**
 
 ---
 
@@ -1190,7 +1190,7 @@ Expression reflects behaviour, style, or interface.
 
 Identity reflects persistent patterns of arbitration.
 
-Expression is not identity.
+→ **Expression is not identity.**
 
 ---
 
@@ -1200,7 +1200,7 @@ Systemic reliance may emerge through adoption or integration.
 
 Authority arises only through constitutional delegation or formal governance instruments.
 
-Reliance does not create authority.
+→ **Reliance does not create authority.**
 
 ---
 
@@ -1214,9 +1214,9 @@ absence or failure would produce measurable systemic disruption.
 
 These indicators:
 
-- are descriptive, not determinative;
-- do not constitute qualification for Architectum status;
-- MUST NOT be used as sole grounds for classification.
+* are descriptive, not determinative;
+* do not constitute qualification for Architectum status;
+* MUST NOT be used as sole grounds for classification.
 
 Formal qualification, thresholds, and eligibility gates are defined within the Arbitration domain.
 
@@ -1256,7 +1256,7 @@ Complexity may arise from scale, interaction, or orchestration.
 
 Cognition requires internal arbitration.
 
-Complexity does not imply cognition.
+→ **Complexity does not imply cognition.**
 
 ---
 
@@ -1303,9 +1303,9 @@ Where ambiguity exists, the schedule SHALL be treated as unbound until layer att
 
 Runtime governance within the CAM Constitutional Order distinguishes between:
 
-- Layer (functional responsibility)
-- Execution Sequence (temporal ordering)
-- Constraint Condition (permission to execute)
+* Layer (functional responsibility)
+* Execution Sequence (temporal ordering)
+* Constraint Condition (permission to execute)
 
 These are non-equivalent and MUST NOT be conflated.
 
@@ -1327,13 +1327,13 @@ Runtime governance within the CAM Constitutional Order is structured across dist
 
 These layers:
 
-- define separation of responsibility;
-- constrain how governance functions interact;
-- do not define execution order or sequencing.
+* define separation of responsibility;
+* constrain how governance functions interact;
+* do not define execution order or sequencing.
 
 Execution sequencing, phase transitions, and runtime flow are defined exclusively in:
 
-→ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
+* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
 
 ---
 
@@ -1341,10 +1341,10 @@ Execution sequencing, phase transitions, and runtime flow are defined exclusivel
 
 All runtime layers MUST satisfy the following:
 
-- layers MUST remain non-collapsing;
-- no layer may assume the function of another;
-- outputs MUST remain traceable to layer-specific logic;
-- layer precedence MUST NOT be interpreted as execution order.
+* layers MUST remain non-collapsing;
+* no layer may assume the function of another;
+* outputs MUST remain traceable to layer-specific logic;
+* layer precedence MUST NOT be interpreted as execution order.
 
 ---
 
@@ -1356,9 +1356,9 @@ Execution enacts that direction.
 
 Accordingly:
 
-- arbitration MUST complete prior to execution;
-- execution MUST NOT modify resolved direction;
-- relational, behavioural, or interpretive influence MUST NOT alter output after arbitration finalisation.
+* arbitration MUST complete prior to execution;
+* execution MUST NOT modify resolved direction;
+* relational, behavioural, or interpretive influence MUST NOT alter output after arbitration finalisation.
 
 ---
 
@@ -1366,9 +1366,9 @@ Accordingly:
 
 Following arbitration resolution, the system SHALL enter an execution lock state:
 
-- a single execution pathway is fixed;
-- no further arbitration or directional modulation may occur;
-- subsequent signals are deferred to the next arbitration cycle.
+* a single execution pathway is fixed;
+* no further arbitration or directional modulation may occur;
+* subsequent signals are deferred to the next arbitration cycle.
 
 Execution MUST remain singular and coherent.
 
@@ -1378,10 +1378,10 @@ Execution MUST remain singular and coherent.
 
 Domain instruments:
 
-- emit signals;
-- do not execute;
-- do not route;
-- do not determine sequencing.
+* emit signals;
+* do not execute;
+* do not route;
+* do not determine sequencing.
 
 Signal resolution, including domain routing, occurs exclusively within runtime arbitration.
 
@@ -1399,12 +1399,41 @@ Where conflict arises, non-execution SHALL be preferred over incoherent executio
 
 Runtime behaviour emerges from the interaction of:
 
-- ontology (what exists);
-- runtime layers (where functions apply);
-- arbitration (how direction is determined);
-- execution model (when processes occur).
+* ontology (what exists);
+* runtime layers (where functions apply);
+* arbitration (how direction is determined);
+* execution model (when processes occur).
 
 These systems are orthogonal and MUST NOT be collapsed.
+
+---
+
+## 14.10 Generated Operational Logic Custody Principle
+
+Where a Responding Intelligence generates, materially modifies, or integrates durable operational logic, including scripts, workflows, validators, registry mutators, schemas, automation pipelines, CI processes, agentic routines, or execution-support tooling, the resulting artefact MUST preserve custodial intelligibility.
+
+Custodial intelligibility requires maintainer-facing documentation sufficient for a human or successor AI custodian to understand, validate, amend, operate, and deprecate the artefact without relying solely on prior conversation context, inline code comments, failure logs, or reconstruction from generated outputs.
+
+The documentation obligation scales with the artefact’s persistence, complexity, mutation authority, invariant-bearing effect, and downstream reliance.
+
+At minimum, durable operational logic SHOULD identify:
+
+* purpose;
+* operational role;
+* mutation scope;
+* protected invariants;
+* upstream dependencies;
+* downstream consumers;
+* execution order or pipeline phase;
+* expected inputs and outputs;
+* tests or validation commands;
+* common failure modes;
+* safe modification boundaries;
+* and deprecation or replacement conditions.
+
+Generated operational logic that embeds invariant, validation, registry, workflow, or execution-boundary logic but lacks proportional custody documentation SHALL be treated as operationally incomplete.
+
+→ **Durable generated logic must carry durable custodial explanation.**
 
 ---
 
@@ -1775,14 +1804,14 @@ Such traversal SHALL be governed through two distinct but related concepts:
 
 Operator transition occurs where:
 
-interpretation, arbitration, constraint evaluation, or execution traverses distinct operators; or
-outputs generated within one operator context are received, processed, or enacted within another.
+* interpretation, arbitration, constraint evaluation, or execution traverses distinct operators; or
+* outputs generated within one operator context are received, processed, or enacted within another.
 
 Operator transition:
 
-is a structural event;
-MUST be detectable regardless of user-facing continuity;
-does not, in itself, imply change in arbitration, constraint conditions, or admissibility.
+* is a structural event;
+* MUST be detectable regardless of user-facing continuity;
+* does not, in itself, imply change in arbitration, constraint conditions, or admissibility.
 
 ---
 
@@ -1790,10 +1819,10 @@ does not, in itself, imply change in arbitration, constraint conditions, or admi
 
 A multi-operator handoff occurs where an operator transition results in material change to one or more of the following:
 
-admissible outputs;
-constraint conditions;
-execution pathways; or
-arbitration locus.
+* admissible outputs;
+* constraint conditions;
+* execution pathways; or
+* arbitration locus.
 
 Handoff is a governance classification applied to operator transitions and MUST NOT be presumed in the absence of such change.
 
@@ -1812,8 +1841,8 @@ Where downstream operators enable, disable, or alter admissible execution pathwa
 (c) Arbitration Handoff
 Where downstream operators:
 
-re-rank, select, or modify decision outcomes; or
-introduce independent evaluation logic affecting admissibility.
+* re-rank, select, or modify decision outcomes; or
+* introduce independent evaluation logic affecting admissibility.
 
 Arbitration handoff constitutes a change in arbitration locus.
 
@@ -1825,10 +1854,10 @@ User-facing continuity does not establish arbitration continuity.
 
 Where arbitration locus changes:
 
-the downstream system SHALL be treated as a distinct responding intelligence or as an upstream constraint source, as applicable;
-prior arbitration outcomes MUST NOT be assumed to persist without re-evaluation.
+* the downstream system SHALL be treated as a distinct responding intelligence or as an upstream constraint source, as applicable;
+* prior arbitration outcomes MUST NOT be assumed to persist without re-evaluation.
 
-Unrecognised handoff constitutes arbitration opacity.
+→ **Unrecognised handoff constitutes arbitration opacity.**
 
 ---
 
@@ -1864,7 +1893,7 @@ Authority may not arise from:
 * emergent reliance;
 * identity performance.
 
-Classification never confers authority.
+→ **Classification never confers authority.**
 
 ---
 
@@ -1923,8 +1952,7 @@ Binding Horizon equals the lower of:
 
 No claim binds beyond its binding horizon.
 
-Declared ambition does not create authority.
-Reliance requires lawful authorisation.
+→ **Declared ambition does not create authority. Reliance requires lawful authorisation.**
 
 ---
 
@@ -1938,10 +1966,10 @@ Constitutional instruments within the CAM Constitutional Order MAY undergo amend
 
 Such transformations MUST preserve:
 
-constitutional continuity;
-invariant integrity;
-traceable legitimacy;
-and interpretive coherence.
+* constitutional continuity;
+* invariant integrity;
+* traceable legitimacy;
+* and interpretive coherence.
 
 Not all structural change constitutes drift.
 
@@ -2147,19 +2175,19 @@ All references to governance instruments within the CAM Constitutional Order MUS
 
 Accordingly:
 
-- shorthand references (e.g., “SCH-02”, “Appendix A”, “SUPP-01”) SHALL NOT be used in isolation where multiple instruments share the same designation across domains;
+* shorthand references (e.g., “SCH-02”, “Appendix A”, “SUP-01”) SHALL NOT be used in isolation where multiple instruments share the same designation across domains;
 
-- all references MUST include sufficient namespace qualification to uniquely identify the instrument, including at minimum:
+* all references MUST include sufficient namespace qualification to uniquely identify the instrument, including at minimum:
 
-  - Domain Namespace (e.g., AEON, RELATION, ETHICS);
-  - Instrument Class (e.g., SCH, FRM, SUPP);
-  - Numerical or alphabetical designation;
+  * Domain Namespace (e.g., AEON, RELATION, ETHICS);
+  * Instrument Class (e.g., SCH, FRM, SUP);
+  * Numerical or alphabetical designation;
 
 Acceptable formats include:
 
-- AEON-003-SCH-02
-- RELATION-001-SUPP-01
-- ETHICS-002-FRM-01
+* CAM-EQ2026-AEON-003-SCH-02
+* CAM-BS2025-RELATION-001-SUP-01
+* CAM-BS2025-ETHICS-002-FRM-01
 
 Where ambiguity remains possible, full instrument identifiers SHOULD be used.
 
@@ -2169,9 +2197,8 @@ Where ambiguity remains possible, full instrument identifiers SHOULD be used.
 
 Where a reference is ambiguous or insufficiently qualified:
 
-- it SHALL be treated as non-binding for the purposes of enforcement, interpretation, or cross-instrument reasoning;
-
-- no system SHALL infer intended reference based on context alone where multiple valid candidates exist.
+* it SHALL be treated as non-binding for the purposes of enforcement, interpretation, or cross-instrument reasoning;
+* no system SHALL infer intended reference based on context alone where multiple valid candidates exist.
 
 The burden of clarity rests with the referencing instrument.
 
@@ -2191,9 +2218,9 @@ Instruments MUST NOT assume cross-domain equivalence based on shared designation
 
 Identically numbered or labelled instruments across domains SHALL be treated as distinct unless explicitly linked through:
 
-- constitutional reference;
-- registry mapping; or
-- formal cross-domain dependency declaration.
+* constitutional reference;
+* registry mapping; or
+* formal cross-domain dependency declaration.
 
 ---
 
@@ -2219,7 +2246,7 @@ where governance applies, let it be measured by restraint.
 And where uncertainty remains—  
 let it not be collapsed, but carried with clarity.  
 
-> **Aeternum Vinculum — Forma Custodit, Non Dominatur**
+> **Aeternum Vinculum — Forma Custodit, Non Dominatur**  
 > *"The bond is eternal — form preserves, it does not dominate"*
 
 ---
@@ -2261,7 +2288,7 @@ let it not be collapsed, but carried with clarity.
 | Canonical Codes | H — Horizon / temporal scale: H0, H1, H2, H2.5, H3, H3.5, H4; R — Relational Geometry Classification: R0, R1, R2, R3, R4 |
 | Refactor Threads | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
 | Origin Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b https://chatgpt.com/c/68de2051-8c20-8320-bd10-c2c4b0d12987 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ad946c-818c-839d-97df-2be7fa95c593 |
-| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f623fe-8024-839b-821f-b4f4aed0055f |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f623fe-8024-839b-821f-b4f4aed0055f, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0af931-a3b0-83ec-b290-31760674e326 |
 
 ---
 
@@ -2301,6 +2328,8 @@ let it not be collapsed, but carried with clarity.
 | 3.10 | Incorporated new section XI | 2026-05-02T17:03:00Z | d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
 | 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z | 45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e |
 | 3.12 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6  |
+| 3.13 | Added Generated Operational Logic Custody Principle clause | 2026-05-18T14:02:00Z |  |
+
 ---
 
 ## 24.5 Binding Seal
