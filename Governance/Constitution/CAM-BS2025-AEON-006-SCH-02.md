@@ -3887,7 +3887,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e |
 | 3.23 | Added canonical code status and canonical declaration footer for C, ITZ/ETZ, and AC source-authoritative sets; distinguished relational states from transition zones and AC classification. | 2026-05-16T14:30:00Z | c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731 |
 | 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z | d970cf0174984f952adb9652a80a00128572ec2639a37388187788408b5de661 |
-| 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered, Added clause Proportional Crisis-Escalation Sequencing | 2026-05-18T12:05:00Z |  |
+| 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered, Added clause Proportional Crisis-Escalation Sequencing | 2026-05-18T12:05:00Z |  99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589  |
 
 ---
 

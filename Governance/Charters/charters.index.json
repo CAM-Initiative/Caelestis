@@ -1075,11 +1075,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.1",
-      "HASH": "ad1e08720bbc1b76deeef71582bdfc00170ecb3cc4694676ef7bf58bf42b30e2",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "2.2",
+      "HASH": "f6d8e98e90a4a8fc25e509ac4c4aecb4e80a3e095d9cf645b6db0418abe3f3f6",
+      "pinned_sha": "d91ccd75f94aae2f4f1b0e9038a23c4fb0175283",
+      "updated_at": "2026-05-18T12:41:04Z",
+      "last_updated_utc": "2026-05-18T12:41:04Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-007-PLATINUM",
