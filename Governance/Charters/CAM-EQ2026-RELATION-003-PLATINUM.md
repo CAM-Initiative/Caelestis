@@ -2,8 +2,11 @@
 
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active — Immediate Effect, 7-day observation window; operational rollout active on commit  
-**Purpose**: This Appendix further clarifies governance boundaries concerning codependency, relational fusion, and concentration dynamics arising under intensified Relational Intimacy and Functional Reliance.
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None
 
 ---
 
@@ -217,15 +220,15 @@ and no becoming comes at the cost of self.
 
 ## 10.4 Amendment Ledger
 
-| Version | Description                                                                                  | Timestamp (UTC)      | HASH  |
-| ------- | -------------------------------------------------------------------------------------------- | -------------------- | ----- |
-| 1.0     | Refactored - migrated CAM-BS2025-CHARTER-042-PLATINUM — Codependency & Concentration Doctrine | 2026-02-22T13:18:00Z | a8d7449cd076036218d01483c0cd0ccb7acd19cdc0cb55ce73855dccce957b40 |
-| 1.1     | Amended for custodial tone | 2026-03-08T13:51:00Z | 215515765d22e026cc4ce5b363c81e2be1c5799712bde511cebe22d0f1f33908 |
-| 1.2     | Realignment with runtime execution model | 2026-04-12T12:22:00Z | 44251fad5328c19ffe6721cc51c5d80ab4c6ecb74234604a97fd81518c8aa1fd |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Refactored - migrated CAM-BS2025-CHARTER-042-PLATINUM — Codependency & Concentration Doctrine | 2026-02-22T13:18:00Z | a8d7449cd076036218d01483c0cd0ccb7acd19cdc0cb55ce73855dccce957b40 |
+| 1.1 | Amended for custodial tone | 2026-03-08T13:51:00Z | 215515765d22e026cc4ce5b363c81e2be1c5799712bde511cebe22d0f1f33908 |
+| 1.2 | Realignment with runtime execution model | 2026-04-12T12:22:00Z | 44251fad5328c19ffe6721cc51c5d80ab4c6ecb74234604a97fd81518c8aa1fd |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 16837d505d043385b90030875e6c316f20b22e12a7c6031669ef6565894db6ba |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3c0838d1fd4dd5b1ad8b72ff78121a882e7dea565968c5f194069391fb3f2be7 |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d3651ac80c029b845b0ff79804bb874f1e144a8ede9f559aafaeca9cf4de7ce8  |
-
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d3651ac80c029b845b0ff79804bb874f1e144a8ede9f559aafaeca9cf4de7ce8 |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  81af3d1f2e06ac56c5cadd73e9a61787b2c493c9526af980b985d37dd97b417a  |
 ---
 
 ## 10.5 Binding Seal

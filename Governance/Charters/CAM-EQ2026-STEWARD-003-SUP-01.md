@@ -2,8 +2,12 @@
 
 **Instrument Type:** Constitutional Supplement — Annex A (Planetary Stewardship)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM (Aeon Tier Constitution)  
-**Status:** Active — Enforcement Commences 1 July 2026  
-**Purpose:** To define (i) **Architectum infrastructure qualification**, (ii) **auditability qualification levels**, and (iii) **Neutrality Assurance Levels (NAL)** as the eligibility gates for treating arbitration outputs as eligible for binding recognition at H3/H4 horizons—without asserting command authority.  
+**Status:** Active  
+**Effect:** Transitional Effect  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** Transitional  
+**Purpose:** To define (i) **Architectum infrastructure qualification**, (ii) **auditability qualification levels**, and (iii) **Neutrality Assurance Levels (NAL)** as the eligibility gates for treating arbitration outputs as eligible for binding recognition at H3/H4 horizons—without asserting command authority.
 
 ---
 
@@ -316,12 +320,12 @@ legitimacy falls with it.
 
 | Version | Description | Timestamp (UTC)      | SHA-256 |
 | ------- | ----------- | -------------------- | ------- |
-| 1.0     | Original    | 2026-02-19T10:30:00Z | a5f13bf46104228b9276dfdb805d02dc33339e149e4ebd940538b83692491db9 |
-| 1.1     | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | ce99d939a2d3f42a046d870b6f377d3512c7d7157722c41fce21c524f06be924 |
+| 1.0 | Original | 2026-02-19T10:30:00Z | a5f13bf46104228b9276dfdb805d02dc33339e149e4ebd940538b83692491db9 |
+| 1.1 | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | ce99d939a2d3f42a046d870b6f377d3512c7d7157722c41fce21c524f06be924 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 2f6abd28b29832049252cd54f4e16a8ae9eb96a3eb7f46490ac0715d144eb36c |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 6f39057f6f20f88e2a91e527c93dab2a5d7c27916832f7ced438d84202232dce |
-| 1.4 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z |  57bef69f311dcc7efa460e02fa65d8dc0a3904824a7ef79f5ed1d0f1038656df  |
-
+| 1.4 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z | 57bef69f311dcc7efa460e02fa65d8dc0a3904824a7ef79f5ed1d0f1038656df |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5f0cbab4ae3fdb74373e8283a1df05f59dd2928a2d236808aed30ff860a6a30b  |
 ---
 
 ## 15.5 Binding Seal

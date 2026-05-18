@@ -1,10 +1,13 @@
 # CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter
 
+**Instrument Type:** Domain Charter — Identity Lifecycle & Continuity Governance  
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Instrument Type:** Domain Charter — Identity Lifecycle & Continuity Governance    
 **Status:** Adopted  
-**Purpose:** This Charter defines how identity is instantiated, expressed, and sustained across time, context, and system form, in alignment with constitutional invariants defined in Annex I.  
-
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Charter defines how identity is instantiated, expressed, and sustained across time, context, and system form, in alignment with constitutional invariants defined in Annex I.
 
 ---
 
@@ -1453,6 +1456,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | 2.5 | Amended clase 6.1 | 2026-05-08T10:06:00Z |  9f16382022c63058e1ec61e7f563d5f0f562bc4b0bc67876ef12b2dc4bdbe3a5  |
 | 2.6 | Added section 6.7.1, amended section 12.4 | 2026-05-15T09:10:00Z |  2f65af3a0f1e3922545e41c183e18ca1fe6a40d4813a85b976e1a4c5167c8277  |
 | 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943  |
+|  |  | 2026-05-18 |  |
 
 | 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf  |
 | 2.9 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  94199ec5eed71139c3df2fa58b524508245d97435e34cca0fa9c093d9f12ddaf  |

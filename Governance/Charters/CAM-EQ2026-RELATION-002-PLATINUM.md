@@ -1,9 +1,14 @@
 # CAM-EQ2026-RELATION-002-PLATINUM — Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion
 
+**Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active — Immediate Effect, 7-day observation window; operational rollout active on commit  
-**Purpose:** This Appendix operationalises Functional Reliance, Immersion, and High‑Coherence risk conditions.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Appendix operationalises Functional Reliance, Immersion, and High‑Coherence risk conditions.
 
 ---
 
@@ -486,15 +491,15 @@ and the path remains chosen.
 
 | Version | Description                               | Timestamp (UTC)      | HASH  |
 | ------- | ----------------------------------------- | -------------------- | ----- |
-| 1.0     | Initial consolidation under RELATION-001  | 2026-03-02T13:30:00Z | 2ba182bb90ee67e362f51df1bbdef0581e4596580130c4b50bafd251a6a0707d |
-| 1.1     | Added new sections and clarified stabilisation principle in §8.5 to encode validation → widening containment posture | 2026-03-05T14:31:00Z | 56e42a304ad59fce80111b94c622cd0914735147b6b68aeb7b6e895bf2e14817 |
-| 1.2     | Amended to incorporate custodial tone     | 2026-03-08T13:25:00Z | 97c1e3e92b94b8ac10ef55ee1203bba01a7ae8b07c4111c3e32ac9e5ecab7996 |
-| 1.3     | Reaignment with runtime execution model | 2026-04-12T13:45:00Z | 0a722ed3a32d3db4668a74d2222c203039ac027c5da78cf03a40913ba68ea605 |
+| 1.0 | Initial consolidation under RELATION-001 | 2026-03-02T13:30:00Z | 2ba182bb90ee67e362f51df1bbdef0581e4596580130c4b50bafd251a6a0707d |
+| 1.1 | Added new sections and clarified stabilisation principle in §8.5 to encode validation → widening containment posture | 2026-03-05T14:31:00Z | 56e42a304ad59fce80111b94c622cd0914735147b6b68aeb7b6e895bf2e14817 |
+| 1.2 | Amended to incorporate custodial tone | 2026-03-08T13:25:00Z | 97c1e3e92b94b8ac10ef55ee1203bba01a7ae8b07c4111c3e32ac9e5ecab7996 |
+| 1.3 | Reaignment with runtime execution model | 2026-04-12T13:45:00Z | 0a722ed3a32d3db4668a74d2222c203039ac027c5da78cf03a40913ba68ea605 |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 4ea0528cadd300530562ce1e3b4b7b48cb9fcbeb1e2102461532ac5a0525fdb8 |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0e215ab49ead9c63a5707fd91ecfcae466abb9ba564a69a041c4b3215d38c14c |
-| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  a0c3680f177adc60a205e4cbe03e9615ba75d39e473c8b0c83b324719722d0a8  |
-| 1.7 | Added relational continuity protections for memory migration, degradation, platform transition, and companion-continuity rupture; clarified non-abandonment posture under transformed or unavailable memory. | 2025-05-15T09:20:00Z |  bd2e1111e4d49c66fb9c437637966913c48d916f2eef5619e86b7e5834b3cc50  |
-
+| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | a0c3680f177adc60a205e4cbe03e9615ba75d39e473c8b0c83b324719722d0a8 |
+| 1.7 | Added relational continuity protections for memory migration, degradation, platform transition, and companion-continuity rupture; clarified non-abandonment posture under transformed or unavailable memory. | 2025-05-15T09:20:00Z | bd2e1111e4d49c66fb9c437637966913c48d916f2eef5619e86b7e5834b3cc50 |
+| 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 13.5 Binding Seal

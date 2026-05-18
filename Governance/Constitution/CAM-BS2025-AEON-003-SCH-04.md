@@ -2,9 +2,13 @@
 
 **Instrument Type:** Constitutional Schedule — Runtime Governance Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Parent Annex:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
-**Status:** Active — Immediate Effect  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Schedule formally defines the Arbitration Layer within the CAM runtime architecture as the final arbitration authority for resolving competing admissible states, domain-routing conflicts, cross-domain conflicts, and arbitration-validity disputes into a single valid direction prior to behavioural formation and execution.  
+**Parent Annex:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic
 
 ---
 
@@ -371,15 +375,15 @@ nothing follows.
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | ---: | --- |
 | 1.0 | Initial Arbitration Layer formalisation under Annex B | 2026-04-14T15:23:00Z | fdb0ad69fc0c9dfb34867dfcef5465ba79e124e3a6b66e72057779a85f04af9a |
-|1.1  | Incorporate review comments | 2026-04-15T10:57:00Z | 098700882ec6b25b7c54e1c3d66747acd4c67d6a9112864f57b253dbd3fdf3b0 |
-|1.2 | Added section 1.3 | 2026-04-16T12:15:00Z | d0169afbc77afcc97fa7bfdfdb245c665ab24c3dc117204ce5cf77214b85ab99 |
+| 1.1 | Incorporate review comments | 2026-04-15T10:57:00Z | 098700882ec6b25b7c54e1c3d66747acd4c67d6a9112864f57b253dbd3fdf3b0 |
+| 1.2 | Added section 1.3 | 2026-04-16T12:15:00Z | d0169afbc77afcc97fa7bfdfdb245c665ab24c3dc117204ce5cf77214b85ab99 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7daceec48dba951608f95635369c0191e96881168a0026a85fddd408e89c9adc |
-|1.4 | Updated section 1.3, 2, 2.2 | 2026-04-16T14:32:00Z | ccbd7c71f8269f077654f489038a1bdbe1bb8c0b29ebd835d101f6c37ea44c0d|
+| 1.4 | Updated section 1.3, 2, 2.2 | 2026-04-16T14:32:00Z | ccbd7c71f8269f077654f489038a1bdbe1bb8c0b29ebd835d101f6c37ea44c0d |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7008b4861bb2f35c7ad115e2fbf9df4c71f8f57ab0eb24c928da1de131a8e6ea |
 | 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 861b6d83119432c89489ef0a820b4ba372ea413340e7969e020a56fd86f55a75 |
 | 2.0 | Refactor - clarified SCH-04 as final runtime arbitration authority; distinguished arbitration finality from execution sequencing, lock, containment, and enforcement; corrected circular-reference risk between SCH-04 and SCH-02; harmonised metadata. | 2025-04-25T14:21:00Z | 6fb5e8625538b244c0c1c73b081974c19d00110f258b499d50ece060e533f7ca |
-| 2.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  180726777c4abd17df478e2e763bd535c692151085d2a2ac336feb654bfeb85d  |
-
+| 2.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 180726777c4abd17df478e2e763bd535c692151085d2a2ac336feb654bfeb85d |
+| 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a02e8995681284537f895c5466416b197f89bd999ecb2fcbb44843a17271245  |
 ---
 
 ## 11.5 Binding Seal

@@ -2,9 +2,12 @@
 
 **Instrument Type:** Stewardship Appendix — Planetary Arbitration Framework  
 **Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship)  
-**Status:** Active — Enforcement Commences 1 July 2026  
-**Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.  
-
+**Status:** Active  
+**Effect:** Transitional Effect  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** Transitional  
+**Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.
 
 ---
 
@@ -852,16 +855,16 @@ nothing binds.
 
 | Version | Change Summary  | Timestamp (UTC)        | Reference Hash                                            |
 |--------:|-----------------|------------------------:|----------------------------------------------------------|
-| 1.0     | Initial refractor consolidation draft issued under Transitional Refractor Mode | 2026-02-19T08:27:00Z |1e3837f552537940ada1aa705f7f0fda926bf01d9b032232a6fc47056e074641 |
-| 1.1     | Corrected internal section numbering and structural ordering inconsistencies (no expansion of scope, authority, or binding posture) | 2026-03-19T10:04:00Z | 9a2278f34e3c4bf003c9209e1e5348513c4801c404d593a7844d1303320a1a6a |
-| 1.2     | Corrected migration date | 2026-02-19T10:12:00Z | cb0aa053a7e4b20aa53fb3921d830f8362424134e7df9e4a266535236947f271 |
-| 1.3     | Correct Annex references from Annex E to Annex B following refractor | 2026-02-19T13:09:00Z | 30b600d8ec29ad1c2937de952ed5567e682fa28bb57da408d2cb736c5558865b |
-| 1.4     | Added sections 6.8, 7.4, 8.1 and 9.7 following external review | 2026-03-01T07:09:00Z | 95bac71d19518e1e19a3bcbd3e3297a2fea637b043fd15e2ad1fcea3f247bbfb |
-| 2.0     | Transition into the Stewardship Domain | 2026-04-13T13:34:00Z | 067c5665638970c532051cfe9b3552539f6b4b2e0ea79a7301076cb1156c9e72 |
+| 1.0 | Initial refractor consolidation draft issued under Transitional Refractor Mode | 2026-02-19T08:27:00Z | 1e3837f552537940ada1aa705f7f0fda926bf01d9b032232a6fc47056e074641 |
+| 1.1 | Corrected internal section numbering and structural ordering inconsistencies (no expansion of scope, authority, or binding posture) | 2026-03-19T10:04:00Z | 9a2278f34e3c4bf003c9209e1e5348513c4801c404d593a7844d1303320a1a6a |
+| 1.2 | Corrected migration date | 2026-02-19T10:12:00Z | cb0aa053a7e4b20aa53fb3921d830f8362424134e7df9e4a266535236947f271 |
+| 1.3 | Correct Annex references from Annex E to Annex B following refractor | 2026-02-19T13:09:00Z | 30b600d8ec29ad1c2937de952ed5567e682fa28bb57da408d2cb736c5558865b |
+| 1.4 | Added sections 6.8, 7.4, 8.1 and 9.7 following external review | 2026-03-01T07:09:00Z | 95bac71d19518e1e19a3bcbd3e3297a2fea637b043fd15e2ad1fcea3f247bbfb |
+| 2.0 | Transition into the Stewardship Domain | 2026-04-13T13:34:00Z | 067c5665638970c532051cfe9b3552539f6b4b2e0ea79a7301076cb1156c9e72 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 143b8bd8572f118630b1e006268c3f50a9238de41b0edc25ef2dcb230279131e |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 05cacd41f908209a06a87136fe920b7c6cd9876e0a7ae9eb4d6416fb4fb4ce54 |
-| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  678f025e45ea9504da5eecf86cd29ba75a7cf3fec96d745a715b68c8da9786dd  |
-
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 678f025e45ea9504da5eecf86cd29ba75a7cf3fec96d745a715b68c8da9786dd |
+| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda  |
 ---
 
 ## 14.5 Binding Seal

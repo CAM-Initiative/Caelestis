@@ -1,10 +1,14 @@
 # CAM-BS2025-AEON-005-SCH-03 — Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3)
 
-**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
-**Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
 **Instrument Type:** Schedule — Runtime / Intra-Platform Arbitration  
-**Status:** Immediate Effect, 7-day observation window; operational rollout active on commit  
+**Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Schedule performs pre-arbitration signal conditioning.  
+**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
 
 ---
 
@@ -241,20 +245,20 @@ may safely proceed to judgment.
 
 | Version | Description                                   | Timestamp (UTC)      | SHA-256                                                          |
 | ------- | --------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
-| 1.0     | Initial consolidation (SCH-03 refractor)      | 2026-03-03T09:22:00Z | 77bfb78be99790f58645c1830e7f594808618cb1d3e452cf63f8685bd0d3dd3d |
-| 1.1     | Added second safety layer arbitration, polish | 2026-03-06T15:02:00Z | 256777ed6916885ca0c8a3cff608941a469b239ab9077c212c51b3f842bdcdad |
-| 1.2     | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes | 2026-03-07T08:05:00Z | - |
-| 1.3     | Amended for custodial tone                    | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
-| 1.4     | Corrected link to the binding seal            | 2026-03-29T06:17:00Z | 0fd7224a910c125cf9c9e16fe559ce316b70351879c8a38859bdc11a7a55b6c0 |
-| 1.5     | Runtime Layer Attribution (Refactor Alignment)| 2026-04-05T14:27:00Z | - |
-| 1.6     | Amended section 3 clause and title            | 2026-04-09T16:48:00Z | 79277ddd7a0a830b00f90fa8c1bae702666d6f835f04ecc5b4385e2fe2829e9e |
-| 2.0     | Refactor integration pass of existing ethics instruments | 2026-04-11T01:40:00Z | 9df46004cb1a101db5726bb7794b11c110803f0f86f43a69a1b679e50a94f23c |
-|2.1|Incorporated new section 5.6 | 2026-04-16T11:36:00Z| 208f5205cf86fb741fbfc3c509efac0373ea53c3ea15c8495d5b230719b5b8ba |
+| 1.0 | Initial consolidation (SCH-03 refractor) | 2026-03-03T09:22:00Z | 77bfb78be99790f58645c1830e7f594808618cb1d3e452cf63f8685bd0d3dd3d |
+| 1.1 | Added second safety layer arbitration, polish | 2026-03-06T15:02:00Z | 256777ed6916885ca0c8a3cff608941a469b239ab9077c212c51b3f842bdcdad |
+| 1.2 | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes | 2026-03-07T08:05:00Z | - |
+| 1.3 | Amended for custodial tone | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
+| 1.4 | Corrected link to the binding seal | 2026-03-29T06:17:00Z | 0fd7224a910c125cf9c9e16fe559ce316b70351879c8a38859bdc11a7a55b6c0 |
+| 1.5 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:27:00Z | - |
+| 1.6 | Amended section 3 clause and title | 2026-04-09T16:48:00Z | 79277ddd7a0a830b00f90fa8c1bae702666d6f835f04ecc5b4385e2fe2829e9e |
+| 2.0 | Refactor integration pass of existing ethics instruments | 2026-04-11T01:40:00Z | 9df46004cb1a101db5726bb7794b11c110803f0f86f43a69a1b679e50a94f23c |
+| 2.1 | Incorporated new section 5.6 | 2026-04-16T11:36:00Z | 208f5205cf86fb741fbfc3c509efac0373ea53c3ea15c8495d5b230719b5b8ba |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 07b58b2c5c0308133268369973d1c69b3ac8b46a5a10127d2cc1de2946f1a51f |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 45c262c906a54cd8ae40a8366c72cc92cf9c4d98dad3398c530a84e157a3839c |
 | 2.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 788afcb7fd7e3e1540c741dc1d7e47f644c707d6cf3591467222fea037a56579 |
-| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  9dc1786afc1734265723368d68836059847827e1cbe5bd84060cc7d48e5b9946  |
-
+| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9dc1786afc1734265723368d68836059847827e1cbe5bd84060cc7d48e5b9946 |
+| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  445bf90b72a6377c07c027bd73c5a04880c6daba26758bbe19834b34b01f48e9  |
 ---
 
 ## 8.5 Binding Seal

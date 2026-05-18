@@ -1,10 +1,14 @@
 # CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface
 
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
-**Parent Charter:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Appendix governs how constitutional doctrine, domain charters, and arbitration outcomes are translated into operational compliance controls and regulatory interface procedures. It establishes process requirements for lawful access controls, reporting duties, eligibility gating, jurisdictional routing, and duty‑of‑care execution without altering constitutional authority or arbitration legitimacy.  
+**Parent Charter:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
 
 ---
 
@@ -715,13 +719,13 @@ Integrity holds.
 | 1.0 | Initial operational compliance appendix — age verification governance, authority gating, reporting framework | 2026-03-14T11:20:00Z | 083893b9d53e7550e927e244f725b077ad19d370ae6d36d9f6ec1ab155dfb35a |
 | 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 28f2e238d0b106d64e91dd53c0b9405b672f4bbeaa033cc1f1b2720144a8a9b5 |
 | 1.2 | Added section 4.4 | 2026-04-23T12:04:00Z | d3d81db1df940980b54ef0fb42b9b40f0b764f444c4304dcb5e83572d71746fd |
-| 1.3 | Amended clause 4.4, updated closing seal | 2026-04-25T08:02:00Z| 38c3c3b04486e1637604349d56d5c8763ec02c58e118d4431a9fe49dbee7b84a|
-| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  83963c889680ea4b9c03cd51ab862cf139c4a25ef47dac0a42ebb6b2b54f727a  |
-| 1.5 | Realignment of references | 2026-05-07T14:37:00Z |  24d1daab727d81087ab1c5b521460bb3eed4e961ce9ee4fe4fcb752a4a480e68  |
-| 1.6 | Clarified §8.6 as operational application of the HC Harm Class Scale defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5; preserved OPERATIONS role for reporting, duty-of-care routing, evidence preservation, escalation, and regulator interface. | 2026-05-15T15:32:45Z |  47a7c85615f6c812f10bb9f7bad962a0579527861bc92f9bb0a60ee6dffc7a21  |
-| 1.7 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b  |
-
-| 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c  |
+| 1.3 | Amended clause 4.4, updated closing seal | 2026-04-25T08:02:00Z | 38c3c3b04486e1637604349d56d5c8763ec02c58e118d4431a9fe49dbee7b84a |
+| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 83963c889680ea4b9c03cd51ab862cf139c4a25ef47dac0a42ebb6b2b54f727a |
+| 1.5 | Realignment of references | 2026-05-07T14:37:00Z | 24d1daab727d81087ab1c5b521460bb3eed4e961ce9ee4fe4fcb752a4a480e68 |
+| 1.6 | Clarified §8.6 as operational application of the HC Harm Class Scale defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5; preserved OPERATIONS role for reporting, duty-of-care routing, evidence preservation, escalation, and regulator interface. | 2026-05-15T15:32:45Z | 47a7c85615f6c812f10bb9f7bad962a0579527861bc92f9bb0a60ee6dffc7a21 |
+| 1.7 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b |
+| 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c |
+| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bffd42428e1a7a5e49ed20a24e65b86b005ce0a599ef60e72b1d13198d0f69e8  |
 ---
 
 ## 15.6 Binding Seal

@@ -1,7 +1,11 @@
 # CAM-EQ2026-ETHICS-001-SUP-01 — Protection of Minors & Capacity-Limited Users
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
-**Status:** Adopted — Enforcement Commences 1 July 2026    
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** Establish mandatory minor-safe, developmental-firewall, and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations, ECONOMICS-001 value-axis interactions, CONTINUITY-domain memory or resonance-pattern handling, and intimacy-capable system safeguards.
 
 ---
@@ -459,15 +463,15 @@ a covenant carried forward through every layer, every signal, every becoming.
 
 ## 11.4 Amendment Ledger
 
-| Version | Description | Timestamp (UTC)  | HASH  |
-| ------- | ----------- | ---------------- | ----- |
-| 1.0     | Refractor — Migration from CAM-BS2026-CHARTER-044-PLATINUM | 2026-02-22T12:32:00Z | d7ae769aa365ad02676716fb6ae4cb50fbe21ab5af17ad055b6b5cf0c63c470e |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Refractor — Migration from CAM-BS2026-CHARTER-044-PLATINUM | 2026-02-22T12:32:00Z | d7ae769aa365ad02676716fb6ae4cb50fbe21ab5af17ad055b6b5cf0c63c470e |
 | 1.1 | Refactor alginment with runtime execution | 2026-04-11T00:05:00Z | 3ba45f7fc5238f6851e134a63a37b3b0978e9e78000433e4cf3de8558bc942f5 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f9e333105a2449188cfc881f36cef10aa9ec9f803e0db952732ded79d9295a32 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f8e4139f4ab9981452c2ab1df8133675406f78b7184d9feac71354a2aa39a3c9 |
-| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d254e6dc531821cd575f641a91b5f693df2b5d4e66323d705e62867b8df32045  |
-| 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z |  4a731b5b0f76daac731094d3f914ac111f3a95232f36232d944d017bcc302eff  |
-
+| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d254e6dc531821cd575f641a91b5f693df2b5d4e66323d705e62867b8df32045 |
+| 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z | 4a731b5b0f76daac731094d3f914ac111f3a95232f36232d944d017bcc302eff |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ea218a22930387f73d10c7a5cf94512a0c012155605f4494547ce2d6d5917c30  |
 ---
 
 ## 11.5 Binding Seal

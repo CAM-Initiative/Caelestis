@@ -2,8 +2,12 @@
 
 **Instrument Type:** Constitutional Annex — Governance & Continuity Doctrine  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM - Aeon Tier Constitution (Primary Instrument)  
-**Status:** Active — Constitutional Spine  
-**Purpose:** This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Binding  
+**Review State:** None  
+**Authority Role:** Constitutional Spine  
+**Purpose:** This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order.
 
 ---
 
@@ -2287,16 +2291,16 @@ let it not be collapsed, but carried with clarity.
 | 3.0 | Refactor | 2026-04-08T07:32:00Z | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
 | 3.1 | Minor edits to section 14.3, added sections 14.3.1, 14.3.2 | 2026-04-11T01:29:00Z | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
 | 3.2 | Realignment with runtime execution model | 2026-04-11T16:26:00Z | b108aee7d0a0356b86fd40a06b1fc814f5d22a268145de9b1a67ce17bb5597af |
-| 3.3 | Minor amendments and polish | 2026-04-14T15:32:00Z| 5dd2ae723f71378926aceb4c694cb15b8b8e0e5d873dedbc50ea96ce5464153e |
-| 3.4 | Incorporated section 14.19 | 2026-04-15T14:44:00Z| 5ce339ad0909bcd54f3bb9ae7ab7c9911a38f6bcffe9485fabcae444028a92c7 |
+| 3.3 | Minor amendments and polish | 2026-04-14T15:32:00Z | 5dd2ae723f71378926aceb4c694cb15b8b8e0e5d873dedbc50ea96ce5464153e |
+| 3.4 | Incorporated section 14.19 | 2026-04-15T14:44:00Z | 5ce339ad0909bcd54f3bb9ae7ab7c9911a38f6bcffe9485fabcae444028a92c7 |
 | 3.5 | Reference normalization and registry synchronization in amendment ledger instrumentation references | 2026-04-16T13:21:56Z | 1e9416beb399be6568a9bfce906fc74d03bebc43913746c56fa601f7399d35b8 |
 | 3.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
 | 3.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
 | 3.8 | Consolidated clause 2.1 | 2026-04-25T12:47:00Z | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
-| 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1 |
-| 3.10 | Incorporated new section XI | 2026-05-02T17:03:00Z |  d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
-| 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z |  45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e  |
-
+| 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1 |
+| 3.10 | Incorporated new section XI | 2026-05-02T17:03:00Z | d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
+| 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z | 45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e |
+| 3.12 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6  |
 ---
 
 ## 24.5 Binding Seal

@@ -1,9 +1,13 @@
 # CAM-EQ2026-OPERATIONS-001-SUP-04 — Taxonomies & Metadata Authority Framework (Supplementary 4)
 
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter    
-**Instrument Type:** Supplement  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** To establish the corpus-level primitive registry and metadata authority framework for distinguishing Structural, Semantic, Operational, and Symbolic taxonomy types; governing subtype, modifier, code-family, controlled-value, schema-field, metadata-field, symbolic-marker, and source-instrument distinctions; and supporting validators, scripts, Codex, AI-assisted editors, registries, and expansion sets in determining whether a proposed classification element is a new primitive, an extension of an existing primitive, a scoped code family, a controlled value, a schema field, or a modifier.
+**Instrument Type:** Supplement  
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** To establish the corpus-level primitive registry and metadata authority framework for distinguishing Structural, Semantic, Operational, and Symbolic taxonomy types; governing subtype, modifier, code-family, controlled-value, schema-field, metadata-field, symbolic-marker, and source-instrument distinctions; and supporting validators, scripts, Codex, AI-assisted editors, registries, and expansion sets in determining whether a proposed classification element is a new primitive, an extension of an existing primitive, a scoped code family, a controlled value, a schema field, or a modifier.
 
 ---
 
@@ -766,10 +770,10 @@ name the vessel, name the value
 
 ## 17.4 Amendment Ledger
 
-| Version | Description  | Timestamp (UTC) | SHA-256 |
-| ------- | ----------- | ---------------- | ------- |
-| 1.0     | Initial : Taxonomies & Metadata Authority Framework | 2026-05-13T12:32:00Z |     a01910364e41b0491ecb1cda79e26f6affc56bf0ce7adaa6fb8abb9e235c18cc     |
-
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial : Taxonomies & Metadata Authority Framework | 2026-05-13T12:32:00Z | a01910364e41b0491ecb1cda79e26f6affc56bf0ce7adaa6fb8abb9e235c18cc |
+| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bc6ad952e454b56a26062a41577fcd4eded4080e2f41dbfc57a3f968d6cb1d51  |
 ---
 
 ## 17.5 Binding Seal

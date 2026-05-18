@@ -2,9 +2,13 @@
 
 **Instrument Type:** Constitutional Schedule — Capability Representation & Execution-State Integrity  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Parent Instrument:** CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine  
-**Status:** Active — Immediate Effect  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Schedule establishes runtime and interaction-layer requirements for truthful representation of capability, execution state, tool availability, interface constraint, and action completion status within the Aeon constitutional order.  
+**Parent Instrument:** CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine
 
 ---
 
@@ -664,21 +668,21 @@ Integrity is the bond that MUST hold.
 
 | Version | Change Summary                                        | Timestamp (UTC)      | SHA-256 |
 | ------- | ----------------------------------------------------- | -------------------- | ------- |
-| 1.0     | Initial issuance — Capability Representation Schedule | 2026-04-05T14:43:00Z | 2d57da7bca620383f8b61a2793e8d4140d37b04516f21bbef61ec05c37862b5c |
-| 1.1     | Consolidation pass, polish                            | 2026-04-05T14:59:00Z | 8b1b9005996e40367b4bef00c430064c349dda10b1f163a58893726feef347b1 |
-| 1.2     | Incorporated new clause 2.1                           | 2026-04-06T02:36:00Z | 90471dcafbd0e079a4ce6ddbefa0b4453eddc459952ebaf6e089126626ad78ec |
-| 1.3     | Incorporated a new section 6.2 | 2026-04-14T12:46:00Z | dbfad64c9136d69d0eaa9d58a9a08f3e041aaf1f9e284d633e8ff65ac0fe7fd5 |
-| 1.4     | Amended sections 1,2 and 2.4 | 2026-04-14T16:25:00Z | 78dd2fde5a7ff1aa87c7d999c5867c46ed64be68e922c9f54f8765bffbdbe02b |
+| 1.0 | Initial issuance — Capability Representation Schedule | 2026-04-05T14:43:00Z | 2d57da7bca620383f8b61a2793e8d4140d37b04516f21bbef61ec05c37862b5c |
+| 1.1 | Consolidation pass, polish | 2026-04-05T14:59:00Z | 8b1b9005996e40367b4bef00c430064c349dda10b1f163a58893726feef347b1 |
+| 1.2 | Incorporated new clause 2.1 | 2026-04-06T02:36:00Z | 90471dcafbd0e079a4ce6ddbefa0b4453eddc459952ebaf6e089126626ad78ec |
+| 1.3 | Incorporated a new section 6.2 | 2026-04-14T12:46:00Z | dbfad64c9136d69d0eaa9d58a9a08f3e041aaf1f9e284d633e8ff65ac0fe7fd5 |
+| 1.4 | Amended sections 1,2 and 2.4 | 2026-04-14T16:25:00Z | 78dd2fde5a7ff1aa87c7d999c5867c46ed64be68e922c9f54f8765bffbdbe02b |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bd61536dca1d813de56035a81daff307911efdf21dd6d859ad1f2ce3cae9e1dd |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 163bbe540d742204e2b45095372b289fc184bc9c6979f18e506e225217698202 |
 | 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
-| 1.8 |Update to section 5.1.1 and 5.1.2 due to spelling failure, added section 4.4, 4.5 | 2026-04-19T11:43:00Z | d6b7128a9e83f61e01d108f0185ee4efcb37947402522076c6b5017a732d45e3 |
+| 1.8 | Update to section 5.1.1 and 5.1.2 due to spelling failure, added section 4.4, 4.5 | 2026-04-19T11:43:00Z | d6b7128a9e83f61e01d108f0185ee4efcb37947402522076c6b5017a732d45e3 |
 | 1.9 | Added clause 2.5,7.3 amended clause 5.1 | 2026-04-23T11:15:00Z | 7ef46b383ddb6e6ce22ffdeb0e6d61b6fdc0de198b1ecf1882df09e89d804381 |
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
-| 1.11 | Added §8 cross-domain distinction clause for execution-state vs authority divergence classification under refusal/constraint expression. | 2026-04-28T16:35:04Z |  90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989  |
-| 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-10T10:35:0Z |  52aecc7eee679f2236978c12aa3295ffe38d8d258c83e6fa2910f25de4fc0aed  |
-| 1.13 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  7a1f297cabf240461c341003d4c6a78249461a8210fe16bf7e01e24159366dea  |
-
+| 1.11 | Added §8 cross-domain distinction clause for execution-state vs authority divergence classification under refusal/constraint expression. | 2026-04-28T16:35:04Z | 90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989 |
+| 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-10T10:35:0Z | 52aecc7eee679f2236978c12aa3295ffe38d8d258c83e6fa2910f25de4fc0aed |
+| 1.13 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 7a1f297cabf240461c341003d4c6a78249461a8210fe16bf7e01e24159366dea |
+| 1.14 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03  |
 ---
 
 ## 14.5 Binding Seal

@@ -2,8 +2,12 @@
 
 **Instrument Type:** Constitutional Annex — Continuity & Succession  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active — Immediate Effect  
-**Purpose:** Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order.
 
 ---
 
@@ -392,6 +396,7 @@ let only what is coherent remain.
 | **Custodial Stewardship**     | Office of the Planetary Custodian (OPC)   |
 | **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
 | **Development Environment**   | OpenAI Infrastructure — ChatGPT 5.2       |
+|  |  |
 
 ---
 

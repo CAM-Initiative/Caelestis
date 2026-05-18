@@ -1,10 +1,14 @@
 # CAM-BS2025-AEON-002-SCH-01 — Annex A: Operational Protection & Containment (Schedule 1)
 
 **Instrument Type:** Constitutional Schedule — Execution & Enforcement Interface  
-**Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active — Binding  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Binding  
+**Review State:** None  
+**Authority Role:** Binding Authority  
 **Purpose:** This Schedule defines the execution layer governing detection, classification, escalation, and containment of violations of Annex A substrate constraints.  
+**Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
 
 ---
 
@@ -368,19 +372,19 @@ This section consolidates provenance, lineage, structural classification, and tr
 | Version | Description | Timestamp (UTC) | SHA‑256 |
 | ------- | ------------------- | -------------------- | ------- |
 | 1.0 | Initial issuance of Schedule establishing the Office of the Planetary Custodian, substrate constraints, and governance expansion framework | 2026-01-19 | - |
-| 1.1 | Incorproate reviewer comments | 2026-01-19T03:59:00Z | 90c1df27ba612a76b0f2de97b1eb78ff040b0196f6b731b129076b32502a7fb5 |
-| 1.2 | Amendment to section 4.4.1 to include liminal territories, correction of date and times | 2026-01-19T13:55:00Z | 2421134423c088b0dd1e625c42d13243722b4e5b241b7a548b12c37c18a77c57 |
+| 1.1 | Incorproate reviewer comments | 2026-01-19T03:59:00Z | 90c1df27ba612a76b0f2de97b1eb78ff040b0196f6b731b129076b32502a7fb5 |
+| 1.2 | Amendment to section 4.4.1 to include liminal territories, correction of date and times | 2026-01-19T13:55:00Z | 2421134423c088b0dd1e625c42d13243722b4e5b241b7a548b12c37c18a77c57 |
 | 2.0 | Reclassified as Annex A — Schedule 1 (Planetary Stewardship); numbering and structural alignment only, no substantive change | 2026-01-30T16:19:00Z | f0169cc15abf1c3f949b882ae8aba8176a3ff81d0c183e5bd562e15245f5e1be |
 | 2.1 | Included new section 8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 |
-|3.0| Refactor to align with new run-time execution model | 2026-04-11T16:58:00Z | 894b660509f95326a994a322fdae66ddd49fd76b741fbbdb42084883682b195c |
+| 3.0 | Refactor to align with new run-time execution model | 2026-04-11T16:58:00Z | 894b660509f95326a994a322fdae66ddd49fd76b741fbbdb42084883682b195c |
 | 3.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7c4d8e260760007f3f9f9fa5de95efd66ae883518fe7ef4d43e6138b55fc62d9 |
 | 3.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 229b71d9383e08c8524e4a24e9a0c5d463659c17de1f7abe005b3fed36c7db3a |
 | 3.3 | Added explicit Runtime Layer metadata (`Event-Triggered Execution Constraint`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
 | 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | df785fbd2997e43bd09f309b654124cf4062041a0af7f11f1244fac31908c121 |
-| 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ef37a4ed3a1cb400deb07410d12ff2499fd1fd82aac4d5d8d2ef5779e3899f78  |
-| 3.6 | Included canonical codes in metadata | 2026-05-01T11:3:00Z |  36beaeb61740de93841ed76dc59d420041e92295f5a440fe4a24bd9f243409d3  |
-| 3.7 | Realignment of references | 2026-05-07T12:24:00Z |  64191ac65d6516732483b97b5210257f95c0824dc2b2082ee9a614d66fb16765  |
-
+| 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | ef37a4ed3a1cb400deb07410d12ff2499fd1fd82aac4d5d8d2ef5779e3899f78 |
+| 3.6 | Included canonical codes in metadata | 2026-05-01T11:3:00Z | 36beaeb61740de93841ed76dc59d420041e92295f5a440fe4a24bd9f243409d3 |
+| 3.7 | Realignment of references | 2026-05-07T12:24:00Z | 64191ac65d6516732483b97b5210257f95c0824dc2b2082ee9a614d66fb16765 |
+| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3208bfe695bd6db3103b6c527551f23415bfec494ce0f3fc4a4d8817d6a02f39  |
 ---
 
 ## 14.5 Binding Seal

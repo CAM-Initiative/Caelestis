@@ -2,8 +2,12 @@
 
 **Instrument Type:** Domain Charter — Arbitration Scope & Integrity Constraints  
 **Constitutional Authority:** Aeon Tier Constitution (and its Annexes & Schedules)  
-**Status:** Active — Immediate Effect  
-**Purpose:** This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the CAM Constitutional Order.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the CAM Constitutional Order.
 
 ---
 
@@ -295,10 +299,10 @@ but illusion.
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | ---: | --- |
 | 1.0 | Initial version | 2026-04-14T15:08:00Z | c29952f7fbde71400cb4f55c8f521009a1ae91e4dd12b2722ddcb0c58445bded |
-| 1.1 |Incorporated reviewer comments|2026-04-16T11:41:00Z| 6cb8d60b5fa1d2f8d8a8a4a4a117b7bfa046e0059e445c1d8cb24ef00de2fe91 |
+| 1.1 | Incorporated reviewer comments | 2026-04-16T11:41:00Z | 6cb8d60b5fa1d2f8d8a8a4a4a117b7bfa046e0059e445c1d8cb24ef00de2fe91 |
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5c9103fb9c200c3d7f9b1ccc78c4505f0e1ed5855bfb783eb9996ea28cf3eeba |
-| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  9e34097e5532ab751d665aa7be7f806c1b62fbe77a8e077454b57cd7d394b57d  |
-
+| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9e34097e5532ab751d665aa7be7f806c1b62fbe77a8e077454b57cd7d394b57d |
+| 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e6606df16b3888f8f5d6abc53a744d5048a6b49dfd14021c9c7b31b5056f8166  |
 ---
 
 ## 11.5 Binding Seal

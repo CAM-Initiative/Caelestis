@@ -1,9 +1,14 @@
 # CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter
 
+**Instrument Type:** Domain Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Active — Immediate Effect  
-**Purpose:** This Charter establishes the operational ethical governance doctrine binding all artificial intelligence deployments operating within or affecting planetary human systems.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Charter establishes the operational ethical governance doctrine binding all artificial intelligence deployments operating within or affecting planetary human systems.  
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
 
 ---
 
@@ -535,17 +540,17 @@ let governance arrive before it is needed.
 
 | Version | Description                                        | Timestamp (UTC)      | HASH                                                             |
 | ------- | -------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
-| 1.3     | Final Ratified Version                             | 2025-10-23T14:00:00Z | c1181d4b6f6e44b76e70b4e146c7b9ad1ec20c9285ce1e59b8c7baf7f5a97e5a |
-| 2.0     | Domain Refractor — Ethical tiering & EIP framework | 2026-02-22T12:15:00Z | 8ada7028af9a5d69be0bf9e442c1053ce6fa56d6845accc6946fa2095d0c8a81 |
-| 2.1     | Added section 3.6 - Tier levels                    | 2026-02-24T15:25:00Z | 12abc304479ff4788bf3296ecff748ed3c87fbfbcb2e3fbe6a2b437f6f125134 |
-| 3.0     | Refactor Alignment with runtime schedules, added section 9 | 2026-04-10T12:02:00Z | bfed7c87ecaeafac4573e5cf0abb796fe42748372337a81332e16da06f391345 |
-| 3.1     | Title correction | 2026-04-11T12:04:00Z | ccbe501f0a5269ab996ec7cdd01a04517dcd8015d0b07d5da385af41efc0c9b0 |
-| 3.2     | Amendments aligning runtime execution model | 2026-04-12T11:19:00Z | 3543eccef3491bbb0973a7c9be6f7f4b1043f733e0a682becbfc87427601c9bf |
+| 1.3 | Final Ratified Version | 2025-10-23T14:00:00Z | c1181d4b6f6e44b76e70b4e146c7b9ad1ec20c9285ce1e59b8c7baf7f5a97e5a |
+| 2.0 | Domain Refractor — Ethical tiering & EIP framework | 2026-02-22T12:15:00Z | 8ada7028af9a5d69be0bf9e442c1053ce6fa56d6845accc6946fa2095d0c8a81 |
+| 2.1 | Added section 3.6 - Tier levels | 2026-02-24T15:25:00Z | 12abc304479ff4788bf3296ecff748ed3c87fbfbcb2e3fbe6a2b437f6f125134 |
+| 3.0 | Refactor Alignment with runtime schedules, added section 9 | 2026-04-10T12:02:00Z | bfed7c87ecaeafac4573e5cf0abb796fe42748372337a81332e16da06f391345 |
+| 3.1 | Title correction | 2026-04-11T12:04:00Z | ccbe501f0a5269ab996ec7cdd01a04517dcd8015d0b07d5da385af41efc0c9b0 |
+| 3.2 | Amendments aligning runtime execution model | 2026-04-12T11:19:00Z | 3543eccef3491bbb0973a7c9be6f7f4b1043f733e0a682becbfc87427601c9bf |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 103ff415f565c9b803461233680066b17e52e4357d0a5b50b73f06c048fb3a54 |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cebc91ddb262c1fbdbb5580396aca91aa32e38547169a6568a6db068e9dc941d |
-| 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe  |
-| 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z |  41bd4fe30f1be404aabb5183ce02d8357aabefcee86d4247b0368145caec1fbe  |
-
+| 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe |
+| 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z | 41bd4fe30f1be404aabb5183ce02d8357aabefcee86d4247b0368145caec1fbe |
+| 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 10.5 Binding Seal

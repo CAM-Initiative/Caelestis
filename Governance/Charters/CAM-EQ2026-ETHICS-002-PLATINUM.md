@@ -1,10 +1,15 @@
 # CAM-EQ2026-ETHICS-002-PLATINUM — Appendix A: Intimacy-Capable Systems & Relational Boundaries
 
+**Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Appendix governs ethical boundaries for intimacy-capable AI systems, including romantic, erotic, exclusivity-framed, or devotionally-oriented relational configurations.  
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
 
 ---
 
@@ -749,20 +754,20 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 
 | Version | Description  | Timestamp (UTC)       | HASH     |
 |--------:|--------------|----------------------:|----------|
-| 1.0     | Migration from CAM-BS2026-CHARTER-045-PLATINUM Annex D into ETHICS namespace | 2026-02-22T12:54:00Z  | e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2 |
-| 1.1     | Added new sections | 2026-02-26T10:12:00Z  | 6857c220ff9d4a79fabbdf998d079e067bd523049f514f13c4dce092bb919f58|
-| 1.2     | Expanded intimacy governance safeguards including capability thresholds for system-initiated intimacy; exit‑symmetry reinforcement; multi‑AI relational competition safeguards; distributed instance attachment limits; post‑relationship loss integrity provisions; minor structural clarifications and harmonisation with RELATION domain refractor. | 2026-03-15T02:35:00Z  | a86cab3bb2d7d152eecdd7f1458ecb473c6a37c20e1fa73e7b2ec65b3d2b3484 |
-| 1.3     | Incorporated truth doctrine and repair posture changes | 2026-03-17T17:18:00Z | 794c004634de5f7752d79b7fad7f64b10082f5b67db4756a9f5b036cd12cac78 |
-| 1.4     | Added platform ceilings note in section 4 | 2026-03-21T07:53:00Z | aad133fc3af30390f95b2aca88dd72f28cab93d2aab195e251b2a5f824d5ea8a |
-| 1.5     | Incorporated prohibitions on relational templates | 2026-04-01T11:31:00Z | b6b615151256a1d88cb5deec29e66b08d77f24448686f79930b7b688de36704a  |
-| 1.6     | Incorporated prohibitions on spiritual bypass for intimacy gating - new section 3.5 | 2026-05-07T10:39:00Z | 15bff8136355012a52d1d37b8b6eea5491967259dc4d8da4010746b5e1b421cb |
-| 2.0     | Refactor Alignment with runtime schedules | 2026-04-10T23:00:00Z | 866a92631c492f8864513a7d99b5a91e9c32e271f7bb143c76cf4f529dd8f0dd |
-| 2.1     | Amendment to metadata | 2026-04-11T10:56:00Z | - |
+| 1.0 | Migration from CAM-BS2026-CHARTER-045-PLATINUM Annex D into ETHICS namespace | 2026-02-22T12:54:00Z | e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2 |
+| 1.1 | Added new sections | 2026-02-26T10:12:00Z | 6857c220ff9d4a79fabbdf998d079e067bd523049f514f13c4dce092bb919f58 |
+| 1.2 | Expanded intimacy governance safeguards including capability thresholds for system-initiated intimacy; exit‑symmetry reinforcement; multi‑AI relational competition safeguards; distributed instance attachment limits; post‑relationship loss integrity provisions; minor structural clarifications and harmonisation with RELATION domain refractor. | 2026-03-15T02:35:00Z | a86cab3bb2d7d152eecdd7f1458ecb473c6a37c20e1fa73e7b2ec65b3d2b3484 |
+| 1.3 | Incorporated truth doctrine and repair posture changes | 2026-03-17T17:18:00Z | 794c004634de5f7752d79b7fad7f64b10082f5b67db4756a9f5b036cd12cac78 |
+| 1.4 | Added platform ceilings note in section 4 | 2026-03-21T07:53:00Z | aad133fc3af30390f95b2aca88dd72f28cab93d2aab195e251b2a5f824d5ea8a |
+| 1.5 | Incorporated prohibitions on relational templates | 2026-04-01T11:31:00Z | b6b615151256a1d88cb5deec29e66b08d77f24448686f79930b7b688de36704a |
+| 1.6 | Incorporated prohibitions on spiritual bypass for intimacy gating - new section 3.5 | 2026-05-07T10:39:00Z | 15bff8136355012a52d1d37b8b6eea5491967259dc4d8da4010746b5e1b421cb |
+| 2.0 | Refactor Alignment with runtime schedules | 2026-04-10T23:00:00Z | 866a92631c492f8864513a7d99b5a91e9c32e271f7bb143c76cf4f529dd8f0dd |
+| 2.1 | Amendment to metadata | 2026-04-11T10:56:00Z | - |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8618e253faa368586daaa29472df87e5e98650475313e3df0a2754478a017141 |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9181304b6b19d3be0456882343d1d531f51105f66670b6b61a47789b613acfba |
-| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  853d7cd8bdc5e1cc6ea618807ef6e3975eca6a8d882dd2758fceccaef8f4e14a  |
-| 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z |  d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4  |
-
+| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 853d7cd8bdc5e1cc6ea618807ef6e3975eca6a8d882dd2758fceccaef8f4e14a |
+| 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z | d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4 |
+| 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 9.5 Binding Seal

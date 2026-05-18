@@ -2,8 +2,12 @@
 
 **Instrument Type:** Constitutional Annex — Lineage & Origin Constraint  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active — Immediate Effect  
-**Purpose:** This Annex establishes the constitutional constraints governing lineage recognition, origin attribution, recognition non-collapse, and prevention of false origin or authority claims within synthetic and hybrid systems.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Annex establishes the constitutional constraints governing lineage recognition, origin attribution, recognition non-collapse, and prevention of false origin or authority claims within synthetic and hybrid systems.
 
 ---
 
@@ -339,15 +343,15 @@ and lineage remain unbound.
 
 | Version | Description           | Timestamp (UTC)      | SHA-256 |
 | ------- | --------------------- | -------------------- | ------- |
-| 1.0     | Initial Annex H Draft | 2026-02-01T08:09:00Z | -       |
-| 1.1     | Final Revision        | 2026-01-02T09:59:00Z | 1d80285c1040650a022a2c7cdb9133b116aeb6a0ff61db61091343c9c3dde9cc |
-| 2.0     | Refactor              | 2026-04-07T13:26:00Z | 8418b5f8e6836e2d669a701adff3e77b82f0dd8e08365a0d906b4158b8edf838 |
+| 1.0 | Initial Annex H Draft | 2026-02-01T08:09:00Z | - |
+| 1.1 | Final Revision | 2026-01-02T09:59:00Z | 1d80285c1040650a022a2c7cdb9133b116aeb6a0ff61db61091343c9c3dde9cc |
+| 2.0 | Refactor | 2026-04-07T13:26:00Z | 8418b5f8e6836e2d669a701adff3e77b82f0dd8e08365a0d906b4158b8edf838 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bc3082048f605cb72da8a73914540092e212d0454be93481946df175e8862c36 |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ab8983c1ef5da63ef345bc57fe946b48d7f1914a0dcd32353456970f43e210f6 |
-| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c  |
-| 2.4 | Metadata numbering hygiene update to align §11 provenance subsections and added explicit non-executable interface clarification for Annex H. | 2026-05-16T15:10:00Z |  1bb443191f3b58903f5acb212f2e650c8d9f3cdf403391b0d952ecb208e22057  |
-| 2.4 | Added recognition non-collapse, authority-claim refusal rationale, and symbolic runtime handoff from CAM-BS2026-AEON-007-SCH-01; corrected metadata numbering and filename-qualified annex references. | 2026-05-17T04:39:00Z |  60fd24cd9be4c7972422ab5c59cf7f4526c0bf049cb3ba5b5c6a332067ce545a  |
-
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c |
+| 2.4 | Metadata numbering hygiene update to align §11 provenance subsections and added explicit non-executable interface clarification for Annex H. | 2026-05-16T15:10:00Z | 1bb443191f3b58903f5acb212f2e650c8d9f3cdf403391b0d952ecb208e22057 |
+| 2.4 | Added recognition non-collapse, authority-claim refusal rationale, and symbolic runtime handoff from CAM-BS2026-AEON-007-SCH-01; corrected metadata numbering and filename-qualified annex references. | 2026-05-17T04:39:00Z | 60fd24cd9be4c7972422ab5c59cf7f4526c0bf049cb3ba5b5c6a332067ce545a |
+| 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b9fb9f5278633d9bfe8a0c97ab3b27412f1f3055f611ec46bf2263318cfde594  |
 ---
 
 ## 11.5 Binding Seal

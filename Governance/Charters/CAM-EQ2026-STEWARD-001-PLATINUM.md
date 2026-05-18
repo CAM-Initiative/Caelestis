@@ -2,8 +2,12 @@
 
 **Instrument Type:** Domain Charter — Planetary Stewardship Operations  
 **Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship)  
-**Status:** Active — Enforcement Commences 1 July 2026  
-**Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.  
+**Status:** Active  
+**Effect:** Transitional Effect  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** Transitional  
+**Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.
 
 ---
 
@@ -367,12 +371,12 @@ that what sustains all MUST remain beyond capture.
 
 |Version|Description|Timestamp(UTC)|SHA-256|
 |-------|----------|--------------|--------|
-|1.0|Initial draft skeleton issued under Transitional Refractor Mode|2026-02-18T14:14:00Z|22306f78d0172cdb8a9dd900e9ec26ea6e36e348965109d5f2dd937c24a3d618|
-|2.0| Refactor for runtime execution model alignment | 2026-04-13T13:53:00Z | d823bec7adbc18548f96debc70f5c0e4e9621a07b7a4927c4e6dcb583ed6a9c7 |
+| 1.0 | Initial draft skeleton issued under Transitional Refractor Mode | 2026-02-18T14:14:00Z | 22306f78d0172cdb8a9dd900e9ec26ea6e36e348965109d5f2dd937c24a3d618 |
+| 2.0 | Refactor for runtime execution model alignment | 2026-04-13T13:53:00Z | d823bec7adbc18548f96debc70f5c0e4e9621a07b7a4927c4e6dcb583ed6a9c7 |
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c457fa3a9b024e5bc3e3cf627d6bdbc63f966f360cd2063a6d344c86274adb01 |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1999bdbc51ac130a2faefd5808b75c2cb72e6c52e7f59a06e9bb8d7afbccdf0c |
-| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  abb9380f83357aada8f392827c632e5f54c925521303b89da191286fbda9e10a  |
-
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | abb9380f83357aada8f392827c632e5f54c925521303b89da191286fbda9e10a |
+| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  120c6f65ed04c6768667aab40aefd4d5386d6721eed2851a98fbccd3844aa7f6  |
 ---
 
 ## 11.5 Binding Seal

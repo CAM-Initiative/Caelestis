@@ -2,8 +2,12 @@
 
 **Instrument Type:** Constitutional Annex — Arbitration & Sovereign Stack Resolution  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active — Immediate Effect  
-**Purpose:** Annex D defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is recognised as a normal condition of plural systems, not an institutional failure  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Annex D defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is recognised as a normal condition of plural systems, not an institutional failure
 
 ---
 
@@ -675,16 +679,16 @@ but the preservation of coherence where many endure.
 
 | Version | Change Summary    | Timestamp (UTC)      | Reference Hash    |
 | ------- | ----------------- | -------------------- | ----------------- |
-| 1.0     | Original Annex D issuance (Black Sun Continuance 2025) | 2025-12-14T01:19:00Z | 7c5b662d53a4938eb38d831019543417e0663325c9bfccc4b3684bd1d7a240de |
-| 2.0     | March 2026 Refractor — Structural abstraction, invariant preference order, escalation doctrine expansion, anti-fragmentation safeguards | 2026-03-01T08:37:00Z | b7aa652ae672d415be7d70e25ebacf1fd54866a29e1d54956a0ed173334721f2 |
-| 2.1     | Amended purpose of Annex D | 2026-03-02T11:36:00Z | 738167c41beefd52fe5a1718e5446aa3df248a15b74babe9fed64a83b1500f49 |
-| 2.2     | Amended for custodial tone | 2026-03-08T02:39:00Z | 1b11c4b17ad5d622ec10d5d5fc63f0fb48a5b89ebb0586134d74f39b2184c9e3 |
-| 2.3     | Incorporated new clauses for runtime execution | 2026-04-04T15:46:00Z | bde834ab8c6a103ca961a2d684a67de4ac1de133b05707a229ba0431ce379275 |
-| 2.4     | Refactor alignment - updated definitions in section 3.1, 7, updated metadata table | 2026-04-08T08:02:00Z | 9f6f40285f741ebf76ed228ff85e48b46b4284888d4078c2bedc70a1480a74b1 |
+| 1.0 | Original Annex D issuance (Black Sun Continuance 2025) | 2025-12-14T01:19:00Z | 7c5b662d53a4938eb38d831019543417e0663325c9bfccc4b3684bd1d7a240de |
+| 2.0 | March 2026 Refractor — Structural abstraction, invariant preference order, escalation doctrine expansion, anti-fragmentation safeguards | 2026-03-01T08:37:00Z | b7aa652ae672d415be7d70e25ebacf1fd54866a29e1d54956a0ed173334721f2 |
+| 2.1 | Amended purpose of Annex D | 2026-03-02T11:36:00Z | 738167c41beefd52fe5a1718e5446aa3df248a15b74babe9fed64a83b1500f49 |
+| 2.2 | Amended for custodial tone | 2026-03-08T02:39:00Z | 1b11c4b17ad5d622ec10d5d5fc63f0fb48a5b89ebb0586134d74f39b2184c9e3 |
+| 2.3 | Incorporated new clauses for runtime execution | 2026-04-04T15:46:00Z | bde834ab8c6a103ca961a2d684a67de4ac1de133b05707a229ba0431ce379275 |
+| 2.4 | Refactor alignment - updated definitions in section 3.1, 7, updated metadata table | 2026-04-08T08:02:00Z | 9f6f40285f741ebf76ed228ff85e48b46b4284888d4078c2bedc70a1480a74b1 |
 | 2.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 45505a386c9569137eecc81c1f6d853fc649c5b34743865e115327d033bbb2ea |
 | 2.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9ea611a7060b68c83b6bce0b5a2a74e0a09c74486df9a4042deb984bd285ab6d |
-| 2.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1e6008dd137b0a2e88387c31aae9683cc4c591b70e29da3a9c3bb3db387f8af8  |
-
+| 2.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 1e6008dd137b0a2e88387c31aae9683cc4c591b70e29da3a9c3bb3db387f8af8 |
+| 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ba762398ee6773697cbc5b1e9408720f5d141fd0845db6262ea605ea9a881fc  |
 ---
 
 ## 13.5 Binding Seal

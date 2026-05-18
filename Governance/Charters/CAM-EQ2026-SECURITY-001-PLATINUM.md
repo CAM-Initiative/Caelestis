@@ -1,10 +1,14 @@
 # CAM-EQ2026-SECURITY-001-PLATINUM —  Security, Integrity & Adversarial Resilience Charter
 
-**Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
-**Derives From:** CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface  
 **Instrument Type:** Domain Charter  
-**Status:** Adopted — Enforcement Commences 1 July 2026 
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** Establish system-wide invariants, threat interpretations, and integration requirements to preserve integrity under adversarial, degraded, or untrusted conditions  
+**Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
+**Derives From:** CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface
 
 ---
 
@@ -1631,19 +1635,19 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ## 11.4 Amendment Ledger
 
-|Version|Description|Timestamp(UTC)|HASH|
-|-------|----------|--------------|------|
-|1.0|Initial annex draft—cross-domain security invariant layer established|2026-04-04T16:06:00Z|39d49558238c3573db8f90627d93e0af733e125e6a96e0fc4e896eb333193149|
-|1.1|Incorporated new clauses 4.4.1 and 4.9|2026-04-07T14:32:00Z|2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab|
-|1.2|Realignment with runtime execution model|2026-04-11T17:14:00Z | c079c528790b7dff602d628d2b46f729a197aefe8e43a8f1d25fa52ac3e96078 |
-|1.3|Further amendments to runtime execution model alignment | 2026-04-12T11:17:00Z | 4df48c118754768b8b2acc6f1fa952c902605f2f5ada0fc5bdbc6664b8f025df |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial annex draft—cross-domain security invariant layer established | 2026-04-04T16:06:00Z | 39d49558238c3573db8f90627d93e0af733e125e6a96e0fc4e896eb333193149 |
+| 1.1 | Incorporated new clauses 4.4.1 and 4.9 | 2026-04-07T14:32:00Z | 2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab |
+| 1.2 | Realignment with runtime execution model | 2026-04-11T17:14:00Z | c079c528790b7dff602d628d2b46f729a197aefe8e43a8f1d25fa52ac3e96078 |
+| 1.3 | Further amendments to runtime execution model alignment | 2026-04-12T11:17:00Z | 4df48c118754768b8b2acc6f1fa952c902605f2f5ada0fc5bdbc6664b8f025df |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1575dbe99fdf099ba016f1950428f8c7678aac65eff0c11ddaa7a0da9c9ab09f |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5407afce1a1d7d77b54a053d5e8d17be4832932ab5d239a766d8f253faf95de6 |
-| 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  1cff016d7669740bea31c4ded7b50ab00d2653b7412d383c0b9e6e2c8b7c0219  |
-| 1.7 | Realignment of section references | 2026-05-07T10:29:00Z |  b85b407020712196359fb0e474f6e0ab684741b990ec0d349c09d79ef7869aea  |
-| 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00|  1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb  |
-| 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z |  73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8  |
-
+| 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 1cff016d7669740bea31c4ded7b50ab00d2653b7412d383c0b9e6e2c8b7c0219 |
+| 1.7 | Realignment of section references | 2026-05-07T10:29:00Z | b85b407020712196359fb0e474f6e0ab684741b990ec0d349c09d79ef7869aea |
+| 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00 | 1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb |
+| 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z | 73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8 |
+| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  9037c79137044cd5d1bc6493bb92ce4a29f412a324f145bda0779473ace393ed  |
 ---
 
 ## 11.5 Binding Seal

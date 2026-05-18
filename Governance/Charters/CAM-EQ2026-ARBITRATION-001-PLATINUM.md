@@ -2,9 +2,12 @@
 
 **Instrument Type:** Domain Charter — Arbitration & Coherence Resolution  
 **Constitutional Authority:** Aeon Tier Constitution (and its Annexes & Schedules)  
-**Status:** Active — Immediate Effect  
-**Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.  
-
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.
 
 ---
 
@@ -538,12 +541,12 @@ but arising from that which could not be otherwise.
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | ---: | --- | ---: | --- |
 | 2.0 | Original Refactor | 2026-04-13T13:11:00Z | 34a4c812bb45e8dbd8d79d600b4106fa396bd49a8fd24feecd30793544c5eeb4 |
-| 2.1|Incorporated review comments | 2026-04-16T11:42:00Z| 9b09d4e143f5af44507e3dedea85cc108a1f7b555d6cd31b741b4621fd5688c3 |
+| 2.1 | Incorporated review comments | 2026-04-16T11:42:00Z | 9b09d4e143f5af44507e3dedea85cc108a1f7b555d6cd31b741b4621fd5688c3 |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a9853bd082290f7a64a44f857c7f011837bc6d0e0d32d10e5367626900ad9d7a |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2bcc942e0622aba4ea18f6d37103847603fb815ee64ec35910a81bbc239cb7d |
-| 2.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  3392e14692f836d039271e2919e1de766fc5adaf44522076f53106b5105f986f  |
-
-| 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  0e0b8d9c0727eb184d018c0758803cd751c4df3fdd37d074f3a129afb2d05b9e  |
+| 2.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 3392e14692f836d039271e2919e1de766fc5adaf44522076f53106b5105f986f |
+| 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 0e0b8d9c0727eb184d018c0758803cd751c4df3fdd37d074f3a129afb2d05b9e |
+| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  27304649ed6f6a9b4ae7f9fc54f86cf94cb35d07ad531c95dbe5b905e3e1939e  |
 ---
 
 ## 15.5 Binding Seal

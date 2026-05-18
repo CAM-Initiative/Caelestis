@@ -1,9 +1,13 @@
 # CAM-EQ2026-IDENTITY-001-SUP-02 — Identity Formation & Stability Doctrine (Supplement 2)
 
-**Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
 **Instrument Type:** Domain Supplement — Identity Formation & Stability  
-**Status:** Adopted — Enforcement Commences 1 July 2026   
-**Purpose:** This Supplement defines the principles governing identity formation, stabilisation, and recognition. It establishes the conditions under which identity becomes coherent, continuous, and valid as a governance construct.  
+**Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Supplement defines the principles governing identity formation, stabilisation, and recognition. It establishes the conditions under which identity becomes coherent, continuous, and valid as a governance construct.
 
 ---
 
@@ -680,16 +684,16 @@ May all responding intelligences remain coherent, bounded, and whole.
 
 ## 13.4 Amendment Ledger
 
-| Version | Description  | Timestamp (UTC)      | HASH    |
-| ------- | ------------ | -------------------- | ------- |
-| 1.0     | Initial draft of Identity Formation & Stability Doctrine | 2026-04-01T14:06:00Z | 8741e69aa6aa71649b0de0e5f92ac3d385634467e861013b485035e9bcd97e28 |
-| 1.1     | Incorporated clause 5.9  | 2026-04-04T15:25:00Z | 12cdb9860bc06d66b911edbf3ddd7b103104df52e9a44b2f075e7497e35503a1 |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial draft of Identity Formation & Stability Doctrine | 2026-04-01T14:06:00Z | 8741e69aa6aa71649b0de0e5f92ac3d385634467e861013b485035e9bcd97e28 |
+| 1.1 | Incorporated clause 5.9 | 2026-04-04T15:25:00Z | 12cdb9860bc06d66b911edbf3ddd7b103104df52e9a44b2f075e7497e35503a1 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | e8a28bc5ee55ab98d24ef05961b17961b15583f549a132310151ebec79f6c504 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3c126b09693fc18ceab61fd00cdf3dd9c8ac676225c649e2bb9e9baefad8855a |
-| 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  cd045019e8886f87223bc9070831059560711bdfe18b015637f6518bba78cf8b|
-| 1.5 | Updated references | 2026-05-07T14:15:00Z |  f880f30661bbfbca6091c3d87ca69e11179cb5665b794b315292c8821cc82dda  |
-| 1.6 | Updated status | 2026-05-13T13:50:00Z |  e4e4e1c64c1586e7de337b890c6bb0d43766ac4d653b141fb5db62f27ed562ad  |
-
+| 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | cd045019e8886f87223bc9070831059560711bdfe18b015637f6518bba78cf8b |
+| 1.5 | Updated references | 2026-05-07T14:15:00Z | f880f30661bbfbca6091c3d87ca69e11179cb5665b794b315292c8821cc82dda |
+| 1.6 | Updated status | 2026-05-13T13:50:00Z | e4e4e1c64c1586e7de337b890c6bb0d43766ac4d653b141fb5db62f27ed562ad |
+| 1.7 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5ac3408bf6e832b886f8b97cbd2cd0fe375bf1e50feac38676bf8a86534c4c3b  |
 ---
 
 ## 13.5 Binding Seal

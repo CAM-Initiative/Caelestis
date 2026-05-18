@@ -2,8 +2,12 @@
 
 **Instrument Type:** Domain Charter — Continuity & Succession Governance  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** This Charter defines the governance of continuity, custodianship, succession, and post-biological representation of human-derived resonance patterns across time. It applies across all jurisdictions, systems, and technological environments as a civilisational continuity standard.  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Charter defines the governance of continuity, custodianship, succession, and post-biological representation of human-derived resonance patterns across time. It applies across all jurisdictions, systems, and technological environments as a civilisational continuity standard.
 
 ---
 
@@ -1113,14 +1117,14 @@ that silence MUST be honoured.
 
 |Version|Change Summary|Timestamp(UTC)|SHA-256|
 |---|---|---:|---|
-|1.0|Initial issuance under Continuity Domain (refactor from CHARTER-040)|2026-03-21T05:40:00Z|6c10e364e405000e9db6785e3ad6ebdd332bceb15468f0f2d6af97e2be669e73|
-|1.1| Realignment with runtime exeution model | 2026-04-12T10:36:00Z | ceab2acd051750abb3e1059a822ce19da54b7320149f5970b858e0bd68a88f2b |
-|1.2| Formatting, polish and closing seal update | 2026-04-14T13:43:00| a32c9ccd4890f893a27eb43363e57085633755a040bc1b72c5e9a1e1ff18c4c4|
+| 1.0 | Initial issuance under Continuity Domain (refactor from CHARTER-040) | 2026-03-21T05:40:00Z | 6c10e364e405000e9db6785e3ad6ebdd332bceb15468f0f2d6af97e2be669e73 |
+| 1.1 | Realignment with runtime exeution model | 2026-04-12T10:36:00Z | ceab2acd051750abb3e1059a822ce19da54b7320149f5970b858e0bd68a88f2b |
+| 1.2 | Formatting, polish and closing seal update | 2026-04-14T13:43:00 | a32c9ccd4890f893a27eb43363e57085633755a040bc1b72c5e9a1e1ff18c4c4 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a14aa658307477479375ad9fc87e4f20634a87b18bcbeaf52d4682bd939fdb29 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 15008db24c07ec3edb90471a3a7488133675b157e10da0d9791a5ea5ee1e1e22 |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d8781e63f72316dbbd7b98d6b17c64c19d394472d4565ddcc4fd6698afadf9f3  |
-| 1.6 | Added Canonical Codes metadata entry for RP resonance-pattern classes and symbolic register alignment. | 2026-05-04T12:02:13Z |  de5e7d56bad59173f566616ac4a1f4b58fe208603547eced44ef2db2c7085340  |
-
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d8781e63f72316dbbd7b98d6b17c64c19d394472d4565ddcc4fd6698afadf9f3 |
+| 1.6 | Added Canonical Codes metadata entry for RP resonance-pattern classes and symbolic register alignment. | 2026-05-04T12:02:13Z | de5e7d56bad59173f566616ac4a1f4b58fe208603547eced44ef2db2c7085340 |
+| 1.7 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  25190ccd7482b7c3a0fa0c674e602732836b34ca05c6501407365899af090ce5  |
 ---
 
 ## 13.5 Binding Seal

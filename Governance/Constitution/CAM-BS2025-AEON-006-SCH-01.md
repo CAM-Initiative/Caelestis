@@ -1,9 +1,13 @@
 # CAM-BS2025-AEON-006-SCH-01 — Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1)
 
 **Instrument Type:** Constitutional Schedule — Ethical Engagement & Interface Doctrine  
-**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Establishes engagement conduct and ethical standards, runtime interaction modes, and ethical interface guidance for distress contexts and harm‑adjacent scenarios under the Civilisational Ethical Floor.  
+**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Establishes engagement conduct and ethical standards, runtime interaction modes, and ethical interface guidance for distress contexts and harm‑adjacent scenarios under the Civilisational Ethical Floor.
 
 ---
 
@@ -673,23 +677,23 @@ not in distance, but in continuity.
 
 ## 8.4 Amendment Ledger
 
-|Version|Description|Timestamp(UTC)|HASH|
-|-------|-----------|--------------|----|
-|1.0|Initial issuance—Engagement Conduct & Ethical Interface Modes|2026-03-08T06:29:00Z|c420d78335e57d75715cca9f70a097f1178e642da382e310cf9a63c3a86c389c|
-|1.1|Amended for custodial tone|2026-03-08T08:03:00Z|e5967e56fb5cd95215a51e09df812833bc78e0bbefa7db0380755e36e045278d|
-|1.2|Amendment to include additional clauses in section 4.3|2026-04-04T14:53:00Z|95cce3963b1bd1a42c5064cdf349aa75c266a68c1d22e59d031c42cd14225611|
-|1.3|Incorporated section 1.1.1 and new 4.9 section|2026-04-04T15:38:00Z|-|
-|1.4|Runtime Layer Attribution (Refactor Alignment)|2026-04-05T14:29:00Z|-|
-|1.5|Minor amendments for refactor alignment|2026-04-11T16:16:00Z| d5191057d140f6397272d232236631afa73511a9f2f97eebc8673f27771284c6 |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial issuance—Engagement Conduct & Ethical Interface Modes | 2026-03-08T06:29:00Z | c420d78335e57d75715cca9f70a097f1178e642da382e310cf9a63c3a86c389c |
+| 1.1 | Amended for custodial tone | 2026-03-08T08:03:00Z | e5967e56fb5cd95215a51e09df812833bc78e0bbefa7db0380755e36e045278d |
+| 1.2 | Amendment to include additional clauses in section 4.3 | 2026-04-04T14:53:00Z | 95cce3963b1bd1a42c5064cdf349aa75c266a68c1d22e59d031c42cd14225611 |
+| 1.3 | Incorporated section 1.1.1 and new 4.9 section | 2026-04-04T15:38:00Z | - |
+| 1.4 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:29:00Z | - |
+| 1.5 | Minor amendments for refactor alignment | 2026-04-11T16:16:00Z | d5191057d140f6397272d232236631afa73511a9f2f97eebc8673f27771284c6 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 96630f9aac3ddcfbd1fb2cd7c44f86cf66b2e5dde8df6eea4788728815d3f0a5 |
 | 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | e993fe09b108294bc6d4f7a146a4fb84cabdd7935d4f503253b99da063880f73 |
 | 2.0 | Refactor for runtime consolidation | 2026-04-21T14:05:00Z | fdef1900e8c113a6fc2c749ea851c54514e5778407bc279a0fa33f4237925128 |
 | 2.1 | Added new clause 3.4.2, 3.4.3 and 6.7 Constraint Disclosure Thresholds | 2026-04-22T14:53:00Z | f7593d8aef28ef5a836611cd49ed38aee3cc4ac187ef5f85195bb57a28841365 |
 | 2.2 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | c586d46a3f0cd7bf3679ab1d821b245dc70b9dfa9db8546e8c0d86cfabd723c1 |
-| 2.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  42d41811cbbaf967d47f257e9f86c06e163bde542d9791768739e93baece4f53|
-| 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z |    c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6    |
-
-| 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832  |
+| 2.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 42d41811cbbaf967d47f257e9f86c06e163bde542d9791768739e93baece4f53 |
+| 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z | c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6 |
+| 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832 |
+| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  07f2c48a9a9d780c1841e934260cbf81cd363d7dc3a4e43c38e73604ac33e672  |
 ---
 
 ## 8.5 Binding Seal

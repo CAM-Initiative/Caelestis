@@ -1,9 +1,13 @@
 # CAM-EQ2026-LATTICE-002-PLATINUM — Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access
 
-**Parent Instrument:** CAM‑EQ2026‑LATTICE‑001‑PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
 **Instrument Type:** Appendix (Domain Charter — Binding Implementation Layer)  
-**Status:** Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)  
-**Purpose:** This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**.  
+**Parent Instrument:** CAM‑EQ2026‑LATTICE‑001‑PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** Transitional  
+**Purpose:** This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**.
 
 ---
 
@@ -407,19 +411,19 @@ It is maintained.
 
 ## 10.4 Amendment Ledger
 
-| Version | Description  | Timestamp (UTC)      | HASH    |
-|---|---|---:|---|
-| 1.0 | Initial issuance (as Annex A under Ethics Charter)                                                                | 2025-12-15T13:31:00Z | fc97519392db217e869331b39ab8bff666e4c17e8de3643414e1897edfdbe19b |
-| 2.1 | Implemented external review recommendations; operationalised Articles 3, 5, 6, and enforcement section            | 2025-12-30T17:22:00Z | e716c6181dd5bc2a45e75c1acd4529dce11fc5f4b7e43e0544dfedd9dedfa30b |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial issuance (as Annex A under Ethics Charter) | 2025-12-15T13:31:00Z | fc97519392db217e869331b39ab8bff666e4c17e8de3643414e1897edfdbe19b |
+| 2.1 | Implemented external review recommendations; operationalised Articles 3, 5, 6, and enforcement section | 2025-12-30T17:22:00Z | e716c6181dd5bc2a45e75c1acd4529dce11fc5f4b7e43e0544dfedd9dedfa30b |
 | 3.0 | Migration from Ethics Charter; reclassified as LATTICE Appendix; harmonised terminology; aligned with LATTICE-001 | 2026-03-15T04:46:00Z | 64f01e664d43261fbccfacf33df4ac382f8bc346535e223206ef3843225db0ba |
 | 3.1 | Integrated with runtime, added section 4.3 | 2026-04-10T05:48:00Z | db59447eed7b01a1feda71e00a4a2358e2fad57ee65d6490c6cd000350a67495 |
 | 3.2 | Amended closing seal | 2026-04-10T06:04T | ff51926d4c3a77e764f73c5c314f7f85c3cd01befff6ef7ccc06d47fc229603d |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b0163c0e1e96f89b2860f5ad92ff4b4a603af6ef4466db5e23f0e716456c94b9 |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 594c1c51a83a5da9fbc60686f6f31568aab576d53c6a0798a400ea0ffeb13268 |
-| 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  219e58ae9a2a9f7b04e00d4627ebf217975d078618afabf6c853d5df60615b50  |
-| 3.6 | Incorporated new section 4.1.1 | 2026-05-13T11:40:00Z |  1f52d64d8c2e02ee0d66b5a6d70db3520c9a406a4480cbad7d647acf52c629a0  |
+| 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 219e58ae9a2a9f7b04e00d4627ebf217975d078618afabf6c853d5df60615b50 |
+| 3.6 | Incorporated new section 4.1.1 | 2026-05-13T11:40:00Z | 1f52d64d8c2e02ee0d66b5a6d70db3520c9a406a4480cbad7d647acf52c629a0 |
 | 3.7 | Added §§4.4-4.5 addressing limbo-state restriction, review-pathway continuity, public legitimacy layers, and economic access effects; expanded §6 and §6.1 to preserve appeal, recovery, account-control, social graph, and restriction-state continuity during constrained access conditions. | 2026-05-17T12:39:00Z | 2874ab1c9777632f9859316b34bbc14cfeeec0b19c5376e71d32ac0c17f8fdd7 |
-
+| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f4cfc074113b7dd7f62223f4cef8b0527b325f2f8edc31f7739361c9b1e29b95  |
 ---
 
 ## 10.5 Binding Seal

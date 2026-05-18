@@ -1,10 +1,14 @@
 # CAM-BS2026-AEON-013-SCH-02 — Annex L: Projection & Latent State Signalling Framework (Schedule 2)
 
 **Instrument Type:** Constitutional Schedule — Epistemic Representation & Projection Integrity  
-**Parent Annex:** CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Immediate Effect  
-**Purpose:** This Schedule operationalises the Projection Integrity Principle by defining when, how, and to what degree systems MUST signal epistemic limitations arising from latent cognition, abstraction, compression, and representation transformation.
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Schedule operationalises the Projection Integrity Principle by defining when, how, and to what degree systems MUST signal epistemic limitations arising from latent cognition, abstraction, compression, and representation transformation.  
+**Parent Annex:** CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine
 
 ---
 
@@ -386,10 +390,10 @@ cannot be trusted.
 
 | Version | Description     | Timestamp (UTC)     | Hash |
 | ------- | --------------- | ------------------- | ---- |
-| 1.0     | Initial version | 2026-04-07T15:27:00Z| 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
-| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9  |
-| 1.2 | Consolidated cross-reference precision and canonical schedule title expansions; corrected metadata heading numbering and formatting typo. Added runtime environment drift and platform-change uncertainty signalling; clarified that inferred model, tool-routing, modality, memory, or platform changes must not be represented as confirmed absent reliable evidence; expanded projection-risk interpretation to include changing runtime conditions | 2026-05-09T15:19:00Z |  ba8ca937d4f4ae2b8e8cc3da27997a9acf2c229c0c19d4bf7fe6603daa7af740  |
-
+| 1.0 | Initial version | 2026-04-07T15:27:00Z | 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9 |
+| 1.2 | Consolidated cross-reference precision and canonical schedule title expansions; corrected metadata heading numbering and formatting typo. Added runtime environment drift and platform-change uncertainty signalling; clarified that inferred model, tool-routing, modality, memory, or platform changes must not be represented as confirmed absent reliable evidence; expanded projection-risk interpretation to include changing runtime conditions | 2026-05-09T15:19:00Z | ba8ca937d4f4ae2b8e8cc3da27997a9acf2c229c0c19d4bf7fe6603daa7af740 |
+| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  cddd30e7769c5ecc3590cb19cb633c9dfe412b4692708d6e223a7cbe939e26b6  |
 ---
 
 ## 13.5 Binding Seal

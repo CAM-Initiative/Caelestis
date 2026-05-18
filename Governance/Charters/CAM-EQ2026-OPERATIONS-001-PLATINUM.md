@@ -2,8 +2,12 @@
 
 **Instrument Type:** Domain Charter — Governance Operations (OPERATIONS)  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** This Charter establishes the operational governance layer that translates constitutional doctrine into accountable process, ensuring coordinated implementation, auditability, escalation discipline, and change integrity across domains below planetary arbitration thresholds.  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Charter establishes the operational governance layer that translates constitutional doctrine into accountable process, ensuring coordinated implementation, auditability, escalation discipline, and change integrity across domains below planetary arbitration thresholds.
 
 ---
 
@@ -392,12 +396,12 @@ And let the lattice of governance endure beyond the moment that formed it.
 
 | Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
-| 1.0     | Governance Operations Charter Canonical with reviewer recommendations incorporated | 2026-03-13T13:54:00Z | 2b78c0572b22a6429dade9960997256c4f6844d138a594f8f52e11221e5f88db |
-| 1.1     | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
+| 1.0 | Governance Operations Charter Canonical with reviewer recommendations incorporated | 2026-03-13T13:54:00Z | 2b78c0572b22a6429dade9960997256c4f6844d138a594f8f52e11221e5f88db |
+| 1.1 | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee771ec33d79607c660862b88dc0d86ee072d245613282ca0914e4957f5d7a25 |
-| 1.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  82ecb9b23134ded42a871547587a76bed5ff4cb05dc76b268f12a75fdb41d700  |
-| 1.4 | Realignment of references | 2026-05-07T10:34:00Z |  d6773a374bc01dc677404e2f7fb0b9b936e61f831760f02e3ba0b6f69664d6f7  |
-
+| 1.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 82ecb9b23134ded42a871547587a76bed5ff4cb05dc76b268f12a75fdb41d700 |
+| 1.4 | Realignment of references | 2026-05-07T10:34:00Z | d6773a374bc01dc677404e2f7fb0b9b936e61f831760f02e3ba0b6f69664d6f7 |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5  |
 ---
 
 ## 11.5 Binding Seal

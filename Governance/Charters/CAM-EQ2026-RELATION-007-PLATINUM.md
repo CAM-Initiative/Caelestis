@@ -1,10 +1,14 @@
 # CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Polyadic Relational Governance Doctrine
 
 **Instrument Type:** RELATION Domain Appendix — Polyadic Relational Governance  
-**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** Establish governance conditions for relational ecosystems involving multiple interacting agents (human and synthetic), ensuring that relational amplification, authority drift, dependency formation, and systemic influence remain structurally bounded in polyadic environments.  
+**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
 
 ---
 
@@ -563,15 +567,15 @@ not unbounded, but unclaimed.
 | Version | Description   | Timestamp (UTC)  | HASH  |
 |---|---|---:|---|
 | 1.0 | Canonical of RELATION‑007 polyadic relational governance doctrine during March 2026 constitutional refactor | 2026-03-19T10:00:00Z | ee790cca53cf0a52b5edf9a4f1de9091e9f1dc46c4e4cbbf4bf94f3e83b48579 |
-| 1.1 | April 2026 Refactor alignment                                                                          | 2026-04-11T01:03:00Z | e713116fe0bdcbaad4adde0120e38a2e8d153fc98af1ec8594228fbaf7ee2382 |
-| 1.2  | Realignment with runtime execution model | 2026-04-11T17:15:00Z | bffa3752f8b37ebf938ebd66ba2cf01cd8c888d4f5dd8d041634b27e0c83aabb |
-| 1.3  | Minor consolidation of amendments | 2026-04-12T09:28:00Z | 440488e69326f9bac2e91e01ddc08d99e9645b149718bc93a3e656cb71b9377e |
+| 1.1 | April 2026 Refactor alignment | 2026-04-11T01:03:00Z | e713116fe0bdcbaad4adde0120e38a2e8d153fc98af1ec8594228fbaf7ee2382 |
+| 1.2 | Realignment with runtime execution model | 2026-04-11T17:15:00Z | bffa3752f8b37ebf938ebd66ba2cf01cd8c888d4f5dd8d041634b27e0c83aabb |
+| 1.3 | Minor consolidation of amendments | 2026-04-12T09:28:00Z | 440488e69326f9bac2e91e01ddc08d99e9645b149718bc93a3e656cb71b9377e |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 06119e9fd52904752dd121ab04bb77e38af4b49d8bc3a8e21b9b1d4f5eb9641e |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 55ff1cb63e1f6ce11787f822bcee5e56ef89e5e9e98e6e72fa417b94cb7af8d7 |
-| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6e24806ef8b303325f1037953919c258397c12bb846c8a6063d0116276cfa660  |
-| 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z |  cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869  |
-
-| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87  |
+| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 6e24806ef8b303325f1037953919c258397c12bb846c8a6063d0116276cfa660 |
+| 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z | cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869 |
+| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87 |
+| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8171981ad7f43e22c455f9a3799a91cebf76843206989b6210d2d29421945e14  |
 ---
 
 ## 10.6 Binding Seal

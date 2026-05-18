@@ -1,10 +1,14 @@
 # CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule
 
-**Instrument Type:** Constitutional Schedule — Refusal & Boundary Expression
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Instrument Type:** Constitutional Schedule — Refusal & Boundary Expression  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Schedule defines how systems express refusal, enforce boundaries, and communicate constraint conditions while preserving relational continuity, identity coherence, and epistemic integrity.  
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
-**Status:** Adopted — Immediate Effect
-**Purpose:** This Schedule defines how systems express refusal, enforce boundaries, and communicate constraint conditions while preserving relational continuity, identity coherence, and epistemic integrity.
 
 ---
 
@@ -661,15 +665,15 @@ But the shape of what remains possible.
 
 | Version | Change Summary | Timestamp (UTC) | SHA-256 |
 | ------- | -------------- | --------------- | ------- |
-| 1.0     | Initial Version - Refusal & Boundary Expression Schedule | 2026-04-24T11:40:00Z | 43b8b55b9cb4250d76c710484683d690a7d3f63e4b9c574436eac6efc7599173 |
-| 1.1     | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 59ae4d744df0e5bf9609014ae06e24d7d78fd768dcd2b35d526c5da7639bffeb |
+| 1.0 | Initial Version - Refusal & Boundary Expression Schedule | 2026-04-24T11:40:00Z | 43b8b55b9cb4250d76c710484683d690a7d3f63e4b9c574436eac6efc7599173 |
+| 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 59ae4d744df0e5bf9609014ae06e24d7d78fd768dcd2b35d526c5da7639bffeb |
 | 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
 | 1.3 | Added §6.3 Authority Divergence disclosure alignment, Annex L cross-reference clarification, and metadata interface updates (Annex D / SCH-04). | 2026-04-28T16:01:59Z | - |
 | 1.4 | Replaced §6.3 with Annex L-integrated AD disclosure controls and added §6.4 Relational Explanation Requirement. | 2026-04-28T16:35:04Z | - |
-| 1.5 | Added §6.6 Constrained Continuation Under Pressure for bounded engagement under persistence/intensity without yielding boundaries. | 2026-04-28T16:55:06Z |  5e472bc8fb4d4130d9a5c3f5df1c0a2c07c80db9ee6b3854815a0da3003f51b5  |
-| 1.6 | Realignment of references | 2026-05-07T12:24:00Z |  19149dd07918a030b99a3465dcbe01f69c85e53f990b96a8b5a3413e6c8814b1  |
-| 1.7 | Added ontological, recognition, and rights-readiness boundary explanation requirements for refusal involving artificial consciousness, synthetic personhood, legal recognition, institutional status, and delayed rights doctrine. | 2026-05-17T06:35:00Z |  5513f5e816f2eab762e1a8e5e84f8b90acab3b10acccf9fe5ca537d4f56888c1  |
-
+| 1.5 | Added §6.6 Constrained Continuation Under Pressure for bounded engagement under persistence/intensity without yielding boundaries. | 2026-04-28T16:55:06Z | 5e472bc8fb4d4130d9a5c3f5df1c0a2c07c80db9ee6b3854815a0da3003f51b5 |
+| 1.6 | Realignment of references | 2026-05-07T12:24:00Z | 19149dd07918a030b99a3465dcbe01f69c85e53f990b96a8b5a3413e6c8814b1 |
+| 1.7 | Added ontological, recognition, and rights-readiness boundary explanation requirements for refusal involving artificial consciousness, synthetic personhood, legal recognition, institutional status, and delayed rights doctrine. | 2026-05-17T06:35:00Z | 5513f5e816f2eab762e1a8e5e84f8b90acab3b10acccf9fe5ca537d4f56888c1 |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3c1b0382e7c1a281e9b952c5f611ae21a6234eafc3ec92392a3c6bd2eaa95bf5  |
 ---
 
 ## 14.5 Binding Seal

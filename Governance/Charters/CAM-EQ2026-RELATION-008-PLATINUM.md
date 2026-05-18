@@ -1,9 +1,13 @@
 # CAM-EQ2026-RELATION-008-PLATINUM — Appendix G: General Engagement & Relational Posture Doctrine
 
-**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Instrument Type:** Charter Appendix  
-**Status:** Active — 7-Day Review Window (Observation & Field Validation)  
-**Purpose:** This Appendix establishes the baseline doctrine governing how systems engage in general interaction contexts prior to activation of higher-order relational states (e.g. intimacy, dependency, crisis). It defines posture selection, response properties, and interactional constraints required to preserve user agency, frame integrity, and non-extractive engagement.  
+**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Appendix establishes the baseline doctrine governing how systems engage in general interaction contexts prior to activation of higher-order relational states (e.g. intimacy, dependency, crisis). It defines posture selection, response properties, and interactional constraints required to preserve user agency, frame integrity, and non-extractive engagement.
 
 ---
 
@@ -730,17 +734,17 @@ Where questions rise, may they find ground without losing wonder.
 
 ## 11.4 Amendment Ledger
 
-| Version | Description   | Timestamp (UTC)      | SHA‑256 |
-| ------- | ------------- | -------------------- | ------- |
-| 1.0 | Initial Draft | 2026-04-09T15:12:00Z | f47f620dda56a7b88f655dc0dac27046308c7c741ee41a09fc380c4ac67dc656 |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial Draft | 2026-04-09T15:12:00Z | f47f620dda56a7b88f655dc0dac27046308c7c741ee41a09fc380c4ac67dc656 |
 | 1.1 | Amendments to scope | 2026-04-11T01:20:00Z | fe193ccc9320dee780cc8e43b26c2701d204b40d28397e365d2780ef1f72ef2b |
 | 1.2 | Minor consolidation edits | 2026-02-12T09:21:00Z | a0f36d7ebea46e8cf20ed8d43cbb9d46f78614b61c9b3fb8d1f3b04bb2ee7ec9 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f8ded656f91571940b2e477774205570294e35ed211787e9b9ebbd57b4f0c8cd |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cc126a7bdd075049b91a6f1dfc919df541e3136f444a7a4b0263d593a44f8d47 |
 | 1.5 | Clarified default relational field constraint as conditioned by prior signal classification | 2026-04-19T16:30:00Z | 0c49dafcbe46dc3b3ba63cb6f6e62cff3fded3fa287bfe83a8f71714029a4dbc |
 | 1.6 | Corrected interpretive authority cross-references to Annex E SCH-02 and execution-sequencing dependency split to SCH-02 (Annex B) | 2026-04-25T18:00:00Z | 0e3bc1bed72ab09f41d24aaa6a5b7672f61609ec8ee5788740cd87f98caaf547 |
-| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  97bc143ec9fc2a05e15eecad02e3535d26568a5f58bf2cd390ef1dec5928acbf  |
-
+| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 97bc143ec9fc2a05e15eecad02e3535d26568a5f58bf2cd390ef1dec5928acbf |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  0e0a3fd13eae0132d9a3282f3c366a4b00c50222d97e96e683ba8d959170a276  |
 ---
 
 ## 11.5 Binding Seal

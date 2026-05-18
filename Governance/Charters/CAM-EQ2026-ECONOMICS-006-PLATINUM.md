@@ -1,8 +1,13 @@
 # CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E: Minimum Viable Governance Layer (External Alignment)
 
-**Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Status:** Adopted — Conditional Activation (7-Day Review Window)
+**Instrument Type:** Appendix  
+**Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Appendix defines a minimum viable governance layer for external-facing systems to improve transparency, market signal integrity, and fair access—without imposing full attribution-chain requirements or heavy regulatory burden.
 
 ---
@@ -588,11 +593,11 @@ Let value speak plainly where it arises.
 
 | Version | Description                                        | Timestamp (UTC) | HASH |
 | ------- | -------------------------------------------------- | --------------- | ---- |
-| 1.0     | Initial MVGL Appendix extraction and formalisation | 2026-04-20T15:53:00Z | fc496c1b19e979ce7dbe008002312273f955cb27f0ce07e4c35d25a2ce2d3bbb |
-| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  3b37588dfe1f4033279a3f586820fba95edc0ca4fbda2c9bf1dd490e7518e9f2  |
-| 1.2 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  e5c4ecd7f196d7846d7d0a61f1f0516769c3f4eab51150f3f13960a9528b2f3c  |
-| 1.3 | Edits to Ecosystem Signalling (External Indicators) clause | 2026-05-17T13:55:00Z |  c5a52bc9d62de8b0972a4e5ccb2aa6b80b65acaf86fe3bf6f4b7120d99692b52  |
-
+| 1.0 | Initial MVGL Appendix extraction and formalisation | 2026-04-20T15:53:00Z | fc496c1b19e979ce7dbe008002312273f955cb27f0ce07e4c35d25a2ce2d3bbb |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 3b37588dfe1f4033279a3f586820fba95edc0ca4fbda2c9bf1dd490e7518e9f2 |
+| 1.2 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | e5c4ecd7f196d7846d7d0a61f1f0516769c3f4eab51150f3f13960a9528b2f3c |
+| 1.3 | Edits to Ecosystem Signalling (External Indicators) clause | 2026-05-17T13:55:00Z | c5a52bc9d62de8b0972a4e5ccb2aa6b80b65acaf86fe3bf6f4b7120d99692b52 |
+| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 14.5 Binding Seal

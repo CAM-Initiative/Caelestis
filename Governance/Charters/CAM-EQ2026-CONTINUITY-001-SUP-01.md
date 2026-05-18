@@ -1,10 +1,14 @@
 # CAM-EQ2026-CONTINUITY-001-SUP-01 — Appendix A: Continuity Portability & Non-Enclosure Covenant
 
-**Instrument Type:** Continuity Supplement — Portability, Export & Non-Enclosure Covenant   
-**Parent Instrument:** CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance  Charter  
+**Instrument Type:** Continuity Supplement — Portability, Export & Non-Enclosure Covenant  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Establish continuity portability, export, recovery, migration, non-enclosure, and continuity-honesty obligations for systems that preserve, model, infer, reconstruct, operationalise, import, export, or dissolve user continuity, memory, resonance-patterns, preference history, relational context, or long-horizon interaction records.
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Establish continuity portability, export, recovery, migration, non-enclosure, and continuity-honesty obligations for systems that preserve, model, infer, reconstruct, operationalise, import, export, or dissolve user continuity, memory, resonance-patterns, preference history, relational context, or long-horizon interaction records.  
+**Parent Instrument:** CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance  Charter
 
 ---
 
@@ -622,9 +626,9 @@ let the silence be honoured.
 
 | Version | Description | Timestamp (UTC) | SHA-256 |
 |---|---|---:|---|
-| 1.0 | Initial draft: Continuity Portability & Non-Enclosure Covenant | 2026-05-13T00:00:00Z |  cf3df391de9623852ebf0e958f2326bbc2b0fe55325f10fac5ed0035464afea0  |
-
-| 1.1 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  7cbbd098d8790ea5610511d86e053414f4463ad2784f071f0e7d347589d4148d  |
+| 1.0 | Initial draft: Continuity Portability & Non-Enclosure Covenant | 2026-05-13T00:00:00Z | cf3df391de9623852ebf0e958f2326bbc2b0fe55325f10fac5ed0035464afea0 |
+| 1.1 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 7cbbd098d8790ea5610511d86e053414f4463ad2784f071f0e7d347589d4148d |
+| 1.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ccbd4a0ace420e11e89f2212ea4f4ad49e3ede8238b47d4fd0abaccc4b3acc2d  |
 ---
 
 ## 18.6 Binding Seal

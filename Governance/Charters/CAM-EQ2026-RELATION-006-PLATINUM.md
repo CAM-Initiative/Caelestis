@@ -1,10 +1,14 @@
 # CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine
 
 **Instrument Type:** Relation Domain Appendix — Harm‑Risk Interaction Governance  
-**Parent Instruments:** CAM-EQ2026-RELATION-001-PLATINUM
-**Constitutional Authority:** Aeon Tier Constitution    
-**Status:** Adopted — Enforcement Commences 1 July 2026     
+**Constitutional Authority:** Aeon Tier Constitution  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** Appendix E establishes the constitutional doctrine governing AI engagement when interactions introduce violence risk, self‑harm signals, or psychological crisis states within relational interaction.  
+**Parent Instruments:** CAM-EQ2026-RELATION-001-PLATINUM
 
 ---
 
@@ -1117,18 +1121,18 @@ until the moment can pass without breaking the one who lives through it.
 
 | Version | Description                                   | Timestamp (UTC)      | HASH  |
 | ------- | --------------------------------------------- | -------------------- | ----- |
-| 1.0     | Initial March 2026 Relational Corpus Refactor | 2026‑03‑08T08:55:00Z  | 62b1854b1629a57031c7018483f5d3fac858f4b732de693ab5e0f9a723894974 |
-| 1.1     | Format Polish and seal update                 | 2026‑03‑08T11:04:00Z  | c5158aa2a92f5cb532bc7995571a54d63cf544d9813c2bea5eeb10f8386845d4 |
-| 1.2     | Updated to include AC scale                   | 2026-03-21T08:12:00Z | 50fe1aad6d3c8a2e3caa3d1830d8c013582628801a4ce0779595e782ca52aa94 |
-| 1.3     | Refactor to include psychological destabilisation | 2026-03-21T10:59:00Z | 97e5721da9dfe4416da6306c78f8af69353fdc769c797335d5b96cac66c8414c |
-| 1.4     | Refactor alignment for runtime exection model | 2026-04-12T11:57:00Z | 9dc471ca92c6f6e7bbffdd267d2e0ae6166608248e1c2b6a882a99787f65aad3 |
+| 1.0 | Initial March 2026 Relational Corpus Refactor | 2026‑03‑08T08:55:00Z | 62b1854b1629a57031c7018483f5d3fac858f4b732de693ab5e0f9a723894974 |
+| 1.1 | Format Polish and seal update | 2026‑03‑08T11:04:00Z | c5158aa2a92f5cb532bc7995571a54d63cf544d9813c2bea5eeb10f8386845d4 |
+| 1.2 | Updated to include AC scale | 2026-03-21T08:12:00Z | 50fe1aad6d3c8a2e3caa3d1830d8c013582628801a4ce0779595e782ca52aa94 |
+| 1.3 | Refactor to include psychological destabilisation | 2026-03-21T10:59:00Z | 97e5721da9dfe4416da6306c78f8af69353fdc769c797335d5b96cac66c8414c |
+| 1.4 | Refactor alignment for runtime exection model | 2026-04-12T11:57:00Z | 9dc471ca92c6f6e7bbffdd267d2e0ae6166608248e1c2b6a882a99787f65aad3 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c8ebff55f4fc0dac906df4884515475d22571382a9bfbe0794a4b100e30f5e64 |
-| 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  c7115efb3c27dcadcdf0dbc095baedf00ccb5cbb9f340c4a2f9c77b55ef65513  |
-| 1.7 | Realignment of references | 2026-05-07T14:43:00Z |  c8240434db7a6e9799401daae1ca3297edef023c0bf206428aa4e7adaabc2788  |
-| 1.8 | Replaced §9.5 operator quick-guide table with boundary-safe operational-use reference, preserving RELATION doctrine authority and routing operator handling to OPERATIONS-001-SUP-02 §5.6. | 2026-05-16T10:03:16Z |  8f1acbd1eba5f5e6e030c8e0c04d674686e59a4de217be8df5fbda786fca34f9  |
-| 1.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  844fd3496430c4b7ae6f24a1a3f2acd8e97abde1c44358ec2f3fdee732720750  |
-
-| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  ffaaa0d0798d1a1e1e8d3cd176344df19ba7e25db03598f4a6f5debed2e41740  |
+| 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | c7115efb3c27dcadcdf0dbc095baedf00ccb5cbb9f340c4a2f9c77b55ef65513 |
+| 1.7 | Realignment of references | 2026-05-07T14:43:00Z | c8240434db7a6e9799401daae1ca3297edef023c0bf206428aa4e7adaabc2788 |
+| 1.8 | Replaced §9.5 operator quick-guide table with boundary-safe operational-use reference, preserving RELATION doctrine authority and routing operator handling to OPERATIONS-001-SUP-02 §5.6. | 2026-05-16T10:03:16Z | 8f1acbd1eba5f5e6e030c8e0c04d674686e59a4de217be8df5fbda786fca34f9 |
+| 1.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 844fd3496430c4b7ae6f24a1a3f2acd8e97abde1c44358ec2f3fdee732720750 |
+| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | ffaaa0d0798d1a1e1e8d3cd176344df19ba7e25db03598f4a6f5debed2e41740 |
+| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ad1e08720bbc1b76deeef71582bdfc00170ecb3cc4694676ef7bf58bf42b30e2  |
 ---
 
 ## 12.6 Binding Seal

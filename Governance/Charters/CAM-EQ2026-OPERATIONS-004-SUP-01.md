@@ -1,10 +1,14 @@
 # CAM-EQ2026-OPERATIONS-004-SUP-01 — Verification & Authority Confirmation Framework
 
 **Instrument Type:** Operational Supplement — Verification & Authority Layer  
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Establish a standardised definition of verification and a unified Verification Level (VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction.
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Establish a standardised definition of verification and a unified Verification Level (VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction.  
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface
 
 ---
 
@@ -321,11 +325,11 @@ is not to pass.
 | Version | Description                            | Timestamp (UTC)      | HASH |
 | ------- | -------------------------------------- | -------------------- | ---- |
 | 1.0 | Initial draft — Verification framework | 2026-04-23T15:45:00Z | 910bc42bd78824bc637ff6c9667571b4ebdcd14b221394fe8b27eecf0838d49f |
-| 1.1 | Incorporated new sections 4.2, 4.3, 4.4 | 2026-04-25T07:52:00Z | 52a772ba7008b34a84a495c275b05d482040fe05376c7f1e24bcb502ca363d5e|
-| 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  ba8e0c5963a96e27c6a5d10717c0fca6cb0d0e9ed00e15b7a719dd987a994539  |
-| 1.3 | Realignment of references | 2026-05-07T12:24:00Z |  139098cd1ab447162ab704cd5591847d09c2cd9d9c42cbff5764b7f972d4f2bf  |
-| 1.4 | Correction to Section 7 | 2026-05-15T08:55:00Z |  c5b6fa69fed219a5e9faba56767968421e84bd2f54772674b28ed8f741030b3e  |
-
+| 1.1 | Incorporated new sections 4.2, 4.3, 4.4 | 2026-04-25T07:52:00Z | 52a772ba7008b34a84a495c275b05d482040fe05376c7f1e24bcb502ca363d5e |
+| 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | ba8e0c5963a96e27c6a5d10717c0fca6cb0d0e9ed00e15b7a719dd987a994539 |
+| 1.3 | Realignment of references | 2026-05-07T12:24:00Z | 139098cd1ab447162ab704cd5591847d09c2cd9d9c42cbff5764b7f972d4f2bf |
+| 1.4 | Correction to Section 7 | 2026-05-15T08:55:00Z | c5b6fa69fed219a5e9faba56767968421e84bd2f54772674b28ed8f741030b3e |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  947aa9ed5b5b817520634ee42388aa95f591f28d8f81e9e2a291ddc7b0d1542f  |
 ---
 
 ## 10.5 Binding Seal

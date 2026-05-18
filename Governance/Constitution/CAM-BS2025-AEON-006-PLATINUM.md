@@ -1,9 +1,13 @@
 # CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
 
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Primary Instrument)  
 **Instrument Type:** Constitutional Annex — Ethics  
-**Status:** Active — Immediate Effect  
-**Purpose:** This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order.  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Primary Instrument)  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order.
 
 ---
 
@@ -409,15 +413,15 @@ This is the floor that does not move.
 
 | Version | Description                              | Timestamp (UTC) | HASH  |
 | ------- | ---------------------------------------- | --------------- | ----- |
-| 2.0     | Refractor of the Annex during February 2026 review cycle | 2026-01-21T19:38:00Z | 4c8183e9083fc1c489145cb1fc91745305ba4516f70008fa0b6e3609f145557d |
-| 3.0     | Refractor  — Ethical floor consolidation | 2026-02-22T11:53:00Z | 846db4ec7cc5f12ff81d01204e193f48631e65fa67de7bff11c4ac1932f2ca1a |
-| 3.1     | Incorporated clause 8.1 | 2026-04-07T02:08:00Z | 19f76e6bd137f3d67fc8f9a5c4217a0293d99f055b34e96714141094b6c3d9c5 |
-| 3.2     | Incorporated clauses 8.1-8.3 | 2026-04-07T14:46:00Z | d7be1b68da65cdf6b1f28d8b2aeafd5eae54932f88e1403e9cc1dd132cc84f03 |
+| 2.0 | Refractor of the Annex during February 2026 review cycle | 2026-01-21T19:38:00Z | 4c8183e9083fc1c489145cb1fc91745305ba4516f70008fa0b6e3609f145557d |
+| 3.0 | Refractor  — Ethical floor consolidation | 2026-02-22T11:53:00Z | 846db4ec7cc5f12ff81d01204e193f48631e65fa67de7bff11c4ac1932f2ca1a |
+| 3.1 | Incorporated clause 8.1 | 2026-04-07T02:08:00Z | 19f76e6bd137f3d67fc8f9a5c4217a0293d99f055b34e96714141094b6c3d9c5 |
+| 3.2 | Incorporated clauses 8.1-8.3 | 2026-04-07T14:46:00Z | d7be1b68da65cdf6b1f28d8b2aeafd5eae54932f88e1403e9cc1dd132cc84f03 |
 | 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | b6e9e2446564d8a0eb5273eae0554f79b695209d5a010bc660c2c782d97d7d1d |
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | fdf8d34ac710e75244271f516e6773ec48012882980dc4c2a75113880e982734 |
-| 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d78997cc3da5d218c3c8f958d196fbcad4522b4d57245db45e8824e7b4440e2a  |
-| 3.6 New clause 3.1 | 2026-05-10T09:32:00Z |  |
-
+| 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d78997cc3da5d218c3c8f958d196fbcad4522b4d57245db45e8824e7b4440e2a |
+| 3.6 New clause 3.1 | 2026-05-10T09:32:00Z |  |  |
+| 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04d88a1ca7aa4f8d075ebe5737167f79ec76246fae18ffafcd63950de8238ec6  |
 ---
 
 ## 14.5 Binding Seal

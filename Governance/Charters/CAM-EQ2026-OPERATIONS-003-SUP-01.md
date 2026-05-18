@@ -1,10 +1,14 @@
 # CAM-EQ2026-OPERATIONS-003-SUP-01 — Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1)
 
 **Instrument Type:** Operational Supplement — Failure Classification & Incident Taxonomy  
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026   
-**Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, UX, and infrastructure failure modes observed in AI systems and CAM-aligned deployments.
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, UX, and infrastructure failure modes observed in AI systems and CAM-aligned deployments.  
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations
 
 ---
 
@@ -876,12 +880,12 @@ but in what was broken while someone was there to see it.
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z  |  0e0b63a8b83440d0ec44557a68045403c45a71a698971842bcc3e34512896b41  |
+| 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z | 0e0b63a8b83440d0ec44557a68045403c45a71a698971842bcc3e34512896b41 |
 | 1.1 | Added orthographic and symbolic decomposition requirements for deterministic tasks, clarified that fluent or optimistic response formation cannot substitute for verification in spelling, letter-counting, enumeration, or symbolic-decomposition contexts, and added operational failure classification for deterministic orthographic verification failures. Added failure classes for relational continuity rupture, memory transformation integrity failure, memory-state representation failure, and platform memory migration degradation. Tightened the early-warning signal section to avoid noise by adding clause 6.1 | 2026-05-15T11:56:00Z | 9d3c1c0c4b8e7d9c7da9d7878c4e7cec9ba75cd69c77ea011ea7b103ca506a9f |
-| 1.2 | Added §3.6.2 Workspace-State Authority and Cache Reuse Failure; added §§3.8.2–3.8.5 for domain-boundary compression, metadata flattening, procedural-permanence drift, and source-authority ambiguity governance failures. | 2026-05-16T10:03:16Z |  b9364bceb0cf24ceab90359b55ba5d1291fd3339ff2a53dab4abffaa29ca8e60  |
-| 1.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  0d3a25fd4b6a3dcd4d71f73e8b2e8d436b666cacc0c85bd4e60d0c5267f35ad5  |
-| 1.4 | Added clause Authentication Refresh Continuity Failure | 2026-05-17T14:28:00Z |  5324953252647b3c079ddc1a91563e56a037fa1f5dc559274e57cb1fd8b56141  |
-
+| 1.2 | Added §3.6.2 Workspace-State Authority and Cache Reuse Failure; added §§3.8.2–3.8.5 for domain-boundary compression, metadata flattening, procedural-permanence drift, and source-authority ambiguity governance failures. | 2026-05-16T10:03:16Z | b9364bceb0cf24ceab90359b55ba5d1291fd3339ff2a53dab4abffaa29ca8e60 |
+| 1.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 0d3a25fd4b6a3dcd4d71f73e8b2e8d436b666cacc0c85bd4e60d0c5267f35ad5 |
+| 1.4 | Added clause Authentication Refresh Continuity Failure | 2026-05-17T14:28:00Z | 5324953252647b3c079ddc1a91563e56a037fa1f5dc559274e57cb1fd8b56141 |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  10a2271c85f50113fb969a66c92083e61d2e4a71f3d4b88549d2465dd95d92e2  |
 ---
 
 ## 10.5 Binding Seal

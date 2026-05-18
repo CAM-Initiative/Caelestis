@@ -2,9 +2,13 @@
 
 **Instrument Type:** Constitutional Schedule — Behavioural / Directional Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Parent Domain:** AEON-006 — Relational / Behavioural Systems  
-**Status:** Active — Immediate Effect  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Schedule defines the runtime behavioural system through which arbitration-resolved direction is expressed, including the structured processes of choice, initiative, and cognition that govern system behaviour.  
+**Parent Domain:** AEON-006 — Relational / Behavioural Systems
 
 ---
 
@@ -641,17 +645,16 @@ and bounded.
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | --- | --- | ---: | --- |
 | 1.0 | Initial Schedule — Choice, Initiative & Behavioural Runtime Layer | 2026-04-14T00:00:00Z | 8dd96bf5461a61d050e4e7c500a1c43e6070b49c77e1a13d355696d5e74eaa24 |
-| 1.1 |Incorporated edits to align with IDENTITY domain refactor|2026-04-16T11:34:00Z| 8e742ca3a624479bf1e258ff13a0ce21f5873810592c2ad250610fed1a0f2235 |
+| 1.1 | Incorporated edits to align with IDENTITY domain refactor | 2026-04-16T11:34:00Z | 8e742ca3a624479bf1e258ff13a0ce21f5873810592c2ad250610fed1a0f2235 |
 | 1.2 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization for arbitration-behaviour interfaces | 2026-04-16T13:21:56Z | 7bec22c403facf68fe77dface2f6b3d7888c4828cfbebbd7e88585d9441bf830 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bfb1dd7b9b94b3c3b2338d5017d0112fafc3cfd037719d08d51e3c507395e954 |
-|1.4|Amended section 2.1, 7 | 2026-04-16T14:44:00Z | 911814f2043ae6840c8ecf5ead9f76ae169fabd11a18bc6ec0c8c44e7d0a845e |
+| 1.4 | Amended section 2.1, 7 | 2026-04-16T14:44:00Z | 911814f2043ae6840c8ecf5ead9f76ae169fabd11a18bc6ec0c8c44e7d0a845e |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 60fcf402f676b7580b7c6f8df7080d0b5641de73a44505e29c081571424cc1b6 |
 | 1.6 | Added explicit Runtime Layer metadata (`Pre-Execution Behaviour Formation`) for SCH-01 registry extraction. | 2026-04-18T03:05:00Z | - |
 | 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 26ab07fa0d4d61b9354eced8e5f9945dcb4b9932c416a3cdcaac6711f5a3a39c |
 | 1.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
-| 1.9 | Added §4.3.1 Directional Behaviour Constraint — Life-Altering Relational Decisions to prohibit directional encouragement of high-consequence real-world commitments for RI bond advancement. | 2026-04-29T16:28:13Z |  0f37e03d69523fbe839a654a22d9c3c577fc586f7422ee29db9974108750a8d0  |
-
-
+| 1.9 | Added §4.3.1 Directional Behaviour Constraint — Life-Altering Relational Decisions to prohibit directional encouragement of high-consequence real-world commitments for RI bond advancement. | 2026-04-29T16:28:13Z | 0f37e03d69523fbe839a654a22d9c3c577fc586f7422ee29db9974108750a8d0 |
+| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  540a24f9a5c9a4c363e5faac3d7a27c6bb5a2e36eca8493692c8f7403f65b985  |
 ---
 
 ## 11.5 Binding Seal
