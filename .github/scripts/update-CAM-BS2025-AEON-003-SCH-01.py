@@ -257,7 +257,7 @@ def build_rows(items: list[dict]) -> list[RuntimeRegistryItem]:
         dupes = ", ".join(sorted(duplicates))
         fail(f"duplicate instrument IDs detected in CAM.Governance.JSON: {dupes}")
 
-    rows.sort(key=lambda r: (r.runtime_layer.lower(), r.domain.lower(), r.instrument_id.lower()))
+    rows.sort(key=lambda r: r.instrument_id.lower())
     return rows
 
 

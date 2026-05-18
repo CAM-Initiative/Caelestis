@@ -5,7 +5,7 @@ import re
 import unicodedata
 from pathlib import Path
 
-STATUS_RE = re.compile(r"^\*\*Status:\*\*\s*(.+?)\s*$", re.IGNORECASE)
+META_LINE_RE = re.compile(r"^\s*(?:\*\*)?\s*([A-Za-z][A-Za-z ]*[A-Za-z])\s*:\s*(.+?)\s*(?:\*\*)?\s*$")
 AMENDMENT_HEADING_RE = re.compile(r"amendment\s+ledger", re.IGNORECASE)
 VERSION_RE = re.compile(r"\d+(?:\.\d+)+")
 VERSION_META_RE = re.compile(r"^\*\*Version:\*\*\s*(.+?)\s*$", re.IGNORECASE)
@@ -35,14 +35,12 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
 
     status = "Unknown"
     version_from_header = "Unknown"
+    metadata = extract_instrument_metadata(path)
+    if metadata.get("status"):
+        status = metadata["status"]
+
     for line in lines[:160]:
         stripped = line.strip()
-
-        if status == "Unknown":
-            m_status = STATUS_RE.match(stripped)
-            if m_status:
-                status = re.sub(r"\s+\*\*Purpose:\*\*.*$", "", m_status.group(1), flags=re.IGNORECASE).strip(" -—–\t")
-                status = re.sub(r"\s{2,}", " ", status)
 
         if version_from_header == "Unknown":
             m_version = VERSION_META_RE.match(stripped)
@@ -96,6 +94,38 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
         latest_version = version_from_header
 
     return status or "Unknown", latest_version
+
+
+def extract_instrument_metadata(path: Path) -> dict[str, str]:
+    text = _normalise_text(path.read_text(encoding="utf-8"))
+    lines = text.splitlines()
+
+    key_map = {
+        "status": "status",
+        "effect": "effect",
+        "enforcement": "enforcement",
+        "review state": "review_state",
+        "authority role": "authority_role",
+    }
+    out: dict[str, str] = {}
+    for line in lines[:220]:
+        stripped = line.rstrip()
+        if not stripped:
+            continue
+        m = META_LINE_RE.match(stripped)
+        if not m:
+            continue
+        key = re.sub(r"\s+", " ", m.group(1).strip().lower())
+        if key not in key_map:
+            continue
+        value = m.group(2).strip().rstrip()
+        value = re.sub(r"^\*\*\s*", "", value)
+        value = re.sub(r"\s*\*\*$", "", value)
+        value = re.sub(r"\s{2,}$", "", value)
+        value = re.sub(r"\s{2,}", " ", value)
+        if value and key_map[key] not in out:
+            out[key_map[key]] = value
+    return out
 
 
 def extract_status_hash_and_version(path: Path) -> tuple[str, str, str]:
