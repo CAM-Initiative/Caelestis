@@ -35,8 +35,13 @@ class RegistryItem:
     title: str
     domain: str
     cls: str
+    instrument_class: str
     version: str
     status: str
+    effect: str
+    enforcement: str
+    review_state: str
+    authority_role: str
     link: str
 
 
@@ -135,7 +140,12 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
 
         rel_link = (item.get("link") or "").strip()
         status = (item.get("status") or "").strip()
+        effect = (item.get("effect") or "").strip()
+        enforcement = (item.get("enforcement") or "").strip()
+        review_state = (item.get("review_state") or "").strip()
+        authority_role = (item.get("authority_role") or "").strip()
         version = (item.get("version") or "").strip()
+        instrument_class = (item.get("instrument_class") or "").strip().lower()
 
         if not rel_link:
             warn(f"unreadable file: missing link for {doc_id}")
@@ -164,11 +174,28 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
                 title=(item.get("title") or "").strip(),
                 domain=(item.get("domain") or "").strip() or "UNKNOWN",
                 cls=class_label(item),
+                instrument_class=instrument_class,
                 version=version,
                 status=status,
+                effect=effect,
+                enforcement=enforcement,
+                review_state=review_state,
+                authority_role=authority_role,
                 link=rel_link,
             )
         )
+
+    for row in rows:
+        if row.instrument_class == "law" or "/laws/" in row.link.lower() or "-law-" in row.doc_id.lower():
+            row.effect = row.effect or "Inviolable Constraint"
+            row.enforcement = row.enforcement or "Binding Constraint"
+            row.review_state = row.review_state or "None"
+            row.authority_role = row.authority_role or "Substrate Law / Substrate Interface"
+        else:
+            row.effect = row.effect or "Metadata Review Required"
+            row.enforcement = row.enforcement or "Metadata Review Required"
+            row.review_state = row.review_state or "Metadata Review Required"
+            row.authority_role = row.authority_role or "Metadata Review Required"
 
     return rows
 
@@ -188,8 +215,8 @@ def render_registry(rows: list[RegistryItem]) -> str:
         out.extend([
             f"## {domain}",
             "",
-            "| Document | Title | Class | Version | Status |",
-            "|---|---|---|---|---|",
+            "| Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |",
+            "|---|---|---|---|---|---|---|---|---|",
         ])
 
         domain_rows = sorted(
@@ -199,7 +226,7 @@ def render_registry(rows: list[RegistryItem]) -> str:
 
         for row in domain_rows:
             doc = f"[{row.doc_id}](../{row.link})" if row.link else row.doc_id
-            out.append(f"| {doc} | {row.title} | {row.cls} | {row.version} | {row.status} |")
+            out.append(f"| {doc} | {row.title} | {row.cls} | {row.version} | {row.status} | {row.effect} | {row.enforcement} | {row.review_state} | {row.authority_role} |")
 
         out.append("")
 

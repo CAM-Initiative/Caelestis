@@ -13,7 +13,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from instrument_state import extract_status__HASH_and_version
+from instrument_state import extract_instrument_metadata, extract_status__HASH_and_version
 
 GOV_DIR = REPO_ROOT / "Governance"
 OUT_MD = GOV_DIR / "CAM.Governance.Index.md"
@@ -85,7 +85,12 @@ def load_items() -> list[dict]:
                 if purpose_from_doc:
                     row["purpose"] = purpose_from_doc
                 status, content_hash, version = extract_status__HASH_and_version(abs_path)
+                metadata = extract_instrument_metadata(abs_path)
                 row["status"] = status
+                row["effect"] = metadata.get("effect", row.get("effect", ""))
+                row["enforcement"] = metadata.get("enforcement", row.get("enforcement", ""))
+                row["review_state"] = metadata.get("review_state", row.get("review_state", ""))
+                row["authority_role"] = metadata.get("authority_role", row.get("authority_role", ""))
                 row["version"] = version
                 instrument_id = str(row.get("id") or "").strip()
                 is_derived = instrument_id in DERIVED_REGISTRY_IDS
