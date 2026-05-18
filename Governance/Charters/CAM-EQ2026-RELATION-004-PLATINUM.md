@@ -223,7 +223,7 @@ but as distinction held in relation.
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | bf90e4efb374573bf7ce373a369b364503d05173c45ab4f486f4becb8ef7d887 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 2a5b0b6e93b46296a47a6c6e3169c85d85770bef51a378df2733d7bfa7b3d6d4 |
 | 1.6 | Corrected file references, added clause 6.1 | 2026-05-12T11:26:00Z | 773e292200edac7ad44a28229ab1f4c44edc633e9b0fe69a4ecf6efab9b43a7f |
-| 1.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
+| 1.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  fee7606fbfbefd27f6f39b632036a31c92355150e1ef688f44d2f51d24b2c9cc  |
 ---
 
 ## 9.5 Binding Seal

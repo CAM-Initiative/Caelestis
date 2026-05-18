@@ -1046,7 +1046,7 @@ and what is judged cannot remain unbounded.
 | 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z | 2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d |
 | 2.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b |
 | 3.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743 |
-| 3.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
+| 3.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  501253f679ff46f8c3c511e82b1808ba6e28a4bbb1536e08f36196c9de37591f  |
 ---
 
 ## 12.6 Binding Seal

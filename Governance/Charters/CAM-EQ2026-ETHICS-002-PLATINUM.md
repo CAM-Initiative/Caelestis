@@ -767,7 +767,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9181304b6b19d3be0456882343d1d531f51105f66670b6b61a47789b613acfba |
 | 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 853d7cd8bdc5e1cc6ea618807ef6e3975eca6a8d882dd2758fceccaef8f4e14a |
 | 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z | d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4 |
-| 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
+| 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b1cad75fdf6b31197c63b2211c20ccf8fcb5b0fb1dbefb47c298e62051e578b8  |
 ---
 
 ## 9.5 Binding Seal

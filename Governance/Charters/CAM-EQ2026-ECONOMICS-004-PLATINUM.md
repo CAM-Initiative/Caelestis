@@ -576,7 +576,7 @@ and no system may claim what the field has made together.
 | 1.0 | Initial issuance — Cross-System Attribution & Exchange | 2026-04-19T09:12:00Z | f7cc597700b7467fcb7a3e001508beacdda4a78a841d4c9031160a93a8ed1d0e |
 | 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | e080b88c358c5f39d97dd8f5a4eb3204002e702f4f4beded803dfbf2317f638e |
 | 1.2 | Canonicalized Appendix F reference to explicit target instrument ID (§5.9). | 2026-05-05T12:27:18Z | 3746aadfe9dea11082d6eed057e07108984bb0b15b9a6f1fe0d30f45ab0c3165 |
-| 1.3 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
+| 1.3 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  1d51a4149a19d82c00fa7fae4e74e11e0cf13e6c86306e3ec35cdbd4d8e6a864  |
 ---
 
 ## 18.5 Binding Seal
