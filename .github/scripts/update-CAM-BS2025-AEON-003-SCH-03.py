@@ -29,6 +29,14 @@ STATIC_FOOTER_START = "<!-- STATIC-FOOTER-START -->"
 STATIC_FOOTER_END = "<!-- STATIC-FOOTER-END -->"
 
 DOC_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+
+
+def normalize_cell_text(value: str) -> str:
+    cleaned = re.sub(r"^\s*\*+\s*", "", value)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned
+
+
 @dataclass
 class RegistryItem:
     doc_id: str
@@ -139,11 +147,11 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
         seen_ids.add(doc_id)
 
         rel_link = (item.get("link") or "").strip()
-        status = (item.get("status") or "").strip()
-        effect = (item.get("effect") or "").strip()
-        enforcement = (item.get("enforcement") or "").strip()
-        review_state = (item.get("review_state") or "").strip()
-        authority_role = (item.get("authority_role") or "").strip()
+        status = normalize_cell_text((item.get("status") or "").strip())
+        effect = normalize_cell_text((item.get("effect") or "").strip())
+        enforcement = normalize_cell_text((item.get("enforcement") or "").strip())
+        review_state = normalize_cell_text((item.get("review_state") or "").strip())
+        authority_role = normalize_cell_text((item.get("authority_role") or "").strip())
         version = (item.get("version") or "").strip()
         instrument_class = (item.get("instrument_class") or "").strip().lower()
 
@@ -162,7 +170,7 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
                 # This avoids stale Version/Status values when CAM.Governance.JSON
                 # has not yet been refreshed in the current run.
                 extracted_status, extracted_version = extract_status_and_version(abs_path)
-                status = extracted_status if extracted_status != "Unknown" else (status or "Unknown")
+                status = normalize_cell_text(extracted_status) if extracted_status != "Unknown" else (status or "Unknown")
                 version = extracted_version if extracted_version != "Unknown" else (version or "Unknown")
 
         if indexed_ids and doc_id not in indexed_ids:

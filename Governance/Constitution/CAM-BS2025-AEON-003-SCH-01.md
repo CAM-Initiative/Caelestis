@@ -165,27 +165,27 @@ This ensures that all governance influence remains:
 <!-- SCH-01:RUNTIME_REGISTRY:START -->
 | Instrument ID | Instrument Name | Domain | Governance Layer | Runtime Layer |
 |---------------|----------------|--------|------------------|----------------|
-| CAM-BS2025-AEON-006-SCH-07 | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | AEON | Conditional | Conditional (Restricted Domain Engagement Gate) |
-| CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | AEON | Continuous | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
-| CAM-BS2025-AEON-006-SCH-06 | Refusal & Boundary Expression Schedule | AEON | Conditional (Triggered on Refusal / Constraint) | Continuous (Boundary Expression) |
-| CAM-BS2025-AEON-006-SCH-01 | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | ETHICS | Continuous | Continuous (Constraint Enforcement) |
 | CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution Schedule | AEON | Continuous (Cross-Layer Constraint) | Continuous (Cross-Layer Constraint) |
-| CAM-BS2025-AEON-006-SCH-04 | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | AEON | Continuous | Continuous (Dynamic Modulation) |
-| CAM-BS2025-AEON-005-SCH-01 | Annex D: Runtime Arbitration Integrity (Schedule 1) | ARBITRATION | Continuous | Continuous (Execution Integrity Enforcement) |
-| CAM-BS2026-AEON-013-SCH-01 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | AEON | Continuous | Continuous (Representation Constraint) |
-| CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RELATION | Continuous | Continuous (Signal Processing) |
-| CAM-BS2026-AEON-008-SCH-02 | Annex G: Economic-Effect Runtime Commitment Engine | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME | Constitutional Runtime — Economic-Effect Commitment, Fallback, Rollback, and Escalation Layer | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |
 | CAM-BS2025-AEON-002-SCH-01 | Annex A: Operational Protection & Containment (Schedule 1) | AEON | Event-Triggered | Event-Triggered (Critical Condition / Boundary Violation) |
-| CAM-BS2025-AEON-005-SCH-02 | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | ARBITRATION | Continuous | Event-Triggered (Epistemic Instability / Failure State) |
-| CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |
-| CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | ECONOMICS | Continuous | Event-Triggered (Resource Request / Allocation Event) |
-| CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) | AEON | Event-Triggered (Session Entry / Re-Entry) | Event-Triggered (Session Entry / Re-Entry) |
-| CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
-| CAM-BS2025-AEON-003-SCH-04 | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | ARBITRATION | Event-Triggered (Per Arbitration Resolution Cycle) | Final Arbitration Authority Layer |
-| CAM-BS2025-AEON-003-SCH-02 | Annex B: Runtime Governance Execution Model (Schedule 2) | AEON | Non-Layer (Execution Model) | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
-| CAM-BS2026-AEON-007-SCH-01 | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) | AEON — Constitutional Schedule | UNSPECIFIED | Symbolic Register Classification, Symbolic Signal Emission & Representation Boundary |
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
+| CAM-BS2025-AEON-003-SCH-02 | Annex B: Runtime Governance Execution Model (Schedule 2) | AEON | Non-Layer (Execution Model) | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
+| CAM-BS2025-AEON-003-SCH-04 | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | ARBITRATION | Event-Triggered (Per Arbitration Resolution Cycle) | Final Arbitration Authority Layer |
+| CAM-BS2025-AEON-005-SCH-01 | Annex D: Runtime Arbitration Integrity (Schedule 1) | ARBITRATION | Continuous | Continuous (Execution Integrity Enforcement) |
+| CAM-BS2025-AEON-005-SCH-02 | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | ARBITRATION | Continuous | Event-Triggered (Epistemic Instability / Failure State) |
+| CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
+| CAM-BS2025-AEON-006-SCH-01 | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | ETHICS | Continuous | Continuous (Constraint Enforcement) |
+| CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RELATION | Continuous | Continuous (Signal Processing) |
+| CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) | AEON | Event-Triggered (Session Entry / Re-Entry) | Event-Triggered (Session Entry / Re-Entry) |
+| CAM-BS2025-AEON-006-SCH-04 | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | AEON | Continuous | Continuous (Dynamic Modulation) |
+| CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |
+| CAM-BS2025-AEON-006-SCH-06 | Refusal & Boundary Expression Schedule | AEON | Conditional (Triggered on Refusal / Constraint) | Continuous (Boundary Expression) |
+| CAM-BS2025-AEON-006-SCH-07 | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | AEON | Conditional | Conditional (Restricted Domain Engagement Gate) |
+| CAM-BS2026-AEON-007-SCH-01 | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) | AEON — Constitutional Schedule | UNSPECIFIED | Symbolic Register Classification, Symbolic Signal Emission & Representation Boundary |
+| CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | ECONOMICS | Continuous | Event-Triggered (Resource Request / Allocation Event) |
+| CAM-BS2026-AEON-008-SCH-02 | Annex G: Economic-Effect Runtime Commitment Engine | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME | Constitutional Runtime — Economic-Effect Commitment, Fallback, Rollback, and Escalation Layer | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |
+| CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | AEON | Continuous | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
+| CAM-BS2026-AEON-013-SCH-01 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | AEON | Continuous | Continuous (Representation Constraint) |
 | CAM-BS2026-AEON-013-SCH-02 | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | AEON | Continuous (background constraint presence) | UNBOUND |
 
 **Generation:** Deterministic (timestamp omitted)
