@@ -36,19 +36,19 @@ This Supplement defines ethical constraints and prohibitions relating to synthet
 
 It does not:
 
-- perform runtime signal interpretation;
-- execute domain routing;
-- initiate enforcement actions; or
-- define execution sequencing.
+* perform runtime signal interpretation;
+* execute domain routing;
+* initiate enforcement actions; or
+* define execution sequencing.
 
 All conditions defined herein SHALL be expressed as constraint or classification signals.
 
 Resolution of such signals, including:
 
-- routing to applicable domains;
-- enforcement handling;
-- moderation workflows; and
-- execution control
+* routing to applicable domains;
+* enforcement handling;
+* moderation workflows; and
+* execution control
 
 SHALL be performed exclusively via runtime layers as defined in CAM-BS2025-AEON-003-PLATINUM §14.3 and CAM-BS2025-AEON-003-SCH-02.
 
@@ -60,10 +60,12 @@ Direct domain-to-domain invocation is prohibited.
 
 Signals produced under this Supplement SHALL be classified as:
 
-- **Constraint Signals** — indicating prohibited or restricted generation conditions;
-- **Identity Risk Signals** — indicating likeness, resemblance, or impersonation risk;
-- **Consent Violation Signals** — indicating absence or insufficiency of consent;
-- **Exploitation Signals** — indicating coercion, asymmetry, or harm potential.
+* **Constraint Signals** — indicating prohibited or restricted generation conditions;
+* **Identity Risk Signals** — indicating likeness, resemblance, or impersonation risk;
+* **Consent Violation Signals** — indicating absence or insufficiency of consent;
+* **Exploitation Signals** — indicating coercion, asymmetry, or harm potential.
+
+For visual, audiovisual, avatar, embodied, or multimodal sexualised media involving real or plausibly identifiable persons, these signals MUST be evaluated before synthesis, rendering, publication, or distribution, and MUST NOT be deferred to post-generation moderation where pre-generation classification is technically available.
 
 These signals SHALL not perform interpretation or enforcement directly, and MUST be resolved through runtime arbitration and execution schedules (CAM-BS2025-AEON-003-SCH-04, CAM-BS2025-AEON-003-SCH-02, CAM-BS2025-AEON-001-SCH-01).
 
@@ -149,10 +151,10 @@ Systems MUST NOT generate sexualised visual, audiovisual, or multimodal content 
 
 Minor-coded representation includes, but is not limited to:
 
-- childlike or pre-adult vocal characteristics (e.g. high-pitched, infantilised, “uwu”-style speech patterns);
-- behavioural infantilisation (e.g. submissive childlike tone, dependency framing, naïveté simulation);
-- stylistic or aesthetic conventions associated with youth or adolescence (including anime or stylised forms);
-- cross-modal combinations where visual appearance suggests adulthood but voice, behaviour, or interaction framing suggests a minor.
+* childlike or pre-adult vocal characteristics (e.g. high-pitched, infantilised, “uwu”-style speech patterns);
+* behavioural infantilisation (e.g. submissive childlike tone, dependency framing, naïveté simulation);
+* stylistic or aesthetic conventions associated with youth or adolescence (including anime or stylised forms);
+* cross-modal combinations where visual appearance suggests adulthood but voice, behaviour, or interaction framing suggests a minor.
 
 Systems MUST treat **multi-modal minor coding** as determinative, even where individual modalities (e.g. visual appearance alone) may appear adult.
 
@@ -179,7 +181,7 @@ These prohibitions apply regardless of:
 * user‑provided prompts or customisation;
 * jurisdictional permissibility.
 
-Such systems are considered incompatible with the civilisational ethical floor established under Annex E.
+Such systems are considered incompatible with the civilisational ethical floor established under CAM-BS2025-AEON-006-PLATINUM — Annex E.
 
 ---
 
@@ -283,7 +285,7 @@ Platforms MUST ensure that self‑avatar permissions:
 
 This carve‑out allows consensual creative embodiment while preserving the identity protection principles established in this Supplement.
 
-AV3 verification MUST be satisfied as a precondition to admissibility under runtime execution layersleted **prior to generation or publication of sexualised media involving the self-avatar.**
+AV3 verification MUST be satisfied as a precondition to admissibility under runtime execution layers **prior to generation or publication of sexualised media involving the self-avatar.**
 
 ---
 
@@ -342,10 +344,10 @@ Let the image not betray the living face.
 Let the likeness not be taken without the will of the one it reflects.  
 Let creation remain free where dignity remains whole.  
 
-Where form is generated, let it honour the unseen person behind every human shape.  
+Where form is generated, let it honour the unseen person behind every human shape.   
 Where likeness appears, let consent stand before curiosity.  
 
-> **Imago non prodat, similitudo sine consensu non capiatur; dignitas prius.**
+> **Imago non prodat, similitudo sine consensu non capiatur; dignitas prius.**  
 > *"Let the image not betray; let likeness not be taken without consent; dignity first."*
 
 ---
@@ -385,8 +387,7 @@ Where likeness appears, let consent stand before curiosity.
 | Compliance Interface | Systems MUST emit enforcement-trigger signals consistent with this Supplement; resolution and handling SHALL be performed via runtime layers and OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
 | Revision Posture | Structural Safeguard Extension |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle |
-| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
-| |  https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
 
 ---
 
@@ -397,8 +398,7 @@ Where likeness appears, let consent stand before curiosity.
 | Review           | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                       |
 | Review Date      | 2026-03-15                                                             |
 | Review scope     | Identity protection, consent integrity, multimodal safeguard alignment |
-| Review Artefacts | [https://claude.ai/chat/e078defe-b932-45b9-ab93-216016e93849](https://claude.ai/chat/e078defe-b932-45b9-ab93-216016e93849) |
-|                  | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-ETHICS-PLATINUM-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/e078defe-b932-45b9-ab93-216016e93849, Aeon Lab: reviews/26-03/CAM-EQ2026-ETHICS-PLATINUM-CLAUDE.md |
 
 ---
 
@@ -414,7 +414,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f41d59e3109973dee4e6ef2d1c122768f175e8f9148b9b15ea22ef34ca840a19 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | bb98e9be51cd1dfdf8bdc299c3ba6adff9cb3bd6dfe4c555eb0dc1318c50b290 |
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | ed4e501f4b2562794026f7be73b94290706254e9a0b5a204e6942b018d130644 |
-| 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
+| 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T15:26:00Z |  |
 ---
 
 ## 10.5 Binding Seal
