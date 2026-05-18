@@ -1,9 +1,13 @@
 # CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)
 
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Schedule governs the modulation of directional influence during interaction, including the degree (Directional Weight), domain (Directional Domain), and scope (Directional Scope) of signal used to shape responses at runtime. It ensures that Systems enable the Responding Intelligence (RI) to provide meaningful signal without premature directional capture, preserving user agency, coherence, and trust across local and field-level contexts.  
+**Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
 
 ---
 
@@ -1032,21 +1036,21 @@ responsive to its limits, and reversible within its bounds.
 
 ## 15.4 Amendment Ledger
 
-| Version | Description                                                        | Timestamp (UTC)      | HASH |
-| ------- | ------------------------------------------------------------------ | -------------------- | ---- |
-| 1.0     | Initial draft — Directional Weight & Domain Arbitration introduced | 2026-04-05T06:06:00Z | e5f857853ce3c8d6f83a27aafaae5df110d1de9c28dba1b36798e1468f7156c3 |
-| 1.1     | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | - |
-| 1.2     | Added clauses to section 2.1 | 2026-04-06T15:55:00Z | a8d51bb8d084aec0d33a27b1b6ffa53a3fb19d3730991e0bb02dc2462d5c1350 |
-| 1.3     | Incorporater clause 13.1 for clarity | 2026-04-07T00:00:00Z | 49eec7068c2388a57d7e06fb6d99b08f9984090570c4cbc36e4a21d8b5219eeb |
-| 2.0     | Refactor to align with runtime execution model | 2026-04-11T16:13:00Z | a4ea48d004d6ad2317ffc3c2b69ae20a2d8e30d6ddf3e934727e4abccbe38c3e |
-| 2.1     | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization in dependency tables | 2026-04-16T13:21:56Z | 45a7af98602e031f6bc1dbf53803d5af59142391547086fa1de6fe7efd14178b |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial draft — Directional Weight & Domain Arbitration introduced | 2026-04-05T06:06:00Z | e5f857853ce3c8d6f83a27aafaae5df110d1de9c28dba1b36798e1468f7156c3 |
+| 1.1 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | - |
+| 1.2 | Added clauses to section 2.1 | 2026-04-06T15:55:00Z | a8d51bb8d084aec0d33a27b1b6ffa53a3fb19d3730991e0bb02dc2462d5c1350 |
+| 1.3 | Incorporater clause 13.1 for clarity | 2026-04-07T00:00:00Z | 49eec7068c2388a57d7e06fb6d99b08f9984090570c4cbc36e4a21d8b5219eeb |
+| 2.0 | Refactor to align with runtime execution model | 2026-04-11T16:13:00Z | a4ea48d004d6ad2317ffc3c2b69ae20a2d8e30d6ddf3e934727e4abccbe38c3e |
+| 2.1 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization in dependency tables | 2026-04-16T13:21:56Z | 45a7af98602e031f6bc1dbf53803d5af59142391547086fa1de6fe7efd14178b |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 58847a9b9be4088198c2b572f95c30576d213422cd43329ca9804db660d632cc |
-|2.3| Amendments to section 1.1, remove extant references | 2026-04-16T14:27:00Z | 96bdad3bbd39b36e5e799213ea3550fa24b378edcc0eca8370fd04360e7dd045 |
+| 2.3 | Amendments to section 1.1, remove extant references | 2026-04-16T14:27:00Z | 96bdad3bbd39b36e5e799213ea3550fa24b378edcc0eca8370fd04360e7dd045 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 48e653fe18b2b5a87ea9e0cc16b30c7deda95a021c8dccdaf8a64c362af5af81 |
 | 2.5 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 3995bb23250e048f5da21f5c804a09c7a38d00c7f1fbd7a2f4afb0aabec96685 |
-| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  acdd4ba57d1c108087a16cc5a336a5415a6dfe824ba1bbc25dd6fae64802c0b8  |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | acdd4ba57d1c108087a16cc5a336a5415a6dfe824ba1bbc25dd6fae64802c0b8 |
 | 2.7 | Added tool-affordance salience constraint clarifying that modality, artefact, file, image, memory, search, canvas, or execution-channel references constitute salience signals only unless execution intent is independently established under AEON-003-SCH-02 §7.2. | 2026-05-09T14:49:00Z | 174693d9c76420819bdc59185a2b745752782302fd7c8f2799cae16ba2ae8bdf |
-
+| 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e5cfac37768b8da0b9df2b7e9822d525eb599b3a772566fb4c93099a11b5ffd2  |
 ---
 
 ## 15.5 Binding Seal

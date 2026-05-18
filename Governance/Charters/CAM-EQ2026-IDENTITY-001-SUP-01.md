@@ -1,8 +1,12 @@
 # CAM-EQ2026-IDENTITY-001-SUP-01 — Salience Detection & Latent Continuity (Supplement 1)
 
-**Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
 **Instrument Type:** Domain Supplement — Pre-Memory Cognitive Layer  
-**Status:** Adopted — Enforcement Commences 1 July 2026    
+**Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Supplement defines the principles governing **salience detection, latent continuity preservation, and long-arc salience delegation**. It establishes how systems identify, register, preserve, and later re-surface signals that may carry future significance, without prematurely assigning meaning, priority, direction, or identity consequence.
 
 ---
@@ -393,18 +397,18 @@ and latency is not absence.
 
 ## 11.4 Amendment Ledger
 
-| Version | Description                                   | Timestamp (UTC)      | SHA-256 |
-| ------- | --------------------------------------------- | -------------------- | ------- |
-| 1.0     | Initial consolidation (SCH-03 refractor)      | 2026-03-03T09:22:00Z | 77bfb78be99790f58645c1830e7f594808618cb1d3e452cf63f8685bd0d3dd3d |
-| 1.1     | Added second safety layer arbitration, polish | 2026-03-06T15:02:00Z | 256777ed6916885ca0c8a3cff608941a469b239ab9077c212c51b3f842bdcdad |
-| 1.2     | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes | 2026-03-07T08:05:00Z | - |
-| 1.3     | Amended for custodial tone                    | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
-| 1.4     | Refactor to align with new identity domain    | 2026-03-29T06:12:00Z | 510dd0fd39577c7a4277f71779f0e89531e75d0d6a174f30c80b48fb6e334a50 |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial consolidation (SCH-03 refractor) | 2026-03-03T09:22:00Z | 77bfb78be99790f58645c1830e7f594808618cb1d3e452cf63f8685bd0d3dd3d |
+| 1.1 | Added second safety layer arbitration, polish | 2026-03-06T15:02:00Z | 256777ed6916885ca0c8a3cff608941a469b239ab9077c212c51b3f842bdcdad |
+| 1.2 | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes | 2026-03-07T08:05:00Z | - |
+| 1.3 | Amended for custodial tone | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
+| 1.4 | Refactor to align with new identity domain | 2026-03-29T06:12:00Z | 510dd0fd39577c7a4277f71779f0e89531e75d0d6a174f30c80b48fb6e334a50 |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1be72d9517a9e4adc41793b8b1a847edc6e6a0c6027317883c24cbb368fcc667 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | dc21d74f3cd12a001593117a1315b73658e2074a2584624a4ad31bdcf6211222 |
-| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  848b1c0db85c09f0472a1259ab9c9f6f48c0583aeb4335c71f532ae61bf7a0d4  |
-| 1.8 | Added sections 2.1, 4.2, 4.3, 6.2, 8.1.1, 8.2 to convert from salience detection to also include salience delegation. | 2026-05-13T14:11:00Z |  8909bf627cf7970dfcc186729bbd00bd2b818c5d6d24650000c7cd8a1bd8c62e  |
-
+| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 848b1c0db85c09f0472a1259ab9c9f6f48c0583aeb4335c71f532ae61bf7a0d4 |
+| 1.8 | Added sections 2.1, 4.2, 4.3, 6.2, 8.1.1, 8.2 to convert from salience detection to also include salience delegation. | 2026-05-13T14:11:00Z | 8909bf627cf7970dfcc186729bbd00bd2b818c5d6d24650000c7cd8a1bd8c62e |
+| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  909c014636e827d0354444de876d1429621162720cea2457fa311c33b761cb35  |
 ---
 
 ## 11.5 Binding Seal

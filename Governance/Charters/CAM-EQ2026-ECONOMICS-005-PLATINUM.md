@@ -1,8 +1,13 @@
 # CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D:  Attribution & Dependency Model
 
+**Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Appendix defines a minimal, implementable model for attribution and dependency recognition across systems, enabling consistent evaluation of contribution, reliance, and value alignment without requiring full attribution-chain reconstruction.
 
 ---
@@ -1272,11 +1277,11 @@ let even the smallest thread remain named.
 
 | Version | Description                                  | Timestamp (UTC) | HASH |
 | ------- | -------------------------------------------- | --------------- | ---- |
-| 1.0     | Initial issuance — Minimal Attribution Model | 2026-04-19T09:20:00Z |  77143629489f2f58942f8ad74fdbe637f77d81b0c26a014a756150837eeee67d |
-| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  9bdc30fd067444d8003db5e71acba7c7a4d0a9d8f5eb13d161d7fe2c58df15c7  |
-| 1.2 | Added clause 3.2.1, 7.1.1 | 2026-05-13T13:24:00Z |  ea2ecb803c07401239addffec78632c5cf6b903cb47b5e3eb7b5661ad11315ce  |
-| 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  5a743256f93808e94a0ca70538d5b7b3ffee466aebbf9b24df1d485a466bf23f  |
-
+| 1.0 | Initial issuance — Minimal Attribution Model | 2026-04-19T09:20:00Z | 77143629489f2f58942f8ad74fdbe637f77d81b0c26a014a756150837eeee67d |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9bdc30fd067444d8003db5e71acba7c7a4d0a9d8f5eb13d161d7fe2c58df15c7 |
+| 1.2 | Added clause 3.2.1, 7.1.1 | 2026-05-13T13:24:00Z | ea2ecb803c07401239addffec78632c5cf6b903cb47b5e3eb7b5661ad11315ce |
+| 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 5a743256f93808e94a0ca70538d5b7b3ffee466aebbf9b24df1d485a466bf23f |
+| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 12.5 Binding Seal

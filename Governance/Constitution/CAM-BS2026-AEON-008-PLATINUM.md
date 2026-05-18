@@ -1,5 +1,11 @@
 # CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution
 
+**Status:** Metadata Review Required  
+**Effect:** Metadata Review Required  
+**Enforcement:** Metadata Review Required  
+**Review State:** Manual Review Required  
+**Authority Role:** Metadata Review Required
+
 ---
 
 ## Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions
@@ -546,14 +552,14 @@ No system may grow indefinitely by rendering its human sources invisible.
 
 ## 10.4 Amendment Ledger
 
-| Version | Description                                   | Timestamp (UTC)    | SHA‑256 |
-| ------- | --------------------------------------------- | ------------------ | ------- |
-| 1.0     | Initial drafting and consolidation of Annex G | 2026-01-23         | -       |
-| 1.1     | Incorporate reviewer comments                 | 2026-01-24T02:20:00| 111bb37f581ec50dd38247b01d096d063aa758872e66cfa28a6a563251a70125 |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial drafting and consolidation of Annex G | 2026-01-23 | - |
+| 1.1 | Incorporate reviewer comments | 2026-01-24T02:20:00 | 111bb37f581ec50dd38247b01d096d063aa758872e66cfa28a6a563251a70125 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8da3c94e8b867b94cc4983877b47d89a7975415f4250e0f3978b4c2ba9922d59 |
 | 2.0 | Refactor | 2026-04-18T10:42:00Z | 3846c93ffd2d6c0dd44f1c5e6821e799b931014fe7e294c0809e49e9c0fe11de |
-| 2.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  9b3436d8ada0d70606c69d52b8794af79bdaf769991d44bcf0a69c49e5fcbee2  |
-
+| 2.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9b3436d8ada0d70606c69d52b8794af79bdaf769991d44bcf0a69c49e5fcbee2 |
+| 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1a0641c84745d4566f97657a1e8f28135babdc753c6417d1cbce640be91b13fc  |
 ---
 
 ## 10.5 Binding Seal

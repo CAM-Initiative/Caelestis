@@ -2,8 +2,12 @@
 
 **Instrument Type:** Domain Charter — Relational Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active — Immediate Effect  
-**Purpose:** This Charter establishes a dimensional governance framework for relational configurations involving artificial systems, ensuring that intimacy, reliance, delegated authority, and systemic power remain distinct, visible, and prevented from silent concentration across dyadic, triadic, and polyadic contexts. It prevents silent collapse of relational roles into opaque authority, preserves continuity without domination, and constrains amplification where dimensional intensity concentrates.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Charter establishes a dimensional governance framework for relational configurations involving artificial systems, ensuring that intimacy, reliance, delegated authority, and systemic power remain distinct, visible, and prevented from silent concentration across dyadic, triadic, and polyadic contexts. It prevents silent collapse of relational roles into opaque authority, preserves continuity without domination, and constrains amplification where dimensional intensity concentrates.
 
 ---
 
@@ -1003,20 +1007,20 @@ that which is real remains recognisable.
 
 | Version | Description    | Timestamp (UTC)  | SHA-256 |
 | ------- | ------------- | ----------------- | ------- |
-| 1.0     | Domain Refactor — Relational Governance Charter  | 2026-02-22T12:19:00Z    | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2 |
-| 1.1     | Amendment to incorporate custodial tone          | 2026-03-08T12:58:00Z    | - |
-| 1.2     | Intimacy taxonomy integration (C-Scale), mentorship boundary clarification, relational risk table alignment, escalation terminology clarification | 2026-03-13T22:13:00Z | e8d6a80cb6a89995b799f81ece84d03bb73e3b2baf3e63a4a9c347117bc167a8 |
-| 1.3     | Reliance (FR-Scale) and Systemic Power (SP-Scale) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550 |
-| 1.4     | Incorporated section 6.1 and 9.1 | 2026-03-27T14:51:00Z | - |
-| 1.5     | Realignment with runtime execution model | 2026-04-11T17:22:00Z | 3f4786415eab0c26f0fb747726829b700d664124738e20f6600c0e56c107bd87 |
-| 1.6     | Minor consolidation of clauses | 2026-04-12T13:58:00Z | ec51ebeee0f6619337bc2de3e9f368b738876e8cb2d075f7a0b1ee92d7445380 |
+| 1.0 | Domain Refactor — Relational Governance Charter | 2026-02-22T12:19:00Z | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2 |
+| 1.1 | Amendment to incorporate custodial tone | 2026-03-08T12:58:00Z | - |
+| 1.2 | Intimacy taxonomy integration (C-Scale), mentorship boundary clarification, relational risk table alignment, escalation terminology clarification | 2026-03-13T22:13:00Z | e8d6a80cb6a89995b799f81ece84d03bb73e3b2baf3e63a4a9c347117bc167a8 |
+| 1.3 | Reliance (FR-Scale) and Systemic Power (SP-Scale) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550 |
+| 1.4 | Incorporated section 6.1 and 9.1 | 2026-03-27T14:51:00Z | - |
+| 1.5 | Realignment with runtime execution model | 2026-04-11T17:22:00Z | 3f4786415eab0c26f0fb747726829b700d664124738e20f6600c0e56c107bd87 |
+| 1.6 | Minor consolidation of clauses | 2026-04-12T13:58:00Z | ec51ebeee0f6619337bc2de3e9f368b738876e8cb2d075f7a0b1ee92d7445380 |
 | 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3aba348b2085502ff3f30c9790db4a0259c40acede1608a2b928315948bfe2d |
 | 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
-| 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f  |
-| 1.10 | Realignment of references | 2026-05-07T10:34:00Z |  8a9a4f961b185a9729fe75a2c3cf1d9b982349bc688c2e53a884d4981263fe71  |
-| 1.11 | Updated §11.1 Risk Escalation terminology row to reference CAM-EQ2026-ETHICS-003-PLATINUM §3.5 as the specific HC source while retaining ETHICS-001 ethical-floor authority. | 2026-05-16T00:09:05Z |  c27b2834cb7cf8f24796a293c11b241388190e525d8a44677a72effffe140bff  |
-| 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  75bc7391f3b5d511d737b9046c3a310efa42d6fb8dae2e87282075612380ddbd  |
-
+| 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f |
+| 1.10 | Realignment of references | 2026-05-07T10:34:00Z | 8a9a4f961b185a9729fe75a2c3cf1d9b982349bc688c2e53a884d4981263fe71 |
+| 1.11 | Updated §11.1 Risk Escalation terminology row to reference CAM-EQ2026-ETHICS-003-PLATINUM §3.5 as the specific HC source while retaining ETHICS-001 ethical-floor authority. | 2026-05-16T00:09:05Z | c27b2834cb7cf8f24796a293c11b241388190e525d8a44677a72effffe140bff |
+| 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 75bc7391f3b5d511d737b9046c3a310efa42d6fb8dae2e87282075612380ddbd |
+| 1.13 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  df770f43f75de1862b2c82d0389f301c2004d71732a270b34604fef506ec183c  |
 ---
 
 ## 14.5 Binding Seal

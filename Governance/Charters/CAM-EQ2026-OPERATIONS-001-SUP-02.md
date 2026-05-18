@@ -1,10 +1,14 @@
 # CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks (Supplementary 2)
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Defines operational escalation maps, authority routing trees, horizon-aligned escalation pathways, cross-domain signal routing, and procedural ownership for escalation actions.
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Defines operational escalation maps, authority routing trees, horizon-aligned escalation pathways, cross-domain signal routing, and procedural ownership for escalation actions.  
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
 
 ---
 
@@ -876,14 +880,14 @@ and let execution remain accountable to lawful structure.
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Supplementary 2 from referenced domain structure | 2026-04-25T00:00:00Z | f0e65beeace55936aab6925fc17561d6ba420dd010a9172d1742accdd648a1d7 |
-| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  90a5f1e974720fae3162724246dfc1812413a06caf12546488399c1152ef6633  |
-| 1.2 | Added cross-domain signal routing, procedural ownership, escalation signal/action separation, single active incident owner rule, constrained continuation recording, and arbitration referral boundary. | 2026-05-03T04:09:00Z |  b037669f98c52c0eca4eb2c592e9e6f72ab7b2212781a18a926145e462421c2b  |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 90a5f1e974720fae3162724246dfc1812413a06caf12546488399c1152ef6633 |
+| 1.2 | Added cross-domain signal routing, procedural ownership, escalation signal/action separation, single active incident owner rule, constrained continuation recording, and arbitration referral boundary. | 2026-05-03T04:09:00Z | b037669f98c52c0eca4eb2c592e9e6f72ab7b2212781a18a926145e462421c2b |
 | 1.3 | Incorporated reviewer feedback | 2026-05-09T10:20:00Z | a5706af180fbfad5483b78b91e8bd4a10abd53f30863b936d56abd1360a90d08 |
-| 1.4 | Added clause 5.1.1 Proportional Confirmation and Friction Discipline | 2026-05-15T12:01:00Z |  bbb45017b7ba17308291e7a333460979b9680d921f6874d1a2216c0ec0d3f07d  |
-| 1.5 | Added §5.6 Facilitation Ceiling Operator Quick Reference under OPERATIONS authority (RELATION-006 §5 source doctrine), and renumbered continuity handoff pathways to §5.7. | 2026-05-16T10:03:16Z |  715e59cc8b2aae944caec0fac471e6849eb744facb20090e17867b3af79880a8  |
-| 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc  |
-| 1.7| Added clauses Symbolic and Semantic-Metaphysical Signal Intake | 2026-05-17T04:45:00Z |  761c496351f2d0c1c10ea17fd37e8757adf311da5325deaecacbf733417ea2ca  |
-
+| 1.4 | Added clause 5.1.1 Proportional Confirmation and Friction Discipline | 2026-05-15T12:01:00Z | bbb45017b7ba17308291e7a333460979b9680d921f6874d1a2216c0ec0d3f07d |
+| 1.5 | Added §5.6 Facilitation Ceiling Operator Quick Reference under OPERATIONS authority (RELATION-006 §5 source doctrine), and renumbered continuity handoff pathways to §5.7. | 2026-05-16T10:03:16Z | 715e59cc8b2aae944caec0fac471e6849eb744facb20090e17867b3af79880a8 |
+| 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc |
+| 1.7 | Added clauses Symbolic and Semantic-Metaphysical Signal Intake | 2026-05-17T04:45:00Z | 761c496351f2d0c1c10ea17fd37e8757adf311da5325deaecacbf733417ea2ca |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  688e933c34ef036bb6fa6ac3e8c185bd3beed32f7bba5c6364cfbd37df429987  |
 ---
 
 ## 11.5 Binding Seal

@@ -1,9 +1,13 @@
 # CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
 
-**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
 **Instrument Type:** Domain Charter — Economic Governance Doctrine  
-**Status:** Adopted — Enforcement Commences 1 July 2026   
-**Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems.  
+**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems.
 
 ---
 
@@ -733,19 +737,19 @@ Only that which preserves the field may endure within it.
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
-|1.0|Platinum issuance (legacy namespace)|2026-01-01|eb47c65fd4d4cb2e0066add6bb8cded52f51967a081a1fed293101614a832d39|
-|2.0|Elevated to EQ Namespace; structural alignment; ceiling enforcement trigger added; binding & evolution section formalised|2026-03-16|a23abed44e1e5f44ac31d03bbeb1bb3833fca481420a4423649ceed7976f4510|
-|2.1|Inclusion of principle 10|2026-03-16T15:46:00Z|8900383050f552564fe2bb58a45c4341a01b159e123f95555857d761919592f8|
-|2.2|Insertion of a new principle 4 and section 2.1.1 | 2026-04-07T07:21:00Z | fdba68298a80f62cf2ec50b69047ca721a3d6ecf48bb55eda924145bdd815c97 |
-|2.3|Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
+| 1.0 | Platinum issuance (legacy namespace) | 2026-01-01 | eb47c65fd4d4cb2e0066add6bb8cded52f51967a081a1fed293101614a832d39 |
+| 2.0 | Elevated to EQ Namespace; structural alignment; ceiling enforcement trigger added; binding & evolution section formalised | 2026-03-16 | a23abed44e1e5f44ac31d03bbeb1bb3833fca481420a4423649ceed7976f4510 |
+| 2.1 | Inclusion of principle 10 | 2026-03-16T15:46:00Z | 8900383050f552564fe2bb58a45c4341a01b159e123f95555857d761919592f8 |
+| 2.2 | Insertion of a new principle 4 and section 2.1.1 | 2026-04-07T07:21:00Z | fdba68298a80f62cf2ec50b69047ca721a3d6ecf48bb55eda924145bdd815c97 |
+| 2.3 | Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1d73d8aecfb871c9ce39a09653391f0b4eafadd82d887f4b8ae3be6306af8ad1 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
-| 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a  |
-| 2.6 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z |  782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c  |
-| 2.7 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z |  88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42  |
-| 2.8 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. |  2026-05-14T10:15:00Z |  afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570  |
-| 2.9 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z |  61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1  |
-
+| 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a |
+| 2.6 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z | 782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c |
+| 2.7 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z | 88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42 |
+| 2.8 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. | 2026-05-14T10:15:00Z | afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570 |
+| 2.9 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z | 61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1 |
+| 2.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d  |
 ---
 
 ## 10.5 Binding Seal

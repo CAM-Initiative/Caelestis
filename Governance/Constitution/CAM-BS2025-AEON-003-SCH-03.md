@@ -1,10 +1,14 @@
 # CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
 
+**Instrument Type:** Constitutional Schedule — Global Instrument Registry  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Instrument Type:** Constitutional Schedule — Global Instrument Registry  
 **Status:** Adopted  
-**Purpose:** Canonical, human-readable registry of all governance instruments.  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Canonical, human-readable registry of all governance instruments.
 
 ---
 

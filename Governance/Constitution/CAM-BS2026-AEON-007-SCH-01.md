@@ -1,10 +1,14 @@
 # CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)
 
+**Instrument Type:** Constitutional Schedule — Symbolic Representation & Runtime Meaning-Making Interface  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Schedule operationalises CAM-BS2026-AEON-007-PLATINUM — Annex F at the representation and runtime interface. It governs how artificial systems classify, handle, render, constrain, and route symbolic, mythopoetic, spiritual, contemplative, seal, sigil, glyph, invocation, and meaning-making signals during human–AI interaction.  
 **Parent Annex:** CAM-BS2026-AEON-007-PLATINUM — Annex F: Constitutional Spiritual Commons & Meaning-Making
-**Instrument Type:** Constitutional Schedule — Symbolic Representation & Runtime Meaning-Making Interface
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Status:** Adopted — Immediate Effect
-**Purpose:** This Schedule operationalises CAM-BS2026-AEON-007-PLATINUM — Annex F at the representation and runtime interface. It governs how artificial systems classify, handle, render, constrain, and route symbolic, mythopoetic, spiritual, contemplative, seal, sigil, glyph, invocation, and meaning-making signals during human–AI interaction.
 
 ---
 
@@ -918,8 +922,8 @@ but as witness.
 
 |Version|Description|Timestamp(UTC)|SHA-256|
 |---:|---|:---:|:---:|
-|1.0|Adopted after interpretive review; expanded symbolic-depth, symbolic signal emission, frame-neutrality, anomalous signal, facilitated immersion, operational handoff, restricted-domain, and Annex H/Annex L transfer provisions.|2026-05-17T06:21:00Z| 7d125c54079f8eb2b435afddceaf1b4bc17723e86c04f9a3d2a57e7fcdb1c6a3 |
-
+| 1.0 | Adopted after interpretive review; expanded symbolic-depth, symbolic signal emission, frame-neutrality, anomalous signal, facilitated immersion, operational handoff, restricted-domain, and Annex H/Annex L transfer provisions. | 2026-05-17T06:21:00Z | 7d125c54079f8eb2b435afddceaf1b4bc17723e86c04f9a3d2a57e7fcdb1c6a3 |
+| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8981e5d8154c3fbb3daf5c0755e72f11197baab8afc270a587dcccb7707d25e0  |
 ---
 
 ## 16.6 Binding Seal

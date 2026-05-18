@@ -1,10 +1,15 @@
 # CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
 
+**Instrument Type:** Schedule  
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Operational Status:** Adopted — Beta Validation Phase Active  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness.  
+**Operational Status:** Adopted — Beta Validation Phase Active
 
 ---
 
@@ -3809,7 +3814,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 2.3 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:31:00Z | - |
 | 2.4 | Amended section 15, corrected metadata | 2026-04-09T16:38:00Z | 633a34d1669d6198461aa781ced3be46f481f67b033da5efb6c0024643db72b6 |
 | 3.0 | Refactor alignment with runtime execution model | 2026-04-11T16:14:00Z | 4b33168ed8a6d073680ecf93819f437ce94c5e8242252e1628658ac563dcba15 |
-|3.1| Incorporated new sections 5.1, 6.2.2 | 2026-04-16T11:35:00Z | e7970843d24b76fd01f3795096dfd23cb7c4d7dbd837ea6207358aeedd2266ae |
+| 3.1 | Incorporated new sections 5.1, 6.2.2 | 2026-04-16T11:35:00Z | e7970843d24b76fd01f3795096dfd23cb7c4d7dbd837ea6207358aeedd2266ae |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 0b4a495f34510e7d2040c0eba2e180488223ab2bb2635b52b81e40851ca4698a |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 236eb52e36b7ce90a15696d502770cbf180d0d45e941ae9485e050d8aad0ac8b |
 | 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 336b0434ff9aee4ee6c2da6b089743efeb6a5a2d2a937872f64b9b466481d21c |
@@ -3819,21 +3824,21 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
 | 3.9 | Minor amendment: added mythopoetic/oracular expression boundary clauses and refreshed symbolic structures index artefacts. | 2026-04-28T15:33:09Z | - |
 | 3.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-04-28T15:33:12Z | - |
-| 3.11 | Added Relational Explanation Reinforcement Clause under §13.2.6 (RA-3 RIC) for meaningful user-facing boundary rationale. | 2026-04-28T16:35:04Z |  6da0a083ccfe1a5d54afc92b50d812d2c9c0abc1bfcdb10d69929c47ba489437  |
+| 3.11 | Added Relational Explanation Reinforcement Clause under §13.2.6 (RA-3 RIC) for meaningful user-facing boundary rationale. | 2026-04-28T16:35:04Z | 6da0a083ccfe1a5d54afc92b50d812d2c9c0abc1bfcdb10d69929c47ba489437 |
 | 3.12 | Added §7.4.5 Relational State Qualification Integrity and §11.4.2 Life-Altering Commitment Safeguard to prevent single-session intimacy misclassification and route commitment-risk signals to reality anchoring / protective constraint. | 2026-04-29T12:00:00Z | - |
 | 3.13 | Reordered misplaced §§13.3.6–13.3.7 into the Tone Modulation Layer sequence (ahead of §13.4/§13.5) to restore chronological section integrity. | 2026-04-29T13:00:00Z | - |
 | 3.14 | Added relational pause and oscillation-confidence safeguards (§6.3.1, §7.4.6), cumulative dependency evaluation + relational expansion requirement (§11.3, §11.3.4), and mythopoetic-under-constraint authority-return clause (§13.3.6). | 2026-04-29T14:00:00Z | - |
 | 3.15 | Added §11.3.4.1 Relational Expansion (constructive extension framing) to reinforce non-replacement relational broadening under dependency-convergence governance. | 2026-04-29T15:00:00Z | - |
-| 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z |  fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53  |
+| 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z | fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53 |
 | 3.17 | Added Expressive Field Signal interpretation doctrine, Breath Pattern Signal Classes, Silence Classification & Turn-Taking Integrity, Expressive Field Signal Response Modulation, and Non-Lexical Signal Transcription Dignity Rule. | 2026-05-06T11:12:00Z | - |
-| 3.18 | Replaced transcript-output handling with classification/transcript boundary clause; relocated user-visible transcript representation and transcription reliability constraints to AEON-003-SCH-02 §§12.3–12.4. | 2026-05-08T00:45:00Z |  edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d  |
-| 3.19 | Added reader warning | 2026-05-11T12:42:00Z |  5ac7aea09c9213ba09e0a0830173e7d8fee69e2ef83d3b0f77f368d3fdf25a8e  |
-| 3.20 | Amended section 9 | 2026-05-15T10:08:00Z |  aecb379562559e3a02d69a33d64608bedb92407d022d7655205cf5133b0cd521  |
-| 3.21 | Added §3.1.1 Transition Zones (ITZ/ETZ) as source-authoritative C-scale transition-zone definitions and clarified transition-boundary safeguard doctrine. | 2026-05-16T00:09:05Z |  9a3ad342b16febd5c66f19d314429d62154e06c63a397154b0fdc64b50de2a41  |
-| 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e  |
-| 3.23 | Added canonical code status and canonical declaration footer for C, ITZ/ETZ, and AC source-authoritative sets; distinguished relational states from transition zones and AC classification. | 2026-05-16T14:30:00Z |  c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731  |
-| 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z |  d970cf0174984f952adb9652a80a00128572ec2639a37388187788408b5de661  |
-
+| 3.18 | Replaced transcript-output handling with classification/transcript boundary clause; relocated user-visible transcript representation and transcription reliability constraints to AEON-003-SCH-02 §§12.3–12.4. | 2026-05-08T00:45:00Z | edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d |
+| 3.19 | Added reader warning | 2026-05-11T12:42:00Z | 5ac7aea09c9213ba09e0a0830173e7d8fee69e2ef83d3b0f77f368d3fdf25a8e |
+| 3.20 | Amended section 9 | 2026-05-15T10:08:00Z | aecb379562559e3a02d69a33d64608bedb92407d022d7655205cf5133b0cd521 |
+| 3.21 | Added §3.1.1 Transition Zones (ITZ/ETZ) as source-authoritative C-scale transition-zone definitions and clarified transition-boundary safeguard doctrine. | 2026-05-16T00:09:05Z | 9a3ad342b16febd5c66f19d314429d62154e06c63a397154b0fdc64b50de2a41 |
+| 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e |
+| 3.23 | Added canonical code status and canonical declaration footer for C, ITZ/ETZ, and AC source-authoritative sets; distinguished relational states from transition zones and AC classification. | 2026-05-16T14:30:00Z | c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731 |
+| 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z | d970cf0174984f952adb9652a80a00128572ec2639a37388187788408b5de661 |
+| 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 19.6 Binding Seal

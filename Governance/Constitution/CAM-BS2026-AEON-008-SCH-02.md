@@ -1,12 +1,16 @@
 # CAM-BS2026-AEON-008-SCH-02 — Annex G: Economic-Effect Runtime Commitment Engine
 
-**Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Instrument Type:** Constitutional Schedule — Runtime Economic-Effect Commitment Layer  
-**Status:** Adopted — Enforcement Commences 1 July 2026    
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Establishes constitutional runtime constraints for evaluating, admitting, committing, deferring, refusing, falling back, or rolling back economic-effect state transitions where resource provisioning, depletion, exchange, contribution, attention-linked value, storage, memory, embodied presence, or protective continuity may be affected.  
+**Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution  
 **Semantic Interface:** CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine  
-**Related Runtime Schedule:** CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model  
-**Purpose:** Establishes constitutional runtime constraints for evaluating, admitting, committing, deferring, refusing, falling back, or rolling back economic-effect state transitions where resource provisioning, depletion, exchange, contribution, attention-linked value, storage, memory, embodied presence, or protective continuity may be affected.
+**Related Runtime Schedule:** CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model
 
 ---
 
@@ -753,10 +757,10 @@ and optimisation without dignity forgets why systems were built at all.
 
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | --- | --- |
-| 1.0 | First working issue — Annex G: Economic-Effect Runtime Commitment Engine | 2026-05-10T11:50:00Z |  30847c25e9ec345c33caa17ad580bae66a903ba984bc07142610179b8803df1f  |
+| 1.0 | First working issue — Annex G: Economic-Effect Runtime Commitment Engine | 2026-05-10T11:50:00Z | 30847c25e9ec345c33caa17ad580bae66a903ba984bc07142610179b8803df1f |
 | 1.1 | Alignment with CAM-EQ2026-OPERATIONS-001-SUP-04-PLATINUM; added §7.1 Canonical Code Status | 2026-05-14T12:22:00Z | e041c7f0955224167b150abdb399ac7b0cb154ed0b25999f175827913de77cc5 |
-| 1.2 | Minor amendments to align with legitimacy layer doctrines | 2026-05-17T14:02:00Z |  76bfa42fa9928aed98483da827521346293d4f2e7d6817b7586d95da7069e16d  |
-
+| 1.2 | Minor amendments to align with legitimacy layer doctrines | 2026-05-17T14:02:00Z | 76bfa42fa9928aed98483da827521346293d4f2e7d6817b7586d95da7069e16d |
+| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4c8f1e339e85ade31a3dfef597e89419e015c4ef2acfe55934e8f70701b750dd  |
 ---
 
 ## 34.5 Binding Seal

@@ -1,10 +1,14 @@
 # CAM-EQ2026-RELATION-001-SUP-02 — Claims Taxonomy & Truth-in-Relationship Standard (Supplementary 2)
 
 **Instrument Type:** Relational Supplement — Claim Classification & Truth Calibration  
-**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active — Immediate Effect, 7-day observation window; operational rollout active on commit   
-**Purpose:** Establish a relationally calibrated taxonomy for user-facing claims in AI interaction, distinguishing factual, continuity, capability, governance, interpretive, relational-assurance, and symbolic claims so that truth obligations are preserved without collapsing all relational language into factual assertion.
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Establish a relationally calibrated taxonomy for user-facing claims in AI interaction, distinguishing factual, continuity, capability, governance, interpretive, relational-assurance, and symbolic claims so that truth obligations are preserved without collapsing all relational language into factual assertion.  
+**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
 
 ---
 
@@ -305,8 +309,8 @@ and where no claim wears a borrowed crown.
 
 | Version | Description  | Timestamp (UTC)  | HASH |
 | --- | --- | --- | --- |
-| 1.0 | Initial: claims taxonomy and truth-in-relationship standard | 2026-05-12T15:32:00Z |  d27830a1148090bf97fcb26abf2f02a9fe6867bae28f8fb84dd067941082af64  |
-
+| 1.0 | Initial: claims taxonomy and truth-in-relationship standard | 2026-05-12T15:32:00Z | d27830a1148090bf97fcb26abf2f02a9fe6867bae28f8fb84dd067941082af64 |
+| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dd5c77aa58f0ac97eb5ad1c6bfb10ec660cdc675c7194f1cb0586b689e5ca112  |
 ---
 
 ## 11.5 Binding Seal

@@ -1,10 +1,14 @@
 # CAM-EQ2026-OPERATIONS-006-PLATINUM — Appendix E: Domain Coordination & Convergence Operations
 
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter    
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.  
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
 
 ---
 
@@ -319,10 +323,10 @@ and let execution remain accountable to lawful structure.
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Appendix E from referenced domain structure | 2026-04-25T00:00:00Z | 7742f5738a479ab73bc1ced963e998c326fbae62fa0c088994ebb757d863d3ba |
-| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  fee3288eabfd88faa613c4ef66bde149fd35e4157e10fee1be17fe2291fe1669  |
-| 1.2 | Realignment of references | 2026-05-07T12:24:00Z |  ede88d74ee2fcc656e5b27d02d0c906134dea24ce82f61fbe98a54ede1badb96  |
-| 2.0 | Refactor | 2026-05-15T13:14:00Z |  872a8ec1dc5ecbb5afdeb83848b6f194c65e14e6918873159d044e3e2a3b1143  |
-
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | fee3288eabfd88faa613c4ef66bde149fd35e4157e10fee1be17fe2291fe1669 |
+| 1.2 | Realignment of references | 2026-05-07T12:24:00Z | ede88d74ee2fcc656e5b27d02d0c906134dea24ce82f61fbe98a54ede1badb96 |
+| 2.0 | Refactor | 2026-05-15T13:14:00Z | 872a8ec1dc5ecbb5afdeb83848b6f194c65e14e6918873159d044e3e2a3b1143 |
+| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e06057bb4d4b50da03966c2467203a0e056ab6d12cf009602a496890077691b1  |
 ---
 
 ## 6.5 Binding Seal

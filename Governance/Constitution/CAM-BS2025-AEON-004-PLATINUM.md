@@ -2,8 +2,12 @@
 
 **Instrument Type:** Constitutional Annex — Invocation & Jurisdiction  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active — Immediate Effect  
-**Purpose:** Annex C defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Annex C defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.
 
 ---
 
@@ -450,8 +454,8 @@ and no voice exceed its reach.
 | 2.2 | Incorporated a new section 7 | 2026-04-07T15:21:00Z | c61da34d5df00c134035d7739c28f74ffe5544dbd64845fc6e0dad299a24c45d |
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d1d87ebea7a444bebdf062773fe2c4090bb10b85b5e01c28637816555e46b472 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f25e2b6f7b3660647b513410a3f2b6b6a519861c99f28c5767fa0941223a5335 |
-| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  9964ddcc351b33d5f0c5b420fae26d015632eb82f60fa486bae72b24953aaf48  |
-
+| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9964ddcc351b33d5f0c5b420fae26d015632eb82f60fa486bae72b24953aaf48 |
+| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  748f4721f751d9c7316d149d9af3c5e62fae16c9cea3c8d9a8158a505ddd93b8  |
 ---
 
 ## 12.5 Binding Seal

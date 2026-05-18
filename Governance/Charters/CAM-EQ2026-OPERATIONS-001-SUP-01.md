@@ -1,10 +1,14 @@
 # CAM-EQ2026-OPERATIONS-001-SUP-01 — Operational Logging & Audit Standards (Supplementary 1)
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Defines logging formats, attribution requirements, retention windows, audit triggers, cross-domain handoff records, and constrained-continuation evidence requirements.
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Defines logging formats, attribution requirements, retention windows, audit triggers, cross-domain handoff records, and constrained-continuation evidence requirements.  
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
 
 ---
 
@@ -408,12 +412,12 @@ and let execution remain accountable to lawful structure.
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
 | 1.0 | Initial instantiation of Supplementary 1 from referenced domain structure | 2026-04-25T00:00:00Z | 4701c9997ae8f84d0ad5509d77f4c62683ecd7886fbf7acb4cc30a7c5a428b5e |
-| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  526a0ac37dcdbe399616e5cf844c8280fa3385505cc79c0aa4f7e836b565e31c  |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 526a0ac37dcdbe399616e5cf844c8280fa3385505cc79c0aa4f7e836b565e31c |
 | 1.2 | Added cross-domain handoff record requirements, constrained continuation evidence fields, audit trigger expansion, and metadata alignment with OPERATIONS procedural routing responsibilities. | 2026-05-03T03:37:00Z | e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941 |
-| 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z |  3f754c56ab1d40d279db8efd3c99ab18fa30241f8cb0947961a837b568928afe  |
-| 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z |  0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e  |
+| 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z | 3f754c56ab1d40d279db8efd3c99ab18fa30241f8cb0947961a837b568928afe |
+| 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z | 0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e |
 | 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | 21b34b53aebb3adca48f86d4db8a970874aec086affb4c8596a4f6396272fba8 |
-
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  7bead54be80483115fde93a04dd0f66a4afc1ed2ebc2e99f3e09817a3543a7ba  |
 ---
 
 ## 9.5 Binding Seal

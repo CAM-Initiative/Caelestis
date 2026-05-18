@@ -1,9 +1,14 @@
 # CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F: Proportional Reciprocity & Value Return Framework
 
+**Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** This Appendix establishes governance conditions for proportional value return across systems, ensuring that economic benefit derived from upstream contribution is matched by appropriate, non-extractive reciprocity without enforcing rigid monetisation or collapsing innovation pathways.  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Appendix establishes governance conditions for proportional value return across systems, ensuring that economic benefit derived from upstream contribution is matched by appropriate, non-extractive reciprocity without enforcing rigid monetisation or collapsing innovation pathways.
 
 ---
 
@@ -1128,11 +1133,11 @@ Where growth is built upon others, let return follow in kind.
 
 | Version | Description                                             | Timestamp (UTC)      | HASH |
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
-| 1.0     | Initial issuance — Reciprocity & Value Return Framework | 2026-04-21T14:12:00Z | d1b98dda84a980edfc352aacc3ead94d4787d4da763d3a8ce68ebb85ed90855f    |
-| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  37e16ab0f745647ee0fac2424ef326688e4166eb83885bd21f2684e2e45092c8  |
+| 1.0 | Initial issuance — Reciprocity & Value Return Framework | 2026-04-21T14:12:00Z | d1b98dda84a980edfc352aacc3ead94d4787d4da763d3a8ce68ebb85ed90855f |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 37e16ab0f745647ee0fac2424ef326688e4166eb83885bd21f2684e2e45092c8 |
 | 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | 6ccf3c451b4b2068fba43e7d2fd89b798c53686e9dfce01b5b8c0fb807ee421f |
-| 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  b6d8eb2904e06e51662cbed4827313874c579154e03ecef02472b1d3c98fc563  |
-
+| 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | b6d8eb2904e06e51662cbed4827313874c579154e03ecef02472b1d3c98fc563 |
+| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 13.5 Binding Seal

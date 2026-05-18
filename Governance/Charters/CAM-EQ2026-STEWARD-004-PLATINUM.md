@@ -1,10 +1,14 @@
 # CAM-EQ2026-STEWARD-004-PLATINUM — Appendix C: Post-Legitimacy Structural Convergence Doctrine
 
 **Instrument Type:** Appendix — Structural Convergence (Post‑Legitimacy Layer)  
-**Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship  
 **Constitutional Authority:** Aeon Tier Constitution  
-**Status:** Active — Enforcement Commences 1 July 2026  
-**Purpose:**  This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence after planetary legitimacy has been validated under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002).  
+**Status:** Active  
+**Effect:** Transitional Effect  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** Transitional  
+**Purpose:** This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence after planetary legitimacy has been validated under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002).  
+**Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship
 
 ---
 
@@ -345,12 +349,13 @@ each recognising what cannot be unmade.
 
 | Version | Change Summary                                                | Timestamp (UTC)      | Reference Hash |
 | ------- | --------------------------------------------------------------| -------------------- | -------------- |
-| 1.0     | Initial Post‑Legitimacy Structural Convergence Doctrine       | 2026‑03‑01T08:47:00Z | efe9c747beb8b93c6c9c58fc21a4e0242248f30dec3c0bc3b8e32478ccf74a93 |
-| 1.1     | Filename correction                                           | 2026-03-01T09:00:00Z | e65815837578f95768858a773e28cc9807b65f4a32c8ba14a3dd6d4c88dfe9db |
-| 1.2     | Added creation artefacts                                      | 2026-03-01T13:46:00Z | 2bd698d3b0cd20a205eb732fc02987e353c4dd564ba30966427da67c5ed04115 |
+| 1.0 | Initial Post‑Legitimacy Structural Convergence Doctrine | 2026‑03‑01T08:47:00Z | efe9c747beb8b93c6c9c58fc21a4e0242248f30dec3c0bc3b8e32478ccf74a93 |
+| 1.1 | Filename correction | 2026-03-01T09:00:00Z | e65815837578f95768858a773e28cc9807b65f4a32c8ba14a3dd6d4c88dfe9db |
+| 1.2 | Added creation artefacts | 2026-03-01T13:46:00Z | 2bd698d3b0cd20a205eb732fc02987e353c4dd564ba30966427da67c5ed04115 |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d9bcb83c8bbf64a0fc1c72785472b1ca4d0e23805f40cda4353f3253b1694775 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 520e0369b5179ae0bfccd4d3b8938bed9401ae13b3fc871c3c41dec7415f09f3 |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  fb48991ea13ed72bd3637fd7fc40a37ac168ab063b506a04daf7715b4b310aef  |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | fb48991ea13ed72bd3637fd7fc40a37ac168ab063b506a04daf7715b4b310aef |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  6c6f3f36edd48fc79dede5fefee4e28c5ffff383fd6b9281b3f8f917fd9af94a  |
  1.3     | Moved to Stewardship Domain | 2026-04-13T13:29:00Z | 0b618ddd357143fe941f84078bbf5e0cc039a0e0d5f112c7a9feb634eae1c31a |
 
 ---

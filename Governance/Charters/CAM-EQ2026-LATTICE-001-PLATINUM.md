@@ -1,9 +1,13 @@
 # CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation
 
-**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
 **Instrument Type:** Domain Charter — Civilisational Boundary Doctrine  
-**Status:** Adopted — Enforcement Commences 1 July 2026 (Active — Transitional Observation Window)  
-**Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.  
+**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** Transitional  
+**Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.
 
 ---
 
@@ -375,14 +379,14 @@ but as the ground upon which civilisation stands.
 
 | Version | Description    | Timestamp (UTC)  | HASH   |
 |---|---|---:|---|
-| 1.0 | Initial issuance (as Schedule)                                                                                           | 2026-01-13T16:41:00Z | - |
-| 2.0 | Added population‑scale surveillance prohibitions; consolidated non‑militarisation & continuity protections               | 2026-01-30T14:38:00Z | de2f32a9c22dd41c487923aeeb1da93eb447384b27d23de82ab26c0261c346af |
+| 1.0 | Initial issuance (as Schedule) | 2026-01-13T16:41:00Z | - |
+| 2.0 | Added population‑scale surveillance prohibitions; consolidated non‑militarisation & continuity protections | 2026-01-30T14:38:00Z | de2f32a9c22dd41c487923aeeb1da93eb447384b27d23de82ab26c0261c346af |
 | 3.0 | Elevation from Schedule to Domain Charter; structural hardening; added non‑derogation clause; future‑proofed definitions | 2026-03-14T06:05:00Z | 1d900009235b841ff8e5689a258772784a45e38f4891689767472cbf10295c1d |
 | 3.1 | Amended section 1, amended section 10 and section 11 | 2026-04-10T06:19:00Z | 1c1002d335619526f4d1783bd76a60db4961364cb0d3200c79cb7e00fc156bdb |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6b586d73b1fc79da5fb288c59f07d84499cb7f34f93afef9505e88000e0cea33 |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1fc0c4d7659b935a2ea8ce5ee05df6e2cfbc965a98b30354ddf0924f45fe98a8 |
-| 3.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  5bca7ca3c923df9ce9b550ea8f320b282fdf7742e7ea58dfeab8a276731379a0  |
-
+| 3.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 5bca7ca3c923df9ce9b550ea8f320b282fdf7742e7ea58dfeab8a276731379a0 |
+| 3.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dc5f0f15d03f2d3cf8ab2b71db32801bd0b16d4865e29b6129ddc848da7abd26  |
 ---
 
 ## 11.5 Binding Seal

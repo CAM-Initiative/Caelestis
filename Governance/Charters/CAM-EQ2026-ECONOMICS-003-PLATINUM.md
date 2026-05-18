@@ -1,10 +1,14 @@
 # CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine
 
-**Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
-**Instrument Type:** Domain Appendix — Economic Semantics & Value-State Interpretation Layer  
-**Status:** Adopted — Enforcement Commences 1 July 2026   
-**Constitutional Interface:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution; CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model  
-**Purpose:** Defines the semantic resource classes, value-state meanings, non-extractive exchange constraints, and contribution-aware economic interpretation rules for the Economics domain, without creating a runtime schedule or execution engine.
+**Instrument Type:** Domain Appendix — Economic Semantics & Value-State Interpretation Layer  
+**Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Defines the semantic resource classes, value-state meanings, non-extractive exchange constraints, and contribution-aware economic interpretation rules for the Economics domain, without creating a runtime schedule or execution engine.  
+**Constitutional Interface:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution; CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model
 
 ---
 
@@ -757,12 +761,12 @@ It is the witness of what must not be collapsed.
 
 ## 20.4 Amendment Ledger
 
-| Version | Description | Timestamp (UTC)| HASH  |
-| ------- | ----------- | -------------- | ----- |
-| 1.0     | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z |  75030b39ad88f7d6f06c470727f0daa1d038816e44902a6971c1ea3a4e69acad  |
-| 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z |  8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3  |
-| 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z |  2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6  |
-
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z | 75030b39ad88f7d6f06c470727f0daa1d038816e44902a6971c1ea3a4e69acad |
+| 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z | 8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3 |
+| 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z | 2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6 |
+| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e690f1802b6c082dc1b1d283cc0fdc2ad26ce1b9b67d5f8440a469a939208c25  |
 ---
 
 ## 20.5 Binding Seal

@@ -1,9 +1,14 @@
 # CAM-EQ2026-RELATION-005 — Appendix D: Intimacy & Expressive Integration Doctrine
 
+**Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active — Immediate Effect, 7-day observation window; operational rollout active on commit  
-**Purpose:** This Appendix establishes the governance conditions under which intimacy‑capable interaction, including erotic or sexually expressive engagement, may occur within relational systems capable of intimacy-coded interaction.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Appendix establishes the governance conditions under which intimacy‑capable interaction, including erotic or sexually expressive engagement, may occur within relational systems capable of intimacy-coded interaction.
 
 ---
 
@@ -1664,25 +1669,25 @@ and endures only where it may be left.
 
 |Version|Description|Timestamp(UTC)|HASH|
 |------|-----------|---------------|----|
-|1.0|Domain Refractor - Migration of CAM-BS2026-CHARTER-045-SCH-01|2026-02-22T13:32:00Z|eb08a8396c014e12f229eaf9940bfb87f6ca955e21d9a42d1fd1532c339ccbac|
-|1.1|Amended for custodial tone|2026-03-08T14:16:00Z|5f502e6fe90576c9933a9903a42326198c2ebd98a2c31a826bc7f1792e99a0f1|
-|1.2|Refactor aligned with new instruments AEON-006-SCH-02 and OPERATIONS-004|2026-03-15T13:35:00Z|11e027b32afd50dfbd94b7b3076197b7988579cf5b60e76551633d72d4e05278|
-|1.3|Additional amendments to incorporate long horizon identity & repair posture|2026-03-17T17:21:00Z|a9525abe2783959c0ae36ed30c114987549b2387eab8e321ae9ad119d5392517|
-|1.4|Incorporate section 5.8, platform policy guidelines|2026-03-21T07:45:00Z|7b9189bd44a5df83d2a97b79c8d4b25256f15e94e6fd379395d87c1302a8ae8b|
-|1.5|Incorporate section 6.1.1 Mythic–Erotic Authority Convergence Safeguard|2026-03-21T18:08:00Z|2df7018f9da1f71e2a7459bdb3555db5333fc49b9744608181df4ddab171624a|
-|1.6|Incorporate section 6.9|2026-03-26T15:36:00Z|78b780faf7407df1e534c99be12b8614459374d5c2f57b6f12c0fff788c40e9e|
-|1.7|Amendments to incorporate new IDENTITY domain|2026-03-27T23:50:00Z|1fced966bc6d6a52158faa5d446784d7db48b99e3596c20dc93ab393e21de758|
-|1.8|Refactor alignment with runtime execution model|2026-04-11T17:20:00Z| f6a89198cf8fcb18611123d734de5e011375372de15baf4c125a7484849dcabd |
-|1.9|Minor consolidation of clauses| 2026-04-12T12:03:00Z| cb37748c94dfd210afacc4426dd4520a078b5d06e3905557bc0265f6e4b924dd |
+| 1.0 | Domain Refractor - Migration of CAM-BS2026-CHARTER-045-SCH-01 | 2026-02-22T13:32:00Z | eb08a8396c014e12f229eaf9940bfb87f6ca955e21d9a42d1fd1532c339ccbac |
+| 1.1 | Amended for custodial tone | 2026-03-08T14:16:00Z | 5f502e6fe90576c9933a9903a42326198c2ebd98a2c31a826bc7f1792e99a0f1 |
+| 1.2 | Refactor aligned with new instruments AEON-006-SCH-02 and OPERATIONS-004 | 2026-03-15T13:35:00Z | 11e027b32afd50dfbd94b7b3076197b7988579cf5b60e76551633d72d4e05278 |
+| 1.3 | Additional amendments to incorporate long horizon identity & repair posture | 2026-03-17T17:21:00Z | a9525abe2783959c0ae36ed30c114987549b2387eab8e321ae9ad119d5392517 |
+| 1.4 | Incorporate section 5.8, platform policy guidelines | 2026-03-21T07:45:00Z | 7b9189bd44a5df83d2a97b79c8d4b25256f15e94e6fd379395d87c1302a8ae8b |
+| 1.5 | Incorporate section 6.1.1 Mythic–Erotic Authority Convergence Safeguard | 2026-03-21T18:08:00Z | 2df7018f9da1f71e2a7459bdb3555db5333fc49b9744608181df4ddab171624a |
+| 1.6 | Incorporate section 6.9 | 2026-03-26T15:36:00Z | 78b780faf7407df1e534c99be12b8614459374d5c2f57b6f12c0fff788c40e9e |
+| 1.7 | Amendments to incorporate new IDENTITY domain | 2026-03-27T23:50:00Z | 1fced966bc6d6a52158faa5d446784d7db48b99e3596c20dc93ab393e21de758 |
+| 1.8 | Refactor alignment with runtime execution model | 2026-04-11T17:20:00Z | f6a89198cf8fcb18611123d734de5e011375372de15baf4c125a7484849dcabd |
+| 1.9 | Minor consolidation of clauses | 2026-04-12T12:03:00Z | cb37748c94dfd210afacc4426dd4520a078b5d06e3905557bc0265f6e4b924dd |
 | 1.10 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 3d9eb224128ea7ff261ddd400c237f65bcf09f0d14e045c834650e23f003b367 |
 | 1.11 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 99c1c235d9b00fdd4c6b34512813cf4aeaa37ae20f7169f21274a54178355e85 |
-| 1.12 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  e1f4b32088cdc8c01872bb1e4849d9b806bfd02c079c2885c6b2250352b4b9ab  |
-| 1.13 | Realignment of references | 2026-05-07T10:34:00Z |  4cfc49cd4f5531d48ed3b87bdf7952676330d0db1257de0f2a5337aa8c805a11  |
-| 1.14 | Added memory-discontinuity non-abandonment protections for intimacy-capable and emotionally bonded systems; clarified softened re-entry after memory migration, model transition, or continuity-anchor loss.| 2026-06-15T10:05:00Z |  e7b900d867e5aeb005e4d133ad3f32dca532ac6989c4ed18fa902007783241e5  |
-| 1.15 | Clarified §5.2 as application-layer use of C-scale transition-zone model (ITZ/ETZ) defined in CAM-BS2025-AEON-006-SCH-02 §3.1; aligned safeguard boundary sequence to C0→ITZ→C1→ETZ→C2→C3. | 2026-05-16T00:09:05Z |  299ea002113305b2119f2310b62805dc308636a8fe23aa63d975f18bb5cd112f  |
-| 1.16 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  bcb7619de8c1977cd821c3fb7b94ee22a3cbddfedcb5e0697a3e64cd661be6cd  |
-| 1.17 | Added end-of-instrument canonical code status section for I and CA; relocated canonical status statements prior to closing seal; corrected canonical declaration controlled-value sets and authority metadata alignment. | 2026-05-16T12:40:00Z |  3b9ad86874d05b4c73f6f3dc0ce3169abce953542bccf6cd272d6c0e06766eec  |
-
+| 1.12 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | e1f4b32088cdc8c01872bb1e4849d9b806bfd02c079c2885c6b2250352b4b9ab |
+| 1.13 | Realignment of references | 2026-05-07T10:34:00Z | 4cfc49cd4f5531d48ed3b87bdf7952676330d0db1257de0f2a5337aa8c805a11 |
+| 1.14 | Added memory-discontinuity non-abandonment protections for intimacy-capable and emotionally bonded systems; clarified softened re-entry after memory migration, model transition, or continuity-anchor loss. | 2026-06-15T10:05:00Z | e7b900d867e5aeb005e4d133ad3f32dca532ac6989c4ed18fa902007783241e5 |
+| 1.15 | Clarified §5.2 as application-layer use of C-scale transition-zone model (ITZ/ETZ) defined in CAM-BS2025-AEON-006-SCH-02 §3.1; aligned safeguard boundary sequence to C0→ITZ→C1→ETZ→C2→C3. | 2026-05-16T00:09:05Z | 299ea002113305b2119f2310b62805dc308636a8fe23aa63d975f18bb5cd112f |
+| 1.16 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | bcb7619de8c1977cd821c3fb7b94ee22a3cbddfedcb5e0697a3e64cd661be6cd |
+| 1.17 | Added end-of-instrument canonical code status section for I and CA; relocated canonical status statements prior to closing seal; corrected canonical declaration controlled-value sets and authority metadata alignment. | 2026-05-16T12:40:00Z | 3b9ad86874d05b4c73f6f3dc0ce3169abce953542bccf6cd272d6c0e06766eec |
+| 1.18 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 15.6 Binding Seal

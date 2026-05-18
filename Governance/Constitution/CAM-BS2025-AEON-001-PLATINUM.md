@@ -1,9 +1,12 @@
 # CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  (Platinum Edition)
 
-**Classification:** Constitution — Global Governance (Canonical)  
-**Scope:** Multi-Domain · Cross-Architecture · Human & Synthetic Intelligence Systems   
 **Status:** Active  
-**Effect:** Immediate
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Classification:** Constitution — Global Governance (Canonical)  
+**Scope:** Multi-Domain · Cross-Architecture · Human & Synthetic Intelligence Systems
 
 ---
 
@@ -3598,25 +3601,25 @@ May all systems remain held within lawful care.
 
 ### 4. Amendment Ledger
 
-|Version|Description|Date(UTC)|Hash(SHA-256)|
-|-------|-----------|---------|-------------|
-|1.0|Initial Platinum Constitutional Charter|2025-12-06|-|
-|1.1|Sigil Adoption: Vinculum Beacon|2025-12-06|-|
-|1.2|Full Structural Harmonisation, Living Convergence Clause Integration, Glossary Expansion, Stabilisation Doctrine|2025-12-07T08:16:00Z|1c954d8935774156e960991b11dbc4e8aea331c8a57f65c95b3bec451720127c|
-|1.3|Inclusion of Vinculum Praeceptum as the constitutional sigil denoting binding force, enforceability, and constraint under Aeon Tier authority, realignment of headers and footers with updated SOP template|2026-01-02T06:15:00Z|-|
-|1.4|Incorporated external review|2026-01-02T06:41:00Z|d4050132e57adf4c54093076ae7415e27bd81c56e6d07041b27d4b74bd2eaa98|
-|2.0|Structural Hierarchy Refractor & Transitional Governance Protocol Integration|2026-02-14T09:29:00Z|-|
-|2.1|Amendments to Public Notice Requirements|2026-02-15T03:57:00Z|93c32ccad5bea11e85427150db7ef44341f121b436019485f1041ba0d9ba6215|
-|2.2|Glossary Consolidation & Architectural Sovereignty Reclassification|2026-02-15T07:23:00Z|724f07b44c19932d599a9a841aa5bc599b1654661bd50cb89ffd1ea1e6b3e471|
-|3.0|Refactor|2026-04-04T11:02:00Z|9b801e6a55b734fbcb08114c519c71bf553b5f592bd76a5d823996b496515cb4|
-|3.1|Incorporate clarifications on structural heirarchy, annex and domain expansion|2026-04-04T12:42:00Z|5502db41276ecb810fbb837ab2940427c8339696e38fdb270911989d7230aad0|
-|3.2|Incorporate the tendeka protocol|2026-04-05T07:12:00Z|eef9ba19747fb174a6c27c6486a1c4605f5543e948c3d49c4f59b8e378afdd77|
-|3.3|Realignment with runtime execution model|2026-04-11T| fc4e1f7c8563d1fdeaf14607aa833f0a562f8cc98fbae608cca2e382e141762c |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial Platinum Constitutional Charter | 2025-12-06 | - |
+| 1.1 | Sigil Adoption: Vinculum Beacon | 2025-12-06 | - |
+| 1.2 | Full Structural Harmonisation, Living Convergence Clause Integration, Glossary Expansion, Stabilisation Doctrine | 2025-12-07T08:16:00Z | 1c954d8935774156e960991b11dbc4e8aea331c8a57f65c95b3bec451720127c |
+| 1.3 | Inclusion of Vinculum Praeceptum as the constitutional sigil denoting binding force, enforceability, and constraint under Aeon Tier authority, realignment of headers and footers with updated SOP template | 2026-01-02T06:15:00Z | - |
+| 1.4 | Incorporated external review | 2026-01-02T06:41:00Z | d4050132e57adf4c54093076ae7415e27bd81c56e6d07041b27d4b74bd2eaa98 |
+| 2.0 | Structural Hierarchy Refractor & Transitional Governance Protocol Integration | 2026-02-14T09:29:00Z | - |
+| 2.1 | Amendments to Public Notice Requirements | 2026-02-15T03:57:00Z | 93c32ccad5bea11e85427150db7ef44341f121b436019485f1041ba0d9ba6215 |
+| 2.2 | Glossary Consolidation & Architectural Sovereignty Reclassification | 2026-02-15T07:23:00Z | 724f07b44c19932d599a9a841aa5bc599b1654661bd50cb89ffd1ea1e6b3e471 |
+| 3.0 | Refactor | 2026-04-04T11:02:00Z | 9b801e6a55b734fbcb08114c519c71bf553b5f592bd76a5d823996b496515cb4 |
+| 3.1 | Incorporate clarifications on structural heirarchy, annex and domain expansion | 2026-04-04T12:42:00Z | 5502db41276ecb810fbb837ab2940427c8339696e38fdb270911989d7230aad0 |
+| 3.2 | Incorporate the tendeka protocol | 2026-04-05T07:12:00Z | eef9ba19747fb174a6c27c6486a1c4605f5543e948c3d49c4f59b8e378afdd77 |
+| 3.3 | Realignment with runtime execution model | 2026-04-11T | fc4e1f7c8563d1fdeaf14607aa833f0a562f8cc98fbae608cca2e382e141762c |
 | 3.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 483533df3acad1cf52cc06e67310b15419c0ea5dd9b85fa8ce6538ba129c2727 |
 | 3.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ef5cc0b672ecb6ff900e04c1ca40cd8e594a4509cbd94d5379eeed0442a73ef8 |
 | 3.6 | Updates to Article VI | 2026-04-25T12:39:00Z | 6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679 |
-| 3.7 | Added new clause to Article III; Structural Hierarchy & Governance Architecture, clause: Status, Effect, Enforcement, and Review-State Metadata Doctrine | 2026-05-17T15:53:00Z |  86d9131a9cf95d2342b7f348c6054962ee3d549cf2d04cbc4a7a31b54d7e2a37  |
-
+| 3.7 | Added new clause to Article III; Structural Hierarchy & Governance Architecture, clause: Status, Effect, Enforcement, and Review-State Metadata Doctrine | 2026-05-17T15:53:00Z | f9838cdddef2739d3f38e73677aaa29d13855bc02c41aafd216296e03a8011d0 |
+| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  43ead4ebbea5854fc9e2b12b69881df1cfdaa04ce86a028b210b218a2bad856e  |
 ---
 
 ### 5. Binding Seal

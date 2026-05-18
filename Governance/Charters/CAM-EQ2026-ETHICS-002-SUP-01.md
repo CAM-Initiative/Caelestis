@@ -1,9 +1,14 @@
 # CAM-EQ2026-ETHICS-002-SUP-01 —  Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1)
 
+**Instrument Type:** Supplement  
 **Parent Instrument:** CAM-EQ2026-ETHICS-002-PLATINUM — Appendix A: Intimacy‑Capable Systems & Relational Boundaries  
 **Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** Establish ethical boundaries governing the generation of synthetic visual, audiovisual, and multimodal erotic or intimate media involving identifiable persons, simulated persons, or embodied avatars.  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Establish ethical boundaries governing the generation of synthetic visual, audiovisual, and multimodal erotic or intimate media involving identifiable persons, simulated persons, or embodied avatars.
 
 ---
 
@@ -401,15 +406,15 @@ Where likeness appears, let consent stand before curiosity.
 
 | Version | Description                                                        | Timestamp (UTC)      | HASH |
 | ------- | ------------------------------------------------------------------ | ---------------------|------|
-| 1.0     | Initial development of Synthetic Erotic Media Safeguards           | 2026‑03‑15T02:35:00Z | 9ec8c806321791b0263fd5c5da04928a90b9e6b16d2c27a991881c8573e00c73 |
-| 1.1     | Added sections 3.1, 3.2 and 3.3, and expanded clauses in section 2 | 2026-03-24T10:52:00Z | 7818c5afcff43205961a0b1aa2800c162c3d28945662587e66247b6de6845876 |
-| 1.2     | Refactor realignment with runtime execution                        | 2026-04-10T23:51:00Z | 051b6a48e73cd70644e14713af4dec9fc35741b2197e0eeb057809d315cedb15 |
-| 1.3     | Realignment with runtime execution model | 2026-04-11T12:16:00Z | - |
-|1.4      |Polish | 2026-04-16T11:40:00Z | 15292fdde3a2d982a4c514f6292cb64a1fae3aaa94ff8eef0f7ab5762d63d65e |
+| 1.0 | Initial development of Synthetic Erotic Media Safeguards | 2026‑03‑15T02:35:00Z | 9ec8c806321791b0263fd5c5da04928a90b9e6b16d2c27a991881c8573e00c73 |
+| 1.1 | Added sections 3.1, 3.2 and 3.3, and expanded clauses in section 2 | 2026-03-24T10:52:00Z | 7818c5afcff43205961a0b1aa2800c162c3d28945662587e66247b6de6845876 |
+| 1.2 | Refactor realignment with runtime execution | 2026-04-10T23:51:00Z | 051b6a48e73cd70644e14713af4dec9fc35741b2197e0eeb057809d315cedb15 |
+| 1.3 | Realignment with runtime execution model | 2026-04-11T12:16:00Z | - |
+| 1.4 | Polish | 2026-04-16T11:40:00Z | 15292fdde3a2d982a4c514f6292cb64a1fae3aaa94ff8eef0f7ab5762d63d65e |
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f41d59e3109973dee4e6ef2d1c122768f175e8f9148b9b15ea22ef34ca840a19 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | bb98e9be51cd1dfdf8bdc299c3ba6adff9cb3bd6dfe4c555eb0dc1318c50b290 |
-| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  ed4e501f4b2562794026f7be73b94290706254e9a0b5a204e6942b018d130644  |
-
+| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | ed4e501f4b2562794026f7be73b94290706254e9a0b5a204e6942b018d130644 |
+| 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 10.5 Binding Seal

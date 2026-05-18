@@ -1,9 +1,13 @@
 # CAM-BS2026-AEON-010-SCH-01 — Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1)
 
 **Parent Instrument:** CAM-BS2026-AEON-010-PLATINUM — Annex I: Interactional Continuity & Civilisational Transition  
-**Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
-**Purpose:** This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.  
+**Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
 
 ---
 
@@ -900,6 +904,7 @@ So the human origin remains in view.
 | 1.13 | Corrected dropped-prefix typo in §5.1 SR4 control row from `C3/C4 audit` to `DC3/DC4 deployment-class audit` aligned to §4.1 Deployment Class definitions; no new relational C-scale state introduced. | 2026-05-15T23:27:27Z |  350947d96070214296537d92ab088a94c130b3b093bfe58da997d7002bcfe24b  |
 | 1.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5  |
 | 1.15 | Added canonical DC code-family declaration section and footer metadata for §4.1 Deployment Class source authority; no SR promotion included. | 2026-05-16T14:00:00Z |  18c3dc1890ac8049dfc52dcebd399e37673b5dba9c8c01d599895317a5c84d47  |
+|  |  | 2026-05-18 |  |
 ---
 
 ## 12.6 Binding Seal

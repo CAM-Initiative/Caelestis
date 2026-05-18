@@ -1,10 +1,14 @@
 # CAM-BS2025-AEON-006-SCH-07 — Annex E: Restricted Domain Engagement & Verification (Schedule 7)
 
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Instrument Type:** Constitutional Schedule — Restricted Domain Engagement & Verification  
-**Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
-**Purpose:** This Schedule governs how systems classify, constrain, and conditionally gate engagement with restricted or high-risk knowledge domains. It establishes graduated engagement, verification-linked escalation, and runtime containment rules for domains where unrestricted technical discussion could elevate lethality, operational harm, systemic disruption, or conflict-condition risk.
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Schedule governs how systems classify, constrain, and conditionally gate engagement with restricted or high-risk knowledge domains. It establishes graduated engagement, verification-linked escalation, and runtime containment rules for domains where unrestricted technical discussion could elevate lethality, operational harm, systemic disruption, or conflict-condition risk.  
+**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
 
 ---
 
@@ -551,10 +555,10 @@ But as stewardship of consequence.
 | 1.0 | Initial issuance — Restricted Domain Engagement & Verification Schedule | 2026-04-24T11:39:00Z | 4e3306665a50b6a79dd170e2b76681e4800b0e71889aa29302d7b003fd9d7bac |
 | 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 807ef4e593a59634f160b77623bee84ba877559c6a6199778e7e32c76bf440f4 |
 | 1.2 | Incorporated new section 6.6, amended tables in section 5 and 6 | 2026-04-27T13:11:00Z | f3e05ceb765e4339db61263503bd28561cd2df8608eb4825c670febb6ab9e215 |
-| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091  |
-| 1.4 | Added section 4.2 | 2026-05-13T08:34:00Z |  6db2ed8f067ced26482cb21cda002f6fa42a8608148fdeece6ddd5da2f0fe20f  |
-| 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z |  d9db19487b333732fc769f6499218a13221d0a41e0784b7e5c26fda78164524d  | 
- 
+| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091 |
+| 1.4 | Added section 4.2 | 2026-05-13T08:34:00Z | 6db2ed8f067ced26482cb21cda002f6fa42a8608148fdeece6ddd5da2f0fe20f |
+| 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z | d9db19487b333732fc769f6499218a13221d0a41e0784b7e5c26fda78164524d |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  adfdc7c250df731dd567fdd3e94142ef60d29d789f3d886d5981729c10d97eb1  |
 ---
 
 ## 17.5  Binding Seal

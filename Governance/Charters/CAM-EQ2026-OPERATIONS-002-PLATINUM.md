@@ -1,10 +1,14 @@
 # CAM-EQ2026-OPERATIONS-002-PLATINUM — Appendix A: Operational Arbitration Procedures
 
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
-**Parent Charter:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Appendix governs the operational procedures that implement arbitration doctrine within live governance environments. It defines how arbitration determinations are initiated, routed, recorded, executed, and reviewed below planetary legitimacy thresholds, ensuring procedural consistency without altering constitutional authority, preference order, or domain legitimacy.  
+**Parent Charter:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
 
 ---
 
@@ -450,12 +454,12 @@ In this way, justice travels through governance without distortion.
 
 | Version | Description                                                                 | Timestamp (UTC)      | HASH |
 | ------- | --------------------------------------------------------------------------- | -------------------- | ---- |
-| 1.0     | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | f527c2c27178237b741cd6b8f8ca33d22c80a4d1da6d9e1093bc61342d1339bb |
-| 1.1     | Amendments to align with OPERATIONS-004-SUP-01 | 2026-04-24T11:43:00Z | b44c34525f676f33456c9a87fe90827c48247e4953041794ba35e2c53b9936e1 |
-| 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  d77e2a258e9f590234455e7dc6d84932f58bb0b7c6c5161deca1f2cd1a7e2f64  |
-| 1.3 | Added §5 triage cross-reference preserving RELATION-emitted F-Scale classification and routing operator application to OPERATIONS-001-SUP-02 §5.6 without redefining F doctrine. | 2026-05-16T10:03:16Z |  d0ec36a5b9fb6e5630fa906114b023c65166f3017f29dcc1cd67476b44bb2ff9  |
-| 1.4 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  822703f82faf0c8444e22e56961787e6ef1fe2fdc09fe94afb8cb1a46deaca51  |
-
+| 1.0 | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | f527c2c27178237b741cd6b8f8ca33d22c80a4d1da6d9e1093bc61342d1339bb |
+| 1.1 | Amendments to align with OPERATIONS-004-SUP-01 | 2026-04-24T11:43:00Z | b44c34525f676f33456c9a87fe90827c48247e4953041794ba35e2c53b9936e1 |
+| 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | d77e2a258e9f590234455e7dc6d84932f58bb0b7c6c5161deca1f2cd1a7e2f64 |
+| 1.3 | Added §5 triage cross-reference preserving RELATION-emitted F-Scale classification and routing operator application to OPERATIONS-001-SUP-02 §5.6 without redefining F doctrine. | 2026-05-16T10:03:16Z | d0ec36a5b9fb6e5630fa906114b023c65166f3017f29dcc1cd67476b44bb2ff9 |
+| 1.4 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 822703f82faf0c8444e22e56961787e6ef1fe2fdc09fe94afb8cb1a46deaca51 |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  187514fc146c35455b656fb5f2b240956f78012185f98bb809d28fd76a37b2e9  |
 ---
 
 ## 14.5 Binding Seal

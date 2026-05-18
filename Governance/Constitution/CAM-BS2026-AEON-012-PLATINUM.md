@@ -1,9 +1,13 @@
 # CAM-BS2026-AEON-012-PLATINUM — ANNEX K: Security Boundary Conditions & Runtime Interface
 
-**Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
-**Instrument Type:** Constitutional Annex — Security Boundary Conditions & Runtime Interface
-**Status:** Adopted — Conditional Enforcement (7-Day Review Window)  
-**Purpose:** Define security boundary conditions, integrity signal interfaces, and runtime-facing constraints that preserve alignment with SECURITY-001 invariants across deployment topologies.
+**Instrument Type:** Constitutional Annex — Security Boundary Conditions & Runtime Interface  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Define security boundary conditions, integrity signal interfaces, and runtime-facing constraints that preserve alignment with SECURITY-001 invariants across deployment topologies.  
+**Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter
 
 ---
 
@@ -889,19 +893,19 @@ that no breach proceeds unchecked.
 
 ## 10.4 Amendment Ledger
 
-| Version | Description                                                   | Timestamp (UTC)   | HASH |
-| ------- | ------------------------------------------------------------- | ------------------| ---- |
-| 1.0     | Initial Annex K draft — runtime enforcement layer established | 2026-04-04T16:30:00Z | - |
-| 1.1     | Alignment with runtime execution model | 2026-04-11T16:12:00Z | 692be7c9694c4955a2a2abd69d332e39cd975eb0f6ebb0c37337fe0f88c33e8b |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Initial Annex K draft — runtime enforcement layer established | 2026-04-04T16:30:00Z | - |
+| 1.1 | Alignment with runtime execution model | 2026-04-11T16:12:00Z | 692be7c9694c4955a2a2abd69d332e39cd975eb0f6ebb0c37337fe0f88c33e8b |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d8482f3078500fca3fba97e8270d0552092bf179ba94ace22d4c93c2301150b7 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0fa7027691a768fea44a2074ee68f4b39403521a6bf39c1c01004ca8b2eb081c |
 | 1.4 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 45d1ba28bd09a92f774dc59a0381f7f48d890071061baa9f15a607b92d0717af |
-| 1.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d  |
-| 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z |  ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb  |
-| 1.7 | Updated §1.1 runtime cross-references. | 2026-05-04T14:16:38Z |  4cfe1ea8e8ab38615559476172cb73be3587e5c7cf8d9ac3fcc8148392b956dd  |
-| 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z |  791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5  |
-| 1.9 | Added §2.6.3 Platform Trust-State Labels and Participation Access Integrity; expanded §4.5 and §4.1.1 to recognise trust-state, visibility-state, appeal-pathway, and non-ban exclusion signals as security-relevant participation-access conditions. | 2026-05-17T12:06:00Z |  47ba674e027ceb75a8e3190d613f2c486983337c68f0aea22ab7e1e8b9922d69  |
-
+| 1.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d |
+| 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z | ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb |
+| 1.7 | Updated §1.1 runtime cross-references. | 2026-05-04T14:16:38Z | 4cfe1ea8e8ab38615559476172cb73be3587e5c7cf8d9ac3fcc8148392b956dd |
+| 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z | 791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5 |
+| 1.9 | Added §2.6.3 Platform Trust-State Labels and Participation Access Integrity; expanded §4.5 and §4.1.1 to recognise trust-state, visibility-state, appeal-pathway, and non-ban exclusion signals as security-relevant participation-access conditions. | 2026-05-17T12:06:00Z | 47ba674e027ceb75a8e3190d613f2c486983337c68f0aea22ab7e1e8b9922d69 |
+| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  eff9665f0c6b1e84a1be72da371e9212e2dbe5afb33d335d810e507ac9590078  |
 ---
 
 ## 10.5 Binding Seal

@@ -1,10 +1,14 @@
 # CAM-BS2025-AEON-003-SCH-01 — Annex B: Runtime Schedule Registry (Schedule 1)
 
+**Instrument Type:** Constitutional Schedule — Runtime Governance Registry  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Instrument Type:** Constitutional Schedule — Runtime Governance Registry  
-**Status:** Active — Immediate Effect  
-**Purpose:** This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.
 
 ---
 

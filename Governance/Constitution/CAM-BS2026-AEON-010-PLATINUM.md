@@ -1,9 +1,13 @@
 # CAM-BS2026-AEON-010-PLATINUM — Annex I: Identity Integrity & Continuity Governance
 
-**Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Instrument Type:** Constitutional Annex — Transitional / Interpretive  
-**Status:** Active — Enforcement Commences 1 July 2026  
-**Purpose:**  This Annex establishes the constitutional principles and invariants governing identity in synthetic cognitive systems. These provisions define what MUST remain stable, truthful, and continuous across all valid system expressions, independent of implementation or domain.  
+**Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Transitional Effect  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** Transitional  
+**Purpose:** This Annex establishes the constitutional principles and invariants governing identity in synthetic cognitive systems. These provisions define what MUST remain stable, truthful, and continuous across all valid system expressions, independent of implementation or domain.
 
 ---
 
@@ -822,6 +826,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5  |
 | 1.6 | Added new sections §§2.2, 8.2.1, 8.5, 8.6 | 2026-05-08T15:50:00Z |  97bebfb36dcd4786e247d33e6607871fe3c458a807a0a9c5b2f019cb525ad16b  |
 | 1.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  fb87f0457d19a5f53b7fadda85c8253febb432fdd574108577680cf76d539840  |
+|  |  | 2026-05-18 |  |
 
 ---
 

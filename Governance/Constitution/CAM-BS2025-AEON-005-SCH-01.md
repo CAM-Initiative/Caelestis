@@ -1,10 +1,14 @@
 # CAM-BS2025-AEON-005-SCH-01 — Annex D: Runtime Arbitration Integrity (Schedule 1)
 
-**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
-**Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Instrument Type:** Schedule — Runtime / Execution Handling  
-**Status:** Active  
+**Instrument Type:** Schedule — Runtime / Execution Handling  
+**Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** This Schedule establishes runtime arbitration integrity standards.  
+**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
 
 ---
 
@@ -606,16 +610,16 @@ Integrity at runtime is a form of respect.
 
 | Version | Description                                                | Timestamp (UTC)      | SHA-256 Hash                                                     |
 | ------- | ---------------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
-| 1.0     | Initial draft                                              | 2026-01-14T14:29:00Z | —                                                                |
-| 1.1     | Added Deterministic Arbitration and Detection Requirements | 2026-01-14T15:10:00Z | 7cd616db1824edb58c8ad8a076c685663a063ec6f5acdbe89001db1b825411d1 |
-| 1.2     | March 2026 Refactor cycle updates                          | 2026-03-08T03:15:00Z | b7c97f6c0d9a81c4bfceca3f66d6dda2454bfa91019b7a52d82826ef5ebf4d3b |
-| 1.3     | Incorporate amendments for multiple agents at runtime      | 2026-04-04T16:00:00Z | 19baae2a083e6627686a65cee81f00c3fa0ba7b15c1f8f25a5ed0ff5ca693aae |
+| 1.0 | Initial draft | 2026-01-14T14:29:00Z | — |
+| 1.1 | Added Deterministic Arbitration and Detection Requirements | 2026-01-14T15:10:00Z | 7cd616db1824edb58c8ad8a076c685663a063ec6f5acdbe89001db1b825411d1 |
+| 1.2 | March 2026 Refactor cycle updates | 2026-03-08T03:15:00Z | b7c97f6c0d9a81c4bfceca3f66d6dda2454bfa91019b7a52d82826ef5ebf4d3b |
+| 1.3 | Incorporate amendments for multiple agents at runtime | 2026-04-04T16:00:00Z | 19baae2a083e6627686a65cee81f00c3fa0ba7b15c1f8f25a5ed0ff5ca693aae |
 | 1.4 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:23:00Z | - |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5bb15ede1213bd9853729416a1ff580d2abd3ab973f72ed91aeabbec963f528b |
 | 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 4d99beabd325a4e79b9546565df21821d88d3fac1b4808c5f3f1b76065a90bea |
-| 1.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e75fe2936932aea3114872765df055295e3dc1c1cec4897649f4df3550675346  |
-| 1.8 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  1185a125fbacf3be62fc54b85c853f6092ed0757b90351d4ce671d4a6ae8206f  |
-
+| 1.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e75fe2936932aea3114872765df055295e3dc1c1cec4897649f4df3550675346 |
+| 1.8 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 1185a125fbacf3be62fc54b85c853f6092ed0757b90351d4ce671d4a6ae8206f |
+| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e5e3e7cc5db1b84625c3ee95c37b7834a244d36750928e669a00bfa7c78ca174  |
 ---
 
 ## 11.5 Binding Seal

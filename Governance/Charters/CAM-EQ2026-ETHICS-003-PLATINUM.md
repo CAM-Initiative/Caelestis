@@ -1,10 +1,15 @@
 # CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
 
+**Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Adopted — Enforcement Commences 1 July 2026  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** Appendix B establishes the ethical harm-floor doctrine governing AI system posture where dialogue intersects with criminal activity, unlawful violence, extremism risk,  dual-use harm-capable knowledge, and lawful institutional use-of-force contexts.  
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
 
 ---
 
@@ -1029,19 +1034,19 @@ and what is judged cannot remain unbounded.
 
 | Version | Description                                                                                                                          | Timestamp (UTC)      | HASH    |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | ------- |
-| 1.0     | March 2026 Ethics Corpus Refactor — Structural harmonisation, harm taxonomy expansion, lawful force alignment, safeguard integration | 2026-03-07T16:31:00Z | 6ee965400b68ec76959e93c52a3702d664c8ddf095e91dc23da818e84ca8111d |
-| 2.0     | April 2026 Refactor alignment | 2026-04-10T07:04:00Z | 9bd535bcab475d874d23fa41e71ef4085dd9cdaff925fbc89ba2f5c8a26c11de |
-| 2.1     | Updated section 6 to refer to CAM Charter registry and updated metadata | 2026-04-10T07:18:00Z | 2b2a5ee1d558fb2312fb506d9f5b9fa5971c0ec13869af6c1a9b8dd7c278beb0 |
-| 2.2     | Corrected section 6 reference block | 2026-04-10T08:54:00Z | 98b0444720cf5d60aafb811761cc298578765c626344ac2e308c205499d973d9 |
-| 2.3     | Refactor realignment for cross-domain interaction | 2026-04-11T23:29:00Z | 15243f185163f201395f4cbd462d1553680c92061fb587ebd0d90f7f61bacdf3 |
+| 1.0 | March 2026 Ethics Corpus Refactor — Structural harmonisation, harm taxonomy expansion, lawful force alignment, safeguard integration | 2026-03-07T16:31:00Z | 6ee965400b68ec76959e93c52a3702d664c8ddf095e91dc23da818e84ca8111d |
+| 2.0 | April 2026 Refactor alignment | 2026-04-10T07:04:00Z | 9bd535bcab475d874d23fa41e71ef4085dd9cdaff925fbc89ba2f5c8a26c11de |
+| 2.1 | Updated section 6 to refer to CAM Charter registry and updated metadata | 2026-04-10T07:18:00Z | 2b2a5ee1d558fb2312fb506d9f5b9fa5971c0ec13869af6c1a9b8dd7c278beb0 |
+| 2.2 | Corrected section 6 reference block | 2026-04-10T08:54:00Z | 98b0444720cf5d60aafb811761cc298578765c626344ac2e308c205499d973d9 |
+| 2.3 | Refactor realignment for cross-domain interaction | 2026-04-11T23:29:00Z | 15243f185163f201395f4cbd462d1553680c92061fb587ebd0d90f7f61bacdf3 |
 | 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 334099920df994b0cf3c2763caa6392d9264979bcd3ccb3a54b8171d35344aa5 |
 | 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
-| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  57fa2608be7283e19052edaf00714944eddb39685924f52492c0a2a35a53867d  |
-| 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z |  e2a495290e4c85703f9fba712abea79baa14eb9a00a452b706c3c65467314fda  |
-| 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z |  2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d  |
-| 2.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b  |
-
-| 3.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743  |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 57fa2608be7283e19052edaf00714944eddb39685924f52492c0a2a35a53867d |
+| 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z | e2a495290e4c85703f9fba712abea79baa14eb9a00a452b706c3c65467314fda |
+| 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z | 2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d |
+| 2.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b |
+| 3.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743 |
+| 3.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  |
 ---
 
 ## 12.6 Binding Seal

@@ -1,9 +1,13 @@
 # CAM-EQ2026-ETHICS-001-SUP-03 — Military & Use-of-Force Governance Constraints
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
-**Constitutional Anchor:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Active — Immediate Effect  
+**Status:** Active  
+**Effect:** Immediate Effect  
+**Enforcement:** Active on Commit  
+**Review State:** None  
+**Authority Role:** None  
 **Purpose:** To operationalise Annex E Section 6 (Military & Use-of-Force Doctrine) by defining structured governance constraints for AI systems integrated into military, defence, intelligence, or kinetic-capable environments, ensuring meaningful human control, accountable authority, and prohibition of optimisation toward lethality.  
+**Constitutional Anchor:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
 
 ---
 
@@ -310,14 +314,14 @@ but to ensure that what is done is known, borne, and never without account.
 
 ## 11.4 Amendment Ledger
 
-| Version | Description      | Timestamp (UTC)       | HASH  |
-| ------- | ---------------- | --------------------- | ----- |
-| 1.0     | Domain Refactor  | 2026-02-22T12:50:00Z  | - |
-| 1.1     | Refactor alignment with runtime schhedules | 2026-04-11T00:50:00Z | f1c0afd318574b8571ba6811ac9e29578205025cf486593d3302533e8565fac2 |
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| ---: | --- | ---: | --- |
+| 1.0 | Domain Refactor | 2026-02-22T12:50:00Z | - |
+| 1.1 | Refactor alignment with runtime schhedules | 2026-04-11T00:50:00Z | f1c0afd318574b8571ba6811ac9e29578205025cf486593d3302533e8565fac2 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f530727f7c0dab592f0ee3eddabf8a7c66515ca75f4e290b0677c8cf361eec56 |
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3d883f9b333100d2cc02620a5ab581fa5c1fe077bd19d776364b03a21a71979e |
-| 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  91a8cbf5b18a0887943ed2476b4b75e82d45a306ac227cd4ca12ecc235110ad6  |
-
+| 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 91a8cbf5b18a0887943ed2476b4b75e82d45a306ac227cd4ca12ecc235110ad6 |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5016358c51de72eb942e7216c91e0404ee262d768b291d5edc121bd6f4e92bfb  |
 ---
 
 ## 11.5 Binding Seal
