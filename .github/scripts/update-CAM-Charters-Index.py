@@ -14,7 +14,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from instrument_state import extract_status_and_version
+from instrument_state import extract_instrument_metadata, extract_status_and_version
 
 TARGET_DIR = REPO_ROOT / "Governance" / "Charters"
 INDEX_MD = TARGET_DIR / "CAM-Charters-Index.md"
@@ -129,12 +129,17 @@ def collect_items() -> tuple[list[dict], list[str], int]:
         title, summary = extract_title_and_summary(text, parsed["id"])
         sha, updated_at = get_git_info(p)
         status, version = extract_status_and_version(p.resolve())
+        metadata = extract_instrument_metadata(p.resolve())
         content_hash = latest_ledger_hash(text)
         parsed.update({
             "link": p.name,
             "title": title,
             "summary": summary,
             "status": status,
+            "effect": metadata.get("effect", ""),
+            "enforcement": metadata.get("enforcement", ""),
+            "review_state": metadata.get("review_state", ""),
+            "authority_role": metadata.get("authority_role", ""),
             "version": version,
             "HASH": content_hash,
             "pinned_sha": sha,
