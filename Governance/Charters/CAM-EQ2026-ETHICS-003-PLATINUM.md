@@ -1046,7 +1046,7 @@ and what is judged cannot remain unbounded.
 | 2.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b |
 | 3.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743 |
 | 3.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 501253f679ff46f8c3c511e82b1808ba6e28a4bbb1536e08f36196c9de37591f |
-| 3.2 | Normalised HC canonical code declaration metadata; moved HC registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  |
+| 3.2 | Normalised HC canonical code declaration metadata; moved HC registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  8562776c83f03ce35bd9c9b33f89d2b56d2c63a834598e76025c0d2719f338a6  |
 
 ---
 

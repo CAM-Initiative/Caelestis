@@ -429,7 +429,7 @@ and let execution remain accountable to lawful structure.
 | 1.2 | Realignment of references | 2026-05-07T12:24:00Z | ede88d74ee2fcc656e5b27d02d0c906134dea24ce82f61fbe98a54ede1badb96 |
 | 2.0 | Refactor | 2026-05-15T13:14:00Z | 872a8ec1dc5ecbb5afdeb83848b6f194c65e14e6918873159d044e3e2a3b1143 |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e06057bb4d4b50da03966c2467203a0e056ab6d12cf009602a496890077691b1 |
-| 2.2 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z |  |
+| 2.2 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z |  10a3b19b0edac3c42de52785ea41f50c987daf6260a66875ef661bda6906f4d2  |
 
 ---
 

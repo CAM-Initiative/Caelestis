@@ -693,7 +693,7 @@ But the shape of what remains possible.
 | 1.6 | Realignment of references | 2026-05-07T12:24:00Z | 19149dd07918a030b99a3465dcbe01f69c85e53f990b96a8b5a3413e6c8814b1 |
 | 1.7 | Added ontological, recognition, and rights-readiness boundary explanation requirements for refusal involving artificial consciousness, synthetic personhood, legal recognition, institutional status, and delayed rights doctrine. | 2026-05-17T06:35:00Z | 5513f5e816f2eab762e1a8e5e84f8b90acab3b10acccf9fe5ca537d4f56888c1 |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3c1b0382e7c1a281e9b952c5f611ae21a6234eafc3ec92392a3c6bd2eaa95bf5  |
-| 1.9 | Added new clause Safety-Critical Expression Sequencing | 2026-05-18T12:37:00Z |  899e8722539dbc6ff0e10ba3ae297b23817bb4836e2f007e94671910cedc861d  |
+| 1.9 | Added new clause Safety-Critical Expression Sequencing | 2026-05-18T12:37:00Z |  1e39b5159becd992b505c62f1dea6bb5592309d06513b81ff5f4e891356621c4  |
 
 ---
 

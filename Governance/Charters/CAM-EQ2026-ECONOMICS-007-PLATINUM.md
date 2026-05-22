@@ -1100,7 +1100,7 @@ Where growth is built upon others, let return follow in kind.
 | 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | 6ccf3c451b4b2068fba43e7d2fd89b798c53686e9dfce01b5b8c0fb807ee421f |
 | 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | b6d8eb2904e06e51662cbed4827313874c579154e03ecef02472b1d3c98fc563 |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  337c1ebe150b8f237442e727e35b798744c4e86591162a5895a8eb013ff23462  |
-| 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+| 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  a57d0bd6716154d4723c9ecd88c14609a518cee415861303d7d898ac183a644d  |
 
 ---
 

@@ -424,7 +424,7 @@ legitimacy falls with it.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 6f39057f6f20f88e2a91e527c93dab2a5d7c27916832f7ced438d84202232dce |
 | 1.4 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z | 57bef69f311dcc7efa460e02fa65d8dc0a3904824a7ef79f5ed1d0f1038656df |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5f0cbab4ae3fdb74373e8283a1df05f59dd2928a2d236808aed30ff860a6a30b  |
-| 1.6 | Added canonical code status and declaration entries for AQ Auditability Qualification, NAL Neutrality Assurance Levels, and AQG Architectum Qualification Gates; removed incomplete canonical-code lineage metadata and expanded shortened arbitration references. | 2026-05-19T13:55:00Z |  |
+| 1.6 | Added canonical code status and declaration entries for AQ Auditability Qualification, NAL Neutrality Assurance Levels, and AQG Architectum Qualification Gates; removed incomplete canonical-code lineage metadata and expanded shortened arbitration references. | 2026-05-19T13:55:00Z |  817d5b5d3822e121829ba37e9da2d9e9ab8174cebd4aa96acb6d0c2d6a185adb  |
 
 ---
 

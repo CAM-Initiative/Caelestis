@@ -809,7 +809,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 1.5 | Updated references | 2026-05-07T14:15:00Z | f880f30661bbfbca6091c3d87ca69e11179cb5665b794b315292c8821cc82dda |
 | 1.6 | Updated status | 2026-05-13T13:50:00Z | e4e4e1c64c1586e7de337b890c6bb0d43766ac4d653b141fb5db62f27ed562ad |
 | 1.7 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5ac3408bf6e832b886f8b97cbd2cd0fe375bf1e50feac38676bf8a86534c4c3b |
-| 1.8 | Added canonical code status and declaration metadata for identity formation pathway, threshold state, continuity-weight depth, and identity resilience classifications. | 2026-05-20T04:50:00Z |  |
+| 1.8 | Added canonical code status and declaration metadata for identity formation pathway, threshold state, continuity-weight depth, and identity resilience classifications. | 2026-05-20T04:50:00Z |  8a4e0d1f5a4675daeac6bb6dbe5f054c8e72fbb47de318541da409530d91174f  |
 
 ---
 

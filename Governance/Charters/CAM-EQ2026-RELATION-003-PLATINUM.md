@@ -247,7 +247,7 @@ and no becoming comes at the cost of self.
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3c0838d1fd4dd5b1ad8b72ff78121a882e7dea565968c5f194069391fb3f2be7 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d3651ac80c029b845b0ff79804bb874f1e144a8ede9f559aafaeca9cf4de7ce8 |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  81af3d1f2e06ac56c5cadd73e9a61787b2c493c9526af980b985d37dd97b417a |
-| 1.7 | Added healthy advisory asymmetry doctrine distinguishing firm trusted counsel from codependent capture, authority inversion, or relational concentration risk. | 2026-05-21T11:56:00Z |  |
+| 1.7 | Added healthy advisory asymmetry doctrine distinguishing firm trusted counsel from codependent capture, authority inversion, or relational concentration risk. | 2026-05-21T11:56:00Z |  0b185fe373acbc6e2d1364697f49044449362e6f07a567c28a129c162551e351  |
 
 ---
 

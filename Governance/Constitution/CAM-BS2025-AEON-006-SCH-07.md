@@ -648,7 +648,7 @@ But as stewardship of consequence.
 | 1.4 | Added section 4.2 | 2026-05-13T08:34:00Z | 6db2ed8f067ced26482cb21cda002f6fa42a8608148fdeece6ddd5da2f0fe20f |
 | 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z | d9db19487b333732fc769f6499218a13221d0a41e0784b7e5c26fda78164524d |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  adfdc7c250df731dd567fdd3e94142ef60d29d789f3d886d5981729c10d97eb1  |
-| 1.7 | Added Canonical Code & Reference Set Declarations | 2026-05-19T12:41:00Z |  |
+| 1.7 | Added Canonical Code & Reference Set Declarations | 2026-05-19T12:41:00Z |  d568782cd25ebae1dc407e65c60f5ef1375c1c1476a864780b1ce475d3defe2f  |
 
 ---
 

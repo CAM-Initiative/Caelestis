@@ -1714,7 +1714,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00 | 1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb |
 | 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z | 73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8 |
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  9037c79137044cd5d1bc6493bb92ce4a29f412a324f145bda0779473ace393ed  |
-| 1.11 | Added canonical code status and declaration entries for IS Integrity State, TG Trust Gradient, AH Adversarial Horizon, and IS × TG Trust–Integrity Coupling crosswalk; removed duplicate TG canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  |
+| 1.11 | Added canonical code status and declaration entries for IS Integrity State, TG Trust Gradient, AH Adversarial Horizon, and IS × TG Trust–Integrity Coupling crosswalk; removed duplicate TG canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  67aca73c073d2f6540af68886a3cdc20aa811bfcc56038ea16a0b2ca85878b0f  |
 
 ---
 

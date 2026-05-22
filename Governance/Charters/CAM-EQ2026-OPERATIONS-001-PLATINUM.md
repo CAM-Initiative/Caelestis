@@ -413,7 +413,7 @@ nor so fluid that nothing stable can remain
 | 1.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 82ecb9b23134ded42a871547587a76bed5ff4cb05dc76b268f12a75fdb41d700 |
 | 1.4 | Realignment of references | 2026-05-07T10:34:00Z | d6773a374bc01dc677404e2f7fb0b9b936e61f831760f02e3ba0b6f69664d6f7 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5 |
-| 1.6 | Formatting and polish | 2026-05-20T11:31:00Z |  |
+| 1.6 | Formatting and polish | 2026-05-20T11:31:00Z |  a4929d0c912a296c559e4571fc282811ccdece1c3e8412c4ba462f1a20c12c7b  |
 
 ---
 

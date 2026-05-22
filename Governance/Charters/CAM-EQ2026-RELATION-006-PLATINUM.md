@@ -1212,7 +1212,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | ffaaa0d0798d1a1e1e8d3cd176344df19ba7e25db03598f4a6f5debed2e41740 |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ad1e08720bbc1b76deeef71582bdfc00170ecb3cc4694676ef7bf58bf42b30e2  |
 | 2.2 | Added new clause: Distress Self-Report Is Not Emergency Classification and Emergency Pathway Proportionality Constraint | 2026-05-18T12:18:00Z |  f6d8e98e90a4a8fc25e509ac4c4aecb4e80a3e095d9cf645b6db0418abe3f3f6  |
-| 2.3 | Added C × F — Irreversibility & Response Calibration Matrix | 2026-05-19T10:26:00Z |  |
+| 2.3 | Added C × F — Irreversibility & Response Calibration Matrix | 2026-05-19T10:26:00Z |  7e60741e254da912e64adcadccfc5ba8e6ea7797553b3b4e2603ec02ca6c9102  |
 
 ---
 

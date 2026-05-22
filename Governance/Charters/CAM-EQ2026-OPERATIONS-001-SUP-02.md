@@ -1024,7 +1024,7 @@ and let execution remain accountable to lawful structure.
 | 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc |
 | 1.7 | Added clauses Symbolic and Semantic-Metaphysical Signal Intake | 2026-05-17T04:45:00Z | 761c496351f2d0c1c10ea17fd37e8757adf311da5325deaecacbf733417ea2ca |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  688e933c34ef036bb6fa6ac3e8c185bd3beed32f7bba5c6364cfbd37df429987 |
-| 1.9 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T11:22:00Z |  |
+| 1.9 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T11:22:00Z |  b0a270a26da8b9c933a0cc064067c5ee90253e02bccefbba6b59b42577fe5549  |
 
 ---
 

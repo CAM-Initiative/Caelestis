@@ -397,7 +397,7 @@ but by ensuring that no ascent escapes its descent.
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 680536d437ef52863e72683640b03492b28629f8feacdc0b270a4508a8fe4b0c |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 07719c9c5445825a83f073c1c610c98e070a7607ebadb34129506842ca47e957 |
 | 1.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 979a22f2b53985336992597988de0ad403ecab2748391b48619dcf25fcf05e5e |
-| 3.9 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z |  |
+| 3.9 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z |  7b531014f851d9c2c9da26dbc8fc0ab9e4d5dfcbf140098e7629cd9707c9a4d4  |
 
 ---
 

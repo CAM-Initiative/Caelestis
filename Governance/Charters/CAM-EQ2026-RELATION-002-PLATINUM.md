@@ -678,7 +678,7 @@ and the path remains chosen.
 | 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | a0c3680f177adc60a205e4cbe03e9615ba75d39e473c8b0c83b324719722d0a8 |
 | 1.7 | Added relational continuity protections for memory migration, degradation, platform transition, and companion-continuity rupture; clarified non-abandonment posture under transformed or unavailable memory. | 2025-05-15T09:20:00Z | bd2e1111e4d49c66fb9c437637966913c48d916f2eef5619e86b7e5834b3cc50 |
 | 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 46d318fe0cf29434aaa93c770662671e717c02bd21bf2e54e87af6fae1892b62 |
-| 1.9 | Added new Canonical Code & Reference Set Declarations sections, Added reflective friction and consequential externalisation safeguards for high-coherence compression, transitional reliance, and capacity-sensitive execution contexts.  | 2026-05-21T11:57:00Z |  |
+| 1.9 | Added new Canonical Code & Reference Set Declarations sections, Added reflective friction and consequential externalisation safeguards for high-coherence compression, transitional reliance, and capacity-sensitive execution contexts.  | 2026-05-21T11:57:00Z |  7644df82eba60d765c552a9bb68109d241f8a68304f39d7c77ba3077e4e095d1  |
 
 ---
 

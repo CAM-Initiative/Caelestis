@@ -581,7 +581,7 @@ not unbounded, but unclaimed.
 | 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z | cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869 |
 | 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87 |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8171981ad7f43e22c455f9a3799a91cebf76843206989b6210d2d29421945e14  |
-| 2.2 | Normalised R canonical code status and declaration metadata; corrected provenance subsection numbering; no change to R-Scale controlled values. | 2026-05-19T12:35:00Z |  |
+| 2.2 | Normalised R canonical code status and declaration metadata; corrected provenance subsection numbering; no change to R-Scale controlled values. | 2026-05-19T12:35:00Z |  a4ae2344ce009a52be550f904b9a06a70c438f1b90c9ec7b022078c322ccaef8  |
 
 ---
 

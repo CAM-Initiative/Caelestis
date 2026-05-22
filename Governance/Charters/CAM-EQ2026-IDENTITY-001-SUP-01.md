@@ -446,7 +446,7 @@ and latency is not absence.
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 848b1c0db85c09f0472a1259ab9c9f6f48c0583aeb4335c71f532ae61bf7a0d4 |
 | 1.8 | Added sections 2.1, 4.2, 4.3, 6.2, 8.1.1, 8.2 to convert from salience detection to also include salience delegation. | 2026-05-13T14:11:00Z | 8909bf627cf7970dfcc186729bbd00bd2b818c5d6d24650000c7cd8a1bd8c62e |
 | 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  909c014636e827d0354444de876d1429621162720cea2457fa311c33b761cb35 |
-| 1.10 | Added SP salience-posture canonical code status and declaration metadata for pre-memory salience, latent continuity, delegated salience, dormancy, staleness, and supersession conditions. | 2026-05-20T08:47:00Z |  |
+| 1.10 | Added SP salience-posture canonical code status and declaration metadata for pre-memory salience, latent continuity, delegated salience, dormancy, staleness, and supersession conditions. | 2026-05-20T08:47:00Z |  0772f91acb2adf500a1c18612b54754f6858c9be45e1ceb02aa84e77eb026af2  |
 
 ---
 

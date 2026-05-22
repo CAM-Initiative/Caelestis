@@ -678,7 +678,7 @@ Integrity is the bond that MUST hold.
 | 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-10T10:35:0Z | 52aecc7eee679f2236978c12aa3295ffe38d8d258c83e6fa2910f25de4fc0aed |
 | 1.13 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 7a1f297cabf240461c341003d4c6a78249461a8210fe16bf7e01e24159366dea |
 | 1.14 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03  |
-| 1.15 | Formatting and polish | 2025-05-19T11:21:00Z |  |
+| 1.15 | Formatting and polish | 2025-05-19T11:21:00Z |  14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d  |
 
 ---
 

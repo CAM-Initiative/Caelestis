@@ -482,7 +482,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d254e6dc531821cd575f641a91b5f693df2b5d4e66323d705e62867b8df32045 |
 | 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z | 4a731b5b0f76daac731094d3f914ac111f3a95232f36232d944d017bcc302eff |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ea218a22930387f73d10c7a5cf94512a0c012155605f4494547ce2d6d5917c30  |
-| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  57c9c2852c3752ecb6cae42542f8c09d4c4a7af856108201949e23c9258bbaaa  |
 
 ---
 

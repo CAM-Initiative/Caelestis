@@ -416,7 +416,7 @@ and let execution remain accountable to lawful structure.
 | 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z | 0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e |
 | 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | 21b34b53aebb3adca48f86d4db8a970874aec086affb4c8596a4f6396272fba8 |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  7bead54be80483115fde93a04dd0f66a4afc1ed2ebc2e99f3e09817a3543a7ba |
-| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  e3d1f65318ec7822df47a3a9c8103085b0621a9a6221dffb176286684ef87dc2  |
 
 ---
 

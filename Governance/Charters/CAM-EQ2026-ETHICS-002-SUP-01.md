@@ -446,7 +446,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | bb98e9be51cd1dfdf8bdc299c3ba6adff9cb3bd6dfe4c555eb0dc1318c50b290 |
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | ed4e501f4b2562794026f7be73b94290706254e9a0b5a204e6942b018d130644 |
 | 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T15:26:00Z |  e2a115f850f025ad7e285d71b3374e3d5459293d398b77f5c0db36e390c7f9e5 |
-| 1.9 | Added new section 1.3 Creation, Storage, Distribution, and Enforcement-State Distinction | 2026-05-22T08:47:00Z |  |
+| 1.9 | Added new section 1.3 Creation, Storage, Distribution, and Enforcement-State Distinction | 2026-05-22T08:47:00Z |  4ccb5c8348a0a11bf0377c9e4947a2a261b12083ada3bf53c6851537e6af47d9  |
 
 ---
 

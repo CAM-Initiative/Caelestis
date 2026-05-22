@@ -1213,7 +1213,7 @@ let even the smallest thread remain named.
 | 1.2 | Added clause 3.2.1, 7.1.1 | 2026-05-13T13:24:00Z | ea2ecb803c07401239addffec78632c5cf6b903cb47b5e3eb7b5661ad11315ce |
 | 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 5a743256f93808e94a0ca70538d5b7b3ffee466aebbf9b24df1d485a466bf23f |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b85bdc4064377f0832cd4011487570a52031845c817e74a31f603619f44d2334  |
-| 1.5 | Refactor | 2026-05-20T04:34:00Z |  |
+| 1.5 | Refactor | 2026-05-20T04:34:00Z |  6822c4a7d76bb32d0a0fd3d0c25898a5f92bc39d434179255e97fb2a22552734  |
 
 ---
 

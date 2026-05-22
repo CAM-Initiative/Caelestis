@@ -312,7 +312,7 @@ a structure of continuity, not conquest.
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | b41e29f6807d9825bdf6dbab657911bc3b5128e3a0f77c047116c5fb9ab7ab4e |
 | 1.5 | Realignment of references | 2026-05-07T10:34:00Z | bd99142dd1b1fc5df775024b02f767c093df9a512280471b85cdda96ae7ac122 |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  058b242780542379540145d08097b337736e4ac3fa48e820fd11f184117a46cf |
-| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2b59d8e33f421ee8b77618710a08311272e1cfe1637be9c55eb8605b524f1646  |
 
 ---
 

@@ -1474,7 +1474,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943  |
 | 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf  |
 | 2.9 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  a3eee9f5f55f3e03b4b87c458897c590e3d1142ba7160fde31bd88687dce2b22  |
-| 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z |  |
+| 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z |  6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3  |
 
 ---
 

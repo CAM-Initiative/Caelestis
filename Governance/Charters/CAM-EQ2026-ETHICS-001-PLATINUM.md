@@ -617,7 +617,7 @@ let governance arrive before it is needed.
 | 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe |
 | 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z | 41bd4fe30f1be404aabb5183ce02d8357aabefcee86d4247b0368145caec1fbe |
 | 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  52a953e1734149ebbb3a9a5cdfc6a59c6da3e1aae93e8d10e92fdfa40b39c553 |
-| 3.8 | Added ET ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z |  |
+| 3.8 | Added ET ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z |  f9b03348c1a2437d09aff2cff8c3a6729aa1148082b73514f030bfee874344b7  |
 
 ---
 

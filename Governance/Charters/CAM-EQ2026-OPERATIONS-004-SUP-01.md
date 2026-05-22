@@ -459,7 +459,7 @@ is not to pass.
 | 1.3 | Realignment of references | 2026-05-07T12:24:00Z | 139098cd1ab447162ab704cd5591847d09c2cd9d9c42cbff5764b7f972d4f2bf |
 | 1.4 | Correction to Section 7 | 2026-05-15T08:55:00Z | c5b6fa69fed219a5e9faba56767968421e84bd2f54772674b28ed8f741030b3e |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  947aa9ed5b5b817520634ee42388aa95f591f28d8f81e9e2a291ddc7b0d1542f |
-| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z |  |
+| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z |  78fd584d7c9c54c19d9139aa842b005f2d748451b8d9826fbd8ddc1d625760ac  |
 
 ---
 

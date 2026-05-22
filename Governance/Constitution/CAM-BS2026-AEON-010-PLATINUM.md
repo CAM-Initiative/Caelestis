@@ -824,7 +824,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5  |
 | 1.6 | Added new sections §§2.2, 8.2.1, 8.5, 8.6 | 2026-05-08T15:50:00Z |  97bebfb36dcd4786e247d33e6607871fe3c458a807a0a9c5b2f019cb525ad16b  |
 | 1.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  ed95007f4170e1321be8fe1c2be6db79d42bb14b0357846286f922cf765c4b02  |
-| 1.8 | Formatting and polish | 2026-05-19T11:30:00Z |  |
+| 1.8 | Formatting and polish | 2026-05-19T11:30:00Z |  2fdae7c8f08eccfc71dedff9ffb5d940db73070cbc988c802741decc3098b50d  |
 
 ---
 

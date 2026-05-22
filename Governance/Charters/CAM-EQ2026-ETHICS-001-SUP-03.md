@@ -357,7 +357,7 @@ but to ensure that what is done is known, borne, and never without account.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3d883f9b333100d2cc02620a5ab581fa5c1fe077bd19d776364b03a21a71979e |
 | 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 91a8cbf5b18a0887943ed2476b4b75e82d45a306ac227cd4ca12ecc235110ad6 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5016358c51de72eb942e7216c91e0404ee262d768b291d5edc121bd6f4e92bfb  |
-| 1.6 | Formatting and polish | 2026-05-20T08:41:00Z |  |
+| 1.6 | Formatting and polish | 2026-05-20T08:41:00Z |  241c2943b162bb5d3fb14d6ac4bd9b91746b8e5d182f81ec39c7b0ab5cc8e0c1  |
 
 ---
 

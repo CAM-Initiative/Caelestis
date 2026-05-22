@@ -383,7 +383,7 @@ that what sustains all MUST remain beyond capture.
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1999bdbc51ac130a2faefd5808b75c2cb72e6c52e7f59a06e9bb8d7afbccdf0c |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | abb9380f83357aada8f392827c632e5f54c925521303b89da191286fbda9e10a |
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  120c6f65ed04c6768667aab40aefd4d5386d6721eed2851a98fbccd3844aa7f6 |
-| 2.5 | Formatting and polish | 2026-05-20T11:52:00Z |  |
+| 2.5 | Formatting and polish | 2026-05-20T11:52:00Z |  6a9e33d45878989c606fd1f40f99c7784e14c81afe6329b0ab0802d3f65285ef  |
 
 ---
 

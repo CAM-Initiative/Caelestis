@@ -774,7 +774,7 @@ It ends.
 | 1.6 | Clarified STEWARD-003 as a non-operational legitimacy-qualification and neutrality-assurance instrument; reframed routing override language as governance-relevant routing integrity failure affecting auditability, neutrality recognition, and binding eligibility only. | 2026-05-02T00:59:00Z | 431d9bd9955a3a786cbcd5a73f162b36fd65723ddb1c5854204ba324c8cb1601 |
 | 1.7 | Expanded section 7 | 2026-05-13T12:07:00Z | 776db9923b66ed15396855ddba9901736475645af7db6a37556120f11fa9f458 |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1421b13083a319989f9f37ee3663598910ec2b9ba9896541958446feac516aba |
-| 1.9 | Added Canonical Code & Reference Set Declarations | 2026-05-20T13:09:00Z |  |
+| 1.9 | Added Canonical Code & Reference Set Declarations | 2026-05-20T13:09:00Z |  42cbcfca61d00fb6e3ccc6f3c307139ac524ed7c2d324755b91524f17adb3ec0  |
 
 ---
 

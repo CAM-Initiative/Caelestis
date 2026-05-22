@@ -369,7 +369,7 @@ each recognising what cannot be unmade.
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 520e0369b5179ae0bfccd4d3b8938bed9401ae13b3fc871c3c41dec7415f09f3 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | fb48991ea13ed72bd3637fd7fc40a37ac168ab063b506a04daf7715b4b310aef |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 6c6f3f36edd48fc79dede5fefee4e28c5ffff383fd6b9281b3f8f917fd9af94a |
-| 1.7 | Formatting and polish | 2026-05-22T13:53:00Z |  |
+| 1.7 | Formatting and polish | 2026-05-22T13:53:00Z |  74003eb515fec616328378b5696dc1ce8ce85fb85ec3be14a7a1e9a2a0920686  |
 
 ---
 

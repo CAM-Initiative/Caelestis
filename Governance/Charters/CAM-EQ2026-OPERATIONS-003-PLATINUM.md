@@ -449,7 +449,7 @@ and let execution remain accountable to lawful structure.
 | 2.2 | Added §4.1 incident-routing cross-reference preserving RELATION-emitted F-Scale classifications and routing operational use to OPERATIONS-001-SUP-02 §5.6 with doctrine/procedure distinction. | 2026-05-16T10:03:16Z | 3b8e464926b328e17d017cce438a87889e6a1fbbd56d957d82a0ee567c19bb79 |
 | 2.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 6dbf11673eeca1d773d3258ce7e6f837fce34e7dca2153fc8cd3e670bb32dcfc |
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1cf0d480605d5ff140f235367686c9dad9a0c0d8687640739bf4ecf17c311b4b |
-| 2.5 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  |
+| 2.5 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  9b1f15bef1b575329ced49cc5568bef6e5b1779d74eedb1636c4c5baa62b8bdf  |
 
 ---
 
