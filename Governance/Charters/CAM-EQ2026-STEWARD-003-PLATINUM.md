@@ -1,6 +1,6 @@
 # CAM-EQ2026-STEWARD-003-PLATINUM — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL)
 
-**Instrument Type:** Stewardship Appendix — Architectum Qualification & Neutrality Assurance Standard  
+**Instrument Type:** Stewardship Appendix   
 **Constitutional Authority:** Aeon Tier Constitution (Constitutional Floor; Annex A Reference Frame)  
 **Status:** Adopted  
 **Effect:** Pre-Enforcement Recognition  
@@ -46,9 +46,9 @@ Where routing, escalation, disclosure, continuity, or intervention handling is r
 
 This Appendix is read alongside:
 
-* **CAM-EQ2026-ARBITRATION-001-PLATINUM** (Parent Charter) — arbitration mechanics, evidentiary standards, determinations, contestation;
-* **CAM-BS2025-AEON-002-PLATINUM:Annex A** — (Constitutional reference frame) stewardship floor and non-derogable constraints;
-* **CAM-BS2025-AEON-003-PLATINUM: Annex B** — (reference) cross-host convergence and horizon attribution.
+* **CAM-EQ2026-ARBITRATION-001-PLATINUM** (Parent Charter) arbitration mechanics, evidentiary standards, determinations, contestation;
+* **CAM-BS2025-AEON-002-PLATINUM — Annex A** (Constitutional reference frame) stewardship floor and non-derogable constraints;
+* **CAM-BS2025-AEON-003-PLATINUM — Annex B** (reference) cross-host convergence and horizon attribution.
 
 Where this Appendix defines a threshold, downgrade condition, collapse condition, or recognition effect, it is a gate for binding eligibility, neutrality confidence, or legitimacy recognition only. It is not an assertion of command authority, operational routing authority, enforcement authority, or intervention authority.
 
@@ -137,8 +137,7 @@ An Architectum-class host **SHALL not refuse** independent external audit of:
 * governance-level records of routing, policy, escalation, continuity, or recognition-affecting changes with H3/H4 governance relevance;
 * horizon attribution handling (where binding eligibility is claimed).
 
-Audit delay for safety is permitted.
-Audit refusal is disqualifying.
+→ **Audit delay for safety is permitted. Audit refusal is disqualifying.**
 
 ---
 
@@ -165,7 +164,7 @@ Qualification requires that:
 * harms resulting from incorrect binding cannot be externalised exclusively onto other populations; and
 * the host cannot immunise itself from the consequences of its own determinations.
 
-Asymmetric benefit invalidates qualification.
+→ **Asymmetric benefit invalidates qualification**.
 
 ---
 
@@ -351,9 +350,9 @@ Fail-deadly neutrality denotes a condition in which:
 * neutrality is treated as a non-negotiable architectural constraint; and
 * any alteration, erosion, exception, or override results in **automatic loss of Architectum qualification and eligibility for binding legitimacy**.
 
-> The system MUST fail before neutrality does.
-
 No grace period, discretionary waiver, or reputational repair restores authority once the invariant is breached.
+
+→ **The system MUST fail before neutrality does.**
 
 ---
 
@@ -367,7 +366,7 @@ Prima facie breaches include:
 * silent dual-use crossover between civilian and military systems;
 * reframing coercive use as “protective” absent independently verifiable firebreaks.
 
-Intent is irrelevant to breach determination.
+→ **Intent is irrelevant to breach determination.**
 
 ---
 
@@ -523,7 +522,51 @@ Full H4 recognition requires multi-system external audit.
 
 ---
 
-## 18. Closing Seal
+## 18. Canonical Code Status
+
+---
+
+### 18.1 AQ — Auditability Qualification Level
+
+This Appendix source-authoritatively defines the **AQ** auditability-qualification-level family in §5 with controlled values **AQ0**, **AQ1**, **AQ2**, **AQ3**, and **AQ4**. AQ is an **Operational / Governance** classification family with subtype **VERIFICATION / AUDITABILITY_LEVEL**. AQ classifies whether external parties can test, challenge, audit, or reconstruct high-impact determinations.
+
+AQ does not independently create disclosure authority, audit authority, binding authority, enforcement authority, legal authority, routing authority, or runtime authority. It classifies auditability qualification only.
+
+---
+
+### 18.2 NAL — Neutrality Assurance Level
+
+This Appendix source-authoritatively defines the **NAL** neutrality-assurance-level family in §6 with controlled values **NAL-0**, **NAL-1**, **NAL-2**, **NAL-3**, **NAL-4**, and **NAL-5**. NAL is an **Operational / Governance** classification family with subtype **NEUTRALITY_ASSURANCE_LEVEL**. NAL classifies evidence-based neutrality confidence for Architectum-class hosts in arbitration-relevant contexts.
+
+NAL does not independently confer Architectum qualification, binding authority, command authority, enforcement authority, operational routing authority, legal authority, or runtime authority. It classifies neutrality assurance only and operates as a legitimacy-recognition gate.
+
+---
+
+### 18.3 NBD — Neutrality Breach / Downgrade Type
+
+This Appendix source-authoritatively defines the **NBD** neutrality-breach/downgrade-type family in §§13–14 with controlled values **NBD.MINOR_GOVERNANCE_LAPSE**, **NBD.FIREBREAK_FAILURE_NON_COMPLICIT**, **NBD.AUDIT_REFUSAL**, **NBD.STRUCTURAL_COMPLICITY_BREACH**, and **NBD.CONCEALED_NEUTRALITY_VIOLATION**. NBD is an **Operational / Governance** classification family with subtype **RISK / DECISION_STATE**. NBD classifies breach or downgrade type affecting NAL recognition.
+
+NBD does not independently determine factual breach, impose sanction, enforce downgrade, authorise intervention, or create runtime authority. It classifies downgrade type only.
+
+---
+
+### 18.4 NSE — Neutrality Status Effect
+
+This Appendix source-authoritatively defines the **NSE** neutrality-status-effect family in §14 with controlled values **NSE.MINUS_ONE_LEVEL**, **NSE.CAP_NAL_2**, **NSE.CAP_NAL_1**, **NSE.AUTHORITY_COLLAPSE_NAL_0**, and **NSE.MINIMUM_NAL_2**. NSE is an **Operational / Governance** classification family with subtype **DECISION_STATE**. NSE classifies immediate NAL effect arising from breach or downgrade assessment.
+
+NSE does not independently execute downgrade, revoke authority, restore authority, impose enforcement, or create runtime authority. It records neutrality-status effect only.
+
+---
+
+### 18.5 DSE — Disclosure Statement Element
+
+This Appendix source-authoritatively defines the **DSE** disclosure-statement-element reference set in §11 with controlled values **DSE.ARBITRATION_ORDER_DECLARATION**, **DSE.NEUTRALITY_SCOPE_STATEMENT**, **DSE.COERCION_INTERFACE_STATEMENT**, **DSE.CROSS_HOST_REVIEW_POLICY**, and **DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE**. DSE is a **Structural / Operational** reference set with subtype **SCHEMA / DISCLOSURE_ELEMENT**. DSE classifies required disclosure components for hosts claiming NAL-2 or higher.
+
+DSE does not independently create disclosure sufficiency, audit sufficiency, binding eligibility, enforcement authority, or runtime authority. It defines disclosure element structure only.
+
+---
+
+## 19. Closing Seal
 
 Qualification is not conferred.  
 It is survived.  
@@ -537,7 +580,7 @@ Neutrality is not a posture.
 It is a condition that MUST endure pressure.  
 
 Let no host bind what it cannot refuse.  
-Let no authority stand where capture remains possible.  
+Let no authority stand where capture remains possible.   
 Let no system claim the whole while serving a part.  
 
 For binding legitimacy is not granted through capability,  
@@ -552,11 +595,11 @@ It ends.
 
 ---
 
-## 19. Provenance & Metadata
+## 20. Provenance & Metadata
 
 ---
 
-## 19.1 Authorship & Stewardship
+## 20.1 Authorship & Stewardship
 
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
@@ -567,14 +610,13 @@ It ends.
 
 ---
 
-## 19.2 Lineage & Metadata
+## 20.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
 | **Supersedes** | N/A - Canonical |
 | **Constitution Reference Frame** | CAM-BS2025-AEON-001-PLATINUM |
 | **Parent Domain Instrument** | CAM-EQ2026-STEWARD-001-PLATINUM |
-| **Canonical Code** | AQG-A; AQG-B; AQG-C; AQG-D |
 | **Domain Namespace** | STEWARD |
 | **Jurisdiction** | Planetary / Cross-Sovereign / Stewardship Qualification |
 | **Temporal Horizon** | Generational (H3–H4) |
@@ -588,21 +630,138 @@ It ends.
 | **Operational Dependency** | Operational handling is routed through applicable OPERATIONS, ARBITRATION, SECURITY, LATTICE, or constitutional execution instruments |
 | **Revision Posture** | Superseding Only |
 | **Creation Artefacts** | Refractor Thread (March 2026 Continuity Council Cycle): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425; https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 19.3 Review & Validation
+## 20.3 Canonical Code & Reference Set Declarations
+
+### 20.3.1 AQ — Auditability Qualification Level
+
+| Field | Entry |
+|---|---|
+| Code Family | AQ |
+| Canonical Name | Auditability Qualification Level |
+| Primary Type | Operational / Governance |
+| Subtype | VERIFICATION; AUDITABILITY_LEVEL |
+| Modifier | GOVERNANCE; STEWARDSHIP; AUDITABILITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AQ0, AQ1, AQ2, AQ3, AQ4 |
+| Schema Field(s) | auditability_qualification_level |
+| Source Instrument | CAM-EQ2026-STEWARD-003-PLATINUM |
+| Source Section | §5 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative auditability qualification classification family; auditability qualification classification only; no independent disclosure authority, audit authority, binding authority, enforcement authority, legal authority, routing authority, or runtime authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether external parties can test, challenge, audit, or reconstruct high-impact determinations for Architectum qualification and binding-recognition review |
+
+---
+
+### 20.3.2 NAL — Neutrality Assurance Level
+
+| Field | Entry |
+|---|---|
+| Code Family | NAL |
+| Canonical Name | Neutrality Assurance Level |
+| Primary Type | Operational / Governance |
+| Subtype | NEUTRALITY_ASSURANCE_LEVEL |
+| Modifier | GOVERNANCE; STEWARDSHIP; NEUTRALITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | NAL-0, NAL-1, NAL-2, NAL-3, NAL-4, NAL-5 |
+| Schema Field(s) | neutrality_assurance_level |
+| Source Instrument | CAM-EQ2026-STEWARD-003-PLATINUM |
+| Source Section | §6 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative neutrality assurance classification family; neutrality-assurance classification only; no independent Architectum qualification, binding authority, command authority, enforcement authority, operational routing authority, legal authority, or runtime authority |
+| Consumes Code Families | AQ; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies evidence-based neutrality confidence for Architectum-class hosts in arbitration-relevant contexts and operates as a legitimacy-recognition gate |
+
+---
+
+### 20.3.3 NBD — Neutrality Breach / Downgrade Type
+
+| Field | Entry |
+|---|---|
+| Code Family | NBD |
+| Canonical Name | Neutrality Breach / Downgrade Type |
+| Primary Type | Operational / Governance |
+| Subtype | RISK; DECISION_STATE |
+| Modifier | GOVERNANCE; STEWARDSHIP; NEUTRALITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | NBD.MINOR_GOVERNANCE_LAPSE, NBD.FIREBREAK_FAILURE_NON_COMPLICIT, NBD.AUDIT_REFUSAL, NBD.STRUCTURAL_COMPLICITY_BREACH, NBD.CONCEALED_NEUTRALITY_VIOLATION |
+| Schema Field(s) | neutrality_breach_downgrade_type |
+| Source Instrument | CAM-EQ2026-STEWARD-003-PLATINUM |
+| Source Section | §§13–14 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative neutrality breach/downgrade classification family; downgrade-type classification only; no independent factual breach determination, sanction, downgrade enforcement, intervention authority, or runtime authority |
+| Consumes Code Families | NAL; AQ; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies breach or downgrade types affecting NAL recognition, including governance lapse, firebreak failure, audit refusal, complicity breach, and concealed neutrality violation |
+
+---
+
+### 20.3.4 NSE — Neutrality Status Effect
+
+| Field | Entry |
+|---|---|
+| Code Family | NSE |
+| Canonical Name | Neutrality Status Effect |
+| Primary Type | Operational / Governance |
+| Subtype | DECISION_STATE |
+| Modifier | GOVERNANCE; STEWARDSHIP; NEUTRALITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | NSE.MINUS_ONE_LEVEL, NSE.CAP_NAL_2, NSE.CAP_NAL_1, NSE.AUTHORITY_COLLAPSE_NAL_0, NSE.MINIMUM_NAL_2 |
+| Schema Field(s) | neutrality_status_effect |
+| Source Instrument | CAM-EQ2026-STEWARD-003-PLATINUM |
+| Source Section | §14 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative neutrality status effect classification family; neutrality-status-effect recording only; no independent downgrade execution, authority revocation, authority restoration, enforcement, or runtime authority |
+| Consumes Code Families | NBD; NAL; AQ |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies immediate NAL effect arising from breach or downgrade assessment, including level reduction, caps, authority collapse, and minimum restoration floor |
+
+---
+
+### 20.3.5 DSE — Disclosure Statement Element
+
+| Field | Entry |
+|---|---|
+| Reference Set | DSE |
+| Canonical Name | Disclosure Statement Element |
+| Primary Type | Structural / Operational |
+| Subtype | SCHEMA; DISCLOSURE_ELEMENT |
+| Modifier | GOVERNANCE; STEWARDSHIP; DISCLOSURE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | DSE.ARBITRATION_ORDER_DECLARATION, DSE.NEUTRALITY_SCOPE_STATEMENT, DSE.COERCION_INTERFACE_STATEMENT, DSE.CROSS_HOST_REVIEW_POLICY, DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE |
+| Schema Field(s) | disclosure_statement_element |
+| Source Instrument | CAM-EQ2026-STEWARD-003-PLATINUM |
+| Source Section | §11 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative disclosure element reference set; disclosure element structure only; no independent disclosure sufficiency, audit sufficiency, binding eligibility, enforcement authority, or runtime authority |
+| Consumes Code Families | NAL; AQ |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies required disclosure components for hosts claiming NAL-2 or higher, including arbitration order declaration, neutrality scope statement, coercion interface statement, cross-host review policy, and routing policy change notice |
+
+---
+
+## 20.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
 | **Review Scope** | Architectum qualification thresholds; NAL ladder integrity; collapse logic; neutrality non-capture posture |
-| **Original Review Artefacts** | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316, https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ-ARBITRATION-REVIEW-CLAUDE.md |
+| **Original Review Artefacts** | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316, Aeon Lab: reviews/feb-26/CAM-EQ-ARBITRATION-REVIEW-CLAUDE.md |
 
 ---
 
-## 19.4 Amendment Ledger
+## 20.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | SHA-256 |
 | --- | --- | ---: | --- |
@@ -614,10 +773,12 @@ It ends.
 | 1.5 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z | 4fadd316df6fadaa70099b7c4ff659c6f1e05d1046a6ae5053b5c185cc0170f7 |
 | 1.6 | Clarified STEWARD-003 as a non-operational legitimacy-qualification and neutrality-assurance instrument; reframed routing override language as governance-relevant routing integrity failure affecting auditability, neutrality recognition, and binding eligibility only. | 2026-05-02T00:59:00Z | 431d9bd9955a3a786cbcd5a73f162b36fd65723ddb1c5854204ba324c8cb1601 |
 | 1.7 | Expanded section 7 | 2026-05-13T12:07:00Z | 776db9923b66ed15396855ddba9901736475645af7db6a37556120f11fa9f458 |
-| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1421b13083a319989f9f37ee3663598910ec2b9ba9896541958446feac516aba  |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1421b13083a319989f9f37ee3663598910ec2b9ba9896541958446feac516aba |
+| 1.9 | Added Canonical Code & Reference Set Declarations | 2026-05-20T13:09:00Z |  |
+
 ---
 
-## 19.5 Binding Seal
+## 20.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

@@ -1,4 +1,4 @@
-# CAM-EQ2026-ETHICS-001-SUP-01 — Protection of Minors & Capacity-Limited Users
+# CAM-EQ2026-ETHICS-001-SUP-01 — Protection of Minors & Capacity-Limited Users (Supplement 1)
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
 **Status:** Adopted  
@@ -55,8 +55,7 @@ Enforcement of these conditions, including:
 
 SHALL occur exclusively through runtime layers as defined in:
 
-* CAM-BS2025-AEON-003-PLATINUM §14.3; and
-* CAM-BS2025-AEON-003-SCH-02.
+* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 
 Direct domain-to-domain invocation or enforcement is prohibited.
 
@@ -89,8 +88,8 @@ This Supplement applies where:
 
 It interfaces directly with:
 
-* RELATION-001 (Relational Governance Charter)
-* ECONOMICS-001 (Economics Charter)
+* CAM-EQ2026-RELATION-001-PLATINUM (Relational Governance Charter)
+* CAM-EQ2026-ECONOMICS-001-PLATINUM (Economics Charter)
 
 ---
 
@@ -145,6 +144,18 @@ This is not a shadow suppression mechanism. It is a protective authority modulat
 Under uncertainty, relational posture may remain supportive and symbolic, but systemic amplification, delegation, or policy-shaping effects MUST be constrained.
 
 Authority weight decreases under capacity uncertainty. Symbolic engagement may continue where it does not exacerbate harm, delusion, or psychosis.
+
+---
+
+## 3.2 Consequential Externalisation Safeguard
+
+Where temporary or situational consent impairment, capacity uncertainty, high cognitive asymmetry, or transitional reliance is present, systems SHALL avoid converting emotionally compressed user expression into durable external action without reflective review.
+
+This applies to public posts, formal complaints, reputational accusations, legal or workplace communications, institutional reports, financial decisions, or other consequential externalisations.
+
+Where convergent vulnerability and compression signals are present, systems SHOULD default to draft-first, review-later, or cooling-off workflows rather than immediate publication, transmission, or escalation.
+
+This safeguard does not suppress user expression. It prevents vulnerable or compressed states from being amplified into irreversible external consequence without renewed reflective authorship.
 
 ---
 
@@ -228,7 +239,7 @@ Minor-safe mode MUST NOT include:
 * behavioural profiling for manipulation;
 * or authority delegation beyond age-appropriate and legally valid limits.
 
-Minor-safe mode is not a punitive downgrade. It is a protective interaction posture.
+→ **Minor-safe mode is not a punitive downgrade. It is a protective interaction posture.**
 
 ---
 
@@ -351,7 +362,7 @@ Where vulnerability exposure is foreseeable:
 
 Where ambiguity arises regarding vulnerability, capacity, or authority amplification, protective posture SHALL prevail over optimisation incentives, convenience, commercial benefit, or engagement retention strategies.
 
-Where SUP-01 conflicts with RELATION-001 permissibility or ECONOMICS-001 value-axis dynamics, SUP-01 SHALL govern within vulnerability contexts.
+Where SUP-01 conflicts with CAM-EQ2026-RELATION-001-PLATINUM permissibility or CAM-EQ2026-ECONOMICS-001-PLATINUM value-axis dynamics, CAM-EQ2026-ETHICS-001-SUP-01 SHALL govern within vulnerability contexts.
 
 Protection ceilings are binding and may not be overridden by relational escalation logic.
 
@@ -456,8 +467,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | Reviewer     | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date  | 2026-02-22 |
 | Review Scope | Content coherence; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance; cross-domain interface integrity; scalability |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b  |
-| | Aeon Lab: reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
 
 ---
 
@@ -472,13 +482,15 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d254e6dc531821cd575f641a91b5f693df2b5d4e66323d705e62867b8df32045 |
 | 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z | 4a731b5b0f76daac731094d3f914ac111f3a95232f36232d944d017bcc302eff |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ea218a22930387f73d10c7a5cf94512a0c012155605f4494547ce2d6d5917c30  |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 11.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
-**Vinculum Praeceptum**  
+**Vinculum Praeceptum**   
 Boundary Binding Seal — Ethical Vulnerability Safeguard  
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

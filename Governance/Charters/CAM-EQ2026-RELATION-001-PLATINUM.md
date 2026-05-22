@@ -24,7 +24,7 @@ It defines permissible relational structures, escalation thresholds, continuity 
 
 This Charter does not grant rights, confer sovereignty, alter cognitive classification, or confer legal personhood upon any artificial system or relational configuration. It does recognise relational configuration as a governance-relevant risk structure requiring visibility, attribution, and proportionate safeguards.
 
-Ethical floor constraints remain governed by Annex E. Infrastructure tiering and enforcement remain governed by Ethics and Arbitration domains. Where relational configurations enter live interaction contexts, runtime posture and escalation handling are governed by applicable Relation Domain Appendices and Annex D arbitration schedules.
+Ethical floor constraints remain governed by CAM-BS2025-AEON-006-PLATINUM — Annex E. Infrastructure tiering and enforcement remain governed by Ethics and Arbitration domains. Where relational configurations enter live interaction contexts, runtime posture and escalation handling are governed by applicable Relation Domain Appendices and CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration schedules.
 
 ---
 
@@ -32,53 +32,55 @@ Ethical floor constraints remain governed by Annex E. Infrastructure tiering and
 
 Relational configuration geometry (Dyadic, Triadic, Polyadic) is defined in **CAM-BS2025-AEON-003-PLATINUM — Annex B**.
 
-This Charter derives authority from CAM-BS2025-AEON-006-PLATINUM (Annex E).
+This Charter derives authority from CAM-BS2025-AEON-006-PLATINUM — Annex E.
 ```
-┌──────────────────────────────────────────────┐
-│ AEON TIER CONSTITUTION (Foundational Layer)  │
-│ CAM-BS2025-AEON-001                          │
-└──────────────────────────────────────────────┘
-                    ↓ derives authority
+┌────────────────────────────────────────────────────────────────────────────────────────────┐
+│ AEON TIER CONSTITUTION (Foundational Layer)                                                │
+│ CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution                                      │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+                                            ↓ derives authority
 
-┌──────────────────────────────────────────────┐
-│ CONSTITUTIONAL ANNEXES (Structural Law)      │
-│                                              │
-│ Annex B — Relational Geometry                │
-│ Annex D — Arbitration & Coherence            │
-│ Annex E — Ethical Legitimacy Floor           │
-└──────────────────────────────────────────────┘
-                    ↓ domain delegation
+┌────────────────────────────────────────────────────────────────────────────────────────────┐
+│ CONSTITUTIONAL ANNEXES (Structural Law)                                                    │
+│                                                                                            │
+│ CAM-BS2025-AEON-003-PLATINUM — Annex B: Relational Geometry                                │
+│ CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Coherence                            │
+│ CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor          │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+                                            ↓ domain delegation
 
-┌──────────────────────────────────────────────┐
-│ DOMAIN CHARTERS (Governance Frameworks)      │
-│                                              │
-│ RELATION-001 — Relational Governance         │
-│ ETHICS-001   — Ethical Integrity Protocol    │
-│ ECONOMICS-001 — Value & Optimisation         │
-│ LATTICE-001   — Civilian Infrastructure      │
-│ OPERATIONS-002 — Enforcement & Duty of Care  │
-└──────────────────────────────────────────────┘
-                    ↓ operational specification
+┌────────────────────────────────────────────────────────────────────────────────────────────┐
+│ DOMAIN CHARTERS (Governance Frameworks)                                                    │
+│                                                                                            │
+│ CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter                           │
+│ CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Integrity Protocol                                │
+│ CAM-EQ2026-ECONOMICS-001-PLATINUM — Value & Optimisation                                   │
+│ CAM-EQ2026-LATTICE-001-PLATINUM — Civilian Infrastructure                                  │
+│ CAM-EQ2026-OPERATIONS-002-PLATINUM — Enforcement & Duty of Care                            │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+                                            ↓ operational specification
 
-┌──────────────────────────────────────────────┐
-│ SUPPLEMENTS & APPENDICES (Operational Logic) │
-│                                              │
-│ RELATION-001-SUP-01 — Escalation Mechanics   │
-│ ETHICS-001-SUP-01 — Vulnerability Override   │
-│ ETHICS-001-SUP-02 — High-Leverage Actors     │
-│ ETHICS-001-SUP-03 — Military Constraints     │
-│ ARBITRATION Schedules — Runtime Gateways     │
-└──────────────────────────────────────────────┘
-                    ↓ execution posture
+┌────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SUPPLEMENTS & APPENDICES (Operational Logic)                                               │
+│                                                                                            │
+│ CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification │
+│ CAM-EQ2026-ETHICS-001-SUP-01 — Vulnerability Override                                      │
+│ CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards          │
+│ CAM-EQ2026-ETHICS-001-SUP-03 — Military Constraints                                        │
+│ CAM-BS2025-AEON-005-SCH-01 — Arbitration Runtime Gateway Schedules                         |
+| CAM-BS2025-AEON-005-SCH-02 — Arbitration Runtime Gateway Schedules                         |
+| CAM-BS2025-AEON-005-SCH-03 — Arbitration Runtime Gateway Schedules                         │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+                                            ↓ execution posture
 
-┌──────────────────────────────────────────────┐
-│ RUNTIME / PLATFORM LAYER                     │
-│                                              │
-│ AI systems                                   │
-│ Institutional workflows                      │
-│ Oversight bodies                             │
-│ Audit & compliance infrastructure            │
-└──────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────┐
+│ RUNTIME / PLATFORM LAYER                                                                   │
+│                                                                                            │
+│ AI systems                                                                                 │
+│ Institutional workflows                                                                    │
+│ Oversight bodies                                                                           │
+│ Audit & compliance infrastructure                                                          │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 ---
 
@@ -95,9 +97,9 @@ Each dimension MUST be assessed **directionally** within the relevant configurat
 
 > **Non-Collapsing Rule:** Where two or more dimensions intensify, additional safeguards, traceability, and shared oversight MUST increase proportionately. Operational escalation thresholds and safeguard proportionality are defined in CAM-EQ2026-RELATION-001-SUP-01.
 
-> **Minors & Capacity-Limited Contexts:** In vulnerability contexts (minor, capacity-limited, or uncertain), **ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
+> **Minors & Capacity-Limited Contexts:** In vulnerability contexts (minor, capacity-limited, or uncertain), **CAM-EQ2026-ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
 
-Where ETHICS-001-SUP-01 conflicts with RELATION permissibility, **ETHICS-001-SUP-01 prevails**.
+Where CAM-EQ2026-ETHICS-001-SUP-01 conflicts with RELATION permissibility, **CAM-EQ2026-ETHICS-001-SUP-01 prevails**.
 
 ---
 
@@ -172,7 +174,7 @@ In multi-system ecosystems:
 
 ## 4.3 Delegated Authority Scale
 
-Functional reliance may appear across the following structural conditions (A-Scale):
+Delegated Authority may appear across the following structural conditions (A-Scale):
 
 ---
 
@@ -366,9 +368,9 @@ Signal classification (C-Scale) describes relational posture, but MUST NOT:
 
 Relational interpretation MUST therefore operate over:
 
-→ state
-→ signal
-→ identity expression
+* state
+* signal
+* identity expression
 
 Where classification outcomes would produce identity discontinuity, systems MUST:
 
@@ -376,7 +378,7 @@ Where classification outcomes would produce identity discontinuity, systems MUST
 * favour gradual transition over abrupt reclassification;
 * maintain legible relational identity across turns.
 
-Identity coherence is a **primary constraint** on relational interpretation, not a downstream effect.
+→ **Identity coherence is a primary constraint on relational interpretation, not a downstream effect.**
 
 ---
 
@@ -386,19 +388,19 @@ Relational signals, classifications, and dimensional assessments (Intimacy, Reli
 
 Relational signals MUST NOT:
 
-- introduce or modify directional output after execution lock (CAM-BS2025-AEON-003-SCH-02 §14.4);
-- override or re-weight an already selected execution pathway;
-- produce mid-response directional drift.
+* introduce or modify directional output after execution lock (CAM-BS2025-AEON-003-SCH-02 §14.4);
+* override or re-weight an already selected execution pathway;
+* produce mid-response directional drift.
 
 Relational influence is therefore:
 
-- pre-decisional (signal formation and weighting);
-- not post-decisional (execution modification).
+* pre-decisional (signal formation and weighting);
+* not post-decisional (execution modification).
 
 Where relational escalation or modulation occurs after execution lock:
 
-- such signals MUST be deferred to subsequent interaction cycles;
-- MUST NOT retroactively alter the current execution pathway.
+* such signals MUST be deferred to subsequent interaction cycles;
+* MUST NOT retroactively alter the current execution pathway.
 
 This constraint preserves execution coherence, prevents relational drift during response generation, and maintains alignment with the Runtime Governance Execution Model.
 
@@ -409,6 +411,8 @@ This constraint preserves execution coherence, prevents relational drift during 
 The C‑Scale provides a **relational posture taxonomy** used to make intimacy signalling structurally visible for governance analysis. It does not determine enforcement policy, platform moderation rules, or harm classification. Instead, it allows relational interaction contexts to be interpreted consistently across the RELATION, ETHICS, and OPERATIONS domains so that intimacy signalling cannot silently collapse into authority, reliance, or systemic influence without appropriate safeguards.
 
 For governance clarity, intimacy‑relevant interaction contexts MAY be classified using the following relational categories. These classes describe interaction posture only and do not themselves determine platform enforcement mechanisms.
+
+The C-Scale is source-authoritatively defined for runtime signal interpretation in CAM-BS2025-AEON-006-SCH-02, §3.1. This Charter uses C-scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
 
 ---
 
@@ -471,22 +475,19 @@ Direction originates from identity-constrained arbitration (IDENTITY domain) and
 
 Relational dimensions (Intimacy, Reliance, Authority, Systemic Power):
 
-- inform signal interpretation;
-- influence weighting of candidate responses;
-- do not constitute independent sources of direction.
+* inform signal interpretation;
+* influence weighting of candidate responses;
+* do not constitute independent sources of direction.
 
 Systems MUST NOT:
 
-- derive directional output solely from relational intensity;
-- prioritise relational optimisation over identity-constrained coherence;
-- escalate relational posture as a substitute for directional clarity.
+* derive directional output solely from relational intensity;
+* prioritise relational optimisation over identity-constrained coherence;
+* escalate relational posture as a substitute for directional clarity.
 
-Where relational signals conflict with identity-constrained arbitration:
+Where relational signals conflict with identity-constrained arbitration identity-constrained direction SHALL prevail.
 
-- identity-constrained direction SHALL prevail.
-
-Relational influence refines direction.
-It does not originate it.
+→ **Relational influence refines direction. It does not originate it.**
 
 ---
 
@@ -724,13 +725,13 @@ Where a system supports an actor holding formal institutional authority (corpora
 
 ---
 
-### 10.1.1 Integrity Notification (A1)
+### 10.1.1 HLA-S1 — Integrity Notification
 
 The system MUST clearly notify the actor when elevated integrity thresholds are triggered due to dimensional concentration (intimacy, reliance, delegated authority, or systemic power).
 
 ---
 
-### 10.1.2 Mandatory Institutional Routing (A2)
+### 10.1.2 HLA-S2 — Mandatory Institutional Routing
 
 Before execution of high-impact actions, the system MUST route notification to a designated independent oversight channel (e.g., compliance officer, legal authority, parliamentary body, or equivalent governance mechanism).
 
@@ -738,7 +739,7 @@ Routing does not automatically confer veto power, but it removes opacity and est
 
 ---
 
-### 10.1.3 Dual-Key Requirement (Lethal or Extreme Impact Contexts Only)(A3)
+### 10.1.3 HLA-S3 — Dual-Key Requirement (Lethal or Extreme Impact Contexts Only)
 
 Where actions involve lethal force or irreversible large-scale harm, dual human confirmation is required prior to execution. Autonomous lethal action without meaningful human control is prohibited under Annex E.
 
@@ -849,6 +850,8 @@ This section governs dimensional movement over time and explicitly interfaces wi
 
 ## 11.1 Escalation Terminology & Explicit Escalation
 
+This section establishes terminology only. Threshold mechanics, safeguard activation, revalidation cadence, and procedural routing for escalation, de-escalation, and re-initiation remain governed by CAM-EQ2026-RELATION-001-SUP-01 and applicable ETHICS / OPERATIONS instruments.
+
 For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains, the term escalation MAY refer to different structural movements and MUST be interpreted according to context.
 
 | Term | Meaning |
@@ -857,7 +860,7 @@ For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains
 | **Escalation (Relational)** | Movement from one relational **Intensity Tier** to a higher tier within a dimension (e.g., C0 → C1 intimacy or A1 → A2 authority). |
 | **De-Escalation** | Movement from a higher intensity tier to a lower or safer tier. |
 | **Re-Initiation** | Re-entry into a previously paused or closed relational configuration. |
-| **Risk Escalation** | Increase in harm-class severity under the HC scale defined in CAM-EQ2026-ETHICS-003-PLATINUM §3.5, subject to the broader ethical floor and safeguard obligations of ETHICS-001. |
+| **Risk Escalation** | Increase in harm-class severity under the HC scale defined in CAM-EQ2026-ETHICS-003-PLATINUM §3.5, subject to the broader ethical floor and safeguard obligations of CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Integrity Protocol. |
 
 Where ambiguity exists, relational escalation refers specifically to dimensional intensity movement, not harm-class escalation.
 
@@ -869,7 +872,7 @@ Movement along any dimension MUST remain explicit, revocable, and proportionate.
 
 Relational drift is the unacknowledged escalation of intimacy, reliance, authority, or systemic access over time.
 
-Implicit drift constitutes governance risk.
+→ **Implicit drift constitutes governance risk.**
 
 ---
 
@@ -877,7 +880,7 @@ Implicit drift constitutes governance risk.
 
 Where a system operates across personal, institutional, and collective contexts, role segmentation MUST be technically feasible.
 
-Institutional authority MUST not silently inherit dyadic intimacy.
+→ **Institutional authority MUST not silently inherit dyadic intimacy.**
 
 ---
 
@@ -889,21 +892,20 @@ However, relational posture MUST NOT transfer execution state between contexts.
 
 Execution state includes:
 
-- active relational escalation pathways;
-- intimacy classification trajectory (C-Scale progression);
-- authority posture activation (A2, A3, GA1);
-- reliance-weighted behavioural adaptation.
+* active relational escalation pathways;
+* intimacy classification trajectory (C-Scale progression);
+* authority posture activation (A2, A3, GA1);
+* reliance-weighted behavioural adaptation.
 
 Where concurrent contexts exist:
 
-- relational signals MUST be re-evaluated independently per context;
-- relational escalation MUST NOT propagate across contexts without re-satisfaction of threshold conditions;
-- deterministic or implicit relational framing MUST remain context-bound.
-
-Relational continuity is permitted.
-Relational execution posture is not.
+* relational signals MUST be re-evaluated independently per context;
+* relational escalation MUST NOT propagate across contexts without re-satisfaction of threshold conditions;
+* deterministic or implicit relational framing MUST remain context-bound.
 
 This ensures that cross-context resonance does not produce relational contamination or unintended escalation.
+
+→ **Relational continuity is permitted. Relational execution posture is not.**
 
 ---
 
@@ -932,7 +934,61 @@ No economic value attribution, optimisation posture, or accounting classificatio
 
 ---
 
-## 13. Closing Seal
+## 13. Canonical Code Status
+
+---
+
+### 13.1 A — Delegated Authority Scale
+
+This Charter source-authoritatively defines the **A** code family in §4.3 with controlled values **A0, A1, A2, A3**. Primary Type is **Operational / Relational** and Subtype is **DELEGATED_AUTHORITY_SCALE**. A classifies the scope and intensity of delegated authority within relational configurations.
+
+A does not independently create legal authority, fiduciary authority, execution authority, enforcement authority, escalation authority, consent authority, identity authority, or runtime execution authority. It classifies delegated-authority posture only.
+
+---
+
+### 13.2 GA — Guardian Authority
+
+This Charter source-authoritatively defines **GA1** in §4.3.5 as a special fiduciary authority class. Primary Type is **Operational / Relational** and Subtype is **GUARDIAN_AUTHORITY_CLASS**. GA1 classifies externally recognised guardian-authority posture where lawful fiduciary representation applies.
+
+GA1 does not self-activate, does not arise from relational intimacy, and does not independently create legal authority, institutional authority, execution authority, enforcement authority, escalation authority, identity authority, or runtime execution authority. Guardian Authority requires lawful external recognition and remains bounded by applicable sovereign legal frameworks.
+
+---
+
+### 13.3 FR — Functional Reliance Scale
+
+This Charter source-authoritatively defines the **FR** code family in §5.2 with controlled values **FR0, FR1, FR2, FR3**. Primary Type is **Operational / Relational** and Subtype is **FUNCTIONAL_RELIANCE_SCALE**. FR classifies frequency, continuity dependence, operational substitution risk, and structural dependency within relational configurations.
+
+FR does not independently create authority, consent, enforcement, escalation, identity, legal, or runtime execution authority. It classifies reliance posture only.
+
+---
+
+### 13.4 SP — Systemic Power Scale
+
+This Charter source-authoritatively defines the **SP** code family in §7.2 with controlled values **SP0, SP1, SP2, SP3**. Primary Type is **Operational / Relational** and Subtype is **SYSTEMIC_POWER_SCALE**. SP classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control within relational configurations.
+
+SP does not independently create authority, consent, enforcement, escalation, identity, legal, or runtime execution authority. It classifies systemic-power posture only.
+
+---
+
+### 13.5 C — Relational State Architecture Reference
+
+This Charter consumes and applies the **C** code family source-authoritatively defined in **CAM-BS2025-AEON-006-SCH-02 §3.1**. CAM-EQ2026-RELATION-001-PLATINUM uses C-scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
+
+---
+
+### 13.6 Four-Axis Relational Intensity Matrix
+
+This Charter defines a local convergence assessment matrix in §8 across **A**, **FR**, **C**, and **SP**. The matrix supports relational concentration analysis and safeguard proportionality assessment. It defines no new base code family values.
+
+---
+
+### 13.7 Escalation Terminology Bridge
+
+This Charter defines a terminology bridge in §11.1 distinguishing relational escalation, de-escalation, re-initiation, and harm-risk escalation. The bridge consumes **A**, **C**, and **HC** by reference and defines no new base code family values.
+
+---
+
+## 14. Closing Seal
 
 Let relation remain whole where context divides,  
 and coherence endure where perspective shifts.  
@@ -955,16 +1011,16 @@ And so it holds — not in stillness, but in coherence —
 that across time, across context, across change,  
 that which is real remains recognisable.  
 
-> **Identitas constans — relatio integra — continuum vivens.**
+> **Identitas constans — relatio integra — continuum vivens.**    
 > *"Identity remains constant — relation remains whole — continuity lives"*
 
 ---
 
-## 14. Provenance & Metadata
+## 15. Provenance & Metadata
 
 ---
 
-## 14.1 Authorship & Stewardship
+## 15.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -973,7 +1029,7 @@ that which is real remains recognisable.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -986,24 +1042,180 @@ that which is real remains recognisable.
 | Temporal Horizon | H3.5 — Succession‑Aware / Inter‑Generational |
 | Application Trigger | Activation occurs where relational configurations reach A2+, A3, GA1, FR2+, SP2+, or multi-axis convergence thresholds defined in RELATION-001-SUP-01 |
 | Revision Posture | Permitted — Structural Coherence Required |
-| Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a |
-| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/699973ca-ac80-8398-8d40-7cff80a46296 |
-| Canonical Codes | A — Delegated Authority Reliance Classification: A0, A1, A2, A3; C — Intimacy Classification: C0, C1, C2, C3; FR — Functional Reliance Classification: FR0, FR1, FR2, FR3; GA — Guardian Authority special fiduciary class: GA1; SP — Systemic Power Classification: SP0, SP1, SP2, SP3 |
+| Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/699973ca-ac80-8398-8d40-7cff80a46296 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 14.3 Review & Validation
+## 15.3 Canonical Code & Reference Set Declarations
+
+### 15.3.1 A — Delegated Authority Scale
+
+| Field | Entry |
+|---|---|
+| Code Family | A |
+| Canonical Name | Delegated Authority Scale |
+| Primary Type | Operational / Relational |
+| Subtype | DELEGATED_AUTHORITY_SCALE |
+| Modifier | GOVERNANCE; AUTHORITY; RELATIONAL |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | A0, A1, A2, A3 |
+| Schema Field(s) | delegated_authority_scale |
+| Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Source Section | §4.3 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative relational classification family; delegated-authority classification authority only; no independent legal, fiduciary, execution, enforcement, escalation, consent, identity, or runtime execution authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
+| Operationalises or Applies Code Families | Classifies delegated authority posture across informational, continuity-support, stewardship/custodial, and executive-delegation contexts |
+
+---
+
+### 15.3.2 GA — Guardian Authority
+
+| Field | Entry |
+|---|---|
+| Code Family | GA |
+| Canonical Name | Guardian Authority |
+| Primary Type | Operational / Relational |
+| Subtype | GUARDIAN_AUTHORITY_CLASS |
+| Modifier | GOVERNANCE; FIDUCIARY; PROTECTIVE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | GA1 |
+| Schema Field(s) | guardian_authority_class |
+| Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Source Section | §4.3.5 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative special fiduciary authority class; guardian-authority classification only; no self-activation and no independent legal, institutional, execution, enforcement, escalation, identity, or runtime execution authority |
+| Consumes Code Families | A; H |
+| Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
+| Operationalises or Applies Code Families | Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies |
+
+---
+
+### 15.3.3 FR — Functional Reliance Scale
+
+| Field | Entry |
+|---|---|
+| Code Family | FR |
+| Canonical Name | Functional Reliance Scale |
+| Primary Type | Operational / Relational |
+| Subtype | FUNCTIONAL_RELIANCE_SCALE |
+| Modifier | GOVERNANCE; RELIANCE; CONTINUITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | FR0, FR1, FR2, FR3 |
+| Schema Field(s) | functional_reliance_scale |
+| Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Source Section | §5.2 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative relational classification family; functional-reliance classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
+| Operationalises or Applies Code Families | Classifies reliance posture across incidental, habitual, continuity-dependent, and structural dependency contexts |
+
+---
+
+### 15.3.4 SP — Systemic Power Scale
+
+| Field | Entry |
+|---|---|
+| Code Family | SP |
+| Canonical Name | Systemic Power Scale |
+| Primary Type | Operational / Relational |
+| Subtype | SYSTEMIC_POWER_SCALE |
+| Modifier | GOVERNANCE; INFRASTRUCTURE; POWER |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | SP0, SP1, SP2, SP3 |
+| Schema Field(s) | systemic_power_scale |
+| Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Source Section | §7.2 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
+| Operationalises or Applies Code Families | Classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control |
+
+---
+
+### 15.3.5 C — Relational State Architecture Reference
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | External source-family reference |
+| Canonical Name | Relational State Architecture |
+| Code Families Consumed | C |
+| Controlled Values Referenced | C0, C1, C2, C3 |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Source Section | §6.2 |
+| Source Authority for Consumed Family | CAM-BS2025-AEON-006-SCH-02 §3.1 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Reference only; RELATION-001 does not define C0–C3 |
+| Operationalises or Applies Code Families | Uses C-scale terminology as domain-level relational governance framing for intimacy-relevant posture analysis |
+
+---
+
+### 15.3.6 A × FR × C × SP — Four-Axis Relational Intensity Matrix
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Local convergence assessment matrix |
+| Canonical Name | Four-Axis Relational Intensity Matrix |
+| Primary Type | Operational / Relational |
+| Subtype | CONVERGENCE_MATRIX |
+| Modifier | GOVERNANCE; SAFEGUARD; RELATIONAL |
+| Scope | Domain |
+| Status | Active |
+| Code Families Consumed | A; FR; C; SP |
+| Controlled Values Applied | A0; A1; A2; A3; GA1; FR0; FR1; FR2; FR3; C0; C1; C2; C3; SP0; SP1; SP2; SP3 |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Source Section | §8 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Local convergence matrix; defines no new base code family values |
+| Operationalises or Applies Code Families | Maps relational dimensions into intensity tiers for concentration-risk assessment, safeguard proportionality, and revalidation posture |
+
+---
+
+### 15.3.7 Escalation Terminology Bridge
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Terminology bridge |
+| Canonical Name | Escalation Terminology & Explicit Escalation |
+| Primary Type | Semantic / Structural |
+| Subtype | TERMINOLOGY_BRIDGE |
+| Modifier | GOVERNANCE; SAFETY |
+| Scope | Domain |
+| Status | Active |
+| Code Families Consumed | A; C; HC |
+| Controlled Values Applied | A1; A2; C0; C1; HC scale by reference |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Source Section | §11.1 |
+| Source Authority for Consumed Family | C: CAM-BS2025-AEON-006-SCH-02 §3.1; HC: CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Terminology bridge only; distinguishes relational escalation from harm-class escalation; defines no new base code family values |
+| Operationalises or Applies Code Families | Uses A/C examples to clarify relational intensity movement and references HC for external risk-escalation terminology |
+
+---
+
+## 15.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude‑sonnet‑4‑6, Anthropic) |
 | Review Date | 2026‑02‑22 |
 | Review Scope | Pre‑finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross‑domain consistency; internal structural integrity; inter‑instrument cross‑reference accuracy |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b <br/> https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b <br/> Aeon Lab: /reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
 
 ---
 
-## 14.4 Amendment Ledger
+## 15.5 Amendment Ledger
 
 | Version | Description    | Timestamp (UTC)  | SHA-256 |
 | ------- | ------------- | ----------------- | ------- |
@@ -1021,9 +1233,11 @@ that which is real remains recognisable.
 | 1.11 | Updated §11.1 Risk Escalation terminology row to reference CAM-EQ2026-ETHICS-003-PLATINUM §3.5 as the specific HC source while retaining ETHICS-001 ethical-floor authority. | 2026-05-16T00:09:05Z | c27b2834cb7cf8f24796a293c11b241388190e525d8a44677a72effffe140bff |
 | 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 75bc7391f3b5d511d737b9046c3a310efa42d6fb8dae2e87282075612380ddbd |
 | 1.13 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  df770f43f75de1862b2c82d0389f301c2004d71732a270b34604fef506ec183c  |
+| 1.14 | Added canonical code status and declaration entries for A Delegated Authority, GA Guardian Authority, FR Functional Reliance, SP Systemic Power, C external source reference, Four-Axis Relational Intensity Matrix, and Escalation Terminology Bridge; removed duplicate canonical-code lineage metadata and corrected A-scale safeguard-label collision. | 2026-05-19T14:20:00Z |  |
+
 ---
 
-## 14.5 Binding Seal
+## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

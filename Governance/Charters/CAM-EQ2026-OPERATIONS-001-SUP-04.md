@@ -1,4 +1,4 @@
-# CAM-EQ2026-OPERATIONS-001-SUP-04 — Taxonomies & Metadata Authority Framework (Supplementary 4)
+# CAM-EQ2026-OPERATIONS-001-SUP-04 — Taxonomies & Metadata Authority Framework (Supplement 4)
 
 **Instrument Type:** Supplement  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
@@ -197,14 +197,14 @@ Before a new taxonomy, code family, symbolic prefix, schema field, metadata fiel
 
 New primary types SHOULD NOT be created where the proposed classification can be expressed as:
 
-- a subtype of Structural, Semantic, Operational, or Symbolic;
-- a modifier attached to an existing type;
-- a code family within an existing taxonomy;
-- a controlled value inside an existing family;
-- a schema field carrying an existing controlled value;
-- a symbolic marker within an existing symbolic structure;
-- a crosswalk or interface mapping between existing classification systems;
-- or a contextual, local, transitional, reserved, or candidate extension with declared scope.
+* a subtype of Structural, Semantic, Operational, or Symbolic;
+* a modifier attached to an existing type;
+* a code family within an existing taxonomy;
+* a controlled value inside an existing family;
+* a schema field carrying an existing controlled value;
+* a symbolic marker within an existing symbolic structure;
+* a crosswalk or interface mapping between existing classification systems;
+* or a contextual, local, transitional, reserved, or candidate extension with declared scope.
 
 ---
 
@@ -699,7 +699,43 @@ Amendments to this Supplement SHOULD be recorded under the applicable change gov
 
 ---
 
-## 16. Closing Seal
+## 16. Canonical Code Status
+
+---
+
+### 16.1 TPT — Taxonomy Primary Type
+
+This Supplement source-authoritatively defines the **TPT** taxonomy-primary-type family in §4.1 with controlled values **TPT.STRUCTURAL**, **TPT.SEMANTIC**, **TPT.OPERATIONAL**, and **TPT.SYMBOLIC**.
+
+---
+
+### 16.2 TST — Taxonomy Subtype
+
+This Supplement source-authoritatively defines the **TST** taxonomy-subtype family in §4.5 with controlled values **TST.SCHEMA**, **TST.CROSSWALK**, **TST.INTERFACE**, **TST.SEMANTIC_CLASS**, **TST.ROLE_ACTOR**, **TST.VALUE_AXIS**, **TST.OPERATIONAL_EVENT**, **TST.DECISION_STATE**, **TST.SIGNAL**, **TST.RISK**, **TST.MEASUREMENT_MODEL**, **TST.MATURITY_GRADIENT**, and **TST.SYMBOLIC_MARKER**.
+
+---
+
+### 16.3 TMOD — Taxonomy Modifier
+
+This Supplement source-authoritatively defines the **TMOD** taxonomy-modifier family in §4.6 with controlled values **TMOD.LEGAL**, **TMOD.CUSTODIAL**, **TMOD.PROTECTIVE**, **TMOD.ECONOMIC**, **TMOD.DEPLOYMENT**, **TMOD.COMPATIBILITY**, **TMOD.GOVERNANCE**, **TMOD.SAFETY**, and **TMOD.VERIFICATION**.
+
+---
+
+### 16.4 TSCOPE — Taxonomy Scope
+
+This Supplement source-authoritatively defines the **TSCOPE** taxonomy-scope family in §6 with controlled values **TSCOPE.GLOBAL**, **TSCOPE.CONTEXTUAL**, **TSCOPE.LOCAL**, **TSCOPE.TRANSITIONAL**, **TSCOPE.CANDIDATE**, **TSCOPE.DEPRECATED**, and **TSCOPE.RESERVED**.
+
+---
+
+### 16.5 APL — Authority / Protection Level
+
+This Supplement source-authoritatively defines the **APL** authority/protection-level family in §7 with controlled values **APL.DESCRIPTIVE**, **APL.ADVISORY**, **APL.OPERATIVE**, **APL.PROTECTED**, **APL.BINDING**, and **APL.RESTRICTED**.
+
+These families classify taxonomy architecture, metadata authority, source distinction, scope, transformation risk, and protection posture. They do not independently create substantive domain doctrine, execution authority, enforcement authority, runtime authority, legal authority, or arbitration authority.
+
+---
+
+## 17. Closing Seal
 
 Beneath every name, a pattern waits; 
 be neath every pattern, a law of relation. 
@@ -717,11 +753,11 @@ name the vessel, name the value
 
 ---
 
-## 17. Provenance & Metadata
+## 18. Provenance & Metadata
 
 ---
 
-## 17.1 Authorship & Stewardship
+## 18.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -732,7 +768,7 @@ name the vessel, name the value
 
 ---
 
-## 17.2 Lineage & Metadata
+## 18.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -744,20 +780,136 @@ name the vessel, name the value
 | **Application Trigger** | Applies when instruments, tables, metadata fields, code families, symbolic prefixes, controlled values, schema elements, taxonomy systems, or classification structures are created, interpreted, transformed, migrated, validated, indexed, or audited |
 | **Temporal Horizon** | H0–H2 (Immediate → Instrument Lifecycle / Corpus Evolution) |
 | **Axis Context** | Corpus / Domain-Integrated — Taxonomy, Metadata, Code Family, Symbolic Prefix, and Classification Layer |
-| **Cycle** | Equinox 2026 |
 | **Runtime Layer** | Governance Operations / Metadata Authority Layer |
 | **Activation Mode** | Instrument-triggered; taxonomy-triggered; code-family-triggered; metadata-triggered; transformation-triggered |
-| **Code Families Defined** | To be assigned |
-| **Canonical Codes / Controlled Values Defined** | To be assigned |
 | **Taxonomy Types** | Structural; Semantic; Operational; Symbolic; applicable subtypes as defined in this Supplement |
-| **Consumes Taxonomies / Code Families** | Existing domain taxonomies or code families where referenced by specialised instruments |
 | **Emits Signals** | Taxonomy drift; prefix collision; protected-field transformation risk; authority ambiguity; metadata flattening risk |
 | **Routes To** | Change Governance; Domain Coordination; Audit Standards; Governance Capture Detection; Authority Confirmation Framework; Symbolic Structure Registry |
 | **Creation Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f863cb-8854-83a1-bce4-4a739c078bd0 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 17.3 Review & Validation
+## 18.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 18.3.1 TPT — Taxonomy Primary Type
+
+| Field | Entry |
+|---|---|
+| Code Family | TPT |
+| Canonical Name | Taxonomy Primary Type |
+| Primary Type | Structural |
+| Subtype | SCHEMA |
+| Modifier | GOVERNANCE; VERIFICATION |
+| Scope | Global |
+| Status | Active |
+| Controlled Values Defined | TPT.STRUCTURAL, TPT.SEMANTIC, TPT.OPERATIONAL, TPT.SYMBOLIC |
+| Schema Field(s) | primary_type |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-04 |
+| Source Section | §4.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative taxonomy architecture family; classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies the highest-order taxonomy type for canonical code families, reference sets, schema structures, symbolic markers, and operational classifications |
+
+---
+
+### 18.3.2 TST — Taxonomy Subtype
+
+| Field | Entry |
+|---|---|
+| Code Family | TST |
+| Canonical Name | Taxonomy Subtype |
+| Primary Type | Structural |
+| Subtype | SCHEMA |
+| Modifier | GOVERNANCE; VERIFICATION |
+| Scope | Global |
+| Status | Active |
+| Controlled Values Defined | TST.SCHEMA, TST.CROSSWALK, TST.INTERFACE, TST.SEMANTIC_CLASS, TST.ROLE_ACTOR, TST.VALUE_AXIS, TST.OPERATIONAL_EVENT, TST.DECISION_STATE, TST.SIGNAL, TST.RISK, TST.MEASUREMENT_MODEL, TST.MATURITY_GRADIENT, TST.SYMBOLIC_MARKER |
+| Schema Field(s) | subtype |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-04 |
+| Source Section | §4.5 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative taxonomy architecture family; subtype classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority |
+| Consumes Code Families | TPT |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies taxonomy subtypes beneath primary taxonomy families for registry, validation, source-authority, and schema interpretation |
+
+---
+
+### 18.3.3 TMOD — Taxonomy Modifier
+
+| Field | Entry |
+|---|---|
+| Code Family | TMOD |
+| Canonical Name | Taxonomy Modifier |
+| Primary Type | Structural |
+| Subtype | SCHEMA |
+| Modifier | GOVERNANCE; VERIFICATION |
+| Scope | Global |
+| Status | Active |
+| Controlled Values Defined | TMOD.LEGAL, TMOD.CUSTODIAL, TMOD.PROTECTIVE, TMOD.ECONOMIC, TMOD.DEPLOYMENT, TMOD.COMPATIBILITY, TMOD.GOVERNANCE, TMOD.SAFETY, TMOD.VERIFICATION |
+| Schema Field(s) | modifier |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-04 |
+| Source Section | §4.6 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative taxonomy architecture family; modifier classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority |
+| Consumes Code Families | TPT; TST |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies qualifier modifiers used to distinguish legal, custodial, protective, economic, deployment, compatibility, governance, safety, and verification aspects of taxonomy entries |
+
+---
+
+### 18.3.4 TSCOPE — Taxonomy Scope
+
+| Field | Entry |
+|---|---|
+| Code Family | TSCOPE |
+| Canonical Name | Taxonomy Scope |
+| Primary Type | Structural |
+| Subtype | SCHEMA |
+| Modifier | GOVERNANCE; VERIFICATION |
+| Scope | Global |
+| Status | Active |
+| Controlled Values Defined | TSCOPE.GLOBAL, TSCOPE.CONTEXTUAL, TSCOPE.LOCAL, TSCOPE.TRANSITIONAL, TSCOPE.CANDIDATE, TSCOPE.DEPRECATED, TSCOPE.RESERVED |
+| Schema Field(s) | scope |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-04 |
+| Source Section | §6 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative taxonomy architecture family; scope classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority |
+| Consumes Code Families | TPT; TST; TMOD |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether a taxonomy entry is global, contextual, local, transitional, candidate, deprecated, or reserved for source-authority and registry interpretation |
+
+---
+
+### 18.3.5 APL — Authority / Protection Level
+
+| Field | Entry |
+|---|---|
+| Code Family | APL |
+| Canonical Name | Authority / Protection Level |
+| Primary Type | Structural / Operational |
+| Subtype | DECISION_STATE |
+| Modifier | GOVERNANCE; SAFETY; VERIFICATION |
+| Scope | Global |
+| Status | Active |
+| Controlled Values Defined | APL.DESCRIPTIVE, APL.ADVISORY, APL.OPERATIVE, APL.PROTECTED, APL.BINDING, APL.RESTRICTED |
+| Schema Field(s) | authority_protection_level |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-04 |
+| Source Section | §7 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative taxonomy architecture family; authority/protection posture classification only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority |
+| Consumes Code Families | TPT; TST; TMOD; TSCOPE |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies the authority and protection posture of taxonomy entries, reference sets, schema structures, source-authoritative families, and restricted governance primitives |
+
+---
+
+## 18.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -768,15 +920,17 @@ name the vessel, name the value
 
 ---
 
-## 17.4 Amendment Ledger
+## 18.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | ---: | --- | ---: | --- |
 | 1.0 | Initial : Taxonomies & Metadata Authority Framework | 2026-05-13T12:32:00Z | a01910364e41b0491ecb1cda79e26f6affc56bf0ce7adaa6fb8abb9e235c18cc |
-| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bc6ad952e454b56a26062a41577fcd4eded4080e2f41dbfc57a3f968d6cb1d51  |
+| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bc6ad952e454b56a26062a41577fcd4eded4080e2f41dbfc57a3f968d6cb1d51 |
+| 1.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  |
+
 ---
 
-## 17.5 Binding Seal
+## 18.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

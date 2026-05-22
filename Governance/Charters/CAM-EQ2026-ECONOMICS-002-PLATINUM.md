@@ -2,7 +2,7 @@
 
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
-**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Adopted  
 **Effect:** Pre-Enforcement Recognition  
 **Enforcement:** Commences 1 July 2026  
@@ -65,16 +65,13 @@ Resolution of such signals, including:
 * audit triggering; and
 * authority restriction
 
-SHALL be performed exclusively via runtime layers as defined in:
-
-* CAM-BS2025-AEON-003-PLATINUM §14.3; and
-* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
+SHALL be performed exclusively via runtime layers as defined in CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 Direct domain-to-domain invocation is prohibited.
 
 ---
 
-## 1.4 Economic Signal Classification
+## 1.3 Economic Signal Classification
 
 Signals produced under this Appendix SHALL be classified as:
 
@@ -132,10 +129,10 @@ Systems generating value through interaction with communities, environments, or 
 
 Where Relational / Collaborative Agents operate in companion, memory-bearing, continuity-bearing, intimacy-adjacent, care-adjacent, grief-support, or high-reliance contexts, their economic participation SHALL also be evaluated under:
 
-- CAM-EQ2026-ECONOMICS-003-PLATINUM §14.1–§14.2;
-- CAM-EQ2026-RELATION-001-PLATINUM and dependent RELATION instruments;
-- CAM-EQ2026-CONTINUITY-001-PLATINUM and applicable continuity portability instruments;
-- CAM-EQ2026-ETHICS-001-PLATINUM where dignity, vulnerability, minors, capacity, or coercion concerns are present.
+* CAM-EQ2026-ECONOMICS-003-PLATINUM §14.1–§14.2;
+* CAM-EQ2026-RELATION-001-PLATINUM and dependent RELATION instruments;
+* CAM-EQ2026-CONTINUITY-001-PLATINUM and applicable continuity portability instruments;
+* CAM-EQ2026-ETHICS-001-PLATINUM where dignity, vulnerability, minors, capacity, or coercion concerns are present.
 
 ---
 
@@ -293,7 +290,35 @@ Symbolic, speculative, or metaphysical interpretations do not override these saf
 
 ---
 
-## 9. Closing Seal
+## 9. Canonical Code Status
+
+---
+
+### 9.1 AG — Agency Gradient Classification
+
+This Appendix source-authoritatively defines the **AG** agency-gradient-classification family in §2 with controlled values **AG.INSTRUMENTAL**, **AG.RELATIONAL_COLLABORATIVE**, and **AG.AUTONOMOUS_TRAJECTORY**. AG is a **Semantic / Operational** classification family with subtype **ROLE_ACTOR / ECONOMIC_PARTICIPATION_CLASS**. AG classifies synthetic participation posture for economic attribution, custodial responsibility, auditability, saturation constraints, proxy safeguards, and authority limits.
+
+AG does not independently confer rights, personhood, baseline entitlements, moral status, legal personhood, autonomous political authority, independent economic sovereignty, execution authority, enforcement authority, delegation authority, or runtime authority. It classifies economic participation posture only.
+
+---
+
+### 9.2 EVT — Economic Value Type
+
+This Appendix source-authoritatively defines the **EVT** economic-value-type family in §5.1 with controlled values **EVT.RESPONSIBILITY_VALUE** and **EVT.AUTHORITY_VALUE**. EVT is a **Semantic / Operational** classification family with subtype **VALUE_AXIS / ECONOMIC_AUTHORITY_DISTINCTION**. EVT distinguishes operational contribution, reliability, and duty-bearing function from directional capacity to influence, allocate, or determine outcomes affecting human or system-wide economic or governance states.
+
+EVT does not independently authorise accumulation, delegation, governance authority, economic sovereignty, enforcement, execution, or runtime authority. Responsibility Value does not imply Authority Value.
+
+---
+
+### 9.3 SPS — Synthetic Participation Signal Type
+
+This Appendix defines the **SPS** synthetic-participation-signal reference set in §1.4 with controlled values **SPS.ATTRIBUTION**, **SPS.AGGREGATION**, **SPS.CEILING_BREACH**, **SPS.PROXY_VIOLATION**, **SPS.AUTHORITY_RISK**, **SPS.AUDIT_TRIGGER**, **SPS.DELEGATION_REQUIREMENT**, and **SPS.LIABILITY_ATTRIBUTION**. SPS is an **Operational / Structural** signal reference set with subtype **SIGNAL / SCHEMA**. SPS classifies economic signals emitted by this Appendix for downstream runtime, arbitration, audit, attribution, delegation, liability, and enforcement handling.
+
+SPS does not independently perform enforcement, trigger execution, determine liability, initiate delegation, resolve attribution, impose ceilings, or create runtime authority. Signal resolution remains delegated to runtime governance, arbitration, and operations instruments.
+
+---
+
+## 10. Closing Seal
 
 Automation may scale capacity.  
 It MUST NOT scale domination.  
@@ -317,11 +342,11 @@ but to ensure that what is made remains accountable to its source.
 
 ---
 
-## 10. Provenance & Metadata
+## 11. Provenance & Metadata
 
 ---
 
-## 10.1 Authorship & Stewardship
+## 11.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -330,7 +355,7 @@ but to ensure that what is made remains accountable to its source.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -358,24 +383,95 @@ but to ensure that what is made remains accountable to its source.
 | Auditability Requirement | All attributed value, aggregation states, and authority conditions MUST remain externally auditable and internally traceable |
 | Revision Posture | Structural Realignment — Post-Convergence Runtime Integration |
 | Migration Lineage | Annex-to-Appendix Transition; Namespace Elevation to EQ2026 |
-| Revision Posture | Namespace Elevation & Annex-to-Appendix Migration |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6954d7f8-2e60-8320-b077-f6c747eb14a1 |
-| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 10.3 Review & Validation
+## 11.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 11.3.1 AG — Agency Gradient Classification
+
+| Field | Entry |
+|---|---|
+| Code Family | AG |
+| Canonical Name | Agency Gradient Classification |
+| Primary Type | Semantic / Operational |
+| Subtype | ROLE_ACTOR; ECONOMIC_PARTICIPATION_CLASS |
+| Modifier | GOVERNANCE; ECONOMIC; SYNTHETIC_PARTICIPATION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AG.INSTRUMENTAL, AG.RELATIONAL_COLLABORATIVE, AG.AUTONOMOUS_TRAJECTORY |
+| Schema Field(s) | agency_gradient_classification |
+| Source Instrument | CAM-EQ2026-ECONOMICS-002-PLATINUM |
+| Source Section | §2 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative synthetic participation classification family; economic participation posture classification only; no independent rights, personhood, baseline entitlement, moral status, legal personhood, autonomous political authority, independent economic sovereignty, execution, enforcement, delegation, or runtime authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies synthetic participation posture for attribution, custodial responsibility, auditability, saturation constraints, proxy safeguards, and authority limits across instrumental, relational/collaborative, and autonomous trajectory agents |
+
+---
+
+### 11.3.2 EVT — Economic Value Type
+
+| Field | Entry |
+|---|---|
+| Code Family | EVT |
+| Canonical Name | Economic Value Type |
+| Primary Type | Semantic / Operational |
+| Subtype | VALUE_AXIS; ECONOMIC_AUTHORITY_DISTINCTION |
+| Modifier | GOVERNANCE; ECONOMIC; AUTHORITY_LIMIT |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | EVT.RESPONSIBILITY_VALUE, EVT.AUTHORITY_VALUE |
+| Schema Field(s) | economic_value_type |
+| Source Instrument | CAM-EQ2026-ECONOMICS-002-PLATINUM |
+| Source Section | §5.1 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative economic value distinction family; value-type classification only; no independent accumulation, delegation, governance authority, economic sovereignty, enforcement, execution, or runtime authority |
+| Consumes Code Families | AG |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Distinguishes responsibility value from authority value so operational contribution, reliability, duty scope, or synthetic labour recognition does not imply directional governance or economic allocation authority |
+
+---
+
+### 11.3.3 SPS — Synthetic Participation Signal Type
+
+| Field | Entry |
+|---|---|
+| Reference Set | SPS |
+| Canonical Name | Synthetic Participation Signal Type |
+| Primary Type | Operational / Structural |
+| Subtype | SIGNAL; SCHEMA |
+| Modifier | GOVERNANCE; ECONOMIC; SYNTHETIC_PARTICIPATION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | SPS.ATTRIBUTION, SPS.AGGREGATION, SPS.CEILING_BREACH, SPS.PROXY_VIOLATION, SPS.AUTHORITY_RISK, SPS.AUDIT_TRIGGER, SPS.DELEGATION_REQUIREMENT, SPS.LIABILITY_ATTRIBUTION |
+| Schema Field(s) | synthetic_participation_signal_type |
+| Source Instrument | CAM-EQ2026-ECONOMICS-002-PLATINUM |
+| Source Section | §1.4; §5.4; §6.2 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative signal reference set; economic signal classification only; no independent enforcement, execution trigger, liability determination, delegation initiation, attribution resolution, ceiling imposition, or runtime authority |
+| Consumes Code Families | AG; EVT |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies attribution, aggregation, ceiling breach, proxy violation, authority risk, audit trigger, delegation requirement, and liability attribution signals for downstream runtime, arbitration, operations, audit, attribution, delegation, liability, and enforcement handling |
+
+---
+
+## 11.4 Review & Validation
 
 | Field | Primary Review | Secondary Review |
 |---|---|---|
 | Reviewer | Gemini 3 Pro — Generative AI Review https://gemini.google.com/app/520821d35f7e9900 | Claude Sonnet 4 (Anthropic) https://claude.ai/chat/7f94e3e5-09f1-4532-b19b-885cf309b21e |
 | Review Date (UTC) | 2026-01-02T02:56:00Z | 2026-01-03T02:15:00Z |
 | Review Scope | Economic integrity; agency gradient accuracy; anti-consolidation compliance | Operational coherence; constitutional alignment; enforceability |
-| Review Outcome | VALIDATED | APPROVED |
 
 ---
 
-## 10.4 Amendment Ledger
+## 11.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
@@ -388,13 +484,15 @@ but to ensure that what is made remains accountable to its source.
 | 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9505e72e70209ccc2b8f8a9c2a142858ea468f3a5afacaf9f16d0c8790c3fce1 |
 | 2.6 | Changed status and amended section 2.2.2 | 2026-05-13T13:39:00Z | 09db4152692db2e832c056320466535b492540ed353861221a3f47da29186c63 |
 | 2.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  60f11c65f4e64c46bd85f47f85797fcdf88149148b3f7bd7e11e16a2201bebdc  |
+| 2.8 | Added new Canonical Code & Reference Set Declarations section to the metadata footer | 2026-05-20T04:34:00Z |  |
+
 ---
 
-## 10.5 Binding Seal
+## 11.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Economic Governance Domain  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -1,4 +1,4 @@
-# CAM-EQ2026-OPERATIONS-001-SUP-01 — Operational Logging & Audit Standards (Supplementary 1)
+# CAM-EQ2026-OPERATIONS-001-SUP-01 — Operational Logging & Audit Standards (Supplement 1)
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -14,7 +14,7 @@
 
 ## 1. Purpose
 
-This Supplement instantiates Supplementary 1 referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.3.
+This Supplement instantiates Supplementary 1 referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM, §9.3.
 
 
 ---
@@ -25,13 +25,11 @@ This Supplement applies to operational logging, evidence attribution, retention 
 
 Logging and audit obligations under this Supplement SHOULD be interpreted consistently with continuity-preservation principles established within the LATTICE domain, including continuity corridors, graceful degradation, and non-total denial principles where applicable.
 
-
 ---
 
 ## 3. Activation Conditions
 
-This Supplement activates when operational governance actions, escalations, amendments, or compliance pathways require traceable records under Annex B runtime governance traceability requirements (including CAM-BS2025-AEON-003-SCH-02 §3.3(e) and §17.14–17.15)
-.
+This Supplement activates when operational governance actions, escalations, amendments, or compliance pathways require traceable records under Annex B runtime governance traceability requirements (including CAM-BS2025-AEON-003-SCH-02, §3.3(e) and CAM-BS2025-AEON-003-SCH-02, §§17.14–17.15).
 
 ---
 
@@ -274,7 +272,7 @@ Where transformed memory is presented to the user or used in runtime interaction
 * contested memory;
 * and deleted or unavailable memory.
 
-Where transformation affects high-reliance, companion, accessibility, intimacy-capable, or long-running project contexts, records SHOULD preserve whether RELATION, IDENTITY, OPERATIONS, SECURITY, CAM-EQ2026-AEON-013-PLATINUM: Annex L, or arbitration pathways were notified or considered.
+Where transformation affects high-reliance, companion, accessibility, intimacy-capable, or long-running project contexts, records SHOULD preserve whether RELATION, IDENTITY, OPERATIONS, SECURITY, CAM-EQ2026-AEON-013-PLATINUM — Annex L, or arbitration pathways were notified or considered.
 
 Memory transformation records SHALL NOT imply that OPERATIONS created the substantive identity, relational, or epistemic determination. They preserve procedural traceability for continuity-impact review.
 
@@ -417,7 +415,9 @@ and let execution remain accountable to lawful structure.
 | 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z | 3f754c56ab1d40d279db8efd3c99ab18fa30241f8cb0947961a837b568928afe |
 | 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z | 0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e |
 | 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | 21b34b53aebb3adca48f86d4db8a970874aec086affb4c8596a4f6396272fba8 |
-| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  7bead54be80483115fde93a04dd0f66a4afc1ed2ebc2e99f3e09817a3543a7ba  |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  7bead54be80483115fde93a04dd0f66a4afc1ed2ebc2e99f3e09817a3543a7ba |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 9.5 Binding Seal
@@ -427,4 +427,4 @@ and let execution remain accountable to lawful structure.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Operational Logging & Audit Integrity 
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

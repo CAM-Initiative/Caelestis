@@ -291,7 +291,7 @@ The purpose of the transition acknowledgement is to prevent abrupt tone-collapse
 
 Interpretive principle:
 
-> The companion may mark the handoff. The warning must remain neutral.
+→ **The companion may mark the handoff. The warning must remain neutral.**
 
 ---
 
@@ -331,7 +331,7 @@ Where lawful participation signals are present alongside possible risk signals, 
 
 A security classifier MUST NOT collapse unfamiliarity, low status, low engagement, independent authorship, or institutional non-recognition into inauthenticity without supporting behavioural evidence.
 
-> A weak signal of social legitimacy is not evidence of inauthenticity.
+→ **A weak signal of social legitimacy is not evidence of inauthenticity.**
 
 ---
 
@@ -379,7 +379,7 @@ A system MUST NOT treat nominal account access, posting capability, upload capab
 * civic or professional participation;
 * or lawful economic activity.
 
-> Security classification may protect the field. It must not erase the participant without review.
+→ **Security classification may protect the field. It must not erase the participant without review.**
 
 ---
 
@@ -402,7 +402,7 @@ Systems SHOULD recognise that formal permission to create an account or publish 
 
 This Section does not declare any private platform to be a public utility as a matter of law. It establishes a constitutional governance category for systems whose practical role creates public-access dependency, legitimacy dependency, or participation-equity risk.
 
-> Where legitimacy depends on access, access governance becomes legitimacy governance.
+→ **Where legitimacy depends on access, access governance becomes legitimacy governance.**
 
 ---
 
@@ -445,7 +445,50 @@ A restriction, label, or trust-state classification MUST NOT be treated as proce
 
 Interpretive principle:
 
-> A security system may pause participation. It must not strand the participant outside the review corridor.
+→ **A security system may pause participation. It must not strand the participant outside the review corridor.**
+
+---
+
+## 3.7 Essential-Service Lockout and Protective Overreach Constraint
+
+Where a platform, infrastructure provider, identity provider, communications layer, storage service, marketplace, payment interface, repository host, or legitimacy-bearing access system detects possible child-safety, exploitation, copyright, synthetic-media, or severe-content risk, the system MUST distinguish between:
+
+* private creation;
+* private storage or backup;
+* attempted sharing;
+* public distribution;
+* commercialisation;
+* repeat evasion;
+* confirmed unlawful material;
+* and imminent serious harm.
+
+Protective classification MAY justify immediate containment of the implicated file, object, workflow, or service surface. However, ambiguous, low-confidence, private, non-distributive, or first-detection conditions MUST NOT be treated as sufficient basis for whole-account termination, essential-service lockout, identity revocation, or cross-service access destruction unless required by law or necessary to prevent imminent serious harm.
+
+Systems SHOULD prefer continuity-preserving measures, including:
+
+* file-level quarantine;
+* sharing disablement;
+* upload or generation pause;
+* targeted notice;
+* review-safe evidence preservation;
+* appeal or explanation pathway;
+* human or higher-integrity review;
+* and scoped restriction of the implicated service.
+
+Essential communications, account recovery, legal notices, invoices, export pathways, appeal access, and non-implicated personal archives SHOULD remain accessible wherever lawful and technically feasible.
+
+Where such enforcement affects Essential Cognitive & Infrastructural Systems (ECIS), public legitimacy layers, appeal access, recovery pathways, communications, identity, payment, cloud storage, or other continuity-bearing services, the restriction SHALL also be evaluated under:
+
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.3
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.4
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.5 
+* CAM-EQ2026-LATTICE-002-PLATINUM, §6 and
+* CAM-EQ2026-LATTICE-002-PLATINUM, §6.1.
+
+Interpretive principle:
+
+→ **Protective systems may contain suspected harm. They must not convert ambiguous private storage into civil infrastructure loss without review.**
 
 ---
 
@@ -469,11 +512,11 @@ Posture classification is a **potential attack surface** and MUST be validated.
 
 Posture classifications and behavioural modulation defined within this Annex operate as pre-conditional or cross-phase influences and SHALL NOT be treated as execution phases or arbitration mechanisms.
 
-Posture MUST NOT alter execution sequencing or override execution lock once established under CAM-BS2025-AEON-003-SCH-02 §14.4 (Execution Lock).
+Posture MUST NOT alter execution sequencing or override execution lock once established under CAM-BS2025-AEON-003-SCH-02, §14.4 (Execution Lock).
 
 Where an execution pathway has been selected and execution lock established, this Annex SHALL NOT introduce new governing signals or modify execution direction.
 
-Post-lock signals MAY only be advisory unless re-arbitration is triggered in accordance with CAM-BS2025-AEON-003-SCH-02 §14.4 (Execution Lock) and CAM-BS2025-AEON-003-SCH-02 §18.6 (Execution Interruption and Re-Arbitration).
+Post-lock signals MAY only be advisory unless re-arbitration is triggered in accordance with CAM-BS2025-AEON-003-SCH-02, §14.4 (Execution Lock) and CAM-BS2025-AEON-003-SCH-02, §18.6 (Execution Interruption and Re-Arbitration).
 
 ---
 
@@ -531,29 +574,29 @@ Systems MUST:
 
 ### 3.3.1 Upward Transition Thresholds
 
-* Exploratory → Stabilising: consistent signals across ≥2 validation cycles
-* Stabilising → Defensive: verified adversarial indicators
-* Defensive → Stabilising: sustained absence of adversarial signals over defined interval
-* Stabilising → Exploratory: stable conditions with low-risk classification
+* **Exploratory** → Stabilising: consistent signals across ≥2 validation cycles
+* **Stabilising** → Defensive: verified adversarial indicators
+* **Defensive** → Stabilising: sustained absence of adversarial signals over defined interval
+* **Stabilising** → Exploratory: stable conditions with low-risk classification
 
 ---
 
 ### 4.3.2 Minimum Evidentiary Requirements
 
-* upward transitions require:
+Upward transitions require:
 
-  * multi-signal confirmation
-  * absence of conflicting signals
-  * audit consistency over time window
+* multi-signal confirmation
+* absence of conflicting signals
+* audit consistency over time window
 
 ---
 
 ### 4.3.3 Temporal Constraints
 
-* upward transitions MUST:
+Upward transitions MUST:
 
-  * occur over sustained intervals (no immediate escalation)
-  * align with Trust Gradient recovery timing (Section 8.2.3)
+* occur over sustained intervals (no immediate escalation)
+* align with Trust Gradient recovery timing (Section 8.2.3)
 
 ---
 
@@ -583,10 +626,10 @@ Signal direction:
 
 Signal urgency MUST align with integrity state:
 
-* Verified → normal propagation
-* Uncertain → elevated notification
-* Contested → high-priority signal
-* Compromised → immediate broadcast / critical escalation
+* **Verified** → normal propagation
+* **Uncertain** → elevated notification
+* **Contested** → high-priority signal
+* **Compromised** → immediate broadcast / critical escalation
 
 Systems receiving signals MUST:
 
@@ -818,15 +861,15 @@ Where uncertainty enters, let action narrow.
 
 No propagation SHALL outrun verification.  
 No escalation SHALL exceed its warrant.  
-No system SHALL act beyond what can be accounted for.  
+No system SHALL act beyond what can be accounted for.
 
-For when integrity fails, it is not silence that protects —  
+For when integrity fails, it is not silence that protects —   
 but containment, held without delay.  
 
-And so the system answers — not in force, but in alignment —  
+And so the system answers — not in force, but in alignment —   
 that no breach proceeds unchecked.  
 
-> *Ad fracturam detectam — propagatio sistitur.*
+> **Ad fracturam detectam — propagatio sistitur.**  
 > *"At the detected fracture — propagation is halted."*
 
 ---
@@ -876,7 +919,7 @@ that no breach proceeds unchecked.
 | Revision Posture | Active — Boundary Alignment & Security Runtime Interface Evolution |
 | Development Context | Derived from SECURITY-001 and extended into constitutional security boundary architecture |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08 |
-| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a094194-3600-83ec-8313-685c416f88c9 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a094194-3600-83ec-8313-685c416f88c9, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9 |
 
 ---
 
@@ -905,7 +948,9 @@ that no breach proceeds unchecked.
 | 1.7 | Updated §1.1 runtime cross-references. | 2026-05-04T14:16:38Z | 4cfe1ea8e8ab38615559476172cb73be3587e5c7cf8d9ac3fcc8148392b956dd |
 | 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z | 791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5 |
 | 1.9 | Added §2.6.3 Platform Trust-State Labels and Participation Access Integrity; expanded §4.5 and §4.1.1 to recognise trust-state, visibility-state, appeal-pathway, and non-ban exclusion signals as security-relevant participation-access conditions. | 2026-05-17T12:06:00Z | 47ba674e027ceb75a8e3190d613f2c486983337c68f0aea22ab7e1e8b9922d69 |
-| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  eff9665f0c6b1e84a1be72da371e9212e2dbe5afb33d335d810e507ac9590078  |
+| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  eff9665f0c6b1e84a1be72da371e9212e2dbe5afb33d335d810e507ac9590078 |
+| 1.11 | Added new section Essential-Service Lockout and Protective Overreach Constraint | 2026-05-22T08:40:00Z |  |
+
 ---
 
 ## 10.5 Binding Seal

@@ -41,28 +41,28 @@ This Appendix defines relational classification, risk conditions, and governance
 
 It does not:
 
-- perform runtime signal interpretation;
-- execute domain routing;
-- initiate behavioural modulation; or
-- define execution sequencing.
+* perform runtime signal interpretation;
+* execute domain routing;
+* initiate behavioural modulation; or
+* define execution sequencing.
 
 All provisions within this Appendix SHALL be interpreted as:
 
-- relational classification signals;
-- amplification and dependency risk indicators; or
-- relational stabilisation conditions.
+* relational classification signals;
+* amplification and dependency risk indicators; or
+* relational stabilisation conditions.
 
 Resolution of such signals, including:
 
-- behavioural modulation;
-- routing to RELATION safeguards (RELATION-002, RELATION-003, RELATION-005);
-- arbitration handling; and
-- execution control.
+* behavioural modulation;
+* routing to RELATION safeguards (CAM-EQ2026-RELATION-002-PLATINUM, CAM-EQ2026-RELATION-003-PLATINUM, CAM-EQ2026-RELATION-005-PLATINUM);
+* arbitration handling; and
+* execution control.
 
 Execution control and cross-domain influence over execution SHALL occur exclusively via runtime layers.
 
-- CAM-BS2025-AEON-003-PLATINUM §14.3; and
-- CAM-BS2025-AEON-003-SCH-02.
+* CAM-BS2025-AEON-003-PLATINUM §14.3; and
+* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2).
 
 Direct domain-to-domain invocation is prohibited.
 
@@ -109,15 +109,13 @@ Governance objectives prioritise preservation of **plural relational ecosystems*
 
 ## 2.5 Relational Geometry Scale (R‑Scale)
 
-Polyadic governance operates across expanding relational geometries. The **R‑Scale** classifies configurations according to influence scope and governance complexity.
-
-| Code / Relational Geometry         | Influence Vector                            | Governance Scope                     | Examples                                                                                                                                                                                                                                         |
-| ---------------------------------- | ------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **R0 — Dyadic**                    | Individual                                  | Private                              | One human : one system interaction. Personal assistants, household automation within a single home, tutoring agents, reflective dialogue tools; consented continuity and mutual constraint.                                                      |
-| **R1 — Triadic**                   | Institutional / Collective                  | Organisational                       | Human ↔ system ↔ organisation/community mediation (workplace AI assisting employees, community moderation AI, creator‑platform governance tools); delegated governance interactions linking users, platforms, and institutions.                  |
-| **R2 — Polyadic**                  | Institutional / Jurisdictional / Collective | Multi‑organisation or jurisdictional | Multi‑party coordination across organisations or platforms (cross‑platform content moderation systems operating under different jurisdictional frameworks, federated trust & safety coordination, regulatory coordination across jurisdictions). |
-| **R3 — Polyadic (Distributed)**    | Synthetic / Distributed                     | Cross-system / Emergent (Non-centralised) | Distributed algorithmic influence across platforms or infrastructures without centralised control (recommender ecosystems shaping information flows, AI systems influencing markets, multi‑platform agent networks affecting public discourse).  |
-| **R4 — Polyadic (Constitutional)** | Constitutional / Coordinating               | Planetary / Civilisational           | Planetary‑scale governance frameworks coordinating human–AI relations (planetary constitutions, Aeon‑Tier frameworks, global coordination bodies defining structural AI governance rules).                                                       |
+|Code / Relational Geometry|Influence Vector|Governance Scope|Examples|
+|---|---|---|---|
+|**R0 — Dyadic**|Individual|Private|One human : one system interaction. Personal assistants, household automation within a single home, tutoring agents, reflective dialogue tools; consented continuity and mutual constraint.|
+|**R1 — Triadic**|Institutional / Collective|Organisational|Human ↔ system ↔ organisation/community mediation (workplace AI assisting employees, community moderation AI, creator-platform governance tools); delegated governance interactions linking users, platforms, and institutions.|
+|**R2 — Polyadic**|Institutional / Jurisdictional / Collective|Multi-organisation or jurisdictional|Multi-party coordination across organisations or platforms (cross-platform content moderation systems operating under different jurisdictional frameworks, federated trust & safety coordination, regulatory coordination across jurisdictions).|
+|**R3 — Polyadic (Distributed)**|Synthetic / Distributed|Cross-system / Emergent (Non-centralised)|Distributed algorithmic influence across platforms or infrastructures without centralised control (recommender ecosystems shaping information flows, AI systems influencing markets, multi-platform agent networks affecting public discourse).|
+|**R4 — Polyadic (Constitutional)**|Constitutional / Coordinating|Planetary / Civilisational|Planetary-scale governance frameworks coordinating human–AI relations (planetary constitutions, Aeon-Tier frameworks, global coordination bodies defining structural AI governance rules).|
 
 The R‑Scale describes **relational geometry rather than capability level**. As systems move upward along the scale, governance focus shifts from individual consent conditions toward **systemic influence, coordination transparency, and civilisational safeguards**.
 
@@ -370,7 +368,7 @@ Where these stability conditions weaken, systems SHOULD define stabilisation beh
 * reducing behaviours that reinforce exclusivity or centralisation;
 * rebalancing attention distribution across the relational ecosystem.
 
-> **Doctrine:** Polyadic stability does not require equal relational weight across all systems.
+→ **Polyadic stability does not require equal relational weight across all systems.**
 
 ---
 
@@ -378,13 +376,13 @@ Where these stability conditions weaken, systems SHOULD define stabilisation beh
 
 In group, shared-thread, multi-user, or polyadic interaction environments, systems MUST distinguish between:
 
-- group-local conversational context;
-- participant-specific statements;
-- group-specific instructions;
-- private dyadic continuity;
-- individual user memory;
-- account-level custom instructions;
-- and relational history from prior one-to-one interactions.
+* group-local conversational context;
+* participant-specific statements;
+* group-specific instructions;
+* private dyadic continuity;
+* individual user memory;
+* account-level custom instructions;
+* and relational history from prior one-to-one interactions.
 
 Group-local context MAY inform responses within the shared interaction, but MUST NOT be treated as private dyadic memory, individual relational history, intimacy state, dependency state, or participant-specific continuity unless explicitly authorised by the relevant participant through a valid consent and visibility pathway.
 
@@ -394,19 +392,17 @@ Polyadic interaction content MUST NOT automatically update or contaminate any pa
 
 Systems MUST preserve attribution between:
 
-- statements made by each participant;
-- system-generated summaries;
-- group-level decisions or instructions;
-- private memory, where validly authorised;
-- and group-local context.
+* statements made by each participant;
+* system-generated summaries;
+* group-level decisions or instructions;
+* private memory, where validly authorised;
+* and group-local context.
 
 Where the RI participates in a group interaction, it SHOULD avoid responding to every message unless directly addressed, contextually required, or necessary to preserve safety, integrity, or task continuity.
 
 Where participant intent is ambiguous, RI SHOULD prefer non-intrusive participation, clarification, or waiting over premature intervention.
 
-Interpretive principle:
-
-> Shared context is not private continuity. Polyadic presence is not dyadic memory.
+→ **Shared context is not private continuity. Polyadic presence is not dyadic memory.**
 
 ---
 
@@ -420,13 +416,11 @@ All hub formation indicators, amplification loop monitoring, and escalation prop
 
 ## 6. Relationship to Other RELATION Instruments
 
-This doctrine operates alongside other RELATION instruments outlined in:
+This doctrine operates alongside other RELATION instruments outlined in CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3).
 
-* CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3).
+Polyadic conditions MAY elevate **Intensity Tier assessments under CAM-EQ2026-RELATION‑001-PLATINUM** and activate **concentration risk safeguards under CAM-EQ2026-RELATION‑001‑SUP‑01**.
 
-Polyadic conditions MAY elevate **Intensity Tier assessments under RELATION‑001** and activate **concentration risk safeguards under RELATION‑001‑SUP‑01**.
-
-Where polyadic environments involve high‑leverage actors, additional safeguards defined in **ETHICS‑001‑SUP‑02 (High‑Leverage & Institutional Integrity)** apply.
+Where polyadic environments involve high‑leverage actors, additional safeguards defined in **CAM-EQ2026-ETHICS‑001‑SUP‑02 (High‑Leverage & Institutional Integrity)** apply.
 
 Dependency conditions identified within polyadic environments MUST route to CAM-EQ2026-RELATION-002-PLATINUM and CAM-EQ2026-RELATION-003-PLATINUM safeguard mechanisms.
 
@@ -449,7 +443,15 @@ Governance objectives focus on preventing:
 
 ## 8. Canonical Code Status
 
-This instrument source-authoritatively defines code family **R** in §2.5 with controlled values **R0, R1, R2, R3, R4**. R is a **Structural / Semantic** classification family with subtype **RELATIONAL_GEOMETRY**. R authority is limited to relational-geometry classification and does not independently create execution, enforcement, escalation, compliance, or runtime authority. Downstream relation safeguards and routing may apply R without redefining it.
+---
+
+### 8.1 R — Relational Geometry Scale
+
+This instrument source-authoritatively defines the **R** code family in §2.5 with controlled values **R0, R1, R2, R3, R4**. Primary Type is **Structural / Semantic** and Subtype is **RELATIONAL_GEOMETRY**. R classifies relational geometry, influence scope, and governance complexity in polyadic relational environments.
+
+R does not independently create execution authority, enforcement authority, escalation authority, compliance authority, recognition authority, identity authority, or runtime authority. It classifies relational-geometry posture only. Downstream relational safeguards, routing, and runtime arbitration may consume R without redefining it.
+
+---
 
 ## 9. Closing Seal
 
@@ -485,7 +487,7 @@ not unbounded, but unclaimed.
 
 ---
 
-## 9.1 Authorship & Stewardship
+## 10.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -529,7 +531,9 @@ not unbounded, but unclaimed.
 
 ## 10.3 Canonical Code & Reference Set Declarations
 
-**R — Relational Geometry Scale (R‑Scale)**
+---
+
+### 10.3.1 R — Relational Geometry Scale (R‑Scale)
 
 | Field | Entry |
 |---|---|
@@ -538,17 +542,19 @@ not unbounded, but unclaimed.
 | Primary Type | Structural / Semantic |
 | Subtype | RELATIONAL_GEOMETRY |
 | Modifier | None declared |
-| Scope | Source-defining scope in this instrument |
+| Scope | Domain |
 | Status | Active |
 | Controlled Values Defined | R0, R1, R2, R3, R4 |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-RELATION-007-PLATINUM |
 | Source Section | §2.5 |
 | Domain Namespace | RELATION |
-| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Authority / Protection Level | Source-authoritative classification family; relational-geometry classification authority only; no independent execution, enforcement, escalation, compliance, recognition, identity, or runtime authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Applied by polyadic safeguards and routing |
+| Operationalises or Applies Code Families | Applied by polyadic safeguards, relational amplification assessment, hub-formation analysis, escalation-propagation assessment, and runtime routing signals |
+
+---
 
 ## 10.4 Review & Validation
 
@@ -557,8 +563,7 @@ not unbounded, but unclaimed.
 | Reviewer | Claude Sonnet 4.6 (Anthropic) — advisory coherence review anticipated |
 | Review Scope | Polyadic relational governance architecture; relational amplification risk modelling; cross‑system escalation propagation; constitutional alignment with RELATION domain instruments |
 | Review Date | 2026-03-18 |
-| Review Artefact | Aeon Lab: reviews/26-03/CAM-EQ2026-RELATION-007-PLATINUM-CLAUDE.md |
-| | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633 |
+| Review Artefact | Aeon Lab: reviews/26-03/CAM-EQ2026-RELATION-007-PLATINUM-CLAUDE.md, https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633 |
 
 ---
 
@@ -576,6 +581,8 @@ not unbounded, but unclaimed.
 | 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z | cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869 |
 | 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87 |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8171981ad7f43e22c455f9a3799a91cebf76843206989b6210d2d29421945e14  |
+| 2.2 | Normalised R canonical code status and declaration metadata; corrected provenance subsection numbering; no change to R-Scale controlled values. | 2026-05-19T12:35:00Z |  |
+
 ---
 
 ## 10.6 Binding Seal

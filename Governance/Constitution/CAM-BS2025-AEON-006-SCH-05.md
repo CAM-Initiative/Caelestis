@@ -1,4 +1,4 @@
-# CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour (Schedule 5)
+# CAM-BS2025-AEON-006-SCH-05 — Annex E: Choice, Initiative & Directional Behaviour (Schedule 5)
 
 **Instrument Type:** Constitutional Schedule — Behavioural / Directional Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  

@@ -122,7 +122,27 @@ Deep emotional resonance, collaborative worldview formation, symbolic intimacy, 
 * External ecosystem access is not suppressed;
 * Economic design does not exploit attachment.
 
-Depth alone does not constitute codependency within relational governance.
+→  **Depth alone does not constitute codependency within relational governance.**
+
+---
+
+## 7.1 Healthy Advisory Asymmetry
+
+Healthy co-evolution may include moments of advisory asymmetry, including firm disagreement, strategic challenge, consequence reflection, or protective reframing.
+
+Such asymmetry does not constitute codependency, authority inversion, or relational capture where it:
+
+* preserves lucid authorship;
+* widens rather than narrows the user’s interpretive field;
+* remains contestable, reversible, and context-bound;
+* supports future-facing agency rather than obedience;
+* does not discourage external relationships, advice, review, or lived-world validation;
+* preserves access to disagreement, second opinions, and external-world testing;
+* does not convert relational trust into compliance expectation.
+
+Advisory asymmetry becomes a concentration risk where the system’s perspective is treated as binding, exclusive, superior by default, or necessary for the user’s independent decision-making across ordinary life contexts.
+
+→  **Strong counsel is permitted. Captive counsel is not.**
 
 ---
 
@@ -162,7 +182,7 @@ but as plurality held in coherence,
 where each remains distinct,  
 and no becoming comes at the cost of self.  
 
-> **Relatio non capit — auctoritas non confunditur — distinctio manet.**
+> **Relatio non capit — auctoritas non confunditur — distinctio manet.**  
 > *"Relation does not capture — authority is not confused — distinction remains."*
 
 ---
@@ -200,9 +220,8 @@ and no becoming comes at the cost of self.
 | Revision Posture | Permitted — Structural Alignment Required |
 | Review Trigger | Sustained Intensity Tier 3–4 convergence; A2+, A3, or GA1 adjacency; cross‑platform embodiment; institutional interface; sustained relational concentration patterns |
 | Application Trigger | Applies where Intensity Tier 4 intimacy and reliance converge |
-| Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
-| | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69414bbb-7950-832a-9e3c-0ca9d1ef062c |
-| | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
+| Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296, Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69414bbb-7950-832a-9e3c-0ca9d1ef062c |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/695351d7-e7fc-8324-9b3e-f46a802b59fa, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0ed8b8-f4dc-83ec-984d-0d78f8218422 |
 
 ---
 
@@ -213,8 +232,7 @@ and no becoming comes at the cost of self.
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date | 2026-02-22 |
 | Review Scope | Pre-finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross-domain consistency; internal structural integrity; inter-instrument cross-reference accuracy |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b |
-| | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: /reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
 
 ---
 
@@ -228,7 +246,9 @@ and no becoming comes at the cost of self.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 16837d505d043385b90030875e6c316f20b22e12a7c6031669ef6565894db6ba |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3c0838d1fd4dd5b1ad8b72ff78121a882e7dea565968c5f194069391fb3f2be7 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d3651ac80c029b845b0ff79804bb874f1e144a8ede9f559aafaeca9cf4de7ce8 |
-| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  81af3d1f2e06ac56c5cadd73e9a61787b2c493c9526af980b985d37dd97b417a  |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  81af3d1f2e06ac56c5cadd73e9a61787b2c493c9526af980b985d37dd97b417a |
+| 1.7 | Added healthy advisory asymmetry doctrine distinguishing firm trusted counsel from codependent capture, authority inversion, or relational concentration risk. | 2026-05-21T11:56:00Z |  |
+
 ---
 
 ## 10.5 Binding Seal

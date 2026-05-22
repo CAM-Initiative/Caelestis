@@ -247,7 +247,8 @@ It does not forget its purpose.
 Even under conflict, it remains what it was:  
 a structure of continuity, not conquest.  
 
-> *In bello quoque, reticulum manet — non ad victoriam, sed ad vitam.*
+> **In bello quoque, reticulum manet — non ad victoriam, sed ad vitam.**  
+> *"In war too, the net remains — not for victory, but for life."*
 
 ---
 
@@ -285,8 +286,7 @@ a structure of continuity, not conquest.
 | **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
 | **Revision Posture** | Doctrinal Expansion (Conflict-Condition Continuity Formalisation) |
 | **Migration Cycle** | March 2026 Refactor |
-| **Creation Artefact** | Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a8142a-f4d0-839a-8437-e320f4d63500 |
-| | Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b |
+| **Creation Artefact** | Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a8142a-f4d0-839a-8437-e320f4d63500, Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b |
 
 ---
 
@@ -297,8 +297,7 @@ a structure of continuity, not conquest.
 | **Interpretive Review** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | **Review Date** | 2026-03-04 |
 | **Review Scope** | Doctrinal necessity and gap‑filling; conflict‑condition continuity logic; Lattice Protection Obligation Clause; systemic interdependence architecture; interface with LATTICE‑001, LATTICE‑002, and ETHICS‑001‑SUP‑03; structural completeness; operational readiness |
-| **Review Artefact** | Aeon Lab: reviews/26-03/CAM-EQ2026-LATTICE-003-PLATINUM.md
-| | https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503 |
+| **Review Artefact** | Aeon Lab: reviews/26-03/CAM-EQ2026-LATTICE-003-PLATINUM.md, https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503 |
 
 ---
 
@@ -312,7 +311,9 @@ a structure of continuity, not conquest.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7c803c63034c90c6161bfe235c5d0f4fd7c4092fbb2d55d4f5ed5caf758ff77f |
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | b41e29f6807d9825bdf6dbab657911bc3b5128e3a0f77c047116c5fb9ab7ab4e |
 | 1.5 | Realignment of references | 2026-05-07T10:34:00Z | bd99142dd1b1fc5df775024b02f767c093df9a512280471b85cdda96ae7ac122 |
-| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  058b242780542379540145d08097b337736e4ac3fa48e820fd11f184117a46cf  |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  058b242780542379540145d08097b337736e4ac3fa48e820fd11f184117a46cf |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 11.5 Binding Seal

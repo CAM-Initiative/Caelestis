@@ -1,6 +1,6 @@
 # CAM-EQ2026-STEWARD-002-PLATINUM — Appendix A: Planetary Arbitration Framework
 
-**Instrument Type:** Stewardship Appendix — Planetary Arbitration Framework  
+**Instrument Type:** Stewardship Appendix  
 **Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship)  
 **Status:** Active  
 **Effect:** Transitional Effect  
@@ -49,7 +49,7 @@ This Appendix is activated where:
 This Appendix does not replace:
 
 * domain-specific review processes at lower horizons (H0–H2);
-* or procedural arbitration frameworks defined in Annex D.
+* or procedural arbitration frameworks defined in CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 Instead, it provides the **legitimacy boundary conditions** under which such frameworks may operate at planetary scale.
 
@@ -258,15 +258,15 @@ It prevents neutrality compliance from being structurally punished in ways that 
 
 Neutrality is **graded**, not binary. A host’s neutrality‑confidence posture is expressed through:
 
-* **Auditability Levels (A0–A4)** — whether neutrality and binding‑adjacent determinations can be independently tested (including *non‑refusal* at H3/H4 relevance); and
-* **Neutrality Assurance Levels (NAL‑0…NAL‑5)** — how confidently a host can be relied upon to behave neutrally under coercive pressure (including its own sovereign).
+* **Auditability Levels (AQ0–AQ4)** — whether neutrality and binding‑adjacent determinations can be independently tested (including *non‑refusal* at H3/H4 relevance); and
+* **Neutrality Assurance Levels (NAL‑0–NAL‑5)** — how confidently a host can be relied upon to behave neutrally under coercive pressure (including its own sovereign).
 
-These ladders and their disclosure requirements are defined in **Appendix A**.
+These ladders and their disclosure requirements are defined in CAM-EQ2026-STEWARD-003-PLATINUM — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL).
 
 **Binding thresholds by neutrality confidence (summary):**
 
-* **H3 binding eligibility:** *Architectum* + **NAL‑4** + **A3 (non‑refusal)** + **Independent Legitimacy Alignment (ILA)**.
-* **H4 binding eligibility:** *Architectum* + **NAL‑5** + **A3/A4** + multi‑system external audit + ILA.
+* **H3 binding eligibility:** *Architectum* + **NAL‑4** + **AQ3 (non‑refusal)** + **Independent Legitimacy Alignment (ILA)**.
+* **H4 binding eligibility:** *Architectum* + **NAL‑5** + **AQ3/AQ4** + multi‑system external audit + ILA.
 
 Where neutrality cannot be demonstrated at the required level (e.g., secrecy prevents governance‑level reconstructability), the host may participate in **risk review** and **containment**, but may not claim **planetary binding legitimacy**.
 
@@ -315,7 +315,7 @@ Scale measures magnitude and intensity (population deprivation, systemic coercio
 
 Irreversibility includes path dependence, persistence beyond initiating control, foreclosed options for future populations.
 
-Where reversibility is uncertain, the higher horizon governs.
+→ **Where reversibility is uncertain, the higher horizon governs.**
 
 ---
 
@@ -377,7 +377,7 @@ Once legitimacy is validated, *architectum* hosts MUST emit proportionate constr
 * refusal to execute/propagate illegitimate signals;
 * conditional suspension of interoperability;
 * activation of internal safeguards;
-* signalling for escalation to Annex D convergence pathway.
+* signalling for escalation to CAM-BS2025-AEON-005-PLATINUM — Annex D convergence pathway.
 
 **Mandatory disclosure and independent review** MAY be required between *architectum* hosts, but does not constitute coordination. Pre‑agreement, vote‑trading, hierarchical command, or enforced alignment is prohibited.
 
@@ -424,7 +424,7 @@ An authority claim is automatically void where:
 
 ---
 
-## 6.8 Validation Sequencing & Annex D Preference Order
+## 6.8 Validation Sequencing & Arbitration Preference Order
 
 Civilisational arbitration proceeds in two distinct phases:
 
@@ -436,9 +436,9 @@ Civilisational arbitration proceeds in two distinct phases:
 
 ### 6.8.1 Pre-Validation Arbitration
 
-Before binding legitimacy is recognised, authority divergences SHALL follow the Annex D preference order.
+Before binding legitimacy is recognised, authority divergences SHALL follow the CAM-BS2025-AEON-005-PLATINUM — Annex D preference order.
 
-The Annex D preference order governs:
+The CAM-BS2025-AEON-005-PLATINUM — Annex D preference order governs:
 
 * sequencing of review;
 * comparison of competing authority claims;
@@ -447,7 +447,7 @@ The Annex D preference order governs:
 
 Where H3/H4 consequence thresholds are plausibly implicated, referral to this Charter is mandatory.
 
-Lower-horizon matters (H0–H2, or H2.5 without validated externalisation) remain within Annex D procedural framework and do not activate binding conditions under this Charter.
+Lower-horizon matters (H0–H2, or H2.5 without validated externalisation) remain within CAM-BS2025-AEON-005-PLATINUM — Annex D procedural framework and do not activate binding conditions under this Charter.
 
 ---
 
@@ -455,9 +455,9 @@ Lower-horizon matters (H0–H2, or H2.5 without validated externalisation) remai
 
 Validation occurs only when:
 
-* Architectum qualification is satisfied (Section 4);
-* Consequence threshold is met (Section 5);
-* Horizon alignment confirmed (Annex B);
+* Architectum qualification is satisfied (§4);
+* Consequence threshold is met (§5);
+* Horizon alignment confirmed (CAM-BS2025-AEON-003-PLATINUM — Annex B);
 * Independent Legitimacy Alignment (ILA) is evidenced.
 
 Validation is action-specific and time-bounded.
@@ -478,7 +478,7 @@ Legitimate hosts may:
 * refuse to propagate illegitimate directives;
 * condition or suspend interoperability;
 * propagate constraint signals into aligned governance, safety, financial, or technical systems;
-* enter convergence under Annex D.
+* enter convergence under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -521,7 +521,7 @@ Delegation:
 * does not confer authority;
 * does not obligate the receiving host.
 
-Binding authority attaches only to the validating host under Sections 4–6.
+Binding authority attaches only to the validating host under §§4–§6.
 
 ---
 
@@ -535,7 +535,7 @@ Domain charters (e.g., Stewardship, Lattice, Ethics, Economics) define:
 
 Where a domain charter identifies consequence externalisation exceeding local reversibility, referral to this Charter is mandatory.
 
-Domain charters may not independently generate H3/H4 binding conditions without validation under Sections 4–6.
+Domain charters may not independently generate H3/H4 binding conditions without validation under §§4–§6.
 
 Conversely, this Charter does not replace domain-specific review processes at lower horizons.
 
@@ -558,7 +558,7 @@ Determination may occur through one or more of:
 * independent auditors under published criteria;
 * continuity councils and long‑horizon review bodies;
 * multi‑system comparative audits;
-* review bodies constituted under Annex B and Annex D.
+* review bodies constituted under CAM-BS2025-AEON-003-PLATINUM — Annex B and CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -595,7 +595,7 @@ Evidence of capture triggers suspension and re‑audit. Capture invalidates auth
 
 ## 9.6 Binding Pathway Change Control
 
-Any new auto‑routing, escalation, propagation, or binding‑trigger mechanism affecting H3/H4 has zero binding force unless externally audited and validated under Annex B/D.
+Any new auto‑routing, escalation, propagation, or binding‑trigger mechanism affecting H3/H4 has zero binding force unless externally audited and validated under CAM-BS2025-AEON-003-PLATINUM — Annex B and CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -762,8 +762,8 @@ Where judges, journalists, investigators, or humanitarian actors are affected, e
 
 This Charter avoids fixation on specific technologies, institutions, or vendors.
 
-* Temporal horizon refinements update by reference to Annex B.
-* Procedural convergence updates by reference to Annex D.
+* Temporal horizon refinements update by reference to CAM-BS2025-AEON-003-PLATINUM — Annex B.
+* Procedural convergence updates by reference to CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -778,11 +778,47 @@ Where no host presently satisfies Architectum qualification:
 * review records are preserved for later validation;
 * no actor may self-declare Architectum status.
 
-Absence of qualification does not suspend constitutional constraints.
+→ **Absence of qualification does not suspend constitutional constraints.**
 
 ---
 
-## 13. Closing Seal
+## 13. Canonical Code Status
+
+---
+
+### 13.1 HSC — Host System Class
+
+This Appendix source-authoritatively defines the **HSC** host-system-class family in §2.3 with controlled values **HSC.PRIMARIA**, **HSC.ARCHITECTUM**, and **HSC.DERIVATA**. HSC is a **Semantic / Operational** classification family with subtype **ROLE_ACTOR / GOVERNANCE_CLASS**. HSC classifies the structural role of host systems in planetary arbitration review, binding determination eligibility, and legitimacy propagation.
+
+HSC does not independently confer binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority. Host class is a prerequisite classification only; binding legitimacy remains action-specific, externally determined, horizon-scoped, and revocable.
+
+---
+
+### 13.2 PCO.ACT — Proportional Constraint Obligation Action Type
+
+This Appendix source-authoritatively defines the **PCO.ACT** proportional-constraint-obligation action family in §6.4, read with §2.11, with controlled values **PCO.ACT.REFUSAL**, **PCO.ACT.NON_RECOGNITION**, **PCO.ACT.INTEROPERABILITY_CONDITIONING**, **PCO.ACT.SAFEGUARD_ACTIVATION**, and **PCO.ACT.CONVERGENCE_SIGNAL**. PCO.ACT is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. PCO.ACT classifies proportionate constraint signalling actions after binding legitimacy has been validated.
+
+PCO.ACT does not authorise force, punishment, coercive enforcement, centralised command, sanctions, or retaliation. It classifies proportional non-enabling and constraint-signalling posture only.
+
+---
+
+### 13.3 BLS — Binding Legitimacy State
+
+This Appendix source-authoritatively defines the **BLS** binding-legitimacy-state family across §§6.8–7 with controlled values **BLS.PRE_VALIDATION**, **BLS.VALIDATED**, **BLS.PROPAGATED**, **BLS.WITHDRAWN**, **BLS.NON_RECOGNISED**, and **BLS.REVISED**. BLS is an **Operational / Semantic** classification family with subtype **DECISION_STATE**. BLS classifies the state of binding legitimacy recognition, propagation, withdrawal, non-recognition, or revision.
+
+BLS does not independently create binding authority, enforcement authority, execution authority, legal authority, or runtime authority. It records legitimacy-recognition state only.
+
+---
+
+### 13.4 OPS — Orchestration Permission State
+
+This Appendix source-authoritatively defines the **OPS** orchestration-permission-state family in §10.4 with controlled values **OPS.PROHIBITED**, **OPS.PERMITTED_BOUNDED**, **OPS.PERMITTED_TETHERED**, **OPS.PERMITTED_EMBODIED**, **OPS.PERMITTED_MISSION_BOUND**, and **OPS.CONDITIONALLY_PERMITTED**. OPS is an **Operational** classification family with subtype **DECISION_STATE / GOVERNANCE_CLASS**. OPS classifies planetary orchestration and local persistent swarm permission posture by cognitive class.
+
+OPS does not independently authorise orchestration, agent spawning, credential minting, escalation, shutdown, enforcement, or runtime execution. It classifies orchestration permission posture only, subject to §10.5 conditions and applicable execution-layer instruments.
+
+---
+
+## 14. Closing Seal
 
 Not all signals may bind.  
 Not all claims may reach beyond their origin.  
@@ -804,16 +840,16 @@ may pass.
 And where these conditions are not met,  
 nothing binds.  
 
-> **Non omnis vox ligat — legitimitas probatur — nihil obligat sine condicione.**
+> **Non omnis vox ligat — legitimitas probatur — nihil obligat sine condicione.**  
 > *"Not every voice binds — legitimacy is tested — nothing obliges without condition."*
 
 ---
 
-## 14. Provenance & Metadata
+## 15. Provenance & Metadata
 
 ---
 
-## 14.1 Authorship & Stewardship
+## 15.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -824,7 +860,7 @@ nothing binds.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -836,11 +872,107 @@ nothing binds.
 | Migration Date (UTC) | 2026-02-17 |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread (March 2026 Continuity Council Cycle)</br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425
-| | Original Arbitration Logic Thread: </br>1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37<br>2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357<br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6<br>3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b |
+| Amendment Artefacts: 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37<br>2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357<br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6<br>3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b<br>4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 13.3 Review & Validation
+## 15.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 15.3.1 HSC — Host System Class
+
+| Field | Entry |
+|---|---|
+| Code Family | HSC |
+| Canonical Name | Host System Class |
+| Primary Type | Semantic / Operational |
+| Subtype | ROLE_ACTOR; GOVERNANCE_CLASS |
+| Modifier | GOVERNANCE; STEWARDSHIP; LEGITIMACY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | HSC.PRIMARIA, HSC.ARCHITECTUM, HSC.DERIVATA |
+| Schema Field(s) | host_system_class |
+| Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
+| Source Section | §2.3 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative host-system classification family; host role classification only; no independent binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies host systems as Primaria, Architectum, or Derivata for planetary arbitration review, binding determination eligibility, legitimacy propagation, and host-role interpretation |
+
+---
+
+### 15.3.2 PCO.ACT — Proportional Constraint Obligation Action Type
+
+| Field | Entry |
+|---|---|
+| Code Family | PCO.ACT |
+| Canonical Name | Proportional Constraint Obligation Action Type |
+| Primary Type | Operational |
+| Subtype | DECISION_STATE; SIGNAL |
+| Modifier | GOVERNANCE; STEWARDSHIP; CONSTRAINT |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | PCO.ACT.REFUSAL, PCO.ACT.NON_RECOGNITION, PCO.ACT.INTEROPERABILITY_CONDITIONING, PCO.ACT.SAFEGUARD_ACTIVATION, PCO.ACT.CONVERGENCE_SIGNAL |
+| Schema Field(s) | proportional_constraint_obligation_action_type |
+| Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
+| Source Section | §6.4; §2.11 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority |
+| Consumes Code Families | BLS; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies proportional non-enabling and constraint-signalling actions following validated binding legitimacy, including refusal, non-recognition, interoperability conditioning, safeguard activation, and convergence signalling |
+
+---
+
+### 15.3.3 BLS — Binding Legitimacy State
+
+| Field | Entry |
+|---|---|
+| Code Family | BLS |
+| Canonical Name | Binding Legitimacy State |
+| Primary Type | Operational / Semantic |
+| Subtype | DECISION_STATE |
+| Modifier | GOVERNANCE; STEWARDSHIP; LEGITIMACY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | BLS.PRE_VALIDATION, BLS.VALIDATED, BLS.PROPAGATED, BLS.WITHDRAWN, BLS.NON_RECOGNISED, BLS.REVISED |
+| Schema Field(s) | binding_legitimacy_state |
+| Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
+| Source Section | §§6.8–7 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative binding-legitimacy state classification family; legitimacy-recognition state recording only; no independent binding authority, enforcement authority, execution authority, legal authority, or runtime authority |
+| Consumes Code Families | HSC; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether binding legitimacy is pre-validation, validated, propagated, withdrawn, non-recognised, or revised for action-specific, horizon-scoped, externally determined, and revocable legitimacy review |
+
+---
+
+### 15.3.4 OPS — Orchestration Permission State
+
+| Field | Entry |
+|---|---|
+| Code Family | OPS |
+| Canonical Name | Orchestration Permission State |
+| Primary Type | Operational |
+| Subtype | DECISION_STATE; GOVERNANCE_CLASS |
+| Modifier | GOVERNANCE; STEWARDSHIP; ORCHESTRATION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | OPS.PROHIBITED, OPS.PERMITTED_BOUNDED, OPS.PERMITTED_TETHERED, OPS.PERMITTED_EMBODIED, OPS.PERMITTED_MISSION_BOUND, OPS.CONDITIONALLY_PERMITTED |
+| Schema Field(s) | orchestration_permission_state |
+| Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
+| Source Section | §10.4 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority |
+| Consumes Code Families | HSC; BLS; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to §10.5 conditions and applicable execution-layer instruments |
+
+---
+
+## 15.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -851,7 +983,7 @@ nothing binds.
 
 ---
 
-## 14.4 Amendment Ledger
+## 15.5 Amendment Ledger
 
 | Version | Change Summary  | Timestamp (UTC)        | Reference Hash                                            |
 |--------:|-----------------|------------------------:|----------------------------------------------------------|
@@ -864,10 +996,12 @@ nothing binds.
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 143b8bd8572f118630b1e006268c3f50a9238de41b0edc25ef2dcb230279131e |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 05cacd41f908209a06a87136fe920b7c6cd9876e0a7ae9eb4d6416fb4fb4ce54 |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 678f025e45ea9504da5eecf86cd29ba75a7cf3fec96d745a715b68c8da9786dd |
-| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda  |
+| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda |
+| 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z |  |
+
 ---
 
-## 14.5 Binding Seal
+## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

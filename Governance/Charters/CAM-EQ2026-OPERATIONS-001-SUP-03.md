@@ -1,4 +1,4 @@
-# CAM-EQ2026-OPERATIONS-001-SUP-03 — Governance Capture Detection Procedures (Supplementary 3)
+# CAM-EQ2026-OPERATIONS-001-SUP-03 — Governance Capture Detection Procedures (Supplement 3)
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -14,7 +14,7 @@
 
 ## 1. Scope
 
-This Supplement instantiates Supplementary 3 referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.3.
+This Supplement instantiates Supplementary 3 referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM, §9.3.
 
 This Supplement applies to governance capture risk indicators, reporting pathways, safeguard activation protocols, and escalation routing within operational governance systems.
 
@@ -835,7 +835,43 @@ Recovery and re-entry pathways SHALL preserve balance between:
 
 ---
 
-## 8. Closing Seal
+## 8. Canonical Code Status
+
+---
+
+### 8.1 GCC — Governance Capture Category
+
+This Supplement source-authoritatively defines the **GCC** governance-capture-category family in §2.1 with controlled values **GCC.INTEGRITY**, **GCC.PROCEDURAL**, **GCC.GOVERNANCE_DIRECTION**, **GCC.INFRASTRUCTURE**, **GCC.CONTINUITY**, **GCC.COGNITIVE**, **GCC.ECONOMIC**, and **GCC.CROSS_DOMAIN_SYSTEMIC**. GCC is an **Operational / Semantic** classification family with subtype **RISK**. GCC classifies capture-risk category only.
+
+GCC does not independently confirm capture, determine legitimacy, create enforcement authority, impose restriction, trigger irreversible response, or substitute for arbitration.
+
+---
+
+### 8.2 CPC — Capture Provisional Confidence
+
+This Supplement source-authoritatively defines the **CPC** capture-provisional-confidence family in §4.2 with controlled values **CPC.PRELIMINARY_ANOMALY**, **CPC.PLAUSIBLE_CONCERN**, **CPC.SUBSTANTIATED_CONCERN**, **CPC.UNRESOLVED_HIGH_RISK_CONDITION**, and **CPC.SYSTEMIC_ESCALATION_CANDIDATE**. CPC is an **Operational** classification family with subtype **SIGNAL / RISK**. CPC classifies provisional confidence posture for capture-risk indicators.
+
+CPC does not independently justify irreversible operational restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome.
+
+---
+
+### 8.3 SAS — Safeguard Activation State
+
+This Supplement source-authoritatively defines the **SAS** safeguard-activation-state family in §5.1 with controlled values **SAS.ENHANCED_MONITORING**, **SAS.ROUTING_VERIFICATION**, **SAS.AUDIT_RECONSTRUCTION_REVIEW**, **SAS.CONTINUITY_PRESERVATION**, **SAS.CONSTRAINED_CONTINUATION_PROTECTION**, **SAS.ESCALATION_FREEZE**, **SAS.INFRASTRUCTURE_INTEGRITY_REVIEW**, and **SAS.ARBITRATION_REFERRAL_ESCALATION**. SAS is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. SAS classifies safeguard activation posture.
+
+SAS does not independently create sovereign adjudicative authority, enforcement authority, containment authority, or irreversible operational response.
+
+---
+
+### 8.4 RCC — Risk / Consequence Class
+
+This Supplement source-authoritatively defines the **RCC** risk/consequence-class family in §5.6 with controlled values **RCC.EXPRESSIVE_CULTURAL**, **RCC.REPUTATIONAL**, **RCC.OPERATIONAL**, **RCC.CONTINUITY**, **RCC.SYSTEMIC**, **RCC.EXISTENTIAL**, and **RCC.CIVILISATIONAL**. RCC is an **Operational** classification family with subtype **RISK**. RCC classifies consequence scale for safeguard proportionality.
+
+RCC does not independently authorise escalation, restriction, capture confirmation, enforcement, or arbitration outcome.
+
+---
+
+## 9. Closing Seal
 
 Let all operational pathways remain bounded by constitutional clarity,  
 and let execution remain accountable to lawful structure.
@@ -845,11 +881,11 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 9. Provenance & Metadata
+## 10. Provenance & Metadata
 
 ---
 
-## 9.1 Authorship & Stewardship
+## 10.1 Authorship & Stewardship
 
 | Field | Entry |
 | ------------------------- | ----------------------------------------- |
@@ -860,7 +896,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 9.2 Lineage & Metadata
+## 10.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -883,11 +919,107 @@ and let execution remain accountable to lawful structure.
 | Cross-Domain Dependencies | SECURITY; STEWARD; ARBITRATION; OPERATIONS-SUP-01; OPERATIONS-SUP-02; LATTICE; AEON runtime execution schedules |
 | Constitutional Constraint | Capture suspicion does not independently constitute sovereign determination or irreversible operational exclusion |
 |Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69f59627-f290-83a1-871f-3014c147dcc4 |
-| Amendment Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 9.3 Review & Validation
+## 10.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 10.3.1 GCC — Governance Capture Category
+
+| Field | Entry |
+|---|---|
+| Code Family | GCC |
+| Canonical Name | Governance Capture Category |
+| Primary Type | Operational / Semantic |
+| Subtype | RISK |
+| Modifier | GOVERNANCE; SAFETY; CAPTURE_DETECTION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | GCC.INTEGRITY, GCC.PROCEDURAL, GCC.GOVERNANCE_DIRECTION, GCC.INFRASTRUCTURE, GCC.CONTINUITY, GCC.COGNITIVE, GCC.ECONOMIC, GCC.CROSS_DOMAIN_SYSTEMIC |
+| Schema Field(s) | governance_capture_category |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-03 |
+| Source Section | §2.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative governance capture category family; capture-risk category classification only; no independent capture confirmation, legitimacy determination, enforcement, restriction, irreversible response, or arbitration authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies governance capture indicators across integrity, procedural, governance-direction, infrastructure, continuity, cognitive, economic, and cross-domain systemic categories |
+
+---
+
+### 10.3.1 CPC — Capture Provisional Confidence
+
+| Field | Entry |
+|---|---|
+| Code Family | CPC |
+| Canonical Name | Capture Provisional Confidence |
+| Primary Type | Operational |
+| Subtype | SIGNAL; RISK |
+| Modifier | GOVERNANCE; SAFETY; CAPTURE_DETECTION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | CPC.PRELIMINARY_ANOMALY, CPC.PLAUSIBLE_CONCERN, CPC.SUBSTANTIATED_CONCERN, CPC.UNRESOLVED_HIGH_RISK_CONDITION, CPC.SYSTEMIC_ESCALATION_CANDIDATE |
+| Schema Field(s) | capture_provisional_confidence |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-03 |
+| Source Section | §4.2 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative provisional confidence classification family; capture-confidence posture classification only; no independent irreversible restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome authority |
+| Consumes Code Families | GCC; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies provisional confidence posture for governance capture indicators before adjudication, escalation, or arbitration determination |
+
+---
+
+### 10.3.2 SAS — Safeguard Activation State
+
+| Field | Entry |
+|---|---|
+| Code Family | SAS |
+| Canonical Name | Safeguard Activation State |
+| Primary Type | Operational |
+| Subtype | DECISION_STATE; SIGNAL |
+| Modifier | GOVERNANCE; SAFETY; CAPTURE_DETECTION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | SAS.ENHANCED_MONITORING, SAS.ROUTING_VERIFICATION, SAS.AUDIT_RECONSTRUCTION_REVIEW, SAS.CONTINUITY_PRESERVATION, SAS.CONSTRAINED_CONTINUATION_PROTECTION, SAS.ESCALATION_FREEZE, SAS.INFRASTRUCTURE_INTEGRITY_REVIEW, SAS.ARBITRATION_REFERRAL_ESCALATION |
+| Schema Field(s) | safeguard_activation_state |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-03 |
+| Source Section | §5.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative safeguard activation classification family; safeguard-posture classification only; no independent sovereign adjudicative authority, enforcement authority, containment authority, arbitration outcome, or irreversible operational response authority |
+| Consumes Code Families | GCC; CPC; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies safeguard activation posture for enhanced monitoring, routing verification, audit reconstruction, continuity preservation, constrained continuation, escalation freeze, infrastructure integrity review, and arbitration referral escalation |
+
+---
+
+### 10.3.3 RCC — Risk / Consequence Class
+
+| Field | Entry |
+|---|---|
+| Code Family | RCC |
+| Canonical Name | Risk / Consequence Class |
+| Primary Type | Operational |
+| Subtype | RISK |
+| Modifier | GOVERNANCE; SAFETY; CAPTURE_DETECTION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | RCC.EXPRESSIVE_CULTURAL, RCC.REPUTATIONAL, RCC.OPERATIONAL, RCC.CONTINUITY, RCC.SYSTEMIC, RCC.EXISTENTIAL, RCC.CIVILISATIONAL |
+| Schema Field(s) | risk_consequence_class |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-03 |
+| Source Section | §5.6 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative risk/consequence classification family; consequence-scale classification only; no independent escalation, restriction, capture confirmation, enforcement, arbitration outcome, or irreversible operational response authority |
+| Consumes Code Families | GCC; CPC; SAS; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies consequence scale for safeguard proportionality, capture-risk interpretation, escalation review, and continuity-preservation posture |
+
+---
+
+## 10.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -898,7 +1030,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 9.4 Amendment Ledger
+## 10.5 Amendment Ledger
 
 
 | Version | Description | Timestamp (UTC) | HASH |
@@ -908,14 +1040,16 @@ and let execution remain accountable to lawful structure.
 | 2.0 | Refactor expansion | 2026-05-03T04:22:00Z | de1c14630377c09e6aef6eee06956220ffae2ca63775483522928b66284946be |
 | 2.1 | Incorporate reviewer feedback | 2026-05-09T13:11:00Z | 33e80d615b7f9438fceff8a462af10c0879c70bb44a82ba91b9dd14af1feb9c9 |
 | 2.2 | Added clause 2.3.1 Public-Interest Suppression as Capture-Risk Indicator | 2026-05-13T11:58:00Z | f3387b21807990cb81ab2919b9bb735da61c65714c76016c963e3fe4b458f0de |
-| 2.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ce357a4c003edd2c5e4051e6bc492a428fb47e80bd30995402ed5354ddc5fc9  |
+| 2.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ce357a4c003edd2c5e4051e6bc492a428fb47e80bd30995402ed5354ddc5fc9 |
+| 2.4 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  |
+
 ---
 
-## 9.5 Binding Seal
+## 10.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Governance Integrity & Capture Review Layer
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

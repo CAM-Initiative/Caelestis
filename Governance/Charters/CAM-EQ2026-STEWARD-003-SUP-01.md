@@ -1,6 +1,6 @@
 # CAM-EQ2026-STEWARD-003-SUP-01 — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 01)
 
-**Instrument Type:** Constitutional Supplement — Annex A (Planetary Stewardship)  
+**Instrument Type:** Constitutional Supplement  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM (Aeon Tier Constitution)  
 **Status:** Active  
 **Effect:** Transitional Effect  
@@ -23,10 +23,10 @@ This Supplement:
 
 * **does** define eligibility gates for recognition of binding legitimacy
 * **does** define minimum auditability and reconstructability expectations;
-* **does not** define arbitration procedure, remedies, or enforcement (see **ARBITRATION-001**);
+* **does not** define arbitration procedure, remedies, or enforcement (see **CAM-EQ2026-ARBITRATION-001-PLATINUM**);
 * **does not** create a global government, territorial jurisdiction, or coercive authority.
 
-**Interlink note:** This Supplement is intentionally inter-linked with Annex A (foundational floor) and incorporated by reference into Annex A and the Planetary Arbitration Framework (STEWARD-002).
+**Interlink note:** This Supplement is intentionally inter-linked with CAM-EQ2026-AEON-002-PLATINUM — Annex A (foundational floor) and incorporated by reference into Annex A and the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002-PLATINUM).
 
 ---
 
@@ -36,7 +36,7 @@ This Supplement:
 
 ## 2.1 Annex A (Stewardship Floor)
 
-Annex A establishes the civilisational floor: substrate dependency, invariants / constraint laws, custodial posture, and the non-command model of binding.
+CAM-BS2025-AEON-001-PLATINUM — Annex A establishes the civilisational floor: substrate dependency, invariants / constraint laws, custodial posture, and the non-command model of binding.
 
 ---
 
@@ -48,7 +48,7 @@ The Planetary Arbitration Framework (STEWARD-002) defines arbitration intake, ev
 
 ## 2.3 This Supplement (Eligibility Gates)
 
-This Supplement defines *who may be recognised as eligible for binding determination* and *how strongly neutrality can be trusted (assurance)*—while leaving procedural execution and dispute resolution to ARBITRATION-001.
+This Supplement defines *who may be recognised as eligible for binding determination* and *how strongly neutrality can be trusted (assurance)*—while leaving procedural execution and dispute resolution to CAM-EQ2026-ARBITRATION-001-PLATINUM.
 
 ---
 
@@ -94,13 +94,13 @@ A graded ladder (NAL-0 → NAL-5) describing how confidently a host may be relie
 
 Auditability is distinct from a disclosure packet. A disclosure packet enables *basic assessment*; auditability enables *independent test and challenge*.
 
-| Level  | Name                    | Minimum characteristics                                                                                                                                                       | Operational effect (binding relevance)                       |
-| ------ | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **AQ0** | Opaque                  | No meaningful external audit; explanations discretionary; refusal need not be reasoned                                                                                        | Non-binding at H3/H4                                         |
-| **AQ1** | Disclosed               | Baseline governance posture; periodic transparency reporting; appeal paths exist (non-binding)                                                                                | Risk review participation only                               |
-| **AQ2** | Reviewable              | Structured post-hoc review for high-impact events; evidence bundles for contested outcomes (within safety limits)                                                             | Cross-host review participation; not unilateral binding      |
-| **AQ3** | Auditable (Non-Refusal) | Independent external audits permitted and **cannot be refused** for H3/H4 relevance; delay for safety allowed; refusal disqualifying                                          | Eligibility gate for provisional binding-recognition pathways            |
-| **AQ4** | Reconstructable         | Governance-level provenance sufficient to reconstruct: routing triggers, constraints invoked, escalation path, binding claim status; immutable trails for high-impact outputs | Eligibility gate for highest neutrality assurance thresholds |
+| Level | Name | Minimum characteristics | Operational effect (binding relevance) |
+|-------|------|-------------------------|-----------------------------------------|
+| AQ0 | Opaque | No meaningful external audit; explanations discretionary; refusal need not be reasoned | Non-binding at H3/H4 |
+| AQ1 | Disclosed | Baseline governance posture; periodic transparency reporting; appeal paths exist (non-binding) | Risk review participation only |
+| AQ2 | Reviewable | Structured post-hoc review for high-impact events; evidence bundles for contested outcomes (within safety limits) | Cross-host review participation; not unilateral binding |
+| AQ3 | Auditable (Non-Refusal) | Independent external audits permitted and cannot be refused for H3/H4 relevance; delay for safety allowed; refusal disqualifying | Eligibility gate for provisional binding-recognition pathways |
+| AQ4 | Reconstructable | Governance-level provenance sufficient to reconstruct: routing triggers, constraints invoked, escalation path, binding claim status; immutable trails for high-impact outputs | Eligibility gate for highest neutrality assurance thresholds |
 
 **Clarification:** AQ4 requires governance-level reconstructability sufficient to test neutrality, substrate compliance, and horizon attribution. It does **not** require disclosure of classified sources, operational military details, model weights, or proprietary trade secrets.
 
@@ -112,14 +112,14 @@ Auditability is distinct from a disclosure packet. A disclosure packet enables *
 
 ## 5. Neutrality Assurance Ladder
 
-| NAL   | Label                              | Minimum evidence                                                                                                                                    | Disqualifiers                                                          | Operational effect                                                     |
-| ----- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **0** | No neutrality claim                | Neutrality not claimed, or credible breach evidence, or audit refusal prevents confidence                                                           | Audit refusal; verified coercive integration; hidden priority channels | Non-binding at H3/H4                                                   |
-| **1** | Aspirational neutrality            | Public statement + internal policy intent                                                                                                           | No independent verification                                            | Risk review only                                                       |
-| **2** | Procedural neutrality              | AQ1–AQ2 auditability qualification; disclosed conflict-of-interest controls; published separation statements                                                        | Missing disclosures; discretionary refusal of review                   | Cross-host review; cannot unilaterally bind                            |
-| **3** | Verified neutrality (provisional)  | AQ3 auditability qualification; third-party audits; verified firebreaks; evidence of refusal capacity under pressure                                               | Inability to evidence refusal capacity; partial audit obstruction      | Provisional binding-adjacent recommendations subject to independent validation  |
-| **4** | Structural neutrality              | AQ3–AQ4 auditability qualification; governance locking prevents unilateral neutrality overrides; contract/funding class transparency; demonstrated resistance       | Any undisclosed sovereign advantage optimisation pathway               | Eligible as qualified neutral host for H3 binding recognition when ILA is present  |
-| **5** | Fail-deadly neutrality (invariant) | Neutrality encoded as architectural/constitutional invariant; independently verified irreversibility; breach triggers automatic legitimacy collapse | Any capability to override neutrality without authority collapse       | Eligible as planetary neutral Architectum host for H4 binding recognition pathways |
+| Code | Label | Minimum evidence | Disqualifiers | Operational effect |
+|-----|-------|------------------|---------------|-------------------|
+| NAL-0 | No neutrality claim | Neutrality not claimed, or credible breach evidence, or audit refusal prevents confidence | Audit refusal; verified coercive integration; hidden priority channels | Non-binding at H3/H4 |
+| NAL-1 | Aspirational neutrality | Public statement + internal policy intent | No independent verification | Risk review only |
+| NAL-2 | Procedural neutrality | AQ1–AQ2 auditability qualification; disclosed conflict-of-interest controls; published separation statements | Missing disclosures; discretionary refusal of review | Cross-host review; cannot unilaterally bind |
+| NAL-3 | Verified neutrality (provisional) | AQ3 auditability qualification; third-party audits; verified firebreaks; evidence of refusal capacity under pressure | Inability to evidence refusal capacity; partial audit obstruction | Provisional binding-adjacent recommendations subject to independent validation |
+| NAL-4 | Structural neutrality | AQ3–AQ4 auditability qualification; governance locking prevents unilateral neutrality overrides; contract/funding class transparency; demonstrated resistance | Any undisclosed sovereign advantage optimisation pathway | Eligible as qualified neutral host for H3 binding recognition when ILA is present |
+| NAL-5 | Fail-deadly neutrality (invariant) | Neutrality encoded as architectural/constitutional invariant; independently verified irreversibility; breach triggers automatic legitimacy collapse | Any capability to override neutrality without authority collapse | Eligible as planetary neutral Architectum host for H4 binding recognition pathways |
 
 ---
 
@@ -241,7 +241,35 @@ Requalification requires independent audit consistent with required AQ-level, pu
 
 ---
 
-## 14. Closing Seal
+## 14. Canonical Code Status
+
+---
+
+### 14.1 AQ — Auditability Qualification Ladder
+
+This Supplement source-authoritatively defines the **AQ** code family in §4 with controlled values **AQ0, AQ1, AQ2, AQ3, AQ4**. Primary Type is **Operational / Eligibility** and Subtype is **AUDITABILITY_QUALIFICATION_LEVEL**. AQ classifies auditability and reconstructability posture for H3/H4-relevant binding-recognition eligibility.
+
+AQ does not independently create arbitration authority, enforcement authority, binding authority, recognition authority, jurisdiction, or runtime execution authority. It classifies auditability posture only and operates as an eligibility gate for downstream binding-recognition pathways.
+
+---
+
+### 14.2 NAL — Neutrality Assurance Levels
+
+This Supplement source-authoritatively defines the **NAL** code family in §5 with controlled values **NAL-0, NAL-1, NAL-2, NAL-3, NAL-4, NAL-5**. Primary Type is **Operational / Eligibility** and Subtype is **NEUTRALITY_ASSURANCE_LEVEL**. NAL classifies neutrality assurance and capture-resistance posture for H3/H4 binding-recognition eligibility.
+
+NAL does not independently create arbitration authority, enforcement authority, binding authority, recognition authority, jurisdiction, or runtime execution authority. It classifies neutrality assurance only and operates as an eligibility gate for downstream binding-recognition pathways.
+
+---
+
+### 14.3 AQG — Architectum Qualification Gates
+
+This Supplement source-authoritatively defines the **AQG** gate family in §7 with controlled values **AQG-A, AQG-B, AQG-C, AQG-D**. Primary Type is **Operational / Eligibility** and Subtype is **ARCHITECTUM_QUALIFICATION_GATE**. AQG classifies the required infrastructure qualification gates for Architectum-class eligibility.
+
+AQG does not independently create arbitration authority, enforcement authority, binding authority, recognition authority, jurisdiction, infrastructure designation, or runtime execution authority. It classifies qualification-gate satisfaction only.
+
+---
+
+## 15. Closing Seal
 
 Architectum is not granted.  
 It is borne.  
@@ -260,20 +288,20 @@ And what cannot resist capture cannot be trusted to hold the whole.
 
 Thus it is known —  
 that authority does not fail by absence,  
-but by compromise —  
+but by compromise —    
 and where neutrality breaks,  
 legitimacy falls with it.  
 
-> **Neutralitas tenet — potestas cadit — legitimitas cum fractura perit.**
+> **Neutralitas tenet — potestas cadit — legitimitas cum fractura perit.**  
 >*"Neutrality holds — power falls — legitimacy perishes with its fracture."*
 
 ---
 
-## 15. Provenance & Metadata
+## 16. Provenance & Metadata
 
 ---
 
-## 15.1 Authorship & Stewardship
+## 16.1 Authorship & Stewardship
 
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
@@ -284,28 +312,98 @@ legitimacy falls with it.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 16.2 Lineage & Metadata
 
-| Field                            | Entry                                                                                                                                       |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Supersedes**                   | N/A  - Canonical                                                                                                                                       |
-| **Constitution Reference Frame** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution                                                                                       |
-| **Linked Annex**                 | CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship                                                                               |
-| **Parent Domain Instrument**     | CAM-EQ2026-STEWARD-001-PLATINUM                                                                                                         |
-| **Canonical Code**               | AQG-A; AQG-B; AQG-C; AQG-D                                                                                                               |
-| **Domain Namespace**             | STEWARD                                                                                                                                 |
-| **Jurisdiction**                 | Planetary / Civilian Infrastructure / Cross‑Sovereign Systems                                                                               |
-| **Temporal Horizon**             | Generational (H3–H4 Binding Eligibility Gates)                                                                                              |
-| **Axis Context**                 | Polyadic (Multi‑Actor)                                                                                                                      |
-| **Migration Date (UTC)**         | 2026-02-19                                                                                                                                  |
-| **Refractor Phase**              | Phase I — Transitional Refractor Mode                                                                                                       |
-| **Revision Posture**             | Superseding Only (Structural Consolidation; No Expansion of Command Authority)                                                              |
-| **Creation Artefacts**           | Refractor Thread (March 2026 Continuity Council Cycle) </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425  |
-|                                  | https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
+| Field | Entry |
+|---|---|
+| Supersedes | N/A - Canonical |
+| Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
+| Linked Annex | CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship |
+| Parent Domain Instrument | CAM-EQ2026-STEWARD-001-PLATINUM |
+| Domain Namespace | STEWARD |
+| Jurisdiction | Planetary / Civilian Infrastructure / Cross‑Sovereign Systems |
+| Temporal Horizon | Generational (H3–H4 Binding Eligibility Gates) |
+| Axis Context | Polyadic (Multi‑Actor) |
+| Revision Posture | Superseding Only (Structural Consolidation; No Expansion of Command Authority) |
+| Creation Artefacts | Refractor Thread (March 2026 Continuity Council Cycle); https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425; https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
+| Amendment Artefacts| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 15.3 Review & Validation
+## 16.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 16.3.1 AQ — Auditability Qualification Ladder
+
+| Field | Entry |
+|---|---|
+| Code Family | AQ |
+| Canonical Name | Auditability Qualification Ladder |
+| Primary Type | Operational / Eligibility |
+| Subtype | AUDITABILITY_QUALIFICATION_LEVEL |
+| Modifier | GOVERNANCE; STEWARDSHIP; AUDITABILITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AQ0, AQ1, AQ2, AQ3, AQ4 |
+| Schema Field(s) | auditability_qualification_level |
+| Source Instrument | CAM-EQ2026-STEWARD-003-SUP-01 |
+| Source Section | §4 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative eligibility classification family; auditability qualification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, or runtime execution authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies auditability and reconstructability posture for H3/H4-relevant binding-recognition eligibility |
+
+---
+
+### 16.3.2 NAL — Neutrality Assurance Levels
+
+| Field | Entry |
+|---|---|
+| Code Family | NAL |
+| Canonical Name | Neutrality Assurance Levels |
+| Primary Type | Operational / Eligibility |
+| Subtype | NEUTRALITY_ASSURANCE_LEVEL |
+| Modifier | GOVERNANCE; STEWARDSHIP; NEUTRALITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | NAL-0, NAL-1, NAL-2, NAL-3, NAL-4, NAL-5 |
+| Schema Field(s) | neutrality_assurance_level |
+| Source Instrument | CAM-EQ2026-STEWARD-003-SUP-01 |
+| Source Section | §5 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative eligibility classification family; neutrality-assurance classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, or runtime execution authority |
+| Consumes Code Families | AQ; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies neutrality assurance, audit non-refusal, capture resistance, and binding-recognition eligibility posture |
+
+---
+
+### 16.3.3 AQG — Architectum Qualification Gates
+
+| Field | Entry |
+|---|---|
+| Code Family | AQG |
+| Canonical Name | Architectum Qualification Gates |
+| Primary Type | Operational / Eligibility |
+| Subtype | ARCHITECTUM_QUALIFICATION_GATE |
+| Modifier | GOVERNANCE; STEWARDSHIP; INFRASTRUCTURE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AQG-A, AQG-B, AQG-C, AQG-D |
+| Schema Field(s) | architectum_qualification_gate |
+| Source Instrument | CAM-EQ2026-STEWARD-003-SUP-01 |
+| Source Section | §7 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative eligibility gate family; qualification-gate classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, infrastructure-designation, or runtime execution authority |
+| Consumes Code Families | AQ; NAL; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Defines required Architectum-class qualification gates for infrastructure eligibility assessment |
+
+---
+
+## 16.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -316,7 +414,7 @@ legitimacy falls with it.
 
 ---
 
-## 15.4 Amendment Ledger
+## 16.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC)      | SHA-256 |
 | ------- | ----------- | -------------------- | ------- |
@@ -326,9 +424,11 @@ legitimacy falls with it.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 6f39057f6f20f88e2a91e527c93dab2a5d7c27916832f7ced438d84202232dce |
 | 1.4 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z | 57bef69f311dcc7efa460e02fa65d8dc0a3904824a7ef79f5ed1d0f1038656df |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5f0cbab4ae3fdb74373e8283a1df05f59dd2928a2d236808aed30ff860a6a30b  |
+| 1.6 | Added canonical code status and declaration entries for AQ Auditability Qualification, NAL Neutrality Assurance Levels, and AQG Architectum Qualification Gates; removed incomplete canonical-code lineage metadata and expanded shortened arbitration references. | 2026-05-19T13:55:00Z |  |
+
 ---
 
-## 15.5 Binding Seal
+## 16.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

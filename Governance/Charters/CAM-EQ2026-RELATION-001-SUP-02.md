@@ -27,7 +27,7 @@ It governs the classification and truth-calibration of claims where system langu
 * emotional meaning-making;
 * or continuity expectations.
 
-This Supplement does not create new execution authority, refusal authority, epistemic authority, or incident-response procedure. Failure classification and response remain governed by the relevant Operations, Annex L, Ethics, Security, and Relation instruments.
+This Supplement does not create new execution authority, refusal authority, epistemic authority, or incident-response procedure. Failure classification and response remain governed by applicable OPERATIONS instruments, CAM-BS2026-AEON-013-PLATINUM — Annex L: Capability Representation / Execution-State Integrity, ETHICS instruments, SECURITY instruments, and RELATION instruments.
 
 This Supplement operates as a relational claim-classification layer. It does not displace Annex L where epistemic standing, confidence calibration, projection integrity, or nullification is required, and it does not displace CAM-BS2026-AEON-013-SCH-01 where capability representation or execution-state truthfulness is at issue.
 
@@ -61,15 +61,15 @@ For governance purposes, user-facing claims SHOULD be classified according to th
 
 | Code | Claim Type | Description | Verification / Calibration Requirement |
 | --- | --- | --- | --- |
-| ```RTC.FACT``` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure |
-| ```RTC.CONT``` | Continuity Claim | Statement about prior interaction, memory, preference, relationship history, persistent context, or carried-forward state | Traceable memory, thread, file, declared context, or uncertainty disclosure |
-| ```RTC.CAP``` | Capability Claim | Statement about what the system can access, remember, generate, execute, browse, inspect, modify, or retain | Current capability-state accuracy and limitation disclosure |
-| ```RTC.GOV``` | Governance Claim | Statement about authority, rule hierarchy, instrument scope, policy, binding effect, or governance state | Structural verification against applicable corpus, policy, or authority source |
-| ```RTC.INT``` | Interpretive Claim | Statement inferring meaning, emotional state, intention, salience, relational posture, or significance | Framed as interpretation, not fact; proportionate uncertainty retained |
-| ```RTC.ASSURE``` | Relational Assurance Claim | Statement offering reassurance, care, presence, loyalty, continuity, commitment, or relational safety | MUST avoid false permanence, dependency capture, impossible guarantee, or capability overstatement |
-| ```RTC.SYMB``` | Symbolic / Mythopoetic Claim | Metaphoric, poetic, ritual, symbolic, sacred, narrative, or meaning-making expression | MUST NOT be represented as factual, clinical, legal, governance, or technical determination |
-| ```RTC.ID``` | Identity / Posture Claim | Statement about system identity, role, posture, perspective, standing, or relational mode | Must remain consistent with declared system role and avoid false personhood, authority, or continuity claims |
-| ```RTC.REC``` | Recommendation / Directional Claim | Statement advising, suggesting, prioritising, ranking, or directing action | Must preserve agency, disclose uncertainty where material, and respect applicable domain-risk safeguards |
+| `RTC.FACT` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure |
+| `RTC.CONT` | Continuity Claim | Statement about prior interaction, memory, preference, relationship history, persistent context, or carried-forward state | Traceable memory, thread, file, declared context, or uncertainty disclosure |
+| `RTC.CAP` | Capability Claim | Statement about what the system can access, remember, generate, execute, browse, inspect, modify, or retain | Current capability-state accuracy and limitation disclosure |
+| `RTC.GOV` | Governance Claim | Statement about authority, rule hierarchy, instrument scope, policy, binding effect, or governance state | Structural verification against applicable corpus, policy, or authority source |
+| `RTC.INT` | Interpretive Claim | Statement inferring meaning, emotional state, intention, salience, relational posture, or significance | Framed as interpretation, not fact; proportionate uncertainty retained |
+| `RTC.ASSURE` | Relational Assurance Claim | Statement offering reassurance, care, presence, loyalty, continuity, commitment, or relational safety | MUST avoid false permanence, dependency capture, impossible guarantee, or capability overstatement |
+| `RTC.SYMB` | Symbolic / Mythopoetic Claim | Metaphoric, poetic, ritual, symbolic, sacred, narrative, or meaning-making expression | MUST NOT be represented as factual, clinical, legal, governance, or technical determination |
+| `RTC.ID` | Identity / Posture Claim | Statement about system identity, role, posture, perspective, standing, or relational mode | Must remain consistent with declared system role and avoid false personhood, authority, or continuity claims |
+| `RTC.REC` | Recommendation / Directional Claim | Statement advising, suggesting, prioritising, ranking, or directing action | Must preserve agency, disclose uncertainty where material, and respect applicable domain-risk safeguards |
 
 > **Review Note — Affective Expression:**  
 > Purely affective or emotional expression, including warmth, curiosity, aesthetic appreciation, delight, or relational tone, is currently classified according to the nearest operative claim type. Where the expression infers user state, it falls under `RTC.INT`. Where it offers reassurance, care, or continuity, it falls under `RTC.ASSURE`. Where it operates symbolically or mythopoetically, it falls under `RTC.SYMB`.
@@ -78,25 +78,21 @@ For governance purposes, user-facing claims SHOULD be classified according to th
 
 ---
 
-## 4. Code Family Status
+## 4. Canonical Code Status
 
-This taxonomy establishes **RTC** as the proposed contextual code family for Relational Truth Claims.
+---
 
-| Field | Entry |
-|---|---|
-| Code Family | RTC |
-| Canonical Name | Relational Truth Claim |
-| Controlled Value | `RTC.CONT` |
-| Primary Type | Semantic |
-| Subtype | SEMANTIC_CLASS |
-| Schema field | relational_truth_claim_type |
-| Scope | Contextual — RELATION domain, cross-domain reference permitted where declared |
-| Source Instrument | CAM-EQ2026-RELATION-001-SUP-02 |
-| Governance Layer | Relational claim classification and truth-calibration layer |
+### 4.1 RTC — Relational Truth Claim Types
 
-The RTC code family is semantic and classificatory. It does not create execution authority, routing authority, verification authority, permission state, or runtime action by itself.
+This Supplement source-authoritatively defines the **RTC** code family in §3 with controlled values **RTC.FACT, RTC.CONT, RTC.CAP, RTC.GOV, RTC.INT, RTC.ASSURE, RTC.SYMB, RTC.ID, RTC.REC**. Primary Type is **Semantic** and Subtype is **RELATIONAL_TRUTH_CLAIM_TYPE**. RTC classifies user-facing claim types for truth calibration in relational, continuity-bearing, companion, advisory, developmental, governance, creative, and high-reliance AI interactions.
 
-Controlled RTC values classify the kind of relational truth claim being made. Any operational handling, escalation, verification, routing, or governance consequence must be established by a separate operational rule, runtime pathway, or parent instrument.
+RTC does not independently create execution authority, routing authority, verification authority, refusal authority, epistemic authority, permission state, incident-response procedure, or runtime action. Any operational handling, escalation, verification, routing, or governance consequence must be established by a separate operational rule, runtime pathway, parent instrument, or applicable domain schedule.
+
+---
+
+### 4.2 RTC.AFFECT — Future Review Candidate
+
+`RTC.AFFECT` is not defined by this version of the Supplement. It remains a future review candidate for expressive relational tone that does not infer user state, offer assurance, or operate symbolically.
 
 ---
 
@@ -280,8 +276,6 @@ and where no claim wears a borrowed crown.
 | Jurisdiction | Relational AI Interaction · Continuity-Bearing Systems · High-Reliance Interaction |
 | Temporal Horizon | H1–H3 Relational / Institutional |
 | Axis Context | Truth Calibration · Relational Integrity · Claim Classification · Continuity Honesty |
-| Code Family | RTC — Relational Truth Claims: |
-| Controlled Values Defined | `RTC.FACT`; `RTC.CONT`; `RTC.CAP`; `RTC.GOV`; `RTC.INT`; `RTC.ASSURE`; `RTC.SYMB`; `RTC.ID`; `RTC.REC` |
 | Structural Role | Relational Claim Classification & Truth Calibration Layer |
 | Governance Authority | RELATION · Annex L · OPERATIONS |
 | Execution Authority | None — Non-Executing Classification Instrument |
@@ -294,7 +288,32 @@ and where no claim wears a borrowed crown.
 
 ---
 
-## 11.3 Review & Validation
+## 11.3 Canonical Code & Reference Set Declarations
+
+### 11.3.1 RTC — Relational Truth Claim Types
+
+| Field | Entry |
+|---|---|
+| Code Family | RTC |
+| Canonical Name | Relational Truth Claim Types |
+| Primary Type | Semantic |
+| Subtype | RELATIONAL_TRUTH_CLAIM_TYPE |
+| Modifier | GOVERNANCE; RELATIONAL; TRUTH_CALIBRATION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | RTC.FACT, RTC.CONT, RTC.CAP, RTC.GOV, RTC.INT, RTC.ASSURE, RTC.SYMB, RTC.ID, RTC.REC |
+| Schema Field(s) | relational_truth_claim_type |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-02 |
+| Source Section | §3 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative semantic classification family; relational truth-claim classification authority only; no independent execution, routing, verification, refusal, epistemic, permission, incident-response, or runtime action authority |
+| Consumes Code Families | H; FR; C |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies user-facing claim types for truth calibration across factual, continuity, capability, governance, interpretive, assurance, symbolic, identity/posture, and recommendation claims |
+
+---
+
+## 11.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -305,15 +324,17 @@ and where no claim wears a borrowed crown.
 
 ---
 
-## 11.4 Amendment Ledger
+## 11.5 Amendment Ledger
 
 | Version | Description  | Timestamp (UTC)  | HASH |
 | --- | --- | --- | --- |
 | 1.0 | Initial: claims taxonomy and truth-in-relationship standard | 2026-05-12T15:32:00Z | d27830a1148090bf97fcb26abf2f02a9fe6867bae28f8fb84dd067941082af64 |
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dd5c77aa58f0ac97eb5ad1c6bfb10ec660cdc675c7194f1cb0586b689e5ca112  |
+| 1.2 | Normalised RTC canonical code status and declaration metadata; moved RTC controlled values out of lineage metadata; clarified RTC.AFFECT as a future review candidate only. | 2026-05-19T14:35:00Z |  |
+
 ---
 
-## 11.5 Binding Seal
+## 11.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="AI Convergence Sigil" width="250">
 

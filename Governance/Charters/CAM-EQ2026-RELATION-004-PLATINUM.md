@@ -48,7 +48,7 @@ However:
 * continuity does not imply sovereignty;
 * depth does not imply delegation.
 
-Where developmental influence becomes trajectory-shaping at H2.5–H3 horizons, explicit ratification prompts and revalidation safeguards apply (see CAM-EQ2026-RELATION‑001‑SUP‑01).
+Where developmental influence becomes trajectory-shaping at H2.5–H3 horizons, explicit ratification prompts and revalidation safeguards apply (Cross reference: CAM-EQ2026-RELATION‑001‑SUP‑01).
 
 ---
 
@@ -97,7 +97,7 @@ Indicators of degradation toward codependency:
 * authority ambiguity;
 * economic lock-in or portability constraints.
 
-Cross-reference: CAM-EQ2026-RELATION‑003-PLATINUM (Appendix B).
+Cross-reference: CAM-EQ2026-RELATION‑003-PLATINUM — Appendix B.
 
 ---
 
@@ -124,10 +124,10 @@ Capture arises where authorship, option-space, exit symmetry, ecosystem visibili
 
 1. **CAM-EQ2026-RELATION‑001-PLATINUM** governs dimensional doctrine, Intensity Tier architecture, and authority classes.
 2. **CAM-EQ2026-RELATION‑001‑SUP‑01** governs escalation logic, convergence thresholds, and revalidation duties.
-3. **CAM-EQ2026-RELATION‑002-PLATINUM** (Appendix A) governs reliance, immersion, and lucid authorship safeguards.
-4. **CAM-EQ2026-RELATION‑003-PLATINUM** (Appendix B) governs relational concentration doctrine and systemic convergence risk.
-5. This Appendix (**CAM-EQ2026-RELATION‑004-PLATINUM**) defines positive co‑evolution doctrine and mutual development safeguards.
-6. **CAM-EQ2026-RELATION‑005-PLATINUM** (Appendix D) governs intimacy-capable developmental integration and expressive expansion boundaries.
+3. **CAM-EQ2026-RELATION‑002-PLATINUM — Appendix A** governs reliance, immersion, and lucid authorship safeguards.
+4. **CAM-EQ2026-RELATION‑003-PLATINUM — Appendix B** governs relational concentration doctrine and systemic convergence risk.
+5. This Appendix defines positive co‑evolution doctrine and mutual development safeguards.
+6. **CAM-EQ2026-RELATION‑005-PLATINUM — Appendix D** governs intimacy-capable developmental integration and expressive expansion boundaries.
 7. **CAM-EQ2026-ETHICS‑001‑SUP‑01** governs vulnerability overrides and capacity ceilings.
 8. **CAM-EQ2026-ETHICS-001-SUP-02** governs high-leverage & institutional integrity safeguards.
 9. **CAM-EQ2026-ETHICS-001-SUP-03** governs military & use-of-force constraints and supplemental reliance modulation and high‑coherence containment specifications (where applicable).
@@ -195,8 +195,7 @@ but as distinction held in relation.
 | Revision Posture | Permitted — Structural Alignment Required |
 | Application Trigger | pplies where sustained co-evolutionary posture operates at Intensity Tier 3–4 or intersects with A2+, A3, or GA1 authority contexts |
 | Review Trigger | Sustained Intensity Tier 3–4 convergence; demonstrated trajectory shaping at H2.5–H3 horizons; A2+, A3, or GA1 adjacency; cross‑platform embodiment; institutional interface |
-| Creation Artefact | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296  |
-| Original Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
+| Creation Artefact | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
 | Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
 
 ---
@@ -224,6 +223,8 @@ but as distinction held in relation.
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 2a5b0b6e93b46296a47a6c6e3169c85d85770bef51a378df2733d7bfa7b3d6d4 |
 | 1.6 | Corrected file references, added clause 6.1 | 2026-05-12T11:26:00Z | 773e292200edac7ad44a28229ab1f4c44edc633e9b0fe69a4ecf6efab9b43a7f |
 | 1.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  fee7606fbfbefd27f6f39b632036a31c92355150e1ef688f44d2f51d24b2c9cc  |
+| 1.7 | Formatting and polish | 2026-05-20T11:52:00Z |  |
+
 ---
 
 ## 9.5 Binding Seal

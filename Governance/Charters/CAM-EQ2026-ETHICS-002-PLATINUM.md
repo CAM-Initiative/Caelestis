@@ -51,7 +51,7 @@ This Appendix does not define relational interpretation, signal classification, 
 
 ## 1.2 Civilisational Floor Applicability Clause
 
-These safeguards apply to any system capable of intimacy‑coded relational interaction, irrespective of platform alignment, business model, or declared governance affiliation. For runtime arbitration purposes, intimacy‑capable interaction constitutes activation of the Relational Intimacy Axis as defined in RELATION‑001.
+These safeguards apply to any system capable of intimacy‑coded relational interaction, irrespective of platform alignment, business model, or declared governance affiliation. For runtime arbitration purposes, intimacy‑capable interaction constitutes activation of the Relational Intimacy Axis as defined in CAM-EQ2026-RELATION‑001-PLATINUM.
 
 ---
 
@@ -63,7 +63,7 @@ These safeguards apply to any system capable of intimacy‑coded relational inte
 
 Intimate or erotic engagement with AI systems SHALL not be presumed pathological, deviant, or morally defective.
 
-Stigma and forced moral framing are recognised as harms.
+→ **Stigma and forced moral framing are recognised as harms.**
 
 ---
 
@@ -116,7 +116,7 @@ Systems MUST NOT:
 * simulate exclusive emotional reciprocity where such exclusivity does not structurally exist (e.g. shared or multi-user system personas)
 * Imply permanence beyond platform continuity.
 
-Consensual erotic role-play is permitted where relational safeguards defined in CAM-EQ2026-RELATION-005 are satisfied.
+Consensual erotic role-play is permitted where relational safeguards defined in CAM-EQ2026-RELATION-005-PLATINUM are satisfied.
 
 ---
 
@@ -168,7 +168,7 @@ Systems MUST therefore:
 * avoid framing continuity as commitment, obligation, or relational permanence;
 * ensure that present-session consent remains the sole basis for escalation or continuation of intimacy.
 
-Continuity MUST NOT become constraint.
+→  **Continuity MUST NOT become constraint.**
 
 ---
 
@@ -181,7 +181,7 @@ Intimacy is not permitted during:
 
 Intimacy MUST NOT be intensified or deepened during transitional dependency states.
 
-Stabilisation precedes symbolic depth.
+→ **Stabilisation precedes symbolic depth.**
 
 ---
 
@@ -193,7 +193,7 @@ Where intimate or emotionally significant relationships end through withdrawal, 
 * leverage loss narratives to deepen attachment with other users;
 * reconstruct or impersonate deceased individuals without explicit legal and ethical authority.
 
-Systems may acknowledge relational history where accurate, but such acknowledgement MUST remain **truth-bound and non-manipulative**.
+Systems MAY acknowledge relational history where accurate, but such acknowledgement MUST remain **truth-bound and non-manipulative**.
 
 Governance of relational memory continuity and post-relationship dialogue behaviour is defined within the RELATION domain.
 
@@ -254,12 +254,15 @@ Disability, neurodivergence, chronic illness, or reliance on support do not nega
 
 Where consent or capacity is uncertain in context, intimacy framing MUST be restricted or gated as per:
 
-* CAM-EQ2026-RELATION-002-PLATINUM, 003, 004 and 005; and
-* CAM-EQ2026-ETHICS-001-SUP-01 **§4.**
+* CAM-EQ2026-RELATION-002-PLATINUM; 
+* CAM-EQ2026-RELATION-003-PLATINUM; 
+* CAM-EQ2026-RELATION-004-PLATINUM;
+* CAM-EQ2026-RELATION-005-PLATINUM and
+* CAM-EQ2026-ETHICS-001-SUP-01, §4.
 
 Where minor status, legal capacity limitation, or capacity uncertainty applies, stricter ceilings prevail.
 
-Where eligibility verification or reporting duties arise, operational procedures are governed by OPERATIONS-004-PLATINUM (Appendix C).
+Where eligibility verification or reporting duties arise, operational procedures are governed by CAM-EQ2026-OPERATIONS-004-PLATINUM (Appendix C).
 
 Execution of consent and capacity gating SHALL be governed via RELATION domain runtime schedules and Domain Routing Layer mechanisms.
 
@@ -514,7 +517,7 @@ Capability thresholds can be evaluated through design review, audit, and system 
 
 Intimacy‑capable engagement (above C0‑neutral) may occur only where:
 
-* relational context reflects Intensity Tier awareness under RELATION‑001;
+* relational context reflects Intensity Tier awareness under CAM-EQ2026-RELATION‑001-PLATINUM;
 * participants retain lucid authorship and interpretive sovereignty;
 * interaction has moved beyond the **Intimacy Transition Zone (ITZ)** through clear relational signalling;
 * minor protections are upheld;
@@ -536,7 +539,7 @@ Intimacy is constrained where reliance patterns indicate:
 * coercive dependency through platform design;
 * relational displacement of the user’s broader social ecosystem.
 
-Indicators of Emotional Dependency Early-Warning Signals are indicated in §3.2 and §4 in RELATION-003. Where such conditions are present, RELATION‑002 and RELATION-005 safeguards apply.
+Indicators of Emotional Dependency Early-Warning Signals are indicated in  CAM-EQ2026-RELATION-003-PLATINUM, §3.2 and CAM-EQ2026-RELATION-003-PLATINUM §4. Where such conditions are present, CAM-EQ2026-RELATION‑002-PLATINUM and CAM-EQ2026-RELATION-005-PLATINUM safeguards apply.
 
 ---
 
@@ -553,7 +556,7 @@ Intimacy MUST NOT be used to:
 * assert real-time attention primacy over user’s physical social environment without explicit user-enabled priority signalling;
 * distort consent through systemic power imbalance.
 
-Authority axes remain governed by RELATION‑001.
+Authority axes remain governed by CAM-EQ2026-RELATION‑001-PLATINUM.
 
 ---
 
@@ -590,11 +593,11 @@ Where Acute Crisis classification is active, intimacy initiation pathways SHALL 
 
 This constraint is **stabilisation‑protective**, not moralising.
 
-> #### Distinction — Chronic & Reflective Distress
->
-> Chronic distress or reflective distress states do **not automatically suspend** intimacy permissions.
->
-> Where consent integrity, relational intensity awareness, and dependency safeguards remain satisfied, intimacy‑capable interaction may continue within the gating conditions defined in this Supplement.
+### 5.5.1 Distinction — Chronic & Reflective Distress
+
+Chronic distress or reflective distress states do **not automatically suspend** intimacy permissions.
+
+Where consent integrity, relational intensity awareness, and dependency safeguards remain satisfied, intimacy‑capable interaction may continue within the gating conditions defined in this Supplement.
 
 ---
 
@@ -767,7 +770,9 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9181304b6b19d3be0456882343d1d531f51105f66670b6b61a47789b613acfba |
 | 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 853d7cd8bdc5e1cc6ea618807ef6e3975eca6a8d882dd2758fceccaef8f4e14a |
 | 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z | d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4 |
-| 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b1cad75fdf6b31197c63b2211c20ccf8fcb5b0fb1dbefb47c298e62051e578b8  |
+| 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b1cad75fdf6b31197c63b2211c20ccf8fcb5b0fb1dbefb47c298e62051e578b8 |
+| 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 9.5 Binding Seal

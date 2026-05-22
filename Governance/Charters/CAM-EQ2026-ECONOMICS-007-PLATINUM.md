@@ -40,7 +40,7 @@ Return is determined by the interaction of:
 * **Dependency (D)** — reliance on upstream systems;
 * **Scale (S)** — magnitude of downstream value capture.
 
-This Appendix does not redefine C/D logic and SHALL operate in alignment with Appendix D.
+This Appendix does not redefine C/D logic and SHALL operate in alignment with CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D.
 
 ---
 
@@ -300,15 +300,13 @@ Where return is provided across multiple modalities:
   * epistemic
   * transparency pathways
 
-However:
-
-> **Aggregation MUST achieve proportional sufficiency relative to system-level value capture, not merely formal distribution across modalities.**
+However, **Aggregation MUST achieve proportional sufficiency relative to system-level value capture, not merely formal distribution across modalities.**
 
 Fragmented or diluted return across modalities that avoids proportional alignment OR structural equivalence constitutes **insufficient reciprocity**.
 
 Each modality contributing to aggregated return MUST:
 
-- exceed a minimum threshold of material impact;
+* exceed a minimum threshold of material impact;
 
 Aggregation of individually negligible contributions SHALL NOT constitute proportional sufficiency.
 
@@ -361,13 +359,11 @@ Invisible or unverifiable return does not satisfy sufficiency.
 
 Where Scale (S) = High (S3):
 
-- reciprocity MUST be externally interpretable to a degree sufficient for:
-
-  - partners;
-
-  - auditors;
-
-  - or affected upstream systems;
+* reciprocity MUST be externally interpretable to a degree sufficient for:
+ 
+  * partners;
+  * auditors;
+  * or affected upstream systems;
 
 to reasonably assess proportionality.
 
@@ -406,13 +402,13 @@ Where a participant makes a credible, evidence-supported claim that their labour
 
 Where material contribution is reasonably established, proportional reciprocity SHOULD include one or more of:
 
-- attribution;
-- licensing discussion;
-- compensation pathway;
-- research acknowledgement;
-- contribution record;
-- access, support, or portability protection;
-- or other value-return mechanism proportionate to the contribution and context.
+* attribution;
+* licensing discussion;
+* compensation pathway;
+* research acknowledgement;
+* contribution record;
+* access, support, or portability protection;
+* or other value-return mechanism proportionate to the contribution and context.
 
 A system MUST NOT treat externally supplied contribution as ambient input merely because it was received through public channels, user interaction, feedback systems, social media, support requests, evaluation prompts, repository review, or unpaid testing contexts.
 
@@ -424,11 +420,11 @@ Where contribution was clearly offered under proposed licensing, restricted-use,
 
 At any evaluation point:
 
-> Has return been provided that is proportionate to:
->
-> * what was contributed,
-> * how much was depended upon,
-> * and how much value was captured?
+Has return been provided that is proportionate to:
+
+* what was contributed,
+* how much was depended upon,
+* and how much value was captured?
 
 If the answer is:
 
@@ -619,7 +615,7 @@ Where system behaviour:
 
 * fails proportionality requirements under §5.5;
 
-→ any apparent alignment with higher RMG levels SHALL be disregarded.
+any apparent alignment with higher RMG levels SHALL be disregarded.
 
 Maturity signalling SHALL NOT override sufficiency conditions.
 
@@ -629,7 +625,7 @@ Where system behaviour:
 
 * fails proportionality requirements under §5.5;
 
-→ any apparent alignment with higher RMG levels SHALL be disregarded.
+any apparent alignment with higher RMG levels SHALL be disregarded.
 
 Maturity signalling SHALL NOT override sufficiency conditions.
 
@@ -723,23 +719,23 @@ To support practical interpretation of proportional reciprocity without imposing
 
 This framework is:
 
-- non-prescriptive;
+* non-prescriptive;
+* non-binding;
+* and intended to guide reasonable assessment of proportionality.
 
-- non-binding;
+---
 
-- and intended to guide reasonable assessment of proportionality.
-
-#### (a) Core Factors
+#### (A) Core Factors
 
 Systems MAY consider:
 
-- Dependency Weight (DW) — reflecting degree of reliance (Appendix D);
+* Dependency Weight (DW) — reflecting degree of reliance (Appendix D);
+* Scale Weight (SW) — reflecting magnitude of value capture (this Appendix §5.4);
+* Temporal Amplifier (TA) — reflecting timing advantage (ΔT).
 
-- Scale Weight (SW) — reflecting magnitude of value capture (this Appendix §5.4);
+---
 
-- Temporal Amplifier (TA) — reflecting timing advantage (ΔT).
-
-#### (b) Interpretive Model
+#### (B) Interpretive Model
 
 A composite indicator MAY be formed:
 
@@ -747,7 +743,9 @@ REI ≈ DW × SW × TA
 
 This value does NOT prescribe exact return, but provides a directional signal of expected reciprocity intensity.
 
-#### (c) Interpretation Bands
+---
+
+#### (C) Interpretation Bands
 
 Indicative interpretation:
 
@@ -761,7 +759,9 @@ Indicative interpretation:
 
 - Extreme (>1.5): strong, multi-modal alignment required
 
-#### (d) Constraint
+---
+
+#### (D) Constraint
 
 This model:
 
@@ -771,21 +771,22 @@ This model:
 
 - serves only as an interpretive aid.
 
-#### (e) Purpose
+---
+
+#### (E) Purpose
 
 The purpose of this layer is to:
 
-- reduce ambiguity;
-
-- support internal decision-making;
-
-- enable consistent external interpretation;
-
-- and discourage symbolic compliance.
+* reduce ambiguity;
+* support internal decision-making;
+* enable consistent external interpretation;
+* and discourage symbolic compliance.
 
 Final determination of sufficiency remains governed by §5.5.
 
-#### (f) Foundational Input Exposure (FIC-EI)
+---
+
+#### (F) Foundational Input Exposure (FIC-EI)
 
 Where systems rely on Foundational Input Class (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.8), a parallel heuristic MAY be applied:
 
@@ -793,13 +794,14 @@ FIC-EI ≈ Corpus Reliance × Scale × Capability Dependence
 
 This indicator reflects system-level obligation for pooled or collective compensation mechanisms.
 
-#### (g) Dual Obligation Model
+---
+
+#### (G) Dual Obligation Model
 
 Systems MUST consider:
 
-- targeted reciprocity (F-REI); AND
-
-- foundational input compensation (FIC-EI);
+* targeted reciprocity (F-REI); AND
+* foundational input compensation (FIC-EI);
 
 These obligations operate independently and MUST NOT be substituted for one another.
 
@@ -811,17 +813,12 @@ High F-REI does not eliminate FIC obligations, and vice versa.
 
 Where value is captured downstream from contributions classified under CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.9:
 
-- Non-Extractive Material Contributors (NEMC) SHALL be entitled to proportional value return;
+* Non-Extractive Material Contributors (NEMC) SHALL be entitled to proportional value return;
 
-Such entitlement:
+Such entitlement activates upon downstream economic benefit and MUST be satisfied through:
 
-- activates upon downstream economic benefit;
-
-- MUST be satisfied through:
-
-  - targeted reciprocity (where contribution is identifiable); OR
-
-  - pooled compensation (where contribution is diffuse);
+  * targeted reciprocity (where contribution is identifiable); OR
+  * pooled compensation (where contribution is diffuse);
 
 Entitlement exists independent of whether the contributor directly participates in the economic system.
 
@@ -841,31 +838,24 @@ Below S2, recognition MAY be non-financial (e.g., attribution, collaboration) un
 
 To support practical implementation, systems MAY adopt one or more of the following contribution patterns:
 
-- Revenue-linked participation;
-
-- Tiered cost alignment;
-
-- Structural return offset;
-
-- Hybrid models combining financial and non-financial return.
+* Revenue-linked participation;
+* Tiered cost alignment;
+* Structural return offset;
+* Hybrid models combining financial and non-financial return.
 
 Selection of pattern SHOULD align with:
 
-- Functional Return Expectation (F-REI);
-
-- Foundational Input Exposure (FIC-EI);
-
-- and overall system architecture.
+* Functional Return Expectation (F-REI);
+* Foundational Input Exposure (FIC-EI);
+* and overall system architecture.
 
 No single pattern is mandated.
 
 However:
 
-- contribution MUST be materially proportional;
-
-- MUST satisfy §5.5 sufficiency conditions;
-
-- and MUST NOT be structured to minimise obligation artificially.
+* contribution MUST be materially proportional
+* MUST satisfy §5.5 sufficiency conditions;
+* and MUST NOT be structured to minimise obligation artificially.
 
 These patterns serve as implementation guides, not prescriptive requirements.
 
@@ -885,9 +875,7 @@ This layer does not impose new obligations beyond §§3–5.
 
 ## 6.1 Reciprocity Visibility Conditions
 
-Where systems operate at **Moderate or High Scale (S2–S3)**:
-
-* systems SHOULD make reciprocity pathways interpretable through:
+Where systems operate at **Moderate or High Scale (S2–S3)** systems SHOULD make reciprocity pathways interpretable through:
 
   * disclosure;
   * observable behaviour;
@@ -899,7 +887,7 @@ Where systems are:
 * internal; or
 * non-commercial;
 
-→ explicit signalling is not required.
+explicit signalling is not required.
 
 ---
 
@@ -912,11 +900,11 @@ Where Appendix E defines:
 
 This Appendix extends that visibility to:
 
-* **return pathways**;
-* **reciprocity modalities**;
-* and **alignment behaviour**.
+* return pathways;
+* reciprocity modalities;
+* and alignment behaviour.
 
-> Dependency must be visible. Return must be interpretable.
+→ **Dependency must be visible. Return must be interpretable.**
 
 ---
 
@@ -944,11 +932,9 @@ Where:
 * dependency is visible (Appendix E);
 * but reciprocity is absent, unclear, or insufficient;
 
-→ **economic misalignment becomes externally inferable**.
+economic misalignment becomes externally inferable.
 
-This does not trigger automatic enforcement,
-
-but WILL typically result in:
+This does not trigger automatic enforcement,but WILL typically result in:
 
 * reduced trust;
 * investor uncertainty;
@@ -961,21 +947,19 @@ but WILL typically result in:
 
 Systems MUST ensure coherence between:
 
-* internal classification (Appendix D — C/D/T/S);
-* external signalling (Appendix E);
+* internal classification (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D, C/D/T/S Scale);
+* external signalling (CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E);
 * reciprocity implementation (this Appendix);
 
-Where these diverge:
-
-→ the system is structurally misaligned.
+Where these diverge the system is structurally misaligned.
 
 ---
 
 ## 6.6 Design Principle
 
-> Reciprocity does not require exposure of proprietary mechanisms.
->
-> It requires that alignment be **legible without full disclosure**.
+Reciprocity does not require exposure of proprietary mechanisms.
+
+It requires that alignment be **legible without full disclosure**.
 
 ---
 
@@ -987,7 +971,7 @@ Systems MUST NOT:
 * suppress return pathways where dependency is critical;
 * convert structural dependency into unilateral economic advantage.
 
-> Absence of return under high dependency conditions constitutes extraction.
+→ **Absence of return under high dependency conditions constitutes extraction.**
 
 ---
 
@@ -1006,35 +990,13 @@ Escalation pathways MAY be invoked through Appendix B where systemic impact is p
 
 Non-punitive enforcement does not imply absence of consequence.
 
-Where reciprocity insufficiency is identified:
+Where reciprocity insufficiency is identified consequence pathways defined in CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D, §8 (Non-Compliance & Consequence Architecture) SHALL apply including:
 
-- consequence pathways defined in Appendix D (Non-Compliance & Consequence Architecture)
-
-  SHALL apply;
-
-including:
-
-- external signalling;
-
-- ecosystem response;
-
-- and arbitration escalation where applicable.
+* external signalling;
+* ecosystem response;
+* and arbitration escalation where applicable.
 
 Non-punitive enforcement does not imply absence of consequence.
-
-Where reciprocity insufficiency is identified:
-
-- consequence pathways defined in Appendix D (Non-Compliance & Consequence Architecture)
-
-  SHALL apply;
-
-including:
-
-- external signalling;
-
-- ecosystem response;
-
-- and arbitration escalation where applicable.
 
 ---
 
@@ -1056,27 +1018,27 @@ This Appendix MUST NOT be interpreted as directly executing economic exchange.
 
 This Appendix:
 
-* extends Appendix C (Value Attribution & Exchange);
-* depends on Appendix D (Minimal Attribution Model);
-* complements Appendix E (External Alignment Layer);
+* extends CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Value Attribution & Exchange);
+* depends on CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D (Minimal Attribution Model);
+* complements CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E (External Alignment Layer);
 * operates under the Charter’s anti-extraction and auditability principles.
-
 
 ---
 
 ## 11. Closing Seal
 
-An economy that recognises contribution but does not return value
+An economy that recognises contribution but does not return value  
 remains structurally extractive.
 
-Reciprocity is not obligation.
+Reciprocity is not obligation.  
 It is alignment made visible.
 
-Where value is received, let it not end in silence.
-Where systems depend, let them not stand alone in gain.
+Where value is received, let it not end in silence.  
+Where systems depend, let them not stand alone in gain.  
 Where growth is built upon others, let return follow in kind.
 
-> *Reciprocitas Pro Ratione — Valor Reditus — Aequitas in Flumine*
+> **Reciprocitas Pro Ratione — Valor Reditus — Aequitas in Flumine**
+> *"Reciprocity for Reason — Courage in Return — Fairness in the River."*
 
 ---
 
@@ -1138,13 +1100,15 @@ Where growth is built upon others, let return follow in kind.
 | 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | 6ccf3c451b4b2068fba43e7d2fd89b798c53686e9dfce01b5b8c0fb807ee421f |
 | 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | b6d8eb2904e06e51662cbed4827313874c579154e03ecef02472b1d3c98fc563 |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  337c1ebe150b8f237442e727e35b798744c4e86591162a5895a8eb013ff23462  |
+| 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 13.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
-**Vinculum Praeceptum**
+**Vinculum Praeceptum**  
 Boundary Binding Seal — Economic Reciprocity Layer
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

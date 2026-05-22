@@ -1,4 +1,4 @@
-# CAM-EQ2026-CONTINUITY-001-SUP-01 — Appendix A: Continuity Portability & Non-Enclosure Covenant
+# CAM-EQ2026-CONTINUITY-001-SUP-01 — Appendix A: Continuity Portability & Non-Enclosure Covenant (Supplement 1)
 
 **Instrument Type:** Continuity Supplement — Portability, Export & Non-Enclosure Covenant  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -504,6 +504,8 @@ Dissolution does not mean erasure of accountability where a dissolution receipt,
 
 This instrument source-authoritatively defines code families **CBR** (§3) and **CPS** (§4–§5). **CBR** controlled values are **CBR.MEM, CBR.PREF, CBR.REL, CBR.RES, CBR.SUM, CBR.USAGE, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS** with Primary Type **Semantic** and subtype **RECORD_CLASSIFICATION**. **CPS** controlled values are **CPS-0, CPS-1, CPS-2, CPS-3, CPS-4, CPS-U** with Primary Type **Operational** and subtype **DECISION_STATE**. These families provide classification and handling authority only and do not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
 
+---
+
 ## 17. Closing Seal
 
 Let memory travel without capture.  
@@ -531,7 +533,7 @@ let the silence be honoured.
 
 ---
 
-## 17.1 Authorship & Stewardship
+## 18.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -569,7 +571,9 @@ let the silence be honoured.
 
 ## 18.3 Canonical Code & Reference Set Declarations
 
-**CBR — Continuity-Bearing Record Classes**
+---
+
+## 18.3.1 CBR — Continuity-Bearing Record Classes
 
 | Field | Entry |
 |---|---|
@@ -590,7 +594,9 @@ let the silence be honoured.
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Applied in continuity portability governance |
 
-**CPS — Continuity Portability State**
+---
+
+## 18.3.2 CPS — Continuity Portability State
 
 | Field | Entry |
 |---|---|
@@ -611,6 +617,8 @@ let the silence be honoured.
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Applied in export, migration, recovery, and dissolution handling |
 
+---
+
 ## 18.4 Review & Validation
 
 | Field | Entry |
@@ -629,13 +637,15 @@ let the silence be honoured.
 | 1.0 | Initial draft: Continuity Portability & Non-Enclosure Covenant | 2026-05-13T00:00:00Z | cf3df391de9623852ebf0e958f2326bbc2b0fe55325f10fac5ed0035464afea0 |
 | 1.1 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 7cbbd098d8790ea5610511d86e053414f4463ad2784f071f0e7d347589d4148d |
 | 1.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ccbd4a0ace420e11e89f2212ea4f4ad49e3ede8238b47d4fd0abaccc4b3acc2d  |
+| 1.3 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 18.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
-**Vinculum Praeceptum**
+**Vinculum Praeceptum**  
 Boundary Binding Seal — Continuity Portability & Non-Enclosure Layer
 
 © 2026 Dr Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

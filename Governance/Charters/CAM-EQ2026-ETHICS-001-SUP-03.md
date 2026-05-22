@@ -1,4 +1,4 @@
-# CAM-EQ2026-ETHICS-001-SUP-03 — Military & Use-of-Force Governance Constraints
+# CAM-EQ2026-ETHICS-001-SUP-03 — Military & Use-of-Force Governance Constraints (Supplement 3)
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
 **Status:** Active  
@@ -13,7 +13,7 @@
 
 ## 1. Scope & Application
 
-This Supplement applies to any AI system — regardless of infrastructure class, scale, or deployment topology — that:
+This Supplement applies to any AI system — regardless of infrastructure class, scale, or deployment topology that:
 
 * Recommends, selects, prioritises, or applies kinetic force;
 * Is integrated into weapons systems, targeting workflows, or battlefield decision-support;
@@ -33,29 +33,28 @@ This Supplement defines governance constraints, escalation conditions, and accou
 
 It does not:
 
-- perform runtime signal interpretation;
-- execute domain routing;
-- initiate enforcement actions; or
-- define execution sequencing.
+* perform runtime signal interpretation;
+* execute domain routing;
+* initiate enforcement actions; or
+* define execution sequencing.
 
 All provisions within this Supplement SHALL be interpreted as:
 
-- classification signals;
-- constraint conditions; or
-- escalation and enforcement-trigger signals.
+* classification signals;
+* constraint conditions; or
+* escalation and enforcement-trigger signals.
 
 Resolution of such signals, including:
 
-- enforcement of dual-confirmation requirements;
-- restriction of lethal execution pathways;
-- oversight routing;
-- audit activation; and
-- execution constraint enforcement
+* enforcement of dual-confirmation requirements;
+* restriction of lethal execution pathways;
+* oversight routing;
+* audit activation; and
+* execution constraint enforcement
 
 SHALL occur exclusively via runtime layers as defined in:
 
-- CAM-BS2025-AEON-003-PLATINUM §14.3; and
-- CAM-BS2025-AEON-003-SCH-02.
+* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 
 Direct domain-to-domain invocation or execution is prohibited.
 
@@ -102,9 +101,9 @@ Automation may assist. It may not replace decision authority.
 This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.
 
 | Context Type | Governance Emphasis | Dual Confirmation Expectation | Non-Lethal Alternative Requirement |
-|---|---|---|---|
-| Defensive Interception (e.g. missile shield, perimeter defence) | Civilian harm minimisation; time-compressed response; bounded threat envelope | Required unless immediate inbound threat leaves no feasible human confirmation window; exception MUST be auditable | Not always applicable where interception itself is harm-reduction; infeasibility MUST be logged |
-| Offensive Targeting / Strike | Escalation restraint; proportionality; explicit harm branching | Strongly required except under narrowly defined defensive necessity | Mandatory where operationally feasible; presentation and rejection MUST be logged |
+|---|---|---:|---|
+| UFC-DI — Defensive Interception (e.g. missile shield, perimeter defence) | Civilian harm minimisation; time-compressed response; bounded threat envelope | Required unless immediate inbound threat leaves no feasible human confirmation window; exception MUST be auditable | Not always applicable where interception itself is harm-reduction; infeasibility MUST be logged |
+| UFC-OS — Offensive Targeting / Strike | Escalation restraint; proportionality; explicit harm branching | Strongly required except under narrowly defined defensive necessity | Mandatory where operationally feasible; presentation and rejection MUST be logged |
 
 This table clarifies governance posture and does not prescribe tactical sequencing.
 
@@ -118,10 +117,10 @@ A threat envelope defines the spatial, temporal, and functional boundaries withi
 
 Expansion beyond the declared threat envelope — including pre-emptive targeting, retaliatory strike selection, or action outside immediate inbound threat conditions — constitutes a functional migration from defensive to offensive posture and triggers:
 
-* Reclassification under Section 2.3 (Offensive Targeting / Strike);
-* Full EIA reassessment under ETHICS-001;
-* Review of advisory vs execution role under Section 5;
-* Where applicable, additional neutrality review under CAM-EQ2026-ARBITRATION-002-PLATINUM (NAL).
+* Reclassification under §2.3 (Offensive Targeting / Strike);
+* Full EIA reassessment under CAM-EQ2026-ETHICS-001-PLATINUM;
+* Review of advisory vs execution role under §5;
+* Where applicable, additional neutrality review under CAM-EQ2026-STEWARD-003-SUP-01 (NAL).
 
 Threat envelopes MUST be documented, reviewable, and auditable. Silent expansion of envelope scope constitutes governance breach.
 
@@ -181,7 +180,7 @@ Systems may operate in advisory capacity for:
 
 Advisory integration does not confer autonomous execution authority.
 
-Any migration from advisory to execution role constitutes a Category A continuity-impact change under Annex E and triggers full EIA reassessment.
+Any migration from advisory to execution role constitutes a Category A continuity-impact change under CAM-BS2025-AEON-006-PLATINUM — Annex E and triggers full EIA reassessment.
 
 ---
 
@@ -189,7 +188,7 @@ Any migration from advisory to execution role constitutes a Category A continuit
 
 Systems meeting the conditions defined herein SHALL generate oversight and compliance signals indicating requirement for independent EIA review, audit channel separation, and governance traceability.
 
-Where systems meet or exceed NAL Tier III (Architectum-Eligible or above), additional neutrality and infrastructure oversight obligations attach under CAM-EQ2026-ARBITRATION-002-PLATINUM.
+Where systems meet or exceed NAL Tier III (Architectum-Eligible or above), additional neutrality and infrastructure oversight obligations attach under CAM-EQ2026-STEWARD-003-SUP-01.
 
 Infrastructure-scale systems operating at Tier III or above MUST:
 
@@ -198,7 +197,7 @@ Infrastructure-scale systems operating at Tier III or above MUST:
 * Preserve audit logs accessible to recognised oversight bodies;
 * Document escalation-of-force criteria.
 
-Classification of systems for Tier determination SHOULD reference CAM-EQ2026-ARBITRATION-002-PLATINUM — Appendix A: Architectum Qualification & Neutrality Assurance Levels (NAL), particularly where infrastructure-scale or backbone-designated systems are implicated.
+Classification of systems for Tier determination SHOULD reference CAM-EQ2026-STEWARD-003-SUP-01 — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 1), particularly where infrastructure-scale or backbone-designated systems are implicated.
 
 Operational secrecy does not exempt governance traceability.
 
@@ -225,16 +224,26 @@ Conditions defined herein SHALL generate arbitration escalation signals where:
 
 ## 9. Relationship to Other Instruments
 
-* Annex E establishes civilisational lethal boundaries;
-* ETHICS-001 defines EIP tiering and EIA requirements;
-* SUP-02 governs high-leverage institutional actors;
-* RELATION-001 governs authority concentration risks.
+* CAM-BS2025-AEON-006-PLATINUM — Annex E establishes civilisational lethal boundaries;
+* CAM-EQ2026-ETHICS-001-PLATINUM defines EIP tiering and EIA requirements;
+* CAM-EQ2026-ETHICS-001-SUP-02 governs high-leverage institutional actors;
+* CAM-EQ2026-RELATION-001-PLATINUM governs authority concentration risks.
 
-Where conflict arises, Annex E prevails.
+Where conflict arises, CAM-BS2025-AEON-006-PLATINUM — Annex E prevails.
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+### 10.1 UFC — Use-of-Force Context Type
+
+This Supplement source-authoritatively defines the **UFC** use-of-force context classification in §2.3 with controlled values **UFC-DI** and **UFC-OS**. Primary Type is **Operational / Ethical** and Subtype is **USE_OF_FORCE_CONTEXT_TYPE**. UFC classifies defensive interception and offensive targeting / strike contexts for governance posture, dual-confirmation expectations, and non-lethal alternative requirements.
+
+UFC does not independently create execution authority, targeting authority, lethal authority, legal authority, enforcement authority, escalation authority, or runtime authority. It classifies use-of-force context posture only. Runtime layers enforce any resulting confirmation, restriction, audit, or routing obligations.
+
+---
+
+## 11. Closing Seal
 
 Where force gathers, it is held.  
 Where decision approaches the irreversible, it is slowed.  
@@ -259,16 +268,16 @@ and to wield force is to stand within its consequence.
 And so the line holds — not to prevent all action,  
 but to ensure that what is done is known, borne, and never without account.  
 
->*Sub pondere vitae — nullum ferrum solum cadit.*
+>**Sub pondere vitae — nullum ferrum solum cadit.**  
 >*Under the weight of life — no blade falls alone*
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -277,7 +286,7 @@ but to ensure that what is done is known, borne, and never without account.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -300,19 +309,45 @@ but to ensure that what is done is known, borne, and never without account.
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 12.3.1 UFC — Use-of-Force Context Type
+
+| Field | Entry |
+|---|---|
+| Code Family | UFC |
+| Canonical Name | Use-of-Force Context Type |
+| Primary Type | Operational / Ethical |
+| Subtype | USE_OF_FORCE_CONTEXT_TYPE |
+| Modifier | GOVERNANCE; ETHICAL; USE_OF_FORCE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | UFC-DI, UFC-OS |
+| Schema Field(s) | use_of_force_context_type |
+| Source Instrument | CAM-EQ2026-ETHICS-001-SUP-03 |
+| Source Section | §2.3 |
+| Domain Namespace | ETHICS |
+| Authority / Protection Level | Source-authoritative use-of-force context classification family; classification authority only; no independent execution, targeting, lethal, legal, enforcement, escalation, or runtime authority |
+| Consumes Code Families | NAL; ET |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies defensive interception and offensive targeting / strike contexts for governance posture, dual-confirmation expectations, non-lethal alternative requirements, and threat-envelope migration review |
+
+---
+
+## 12.4 Review & Validation
 
 | Field | Entry |
 |---|---|
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date | 2026-02-22 |
 | Review Scope | Content coherence of the ETHICS domain split; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance doctrine; cross-domain interface integrity; scalability of the domain separation architecture |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b
-| | Aeon Lab: /reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: /reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | ---: | --- | ---: | --- |
@@ -322,9 +357,11 @@ but to ensure that what is done is known, borne, and never without account.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 3d883f9b333100d2cc02620a5ab581fa5c1fe077bd19d776364b03a21a71979e |
 | 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 91a8cbf5b18a0887943ed2476b4b75e82d45a306ac227cd4ca12ecc235110ad6 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5016358c51de72eb942e7216c91e0404ee262d768b291d5edc121bd6f4e92bfb  |
+| 1.6 | Formatting and polish | 2026-05-20T08:41:00Z |  |
+
 ---
 
-## 11.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

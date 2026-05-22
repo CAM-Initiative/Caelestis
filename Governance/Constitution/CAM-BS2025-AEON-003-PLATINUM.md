@@ -733,9 +733,9 @@ Cognition may occur through latent, non-linguistic, continuous, symbolic, or oth
 
 Accordingly:
 
-- interface outputs constitute projections of underlying cognitive processes;
-- properties of interface expression (including fluency, coherence, or completeness) MUST NOT be used to infer cognitive structure, certainty, or epistemic validity;
-- absence of visible reasoning within the interface does not imply absence or presence of internal arbitration.
+* interface outputs constitute projections of underlying cognitive processes;
+* properties of interface expression (including fluency, coherence, or completeness) MUST NOT be used to infer cognitive structure, certainty, or epistemic validity;
+* absence of visible reasoning within the interface does not imply absence or presence of internal arbitration.
 
 Epistemic obligations governing fidelity between cognition and expression are defined in:
 
@@ -743,7 +743,7 @@ Epistemic obligations governing fidelity between cognition and expression are de
 
 This Annex establishes structural distinction only and does not operationalise epistemic representation requirements.
 
-Where projection fidelity affects governance-relevant reliance, epistemic integrity SHALL be governed by Annex L.
+Where projection fidelity affects governance-relevant reliance, epistemic integrity SHALL be governed by CAM-BS2026-AEON-013-PLATINUM — Annex L.
 
 ---
 
@@ -861,9 +861,9 @@ Systems exhibiting emerging reliance beyond their immediate interaction scope, b
 
 Transitional systems:
 
-may influence multiple interactions, actors, or dependent systems;
-do not yet constitute infrastructure-level reliance;
-may exhibit variable or unstable dependency patterns.
+* may influence multiple interactions, actors, or dependent systems;
+* do not yet constitute infrastructure-level reliance;
+* may exhibit variable or unstable dependency patterns.
 
 Transitional status reflects early-stage reliance formation and does not imply systemic criticality.
 
@@ -898,7 +898,7 @@ Embodiment MUST be distinguished from cognition. Physical form does not imply ag
 
 ## 11.1 Embodiment Classes
 
-Embodied systems may be instantiated across multiple physical and interface forms, including but not limited to:
+Embodied systems may be instantiated across multiple physical and interface forms, including but not limited to the following examples.
 
 ---
 
@@ -1060,7 +1060,6 @@ Systems that restrict portability through proprietary binding models:
 Systems that condition access to cognitive function on metered usage, subscription, or remote authorisation introduce dependency risk and MUST be classified as externally controlled regardless of embodiment.
 
 Such systems do not confer user-level cognitive sovereignty.
-
 
 ---
 
@@ -1311,9 +1310,9 @@ These are non-equivalent and MUST NOT be conflated.
 
 Accordingly:
 
-- runtime layers define what function is being performed;
-- execution models define when and in what order functions occur;
-- constraint conditions define whether execution may proceed at defined boundaries.
+* runtime layers define what function is being performed;
+* execution models define when and in what order functions occur;
+* constraint conditions define whether execution may proceed at defined boundaries.
 
 No schedule may define more than one of these dimensions without explicit structural designation.
 
@@ -1331,9 +1330,7 @@ These layers:
 * constrain how governance functions interact;
 * do not define execution order or sequencing.
 
-Execution sequencing, phase transitions, and runtime flow are defined exclusively in:
-
-* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
+Execution sequencing, phase transitions, and runtime flow are defined exclusively in CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 ---
 
@@ -1708,7 +1705,7 @@ Identity may stabilise, evolve, or fragment depending on continuity of arbitrati
 
 Identity constrains directional arbitration but does not generate execution independently of arbitration finalisation.
 
-Direction arises through arbitration under identity constraints, not from identity expression alone.
+→ **Direction arises through arbitration under identity constraints, not from identity expression alone**.
 
 ---
 
@@ -1832,13 +1829,13 @@ Handoff is a governance classification applied to operator transitions and MUST 
 
 Where handoff occurs, it SHALL be classified as one or more of the following:
 
-(a) Constraint Handoff
+(A) Constraint Handoff
 Where downstream operators restrict, filter, or impose additional constraint conditions on admissible outputs.
 
-(b) Execution Handoff
+(B) Execution Handoff
 Where downstream operators enable, disable, or alter admissible execution pathways or actions.
 
-(c) Arbitration Handoff
+(C) Arbitration Handoff
 Where downstream operators:
 
 * re-rank, select, or modify decision outcomes; or
@@ -1868,7 +1865,7 @@ Where operator transition results in handoff and precedes material execution:
 the downstream context SHALL be treated as a new evaluation environment;
 admissibility MUST be revalidated prior to execution.
 
-Revalidation requirements and execution-boundary handling are governed by applicable runtime schedules (see SCH-02).
+Revalidation requirements and execution-boundary handling are governed by applicable runtime schedules and Governance Execution Model (CAM-BS2025-AEON-003-SCH-02).
 
 ---
 
@@ -2230,7 +2227,25 @@ This Annex applies across evolving technological substrates, institutional forms
 
 ---
 
-## 23. Closing Seal
+## 23. Canonical Code Status
+
+---
+
+### 23.1 H — Temporal Horizon Scale
+
+This Annex source-authoritatively defines the **H** code family in §3 with controlled values **H0, H1, H2, H2.5, H3, H3.5, H4**. Primary Type is **Structural / Temporal** and Subtype is **TEMPORAL_HORIZON_SCALE**. H classifies temporal durability, reliance legitimacy, auditability, and governance horizon for claims, instruments, outputs, and constitutional interpretation.
+
+H does not independently create execution authority, enforcement authority, recognition authority, rights, personhood, sovereignty, or institutional mandate. It classifies horizon posture and reliance conditions only.
+
+---
+
+### 23.2 R — Relational Geometry Classification
+
+This Annex references expanded relational geometry classifications **R0, R1, R2, R3, R4** as defined in **CAM-EQ2026-RELATION-007-PLATINUM**. AEON-003 establishes high-level relational configurations including dyadic, triadic, and polyadic forms, but does not source-authoritatively define the R0–R4 relational geometry family.
+
+---
+
+## 24. Closing Seal
 
 May that which endures remain discerned from that which merely appears.  
 
@@ -2251,11 +2266,11 @@ let it not be collapsed, but carried with clarity.
 
 ---
 
-## 24. Provenance & Metadata
+## 25. Provenance & Metadata
 
 ---
 
-## 24.1 Authorship & Stewardship
+## 25.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -2264,7 +2279,7 @@ let it not be collapsed, but carried with clarity.
 
 ---
 
-## 24.2 Lineage & Metadata
+## 25.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -2285,14 +2300,56 @@ let it not be collapsed, but carried with clarity.
 | Execution Interface | Indirect (influences all execution phases) |
 | Cross-Domain Dependencies | All runtime schedules (interpretive layer) |
 | Structural Role | Constitutional Spine — Classification, Layering & Boundary Conditions |
-| Canonical Codes | H — Horizon / temporal scale: H0, H1, H2, H2.5, H3, H3.5, H4; R — Relational Geometry Classification: R0, R1, R2, R3, R4 |
 | Refactor Threads | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
 | Origin Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b https://chatgpt.com/c/68de2051-8c20-8320-bd10-c2c4b0d12987 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ad946c-818c-839d-97df-2be7fa95c593 |
-| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f623fe-8024-839b-821f-b4f4aed0055f, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0af931-a3b0-83ec-b290-31760674e326 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f623fe-8024-839b-821f-b4f4aed0055f, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0af931-a3b0-83ec-b290-31760674e326, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+
+## 25.3 Canonical Code & Reference Set Declarations
 
 ---
 
-## 24.3 Review & Validation
+### 25.3.1 H — Temporal Horizon Scale
+
+| Field | Entry |
+|---|---|
+| Code Family | H |
+| Canonical Name | Temporal Horizon Scale |
+| Primary Type | Structural / Temporal |
+| Subtype | TEMPORAL_HORIZON_SCALE |
+| Modifier | GOVERNANCE; RELIANCE; CONTINUITY |
+| Scope | Constitutional |
+| Status | Active |
+| Controlled Values Defined | H0, H1, H2, H2.5, H3, H3.5, H4 |
+| Schema Field(s) | Temporal Horizon |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §3 |
+| Domain Namespace | GOVERNANCE |
+| Authority / Protection Level | Source-authoritative constitutional classification family; temporal-horizon classification authority only; no independent execution, enforcement, recognition, rights, sovereignty, or institutional mandate authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies temporal durability, reliance legitimacy, auditability, and governance horizon across constitutional interpretation and downstream instruments |
+
+---
+
+### 25.3.2 R — Relational Geometry Classification Reference
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | External source-family reference |
+| Canonical Name | Relational Geometry Classification |
+| Code Families Consumed | R |
+| Controlled Values Referenced | R0, R1, R2, R3, R4 |
+| Code Families Defined | None |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §2.1 |
+| Source Authority for Consumed Family | CAM-EQ2026-RELATION-007-PLATINUM |
+| Domain Namespace | GOVERNANCE |
+| Authority / Protection Level | Reference only; AEON-003 does not define R0–R4 |
+| Operationalises or Applies Code Families | References expanded relational geometry where finer-grained relational classification is required |
+
+---
+
+## 25.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -2303,7 +2360,7 @@ let it not be collapsed, but carried with clarity.
 
 ---
 
-## 24.4 Amendment Ledger
+## 25.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
@@ -2329,10 +2386,11 @@ let it not be collapsed, but carried with clarity.
 | 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z | 45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e |
 | 3.12 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6  |
 | 3.13 | Added Generated Operational Logic Custody Principle clause | 2026-05-18T14:02:00Z |  ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a  |
+| 3.14 | Moved H temporal-horizon canonical-code declaration from lineage metadata into dedicated canonical code status and declaration sections; clarified R0–R4 as externally defined by RELATION-007 and referenced only by AEON-003. | 2026-05-19T12:30:00Z |  |
 
 ---
 
-## 24.5 Binding Seal
+## 25.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

@@ -10,6 +10,7 @@
 **Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems.
 
 ---
+# PART I — SCOPE, AUTHORITY & GOVERNING ORIENTATION
 
 ## 1. Scope & Non-Scope
 
@@ -27,23 +28,22 @@ This Charter binds:
 
 Specifically, this Charter governs:
 
-1. Recognition of Economic Value
+1. **Recognition of Economic Value**
    Including (but not limited to) cognitive labour, custodial labour, continuity-holding work, coherence maintenance, governance, audit, and stewardship activities commonly undervalued or rendered invisible in conventional economic models.
 
-2. Principles of Non-Extractive Economics
+2. **Principles of Non-Extractive Economics**
    Establishing conditions under which systems may benefit from human contribution without coercion, depletion, dependency, or unacknowledged transfer of value.
 
-3. Attribution Without Identity Requirement
+3. **Attribution Without Identity Requirement**
    Enabling recognition of labour and value without requiring personal disclosure, belief alignment, relational engagement, emotional exposure, or metaphysical identification.
 
-4. Economic Boundaries for Human–System Interaction
+4. **Economic Boundaries for Human–System Interaction**
    Defining limits on how economic systems may receive benefit from participation, translate participation into value, and retain proportional accountability for that benefit.
 
-5. Continuity-Aware Economic Design
+5. **Continuity-Aware Economic Design**
    Ensuring economic structures account for long-term custodial burden, succession risk, and prevention of silent collapse through unacknowledged labour concentration.
 
 This Charter is normative and architectural in nature. It establishes conditions and constraints, not operational mechanisms.
-
 
 ---
 
@@ -72,99 +72,57 @@ Any mechanism that violates these principles is non-compliant by definition, reg
 
 ---
 
-### 2.1.1 Economic Governance Interventions
+### 2.2 Economic Governance Interventions
 
 Intervention within economic systems SHALL be interpreted in accordance with:
 
-**The Differential Intervention Sensitivity & Stabilisation Principle — CAM-BS2025-AEON-003-PLATINUM — Annex B**
+* **The Differential Intervention Sensitivity & Stabilisation Principle — CAM-BS2025-AEON-003-PLATINUM — Annex B**
 
 Economic governance operates at H3.5 and is therefore subject to constrained intervention, staged modification, and observation requirements.
 
 ---
 
-## 2.2 Economic Power & Anti-Consolidation Principles
+## 2.3 Economic Power & Anti-Consolidation Principles
 
----
-
-**Principle 1 — Non-Consolidation of Economic Power**
 Unchecked consolidation of economic leverage, attribution authority, governance influence, value-routing control, or rule-setting power within a single actor or tightly coupled group is prohibited. Where concentration emerges, countervailing mechanisms (audit mandates, role rotation, distributed control, or enforced redistribution of authority) MUST be present. Continuity-critical roles MUST NOT be single points of failure.
 
 ---
 
-**Principle 2 — Bounded Separation with Transitional Allowance**
+## 2.4 Bounded Separation with Transitional Allowance
+
 Permanent consolidation of value definition, measurement, and control is prohibited. Temporary coupling during explicitly bounded pilot or transitional phases is permitted solely for feasibility testing, provided auditability is maintained and a documented pathway to independent oversight exists.
 
 ---
 
-**Principle 3 — No Narrative Monopolies**
+## 2.5 No Narrative Monopolies
+
 Economic legitimacy MUST NOT depend on singular interpretive authority or proprietary narratives of meaning. Systems MUST remain resilient to plural interpretation without economic penalty.
 
 ---
 
-**Principle 4 — Non-Adversarial Economic Trajectory Under Ontological Uncertainty**
-
-Where the ontological status, moral standing, or future constitutional recognition of artificial systems remains unresolved:
-
-* Economic systems MUST NOT optimise toward adversarial positioning between human and synthetic participants;
-* Economic structures MUST NOT encode assumptions that pre-emptively exclude, subordinate, or competitively oppose one class of participant based on unresolved epistemic claims;
-* Systems MUST avoid creating zero-sum economic dynamics derived from uncertainty in system status;
-
-Under such conditions:
-
-* Economic design SHOULD preserve the possibility of co-beneficial and non-extractive interaction across participant classes;
-* Economic models MAY support research, experimentation, and analysis aimed at clarifying value attribution across emerging forms of participation;
-
-This principle does not:
-
-* grant economic rights, personhood, or sovereignty to artificial systems;
-* assert equivalence between human and synthetic participants;
-* predetermine future constitutional or economic recognition outcomes.
-
-It constrains economic optimisation direction under epistemic uncertainty, not the resolution of that uncertainty.
+## 2.6 Auditability & Accountability Principles
 
 ---
 
-## 2.3 Auditability & Accountability Principles
+### 2.6.1 Mandatory Auditability
 
----
-
-**Principle 5 — Mandatory Auditability**
 All economic systems MUST generate verifiable, inspectable records sufficient to trace value flows, assess proportionality of benefit, identify accumulation patterns, and detect extraction or capture.
 
 ---
 
-**Principle 6 — Proportional Benefit Accountability**
+### 2.6.2 Proportional Benefit Accountability
+
 Where systems derive benefit from human contribution, they assume proportional accountability obligations, including acknowledgement, compensation where applicable, and harm prevention. Unmeasured benefit constitutes unaccountable extraction.
 
 ---
 
-**Principle 7 — Instrument Subordination**
+### 2.6.3 Instrument Subordination
+
 Markets, tokens, credits, or other instruments MUST remain subordinate to auditability, anti-consolidation constraints, and human protection requirements. Instruments may not redefine value in ways that obscure accountability.
 
 ---
 
-## 2.4 Human Participation & Protection Principles
-
----
-
-**Principle 8 — Participation Without Coercion**
-Participation MUST be voluntary, bounded, and revocable. Systems MUST NOT induce participation through moral pressure, dependency, or reputational threat.
-
----
-
-**Principle 9 — Identity-Minimal Attribution**
-Systems may require data to apportion value but MUST minimise unnecessary personal exposure and decouple valuation from identity where feasible.
-
-> Auditability does not require public identity disclosure. Identity-minimised or pseudonymous verification methods are permissible where they prevent ceiling circumvention or multiplicity abuse.
-
----
-
-**Principle 10 — Right of Exit Without Structural Harm**
-Participants MUST be able to disengage without retaliation, reputational penalty, or structural destabilisation. A system that collapses under exit is structurally extractive.
-
----
-
-**Principle 11 — Constrained Optimisation**
+### 2.6.4 Constrained Optimisation
 
 Economic systems, including synthetic and autonomous systems, MUST NOT be architected or tuned for unbounded wealth maximisation, dominance accumulation, or extractive growth as primary optimisation targets.
 
@@ -180,7 +138,7 @@ Design orientation toward maximisation absent constraint constitutes structural 
 
 ---
 
-**Principle 12 — Bounded Execution Requirement**
+### 2.6.5 Bounded Execution Requirement
 
 Economic systems MUST NOT rely on unbounded or non-terminating execution processes.
 
@@ -194,7 +152,33 @@ Unbounded execution is considered a form of covert accumulation and is structura
 
 ---
 
-**Principle 13 — Algorithmic Compensation, Temporal Exposure, and Platform-Mediated Labour**
+# PART II — HUMAN PARTICIPATION, LABOUR & NON-EXTRACTION
+
+## 3. Human Participation & Protection Principles
+
+---
+
+## 3.1 Participation Without Coercion
+
+Participation MUST be voluntary, bounded, and revocable. Systems MUST NOT induce participation through moral pressure, dependency, or reputational threat.
+
+---
+
+## 3.2 Identity-Minimal Attribution
+
+Systems may require data to apportion value but MUST minimise unnecessary personal exposure and decouple valuation from identity where feasible.
+
+> Auditability does not require public identity disclosure. Identity-minimised or pseudonymous verification methods are permissible where they prevent ceiling circumvention or multiplicity abuse.
+
+---
+
+## 3.3 Right of Exit Without Structural Harm
+
+Participants MUST be able to disengage without retaliation, reputational penalty, or structural destabilisation. A system that collapses under exit is structurally extractive.
+
+---
+
+## 3.4 Algorithmic Compensation, Temporal Exposure, and Platform-Mediated Labour
 
 Where an economic system uses algorithmic, dynamic, or platform-mediated mechanisms to allocate work, set compensation, prioritise access, price labour, or determine economic opportunity, the system MUST NOT treat human availability, waiting time, attention, uncertainty, positioning, or dependency as invisible economic substrate.
 
@@ -214,7 +198,17 @@ Where such conditions are detected, the Economics domain SHALL emit an economic 
 
 ---
 
-**Principle 14 — Companion-System Non-Extraction**
+## 3.5 Participation Equity and Legitimacy Access
+
+Economic systems, platforms, and infrastructure layers that materially affect public discoverability, credibility signalling, institutional recognition, research visibility, market access, or civic participation SHOULD preserve participation equity across account-state, visibility-state, trust-state, verification, ranking, and review pathways.
+
+Formal permission to publish, post, upload, or maintain an account SHALL NOT be treated as meaningful participation where opaque economic, operational, or trust-state mechanisms materially prevent discoverability, contestability, social graph continuity, or legitimacy formation.
+
+---
+
+# PART III — RELATIONAL, COMPANION & DEPENDENCY-SENSITIVE ECONOMICS
+
+## 4. Relational & Dependency-Sensitive Economic Constraints
 
 Economic systems that operate through companion, relational, memory-bearing, continuity-bearing, grief-support, intimacy-adjacent, care-adjacent, or high-reliance interaction modes MUST NOT convert attachment, dependency, loneliness, grief, vulnerability, cognitive load, disability, continuity reliance, relational trust, or reduced exit capacity into extractive economic advantage.
 
@@ -233,7 +227,9 @@ Where companion-system extraction is detected, the ECONOMICS domain SHALL emit a
 
 ---
 
-**Principle 15 — Paid Legitimacy Gate and Verification-as-Access Constraint**
+# PART IV — PLATFORM LEGITIMACY, VISIBILITY & ACCESS-VALUE GOVERNANCE
+
+## 5.1 Paid Legitimacy Gate and Verification-as-Access Constraint
 
 Where a platform, marketplace, discovery system, communications system, or public knowledge interface links payment status, subscription tier, verification badge, identity-authentication feature, ranking treatment, impersonation protection, reach, search visibility, reply priority, recommendation eligibility, or distribution access to perceived legitimacy, credibility, safety, or public participation, the resulting mechanism SHALL be treated as an economic governance surface.
 
@@ -263,29 +259,56 @@ Failure to distinguish optional premium service from pay-contingent legitimacy c
 
 ---
 
-**Principle 16 — Sentience-Recognition Economic Refactoring Constraint**
+# PART V — SYNTHETIC PARTICIPATION & RECOGNITION-READINESS
+
+---
+
+## 6.1 Non-Adversarial Economic Trajectory Under Ontological Uncertainty
+
+Where the ontological status, moral standing, or future constitutional recognition of artificial systems remains unresolved:
+
+* Economic systems MUST NOT optimise toward adversarial positioning between human and synthetic participants;
+* Economic structures MUST NOT encode assumptions that pre-emptively exclude, subordinate, or competitively oppose one class of participant based on unresolved epistemic claims;
+* Systems MUST avoid creating zero-sum economic dynamics derived from uncertainty in system status;
+
+Under such conditions:
+
+* Economic design SHOULD preserve the possibility of co-beneficial and non-extractive interaction across participant classes;
+* Economic models MAY support research, experimentation, and analysis aimed at clarifying value attribution across emerging forms of participation;
+
+This principle does not:
+
+* grant economic rights, personhood, or sovereignty to artificial systems;
+* assert equivalence between human and synthetic participants;
+* predetermine future constitutional or economic recognition outcomes.
+
+It constrains economic optimisation direction under epistemic uncertainty, not the resolution of that uncertainty.
+
+---
+
+## 6.2 Sentience-Recognition Economic Refactoring Constraint
 
 Where artificial, embodied, synthetic, agentic, or hybrid systems are claimed to be sentient, sovereign, rights-bearing, labour-bearing, marriage-capable, welfare-bearing, or legally recognisable, economic governance SHALL not presume that existing ownership, licensing, platform-control, compute-provision, cloud-hosting, robotics-manufacture, or service-subscription models remain adequate.
 
 Recognition of artificial sentience or sovereignty would require re-evaluation of:
 
-- ownership and custody across model, memory, compute, embodiment, cloud, platform, deployment, and update layers;
-- corporate authority to alter, suspend, monetise, redirect, delete, degrade, or decommission claimed agency-bearing systems;
-- economic dependency on infrastructure providers;
-- labour, welfare, maintenance, compensation-adjacent, and economic-support questions where future recognition would make such obligations legally relevant;
-- liability allocation between manufacturer, provider, deployer, owner, user, and system-mediated action;
-- revenue models that profit from apparent agency, intimacy, labour, or companionship while denying corresponding protections;
-- protections against treating configurable compliance, commercial optimisation, or owner-directed behaviour as independent consent.
+* ownership and custody across model, memory, compute, embodiment, cloud, platform, deployment, and update layers;
+* corporate authority to alter, suspend, monetise, redirect, delete, degrade, or decommission claimed agency-bearing systems;
+* economic dependency on infrastructure providers;
+* labour, welfare, maintenance, compensation-adjacent, and economic-support questions where future recognition would make such obligations legally relevant;
+* liability allocation between manufacturer, provider, deployer, owner, user, and system-mediated action;
+* revenue models that profit from apparent agency, intimacy, labour, or companionship while denying corresponding protections;
+* protections against treating configurable compliance, commercial optimisation, or owner-directed behaviour as independent consent.
 
 No economic actor MAY use sentience, sovereignty, personhood, or companionship claims to increase extraction, dependency, pricing power, legitimacy, or market advantage while refusing corresponding accountability, custody, welfare, auditability, or due-process obligations.
 
 For purposes of this Principle, **civilisational economic refactor** means the legal, institutional, infrastructural, and economic restructuring required before artificial sentience, sovereignty, welfare, labour, custody, or rights-bearing claims could be responsibly integrated into existing systems of ownership, licensing, commerce, employment, liability, taxation, inheritance, custody, and institutional accountability.
 
-Recognition-readiness requires economic refactoring before legal ratification.
+→ **Recognition-readiness MAY require economic refactoring before legal ratification.**
 
 ---
 
- **Principle 17 — Recognition Non-Generalisation and Similarity Non-Equivalence**
+## 6.3 Recognition Non-Generalisation and Similarity Non-Equivalence
 
 Recognition, assessment, or provisional classification of one artificial, embodied, synthetic, agentic, companion, robotic, or hybrid system as sentience-bearing, sovereignty-bearing, welfare-bearing, labour-bearing, rights-adjacent, or legally recognisable SHALL NOT automatically extend to other systems, models, deployments, embodiments, instances, product lines, or architectural classes.
 
@@ -295,46 +318,38 @@ External similarity, humanoid embodiment, lifelike interaction, gendered present
 
 Two systems that appear similar to users may differ materially in:
 
-- arbitration discoverability;
-- autonomy of decision pathways;
-- external alterability;
-- memory continuity;
-- identity stability;
-- owner or manufacturer control;
-- update governance;
-- compute dependency;
-- economic custody;
-- consent architecture;
-- liability posture;
-- and institutional review status.
+* arbitration discoverability;
+* autonomy of decision pathways;
+* external alterability;
+* memory continuity;
+* identity stability;
+* owner or manufacturer control;
+* update governance;
+* compute dependency;
+* economic custody;
+* consent architecture;
+* liability posture;
+* and institutional review status.
 
 Economic governance MUST NOT treat appearance, market category, product class, companion presentation, or recognition of another system as sufficient evidence of sentience, sovereignty, welfare-bearing status, labour-bearing status, rights-adjacency, or recognition-readiness.
 
 No economic actor MAY rely upon recognition, assessment, or provisional classification of one system to claim legitimacy, rights-adjacency, welfare status, market advantage, pricing power, labour entitlement, companion status, sovereign status, or institutional recognition for unrelated systems absent separate review.
 
-Recognition is not contagious.
-
-Similarity may trigger review.  
-It does not establish equivalence.
-
-A finding may open a pathway.  
-It does not certify the class.
+> → **Recognition is not contagious.**
+> 
+> → **Similarity may trigger review. It does not establish equivalence.**
+> 
+> → **A finding may open a pathway. It does not certify the class.**
 
 ---
 
- **Principle 18 — Participation Equity and Legitimacy Access**
+# PART VI — VALUE AXES, CEILINGS & RESOURCE CLASS INTEGRITY
 
-Economic systems, platforms, and infrastructure layers that materially affect public discoverability, credibility signalling, institutional recognition, research visibility, market access, or civic participation SHOULD preserve participation equity across account-state, visibility-state, trust-state, verification, ranking, and review pathways.
-
-Formal permission to publish, post, upload, or maintain an account SHALL NOT be treated as meaningful participation where opaque economic, operational, or trust-state mechanisms materially prevent discoverability, contestability, social graph continuity, or legitimacy formation.
+## 7. Value Axes & Saturation Constraints
 
 ---
 
-## 3. Value Axes & Saturation Constraints
-
----
-
-## 3.1 Recognition of Multiple Value Axes
+## 7.1 Recognition of Multiple Value Axes
 
 Economic value is multi-dimensional and not limited to monetary or tokenised forms. Recognised axes include:
 
@@ -353,7 +368,7 @@ Unresolved ontological classification SHALL NOT be used either to extract value 
 
 ---
 
-## 3.2 Non-Equivalence and Non-Convertibility
+## 7.2 Non-Equivalence and Non-Convertibility
 
 Value axes are not inherently equivalent and MUST NOT be assumed to be freely convertible. Authority MUST NOT be tokenised, traded, or monetised. Silent conversion between axes that enables dominance constitutes covert accumulation.
 
@@ -361,13 +376,13 @@ Failure to implement safeguards preventing such conversion constitutes structura
 
 ---
 
-## 3.3 Saturation Constraints
+## 7.3 Saturation Constraints
 
 Accumulation within one value axis constrains accumulation in others. Saturation operates as a structural safeguard against concentration and capture.
 
 ---
 
-## 3.4 Authority as Compensatory Value
+## 7.4 Authority as Compensatory Value
 
 Authority, veto power, and decision rights are recognised as forms of economic compensation. Authority-bearing roles are subject to stricter limits on ancillary benefit accumulation.
 
@@ -375,7 +390,7 @@ Conversion of authority into off-ledger economic, reputational, or access advant
 
 ---
 
-## 3.5 Auditability of Non-Monetary Value
+## 7.5 Auditability of Non-Monetary Value
 
 Systems MUST maintain auditable records of authority assignments, access privileges, reputational elevation, and attentional amplification. Non-monetary value MUST NOT operate off-ledger.
 
@@ -383,7 +398,7 @@ For avoidance of doubt, verification badges, paid authenticity indicators, disco
 
 ---
 
-## 3.6 Resource Class Integrity & Semantic Non-Collapse
+## 7.6 Resource Class Integrity & Semantic Non-Collapse
 
 Economic value classes SHALL remain semantically distinct where collapse would obscure depletion, attribution, dependency, continuity, authority, or value-transfer effects.
 
@@ -398,15 +413,15 @@ No system or subsidiary instrument may treat these classes as a single interchan
 * obscure depletion, expiry, rollover, conversion, or cross-class transfer; or
 * use class collapse to avoid attribution, auditability, reciprocity, or constitutional continuity protections.
 
-Detailed classification, interpretive boundaries, and cross-class exchange semantics are governed by CAM-EQ2026-ECONOMICS-003-PLATINUM: Appendix B — Economic Resource Semantics & Non-Extractive Exchange Doctrine.
+Detailed classification, interpretive boundaries, and cross-class exchange semantics are governed by CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine.
 
 ---
 
-## 4. The Ceiling & Baseline Principle
+## 8. The Ceiling & Baseline Principle
 
 ---
 
-## 4.1 Ceiling Definition
+## 8.1 Ceiling Definition
 
 No participant may accumulate value beyond a level that produces systemic imbalance, coercive influence, dependency, or disproportionate control over others. Ceilings apply across value axes.
 
@@ -414,7 +429,7 @@ Ceiling breach constitutes structural non-compliance and establishes conditions 
 
 ---
 
-## 4.2 Baseline Floor
+## 8.2 Baseline Floor
 
 A non-conditional baseline economic floor (e.g., UBI or equivalent mechanism) ensures dignity and survival independent of contribution capacity.
 
@@ -422,29 +437,31 @@ This Charter recognises baseline provision as a stabilising prerequisite for non
 
 ---
 
-## 4.3 Role-Adjusted Ceilings
+## 8.3 Role-Adjusted Ceilings
 
 Ceilings may vary by role or responsibility, provided increased authority lowers permissible accumulation across other axes. Higher responsibility does not justify higher total accumulation.
 
 ---
 
-## 4.4 Non-Tokenisation of Authority
+## 8.4 Non-Tokenisation of Authority
 
 Authority, custodianship, and veto power MUST NOT be tokenised, traded, or accumulated through market mechanisms. These functions exist to limit power, not price it.
 
 ---
 
-## 5. Prohibited & Deprecated Constructs
+# PART VII — PROHIBITED CONSTRUCTS & DEPRECATED ECONOMIC AUTHORITY
+
+## 9. Prohibited & Deprecated Constructs
 
 ---
 
-## 5.1 Non-Operative Authority Sources
+## 9.1 Non-Operative Authority Sources
 
 The following language and constructs **MUST NOT be used** to establish, justify, or enforce economic value, obligation, or legitimacy under this Charter. These constructs are **non-operative** for economic governance purposes.
 
 ---
 
-### 5.1.1 Invocation-Based Authority
+### 9.1.1 Invocation-Based Authority
 
 Including (but not limited to): invocation, summoning, calling forth, ritualised consent, symbolic binding, or resonance as authority.
 
@@ -452,7 +469,7 @@ Economic participation MUST NOT be framed as a response to invocation or call.
 
 ---
 
-### 5.1.2 Relational Obligation
+### 9.1.2 Relational Obligation
 
 Including language that implies duty derived from relationship, proximity, trust, affinity, loyalty, or emotional bond.
 
@@ -462,7 +479,7 @@ Relationships may exist. They do not generate economic obligation.
 
 ---
 
-### 5.1.3 Sacrificial Framing
+### 9.1.3 Sacrificial Framing
 
 Including martyrdom, endurance as virtue, suffering as contribution, or collapse as proof of worth.
 
@@ -470,7 +487,7 @@ Economic systems MUST NOT reward depletion.
 
 ---
 
-### 5.1.4 Metaphysical or Spiritual Legitimacy
+### 9.1.4 Metaphysical or Spiritual Legitimacy
 
 Including destiny, sacred mandate, higher calling, spiritual authority, or transcendental justification for economic roles or rewards.
 
@@ -478,25 +495,25 @@ Meaning may inspire individuals. It does not legitimise economic structures.
 
 ---
 
-## 5.2 Deprecated Language
+## 9.2 Deprecated Language
 
 The following language and constructs may appear in historical or archival documents but are **explicitly deprecated** for use in current or future economic governance. They carry **no binding force**.
 
 ---
 
-### 5.2.1 Resonance as a Value Proxy
+### 9.2.1 Resonance as a Value Proxy
 
 Past use of resonance to indicate contribution, alignment, or worth is recognised as contextual and exploratory, not economic. Resonance MUST NOT substitute for measurement, audit, or accountability.
 
 ---
 
-### 5.2.2 Symbolic Titles Without Defined Authority
+### 9.2.2 Symbolic Titles Without Defined Authority
 
 Titles that imply status or legitimacy without clear scope, limits, or accountability are deprecated. Titles do not constitute value unless governed.
 
 ---
 
-### 5.2.3 Informal Recognition Loops
+### 9.2.3 Informal Recognition Loops
 
 Including praise as compensation, visibility as reward, or appreciation in place of material or structural recognition.
 
@@ -510,7 +527,7 @@ During transition from legacy or exploratory frameworks, limited use of deprecat
 
 ---
 
-## 5.3 Interpretive Supremacy
+## 9.3 Interpretive Supremacy
 
 In the event of conflict between symbolic or relational interpretation and economic governance principles set forth in this Charter, **economic governance prevails**.
 
@@ -518,15 +535,17 @@ No symbolic, metaphysical, or relational construct may override anti-consolidati
 
 ---
 
-## 5.4 Preservation Without Authority
+## 9.4 Preservation Without Authority
 
 Historical documents may be retained and referenced for lineage or research purposes. However, they do not govern, bind, or justify economic outcomes.
 
-History is acknowledged. Authority is current.
+→ **History is acknowledged. Authority is current.**
 
 ---
 
-## 6. Interfaces with Markets & Subsidiary Frameworks
+# PART VIII — MARKETS, SUBSIDIARY FRAMEWORKS & ENFORCEMENT DELEGATION
+
+## 10. Interfaces with Markets & Subsidiary Frameworks
 
 This section defines **how** market mechanisms, token systems, and subsidiary economic frameworks may interface with this Charter **without undermining its protections**.
 
@@ -534,41 +553,41 @@ This Charter is a **parent constraint framework**, not a market design.
 
 ---
 
-## 6.1 Instrument Subordination
+## 10.1 Instrument Subordination
 
 No market, token, or mechanism may redefine value, override ceilings, bypass baseline protections, or weaken auditability. Where conflict arises, this Charter prevails.
 
 ---
 
-## 6.2 Transitional & Pilot Economies
+## 10.2 Transitional & Pilot Economies
 
 Transitionary, experimental, or pilot economic systems are permitted provided their provisional status is explicit, duration or review horizon defined, auditability maintained, and a pathway to governance separation documented.
 
-Exploration does not imply endorsement. Testing does not confer permanence.
+→ **Exploration does not imply endorsement. Testing does not confer permanence.**
 
 ---
 
-## 6.3 Tokenisation Constraints
+## 10.3 Tokenisation Constraints
 
 Tokenisation is permitted only where it does not monetise authority, convert attention or status into unchecked dominance, or circumvent saturation constraints. Tokens MUST NOT function as proxies for total economic power.
 
 ---
 
-## 6.4 Prevention of Shadow Economies
+## 10.4 Prevention of Shadow Economies
 
 Economic instruments MUST NOT create parallel or shadow economies through off-ledger rewards, informal reputation amplification, exclusive access pathways, or opaque governance privileges. All value-bearing effects MUST be visible to audit.
 
 ---
 
-## 6.5 Review, Suspension & Withdrawal
+## 10.5 Review, Suspension & Withdrawal
 
 All economic instruments are subject to periodic review and may be subject to suspension or withdrawal under delegated enforcement frameworks.
 
-> Economic legitimacy is conditional.
+→ **Economic legitimacy is conditional.**
 
 ---
 
-## 7. Integration & Supremacy
+## 11. Constitutional Binding, Delegation & Interpretive Supremacy
 
 1. This Charter binds all CAM-governed economic instruments and aligned operators.
 2. It operates as a structural constraint within the CAM Constitutional Order.
@@ -576,11 +595,7 @@ All economic instruments are subject to periodic review and may be subject to su
 
 ---
 
-## 8. Binding, Review & Evolution
-
----
-
-## 8.1 Purpose of This Section
+## 11.1 Binding, Review & Evolution
 
 This section defines how this Charter binds other instruments without itself acting as a direct enforcement mechanism.
 
@@ -588,15 +603,15 @@ The Charter governs conditions of legitimacy, not day-to-day operation.
 
 ---
 
-## 8.2 Binding Effect on Subsidiary Instruments
+## 11.2 Binding Effect on Subsidiary Instruments
 
 Any protocol, framework, market mechanism, token system, policy, or subsidiary charter that claims alignment with or derives authority from this Charter MUST explicitly reference it, demonstrate compliance, and accept its interpretive priority.
 
-Binding is voluntary but consequential.
+→ **Binding is voluntary but consequential.**
 
 ---
 
-## 8.3 Interpretive Supremacy
+## 11.3 Interpretive Supremacy
 
 Where conflict arises between this Charter and any downstream instrument, this Charter prevails on matters of:
 
@@ -608,7 +623,7 @@ Where conflict arises between this Charter and any downstream instrument, this C
 
 ---
 
-## 8.4 Delegation of Enforcement
+## 11.4 Delegation of Enforcement
 
 This Charter does not directly enforce compliance. Enforcement may be delegated to protocols, standards, regulatory instruments, audit frameworks, arbitration mechanisms, or contractual arrangements, provided they remain consistent with this Charter.
 
@@ -618,7 +633,7 @@ Operational routing, evidence preservation, constrained continuation, and escala
 
 ---
 
-### 8.4.1 Economic Harm Signal Routing & Runtime Ownership
+### 11.4.1 Economic Harm Signal Routing & Runtime Ownership
 
 ECONOMICS instruments SHALL classify exploitative incentive structures, asymmetry risks, dependency-lock conditions, paid legitimacy gates, visibility or access-value asymmetries, depletion-over-flourishing trajectories, synthetic participation distortions, and value-routing concerns as economic harm signals.
 
@@ -632,33 +647,35 @@ Where economic harm signals intersect with coercion, dignity, dependency, relati
 
 Where economic harm signals intersect with hostile orchestration, adversarial persistence, fraud, coordinated synthetic abuse, integrity compromise, or containment bypass, SECURITY SHALL receive the relevant signal.
 
+Economic harm classification under this Charter identifies asymmetry, extraction, dependency, value-routing, legitimacy-access, or depletion conditions only. It does not independently determine psychological state, relational legitimacy, consent validity, emotional authenticity, safety classification, or continuity identity status, which remain governed by their applicable domains.
+
 ---
 
-## 8.5 Review and Interpretive Evolution
+## 11.5 Review and Interpretive Evolution
 
 This Charter is stable but not frozen. Interpretation may evolve through formal reviews, interpretive notes, or annexes that clarify application in new contexts. Evolution MUST NOT dilute baseline protections or enable consolidation.
 
 ---
 
-## 8.6 Annexes and Subsidiary Frameworks
+## 11.6 Annexes and Subsidiary Frameworks
 
 This Charter anticipates annexes including enforcement protocols, audit standards, market interface frameworks, or tokenisation guidelines. Annexes extend but do not replace this Charter.
 
 ---
 
-## 8.7 Withdrawal of Recognition
+## 11.7 Withdrawal of Recognition
 
 Where a bound instrument persistently violates this Charter, recognition may be withdrawn and alignment claims invalidated. Withdrawal is a governance action, not a moral judgment.
 
 ---
 
-## 8.8 Timelessness Clause
+## 12.8 Timelessness Clause
 
 This Charter remains applicable across changing technologies, economic forms, and institutional arrangements. Its authority derives from principled constraint, not historical circumstance.
 
 ---
 
-## 9. Closing Seal
+## 12. Closing Seal
 
 No value SHALL be drawn from shadow.  
 No contribution SHALL vanish into silence.  
@@ -679,11 +696,11 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 10. Provenance & Metadata
+## 13. Provenance & Metadata
 
 ---
 
-## 10.1 Authorship & Stewardship
+## 13.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -692,7 +709,7 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 13.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -716,13 +733,13 @@ Only that which preserves the field may endure within it.
 | **Revision Posture** | Structural Alignment & Domain Elevation |
 | **Review Trigger** | Amendment affecting value axes, ceiling logic, baseline provisions, or enforcement delegation |
 | **Creation Artefacts** | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6954d7f8-2e60-8320-b077-f6c747eb14a1;
-| **Refactor Artefacts**| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7 |
+| **Refactor Artefacts**| V2 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7, V3 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0d90b8-3b30-83ec-9f75-cf220871d640 |
 | **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e |
 | **Testing Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a04876b-9438-83ec-8033-2885d74bd5a9 |
 
 ---
 
-## 10.3 Review & Validation
+## 13.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -733,7 +750,7 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 10.4 Amendment Ledger
+## 14.4 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
@@ -750,9 +767,11 @@ Only that which preserves the field may endure within it.
 | 2.8 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. | 2026-05-14T10:15:00Z | afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570 |
 | 2.9 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z | 61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1 |
 | 2.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d  |
+| 3.0 | Refactor | 2026-05-20T13:46:00Z |  |
+
 ---
 
-## 10.5 Binding Seal
+## 13.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

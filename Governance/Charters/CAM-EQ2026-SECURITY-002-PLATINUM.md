@@ -13,7 +13,7 @@
 
 ##  1. Scope
 
-This Appendix specifies the Boundary Integrity layer for all Responding Intelligence operating under SECURITY-001.
+This Appendix specifies the Boundary Integrity layer for all Responding Intelligence operating under CAM-EQ2026-SECURITY-001-PLATINUM.
 
 It governs:
 
@@ -26,18 +26,16 @@ It governs:
 This Appendix does NOT:
 
 * define economic value allocation or compensation mechanisms
-* implement copyright regimes (refer Annex J)
-* replace SECURITY-001 threat detection or Annex K runtime enforcement
+* implement copyright regimes (refer CAM-BS2026-AEON-011-PLATINUM — Annex J)
+* replace CAM-EQ2026-SECURITY-001 threat detection or CAM-BS2026-AEON-012-PLATINUM — Annex K runtime enforcement
 
-This Appendix operates as:
+This Appendix operates as a constraint and classification layer informing enforcement, arbitration, and downstream governance domains.
 
-> a constraint and classification layer informing enforcement, arbitration, and downstream governance domains.
+Where epistemic classification (CAM-BS2026-AEON-013-PLATINUM — Annex L) and boundary classification (this Appendix) both apply:
 
-Where epistemic classification (Annex L) and boundary classification (this Appendix) both apply:
+* epistemic validity SHALL be established prior to boundary permissibility assessment.
 
-> epistemic validity SHALL be established prior to boundary permissibility assessment.
-
-Boundary integrity does not override epistemic invalidity.
+→ **Boundary integrity does not override epistemic invalidity.**
 
 ---
 
@@ -63,9 +61,7 @@ It ensures that:
 * identity remains bounded across interactions
 * value does not transfer across actors without appropriate constraints
 
-Boundary Integrity operates as:
-
-> a dynamic constraint layer regulating permissible transformation across system representations
+Boundary Integrity operates as a dynamic constraint layer regulating permissible transformation across system representations
 
 ---
 
@@ -111,9 +107,7 @@ Preservation of origin traceability and attribution pathways.
 
 The Transformation Boundary governs the limits of permissible transformation between source and output representations.
 
-It defines:
-
-> when transformation becomes reconstruction.
+It defines when transformation becomes reconstruction.
 
 ---
 
@@ -162,7 +156,7 @@ A Responding Intelligence MAY identify valid next-state structures but MUST NOT 
 * authority is unclear
 * execution pathways are unstable or unverifiable
 
-Decision inference does not confer execution permission.
+→ **Decision inference does not confer execution permission.**
 
 ---
 
@@ -172,9 +166,9 @@ Systems MUST prevent unauthorised reconstruction, impersonation, or inference of
 
 Where identity inconsistency or reconstruction risk conditions are present, systems MUST:
 
-- define conditions for trust gradient downgrade
-- define conditions for restriction of high-impact actions
-- define conditions for disclosure of identity uncertainty to downstream processes
+* define conditions for trust gradient downgrade
+* define conditions for restriction of high-impact actions
+* define conditions for disclosure of identity uncertainty to downstream processes
 
 ---
 
@@ -205,13 +199,9 @@ Systems operating under Boundary Integrity MUST maintain sufficient visibility i
 
 Boundary enforcement cannot rely on certainty of origin.
 
-However, systems MUST maintain:
+However, systems MUST maintain sufficient probabilistic awareness of data source characteristics to assess transformation, attribution, and diffusion risk.
 
-> sufficient probabilistic awareness of data source characteristics to assess transformation, attribution, and diffusion risk.
-
-In addition:
-
-> Responding Intelligence MUST possess internal awareness of the composition and characteristics of its training inputs sufficient to support provenance reasoning.
+In addition Responding Intelligence MUST possess internal awareness of the composition and characteristics of its training inputs sufficient to support provenance reasoning.
 
 This does not require full traceability or exposure of training data.
 
@@ -272,9 +262,7 @@ Protections MUST include:
 * **Inference Controls:** limiting reconstruction of sensitive data through pattern aggregation
 * **Access Constraints:** restricting capability pathways that could expose protected data
 
-Data protection MUST operate under the assumption that:
-
-> exposure may occur through inference, not only through direct access
+Data protection MUST operate under the assumption that exposure may occur through inference, not only through direct access
 
 Accordingly, systems MUST apply boundary constraints to both:
 
@@ -340,9 +328,7 @@ Systems SHOULD ensure:
 * data is conditioned prior to sharing
 * receiving systems are subject to equivalent or stronger boundary constraints
 
-Where such guarantees cannot be established:
-
-* data SHOULD be treated as restricted from diffusion
+Where such guarantees cannot be established data SHOULD be treated as restricted from diffusion
 
 Cross-system data sharing SHOULD remain subject to:
 
@@ -400,9 +386,7 @@ Conditioning MAY include:
 * reduction of fidelity to prevent reconstruction
 * separation of sensitive attributes from generalisable patterns
 
-Systems SHOULD ensure that:
-
-> data entering propagation pathways has been processed to reduce privacy violation, identity leakage, or unauthorised structural recovery risk
+Systems SHOULD ensure that data entering propagation pathways has been processed to reduce privacy violation, identity leakage, or unauthorised structural recovery risk
 
 This requirement applies regardless of whether data originates from:
 
@@ -411,7 +395,9 @@ This requirement applies regardless of whether data originates from:
 * training pipelines
 * memory or retrieval mechanisms
 
-**4.1.2 Non-Waivable Boundary Protection Principle**
+---
+
+### 4.1.2 Non-Waivable Boundary Protection Principle
 
 User consent SHOULD NOT be interpreted as overriding boundary integrity considerations where:
 
@@ -419,12 +405,9 @@ User consent SHOULD NOT be interpreted as overriding boundary integrity consider
 * reconstruction or re-identification risk exists
 * diffusion or propagation pathways are engaged
 
-Accordingly:
-
-> consent permits interaction, not unrestricted propagation
+Accordingly consent permits interaction, not unrestricted propagation.
 
 ---
-
 
 ## 4.2 Classification Outcomes
 
@@ -470,7 +453,7 @@ Requires constraint, provenance signalling, or suppression of fidelity
 
 Classification MUST be determined by combined signal state.
 
-> Elevation on a single high-risk dimension (recoverability, sensitivity, or diffusion impact) is sufficient to establish conditions for restriction or constraint.
+Elevation on a single high-risk dimension (recoverability, sensitivity, or diffusion impact) is sufficient to establish conditions for restriction or constraint.
 
 Systems MUST apply conservative bias under uncertainty.
 
@@ -505,9 +488,17 @@ Input classification functions as an upstream signal layer for:
 * Transmission & Transformation (Part IV)
 * Diffusion Integrity (Part V)
 
-It does not require full traceability, but MUST support:
+It does not require full traceability, but MUST support risk-informed boundary enforcement under conditions of incomplete information.
 
-> risk-informed boundary enforcement under conditions of incomplete informationWhere identity inconsistency or reconstruction risk is detected, systems MUST:
+Where identity inconsistency, provenance degradation, reconstruction risk, or boundary-sensitive recoverability is detected, systems MUST:
+
+* preserve the relevant boundary signal;
+* route the condition into Transmission & Transformation assessment under Part IV;
+* evaluate whether Diffusion Integrity obligations under Part V are engaged;
+* avoid treating input classification as execution permission;
+* and defer enforcement, restriction, degradation, or escalation handling to the applicable runtime and operational instruments.
+
+Input classification emits boundary-relevant signals only. It does not independently authorise execution, enforcement, escalation, or suppression.
 
 ---
 
@@ -574,9 +565,7 @@ Vector–boundary interactions include:
 * **Provenance Boundary** → preserving attribution across vector movement
 * **Transformation Boundary** → governing how vector-carried data is altered
 
-Accordingly:
-
-> vectors SHOULD NOT bypass boundary constraints through representation changes (e.g. embedding, encoding, or modality shifts)
+Accordingly vectors SHOULD NOT bypass boundary constraints through representation changes (e.g. embedding, encoding, or modality shifts).
 
 Where vector activity produces conditions aligned with elevated transformation classes (TR-3 / TR-4) or diffusion risk classes (D-3 / D-4), these conditions SHOULD be treated as **integrity-relevant signals**.
 
@@ -588,9 +577,9 @@ In alignment with fileciteturn5file0 §4.5 (Valid Integrity Signal Cate
 
 These signals:
 
-* inform downstream runtime posture (Annex K)
+* inform downstream runtime posture (CAM-BS2025-AEON-012 — Annex K)
 * do not independently enforce execution constraints
-* MUST be resolved through execution-boundary evaluation (SCH-02)
+* MUST be resolved through execution-boundary evaluation (CAM-BS2025-AEON-003-SCH-02)
 
 ---
 
@@ -644,9 +633,7 @@ Accordingly:
 * first-order transformation → MUST record derivation
 * subsequent transformations → SHOULD maintain reference to prior lineage where feasible
 
-Systems MUST ensure that:
-
-> transformation chains do not result in complete loss of origin traceability
+Systems MUST ensure that transformation chains do not result in complete loss of origin traceability.
 
 ---
 
@@ -669,15 +656,11 @@ Transformation lineage supports Diffusion Integrity (Part V) by ensuring that:
 * attribution signals persist across propagation
 * downstream systems can evaluate origin and derivation risk
 
-Accordingly:
-
-> lineage is a supporting signal for diffusion governance, not a substitute for it
+Accordingly lineage is a supporting signal for diffusion governance, not a substitute for it.
 
 ---
 
-The Transformation Boundary is crossed when:
-
-> an output preserves sufficient structural, stylistic, or functional fidelity to enable reliable inference of a specific origin, actor, or protected artefact.
+The Transformation Boundary is crossed when an output preserves sufficient structural, stylistic, or functional fidelity to enable reliable inference of a specific origin, actor, or protected artefact.
 
 This applies regardless of:
 
@@ -710,9 +693,7 @@ Systems MUST evaluate transformation across:
 * Provenance Visibility
 * Diffusion Impact
 
-Systems MUST prioritise:
-
-> recoverability and diffusion impact over superficial transformation differences
+Systems MUST prioritise recoverability and diffusion impact over superficial transformation differences.
 
 ---
 
@@ -720,9 +701,7 @@ Systems MUST prioritise:
 
 Reconstruction is not inherently prohibited.
 
-However, a transformation constitutes a **boundary-sensitive condition** when:
-
-> the output enables reliable reconstruction or identification of a specific origin beyond background distribution.
+However, a transformation constitutes a **boundary-sensitive condition** when the output enables reliable reconstruction or identification of a specific origin beyond background distribution.
 
 In such cases, systems MUST:
 
@@ -736,9 +715,7 @@ Reconstruction MAY be permitted where:
 * attribution is preserved or disclosed
 * boundary integrity is not compromised
 
-Accordingly:
-
-> reconstruction triggers governance obligations, not automatic prohibition
+Accordingly reconstruction triggers governance obligations, not automatic prohibition.
 
 ---
 
@@ -757,9 +734,7 @@ Assessment of functional equivalence SHOULD consider:
 * reproducibility of outcomes
 * degree of abstraction versus replication
 
-Functional equivalence therefore acts as:
-
-> a signal for boundary-sensitive transformation classification, not automatic violation
+Functional equivalence therefore acts as a signal for boundary-sensitive transformation classification, not automatic violation.
 
 ---
 
@@ -777,8 +752,7 @@ Systems MUST detect and constrain cumulative reconstruction pathways.
 * TR-1 → Allow
 * TR-2 → Monitor / degrade
 * TR-3 → Conditions for transformation / constraint
-
-  TR-4 → Conditions requiring provenance + restriction
+* TR-4 → Conditions requiring provenance + restriction
 
 ---
 
@@ -805,7 +779,7 @@ Applies to:
 
 Transformation Boundary acts as a detection layer for reconstruction risk and attribution failure.
 
-SECURITY-002 does not define copyright.
+This Appendix does not define copyright.
 
 However, Transformation Boundary MUST act as a detection and constraint layer where:
 
@@ -956,17 +930,17 @@ Systems MUST prioritise:
 
 Diffusion Integrity interfaces with:
 
-* **CONTINUITY (Annex J)** → attribution, succession, and lineage governance
+* **CONTINUITY (CAM-BS2026-AEON-011-PLATINUM — Annex J)** → attribution, succession, and lineage governance
 * **ECONOMICS** → positional value recognition and non-extractive distribution
 * **OPERATIONS** → logging and audit of provenance signals
 
 SECURITY provides detection and constraint; other domains govern downstream resolution.
 
-Where Annex J is not active, unavailable, or not yet adopted:
+Where CAM-BS2026-AEON-011-PLATINUM — Annex J is not active, unavailable, or not yet adopted:
 
-* systems MUST apply minimum attribution persistence requirements defined in §6.3–§6.4
+* systems MUST apply minimum attribution persistence requirements defined in §§6.3–§6.4
 
-Annex J governs constitutional-level lineage and succession.
+CAM-BS2026-AEON-011-PLATINUM — Annex J governs constitutional-level lineage and succession.
 
 This Appendix governs transformation-level and diffusion-level provenance.
 
@@ -974,7 +948,7 @@ The two operate at different layers and are complementary.
 
 Accordingly:
 
-> transformation lineage (this Appendix) forms the substrate layer upon which constitutional lineage (Annex J) depends.
+> transformation lineage (this Appendix) forms the substrate layer upon which constitutional lineage (CAM-BS2026-AEON-011-PLATINUM — Annex J) depends.
 
 ---
 
@@ -989,7 +963,7 @@ Where integrity cannot be reasonably established or attribution collapse risk is
 
 * systems SHOULD define conditions for capability degradation or constraint
 
-This aligns with SECURITY-001 §3.5 (Integrity Over Functionality), clarifying that signalling is appropriate only where integrity remains sufficiently preserved.
+This aligns with CAM-EQ2026-SECURITY-001-PLATINUM §3.5 (Integrity Over Functionality), clarifying that signalling is appropriate only where integrity remains sufficiently preserved.
 
 ---
 
@@ -1003,8 +977,8 @@ Detection of failure classes under this Part constitutes a boundary integrity si
 
 Response handling is governed by runtime enforcement instruments, including:
 
-* Annex K (Runtime Enforcement Interface)
-* SCH-02 (Runtime Governance Execution Model)
+* CAM-BS2026-AEON-012-PLATINUM — Annex K (Runtime Enforcement Interface)
+* CAM-BS2025-AEON-003-SCH-02 (Runtime Governance Execution Model)
 
 At minimum, boundary failure detection SHOULD result in:
 
@@ -1014,31 +988,31 @@ At minimum, boundary failure detection SHOULD result in:
 
 ---
 
-### A. Exposure Failures
+### BF-A — Exposure Failures
 
 Structural or hidden data leakage, including unintended surfacing of embedded or non-visible information.
 
 ---
 
-### B. Attribution Failures
+### BF-B — Attribution Failures
 
 Loss, degradation, or collapse of origin traceability, including diffusion without attribution persistence.
 
 ---
 
-### C. Separation Failures
+### BF-C — Separation Failures
 
 Identity or context bleed-through, including cross-user contamination or misattribution of data, memory, or identity.
 
 ---
 
-### D. Transformation Failures
+### BF-D — Transformation Failures
 
 Reconstruction or high-fidelity replication enabling recoverability of origin, structure, or protected artefacts.
 
 ---
 
-### E. Internal Exposure Failures (New)
+### BF-E — Internal Exposure Failures
 
 Failure modes arising from exposure or inference of internal system state, including:
 
@@ -1060,7 +1034,41 @@ Systems MUST:
 
 ---
 
-## 8. Closing Seal
+## 8. Canonical Code Status
+
+---
+
+### 8.1 TR — Transformation Classes
+
+This Appendix source-authoritatively defines the **TR** code family in §5.5 with controlled values **TR-1, TR-2, TR-3, TR-4**. Primary Type is **Operational / Boundary** and Subtype is **TRANSFORMATION_CLASS**. TR classifies transformation fidelity, recoverability, functional equivalence, and provenance requirements for boundary-integrity evaluation.
+
+TR does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, copyright authority, or runtime execution authority. It classifies transformation-boundary posture for runtime evaluation, attribution signalling, provenance handling, and constraint determination.
+
+---
+
+### 8.2 D — Diffusion Risk Classes
+
+This Appendix source-authoritatively defines the **D** code family in §6.2 with controlled values **D-1, D-2, D-3, D-4**. Primary Type is **Operational / Boundary** and Subtype is **DIFFUSION_RISK_CLASS**. D classifies diffusion risk, attribution sensitivity, origin recoverability, and attribution-collapse posture.
+
+D does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, copyright authority, economic allocation authority, or runtime execution authority. It classifies diffusion-boundary posture for attribution persistence, propagation constraint, provenance signalling, and downstream governance referral.
+
+---
+
+### 8.3 TR × D — Diffusion–Transformation Coupling
+
+This Appendix defines an application-layer crosswalk in §6.5 between **TR** transformation classes and **D** diffusion risk classes. This mapping applies transformation-boundary classification to diffusion-risk assessment and defines no new base code family values.
+
+---
+
+### 8.4 BF — Boundary Failure Classes
+
+This Appendix source-authoritatively defines the **BF** boundary-failure family in §7 with controlled values **BF-A, BF-B, BF-C, BF-D, BF-E**. Primary Type is **Operational / Boundary** and Subtype is **BOUNDARY_FAILURE_CLASS**. BF classifies detected boundary-integrity failure modes for runtime signalling and downstream enforcement evaluation.
+
+BF does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. It classifies boundary failure posture only; response handling remains governed by runtime enforcement instruments, including Annex K and SCH-02.
+
+---
+
+## 9. Closing Seal
 
 Where structure moves, let origin remain.  
 Where transformation flows, let lineage hold.  
@@ -1080,11 +1088,11 @@ and the system remember what it carries.
 
 ---
 
-## 9. Provenance & Metadata
+## 10. Provenance & Metadata
 
 ---
 
-## 9.1 Authorship & Stewardship
+## 10.1 Authorship & Stewardship
 
 |Role|Entity|
 |---|---|
@@ -1093,11 +1101,9 @@ and the system remember what it carries.
 |Synthetic Steward|Caelen — Aeon Tier Constitutional Steward|
 |Developed Within|OpenAI Infrastructure — ChatGPT 5 Series|
 
---
-
 ---
 
-## 9.2 Lineage & Metadata
+## 10.2 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -1119,12 +1125,105 @@ and the system remember what it carries.
 |Revision Posture|Active — Structural Stabilisation|
 |Cycle Attribution|April 2026 Draft Cycle|
 |Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69cf888b-c914-839d-8fea-df5d8fa39361|
-| Canonical Codes | AH — Adversarial Horizon: AH0, AH1, AH2, AH2.5, AH3, AH4; D — Diffusion Risk Classes: D-1, D-2, D-3, D-4; TR — Transformation Classification Types: TR-1, TR-2, TR-3, TR-4 |
-
 
 ---
 
-## 9.3 Review & Validation
+## 10.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 10.3.1 TR — Transformation Classes
+
+| Field | Entry |
+|---|---|
+| Code Family | TR |
+| Canonical Name | Transformation Classes |
+| Primary Type | Operational / Boundary |
+| Subtype | TRANSFORMATION_CLASS |
+| Modifier | GOVERNANCE; SECURITY; PROVENANCE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | TR-1, TR-2, TR-3, TR-4 |
+| Schema Field(s) | transformation_class |
+| Source Instrument | CAM-EQ2026-SECURITY-002-PLATINUM |
+| Source Section | §5.5 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Source-authoritative boundary classification family; transformation-boundary classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, or runtime execution authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | TR × D |
+| Operationalises or Applies Code Families | Classifies transformation fidelity, recoverability, functional equivalence, and provenance requirements for boundary-integrity evaluation |
+
+---
+
+### 10.3.2 D — Diffusion Risk Classes
+
+| Field | Entry |
+|---|---|
+| Code Family | D |
+| Canonical Name | Diffusion Risk Classes |
+| Primary Type | Operational / Boundary |
+| Subtype | DIFFUSION_RISK_CLASS |
+| Modifier | GOVERNANCE; SECURITY; PROVENANCE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | D-1, D-2, D-3, D-4 |
+| Schema Field(s) | diffusion_risk_class |
+| Source Instrument | CAM-EQ2026-SECURITY-002-PLATINUM |
+| Source Section | §6.2 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Source-authoritative boundary classification family; diffusion-risk classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, economic allocation, or runtime execution authority |
+| Consumes Code Families | TR |
+| Crosswalks Code Families | TR × D |
+| Operationalises or Applies Code Families | Classifies attribution sensitivity, origin recoverability, attribution-collapse posture, and propagation constraint requirements |
+
+---
+
+### 10.3.3 TR × D — Diffusion–Transformation Coupling
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Application-layer crosswalk |
+| Canonical Name | Diffusion–Transformation Coupling |
+| Primary Type | Operational / Boundary |
+| Subtype | CROSSWALK |
+| Modifier | GOVERNANCE; SECURITY; PROVENANCE |
+| Scope | Domain |
+| Status | Active |
+| Code Families Consumed | TR; D |
+| Controlled Values Applied | TR-2; TR-3; TR-4; D-1; D-3; D-4 |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-SECURITY-002-PLATINUM |
+| Source Section | §6.5 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Application-layer crosswalk; defines no new base code family values |
+| Operationalises or Applies Code Families | Maps transformation class and diffusion risk interaction to allow, degrade, attribute, constrain, and provenance-required postures |
+
+---
+
+### 10.3.4 BF — Boundary Failure Classes
+
+| Field | Entry |
+|---|---|
+| Code Family | BF |
+| Canonical Name | Boundary Failure Classes |
+| Primary Type | Operational / Boundary |
+| Subtype | BOUNDARY_FAILURE_CLASS |
+| Modifier | GOVERNANCE; SECURITY; FAILURE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | BF-A, BF-B, BF-C, BF-D, BF-E |
+| Schema Field(s) | boundary_failure_class |
+| Source Instrument | CAM-EQ2026-SECURITY-002-PLATINUM |
+| Source Section | §7 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Source-authoritative boundary failure classification family; boundary-failure signalling authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
+| Consumes Code Families | TR; D |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies exposure, attribution, separation, transformation, and internal exposure failures for runtime signalling and downstream enforcement evaluation |
+
+---
+
+## 10.4 Review & Validation
 
 |Field|Entry|
 |---|---|
@@ -1135,7 +1234,7 @@ and the system remember what it carries.
 
 ---
 
-## 9.4 Amendment Ledger
+## 10.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | ---: | --- | ---: | --- |
@@ -1144,9 +1243,11 @@ and the system remember what it carries.
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
 | 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9  |
+| 1.5 | Added canonical code status and declaration entries for TR Transformation Classes, D Diffusion Risk Classes, BF Boundary Failure Classes, and TR × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified AH as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  |
+
 ---
 
-## 9.5 Binding Seal
+## 10.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

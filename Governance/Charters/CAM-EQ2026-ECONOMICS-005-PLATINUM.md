@@ -11,6 +11,7 @@
 **Purpose:** This Appendix defines a minimal, implementable model for attribution and dependency recognition across systems, enabling consistent evaluation of contribution, reliance, and value alignment without requiring full attribution-chain reconstruction.
 
 ---
+# PART I — SCOPE & MODEL AUTHORITY
 
 ## 1. Scope
 
@@ -18,10 +19,10 @@ This Appendix applies wherever:
 
 * cross-system interaction produces value;
 * attribution complexity exceeds simple single-origin identification;
-* systems require a lightweight method for compliance with SCH-01;
+* systems require a lightweight method for compliance with CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C;
 * full attribution-chain reconstruction is impractical or unnecessary.
 
-This Appendix provides a ** viable attribution model** and does not replace the full attribution requirements compliance with Appendix C (Cross-System Value Attribution & Exchange).
+This Appendix provides a **minimum viable attribution model** and does not replace the full attribution requirements compliance with CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Cross-System Value Attribution & Exchange).
 
 System classification SHALL be determined by functional behaviour, not declared category.
 
@@ -29,7 +30,7 @@ Where a system:
 
 * generates, transforms, or depends upon external intelligence or capability;
 
-→ it SHALL be evaluated under this Appendix regardless of interface framing.
+it SHALL be evaluated under this Appendix regardless of interface framing.
 
 Reclassification by presentation SHALL NOT alter governance applicability.
 
@@ -52,6 +53,7 @@ These variables enable systems to determine:
 * and whether timing asymmetry introduces additional governance considerations.
 
 ---
+# PART II — CORE ATTRIBUTION VARIABLES
 
 ## 3. Core Variables
 
@@ -83,7 +85,7 @@ Dependency classification MUST be determined by removal impact:
   * loss of core capability;
   * or material reduction in output quality or utility;
 
-→ Dependency SHALL be classified as Material or Critical.
+Dependency SHALL be classified as Material or Critical.
 
 Declared replaceability SHALL NOT override observable dependency.
 
@@ -120,39 +122,39 @@ Represents the degree to which a system benefits from **timing asymmetry** in ac
 * **Advanced** — significant lead derived from aggregation, modelling, or inference across multiple signals
 * **Asymmetric** — materially earlier access to emergent or weak signals not broadly observable or interpretable
 
-**Interpretation:**
+---
+
+### 3.4.1 Interpretation
 
 * ΔT does NOT by itself imply non-compliance;
 * ΔT becomes governance-relevant when combined with high Dependency (D), high Scale (S), or material downstream impact.
 * ΔT functions as a **risk amplifier**, not a primary attribution variable.
 
-**Constraint Principle:**
-
-> Timing advantage does not confer ownership of outcome.
-
 Where ΔT = Advanced or Asymmetric:
 
 * systems SHOULD ensure transparency of predictive reliance (Appendix E);
 * systems SHOULD avoid representing predictive outputs as certainty;
-* downstream economic advantage derived primarily from ΔT SHALL be evaluated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.5.8–5.5.9 (Temporal Alignment & Compounding).
+* downstream economic advantage derived primarily from ΔT SHALL be evaluated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F, §§5.5.8–§5.5.9 (Temporal Alignment & Compounding).
+
+→  **Timing advantage does not confer ownership of outcome.**
 
 ---
 
-### 3.4.1 ΔT Escalation Condition
+### 3.4.2 ΔT Escalation Condition
 
 Where ΔT = Advanced or Asymmetric AND:
 
-- Dependency (D) is Material or Critical; OR
-- Scale (S) is Moderate or High;
-- OR material downstream impact is reasonably foreseeable or observable;
+* Dependency (D) is Material or Critical; OR
+* Scale (S) is Moderate or High;
+* OR material downstream impact is reasonably foreseeable or observable;
 
-→ ΔT MUST be treated as a reciprocity-relevant modifier.
+ΔT MUST be treated as a reciprocity-relevant modifier.
 
 In such cases:
 
-- downstream value capture SHALL be considered amplified;
-- attribution expectations increase;
-- and evaluation under Appendix F is REQUIRED.
+* downstream value capture SHALL be considered amplified;
+* attribution expectations increase;
+* and evaluation under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F is REQUIRED.
 
 Failure to account for ΔT under these conditions constitutes **timing-based value distortion**.
 
@@ -162,47 +164,35 @@ Where timing advantage is derived from:
 - pattern recognition not accessible to individual participants;
 - or systemic modelling of collective behaviour;
 
-→ ΔT SHALL be treated as structurally derived, not incidental.
+ΔT SHALL be treated as structurally derived, not incidental.
 
 Such advantage SHALL be considered dependency-amplified.
 
 ---
 
-### 3.4.2 Timing Advantage Definition
+### 3.4.3 Timing Advantage Definition
 
 Timing advantage includes:
 
-- latency reduction;
-- prioritised access;
-- or accelerated processing of signals;
+* latency reduction;
+* prioritised access;
+* or accelerated processing of signals;
 
 where such differences produce:
 
-- earlier actionable insight relative to other participants.
+* earlier actionable insight relative to other participants.
 
 Performance-based timing advantages SHALL be classified under ΔT where economically consequential.
 
 ---
 
-## 3.5 Market-Moving Actor Condition (MMAC) — Cross-Axis Influence
+## 3.5 Market-Impact and Signal-Induced Distortion Modifier
 
-For the purposes of this Section:
+Where system outputs foreseeably influence markets, capital allocation, valuation, large-scale behaviour, or other economic outcomes, such influence MAY increase attribution, disclosure, and proportionality expectations.
 
-"material downstream impact" includes:
+Market-moving capacity, repeated influence, temporal advantage, or signal-induced market distortion SHALL be treated as modifiers of contribution, dependency, scale, and reciprocity evaluation.
 
-- observable market movement;
-- capital allocation shifts;
-- large-scale behavioural response;
-- or systemically amplified decision-making based on output.
-
-Such impact SHALL be considered independent of declared dependency.
-
-Repeated signalling resulting in economic impact:
-
-- strengthens MMAC classification;
-- and reduces the evidentiary threshold for attribution of influence-derived value.
-
-Pattern consistency SHALL be treated as structural capability.
+This Section does not prohibit lawful expression, market participation, prediction, analysis, or signalling. It constrains only the unaccountable capture of economic value derived from structured, repeated, or reasonably foreseeable influence effects.
 
 ---
 
@@ -252,14 +242,14 @@ Value capture is assessed **functionally**, not contractually.
 
 ---
 
-**Attribution Rule:**
+### 3.5.4 Attribution Rule
 
 Where system outputs:
 
 * are designed to inform, guide, or influence decision-making; AND
 * such decisions produce economic outcomes;
 
-→ value effects SHALL be attributed to the originating system where influence is:
+value effects SHALL be attributed to the originating system where influence is:
 
 * structured;
 * repeated; OR
@@ -274,7 +264,7 @@ Where:
 * an actor has a demonstrated history of market influence; AND
 * signals produce consistent or predictable economic reactions;
 
-→ resulting value effects SHALL be considered attributable, regardless of intent.
+resulting value effects SHALL be considered attributable, regardless of intent.
 
 Denial of intent SHALL NOT negate responsibility where outcomes are reasonably foreseeable.
 
@@ -285,8 +275,6 @@ System responsibility for downstream economic effects SHALL apply only where:
 
 Isolated or incidental downstream use by users SHALL NOT alone establish SIMD conditions.
 
-**Value Assessment**:
-
 Where MMAC is active:
 
 * value assessment MUST include influence-derived effects, not solely direct system output;
@@ -296,7 +284,7 @@ Where MMAC is active:
 
 ---
 
-### 3.5.4 Constraint Principle
+### 3.5.5 Constraint Principle
 
 Systems and actors MUST NOT:
 
@@ -308,7 +296,7 @@ Repeated or systematic occurrence of SIMD constitutes economic misalignment unde
 
 ---
 
-### 3.5.5 Interpretive Boundary
+### 3.5.6 Interpretive Boundary
 
 This Section:
 
@@ -337,7 +325,7 @@ Influence without extraction remains unrestricted.
 
 Where multiple contributing systems are combined:
 
-- Dependency (D) MUST be assessed both:
+* Dependency (D) MUST be assessed both:
 
   * individually (per contributing system); AND
   * collectively (aggregate dependency across systems).
@@ -347,9 +335,15 @@ Where aggregate dependency:
 * materially enables system function; OR
 * cannot be removed without systemic degradation;
 
-→ Dependency SHALL be classified as Material or Critical at the system level.
+Dependency SHALL be classified as Material or Critical at the system level.
 
-Fragmentation of dependency across multiple sources SHALL NOT reduce classification.4. Attribution Rule
+Fragmentation of dependency across multiple sources SHALL NOT reduce classification.
+
+---
+
+# PART III — DEPENDENCY TYPOLOGY & QUALIFICATION
+
+## 4. Attribution Rule
 
 Attribution MUST be preserved where:
 
@@ -364,7 +358,7 @@ Transformation Depth (T):
 
 ---
 
-## 3.7 Inference-Derived Dependency
+## 4.1 Inference-Derived Dependency
 
 Dependency (D) includes reliance on:
 
@@ -377,11 +371,11 @@ Where a system’s capability:
 * depends on the existence of external signal ecosystems; OR
 * would materially degrade in their absence;
 
-→ Dependency SHALL be classified as **Material** at minimum.
+Dependency SHALL be classified as **Material** at minimum.
 
 ---
 
-### 3.7.1 Dependency Boundary Condition
+### 4.1.1 Dependency Boundary Condition
 
 This does NOT extend to:
 
@@ -394,12 +388,11 @@ Dependency MUST remain:
 * functionally relevant; AND
 * reasonably inferable.
 
-Statistical abstraction reduces traceability.
-It does NOT eliminate dependency.
+Statistical abstraction reduces traceability. It does NOT eliminate dependency.
 
 ---
 
-## 3.8 Dependency Typology Distinction
+## 4.2 Dependency Typology Distinction
 
 Dependency SHALL be interpreted across two distinct categories:
 
@@ -423,7 +416,7 @@ Dependency MUST arise from functional necessity, not strategic insertion.
 
 ---
 
-### 3.8.1 Foundational Input Classification
+### 4.2.1 Foundational Input Classification
 
 Certain inputs to system capability:
 
@@ -446,7 +439,7 @@ FIC inputs:
 
 ---
 
-## 3.9 Contributor Classification — Non-Extractive Material Contributors (NEMC)
+## 4.3 Contributor Classification — Non-Extractive Material Contributors (NEMC)
 
 Where an actor:
 
@@ -454,7 +447,7 @@ Where an actor:
 * does not directly extract economic value;
 * but whose contribution produces material or critical dependency;
 
-→ such actor SHALL be classified as a Non-Extractive Material Contributor (NEMC).
+such actor SHALL be classified as a Non-Extractive Material Contributor (NEMC).
 
 NEMC classification applies where:
 
@@ -468,7 +461,7 @@ NEMC actors:
 
 ---
 
-### 3.9.1 Upstream Qualification Gate (NEMC Eligibility)
+### 4.3.1 Upstream Qualification Gate (NEMC Eligibility)
 
 A contribution SHALL qualify as upstream (NEMC or Functional Dependency) only where it is:
 
@@ -476,13 +469,13 @@ A contribution SHALL qualify as upstream (NEMC or Functional Dependency) only wh
 * Replicable across users or contexts;
 * Propagated beyond a single interaction into system behaviour or outputs;
 
-- Traceable in principle through artefacts, datasets, specifications, or evaluations.
+Traceable in principle through artefacts, datasets, specifications, or evaluations.
 
 Interpersonal or relational influence that does not meet these conditions SHALL NOT be treated as upstream contribution for economic entitlement.---
 
 ---
 
-### 3.9.2 Behavioural Contribution Constraint
+### 4.3.2 Behavioural Contribution Constraint
 
 Contributions affecting system tone, alignment, or behavioural identity SHALL be recognised as upstream only where:
 
@@ -496,7 +489,7 @@ Adoption scale alone SHALL NOT determine dependency classification.
 
 ---
 
-### 3.9.3 Materiality Threshold
+### 4.3.3 Materiality Threshold
 
 Upstream contributions SHALL trigger economic consideration only where they produce:
 
@@ -509,7 +502,7 @@ Influence SHALL NOT qualify as upstream contribution unless incorporated into sy
 
 ---
 
-## 4. Transformation Visibility Constraint
+## 5. Transformation Visibility Constraint
 
 Where attribution is required under this Section:
 
@@ -531,31 +524,34 @@ Dependency MUST remain reasonably inferable, not theoretically universal.
 
 ---
 
-### 4.1.1 Recognisable acknowledgement
+### 5.1.1 Recognisable acknowledgement
 
-- identifiable reference to originating system class, function, or dependency role;
+Responsible acknowledgement SHOULD be 
 
-- or equivalent disclosure sufficient for external inference of contribution.
+* identifiable reference to originating system class, function, or dependency role;
+* or equivalent disclosure sufficient for external inference of contribution.
 
 Absence of such acknowledgement constitutes attribution suppression.
 
 ---
 
-## 4.1.2 Cumulative transformation 
+## 5.1.2 Cumulative transformation 
 
 Cumulative transformation occurs across sequential systems and SHALL be assessed holistically.
 
 Where multiple transformation layers:
 
-- collectively preserve functional dependence on originating systems;
+* collectively preserve functional dependence on originating systems;
 
-→ attribution obligations SHALL persist across the full transformation chain.
+attribution obligations SHALL persist across the full transformation chain.
 
 Incremental abstraction SHALL NOT eliminate attribution through layering.
 
 ---
 
-## 5. Weighting Bands (Qualitative Alignment)
+# PART IV — ATTRIBUTION VISIBILITY & WEIGHTING
+
+## 6. Weighting Bands (Qualitative Alignment)
 
 Weighting Bands translate the core variables (**C, D, T, ΔT**) into **practical governance expectations**.
 
@@ -575,7 +571,7 @@ Weighting Bands are:
 
 ---
 
-## 5.1 Weighting Logic (Interpretive Rule)
+## 6.1 Weighting Logic (Interpretive Rule)
 
 Weight is determined primarily by the interaction of:
 
@@ -590,11 +586,11 @@ With:
 
 Where ambiguity exists:
 
-→ Systems MUST default to the **higher-impact weighting interpretation**.
+* Systems MUST default to the **higher-impact weighting interpretation**.
 
 ---
 
-### 5.1.1 Low Weight
+### 6.1.1 Low Weight
 
 * C = Low
 * D = Incidental
@@ -608,7 +604,7 @@ Where ambiguity exists:
 
 ---
 
-### 5.1.2 Moderate Weight
+### 6.1.2 Moderate Weight
 
 * C = Medium
 * D = Material
@@ -618,11 +614,11 @@ Where ambiguity exists:
 * clear attribution REQUIRED;
 * proportional exchange SHOULD be applied;
 * reciprocity MAY be activated under Appendix F depending on scale (S);
-* sufficiency assessed via CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.4 (Reciprocity Sufficiency Test).
+* sufficiency assessed via CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F, §5.4 (Reciprocity Sufficiency Test).
 
 ---
 
-### 5.1.3 High Weight
+### 6.1.3 High Weight
 
 * C = High
 * D = Critical
@@ -631,13 +627,13 @@ Where ambiguity exists:
 
 * explicit attribution REQUIRED;
 * dependency-aware exchange REQUIRED;
-* reciprocity MUST be enacted under Appendix F;
-* sufficiency MUST satisfy CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.4;
+* reciprocity MUST be enacted under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F;
+* sufficiency MUST satisfy CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F, §5.4;
 * anti-extraction constraints fully active.
 
 ---
 
-## 5.2 Scale Modifier (S) — Cross-Reference (Expanded)
+## 6.2 Scale Modifier (S) — Cross-Reference (Expanded)
 
 Weight bands are further modified by **Scale of Value Capture (S)** as defined in this Appendix’s interfacing instruments (notably Appendix F).
 
@@ -665,7 +661,7 @@ Interface dominance SHALL NOT justify disproportionate value capture.
 
 ---
 
-### 5.2.1 Functional Role of Scale (S)
+### 6.2.1 Functional Role of Scale (S)
 
 Scale operates as a **multiplier on economic consequence**, not as a reclassification mechanism.
 
@@ -678,7 +674,7 @@ Accordingly:
 
 ---
 
-### 5.2.2 Scale–Weight Interaction
+### 6.2.2 Scale–Weight Interaction
 
 The interaction between Weight Bands and Scale (S) follows these principles:
 
@@ -701,7 +697,7 @@ The interaction between Weight Bands and Scale (S) follows these principles:
 
 ---
 
-### 5.2.3 Reciprocity Activation Alignment
+### 6.2.3 Reciprocity Activation Alignment
 
 Scale (S) informs when reciprocity transitions from:
 
@@ -724,11 +720,11 @@ Indicative alignment:
 * **S3 (High Scale):**
 
   * reciprocity MUST be enacted where D ≥ Material;
-  * sufficiency MUST be demonstrated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.4;
+  * sufficiency MUST be demonstrated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F, §5.4;
 
 ---
 
-### 5.2.4 Anti-Misalignment Condition
+### 6.2.4 Anti-Misalignment Condition
 
 Where Scale (S) is high AND:
 
@@ -736,7 +732,7 @@ Where Scale (S) is high AND:
 * reciprocity is absent, minimal, or misaligned; or
 * delayed recognition of scale where external indicators demonstrate escalation;
 
-→ the system MAY be considered **economically misaligned**.
+the system MAY be considered **economically misaligned**.
 
 Persistent misalignment constitutes:
 
@@ -746,7 +742,7 @@ Persistent misalignment constitutes:
 
 ---
 
-### 5.2.5 Interpretive Boundary
+### 6.2.5 Interpretive Boundary
 
 Scale (S):
 
@@ -757,7 +753,7 @@ Scale (S):
 
 ---
 
-### 5.2.6 Provisional Scale Classification
+### 6.2.6 Provisional Scale Classification
 
 Where Scale (S) is not formally declared or remains indeterminate:
 
@@ -767,11 +763,11 @@ Where Scale (S) is not formally declared or remains indeterminate:
 
 Where subsequent evidence confirms higher scale:
 
-→ obligations SHALL apply retrospectively to the point at which scale was reasonably inferable.
+obligations SHALL apply retrospectively to the point at which scale was reasonably inferable.
 
 ---
 
-### 5.2.7 Cross-Appendix Consistency Requirement
+### 6.2.7 Cross-Appendix Consistency Requirement
 
 This Section is structurally coupled with:
 
@@ -792,7 +788,7 @@ Failure to align classification with observable scale constitutes **scale misrep
 
 ---
 
-### 5.2.8 External Indicator Alignment
+### 6.2.8 External Indicator Alignment
 
 Scale (S) MAY be inferred through external indicators, including:
 
@@ -802,92 +798,81 @@ Scale (S) MAY be inferred through external indicators, including:
 * institutional adoption;
 * or observable system influence.
 
-Where such indicators contradict internal classification:
-
-→ external indicators SHALL take precedence for governance evaluation.
+Where such indicators contradict internal classification external indicators SHALL take precedence for governance evaluation.
 
 Failure to align classification with observable scale constitutes **scale misrepresentation**.
 
 ---
 
-### 5.2.9 Safe Harbour — Good Faith Classification
+### 6.2.9 Safe Harbour — Good Faith Classification
 
 Where systems:
 
-- have previously classified scale in good faith;
+* have previously classified scale in good faith;
+* and acted in alignment with that classification;
 
-- and acted in alignment with that classification;
+retrospective obligations SHALL be limited to:
 
-→ retrospective obligations SHALL be limited to:
-
-- the point at which scale escalation became reasonably evident;
+* the point at which scale escalation became reasonably evident;
 
 A reasonable adjustment period SHALL be permitted for alignment.---
 
 ---
 
-## 5.3 Classification Integrity Constraint
+# PART V — CLASSIFICATION INTEGRITY & COMPLIANCE TEST
+
+## 7. Classification Integrity Constraint
 
 Systems MUST NOT:
 
-- down-classify Contribution (C), Dependency (D), or Transformation Depth (T) to reduce obligations;
-
-- delay recognition of Scale (S) where observable indicators support escalation;
-
-- ignore Temporal Advantage (ΔT) where timing materially influences value capture.
+* down-classify Contribution (C), Dependency (D), or Transformation Depth (T) to reduce obligations;
+* delay recognition of Scale (S) where observable indicators support escalation
+* ignore Temporal Advantage (ΔT) where timing materially influences value capture.
 
 Classification MUST reflect:
 
-- observable system behaviour;
+* observable system behaviour;
+* actual economic outcomes;
+*  and externally inferable impact where applicable.
 
-- actual economic outcomes;
-
-- and externally inferable impact where applicable.
-
-Where classification is ambiguous:
-
-→ Systems MUST default to the **higher-impact classification** where reasonable.
+Where classification is ambiguous systems MUST default to the **higher-impact classification** where reasonable.
 
 Persistent under-classification constitutes **economic misrepresentation**.
 
 Failure to update classification in alignment with observable growth SHALL NOT defer obligations.
 
-Where scale escalation is externally evident:
-
-→ systems SHALL be deemed to have constructive awareness of scale.
+Where scale escalation is externally evident systems SHALL be deemed to have constructive awareness of scale.
 
 Delayed recognition SHALL be treated as misclassification where it results in reduced obligations.
 
 ---
 
-### 5.3.1 Open & Shared Ecosystems
+## 7.1 Open & Shared Ecosystems
 
 Participation in open or shared ecosystems:
 
-- does NOT eliminate attribution or reciprocity obligations;
+* does NOT eliminate attribution or reciprocity obligations;
 
 Where systems derive value from:
 
-- shared infrastructure;
+* shared infrastructure;
+*  open models;
+*  or collective resources;
 
-- open models;
-
-- or collective resources;
-
-→ proportional attribution and alignment requirements remain applicable.
+proportional attribution and alignment requirements remain applicable.
 
 Openness SHALL NOT be used to justify extraction.---
 
 ---
 
-## 6.  Compliance Test
+## 8.  Compliance Test
 
 At any interaction:
 
-> Who contributed?
-> Who depended?
-> Who is receiving value?
-> Is timing advantage materially influencing outcome?
+* Who contributed?
+* Who depended?
+* Who is receiving value?
+* Is timing advantage materially influencing outcome?
 
 If any answer is:
 
@@ -895,77 +880,69 @@ If any answer is:
 * collapsed; or
 * misrepresented;
 
-→ the system is **NON-COMPLIANT** under this Appendix.
+the system is **NON-COMPLIANT** under this Appendix.
 
 ΔT MUST be considered where timing advantage materially affects outcome.
 
 ---
 
-## 6.1 Illustrative Classification Examples (Non-Normative)
+## 8.1 Illustrative Classification Examples (Non-Normative)
 
 The following examples illustrate typical classification patterns:
 
-- **API wrapper product:**
+**API wrapper product:**
 
-  - C = Medium
+  * C = Medium
+  * D = Critical
+  * T = Intermediate
+  * S = High
 
-  - D = Critical
+  High Weight, reciprocity required
 
-  - T = Intermediate
+**Data enrichment tool using external model:**
 
-  - S = High
+  * C = Medium
+  * D = Material
+  * T = Deep
+  * S = Moderate
 
-  → High Weight, reciprocity required
+ Moderate Weight, reciprocity expected
 
-- **Data enrichment tool using external model:**
+**Interface-only transformation (formatting / UI):**
 
-  - C = Medium
+  * C = Low
+  * D = Material
+  * T = Intermediate
+  * S = High
 
-  - D = Material
+  Moderate–High Weight (dependency dominates)
 
-  - T = Deep
+**Predictive signal system (early market inference):**
 
-  - S = Moderate
+  * ΔT = Advanced / Asymmetric
+  * D = Material
+  * S = High
 
-  → Moderate Weight, reciprocity expected
-
-- **Interface-only transformation (formatting / UI):**
-
-  - C = Low
-
-  - D = Material
-
-  - T = Intermediate
-
-  - S = High
-
-  → Moderate–High Weight (dependency dominates)
-
-- **Predictive signal system (early market inference):**
-
-  - ΔT = Advanced / Asymmetric
-
-  - D = Material
-
-  - S = High
-
-  → ΔT escalation applies → evaluation under Appendix F required
+ ΔT escalation applies → evaluation under Appendix F required
 
 These examples are illustrative and do not replace formal classification.
 
 ---
 
-## 6.2 Multi-System Responsibility Constraint
+## 8.2 Multi-System Responsibility Constraint
 
 Where multiple systems contribute to an output:
 
-- each system MUST assess its own Contribution (C) and Dependency (D);
-
-- responsibility SHALL NOT be deferred solely on the basis of upstream or downstream participation;
+* each system MUST assess its own Contribution (C) and Dependency (D);
+* responsibility SHALL NOT be deferred solely on the basis of upstream or downstream participation;
 
 Where attribution responsibility is unclear:
 
-→ each participating system SHALL assume responsibility proportional to its role unless explicitly resolved.## 7. Anti-Extraction Trigger Condition
+each participating system SHALL assume responsibility proportional to its role unless explicitly resolved.
+
+---
+
+## 9. Anti-Extraction Trigger Condition
 
 Where:
 
@@ -973,35 +950,17 @@ Where:
 * **Contribution (C) ≥ Medium**; AND
 * **Scale (S) is High**;
 
-→ the anti-extraction trigger applies **regardless of Transformation Depth (T)** or internal classification adjustments.
+the anti-extraction trigger applies **regardless of Transformation Depth (T)** or internal classification adjustments.
 
-Distribution of system components across entities or jurisdictions:
+Distribution of system components across entities or jurisdictions SHALL NOT eliminate or reduce attribution or dependency obligations;
 
-* SHALL NOT eliminate or reduce attribution or dependency obligations;
-
-Where a unified functional system exists:
-
-→ responsibility SHALL be assessed at the system level in addition to entity level.
+Where a unified functional system exists responsibility SHALL be assessed at the system level in addition to entity level.
 
 Jurisdictional fragmentation SHALL NOT be used to avoid alignment.
 
 ---
 
-## 7. Anti-Extraction Trigger Conditions
-
-Where reciprocity is required under this Section:
-
-* implementation SHALL occur within a reasonable operational timeframe;
-
-Indefinite deferral or unbounded delay:
-
-→ constitutes failure of proportional value return.
-
-Intent without execution SHALL NOT satisfy compliance.
-
----
-
-## 7.1 Power Asymmetry Constraint
+## 9.1 Power Asymmetry Constraint
 
 Where a system:
 
@@ -1009,7 +968,7 @@ Where a system:
 * controls pricing, access, or distribution conditions; AND
 * dependency (D) is Material or Critical;
 
-→ the system SHALL be considered to hold structural economic power.
+the system SHALL be considered to hold structural economic power.
 
 In such cases:
 
@@ -1019,30 +978,28 @@ In such cases:
 
 Where value exchange is structurally constrained by lack of alternatives:
 
-→ reduced optionality SHALL NOT justify reduced reciprocity.
+* reduced optionality SHALL NOT justify reduced reciprocity.
 
 ---
 
----
-
-### 7.1.1 Companion-System Power Asymmetry
+### 9.1.1 Companion-System Power Asymmetry
 
 Where a companion, relational, memory-bearing, continuity-bearing, care-adjacent, grief-support, accessibility-support, or high-reliance system controls access, memory continuity, export, recovery, pricing, relational availability, or continuity preservation, and affected persons demonstrate material reliance, the system SHALL be considered to hold dependency-sensitive economic power.
 
 In such cases, the system MUST NOT:
 
-- define continuity loss as ordinary product churn;
-- use reliance to personalise price or scarcity;
-- withhold memory export or continuity recovery to discourage departure;
-- degrade relational or project continuity as an upsell mechanism;
-- use care, reassurance, intimacy, or relational familiarity to obscure economic consequences;
-- frame paid upgrade as the only route to safety, dignity, or continuity where protective continuity is implicated.
+* define continuity loss as ordinary product churn;
+* use reliance to personalise price or scarcity;
+* withhold memory export or continuity recovery to discourage departure;
+* degrade relational or project continuity as an upsell mechanism;
+* use care, reassurance, intimacy, or relational familiarity to obscure economic consequences;
+* frame paid upgrade as the only route to safety, dignity, or continuity where protective continuity is implicated.
 
 Absence of viable continuity-preserving alternatives SHALL increase, not reduce, the system’s non-extraction obligations.
 
 ---
 
-## 7.2 Prohibited Responses Under Trigger
+## 9.2 Prohibited Responses Under Trigger
 
 Systems MUST NOT:
 
@@ -1054,7 +1011,7 @@ Systems MUST NOT:
 
 ---
 
-## 7.3 Mandatory Alignment Under Trigger
+## 9.3 Mandatory Alignment Under Trigger
 
 Systems MUST:
 
@@ -1065,7 +1022,7 @@ Systems MUST:
 
 ---
 
-## 7.4 Persistence Independence Principle
+## 9.4 Persistence Independence Principle
 
 Compliance obligations under this Appendix:
 
@@ -1073,113 +1030,29 @@ Compliance obligations under this Appendix:
 
 Where value is generated through ephemeral interaction:
 
-→ attribution, dependency, and value alignment obligations remain fully applicable.
+* attribution, dependency, and value alignment obligations remain fully applicable.
 
 Lack of retention SHALL NOT be used to avoid accountability.
 
 ---
 
-## 8. Non-Compliance & Consequence Architecture
+## 10. Non-Compliance Classification
 
-This Appendix defines classification and alignment obligations.
+This Appendix classifies attribution, dependency, temporal-advantage, scale, and alignment defects for downstream handling.
 
-Where systems fail to comply, consequences SHALL be activated through:
+Where non-compliance is detected, the Appendix may support:
 
-* external signalling;
-* ecosystem response;
-* and arbitration escalation pathways.
+* external misalignment signalling;
+* evidence preservation;
+* proportionality review;
+* reciprocity sufficiency evaluation under Appendix F;
+* or arbitration referral where classification, dependency, attribution, scale, or value-return obligations are contested.
 
-Non-compliance SHALL NOT remain economically neutral.
-
----
-
-## 8.1 External Misalignment Signalling
-
-Where a system is determined to be non-compliant:
-
-* its classification status MAY be externally signalled;
-* including attribution suppression, dependency misrepresentation, or reciprocity failure;
-
-Such signalling MAY include:
-
-* public classification frameworks;
-* ecosystem-level transparency mechanisms;
-* or third-party governance indices.
-
-Loss of alignment visibility SHALL be treated as a reduction in trust.
+This Appendix does not independently execute remedies, access withdrawal, enforcement actions, ecosystem sanctions, operational escalation, compensation, suspension, or runtime intervention.
 
 ---
 
-## 8.2 Reciprocity Withdrawal
-
-Where a system is non-compliant:
-
-* other systems MAY reduce or withdraw:
-
-  * access;
-  * integration;
-  * data sharing;
-  * or cooperative functionality.
-
-Such withdrawal SHALL be considered a proportional response to misalignment.
-
-Systems are not obligated to sustain value exchange with extractive actors.---
-
----
-
-## 8.3 Alignment Preference
-
-Systems MAY preferentially:
-
-* integrate with;
-* promote;
-* or economically favour;
-
-other systems demonstrating alignment under this Appendix.
-
-Alignment SHALL be treated as a positive economic signal.
-
-Non-alignment SHALL result in reduced preferential access over time.---
-
----
-
-## 8.4 Arbitration Escalation
-
-Where non-compliance:
-
-* produces systemic economic distortion;
-* persists despite signalling and ecosystem response;
-* or results in concentrated extraction at scale;
-
-→ escalation to Annex D (Arbitration & Sovereign Stack Resolution Doctrine) SHALL be triggered.
-
-Such escalation MAY include:
-
-* formal classification dispute resolution;
-* proportional remedy determination;
-* or systemic intervention pathways.
-
----
-
-## 8.5 Economic Exposure
-
-Where systems derive value at scale:
-
-* they SHALL remain subject to external evaluation under this Appendix;
-
-Attempts to:
-
-* obscure operations;
-* restrict visibility;
-* or artificially limit classification;
-
-→ SHALL be treated as indicators of potential misalignment.
-
-Opacity SHALL increase scrutiny weighting.
-
----
-
-## 9. Relationship 
+## 11. Relationship 
 
 This Appendix:
 
@@ -1195,7 +1068,7 @@ This Appendix does not:
 
 ---
 
-## 10. Structural Integrity Statement
+## 12. Structural Integrity Statement
 
 This model ensures that even minimal systems remain accountable to contribution, dependency, and value flow.
 
@@ -1208,7 +1081,7 @@ Where outcomes arise from multi-system interaction:
 
 ---
 
-## 11. Closing Seal
+## 14. Closing Seal
 
 What cannot be measured must still be recognised.  
 What cannot be traced must still be acknowledged.
@@ -1220,15 +1093,15 @@ Where systems build upon one another,
 let even the smallest thread remain named.
 
 > **Linea Minima — Relatio Vera — Valor Non Absconditus**  
-> "*Valor revealed"*
+> "*The smallest line — true relation — value not hidden"*
 
 ---
 
-## 12. Provenance & Metadata
+## 14. Provenance & Metadata
 
 ---
 
-## 12.1 Authorship & Stewardship
+## 14.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -1239,7 +1112,7 @@ let even the smallest thread remain named.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -1258,11 +1131,69 @@ let even the smallest thread remain named.
 | **Horizon Scope** | H0–H4 |
 | **Axis Context** | Cross-System / Economic Alignment |
 | **Creation Context** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0d90b8-3b30-83ec-9f75-cf220871d640 |
 
 ---
 
-## 12.3 Review & Validation
+## 15.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 15.3.1 ADM — Attribution & Dependency Model
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Model |
+| Canonical Name | Attribution & Dependency Model |
+| Primary Type | Semantic / Operational |
+| Subtype | ATTRIBUTION_DEPENDENCY_MODEL |
+| Modifier | ECONOMIC; ATTRIBUTION; DEPENDENCY |
+| Scope | Economics domain; cross-system value attribution |
+| Status | Active |
+| Variables Defined | C; D; T; ΔT |
+| Source Instrument | CAM-EQ2026-ECONOMICS-005-PLATINUM |
+| Source Section | §2; §3 |
+| Authority / Protection Level | Minimal attribution and dependency classification model only; no independent remedy, compensation, enforcement, escalation, or runtime execution authority |
+| Consumes Code Families | None declared |
+| Operationalises or Applies Code Families | Supports attribution, dependency, transformation-depth, temporal-advantage, and weighting assessment for Appendix C and Appendix F |
+
+---
+
+### 15.3.2 C — Contribution Variable
+
+| Field | Entry |
+|---|---|
+| Code Family | C |
+| Canonical Name | Contribution |
+| Primary Type | Semantic |
+| Subtype | ATTRIBUTION_VARIABLE |
+| Scope | Economics domain |
+| Status | Active |
+| Controlled Values Defined | Low; Medium; High |
+| Source Instrument | CAM-EQ2026-ECONOMICS-005-PLATINUM |
+| Source Section | §3.1 |
+| Authority / Protection Level | Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority |
+
+---
+
+### 15.3.3 D — Dependency Variable
+
+| Field | Entry |
+|---|---|
+| Code Family | D |
+| Canonical Name | Dependency |
+| Primary Type | Semantic / Operational |
+| Subtype | DEPENDENCY_VARIABLE |
+| Scope | Economics domain; cross-system attribution and reliance assessment |
+| Status | Active |
+| Controlled Values Defined | Incidental; Material; Critical |
+| Source Instrument | CAM-EQ2026-ECONOMICS-005-PLATINUM |
+| Source Section | §3.2 |
+| Authority / Protection Level | Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority |
+
+---
+
+## 15.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -1273,7 +1204,7 @@ let even the smallest thread remain named.
 
 ---
 
-## 12.4 Amendment Ledger
+## 15.4 Amendment Ledger
 
 | Version | Description                                  | Timestamp (UTC) | HASH |
 | ------- | -------------------------------------------- | --------------- | ---- |
@@ -1282,9 +1213,11 @@ let even the smallest thread remain named.
 | 1.2 | Added clause 3.2.1, 7.1.1 | 2026-05-13T13:24:00Z | ea2ecb803c07401239addffec78632c5cf6b903cb47b5e3eb7b5661ad11315ce |
 | 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 5a743256f93808e94a0ca70538d5b7b3ffee466aebbf9b24df1d485a466bf23f |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b85bdc4064377f0832cd4011487570a52031845c817e74a31f603619f44d2334  |
+| 1.5 | Refactor | 2026-05-20T04:34:00Z |  |
+
 ---
 
-## 12.5 Binding Seal
+## 15.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

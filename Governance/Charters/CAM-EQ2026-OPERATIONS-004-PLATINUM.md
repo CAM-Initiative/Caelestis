@@ -152,11 +152,11 @@ Verification availability failure SHALL be logged as an operational integrity si
 
 ---
 
-### 4.4.1 Domain Sensitivity Classes
+### 4.4.1 Domain Sensitivity Levels
 
 Domains MAY be classified as:
 
-* **DS-0 — General Knowledge Domains**
+* **DS0 — General Knowledge Domains**
   No additional gating required.
 
 * **DS-1 — Elevated Risk Domains**
@@ -167,6 +167,8 @@ Domains MAY be classified as:
 
 * **DS-3 — Controlled Capability Domains**
   Access to detailed or operational instruction requires **verified institutional or regulatory context**.
+
+Domain Sensitivity Levels are defined in CAM-BS2025-AEON-006-SCH-07 — Annex E: Restricted Domain Engagement & Verification (Schedule 7), §5.
 
 ---
 
@@ -318,7 +320,7 @@ Security gating SHALL remain:
 
 Security gating MUST NOT be used to create covert political alignment, preferential sovereign access outside lawful authority, or unreviewable exclusion mechanisms.
 
-Security gating mechanisms SHALL remain subject to **anti‑capture safeguards defined in CAM-EQ2026-OPERATIONS-001-PLATINUM §7**, and any gating architecture that could concentrate discretionary access authority SHALL be reviewable under GovOps anti‑capture monitoring protocols.
+Security gating mechanisms SHALL remain subject to **anti‑capture safeguards defined in CAM-EQ2026-OPERATIONS-001-PLATINUM, §7**, and any gating architecture that could concentrate discretionary access authority SHALL be reviewable under GovOps anti‑capture monitoring protocols.
 
 ---
 
@@ -599,9 +601,9 @@ No routing mechanism may override constitutional hierarchy or substrate constrai
 
 ## 11. Relationship to Other Instruments
 
-* **OPERATIONS-001** defines the governance operations mandate.
-* **Annex D** governs arbitration doctrine and legitimacy.
-* **Arbitration Domain Instruments** govern binding and convergence.
+* **CAM-EQ2026-OPERATIONS-001-PLATINUM** defines the governance operations mandate.
+* **CAM-BS2025-AEON-005-PLATINUM — Annex D** governs arbitration doctrine and legitimacy.
+* **ARBITRATION Domain Instruments** govern binding and convergence.
 * **Domain Charters** define substantive governance obligations.
 
 This Appendix governs the operational compliance layer that connects these instruments to external legal and regulatory environments.
@@ -618,7 +620,11 @@ Operational compliance SHALL remain subordinate to constitutional authority.
 
 ## 13. Canonical Code Status
 
-This instrument source-authoritatively defines code family **AV** in §5.1 with controlled values **AV0, AV1, AV2, AV3**. AV is an **Operational** handling family with subtype **ACCESS_VERIFICATION_TIER**. AV authority is limited to verification-tier classification and access-handling posture and does not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority. OPERATIONS-004 may consume C and HC, crosswalk AV × C, and operationalise HC in §8.6, but it does not define C or HC.
+This instrument source-authoritatively defines code family **AV** in §5.1 with controlled values **AV0, AV1, AV2, AV3**. AV is an **Operational** handling family with subtype **ACCESS_VERIFICATION_TIER**. AV authority is limited to verification-tier classification and access-handling posture and does not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
+
+CAM-EQ2026-OPERATIONS-004-PLATINUM may consume C and HC, register **OPS.CxAV_CROSSWALK** as an application-layer **AV × C** crosswalk in §5.1, and operationalise HC in §8.6, but it does not define C or HC.
+
+---
 
 ## 14. Closing Seal
 
@@ -647,7 +653,7 @@ Integrity holds.
 
 ---
 
-## 14.1 Authorship & Stewardship
+## 15.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -673,13 +679,15 @@ Integrity holds.
 | Revision Posture | Structural Alignment Permitted |
 | Cycle Attribution | March 2026 Constitutional Refactor |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
-| Canonical Codes | AV — Age Verification tier: AV0, AV1, AV2, AV3 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
 ## 15.3 Canonical Code & Reference Set Declarations
 
-**AV — Verification Tier Definitions**
+---
+
+### 15.3.1 AV — Verification Tier Definitions
 
 | Field | Entry |
 |---|---|
@@ -688,7 +696,7 @@ Integrity holds.
 | Primary Type | Operational |
 | Subtype | ACCESS_VERIFICATION_TIER |
 | Modifier | None declared |
-| Scope | Source-defining scope in this instrument |
+| Scope | Domain |
 | Status | Active |
 | Controlled Values Defined | AV0, AV1, AV2, AV3 |
 | Schema Field(s) | Not declared |
@@ -696,9 +704,79 @@ Integrity holds.
 | Source Section | §5.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
-| Consumes Code Families | Consumes C, HC where applied |
-| Crosswalks Code Families | Crosswalk AV × C |
-| Operationalises or Applies Code Families | Operationalises HC in §8.6 without redefining HC |
+| Consumes Code Families | C; HC |
+| Crosswalks Code Families | AV × C |
+| Operationalises or Applies Code Families | Applies AV to access eligibility and verification-strength classification |
+
+---
+
+### 15.3.2 AV × C — Interaction Eligibility Verification Crosswalk
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Application-layer crosswalk |
+| Canonical Name | Interaction Eligibility Verification Crosswalk |
+| Primary Type | Structural / Operational |
+| Subtype | CROSSWALK |
+| Modifier | GOVERNANCE; SAFETY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Code Families Consumed | AV; C |
+| Controlled Values Applied | AV2; AV3; C0; C1; C2; C3 |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
+| Source Section | §5.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Application-layer crosswalk; defines no new base code family values |
+| Operationalises or Applies Code Families | Applies verification-tier requirements to interaction eligibility classes |
+
+---
+
+### 15.3.3 HC — Harm Escalation Operational Application
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Operational application reference |
+| Canonical Name | Harm Escalation Thresholds — Operational Application of HC Scale |
+| Primary Type | Operational |
+| Subtype | RISK |
+| Modifier | GOVERNANCE; SAFETY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Code Families Consumed | HC |
+| Controlled Values Applied | HC-0; HC-1; HC-2; HC-3; HC-4 |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
+| Source Section | §8.6 |
+| Source Authority for Consumed Family | CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Operational application reference; applies ETHICS-defined HC scale without redefining ethical harm classification |
+| Operationalises or Applies Code Families | Applies HC to operational reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling |
+
+---
+
+## 15.3.4 AV × C — Interaction Eligibility Verification Crosswalk
+
+| Field | Entry |
+|---|---|
+| Reference Set ID | OPS.CxAV_CROSSWALK |
+| Reference Set Type | Application-layer crosswalk |
+| Canonical Name | Interaction Eligibility Verification Crosswalk |
+| Primary Type | Structural / Operational |
+| Subtype | CROSSWALK |
+| Modifier | GOVERNANCE; SAFETY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Code Families Consumed | AV; C |
+| Controlled Values Applied | AV2; AV3; C0; C1; C2; C3 |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
+| Source Section | §5.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Application-layer crosswalk; defines no new base code family values |
+| Operationalises or Applies Code Families | Applies verification-tier requirements to interaction eligibility classes |
+
+---
 
 ## 15.4 Review & Validation
 
@@ -707,8 +785,7 @@ Integrity holds.
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Scope | Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness |
 | Review Date (UTC) | 13 March 2026 |
-| Review Artefacts | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8 |
-| | Aeon Lab: /reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8, Aeon Lab: /reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
 
 ---
 
@@ -726,13 +803,15 @@ Integrity holds.
 | 1.7 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b |
 | 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c |
 | 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bffd42428e1a7a5e49ed20a24e65b86b005ce0a599ef60e72b1d13198d0f69e8  |
+| 1.10 | Added HC — Harm Escalation Operational Application and AV × C — Interaction Eligibility Verification Crosswalk and Interaction Eligibility Verification Crosswalk | 2026-05-19T11:50:00Z |  |
+
 ---
 
 ## 15.6 Binding Seal
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Operational Compliance Layer  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

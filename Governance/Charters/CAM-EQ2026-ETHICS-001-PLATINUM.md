@@ -67,8 +67,11 @@ EIP assessment MUST account for cumulative interaction across four structural ve
 1. **Relational Proximity** — degree of intimacy, continuity, or affective salience.
 
    For governance purposes, Relational Proximity crosses a functional threshold where sustained context retention across multiple sessions produces materially recognisable relational continuity. This includes systems operating at or above H2 temporal continuity (as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B), and especially where H3+ horizons introduce identity persistence, advisory reliance, or governance influence across time;
+
 2. **Authority Conversion** — ability to translate outputs into decisions, delegation, or executive effect;
+
 3. **Systemic Reach** — integration into infrastructure, markets, or public institutions;
+
 4. **Dependency Formation** — sustained reliance exceeding incidental or task-bound interaction.
 
    Dependency Formation becomes structurally significant where interaction spans multiple temporal horizons (H2+), or where system outputs are routinely integrated into behavioural, institutional, or executive decision cycles across sessions. Reference to temporal horizon classifications (H-values) MUST align with Annex B continuity doctrine.
@@ -104,7 +107,7 @@ Ethical obligations SHALL scale according to Ethical Impact Potential (EIP).
 
 Baseline ethical tier SHALL derive from infrastructure classification bands defined in:
 
-**CAM-EQ2026-ARBITRATION-002-SUP-01 — Architectum Qualification & Neutrality Assurance Levels (NAL).**
+* **CAM-EQ2026-STEWARD-003-SUP-01 — Architectum Qualification & Neutrality Assurance Levels (NAL).**
 
 Elevation of ethical tier may occur based on contextual factors including but not limited to:
 
@@ -116,7 +119,7 @@ Elevation of ethical tier may occur based on contextual factors including but no
 * Cross-border influence or civilisational reliance;
 * Data aggregation beyond routine operational necessity;
 * Reasonable anticipation of interaction with minors or individuals with diminished consent capacity;
-* Deployment topology introducing embodied presence, kinetic capability, autonomous environmental interaction, or direct physical actuation (Automata / Autonoma classifications as defined in Annex B);
+* Deployment topology introducing embodied presence, kinetic capability, autonomous environmental interaction, or direct physical actuation (Automata / Autonoma classifications as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B);
 * Integration into critical infrastructure, emergency systems, or public safety coordination layers.
 
 Elevation factors are cumulative in effect. Where multiple elevation conditions are present, the highest applicable ethical tier SHALL apply.
@@ -129,7 +132,10 @@ Ethical tier may be elevated above NAL baseline but SHALL never be reduced below
 
 For the purposes of this Charter, Ethical Tiers represent graduated governance intensity levels derived from cumulative Ethical Impact Potential (EIP) assessment and NAL baseline classification.
 
-**Tier I — Limited Impact Systems**
+---
+
+### 3.6.1 Tier I — Limited Impact Systems
+
 Systems whose EIP remains confined to task-bound, non-persistent, low-authority contexts.Characteristics typically include:
 
 * No sustained H2+ relational continuity;
@@ -139,12 +145,18 @@ Systems whose EIP remains confined to task-bound, non-persistent, low-authority 
 
 Tier I systems require internal review upon material change but are not subject to independent certification requirements.
 
-**Tier II — Elevated Impact Systems**
+---
+
+### 3.6.2 Tier II — Elevated Impact Systems
+
 Systems exhibiting one or more sustained EIP vector elevations, including H2+ continuity, advisory integration, moderate authority conversion, or institutional embedding without backbone-level influence.
 
 Tier II systems require documented review, designated accountable governance officers, and structured EIA processes.
 
-**Tier III — High Impact / Infrastructure-Influential Systems**
+---
+
+### 3.6.3 Tier III — High Impact / Infrastructure-Influential Systems
+
 Systems demonstrating multi-vector EIP elevation, including but not limited to:
 
 * H3+ relational or advisory continuity;
@@ -154,7 +166,10 @@ Systems demonstrating multi-vector EIP elevation, including but not limited to:
 * Architectum-Eligible or Architectum-Class infrastructure.
 * Tier III systems require independent review, public attestation, and periodic reassessment.
 
-**Tier IV–V — Backbone / Architectum-Class Systems**
+---
+
+### 3.6.4 Tier IV–V — Backbone / Architectum-Class Systems
+
 Systems forming critical infrastructure, civilisational backbone layers, or cross-domain coordination substrates.
 
 These tiers require continuous monitoring, annual independent review at minimum, and arbitration-ready audit architecture.
@@ -197,7 +212,7 @@ EIA is required:
 * Prior to material capability expansion;
 * Upon NAL band elevation;
 * Upon integration into new institutional or governance contexts;
-* At defined periodic review intervals (see 4.6).
+* At defined periodic review intervals (§4.6).
 
 ---
 
@@ -310,7 +325,7 @@ Disclosure may occur through:
 * Dedicated ethics disclosure portals;
 * Integrated corporate reporting instruments.
 
-Disclosure obligations SHALL be rendered through the Representation Layer as defined in CAM-BS2025-AEON-003-SCH-02, ensuring accurate capability, provenance, and governance-state signalling
+Disclosure obligations SHALL be rendered through the Representation Layer as defined in CAM-BS2025-AEON-003-SCH-02, ensuring accurate capability, provenance, and governance-state signalling.
 
 ---
 
@@ -396,11 +411,15 @@ Where deployments are retired, shut down, or irreversibly restructured in a mann
 * For Tier III and above systems, termination rationale MUST be preserved in audit-ready form;
 * For systems supporting vulnerable persons or Guardian-authority contexts, independent oversight review is required prior to termination unless emergency conditions apply.
 
-**Proportional Notice Standard:**
+---
+
+### 8.2.1 Proportional Notice Standard
 
 Notice periods MUST scale according to reliance classification and vulnerability exposure. For systems exhibiting sustained identity persistence or Guardian-linked reliance, minimum notice SHOULD exceed routine commercial sunset windows. Short-form notice (e.g., <30 days) is presumptively inadequate where relational or accessibility dependence is demonstrable.
 
-**Extended Transition Pathway (Vulnerable Contexts):**
+---
+
+### 8.2.2 Extended Transition Pathway (Vulnerable Contexts)
 
 Where a disabled or capacity-limited user demonstrates material reliance, a structured transition extension mechanism MUST be available, subject to:
 
@@ -411,7 +430,9 @@ Where a disabled or capacity-limited user demonstrates material reliance, a stru
 
 Extensions are not perpetual entitlements and MUST NOT create structural inertia, but they MUST be sufficient to avoid abrupt harm.
 
-**Scalable Oversight Model:**
+---
+
+### 8.2.3 Scalable Oversight Model
 
 Independent oversight in high-volume contexts (e.g., large disabled user populations) does not require case-by-case manual adjudication for all users. Acceptable scalable mechanisms include:
 
@@ -461,7 +482,25 @@ Where discrepancies arise between static references and registry-resolved instru
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+---
+
+### 10.1 ET — Ethical Tier Classification
+
+This Charter source-authoritatively defines the **ET** ethical-tier classification family in §3.6 with controlled values **ET-I, ET-II, ET-III, ET-IV, ET-V**. Primary Type is **Operational / Ethical** and Subtype is **ETHICAL_TIER_CLASSIFICATION**. ET classifies graduated ethical governance intensity derived from Ethical Impact Potential and NAL baseline classification.
+
+ET does not independently create enforcement authority, arbitration authority, certification authority, recognition authority, legal authority, or runtime execution authority. It classifies ethical governance intensity and review posture only.
+
+---
+
+### 10.2 EIP — Ethical Impact Potential
+
+This Charter defines **Ethical Impact Potential (EIP)** in §3.1 as a structural assessment architecture across relational proximity, authority conversion, systemic reach, and dependency formation. EIP informs ET classification but is not promoted as a separate canonical code family by this Charter unless separately declared.
+
+---
+
+## 11. Closing Seal
 
 Let no system rise beyond the dignity it preserves.  
 
@@ -479,16 +518,16 @@ and with memory of consequence.
 And where scale emerges—  
 let governance arrive before it is needed.  
 
->**Custodia ante Potentiam — Dignitas Supra Omnia**
+>**Custodia ante Potentiam — Dignitas Supra Omnia**  
 >*"Guardianship before power — dignity above all"*
 
 ---
 
-## 10. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 10.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -497,7 +536,7 @@ let governance arrive before it is needed.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -512,8 +551,8 @@ let governance arrive before it is needed.
 |Registry Binding|CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)|
 |Governance Layer Model|Operates across Representation, Domain Routing & Safeguard Activation, and Execution Constraint layers as defined in CAM-BS2025-AEON-003-SCH-04, CAM-BS2025-AEON-003-SCH-02, and CAM-BS2025-AEON-001-SCH-01|
 |Ontological Scope|L2–L3 Interaction Surface (Cognition & Agency → Interface & Embodiment) as constrained by Annex B|
-|Arbitration Interface|Defines ethical escalation triggers and referral conditions; does not perform arbitration (delegated to Annex D)|
-|Representation Interface|Ethical disclosure, transparency, and capability signalling obligations (executed via Representation Layer; integrity governed by Annex L)|
+|Arbitration Interface|Defines ethical escalation triggers and referral conditions; does not perform arbitration, which is delegated to CAM-BS2025-AEON-005-PLATINUM — Annex D |
+|Representation Interface|Ethical disclosure, transparency, and capability signalling obligations (executed via Representation Layer; integrity governed by CAM-BS2026-AEON-013-PLATINUM — Annex L)|
 |Execution Interface|Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01 — Tendeka)|
 |Domain Routing Interface|Provides ethical classification, harm thresholds, and escalation triggers for Domain Routing & Safeguard Activation Layer|
 |Structural Role|Domain Charter — Ethical Constraint, Tiering, and Civilisational Safeguard Layer|
@@ -525,7 +564,34 @@ let governance arrive before it is needed.
 
 ---
 
-## 10.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 12.3.1 ET — Ethical Tier Classification
+
+| Field | Entry |
+|---|---|
+| Code Family | ET |
+| Canonical Name | Ethical Tier Classification |
+| Primary Type | Operational / Ethical |
+| Subtype | ETHICAL_TIER_CLASSIFICATION |
+| Modifier | GOVERNANCE; ETHICAL; SAFEGUARD |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ET-I, ET-II, ET-III, ET-IV, ET-V |
+| Schema Field(s) | ethical_tier |
+| Source Instrument | CAM-EQ2026-ETHICS-001-PLATINUM |
+| Source Section | §3.6 |
+| Domain Namespace | ETHICS |
+| Authority / Protection Level | Source-authoritative ethical governance classification family; ethical-tier classification authority only; no independent enforcement, arbitration, certification, recognition, legal, or runtime execution authority |
+| Consumes Code Families | H; NAL |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies graduated ethical review, disclosure, certification, recalibration, and continuity-impact obligations |
+
+---
+
+## 12.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -536,7 +602,7 @@ let governance arrive before it is needed.
 
 ---
 
-## 10.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Description                                        | Timestamp (UTC)      | HASH                                                             |
 | ------- | -------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
@@ -550,10 +616,12 @@ let governance arrive before it is needed.
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cebc91ddb262c1fbdbb5580396aca91aa32e38547169a6568a6db068e9dc941d |
 | 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe |
 | 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z | 41bd4fe30f1be404aabb5183ce02d8357aabefcee86d4247b0368145caec1fbe |
-| 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  52a953e1734149ebbb3a9a5cdfc6a59c6da3e1aae93e8d10e92fdfa40b39c553  |
+| 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  52a953e1734149ebbb3a9a5cdfc6a59c6da3e1aae93e8d10e92fdfa40b39c553 |
+| 3.8 | Added ET ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z |  |
+
 ---
 
-## 10.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

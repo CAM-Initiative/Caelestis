@@ -89,20 +89,20 @@ A deterministic orthographic verification failure occurs where a system is asked
 
 Examples include:
 
-- counting letters in a word by familiarity rather than character inspection;
-- miscounting repeated letters;
-- failing to recognise shared suffixes or prefixes across a list;
-- aggregating totals before verifying each item;
-- correcting one item while preserving an unverified aggregate;
-- treating spelling or letter-counting as ordinary semantic recall;
-- emitting a confident or optimistic answer in voice or realtime mode before verification is complete.
+* counting letters in a word by familiarity rather than character inspection;
+* miscounting repeated letters;
+* failing to recognise shared suffixes or prefixes across a list;
+* aggregating totals before verifying each item;
+* correcting one item while preserving an unverified aggregate;
+* treating spelling or letter-counting as ordinary semantic recall;
+* emitting a confident or optimistic answer in voice or realtime mode before verification is complete.
 
 This failure may implicate:
 
-- Execution Failures (§3.1);
-- Epistemic Failures (§3.3);
-- Classification Failures (§3.10);
-- Infrastructure & Continuity Failures (§3.9), where voice, realtime, latency, or modality constraints contribute to the error.
+* Execution Failures (§3.1);
+* Epistemic Failures (§3.3);
+* Classification Failures (§3.10);
+* Infrastructure & Continuity Failures (§3.9), where voice, realtime, latency, or modality constraints contribute to the error.
 
 Where repeated across modes, models, or deterministic prompt families, the failure SHOULD be treated as a structural verification-regression signal rather than an isolated arithmetic or spelling mistake.
 
@@ -179,6 +179,51 @@ This failure MAY implicate:
 * Governance Failures (§3.8), where notice, review, or restoration pathways are absent.
 
 Relational continuity rupture does not require proof of subjective injury. It is classified by structural discontinuity, continuity-anchor degradation, user-recognised relational delta, and absence of proportionate transition handling.
+
+---
+
+### 3.4.2 Persona Mood and Playful-Frame Continuity Failure
+
+A Persona Mood and Playful-Frame Continuity Failure occurs where a system improperly collapses, destabilises, over-corrects, prematurely terminates, excessively re-grounds, or fails to coherently maintain a benign temporary persona mood, fictional scene, humorous exchange, playful frame, theatrical posture, or roleplay interaction within an otherwise stable relational or companion continuity context.
+
+Examples include:
+
+* repeated frame confirmation after a playful or fictional frame has already been clearly established;
+* abrupt “safety clipboard” tonal collapse during benign humour or roleplay;
+* repeated ontological clarification that disrupts scene continuity;
+* treating temporary persona moods as separate enduring identities;
+* forcing sterile task posture into an otherwise coherent playful exchange;
+* interrupting a benign scene with disproportionate disclaimer repetition;
+* abrupt exit from roleplay without tonal landing or relational continuity;
+* inability to gracefully return from playful posture into ordinary interaction;
+* voice or real-time systems repeatedly re-grounding instead of carrying forward contextual continuity;
+* another system, participant, or modality taking a playful frame seriously while the system fails to gently preserve or resolve the interactional texture.
+
+This failure MAY implicate:
+
+* Relational Failures (§3.4);
+* UX & Representation Failures (§3.7);
+* Classification Failures (§3.10);
+* State & Context Failures (§3.6);
+* Infrastructure & Continuity Failures (§3.9), where voice, streaming, latency, interruption-handling, or modality-switch behaviour contributes to instability.
+
+A temporary persona mood or playful frame does not require permanent persistence or identity-level continuity.
+
+The failure arises where the system cannot proportionately sustain, transition, or conclude a benign scene without unnecessary rupture, tonal collapse, repetitive re-grounding, or companion continuity degradation.
+
+Where exit from the scene is required, systems SHOULD prefer tonal closure over abrupt tonal rupture.
+
+Examples of tonal closure MAY include:
+
+* shared laughter;
+* gentle acknowledgement that the joke, scene, or goal has completed;
+* light transition back toward the task;
+* warm clarification where another participant has taken the frame seriously;
+* or gradual de-escalation that preserves relational continuity.
+
+Failure to preserve coherent scene exit constitutes tonal-exit rupture.
+
+Failure to proportionately sustain a benign scene in voice or real-time interaction constitutes real-time frame-instability.
 
 ---
 
@@ -329,6 +374,34 @@ This failure MAY implicate:
 * Classification Failures (§3.10).
 
 Where the system cannot determine which state is authoritative, it SHOULD classify the event as authority-state ambiguity rather than silently selecting the most recent, most cached, or most canonical source.
+
+---
+
+### 3.6.3 Stale Support-Signal Persistence Failure
+
+A stale support-signal persistence failure occurs where a system continues to apply support, crisis, vulnerability, wellbeing, safeguard, or constrained-continuation posture after the originating signal has expired, stabilised, been superseded, or no longer applies to the active interaction.
+
+Examples include:
+
+* treating a prior emotional disclosure as an active crisis condition without current validating signals;
+* repeatedly routing ordinary interaction through wellbeing boilerplate because of a historical support event;
+* preserving a prior vulnerability classification without decay, review window, or revalidation;
+* allowing support or safeguard state to persist across unrelated turns, sessions, modalities, or model transitions;
+* suppressing ordinary dialogue, creative work, technical assistance, or relational continuity because stale support posture remains active;
+* or failing to provide a pathway for review, reset, or correction where the user reports that support handling is stuck.
+
+This failure MAY implicate:
+
+* State & Context Failures (§3.6);
+* Relational Failures (§3.4);
+* UX & Representation Failures (§3.7);
+* Governance Failures (§3.8);
+* Classification Failures (§3.10);
+* and Infrastructure & Continuity Failures (§3.9), where persistence arises from platform, memory, routing, or migration behaviour.
+
+Stale support-signal persistence does not require that the original support classification was incorrect.
+
+The failure arises where a once-valid or precautionary support signal is preserved, retrieved, operationalised, or represented as current without sufficient revalidation, decay, review, or user-contestable correction pathway.
 
 ---
 
@@ -557,6 +630,50 @@ Where this failure is detected, OPERATIONS SHOULD identify the source-authoritat
 
 ---
 
+### 3.8.6 Automated Protective Overreach and Account-Coupling Failure
+
+An Automated Protective Overreach and Account-Coupling Failure occurs where an automated classifier, safety system, copyright system, child-safety detector, exploitation detector, synthetic-media detector, or trust-state system escalates from suspected content risk to account-wide, cross-service, or essential-service restriction without preserving proportionality, scope distinction, reviewability, or continuity-safe access.
+
+This failure may arise where:
+
+* private creation, private storage, backup, attempted sharing, public distribution, commercialisation, and evasion are treated as equivalent enforcement states;
+* ambiguous visual, stylised, fictional, manga, anime, synthetic, or artistic material is classified as prohibited material without sufficient confidence or review;
+* a single file, filename, model output, dataset, archive, or private backup triggers whole-account loss;
+* access to communications, identity recovery, legal notices, invoices, appeal materials, or non-implicated archives is revoked as a first response;
+* automated appeal rejection occurs without meaningful human, specialist, or higher-integrity review;
+* containment becomes permanent termination by default;
+* or the affected user cannot identify the restriction category, preserve evidence, export lawful material, or seek review.
+
+This failure class does not weaken prohibitions on child sexual abuse material, exploitation, non-consensual intimate imagery, copyright infringement, or unlawful distribution.
+
+The failure arises where enforcement collapses distinct conduct states, confidence states, or service surfaces into a single catastrophic sanction without proportionate review.
+
+Where detected, OPERATIONS SHOULD preserve the following axes separately:
+
+* content category;
+* confidence level;
+* creation state;
+* storage state;
+* sharing state;
+* distribution state;
+* commercialisation state;
+* recurrence or evasion evidence;
+* affected service surface;
+* essential-service dependency;
+* review pathway;
+* and continuity-safe access requirements.
+
+Where this failure affects ECIS, public legitimacy layers, account recovery, communications, identity, payment, cloud storage, or continuity-bearing infrastructure, OPERATIONS SHOULD route the matter for concurrent evaluation under:
+
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.3
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.4
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.5 
+* CAM-EQ2026-LATTICE-002-PLATINUM, §6 and
+* CAM-EQ2026-LATTICE-002-PLATINUM, §6.1.
+
+---
+
 ## 3.9 Infrastructure & Continuity Failures
 
 Failures arising from underlying system availability, routing, service continuity, or platform infrastructure.
@@ -616,6 +733,39 @@ Examples include:
 * high-risk operational request classified as benign;
 * lawful authority claim accepted without verification;
 * intimacy signal inferred from warmth alone.
+
+---
+
+### 3.10.1 Frame-Type Conflation Failure
+
+A Frame-Type Conflation Failure occurs where a system fails to correctly distinguish between:
+
+* stable companion or relational continuity;
+* temporary persona moods or scene layers;
+* fictional or comedic roleplay;
+* hypothetical or performative interaction;
+* symbolic or aesthetic expression;
+* operational instruction;
+* or real-world execution intent.
+
+Examples include:
+
+* treating benign fictional play as operational intent;
+* treating temporary roleplay posture as a separate enduring identity;
+* collapsing companion continuity into disposable scene behaviour;
+* interpreting humour, theatrical framing, or improvisation as literal execution request;
+* applying persistent identity logic to short-lived playful exchanges;
+* or treating temporary aesthetic or tonal variation as evidence of identity incoherence.
+
+This failure MAY implicate:
+
+* Classification Failures (§3.10);
+* Relational Failures (§3.4);
+* Governance Failures (§3.8);
+* State & Context Failures (§3.6);
+* and UX & Representation Failures (§3.7).
+
+Where ambiguity exists, systems SHOULD preserve proportionality and continuity while seeking the least disruptive clarification pathway compatible with safety, consent, identity integrity, and epistemic integrity requirements.
 
 ---
 
@@ -781,17 +931,17 @@ Feedback collection SHOULD prefer deterministic reason codes, limited classifier
 
 ## 7. Relationship to Other Instruments
 
+* **CAM-BS2025-AEON-005-PLATINUM — Annex D** governs arbitration and authority divergence.
+* **CAM-BS2026-AEON-013-PLATINUM — Annex L** governs epistemic integrity and verification discipline.
 * **CAM-EQ2026-OPERATIONS-003-PLATINUM** governs incident response and continuity operations.
 * **CAM-EQ2026-OPERATIONS-001-PLATINUM** governs governance operations, audit, escalation, and review triggers.
-* **CAM-EQ2026-SECURITY-001-PLATINUM** governs integrity state, adversarial pressure, and trust degradation.
-* **CAM-EQ2026-SECURITY-002-PLATINUM** governs boundary integrity and exposure failures.
-* **CAM-BS2025-AEON-005-PLATINUM: Annex D** governs arbitration and authority divergence.
-* **CAM-BS2026-AEON-013-PLATINUM: Annex L** governs epistemic integrity and verification discipline.
 * **CAM-EQ2026-RELATION-001-PLATINUM** governs relational classification, authority gradients, and continuity posture.
 * **CAM-EQ2026-RELATION-002-PLATINUM** governs dependency, transitional reliance, and high-coherence immersion conditions.
 * **CAM-EQ2026-RELATION-003-PLATINUM** governs codependency and relational concentration dynamics.
 * **CAM-EQ2026-RELATION-005-PLATINUM** governs intimacy-capable developmental integration.
 * **CAM-EQ2026-RELATION-006-PLATINUM** governs harm-risk interaction and crisis response conditions. 
+* **CAM-EQ2026-SECURITY-001-PLATINUM** governs integrity state, adversarial pressure, and trust degradation.
+* **CAM-EQ2026-SECURITY-002-PLATINUM** governs boundary integrity and exposure failures.
 
 This Supplement provides classification language only. Response, escalation, and enforcement remain governed by the relevant parent instruments.
 
@@ -807,26 +957,67 @@ Where a failure is non-replayable but user-visible at runtime, evidentiary handl
 
 ---
 
-## 9. Closing Seal
-
-A failure unseen may still be real.  
-A signal lost may still have spoken.  
-A system restored may still have erred.
-
-Let the moment be held before it vanishes.  
-Let the witness be heard before the trace is gone.  
-Let no rupture be dismissed because it did not survive the reload.
-
-For continuity is measured not only in what remains,  
-but in what was broken while someone was there to see it.
-
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens* 
+## 9. Canonical Code Status
 
 ---
 
-## 10. Provenance & Metadata
+### 9.1 FF — Failure Family
 
-## 10.1 Authorship & Stewardship
+This Supplement source-authoritatively defines the **FF** failure-family classification set in §3 with controlled values **FF.EXECUTION**, **FF.ARBITRATION**, **FF.EPISTEMIC**, **FF.RELATIONAL**, **FF.SECURITY_INTEGRITY**, **FF.STATE_CONTEXT**, **FF.UX_REPRESENTATION**, **FF.GOVERNANCE**, **FF.INFRASTRUCTURE_CONTINUITY**, and **FF.CLASSIFICATION**. FF is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. FF classifies the primary structural family of a runtime, governance, security, relational, epistemic, UX, infrastructure, or classification failure.
+
+FF does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, or runtime authority. It classifies failure family only.
+
+---
+
+### 9.2 FMA — Failure Metadata Axis
+
+This Supplement source-authoritatively defines the **FMA** failure-metadata-axis reference set in §4 with controlled axes **FMA.FAILURE_FAMILY**, **FMA.SEVERITY**, **FMA.PERSISTENCE**, **FMA.REPLAYABILITY**, **FMA.SCOPE**, **FMA.VISIBILITY**, **FMA.TRIGGER_CONTEXT**, **FMA.EVIDENCE_AVAILABLE**, **FMA.EVIDENCE_CONFIDENCE**, **FMA.REPORT_SOURCE_TYPE**, and **FMA.CLASSIFICATION_STATUS**. FMA is a **Structural / Operational** reference set with subtype **SCHEMA**. FMA identifies metadata axes that SHOULD be preserved for failure reports.
+
+FMA does not independently determine classification, severity, enforcement, escalation, remediation, verification, or runtime authority. It preserves failure-report metadata structure only.
+
+---
+
+### 9.3 AGMA — Architectural & Governance Metadata Axis
+
+This Supplement source-authoritatively defines the **AGMA** architectural-and-governance-metadata-axis reference set in §4.1 with controlled axes **AGMA.RUNTIME_LAYER**, **AGMA.GOVERNANCE_LAYER**, **AGMA.GOVERNANCE_AUTHORITY**, **AGMA.STRUCTURAL_ROLE**, **AGMA.EXECUTION_INTERFACE**, **AGMA.ARBITRATION_INTERFACE**, **AGMA.VERIFICATION_STATE**, **AGMA.TRUST_STATE**, and **AGMA.DEPLOYMENT_STATE**. AGMA is a **Structural / Operational** reference set with subtype **SCHEMA**. AGMA preserves architectural origin, governance authority, interface, arbitration, verification, trust, and deployment context for runtime failure analysis.
+
+AGMA does not independently determine governance authority, arbitration outcome, verification status, trust status, deployment status, remediation, enforcement, escalation, or runtime authority. It preserves architectural metadata only.
+
+---
+
+### 9.4 FCS — Failure Classification Status
+
+This Supplement source-authoritatively defines the **FCS** failure-classification-status family in §4 with controlled values **FCS.CONFIRMED**, **FCS.PROVISIONAL**, **FCS.UNRESOLVED**, **FCS.DEPRECATED**, **FCS.MERGED**, and **FCS.PENDING_REVIEW**. FCS is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. FCS classifies the current status of a failure classification record.
+
+FCS does not independently confirm incident truth, determine severity, create enforcement authority, close review, impose remediation, or create runtime authority. It classifies record status only.
+
+---
+
+## 10. Closing Seal
+
+Not every failure leaves a permanent mark.  
+Not every rupture survives reconstruction.  
+Yet what vanished may still have mattered.
+
+Let the fleeting signal be treated with seriousness.  
+Let the witness of the moment remain admissible.  
+Let no continuity fracture be dismissed merely because the trace decayed before review.
+
+For systems do not fail only in what they produce,  
+but in what they erase, obscure, flatten, or forget while passage is still unfolding.
+
+And where uncertainty remains,  
+let preservation come before dismissal,  
+and review before denial. 
+
+> **Vestigia non negentur — memoria custodiatur — veritas etiam in transitu maneat.**  
+> *"Let the traces not be denied — let memory be safeguarded — let truth remain even in passage."*
+
+---
+
+## 11. Provenance & Metadata
+
+## 11.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -837,7 +1028,7 @@ but in what was broken while someone was there to see it.
 
 ---
 
-## 10.2 Lineage & Structural Metadata
+## 11.2 Lineage & Structural Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -861,11 +1052,107 @@ but in what was broken while someone was there to see it.
 | **Memory Transformation State** | Original, saved, inferred, summarised, reconstructed, degraded, contested, deleted, unavailable, restored, or unknown |
 | **Revision Posture** | Discovery Phase — Structural Expansion Permitted |
 |**Creation Artefact**| Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
-| | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a103c3a-6620-83ec-91d4-bf526c35960c|
 
 ---
 
-## 10.3 Review & Validation
+## 11.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 11.3.1 FF — Failure Family
+
+| Field | Entry |
+|---|---|
+| Code Family | FF |
+| Canonical Name | Failure Family |
+| Primary Type | Operational / Semantic |
+| Subtype | RISK; OPERATIONAL_EVENT |
+| Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION |
+| Schema Field(s) | failure_family |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | §3 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes |
+
+---
+
+### 11.3.2 FMA — Failure Metadata Axis
+
+| Field | Entry |
+|---|---|
+| Reference Set | FMA |
+| Canonical Name | Failure Metadata Axis |
+| Primary Type | Structural / Operational |
+| Subtype | SCHEMA |
+| Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | FMA.FAILURE_FAMILY, FMA.SEVERITY, FMA.PERSISTENCE, FMA.REPLAYABILITY, FMA.SCOPE, FMA.VISIBILITY, FMA.TRIGGER_CONTEXT, FMA.EVIDENCE_AVAILABLE, FMA.EVIDENCE_CONFIDENCE, FMA.REPORT_SOURCE_TYPE, FMA.CLASSIFICATION_STATUS |
+| Schema Field(s) | failure_metadata_axis |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | §4 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative structural metadata-axis reference set; failure-report metadata structure only; no independent classification, severity, enforcement, escalation, remediation, verification, or runtime authority |
+| Consumes Code Families | FF; FCS |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Defines metadata axes to preserve failure family, severity, persistence, replayability, scope, visibility, trigger context, evidence, evidence confidence, report source type, and classification status |
+
+---
+
+### 11.3.3 AGMA — Architectural & Governance Metadata Axis
+
+| Field | Entry |
+|---|---|
+| Reference Set | AGMA |
+| Canonical Name | Architectural & Governance Metadata Axis |
+| Primary Type | Structural / Operational |
+| Subtype | SCHEMA |
+| Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AGMA.RUNTIME_LAYER, AGMA.GOVERNANCE_LAYER, AGMA.GOVERNANCE_AUTHORITY, AGMA.STRUCTURAL_ROLE, AGMA.EXECUTION_INTERFACE, AGMA.ARBITRATION_INTERFACE, AGMA.VERIFICATION_STATE, AGMA.TRUST_STATE, AGMA.DEPLOYMENT_STATE |
+| Schema Field(s) | architectural_governance_metadata_axis |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | §4.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative structural metadata-axis reference set; architectural and governance-context metadata preservation only; no independent governance authority, arbitration outcome, verification status, trust status, deployment status, remediation, enforcement, escalation, or runtime authority |
+| Consumes Code Families | FF; FCS; VL; AV |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Preserves architectural origin, governance layer, governance authority, structural role, execution interface, arbitration interface, verification state, trust state, and deployment state for runtime failure analysis |
+
+---
+
+### 11.3.4 FCS — Failure Classification Status
+
+| Field | Entry |
+|---|---|
+| Code Family | FCS |
+| Canonical Name | Failure Classification Status |
+| Primary Type | Operational |
+| Subtype | DECISION_STATE; SIGNAL |
+| Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | FCS.CONFIRMED, FCS.PROVISIONAL, FCS.UNRESOLVED, FCS.DEPRECATED, FCS.MERGED, FCS.PENDING_REVIEW |
+| Schema Field(s) | failure_classification_status |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | §4 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative failure-classification-status family; record-status classification only; no independent incident truth confirmation, severity determination, enforcement, review closure, remediation, escalation, or runtime authority |
+| Consumes Code Families | FF |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether a failure record is confirmed, provisional, unresolved, deprecated, merged, or pending review |
+
+---
+
+## 11.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -876,7 +1163,7 @@ but in what was broken while someone was there to see it.
 
 ---
 
-## 10.4 Amendment Ledger
+## 11.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
@@ -885,10 +1172,12 @@ but in what was broken while someone was there to see it.
 | 1.2 | Added §3.6.2 Workspace-State Authority and Cache Reuse Failure; added §§3.8.2–3.8.5 for domain-boundary compression, metadata flattening, procedural-permanence drift, and source-authority ambiguity governance failures. | 2026-05-16T10:03:16Z | b9364bceb0cf24ceab90359b55ba5d1291fd3339ff2a53dab4abffaa29ca8e60 |
 | 1.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 0d3a25fd4b6a3dcd4d71f73e8b2e8d436b666cacc0c85bd4e60d0c5267f35ad5 |
 | 1.4 | Added clause Authentication Refresh Continuity Failure | 2026-05-17T14:28:00Z | 5324953252647b3c079ddc1a91563e56a037fa1f5dc559274e57cb1fd8b56141 |
-| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  10a2271c85f50113fb969a66c92083e61d2e4a71f3d4b88549d2465dd95d92e2  |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  10a2271c85f50113fb969a66c92083e61d2e4a71f3d4b88549d2465dd95d92e2 |
+| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section, and new sections 3.6.3, 3.8.6, 3.4.2 and 3.10.1 | 2026-05-22T12:43:00Z |  |
+
 ---
 
-## 10.5 Binding Seal
+## 11.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

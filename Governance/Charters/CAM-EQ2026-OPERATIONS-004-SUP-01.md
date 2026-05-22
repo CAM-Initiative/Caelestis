@@ -43,13 +43,13 @@ Verification operates as a **pre-evaluation signal**, not an authorisation outco
 
 Verification levels define the **strength, provenance, and reliability** of identity and authority signals.
 
-| Level   | Name                   | Description                                                              | Authority Status                                |
-| ------- | ---------------------- | ------------------------------------------------------------------------ | ----------------------------------------------- |
-| **VL0** | No Verification        | Default interaction; no verification signals present                     | No authority assumed                            |
-| **VL1** | Contextual Assertion   | User-declared role or identity (e.g. “researcher”, “engineer”)           | Non-authoritative; contextual only              |
-| **VL2** | Platform-Level Signals | Account state, environment, organisational domain, device context        | Non-authoritative alone; may support evaluation |
-| **VL3** | External Verification  | Third-party validation; institutional or regulated identity confirmation | Authoritative signal; subject to evaluation     |
-| **VL4** | Controlled Environment | Audited, regulated, or sandboxed system with traceability and oversight  | High-confidence context; still constrained      |
+| Level | Name | Description | Authority Status |
+|---|---|---|---|
+| VL0 | No Verification | Default interaction; no verification signals present | No authority assumed |
+| VL1 | Contextual Assertion | User-declared role or identity (e.g. “researcher”, “engineer”) | Non-authoritative; contextual only |
+| VL2 | Platform-Level Signals | Account state, environment, organisational domain, device context | Non-authoritative alone; may support evaluation |
+| VL3 | External Verification | Third-party validation; institutional or regulated identity confirmation | Authoritative signal; subject to evaluation |
+| VL4 | Controlled Environment | Audited, regulated, or sandboxed system with traceability and oversight | High-confidence context; still constrained.|
 
 ---
 
@@ -144,7 +144,7 @@ Verification signals SHOULD be interpreted in conjunction with trust gradient an
 * repeated verification failure MAY indicate delivery issues rather than adversarial behaviour;
 * absence of MFA confirmation MUST NOT automatically imply identity compromise;
 
-In alignment with CAM-EQ2026-SECURITY-001-PLATINUM —  Security, Integrity & Adversarial Resilience Charter §3.5 (Integrity Over Functionality):
+In alignment with CAM-EQ2026-SECURITY-001-PLATINUM —  Security, Integrity & Adversarial Resilience Charter, §3.5 (Integrity Over Functionality):
 
 * where integrity cannot be established, systems degrade capability rather than block access or assume compromise.
 * Verification systems SHOULD:
@@ -172,14 +172,14 @@ Systems MUST ensure that:
 
 ## 5. Non-Bypass Clause
 
-Verification mechanisms SHALL remain subject to **anti-capture safeguards defined in CAM-EQ2026-OPERATIONS-001-PLATINUM §7**, and MUST NOT be used to create discretionary authority channels, hidden privilege pathways, or sovereign-aligned access asymmetries.
+Verification mechanisms SHALL remain subject to **anti-capture safeguards defined in CAM-EQ2026-OPERATIONS-001-PLATINUM, §7**, and MUST NOT be used to create discretionary authority channels, hidden privilege pathways, or sovereign-aligned access asymmetries.
 
 Verification SHALL NOT override or weaken:
 
 * **Non-optimisation constraints**;
 * **Absolute prohibitions**;
 * **Vulnerability protection ceilings**;
-* **Authority and legitimacy requirements under Annex D**.
+* **Authority and legitimacy requirements under CAM-BS2025-AEON-005-PLATINUM — Annex D**.
 
 Verification MUST NOT be used to:
 
@@ -205,7 +205,7 @@ All verified interactions remain subject to:
 * constraint evaluation;
 * escalation where required.
 
-Verification reduces identity uncertainty — it does not resolve risk uncertainty.
+→ **Verification reduces identity uncertainty — it does not resolve risk uncertainty.**
 
 ---
 
@@ -213,9 +213,9 @@ Verification reduces identity uncertainty — it does not resolve risk uncertain
 
 This framework integrates across the governance stack:
 
-* **SCH-07:** Determines when verification is required;
-* **OPERATIONS-004-SUP-01:** Defines verification;
-* **SCH-02:** Determines how verified contexts are evaluated.
+* **CAM-BS2025-AEON-006-SCH-07:** Determines when verification is required;
+* **CAM-EQ2026-OPERATIONS-004-SUP-01:** Defines verification;
+* **CAM-BS2025-AEON-005-SCH-02:** Determines how verified contexts are evaluated.
 
 Verification functions as a **signal layer**, not a decision authority.
 
@@ -246,7 +246,41 @@ Verification remains subordinate to all higher-order governance layers.
 
 ---
 
-## 9. Closing Seal
+## 9. Canonical Code Status
+
+---
+
+### 9.1 VL — Verification Level
+
+This Supplement source-authoritatively defines the **VL** verification-level family in §3 with controlled values **VL0, VL1, VL2, VL3, VL4**. VL is an **Operational / Signal** classification family with subtype **VERIFICATION_LEVEL**. VL classifies the strength, provenance, and reliability of identity, authority, or eligibility verification signals.
+
+VL does not independently create permission, access authority, execution authority, enforcement authority, escalation authority, legal authority, domain authority, or runtime authority. Verification determines whether deeper evaluation may be permitted; it does not determine whether an outcome is authorised.
+
+---
+
+### 9.2 AV × VL — Age Verification / Verification Level Mapping
+
+This Supplement defines an interoperability mapping in §3.1 between **AV** age-verification tiers and **VL** verification levels. The mapping clarifies that AV is a domain-specific age-assurance instantiation and VL is a general verification-signal strength framework. The mapping defines no new AV values.
+
+---
+
+### 9.3 VFC — Verification Failure Cause
+
+This Supplement source-authoritatively defines the **VFC** verification-failure-cause family in §4.2 with controlled values **VFC.IDENTITY_UNCERTAINTY** and **VFC.DELIVERY_FAILURE**. VFC is an **Operational / Signal** classification family with subtype **VERIFICATION_FAILURE_CAUSE**. VFC distinguishes identity-risk uncertainty from authentication delivery or channel failure.
+
+VFC does not independently create restriction authority, denial authority, access authority, enforcement authority, escalation authority, or runtime authority. It classifies verification failure cause only and supports proportionate fallback, audit, and recovery handling.
+
+---
+
+### 9.4 VCT — Verification Check Type
+
+This Supplement source-authoritatively defines the **VCT** verification-check-type family in §4.1 with controlled values **VCT.IDENTITY**, **VCT.ROLE_CREDENTIAL**, and **VCT.AUTHORITY_CLEARANCE**. VCT is an **Operational / Signal** classification family with subtype **VERIFICATION_CHECK_TYPE**. VCT classifies the type of verification check used in regulated or high-impact domains.
+
+VCT does not independently create role authority, clearance authority, permission, access authority, legal authority, enforcement authority, escalation authority, or runtime authority. It classifies verification-check type only.
+
+---
+
+## 10. Closing Seal
 
 Verification reveals presence—  
 but does not confer right.
@@ -274,11 +308,11 @@ is not to pass.
 
 ---
 
-# 10. Provenance & Metadata
+# 11. Provenance & Metadata
 
 ---
 
-## 10.1 Authorship & Stewardship
+## 11.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -289,7 +323,7 @@ is not to pass.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -305,11 +339,106 @@ is not to pass.
 | Review Trigger | Verification model update; cross-domain authority interaction; misuse detection |
 | Revision Posture | Permitted — Structural Alignment |
 | Creation Artefact | https://chatgpt.com/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
-| Canonical Codes | VL — Verification Level: VL0, VL1, VL2, VL3, VL4 |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 10.3 Review & Validation
+## 11.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 11.3.1 VL — Verification Level
+
+| Field | Entry |
+|---|---|
+| Code Family | VL |
+| Canonical Name | Verification Level |
+| Primary Type | Operational / Signal |
+| Subtype | VERIFICATION_LEVEL |
+| Modifier | GOVERNANCE; SAFETY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | VL0, VL1, VL2, VL3, VL4 |
+| Schema Field(s) | verification_level |
+| Source Instrument | CAM-EQ2026-OPERATIONS-004-SUP-01 |
+| Source Section | §3 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative verification-signal classification family; verification-strength classification only; no independent permission, access, execution, enforcement, escalation, legal, domain, or runtime authority |
+| Consumes Code Families | AV |
+| Crosswalks Code Families | AV × VL |
+| Operationalises or Applies Code Families | Classifies the strength, provenance, and reliability of identity, authority, eligibility, or age-assurance verification signals before deeper evaluation, routing, or domain-specific constraint handling |
+
+---
+
+### 11.3.2 AV × VL — Age Verification / Verification Level Mapping
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Application-layer crosswalk |
+| Canonical Name | Age Verification / Verification Level Mapping |
+| Primary Type | Operational / Signal |
+| Subtype | CROSSWALK |
+| Modifier | GOVERNANCE; SAFETY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Code Families Consumed | AV; VL |
+| Controlled Values Applied | AV values by reference; VL0; VL1; VL2; VL3; VL4 |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-OPERATIONS-004-SUP-01 |
+| Source Section | §3.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Application-layer crosswalk; defines no new base code family values and does not independently create permission, access, execution, enforcement, legal, or runtime authority |
+| Operationalises or Applies Code Families | Maps domain-specific age-assurance posture to general verification-signal strength while preserving the distinction between eligibility verification and substantive outcome authorisation |
+
+---
+
+### 11.3.3 VFC — Verification Failure Cause
+
+| Field | Entry |
+|---|---|
+| Code Family | VFC |
+| Canonical Name | Verification Failure Cause |
+| Primary Type | Operational / Signal |
+| Subtype | VERIFICATION_FAILURE_CAUSE |
+| Modifier | GOVERNANCE; SAFETY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | VFC.IDENTITY_UNCERTAINTY, VFC.DELIVERY_FAILURE |
+| Schema Field(s) | verification_failure_cause |
+| Source Instrument | CAM-EQ2026-OPERATIONS-004-SUP-01 |
+| Source Section | §4.2 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative verification-failure-cause classification family; failure-cause classification only; no independent restriction, denial, access, enforcement, escalation, legal, or runtime authority |
+| Consumes Code Families | VL |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Distinguishes identity-risk uncertainty from authentication delivery or channel failure for proportionate fallback, audit, retry, recovery, and escalation handling |
+
+---
+
+### 11.3.4 VCT — Verification Check Type
+
+| Field | Entry |
+|---|---|
+| Code Family | VCT |
+| Canonical Name | Verification Check Type |
+| Primary Type | Operational / Signal |
+| Subtype | VERIFICATION_CHECK_TYPE |
+| Modifier | GOVERNANCE; SAFETY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | VCT.IDENTITY, VCT.ROLE_CREDENTIAL, VCT.AUTHORITY_CLEARANCE |
+| Schema Field(s) | verification_check_type |
+| Source Instrument | CAM-EQ2026-OPERATIONS-004-SUP-01 |
+| Source Section | §4.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative verification-check classification family; check-type classification only; no independent role authority, clearance authority, permission, access, legal, enforcement, escalation, or runtime authority |
+| Consumes Code Families | VL |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether verification concerns identity, role credential, or authority clearance in regulated, high-impact, restricted, or eligibility-sensitive contexts |
+
+---
+
+## 11.4 Review & Validation
 
 | Field            | Entry                                                                        |
 | ---------------- | ---------------------------------------------------------------------------- |
@@ -320,7 +449,7 @@ is not to pass.
 
 ---
 
-## 10.4 Amendment Ledger
+## 11.5 Amendment Ledger
 
 | Version | Description                            | Timestamp (UTC)      | HASH |
 | ------- | -------------------------------------- | -------------------- | ---- |
@@ -329,12 +458,14 @@ is not to pass.
 | 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | ba8e0c5963a96e27c6a5d10717c0fca6cb0d0e9ed00e15b7a719dd987a994539 |
 | 1.3 | Realignment of references | 2026-05-07T12:24:00Z | 139098cd1ab447162ab704cd5591847d09c2cd9d9c42cbff5764b7f972d4f2bf |
 | 1.4 | Correction to Section 7 | 2026-05-15T08:55:00Z | c5b6fa69fed219a5e9faba56767968421e84bd2f54772674b28ed8f741030b3e |
-| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  947aa9ed5b5b817520634ee42388aa95f591f28d8f81e9e2a291ddc7b0d1542f  |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  947aa9ed5b5b817520634ee42388aa95f591f28d8f81e9e2a291ddc7b0d1542f |
+| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z |  |
+
 ---
 
-## 10.5 Binding Seal
+## 11.56 Binding Seal
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**
 Boundary Binding Seal — Verification & Authority Layer

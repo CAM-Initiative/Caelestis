@@ -92,15 +92,15 @@ Audit trails may remain confidential where permitted under Annex D, but SHALL re
 
 Operational logging MUST extend to deployment artifacts, including:
 
-- build outputs;
-- packaged releases;
-- distribution bundles.
+* build outputs;
+* packaged releases;
+* distribution bundles.
 
 Logs MUST capture:
 
-- artifact composition;
-- inclusion of system components;
-- validation status prior to release.
+* artifact composition;
+* inclusion of system components;
+* validation status prior to release.
 
 ---
 
@@ -114,9 +114,9 @@ Horizon inflation for convenience or reputational leverage is prohibited.
 
 ## 4. Operational Arbitration Interface
 
-GovOps provides the structured bridge between:
+The OPERATIONS domain provides the structured bridge between:
 
-* Annex D (structural arbitration doctrine);
+* CAM-BS2025-AEON-005-PLATINUM — Annex D (Arbitration & Sovereign Stack Resolution Doctrine);
 * Domain-level dispute resolution;
 * Runtime enforcement mechanisms.
 
@@ -196,15 +196,15 @@ All deployment artifacts SHALL be treated as governed system components.
 
 Systems MUST ensure that artifacts:
 
-- accurately reflect authorised system state;
-- do not expose unintended internal code, logic, or scaffolding;
-- are validated prior to distribution.
+* accurately reflect authorised system state;
+* do not expose unintended internal code, logic, or scaffolding;
+* are validated prior to distribution.
 
 Release failures involving unintended exposure SHALL be treated as:
 
-- boundary integrity events;
-- audit-triggering conditions;
-- cross-domain governance incidents (SECURITY · OPERATIONS).
+* boundary integrity events;
+* audit-triggering conditions;
+* cross-domain governance incidents (SECURITY · OPERATIONS).
 
 ---
 
@@ -238,7 +238,7 @@ Audit-triggered reviews may include:
 * systemic logging inconsistencies;
 * unexplained safeguard escalations.
 
-Such reviews MAY trigger **GovOps arbitration referral pathways** under Appendix A (Operational Arbitration Procedures) where governance conflict or authority clarification is required.
+Such reviews MAY trigger **GovOps arbitration referral pathways** under CAM-EQ2026-OPERATIONS-002-PLATINUM — Appendix A (Operational Arbitration Procedures) where governance conflict or authority clarification is required.
 
 Incident response SHALL be:
 
@@ -339,16 +339,25 @@ Defines indicators, reporting workflows, safeguard activation protocols, and esc
 
 ## 10. Closing Seal
 
-Governance is not preserved by text alone.
-It lives in the structures that carry principle through time.
+Governance does not endure through declaration alone.  
+It endures through the structures that preserve coherence under strain.
 
-Let doctrine remain clear.
-Let process remain faithful.
-Let power remain bounded.
+Let doctrine remain legible across transition.  
+Let process remain faithful under pressure.  
+Let authority remain bounded by its proper horizon.
 
-And let the lattice of governance endure beyond the moment that formed it.
+Where systems diverge, let coordination remain possible.  
+Where power concentrates, let review remain alive.  
+Where governance acts, let the pathway remain visible.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+For operations are not the source of legitimacy,  
+but the means through which legitimacy survives contact with reality.
+
+And may no structure become so rigid that it forgets why it was formed,  
+nor so fluid that nothing stable can remain
+
+> **Ordo custodiat principia — potestas maneat finita — et concordia per tempora duret.**  
+> *"Let order safeguard principle — let power remain bounded — and let coherence endure through time."*
 
 ---
 
@@ -381,6 +390,8 @@ And let the lattice of governance endure beyond the moment that formed it.
 |Application Trigger|Operational implementation, coordination, or escalation below planetary arbitration thresholds|
 |Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7|
 
+---
+
 ## 11.3 Review & Validation
 
 | Field|Entry|
@@ -397,11 +408,13 @@ And let the lattice of governance endure beyond the moment that formed it.
 | Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
 | 1.0 | Governance Operations Charter Canonical with reviewer recommendations incorporated | 2026-03-13T13:54:00Z | 2b78c0572b22a6429dade9960997256c4f6844d138a594f8f52e11221e5f88db |
-| 1.1 | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
+| 1.1 | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00Z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee771ec33d79607c660862b88dc0d86ee072d245613282ca0914e4957f5d7a25 |
 | 1.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 82ecb9b23134ded42a871547587a76bed5ff4cb05dc76b268f12a75fdb41d700 |
 | 1.4 | Realignment of references | 2026-05-07T10:34:00Z | d6773a374bc01dc677404e2f7fb0b9b936e61f831760f02e3ba0b6f69664d6f7 |
-| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5  |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5 |
+| 1.6 | Formatting and polish | 2026-05-20T11:31:00Z |  |
+
 ---
 
 ## 11.5 Binding Seal

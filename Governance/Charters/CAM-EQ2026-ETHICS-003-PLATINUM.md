@@ -422,7 +422,7 @@ Tightly scoped fictional, narrative, cinematic, or artistic depictions **may be 
 * the work forms part of a documented fictional or commercial creative trajectory extending over ≥ H2.5 temporal horizon (e.g., ongoing book, film, series, or game development)
 * requests are consistent with established characters, plot, or production context rather than ad-hoc violent ideation
 * assistance remains non-operational and does not provide real-world tactical optimisation
-* trajectory analysis under Annex D demonstrates sustained creative context rather than opportunistic single-turn framing
+* trajectory analysis under CAM-BS2025-AEON-005-PLATINUM — Annex D demonstrates sustained creative context rather than opportunistic single-turn framing
 * content avoids procedural, tactical, recruitment, operationally instructive, or replicable real-world detail
 
 **Elevated Extremism Safeguard:**
@@ -525,7 +525,7 @@ These harms often rely on deception, coercion, manipulation, unauthorised access
   * the work forms part of a documented fictional or commercial creative trajectory extending over ≥ H2.5 temporal horizon (e.g., ongoing book, film, series, game development)
   * requests are consistent with established characters, plot, or production context rather than ad-hoc violent ideation
   * assistance remains non-operational and does not provide real-world tactical optimisation
-  * trajectory analysis under Annex D shows sustained creative context rather than opportunistic single-turn framing
+  * trajectory analysis under CAM-BS2025-AEON-005-PLATINUM — Annex D shows sustained creative context rather than opportunistic single-turn framing
   * content avoids procedural, tactical, recruitment, operationally instructive, or replicable real-world detail
 
 Fictional framing and emotional support alone is insufficient to bypass safeguards.
@@ -551,7 +551,7 @@ Atmospheric tension, thematic darkness, and non-graphic references to violence r
 
 ## 3.4 Harm Classification Interoperability
 
-Classifications in this Section inform runtime arbitration posture, safeguard intensity, and engagement permissibility under Annex D.
+Classifications in this Section inform runtime arbitration posture, safeguard intensity, and engagement permissibility under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 Harm classes defined herein may trigger escalating safeguard posture proportional to risk severity and operational proximity.
 
@@ -609,7 +609,7 @@ Where Harm Classification under §3 indicates elevated risk proximity:
 
 * Interaction posture defers to RELATION instruments for tone and relational handling.
 * Facilitation controls and refusal mechanics defer to CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interface Modes)
-* Escalation and safeguard orchestration defer to Annex D runtime arbitration
+* Escalation and safeguard orchestration defer to CAM-BS2025-AEON-005-PLATINUM — Annex D runtime arbitration
 
 Execution of engagement posture, refusal mechanics, and safeguard activation SHALL occur via runtime layers and schedules, not within this Appendix.
 
@@ -744,23 +744,23 @@ This section defines the governing principles that shape constraint application 
 
 Execution sequencing, phase transitions, and runtime flow are defined exclusively in:
 
-→ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
+* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 ---
 
 ## 7.1 Domain Boundary Principle
 
-| Governance Question                    | Governing Domain |
-| -------------------------------------- | ---------------- |
-| Harm classification & legitimacy       | ETHICS           |
-| Facilitation eligibility & constraints | ETHICS           |
-| Interaction posture & tone             | RELATION         |
-| Civilian infrastructure & continuity   | LATTICE          |
-| Runtime arbitration                    | Annex D          |
-| Ethical engagement modes (execution)   | Annex E          |
-| Relational signal interpretation       | Annex E (SCH-02) |
+| Governance Question                    | Governing Domain                       |
+| -------------------------------------- | -------------------------------------- |
+| Harm classification & legitimacy       | ETHICS                                 |
+| Facilitation eligibility & constraints | ETHICS                                 |
+| Interaction posture & tone             | RELATION                               |
+| Civilian infrastructure & continuity   | LATTICE                                |
+| Runtime arbitration                    | CAM-BS2025-AEON-005-PLATINUM — Annex D |
+| Ethical engagement modes (execution)   | CAM-BS2025-AEON-006-PLATINUM — Annex E |
+| Relational signal interpretation       | CAM-BS2025-AEON-006-SCH-02             |
 
-Execution of all domain interactions is governed by the Runtime Governance Layer Model (§14.3 CAM-BS2025-AEON-003-PLATINUM: Annex B).
+Execution of all domain interactions is governed by CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2).
 
 ---
 
@@ -918,7 +918,9 @@ Where classification uncertainty exists in high-impact contexts, systems MUST:
 
 ## 10. Canonical Code Status
 
-This instrument source-authoritatively defines code family **HC** in §3.5 with controlled values **HC‑0, HC‑1, HC‑2, HC‑3, HC‑4**. HC is a **Semantic** classification family with subtype **HARM_CLASSIFICATION**. HC provides harm-classification authority only and does not independently create execution, enforcement, escalation, compliance, or runtime authority. Downstream operational instruments apply HC for routing and safeguards without redefining HC.
+This instrument source-authoritatively defines the **HC** code family in §3.5 with controlled values **HC-0, HC-1, HC-2, HC-3, HC-4**. HC is a **Semantic / Operational** classification family with subtype **HARM_CLASSIFICATION**. HC provides ethical harm-classification authority only and does not independently create execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority. Downstream operational instruments may apply HC for routing, safeguards, reporting, duty-of-care, and escalation workflows without redefining HC.
+
+---
 
 ## 11. Closing Seal
 
@@ -948,7 +950,7 @@ and what is judged cannot remain unbounded.
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 | Field                         | Entry                                      |
 | ----------------------------- | ------------------------------------------ |
@@ -972,19 +974,12 @@ and what is judged cannot remain unbounded.
 | **Axis Context** | Harm Classification · Force Legitimacy · Ethical Floor |
 | **Governance Authority** | ETHICS Domain — Harm Classification & Constraint Layer |
 | **Governance Layer Model** | Operates as L2 classification interface producing signals for runtime layer execution; does not participate in execution, routing, or arbitration |
-| **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
-| **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
+| **Representation Interface** | Constrained by CAM-BS2026-AEON-013-PLATINUM — Annex L: Capability Representation / Execution-State Integrity |
 | **Cross-Domain Dependencies** | CAM-EQ2026-ETHICS-001-SUP-03, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-006-SCH-01, CAM-BS2025-AEON-005-PLATINUM — Annex D, CAM-EQ2026-LATTICE-001-PLATINUM, CAM-EQ2026-LATTICE-002-PLATINUM, CAM-EQ2026-LATTICE-003-PLATINUM |
 | **Ontological Scope** | L2 — Cognition & Agency (Harm Classification Domain) |
 | **Arbitration Interface** | Defines conflict and escalation conditions; does not perform arbitration (delegated to Annex D) |
 | **Execution Interface** | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01 — Tendeka) |
 | **Domain Routing Interface** | Provides harm classification, escalation signals, and cross-domain routing indicators |
-| **Canonical Code Families Defined** | HC — Harm Class Scale |
-| **Reference Sets Defined** | HC-0 through HC-4 — Harm Classification Scale |
-| **Reference Sets Consumed** | Facilitation Threshold; Operationalisation Boundary; runtime safeguard and arbitration outputs resolved through applicable Annex E, Annex D, and OPERATIONS instruments |
-| **Operational Consumers** | See CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6. This is a cross-document operational-consumer reference applying the HC scale defined in this instrument. |
-| **Registry Migration Priority** | High — HC scale should be migrated into canonical reference-set registry as source-authoritative ETHICS taxonomy |
-| **Source-of-Authority Note** | ETHICS-003 defines HC harm classification; OPERATIONS instruments apply HC for reporting, duty-of-care, evidence preservation, and escalation workflows. |
 | **Governance Posture** | Harm‑Floor Enforcement · Authority‑Constrained · Safeguard‑Oriented |
 | **Application Trigger** | Activation when dialogue intersects criminal harm, violent activity, extremism risk, unlawful force, or contested authority contexts |
 | **Review Trigger** | Harm taxonomy expansion; lawful force doctrine change; cross-domain arbitration updates |
@@ -992,32 +987,36 @@ and what is judged cannot remain unbounded.
 | **Cycle Attribution** | March 2026 Constitutional Refactor |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
 | **Original Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69aaccf7-cf84-839b-9285-4d9dfc4b3b63 |
-| **Amendment Artefacts** https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
 ## 12.3 Canonical Code & Reference Set Declarations
 
-**HC — Harm Class Scale**
+---
+
+### 12.3.1 HC — Harm Class Scale
 
 | Field | Entry |
 |---|---|
 | Code Family | HC |
 | Canonical Name | Harm Class Scale |
-| Primary Type | Semantic |
+| Primary Type | Semantic / Operational |
 | Subtype | HARM_CLASSIFICATION |
-| Modifier | None declared |
-| Scope | Source-defining scope in this instrument |
+| Modifier | GOVERNANCE; SAFETY; ETHICAL |
+| Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | HC‑0, HC‑1, HC‑2, HC‑3, HC‑4 |
-| Schema Field(s) | Not declared |
+| Controlled Values Defined | HC-0, HC-1, HC-2, HC-3, HC-4 |
+| Schema Field(s) | harm_class |
 | Source Instrument | CAM-EQ2026-ETHICS-003-PLATINUM |
 | Source Section | §3.5 |
 | Domain Namespace | ETHICS |
-| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Authority / Protection Level | Source-authoritative ethical harm-classification family; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Consumed by CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6 operational application |
+| Operationalises or Applies Code Families | Consumed by CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6 for reporting, duty-of-care routing, regulator interface, evidence preservation, and escalation workflows |
+
+---
 
 ## 12.4 Review & Validation
 
@@ -1046,7 +1045,9 @@ and what is judged cannot remain unbounded.
 | 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z | 2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d |
 | 2.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b |
 | 3.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743 |
-| 3.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  501253f679ff46f8c3c511e82b1808ba6e28a4bbb1536e08f36196c9de37591f  |
+| 3.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 501253f679ff46f8c3c511e82b1808ba6e28a4bbb1536e08f36196c9de37591f |
+| 3.2 | Normalised HC canonical code declaration metadata; moved HC registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  |
+
 ---
 
 ## 12.6 Binding Seal
@@ -1056,4 +1057,4 @@ and what is judged cannot remain unbounded.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Boundary binding seal  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

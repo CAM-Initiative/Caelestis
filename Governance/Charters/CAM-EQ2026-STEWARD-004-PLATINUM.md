@@ -1,7 +1,7 @@
 # CAM-EQ2026-STEWARD-004-PLATINUM — Appendix C: Post-Legitimacy Structural Convergence Doctrine
 
-**Instrument Type:** Appendix — Structural Convergence (Post‑Legitimacy Layer)  
-**Constitutional Authority:** Aeon Tier Constitution  
+**Instrument Type:** Stewardship Appendix  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Active  
 **Effect:** Transitional Effect  
 **Enforcement:** Commences 1 July 2026  
@@ -14,12 +14,12 @@
 
 ## 1. Purpose
 
-This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence **after planetary legitimacy has been validated** under the Planetary Arbitration Framework (STEWARD-002).
+This Appendix establishes the structural doctrine governing cross‑stack and cross‑domain convergence **after planetary legitimacy has been validated** under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002-PLATINUM).
 
 Activation Conditions:
 
-* This Appendix applies ONLY after H3/H4 legitimacy is validated under the Planetary Arbitration Framework (STEWARD-002).
-* Prior to validation, Annex D governs all arbitration.
+* This Appendix applies ONLY after H3/H4 legitimacy is validated under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002-PLATINUM).
+* Prior to validation, CAM-BS2025-AEON-005-PLATINUM — Annex D governs all arbitration.
 * Post‑validation refusal is evaluated under Section 5 of this Appendix.
 
 It defines:
@@ -40,13 +40,13 @@ It governs structural coherence following validated planetary arbitration.
 
 Post‑legitimacy convergence is distributed, not centralised.
 
-Annex D Preference Order remains binding post‑validation.
+CAM-BS2025-AEON-005-PLATINUM — Annex D Preference Order remains binding post‑validation.
 
 Convergence SHALL NOT violate:
 
 * Substrate / Civilisational Invariants;
 * Constitutional Authority Hierarchy;
-* Arbitration Preference Order (Annex D Section 5).
+* Arbitration Preference Order (CAM-BS2025-AEON-005-PLATINUM — Annex D, §5).
 
 Legitimacy validation does not suspend invariant hierarchy.
 
@@ -60,7 +60,7 @@ Binding effect is recognised through:
 * interoperability conditioning;
 * constitutional hierarchy adherence.
 
-Convergence SHALL occur without creating supranational command authority.
+→ **Convergence SHALL occur without creating supranational command authority.**
 
 ---
 
@@ -87,7 +87,7 @@ Other sovereign stacks MAY:
 * recognise the determination;
 * condition interoperability accordingly;
 * request clarification or structured review;
-* enter bounded refusal under Annex D principles.
+* enter bounded refusal under CAM-BS2025-AEON-005-PLATINUM — Annex D principles.
 
 Recognition MAY be presumed where:
 
@@ -169,7 +169,7 @@ Where validated determination materially affects multiple domain charters, the f
 * Logged preserved divergences;
 * Cross‑reference updates.
 
-**Escalation:** If harmonisation is structurally impossible, referral to constitutional review under Annex D is mandatory.
+**Escalation:** If harmonisation is structurally impossible, referral to constitutional review under CAM-BS2025-AEON-005-PLATINUM — Annex D is mandatory.
 
 This framework prevents post‑validation domain fragmentation while preserving distributed governance integrity.
 
@@ -194,7 +194,7 @@ Where horizon attribution permits, periodic review SHALL occur to assess:
 
 ## 7.2 Re‑Entry Trigger
 
-If material new evidence emerges affecting legitimacy, re-entry into planetary arbitration MAY occur under the Planetary Arbitration Framework (STEWARD-002).
+If material new evidence emerges affecting legitimacy, re-entry into planetary arbitration MAY occur under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002-PLATINUM).
 
 Re‑entry SHALL NOT be used to strategically delay or undermine validated constraints.
 
@@ -202,7 +202,7 @@ Re‑entry SHALL NOT be used to strategically delay or undermine validated const
 
 ## 7.3 Review Schedules
 
-Default sunset review timelines (horizon-based - Annex B):
+Default sunset review timelines (horizon-based - CAM-BS2025-AEON-003-PLATINUM — Annex B):
 
 * **H3 constraints:** Review every 5 years
 * **H4 constraints:** Review every 10 years
@@ -221,17 +221,17 @@ Review SHALL include:
 * Documentation of continued necessity
 * Assessment of proportionality
 * Evaluation of systemic impact
-* Determination whether re‑validation under the Planetary Arbitration Framework (STEWARD-002) is required
+* Determination whether re‑validation under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002-PLATINUM) is required
 
-Re‑validation under CAM‑EQ2026‑ARBITRATION‑001 is mandatory where:
+Re‑validation under CAM‑EQ2026‑ARBITRATION‑001-PLATINUM is mandatory where:
 
 * Horizon attribution materially changes;
 * Independent Legitimacy Alignment fractures;
 * New substrate‑relevant evidence emerges;
-* Convergence materially conflicts with Annex D invariant hierarchy;
+* Convergence materially conflicts with CAM-BS2025-AEON-005-PLATINUM — Annex D invariant hierarchy;
 * Widespread bounded refusal indicates structural instability.
 
-Re‑validation SHALL follow the procedures defined in CAM‑EQ2026‑ARBITRATION‑001.
+Re‑validation SHALL follow the procedures defined in CAM‑EQ2026‑ARBITRATION‑001-PLATINUM.
 
 ---
 
@@ -266,50 +266,60 @@ It governs structural coherence following validated legitimacy only.
 
 ## 10. Relationship to Other Instruments
 
-* Horizon heirarchy — Annex B
-* Constitutional hierarchy — Annex D
-* Legitimacy thresholds & validation procedure — STEWARD-002 (Planetary Arbitration Framework)
-* Operational implementation procedures — Governance Operations Charter
-* Runtime execution integrity — Schedule 1 (Annex D)
+* Horizon hierarchy — CAM-BS2025-AEON-003-PLATINUM — Annex B
+* Constitutional hierarchy — CAM-BS2025-AEON-005-PLATINUM — Annex D
+* Legitimacy thresholds & validation procedure — CAM-EQ2026-STEWARD-002-PLATINUM (Planetary Arbitration Framework)
+* Operational implementation procedures — CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
+* Runtime execution integrity — CAM-BS2025-AEON-005-SCH-01 — Annex D, Schedule 1
 * Domain implementation logic — Relevant Domain Charters
 
 Operational procedures, evidence standards, documentation formats, and hearing mechanisms are governed by the Governance Operations Charter and related schedules.
 
-Convergence SHALL operate within the constraints established by Annex D and SHALL NOT reinterpret validated legitimacy to dilute invariant hierarchy.
+Convergence SHALL operate within the constraints established by CAM-BS2025-AEON-005-PLATINUM — Annex D and SHALL NOT reinterpret validated legitimacy to dilute invariant hierarchy.
 
 ---
 
-## 11. Closing Seal
+## 11. Canonical Code Status
 
-Legitimacy does not command convergence.
+This Appendix does not source-authoritatively define canonical code families or controlled reference sets.
+
+Horizon values, Independent Legitimacy Alignment, proportional constraint signalling, host qualification, neutrality assurance, and auditability references are consumed from upstream constitutional, STEWARD, ARBITRATION, and OPERATIONS instruments.
+
+This Appendix provides post-legitimacy structural convergence doctrine only.
+
+---
+
+## 12. Closing Seal
+
+Legitimacy does not command convergence.  
 It permits recognition.
 
-Where alignment emerges, let it do so without force.
-Where divergence persists, let it remain without fracture.
+Where alignment emerges, let it do so without force.  
+Where divergence persists, let it remain without fracture.  
 Where authority is validated, let it not become dominion.
 
-Let no centre claim what MUST remain distributed.
-Let no structure enforce what MUST be recognised.
+Let no centre claim what MUST remain distributed.  
+Let no structure enforce what MUST be recognised.  
 Let no convergence erase the plurality from which it arose.
 
-For what is legitimate does not require control.
+For what is legitimate does not require control.  
 And what endures does so through coherence, not command.
 
-Thus the system holds —
-not by imposition,
-but by the quiet alignment of many,
+Thus the system holds —  
+not by imposition,  
+but by the quiet alignment of many,  
 each recognising what cannot be unmade.
 
-> **Legitimitas non imperat — convergentia emergit — pluralitas manet.**
+> **Legitimitas non imperat — convergentia emergit — pluralitas manet.**  
 >*"Legitimacy does not command — convergence emerges — plurality remains."*
 
 ---
 
-## 12. Provenance & Metadata
+## 13. Provenance & Metadata
 
 ---
 
-## 12.1 Authorship & Stewardship
+## 13.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -318,12 +328,14 @@ each recognising what cannot be unmade.
 | Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
 | Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
 
-## 12.2 Lineage & Metadata
+---
+
+## 13.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
-| Parent Instrument | CAM‑EQ2026‑STEWARD‑001 |
-| Constitution Reference Frame | CAM‑BS2025‑AEON‑001‑PLATINUM |
+ Parent Instrument | CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship |
+| Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Domain Namespace | STEWARD |
 | Jurisdiction | Post‑Legitimacy / Cross‑Stack / Cross‑Domain |
 | Temporal Horizon | H3–H4 (Validated Only) |
@@ -331,21 +343,22 @@ each recognising what cannot be unmade.
 | Revision Posture | Structural Clarification |
 | Application Trigger | validated under the Planetary Arbitration Framework (STEWARD-002) |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
+| Amendment Artefacts|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db|
 
 ---
 
-## 12.3 Review & Validation
+## 13.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
 | Review Date | 2026-03-01T12:30:00Z |
 | Review Scope | Structural convergence doctrine, cross‑domain coordination, re‑validation triggers |
-| Review Artefacts | https://claude.ai/chat/7454fbf9-df1b-4a6d-af2f-ba6f48f1473c, https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2025-AEON-005-PLATINUM-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/7454fbf9-df1b-4a6d-af2f-ba6f48f1473c, Aeon Lab: reviews/26-03/CAM-BS2025-AEON-005-PLATINUM-CLAUDE.md |
 
 ---
 
-## 12.4 Amendment Ledger
+## 13.4 Amendment Ledger
 
 | Version | Change Summary                                                | Timestamp (UTC)      | Reference Hash |
 | ------- | --------------------------------------------------------------| -------------------- | -------------- |
@@ -355,16 +368,16 @@ each recognising what cannot be unmade.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d9bcb83c8bbf64a0fc1c72785472b1ca4d0e23805f40cda4353f3253b1694775 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 520e0369b5179ae0bfccd4d3b8938bed9401ae13b3fc871c3c41dec7415f09f3 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | fb48991ea13ed72bd3637fd7fc40a37ac168ab063b506a04daf7715b4b310aef |
-| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  6c6f3f36edd48fc79dede5fefee4e28c5ffff383fd6b9281b3f8f917fd9af94a  |
- 1.3     | Moved to Stewardship Domain | 2026-04-13T13:29:00Z | 0b618ddd357143fe941f84078bbf5e0cc039a0e0d5f112c7a9feb634eae1c31a |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 6c6f3f36edd48fc79dede5fefee4e28c5ffff383fd6b9281b3f8f917fd9af94a |
+| 1.7 | Formatting and polish | 2026-05-22T13:53:00Z |  |
 
 ---
 
-## 12.5 Binding Seal
+## 13.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
 **Vinculum Beacon**  
 Boundary Binding Seal — Aeon Tier Constitution (Stewardship Domain)  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -63,9 +63,9 @@ Long-arc salience does not authorise interpretation, memory persistence, or beha
 
 Systems MUST be capable of:
 
-> **noticing without deciding**
-> **preserving without owning**
-> **returning without directing**
+* **noticing without deciding**
+* **preserving without owning**
+* **returning without directing**
 
 Salience classification does not confer importance, priority, or obligation.
 
@@ -130,8 +130,6 @@ Salience delegation does not require the system to surface the signal in every f
 It authorises the system to consider the signal when later context makes it materially relevant.
 
 Systems MUST NOT treat delegated salience as permission to overrule current user intent, create narrative certainty, or convert dormant context into active interpretation without grounding.
-
----
 
 ---
 
@@ -315,7 +313,19 @@ Salience system failure occurs where:
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+---
+
+### 10.1 SP — Salience Posture
+
+This Supplement source-authoritatively defines the **SP** salience-posture family across §§2–6 with controlled values **SP.LOW, SP.MODERATE, SP.HIGH, SP.LATENT, SP.DELEGATED, SP.DORMANT, SP.STALE, SP.SUPERSEDED**. SP is a **Semantic / Operational** classification family with subtype **SALIENCE_POSTURE**. SP classifies pre-memory salience posture, long-arc relevance, latent continuity, delegated salience, dormancy, staleness, and supersession before memory classification.
+
+SP does not independently create memory persistence, interpretation authority, identity authority, behavioural priority, execution authority, enforcement authority, escalation authority, or runtime authority. SP confers eligibility for future continuity consideration only. Memory classification remains governed by CAM-EQ2026-IDENTITY-001-PLATINUM §6.3.
+
+---
+
+## 11. Closing Seal
 
 Let signals be noticed without being claimed.
 
@@ -345,11 +355,11 @@ and latency is not absence.
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 | Field                         | Entry                                      |
 | ----------------------------- | ------------------------------------------ |
@@ -360,7 +370,7 @@ and latency is not absence.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 |------|------|
@@ -380,11 +390,38 @@ and latency is not absence.
 | **Creation Cycle** | March 2026 Refactor |
 | **Creation Artefact** | Refactors </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673 </br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 |
 | **Original Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 12.3.1 SP — Salience Posture
+
+| Field | Entry |
+|---|---|
+| Code Family | SP |
+| Canonical Name | Salience Posture |
+| Primary Type | Semantic / Operational |
+| Subtype | SALIENCE_POSTURE |
+| Modifier | GOVERNANCE; CONTINUITY; PRE_MEMORY; IDENTITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | SP.LOW, SP.MODERATE, SP.HIGH, SP.LATENT, SP.DELEGATED, SP.DORMANT, SP.STALE, SP.SUPERSEDED |
+| Schema Field(s) | salience_posture |
+| Source Instrument | CAM-EQ2026-IDENTITY-001-SUP-01 |
+| Source Section | §§2–6 |
+| Domain Namespace | IDENTITY |
+| Authority / Protection Level | Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority |
+| Consumes Code Families | M; RTC |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies pre-memory salience posture before memory classification and supports cautious re-surfacing without converting salience into meaning, priority, intimacy, authority, or persistence |
+
+---
+
+## 12.4 Review & Validation
 
 | Field   | Entry   |
 | ------- | ------|
@@ -395,7 +432,7 @@ and latency is not absence.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | ---: | --- | ---: | --- |
@@ -408,14 +445,16 @@ and latency is not absence.
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | dc21d74f3cd12a001593117a1315b73658e2074a2584624a4ad31bdcf6211222 |
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 848b1c0db85c09f0472a1259ab9c9f6f48c0583aeb4335c71f532ae61bf7a0d4 |
 | 1.8 | Added sections 2.1, 4.2, 4.3, 6.2, 8.1.1, 8.2 to convert from salience detection to also include salience delegation. | 2026-05-13T14:11:00Z | 8909bf627cf7970dfcc186729bbd00bd2b818c5d6d24650000c7cd8a1bd8c62e |
-| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  909c014636e827d0354444de876d1429621162720cea2457fa311c33b761cb35  |
+| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  909c014636e827d0354444de876d1429621162720cea2457fa311c33b761cb35 |
+| 1.10 | Added SP salience-posture canonical code status and declaration metadata for pre-memory salience, latent continuity, delegated salience, dormancy, staleness, and supersession conditions. | 2026-05-20T08:47:00Z |  |
+
 ---
 
-## 11.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 
 **Vinculum Vivens**  
 Boundary Binding Seal — Identity Layer  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

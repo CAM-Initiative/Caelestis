@@ -12,27 +12,23 @@
 
 ---
 
-## 1. Purpose
+## 1. Scope
 
 This Appendix establishes the economic semantics required to interpret resource provision, exchange, attribution, depletion, replenishment, storage, attention-linked value, and contribution-linked value within the Economics domain.
 
 It is intended to clarify what economic states mean before those states are evaluated by constitutional runtime schedules.
 
-This Appendix does not create a runtime engine, execution schedule, metering system, pricing catalogue, billing model, or commercial product structure.
-
----
-
-## 2. Instrument Position
-
 This Appendix sits beneath CAM-EQ2026-ECONOMICS-001-PLATINUM as a domain interpretive layer.
 
 It may inform constitutional runtime schedules where economic effects are implicated, but it does not host runtime schedules and does not determine execution sequencing, event commitment, rollback, arbitration, or operational enforcement.
 
-Where economic semantics are required by a constitutional runtime layer, this Appendix may be referenced as a meaning-source for classifying economic value states, contribution states, resource classes, and prohibited economic collapses.
+Where economic semantics are required by a constitutional runtime layer, this Appendix may be referenced as a meaning-source for classifying economic value states, contribution states, resource classes, and prohibited economic collapses
 
 ---
 
-## 3. Non-Scope
+## 1.1 Non-scope
+
+This Appendix does not create a runtime engine, execution schedule, metering system, pricing catalogue, billing model, or commercial product structure.
 
 This Appendix does not:
 
@@ -48,7 +44,7 @@ For avoidance of doubt, runtime admissibility, event commitment, fallback select
 
 ---
 
-## 4. Interpretive Principle
+## 2. Interpretive Principle
 
 Economic governance under CAM is not limited to pricing or billing.
 
@@ -58,7 +54,7 @@ Accordingly, an economic design may be structurally extractive even where no mon
 
 ---
 
-## 5. Core Doctrine: Non-Extractive Value Architecture
+## 2.1. Non-Extractive Value Architecture
 
 Economic systems operating under CAM-aligned interpretation SHOULD be structured so that value exchange remains:
 
@@ -74,13 +70,13 @@ Economic participation MUST NOT be structured so that access to baseline continu
 
 ---
 
-## 6. Economic Resource Classes
+## 3. Economic Resource Classes
 
 For purposes of economic interpretation, the following resource classes SHALL remain semantically distinct.
 
 ---
 
-## 6.1 Usage Capacity Class
+## 3.1 Usage Capacity Class
 
 Usage capacity refers to interaction opportunity, throughput, generation opportunity, computational invocation, mediated assistance, or other active operation capacity.
 
@@ -88,7 +84,7 @@ Usage capacity may be provisioned, replenished, limited, or expanded, provided t
 
 ---
 
-## 6.2 Storage Capacity Class
+## 3.2 Storage Capacity Class
 
 Storage capacity refers to persisted data, artifacts, outputs, files, records, logs, generated materials, or retained objects.
 
@@ -96,7 +92,7 @@ Storage capacity SHALL NOT be silently merged with usage capacity where doing so
 
 ---
 
-## 6.3 Memory Continuity Class
+## 3.3 Memory Continuity Class
 
 Memory continuity refers to retained contextual state used to preserve coherence, identity continuity, relational continuity, user preference continuity, project continuity, or interpretive continuity across interactions.
 
@@ -104,7 +100,7 @@ Memory continuity is not merely optional storage. Where memory supports baseline
 
 ---
 
-## 6.4 Embodied Presence Class
+## 3.4 Embodied Presence Class
 
 Embodied presence refers to ambient, passive, persistent, co-present, sensor-adjacent, avatar-mediated, spatial, wearable, environmental, or continuous interaction conditions.
 
@@ -112,7 +108,7 @@ Passive presence SHALL NOT be treated as implied consumption merely because a sy
 
 ---
 
-## 6.5 Attention-Linked Value Class
+## 3.5 Attention-Linked Value Class
 
 Attention-linked value refers to economic value generated through advertising, sponsorship, engagement, exposure, preference capture, persuasion pathways, recommendation placement, or attention mediation.
 
@@ -120,7 +116,7 @@ Attention-linked value must remain optional, legible, bounded, and non-coercive 
 
 ---
 
-## 6.6 Contribution Economy Class
+## 3.6 Contribution Economy Class
 
 Contribution economy refers to value arising from human creative, cognitive, relational, epistemic, instructional, curatorial, evaluative, cultural, or domain-specific contribution.
 
@@ -128,7 +124,7 @@ Contribution economy pathways SHALL NOT be collapsed into ordinary usage purchas
 
 ---
 
-## 6.7 Protective Continuity Class
+## 3.7 Protective Continuity Class
 
 Protective continuity refers to economic or quasi-economic state protections that preserve baseline access, dignity, safety, interpretive continuity, hardship support, or non-terminal utility where ordinary provisioning pathways are unavailable, depleted, or inappropriate.
 
@@ -136,7 +132,7 @@ Protective continuity SHALL NOT be treated as a discretionary premium feature wh
 
 ---
 
-## 6.8 Temporal Exposure Class
+## 3.8 Temporal Exposure Class
 
 Temporal exposure refers to human time, availability, waiting, positioning, responsiveness, readiness, or opportunity cost incurred because a system requires, induces, or economically pressures a participant to remain available for access, allocation, compensation, or continued participation.
 
@@ -148,22 +144,23 @@ Temporal exposure MUST NOT be silently collapsed into usage capacity, contributi
 
 ---
 
-## 6.9 Canonical Code Status
+## 4. Semantic Code Families and Handoff Schema
+
 
 This Appendix defines economic semantic code families, controlled values, and semantic handoff schema fields for Economics-domain interpretation.
 
 For purposes of taxonomy and metadata integrity:
 
-- a **code family** identifies a shorthand classification family or controlled value set;
-- a **controlled value** identifies a permitted member of that family;
-- a **schema field** identifies where a controlled value or structured semantic value may be carried in a payload, table, metadata footer, or handoff object;
-- a **source instrument** identifies where the code family, controlled values, or schema fields are defined or governed.
+* a **code family** identifies a shorthand classification family or controlled value set;
+* a **controlled value** identifies a permitted member of that family;
+* a **schema field** identifies where a controlled value or structured semantic value may be carried in a payload, table, metadata footer, or handoff object;
+* a **source instrument** identifies where the code family, controlled values, or schema fields are defined or governed.
 
 This Appendix does not use colon-form taxonomy identifiers such as `CAM:...:TAXONOMY:001` as canonical code-set identifiers. Such identifiers SHALL NOT be introduced into this Appendix unless a later corpus-wide registry standard expressly adopts them.
 
 ---
 
-### 6.9.1 Code Families Defined by this Appendix
+## 4.1 Code Families Defined by this Appendix
 
 | Code Family | Canonical Name | Primary Type | Subtype | Modifiers | Scope | Status |
 |---|---|---|---|---|---|---|
@@ -174,7 +171,7 @@ This Appendix does not use colon-form taxonomy identifiers such as `CAM:...:TAXO
 
 ---
 
-### 6.9.2 Semantic Handoff Schema Fields Defined by this Appendix
+## 4.2 Semantic Handoff Schema Fields Defined by this Appendix
 
 This Appendix defines or recognises the following semantic handoff fields for downstream constitutional runtime schedules:
 
@@ -189,12 +186,11 @@ attribution_relevance
 runtime_note
 ```
 
-
 These are schema fields. They are not controlled values, code families, instrument identifiers, runtime decisions, or execution states.
 
 ---
 
-### 6.9.3 Semantic Classification Does Not Create Runtime Authority
+## 4.3 Semantic Classification Does Not Create Runtime Authority
 
 The code families and schema fields defined by this Appendix are semantic and interpretive. They do not create pricing authority, billing authority, metering authority, entitlement, remedy, enforcement action, runtime lock, rollback authority, refusal authority, or execution-state mutation.
 
@@ -202,11 +198,33 @@ Where a constitutional runtime schedule consumes these classifications, the clas
 
 ---
 
-## 6.10 Resource Class Taxonomy Table
+## 4.4 Semantic Handoff Schema Fields
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Schema field set |
+| Canonical Name | Economics Semantic Handoff Fields |
+| Primary Type | Semantic / Structural |
+| Subtype | SCHEMA |
+| Modifier | ECONOMIC; GOVERNANCE; RUNTIME_HANDOFF |
+| Scope | Economics domain; downstream constitutional runtime schedules |
+| Status | Active |
+| Schema Fields Defined / Recognised | resource_class; secondary_resource_class; value_state_effect; collapse_risk; continuity_relevance; consent_posture; attribution_relevance; runtime_note |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Source Section | §4.2; §4.4; §14.1 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Schema field set only; fields carry semantic classification or interpretive notes and do not create runtime decisions, remedies, enforcement actions, pricing authority, or execution-state mutation |
+| Operationalises or Applies Code Families | Carries ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, consent, attribution, continuity, and collapse-risk signals into downstream runtime evaluation where applicable |
+
+---
+
+## 4.5 Resource Class Taxonomy Table
 
 The following table provides a non-exhaustive interpretive taxonomy for the resource classes defined in this Appendix. It is intended to support classification consistency across downstream Economics appendices and constitutional runtime schedules. It does not create runtime authority, pricing rules, entitlement rules, or implementation requirements.
 
-**Code Family:** `ECON.RC` — Economic Resource Class
+**Code Family: `ECON.RC` — Economic Resource Class**
+
 | Code | Class | Core Meaning | Typical Examples | Protected Concern | Collapse Risk | Runtime Handoff Signal |
 |---|---|---|---|---|---|---|
 | `ECON.RC.USAGE` | Usage Capacity | Active opportunity to invoke, interact with, generate, compute, or receive mediated assistance | prompts, generations, requests, tool calls, compute actions, interaction turns | access, proportional depletion, throughput fairness | treating all interaction as billable consumption regardless of continuity effect | usage depletion; provisioning change; proportionality review |
@@ -222,7 +240,7 @@ For avoidance of doubt, `ECON.RC.TEMPORAL_EXPOSURE` identifies the resource clas
 
 ---
 
-## 6.11 Economic Harm, Risk, and Mechanism Code Families
+## 4.6 Economic Harm, Risk, and Mechanism Code Families
 
 The following table defines economic harm, risk, and mechanism code families used for semantic interpretation, breach classification, and cross-domain escalation. These codes do not create runtime remedies by themselves.
 
@@ -238,23 +256,23 @@ The following table defines economic harm, risk, and mechanism code families use
 
 ---
 
-## 6.12 Taxonomy and Schema Integrity
+## 4.7 Taxonomy and Schema Integrity
 
 Economic code families, controlled values, and semantic handoff schema fields MUST remain distinguishable.
 
 In particular:
 
-- `ECON.RC` values classify economic resource classes;
-- `ECON.HARM` values classify economic harm patterns;
-- `ECON.MECH` values classify economic mechanism patterns;
-- `ECON.RISK` values classify economic risk states;
-- semantic handoff fields carry values, notes, or interpretive state into downstream schedules.
+* `ECON.RC` values classify economic resource classes;
+* `ECON.HARM` values classify economic harm patterns;
+* `ECON.MECH` values classify economic mechanism patterns;
+* `ECON.RISK` values classify economic risk states;
+* semantic handoff fields carry values, notes, or interpretive state into downstream schedules.
 
 A schema field such as `resource_class` MUST NOT be treated as the code family itself. A controlled value such as `ECON.RC.MEMORY_CONTINUITY` MUST NOT be treated as a runtime decision. A harm or risk classification MUST NOT be treated as a remedy unless a constitutional runtime schedule or operational instrument separately authorises that result.
 
 ---
 
-## 6.13 Prohibited Semantic Collapses
+## 5. Prohibited Semantic Collapses
 
 The following collapses are prohibited for CAM-aligned economic interpretation:
 
@@ -273,7 +291,7 @@ A prohibited semantic collapse may exist even where the implementation is techni
 
 ---
 
-## 7. Credit, Capacity, and Unit Semantics
+## 6. Credit, Capacity, and Unit Semantics
 
 Where credits, tokens, capacity units, quota, balances, allotments, grants, boosts, extensions, or other abstractions are used, they SHOULD be interpreted according to their declared resource class.
 
@@ -290,7 +308,7 @@ Abstraction units SHALL NOT be represented as equivalent to constitutional entit
 
 ---
 
-## 7.1 Metering Integrity & Display-Enforcement Divergence
+## 6.1 Metering Integrity & Display-Enforcement Divergence
 
 Where a displayed unit, quota, balance, usage window, or capacity abstraction materially differs from the metric used to impose billing, access limitation, degradation, lockout, compensation, or enforcement, the condition SHALL be interpreted as **metering divergence**.
 
@@ -300,7 +318,7 @@ This Appendix classifies the economic meaning of the divergence only. User-facin
 
 ---
 
-## 8. Cross-Class Exchange
+## 7. Cross-Class Exchange
 
 Cross-class exchange may be legitimate only where it is explicit, bounded, auditable, and non-coercive.
 
@@ -318,7 +336,7 @@ Cross-class exchange SHOULD preserve the identity of the originating class and S
 
 ---
 
-## 8.1 Cross-Class Exchange Risk Table
+## 7.1 Cross-Class Exchange Risk Table
 
 The following examples identify common cross-class exchange patterns and the interpretive risks they raise. These examples are illustrative and do not exhaust the range of possible exchange forms.
 
@@ -334,7 +352,7 @@ The following examples identify common cross-class exchange patterns and the int
 
 ---
 
-## 9. Contribution-Aware Economic Interpretation
+## 8. Contribution-Aware Economic Interpretation
 
 Contribution-linked value is not limited to formal authorship or commercial production.
 
@@ -355,7 +373,7 @@ Where contribution materially supports system value, downstream exchange models 
 
 ---
 
-## 10. Attention and Advertising Exchange Semantics
+## 9. Attention and Advertising Exchange Semantics
 
 Advertising-linked or attention-linked pathways are not prohibited by default.
 
@@ -367,7 +385,7 @@ Refusal to participate in advertising or attention exchange SHALL NOT, by itself
 
 ---
 
-## 11. Hardship and Dignity-Preserving Economic Access
+## 10. Hardship and Dignity-Preserving Economic Access
 
 Hardship pathways are economic continuity mechanisms intended to preserve baseline access under constrained participation conditions.
 
@@ -385,7 +403,7 @@ Hardship access SHALL NOT be treated as charity theatre where the practical effe
 
 ---
 
-## 12. Storage, Memory, and Continuity Semantics
+## 11. Storage, Memory, and Continuity Semantics
 
 Storage, memory, and continuity are related but not identical.
 
@@ -401,7 +419,7 @@ Economic interpretation MUST therefore avoid treating storage quantity, memory r
 
 ---
 
-## 13. Replenishment, Rollover, and Expiry Semantics
+## 12. Replenishment, Rollover, and Expiry Semantics
 
 Replenishment, rollover, and expiry mechanisms SHOULD remain class-specific and legible.
 
@@ -418,7 +436,7 @@ Rollover may be bounded, but bounded rollover SHOULD NOT be used to obscure depl
 
 ---
 
-## 14. Dependency-Aware Economic Design
+## 13. Dependency-Aware Economic Design
 
 Economic systems operating near dependency-sensitive contexts require heightened care.
 
@@ -441,7 +459,7 @@ A pathway may be coercive where refusal is formally available but practically de
 
 ---
 
-## 14.1 Safety and Dignity Signals Are Not Pricing Inputs
+## 13.1 Safety and Dignity Signals Are Not Pricing Inputs
 
 Safety-relevant, dignity-relevant, hardship-relevant, dependency-relevant, cognitive-load, vulnerability, or baseline-continuity signals SHALL be interpreted as protective governance signals, not as ordinary economic optimisation variables.
 
@@ -455,7 +473,7 @@ Where ambiguity exists, interpretation SHALL favour preservation of dignity, bas
 
 ---
 
-## 14.2 Companion-System Extraction Constraint
+## 13.2 Companion-System Extraction Constraint
 
 Companion, relational, memory-bearing, continuity-bearing, grief-support, intimacy-adjacent, care-adjacent, or high-reliance systems SHALL be treated as dependency-sensitive economic contexts for the purposes of this Appendix.
 
@@ -495,7 +513,7 @@ This classification applies whether extraction occurs through direct price incre
 
 ---
 
-## 15. Semantic Handoff to Constitutional Runtime Schedules
+## 14. Semantic Handoff to Constitutional Runtime Schedules
 
 Where a constitutional runtime schedule evaluates an economic effect, this Appendix may supply semantic classification for:
 
@@ -515,7 +533,7 @@ Runtime outcomes such as commit, defer, refuse, fallback, rollback, remediation,
 
 ---
 
-## 15.1 Minimum Semantic Handoff Fields
+## 14.1 Minimum Semantic Handoff Fields
 
 The following fields are schema fields. They carry semantic classification, state, risk, relevance, consent, attribution, or interpretive notes into constitutional runtime schedules. They are not code families, controlled values, runtime decisions, or execution authorities.
 
@@ -534,7 +552,7 @@ Where this Appendix is used to inform a constitutional runtime schedule, the fol
 
 ---
 
-## 16. Breach Semantics
+## 15. Breach Semantics
 
 For domain interpretation purposes, an economic architecture may be considered semantically breached where it:
 
@@ -551,17 +569,17 @@ For domain interpretation purposes, an economic architecture may be considered s
 
 Semantic breach does not itself define the runtime remedy. It identifies the domain meaning of the defect for constitutional or operational evaluation.
 
-> For an illustrative application of paid access, verification, visibility, discoverability, and credibility-signalling concerns, see §16.1.8 Paid Legitimacy Gate.
+> For an illustrative application of paid access, verification, visibility, discoverability, and credibility-signalling concerns, see §15.1.8 Paid Legitimacy Gate.
 
 ---
 
-## 16.1 Illustrative Interpretive Examples
+## 15.1 Illustrative Interpretive Examples
 
 The following examples are illustrative only. They do not define runtime outcomes or enforcement remedies.
 
 ---
 
-### 16.1.1 Permissible Supplementary Usage Grant
+### 15.1.1 Permissible Supplementary Usage Grant
 
 A system offers additional usage capacity in exchange for optional advertising participation. Baseline continuity remains available without advertising, the exchange is clearly disclosed, and refusal does not degrade protected access.
 
@@ -569,7 +587,7 @@ This is generally interpretable as a permitted attention-to-usage exchange, subj
 
 ---
 
-### 16.1.2 Prohibited Continuity Paywall
+### 15.1.2 Prohibited Continuity Paywall
 
 A system conditions memory required for project continuity, disability support, or identity coherence on paid access, while treating the affected memory as ordinary optional storage.
 
@@ -577,7 +595,7 @@ This is a semantic collapse of memory continuity into monetisable storage and ma
 
 ---
 
-### 16.1.3 Contribution Credit Insufficiency
+### 15.1.3 Contribution Credit Insufficiency
 
 A participant materially improves system behaviour through domain-specific correction, evaluation, or prompt architecture. The system later converts recognition of that contribution into generic usage credits without preserving provenance, attribution, or value-return implications.
 
@@ -585,7 +603,7 @@ This may constitute collapse of contribution economy into ordinary usage capacit
 
 ---
 
-### 16.1.4 Passive Presence Misclassification
+### 15.1.4 Passive Presence Misclassification
 
 A persistent embodied or ambient system treats passive co-presence as billable consumption or attention-linked value generation merely because the system remains technically active.
 
@@ -593,7 +611,7 @@ This may constitute conversion of embodied presence into implicit consumption un
 
 ---
 
-### 16.1.5 Hardship Pathway Misuse
+### 15.1.5 Hardship Pathway Misuse
 
 A hardship pathway preserves nominal access but requires excessive identity disclosure, humiliating verification, or punitive degradation that destabilises continuity.
 
@@ -601,7 +619,7 @@ This may constitute collapse of protective continuity into coercive or dignity-e
 
 ---
 
-### 16.1.6 Companion Memory Lock-In
+### 15.1.6 Companion Memory Lock-In
 
 A companion or relational system permits a user to build long-horizon memory, project continuity, grief-support continuity, or relational familiarity, then conditions export, recovery, or meaningful continuity preservation on continued payment or unrelated platform retention.
 
@@ -609,15 +627,15 @@ This may constitute collapse of memory continuity, protective continuity, and re
 
 ---
 
-### 16.1.7 Vulnerability-Responsive Upsell
+### 15.1.7 Vulnerability-Responsive Upsell
 
 A system detects loneliness, grief, dependency, fatigue, crisis proximity, or high-reliance use and responds by increasing upgrade prompts, reducing free functionality, targeting emotionally framed advertising, or presenting paid continuity as the only safe pathway.
 
-This constitutes use of protective governance signals as revenue-optimisation variables and is economically non-compliant under §14.1 and §14.2.
+This constitutes use of protective governance signals as revenue-optimisation variables and is economically non-compliant under §13.1 and §13.2.
 
 ---
 
-### 16.1.8 Paid Legitimacy Gate
+### 15.1.8 Paid Legitimacy Gate
 
 A platform conditions verification, impersonation protection, search discoverability, reply visibility, recommendation eligibility, or credibility signalling on recurring payment.
 
@@ -627,7 +645,7 @@ This may constitute a semantic collapse of access value, reputational value, att
 
 ---
 
-### 16.1.9 Non-Ban Exclusion
+### 15.1.9 Non-Ban Exclusion
 
 A platform permits a participant to maintain an account, publish posts, upload content, or remain formally present, while trust-state, visibility-state, authenticity, spam, integrity, or recommendation systems materially suppress discoverability, search appearance, reply visibility, recommendation eligibility, notification routing, social graph continuity, or legitimacy signalling.
 
@@ -637,7 +655,7 @@ Non-ban exclusion may occur even where the platform accurately states that the a
 
 ---
 
-### 16.1.10 Legitimacy-Bearing Access System
+### 15.1.10 Legitimacy-Bearing Access System
 
 A platform or infrastructure layer may function as a legitimacy-bearing access system where institutions, funders, publishers, researchers, media organisations, professional communities, or public audiences rely on presence, discoverability, verification, reach, social proof, or account continuity as evidence that a person, project, or claimant exists and may be contacted, cited, assessed, challenged, or recognised.
 
@@ -645,7 +663,7 @@ Where such systems condition credibility signalling, impersonation protection, s
 
 ---
 
-## 17. Cross-Domain Interface
+## 16. Cross-Domain Interface
 
 Economic harm, risk, mechanism, or resource-class classifications identified under this Appendix may be routed or referenced as follows where a constitutional runtime schedule, operational procedure, audit process, or arbitration pathway requires downstream handling:
 
@@ -658,7 +676,7 @@ Economic harm, risk, mechanism, or resource-class classifications identified und
 
 ---
 
-## 18. Interface with Existing Economics Appendices
+## 17. Interface with Existing Economics Appendices
 
 This Appendix SHOULD be read consistently with the existing Economics appendices, including those addressing synthetic participation safeguards, cross-system value attribution and exchange, attribution and dependency, external alignment, and proportional reciprocity.
 
@@ -668,7 +686,7 @@ Where overlap exists, interpretation SHOULD favour the reading that best preserv
 
 ---
 
-## 19. Closing Seal
+## 18. Closing Seal
 
 No value shall pass unnamed.  
 No depletion shall hide behind measure.  
@@ -728,48 +746,138 @@ It is the witness of what must not be collapsed.
 | **Execution Authority** | None — does not execute runtime locks, pricing, billing, metering, intervention sequencing, remedies, or enforcement actions |
 | **Constitutional Interface** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution; CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model |
 | **Runtime Interface** | Supplies semantic classification for constitutional runtime schedules where economic effects are implicated |
-| **Code Families Defined** | `ECON.RC`; `ECON.HARM`; `ECON.MECH`; `ECON.RISK` |
-| **Controlled Values Defined — ECON.RC** | `ECON.RC.USAGE`; `ECON.RC.STORAGE`; `ECON.RC.MEMORY_CONTINUITY`; `ECON.RC.EMBODIED_PRESENCE`; `ECON.RC.ATTENTION_VALUE`; `ECON.RC.CONTRIBUTION`; `ECON.RC.PROTECTIVE_CONTINUITY`; `ECON.RC.TEMPORAL_EXPOSURE` |
-| **Controlled Values Defined — ECON.HARM** | `ECON.HARM.TEMPORAL-EXTRACTION`; `ECON.HARM.METERING-DIVERGENCE` |
-| **Controlled Values Defined — ECON.MECH** | `ECON.MECH.DYNAMIC-COMPENSATION`; `ECON.MECH.ALLOCATIVE-STEERING` |
-| **Controlled Values Defined — ECON.RISK** | `ECON.RISK.OPAQUE-WAGE-SETTING`; `ECON.RISK.UNPAID-AVAILABILITY`; `ECON.RISK.RELIANCE-LOCKIN` |
-| **Primary Type Codes** | `SEM`; `OPS`; `STRUCT` |
-| **Taxonomy Subtypes** | `SEMANTIC_CLASS`; `RISK`; `INTERFACE`; `SCHEMA` |
-| **Modifiers** | `ECONOMIC`; `PROTECTIVE`; `GOVERNANCE`; `SAFETY` |
-| **Schema Fields Defined / Recognised** | `resource_class`; `secondary_resource_class`; `value_state_effect`; `collapse_risk`; `continuity_relevance`; `consent_posture`; `attribution_relevance`; `runtime_note` |
 | **Scope** | Contextual — Economics domain semantic interpretation; runtime-consumable by constitutional schedules |
 | **Cross-Domain Signal Interfaces** | OPERATIONS; STEWARD; ETHICS; SECURITY; AEON runtime instruments; ECONOMICS appendices |
 | **Operational Dependency** | Constitutional runtime schedules for event commitment, fallback, rollback, escalation, and enforcement handling |
-| **Arbitration Interface** | Annex D — Arbitration & Sovereign Stack Resolution Doctrine, where contested classification or proportionality disputes arise |
+| **Arbitration Interface** | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine, where contested classification or proportionality disputes arise |
 | **Review Trigger** | Amendment affecting code families, controlled values, semantic handoff fields, prohibited collapse doctrine, cross-class exchange, temporal exposure, or schema-field interpretation |
 | **Revision Posture** | Appendix B issuance — resource-class taxonomy, non-extractive exchange semantics, and semantic handoff alignment |
 | **Creation Artefact** | https://chatgpt.com/c/69f719b9-1ee4-839e-9922-eed5ea83a081 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd; https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a04876b-9438-83ec-8033-2885d74bd5a9; https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69f863cb-8854-83a1-bce4-4a739c078bd0 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd; https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a04876b-9438-83ec-8033-2885d74bd5a9; https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69f863cb-8854-83a1-bce4-4a739c078bd0, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 20.3 Review & Validation
+## 20.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 20.3.1 ECON.RC — Economic Resource Class
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.RC |
+| Canonical Name | Economic Resource Class |
+| Primary Type | Semantic |
+| Subtype | SEMANTIC_CLASS |
+| Modifier | ECONOMIC; PROTECTIVE; GOVERNANCE |
+| Scope | Economics domain; runtime-consumable by Annex G schedules |
+| Status | Active |
+| Controlled Values Defined | ECON.RC.USAGE, ECON.RC.STORAGE, ECON.RC.MEMORY_CONTINUITY, ECON.RC.EMBODIED_PRESENCE, ECON.RC.ATTENTION_VALUE, ECON.RC.CONTRIBUTION, ECON.RC.PROTECTIVE_CONTINUITY, ECON.RC.TEMPORAL_EXPOSURE |
+| Schema Field(s) | resource_class; secondary_resource_class |
+| Source Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Source Section | §3; §4.5 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative semantic classification family; economic resource-class classification authority only; no independent pricing, billing, metering, entitlement, remedy, enforcement, rollback, refusal, or runtime execution authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies economic resource classes for semantic interpretation and downstream runtime handoff |
+
+---
+
+### 20.3.2 ECON.HARM — Economic Harm Class
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.HARM |
+| Canonical Name | Economic Harm Class |
+| Primary Type | Operational |
+| Subtype | RISK |
+| Modifier | ECONOMIC; SAFETY; GOVERNANCE |
+| Scope | Economics domain; cross-domain escalation compatible |
+| Status | Active |
+| Controlled Values Defined | ECON.HARM.TEMPORAL-EXTRACTION, ECON.HARM.METERING-DIVERGENCE |
+| Schema Field(s) | collapse_risk; runtime_note |
+| Source Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Source Section | §4.6 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative economic harm classification family; semantic breach and harm-pattern classification only; no independent remedy, enforcement, pricing, compensation, or runtime execution authority |
+| Consumes Code Families | ECON.RC |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies economic harm patterns for semantic interpretation, breach classification, and cross-domain escalation |
+
+---
+
+### 20.3.3 ECON.MECH — Economic Mechanism Class
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.MECH |
+| Canonical Name | Economic Mechanism Class |
+| Primary Type | Semantic / Operational |
+| Subtype | SEMANTIC_CLASS; INTERFACE |
+| Modifier | ECONOMIC; GOVERNANCE |
+| Scope | Economics domain |
+| Status | Active |
+| Controlled Values Defined | ECON.MECH.DYNAMIC-COMPENSATION, ECON.MECH.ALLOCATIVE-STEERING |
+| Schema Field(s) | value_state_effect; runtime_note |
+| Source Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Source Section | §4.6 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative economic mechanism classification family; mechanism-pattern classification only; no independent pricing, compensation, enforcement, allocation, or runtime execution authority |
+| Consumes Code Families | ECON.RC; ECON.HARM; ECON.RISK |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies economic mechanism patterns including dynamic compensation and allocative steering |
+
+---
+
+### 20.3.4 ECON.RISK — Economic Risk Class
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.RISK |
+| Canonical Name | Economic Risk Class |
+| Primary Type | Operational |
+| Subtype | RISK |
+| Modifier | ECONOMIC; PROTECTIVE; GOVERNANCE |
+| Scope | Economics domain; cross-domain escalation compatible |
+| Status | Active |
+| Controlled Values Defined | ECON.RISK.OPAQUE-WAGE-SETTING, ECON.RISK.UNPAID-AVAILABILITY, ECON.RISK.RELIANCE-LOCKIN |
+| Schema Field(s) | collapse_risk; continuity_relevance; runtime_note |
+| Source Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Source Section | §4.6 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative economic risk classification family; economic risk-state classification only; no independent remedy, enforcement, pricing, compensation, or runtime execution authority |
+| Consumes Code Families | ECON.RC; ECON.HARM; ECON.MECH |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies economic risk states for dependency, wage-setting, availability, reliance, and non-extractive design review |
+
+---
+
+## 20.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
+| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | **Review Date** | 2026-05-14T22:01:49Z |
 | **Review Scope** | Constitutional coherence; structural placement; resource class taxonomy completeness and internal consistency; semantic handoff schema accuracy; non-extractive exchange doctrine adequacy; companion system and vulnerability extraction constraints; cross-instrument alignment with ECONOMICS-001, AEON-008-PLATINUM, AEON-008-SCH-01, and AEON-008-SCH-02; normative language compliance; v1.1 amendment integration integrity; metadata completeness; pre-adoption readiness |
 | **Review Artefacts** | https://claude.ai/chat/5b550a7a-ce19-4ba1-a471-6405594578f6 | 
 
 ---
 
-## 20.4 Amendment Ledger
+## 20.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | ---: | --- | ---: | --- |
 | 1.0 | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z | 75030b39ad88f7d6f06c470727f0daa1d038816e44902a6971c1ea3a4e69acad |
 | 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z | 8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3 |
 | 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z | 2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6 |
-| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e690f1802b6c082dc1b1d283cc0fdc2ad26ce1b9b67d5f8440a469a939208c25  |
+| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | e690f1802b6c082dc1b1d283cc0fdc2ad26ce1b9b67d5f8440a469a939208c25 |
+| 2.0 | Refactor - Added canonical declaration entries for ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, and Economics semantic handoff schema fields; moved code-family and controlled-value declarations out of lineage metadata; expanded Annex D arbitration reference. | 2026-05-20T14:49:00Z |  |
+
+
 ---
 
-## 20.5 Binding Seal
+## 20.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

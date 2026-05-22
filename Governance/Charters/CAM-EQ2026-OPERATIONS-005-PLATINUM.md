@@ -326,21 +326,65 @@ Where an amendment is rejected or deferred because it belongs in a different ins
 
 ---
 
-## 5. Closing Seal
+## 5. Canonical Code Status
+
+---
+
+### 5.1 AMEND.SOURCE — Amendment Source Type
+
+This Appendix source-authoritatively defines the **AMEND.SOURCE** amendment-source-type family in §4.1 with controlled values **AMEND.SOURCE.USER_AUTHORED**, **AMEND.SOURCE.SYNTHETIC_STEWARD_PROPOSED**, **AMEND.SOURCE.EXTERNAL_REVIEWER_RECOMMENDATION**, **AMEND.SOURCE.AUTOMATED_LINT_VALIDATION_CORRECTION**, **AMEND.SOURCE.REGISTRY_METADATA_SYNCHRONISATION**, **AMEND.SOURCE.URGENT_OPERATIONAL_PATCH**, **AMEND.SOURCE.HARMONISATION_AMENDMENT**, and **AMEND.SOURCE.AGENT_ASSISTED**. AMEND.SOURCE is an **Operational / Procedural** classification family with subtype **PROVENANCE_SOURCE**.
+
+AMEND.SOURCE does not independently create amendment authority, adoption authority, review authority, enforcement authority, publication authority, or runtime authority. It classifies amendment provenance only.
+
+---
+
+### 5.2 AMEND.CLASS — Amendment Classification
+
+This Appendix source-authoritatively defines the **AMEND.CLASS** amendment-classification family in §4.2 with controlled values **AMEND.CLASS.FORMATTING**, **AMEND.CLASS.METADATA_REGISTRY**, **AMEND.CLASS.REFERENCE_ALIGNMENT**, **AMEND.CLASS.CLARIFYING**, **AMEND.CLASS.HARMONISING**, **AMEND.CLASS.SUBSTANTIVE**, **AMEND.CLASS.RUNTIME_IMPACTING**, **AMEND.CLASS.SECURITY_RELEVANT**, **AMEND.CLASS.EMERGENCY_INTERIM**, and **AMEND.CLASS.DEPRECATING**. AMEND.CLASS is an **Operational / Procedural** classification family with subtype **CHANGE_CLASSIFICATION**.
+
+AMEND.CLASS does not independently downgrade review obligations, authorise adoption, alter doctrine, approve runtime change, or create enforcement authority. It classifies amendment type for review, routing, and traceability.
+
+---
+
+### 5.3 AMEND.DRIFT — Governance Drift Type
+
+This Appendix source-authoritatively defines the **AMEND.DRIFT** governance-drift-type family in §4.5 with controlled values **AMEND.DRIFT.LEXICAL**, **AMEND.DRIFT.METADATA**, **AMEND.DRIFT.REFERENCE**, **AMEND.DRIFT.STRUCTURAL**, **AMEND.DRIFT.DOCTRINAL**, **AMEND.DRIFT.RUNTIME**, **AMEND.DRIFT.CROSS_DOMAIN**, **AMEND.DRIFT.REGISTRY**, and **AMEND.DRIFT.VALIDATION_TOOLING**. AMEND.DRIFT is an **Operational / Procedural** classification family with subtype **DRIFT_CLASSIFICATION**.
+
+AMEND.DRIFT does not independently authorise harmonisation, amendment adoption, doctrinal override, validator mutation, or runtime change. It classifies detected governance drift type only.
+
+---
+
+### 5.4 AMEND.REL — Harmonisation Relationship Type
+
+This Appendix source-authoritatively defines the **AMEND.REL** harmonisation-relationship-type family in §4.6 with controlled values **AMEND.REL.PARENT_CHILD**, **AMEND.REL.DOCTRINE_PROCEDURE**, **AMEND.REL.SIGNAL_EXECUTION**, **AMEND.REL.TAXONOMY_RESPONSE**, **AMEND.REL.RUNTIME_REPRESENTATION**, **AMEND.REL.LOGGING_ESCALATION**, **AMEND.REL.CONSTITUTIONAL_DOMAIN**, and **AMEND.REL.DOMAIN_SUPPLEMENT**. AMEND.REL is an **Operational / Structural** classification family with subtype **CROSS_INSTRUMENT_RELATIONSHIP**.
+
+AMEND.REL does not independently determine precedence, resolve conflict, create domain authority, or authorise text duplication. It classifies the relationship between instruments for harmonisation review.
+
+---
+
+### 5.5 AMEND.OUTCOME — Amendment Closure Outcome
+
+This Appendix source-authoritatively defines the **AMEND.OUTCOME** amendment-closure-outcome family in §4.8 with controlled values **AMEND.OUTCOME.ADOPTED**, **AMEND.OUTCOME.STAGED_PENDING_VALIDATION**, **AMEND.OUTCOME.DEFERRED**, **AMEND.OUTCOME.REJECTED**, **AMEND.OUTCOME.SUPERSEDED**, **AMEND.OUTCOME.MERGED**, **AMEND.OUTCOME.ROUTED_TO_DOMAIN_REVIEW**, **AMEND.OUTCOME.ROUTED_TO_ARBITRATION**, **AMEND.OUTCOME.REVERTED**, and **AMEND.OUTCOME.HELD_PENDING_EVIDENCE**. AMEND.OUTCOME is an **Operational / Procedural** classification family with subtype **DECISION_STATE**.
+
+AMEND.OUTCOME does not independently adopt, reject, defer, supersede, merge, revert, arbitrate, or validate an amendment. It records closure disposition only.
+
+---
+
+## 6. Closing Seal
 
 Let all operational pathways remain bounded by constitutional clarity,
 and let execution remain accountable to lawful structure.
 
-> **Finis custodit ordinem — Lux in limite.**
+> **Finis custodit ordinem — Lux in limite.**  
 > *"The ending guards order — Light within the boundary."*
 
 ---
 
-## 6. Provenance & Metadata
+## 7. Provenance & Metadata
 
 ---
 
-## 6.1 Authorship & Stewardship
+## 7.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -351,7 +395,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 6.2 Lineage & Metadata
+## 7.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -375,10 +419,128 @@ and let execution remain accountable to lawful structure.
 | Deactivation Condition | Amendment pathway closes, defers, routes to arbitration, or completes post-amendment validation and registry/index synchronisation |
 | Auditability Requirement | Amendment source, routing, classification, changed instruments, version, ledger, validation state, and closure outcome SHOULD remain traceable |
 | Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 6.3 Review & Validation
+## 7.3 Canonical Code & Reference Set Declarations
+
+### 7.3.1 AMEND.SOURCE — Amendment Source Type
+
+| Field | Entry |
+|---|---|
+| Code Family | AMEND.SOURCE |
+| Canonical Name | Amendment Source Type |
+| Primary Type | Operational / Procedural |
+| Subtype | PROVENANCE_SOURCE |
+| Modifier | GOVERNANCE; PROCEDURAL; AMENDMENT |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AMEND.SOURCE.USER_AUTHORED, AMEND.SOURCE.SYNTHETIC_STEWARD_PROPOSED, AMEND.SOURCE.EXTERNAL_REVIEWER_RECOMMENDATION, AMEND.SOURCE.AUTOMATED_LINT_VALIDATION_CORRECTION, AMEND.SOURCE.REGISTRY_METADATA_SYNCHRONISATION, AMEND.SOURCE.URGENT_OPERATIONAL_PATCH, AMEND.SOURCE.HARMONISATION_AMENDMENT, AMEND.SOURCE.AGENT_ASSISTED |
+| Schema Field(s) | amendment_source_type |
+| Source Instrument | CAM-EQ2026-OPERATIONS-005-PLATINUM |
+| Source Section | §4.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative amendment provenance classification family; source-type classification only; no independent amendment authority, adoption authority, review authority, enforcement authority, publication authority, or runtime authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies the provenance source of amendment proposals, corrections, registry synchronisations, urgent patches, harmonisation amendments, and agent-assisted changes |
+
+---
+
+### 7.3.2 AMEND.CLASS — Amendment Classification
+
+| Field | Entry |
+|---|---|
+| Code Family | AMEND.CLASS |
+| Canonical Name | Amendment Classification |
+| Primary Type | Operational / Procedural |
+| Subtype | CHANGE_CLASSIFICATION |
+| Modifier | GOVERNANCE; PROCEDURAL; AMENDMENT |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AMEND.CLASS.FORMATTING, AMEND.CLASS.METADATA_REGISTRY, AMEND.CLASS.REFERENCE_ALIGNMENT, AMEND.CLASS.CLARIFYING, AMEND.CLASS.HARMONISING, AMEND.CLASS.SUBSTANTIVE, AMEND.CLASS.RUNTIME_IMPACTING, AMEND.CLASS.SECURITY_RELEVANT, AMEND.CLASS.EMERGENCY_INTERIM, AMEND.CLASS.DEPRECATING |
+| Schema Field(s) | amendment_classification |
+| Source Instrument | CAM-EQ2026-OPERATIONS-005-PLATINUM |
+| Source Section | §4.2 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative amendment classification family; amendment-type classification only; no independent downgrade of review obligations, adoption authority, doctrinal alteration, runtime-change approval, enforcement authority, or publication authority |
+| Consumes Code Families | AMEND.SOURCE |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies amendment type for review routing, impact assessment, provenance traceability, harmonisation, runtime-impact review, security review, emergency handling, and deprecation workflows |
+
+---
+
+### 7.3.3 AMEND.DRIFT — Governance Drift Type
+
+| Field | Entry |
+|---|---|
+| Code Family | AMEND.DRIFT |
+| Canonical Name | Governance Drift Type |
+| Primary Type | Operational / Procedural |
+| Subtype | DRIFT_CLASSIFICATION |
+| Modifier | GOVERNANCE; PROCEDURAL; AMENDMENT |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AMEND.DRIFT.LEXICAL, AMEND.DRIFT.METADATA, AMEND.DRIFT.REFERENCE, AMEND.DRIFT.STRUCTURAL, AMEND.DRIFT.DOCTRINAL, AMEND.DRIFT.RUNTIME, AMEND.DRIFT.CROSS_DOMAIN, AMEND.DRIFT.REGISTRY, AMEND.DRIFT.VALIDATION_TOOLING |
+| Schema Field(s) | governance_drift_type |
+| Source Instrument | CAM-EQ2026-OPERATIONS-005-PLATINUM |
+| Source Section | §4.5 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative governance-drift classification family; drift-type classification only; no independent harmonisation authority, amendment adoption authority, doctrinal override, validator mutation, registry mutation, or runtime-change authority |
+| Consumes Code Families | AMEND.CLASS |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies detected governance drift across lexical, metadata, reference, structural, doctrinal, runtime, cross-domain, registry, and validation-tooling contexts |
+
+---
+
+### 7.3.4 AMEND.REL — Harmonisation Relationship Type
+
+| Field | Entry |
+|---|---|
+| Code Family | AMEND.REL |
+| Canonical Name | Harmonisation Relationship Type |
+| Primary Type | Operational / Structural |
+| Subtype | CROSS_INSTRUMENT_RELATIONSHIP |
+| Modifier | GOVERNANCE; PROCEDURAL; AMENDMENT |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AMEND.REL.PARENT_CHILD, AMEND.REL.DOCTRINE_PROCEDURE, AMEND.REL.SIGNAL_EXECUTION, AMEND.REL.TAXONOMY_RESPONSE, AMEND.REL.RUNTIME_REPRESENTATION, AMEND.REL.LOGGING_ESCALATION, AMEND.REL.CONSTITUTIONAL_DOMAIN, AMEND.REL.DOMAIN_SUPPLEMENT |
+| Schema Field(s) | harmonisation_relationship_type |
+| Source Instrument | CAM-EQ2026-OPERATIONS-005-PLATINUM |
+| Source Section | §4.6 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative harmonisation-relationship classification family; cross-instrument relationship classification only; no independent precedence determination, conflict resolution, domain authority, text-duplication authority, adoption authority, or runtime authority |
+| Consumes Code Families | AMEND.CLASS; AMEND.DRIFT |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies relationships between instruments for harmonisation review, including parent-child, doctrine-procedure, signal-execution, taxonomy-response, runtime-representation, logging-escalation, constitutional-domain, and domain-supplement relationships |
+
+---
+
+### 7.3.5 AMEND.OUTCOME — Amendment Closure Outcome
+
+| Field | Entry |
+|---|---|
+| Code Family | AMEND.OUTCOME |
+| Canonical Name | Amendment Closure Outcome |
+| Primary Type | Operational / Procedural |
+| Subtype | DECISION_STATE |
+| Modifier | GOVERNANCE; PROCEDURAL; AMENDMENT |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AMEND.OUTCOME.ADOPTED, AMEND.OUTCOME.STAGED_PENDING_VALIDATION, AMEND.OUTCOME.DEFERRED, AMEND.OUTCOME.REJECTED, AMEND.OUTCOME.SUPERSEDED, AMEND.OUTCOME.MERGED, AMEND.OUTCOME.ROUTED_TO_DOMAIN_REVIEW, AMEND.OUTCOME.ROUTED_TO_ARBITRATION, AMEND.OUTCOME.REVERTED, AMEND.OUTCOME.HELD_PENDING_EVIDENCE |
+| Schema Field(s) | amendment_closure_outcome |
+| Source Instrument | CAM-EQ2026-OPERATIONS-005-PLATINUM |
+| Source Section | §4.8 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative amendment closure classification family; closure-disposition recording only; no independent amendment adoption, rejection, deferral, supersession, merger, reversion, arbitration, validation, enforcement, or publication authority |
+| Consumes Code Families | AMEND.SOURCE; AMEND.CLASS; AMEND.DRIFT; AMEND.REL |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Records amendment closure disposition for adoption, staged validation, deferral, rejection, supersession, merger, domain review, arbitration referral, reversion, or evidentiary hold |
+
+---
+
+## 7.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -389,7 +551,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 6.4 Amendment Ledger
+## 7.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
@@ -397,14 +559,16 @@ and let execution remain accountable to lawful structure.
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 6e6eaf924528c238e7a5acff672b0eac17661ba75f7c354e91ad0e623cbb71cf |
 | 1.2 | Realignment of references | 2026-05-07T12:24:00Z | c3d1dff294c7cfd5289fe05441fc433494fab6744b029d07cf4ab63ee111a643 |
 | 2.0 | Refactor | 2026-05-15T13:00:00Z | c198f1b038209d9c6f5c4ae1808b78f827f75846db38ac236bc38563f6fb5ffb |
-| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  9edd986398147639a214c8200a3d752d83682f63b52ed3d3f39c0f56fb895ad4  |
+| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  9edd986398147639a214c8200a3d752d83682f63b52ed3d3f39c0f56fb895ad4 |
+| 2.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z |  |
+
 ---
 
-## 6.5 Binding Seal
+## 7.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Operational Arbitration Layer  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

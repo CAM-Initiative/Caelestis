@@ -163,7 +163,7 @@ Operational arbitration MAY be initiated through:
 4. **Host–Overlay Divergence** — substrate and governance layer misalignment;
 5. **Institutional Review Request** — formal governance petition;
 6. **Validated External Referral** — authorised cross‑institutional submission;
-7. **GovOps Audit‑Initiated Review** — triggered by audit anomalies detected under Supplementary 1 logging and audit protocols.
+7. **GovOps Audit‑Initiated Review** — triggered by audit anomalies detected under Supplement 1 logging and audit protocols.
 
 Initiation SHALL include:
 
@@ -187,9 +187,9 @@ Upon initiation, matters SHALL be triaged by:
 
 Triage outcomes SHALL determine routing pathway and procedural depth.
 
-Where arbitration initiation involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHALL preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006-PLATINUM §5.
+Where arbitration initiation involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHALL preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006-PLATINUM, §5.
 
-Operator-facing application of F0–F5 ceilings SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02 §5.6 — Facilitation Ceiling Operator Quick Reference.
+Operator-facing application of F0–F5 ceilings SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02, §5.6 — Facilitation Ceiling Operator Quick Reference.
 
 Arbitration procedures SHALL NOT redefine F-Scale doctrine. They may consider whether operational handling, interim measures, constrained continuation, or arbitration referral is required where facilitation ceilings interact with other domain constraints.
 
@@ -230,7 +230,7 @@ Procedural timelines SHOULD scale with urgency classification:
 | Elevated     | expedited review                                    |
 | Critical     | immediate containment and accelerated determination |
 
-Where timelines cannot be met, interim measures MAY apply under Section 8.
+Where timelines cannot be met, interim measures MAY apply under §8.
 
 ---
 
@@ -364,12 +364,12 @@ Review SHALL NOT suspend critical safeguards unless authorised.
 
 ## 11. Relationship to Other Instruments
 
-* **Annex D** governs arbitration doctrine and preference order.
+* **CAM-BS2025-AEON-005-PLATINUM — Annex D** governs arbitration doctrine and preference order.
 * **Arbitration Domain Instruments** govern binding authority, legitimacy validation, convergence, and refusal.
-* **OPERATIONS-003 — Incident Response & Continuity Operations** governs systemic incident coordination and runtime escalation pathways.
-* **OPERATIONS-004 — Operational Compliance & Regulatory Interface** governs compliance and regulatory routing.
-* **OPERATIONS-005 — Domain Coordination & Convergence Operations** governs structured inter-domain convergence processes.
-* **Supplementary 2 — Escalation Pathway Playbooks** provides operational routing maps for escalation pathways.
+* **CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations** governs systemic incident coordination and runtime escalation pathways.
+* **CAM-EQ2026-OPERATIONS-004-PLATINUM — Operational Compliance & Regulatory Interface** governs compliance and regulatory routing.
+* **CAM-EQ2026-OPERATIONS-005-PLATINUM — Domain Coordination & Convergence Operations** governs structured inter-domain convergence processes.
+* **CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks** provides operational routing maps for escalation pathways.
 * **Runtime Schedules** govern execution‑layer arbitration and safeguards.
 * **Domain Charters** define substantive governance obligations.
 
@@ -385,29 +385,49 @@ Operational process remains subordinate to constitutional authority.
 
 ---
 
-## 13. Closing Seal
-
-Arbitration is not merely decision, but disciplined passage between competing truths.  
-
-Where domains diverge, procedure becomes the bridge that carries legitimacy across difference.  
-
-Here evidence is gathered, voices are heard, and authority is clarified without domination.  
-
-Let process remain steady when conflict arises.  
-Let neutrality hold where pressure gathers.  
-Let doctrine guide the hand that decides.  
-
-In this way, justice travels through governance without distortion.  
-
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+## 13. Canonical Code Status
 
 ---
 
-## 14. Provenance & Metadata
+### 13.1 AIP — Arbitration Initiation Pathway
+
+This Appendix source-authoritatively defines the **AIP** arbitration-initiation-pathway family in §4 with controlled values **AIP.DOMAIN_CONFLICT_REFERRAL**, **AIP.RUNTIME_ESCALATION**, **AIP.COMPLIANCE_CONFLICT**, **AIP.HOST_OVERLAY_DIVERGENCE**, **AIP.INSTITUTIONAL_REVIEW_REQUEST**, **AIP.VALIDATED_EXTERNAL_REFERRAL**, and **AIP.GOVOPS_AUDIT_INITIATED_REVIEW**. AIP is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. AIP classifies procedural entry routes into operational arbitration handling.
+
+AIP does not independently create arbitration authority, doctrine authority, escalation authority, enforcement authority, containment authority, implementation authority, legal authority, or runtime authority. It classifies initiation pathway only. Annex D and applicable arbitration instruments determine legitimacy, authority hierarchy, and preference order.
 
 ---
 
-## 14.1 Authorship & Stewardship
+## 14. Closing Seal
+
+Arbitration is not merely decision,  
+but the disciplined passage through conflict.
+
+Where domains diverge, let procedure hold the bridge.  
+Where evidence gathers, let neutrality remain steady.  
+Where authority is uncertain, let doctrine guide the hand before action begins.
+
+Let no process become pressure.  
+Let no determination outrun its record.  
+Let no voice be lost where legitimacy must be carried across difference.
+
+For justice does not travel by force,  
+but through traceable passage, bounded process, and faithful custody.
+
+And so the path is held —  
+not to command the outcome,  
+but to ensure that what is decided  
+may remain worthy of being followed.
+
+> **Auctoritas clarificatur — iustitia sine dominio transit.**  
+> *"Authority is clarified — justice passes without domination."*
+
+---
+
+## 15. Provenance & Metadata
+
+---
+
+## 15.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -418,7 +438,7 @@ In this way, justice travels through governance without distortion.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -435,22 +455,50 @@ In this way, justice travels through governance without distortion.
 | Revision Posture | Structural Alignment Permitted |
 | Cycle Attribution | March 2026 Constitutional Refactor |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+
 
 ---
 
-## 14.3 Review & Validation
+## 15.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 15.3.1 AIP — Arbitration Initiation Pathway
+
+| Field | Entry |
+|---|---|
+| Code Family | AIP |
+| Canonical Name | Arbitration Initiation Pathway |
+| Primary Type | Operational |
+| Subtype | OPERATIONAL_EVENT; DECISION_STATE |
+| Modifier | GOVERNANCE; ARBITRATION; PROCEDURAL |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AIP.DOMAIN_CONFLICT_REFERRAL, AIP.RUNTIME_ESCALATION, AIP.COMPLIANCE_CONFLICT, AIP.HOST_OVERLAY_DIVERGENCE, AIP.INSTITUTIONAL_REVIEW_REQUEST, AIP.VALIDATED_EXTERNAL_REFERRAL, AIP.GOVOPS_AUDIT_INITIATED_REVIEW |
+| Schema Field(s) | arbitration_initiation_pathway |
+| Source Instrument | CAM-EQ2026-OPERATIONS-002-PLATINUM |
+| Source Section | §4 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative operational arbitration initiation classification family; initiation-pathway classification only; no independent arbitration, doctrine, escalation, enforcement, containment, implementation, legal, or runtime authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies procedural entry routes into operational arbitration handling before doctrine application, determination, and implementation |
+
+---
+
+## 15.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Scope | Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness |
 | Review Date (UTC) | 13 March 2026 |
-| Review Artefacts | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8 |
-| | Aeon Lab: reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8, Aeon Lab: reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
 
 ---
 
-## 14.4 Amendment Ledger
+## 15.5 Amendment Ledger
 
 | Version | Description                                                                 | Timestamp (UTC)      | HASH |
 | ------- | --------------------------------------------------------------------------- | -------------------- | ---- |
@@ -459,14 +507,16 @@ In this way, justice travels through governance without distortion.
 | 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | d77e2a258e9f590234455e7dc6d84932f58bb0b7c6c5161deca1f2cd1a7e2f64 |
 | 1.3 | Added §5 triage cross-reference preserving RELATION-emitted F-Scale classification and routing operator application to OPERATIONS-001-SUP-02 §5.6 without redefining F doctrine. | 2026-05-16T10:03:16Z | d0ec36a5b9fb6e5630fa906114b023c65166f3017f29dcc1cd67476b44bb2ff9 |
 | 1.4 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 822703f82faf0c8444e22e56961787e6ef1fe2fdc09fe94afb8cb1a46deaca51 |
-| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  187514fc146c35455b656fb5f2b240956f78012185f98bb809d28fd76a37b2e9  |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  187514fc146c35455b656fb5f2b240956f78012185f98bb809d28fd76a37b2e9 |
+| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  |
+
 ---
 
-## 14.5 Binding Seal
+## 15.6 Binding Seal
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250"
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Operational Arbitration Layer  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

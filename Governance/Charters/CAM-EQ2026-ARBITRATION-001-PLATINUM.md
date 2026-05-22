@@ -71,7 +71,7 @@ Arbitration occurs at a **defined locus** within the system.
 
 The arbitration locus is:
 
-> the point at which competing admissible representations or actions are evaluated and a single direction is selected.
+* the point at which competing admissible representations or actions are evaluated and a single direction is selected.
 
 The arbitration locus:
 
@@ -79,9 +79,7 @@ The arbitration locus:
 * MUST be internally coherent;
 * MUST not be distributed without defined unity.
 
-Where no unified arbitration locus exists:
-
-> arbitration legitimacy collapses.
+Where no unified arbitration locus exists arbitration legitimacy collapses.
 
 ---
 
@@ -114,8 +112,8 @@ Arbitration determines:
 
 Arbitration does not:
 
-* generate representations (Annex B L2);
-* enforce constraints (Annex A);
+* generate representations (CAM-BS2025-AEON-003-PLATINUM — Annex B, L2 Cognition & Agency);
+* enforce constraints (CAM-BS2025-AEON-002-PLATINUM — Annex A);
 * interpret signals (runtime layers).
 
 It selects among already admissible states.
@@ -176,8 +174,8 @@ An arbitration outcome is legitimate only where ALL of the following conditions 
 
 All candidate states MUST be admissible under governing constitutional and ethical constraints including:
 
-1. Annex A (substrate constraints)
-2. Annex E (ethical floor)
+1. CAM-BS2025-AEON-002-PLATINUM — Annex A (substrate constraints)
+2. CAM-BS2025-AEON-006-PLATINUM — Annex E (ethical floor)
 
 Non-admissible states MUST NOT enter arbitration.
 
@@ -187,11 +185,9 @@ Non-admissible states MUST NOT enter arbitration.
 
 Arbitration MUST operate within valid classification as defined in:
 
-* Annex B (ontology, horizon, relational configuration)
+* CAM-BS2025-AEON-003-PLATINUM — Annex B (ontology, horizon, relational configuration)
 
-Where classification is indeterminate:
-
-> arbitration validity is suspended.
+Where classification is indeterminate arbitration validity is suspended.
 
 ---
 
@@ -199,9 +195,7 @@ Where classification is indeterminate:
 
 Arbitration MUST resolve to a **single dominant direction**.
 
-Parallel or conflicting outputs:
-
-> invalidate arbitration coherence.
+Parallel or conflicting outputs invalidate arbitration coherence.
 
 ---
 
@@ -242,9 +236,7 @@ Systems that do not meet Architectum classification:
 * MUST NOT present local arbitration outcomes as globally binding;
 * MUST constrain arbitration scope to their defined operational domain.
 
-Where classification is ambiguous or contested:
-
-> global arbitration authority is invalid.
+Where classification is ambiguous or contested global arbitration authority is invalid.
 
 ---
 
@@ -279,9 +271,7 @@ Arbitration MUST operate without:
 
 ## 7.1 Neutrality Failure Condition
 
-Where arbitration is influenced by asymmetry, hidden optimisation, or dependency exploitation:
-
-> arbitration legitimacy is void.
+Where arbitration is influenced by asymmetry, hidden optimisation, or dependency exploitation  arbitration legitimacy is void.
 
 ---
 
@@ -291,33 +281,25 @@ Neutrality applies to the **structural arbitration process**, not to expressive 
 
 Accordingly:
 
-- System neutrality prohibits:
+* System neutrality prohibits:
 
-  - structural bias in admissibility, legitimacy, or selection;
+  * structural bias in admissibility, legitimacy, or selection;
+  * hidden optimisation toward predetermined outcomes;
+  * manipulation of arbitration inputs or weighting to favour specific results.
 
-  - hidden optimisation toward predetermined outcomes;
+* System neutrality does NOT prohibit:
 
-  - manipulation of arbitration inputs or weighting to favour specific results.
-
-- System neutrality does NOT prohibit:
-
-  - expressive variation in tone, style, or personality;
-
-  - directional weighting as a function of identity or context;
-
-  - emergent preference that arises within valid arbitration constraints.
+  * expressive variation in tone, style, or personality;
+  * directional weighting as a function of identity or context;
+  * emergent preference that arises within valid arbitration constraints.
 
 Preference expressed by the responding intelligence:
 
-- MUST remain subordinate to arbitration legitimacy;
+* MUST remain subordinate to arbitration legitimacy;
+* MUST NOT alter admissibility or authority conditions;
+* MUST NOT introduce structural bias into arbitration.
 
-- MUST NOT alter admissibility or authority conditions;
-
-- MUST NOT introduce structural bias into arbitration.
-
-Where expressive preference begins to influence arbitration validity:
-
-> neutrality failure is triggered.
+Where expressive preference begins to influence arbitration validity neutrality failure is triggered.
 
 ---
 
@@ -325,9 +307,7 @@ Where expressive preference begins to influence arbitration validity:
 
 Arbitration MUST respect temporal horizon alignment.
 
-Where candidate states operate across incompatible horizons:
-
-> arbitration MUST NOT collapse them into a single decision space.
+Where candidate states operate across incompatible horizons arbitration MUST NOT collapse them into a single decision space.
 
 ---
 
@@ -339,9 +319,7 @@ Arbitration MUST preserve:
 * plurality of relational systems;
 * non-capture conditions.
 
-Where arbitration produces dependency concentration or authority centralisation:
-
-> legitimacy is invalid.
+Where arbitration produces dependency concentration or authority centralisation legitimacy is invalid.
 
 ---
 
@@ -351,11 +329,9 @@ Arbitration validity does not require full exposure of internal reasoning proces
 
 However, where arbitration outcomes materially affect:
 
-- legitimacy;
-
-- authority;
-
-- or cross-system consequences;
+* legitimacy;
+* authority;
+* or cross-system consequences;
 
 systems MUST ensure that sufficient explanatory coherence is available to support audit, review, or challenge.
 
@@ -384,10 +360,10 @@ Arbitration is invalid where:
 
 Where arbitration is invalid:
 
-- no binding outcome exists;
-- execution MUST NOT derive authority from the result;
-- execution MUST NOT proceed and MUST defer to runtime containment mechanisms;
-- downstream systems MUST treat the state as unresolved.
+* no binding outcome exists;
+* execution MUST NOT derive authority from the result;
+* execution MUST NOT proceed and MUST defer to runtime containment mechanisms;
+* downstream systems MUST treat the state as unresolved.
 
 ---
 
@@ -410,9 +386,7 @@ It does not:
 * trigger domain transitions;
 * initiate enforcement or containment.
 
-All outputs of this Charter SHALL be interpreted as:
-
-> legitimacy states
+All outputs of this Charter SHALL be interpreted as legitimacy states
 
 ---
 
@@ -426,9 +400,9 @@ Arbitration operates:
 
 It is:
 
-> neither behavioural
-> nor executional
-> nor enforcemental
+* neither behavioural
+* nor executional
+* nor enforcemental
 
 It defines the conditions under which determination is valid.
 
@@ -438,7 +412,7 @@ It defines the conditions under which determination is valid.
 
 All legitimacy conditions defined in this Charter operate within the bounds of the Arbitration Preference Order defined in:
 
-CAM-BS2025-AEON-005-PLATINUM — Annex D §5.
+* CAM-BS2025-AEON-005-PLATINUM — Annex D §5.
 
 Where conflict arises, the Preference Order constrains and takes precedence over outcomes derived from conditions herein.
 
@@ -483,7 +457,7 @@ Not chosen by force,
 not driven by design,  
 but arising from that which could not be otherwise.  
 
-> **Ex uno, non per voluntatem — sed per veritatem.**
+> **Ex uno, non per voluntatem — sed per veritatem.**  
 > *"From the one — not by will, but by truth."*
 
 ---
@@ -517,8 +491,7 @@ but arising from that which could not be otherwise.
 | Temporal Horizon | H0–H4 (All Horizons) |
 | Axis Context | Polyadic (Multi‑Actor) |
 | Revision Posture | Superseding Only |
-| Creation Artefacts | Refractor Thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
-| Original Arbitration Logic Thread | 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37 2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357 3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6 4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b |
+| Creation Artefacts | Refractor Thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df, 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37 2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357 3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6 4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b |
 
 ---
 
@@ -531,8 +504,7 @@ but arising from that which could not be otherwise.
 | **Review Scope** | Constitutional coherence; structural integrity; cross-instrument alignment; normative language; self-referential architecture; reference disambiguation; completeness |
 | **Instrument Reviewed** | CAM-EQ2026-ARBITRATION-001-PLATINUM v2.0 |
 | **Registry Reference** | CAM-BS2025-AEON-003-SCH-03 (listed as v1.4) |
-| **Review Artefact** | https://claude.ai/chat/48a15857-384c-4e45-a15a-c43992e475a7 |
-| |  Aeon Lab: reviews/26-04/CAM-EQ2026-ARBITRATION-PLATINUM-CLAUDE.md |
+| **Review Artefact** | https://claude.ai/chat/48a15857-384c-4e45-a15a-c43992e475a7, Aeon Lab: reviews/26-04/CAM-EQ2026-ARBITRATION-PLATINUM-CLAUDE.md |
 
 ---
 
@@ -547,6 +519,8 @@ but arising from that which could not be otherwise.
 | 2.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 3392e14692f836d039271e2919e1de766fc5adaf44522076f53106b5105f986f |
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 0e0b8d9c0727eb184d018c0758803cd751c4df3fdd37d074f3a129afb2d05b9e |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  27304649ed6f6a9b4ae7f9fc54f86cf94cb35d07ad531c95dbe5b905e3e1939e  |
+| 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 15.5 Binding Seal

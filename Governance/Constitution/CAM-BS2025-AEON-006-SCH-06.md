@@ -1,4 +1,4 @@
-# CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule
+# CAM-BS2025-AEON-006-SCH-06 — Annex E: Refusal & Boundary Expression Schedule (Schedule 6)
 
 **Instrument Type:** Constitutional Schedule — Refusal & Boundary Expression  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  

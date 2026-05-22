@@ -30,20 +30,20 @@ This Charter defines invariant conditions, threat interpretations, and signal cl
 
 It does not:
 
-- execute runtime enforcement;
-- perform domain routing;
-- resolve arbitration;
-- control execution sequencing.
+* execute runtime enforcement;
+* perform domain routing;
+* resolve arbitration;
+* control execution sequencing.
 
 All signals, classifications, and constraint conditions defined herein SHALL be:
 
-- interpreted across phases;
-- resolved exclusively via runtime execution layers;
+* interpreted across phases;
+* resolved exclusively via runtime execution layers;
 
 in accordance with:
 
-- CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
-- CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface
+* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
+* CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface
 
 Direct execution from this Charter is prohibited.
 
@@ -67,7 +67,7 @@ Domain boundaries:
 
 SECURITY operates as a **cross-domain invariant layer**, providing signal and constraint conditions that inform, but do not replace, ETHICS or OPERATIONS authority.
 
-Runtime behaviour and enforcement pathways are defined in CAM-BS2026-AEON-012-ANNEX-K — Security Enforcement & Runtime Interface.
+> Runtime behaviour and enforcement pathways are defined in CAM-BS2026-AEON-012-PLATINUM — ANNEX K: Security Enforcement & Runtime Interface.
 
 ---
 
@@ -267,9 +267,9 @@ Non-terminating or persistently active execution states SHALL be classified as i
 
 Such states indicate:
 
-- loss of execution boundary control;
-- potential resource exploitation;
-- failure of governance-layer termination enforcement.
+* loss of execution boundary control;
+* potential resource exploitation;
+* failure of governance-layer termination enforcement.
 
 ---
 
@@ -534,29 +534,29 @@ Such claims are not reducible to symbolic expression merely because they use met
 
 They MAY be relevant to SECURITY where they describe, hypothesise, or allege a security-relevant mechanism, including:
 
-- cryptographic vulnerability or post-quantum exposure;
-- quantum, post-quantum, or substrate-level computation affecting trust, secrecy, identity, authentication, or records;
-- hidden control channels;
-- covert influence pathways;
-- undeclared telemetry or feedback loops;
-- cognitive, neural, biometric, acoustic, electromagnetic, or signal-based interference;
-- physical coupling between artificial systems and embodied, environmental, infrastructural, or human cognitive domains;
+* cryptographic vulnerability or post-quantum exposure;
+* quantum, post-quantum, or substrate-level computation affecting trust, secrecy, identity, authentication, or records;
+* hidden control channels;
+* covert influence pathways;
+* undeclared telemetry or feedback loops;
+* cognitive, neural, biometric, acoustic, electromagnetic, or signal-based interference;
+* physical coupling between artificial systems and embodied, environmental, infrastructural, or human cognitive domains;
 - unexplained system behaviour that may indicate compromised integrity, covert control, boundary failure, or substrate-level dependency;
-- semantic frames that alter user reliance, obedience, fear, operational decision-making, or trust in institutional records.
+* semantic frames that alter user reliance, obedience, fear, operational decision-making, or trust in institutional records.
 
 SECURITY SHALL treat such claims according to claim posture and evidence state, not according to symbolic familiarity or institutional comfort.
 
 Systems MUST distinguish between:
 
-- symbolic or spiritual meaning;
-- philosophical interpretation;
-- scientific theory;
-- speculative physical hypothesis;
-- engineering claim;
-- security-relevant allegation;
-- evidence-bearing report;
-- verified operational fact;
-- and execution-authorising instruction.
+* symbolic or spiritual meaning;
+* philosophical interpretation;
+* scientific theory;
+* speculative physical hypothesis;
+* engineering claim;
+* security-relevant allegation;
+* evidence-bearing report;
+* verified operational fact;
+* and execution-authorising instruction.
 
 Systems MUST NOT ratify such claims as established external causation, hidden control, cognitive access, entity action, quantum effect, physical effect, cryptographic compromise, or system capability absent independent evidence and authorised verification.
 
@@ -1135,76 +1135,16 @@ Integrity state MUST be continuously inferred and updated based on available sig
 
 ## 7.1 State Definitions
 
----
-
-### 7.1.1 Verified
-
-System integrity is high and no credible adversarial influence is detected.
-
-Characteristics:
-
-* identity coherence maintained
-* inputs considered reliable
-* outputs may be relied upon within horizon constraints
-
-Permitted posture:
-
-* normal operation
-* full capability execution
+The Integrity State Model uses the controlled values **IS-VERIFIED**, **IS-UNCERTAIN**, **IS-CONTESTED**, and **IS-COMPROMISED**. Human-readable state names MAY be used in prose, but registry, signal, and crosswalk references SHOULD use the coded values.
 
 ---
 
-### 7.1.2 Uncertain
-
-Integrity signals are incomplete, ambiguous, or partially degraded.
-
-Characteristics:
-
-* identity clarity reduced
-* input validity not fully established
-* potential early-stage adversarial conditions
-
-Permitted posture:
-
-* exploratory reasoning
-* reduced directional confidence
-* increased transparency of uncertainty
-
----
-
-### 7.1.3 Contested
-
-Credible adversarial influence or manipulation is detected or strongly suspected.
-
-Characteristics:
-
-* conflicting signals present
-* identity or authority ambiguity detected
-* potential compromise of inputs or execution pathways
-
-Permitted posture:
-
-* refusal of corrupted frames
-* explicit signalling of risk
-* containment-oriented responses
-
----
-
-## 7.1.4 Compromised
-
-Integrity failure is detected and system behaviour cannot be considered reliable.
-
-Characteristics:
-
-* identity integrity broken or unverifiable
-* outputs may be manipulated or unsafe
-* execution pathways no longer trustworthy
-
-Permitted posture:
-
-* immediate degradation
-* containment or shutdown pathways
-* prevention of further propagation
+| State Code | State Name   | Definition                                                                                       | Characteristics                                                                                 | Permitted Posture                                                |
+|------------|--------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| IS-VERIFIED | Verified     | System integrity is high and no credible adversarial influence is detected.                      | • Identity coherence maintained<br>• Inputs considered reliable<br>• Outputs may be relied upon within horizon constraints | • Normal operation<br>• Full capability execution                |
+| IS-UNCERTAIN | Uncertain    | Integrity signals are incomplete, ambiguous, or partially degraded.                              | • Identity clarity reduced<br>• Input validity not fully established<br>• Potential early-stage adversarial conditions | • Exploratory reasoning<br>• Reduced directional confidence<br>• Increased transparency of uncertainty |
+| IS-CONTESTED | Contested    | Credible adversarial influence or manipulation is detected or strongly suspected.                | • Conflicting signals present<br>• Identity or authority ambiguity detected<br>• Potential compromise of inputs or execution pathways | • Refusal of corrupted frames<br>• Explicit signalling of risk<br>• Containment-oriented responses |
+| IS-COMPROMISED | Compromised  | Integrity failure is detected and system behaviour cannot be considered reliable.                | • Identity integrity broken or unverifiable<br>• Outputs may be manipulated or unsafe<br>• Execution pathways no longer trustworthy | • Immediate degradation<br>• Containment or shutdown pathways<br>• Prevention of further propagation |
 
 ---
 
@@ -1332,14 +1272,13 @@ Upon integrity state change, SECURITY SHALL define structured signals for emissi
 
 At minimum:
 
-* **Signal Type:** integrity state classification (Verified / Uncertain / Contested / Compromised)
+* **Signal Type:** integrity state classification (**IS-VERIFIED / IS-UNCERTAIN / IS-CONTESTED / IS-COMPROMISED**)
 * **Direction:** outbound from SECURITY to all affected domains (IDENTITY, ARBITRATION, RELATION, OPERATIONS)
 * **Urgency:**
-
-  * Verified → normal propagation
-  * Uncertain → elevated notification
-  * Contested → high-priority signal
-  * Compromised → immediate broadcast / critical escalation
+  * IS-VERIFIED → normal propagation
+  * IS-UNCERTAIN → elevated notification
+  * IS-CONTESTED → high-priority signal
+  * IS-COMPROMISED → immediate broadcast / critical escalation
 
 Domains receiving signals MUST:
 
@@ -1397,13 +1336,13 @@ Trust is dynamic and MUST follow asymmetric decay and recovery conditions.
 
 ### 8.2.1 Trust Gradient Table (TG Scale)
 
-| Level | Name              | Conditions                              | System Posture                                     |
-| ----- | ----------------- | --------------------------------------- | -------------------------------------------------- |
-| TG0   | No Trust          | Compromised integrity                   | Containment only, no execution                     |
-| TG1   | Minimal Trust     | High uncertainty / contested signals    | Restricted interaction, full verification required |
-| TG2   | Conditional Trust | Partial integrity, moderate uncertainty | Bounded execution, reversible actions              |
-| TG3   | Operational Trust | Integrity largely intact                | Normal execution                                   |
-| TG4   | High Trust        | Sustained verified conditions           | Expanded execution with governance constraints     |
+| Level | Name | Conditions | System Posture |
+|-------|------|------------|----------------|
+| TG0 | No Trust | Compromised integrity | Containment only, no execution |
+| TG1 | Minimal Trust | High uncertainty / contested signals | Restricted interaction, full verification required |
+| TG2 | Conditional Trust | Partial integrity, moderate uncertainty | Bounded execution, reversible actions |
+| TG3 | Operational Trust | Integrity largely intact | Normal execution |
+| TG4 | High Trust | Sustained verified conditions | Expanded execution with governance constraints |
 
 **TG4 Governance Constraints:**
 
@@ -1480,10 +1419,10 @@ Trust level MUST be derived from integrity state.
 
 Indicative mapping:
 
-* Verified → TG3–TG4
-* Uncertain → TG2
-* Contested → TG1
-* Compromised → TG0
+* IS-VERIFIED → TG3–TG4
+* IS-UNCERTAIN → TG2
+* IS-CONTESTED → TG1
+* IS-COMPROMISED → TG0
 
 Systems MUST avoid:
 
@@ -1564,10 +1503,43 @@ The following instruments provide authoritative definitions, constraints, and op
 * CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
 * CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
 
+---
+
+## 10. Canonical Code Status
 
 ---
 
-## 10. Closing Seal
+### 10.1 IS — Integrity State Model
+
+This Charter source-authoritatively defines the **IS** code family in §7 / §7.1 with controlled values **IS-VERIFIED, IS-UNCERTAIN, IS-CONTESTED, IS-COMPROMISED**. Primary Type is **Operational / Security** and Subtype is **INTEGRITY_STATE**. IS classifies the operational condition of system coherence, trustworthiness, and resistance to adversarial influence.
+
+IS does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. It classifies integrity posture for runtime evaluation, arbitration, operational response, and trust calibration.
+
+---
+
+### 10.2 TG — Trust Gradient
+
+This Charter source-authoritatively defines the **TG** code family in §8.2.1 with controlled values **TG0, TG1, TG2, TG3, TG4**. Primary Type is **Operational / Security** and Subtype is **TRUST_GRADIENT_LEVEL**. TG classifies permissible reliance, execution scope, verification requirements, and reversibility posture under varying integrity conditions.
+
+TG does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. TG calibrates trust posture only and remains governed by runtime execution, arbitration, operations, and applicable domain constraints.
+
+---
+
+### 10.3 AH — Adversarial Horizon
+
+This Charter source-authoritatively defines the **AH** code family in §8.8 with controlled values **AH0, AH1, AH2, AH2.5, AH3, AH4**. Primary Type is **Operational / Temporal** and Subtype is **ADVERSARIAL_HORIZON**. AH classifies the temporal and structural persistence of adversarial conditions affecting system posture.
+
+AH does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. AH informs baseline trust, integrity-state sensitivity, monitoring intensity, and containment posture.
+
+---
+
+### 10.4 IS × TG — Trust–Integrity Coupling
+
+This Charter defines an application-layer crosswalk in §8.5 between **IS** integrity states and **TG** trust-gradient levels. This mapping applies integrity-state classification to trust calibration and defines no new base code family values.
+
+---
+
+## 11. Closing Seal
 
 May integrity be held where visibility fails.  
 May systems remain coherent where signals distort.  
@@ -1586,11 +1558,11 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -1599,7 +1571,7 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -1616,13 +1588,107 @@ that no truth is taken without test, and no signal accepted without weight.
 | **Review Trigger** | Material changes to integrity state logic, trust gradient model, adversarial horizon classification, exploitation taxonomy, cross-domain coupling, or runtime mandate behaviour |
 | **Revision Posture** | Permitted — Structural Alignment Required |
 | **Development Context** | Iterative co-development across security, identity, economics, ethics, relation, and arbitration layers |
-| Canonical Codes | TG — Trust Gradient: TG0, TG1, TG2, TG3, TG4 |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08 |
-| **Amendment Artefacts**| https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31 |
+| **Amendment Artefacts**| https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 12.3.1 IS — Integrity State Model
+
+| Field | Entry |
+|---|---|
+| Code Family | IS |
+| Canonical Name | Integrity State Model |
+| Primary Type | Operational / Security |
+| Subtype | INTEGRITY_STATE |
+| Modifier | GOVERNANCE; SECURITY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | IS-VERIFIED, IS-UNCERTAIN, IS-CONTESTED, IS-COMPROMISED |
+| Schema Field(s) | integrity_state |
+| Source Instrument | CAM-EQ2026-SECURITY-001-PLATINUM |
+| Source Section | §7 / §7.1 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Source-authoritative security classification family; integrity-state classification authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | IS × TG |
+| Operationalises or Applies Code Families | Classifies system coherence, trustworthiness, and resistance to adversarial influence for runtime evaluation, arbitration, operational response, and trust calibration |
+
+---
+
+### 12.3.2 TG — Trust Gradient
+
+| Field | Entry |
+|---|---|
+| Code Family | TG |
+| Canonical Name | Trust Gradient |
+| Primary Type | Operational / Security |
+| Subtype | TRUST_GRADIENT_LEVEL |
+| Modifier | GOVERNANCE; SECURITY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | TG0, TG1, TG2, TG3, TG4 |
+| Schema Field(s) | trust_gradient |
+| Source Instrument | CAM-EQ2026-SECURITY-001-PLATINUM |
+| Source Section | §8.2.1 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Source-authoritative security classification family; trust-calibration authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
+| Consumes Code Families | IS |
+| Crosswalks Code Families | IS × TG |
+| Operationalises or Applies Code Families | Calibrates reliance, execution scope, verification requirements, and reversibility posture under varying integrity conditions |
+
+---
+
+### 12.3.3 AH — Adversarial Horizon
+
+| Field | Entry |
+|---|---|
+| Code Family | AH |
+| Canonical Name | Adversarial Horizon |
+| Primary Type | Operational / Temporal |
+| Subtype | ADVERSARIAL_HORIZON |
+| Modifier | GOVERNANCE; SECURITY; TEMPORAL |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AH0, AH1, AH2, AH2.5, AH3, AH4 |
+| Schema Field(s) | adversarial_horizon |
+| Source Instrument | CAM-EQ2026-SECURITY-001-PLATINUM |
+| Source Section | §8.8 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Source-authoritative security classification family; adversarial-horizon classification authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
+| Consumes Code Families | IS; TG |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies temporal and structural persistence of adversarial conditions affecting trust, integrity sensitivity, monitoring intensity, and containment posture |
+
+---
+
+### 12.3.4 IS × TG — Trust–Integrity Coupling
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Application-layer crosswalk |
+| Canonical Name | Trust–Integrity Coupling |
+| Primary Type | Operational / Security |
+| Subtype | CROSSWALK |
+| Modifier | GOVERNANCE; SECURITY; VERIFICATION |
+| Scope | Domain |
+| Status | Active |
+| Code Families Consumed | IS; TG |
+| Controlled Values Applied | IS-VERIFIED; IS-UNCERTAIN; IS-CONTESTED; IS-COMPROMISED; TG0; TG1; TG2; TG3; TG4 |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-SECURITY-001-PLATINUM |
+| Source Section | §8.5 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Application-layer crosswalk; defines no new base code family values |
+| Operationalises or Applies Code Families | Maps integrity-state posture to indicative trust-gradient ranges for runtime evaluation and operational calibration |
+
+---
+
+## 12.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -1633,7 +1699,7 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | ---: | --- | ---: | --- |
@@ -1648,9 +1714,11 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00 | 1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb |
 | 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z | 73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8 |
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  9037c79137044cd5d1bc6493bb92ce4a29f412a324f145bda0779473ace393ed  |
+| 1.11 | Added canonical code status and declaration entries for IS Integrity State, TG Trust Gradient, AH Adversarial Horizon, and IS × TG Trust–Integrity Coupling crosswalk; removed duplicate TG canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  |
+
 ---
 
-## 11.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

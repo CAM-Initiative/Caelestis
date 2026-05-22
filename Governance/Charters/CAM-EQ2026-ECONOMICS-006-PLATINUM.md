@@ -25,7 +25,6 @@ This Appendix does NOT apply to:
 * fully self-hosted or closed systems;
 * non-user-facing pipelines.
 
-
 ---
 
 ## 2. Core Principle
@@ -168,30 +167,29 @@ Purpose:
 
 Where alignment indicators are surfaced, Systems SHOULD ensure that:
 
-- signals are presented in a clear, human-readable format;
-- indicators are accessible without requiring technical expertise;
-- presentation does not obscure or downplay material dependency;
-- signals are contextualised (e.g., scale, usage, system type).
+* signals are presented in a clear, human-readable format;
+* indicators are accessible without requiring technical expertise;
+* presentation does not obscure or downplay material dependency;
+* signals are contextualised (e.g., scale, usage, system type).
 
 Indicators MAY be presented through:
 
-- product dashboards;
-- API documentation;
-
-- system status or transparency pages;
-- investor-facing materials.
+* product dashboards;
+* API documentation;
+* system status or transparency pages;
+* investor-facing materials.
 
 Constraints:
 
-- presentation MUST NOT create false equivalence between indicators;
-- indicators MUST NOT be reduced to a single composite score;
-- visualisation SHOULD preserve interpretability rather than optimise for simplicity alone.
+* presentation MUST NOT create false equivalence between indicators;
+* indicators MUST NOT be reduced to a single composite score;
+* visualisation SHOULD preserve interpretability rather than optimise for simplicity alone.
 
 Purpose:
 
-- enable meaningful interpretation by non-technical stakeholders;
-- reduce information asymmetry between builders, users, and investors;
-- maintain fidelity between system reality and external representation.
+* enable meaningful interpretation by non-technical stakeholders;
+* reduce information asymmetry between builders, users, and investors;
+* maintain fidelity between system reality and external representation.
 
 ---
 
@@ -279,22 +277,22 @@ A **structurally equivalent modality** refers to a form of value return that is:
 
 To qualify as structurally equivalent, a modality MUST satisfy the following conditions:
 
-**(a) Economic Impact Equivalence**
+**(A) Economic Impact Equivalence**
 
 * The return MUST produce measurable economic, infrastructural, or capability benefit to upstream systems or contributors;
 * The magnitude of benefit MUST be comparable to what a reasonable financial transfer would represent under similar conditions.
 
-**(b) Non-Substitutability Constraint**
+**(B) Non-Substitutability Constraint**
 
 * The modality MUST NOT be replaceable with low-effort signalling such as attribution, branding, or visibility;
 * It MUST represent a form of return that cannot be trivially replicated without cost or commitment.
 
-**(c) Auditability Condition**
+**(C) Auditability Condition**
 
 * The modality MUST be externally interpretable or verifiable in principle;
 * It MUST allow third parties to reasonably assess whether proportionality has been achieved.
 
-**(d) Persistence Requirement**
+**(D) Persistence Requirement**
 
 * The return MUST persist over time or scale with continued dependency;
 * One-off or ephemeral contributions are insufficient where dependency and value capture are ongoing.
@@ -371,20 +369,20 @@ Where systems derive material economic benefit from Temporal Advantage (ΔT), pa
 
 Systems SHOULD:
 
-- ensure that predictive or timing-based outputs are transparently framed as probabilistic rather than certain;
-- align economic gain derived from timing advantage with proportional return mechanisms (Appendix F);
-- avoid representing timing-derived insight as originating solely from internal system capability 
+* ensure that predictive or timing-based outputs are transparently framed as probabilistic rather than certain;
+* align economic gain derived from timing advantage with proportional return mechanisms (Appendix F);
+* avoid representing timing-derived insight as originating solely from internal system capability 
 
 where dependency on upstream signals or ecosystems is material;
-- ensure that timing advantage is not used to systematically extract disproportionate value from markets, users, or dependent systems without corresponding alignment.
+* ensure that timing advantage is not used to systematically extract disproportionate value from markets, users, or dependent systems without corresponding alignment.
 
 Where ΔT interacts with:
 
-- Material or Critical Dependency (D);
-- High Scale of Value Capture (S);
-- or Market-Moving Actor Conditions (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.5);
+* Material or Critical Dependency (D);
+* High Scale of Value Capture (S);
+* or Market-Moving Actor Conditions (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.5);
 
-→ evaluation under Appendix F (Reciprocity Sufficiency) SHOULD be considered expected, and MAY be required where value capture is sustained and material.
+evaluation under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F: Proportional Reciprocity & Value Return Framework SHOULD be considered expected, and MAY be required where value capture is sustained and material.
 
 ---
 
@@ -395,9 +393,9 @@ It does not eliminate the obligation to align that value.
 
 This clause operates as a **bridging condition** between:
 
-- detection of timing asymmetry (Appendix D);
+- detection of timing asymmetry (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D);
 - external signalling (this Appendix);
-- and proportional return (Appendix F).
+- and proportional return (CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F).
 
 ---
 
@@ -458,7 +456,7 @@ Such review MAY include:
 
 * verification of dependency disclosure consistency;
 * assessment of alignment between Scale (S) and observable indicators;
-* evaluation of reciprocity maturity signals (Appendix F);
+* evaluation of reciprocity maturity signals (CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F);
 * identification of material misalignment or omission.
 
 Constraints:
@@ -511,11 +509,11 @@ This Appendix explicitly avoids:
 This Appendix:
 
 * provides an **external alignment surface**;
-* complements Appendix C (Cross-System Value Attribution & Exchange);
-* operates alongside Appendix D (Minimal Attribution & Dependency Model);
-* interfaces with Appendix F (Proportional Reciprocity & Value Return Framework).
+* complements CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Cross-System Value Attribution & Exchange);
+* operates alongside CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D (Minimal Attribution & Dependency Model);
+* interfaces with CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F (Proportional Reciprocity & Value Return Framework).
 
-  This Appendix does NOT:
+This Appendix does NOT:
 * replace attribution-chain requirements;
 * redefine economic principles;
 * override anti-extraction constraints.
@@ -524,22 +522,21 @@ This Appendix:
 
 ## 12. Structural Integrity Statement
 
-Visibility stabilises value.
+Visibility stabilises value.  
 Opacity distorts it.
 
-This layer ensures that systems presenting value
-remain accountable to how that value is formed.
+This layer ensures that systems presenting value remain accountable to how that value is formed.
 
 ---
 
 ## 13. Closing Seal
 
-Let what is built upon others be known as such.  
+Let what is built upon others be known as such.     
 Let growth carry memory of its source.  
-Let value speak plainly where it arises.
+Let value speak plainly where it arises. 
 
-> *Claritas in Origine — Aequitas in Crescere — Veritas in Foro*
-
+> **Claritas in Origine — Aequitas in Crescere — Veritas in Foro**  
+> *"Clarity at the Beginning — Fairness in Growth — Truth in the Forum."*
 ---
 
 ## 14. Provenance & Metadata
@@ -598,6 +595,8 @@ Let value speak plainly where it arises.
 | 1.2 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | e5c4ecd7f196d7846d7d0a61f1f0516769c3f4eab51150f3f13960a9528b2f3c |
 | 1.3 | Edits to Ecosystem Signalling (External Indicators) clause | 2026-05-17T13:55:00Z | c5a52bc9d62de8b0972a4e5ccb2aa6b80b65acaf86fe3bf6f4b7120d99692b52 |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  ea656877d533e2ff8a22105ee499fe28b193beb2a64c7a7dcea69b8b7ba9487e  |
+| 1.5 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 14.5 Binding Seal

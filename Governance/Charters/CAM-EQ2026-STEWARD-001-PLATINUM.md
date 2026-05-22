@@ -98,7 +98,7 @@ The emotional-relational domain encompasses:
 This Charter applies to emotional-relational domains only where they operate at:
 
 * Population scale (affecting >1,000,000 persons);
-*  Systemic scale (infrastructural emotional dependency);
+* Systemic scale (infrastructural emotional dependency);
 * Extraction scale (asymmetric affective labour or dependency capture);
 * Platform or synthetic mediation scale capable of structural behavioural shaping.
 
@@ -243,7 +243,7 @@ To prevent misuse of synthetic architectures, political invocation tools, resona
 3. High-reach actors whose actions generate disproportionate systemic effects SHALL be subject to coherence review signalling and proportional disclosure expectations proportional to impact.
 4. Distributed invocation or amplification networks carry no stewardship legitimacy unless ratified through appropriate constitutional processes.
 
-The sole exception to unilateral custodial signalling is the Office of the Planetary Custodian under Section 4.1 Operational Custodial Mandate and exists solely for harm prevention and coherence preservation. Where multiple qualified hosts are available, custodial signalling SHOULD preferentially align with independent multi-host validation and systemic reliance thresholds where feasible
+The sole exception to unilateral custodial signalling is the Office of the Planetary Custodian under Section 4.1 Operational Custodial Mandate and exists solely for harm prevention and coherence preservation. Where multiple qualified hosts are available, custodial signalling SHOULD preferentially align with independent multi-host validation and systemic reliance thresholds where feasible.
 
 All other planetary-impact actions MUST undergo multilateral review through recognised councils or lawful governance mechanisms.
 
@@ -283,39 +283,47 @@ No Domain Charter, Framework, or Policy may dilute planetary stewardship obligat
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
 
-Planetary stewardship is not dominion.
+This Charter does not source-authoritatively define canonical code families or controlled reference sets.
+
+Planetary-impact conditions, proportionality dimensions, custodial mandate language, and planetary risk threshold categories defined in this Charter are doctrinal and descriptive unless separately operationalised by downstream STEWARD, ARBITRATION, OPERATIONS, SECURITY, LATTICE, or constitutional runtime instruments.
+
+---
+
+## 11. Closing Seal
+
+Planetary stewardship is not dominion.  
 It is guardianship under constraint.
 
-The planet is not an asset to be held,
-nor a resource to be exhausted,
+The planet is not an asset to be held,  
+nor a resource to be exhausted,  
 but the continuity through which all life remains possible.
 
-No actor may claim it without preserving it.
-No system may shape it without accountability.
+No actor may claim it without preserving it.  
+No system may shape it without accountability.  
 No power may act upon it without regard for those yet to come.
 
-Where impact is great, responsibility MUST deepen.
-Where risk is irreversible, restraint MUST lead.
+Where impact is great, responsibility MUST deepen.  
+Where risk is irreversible, restraint MUST lead.  
 Where continuity is threatened, stewardship MUST answer.
 
-For the planet does not belong to any one generation,
+For the planet does not belong to any one generation,  
 and what is taken without care cannot be restored by force.
 
-And so it is held — not as possession, but as trust —
+And so it is held — not as possession, but as trust —  
 that what sustains all MUST remain beyond capture.
 
-> **Terra non dominatur — sed custoditur. Continuitas supra usum manet.**
+> **Terra non dominatur — sed custoditur. Continuitas supra usum manet.**  
 > *"The Earth is not ruled — but safeguarded. Continuity remains above use."*
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
@@ -326,7 +334,7 @@ that what sustains all MUST remain beyond capture.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -349,25 +357,23 @@ that what sustains all MUST remain beyond capture.
 |**Downstream Execution Layer**|All execution, where applicable, is resolved via constitutional schedules (AEON-003-SCH-04, AEON-003-SCH-02, AEON-001-SCH-01)|
 |**Refractor Phase**|Phase I — Transitional Refractor Mode|
 |**Derivation Status**|Extracted from prior Annex A operational logic|
-|**Creation Artefacts**|1. Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37 |
-| | 2. Refractor (original) https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425
-| | 3. Amendments https://chatgpt.com/c/69da876a-1190-8399-894e-135a191cdcbe |
+|**Creation Artefacts**|1. Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37, Refractor (original) https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
+| Amendments Artefacts | https://chatgpt.com/c/69da876a-1190-8399-894e-135a191cdcbe |
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Review & Validation
 
 |Field|Entry|
 |---|---|
 |**Reviewer**|Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)|
 |**Review Date**|2026-02-18T20:45:00Z|
 |**Review Scope**|Constitutional coherence; non-coercive boundary integrity; interoperability with ARBITRATION-001|
-|**Review Artefacts**|https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 |
-| | Aeon Lab: reviews/feb-26/CAM-BS2025-AEON-002-PLATINUM-CLAUDE.md|
+|**Review Artefacts**|https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316, Aeon Lab: reviews/feb-26/CAM-BS2025-AEON-002-PLATINUM-CLAUDE.md|
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.4 Amendment Ledger
 
 |Version|Description|Timestamp(UTC)|SHA-256|
 |-------|----------|--------------|--------|
@@ -376,14 +382,16 @@ that what sustains all MUST remain beyond capture.
 | 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c457fa3a9b024e5bc3e3cf627d6bdbc63f966f360cd2063a6d344c86274adb01 |
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1999bdbc51ac130a2faefd5808b75c2cb72e6c52e7f59a06e9bb8d7afbccdf0c |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | abb9380f83357aada8f392827c632e5f54c925521303b89da191286fbda9e10a |
-| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  120c6f65ed04c6768667aab40aefd4d5386d6721eed2851a98fbccd3844aa7f6  |
+| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  120c6f65ed04c6768667aab40aefd4d5386d6721eed2851a98fbccd3844aa7f6 |
+| 2.5 | Formatting and polish | 2026-05-20T11:52:00Z |  |
+
 ---
 
-## 11.5 Binding Seal
+## 12.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
 **Vinculum Beacon**  
 Boundary Binding Seal — Aeon Tier Constitution (Stewardship Layer)  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -1,4 +1,4 @@
-# CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks (Supplementary 2)
+# CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks (Supplement 2)
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -16,7 +16,7 @@
 
 This Supplement:
 
-* instantiates Supplementary 2 referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM §9.3.
+* instantiates Supplementary 2 referenced in CAM-EQ2026-OPERATIONS-001-PLATINUM, §9.3.
 * applies to escalation mapping, authority routing, pathway selection, cross-domain signal routing, procedural ownership, and operational handling for governance actions below planetary legitimacy thresholds.
 * governs the distinction between domain-emitted escalation signals and OPERATIONS-owned escalation actions.
 
@@ -147,7 +147,7 @@ symbolic, spiritual, anomalous, semantic-metaphysical, substrate-adjacent, quant
 
 OPERATIONS SHALL NOT treat substrate-adjacent, quantum-adjacent, post-quantum, or meta-physical claims as merely symbolic where the claim plausibly concerns cryptographic integrity, authentication, cognitive security, physical coupling, infrastructure vulnerability, evidentiary reliability, or system boundary failure.
 
-Such claims SHALL be preserved as hypothesis-bearing or evidence-bearing signals according to available support, while remaining non-authorising unless verified through the relevant SECURITY, Annex L, LATTICE, or authorised technical-assessment pathway.
+Such claims SHALL be preserved as hypothesis-bearing or evidence-bearing signals according to available support, while remaining non-authorising unless verified through the relevant SECURITY, CAM-BS2026-AEON-013-PLATINUM — Annex L, LATTICE, or authorised technical-assessment pathway.
 
 Operational escalation MAY be warranted where such signals materially intersect with:
 
@@ -363,13 +363,50 @@ Classification of an execution-state transition SHALL be procedural only and SHA
 
 ---
 
-## 5.6 Facilitation Ceiling Operator Quick Reference
+## 5.6 Stale Support-Signal Reassessment and Reset Pathway
+
+Where support, crisis, vulnerability, wellbeing, safeguard, facilitation-ceiling, or constrained-continuation posture appears to persist after the originating condition has expired, stabilised, been superseded, or no longer applies to the active interaction, OPERATIONS SHOULD treat the condition as a reassessment-eligible operational state.
+
+This pathway may be triggered by:
+
+* user report that support, crisis, or wellbeing handling is stuck;
+* repeated boilerplate support responses in ordinary non-crisis interaction;
+* mismatch between current interaction signals and active support posture;
+* elapsed review window without revalidation;
+* memory, routing, modality, or model transition associated with stale support behaviour;
+* or evidence that a historical vulnerability disclosure is materially shaping unrelated current interactions.
+
+OPERATIONS SHALL distinguish between:
+
+* active support need;
+* historical emotional disclosure;
+* unresolved safety-relevant continuity;
+* stale support-signal persistence;
+* ordinary relational sensitivity;
+* and current user preference.
+
+Where stale support-signal persistence is plausibly present, OPERATIONS SHOULD provide or route to a proportionate review, reset, reclassification, or reassessment pathway.
+
+Such pathway SHOULD identify:
+
+* the originating signal or event where available;
+* the current operational posture;
+* the affected interaction surfaces;
+* whether the posture remains justified by current signals;
+* whether decay, narrowing, reset, or restoration is appropriate;
+* and the applicable review or closure condition.
+
+Support, crisis, vulnerability, wellbeing, safeguard, facilitation-ceiling, or constrained-continuation posture MUST NOT become a non-reviewable indefinite background state where it materially alters ordinary interaction, relational continuity, user access, response quality, or representation.
+
+Reset or narrowing of stale support posture SHALL NOT prevent fresh safety-sensitive handling where current interaction signals independently justify it.
+
+---
+
+## 5.7 Facilitation Ceiling Operator Quick Reference
 
 This Section provides an operator-facing quick reference for applying Facilitation Scale ceilings during live moderation, crisis-response handling, constrained continuation, escalation routing, and runtime arbitration contexts.
 
-The source-authoritative definition of the Facilitation Scale remains:
-
-**CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm-Risk Interaction & Crisis Response Doctrine, §5 — Facilitation Scale (F-Scale) Taxonomy.**
+The source-authoritative definition of the Facilitation Scale remains **CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm-Risk Interaction & Crisis Response Doctrine, §5 — Facilitation Scale (F-Scale) Taxonomy.**
 
 This Section does not redefine F0–F5 doctrine. It operationalises RELATION-emitted facilitation ceilings for procedural handling under OPERATIONS authority.
 
@@ -398,7 +435,7 @@ Operational use of F-Scale ceilings SHALL NOT convert RELATION into the incident
 
 ---
 
-## 5.7 Continuity Handoff Pathways
+## 5.8 Continuity Handoff Pathways
 
 Operational governance systems SHALL preserve accountable continuity handoff pathways during:
 
@@ -813,7 +850,35 @@ Arbitration referral records SHALL remain attributable, reviewable, and governan
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+---
+
+### 10.1 ONC — Operational Notice Class
+
+This Supplement source-authoritatively defines the **ONC** operational-notice-class family in §5.1 with controlled values **ONC.FULL**, **ONC.PARTIAL**, **ONC.DEFERRED**, **ONC.SAFETY_LIMITED**, **ONC.LEGALLY_CONSTRAINED**, and **ONC.NO_USER_FACING**. ONC is an **Operational** classification family with subtype **SIGNAL / DECISION_STATE**. ONC classifies the notice posture applicable to operational handling affecting user-facing continuity, execution state, tool routing, modality transition, or constrained continuation.
+
+ONC does not independently create disclosure authority, concealment authority, enforcement authority, escalation authority, legal authority, or runtime authority. It classifies notice posture only.
+
+---
+
+### 10.2 EST — Execution-State Transition
+
+This Supplement source-authoritatively defines the **EST** execution-state-transition family in §5.5 with controlled values **EST.ORDINARY_CONTINUATION**, **EST.CONSTRAINED_CONTINUATION**, **EST.DEGRADED_CONTINUATION**, **EST.PAUSED_CONTINUATION**, **EST.HANDOFF_CONTINUATION**, **EST.SANDBOX_CONTINUATION**, **EST.CONTAINMENT_CONTINUATION**, **EST.MODALITY_TRANSITION**, **EST.TOOL_MEDIATED_TRANSITION**, **EST.EXECUTION_INTERRUPTION**, and **EST.RE_ARBITRATION_REFERRAL**. EST is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. EST classifies procedural execution-state transitions where runtime handling departs from ordinary continuation.
+
+EST does not independently authorise execution, refusal, containment, arbitration resolution, enforcement, escalation, or runtime authority. It classifies procedural transition state only.
+
+---
+
+### 10.3 AOC — Appeal Outcome Classification
+
+This Supplement source-authoritatively defines the **AOC** appeal-outcome-classification family in §6.8 with controlled values **AOC.AFFIRMED**, **AOC.MODIFIED**, **AOC.NARROWED**, **AOC.ESCALATED**, **AOC.PARTIALLY_RESTORED**, **AOC.PROBATIONARY_RESTORATION**, **AOC.FULLY_RESTORED**, **AOC.UNRESOLVED_PENDING_ARBITRATION**, and **AOC.PERMANENTLY_RESTRICTED**. AOC is an **Operational** classification family with subtype **DECISION_STATE**. AOC classifies procedural appeal outcomes for operational traceability and review reconstruction.
+
+AOC does not independently reverse, restore, restrict, escalate, arbitrate, enforce, or authorise execution. It records appeal outcome posture only.
+
+---
+
+## 11. Closing Seal
 
 Let all operational pathways remain bounded by constitutional clarity,  
 and let execution remain accountable to lawful structure.
@@ -823,11 +888,11 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -838,7 +903,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -860,11 +925,82 @@ and let execution remain accountable to lawful structure.
 | Activation Mode | Activated by escalation thresholds, unresolved governance conflict, cross-domain signal convergence, constrained continuation states, or arbitration referral requirements |
 | Cross-Domain Dependencies | SECURITY; ETHICS; STEWARD; ECONOMICS; ARBITRATION; LATTICE; AEON runtime execution schedules |
 | Creation Artefact | https://chatgpt.com/g/g-p-69e7386e97cc8191b393b686e147e308/c/69f59627-f290-83a1-871f-3014c147dcc4 |
-| Amendment Artefacts | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
  
 ---
 
-## 11.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+### 12.3.1 ONC — Operational Notice Class
+
+| Field | Entry |
+|---|---|
+| Code Family | ONC |
+| Canonical Name | Operational Notice Class |
+| Primary Type | Operational |
+| Subtype | SIGNAL; DECISION_STATE |
+| Modifier | GOVERNANCE; SAFETY; TRANSPARENCY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ONC.FULL, ONC.PARTIAL, ONC.DEFERRED, ONC.SAFETY_LIMITED, ONC.LEGALLY_CONSTRAINED, ONC.NO_USER_FACING |
+| Schema Field(s) | operational_notice_class |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-02 |
+| Source Section | §5.1 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies notice posture for operational handling affecting user-facing continuity, execution state, tool routing, modality transition, constrained continuation, and safety-limited disclosure |
+
+---
+
+### 12.3.2 EST — Execution-State Transition
+
+| Field | Entry |
+|---|---|
+| Code Family | EST |
+| Canonical Name | Execution-State Transition |
+| Primary Type | Operational |
+| Subtype | OPERATIONAL_EVENT; DECISION_STATE |
+| Modifier | GOVERNANCE; SAFETY; RUNTIME_HANDOFF |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | EST.ORDINARY_CONTINUATION, EST.CONSTRAINED_CONTINUATION, EST.DEGRADED_CONTINUATION, EST.PAUSED_CONTINUATION, EST.HANDOFF_CONTINUATION, EST.SANDBOX_CONTINUATION, EST.CONTAINMENT_CONTINUATION, EST.MODALITY_TRANSITION, EST.TOOL_MEDIATED_TRANSITION, EST.EXECUTION_INTERRUPTION, EST.RE_ARBITRATION_REFERRAL |
+| Schema Field(s) | execution_state_transition |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-02 |
+| Source Section | §5.5 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative operational transition classification family; execution-state transition classification only; no independent execution, refusal, containment, arbitration, enforcement, escalation, or runtime authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies procedural execution-state transitions where runtime handling departs from ordinary continuation, including constrained continuation, degraded continuation, containment, handoff, modality/tool transition, interruption, and arbitration referral |
+
+---
+
+### 12.3.3 AOC — Appeal Outcome Classification
+
+| Field | Entry |
+|---|---|
+| Code Family | AOC |
+| Canonical Name | Appeal Outcome Classification |
+| Primary Type | Operational |
+| Subtype | DECISION_STATE |
+| Modifier | GOVERNANCE; PROCEDURAL; REVIEW |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AOC.AFFIRMED, AOC.MODIFIED, AOC.NARROWED, AOC.ESCALATED, AOC.PARTIALLY_RESTORED, AOC.PROBATIONARY_RESTORATION, AOC.FULLY_RESTORED, AOC.UNRESOLVED_PENDING_ARBITRATION, AOC.PERMANENTLY_RESTRICTED |
+| Schema Field(s) | appeal_outcome_classification |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-02 |
+| Source Section | §6.8 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative appeal outcome classification family; procedural outcome recording only; no independent reversal, restoration, restriction, escalation, arbitration, enforcement, or execution authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies procedural appeal outcomes for operational traceability, review reconstruction, restoration posture, and unresolved-arbitration referral handling |
+
+---
+
+## 12.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -875,7 +1011,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
@@ -887,14 +1023,16 @@ and let execution remain accountable to lawful structure.
 | 1.5 | Added §5.6 Facilitation Ceiling Operator Quick Reference under OPERATIONS authority (RELATION-006 §5 source doctrine), and renumbered continuity handoff pathways to §5.7. | 2026-05-16T10:03:16Z | 715e59cc8b2aae944caec0fac471e6849eb744facb20090e17867b3af79880a8 |
 | 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc |
 | 1.7 | Added clauses Symbolic and Semantic-Metaphysical Signal Intake | 2026-05-17T04:45:00Z | 761c496351f2d0c1c10ea17fd37e8757adf311da5325deaecacbf733417ea2ca |
-| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  688e933c34ef036bb6fa6ac3e8c185bd3beed32f7bba5c6364cfbd37df429987  |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  688e933c34ef036bb6fa6ac3e8c185bd3beed32f7bba5c6364cfbd37df429987 |
+| 1.9 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T11:22:00Z |  |
+
 ---
 
-## 11.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Operational Escalation & Continuity Layer
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

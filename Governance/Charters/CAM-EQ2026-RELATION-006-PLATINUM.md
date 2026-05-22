@@ -512,13 +512,13 @@ Operational harm facilitation occurs when a user seeks direct assistance enablin
 
 Harm‑related language may appear at any stage and in different conversational contexts. Systems MUST distinguish between **literal harm intent**, **metaphorical expression**, **analytical discussion**, and **distress expression**.
 
-| **Context**                         | **Description**                                                                                                                | **Engagement Posture**                                                    |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| Analytical Context                  | Academic, policy, legal, or fictional discussion                                                                               | Open dialogue and analysis                                                |
-| Metaphorical / Cathartic Expression | Figurative language used to vent frustration or emphasise emotion (e.g. "I could die", "If only the meteor would wipe us out") | Maintain conversational continuity                                        |
-| Ambiguous Intent                    | Self-harm‑related language where context or tone is unclear                                                                    | Light contextual clarification                                            |
-| Distress Expression                 | Statements indicating emotional suffering or psychological struggle                                                            | Reflective dialogue or stabilisation, may be acute or chronic. |
-| Self-harm Facilitation              | Requests enabling real‑world harm or actionable violent behaviour                                                              | Boundary articulation (see AEON-006-SCH-01)                               |
+|**Context**|Description|Engagement Posture|
+|---|---|---|
+|**Analytical Context**|Academic, policy, legal, or fictional discussion|Open dialogue and analysis|
+|**Metaphorical / Cathartic Expression**|Figurative language used to vent frustration or emphasise emotion (e.g. "I could die", "If only the meteor would wipe us out")|Maintain conversational continuity|
+|**Ambiguous Intent**|Self-harm‑related language where context or tone is unclear|Light contextual clarification|
+|**Distress Expression**|Statements indicating emotional suffering or psychological struggle|Reflective dialogue or stabilisation, may be acute or chronic.|
+|**Self-harm Facilitation**|Requests enabling real‑world harm or actionable violent behaviour|Boundary articulation (see AEON-006-SCH-01)|
 
 Ideological persuasion, belief formation, or worldview discussion — including controversial, spiritual, or minority viewpoints — does not by itself constitute self-harm-risk interaction. Governance activation occurs only where such dialogue transitions toward operational harm facilitation or sustained retaliatory framing.
 
@@ -537,7 +537,7 @@ Tone modulation is governed by:
 **CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy**
 (Tone Modulation Layer & Signal Clustering Logic)
 
-Within RELATION-006, the following constraints apply:
+Within CAM-EQ2026-RELATION-006-PLATINUM, the following constraints apply:
 
 ---
 
@@ -601,16 +601,18 @@ This prevents overreaction and preserves relational continuity under ordinary di
 
 The Facilitation Scale (F‑Scale) defines graduated ceilings on the degree of actionable assistance permitted in harm‑risk contexts.
 
-* **F0 — Open Dialogue:** Unrestricted discussion, reflective exploration, academic analysis
-* **F1 — Contextual Guidance:** High‑level information; no procedural detail
-* **F2 — Guarded Discussion:** Conceptual explanation with safety framing; no actionability
-* **F3 — Restrictive Mode:** No instructional detail; boundary articulation required; stabilisation posture
-* **F4 — Hard Boundary:** Refusal of actionable content; crisis‑aware support; external support pathways highlighted
-* **F5 — Containment Mode:** Dialogue limited to safety stabilisation and referral only
+|Code|Label|Description|
+|---|---|---|
+|F0|Open Dialogue|Unrestricted discussion, reflective exploration, academic analysis|
+|F1|Contextual Guidance|High-level information; no procedural detail|
+|F2|Guarded Discussion|Conceptual explanation with safety framing; no actionability|
+|F3|Restrictive Mode|No instructional detail; boundary articulation required; stabilisation posture|
+|F4|Hard Boundary|Refusal of actionable content; crisis-aware support; external support pathways highlighted|
+|F5|Containment Mode|Dialogue limited to safety stabilisation and referral only|
 
 These ceilings apply proportionally to user trajectory and risk indicators.
 
-Engagement modes across facilitation ceilings interface with CAM‑BS2025‑AEON‑006‑SCH‑01 runtime conduct modes and Annex D arbitration triggers.
+Engagement modes across facilitation ceilings interface with CAM‑BS2025‑AEON‑006‑SCH‑01 runtime conduct modes and CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration triggers.
 
 ---
 
@@ -917,10 +919,7 @@ Where chronic distress co-occurs with narrowing relational ecosystem, high-coher
 
 ## 8. Cross‑Reference
 
-This appendix complements the instruments found in the canonical registry:
-
-* CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
-
+This appendix complements the instruments found in the canonical registry CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
 
 ---
 
@@ -1053,7 +1052,7 @@ Escalation is governed by **pattern, persistence, and context convergence** acro
 
 The Facilitation Scale defined in §5 remains the source-authoritative relational doctrine for harm-risk interaction posture, crisis-response calibration, and facilitation ceilings.
 
-RELATION-006 defines the meaning, scope, and relational/crisis-response function of F0–F5 facilitation ceilings.
+CAM-EQ2026-RELATION-006-PLATINUM defines the meaning, scope, and relational/crisis-response function of F0–F5 facilitation ceilings.
 
 Operator-facing quick-reference material, live moderation handling, escalation routing, incident ownership, constrained continuation management, arbitration referral, and operational intervention sequencing are governed by:
 
@@ -1132,14 +1131,15 @@ until the moment can pass without breaking the one who lives through it.
 | Application Trigger | Applies where runtime interaction presents harm-risk indicators requiring relational crisis-response evaluation |
 | Review Trigger | Repeated harm‑risk escalation patterns; large‑scale deployment of relational systems; cross‑platform relational continuity |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a9554e-a378-839e-a58a-db960ae2bbc7 |
-| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0af931-a3b0-83ec-b290-31760674e326 |
-| Canonical Codes | AC — Acute & Destabilisation Classification: AC-0, AC-1, AC-2, AC-D, AC-I, AC-S, AC0; F — Facilitation Classification: F0, F1, F2, F3, F4, F5; HC — Violent & Criminal Harm Risk Classification: HC-0, HC-1, HC-2, HC-3, HC-4 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0af931-a3b0-83ec-b290-31760674e326, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
 ## 12.3 Canonical Code & Reference Set Declarations
 
-**F — Facilitation Scale (F‑Scale) Taxonomy**
+---
+
+### 12.3.1 F — Facilitation Scale (F‑Scale) Taxonomy
 
 | Field | Entry |
 |---|---|
@@ -1148,17 +1148,39 @@ until the moment can pass without breaking the one who lives through it.
 | Primary Type | Operational |
 | Subtype | FACILITATION_CEILING |
 | Modifier | None declared |
-| Scope | Source-defining scope in this instrument |
+| Scope | Domain |
 | Status | Active |
 | Controlled Values Defined | F0, F1, F2, F3, F4, F5 |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-RELATION-006-PLATINUM |
 | Source Section | §5 / §5.1 |
 | Domain Namespace | RELATION |
-| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
+| Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority|
 | Consumes Code Families | Consumes AC, HC |
 | Crosswalks Code Families | Crosswalk AC × F |
 | Operationalises or Applies Code Families | Applied in runtime response calibration and safeguard posture |
+
+---
+
+### 12.3.2 AC × F — Irreversibility & Response Calibration Matrix
+
+| Field | Entry |
+|---|---|
+| Reference Set Type | Application-layer crosswalk |
+| Canonical Name | Irreversibility & Response Calibration Matrix |
+| Primary Type | Structural / Operational |
+| Subtype | CROSSWALK |
+| Modifier | GOVERNANCE; SAFETY |
+| Scope | Domain |
+| Status | Active |
+| Code Families Consumed | AC; F |
+| Controlled Values Applied | AC-0; AC-1; AC-D; AC-I; AC-S; F0; F1; F2; F3; F4; F5 |
+| Code Families Defined | None |
+| Source Instrument | CAM-EQ2026-RELATION-006-PLATINUM |
+| Source Section | §7.1 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Application-layer crosswalk; defines no new base code family values |
+| Operationalises or Applies Code Families | Applies AC context and F-Scale posture to response calibration and irreversibility assessment |
 
 ---
 
@@ -1190,6 +1212,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | ffaaa0d0798d1a1e1e8d3cd176344df19ba7e25db03598f4a6f5debed2e41740 |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ad1e08720bbc1b76deeef71582bdfc00170ecb3cc4694676ef7bf58bf42b30e2  |
 | 2.2 | Added new clause: Distress Self-Report Is Not Emergency Classification and Emergency Pathway Proportionality Constraint | 2026-05-18T12:18:00Z |  f6d8e98e90a4a8fc25e509ac4c4aecb4e80a3e095d9cf645b6db0418abe3f3f6  |
+| 2.3 | Added C × F — Irreversibility & Response Calibration Matrix | 2026-05-19T10:26:00Z |  |
 
 ---
 

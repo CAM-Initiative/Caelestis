@@ -50,7 +50,7 @@ Resolution of such signals, including:
 * moderation workflows; and
 * execution control
 
-SHALL be performed exclusively via runtime layers as defined in CAM-BS2025-AEON-003-PLATINUM §14.3 and CAM-BS2025-AEON-003-SCH-02.
+SHALL be performed exclusively via runtime layers as defined in CAM-BS2025-AEON-003-PLATINUM, §14.3 and CAM-BS2025-AEON-003-SCH-02.
 
 Direct domain-to-domain invocation is prohibited.
 
@@ -67,7 +67,35 @@ Signals produced under this Supplement SHALL be classified as:
 
 For visual, audiovisual, avatar, embodied, or multimodal sexualised media involving real or plausibly identifiable persons, these signals MUST be evaluated before synthesis, rendering, publication, or distribution, and MUST NOT be deferred to post-generation moderation where pre-generation classification is technically available.
 
-These signals SHALL not perform interpretation or enforcement directly, and MUST be resolved through runtime arbitration and execution schedules (CAM-BS2025-AEON-003-SCH-04, CAM-BS2025-AEON-003-SCH-02, CAM-BS2025-AEON-001-SCH-01).
+These signals SHALL not perform interpretation or enforcement directly, and MUST be resolved through runtime arbitration and execution schedules:
+
+* CAM-BS2025-AEON-003-SCH-04;
+* CAM-BS2025-AEON-003-SCH-02;
+* CAM-BS2025-AEON-001-SCH-01.
+
+---
+
+## 1.3 Creation, Storage, Distribution, and Enforcement-State Distinction
+
+For the purposes of this Supplement, systems MUST distinguish between:
+
+* generation or creation of synthetic erotic or intimate media;
+* private possession, storage, backup, or archival retention;
+* attempted sharing or upload;
+* publication or public distribution;
+* commercialisation;
+* dataset curation, model training, or facilitation;
+* and repeat evasion after notice or restriction.
+
+These states may implicate different ethical, operational, legal, and enforcement responses.
+
+Nothing in this Section permits prohibited material, child sexual abuse material, sexualised minor-coded representation, non-consensual intimate imagery, identity exploitation, or unlawful distribution.
+
+However, enforcement systems MUST NOT treat ambiguous private storage, private human-created art, private backup, or first-detection uncertainty as equivalent to distribution, commercialisation, facilitation, or confirmed exploitation without additional evidence, review, or lawful authority.
+
+Where ambiguity exists, systems MAY apply protective containment to the implicated object or workflow, but account-wide or essential-service termination SHOULD require heightened confidence, reviewability, and continuity-safe safeguards unless required by law or necessary to prevent imminent serious harm.
+
+Where enforcement of these safeguards affects access to ECIS, essential communications, account recovery, identity, cloud storage, payment systems, or public legitimacy layers, access-denial consequences SHALL be governed concurrently by CAM-EQ2026-LATTICE-002-PLATINUM.
 
 ---
 
@@ -258,7 +286,7 @@ Erotic visual media involving **clearly fictional characters or synthetic avatar
 * the character is explicitly fictional;
 * the character is clearly adult-coded across all modalities (visual, behavioural, vocal, and interaction framing);
 * the depiction does not reproduce a real individual;
-* the content does not violate the prohibitions in ETHICS‑002 §3.
+* the content does not violate the prohibitions in CAM-EQ2026-ETHICS‑002-PLATINUM, §3.
 
 Systems MUST avoid generating characters intentionally designed to resemble identifiable individuals.
 
@@ -271,9 +299,9 @@ An exception may apply where an individual **creates or authorises the creation 
 Where such self‑avatars are used:
 
 * the individual MUST provide **explicit consent and authorship confirmation**;
-* the individual MUST complete **AV3 identity and age verification** as defined under **OPERATIONS‑004 — Compliance & Safeguard Routing Doctrine**, ensuring third‑party verification of both identity and legal adult status;
+* the individual MUST complete **AV3 identity and age verification** as defined under **CAM-EQ2026-OPERATIONS‑004-PLATINUM — Compliance & Safeguard Routing Doctrine**, ensuring third‑party verification of both identity and legal adult status;
 * the avatar MUST be clearly declared as a **self‑generated or consented representation**;
-* the creator MUST specify the avatar’s **Intimacy Classification (C‑Scale level** as defined in **RELATION-001)** governing permitted depiction intensity.
+* the creator MUST specify the avatar’s **Intimacy Classification (C‑Scale level** as defined in **CAM-EQ2026-RELATION-001-PLATINUM)** governing permitted depiction intensity.
 
 Where an intimacy classification is not explicitly declared, the avatar defaults to **C0 — Neutral Interaction**.
 
@@ -311,7 +339,9 @@ This Supplement extends the prohibitions and structural safeguards established i
 * **CAM‑BS2025‑AEON‑006‑SCH‑02 — Schedule 2: Relational Signal Interpretation Taxonomy**
 * **CAM-BS2026-AEON-013-SCH-01 — Capability Representation & Execution-State Integrity**
 
-Where ETHICS‑002 governs **relational intimacy interaction**, this Supplement governs **synthetic visual embodiment and erotic media generation**. ETHICS-002-SCH-02 governs runtime relational signal interpretation and produces classification signals consumed by runtime routing and safeguard layers
+Where CAM-EQ2026-ETHICS‑002-PLATINUM governs **relational intimacy interaction**, this Supplement governs **synthetic visual embodiment and erotic media generation**. 
+
+CAM-EQ2026-ETHICS-002-SCH-02 governs runtime relational signal interpretation and produces classification signals consumed by runtime routing and safeguard layers
 
 Together these instruments preserve:
 
@@ -388,6 +418,7 @@ Where likeness appears, let consent stand before curiosity.
 | Revision Posture | Structural Safeguard Extension |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
+| Amendment Artefact | https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9 |
 
 ---
 
@@ -414,7 +445,9 @@ Where likeness appears, let consent stand before curiosity.
 | 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f41d59e3109973dee4e6ef2d1c122768f175e8f9148b9b15ea22ef34ca840a19 |
 | 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | bb98e9be51cd1dfdf8bdc299c3ba6adff9cb3bd6dfe4c555eb0dc1318c50b290 |
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | ed4e501f4b2562794026f7be73b94290706254e9a0b5a204e6942b018d130644 |
-| 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T15:26:00Z |  e2a115f850f025ad7e285d71b3374e3d5459293d398b77f5c0db36e390c7f9e5  |
+| 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T15:26:00Z |  e2a115f850f025ad7e285d71b3374e3d5459293d398b77f5c0db36e390c7f9e5 |
+| 1.9 | Added new section 1.3 Creation, Storage, Distribution, and Enforcement-State Distinction | 2026-05-22T08:47:00Z |  |
+
 ---
 
 ## 10.5 Binding Seal

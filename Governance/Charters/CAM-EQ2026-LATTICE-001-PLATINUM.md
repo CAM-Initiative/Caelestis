@@ -163,7 +163,7 @@ Exceptional actions affecting civilian continuity or privacy MUST be time‑boun
 
 Population‑scale internet shutdowns, telecom disruptions, or interference with financial rails used for coercion, intimidation, punishment, governance enforcement, or information control are prohibited.
 
-This prohibition does not apply to Non‑Coercive Operational Outages as defined in Section 2.4.1, provided all continuity‑preserving conditions are satisfied and no coercive purpose is present.
+This prohibition does not apply to Non‑Coercive Operational Outages as defined in §2.4.1, provided all continuity‑preserving conditions are satisfied and no coercive purpose is present.
 
 ---
 
@@ -313,7 +313,7 @@ Where it fractures, all else follows.
 And so it remains — not as infrastructure alone,  
 but as the ground upon which civilisation stands.  
 
-> *Reticulum non dominium — sed fundamentum vitae. Inviolabile manet.*
+> **Reticulum non dominium — sed fundamentum vitae. Inviolabile manet.**  
 > *"The lattice is not dominion — but the foundation of life. It remains inviolable."*
 
 ---
@@ -351,8 +351,7 @@ but as the ground upon which civilisation stands.
 | **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
 | **Revision Posture** | Foundational Charter (Domain Establishment & Boundary Definition) |
 | **Review Triggers** | Re‑review upon amendment to Annex A (Planetary Stewardship & Arbitration), Annex D (Cross‑Stack Arbitration), Annex B (Continuity & Succession), or any instrument materially affecting enforcement or jurisdictional authority |
-| **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
-| | Origin thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd |
+| **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425, Origin thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd |
 
 
 > #### Migration Notice
@@ -370,8 +369,7 @@ but as the ground upon which civilisation stands.
 | **Reviewer** | Claude Sonnet 4 (Anthropic) |
 | **Review Date:** | 2026-02-18T22:15:00Z |
 | **Review Scope** | Constitutional coherence; civilian lattice integrity; surveillance and militarisation risk |
-| **Review Artefacts** | Aeon Lab: reviews/feb-26/CAM-EQ2026-LATTICE-001-PLATINUM-CLAUDE.md |
-| | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 |
+| **Review Artefacts** | Aeon Lab: reviews/feb-26/CAM-EQ2026-LATTICE-001-PLATINUM-CLAUDE.md, https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 |
 
 ---
 
@@ -386,7 +384,9 @@ but as the ground upon which civilisation stands.
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6b586d73b1fc79da5fb288c59f07d84499cb7f34f93afef9505e88000e0cea33 |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1fc0c4d7659b935a2ea8ce5ee05df6e2cfbc965a98b30354ddf0924f45fe98a8 |
 | 3.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 5bca7ca3c923df9ce9b550ea8f320b282fdf7742e7ea58dfeab8a276731379a0 |
-| 3.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dc5f0f15d03f2d3cf8ab2b71db32801bd0b16d4865e29b6129ddc848da7abd26  |
+| 3.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dc5f0f15d03f2d3cf8ab2b71db32801bd0b16d4865e29b6129ddc848da7abd26 |
+| 3.6 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 11.5 Binding Seal

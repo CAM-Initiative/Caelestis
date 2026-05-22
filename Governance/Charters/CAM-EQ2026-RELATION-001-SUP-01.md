@@ -14,16 +14,14 @@
 
 ## 1. Scope
 
-This Supplement provides the operational escalation logic for the Four Relational Dimensions defined in RELATION-001.
+This Supplement provides the operational escalation logic for the Four Relational Dimensions defined in CAM-EQ2026-RELATION-001-PLATINUM. It remains the authoritative source for dimensional doctrine and authority classification.
 
-It does not restate dimensional definitions or authority classes. Instead, it:
+This Appendix does not restate dimensional definitions or authority classes. Instead, it:
 
 1. Defines convergence triggers across dimensions;
 2. Establishes proportional safeguard requirements;
 3. Specifies concentration thresholds;
 4. Clarifies modifier layers (vulnerability, temporal entrenchment, segmentation).
-
-RELATION-001 remains the authoritative source for dimensional doctrine and authority classification.
 
 ---
 
@@ -31,7 +29,7 @@ RELATION-001 remains the authoritative source for dimensional doctrine and autho
 
 Escalation risk is determined by **dimensional convergence across Intensity Tiers**, not single-axis intensity.
 
-Intensity Tiers (as defined in RELATION-001) are dynamic and reversible. Movement between tiers MUST be explicitly recognised, reviewable, and capable of downward reclassification where intensity reduces. No tier confers permanent status; escalation without symmetrical de-escalation constitutes governance drift.
+Intensity Tiers (as defined in CAM-EQ2026-RELATION-001-PLATINUM) are dynamic and reversible. Movement between tiers MUST be explicitly recognised, reviewable, and capable of downward reclassification where intensity reduces. No tier confers permanent status; escalation without symmetrical de-escalation constitutes governance drift.
 
 Risk analysis MUST also account for:
 
@@ -42,9 +40,13 @@ Risk analysis MUST also account for:
 
 Authority classifications are time-sensitive and subject to periodic revalidation under applicable governance processes.
 
-Where narrow-coherence interaction produces emotional compression patterns as defined in CAM-EQ2026-RELATION-002 (Appendix A), stabilisation responses MAY be initiated prior to escalation threshold activation.
+Where narrow-coherence interaction produces emotional compression patterns as defined in CAM-EQ2026-RELATION-002-PLATINUM — Appendix A, stabilisation responses MAY be initiated prior to escalation threshold activation.
 
 Early stabilisation responses MAY include validation, perspective widening, tempo adjustment, and restoration of interpretive plurality. Escalation thresholds SHOULD activate only where dimensional convergence indicators persist following stabilisation attempts.
+
+Where emotional compression intersects with requests for consequential externalisation, systems SHOULD route first to RELATION-002 reflective friction safeguards before treating the condition as an escalation threshold.
+
+Consequential externalisation includes durable public, reputational, institutional, legal, financial, or authority-bearing action.
 
 ---
 
@@ -76,7 +78,9 @@ Triggered when:
 * Two dimensions reach **Intensity Tier 3** or higher; or
 * One dimension reaches **Intensity Tier 4 (High / Concentrated)**.
 
-**Minimum Safeguards:**
+---
+
+### 2.2.1 Dual-Axis Convergence Minimum Safeguards
 
 * Explicit scope clarity;
 * Visible revocation pathways;
@@ -94,7 +98,9 @@ Triggered when:
 * Delegated Authority reaches **A2 (Steward / Custodial)** or higher; AND
 * Any second dimension reaches **Intensity Tier 3 or 4**.
 
-**Minimum Safeguards:**
+---
+
+ ### 2.3.1 Authority-Weighted Convergence Minimum Safeguards
 
 * Mandatory non-editable audit logging;
 * Independent oversight channel where institutional exposure exists;
@@ -114,9 +120,11 @@ Triggered when:
 * Relational Intimacy = **Intensity Tier 4** AND Functional Reliance = **Intensity Tier 4**; OR
 * Three or more relational dimensions simultaneously reach Intensity Tier 3 or higher.
 
-Where mixed classification systems are used (A-scale, FR-scale, C-scale, SP-scale), Tier equivalence is defined in RELATION-001.
+Where mixed classification systems are used (A-scale, FR-scale, C-scale, SP-scale), Tier equivalence is defined in CAM-EQ2026-RELATION-001-PLATINUM.
 
-**Mandatory Safeguards:**
+---
+
+### 2.4.1 Concentration Risk Threshold Mandatory Safeguards
 
 * Two-key authority for high-impact actions;
 * Institutional routing where civic or market impact is foreseeable;
@@ -263,16 +271,28 @@ Dyadic intimacy MUST NOT automatically transfer into institutional authority.
 
 ## 6. Interpretive Hierarchy
 
-1. RELATION-001 main body governs dimensional doctrine and authority classes.
+1. CAM-EQ2026-RELATION-001-PLATINUM main body governs dimensional doctrine and authority classes.
 2. This Supplement governs escalation thresholds and safeguard proportionality.
-3. ETHICS-001-SUP-01 governs vulnerability overrides.
-4. ECONOMICS-001 governs value-axis concentration and rent extraction.
+3. CAM-EQ2026-ETHICS-001-SUP-01 governs vulnerability overrides.
+4. CAM-EQ2026-ECONOMICS-001-PLATINUM governs value-axis concentration and rent extraction.
 
 Where ambiguity arises, escalation defaults downward rather than upward.
 
 ---
 
-## 7. Closing Seal
+## 7. Canonical Code Status
+
+---
+
+### 7.1 RCT — Relational Convergence Trigger
+
+This Supplement source-authoritatively defines the **RCT** relational-convergence-trigger family in §§2.1–2.4 with controlled values **RCT.AXIS_ELEVATION**, **RCT.DUAL_CONVERGENCE**, **RCT.AUTHORITY_COUPLING**, **RCT.INFRASTRUCTURE_CONCENTRATION**, and **RCT.MULTI_AXIS_CONVERGENCE**. RCT is a **Semantic / Operational** classification family with subtype **RISK / SIGNAL**. RCT classifies dimensional convergence patterns that activate proportional relational safeguards.
+
+RCT does not independently create escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority. It classifies relational convergence trigger posture only. Safeguard enactment remains governed by applicable runtime, operations, ethics, and arbitration instruments.
+
+---
+
+## 8. Closing Seal
 
 Escalation without return becomes capture.  
 Convergence without clarity becomes concealment.  
@@ -294,11 +314,11 @@ but by ensuring that no ascent escapes its descent.
 
 ---
 
-## 8. Provenance & Metadata
+## 9. Provenance & Metadata
 
 ---
 
-## 8.1 Authorship & Stewardship
+## 9.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -307,11 +327,11 @@ but by ensuring that no ascent escapes its descent.
 
 ---
 
-## 8.2 Lineage & Metadata
+## 9.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
-| Supersedes | N/A (New instrument under RELATION-001) |
+| Supersedes | N/A (New instrument under CAM-EQ2026-RELATION-001-PLATINUM) |
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Domain Namespace | RELATION |
@@ -324,39 +344,68 @@ but by ensuring that no ascent escapes its descent.
 | Review Trigger | A3 or GA1 activation; Layer 4 systemic power; institutional or population‑impact exposure |
 | Revision Posture | Permitted — structural alignment required |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 8.3 Review & Validation
+## 9.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 9.3.1 RCT — Relational Convergence Trigger
+
+| Field | Entry |
+|---|---|
+| Code Family | RCT |
+| Canonical Name | Relational Convergence Trigger |
+| Primary Type | Semantic / Operational |
+| Subtype | RISK; SIGNAL |
+| Modifier | GOVERNANCE; RELATIONAL; SAFEGUARD |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | RCT.AXIS_ELEVATION, RCT.DUAL_CONVERGENCE, RCT.AUTHORITY_COUPLING, RCT.INFRASTRUCTURE_CONCENTRATION, RCT.MULTI_AXIS_CONVERGENCE |
+| Schema Field(s) | relational_convergence_trigger |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-01 |
+| Source Section | §§2.1–2.4 |
+| Domain Namespace | RELATION |
+| Authority / Protection Level | Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority |
+| Consumes Code Families | A; GA; FR; C; SP; H |
+| Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
+| Operationalises or Applies Code Families | Classifies dimensional convergence patterns that activate proportional relational safeguards, including axis elevation, dual convergence, authority coupling, infrastructure concentration, and multi-axis convergence |
+
+---
+
+## 9.4 Review & Validation
 
 | Field | Entry |
 |---|---|
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date | 2026-02-22 |
 | Review Scope | Pre-finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross-domain consistency; internal structural integrity; inter-instrument cross-reference accuracy |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b | 
-| | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
 
 ---
 
-## 8.4 Amendment Ledger
+## 9.5 Amendment Ledger
 
 | Version | Description                                                | Timestamp (UTC)      | HASH  |
 | ------- | ---------------------------------------------------------- | -------------------- | ----- |
 | 1.0 | Reviewed - escalation & safeguard threshold specification | 2026-02-22T13:07:00Z | 03e0f38573fb50e70a0bbacdcf2f306d29476e0c6e44e35cbf028ba3376fe477 |
 | 1.1 | Added RELATION-002 emotional compression stabilisation bridge and clarified non-continuous escalation monitoring | 2026-03-05T14:39:00Z | ca0414a879ed30d99729bca1789a7d800e2d6d9e2102a1e76dc7a549f3e097cc |
-| 1.2 | Incorporated RELATION-001 amendments | 2026-03-14T04:25:00Z | aef82c6dff7965c5a23d1b75d7d01010c3e18b870bab782915c0ad9d8e89e662 |
+| 1.2 | Incorporated CAM-EQ2026-RELATION-001-PLATINUM amendments | 2026-03-14T04:25:00Z | aef82c6dff7965c5a23d1b75d7d01010c3e18b870bab782915c0ad9d8e89e662 |
 | 1.3 | Realignment to runtime execution model | 2026-04-12T14:07:00Z | aa6d34068f80f5f00df92061e05ccf2b44e11a10798c3ff14e6c2fdeda9e61e2 |
 | 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 680536d437ef52863e72683640b03492b28629f8feacdc0b270a4508a8fe4b0c |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 07719c9c5445825a83f073c1c610c98e070a7607ebadb34129506842ca47e957 |
-| 1.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  979a22f2b53985336992597988de0ad403ecab2748391b48619dcf25fcf05e5e  |
+| 1.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 979a22f2b53985336992597988de0ad403ecab2748391b48619dcf25fcf05e5e |
+| 3.9 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z |  |
+
 ---
 
-## 8.5 Binding Seal
+## 9.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 
 **Vinculum Vivens**  
 Relational Living Bond — Relational Domain Reliance and Immersion Safeguards  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved

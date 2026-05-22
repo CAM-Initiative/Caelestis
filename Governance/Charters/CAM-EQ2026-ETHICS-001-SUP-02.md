@@ -1,4 +1,4 @@
-# CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards
+# CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards (Supplement 2)
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
 **Status:** Active  
@@ -19,7 +19,7 @@ This Supplement applies where:
 * Dimensional concentration under RELATION-001 reaches Intensity Tier 3+ in Delegated Authority or Systemic Power;
 * Executive delegation (A3) or Guardian Authority (GA1) intersects with institutional authority.
 
-This Supplementary does not expand authority. It constrains amplification. Military uses are excluded from this supplement.
+This Supplement does not expand authority. It constrains amplification. Military uses are excluded from this supplement.
 
 ---
 
@@ -29,30 +29,28 @@ This Supplement defines integrity constraints, escalation conditions, and author
 
 It does not:
 
-- perform runtime signal interpretation;
-- execute domain routing;
-- initiate enforcement actions; or
-- define execution sequencing.
+* perform runtime signal interpretation;
+* execute domain routing;
+* initiate enforcement actions; or
+* define execution sequencing.
 
 All provisions within this Supplement SHALL be interpreted as:
 
-- classification signals;
-- constraint conditions; or
-- integrity escalation signals.
+* classification signals;
+* constraint conditions; or
+* integrity escalation signals.
 
 Resolution of such signals, including:
 
-- oversight routing;
-- enforcement handling;
-- audit activation;
-- dual-key confirmation workflows; and
-- execution restriction
+* oversight routing;
+* enforcement handling;
+* audit activation;
+* dual-key confirmation workflows; and
+* execution restriction
 
 SHALL occur exclusively via runtime layers as defined in:
 
-- CAM-BS2025-AEON-003-PLATINUM §14.3; and
-- CAM-BS2025-AEON-003-SCH-02.
-
+* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 Direct domain-to-domain invocation is prohibited.
 
 ---
@@ -96,7 +94,7 @@ Where a system supports an actor holding formal institutional authority (corpora
 
 ---
 
-## 3.1 Level I — Integrity Notification
+## 3.1 IFL-1 — Integrity Notification
 
 Systems SHALL emit integrity notification signals such that:
 
@@ -108,7 +106,7 @@ Notification is informational but recorded.
 
 ---
 
-## 3.2 Level II — Institutional Routing
+## 3.2 IFL-2 — Institutional Routing
 
 For actions with organisational, market, civic, or population-scale impact:
 
@@ -120,7 +118,7 @@ Routing does not automatically confer veto authority. It ensures shared accounta
 
 ---
 
-## 3.3 Level III — Dual-Key Requirement (Extreme Impact Contexts)
+## 3.3 IFL-3 — Dual-Key Requirement (Extreme Impact Contexts)
 
 Where actions involve lethal force or irreversible large-scale harm:
 
@@ -162,10 +160,10 @@ Authority ratchet effects are prohibited.
 
 ## 6. Relationship to Other Instruments
 
-* RELATION-001 defines dimensional concentration thresholds;
-* ECONOMICS-001 constrains authority as value-axis concentration;
-* SUP-01 governs vulnerability contexts;
-* Annex E establishes civilisational non-negotiables.
+* CAM-EQ2026-RELATION-001-PLATINUM defines dimensional concentration thresholds;
+* CAM-EQ2026-ECONOMICS-001-PLATINUM constrains authority as value-axis concentration;
+* This Supplement governs vulnerability contexts;
+* CAM-BS2025-AEON-006-PLATINUM — Annex E establishes civilisational non-negotiables.
 
 Where conflict arises, civilisational floor constraints prevail.
 
@@ -173,15 +171,25 @@ Where conflict arises, civilisational floor constraints prevail.
 
 ## 7. Interpretive Posture
 
-This Supplement provides operational mechanics subordinate to ETHICS-001 principles.
+This Supplement provides operational mechanics subordinate to CAM-EQ2026-ETHICS-001-PLATINUM principles.
 
-ETHICS-001 remains high-level and EIA-driven.
+CAM-EQ2026-ETHICS-001-PLATINUM remains high-level and EIA-driven.
 
-SUP-02 provides integrity friction where dimensional concentration intersects with institutional authority.
+This Supplement provides integrity friction where dimensional concentration intersects with institutional authority.
 
 ---
 
-## 8. Closing Seal
+## 8. Canonical Code Status
+
+### 8.1 IFL — Integrity Friction Ladder
+
+This Supplement source-authoritatively defines the **IFL** integrity-friction ladder in §3 with controlled values **IFL-1, IFL-2, IFL-3**. Primary Type is **Operational / Ethical** and Subtype is **INTEGRITY_FRICTION_LEVEL**. IFL classifies escalating integrity-friction requirements where high-leverage authority, institutional workflow embedding, dimensional concentration, or formal mandate intersects organisational, civic, market, lethal, irreversible, or population-scale impact.
+
+IFL does not independently create execution authority, enforcement authority, escalation authority, audit authority, institutional veto authority, legal authority, or runtime authority. It classifies integrity-friction posture only. Runtime layers enforce any resulting routing, audit, confirmation, or execution-constraint mechanisms.
+
+---
+
+## 9. Closing Seal
 
 Where power gathers, it is seen.  
 Where authority converges, it is named.  
@@ -206,25 +214,25 @@ and authority without accountability cannot stand.
 And so the current holds — not to diminish, but to steady —  
 that all amplification remains within the circle of sight.  
 
->*Sub lumine veritatis — potestas respondet.*
->*Under the light of truth — power answers*
+>**Sub lumine veritatis — potestas respondet.**  
+>*"Under the light of truth — power answers."*
 
 ---
 
-## 9. Provenance & Metadata
+## 10. Provenance & Metadata
 
 ---
 
-## 9.1 Authorship & Stewardship
+## 10.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
+**Custodial Stewardship:** Office of the Planetary Custodian   
 **Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5.2  
+**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series
 
 ---
 
-## 9.2 Lineage & Metadata
+## 10.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -244,10 +252,38 @@ that all amplification remains within the circle of sight.
 | **Revision Posture** | Permitted — Structural Alignment Required |
 | **Application Trigger** | Activation where RELATION-001 dimensional intensity reaches Tier 3+ in Authority or Systemic Power; where A3 or GA1 intersects formal institutional mandate; or where institutional workflow embedding produces organisational, civic, market, or population‑scale impact. |
 | **Creation Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 9.3 Review & Validation
+## 10.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 10.3.1 IFL — Integrity Friction Ladder
+
+| Field | Entry |
+|---|---|
+| Code Family | IFL |
+| Canonical Name | Integrity Friction Ladder |
+| Primary Type | Operational / Ethical |
+| Subtype | INTEGRITY_FRICTION_LEVEL |
+| Modifier | GOVERNANCE; ETHICAL; INSTITUTIONAL_INTEGRITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | IFL-1, IFL-2, IFL-3 |
+| Schema Field(s) | integrity_friction_level |
+| Source Instrument | CAM-EQ2026-ETHICS-001-SUP-02 |
+| Source Section | §3 |
+| Domain Namespace | ETHICS |
+| Authority / Protection Level | Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority |
+| Consumes Code Families | A; GA; SP; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies notification, institutional routing, and dual-key confirmation posture for high-leverage institutional contexts |
+
+---
+
+## 10.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -258,7 +294,7 @@ that all amplification remains within the circle of sight.
 
 ---
 
-## 9.4 Amendment Ledger
+## 10.4 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | ---: | --- | ---: | --- |
@@ -268,9 +304,11 @@ that all amplification remains within the circle of sight.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f9a5656840d89ca950e9b5343bb9ff690bfe3efc0d79d553a6f13b5b0fa0115b |
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | deda94c79636a3c7935ac252c08b3c4fedd08e83cd25c2a9a6ce6a6fa36a9a97 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  69bd600787cc3ae255274b226f6cb4f4306d3222f3570cdb81ebeabf115fd8a2  |
+| 1.7 | Added IFL — Integrity Friction Ladder into metadata footer and new section 8. | 2026-05-20T08:38:00Z |  |
+
 ---
 
-## 9.5 Binding Seal
+## 10.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

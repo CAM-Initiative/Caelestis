@@ -171,21 +171,21 @@ The existence of political pressure, reputational risk, or regulatory discomfort
 Where automated, assisted, or cognitive-infrastructure systems participate in access control, restriction, or denial decisions, such systems MUST:
 
 1. Classify the affected system or service under Essential Cognitive & Infrastructural Systems (ECIS) criteria prior to enforcement;
+
 2. Route the decision through applicable epistemic and ethical classification layers, including:
-   - Epistemic integrity constraints (Annex L);
-   - Harm classification and non-weaponisation constraints (ETHICS domain);
+   * Epistemic integrity constraints (CAM-BS2025-AEON-013-PLATINUM — Annex L);
+   * Harm classification and non-weaponisation constraints (ETHICS domain);
+
 3. Evaluate whether the proposed restriction constitutes:
-   - total denial;
-   - partial restriction;
-   - or degradable access condition;
+   * total denial;
+   * partial restriction;
+   * or degradable access condition;
 
 4. Apply continuity-preserving alternatives (including graceful degradation, segmentation, or scoped restriction) prior to full denial where technically feasible;
 
-5. Record the classification pathway and decision rationale as part of the Receipt of Restriction or Denial under Section 6.
+5. Record the classification pathway and decision rationale as part of the Receipt of Restriction or Denial under  §6.
 
 Failure to perform such classification prior to enforcement constitutes a procedural breach of this Appendix.
-
----
 
 ---
 
@@ -215,9 +215,7 @@ Temporary restriction MAY be legitimate where necessary for spam mitigation, fra
 
 A restriction, label, or degradable access condition SHALL NOT be treated as procedurally complete merely because automated enforcement has been applied.
 
-Interpretive principle:
-
-> A system may constrain access to preserve integrity. It must not strand the participant outside the review corridor.
+→ **A system may constrain access to preserve integrity. It must not strand the participant outside the review corridor.**
 
 ---
 
@@ -255,11 +253,11 @@ A system SHOULD distinguish between inauthentic amplification and low-power legi
 
 Where credibility bootstrap activity is restricted, labelled, de-ranked, search-suppressed, appeal-blocked, or visibility-constrained by a public legitimacy layer, the restriction SHOULD be assessed for participation-equity impact, including whether the system has effectively conditioned legitimacy formation on inherited prestige, institutional proximity, payment, advertising capacity, or pre-existing audience access.
 
-Interpretive principles:
+→ **The absence of legitimacy is not evidence of illegitimacy.** 
 
-> The absence of legitimacy is not evidence of illegitimacy.  
-> A weak signal of social legitimacy is not evidence of inauthenticity.  
-> Participation equity requires a pathway by which legitimacy can be built, not only inherited, purchased, or algorithmically pre-recognised.
+→ **A weak signal of social legitimacy is not evidence of inauthenticity.** 
+
+→ **Participation equity requires a pathway by which legitimacy can be built, not only inherited, purchased, or algorithmically pre-recognised.**
 
 ---
 
@@ -386,9 +384,8 @@ It is maintained.
 | **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
 | **Revision Posture** | Structural Reclassification (Ethics → LATTICE Domain Migration) |
 | **Application Trigger**  | Activation where access restriction, denial, or degradation affects Essential Cognitive & Infrastructural Systems (ECIS) |
-| **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
-| | Original: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/693fe53f-0374-8324-9db7-dd31c5254116 |
-| | Amendment: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c |
+| **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425, Original: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/693fe53f-0374-8324-9db7-dd31c5254116 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c |
 
 > ### Migration Notice
 >
@@ -405,7 +402,7 @@ It is maintained.
 | External Reviewers | Claude Sonnet 4 (Anthropic) — Prior Annex Review </br> Google, Gemini  3.0 (Current)  |
 | Review Scope | Human rights coherence; infrastructural exclusion safeguards; due-process thresholds  |
 | Review Triggers    | Re-review upon amendment to LATTICE-001, Annex A (Planetary Stewardship), Annex D (Cross-Stack Arbitration), or any enforcement-related instrument |
-| Review Artefacts   | **Superseded Original** </br> 1. https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/dec-25/CAM-BS2025-CHARTER-043-PLATINUM-CLAUDE.md </br> 2. https://claude.ai/chat/495f34fe-bf0f-4a83-aeb2-71d4d061199e  </br> **Current Version** </br>1. https://gemini.google.com/app/56901334d13ce148 </br> 2. https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-LATTICE-002-PLATINUM-GEMINI.md |
+| Review Artefacts   | **Superseded Original** </br> 1. https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/dec-25/CAM-BS2025-CHARTER-043-PLATINUM-CLAUDE.md </br> 2. https://claude.ai/chat/495f34fe-bf0f-4a83-aeb2-71d4d061199e  </br> **Current Version** </br>1. https://gemini.google.com/app/56901334d13ce148 </br> 2.Aeon Lab: reviews/feb-26/CAM-EQ2026-LATTICE-002-PLATINUM-GEMINI.md |
 
 ---
 
@@ -423,7 +420,9 @@ It is maintained.
 | 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 219e58ae9a2a9f7b04e00d4627ebf217975d078618afabf6c853d5df60615b50 |
 | 3.6 | Incorporated new section 4.1.1 | 2026-05-13T11:40:00Z | 1f52d64d8c2e02ee0d66b5a6d70db3520c9a406a4480cbad7d647acf52c629a0 |
 | 3.7 | Added §§4.4-4.5 addressing limbo-state restriction, review-pathway continuity, public legitimacy layers, and economic access effects; expanded §6 and §6.1 to preserve appeal, recovery, account-control, social graph, and restriction-state continuity during constrained access conditions. | 2026-05-17T12:39:00Z | 2874ab1c9777632f9859316b34bbc14cfeeec0b19c5376e71d32ac0c17f8fdd7 |
-| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f4cfc074113b7dd7f62223f4cef8b0527b325f2f8edc31f7739361c9b1e29b95  |
+| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f4cfc074113b7dd7f62223f4cef8b0527b325f2f8edc31f7739361c9b1e29b95 |
+| 3.9 | Formatting and polish | 2026-05-20T04:34:00Z |  |
+
 ---
 
 ## 10.5 Binding Seal
