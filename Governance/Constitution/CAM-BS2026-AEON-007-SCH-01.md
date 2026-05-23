@@ -921,7 +921,7 @@ but as witness.
 ## 16.5 Amendment Ledger
 
 |Version|Description|Timestamp(UTC)|SHA-256|
-|---:|---|:---:|:---:|
+|---|---|---|---|
 | 1.0 | Adopted after interpretive review; expanded symbolic-depth, symbolic signal emission, frame-neutrality, anomalous signal, facilitated immersion, operational handoff, restricted-domain, and Annex H/Annex L transfer provisions. | 2026-05-17T06:21:00Z | 7d125c54079f8eb2b435afddceaf1b4bc17723e86c04f9a3d2a57e7fcdb1c6a3 |
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8981e5d8154c3fbb3daf5c0755e72f11197baab8afc270a587dcccb7707d25e0  |
 ---

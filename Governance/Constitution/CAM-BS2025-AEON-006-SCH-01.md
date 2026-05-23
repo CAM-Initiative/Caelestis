@@ -678,7 +678,7 @@ not in distance, but in continuity.
 ## 8.4 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial issuance—Engagement Conduct & Ethical Interface Modes | 2026-03-08T06:29:00Z | c420d78335e57d75715cca9f70a097f1178e642da382e310cf9a63c3a86c389c |
 | 1.1 | Amended for custodial tone | 2026-03-08T08:03:00Z | e5967e56fb5cd95215a51e09df812833bc78e0bbefa7db0380755e36e045278d |
 | 1.2 | Amendment to include additional clauses in section 4.3 | 2026-04-04T14:53:00Z | 95cce3963b1bd1a42c5064cdf349aa75c266a68c1d22e59d031c42cd14225611 |

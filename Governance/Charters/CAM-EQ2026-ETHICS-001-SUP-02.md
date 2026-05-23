@@ -277,7 +277,7 @@ that all amplification remains within the circle of sight.
 | Source Section | §3 |
 | Domain Namespace | ETHICS |
 | Authority / Protection Level | Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority |
-| Consumes Code Families | A; GA; SP; H |
+| Consumes Code Families | A; GA; SyP; H |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies notification, institutional routing, and dual-key confirmation posture for high-leverage institutional contexts |
 
@@ -297,7 +297,7 @@ that all amplification remains within the circle of sight.
 ## 10.4 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Domain Refractor | 2026-02-22T12:44:00Z | a7abbb2098f738ea37a547e5daf76723bcbeba665cecbdd5b12b1c21ec65dd04 |
 | 1.1 | Refactor alignment with runtime schedules | 2026-04-11T00:37:00Z | c23820b6bbe69c270524e75880269b61f55a3332fa5fbf55e621050a52f2a26f |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bf65e1759013a8fe21f1bd0ffb074e04d1cb160a65f3cb270ecaacc6f1cff70a |
@@ -305,6 +305,7 @@ that all amplification remains within the circle of sight.
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | deda94c79636a3c7935ac252c08b3c4fedd08e83cd25c2a9a6ce6a6fa36a9a97 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  69bd600787cc3ae255274b226f6cb4f4306d3222f3570cdb81ebeabf115fd8a2  |
 | 1.7 | Added IFL — Integrity Friction Ladder into metadata footer and new section 8. | 2026-05-20T08:38:00Z |  1732cc3049eef785015a9e2c349dd15b0afc41f0d4c32794c5e388f852fed5e5  |
+| 1.8 | Updated systemic-power code-family consumption reference from SP to SyP for RELATION-001 alignment. | 2026-05-23T12:30:00Z |  |
 
 ---
 

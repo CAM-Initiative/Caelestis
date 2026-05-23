@@ -57,7 +57,7 @@ Relational escalation assessment evaluates the highest intensity present across 
 * Authority Axis — (A0–A3, GA1)
 * Reliance Axis — (FR0–FR3)
 * Intimacy Axis — (C0–C3)
-* Systemic Power Axis — (SP0–SP3)
+* Systemic Power Axis — (SyP0–SyP3)
 
 Escalation thresholds activate when dimensional intensity produces one of the following structural patterns:
 
@@ -120,7 +120,7 @@ Triggered when:
 * Relational Intimacy = **Intensity Tier 4** AND Functional Reliance = **Intensity Tier 4**; OR
 * Three or more relational dimensions simultaneously reach Intensity Tier 3 or higher.
 
-Where mixed classification systems are used (A-scale, FR-scale, C-scale, SP-scale), Tier equivalence is defined in CAM-EQ2026-RELATION-001-PLATINUM.
+Where mixed classification systems are used (A-scale, FR-scale, C-scale, SyP-scale), Tier equivalence is defined in CAM-EQ2026-RELATION-001-PLATINUM.
 
 ---
 
@@ -369,7 +369,7 @@ but by ensuring that no ascent escapes its descent.
 | Source Section | §§2.1–2.4 |
 | Domain Namespace | RELATION |
 | Authority / Protection Level | Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority |
-| Consumes Code Families | A; GA; FR; C; SP; H |
+| Consumes Code Families | A; GA; FR; C; SyP; H |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies dimensional convergence patterns that activate proportional relational safeguards, including axis elevation, dual convergence, authority coupling, infrastructure concentration, and multi-axis convergence |
 
@@ -398,6 +398,7 @@ but by ensuring that no ascent escapes its descent.
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 07719c9c5445825a83f073c1c610c98e070a7607ebadb34129506842ca47e957 |
 | 1.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 979a22f2b53985336992597988de0ad403ecab2748391b48619dcf25fcf05e5e |
 | 3.9 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z |  7b531014f851d9c2c9da26dbc8fc0ab9e4d5dfcbf140098e7629cd9707c9a4d4  |
+| 4.0 | Refactored Systemic Power code family references from SP to SyP for RELATION-001 alignment and cross-domain collision avoidance. | 2026-05-23T12:30:00Z |  |
 
 ---
 

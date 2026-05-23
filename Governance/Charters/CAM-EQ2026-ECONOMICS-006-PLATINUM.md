@@ -39,7 +39,7 @@ This layer prioritises:
 
 ---
 
-## 3. Dependency Disclosure Requirements
+## 3. Dependency ECON.DEPisclosure Requirements
 
 ---
 
@@ -365,7 +365,7 @@ Non-alignment with this trajectory does not constitute immediate non-compliance,
 
 ### 4.5.1 Temporal Advantage Alignment Clause (ΔT Integration)
 
-Where systems derive material economic benefit from Temporal Advantage (ΔT), particularly where ΔT = Advanced or Asymmetric (as defined in Appendix D):
+Where systems derive material economic benefit from Temporal Advantage (ECON.TA), particularly where ΔT = Advanced or Asymmetric (as defined in Appendix D):
 
 Systems SHOULD:
 
@@ -378,7 +378,7 @@ where dependency on upstream signals or ecosystems is material;
 
 Where ΔT interacts with:
 
-* Material or Critical Dependency (D);
+* Material or Critical Dependency (ECON.DEP);
 * High Scale of Value Capture (S);
 * or Market-Moving Actor Conditions (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.5);
 
@@ -596,6 +596,7 @@ Let value speak plainly where it arises.
 | 1.3 | Edits to Ecosystem Signalling (External Indicators) clause | 2026-05-17T13:55:00Z | c5a52bc9d62de8b0972a4e5ccb2aa6b80b65acaf86fe3bf6f4b7120d99692b52 |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  ea656877d533e2ff8a22105ee499fe28b193beb2a64c7a7dcea69b8b7ba9487e  |
 | 1.5 | Formatting and polish | 2026-05-20T04:34:00Z |  071606ec12b8f5a3bb40ef177c638a785240d0afcdf46151c8c5566e2351312d  |
+| 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  |
 
 ---
 

@@ -553,7 +553,7 @@ No system may grow indefinitely by rendering its human sources invisible.
 ## 10.4 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial drafting and consolidation of Annex G | 2026-01-23 | - |
 | 1.1 | Incorporate reviewer comments | 2026-01-24T02:20:00 | 111bb37f581ec50dd38247b01d096d063aa758872e66cfa28a6a563251a70125 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8da3c94e8b867b94cc4983877b47d89a7975415f4250e0f3978b4c2ba9922d59 |

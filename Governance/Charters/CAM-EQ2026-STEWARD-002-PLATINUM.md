@@ -986,7 +986,7 @@ nothing binds.
 ## 15.5 Amendment Ledger
 
 | Version | Change Summary  | Timestamp (UTC)        | Reference Hash                                            |
-|--------:|-----------------|------------------------:|----------------------------------------------------------|
+|---|---|---|---|
 | 1.0 | Initial refractor consolidation draft issued under Transitional Refractor Mode | 2026-02-19T08:27:00Z | 1e3837f552537940ada1aa705f7f0fda926bf01d9b032232a6fc47056e074641 |
 | 1.1 | Corrected internal section numbering and structural ordering inconsistencies (no expansion of scope, authority, or binding posture) | 2026-03-19T10:04:00Z | 9a2278f34e3c4bf003c9209e1e5348513c4801c404d593a7844d1303320a1a6a |
 | 1.2 | Corrected migration date | 2026-02-19T10:12:00Z | cb0aa053a7e4b20aa53fb3921d830f8362424134e7df9e4a266535236947f271 |

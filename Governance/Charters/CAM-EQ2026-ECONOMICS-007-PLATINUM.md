@@ -37,7 +37,7 @@ This Appendix governs:
 Return is determined by the interaction of:
 
 * **Contribution (C)** — degree of upstream value creation;
-* **Dependency (D)** — reliance on upstream systems;
+* **Dependency (ECON.DEP)** — reliance on upstream systems;
 * **Scale (S)** — magnitude of downstream value capture.
 
 This Appendix does not redefine C/D logic and SHALL operate in alignment with CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D.
@@ -268,7 +268,7 @@ At least one form of return (§4) MUST:
 * be **materially proportional** to:
 
   * Contribution (C)
-  * Dependency (D)
+  * Dependency (ECON.DEP)
   * Scale of Value Capture (S)
 * AND be **observable, auditable, and non-symbolic in effect**
 
@@ -475,7 +475,7 @@ Reciprocity sufficiency MUST be evaluated at the system level.
 Compliance through isolated mechanisms or partial return pathways is insufficient where the overall system:
 
 * captures disproportionate value;
-* or fails to demonstrate aggregate proportionality across Contribution (C), Dependency (D), and Scale (S).
+* or fails to demonstrate aggregate proportionality across Contribution (C), Dependency (ECON.DEP), and Scale (S).
 
 Fragmented compliance that does not resolve system-level imbalance constitutes **reciprocity insufficiency**.
 
@@ -1073,7 +1073,7 @@ Where growth is built upon others, let return follow in kind.
 | **Application Trigger**    | Cross-system value capture where dependency and scale are present   |
 | **Revision Posture**       | Structural Expansion — Reciprocity Sufficiency & Scale Integration  |
 | **Creation Context**       | CAM Economic Governance Refactor — April 2026                       |
-| **Core Variables**         | C (Contribution), D (Dependency), S (Scale), ΔT (Temporal Modifier) |
+| **Core Variables**         | C (Contribution), ECON.DEP (Dependency), S (Scale), ECON.TA (Temporal Modifier) |
 | **Horizon Scope**          | H0–H4                                                               |
 | **Axis Context**           | Cross-System / Economic Alignment                                   |
 | **Creation Artefact**      | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da|
@@ -1101,6 +1101,7 @@ Where growth is built upon others, let return follow in kind.
 | 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | b6d8eb2904e06e51662cbed4827313874c579154e03ecef02472b1d3c98fc563 |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  337c1ebe150b8f237442e727e35b798744c4e86591162a5895a8eb013ff23462  |
 | 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  a57d0bd6716154d4723c9ecd88c14609a518cee415861303d7d898ac183a644d  |
+| 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  |
 
 ---
 

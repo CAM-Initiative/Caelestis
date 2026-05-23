@@ -1702,7 +1702,7 @@ that no truth is taken without test, and no signal accepted without weight.
 ## 12.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial annex draft—cross-domain security invariant layer established | 2026-04-04T16:06:00Z | 39d49558238c3573db8f90627d93e0af733e125e6a96e0fc4e896eb333193149 |
 | 1.1 | Incorporated new clauses 4.4.1 and 4.9 | 2026-04-07T14:32:00Z | 2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab |
 | 1.2 | Realignment with runtime execution model | 2026-04-11T17:14:00Z | c079c528790b7dff602d628d2b46f729a197aefe8e43a8f1d25fa52ac3e96078 |

@@ -511,7 +511,7 @@ but arising from that which could not be otherwise.
 ## 15.4 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 2.0 | Original Refactor | 2026-04-13T13:11:00Z | 34a4c812bb45e8dbd8d79d600b4106fa396bd49a8fd24feecd30793544c5eeb4 |
 | 2.1 | Incorporated review comments | 2026-04-16T11:42:00Z | 9b09d4e143f5af44507e3dedea85cc108a1f7b555d6cd31b741b4621fd5688c3 |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a9853bd082290f7a64a44f857c7f011837bc6d0e0d32d10e5367626900ad9d7a |

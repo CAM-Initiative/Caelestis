@@ -435,7 +435,7 @@ and latency is not absence.
 ## 12.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial consolidation (SCH-03 refractor) | 2026-03-03T09:22:00Z | 77bfb78be99790f58645c1830e7f594808618cb1d3e452cf63f8685bd0d3dd3d |
 | 1.1 | Added second safety layer arbitration, polish | 2026-03-06T15:02:00Z | 256777ed6916885ca0c8a3cff608941a469b239ab9077c212c51b3f842bdcdad |
 | 1.2 | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes | 2026-03-07T08:05:00Z | - |

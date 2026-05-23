@@ -1452,7 +1452,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 ## 19.4 Amendment Ledger
 
 |Version|Description|Timestamp(UTC)|SHA-256|
-|---:|---|---:|---|
+|---|---|---|---|
 |1.0|Initial Governance Observability, Participatory Telemetry & Constitutional Circulation Annex established|2026-05-22T10:32:00Z| 229dde66d5967fa7cb127db63c64c9c672bdf8f27c52888b87e99c537ba370d0 |
 
 ---
