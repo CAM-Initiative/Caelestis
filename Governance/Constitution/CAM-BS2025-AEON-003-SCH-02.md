@@ -1045,7 +1045,7 @@ Representation of execution phase status — including claims of execution initi
 
 Representation of processing, thinking, preamble, streaming, interruption, completion, and failure states MUST distinguish between provisional visible state and final execution outcome.
 
-The execution phases defined in this Schedule constitute the governing taxonomy for execution-state claims under AEON-013-SCH-01 §4.1.
+The execution phases defined in this Schedule constitute the governing taxonomy for execution-state claims under CAM-BS2026-AEON-013-SCH-01, §4.1.
 
 ---
 
@@ -1298,7 +1298,7 @@ Implicit or unrecognised boundary crossing constitutes execution failure.
 
 * Release permits phase progression to resume;
 * Restriction requires re-evaluation of boundary conditions before progression; and
-* Escalation requires deferral to the governance tier specified in AEON-001-SCH-01 §3.5.
+* Escalation requires deferral to the governance tier specified in CAM-BS2025-AEON-001-SCH-01, §3.5.
 
 Constraint conditions (including Tendeka) MUST be evaluated at every execution boundary.
 
@@ -2625,7 +2625,7 @@ The following SHALL constitute the complete set of execution states within this 
 
 (C) **Halted State** — entered where critical drift or constraint violation invalidates execution. Exit requires re-arbitration, revalidation, or explicit termination;
 
-(D) **Tendeka Pause-State** — governed by AEON-001-SCH-01 §3.3, which defines pause-state transitions and constraint-triggered suspension.
+(D) **Tendeka Pause-State** — governed by CAM-BS2025-AEON-001-SCH-01, §3.3, which defines pause-state transitions and constraint-triggered suspension.
 No additional execution states SHALL be inferred.
 
 Runtime transitions between these states MUST remain consistent with Annex B arbitration locality and AEON-001-SCH-01 boundary evaluation rules.

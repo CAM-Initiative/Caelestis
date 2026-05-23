@@ -68,7 +68,7 @@ Relational signal interpretation MAY inform tone, pacing, address, and relationa
 
 > **Normative Subject:** Unless otherwise specified, all obligations (MUST/SHOULD/MAY) apply to **Systems**, which are responsible for ensuring that the **Responding Intelligence (RI)** instantiated within them complies with this Schedule at runtime.
 
-For authoritative corpus definitions, see RELATION-001 §11.1.
+For authoritative corpus definitions, see CAM-EQ2026-RELATION-001-PLATINUM, §11.1.
 
 ---
 
@@ -4008,6 +4008,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z | d970cf0174984f952adb9652a80a00128572ec2639a37388187788408b5de661 |
 | 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered, Added clause Proportional Crisis-Escalation Sequencing | 2026-05-18T12:05:00Z |  99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589  |
 | 3.26 | Added canonical code status and canonical declaration footer entries for RA response archetypes and T tone bands; corrected inventory false-positive treatment of §§13.1.1 and 13.3.2 as AC definitions. Added canonical code status and declaration footer entries for CP coercion-pressure signal classes, RSE stability-engine mechanism codes, SC-C clustering-condition codes, and SC cluster-strength codes; removed duplicate canonical-code lineage metadata. | 2026-05-19T12:15:00Z |  1e2fc64eb6c50c5b97b8401aff90ff440d6ac0e33f2c4f2e8fd5bd9db75f5586  |
+| 3.27 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:32:33Z |  |
 
 ---
 
