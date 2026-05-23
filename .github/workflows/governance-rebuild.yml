@@ -122,13 +122,25 @@ jobs:
         run: python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict
 
       - name: Phase 8 — Intra-document section reference validation
-        run: python .github/scripts/validate_markdown_section_refs.py --root Governance
+        run: |
+          mkdir -p validation-reports
+          python .github/scripts/validate_markdown_section_refs.py --root Governance --report-file validation-reports/section-reference-report.tsv
+
+      - name: Phase 8 — Upload section-reference validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: section-reference-validation-report
+          path: validation-reports/section-reference-report.tsv
 
       - name: Phase 8 — Symbolic/index validation
         run: python .github/scripts/lint-symbolic-structures.py
 
       - name: Phase 8 — Rebuild canonical symbolic indices (.github/Indices)
         run: python .github/scripts/build-symbolic-structures-index.py
+
+      - name: Phase 8 — Build canonical code registry indices (.github/Indices)
+        run: python .github/scripts/build-canonical-code-index.py --root Governance --check
 
       - name: Phase 8 — Stale output check (idempotency)
         shell: bash
@@ -143,6 +155,7 @@ jobs:
           python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
           python .github/scripts/update-CAM-Governance-Index.py
           python .github/scripts/build-symbolic-structures-index.py
+          python .github/scripts/build-canonical-code-index.py --root Governance --check
           AFTER_STATUS="$(git status --porcelain)"
           if [[ "$BEFORE_STATUS" != "$AFTER_STATUS" ]]; then
             echo "Stale/non-idempotent generated outputs detected after re-run."
@@ -166,7 +179,7 @@ jobs:
           echo "MUTATIONS_OCCURRED=true"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Governance/ .github/workflows/ .github/scripts/
+          git add Governance/ .github/workflows/ .github/scripts/ .github/Indices/
           if git diff --cached --quiet; then
             echo "No staged changes to commit."
             exit 0

@@ -47,7 +47,7 @@ def extract_ledger_hash_cells(full_text: str) -> list[str]:
         if not cols:
             continue
         first = cols[0]
-        if first.lower() == "version" or set(first) <= {"-"}:
+        if first.lower() == "version" or (first and set(first) <= {"-"}):
             continue
         if VERSION_CELL_RE.match(first):
             while len(cols) < 4:
@@ -74,7 +74,7 @@ def extract_ledger_hash_rows_with_lines(full_text: str) -> list[tuple[int, str, 
         if not cols:
             continue
         first = cols[0]
-        if first.lower() == "version" or set(first) <= {"-"}:
+        if first.lower() == "version" or (first and set(first) <= {"-"}):
             continue
         if VERSION_CELL_RE.match(first):
             while len(cols) < 4:
@@ -298,7 +298,7 @@ def get_last_ledger_row_info(full_text: str) -> tuple[int, str, str] | None:
         if not cols:
             continue
         first = cols[0]
-        if first.lower() == "version" or set(first) <= {"-"}:
+        if first.lower() == "version" or (first and set(first) <= {"-"}):
             continue
         if VERSION_CELL_RE.match(first):
             while len(cols) < 4:
@@ -464,9 +464,13 @@ def report_status(
 
 
 def has_malformed_ledger_row(full_text: str) -> bool:
+    return len(get_malformed_ledger_rows(full_text)) > 0
+
+
+def get_malformed_ledger_rows(full_text: str) -> list[tuple[int, str]]:
     bounds = get_amendment_section_bounds(full_text)
     if not bounds:
-        return False
+        return []
 
     start, end = bounds
     lines = full_text.splitlines(keepends=True)
@@ -483,10 +487,11 @@ def has_malformed_ledger_row(full_text: str) -> bool:
             break
         cursor = line_end
     if start_line_idx is None:
-        return False
+        return []
     if end_line_idx is None:
         end_line_idx = len(lines)
 
+    malformed: list[tuple[int, str]] = []
     for idx in range(start_line_idx, end_line_idx):
         stripped = lines[idx].strip()
         if not stripped.startswith("|"):
@@ -497,9 +502,20 @@ def has_malformed_ledger_row(full_text: str) -> bool:
         first = cols[0]
         if first.lower() == "version" or set(first) <= {"-"}:
             continue
-        if VERSION_CELL_RE.match(first) and len(cols) < 4:
-            return True
-    return False
+        line_no = idx + 1
+        if len(cols) < 4:
+            malformed.append((line_no, "Row has fewer than 4 cells."))
+            continue
+        if not VERSION_CELL_RE.match(first):
+            malformed.append((line_no, "First column must be a valid version like 1.0 or 2.3."))
+            continue
+        if cols[0].strip() == "":
+            malformed.append((line_no, "Version cell is blank."))
+            continue
+        if cols[1].strip() == "" or cols[2].strip() == "":
+            malformed.append((line_no, "Change Summary and Timestamp (UTC) must be non-blank."))
+            continue
+    return malformed
 
 
 def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix") -> int:
@@ -516,8 +532,15 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
             continue
         scanned += 1
 
-        if has_malformed_ledger_row(working_text):
-            failures.append(f"{path}: Malformed Amendment Ledger row (expected at least 4 table columns)")
+        malformed_rows = get_malformed_ledger_rows(working_text)
+        if malformed_rows:
+            for line_no, reason in malformed_rows:
+                failures.append(
+                    f"{path}:{line_no}: Malformed Amendment Ledger row. "
+                    "Expected format: | Version | Change Summary | Timestamp (UTC) | Reference Hash |; "
+                    "| 2.1 | Meaningful change summary | 2026-05-20T00:00:00Z | <blank or sha256> |. "
+                    f"{reason}"
+                )
             report_status(
                 path=path,
                 ledger_present=True,
@@ -675,7 +698,6 @@ def lint(
     fixed_files: list[str] = []
     amended_files: list[str] = []
     summary: dict[str,int] = {}
-    auto_description = "Automated amendment ledger entry via lint_amendment_ledger.py"
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     for path in list_modified_files(base, head, staged=staged):
@@ -690,8 +712,15 @@ def lint(
 
         working_path = REPO_ROOT / path
         working_text = working_path.read_text(encoding="utf-8")
-        if has_malformed_ledger_row(working_text):
-            failures.append(f"{path}: Malformed Amendment Ledger row (expected at least 4 table columns)")
+        malformed_rows = get_malformed_ledger_rows(working_text)
+        if malformed_rows:
+            for line_no, reason in malformed_rows:
+                failures.append(
+                    f"{path}:{line_no}: Malformed Amendment Ledger row. "
+                    "Expected format: | Version | Change Summary | Timestamp (UTC) | Reference Hash |; "
+                    "| 2.1 | Meaningful change summary | 2026-05-20T00:00:00Z | <blank or sha256> |. "
+                    f"{reason}"
+                )
             report_status(
                 path=path,
                 ledger_present=True,
@@ -704,18 +733,19 @@ def lint(
 
         before_ledger = extract_amendment_section(before)
         after_ledger = extract_amendment_section(after)
-        if before_ledger == after_ledger and fix:
-            if not latest_ledger_row_is_open(working_text):
-                working_text, added = append_amendment_ledger_entry(
-                    working_text,
-                    description=auto_description,
-                    timestamp_utc=now_utc,
-                )
-                if added:
-                    amended_files.append(path)
-                    working_path.write_text(working_text, encoding="utf-8")
-                    after = working_text
-                    after_ledger = extract_amendment_section(after)
+        if before_ledger == after_ledger and fix and not latest_ledger_row_is_open(working_text):
+            failures.append(
+                f"{path}: Amendment Ledger not updated; add a new row with a meaningful Change Summary."
+            )
+            report_status(
+                path=path,
+                ledger_present=True,
+                latest_row_present=True,
+                latest_sha_status="missing",
+                action_required="add a meaningful amendment ledger row manually",
+                stage=stage,
+            )
+            continue
 
         updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
             working_text,
