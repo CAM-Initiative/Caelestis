@@ -114,7 +114,7 @@ XDL classifies dependency level only. It does not independently create compensat
 
 ---
 
-## 4.2 Dependency ECON.DEPisclosure
+## 4.2 Dependency Disclosure (ECON.DEP)
 
 Where dependency is Material or Critical:
 
