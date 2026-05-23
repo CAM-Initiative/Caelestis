@@ -355,7 +355,7 @@ For what is not yet stable must not yet decide.
 | 1.9 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 936b9fd7d35241509553c3012b5f593e91e98c0b6cdf0066248d120d35cd20e8 |
 | 1.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | e7cfd8a2cd24c3f2205ea71cc0864589397461d9454310e4e431c0f306616b5b |
 | 1.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8b8e0e325a745a6d705a19400ac66865ae4f02691106c44e3dbb5a686b0d5479  |
-| 1.12 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 1.12 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  637bf345a73e7603b67d3b4d3eecee8e48f900f4bfa1d6c14acb8dff8b8976db  |
 ---
 
 ## 9.5 Binding Seal

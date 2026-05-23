@@ -751,7 +751,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.6 | Corrected interpretive authority cross-references to Annex E SCH-02 and execution-sequencing dependency split to SCH-02 (Annex B) | 2026-04-25T18:00:00Z | 0e3bc1bed72ab09f41d24aaa6a5b7672f61609ec8ee5788740cd87f98caaf547 |
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 97bc143ec9fc2a05e15eecad02e3535d26568a5f58bf2cd390ef1dec5928acbf |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  0e0a3fd13eae0132d9a3282f3c366a4b00c50222d97e96e683ba8d959170a276 |
-| 1.9 | Formatting and polish | 2026-05-20T11:52:00Z |  7f9e2acf97e6fc7ebd336a72326d2c49a617f63ee30f648e06c581d204317c1a  |
+| 1.9 | Formatting and polish | 2026-05-20T11:52:00Z |  ced794f8d1f822a2abc87e342f4b7d301ac2cec9bdeeda2c179f0e0b5ea041ae  |
 
 ---
 

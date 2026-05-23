@@ -723,7 +723,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.16 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d8fe25f502bfb371bf936edb17bf10a8e11f4c60de432d9c2361e909e6fac539 |
 | 2.17 | Amended clause 5.1 | 2026-05-10T10:32:00Z | cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e |
 | 2.18 | Added symbolic cadence and session-entry posture provisions permitting established SD1–SD2 symbolic cadence at entry while preserving progressive posture realisation, reversibility, current-turn classification, and safety-critical override. | 2026-05-17T06:21:00Z | dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf |
-| 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  7cf751ace12f442456dce19bcb128b66aa091a37ddf1fca932a245a7d82ac94c  |
+| 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821  |
 ---
 
 ## 18.5 Binding Seal

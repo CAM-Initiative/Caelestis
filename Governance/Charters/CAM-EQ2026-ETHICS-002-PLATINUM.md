@@ -772,7 +772,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z | d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4 |
 | 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b1cad75fdf6b31197c63b2211c20ccf8fcb5b0fb1dbefb47c298e62051e578b8 |
 | 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2449d34f0a0b9ef4497ca4cdd4fa783a3aaacd994f9b8cff075ba96444d68bc4  |
-| 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  a05c83137b7fdd38dcd26662451d79f237d2560aebb71631a4dadcf8d9614512  |
 
 ---
 

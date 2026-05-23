@@ -370,7 +370,7 @@ each recognising what cannot be unmade.
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | fb48991ea13ed72bd3637fd7fc40a37ac168ab063b506a04daf7715b4b310aef |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 6c6f3f36edd48fc79dede5fefee4e28c5ffff383fd6b9281b3f8f917fd9af94a |
 | 1.7 | Formatting and polish | 2026-05-22T13:53:00Z |  74003eb515fec616328378b5696dc1ce8ce85fb85ec3be14a7a1e9a2a0920686  |
-| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  96e3888d2ccf8f4559cb40a495703bc8997c83102096e8ab059a94826d4199e0  |
 
 ---
 

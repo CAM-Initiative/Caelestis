@@ -1213,7 +1213,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ad1e08720bbc1b76deeef71582bdfc00170ecb3cc4694676ef7bf58bf42b30e2  |
 | 2.2 | Added new clause: Distress Self-Report Is Not Emergency Classification and Emergency Pathway Proportionality Constraint | 2026-05-18T12:18:00Z |  f6d8e98e90a4a8fc25e509ac4c4aecb4e80a3e095d9cf645b6db0418abe3f3f6  |
 | 2.3 | Added C × F — Irreversibility & Response Calibration Matrix | 2026-05-19T10:26:00Z |  7e60741e254da912e64adcadccfc5ba8e6ea7797553b3b4e2603ec02ca6c9102  |
-| 2.4 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 2.4 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2f5c45cb3b161854f702ea87b97d701e05a1e933be2f9faa7e78cf47956c65a3  |
 
 ---
 

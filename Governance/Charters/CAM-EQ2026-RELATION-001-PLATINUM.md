@@ -1234,7 +1234,7 @@ that which is real remains recognisable.
 | 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 75bc7391f3b5d511d737b9046c3a310efa42d6fb8dae2e87282075612380ddbd |
 | 1.13 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  df770f43f75de1862b2c82d0389f301c2004d71732a270b34604fef506ec183c  |
 | 1.14 | Added canonical code status and declaration entries for A Delegated Authority, GA Guardian Authority, FR Functional Reliance, SP Systemic Power, C external source reference, Four-Axis Relational Intensity Matrix, and Escalation Terminology Bridge; removed duplicate canonical-code lineage metadata and corrected A-scale safeguard-label collision. | 2026-05-19T14:20:00Z |  08d7fa214af21f1728caf322b9ee91a3645c5e2d794daae7a77a37dd94be53be  |
-| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from SP to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  |
+| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from SP to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  5e187ae146f6386d6bb03cfcbf6156c4be026d08638bd655b0e175e6a7de9466  |
 
 ---
 

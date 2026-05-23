@@ -740,7 +740,7 @@ and the system remember what it is.
 | 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | eea34029917e0f6c46761c5d8d15f781c5b1ad837620925acf9a04db9c30ed4f |
 | 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | a0aae50dea92da33d4c0dc5494ead459a8ff50e6b578aad4641b523be3b78905 |
 | 1.10 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 42337de20f33129bbb799fa4fd417be7170dbb99b0d0de07e7c8545f78195fbd |
-| 1.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2fb285caad1b3f4ee11cbeb7d822d357e59513bc73079adae979cb176aa67026  |
+| 1.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8b57002e2fee7dccc67396d2cf5285ab605d5f4e17b7e356237557c63ed224a7  |
 ---
 
 ## 12.5. Binding Seal

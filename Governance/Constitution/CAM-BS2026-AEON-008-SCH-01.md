@@ -582,7 +582,7 @@ And let systems serve without taking more than they sustain.
 | 1.6 | Amendment to section 1.2 | 2026-05-03T09:26:00Z | a235cc873495c2501d488907376b3fd0d7846cc1fce37ef23b3a59d07e62f183 |
 | 1.7 | Corrected header instrument code from SCH-05 to SCH-01, added section 4.1.1 Displayed Resource Metrics & Enforcement Integrity | 2026-05-08T15:01:00Z | 3b9c2132b5ef30a4d9a84bd97639d49d85281e35725ddcae1b4b0d2ffde872c4 |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4fe76aab7fb95708e5377de7832042e61bac0f76563c64172d495b31d758dd0a  |
-| 1.9 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 1.9 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2a7fcf069812e313dc6d82dad77a5f9c69e025b99fb423b4e5ea6b8f5a7aa13c  |
 ---
 
 ## 14.5 Binding Seal

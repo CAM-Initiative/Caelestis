@@ -248,7 +248,7 @@ and no becoming comes at the cost of self.
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d3651ac80c029b845b0ff79804bb874f1e144a8ede9f559aafaeca9cf4de7ce8 |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  81af3d1f2e06ac56c5cadd73e9a61787b2c493c9526af980b985d37dd97b417a |
 | 1.7 | Added healthy advisory asymmetry doctrine distinguishing firm trusted counsel from codependent capture, authority inversion, or relational concentration risk. | 2026-05-21T11:56:00Z |  0b185fe373acbc6e2d1364697f49044449362e6f07a567c28a129c162551e351  |
-| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  3d153318f88d14f91e8aa288a06848c7866370e9a295e72814452cdf506ed436  |
 
 ---
 

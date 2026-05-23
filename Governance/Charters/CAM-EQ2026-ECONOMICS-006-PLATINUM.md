@@ -596,7 +596,7 @@ Let value speak plainly where it arises.
 | 1.3 | Edits to Ecosystem Signalling (External Indicators) clause | 2026-05-17T13:55:00Z | c5a52bc9d62de8b0972a4e5ccb2aa6b80b65acaf86fe3bf6f4b7120d99692b52 |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  ea656877d533e2ff8a22105ee499fe28b193beb2a64c7a7dcea69b8b7ba9487e  |
 | 1.5 | Formatting and polish | 2026-05-20T04:34:00Z |  071606ec12b8f5a3bb40ef177c638a785240d0afcdf46151c8c5566e2351312d  |
-| 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  |
+| 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  798bef0842ee838903cf2f6e206d45c7207338a28a42a68f892b84571204a38f  |
 
 ---
 

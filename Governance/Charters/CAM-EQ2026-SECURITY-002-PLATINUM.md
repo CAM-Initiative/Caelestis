@@ -1243,7 +1243,7 @@ and the system remember what it carries.
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
 | 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9  |
-| 1.5 | Added canonical code status and declaration entries for TR Transformation Classes, D Diffusion Risk Classes, BF Boundary Failure Classes, and TR × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified AH as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  c4d5ae5e37817cffef2620d751a298e4916a91b6bbbdeb84a0d0d15d4a915da3  |
+| 1.5 | Added canonical code status and declaration entries for TR Transformation Classes, D Diffusion Risk Classes, BF Boundary Failure Classes, and TR × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified AH as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f  |
 
 ---
 

@@ -997,7 +997,7 @@ nothing binds.
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 05cacd41f908209a06a87136fe920b7c6cd9876e0a7ae9eb4d6416fb4fb4ce54 |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 678f025e45ea9504da5eecf86cd29ba75a7cf3fec96d745a715b68c8da9786dd |
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda |
-| 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z |  6d7e6a7bd0c79583a149ead7833f78c55696ae43cd106040fde5d4e26fb9ae13  |
+| 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z |  8b3c95678bb9318b128fac42cd376f91c84abc8a471b0409e27b3395b6474eb8  |
 
 ---
 

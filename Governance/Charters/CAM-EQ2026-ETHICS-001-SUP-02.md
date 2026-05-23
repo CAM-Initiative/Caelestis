@@ -305,7 +305,7 @@ that all amplification remains within the circle of sight.
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | deda94c79636a3c7935ac252c08b3c4fedd08e83cd25c2a9a6ce6a6fa36a9a97 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  69bd600787cc3ae255274b226f6cb4f4306d3222f3570cdb81ebeabf115fd8a2  |
 | 1.7 | Added IFL — Integrity Friction Ladder into metadata footer and new section 8. | 2026-05-20T08:38:00Z |  1732cc3049eef785015a9e2c349dd15b0afc41f0d4c32794c5e388f852fed5e5  |
-| 1.8 | Updated systemic-power code-family consumption reference from SP to SyP for RELATION-001 alignment. | 2026-05-23T12:30:00Z |  |
+| 1.8 | Updated systemic-power code-family consumption reference from SP to SyP for RELATION-001 alignment. | 2026-05-23T12:30:00Z |  60d7b6dfb89ac0f106d4765fe25945a038ff64daf79d5578f5fe25fc7a88bf43  |
 
 ---
 

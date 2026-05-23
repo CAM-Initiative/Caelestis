@@ -804,7 +804,7 @@ Integrity holds.
 | 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c |
 | 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bffd42428e1a7a5e49ed20a24e65b86b005ce0a599ef60e72b1d13198d0f69e8  |
 | 1.10 | Added HC — Harm Escalation Operational Application and AV × C — Interaction Eligibility Verification Crosswalk and Interaction Eligibility Verification Crosswalk | 2026-05-19T11:50:00Z |  6894bf185e22834d7791561a71933e2f120911585c97c828d7821a4691de8add  |
-| 1.11 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 1.11 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  861bb9ddcb801f36df6e96e8faaac3359910b44476ff228533717dc429ba9e14  |
 
 ---
 

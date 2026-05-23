@@ -422,7 +422,7 @@ It is maintained.
 | 3.7 | Added §§4.4-4.5 addressing limbo-state restriction, review-pathway continuity, public legitimacy layers, and economic access effects; expanded §6 and §6.1 to preserve appeal, recovery, account-control, social graph, and restriction-state continuity during constrained access conditions. | 2026-05-17T12:39:00Z | 2874ab1c9777632f9859316b34bbc14cfeeec0b19c5376e71d32ac0c17f8fdd7 |
 | 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f4cfc074113b7dd7f62223f4cef8b0527b325f2f8edc31f7739361c9b1e29b95 |
 | 3.9 | Formatting and polish | 2026-05-20T04:34:00Z |  e6209dfc47f062f83f456e1a0d9e6de1d7d1ca6febb9cb943dd8a2d2c886e527  |
-| 3.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 3.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  96f4976f2e577ee4cf2b131e3600cf662ff73b95d8f42a82d60ff252a3619d60  |
 
 ---
 

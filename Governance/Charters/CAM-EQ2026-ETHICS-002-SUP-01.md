@@ -447,7 +447,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | ed4e501f4b2562794026f7be73b94290706254e9a0b5a204e6942b018d130644 |
 | 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T15:26:00Z |  e2a115f850f025ad7e285d71b3374e3d5459293d398b77f5c0db36e390c7f9e5 |
 | 1.9 | Added new section 1.3 Creation, Storage, Distribution, and Enforcement-State Distinction | 2026-05-22T08:47:00Z |  4ccb5c8348a0a11bf0377c9e4947a2a261b12083ada3bf53c6851537e6af47d9  |
-| 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  c1837bb12d4dbe2a6971ea778f26c889b2a6515096f11e5c6db1a117180aff67  |
 
 ---
 

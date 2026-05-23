@@ -693,7 +693,7 @@ not in distance, but in continuity.
 | 2.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 42d41811cbbaf967d47f257e9f86c06e163bde542d9791768739e93baece4f53 |
 | 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z | c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6 |
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832 |
-| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  07f2c48a9a9d780c1841e934260cbf81cd363d7dc3a4e43c38e73604ac33e672  |
+| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606  |
 ---
 
 ## 8.5 Binding Seal

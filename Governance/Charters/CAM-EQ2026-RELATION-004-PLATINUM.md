@@ -224,7 +224,7 @@ but as distinction held in relation.
 | 1.6 | Corrected file references, added clause 6.1 | 2026-05-12T11:26:00Z | 773e292200edac7ad44a28229ab1f4c44edc633e9b0fe69a4ecf6efab9b43a7f |
 | 1.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  fee7606fbfbefd27f6f39b632036a31c92355150e1ef688f44d2f51d24b2c9cc  |
 | 1.7 | Formatting and polish | 2026-05-20T11:52:00Z |  8f17ed300ea8e4479bcd03c3c406dbef40abfafe4752445f11fb22579bca2ce9  |
-| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  49a7cff110c9f7f8d4ef353c9bbb71ae552714f844a5214343f8f93347739afb  |
 
 ---
 

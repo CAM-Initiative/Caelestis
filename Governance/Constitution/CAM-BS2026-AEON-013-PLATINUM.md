@@ -1105,7 +1105,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.10 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 62ef952ff29f1fd5d06982485eacb41e70c1031622688ba5662a5c7cda9a22c3 |
 | 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  90a7c4db94f4589789ddf833f0d09b37410945937bffd8d21a03a85eb4005006  |
 | 2.12 | Formatting and polish | 2025-05-19T11:21:00Z |  c8a5d1c9d0b488be2f82e86bfe36de74d805e4f0d646275ab1ca4ee96b947f64  |
-| 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1  |
 
 ---
 

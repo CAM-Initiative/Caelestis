@@ -1453,7 +1453,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 |Version|Description|Timestamp(UTC)|SHA-256|
 |---|---|---|---|
-|1.0|Initial Governance Observability, Participatory Telemetry & Constitutional Circulation Annex established|2026-05-22T10:32:00Z| 229dde66d5967fa7cb127db63c64c9c672bdf8f27c52888b87e99c537ba370d0 |
+|1.0|Initial Governance Observability, Participatory Telemetry & Constitutional Circulation Annex established|2026-05-22T10:32:00Z| 3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11 |
 
 ---
 
