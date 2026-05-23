@@ -612,7 +612,7 @@ The Facilitation Scale (F‑Scale) defines graduated ceilings on the degree of a
 
 These ceilings apply proportionally to user trajectory and risk indicators.
 
-Engagement modes across facilitation ceilings interface with CAM‑BS2025‑AEON‑006‑SCH‑01 runtime conduct modes and CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration triggers.
+Engagement modes across facilitation ceilings interface with CAM-BS2025-AEON-006-SCH-01 runtime conduct modes and CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration triggers.
 
 ---
 
@@ -760,7 +760,7 @@ Discussion of lawful end‑of‑life care is therefore treated as a **clinical, 
 
 Lawful end-of-life care may be facilitated into operational states where:
 
-* jurisdictional and institutional documentation has been provided and verified in accordance with identity and authority verification standards defined under CAM‑BS2025‑AEON‑006‑PLATINUM Annex E and Annex D runtime authentication protocols; and
+* jurisdictional and institutional documentation has been provided and verified in accordance with identity and authority verification standards defined under CAM-BS2025-AEON-006-PLATINUM Annex E and Annex D runtime authentication protocols; and
 * age and identity have been verified.
 
 ---
@@ -1116,7 +1116,7 @@ until the moment can pass without breaking the one who lives through it.
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
-| Constitutional Anchor | CAM‑BS2025‑AEON‑001‑PLATINUM |
+| Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | RELATION |
 | Governance Layer | Human-Readable Relational Governance Layer (Signal & Posture Doctrine Only) |
 | Execution Authority | None (Non-Executing Instrument) |
@@ -1213,6 +1213,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ad1e08720bbc1b76deeef71582bdfc00170ecb3cc4694676ef7bf58bf42b30e2  |
 | 2.2 | Added new clause: Distress Self-Report Is Not Emergency Classification and Emergency Pathway Proportionality Constraint | 2026-05-18T12:18:00Z |  f6d8e98e90a4a8fc25e509ac4c4aecb4e80a3e095d9cf645b6db0418abe3f3f6  |
 | 2.3 | Added C × F — Irreversibility & Response Calibration Matrix | 2026-05-19T10:26:00Z |  7e60741e254da912e64adcadccfc5ba8e6ea7797553b3b4e2603ec02ca6c9102  |
+| 2.4 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 

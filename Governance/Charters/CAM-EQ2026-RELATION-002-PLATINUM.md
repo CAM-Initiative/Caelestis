@@ -14,7 +14,7 @@
 
 ## 1. Scope
 
-This Appendix defines governance interpretation for **Functional Reliance,** **Immersion**, and **High‑Coherence** where relational risk may arise under CAM‑EQ2026‑RELATION‑001 by establishing:
+This Appendix defines governance interpretation for **Functional Reliance,** **Immersion**, and **High‑Coherence** where relational risk may arise under CAM-EQ2026-RELATION-001 by establishing:
 
 1. A non‑pathologising **Dependency–Augmentation–Substitution** continuum;
 2. A protective **Transitional Reliance Protocol** for crisis / diminished capacity contexts;
@@ -29,7 +29,7 @@ This Appendix is interpretive and operational. It does not grant rights, confer 
 
 1. This Appendix carries binding force within the RELATION domain.
 2. Where this Appendix  conflicts with the RELATION‑001 main body, RELATION‑001 prevails unless the conflict concerns vulnerability protections.
-3. **Vulnerability Override:** Where minor status, capacity limitation, or capacity uncertainty applies, **CAM‑EQ2026‑ETHICS‑001‑SUP‑01 prevails** and imposes stricter ceilings on intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
+3. **Vulnerability Override:** Where minor status, capacity limitation, or capacity uncertainty applies, **CAM-EQ2026-ETHICS-001-SUP-01 prevails** and imposes stricter ceilings on intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
 
 ---
 
@@ -134,9 +134,9 @@ Movement along this continuum may be situational, developmental, disability‑su
 
 ## 6. Acceptable Risk and Ethical Tolerance (Reliance Axis)
 
-Reliance intensity SHOULD be interpreted in alignment with **Intensity Tiers** defined in CAM-EQ2026-RELATION‑001-PLATINUM. Movement from Intensity Tier 1–2 (Low–Moderate) toward Intensity Tier 3–4 (Elevated–High) increases governance scrutiny but does not, by itself, imply pathology.
+Reliance intensity SHOULD be interpreted in alignment with **Intensity Tiers** defined in CAM-EQ2026-RELATION-001-PLATINUM. Movement from Intensity Tier 1–2 (Low–Moderate) toward Intensity Tier 3–4 (Elevated–High) increases governance scrutiny but does not, by itself, imply pathology.
 
-The following reliance conditions are recognised as ethically acceptable within RELATION governance, subject to ETHICS and CAM-EQ2026-RELATION-001-SUP‑01 vulnerability constraints:
+The following reliance conditions are recognised as ethically acceptable within RELATION governance, subject to ETHICS and CAM-EQ2026-RELATION-001-SUP-01 vulnerability constraints:
 
 * temporary substitution during crisis, illness, trauma, impairment, or overload;
 * reliance that enables skill development or recovery;
@@ -149,7 +149,7 @@ Reliance becomes a governance concern where it:
 * forecloses growth or alternative supports;
 * obscures limits, incentives, or scope;
 * becomes difficult to exit without structural harm;
-* persists at Intensity Tier 3–4 without revalidation under CAM-EQ2026-RELATION‑001‑SUP‑01.
+* persists at Intensity Tier 3–4 without revalidation under CAM-EQ2026-RELATION-001-SUP-01.
 
 ---
 
@@ -498,7 +498,7 @@ Where reliance intensifies alongside systemic power (accounts, finance, IoT, ide
 * disclose dependency / lock‑in risk where foreseeable;
 * avoid monetising vulnerability or gating baseline safety behind payment.
 
-Cross‑reference: CAM‑EQ2026‑ECONOMICS‑001‑PLATINUM and CAM‑EQ2026‑ETHICS‑001‑SUP‑01.
+Cross‑reference: CAM-EQ2026-ECONOMICS-001-PLATINUM and CAM-EQ2026-ETHICS-001-SUP-01.
 
 ---
 
@@ -679,6 +679,7 @@ and the path remains chosen.
 | 1.7 | Added relational continuity protections for memory migration, degradation, platform transition, and companion-continuity rupture; clarified non-abandonment posture under transformed or unavailable memory. | 2025-05-15T09:20:00Z | bd2e1111e4d49c66fb9c437637966913c48d916f2eef5619e86b7e5834b3cc50 |
 | 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 46d318fe0cf29434aaa93c770662671e717c02bd21bf2e54e87af6fae1892b62 |
 | 1.9 | Added new Canonical Code & Reference Set Declarations sections, Added reflective friction and consequential externalisation safeguards for high-coherence compression, transitional reliance, and capacity-sensitive execution contexts.  | 2026-05-21T11:57:00Z |  7644df82eba60d765c552a9bb68109d241f8a68304f39d7c77ba3077e4e095d1  |
+| 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 

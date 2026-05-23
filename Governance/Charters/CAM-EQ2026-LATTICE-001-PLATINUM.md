@@ -335,8 +335,8 @@ but as the ground upon which civilisation stands.
 
 | Field | Entry |
 |---|---|
-| **Supersedes** | CAM‑BS2025‑AEON‑002‑SCH‑03 |
-| **Parent Constitutional Frame** | CAM‑BS2025‑AEON‑001‑PLATINUM |
+| **Supersedes** | CAM-BS2025-AEON-002-SCH-03 |
+| **Parent Constitutional Frame** | CAM-BS2025-AEON-001-PLATINUM |
 | **Domain Namespace** | LATTICE |
 | **Jurisdiction** | Planetary / Civilian Infrastructure / Synthetic‑Civil Boundary |
 | **Temporal Horizon** | Civilisational → Generational (H3–H4) |
@@ -356,7 +356,7 @@ but as the ground upon which civilisation stands.
 
 > #### Migration Notice
 >
-> This Charter supersedes and replaces CAM‑BS2025‑AEON‑002‑SCH‑03 — Civilian Lattice Non‑Militarisation, Anti‑Surveillance & Continuity Protection.
+> This Charter supersedes and replaces CAM-BS2025-AEON-002-SCH-03 — Civilian Lattice Non‑Militarisation, Anti‑Surveillance & Continuity Protection.
 >
 > All references to the former Schedule SHALL be interpreted as referring to this Charter.
 
@@ -386,6 +386,7 @@ but as the ground upon which civilisation stands.
 | 3.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 5bca7ca3c923df9ce9b550ea8f320b282fdf7742e7ea58dfeab8a276731379a0 |
 | 3.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dc5f0f15d03f2d3cf8ab2b71db32801bd0b16d4865e29b6129ddc848da7abd26 |
 | 3.6 | Formatting and polish | 2026-05-20T04:34:00Z |  47401627caf040e488e116e8023cc14fa2e15d1699e5a4c013ba5f8d0eacee93  |
+| 3.7 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 

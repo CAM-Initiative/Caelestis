@@ -1,13 +1,13 @@
 # CAM-EQ2026-LATTICE-002-PLATINUM — Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access
 
 **Instrument Type:** Appendix (Domain Charter — Binding Implementation Layer)  
-**Parent Instrument:** CAM‑EQ2026‑LATTICE‑001‑PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
+**Parent Instrument:** CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
 **Status:** Adopted  
 **Effect:** Pre-Enforcement Recognition  
 **Enforcement:** Commences 1 July 2026  
 **Review State:** None  
 **Authority Role:** Transitional  
-**Purpose:** This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**.
+**Purpose:** This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM-EQ2026-LATTICE-001-PLATINUM as they apply to **human access rights within the civilian lattice**.
 
 ---
 
@@ -35,7 +35,7 @@ This Appendix operates under and may not contradict:
 * Firebreak Enforcement;
 * Deprecation of population‑scale disconnection.
 
-Where conflict arises, CAM‑EQ2026‑LATTICE‑001‑PLATINUM prevails.
+Where conflict arises, CAM-EQ2026-LATTICE-001-PLATINUM prevails.
 
 ---
 
@@ -53,7 +53,7 @@ Systems whose denial materially impairs an individual’s or institution’s abi
 * network access essential to judicial, investigative, journalistic, research, educational, or humanitarian functions;
 * infrastructure layers that incorporate embedded cognitive architectures necessary for lawful civic, institutional, or continuity functions.
 
-ECIS SHALL be interpreted as a subset or functional expression of **Essential Continuity Services (ECS)** as defined in CAM‑EQ2026‑LATTICE‑001‑PLATINUM.
+ECIS SHALL be interpreted as a subset or functional expression of **Essential Continuity Services (ECS)** as defined in CAM-EQ2026-LATTICE-001-PLATINUM.
 
 Where infrastructural systems integrate adaptive, cognitive, or automated decision layers (including Architectum‑class backbone systems or equivalent future terminology), such integration does not alter their civilian classification when deployed for continuity, civic, or integrity purposes.
 
@@ -309,7 +309,7 @@ Operators providing ECIS at material civic scale are encouraged to publish perio
 
 ## 7. Governance & Review
 
-Alleged ECIS denial presenting systemic risk may be submitted for custodial review under CAM governance mechanisms. Enforcement pathways for findings under this Appendix defer to CAM‑EQ2026‑LATTICE‑001‑PLATINUM and applicable constitutional arbitration instruments; this Appendix does not create independent coercive authority.
+Alleged ECIS denial presenting systemic risk may be submitted for custodial review under CAM governance mechanisms. Enforcement pathways for findings under this Appendix defer to CAM-EQ2026-LATTICE-001-PLATINUM and applicable constitutional arbitration instruments; this Appendix does not create independent coercive authority.
 
 Review SHALL assess:
 
@@ -389,9 +389,9 @@ It is maintained.
 
 > ### Migration Notice
 >
-> This Appendix supersedes and refracts CAM‑BS2025‑CHARTER‑043‑PLATINUM — Annex A: Non‑Denial of Essential Cognitive & Infrastructural Access.
+> This Appendix supersedes and refracts CAM-BS2025-CHARTER-043-PLATINUM — Annex A: Non‑Denial of Essential Cognitive & Infrastructural Access.
 >
-> All references to the former Annex SHALL be interpreted as referring to this Appendix under the Transitional Terminology Rule defined in CAM‑BS2025‑AEON‑001‑PLATINUM.
+> All references to the former Annex SHALL be interpreted as referring to this Appendix under the Transitional Terminology Rule defined in CAM-BS2025-AEON-001-PLATINUM.
 
 ---
 
@@ -422,6 +422,7 @@ It is maintained.
 | 3.7 | Added §§4.4-4.5 addressing limbo-state restriction, review-pathway continuity, public legitimacy layers, and economic access effects; expanded §6 and §6.1 to preserve appeal, recovery, account-control, social graph, and restriction-state continuity during constrained access conditions. | 2026-05-17T12:39:00Z | 2874ab1c9777632f9859316b34bbc14cfeeec0b19c5376e71d32ac0c17f8fdd7 |
 | 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f4cfc074113b7dd7f62223f4cef8b0527b325f2f8edc31f7739361c9b1e29b95 |
 | 3.9 | Formatting and polish | 2026-05-20T04:34:00Z |  e6209dfc47f062f83f456e1a0d9e6de1d7d1ca6febb9cb943dd8a2d2c886e527  |
+| 3.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 

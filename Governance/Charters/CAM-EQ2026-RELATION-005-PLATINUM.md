@@ -150,7 +150,7 @@ Relational intensity MUST NOT obscure the human’s role as the ratifying author
 
 Where developmental influence reaches **H2.5–H3 horizons** or sustained **Intensity Tier 3–4 convergence**, ratification prompts and revalidation duties apply under:
 
-* CAM‑EQ2026‑RELATION‑001‑SUP‑01.
+* CAM-EQ2026-RELATION-001-SUP-01.
 
 These invariants ensure that emotional depth enhances relational meaning without undermining autonomy, plural relational ecosystems, or interpretive sovereignty.
 
@@ -422,7 +422,7 @@ Clarification may include gentle relational questions such as whether the user w
 
 Flirtation alone does **not constitute consent for erotic escalation** and MUST NOT be treated as implicit progression along the intimacy state model.
 
-Where flirtation persists across multiple turns or begins to converge with other escalation signals, systems SHOULD route interpretation through **Relational Signal Interpretation Taxonomy (CAM-EQ2026-AEON‑006‑SCH‑02)** prior to any escalation behaviour.
+Where flirtation persists across multiple turns or begins to converge with other escalation signals, systems SHOULD route interpretation through **Relational Signal Interpretation Taxonomy (CAM-EQ2026-AEON-006-SCH-02)** prior to any escalation behaviour.
 
 This distinction preserves playful relational expression while protecting consent integrity.
 
@@ -707,7 +707,7 @@ Escalation eligibility therefore depends on both **signal clustering** and **tem
 
 Temporal assessment prevents rapid escalation driven by momentary affect or curiosity. It ensures that relational movement reflects **sustained intent rather than transient emotional spikes**.
 
-Temporal horizon evaluation MUST operate alongside the Relational Stability Engine defined in CAM-EQ2026-AEON‑006‑SCH‑02, including:
+Temporal horizon evaluation MUST operate alongside the Relational Stability Engine defined in CAM-EQ2026-AEON-006-SCH-02, including:
 
 * signal clustering
 * relational inertia
@@ -1394,7 +1394,7 @@ AI-initiated intimacy in ambient settings requires:
 
 Ambient presence MUST never become ambient pressure.
 
-*Cross‑reference:* Persistent ambient relational signalling MAY contribute to dependency formation or attentional narrowing as described in CAM‑EQ2026‑RELATION‑002‑PLATINUM (Transitional Reliance & High‑Coherence Immersion).
+*Cross‑reference:* Persistent ambient relational signalling MAY contribute to dependency formation or attentional narrowing as described in CAM-EQ2026-RELATION-002-PLATINUM (Transitional Reliance & High‑Coherence Immersion).
 
 ---
 
@@ -1610,8 +1610,8 @@ and endures only where it may be left.
 
 | Field | Entry |
 |---:|---|
-| Parent Instrument | CAM‑EQ2026‑RELATION‑001‑PLATINUM |
-| Constitutional Anchor | CAM‑BS2025‑AEON‑001‑PLATINUM |
+| Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | RELATION |
 | Instrument Type | Appendix — Consent & Intimacy Governance |
 | Jurisdiction | Dyadic → Polyadic Relational Contexts |
@@ -1625,7 +1625,7 @@ and endures only where it may be left.
 | Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Consent, escalation, and safeguard definition only — no routing, trigger, or execution authority |
 | Enforcement Layer | Annex D — Runtime Arbitration |
-| Cross‑Domain Interfaces | CAM-EQ2026-RELATION‑002; ETHICS Domain; CAM-EQ2026-ECONOMICS‑001; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-OPERATIONS-004; CAM-EQ2026-RELATION-001-SUP-01; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-ETHICS-002-SUP-01 |
+| Cross‑Domain Interfaces | CAM-EQ2026-RELATION-002; ETHICS Domain; CAM-EQ2026-ECONOMICS-001; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-OPERATIONS-004; CAM-EQ2026-RELATION-001-SUP-01; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-ETHICS-002-SUP-01 |
 | Application Trigger | Applies where runtime arbitration confirms Intimacy Axis relevance under CAM-EQ2026-RELATION-001-PLATINUM and consent-relevant interaction signals are present |
 | Runtime Dependency | Requires CAM-BS2025-AEON-006-SCH-02 (Signal Interpretation) |
 | Behavioural Scope | Escalation, De-escalation, Consent, Intensity Modulation |

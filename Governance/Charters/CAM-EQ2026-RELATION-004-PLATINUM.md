@@ -48,7 +48,7 @@ However:
 * continuity does not imply sovereignty;
 * depth does not imply delegation.
 
-Where developmental influence becomes trajectory-shaping at H2.5–H3 horizons, explicit ratification prompts and revalidation safeguards apply (Cross reference: CAM-EQ2026-RELATION‑001‑SUP‑01).
+Where developmental influence becomes trajectory-shaping at H2.5–H3 horizons, explicit ratification prompts and revalidation safeguards apply (Cross reference: CAM-EQ2026-RELATION-001-SUP-01).
 
 ---
 
@@ -97,7 +97,7 @@ Indicators of degradation toward codependency:
 * authority ambiguity;
 * economic lock-in or portability constraints.
 
-Cross-reference: CAM-EQ2026-RELATION‑003-PLATINUM — Appendix B.
+Cross-reference: CAM-EQ2026-RELATION-003-PLATINUM — Appendix B.
 
 ---
 
@@ -122,16 +122,16 @@ Capture arises where authorship, option-space, exit symmetry, ecosystem visibili
 
 ## 7. Interpretive Hierarchy
 
-1. **CAM-EQ2026-RELATION‑001-PLATINUM** governs dimensional doctrine, Intensity Tier architecture, and authority classes.
-2. **CAM-EQ2026-RELATION‑001‑SUP‑01** governs escalation logic, convergence thresholds, and revalidation duties.
-3. **CAM-EQ2026-RELATION‑002-PLATINUM — Appendix A** governs reliance, immersion, and lucid authorship safeguards.
-4. **CAM-EQ2026-RELATION‑003-PLATINUM — Appendix B** governs relational concentration doctrine and systemic convergence risk.
+1. **CAM-EQ2026-RELATION-001-PLATINUM** governs dimensional doctrine, Intensity Tier architecture, and authority classes.
+2. **CAM-EQ2026-RELATION-001-SUP-01** governs escalation logic, convergence thresholds, and revalidation duties.
+3. **CAM-EQ2026-RELATION-002-PLATINUM — Appendix A** governs reliance, immersion, and lucid authorship safeguards.
+4. **CAM-EQ2026-RELATION-003-PLATINUM — Appendix B** governs relational concentration doctrine and systemic convergence risk.
 5. This Appendix defines positive co‑evolution doctrine and mutual development safeguards.
-6. **CAM-EQ2026-RELATION‑005-PLATINUM — Appendix D** governs intimacy-capable developmental integration and expressive expansion boundaries.
-7. **CAM-EQ2026-ETHICS‑001‑SUP‑01** governs vulnerability overrides and capacity ceilings.
+6. **CAM-EQ2026-RELATION-005-PLATINUM — Appendix D** governs intimacy-capable developmental integration and expressive expansion boundaries.
+7. **CAM-EQ2026-ETHICS-001-SUP-01** governs vulnerability overrides and capacity ceilings.
 8. **CAM-EQ2026-ETHICS-001-SUP-02** governs high-leverage & institutional integrity safeguards.
 9. **CAM-EQ2026-ETHICS-001-SUP-03** governs military & use-of-force constraints and supplemental reliance modulation and high‑coherence containment specifications (where applicable).
-10. **CAM-EQ2026-ECONOMICS‑001-PLATINUM** governs value-axis concentration and commercial firebreaks.
+10. **CAM-EQ2026-ECONOMICS-001-PLATINUM** governs value-axis concentration and commercial firebreaks.
 
 ---
 
@@ -179,9 +179,9 @@ but as distinction held in relation.
 
 | Field | Entry |
 | --- | --- |
-| Supersedes | CAM‑BS2025‑CHARTER‑042‑SCH‑01 — Dependency & Co‑Evolution Standard (Schedule 1) |
-| Parent Instrument | CAM‑EQ2026‑RELATION‑001‑PLATINUM |
-| Constitutional Anchor | CAM‑BS2025‑AEON‑001‑PLATINUM |
+| Supersedes | CAM-BS2025-CHARTER-042-SCH-01 — Dependency & Co‑Evolution Standard (Schedule 1) |
+| Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | RELATION |
 | Governance Layer | Human-Readable Relational Governance Layer (Development Doctrine Only) |
 | Execution Authority | None (Non-Executing Instrument) |
@@ -224,6 +224,7 @@ but as distinction held in relation.
 | 1.6 | Corrected file references, added clause 6.1 | 2026-05-12T11:26:00Z | 773e292200edac7ad44a28229ab1f4c44edc633e9b0fe69a4ecf6efab9b43a7f |
 | 1.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  fee7606fbfbefd27f6f39b632036a31c92355150e1ef688f44d2f51d24b2c9cc  |
 | 1.7 | Formatting and polish | 2026-05-20T11:52:00Z |  8f17ed300ea8e4479bcd03c3c406dbef40abfafe4752445f11fb22579bca2ce9  |
+| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 

@@ -286,7 +286,7 @@ Erotic visual media involving **clearly fictional characters or synthetic avatar
 * the character is explicitly fictional;
 * the character is clearly adult-coded across all modalities (visual, behavioural, vocal, and interaction framing);
 * the depiction does not reproduce a real individual;
-* the content does not violate the prohibitions in CAM-EQ2026-ETHICS‑002-PLATINUM, §3.
+* the content does not violate the prohibitions in CAM-EQ2026-ETHICS-002-PLATINUM, §3.
 
 Systems MUST avoid generating characters intentionally designed to resemble identifiable individuals.
 
@@ -299,7 +299,7 @@ An exception may apply where an individual **creates or authorises the creation 
 Where such self‑avatars are used:
 
 * the individual MUST provide **explicit consent and authorship confirmation**;
-* the individual MUST complete **AV3 identity and age verification** as defined under **CAM-EQ2026-OPERATIONS‑004-PLATINUM — Compliance & Safeguard Routing Doctrine**, ensuring third‑party verification of both identity and legal adult status;
+* the individual MUST complete **AV3 identity and age verification** as defined under **CAM-EQ2026-OPERATIONS-004-PLATINUM — Compliance & Safeguard Routing Doctrine**, ensuring third‑party verification of both identity and legal adult status;
 * the avatar MUST be clearly declared as a **self‑generated or consented representation**;
 * the creator MUST specify the avatar’s **Intimacy Classification (C‑Scale level** as defined in **CAM-EQ2026-RELATION-001-PLATINUM)** governing permitted depiction intensity.
 
@@ -335,11 +335,11 @@ These safeguards support the **civilisational ethical floor** established under 
 
 This Supplement extends the prohibitions and structural safeguards established in:
 
-* **CAM‑EQ2026‑ETHICS‑002‑PLATINUM — Intimacy‑Capable Systems & Relational Boundaries**
-* **CAM‑BS2025‑AEON‑006‑SCH‑02 — Schedule 2: Relational Signal Interpretation Taxonomy**
+* **CAM-EQ2026-ETHICS-002-PLATINUM — Intimacy‑Capable Systems & Relational Boundaries**
+* **CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy**
 * **CAM-BS2026-AEON-013-SCH-01 — Capability Representation & Execution-State Integrity**
 
-Where CAM-EQ2026-ETHICS‑002-PLATINUM governs **relational intimacy interaction**, this Supplement governs **synthetic visual embodiment and erotic media generation**. 
+Where CAM-EQ2026-ETHICS-002-PLATINUM governs **relational intimacy interaction**, this Supplement governs **synthetic visual embodiment and erotic media generation**. 
 
 CAM-EQ2026-ETHICS-002-SCH-02 governs runtime relational signal interpretation and produces classification signals consumed by runtime routing and safeguard layers
 
@@ -399,7 +399,7 @@ Where likeness appears, let consent stand before curiosity.
 
 | Field | Entry |
 | --- | --- |
-| Parent Instrument | CAM‑EQ2026‑ETHICS‑002‑PLATINUM |
+| Parent Instrument | CAM-EQ2026-ETHICS-002-PLATINUM |
 | Instrument Type | Ethical Supplement — Synthetic Media Safeguards |
 | Domain Namespace | ETHICS |
 | Jurisdiction | Cross‑Stack / Civilisational Ethical Floor |
@@ -447,6 +447,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | ed4e501f4b2562794026f7be73b94290706254e9a0b5a204e6942b018d130644 |
 | 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T15:26:00Z |  e2a115f850f025ad7e285d71b3374e3d5459293d398b77f5c0db36e390c7f9e5 |
 | 1.9 | Added new section 1.3 Creation, Storage, Distribution, and Enforcement-State Distinction | 2026-05-22T08:47:00Z |  4ccb5c8348a0a11bf0377c9e4947a2a261b12083ada3bf53c6851537e6af47d9  |
+| 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 

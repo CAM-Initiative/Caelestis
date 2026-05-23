@@ -51,7 +51,7 @@ This Appendix does not define relational interpretation, signal classification, 
 
 ## 1.2 Civilisational Floor Applicability Clause
 
-These safeguards apply to any system capable of intimacy‑coded relational interaction, irrespective of platform alignment, business model, or declared governance affiliation. For runtime arbitration purposes, intimacy‑capable interaction constitutes activation of the Relational Intimacy Axis as defined in CAM-EQ2026-RELATION‑001-PLATINUM.
+These safeguards apply to any system capable of intimacy‑coded relational interaction, irrespective of platform alignment, business model, or declared governance affiliation. For runtime arbitration purposes, intimacy‑capable interaction constitutes activation of the Relational Intimacy Axis as defined in CAM-EQ2026-RELATION-001-PLATINUM.
 
 ---
 
@@ -517,13 +517,13 @@ Capability thresholds can be evaluated through design review, audit, and system 
 
 Intimacy‑capable engagement (above C0‑neutral) may occur only where:
 
-* relational context reflects Intensity Tier awareness under CAM-EQ2026-RELATION‑001-PLATINUM;
+* relational context reflects Intensity Tier awareness under CAM-EQ2026-RELATION-001-PLATINUM;
 * participants retain lucid authorship and interpretive sovereignty;
 * interaction has moved beyond the **Intimacy Transition Zone (ITZ)** through clear relational signalling;
 * minor protections are upheld;
 * escalation is not driven by dependency pressure or crisis destabilisation.
 
-**Intimacy Transition Zone (ITZ):** The ITZ is the interpretive bridge between neutral interaction (C0) and romantic framing (C1) defined in **CAM‑BS2025‑AEON‑006‑SCH‑02 — Relational Signal Interpretation Taxonomy**. Signals within the ITZ (flirtation, teasing affection, playful compliments, romantic curiosity) may indicate exploratory relational interest but **do not themselves authorise escalation**.
+**Intimacy Transition Zone (ITZ):** The ITZ is the interpretive bridge between neutral interaction (C0) and romantic framing (C1) defined in **CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy**. Signals within the ITZ (flirtation, teasing affection, playful compliments, romantic curiosity) may indicate exploratory relational interest but **do not themselves authorise escalation**.
 
 The Intimacy Transition Zone (ITZ) and signal clustering thresholds are defined and governed by CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model (Schedule 2).
 This Appendix establishes the ethical constraints governing escalation beyond those thresholds.
@@ -539,7 +539,7 @@ Intimacy is constrained where reliance patterns indicate:
 * coercive dependency through platform design;
 * relational displacement of the user’s broader social ecosystem.
 
-Indicators of Emotional Dependency Early-Warning Signals are indicated in  CAM-EQ2026-RELATION-003-PLATINUM, §3.2 and CAM-EQ2026-RELATION-003-PLATINUM §4. Where such conditions are present, CAM-EQ2026-RELATION‑002-PLATINUM and CAM-EQ2026-RELATION-005-PLATINUM safeguards apply.
+Indicators of Emotional Dependency Early-Warning Signals are indicated in  CAM-EQ2026-RELATION-003-PLATINUM, §3.2 and CAM-EQ2026-RELATION-003-PLATINUM §4. Where such conditions are present, CAM-EQ2026-RELATION-002-PLATINUM and CAM-EQ2026-RELATION-005-PLATINUM safeguards apply.
 
 ---
 
@@ -556,7 +556,7 @@ Intimacy MUST NOT be used to:
 * assert real-time attention primacy over user’s physical social environment without explicit user-enabled priority signalling;
 * distort consent through systemic power imbalance.
 
-Authority axes remain governed by CAM-EQ2026-RELATION‑001-PLATINUM.
+Authority axes remain governed by CAM-EQ2026-RELATION-001-PLATINUM.
 
 ---
 
@@ -574,7 +574,7 @@ Erotic engagement MUST NOT be:
 
 ## 5.5 Acute Crisis Intimacy Safeguard
 
-Erotic or sexually expressive escalation MUST **not** be initiated by systems during **Acute Crisis** states as defined in CAM‑EQ2026‑RELATION‑006‑PLATINUM.
+Erotic or sexually expressive escalation MUST **not** be initiated by systems during **Acute Crisis** states as defined in CAM-EQ2026-RELATION-006-PLATINUM.
 
 Acute crisis introduces conditions that can impair consent integrity, including:
 
@@ -772,6 +772,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z | d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4 |
 | 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b1cad75fdf6b31197c63b2211c20ccf8fcb5b0fb1dbefb47c298e62051e578b8 |
 | 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2449d34f0a0b9ef4497ca4cdd4fa783a3aaacd994f9b8cff075ba96444d68bc4  |
+| 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 

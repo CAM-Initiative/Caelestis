@@ -92,7 +92,7 @@
 | Document | Class | Hierarchy | Parent | Title | Purpose |
 |---|---|---|---|---|---|
 | [CAM-EQ2026-LATTICE-001-PLATINUM](Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md) | charter | root |  | Charter of Civilian Lattice Integrity & Non‑Militarisation | This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice. |
-| [CAM-EQ2026-LATTICE-002-PLATINUM](Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md) | charter | appendix | CAM-EQ2026-LATTICE-001 | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access | This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM‑EQ2026‑LATTICE‑001‑PLATINUM as they apply to **human access rights within the civilian lattice**. |
+| [CAM-EQ2026-LATTICE-002-PLATINUM](Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md) | charter | appendix | CAM-EQ2026-LATTICE-001 | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access | This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM-EQ2026-LATTICE-001-PLATINUM as they apply to **human access rights within the civilian lattice**. |
 | [CAM-EQ2026-LATTICE-003-PLATINUM](Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md) | charter | appendix | CAM-EQ2026-LATTICE-001 | Appendix B: Conflict‑Condition Continuity Doctrine | This Appendix clarifies the operational posture of the Civilian Lattice Integrity Charter under conditions of armed conflict, geopolitical escalation, or regional war. |
 
 ## Domain: OPERATIONS
