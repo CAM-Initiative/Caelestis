@@ -71,7 +71,7 @@ def test_ambiguous_named_instrument_reference_appendix(tmp_path):
     w(src, "Systems MAY utilise interpretive heuristic frameworks (Appendix F §5.9).\n")
     findings = validator.run(tmp_path / "Governance")
     f = findings[0]
-    assert f.status == "ambiguous_named_instrument_reference"
+    assert f.status == "fail_short_document_reference"
     assert f.target_document.endswith(":Appendix F")
 
 
@@ -183,7 +183,6 @@ def test_amendment_ledger_heading_marks_region_as_ignored(tmp_path):
 
 def test_manual_review_statuses_are_non_blocking_sets():
     assert "manual_review_required" in validator.MANUAL_REVIEW_STATUSES
-    assert "ambiguous_named_instrument_reference" in validator.MANUAL_REVIEW_STATUSES
     assert "manual_review_required" not in validator.BLOCKING_STATUSES
 
 
@@ -220,8 +219,8 @@ def test_default_output_shows_fail_statuses(monkeypatch, capsys, tmp_path):
 
 def test_default_output_shows_manual_review_statuses(monkeypatch, capsys, tmp_path):
     code, out = _run_main(monkeypatch, capsys, tmp_path, {"A.md": "See Appendix F §5.9\n"})
-    assert code == 0
-    assert "ambiguous_named_instrument_reference" in out
+    assert code == 1
+    assert "fail_short_document_reference" in out
 
 
 def test_default_output_hides_ignored_amendment_register_statuses(monkeypatch, capsys, tmp_path):
@@ -241,9 +240,9 @@ def test_exit_code_zero_when_only_manual_and_ignored(monkeypatch, capsys, tmp_pa
     code, out = _run_main(monkeypatch, capsys, tmp_path, {
         "A.md": "See Appendix F §5.9\n## Amendment Register\nLegacy reference §9.9\n",
     })
-    assert "ambiguous_named_instrument_reference" in out
+    assert "fail_short_document_reference" in out
     assert "SUPPRESSED_IGNORED_ROWS=1" in out
-    assert code == 0
+    assert code == 1
 
 
 def test_exit_code_one_when_fail_exists(monkeypatch, capsys, tmp_path):
@@ -278,7 +277,28 @@ def test_annex_forms_and_placeholder(tmp_path):
     w(src, "CAM-BS2025-AEON-004-PLATINUM: Annex A\n")
     assert validator.run(tmp_path / "Governance") == []
     w(src, "CAM-BS2025-AEON-004-PLATINUM: Annex [x] §1.2\n")
-    assert validator.run(tmp_path / "Governance")[0].status == "ambiguous_named_instrument_reference" or validator.run(tmp_path / "Governance")[0].status == "manual_review_required"
+    assert validator.run(tmp_path / "Governance")[0].status == "manual_review_required"
+
+
+def test_short_named_references_are_blocking(tmp_path):
+    src = tmp_path / "Governance" / "SRC.md"
+    for text in ["Annex B §14.3.1", "Appendix Y §6.2", "Schedule 2 §13.8", "RELATION-001 §5.4", "AEON-003 §14.3.1"]:
+        w(src, text + "\n")
+        finding = validator.run(tmp_path / "Governance")[0]
+        assert finding.status == "fail_short_document_reference"
+
+
+def test_full_cam_references_with_variants_are_accepted(tmp_path):
+    src = tmp_path / "Governance" / "SRC.md"
+    tgt = tmp_path / "Governance" / "CAM-EQ2026-RELATION-001-PLATINUM.md"
+    w(tgt, "## 5.4 X\n")
+    for text in [
+        "CAM-EQ2026-RELATION-001-PLATINUM §5.4",
+        "CAM-EQ2026-RELATION-001-PLATINUM, §5.4",
+        "CAM-EQ2026-RELATION-001-PLATINUM — Annex/Title, §5.4",
+    ]:
+        w(src, text + "\n")
+        assert validator.run(tmp_path / "Governance")[0].status == "pass_cross_document"
 
 
 def test_default_output_hides_ignored(monkeypatch, capsys, tmp_path):

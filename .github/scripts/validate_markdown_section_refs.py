@@ -7,6 +7,7 @@ mix local, cross-document, annex/schedule, and constitutional references.
 """
 import argparse
 import difflib
+import os
 import pathlib
 import re
 import sys
@@ -36,11 +37,10 @@ BLOCKING_STATUSES = {
     "fail_local",
     "fail_cross_document_section_missing",
     "fail_cross_document_target_missing",
+    "fail_ambiguous_named_instrument_reference",
+    "fail_short_document_reference",
 }
-MANUAL_REVIEW_STATUSES = {
-    "manual_review_required",
-    "ambiguous_named_instrument_reference",
-}
+MANUAL_REVIEW_STATUSES = {"manual_review_required"}
 IGNORED_STATUSES = {
     "ignored_amendment_register_reference",
 }
@@ -178,7 +178,13 @@ def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
     clause = line[clause_start + 1:clause_end]
     named = NAMED_INSTRUMENT_REF_RE.search(clause)
     if named and named.group("section") == match.group("section") and not re.search(DOC_ID_RE, clause):
-        return "manual_review", "", named.group("label")
+        label = named.group("label")
+        if re.match(r"^(Annex|Appendix|Schedule)\b", label, re.IGNORECASE):
+            return "short_document_reference", "", label
+        return "manual_review", "", label
+    short_code = re.search(r"\b(?:RELATION|AEON)-\d{3}\b", clause, re.IGNORECASE)
+    if short_code and not re.search(DOC_ID_RE, clause):
+        return "short_document_reference", "", short_code.group(0)
 
     return "local", "", ""
 
@@ -216,9 +222,13 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
                 continue
 
             if ref_class == "manual_review":
-                status = "ambiguous_named_instrument_reference" if named_label else "manual_review_required"
+                status = "manual_review_required"
                 target = f"{path.stem}:{named_label}" if named_label else ""
                 findings.append(Finding(str(path), idx, ref_token, ref_class, target, "n/a", "n/a", "", status))
+                continue
+            if ref_class == "short_document_reference":
+                target = f"{path.stem}:{named_label}" if named_label else ""
+                findings.append(Finding(str(path), idx, ref_token, ref_class, target, "n/a", "n/a", "", "fail_short_document_reference"))
                 continue
 
             exists = ref in sections
@@ -255,12 +265,32 @@ def print_report(findings: list[Finding]) -> None:
         print(f"{f.file_path}\t{f.line_number}\t{f.reference}\t{f.reference_class}\t{f.target_document}\t{f.target_exists}\t{f.target_section_exists}\t{f.closest_section}\t{f.status}")
 
 
+def write_step_summary(summary_path: str, findings: list[Finding]) -> None:
+    actionable = [f for f in findings if f.status in BLOCKING_STATUSES or f.status in MANUAL_REVIEW_STATUSES]
+    hard = [f for f in actionable if f.status in BLOCKING_STATUSES]
+    manual = [f for f in actionable if f.status in MANUAL_REVIEW_STATUSES]
+    with open(summary_path, "a", encoding="utf-8") as f:
+        f.write("### Section reference validation\n\n")
+        f.write(f"- Hard failures: **{len(hard)}**\n")
+        f.write(f"- Manual-review references requiring action: **{len(manual)}**\n\n")
+        if actionable:
+            f.write("| File | Line | Reference | Status | Action |\n|---|---:|---|---|---|\n")
+            for item in actionable[:80]:
+                action = ""
+                if item.status in {"fail_short_document_reference", "fail_ambiguous_named_instrument_reference"}:
+                    action = "Use full filename stem without .md, e.g. CAM-EQ2026-RELATION-001-PLATINUM, §x.x"
+                f.write(f"| `{item.file_path}` | {item.line_number} | {item.reference} | `{item.status}` | {action} |\n")
+        else:
+            f.write("No actionable section-reference failures found.\n")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate local and cross-document Markdown section references.")
     parser.add_argument("--root", default="Governance")
     parser.add_argument("--fix", action="store_true", help="No-op: validator does not rewrite files.")
     parser.add_argument("--show-passes", action="store_true", help="Include pass_* rows in the printed report output.")
     parser.add_argument("--show-ignored", action="store_true", help="Include ignored_amendment_register_reference rows in table output.")
+    parser.add_argument("--report-file", help="Write TSV report to this path in addition to stdout output.")
     args = parser.parse_args()
 
     if args.fix:
@@ -269,6 +299,13 @@ def main() -> int:
     findings = run(pathlib.Path(args.root))
     display_findings = filter_display_findings(findings, show_passes=args.show_passes, show_ignored=args.show_ignored)
     print_report(display_findings)
+    if args.report_file:
+        report_path = pathlib.Path(args.report_file)
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        with report_path.open("w", encoding="utf-8") as fp:
+            fp.write("file path\tline number\treference found\treference class\ttarget document\ttarget exists\ttarget section exists\tclosest matching section\tstatus\n")
+            for row in display_findings:
+                fp.write(f"{row.file_path}\t{row.line_number}\t{row.reference}\t{row.reference_class}\t{row.target_document}\t{row.target_exists}\t{row.target_section_exists}\t{row.closest_section}\t{row.status}\n")
     statuses = {}
     for f in findings:
         statuses[f.status] = statuses.get(f.status, 0) + 1
@@ -285,6 +322,9 @@ def main() -> int:
     print(f"IGNORED_REFERENCES={len(ignored)}")
     if not args.show_ignored and ignored:
         print(f"SUPPRESSED_IGNORED_ROWS={len(ignored)} (use --show-ignored to display)")
+    step_summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if step_summary_path:
+        write_step_summary(step_summary_path, findings)
     return 1 if unresolved else 0
 
 

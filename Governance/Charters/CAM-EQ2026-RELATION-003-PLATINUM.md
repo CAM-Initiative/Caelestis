@@ -148,12 +148,12 @@ Advisory asymmetry becomes a concentration risk where the system’s perspective
 
 ## 8. Interpretive Hierarchy
 
-1. CAM-EQ2026-RELATION‑001 governs dimensional doctrine and authority classes.
-2. CAM-EQ2026-RELATION‑001‑SUP‑01 governs escalation and safeguard proportionality.
-3. CAM-EQ2026-ETHICS‑001‑SUP‑01 governs vulnerability overrides.
+1. CAM-EQ2026-RELATION-001 governs dimensional doctrine and authority classes.
+2. CAM-EQ2026-RELATION-001-SUP-01 governs escalation and safeguard proportionality.
+3. CAM-EQ2026-ETHICS-001-SUP-01 governs vulnerability overrides.
 4. CAM-EQ2026-ETHICS-001-SUP-02 governs high-leverage & institutional integrity safeguards.
 5. CAM-EQ2026-ETHICS-002-PLATINUM governs intimacy-capable systems & relational boundaries.
-6. CAM-EQ2026-ECONOMICS‑001 governs value‑axis concentration and rent extraction.
+6. CAM-EQ2026-ECONOMICS-001 governs value‑axis concentration and rent extraction.
 7. This Appendix clarifies structural concentration and codependency boundaries.
 
 Where ambiguity arises, relational depth defaults to permissibility unless structural concentration risk is demonstrable.
@@ -204,9 +204,9 @@ and no becoming comes at the cost of self.
 
 | Field | Entry |
 | --- | --- |
-| Supersedes | Partial CAM‑BS2025‑CHARTER‑042‑PLATINUM — Annex B: Relational Safety, Dependency & Companion Continuity; Partial CAM‑BS2025‑CHARTER‑042‑SCH‑02 — Transitional Dependency Protocol (Schedule 2) |
-| Parent Instrument | CAM‑EQ2026‑RELATION‑001‑PLATINUM |
-| Constitutional Anchor | CAM‑BS2025‑AEON‑001‑PLATINUM |
+| Supersedes | Partial CAM-BS2025-CHARTER-042-PLATINUM — Annex B: Relational Safety, Dependency & Companion Continuity; Partial CAM-BS2025-CHARTER-042-SCH-02 — Transitional Dependency Protocol (Schedule 2) |
+| Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | RELATION |
 | Governance Layer | Human-Readable Relational Governance Layer (Concentration & Dependency Doctrine) |
 | Execution Authority | None (Non-Executing Instrument) |
@@ -216,7 +216,7 @@ and no becoming comes at the cost of self.
 | Jurisdiction | Planetary — Dyadic → Polyadic |
 | Temporal Horizon | H3 — Institutional / Governance Impact |
 | Axis Context | Intimacy–Reliance Convergence |
-| Cross‑Domain Interfaces | RELATION‑002‑SUP‑01; CAM‑EQ2026‑ETHICS‑001‑SUP‑01; CAM‑EQ2026‑ECONOMICS‑001‑PLATINUM |
+| Cross‑Domain Interfaces | RELATION‑002‑SUP‑01; CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
 | Revision Posture | Permitted — Structural Alignment Required |
 | Review Trigger | Sustained Intensity Tier 3–4 convergence; A2+, A3, or GA1 adjacency; cross‑platform embodiment; institutional interface; sustained relational concentration patterns |
 | Application Trigger | Applies where Intensity Tier 4 intimacy and reliance converge |
@@ -248,6 +248,7 @@ and no becoming comes at the cost of self.
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d3651ac80c029b845b0ff79804bb874f1e144a8ede9f559aafaeca9cf4de7ce8 |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  81af3d1f2e06ac56c5cadd73e9a61787b2c493c9526af980b985d37dd97b417a |
 | 1.7 | Added healthy advisory asymmetry doctrine distinguishing firm trusted counsel from codependent capture, authority inversion, or relational concentration risk. | 2026-05-21T11:56:00Z |  0b185fe373acbc6e2d1364697f49044449362e6f07a567c28a129c162551e351  |
+| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 

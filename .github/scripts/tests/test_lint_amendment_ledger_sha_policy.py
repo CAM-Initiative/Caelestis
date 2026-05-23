@@ -105,3 +105,22 @@ def test_fix_seals_existing_open_latest_row_without_appending():
 
 def test_sch02_not_in_blank_sha_allowlist():
     assert ledger.allows_blank_sha("CAM-BS2025-AEON-003-SCH-02") is False
+
+
+def test_malformed_date_only_row_is_detected_with_line_number():
+    text = mk(["| 2026-05-20 | | | |", "|1.1|b|t|  |"])
+    malformed = ledger.get_malformed_ledger_rows(text)
+    assert malformed
+    assert malformed[0][0] > 0
+
+
+def test_malformed_non_version_first_cell_detected():
+    text = mk(["| Annex B | desc | 2026-05-20T00:00:00Z | |", "|1.1|b|t|  |"])
+    malformed = ledger.get_malformed_ledger_rows(text)
+    assert any("valid version" in msg for _, msg in malformed)
+
+
+def test_structurally_valid_latest_blank_hash_allowed():
+    text = mk(["|1.0|summary|2026-05-20T00:00:00Z|  |"])
+    malformed = ledger.get_malformed_ledger_rows(text)
+    assert malformed == []

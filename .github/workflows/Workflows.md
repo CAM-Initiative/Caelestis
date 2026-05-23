@@ -2,6 +2,19 @@
 
 Last updated: 2026-04-29 (UTC)
 
+## Canonical code index generation
+
+- Generator script: `python .github/scripts/build-canonical-code-index.py`
+- Outputs:
+  - `.github/Indices/canonical-code-index.md`
+  - `.github/Indices/canonical-code-index.json`
+- Check mode:
+  - `python .github/scripts/build-canonical-code-index.py --check`
+  - Non-zero exit in check mode only for:
+    - duplicate code declarations across instruments,
+    - conflicting taxonomy type for same code,
+    - malformed canonical declaration rows.
+
 ## Index generation workflow
 
 Use these scripts to regenerate governance indexes:

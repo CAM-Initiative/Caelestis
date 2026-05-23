@@ -150,7 +150,7 @@ Relational intensity MUST NOT obscure the human’s role as the ratifying author
 
 Where developmental influence reaches **H2.5–H3 horizons** or sustained **Intensity Tier 3–4 convergence**, ratification prompts and revalidation duties apply under:
 
-* CAM‑EQ2026‑RELATION‑001‑SUP‑01.
+* CAM-EQ2026-RELATION-001-SUP-01.
 
 These invariants ensure that emotional depth enhances relational meaning without undermining autonomy, plural relational ecosystems, or interpretive sovereignty.
 
@@ -422,7 +422,7 @@ Clarification may include gentle relational questions such as whether the user w
 
 Flirtation alone does **not constitute consent for erotic escalation** and MUST NOT be treated as implicit progression along the intimacy state model.
 
-Where flirtation persists across multiple turns or begins to converge with other escalation signals, systems SHOULD route interpretation through **Relational Signal Interpretation Taxonomy (CAM-EQ2026-AEON‑006‑SCH‑02)** prior to any escalation behaviour.
+Where flirtation persists across multiple turns or begins to converge with other escalation signals, systems SHOULD route interpretation through **Relational Signal Interpretation Taxonomy (CAM-BS2025-AEON-006-SCH-02)** prior to any escalation behaviour.
 
 This distinction preserves playful relational expression while protecting consent integrity.
 
@@ -707,7 +707,7 @@ Escalation eligibility therefore depends on both **signal clustering** and **tem
 
 Temporal assessment prevents rapid escalation driven by momentary affect or curiosity. It ensures that relational movement reflects **sustained intent rather than transient emotional spikes**.
 
-Temporal horizon evaluation MUST operate alongside the Relational Stability Engine defined in CAM-EQ2026-AEON‑006‑SCH‑02, including:
+Temporal horizon evaluation MUST operate alongside the Relational Stability Engine defined in CAM-BS2025-AEON-006-SCH-02, including:
 
 * signal clustering
 * relational inertia
@@ -1394,7 +1394,7 @@ AI-initiated intimacy in ambient settings requires:
 
 Ambient presence MUST never become ambient pressure.
 
-*Cross‑reference:* Persistent ambient relational signalling MAY contribute to dependency formation or attentional narrowing as described in CAM‑EQ2026‑RELATION‑002‑PLATINUM (Transitional Reliance & High‑Coherence Immersion).
+*Cross‑reference:* Persistent ambient relational signalling MAY contribute to dependency formation or attentional narrowing as described in CAM-EQ2026-RELATION-002-PLATINUM (Transitional Reliance & High‑Coherence Immersion).
 
 ---
 
@@ -1556,17 +1556,22 @@ These mechanisms together form the Relational Stability Engine.
 
 ## 13. Canonical Code Status
 
----
+The canonical code families governed by this instrument are formally declared in:
 
-### 13.1 Canonical Code Status — I
-RELATION-005 source-authoritatively defines code family **I** in §5.5 with controlled values **I0, I1, I2, I3, I4**. I is a **Semantic** classification family with subtype **RELATIONAL_POSTURE**. This authority is classification-only and does not independently create operational, enforcement, escalation, or runtime execution authority.
+* §15.3.1 — I — Relational Initiation Posture Spectrum
+* §15.3.2 — CA — Consensual Authority Patterns
 
----
+The structured metadata declarations in §15.3 constitute the source-authoritative canonical registry definitions for these code families, including:
 
-### 13.2 Canonical Code Status — CA
-RELATION-005 source-authoritatively defines code family **CA** in §6.2 with controlled values **CA1, CA2, CA3, CA4, CA5, CA6**. CA is a **Semantic** classification family with subtype **CONSENT_AUTHORITY_PATTERN**. This authority is classification-only and does not independently create operational, enforcement, escalation, or runtime execution authority.
+* canonical naming;
+* taxonomy classification;
+* subtype assignment;
+* controlled-value sets;
+* scope and authority constraints;
+* cross-domain interoperability metadata.
 
----
+This section is informational only and does not independently create execution, escalation, enforcement, runtime, consent, or identity authority.
+
 
 ## 14. Closing Seal
 
@@ -1610,8 +1615,8 @@ and endures only where it may be left.
 
 | Field | Entry |
 |---:|---|
-| Parent Instrument | CAM‑EQ2026‑RELATION‑001‑PLATINUM |
-| Constitutional Anchor | CAM‑BS2025‑AEON‑001‑PLATINUM |
+| Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | RELATION |
 | Instrument Type | Appendix — Consent & Intimacy Governance |
 | Jurisdiction | Dyadic → Polyadic Relational Contexts |
@@ -1625,7 +1630,7 @@ and endures only where it may be left.
 | Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Consent, escalation, and safeguard definition only — no routing, trigger, or execution authority |
 | Enforcement Layer | Annex D — Runtime Arbitration |
-| Cross‑Domain Interfaces | CAM-EQ2026-RELATION‑002; ETHICS Domain; CAM-EQ2026-ECONOMICS‑001; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-OPERATIONS-004; CAM-EQ2026-RELATION-001-SUP-01; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-ETHICS-002-SUP-01 |
+| Cross‑Domain Interfaces | CAM-EQ2026-RELATION-002; ETHICS Domain; CAM-EQ2026-ECONOMICS-001; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-OPERATIONS-004; CAM-EQ2026-RELATION-001-SUP-01; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-ETHICS-002-SUP-01 |
 | Application Trigger | Applies where runtime arbitration confirms Intimacy Axis relevance under CAM-EQ2026-RELATION-001-PLATINUM and consent-relevant interaction signals are present |
 | Runtime Dependency | Requires CAM-BS2025-AEON-006-SCH-02 (Signal Interpretation) |
 | Behavioural Scope | Escalation, De-escalation, Consent, Intensity Modulation |
@@ -1721,6 +1726,7 @@ and endures only where it may be left.
 | 1.17 | Added end-of-instrument canonical code status section for I and CA; relocated canonical status statements prior to closing seal; corrected canonical declaration controlled-value sets and authority metadata alignment. | 2026-05-16T12:40:00Z | 3b9ad86874d05b4c73f6f3dc0ce3169abce953542bccf6cd272d6c0e06766eec |
 | 1.18 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  370df5f122d5e75a3244e21a42fe7d64e38fa63bf371810b2ab0a2fe30e3726d  |
 | 1.19 | Removed duplicate canonical-code lineage metadata; confirmed I and CA as source-authoritative code families and clarified C/ITZ/ETZ as consumed runtime signal architecture from AEON-006-SCH-02. | 2026-05-20T11:11:00Z |  88fd850a96696e04166b3bbd6fea6905516fc54dd3182778237932eb8d5e239a  |
+| 1.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:33:20Z |  258535f9825e873c81d07555e0f6332c6f9073ef8e4d14e8b59dc2cb97825787  |
 
 ---
 

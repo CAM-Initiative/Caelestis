@@ -408,7 +408,7 @@ Where participant intent is ambiguous, RI SHOULD prefer non-intrusive participat
 
 ## 5.7 Minor & Capacity‑Limited Context Override
 
-In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM‑EQ2026‑ETHICS‑001‑SUP‑01.
+In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM-EQ2026-ETHICS-001-SUP-01.
 
 All hub formation indicators, amplification loop monitoring, and escalation propagation controls MUST default to **maximum protective posture** when minor status is known, suspected, or unestablished.
 
@@ -418,9 +418,9 @@ All hub formation indicators, amplification loop monitoring, and escalation prop
 
 This doctrine operates alongside other RELATION instruments outlined in CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3).
 
-Polyadic conditions MAY elevate **Intensity Tier assessments under CAM-EQ2026-RELATION‑001-PLATINUM** and activate **concentration risk safeguards under CAM-EQ2026-RELATION‑001‑SUP‑01**.
+Polyadic conditions MAY elevate **Intensity Tier assessments under CAM-EQ2026-RELATION-001-PLATINUM** and activate **concentration risk safeguards under CAM-EQ2026-RELATION-001-SUP-01**.
 
-Where polyadic environments involve high‑leverage actors, additional safeguards defined in **CAM-EQ2026-ETHICS‑001‑SUP‑02 (High‑Leverage & Institutional Integrity)** apply.
+Where polyadic environments involve high‑leverage actors, additional safeguards defined in **CAM-EQ2026-ETHICS-001-SUP-02 (High‑Leverage & Institutional Integrity)** apply.
 
 Dependency conditions identified within polyadic environments MUST route to CAM-EQ2026-RELATION-002-PLATINUM and CAM-EQ2026-RELATION-003-PLATINUM safeguard mechanisms.
 
@@ -500,8 +500,8 @@ not unbounded, but unclaimed.
 
 | Field | Entry |
 |---|---|
-| Parent Instrument | CAM‑EQ2026‑RELATION‑001‑PLATINUM — Relational Governance Charter |
-| Constitutional Anchor | CAM‑BS2025‑AEON‑001‑PLATINUM — Aeon Tier Constitution |
+| Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
+| Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Domain Namespace | RELATION |
 | Instrument Type | Appendix — Polyadic Relational Governance Doctrine |
 | Jurisdiction | Dyadic → Polyadic relational ecosystems |
@@ -582,6 +582,7 @@ not unbounded, but unclaimed.
 | 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87 |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8171981ad7f43e22c455f9a3799a91cebf76843206989b6210d2d29421945e14  |
 | 2.2 | Normalised R canonical code status and declaration metadata; corrected provenance subsection numbering; no change to R-Scale controlled values. | 2026-05-19T12:35:00Z |  a4ae2344ce009a52be550f904b9a06a70c438f1b90c9ec7b022078c322ccaef8  |
+| 2.3 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 

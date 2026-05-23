@@ -567,6 +567,7 @@ Representative scripts:
 
 ```text
 .github/scripts/build-symbolic-structures-index.py
+.github/scripts/build-canonical-code-index.py
 .github/scripts/lint-symbolic-structures.py
 ```
 
@@ -577,7 +578,10 @@ Validate symbolic structure declarations, canonical code metadata, prefix collis
 Validator / index generator.
 
 **Mutation Scope:**
-The builder may update generated symbolic index files, usually under `.github/Indices/`.
+Builders may update generated index files under `.github/Indices/`.
+`build-canonical-code-index.py` is read-only for governance corpus documents and only writes:
+- `.github/Indices/canonical-code-index.md`
+- `.github/Indices/canonical-code-index.json`
 The linter should not mutate files.
 
 **Protected Invariants:**
@@ -619,6 +623,8 @@ The linter should not mutate files.
 
 ```bash
 python .github/scripts/build-symbolic-structures-index.py
+python .github/scripts/build-canonical-code-index.py
+python .github/scripts/build-canonical-code-index.py --check
 python .github/scripts/lint-symbolic-structures.py
 git status --short
 ```

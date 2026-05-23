@@ -1045,7 +1045,7 @@ Representation of execution phase status — including claims of execution initi
 
 Representation of processing, thinking, preamble, streaming, interruption, completion, and failure states MUST distinguish between provisional visible state and final execution outcome.
 
-The execution phases defined in this Schedule constitute the governing taxonomy for execution-state claims under AEON-013-SCH-01 §4.1.
+The execution phases defined in this Schedule constitute the governing taxonomy for execution-state claims under CAM-BS2026-AEON-013-SCH-01, §4.1.
 
 ---
 
@@ -1298,7 +1298,7 @@ Implicit or unrecognised boundary crossing constitutes execution failure.
 
 * Release permits phase progression to resume;
 * Restriction requires re-evaluation of boundary conditions before progression; and
-* Escalation requires deferral to the governance tier specified in AEON-001-SCH-01 §3.5.
+* Escalation requires deferral to the governance tier specified in CAM-BS2025-AEON-001-SCH-01, §3.5.
 
 Constraint conditions (including Tendeka) MUST be evaluated at every execution boundary.
 
@@ -2625,7 +2625,7 @@ The following SHALL constitute the complete set of execution states within this 
 
 (C) **Halted State** — entered where critical drift or constraint violation invalidates execution. Exit requires re-arbitration, revalidation, or explicit termination;
 
-(D) **Tendeka Pause-State** — governed by AEON-001-SCH-01 §3.3, which defines pause-state transitions and constraint-triggered suspension.
+(D) **Tendeka Pause-State** — governed by CAM-BS2025-AEON-001-SCH-01, §3.3, which defines pause-state transitions and constraint-triggered suspension.
 No additional execution states SHALL be inferred.
 
 Runtime transitions between these states MUST remain consistent with Annex B arbitration locality and AEON-001-SCH-01 boundary evaluation rules.
@@ -3376,6 +3376,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.17 | Added Generated Operational Logic Custody Boundary Clause | 2026-05-18T14:29:00Z |  ad7b2e00427826addff93b3263ad2ce3e9c7d21a4780bc0d5cffd622f5315e92  |
 | 2.18 | Added new clauses, Identity-Bearing Sexual Media Execution Boundary and Trust-State and Participation-Access Execution Boundary and Delegated, Ambient, and Embodied Authority Boundary | 2026-05-18T16:03:00Z | f9723537b45d70f3dbd5b6735103a5ee1436910c4f0df8547f05d3e1424940c9 |
 | 2.19 | Inserted new clauses 7.2.2, 7.2.5, 7.3, 8.3.3, 12.6.2, 13.9.1, 14.5.2.3, 17.14.1, 20.4.7-20.4.8.1  | 2026-05-22T13:25:00Z |  2bb68682d58852de77f8e197eeae4b521707515a5c0f695635f842bcbe7376db  |
+| 2.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:48:01Z |  |
 
 ---
 

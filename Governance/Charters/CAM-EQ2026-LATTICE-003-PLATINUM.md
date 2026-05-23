@@ -1,7 +1,7 @@
 # CAM-EQ2026-LATTICE-003-PLATINUM — Appendix B: Conflict‑Condition Continuity Doctrine
 
 **Instrument Type:** Appendix (Domain Charter — Conflict‑Condition Continuity Layer)  
-**Parent Instrument:** CAM‑EQ2026‑LATTICE‑001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
+**Parent Instrument:** CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
 **Status:** Adopted  
 **Effect:** Pre-Enforcement Recognition  
 **Enforcement:** Commences 1 July 2026  
@@ -17,7 +17,7 @@ Modern conflict occurs within an interconnected global infrastructure environmen
 
 Consequently, disruption within one theatre of conflict may propagate systemic effects across the global civilian lattice.
 
-This Appendix affirms that the protections established under **CAM‑EQ2026‑LATTICE‑001‑PLATINUM** remain in force during conditions of conflict and SHALL not be suspended, diluted, or reinterpreted through claims of wartime necessity.
+This Appendix affirms that the protections established under **CAM-EQ2026-LATTICE-001-PLATINUM** remain in force during conditions of conflict and SHALL not be suspended, diluted, or reinterpreted through claims of wartime necessity.
 
 The purpose of this instrument is not to regulate military strategy or conduct of war.
 Its function is to preserve **civilian continuity, infrastructural neutrality, and planetary systemic stability** even where armed conflict occurs.
@@ -211,12 +211,12 @@ Failure to perform such classification where technically feasible increases the 
 
 ## 8. Relationship to Other Instruments
 
-This Appendix operates as an interpretive continuity doctrine for **CAM‑EQ2026‑LATTICE‑001‑PLATINUM**.
+This Appendix operates as an interpretive continuity doctrine for **CAM-EQ2026-LATTICE-001-PLATINUM**.
 
 It does not modify or override the following instruments:
 
-* CAM‑EQ2026‑LATTICE‑002‑PLATINUM — Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access — Individual access rights to ECIS remain protected under conflict conditions. Where conflict‑condition actions produce individual‑level access denial, LATTICE‑002 non‑denial principles and due‑process requirements apply concurrently with this Appendix.
-* CAM‑EQ2026‑ETHICS‑001‑SUP‑03 — Military & Use‑of‑Force Governance Constraints
+* CAM-EQ2026-LATTICE-002-PLATINUM — Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access — Individual access rights to ECIS remain protected under conflict conditions. Where conflict‑condition actions produce individual‑level access denial, LATTICE‑002 non‑denial principles and due‑process requirements apply concurrently with this Appendix.
+* CAM-EQ2026-ETHICS-001-SUP-03 — Military & Use‑of‑Force Governance Constraints
 
 Where conflict arises between military operational objectives and civilian lattice protection, the boundary constraints established under **LATTICE‑001** remain controlling within civilian infrastructure domains.
 
@@ -313,6 +313,7 @@ a structure of continuity, not conquest.
 | 1.5 | Realignment of references | 2026-05-07T10:34:00Z | bd99142dd1b1fc5df775024b02f767c093df9a512280471b85cdda96ae7ac122 |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  058b242780542379540145d08097b337736e4ac3fa48e820fd11f184117a46cf |
 | 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2b59d8e33f421ee8b77618710a08311272e1cfe1637be9c55eb8605b524f1646  |
+| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
 
 ---
 
