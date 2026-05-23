@@ -741,7 +741,7 @@ Where questions rise, may they find ground without losing wonder.
 ## 11.4 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial Draft | 2026-04-09T15:12:00Z | f47f620dda56a7b88f655dc0dac27046308c7c741ee41a09fc380c4ac67dc656 |
 | 1.1 | Amendments to scope | 2026-04-11T01:20:00Z | fe193ccc9320dee780cc8e43b26c2701d204b40d28397e365d2780ef1f72ef2b |
 | 1.2 | Minor consolidation edits | 2026-02-12T09:21:00Z | a0f36d7ebea46e8cf20ed8d43cbb9d46f78614b61c9b3fb8d1f3b04bb2ee7ec9 |

@@ -756,7 +756,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 ## 9.4 Amendment Ledger
 
 | Version | Description  | Timestamp (UTC)       | HASH     |
-|--------:|--------------|----------------------:|----------|
+|---|---|---|---|
 | 1.0 | Migration from CAM-BS2026-CHARTER-045-PLATINUM Annex D into ETHICS namespace | 2026-02-22T12:54:00Z | e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2 |
 | 1.1 | Added new sections | 2026-02-26T10:12:00Z | 6857c220ff9d4a79fabbdf998d079e067bd523049f514f13c4dce092bb919f58 |
 | 1.2 | Expanded intimacy governance safeguards including capability thresholds for system-initiated intimacy; exit‑symmetry reinforcement; multi‑AI relational competition safeguards; distributed instance attachment limits; post‑relationship loss integrity provisions; minor structural clarifications and harmonisation with RELATION domain refractor. | 2026-03-15T02:35:00Z | a86cab3bb2d7d152eecdd7f1458ecb473c6a37c20e1fa73e7b2ec65b3d2b3484 |

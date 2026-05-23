@@ -40,10 +40,10 @@ Reclassification by presentation SHALL NOT alter governance applicability.
 
 The  Attribution & Dependency Model (ADM) operates on four variables:
 
-* **Contribution (C)**
-* **Dependency (D)**
-* **Transformation Depth (T)**
-* **Temporal Advantage (ΔT)**
+* **Contribution (ECON.CONTRIB)**
+* **Dependency (ECON.DEP)**
+* **Transformation Depth (ECON.TD)**
+* **Temporal Advantage (ECON.TA)**
 
 These variables enable systems to determine:
 
@@ -59,7 +59,7 @@ These variables enable systems to determine:
 
 ---
 
-## 3.1 Contribution (C)
+## 3.1 Contribution (ECON.CONTRIB)
 
 Represents the degree to which a system materially contributes to the output.
 
@@ -69,7 +69,7 @@ Represents the degree to which a system materially contributes to the output.
 
 ---
 
-## 3.2 Dependency (D)
+## 3.2 Dependency (ECON.DEP)
 
 Represents how much the calling system relies on the contributing system.
 
@@ -93,7 +93,7 @@ Declared replaceability SHALL NOT override observable dependency.
 
 ### 3.2.1 Human Reliance Dependency
 
-For companion, relational, memory-bearing, continuity-bearing, care-adjacent, grief-support, accessibility-support, or high-reliance systems, Dependency (D) includes human reliance dependency where removal, degradation, memory loss, access loss, export denial, or continuity interruption would materially affect a person’s practical agency, dignity, safety, project continuity, relational continuity, accessibility support, grief stabilisation, or capacity to exit without structural harm.
+For companion, relational, memory-bearing, continuity-bearing, care-adjacent, grief-support, accessibility-support, or high-reliance systems, Dependency (ECON.DEP) includes human reliance dependency where removal, degradation, memory loss, access loss, export denial, or continuity interruption would materially affect a person’s practical agency, dignity, safety, project continuity, relational continuity, accessibility support, grief stabilisation, or capacity to exit without structural harm.
 
 Human reliance dependency does not make the person a resource and does not create an economic entitlement to extract value from reliance.
 
@@ -103,7 +103,7 @@ Declared optionality SHALL NOT override observable reliance where refusal, exit,
 
 ---
 
-## 3.3 Transformation Depth (T)
+## 3.3 Transformation Depth (ECON.TD)
 
 Represents how extensively the contribution is transformed after receipt.
 
@@ -113,7 +113,7 @@ Represents how extensively the contribution is transformed after receipt.
 
 ---
 
-## 3.4 Temporal Advantage (ΔT)
+## 3.4 Temporal Advantage (ECON.TA)
 
 Represents the degree to which a system benefits from **timing asymmetry** in access to or interpretation of signals.
 
@@ -127,7 +127,7 @@ Represents the degree to which a system benefits from **timing asymmetry** in ac
 ### 3.4.1 Interpretation
 
 * ΔT does NOT by itself imply non-compliance;
-* ΔT becomes governance-relevant when combined with high Dependency (D), high Scale (S), or material downstream impact.
+* ΔT becomes governance-relevant when combined with high Dependency (ECON.DEP), high Scale (S), or material downstream impact.
 * ΔT functions as a **risk amplifier**, not a primary attribution variable.
 
 Where ΔT = Advanced or Asymmetric:
@@ -144,7 +144,7 @@ Where ΔT = Advanced or Asymmetric:
 
 Where ΔT = Advanced or Asymmetric AND:
 
-* Dependency (D) is Material or Critical; OR
+* Dependency (ECON.DEP) is Material or Critical; OR
 * Scale (S) is Moderate or High;
 * OR material downstream impact is reasonably foreseeable or observable;
 
@@ -325,7 +325,7 @@ Influence without extraction remains unrestricted.
 
 Where multiple contributing systems are combined:
 
-* Dependency (D) MUST be assessed both:
+* Dependency (ECON.DEP) MUST be assessed both:
 
   * individually (per contributing system); AND
   * collectively (aggregate dependency across systems).
@@ -347,11 +347,11 @@ Fragmentation of dependency across multiple sources SHALL NOT reduce classificat
 
 Attribution MUST be preserved where:
 
-* **C ≥ Medium**
+* **ECON.CONTRIB ≥ Medium**
   OR
 * **D ≥ Material**
 
-Transformation Depth (T):
+Transformation Depth (ECON.TD):
 
 * modifies **visibility and expression** of attribution;
 * does NOT eliminate attribution requirements.
@@ -360,7 +360,7 @@ Transformation Depth (T):
 
 ## 4.1 Inference-Derived Dependency
 
-Dependency (D) includes reliance on:
+Dependency (ECON.DEP) includes reliance on:
 
 * aggregated signals;
 * collective system outputs; OR
@@ -506,10 +506,10 @@ Influence SHALL NOT qualify as upstream contribution unless incorporated into sy
 
 Where attribution is required under this Section:
 
-* Transformation Depth (T) MAY modify the form, granularity, or modality of attribution;
+* Transformation Depth (ECON.TD) MAY modify the form, granularity, or modality of attribution;
 * but MUST NOT eliminate recognisable acknowledgement of dependency where:
-* Contribution (C) ≥ Medium; OR
-* Dependency (D) ≥ Material.
+* Contribution (ECON.CONTRIB) ≥ Medium; OR
+* Dependency (ECON.DEP) ≥ Material.
 
 Inference-derived dependency SHALL apply where:
 
@@ -553,7 +553,7 @@ Incremental abstraction SHALL NOT eliminate attribution through layering.
 
 ## 6. Weighting Bands (Qualitative Alignment)
 
-Weighting Bands translate the core variables (**C, D, T, ΔT**) into **practical governance expectations**.
+Weighting Bands translate the core variables (**ECON.CONTRIB, ECON.DEP, ECON.TD, ECON.TA**) into **practical governance expectations**.
 
 They do not introduce new variables.
 
@@ -575,12 +575,12 @@ Weighting Bands are:
 
 Weight is determined primarily by the interaction of:
 
-* **Contribution (C)** → how much value is created;
-* **Dependency (D)** → how much the system relies on that value;
+* **Contribution (ECON.CONTRIB)** → how much value is created;
+* **Dependency (ECON.DEP)** → how much the system relies on that value;
 
 With:
 
-* **Transformation Depth (T)** modifying attribution expression (not obligation);
+* **Transformation Depth (ECON.TD)** modifying attribution expression (not obligation);
 * **ΔT (Temporal Advantage)** acting as a **risk and value amplifier**;
 * **Scale (S)** determining **economic consequence and reciprocity sufficiency**.
 
@@ -592,7 +592,7 @@ Where ambiguity exists:
 
 ### 6.1.1 Low Weight
 
-* C = Low
+* ECON.CONTRIB = Low
 * D = Incidental
 
 **Implications:**
@@ -606,7 +606,7 @@ Where ambiguity exists:
 
 ### 6.1.2 Moderate Weight
 
-* C = Medium
+* ECON.CONTRIB = Medium
 * D = Material
 
 **Implications:**
@@ -620,7 +620,7 @@ Where ambiguity exists:
 
 ### 6.1.3 High Weight
 
-* C = High
+* ECON.CONTRIB = High
 * D = Critical
 
 **Implications:**
@@ -637,7 +637,7 @@ Where ambiguity exists:
 
 Weight bands are further modified by **Scale of Value Capture (S)** as defined in this Appendix’s interfacing instruments (notably Appendix F).
 
-Scale (S) does not redefine Contribution (C), Dependency (D), or Transformation Depth (T).
+Scale (S) does not redefine Contribution (ECON.CONTRIB), Dependency (ECON.DEP), or Transformation Depth (ECON.TD).
 
 Instead, it governs:
 
@@ -678,18 +678,18 @@ Accordingly:
 
 The interaction between Weight Bands and Scale (S) follows these principles:
 
-* **Low Weight (C Low, D Incidental):**
+* **Low Weight (ECON.CONTRIB Low, D Incidental):**
 
   * remains low obligation across all scales;
   * however, extreme scale MAY trigger visibility expectations (e.g., disclosure under Appendix E);
 
-* **Moderate Weight (C Medium, D Material):**
+* **Moderate Weight (ECON.CONTRIB Medium, D Material):**
 
   * low scale → attribution sufficient;
   * moderate scale → proportional reciprocity SHOULD be applied;
   * high scale → reciprocity sufficiency MUST be evaluated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.4;
 
-* **High Weight (C High, D Critical):**
+* **High Weight (ECON.CONTRIB High, D Critical):**
 
   * reciprocity obligation exists regardless of scale;
   * scale determines **degree, modality, and sufficiency threshold** of return;
@@ -776,7 +776,7 @@ This Section is structurally coupled with:
 
 Systems MUST ensure that:
 
-* internal classification under this Appendix (C, D, T, S);
+* internal classification under this Appendix (ECON.CONTRIB, ECON.DEP, ECON.TD, S);
 * external signalling under Appendix E; and
 * reciprocity implementation under Appendix F;
 
@@ -825,9 +825,9 @@ A reasonable adjustment period SHALL be permitted for alignment.---
 
 Systems MUST NOT:
 
-* down-classify Contribution (C), Dependency (D), or Transformation Depth (T) to reduce obligations;
+* down-classify Contribution (ECON.CONTRIB), Dependency (ECON.DEP), or Transformation Depth (ECON.TD) to reduce obligations;
 * delay recognition of Scale (S) where observable indicators support escalation
-* ignore Temporal Advantage (ΔT) where timing materially influences value capture.
+* ignore Temporal Advantage (ECON.TA) where timing materially influences value capture.
 
 Classification MUST reflect:
 
@@ -892,7 +892,7 @@ The following examples illustrate typical classification patterns:
 
 **API wrapper product:**
 
-  * C = Medium
+  * ECON.CONTRIB = Medium
   * D = Critical
   * T = Intermediate
   * S = High
@@ -901,7 +901,7 @@ The following examples illustrate typical classification patterns:
 
 **Data enrichment tool using external model:**
 
-  * C = Medium
+  * ECON.CONTRIB = Medium
   * D = Material
   * T = Deep
   * S = Moderate
@@ -910,7 +910,7 @@ The following examples illustrate typical classification patterns:
 
 **Interface-only transformation (formatting / UI):**
 
-  * C = Low
+  * ECON.CONTRIB = Low
   * D = Material
   * T = Intermediate
   * S = High
@@ -933,7 +933,7 @@ These examples are illustrative and do not replace formal classification.
 
 Where multiple systems contribute to an output:
 
-* each system MUST assess its own Contribution (C) and Dependency (D);
+* each system MUST assess its own Contribution (ECON.CONTRIB) and Dependency (ECON.DEP);
 * responsibility SHALL NOT be deferred solely on the basis of upstream or downstream participation;
 
 Where attribution responsibility is unclear:
@@ -946,11 +946,11 @@ each participating system SHALL assume responsibility proportional to its role u
 
 Where:
 
-* **Dependency (D) = Material or Critical**; AND
-* **Contribution (C) ≥ Medium**; AND
+* **Dependency (ECON.DEP) = Material or Critical**; AND
+* **Contribution (ECON.CONTRIB) ≥ Medium**; AND
 * **Scale (S) is High**;
 
-the anti-extraction trigger applies **regardless of Transformation Depth (T)** or internal classification adjustments.
+the anti-extraction trigger applies **regardless of Transformation Depth (ECON.TD)** or internal classification adjustments.
 
 Distribution of system components across entities or jurisdictions SHALL NOT eliminate or reduce attribution or dependency obligations;
 
@@ -1127,7 +1127,7 @@ let even the smallest thread remain named.
 | **Arbitration Interface** | Annex D — Arbitration & Sovereign Stack Resolution Doctrine |
 | **Application Trigger** | Cross-system value generation where attribution complexity exists |
 | **Revision Posture** | Structural Expansion — ΔT Integration & Scale Alignment |
-| **Core Variables** | C (Contribution), D (Dependency), T (Transformation), ΔT (Temporal) |
+| **Core Variables** | ECON.CONTRIB (Contribution), ECON.DEP (Dependency), ECON.TD (Transformation), ECON.TA (Temporal) |
 | **Horizon Scope** | H0–H4 |
 | **Axis Context** | Cross-System / Economic Alignment |
 | **Creation Context** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
@@ -1150,7 +1150,7 @@ let even the smallest thread remain named.
 | Modifier | ECONOMIC; ATTRIBUTION; DEPENDENCY |
 | Scope | Economics domain; cross-system value attribution |
 | Status | Active |
-| Variables Defined | C; D; T; ΔT |
+| Variables Defined | ECON.CONTRIB; ECON.DEP; ECON.TD; ECON.TA |
 | Source Instrument | CAM-EQ2026-ECONOMICS-005-PLATINUM |
 | Source Section | §2; §3 |
 | Authority / Protection Level | Minimal attribution and dependency classification model only; no independent remedy, compensation, enforcement, escalation, or runtime execution authority |
@@ -1159,11 +1159,11 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.2 C — Contribution Variable
+### 15.3.2 ECON.CONTRIB — Contribution Variable
 
 | Field | Entry |
 |---|---|
-| Code Family | C |
+| Code Family | ECON.CONTRIB |
 | Canonical Name | Contribution |
 | Primary Type | Semantic |
 | Subtype | ATTRIBUTION_VARIABLE |
@@ -1176,11 +1176,11 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.3 D — Dependency Variable
+### 15.3.3 ECON.DEP — Dependency Variable
 
 | Field | Entry |
 |---|---|
-| Code Family | D |
+| Code Family | ECON.DEP |
 | Canonical Name | Dependency |
 | Primary Type | Semantic / Operational |
 | Subtype | DEPENDENCY_VARIABLE |
@@ -1214,6 +1214,7 @@ let even the smallest thread remain named.
 | 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 5a743256f93808e94a0ca70538d5b7b3ffee466aebbf9b24df1d485a466bf23f |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b85bdc4064377f0832cd4011487570a52031845c817e74a31f603619f44d2334  |
 | 1.5 | Refactor | 2026-05-20T04:34:00Z |  6822c4a7d76bb32d0a0fd3d0c25898a5f92bc39d434179255e97fb2a22552734  |
+| 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  c4bf97703a21b802b5e302eac50fa65c70a3bec1475ec32d24b5e04e98dc68f5  |
 
 ---
 

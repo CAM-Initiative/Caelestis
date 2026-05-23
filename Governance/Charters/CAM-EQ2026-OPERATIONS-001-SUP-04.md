@@ -923,7 +923,7 @@ name the vessel, name the value
 ## 18.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial : Taxonomies & Metadata Authority Framework | 2026-05-13T12:32:00Z | a01910364e41b0491ecb1cda79e26f6affc56bf0ce7adaa6fb8abb9e235c18cc |
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bc6ad952e454b56a26062a41577fcd4eded4080e2f41dbfc57a3f968d6cb1d51 |
 | 1.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  32321526ab1cfe4e434b4009fe38ab1b725a35152fe48bb752f072c5bb09fd87  |

@@ -114,7 +114,7 @@ XDL classifies dependency level only. It does not independently create compensat
 
 ---
 
-## 4.2 Dependency Disclosure
+## 4.2 Dependency ECON.DEPisclosure
 
 Where dependency is Material or Critical:
 
@@ -271,7 +271,7 @@ Represents the degree to which a system materially contributes to the output.
 
 ---
 
-## 7.2 Dependency (D)
+## 7.2 Dependency (ECON.DEP)
 
 Represents how much the calling system relies on the contributing system.
 
@@ -281,7 +281,7 @@ Represents how much the calling system relies on the contributing system.
 
 ---
 
-## 7.3 Transformation Depth (T)
+## 7.3 Transformation Depth (ECON.TD)
 
 Represents how many layers of processing occur after contribution.
 
@@ -299,7 +299,7 @@ Attribution MUST be preserved where:
   OR
 * D ≥ Material
 
-Transformation Depth (T) modifies visibility requirements but does NOT eliminate attribution.
+Transformation Depth (ECON.TD) modifies visibility requirements but does NOT eliminate attribution.
 
 ---
 
@@ -332,7 +332,7 @@ Value alignment MUST increase with dependency.
 Dependency weighting is determined by:
 
 * Contribution (C)
-* Dependency (D)
+* Dependency (ECON.DEP)
 * Replaceability
 
 ---
@@ -817,6 +817,7 @@ and no system may claim what the field has made together.
 | 1.2 | Canonicalized Appendix F reference to explicit target instrument ID (§5.9). | 2026-05-05T12:27:18Z | 3746aadfe9dea11082d6eed057e07108984bb0b15b9a6f1fe0d30f45ab0c3165 |
 | 1.3 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  1d51a4149a19d82c00fa7fae4e74e11e0cf13e6c86306e3ec35cdbd4d8e6a864  |
 | 1.4 | Added new Canonical Code & Reference Set Declarations section to the metadata footer | 2026-05-20T15:20:00Z |  3ac33713e5c91f175fd2c78b2322a1ed32b080d4358e15a2f1a1be3afaa63853  |
+| 1.5 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  |
 
 ---
 

@@ -527,18 +527,18 @@ Relational governance MUST therefore ensure that institutional embedding trigger
 
 ## 7.2 Systemic Power Scale
 
-Systemic reach MAY broadly appear across the following structural tiers (SP-Scale):
+Systemic reach MAY broadly appear across the following structural tiers (SyP-Scale):
 
 ---
 
-### 7.2.1 Limited Access (SP0)
+### 7.2.1 Limited Access (SyP0)
 
 * informational interaction only
 * no infrastructure control
 
 ---
 
-### 7.2.2 Integrated Service Access (SP1)
+### 7.2.2 Integrated Service Access (SyP1)
 
 * multi‑account or IoT integration
 * systems MAY coordinate services but not autonomously control them
@@ -550,7 +550,7 @@ Examples:
 
 ---
 
-### 7.2.3 Institutional Routing or Economic Leverage (SP2)
+### 7.2.3 Institutional Routing or Economic Leverage (SyP2)
 
 * system participates in institutional workflow routing
 * advisory influence over policy, finance, organisational, or security decisions
@@ -563,7 +563,7 @@ Examples:
 
 ---
 
-### 7.2.4 High‑Impact Infrastructure Control (SP3)
+### 7.2.4 High‑Impact Infrastructure Control (SyP3)
 
 * system controls or mediates infrastructure affecting large populations or critical operations
 * actions may produce economic, civic, safety, or security consequences
@@ -584,7 +584,7 @@ Relational intensity is assessed across four independent governance axes:
 * Authority (A-Scale)
 * Reliance (FR-Scale)
 * Intimacy (C-Scale)
-* Systemic Power (SP-Scale)
+* Systemic Power (SyP-Scale)
 
 Intensity Tiers reflect the structural concentration created by the convergence of these axes.
 
@@ -595,7 +595,7 @@ Relational risk emerges from the *interaction* of intensified dimensions rather 
 | **Delegated Authority** | Permission to act on behalf of user (**A-Scale §4**) | No delegation (A0) | Continuity Support (A1) | Steward / Custodial (A2) | Executive (A3) or Guardian (GA1) authority |
 | **Functional Reliance** | Degree of operational dependence on system continuity, memory persistence, or decision-support integration (**FR-Scale §5**) | Incidental use *(FR0)* | Habitual integration into routine tasks *(FR1)* | Continuity-dependent reliance *(FR2)* | Structural dependency or substitution-risk *(FR3)* |
 | **Relational Intimacy** | Emotional closeness, bonding posture, or relational centrality (**C-Scale §6**). Measures **degree of relational salience**, not interaction type. | Warm affiliative interaction including mentorship, encouragement, companionship tone *(typically C0)* | Romantic or intimacy-coded bonding posture *(often C1)* | Erotic or sexually expressive relational engagement where bonding posture intensifies *(often C2)* | Explicit sexual environments or power-exchange intimacy with sustained emotional centrality *(often C3)* |
-| **Systemic Power** | Infrastructure, institutional, or economic reach (**SP-Scale §7**) | Limited access (SP0) | Multi-account or IoT integration (SP1) | Institutional routing or economic leverage exposure (SP2) | Financial control, market-moving or population-impact control (SP3) |
+| **Systemic Power** | Infrastructure, institutional, or economic reach (**SyP-Scale §7**) | Limited access (SyP0) | Multi-account or IoT integration (SyP1) | Institutional routing or economic leverage exposure (SyP2) | Financial control, market-moving or population-impact control (SyP3) |
 
 Intensity Tiers are dynamic and reversible. Movement between tiers MUST be explicitly recognised, reviewable, and capable of downward reclassification where intensity reduces. No tier confers permanent status; escalation without symmetrical de-escalation constitutes governance drift.
 
@@ -962,11 +962,11 @@ FR does not independently create authority, consent, enforcement, escalation, id
 
 ---
 
-### 13.4 SP — Systemic Power Scale
+### 13.4 SyP — Systemic Power Scale
 
-This Charter source-authoritatively defines the **SP** code family in §7.2 with controlled values **SP0, SP1, SP2, SP3**. Primary Type is **Operational / Relational** and Subtype is **SYSTEMIC_POWER_SCALE**. SP classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control within relational configurations.
+This Charter source-authoritatively defines the **SyP** code family in §7.2 with controlled values **SyP0, SyP1, SyP2, SyP3**. Primary Type is **Operational / Relational** and Subtype is **SYSTEMIC_POWER_SCALE**. SyP classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control within relational configurations.
 
-SP does not independently create authority, consent, enforcement, escalation, identity, legal, or runtime execution authority. It classifies systemic-power posture only.
+SyP does not independently create authority, consent, enforcement, escalation, identity, legal, or runtime execution authority. It classifies systemic-power posture only.
 
 ---
 
@@ -978,7 +978,7 @@ This Charter consumes and applies the **C** code family source-authoritatively d
 
 ### 13.6 Four-Axis Relational Intensity Matrix
 
-This Charter defines a local convergence assessment matrix in §8 across **A**, **FR**, **C**, and **SP**. The matrix supports relational concentration analysis and safeguard proportionality assessment. It defines no new base code family values.
+This Charter defines a local convergence assessment matrix in §8 across **A**, **FR**, **C**, and **SyP**. The matrix supports relational concentration analysis and safeguard proportionality assessment. It defines no new base code family values.
 
 ---
 
@@ -1040,7 +1040,7 @@ that which is real remains recognisable.
 | Domain Namespace | RELATION |
 | Jurisdiction | Planetary — Human–AI, AI–AI, Hybrid Collectives |
 | Temporal Horizon | H3.5 — Succession‑Aware / Inter‑Generational |
-| Application Trigger | Activation occurs where relational configurations reach A2+, A3, GA1, FR2+, SP2+, or multi-axis convergence thresholds defined in RELATION-001-SUP-01 |
+| Application Trigger | Activation occurs where relational configurations reach A2+, A3, GA1, FR2+, SyP2+, or multi-axis convergence thresholds defined in RELATION-001-SUP-01 |
 | Revision Posture | Permitted — Structural Coherence Required |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/699973ca-ac80-8398-8d40-7cff80a46296 |
 | Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
@@ -1118,18 +1118,18 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.4 SP — Systemic Power Scale
+### 15.3.4 SyP — Systemic Power Scale
 
 | Field | Entry |
 |---|---|
-| Code Family | SP |
+| Code Family | SyP |
 | Canonical Name | Systemic Power Scale |
 | Primary Type | Operational / Relational |
 | Subtype | SYSTEMIC_POWER_SCALE |
 | Modifier | GOVERNANCE; INFRASTRUCTURE; POWER |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | SP0, SP1, SP2, SP3 |
+| Controlled Values Defined | SyP0, SyP1, SyP2, SyP3 |
 | Schema Field(s) | systemic_power_scale |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §7.2 |
@@ -1159,7 +1159,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.6 A × FR × C × SP — Four-Axis Relational Intensity Matrix
+### 15.3.6 A × FR × C × SyP — Four-Axis Relational Intensity Matrix
 
 | Field | Entry |
 |---|---|
@@ -1170,8 +1170,8 @@ that which is real remains recognisable.
 | Modifier | GOVERNANCE; SAFEGUARD; RELATIONAL |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | A; FR; C; SP |
-| Controlled Values Applied | A0; A1; A2; A3; GA1; FR0; FR1; FR2; FR3; C0; C1; C2; C3; SP0; SP1; SP2; SP3 |
+| Code Families Consumed | A; FR; C; SyP |
+| Controlled Values Applied | A0; A1; A2; A3; GA1; FR0; FR1; FR2; FR3; C0; C1; C2; C3; SyP0; SyP1; SyP2; SyP3 |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §8 |
@@ -1234,7 +1234,7 @@ that which is real remains recognisable.
 | 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 75bc7391f3b5d511d737b9046c3a310efa42d6fb8dae2e87282075612380ddbd |
 | 1.13 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  df770f43f75de1862b2c82d0389f301c2004d71732a270b34604fef506ec183c  |
 | 1.14 | Added canonical code status and declaration entries for A Delegated Authority, GA Guardian Authority, FR Functional Reliance, SP Systemic Power, C external source reference, Four-Axis Relational Intensity Matrix, and Escalation Terminology Bridge; removed duplicate canonical-code lineage metadata and corrected A-scale safeguard-label collision. | 2026-05-19T14:20:00Z |  08d7fa214af21f1728caf322b9ee91a3645c5e2d794daae7a77a37dd94be53be  |
-| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  |
+| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from SP to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  |
 
 ---
 

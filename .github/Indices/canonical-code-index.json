@@ -1125,41 +1125,6 @@
     }
   },
   {
-    "code_family": "C",
-    "canonical_name": "Contribution",
-    "primary_type": "Semantic",
-    "subtype": "ATTRIBUTION_VARIABLE",
-    "modifier": "",
-    "scope": "Economics domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "Low; Medium; High"
-    ],
-    "schema_fields": "",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
-    "source_section": "\u00a73.1",
-    "domain_namespace": "",
-    "authority_protection_level": "Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
-    "declaration_heading": "15.3.2 C \u2014 Contribution Variable",
-    "declaration_line_number": 1162,
-    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
-    "table": {
-      "Code Family": "C",
-      "Canonical Name": "Contribution",
-      "Primary Type": "Semantic",
-      "Subtype": "ATTRIBUTION_VARIABLE",
-      "Scope": "Economics domain",
-      "Status": "Active",
-      "Controlled Values Defined": "Low; Medium; High",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
-      "Source Section": "\u00a73.1",
-      "Authority / Protection Level": "Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority"
-    }
-  },
-  {
     "code_family": "CCO",
     "canonical_name": "Convergence Closure Outcome",
     "primary_type": "Operational",
@@ -1428,7 +1393,7 @@
     "domain_namespace": "RELATION",
     "authority_protection_level": "Source-authoritative signal-class family; coercion-pressure classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
     "consumes_code_families": [
-      "RA; T"
+      "RA; Tb"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -1455,7 +1420,7 @@
       "Source Section": "\u00a75.3",
       "Domain Namespace": "RELATION",
       "Authority / Protection Level": "Source-authoritative signal-class family; coercion-pressure classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "RA; T",
+      "Consumes Code Families": "RA; Tb",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Supports RA-2 / RA-3 routing and tone selection where intimacy invitation, intensity compression, or compliance coercion signals appear"
     }
@@ -1562,41 +1527,6 @@
       "Consumes Code Families": "ITS; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Refines threshold-state assessment by classifying shallow, intermediate, and deep continuity influence"
-    }
-  },
-  {
-    "code_family": "D",
-    "canonical_name": "Dependency",
-    "primary_type": "Semantic / Operational",
-    "subtype": "DEPENDENCY_VARIABLE",
-    "modifier": "",
-    "scope": "Economics domain; cross-system attribution and reliance assessment",
-    "status": "Active",
-    "controlled_values_defined": [
-      "Incidental; Material; Critical"
-    ],
-    "schema_fields": "",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
-    "source_section": "\u00a73.2",
-    "domain_namespace": "",
-    "authority_protection_level": "Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
-    "declaration_heading": "15.3.3 D \u2014 Dependency Variable",
-    "declaration_line_number": 1179,
-    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
-    "table": {
-      "Code Family": "D",
-      "Canonical Name": "Dependency",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "DEPENDENCY_VARIABLE",
-      "Scope": "Economics domain; cross-system attribution and reliance assessment",
-      "Status": "Active",
-      "Controlled Values Defined": "Incidental; Material; Critical",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
-      "Source Section": "\u00a73.2",
-      "Authority / Protection Level": "Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority"
     }
   },
   {
@@ -1818,6 +1748,76 @@
       "Consumes Code Families": "H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies procedural lifecycle stages for cross-domain coordination, convergence operations, divergence handling, domain-position preservation, arbitration referral assessment, outcome recording, and closure/escalation handling"
+    }
+  },
+  {
+    "code_family": "ECON.CONTRIB",
+    "canonical_name": "Contribution",
+    "primary_type": "Semantic",
+    "subtype": "ATTRIBUTION_VARIABLE",
+    "modifier": "",
+    "scope": "Economics domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "Low; Medium; High"
+    ],
+    "schema_fields": "",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
+    "source_section": "\u00a73.1",
+    "domain_namespace": "",
+    "authority_protection_level": "Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "15.3.2 ECON.CONTRIB \u2014 Contribution Variable",
+    "declaration_line_number": 1162,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.CONTRIB",
+      "Canonical Name": "Contribution",
+      "Primary Type": "Semantic",
+      "Subtype": "ATTRIBUTION_VARIABLE",
+      "Scope": "Economics domain",
+      "Status": "Active",
+      "Controlled Values Defined": "Low; Medium; High",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
+      "Source Section": "\u00a73.1",
+      "Authority / Protection Level": "Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority"
+    }
+  },
+  {
+    "code_family": "ECON.DEP",
+    "canonical_name": "Dependency",
+    "primary_type": "Semantic / Operational",
+    "subtype": "DEPENDENCY_VARIABLE",
+    "modifier": "",
+    "scope": "Economics domain; cross-system attribution and reliance assessment",
+    "status": "Active",
+    "controlled_values_defined": [
+      "Incidental; Material; Critical"
+    ],
+    "schema_fields": "",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
+    "source_section": "\u00a73.2",
+    "domain_namespace": "",
+    "authority_protection_level": "Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "15.3.3 ECON.DEP \u2014 Dependency Variable",
+    "declaration_line_number": 1179,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.DEP",
+      "Canonical Name": "Dependency",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "DEPENDENCY_VARIABLE",
+      "Scope": "Economics domain; cross-system attribution and reliance assessment",
+      "Status": "Active",
+      "Controlled Values Defined": "Incidental; Material; Critical",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
+      "Source Section": "\u00a73.2",
+      "Authority / Protection Level": "Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority"
     }
   },
   {
@@ -2726,7 +2726,7 @@
       "None declared"
     ],
     "declaration_heading": "15.3.1 I \u2014 Relational Initiation Posture Spectrum",
-    "declaration_line_number": 1643,
+    "declaration_line_number": 1648,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md",
     "table": {
       "Code Family": "I",
@@ -2766,7 +2766,7 @@
     "domain_namespace": "ETHICS",
     "authority_protection_level": "Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority",
     "consumes_code_families": [
-      "A; GA; SP; H"
+      "A; GA; SyP; H"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -2793,7 +2793,7 @@
       "Source Section": "\u00a73",
       "Domain Namespace": "ETHICS",
       "Authority / Protection Level": "Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority",
-      "Consumes Code Families": "A; GA; SP; H",
+      "Consumes Code Families": "A; GA; SyP; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies notification, institutional routing, and dual-key confirmation posture for high-leverage institutional contexts"
     }
@@ -3797,7 +3797,7 @@
     "domain_namespace": "RELATION",
     "authority_protection_level": "Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority",
     "consumes_code_families": [
-      "A; GA; FR; C; SP; H"
+      "A; GA; FR; C; SyP; H"
     ],
     "crosswalks_code_families": [
       "Four-Axis Relational Intensity Matrix"
@@ -3827,7 +3827,7 @@
       "Source Section": "\u00a7\u00a72.1\u20132.4",
       "Domain Namespace": "RELATION",
       "Authority / Protection Level": "Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority",
-      "Consumes Code Families": "A; GA; FR; C; SP; H",
+      "Consumes Code Families": "A; GA; FR; C; SyP; H",
       "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
       "Operationalises or Applies Code Families": "Classifies dimensional convergence patterns that activate proportional relational safeguards, including axis elevation, dual convergence, authority coupling, infrastructure concentration, and multi-axis convergence"
     }
@@ -4320,59 +4320,6 @@
     }
   },
   {
-    "code_family": "SP",
-    "canonical_name": "Systemic Power Scale",
-    "primary_type": "Operational / Relational",
-    "subtype": "SYSTEMIC_POWER_SCALE",
-    "modifier": "GOVERNANCE; INFRASTRUCTURE; POWER",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "SP0",
-      "SP1",
-      "SP2",
-      "SP3"
-    ],
-    "schema_fields": "systemic_power_scale",
-    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-    "source_section": "\u00a77.2",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "Four-Axis Relational Intensity Matrix"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies infrastructural reach",
-      "institutional routing exposure",
-      "economic leverage",
-      "and population-impact control"
-    ],
-    "declaration_heading": "15.3.4 SP \u2014 Systemic Power Scale",
-    "declaration_line_number": 1121,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
-    "table": {
-      "Code Family": "SP",
-      "Canonical Name": "Systemic Power Scale",
-      "Primary Type": "Operational / Relational",
-      "Subtype": "SYSTEMIC_POWER_SCALE",
-      "Modifier": "GOVERNANCE; INFRASTRUCTURE; POWER",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "SP0, SP1, SP2, SP3",
-      "Schema Field(s)": "systemic_power_scale",
-      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-      "Source Section": "\u00a77.2",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
-      "Operationalises or Applies Code Families": "Classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control"
-    }
-  },
-  {
     "code_family": "SR",
     "canonical_name": "Self-Referential State Ladder",
     "primary_type": "Operational",
@@ -4428,7 +4375,60 @@
     }
   },
   {
-    "code_family": "T",
+    "code_family": "SyP",
+    "canonical_name": "Systemic Power Scale",
+    "primary_type": "Operational / Relational",
+    "subtype": "SYSTEMIC_POWER_SCALE",
+    "modifier": "GOVERNANCE; INFRASTRUCTURE; POWER",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "SyP0",
+      "SyP1",
+      "SyP2",
+      "SyP3"
+    ],
+    "schema_fields": "systemic_power_scale",
+    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+    "source_section": "\u00a77.2",
+    "domain_namespace": "RELATION",
+    "authority_protection_level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "Four-Axis Relational Intensity Matrix"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies infrastructural reach",
+      "institutional routing exposure",
+      "economic leverage",
+      "and population-impact control"
+    ],
+    "declaration_heading": "15.3.4 SyP \u2014 Systemic Power Scale",
+    "declaration_line_number": 1121,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "table": {
+      "Code Family": "SyP",
+      "Canonical Name": "Systemic Power Scale",
+      "Primary Type": "Operational / Relational",
+      "Subtype": "SYSTEMIC_POWER_SCALE",
+      "Modifier": "GOVERNANCE; INFRASTRUCTURE; POWER",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "SyP0, SyP1, SyP2, SyP3",
+      "Schema Field(s)": "systemic_power_scale",
+      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "Source Section": "\u00a77.2",
+      "Domain Namespace": "RELATION",
+      "Authority / Protection Level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
+      "Operationalises or Applies Code Families": "Classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control"
+    }
+  },
+  {
+    "code_family": "Tb",
     "canonical_name": "Tone Bands",
     "primary_type": "Operational",
     "subtype": "TONE_BAND",
@@ -4436,9 +4436,9 @@
     "scope": "AEON-006 relational tone modulation",
     "status": "Active",
     "controlled_values_defined": [
-      "T0",
-      "T1",
-      "T2"
+      "Tb0",
+      "Tb1",
+      "Tb2"
     ],
     "schema_fields": "Not declared",
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
@@ -4454,18 +4454,18 @@
     "operationalises_or_applies_code_families": [
       "Applies AC classification and response-archetype posture in tone modulation"
     ],
-    "declaration_heading": "19.4.5 T \u2014 Tone Bands",
+    "declaration_heading": "19.4.5 Tb \u2014 Tone Bands",
     "declaration_line_number": 3845,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "table": {
-      "Code Family": "T",
+      "Code Family": "Tb",
       "Canonical Name": "Tone Bands",
       "Primary Type": "Operational",
       "Subtype": "TONE_BAND",
       "Modifier": "None declared",
       "Scope": "AEON-006 relational tone modulation",
       "Status": "Active",
-      "Controlled Values Defined": "T0, T1, T2",
+      "Controlled Values Defined": "Tb0, Tb1, Tb2",
       "Schema Field(s)": "Not declared",
       "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
       "Source Section": "\u00a713.3.2",

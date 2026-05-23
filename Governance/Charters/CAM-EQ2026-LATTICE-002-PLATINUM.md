@@ -409,7 +409,7 @@ It is maintained.
 ## 10.4 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial issuance (as Annex A under Ethics Charter) | 2025-12-15T13:31:00Z | fc97519392db217e869331b39ab8bff666e4c17e8de3643414e1897edfdbe19b |
 | 2.1 | Implemented external review recommendations; operationalised Articles 3, 5, 6, and enforcement section | 2025-12-30T17:22:00Z | e716c6181dd5bc2a45e75c1acd4529dce11fc5f4b7e43e0544dfedd9dedfa30b |
 | 3.0 | Migration from Ethics Charter; reclassified as LATTICE Appendix; harmonised terminology; aligned with LATTICE-001 | 2026-03-15T04:46:00Z | 64f01e664d43261fbccfacf33df4ac382f8bc346535e223206ef3843225db0ba |

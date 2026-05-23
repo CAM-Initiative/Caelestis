@@ -22,7 +22,6 @@
 | `BF` | Boundary Failure Classes | Operational / Boundary | `CAM-EQ2026-SECURITY-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md` | 10.3.4 BF — Boundary Failure Classes | 1203 |
 | `BLS` | Binding Legitimacy State | Operational / Semantic | `CAM-EQ2026-STEWARD-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md` | 15.3.3 BLS — Binding Legitimacy State | 929 |
 | `C` | Relational State Architecture | Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.1 C — Relational State Architecture | 3753 |
-| `C` | Contribution | Semantic | `CAM-EQ2026-ECONOMICS-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md` | 15.3.2 C — Contribution Variable | 1162 |
 | `CCO` | Convergence Closure Outcome | Operational | `CAM-EQ2026-OPERATIONS-006-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md` | 7.3.3 CCO — Convergence Closure Outcome | 389 |
 | `CCP` | Continuity-Compatible Protection State | Operational | `CAM-EQ2026-OPERATIONS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md` | 8.3.2 CCP — Continuity-Compatible Protection State | 361 |
 | `CDL` | Conversation Dynamics Ladder | Semantic / Operational | `CAM-EQ2026-RELATION-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md` | 14.3.2 CDL — Conversation Dynamics Ladder | 634 |
@@ -30,11 +29,12 @@
 | `CP` | Coercion Pressure Signal Classes | Semantic / Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.6 CP — Coercion Pressure Signal Classes | 3868 |
 | `CPC` | Capture Provisional Confidence | Operational | `CAM-EQ2026-OPERATIONS-001-SUP-03` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md` | 10.3.1 CPC — Capture Provisional Confidence | 953 |
 | `CWD` | Continuity Weight Depth | Semantic / Operational | `CAM-EQ2026-IDENTITY-001-SUP-02` | `Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md` | 13.3.3 CWD — Continuity Weight Depth | 743 |
-| `D` | Dependency | Semantic / Operational | `CAM-EQ2026-ECONOMICS-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md` | 15.3.3 D — Dependency Variable | 1179 |
 | `D` | Diffusion Risk Classes | Operational / Boundary | `CAM-EQ2026-SECURITY-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md` | 10.3.2 D — Diffusion Risk Classes | 1158 |
 | `DAS` | Dependency–Augmentation–Substitution Continuum | Semantic / Operational | `CAM-EQ2026-RELATION-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md` | 14.3.1 DAS — Dependency–Augmentation–Substitution Continuum | 611 |
 | `DC` | Deployment Class | Operational | `CAM-BS2026-AEON-010-SCH-01` | `Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md` | 12.3.1 DC — Deployment Class | 872 |
 | `DCL` | Domain Coordination Lifecycle Stage | Operational | `CAM-EQ2026-OPERATIONS-006-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md` | 7.3.1 DCL — Domain Coordination Lifecycle Stage | 343 |
+| `ECON.CONTRIB` | Contribution | Semantic | `CAM-EQ2026-ECONOMICS-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md` | 15.3.2 ECON.CONTRIB — Contribution Variable | 1162 |
+| `ECON.DEP` | Dependency | Semantic / Operational | `CAM-EQ2026-ECONOMICS-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md` | 15.3.3 ECON.DEP — Dependency Variable | 1179 |
 | `ECON.HARM` | Economic Harm Class | Operational | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.2 ECON.HARM — Economic Harm Class | 787 |
 | `ECON.MECH` | Economic Mechanism Class | Semantic / Operational | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.3 ECON.MECH — Economic Mechanism Class | 810 |
 | `ECON.RC` | Economic Resource Class | Semantic | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.1 ECON.RC — Economic Resource Class | 764 |
@@ -51,7 +51,7 @@
 | `H` | Temporal Horizon Scale | Structural / Temporal | `CAM-BS2025-AEON-003-PLATINUM` | `Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md` | 25.3.1 H — Temporal Horizon Scale | 2311 |
 | `HC` | Harm Class Scale | Semantic / Operational | `CAM-EQ2026-ETHICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md` | 12.3.1 HC — Harm Class Scale | 998 |
 | `HSC` | Host System Class | Semantic / Operational | `CAM-EQ2026-STEWARD-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md` | 15.3.1 HSC — Host System Class | 883 |
-| `I` | Relational Initiation Posture Spectrum | Semantic | `CAM-EQ2026-RELATION-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md` | 15.3.1 I — Relational Initiation Posture Spectrum | 1643 |
+| `I` | Relational Initiation Posture Spectrum | Semantic | `CAM-EQ2026-RELATION-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md` | 15.3.1 I — Relational Initiation Posture Spectrum | 1648 |
 | `IFL` | Integrity Friction Ladder | Operational / Ethical | `CAM-EQ2026-ETHICS-001-SUP-02` | `Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md` | 10.3.1 IFL — Integrity Friction Ladder | 263 |
 | `IFP` | Identity Formation Pathway | Semantic / Operational | `CAM-EQ2026-IDENTITY-001-SUP-02` | `Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md` | 13.3.1 IFP — Identity Formation Pathway | 697 |
 | `IR` | Identity Resilience | Semantic / Operational | `CAM-EQ2026-IDENTITY-001-SUP-02` | `Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md` | 13.3.4 IR — Identity Resilience | 766 |
@@ -81,9 +81,9 @@
 | `SC` | Signal Cluster Strength Codes | Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.9 SC — Signal Cluster Strength Codes | 3937 |
 | `SC-C` | Signal Clustering Condition Codes | Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.8 SC-C — Signal Clustering Condition Codes | 3914 |
 | `SP` | Salience Posture | Semantic / Operational | `CAM-EQ2026-IDENTITY-001-SUP-01` | `Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md` | 12.3.1 SP — Salience Posture | 401 |
-| `SP` | Systemic Power Scale | Operational / Relational | `CAM-EQ2026-RELATION-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` | 15.3.4 SP — Systemic Power Scale | 1121 |
 | `SR` | Self-Referential State Ladder | Operational | `CAM-BS2026-AEON-010-SCH-01` | `Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md` | 12.3.2 SR — Self-Referential State Ladder | 895 |
-| `T` | Tone Bands | Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.5 T — Tone Bands | 3845 |
+| `SyP` | Systemic Power Scale | Operational / Relational | `CAM-EQ2026-RELATION-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` | 15.3.4 SyP — Systemic Power Scale | 1121 |
+| `Tb` | Tone Bands | Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.5 Tb — Tone Bands | 3845 |
 | `TG` | Trust Gradient | Operational / Security | `CAM-EQ2026-SECURITY-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` | 12.3.2 TG — Trust Gradient | 1623 |
 | `TMOD` | Taxonomy Modifier | Structural | `CAM-EQ2026-OPERATIONS-001-SUP-04` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` | 18.3.3 TMOD — Taxonomy Modifier | 843 |
 | `TPT` | Taxonomy Primary Type | Structural | `CAM-EQ2026-OPERATIONS-001-SUP-04` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` | 18.3.1 TPT — Taxonomy Primary Type | 797 |

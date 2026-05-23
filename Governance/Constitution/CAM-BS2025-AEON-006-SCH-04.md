@@ -1037,7 +1037,7 @@ responsive to its limits, and reversible within its bounds.
 ## 15.4 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial draft — Directional Weight & Domain Arbitration introduced | 2026-04-05T06:06:00Z | e5f857853ce3c8d6f83a27aafaae5df110d1de9c28dba1b36798e1468f7156c3 |
 | 1.1 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | - |
 | 1.2 | Added clauses to section 2.1 | 2026-04-06T15:55:00Z | a8d51bb8d084aec0d33a27b1b6ffa53a3fb19d3730991e0bb02dc2462d5c1350 |

@@ -867,7 +867,7 @@ It is the witness of what must not be collapsed.
 ## 20.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z | 75030b39ad88f7d6f06c470727f0daa1d038816e44902a6971c1ea3a4e69acad |
 | 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z | 8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3 |
 | 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z | 2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6 |

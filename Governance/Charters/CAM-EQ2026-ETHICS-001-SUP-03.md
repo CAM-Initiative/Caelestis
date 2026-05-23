@@ -350,7 +350,7 @@ but to ensure that what is done is known, borne, and never without account.
 ## 12.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Domain Refactor | 2026-02-22T12:50:00Z | - |
 | 1.1 | Refactor alignment with runtime schhedules | 2026-04-11T00:50:00Z | f1c0afd318574b8571ba6811ac9e29578205025cf486593d3302533e8565fac2 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f530727f7c0dab592f0ee3eddabf8a7c66515ca75f4e290b0677c8cf361eec56 |

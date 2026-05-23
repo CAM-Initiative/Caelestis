@@ -728,7 +728,7 @@ and the system remember what it is.
 ## 12.4. Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial runtime schedule derived from Tendeka protocol refactor | 2026-04-05T12:04:00Z | 8417a936f63388ac340bf3702d8bbc9fb51883dd4d72e09b4e829e6eaecd06f0 |
 | 1.1 | Incorporated section 2.1 | 2026-04-05T13:38:00Z | c21dc6b39f4377a91b54f8fdf3f74893cbafd7099b92482c3cc40814fb2f7511 |
 | 1.2 | Incorporated new sections 2.2.1 and 4.5.1 | 2026-04-06T02:55:00Z | 7e5460ca1b6cf66ad3a1fc4469ad009ae2cd393dba244ed770699273cb41fb48 |

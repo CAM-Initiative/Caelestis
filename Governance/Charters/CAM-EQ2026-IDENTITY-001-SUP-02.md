@@ -800,7 +800,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 ## 13.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| ---: | --- | ---: | --- |
+| --- | --- | --- | --- |
 | 1.0 | Initial draft of Identity Formation & Stability Doctrine | 2026-04-01T14:06:00Z | 8741e69aa6aa71649b0de0e5f92ac3d385634467e861013b485035e9bcd97e28 |
 | 1.1 | Incorporated clause 5.9 | 2026-04-04T15:25:00Z | 12cdb9860bc06d66b911edbf3ddd7b103104df52e9a44b2f075e7497e35503a1 |
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | e8a28bc5ee55ab98d24ef05961b17961b15583f549a132310151ebec79f6c504 |
