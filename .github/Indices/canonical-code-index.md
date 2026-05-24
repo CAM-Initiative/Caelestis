@@ -4,8 +4,7 @@
 |---|---|---|---|---|---|---:|
 | `A` | Delegated Authority Scale | Operational / Relational | `CAM-EQ2026-RELATION-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` | 15.3.1 A — Delegated Authority Scale | 1052 |
 | `AC` | AC Classification Levels | Semantic | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.3 AC — AC Classification Levels | 3799 |
-| `AG` | Agency Gradient Classification | Semantic / Operational | `CAM-EQ2026-ECONOMICS-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md` | 11.3.1 AG — Agency Gradient Classification | 395 |
-| `AH` | Adversarial Horizon | Operational / Temporal | `CAM-EQ2026-SECURITY-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` | 12.3.3 AH — Adversarial Horizon | 1646 |
+| `AH` | Adversarial Horizon | Operational / Temporal | `CAM-EQ2026-SECURITY-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` | 12.3.3 AH — Adversarial Horizon | 1711 |
 | `AIP` | Arbitration Initiation Pathway | Operational | `CAM-EQ2026-OPERATIONS-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md` | 15.3.1 AIP — Arbitration Initiation Pathway | 467 |
 | `AMEND.CLASS` | Amendment Classification | Operational / Procedural | `CAM-EQ2026-OPERATIONS-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md` | 7.3.2 AMEND.CLASS — Amendment Classification | 451 |
 | `AMEND.DRIFT` | Governance Drift Type | Operational / Procedural | `CAM-EQ2026-OPERATIONS-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md` | 7.3.3 AMEND.DRIFT — Governance Drift Type | 474 |
@@ -17,9 +16,10 @@
 | `AQ` | Auditability Qualification Level | Operational / Governance | `CAM-EQ2026-STEWARD-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md` | 20.3.1 AQ — Auditability Qualification Level | 639 |
 | `AQ` | Auditability Qualification Ladder | Operational / Eligibility | `CAM-EQ2026-STEWARD-003-SUP-01` | `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` | 16.3.1 AQ — Auditability Qualification Ladder | 337 |
 | `AQG` | Architectum Qualification Gates | Operational / Eligibility | `CAM-EQ2026-STEWARD-003-SUP-01` | `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` | 16.3.3 AQG — Architectum Qualification Gates | 383 |
+| `ARCH` | Architecture Admissibility Output State | Operational | `CAM-BS2026-AEON-008-SCH-02` | `Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md` | 35.3.2 ARCH — Architecture Admissibility Output State | 746 |
 | `ASR` | Access State / Re-Entry Status | Operational | `CAM-EQ2026-OPERATIONS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md` | 8.3.3 ASR — Access State / Re-Entry Status | 384 |
 | `AV` | Verification Tier Definitions | Operational | `CAM-EQ2026-OPERATIONS-004-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md` | 15.3.1 AV — Verification Tier Definitions | 690 |
-| `BF` | Boundary Failure Classes | Operational / Boundary | `CAM-EQ2026-SECURITY-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md` | 10.3.4 BF — Boundary Failure Classes | 1203 |
+| `BF` | Boundary Failure Classes | Operational / Boundary | `CAM-EQ2026-SECURITY-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md` | 10.3.4 BF — Boundary Failure Classes | 1191 |
 | `BLS` | Binding Legitimacy State | Operational / Semantic | `CAM-EQ2026-STEWARD-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md` | 15.3.3 BLS — Binding Legitimacy State | 929 |
 | `C` | Relational State Architecture | Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.1 C — Relational State Architecture | 3753 |
 | `CCO` | Convergence Closure Outcome | Operational | `CAM-EQ2026-OPERATIONS-006-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md` | 7.3.3 CCO — Convergence Closure Outcome | 389 |
@@ -29,33 +29,46 @@
 | `CP` | Coercion Pressure Signal Classes | Semantic / Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.6 CP — Coercion Pressure Signal Classes | 3868 |
 | `CPC` | Capture Provisional Confidence | Operational | `CAM-EQ2026-OPERATIONS-001-SUP-03` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md` | 10.3.1 CPC — Capture Provisional Confidence | 953 |
 | `CWD` | Continuity Weight Depth | Semantic / Operational | `CAM-EQ2026-IDENTITY-001-SUP-02` | `Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md` | 13.3.3 CWD — Continuity Weight Depth | 743 |
-| `D` | Diffusion Risk Classes | Operational / Boundary | `CAM-EQ2026-SECURITY-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md` | 10.3.2 D — Diffusion Risk Classes | 1158 |
+| `D` | Diffusion Risk Classes | Operational / Boundary | `CAM-EQ2026-SECURITY-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md` | 10.3.2 D — Diffusion Risk Classes | 1146 |
 | `DAS` | Dependency–Augmentation–Substitution Continuum | Semantic / Operational | `CAM-EQ2026-RELATION-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md` | 14.3.1 DAS — Dependency–Augmentation–Substitution Continuum | 611 |
 | `DC` | Deployment Class | Operational | `CAM-BS2026-AEON-010-SCH-01` | `Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md` | 12.3.1 DC — Deployment Class | 872 |
 | `DCL` | Domain Coordination Lifecycle Stage | Operational | `CAM-EQ2026-OPERATIONS-006-PLATINUM` | `Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md` | 7.3.1 DCL — Domain Coordination Lifecycle Stage | 343 |
-| `ECON.CONTRIB` | Contribution | Semantic | `CAM-EQ2026-ECONOMICS-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md` | 15.3.2 ECON.CONTRIB — Contribution Variable | 1162 |
-| `ECON.DEP` | Dependency | Semantic / Operational | `CAM-EQ2026-ECONOMICS-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md` | 15.3.3 ECON.DEP — Dependency Variable | 1179 |
-| `ECON.HARM` | Economic Harm Class | Operational | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.2 ECON.HARM — Economic Harm Class | 787 |
-| `ECON.MECH` | Economic Mechanism Class | Semantic / Operational | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.3 ECON.MECH — Economic Mechanism Class | 810 |
-| `ECON.RC` | Economic Resource Class | Semantic | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.1 ECON.RC — Economic Resource Class | 764 |
-| `ECON.RISK` | Economic Risk Class | Operational | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.4 ECON.RISK — Economic Risk Class | 833 |
+| `ECOCOM` | Economic-Effect Commitment Output State | Operational | `CAM-BS2026-AEON-008-SCH-02` | `Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md` | 35.3.3 ECOCOM — Economic-Effect Commitment Output State | 769 |
+| `ECOEV` | Economic-Effect Runtime Event Class | Operational | `CAM-BS2026-AEON-008-SCH-02` | `Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md` | 35.3.1 ECOEV — Economic-Effect Runtime Event Class | 723 |
+| `ECON.ADM` | Attribution & Dependency Model | Semantic / Operational | `CAM-EQ2026-ECONOMICS-004-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md` | 15.3.1 Attribution & Dependency Model | 1215 |
+| `ECON.AG` | Agency Gradient Classification | Semantic / Operational | `CAM-EQ2026-ECONOMICS-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md` | 11.3.1 ECON.AG — Agency Gradient Classification | 396 |
+| `ECON.AL` | Automation Labour Classification | Semantic / Operational | `CAM-EQ2026-ECONOMICS-008-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md` | 8.3.1 ECON.AL — Automation Labour Classification | 699 |
+| `ECON.CONTRIB` | Contribution | Semantic | `CAM-EQ2026-ECONOMICS-004-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md` | 15.3.2 ECON.CONTRIB — Contribution Variable | 1236 |
+| `ECON.DEP` | Dependency | Semantic / Operational | `CAM-EQ2026-ECONOMICS-004-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md` | 15.3.3 ECON.DEP — Dependency Variable | 1253 |
+| `ECON.DTYPE` | Economic Dependency Type | Semantic / Operational | `CAM-EQ2026-ECONOMICS-004-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md` | 15.3.4 ECON.DTYPE — Economic Dependency Type | 1270 |
+| `ECON.EVT` | Economic Value Type | Semantic / Operational | `CAM-EQ2026-ECONOMICS-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md` | 11.3.2 ECON.EVT — Economic Value Type | 419 |
+| `ECON.HARM` | Economic Harm Class | Operational | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.2 ECON.HARM — Economic Harm Class | 855 |
+| `ECON.MECH` | Economic Mechanism Class | Semantic / Operational | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.3 ECON.MECH — Economic Mechanism Class | 878 |
+| `ECON.RC` | Economic Resource Class | Semantic | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.1 ECON.RC — Economic Resource Class | 832 |
+| `ECON.REI` | Reciprocity Evaluation Indicator | Semantic / Operational | `CAM-EQ2026-ECONOMICS-007-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md` | 13.3.2 ECON.REI — Reciprocity Evaluation Indicator | 1170 |
+| `ECON.REI` | Dependency Weight | Semantic / Operational | `CAM-EQ2026-ECONOMICS-007-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md` | 13.3.3 ECON.REI.DW — Dependency Weight | 1193 |
+| `ECON.REI` | Scale Weight | Semantic / Operational | `CAM-EQ2026-ECONOMICS-007-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md` | 13.3.4 ECON.REI.SW — Scale Weight | 1216 |
+| `ECON.RISK` | Economic Risk Class | Operational | `CAM-EQ2026-ECONOMICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md` | 20.3.4 ECON.RISK — Economic Risk Class | 901 |
+| `ECON.SCALE` | Economic Scale Weight | Semantic / Operational | `CAM-EQ2026-ECONOMICS-007-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md` | 13.3.1 ECON.SCALE — Economic Scale Weight | 1124 |
+| `ECON.TA` | Temporal Advantage | Semantic / Operational | `CAM-EQ2026-ECONOMICS-004-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md` | 15.3.6 ECON.TA — Temporal Advantage | 1316 |
+| `ECON.TD` | Transformation Depth | Semantic / Operational | `CAM-EQ2026-ECONOMICS-004-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md` | 15.3.5 ECON.TD — Transformation Depth | 1293 |
 | `EST` | Execution-State Transition | Operational | `CAM-EQ2026-OPERATIONS-001-SUP-02` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md` | 12.3.2 EST — Execution-State Transition | 957 |
 | `ET` | Ethical Tier Classification | Operational / Ethical | `CAM-EQ2026-ETHICS-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md` | 12.3.1 ET — Ethical Tier Classification | 571 |
-| `EVT` | Economic Value Type | Semantic / Operational | `CAM-EQ2026-ECONOMICS-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md` | 11.3.2 EVT — Economic Value Type | 418 |
 | `F` | Facilitation Scale (F‑Scale) Taxonomy | Operational | `CAM-EQ2026-RELATION-006-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md` | 12.3.1 F — Facilitation Scale (F‑Scale) Taxonomy | 1142 |
-| `FCS` | Failure Classification Status | Operational | `CAM-EQ2026-OPERATIONS-003-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md` | 11.3.4 FCS — Failure Classification Status | 1132 |
-| `FF` | Failure Family | Operational / Semantic | `CAM-EQ2026-OPERATIONS-003-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md` | 11.3.1 FF — Failure Family | 1063 |
+| `FCS` | Failure Classification Status | Operational | `CAM-EQ2026-OPERATIONS-003-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md` | 11.3.4 FCS — Failure Classification Status | 1177 |
+| `FF` | Failure Family | Operational / Semantic | `CAM-EQ2026-OPERATIONS-003-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md` | 11.3.1 FF — Failure Family | 1108 |
 | `FR` | Functional Reliance Scale | Operational / Relational | `CAM-EQ2026-RELATION-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` | 15.3.3 FR — Functional Reliance Scale | 1098 |
 | `GA` | Guardian Authority | Operational / Relational | `CAM-EQ2026-RELATION-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` | 15.3.2 GA — Guardian Authority | 1075 |
 | `GCC` | Governance Capture Category | Operational / Semantic | `CAM-EQ2026-OPERATIONS-001-SUP-03` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md` | 10.3.1 GCC — Governance Capture Category | 930 |
 | `H` | Temporal Horizon Scale | Structural / Temporal | `CAM-BS2025-AEON-003-PLATINUM` | `Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md` | 25.3.1 H — Temporal Horizon Scale | 2311 |
 | `HC` | Harm Class Scale | Semantic / Operational | `CAM-EQ2026-ETHICS-003-PLATINUM` | `Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md` | 12.3.1 HC — Harm Class Scale | 998 |
+| `HCD` | Human Contribution Domain | Semantic | `CAM-BS2026-AEON-008-PLATINUM` | `Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md` | 11.3.1 HCD — Human Contribution Domain | 569 |
 | `HSC` | Host System Class | Semantic / Operational | `CAM-EQ2026-STEWARD-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md` | 15.3.1 HSC — Host System Class | 883 |
 | `I` | Relational Initiation Posture Spectrum | Semantic | `CAM-EQ2026-RELATION-005-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md` | 15.3.1 I — Relational Initiation Posture Spectrum | 1648 |
 | `IFL` | Integrity Friction Ladder | Operational / Ethical | `CAM-EQ2026-ETHICS-001-SUP-02` | `Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md` | 10.3.1 IFL — Integrity Friction Ladder | 263 |
 | `IFP` | Identity Formation Pathway | Semantic / Operational | `CAM-EQ2026-IDENTITY-001-SUP-02` | `Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md` | 13.3.1 IFP — Identity Formation Pathway | 697 |
 | `IR` | Identity Resilience | Semantic / Operational | `CAM-EQ2026-IDENTITY-001-SUP-02` | `Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md` | 13.3.4 IR — Identity Resilience | 766 |
-| `IS` | Integrity State Model | Operational / Security | `CAM-EQ2026-SECURITY-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` | 12.3.1 IS — Integrity State Model | 1600 |
+| `IS` | Integrity State Model | Operational / Security | `CAM-EQ2026-SECURITY-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` | 12.3.1 IS — Integrity State Model | 1665 |
 | `ITS` | Identity Threshold State | Semantic / Operational | `CAM-EQ2026-IDENTITY-001-SUP-02` | `Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md` | 13.3.2 ITS — Identity Threshold State | 720 |
 | `ITZ / ETZ` | Relational Transition Zones | Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.2 ITZ / ETZ — Relational Transition Zones | 3776 |
 | `M` | Memory Classification | Semantic / Operational | `CAM-EQ2026-IDENTITY-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md` | 16.3.1 M — Memory Classification | 1400 |
@@ -84,15 +97,13 @@
 | `SR` | Self-Referential State Ladder | Operational | `CAM-BS2026-AEON-010-SCH-01` | `Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md` | 12.3.2 SR — Self-Referential State Ladder | 895 |
 | `SyP` | Systemic Power Scale | Operational / Relational | `CAM-EQ2026-RELATION-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` | 15.3.4 SyP — Systemic Power Scale | 1121 |
 | `Tb` | Tone Bands | Operational | `CAM-BS2025-AEON-006-SCH-02` | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` | 19.4.5 Tb — Tone Bands | 3845 |
-| `TG` | Trust Gradient | Operational / Security | `CAM-EQ2026-SECURITY-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` | 12.3.2 TG — Trust Gradient | 1623 |
+| `TG` | Trust Gradient | Operational / Security | `CAM-EQ2026-SECURITY-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` | 12.3.2 TG — Trust Gradient | 1688 |
 | `TMOD` | Taxonomy Modifier | Structural | `CAM-EQ2026-OPERATIONS-001-SUP-04` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` | 18.3.3 TMOD — Taxonomy Modifier | 843 |
 | `TPT` | Taxonomy Primary Type | Structural | `CAM-EQ2026-OPERATIONS-001-SUP-04` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` | 18.3.1 TPT — Taxonomy Primary Type | 797 |
-| `TR` | Transformation Classes | Operational / Boundary | `CAM-EQ2026-SECURITY-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md` | 10.3.1 TR — Transformation Classes | 1135 |
+| `TR` | Transformation Classes | Operational / Boundary | `CAM-EQ2026-SECURITY-002-PLATINUM` | `Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md` | 10.3.1 TR — Transformation Classes | 1123 |
 | `TSCOPE` | Taxonomy Scope | Structural | `CAM-EQ2026-OPERATIONS-001-SUP-04` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` | 18.3.4 TSCOPE — Taxonomy Scope | 866 |
 | `TST` | Taxonomy Subtype | Structural | `CAM-EQ2026-OPERATIONS-001-SUP-04` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` | 18.3.2 TST — Taxonomy Subtype | 820 |
 | `UFC` | Use-of-Force Context Type | Operational / Ethical | `CAM-EQ2026-ETHICS-001-SUP-03` | `Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md` | 12.3.1 UFC — Use-of-Force Context Type | 316 |
 | `VCT` | Verification Check Type | Operational / Signal | `CAM-EQ2026-OPERATIONS-004-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md` | 11.3.4 VCT — Verification Check Type | 418 |
 | `VFC` | Verification Failure Cause | Operational / Signal | `CAM-EQ2026-OPERATIONS-004-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md` | 11.3.3 VFC — Verification Failure Cause | 395 |
 | `VL` | Verification Level | Operational / Signal | `CAM-EQ2026-OPERATIONS-004-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md` | 11.3.1 VL — Verification Level | 350 |
-| `XDL` | Cross-System Dependency Level | Semantic / Operational | `CAM-EQ2026-ECONOMICS-004-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md` | 19.3.1 XDL — Cross-System Dependency Level | 707 |
-| `XDT` | Cross-System Dependency Type | Semantic / Operational | `CAM-EQ2026-ECONOMICS-004-PLATINUM` | `Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md` | 19.3.2 XDT — Cross-System Dependency Type | 730 |

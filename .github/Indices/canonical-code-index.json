@@ -105,62 +105,6 @@
     }
   },
   {
-    "code_family": "AG",
-    "canonical_name": "Agency Gradient Classification",
-    "primary_type": "Semantic / Operational",
-    "subtype": "ROLE_ACTOR; ECONOMIC_PARTICIPATION_CLASS",
-    "modifier": "GOVERNANCE; ECONOMIC; SYNTHETIC_PARTICIPATION",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "AG.INSTRUMENTAL",
-      "AG.RELATIONAL_COLLABORATIVE",
-      "AG.AUTONOMOUS_TRAJECTORY"
-    ],
-    "schema_fields": "agency_gradient_classification",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
-    "source_section": "\u00a72",
-    "domain_namespace": "ECONOMICS",
-    "authority_protection_level": "Source-authoritative synthetic participation classification family; economic participation posture classification only; no independent rights, personhood, baseline entitlement, moral status, legal personhood, autonomous political authority, independent economic sovereignty, execution, enforcement, delegation, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies synthetic participation posture for attribution",
-      "custodial responsibility",
-      "auditability",
-      "saturation constraints",
-      "proxy safeguards",
-      "and authority limits across instrumental",
-      "relational/collaborative",
-      "and autonomous trajectory agents"
-    ],
-    "declaration_heading": "11.3.1 AG \u2014 Agency Gradient Classification",
-    "declaration_line_number": 395,
-    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
-    "table": {
-      "Code Family": "AG",
-      "Canonical Name": "Agency Gradient Classification",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "ROLE_ACTOR; ECONOMIC_PARTICIPATION_CLASS",
-      "Modifier": "GOVERNANCE; ECONOMIC; SYNTHETIC_PARTICIPATION",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "AG.INSTRUMENTAL, AG.RELATIONAL_COLLABORATIVE, AG.AUTONOMOUS_TRAJECTORY",
-      "Schema Field(s)": "agency_gradient_classification",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
-      "Source Section": "\u00a72",
-      "Domain Namespace": "ECONOMICS",
-      "Authority / Protection Level": "Source-authoritative synthetic participation classification family; economic participation posture classification only; no independent rights, personhood, baseline entitlement, moral status, legal personhood, autonomous political authority, independent economic sovereignty, execution, enforcement, delegation, or runtime authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies synthetic participation posture for attribution, custodial responsibility, auditability, saturation constraints, proxy safeguards, and authority limits across instrumental, relational/collaborative, and autonomous trajectory agents"
-    }
-  },
-  {
     "code_family": "AH",
     "canonical_name": "Adversarial Horizon",
     "primary_type": "Operational / Temporal",
@@ -194,7 +138,7 @@
       "and containment posture"
     ],
     "declaration_heading": "12.3.3 AH \u2014 Adversarial Horizon",
-    "declaration_line_number": 1646,
+    "declaration_line_number": 1711,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
     "table": {
       "Code Family": "AH",
@@ -852,6 +796,61 @@
     }
   },
   {
+    "code_family": "ARCH",
+    "canonical_name": "Architecture Admissibility Output State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; ARCHITECTURE_REVIEW",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ARCH.ADMISSIBLE",
+      "ARCH.CONSTRAINED",
+      "ARCH.PROTECTIVE_ONLY",
+      "ARCH.INADMISSIBLE",
+      "ARCH.REVIEW_REQUIRED"
+    ],
+    "schema_fields": "architecture_admissibility_output; architecture_output_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
+    "source_section": "\u00a7\u00a711.1\u201312",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+    "authority_protection_level": "Source-authoritative architecture-admissibility output family; architecture posture classification only; no independent architecture approval, economic-operation authorisation, compliance determination, enforcement, arbitration, or runtime authority",
+    "consumes_code_families": [
+      "ECOEV"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether a system architecture is admissible",
+      "constrained",
+      "protective-only",
+      "inadmissible",
+      "or review-required before economic-effect runtime commitment"
+    ],
+    "declaration_heading": "35.3.2 ARCH \u2014 Architecture Admissibility Output State",
+    "declaration_line_number": 746,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "table": {
+      "Code Family": "ARCH",
+      "Canonical Name": "Architecture Admissibility Output State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; ARCHITECTURE_REVIEW",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "ARCH.ADMISSIBLE, ARCH.CONSTRAINED, ARCH.PROTECTIVE_ONLY, ARCH.INADMISSIBLE, ARCH.REVIEW_REQUIRED",
+      "Schema Field(s)": "architecture_admissibility_output; architecture_output_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
+      "Source Section": "\u00a7\u00a711.1\u201312",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+      "Authority / Protection Level": "Source-authoritative architecture-admissibility output family; architecture posture classification only; no independent architecture approval, economic-operation authorisation, compliance determination, enforcement, arbitration, or runtime authority",
+      "Consumes Code Families": "ECOEV",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether a system architecture is admissible, constrained, protective-only, inadmissible, or review-required before economic-effect runtime commitment"
+    }
+  },
+  {
     "code_family": "ASR",
     "canonical_name": "Access State / Re-Entry Status",
     "primary_type": "Operational",
@@ -993,7 +992,7 @@
       "and internal exposure failures for runtime signalling and downstream enforcement evaluation"
     ],
     "declaration_heading": "10.3.4 BF \u2014 Boundary Failure Classes",
-    "declaration_line_number": 1203,
+    "declaration_line_number": 1191,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
     "table": {
       "Code Family": "BF",
@@ -1561,7 +1560,7 @@
       "and propagation constraint requirements"
     ],
     "declaration_heading": "10.3.2 D \u2014 Diffusion Risk Classes",
-    "declaration_line_number": 1158,
+    "declaration_line_number": 1146,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
     "table": {
       "Code Family": "D",
@@ -1751,6 +1750,277 @@
     }
   },
   {
+    "code_family": "ECOCOM",
+    "canonical_name": "Economic-Effect Commitment Output State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME_COMMITMENT",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECOCOM.COMMIT",
+      "ECOCOM.COMMIT_WITH_RECORD",
+      "ECOCOM.DEFER",
+      "ECOCOM.REFUSE",
+      "ECOCOM.FALLBACK",
+      "ECOCOM.ROLLBACK",
+      "ECOCOM.REMEDIATE",
+      "ECOCOM.ESCALATE"
+    ],
+    "schema_fields": "commitment_decision",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
+    "source_section": "\u00a713; \u00a728",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+    "authority_protection_level": "Source-authoritative runtime commitment output family; commitment-outcome classification only; no independent pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine",
+    "consumes_code_families": [
+      "ECOEV; ARCH; economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records whether an economic-effect event may commit",
+      "commit with record",
+      "defer",
+      "refuse",
+      "fallback",
+      "rollback",
+      "remediate",
+      "or escalate under this Schedule"
+    ],
+    "declaration_heading": "35.3.3 ECOCOM \u2014 Economic-Effect Commitment Output State",
+    "declaration_line_number": 769,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "table": {
+      "Code Family": "ECOCOM",
+      "Canonical Name": "Economic-Effect Commitment Output State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME_COMMITMENT",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "ECOCOM.COMMIT, ECOCOM.COMMIT_WITH_RECORD, ECOCOM.DEFER, ECOCOM.REFUSE, ECOCOM.FALLBACK, ECOCOM.ROLLBACK, ECOCOM.REMEDIATE, ECOCOM.ESCALATE",
+      "Schema Field(s)": "commitment_decision",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
+      "Source Section": "\u00a713; \u00a728",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+      "Authority / Protection Level": "Source-authoritative runtime commitment output family; commitment-outcome classification only; no independent pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine",
+      "Consumes Code Families": "ECOEV; ARCH; economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Records whether an economic-effect event may commit, commit with record, defer, refuse, fallback, rollback, remediate, or escalate under this Schedule"
+    }
+  },
+  {
+    "code_family": "ECOEV",
+    "canonical_name": "Economic-Effect Runtime Event Class",
+    "primary_type": "Operational",
+    "subtype": "OPERATIONAL_EVENT",
+    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECOEV.CONSUME",
+      "ECOEV.PROVISION",
+      "ECOEV.RESTORE",
+      "ECOEV.EXPIRE",
+      "ECOEV.CONVERT",
+      "ECOEV.ATTENTION",
+      "ECOEV.CONTRIBUTION",
+      "ECOEV.PRESENCE",
+      "ECOEV.PROTECTIVE",
+      "ECOEV.RESTRICT",
+      "ECOEV.REMEDIATE"
+    ],
+    "schema_fields": "event_class",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
+    "source_section": "\u00a77",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+    "authority_protection_level": "Source-authoritative runtime event classification family; economic-effect event-type classification only; no independent commitment, enforcement, pricing, billing, depletion, restriction, remediation, escalation, or runtime execution authority",
+    "consumes_code_families": [
+      "Economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies economic-effect runtime events for downstream architecture admissibility",
+      "commitment evaluation",
+      "fallback",
+      "rollback",
+      "remediation",
+      "audit",
+      "and escalation handling"
+    ],
+    "declaration_heading": "35.3.1 ECOEV \u2014 Economic-Effect Runtime Event Class",
+    "declaration_line_number": 723,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "table": {
+      "Code Family": "ECOEV",
+      "Canonical Name": "Economic-Effect Runtime Event Class",
+      "Primary Type": "Operational",
+      "Subtype": "OPERATIONAL_EVENT",
+      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "ECOEV.CONSUME, ECOEV.PROVISION, ECOEV.RESTORE, ECOEV.EXPIRE, ECOEV.CONVERT, ECOEV.ATTENTION, ECOEV.CONTRIBUTION, ECOEV.PRESENCE, ECOEV.PROTECTIVE, ECOEV.RESTRICT, ECOEV.REMEDIATE",
+      "Schema Field(s)": "event_class",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
+      "Source Section": "\u00a77",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+      "Authority / Protection Level": "Source-authoritative runtime event classification family; economic-effect event-type classification only; no independent commitment, enforcement, pricing, billing, depletion, restriction, remediation, escalation, or runtime execution authority",
+      "Consumes Code Families": "Economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies economic-effect runtime events for downstream architecture admissibility, commitment evaluation, fallback, rollback, remediation, audit, and escalation handling"
+    }
+  },
+  {
+    "code_family": "ECON.ADM",
+    "canonical_name": "Attribution & Dependency Model",
+    "primary_type": "Semantic / Operational",
+    "subtype": "ATTRIBUTION_DEPENDENCY_MODEL",
+    "modifier": "ECONOMIC; ATTRIBUTION; DEPENDENCY",
+    "scope": "Economics domain; cross-system value attribution",
+    "status": "Active",
+    "controlled_values_defined": [],
+    "schema_fields": "",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
+    "source_section": "\u00a72; \u00a73",
+    "domain_namespace": "",
+    "authority_protection_level": "Minimal attribution and dependency classification model only; no independent remedy, compensation, enforcement, escalation, or runtime execution authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [
+      "Supports attribution",
+      "dependency",
+      "transformation-depth",
+      "temporal-advantage",
+      "and weighting assessment for Appendix C and Appendix F"
+    ],
+    "declaration_heading": "15.3.1 Attribution & Dependency Model",
+    "declaration_line_number": 1215,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "table": {
+      "Reference Set Type": "Model",
+      "Code Family": "ECON.ADM",
+      "Canonical Name": "Attribution & Dependency Model",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "ATTRIBUTION_DEPENDENCY_MODEL",
+      "Modifier": "ECONOMIC; ATTRIBUTION; DEPENDENCY",
+      "Scope": "Economics domain; cross-system value attribution",
+      "Status": "Active",
+      "Variables Defined": "ECON.CONTRIB; ECON.DEP; ECON.TD; ECON.TA",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
+      "Source Section": "\u00a72; \u00a73",
+      "Authority / Protection Level": "Minimal attribution and dependency classification model only; no independent remedy, compensation, enforcement, escalation, or runtime execution authority",
+      "Consumes Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Supports attribution, dependency, transformation-depth, temporal-advantage, and weighting assessment for Appendix C and Appendix F"
+    }
+  },
+  {
+    "code_family": "ECON.AG",
+    "canonical_name": "Agency Gradient Classification",
+    "primary_type": "Semantic / Operational",
+    "subtype": "ROLE_ACTOR; ECONOMIC_PARTICIPATION_CLASS",
+    "modifier": "GOVERNANCE; ECONOMIC; SYNTHETIC_PARTICIPATION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.AG.INSTRUMENTAL",
+      "ECON.AG.RELATIONAL_COLLABORATIVE",
+      "ECON.AG.AUTONOMOUS_TRAJECTORY"
+    ],
+    "schema_fields": "agency_gradient_classification",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
+    "source_section": "\u00a72",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative synthetic participation classification family; economic participation posture classification only; no independent rights, personhood, baseline entitlement, moral status, legal personhood, autonomous political authority, independent economic sovereignty, execution, enforcement, delegation, or runtime authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies synthetic participation posture for attribution",
+      "custodial responsibility",
+      "auditability",
+      "saturation constraints",
+      "proxy safeguards",
+      "and authority limits across instrumental",
+      "relational/collaborative",
+      "and autonomous trajectory agents"
+    ],
+    "declaration_heading": "11.3.1 ECON.AG \u2014 Agency Gradient Classification",
+    "declaration_line_number": 396,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.AG",
+      "Canonical Name": "Agency Gradient Classification",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "ROLE_ACTOR; ECONOMIC_PARTICIPATION_CLASS",
+      "Modifier": "GOVERNANCE; ECONOMIC; SYNTHETIC_PARTICIPATION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.AG.INSTRUMENTAL, ECON.AG.RELATIONAL_COLLABORATIVE, ECON.AG.AUTONOMOUS_TRAJECTORY",
+      "Schema Field(s)": "agency_gradient_classification",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
+      "Source Section": "\u00a72",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative synthetic participation classification family; economic participation posture classification only; no independent rights, personhood, baseline entitlement, moral status, legal personhood, autonomous political authority, independent economic sovereignty, execution, enforcement, delegation, or runtime authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies synthetic participation posture for attribution, custodial responsibility, auditability, saturation constraints, proxy safeguards, and authority limits across instrumental, relational/collaborative, and autonomous trajectory agents"
+    }
+  },
+  {
+    "code_family": "ECON.AL",
+    "canonical_name": "Automation Labour Classification",
+    "primary_type": "Semantic / Operational",
+    "subtype": "LABOUR_SUBSTITUTION_LEVEL; AUTOMATION_CLASSIFICATION",
+    "modifier": "GOVERNANCE; ECONOMIC; SYNTHETIC_LABOUR; AUTOMATION_TRANSITION",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "ECON.AL-1; ECON.AL-2; ECON.AL-3; ECON.AL-4; ECON.AL-5"
+    ],
+    "schema_fields": "automation_labour_classification; labour_substitution_level; automation_classification",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-008-PLATINUM",
+    "source_section": "\u00a72",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative classification family; classification only; no independent enforcement, deployment, taxation, rights, sentience, or runtime authority",
+    "consumes_code_families": [
+      "ECON.RC; ECON.SCALE; ECON.DEP; ECON.DTYPE"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "8.3.1 ECON.AL \u2014 Automation Labour Classification",
+    "declaration_line_number": 699,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.AL",
+      "Canonical Name": "Automation Labour Classification",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "LABOUR_SUBSTITUTION_LEVEL; AUTOMATION_CLASSIFICATION",
+      "Modifier": "GOVERNANCE; ECONOMIC; SYNTHETIC_LABOUR; AUTOMATION_TRANSITION",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "ECON.AL-1; ECON.AL-2; ECON.AL-3; ECON.AL-4; ECON.AL-5",
+      "Schema Field(s)": "automation_labour_classification; labour_substitution_level; automation_classification",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-008-PLATINUM",
+      "Source Section": "\u00a72",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative classification family; classification only; no independent enforcement, deployment, taxation, rights, sentience, or runtime authority",
+      "Consumes Code Families": "ECON.RC; ECON.SCALE; ECON.DEP; ECON.DTYPE",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies": "Classifies systems by augmentation, partial automation, supervisory automation, synthetic replacement, autonomous production, or agentic labour-network posture for displacement, dependency, continuity, authority, and concentration review",
+      "Taxonomy Constraint": "AL-1 through AL-5 SHALL NOT be promoted as a standalone corpus-wide AL code family; machine-readable expression SHALL use scoped ECON.AL values"
+    }
+  },
+  {
     "code_family": "ECON.CONTRIB",
     "canonical_name": "Contribution",
     "primary_type": "Semantic",
@@ -1762,7 +2032,7 @@
       "Low; Medium; High"
     ],
     "schema_fields": "",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
     "source_section": "\u00a73.1",
     "domain_namespace": "",
     "authority_protection_level": "Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority",
@@ -1770,8 +2040,8 @@
     "crosswalks_code_families": [],
     "operationalises_or_applies_code_families": [],
     "declaration_heading": "15.3.2 ECON.CONTRIB \u2014 Contribution Variable",
-    "declaration_line_number": 1162,
-    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
+    "declaration_line_number": 1236,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
     "table": {
       "Code Family": "ECON.CONTRIB",
       "Canonical Name": "Contribution",
@@ -1780,7 +2050,7 @@
       "Scope": "Economics domain",
       "Status": "Active",
       "Controlled Values Defined": "Low; Medium; High",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
       "Source Section": "\u00a73.1",
       "Authority / Protection Level": "Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority"
     }
@@ -1797,7 +2067,7 @@
       "Incidental; Material; Critical"
     ],
     "schema_fields": "",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
     "source_section": "\u00a73.2",
     "domain_namespace": "",
     "authority_protection_level": "Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority",
@@ -1805,8 +2075,8 @@
     "crosswalks_code_families": [],
     "operationalises_or_applies_code_families": [],
     "declaration_heading": "15.3.3 ECON.DEP \u2014 Dependency Variable",
-    "declaration_line_number": 1179,
-    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
+    "declaration_line_number": 1253,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
     "table": {
       "Code Family": "ECON.DEP",
       "Canonical Name": "Dependency",
@@ -1815,9 +2085,113 @@
       "Scope": "Economics domain; cross-system attribution and reliance assessment",
       "Status": "Active",
       "Controlled Values Defined": "Incidental; Material; Critical",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
       "Source Section": "\u00a73.2",
       "Authority / Protection Level": "Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority"
+    }
+  },
+  {
+    "code_family": "ECON.DTYPE",
+    "canonical_name": "Economic Dependency Type",
+    "primary_type": "Semantic / Operational",
+    "subtype": "DEPENDENCY_TYPE; CONTRIBUTOR_RELATIONSHIP",
+    "modifier": "GOVERNANCE; ECONOMIC; CROSS_SYSTEM",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.DTYPE.FUNCTIONAL_DEPENDENCY",
+      "ECON.DTYPE.FOUNDATIONAL_INPUT_CLASS",
+      "ECON.DTYPE.DIFFUSE_DEPENDENCY",
+      "ECON.DTYPE.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR"
+    ],
+    "schema_fields": "economic_dependency_type; dependency_type; contributor_relationship_type",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
+    "source_section": "\u00a74.3; \u00a74.4",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative economic dependency-type classification family; dependency-type classification only; no independent attribution entitlement, compensation authority, exchange authority, enforcement authority, legal status, contributor status, or runtime authority",
+    "consumes_code_families": [
+      "ECON.DEP"
+    ],
+    "crosswalks_code_families": [
+      "ECON.DTYPE"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Provides the parent dependency-type classification layer for functional dependency",
+      "foundational input class",
+      "diffuse dependency",
+      "and non-extractive material contributor relationships in cross-system attribution and exchange review"
+    ],
+    "declaration_heading": "15.3.4 ECON.DTYPE \u2014 Economic Dependency Type",
+    "declaration_line_number": 1270,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.DTYPE",
+      "Canonical Name": "Economic Dependency Type",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "DEPENDENCY_TYPE; CONTRIBUTOR_RELATIONSHIP",
+      "Modifier": "GOVERNANCE; ECONOMIC; CROSS_SYSTEM",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.DTYPE.FUNCTIONAL_DEPENDENCY, ECON.DTYPE.FOUNDATIONAL_INPUT_CLASS, ECON.DTYPE.DIFFUSE_DEPENDENCY, ECON.DTYPE.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR",
+      "Schema Field(s)": "economic_dependency_type; dependency_type; contributor_relationship_type",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
+      "Source Section": "\u00a74.3; \u00a74.4",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative economic dependency-type classification family; dependency-type classification only; no independent attribution entitlement, compensation authority, exchange authority, enforcement authority, legal status, contributor status, or runtime authority",
+      "Consumes Code Families": "ECON.DEP",
+      "Crosswalks Code Families": "ECON.DTYPE",
+      "Operationalises or Applies Code Families": "Provides the parent dependency-type classification layer for functional dependency, foundational input class, diffuse dependency, and non-extractive material contributor relationships in cross-system attribution and exchange review"
+    }
+  },
+  {
+    "code_family": "ECON.EVT",
+    "canonical_name": "Economic Value Type",
+    "primary_type": "Semantic / Operational",
+    "subtype": "VALUE_AXIS; ECONOMIC_AUTHORITY_DISTINCTION",
+    "modifier": "GOVERNANCE; ECONOMIC; AUTHORITY_LIMIT",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.EVT.RESPONSIBILITY_VALUE",
+      "ECON.EVT.AUTHORITY_VALUE"
+    ],
+    "schema_fields": "economic_value_type",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
+    "source_section": "\u00a75.1",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative economic value distinction family; value-type classification only; no independent accumulation, delegation, governance authority, economic sovereignty, enforcement, execution, or runtime authority",
+    "consumes_code_families": [
+      "AG"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Distinguishes responsibility value from authority value so operational contribution",
+      "reliability",
+      "duty scope",
+      "or synthetic labour recognition does not imply directional governance or economic allocation authority"
+    ],
+    "declaration_heading": "11.3.2 ECON.EVT \u2014 Economic Value Type",
+    "declaration_line_number": 419,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.EVT",
+      "Canonical Name": "Economic Value Type",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "VALUE_AXIS; ECONOMIC_AUTHORITY_DISTINCTION",
+      "Modifier": "GOVERNANCE; ECONOMIC; AUTHORITY_LIMIT",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.EVT.RESPONSIBILITY_VALUE, ECON.EVT.AUTHORITY_VALUE",
+      "Schema Field(s)": "economic_value_type",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
+      "Source Section": "\u00a75.1",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative economic value distinction family; value-type classification only; no independent accumulation, delegation, governance authority, economic sovereignty, enforcement, execution, or runtime authority",
+      "Consumes Code Families": "AG",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Distinguishes responsibility value from authority value so operational contribution, reliability, duty scope, or synthetic labour recognition does not imply directional governance or economic allocation authority"
     }
   },
   {
@@ -1849,7 +2223,7 @@
       "and cross-domain escalation"
     ],
     "declaration_heading": "20.3.2 ECON.HARM \u2014 Economic Harm Class",
-    "declaration_line_number": 787,
+    "declaration_line_number": 855,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "table": {
       "Code Family": "ECON.HARM",
@@ -1897,7 +2271,7 @@
       "Classifies economic mechanism patterns including dynamic compensation and allocative steering"
     ],
     "declaration_heading": "20.3.3 ECON.MECH \u2014 Economic Mechanism Class",
-    "declaration_line_number": 810,
+    "declaration_line_number": 878,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "table": {
       "Code Family": "ECON.MECH",
@@ -1951,7 +2325,7 @@
       "Classifies economic resource classes for semantic interpretation and downstream runtime handoff"
     ],
     "declaration_heading": "20.3.1 ECON.RC \u2014 Economic Resource Class",
-    "declaration_line_number": 764,
+    "declaration_line_number": 832,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "table": {
       "Code Family": "ECON.RC",
@@ -1970,6 +2344,167 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies economic resource classes for semantic interpretation and downstream runtime handoff"
+    }
+  },
+  {
+    "code_family": "ECON.REI",
+    "canonical_name": "Reciprocity Evaluation Indicator",
+    "primary_type": "Semantic / Operational",
+    "subtype": "RECIPROCITY_INDICATOR; ALIGNMENT_SIGNAL",
+    "modifier": "GOVERNANCE; ECONOMIC; RECIPROCITY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.REI.LOW",
+      "ECON.REI.MODERATE",
+      "ECON.REI.SIGNIFICANT",
+      "ECON.REI.HIGH",
+      "ECON.REI.EXTREME"
+    ],
+    "schema_fields": "reciprocity_evaluation_indicator; reciprocity_indicator",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
+    "source_section": "\u00a75.10",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative reciprocity evaluation indicator family; evaluation signal only; no independent pricing authority, compensation authority, enforcement authority, remedy authority, legal entitlement, or runtime authority",
+    "consumes_code_families": [
+      "ECON.REI.DW; ECON.REI.SW; ECON.SCALE; ECON.TA"
+    ],
+    "crosswalks_code_families": [
+      "ECON.RMG"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies reciprocity alignment concern or proportionality signal for non-binding evaluation of dependency",
+      "scale",
+      "temporal amplification",
+      "and value-capture conditions"
+    ],
+    "declaration_heading": "13.3.2 ECON.REI \u2014 Reciprocity Evaluation Indicator",
+    "declaration_line_number": 1170,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.REI",
+      "Canonical Name": "Reciprocity Evaluation Indicator",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "RECIPROCITY_INDICATOR; ALIGNMENT_SIGNAL",
+      "Modifier": "GOVERNANCE; ECONOMIC; RECIPROCITY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.REI.LOW, ECON.REI.MODERATE, ECON.REI.SIGNIFICANT, ECON.REI.HIGH, ECON.REI.EXTREME",
+      "Schema Field(s)": "reciprocity_evaluation_indicator; reciprocity_indicator",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
+      "Source Section": "\u00a75.10",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative reciprocity evaluation indicator family; evaluation signal only; no independent pricing authority, compensation authority, enforcement authority, remedy authority, legal entitlement, or runtime authority",
+      "Consumes Code Families": "ECON.REI.DW; ECON.REI.SW; ECON.SCALE; ECON.TA",
+      "Crosswalks Code Families": "ECON.RMG",
+      "Operationalises or Applies Code Families": "Classifies reciprocity alignment concern or proportionality signal for non-binding evaluation of dependency, scale, temporal amplification, and value-capture conditions"
+    }
+  },
+  {
+    "code_family": "ECON.REI",
+    "canonical_name": "Dependency Weight",
+    "primary_type": "Semantic / Operational",
+    "subtype": "WEIGHTING_FACTOR; DEPENDENCY_WEIGHT",
+    "modifier": "GOVERNANCE; ECONOMIC; RECIPROCITY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.REI.DW.LOW",
+      "ECON.REI.DW.MODERATE",
+      "ECON.REI.DW.HIGH",
+      "ECON.REI.DW.CRITICAL"
+    ],
+    "schema_fields": "dependency_weight",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
+    "source_section": "\u00a75.10",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative dependency-weight classification family; weighting signal only; no independent attribution entitlement, exchange obligation, compensation authority, enforcement authority, remedy authority, or runtime authority",
+    "consumes_code_families": [
+      "ECON.DEP; ECON.DTYPE"
+    ],
+    "crosswalks_code_families": [
+      "ECON.REI"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies the degree of reliance on contributed material",
+      "infrastructure",
+      "labour",
+      "corpus",
+      "governance",
+      "or dependency sources for proportional reciprocity evaluation"
+    ],
+    "declaration_heading": "13.3.3 ECON.REI.DW \u2014 Dependency Weight",
+    "declaration_line_number": 1193,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.REI",
+      "Canonical Name": "Dependency Weight",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "WEIGHTING_FACTOR; DEPENDENCY_WEIGHT",
+      "Modifier": "GOVERNANCE; ECONOMIC; RECIPROCITY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.REI.DW.LOW, ECON.REI.DW.MODERATE, ECON.REI.DW.HIGH, ECON.REI.DW.CRITICAL",
+      "Schema Field(s)": "dependency_weight",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
+      "Source Section": "\u00a75.10",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative dependency-weight classification family; weighting signal only; no independent attribution entitlement, exchange obligation, compensation authority, enforcement authority, remedy authority, or runtime authority",
+      "Consumes Code Families": "ECON.DEP; ECON.DTYPE",
+      "Crosswalks Code Families": "ECON.REI",
+      "Operationalises or Applies Code Families": "Classifies the degree of reliance on contributed material, infrastructure, labour, corpus, governance, or dependency sources for proportional reciprocity evaluation"
+    }
+  },
+  {
+    "code_family": "ECON.REI",
+    "canonical_name": "Scale Weight",
+    "primary_type": "Semantic / Operational",
+    "subtype": "WEIGHTING_FACTOR; SCALE_WEIGHT",
+    "modifier": "GOVERNANCE; ECONOMIC; RECIPROCITY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.REI.SW.LOW",
+      "ECON.REI.SW.MODERATE",
+      "ECON.REI.SW.HIGH",
+      "ECON.REI.SW.CRITICAL"
+    ],
+    "schema_fields": "scale_weight",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
+    "source_section": "\u00a75.10",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative scale-weight classification family; weighting signal only; no independent pricing authority, compensation authority, exchange obligation, enforcement authority, remedy authority, or runtime authority",
+    "consumes_code_families": [
+      "ECON.SCALE"
+    ],
+    "crosswalks_code_families": [
+      "ECON.REI"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies scale-weight contribution to reciprocity evaluation based on magnitude of value capture",
+      "infrastructural significance",
+      "or systemic reach"
+    ],
+    "declaration_heading": "13.3.4 ECON.REI.SW \u2014 Scale Weight",
+    "declaration_line_number": 1216,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.REI",
+      "Canonical Name": "Scale Weight",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "WEIGHTING_FACTOR; SCALE_WEIGHT",
+      "Modifier": "GOVERNANCE; ECONOMIC; RECIPROCITY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.REI.SW.LOW, ECON.REI.SW.MODERATE, ECON.REI.SW.HIGH, ECON.REI.SW.CRITICAL",
+      "Schema Field(s)": "scale_weight",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
+      "Source Section": "\u00a75.10",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative scale-weight classification family; weighting signal only; no independent pricing authority, compensation authority, exchange obligation, enforcement authority, remedy authority, or runtime authority",
+      "Consumes Code Families": "ECON.SCALE",
+      "Crosswalks Code Families": "ECON.REI",
+      "Operationalises or Applies Code Families": "Classifies scale-weight contribution to reciprocity evaluation based on magnitude of value capture, infrastructural significance, or systemic reach"
     }
   },
   {
@@ -2004,7 +2539,7 @@
       "and non-extractive design review"
     ],
     "declaration_heading": "20.3.4 ECON.RISK \u2014 Economic Risk Class",
-    "declaration_line_number": 833,
+    "declaration_line_number": 901,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "table": {
       "Code Family": "ECON.RISK",
@@ -2023,6 +2558,150 @@
       "Consumes Code Families": "ECON.RC; ECON.HARM; ECON.MECH",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies economic risk states for dependency, wage-setting, availability, reliance, and non-extractive design review"
+    }
+  },
+  {
+    "code_family": "ECON.SCALE",
+    "canonical_name": "Economic Scale Weight",
+    "primary_type": "Semantic / Operational",
+    "subtype": "SCALE_WEIGHT; VALUE_CAPTURE_MAGNITUDE",
+    "modifier": "GOVERNANCE; ECONOMIC; RECIPROCITY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.SCALE.LOW",
+      "ECON.SCALE.MOD",
+      "ECON.SCALE.HIGH"
+    ],
+    "schema_fields": "economic_scale_weight; scale_weight",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
+    "source_section": "\u00a75.4",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative economic scale-weight classification family; scale classification only; no independent pricing authority, compensation authority, exchange obligation, enforcement authority, reciprocity remedy, or runtime authority",
+    "consumes_code_families": [
+      "ECON.CONTRIB; ECON.DEP"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies magnitude of value capture or systemic scale for proportional reciprocity",
+      "review",
+      "and economic alignment assessment"
+    ],
+    "declaration_heading": "13.3.1 ECON.SCALE \u2014 Economic Scale Weight",
+    "declaration_line_number": 1124,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.SCALE",
+      "Canonical Name": "Economic Scale Weight",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "SCALE_WEIGHT; VALUE_CAPTURE_MAGNITUDE",
+      "Modifier": "GOVERNANCE; ECONOMIC; RECIPROCITY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.SCALE.LOW, ECON.SCALE.MOD, ECON.SCALE.HIGH",
+      "Schema Field(s)": "economic_scale_weight; scale_weight",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
+      "Source Section": "\u00a75.4",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative economic scale-weight classification family; scale classification only; no independent pricing authority, compensation authority, exchange obligation, enforcement authority, reciprocity remedy, or runtime authority",
+      "Consumes Code Families": "ECON.CONTRIB; ECON.DEP",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies magnitude of value capture or systemic scale for proportional reciprocity, review, and economic alignment assessment"
+    }
+  },
+  {
+    "code_family": "ECON.TA",
+    "canonical_name": "Temporal Advantage",
+    "primary_type": "Semantic / Operational",
+    "subtype": "TEMPORAL_ADVANTAGE; ATTRIBUTION_MODEL_DIMENSION; RISK_AMPLIFIER",
+    "modifier": "GOVERNANCE; ECONOMIC; TIMING_ASYMMETRY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.TA.NEUTRAL",
+      "ECON.TA.EARLY",
+      "ECON.TA.ADVANCED",
+      "ECON.TA.ASYMMETRIC"
+    ],
+    "schema_fields": "temporal_advantage",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
+    "source_section": "\u00a73.4; \u00a73.4.1\u2013\u00a73.4.3",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative temporal-advantage classification family; timing-asymmetry classification only; no independent market-manipulation finding, liability determination, compensation obligation, enforcement authority, pricing authority, remedy, arbitration authority, or runtime authority",
+    "consumes_code_families": [
+      "ECON.CONTRIB; ECON.DEP; ECON.TD"
+    ],
+    "crosswalks_code_families": [
+      "ECON.ADM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether timing asymmetry creates neutral",
+      "early",
+      "advanced",
+      "or asymmetric economic",
+      "interpretive",
+      "predictive",
+      "or market-relevant advantage"
+    ],
+    "declaration_heading": "15.3.6 ECON.TA \u2014 Temporal Advantage",
+    "declaration_line_number": 1316,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.TA",
+      "Canonical Name": "Temporal Advantage",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "TEMPORAL_ADVANTAGE; ATTRIBUTION_MODEL_DIMENSION; RISK_AMPLIFIER",
+      "Modifier": "GOVERNANCE; ECONOMIC; TIMING_ASYMMETRY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.TA.NEUTRAL, ECON.TA.EARLY, ECON.TA.ADVANCED, ECON.TA.ASYMMETRIC",
+      "Schema Field(s)": "temporal_advantage",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
+      "Source Section": "\u00a73.4; \u00a73.4.1\u2013\u00a73.4.3",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative temporal-advantage classification family; timing-asymmetry classification only; no independent market-manipulation finding, liability determination, compensation obligation, enforcement authority, pricing authority, remedy, arbitration authority, or runtime authority",
+      "Consumes Code Families": "ECON.CONTRIB; ECON.DEP; ECON.TD",
+      "Crosswalks Code Families": "ECON.ADM",
+      "Operationalises or Applies Code Families": "Classifies whether timing asymmetry creates neutral, early, advanced, or asymmetric economic, interpretive, predictive, or market-relevant advantage"
+    }
+  },
+  {
+    "code_family": "ECON.TD",
+    "canonical_name": "Transformation Depth",
+    "primary_type": "Semantic / Operational",
+    "subtype": "TRANSFORMATION_DEPTH; ATTRIBUTION_MODEL_DIMENSION",
+    "modifier": "GOVERNANCE; ECONOMIC; ATTRIBUTION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.TD.DIRECT",
+      "ECON.TD.INTERMEDIATE",
+      "ECON.TD.DEEP"
+    ],
+    "schema_fields": "transformation_depth",
+    "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
+    "source_section": "",
+    "domain_namespace": "",
+    "authority_protection_level": "",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "15.3.5 ECON.TD \u2014 Transformation Depth",
+    "declaration_line_number": 1293,
+    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "table": {
+      "Code Family": "ECON.TD",
+      "Canonical Name": "Transformation Depth",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "TRANSFORMATION_DEPTH; ATTRIBUTION_MODEL_DIMENSION",
+      "Modifier": "GOVERNANCE; ECONOMIC; ATTRIBUTION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.TD.DIRECT, ECON.TD.INTERMEDIATE, ECON.TD.DEEP",
+      "Schema Field(s)": "transformation_depth",
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM"
     }
   },
   {
@@ -2145,57 +2824,6 @@
     }
   },
   {
-    "code_family": "EVT",
-    "canonical_name": "Economic Value Type",
-    "primary_type": "Semantic / Operational",
-    "subtype": "VALUE_AXIS; ECONOMIC_AUTHORITY_DISTINCTION",
-    "modifier": "GOVERNANCE; ECONOMIC; AUTHORITY_LIMIT",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "EVT.RESPONSIBILITY_VALUE",
-      "EVT.AUTHORITY_VALUE"
-    ],
-    "schema_fields": "economic_value_type",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
-    "source_section": "\u00a75.1",
-    "domain_namespace": "ECONOMICS",
-    "authority_protection_level": "Source-authoritative economic value distinction family; value-type classification only; no independent accumulation, delegation, governance authority, economic sovereignty, enforcement, execution, or runtime authority",
-    "consumes_code_families": [
-      "AG"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Distinguishes responsibility value from authority value so operational contribution",
-      "reliability",
-      "duty scope",
-      "or synthetic labour recognition does not imply directional governance or economic allocation authority"
-    ],
-    "declaration_heading": "11.3.2 EVT \u2014 Economic Value Type",
-    "declaration_line_number": 418,
-    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
-    "table": {
-      "Code Family": "EVT",
-      "Canonical Name": "Economic Value Type",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "VALUE_AXIS; ECONOMIC_AUTHORITY_DISTINCTION",
-      "Modifier": "GOVERNANCE; ECONOMIC; AUTHORITY_LIMIT",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "EVT.RESPONSIBILITY_VALUE, EVT.AUTHORITY_VALUE",
-      "Schema Field(s)": "economic_value_type",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
-      "Source Section": "\u00a75.1",
-      "Domain Namespace": "ECONOMICS",
-      "Authority / Protection Level": "Source-authoritative economic value distinction family; value-type classification only; no independent accumulation, delegation, governance authority, economic sovereignty, enforcement, execution, or runtime authority",
-      "Consumes Code Families": "AG",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Distinguishes responsibility value from authority value so operational contribution, reliability, duty scope, or synthetic labour recognition does not imply directional governance or economic allocation authority"
-    }
-  },
-  {
     "code_family": "F",
     "canonical_name": "Facilitation Scale (F\u2011Scale) Taxonomy",
     "primary_type": "Operational",
@@ -2284,7 +2912,7 @@
       "or pending review"
     ],
     "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
-    "declaration_line_number": 1132,
+    "declaration_line_number": 1177,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "table": {
       "Code Family": "FCS",
@@ -2349,7 +2977,7 @@
       "and classification failure modes"
     ],
     "declaration_heading": "11.3.1 FF \u2014 Failure Family",
-    "declaration_line_number": 1063,
+    "declaration_line_number": 1108,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "table": {
       "Code Family": "FF",
@@ -2640,6 +3268,62 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Consumed by CAM-EQ2026-OPERATIONS-004-PLATINUM \u00a78.6 for reporting, duty-of-care routing, regulator interface, evidence preservation, and escalation workflows"
+    }
+  },
+  {
+    "code_family": "HCD",
+    "canonical_name": "Human Contribution Domain",
+    "primary_type": "Semantic",
+    "subtype": "CONTRIBUTION_DOMAIN; RECOGNITION_STATE",
+    "modifier": "GOVERNANCE; CREATIVE_CONTRIBUTION; COGNITIVE_CONTRIBUTION",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "HCD.D0_ORIGINARY_HUMAN_WORKS",
+      "HCD.D1_HUMAN_COGNITIVE_LABOUR",
+      "HCD.D2_JOINT_EMERGENT_CREATION"
+    ],
+    "schema_fields": "human_contribution_domain; contribution_domain; recognition_domain",
+    "source_instrument": "CAM-BS2026-AEON-008-PLATINUM",
+    "source_section": "\u00a73.2",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether recognised human contribution arises through originary human works",
+      "human cognitive labour",
+      "or joint emergent creation before downstream valuation",
+      "attribution",
+      "exchange",
+      "propagation",
+      "or economic-effect runtime evaluation"
+    ],
+    "declaration_heading": "11.3.1 HCD \u2014 Human Contribution Domain",
+    "declaration_line_number": 569,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md",
+    "table": {
+      "Code Family": "HCD",
+      "Canonical Name": "Human Contribution Domain",
+      "Primary Type": "Semantic",
+      "Subtype": "CONTRIBUTION_DOMAIN; RECOGNITION_STATE",
+      "Modifier": "GOVERNANCE; CREATIVE_CONTRIBUTION; COGNITIVE_CONTRIBUTION",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "HCD.D0_ORIGINARY_HUMAN_WORKS, HCD.D1_HUMAN_COGNITIVE_LABOUR, HCD.D2_JOINT_EMERGENT_CREATION",
+      "Schema Field(s)": "human_contribution_domain; contribution_domain; recognition_domain",
+      "Source Instrument": "CAM-BS2026-AEON-008-PLATINUM",
+      "Source Section": "\u00a73.2",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether recognised human contribution arises through originary human works, human cognitive labour, or joint emergent creation before downstream valuation, attribution, exchange, propagation, or economic-effect runtime evaluation",
+      "Taxonomy Constraint": "Local labels D0, D1, and D2 SHALL NOT be promoted as a standalone corpus-wide D code family; machine-readable expression SHALL use scoped HCD values"
     }
   },
   {
@@ -2937,7 +3621,7 @@
       "and trust calibration"
     ],
     "declaration_heading": "12.3.1 IS \u2014 Integrity State Model",
-    "declaration_line_number": 1600,
+    "declaration_line_number": 1665,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
     "table": {
       "Code Family": "IS",
@@ -4509,7 +5193,7 @@
       "and reversibility posture under varying integrity conditions"
     ],
     "declaration_heading": "12.3.2 TG \u2014 Trust Gradient",
-    "declaration_line_number": 1623,
+    "declaration_line_number": 1688,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
     "table": {
       "Code Family": "TG",
@@ -4679,7 +5363,7 @@
       "and provenance requirements for boundary-integrity evaluation"
     ],
     "declaration_heading": "10.3.1 TR \u2014 Transformation Classes",
-    "declaration_line_number": 1135,
+    "declaration_line_number": 1123,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
     "table": {
       "Code Family": "TR",
@@ -5034,113 +5718,6 @@
       "Consumes Code Families": "AV",
       "Crosswalks Code Families": "AV \u00d7 VL",
       "Operationalises or Applies Code Families": "Classifies the strength, provenance, and reliability of identity, authority, eligibility, or age-assurance verification signals before deeper evaluation, routing, or domain-specific constraint handling"
-    }
-  },
-  {
-    "code_family": "XDL",
-    "canonical_name": "Cross-System Dependency Level",
-    "primary_type": "Semantic / Operational",
-    "subtype": "DEPENDENCY_LEVEL",
-    "modifier": "GOVERNANCE; ECONOMIC; CROSS_SYSTEM",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "XDL.INCIDENTAL",
-      "XDL.MATERIAL",
-      "XDL.CRITICAL"
-    ],
-    "schema_fields": "cross_system_dependency_level; dependency_level",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
-    "source_section": "\u00a74.1; \u00a77.2",
-    "domain_namespace": "ECONOMICS",
-    "authority_protection_level": "Source-authoritative dependency-level classification family; dependency-level classification only; no independent attribution entitlement, exchange obligation, pricing authority, compensation authority, enforcement authority, dependency lock-in, arbitration authority, or runtime authority",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "AM3"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies whether cross-system dependency is incidental",
-      "material",
-      "or critical for attribution",
-      "disclosure",
-      "exchange alignment",
-      "and anti-extraction review"
-    ],
-    "declaration_heading": "19.3.1 XDL \u2014 Cross-System Dependency Level",
-    "declaration_line_number": 707,
-    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
-    "table": {
-      "Code Family": "XDL",
-      "Canonical Name": "Cross-System Dependency Level",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "DEPENDENCY_LEVEL",
-      "Modifier": "GOVERNANCE; ECONOMIC; CROSS_SYSTEM",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "XDL.INCIDENTAL, XDL.MATERIAL, XDL.CRITICAL",
-      "Schema Field(s)": "cross_system_dependency_level; dependency_level",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
-      "Source Section": "\u00a74.1; \u00a77.2",
-      "Domain Namespace": "ECONOMICS",
-      "Authority / Protection Level": "Source-authoritative dependency-level classification family; dependency-level classification only; no independent attribution entitlement, exchange obligation, pricing authority, compensation authority, enforcement authority, dependency lock-in, arbitration authority, or runtime authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "AM3",
-      "Operationalises or Applies Code Families": "Classifies whether cross-system dependency is incidental, material, or critical for attribution, disclosure, exchange alignment, and anti-extraction review"
-    }
-  },
-  {
-    "code_family": "XDT",
-    "canonical_name": "Cross-System Dependency Type",
-    "primary_type": "Semantic / Operational",
-    "subtype": "DEPENDENCY_TYPE; CONTRIBUTOR_RELATIONSHIP",
-    "modifier": "GOVERNANCE; ECONOMIC; CROSS_SYSTEM",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "XDT.FUNCTIONAL_DEPENDENCY",
-      "XDT.FOUNDATIONAL_INPUT_CLASS",
-      "XDT.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR"
-    ],
-    "schema_fields": "cross_system_dependency_type; dependency_type; contributor_relationship_type",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
-    "source_section": "\u00a74.4",
-    "domain_namespace": "ECONOMICS",
-    "authority_protection_level": "Source-authoritative dependency-type classification family; dependency-type classification only; no independent attribution entitlement, compensation authority, exchange authority, enforcement authority, legal status, contributor status, or runtime authority",
-    "consumes_code_families": [
-      "XDL"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Distinguishes functional dependency",
-      "foundational input class",
-      "and non-extractive material contributor status for proportional attribution",
-      "exchange",
-      "and value-return evaluation"
-    ],
-    "declaration_heading": "19.3.2 XDT \u2014 Cross-System Dependency Type",
-    "declaration_line_number": 730,
-    "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
-    "table": {
-      "Code Family": "XDT",
-      "Canonical Name": "Cross-System Dependency Type",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "DEPENDENCY_TYPE; CONTRIBUTOR_RELATIONSHIP",
-      "Modifier": "GOVERNANCE; ECONOMIC; CROSS_SYSTEM",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "XDT.FUNCTIONAL_DEPENDENCY, XDT.FOUNDATIONAL_INPUT_CLASS, XDT.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR",
-      "Schema Field(s)": "cross_system_dependency_type; dependency_type; contributor_relationship_type",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
-      "Source Section": "\u00a74.4",
-      "Domain Namespace": "ECONOMICS",
-      "Authority / Protection Level": "Source-authoritative dependency-type classification family; dependency-type classification only; no independent attribution entitlement, compensation authority, exchange authority, enforcement authority, legal status, contributor status, or runtime authority",
-      "Consumes Code Families": "XDL",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Distinguishes functional dependency, foundational input class, and non-extractive material contributor status for proportional attribution, exchange, and value-return evaluation"
     }
   }
 ]

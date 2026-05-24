@@ -14,9 +14,12 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 GOV_DIR = REPO_ROOT / "Governance"
 GOV_JSON_PATH = GOV_DIR / "CAM.Governance.JSON"
 SCH01_PATH = GOV_DIR / "Constitution" / "CAM-BS2025-AEON-003-SCH-01.md"
+MODEL_AUDIT_PATH = REPO_ROOT / ".github" / "Indices" / "CAM.Governance.Model-Terminology.Audit.md"
 
 REGISTRY_START = "<!-- SCH-01:RUNTIME_REGISTRY:START -->"
 REGISTRY_END = "<!-- SCH-01:RUNTIME_REGISTRY:END -->"
+MODEL_REGISTER_START = "<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->"
+MODEL_REGISTER_END = "<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:END -->"
 
 
 @dataclass(frozen=True)
@@ -31,6 +34,15 @@ class RuntimeRegistryItem:
     governance_layer_source: str
     runtime_layer: str
     runtime_layer_source: str
+
+
+@dataclass(frozen=True)
+class ModelTerminologyItem:
+    instrument_id: str
+    section_heading: str
+    term_used: str
+    suggested_classification: str
+    review_status: str
 
 
 def warn(message: str) -> None:
@@ -310,6 +322,179 @@ def update_registry_block(table_block: str) -> None:
     SCH01_PATH.write_text(updated, encoding="utf-8")
 
 
+def classify_model_term(term: str) -> str:
+    t = term.lower()
+    if "caelestis architecture model" in t:
+        return "Architecture Model"
+    if "runtime governance execution model" in t or "governance execution model" in t:
+        return "Execution Model"
+    if any(x in t for x in ("attribution & dependency model", "reciprocity economic interpretive model")):
+        return "Economic Model"
+    if any(x in t for x in ("integrity state model", "trust gradient model")):
+        return "Security Model"
+    if "response calibration model" in t:
+        return "Governance Model"
+    if any(x in t for x in ("classification model", "taxonomy model", "faceted model")):
+        return "Classification Model"
+    if any(x in t for x in ("ai model", "hosted model", "model-level", "multi-model", "model behaviour")):
+        return "Technical / AI Model"
+    if any(x in t for x in ("economic", "pricing", "subscription")):
+        return "Generic / Non-Canonical Usage"
+    if any(x in t for x in ("governance", "policy", "calibration")):
+        return "Governance Model"
+    if any(x in t for x in ("integrity", "trust", "security")):
+        return "Security Model"
+    if any(x in t for x in ("relational", "operational", "domain")):
+        return "Domain Sub-Model"
+    if re.fullmatch(r".*\bmodels?\b", t):
+        return "Generic / Non-Canonical Usage"
+    return "Unclassified / Review"
+
+
+def classify_review_status(classification: str) -> str:
+    if classification in {"Architecture Model", "Execution Model", "Governance Model", "Classification Model"}:
+        return "Declared / Recognised"
+    if classification in {"Domain Sub-Model", "Economic Model", "Security Model", "Technical / AI Model"}:
+        return "Advisory Review"
+    if classification == "Generic / Non-Canonical Usage":
+        return "Generic Usage"
+    return "Needs Review"
+
+
+def extract_model_term(line: str) -> str | None:
+    phrase_match = re.search(r"\b([A-Za-z0-9/&()\-\s]{0,80}models?)\b", line, re.IGNORECASE)
+    if phrase_match:
+        return re.sub(r"\s+", " ", phrase_match.group(1)).strip(" .,:;`*_")
+    return None
+
+
+def strip_generated_blocks_for_scan(text: str) -> str:
+    patterns = [
+        (REGISTRY_START, REGISTRY_END),
+        (MODEL_REGISTER_START, MODEL_REGISTER_END),
+    ]
+    cleaned = text
+    for start, end in patterns:
+        cleaned = re.sub(
+            rf"{re.escape(start)}.*?{re.escape(end)}",
+            "",
+            cleaned,
+            flags=re.DOTALL,
+        )
+    return cleaned
+
+
+def build_model_terminology_rows() -> list[ModelTerminologyItem]:
+    rows: list[ModelTerminologyItem] = []
+    for path in sorted(REPO_ROOT.glob("Governance/**/*.md")):
+        text = strip_generated_blocks_for_scan(read_text(path))
+        instrument_id = path.stem
+        current_heading = "Document Context"
+        for line in text.splitlines():
+            heading_match = re.match(r"^(#{1,6})\s+(.+?)\s*$", line)
+            if heading_match:
+                current_heading = heading_match.group(2).strip()
+                continue
+            if not re.search(r"\bmodels?\b", line, re.IGNORECASE):
+                continue
+            term_used = extract_model_term(line)
+            if not term_used:
+                continue
+            rows.append(
+                ModelTerminologyItem(
+                    instrument_id=instrument_id,
+                    section_heading=current_heading,
+                    term_used=term_used,
+                    suggested_classification=classify_model_term(term_used),
+                    review_status=classify_review_status(classify_model_term(term_used)),
+                )
+            )
+    deduped = {(r.instrument_id, r.section_heading, r.term_used): r for r in rows}
+    return sorted(deduped.values(), key=lambda r: (r.instrument_id, r.section_heading.lower(), r.term_used.lower()))
+
+
+def summarise_model_terminology(rows: list[ModelTerminologyItem]) -> dict[str, int]:
+    summary = {
+        "total_scanned": len(rows),
+        "generic_suppressed": 0,
+        "declared_emitted": 0,
+        "advisory_emitted": 0,
+        "needs_review_emitted": 0,
+    }
+    for row in rows:
+        if row.suggested_classification == "Generic / Non-Canonical Usage" or row.review_status == "Generic Usage":
+            summary["generic_suppressed"] += 1
+            continue
+        if row.review_status == "Declared / Recognised":
+            summary["declared_emitted"] += 1
+        elif row.review_status == "Advisory Review":
+            summary["advisory_emitted"] += 1
+        elif row.review_status == "Needs Review":
+            summary["needs_review_emitted"] += 1
+    return summary
+
+
+def render_model_terminology_summary(rows: list[ModelTerminologyItem]) -> str:
+    summary = summarise_model_terminology(rows)
+    return "\n".join(
+        [
+        f"**Total model-term matches scanned:** {summary['total_scanned']}",
+        f"**Generic usages suppressed:** {summary['generic_suppressed']}",
+        f"**Declared / recognised usages emitted:** {summary['declared_emitted']}",
+        f"**Advisory review usages emitted:** {summary['advisory_emitted']}",
+        f"**Needs review usages emitted:** {summary['needs_review_emitted']}",
+        f"**Audit file path:** `{MODEL_AUDIT_PATH.relative_to(REPO_ROOT).as_posix()}`",
+        "",
+        ]
+    )
+
+
+def render_model_terminology_register(rows: list[ModelTerminologyItem]) -> str:
+    lines = [
+        "# CAM Governance Model Terminology Audit",
+        "",
+        render_model_terminology_summary(rows),
+        "| Instrument | Section / Heading | Term Used | Suggested Classification | Review Status |",
+        "|---|---|---|---|---|",
+    ]
+    for row in rows:
+        if row.suggested_classification == "Generic / Non-Canonical Usage" or row.review_status == "Generic Usage":
+            continue
+        if row.review_status not in {"Declared / Recognised", "Advisory Review", "Needs Review"}:
+            continue
+        lines.append(
+            f"| {row.instrument_id} | {row.section_heading} | {row.term_used} | {row.suggested_classification} | {row.review_status} |"
+        )
+    lines.extend(["", "**Generation:** Deterministic (timestamp omitted)", "**Scope:** Governance/**/*.md model terminology scan"])
+    return "\n".join(lines)
+
+
+def update_model_terminology_block(table_block: str) -> None:
+    text = read_text(SCH01_PATH)
+    text = text.replace(
+        "## 4.2 Execution Sequencing Model (Non-Layer Classification)",
+        "## 4.1 Execution Sequencing Model (Non-Layer Classification)",
+    )
+    heading = "## 4.1 Model, Sub-Model & Framework Terminology Register"
+    section_block = (
+        f"{heading}\n\n{MODEL_REGISTER_START}\n{MODEL_REGISTER_END}\n\n---\n"
+    )
+    if MODEL_REGISTER_START not in text or MODEL_REGISTER_END not in text:
+        anchor = f"{REGISTRY_END}\n---"
+        if anchor in text:
+            text = text.replace(anchor, f"{REGISTRY_END}\n\n---\n\n{section_block}", 1)
+        else:
+            text = text.rstrip() + "\n\n" + section_block + "\n"
+    pattern = re.compile(rf"{re.escape(MODEL_REGISTER_START)}.*?{re.escape(MODEL_REGISTER_END)}", re.DOTALL)
+    updated = pattern.sub(f"{MODEL_REGISTER_START}\n{table_block}\n{MODEL_REGISTER_END}", text)
+    SCH01_PATH.write_text(updated, encoding="utf-8")
+
+
+def write_model_terminology_audit(audit_content: str) -> None:
+    MODEL_AUDIT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    MODEL_AUDIT_PATH.write_text(audit_content + "\n", encoding="utf-8")
+
+
 def main() -> None:
     audit_mode = "--audit" in sys.argv
     items = load_governance_items()
@@ -320,6 +505,11 @@ def main() -> None:
 
     block = render_registry(rows)
     update_registry_block(block)
+    model_rows = build_model_terminology_rows()
+    model_summary_block = render_model_terminology_summary(model_rows)
+    update_model_terminology_block(model_summary_block)
+    model_audit_content = render_model_terminology_register(model_rows)
+    write_model_terminology_audit(model_audit_content)
     print(f"Updated: {SCH01_PATH.relative_to(REPO_ROOT)}")
 
 
