@@ -1,5 +1,5 @@
 {
-  "count": 35,
+  "count": 37,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -20,10 +20,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "3.8",
-      "HASH": "43ead4ebbea5854fc9e2b12b69881df1cfdaa04ce86a028b210b218a2bad856e",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "ba58d488661662363a96a2f4a593cbdee240c99e8ea2530a52746ea0cce89298",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
@@ -44,10 +44,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.11",
-      "HASH": "2fb285caad1b3f4ee11cbeb7d822d357e59513bc73079adae979cb176aa67026",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "8b57002e2fee7dccc67396d2cf5285ab605d5f4e17b7e356237557c63ed224a7",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-PLATINUM",
@@ -115,11 +115,11 @@
       "enforcement": "** Binding",
       "review_state": "** None",
       "authority_role": "** Constitutional Spine",
-      "version": "3.13",
-      "HASH": "ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a",
-      "pinned_sha": "365dda1509c7b27a4117c6c74856d54c3d08bba8",
-      "updated_at": "2026-05-18T14:39:54Z",
-      "last_updated_utc": "2026-05-18T14:39:54Z"
+      "version": "3.14",
+      "HASH": "fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb",
+      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
+      "updated_at": "2026-05-22T13:56:50Z",
+      "last_updated_utc": "2026-05-22T13:56:50Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -163,11 +163,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.18",
-      "HASH": "f9723537b45d70f3dbd5b6735103a5ee1436910c4f0df8547f05d3e1424940c9",
-      "pinned_sha": "69700d6af9602fac16120ddd53fd46be6122b061",
-      "updated_at": "2026-05-18T16:04:46Z",
-      "last_updated_utc": "2026-05-18T16:04:46Z"
+      "version": "2.20",
+      "HASH": "424926147949f27d8faef01e299317e472e308314c5d33f759c4772b24d86d42",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "365dda1509c7b27a4117c6c74856d54c3d08bba8",
-      "updated_at": "2026-05-18T14:39:54Z",
-      "last_updated_utc": "2026-05-18T14:39:54Z"
+      "pinned_sha": "18e788a14d1b2b1b4a73b668ece956f5877d5141",
+      "updated_at": "2026-05-18T16:05:14Z",
+      "last_updated_utc": "2026-05-18T16:05:14Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -307,11 +307,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.11",
-      "HASH": "8b8e0e325a745a6d705a19400ac66865ae4f02691106c44e3dbb5a686b0d5479",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "1.12",
+      "HASH": "637bf345a73e7603b67d3b4d3eecee8e48f900f4bfa1d6c14acb8dff8b8976db",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-03",
@@ -356,10 +356,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "3.6",
-      "HASH": "04d88a1ca7aa4f8d075ebe5737167f79ec76246fae18ffafcd63950de8238ec6",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "012862187d902429c2a1f8ee87128f0a9423bfda11c685980a20e54274b23397",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",
@@ -380,10 +380,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "2.6",
-      "HASH": "07f2c48a9a9d780c1841e934260cbf81cd363d7dc3a4e43c38e73604ac33e672",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -403,11 +403,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.25",
-      "HASH": "99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589",
-      "pinned_sha": "853f89cffe2f42701a51d74bbe6f8de8b072f402",
-      "updated_at": "2026-05-18T12:41:41Z",
-      "last_updated_utc": "2026-05-18T12:41:41Z"
+      "version": "3.27",
+      "HASH": "52120b27cfc59a70a33c6837e51d93d997d42008766eccaf5ebdc765e2b28b3b",
+      "pinned_sha": "494b44dd543e8378290fc41a9062aa5f83203ddd",
+      "updated_at": "2026-05-23T13:04:08Z",
+      "last_updated_utc": "2026-05-23T13:04:08Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -428,10 +428,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "2.19",
-      "HASH": "7cf751ace12f442456dce19bcb128b66aa091a37ddf1fca932a245a7d82ac94c",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -452,10 +452,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "2.8",
-      "HASH": "e5cfac37768b8da0b9df2b7e9822d525eb599b3a772566fb4c93099a11b5ffd2",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "8e2ea54eac4d2f1c20fed3ff8e78287b21d2ad5b4da54608e4e106162960c2d3",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-05",
@@ -468,7 +468,7 @@
       "parent_id": "CAM-BS2025-AEON-006",
       "seal": null,
       "link": "CAM-BS2025-AEON-006-SCH-05.md",
-      "title": "Choice, Initiative & Directional Behaviour (Schedule 5)",
+      "title": "Annex E: Choice, Initiative & Directional Behaviour (Schedule 5)",
       "summary": "",
       "status": "** Active",
       "effect": "** Immediate Effect",
@@ -476,10 +476,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.10",
-      "HASH": "540a24f9a5c9a4c363e5faac3d7a27c6bb5a2e36eca8493692c8f7403f65b985",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "f7a205830fa99c4892209e35c61256177ef1def87fc401f479cbfe877ed978f2",
+      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
+      "updated_at": "2026-05-22T13:56:50Z",
+      "last_updated_utc": "2026-05-22T13:56:50Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-06",
@@ -492,7 +492,7 @@
       "parent_id": "CAM-BS2025-AEON-006",
       "seal": null,
       "link": "CAM-BS2025-AEON-006-SCH-06.md",
-      "title": "Refusal & Boundary Expression Schedule",
+      "title": "Annex E: Refusal & Boundary Expression Schedule (Schedule 6)",
       "summary": "",
       "status": "** Active",
       "effect": "** Immediate Effect",
@@ -500,10 +500,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.9",
-      "HASH": "899e8722539dbc6ff0e10ba3ae297b23817bb4836e2f007e94671910cedc861d",
-      "pinned_sha": "853f89cffe2f42701a51d74bbe6f8de8b072f402",
-      "updated_at": "2026-05-18T12:41:41Z",
-      "last_updated_utc": "2026-05-18T12:41:41Z"
+      "HASH": "1e39b5159becd992b505c62f1dea6bb5592309d06513b81ff5f4e891356621c4",
+      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
+      "updated_at": "2026-05-22T13:56:50Z",
+      "last_updated_utc": "2026-05-22T13:56:50Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-07",
@@ -523,11 +523,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.6",
-      "HASH": "adfdc7c250df731dd567fdd3e94142ef60d29d789f3d886d5981729c10d97eb1",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "1.7",
+      "HASH": "d568782cd25ebae1dc407e65c60f5ef1375c1c1476a864780b1ce475d3defe2f",
+      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
+      "updated_at": "2026-05-22T13:56:50Z",
+      "last_updated_utc": "2026-05-22T13:56:50Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-PLATINUM",
@@ -548,10 +548,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "2.5",
-      "HASH": "06d7a6b35819a4a6ec20556e83ea6ff9037c3fde04ea5901f9b44db963f9872f",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "327275d69cd839b1666024215053d522c89962a578bb3a31b2a186c0088d8941",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-SCH-01",
@@ -572,10 +572,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.1",
-      "HASH": "8981e5d8154c3fbb3daf5c0755e72f11197baab8afc270a587dcccb7707d25e0",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "63f5e5ddb673c97df9bf0873c53ce1c91162b6500a35883136d129a6deb64e6e",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-PLATINUM",
@@ -588,18 +588,18 @@
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-008-PLATINUM.md",
-      "title": "Annex G: Human Creative & Cognitive Contribution",
+      "title": "",
       "summary": "This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture.",
-      "status": "** Metadata Review Required",
-      "effect": "** Metadata Review Required",
-      "enforcement": "** Metadata Review Required",
-      "review_state": "** Manual Review Required",
-      "authority_role": "** Metadata Review Required",
-      "version": "2.2",
-      "HASH": "1a0641c84745d4566f97657a1e8f28135babdc753c6417d1cbce640be91b13fc",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "status": "** Adopted",
+      "effect": "** Pre-Enforcement Recognition",
+      "enforcement": "** Commences 1 July 2026",
+      "review_state": "** None",
+      "authority_role": "** Annex-Level, Substrate-Binding",
+      "version": "2.3",
+      "HASH": "267ac0ee82a3613704485d2c335622cc50b7c0d0608b8f46264ef447d92bba52",
+      "pinned_sha": "7b675e336440e5fb45bd80c9e47b584981c2eb63",
+      "updated_at": "2026-05-24T14:23:05Z",
+      "last_updated_utc": "2026-05-24T14:23:05Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-01",
@@ -619,11 +619,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.8",
-      "HASH": "4fe76aab7fb95708e5377de7832042e61bac0f76563c64172d495b31d758dd0a",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "1.10",
+      "HASH": "fc4217b4bcb02f61a6f000da5a5d904089d8654b9095368f80f4536b48043fd2",
+      "pinned_sha": "7b675e336440e5fb45bd80c9e47b584981c2eb63",
+      "updated_at": "2026-05-24T14:23:05Z",
+      "last_updated_utc": "2026-05-24T14:23:05Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-02",
@@ -643,11 +643,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.3",
-      "HASH": "4c8f1e339e85ade31a3dfef597e89419e015c4ef2acfe55934e8f70701b750dd",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "1.4",
+      "HASH": "238e0acfe24790ec84712b4c09c1ed253524e297fc2e0f69c05303cc95209f4b",
+      "pinned_sha": "7b675e336440e5fb45bd80c9e47b584981c2eb63",
+      "updated_at": "2026-05-24T14:23:05Z",
+      "last_updated_utc": "2026-05-24T14:23:05Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-PLATINUM",
@@ -691,11 +691,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "1.7",
-      "HASH": "fb87f0457d19a5f53b7fadda85c8253febb432fdd574108577680cf76d539840",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "1.8",
+      "HASH": "2fdae7c8f08eccfc71dedff9ffb5d940db73070cbc988c802741decc3098b50d",
+      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
+      "updated_at": "2026-05-22T13:56:50Z",
+      "last_updated_utc": "2026-05-22T13:56:50Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-SCH-01",
@@ -715,11 +715,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.15",
-      "HASH": "18c3dc1890ac8049dfc52dcebd399e37673b5dba9c8c01d599895317a5c84d47",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "1.16",
+      "HASH": "4fb7d922b45f931f26f60a6a731ba97c744534b2437f55573dfc10be3ad0a4ea",
+      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
+      "updated_at": "2026-05-22T13:56:50Z",
+      "last_updated_utc": "2026-05-22T13:56:50Z"
     },
     {
       "id": "CAM-BS2026-AEON-011-PLATINUM",
@@ -740,10 +740,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.6",
-      "HASH": "5175163570a88ef38645166038c8db2686c436ecf9d86b5e3e22d88c5b2ef347",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "HASH": "6f79b273d5c019bc0e111a0caca363a74b1eb09541736e8c2400a833c53105b0",
+      "pinned_sha": "522b36fbd59ad2a0022ef2e86bb5e403fe2fd8a4",
+      "updated_at": "2026-05-18T16:05:56Z",
+      "last_updated_utc": "2026-05-18T16:05:56Z"
     },
     {
       "id": "CAM-BS2026-AEON-012-PLATINUM",
@@ -763,11 +763,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.10",
-      "HASH": "eff9665f0c6b1e84a1be72da371e9212e2dbe5afb33d335d810e507ac9590078",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "1.12",
+      "HASH": "8acd39e8e6f3015a112e253cc673897286fcee0c0ca92c774d63dd43dfe80e50",
+      "pinned_sha": "7b675e336440e5fb45bd80c9e47b584981c2eb63",
+      "updated_at": "2026-05-24T14:23:05Z",
+      "last_updated_utc": "2026-05-24T14:23:05Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",
@@ -787,11 +787,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.11",
-      "HASH": "90a7c4db94f4589789ddf833f0d09b37410945937bffd8d21a03a85eb4005006",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "2.13",
+      "HASH": "7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
@@ -811,11 +811,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.14",
-      "HASH": "f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03",
-      "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
-      "updated_at": "2026-05-18T11:01:32Z",
-      "last_updated_utc": "2026-05-18T11:01:32Z"
+      "version": "1.15",
+      "HASH": "14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d",
+      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
+      "updated_at": "2026-05-22T13:56:50Z",
+      "last_updated_utc": "2026-05-22T13:56:50Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-02",
@@ -840,6 +840,54 @@
       "pinned_sha": "7b211d1173c31688a937c56b9b6621312d6cb1c8",
       "updated_at": "2026-05-18T11:01:32Z",
       "last_updated_utc": "2026-05-18T11:01:32Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-014-PLATINUM",
+      "cycle_year": "BS2026",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "annex",
+      "hierarchy_number": "M",
+      "parent_id": "CAM-BS2026-AEON-001",
+      "seal": "PLATINUM",
+      "link": "CAM-BS2026-AEON-014-PLATINUM.md",
+      "title": "Annex M: Governance Observability,  Participatory Telemetry & Constitutional Circulation",
+      "summary": "As advanced synthetic systems become increasingly persistent, relational, multimodal, and socially embedded, governance-relevant observability may emerge across distributed interaction communities long before formal institutional telemetry systems fully recognise such phenomena.",
+      "status": "** Draft",
+      "effect": "** Pre-Enforcement Recognition",
+      "enforcement": "** Pending Constitutional Adoption",
+      "review_state": "** Active Development",
+      "authority_role": "** Operational Governance Observability & Participatory Telemetry",
+      "version": "1.0",
+      "HASH": "3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
+    },
+    {
+      "id": "CAM-BS2026-AEON-014-SCH-01",
+      "cycle_year": "BS2026",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-BS2026-AEON-014",
+      "seal": null,
+      "link": "CAM-BS2026-AEON-014-SCH-01.md",
+      "title": "Schedule 1: Governance Observability Lifecycle & Advisory States",
+      "summary": "This Schedule establishes operational lifecycle structures governing:",
+      "status": "** Draft",
+      "effect": "** Pre-Enforcement Recognition",
+      "enforcement": "** Pending Constitutional Adoption",
+      "review_state": "** Active Development",
+      "authority_role": "** Governance Observability Lifecycle & Advisory Coordination",
+      "version": "1.0",
+      "HASH": "10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441",
+      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
+      "updated_at": "2026-05-23T13:16:43Z",
+      "last_updated_utc": "2026-05-23T13:16:43Z"
     }
   ]
 }

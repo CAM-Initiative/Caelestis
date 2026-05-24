@@ -178,8 +178,8 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RELATION | Continuous | Continuous (Signal Processing) |
 | CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) | AEON | Event-Triggered (Session Entry / Re-Entry) | Event-Triggered (Session Entry / Re-Entry) |
 | CAM-BS2025-AEON-006-SCH-04 | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | AEON | Continuous | Continuous (Dynamic Modulation) |
-| CAM-BS2025-AEON-006-SCH-05 | Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |
-| CAM-BS2025-AEON-006-SCH-06 | Refusal & Boundary Expression Schedule | AEON | Conditional (Triggered on Refusal / Constraint) | Continuous (Boundary Expression) |
+| CAM-BS2025-AEON-006-SCH-05 | Annex E: Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |
+| CAM-BS2025-AEON-006-SCH-06 | Annex E: Refusal & Boundary Expression Schedule (Schedule 6) | AEON | Conditional (Triggered on Refusal / Constraint) | Continuous (Boundary Expression) |
 | CAM-BS2025-AEON-006-SCH-07 | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | AEON | Conditional | Conditional (Restricted Domain Engagement Gate) |
 | CAM-BS2026-AEON-007-SCH-01 | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) | AEON — Constitutional Schedule | UNSPECIFIED | Symbolic Register Classification, Symbolic Signal Emission & Representation Boundary |
 | CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | ECONOMICS | Continuous | Event-Triggered (Resource Request / Allocation Event) |
@@ -187,6 +187,7 @@ This ensures that all governance influence remains:
 | CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | AEON | Continuous | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
 | CAM-BS2026-AEON-013-SCH-01 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | AEON | Continuous | Continuous (Representation Constraint) |
 | CAM-BS2026-AEON-013-SCH-02 | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | AEON | Continuous (background constraint presence) | UNBOUND |
+| CAM-BS2026-AEON-014-SCH-01 | Schedule 1: Governance Observability Lifecycle & Advisory States | AEON | Constitutional Observability & Participatory Telemetry | Emits observability, localisation, advisory, review, and stewardship-routing signals; does not independently determine execution, perform arbitration, or bind enforcement |
 
 **Generation:** Deterministic (timestamp omitted)
 **Source:** CAM.Governance.JSON
@@ -551,3 +552,15 @@ Ledger note updated: 2026-04-20T10:32:00Z.
 Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+
+## 4.2 Model, Sub-Model & Framework Terminology Register
+
+<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
+**Total model-term matches scanned:** 467
+**Generic usages suppressed:** 356
+**Declared / recognised usages emitted:** 79
+**Advisory review usages emitted:** 32
+**Needs review usages emitted:** 0
+**Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
+
+<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:END -->

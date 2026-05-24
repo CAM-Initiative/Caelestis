@@ -52,12 +52,12 @@ Each script now emits debug telemetry:
 
 | Workflow | Triggers | Scripts Run | Writes / Generated Files | Pushes to `main` | Broad `git add .` |
 |---|---|---|---|---|---|
-| Lint Amendment Ledger | `pull_request`, `push` | `build-symbolic-structures-index.py`, `lint-symbolic-structures.py`, `lint_amendment_ledger.py` | none (validation-only) | no | no |
+| Lint Amendment Ledger | `pull_request`, `push` | `build-canonical-code-index.py`, `lint-symbolic-structures.py`, `lint_amendment_ledger.py` | none (validation-only) | no | no |
 | Update Amendment Ledgers | Removed | N/A | N/A | N/A | N/A |
 | Update Constitution Index | `push` (`main`) | `update-CAM-Constitution-Index.py` | `Governance/Constitution/CAM-Constitution-Index.md`, `Governance/Constitution/constitution.index.json` | yes | no |
 | Update Law Index | `push` (`main`) | `update-CAM-Laws-Index.py` | `Governance/Laws/CAM-Laws-Index.md`, `Governance/Laws/laws.index.json` | yes | no |
 | Update Charters Index | `push` (`main`) | `update-CAM-Charters-Index.py` | `Governance/Charters/CAM-Charters-Index.md`, `Governance/Charters/charters.index.json` | yes | no |
-| Update Governance Index (canonical shared-output writer) | `push` (`main`) | `update-CAM-Governance-Index.py`, `update-CAM-BS2025-AEON-003-SCH-01.py`, `update-CAM-BS2025-AEON-003-SCH-03.py`, `build-symbolic-structures-index.py` | `Governance/CAM.Governance.Index.md`, `Governance/CAM.Governance.JSON`, schedule outputs, symbolic index JSON/MD | yes | no |
+| Update Governance Index (canonical shared-output writer) | `push` (`main`) | `update-CAM-Governance-Index.py`, `update-CAM-BS2025-AEON-003-SCH-01.py`, `update-CAM-BS2025-AEON-003-SCH-03.py`, `build-canonical-code-index.py` | `Governance/CAM.Governance.Index.md`, `Governance/CAM.Governance.JSON`, schedule outputs, canonical code index JSON/MD | yes | no |
 | Update CAM-BS2025-AEON-003-SCH-03 | `pull_request`, `workflow_dispatch` | `update-CAM-BS2025-AEON-003-SCH-01.py`, `update-CAM-BS2025-AEON-003-SCH-03.py` | none (validation-only stale check) | no | no |
 
 ## Ownership Model
@@ -181,7 +181,7 @@ These scripts support symbolic-structure registry validation and generated symbo
 
 | Script | Purpose | Mutates Files | Normal Use |
 | --- | --- | --- | --- |
-| `build-symbolic-structures-index.py` | Builds canonical symbolic-structure index files under `.github/Indices` | Yes | Governance rebuild Phase 8 |
+| `build-canonical-code-index.py` | Builds canonical symbolic-structure index files under `.github/Indices` | Yes | Governance rebuild Phase 8 |
 | `lint-symbolic-structures.py` | Validates symbolic-structure registry shape, candidate prefixes, duplicate structures, collisions, and Canonical Codes metadata | No | Governance rebuild Phase 8 |
 
 These scripts support taxonomy-of-taxonomies work, canonical code governance, symbolic registry hygiene, and collision detection.
@@ -323,14 +323,14 @@ python .github/scripts/update-CAM-Governance-Index.py
 ```
 Purpose: refresh the consolidated governance registry after SCH-01/SCH-03 mutation.
 
-### Phase 8 — Final validation, symbolic rebuild, and idempotency check
+### Phase 8 — Final validation, canonical code index rebuild, and idempotency check
 
 Runs:
 ```
 python .github/scripts/lint_amendment_ledger.py --base "$BASE_SHA" --head "$HEAD_SHA" --strict
 python .github/scripts/validate_markdown_section_refs.py --root Governance
 python .github/scripts/lint-symbolic-structures.py
-python .github/scripts/build-symbolic-structures-index.py
+python .github/scripts/build-canonical-code-index.py
 ```
 Then re-runs the major generators to ensure no stale or non-idempotent generated outputs remain.
 
@@ -367,8 +367,8 @@ python .github/scripts/lint_reference_shorthand.py --root Governance --fix-norma
 ```
 Review changes carefully before committing.
 ```
-Rebuild symbolic indices
-python .github/scripts/build-symbolic-structures-index.py
+Rebuild canonical code indices
+python .github/scripts/build-canonical-code-index.py
 python .github/scripts/lint-symbolic-structures.py
 Run script tests
 python -m pytest .github/scripts/tests
@@ -461,7 +461,7 @@ python .github/scripts/update-CAM-Governance-Index.py
 python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
 python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
 python .github/scripts/update-CAM-Governance-Index.py
-python .github/scripts/build-symbolic-structures-index.py
+python .github/scripts/build-canonical-code-index.py
 ```
 Then check:
 ```
@@ -497,7 +497,7 @@ code listed in metadata but not found in source text.
 
 Remedy:
 ```
-python .github/scripts/build-symbolic-structures-index.py
+python .github/scripts/build-canonical-code-index.py
 python .github/scripts/lint-symbolic-structures.py
 ```
 For release-sensitive checks, use strict mode where applicable.

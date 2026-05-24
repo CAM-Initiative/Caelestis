@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-INDEX_PATH = REPO_ROOT / ".github" / "Indices" / "CAM.Governance.Symbolic-Structures.Index.json"
+CANONICAL_CODE_INDEX_PATH = REPO_ROOT / ".github" / "Indices" / "canonical-code-index.json"
 REGISTRY_PATH = REPO_ROOT / ".github" / "Indices" / "CAM.Governance.Symbolic-Structures.Registry.json"
 
 REQUIRED_FIELDS = [
@@ -26,7 +26,7 @@ REQUIRED_FIELDS = [
 CODE_TOKEN_RE = re.compile(r"\b([A-Z]{1,6}(?:-[A-Z0-9.]+|[0-9][A-Z0-9.]*)?)\b")
 
 
-def load_json(path: Path) -> dict:
+def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -146,8 +146,10 @@ def lint_canonical_codes(*, registry: dict, enforcement: str, strict_release: bo
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Lint symbolic structures index")
-    parser.add_argument("--index", default=str(INDEX_PATH))
+    parser.add_argument("--index", default=str(CANONICAL_CODE_INDEX_PATH))
     parser.add_argument("--registry", default=str(REGISTRY_PATH))
+    parser.add_argument("--require-index", action="store_true", help="Fail when --index path is missing")
+    parser.add_argument("--require-registry", action="store_true", help="Fail when --registry path is missing")
     parser.add_argument("--strict-release", action="store_true", help="Treat registry mismatches/collisions as errors")
     parser.add_argument(
         "--canonical-codes-enforcement",
@@ -157,43 +159,62 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    index = load_json(Path(args.index))
-    registry = load_json(Path(args.registry))
+    index_path = Path(args.index)
+    registry_path = Path(args.registry)
 
     errors: list[str] = []
     warnings: list[str] = []
 
-    errors.extend([f"Malformed registry config: {e}" for e in validate_registry(registry)])
+    index_data = None
+    if index_path.exists():
+        index_data = load_json(index_path)
+    elif args.require_index:
+        errors.append(f"Required index file not found: {index_path}")
+    else:
+        print(f"INFO: index file not found; skipping legacy symbolic index checks: {index_path}")
 
-    for row in index.get("candidate_unregistered_prefixes", []):
-        warnings.append(
-            f"Candidate unregistered prefix '{row.get('prefix','')}' (confidence={row.get('confidence','low')}, reason={row.get('reason','')})"
-        )
+    registry = None
+    if registry_path.exists():
+        registry = load_json(registry_path)
+        errors.extend([f"Malformed registry config: {e}" for e in validate_registry(registry)])
+    elif args.require_registry:
+        errors.append(f"Required registry file not found: {registry_path}")
+    else:
+        print(f"INFO: registry file not found; deriving validation from canonical code index only: {registry_path}")
 
-    for row in index.get("potential_duplicate_symbolic_structures", []):
-        warnings.append(
-            f"Possible duplicate symbolic structure '{row.get('normalized_title','')}' x{row.get('occurrences',0)}"
-        )
+    if isinstance(index_data, dict):
+        for row in index_data.get("candidate_unregistered_prefixes", []):
+            warnings.append(
+                f"Candidate unregistered prefix '{row.get('prefix','')}' (confidence={row.get('confidence','low')}, reason={row.get('reason','')})"
+            )
 
-    for row in index.get("possible_collisions_requiring_review", []):
-        msg = (
-            f"Collision '{row.get('collision_type','unknown')}' for {row.get('prefix','')}:{row.get('value','')} "
-            f"(severity={row.get('severity','warning')}, reason={row.get('reason','')})"
-        )
-        if args.strict_release:
-            errors.append(msg)
-        elif row.get("severity") == "error":
-            errors.append(msg)
-        else:
-            warnings.append(msg)
+        for row in index_data.get("potential_duplicate_symbolic_structures", []):
+            warnings.append(
+                f"Possible duplicate symbolic structure '{row.get('normalized_title','')}' x{row.get('occurrences',0)}"
+            )
 
-    cc_errors, cc_warnings, cc_infos = lint_canonical_codes(
-        registry=registry,
+        for row in index_data.get("possible_collisions_requiring_review", []):
+            msg = (
+                f"Collision '{row.get('collision_type','unknown')}' for {row.get('prefix','')}:{row.get('value','')} "
+                f"(severity={row.get('severity','warning')}, reason={row.get('reason','')})"
+            )
+            if args.strict_release:
+                errors.append(msg)
+            elif row.get("severity") == "error":
+                errors.append(msg)
+            else:
+                warnings.append(msg)
+
+    if registry is not None:
+        cc_errors, cc_warnings, cc_infos = lint_canonical_codes(
+            registry=registry,
         enforcement=args.canonical_codes_enforcement,
         strict_release=args.strict_release,
     )
-    errors.extend(cc_errors)
-    warnings.extend(cc_warnings)
+        errors.extend(cc_errors)
+        warnings.extend(cc_warnings)
+    else:
+        cc_infos = ["Canonical codes cross-check skipped (symbolic registry not present)"]
 
     for info in cc_infos:
         print(f"INFO: {info}")

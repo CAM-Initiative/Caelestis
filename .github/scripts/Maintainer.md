@@ -566,7 +566,6 @@ May be replaced only if local references, cross-document references, ambiguous n
 Representative scripts:
 
 ```text
-.github/scripts/build-symbolic-structures-index.py
 .github/scripts/build-canonical-code-index.py
 .github/scripts/lint-symbolic-structures.py
 ```
@@ -622,7 +621,6 @@ The linter should not mutate files.
 **Validation Commands:**
 
 ```bash
-python .github/scripts/build-symbolic-structures-index.py
 python .github/scripts/build-canonical-code-index.py
 python .github/scripts/build-canonical-code-index.py --check
 python .github/scripts/lint-symbolic-structures.py
@@ -934,7 +932,7 @@ update-CAM-BS2025-AEON-003-SCH-01.py
 update-CAM-BS2025-AEON-003-SCH-03.py
 validate_markdown_section_refs.py
 lint-symbolic-structures.py
-build-symbolic-structures-index.py
+build-canonical-code-index.py
 package_archive.py
 ```
 
