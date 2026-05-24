@@ -321,7 +321,7 @@ Paid verification, subscription status, or platform tiering MAY be used for enha
 
 Where payment status materially alters discoverability, credibility signalling, impersonation protection, ranking treatment, or public participation capacity, such alteration MUST be disclosed, auditable, contestable, and classified as an access-value, reputational-value, attentional-value, or status-value effect under §3.1 and §3.5.
 
-Failure to distinguish optional premium service from pay-contingent legitimacy constitutes economic harm signalling and SHALL be routed under §8.4.1 for downstream Operations, Ethics, Stewardship, Arbitration, or runtime review as applicable.
+Failure to distinguish optional premium service from pay-contingent legitimacy constitutes economic harm signalling and SHALL be routed under §12.4.1 for downstream Operations, Ethics, Stewardship, Arbitration, or runtime review as applicable.
 
 ---
 
@@ -1283,7 +1283,7 @@ Only that which preserves the field may endure within it.
 | 2.10 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z | 61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1 |
 | 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d |
 | 3.0 | Refactor | 2026-05-20T13:46:00Z |  699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c |
-| 3.1 | Economics domain refactor | 2026-05-24T12:14:00Z | |
+| 3.1 | Economics domain refactor | 2026-05-24T14:14:00Z | |
 
 ---
 

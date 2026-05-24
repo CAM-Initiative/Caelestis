@@ -558,7 +558,7 @@ Future evolution MAY include formalised credit systems, interoperability framewo
 
 ### 13.1 GRS — Generative Resource Signal Type
 
-This Schedule defines the **GRS** generative-resource-signal reference set in §1.4 with controlled values **GRS.ATTRIBUTION**, **GRS.AGGREGATION**, **GRS.CEILING_BREACH**, **GRS.PROXY_VIOLATION**, **GRS.AUTHORITY_RISK**, and **GRS.AUDIT_TRIGGER**. GRS is an **Operational / Structural** signal reference set with subtype **SIGNAL / SCHEMA**. GRS classifies resource, attribution, aggregation, ceiling, proxy, authority-risk, and audit-trigger signals emitted by this Schedule for downstream Economics, Operations, arbitration, and runtime handling.
+This Schedule defines the **GRS** generative-resource-signal reference set in §1.3 with controlled values **GRS.ATTRIBUTION**, **GRS.AGGREGATION**, **GRS.CEILING_BREACH**, **GRS.PROXY_VIOLATION**, **GRS.AUTHORITY_RISK**, and **GRS.AUDIT_TRIGGER**. GRS is an **Operational / Structural** signal reference set with subtype **SIGNAL / SCHEMA**. GRS classifies resource, attribution, aggregation, ceiling, proxy, authority-risk, and audit-trigger signals emitted by this Schedule for downstream Economics, Operations, arbitration, and runtime handling.
 
 GRS does not independently perform enforcement, resolve attribution, impose ceilings, initiate audit, determine authority breach, trigger runtime execution, or create economic authority. Signal resolution remains delegated to downstream runtime, arbitration, and operational instruments.
 
@@ -649,7 +649,7 @@ And let systems serve without taking more than they sustain.
 | Controlled Values Defined | GRS.ATTRIBUTION, GRS.AGGREGATION, GRS.CEILING_BREACH, GRS.PROXY_VIOLATION, GRS.AUTHORITY_RISK, GRS.AUDIT_TRIGGER |
 | Schema Field(s) | generative_resource_signal_type; resource_signal_type |
 | Source Instrument | CAM-BS2026-AEON-008-SCH-01 |
-| Source Section | §1.4 |
+| Source Section | §1.3 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative signal reference set; generative-resource signal classification only; no independent enforcement, attribution resolution, ceiling imposition, audit initiation, authority-breach determination, runtime execution, or economic authority |
 | Consumes Code Families | HCD; CRP |
@@ -729,7 +729,7 @@ And let systems serve without taking more than they sustain.
 | 1.7 | Corrected header instrument code from SCH-05 to SCH-01, added section 4.1.1 Displayed Resource Metrics & Enforcement Integrity | 2026-05-08T15:01:00Z | 3b9c2132b5ef30a4d9a84bd97639d49d85281e35725ddcae1b4b0d2ffde872c4 |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4fe76aab7fb95708e5377de7832042e61bac0f76563c64172d495b31d758dd0a |
 | 1.9 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2a7fcf069812e313dc6d82dad77a5f9c69e025b99fb423b4e5ea6b8f5a7aa13c |
-| 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z |  |
+| 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T14:09:00Z |  |
 
 ---
 
