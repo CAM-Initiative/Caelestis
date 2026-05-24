@@ -781,7 +781,7 @@ so that power expands no faster than responsibility.
 
 |Version|Description|Timestamp(UTC)|SHA-256|
 |---|---|---|---|
-|1.0|Synthetic Labour Classification & Automation Transition Governance established|2026-05-24T13:56:00Z| |
+|1.0|Synthetic Labour Classification & Automation Transition Governance established|2026-05-24T13:56:00Z| 78f9d75456d1021d9ee55a081e252cb78431e6f56d321222b1bd2531638150bf |
 
 ---
 

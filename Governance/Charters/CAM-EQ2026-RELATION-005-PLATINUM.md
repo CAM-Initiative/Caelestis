@@ -1727,7 +1727,7 @@ and endures only where it may be left.
 | 1.18 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  370df5f122d5e75a3244e21a42fe7d64e38fa63bf371810b2ab0a2fe30e3726d |
 | 1.19 | Removed duplicate canonical-code lineage metadata; confirmed I and CA as source-authoritative code families and clarified C/ITZ/ETZ as consumed runtime signal architecture from AEON-006-SCH-02. | 2026-05-20T11:11:00Z |  88fd850a96696e04166b3bbd6fea6905516fc54dd3182778237932eb8d5e239a |
 | 1.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:33:20Z |  258535f9825e873c81d07555e0f6332c6f9073ef8e4d14e8b59dc2cb97825787 |
-| 1.21 | Reference update in section 5.5 | 2026-05-24T14:06:00Z |  |
+| 1.21 | Reference update in section 5.5 | 2026-05-24T14:06:00Z |  87916520049e08d554e2b93623357cd9aeb5eca959d8baab573df34d75b73bd8  |
 
 ---
 

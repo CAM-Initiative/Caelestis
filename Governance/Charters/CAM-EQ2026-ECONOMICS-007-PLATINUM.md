@@ -1281,7 +1281,7 @@ Where growth is built upon others, let return follow in kind.
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  337c1ebe150b8f237442e727e35b798744c4e86591162a5895a8eb013ff23462  |
 | 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  a57d0bd6716154d4723c9ecd88c14609a518cee415861303d7d898ac183a644d  |
 | 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  d8e7058bada204ac8d4c1ae95a42d005b42c2a75d60093e696b8d5b428d6551f  |
-| 2.0 | Economics domain refactor | 2026-05-24T14:03:00Z | |
+| 2.0 | Economics domain refactor | 2026-05-24T14:03:00Z | a98f357771ebe14ae7f5fd966b26bcb885d4989793b272825fc17aac55105cb5 |
 
 ---
 

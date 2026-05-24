@@ -1496,7 +1496,7 @@ Source Section | §3.3|
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b85bdc4064377f0832cd4011487570a52031845c817e74a31f603619f44d2334  |
 | 1.5 | Refactor | 2026-05-20T04:34:00Z |  6822c4a7d76bb32d0a0fd3d0c25898a5f92bc39d434179255e97fb2a22552734  |
 | 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  c4bf97703a21b802b5e302eac50fa65c70a3bec1475ec32d24b5e04e98dc68f5 |
-| 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | |
+| 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 5423e626a1632022c3b065bf07695e496df476398d3f2110e91f04992137b9b9 |
 
 ---
 

@@ -653,7 +653,7 @@ and no system may claim what the field has made together.
 | 1.3 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  1d51a4149a19d82c00fa7fae4e74e11e0cf13e6c86306e3ec35cdbd4d8e6a864 |
 | 1.4 | Added new Canonical Code & Reference Set Declarations section to the metadata footer | 2026-05-20T15:20:00Z |  3ac33713e5c91f175fd2c78b2322a1ed32b080d4358e15a2f1a1be3afaa63853 |
 | 1.5 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  fd381a2815a5a905dc2816704cc4690cb3640d88fc79a6efcf85ffc0b5c19912 |
-| 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | |
+| 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 00f92d48c8057b0cf01ab67a2ba4537cfed5d256e0d4d929cdeb451aea4267d0 |
 
 ---
 

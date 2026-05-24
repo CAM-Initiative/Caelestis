@@ -941,7 +941,7 @@ It is the witness of what must not be collapsed.
 | 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z | 2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6 |
 | 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | e690f1802b6c082dc1b1d283cc0fdc2ad26ce1b9b67d5f8440a469a939208c25 |
 | 2.0 | Refactor - Added canonical declaration entries for ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, and Economics semantic handoff schema fields; moved code-family and controlled-value declarations out of lineage metadata; expanded Annex D arbitration reference. | 2026-05-20T14:49:00Z |  4521f686fce58bc7a6cc916012773324a8aae1a6b6099b7869b04f25fe837afa |
-| 2.1 | Added section 18 | 2026-05-24T12:14:00Z |  |
+| 2.1 | Added section 18 | 2026-05-24T12:14:00Z |  31056a64bf5300dae262bff9a2e80b70a03f380d3ecd24cac3998cccb928e29e  |
 
 ---
 

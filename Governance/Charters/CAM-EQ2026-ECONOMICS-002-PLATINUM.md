@@ -486,7 +486,7 @@ but to ensure that what is made remains accountable to its source.
 | 2.6 | Changed status and amended section 2.2.2 | 2026-05-13T13:39:00Z | 09db4152692db2e832c056320466535b492540ed353861221a3f47da29186c63 |
 | 2.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  60f11c65f4e64c46bd85f47f85797fcdf88149148b3f7bd7e11e16a2201bebdc |
 | 2.8 | Added new Canonical Code & Reference Set Declarations section to the metadata footer | 2026-05-20T04:34:00Z | 9caaa2c943423e16f95c3d027e5435de4039b7eb14e85db39394079171404281 |
-| 2.9 | Economics domain refactor | 2026-05-24T14:19:00Z | |
+| 2.9 | Economics domain refactor | 2026-05-24T14:19:00Z | 2588481a94ac0b0f020e652cac07086bc81ff37a07b3f86e3c10a5939c908afa |
 
 ---
 
