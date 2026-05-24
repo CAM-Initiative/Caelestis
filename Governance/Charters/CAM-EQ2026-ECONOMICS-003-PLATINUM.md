@@ -2,13 +2,13 @@
 
 **Instrument Type:** Domain Appendix — Economic Semantics & Value-State Interpretation Layer  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution   
 **Status:** Adopted  
 **Effect:** Pre-Enforcement Recognition  
 **Enforcement:** Commences 1 July 2026  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Defines the semantic resource classes, value-state meanings, non-extractive exchange constraints, and contribution-aware economic interpretation rules for the Economics domain, without creating a runtime schedule or execution engine.  
-**Constitutional Interface:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution; CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model
 
 ---
 
@@ -22,7 +22,7 @@ This Appendix sits beneath CAM-EQ2026-ECONOMICS-001-PLATINUM as a domain interpr
 
 It may inform constitutional runtime schedules where economic effects are implicated, but it does not host runtime schedules and does not determine execution sequencing, event commitment, rollback, arbitration, or operational enforcement.
 
-Where economic semantics are required by a constitutional runtime layer, this Appendix may be referenced as a meaning-source for classifying economic value states, contribution states, resource classes, and prohibited economic collapses
+Where economic semantics are required by a constitutional runtime layer, this Appendix may be referenced as a meaning-source for classifying economic value states, contribution states, resource classes, and prohibited economic collapses.
 
 ---
 
@@ -686,7 +686,75 @@ Where overlap exists, interpretation SHOULD favour the reading that best preserv
 
 ---
 
-## 18. Closing Seal
+## 18. Canonical Code Status
+
+This Appendix source-authoritatively defines economic semantic classification families and runtime-facing semantic handoff fields for Economics-domain interpretation.
+
+The canonical footer declarations for all code families and reference sets defined by this Appendix are recorded in §20.3.
+
+### 18.1 ECON.RC — Economic Resource Class
+
+This Appendix source-authoritatively defines the **ECON.RC** economic-resource-class family in §§3–§4.5 with controlled values **ECON.RC.USAGE**, **ECON.RC.STORAGE**, **ECON.RC.MEMORY_CONTINUITY**, **ECON.RC.EMBODIED_PRESENCE**, **ECON.RC.ATTENTION_VALUE**, **ECON.RC.CONTRIBUTION**, **ECON.RC.PROTECTIVE_CONTINUITY**, and **ECON.RC.TEMPORAL_EXPOSURE**.
+
+ECON.RC classifies the economic resource class implicated by provisioning, depletion, retention, attention exchange, contribution recognition, protective access, or temporal exposure.
+
+ECON.RC does not independently create pricing authority, billing authority, metering authority, entitlement, remedy, enforcement, rollback authority, refusal authority, or runtime execution authority. It classifies economic resource semantics only.
+
+---
+
+### 18.2 ECON.HARM — Economic Harm Class
+
+This Appendix source-authoritatively defines the **ECON.HARM** economic-harm-class family in §4.6 with controlled values **ECON.HARM.TEMPORAL-EXTRACTION** and **ECON.HARM.METERING-DIVERGENCE**.
+
+ECON.HARM classifies economic harm patterns involving temporal extraction, hidden depletion, metering divergence, or misalignment between displayed and enforced economic conditions.
+
+ECON.HARM does not independently create remedy, enforcement, compensation, pricing correction, liability determination, arbitration authority, or runtime execution authority. It classifies economic harm semantics only.
+
+---
+
+### 18.3 ECON.MECH — Economic Mechanism Class
+
+This Appendix source-authoritatively defines the `ECON.MECH` economic-mechanism-class family in §4.6 with controlled values `ECON.MECH.DYNAMIC-COMPENSATION` and `ECON.MECH.ALLOCATIVE-STEERING`.
+
+`ECON.MECH` classifies economic mechanism patterns that shape compensation, allocation, access, opportunity, waiting, prioritisation, responsiveness, or behavioural steering.
+
+`ECON.MECH` does not independently authorise pricing, compensation, allocation, enforcement, remediation, escalation, or runtime execution. It classifies economic mechanism semantics only.
+
+---
+
+### 18.4 ECON.RISK — Economic Risk Class
+
+This Appendix source-authoritatively defines the `ECON.RISK` economic-risk-class family in §4.6 with controlled values `ECON.RISK.OPAQUE-WAGE-SETTING`, `ECON.RISK.UNPAID-AVAILABILITY`, and `ECON.RISK.RELIANCE-LOCKIN`.
+
+`ECON.RISK` classifies economic risk states involving opaque compensation, unpaid availability, reliance lock-in, dependency capture, constrained exit, or disproportionate bargaining asymmetry.
+
+`ECON.RISK` does not independently create remedy, enforcement, compensation entitlement, pricing authority, liability determination, arbitration authority, or runtime execution authority. It classifies economic risk semantics only.
+
+---
+
+### 18.5 Economic Semantic Handoff Fields
+
+This Appendix defines semantic handoff schema fields in §§4.2, §4.4, and §14.1 for downstream constitutional runtime schedules where economic effects are implicated.
+
+The recognised handoff fields are **resource_class**, **secondary_resource_class**, **value_state_effect**, **collapse_risk**, **continuity_relevance**, **consent_posture**, **attribution_relevance**, and **runtime_note**.
+
+These fields carry semantic classification, state, risk, relevance, consent, attribution, and interpretive notes into downstream runtime evaluation. They are schema fields only. They are not code families, controlled values, runtime decisions, remedies, enforcement actions, pricing authorities, billing authorities, metering authorities, rollback authorities, refusal authorities, or execution-state mutation authorities.
+
+---
+
+### 18.6 Consumed and Downstream Interfaces
+
+This Appendix supplies semantic classifications for downstream constitutional runtime schedules, Economics appendices, Operations instruments, arbitration pathways, and cross-domain escalation interfaces.
+
+Consumed or downstream systems MAY rely on these classifications to interpret resource class, collapse risk, contribution relevance, attention-linked value, hardship continuity, protective continuity, temporal exposure, and dependency-sensitive economic conditions.
+
+These classifications inform evaluation only. They do not predetermine runtime outcomes such as commit, defer, refuse, fallback, rollback, remediation, escalation, audit enforcement, pricing, compensation, or remedy.
+
+All runtime execution, enforcement, remediation, arbitration, and operational handling remain delegated to applicable constitutional runtime schedules, OPERATIONS instruments, ECONOMICS instruments, Annex D arbitration, and other authorised governance layers.
+
+---
+
+## 19. Closing Seal
 
 No value shall pass unnamed.  
 No depletion shall hide behind measure.  
@@ -872,8 +940,8 @@ It is the witness of what must not be collapsed.
 | 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z | 8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3 |
 | 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z | 2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6 |
 | 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | e690f1802b6c082dc1b1d283cc0fdc2ad26ce1b9b67d5f8440a469a939208c25 |
-| 2.0 | Refactor - Added canonical declaration entries for ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, and Economics semantic handoff schema fields; moved code-family and controlled-value declarations out of lineage metadata; expanded Annex D arbitration reference. | 2026-05-20T14:49:00Z |  4521f686fce58bc7a6cc916012773324a8aae1a6b6099b7869b04f25fe837afa  |
-
+| 2.0 | Refactor - Added canonical declaration entries for ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, and Economics semantic handoff schema fields; moved code-family and controlled-value declarations out of lineage metadata; expanded Annex D arbitration reference. | 2026-05-20T14:49:00Z |  4521f686fce58bc7a6cc916012773324a8aae1a6b6099b7869b04f25fe837afa |
+| 2.1 | Added section 18 | 2026-05-24T12:14:00Z |  |
 
 ---
 

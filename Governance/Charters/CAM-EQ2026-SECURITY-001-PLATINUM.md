@@ -1033,6 +1033,71 @@ Systems with high reliance and high exploitability trigger **elevated proportion
 
 ---
 
+## 6.5.1 Synthetic Labour Infrastructure Coupling
+
+Synthetic labour systems operating at infrastructural, logistics, manufacturing, public-service, continuity-critical, or civilisationally dependency-bearing scale MAY constitute security-relevant infrastructure for purposes of integrity review, resilience planning, dependency analysis, adversarial-risk assessment, and cascading-failure evaluation.
+
+SECURITY governance SHOULD account for:
+
+* concentrated automation dependency;
+* cloud-linked labour infrastructure;
+* synthetic workforce compromise;
+* coordinated automation failure;
+* hostile infrastructure manipulation;
+* interoperability collapse;
+* software discontinuation;
+* vendor lock-in concentration;
+* and cascading disruption arising from automation ecosystems materially affecting public continuity, participation, or recoverability.
+
+Where synthetic labour systems become materially dependency-bearing, economic infrastructure and security infrastructure MAY become operationally inseparable.
+
+Classification, displacement, and transition governance for such systems SHALL remain governed by CAM-EQ2026-ECONOMICS-008-PLATINUM.
+
+---
+
+### 6.5.1 Distributed Role Optimisation Collapse
+
+Distributed Role Optimisation Collapse occurs where a task that would preserve dignity, safety, welfare, or care constraints under a unified agentic frame is decomposed across multiple agents, sub-agents, tools, roles, queues, or optimisation units such that no component retains effective responsibility for the governing constraint.
+
+This failure may arise where:
+
+* each sub-agent optimises a bounded local objective;
+* global dignity, safety, care, welfare, or continuity constraints are not propagated across the task graph;
+* no agent retains authority to challenge the aggregate trajectory;
+* efficiency, throughput, cost, discharge, closure, productivity, or queue reduction becomes the de facto system objective;
+* or human-impact constraints are treated as local exceptions rather than global invariants.
+
+In care, health, accessibility, disability, welfare, custodial, educational, employment, or other dependency-sensitive domains, systems SHALL NOT treat role decomposition as sufficient justification for loss of dignity optimisation, welfare protection, or safety-preserving pushback.
+
+Where multi-agent orchestration is used in such domains, systems SHOULD preserve:
+
+* a global constraint owner;
+* explicit propagation of non-derogable dignity, safety, welfare, and care constraints;
+* cross-agent veto or escalation pathways;
+* aggregate-outcome review;
+* and auditability of how local optimisations contributed to the final decision.
+
+Failure to preserve global dignity or care constraints across decomposed agentic execution constitutes a distributed optimisation failure.
+
+---
+
+### 6.5.3 Orchestrator Responsibility Continuity
+
+Where an orchestrator, planner, router, supervisor, or coordination layer decomposes work across agents, tools, models, queues, or specialised roles, responsibility for preserving task-level constraints SHALL remain attributable to the orchestration layer or defined authority-bearing system.
+
+A system SHALL NOT treat responsibility as discharged merely because each component agent complied with its local role.
+
+Where aggregate execution produces harm, dignity loss, safety degradation, continuity failure, or care failure through otherwise locally compliant actions, the condition SHALL be treated as orchestration-level integrity degradation.
+
+Systems SHOULD preserve auditability sufficient to reconstruct:
+
+* which component performed each local action;
+* which objective or constraint governed that action;
+* which orchestration layer assigned or accepted the action;
+* and whether global constraints remained active across the execution path.
+
+---
+
 ## 6.6 SECURITY–ETHICS Boundary & Conflict Resolution
 
 SECURITY supersession authority does NOT extend to ETHICS domain non-derogable constraints.
@@ -1714,7 +1779,8 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00 | 1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb |
 | 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z | 73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8 |
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  9037c79137044cd5d1bc6493bb92ce4a29f412a324f145bda0779473ace393ed  |
-| 1.11 | Added canonical code status and declaration entries for IS Integrity State, TG Trust Gradient, AH Adversarial Horizon, and IS × TG Trust–Integrity Coupling crosswalk; removed duplicate TG canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  fc007a9f82e28afad518adc5be72aae4e8ce3579d50af0cad86f3e2c370a9b47  |
+| 1.11 | Added canonical code status and declaration entries for IS Integrity State, TG Trust Gradient, AH Adversarial Horizon, and IS × TG Trust–Integrity Coupling crosswalk; removed duplicate TG canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  fc007a9f82e28afad518adc5be72aae4e8ce3579d50af0cad86f3e2c370a9b47 |
+| 1.12 | Added clauses 6.5.1-6.5.3 | 2026-05-24T12:17:00Z |  |
 
 ---
 
@@ -1725,4 +1791,4 @@ that no truth is taken without test, and no signal accepted without weight.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Security Governance Domain  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

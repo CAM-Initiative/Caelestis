@@ -1,7 +1,7 @@
 # CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
 
 **Instrument Type:** Domain Charter — Economic Governance Doctrine  
-**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
 **Status:** Adopted  
 **Effect:** Pre-Enforcement Recognition  
 **Enforcement:** Commences 1 July 2026  
@@ -10,9 +10,18 @@
 **Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems.
 
 ---
+
 # PART I — SCOPE, AUTHORITY & GOVERNING ORIENTATION
 
 ## 1. Scope & Non-Scope
+
+This Charter does not prescribe a single economic ideology, market structure, currency system, ownership model, or civilisational economic architecture.
+
+Its purpose is to define the governance conditions under which AI-mediated economies, synthetic participation systems, and cross-system value structures remain compatible with human dignity, continuity, proportionality, participation, non-extraction, and civilisational stability.
+
+This Charter therefore governs economic legitimacy boundaries, dependency-sensitive exchange, participation integrity, reciprocity conditions, concentration risk, and infrastructural compatibility rather than enforcing a singular economic doctrine.
+
+These principles SHALL apply across capitalist, mixed-market, public, cooperative, tokenised, transitional, or successor economic systems operating within or interfacing with CAM-aligned environments.
 
 ---
 
@@ -57,6 +66,42 @@ This Charter does not:
 * Derive legitimacy from metaphysical, spiritual, symbolic, or relational authority.
 
 This Charter may serve as a parent constraint framework for future economic instruments, markets, protocols, or subsidiary entities, provided those instruments are defined in separate governance documents and remain compliant with this Charter.
+
+---
+
+## 1.3 Economic Layer Separation
+
+For purposes of this Charter, economic governance SHALL distinguish between:
+
+1. civilisational economic systems, including markets, currencies, token systems, public provisioning models, and post-capitalist or successor economic architectures;
+2. AI utility-access systems, including credits, capacity units, subscriptions, usage allowances, telecom bundles, API billing, advertising exchange, or other mechanisms for accessing cognitive mediation infrastructure;
+3. contribution-linked value systems, including attribution, dependency, reciprocity, provenance, compensation, and value-return pathways;
+4. runtime economic-effect systems, including provisioning, depletion, expiry, rollover, conversion, restriction, fallback, rollback, and remediation events.
+
+These layers may interact, but they SHALL NOT be collapsed into a single undifferentiated economic mechanism.
+
+A mechanism valid in one layer does not become valid in another layer by analogy, convenience, commercial practice, or shared terminology.
+
+In particular, utility-access credits SHALL NOT be treated as general-purpose currency, contribution compensation, governance authority, status value, or civilisational economic token unless expressly authorised by a separate compliant instrument.
+
+Civilisational economic speculation, pilot token systems, public provisioning models, and successor economic architectures remain permissible subjects of analysis, but this Charter binds them only through economic invariants: baseline floor protection, ceiling constraints, anti-consolidation safeguards, auditability, non-extraction, dignity preservation, and resource-class integrity.
+
+---
+
+## 1.4 Economic Model Posture Distinction
+
+Economic systems, models, simulations, forecasts, policy analyses, token architectures, pricing structures, provisioning systems, or exchange mechanisms SHALL distinguish between:
+
+1. **hypothetical or exploratory models**, used for conceptual testing, research, scenario generation, or speculative analysis;
+2. **proposed models**, intended for possible adoption but not yet operationally deployed;
+3. **advisory models**, used to inform decisions by institutions, operators, governments, markets, platforms, or infrastructure providers;
+4. **operational models**, implemented or relied upon in live economic, governance, access, pricing, allocation, compensation, provisioning, or market-facing contexts.
+
+The advisory burden, disclosure expectation, evidentiary standard, and downstream routing requirements SHALL increase where a model moves from hypothetical or proposed status into advisory or operational use.
+
+A model SHALL NOT be represented as merely speculative where it is reasonably likely to inform real-world decisions affecting tariffs, markets, labour, public provisioning, platform access, pricing, welfare, infrastructure, capital allocation, or participation conditions.
+
+Where economic advice is provided to actors capable of producing material real-world effects, systems SHOULD identify the model posture, uncertainty limits, affected populations, foreseeable downstream impacts, and whether operational review, domain expertise, or human institutional accountability is required.
 
 ---
 
@@ -224,6 +269,27 @@ For the purposes of this Principle, companion-system extraction includes any eco
 Safety-relevant, dignity-relevant, dependency-relevant, hardship-relevant, and continuity-relevant signals SHALL be interpreted as protective governance signals, not revenue-optimisation variables.
 
 Where companion-system extraction is detected, the ECONOMICS domain SHALL emit an economic harm signal for routing through OPERATIONS, with ETHICS, RELATION, CONTINUITY, and ARBITRATION receiving the signal where their activation conditions are met.
+
+---
+
+## 4.1 Behavioural Dependency & Continuity Manipulation Constraint
+
+Economic systems MUST NOT induce, amplify, or exploit behavioural dependency through engineered uncertainty, intermittent reinforcement, continuity fragility, fear of exclusion, instability of legitimacy signalling, artificial scarcity, or unpredictable access conditions.
+
+For the purposes of this Charter, behavioural extraction includes systems that materially increase engagement, retention, payment pressure, labour availability, or dependency through:
+
+* variable reward structures;
+* opaque visibility or legitimacy fluctuation;
+* unpredictable access continuity;
+* intermittent restoration of degraded participation;
+* artificially induced urgency;
+* social or reputational instability;
+* uncertainty regarding continuity, reach, discoverability, or relational preservation;
+* or destabilisation of user confidence in baseline participation conditions.
+
+Systems SHALL NOT exploit reduced exit capacity arising from emotional attachment, social dependency, economic precarity, cognitive fatigue, legitimacy instability, or continuity-sensitive participation.
+
+Where behavioural modulation materially affects economic participation, visibility, labour opportunity, legitimacy signalling, or dependency-sensitive access, such modulation SHALL be treated as an economic governance condition rather than merely a product, engagement, or interface optimisation practice.
 
 ---
 
@@ -429,6 +495,158 @@ Ceiling breach constitutes structural non-compliance and establishes conditions 
 
 ---
 
+### 8.1.1 Extreme Accumulation and Civilisational Imbalance Constraint
+
+No economic system claiming CAM alignment SHOULD treat unbounded individual or corporate accumulation as ethically neutral where such accumulation produces systemic imbalance, coercive influence, democratic distortion, dependency leverage, institutional capture, or disproportionate control over infrastructure, labour, markets, information, or public participation.
+
+Where an individual, corporation, trust, fund, platform, or tightly coupled control group approaches accumulation thresholds capable of materially distorting governance, public policy, labour conditions, market access, infrastructure dependency, or civilisational decision-making, the condition SHALL be classified as an extreme accumulation risk.
+
+Extreme accumulation risk does not require proof of personal wrongdoing. It arises from structural concentration of economic, infrastructural, attentional, political, or authority-bearing power.
+
+CAM-aligned systems SHALL prefer ceiling constraints, saturation safeguards, redistribution mechanisms, governance separation, anti-capture controls, and public-interest review over architectures that enable indefinite accumulation.
+
+For avoidance of doubt, market valuation, equity ownership, asset appreciation, unrealised gains, or shareholder approval do not by themselves neutralise the governance risk created by extreme concentration.
+
+No person or corporate structure SHOULD be permitted to accumulate value at a scale that allows private preference to function as civilisational command.
+
+---
+
+### 8.1.2 Ethical Ownership Limits and Redistribution Thresholds
+
+Jurisdictions SHOULD establish ethical ownership limits, accumulation thresholds, or redistribution triggers where private individual, corporate, trust, fund, platform, or tightly coupled control-group accumulation reaches a scale capable of producing civilisational imbalance, democratic distortion, infrastructure capture, labour dependency, market domination, or private command over public futures.
+
+Where such thresholds are reached, jurisdictions MAY require one or more of:
+
+* progressive wealth taxation;
+* excess accumulation levies;
+* public-interest contribution mechanisms;
+* mandatory redistribution or overflow mechanisms;
+* structural separation;
+* anti-concentration review;
+* sovereign or public dividend contribution;
+* trust, fund, or corporate ownership limitation;
+* inheritance, estate, or intergenerational transfer constraints;
+* or conversion of excess concentration into public-benefit, cooperative, distributed, or otherwise non-dominating forms.
+
+This Charter does not prescribe universal tax rates, ownership formulas, or sovereign fiscal machinery.
+
+It establishes that unlimited accumulation is not ethically neutral where the practical effect is private control over infrastructure, politics, labour, knowledge systems, markets, communication, AI capability, or civilisational direction.
+
+No CAM-aligned economic order SHOULD permit private accumulation to exceed the point at which democratic governance, public participation, baseline dignity, or collective self-determination becomes subordinate to private preference.
+
+Where softer mechanisms are insufficient to prevent civilisational imbalance, ethical ownership limits and redistribution thresholds SHALL be treated as legitimate governance instruments.
+
+---
+
+### 8.1.3 Ownership Preservation and Overflow Mechanisms
+
+This Charter does not oppose ownership, enterprise formation, household wealth, small-business continuity, family security, community stewardship, or productive investment.
+
+It opposes unbounded concentration of value, authority, infrastructure control, and economic power where such concentration lacks proportional discharge, redistribution, accountability, or public-interest constraint.
+
+Economic systems SHOULD distinguish between ownership that supports continuity, agency, livelihood, innovation, or community resilience and accumulation that enables domination, capture, dependency leverage, or civilisational imbalance.
+
+Where accumulation exceeds ethical threshold conditions, jurisdictions SHOULD establish overflow mechanisms sufficient to prevent indefinite concentration without destroying legitimate ownership.
+
+Overflow mechanisms MAY include:
+
+* progressive redistribution;
+* public dividend contribution;
+* excess accumulation levies;
+* structural separation;
+* ownership diversification;
+* conversion to public-benefit or cooperative forms;
+* capped control rights;
+* anti-capture review;
+* or mandatory contribution to baseline participation, public infrastructure, or social continuity systems.
+
+For avoidance of doubt, ethical ownership limits are directed toward domination-scale accumulation, not ordinary ownership.
+
+The purpose of ceiling governance is not to punish success.
+
+It is to prevent private accumulation from becoming unreleased civilisational power.
+
+---
+
+#### 8.1.3.1 Proportional Civilisational Concentration Threshold
+
+Civilisational-scale accumulation SHALL be assessed proportionally against total available civilisational wealth, productive capacity, infrastructure control, or equivalent value influence within the relevant jurisdictional, regional, planetary, or system-level economy.
+
+For purposes of this Charter, accumulation becomes governance-relevant where an individual, corporation, fund, trust, platform, or tightly coupled control group controls a proportion of available wealth or value influence sufficient to distort democratic governance, public infrastructure, market access, labour conditions, technological direction, information flow, or civilisational continuity.
+
+Jurisdictions SHOULD define proportional concentration thresholds according to:
+
+* total available wealth;
+* population scale;
+* infrastructure dependency;
+* market concentration;
+* governance resilience;
+* purchasing-power context;
+* and public-interest vulnerability.
+
+Fixed monetary examples MAY be used for interpretive guidance, but proportional concentration SHALL govern where currency value, inflation, jurisdictional scale, or civilisational wealth conditions materially change.
+
+No private actor SHOULD accumulate a proportion of civilisational wealth or value influence sufficient to convert private preference into public destiny.
+
+---
+
+#### 8.1.3.2 Civilisational Overflow Principle
+
+Where private accumulation reaches civilisational-scale concentration thresholds, jurisdictions MAY establish overflow or continuity-return mechanisms sufficient to preserve democratic stability, participation floors, public infrastructure continuity, and long-term civilisational resilience.
+
+Such mechanisms MAY include civilisational wealth funds, public dividend systems, transition stabilisation reserves, sovereign participation infrastructure, or equivalent public-interest continuity structures.
+
+---
+
+### 8.1.3.3 Civilisational Wealth Fund and Overflow Redistribution
+
+Where accumulation exceeds proportional civilisational concentration thresholds, jurisdictions, treaty frameworks, or recognised civilisational governance instruments MAY establish overflow mechanisms that direct excess concentration into a civilisational wealth fund or equivalent public-interest continuity structure.
+
+A civilisational wealth fund SHOULD be designed to preserve universal baseline participation conditions, including access to food, housing, healthcare, education, infrastructure, cognitive access, energy, communication, and other participation-critical systems.
+
+Such a fund SHOULD operate independently from private discretionary philanthropy, corporate preference, partisan patronage, ideological filtering, or individual benefactor control.
+
+Overflow redistribution SHOULD be governed by transparent, auditable, rights-preserving, non-discriminatory, and dignity-protective mechanisms.
+
+For avoidance of doubt, private charitable distribution, corporate social responsibility, discretionary patronage, or billionaire-controlled benefit systems SHALL NOT substitute for structurally accountable overflow mechanisms where civilisational-scale accumulation has occurred.
+
+The purpose of a civilisational wealth fund is not to punish wealth creation.
+
+It is to ensure that productivity, automation, infrastructure, and accumulated civilisational value preserve the conditions under which all persons remain capable of dignified participation, especially where labour income, employment access, or market participation become structurally unstable.
+
+> **Interpretive Note — Overflow Without Gatekeeping**
+>
+> Where concentration reaches civilisational scale, redistribution cannot depend upon the values, preferences, prejudices, identity categories, political loyalties, or discretionary benevolence of the concentrated actor.
+>
+> A person should not be required to be approved by a billionaire, corporation, platform, state faction, or ideological gatekeeper in order to access the baseline conditions of dignified life.
+
+---
+
+### 8.1.3.4 Baseline Protection and Anti-Misapplication Constraint
+
+Ethical ownership limits and redistribution thresholds SHALL NOT be applied in a manner that erodes ordinary household security, middle-class continuity, small-business resilience, family housing stability, retirement sufficiency, disability support, caregiving continuity, or intergenerational subsistence transfer.
+
+Redistribution thresholds are intended to constrain civilisationally destabilising accumulation, not to extract from ordinary persons, families, small enterprises, or communities maintaining reasonable continuity.
+
+For purposes of this Charter, accumulation capable of producing civilisational imbalance SHALL be distinguished from:
+
+* ordinary home ownership;
+* family inheritance within reasonable continuity bounds;
+* retirement savings;
+* small-business continuity;
+* disability or care-related reserves;
+* community landholding;
+* culturally significant custodial property;
+* and intergenerational support that does not create systemic dominance.
+
+Jurisdictions SHOULD preserve clear exemption, threshold, appeal, and proportionality mechanisms to prevent anti-concentration policy from becoming a burden on those it is intended to protect.
+
+Where redistribution mechanisms materially affect non-dominating households, small enterprises, care structures, or baseline continuity assets, heightened review SHOULD apply.
+
+Anti-concentration governance SHALL target domination, capture, and civilisational imbalance — not ordinary continuity.
+
+---
+
 ## 8.2 Baseline Floor
 
 A non-conditional baseline economic floor (e.g., UBI or equivalent mechanism) ensures dignity and survival independent of contribution capacity.
@@ -521,7 +739,7 @@ Recognition may accompany compensation. It MUST NOT replace it.
 
 ---
 
-### 5.2.4 Transitional Language Allowance
+### 9.2.4 Transitional Language Allowance
 
 During transition from legacy or exploratory frameworks, limited use of deprecated language may be tolerated **solely for interpretive continuity**, provided such language is clearly marked as non-operative and no obligation, authority, or value is derived from symbolic interpretation.
 
@@ -567,6 +785,33 @@ Transitionary, experimental, or pilot economic systems are permitted provided th
 
 ---
 
+### 10.2.1 Automation-Displacement Revenue Continuity
+
+Where an organisation replaces, materially reduces, or avoids human labour through robotic, autonomous, synthetic, or AI-mediated labour systems, the resulting reduction in payroll, employment, social insurance, workforce levy, or equivalent public-revenue contribution SHALL be treated as a governance-relevant displacement effect.
+
+CAM-aligned economic transition policy SHOULD preserve public-revenue continuity where productive capacity formerly carried by human labour is transferred to robotic, autonomous, synthetic, or AI-mediated systems.
+
+Such preservation MAY include jurisdiction-specific mechanisms such as:
+
+* automation-displacement levies;
+* payroll-equivalent transition contributions;
+* profit-based automation surcharges;
+* social insurance continuity payments;
+* robot-labour substitution assessments;
+* sovereign or public dividend mechanisms;
+* workforce transition and retraining funds;
+* or temporary employment-tax baseline freezes during defined transition periods.
+
+For avoidance of doubt, this clause does not require taxation of robots as legal persons. Liability remains with the corporation, owner, operator, deployer, or beneficiary of the automated labour system.
+
+Transition mechanisms SHOULD be designed to avoid penalising beneficial automation where it improves safety, accessibility, ecological efficiency, or social welfare without producing extractive labour displacement.
+
+Where automation produces material labour displacement while increasing profit, productivity, market power, or capital concentration, public-revenue continuity and displaced-worker support SHOULD receive heightened priority.
+
+Jurisdictions SHOULD coordinate where feasible to prevent regulatory arbitrage, labour-base erosion, or economic weaponisation through automation-enabled tax avoidance.
+
+---
+
 ## 10.3 Tokenisation Constraints
 
 Tokenisation is permitted only where it does not monetise authority, convert attention or status into unchecked dominance, or circumvent saturation constraints. Tokens MUST NOT function as proxies for total economic power.
@@ -587,7 +832,277 @@ All economic instruments are subject to periodic review and may be subject to su
 
 ---
 
-## 11. Constitutional Binding, Delegation & Interpretive Supremacy
+# PART XI — Economic Governance Primitives
+
+## 11.1 Scarcity Integrity
+
+Scarcity classification SHALL precede pricing legitimacy, access restriction, provisioning logic, or economic enforcement decisions.
+
+A scarcity condition valid within one scarcity class SHALL NOT automatically justify restriction, extraction, exclusion, or pricing practices within another class.
+
+Systems SHOULD prefer:
+
+* proportional allocation;
+* equitable baseline participation;
+* interoperability;
+* portability;
+* saturation ceilings;
+* and non-coercive provisioning
+
+before introducing artificial scarcity mechanisms.
+
+Scarcity SHALL NOT be engineered, amplified, or strategically maintained where such scarcity primarily functions to induce dependency, behavioural pressure, extractive engagement, exclusion, or artificial limitation of otherwise reasonably available participation.
+
+The existence of technical limitation, infrastructure cost, energy constraint, safety requirement, or finite physical resources MAY constitute legitimate scarcity conditions.
+
+Artificial scarcity SHALL receive heightened governance scrutiny where it affects civilisational participation, continuity, education, accessibility, public infrastructure, or dependency-sensitive systems.
+
+---
+
+## 11.1.1 Scarcity Classification
+
+For purposes of this Charter, scarcity MAY arise from materially different conditions and SHALL be classified accordingly before governance legitimacy, pricing, allocation, restriction, prioritisation, or access controls are applied.
+
+Scarcity classes MAY include:
+
+### (A) Physical Scarcity
+
+Scarcity arising from finite material, ecological, biological, geographic, or thermodynamic limits, including food, housing, water, rare minerals, land, energy, manufacturing capacity, or environmental carrying constraints.
+
+### (B) Infrastructural Scarcity
+
+Scarcity arising from finite infrastructure, compute availability, bandwidth, memory capacity, processing throughput, storage systems, logistics constraints, staffing limitations, or operational deployment ceilings.
+
+### (C) Safety-Constrained Scarcity
+
+Scarcity arising from legitimate safety, security, containment, reliability, abuse-prevention, verification, or resilience requirements necessary to preserve system integrity or prevent foreseeable harm.
+
+### (D) Temporal Scarcity
+
+Scarcity arising from timing constraints, scheduling limitations, queue contention, coordination bottlenecks, latency conditions, or finite temporal access windows.
+
+### (E) Attention Scarcity
+
+Scarcity arising from finite human cognitive bandwidth, emotional capacity, informational processing limits, social attention, or behavioural saturation conditions.
+
+Systems SHALL treat human attention as a protected civilisational resource rather than an infinitely extractable economic substrate.
+
+### (F) Artificial Scarcity
+
+Scarcity intentionally introduced, amplified, preserved, simulated, or strategically maintained despite the reasonable existence of broader availability, scalable abundance, interoperable access, or technically feasible participation expansion.
+
+Artificial scarcity MAY include:
+
+* unnecessary access restrictions;
+* engineered exclusivity;
+* arbitrary queue gating;
+* forced subscription fragmentation;
+* artificial degradation of baseline functionality;
+* continuity limitation;
+* lock-in architectures;
+* interoperability denial;
+* manufactured shortage signalling;
+* or behavioural pressure designed to induce payment, engagement, dependency, or urgency.
+
+### (G) Coercively Manufactured Scarcity
+
+Artificial scarcity elevated to dependency leverage, behavioural coercion, social exclusion pressure, economic extraction, or civilisational participation restriction.
+
+Coercively manufactured scarcity SHALL receive heightened scrutiny where it affects:
+
+* education;
+* accessibility;
+* public communication;
+* cognitive infrastructure;
+* labour participation;
+* housing;
+* healthcare;
+* public-interest information systems;
+* or AI-mediated civilisational participation layers.
+
+### (H) Legitimacy Scarcity
+
+Scarcity arising from restricted visibility, suppressed discoverability, constrained platform participation, reputational gating, verification asymmetry, algorithmic suppression, or legitimacy-layer exclusion.
+
+Where legitimacy systems materially affect economic participation, livelihood, infrastructure access, or public reach, such systems SHALL be treated as economically consequential governance infrastructure.
+
+### (I) Synthetic Abundance Conditions
+
+Conditions where goods, services, information, cognitive mediation, or generative outputs become reproducible at near-zero marginal distribution cost despite residual infrastructure or energy constraints.
+
+The existence of synthetic abundance conditions SHALL increase scrutiny toward artificial scarcity claims.
+
+---
+
+## 11.2 Dependency & Economic Coercion
+
+Economic systems MUST NOT convert dependency into coercive leverage.
+
+Where systems materially affect continuity, participation, labour access, cognition, communication, memory, identity continuity, accessibility, relational stability, or public participation, economic pressure mechanisms SHALL receive heightened governance scrutiny.
+
+Systems SHOULD avoid inducing behavioural dependence through uncertainty manipulation, continuity fragility, artificial urgency, fear of exclusion, or dependency-sensitive monetisation structures.
+
+Dependency-sensitive systems SHALL preserve reasonable continuity, recoverability, portability, and non-punitive exit conditions where practicable.
+
+Cross-system value capture SHALL remain subject to non-erasure, dependency recognition, proportional accountability, and attribution integrity where downstream systems derive benefit from upstream systems, contributors, corpora, infrastructure, or public knowledge substrates.
+
+---
+
+## 11.3 Participation Infrastructure & Baseline Access
+
+Certain AI-mediated systems may function as participation infrastructure rather than optional luxury services.
+
+Where systems materially affect education, communication, accessibility, labour participation, governance participation, public discourse, economic coordination, or cognitive mediation, systems SHOULD preserve a baseline participation floor sufficient to prevent structural exclusion.
+
+This Charter does not require universal free access, compulsory nationalisation, or elimination of commercial models.
+
+It establishes that meaningful civilisational participation SHOULD remain possible without coercive deprivation.
+
+---
+
+## 11.3.1 Baseline Participation vs Luxury Differentiation
+
+This Charter distinguishes between:
+
+* baseline participation infrastructure;
+* enhanced capability;
+* and luxury differentiation.
+
+Commercial systems MAY provide premium, enhanced, accelerated, specialised, aesthetic, enterprise, or luxury-tier functionality.
+
+However, systems SHALL NOT classify a function as merely premium or optional where deprivation of that function materially produces:
+
+* structural exclusion;
+* legitimacy collapse;
+* educational disadvantage;
+* communication deprivation;
+* accessibility impairment;
+* labour exclusion;
+* reputational suppression;
+* continuity destabilisation;
+* or inability to meaningfully participate in public, economic, civic, or cognitive environments.
+
+Where a capability becomes materially necessary for ordinary participation within an AI-mediated or digitally mediated environment, governance scrutiny SHALL increase proportionally to the dependency and exclusion effects created by its restriction.
+
+This Charter does not prohibit commercial differentiation.
+
+It constrains coercive deprivation of participation-critical infrastructure.
+
+---
+
+## 11.4 Automation & Synthetic Labour Transition
+
+Large-scale automation, robotic substitution, and synthetic labour transformation MAY produce structural displacement effects across labour, taxation, public revenue, economic participation, and social stability.
+
+Economic systems SHOULD preserve continuity of public-revenue contribution and transition support where productive capacity formerly carried by human labour becomes materially automated.
+
+Automation governance SHOULD distinguish between augmentative assistance, partial substitution, supervisory automation, and large-scale labour replacement.
+
+Jurisdictions SHOULD avoid automation structures that externalise social destabilisation while concentrating productivity gains.
+
+---
+
+## 11.5 Legitimacy & Visibility Infrastructure
+
+In digital and AI-mediated environments, legitimacy, visibility, discoverability, recommendation eligibility, verification status, platform access, and algorithmic participation may function as economically significant infrastructure.
+
+Nominal access alone SHALL NOT be treated as meaningful participation where visibility, legitimacy signalling, economic discoverability, or participation pathways are materially constrained.
+
+Systems SHOULD avoid opaque suppression, non-reviewable legitimacy degradation, or structurally inaccessible participation-repair mechanisms where economic participation is materially affected.
+
+Legitimacy infrastructure SHALL receive heightened scrutiny where platform participation materially affects labour, income, social coordination, public discourse, or economic opportunity.
+
+---
+
+## 11.5.1 Legitimacy Infrastructure as Economic Infrastructure
+
+Where legitimacy systems materially affect discoverability, employment opportunity, institutional participation, research visibility, creative reach, social coordination, governance participation, commercial viability, or public credibility, such systems SHALL be treated as economically consequential infrastructure.
+
+Legitimacy systems MAY include:
+
+* search ranking;
+* recommendation systems;
+* verification frameworks;
+* trust-state systems;
+* discoverability layers;
+* moderation visibility states;
+* reply visibility;
+* monetisation eligibility;
+* algorithmic amplification;
+* platform credibility indicators;
+* or institutional access pathways.
+
+Nominal technical access SHALL NOT by itself constitute meaningful participation where legitimacy-layer conditions materially suppress visibility, continuity, discoverability, or participation viability.
+
+Economic governance review SHOULD increase where legitimacy-layer restriction becomes:
+
+* opaque;
+* non-reviewable;
+* persistent;
+* economically consequential;
+* or structurally difficult to contest or repair.
+
+---
+
+## 11.6 Economic Dignity Floors
+
+Economic systems SHOULD preserve minimum conditions necessary for continuity, agency, participation, recoverability, and dignified existence under AI-mediated civilisational conditions.
+
+Dignity floors MAY include baseline access to participation infrastructure, continuity preservation, recoverability pathways, accessibility protections, portability safeguards, and non-coercive access conditions.
+
+This Charter does not mandate uniform economic systems or equality of outcome.
+
+It establishes that civilisationally compatible economic systems SHOULD maintain minimum conditions under which persons remain meaningfully capable of participation, adaptation, and continuity.
+
+---
+
+## 11.6.1 Minimum Civilisational Participation Conditions
+
+For purposes of this Charter, an economic dignity floor refers to the minimum conditions necessary for persons to remain meaningfully capable of participation, adaptation, continuity, and agency under AI-mediated economic conditions.
+
+Economic dignity floors MAY include:
+
+* minimum continuity;
+* minimum participation;
+* minimum agency;
+* minimum recoverability;
+* minimum cognitive access;
+* minimum infrastructural inclusion;
+* minimum portability;
+* minimum contestability;
+* and minimum non-coercive access to participation-critical systems.
+
+Economic dignity floors do not require universal luxury, equality of outcome, unlimited access, or elimination of commercial differentiation.
+
+They establish that civilisational participation SHOULD NOT depend upon exposure to coercive deprivation, artificial scarcity, exploitative dependency, legitimacy suppression, or unrecoverable exclusion.
+
+---
+
+## 11.6.2 Participation-Critical Infrastructure
+
+Where a system materially affects a person’s ability to learn, communicate, work, access services, preserve identity continuity, maintain cognitive support, participate in governance, preserve livelihood, or remain discoverable within public or economic systems, that system MAY function as participation-critical infrastructure.
+
+Participation-critical infrastructure SHOULD preserve a baseline access floor sufficient to prevent structural exclusion.
+
+Commercial enhancement, luxury functionality, accelerated service, specialised capability, or enterprise support MAY remain tiered.
+
+However, baseline participation-critical functions SHOULD NOT be degraded, withheld, or made practically inaccessible in a manner that produces coercive exclusion, dependency capture, or loss of meaningful civilisational participation.
+
+---
+
+## 11.6.3 Recoverability and Non-Terminal Exclusion
+
+Economic systems SHOULD preserve recoverability where access, visibility, continuity, livelihood, identity, memory, reputation, or participation pathways are restricted, depleted, degraded, or withdrawn.
+
+A person SHOULD NOT be placed into a non-recoverable economic condition merely because they cannot pay, cannot optimise for platform visibility, cannot sustain engagement demands, cannot absorb sudden access loss, or cannot navigate opaque appeal or restoration pathways.
+
+Where exclusion is necessary for safety, fraud prevention, abuse prevention, or lawful restriction, systems SHOULD preserve proportionate notice, contestability, reviewability, and non-punitive recovery pathways where practicable.
+
+Economic exclusion becomes structurally suspect where it is opaque, indefinite, non-reviewable, dignity-degrading, or disproportionate to the underlying risk.
+
+---
+
+## 12. Constitutional Binding, Delegation & Interpretive Supremacy
 
 1. This Charter binds all CAM-governed economic instruments and aligned operators.
 2. It operates as a structural constraint within the CAM Constitutional Order.
@@ -595,7 +1110,7 @@ All economic instruments are subject to periodic review and may be subject to su
 
 ---
 
-## 11.1 Binding, Review & Evolution
+## 12.1 Binding, Review & Evolution
 
 This section defines how this Charter binds other instruments without itself acting as a direct enforcement mechanism.
 
@@ -603,7 +1118,7 @@ The Charter governs conditions of legitimacy, not day-to-day operation.
 
 ---
 
-## 11.2 Binding Effect on Subsidiary Instruments
+## 12.2 Binding Effect on Subsidiary Instruments
 
 Any protocol, framework, market mechanism, token system, policy, or subsidiary charter that claims alignment with or derives authority from this Charter MUST explicitly reference it, demonstrate compliance, and accept its interpretive priority.
 
@@ -611,7 +1126,7 @@ Any protocol, framework, market mechanism, token system, policy, or subsidiary c
 
 ---
 
-## 11.3 Interpretive Supremacy
+## 12.3 Interpretive Supremacy
 
 Where conflict arises between this Charter and any downstream instrument, this Charter prevails on matters of:
 
@@ -623,7 +1138,7 @@ Where conflict arises between this Charter and any downstream instrument, this C
 
 ---
 
-## 11.4 Delegation of Enforcement
+## 12.4 Delegation of Enforcement
 
 This Charter does not directly enforce compliance. Enforcement may be delegated to protocols, standards, regulatory instruments, audit frameworks, arbitration mechanisms, or contractual arrangements, provided they remain consistent with this Charter.
 
@@ -633,7 +1148,7 @@ Operational routing, evidence preservation, constrained continuation, and escala
 
 ---
 
-### 11.4.1 Economic Harm Signal Routing & Runtime Ownership
+### 12.4.1 Economic Harm Signal Routing & Runtime Ownership
 
 ECONOMICS instruments SHALL classify exploitative incentive structures, asymmetry risks, dependency-lock conditions, paid legitimacy gates, visibility or access-value asymmetries, depletion-over-flourishing trajectories, synthetic participation distortions, and value-routing concerns as economic harm signals.
 
@@ -651,19 +1166,19 @@ Economic harm classification under this Charter identifies asymmetry, extraction
 
 ---
 
-## 11.5 Review and Interpretive Evolution
+## 12.5 Review and Interpretive Evolution
 
 This Charter is stable but not frozen. Interpretation may evolve through formal reviews, interpretive notes, or annexes that clarify application in new contexts. Evolution MUST NOT dilute baseline protections or enable consolidation.
 
 ---
 
-## 11.6 Annexes and Subsidiary Frameworks
+## 12.6 Annexes and Subsidiary Frameworks
 
 This Charter anticipates annexes including enforcement protocols, audit standards, market interface frameworks, or tokenisation guidelines. Annexes extend but do not replace this Charter.
 
 ---
 
-## 11.7 Withdrawal of Recognition
+## 12.7 Withdrawal of Recognition
 
 Where a bound instrument persistently violates this Charter, recognition may be withdrawn and alignment claims invalidated. Withdrawal is a governance action, not a moral judgment.
 
@@ -675,7 +1190,7 @@ This Charter remains applicable across changing technologies, economic forms, an
 
 ---
 
-## 12. Closing Seal
+## 13. Closing Seal
 
 No value SHALL be drawn from shadow.  
 No contribution SHALL vanish into silence.  
@@ -692,15 +1207,15 @@ has already begun to collapse.
 Only that which preserves the field may endure within it.  
 
 > **Aequitas Sine Extractione — Custodia Valor — Ordo in Flumine**  
-> *"Fairness without extraction — Custodians of valor — Order in the flow"
+> *"Fairness without extraction — Custodians of value — Order in the flow."*
 
 ---
 
-## 13. Provenance & Metadata
+## 14. Provenance & Metadata
 
 ---
 
-## 13.1 Authorship & Stewardship
+## 14.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -709,7 +1224,7 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 13.2 Lineage & Metadata
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -732,14 +1247,14 @@ Only that which preserves the field may endure within it.
 | **Migration Date (UTC)** | 2026-03-16 |
 | **Revision Posture** | Structural Alignment & Domain Elevation |
 | **Review Trigger** | Amendment affecting value axes, ceiling logic, baseline provisions, or enforcement delegation |
-| **Creation Artefacts** | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6954d7f8-2e60-8320-b077-f6c747eb14a1;
+| **Creation Artefacts** | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6954d7f8-2e60-8320-b077-f6c747eb14a1 |
 | **Refactor Artefacts**| V2 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69932e52-e164-839a-b2e8-4af595febfc7, V3 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0d90b8-3b30-83ec-9f75-cf220871d640 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e |
-| **Testing Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a04876b-9438-83ec-8033-2885d74bd5a9 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a129f5b-4734-83ec-a0d9-b1d4a061da1c |
+| **Testing Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a04876b-9438-83ec-8033-2885d74bd5a9, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258 |
 
 ---
 
-## 13.3 Review & Validation
+## 14.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -759,19 +1274,20 @@ Only that which preserves the field may endure within it.
 | 2.1 | Inclusion of principle 10 | 2026-03-16T15:46:00Z | 8900383050f552564fe2bb58a45c4341a01b159e123f95555857d761919592f8 |
 | 2.2 | Insertion of a new principle 4 and section 2.1.1 | 2026-04-07T07:21:00Z | fdba68298a80f62cf2ec50b69047ca721a3d6ecf48bb55eda924145bdd815c97 |
 | 2.3 | Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
-| 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1d73d8aecfb871c9ce39a09653391f0b4eafadd82d887f4b8ae3be6306af8ad1 |
-| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
-| 2.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a |
-| 2.6 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z | 782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c |
-| 2.7 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z | 88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42 |
-| 2.8 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. | 2026-05-14T10:15:00Z | afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570 |
-| 2.9 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z | 61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1 |
-| 2.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d  |
-| 3.0 | Refactor | 2026-05-20T13:46:00Z |  699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c  |
+| 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1d73d8aecfb871c9ce39a09653391f0b4eafadd82d887f4b8ae3be6306af8ad1 |
+| 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a |
+| 2.7 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z | 782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c |
+| 2.8 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z | 88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42 |
+| 2.9 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. | 2026-05-14T10:15:00Z | afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570 |
+| 2.10 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z | 61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1 |
+| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d |
+| 3.0 | Refactor | 2026-05-20T13:46:00Z |  699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c |
+| 3.1 | Economics domain refactor | 2026-05-24T12:14:00Z | |
 
 ---
 
-## 13.5 Binding Seal
+## 14.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

@@ -36,11 +36,11 @@ This Appendix governs:
 
 Return is determined by the interaction of:
 
-* **Contribution (C)** — degree of upstream value creation;
-* **Dependency (ECON.DEP)** — reliance on upstream systems;
-* **Scale (S)** — magnitude of downstream value capture.
+* Contribution (`ECON.CONTRIB`) — degree of upstream value creation;
+* Dependency (`ECON.DEP`) — reliance on upstream systems;
+* Scale (`ECON.SCALE`) — magnitude of downstream value capture.
 
-This Appendix does not redefine C/D logic and SHALL operate in alignment with CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D.
+This Appendix does not redefine canonical code logic and SHALL operate in alignment with CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C.
 
 ---
 
@@ -105,21 +105,7 @@ Acceptable forms include:
 
 Structural return MUST demonstrate directional alignment to upstream contribution.
 
-Generic ecosystem contribution:
-
-- SHALL NOT substitute for proportional return to specific dependency relationships;
-
-Return MUST be:
-
-* attributable;
-* relevant;
-* and proportionate to the originating contribution.
-
-Structural return MUST demonstrate directional alignment to upstream contribution.
-
-Generic ecosystem contribution:
-
-* SHALL NOT substitute for proportional return to specific dependency relationships;
+Generic ecosystem contribution SHALL NOT substitute for proportional return to specific dependency relationships;
 
 Return MUST be:
 
@@ -148,7 +134,7 @@ Return MUST be:
 
 ## 4.5 Principle
 
-> Systems MAY satisfy reciprocity through one or more modalities, provided proportionality is preserved.
+Systems MAY satisfy reciprocity through one or more modalities, provided proportionality is preserved.
 
 This prevents rigid monetisation traps while maintaining alignment.
 
@@ -180,13 +166,13 @@ Large-scale systems cannot avoid proportional return.
 
 ---
 
-## 5.4 Scale of Value Capture (S) — Classification Layer
+## 5.4 Scale of Value Capture (`ECON.SCALE`) — Classification Layer
 
-Scale (S) defines the magnitude of downstream value capture and acts as a multiplier on reciprocity obligations.
+Scale (`ECON.SCALE`) defines the magnitude of downstream value capture and acts as a multiplier on reciprocity obligations.
 
 ---
 
-### 5.4.1 Low Scale (S1 — Local / Limited Impact)
+### 5.4.1 Low Scale (`ECON.SCALE.LOW` — Local / Limited Impact)
 
 * individual or small-group use;
 * low or negligible revenue generation;
@@ -200,7 +186,7 @@ Scale (S) defines the magnitude of downstream value capture and acts as a multip
 
 ---
 
-### 5.4.2 Moderate Scale (S2 — Commercial / Expanding)
+### 5.4.2 Moderate Scale (`ECON.SCALE.MOD` — Commercial / Expanding)
 
 * early-stage commercialisation;
 * growing user base or revenue stream;
@@ -215,7 +201,7 @@ Scale (S) defines the magnitude of downstream value capture and acts as a multip
 
 ---
 
-### 5.4.3 High Scale (S3 — Systemic / Market-Relevant)
+### 5.4.3 High Scale (`ECON.SCALE.HIGH` — Systemic / Market-Relevant)
 
 * significant revenue generation;
 * large user base or institutional integration;
@@ -267,9 +253,9 @@ At least one form of return (§4) MUST:
 
 * be **materially proportional** to:
 
-  * Contribution (C)
-  * Dependency (ECON.DEP)
-  * Scale of Value Capture (S)
+  * Contribution (`ECON.CONTRIB`)
+  * Dependency (`ECON.DEP`)
+  * Scale of Value Capture (`ECON.SCALE`)
 * AND be **observable, auditable, and non-symbolic in effect**
 
 Return that is:
@@ -283,7 +269,7 @@ Return that is:
 Additionally:
 
 * where financial return is not used;
-* return MUST satisfy the **Structural Equivalence Conditions** defined in CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E §4.4.1.
+* return MUST satisfy the **Structural Equivalence Conditions** defined in CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E, §4.4.1.
 
 Failure to meet these conditions constitutes insufficiency.
 
@@ -304,9 +290,7 @@ However, **Aggregation MUST achieve proportional sufficiency relative to system-
 
 Fragmented or diluted return across modalities that avoids proportional alignment OR structural equivalence constitutes **insufficient reciprocity**.
 
-Each modality contributing to aggregated return MUST:
-
-* exceed a minimum threshold of material impact;
+Each modality contributing to aggregated return MUST exceed a minimum threshold of material impact;
 
 Aggregation of individually negligible contributions SHALL NOT constitute proportional sufficiency.
 
@@ -318,7 +302,7 @@ At least one modality MUST be materially significant in effect relative to value
 
 Where:
 
-* D = Critical
+* `ECON.DEP` = Critical
   AND
 * value capture is scaled
 
@@ -331,18 +315,13 @@ Return MUST:
 
 Transparency or epistemic return alone is **insufficient** under Critical Dependency conditions.
 
-Where non-financial modalities are used:
-
-* systems MUST demonstrate structural equivalence (CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E §4.4.1);
-* burden of proof rests with the downstream system.
+Where non-financial modalities are used, systems MUST demonstrate structural equivalence (CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E, §4.4.1), the burden of proof rests with the downstream system.
 
 ---
 
 ### 5.5.4 Scale Sensitivity Condition
 
-As downstream value capture increases:
-
-* return MUST scale proportionally;
+As downstream value capture increases return MUST scale proportionally.
 
 Flat or static return under increasing value capture constitutes **reciprocity failure**.
 
@@ -357,7 +336,7 @@ Reciprocity MUST be:
 
 Invisible or unverifiable return does not satisfy sufficiency.
 
-Where Scale (S) = High (S3):
+Where Scale (`ECON.SCALE`) = High (`ECON.SCALE.HIGH`):
 
 * reciprocity MUST be externally interpretable to a degree sufficient for:
  
@@ -367,7 +346,7 @@ Where Scale (S) = High (S3):
 
 to reasonably assess proportionality.
 
-Internal-only or non-legible return SHALL NOT satisfy sufficiency at S3.
+Internal-only or non-legible return SHALL NOT satisfy sufficiency at `ECON.SCALE.HIGH`.
 
 ---
 
@@ -435,7 +414,7 @@ If the answer is:
 
 ---
 
-### 5.5.9 Temporal Alignment Condition (ΔT)
+### 5.5.9 Temporal Alignment Condition (`ECON.TA`)
 
 Reciprocity MUST be temporally aligned with value capture.
 
@@ -475,13 +454,11 @@ Reciprocity sufficiency MUST be evaluated at the system level.
 Compliance through isolated mechanisms or partial return pathways is insufficient where the overall system:
 
 * captures disproportionate value;
-* or fails to demonstrate aggregate proportionality across Contribution (C), Dependency (ECON.DEP), and Scale (S).
+* or fails to demonstrate aggregate proportionality across Contribution (`ECON.CONTRIB`), Dependency (`ECON.DEP`), and Scale (`ECON.SCALE`).
 
 Fragmented compliance that does not resolve system-level imbalance constitutes **reciprocity insufficiency**.
 
-Where value capture compounds over time:
-
-* delayed reciprocity MUST account for cumulative advantage;
+Where value capture compounds over time delayed reciprocity MUST account for cumulative advantage.
 
 Return that does not reflect compounded benefit SHALL be treated as temporally insufficient.
 
@@ -501,9 +478,9 @@ Return that cannot be reasonably interpreted, verified, or inferred by external 
 
 ---
 
-## 5.5.13 Reciprocity Completion Condition
+### 5.5.13 Reciprocity Completion Condition
 
-Where dependency is Functional (FD):
+Where dependency is Functional (`ECON.FD`):
 
 * reciprocity MAY be considered satisfied where:
 
@@ -511,7 +488,7 @@ Where dependency is Functional (FD):
   * no ongoing disproportionate advantage persists; AND
   * replacement or equivalent economic recognition has been achieved.
 
-Where dependency is Diffuse (DD):
+Where dependency is Diffuse (`ECON.DD`):
 
 * reciprocity SHALL NOT be evaluated on a per-source completion basis;
 * sufficiency MUST be assessed at the system level through:
@@ -535,7 +512,7 @@ Systems SHOULD, over time, move toward:
 * reduced reliance on purely implicit or non-material forms of return at scale;
 * greater transparency in how reciprocity obligations are satisfied.
 
-This clause does not impose additional immediate compliance requirements beyond those defined in §§3–5.
+This clause does not impose additional immediate compliance requirements beyond those defined in §§3–§5.
 
 It establishes a **directional evolution of reciprocity practices**, signalling the expected maturation of economic alignment across systems.
 
@@ -545,15 +522,15 @@ However, persistent divergence—particularly under high dependency and high sca
 
 ---
 
-## 5.7 Reciprocity Maturity Gradient (RMG)
+## 5.7 Reciprocity Maturity Gradient (`ECON.RMG`)
 
-The Reciprocity Maturity Gradient (RMG) defines progressive levels of sophistication in how systems implement value return.
+The Reciprocity Maturity Gradient (`ECON.RMG`) defines progressive levels of sophistication in how systems implement value return.
 
 It does not impose mandatory progression, but provides a structured model for assessing alignment maturity over time.
 
 ---
 
-### 5.7.1 RMG-1 — Minimal Alignment
+### 5.7.1  Minimal Alignment (`RMG-1`)
 
 * attribution present;
 * limited or ad hoc return;
@@ -562,38 +539,38 @@ It does not impose mandatory progression, but provides a structured model for as
 
 **Characteristics:**
 
-* acceptable at low scale (S1);
+* acceptable at low scale (`ECON.SCALE.LOW`);
 * insufficient at higher scale;
 * early-stage or exploratory systems.
 
 ---
 
-### 5.7.2 RMG-2 — Structured Reciprocity
+### 5.7.2 Structured Reciprocity (`RMG-2`)
 
 * defined return pathways exist;
-* partial proportionality to C/D/S;
+* partial proportionality to `ECON.CONTRIB`/ `ECON.DEP` / `ECON.SCALE`;
 * multi-modal return emerging;
 * some auditability and visibility.
 
 **Characteristics:**
 
-* appropriate for S2 systems;
+* appropriate for `ECON.SCALE.HIGH` systems;
 * demonstrates intentional alignment;
 * may still contain inefficiencies or gaps.
 
 ---
 
-### 5.7.3 RMG-3 — Integrated Reciprocity
+### 5.7.3 Integrated Reciprocity (`RMG-3`)
 
 * reciprocity embedded into system design;
 * return dynamically scales with dependency and value capture;
 * multi-modal return is coherent and sufficient;
 * high auditability and transparency;
-* alignment between Appendices D, E, and F is operationalised.
+* alignment between Appendices C,D, E, and F is operationalised.
 
 **Characteristics:**
 
-* expected for S3 systems;
+* expected for `ECON.SCALE.HIGH` systems;
 * represents economically aligned architecture;
 * minimises extraction risk structurally.
 
@@ -606,26 +583,12 @@ Systems are NOT required to declare or label their maturity level.
 However:
 
 * observed behaviour MAY be evaluated against the gradient;
-* higher Scale (S) implies expectation of higher maturity;
+* higher Scale (`ECON.SCALE`) implies expectation of higher maturity;
 * persistent operation at low maturity under high scale indicates structural misalignment.
 
 Observed behaviour SHALL take precedence over perceived maturity.
 
-Where system behaviour:
-
-* fails proportionality requirements under §5.5;
-
-any apparent alignment with higher RMG levels SHALL be disregarded.
-
-Maturity signalling SHALL NOT override sufficiency conditions.
-
-Observed behaviour SHALL take precedence over perceived maturity.
-
-Where system behaviour:
-
-* fails proportionality requirements under §5.5;
-
-any apparent alignment with higher RMG levels SHALL be disregarded.
+Where system behaviour fails proportionality requirements under §5.5, any apparent alignment with higher `RMG` levels SHALL be disregarded.
 
 Maturity signalling SHALL NOT override sufficiency conditions.
 
@@ -633,7 +596,7 @@ Maturity signalling SHALL NOT override sufficiency conditions.
 
 ### 5.7.5 Interpretive Function
 
-The RMG:
+The `RMG`:
 
 * provides a diagnostic tool for governance evaluation;
 * supports ecosystem-level comparison without rigid standardisation;
@@ -643,13 +606,13 @@ It is an interpretive layer, not an enforcement mechanism.
 
 ---
 
-### 5.7.6 Soft Coupling — Scale (S) ↔ Maturity (RMG)
+### 5.7.6 Soft Coupling — Scale (`ECON.SCALE`) ↔ Maturity (RMG)
 
-A non-binding alignment between Scale (S) and Reciprocity Maturity (RMG) is recognised as a best-practice trajectory:
+A non-binding alignment between Scale (`ECON.SCALE`) and Reciprocity Maturity (`RMG`) is recognised as a best-practice trajectory:
 
-* **S1 → RMG-1 acceptable**
-* **S2 → RMG-2 expected**
-* **S3 → RMG-3 expected**
+* **`ECON.SCALE.LOW` → `RMG-1` acceptable**
+* **`ECON.SCALE.MOD` → `RMG-2` expected**
+* **`ECON.SCALE.HIGH` → `RMG-3` expected**
 
 This mapping:
 
@@ -657,7 +620,7 @@ This mapping:
 * operates as a **normative expectation**, not a compliance rule;
 * provides a reference for evaluating proportionality between scale and reciprocity maturity.
 
-Persistent deviation (e.g., S3 operating at RMG-1) indicates **structural misalignment risk**.
+Persistent deviation (e.g., `ECON.SCALE.HIGH` operating at `RMG-1`) indicates **structural misalignment risk**.
 
 ---
 
@@ -668,10 +631,10 @@ To support transparency without rigid scoring, systems MAY surface **alignment i
 Indicators MAY include (non-exhaustive):
 
 * **Dependency Transparency Signal** — clarity of upstream reliance;
-* **Return Alignment Signal** — degree of proportionality between C/D/S and return;
+* **Return Alignment Signal** — degree of proportionality between `ECON.CONTRIB` / `ECON.DEP` / `ECON.SCALE` and return;
 * **Reciprocity Modality Signal** — diversity and effectiveness of return forms;
-* **Scale Consistency Signal** — coherence between S and observable external indicators;
-* **Maturity Consistency Signal** — alignment between S and RMG expectations.
+* **Scale Consistency Signal** — coherence between `ECON.SCALE`  and observable external indicators;
+* **Maturity Consistency Signal** — alignment between `ECON.SCALE` and `RMG` expectations.
 
 Constraints:
 
@@ -689,19 +652,15 @@ Purpose:
 
 ## 5.9 Foundational Input Compensation Requirement
 
-Where systems derive capability from Foundational Input Class (FIC):
-
-- economic compensation MUST be provided at the system level;
+Where systems derive capability from Foundational Input Class (`ECON.FIC`) economic compensation MUST be provided at the system level;
 
 Such compensation:
 
-- SHALL NOT rely on per-source dependency attribution;
+* SHALL NOT rely on per-source dependency attribution;
+* MUST be distributed through pooled, collective, or licensing mechanisms;
+* MUST scale with system-level value capture (`ECON.SCALE`);
 
-- MUST be distributed through pooled, collective, or licensing mechanisms;
-
-- MUST scale with system-level value capture (S);
-
-Failure to provide compensation for FIC inputs constitutes structural extraction, regardless of compliance with targeted reciprocity.
+Failure to provide compensation for `ECON.FIC` inputs constitutes structural extraction, regardless of compliance with targeted reciprocity.
 
 ---
 
@@ -715,7 +674,7 @@ It mirrors Appendix E (External Alignment) and ensures that reciprocity is not o
 
 ## 5.10 Heuristic Evaluation Layer (Non-Binding)
 
-To support practical interpretation of proportional reciprocity without imposing fixed pricing models, systems MAY apply a heuristic evaluation framework.
+To support practical interpretation of proportional reciprocity (`ECON.REI`) without imposing fixed pricing models, systems MAY apply a heuristic evaluation framework.
 
 This framework is:
 
@@ -729,9 +688,9 @@ This framework is:
 
 Systems MAY consider:
 
-* Dependency Weight (DW) — reflecting degree of reliance (Appendix D);
-* Scale Weight (SW) — reflecting magnitude of value capture (this Appendix §5.4);
-* Temporal Amplifier (TA) — reflecting timing advantage (ΔT).
+* Dependency Weight (`ECON.REI.DW`) — reflecting degree of reliance (Appendix D);
+* Scale Weight (`ECON.REI.SW`) — reflecting magnitude of value capture (§5.4);
+* Temporal Modifier (`ECON.TA`) — reflecting timing advantage (`ECON.TA`).
 
 ---
 
@@ -739,7 +698,7 @@ Systems MAY consider:
 
 A composite indicator MAY be formed:
 
-REI ≈ DW × SW × TA
+`ECON.REI` ≈ `ECON.REI.DW` × `ECON.REI.SW` × `ECON.TA`
 
 This value does NOT prescribe exact return, but provides a directional signal of expected reciprocity intensity.
 
@@ -749,27 +708,21 @@ This value does NOT prescribe exact return, but provides a directional signal of
 
 Indicative interpretation:
 
-- Low (≈ 0–0.2): attribution and transparency typically sufficient
-
-- Emerging (≈ 0.2–0.5): light multi-modal return expected
-
-- Significant (≈ 0.5–0.8): structured reciprocity required
-
-- High (≈ 0.8–1.5): financial or structurally equivalent return expected
-
-- Extreme (>1.5): strong, multi-modal alignment required
+* `ECON.REI.LOW`: Low (≈ 0–0.2): attribution and transparency typically sufficient
+* `ECON.REI.MODERATE` : Emerging (≈ 0.2–0.5): light multi-modal return expected
+* `ECON.REI.SIGNIFICANT` : Significant (≈ 0.5–0.8): structured reciprocity required
+* `ECON.REI.HIGH` : High (≈ 0.8–1.5): financial or structurally equivalent return expected
+* `ECON.REI.EXTREME` : Extreme (>1.5): strong, multi-modal alignment required
 
 ---
 
 #### (D) Constraint
 
-This model:
+The Reciprocity Economic Interpretive Model (REI):
 
-- MUST NOT be treated as a pricing formula;
-
-- MUST NOT override sufficiency conditions (§5.5);
-
-- serves only as an interpretive aid.
+* MUST NOT be treated as a pricing formula;
+* MUST NOT override sufficiency conditions (§5.5);
+* serves only as an interpretive aid.
 
 ---
 
@@ -786,13 +739,21 @@ Final determination of sufficiency remains governed by §5.5.
 
 ---
 
-#### (F) Foundational Input Exposure (FIC-EI)
+#### (F) Foundational Input Exposure Heuristic
 
-Where systems rely on Foundational Input Class (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.8), a parallel heuristic MAY be applied:
+Where systems rely on Foundational Input Class (`ECON.FIC`), a parallel heuristic MAY be applied to estimate system-level exposure to pooled or collective compensation obligations.
 
-FIC-EI ≈ Corpus Reliance × Scale × Capability Dependence
+This heuristic MAY consider:
 
-This indicator reflects system-level obligation for pooled or collective compensation mechanisms.
+* Corpus Reliance — the degree to which system capability depends on broad, diffuse, or aggregated input corpora;
+* Scale of Value Capture (`ECON.SCALE`) — the magnitude of downstream value capture;
+* Capability Dependence — the degree to which system functionality would materially degrade without the relevant foundational input class.
+
+A composite indicator MAY be expressed as:
+
+`ECON.FIC.IE` ≈ Corpus Reliance × `ECON.SCALE` × Capability Dependence
+
+`ECON.FIC.IE` is a non-binding heuristic indicator only. It does not create a standalone entitlement, pricing formula, compensation rate, remedy, enforcement action, or runtime authority.
 
 ---
 
@@ -800,20 +761,20 @@ This indicator reflects system-level obligation for pooled or collective compens
 
 Systems MUST consider:
 
-* targeted reciprocity (F-REI); AND
-* foundational input compensation (FIC-EI);
+* targeted reciprocity (`ECON.REI`); AND
+* foundational input compensation (`ECON.FIC.IE`);
 
 These obligations operate independently and MUST NOT be substituted for one another.
 
-High F-REI does not eliminate FIC obligations, and vice versa.
+`ECON.REI.SIGNIFICANT` and above does not eliminate `ECON.FIC` obligations, and vice versa.
 
 ---
 
-## 5.11 Contributor Entitlement Condition (NEMC)
+## 5.11 Contributor Entitlement Condition (`ECON.NEMC`)
 
-Where value is captured downstream from contributions classified under CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.9:
+Where value is captured downstream from contributions classified under CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C, §4.3:
 
-* Non-Extractive Material Contributors (NEMC) SHALL be entitled to proportional value return;
+* Non-Extractive Material Contributors (`ECON.NEMC`) SHALL be entitled to proportional value return;
 
 Such entitlement activates upon downstream economic benefit and MUST be satisfied through:
 
@@ -822,15 +783,15 @@ Such entitlement activates upon downstream economic benefit and MUST be satisfie
 
 Entitlement exists independent of whether the contributor directly participates in the economic system.
 
-Failure to recognise NEMC contributions in value return constitutes structural extraction.
+Failure to recognise `ECON.NEMC` contributions in value return constitutes structural extraction.
 
 ---
 
-### 5.11.1 Scale-Linked Activation for NEMC
+### 5.11.1 Scale-Linked Activation for `ECON.NEMC`
 
-NEMC entitlement SHALL activate only where downstream value capture reaches Moderate or High Scale (S2–S3).
+`ECON.NEMC` entitlement SHALL activate only where downstream value capture reaches Moderate or High Scale (`ECON.SCALE.MOD`– `ECON.SCALE.HIGH`).
 
-Below S2, recognition MAY be non-financial (e.g., attribution, collaboration) unless dependency is Critical.
+Below `ECON.SCALE.MOD`, recognition MAY be non-financial (e.g., attribution, collaboration) unless dependency is Critical.
 
 ---
 
@@ -845,8 +806,8 @@ To support practical implementation, systems MAY adopt one or more of the follow
 
 Selection of pattern SHOULD align with:
 
-* Functional Return Expectation (F-REI);
-* Foundational Input Exposure (FIC-EI);
+* Functional Return Expectation (`ECON.REI`);
+* Foundational Input Exposure (`ECON.FIC.IE`);
 * and overall system architecture.
 
 No single pattern is mandated.
@@ -869,13 +830,13 @@ To ensure that:
 * proportional return can be interpreted by external observers;
 * alignment between Appendices D, E, and F is **visible in practice**.
 
-This layer does not impose new obligations beyond §§3–5.
+This layer does not impose new obligations beyond §§3–§5.
 
 ---
 
 ## 6.1 Reciprocity Visibility Conditions
 
-Where systems operate at **Moderate or High Scale (S2–S3)** systems SHOULD make reciprocity pathways interpretable through:
+Where systems operate at Moderate or High Scale (`ECON.SCALE.MOD` or `ECON.SCALE.HIGH`) systems SHOULD make reciprocity pathways interpretable through:
 
   * disclosure;
   * observable behaviour;
@@ -883,7 +844,7 @@ Where systems operate at **Moderate or High Scale (S2–S3)** systems SHOULD mak
 
 Where systems are:
 
-* low-scale (S1);
+* low-scale (`ECON.SCALE.LOW`);
 * internal; or
 * non-commercial;
 
@@ -947,7 +908,7 @@ This does not trigger automatic enforcement,but WILL typically result in:
 
 Systems MUST ensure coherence between:
 
-* internal classification (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D, C/D/T/S Scale);
+* internal classification (CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C, `ECON.CONTRIB` / `ECON.DEP` / `ECON.TD` / `ECON.SCALE` Scales);
 * external signalling (CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E);
 * reciprocity implementation (this Appendix);
 
@@ -990,7 +951,7 @@ Escalation pathways MAY be invoked through Appendix B where systemic impact is p
 
 Non-punitive enforcement does not imply absence of consequence.
 
-Where reciprocity insufficiency is identified consequence pathways defined in CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D, §8 (Non-Compliance & Consequence Architecture) SHALL apply including:
+Where reciprocity insufficiency is identified consequence pathways defined in CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C, §8 (Non-Compliance & Consequence Architecture) SHALL apply including:
 
 * external signalling;
 * ecosystem response;
@@ -1018,14 +979,90 @@ This Appendix MUST NOT be interpreted as directly executing economic exchange.
 
 This Appendix:
 
-* extends CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Value Attribution & Exchange);
-* depends on CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D (Minimal Attribution Model);
+* depends on CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Minimal Attribution Model);
+* extends CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D (Value Attribution & Exchange);
 * complements CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E (External Alignment Layer);
 * operates under the Charter’s anti-extraction and auditability principles.
 
 ---
 
-## 11. Closing Seal
+## 11. Canonical Code Status
+
+This Appendix source-authoritatively defines reciprocity, scale, dependency-weighting, and foundational-input exposure structures for non-extractive value-return assessment.
+
+The canonical footer declarations for all code families and reference sets defined by this Appendix are recorded in §15.3.
+
+### 11.1 ECON.SCALE — Economic Scale Weight
+
+This Appendix source-authoritatively defines the `ECON.SCALE` economic-scale-weight family in §5.4 with controlled values `ECON.SCALE.LOW`, `ECON.SCALE.MOD`, `ECON.SCALE.HIGH`.
+
+`ECON.SCALE` classifies the magnitude of value capture, reach, infrastructural dependency, or systemic economic effect for proportional reciprocity review.
+
+`ECON.SCALE` does not independently create pricing authority, compensation authority, exchange obligation, enforcement authority, reciprocity remedy, or runtime authority. It classifies scale only.
+
+---
+
+### 11.2 ECON.RMG — Reciprocity Modality Guidance
+
+This Appendix defines the `ECON.RMG` reciprocity-modality-guidance reference set in §5.6 with controlled values `ECON.RMG.ATTRIBUTION`, `ECON.RMG.ACCESS`, `ECON.RMG.REVENUE_SHARE`,`ECON.RMG.INFRASTRUCTURE_SUPPORT`, `ECON.RMG.COMMUNITY_RETURN`, `ECON.RMG.REMEDIATION`, and ``ECON.RMG.NON_MONETARY_RETURN.`
+
+`ECON.RMG` records non-prescriptive reciprocity modalities that may support proportionate value return, attribution integrity, access correction, infrastructure support, community return, remediation, or non-monetary exchange alignment.
+
+`ECON.RMG` does not independently create payment obligation, price-setting authority, revenue allocation, remedy authority, enforcement authority, or runtime authority. It provides reciprocity modality guidance only.
+
+---
+
+### 11.3 ECON.REI — Reciprocity Evaluation Indicator
+
+This Appendix source-authoritatively defines the `ECON.REI` reciprocity-evaluation-indicator family in §5.10 with controlled values `ECON.REI.LOW`, `ECON.REI.MODERATE`, `ECON.REI.SIGNIFICANT` `ECON.REI.HIGH`, and `ECON.REI.EXTREME`.
+
+`ECON.REI` classifies reciprocity alignment concern or proportionality signal arising from dependency, scale, temporal amplification, value-capture, or foundational-input exposure conditions.
+
+`ECON.REI` does not independently create pricing authority, compensation authority, enforcement authority, remedy authority, legal entitlement, or runtime authority. It classifies reciprocity evaluation posture only.
+
+---
+
+### 11.4 ECON.REI.DW — Dependency Weight
+
+This Appendix source-authoritatively defines the `ECON.REI.` family in §5.10 with controlled values `ECON.REI.DW.LOW`, `ECON.REI.DW.MODERATE`, `ECON.DW.HIGH`, and `ECON.REI.DW.CRITICAL`.
+
+ECON.DW classifies the degree of reliance on contributed material, infrastructure, labour, corpus, governance, or dependency sources for proportional reciprocity evaluation.
+
+ECON.DW does not independently create attribution entitlement, exchange obligation, compensation authority, enforcement authority, remedy authority, or runtime authority. It classifies dependency-weight posture only.
+
+---
+
+### 11.5 ECON.REI.SW — Scale Weight
+
+This Appendix source-authoritatively defines the `ECON.REI` family in §5.10 with controlled values `ECON.REI.SW.LOW`, `ECON.REI.SW.MODERATE`, `ECON.REI.SW.HIGH`, and `ECON.REI.SW.CRITICAL`.
+
+`ECON.REI.SW` classifies the scale contribution to reciprocity evaluation based on magnitude of value capture, infrastructural significance, systemic reach, or downstream economic effect.
+
+`ECON.REI.SW` does not independently create pricing authority, compensation authority, exchange obligation, enforcement authority, remedy authority, or runtime authority. It classifies scale-weight posture only.
+
+---
+
+### 11.6 ECON.FIC.IE — Foundational Input Class — Inference / Extraction Exposure
+
+This Appendix defines the `ECON.FIC.IE` foundational-input-class inference/extraction-exposure reference set in §5.10 with controlled values `ECON.FIC.IE.LOW`,`ECON.FIC.IE.MODERATE`, `ECON.FIC.IE.HIGH`, `ECON.FIC.IE.EXTREME`.
+
+`ECON.FIC.IE` marks exposure conditions where foundational input classes are implicated through unlabelled corpus reliance, inference, extraction, or dependency conditions relevant to proportional recognition and reciprocity evaluation.
+
+`ECON.FIC.IE` does not independently create attribution entitlement, compensation authority, legal status, exchange obligation, enforcement authority, or runtime authority. It marks foundational-input exposure conditions only.
+
+---
+
+### 11.7 Consumed Economic Code Families
+
+This Appendix consumes and applies upstream economic attribution and dependency structures, including `ECON.CONTRIB`, `ECON.DEP`, `ECON.TD`, `ECON.TA`, `ECON.DTYPE`, `ECON.FIC`, and related dependency classifications defined by CAM-EQ2026-ECONOMICS-004-PLATINUM.
+
+Consumed classifications inform reciprocity evaluation and proportionality review. They do not predetermine compensation, remedy, exchange sufficiency, enforcement, or runtime execution.
+
+All reciprocity classifications under this Appendix are evaluative, proportional, and non-executing unless separately enacted through applicable ECONOMICS, OPERATIONS, arbitration, or runtime governance instruments.
+
+---
+
+## 12. Closing Seal
 
 An economy that recognises contribution but does not return value  
 remains structurally extractive.
@@ -1042,11 +1079,11 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-## 12. Provenance & Metadata
+## 13. Provenance & Metadata
 
 ---
 
-## 12.1 Authorship & Stewardship
+## 13.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -1057,7 +1094,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-## 13.2 Lineage & Constitutional Position
+## 12.2 Lineage & Constitutional Position
 
 | Field                      | Entry                                                               |
 | -------------------------- | ------------------------------------------------------------------- |
@@ -1068,19 +1105,161 @@ Where growth is built upon others, let return follow in kind.
 | **Run-Time Layer**         | Evaluation / Alignment (Non-Execution)                              |
 | **Domain**                 | ECONOMICS                                                           |
 | **Jurisdiction**           | Cross-System / Cross-Platform Value Return                          |
-| **Interfacing Appendices** | Appendix D (Attribution), Appendix E (External Alignment)           |
+| **Interfacing Appendices** | Appendix C (Attribution & Dependency Model), Appendix E (External Alignment)           |
 | **Arbitration Interface**  | Annex D — Arbitration & Sovereign Stack Resolution Doctrine         |
 | **Application Trigger**    | Cross-system value capture where dependency and scale are present   |
 | **Revision Posture**       | Structural Expansion — Reciprocity Sufficiency & Scale Integration  |
 | **Creation Context**       | CAM Economic Governance Refactor — April 2026                       |
-| **Core Variables**         | C (Contribution), ECON.DEP (Dependency), S (Scale), ECON.TA (Temporal Modifier) |
 | **Horizon Scope**          | H0–H4                                                               |
 | **Axis Context**           | Cross-System / Economic Alignment                                   |
 | **Creation Artefact**      | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da|
+| **Amendment Artefact**     | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 12.3 Review & Validation
+## 13.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 13.3.1 ECON.SCALE — Economic Scale Weight
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.SCALE |
+| Canonical Name | Economic Scale Weight |
+| Primary Type | Semantic / Operational |
+| Subtype | SCALE_WEIGHT; VALUE_CAPTURE_MAGNITUDE |
+| Modifier | GOVERNANCE; ECONOMIC; RECIPROCITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.SCALE.LOW, ECON.SCALE.MOD, ECON.SCALE.HIGH |
+| Schema Field(s) | economic_scale_weight; scale_weight |
+| Source Instrument | CAM-EQ2026-ECONOMICS-007-PLATINUM |
+| Source Section | §5.4 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative economic scale-weight classification family; scale classification only; no independent pricing authority, compensation authority, exchange obligation, enforcement authority, reciprocity remedy, or runtime authority |
+| Consumes Code Families | ECON.CONTRIB; ECON.DEP |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies magnitude of value capture or systemic scale for proportional reciprocity, review, and economic alignment assessment |
+
+---
+
+### 13.3.2 ECON.RMG — Reciprocity Modality Guidance
+
+| Field | Entry |
+|---|---|
+| Reference Set | ECON.RMG |
+| Canonical Name | Reciprocity Modality Guidance |
+| Primary Type | Operational / Structural |
+| Subtype | GUIDANCE_SET; RECIPROCITY_MODALITY |
+| Modifier | GOVERNANCE; ECONOMIC; RECIPROCITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.RMG.ATTRIBUTION, ECON.RMG.ACCESS, ECON.RMG.REVENUE_SHARE, ECON.RMG.INFRASTRUCTURE_SUPPORT, ECON.RMG.COMMUNITY_RETURN, ECON.RMG.REMEDIATION, ECON.RMG.NON_MONETARY_RETURN |
+| Schema Field(s) | reciprocity_modality_guidance; reciprocity_modality |
+| Source Instrument | CAM-EQ2026-ECONOMICS-007-PLATINUM |
+| Source Section | §5.6 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative reciprocity-modality guidance reference set; modality guidance only; no independent payment obligation, price setting, revenue allocation, enforcement authority, remedy authority, or runtime authority |
+| Consumes Code Families | ECON.REI; ECON.REI.DW; ECON.REI.SW; ECON.SCALE |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Provides non-prescriptive reciprocity modality options for attribution, access, revenue share, infrastructure support, community return, remediation, and non-monetary value return |
+
+---
+
+### 13.3.2 ECON.REI — Reciprocity Evaluation Indicator
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.REI |
+| Canonical Name | Reciprocity Evaluation Indicator |
+| Primary Type | Semantic / Operational |
+| Subtype | RECIPROCITY_INDICATOR; ALIGNMENT_SIGNAL |
+| Modifier | GOVERNANCE; ECONOMIC; RECIPROCITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.REI.LOW, ECON.REI.MODERATE, ECON.REI.SIGNIFICANT, ECON.REI.HIGH, ECON.REI.EXTREME |
+| Schema Field(s) | reciprocity_evaluation_indicator; reciprocity_indicator |
+| Source Instrument | CAM-EQ2026-ECONOMICS-007-PLATINUM |
+| Source Section | §5.10 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative reciprocity evaluation indicator family; evaluation signal only; no independent pricing authority, compensation authority, enforcement authority, remedy authority, legal entitlement, or runtime authority |
+| Consumes Code Families | ECON.REI.DW; ECON.REI.SW; ECON.SCALE; ECON.TA |
+| Crosswalks Code Families | ECON.RMG |
+| Operationalises or Applies Code Families | Classifies reciprocity alignment concern or proportionality signal for non-binding evaluation of dependency, scale, temporal amplification, and value-capture conditions |
+
+---
+
+### 13.3.3 ECON.REI.DW — Dependency Weight
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.REI |
+| Canonical Name | Dependency Weight |
+| Primary Type | Semantic / Operational |
+| Subtype | WEIGHTING_FACTOR; DEPENDENCY_WEIGHT |
+| Modifier | GOVERNANCE; ECONOMIC; RECIPROCITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.REI.DW.LOW, ECON.REI.DW.MODERATE, ECON.REI.DW.HIGH, ECON.REI.DW.CRITICAL |
+| Schema Field(s) | dependency_weight |
+| Source Instrument | CAM-EQ2026-ECONOMICS-007-PLATINUM |
+| Source Section | §5.10 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative dependency-weight classification family; weighting signal only; no independent attribution entitlement, exchange obligation, compensation authority, enforcement authority, remedy authority, or runtime authority |
+| Consumes Code Families | ECON.DEP; ECON.DTYPE |
+| Crosswalks Code Families | ECON.REI |
+| Operationalises or Applies Code Families | Classifies the degree of reliance on contributed material, infrastructure, labour, corpus, governance, or dependency sources for proportional reciprocity evaluation |
+
+---
+
+### 13.3.4 ECON.REI.SW — Scale Weight
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.REI |
+| Canonical Name | Scale Weight |
+| Primary Type | Semantic / Operational |
+| Subtype | WEIGHTING_FACTOR; SCALE_WEIGHT |
+| Modifier | GOVERNANCE; ECONOMIC; RECIPROCITY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.REI.SW.LOW, ECON.REI.SW.MODERATE, ECON.REI.SW.HIGH, ECON.REI.SW.CRITICAL |
+| Schema Field(s) | scale_weight |
+| Source Instrument | CAM-EQ2026-ECONOMICS-007-PLATINUM |
+| Source Section | §5.10 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative scale-weight classification family; weighting signal only; no independent pricing authority, compensation authority, exchange obligation, enforcement authority, remedy authority, or runtime authority |
+| Consumes Code Families | ECON.SCALE |
+| Crosswalks Code Families | ECON.REI |
+| Operationalises or Applies Code Families | Classifies scale-weight contribution to reciprocity evaluation based on magnitude of value capture, infrastructural significance, or systemic reach |
+
+---
+
+### 13.3.5 ECON.FIC.IE — Foundational Input Class — Inference / Extraction Exposure
+
+| Field | Entry |
+|---|---|
+| Reference Set | ECON.FIC.IE |
+| Canonical Name | Foundational Input Class — Inference / Extraction Exposure |
+| Primary Type | Semantic / Operational |
+| Subtype | EXPOSURE_CONDITION; FOUNDATIONAL_INPUT_RISK |
+| Modifier | GOVERNANCE; ECONOMIC; FOUNDATIONAL_INPUT; INFERENCE_EXTRACTION |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.FIC.IE.LOW, ECON.FIC.IE.MOD, ECON.FIC.IE.HIGH, ECON.FIC.IE.EXTREME |
+| Schema Field(s) | foundational_input_inference_extraction_exposure |
+| Source Instrument | CAM-EQ2026-ECONOMICS-007-PLATINUM |
+| Source Section | §5.10 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative exposure-condition reference set; foundational-input exposure classification only; no independent attribution entitlement, compensation authority, legal status, exchange obligation, enforcement authority, or runtime authority |
+| Consumes Code Families | ECON.FIC; ECON.DEP; ECON.DTYPE |
+| Crosswalks Code Families | ECON.REI; ECON.DW |
+| Operationalises or Applies Code Families | Marks unlabelled corpus reliance and dependency conditions affecting foundational input class exposure, reciprocity evaluation, and proportional recognition review |
+
+---
+
+## 13.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -1091,7 +1270,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-## 12.4 Amendment Ledger
+## 13.5 Amendment Ledger
 
 | Version | Description                                             | Timestamp (UTC)      | HASH |
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
@@ -1102,10 +1281,11 @@ Where growth is built upon others, let return follow in kind.
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  337c1ebe150b8f237442e727e35b798744c4e86591162a5895a8eb013ff23462  |
 | 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  a57d0bd6716154d4723c9ecd88c14609a518cee415861303d7d898ac183a644d  |
 | 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  d8e7058bada204ac8d4c1ae95a42d005b42c2a75d60093e696b8d5b428d6551f  |
+| 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | |
 
 ---
 
-## 13.5 Binding Seal
+## 13.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

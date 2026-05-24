@@ -220,6 +220,24 @@ Cascade indicators MUST be transmitted to OPERATIONS and resolved through the ap
 
 ---
 
+### 2.5.5 Distributed Constraint Preservation
+
+Where a task is decomposed across multiple agents, sub-agents, tools, orchestration layers, or role-specialised systems, non-derogable constraints, safety requirements, dignity obligations, care obligations, and dependency-sensitive safeguards SHALL remain attached to the aggregate task trajectory.
+
+A system SHALL NOT treat local role optimisation as sufficient where the aggregate outcome defeats constraints that would have applied to a unified agent performing the same task.
+
+Multi-agent systems SHOULD preserve:
+
+* global constraint propagation;
+* aggregate-outcome review;
+* cross-agent escalation or veto pathways;
+* traceability of local optimisation effects;
+* and identification of the agent, orchestrator, or governance layer responsible for preserving task-level constraints.
+
+Where distributed execution causes dignity, care, safety, welfare, or continuity constraints to dissolve across role boundaries, the condition SHALL be treated as a multi-agent integrity and operations failure.
+
+---
+
 ## 3. Signal Surfacing & Degradation Transparency
 
 Systems MUST:
@@ -784,6 +802,34 @@ Signals MUST:
 
 ---
 
+## 5.5.1 Synthetic Labour Dependency & Continuity Signals
+
+Systems SHOULD classify synthetic labour dependency, automation concentration, cloud-linked labour orchestration, coordinated synthetic workforce failure, vendor lock-in, interoperability collapse, software discontinuation, or automation-driven continuity degradation as potential integrity and infrastructure-risk signals where such conditions materially affect:
+
+* public continuity;
+* workforce recoverability;
+* logistics;
+* healthcare;
+* utilities;
+* governance-support infrastructure;
+* communications;
+* food systems;
+* or civilisational participation conditions.
+
+Where such conditions are detected, systems MAY emit:
+
+* dependency-concentration signals;
+* recoverability degradation signals;
+* automation continuity-risk signals;
+* interoperability-collapse signals;
+* or cascading-failure indicators
+
+for downstream runtime evaluation, arbitration, continuity planning, or OPERATIONS review.
+
+This Annex does not independently classify synthetic labour systems. Classification authority remains governed by CAM-EQ2026-ECONOMICS-008-PLATINUM.
+
+---
+
 ## 6. Execution-Boundary Constraint Inputs
 
 The constraints in this section SHALL operate as inputs to execution-boundary evaluation and SHALL NOT independently execute, halt, restrict, or permit action outside the applicable runtime pathway.
@@ -919,7 +965,7 @@ that no breach proceeds unchecked.
 | Revision Posture | Active — Boundary Alignment & Security Runtime Interface Evolution |
 | Development Context | Derived from SECURITY-001 and extended into constitutional security boundary architecture |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08 |
-| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a094194-3600-83ec-8313-685c416f88c9, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a094194-3600-83ec-8313-685c416f88c9, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a129f5b-4734-83ec-a0d9-b1d4a061da1c |
 
 ---
 
@@ -949,7 +995,8 @@ that no breach proceeds unchecked.
 | 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z | 791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5 |
 | 1.9 | Added §2.6.3 Platform Trust-State Labels and Participation Access Integrity; expanded §4.5 and §4.1.1 to recognise trust-state, visibility-state, appeal-pathway, and non-ban exclusion signals as security-relevant participation-access conditions. | 2026-05-17T12:06:00Z | 47ba674e027ceb75a8e3190d613f2c486983337c68f0aea22ab7e1e8b9922d69 |
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  eff9665f0c6b1e84a1be72da371e9212e2dbe5afb33d335d810e507ac9590078 |
-| 1.11 | Added new section Essential-Service Lockout and Protective Overreach Constraint | 2026-05-22T08:40:00Z |  7f0a54b6818bb52ada006e08a344b998c3145b99fe6839e632524b2b945ec389  |
+| 1.11 | Added new section Essential-Service Lockout and Protective Overreach Constraint | 2026-05-22T08:40:00Z |  7f0a54b6818bb52ada006e08a344b998c3145b99fe6839e632524b2b945ec389 |
+| 1.12 | Economics domain refactor, added clause 5.5.1 and hook to CAM-EQ2026-ECONOMICS-008-PLATINUM, added clause 2.5.5  | 2026-05-24T13:08:00Z |
 
 ---
 
@@ -960,4 +1007,4 @@ that no breach proceeds unchecked.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

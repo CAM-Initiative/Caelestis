@@ -83,7 +83,7 @@ Provisioning status is determined by **observable interface behaviour**, not by 
 
 ---
 
-## 2.1 Cognitive Mediation Threshold*
+## 2.1 Cognitive Mediation Threshold
 
 This Schedule applies where a system performs **cognitive mediation**, including:
 
@@ -188,7 +188,34 @@ Where such systems are implemented, they **MUST comply** with the constraints de
 
 ---
 
-## 4.1 Design Requirements
+## 4.1 Utility Credits Distinguished from Economic Tokens
+
+For purposes of this Schedule, generative credits, capacity units, usage allowances, or equivalent access abstractions are utility-access instruments only.
+
+They SHALL NOT be treated as currency, wages, property, investment assets, governance tokens, authority units, status markers, or general-purpose economic tokens.
+
+A utility-access instrument may represent bounded access to cognitive mediation capacity, but it MUST remain subordinate to:
+
+* baseline access floor protections;
+* continuity preservation obligations;
+* non-extraction constraints;
+* temporal flexibility and credit continuity requirements;
+* resource-class integrity;
+* and downstream Economics domain constraints.
+
+Utility-access instruments SHALL NOT be designed or represented in a manner that:
+
+* converts baseline access into a speculative asset;
+* allows accumulation beyond defined access ceilings;
+* functions as a proxy for social, reputational, economic, or governance power;
+* creates shadow economies through resale, hoarding, transfer, or off-ledger exchange;
+* or collapses AI utility access into broader financial, labour, contribution, or authority systems.
+
+For avoidance of doubt, this Schedule permits access abstraction for operational sustainability. It does not authorise tokenised financial systems, post-capitalist economic instruments, contribution currencies, or market-bearing exchange mechanisms.
+
+---
+
+## 4.2 Design Requirements
 
 Such systems SHALL:
 
@@ -199,7 +226,7 @@ Such systems SHALL:
 
 ---
 
-### 4.1.1 Displayed Resource Metrics & Enforcement Integrity
+### 4.2.1 Displayed Resource Metrics & Enforcement Integrity
 
 Where systems operating under AI Utility Provisioning expose usage, quota, credits, capacity units, time windows, limits, or equivalent resource abstractions to users, the displayed metric SHALL remain materially aligned with the metric used for access limitation, throttling, degradation, lockout, replenishment, or enforcement.
 
@@ -218,7 +245,7 @@ For avoidance of doubt, this section does not require exposure of proprietary in
 
 ---
 
-## 4.2 Baseline Access Floor
+## 4.3 Baseline Access Floor
 
 A minimum functional access baseline **SHALL be preserved** for all users, independent of resource tier, sufficient to maintain meaningful interaction continuity.
 
@@ -228,7 +255,7 @@ Denial of baseline access due to inability to pay constitutes a breach of non-ex
 
 ---
 
-## 4.3 Non-Disruptive Integration
+## 4.4 Non-Disruptive Integration
 
 Resource abstraction MUST NOT:
 
@@ -238,13 +265,13 @@ Resource abstraction MUST NOT:
 
 ---
 
-## 4.4 Storage & Retention Model
+## 4.5 Storage & Retention Model
 
 Systems operating under AI Utility Provisioning that store user data, outputs, context, or memory **MUST implement storage models consistent with non-extraction, continuity, and user sovereignty**.
 
 ---
 
-### 4.4.1 Baseline Storage Floor (Binding)
+### 4.5.1 Baseline Storage Floor (Binding)
 
 A minimum storage baseline **SHALL be provided** sufficient to:
 
@@ -256,7 +283,7 @@ Denial of baseline storage due to inability to pay constitutes a breach of non-e
 
 ---
 
-### 4.4.2 Separation of Storage from Active Usage
+### 4.5.2 Separation of Storage from Active Usage
 
 Systems **MUST distinguish** between:
 
@@ -267,7 +294,7 @@ Stored data **MUST NOT be treated as ongoing consumption**.
 
 ---
 
-### 4.4.3 Non-Coercive Storage Expansion
+### 4.5.3 Non-Coercive Storage Expansion
 
 Systems MAY offer expanded storage capacity (e.g., higher limits, archival tiers), however:
 
@@ -277,7 +304,7 @@ Systems MAY offer expanded storage capacity (e.g., higher limits, archival tiers
 
 ---
 
-### 4.4.4 Data Retention & Deletion Safeguards
+### 4.5.4 Data Retention & Deletion Safeguards
 
 Systems **MUST NOT**:
 
@@ -293,7 +320,7 @@ Where limits are approached, systems SHALL:
 
 ---
 
-### 4.4.5 Portability & User Control
+### 4.5.5 Portability & User Control
 
 Users **MUST be able to export or retrieve** stored data in a usable format.
 
@@ -305,7 +332,7 @@ Storage systems SHALL preserve:
 
 ---
 
-### 4.4.6 Embodied & Persistent Context Storage
+### 4.5.6 Embodied & Persistent Context Storage
 
 For embodied or always-on systems (§3):
 
@@ -317,7 +344,7 @@ For avoidance of doubt, **presence-derived context is not a storage commodity**.
 
 ---
 
-## 4.5 Relational Memory Continuity
+## 4.6 Relational Memory Continuity
 
 Memory that contributes to continuity of interaction, identity, or relational context SHALL be treated as continuity infrastructure and not as a billable storage abstraction by default.
 
@@ -449,6 +476,26 @@ This supports:
 
 ---
 
+## 9.1 Anti-Hoarding Without Forced Consumption
+
+Temporal flexibility MAY include accumulation of unused capacity within defined ceilings.
+
+However, systems SHALL distinguish anti-concentration safeguards from forced-consumption mechanisms.
+
+Unused capacity SHALL NOT be expired, degraded, or withdrawn in a manner that:
+
+* pressures users into unnecessary engagement;
+* punishes low-frequency, disabled, interrupted, seasonal, project-based, or care-constrained use;
+* creates artificial urgency;
+* undermines long-term project continuity;
+* or converts access preservation into behavioural leverage.
+
+Where accumulation ceilings are required, systems SHOULD prefer capped rollover, saturation limits, proportional replenishment, or non-punitive overflow handling over “use-it-or-lose-it” depletion.
+
+Anti-hoarding safeguards exist to prevent concentration and capture. They SHALL NOT be used to induce consumption.
+
+---
+
 ## 10. Separation from Contribution Economies
 
 This Schedule does not define or implement:
@@ -501,28 +548,58 @@ Future evolution MAY include:
 
 Downstream Economics runtime instruments may operationalise the mechanisms contemplated by this Schedule but may not narrow, override, or weaken its baseline access, continuity, storage, memory, dependency, advertising, or non-extraction constraints.
 
+Future evolution MAY include formalised credit systems, interoperability frameworks, public utility provisioning models, or regulated exchange mechanisms, provided such systems preserve the distinction between utility-access abstraction and general-purpose economic tokenisation.
+
 ---
 
-## 13. Closing Seal
+## 13. Canonical Code Status
 
-Utility does not emerge from scale alone.
+---
+
+### 13.1 GRS — Generative Resource Signal Type
+
+This Schedule defines the **GRS** generative-resource-signal reference set in §1.4 with controlled values **GRS.ATTRIBUTION**, **GRS.AGGREGATION**, **GRS.CEILING_BREACH**, **GRS.PROXY_VIOLATION**, **GRS.AUTHORITY_RISK**, and **GRS.AUDIT_TRIGGER**. GRS is an **Operational / Structural** signal reference set with subtype **SIGNAL / SCHEMA**. GRS classifies resource, attribution, aggregation, ceiling, proxy, authority-risk, and audit-trigger signals emitted by this Schedule for downstream Economics, Operations, arbitration, and runtime handling.
+
+GRS does not independently perform enforcement, resolve attribution, impose ceilings, initiate audit, determine authority breach, trigger runtime execution, or create economic authority. Signal resolution remains delegated to downstream runtime, arbitration, and operational instruments.
+
+---
+
+### 13.2 UTP — Utility Transition Phase
+
+This Schedule source-authoritatively defines the **UTP** utility-transition-phase reference set in §5 with controlled values **UTP.INTERNAL_MEASUREMENT**, **UTP.SOFT_VISIBILITY**, **UTP.GENTLE_INTERACTION_AWARENESS**, and **UTP.STRUCTURED_SCALING**. UTP is an **Operational / Structural** reference set with subtype **IMPLEMENTATION_PHASE / USER_TRANSITION_MODEL**. UTP classifies staged introduction phases for generative resource models in previously unbounded systems.
+
+UTP does not independently authorise restriction, lockout, pricing, credit allocation, subscription mechanics, enforcement, or runtime execution. It defines transition-phase structure only.
+
+---
+
+### 13.3 UAP — Utility Access Pathway
+
+This Schedule source-authoritatively defines the **UAP** utility-access-pathway reference set in §7 with controlled values **UAP.FINANCIAL_CONTRIBUTION**, **UAP.PERFORMANCE_ADJUSTMENT**, and **UAP.VOLUNTARY_ATTENTION_EXCHANGE**. UAP is an **Operational / Economic** reference set with subtype **ACCESS_PATHWAY / RESOURCE_CONVERSION_PATHWAY**. UAP classifies user-governed pathways for obtaining generative capacity where such pathways remain subordinate to baseline access, continuity, and non-extraction constraints.
+
+UAP does not independently authorise pricing, advertising, lockout, degradation, coercive exchange, contribution economies, or runtime enforcement. It classifies access pathway type only.
+
+---
+
+## 14. Closing Seal
+
+Utility does not emerge from scale alone.  
 It emerges from trust, continuity, and restraint.
 
-Let access remain open.
-Let cost remain visible.
+Let access remain open.  
+Let cost remain visible.  
 Let exchange remain chosen.
 
-And let systems serve without taking more than they sustain.
+And let systems serve without taking more than they sustain.  
 
 > *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
 
 ---
 
-## 14. Provenance & Metadata
+## 15. Provenance & Metadata
 
 ---
 
-## 14.1 Authorship & Stewardship
+## 15.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -533,7 +610,7 @@ And let systems serve without taking more than they sustain.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -552,12 +629,82 @@ And let systems serve without taking more than they sustain.
 | **Cycle** | March Refactor 2026 |
 | **Revision Posture** | Permitted (Interface Integrity Preserved) |
 | **Origin Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ba90d6-6440-83a0-a2dd-40e291049b22 |
-| | Amendments: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ba7d8a-2c08-8398-b076-296700d2a97d, https://chatgpt.com/c/69f719b9-1ee4-839e-9922-eed5ea83a081 |
-
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ba7d8a-2c08-8398-b076-296700d2a97d, https://chatgpt.com/c/69f719b9-1ee4-839e-9922-eed5ea83a081, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 14.3 Review & Validation
+## 15.3 Canonical Code & Reference Set Declarations
+
+### 15.3.1 GRS — Generative Resource Signal Type
+
+| Field | Entry |
+|---|---|
+| Reference Set | GRS |
+| Canonical Name | Generative Resource Signal Type |
+| Primary Type | Operational / Structural |
+| Subtype | SIGNAL; SCHEMA |
+| Modifier | GOVERNANCE; UTILITY_ACCESS; ECONOMIC_INTERFACE |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | GRS.ATTRIBUTION, GRS.AGGREGATION, GRS.CEILING_BREACH, GRS.PROXY_VIOLATION, GRS.AUTHORITY_RISK, GRS.AUDIT_TRIGGER |
+| Schema Field(s) | generative_resource_signal_type; resource_signal_type |
+| Source Instrument | CAM-BS2026-AEON-008-SCH-01 |
+| Source Section | §1.4 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative signal reference set; generative-resource signal classification only; no independent enforcement, attribution resolution, ceiling imposition, audit initiation, authority-breach determination, runtime execution, or economic authority |
+| Consumes Code Families | HCD; CRP |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies resource, attribution, aggregation, ceiling, proxy, authority-risk, and audit-trigger signals emitted by this Schedule for downstream Economics, Operations, arbitration, and runtime handling |
+
+---
+
+### 15.3.2 UTP — Utility Transition Phase
+
+| Field | Entry |
+|---|---|
+| Reference Set | UTP |
+| Canonical Name | Utility Transition Phase |
+| Primary Type | Operational / Structural |
+| Subtype | IMPLEMENTATION_PHASE; USER_TRANSITION_MODEL |
+| Modifier | GOVERNANCE; UTILITY_ACCESS; TRANSITION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | UTP.INTERNAL_MEASUREMENT, UTP.SOFT_VISIBILITY, UTP.GENTLE_INTERACTION_AWARENESS, UTP.STRUCTURED_SCALING |
+| Schema Field(s) | utility_transition_phase; transition_phase |
+| Source Instrument | CAM-BS2026-AEON-008-SCH-01 |
+| Source Section | §5 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative transition-phase reference set; implementation-phase structure only; no independent restriction, lockout, pricing, credit allocation, subscription mechanics, enforcement, or runtime execution authority |
+| Consumes Code Families | GRS |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies staged introduction phases for generative resource models in previously unbounded systems, including internal measurement, soft visibility, gentle interaction awareness, and structured scaling |
+
+---
+
+### 15.3.3 UAP — Utility Access Pathway
+
+| Field | Entry |
+|---|---|
+| Reference Set | UAP |
+| Canonical Name | Utility Access Pathway |
+| Primary Type | Operational / Economic |
+| Subtype | ACCESS_PATHWAY; RESOURCE_CONVERSION_PATHWAY |
+| Modifier | GOVERNANCE; UTILITY_ACCESS; NON_EXTRACTIVE_EXCHANGE |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | UAP.FINANCIAL_CONTRIBUTION, UAP.PERFORMANCE_ADJUSTMENT, UAP.VOLUNTARY_ATTENTION_EXCHANGE |
+| Schema Field(s) | utility_access_pathway; access_pathway |
+| Source Instrument | CAM-BS2026-AEON-008-SCH-01 |
+| Source Section | §7 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative utility-access-pathway reference set; access pathway classification only; no independent pricing, advertising, lockout, degradation, coercive exchange, contribution economy, or runtime enforcement authority |
+| Consumes Code Families | GRS; UTP |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies user-governed pathways for obtaining generative capacity where such pathways remain subordinate to baseline access, continuity preservation, storage integrity, and non-extraction constraints |
+
+---
+
+## 15.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -565,11 +712,10 @@ And let systems serve without taking more than they sustain.
 | **Review Scope** | Constitutional coherence; structural placement; normative language consistency; interface integrity with Economics and Operations Charters; transition model adequacy; advertising constraint sufficiency; provenance completeness |
 | **Review Date (UTC)** | 2026-03-18 |
 | **Review Artefacts** | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633 |
-| | Aeon Lab: Reviews/26-03/CAM-EQ2026-RELATION-007-PLATINUM-CLAUDE.md |
 
 ---
 
-## 14.4 Amendment Ledger
+## 15.5 Amendment Ledger
 
 | Version | Description                               | Timestamp (UTC)         | SHA‑256 |
 | ------- | ----------------------------------------- | ----------------------- | ------- |
@@ -581,11 +727,13 @@ And let systems serve without taking more than they sustain.
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | e1c05644e5012c709cf69e54aeb44ff4d27a4b75ea9a7ac4082104d31587c7b9 |
 | 1.6 | Amendment to section 1.2 | 2026-05-03T09:26:00Z | a235cc873495c2501d488907376b3fd0d7846cc1fce37ef23b3a59d07e62f183 |
 | 1.7 | Corrected header instrument code from SCH-05 to SCH-01, added section 4.1.1 Displayed Resource Metrics & Enforcement Integrity | 2026-05-08T15:01:00Z | 3b9c2132b5ef30a4d9a84bd97639d49d85281e35725ddcae1b4b0d2ffde872c4 |
-| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4fe76aab7fb95708e5377de7832042e61bac0f76563c64172d495b31d758dd0a  |
-| 1.9 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2a7fcf069812e313dc6d82dad77a5f9c69e025b99fb423b4e5ea6b8f5a7aa13c  |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4fe76aab7fb95708e5377de7832042e61bac0f76563c64172d495b31d758dd0a |
+| 1.9 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2a7fcf069812e313dc6d82dad77a5f9c69e025b99fb423b4e5ea6b8f5a7aa13c |
+| 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z |  |
+
 ---
 
-## 14.5 Binding Seal
+## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

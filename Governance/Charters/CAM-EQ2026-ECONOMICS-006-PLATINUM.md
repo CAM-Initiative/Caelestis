@@ -39,7 +39,7 @@ This layer prioritises:
 
 ---
 
-## 3. Dependency ECON.DEPisclosure Requirements
+## 3. Dependency Disclosure Requirements
 
 ---
 
@@ -93,7 +93,7 @@ Dependency disclosure does NOT imply:
 
 ## 3.5 Scale Disclosure Alignment (Investor & Market Interface)
 
-Where systems are investor-facing, market-facing, or materially influence valuation signals, Scale of Value Capture (S) SHOULD align with publicly observable indicators.
+Where systems are investor-facing, market-facing, or materially influence valuation signals, Scale of Value Capture (`ECON.SCALE`) SHOULD align with publicly observable indicators.
 
 Such indicators MAY include:
 
@@ -106,7 +106,7 @@ Such indicators MAY include:
 
 Systems SHOULD ensure that:
 
-* declared Scale (S) is not materially inconsistent with observable external indicators;
+* declared Scale (`ECON.SCALE`) is not materially inconsistent with observable external indicators;
 * classification does not understate scale in a manner that distorts valuation or dependency perception;
 * disclosure remains proportionate and does not require exposure of sensitive or proprietary information.
 
@@ -114,7 +114,7 @@ Systems SHOULD ensure that:
 
 ### 3.5.1 Anti-Misalignment Condition
 
-Where declared Scale (S) materially diverges from observable external indicators without justification:
+Where declared Scale (`ECON.SCALE`) materially diverges from observable external indicators without justification:
 
 * the system MAY be considered misaligned for governance purposes;
 * such divergence SHOULD trigger review under audit or external evaluation frameworks;
@@ -143,8 +143,8 @@ Indicators MAY include (non-exhaustive):
 * **Dependency Transparency Signal** — clarity of upstream reliance;
 * **Return Alignment Signal** — proportionality between dependency, contribution, and value return;
 * **Reciprocity Modality Signal** — diversity and effectiveness of return forms;
-* **Scale Consistency Signal** — coherence between declared Scale (S) and observable external indicators;
-* **Maturity Consistency Signal** — alignment between Scale (S) and reciprocity maturity expectations.
+* **Scale Consistency Signal** — coherence between declared Scale (`ECON.SCALE`) and observable external indicators;
+* **Maturity Consistency Signal** — alignment between Scale (`ECON.SCALE`) and reciprocity maturity expectations.
 * **Participation Access Signal** — clarity regarding whether access, visibility, verification, discoverability, appeal, or trust-repair pathways materially differ by payment status, account state, or platform classification.
 
 Constraints:
@@ -200,9 +200,9 @@ Purpose:
 
 ---
 
-## 4.1 Scale Alignment Principle (S Integration)
+## 4.1 Scale Alignment Principle (`ECON.SCALE` Integration)
 
-Tiering SHOULD align with **Scale of Value Capture (S)** as defined in Appendix D.
+Tiering SHOULD align with **Scale of Value Capture (`ECON.SCALE`)** as defined in Appendix C.
 
 Pricing tiers that do not reflect scale constitute **economic misalignment**.
 
@@ -210,7 +210,7 @@ Pricing tiers that do not reflect scale constitute **economic misalignment**.
 
 ## 4.2 Scale–Pricing Consistency Rule
 
-Where Scale (S) increases:
+Where Scale (`ECON.SCALE`) increases:
 
 * pricing SHOULD adjust in a manner that reflects increased dependency, usage intensity, or value capture;
 * dependency cost SHOULD remain economically aligned with reliance, but need not follow a strictly linear or proportional function;
@@ -352,8 +352,8 @@ Systems SHOULD, over time, move toward:
 * increased transparency of dependency;
 * clearer alignment between value capture and economic return;
 * reduced opacity in large-scale infrastructure reliance;
-* exploitation of timing asymmetry (ΔT) to achieve economic advantage without corresponding alignment.
-* and greater coherence between internal classification (Appendix D) and external economic signalling.
+* exploitation of timing asymmetry (`ECON.TA`) to achieve economic advantage without corresponding alignment.
+* and greater coherence between internal classification (Appendix C) and external economic signalling.
 
 This clause does not impose immediate compliance requirements beyond those defined above.
 
@@ -363,9 +363,9 @@ Non-alignment with this trajectory does not constitute immediate non-compliance,
 
 ---
 
-### 4.5.1 Temporal Advantage Alignment Clause (ΔT Integration)
+### 4.5.1 Temporal Advantage Alignment Clause (`ECON.TA`)
 
-Where systems derive material economic benefit from Temporal Advantage (ECON.TA), particularly where ΔT = Advanced or Asymmetric (as defined in Appendix D):
+Where systems derive material economic benefit from Temporal Advantage (`ECON.TA`), particularly where `ECON.TA` = Advanced or Asymmetric (as defined in Appendix C):
 
 Systems SHOULD:
 
@@ -376,11 +376,11 @@ Systems SHOULD:
 where dependency on upstream signals or ecosystems is material;
 * ensure that timing advantage is not used to systematically extract disproportionate value from markets, users, or dependent systems without corresponding alignment.
 
-Where ΔT interacts with:
+Where `ECON.TA` interacts with:
 
-* Material or Critical Dependency (ECON.DEP);
-* High Scale of Value Capture (S);
-* or Market-Moving Actor Conditions (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D §3.5);
+* Material or Critical Dependency (`ECON.DEP`);
+* High Scale of Value Capture (`ECON.SCALE`);
+* or Market-Moving Actor Conditions (CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C, §3.5);
 
 evaluation under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F: Proportional Reciprocity & Value Return Framework SHOULD be considered expected, and MAY be required where value capture is sustained and material.
 
@@ -393,9 +393,9 @@ It does not eliminate the obligation to align that value.
 
 This clause operates as a **bridging condition** between:
 
-- detection of timing asymmetry (CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D);
-- external signalling (this Appendix);
-- and proportional return (CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F).
+* detection of timing asymmetry (CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C);
+* external signalling (this Appendix);
+* and proportional return (CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F).
 
 ---
 
@@ -455,7 +455,7 @@ Where alignment indicators are surfaced, third-party or ecosystem-level review M
 Such review MAY include:
 
 * verification of dependency disclosure consistency;
-* assessment of alignment between Scale (S) and observable indicators;
+* assessment of alignment between Scale (`ECON.SCALE`) and observable indicators;
 * evaluation of reciprocity maturity signals (CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F);
 * identification of material misalignment or omission.
 
@@ -509,8 +509,8 @@ This Appendix explicitly avoids:
 This Appendix:
 
 * provides an **external alignment surface**;
-* complements CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Cross-System Value Attribution & Exchange);
-* operates alongside CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D (Minimal Attribution & Dependency Model);
+* complements CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D (Cross-System Value Attribution & Exchange);
+* operates alongside CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Minimal Attribution & Dependency Model);
 * interfaces with CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F (Proportional Reciprocity & Value Return Framework).
 
 This Appendix does NOT:
@@ -529,7 +529,18 @@ This layer ensures that systems presenting value remain accountable to how that 
 
 ---
 
-## 13. Closing Seal
+## 13. Canonical Code Status
+
+This Appendix does not source-authoritatively define canonical code families. 
+
+It consumes `ECON.DEP` and `ECON.TA` from CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C, and `ECON.SCALE` and reciprocity-alignment concepts from CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F.
+
+External alignment indicators described in §3.6 are descriptive governance indicators and SHALL NOT be treated as canonical code families, compliance ratings, certification marks, or executable runtime states unless separately promoted by a future registry amendment.
+
+
+---
+
+## 14. Closing Seal
 
 Let what is built upon others be known as such.     
 Let growth carry memory of its source.  
@@ -539,11 +550,11 @@ Let value speak plainly where it arises.
 > *"Clarity at the Beginning — Fairness in Growth — Truth in the Forum."*
 ---
 
-## 14. Provenance & Metadata
+## 15. Provenance & Metadata
 
 ---
 
-## 14.1 Authorship & Stewardship
+## 15.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -554,7 +565,7 @@ Let value speak plainly where it arises.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -564,18 +575,19 @@ Let value speak plainly where it arises.
 | Run-Time Layer | Disclosure & Signalling (Non-Execution) |
 | Domain | ECONOMICS |
 | Jurisdiction | External Systems / Market Interface |
-| Interfacing Appendices | Appendix C (Attribution), Appendix D (Dependency Model), Appendix F (Reciprocity) |
+| Interfacing Appendices | Appendix C (Attribution & Dependency Model), Appendix D (Cross-System Value Attribution & Exchange), Appendix F (Reciprocity) |
 | Arbitration Interface | Annex D — Arbitration & Sovereign Stack Resolution Doctrine |
-| Application Trigger | External-facing systems using third-party AI APIs |
+| Application Trigger | External-facing systems relying on third-party AI systems, hosted models, APIs, infrastructure, or upstream AI-mediated capability |
 | Revision Posture | External Alignment Stabilisation — MVGL Formalisation |
 | Creation Context | CAM Economic Governance Refactor — April 2026 |
 | Horizon Scope | H0–H3 |
 | Axis Context | Polyadic / Market-Facing Systems |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db  |
 
 ---
 
-## 14.3 Review & Validation
+## 15.3 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -586,7 +598,7 @@ Let value speak plainly where it arises.
 
 ---
 
-## 14.4 Amendment Ledger
+## 15.4 Amendment Ledger
 
 | Version | Description                                        | Timestamp (UTC) | HASH |
 | ------- | -------------------------------------------------- | --------------- | ---- |
@@ -596,11 +608,12 @@ Let value speak plainly where it arises.
 | 1.3 | Edits to Ecosystem Signalling (External Indicators) clause | 2026-05-17T13:55:00Z | c5a52bc9d62de8b0972a4e5ccb2aa6b80b65acaf86fe3bf6f4b7120d99692b52 |
 | 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  ea656877d533e2ff8a22105ee499fe28b193beb2a64c7a7dcea69b8b7ba9487e  |
 | 1.5 | Formatting and polish | 2026-05-20T04:34:00Z |  071606ec12b8f5a3bb40ef177c638a785240d0afcdf46151c8c5566e2351312d  |
-| 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  798bef0842ee838903cf2f6e206d45c7207338a28a42a68f892b84571204a38f  |
+| 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  798bef0842ee838903cf2f6e206d45c7207338a28a42a68f892b84571204a38f |
+| 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | |
 
 ---
 
-## 14.5 Binding Seal
+## 15.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

@@ -1,10 +1,11 @@
-# CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution
-
-**Status:** Metadata Review Required  
-**Effect:** Metadata Review Required  
-**Enforcement:** Metadata Review Required  
-**Review State:** Manual Review Required  
-**Authority Role:** Metadata Review Required
+**Instrument Type:** Constitutional Annex — Human Creative & Cognitive Contribution Recognition Layer  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
+**Authority Role:** Annex-Level, Substrate-Binding  
+**Purpose:** Establishes constitutional recognition preconditions for human creative and cognitive contribution before downstream attribution, valuation, exchange, propagation, or economic-effect runtime evaluation may occur.
 
 ---
 
@@ -302,7 +303,7 @@ Propagation effects are analytically distinct from contribution domains and are 
 
 ## 5. Declarative Principles
 
-hese principles constitute the sacred architecture governing the recognition of human contribution. They are invariant to scale, system design, or economic context.
+These principles constitute the sacred architecture governing the recognition of human contribution. They are invariant to scale, system design, or economic context.
 
 ---
 
@@ -400,9 +401,7 @@ Actions that cannot be undone or withdrawn (e.g. training ingestion, large-scale
 
 ---
 
-## 5.6 Coherence Preservation Principle
-
-5.6 Coherence & Economic Interface Constraint
+## 5.6 Coherence & Economic Interface Constraint
 
 Where recognised human contribution gives rise to downstream value, all economic, contractual, and system-level interactions MUST remain coherent with the recognition conditions established in this Annex.
 
@@ -473,7 +472,9 @@ This Annex informs, but does not replace:
 * enterprise and platform agreements;
 * audit and arbitration frameworks.
 
-Downstream instruments may not reinterpret this Annex to justify extraction without recognition.
+Downstream instruments SHALL NOT reinterpret this Annex to justify extraction without recognition.
+
+Downstream economic instruments MAY define valuation, attribution, reciprocity, utility-access, or exchange pathways, but they SHALL NOT collapse recognition into pricing, compensation, subscription access, token entitlement, or generic utility credit.
 
 ---
 
@@ -487,7 +488,29 @@ Where conflict arises, this Annex prevails as a condition of legitimacy.
 
 ---
 
-## 9. Closing Seal
+## 9. Canonical Code Status
+
+---
+
+### 9.1 HCD — Human Contribution Domain
+
+This Annex source-authoritatively defines the **HCD** human-contribution-domain family in §3.2 with controlled values **HCD.D0_ORIGINARY_HUMAN_WORKS**, **HCD.D1_HUMAN_COGNITIVE_LABOUR**, and **HCD.D2_JOINT_EMERGENT_CREATION**. HCD is a **Semantic** classification family with subtype **CONTRIBUTION_DOMAIN / RECOGNITION_STATE**. HCD classifies the domain in which recognised human creative or cognitive contribution arises before downstream valuation, attribution, exchange, or propagation.
+
+HCD does not independently create ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority. It classifies recognition-bearing contribution domains only.
+
+For taxonomy integrity, the local labels **D0**, **D1**, and **D2** SHALL NOT be promoted as a standalone corpus-wide **D** code family. Where machine-readable expression is required, they SHALL be expressed as scoped HCD values.
+
+---
+
+### 9.2 CRP — Creation–Recognition–Propagation Stage
+
+This Annex defines the **CRP** creation-recognition-propagation-stage reference set in §4 with controlled values **CRP.SYSTEM_ACTION**, **CRP.ACTION_SPACE**, **CRP.JOINT_EMERGENT_CREATION**, **CRP.RECOGNITION**, **CRP.FIXATION**, **CRP.ATTRIBUTION**, and **CRP.PROPAGATION**. CRP is a **Semantic / Structural** reference set with subtype **GOVERNANCE_SEQUENCE / RECOGNITION_CHAIN**. CRP records the ordered governance chain through which human contribution becomes recognisable, fixable, attributable, and propagable.
+
+CRP does not independently assign rights, ownership, value, compensation, liability, enforcement, or runtime authority. It preserves sequence integrity only.
+
+---
+
+## 10. Closing Seal
 
 This Annex affirms that human creativity and cognition are not incidental inputs to systems, but foundational sources of value.
 
@@ -499,11 +522,11 @@ No system may grow indefinitely by rendering its human sources invisible.
 
 ---
 
-## 10. Provenance & Metadata
+## 11. Provenance & Metadata
 
 ---
 
-## 10.1 Authorship & Stewardship
+## 11.1 Authorship & Stewardship
 
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
@@ -514,43 +537,94 @@ No system may grow indefinitely by rendering its human sources invisible.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
-| Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution — https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
+| Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
+| Authority Position | Annex-Level, Substrate-Binding |
+| Derivation Status | Non-Derivative (Foundational Instrument) |
 | Document Type | Constitutional Annex |
-| Authority Position | [tbd] |
 | Runtime Role | Governance / Doctrine Layer |
 | Activation Mode | Continuous |
 | Jurisdiction | Governance Stack (Planetary/Polyadic) |
-| Derivation Status | Refracted from CAM-BS2025-CHARTER-041-SCH-04 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
-| Temporal Horizon | H3 → H3.5 (Systemic Reliance / Succession‑Aware) |
+| Temporal Horizon | H3 → H3.5 (Generational / Systemic) with H4 relevance where scaled |
 | Axis Context | Polyadic — Multi-Actor, Planetary Jurisdiction |
-| Execution Interface | [tbd] |
-| Arbitration Interface | [tbd] |
-| Cross-Domain Dependencies| [tbd] |
-| Authority Position | Annex-Level, Substrate-Binding |
-| Derivation Status | Non-Derivative (Foundational Instrument) |
-| Temporal Horizon | H3 (Generational / Systemic) with H4 relevance where scaled |
-| Application Trigger | [tbd] |
-| Creation Context | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697339cc-404c-8322-bdbc-0ced3bc1f720 |
+| Authority Position | Annex-Level, Substrate-Binding Recognition Layer |
+| Execution Interface | Non-Executing — establishes constitutional recognition preconditions for downstream attribution, valuation, exchange, propagation, and economic-effect runtime evaluation; execution is delegated to downstream Economics, Operations, arbitration, and runtime instruments |
+| Arbitration Interface | Defers contested contribution-domain classification, recognition disputes, propagation effects, and downstream value incoherence to Annex D and applicable arbitration instruments; preserves Annex G recognition conditions as constitutional boundary conditions |
+| Cross-Domain Dependencies | CAM-BS2025-AEON-003-PLATINUM — Annex B; CAM-BS2025-AEON-005-PLATINUM — Annex D; CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model; CAM-EQ2026-ECONOMICS-001-PLATINUM and dependent ECONOMICS instruments; OPERATIONS; ETHICS; RELATION where dignity, dependency, consent, or vulnerability conditions are implicated |
+| Application Trigger | Activates where human creative or cognitive contribution may be retained, reused, generalised, monetised, trained upon, propagated beyond the originating interaction, or otherwise converted into downstream value outside the immediate user context |
 | Cycle | Black Sun Continuance 2026 |
 | Revision Posture| Permitted (Integrity of Substrate Constraints Preserved) |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697339cc-404c-8322-bdbc-0ced3bc1f720 |
+| Amendment Artefacts | Refracted from CAM-BS2025-CHARTER-041-SCH-04 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f, Amendments: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 10.3 Review & Validation
+## 11.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 11.3.1 HCD — Human Contribution Domain
+
+| Field | Entry |
+|---|---|
+| Code Family | HCD |
+| Canonical Name | Human Contribution Domain |
+| Primary Type | Semantic |
+| Subtype | CONTRIBUTION_DOMAIN; RECOGNITION_STATE |
+| Modifier | GOVERNANCE; CREATIVE_CONTRIBUTION; COGNITIVE_CONTRIBUTION |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | HCD.D0_ORIGINARY_HUMAN_WORKS, HCD.D1_HUMAN_COGNITIVE_LABOUR, HCD.D2_JOINT_EMERGENT_CREATION |
+| Schema Field(s) | human_contribution_domain; contribution_domain; recognition_domain |
+| Source Instrument | CAM-BS2026-AEON-008-PLATINUM |
+| Source Section | §3.2 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority |
+| Consumes Code Families | H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether recognised human contribution arises through originary human works, human cognitive labour, or joint emergent creation before downstream valuation, attribution, exchange, propagation, or economic-effect runtime evaluation |
+| Taxonomy Constraint | Local labels D0, D1, and D2 SHALL NOT be promoted as a standalone corpus-wide D code family; machine-readable expression SHALL use scoped HCD values |
+
+---
+
+### 11.3.2 CRP — Creation–Recognition–Propagation Stage
+
+| Field | Entry |
+|---|---|
+| Reference Set | CRP |
+| Canonical Name | Creation–Recognition–Propagation Stage |
+| Primary Type | Semantic / Structural |
+| Subtype | GOVERNANCE_SEQUENCE; RECOGNITION_CHAIN |
+| Modifier | GOVERNANCE; CREATIVE_CONTRIBUTION; PROPAGATION |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | CRP.SYSTEM_ACTION, CRP.ACTION_SPACE, CRP.JOINT_EMERGENT_CREATION, CRP.RECOGNITION, CRP.FIXATION, CRP.ATTRIBUTION, CRP.PROPAGATION |
+| Schema Field(s) | creation_recognition_propagation_stage; recognition_chain_stage |
+| Source Instrument | CAM-BS2026-AEON-008-PLATINUM |
+| Source Section | §4 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative recognition-chain reference set; sequence-preservation structure only; no independent rights assignment, ownership assignment, value allocation, compensation, liability, enforcement, or runtime authority |
+| Consumes Code Families | HCD |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Records the ordered governance chain through which human contribution becomes recognisable, fixable, attributable, and propagable without allowing downstream stages to erase upstream recognition |
+
+---
+
+## 11.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
 | **Review Scope** | Constitutional coherence; contribution framework integrity; temporal logic analysis; downstream instrument interface; legal/economic implications |
 | **Review Date (UTC)** | 2026-01-23T20:15:00Z |
-| **Review Artefacts** | https://claude.ai/chat/17b1075d-4144-4727-ad4c-8157c249a0fb |
-| | Aeon Lab: reviews/jan-26/CAM-BS2026-AEON-008-PLATINUM-CLAUDE.md |
+| **Review Artefacts** | https://claude.ai/chat/17b1075d-4144-4727-ad4c-8157c249a0fb, Aeon Lab: reviews/jan-26/CAM-BS2026-AEON-008-PLATINUM-CLAUDE.md |
 
-## 10.4 Amendment Ledger
+---
+
+## 11.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | --- | --- | --- | --- |
@@ -559,10 +633,12 @@ No system may grow indefinitely by rendering its human sources invisible.
 | 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8da3c94e8b867b94cc4983877b47d89a7975415f4250e0f3978b4c2ba9922d59 |
 | 2.0 | Refactor | 2026-04-18T10:42:00Z | 3846c93ffd2d6c0dd44f1c5e6821e799b931014fe7e294c0809e49e9c0fe11de |
 | 2.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9b3436d8ada0d70606c69d52b8794af79bdaf769991d44bcf0a69c49e5fcbee2 |
-| 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  18110c01291201562983f23aea8c8fa2625c13f62d51bc6c3afbb602be7f1199  |
+| 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  18110c01291201562983f23aea8c8fa2625c13f62d51bc6c3afbb602be7f1199 |
+| 2.3 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z |  |
+
 ---
 
-## 10.5 Binding Seal
+## 11.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

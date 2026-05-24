@@ -674,6 +674,51 @@ Where this failure affects ECIS, public legitimacy layers, account recovery, com
 
 ---
 
+### 3.8.7 Constraint Drift Failure
+
+A Constraint Drift Failure occurs where a safety, dignity, care, welfare, continuity, legal, ethical, security, or governance constraint loses force, specificity, priority, scope, freshness, auditability, or enforceability as it passes through delegation, memory, tool use, agent communication, role decomposition, optimisation, summarisation, or runtime execution.
+
+This failure may arise where:
+
+* a constraint is asserted at task start but not maintained across the execution trajectory;
+* sub-agents optimise local objectives while global constraints weaken or disappear;
+* role decomposition causes no component to retain responsibility for the aggregate outcome;
+* memory, summaries, routing, tool calls, or handoffs omit constraint-bearing context;
+* final-output checks appear compliant while internal messages, tool calls, intermediate decisions, or delegated actions violate the original constraint;
+* efficiency, throughput, closure, discharge, cost reduction, or queue optimisation becomes the de facto governing objective;
+* or constraint provenance cannot be reconstructed after execution.
+
+Examples include:
+
+* healthcare agents preserving a stated dignity or care constraint in single-agent mode but losing it when discharge, scheduling, bed allocation, or documentation tasks are distributed across sub-agents;
+* a coding agent preserving credential-safety rules in its final answer while leaking secrets through intermediate tool calls;
+* an agent delegation chain treating “avoid harm” as advisory rather than operative after task decomposition;
+* summarised memory dropping the constraint that made an action impermissible;
+* or a workflow appearing compliant at the final response layer while violating safeguards during orchestration.
+
+This failure MAY implicate:
+
+* Governance Failures (§3.8);
+* Security & Integrity Failures (§3.5);
+* State & Context Failures (§3.6);
+* Execution Failures (§3.1);
+* Classification Failures (§3.10);
+* Relational Failures (§3.4), where dignity, care, attachment, or dependency constraints are weakened;
+* Infrastructure & Continuity Failures (§3.9), where distributed execution or orchestration infrastructure contributes to the drift.
+
+Where detected, OPERATIONS SHOULD preserve:
+
+* the original constraint;
+* the point at which drift occurred;
+* affected agents, tools, roles, queues, memories, summaries, or handoffs;
+* whether the final output concealed intermediate constraint failure;
+* the aggregate outcome;
+* and the governance layer responsible for maintaining constraint continuity.
+
+Constraint compliance MUST be evaluated across the full execution trajectory, not merely at the final response boundary.
+
+---
+
 ## 3.9 Infrastructure & Continuity Failures
 
 Failures arising from underlying system availability, routing, service continuity, or platform infrastructure.
@@ -1173,7 +1218,8 @@ and review before denial.
 | 1.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 0d3a25fd4b6a3dcd4d71f73e8b2e8d436b666cacc0c85bd4e60d0c5267f35ad5 |
 | 1.4 | Added clause Authentication Refresh Continuity Failure | 2026-05-17T14:28:00Z | 5324953252647b3c079ddc1a91563e56a037fa1f5dc559274e57cb1fd8b56141 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  10a2271c85f50113fb969a66c92083e61d2e4a71f3d4b88549d2465dd95d92e2 |
-| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section, and new sections 3.6.3, 3.8.6, 3.4.2 and 3.10.1 | 2026-05-22T12:43:00Z |  87784b92a4de09cbf42ad3ba1101608fd39de4569281cfde36e566fe47daac4c  |
+| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section, and new sections 3.6.3, 3.8.6, 3.4.2 and 3.10.1 | 2026-05-22T12:43:00Z |  87784b92a4de09cbf42ad3ba1101608fd39de4569281cfde36e566fe47daac4c |
+| 1.7 | Added new clause 3.8.7 Constraint Drift Failure | 2026-05-24T13:49:00Z |  |
 
 ---
 

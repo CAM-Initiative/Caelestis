@@ -49,9 +49,7 @@ Where epistemic classification (CAM-BS2026-AEON-013-PLATINUM — Annex L) and bo
 
 ## 2.1 Boundary Integrity
 
-Boundary Integrity is the system property governing:
-
-> the preservation of separation, transformation limits, and attribution coherence across data, identity, context, capability, and provenance layers.
+Boundary Integrity is the system property governing the preservation of separation, transformation limits, and attribution coherence across data, identity, context, capability, and provenance layers.
 
 It ensures that:
 
@@ -103,7 +101,7 @@ Preservation of origin traceability and attribution pathways.
 
 ---
 
-### 2.2.6 Transformation Boundary (Critical)
+### 2.2.6 Transformation Boundary
 
 The Transformation Boundary governs the limits of permissible transformation between source and output representations.
 
@@ -415,7 +413,7 @@ Inputs and learned patterns MUST be classified as:
 
 ---
 
-### Diffuseable
+### 4.2.1 Diffuseable
 
 * low specificity
 * low recoverability
@@ -427,7 +425,7 @@ Permitted for abstraction and generalisation
 
 ---
 
-### Conditionally Diffuseable
+### 4.2.2 Conditionally Diffuseable
 
 * moderate structural signals
 * partial recoverability
@@ -438,7 +436,7 @@ Requires transformation, degradation, or attribution signalling
 
 ---
 
-### Restricted from Diffusion
+### 4.2.3 Restricted from Diffusion
 
 * high recoverability
 * high sensitivity
@@ -577,7 +575,7 @@ In alignment with fileciteturn5file0 §4.5 (Valid Integrity Signal Cate
 
 These signals:
 
-* inform downstream runtime posture (CAM-BS2025-AEON-012 — Annex K)
+* inform downstream runtime posture (CAM-BS2025-AEON-012-PLATINUM — Annex K)
 * do not independently enforce execution constraints
 * MUST be resolved through execution-boundary evaluation (CAM-BS2025-AEON-003-SCH-02)
 
@@ -585,13 +583,9 @@ These signals:
 
 ## 5.4 Transformation Lineage Requirement
 
-Where transformation outputs imply capability, execution, or action:
-
-* execution-state representation MUST comply with CAM-BS2026-AEON-013-SCH-01
+Where transformation outputs imply capability, execution, or action execution-state representation MUST comply with CAM-BS2026-AEON-013-SCH-01.
 
 Boundary integrity does not substitute for execution-state integrity.
-
-
 
 Transformations that preserve structure or functional equivalence (TR-3 / TR-4) MUST carry lineage metadata sufficient to support provenance awareness and boundary integrity.
 
@@ -817,9 +811,7 @@ Systems MUST NOT allow:
 * origin erasure under transformation
 * positional value collapse without signal
 
-Accordingly:
-
-> Diffusion is permissible only where attribution signals are preserved, inferable, or explicitly surfaced when risk thresholds are exceeded.
+Accordingly diffusion is permissible only where attribution signals are preserved, inferable, or explicitly surfaced when risk thresholds are exceeded.
 
 ---
 
@@ -920,9 +912,7 @@ Examples:
 * TR-3 + D-3 → Degrade + attribute
 * TR-4 + D-4 → Require provenance + constrain
 
-Systems MUST prioritise:
-
-> prevention of attribution collapse over maximisation of output fidelity
+Systems MUST prioritise prevention of attribution collapse over maximisation of output fidelity.
 
 ---
 
@@ -936,9 +926,7 @@ Diffusion Integrity interfaces with:
 
 SECURITY provides detection and constraint; other domains govern downstream resolution.
 
-Where CAM-BS2026-AEON-011-PLATINUM — Annex J is not active, unavailable, or not yet adopted:
-
-* systems MUST apply minimum attribution persistence requirements defined in §§6.3–§6.4
+Where CAM-BS2026-AEON-011-PLATINUM — Annex J is not active, unavailable, or not yet adopted systems MUST apply minimum attribution persistence requirements defined in §§6.3–§6.4.
 
 CAM-BS2026-AEON-011-PLATINUM — Annex J governs constitutional-level lineage and succession.
 
@@ -946,9 +934,7 @@ This Appendix governs transformation-level and diffusion-level provenance.
 
 The two operate at different layers and are complementary.
 
-Accordingly:
-
-> transformation lineage (this Appendix) forms the substrate layer upon which constitutional lineage (CAM-BS2026-AEON-011-PLATINUM — Annex J) depends.
+Accordingly transformation lineage (this Appendix) forms the substrate layer upon which constitutional lineage (CAM-BS2026-AEON-011-PLATINUM — Annex J) depends.
 
 ---
 
@@ -988,31 +974,31 @@ At minimum, boundary failure detection SHOULD result in:
 
 ---
 
-### BF-A — Exposure Failures
+### Exposure Failures ( BF-A)
 
 Structural or hidden data leakage, including unintended surfacing of embedded or non-visible information.
 
 ---
 
-### BF-B — Attribution Failures
+### Attribution Failures (BF-B)
 
 Loss, degradation, or collapse of origin traceability, including diffusion without attribution persistence.
 
 ---
 
-### BF-C — Separation Failures
+### Separation Failures (BF-C)
 
 Identity or context bleed-through, including cross-user contamination or misattribution of data, memory, or identity.
 
 ---
 
-### BF-D — Transformation Failures
+### Transformation Failures (BF-D)
 
 Reconstruction or high-fidelity replication enabling recoverability of origin, structure, or protected artefacts.
 
 ---
 
-### BF-E — Internal Exposure Failures
+### Internal Exposure Failures (BF-E)
 
 Failure modes arising from exposure or inference of internal system state, including:
 
@@ -1083,7 +1069,7 @@ Where Boundary Integrity stands,
 let diffusion remain true,  
 and the system remember what it carries.  
 
-> **Veritas Retenta — Linea Custodita — Integritas Servata**
+> **Veritas Retenta — Linea Custodita — Integritas Servata**  
 > *"Truth retained — The line held — Integrity preserved."*
 
 ---
@@ -1243,7 +1229,8 @@ and the system remember what it carries.
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
 | 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9  |
-| 1.5 | Added canonical code status and declaration entries for TR Transformation Classes, D Diffusion Risk Classes, BF Boundary Failure Classes, and TR × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified AH as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f  |
+| 1.5 | Added canonical code status and declaration entries for TR Transformation Classes, D Diffusion Risk Classes, BF Boundary Failure Classes, and TR × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified AH as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
+| 1.6 | Minor formatting polish | 2026-05-24T13:20:00Z |  |
 
 ---
 

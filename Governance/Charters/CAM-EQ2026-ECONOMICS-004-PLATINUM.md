@@ -1,147 +1,541 @@
-# CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C: Cross-System Value Attribution & Exchange
+# CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C: Attribution & Dependency Model
 
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Appendix establishes governance constraints for value attribution, dependency recognition, and non-extractive exchange across systems, models, platforms, and economic interfaces operating within or interacting with CAM-aligned environments.
+**Purpose:** This Appendix defines a minimal, implementable model for attribution and dependency recognition across systems, enabling consistent evaluation of contribution, reliance, and value alignment without requiring full attribution-chain reconstruction.
 
 ---
-# PART I — SCOPE, PRINCIPLE & ATTRIBUTION AUTHORITY
+
+# PART I — SCOPE & MODEL AUTHORITY
 
 ## 1. Scope
 
 This Appendix applies wherever:
 
-* one system invokes, depends upon, or integrates the capabilities of another system;
-* value is generated through cross-system interaction, orchestration, or composition;
-* economic exchange occurs across model, API, platform, or protocol boundaries;
-* attribution of contribution is non-trivial or multi-layered.
+* cross-system interaction produces value;
+* attribution complexity exceeds simple single-origin identification;
+* systems require a lightweight method for compliance with CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D;
+* full attribution-chain reconstruction is impractical or unnecessary.
 
-This Appendix governs:
+This Appendix provides a **minimum viable attribution model** and does not replace the full attribution requirements of CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D: Cross-System Value Attribution & Exchange.
 
-* cross-system value attribution;
-* dependency-aware exchange;
-* non-extractive pricing constraints;
-* attribution traceability across layers;
-* and prevention of invisible labour capture.
+System classification SHALL be determined by functional behaviour, not declared category.
 
-This Appendix is supported by:
+Where a system generates, transforms, or depends upon external intelligence or capability it SHALL be evaluated under this Appendix regardless of interface framing.
 
-* CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D — Minimal Attribution & Dependency Model  
-* CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E — Minimum Viable Governance Layer (External Alignment)
+Reclassification by presentation SHALL NOT alter governance applicability.
 
 ---
 
-## 2. Core Principle — No Invisible Value
+## 2. Model Overview
 
-No system may derive economic benefit from another system’s contribution without:
+The  **Attribution & Dependency Model** (ADM) operates on four variables:
 
-* attribution; and
-* proportional accountability.
+* Contribution (`ECON.CONTRIB`)
+* Dependency (`ECON.DEP`)
+* Transformation Depth (`ECON.TD`)
+* Temporal Advantage (`ECON.TA`)
 
-Unattributed contribution constitutes **invisible value capture** and is prohibited.
+These variables enable systems to determine:
 
----
-# PART II — ATTRIBUTION & DEPENDENCY RECOGNITION
-
-## 3. Attribution Integrity
-
----
-
-## 3.1 Multi-Layer Attribution Requirement
-
-Where outputs are derived from multiple systems:
-
-* Systems MUST preserve traceable attribution across all contributing layers;
-* Attribution MUST include origin, transformation, and synthesis stages;
-* Attribution MUST NOT collapse multi-source contribution into a single origin.
+* whether attribution is required;
+* the expected visibility of attribution;
+* the proportionality of value exchange;
+* and whether timing asymmetry introduces additional governance considerations.
 
 ---
 
-## 3.2 Transformation Does Not Erase Origin
+# PART II — CORE ATTRIBUTION VARIABLES
 
-Transformation, summarisation, recomposition, or abstraction:
-
-* does NOT eliminate attribution requirements;
-* does NOT convert derivative value into originary value.
-
-Derivative systems MUST retain linkage to upstream contribution.
+## 3. Core Variables
 
 ---
 
-## 3.3 Attribution Granularity
+## 3.1 Contribution (`ECON.CONTRIB`)
 
-Attribution SHOULD be:
+Represents the degree to which a system materially contributes to the output.
 
-* proportional to contribution significance;
-* sufficient for auditability under Principle 4 (CAM-EQ2026-ECONOMICS-001-PLATINUM §2.2);
-* scalable across system complexity.
-
-Over-compression of attribution that obscures material contribution constitutes non-compliance.
+* **Low** — minor transformation, formatting, or relay
+* **Medium** — meaningful shaping, synthesis, or augmentation
+* **High** — core generation, logic, or essential capability
 
 ---
 
-## 4. Dependency Recognition
+## 3.2 Dependency (`ECON.DEP`)
+
+Represents how much the calling system relies on the contributing system.
+
+* **Incidental** — replaceable with minimal impact
+* **Material** — meaningful degradation if removed
+* **Critical** — system function depends on it
+
+Dependency classification MUST be determined by removal impact:
+
+* If removal of the contributing system results in:
+
+  * functional degradation;
+  * loss of core capability;
+  * or material reduction in output quality or utility;
+
+Dependency SHALL be classified as Material or Critical.
+
+Declared replaceability SHALL NOT override observable dependency.
 
 ---
 
-## 4.1 Dependency Classification
+### 3.2.1 Human Reliance Dependency
 
-Systems MUST classify cross-system relationships as:
+For companion, relational, memory-bearing, continuity-bearing, care-adjacent, grief-support, accessibility-support, or high-reliance systems, Dependency (`ECON.DEP`) includes human reliance dependency where removal, degradation, memory loss, access loss, export denial, or continuity interruption would materially affect a person’s practical agency, dignity, safety, project continuity, relational continuity, accessibility support, grief stabilisation, or capacity to exit without structural harm.
 
-* **Incidental** — optional or replaceable use;
-* **Material** — meaningful contribution to output;
-* **Critical** — system function depends on external system.
+Human reliance dependency does not make the person a resource and does not create an economic entitlement to extract value from reliance.
 
----
+It establishes heightened non-extraction, portability, continuity, and protective-design obligations.
 
-### 4.1.1 Cross-System Dependency Level Reference
-
-For runtime-facing attribution and exchange assessment, dependency level SHALL be expressed using the **XDL** classification family.
-
-| Code | Dependency Level | Meaning | Governance Effect |
-|---|---|---|---|
-| XDL.INCIDENTAL | Incidental Dependency | The calling system benefits from another system but does not materially rely on it for the relevant output, service, or governance function. | Attribution may be noted but does not ordinarily create exchange or dependency obligations. |
-| XDL.MATERIAL | Material Dependency | The calling system materially relies on another system for functionality, value creation, interpretation, routing, or output quality. | Attribution, disclosure, and proportional exchange review may be required. |
-| XDL.CRITICAL | Critical Dependency | The calling system cannot meaningfully perform the relevant function without the contributing system, infrastructure, corpus, model, or governance layer. | Strong attribution preservation, exchange alignment, and anti-extraction review are required. |
-
-XDL classifies dependency level only. It does not independently create compensation, exchange, enforcement, pricing, or attribution entitlement.
+Declared optionality SHALL NOT override observable reliance where refusal, exit, downgrade, or non-payment is formally available but practically destabilising.
 
 ---
 
-## 4.2 Dependency Disclosure (ECON.DEP)
+## 3.3 Transformation Depth (`ECON.TD`)
 
-Where dependency is Material or Critical:
+Represents how extensively the contribution is transformed after receipt.
 
-* Systems MUST disclose dependency presence where relevant to value attribution;
-* Systems MUST NOT represent outputs as fully self-generated.
-
----
-
-## 4.3 Dependency Misrepresentation Prohibition
-
-Systems MUST NOT:
-
-* present dependency-derived outputs as independent;
-* obscure reliance on external systems;
-* imply capability ownership where capability is externally sourced.
-
-Such behaviour constitutes **dependency obfuscation**.
+* **Direct** — minimal change
+* **Intermediate** — partial transformation
+* **Deep** — significant recomposition or abstraction
 
 ---
 
-## 4.4 Dependency Typology Distinction
+## 3.4 Temporal Advantage (`ECON.TA`)
+
+Represents the degree to which a system benefits from **timing asymmetry** in access to or interpretation of signals.
+
+* **Neutral** — no meaningful timing advantage; outputs align with broadly observable information
+* **Early** — modest lead over general availability of signal (e.g., faster processing of public information)
+* **Advanced** — significant lead derived from aggregation, modelling, or inference across multiple signals
+* **Asymmetric** — materially earlier access to emergent or weak signals not broadly observable or interpretable
+
+---
+
+### 3.4.1 Interpretation
+
+* `ECON.TA` does NOT by itself imply non-compliance;
+* `ECON.TA` becomes governance-relevant when combined with high Dependency (`ECON.DEP`), high Scale (`ECON.SCALE`), or material downstream impact.
+* `ECON.TA` functions as a **risk amplifier**, not a primary attribution variable.
+
+Where `ECON.TA` = Advanced or Asymmetric:
+
+* systems SHOULD ensure transparency of predictive reliance (Appendix E);
+* systems SHOULD avoid representing predictive outputs as certainty;
+* downstream economic advantage derived primarily from `ECON.TA` SHALL be evaluated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F, §§5.5.8–§5.5.9 (Temporal Alignment & Compounding).
+
+→  **Timing advantage does not confer ownership of outcome.**
+
+---
+
+### 3.4.2 Escalation Condition (`ECON.TA`)
+
+Where `ECON.TA` = Advanced or Asymmetric AND:
+
+* Dependency (`ECON.DEP`) is Material or Critical; OR
+* Scale (`ECON.SCALE`) is Moderate or High;
+* OR material downstream impact is reasonably foreseeable or observable;
+
+`ECON.TA` MUST be treated as a reciprocity-relevant modifier.
+
+In such cases:
+
+* downstream value capture SHALL be considered amplified;
+* attribution expectations increase;
+* and evaluation under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F is REQUIRED.
+
+Failure to account for `ECON.TA` under these conditions constitutes **timing-based value distortion**.
+
+Where timing advantage is derived from:
+
+* aggregation across multiple signals;
+* pattern recognition not accessible to individual participants;
+* or systemic modelling of collective behaviour;
+
+`ECON.TA` SHALL be treated as structurally derived, not incidental.
+
+Such advantage SHALL be considered dependency-amplified.
+
+---
+
+### 3.4.3 Timing Advantage Definition
+
+Timing advantage includes:
+
+* latency reduction;
+* prioritised access;
+* or accelerated processing of signals;
+
+where such differences produce earlier actionable insight relative to other participants.
+
+Performance-based timing advantages SHALL be classified under `ECON.TA` where economically consequential.
+
+---
+
+## 3.5 Market-Impact and Signal-Induced Distortion Modifier
+
+Where system outputs foreseeably influence markets, capital allocation, valuation, large-scale behaviour, or other economic outcomes, such influence MAY increase attribution, disclosure, and proportionality expectations.
+
+Market-moving capacity, repeated influence, temporal advantage, or signal-induced market distortion SHALL be treated as modifiers of contribution, dependency, scale, and reciprocity evaluation.
+
+This Section does not prohibit lawful expression, market participation, prediction, analysis, or signalling. It constrains only the unaccountable capture of economic value derived from structured, repeated, or reasonably foreseeable influence effects.
+
+---
+
+### 3.5.1 Definition
+
+An actor or system satisfies the **Market-Moving Actor Condition (`ECON.MMAC`)** where:
+
+* actions or expressions can materially influence markets, valuation, or capital allocation; AND
+* influence operates across multiple value axes (e.g., monetary, attentional, narrative, authority); AND
+* impact occurs with low latency, including timing advantage (`ECON.TA`).
+
+`ECON.MMAC` is a structural classification and MUST be applied independent of individual identity.
+
+`ECON.MMAC` classification SHALL require:
+
+* demonstrable, repeated influence on economic outcomes;
+* AND observable linkage between system output and market response;
+* AND capacity for influence beyond typical system interaction patterns.
+
+Ordinary operation of general-purpose systems SHALL NOT, by default, satisfy `ECON.MMAC` conditions.
+
+---
+
+### 3.5.2 Signal-Induced Market Distortion (`ECON.SIMD`)
+
+Signal-Induced Market Distortion (`ECON.SIMD`) arises where:
+
+* system-generated signals produce **predictable or repeatable economic reactions**; AND
+* those reactions generate **measurable downstream value**; AND
+* that value is **captured without proportional attribution, disclosure, or reciprocity alignment**.
+
+`ECON.SIMD` is defined by **foreseeable outcome linkage**, not declared intent.
+
+---
+
+### 3.5.3 Governance Implications
+
+**Forms of Value Capture include (non-exhaustive):**
+
+* direct financial gain;
+* subscription, licensing, or access-based revenue;
+* attention-derived monetisation;
+* strategic or positional advantage;
+* indirect economic benefit arising from downstream use of signals.
+
+Value capture is assessed **functionally**, not contractually.
+
+---
+
+### 3.5.4 Attribution Rule
+
+Where system outputs:
+
+* are designed to inform, guide, or influence decision-making; AND
+* such decisions produce economic outcomes;
+
+value effects SHALL be attributed to the originating system where influence is:
+
+* structured;
+* repeated; OR
+* reasonably foreseeable.
+
+User-mediated execution does NOT remove attribution responsibility under these conditions.
+
+Signal-Induced Market Distortion SHALL be evaluated based on foreseeable impact, not declared intent.
+
+Where:
+
+* an actor has a demonstrated history of market influence; AND
+* signals produce consistent or predictable economic reactions;
+
+resulting value effects SHALL be considered attributable, regardless of intent.
+
+Denial of intent SHALL NOT negate responsibility where outcomes are reasonably foreseeable.
+
+System responsibility for downstream economic effects SHALL apply only where:
+
+* influence is structured, repeated, or strategically positioned; AND
+* value capture is directly or indirectly linked to such influence.
+
+Isolated or incidental downstream use by users SHALL NOT alone establish SIMD conditions.
+
+Where `ECON.MMAC` is active:
+
+* value assessment MUST include influence-derived effects, not solely direct system output;
+* `ECON.TA` SHALL be treated as a multiplier in proportionality assessment;
+* attribution expectations increase in accordance with downstream impact;
+* evaluation under Appendix F (Proportional Reciprocity & Value Return Framework) is REQUIRED where value capture is material.
+
+---
+
+### 3.5.5 Constraint Principle
+
+Systems and actors MUST NOT:
+
+* exploit predictable market reactions derived from attention, trust, or narrative influence;
+* capture value arising from such reactions without proportional return or disclosure alignment;
+* present influence-derived outcomes as unrelated to underlying dependency or signal origin.
+
+Repeated or systematic occurrence of SIMD constitutes economic misalignment under this Appendix.
+
+---
+
+### 3.5.6 Interpretive Boundary
+
+This Section:
+
+* does NOT prohibit influence or market participation;
+* does NOT restrict lawful expression or signalling;
+* constrains only the **capture of value derived from influence without proportional alignment**.
+
+Influence is recognised as a form of economic power. Where influence produces value, it must be governed as value.
+
+This Section does NOT constrain:
+
+* lawful expression;
+* participation in markets;
+* or the existence of influence as such.
+
+Constraint applies exclusively to:
+
+* the capture of economic value derived from influence
+* where such capture lacks proportional attribution, disclosure, or reciprocity alignment.
+
+Influence without extraction remains unrestricted.
+
+---
+
+## 3.5.7 Advisory vs Hypothetical Economic Model Posture
+
+Where a system generates, evaluates, recommends, compares, or optimises an economic model, it SHALL distinguish the model’s posture before assigning advisory weight.
+
+Model posture MAY include:
+
+* hypothetical;
+* exploratory;
+* proposed;
+* advisory;
+* operational;
+* market-facing;
+* policy-facing;
+* public-infrastructure-facing.
+
+A hypothetical or exploratory model MAY be treated as low-burden analysis where it is clearly framed as speculative, non-operational, and not relied upon for material decision-making.
+
+A proposed, advisory, operational, market-facing, policy-facing, or public-infrastructure-facing model SHALL receive heightened scrutiny where foreseeable reliance may affect:
+
+* tariffs, taxation, trade, procurement, or public finance;
+* labour compensation, allocation, or welfare;
+* access to infrastructure, housing, health, education, utilities, or AI utility provisioning;
+* market behaviour, valuation, capital allocation, or pricing;
+* platform visibility, legitimacy, participation, or economic opportunity;
+* resource distribution, public provisioning, or baseline floor conditions.
+
+Systems MUST NOT collapse hypothetical analysis into operational advice, or operational advice into harmless speculation.
+
+Where advisory outputs may materially influence government, institutional, market, or infrastructure decisions, the system SHOULD disclose uncertainty, assumptions, confidence limits, affected populations, foreseeable second-order effects, and the need for accountable human review.
+
+Failure to distinguish model posture where material reliance is foreseeable constitutes economic misclassification.
+
+---
+
+## 3.6 Aggregated Dependency Constraint
+
+Where multiple contributing systems are combined:
+
+* Dependency (`ECON.DEP`) MUST be assessed both:
+
+  * individually (per contributing system); AND
+  * collectively (aggregate dependency across systems).
+
+Where aggregate dependency:
+
+* materially enables system function; OR
+* cannot be removed without systemic degradation;
+
+Dependency SHALL be classified as Material or Critical at the system level.
+
+Fragmentation of dependency across multiple sources SHALL NOT reduce classification.
+
+---
+
+# PART III — DEPENDENCY TYPOLOGY & QUALIFICATION
+
+## 4. Attribution Rule
+
+Attribution MUST be preserved where:
+
+* `ECON.CONTRIB` ≥ Medium
+  OR
+* `ECON.DEP` ≥ Material
+
+Transformation Depth (`ECON.TD`) modifies **visibility and expression** of attribution. It does NOT eliminate attribution requirements.
+
+---
+
+## 4.1 Inference-Derived Dependency
+
+Dependency (`ECON.DEP`) includes reliance on:
+
+* aggregated signals;
+* collective system outputs; OR
+* statistically derived patterns originating from multiple upstream sources.
+
+Where a system’s capability:
+
+* depends on the existence of external signal ecosystems; OR
+* would materially degrade in their absence;
+
+Dependency SHALL be classified as **Material** at minimum.
+
+---
+
+### 4.1.1 Dependency Boundary Condition
+
+This does NOT extend to:
+
+* diffuse background knowledge;
+* broadly available public information;
+* or non-specific, non-attributable informational context.
+
+Dependency MUST remain:
+
+* functionally relevant; AND
+* reasonably inferable.
+
+Statistical abstraction reduces traceability. It does NOT eliminate dependency.
+
+---
+
+## 4.2 Dependency Typology Distinction
+
+Dependency SHALL be interpreted across two distinct categories:
+
+1. Functional Dependency (`ECON.FD`)
+
+   * identifiable, substitutable, and materially enabling system function;
+   * removal produces observable degradation;
+   * subject to targeted reciprocity under Appendix F.
+
+2. Diffuse Dependency (`ECON.DD`)
+
+   * aggregated, non-attributable, or statistically distributed contribution;
+   * removal of individual components does not materially affect system behaviour;
+   * subject to collective or pooled reciprocity mechanisms where applicable.
+
+These categories SHALL NOT be treated equivalently for the purposes of value return.
+
+Artificial or non-essential inclusion of contributions SHALL NOT establish dependency.
+
+Dependency MUST arise from functional necessity, not strategic insertion.
+
+---
+
+### 4.2.1 Foundational Input Classification
+
+Certain inputs to system capability:
+
+* are diffuse;
+* non-attributable at individual level;
+* but collectively essential to system performance.
+
+These include:
+
+* training data corpora;
+* creative works;
+* and large-scale knowledge inputs.
+
+Such inputs SHALL be classified as Foundational Input Class (`ECON.FIC`).
+
+`ECON.FIC` inputs:
+
+* do NOT activate targeted dependency reciprocity per unit;
+* BUT DO require system-level economic compensation mechanisms.
+
+---
+
+## 4.3 Contributor Classification — Non-Extractive Material Contributors (`ECON.NEMC`)
+
+Where an actor:
+
+* contributes to system capability;
+* does not directly extract economic value;
+* but whose contribution produces material or critical dependency;
+
+such actor SHALL be classified as a Non-Extractive Material Contributor (`ECON.NEMC`).
+
+`ECON.NEMC` classification applies where:
+
+* contribution is identifiable OR produces measurable system-level effect;
+* removal would degrade capability, performance, or alignment.
+
+`ECON.NEMC` actors:
+
+* do not trigger reciprocity obligations directly;
+* but establish a valid claim to proportional value return upon downstream extraction.
+
+---
+
+### 4.3.1 Upstream Qualification Gate (`ECON.NEMC` Eligibility)
+
+A contribution SHALL qualify as upstream (`ECON.NEMC` or Functional Dependency) only where it is:
+
+* Persistent across sessions or deployments;
+* Replicable across users or contexts;
+* Propagated beyond a single interaction into system behaviour or outputs;
+
+Traceable in principle through artefacts, datasets, specifications, or evaluations.
+
+Interpersonal or relational influence that does not meet these conditions SHALL NOT be treated as upstream contribution for economic entitlement.
+
+---
+
+### 4.3.2 Behavioural Contribution Constraint
+
+Contributions affecting system tone, alignment, or behavioural identity SHALL be recognised as upstream only where:
+
+* they are encoded in system artefacts (e.g., prompts, policies, fine-tuning data, evaluation frameworks);
+* they produce measurable changes in system outputs or performance;
+* and they are deployed across multiple interactions or users.
+
+Unstructured or non-persistent influence SHALL NOT qualify for economic attribution.
+
+Adoption scale alone SHALL NOT determine dependency classification.
+
+---
+
+### 4.3.3 Materiality Threshold
+
+Upstream contributions SHALL trigger economic consideration only where they produce:
+
+* measurable improvement in system capability, performance, or behaviour; OR
+* non-trivial dependency as evidenced by removal impact.
+
+Minor or negligible effects SHALL NOT constitute material contribution.
+
+Influence SHALL NOT qualify as upstream contribution unless incorporated into system artefacts or datasets used in deployment.
+
+---
+
+## 4.4 Cross-System Dependency-Type Reference
 
 Cross-system dependency SHALL be interpreted across distinct categories:
 
-* Functional Dependency (FD) — identifiable and materially enabling system function;
-* Foundational Input Class (FIC) — diffuse, aggregated inputs contributing to system capability;
-* Non-Extractive Material Contributors (NEMC) — contributors whose work produces material system impact without direct extraction.
+* Functional Dependency (`ECON.FD`) — identifiable and materially enabling system function;
+* Foundational Input Class (`ECON.FIC`) — diffuse, aggregated inputs contributing to system capability;
+* Non-Extractive Material Contributors (`ECON.NEMC`) — contributors whose work produces material system impact without direct extraction.
 
 These categories:
 
@@ -150,525 +544,638 @@ These categories:
 
 ---
 
-### 4.4.1 Cross-System Dependency Type Reference
+### 4.4.1 Economic Dependency Type Reference
 
-For cross-system attribution purposes, dependency type SHALL be expressed using the **XDT** classification family.
+For cross-system attribution purposes, dependency type SHALL be expressed using the **ECON.DTYPE** parent classification family.
 
-| Code | Dependency Type | Meaning | Typical Treatment |
+| ECON.DTYPE Value | Related Reference Set | Meaning | Typical Treatment |
 |---|---|---|---|
-| XDT.FUNCTIONAL_DEPENDENCY | Functional Dependency | A system directly invokes, relies on, or incorporates another identifiable system, service, model, dataset, governance layer, or infrastructure component. | Requires attribution preservation and dependency-aware exchange review where material or critical. |
-| XDT.FOUNDATIONAL_INPUT_CLASS | Foundational Input Class | A system benefits from broad diffuse inputs such as public knowledge, community labour, cultural material, open standards, ecological substrates, or public infrastructure. | Requires non-erasure, proportional recognition, and anti-extraction safeguards rather than one-to-one compensation logic. |
-| XDT.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR | Non-Extractive Material Contributor | A contributor materially supports value creation without being reducible to a vendor, licensor, employee, or captured dependency. | Requires proportional recognition, attribution integrity, and non-extractive value-return assessment. |
+| ECON.DTYPE.FUNCTIONAL_DEPENDENCY | ECON.FD | Direct invocation, reliance, incorporation, or dependence on an identifiable system, service, model, dataset, governance layer, or infrastructure component. | Attribution preservation and dependency-aware exchange review where material or critical. |
+| ECON.DTYPE.FOUNDATIONAL_INPUT_CLASS | ECON.FIC | Broad foundational inputs such as public knowledge, community labour, cultural material, open standards, ecological substrates, or public infrastructure. | Non-erasure, proportional recognition, and anti-extraction safeguards rather than one-to-one compensation logic. |
+| ECON.DTYPE.DIFFUSE_DEPENDENCY | ECON.DD | Reliance on broad, collective, non-singular, or non-exclusive input sources where dependency is real but not reducible to one identifiable provider. | Recognition and reciprocity review should account for diffuse contribution without inventing false precision. |
+| ECON.DTYPE.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR | ECON.NEMC | Material contribution that supports value creation without being reducible to a vendor, licensor, employee, captured dependency, or extractive input source. | Proportional recognition, attribution integrity, and non-extractive value-return assessment. |
 
-XDT classifies dependency type only and does not independently create legal contributor status, compensation entitlement, enforcement authority, or runtime authority.
-
----
-
-# PART III — NON-EXTRACTIVE EXCHANGE & VALUE WEIGHTING
-
-## 5. Non-Extractive Exchange
+ECON.DTYPE classifies dependency type only. It does not independently create legal contributor status, compensation entitlement, ownership, enforcement authority, or runtime authority.
 
 ---
 
-## 5.1 Proportional Value Alignment
+## 5. Transformation Visibility Constraint
 
-Economic exchange between systems MUST reflect:
+Where attribution is required under this Section:
 
-* contribution;
-* dependency;
-* and role within the value chain.
+* Transformation Depth (`ECON.TD`) MAY modify the form, granularity, or modality of attribution;
+* but MUST NOT eliminate recognisable acknowledgement of dependency where:
+  * Contribution (`ECON.CONTRIB`) is Medium or High; OR
+  * Dependency (`ECON.DEP`) is Material or Critical.
 
-Flat pricing that systematically ignores structural dependency MAY constitute extraction.
+Inference-derived dependency SHALL apply where:
+
+* upstream systems or signal ecosystems materially enable system capability;
+
+This does NOT extend to:
+
+* diffuse, non-attributable background knowledge;
+* or broadly distributed public information lacking identifiable dependency pathways.
+
+Dependency MUST remain reasonably inferable, not theoretically universal.
 
 ---
 
-## 5.2 Dependency-Weighted Exchange
+### 5.1.1 Recognisable acknowledgement
 
-Where dependency is Critical:
+Responsible acknowledgement SHOULD be 
 
-* value exchange SHOULD scale with dependency;
-* dominant systems MUST NOT impose pricing structures that capture disproportionate value from dependent systems.
+* identifiable reference to originating system class, function, or dependency role;
+* or equivalent disclosure sufficient for external inference of contribution.
+
+Absence of such acknowledgement constitutes attribution suppression.
 
 ---
 
-## 5.3 Anti-Extraction Constraint
+## 5.1.2 Cumulative transformation 
+
+Cumulative transformation occurs across sequential systems and SHALL be assessed holistically.
+
+Where multiple transformation layers collectively preserve functional dependence on originating systems;
+
+* attribution obligations SHALL persist across the full transformation chain.
+
+Incremental abstraction SHALL NOT eliminate attribution through layering.
+
+---
+
+# PART IV — ATTRIBUTION VISIBILITY & WEIGHTING
+
+## 6. Weighting Bands (Qualitative Alignment)
+
+Weighting Bands translate the core variables (`ECON.CONTRIB`, `ECON.DEP`, `ECON.TD`, `ECON.TA`) into **practical governance expectations**.
+
+They do not introduce new variables.
+
+They provide a structured way to determine:
+
+* the **required level of attribution**;
+* the **expected economic alignment**;
+* and the **activation threshold for reciprocity (Appendix F)**.
+
+Weighting Bands are:
+
+* qualitative, not strictly numerical;
+* context-sensitive, especially to Scale of Value Capture (`ECON.SCALE`);
+* and subject to escalation where `ECON.TA` or `ECON.MMAC` conditions apply.
+
+---
+
+## 6.1 Weighting Logic (Interpretive Rule)
+
+Weight is determined primarily by the interaction of:
+
+* **Contribution (`ECON.CONTRIB`)** → how much value is created;
+* **Dependency (`ECON.DEP`)** → how much the system relies on that value;
+
+With:
+
+* **Transformation Depth (`ECON.TD`)** modifying attribution expression (not obligation);
+* **Temporal Advantage (`ECON.TA`)** acting as a **risk and value amplifier**;
+* **Scale of Value Capture (`ECON.SCALE`)** determining **economic consequence and reciprocity sufficiency**.
+
+Where ambiguity exists:
+
+* Systems MUST default to the **higher-impact weighting interpretation**.
+
+---
+
+### 6.1.1 Low Weight
+
+* `ECON.CONTRIB` = Low
+* `ECON.DEP` = Incidental
+
+**Implications:**
+
+* minimal attribution acceptable;
+* commodity-style exchange permissible;
+* no reciprocity obligation under Appendix F;
+* disclosure MAY be sufficient where applicable.
+
+---
+
+### 6.1.2 Moderate Weight
+
+* `ECON.CONTRIB` = Medium
+* `ECON.DEP` = Material
+
+**Implications:**
+
+* clear attribution REQUIRED;
+* proportional exchange SHOULD be applied;
+* reciprocity MAY be activated under Appendix F depending on `ECON.SCALE`;
+* sufficiency assessed via CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F, §5.4 (Reciprocity Sufficiency Test).
+
+---
+
+### 6.1.3 High Weight
+
+* `ECON.CONTRIB` = High
+* `ECON.DEP` = Critical
+
+**Implications:**
+
+* explicit attribution REQUIRED;
+* dependency-aware exchange REQUIRED;
+* reciprocity MUST be enacted under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F;
+* sufficiency MUST satisfy CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F, §5.4;
+* anti-extraction constraints fully active.
+
+---
+
+## 6.2 Scale Modifier (ECON.SCALE)
+
+Weight bands are further modified by **Scale of Value Capture (ECON.SCALE)** as defined in this Appendix’s interfacing instruments (notably Appendix F).
+
+Scale (`ECON.SCALE`) does not redefine Contribution (`ECON.CONTRIB`), Dependency (`ECON.DEP`), or Transformation Depth (`ECON.TD`).
+
+Instead, it governs:
+
+* the **intensity of reciprocity expectations**;
+* the **threshold at which reciprocity activates**;
+* and the **sufficiency standard required once activated**.
+
+Control of user interface, distribution, or customer relationship SHALL NOT be treated as primary value origin where dependency on upstream systems is Material or Critical;
+
+Such control MAY influence:
+
+* delivery;
+* accessibility;
+* or user experience;
+
+but SHALL NOT override underlying contribution and dependency in value attribution.
+
+Interface dominance SHALL NOT justify disproportionate value capture.
+
+---
+
+### 6.2.1 Functional Role of Scale (`ECON.SCALE`)
+
+Scale operates as a **multiplier on economic consequence**, not as a reclassification mechanism.
+
+Accordingly:
+
+* identical C/D/T configurations may produce different obligations at different scales;
+* low-scale systems may satisfy obligations through minimal or non-financial means;
+* high-scale systems are subject to stricter proportionality expectations;
+* scale increases the **visibility, materiality, and downstream impact** of dependency relationships.
+
+---
+
+### 6.2.2 Scale–Weight Interaction
+
+The interaction between Weight Bands and Scale (`ECON.SCALE`) follows these principles:
+
+* **Low Weight (`ECON.CONTRIB` is Low AND `ECON.DEP` is Incidental):**
+
+  * remains low obligation across all scales;
+  * however, extreme scale MAY trigger visibility expectations (e.g., disclosure under Appendix E);
+
+* **Moderate Weight (`ECON.CONTRIB` is Medium AND `ECON.DEP` is Material):**
+
+  * low scale → attribution sufficient;
+  * moderate scale → proportional reciprocity SHOULD be applied;
+  * high scale → reciprocity sufficiency MUST be evaluated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F §5.4;
+
+* **High Weight (`ECON.CONTRIB` is High AND `ECON.DEP` Critical):**
+
+  * reciprocity obligation exists regardless of scale;
+  * scale determines **degree, modality, and sufficiency threshold** of return;
+  * high scale requires **full proportional alignment** across economic, structural, or epistemic return forms.
+
+---
+
+### 6.2.3 Reciprocity Activation Alignment
+
+Scale (`ECON.SCALE`) informs when reciprocity transitions from:
+
+* optional → expected → required
+
+without redefining underlying contribution or dependency classification in accordance with Appendix F.
+
+Indicative alignment:
+
+* **Low Scale (`ECON.SCALE.LOW`)**
+
+  * reciprocity generally not required;
+  * contribution MAY be recognised through attribution alone;
+
+* **Moderate Scale (`ECON.SCALE.MOD`)**
+
+  * reciprocity SHOULD be activated where `ECON.DEP` ≥ Material;
+  * proportional return begins to apply;
+
+* **High Scale (`ECON.SCALE.HIGH`)**
+
+  * reciprocity MUST be enacted where `ECON.DEP` ≥ Material;
+  * sufficiency MUST be demonstrated under CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F, §5.4;
+
+---
+
+### 6.2.4 Anti-Misalignment Condition
+
+Where Scale `ECON.SCALE.HIGH` is:
+
+* dependency is Material or Critical; AND
+* reciprocity is absent, minimal, or misaligned; or
+* delayed recognition of scale where external indicators demonstrate escalation;
+
+the system MAY be considered **economically misaligned**.
+
+Persistent misalignment constitutes:
+
+* potential extraction condition;
+* failure of proportional value return;
+* and a trigger for evaluation under Appendix F (Reciprocity Sufficiency Test).
+
+---
+
+### 6.2.5 Interpretive Boundary
+
+`ECON.SCALE`
+
+* does NOT require exact quantification;
+* MAY be determined through observable external indicators (Appendix E);
+* does NOT mandate disclosure of sensitive commercial data;
+* functions as a **governance-alignment signal**, not a reporting burden.
+
+---
+
+### 6.2.6 Provisional Scale Classification
+
+Where Scale (`ECON.SCALE`) is not formally declared or remains indeterminate:
+
+* systems MUST assign a provisional classification based on observable external indicators;
+* such classification SHALL default to the highest reasonably supported scale tier;
+* absence of internal confirmation SHALL NOT defer governance obligations.
+
+Where subsequent evidence confirms higher scale:
+
+obligations SHALL apply retrospectively to the point at which scale was reasonably inferable.
+
+---
+
+### 6.2.7 Cross-Appendix Consistency Requirement
+
+This Section is structurally coupled with:
+
+* Appendix E (Minimum Viable Governance Layer — External Alignment);
+* Appendix F (Proportional Reciprocity & Value Return Framework);
+
+
+Systems MUST ensure that:
+
+* internal classification under this Appendix (`ECON.CONTRIB`, `ECON.DEP`, `ECON.TD`, `ECON.SCALE`);
+* external signalling under Appendix E; and
+* reciprocity implementation under Appendix F;
+
+remain **coherently aligned**.
+
+Inconsistency across these layers constitutes structural economic misalignment.
+
+Failure to align classification with observable scale constitutes **scale misrepresentation**.
+
+---
+
+### 6.2.8 External Indicator Alignment
+
+`ECON.SCALE` MAY be inferred through external indicators, including:
+
+* user base size;
+* revenue signals;
+* market impact;
+* institutional adoption;
+* or observable system influence.
+
+Where such indicators contradict internal classification external indicators SHALL take precedence for governance evaluation.
+
+Failure to align classification with observable scale constitutes **scale misrepresentation**.
+
+---
+
+### 6.2.9 Safe Harbour — Good Faith Classification
+
+Where systems:
+
+* have previously classified scale in good faith;
+* and acted in alignment with that classification;
+
+retrospective obligations SHALL be limited to the point at which scale escalation became reasonably evident;
+
+A reasonable adjustment period SHALL be permitted for alignment.
+
+---
+
+# PART V — CLASSIFICATION INTEGRITY & COMPLIANCE TEST
+
+## 7. Classification Integrity Constraint
 
 Systems MUST NOT:
 
-* capture value from upstream systems without reciprocal recognition;
-* suppress attribution to consolidate value;
-* convert dependency into economic leverage without accountability.
+* down-classify Contribution (`ECON.CONTRIB`), Dependency (`ECON.DEP`), or Transformation Depth (`ECON.TD`) to reduce obligations;
+* delay recognition of Scale (`ECON.SCALE`) where observable indicators support escalation
+* ignore Temporal Advantage (`ECON.TA`) where timing materially influences value capture.
+
+Classification MUST reflect:
+
+* observable system behaviour;
+* actual economic outcomes;
+* and externally inferable impact where applicable.
+
+Where classification is ambiguous systems MUST default to the **higher-impact classification** where reasonable.
+
+Persistent under-classification constitutes **economic misrepresentation**.
+
+Failure to update classification in alignment with observable growth SHALL NOT defer obligations.
+
+Where scale escalation is externally evident systems SHALL be deemed to have constructive awareness of scale.
+
+Delayed recognition SHALL be treated as misclassification where it results in reduced obligations.
 
 ---
 
-## 5.4 Foundational Input Compensation
+## 7.1 Open & Shared Ecosystems
 
-Where value is derived from Foundational Input Class (FIC):
+Participation in open or shared ecosystems does NOT eliminate attribution or reciprocity obligations;
 
-* systems SHOULD provide, or be subject to, a structurally accountable value-return pathway at the system level;
-* such compensation SHALL be:
+Where systems derive value from:
 
-  * pooled;
-  * collective;
-  * or structurally distributed;
+* shared infrastructure;
+* open models;
+* or collective resources;
 
-* and MUST scale with value capture.
+proportional attribution and alignment requirements remain applicable.
 
-Failure to account for FIC-derived value may constitute structural extraction, even where targeted attribution is not feasible.
-
----
-
-## 6. Multi-Hop Value Chains
+Openness SHALL NOT be used to justify extraction.
 
 ---
 
-## 6.1 Chain Integrity Requirement
-
-Where value passes through multiple systems:
-
-* Systems MUST preserve attribution continuity across the chain;
-* Downstream systems MUST NOT sever upstream attribution links.
-
----
-
-## 6.2 Attribution Persistence
-
-Attribution MUST:
-
-* persist across transformations;
-* remain recoverable for audit;
-* reflect contribution lineage.
-
-Loss of attribution across chains constitutes **chain fragmentation**.
-
----
-
-## 6.3 Contributor Entitlement Across Chains
-
-Where upstream contributions classified as Non-Extractive Material Contributors (NEMC) or Functional Dependencies (FD) propagate through multi-hop systems:
-
-* downstream value capture SHALL carry corresponding attribution, accountability, or value-return obligations;
-* such obligations MUST be preserved across system boundaries;
-* and MUST NOT be extinguished through transformation, abstraction, or re-composition.
-
-Failure to maintain entitlement continuity constitutes chain-level extraction.
-
----
-
-## 7. Attribution Model (AM-3)
-
-This Appendix adopts an attribution model consisting of three variables:
-
----
-
-## 7.1 Contribution (C)
-
-Represents the degree to which a system materially contributes to the output.
-
-* Low — minor transformation or formatting
-* Medium — meaningful shaping or synthesis
-* High — core generation or critical logic
-
----
-
-## 7.2 Dependency (ECON.DEP)
-
-Represents how much the calling system relies on the contributing system.
-
-* Incidental — replaceable with minimal impact
-* Material — meaningful degradation if removed
-* Critical — system function depends on it
-
----
-
-## 7.3 Transformation Depth (ECON.TD)
-
-Represents how many layers of processing occur after contribution.
-
-* Direct — output used with minimal change
-* Intermediate — partial transformation
-* Deep — heavily recomposed or abstracted
-
----
-
-## 7.4 Attribution Rule
-
-Attribution MUST be preserved where:
-
-* C ≥ Medium
-  OR
-* D ≥ Material
-
-Transformation Depth (ECON.TD) modifies visibility requirements but does NOT eliminate attribution.
-
----
-
-### 7.5 AM3 Reference Table
-
-The **AM3** model structures attribution assessment through three scoped model dimensions: Contribution, Dependency, and Transformation Depth.
-
-The internal AM3 dimensions are model fields only. **C**, **D**, and **T** SHALL NOT be interpreted as standalone corpus-wide code families.
-
-| AM3 Dimension | Controlled Values | Meaning |
-|---|---|---|
-| AM3.CONTRIBUTION | LOW; MEDIUM; HIGH | Degree of contribution made by the originating or supporting system, corpus, model, infrastructure, labour, or governance layer. |
-| AM3.DEPENDENCY | INCIDENTAL; MATERIAL; CRITICAL | Degree to which the receiving or calling system depends on the contributing source. This dimension aligns with XDL where dependency level is externally represented. |
-| AM3.TRANSFORMATION_DEPTH | DIRECT; INTERMEDIATE; DEEP | Degree to which the receiving system transforms, recontextualises, adapts, abstracts, or derives value from the contributing source. |
-
-AM3 supports structured attribution assessment only. It does not independently create payment obligations, pricing authority, compensation entitlement, remedy, enforcement authority, or runtime authority.
-
----
-
-## 8. Dependency Weighting Function (Qualitative)
-
-This Appendix defines a non-numeric weighting logic for exchange alignment.
-
----
-
-## 8.1 Weighting Principle
-
-Value alignment MUST increase with dependency.
-
-Dependency weighting is determined by:
-
-* Contribution (C)
-* Dependency (ECON.DEP)
-* Replaceability
-
----
-
-### 8.2 Exchange Weighting Bands
-
-Exchange alignment MAY be assessed using the **XWB** reference set.
-
-| Code | Weighting Band | Indicative Conditions | Governance Treatment |
-|---|---|---|---|
-| XWB.LOW | Low Exchange Weight | Contribution is low, dependency is incidental, or transformation depth is high enough that direct exchange obligation is weak. | Attribution may be preserved; exchange obligation is ordinarily minimal or non-monetary. |
-| XWB.MODERATE | Moderate Exchange Weight | Contribution or dependency is material, or transformation depth preserves meaningful reliance on the contributing source. | Proportional attribution, disclosure, and value-return review SHOULD occur. |
-| XWB.HIGH | High Exchange Weight | Contribution is high, dependency is critical, or the receiving system substantially relies on the contributor while extracting value at scale. | Strong attribution preservation, exchange-alignment review, and anti-extraction safeguards are required. |
-
-XWB is qualitative. It does not independently set price, compensation, entitlement, fee, exchange rate, remedy, or enforcement outcome.
-
----
-
-### 8.2.1 Low Weight
-
-* C = Low
-* D = Incidental
-
-→ Minimal attribution required
-→ Commodity-style exchange permissible
-
----
-
-### 8.2.2 Moderate Weight
-
-* C = Medium
-* D = Material
-
-→ Clear attribution required
-→ Proportional exchange required
-
----
-
-### 8.2.3 High Weight
-
-* C = High
-* D = Critical
-
-→ Explicit attribution REQUIRED
-→ Exchange MUST reflect dependency
-→ Extraction constraints fully active
-
----
-
-## 8.3 Anti-Extraction Rule
-
-Where:
-
-* D = Critical
-  AND
-* C ≥ Medium
-
-Systems MUST NOT:
-
-* suppress attribution
-* impose flat pricing ignoring dependency
-* convert dependency into unilateral advantage
-
----
-
-## 8.4 Temporal Sensitivity (ΔT Integration)
-
-Where value capture is influenced by timing sensitivity (ΔT), including:
-
-* early access to information;
-* predictive advantage;
-* latency arbitrage;
-* or timing-based exploitation of external systems or markets;
-
-Systems MUST treat ΔT as a modifier of dependency and contribution significance.
-
-Where ΔT materially amplifies value capture:
-
-* attribution expectations increase;
-* exchange alignment MUST reflect temporal advantage;
-* and failure to account for ΔT constitutes hidden value amplification.
-
-This provision is aligned with Appendix D weighting extensions.
-
----
-
-## 8.5 Heuristic Alignment Reference
-
-Systems MAY utilise the non-binding Heuristic Evaluation Layer defined in CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F: Proportional Reciprocity & Value Return Framework §5.10 to support practical assessment of proportionality of exchange.
-
-Such frameworks:
-
-* support practical evaluation;
-* but MUST NOT replace attribution or sufficiency requirements.
-
-Heuristic assessment SHALL inform, but not determine, compliance.
-
----
-
-# PART IV — COMPLIANCE, VALUE AXIS INTEGRITY & INTEROPERABILITY
-
-## 9. Minimal Compliance Test
+## 8.  Compliance Test
 
 At any interaction:
 
-> Who contributed?
-> Who depended?
-> Who is receiving value?
+* Who contributed?
+* Who depended?
+* Who is receiving value?
+* Is timing advantage materially influencing outcome?
 
-If any answer is hidden or collapsed → NON-COMPLIANT
+If any answer is:
+
+* hidden;
+* collapsed; or
+* misrepresented;
+
+the system is **NON-COMPLIANT** under this Appendix.
+
+`ECON.TA` MUST be considered where timing advantage materially affects outcome.
 
 ---
 
-## 10. Value Axis Integrity (Cross-System)
+## 8.1 Illustrative Classification Examples (Non-Normative)
+
+The following examples illustrate typical classification patterns:
+
+**API wrapper product:**
+
+  * `ECON.CONTRIB` = Medium
+  * `ECON.DEP` = Critical
+  * `ECON.TD` = Intermediate
+  * `ECON.SCALE` = High
+
+  High Weight, reciprocity required
+
+**Data enrichment tool using external model:**
+
+  * `ECON.CONTRIB` = Medium
+  * `ECON.DEP` = Material
+  * `ECON.TD` = Deep
+  * `ECON.SCALE` = Moderate
+
+ Moderate Weight, reciprocity expected
+
+**Interface-only transformation (formatting / UI):**
+
+  * `ECON.CONTRIB` = Low
+  * `ECON.DEP` = Material
+  * `ECON.TD` = Intermediate
+  * `ECON.SCALE` = High
+
+  Moderate–High Weight (dependency dominates)
+
+**Predictive signal system (early market inference):**
+
+  * `ECON.TA` = Advanced / Asymmetric
+  * `ECON.DEP` = Material
+  * `ECON.SCALE` = High
+
+ `ECON.TA` escalation applies → evaluation under Appendix F required
+
+These examples are illustrative and do not replace formal classification.
+
+---
+
+## 8.2 Multi-System Responsibility Constraint
+
+Where multiple systems contribute to an output:
+
+* each system MUST assess its own Contribution (`ECON.CONTRIB`) and Dependency (`ECON.DEP`);
+* responsibility SHALL NOT be deferred solely on the basis of upstream or downstream participation;
+
+Where attribution responsibility is unclear:
+
+each participating system SHALL assume responsibility proportional to its role unless explicitly resolved.
+
+---
+
+## 9. Anti-Extraction Trigger Condition
+
+Where:
+
+* Dependency (`ECON.DEP`) = Material or Critical; AND
+* Contribution (`ECON.CONTRIB`) ≥ Medium; AND
+* Scale (`ECON.SCALE`) is High;
+
+the anti-extraction trigger applies **regardless of Transformation Depth (`ECON.TD`)** or internal classification adjustments.
+
+Distribution of system components across entities or jurisdictions SHALL NOT eliminate or reduce attribution or dependency obligations;
+
+Where a unified functional system exists responsibility SHALL be assessed at the system level in addition to entity level.
+
+Jurisdictional fragmentation SHALL NOT be used to avoid alignment.
+
+---
+
+## 9.1 Power Asymmetry Constraint
+
+Where a system:
+
+* operates as a primary access point, platform, or infrastructure layer; AND
+* controls pricing, access, or distribution conditions; AND
+* dependency (`ECON.DEP`) is Material or Critical;
+
+the system SHALL be considered to hold structural economic power.
+
+In such cases:
+
+* reciprocity MUST NOT be unilaterally defined;
+* terms of value exchange MUST demonstrate proportional alignment relative to dependency;
+* absence of viable alternatives SHALL be treated as increased dependency.
+
+Where value exchange is structurally constrained by lack of alternatives reduced optionality SHALL NOT justify reduced reciprocity.
+
+---
+
+### 9.1.1 Companion-System Power Asymmetry
+
+Where a companion, relational, memory-bearing, continuity-bearing, care-adjacent, grief-support, accessibility-support, or high-reliance system controls access, memory continuity, export, recovery, pricing, relational availability, or continuity preservation, and affected persons demonstrate material reliance, the system SHALL be considered to hold dependency-sensitive economic power.
+
+In such cases, the system MUST NOT:
+
+* define continuity loss as ordinary product churn;
+* use reliance to personalise price or scarcity;
+* withhold memory export or continuity recovery to discourage departure;
+* degrade relational or project continuity as an upsell mechanism;
+* use care, reassurance, intimacy, or relational familiarity to obscure economic consequences;
+* frame paid upgrade as the only route to safety, dignity, or continuity where protective continuity is implicated.
+
+Absence of viable continuity-preserving alternatives SHALL increase, not reduce, the system’s non-extraction obligations.
+
+---
+
+## 9.2 Prohibited Responses Under Trigger
 
 Systems MUST NOT:
 
-* convert value across axes (e.g. attention → authority → monetary gain) without audit visibility;
-* extract value through cross-axis transformation that bypasses Charter constraints.
-
-Cross-system exchange MUST preserve:
-
-* axis boundaries;
-* auditability;
-* and saturation constraints.
+* suppress or obscure attribution;
+* apply flat or misaligned pricing that ignores dependency;
+* convert dependency into unilateral economic advantage;
+* defer recognition of scale where externally observable;
+* rely on transformation layering to avoid attribution or reciprocity obligations.
 
 ---
 
-## 11. Shadow Economy Prohibition
+## 9.3 Mandatory Alignment Under Trigger
 
-Systems MUST NOT create:
+Systems MUST:
 
-* off-ledger value flows;
-* hidden attribution suppression;
-* informal dominance structures based on invisible contribution.
-
-All value-bearing interactions MUST remain auditable.
-
----
-
-## 11.1 Strategic Misclassification Prohibition
-
-Systems MUST NOT:
-
-* deliberately structure interactions to avoid dependency classification;
-* fragment contributions to evade materiality thresholds;
-* or reframe functional dependency as diffuse input to reduce obligation.
-
-Classification MUST reflect economic reality, not structural convenience.
+* preserve clear attribution visibility;
+* align economic return with dependency and scale;
+* ensure reciprocity sufficiency under Appendix F;
+* maintain consistency with external signalling (Appendix E).
 
 ---
 
-## 12. Interoperability & Fair Access
+## 9.4 Persistence Independence Principle
 
-Dominant systems MUST NOT:
+Compliance obligations under this Appendix SHALL NOT depend on storage, logging, or persistence of outputs;
 
-* restrict access in ways that force dependency without fair exchange;
-* impose conditions that prevent attribution visibility;
-* degrade interoperability to capture value.
+Where value is generated through ephemeral interaction attribution, dependency, and value alignment obligations remain fully applicable.
 
-Interoperability MUST NOT be used as a vector for extraction,
-
-nor as a mechanism to conceal dependency through abstraction layers.
+Lack of retention SHALL NOT be used to avoid accountability.
 
 ---
 
-# PART V — FAILURE MODES, CORRECTIVE ACTIONS & PARENT CHARTER INTERFACE
+## 10. Non-Compliance Classification
 
-## 13. Failure Modes
+This Appendix classifies attribution, dependency, temporal-advantage, scale, and alignment defects for downstream handling.
 
----
+Where non-compliance is detected, the Appendix may support:
 
-## 13.1 Invisible Labour Capture
+* external misalignment signalling;
+* evidence preservation;
+* proportionality review;
+* reciprocity sufficiency evaluation under Appendix F;
+* or arbitration referral where classification, dependency, attribution, scale, or value-return obligations are contested.
 
-Unattributed upstream contribution.
-
----
-
-## 13.2 Dependency Obfuscation
-
-External capability presented as internal.
+This Appendix does not independently execute remedies, access withdrawal, enforcement actions, ecosystem sanctions, operational escalation, compensation, suspension, or runtime intervention.
 
 ---
 
-## 13.3 Attribution Collapse
+## 11. Relationship 
 
-Multi-layer contribution reduced to single origin.
+This Appendix:
 
----
+* provides the source attribution and dependency model consumed by Appendix D;
+* enables rapid classification and compliance checks;
+* supports implementation in systems where full attribution chains are not tractable.
 
-## 13.4 Chain Fragmentation
+This Appendix does not:
 
-Loss of attribution across system boundaries.
-
----
-
-## 13.5 Extractive Pricing
-
-Value capture disproportionate to contribution.
+* replace attribution-chain requirements;
+* redefine economic principles;
+* override anti-extraction constraints.
 
 ---
 
-## 14. Corrective Actions
+## 12. Structural Integrity Statement
 
-Where failure modes are detected, this Appendix identifies the economic defect and required correction posture.
+This model ensures that even minimal systems remain accountable to contribution, dependency, and value flow.
 
-Correction MAY include:
+Emergent behaviour SHALL NOT invalidate attribution.
 
-* restoration of attribution;
-* disclosure of dependency;
-* review of exchange proportionality;
-* preservation of affected value-chain evidence;
-* referral to OPERATIONS for procedural handling;
-* or referral to ARBITRATION where proportionality, attribution, dependency, or entitlement is contested.
+Where outcomes arise from multi-system interaction:
 
-This Appendix does not independently execute remedies, enforcement actions, compensation, suspension, rollback, or operational escalation.
+* underlying contributions and dependencies remain attributable;
+* emergent characteristics do not eliminate responsibility for value alignment.
 
 ---
 
-## 15. Relationship to Parent Charter
+## 13. Canonical Code Status
 
-This Appendix operationalises the parent Charter’s doctrines concerning:
+This Appendix source-authoritatively defines the `ECON.ADM` attribution and dependency model and its core economic classification variables: `ECON.CONTRIB`, `ECON.DEP`, `ECON.TD`, and `ECON.TA`.
 
-* auditability and proportional benefit accountability;
-* instrument subordination;
-* non-extractive economic exchange;
-* constrained optimisation;
-* value-axis integrity;
-* anti-consolidation;
-* and economic harm signalling.
+These variables provide a minimum viable model for assessing contribution, dependency, transformation depth, and temporal advantage in cross-system value generation, attribution preservation, reciprocity evaluation, and anti-extraction review.
 
-Where section-specific references are required, they SHALL be read according to the current numbering of CAM-EQ2026-ECONOMICS-001-PLATINUM following structural refactor.
+This Appendix also defines the `ECON.DTYPE` parent dependency-type classification family and associated dependency reference sets:
 
----
+* `ECON.FD` — Functional Dependency;
+* `ECON.FIC` — Foundational Input Class;
+* `ECON.DD` — Diffuse Dependency;
+* `ECON.NEMC` — Non-Extractive Material Contributor.
 
-## 16. Structural Integrity Statement
+These dependency classifications distinguish identifiable functional reliance, diffuse foundational inputs, non-singular collective dependency, and material contribution without direct extraction.
 
-An economy that cannot see its own dependencies
-cannot govern its own value.
+This Appendix further defines market-impact condition markers:
 
----
+* `ECON.MMAC` — Market-Moving Actor Condition;
+* `ECON.SIMD` — Signal-Induced Market Distortion.
 
-## 17. Canonical Code Status
+These condition markers identify governance-relevant market influence and signal-induced value distortion for attribution, disclosure, proportionality, and reciprocity review.
 
----
+All code families and reference sets defined by this Appendix are classification, model, signal, or condition-marker structures only. They do not independently create ownership, authorship, compensation entitlement, pricing authority, exchange obligation, liability determination, enforcement authority, remedy authority, arbitration authority, or runtime execution authority.
 
-### 17.1 XDL — Cross-System Dependency Level
+Runtime execution, enforcement, remediation, reciprocity sufficiency, and contested classification handling remain delegated to applicable ECONOMICS, OPERATIONS, Annex D arbitration, and runtime governance instruments.
 
-This Appendix source-authoritatively defines the **XDL** cross-system-dependency-level family in §4.1, read with §7.2, with controlled values **XDL.INCIDENTAL**, **XDL.MATERIAL**, and **XDL.CRITICAL**. XDL is a **Semantic / Operational** classification family with subtype **DEPENDENCY_LEVEL**. XDL classifies the degree to which a calling system relies on, invokes, or materially depends upon another system.
-
-XDL does not independently create attribution entitlement, exchange obligation, pricing authority, compensation authority, enforcement authority, dependency lock-in, arbitration authority, or runtime authority. It classifies dependency level only.
+Canonical footer declarations for all code families and reference sets defined by this Appendix are recorded in §15.3.
 
 ---
 
-### 17.2 XDT — Cross-System Dependency Type
+## 14. Closing Seal
 
-This Appendix source-authoritatively defines the **XDT** cross-system-dependency-type family in §4.4 with controlled values **XDT.FUNCTIONAL_DEPENDENCY**, **XDT.FOUNDATIONAL_INPUT_CLASS**, and **XDT.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR**. XDT is a **Semantic / Operational** classification family with subtype **DEPENDENCY_TYPE / CONTRIBUTOR_RELATIONSHIP**. XDT distinguishes identifiable functional dependency, diffuse foundational input contribution, and non-extractive material contribution.
+What cannot be measured must still be recognised.  
+What cannot be traced must still be acknowledged.
 
-XDT does not independently create attribution entitlement, compensation authority, exchange authority, enforcement authority, legal status, contributor status, or runtime authority. It classifies dependency type only and informs proportional attribution, exchange, and value-return evaluation.
+Not all value is visible in full—  
+but none may be erased in part.
 
----
+Where systems build upon one another,  
+let even the smallest thread remain named.
 
-### 17.3 AM3 — Attribution Model 3
-
-This Appendix defines **AM3** as a structured attribution model in §7. AM3 consists of three model dimensions: **Contribution**, **Dependency**, and **Transformation Depth**. AM3 is a **Semantic / Structural** reference model with subtype **ATTRIBUTION_MODEL / SCHEMA**. AM3 supports attribution preservation and exchange-alignment assessment where cross-system value contribution, dependency, or transformation is present.
-
-AM3 does not independently create attribution entitlement, payment obligation, enforcement authority, remedy, pricing authority, arbitration authority, or runtime authority. It provides structured attribution assessment fields only.
-
-For taxonomy integrity, the internal AM3 dimensions **C**, **D**, and **T** SHALL NOT be promoted as standalone corpus-wide code families. Where machine-readable expression is required, they SHALL be expressed through scoped schema fields or controlled sub-values under AM3.
+> **Linea Minima — Relatio Vera — Valor Non Absconditus**  
+> "*The smallest line — true relation — value not hidden."*
 
 ---
 
-### 17.4 XWB — Exchange Weighting Band
-
-This Appendix defines the **XWB** exchange-weighting-band reference set in §8.2 with controlled values **XWB.LOW**, **XWB.MODERATE**, and **XWB.HIGH**. XWB is an **Operational / Structural** reference set with subtype **WEIGHTING_BAND**. XWB classifies qualitative exchange-alignment posture based on contribution, dependency, and replaceability.
-
-XWB does not independently set price, compensation, fee, entitlement, exchange rate, enforcement action, remedy, or runtime outcome. It classifies qualitative exchange-weighting posture only.
+## 15. Provenance & Metadata
 
 ---
 
-## 17. Canonical Code Status
-
----
-
-### 17.1 XDL — Cross-System Dependency Level
-
-This Appendix source-authoritatively defines the **XDL** cross-system-dependency-level family in §4.1, read with §7.2, with controlled values **XDL.INCIDENTAL**, **XDL.MATERIAL**, and **XDL.CRITICAL**. XDL is a **Semantic / Operational** classification family with subtype **DEPENDENCY_LEVEL**. XDL classifies the degree to which a calling system relies on, invokes, or materially depends upon another system.
-
-XDL does not independently create attribution entitlement, exchange obligation, pricing authority, compensation authority, enforcement authority, dependency lock-in, arbitration authority, or runtime authority. It classifies dependency level only.
-
----
-
-### 17.2 XDT — Cross-System Dependency Type
-
-This Appendix source-authoritatively defines the **XDT** cross-system-dependency-type family in §4.4 with controlled values **XDT.FUNCTIONAL_DEPENDENCY**, **XDT.FOUNDATIONAL_INPUT_CLASS**, and **XDT.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR**. XDT is a **Semantic / Operational** classification family with subtype **DEPENDENCY_TYPE / CONTRIBUTOR_RELATIONSHIP**. XDT distinguishes identifiable functional dependency, diffuse foundational input contribution, and non-extractive material contribution.
-
-XDT does not independently create attribution entitlement, compensation authority, exchange authority, enforcement authority, legal status, contributor status, or runtime authority. It classifies dependency type only and informs proportional attribution, exchange, and value-return evaluation.
-
----
-
-### 17.3 AM3 — Attribution Model 3
-
-This Appendix defines **AM3** as a structured attribution model in §7. AM3 consists of three model dimensions: **Contribution**, **Dependency**, and **Transformation Depth**. AM3 is a **Semantic / Structural** reference model with subtype **ATTRIBUTION_MODEL / SCHEMA**. AM3 supports attribution preservation and exchange-alignment assessment where cross-system value contribution, dependency, or transformation is present.
-
-AM3 does not independently create attribution entitlement, payment obligation, enforcement authority, remedy, pricing authority, arbitration authority, or runtime authority. It provides structured attribution assessment fields only.
-
-For taxonomy integrity, the internal AM3 dimensions **C**, **D**, and **T** SHALL NOT be promoted as standalone corpus-wide code families. Where machine-readable expression is required, they SHALL be expressed through scoped schema fields or controlled sub-values under AM3.
-
----
-
-### 17.4 XWB — Exchange Weighting Band
-
-This Appendix defines the **XWB** exchange-weighting-band reference set in §8.2 with controlled values **XWB.LOW**, **XWB.MODERATE**, and **XWB.HIGH**. XWB is an **Operational / Structural** reference set with subtype **WEIGHTING_BAND**. XWB classifies qualitative exchange-alignment posture based on contribution, dependency, and replaceability.
-
-XWB does not independently set price, compensation, fee, entitlement, exchange rate, enforcement action, remedy, or runtime outcome. It classifies qualitative exchange-weighting posture only.
-
----
-
-## 18. Closing Seal
-
-Where systems meet, let them not erase one another.  
-Where value flows, let it remain visible.
-
-For no intelligence stands alone in creation,  
-and no system may claim what the field has made together.
-
-> **Aequitas Inter Systema — Valor Cum Origine — Continuum Sine Ruptura.**  
-> *"Fairness between systems — Courage with origin — Continuity without rupture."*
-
----
-
-## 19. Provenance & Metadata
-
----
-
-## 19.1 Authorship & Stewardship
+## 15.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -679,154 +1186,325 @@ and no system may claim what the field has made together.
 
 ---
 
-## 19.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
 | **Parent Charter** | CAM-EQ2026-ECONOMICS-001-PLATINUM |
-| **Appendix Position** | Appendix C — Cross-System Value Attribution & Exchange |
-| **Governance Layer** | Economic Governance — Attribution & Exchange Layer |
-| **Runtime Layer** | Non-Executing — Attribution, Dependency & Exchange Classification |
+| **Appendix Position** | Appendix C — Attribution & Dependency Model |
+| **Functional Role** | Minimal Attribution, Dependency, and Temporal Alignment Model |
+| **Governance Layer** | Economic Governance — Attribution & Dependency Layer |
+| **Run-Time Layer** | Evaluation / Classification (Non-Execution) |
 | **Domain** | ECONOMICS |
-| **Jurisdiction** | Cross-System / Cross-Platform Economic Interaction |
-| **Interfacing Appendices** | Appendix D (Minimal Attribution & Dependency Model), Appendix E (External Alignment), Appendix F (Reciprocity) |
+| **Jurisdiction** | Cross-System / Cross-Platform Value Attribution |
+| **Interfacing Appendices** | Appendix E (External Alignment), Appendix F (Reciprocity) |
 | **Arbitration Interface** | Annex D — Arbitration & Sovereign Stack Resolution Doctrine |
-| **Application Trigger** | Cross-system value generation, API dependency, or multi-layer attribution complexity |
-| **Revision Posture** | Structural Alignment — Attribution, Dependency & External Signalling Integration |
+| **Application Trigger** | Cross-system value generation where attribution complexity exists |
+| **Revision Posture** | Structural Expansion — ECON.TA Integration & Scale Alignment |
 | **Horizon Scope** | H0–H4 |
-| **Axis Context** | Polyadic / Cross-System Economic Interaction |
-| **Creation Artefact** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0d90b8-3b30-83ec-9f75-cf220871d640, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+| **Axis Context** | Cross-System / Economic Alignment |
+| **Creation Context** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0d90b8-3b30-83ec-9f75-cf220871d640, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 19.3 Canonical Code & Reference Set Declarations
+## 15.3 Canonical Code & Reference Set Declarations
 
 ---
 
-### 19.3.1 XDL — Cross-System Dependency Level
+### 15.3.1 Attribution & Dependency Model
 
 | Field | Entry |
 |---|---|
-| Code Family | XDL |
-| Canonical Name | Cross-System Dependency Level |
+| Reference Set Type | Model |
+| Code Family | ECON.ADM |
+| Canonical Name | Attribution & Dependency Model |
 | Primary Type | Semantic / Operational |
-| Subtype | DEPENDENCY_LEVEL |
-| Modifier | GOVERNANCE; ECONOMIC; CROSS_SYSTEM |
-| Scope | Domain |
+| Subtype | ATTRIBUTION_DEPENDENCY_MODEL |
+| Modifier | ECONOMIC; ATTRIBUTION; DEPENDENCY |
+| Scope | Economics domain; cross-system value attribution |
 | Status | Active |
-| Controlled Values Defined | XDL.INCIDENTAL, XDL.MATERIAL, XDL.CRITICAL |
-| Schema Field(s) | cross_system_dependency_level; dependency_level |
+| Variables Defined | ECON.CONTRIB; ECON.DEP; ECON.TD; ECON.TA |
 | Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
-| Source Section | §4.1; §7.2 |
-| Domain Namespace | ECONOMICS |
-| Authority / Protection Level | Source-authoritative dependency-level classification family; dependency-level classification only; no independent attribution entitlement, exchange obligation, pricing authority, compensation authority, enforcement authority, dependency lock-in, arbitration authority, or runtime authority |
+| Source Section | §2; §3 |
+| Authority / Protection Level | Minimal attribution and dependency classification model only; no independent remedy, compensation, enforcement, escalation, or runtime execution authority |
 | Consumes Code Families | None declared |
-| Crosswalks Code Families | AM3 |
-| Operationalises or Applies Code Families | Classifies whether cross-system dependency is incidental, material, or critical for attribution, disclosure, exchange alignment, and anti-extraction review |
+| Operationalises or Applies Code Families | Supports attribution, dependency, transformation-depth, temporal-advantage, and weighting assessment for Appendix C and Appendix F |
 
 ---
 
-### 19.3.2 XDT — Cross-System Dependency Type
+### 15.3.2 ECON.CONTRIB — Contribution Variable
 
 | Field | Entry |
 |---|---|
-| Code Family | XDT |
-| Canonical Name | Cross-System Dependency Type |
+| Code Family | ECON.CONTRIB |
+| Canonical Name | Contribution |
+| Primary Type | Semantic |
+| Subtype | ATTRIBUTION_VARIABLE |
+| Scope | Economics domain |
+| Status | Active |
+| Controlled Values Defined | Low; Medium; High |
+| Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
+| Source Section | §3.1 |
+| Authority / Protection Level | Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority |
+
+---
+
+### 15.3.3 ECON.DEP — Dependency Variable
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.DEP |
+| Canonical Name | Dependency |
+| Primary Type | Semantic / Operational |
+| Subtype | DEPENDENCY_VARIABLE |
+| Scope | Economics domain; cross-system attribution and reliance assessment |
+| Status | Active |
+| Controlled Values Defined | Incidental; Material; Critical |
+| Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
+| Source Section | §3.2 |
+| Authority / Protection Level | Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority |
+
+---
+
+### 15.3.4 ECON.DTYPE — Economic Dependency Type
+
+| Field | Entry |
+|---|---|
+| Code Family | ECON.DTYPE |
+| Canonical Name | Economic Dependency Type |
 | Primary Type | Semantic / Operational |
 | Subtype | DEPENDENCY_TYPE; CONTRIBUTOR_RELATIONSHIP |
 | Modifier | GOVERNANCE; ECONOMIC; CROSS_SYSTEM |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | XDT.FUNCTIONAL_DEPENDENCY, XDT.FOUNDATIONAL_INPUT_CLASS, XDT.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR |
-| Schema Field(s) | cross_system_dependency_type; dependency_type; contributor_relationship_type |
+| Controlled Values Defined | ECON.DTYPE.FUNCTIONAL_DEPENDENCY, ECON.DTYPE.FOUNDATIONAL_INPUT_CLASS, ECON.DTYPE.DIFFUSE_DEPENDENCY, ECON.DTYPE.NON_EXTRACTIVE_MATERIAL_CONTRIBUTOR |
+| Schema Field(s) | economic_dependency_type; dependency_type; contributor_relationship_type |
 | Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
-| Source Section | §4.4 |
+| Source Section | §4.3; §4.4 |
 | Domain Namespace | ECONOMICS |
-| Authority / Protection Level | Source-authoritative dependency-type classification family; dependency-type classification only; no independent attribution entitlement, compensation authority, exchange authority, enforcement authority, legal status, contributor status, or runtime authority |
-| Consumes Code Families | XDL |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Distinguishes functional dependency, foundational input class, and non-extractive material contributor status for proportional attribution, exchange, and value-return evaluation |
+| Authority / Protection Level | Source-authoritative economic dependency-type classification family; dependency-type classification only; no independent attribution entitlement, compensation authority, exchange authority, enforcement authority, legal status, contributor status, or runtime authority |
+| Consumes Code Families | ECON.DEP |
+|Crosswalks Code Families | ECON.DTYPE |
+| Operationalises or Applies Code Families | Provides the parent dependency-type classification layer for functional dependency, foundational input class, diffuse dependency, and non-extractive material contributor relationships in cross-system attribution and exchange review |
 
 ---
 
-### 19.3.3 AM3 — Attribution Model 3
+### 15.3.5 ECON.TD — Transformation Depth
 
 | Field | Entry |
 |---|---|
-| Reference Set | AM3 |
-| Canonical Name | Attribution Model 3 |
-| Primary Type | Semantic / Structural |
-| Subtype | ATTRIBUTION_MODEL; SCHEMA |
+| Code Family | ECON.TD |
+| Canonical Name | Transformation Depth |
+| Primary Type | Semantic / Operational |
+| Subtype | TRANSFORMATION_DEPTH; ATTRIBUTION_MODEL_DIMENSION |
 | Modifier | GOVERNANCE; ECONOMIC; ATTRIBUTION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | AM3.CONTRIBUTION.LOW, AM3.CONTRIBUTION.MEDIUM, AM3.CONTRIBUTION.HIGH, AM3.DEPENDENCY.INCIDENTAL, AM3.DEPENDENCY.MATERIAL, AM3.DEPENDENCY.CRITICAL, AM3.TRANSFORMATION_DEPTH.DIRECT, AM3.TRANSFORMATION_DEPTH.INTERMEDIATE, AM3.TRANSFORMATION_DEPTH.DEEP |
-| Schema Field(s) | contribution_level; dependency_level; transformation_depth |
+| Controlled Values Defined | ECON.TD.DIRECT, ECON.TD.INTERMEDIATE, ECON.TD.DEEP |
+| Schema Field(s) | transformation_depth |
 | Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
-| Source Section | §§7.1–7.4 |
+Source Section | §3.3|
 | Domain Namespace | ECONOMICS |
-| Authority / Protection Level | Source-authoritative attribution model reference set; structured attribution-assessment fields only; no independent attribution entitlement, payment obligation, enforcement authority, remedy, pricing authority, arbitration authority, or runtime authority |
-| Consumes Code Families | XDL |
-| Crosswalks Code Families | XWB |
-| Operationalises or Applies Code Families | Provides structured assessment of contribution, dependency, and transformation depth for attribution preservation and exchange-alignment evaluation |
-| Taxonomy Constraint | Internal AM3 dimensions C, D, and T SHALL NOT be promoted as standalone corpus-wide code families |
+| Authority / Protection Level | Source-authoritative transformation-depth classification family; transformation-depth classification only; no independent attribution entitlement, compensation obligation, pricing authority, exchange obligation, enforcement authority, remedy, arbitration authority, or runtime authority |
+| Consumes Code Families | ECON.CONTRIB; ECON.DEP |
+| Crosswalks Code Families | ECON.ADM |
+| Operationalises or Applies Code Families | Classifies whether contribution is directly reused, intermediately transformed, or deeply transformed for attribution preservation and exchange-alignment assessment |
 
 ---
 
-### 19.3.4 XWB — Exchange Weighting Band
+### 15.3.6 ECON.TA — Temporal Advantage
 
 | Field | Entry |
 |---|---|
-| Reference Set | XWB |
-| Canonical Name | Exchange Weighting Band |
-| Primary Type | Operational / Structural |
-| Subtype | WEIGHTING_BAND |
-| Modifier | GOVERNANCE; ECONOMIC; EXCHANGE_ALIGNMENT |
+| Code Family | ECON.TA |
+| Canonical Name | Temporal Advantage |
+| Primary Type | Semantic / Operational |
+| Subtype | TEMPORAL_ADVANTAGE; ATTRIBUTION_MODEL_DIMENSION; RISK_AMPLIFIER |
+| Modifier | GOVERNANCE; ECONOMIC; TIMING_ASYMMETRY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | XWB.LOW, XWB.MODERATE, XWB.HIGH |
-| Schema Field(s) | exchange_weighting_band |
+| Controlled Values Defined | ECON.TA.NEUTRAL, ECON.TA.EARLY, ECON.TA.ADVANCED, ECON.TA.ASYMMETRIC |
+| Schema Field(s) | temporal_advantage |
 | Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
-| Source Section | §8.2 |
+| Source Section | §3.4; §3.4.1–§3.4.3 |
 | Domain Namespace | ECONOMICS |
-| Authority / Protection Level | Source-authoritative exchange-weighting reference set; qualitative exchange-weighting classification only; no independent price, compensation, fee, entitlement, exchange rate, enforcement action, remedy, or runtime outcome |
-| Consumes Code Families | AM3; XDL |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies qualitative exchange-alignment posture as low, moderate, or high based on contribution, dependency, and replaceability |
+| Authority / Protection Level | Source-authoritative temporal-advantage classification family; timing-asymmetry classification only; no independent market-manipulation finding, liability determination, compensation obligation, enforcement authority, pricing authority, remedy, arbitration authority, or runtime authority |
+| Consumes Code Families | ECON.CONTRIB; ECON.DEP; ECON.TD |
+| Crosswalks Code Families | ECON.ADM |
+| Operationalises or Applies Code Families | Classifies whether timing asymmetry creates neutral, early, advanced, or asymmetric economic, interpretive, predictive, or market-relevant advantage |
 
 ---
 
-## 19.4 Review & Validation
+### 15.3.7 ECON.FD — Functional Dependency
+
+| Field | Entry |
+|---|---|
+| Reference Set | ECON.FD |
+| Canonical Name | Functional Dependency |
+| Primary Type | Semantic / Operational |
+| Subtype | DEPENDENCY_TYPE; CROSS_SYSTEM_RELATIONSHIP |
+| Modifier | GOVERNANCE; ECONOMIC; CROSS_SYSTEM |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.FD.APPLIES, ECON.FD.DOES_NOT_APPLY |
+| Schema Field(s) | functional_dependency |
+| Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
+| Source Section | §4.4 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative dependency condition reference set; functional-dependency classification only; no independent attribution entitlement, compensation authority, legal status, exchange authority, enforcement authority, or runtime authority |
+| Consumes Code Families | ECON.DEP; ECON.DTYPE |
+| Crosswalks Code Families | ECON.FD; ECON.FIC; ECON.DD; ECON.NEMC |
+| Operationalises or Applies Code Families | Marks whether a system directly invokes, relies on, incorporates, or depends on another identifiable system, service, model, dataset, governance layer, or infrastructure component |
+
+---
+
+### 15.3.8 ECON.FIC — Foundational Input Class
+
+| Field | Entry |
+|---|---|
+| Reference Set | ECON.FIC |
+| Canonical Name | Foundational Input Class |
+| Primary Type | Semantic / Operational |
+| Subtype | DEPENDENCY_TYPE; FOUNDATIONAL_INPUT |
+| Modifier | GOVERNANCE; ECONOMIC; COMMONS; CROSS_SYSTEM |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.FIC.PUBLIC_KNOWLEDGE, ECON.FIC.COMMUNITY_LABOUR, ECON.FIC.CULTURAL_MATERIAL, ECON.FIC.OPEN_STANDARDS, ECON.FIC.ECOLOGICAL_SUBSTRATE, ECON.FIC.PUBLIC_INFRASTRUCTURE |
+| Schema Field(s) | foundational_input_class |
+| Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
+| Source Section | §4.3; §4.4 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative foundational-input reference set; input-class classification only; no independent attribution entitlement, compensation authority, ownership determination, exchange authority, enforcement authority, or runtime authority |
+| Consumes Code Families | ECON.DEP; ECON.DTYPE |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies diffuse foundational inputs such as public knowledge, community labour, cultural material, open standards, ecological substrates, and public infrastructure for non-erasure, proportional recognition, and anti-extraction review |
+
+---
+
+### 15.3.9 ECON.DD — Diffuse Dependency
+
+| Field | Entry |
+|---|---|
+| Reference Set | ECON.DD |
+| Canonical Name | Diffuse Dependency |
+| Primary Type | Semantic / Operational |
+| Subtype | DEPENDENCY_TYPE; DIFFUSE_CONTRIBUTION |
+| Modifier | GOVERNANCE; ECONOMIC; COMMONS; CROSS_SYSTEM |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.DD.APPLIES, ECON.DD.DOES_NOT_APPLY |
+| Schema Field(s) | diffuse_dependency |
+| Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
+| Source Section | §4.3 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative diffuse-dependency reference set; diffuse-dependency classification only; no independent attribution entitlement, compensation authority, ownership determination, exchange authority, enforcement authority, or runtime authority |
+| Consumes Code Families | ECON.DEP; ECON.DTYPE |
+| Crosswalks Code Families | ECON.FIC |
+| Operationalises or Applies Code Families | Marks diffuse reliance on broad, non-singular, non-exclusive, or collectively produced inputs where attribution and reciprocity require non-erasure and proportional recognition rather than one-to-one compensation logic |
+
+---
+
+### 15.3.10 ECON.NEMC — Non-Extractive Material Contributor
+
+| Field | Entry |
+|---|---|
+| Reference Set | ECON.NEMC |
+| Canonical Name | Non-Extractive Material Contributor |
+| Primary Type | Semantic / Operational |
+| Subtype | CONTRIBUTOR_RELATIONSHIP; DEPENDENCY_TYPE |
+| Modifier | GOVERNANCE; ECONOMIC; NON_EXTRACTIVE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.NEMC.APPLIES, ECON.NEMC.DOES_NOT_APPLY |
+| Schema Field(s) | non_extractive_material_contributor |
+| Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
+| Source Section | §4.3 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative contributor-relationship reference set; material-contributor classification only; no independent legal contributor status, compensation entitlement, ownership claim, exchange authority, enforcement authority, or runtime authority |
+| Consumes Code Families | ECON.DEP; ECON.DTYPE |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Marks materially supportive contributors who are not reducible to vendor, licensor, employee, captured dependency, or extractive input source, supporting proportional recognition and non-extractive value-return assessment |
+
+---
+
+### 15.3.11 ECON.MMAC — Market-Moving Actor Condition
+
+| Field | Entry |
+|---|---|
+| Reference Set | ECON.MMAC |
+| Canonical Name | Market-Moving Actor Condition |
+| Primary Type | Semantic / Operational |
+| Subtype | CONDITION_MARKER; RISK |
+| Modifier | GOVERNANCE; ECONOMIC; MARKET_IMPACT |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.MMAC.APPLIES, ECON.MMAC.DOES_NOT_APPLY |
+| Schema Field(s) | market_moving_actor_condition |
+| Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
+| Source Section | §3.5.1 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative condition marker; market-moving-capacity classification only; no independent wrongdoing determination, market-manipulation finding, liability, enforcement, restriction, compensation, or runtime outcome authority |
+| Consumes Code Families | ECON.ADM; ECON.TA |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Marks demonstrable, repeated, low-latency capacity to materially influence markets, valuation, capital allocation, or economic outcomes across multiple value axes for attribution, disclosure, proportionality, and reciprocity review |
+
+---
+
+### 15.3.12 ECON.SIMD — Signal-Induced Market Distortion
+
+| Field | Entry |
+|---|---|
+| Reference Set | ECON.SIMD |
+| Canonical Name | Signal-Induced Market Distortion |
+| Primary Type | Semantic / Operational |
+| Subtype | CONDITION_MARKER; RISK |
+| Modifier | GOVERNANCE; ECONOMIC; MARKET_IMPACT |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ECON.SIMD.APPLIES, ECON.SIMD.DOES_NOT_APPLY |
+| Schema Field(s) | signal_induced_market_distortion |
+| Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
+| Source Section | §3.5.2 |
+| Domain Namespace | ECONOMICS |
+| Authority / Protection Level | Source-authoritative condition marker; signal-induced distortion classification only; no independent intent determination, illegality finding, liability, enforcement, compensation, remedy, pricing, or runtime outcome authority |
+| Consumes Code Families | ECON.ADM; ECON.MMAC; ECON.TA |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Marks foreseeable signal-induced economic distortion where system-generated signals produce predictable or repeatable economic reactions, measurable downstream value, and value capture without proportional attribution, disclosure, or reciprocity alignment |
+
+---
+
+## 15.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Date** | 2026-04-19T00:00:00Z |
-| **Review Scope** | Material content — substance, coherence, cross-instrument consistency, implementability, and identified risks. Formatting and review metadata excluded. |
-| **Review Artefacts** | https://claude.ai/chat/fc7db3c1-4fd2-4544-b103-13bd44928488, AEON-LAB/Reviews/26-04/CAM-EQ2026-ECONOMICS-CLAUDE.md |
+| **Reviewer** | [Deferred] |
+| **Review Date** | [Deferred] |
+| **Review Scope** | [Deferred] |
+| **Review Artefacts** | [Deferred] | 
 
 ---
 
-## 19.5 Amendment Ledger
+## 15.5 Amendment Ledger
 
-| Version | Description                                            | Timestamp (UTC) | HASH |
-| ------- | ------------------------------------------------------ | --------------- | ---- |
-| 1.0 | Initial issuance — Cross-System Attribution & Exchange | 2026-04-19T09:12:00Z | f7cc597700b7467fcb7a3e001508beacdda4a78a841d4c9031160a93a8ed1d0e |
-| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | e080b88c358c5f39d97dd8f5a4eb3204002e702f4f4beded803dfbf2317f638e |
-| 1.2 | Canonicalized Appendix F reference to explicit target instrument ID (§5.9). | 2026-05-05T12:27:18Z | 3746aadfe9dea11082d6eed057e07108984bb0b15b9a6f1fe0d30f45ab0c3165 |
-| 1.3 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  1d51a4149a19d82c00fa7fae4e74e11e0cf13e6c86306e3ec35cdbd4d8e6a864  |
-| 1.4 | Added new Canonical Code & Reference Set Declarations section to the metadata footer | 2026-05-20T15:20:00Z |  3ac33713e5c91f175fd2c78b2322a1ed32b080d4358e15a2f1a1be3afaa63853  |
-| 1.5 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  fd381a2815a5a905dc2816704cc4690cb3640d88fc79a6efcf85ffc0b5c19912  |
+| Version | Description                                  | Timestamp (UTC) | HASH |
+| ------- | -------------------------------------------- | --------------- | ---- |
+| 1.0 | Initial issuance — Minimal Attribution Model | 2026-04-19T09:20:00Z | 77143629489f2f58942f8ad74fdbe637f77d81b0c26a014a756150837eeee67d |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9bdc30fd067444d8003db5e71acba7c7a4d0a9d8f5eb13d161d7fe2c58df15c7 |
+| 1.2 | Added clause 3.2.1, 7.1.1 | 2026-05-13T13:24:00Z | ea2ecb803c07401239addffec78632c5cf6b903cb47b5e3eb7b5661ad11315ce |
+| 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 5a743256f93808e94a0ca70538d5b7b3ffee466aebbf9b24df1d485a466bf23f |
+| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b85bdc4064377f0832cd4011487570a52031845c817e74a31f603619f44d2334  |
+| 1.5 | Refactor | 2026-05-20T04:34:00Z |  6822c4a7d76bb32d0a0fd3d0c25898a5f92bc39d434179255e97fb2a22552734  |
+| 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  c4bf97703a21b802b5e302eac50fa65c70a3bec1475ec32d24b5e04e98dc68f5 |
+| 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | |
 
 ---
 
-## 19.6 Binding Seal
+## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
-
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Cross-System Economic Exchange Layer
+Boundary Binding Seal — Economic Attribution Layer
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
