@@ -926,7 +926,9 @@ Diffusion Integrity interfaces with:
 
 SECURITY provides detection and constraint; other domains govern downstream resolution.
 
-Where CAM-BS2026-AEON-011-PLATINUM — Annex J is not active, unavailable, or not yet adopted systems MUST apply minimum attribution persistence requirements defined in §6.3 — Attribution Persistence Requirement and §6.4 — Provenance Signal Model.
+Where CAM-BS2026-AEON-011-PLATINUM — Annex J is not active, unavailable, or not yet adopted:
+
+    * systems MUST apply minimum attribution persistence requirements defined in §6.3 — Attribution Persistence Requirement and §6.4 — Provenance Signal Model.
 
 CAM-BS2026-AEON-011-PLATINUM — Annex J governs constitutional-level lineage and succession.
 
@@ -1230,7 +1232,7 @@ and the system remember what it carries.
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
 | 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9  |
 | 1.5 | Added canonical code status and declaration entries for TR Transformation Classes, D Diffusion Risk Classes, BF Boundary Failure Classes, and TR × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified AH as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
-| 1.6 | Minor formatting polish | 2026-05-24T14:09:00Z |  |
+| 1.6 | Minor formatting polish | 2026-05-24T14:18:00Z |  |
 
 ---
 
