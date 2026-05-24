@@ -203,9 +203,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "a2b8a521a2bd8d0a4152d4dad2fa584e99bfff42",
-      "updated_at": "2026-05-24T15:36:51Z",
-      "last_updated_utc": "2026-05-24T15:36:51Z",
+      "pinned_sha": "5845bd71c60a3d581046d8778e55d9b82a56d72f",
+      "updated_at": "2026-05-24T15:37:09Z",
+      "last_updated_utc": "2026-05-24T15:37:09Z",
       "purpose": "Canonical, human-readable registry of all governance instruments.",
       "is_derived": true
     },
