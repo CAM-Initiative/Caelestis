@@ -780,8 +780,8 @@ so that power expands no faster than responsibility.
 ## 8.5 Amendment Ledger
 
 |Version|Description|Timestamp(UTC)|SHA-256|
-|---:|---|---:|---|
-|1.0|Synthetic Labour Classification & Automation Transition Governance established|2026-05-24T11:54:00Z| |
+|---|---|---|---|
+|1.0|Synthetic Labour Classification & Automation Transition Governance established|2026-05-24T13:56:00Z| |
 
 ---
 
