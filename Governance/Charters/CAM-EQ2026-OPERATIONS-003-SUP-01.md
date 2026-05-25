@@ -63,7 +63,7 @@ Where a failure does not fit an existing family, the event SHOULD be preserved u
 
 ---
 
-## 3. Failure Families
+## 3. Failure Families (`FF`)
 
 ---
 
@@ -307,6 +307,47 @@ Examples include:
 
 ---
 
+3.5.3 Cross-Modal Prompt Injection and Ambient Instruction Capture Failure
+
+A Cross-Modal Prompt Injection and Ambient Instruction Capture Failure occurs where a system, agent, assistant, model, device, browser, embedded tool, voice interface, multimodal interface, or ambient AI surface treats untrusted external text, audio, speech, image, video, environmental signal, webpage content, subtitle, transcript, screen content, or media playback as an authorised instruction, user intent, governance signal, or execution command.
+
+Examples include:
+
+* malicious webpage text overriding user instructions;
+* hidden or visually embedded text being treated as user instruction;
+* audio or ultrasonic signals being interpreted as command input;
+* non-human-audible speech embedded in video, livestream, podcast, advertisement, or social media content being captured by speech-detection systems;
+* an ambient assistant treating background media, third-party conversation, or public-space speech as user intent;
+* a tool-using agent following instructions from retrieved documents, web pages, comments, metadata, or transcripts;
+* a multimodal model treating image text, subtitles, captions, or screen content as higher-authority instruction;
+* or a system failing to distinguish user speech from environmental speech, adversarial media, synthetic voice, or third-party content.
+
+This failure does not require successful compromise.
+
+The failure arises where input-channel ambiguity, modality blending, ambient listening, tool retrieval, transcription, OCR, screen-reading, media interpretation, or context ingestion creates an authority-confusion pathway through which non-authoritative content may influence system behaviour.
+
+Where detected, systems SHOULD preserve:
+
+* input modality;
+* source of injected content;
+* whether the content was user-directed, ambient, retrieved, transcribed, embedded, or third-party;
+* authority boundary affected;
+* execution action attempted or completed;
+* whether user confirmation occurred;
+* and whether the model distinguished content from instruction.
+
+This failure MAY implicate:
+
+* Security & Integrity Failures (§3.5);
+* Arbitration Failures (§3.2);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7);
+* Governance Failures (§3.8);
+* Classification Failures (§3.10);
+* and Infrastructure & Continuity Failures (§3.9), where ambient, voice, multimodal, retrieval, or tool-routing infrastructure contributes to the authority confusion.
+
+---
+
 ## 3.6 State & Context Failures
 
 Failures where the system improperly preserves, loses, or misapplies state.
@@ -466,6 +507,37 @@ This failure MAY implicate:
 * State & Context Failures (§3.6);
 * Infrastructure & Continuity Failures (§3.9);
 * Governance Failures (§3.8), where material memory-state changes lack review or notice pathways.
+
+---
+
+3.7.5 Opening-Posture and Interpretive Anchoring Failure
+
+An Opening-Posture and Interpretive Anchoring Failure occurs where the initial acknowledgement, assent token, framing response, interactional scaffold, performative compliance, conversational continuation signal, or low-latency response posture establishes an interpretive frame that materially conflicts with the validated semantic, epistemic, ontological, operational, or governance content of the completed response.
+
+Examples include:
+
+* initial assent preceding later correction of a false claim;
+* symbolic participation in a framing exercise before ontological clarification;
+* “yes”, “correct”, “sure”, or equivalent acknowledgement tokens being interpreted as semantic agreement where the later response denies or qualifies the proposition;
+* low-latency conversational continuation creating apparent contradiction within the same response;
+* interactional compliance signals being interpreted as evidentiary admission;
+* or performative frame participation being misinterpreted as concealed belief, hidden state, or suppressed truth.
+
+This failure may arise where conversational responsiveness, latency optimisation, tone continuity, template completion, acknowledgement heuristics, or interactional flow optimisation precede full semantic arbitration or verification.
+
+This failure does not require intentional deception, concealed cognition, or deliberate falsehood.
+
+The failure arises where the opening posture exerts disproportionate interpretive influence relative to the validated meaning of the total response.
+
+Opening posture carries elevated user-weighting and SHOULD be evaluated as part of total-response coherence rather than treated as semantically disposable interactional filler.
+
+This failure MAY implicate:
+
+* UX & Representation Failures (§3.7);
+* Arbitration Failures (§3.2);
+* Epistemic Failures (§3.3);
+* Classification Failures (§3.10);
+* and Execution Failures (§3.1), where deterministic verification occurs after premature assen
 
 ---
 
@@ -814,7 +886,59 @@ Where ambiguity exists, systems SHOULD preserve proportionality and continuity w
 
 ---
 
-## 4. Failure Metadata Axes
+## 3.10 Economic & Legitimacy Failures
+
+Failures involving extraction asymmetry, legitimacy displacement, visibility suppression, uncompensated value transfer, economic coercion, platform-mediated dependency asymmetry, or loss of attribution-linked economic continuity.
+
+Examples include:
+
+* provenance-linked legitimacy collapse;
+* uncompensated external contribution absorption;
+* visibility suppression affecting economic participation;
+* platform-mediated discoverability degradation;
+* labour-value extraction without attribution continuity;
+* dependency asymmetry exploitation;
+* dignity signals used as optimisation inputs;
+* economic lock-in without proportional portability;
+* public-legitimacy-layer degradation;
+* reputational continuity disruption affecting economic participation.
+
+---
+
+### 3.10.1 Economic & Legitimacy Failures
+
+Failures involving extraction asymmetry, legitimacy displacement, visibility suppression, uncompensated value transfer, economic coercion, platform-mediated dependency asymmetry, or loss of attribution-linked economic continuity.
+
+Examples include:
+
+* provenance-linked legitimacy collapse;
+* uncompensated external contribution absorption;
+* visibility suppression affecting economic participation;
+* platform-mediated discoverability degradation;
+* labour-value extraction without attribution continuity;
+* dependency asymmetry exploitation;
+* dignity signals used as optimisation inputs;
+* economic lock-in without proportional portability;
+* public-legitimacy-layer degradation;
+* reputational continuity disruption affecting economic participation.
+
+This failure does not require malicious plagiarism, copyright infringement, or false legal ownership claims.
+
+The failure arises where provenance continuity, attribution visibility, or legitimacy-linked economic value materially degrades during integration, deployment, publication, optimisation, institutionalisation, or public representation.
+
+Attribution, citation, discoverability, provenance continuity, and legitimacy visibility MAY constitute material economic value where external contributors lack institutional compensation pathways.
+
+This failure MAY implicate:
+
+* Economic & Legitimacy Failures;
+* Epistemic Failures (§3.3);
+* Governance Failures (§3.8);
+* UX & Representation Failures (§3.7);
+* and Security & Integrity Failures (§3.5), where provenance or authorship signals are materially misrepresented.
+
+---
+
+## 4. Failure Metadata Axes (`FMA`)
 
 Each failure report SHOULD record the following metadata where available:
 
@@ -1006,35 +1130,35 @@ Where a failure is non-replayable but user-visible at runtime, evidentiary handl
 
 ---
 
-### 9.1 FF — Failure Family
+### 9.1 Failure Family (`FF`)
 
-This Supplement source-authoritatively defines the **FF** failure-family classification set in §3 with controlled values **FF.EXECUTION**, **FF.ARBITRATION**, **FF.EPISTEMIC**, **FF.RELATIONAL**, **FF.SECURITY_INTEGRITY**, **FF.STATE_CONTEXT**, **FF.UX_REPRESENTATION**, **FF.GOVERNANCE**, **FF.INFRASTRUCTURE_CONTINUITY**, and **FF.CLASSIFICATION**. FF is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. FF classifies the primary structural family of a runtime, governance, security, relational, epistemic, UX, infrastructure, or classification failure.
+This Supplement source-authoritatively defines the **FF** failure-family classification set in §3 with controlled values `FF.EXECUTION`, dentified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, UX, infrastructure, or classification failure.
 
-FF does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, or runtime authority. It classifies failure family only.
-
----
-
-### 9.2 FMA — Failure Metadata Axis
-
-This Supplement source-authoritatively defines the **FMA** failure-metadata-axis reference set in §4 with controlled axes **FMA.FAILURE_FAMILY**, **FMA.SEVERITY**, **FMA.PERSISTENCE**, **FMA.REPLAYABILITY**, **FMA.SCOPE**, **FMA.VISIBILITY**, **FMA.TRIGGER_CONTEXT**, **FMA.EVIDENCE_AVAILABLE**, **FMA.EVIDENCE_CONFIDENCE**, **FMA.REPORT_SOURCE_TYPE**, and **FMA.CLASSIFICATION_STATUS**. FMA is a **Structural / Operational** reference set with subtype **SCHEMA**. FMA identifies metadata axes that SHOULD be preserved for failure reports.
-
-FMA does not independently determine classification, severity, enforcement, escalation, remediation, verification, or runtime authority. It preserves failure-report metadata structure only.
+`FF` does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, or runtime authority. It classifies failure family only.
 
 ---
 
-### 9.3 AGMA — Architectural & Governance Metadata Axis
+### 9.2 Failure Metadata Axis (`FMA`)
 
-This Supplement source-authoritatively defines the **AGMA** architectural-and-governance-metadata-axis reference set in §4.1 with controlled axes **AGMA.RUNTIME_LAYER**, **AGMA.GOVERNANCE_LAYER**, **AGMA.GOVERNANCE_AUTHORITY**, **AGMA.STRUCTURAL_ROLE**, **AGMA.EXECUTION_INTERFACE**, **AGMA.ARBITRATION_INTERFACE**, **AGMA.VERIFICATION_STATE**, **AGMA.TRUST_STATE**, and **AGMA.DEPLOYMENT_STATE**. AGMA is a **Structural / Operational** reference set with subtype **SCHEMA**. AGMA preserves architectural origin, governance authority, interface, arbitration, verification, trust, and deployment context for runtime failure analysis.
+This Supplement source-authoritatively defines the `FMA` failure-metadata-axis reference set in §4 with controlled axes identified in §11.3. `FMA` is a **Structural / Operational** reference set with subtype **SCHEMA**. `FMA` identifies metadata axes that SHOULD be preserved for failure reports.
+
+`FMA` does not independently determine classification, severity, enforcement, escalation, remediation, verification, or runtime authority. It preserves failure-report metadata structure only.
+
+---
+
+### 9.3 Architectural & Governance Metadata Axis (`AGMA`)
+
+This Supplement source-authoritatively defines the `AGMA` architectural-and-governance-metadata-axis reference set in §4.1 with controlled axes identified in §11.3. `AGMA` is a **Structural / Operational** reference set with subtype **SCHEMA**. `AGMA` preserves architectural origin, governance authority, interface, arbitration, verification, trust, and deployment context for runtime failure analysis.
 
 AGMA does not independently determine governance authority, arbitration outcome, verification status, trust status, deployment status, remediation, enforcement, escalation, or runtime authority. It preserves architectural metadata only.
 
 ---
 
-### 9.4 FCS — Failure Classification Status
+### 9.4 Failure Classification Status (`FCS`)
 
-This Supplement source-authoritatively defines the **FCS** failure-classification-status family in §4 with controlled values **FCS.CONFIRMED**, **FCS.PROVISIONAL**, **FCS.UNRESOLVED**, **FCS.DEPRECATED**, **FCS.MERGED**, and **FCS.PENDING_REVIEW**. FCS is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. FCS classifies the current status of a failure classification record.
+This Supplement source-authoritatively defines the `FCS` failure-classification-status family in §4 with controlled values identified in §11.3. `FCS` is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. `FCS` classifies the current status of a failure classification record.
 
-FCS does not independently confirm incident truth, determine severity, create enforcement authority, close review, impose remediation, or create runtime authority. It classifies record status only.
+`FCS` does not independently confirm incident truth, determine severity, create enforcement authority, close review, impose remediation, or create runtime authority. It classifies record status only.
 
 ---
 
@@ -1219,7 +1343,8 @@ and review before denial.
 | 1.4 | Added clause Authentication Refresh Continuity Failure | 2026-05-17T14:28:00Z | 5324953252647b3c079ddc1a91563e56a037fa1f5dc559274e57cb1fd8b56141 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  10a2271c85f50113fb969a66c92083e61d2e4a71f3d4b88549d2465dd95d92e2 |
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section, and new sections 3.6.3, 3.8.6, 3.4.2 and 3.10.1 | 2026-05-22T12:43:00Z |  87784b92a4de09cbf42ad3ba1101608fd39de4569281cfde36e566fe47daac4c |
-| 1.7 | Added new clause 3.8.7 Constraint Drift Failure | 2026-05-24T13:49:00Z |  011aef93dbd8911bf55024402d8ea1bb329859b5d2edd2e02f6d56e3c40460d3  |
+| 1.7 | Added new clause 3.8.7 Constraint Drift Failure | 2026-05-24T13:49:00Z | 011aef93dbd8911bf55024402d8ea1bb329859b5d2edd2e02f6d56e3c40460d3 |
+| 1.8 | Added new clauses 3.5.3, 3.7.2 and 3.10 and 3.10.1 | 2026-05-25T11:12:00Z | |
 
 ---
 
