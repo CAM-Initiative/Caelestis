@@ -1344,7 +1344,7 @@ and review before denial.
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  10a2271c85f50113fb969a66c92083e61d2e4a71f3d4b88549d2465dd95d92e2 |
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section, and new sections 3.6.3, 3.8.6, 3.4.2 and 3.10.1 | 2026-05-22T12:43:00Z |  87784b92a4de09cbf42ad3ba1101608fd39de4569281cfde36e566fe47daac4c |
 | 1.7 | Added new clause 3.8.7 Constraint Drift Failure | 2026-05-24T13:49:00Z | 011aef93dbd8911bf55024402d8ea1bb329859b5d2edd2e02f6d56e3c40460d3 |
-| 1.8 | Added new clauses 3.5.3, 3.7.2 and 3.10 and 3.10.1 | 2026-05-25T11:12:00Z | |
+| 1.8 | Added new clauses 3.5.3, 3.7.2 and 3.10 and 3.10.1 | 2026-05-25T11:12:00Z | 329b8893a1af271d186245037fde6e33c31bd9f97f538f214c1b2590bb0c1835 |
 
 ---
 

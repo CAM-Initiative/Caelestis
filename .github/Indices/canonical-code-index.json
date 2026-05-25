@@ -2912,7 +2912,7 @@
       "or pending review"
     ],
     "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
-    "declaration_line_number": 1177,
+    "declaration_line_number": 1301,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "table": {
       "Code Family": "FCS",
@@ -2977,7 +2977,7 @@
       "and classification failure modes"
     ],
     "declaration_heading": "11.3.1 FF \u2014 Failure Family",
-    "declaration_line_number": 1108,
+    "declaration_line_number": 1232,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "table": {
       "Code Family": "FF",

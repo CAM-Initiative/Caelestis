@@ -55,8 +55,8 @@
 | `EST` | Execution-State Transition | Operational | `CAM-EQ2026-OPERATIONS-001-SUP-02` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md` | 12.3.2 EST — Execution-State Transition | 957 |
 | `ET` | Ethical Tier Classification | Operational / Ethical | `CAM-EQ2026-ETHICS-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md` | 12.3.1 ET — Ethical Tier Classification | 571 |
 | `F` | Facilitation Scale (F‑Scale) Taxonomy | Operational | `CAM-EQ2026-RELATION-006-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md` | 12.3.1 F — Facilitation Scale (F‑Scale) Taxonomy | 1142 |
-| `FCS` | Failure Classification Status | Operational | `CAM-EQ2026-OPERATIONS-003-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md` | 11.3.4 FCS — Failure Classification Status | 1177 |
-| `FF` | Failure Family | Operational / Semantic | `CAM-EQ2026-OPERATIONS-003-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md` | 11.3.1 FF — Failure Family | 1108 |
+| `FCS` | Failure Classification Status | Operational | `CAM-EQ2026-OPERATIONS-003-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md` | 11.3.4 FCS — Failure Classification Status | 1301 |
+| `FF` | Failure Family | Operational / Semantic | `CAM-EQ2026-OPERATIONS-003-SUP-01` | `Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md` | 11.3.1 FF — Failure Family | 1232 |
 | `FR` | Functional Reliance Scale | Operational / Relational | `CAM-EQ2026-RELATION-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` | 15.3.3 FR — Functional Reliance Scale | 1098 |
 | `GA` | Guardian Authority | Operational / Relational | `CAM-EQ2026-RELATION-001-PLATINUM` | `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` | 15.3.2 GA — Guardian Authority | 1075 |
 | `GCC` | Governance Capture Category | Operational / Semantic | `CAM-EQ2026-OPERATIONS-001-SUP-03` | `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md` | 10.3.1 GCC — Governance Capture Category | 930 |

@@ -811,11 +811,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.7",
-      "HASH": "011aef93dbd8911bf55024402d8ea1bb329859b5d2edd2e02f6d56e3c40460d3",
-      "pinned_sha": "7b675e336440e5fb45bd80c9e47b584981c2eb63",
-      "updated_at": "2026-05-24T14:23:05Z",
-      "last_updated_utc": "2026-05-24T14:23:05Z"
+      "version": "1.8",
+      "HASH": "329b8893a1af271d186245037fde6e33c31bd9f97f538f214c1b2590bb0c1835",
+      "pinned_sha": "83d871dec5c2be1894106c438285a6e4be3b3fe8",
+      "updated_at": "2026-05-25T11:13:10Z",
+      "last_updated_utc": "2026-05-25T11:13:10Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
