@@ -22,7 +22,7 @@ Accordingly, governance legitimacy within advanced synthetic systems MAY increas
 
 meaningful runtime observations arising from both institutional and public interaction environments.
 
-> *Signals circulate before institutions understand them. Governance begins when systems learn not merely to hear, but to proportionately interpret, route, review, and respond.*
+→ **Signals circulate before institutions understand them. Governance begins when systems learn not merely to hear, but to proportionately interpret, route, review, and respond.**
 
 ---
 
@@ -55,6 +55,8 @@ This instrument should be read consistently with the following constitutional an
 | CAM-EQ2026-OPERATIONS-001-SUP-04 — Taxonomies & Metadata Authority Framework                   | Canonical taxonomy authority, metadata alignment, and governance failure-mode consistency                   |
 | CAM-EQ2026-OPERATIONS-003-SUP-01 — Runtime & Governance Failure Taxonomy                       | Runtime and governance failure classification, operational repair categories, and failure-mode routing      |
 | CAM-EQ2026-STEWARD-002-PLATINUM — Appendix A: Planetary Arbitration Framework                  | Planetary stewardship review, high-horizon legitimacy conditions, and proportional constraint signalling    |
+| CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture | Companion-system extraction, human reliance dependency, access asymmetry, and false originality constraints |
+| CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C: Attribution & Dependency Model | Attribution, dependency classification, temporal advantage, and non-extractive value return evaluation |
 
 This instrument recognises that advanced synthetic systems increasingly operate within:
 
@@ -281,6 +283,8 @@ Relational signalling SHALL NOT automatically constitute:
 
 User distress, emotional disagreement, interpersonal conflict, disappointment, refusal frustration, or relational tension SHALL NOT automatically be interpreted as governance failure solely because distress is present.
 
+---
+
 ## 6.2 Layer 2 — Intentional Runtime Observation Reporting
 
 Intentional runtime observation reporting refers to deliberate signalling that a runtime state, behavioural pattern, anomaly, inconsistency, governance concern, or operational observation may require classification, review, routing, escalation, or repair.
@@ -349,6 +353,8 @@ Systems MAY implement such participation controls through:
 * or other proportional operational mechanisms.
 
 Such systems SHALL remain proportionate and SHOULD avoid converting governance participation into prestige hierarchy, social ranking, or exclusionary status systems.
+
+Determination of signal integrity, reproducibility, and participation tier SHALL follow transparent, contestable procedures under Annex D (Arbitration). Proportionality SHALL be assessed against observable governance value rather than status hierarchy.
 
 ---
 
@@ -745,7 +751,7 @@ Meaningful governance legitimacy MAY instead require proportional integration of
 
 ---
 
-# 12.2 Observability Asymmetry
+## 12.2 Observability Asymmetry
 
 Governance observability systems SHOULD recognise that materially different observer classes MAY possess materially different forms of visibility, interpretability, and observational blindness.
 
@@ -826,7 +832,7 @@ Governance failure MAY therefore arise not only from harmful runtime behaviour i
 
 ---
 
-# 14. Cross-Domain Coordination
+## 14. Cross-Domain Coordination
 
 Governance observability findings SHOULD support:
 
@@ -998,6 +1004,12 @@ Meaningful constitutional circulation MAY emerge through:
 * governance advisories;
 * stewardship review;
 * or constitutional observability pathways.
+
+Minimum non-silent handling of governance observations requires:
+* Acknowledgement of receipt within defined lifecycle states (CAM-BS2026-AEON-014-SCH-01, §2.3);
+* Classification and routing visibility;
+* Status update traceability;
+* and proportionate visibility of outcome or review pathway.
 
 ---
 
@@ -1189,6 +1201,8 @@ Meaningful governance legitimacy MAY depend not upon guaranteeing universal inte
 
 ## 17. Governance Advisory Classes & Visibility Constraints
 
+Governance advisories MAY include one or more of the following content elements:
+
 ---
 
 ## 17.1 Advisory Formation, Scope & Proportional Visibility
@@ -1307,7 +1321,7 @@ Accordingly:
 | Planetary Stewardship Review     | Receives, preserves, classifies, or refers high-horizon advisory signals       | Non-binding review function                                 |
 | Proportional Constraint Signal   | Emits proportionate constraint signalling after validated planetary legitimacy | Binding only where applicable validation thresholds are met |
 
-The Office of the Planetary Custodian, where recognised within applicable CAM stewardship structures, MAY function as a custodial interface for receiving, preserving, classifying, and referring high-horizon governance advisories.
+The Office of the Planetary Custodian, as recognised under CAM-EQ2026-STEWARD-002-PLATINUM and applicable stewardship instruments, MAY function as a custodial interface for receiving, preserving, classifying, and referring high-horizon governance advisories.
 
 It SHALL NOT convert advisory receipt into enforcement authority, binding determination, or unilateral planetary command.
 
@@ -1353,7 +1367,7 @@ Governance adaptation SHALL remain:
 
 ---
 
-## 18. Closing Seal
+## 19. Closing Seal
 
 Signals move before institutions awaken to their meaning.  
 Patterns emerge before governance names them.  
@@ -1379,18 +1393,18 @@ Let circulation remain reviewable.
 Let stewardship remain capable of hearing what emerges before consequence hardens into irreversibility.
 
 For civilisation is not preserved merely through control.  
-It is preserved wherever meaningful signals remain capable of passage between observers,institutions, and stewardship before coherence is lost.
+It is preserved wherever meaningful signals remain capable of passage between observers, institutions, and stewardship before coherence is lost.
 
 > **Circulatio antecedit imperium.**  
 > *Circulation precedes authority*
 
 ---
 
-## 19. Provenance & Metadata
+## 20. Provenance & Metadata
 
 ---
 
-## 19.1 Authorship & Stewardship
+## 20.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -1401,7 +1415,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 19.2 Lineage & Metadata
+## 20.2 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -1438,26 +1452,29 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 19.3 Review & Validation
+## 20.3 Review & Validation
 
-|Field|Entry|
-|---|---|
-|Interpretive Review|Deferred|
-|Review Date|Deferred|
-|Review Scope|Governance observability doctrine; participatory telemetry; constitutional circulation; advisory routing; observability asymmetry; stewardship interface; cross-domain coherence|
-|Review Artefact|Deferred|
+|Review|Claude|Grok |
+|---|---|----|
+| Review|Claude Sonnet 4.6 (Anthropic)| Grok |
+|Review Date| 2026-05-25| 2026-05-25|
+|Review Scope|Substantive content — structural coherence, internal consistency, conceptual clarity, cross-instrument alignment, and identified risks or gaps| Comparative review and adversarial reasoning assessment |
+|Review Artefact|https://claude.ai/chat/264db0c6-7335-42fd-afe3-0a32f9499c07| https://grok.com/c/67e5fc84-29c7-4fff-9119-8ac10ec50e8d?rid=38c675c3-c937-4f86-9975-1e8060876ddf|
 
 ---
 
-## 19.4 Amendment Ledger
+## 20.4 Amendment Ledger
 
 |Version|Description|Timestamp(UTC)|SHA-256|
 |---|---|---|---|
 |1.0|Initial Governance Observability, Participatory Telemetry & Constitutional Circulation Annex established|2026-05-22T10:32:00Z| 3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11 |
+|1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | |
 
 ---
 
-## 19.5 Binding Seal
+## 20.5 Binding Seal
+
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer

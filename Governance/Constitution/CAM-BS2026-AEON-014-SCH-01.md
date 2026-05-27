@@ -229,6 +229,33 @@ Meaningful governance localisation MAY therefore require distinguishing between:
 * stewardship concern;
 * or constitutional repair pressure.
 
+Lifecycle progression MAY consider:
+
+* longitudinal recurrence;
+* independent observational convergence;
+* continuity-sensitive escalation;
+* governance-routing persistence;
+* operational reproducibility;
+* participatory clustering intensity;
+* stewardship-sensitive implication;
+* or constitutional coherence impact.
+
+Governance lifecycle progression SHOULD remain proportionate, reviewable, and contestable.
+
+Progression toward Governance Advisory Issued MAY occur where:
+
+* governance-relevant convergence materially strengthens;
+* continuity-sensitive instability persists;
+* participatory clustering becomes longitudinally significant;
+* or governance-routing relevance exceeds local operational handling.
+
+Progression toward Constitutional Review Recommended MAY occur where:
+
+* governance incoherence persists;
+* cross-domain arbitration tension emerges;
+* constitutional insufficiency becomes materially plausible;
+* or governance degradation propagation exhibits unresolved longitudinal recurrence.
+
 ---
 
 ## 3.2 Governance Signal Confidence & Evidentiary Weighting
@@ -512,34 +539,6 @@ Governance observability systems SHOULD support proportionate pathways through w
 
 ---
 
-## 8.1 Observability Activation Conditions
-
-This Schedule operates as an event-triggered governance observability schedule.
-
-Activation MAY occur where:
-
-* repeated governance-relevant observations emerge;
-* longitudinal runtime instability is detected;
-* participatory telemetry clustering occurs;
-* governance degradation signals persist;
-* continuity-sensitive anomalies emerge;
-* or constitutional tension indicators are emitted.
-
-This Schedule SHALL NOT operate as a continuous execution authority layer.
-
-Governance observability activation emits:
-
-* review signals;
-* localisation signals;
-* clustering indicators;
-* governance advisories;
-* stewardship-routing indicators;
-* or governance-repair signals.
-
-Execution authority remains governed by runtime arbitration, execution-boundary evaluation, and applicable constitutional schedules.
-
----
-
 ## 9. Closing Seal
 
 Signals do not end when unseen.  
@@ -630,12 +629,12 @@ It is the discipline of noticing before repair is too late.
 
 ## 10.3 Review & Validation
 
-|Field|Entry|
-|---|---|
-|Interpretive Review|Deferred|
-|Review Date|Deferred|
-|Review Scope|Governance observability lifecycle coherence; advisory routing; constitutional circulation; participatory telemetry; degradation-signal persistence; stewardship escalation boundaries; runtime interface integrity|
-|Review Artefact|Deferred|
+| Field | Claude Review | Grok Review |
+|---|---|---|
+| Review|Claude Sonnet 4.6 (Anthropic)| Grok |
+|Review Date| 2026-05-25| 2026-05-25|
+|Review Scope|Substantive content — structural coherence, internal consistency, conceptual clarity, cross-instrument alignment, and identified risks or gaps| Comparative review and adversarial reasoning assessment|
+|Review Artefact|https://claude.ai/chat/264db0c6-7335-42fd-afe3-0a32f9499c07| https://grok.com/c/67e5fc84-29c7-4fff-9119-8ac10ec50e8d?rid=38c675c3-c937-4f86-9975-1e8060876ddf|
 
 ---
 
@@ -644,6 +643,8 @@ It is the discipline of noticing before repair is too late.
 |Version|Description|Timestamp(UTC)|SHA-256|
 |---|---|---|---|
 |1.0|Initial governance observability lifecycle instrument established|2026-05-22T10:32:00Z| 10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441 |
+|1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | |
+
 
 ---
 

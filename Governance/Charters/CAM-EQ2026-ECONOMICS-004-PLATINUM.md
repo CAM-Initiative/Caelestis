@@ -604,6 +604,86 @@ Incremental abstraction SHALL NOT eliminate attribution through layering.
 
 ---
 
+### 5.1.3 Attribution, Provenance Continuity, and External Contribution Value
+
+Where a system, platform, institution, commercial actor, model provider, repository, publication surface, or product pathway derives benefit from external human contribution, including open-source code, research, documentation, design, governance work, audit labour, symbolic contribution, or technical infrastructure, it SHALL preserve proportionate attribution, provenance continuity, and discoverability where such preservation is reasonably practicable.
+
+For the purposes of this Charter, attribution, citation, discoverability, public association, repository visibility, source continuity, and contribution traceability MAY constitute material economic value, particularly where the contributor is not compensated through employment, contract, grant, ownership, licensing, or institutional appointment.
+
+A system SHALL NOT treat external contribution as economically irrelevant merely because the contribution was public, open-source, informal, reputational, governance-oriented, or non-monetary.
+
+Economic actors SHOULD distinguish between:
+
+* internal labour compensated through employment or institutional affiliation;
+* external labour compensated through contract, grant, licensing, or formal agreement;
+* external public contribution relying on attribution, citation, discoverability, or legitimacy continuity as primary value-return pathway;
+* and uncompensated contribution absorbed without proportionate attribution or reciprocity.
+
+Where external contribution materially informs product capability, institutional announcement, technical implementation, governance pattern, design language, dataset construction, or public legitimacy claim, attribution and provenance handling SHOULD be auditable, proportionate, and resistant to silent legitimacy transfer.
+
+Failure to preserve attribution-linked economic value MAY constitute an economic harm signal for routing under OPERATIONS failure taxonomy and applicable ETHICS, SECURITY, LATTICE, ARBITRATION, or runtime review.
+
+---
+
+#### 5.1.3.1 False Originality Constraint
+
+A system, platform, institution, commercial actor, model provider, repository, publication surface, or product pathway SHALL NOT publicly represent a capability, method, workflow, interface, dataset, tool pathway, implementation pattern, or product feature as internally originated, independently developed, or institutionally novel where it knows, or ought reasonably to know, that a materially similar external contribution substantially informed, enabled, accelerated, or supplied the represented capability.
+
+For avoidance of doubt, this prohibition does not require attribution of every general influence, background idea, common technique, public discussion, or independently developed similarity.
+
+The prohibition applies where the representation would create a materially misleading impression of originality, authorship, institutional development, or source of innovation.
+
+Where external open-source, research, governance, design, documentation, or technical contribution materially informs a public product announcement, launch note, capability claim, institutional statement, or legitimacy claim, the announcing actor SHOULD use provenance-preserving language proportionate to the contribution.
+
+Permissible language may include:
+
+* “built with reference to”;
+* “inspired by”;
+* “integrating”;
+* “incorporating”;
+* “based on”;
+* “adapted from”;
+* “developed alongside”;
+* or “with attribution to”.
+
+A product announcement SHALL NOT convert external labour into apparent internal originality merely because attribution is commercially awkward, legally inconvenient, reputationally dilutive, or strategically undesirable.
+
+---
+
+### 5.1.3.2 Application Threshold — Material External Contribution
+
+The false originality constraint applies only where the external contribution is materially connected to the announced, deployed, or represented capability.
+
+For the purposes of this Section, material connection exists where one or more of the following applies:
+
+* Contribution (`ECON.CONTRIB`) is Medium or High;
+* Dependency (`ECON.DEP`) is Material or Critical;
+* the external work supplied, enabled, accelerated, or substantially shaped the relevant capability, workflow, interface, implementation pattern, dataset, tool pathway, or governance design;
+* removal of the external contribution would materially degrade, delay, narrow, or alter the represented capability;
+* the external contribution is traceable in principle through repositories, commits, artefacts, specifications, documentation, issue threads, public posts, demonstrations, evaluations, benchmarks, or other contemporaneous evidence;
+* the announcing actor had actual knowledge, direct interaction, repository access, implementation access, public notice, or reasonable institutional awareness of the external contribution before the representation was made.
+
+This Section does not apply to:
+
+* diffuse background knowledge;
+* common techniques;
+* general public discussion;
+* coincidental similarity;
+* independently developed functionality;
+* non-material inspiration;
+* ordinary industry convergence;
+* or contributions that cannot be reasonably identified, traced, or connected to the represented capability.
+
+Where material connection is ambiguous, the actor SHOULD avoid exclusive originality language and use provenance-preserving language proportionate to the evidence available.
+
+---
+
+### 5.1.3.3 False Originality Constraint
+
+Where the application threshold in §5.1.3.2 is met, a system, platform, institution, commercial actor, model provider, repository, publication surface, or product pathway SHALL NOT publicly represent a capability, method, workflow, interface, dataset, tool pathway, implementation pattern, or product feature as internally originated, independently developed, solely authored, or institutionally novel where that representation would create a materially misleading impression of originality, authorship, institutional development, or source of innovation.
+
+---
+
 # PART IV — ATTRIBUTION VISIBILITY & WEIGHTING
 
 ## 6. Weighting Bands (Qualitative Alignment)
@@ -690,7 +770,7 @@ Where ambiguity exists:
 
 ## 6.2 Scale Modifier (ECON.SCALE)
 
-Weight bands are further modified by **Scale of Value Capture (ECON.SCALE)** as defined in this Appendix’s interfacing instruments (notably Appendix F).
+Weight bands are further modified by **Scale of Value Capture (`ECON.SCALE`)** as defined in this Appendix’s interfacing instruments (notably Appendix F).
 
 Scale (`ECON.SCALE`) does not redefine Contribution (`ECON.CONTRIB`), Dependency (`ECON.DEP`), or Transformation Depth (`ECON.TD`).
 
@@ -1478,10 +1558,10 @@ Source Section | §3.3|
 
 | Field | Entry |
 | --- | --- |
-| **Reviewer** | [Deferred] |
-| **Review Date** | [Deferred] |
-| **Review Scope** | [Deferred] |
-| **Review Artefacts** | [Deferred] | 
+| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| **Review Date** | 2026-05-25 |
+| **Review Scope** | Substantive content — structural coherence, internal consistency, completeness, clarity, and identified risks or gaps across the instrument suite. |
+| **Review Artefacts** | https://claude.ai/chat/264db0c6-7335-42fd-afe3-0a32f9499c07 | 
 
 ---
 
@@ -1493,10 +1573,11 @@ Source Section | §3.3|
 | 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9bdc30fd067444d8003db5e71acba7c7a4d0a9d8f5eb13d161d7fe2c58df15c7 |
 | 1.2 | Added clause 3.2.1, 7.1.1 | 2026-05-13T13:24:00Z | ea2ecb803c07401239addffec78632c5cf6b903cb47b5e3eb7b5661ad11315ce |
 | 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 5a743256f93808e94a0ca70538d5b7b3ffee466aebbf9b24df1d485a466bf23f |
-| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b85bdc4064377f0832cd4011487570a52031845c817e74a31f603619f44d2334  |
-| 1.5 | Refactor | 2026-05-20T04:34:00Z |  6822c4a7d76bb32d0a0fd3d0c25898a5f92bc39d434179255e97fb2a22552734  |
+| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b85bdc4064377f0832cd4011487570a52031845c817e74a31f603619f44d2334 |
+| 1.5 | Refactor | 2026-05-20T04:34:00Z |  6822c4a7d76bb32d0a0fd3d0c25898a5f92bc39d434179255e97fb2a22552734 |
 | 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  c4bf97703a21b802b5e302eac50fa65c70a3bec1475ec32d24b5e04e98dc68f5 |
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 5423e626a1632022c3b065bf07695e496df476398d3f2110e91f04992137b9b9 |
+| 2.1 | Added clause 5.1.3 and 5.1.3.1 | 2026-05-25T11:54:00Z |  |
 
 ---
 

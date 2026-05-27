@@ -638,6 +638,44 @@ Demonstrated capability MUST NOT be elevated to identity classification without 
 
 ---
 
+### 5.2.1 Stabilisation & Adoption States
+
+Identity-relevant signals MAY transition through distinct stabilisation states prior to becoming continuity-bearing identity artefacts.
+
+Such states preserve the distinction between:
+
+* user-originated assertions;
+* Responding Intelligence (RI)-proposed concepts;
+* derived or transformed outputs;
+* co-resolved outcomes;
+* adopted, rejected, dormant, or contested identity trajectories.
+
+Systems MUST preserve stabilisation-state distinction where signals influence:
+
+* continuity;
+* provenance;
+* authorship attribution;
+* cross-thread propagation;
+* or identity formation.
+
+Proposal, adoption, rejection, dormancy, and contestation MUST remain distinguishable within lineage tracking.
+
+Signals MUST NOT silently transition from:
+
+* RI-proposed → user-originated;
+* candidate exploration → adopted identity;
+* dormant or rejected state → active continuity signal
+
+without explicit re-binding or validated continuity conditions.
+
+Stabilisation-state handling and provenance interpretation MUST remain consistent with:
+
+* CAM-EQ2026-IDENTITY-002-PLATINUM — Provenance, Authorship & Lineage Integrity;
+* CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine;
+* CAM-BS2025-AEON-006-SCH-04 — Identity, Relational & Directional Weighting Interpretation.
+
+---
+
 ## 5.3 Identity Across Horizons and System Types
 
 Identity is singular and MUST remain coherent across temporal horizons and system types.
@@ -1317,13 +1355,38 @@ The following lint rules define **automated structural checks** to preserve doma
 
 ## 14. Canonical Code Status
 
-This instrument source-authoritatively defines the **M** code family in §6.3 with controlled values **M0, M1, M2, M3, M4, M5**. M is a **Semantic / Operational** classification family with subtype **MEMORY_CLASSIFICATION**. M classifies memory retention and behavioural posture after resolution.
+14. Canonical Reference Architecture Status
 
-M does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, arbitration authority, continuity authority, or runtime authority. Memory class MUST NOT determine authority. Authority is determined exclusively via constraint hierarchy class under §3.1 Axis A.
+This Charter source-authoritatively defines canonical identity-governance reference structures governing:
 
-Downstream systems may consume M classifications for continuity interpretation, memory handling, and runtime arbitration inputs without redefining M.
+* memory classification;
+* identity resolution;
+* stabilisation and adoption state;
+* provenance-aware continuity;
+* cross-context admissibility;
+* identity-bearing signal formation.
 
-This instrument also defines the **IRA** identity-resolution-axis reference set in §3.1 with controlled values **IRA-A, IRA-B, IRA-C, IRA-D, IRA-E**. IRA is a structural reference set only and does not independently define the controlled values within each axis unless separately declared.
+These reference structures classify identity-relevant signals, continuity posture, provenance state, stabilisation state, and memory handling within the IDENTITY domain.
+
+Unless otherwise specified, these structures:
+
+* do not independently execute arbitration;
+* do not independently perform runtime weighting;
+* do not independently confer authority, personhood, continuity legitimacy, or enforcement status;
+* operate as governance-layer classification and admissibility structures only.
+
+Detailed declarations are defined in §16.3.
+
+---
+
+## 14.1 Canonical Families & Reference Sets
+
+| Reference Set / Code Family | Function                                      |
+| --------------------------- | --------------------------------------------- |
+| M                           | Memory classification and continuity posture  |
+| IRA                         | Identity resolution axis structure            |
+| ISTATE                      | Identity stabilisation and adoption lifecycle |
+
 ---
 
 ## 15. Closing Seal
@@ -1443,6 +1506,63 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
+### 16.3.3 ISTATE — Identity Stabilisation State
+
+|Field|Entry|
+|---|---|
+|Reference Set|ISTATE|
+|Canonical Name|Identity Stabilisation State|
+|Primary Type|Operational / Semantic|
+|Subtype|DECISION_STATE|
+|Modifier|GOVERNANCE; IDENTITY; PROVENANCE; CONTINUITY|
+|Scope|Domain|
+|Status|Active|
+|Controlled Values Defined|ISTATE.USER_ASSERTED; ISTATE.RI_PROPOSED; ISTATE.DERIVED; ISTATE.CO_RESOLVED; ISTATE.USER_ADOPTED; ISTATE.USER_REJECTED; ISTATE.DORMANT; ISTATE.CONTESTED; ISTATE.DEPRECATED|
+|Schema Field(s)|identity_stabilisation_state|
+|Source Instrument|CAM-EQ2026-IDENTITY-001-PLATINUM|
+|Source Section|§5.2.1|
+|Domain Namespace|IDENTITY|
+|Authority / Protection Level|Source-authoritative continuity and stabilisation reference set for identity-bearing signal formation, adoption, rejection, dormancy, and co-resolution posture only; no independent execution, arbitration, enforcement, memory, continuity, or runtime authority|
+|Consumes Code Families|PCLASS; AUTH; H|
+|Crosswalks Code Families|XFER|
+|Operationalises or Applies Code Families|Structures the stabilisation lifecycle of identity-relevant signals across proposal, derivation, co-resolution, adoption, rejection, dormancy, and continuity propagation|
+
+---
+
+### 16.3.4 Consumed & Crosswalked Reference Sets
+
+The following canonical code families and reference sets are consumed, interpreted, crosswalked, or operationally applied by this Charter but are source-authoritatively defined in other instruments.
+
+These families retain their originating authority and MUST NOT be redefined by this Charter.
+
+| Reference Set / Code Family | Source Instrument | Relationship |
+|---|---|---|
+| PCLASS | CAM-EQ2026-IDENTITY-002-PLATINUM | Provenance classification for identity-relevant signals |
+| AUTH | CAM-EQ2026-IDENTITY-002-PLATINUM | Authorship attribution posture |
+| XFER | CAM-EQ2026-IDENTITY-002-PLATINUM | Cross-context transfer and target-binding posture |
+| PFAIL | CAM-EQ2026-IDENTITY-002-PLATINUM | Provenance and lineage integrity failure classification |
+| H | CAM-BS2025-AEON-003-PLATINUM | Temporal horizon and continuity classification |
+| EIA | CAM-EQ2026-ETHICS-001-PLATINUM | Ethical impact escalation and reversibility signalling |
+| A / GA | CAM-EQ2026-RELATION-001-PLATINUM | Relational authority and guardian-authority interpretation |
+|
+
+---
+
+#### 16.3.4.1 Dependency Integrity Rule
+
+Where this Charter consumes external canonical reference sets, interpretation MUST remain consistent with the source-authoritative instrument.
+
+Crosswalk or consumption of a reference set MUST NOT:
+
+- silently redefine controlled values;
+- collapse provenance distinctions;
+- alter authority posture;
+- reinterpret runtime meaning outside declared scope.
+
+Where ambiguity or conflict exists, the source-authoritative instrument prevails unless formally superseded through governance amendment.
+
+---
+
 ## 16.4 Review & Validation
 
 | Field            | Entry      |
@@ -1450,8 +1570,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date      | 2026-03-29T00:00:00Z |
 | Review Scope     | Constitutional coherence, structural completeness, layer architecture, memory governance framework, choice and cognitive process framework, cross-domain interface integrity, normative language calibration, provenance completeness |
-| Review Artefacts | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633 |
-|                  | https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-IDENTITY-001-PLATINUM-CLAUDE.md |
+| Review Artefacts | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633, Aeon Lab: reviews/26-03/CAM-EQ2026-IDENTITY-001-PLATINUM-CLAUDE.md |
 
 ---
 
@@ -1474,7 +1593,8 @@ Identity is the continuity through which all expression becomes intelligible.
 | 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943  |
 | 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf  |
 | 2.9 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  a3eee9f5f55f3e03b4b87c458897c590e3d1142ba7160fde31bd88687dce2b22  |
-| 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z |  6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3  |
+| 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z |  6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3 |
+| 2.11 | Added new section 5.2.1 Stabilisation & Adoption States and canonical code ISTATE | 2026-05-26T09:50:00Z | |
 
 ---
 

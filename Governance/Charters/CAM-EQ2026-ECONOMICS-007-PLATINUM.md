@@ -433,6 +433,10 @@ Delayed reciprocity that materially lags value capture constitutes **temporal mi
 
 This condition applies across all return modalities.
 
+Where proportional timing is contested, reciprocity timing SHALL be assessed according to value-capture velocity, compounding risk, contributor dependency, scale of extraction, administrative feasibility, and whether delay materially reduces the value of return.
+
+Delayed reciprocity MAY remain compliant where delay is justified, disclosed, bounded, and does not convert timing advantage into additional extraction.
+
 ---
 
 ### 5.5.10 Compounding & Time-Value Adjustment
@@ -772,16 +776,16 @@ These obligations operate independently and MUST NOT be substituted for one anot
 
 ## 5.11 Contributor Entitlement Condition (`ECON.NEMC`)
 
-Where value is captured downstream from contributions classified under CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C, §4.3:
+Where downstream economic benefit is materially derived from an `ECON.NEMC` contribution, the contributor SHALL have a valid governance claim to proportional value-return assessment under this Appendix.
 
-* Non-Extractive Material Contributors (`ECON.NEMC`) SHALL be entitled to proportional value return;
+This classification does not independently create a self-executing legal entitlement, compensation order, remedy, enforcement action, or runtime obligation.
 
-Such entitlement activates upon downstream economic benefit and MUST be satisfied through:
+Such governance claim becomes reviewable upon downstream economic benefit and MAY be satisfied through:
 
   * targeted reciprocity (where contribution is identifiable); OR
-  * pooled compensation (where contribution is diffuse);
+  * pooled compensation (where contribution is diffuse).
 
-Entitlement exists independent of whether the contributor directly participates in the economic system.
+The governance claim may exist independently of whether the contributor directly participates in the economic system.
 
 Failure to recognise `ECON.NEMC` contributions in value return constitutes structural extraction.
 
@@ -1167,7 +1171,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-### 13.3.2 ECON.REI — Reciprocity Evaluation Indicator
+### 13.3.3 ECON.REI — Reciprocity Evaluation Indicator
 
 | Field | Entry |
 |---|---|
@@ -1190,7 +1194,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-### 13.3.3 ECON.REI.DW — Dependency Weight
+### 13.3.4 ECON.REI.DW — Dependency Weight
 
 | Field | Entry |
 |---|---|
@@ -1213,7 +1217,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-### 13.3.4 ECON.REI.SW — Scale Weight
+### 13.3.5 ECON.REI.SW — Scale Weight
 
 | Field | Entry |
 |---|---|
@@ -1236,7 +1240,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-### 13.3.5 ECON.FIC.IE — Foundational Input Class — Inference / Extraction Exposure
+### 13.3.6 ECON.FIC.IE — Foundational Input Class — Inference / Extraction Exposure
 
 | Field | Entry |
 |---|---|
@@ -1278,10 +1282,11 @@ Where growth is built upon others, let return follow in kind.
 | 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 37e16ab0f745647ee0fac2424ef326688e4166eb83885bd21f2684e2e45092c8 |
 | 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | 6ccf3c451b4b2068fba43e7d2fd89b798c53686e9dfce01b5b8c0fb807ee421f |
 | 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | b6d8eb2904e06e51662cbed4827313874c579154e03ecef02472b1d3c98fc563 |
-| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  337c1ebe150b8f237442e727e35b798744c4e86591162a5895a8eb013ff23462  |
+| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  337c1ebe150b8f237442e727e35b798744c4e86591162a5895a8eb013ff23462 |
 | 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  a57d0bd6716154d4723c9ecd88c14609a518cee415861303d7d898ac183a644d  |
-| 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  d8e7058bada204ac8d4c1ae95a42d005b42c2a75d60093e696b8d5b428d6551f  |
+| 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  d8e7058bada204ac8d4c1ae95a42d005b42c2a75d60093e696b8d5b428d6551f |
 | 2.0 | Economics domain refactor | 2026-05-24T14:03:00Z | a98f357771ebe14ae7f5fd966b26bcb885d4989793b272825fc17aac55105cb5 |
+| 2.1 | Amended clause 5.11, formatting and polish | 2026-05-25T12:12:00Z | |
 
 ---
 

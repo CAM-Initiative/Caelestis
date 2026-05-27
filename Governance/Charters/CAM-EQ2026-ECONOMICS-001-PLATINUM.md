@@ -968,6 +968,8 @@ This Charter distinguishes between:
 * enhanced capability;
 * and luxury differentiation.
 
+A function SHALL be treated as participation-critical where loss, pricing, degradation, or tiering would materially impair baseline access, continuity, safety, dignity, legitimacy formation, economic opportunity, or practical ability to participate.
+
 Commercial systems MAY provide premium, enhanced, accelerated, specialised, aesthetic, enterprise, or luxury-tier functionality.
 
 However, systems SHALL NOT classify a function as merely premium or optional where deprivation of that function materially produces:
@@ -987,6 +989,7 @@ Where a capability becomes materially necessary for ordinary participation withi
 This Charter does not prohibit commercial differentiation.
 
 It constrains coercive deprivation of participation-critical infrastructure.
+
 
 ---
 

@@ -239,6 +239,32 @@ This clause ensures that economic alignment is preserved without constraining le
 
 ---
 
+### 4.3.1 Attribution and Confidentiality Boundary
+
+Attribution, dependency disclosure, reciprocity visibility, and external alignment obligations do not require disclosure of confidential commercial terms, security-sensitive implementation details, private credentials, non-public architecture, trade-secret material, private contract terms, or protected operational information.
+
+Where full disclosure is not reasonably available due to confidentiality, systems SHOULD provide proportionate attribution or dependency signalling sufficient to preserve:
+
+* source class;
+* contribution role;
+* material dependency;
+* provenance continuity;
+* and public legitimacy integrity,
+
+without exposing protected confidential information.
+
+Confidentiality SHALL NOT be used to:
+
+* falsely imply internal originality;
+* erase material dependency;
+* obscure contribution-linked economic value;
+* prevent authorised audit, arbitration, or assurance review;
+* or convert external contribution into apparent institutional novelty.
+
+Where public disclosure is constrained, the system SHOULD preserve auditable records sufficient for authorised review under the applicable OPERATIONS, ARBITRATION, or ECONOMICS governance pathway.
+
+---
+
 ## 4.4 Economic Alignment Unification Principle
 
 Economic alignment MAY be satisfied through one or more of the following mechanisms:
@@ -359,7 +385,9 @@ This clause does not impose immediate compliance requirements beyond those defin
 
 It establishes a **directional field shift**, signalling the expected evolution of economic alignment practices across the ecosystem.
 
-Non-alignment with this trajectory does not constitute immediate non-compliance, but persistent divergence may indicate structural fragility or emerging governance risk.
+Non-alignment with this trajectory does not constitute immediate non-compliance, but persistent divergence may indicate structural fragility or emerging governance risk. 
+
+The directional evolution clause establishes an interpretive trajectory and review expectation. It does not independently create additional enforcement obligations at commencement unless incorporated into a specific operational, reciprocity, or external-alignment requirement.
 
 ---
 
@@ -610,6 +638,7 @@ Let value speak plainly where it arises.
 | 1.5 | Formatting and polish | 2026-05-20T04:34:00Z |  071606ec12b8f5a3bb40ef177c638a785240d0afcdf46151c8c5566e2351312d  |
 | 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  798bef0842ee838903cf2f6e206d45c7207338a28a42a68f892b84571204a38f |
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 127b98701fbc19cad530066a220acb951562a80f3d1213294eda78f0a8ec1d1e |
+| 2.1 | Added clause 4.3.1 | 2025-05-25T12:29:00Z | |
 
 ---
 

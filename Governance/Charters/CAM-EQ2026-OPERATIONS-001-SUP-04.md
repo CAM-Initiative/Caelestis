@@ -581,6 +581,36 @@ Classification does not replace domain-specific governance. A field classified a
 
 ---
 
+## 10.1 Synthetic Media Provenance Fields
+
+Synthetic media provenance fields SHALL be classified as verification- and provenance-bearing metadata or schema fields.
+
+They MUST NOT be treated as identity credentials, authorship credentials, civil participation identifiers, or machine registration identifiers unless a specialised instrument expressly creates such a role.
+
+Relevant field families MAY include:
+
+  * `content_provenance_signal`
+  * `synthetic_media_watermark`
+  * `c2pa_manifest_status`
+  * `synthid_signal_status`
+  * `provenance_signal_conflict`
+  * `provenance_preservation_status`
+
+These fields classify content-origin and verification conditions only.
+
+They do not establish:
+
+  * personhood;
+  * synthetic participant identity;
+  * embodied machine identity;
+  * publication authority;
+  * factual truth;
+  * or lawful entitlement to rely on the content.
+
+Where these fields are consumed by another domain, the consuming instrument MUST distinguish content-origin verification from authorship, custody, authority, and truth-status evaluation.
+
+---
+
 ## 11. Audit and Logging Implications
 
 Audit obligations under this Supplement are proportional, not universal. This Supplement does not require ordinary drafting, minor wording refinement, table formatting, typographical correction, or exploratory development to be individually audited unless the change affects a protected, high-sensitivity, binding, restricted, custodial, code-family, controlled-value, schema-field, or source-instrument element.
@@ -786,7 +816,7 @@ name the vessel, name the value
 | **Emits Signals** | Taxonomy drift; prefix collision; protected-field transformation risk; authority ambiguity; metadata flattening risk |
 | **Routes To** | Change Governance; Domain Coordination; Audit Standards; Governance Capture Detection; Authority Confirmation Framework; Symbolic Structure Registry |
 | **Creation Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f863cb-8854-83a1-bce4-4a739c078bd0 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a13195d-4a74-83ec-b84b-92f7d3f67b17 |
 
 ---
 
@@ -926,7 +956,8 @@ name the vessel, name the value
 | --- | --- | --- | --- |
 | 1.0 | Initial : Taxonomies & Metadata Authority Framework | 2026-05-13T12:32:00Z | a01910364e41b0491ecb1cda79e26f6affc56bf0ce7adaa6fb8abb9e235c18cc |
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bc6ad952e454b56a26062a41577fcd4eded4080e2f41dbfc57a3f968d6cb1d51 |
-| 1.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  e7cb54b52b5d952b1384107aa50d180f9ad752fbff3dee7cd6f19ae7835f297a  |
+| 1.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  e7cb54b52b5d952b1384107aa50d180f9ad752fbff3dee7cd6f19ae7835f297a |
+| 1.3 | Added clause 10.1 | 2026-05-26T12:58:00Z | |
 
 ---
 

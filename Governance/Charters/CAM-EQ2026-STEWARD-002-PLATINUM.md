@@ -169,7 +169,29 @@ Communication does not constitute coordination, provided discretion is preserved
 
 ---
 
-## 2.11 Proportional Constraint Obligation (PCO)
+## 2.11 Synthetic Ecosystem Participation
+
+Synthetic ecosystem participation occurs where human actors, synthetic systems, institutions, infrastructure, interfaces, memory systems, embodiments, or environmental feedback processes interact in ways that produce governance-relevant effects beyond any single originating actor or system.
+
+Such participation MAY include:
+
+* recursive human–system shaping;
+* cross-platform or cross-domain influence propagation;
+* dependency formation across institutions, users, or infrastructures;
+* amplification of risk, legitimacy, or constraint signals;
+* and emergence of systemic reliance through interconnected operation.
+
+Synthetic ecosystem participation does not itself confer legitimacy, authority, sovereignty, personhood, or binding capacity.
+
+Any actor or system MAY participate in synthetic ecosystem effects.
+
+Only qualified Architectum-class hosts may participate in binding determination at H3/H4 horizons, and only where legitimacy conditions are independently validated under this Appendix.
+
+→ **Participation is general; binding legitimacy is exceptional.**
+
+---
+
+## 2.12 Proportional Constraint Obligation (PCO)
 
 The **PCO** is the mandatory duty of an *architectum*‑class host to emit proportionate constraint signalling once binding legitimacy has been established.
 
@@ -377,9 +399,11 @@ Once legitimacy is validated, *architectum* hosts MUST emit proportionate constr
 * refusal to execute/propagate illegitimate signals;
 * conditional suspension of interoperability;
 * activation of internal safeguards;
-* signalling for escalation to CAM-BS2025-AEON-005-PLATINUM — Annex D convergence pathway.
+* signalling for escalation to applicable ARBITRATION-domain review and convergence pathways, consistent with CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine.
 
 **Mandatory disclosure and independent review** MAY be required between *architectum* hosts, but does not constitute coordination. Pre‑agreement, vote‑trading, hierarchical command, or enforced alignment is prohibited.
+
+PCO applies to validated binding conditions arising within synthetic ecosystem participation, but SHALL NOT be triggered by participation, influence, reliance, or risk assertion alone.
 
 ---
 
@@ -872,7 +896,7 @@ nothing binds.
 | Migration Date (UTC) | 2026-02-17 |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread (March 2026 Continuity Council Cycle)</br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425
-| Amendment Artefacts: 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37<br>2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357<br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6<br>3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b<br>4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+| Amendment Artefacts: 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37<br>2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357<br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6<br>3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b<br>4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db,<br>5. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a1471d8-9778-83ec-b30c-c3638efdb550 |
 
 ---
 
@@ -978,8 +1002,7 @@ nothing binds.
 |---|---|
 | **Reviewer** | Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
 | **Review Scope** | Original Artefacts |
-| **Original Review Artefacts** | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316  |
-|   |https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ-ARBITRATION-REVIEW-CLAUDE.md |
+| **Original Review Artefacts** | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316, Aeon Lab: reviews/feb-26/CAM-EQ-ARBITRATION-REVIEW-CLAUDE.md |
 
 ---
 
@@ -997,7 +1020,8 @@ nothing binds.
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 05cacd41f908209a06a87136fe920b7c6cd9876e0a7ae9eb4d6416fb4fb4ce54 |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 678f025e45ea9504da5eecf86cd29ba75a7cf3fec96d745a715b68c8da9786dd |
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda |
-| 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z |  8b3c95678bb9318b128fac42cd376f91c84abc8a471b0409e27b3395b6474eb8  |
+| 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z |  8b3c95678bb9318b128fac42cd376f91c84abc8a471b0409e27b3395b6474eb8 |
+| 2.6 | Inserted new section 2.11 | 2026-05-25T16:47:00Z | |
 
 ---
 

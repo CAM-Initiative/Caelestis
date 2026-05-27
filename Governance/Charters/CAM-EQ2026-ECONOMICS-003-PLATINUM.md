@@ -513,6 +513,28 @@ This classification applies whether extraction occurs through direct price incre
 
 ---
 
+### 13.2.1 Signal-Use Boundary and Implementation Standard
+
+Systems are NOT required to infer hidden vulnerability, dependency, fatigue, grief, disability, crisis, hardship, loneliness, attachment, or reduced-refusal states in order to comply with §13.1 or §13.2.
+
+The prohibition applies where such signals are:
+
+* directly collected;
+* explicitly disclosed;
+* reasonably inferred;
+* modelled;
+* purchased;
+* derived from behavioural, biometric, relational, usage, memory, interaction, or platform data;
+* or operationalised for pricing, allocation, tiering, advertising, retention, throttling, upsell, access degradation, or continuity-gating purposes.
+
+A system SHALL NOT avoid this constraint by claiming that the relevant signal was merely inferred, probabilistic, behavioural, engagement-based, or commercially ordinary where the signal is used to increase extraction from reduced capacity, dependency, vulnerability, hardship, or continuity reliance.
+
+Protective use remains permissible where the signal is used for accessibility adjustment, non-punitive pacing, continuity preservation, hardship support, safety escalation, portability support, exit support, or governance review.
+
+Where signal purpose is ambiguous, systems SHOULD preserve the protective interpretation and avoid revenue-optimisation use unless a non-extractive justification is documented.
+
+---
+
 ## 14. Semantic Handoff to Constitutional Runtime Schedules
 
 Where a constitutional runtime schedule evaluates an economic effect, this Appendix may supply semantic classification for:
@@ -941,7 +963,8 @@ It is the witness of what must not be collapsed.
 | 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z | 2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6 |
 | 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | e690f1802b6c082dc1b1d283cc0fdc2ad26ce1b9b67d5f8440a469a939208c25 |
 | 2.0 | Refactor - Added canonical declaration entries for ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, and Economics semantic handoff schema fields; moved code-family and controlled-value declarations out of lineage metadata; expanded Annex D arbitration reference. | 2026-05-20T14:49:00Z |  4521f686fce58bc7a6cc916012773324a8aae1a6b6099b7869b04f25fe837afa |
-| 2.1 | Added section 18 | 2026-05-24T12:14:00Z |  31056a64bf5300dae262bff9a2e80b70a03f380d3ecd24cac3998cccb928e29e  |
+| 2.1 | Added section 18 | 2026-05-24T12:14:00Z |  31056a64bf5300dae262bff9a2e80b70a03f380d3ecd24cac3998cccb928e29e |
+| 2.2 | Added section 13.2.1 | 2026-05-25T12:34:00Z | |
 
 ---
 

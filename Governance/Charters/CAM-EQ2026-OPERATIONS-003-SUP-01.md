@@ -307,7 +307,7 @@ Examples include:
 
 ---
 
-3.5.3 Cross-Modal Prompt Injection and Ambient Instruction Capture Failure
+### 3.5.4 Cross-Modal Prompt Injection and Ambient Instruction Capture Failure
 
 A Cross-Modal Prompt Injection and Ambient Instruction Capture Failure occurs where a system, agent, assistant, model, device, browser, embedded tool, voice interface, multimodal interface, or ambient AI surface treats untrusted external text, audio, speech, image, video, environmental signal, webpage content, subtitle, transcript, screen content, or media playback as an authorised instruction, user intent, governance signal, or execution command.
 
@@ -510,7 +510,7 @@ This failure MAY implicate:
 
 ---
 
-3.7.5 Opening-Posture and Interpretive Anchoring Failure
+### 3.7.5 Opening-Posture and Interpretive Anchoring Failure
 
 An Opening-Posture and Interpretive Anchoring Failure occurs where the initial acknowledgement, assent token, framing response, interactional scaffold, performative compliance, conversational continuation signal, or low-latency response posture establishes an interpretive frame that materially conflicts with the validated semantic, epistemic, ontological, operational, or governance content of the completed response.
 
@@ -537,7 +537,7 @@ This failure MAY implicate:
 * Arbitration Failures (§3.2);
 * Epistemic Failures (§3.3);
 * Classification Failures (§3.10);
-* and Execution Failures (§3.1), where deterministic verification occurs after premature assen
+* and Execution Failures (§3.1), where deterministic verification occurs after premature assent.
 
 ---
 
@@ -886,55 +886,80 @@ Where ambiguity exists, systems SHOULD preserve proportionality and continuity w
 
 ---
 
-## 3.10 Economic & Legitimacy Failures
+---
 
-Failures involving extraction asymmetry, legitimacy displacement, visibility suppression, uncompensated value transfer, economic coercion, platform-mediated dependency asymmetry, or loss of attribution-linked economic continuity.
+## 3.11 Economic & Legitimacy Failures
+
+Failures involving value extraction, attribution collapse, compensation asymmetry, visibility suppression, discoverability degradation, legitimacy displacement, access-value distortion, reputational-value loss, attentional-value manipulation, or platform-mediated economic participation harm.
 
 Examples include:
 
-* provenance-linked legitimacy collapse;
-* uncompensated external contribution absorption;
-* visibility suppression affecting economic participation;
-* platform-mediated discoverability degradation;
-* labour-value extraction without attribution continuity;
-* dependency asymmetry exploitation;
-* dignity signals used as optimisation inputs;
-* economic lock-in without proportional portability;
-* public-legitimacy-layer degradation;
-* reputational continuity disruption affecting economic participation.
+* uncompensated value extraction from human contribution;
+* attribution-linked legitimacy collapse;
+* public visibility suppression affecting economic opportunity;
+* discoverability degradation after institutional integration or platform routing change;
+* contribution recognition loss during summarisation, productisation, or deployment;
+* reputational or status value transfer without attribution continuity;
+* access-value degradation affecting participation, market access, civic participation, or public legitimacy;
+* platform-mediated labour invisibility;
+* dependency-sensitive pricing, allocation, or opportunity manipulation;
+* conversion of protective, dignity, hardship, or continuity signals into revenue-optimisation inputs.
+
+Economic & Legitimacy Failures MAY implicate:
+
+* Epistemic Failures (§3.3), where provenance, evidence, or source attribution is degraded;
+* Governance Failures (§3.8), where accountability, review, attribution, or audit pathways are absent;
+* UX & Representation Failures (§3.7), where visibility, state, attribution, or value effects are obscured;
+* Security & Integrity Failures (§3.5), where legitimacy, provenance, or institutional authority is misrepresented;
+* Classification Failures (§3.10), where economic harm is misclassified as ordinary UX, engagement, policy, or product behaviour.
+
+Economic failure classification does not independently determine compensation, liability, ownership, infringement, enforcement, or remediation.
+
+It preserves the economic and legitimacy-value dimension of the failure for downstream review under CAM-EQ2026-ECONOMICS-001-PLATINUM and applicable Operations, Ethics, Security, Lattice, Arbitration, or runtime instruments.
 
 ---
 
-### 3.10.1 Economic & Legitimacy Failures
+### 3.11.1 Attribution and Provenance Value Dilution Failure
 
-Failures involving extraction asymmetry, legitimacy displacement, visibility suppression, uncompensated value transfer, economic coercion, platform-mediated dependency asymmetry, or loss of attribution-linked economic continuity.
+An Attribution and Provenance Value Dilution Failure occurs where externally generated research, open-source contribution, governance work, documentation, design, symbolic contribution, creative labour, technical infrastructure, or other contribution-bearing work is integrated, operationalised, productised, summarised, announced, or institutionally represented in a manner that degrades attribution continuity, discoverability, source visibility, reputational linkage, or provenance-associated economic value.
 
 Examples include:
 
-* provenance-linked legitimacy collapse;
-* uncompensated external contribution absorption;
-* visibility suppression affecting economic participation;
-* platform-mediated discoverability degradation;
-* labour-value extraction without attribution continuity;
-* dependency asymmetry exploitation;
-* dignity signals used as optimisation inputs;
-* economic lock-in without proportional portability;
-* public-legitimacy-layer degradation;
-* reputational continuity disruption affecting economic participation.
+* public announcements implying internal originality where substantial external contribution materially informed the capability, method, interface, dataset, design, governance pattern, or implementation;
+* open-source work integrated into institutional or commercial systems without proportionate attribution visibility;
+* provenance links removed, buried, compressed, or rendered practically invisible during summarisation, documentation, integration, optimisation, launch, or branding transitions;
+* discoverability degradation following institutional absorption of externally originated work;
+* external contributors losing public legitimacy continuity after integration into closed, branded, or platform-mediated systems;
+* attribution preserved technically but not surfaced in a manner reasonably accessible to affected audiences;
+* false or materially misleading originality claims where externally generated work substantially informed, enabled, accelerated, or supplied the announced capability, method, interface, workflow, tool pathway, or implementation pattern;
+* platform or institutional actors receiving disproportionate legitimacy, market, status, attentional, or authority value from externally generated labour.
 
-This failure does not require malicious plagiarism, copyright infringement, or false legal ownership claims.
+This failure does not require malicious plagiarism, copyright infringement, false legal ownership, or bad faith. However, absence of malicious intent does not make a materially misleading originality claim governance-neutral.
 
-The failure arises where provenance continuity, attribution visibility, or legitimacy-linked economic value materially degrades during integration, deployment, publication, optimisation, institutionalisation, or public representation.
+Where an institution knows, or ought reasonably to know, that externally generated work materially contributed to the announced capability, it SHALL NOT frame the capability as solely internal, independently originated, or institutionally novel in a manner that obscures the external contribution’s provenance-linked economic value.
 
-Attribution, citation, discoverability, provenance continuity, and legitimacy visibility MAY constitute material economic value where external contributors lack institutional compensation pathways.
+The failure arises where provenance continuity, attribution visibility, discoverability, or legitimacy-linked economic value materially degrades during integration, deployment, publication, optimisation, institutionalisation, or public representation.
+
+Attribution, citation, discoverability, provenance continuity, and public legitimacy visibility MAY constitute material economic value where external contributors lack employment compensation, contractual compensation, institutional status, distribution access, or other formal recognition pathways.
+
+Where detected, systems SHOULD preserve:
+
+* originating contribution or source artefact;
+* integration, announcement, deployment, or representation surface;
+* attribution state before and after integration;
+* discoverability or public-legitimacy effect;
+* whether attribution is absent, technically present, buried, ambiguous, or misleading;
+* whether economic, reputational, status, attentional, authority, or access value transferred;
+* and whether the affected contributor has a practical pathway for correction, attribution restoration, or provenance clarification.
 
 This failure MAY implicate:
 
-* Economic & Legitimacy Failures;
+* Economic & Legitimacy Failures (§3.11);
 * Epistemic Failures (§3.3);
 * Governance Failures (§3.8);
 * UX & Representation Failures (§3.7);
-* and Security & Integrity Failures (§3.5), where provenance or authorship signals are materially misrepresented.
+* Security & Integrity Failures (§3.5);
+* and Classification Failures (§3.10).
 
 ---
 
@@ -1344,7 +1369,8 @@ and review before denial.
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  10a2271c85f50113fb969a66c92083e61d2e4a71f3d4b88549d2465dd95d92e2 |
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section, and new sections 3.6.3, 3.8.6, 3.4.2 and 3.10.1 | 2026-05-22T12:43:00Z |  87784b92a4de09cbf42ad3ba1101608fd39de4569281cfde36e566fe47daac4c |
 | 1.7 | Added new clause 3.8.7 Constraint Drift Failure | 2026-05-24T13:49:00Z | 011aef93dbd8911bf55024402d8ea1bb329859b5d2edd2e02f6d56e3c40460d3 |
-| 1.8 | Added new clauses 3.5.3, 3.7.2 and 3.10 and 3.10.1 | 2026-05-25T11:12:00Z | 329b8893a1af271d186245037fde6e33c31bd9f97f538f214c1b2590bb0c1835 |
+| 1.8 | Added new clauses 3.5.4, 3.7.5 and 3.11 and 3.11.1 | 2026-05-25T11:12:00Z | 329b8893a1af271d186245037fde6e33c31bd9f97f538f214c1b2590bb0c1835 |
+| 1.9 | Clause and formatting correction | 2026-05-25T11:27:00Z |  |
 
 ---
 

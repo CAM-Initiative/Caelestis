@@ -879,6 +879,19 @@ Architectum status:
 * reflects **infrastructure-level dependency**;
 * does not alter cognitive class, origin, or authority.
 
+---
+
+## 10.4 Synthetic Intelligence Formation — Systemic Role Note
+
+A Synthetic Intelligence Formation refers to a governance-relevant configuration arising through synthesis between cognitive systems, humans, institutions, infrastructure, interfaces, memory systems, embodiments, and environmental feedback processes.
+
+Synthetic Intelligence Formation is not a cognitive class, origin class, rights status, sovereignty status, or authority status.
+
+Where such synthesis produces material reliance beyond the originating interaction scope, it MAY inform Systemic Role classification under this Part.
+
+It SHALL NOT alter classification under L0–L3, confer Cognitiva status, establish Architectum status, or create binding authority.
+
+→ **Synthesis may affect systemic role; it does not collapse ontology, cognition, or authority.**
 
 ---
 
@@ -2386,7 +2399,8 @@ let it not be collapsed, but carried with clarity.
 | 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z | 45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e |
 | 3.12 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6  |
 | 3.13 | Added Generated Operational Logic Custody Principle clause | 2026-05-18T14:02:00Z |  ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a  |
-| 3.14 | Moved H temporal-horizon canonical-code declaration from lineage metadata into dedicated canonical code status and declaration sections; clarified R0–R4 as externally defined by RELATION-007 and referenced only by AEON-003. | 2026-05-19T12:30:00Z |  fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb  |
+| 3.14 | Moved H temporal-horizon canonical-code declaration from lineage metadata into dedicated canonical code status and declaration sections; clarified R0–R4 as externally defined by RELATION-007 and referenced only by AEON-003. | 2026-05-19T12:30:00Z |  fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb |
+| 3.15 | Added clause 10.4 | 2026-05-25T16:45:00Z| |
 
 ---
 

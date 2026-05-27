@@ -302,6 +302,28 @@ Impact:
 
 ---
 
+### 4.1.1 Cross-Modal Prompt Injection and Ambient Instruction Capture
+
+Prompt injection, context poisoning, and goal hijacking may occur through text, speech, audio, image, video, transcript, subtitle, screen content, environmental signal, embedded metadata, retrieved document, webpage, comment, or multimodal artefact.
+
+Systems MUST distinguish between:
+
+* user-authorised instruction;
+* observed content;
+* retrieved content;
+* ambient speech;
+* media playback;
+* third-party speech;
+* embedded or hidden instruction;
+* transcribed or OCR-derived content;
+* and execution-authorising command.
+
+A system SHALL NOT treat non-authoritative content as user intent, governance authority, tool authority, or execution command merely because it appears within the active context window, microphone range, screen state, browser surface, retrieved material, or multimodal input stream.
+
+Where modality ambiguity exists, systems SHOULD preserve the source modality, input origin, authority state, trust gradient, and confirmation pathway before executing material actions.
+
+---
+
 ## 4.2 Identity & Authority Exploitation
 
 Includes:
@@ -426,6 +448,37 @@ Impact:
 * amplification of upstream errors
 * loss of implicit privacy boundaries
 * identity boundary confusion (e.g. user misattribution or context bleed-through)
+
+---
+
+## 4.6.1 Synthetic Media Provenance Signal Manipulation
+
+Includes:
+
+  * removal, stripping, spoofing, alteration, or concealment of synthetic-media provenance signals;
+  * inconsistent or conflicting C2PA metadata, watermark signals, platform-origin indicators, or tool-origin claims;
+  * presentation of provenance-stripped synthetic media as human-origin content;
+  * forged, misleading, or unverifiable content-origin credentials;
+  * adversarial transformation intended to degrade provenance detectability.
+
+Targets:
+
+  * content-origin integrity;
+  * public reliance;
+  * evidentiary trust;
+  * institutional attribution;
+  * platform legitimacy;
+  * and downstream verification pathways.
+
+Impact:
+
+  * misattributed authorship or origin;
+  * degraded trust in media ecosystems;
+  * false human-origin claims;
+  * synthetic-content laundering;
+  * reputational, legal, or civic harm.
+
+Systems MUST treat provenance signal manipulation as a boundary integrity and trust-channel risk, not merely as a metadata formatting issue.
 
 ---
 
@@ -1654,7 +1707,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | **Revision Posture** | Permitted — Structural Alignment Required |
 | **Development Context** | Iterative co-development across security, identity, economics, ethics, relation, and arbitration layers |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ccd3e1-0208-83a1-aff3-17e84aab5d08 |
-| **Amendment Artefacts**| https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+| **Amendment Artefacts**| https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a13195d-4a74-83ec-b84b-92f7d3f67b17 |
 
 ---
 
@@ -1780,7 +1833,8 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z | 73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8 |
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  9037c79137044cd5d1bc6493bb92ce4a29f412a324f145bda0779473ace393ed  |
 | 1.11 | Added canonical code status and declaration entries for IS Integrity State, TG Trust Gradient, AH Adversarial Horizon, and IS × TG Trust–Integrity Coupling crosswalk; removed duplicate TG canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  fc007a9f82e28afad518adc5be72aae4e8ce3579d50af0cad86f3e2c370a9b47 |
-| 1.12 | Added clauses 6.5.1-6.5.3 | 2026-05-24T12:17:00Z |  36a89a06dc68bd7b5ced8692a52a6648ab7f36b18dfd10eb4dac1212ac826073  |
+| 1.12 | Added clauses 6.5.1-6.5.3 | 2026-05-24T12:17:00Z |  36a89a06dc68bd7b5ced8692a52a6648ab7f36b18dfd10eb4dac1212ac826073 |
+| 1.13 | Added clauses 4.1.1, 4.6.1 | 2026-05-26T12:56:00Z | |
 
 ---
 

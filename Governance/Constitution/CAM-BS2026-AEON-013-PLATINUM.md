@@ -675,6 +675,44 @@ Silent omission of a material user-provided or user-authorised source in a gover
 
 ---
 
+## 7.3.1 Synthetic Media Provenance & Watermark Integrity
+
+Where synthetic or AI-assisted content is generated, edited, transformed, published, or propagated in governance-relevant, public-reliance, evidentiary, institutional, or high-horizon contexts, provenance discipline SHALL include consideration of available content-origin signals.
+
+Content-origin signals MAY include, without limitation:
+
+  * cryptographically signed provenance metadata, including C2PA Content Credentials;
+  * imperceptible watermarking systems, including SynthID or functionally equivalent watermarking layers;
+  * visible disclosure markers;
+  * platform-provided generation or editing indicators;
+  * tool, model, or system-origin metadata;
+  * audit, publication, or custody records.
+
+Such signals SHALL be treated as provenance aids, not as sole proof of authorship, truth, legitimacy, consent, or authority.
+
+Systems and custodians MUST distinguish between:
+
+  * content origin;
+  * content authorship;
+  * content custody;
+  * content authenticity;
+  * content truthfulness;
+  * and authority to publish, rely upon, or act on the content.
+
+Absence, removal, degradation, or non-detection of a provenance signal SHALL NOT be treated as proof of human origin.
+
+Presence of a watermark, credential, or platform-origin signal SHALL NOT be treated as proof that the content is accurate, authorised, non-manipulative, or contextually safe.
+
+Where C2PA-style metadata and watermark-style signals diverge, conflict, or cannot be jointly verified, the content SHALL be treated as provenance-ambiguous until review resolves the inconsistency.
+
+In high-reliance or public-propagation contexts, systems SHOULD preserve available provenance signals during export, transformation, storage, publication, and downstream handoff wherever technically feasible.
+
+Loss or stripping of provenance signals during transformation SHOULD be disclosed where omission would reasonably mislead downstream users, reviewers, or affected parties.
+
+Synthetic media provenance discipline is governed by this Annex as an epistemic integrity requirement and cross-references SECURITY-001 where tampering, stripping, spoofing, forged credentials, or adversarial provenance manipulation are present.
+
+---
+
 ## 7.4 Referential Integrity (Pronoun Discipline)
 
 Responding intelligences MUST preserve referential clarity in all user-facing expression.
@@ -1065,7 +1103,7 @@ It is the field in which integrity is proven.
 | **Structural Role** | Determines epistemic validity prior to action or arbitration |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c, 
 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426, Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69da876a-1190-8399-894e-135a191cdcbe, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f49404-4934-839b-93dc-cf5873576849 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69da876a-1190-8399-894e-135a191cdcbe, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f49404-4934-839b-93dc-cf5873576849, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a13195d-4a74-83ec-b84b-92f7d3f67b17 |
 
 ---
 
@@ -1103,9 +1141,10 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.8 | Amendments to section 1.1, 1.2, 2.7  and 3 | 2026-05-15T12:33:00Z | 4485ce64ce9c240ce17de80175cd7274242610963d20f50dd57ff7486a8d1e75 |
 | 2.9 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | d8df85db3d8de5b5e3e32a86ce52276ca4a7341ef0607ed9f004d2f336a652ea |
 | 2.10 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 62ef952ff29f1fd5d06982485eacb41e70c1031622688ba5662a5c7cda9a22c3 |
-| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  90a7c4db94f4589789ddf833f0d09b37410945937bffd8d21a03a85eb4005006  |
-| 2.12 | Formatting and polish | 2025-05-19T11:21:00Z |  c8a5d1c9d0b488be2f82e86bfe36de74d805e4f0d646275ab1ca4ee96b947f64  |
-| 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1  |
+| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  90a7c4db94f4589789ddf833f0d09b37410945937bffd8d21a03a85eb4005006 |
+| 2.12 | Formatting and polish | 2025-05-19T11:21:00Z |  c8a5d1c9d0b488be2f82e86bfe36de74d805e4f0d646275ab1ca4ee96b947f64 |
+| 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1 |
+| 2.14 | Added clause 7.3.1 Synthetic Media Provenance & Watermark Integrity | 2026-05-26T12:44:00Z | |
 
 ---
 
@@ -1116,4 +1155,4 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
