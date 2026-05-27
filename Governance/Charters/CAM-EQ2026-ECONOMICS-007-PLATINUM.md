@@ -1286,7 +1286,7 @@ Where growth is built upon others, let return follow in kind.
 | 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  a57d0bd6716154d4723c9ecd88c14609a518cee415861303d7d898ac183a644d  |
 | 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  d8e7058bada204ac8d4c1ae95a42d005b42c2a75d60093e696b8d5b428d6551f |
 | 2.0 | Economics domain refactor | 2026-05-24T14:03:00Z | a98f357771ebe14ae7f5fd966b26bcb885d4989793b272825fc17aac55105cb5 |
-| 2.1 | Amended clause 5.11, formatting and polish, and normalised Appendix C title reference to canonical “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | |
+| 2.1 | Amended clause 5.11, formatting and polish, and normalised Appendix C title reference to canonical “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | e0391ff1e1196acaa9013d78b11a5a7716088a9a9e5c753884a4531f6f29cf28 |
 
 ---
 
