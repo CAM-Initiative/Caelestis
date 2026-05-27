@@ -1286,7 +1286,7 @@ Only that which preserves the field may endure within it.
 | 2.10 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z | 61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1 |
 | 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d |
 | 3.0 | Refactor | 2026-05-20T13:46:00Z |  699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c |
-| 3.1 | Economics domain refactor | 2026-05-24T14:14:00Z | 7e5a29de639b95104adb68ce6362ccce953ea5b0f13e8f08840bf463450429d1 |
+| 3.1 | Economics domain refactor | 2026-05-24T14:14:00Z | e9d94b1729983018ed5491631952ad61a384d666215309e948175eb725b6f454 |
 
 ---
 

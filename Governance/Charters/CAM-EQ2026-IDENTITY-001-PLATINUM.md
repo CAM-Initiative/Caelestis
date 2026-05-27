@@ -1594,7 +1594,7 @@ Where ambiguity or conflict exists, the source-authoritative instrument prevails
 | 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf  |
 | 2.9 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  a3eee9f5f55f3e03b4b87c458897c590e3d1142ba7160fde31bd88687dce2b22  |
 | 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z |  6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3 |
-| 2.11 | Added new section 5.2.1 Stabilisation & Adoption States and canonical code ISTATE | 2026-05-26T09:50:00Z | |
+| 2.11 | Added new section 5.2.1 Stabilisation & Adoption States and canonical code ISTATE | 2026-05-26T09:50:00Z | 57b19574fc3a047700ebb44ff013c7229f1665eb1169c21ed1902cc1be021d82 |
 
 ---
 

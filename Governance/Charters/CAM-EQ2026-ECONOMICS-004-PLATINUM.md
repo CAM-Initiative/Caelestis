@@ -1577,7 +1577,7 @@ Source Section | §3.3|
 | 1.5 | Refactor | 2026-05-20T04:34:00Z |  6822c4a7d76bb32d0a0fd3d0c25898a5f92bc39d434179255e97fb2a22552734 |
 | 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  c4bf97703a21b802b5e302eac50fa65c70a3bec1475ec32d24b5e04e98dc68f5 |
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 5423e626a1632022c3b065bf07695e496df476398d3f2110e91f04992137b9b9 |
-| 2.1 | Added clause 5.1.3 and 5.1.3.1 | 2026-05-25T11:54:00Z |  |
+| 2.1 | Added clause 5.1.3 and 5.1.3.1 | 2026-05-25T11:54:00Z |  bf22082d47612d035238a65dad2dff2d7511638e79af6b7f0db6d7ec1731c121  |
 
 ---
 
