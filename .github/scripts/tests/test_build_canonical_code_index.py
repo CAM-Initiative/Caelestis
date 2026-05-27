@@ -38,6 +38,7 @@ def test_single_letter_and_two_letter_code_family_and_controlled_values(tmp_path
     rows = cc.scan(tmp_path/'Governance')
     assert [r.code_family for r in rows] == ['I', 'CA']
     assert rows[0].controlled_values_defined == ['I0', 'I1', 'I2', 'I3', 'I4']
+    assert rows[0].family_kind == 'legacy_global_family'
 
 
 def test_no_false_positives_from_body_tables(tmp_path):
@@ -65,3 +66,12 @@ def test_conflicting_primary_type_for_same_code_family(tmp_path):
     w(tmp_path/'Governance'/'B.md', '## Canonical Code & Reference Set Declarations\n### H\n' + decl('I', primary='Operational'))
     errs = cc.validate(cc.scan(tmp_path/'Governance'))
     assert any('Conflicting Primary Type for Code Family I' in e for e in errs)
+
+
+def test_heading_subfamily_promoted_from_parent_code_family(tmp_path):
+    f = tmp_path/'Governance'/'A.md'
+    w(f, '## Canonical Code & Reference Set Declarations\n### 13.3.4 ECON.REI.DW — Dependency Weight\n' + decl('ECON.REI'))
+    row = cc.scan(tmp_path/'Governance')[0]
+    assert row.family_id == 'ECON.REI.DW'
+    assert row.parent_family == 'ECON.REI'
+    assert row.family_kind == 'subfamily'

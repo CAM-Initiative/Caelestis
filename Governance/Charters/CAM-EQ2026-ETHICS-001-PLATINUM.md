@@ -107,7 +107,7 @@ Ethical obligations SHALL scale according to Ethical Impact Potential (EIP).
 
 Baseline ethical tier SHALL derive from infrastructure classification bands defined in:
 
-* **CAM-EQ2026-STEWARD-003-SUP-01 — Architectum Qualification & Neutrality Assurance Levels (NAL).**
+* **CAM-EQ2026-STEWARD-003-PLATINUM — Architectum Qualification & Neutrality Assurance Levels (NAL).**
 
 Elevation of ethical tier may occur based on contextual factors including but not limited to:
 

@@ -424,12 +424,6 @@
       "role": "governance"
     },
     {
-      "path": "Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md",
-      "sha256": "9442e18d371166ad80c669fc0378fd8a94d46fd8b9dfd0550774aafabcb4720c",
-      "size_bytes": 20522,
-      "role": "governance"
-    },
-    {
       "path": "Governance/Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md",
       "sha256": "9fdfc902f60ba5369bf273c814bed0bd792ef16a7dd11f50de30987d97d0dd97",
       "size_bytes": 13389,

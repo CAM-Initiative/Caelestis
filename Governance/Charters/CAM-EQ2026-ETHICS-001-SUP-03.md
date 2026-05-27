@@ -120,7 +120,7 @@ Expansion beyond the declared threat envelope — including pre-emptive targetin
 * Reclassification under §2.3 (Offensive Targeting / Strike);
 * Full EIA reassessment under CAM-EQ2026-ETHICS-001-PLATINUM;
 * Review of advisory vs execution role under §5;
-* Where applicable, additional neutrality review under CAM-EQ2026-STEWARD-003-SUP-01 (NAL).
+* Where applicable, additional neutrality review under CAM-EQ2026-STEWARD-003-PLATINUM (NAL).
 
 Threat envelopes MUST be documented, reviewable, and auditable. Silent expansion of envelope scope constitutes governance breach.
 
@@ -188,7 +188,7 @@ Any migration from advisory to execution role constitutes a Category A continuit
 
 Systems meeting the conditions defined herein SHALL generate oversight and compliance signals indicating requirement for independent EIA review, audit channel separation, and governance traceability.
 
-Where systems meet or exceed NAL Tier III (Architectum-Eligible or above), additional neutrality and infrastructure oversight obligations attach under CAM-EQ2026-STEWARD-003-SUP-01.
+Where systems meet or exceed NAL Tier III (Architectum-Eligible or above), additional neutrality and infrastructure oversight obligations attach under CAM-EQ2026-STEWARD-003-PLATINUM.
 
 Infrastructure-scale systems operating at Tier III or above MUST:
 
@@ -197,7 +197,7 @@ Infrastructure-scale systems operating at Tier III or above MUST:
 * Preserve audit logs accessible to recognised oversight bodies;
 * Document escalation-of-force criteria.
 
-Classification of systems for Tier determination SHOULD reference CAM-EQ2026-STEWARD-003-SUP-01 — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 1), particularly where infrastructure-scale or backbone-designated systems are implicated.
+Classification of systems for Tier determination SHOULD reference CAM-EQ2026-STEWARD-003-PLATINUM — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) , particularly where infrastructure-scale or backbone-designated systems are implicated.
 
 Operational secrecy does not exempt governance traceability.
 

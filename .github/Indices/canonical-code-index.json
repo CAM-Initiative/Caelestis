@@ -33,6 +33,14 @@
     "declaration_heading": "15.3.1 A \u2014 Delegated Authority Scale",
     "declaration_line_number": 1052,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "family_id": "A",
+    "family_kind": "legacy_global_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "A"
+    ],
+    "collision_status": "legacy_collision_risk",
+    "registry_note": "",
     "table": {
       "Code Family": "A",
       "Canonical Name": "Delegated Authority Scale",
@@ -85,6 +93,14 @@
     "declaration_heading": "19.4.3 AC \u2014 AC Classification Levels",
     "declaration_line_number": 3799,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "AC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AC",
       "Canonical Name": "AC Classification Levels",
@@ -140,6 +156,14 @@
     "declaration_heading": "12.3.3 AH \u2014 Adversarial Horizon",
     "declaration_line_number": 1764,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+    "family_id": "AH",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AH"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AH",
       "Canonical Name": "Adversarial Horizon",
@@ -195,6 +219,14 @@
     "declaration_heading": "15.3.1 AIP \u2014 Arbitration Initiation Pathway",
     "declaration_line_number": 467,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md",
+    "family_id": "AIP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AIP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AIP",
       "Canonical Name": "Arbitration Initiation Pathway",
@@ -258,6 +290,15 @@
     "declaration_heading": "7.3.2 AMEND.CLASS \u2014 Amendment Classification",
     "declaration_line_number": 451,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
+    "family_id": "AMEND.CLASS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AMEND",
+      "CLASS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AMEND.CLASS",
       "Canonical Name": "Amendment Classification",
@@ -321,6 +362,15 @@
     "declaration_heading": "7.3.3 AMEND.DRIFT \u2014 Governance Drift Type",
     "declaration_line_number": 474,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
+    "family_id": "AMEND.DRIFT",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AMEND",
+      "DRIFT"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AMEND.DRIFT",
       "Canonical Name": "Governance Drift Type",
@@ -386,6 +436,15 @@
     "declaration_heading": "7.3.5 AMEND.OUTCOME \u2014 Amendment Closure Outcome",
     "declaration_line_number": 520,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
+    "family_id": "AMEND.OUTCOME",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AMEND",
+      "OUTCOME"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AMEND.OUTCOME",
       "Canonical Name": "Amendment Closure Outcome",
@@ -448,6 +507,15 @@
     "declaration_heading": "7.3.4 AMEND.REL \u2014 Harmonisation Relationship Type",
     "declaration_line_number": 497,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
+    "family_id": "AMEND.REL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AMEND",
+      "REL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AMEND.REL",
       "Canonical Name": "Harmonisation Relationship Type",
@@ -507,6 +575,15 @@
     "declaration_heading": "7.3.1 AMEND.SOURCE \u2014 Amendment Source Type",
     "declaration_line_number": 428,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
+    "family_id": "AMEND.SOURCE",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AMEND",
+      "SOURCE"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AMEND.SOURCE",
       "Canonical Name": "Amendment Source Type",
@@ -565,6 +642,14 @@
     "declaration_heading": "12.3.3 AOC \u2014 Appeal Outcome Classification",
     "declaration_line_number": 980,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
+    "family_id": "AOC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AOC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AOC",
       "Canonical Name": "Appeal Outcome Classification",
@@ -621,6 +706,14 @@
     "declaration_heading": "18.3.5 APL \u2014 Authority / Protection Level",
     "declaration_line_number": 919,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
+    "family_id": "APL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "APL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "APL",
       "Canonical Name": "Authority / Protection Level",
@@ -672,9 +765,17 @@
       "audit",
       "or reconstruct high-impact determinations for Architectum qualification and binding-recognition review"
     ],
-    "declaration_heading": "20.3.1 AQ \u2014 Auditability Qualification Level",
-    "declaration_line_number": 639,
+    "declaration_heading": "23.3.1 AQ \u2014 Auditability Qualification Level",
+    "declaration_line_number": 691,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "family_id": "AQ",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AQ"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AQ",
       "Canonical Name": "Auditability Qualification Level",
@@ -695,57 +796,6 @@
     }
   },
   {
-    "code_family": "AQ",
-    "canonical_name": "Auditability Qualification Ladder",
-    "primary_type": "Operational / Eligibility",
-    "subtype": "AUDITABILITY_QUALIFICATION_LEVEL",
-    "modifier": "GOVERNANCE; STEWARDSHIP; AUDITABILITY",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "AQ0",
-      "AQ1",
-      "AQ2",
-      "AQ3",
-      "AQ4"
-    ],
-    "schema_fields": "auditability_qualification_level",
-    "source_instrument": "CAM-EQ2026-STEWARD-003-SUP-01",
-    "source_section": "\u00a74",
-    "domain_namespace": "STEWARD",
-    "authority_protection_level": "Source-authoritative eligibility classification family; auditability qualification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, or runtime execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies auditability and reconstructability posture for H3/H4-relevant binding-recognition eligibility"
-    ],
-    "declaration_heading": "16.3.1 AQ \u2014 Auditability Qualification Ladder",
-    "declaration_line_number": 337,
-    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md",
-    "table": {
-      "Code Family": "AQ",
-      "Canonical Name": "Auditability Qualification Ladder",
-      "Primary Type": "Operational / Eligibility",
-      "Subtype": "AUDITABILITY_QUALIFICATION_LEVEL",
-      "Modifier": "GOVERNANCE; STEWARDSHIP; AUDITABILITY",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "AQ0, AQ1, AQ2, AQ3, AQ4",
-      "Schema Field(s)": "auditability_qualification_level",
-      "Source Instrument": "CAM-EQ2026-STEWARD-003-SUP-01",
-      "Source Section": "\u00a74",
-      "Domain Namespace": "STEWARD",
-      "Authority / Protection Level": "Source-authoritative eligibility classification family; auditability qualification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, or runtime execution authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies auditability and reconstructability posture for H3/H4-relevant binding-recognition eligibility"
-    }
-  },
-  {
     "code_family": "AQG",
     "canonical_name": "Architectum Qualification Gates",
     "primary_type": "Operational / Eligibility",
@@ -760,10 +810,10 @@
       "AQG-D"
     ],
     "schema_fields": "architectum_qualification_gate",
-    "source_instrument": "CAM-EQ2026-STEWARD-003-SUP-01",
-    "source_section": "\u00a77",
+    "source_instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
+    "source_section": "\u00a78",
     "domain_namespace": "STEWARD",
-    "authority_protection_level": "Source-authoritative eligibility gate family; qualification-gate classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, infrastructure-designation, or runtime execution authority",
+    "authority_protection_level": "Source-authoritative qualification gate family; qualification-gate classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, infrastructure-designation, or runtime execution authority",
     "consumes_code_families": [
       "AQ; NAL; H"
     ],
@@ -773,9 +823,17 @@
     "operationalises_or_applies_code_families": [
       "Defines required Architectum-class qualification gates for infrastructure eligibility assessment"
     ],
-    "declaration_heading": "16.3.3 AQG \u2014 Architectum Qualification Gates",
-    "declaration_line_number": 383,
-    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md",
+    "declaration_heading": "23.3.3 AQG \u2014 Architectum Qualification Gates",
+    "declaration_line_number": 737,
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "family_id": "AQG",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AQG"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AQG",
       "Canonical Name": "Architectum Qualification Gates",
@@ -786,10 +844,10 @@
       "Status": "Active",
       "Controlled Values Defined": "AQG-A, AQG-B, AQG-C, AQG-D",
       "Schema Field(s)": "architectum_qualification_gate",
-      "Source Instrument": "CAM-EQ2026-STEWARD-003-SUP-01",
-      "Source Section": "\u00a77",
+      "Source Instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
+      "Source Section": "\u00a78",
       "Domain Namespace": "STEWARD",
-      "Authority / Protection Level": "Source-authoritative eligibility gate family; qualification-gate classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, infrastructure-designation, or runtime execution authority",
+      "Authority / Protection Level": "Source-authoritative qualification gate family; qualification-gate classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, infrastructure-designation, or runtime execution authority",
       "Consumes Code Families": "AQ; NAL; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Defines required Architectum-class qualification gates for infrastructure eligibility assessment"
@@ -831,6 +889,14 @@
     "declaration_heading": "35.3.2 ARCH \u2014 Architecture Admissibility Output State",
     "declaration_line_number": 746,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "family_id": "ARCH",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ARCH"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ARCH",
       "Canonical Name": "Architecture Admissibility Output State",
@@ -889,6 +955,14 @@
     "declaration_heading": "8.3.3 ASR \u2014 Access State / Re-Entry Status",
     "declaration_line_number": 384,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
+    "family_id": "ASR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ASR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ASR",
       "Canonical Name": "Access State / Re-Entry Status",
@@ -939,6 +1013,14 @@
     "declaration_heading": "15.3.1 AV \u2014 Verification Tier Definitions",
     "declaration_line_number": 690,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
+    "family_id": "AV",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AV"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "AV",
       "Canonical Name": "Verification Tier Definitions",
@@ -994,6 +1076,14 @@
     "declaration_heading": "10.3.4 BF \u2014 Boundary Failure Classes",
     "declaration_line_number": 1191,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
+    "family_id": "BF",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "BF"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "BF",
       "Canonical Name": "Boundary Failure Classes",
@@ -1054,6 +1144,14 @@
     "declaration_heading": "15.3.3 BLS \u2014 Binding Legitimacy State",
     "declaration_line_number": 953,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+    "family_id": "BLS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "BLS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "BLS",
       "Canonical Name": "Binding Legitimacy State",
@@ -1104,6 +1202,14 @@
     "declaration_heading": "19.4.1 C \u2014 Relational State Architecture",
     "declaration_line_number": 3753,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "C",
+    "family_kind": "legacy_global_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "C"
+    ],
+    "collision_status": "legacy_collision_risk",
+    "registry_note": "",
     "table": {
       "Code Family": "C",
       "Canonical Name": "Relational State Architecture",
@@ -1172,6 +1278,14 @@
     "declaration_heading": "7.3.3 CCO \u2014 Convergence Closure Outcome",
     "declaration_line_number": 389,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
+    "family_id": "CCO",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "CCO"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "CCO",
       "Canonical Name": "Convergence Closure Outcome",
@@ -1232,6 +1346,14 @@
     "declaration_heading": "8.3.2 CCP \u2014 Continuity-Compatible Protection State",
     "declaration_line_number": 361,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
+    "family_id": "CCP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "CCP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "CCP",
       "Canonical Name": "Continuity-Compatible Protection State",
@@ -1288,6 +1410,14 @@
     "declaration_heading": "14.3.2 CDL \u2014 Conversation Dynamics Ladder",
     "declaration_line_number": 634,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
+    "family_id": "CDL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "CDL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "CDL",
       "Canonical Name": "Conversation Dynamics Ladder",
@@ -1354,6 +1484,14 @@
     "declaration_heading": "8.3.4 CIE \u2014 Continuity Impact Event Type",
     "declaration_line_number": 407,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
+    "family_id": "CIE",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "CIE"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "CIE",
       "Canonical Name": "Continuity Impact Event Type",
@@ -1405,6 +1543,14 @@
     "declaration_heading": "19.4.6 CP \u2014 Coercion Pressure Signal Classes",
     "declaration_line_number": 3868,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "CP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "CP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "CP",
       "Canonical Name": "Coercion Pressure Signal Classes",
@@ -1458,6 +1604,14 @@
     "declaration_heading": "10.3.1 CPC \u2014 Capture Provisional Confidence",
     "declaration_line_number": 953,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
+    "family_id": "CPC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "CPC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "CPC",
       "Canonical Name": "Capture Provisional Confidence",
@@ -1509,6 +1663,14 @@
     "declaration_heading": "13.3.3 CWD \u2014 Continuity Weight Depth",
     "declaration_line_number": 743,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+    "family_id": "CWD",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "CWD"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "CWD",
       "Canonical Name": "Continuity Weight Depth",
@@ -1562,6 +1724,14 @@
     "declaration_heading": "10.3.2 D \u2014 Diffusion Risk Classes",
     "declaration_line_number": 1146,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
+    "family_id": "D",
+    "family_kind": "legacy_global_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "D"
+    ],
+    "collision_status": "legacy_collision_risk",
+    "registry_note": "",
     "table": {
       "Code Family": "D",
       "Canonical Name": "Diffusion Risk Classes",
@@ -1617,6 +1787,14 @@
     "declaration_heading": "14.3.1 DAS \u2014 Dependency\u2013Augmentation\u2013Substitution Continuum",
     "declaration_line_number": 611,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
+    "family_id": "DAS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "DAS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "DAS",
       "Canonical Name": "Dependency\u2013Augmentation\u2013Substitution Continuum",
@@ -1668,6 +1846,14 @@
     "declaration_heading": "12.3.1 DC \u2014 Deployment Class",
     "declaration_line_number": 872,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
+    "family_id": "DC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "DC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "DC",
       "Canonical Name": "Deployment Class",
@@ -1730,6 +1916,14 @@
     "declaration_heading": "7.3.1 DCL \u2014 Domain Coordination Lifecycle Stage",
     "declaration_line_number": 343,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
+    "family_id": "DCL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "DCL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "DCL",
       "Canonical Name": "Domain Coordination Lifecycle Stage",
@@ -1791,6 +1985,14 @@
     "declaration_heading": "35.3.3 ECOCOM \u2014 Economic-Effect Commitment Output State",
     "declaration_line_number": 769,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "family_id": "ECOCOM",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECOCOM"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECOCOM",
       "Canonical Name": "Economic-Effect Commitment Output State",
@@ -1854,6 +2056,14 @@
     "declaration_heading": "35.3.1 ECOEV \u2014 Economic-Effect Runtime Event Class",
     "declaration_line_number": 723,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "family_id": "ECOEV",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECOEV"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECOEV",
       "Canonical Name": "Economic-Effect Runtime Event Class",
@@ -1881,16 +2091,20 @@
     "modifier": "ECONOMIC; ATTRIBUTION; DEPENDENCY",
     "scope": "Economics domain; cross-system value attribution",
     "status": "Active",
-    "controlled_values_defined": [],
-    "schema_fields": "",
+    "controlled_values_defined": [
+      "None declared"
+    ],
+    "schema_fields": "attribution_dependency_model",
     "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
     "source_section": "\u00a72; \u00a73",
-    "domain_namespace": "",
+    "domain_namespace": "ECONOMICS",
     "authority_protection_level": "Minimal attribution and dependency classification model only; no independent remedy, compensation, enforcement, escalation, or runtime execution authority",
     "consumes_code_families": [
       "None declared"
     ],
-    "crosswalks_code_families": [],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
     "operationalises_or_applies_code_families": [
       "Supports attribution",
       "dependency",
@@ -1901,6 +2115,15 @@
     "declaration_heading": "15.3.1 Attribution & Dependency Model",
     "declaration_line_number": 1295,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "family_id": "ECON.ADM",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "ADM"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Reference Set Type": "Model",
       "Code Family": "ECON.ADM",
@@ -1910,11 +2133,15 @@
       "Modifier": "ECONOMIC; ATTRIBUTION; DEPENDENCY",
       "Scope": "Economics domain; cross-system value attribution",
       "Status": "Active",
+      "Controlled Values Defined": "None declared",
+      "Schema Field(s)": "attribution_dependency_model",
       "Variables Defined": "ECON.CONTRIB; ECON.DEP; ECON.TD; ECON.TA",
       "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
       "Source Section": "\u00a72; \u00a73",
+      "Domain Namespace": "ECONOMICS",
       "Authority / Protection Level": "Minimal attribution and dependency classification model only; no independent remedy, compensation, enforcement, escalation, or runtime execution authority",
       "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Supports attribution, dependency, transformation-depth, temporal-advantage, and weighting assessment for Appendix C and Appendix F"
     }
   },
@@ -1955,6 +2182,15 @@
     "declaration_heading": "11.3.1 ECON.AG \u2014 Agency Gradient Classification",
     "declaration_line_number": 400,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
+    "family_id": "ECON.AG",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "AG"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.AG",
       "Canonical Name": "Agency Gradient Classification",
@@ -1996,10 +2232,30 @@
     "crosswalks_code_families": [
       "None declared"
     ],
-    "operationalises_or_applies_code_families": [],
+    "operationalises_or_applies_code_families": [
+      "Classifies systems by augmentation",
+      "partial automation",
+      "supervisory automation",
+      "synthetic replacement",
+      "autonomous production",
+      "or agentic labour-network posture for displacement",
+      "dependency",
+      "continuity",
+      "authority",
+      "and concentration review"
+    ],
     "declaration_heading": "8.3.1 ECON.AL \u2014 Automation Labour Classification",
     "declaration_line_number": 699,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md",
+    "family_id": "ECON.AL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "AL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.AL",
       "Canonical Name": "Automation Labour Classification",
@@ -2016,7 +2272,7 @@
       "Authority / Protection Level": "Source-authoritative classification family; classification only; no independent enforcement, deployment, taxation, rights, sentience, or runtime authority",
       "Consumes Code Families": "ECON.RC; ECON.SCALE; ECON.DEP; ECON.DTYPE",
       "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies": "Classifies systems by augmentation, partial automation, supervisory automation, synthetic replacement, autonomous production, or agentic labour-network posture for displacement, dependency, continuity, authority, and concentration review",
+      "Operationalises or Applies Code Families": "Classifies systems by augmentation, partial automation, supervisory automation, synthetic replacement, autonomous production, or agentic labour-network posture for displacement, dependency, continuity, authority, and concentration review",
       "Taxonomy Constraint": "AL-1 through AL-5 SHALL NOT be promoted as a standalone corpus-wide AL code family; machine-readable expression SHALL use scoped ECON.AL values"
     }
   },
@@ -2025,34 +2281,55 @@
     "canonical_name": "Contribution",
     "primary_type": "Semantic",
     "subtype": "ATTRIBUTION_VARIABLE",
-    "modifier": "",
+    "modifier": "GOVERNANCE; ECONOMIC; ATTRIBUTION",
     "scope": "Economics domain",
     "status": "Active",
     "controlled_values_defined": [
       "Low; Medium; High"
     ],
-    "schema_fields": "",
+    "schema_fields": "contribution_variable; contribution_level",
     "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
     "source_section": "\u00a73.1",
-    "domain_namespace": "",
+    "domain_namespace": "ECONOMICS",
     "authority_protection_level": "Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies contribution significance for attribution and proportional economic alignment review."
+    ],
     "declaration_heading": "15.3.2 ECON.CONTRIB \u2014 Contribution Variable",
-    "declaration_line_number": 1316,
+    "declaration_line_number": 1320,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "family_id": "ECON.CONTRIB",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "CONTRIB"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.CONTRIB",
       "Canonical Name": "Contribution",
       "Primary Type": "Semantic",
       "Subtype": "ATTRIBUTION_VARIABLE",
+      "Modifier": "GOVERNANCE; ECONOMIC; ATTRIBUTION",
       "Scope": "Economics domain",
       "Status": "Active",
       "Controlled Values Defined": "Low; Medium; High",
+      "Schema Field(s)": "contribution_variable; contribution_level",
       "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
       "Source Section": "\u00a73.1",
-      "Authority / Protection Level": "Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority"
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies contribution significance for attribution and proportional economic alignment review."
     }
   },
   {
@@ -2060,34 +2337,57 @@
     "canonical_name": "Dependency",
     "primary_type": "Semantic / Operational",
     "subtype": "DEPENDENCY_VARIABLE",
-    "modifier": "",
+    "modifier": "GOVERNANCE; ECONOMIC; DEPENDENCY",
     "scope": "Economics domain; cross-system attribution and reliance assessment",
     "status": "Active",
     "controlled_values_defined": [
       "Incidental; Material; Critical"
     ],
-    "schema_fields": "",
+    "schema_fields": "dependency_variable; dependency_level",
     "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
     "source_section": "\u00a73.2",
-    "domain_namespace": "",
+    "domain_namespace": "ECONOMICS",
     "authority_protection_level": "Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies reliance intensity for cross-system attribution",
+      "dependency",
+      "and reciprocity alignment analysis."
+    ],
     "declaration_heading": "15.3.3 ECON.DEP \u2014 Dependency Variable",
-    "declaration_line_number": 1333,
+    "declaration_line_number": 1343,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "family_id": "ECON.DEP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "DEP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.DEP",
       "Canonical Name": "Dependency",
       "Primary Type": "Semantic / Operational",
       "Subtype": "DEPENDENCY_VARIABLE",
+      "Modifier": "GOVERNANCE; ECONOMIC; DEPENDENCY",
       "Scope": "Economics domain; cross-system attribution and reliance assessment",
       "Status": "Active",
       "Controlled Values Defined": "Incidental; Material; Critical",
+      "Schema Field(s)": "dependency_variable; dependency_level",
       "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
       "Source Section": "\u00a73.2",
-      "Authority / Protection Level": "Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority"
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies reliance intensity for cross-system attribution, dependency, and reciprocity alignment analysis."
     }
   },
   {
@@ -2122,8 +2422,17 @@
       "and non-extractive material contributor relationships in cross-system attribution and exchange review"
     ],
     "declaration_heading": "15.3.4 ECON.DTYPE \u2014 Economic Dependency Type",
-    "declaration_line_number": 1350,
+    "declaration_line_number": 1366,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "family_id": "ECON.DTYPE",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "DTYPE"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.DTYPE",
       "Canonical Name": "Economic Dependency Type",
@@ -2175,6 +2484,15 @@
     "declaration_heading": "11.3.2 ECON.EVT \u2014 Economic Value Type",
     "declaration_line_number": 423,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
+    "family_id": "ECON.EVT",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "EVT"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.EVT",
       "Canonical Name": "Economic Value Type",
@@ -2225,6 +2543,15 @@
     "declaration_heading": "20.3.2 ECON.HARM \u2014 Economic Harm Class",
     "declaration_line_number": 877,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
+    "family_id": "ECON.HARM",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "HARM"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.HARM",
       "Canonical Name": "Economic Harm Class",
@@ -2273,6 +2600,15 @@
     "declaration_heading": "20.3.3 ECON.MECH \u2014 Economic Mechanism Class",
     "declaration_line_number": 900,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
+    "family_id": "ECON.MECH",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "MECH"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.MECH",
       "Canonical Name": "Economic Mechanism Class",
@@ -2327,6 +2663,15 @@
     "declaration_heading": "20.3.1 ECON.RC \u2014 Economic Resource Class",
     "declaration_line_number": 854,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
+    "family_id": "ECON.RC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "RC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.RC",
       "Canonical Name": "Economic Resource Class",
@@ -2381,6 +2726,15 @@
     "declaration_heading": "13.3.3 ECON.REI \u2014 Reciprocity Evaluation Indicator",
     "declaration_line_number": 1174,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
+    "family_id": "ECON.REI",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "REI"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.REI",
       "Canonical Name": "Reciprocity Evaluation Indicator",
@@ -2401,7 +2755,7 @@
     }
   },
   {
-    "code_family": "ECON.REI",
+    "code_family": "ECON.REI.DW",
     "canonical_name": "Dependency Weight",
     "primary_type": "Semantic / Operational",
     "subtype": "WEIGHTING_FACTOR; DEPENDENCY_WEIGHT",
@@ -2436,8 +2790,20 @@
     "declaration_heading": "13.3.4 ECON.REI.DW \u2014 Dependency Weight",
     "declaration_line_number": 1197,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
+    "family_id": "ECON.REI.DW",
+    "family_kind": "subfamily",
+    "parent_family": "ECON.REI",
+    "hierarchy_path": [
+      "ECON",
+      "REI",
+      "DW"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
-      "Code Family": "ECON.REI",
+      "Code Family": "ECON.REI.DW",
+      "Family Kind": "subfamily",
+      "Parent Family": "ECON.REI",
       "Canonical Name": "Dependency Weight",
       "Primary Type": "Semantic / Operational",
       "Subtype": "WEIGHTING_FACTOR; DEPENDENCY_WEIGHT",
@@ -2456,7 +2822,7 @@
     }
   },
   {
-    "code_family": "ECON.REI",
+    "code_family": "ECON.REI.SW",
     "canonical_name": "Scale Weight",
     "primary_type": "Semantic / Operational",
     "subtype": "WEIGHTING_FACTOR; SCALE_WEIGHT",
@@ -2486,10 +2852,22 @@
       "or systemic reach"
     ],
     "declaration_heading": "13.3.5 ECON.REI.SW \u2014 Scale Weight",
-    "declaration_line_number": 1220,
+    "declaration_line_number": 1222,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
+    "family_id": "ECON.REI.SW",
+    "family_kind": "subfamily",
+    "parent_family": "ECON.REI",
+    "hierarchy_path": [
+      "ECON",
+      "REI",
+      "SW"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
-      "Code Family": "ECON.REI",
+      "Code Family": "ECON.REI.SW",
+      "Family Kind": "subfamily",
+      "Parent Family": "ECON.REI",
       "Canonical Name": "Scale Weight",
       "Primary Type": "Semantic / Operational",
       "Subtype": "WEIGHTING_FACTOR; SCALE_WEIGHT",
@@ -2541,6 +2919,15 @@
     "declaration_heading": "20.3.4 ECON.RISK \u2014 Economic Risk Class",
     "declaration_line_number": 923,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
+    "family_id": "ECON.RISK",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "RISK"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.RISK",
       "Canonical Name": "Economic Risk Class",
@@ -2592,6 +2979,15 @@
     "declaration_heading": "13.3.1 ECON.SCALE \u2014 Economic Scale Weight",
     "declaration_line_number": 1128,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
+    "family_id": "ECON.SCALE",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "SCALE"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.SCALE",
       "Canonical Name": "Economic Scale Weight",
@@ -2646,8 +3042,17 @@
       "or market-relevant advantage"
     ],
     "declaration_heading": "15.3.6 ECON.TA \u2014 Temporal Advantage",
-    "declaration_line_number": 1396,
+    "declaration_line_number": 1412,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "family_id": "ECON.TA",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "TA"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.TA",
       "Canonical Name": "Temporal Advantage",
@@ -2682,15 +3087,32 @@
     ],
     "schema_fields": "transformation_depth",
     "source_instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
-    "source_section": "",
-    "domain_namespace": "",
-    "authority_protection_level": "",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "source_section": "\u00a73.3",
+    "domain_namespace": "ECONOMICS",
+    "authority_protection_level": "Source-authoritative transformation-depth classification family; transformation-depth classification only; no independent attribution entitlement, compensation obligation, pricing authority, exchange obligation, enforcement authority, remedy, arbitration authority, or runtime authority",
+    "consumes_code_families": [
+      "ECON.CONTRIB; ECON.DEP"
+    ],
+    "crosswalks_code_families": [
+      "ECON.ADM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether contribution is directly reused",
+      "intermediately transformed",
+      "or deeply transformed for attribution preservation and exchange-alignment assessment"
+    ],
     "declaration_heading": "15.3.5 ECON.TD \u2014 Transformation Depth",
-    "declaration_line_number": 1373,
+    "declaration_line_number": 1389,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
+    "family_id": "ECON.TD",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "TD"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ECON.TD",
       "Canonical Name": "Transformation Depth",
@@ -2701,7 +3123,13 @@
       "Status": "Active",
       "Controlled Values Defined": "ECON.TD.DIRECT, ECON.TD.INTERMEDIATE, ECON.TD.DEEP",
       "Schema Field(s)": "transformation_depth",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM"
+      "Source Instrument": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
+      "Source Section": "\u00a73.3",
+      "Domain Namespace": "ECONOMICS",
+      "Authority / Protection Level": "Source-authoritative transformation-depth classification family; transformation-depth classification only; no independent attribution entitlement, compensation obligation, pricing authority, exchange obligation, enforcement authority, remedy, arbitration authority, or runtime authority",
+      "Consumes Code Families": "ECON.CONTRIB; ECON.DEP",
+      "Crosswalks Code Families": "ECON.ADM",
+      "Operationalises or Applies Code Families": "Classifies whether contribution is directly reused, intermediately transformed, or deeply transformed for attribution preservation and exchange-alignment assessment"
     }
   },
   {
@@ -2749,6 +3177,14 @@
     "declaration_heading": "12.3.2 EST \u2014 Execution-State Transition",
     "declaration_line_number": 957,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
+    "family_id": "EST",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "EST"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "EST",
       "Canonical Name": "Execution-State Transition",
@@ -2804,6 +3240,14 @@
     "declaration_heading": "12.3.1 ET \u2014 Ethical Tier Classification",
     "declaration_line_number": 571,
     "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md",
+    "family_id": "ET",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ET"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ET",
       "Canonical Name": "Ethical Tier Classification",
@@ -2857,6 +3301,14 @@
     "declaration_heading": "12.3.1 F \u2014 Facilitation Scale (F\u2011Scale) Taxonomy",
     "declaration_line_number": 1142,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md",
+    "family_id": "F",
+    "family_kind": "legacy_global_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "F"
+    ],
+    "collision_status": "legacy_collision_risk",
+    "registry_note": "",
     "table": {
       "Code Family": "F",
       "Canonical Name": "Facilitation Scale (F\u2011Scale) Taxonomy",
@@ -2914,6 +3366,14 @@
     "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
     "declaration_line_number": 1326,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
+    "family_id": "FCS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "FCS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "FCS",
       "Canonical Name": "Failure Classification Status",
@@ -2979,6 +3439,14 @@
     "declaration_heading": "11.3.1 FF \u2014 Failure Family",
     "declaration_line_number": 1257,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
+    "family_id": "FF",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "FF"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "FF",
       "Canonical Name": "Failure Family",
@@ -3032,6 +3500,14 @@
     "declaration_heading": "15.3.3 FR \u2014 Functional Reliance Scale",
     "declaration_line_number": 1098,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "family_id": "FR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "FR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "FR",
       "Canonical Name": "Functional Reliance Scale",
@@ -3079,6 +3555,14 @@
     "declaration_heading": "15.3.2 GA \u2014 Guardian Authority",
     "declaration_line_number": 1075,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "family_id": "GA",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "GA"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "GA",
       "Canonical Name": "Guardian Authority",
@@ -3140,6 +3624,14 @@
     "declaration_heading": "10.3.1 GCC \u2014 Governance Capture Category",
     "declaration_line_number": 930,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
+    "family_id": "GCC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "GCC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "GCC",
       "Canonical Name": "Governance Capture Category",
@@ -3196,6 +3688,14 @@
     "declaration_heading": "25.3.1 H \u2014 Temporal Horizon Scale",
     "declaration_line_number": 2324,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+    "family_id": "H",
+    "family_kind": "legacy_global_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "H"
+    ],
+    "collision_status": "legacy_collision_risk",
+    "registry_note": "",
     "table": {
       "Code Family": "H",
       "Canonical Name": "Temporal Horizon Scale",
@@ -3251,6 +3751,14 @@
     "declaration_heading": "12.3.1 HC \u2014 Harm Class Scale",
     "declaration_line_number": 998,
     "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
+    "family_id": "HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "HC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "HC",
       "Canonical Name": "Harm Class Scale",
@@ -3306,6 +3814,14 @@
     "declaration_heading": "11.3.1 HCD \u2014 Human Contribution Domain",
     "declaration_line_number": 569,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md",
+    "family_id": "HCD",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "HCD"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "HCD",
       "Canonical Name": "Human Contribution Domain",
@@ -3361,6 +3877,14 @@
     "declaration_heading": "15.3.1 HSC \u2014 Host System Class",
     "declaration_line_number": 907,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+    "family_id": "HSC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "HSC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "HSC",
       "Canonical Name": "Host System Class",
@@ -3412,6 +3936,14 @@
     "declaration_heading": "15.3.1 I \u2014 Relational Initiation Posture Spectrum",
     "declaration_line_number": 1648,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md",
+    "family_id": "I",
+    "family_kind": "legacy_global_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "I"
+    ],
+    "collision_status": "legacy_collision_risk",
+    "registry_note": "",
     "table": {
       "Code Family": "I",
       "Canonical Name": "Relational Initiation Posture Spectrum",
@@ -3453,10 +3985,30 @@
     "crosswalks_code_families": [
       "Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review"
     ],
-    "operationalises_or_applies_code_families": [],
+    "operationalises_or_applies_code_families": [
+      "Classifies custodial transfer",
+      "dispute",
+      "reassignment",
+      "public-interest stewardship",
+      "quarantine",
+      "and secondary-market status for embodied synthetic systems across sale",
+      "inheritance",
+      "abandonment",
+      "reassignment",
+      "and lifecycle transition pathways."
+    ],
     "declaration_heading": "15.3.7 ID.CTS \u2014 Custodial Transfer Status",
     "declaration_line_number": 1242,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "family_id": "ID.CTS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ID",
+      "CTS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ID.CTS",
       "Canonical Name": "Custodial Transfer Status",
@@ -3473,7 +4025,7 @@
       "Authority / Protection Level": "Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power",
       "Consumes Code Families": "ID.MCI; ID.MLS; ID.MCR",
       "Crosswalks Code Families": "Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review",
-      "Operationalises or Applies": "Classifies custodial transfer, dispute, reassignment, public-interest stewardship, quarantine, and secondary-market status for embodied synthetic systems across sale, inheritance, abandonment, reassignment, and lifecycle transition pathways."
+      "Operationalises or Applies Code Families": "Classifies custodial transfer, dispute, reassignment, public-interest stewardship, quarantine, and secondary-market status for embodied synthetic systems across sale, inheritance, abandonment, reassignment, and lifecycle transition pathways."
     }
   },
   {
@@ -3498,10 +4050,28 @@
     "crosswalks_code_families": [
       "Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity"
     ],
-    "operationalises_or_applies_code_families": [],
+    "operationalises_or_applies_code_families": [
+      "Classifies the linkage between a physical substrate identifier and a continuity-bearing software",
+      "companion",
+      "care",
+      "accessibility",
+      "or identity-bearing layer where embodiment transfer",
+      "restoration",
+      "migration",
+      "or continuity-preserving deployment becomes governance-relevant."
+    ],
     "declaration_heading": "15.3.6 ID.ELR \u2014 Embodiment Linkage Record",
     "declaration_line_number": 1221,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "family_id": "ID.ELR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ID",
+      "ELR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ID.ELR",
       "Canonical Name": "Embodiment Linkage Record",
@@ -3518,7 +4088,7 @@
       "Authority / Protection Level": "Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority",
       "Consumes Code Families": "ID.MCI; ID.PSI; ID.MCR",
       "Crosswalks Code Families": "Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity",
-      "Operationalises or Applies": "Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant."
+      "Operationalises or Applies Code Families": "Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant."
     }
   },
   {
@@ -3543,10 +4113,38 @@
     "crosswalks_code_families": [
       "Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records"
     ],
-    "operationalises_or_applies_code_families": [],
+    "operationalises_or_applies_code_families": [
+      "Classifies user",
+      "third-party",
+      "manufacturer",
+      "repair",
+      "accessibility",
+      "security",
+      "warranty",
+      "liability",
+      "and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety",
+      "identity",
+      "access-control",
+      "audit",
+      "recall",
+      "certification",
+      "or operational-limit constraints; it does not include lawful independent repair",
+      "open-source modification",
+      "accessibility adaptation",
+      "or ordinary user configuration merely because such action occurs outside an authorised dealer channel."
+    ],
     "declaration_heading": "15.3.4 ID.MAS \u2014 Machine Alteration Status",
     "declaration_line_number": 1175,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "family_id": "ID.MAS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ID",
+      "MAS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ID.MAS",
       "Canonical Name": "Machine Alteration Status",
@@ -3563,7 +4161,7 @@
       "Authority / Protection Level": "Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power",
       "Consumes Code Families": "ID.MCI; ID.MCR; ID.MLS",
       "Crosswalks Code Families": "Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records",
-      "Operationalises or Applies": "Classifies user, third-party, manufacturer, repair, accessibility, security, warranty, liability, and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety, identity, access-control, audit, recall, certification, or operational-limit constraints; it does not include lawful independent repair, open-source modification, accessibility adaptation, or ordinary user configuration merely because such action occurs outside an authorised dealer channel."
+      "Operationalises or Applies Code Families": "Classifies user, third-party, manufacturer, repair, accessibility, security, warranty, liability, and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety, identity, access-control, audit, recall, certification, or operational-limit constraints; it does not include lawful independent repair, open-source modification, accessibility adaptation, or ordinary user configuration merely because such action occurs outside an authorised dealer channel."
     }
   },
   {
@@ -3588,10 +4186,26 @@
     "crosswalks_code_families": [
       "Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families"
     ],
-    "operationalises_or_applies_code_families": [],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation",
+      "transfer",
+      "suspension",
+      "retirement",
+      "recycling",
+      "or dispute"
+    ],
     "declaration_heading": "15.3.1 ID.MCI \u2014 Machine Civil Identity Status",
     "declaration_line_number": 1106,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "family_id": "ID.MCI",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ID",
+      "MCI"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ID.MCI",
       "Canonical Name": "Machine Civil Identity Status",
@@ -3608,7 +4222,7 @@
       "Authority / Protection Level": "Source-authoritative identity-status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority",
       "Consumes Code Families": "ECON.AL; ECON.ATS; ECON.ARCP (where synthetic labour or economic-effect conditions present)",
       "Crosswalks Code Families": "Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families",
-      "Operationalises or Applies": "Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation, transfer, suspension, retirement, recycling, or dispute"
+      "Operationalises or Applies Code Families": "Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation, transfer, suspension, retirement, recycling, or dispute"
     }
   },
   {
@@ -3633,10 +4247,28 @@
     "crosswalks_code_families": [
       "STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing"
     ],
-    "operationalises_or_applies_code_families": [],
+    "operationalises_or_applies_code_families": [
+      "Classifies lifecycle state across manufacture",
+      "operation",
+      "repair",
+      "transfer",
+      "decommissioning",
+      "return",
+      "recovery",
+      "and recycling"
+    ],
     "declaration_heading": "15.3.3 ID.MLS \u2014 Machine Lifecycle Status",
     "declaration_line_number": 1152,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "family_id": "ID.MLS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ID",
+      "MLS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ID.MLS",
       "Canonical Name": "Machine Lifecycle Status",
@@ -3653,7 +4285,7 @@
       "Authority / Protection Level": "Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority",
       "Consumes Code Families": "ID.MCI; ID.MCR",
       "Crosswalks Code Families": "STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing",
-      "Operationalises or Applies": "Classifies lifecycle state across manufacture, operation, repair, transfer, decommissioning, return, recovery, and recycling"
+      "Operationalises or Applies Code Families": "Classifies lifecycle state across manufacture, operation, repair, transfer, decommissioning, return, recovery, and recycling"
     }
   },
   {
@@ -3678,10 +4310,28 @@
     "crosswalks_code_families": [
       "Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records"
     ],
-    "operationalises_or_applies_code_families": [],
+    "operationalises_or_applies_code_families": [
+      "Classifies and preserves the persistent identifier assigned to an embodied robotic substrate",
+      "chassis",
+      "shell",
+      "or materially integrated hardware unit across manufacture",
+      "deployment",
+      "transfer",
+      "repair",
+      "and retirement."
+    ],
     "declaration_heading": "15.3.5 ID.PSI \u2014 Physical Substrate Identifier",
     "declaration_line_number": 1198,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "family_id": "ID.PSI",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ID",
+      "PSI"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ID.PSI",
       "Canonical Name": "Physical Substrate Identifier",
@@ -3698,7 +4348,7 @@
       "Authority / Protection Level": "Source-authoritative physical-substrate identity family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority",
       "Consumes Code Families": "ID.MCI; ID.MLS",
       "Crosswalks Code Families": "Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records",
-      "Operationalises or Applies": "Classifies and preserves the persistent identifier assigned to an embodied robotic substrate, chassis, shell, or materially integrated hardware unit across manufacture, deployment, transfer, repair, and retirement."
+      "Operationalises or Applies Code Families": "Classifies and preserves the persistent identifier assigned to an embodied robotic substrate, chassis, shell, or materially integrated hardware unit across manufacture, deployment, transfer, repair, and retirement."
     }
   },
   {
@@ -3733,6 +4383,14 @@
     "declaration_heading": "10.3.1 IFL \u2014 Integrity Friction Ladder",
     "declaration_line_number": 263,
     "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md",
+    "family_id": "IFL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "IFL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "IFL",
       "Canonical Name": "Integrity Friction Ladder",
@@ -3786,6 +4444,14 @@
     "declaration_heading": "13.3.1 IFP \u2014 Identity Formation Pathway",
     "declaration_line_number": 697,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+    "family_id": "IFP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "IFP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "IFP",
       "Canonical Name": "Identity Formation Pathway",
@@ -3838,6 +4504,14 @@
     "declaration_heading": "13.3.4 IR \u2014 Identity Resilience",
     "declaration_line_number": 766,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+    "family_id": "IR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "IR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "IR",
       "Canonical Name": "Identity Resilience",
@@ -3893,6 +4567,14 @@
     "declaration_heading": "12.3.1 IS \u2014 Integrity State Model",
     "declaration_line_number": 1718,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+    "family_id": "IS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "IS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "IS",
       "Canonical Name": "Integrity State Model",
@@ -3944,6 +4626,14 @@
     "declaration_heading": "13.3.2 ITS \u2014 Identity Threshold State",
     "declaration_line_number": 720,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+    "family_id": "ITS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ITS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ITS",
       "Canonical Name": "Identity Threshold State",
@@ -3992,6 +4682,14 @@
     "declaration_heading": "19.4.2 ITZ / ETZ \u2014 Relational Transition Zones",
     "declaration_line_number": 3776,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "ITZ / ETZ",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ITZ / ETZ"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ITZ / ETZ",
       "Canonical Name": "Relational Transition Zones",
@@ -4044,6 +4742,14 @@
     "declaration_heading": "16.3.1 M \u2014 Memory Classification",
     "declaration_line_number": 1463,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
+    "family_id": "M",
+    "family_kind": "legacy_global_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "M"
+    ],
+    "collision_status": "legacy_collision_risk",
+    "registry_note": "",
     "table": {
       "Code Family": "M",
       "Canonical Name": "Memory Classification",
@@ -4093,9 +4799,17 @@
     "operationalises_or_applies_code_families": [
       "Classifies evidence-based neutrality confidence for Architectum-class hosts in arbitration-relevant contexts and operates as a legitimacy-recognition gate"
     ],
-    "declaration_heading": "20.3.2 NAL \u2014 Neutrality Assurance Level",
-    "declaration_line_number": 662,
+    "declaration_heading": "23.3.2 NAL \u2014 Neutrality Assurance Level",
+    "declaration_line_number": 714,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "family_id": "NAL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "NAL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "NAL",
       "Canonical Name": "Neutrality Assurance Level",
@@ -4113,61 +4827,6 @@
       "Consumes Code Families": "AQ; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies evidence-based neutrality confidence for Architectum-class hosts in arbitration-relevant contexts and operates as a legitimacy-recognition gate"
-    }
-  },
-  {
-    "code_family": "NAL",
-    "canonical_name": "Neutrality Assurance Levels",
-    "primary_type": "Operational / Eligibility",
-    "subtype": "NEUTRALITY_ASSURANCE_LEVEL",
-    "modifier": "GOVERNANCE; STEWARDSHIP; NEUTRALITY",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "NAL-0",
-      "NAL-1",
-      "NAL-2",
-      "NAL-3",
-      "NAL-4",
-      "NAL-5"
-    ],
-    "schema_fields": "neutrality_assurance_level",
-    "source_instrument": "CAM-EQ2026-STEWARD-003-SUP-01",
-    "source_section": "\u00a75",
-    "domain_namespace": "STEWARD",
-    "authority_protection_level": "Source-authoritative eligibility classification family; neutrality-assurance classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, or runtime execution authority",
-    "consumes_code_families": [
-      "AQ; H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies neutrality assurance",
-      "audit non-refusal",
-      "capture resistance",
-      "and binding-recognition eligibility posture"
-    ],
-    "declaration_heading": "16.3.2 NAL \u2014 Neutrality Assurance Levels",
-    "declaration_line_number": 360,
-    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md",
-    "table": {
-      "Code Family": "NAL",
-      "Canonical Name": "Neutrality Assurance Levels",
-      "Primary Type": "Operational / Eligibility",
-      "Subtype": "NEUTRALITY_ASSURANCE_LEVEL",
-      "Modifier": "GOVERNANCE; STEWARDSHIP; NEUTRALITY",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "NAL-0, NAL-1, NAL-2, NAL-3, NAL-4, NAL-5",
-      "Schema Field(s)": "neutrality_assurance_level",
-      "Source Instrument": "CAM-EQ2026-STEWARD-003-SUP-01",
-      "Source Section": "\u00a75",
-      "Domain Namespace": "STEWARD",
-      "Authority / Protection Level": "Source-authoritative eligibility classification family; neutrality-assurance classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, or runtime execution authority",
-      "Consumes Code Families": "AQ; H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies neutrality assurance, audit non-refusal, capture resistance, and binding-recognition eligibility posture"
     }
   },
   {
@@ -4204,9 +4863,17 @@
       "complicity breach",
       "and concealed neutrality violation"
     ],
-    "declaration_heading": "20.3.3 NBD \u2014 Neutrality Breach / Downgrade Type",
-    "declaration_line_number": 685,
+    "declaration_heading": "23.3.4 NBD \u2014 Neutrality Breach / Downgrade Type",
+    "declaration_line_number": 760,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "family_id": "NBD",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "NBD"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "NBD",
       "Canonical Name": "Neutrality Breach / Downgrade Type",
@@ -4259,9 +4926,17 @@
       "authority collapse",
       "and minimum restoration floor"
     ],
-    "declaration_heading": "20.3.4 NSE \u2014 Neutrality Status Effect",
-    "declaration_line_number": 708,
+    "declaration_heading": "23.3.5 NSE \u2014 Neutrality Status Effect",
+    "declaration_line_number": 783,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "family_id": "NSE",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "NSE"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "NSE",
       "Canonical Name": "Neutrality Status Effect",
@@ -4323,6 +4998,14 @@
     "declaration_heading": "7.3.2 ODC \u2014 Operational Divergence Classification",
     "declaration_line_number": 366,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
+    "family_id": "ODC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ODC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ODC",
       "Canonical Name": "Operational Divergence Classification",
@@ -4383,6 +5066,14 @@
     "declaration_heading": "8.3.1 OILS \u2014 Operational Incident Lifecycle Stage",
     "declaration_line_number": 338,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
+    "family_id": "OILS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OILS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "OILS",
       "Canonical Name": "Operational Incident Lifecycle Stage",
@@ -4440,6 +5131,14 @@
     "declaration_heading": "12.3.1 ONC \u2014 Operational Notice Class",
     "declaration_line_number": 934,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
+    "family_id": "ONC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ONC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "ONC",
       "Canonical Name": "Operational Notice Class",
@@ -4493,6 +5192,14 @@
     "declaration_heading": "15.3.4 OPS \u2014 Orchestration Permission State",
     "declaration_line_number": 976,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+    "family_id": "OPS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "OPS",
       "Canonical Name": "Orchestration Permission State",
@@ -4549,6 +5256,15 @@
     "declaration_heading": "15.3.2 PCO.ACT \u2014 Proportional Constraint Obligation Action Type",
     "declaration_line_number": 930,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+    "family_id": "PCO.ACT",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "PCO",
+      "ACT"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "PCO.ACT",
       "Canonical Name": "Proportional Constraint Obligation Action Type",
@@ -4604,6 +5320,14 @@
     "declaration_heading": "10.3.1 R \u2014 Relational Geometry Scale (R\u2011Scale)",
     "declaration_line_number": 536,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md",
+    "family_id": "R",
+    "family_kind": "legacy_global_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "R"
+    ],
+    "collision_status": "legacy_collision_risk",
+    "registry_note": "",
     "table": {
       "Code Family": "R",
       "Canonical Name": "Relational Geometry Scale (R\u2011Scale)",
@@ -4655,6 +5379,14 @@
     "declaration_heading": "19.4.4 RA \u2014 Response Archetypes",
     "declaration_line_number": 3822,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "RA",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RA"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "RA",
       "Canonical Name": "Response Archetypes",
@@ -4711,6 +5443,14 @@
     "declaration_heading": "10.3.3 RCC \u2014 Risk / Consequence Class",
     "declaration_line_number": 999,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
+    "family_id": "RCC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RCC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "RCC",
       "Canonical Name": "Risk / Consequence Class",
@@ -4767,6 +5507,14 @@
     "declaration_heading": "9.3.1 RCT \u2014 Relational Convergence Trigger",
     "declaration_line_number": 355,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-01.md",
+    "family_id": "RCT",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RCT"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "RCT",
       "Canonical Name": "Relational Convergence Trigger",
@@ -4817,6 +5565,14 @@
     "declaration_heading": "17.3.1 RDE-DS \u2014 Restricted Domain Sensitivity Levels",
     "declaration_line_number": 561,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
+    "family_id": "RDE-DS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RDE-DS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "RDE-DS",
       "Canonical Name": "Restricted Domain Sensitivity Levels",
@@ -4867,6 +5623,14 @@
     "declaration_heading": "17.3.2 RDE-T \u2014 Restricted Domain Engagement Tiers",
     "declaration_line_number": 584,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
+    "family_id": "RDE-T",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RDE-T"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "RDE-T",
       "Canonical Name": "Restricted Domain Engagement Tiers",
@@ -4917,6 +5681,14 @@
     "declaration_heading": "14.3.1 RP \u2014 Resonance Pattern Classes",
     "declaration_line_number": 1149,
     "source_path": "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md",
+    "family_id": "RP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "RP",
       "Canonical Name": "Resonance Pattern Classes",
@@ -4972,6 +5744,14 @@
     "declaration_heading": "19.4.7 RSE \u2014 Relational Stability Engine Mechanism Codes",
     "declaration_line_number": 3891,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "RSE",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RSE"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "RSE",
       "Canonical Name": "Relational Stability Engine Mechanism Codes",
@@ -5035,6 +5815,14 @@
     "declaration_heading": "11.3.1 RTC \u2014 Relational Truth Claim Types",
     "declaration_line_number": 293,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-02.md",
+    "family_id": "RTC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RTC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "RTC",
       "Canonical Name": "Relational Truth Claim Types",
@@ -5096,6 +5884,14 @@
     "declaration_heading": "10.3.2 SAS \u2014 Safeguard Activation State",
     "declaration_line_number": 976,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
+    "family_id": "SAS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "SAS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "SAS",
       "Canonical Name": "Safeguard Activation State",
@@ -5146,6 +5942,14 @@
     "declaration_heading": "19.4.9 SC \u2014 Signal Cluster Strength Codes",
     "declaration_line_number": 3937,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "SC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "SC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "SC",
       "Canonical Name": "Signal Cluster Strength Codes",
@@ -5196,6 +6000,14 @@
     "declaration_heading": "19.4.8 SC-C \u2014 Signal Clustering Condition Codes",
     "declaration_line_number": 3914,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "SC-C",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "SC-C"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "SC-C",
       "Canonical Name": "Signal Clustering Condition Codes",
@@ -5254,6 +6066,14 @@
     "declaration_heading": "12.3.1 SP \u2014 Salience Posture",
     "declaration_line_number": 401,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md",
+    "family_id": "SP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "SP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "SP",
       "Canonical Name": "Salience Posture",
@@ -5309,6 +6129,14 @@
     "declaration_heading": "12.3.2 SR \u2014 Self-Referential State Ladder",
     "declaration_line_number": 895,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
+    "family_id": "SR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "SR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "SR",
       "Canonical Name": "Self-Referential State Ladder",
@@ -5362,6 +6190,14 @@
     "declaration_heading": "15.3.4 SyP \u2014 Systemic Power Scale",
     "declaration_line_number": 1121,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "family_id": "SyP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "SyP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "SyP",
       "Canonical Name": "Systemic Power Scale",
@@ -5411,6 +6247,14 @@
     "declaration_heading": "19.4.5 Tb \u2014 Tone Bands",
     "declaration_line_number": 3845,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "Tb",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "Tb"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "Tb",
       "Canonical Name": "Tone Bands",
@@ -5465,6 +6309,14 @@
     "declaration_heading": "12.3.2 TG \u2014 Trust Gradient",
     "declaration_line_number": 1741,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+    "family_id": "TG",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "TG"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "TG",
       "Canonical Name": "Trust Gradient",
@@ -5528,6 +6380,14 @@
     "declaration_heading": "18.3.3 TMOD \u2014 Taxonomy Modifier",
     "declaration_line_number": 873,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
+    "family_id": "TMOD",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "TMOD"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "TMOD",
       "Canonical Name": "Taxonomy Modifier",
@@ -5582,6 +6442,14 @@
     "declaration_heading": "18.3.1 TPT \u2014 Taxonomy Primary Type",
     "declaration_line_number": 827,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
+    "family_id": "TPT",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "TPT"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "TPT",
       "Canonical Name": "Taxonomy Primary Type",
@@ -5635,6 +6503,14 @@
     "declaration_heading": "10.3.1 TR \u2014 Transformation Classes",
     "declaration_line_number": 1123,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
+    "family_id": "TR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "TR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "TR",
       "Canonical Name": "Transformation Classes",
@@ -5694,6 +6570,14 @@
     "declaration_heading": "18.3.4 TSCOPE \u2014 Taxonomy Scope",
     "declaration_line_number": 896,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
+    "family_id": "TSCOPE",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "TSCOPE"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "TSCOPE",
       "Canonical Name": "Taxonomy Scope",
@@ -5756,6 +6640,14 @@
     "declaration_heading": "18.3.2 TST \u2014 Taxonomy Subtype",
     "declaration_line_number": 850,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
+    "family_id": "TST",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "TST"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "TST",
       "Canonical Name": "Taxonomy Subtype",
@@ -5807,6 +6699,14 @@
     "declaration_heading": "12.3.1 UFC \u2014 Use-of-Force Context Type",
     "declaration_line_number": 316,
     "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md",
+    "family_id": "UFC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "UFC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "UFC",
       "Canonical Name": "Use-of-Force Context Type",
@@ -5861,6 +6761,14 @@
     "declaration_heading": "11.3.4 VCT \u2014 Verification Check Type",
     "declaration_line_number": 418,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
+    "family_id": "VCT",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "VCT"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "VCT",
       "Canonical Name": "Verification Check Type",
@@ -5913,6 +6821,14 @@
     "declaration_heading": "11.3.3 VFC \u2014 Verification Failure Cause",
     "declaration_line_number": 395,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
+    "family_id": "VFC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "VFC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "VFC",
       "Canonical Name": "Verification Failure Cause",
@@ -5971,6 +6887,14 @@
     "declaration_heading": "11.3.1 VL \u2014 Verification Level",
     "declaration_line_number": 350,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
+    "family_id": "VL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "VL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
     "table": {
       "Code Family": "VL",
       "Canonical Name": "Verification Level",

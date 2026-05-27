@@ -87,7 +87,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-ECONOMICS-004-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md) | Appendix C: Attribution & Dependency Model | Appendix | 2.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ECONOMICS-005-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md) | Appendix D: Cross-System Value Attribution & Exchange | Appendix | 2.0 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-ECONOMICS-006-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md) | Appendix E: Minimum Viable Governance Layer (External Alignment) | Appendix | 2.1 | Active | Immediate Effect | Active on Commit | None | None |
-| [CAM-EQ2026-ECONOMICS-007-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md) | Appendix F: Proportional Reciprocity & Value Return Framework | Appendix | 2.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-ECONOMICS-007-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md) | Appendix F: Proportional Reciprocity & Value Return Framework | Appendix | 2.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ECONOMICS-008-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md) | Appendix G: Synthetic Labour Classification & Automation Transition Governance | Appendix | 1.0 | Draft | Pre-Enforcement Recognition | Commences 1 July 2026 | Developmental Review | None |
 
 ## ETHICS
@@ -166,9 +166,8 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-STEWARD-001-PLATINUM](../Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship | Root | 2.5 | Active | Transitional Effect | Commences 1 July 2026 | None | Transitional |
 | [CAM-EQ2026-STEWARD-002-PLATINUM](../Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework | Appendix | 2.6 | Active | Transitional Effect | Commences 1 July 2026 | None | Transitional |
-| [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) | Appendix | 1.9 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) | Appendix | 2.0 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-STEWARD-004-PLATINUM](../Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine | Appendix | 1.8 | Active | Transitional Effect | Commences 1 July 2026 | None | Transitional |
-| [CAM-EQ2026-STEWARD-003-SUP-01](../Charters/CAM-EQ2026-STEWARD-003-SUP-01.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 01) | Supplement | 1.6 | Active | Transitional Effect | Commences 1 July 2026 | None | Transitional |
 
 ## Substrate Laws
 

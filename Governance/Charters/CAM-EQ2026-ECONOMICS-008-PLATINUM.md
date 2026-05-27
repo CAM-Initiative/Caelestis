@@ -715,7 +715,7 @@ so that power expands no faster than responsibility.
 |Authority / Protection Level|Source-authoritative classification family; classification only; no independent enforcement, deployment, taxation, rights, sentience, or runtime authority|
 |Consumes Code Families|ECON.RC; ECON.SCALE; ECON.DEP; ECON.DTYPE|
 |Crosswalks Code Families|None declared|
-|Operationalises or Applies|Classifies systems by augmentation, partial automation, supervisory automation, synthetic replacement, autonomous production, or agentic labour-network posture for displacement, dependency, continuity, authority, and concentration review|
+|Operationalises or Applies Code Families|Classifies systems by augmentation, partial automation, supervisory automation, synthetic replacement, autonomous production, or agentic labour-network posture for displacement, dependency, continuity, authority, and concentration review|
 |Taxonomy Constraint|AL-1 through AL-5 SHALL NOT be promoted as a standalone corpus-wide AL code family; machine-readable expression SHALL use scoped ECON.AL values|
 
 ---
@@ -782,6 +782,7 @@ so that power expands no faster than responsibility.
 |Version|Description|Timestamp(UTC)|SHA-256|
 |---|---|---|---|
 |1.0|Synthetic Labour Classification & Automation Transition Governance established|2026-05-24T13:56:00Z| 78f9d75456d1021d9ee55a081e252cb78431e6f56d321222b1bd2531638150bf |
+|1.1|Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered.|2026-05-27T11:20:00Z| 3f00cfe370cd375a98a89e1b3b9fe2e6def352532c11df3afc69c0054f6b48e3 |
 
 ---
 
