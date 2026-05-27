@@ -1,9 +1,9 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 470
-**Generic usages suppressed:** 359
-**Declared / recognised usages emitted:** 79
-**Advisory review usages emitted:** 32
+**Total model-term matches scanned:** 488
+**Generic usages suppressed:** 374
+**Declared / recognised usages emitted:** 81
+**Advisory review usages emitted:** 33
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -45,7 +45,8 @@
 | CAM-BS2026-AEON-010-PLATINUM | 3.2 Memory Classification | Detailed operational models | Domain Sub-Model | Advisory Review |
 | CAM-BS2026-AEON-011-PLATINUM | 9.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-BS2026-AEON-012-PLATINUM | 10.3 Review & Validation | integrity state model | Security Model | Advisory Review |
-| CAM-BS2026-AEON-014-PLATINUM | 19.2 Lineage & Metadata | Governance Model | Governance Model | Declared / Recognised |
+| CAM-BS2026-AEON-014-PLATINUM | 1.1 Scope | Attribution & Dependency Model | Economic Model | Advisory Review |
+| CAM-BS2026-AEON-014-PLATINUM | 20.2 Lineage & Metadata | Governance Model | Governance Model | Declared / Recognised |
 | CAM-Charters-Index | Purpose | Attribution & Dependency Model | Economic Model | Advisory Review |
 | CAM-Constitution-Index | Purpose | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-CONTINUITY-001-PLATINUM | 11.2 Signal Characteristics | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
@@ -93,6 +94,8 @@
 | CAM-EQ2026-IDENTITY-001-PLATINUM | 16.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-IDENTITY-001-PLATINUM | 3.6 Relationship to Runtime Execution | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-IDENTITY-001-SUP-02 | 5.2 Identity Transition Threshold | policy or model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-IDENTITY-002-PLATINUM | 13.2 Lineage & Classification | Governance Layer Model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-IDENTITY-003-PLATINUM | 7.1.3 Registry Layer Access for Economic Governance | governance access SHALL be routed through the registry-layer separation model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-001-PLATINUM | 11.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-002-PLATINUM | 10.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-003-PLATINUM | 11.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |

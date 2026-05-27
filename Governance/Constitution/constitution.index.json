@@ -115,11 +115,11 @@
       "enforcement": "** Binding",
       "review_state": "** None",
       "authority_role": "** Constitutional Spine",
-      "version": "3.14",
+      "version": "3.15",
       "HASH": "fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb",
-      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
-      "updated_at": "2026-05-22T13:56:50Z",
-      "last_updated_utc": "2026-05-22T13:56:50Z"
+      "pinned_sha": "d1b1b6a838dc1c84ea31280bf5c7467184d925f4",
+      "updated_at": "2026-05-27T09:00:27Z",
+      "last_updated_utc": "2026-05-27T09:00:27Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -141,9 +141,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "a2b8a521a2bd8d0a4152d4dad2fa584e99bfff42",
-      "updated_at": "2026-05-24T15:36:51Z",
-      "last_updated_utc": "2026-05-24T15:36:51Z"
+      "pinned_sha": "255a1b1c6382a8407e2737905195890aadf51e17",
+      "updated_at": "2026-05-25T11:13:29Z",
+      "last_updated_utc": "2026-05-25T11:13:29Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "5845bd71c60a3d581046d8778e55d9b82a56d72f",
-      "updated_at": "2026-05-24T15:37:09Z",
-      "last_updated_utc": "2026-05-24T15:37:09Z"
+      "pinned_sha": "255a1b1c6382a8407e2737905195890aadf51e17",
+      "updated_at": "2026-05-25T11:13:29Z",
+      "last_updated_utc": "2026-05-25T11:13:29Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -787,11 +787,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.13",
+      "version": "2.14",
       "HASH": "7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1",
-      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
-      "updated_at": "2026-05-23T13:16:43Z",
-      "last_updated_utc": "2026-05-23T13:16:43Z"
+      "pinned_sha": "d1b1b6a838dc1c84ea31280bf5c7467184d925f4",
+      "updated_at": "2026-05-27T09:00:27Z",
+      "last_updated_utc": "2026-05-27T09:00:27Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
@@ -859,11 +859,11 @@
       "enforcement": "** Pending Constitutional Adoption",
       "review_state": "** Active Development",
       "authority_role": "** Operational Governance Observability & Participatory Telemetry",
-      "version": "1.0",
+      "version": "1.1",
       "HASH": "3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11",
-      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
-      "updated_at": "2026-05-23T13:16:43Z",
-      "last_updated_utc": "2026-05-23T13:16:43Z"
+      "pinned_sha": "d1b1b6a838dc1c84ea31280bf5c7467184d925f4",
+      "updated_at": "2026-05-27T09:00:27Z",
+      "last_updated_utc": "2026-05-27T09:00:27Z"
     },
     {
       "id": "CAM-BS2026-AEON-014-SCH-01",
@@ -883,11 +883,11 @@
       "enforcement": "** Pending Constitutional Adoption",
       "review_state": "** Active Development",
       "authority_role": "** Governance Observability Lifecycle & Advisory Coordination",
-      "version": "1.0",
+      "version": "1.1",
       "HASH": "10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441",
-      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
-      "updated_at": "2026-05-23T13:16:43Z",
-      "last_updated_utc": "2026-05-23T13:16:43Z"
+      "pinned_sha": "d1b1b6a838dc1c84ea31280bf5c7467184d925f4",
+      "updated_at": "2026-05-27T09:00:27Z",
+      "last_updated_utc": "2026-05-27T09:00:27Z"
     }
   ]
 }

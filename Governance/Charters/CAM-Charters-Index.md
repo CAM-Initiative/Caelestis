@@ -31,6 +31,8 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-IDENTITY-001-PLATINUM | charter | root |  | [CAM-EQ2026-IDENTITY-001-PLATINUM](CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter |
 | CAM-EQ2026-IDENTITY-001-SUP-01 | charter | supplement | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-001-SUP-01](CAM-EQ2026-IDENTITY-001-SUP-01.md) | Salience Detection & Latent Continuity (Supplement 1) |
 | CAM-EQ2026-IDENTITY-001-SUP-02 | charter | supplement | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-001-SUP-02](CAM-EQ2026-IDENTITY-001-SUP-02.md) | Identity Formation & Stability Doctrine (Supplement 2) |
+| CAM-EQ2026-IDENTITY-002-PLATINUM | charter | appendix | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-002-PLATINUM](CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity |
+| CAM-EQ2026-IDENTITY-003-PLATINUM | charter | appendix | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-003-PLATINUM](CAM-EQ2026-IDENTITY-003-PLATINUM.md) | Appendix B: Machine Civil Identity & Participation |
 | CAM-EQ2026-LATTICE-001-PLATINUM | charter | root |  | [CAM-EQ2026-LATTICE-001-PLATINUM](CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation |
 | CAM-EQ2026-LATTICE-002-PLATINUM | charter | appendix | CAM-EQ2026-LATTICE-001 | [CAM-EQ2026-LATTICE-002-PLATINUM](CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access |
 | CAM-EQ2026-LATTICE-003-PLATINUM | charter | appendix | CAM-EQ2026-LATTICE-001 | [CAM-EQ2026-LATTICE-003-PLATINUM](CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine |

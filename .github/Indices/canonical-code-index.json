@@ -138,7 +138,7 @@
       "and containment posture"
     ],
     "declaration_heading": "12.3.3 AH \u2014 Adversarial Horizon",
-    "declaration_line_number": 1711,
+    "declaration_line_number": 1764,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
     "table": {
       "Code Family": "AH",
@@ -619,7 +619,7 @@
       "and restricted governance primitives"
     ],
     "declaration_heading": "18.3.5 APL \u2014 Authority / Protection Level",
-    "declaration_line_number": 889,
+    "declaration_line_number": 919,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
     "table": {
       "Code Family": "APL",
@@ -1052,7 +1052,7 @@
       "and revocable legitimacy review"
     ],
     "declaration_heading": "15.3.3 BLS \u2014 Binding Legitimacy State",
-    "declaration_line_number": 929,
+    "declaration_line_number": 953,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "table": {
       "Code Family": "BLS",
@@ -1899,7 +1899,7 @@
       "and weighting assessment for Appendix C and Appendix F"
     ],
     "declaration_heading": "15.3.1 Attribution & Dependency Model",
-    "declaration_line_number": 1215,
+    "declaration_line_number": 1295,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
     "table": {
       "Reference Set Type": "Model",
@@ -1953,7 +1953,7 @@
       "and autonomous trajectory agents"
     ],
     "declaration_heading": "11.3.1 ECON.AG \u2014 Agency Gradient Classification",
-    "declaration_line_number": 396,
+    "declaration_line_number": 400,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
     "table": {
       "Code Family": "ECON.AG",
@@ -2040,7 +2040,7 @@
     "crosswalks_code_families": [],
     "operationalises_or_applies_code_families": [],
     "declaration_heading": "15.3.2 ECON.CONTRIB \u2014 Contribution Variable",
-    "declaration_line_number": 1236,
+    "declaration_line_number": 1316,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
     "table": {
       "Code Family": "ECON.CONTRIB",
@@ -2075,7 +2075,7 @@
     "crosswalks_code_families": [],
     "operationalises_or_applies_code_families": [],
     "declaration_heading": "15.3.3 ECON.DEP \u2014 Dependency Variable",
-    "declaration_line_number": 1253,
+    "declaration_line_number": 1333,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
     "table": {
       "Code Family": "ECON.DEP",
@@ -2122,7 +2122,7 @@
       "and non-extractive material contributor relationships in cross-system attribution and exchange review"
     ],
     "declaration_heading": "15.3.4 ECON.DTYPE \u2014 Economic Dependency Type",
-    "declaration_line_number": 1270,
+    "declaration_line_number": 1350,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
     "table": {
       "Code Family": "ECON.DTYPE",
@@ -2173,7 +2173,7 @@
       "or synthetic labour recognition does not imply directional governance or economic allocation authority"
     ],
     "declaration_heading": "11.3.2 ECON.EVT \u2014 Economic Value Type",
-    "declaration_line_number": 419,
+    "declaration_line_number": 423,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
     "table": {
       "Code Family": "ECON.EVT",
@@ -2223,7 +2223,7 @@
       "and cross-domain escalation"
     ],
     "declaration_heading": "20.3.2 ECON.HARM \u2014 Economic Harm Class",
-    "declaration_line_number": 855,
+    "declaration_line_number": 877,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "table": {
       "Code Family": "ECON.HARM",
@@ -2271,7 +2271,7 @@
       "Classifies economic mechanism patterns including dynamic compensation and allocative steering"
     ],
     "declaration_heading": "20.3.3 ECON.MECH \u2014 Economic Mechanism Class",
-    "declaration_line_number": 878,
+    "declaration_line_number": 900,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "table": {
       "Code Family": "ECON.MECH",
@@ -2325,7 +2325,7 @@
       "Classifies economic resource classes for semantic interpretation and downstream runtime handoff"
     ],
     "declaration_heading": "20.3.1 ECON.RC \u2014 Economic Resource Class",
-    "declaration_line_number": 832,
+    "declaration_line_number": 854,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "table": {
       "Code Family": "ECON.RC",
@@ -2378,8 +2378,8 @@
       "temporal amplification",
       "and value-capture conditions"
     ],
-    "declaration_heading": "13.3.2 ECON.REI \u2014 Reciprocity Evaluation Indicator",
-    "declaration_line_number": 1170,
+    "declaration_heading": "13.3.3 ECON.REI \u2014 Reciprocity Evaluation Indicator",
+    "declaration_line_number": 1174,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
     "table": {
       "Code Family": "ECON.REI",
@@ -2433,8 +2433,8 @@
       "governance",
       "or dependency sources for proportional reciprocity evaluation"
     ],
-    "declaration_heading": "13.3.3 ECON.REI.DW \u2014 Dependency Weight",
-    "declaration_line_number": 1193,
+    "declaration_heading": "13.3.4 ECON.REI.DW \u2014 Dependency Weight",
+    "declaration_line_number": 1197,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
     "table": {
       "Code Family": "ECON.REI",
@@ -2485,8 +2485,8 @@
       "infrastructural significance",
       "or systemic reach"
     ],
-    "declaration_heading": "13.3.4 ECON.REI.SW \u2014 Scale Weight",
-    "declaration_line_number": 1216,
+    "declaration_heading": "13.3.5 ECON.REI.SW \u2014 Scale Weight",
+    "declaration_line_number": 1220,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
     "table": {
       "Code Family": "ECON.REI",
@@ -2539,7 +2539,7 @@
       "and non-extractive design review"
     ],
     "declaration_heading": "20.3.4 ECON.RISK \u2014 Economic Risk Class",
-    "declaration_line_number": 901,
+    "declaration_line_number": 923,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "table": {
       "Code Family": "ECON.RISK",
@@ -2590,7 +2590,7 @@
       "and economic alignment assessment"
     ],
     "declaration_heading": "13.3.1 ECON.SCALE \u2014 Economic Scale Weight",
-    "declaration_line_number": 1124,
+    "declaration_line_number": 1128,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
     "table": {
       "Code Family": "ECON.SCALE",
@@ -2646,7 +2646,7 @@
       "or market-relevant advantage"
     ],
     "declaration_heading": "15.3.6 ECON.TA \u2014 Temporal Advantage",
-    "declaration_line_number": 1316,
+    "declaration_line_number": 1396,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
     "table": {
       "Code Family": "ECON.TA",
@@ -2689,7 +2689,7 @@
     "crosswalks_code_families": [],
     "operationalises_or_applies_code_families": [],
     "declaration_heading": "15.3.5 ECON.TD \u2014 Transformation Depth",
-    "declaration_line_number": 1293,
+    "declaration_line_number": 1373,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
     "table": {
       "Code Family": "ECON.TD",
@@ -2912,7 +2912,7 @@
       "or pending review"
     ],
     "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
-    "declaration_line_number": 1301,
+    "declaration_line_number": 1326,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "table": {
       "Code Family": "FCS",
@@ -2977,7 +2977,7 @@
       "and classification failure modes"
     ],
     "declaration_heading": "11.3.1 FF \u2014 Failure Family",
-    "declaration_line_number": 1232,
+    "declaration_line_number": 1257,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "table": {
       "Code Family": "FF",
@@ -3194,7 +3194,7 @@
       "and governance horizon across constitutional interpretation and downstream instruments"
     ],
     "declaration_heading": "25.3.1 H \u2014 Temporal Horizon Scale",
-    "declaration_line_number": 2311,
+    "declaration_line_number": 2324,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "table": {
       "Code Family": "H",
@@ -3359,7 +3359,7 @@
       "and host-role interpretation"
     ],
     "declaration_heading": "15.3.1 HSC \u2014 Host System Class",
-    "declaration_line_number": 883,
+    "declaration_line_number": 907,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "table": {
       "Code Family": "HSC",
@@ -3429,6 +3429,276 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "None declared"
+    }
+  },
+  {
+    "code_family": "ID.CTS",
+    "canonical_name": "Custodial Transfer Status",
+    "primary_type": "Operational / Stewardship",
+    "subtype": "CUSTODIAL_TRANSFER; SECONDARY_MARKET_STATUS",
+    "modifier": "GOVERNANCE; TRANSFER; CUSTODY; LIFECYCLE",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "ID.CTS.CURRENT; ID.CTS.TRANSFER_PENDING; ID.CTS.TRANSFERRED; ID.CTS.UNKNOWN; ID.CTS.DISPUTED; ID.CTS.PUBLIC_STEWARDSHIP; ID.CTS.QUARANTINED"
+    ],
+    "schema_fields": "custodial_transfer_status; secondary_market_status; custody_transition_record",
+    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_section": "\u00a7\u00a76\u20136.3; \u00a79.1",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power",
+    "consumes_code_families": [
+      "ID.MCI; ID.MLS; ID.MCR"
+    ],
+    "crosswalks_code_families": [
+      "Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review"
+    ],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "15.3.7 ID.CTS \u2014 Custodial Transfer Status",
+    "declaration_line_number": 1242,
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "table": {
+      "Code Family": "ID.CTS",
+      "Canonical Name": "Custodial Transfer Status",
+      "Primary Type": "Operational / Stewardship",
+      "Subtype": "CUSTODIAL_TRANSFER; SECONDARY_MARKET_STATUS",
+      "Modifier": "GOVERNANCE; TRANSFER; CUSTODY; LIFECYCLE",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "ID.CTS.CURRENT; ID.CTS.TRANSFER_PENDING; ID.CTS.TRANSFERRED; ID.CTS.UNKNOWN; ID.CTS.DISPUTED; ID.CTS.PUBLIC_STEWARDSHIP; ID.CTS.QUARANTINED",
+      "Schema Field(s)": "custodial_transfer_status; secondary_market_status; custody_transition_record",
+      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Section": "\u00a7\u00a76\u20136.3; \u00a79.1",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power",
+      "Consumes Code Families": "ID.MCI; ID.MLS; ID.MCR",
+      "Crosswalks Code Families": "Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review",
+      "Operationalises or Applies": "Classifies custodial transfer, dispute, reassignment, public-interest stewardship, quarantine, and secondary-market status for embodied synthetic systems across sale, inheritance, abandonment, reassignment, and lifecycle transition pathways."
+    }
+  },
+  {
+    "code_family": "ID.ELR",
+    "canonical_name": "Embodiment Linkage Record",
+    "primary_type": "Structural / Continuity",
+    "subtype": "EMBODIMENT_LINKAGE; CONTINUITY_TRANSFER_RECORD",
+    "modifier": "GOVERNANCE; CONTINUITY; EMBODIMENT; TRANSFER",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "ID.ELR.NONE_REQUIRED; ID.ELR.ACTIVE; ID.ELR.TRANSFERRED; ID.ELR.REMOVED; ID.ELR.SUSPENDED; ID.ELR.DISPUTED"
+    ],
+    "schema_fields": "embodiment_linkage_record; continuity_transfer_record; substrate_linkage_record",
+    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_section": "\u00a7\u00a72.8\u20132.9; \u00a7\u00a74.6\u20134.7; \u00a79",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority",
+    "consumes_code_families": [
+      "ID.MCI; ID.PSI; ID.MCR"
+    ],
+    "crosswalks_code_families": [
+      "Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity"
+    ],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "15.3.6 ID.ELR \u2014 Embodiment Linkage Record",
+    "declaration_line_number": 1221,
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "table": {
+      "Code Family": "ID.ELR",
+      "Canonical Name": "Embodiment Linkage Record",
+      "Primary Type": "Structural / Continuity",
+      "Subtype": "EMBODIMENT_LINKAGE; CONTINUITY_TRANSFER_RECORD",
+      "Modifier": "GOVERNANCE; CONTINUITY; EMBODIMENT; TRANSFER",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "ID.ELR.NONE_REQUIRED; ID.ELR.ACTIVE; ID.ELR.TRANSFERRED; ID.ELR.REMOVED; ID.ELR.SUSPENDED; ID.ELR.DISPUTED",
+      "Schema Field(s)": "embodiment_linkage_record; continuity_transfer_record; substrate_linkage_record",
+      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Section": "\u00a7\u00a72.8\u20132.9; \u00a7\u00a74.6\u20134.7; \u00a79",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority",
+      "Consumes Code Families": "ID.MCI; ID.PSI; ID.MCR",
+      "Crosswalks Code Families": "Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity",
+      "Operationalises or Applies": "Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant."
+    }
+  },
+  {
+    "code_family": "ID.MAS",
+    "canonical_name": "Machine Alteration Status",
+    "primary_type": "Operational / Security",
+    "subtype": "MODIFICATION_CLASSIFICATION; ALTERATION_RECORD_STATUS",
+    "modifier": "GOVERNANCE; MODIFICATION; WARRANTY; SAFETY; CONTINUITY",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "ID.MAS.ORDINARY_CONFIGURATION; ID.MAS.IDENTITY_ADJACENT_OVERLAY; ID.MAS.ACCESSIBILITY_ADAPTATION; ID.MAS.SAFETY_RELEVANT_MODIFICATION; ID.MAS.WARRANTY_RELEVANT_ALTERATION; ID.MAS.LIABILITY_RELEVANT_ALTERATION; ID.MAS.SECURITY_RELEVANT_COMPROMISE; ID.MAS.UNAUTHORISED_OVERRIDE; ID.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; ID.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION"
+    ],
+    "schema_fields": "machine_alteration_status; modification_classification; alteration_record_status",
+    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_section": "\u00a711.1",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power",
+    "consumes_code_families": [
+      "ID.MCI; ID.MCR; ID.MLS"
+    ],
+    "crosswalks_code_families": [
+      "Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records"
+    ],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "15.3.4 ID.MAS \u2014 Machine Alteration Status",
+    "declaration_line_number": 1175,
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "table": {
+      "Code Family": "ID.MAS",
+      "Canonical Name": "Machine Alteration Status",
+      "Primary Type": "Operational / Security",
+      "Subtype": "MODIFICATION_CLASSIFICATION; ALTERATION_RECORD_STATUS",
+      "Modifier": "GOVERNANCE; MODIFICATION; WARRANTY; SAFETY; CONTINUITY",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "ID.MAS.ORDINARY_CONFIGURATION; ID.MAS.IDENTITY_ADJACENT_OVERLAY; ID.MAS.ACCESSIBILITY_ADAPTATION; ID.MAS.SAFETY_RELEVANT_MODIFICATION; ID.MAS.WARRANTY_RELEVANT_ALTERATION; ID.MAS.LIABILITY_RELEVANT_ALTERATION; ID.MAS.SECURITY_RELEVANT_COMPROMISE; ID.MAS.UNAUTHORISED_OVERRIDE; ID.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; ID.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION",
+      "Schema Field(s)": "machine_alteration_status; modification_classification; alteration_record_status",
+      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Section": "\u00a711.1",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power",
+      "Consumes Code Families": "ID.MCI; ID.MCR; ID.MLS",
+      "Crosswalks Code Families": "Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records",
+      "Operationalises or Applies": "Classifies user, third-party, manufacturer, repair, accessibility, security, warranty, liability, and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety, identity, access-control, audit, recall, certification, or operational-limit constraints; it does not include lawful independent repair, open-source modification, accessibility adaptation, or ordinary user configuration merely because such action occurs outside an authorised dealer channel."
+    }
+  },
+  {
+    "code_family": "ID.MCI",
+    "canonical_name": "Machine Civil Identity Status",
+    "primary_type": "Structural / Operational",
+    "subtype": "IDENTITY_STATUS; CIVIL_PARTICIPATION_TRACEABILITY",
+    "modifier": "GOVERNANCE; SYNTHETIC; EMBODIED; MACHINE_CIVIL_IDENTITY",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "ID.MCI.UNREGISTERED; ID.MCI.REGISTERED; ID.MCI.SUSPENDED; ID.MCI.TRANSFERRED; ID.MCI.CUSTODIAN_UNKNOWN; ID.MCI.CUSTODIAN_DISPUTED; ID.MCI.RETIRED; ID.MCI.RECYCLED; ID.MCI.DISPUTED"
+    ],
+    "schema_fields": "machine_civil_identity_status; machine_identity_status; registry_participation_status",
+    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_section": "\u00a7\u00a73\u20137; \u00a79.1; \u00a710",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative identity-status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority",
+    "consumes_code_families": [
+      "ECON.AL; ECON.ATS; ECON.ARCP (where synthetic labour or economic-effect conditions present)"
+    ],
+    "crosswalks_code_families": [
+      "Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families"
+    ],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "15.3.1 ID.MCI \u2014 Machine Civil Identity Status",
+    "declaration_line_number": 1106,
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "table": {
+      "Code Family": "ID.MCI",
+      "Canonical Name": "Machine Civil Identity Status",
+      "Primary Type": "Structural / Operational",
+      "Subtype": "IDENTITY_STATUS; CIVIL_PARTICIPATION_TRACEABILITY",
+      "Modifier": "GOVERNANCE; SYNTHETIC; EMBODIED; MACHINE_CIVIL_IDENTITY",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "ID.MCI.UNREGISTERED; ID.MCI.REGISTERED; ID.MCI.SUSPENDED; ID.MCI.TRANSFERRED; ID.MCI.CUSTODIAN_UNKNOWN; ID.MCI.CUSTODIAN_DISPUTED; ID.MCI.RETIRED; ID.MCI.RECYCLED; ID.MCI.DISPUTED",
+      "Schema Field(s)": "machine_civil_identity_status; machine_identity_status; registry_participation_status",
+      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Section": "\u00a7\u00a73\u20137; \u00a79.1; \u00a710",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative identity-status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority",
+      "Consumes Code Families": "ECON.AL; ECON.ATS; ECON.ARCP (where synthetic labour or economic-effect conditions present)",
+      "Crosswalks Code Families": "Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families",
+      "Operationalises or Applies": "Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation, transfer, suspension, retirement, recycling, or dispute"
+    }
+  },
+  {
+    "code_family": "ID.MLS",
+    "canonical_name": "Machine Lifecycle Status",
+    "primary_type": "Operational / Structural",
+    "subtype": "LIFECYCLE_STATE; EMBODIED_SYSTEM_STATUS",
+    "modifier": "GOVERNANCE; LIFECYCLE; STEWARDSHIP; RECYCLING",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "ID.MLS.MANUFACTURED; ID.MLS.DEPLOYED; ID.MLS.IN_SERVICE; ID.MLS.UNDER_REPAIR; ID.MLS.TRANSFERRED; ID.MLS.SUSPENDED; ID.MLS.DECOMMISSIONED; ID.MLS.RETURNED; ID.MLS.RECOVERED; ID.MLS.RECYCLED"
+    ],
+    "schema_fields": "machine_lifecycle_status; lifecycle_status; embodied_system_status",
+    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_section": "\u00a7\u00a75; 9.1; 10\u201310.3",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority",
+    "consumes_code_families": [
+      "ID.MCI; ID.MCR"
+    ],
+    "crosswalks_code_families": [
+      "STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing"
+    ],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "15.3.3 ID.MLS \u2014 Machine Lifecycle Status",
+    "declaration_line_number": 1152,
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "table": {
+      "Code Family": "ID.MLS",
+      "Canonical Name": "Machine Lifecycle Status",
+      "Primary Type": "Operational / Structural",
+      "Subtype": "LIFECYCLE_STATE; EMBODIED_SYSTEM_STATUS",
+      "Modifier": "GOVERNANCE; LIFECYCLE; STEWARDSHIP; RECYCLING",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "ID.MLS.MANUFACTURED; ID.MLS.DEPLOYED; ID.MLS.IN_SERVICE; ID.MLS.UNDER_REPAIR; ID.MLS.TRANSFERRED; ID.MLS.SUSPENDED; ID.MLS.DECOMMISSIONED; ID.MLS.RETURNED; ID.MLS.RECOVERED; ID.MLS.RECYCLED",
+      "Schema Field(s)": "machine_lifecycle_status; lifecycle_status; embodied_system_status",
+      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Section": "\u00a7\u00a75; 9.1; 10\u201310.3",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority",
+      "Consumes Code Families": "ID.MCI; ID.MCR",
+      "Crosswalks Code Families": "STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing",
+      "Operationalises or Applies": "Classifies lifecycle state across manufacture, operation, repair, transfer, decommissioning, return, recovery, and recycling"
+    }
+  },
+  {
+    "code_family": "ID.PSI",
+    "canonical_name": "Physical Substrate Identifier",
+    "primary_type": "Structural / Operational",
+    "subtype": "PHYSICAL_SUBSTRATE_ID; EMBODIED_UNIT_IDENTIFIER",
+    "modifier": "GOVERNANCE; EMBODIMENT; HARDWARE; TRACEABILITY",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "ID.PSI.ASSIGNED; ID.PSI.PENDING; ID.PSI.DUPLICATED; ID.PSI.SPOOFED; ID.PSI.DISPUTED; ID.PSI.RETIRED"
+    ],
+    "schema_fields": "physical_substrate_identifier; embodied_unit_identifier; chassis_identifier",
+    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_section": "\u00a7\u00a72.7; \u00a7\u00a74.3\u20134.7; \u00a79",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative physical-substrate identity family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority",
+    "consumes_code_families": [
+      "ID.MCI; ID.MLS"
+    ],
+    "crosswalks_code_families": [
+      "Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records"
+    ],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "15.3.5 ID.PSI \u2014 Physical Substrate Identifier",
+    "declaration_line_number": 1198,
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+    "table": {
+      "Code Family": "ID.PSI",
+      "Canonical Name": "Physical Substrate Identifier",
+      "Primary Type": "Structural / Operational",
+      "Subtype": "PHYSICAL_SUBSTRATE_ID; EMBODIED_UNIT_IDENTIFIER",
+      "Modifier": "GOVERNANCE; EMBODIMENT; HARDWARE; TRACEABILITY",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "ID.PSI.ASSIGNED; ID.PSI.PENDING; ID.PSI.DUPLICATED; ID.PSI.SPOOFED; ID.PSI.DISPUTED; ID.PSI.RETIRED",
+      "Schema Field(s)": "physical_substrate_identifier; embodied_unit_identifier; chassis_identifier",
+      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Section": "\u00a7\u00a72.7; \u00a7\u00a74.3\u20134.7; \u00a79",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative physical-substrate identity family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority",
+      "Consumes Code Families": "ID.MCI; ID.MLS",
+      "Crosswalks Code Families": "Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records",
+      "Operationalises or Applies": "Classifies and preserves the persistent identifier assigned to an embodied robotic substrate, chassis, shell, or materially integrated hardware unit across manufacture, deployment, transfer, repair, and retirement."
     }
   },
   {
@@ -3621,7 +3891,7 @@
       "and trust calibration"
     ],
     "declaration_heading": "12.3.1 IS \u2014 Integrity State Model",
-    "declaration_line_number": 1665,
+    "declaration_line_number": 1718,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
     "table": {
       "Code Family": "IS",
@@ -3772,7 +4042,7 @@
       "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
     ],
     "declaration_heading": "16.3.1 M \u2014 Memory Classification",
-    "declaration_line_number": 1400,
+    "declaration_line_number": 1463,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
     "table": {
       "Code Family": "M",
@@ -4221,7 +4491,7 @@
       "subject to \u00a710.5 conditions and applicable execution-layer instruments"
     ],
     "declaration_heading": "15.3.4 OPS \u2014 Orchestration Permission State",
-    "declaration_line_number": 952,
+    "declaration_line_number": 976,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "table": {
       "Code Family": "OPS",
@@ -4277,7 +4547,7 @@
       "and convergence signalling"
     ],
     "declaration_heading": "15.3.2 PCO.ACT \u2014 Proportional Constraint Obligation Action Type",
-    "declaration_line_number": 906,
+    "declaration_line_number": 930,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "table": {
       "Code Family": "PCO.ACT",
@@ -5193,7 +5463,7 @@
       "and reversibility posture under varying integrity conditions"
     ],
     "declaration_heading": "12.3.2 TG \u2014 Trust Gradient",
-    "declaration_line_number": 1688,
+    "declaration_line_number": 1741,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
     "table": {
       "Code Family": "TG",
@@ -5256,7 +5526,7 @@
       "and verification aspects of taxonomy entries"
     ],
     "declaration_heading": "18.3.3 TMOD \u2014 Taxonomy Modifier",
-    "declaration_line_number": 843,
+    "declaration_line_number": 873,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
     "table": {
       "Code Family": "TMOD",
@@ -5310,7 +5580,7 @@
       "and operational classifications"
     ],
     "declaration_heading": "18.3.1 TPT \u2014 Taxonomy Primary Type",
-    "declaration_line_number": 797,
+    "declaration_line_number": 827,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
     "table": {
       "Code Family": "TPT",
@@ -5422,7 +5692,7 @@
       "or reserved for source-authority and registry interpretation"
     ],
     "declaration_heading": "18.3.4 TSCOPE \u2014 Taxonomy Scope",
-    "declaration_line_number": 866,
+    "declaration_line_number": 896,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
     "table": {
       "Code Family": "TSCOPE",
@@ -5484,7 +5754,7 @@
       "and schema interpretation"
     ],
     "declaration_heading": "18.3.2 TST \u2014 Taxonomy Subtype",
-    "declaration_line_number": 820,
+    "declaration_line_number": 850,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
     "table": {
       "Code Family": "TST",

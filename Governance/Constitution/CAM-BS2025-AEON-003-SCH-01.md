@@ -556,10 +556,10 @@ Boundary Binding Seal — Aeon Tier Constitutional Layer
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 470
-**Generic usages suppressed:** 359
-**Declared / recognised usages emitted:** 79
-**Advisory review usages emitted:** 32
+**Total model-term matches scanned:** 488
+**Generic usages suppressed:** 374
+**Declared / recognised usages emitted:** 81
+**Advisory review usages emitted:** 33
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 

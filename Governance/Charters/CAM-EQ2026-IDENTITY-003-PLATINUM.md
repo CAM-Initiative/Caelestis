@@ -1277,7 +1277,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 | Version | Description | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
-| 1.0 | Machine Civil Identity & Participation appendix established | 2026-05-26T13:57:00Z | |
+| 1.0 | Machine Civil Identity & Participation appendix established | 2026-05-26T13:57:00Z | 81af7394cba5fe683a07a32eadfceede100201f46cb593a6c1c2ef0dd26acfc9 |
 
 ---
 
