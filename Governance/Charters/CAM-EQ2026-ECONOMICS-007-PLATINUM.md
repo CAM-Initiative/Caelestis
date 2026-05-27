@@ -983,7 +983,7 @@ This Appendix MUST NOT be interpreted as directly executing economic exchange.
 
 This Appendix:
 
-* depends on CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Minimal Attribution Model);
+* depends on CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Attribution & Dependency Model);
 * extends CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D (Value Attribution & Exchange);
 * complements CAM-EQ2026-ECONOMICS-006-PLATINUM — Appendix E (External Alignment Layer);
 * operates under the Charter’s anti-extraction and auditability principles.
@@ -1286,7 +1286,7 @@ Where growth is built upon others, let return follow in kind.
 | 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  a57d0bd6716154d4723c9ecd88c14609a518cee415861303d7d898ac183a644d  |
 | 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  d8e7058bada204ac8d4c1ae95a42d005b42c2a75d60093e696b8d5b428d6551f |
 | 2.0 | Economics domain refactor | 2026-05-24T14:03:00Z | a98f357771ebe14ae7f5fd966b26bcb885d4989793b272825fc17aac55105cb5 |
-| 2.1 | Amended clause 5.11, formatting and polish | 2026-05-25T12:12:00Z | |
+| 2.1 | Amended clause 5.11, formatting and polish, and normalised Appendix C title reference to canonical “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | |
 
 ---
 

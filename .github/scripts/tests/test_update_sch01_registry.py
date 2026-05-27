@@ -34,7 +34,7 @@ def test_model_term_classification_is_conservative():
 
 def test_model_term_review_status_non_blocking_defaults():
     assert sch01.classify_review_status("Execution Model") == "Declared / Recognised"
-    assert sch01.classify_review_status("Security Model") == "Advisory Review"
+    assert sch01.classify_review_status("Security Model") == "Declared / Recognised"
     assert sch01.classify_review_status("Generic / Non-Canonical Usage") == "Generic Usage"
     assert sch01.classify_review_status("Unclassified / Review") == "Needs Review"
 
@@ -81,7 +81,7 @@ def test_render_model_register_suppresses_generic_usage_rows():
             section_heading="H3",
             term_used="Attribution & Dependency Model",
             suggested_classification="Economic Model",
-            review_status="Advisory Review",
+            review_status="Declared / Recognised",
         ),
     ]
     out = sch01.render_model_terminology_register(rows)
@@ -108,7 +108,7 @@ def test_render_model_register_is_deterministic():
     rows = [
         sch01.ModelTerminologyItem("CAM-B", "H2", "Runtime Governance Execution Model", "Execution Model", "Declared / Recognised"),
         sch01.ModelTerminologyItem("CAM-A", "H1", "pricing models", "Generic / Non-Canonical Usage", "Generic Usage"),
-        sch01.ModelTerminologyItem("CAM-C", "H3", "Attribution & Dependency Model", "Economic Model", "Advisory Review"),
+        sch01.ModelTerminologyItem("CAM-C", "H3", "Attribution & Dependency Model", "Economic Model", "Declared / Recognised"),
     ]
     out1 = sch01.render_model_terminology_register(rows)
     out2 = sch01.render_model_terminology_register(rows)

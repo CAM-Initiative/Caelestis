@@ -328,12 +328,23 @@ def classify_model_term(term: str) -> str:
         return "Architecture Model"
     if "runtime governance execution model" in t or "governance execution model" in t:
         return "Execution Model"
-    if any(x in t for x in ("attribution & dependency model", "reciprocity economic interpretive model")):
+    if any(
+        x in t
+        for x in (
+            "attribution & dependency model",
+            "minimal attribution & dependency model",
+            "reciprocity economic interpretive model",
+        )
+    ):
         return "Economic Model"
     if any(x in t for x in ("integrity state model", "trust gradient model")):
         return "Security Model"
     if "response calibration model" in t:
-        return "Governance Model"
+        return "Domain-Recognised Model"
+    if "graduated domain sensitivity model" in t:
+        return "Domain-Recognised Model"
+    if "registry layer access model" in t or "registry layer separation model" in t:
+        return "Domain-Recognised Model"
     if any(x in t for x in ("classification model", "taxonomy model", "faceted model")):
         return "Classification Model"
     if any(x in t for x in ("ai model", "hosted model", "model-level", "multi-model", "model behaviour")):
@@ -352,9 +363,17 @@ def classify_model_term(term: str) -> str:
 
 
 def classify_review_status(classification: str) -> str:
-    if classification in {"Architecture Model", "Execution Model", "Governance Model", "Classification Model"}:
+    if classification in {
+        "Architecture Model",
+        "Execution Model",
+        "Governance Model",
+        "Classification Model",
+        "Economic Model",
+        "Security Model",
+        "Domain-Recognised Model",
+    }:
         return "Declared / Recognised"
-    if classification in {"Domain Sub-Model", "Economic Model", "Security Model", "Technical / AI Model"}:
+    if classification in {"Domain Sub-Model", "Technical / AI Model"}:
         return "Advisory Review"
     if classification == "Generic / Non-Canonical Usage":
         return "Generic Usage"
