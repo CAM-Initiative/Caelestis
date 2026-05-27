@@ -957,7 +957,7 @@ name the vessel, name the value
 | 1.0 | Initial : Taxonomies & Metadata Authority Framework | 2026-05-13T12:32:00Z | a01910364e41b0491ecb1cda79e26f6affc56bf0ce7adaa6fb8abb9e235c18cc |
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bc6ad952e454b56a26062a41577fcd4eded4080e2f41dbfc57a3f968d6cb1d51 |
 | 1.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  e7cb54b52b5d952b1384107aa50d180f9ad752fbff3dee7cd6f19ae7835f297a |
-| 1.3 | Added clause 10.1 | 2026-05-26T12:58:00Z | |
+| 1.3 | Added clause 10.1 | 2026-05-26T12:58:00Z | b1b0b7db36f105b23922515eb3134adcc61a3de04592ecf5a2fde6fd10790169 |
 
 ---
 

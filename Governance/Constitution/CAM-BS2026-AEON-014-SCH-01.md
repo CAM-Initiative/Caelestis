@@ -643,7 +643,7 @@ It is the discipline of noticing before repair is too late.
 |Version|Description|Timestamp(UTC)|SHA-256|
 |---|---|---|---|
 |1.0|Initial governance observability lifecycle instrument established|2026-05-22T10:32:00Z| 10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441 |
-|1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | |
+|1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 10fac67ca710490106fe5efb1647523b77f6eaa2942ace3dd6323108f105ad79 |
 
 
 ---

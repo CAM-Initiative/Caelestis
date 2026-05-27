@@ -449,7 +449,7 @@ PFAIL defines provenance and lineage integrity failure conditions only. Enforcem
 
 | Version | Detail                                                  | Date (UTC)           | HASH |
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
-| 1.0     | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T08:57:00Z | |
+| 1.0     | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T08:57:00Z | 7251e4cf128334243e46d0efd2f2d731cfc3e36c5d26be61552af5ac8e1b0329 |
 
 ---
 
