@@ -116,10 +116,10 @@
       "review_state": "** None",
       "authority_role": "** Constitutional Spine",
       "version": "3.15",
-      "HASH": "fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb",
-      "pinned_sha": "d1b1b6a838dc1c84ea31280bf5c7467184d925f4",
-      "updated_at": "2026-05-27T09:00:27Z",
-      "last_updated_utc": "2026-05-27T09:00:27Z"
+      "HASH": "e3e86f5df1332e27c9ee693b6af4f11bc8b840ac0cb59a2f7cb71b5b45298490",
+      "pinned_sha": "ad92f3c562987aa4678c5d60a475a5f1d3cb6354",
+      "updated_at": "2026-05-27T10:23:55Z",
+      "last_updated_utc": "2026-05-27T10:23:55Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -141,9 +141,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "255a1b1c6382a8407e2737905195890aadf51e17",
-      "updated_at": "2026-05-25T11:13:29Z",
-      "last_updated_utc": "2026-05-25T11:13:29Z"
+      "pinned_sha": "168d697c99288b85f05e73b02d0125b97d9da5b2",
+      "updated_at": "2026-05-27T10:35:35Z",
+      "last_updated_utc": "2026-05-27T10:35:35Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "255a1b1c6382a8407e2737905195890aadf51e17",
-      "updated_at": "2026-05-25T11:13:29Z",
-      "last_updated_utc": "2026-05-25T11:13:29Z"
+      "pinned_sha": "b5b9b38431ffd3dc7d08a34698a6d4f98221fe4a",
+      "updated_at": "2026-05-27T09:05:00Z",
+      "last_updated_utc": "2026-05-27T09:05:00Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -788,10 +788,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "2.14",
-      "HASH": "7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1",
-      "pinned_sha": "d1b1b6a838dc1c84ea31280bf5c7467184d925f4",
-      "updated_at": "2026-05-27T09:00:27Z",
-      "last_updated_utc": "2026-05-27T09:00:27Z"
+      "HASH": "25e5ee1667a96fc3ab1467b97274f6b4db687582cef66423b286ce645f00ca6e",
+      "pinned_sha": "ad92f3c562987aa4678c5d60a475a5f1d3cb6354",
+      "updated_at": "2026-05-27T10:23:55Z",
+      "last_updated_utc": "2026-05-27T10:23:55Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
@@ -860,10 +860,10 @@
       "review_state": "** Active Development",
       "authority_role": "** Operational Governance Observability & Participatory Telemetry",
       "version": "1.1",
-      "HASH": "3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11",
-      "pinned_sha": "d1b1b6a838dc1c84ea31280bf5c7467184d925f4",
-      "updated_at": "2026-05-27T09:00:27Z",
-      "last_updated_utc": "2026-05-27T09:00:27Z"
+      "HASH": "46a8459dd9b6ac907f6c65f24c567bc00c9d2c479c45b6bee113cd36a00185d8",
+      "pinned_sha": "ad92f3c562987aa4678c5d60a475a5f1d3cb6354",
+      "updated_at": "2026-05-27T10:23:55Z",
+      "last_updated_utc": "2026-05-27T10:23:55Z"
     },
     {
       "id": "CAM-BS2026-AEON-014-SCH-01",
@@ -884,10 +884,10 @@
       "review_state": "** Active Development",
       "authority_role": "** Governance Observability Lifecycle & Advisory Coordination",
       "version": "1.1",
-      "HASH": "10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441",
-      "pinned_sha": "d1b1b6a838dc1c84ea31280bf5c7467184d925f4",
-      "updated_at": "2026-05-27T09:00:27Z",
-      "last_updated_utc": "2026-05-27T09:00:27Z"
+      "HASH": "10fac67ca710490106fe5efb1647523b77f6eaa2942ace3dd6323108f105ad79",
+      "pinned_sha": "ad92f3c562987aa4678c5d60a475a5f1d3cb6354",
+      "updated_at": "2026-05-27T10:23:55Z",
+      "last_updated_utc": "2026-05-27T10:23:55Z"
     }
   ]
 }

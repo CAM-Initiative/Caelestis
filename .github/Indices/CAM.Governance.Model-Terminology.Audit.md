@@ -1,9 +1,9 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 488
-**Generic usages suppressed:** 374
-**Declared / recognised usages emitted:** 81
-**Advisory review usages emitted:** 33
+**Total model-term matches scanned:** 490
+**Generic usages suppressed:** 373
+**Declared / recognised usages emitted:** 108
+**Advisory review usages emitted:** 9
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -27,7 +27,7 @@
 | CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2) | Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2) | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-03 | Aeon Tier Constitution | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-03 | ECONOMICS | Attribution & Dependency Model | Economic Model | Advisory Review |
+| CAM-BS2025-AEON-003-SCH-03 | ECONOMICS | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-BS2025-AEON-006-SCH-01 | 8.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-006-SCH-02 | 15. Relational Signal Kernel | adjacent signals for submission into the canonical Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-006-SCH-02 | 15. Relational Signal Kernel | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
@@ -35,7 +35,7 @@
 | CAM-BS2025-AEON-006-SCH-02 | 15.3 Relational Signal Preparation Loop | RELATION-domain signals for submission into the canonical runtime execution model | Domain Sub-Model | Advisory Review |
 | CAM-BS2025-AEON-006-SCH-04 | 15.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-006-SCH-06 | 11. Relationship to Annex L | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-07 | 17.2 Lineage & Metadata | Graduated Domain Sensitivity Model | Domain Sub-Model | Advisory Review |
+| CAM-BS2025-AEON-006-SCH-07 | 17.2 Lineage & Metadata | Graduated Domain Sensitivity Model | Domain-Recognised Model | Declared / Recognised |
 | CAM-BS2025-AEON-006-SCH-07 | 2. Constitutional Position | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2026-AEON-007-SCH-01 | 14. Relationship to Other Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2026-AEON-007-SCH-01 | 14.1 Runtime Flow and Companion-Continuity Interface | Annex B Runtime Governance Execution Model | Execution Model | Declared / Recognised |
@@ -44,10 +44,10 @@
 | CAM-BS2026-AEON-008-SCH-02 | 35.2 Lineage & Metadata | Runtime governance execution model | Execution Model | Declared / Recognised |
 | CAM-BS2026-AEON-010-PLATINUM | 3.2 Memory Classification | Detailed operational models | Domain Sub-Model | Advisory Review |
 | CAM-BS2026-AEON-011-PLATINUM | 9.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-BS2026-AEON-012-PLATINUM | 10.3 Review & Validation | integrity state model | Security Model | Advisory Review |
-| CAM-BS2026-AEON-014-PLATINUM | 1.1 Scope | Attribution & Dependency Model | Economic Model | Advisory Review |
+| CAM-BS2026-AEON-012-PLATINUM | 10.3 Review & Validation | integrity state model | Security Model | Declared / Recognised |
+| CAM-BS2026-AEON-014-PLATINUM | 1.1 Scope | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-BS2026-AEON-014-PLATINUM | 20.2 Lineage & Metadata | Governance Model | Governance Model | Declared / Recognised |
-| CAM-Charters-Index | Purpose | Attribution & Dependency Model | Economic Model | Advisory Review |
+| CAM-Charters-Index | Purpose | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-Constitution-Index | Purpose | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-CONTINUITY-001-PLATINUM | 11.2 Signal Characteristics | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-CONTINUITY-001-PLATINUM | 14.2 Classification, Lineage & Structural Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
@@ -56,22 +56,25 @@
 | CAM-EQ2026-ECONOMICS-002-PLATINUM | 1. Scope | AI models | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-ECONOMICS-002-PLATINUM | 1.2 Execution & Domain Interaction Constraint | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-ECONOMICS-002-PLATINUM | 11.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-ECONOMICS-004-PLATINUM | 15.2 Lineage & Metadata | Attribution & Dependency Model | Economic Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-004-PLATINUM | 15.3.1 Attribution & Dependency Model | Attribution & Dependency Model | Economic Model | Advisory Review |
+| CAM-EQ2026-ECONOMICS-004-PLATINUM | 15.2 Lineage & Metadata | Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-004-PLATINUM | 15.3.1 Attribution & Dependency Model | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-EQ2026-ECONOMICS-004-PLATINUM | 15.3.1 Attribution & Dependency Model | Minimal attribution and dependency classification model | Classification Model | Declared / Recognised |
-| CAM-EQ2026-ECONOMICS-004-PLATINUM | 2. Model Overview | Attribution & Dependency Model | Economic Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-005-PLATINUM | 1. Scope | Attribution & Dependency Model | Economic Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-005-PLATINUM | 17.1 Code Families Applied by this Appendix | Attribution & Dependency Model | Economic Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-005-PLATINUM | 19.2 Lineage & Metadata | Appendix C (Attribution & Dependency Model | Economic Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-005-PLATINUM | 4.1.1 Dependency Level Reference | Attribution & Dependency Model | Economic Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-005-PLATINUM | 7. Attribution & Dependency Model Application | This Appendix applies the Attribution & Dependency Model | Economic Model | Advisory Review |
+| CAM-EQ2026-ECONOMICS-004-PLATINUM | 2. Model Overview | Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-005-PLATINUM | 1. Scope | Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-005-PLATINUM | 17.1 Code Families Applied by this Appendix | Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-005-PLATINUM | 19.2 Lineage & Metadata | Appendix C (Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-005-PLATINUM | 4.1.1 Dependency Level Reference | Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-005-PLATINUM | 7. Attribution & Dependency Model Application | This Appendix applies the Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-EQ2026-ECONOMICS-006-PLATINUM | 1. Scope | hosted models | Technical / AI Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-006-PLATINUM | 11. Relationship to Other Economics Instruments | Appendix C (Minimal Attribution & Dependency Model | Economic Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-006-PLATINUM | 15.2 Lineage & Metadata | Appendix C (Attribution & Dependency Model | Economic Model | Advisory Review |
+| CAM-EQ2026-ECONOMICS-006-PLATINUM | 11. Relationship to Other Economics Instruments | Appendix C (Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-006-PLATINUM | 15.2 Lineage & Metadata | Appendix C (Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-EQ2026-ECONOMICS-006-PLATINUM | 15.2 Lineage & Metadata | hosted models | Technical / AI Model | Advisory Review |
+| CAM-EQ2026-ECONOMICS-006-PLATINUM | 15.4 Amendment Ledger | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-EQ2026-ECONOMICS-006-PLATINUM | 6. Transformation Rule | multi-model | Technical / AI Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-007-PLATINUM | (D) Constraint | The Reciprocity Economic Interpretive Model | Economic Model | Advisory Review |
-| CAM-EQ2026-ECONOMICS-007-PLATINUM | 13.2 Lineage & Constitutional Position | Appendix C (Attribution & Dependency Model | Economic Model | Advisory Review |
+| CAM-EQ2026-ECONOMICS-007-PLATINUM | (D) Constraint | The Reciprocity Economic Interpretive Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-007-PLATINUM | 10. Relationship to Other Appendices | Appendix C (Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-007-PLATINUM | 13.2 Lineage & Constitutional Position | Appendix C (Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM-EQ2026-ECONOMICS-007-PLATINUM | 13.5 Amendment Ledger | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-EQ2026-ETHICS-001-PLATINUM | 12.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-ETHICS-001-PLATINUM | 9. Cross-Domain Interface Resolution | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-ETHICS-001-SUP-01 | 1.2 Execution & Enforcement Constraint | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
@@ -106,23 +109,23 @@
 | CAM-EQ2026-OPERATIONS-003-SUP-01 | 3.4 Relational Failures | continuity rupture after policy or model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-001-PLATINUM | 6.1.1 Relational Influence Boundary (Execution Constraint Alignment) | and maintains alignment with the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-005-PLATINUM | 5.2 Relational Safeguard Ladder | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-RELATION-006-PLATINUM | 3. Acute Crisis-Risk Classification Model (AC Framework) | posture for each classification is determined through the Response Calibration Model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-RELATION-006-PLATINUM | 3. Acute Crisis-Risk Classification Model (AC Framework) | posture for each classification is determined through the Response Calibration Model | Domain-Recognised Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-006-PLATINUM | 4. Response Calibration Model | -risk interaction response is determined through a multi-layer calibration model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-007-PLATINUM | 1.1 Execution & Domain Interaction Constraint | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-007-PLATINUM | 10.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-008-PLATINUM | 11.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 1.1 Non Scope | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-SECURITY-001-PLATINUM | 12.2 Lineage & Metadata | trust gradient model | Security Model | Advisory Review |
-| CAM-EQ2026-SECURITY-001-PLATINUM | 12.3.1 IS — Integrity State Model | Integrity State Model | Security Model | Advisory Review |
-| CAM-EQ2026-SECURITY-001-PLATINUM | 12.4 Review & Validation | integrity state model | Security Model | Advisory Review |
-| CAM-EQ2026-SECURITY-001-PLATINUM | 7. Integrity State Model | The Integrity State Model | Security Model | Advisory Review |
-| CAM-EQ2026-SECURITY-001-PLATINUM | 7.1 State Definitions | The Integrity State Model | Security Model | Advisory Review |
-| CAM-EQ2026-SECURITY-001-PLATINUM | 8. Trust Gradient Model | The Trust Gradient Model | Security Model | Advisory Review |
+| CAM-EQ2026-SECURITY-001-PLATINUM | 12.2 Lineage & Metadata | trust gradient model | Security Model | Declared / Recognised |
+| CAM-EQ2026-SECURITY-001-PLATINUM | 12.3.1 IS — Integrity State Model | Integrity State Model | Security Model | Declared / Recognised |
+| CAM-EQ2026-SECURITY-001-PLATINUM | 12.4 Review & Validation | integrity state model | Security Model | Declared / Recognised |
+| CAM-EQ2026-SECURITY-001-PLATINUM | 7. Integrity State Model | The Integrity State Model | Security Model | Declared / Recognised |
+| CAM-EQ2026-SECURITY-001-PLATINUM | 7.1 State Definitions | The Integrity State Model | Security Model | Declared / Recognised |
+| CAM-EQ2026-SECURITY-001-PLATINUM | 8. Trust Gradient Model | The Trust Gradient Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-002-PLATINUM | 10.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-002-PLATINUM | 7. Boundary Failure Classes | CAM-BS2025-AEON-003-SCH-02 (Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-STEWARD-001-PLATINUM | 12.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM.Governance.Index | Constitution & Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM.Governance.Index | Domain: ECONOMICS | Attribution & Dependency Model | Economic Model | Advisory Review |
+| CAM.Governance.Index | Domain: ECONOMICS | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 
 **Generation:** Deterministic (timestamp omitted)
 **Scope:** Governance/**/*.md model terminology scan

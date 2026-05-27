@@ -538,7 +538,7 @@ This Appendix:
 
 * provides an **external alignment surface**;
 * complements CAM-EQ2026-ECONOMICS-005-PLATINUM — Appendix D (Cross-System Value Attribution & Exchange);
-* operates alongside CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Minimal Attribution & Dependency Model);
+* operates alongside CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C (Attribution & Dependency Model);
 * interfaces with CAM-EQ2026-ECONOMICS-007-PLATINUM — Appendix F (Proportional Reciprocity & Value Return Framework).
 
 This Appendix does NOT:
@@ -638,7 +638,7 @@ Let value speak plainly where it arises.
 | 1.5 | Formatting and polish | 2026-05-20T04:34:00Z |  071606ec12b8f5a3bb40ef177c638a785240d0afcdf46151c8c5566e2351312d  |
 | 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  798bef0842ee838903cf2f6e206d45c7207338a28a42a68f892b84571204a38f |
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 127b98701fbc19cad530066a220acb951562a80f3d1213294eda78f0a8ec1d1e |
-| 2.1 | Added clause 4.3.1 | 2025-05-25T12:29:00Z | 5e53e7b79945a435510fbc65279859767fb155a63b5578b1289729a202930ca3 |
+| 2.1 | Added clause 4.3.1, and normalised Appendix C lineage references to canonical title “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | 66a02caf8ce8f5bd06da1c69228241858fca63a0db96a1b1a38c6249011a64f5 |
 
 ---
 
