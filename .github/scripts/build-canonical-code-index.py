@@ -33,6 +33,12 @@ class Entry(NamedTuple):
     declaration_heading: str
     declaration_line_number: int
     source_path: str
+    family_id: str
+    family_kind: str
+    parent_family: str
+    hierarchy_path: list[str]
+    collision_status: str
+    registry_note: str
     table: dict[str, str]
 
 
@@ -88,8 +94,45 @@ def scan(root: pathlib.Path) -> list[Entry]:
                     if j < len(lines) and lines[j].strip().startswith("|"):
                         table, end_i = parse_table(lines, j)
                         if REQUIRED_FIELD in table:
+                            family_id = table.get("Code Family", "").strip()
+                            heading_code = ""
+                            hm = re.match(r"^\d+(?:\.\d+)*\s+([A-Z][A-Z0-9_.-]*)\s+[—-]\s+.+$", heading)
+                            if hm:
+                                heading_code = hm.group(1).strip()
+
+                            explicit_parent = table.get("Parent Family", "").strip()
+                            explicit_kind = table.get("Family Kind", "").strip().lower()
+                            registry_note = table.get("Registry Note", "").strip()
+
+                            if heading_code and heading_code.startswith(family_id + "."):
+                                if not explicit_parent:
+                                    explicit_parent = family_id
+                                family_id = heading_code
+                                if not explicit_kind:
+                                    explicit_kind = "subfamily"
+
+                            if not explicit_kind:
+                                if explicit_parent:
+                                    explicit_kind = "subfamily"
+                                elif "." in family_id:
+                                    explicit_kind = "standalone_family"
+                                elif len(family_id) == 1 and family_id.isalpha():
+                                    explicit_kind = "legacy_global_family"
+                                else:
+                                    explicit_kind = "standalone_family"
+
+                            hierarchy_path = family_id.split(".") if family_id else []
+                            if explicit_parent and not family_id.startswith(explicit_parent + "."):
+                                collision_status = "invalid_parent"
+                            elif explicit_kind == "subfamily" and not explicit_parent:
+                                collision_status = "ambiguous_subfamily"
+                            elif explicit_kind == "legacy_global_family":
+                                collision_status = "legacy_collision_risk"
+                            else:
+                                collision_status = "none"
+
                             out.append(Entry(
-                                code_family=table.get("Code Family", "").strip(),
+                                code_family=family_id,
                                 canonical_name=table.get("Canonical Name", "").strip(),
                                 primary_type=table.get("Primary Type", "").strip(),
                                 subtype=table.get("Subtype", "").strip(),
@@ -108,6 +151,12 @@ def scan(root: pathlib.Path) -> list[Entry]:
                                 declaration_heading=heading,
                                 declaration_line_number=line_no,
                                 source_path=str(p.as_posix()),
+                                family_id=family_id,
+                                family_kind=explicit_kind,
+                                parent_family=explicit_parent,
+                                hierarchy_path=hierarchy_path,
+                                collision_status=collision_status,
+                                registry_note=registry_note,
                                 table=table,
                             ))
                         i = end_i
@@ -140,10 +189,12 @@ def write_md(path: pathlib.Path, entries: list[Entry]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         f.write("# Canonical Code Index\n\n")
-        f.write("| Code Family | Canonical Name | Primary Type | Source Instrument | Source Path | Declaration Heading | Line |\n")
-        f.write("|---|---|---|---|---|---|---:|\n")
+        f.write("| Family ID | Canonical Name | Family Kind | Parent Family | Collision Status | Primary Type | Source Instrument | Source Path | Declaration Heading | Line |\n")
+        f.write("|---|---|---|---|---|---|---|---|---|---:|\n")
         for e in entries:
-            f.write(f"| `{e.code_family}` | {e.canonical_name} | {e.primary_type} | `{e.source_instrument}` | `{e.source_path}` | {e.declaration_heading} | {e.declaration_line_number} |\n")
+            parent = e.parent_family if e.parent_family else "—"
+            note = f" ({e.registry_note})" if e.registry_note else ""
+            f.write(f"| `{e.family_id}` | {e.canonical_name} | {e.family_kind}{note} | `{parent}` | {e.collision_status} | {e.primary_type} | `{e.source_instrument}` | `{e.source_path}` | {e.declaration_heading} | {e.declaration_line_number} |\n")
 
 
 def sort_entries(entries: list[Entry]) -> list[Entry]:

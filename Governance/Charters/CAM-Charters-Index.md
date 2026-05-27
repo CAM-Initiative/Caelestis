@@ -63,5 +63,4 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-STEWARD-001-PLATINUM | charter | root |  | [CAM-EQ2026-STEWARD-001-PLATINUM](CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship |
 | CAM-EQ2026-STEWARD-002-PLATINUM | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-002-PLATINUM](CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework |
 | CAM-EQ2026-STEWARD-003-PLATINUM | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-003-PLATINUM](CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) |
-| CAM-EQ2026-STEWARD-003-SUP-01 | charter | supplement | CAM-EQ2026-STEWARD-003 | [CAM-EQ2026-STEWARD-003-SUP-01](CAM-EQ2026-STEWARD-003-SUP-01.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 01) |
 | CAM-EQ2026-STEWARD-004-PLATINUM | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-004-PLATINUM](CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine |

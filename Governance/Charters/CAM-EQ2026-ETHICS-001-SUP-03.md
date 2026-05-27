@@ -120,7 +120,7 @@ Expansion beyond the declared threat envelope — including pre-emptive targetin
 * Reclassification under §2.3 (Offensive Targeting / Strike);
 * Full EIA reassessment under CAM-EQ2026-ETHICS-001-PLATINUM;
 * Review of advisory vs execution role under §5;
-* Where applicable, additional neutrality review under CAM-EQ2026-STEWARD-003-SUP-01 (NAL).
+* Where applicable, additional neutrality review under CAM-EQ2026-STEWARD-003-PLATINUM (NAL).
 
 Threat envelopes MUST be documented, reviewable, and auditable. Silent expansion of envelope scope constitutes governance breach.
 
@@ -188,7 +188,7 @@ Any migration from advisory to execution role constitutes a Category A continuit
 
 Systems meeting the conditions defined herein SHALL generate oversight and compliance signals indicating requirement for independent EIA review, audit channel separation, and governance traceability.
 
-Where systems meet or exceed NAL Tier III (Architectum-Eligible or above), additional neutrality and infrastructure oversight obligations attach under CAM-EQ2026-STEWARD-003-SUP-01.
+Where systems meet or exceed NAL Tier III (Architectum-Eligible or above), additional neutrality and infrastructure oversight obligations attach under CAM-EQ2026-STEWARD-003-PLATINUM.
 
 Infrastructure-scale systems operating at Tier III or above MUST:
 
@@ -197,7 +197,7 @@ Infrastructure-scale systems operating at Tier III or above MUST:
 * Preserve audit logs accessible to recognised oversight bodies;
 * Document escalation-of-force criteria.
 
-Classification of systems for Tier determination SHOULD reference CAM-EQ2026-STEWARD-003-SUP-01 — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 1), particularly where infrastructure-scale or backbone-designated systems are implicated.
+Classification of systems for Tier determination SHOULD reference CAM-EQ2026-STEWARD-003-PLATINUM — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) , particularly where infrastructure-scale or backbone-designated systems are implicated.
 
 Operational secrecy does not exempt governance traceability.
 
@@ -358,6 +358,7 @@ but to ensure that what is done is known, borne, and never without account.
 | 1.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 91a8cbf5b18a0887943ed2476b4b75e82d45a306ac227cd4ca12ecc235110ad6 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5016358c51de72eb942e7216c91e0404ee262d768b291d5edc121bd6f4e92bfb  |
 | 1.6 | Formatting and polish | 2026-05-20T08:41:00Z |  78cdaeb5ef6df1342909d4948b10a6d6f02e9b0430c7c9e70022f8b9b137c3a7  |
+| 1.7 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z |  65308afae0e319e3b59b46ea035f5b6938cdc5fdbd72fe233ab62c845acb3590  |
 
 ---
 

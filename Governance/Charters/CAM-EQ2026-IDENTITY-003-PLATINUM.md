@@ -1122,7 +1122,7 @@ but because civilisation must remain capable of recognising what it has built.
 |Authority / Protection Level|Source-authoritative identity-status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority|
 |Consumes Code Families|ECON.AL; ECON.ATS; ECON.ARCP (where synthetic labour or economic-effect conditions present)|
 |Crosswalks Code Families|Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families|
-|Operationalises or Applies|Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation, transfer, suspension, retirement, recycling, or dispute|
+|Operationalises or Applies Code Families|Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation, transfer, suspension, retirement, recycling, or dispute|
 
 ---
 
@@ -1145,7 +1145,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Authority / Protection Level | Source-authoritative registry-record reference set; data-layer classification only; no independent disclosure mandate beyond applicable law, privacy, security, and regulator authority |
 | Consumes Code Families | ID.MCI; ID.MLS; ID.MAS |
 | Crosswalks Code Families | Operations audit logs; Security integrity signals; Stewardship lifecycle records; Economics provenance and lifecycle-burden records |
-| Operationalises or Applies | Classifies public, protected, private, and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream ID.MCI, ID.MLS, or ID.MAS classifications are disputed, the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways. |
+| Operationalises or Applies Code Families | Classifies public, protected, private, and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream ID.MCI, ID.MLS, or ID.MAS classifications are disputed, the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways. |
 
 ---
 
@@ -1168,7 +1168,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Authority / Protection Level | Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority |
 | Consumes Code Families | ID.MCI; ID.MCR |
 | Crosswalks Code Families | STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing |
-| Operationalises or Applies | Classifies lifecycle state across manufacture, operation, repair, transfer, decommissioning, return, recovery, and recycling |
+| Operationalises or Applies Code Families | Classifies lifecycle state across manufacture, operation, repair, transfer, decommissioning, return, recovery, and recycling |
 
 ---
 
@@ -1191,7 +1191,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Authority / Protection Level | Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power |
 | Consumes Code Families | ID.MCI; ID.MCR; ID.MLS |
 | Crosswalks Code Families | Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records |
-| Operationalises or Applies | Classifies user, third-party, manufacturer, repair, accessibility, security, warranty, liability, and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety, identity, access-control, audit, recall, certification, or operational-limit constraints; it does not include lawful independent repair, open-source modification, accessibility adaptation, or ordinary user configuration merely because such action occurs outside an authorised dealer channel. |
+| Operationalises or Applies Code Families | Classifies user, third-party, manufacturer, repair, accessibility, security, warranty, liability, and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety, identity, access-control, audit, recall, certification, or operational-limit constraints; it does not include lawful independent repair, open-source modification, accessibility adaptation, or ordinary user configuration merely because such action occurs outside an authorised dealer channel. |
 
 ---
 
@@ -1214,7 +1214,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Authority / Protection Level | Source-authoritative physical-substrate identity family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority |
 | Consumes Code Families | ID.MCI; ID.MLS |
 | Crosswalks Code Families | Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records |
-| Operationalises or Applies | Classifies and preserves the persistent identifier assigned to an embodied robotic substrate, chassis, shell, or materially integrated hardware unit across manufacture, deployment, transfer, repair, and retirement. |
+| Operationalises or Applies Code Families | Classifies and preserves the persistent identifier assigned to an embodied robotic substrate, chassis, shell, or materially integrated hardware unit across manufacture, deployment, transfer, repair, and retirement. |
 
 ---
 
@@ -1237,7 +1237,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Authority / Protection Level | Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority |
 | Consumes Code Families | ID.MCI; ID.PSI; ID.MCR |
 | Crosswalks Code Families | Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity |
-| Operationalises or Applies | Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant. |
+| Operationalises or Applies Code Families | Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant. |
 
 ### 15.3.7 ID.CTS — Custodial Transfer Status
 
@@ -1258,7 +1258,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Authority / Protection Level | Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power |
 | Consumes Code Families | ID.MCI; ID.MLS; ID.MCR |
 | Crosswalks Code Families | Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review |
-| Operationalises or Applies | Classifies custodial transfer, dispute, reassignment, public-interest stewardship, quarantine, and secondary-market status for embodied synthetic systems across sale, inheritance, abandonment, reassignment, and lifecycle transition pathways. |
+| Operationalises or Applies Code Families | Classifies custodial transfer, dispute, reassignment, public-interest stewardship, quarantine, and secondary-market status for embodied synthetic systems across sale, inheritance, abandonment, reassignment, and lifecycle transition pathways. |
 
 ---
 
@@ -1278,6 +1278,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Version | Description | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
 | 1.0 | Machine Civil Identity & Participation appendix established | 2026-05-26T13:57:00Z | 81af7394cba5fe683a07a32eadfceede100201f46cb593a6c1c2ef0dd26acfc9 |
+| 1.1 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  0a3f676e110efc9a4f6e33b7cca870e654c8b8aa197058c93ebdfd99327837cf  |
 
 ---
 

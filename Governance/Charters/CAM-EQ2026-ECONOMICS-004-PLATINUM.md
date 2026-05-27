@@ -1304,11 +1304,15 @@ let even the smallest thread remain named.
 | Modifier | ECONOMIC; ATTRIBUTION; DEPENDENCY |
 | Scope | Economics domain; cross-system value attribution |
 | Status | Active |
+| Controlled Values Defined | None declared |
+| Schema Field(s) | attribution_dependency_model |
 | Variables Defined | ECON.CONTRIB; ECON.DEP; ECON.TD; ECON.TA |
 | Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
 | Source Section | §2; §3 |
+| Domain Namespace | ECONOMICS |
 | Authority / Protection Level | Minimal attribution and dependency classification model only; no independent remedy, compensation, enforcement, escalation, or runtime execution authority |
 | Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Supports attribution, dependency, transformation-depth, temporal-advantage, and weighting assessment for Appendix C and Appendix F |
 
 ---
@@ -1321,12 +1325,18 @@ let even the smallest thread remain named.
 | Canonical Name | Contribution |
 | Primary Type | Semantic |
 | Subtype | ATTRIBUTION_VARIABLE |
+| Modifier | GOVERNANCE; ECONOMIC; ATTRIBUTION |
 | Scope | Economics domain |
 | Status | Active |
 | Controlled Values Defined | Low; Medium; High |
+| Schema Field(s) | contribution_variable; contribution_level |
 | Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
 | Source Section | §3.1 |
+| Domain Namespace | ECONOMICS |
 | Authority / Protection Level | Contribution classification only; no independent economic entitlement, remedy, enforcement, or execution authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies contribution significance for attribution and proportional economic alignment review. |
 
 ---
 
@@ -1338,12 +1348,18 @@ let even the smallest thread remain named.
 | Canonical Name | Dependency |
 | Primary Type | Semantic / Operational |
 | Subtype | DEPENDENCY_VARIABLE |
+| Modifier | GOVERNANCE; ECONOMIC; DEPENDENCY |
 | Scope | Economics domain; cross-system attribution and reliance assessment |
 | Status | Active |
 | Controlled Values Defined | Incidental; Material; Critical |
+| Schema Field(s) | dependency_variable; dependency_level |
 | Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
 | Source Section | §3.2 |
+| Domain Namespace | ECONOMICS |
 | Authority / Protection Level | Dependency classification only; no independent remedy, entitlement, enforcement, escalation, or execution authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies reliance intensity for cross-system attribution, dependency, and reciprocity alignment analysis. |
 
 ---
 
@@ -1365,7 +1381,7 @@ let even the smallest thread remain named.
 | Domain Namespace | ECONOMICS |
 | Authority / Protection Level | Source-authoritative economic dependency-type classification family; dependency-type classification only; no independent attribution entitlement, compensation authority, exchange authority, enforcement authority, legal status, contributor status, or runtime authority |
 | Consumes Code Families | ECON.DEP |
-|Crosswalks Code Families | ECON.DTYPE |
+| Crosswalks Code Families | ECON.DTYPE |
 | Operationalises or Applies Code Families | Provides the parent dependency-type classification layer for functional dependency, foundational input class, diffuse dependency, and non-extractive material contributor relationships in cross-system attribution and exchange review |
 
 ---
@@ -1384,7 +1400,7 @@ let even the smallest thread remain named.
 | Controlled Values Defined | ECON.TD.DIRECT, ECON.TD.INTERMEDIATE, ECON.TD.DEEP |
 | Schema Field(s) | transformation_depth |
 | Source Instrument | CAM-EQ2026-ECONOMICS-004-PLATINUM |
-Source Section | §3.3|
+| Source Section | §3.3 |
 | Domain Namespace | ECONOMICS |
 | Authority / Protection Level | Source-authoritative transformation-depth classification family; transformation-depth classification only; no independent attribution entitlement, compensation obligation, pricing authority, exchange obligation, enforcement authority, remedy, arbitration authority, or runtime authority |
 | Consumes Code Families | ECON.CONTRIB; ECON.DEP |
@@ -1578,6 +1594,7 @@ Source Section | §3.3|
 | 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  c4bf97703a21b802b5e302eac50fa65c70a3bec1475ec32d24b5e04e98dc68f5 |
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 5423e626a1632022c3b065bf07695e496df476398d3f2110e91f04992137b9b9 |
 | 2.1 | Added clause 5.1.3 and 5.1.3.1 | 2026-05-25T11:54:00Z |  bf22082d47612d035238a65dad2dff2d7511638e79af6b7f0db6d7ec1731c121  |
+| 2.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  da32e466bd7955f1e907a8944a2975bdae2f31b0a8c3f6e7cfca868d78e21261  |
 
 ---
 

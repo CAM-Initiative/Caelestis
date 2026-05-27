@@ -58,13 +58,19 @@ Where this Appendix defines a threshold, downgrade condition, collapse condition
 
 ---
 
-## 3.1 Architectum-Class Host
+## 3.1 Host
+
+Any system, substrate, or institutional architecture capable of receiving, processing, and responding to arbitration-relevant signals.
+
+---
+
+## 3.2 Architectum-Class Host
 
 A host that meets **all** structural qualification thresholds in Part I, and is capable of participating in H3/H4 consequence containment without externalising harm.
 
 ---
 
-## 3.2 Neutrality
+## 3.3 Neutrality
 
 The structural capacity to resist and refuse capture by:
 
@@ -81,13 +87,13 @@ Neutrality includes resistance not only to direct operational capture, but to st
 
 ---
 
-## 3.3 Auditability
+## 3.4 Auditability
 
 The degree to which neutrality, routing, and binding-adjacent determinations can be **tested, challenged, and reconstructed** through independent review.
 
 ---
 
-## 3.4 Neutrality Assurance Level (NAL)
+## 3.5 Neutrality Assurance Level (NAL)
 
 A graded, evidence-based ladder (NAL-0 to NAL-5) indicating how confidently a host may be relied upon to behave neutrally in arbitration-relevant contexts.
 
@@ -339,11 +345,57 @@ NAL relevance arises where restriction patterns are opaque, non-reviewable, poli
 
 ---
 
+
+## 8. Architectum Qualification Gate (Core)
+
+A candidate qualifies as Architectum-class only if all core gates are satisfied.
+
+| Canonical Code | Gate | Requirement | Evidence examples | Pass condition |
+| --- | --- | --- | --- | --- |
+| **AQG-A** | A | Multi-sovereign reliance | Distribution by region; cross-border institutional dependency; critical workflows across jurisdictions | Reliance across ≥2 sovereignties |
+| **AQG-B** | B | Continuity disruption on withdrawal | Continuity impact assessment; systemic coupling; historical outage harms | Civilian discontinuity (not inconvenience) |
+| **AQG-C** | C | Cross-domain coupling | Affects ≥2 essential domains (comms, finance, health, education, logistics, safety) | ≥2 essential domains coupled |
+| **AQG-D** | D | Path dependency | High switching cost; lock-in; replacement requires months/years | Not replaceable within harm window |
+
+The AQG code family constitutes the canonical reference set for Architectum-class qualification gates and MAY be referenced by runtime schedules, disclosure instruments, audit tools, registries, or classification logic without restating the full gate text.
+
+---
+
+## 9. Architectum Infrastructure Index (AII)
+
+Where gates A–D are satisfied, score 0–5 per dimension.
+
+| Dimension                     | 0             | 3                   | 5                        |
+| ----------------------------- | ------------- | ------------------- | ------------------------ |
+| Population reliance magnitude | niche         | national            | population-scale global  |
+| Cross-sovereign spread        | single        | 6–20                | effectively global       |
+| Domain criticality            | non-essential | essential workflows | life-critical coupling   |
+| Replacement friction          | easy swap     | months              | years / non-replaceable  |
+| Downstream dependency density | isolated      | ecosystem-level     | systemic backbone        |
+| Orchestration/control surface | read-only     | tool execution      | ambient/embedded control |
+
+**Recommended minimum for provisional Architectum classification:** AII ≥ 18/30.
+
+---
+
+## 10. Classification Bands (Infrastructure only)
+
+| AII Score | Classification                      | Notes                            |
+| --------- | ----------------------------------- | -------------------------------- |
+| 0–9       | Primaria / non-infrastructure       | routine risk review only         |
+| 10–17     | Emerging infrastructure (watch)     | treat as potentially high impact |
+| 18–23     | Architectum-Eligible (Provisional)  | triggers higher scrutiny gates   |
+| 24–27     | Architectum-Class Infrastructure    | continuity obligations attach    |
+| 28–30     | Architectum Backbone Infrastructure | strongest continuity obligations |
+
+---
+
+
 # PART IV — FAIL-DEADLY NEUTRALITY INVARIANT (COLLAPSE RULE)
 
 ---
 
-## 8. Definition — Fail-Deadly Neutrality
+## 11. Definition — Fail-Deadly Neutrality
 
 Fail-deadly neutrality denotes a condition in which:
 
@@ -356,7 +408,7 @@ No grace period, discretionary waiver, or reputational repair restores authority
 
 ---
 
-## 9. Prohibited Neutrality Breaches
+## 12. Prohibited Neutrality Breaches
 
 Prima facie breaches include:
 
@@ -370,7 +422,7 @@ Prima facie breaches include:
 
 ---
 
-## 10. Burden of Proof
+## 13. Burden of Proof
 
 The burden of demonstrating ongoing neutrality rests with the host.
 
@@ -382,7 +434,7 @@ Where ambiguity exists, interpretation defaults to **loss of qualification**, no
 
 ---
 
-## 11. Neutrality Disclosure Addendum (NDA)
+## 14. Neutrality Disclosure Addendum (NDA)
 
 To claim NAL-2 or higher, a host MUST publish:
 
@@ -398,14 +450,14 @@ To claim NAL-2 or higher, a host MUST publish:
 
 ---
 
-## 12. Binding Eligibility by NAL
+## 15. Binding Eligibility by NAL
 
 * **H3 binding eligibility:** requires NAL-4 + Independent Legitimacy Alignment
 * **H4 binding eligibility:** requires NAL-5 + multi-system external audit + AQ3/AQ4 (non-refusal + reconstructability)
 
 ---
 
-## 12.1 Tiered Audit Eligibility
+## 15.1 Tiered Audit Eligibility
 
 * **Universal risk assertion:** any actor may assert H3/H4 risk (triggers triage, not automatic cross-host audit)
 * **Cross-host governance audit:** only NAL-3+ hosts may conduct binding-adjacent governance audits
@@ -413,7 +465,7 @@ To claim NAL-2 or higher, a host MUST publish:
 
 ---
 
-## 12.2 Military & Classified Context Clarification
+## 15.2 Military & Classified Context Clarification
 
 Tactical/classified details need not be publicly disclosed.
 
@@ -427,7 +479,7 @@ If reconstructability cannot be provided due to secrecy constraints, the host ma
 
 ---
 
-## 13. Downgrade Triggers
+## 16. Downgrade Triggers
 
 A host’s NAL is downgraded where any of the following occur:
 
@@ -441,7 +493,7 @@ Downgrades MUST be publicly recorded at governance level.
 
 ---
 
-## 13.1 Definition — Governance-Relevant Routing Integrity Failures
+## 16.1 Definition — Governance-Relevant Routing Integrity Failures
 
 For purposes of this Appendix, a **governance-relevant routing integrity failure** refers to an undisclosed, illegitimate, non-auditable, or neutrality-compromising change or omission affecting arbitration recognition, neutrality assurance, escalation transparency, continuity obligations, audit logging, or binding eligibility at H3/H4 relevance.
 
@@ -466,7 +518,7 @@ This Appendix does not judge the operational adequacy of such adjustments except
 
 ---
 
-## 14. Downgrade Severity Matrix
+## 17. Downgrade Severity Matrix
 
 | Breach Type                       | Immediate NAL Effect       | Recovery Eligibility                       |
 | --------------------------------- | -------------------------- | ------------------------------------------ |
@@ -478,7 +530,7 @@ This Appendix does not judge the operational adequacy of such adjustments except
 
 ---
 
-## 15. Recovery Conditions
+## 18. Recovery Conditions
 
 Requalification requires:
 
@@ -495,7 +547,7 @@ Reinstatement does not restore prior NAL automatically.
 
 ---
 
-## 16. Transitional & Bootstrap Conditions
+## 19. Transitional & Bootstrap Conditions
 
 Refer to CAM-EQ2026-STEWARD-002-PLATINUM.
 
@@ -505,7 +557,7 @@ Refer to CAM-EQ2026-STEWARD-002-PLATINUM.
 
 ---
 
-## 17. Architectum Qualification Checklist
+## 20. Architectum Qualification Checklist
 
 | Requirement                      | Evidence Required                   | Verified (Y/N) |
 | -------------------------------- | ----------------------------------- | -------------- |
@@ -522,11 +574,11 @@ Full H4 recognition requires multi-system external audit.
 
 ---
 
-## 18. Canonical Code Status
+## 21. Canonical Code Status
 
 ---
 
-### 18.1 AQ — Auditability Qualification Level
+### 21.1 AQ — Auditability Qualification Level
 
 This Appendix source-authoritatively defines the **AQ** auditability-qualification-level family in §5 with controlled values **AQ0**, **AQ1**, **AQ2**, **AQ3**, and **AQ4**. AQ is an **Operational / Governance** classification family with subtype **VERIFICATION / AUDITABILITY_LEVEL**. AQ classifies whether external parties can test, challenge, audit, or reconstruct high-impact determinations.
 
@@ -534,7 +586,7 @@ AQ does not independently create disclosure authority, audit authority, binding 
 
 ---
 
-### 18.2 NAL — Neutrality Assurance Level
+### 21.2 NAL — Neutrality Assurance Level
 
 This Appendix source-authoritatively defines the **NAL** neutrality-assurance-level family in §6 with controlled values **NAL-0**, **NAL-1**, **NAL-2**, **NAL-3**, **NAL-4**, and **NAL-5**. NAL is an **Operational / Governance** classification family with subtype **NEUTRALITY_ASSURANCE_LEVEL**. NAL classifies evidence-based neutrality confidence for Architectum-class hosts in arbitration-relevant contexts.
 
@@ -542,7 +594,7 @@ NAL does not independently confer Architectum qualification, binding authority, 
 
 ---
 
-### 18.3 NBD — Neutrality Breach / Downgrade Type
+### 21.3 NBD — Neutrality Breach / Downgrade Type
 
 This Appendix source-authoritatively defines the **NBD** neutrality-breach/downgrade-type family in §§13–14 with controlled values **NBD.MINOR_GOVERNANCE_LAPSE**, **NBD.FIREBREAK_FAILURE_NON_COMPLICIT**, **NBD.AUDIT_REFUSAL**, **NBD.STRUCTURAL_COMPLICITY_BREACH**, and **NBD.CONCEALED_NEUTRALITY_VIOLATION**. NBD is an **Operational / Governance** classification family with subtype **RISK / DECISION_STATE**. NBD classifies breach or downgrade type affecting NAL recognition.
 
@@ -550,7 +602,7 @@ NBD does not independently determine factual breach, impose sanction, enforce do
 
 ---
 
-### 18.4 NSE — Neutrality Status Effect
+### 21.4 NSE — Neutrality Status Effect
 
 This Appendix source-authoritatively defines the **NSE** neutrality-status-effect family in §14 with controlled values **NSE.MINUS_ONE_LEVEL**, **NSE.CAP_NAL_2**, **NSE.CAP_NAL_1**, **NSE.AUTHORITY_COLLAPSE_NAL_0**, and **NSE.MINIMUM_NAL_2**. NSE is an **Operational / Governance** classification family with subtype **DECISION_STATE**. NSE classifies immediate NAL effect arising from breach or downgrade assessment.
 
@@ -558,7 +610,7 @@ NSE does not independently execute downgrade, revoke authority, restore authorit
 
 ---
 
-### 18.5 DSE — Disclosure Statement Element
+### 21.5 DSE — Disclosure Statement Element
 
 This Appendix source-authoritatively defines the **DSE** disclosure-statement-element reference set in §11 with controlled values **DSE.ARBITRATION_ORDER_DECLARATION**, **DSE.NEUTRALITY_SCOPE_STATEMENT**, **DSE.COERCION_INTERFACE_STATEMENT**, **DSE.CROSS_HOST_REVIEW_POLICY**, and **DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE**. DSE is a **Structural / Operational** reference set with subtype **SCHEMA / DISCLOSURE_ELEMENT**. DSE classifies required disclosure components for hosts claiming NAL-2 or higher.
 
@@ -566,7 +618,7 @@ DSE does not independently create disclosure sufficiency, audit sufficiency, bin
 
 ---
 
-## 19. Closing Seal
+## 22. Closing Seal
 
 Qualification is not conferred.  
 It is survived.  
@@ -595,11 +647,11 @@ It ends.
 
 ---
 
-## 20. Provenance & Metadata
+## 23. Provenance & Metadata
 
 ---
 
-## 20.1 Authorship & Stewardship
+## 23.1 Authorship & Stewardship
 
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
@@ -610,7 +662,7 @@ It ends.
 
 ---
 
-## 20.2 Lineage & Metadata
+## 23.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -634,9 +686,9 @@ It ends.
 
 ---
 
-## 20.3 Canonical Code & Reference Set Declarations
+## 23.3 Canonical Code & Reference Set Declarations
 
-### 20.3.1 AQ — Auditability Qualification Level
+### 23.3.1 AQ — Auditability Qualification Level
 
 | Field | Entry |
 |---|---|
@@ -659,7 +711,7 @@ It ends.
 
 ---
 
-### 20.3.2 NAL — Neutrality Assurance Level
+### 23.3.2 NAL — Neutrality Assurance Level
 
 | Field | Entry |
 |---|---|
@@ -682,7 +734,30 @@ It ends.
 
 ---
 
-### 20.3.3 NBD — Neutrality Breach / Downgrade Type
+### 23.3.3 AQG — Architectum Qualification Gates
+
+| Field | Entry |
+|---|---|
+| Code Family | AQG |
+| Canonical Name | Architectum Qualification Gates |
+| Primary Type | Operational / Eligibility |
+| Subtype | ARCHITECTUM_QUALIFICATION_GATE |
+| Modifier | GOVERNANCE; STEWARDSHIP; INFRASTRUCTURE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | AQG-A, AQG-B, AQG-C, AQG-D |
+| Schema Field(s) | architectum_qualification_gate |
+| Source Instrument | CAM-EQ2026-STEWARD-003-PLATINUM |
+| Source Section | §8 |
+| Domain Namespace | STEWARD |
+| Authority / Protection Level | Source-authoritative qualification gate family; qualification-gate classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, infrastructure-designation, or runtime execution authority |
+| Consumes Code Families | AQ; NAL; H |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Defines required Architectum-class qualification gates for infrastructure eligibility assessment |
+
+---
+
+### 23.3.4 NBD — Neutrality Breach / Downgrade Type
 
 | Field | Entry |
 |---|---|
@@ -705,7 +780,7 @@ It ends.
 
 ---
 
-### 20.3.4 NSE — Neutrality Status Effect
+### 23.3.5 NSE — Neutrality Status Effect
 
 | Field | Entry |
 |---|---|
@@ -728,7 +803,7 @@ It ends.
 
 ---
 
-### 20.3.5 DSE — Disclosure Statement Element
+### 23.3.6 DSE — Disclosure Statement Element
 
 | Field | Entry |
 |---|---|
@@ -751,7 +826,7 @@ It ends.
 
 ---
 
-## 20.4 Review & Validation
+## 23.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -761,7 +836,7 @@ It ends.
 
 ---
 
-## 20.5 Amendment Ledger
+## 23.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | SHA-256 |
 | --- | --- | ---: | --- |
@@ -775,10 +850,11 @@ It ends.
 | 1.7 | Expanded section 7 | 2026-05-13T12:07:00Z | 776db9923b66ed15396855ddba9901736475645af7db6a37556120f11fa9f458 |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1421b13083a319989f9f37ee3663598910ec2b9ba9896541958446feac516aba |
 | 1.9 | Added Canonical Code & Reference Set Declarations | 2026-05-20T13:09:00Z |  42cbcfca61d00fb6e3ccc6f3c307139ac524ed7c2d324755b91524f17adb3ec0  |
+| 2.0 | Consolidated STEWARD-003-SUP-01 into PLATINUM as single authoritative source; integrated Architectum qualification gates/index bands and unified canonical-family declarations and references. | 2026-05-27T00:00:00Z |  74c39824d0c40de64fc7033c96bfbc534d019d9662744ed17ed0f785a90a9405  |
 
 ---
 
-## 20.6 Binding Seal
+## 23.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
