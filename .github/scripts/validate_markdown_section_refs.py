@@ -182,7 +182,7 @@ def classify_reference(line: str, match: re.Match) -> tuple[str, str, str]:
         if re.match(r"^(Annex|Appendix|Schedule)\b", label, re.IGNORECASE):
             return "short_document_reference", "", label
         return "manual_review", "", label
-    short_code = re.search(r"\b(?:RELATION|AEON)-\d{3}\b", clause, re.IGNORECASE)
+    short_code = re.search(r"\b[A-Z][A-Z0-9]{1,24}-\d{3}\b", clause, re.IGNORECASE)
     if short_code and not re.search(DOC_ID_RE, clause):
         return "short_document_reference", "", short_code.group(0)
 

@@ -31,6 +31,46 @@ VALIDATION_STAGES = {"pre_fix", "fix", "post_fix", "downstream_block"}
 
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 
+FORMATTING_ONLY_MARKERS = (
+    "minor formatting patch",
+    "formatting correction",
+    "metadata formatting correction",
+    "formatting-only",
+    "formatting only",
+    "numbering-only",
+    "numbering only",
+    "metadata-ordering",
+    "metadata ordering",
+    "table-alignment",
+    "table alignment",
+    "heading-format",
+    "heading format",
+    "whitespace-only",
+    "whitespace only",
+)
+
+SUBSTANTIVE_CHANGE_MARKERS = (
+    "substantive",
+    "clause change",
+    "clause changes",
+    "article change",
+    "article changes",
+    "body change",
+    "body changes",
+    "normative change",
+    "normative changes",
+)
+
+
+def is_formatting_only_description(description: str) -> bool:
+    normalized = description.strip().lower()
+    return any(marker in normalized for marker in FORMATTING_ONLY_MARKERS)
+
+
+def has_substantive_change_marker(description: str) -> bool:
+    normalized = description.strip().lower()
+    return any(marker in normalized for marker in SUBSTANTIVE_CHANGE_MARKERS)
+
 
 def extract_ledger_hash_cells(full_text: str) -> list[str]:
     bounds = get_amendment_section_bounds(full_text)
@@ -512,8 +552,13 @@ def get_malformed_ledger_rows(full_text: str) -> list[tuple[int, str]]:
         if cols[0].strip() == "":
             malformed.append((line_no, "Version cell is blank."))
             continue
-        if cols[1].strip() == "" or cols[2].strip() == "":
+        change_summary = cols[1].strip()
+        timestamp = cols[2].strip()
+        if change_summary == "" or timestamp == "":
             malformed.append((line_no, "Change Summary and Timestamp (UTC) must be non-blank."))
+            continue
+        if is_formatting_only_description(change_summary) and has_substantive_change_marker(change_summary):
+            malformed.append((line_no, "Formatting-only Change Summary must not also claim substantive body/clause changes."))
             continue
     return malformed
 

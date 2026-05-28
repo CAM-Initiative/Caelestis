@@ -103,8 +103,8 @@ jobs:
       - name: Phase 3 — Rebuild Laws index/json (post-hash)
         run: python .github/scripts/update-CAM-Laws-Index.py
 
-      - name: Phase 4 — Verify ledger SHA coverage and JSON consistency
-        run: python .github/scripts/verify-ledger-sha-coverage.py
+      - name: Phase 4 — Verify ledger SHA coverage and JSON consistency (strict latest)
+        run: python .github/scripts/verify-ledger-sha-coverage.py --strict-latest
 
       - name: Phase 5 — Build global Governance registry
         run: python .github/scripts/update-CAM-Governance-Index.py
