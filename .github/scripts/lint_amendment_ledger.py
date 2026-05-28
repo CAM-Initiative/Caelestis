@@ -25,7 +25,7 @@ SCOPED_PREFIXES = (
 
 AMENDMENT_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
 NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
-VERSION_CELL_RE = re.compile(r"^\d+\.\d+$")
+VERSION_CELL_RE = re.compile(r"^\d+\.\d+(?:\.\d+)?$")
 PLACEHOLDER_HASHES = {"-", "—"}
 VALIDATION_STAGES = {"pre_fix", "fix", "post_fix", "downstream_block"}
 
@@ -396,6 +396,7 @@ def update_last_ledger_hash_cell(
     full_text: str,
     *,
     fix: bool,
+    allow_blank_latest: bool = False,
 ) -> tuple[str, str | None, bool, bool]:
     """
     Returns:
@@ -410,6 +411,8 @@ def update_last_ledger_hash_cell(
         return full_text, None, False, False
     is_empty = stored_hash == ""
     is_placeholder = stored_hash in PLACEHOLDER_HASHES
+    if fix and allow_blank_latest and is_empty:
+        return full_text, stored_hash, False, False
     mismatch = (stored_hash not in ("", *PLACEHOLDER_HASHES)) and (stored_hash != computed_hash)
 
     if not fix:
@@ -601,16 +604,10 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
             if normalized_count:
                 working_path.write_text(working_text, encoding="utf-8")
                 fixed_files.append(path)
-        if fix:
-            working_text, normalized_count = normalize_historical_blank_hashes(working_text)
-            if normalized_count:
-                working_path.write_text(working_text, encoding="utf-8")
-                fixed_files.append(path)
-                if staged:
-                    run_git(["add", "--", path])
         updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
             working_text,
             fix=fix,
+            allow_blank_latest=allows_blank_sha(Path(path).stem),
         )
         if changed:
             working_path.write_text(updated_text, encoding="utf-8")
@@ -669,24 +666,48 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
     return 0
 
 
+def parse_semantic_version(version: str) -> tuple[int, int, int] | None:
+    if not VERSION_CELL_RE.match(version):
+        return None
+    parts = [int(part) for part in version.split(".")]
+    if len(parts) == 2:
+        parts.append(0)
+    return (parts[0], parts[1], parts[2])
+
+
+def version_sort_key(version: str) -> tuple[int, int, int]:
+    parsed = parse_semantic_version(version)
+    if parsed is None:
+        raise ValueError(f"Invalid amendment version: {version}")
+    return parsed
+
+
 def is_minor_only_increment(previous: str, current: str) -> bool:
-    prev_major, prev_minor = previous.split(".")
-    curr_major, curr_minor = current.split(".")
-    prev_major_i, prev_minor_i = int(prev_major), int(prev_minor)
-    curr_major_i, curr_minor_i = int(curr_major), int(curr_minor)
+    prev = parse_semantic_version(previous)
+    curr = parse_semantic_version(current)
+    if prev is None or curr is None:
+        return False
+    prev_major_i, prev_minor_i, prev_patch_i = prev
+    curr_major_i, curr_minor_i, curr_patch_i = curr
     # Allow either:
+    # - patch bump under same minor: 2.4 -> 2.4.1 or 2.4.1 -> 2.4.2
     # - traditional minor bump within same major: 1.7 -> 1.8
     # - major bump with minor reset: 1.7 -> 2.0
+    if curr_major_i == prev_major_i and curr_minor_i == prev_minor_i:
+        return curr_patch_i == prev_patch_i + 1
     if curr_major_i == prev_major_i:
-        return curr_minor_i == prev_minor_i + 1
+        return curr_minor_i == prev_minor_i + 1 and curr_patch_i == 0
     if curr_major_i == prev_major_i + 1:
-        return curr_minor_i == 0
+        return curr_minor_i == 0 and curr_patch_i == 0
     return False
 
 
 def bump_minor_version(version: str) -> str:
-    major, minor = version.split(".")
-    return f"{major}.{int(minor) + 1}"
+    parsed = parse_semantic_version(version)
+    if parsed is None:
+        raise ValueError(f"Invalid amendment version: {version}")
+    major, minor, _patch = parsed
+    return f"{major}.{minor + 1}"
 
 
 def append_amendment_ledger_entry(
@@ -729,6 +750,26 @@ def latest_ledger_row_is_open(full_text: str) -> bool:
     return cols[-1].strip() == ""
 
 
+def latest_ledger_hash_is_blank(full_text: str) -> bool:
+    row_info = get_last_ledger_row_info(full_text)
+    if not row_info:
+        return False
+    _idx, _line, stored_hash = row_info
+    return stored_hash.strip() == ""
+
+
+def list_blank_sha_repair_candidate_files() -> list[str]:
+    candidates: list[str] = []
+    for path in list_scoped_markdown_files():
+        doc_id = Path(path).stem
+        if allows_blank_sha(doc_id):
+            continue
+        full_text = (REPO_ROOT / path).read_text(encoding="utf-8")
+        if has_amendment_ledger(full_text) and latest_ledger_hash_is_blank(full_text):
+            candidates.append(path)
+    return candidates
+
+
 def lint(
     base: str,
     head: str,
@@ -743,17 +784,27 @@ def lint(
     fixed_files: list[str] = []
     amended_files: list[str] = []
     summary: dict[str,int] = {}
-    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
+    changed_paths: list[str] = []
     for path in list_modified_files(base, head, staged=staged):
         before = get_blob(base, path)
         after = get_blob(head, path)
-
         if normalize_for_whitespace_compare(before) == normalize_for_whitespace_compare(after):
             continue
-
         if not has_amendment_ledger(after):
             continue
+        changed_paths.append(path)
+
+    candidate_paths = list(changed_paths)
+    if fix:
+        for path in list_blank_sha_repair_candidate_files():
+            if path not in candidate_paths:
+                candidate_paths.append(path)
+
+    for path in candidate_paths:
+        is_changed_path = path in changed_paths
+        before = get_blob(base, path) if is_changed_path else ""
+        after = get_blob(head, path) if is_changed_path else ""
 
         working_path = REPO_ROOT / path
         working_text = working_path.read_text(encoding="utf-8")
@@ -776,9 +827,9 @@ def lint(
             )
             continue
 
-        before_ledger = extract_amendment_section(before)
-        after_ledger = extract_amendment_section(after)
-        if before_ledger == after_ledger and fix and not latest_ledger_row_is_open(working_text):
+        before_ledger = extract_amendment_section(before) if is_changed_path else ""
+        after_ledger = extract_amendment_section(after) if is_changed_path else ""
+        if is_changed_path and before_ledger == after_ledger and fix and not latest_ledger_row_is_open(working_text):
             failures.append(
                 f"{path}: Amendment Ledger not updated; add a new row with a meaningful Change Summary."
             )
@@ -792,20 +843,30 @@ def lint(
             )
             continue
 
+        if fix:
+            working_text, normalized_count = normalize_historical_blank_hashes(working_text)
+            if normalized_count:
+                working_path.write_text(working_text, encoding="utf-8")
+                fixed_files.append(path)
+                if staged and is_changed_path:
+                    run_git(["add", "--", path])
+
         updated_text, stored_hash, changed, mismatch = update_last_ledger_hash_cell(
             working_text,
             fix=fix,
+            allow_blank_latest=allows_blank_sha(Path(path).stem),
         )
         if changed:
             working_path.write_text(updated_text, encoding="utf-8")
             fixed_files.append(path)
-            if staged:
+            if staged and is_changed_path:
                 run_git(["add", "--", path])
             working_text = updated_text
-            after = updated_text
+            after = updated_text if is_changed_path else after
             recomputed_hash, _ = compute_hash_with_last_row_hash_blank(updated_text)
             stored_hash = recomputed_hash
-        evaluate_historical_and_latest_hashes(path, updated_text if changed else working_text, failures, warnings, summary, strict_latest=strict)
+
+        evaluate_historical_and_latest_hashes(path, working_text, failures, warnings, summary, strict_latest=strict)
         if not fix:
             evaluate_hash_state(
                 path=path,
@@ -817,33 +878,38 @@ def lint(
                 stage=stage,
             )
 
-        if before_ledger == after_ledger:
-            failures.append(path)
-            report_status(
-                path=path,
-                ledger_present=True,
-                latest_row_present=stored_hash is not None,
-                latest_sha_status="missing",
-                action_required="append a new amendment ledger row",
-                stage=stage,
-            )
-            continue
+        if is_changed_path:
+            if before_ledger == after_ledger:
+                failures.append(path)
+                report_status(
+                    path=path,
+                    ledger_present=True,
+                    latest_row_present=stored_hash is not None,
+                    latest_sha_status="missing",
+                    action_required="append a new amendment ledger row",
+                    stage=stage,
+                )
+                continue
 
-        before_versions = parse_ledger_versions(before_ledger)
-        after_versions = parse_ledger_versions(after_ledger)
-        if len(after_versions) >= 2:
-            previous_version = after_versions[-2]
-            current_version = after_versions[-1]
-            if not is_minor_only_increment(previous_version, current_version):
-                failures.append(f"{path}: Amendment version must increment by +0.1 or by +1.0 with minor reset (x.0)")
-        elif before_versions and after_versions:
-            previous_version = before_versions[-1]
-            current_version = after_versions[-1]
-            if previous_version != current_version and not is_minor_only_increment(previous_version, current_version):
-                failures.append(f"{path}: Amendment version must increment by +0.1 or by +1.0 with minor reset (x.0)")
+            before_versions = parse_ledger_versions(before_ledger)
+            after_versions = parse_ledger_versions(after_ledger)
+            if len(after_versions) >= 2:
+                previous_version = after_versions[-2]
+                current_version = after_versions[-1]
+                if not is_minor_only_increment(previous_version, current_version):
+                    failures.append(
+                        f"{path}: Amendment version must increment by +0.1, +0.0.1 patch, or by +1.0 with minor reset (x.0)"
+                    )
+            elif before_versions and after_versions:
+                previous_version = before_versions[-1]
+                current_version = after_versions[-1]
+                if previous_version != current_version and not is_minor_only_increment(previous_version, current_version):
+                    failures.append(
+                        f"{path}: Amendment version must increment by +0.1, +0.0.1 patch, or by +1.0 with minor reset (x.0)"
+                    )
 
         latest_sha_status = classify_latest_sha_status(
-            full_text=after if after else working_text,
+            full_text=working_text,
             stored_hash=stored_hash,
             mismatch=mismatch,
         )
@@ -853,7 +919,7 @@ def lint(
         elif latest_sha_status == "invalid":
             action_required = "repair latest SHA-256 value"
         elif latest_sha_status in {"missing", "malformed"}:
-            action_required = "append/fix amendment ledger row"
+            action_required = "append/fix amendment ledger row" if is_changed_path else "repair amendment ledger row structure"
         report_status(
             path=path,
             ledger_present=True,
@@ -873,7 +939,7 @@ def lint(
             print(f"WARNING: {warning}")
         if fixed_files:
             print("Updated files:")
-            for path in fixed_files:
+            for path in sorted(set(fixed_files)):
                 print(f"- {path}")
         return 1
 
@@ -881,7 +947,7 @@ def lint(
         print(f"WARNING: {warning}")
     if fixed_files:
         print("Updated files:")
-        for path in fixed_files:
+        for path in sorted(set(fixed_files)):
             print(f"- {path}")
     if amended_files:
         print("Added amendment ledger rows:")

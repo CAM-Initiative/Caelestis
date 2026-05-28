@@ -166,6 +166,7 @@ These scripts check whether instrument references are structurally valid.
 
 | Script | Purpose | Mutates Files | Normal Use |
 | --- | --- | --- | --- |
+| `validate_canonical_headers.py` | Validates canonical governed-instrument H1 titles and duplicate top metadata/header blocks | No | Governance rebuild Phase 8 |
 | `validate_markdown_section_refs.py` | Validates §-style local and cross-document section references | No | Governance rebuild Phase 8 |
 | `lint_reference_shorthand.py` | Detects shorthand references and lowercase normative terms; can auto-capitalize normative terms | Yes, only with `--fix-normative-case` | Manual linting / cleanup |
 
@@ -244,7 +245,7 @@ Use this in Codespaces or local development when you want earlier feedback befor
 | `tests/test_validate_markdown_section_refs.py` | Tests section-reference validation |
 | `tests/test_verify_ledger_sha_coverage.py` | Tests ledger SHA coverage validation |
 
-Run tests after changing validator logic, ledger policy, parser behavior, or reference-classification rules.
+Run tests after changing validator logic, ledger policy, parser behavior, canonical header checks, or reference-classification rules.
 
 ```bash
 python -m pytest .github/scripts/tests
