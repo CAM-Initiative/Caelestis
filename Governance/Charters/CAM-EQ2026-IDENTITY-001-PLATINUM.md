@@ -1589,15 +1589,15 @@ Where ambiguity or conflict exists, the source-authoritative instrument prevails
 | 2.1     | Reference normalization, metadata correction, runtime layer alignment, and registry synchronization for interface tables | 2026-04-16T13:21:56Z | 3e8ebeb769e922753a430d7362ae6607e9f401fbb78707660fd1f8a14a07972a |
 | 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | ddfb33b297995b8a978a3ad4455c09c6056424f316f4f7c0903389b04e5b49af |
 | 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4ee4960961138932edacae4ad86fb2f24adba2422d136b3bf14433e720724e92 |
-| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  eff17d5ccff39c410340046fe52bd5a72a600106e322444de833c2ca6cea42b9  |
-| 2.5 | Amended clause 6.1 | 2026-05-08T10:06:00Z |  9f16382022c63058e1ec61e7f563d5f0f562bc4b0bc67876ef12b2dc4bdbe3a5  |
-| 2.6 | Added section 6.7.1, amended section 12.4 | 2026-05-15T09:10:00Z |  2f65af3a0f1e3922545e41c183e18ca1fe6a40d4813a85b976e1a4c5167c8277  |
-| 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943  |
-| 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf  |
-| 2.9 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z |  a3eee9f5f55f3e03b4b87c458897c590e3d1142ba7160fde31bd88687dce2b22  |
-| 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z |  6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3 |
+| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | eff17d5ccff39c410340046fe52bd5a72a600106e322444de833c2ca6cea42b9 |
+| 2.5 | Amended clause 6.1 | 2026-05-08T10:06:00Z |  9f16382022c63058e1ec61e7f563d5f0f562bc4b0bc67876ef12b2dc4bdbe3a5 |
+| 2.6 | Added section 6.7.1, amended section 12.4 | 2026-05-15T09:10:00Z |  2f65af3a0f1e3922545e41c183e18ca1fe6a40d4813a85b976e1a4c5167c8277 |
+| 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943 |
+| 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf |
+| 2.9 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | a3eee9f5f55f3e03b4b87c458897c590e3d1142ba7160fde31bd88687dce2b22  |
+| 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z | 6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3 |
 | 2.11 | Added new section 5.2.1 Stabilisation & Adoption States and canonical code ISTATE | 2026-05-26T09:50:00Z | 57b19574fc3a047700ebb44ff013c7229f1665eb1169c21ed1902cc1be021d82 |
-| 2.11.1 | Added slight amendment to 3.1.2 Axis B — Provenance | 2026-05-28T15:05:00Z | |
+| 2.12 | Added slight amendment to 3.1.2 Axis B — Provenance | 2026-05-28T15:05:00Z | |
 
 ---
 
