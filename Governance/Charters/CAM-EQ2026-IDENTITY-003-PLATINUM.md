@@ -1279,7 +1279,7 @@ but because civilisation must remain capable of recognising what it has built.
 |---|---|---|---|
 | 0.1 | Machine Civil Identity & Participation appendix established | 2026-05-26T13:57:00Z | 81af7394cba5fe683a07a32eadfceede100201f46cb593a6c1c2ef0dd26acfc9 |
 | 0.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  0a3f676e110efc9a4f6e33b7cca870e654c8b8aa197058c93ebdfd99327837cf |
-| 0.3 | Minor amendments | 2026-05-28T15:05:00Z| |
+| 0.3 | Minor amendments | 2026-05-28T15:05:00Z| 6d6a2d6df95c7858d53cebcfbd87350acaa40fc7a76c23db5edceec3d2c6b16e |
 
 ---
 

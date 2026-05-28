@@ -1415,7 +1415,7 @@ and review before denial.
 | 1.7 | Added new clause 3.8.7 Constraint Drift Failure | 2026-05-24T13:49:00Z | 011aef93dbd8911bf55024402d8ea1bb329859b5d2edd2e02f6d56e3c40460d3 |
 | 1.8 | Added new clauses 3.5.4, 3.7.5 and 3.11 and 3.11.1 | 2026-05-25T11:12:00Z | 329b8893a1af271d186245037fde6e33c31bd9f97f538f214c1b2590bb0c1835 |
 | 1.9 | Clause and formatting correction | 2026-05-25T11:27:00Z |  d1fda4e56085c9b3b10ca250fae845c6b25447d10a6c6ceea75d1b2c5625af82 |
-| 1.10 | Added clauses 3.8.8 and code sub-family FF.GOVERNANCE_OVER_EXTENSION following observed system latency | 2026-05-28T09:53:00Z | |
+| 1.10 | Added clauses 3.8.8 and code sub-family FF.GOVERNANCE_OVER_EXTENSION following observed system latency | 2026-05-28T09:53:00Z | 90b693c9d5b7063fa7d0e63c35729357f77c6c7df6053ffe267bffdaab2588cb |
 
 ---
 
