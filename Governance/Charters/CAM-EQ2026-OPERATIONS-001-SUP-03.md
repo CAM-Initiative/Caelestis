@@ -1042,7 +1042,7 @@ and let execution remain accountable to lawful structure.
 | 2.2 | Added clause 2.3.1 Public-Interest Suppression as Capture-Risk Indicator | 2026-05-13T11:58:00Z | f3387b21807990cb81ab2919b9bb735da61c65714c76016c963e3fe4b458f0de |
 | 2.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ce357a4c003edd2c5e4051e6bc492a428fb47e80bd30995402ed5354ddc5fc9 |
 | 2.4 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  7c40cf9ae6de80f66820551d90eae32ffef11fb402d23e79cc52d0d0446660e2 |
-| 2.4.1| Updated formatting | 2026-05-28T09:38:00Z | |
+| 2.5 | Updated formatting | 2026-05-28T15:15:00Z | |
 
 ---
 
