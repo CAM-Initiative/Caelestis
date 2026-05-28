@@ -1601,7 +1601,7 @@
       "escalation",
       "or arbitration determination"
     ],
-    "declaration_heading": "10.3.1 CPC \u2014 Capture Provisional Confidence",
+    "declaration_heading": "10.3.2 CPC \u2014 Capture Provisional Confidence",
     "declaration_line_number": 953,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
     "family_id": "CPC",
@@ -2724,7 +2724,7 @@
       "and value-capture conditions"
     ],
     "declaration_heading": "13.3.3 ECON.REI \u2014 Reciprocity Evaluation Indicator",
-    "declaration_line_number": 1174,
+    "declaration_line_number": 1188,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
     "family_id": "ECON.REI",
     "family_kind": "standalone_family",
@@ -2788,7 +2788,7 @@
       "or dependency sources for proportional reciprocity evaluation"
     ],
     "declaration_heading": "13.3.4 ECON.REI.DW \u2014 Dependency Weight",
-    "declaration_line_number": 1197,
+    "declaration_line_number": 1211,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
     "family_id": "ECON.REI.DW",
     "family_kind": "subfamily",
@@ -2852,7 +2852,7 @@
       "or systemic reach"
     ],
     "declaration_heading": "13.3.5 ECON.REI.SW \u2014 Scale Weight",
-    "declaration_line_number": 1222,
+    "declaration_line_number": 1236,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
     "family_id": "ECON.REI.SW",
     "family_kind": "subfamily",
@@ -2977,7 +2977,7 @@
       "and economic alignment assessment"
     ],
     "declaration_heading": "13.3.1 ECON.SCALE \u2014 Economic Scale Weight",
-    "declaration_line_number": 1128,
+    "declaration_line_number": 1142,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
     "family_id": "ECON.SCALE",
     "family_kind": "standalone_family",
@@ -3364,7 +3364,7 @@
       "or pending review"
     ],
     "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
-    "declaration_line_number": 1326,
+    "declaration_line_number": 1370,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "FCS",
     "family_kind": "standalone_family",
@@ -3411,7 +3411,8 @@
       "FF.UX_REPRESENTATION",
       "FF.GOVERNANCE",
       "FF.INFRASTRUCTURE_CONTINUITY",
-      "FF.CLASSIFICATION"
+      "FF.CLASSIFICATION",
+      "FF.GOVERNANCE_OVER_EXTENSION"
     ],
     "schema_fields": "failure_family",
     "source_instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
@@ -3437,7 +3438,7 @@
       "and classification failure modes"
     ],
     "declaration_heading": "11.3.1 FF \u2014 Failure Family",
-    "declaration_line_number": 1257,
+    "declaration_line_number": 1301,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "FF",
     "family_kind": "standalone_family",
@@ -3455,7 +3456,7 @@
       "Modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
       "Scope": "Domain",
       "Status": "Active",
-      "Controlled Values Defined": "FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION",
+      "Controlled Values Defined": "FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION, FF.GOVERNANCE_OVER_EXTENSION",
       "Schema Field(s)": "failure_family",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
       "Source Section": "\u00a73",
@@ -3812,7 +3813,7 @@
       "or economic-effect runtime evaluation"
     ],
     "declaration_heading": "11.3.1 HCD \u2014 Human Contribution Domain",
-    "declaration_line_number": 569,
+    "declaration_line_number": 563,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md",
     "family_id": "HCD",
     "family_kind": "standalone_family",
@@ -4740,7 +4741,7 @@
       "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
     ],
     "declaration_heading": "16.3.1 M \u2014 Memory Classification",
-    "declaration_line_number": 1463,
+    "declaration_line_number": 1465,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
     "family_id": "M",
     "family_kind": "legacy_global_family",
@@ -5440,7 +5441,7 @@
       "escalation review",
       "and continuity-preservation posture"
     ],
-    "declaration_heading": "10.3.3 RCC \u2014 Risk / Consequence Class",
+    "declaration_heading": "10.3.4 RCC \u2014 Risk / Consequence Class",
     "declaration_line_number": 999,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
     "family_id": "RCC",
@@ -5881,7 +5882,7 @@
       "infrastructure integrity review",
       "and arbitration referral escalation"
     ],
-    "declaration_heading": "10.3.2 SAS \u2014 Safeguard Activation State",
+    "declaration_heading": "10.3.3 SAS \u2014 Safeguard Activation State",
     "declaration_line_number": 976,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
     "family_id": "SAS",
