@@ -282,7 +282,14 @@ def test_annex_forms_and_placeholder(tmp_path):
 
 def test_short_named_references_are_blocking(tmp_path):
     src = tmp_path / "Governance" / "SRC.md"
-    for text in ["Annex B §14.3.1", "Appendix Y §6.2", "Schedule 2 §13.8", "RELATION-001 §5.4", "AEON-003 §14.3.1"]:
+    for text in [
+        "Annex B §14.3.1",
+        "Appendix Y §6.2",
+        "Schedule 2 §13.8",
+        "RELATION-001 §5.4",
+        "AEON-003 §14.3.1",
+        "IDENTITY-001 §6.3",
+    ]:
         w(src, text + "\n")
         finding = validator.run(tmp_path / "Governance")[0]
         assert finding.status == "fail_short_document_reference"

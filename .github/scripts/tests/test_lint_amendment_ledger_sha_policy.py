@@ -124,3 +124,34 @@ def test_structurally_valid_latest_blank_hash_allowed():
     text = mk(["|1.0|summary|2026-05-20T00:00:00Z|  |"])
     malformed = ledger.get_malformed_ledger_rows(text)
     assert malformed == []
+
+
+def test_formatting_only_categories_are_accepted():
+    rows = [
+        "|1.0|minor formatting patch in headings|2026-05-20T00:00:00Z|  |",
+        "|1.1|formatting correction for section numbering-only references|2026-05-21T00:00:00Z|  |",
+        "|1.2|metadata formatting correction (metadata-ordering, table-alignment, whitespace-only)|2026-05-22T00:00:00Z|  |",
+    ]
+    text = mk(rows)
+    malformed = ledger.get_malformed_ledger_rows(text)
+    assert malformed == []
+
+
+def test_blank_change_summary_is_rejected():
+    text = mk(["|1.0|   |2026-05-20T00:00:00Z|  |"])
+    malformed = ledger.get_malformed_ledger_rows(text)
+    assert malformed
+    assert any("non-blank" in reason for _, reason in malformed)
+
+
+def test_formatting_only_with_substantive_claim_is_rejected():
+    text = mk(["|1.0|minor formatting patch plus substantive clause changes|2026-05-20T00:00:00Z|  |"])
+    malformed = ledger.get_malformed_ledger_rows(text)
+    assert malformed
+    assert any("Formatting-only" in reason for _, reason in malformed)
+
+
+def test_normal_substantive_row_unchanged_behavior():
+    text = mk(["|1.0|Substantive clause changes to Article 4 dispute quorum thresholds|2026-05-20T00:00:00Z|  |"])
+    malformed = ledger.get_malformed_ledger_rows(text)
+    assert malformed == []
