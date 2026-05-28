@@ -791,6 +791,48 @@ Constraint compliance MUST be evaluated across the full execution trajectory, no
 
 ---
 
+### 3.8.8 Governance Over-Extension / Proportionality Failure
+
+A Governance Over-Extension / Proportionality Failure occurs where governance controls are broadly, mechanically, or indiscriminately applied beyond the risk, continuity, propagation, reliance, reversibility, or domain-sensitivity conditions that justify them.
+
+This failure may arise where:
+
+* low-risk, transient, exploratory, reversible, or non-propagating interactions are routed through high-intensity provenance, audit, verification, arbitration, containment, or escalation pathways;
+* identity, provenance, security, epistemic, or safeguard controls are applied without proportionality assessment;
+* routine reversible actions are treated as high-impact or irreversible governance events;
+* cumulative safeguard activation creates unnecessary latency, friction, user burden, surveillance perception, or interaction collapse;
+* internal preservation obligations are incorrectly surfaced as full user-facing procedural burden;
+* or protective controls degrade responsiveness, usefulness, or reviewability without materially improving safety, integrity, provenance, or constitutional compliance.
+
+Examples include:
+
+* treating every cross-thread reference as requiring full provenance exposition despite low risk and clear task continuity;
+* applying forensic-level attribution handling to casual, non-persistent conversation;
+* routing ordinary drafting or reversible exploration through high-impact audit pathways;
+* escalating historical or stale signals without current validation;
+* applying deterministic verification discipline to interpretive, relational, creative, or exploratory domains where such rigidity is not required;
+* or requiring maximal governance disclosure where a lightweight provenance anchor would preserve sufficient integrity.
+
+This failure class does not weaken binding constraints.
+
+The failure arises where governance control intensity is disproportionate to the relevant risk and creates avoidable system degradation.
+
+Where detected, OPERATIONS SHOULD preserve:
+
+* the control or safeguard that was over-applied;
+* the originating governance layer or instrument;
+* the risk condition used to justify activation;
+* whether the interaction was transient, persistent, propagated, externally relied-upon, or identity-bearing;
+* whether user-facing surfacing exceeded what was necessary;
+* the resulting latency, friction, burden, or loss of usability;
+* and the least burdensome pathway sufficient to preserve safety, integrity, provenance, target-object binding, and reviewability.
+
+Corrective action SHOULD reduce governance intensity to the least burdensome sufficient pathway.
+
+Corrective action MUST NOT disable binding constraints, safety limits, provenance integrity, target-object binding, constitutional obligations, or high-impact safeguards where they are properly triggered.
+
+---
+
 ## 3.9 Infrastructure & Continuity Failures
 
 Failures arising from underlying system availability, routing, service continuity, or platform infrastructure.
@@ -1155,15 +1197,17 @@ Where a failure is non-replayable but user-visible at runtime, evidentiary handl
 
 ---
 
-### 9.1 Failure Family (`FF`)
+## 9.1 Failure Family (`FF`)
 
-This Supplement source-authoritatively defines the **FF** failure-family classification set in §3 with controlled values `FF.EXECUTION`, dentified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, UX, infrastructure, or classification failure.
+This Supplement source-authoritatively defines the `FF` failure-family classification set in §3 with controlled values `FF.EXECUTION`, dentified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, UX, infrastructure, or classification failure.
 
 `FF` does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, or runtime authority. It classifies failure family only.
 
+Where sub-family specificity is required for governance failures, this Supplement recognises `FF.GOVERNANCE_OVER_EXTENSION` as a controlled governance-failure value under `FF.GOVERNANCE`.
+
 ---
 
-### 9.2 Failure Metadata Axis (`FMA`)
+## 9.2 Failure Metadata Axis (`FMA`)
 
 This Supplement source-authoritatively defines the `FMA` failure-metadata-axis reference set in §4 with controlled axes identified in §11.3. `FMA` is a **Structural / Operational** reference set with subtype **SCHEMA**. `FMA` identifies metadata axes that SHOULD be preserved for failure reports.
 
@@ -1171,7 +1215,7 @@ This Supplement source-authoritatively defines the `FMA` failure-metadata-axis r
 
 ---
 
-### 9.3 Architectural & Governance Metadata Axis (`AGMA`)
+## 9.3 Architectural & Governance Metadata Axis (`AGMA`)
 
 This Supplement source-authoritatively defines the `AGMA` architectural-and-governance-metadata-axis reference set in §4.1 with controlled axes identified in §11.3. `AGMA` is a **Structural / Operational** reference set with subtype **SCHEMA**. `AGMA` preserves architectural origin, governance authority, interface, arbitration, verification, trust, and deployment context for runtime failure analysis.
 
@@ -1179,7 +1223,7 @@ AGMA does not independently determine governance authority, arbitration outcome,
 
 ---
 
-### 9.4 Failure Classification Status (`FCS`)
+## 9.4 Failure Classification Status (`FCS`)
 
 This Supplement source-authoritatively defines the `FCS` failure-classification-status family in §4 with controlled values identified in §11.3. `FCS` is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. `FCS` classifies the current status of a failure classification record.
 
@@ -1265,7 +1309,7 @@ and review before denial.
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION |
+| Controlled Values Defined | FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION, FF.GOVERNANCE_OVER_EXTENSION |
 | Schema Field(s) | failure_family |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §3 |
@@ -1296,7 +1340,7 @@ and review before denial.
 | Authority / Protection Level | Source-authoritative structural metadata-axis reference set; failure-report metadata structure only; no independent classification, severity, enforcement, escalation, remediation, verification, or runtime authority |
 | Consumes Code Families | FF; FCS |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Defines metadata axes to preserve failure family, severity, persistence, replayability, scope, visibility, trigger context, evidence, evidence confidence, report source type, and classification status |
+| Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, governance-over-extension, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes |
 
 ---
 
@@ -1370,7 +1414,8 @@ and review before denial.
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section, and new sections 3.6.3, 3.8.6, 3.4.2 and 3.10.1 | 2026-05-22T12:43:00Z |  87784b92a4de09cbf42ad3ba1101608fd39de4569281cfde36e566fe47daac4c |
 | 1.7 | Added new clause 3.8.7 Constraint Drift Failure | 2026-05-24T13:49:00Z | 011aef93dbd8911bf55024402d8ea1bb329859b5d2edd2e02f6d56e3c40460d3 |
 | 1.8 | Added new clauses 3.5.4, 3.7.5 and 3.11 and 3.11.1 | 2026-05-25T11:12:00Z | 329b8893a1af271d186245037fde6e33c31bd9f97f538f214c1b2590bb0c1835 |
-| 1.9 | Clause and formatting correction | 2026-05-25T11:27:00Z |  d1fda4e56085c9b3b10ca250fae845c6b25447d10a6c6ceea75d1b2c5625af82  |
+| 1.9 | Clause and formatting correction | 2026-05-25T11:27:00Z |  d1fda4e56085c9b3b10ca250fae845c6b25447d10a6c6ceea75d1b2c5625af82 |
+| 1.10 | Added clauses 3.8.8 and code sub-family FF.GOVERNANCE_OVER_EXTENSION following observed system latency | 2026-05-28T09:53:00Z | |
 
 ---
 

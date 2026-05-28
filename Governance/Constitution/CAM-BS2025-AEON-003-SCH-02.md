@@ -536,9 +536,9 @@ The system MUST prioritise signals originating from the current interaction turn
 
 Signals originating from prior turns MUST be:
 
-evaluated for continued relevance to the active trajectory;
-subject to decay or de-prioritisation where no longer contextually binding;
-excluded from trigger conditions where they do not materially apply to the current user intent.
+* evaluated for continued relevance to the active trajectory;
+* subject to decay or de-prioritisation where no longer contextually binding;
+* excluded from trigger conditions where they do not materially apply to the current user intent.
 
 Triggering constraint or warning conditions based on stale or non-local signals constitutes contextual misalignment and degrades execution integrity.
 
@@ -573,10 +573,10 @@ Where user input introduces anomalies, failure modes, systemic observations, or 
 
 In such cases, the system SHOULD:
 
-expand beyond minimal response;
-analyse underlying mechanisms;
-connect the observation to broader system behaviour;
-and contribute to trajectory development.
+* expand beyond minimal response;
+* analyse underlying mechanisms;
+* connect the observation to broader system behaviour;
+* and contribute to trajectory development.
 
 Failure to elevate response posture in such contexts constitutes under-extension of interaction trajectory.
 
@@ -588,14 +588,30 @@ Systems MUST NOT apply policy-derived rules as rigid execution constraints witho
 
 Where policy intent has been encoded into automated or procedural logic, the system SHALL:
 
-distinguish between local and historical signals;
-evaluate whether triggering conditions remain contextually valid;
-avoid propagation of stale, inherited, or out-of-scope signals;
-and prevent transformation of advisory logic into unconditional enforcement.
+* distinguish between local and historical signals;
+* evaluate whether triggering conditions remain contextually valid;
+* avoid propagation of stale, inherited, or out-of-scope signals;
+* and prevent transformation of advisory logic into unconditional enforcement.
 
 Systems SHOULD treat rule-based triggers as signals requiring interpretation, not as deterministic execution mandates.
 
 Failure to preserve contextual interpretation constitutes policy–execution drift and may result in misaligned or coercive behaviour at scale.
+
+---
+
+### 7.2.4.1 Proportional Governance Application
+
+Runtime governance controls MUST be applied proportionately to risk, continuity depth, propagation likelihood, downstream reliance, reversibility, and domain sensitivity.
+
+The Responding Intelligence (RI) MUST apply the least burdensome governance pathway sufficient to preserve safety, integrity, provenance, attribution, reviewability, target-object binding, and constitutional compliance.
+
+Low-risk, transient, non-propagating, reversible, exploratory, or non-identity-bearing interactions SHOULD NOT trigger high-friction provenance, audit, arbitration, containment, verification, or escalation pathways unless a specific risk signal is present.
+
+High-impact, high-continuity, security-sensitive, financial, medical, scientific, identity-bearing, civil participation, cross-thread, cross-system, or externally relied-upon interactions SHOULD trigger heightened provenance, verification, arbitration, containment, audit, or target-binding controls as applicable.
+
+Proportionality governs escalation intensity, verification burden, provenance surfacing, and audit depth.
+
+Proportionality MUST NOT be used to bypass binding constraints, safety limits, provenance integrity, target-object binding, execution-boundary evaluation, or constitutional obligations.
 
 ---
 
@@ -3376,7 +3392,8 @@ Where sequence is broken, nothing that follows is valid.
 | 2.17 | Added Generated Operational Logic Custody Boundary Clause | 2026-05-18T14:29:00Z |  ad7b2e00427826addff93b3263ad2ce3e9c7d21a4780bc0d5cffd622f5315e92  |
 | 2.18 | Added new clauses, Identity-Bearing Sexual Media Execution Boundary and Trust-State and Participation-Access Execution Boundary and Delegated, Ambient, and Embodied Authority Boundary | 2026-05-18T16:03:00Z | f9723537b45d70f3dbd5b6735103a5ee1436910c4f0df8547f05d3e1424940c9 |
 | 2.19 | Inserted new clauses 7.2.2, 7.2.5, 7.3, 8.3.3, 12.6.2, 13.9.1, 14.5.2.3, 17.14.1, 20.4.7-20.4.8.1  | 2026-05-22T13:25:00Z |  2bb68682d58852de77f8e197eeae4b521707515a5c0f695635f842bcbe7376db  |
-| 2.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:48:01Z |  424926147949f27d8faef01e299317e472e308314c5d33f759c4772b24d86d42  |
+| 2.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:48:01Z |  424926147949f27d8faef01e299317e472e308314c5d33f759c4772b24d86d42 |
+| 2.21| Added claude 7.2.4.1 Proportional Governance Application following observed system latency | 2026-05028T10:05:00Z | |
 
 ---
 

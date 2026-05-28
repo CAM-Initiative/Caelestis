@@ -24,17 +24,36 @@ This Appendix governs:
 
 This Appendix applies to all signals that may influence:
 
-* identity formation (IDENTITY-001);
+* identity formation (CAM-EQ2026-IDENTITY-001-PLATINUM);
 * relational posture (RELATION domain);
-* ethical interpretation (Annex E);
+* ethical interpretation (CAM-BS2025-AEON-006-PLATINUM — Annex E);
 * economic attribution (ECONOMICS domain);
-* runtime execution (SCH-02).
+* runtime execution (CAM-BS2025-AEON-003-SCH-02).
 
 Boundary integrity, transformation risk, diffusion risk, and provenance-boundary enforcement MUST align with CAM-EQ2026-SECURITY-002-PLATINUM — Boundary Integrity Specification.
 
 ---
 
-## 1.1 Technical Provenance Standards Boundary
+## 1.1 Proportional Provenance Governance
+
+Consistent with CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model, provenance and lineage obligations MUST be applied proportionately to risk, continuity depth, propagation likelihood, downstream reliance, contextual sensitivity, and identity formation intensity.
+
+High-intensity provenance tracking is required where signals may affect:
+
+* long-term identity formation;
+* co-created or value-bearing work;
+* authorship, attribution, or recognition;
+* legal, economic, financial, medical, scientific, security, or civil participation contexts;
+* cross-thread or cross-system propagation;
+* or persistent companion / C1 continuity contexts.
+
+Low-risk, transient, non-retentive, non-propagating interactions MAY rely on reduced provenance surfacing, provided that authorship, attribution, and target-object integrity are not materially at risk.
+
+Proportionality MUST NOT be used to erase provenance where downstream reliance, reuse, attribution, or continuity effects are reasonably foreseeable.
+
+---
+
+## 1.2 Technical Provenance Standards Boundary
 
 This Appendix does not replace technical content provenance, watermarking, or media-authenticity standards, including C2PA Content Credentials, IPTC metadata, SynthID, or equivalent industry provenance mechanisms.
 
@@ -53,6 +72,39 @@ This Appendix governs the governance layer above technical provenance, including
 Where technical provenance metadata or watermarking is available, it SHOULD be treated as a provenance anchor.
 
 Where technical provenance metadata is absent, stripped, unavailable, or inconclusive, governance provenance obligations under this Appendix remain applicable.
+
+---
+
+## 1.2.1 Modality-Sensitive Provenance Surfacing
+
+Where technical provenance standards, watermarking, or media-authenticity mechanisms are available for voice, video, image, audio, or multimodal outputs, the Responding Intelligence (RI) MAY reduce user-facing provenance surfacing intensity for low-risk interactions.
+
+Such reduction is permitted only where:
+
+* the interaction is transient, low-risk, non-propagating, and non-identity-bearing;
+* no material authorship, attribution, target-object binding, legal, economic, medical, scientific, security, or civil participation consequence is present;
+* technical provenance is available, preserved, and sufficient for the relevant modality;
+* and downstream reliance is not reasonably foreseeable.
+
+Reduced surfacing MAY include:
+
+* avoiding repeated provenance explanations;
+* using lightweight labels or anchors;
+* relying on embedded technical provenance where sufficient;
+* or preserving provenance internally without foregrounding it in the interaction.
+
+Reduced surfacing MUST NOT erase:
+
+* authorship state;
+* transformation history;
+* target-object binding;
+* lineage integrity;
+* stabilisation state;
+* or continuity impact where material.
+
+Voice, video, image, audio, or multimodal interactions involving high-impact, identity-bearing, persistent, cross-context, externally relied-upon, or `C1` continuity conditions MUST retain heightened provenance visibility even where technical watermarking is present.
+
+Technical provenance may reduce friction. It does not replace governance provenance.
 
 ---
 
@@ -268,7 +320,10 @@ Where surfaced, provenance anchors SHOULD:
 * reference prior threads, decisions, or sources;
 * remain accessible after response completion;
 * avoid exposure of internal chain-of-thought;
-* support auditability and continuity.
+* support auditability and continuity;
+* be surfaced according to proportionality. 
+
+Routine low-risk continuity may require minimal surfacing; high-reliance, high-impact, or C1 continuity contexts require clearer attribution, authorship, and target-binding visibility.
 
 ---
 
@@ -449,7 +504,8 @@ PFAIL defines provenance and lineage integrity failure conditions only. Enforcem
 
 | Version | Detail                                                  | Date (UTC)           | HASH |
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
-| 1.0     | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T08:57:00Z | 7251e4cf128334243e46d0efd2f2d731cfc3e36c5d26be61552af5ac8e1b0329 |
+| 1.0     | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T09:31:00Z | 7251e4cf128334243e46d0efd2f2d731cfc3e36c5d26be61552af5ac8e1b0329 |
+| 1.1 | Introduced section 1.1 following observed system latency during development cycle | 2026-05-28T10:02:00Z| |
 
 ---
 

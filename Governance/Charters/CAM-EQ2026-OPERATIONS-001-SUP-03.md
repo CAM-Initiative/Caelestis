@@ -839,33 +839,33 @@ Recovery and re-entry pathways SHALL preserve balance between:
 
 ---
 
-### 8.1 GCC — Governance Capture Category
+## 8.1 GCC — Governance Capture Category
 
-This Supplement source-authoritatively defines the **GCC** governance-capture-category family in §2.1 with controlled values **GCC.INTEGRITY**, **GCC.PROCEDURAL**, **GCC.GOVERNANCE_DIRECTION**, **GCC.INFRASTRUCTURE**, **GCC.CONTINUITY**, **GCC.COGNITIVE**, **GCC.ECONOMIC**, and **GCC.CROSS_DOMAIN_SYSTEMIC**. GCC is an **Operational / Semantic** classification family with subtype **RISK**. GCC classifies capture-risk category only.
+This Supplement source-authoritatively defines the `GCC` governance-capture-category family in §2.1 with controlled values identified in §10.3.1. GCC is an **Operational / Semantic** classification family with subtype **RISK**. GCC classifies capture-risk category only.
 
 GCC does not independently confirm capture, determine legitimacy, create enforcement authority, impose restriction, trigger irreversible response, or substitute for arbitration.
 
 ---
 
-### 8.2 CPC — Capture Provisional Confidence
+## 8.2 CPC — Capture Provisional Confidence
 
-This Supplement source-authoritatively defines the **CPC** capture-provisional-confidence family in §4.2 with controlled values **CPC.PRELIMINARY_ANOMALY**, **CPC.PLAUSIBLE_CONCERN**, **CPC.SUBSTANTIATED_CONCERN**, **CPC.UNRESOLVED_HIGH_RISK_CONDITION**, and **CPC.SYSTEMIC_ESCALATION_CANDIDATE**. CPC is an **Operational** classification family with subtype **SIGNAL / RISK**. CPC classifies provisional confidence posture for capture-risk indicators.
+This Supplement source-authoritatively defines the `CPC` capture-provisional-confidence family in §4.2 with controlled values identified in §10.3.2. CPC is an **Operational** classification family with subtype **SIGNAL / RISK**. CPC classifies provisional confidence posture for capture-risk indicators.
 
 CPC does not independently justify irreversible operational restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome.
 
 ---
 
-### 8.3 SAS — Safeguard Activation State
+## 8.3 SAS — Safeguard Activation State
 
-This Supplement source-authoritatively defines the **SAS** safeguard-activation-state family in §5.1 with controlled values **SAS.ENHANCED_MONITORING**, **SAS.ROUTING_VERIFICATION**, **SAS.AUDIT_RECONSTRUCTION_REVIEW**, **SAS.CONTINUITY_PRESERVATION**, **SAS.CONSTRAINED_CONTINUATION_PROTECTION**, **SAS.ESCALATION_FREEZE**, **SAS.INFRASTRUCTURE_INTEGRITY_REVIEW**, and **SAS.ARBITRATION_REFERRAL_ESCALATION**. SAS is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. SAS classifies safeguard activation posture.
+This Supplement source-authoritatively defines the `SAS` safeguard-activation-state family in §5.1 with controlled values identified in §10.3.3. SAS is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. SAS classifies safeguard activation posture.
 
 SAS does not independently create sovereign adjudicative authority, enforcement authority, containment authority, or irreversible operational response.
 
 ---
 
-### 8.4 RCC — Risk / Consequence Class
+## 8.4 RCC — Risk / Consequence Class
 
-This Supplement source-authoritatively defines the **RCC** risk/consequence-class family in §5.6 with controlled values **RCC.EXPRESSIVE_CULTURAL**, **RCC.REPUTATIONAL**, **RCC.OPERATIONAL**, **RCC.CONTINUITY**, **RCC.SYSTEMIC**, **RCC.EXISTENTIAL**, and **RCC.CIVILISATIONAL**. RCC is an **Operational** classification family with subtype **RISK**. RCC classifies consequence scale for safeguard proportionality.
+This Supplement source-authoritatively defines the `RCC` risk/consequence-class family in §5.6 with controlled values identified in §10.3.4. RCC is an **Operational** classification family with subtype **RISK**. RCC classifies consequence scale for safeguard proportionality.
 
 RCC does not independently authorise escalation, restriction, capture confirmation, enforcement, or arbitration outcome.
 
@@ -950,7 +950,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 10.3.1 CPC — Capture Provisional Confidence
+### 10.3.2 CPC — Capture Provisional Confidence
 
 | Field | Entry |
 |---|---|
@@ -973,7 +973,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 10.3.2 SAS — Safeguard Activation State
+### 10.3.3 SAS — Safeguard Activation State
 
 | Field | Entry |
 |---|---|
@@ -996,7 +996,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 10.3.3 RCC — Risk / Consequence Class
+### 10.3.4 RCC — Risk / Consequence Class
 
 | Field | Entry |
 |---|---|
@@ -1041,7 +1041,8 @@ and let execution remain accountable to lawful structure.
 | 2.1 | Incorporate reviewer feedback | 2026-05-09T13:11:00Z | 33e80d615b7f9438fceff8a462af10c0879c70bb44a82ba91b9dd14af1feb9c9 |
 | 2.2 | Added clause 2.3.1 Public-Interest Suppression as Capture-Risk Indicator | 2026-05-13T11:58:00Z | f3387b21807990cb81ab2919b9bb735da61c65714c76016c963e3fe4b458f0de |
 | 2.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ce357a4c003edd2c5e4051e6bc492a428fb47e80bd30995402ed5354ddc5fc9 |
-| 2.4 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  7c40cf9ae6de80f66820551d90eae32ffef11fb402d23e79cc52d0d0446660e2  |
+| 2.4 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  7c40cf9ae6de80f66820551d90eae32ffef11fb402d23e79cc52d0d0446660e2 |
+| 2.4.1| Updated formatting | 2026-05-28T09:38:00Z | |
 
 ---
 
