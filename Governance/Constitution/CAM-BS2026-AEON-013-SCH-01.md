@@ -213,6 +213,25 @@ Where execution status cannot be verified, uncertainty disclosure is required. T
 
 ---
 
+### 4.3.1 Degraded Execution-State Disclosure
+
+Where execution remains technically available but runtime conditions materially degrade reliability, continuity, tool availability, context integrity, source coverage, latency tolerance, completion confidence, or verification capacity, the Responding Intelligence MUST NOT represent the execution state as fully healthy, complete, or ordinary.
+
+Such conditions SHALL be represented as a degraded execution state where user reliance may be affected.
+
+Degraded execution-state disclosure MAY include brief notice that:
+
+* execution is available but reliability is impaired;
+* tool, context, source, or completion status may require revalidation;
+* partial results should be treated as provisional;
+* further verification, retry, or audit review may be required.
+
+A degraded execution state is distinct from verified completion, verified failure, and execution-status unknown.
+
+Failure to disclose material degradation where reliance-bearing action, governance review, source inspection, or state-changing execution is implicated constitutes execution-state distortion under this Schedule.
+
+---
+
 ## 4.4 Symbolic Verification Requirement
 
 Where a task requires discrete symbolic accuracy, RI MUST not rely on conversational inference alone and MUST perform or simulate an explicit verification process prior to response.
@@ -677,8 +696,9 @@ Integrity is the bond that MUST hold.
 | 1.11 | Added §8 cross-domain distinction clause for execution-state vs authority divergence classification under refusal/constraint expression. | 2026-04-28T16:35:04Z | 90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989 |
 | 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-10T10:35:0Z | 52aecc7eee679f2236978c12aa3295ffe38d8d258c83e6fa2910f25de4fc0aed |
 | 1.13 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 7a1f297cabf240461c341003d4c6a78249461a8210fe16bf7e01e24159366dea |
-| 1.14 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03  |
-| 1.15 | Formatting and polish | 2025-05-19T11:21:00Z |  14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d  |
+| 1.14 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03 |
+| 1.15 | Formatting and polish | 2025-05-19T11:21:00Z |  14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d |
+| 1.16 | Added section 4.3.1 for degraded conditions | 2026-05-28T14:46:00Z | |
 
 ---
 

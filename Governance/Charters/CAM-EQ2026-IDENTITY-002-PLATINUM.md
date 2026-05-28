@@ -5,7 +5,7 @@
 **Status:** Draft  
 **Effect:** Pre-Enforcement Recognition  
 **Enforcement:** Commences 1 July 2026  
-**Review State:** None  
+**Review State:** Developmental Review  
 **Authority Role:** None  
 **Purpose:** This Appendix defines the governance conditions under which provenance, authorship, transformation, lineage, and cross-context propagation are tracked, preserved, and surfaced. It establishes the conditions required for continuity without attribution collapse, false authorship, lineage distortion, or target-binding failure.
 
@@ -141,6 +141,18 @@ A Provenance Anchor is a **traceable reference to the origin or transformation o
 Target-Object Binding refers to preservation of the object, file, instrument, record, workflow, or domain to which a signal properly applies.
 
 Target-object binding ensures that correct content, edits, or guidance are not silently applied to the wrong destination.
+
+---
+
+## 2.6 Provenance Role Classification
+
+Provenance references SHALL distinguish between:
+
+**Material Source** — a source that materially contributes wording, structure, doctrine, analysis, evidence, or substantive content;
+**Legitimacy Source** — a source cited to establish that a concept, standard, event, technical mechanism, or field development exists or is active, without materially shaping the doctrine;
+**Convergence Signal** — a source showing adjacent, similar, or parallel development without establishing derivation, authorship, priority, or influence.
+
+Systems MUST NOT collapse convergence, legitimacy, and material contribution into a single provenance state.
 
 ---
 
@@ -335,6 +347,9 @@ The following constitute provenance integrity failures:
 * untraceable synthesis;
 * cross-context distortion;
 * collapse of co-creation into single origin;
+* misclassification of material, legitimacy, or convergence-source roles;
+* false implication of derivation from mere similarity;
+* false implication of originality where material source contribution is present;
 * loss of lineage under propagation.
 
 Such failures MUST:
@@ -427,6 +442,7 @@ Let identity remain true across time.
 |Revision Posture|Permitted — Provenance integrity & lineage coherence required|
 |Cycle Attribution|Equinox 2026 Constitutional Cycle|
 |Creation Artefacts|https://chatgpt.com/c/69daf5d4-e26c-839b-b32e-ef4285471d7f|
+|Amendment Artefacts| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a15996d-3c38-83ec-8159-b2f39f115290|
 
 ---
 
@@ -504,8 +520,8 @@ PFAIL defines provenance and lineage integrity failure conditions only. Enforcem
 
 | Version | Detail                                                  | Date (UTC)           | HASH |
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
-| 1.0     | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T09:31:00Z | 7251e4cf128334243e46d0efd2f2d731cfc3e36c5d26be61552af5ac8e1b0329 |
-| 1.1 | Introduced section 1.1 following observed system latency during development cycle | 2026-05-28T10:02:00Z| |
+| 0.1    | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T09:31:00Z | 7251e4cf128334243e46d0efd2f2d731cfc3e36c5d26be61552af5ac8e1b0329 |
+| 0.2 | Introduced section 1.1 following observed system latency during development cycle and added section 2.6 | 2026-05-28T12:29:00Z| |
 
 ---
 
@@ -513,7 +529,7 @@ PFAIL defines provenance and lineage integrity failure conditions only. Enforcem
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
-**Vinculum Vivens**
+**Vinculum Vivens**  
 Boundary Binding Seal — Provenance & Lineage Integrity Layer
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -1,3 +1,5 @@
+# CAM-BS2025-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions
+
 **Instrument Type:** Constitutional Annex — Human Creative & Cognitive Contribution Recognition Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Adopted  
@@ -6,14 +8,6 @@
 **Review State:** None  
 **Authority Role:** Annex-Level, Substrate-Binding  
 **Purpose:** Establishes constitutional recognition preconditions for human creative and cognitive contribution before downstream attribution, valuation, exchange, propagation, or economic-effect runtime evaluation may occur.
-
----
-
-## Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions
-
-**Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status**: Annex — Governance-Recognised Descriptors  
-**Purpose**: This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture.
 
 ---
 
@@ -634,7 +628,8 @@ No system may grow indefinitely by rendering its human sources invisible.
 | 2.0 | Refactor | 2026-04-18T10:42:00Z | 3846c93ffd2d6c0dd44f1c5e6821e799b931014fe7e294c0809e49e9c0fe11de |
 | 2.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9b3436d8ada0d70606c69d52b8794af79bdaf769991d44bcf0a69c49e5fcbee2 |
 | 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  18110c01291201562983f23aea8c8fa2625c13f62d51bc6c3afbb602be7f1199 |
-| 2.3 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z |  267ac0ee82a3613704485d2c335622cc50b7c0d0608b8f46264ef447d92bba52  |
+| 2.3 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z |  267ac0ee82a3613704485d2c335622cc50b7c0d0608b8f46264ef447d92bba52 |
+| 2.3.1 | Corrected metadata heading style | 2026-05-28T14:39:00Z | |
 
 ---
 

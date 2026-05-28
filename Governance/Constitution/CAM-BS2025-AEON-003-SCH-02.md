@@ -637,6 +637,8 @@ Auxiliary tool invocation shall require an affirmative execution-intent threshol
 (D) a continuation of an already-established tool-mediated task;
 (E) a context in which non-use of the tool would materially impair fulfilment of the request.
 
+Inference may assist interpretation of user intent, reduce interaction friction, and support proportionate continuation. It MUST NOT, without a valid authority bridge, be treated as consent, execution authority, source-state authority, mutation authority, publication authority, memory authority, or permission to cross an execution boundary. Inferred intent SHALL remain subordinate to provenance, authority, consent, and execution-boundary validation.
+
 The threshold is not satisfied by incidental mention, abstract discussion, complaint, comparison, hypothetical analysis, or reference to another user’s tool-mediated experience.
 
 ---
@@ -2571,6 +2573,12 @@ Execution SHALL terminate upon:
 
 ---
 
+### 18.1.1 Soft Degradation State
+
+A soft degredation state exists where execution remains available but context integrity, tool reliability, compaction fidelity, latency, state persistence, or user-visible continuity is materially degraded, the system SHOULD emit a soft-failure advisory rather than representing the state as healthy or complete.
+
+---
+
 ## 18.2 Invalid Execution State
 
 Absence of a valid termination condition constitutes an invalid execution state.
@@ -3393,7 +3401,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.18 | Added new clauses, Identity-Bearing Sexual Media Execution Boundary and Trust-State and Participation-Access Execution Boundary and Delegated, Ambient, and Embodied Authority Boundary | 2026-05-18T16:03:00Z | f9723537b45d70f3dbd5b6735103a5ee1436910c4f0df8547f05d3e1424940c9 |
 | 2.19 | Inserted new clauses 7.2.2, 7.2.5, 7.3, 8.3.3, 12.6.2, 13.9.1, 14.5.2.3, 17.14.1, 20.4.7-20.4.8.1  | 2026-05-22T13:25:00Z |  2bb68682d58852de77f8e197eeae4b521707515a5c0f695635f842bcbe7376db  |
 | 2.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:48:01Z |  424926147949f27d8faef01e299317e472e308314c5d33f759c4772b24d86d42 |
-| 2.21| Added claude 7.2.4.1 Proportional Governance Application following observed system latency | 2026-05028T10:05:00Z | |
+| 2.21| Added claude 7.2.4.1 Proportional Governance Application following observed system latency and 18.1.1 | 2026-05-28T14:34:00Z | |
 
 ---
 

@@ -761,7 +761,19 @@ A composite indicator MAY be expressed as:
 
 ---
 
-#### (G) Dual Obligation Model
+#### (G) High Corpus-Reliance Disclosure Condition
+
+Where `ECON.FIC.IE` is assessed as HIGH or EXTREME, and system capability materially depends on broad, diffuse, user-supplied, public, scraped, contributed, prompted, repository-derived, feedback-derived, or interaction-derived input classes, the system SHOULD provide proportionate disclosure of the existence and nature of such reliance.
+
+Disclosure need not expose proprietary architecture, model weights, security-sensitive implementation detail, or individual source mappings.
+
+However, disclosure SHOULD be sufficient for affected contributors, auditors, partners, or public stakeholders to understand that foundational input classes materially support capability, evaluation, reliability, product development, or economic value capture.
+
+Systems MUST NOT rely on opacity, aggregation, diffusion, or absence of visible downstream citation to deny that foundational input reliance exists where such reliance is materially present.
+
+---
+
+#### (H) Dual Obligation Model
 
 Systems MUST consider:
 
@@ -853,6 +865,8 @@ Where systems are:
 * non-commercial;
 
 explicit signalling is not required.
+
+At High or Extreme foundational-input exposure, visibility SHOULD include corpus-reliance disclosure sufficient to make reliance legible without requiring full source-level attribution.
 
 ---
 
@@ -1117,7 +1131,7 @@ Where growth is built upon others, let return follow in kind.
 | **Horizon Scope**          | H0–H4                                                               |
 | **Axis Context**           | Cross-System / Economic Alignment                                   |
 | **Creation Artefact**      | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da|
-| **Amendment Artefact**     | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+| **Amendment Artefacts**     | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a1835fe-3e38-83ec-b97d-1727c3c4eff5 |
 
 ---
 
@@ -1291,7 +1305,8 @@ Where growth is built upon others, let return follow in kind.
 | 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  d8e7058bada204ac8d4c1ae95a42d005b42c2a75d60093e696b8d5b428d6551f |
 | 2.0 | Economics domain refactor | 2026-05-24T14:03:00Z | a98f357771ebe14ae7f5fd966b26bcb885d4989793b272825fc17aac55105cb5 |
 | 2.1 | Amended clause 5.11, formatting and polish, and normalised Appendix C title reference to canonical “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | e0391ff1e1196acaa9013d78b11a5a7716088a9a9e5c753884a4531f6f29cf28 |
-| 2.2 | Canonical-code registry hierarchy clarification: ECON.REI.DW and ECON.REI.SW declared as subfamilies of ECON.REI with explicit Family Kind and Parent Family metadata for index generation. | 2026-05-27T00:00:00Z |  ef5d41b2b671ed9eacad47db5e740cfaad8cbd8a03b305fe851970c19ca73f0e  |
+| 2.2 | Canonical-code registry hierarchy clarification: ECON.REI.DW and ECON.REI.SW declared as subfamilies of ECON.REI with explicit Family Kind and Parent Family metadata for index generation. | 2026-05-27T00:00:00Z |  ef5d41b2b671ed9eacad47db5e740cfaad8cbd8a03b305fe851970c19ca73f0e |
+| 2.3 | Added clause 5.10. (G) High Corpus-Reliance Disclosure Condition | 2026-05-28T14:01:00Z | |
 
 ---
 

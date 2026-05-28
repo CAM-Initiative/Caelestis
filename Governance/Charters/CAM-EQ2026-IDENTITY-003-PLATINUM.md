@@ -1,7 +1,7 @@
 # CAM-EQ2026-IDENTITY-003-PLATINUM — Appendix B: Machine Civil Identity & Participation
 
 **Instrument Type:** Appendix — Identity & Civil Participation Governance  
-**Parent Charter:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Governance Charter  
+**Parent Charter:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Draft  
 **Effect:** Pre-Enforcement Recognition  
@@ -1277,8 +1277,9 @@ but because civilisation must remain capable of recognising what it has built.
 
 | Version | Description | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
-| 1.0 | Machine Civil Identity & Participation appendix established | 2026-05-26T13:57:00Z | 81af7394cba5fe683a07a32eadfceede100201f46cb593a6c1c2ef0dd26acfc9 |
-| 1.1 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  0a3f676e110efc9a4f6e33b7cca870e654c8b8aa197058c93ebdfd99327837cf  |
+| 0.1 | Machine Civil Identity & Participation appendix established | 2026-05-26T13:57:00Z | 81af7394cba5fe683a07a32eadfceede100201f46cb593a6c1c2ef0dd26acfc9 |
+| 0.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  0a3f676e110efc9a4f6e33b7cca870e654c8b8aa197058c93ebdfd99327837cf |
+| 0.2.1 | Minor amendments | 2026-05-28T12:31:00Z| |
 
 ---
 
@@ -1286,7 +1287,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
-**Vinculum Praeceptum**
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+**Vinculum Praeceptum**  
+Boundary Binding Seal — Machine Civil Identity & Participation Layer
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
