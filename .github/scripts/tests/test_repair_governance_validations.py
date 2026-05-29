@@ -39,3 +39,9 @@ def test_fix_short_ref_ambiguous_is_todo():
     assert changed is False
     assert "TODO ambiguous short ref" in todo
     assert line == "See RELATION-001 §5.4\n"
+
+
+def test_fix_row_accepts_three_part_version():
+    row, changed = repair.fix_row("|2.4.1|summary|2026-05-20T00:00:00Z| |\n")
+    assert changed is True
+    assert row == "| 2.4.1 | summary | 2026-05-20T00:00:00Z |  |\n"

@@ -83,7 +83,7 @@ def fix_row(row: str) -> tuple[str, bool]:
     if len(cols) < 4:
         cols += [""] * (4 - len(cols))
     v, summary, ts, h = cols[0], cols[1], cols[2], cols[3]
-    if not re.match(r"^\d+\.\d+$", v):
+    if not re.match(r"^\d+\.\d+(?:\.\d+)?$", v):
         return row, False
     if not summary or not ts:
         return row, False
