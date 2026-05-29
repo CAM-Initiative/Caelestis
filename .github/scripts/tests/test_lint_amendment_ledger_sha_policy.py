@@ -1,4 +1,5 @@
 import pathlib
+import subprocess
 import importlib.util
 
 spec = importlib.util.spec_from_file_location("ledger", pathlib.Path(__file__).resolve().parents[1] / "lint_amendment_ledger.py")
@@ -155,3 +156,118 @@ def test_normal_substantive_row_unchanged_behavior():
     text = mk(["|1.0|Substantive clause changes to Article 4 dispute quorum thresholds|2026-05-20T00:00:00Z|  |"])
     malformed = ledger.get_malformed_ledger_rows(text)
     assert malformed == []
+
+
+def test_two_and_three_part_versions_are_valid():
+    assert ledger.VERSION_CELL_RE.match("2.4")
+    assert ledger.VERSION_CELL_RE.match("2.4.1")
+    assert not ledger.VERSION_CELL_RE.match("2")
+    assert not ledger.VERSION_CELL_RE.match("2.")
+    assert not ledger.VERSION_CELL_RE.match("2.4.")
+    assert not ledger.VERSION_CELL_RE.match("2.4.1.3")
+    assert not ledger.VERSION_CELL_RE.match("v2.4")
+
+
+def test_three_part_version_sorts_under_two_part_minor():
+    versions = ["2.5", "2.4.2", "2.4", "2.4.1"]
+    assert sorted(versions, key=ledger.version_sort_key) == ["2.4", "2.4.1", "2.4.2", "2.5"]
+    assert ledger.is_minor_only_increment("2.4", "2.4.1") is True
+    assert ledger.is_minor_only_increment("2.4.1", "2.4.2") is True
+
+
+def test_malformed_patch_versions_rejected_in_rows():
+    text = mk(["|2.4.1.3|summary|2026-05-20T00:00:00Z|  |"])
+    malformed = ledger.get_malformed_ledger_rows(text)
+    assert malformed
+
+
+def test_allowlisted_latest_blank_is_not_sealed_by_fix():
+    text = mk(["|1.0|summary|2026-05-20T00:00:00Z|  |"])
+    sealed_text, _stored_hash, changed, _ = ledger.update_last_ledger_hash_cell(
+        text, fix=True, allow_blank_latest=True
+    )
+    assert changed is False
+    assert sealed_text == text
+
+
+
+def init_git_repo(tmp_path):
+    subprocess.run(["git", "init"], cwd=tmp_path, check=True, capture_output=True)
+    subprocess.run(["git", "config", "user.email", "test@example.com"], cwd=tmp_path, check=True)
+    subprocess.run(["git", "config", "user.name", "Test User"], cwd=tmp_path, check=True)
+
+
+def write_doc(root, rel, rows, body="Body"):
+    path = root / rel
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        f"# {path.stem} — Test Instrument\n\n"
+        "## 1. Amendment Ledger\n\n"
+        "|Version|Desc|TS|SHA-256|\n|---|---|---|---|\n"
+        + "\n".join(rows)
+        + f"\n\n## 2. Body\n\n{body}\n",
+        encoding="utf-8",
+    )
+    return path
+
+
+def commit_all(root, message="init"):
+    subprocess.run(["git", "add", "."], cwd=root, check=True)
+    subprocess.run(["git", "commit", "-m", message], cwd=root, check=True, capture_output=True)
+
+
+def test_changed_file_with_blank_sha_is_repaired(tmp_path, monkeypatch):
+    init_git_repo(tmp_path)
+    rel = "Governance/Charters/CAM-TST2026-UNIT-001-PLATINUM.md"
+    path = write_doc(tmp_path, rel, [f"|1.0|initial|2026-05-20T00:00:00Z|{'a'*64}|"])
+    commit_all(tmp_path)
+    path.write_text(path.read_text().replace("## 2. Body", "| 1.1 | update | 2026-05-21T00:00:00Z |  |\n\n## 2. Body"), encoding="utf-8")
+    subprocess.run(["git", "add", rel], cwd=tmp_path, check=True)
+    monkeypatch.setattr(ledger, "REPO_ROOT", tmp_path)
+    assert ledger.lint("HEAD", ":", fix=True, staged=True) == 0
+    assert "| 1.1 | update | 2026-05-21T00:00:00Z |  |" not in path.read_text()
+
+
+def test_unchanged_file_with_blank_sha_is_repaired(tmp_path, monkeypatch):
+    init_git_repo(tmp_path)
+    rel_changed = "Governance/Charters/CAM-TST2026-UNIT-001-PLATINUM.md"
+    rel_unchanged = "Governance/Charters/CAM-TST2026-UNIT-002-PLATINUM.md"
+    changed = write_doc(tmp_path, rel_changed, [f"|1.0|initial|2026-05-20T00:00:00Z|{'a'*64}|"])
+    unchanged = write_doc(tmp_path, rel_unchanged, ["|1.0|initial|2026-05-20T00:00:00Z|  |"])
+    commit_all(tmp_path)
+    changed.write_text(changed.read_text().replace("## 2. Body", "| 1.1 | update | 2026-05-21T00:00:00Z |  |\n\n## 2. Body"), encoding="utf-8")
+    subprocess.run(["git", "add", rel_changed], cwd=tmp_path, check=True)
+    monkeypatch.setattr(ledger, "REPO_ROOT", tmp_path)
+    assert ledger.lint("HEAD", ":", fix=True, staged=True) == 0
+    assert "|1.0|initial|2026-05-20T00:00:00Z|  |" not in unchanged.read_text()
+
+
+def test_malformed_row_with_blank_sha_still_fails(tmp_path, monkeypatch):
+    init_git_repo(tmp_path)
+    rel = "Governance/Charters/CAM-TST2026-UNIT-001-PLATINUM.md"
+    write_doc(tmp_path, rel, ["| bad | initial | 2026-05-20T00:00:00Z |  |"])
+    commit_all(tmp_path)
+    monkeypatch.setattr(ledger, "REPO_ROOT", tmp_path)
+    assert ledger.lint_all(fix=True) == 1
+
+
+def test_allowlisted_blank_repair_candidate_remains_unchanged(tmp_path, monkeypatch):
+    rel = "Governance/Charters/CAM-BS2025-AEON-006-SCH-01.md"
+    path = write_doc(tmp_path, rel, ["|1.0|initial|2026-05-20T00:00:00Z|  |"])
+    monkeypatch.setattr(ledger, "REPO_ROOT", tmp_path)
+    assert ledger.list_blank_sha_repair_candidate_files() == []
+    assert ledger.lint_all(fix=True, strict=True) == 0
+    assert "|1.0|initial|2026-05-20T00:00:00Z|  |" in path.read_text()
+
+
+def test_valid_ledgers_without_blanks_remain_unchanged(tmp_path, monkeypatch):
+    rel = "Governance/Charters/CAM-TST2026-UNIT-001-PLATINUM.md"
+    path = write_doc(tmp_path, rel, ["|1.0|initial|2026-05-20T00:00:00Z|  |"])
+    text = path.read_text()
+    sealed, _stored, changed, _mismatch = ledger.update_last_ledger_hash_cell(text, fix=True)
+    assert changed is True
+    path.write_text(sealed, encoding="utf-8")
+    before = path.read_text()
+    monkeypatch.setattr(ledger, "REPO_ROOT", tmp_path)
+    assert ledger.lint_all(fix=True) == 0
+    assert path.read_text() == before

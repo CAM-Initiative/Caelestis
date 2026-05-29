@@ -39,6 +39,9 @@ def main() -> int:
         if stored_hash != "":
             skipped.append(f"{rel_path}: latest-row SHA already populated")
             continue
+        if ledger_lint.allows_blank_sha(Path(rel_path).stem):
+            skipped.append(f"{rel_path}: latest-row blank SHA intentionally allowlisted")
+            continue
 
         computed_hash, _ = ledger_lint.compute_hash_with_last_row_hash_blank(text)
         lines = text.splitlines(keepends=True)

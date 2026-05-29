@@ -8,6 +8,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
@@ -20,12 +21,20 @@ OUT_MD = GOV_DIR / "CAM.Governance.Index.md"
 OUT_JSON = GOV_DIR / "CAM.Governance.JSON"
 
 DERIVED_REGISTRY_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
+GITHUB_BLOB_BASE_URL = "https://github.com/CAM-Initiative/Caelestis/blob/main/Governance"
 
 SOURCES = [
     ("constitution", GOV_DIR / "Constitution" / "constitution.index.json", "Constitution"),
     ("law", GOV_DIR / "Laws" / "laws.index.json", "Laws"),
     ("charter", GOV_DIR / "Charters" / "charters.index.json", "Charters"),
 ]
+
+
+def github_url_for_link(link: str) -> str:
+    normalized = str(link or "").strip().replace("\\", "/").lstrip("/")
+    if not normalized:
+        return ""
+    return f"{GITHUB_BLOB_BASE_URL}/{quote(normalized, safe='/')}"
 
 
 PURPOSE_META_RE = re.compile(r"^\*\*Purpose:\*\*\s*(.+?)\s*$", re.IGNORECASE)
@@ -80,6 +89,7 @@ def load_items() -> list[dict]:
             link_name = (row.get("link") or "").strip()
             if link_name:
                 row["link"] = f"{subdir}/{link_name}"
+                row["url"] = github_url_for_link(row["link"])
                 abs_path = (GOV_DIR / row["link"]).resolve()
                 purpose_from_doc = extract_purpose_from_instrument(abs_path)
                 if purpose_from_doc:
@@ -96,6 +106,8 @@ def load_items() -> list[dict]:
                 is_derived = instrument_id in DERIVED_REGISTRY_IDS
                 row["is_derived"] = is_derived
                 row["HASH"] = "" if is_derived else content_hash
+            if row.get("link") and not row.get("url"):
+                row["url"] = github_url_for_link(row["link"])
             row["last_updated_utc"] = row.get("last_updated_utc") or row.get("updated_at") or ""
             if "is_derived" not in row:
                 row["is_derived"] = str(row.get("id") or "").strip() in DERIVED_REGISTRY_IDS
