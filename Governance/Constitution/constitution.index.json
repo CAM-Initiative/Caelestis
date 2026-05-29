@@ -43,11 +43,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.11",
-      "HASH": "8b57002e2fee7dccc67396d2cf5285ab605d5f4e17b7e356237557c63ed224a7",
-      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
-      "updated_at": "2026-05-23T13:16:43Z",
-      "last_updated_utc": "2026-05-23T13:16:43Z"
+      "version": "1.12",
+      "HASH": "579d7e96703bcef547b512162b2416ff95a27b361b101a760f195ba300bd82c1",
+      "pinned_sha": "40cc6ae0b6c48db9bcb8b8de58f48da7b07bf098",
+      "updated_at": "2026-05-28T15:17:24Z",
+      "last_updated_utc": "2026-05-28T15:17:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-PLATINUM",
@@ -163,11 +163,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.20",
-      "HASH": "424926147949f27d8faef01e299317e472e308314c5d33f759c4772b24d86d42",
-      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
-      "updated_at": "2026-05-23T13:16:43Z",
-      "last_updated_utc": "2026-05-23T13:16:43Z"
+      "version": "2.21",
+      "HASH": "70c01446aeee83c5da2302c9a11968bdc54eeb4f39c8ac5e3c2cf0ad234c337f",
+      "pinned_sha": "40cc6ae0b6c48db9bcb8b8de58f48da7b07bf098",
+      "updated_at": "2026-05-28T15:17:24Z",
+      "last_updated_utc": "2026-05-28T15:17:24Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "e668c857ba9384fdcc2eeee7253899689aa8d8a6",
-      "updated_at": "2026-05-27T11:28:52Z",
-      "last_updated_utc": "2026-05-27T11:28:52Z"
+      "pinned_sha": "d122bd7e483ab01cb5906ee62077c8a862bf8157",
+      "updated_at": "2026-05-27T11:45:03Z",
+      "last_updated_utc": "2026-05-27T11:45:03Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -588,18 +588,18 @@
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-008-PLATINUM.md",
-      "title": "",
+      "title": "Annex G: Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions",
       "summary": "This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture.",
       "status": "** Adopted",
       "effect": "** Pre-Enforcement Recognition",
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Annex-Level, Substrate-Binding",
-      "version": "2.3",
-      "HASH": "267ac0ee82a3613704485d2c335622cc50b7c0d0608b8f46264ef447d92bba52",
-      "pinned_sha": "7b675e336440e5fb45bd80c9e47b584981c2eb63",
-      "updated_at": "2026-05-24T14:23:05Z",
-      "last_updated_utc": "2026-05-24T14:23:05Z"
+      "version": "2.4",
+      "HASH": "2689323edc62dd09d37cad1582efb08d2e34c880a51a2feb789c883d44604d14",
+      "pinned_sha": "40cc6ae0b6c48db9bcb8b8de58f48da7b07bf098",
+      "updated_at": "2026-05-28T15:17:24Z",
+      "last_updated_utc": "2026-05-28T15:17:24Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-01",
@@ -811,11 +811,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.15",
-      "HASH": "14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d",
-      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
-      "updated_at": "2026-05-22T13:56:50Z",
-      "last_updated_utc": "2026-05-22T13:56:50Z"
+      "version": "1.16",
+      "HASH": "5a5f88b6caf37fee912233a3d6912c22037a321ae09d4013d7180342f80a7190",
+      "pinned_sha": "40cc6ae0b6c48db9bcb8b8de58f48da7b07bf098",
+      "updated_at": "2026-05-28T15:17:24Z",
+      "last_updated_utc": "2026-05-28T15:17:24Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-02",

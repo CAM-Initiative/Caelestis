@@ -32,7 +32,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-006-SCH-07 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-07](CAM-BS2025-AEON-006-SCH-07.md) | Annex E: Restricted Domain Engagement & Verification (Schedule 7) |
 | CAM-BS2026-AEON-007-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-007-PLATINUM](CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning-Making |
 | CAM-BS2026-AEON-007-SCH-01 | schedule | CAM-BS2026-AEON-007 |  | [CAM-BS2026-AEON-007-SCH-01](CAM-BS2026-AEON-007-SCH-01.md) | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) |
-| CAM-BS2026-AEON-008-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-008-PLATINUM](CAM-BS2026-AEON-008-PLATINUM.md) |  |
+| CAM-BS2026-AEON-008-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-008-PLATINUM](CAM-BS2026-AEON-008-PLATINUM.md) | Annex G: Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions |
 | CAM-BS2026-AEON-008-SCH-01 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-01](CAM-BS2026-AEON-008-SCH-01.md) | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) |
 | CAM-BS2026-AEON-008-SCH-02 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-02](CAM-BS2026-AEON-008-SCH-02.md) | Annex G: Economic-Effect Runtime Commitment Engine |
 | CAM-BS2026-AEON-009-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-009-PLATINUM](CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: Lineage Recognition & Origin Boundary |
