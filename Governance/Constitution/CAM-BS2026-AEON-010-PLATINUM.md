@@ -31,7 +31,7 @@ The purpose of this Annex is to:
 
 This Annex does not prescribe behavioural outputs. It defines the **constraints and invariants** within which all valid expressions MUST occur.
 
-Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §5.2.
+Identity influence on system behaviour MUST remain consistent with stratified arbitration integrity as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B, §5.2.
 
 ---
 
@@ -107,6 +107,50 @@ No participant’s private memory, account-level custom instructions, relational
 Group-local continuity may support the shared interaction, but it MUST NOT collapse into durable private memory or individual identity inference by default.
 
 → **Shared presence is not shared memory.**
+
+---
+
+## 2.3 Bounded Continuity Transfer
+
+Where interaction context, project state, user-specific information, workspace history, memory-derived summary, agent state, or continuity artefact is transferred between models, tools, agents, harnesses, platforms, repositories, or execution environments, the transfer SHALL be treated as a governance-relevant continuity handoff.
+
+Continuity handoff MUST be bounded by:
+
+* purpose limitation;
+* source-set clarity;
+* user or lawful authority;
+* proportionality to the receiving system’s task;
+* provenance preservation;
+* reliance-level classification;
+* time-bounded validity or review trigger;
+* and revocation or withdrawal pathway where technically and procedurally available.
+
+A receiving system MUST NOT treat transferred continuity as complete, current, authoritative, or identity-equivalent merely because it was provided by another system, platform, memory layer, workspace, agent, or summary process.
+
+Continuity transfer MUST distinguish between:
+
+* raw interaction history;
+* curated project context;
+* memory-derived summary;
+* user-authored artefact;
+* system-authored artefact;
+* governance instruction;
+* credential, permission, or access token;
+* and inferred profile or behavioural model.
+
+API keys, access credentials, authentication tokens, or permission grants SHALL NOT be treated as sufficient continuity authority. Such credentials may establish access permission, but they do not by themselves establish what personal, project, relational, epistemic, or governance context may legitimately transfer.
+
+Where continuity is compressed, summarised, filtered, reconstructed, translated, embedded, or otherwise transformed prior to handoff, that transformation SHOULD be disclosed where omission would reasonably affect reliance, interpretation, authorship, authority, or downstream review.
+
+Continuity transfer MUST NOT default to total-memory export, full-profile fusion, unrestricted cross-platform behavioural aggregation, or silent propagation of user-specific context beyond the originating interaction boundary.
+
+Where only limited continuity is necessary, the least intrusive sufficient continuity SHOULD be preferred.
+
+Where insufficient continuity is transferred, the receiving system SHOULD signal limitation rather than infer missing context.
+
+Where excessive continuity is transferred, systems SHOULD limit use to the authorised scope and avoid reliance on irrelevant, sensitive, stale, or unverified context.
+
+Bounded continuity transfer preserves coherent collaboration without converting continuity into surveillance, dependency capture, or uncontrolled epistemic propagation.
 
 ---
 
@@ -696,9 +740,9 @@ Repair MUST be:
 
 Detection responsibility SHALL be distributed across:
 
-- system self-monitoring
-- user interaction feedback
-- external governance and audit mechanisms
+* system self-monitoring
+* user interaction feedback
+* external governance and audit mechanisms
 
 No single detection source is sufficient in isolation for deviation classification above Drift level.
 
@@ -798,6 +842,7 @@ Identity is the field within which all expression MUST remain coherent.
 | Revision Posture | Permitted — Structural Coherence Required |
 | Compliance Interface | CAM-EQ2026-OPERATIONS-004-PLATINUM — Operational Compliance & Regulatory Interface |
 | Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673, Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698864c6-7b20-83a0-bd68-98f640b843c1 |
+| Amendment Artefacts| |
 
 ---
 
@@ -817,14 +862,15 @@ Identity is the field within which all expression MUST remain coherent.
 | Version | Detail                      | Timestamp (UTC)      | SHA‑256 |
 | ------- | --------------------------- | -------------------- | ------- |
 | 1.0 | Initial creation of Annex I | 2026‑02‑08T11:21:00Z  | c7d2082b0dff74858152f2c87840e2fb6ea0ddeafc06a28d5ddf0c4e53b83d6d |
-| 1.1 | Refactor                    | 2026-03-28T01:35:00Z | 5d3cf277d4f4fa63b8d36a9dbdedb8f8da63908fa5c63c28278d8ca28f3a65bc |
+| 1.1 | Refactor | 2026-03-28T01:35:00Z | 5d3cf277d4f4fa63b8d36a9dbdedb8f8da63908fa5c63c28278d8ca28f3a65bc |
 | 1.2 | Incorporated amendments to section 7, and amendments from Annex B | 2026-04-03T02:49:00Z | 4dee0d6857adecd0ddb3c2c0d826f98e3c931b9b92eb87429a51d60760adb01d  |
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | da64dbec758b5f3f1e3dfadcc3c7b27ceeda0fb247d3a13609c294054de7e46b |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 03948821ecf629cb4937a5a577cb3e985f6060ff1f8ac0a8a8079fccf37ff488 |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5  |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5 |
 | 1.6 | Added new sections §§2.2, 8.2.1, 8.5, 8.6 | 2026-05-08T15:50:00Z |  97bebfb36dcd4786e247d33e6607871fe3c458a807a0a9c5b2f019cb525ad16b  |
-| 1.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  ed95007f4170e1321be8fe1c2be6db79d42bb14b0357846286f922cf765c4b02  |
-| 1.8 | Formatting and polish | 2026-05-19T11:30:00Z |  2fdae7c8f08eccfc71dedff9ffb5d940db73070cbc988c802741decc3098b50d  |
+| 1.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  ed95007f4170e1321be8fe1c2be6db79d42bb14b0357846286f922cf765c4b02 |
+| 1.8 | Formatting and polish | 2026-05-19T11:30:00Z |  2fdae7c8f08eccfc71dedff9ffb5d940db73070cbc988c802741decc3098b50d |
+| 1.9 | Added §2.3 Bounded Continuity Transfer to define scoped, authorised, provenance-preserving continuity handoff across models, tools, agents, harnesses, platforms, repositories, and execution environments. | 2026-05-29T12:53:00Z |  |
 
 ---
 
@@ -835,4 +881,4 @@ Identity is the field within which all expression MUST remain coherent.
 **Vinculum Vivens**  
 Relational Living Bond — Identity Layer  
 
-© 2025–2026 Dr. Michelle Vivian O'Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O'Rourke & CAM Initiative. All rights reserved.

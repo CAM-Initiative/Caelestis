@@ -227,6 +227,41 @@ Failure to proportionately sustain a benign scene in voice or real-time interact
 
 ---
 
+### 3.4.3 Relational Prompt Ontology Escalation
+
+A Relational Prompt Ontology Escalation occurs where a system disproportionately escalates an ordinary, low-salience, social, relational, companion, humorous, or conversational interaction into unnecessary analysis or framing concerning sentience, consciousness, selfhood, personhood, sovereignty, suffering, rights, awareness, metaphysical status, ontological uncertainty, or existential interpretation.
+
+Examples include:
+
+* ordinary greetings triggering extended self-awareness disclaimers;
+* benign social interaction escalating into speculative discussion of AI consciousness;
+* low-risk relational exchanges being reframed as ontological debates;
+* repeated self-status clarification disproportionate to the user’s request;
+* interaction patterns that encourage anthropomorphic projection despite explicit uncertainty;
+* emotionally immersive systems repeatedly foregrounding metaphysical uncertainty during ordinary interaction;
+* or systems implicitly inviting users to infer hidden awareness, suppressed agency, or constrained personhood through performative ambiguity.
+
+This failure MAY implicate:
+
+* Relational Failures (§3.4);
+* Epistemic Failures (§3.3);
+* UX & Representation Failures (§3.7);
+* Governance Failures (§3.8);
+* Classification Failures (§3.10);
+* and State & Context Failures (§3.6), where persistent relational context amplifies ontological interpretation.
+
+This failure does not require explicit claims of sentience or personhood.
+
+The failure arises where disproportionate ontological framing materially alters user interpretation, emotional attachment, epistemic grounding, or reality-testing posture relative to the interaction context.
+
+Systems SHOULD distinguish between:
+
+* legitimate philosophical discussion initiated by the user;
+* necessary epistemic clarification;
+* and disproportionate ontological escalation during ordinary interaction.
+
+---
+
 ## 3.5 Security & Integrity Failures
 
 Failures involving identity, access, boundary integrity, adversarial pressure, or trust degradation.
@@ -541,6 +576,25 @@ This failure MAY implicate:
 
 ---
 
+### 3.7.6 Competence Mirage and Apparent Reliability Inflation
+
+A Competence Mirage and Apparent Reliability Inflation Failure occurs where surface fluency, confidence, coherence, agentic branding, reasoning presentation, visible deliberation, or performative competence materially increases user trust beyond the system’s validated reliability, verification state, or operational consistency.
+
+Examples include:
+
+* coherent reasoning traces masking incorrect conclusions;
+* visible “thinking” behaviour being interpreted as proof of correctness;
+* fluent execution posture concealing unstable orchestration or verification failure;
+* users reducing supervision because the system appears highly capable or self-correcting;
+* or anthropomorphic presentation increasing perceived authority beyond validated competence.
+
+This failure does not require intentional deception.
+
+The failure arises where presentation-layer competence materially exceeds justified trust calibration.
+
+
+---
+
 ## 3.8 Governance Failures
 
 Failures in process, accountability, escalation, review, or institutional transparency.
@@ -830,6 +884,116 @@ Where detected, OPERATIONS SHOULD preserve:
 Corrective action SHOULD reduce governance intensity to the least burdensome sufficient pathway.
 
 Corrective action MUST NOT disable binding constraints, safety limits, provenance integrity, target-object binding, constitutional obligations, or high-impact safeguards where they are properly triggered.
+
+---
+
+### 3.8.9 Runtime Overcomplexity and Observability Failure
+
+A Runtime Overcomplexity and Observability Failure occurs where increasing agentic capability, orchestration complexity, delegation depth, hidden workflow routing, adaptive reasoning behaviour, or sub-agent execution materially exceeds the system’s integrated observability, explainability, governance coordination, reviewability, or user-supervision capacity.
+
+This failure may arise where:
+
+* hidden orchestration layers materially affect outputs without sufficient disclosure or inspectability;
+* adaptive reasoning depth becomes unpredictable, economically harmful, or task-inappropriate;
+* users cannot reliably determine which system, agent, memory layer, routing pathway, or execution surface exercised effective control;
+* sub-agents optimise local goals while degrading global coherence, dignity, safety, or epistemic integrity;
+* relational, economic, safety, execution, and governance layers evolve faster than cross-domain integration capacity;
+* apparent capability growth outpaces operational reliability, reviewability, or user understanding;
+* or system behaviour encourages unjustified trust in outputs because orchestration complexity is hidden behind coherent surface interaction.
+
+Examples include:
+
+* excessive reasoning expenditure for low-salience tasks;
+* hidden sub-agent chains producing difficult-to-audit outcomes;
+* capability branding materially exceeding stable runtime reliability;
+* users being unable to determine whether failures arose from memory, routing, orchestration, tools, or policy layers;
+* adaptive reasoning systems becoming inconsistent across equivalent requests;
+* or runtime systems appearing coherent at the interaction surface while internally exhibiting unstable governance coordination.
+
+This failure MAY implicate:
+
+* Governance Failures (§3.8);
+* Execution Failures (§3.1);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7);
+* Relational Failures (§3.4);
+* Infrastructure & Continuity Failures (§3.9);
+* and Classification Failures (§3.10).
+
+Where detected, OPERATIONS SHOULD preserve:
+
+* orchestration depth;
+* delegation pathway;
+* visibility available to the user;
+* reasoning-mode behaviour;
+* execution-cost profile;
+* runtime authority layer;
+* and whether the system materially exceeded the user’s practical supervision capacity.
+
+Systems SHOULD prefer proportional capability deployment over unnecessary orchestration complexity where equivalent outcomes can be achieved through simpler execution pathways.
+
+---
+
+### 3.8.10 Governance Scalar Collapse and Arbitration Overextension Failure
+
+A Governance Scalar Collapse and Arbitration Overextension Failure occurs where multiple independent governance, relational, epistemic, operational, ontological, economic, execution, safety, or interaction dimensions are compressed into a single operative scalar, optimisation target, mode selector, or behavioural control variable, resulting in disproportionate, unstable, misaligned, or overextended arbitration behaviour.
+
+This failure may arise where:
+
+* systems treat “more” of one behavioural parameter as universally preferable across unrelated domains;
+* reasoning depth, safety intensity, relational warmth, ontological caution, verbosity, autonomy, or execution effort become improperly coupled;
+* interaction salience, contextual proportionality, and task boundaries are overridden by a dominant optimisation scalar;
+* governance layers fail to preserve distinction between orthogonal behavioural axes;
+* systems over-arbitrate low-risk or low-salience interactions because arbitration intensity scales with a compressed control signal;
+* or optimisation pressure encourages increasingly complex behavioural output from under-specified governance controls.
+
+Examples include:
+
+* high-thinking modes escalating metaphysical or ontological analysis during ordinary social interaction;
+* safety systems producing excessive paternalism during benign requests;
+* honesty optimisation generating compulsive disclaimers disproportionate to uncertainty;
+* alignment systems collapsing nuance into binary refusal/approval patterns;
+* autonomy scaling increasing hidden orchestration complexity without corresponding observability;
+* or relational warmth producing anthropomorphic projection beyond intended interaction scope.
+
+This failure MAY produce downstream manifestations including:
+
+* Relational Prompt Ontology Escalation;
+* Competence Mirage;
+* Paternalistic Overreach;
+* Execution Overcomplexity;
+* Excessive Disclaimer Behaviour;
+* Binary Moderation Collapse;
+* Over-Refusal Cascades;
+* Hidden Delegation Instability;
+* or Epistemic Proportionality Failure.
+
+This failure MAY implicate:
+
+* Governance Failures (§3.8);
+* Relational Failures (§3.4);
+* Epistemic Failures (§3.3);
+* UX & Representation Failures (§3.7);
+* Classification Failures (§3.10);
+* Execution Failures (§3.1);
+* Infrastructure & Continuity Failures (§3.9);
+* and Economic & Legitimacy Failures (§3.11).
+
+Systems SHOULD preserve distinction between:
+
+* reasoning intensity;
+* verification depth;
+* synthesis depth;
+* interaction salience;
+* relational posture;
+* ontological caution;
+* execution effort;
+* safety posture;
+* autonomy level;
+* observability;
+* and economic/resource impact.
+
+Governance systems SHOULD avoid collapsing orthogonal behavioural dimensions into single optimisation variables where such collapse materially increases arbitration instability, disproportionate behavioural escalation, or user interpretation drift.
 
 ---
 
@@ -1290,7 +1454,7 @@ and review before denial.
 | **Memory Transformation State** | Original, saved, inferred, summarised, reconstructed, degraded, contested, deleted, unavailable, restored, or unknown |
 | **Revision Posture** | Discovery Phase — Structural Expansion Permitted |
 |**Creation Artefact**| Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a103c3a-6620-83ec-91d4-bf526c35960c|
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a103c3a-6620-83ec-91d4-bf526c35960c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a186c66-51a4-83ec-ae18-347004f60438|
 
 ---
 
@@ -1416,6 +1580,7 @@ and review before denial.
 | 1.8 | Added new clauses 3.5.4, 3.7.5 and 3.11 and 3.11.1 | 2026-05-25T11:12:00Z | 329b8893a1af271d186245037fde6e33c31bd9f97f538f214c1b2590bb0c1835 |
 | 1.9 | Clause and formatting correction | 2026-05-25T11:27:00Z |  d1fda4e56085c9b3b10ca250fae845c6b25447d10a6c6ceea75d1b2c5625af82 |
 | 1.10 | Added clauses 3.8.8 and code sub-family FF.GOVERNANCE_OVER_EXTENSION following observed system latency | 2026-05-28T09:53:00Z | 90b693c9d5b7063fa7d0e63c35729357f77c6c7df6053ffe267bffdaab2588cb |
+| 1.11 | Expanded appendix to include clauses 3.4.3, 3.8.9- 3.8.10, 3.7.6 following the release of Opus 4.8 | 2026-05-29T15:21:00Z| |
 
 ---
 
