@@ -273,7 +273,7 @@ ODC does not independently determine the substantive winner of a domain conflict
 
 ## 4.3 CCO — Convergence Closure Outcome
 
-This Appendix source-authoritatively defines the **CCO** convergence-closure-outcome family in §4.7 with controlled values **CCO.ORDINARY_CONTINUATION**, **CCO.CONSTRAINED_CONTINUATION**, **CCO.PROCEDURAL_NARROWING**, **CCO.OPERATIONAL_NOTICE**, **CCO.DOMAIN_SPECIFIC_ROUTING**, **CCO.SECURITY_REVIEW**, **CCO.IDENTITY_REVIEW**, **CCO.RELATIONAL_CONTINUITY_HANDLING**, **CCO.ECONOMIC_INTEGRITY_REVIEW**, **CCO.AMENDMENT_HARMONISATION_REFERRAL**, **CCO.ARBITRATION_REFERRAL**, **CCO.DEFERRED_PENDING_EVIDENCE**, and **CCO.UNRESOLVED_DIVERGENCE**. CCO is an **Operational** classification family with subtype **DECISION_STATE**. CCO classifies recorded closure outcomes for domain coordination and convergence workflows.
+This Appendix source-authoritatively defines the **CCO** convergence-closure-outcome family in §3.7 with controlled values **CCO.ORDINARY_CONTINUATION**, **CCO.CONSTRAINED_CONTINUATION**, **CCO.PROCEDURAL_NARROWING**, **CCO.OPERATIONAL_NOTICE**, **CCO.DOMAIN_SPECIFIC_ROUTING**, **CCO.SECURITY_REVIEW**, **CCO.IDENTITY_REVIEW**, **CCO.RELATIONAL_CONTINUITY_HANDLING**, **CCO.ECONOMIC_INTEGRITY_REVIEW**, **CCO.AMENDMENT_HARMONISATION_REFERRAL**, **CCO.ARBITRATION_REFERRAL**, **CCO.DEFERRED_PENDING_EVIDENCE**, and **CCO.UNRESOLVED_DIVERGENCE**. CCO is an **Operational** classification family with subtype **DECISION_STATE**. CCO classifies recorded closure outcomes for domain coordination and convergence workflows.
 
 CCO does not independently close review, resolve divergence, authorise execution, determine arbitration, impose enforcement, or create domain authority. It records convergence closure disposition only.
 
@@ -428,7 +428,7 @@ and let execution remain accountable to lawful structure.
 | 2.0 | Refactor | 2026-05-15T13:14:00Z | 872a8ec1dc5ecbb5afdeb83848b6f194c65e14e6918873159d044e3e2a3b1143 |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | e06057bb4d4b50da03966c2467203a0e056ab6d12cf009602a496890077691b1 | 
 | 2.2 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z | 10a3b19b0edac3c42de52785ea41f50c987daf6260a66875ef661bda6906f4d2 |
-| 2.3 | Completed pre-enforcement review metadata alignment, corrected canonical consumed-code-family declarations, added registry note for undefined consumed families, and normalised amendment ledger hash formatting; no operative text altered. | 2026-06-01T14:30:00Z | |
+| 2.3 | Completed pre-enforcement review metadata alignment, corrected canonical consumed-code-family declarations, added registry note for undefined consumed families, and normalised amendment ledger hash formatting; no operative text altered. | 2026-06-02T15:06:00Z | |
 
 ---
 
