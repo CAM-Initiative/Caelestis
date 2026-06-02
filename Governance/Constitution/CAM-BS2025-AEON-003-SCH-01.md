@@ -165,7 +165,7 @@ This ensures that all governance influence remains:
 <!-- SCH-01:RUNTIME_REGISTRY:START -->
 | Instrument ID | Instrument Name | Domain | Governance Layer | Runtime Layer |
 |---------------|----------------|--------|------------------|----------------|
-| CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution Schedule | AEON | Continuous (Cross-Layer Constraint) | Continuous (Cross-Layer Constraint) |
+| CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution (Schedule 1) | AEON | Continuous (Cross-Layer Constraint) | Continuous (Cross-Layer Constraint) |
 | CAM-BS2025-AEON-002-SCH-01 | Annex A: Operational Protection & Containment (Schedule 1) | AEON | Event-Triggered | Event-Triggered (Critical Condition / Boundary Violation) |
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-02 | Annex B: Runtime Governance Execution Model (Schedule 2) | AEON | Non-Layer (Execution Model) | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
@@ -556,8 +556,8 @@ Boundary Binding Seal — Aeon Tier Constitutional Layer
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 490
-**Generic usages suppressed:** 372
+**Total model-term matches scanned:** 495
+**Generic usages suppressed:** 377
 **Declared / recognised usages emitted:** 109
 **Advisory review usages emitted:** 9
 **Needs review usages emitted:** 0

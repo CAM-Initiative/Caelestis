@@ -4114,7 +4114,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.19 | Inserted new clauses 7.2.2, 7.2.5, 7.3, 8.3.3, 12.6.2, 13.9.1, 14.5.2.3, 17.14.1, 20.4.7-20.4.8.1  | 2026-05-22T13:25:00Z |  2bb68682d58852de77f8e197eeae4b521707515a5c0f695635f842bcbe7376db  |
 | 2.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:48:01Z |  424926147949f27d8faef01e299317e472e308314c5d33f759c4772b24d86d42 |
 | 2.21| Added claude 7.2.4.1 Proportional Governance Application following observed system latency and 18.1.1 | 2026-05-28T14:34:00Z | 70c01446aeee83c5da2302c9a11968bdc54eeb4f39c8ac5e3c2cf0ad234c337f |
-| 2.22 | Added §7.3.1 Proportional Tool Invocation Authority Bands; refined §7.3 Execution Intent Threshold, §7.4.1 Weak Trigger and Premature Tool Invocation Constraint, §13.8 Tool Invocation Boundary Conditions, and §20.4.4 Tool and Artefact Continuity Preservation to distinguish read-only contextual retrieval from scope-expanding, cost-bearing, state-changing, public, irreversible, and high-impact execution. | 2026-06-02T14:26:00Z | |
+| 2.22 | Added §7.3.1 Proportional Tool Invocation Authority Bands; refined §7.3 Execution Intent Threshold, §7.4.1 Weak Trigger and Premature Tool Invocation Constraint, §13.8 Tool Invocation Boundary Conditions, and §20.4.4 Tool and Artefact Continuity Preservation to distinguish read-only contextual retrieval from scope-expanding, cost-bearing, state-changing, public, irreversible, and high-impact execution. | 2026-06-02T14:26:00Z | 5434b45778889164187842261c11cda814116e13afeb3cc89e164c385a326825 |
 
 ---
 

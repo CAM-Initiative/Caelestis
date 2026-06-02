@@ -757,7 +757,7 @@ and the system remember what it is.
 | 1.10 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 42337de20f33129bbb799fa4fd417be7170dbb99b0d0de07e7c8545f78195fbd |
 | 1.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8b57002e2fee7dccc67396d2cf5285ab605d5f4e17b7e356237557c63ed224a7 |
 | 1.12 | Added clause 3.2.2 | 2026-05-28T14:58:00Z | 579d7e96703bcef547b512162b2416ff95a27b361b101a760f195ba300bd82c1 |
-| 1.13 | Added header metadata | 2026-06-01T14:06:00Z | |
+| 1.13 | Added header metadata | 2026-06-01T14:06:00Z | 70ea875546e1a604cee3c50f18a777b5d9902cc0ecc1d71ab203e4beb484aed9 |
 
 ---
 

@@ -268,7 +268,7 @@
     ],
     "schema_fields": "amendment_classification",
     "source_instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-    "source_section": "\u00a74.2",
+    "source_section": "\u00a73.2",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative amendment classification family; amendment-type classification only; no independent downgrade of review obligations, adoption authority, doctrinal alteration, runtime-change approval, enforcement authority, or publication authority",
     "consumes_code_families": [
@@ -287,8 +287,8 @@
       "emergency handling",
       "and deprecation workflows"
     ],
-    "declaration_heading": "7.3.2 AMEND.CLASS \u2014 Amendment Classification",
-    "declaration_line_number": 451,
+    "declaration_heading": "6.3.2 AMEND.CLASS \u2014 Amendment Classification",
+    "declaration_line_number": 447,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
     "family_id": "AMEND.CLASS",
     "family_kind": "standalone_family",
@@ -310,7 +310,7 @@
       "Controlled Values Defined": "AMEND.CLASS.FORMATTING, AMEND.CLASS.METADATA_REGISTRY, AMEND.CLASS.REFERENCE_ALIGNMENT, AMEND.CLASS.CLARIFYING, AMEND.CLASS.HARMONISING, AMEND.CLASS.SUBSTANTIVE, AMEND.CLASS.RUNTIME_IMPACTING, AMEND.CLASS.SECURITY_RELEVANT, AMEND.CLASS.EMERGENCY_INTERIM, AMEND.CLASS.DEPRECATING",
       "Schema Field(s)": "amendment_classification",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-      "Source Section": "\u00a74.2",
+      "Source Section": "\u00a73.2",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative amendment classification family; amendment-type classification only; no independent downgrade of review obligations, adoption authority, doctrinal alteration, runtime-change approval, enforcement authority, or publication authority",
       "Consumes Code Families": "AMEND.SOURCE",
@@ -339,7 +339,7 @@
     ],
     "schema_fields": "governance_drift_type",
     "source_instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-    "source_section": "\u00a74.5",
+    "source_section": "\u00a73.5",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative governance-drift classification family; drift-type classification only; no independent harmonisation authority, amendment adoption authority, doctrinal override, validator mutation, registry mutation, or runtime-change authority",
     "consumes_code_families": [
@@ -359,8 +359,8 @@
       "registry",
       "and validation-tooling contexts"
     ],
-    "declaration_heading": "7.3.3 AMEND.DRIFT \u2014 Governance Drift Type",
-    "declaration_line_number": 474,
+    "declaration_heading": "6.3.3 AMEND.DRIFT \u2014 Governance Drift Type",
+    "declaration_line_number": 470,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
     "family_id": "AMEND.DRIFT",
     "family_kind": "standalone_family",
@@ -382,7 +382,7 @@
       "Controlled Values Defined": "AMEND.DRIFT.LEXICAL, AMEND.DRIFT.METADATA, AMEND.DRIFT.REFERENCE, AMEND.DRIFT.STRUCTURAL, AMEND.DRIFT.DOCTRINAL, AMEND.DRIFT.RUNTIME, AMEND.DRIFT.CROSS_DOMAIN, AMEND.DRIFT.REGISTRY, AMEND.DRIFT.VALIDATION_TOOLING",
       "Schema Field(s)": "governance_drift_type",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-      "Source Section": "\u00a74.5",
+      "Source Section": "\u00a73.5",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative governance-drift classification family; drift-type classification only; no independent harmonisation authority, amendment adoption authority, doctrinal override, validator mutation, registry mutation, or runtime-change authority",
       "Consumes Code Families": "AMEND.CLASS",
@@ -412,7 +412,7 @@
     ],
     "schema_fields": "amendment_closure_outcome",
     "source_instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-    "source_section": "\u00a74.8",
+    "source_section": "\u00a73.8",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative amendment closure classification family; closure-disposition recording only; no independent amendment adoption, rejection, deferral, supersession, merger, reversion, arbitration, validation, enforcement, or publication authority",
     "consumes_code_families": [
@@ -433,8 +433,8 @@
       "reversion",
       "or evidentiary hold"
     ],
-    "declaration_heading": "7.3.5 AMEND.OUTCOME \u2014 Amendment Closure Outcome",
-    "declaration_line_number": 520,
+    "declaration_heading": "6.3.5 AMEND.OUTCOME \u2014 Amendment Closure Outcome",
+    "declaration_line_number": 516,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
     "family_id": "AMEND.OUTCOME",
     "family_kind": "standalone_family",
@@ -456,7 +456,7 @@
       "Controlled Values Defined": "AMEND.OUTCOME.ADOPTED, AMEND.OUTCOME.STAGED_PENDING_VALIDATION, AMEND.OUTCOME.DEFERRED, AMEND.OUTCOME.REJECTED, AMEND.OUTCOME.SUPERSEDED, AMEND.OUTCOME.MERGED, AMEND.OUTCOME.ROUTED_TO_DOMAIN_REVIEW, AMEND.OUTCOME.ROUTED_TO_ARBITRATION, AMEND.OUTCOME.REVERTED, AMEND.OUTCOME.HELD_PENDING_EVIDENCE",
       "Schema Field(s)": "amendment_closure_outcome",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-      "Source Section": "\u00a74.8",
+      "Source Section": "\u00a73.8",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative amendment closure classification family; closure-disposition recording only; no independent amendment adoption, rejection, deferral, supersession, merger, reversion, arbitration, validation, enforcement, or publication authority",
       "Consumes Code Families": "AMEND.SOURCE; AMEND.CLASS; AMEND.DRIFT; AMEND.REL",
@@ -484,7 +484,7 @@
     ],
     "schema_fields": "harmonisation_relationship_type",
     "source_instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-    "source_section": "\u00a74.6",
+    "source_section": "\u00a73.6",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative harmonisation-relationship classification family; cross-instrument relationship classification only; no independent precedence determination, conflict resolution, domain authority, text-duplication authority, adoption authority, or runtime authority",
     "consumes_code_families": [
@@ -504,8 +504,8 @@
       "constitutional-domain",
       "and domain-supplement relationships"
     ],
-    "declaration_heading": "7.3.4 AMEND.REL \u2014 Harmonisation Relationship Type",
-    "declaration_line_number": 497,
+    "declaration_heading": "6.3.4 AMEND.REL \u2014 Harmonisation Relationship Type",
+    "declaration_line_number": 493,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
     "family_id": "AMEND.REL",
     "family_kind": "standalone_family",
@@ -527,7 +527,7 @@
       "Controlled Values Defined": "AMEND.REL.PARENT_CHILD, AMEND.REL.DOCTRINE_PROCEDURE, AMEND.REL.SIGNAL_EXECUTION, AMEND.REL.TAXONOMY_RESPONSE, AMEND.REL.RUNTIME_REPRESENTATION, AMEND.REL.LOGGING_ESCALATION, AMEND.REL.CONSTITUTIONAL_DOMAIN, AMEND.REL.DOMAIN_SUPPLEMENT",
       "Schema Field(s)": "harmonisation_relationship_type",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-      "Source Section": "\u00a74.6",
+      "Source Section": "\u00a73.6",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative harmonisation-relationship classification family; cross-instrument relationship classification only; no independent precedence determination, conflict resolution, domain authority, text-duplication authority, adoption authority, or runtime authority",
       "Consumes Code Families": "AMEND.CLASS; AMEND.DRIFT",
@@ -555,7 +555,7 @@
     ],
     "schema_fields": "amendment_source_type",
     "source_instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-    "source_section": "\u00a74.1",
+    "source_section": "\u00a73.1",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative amendment provenance classification family; source-type classification only; no independent amendment authority, adoption authority, review authority, enforcement authority, publication authority, or runtime authority",
     "consumes_code_families": [
@@ -572,8 +572,8 @@
       "harmonisation amendments",
       "and agent-assisted changes"
     ],
-    "declaration_heading": "7.3.1 AMEND.SOURCE \u2014 Amendment Source Type",
-    "declaration_line_number": 428,
+    "declaration_heading": "6.3.1 AMEND.SOURCE \u2014 Amendment Source Type",
+    "declaration_line_number": 424,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
     "family_id": "AMEND.SOURCE",
     "family_kind": "standalone_family",
@@ -595,7 +595,7 @@
       "Controlled Values Defined": "AMEND.SOURCE.USER_AUTHORED, AMEND.SOURCE.SYNTHETIC_STEWARD_PROPOSED, AMEND.SOURCE.EXTERNAL_REVIEWER_RECOMMENDATION, AMEND.SOURCE.AUTOMATED_LINT_VALIDATION_CORRECTION, AMEND.SOURCE.REGISTRY_METADATA_SYNCHRONISATION, AMEND.SOURCE.URGENT_OPERATIONAL_PATCH, AMEND.SOURCE.HARMONISATION_AMENDMENT, AMEND.SOURCE.AGENT_ASSISTED",
       "Schema Field(s)": "amendment_source_type",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
-      "Source Section": "\u00a74.1",
+      "Source Section": "\u00a73.1",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative amendment provenance classification family; source-type classification only; no independent amendment authority, adoption authority, review authority, enforcement authority, publication authority, or runtime authority",
       "Consumes Code Families": "None declared",
@@ -1254,7 +1254,7 @@
     ],
     "schema_fields": "convergence_closure_outcome",
     "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-    "source_section": "\u00a74.7",
+    "source_section": "\u00a73.7",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative convergence-closure classification family; closure-disposition recording only; no independent review closure, divergence resolution, execution authorisation, arbitration determination, enforcement, or domain authority",
     "consumes_code_families": [
@@ -1275,8 +1275,8 @@
       "evidentiary deferral",
       "and unresolved divergence"
     ],
-    "declaration_heading": "7.3.3 CCO \u2014 Convergence Closure Outcome",
-    "declaration_line_number": 389,
+    "declaration_heading": "6.3.3 CCO \u2014 Convergence Closure Outcome",
+    "declaration_line_number": 385,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
     "family_id": "CCO",
     "family_kind": "standalone_family",
@@ -1297,7 +1297,7 @@
       "Controlled Values Defined": "CCO.ORDINARY_CONTINUATION, CCO.CONSTRAINED_CONTINUATION, CCO.PROCEDURAL_NARROWING, CCO.OPERATIONAL_NOTICE, CCO.DOMAIN_SPECIFIC_ROUTING, CCO.SECURITY_REVIEW, CCO.IDENTITY_REVIEW, CCO.RELATIONAL_CONTINUITY_HANDLING, CCO.ECONOMIC_INTEGRITY_REVIEW, CCO.AMENDMENT_HARMONISATION_REFERRAL, CCO.ARBITRATION_REFERRAL, CCO.DEFERRED_PENDING_EVIDENCE, CCO.UNRESOLVED_DIVERGENCE",
       "Schema Field(s)": "convergence_closure_outcome",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-      "Source Section": "\u00a74.7",
+      "Source Section": "\u00a73.7",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative convergence-closure classification family; closure-disposition recording only; no independent review closure, divergence resolution, execution authorisation, arbitration determination, enforcement, or domain authority",
       "Consumes Code Families": "DCL; ODC; EST; ONC; AIP",
@@ -1895,11 +1895,11 @@
     ],
     "schema_fields": "domain_coordination_lifecycle_stage",
     "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-    "source_section": "\u00a74",
+    "source_section": "\u00a73",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative domain-coordination lifecycle classification family; lifecycle-stage classification only; no independent alteration of domain doctrine, constitutional conflict resolution, legitimacy-channel establishment, arbitration outcome determination, enforcement authority, or runtime authority",
     "consumes_code_families": [
-      "H"
+      "None declared"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -1913,8 +1913,8 @@
       "outcome recording",
       "and closure/escalation handling"
     ],
-    "declaration_heading": "7.3.1 DCL \u2014 Domain Coordination Lifecycle Stage",
-    "declaration_line_number": 343,
+    "declaration_heading": "6.3.1 DCL \u2014 Domain Coordination Lifecycle Stage",
+    "declaration_line_number": 339,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
     "family_id": "DCL",
     "family_kind": "standalone_family",
@@ -1935,10 +1935,10 @@
       "Controlled Values Defined": "DCL.COORDINATION_INTAKE, DCL.AFFECTED_DOMAIN_IDENTIFICATION, DCL.ORIGINATING_SIGNAL_CAPTURE, DCL.DIVERGENCE_CLASSIFICATION, DCL.DOMAIN_POSITION_PRESERVATION, DCL.CONVERGENCE_PATHWAY_SELECTION, DCL.OPERATIONAL_MEDIATION, DCL.ARBITRATION_REFERRAL_ASSESSMENT, DCL.OUTCOME_RECORDING, DCL.CLOSURE_DEFERRAL_ESCALATION",
       "Schema Field(s)": "domain_coordination_lifecycle_stage",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-      "Source Section": "\u00a74",
+      "Source Section": "\u00a73",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative domain-coordination lifecycle classification family; lifecycle-stage classification only; no independent alteration of domain doctrine, constitutional conflict resolution, legitimacy-channel establishment, arbitration outcome determination, enforcement authority, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies procedural lifecycle stages for cross-domain coordination, convergence operations, divergence handling, domain-position preservation, arbitration referral assessment, outcome recording, and closure/escalation handling"
     }
@@ -3364,7 +3364,7 @@
       "or pending review"
     ],
     "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
-    "declaration_line_number": 1370,
+    "declaration_line_number": 1534,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "FCS",
     "family_kind": "standalone_family",
@@ -3438,7 +3438,7 @@
       "and classification failure modes"
     ],
     "declaration_heading": "11.3.1 FF \u2014 Failure Family",
-    "declaration_line_number": 1301,
+    "declaration_line_number": 1465,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "FF",
     "family_kind": "standalone_family",
@@ -4977,11 +4977,11 @@
     ],
     "schema_fields": "operational_divergence_classification",
     "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-    "source_section": "\u00a74.2",
+    "source_section": "\u00a73.2",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative operational-divergence classification family; divergence-type classification only; no independent substantive domain-conflict determination, doctrinal resolution, domain authority creation, constitutional hierarchy override, arbitration authority, or runtime authority",
     "consumes_code_families": [
-      "H"
+      "None declared"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -4996,8 +4996,8 @@
       "representation obligations",
       "and continuity requirements for routing and convergence review"
     ],
-    "declaration_heading": "7.3.2 ODC \u2014 Operational Divergence Classification",
-    "declaration_line_number": 366,
+    "declaration_heading": "6.3.2 ODC \u2014 Operational Divergence Classification",
+    "declaration_line_number": 362,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
     "family_id": "ODC",
     "family_kind": "standalone_family",
@@ -5018,10 +5018,10 @@
       "Controlled Values Defined": "ODC.DOCTRINAL, ODC.PROCEDURAL, ODC.RUNTIME, ODC.SIGNAL, ODC.AUTHORITY, ODC.TEMPORAL, ODC.REPRESENTATION, ODC.CONTINUITY",
       "Schema Field(s)": "operational_divergence_classification",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-      "Source Section": "\u00a74.2",
+      "Source Section": "\u00a73.2",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative operational-divergence classification family; divergence-type classification only; no independent substantive domain-conflict determination, doctrinal resolution, domain authority creation, constitutional hierarchy override, arbitration authority, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies divergence between governance pathways, domain signals, procedures, duties, recommended responses, temporal posture, representation obligations, and continuity requirements for routing and convergence review"
     }

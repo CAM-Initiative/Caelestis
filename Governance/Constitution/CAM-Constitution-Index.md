@@ -9,7 +9,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | ID | Hierarchy | Parent | Seal | Link | Title |
 |---|---|---|---|---|---|
 | CAM-BS2025-AEON-001-PLATINUM | root |  | PLATINUM | [CAM-BS2025-AEON-001-PLATINUM](CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) |
-| CAM-BS2025-AEON-001-SCH-01 | schedule | CAM-BS2025-AEON-001 |  | [CAM-BS2025-AEON-001-SCH-01](CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution Schedule |
+| CAM-BS2025-AEON-001-SCH-01 | schedule | CAM-BS2025-AEON-001 |  | [CAM-BS2025-AEON-001-SCH-01](CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution (Schedule 1) |
 | CAM-BS2025-AEON-002-PLATINUM | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-002-PLATINUM](CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship |
 | CAM-BS2025-AEON-002-SCH-01 | schedule | CAM-BS2025-AEON-002 |  | [CAM-BS2025-AEON-002-SCH-01](CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) |
 | CAM-BS2025-AEON-003-PLATINUM | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-003-PLATINUM](CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic |

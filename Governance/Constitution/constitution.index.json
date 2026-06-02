@@ -36,18 +36,18 @@
       "parent_id": "CAM-BS2025-AEON-001",
       "seal": null,
       "link": "CAM-BS2025-AEON-001-SCH-01.md",
-      "title": "Tendeka Runtime Execution Schedule",
+      "title": "Tendeka Runtime Execution (Schedule 1)",
       "summary": "",
       "status": "** Adopted",
       "effect": "** Pre-Enforcement Recognition",
       "enforcement": "** Commences 1 July 2026",
-      "review_state": "** None",
-      "authority_role": "** None",
-      "version": "1.12",
-      "HASH": "579d7e96703bcef547b512162b2416ff95a27b361b101a760f195ba300bd82c1",
-      "pinned_sha": "40cc6ae0b6c48db9bcb8b8de58f48da7b07bf098",
-      "updated_at": "2026-05-28T15:17:24Z",
-      "last_updated_utc": "2026-05-28T15:17:24Z"
+      "review_state": "** Active Runtime Alignment Review",
+      "authority_role": "** Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour",
+      "version": "1.13",
+      "HASH": "70ea875546e1a604cee3c50f18a777b5d9902cc0ecc1d71ab203e4beb484aed9",
+      "pinned_sha": "7fc78a9593b257f5cb0e8764d4de5d3aa0cd3459",
+      "updated_at": "2026-06-02T15:03:16Z",
+      "last_updated_utc": "2026-06-02T15:03:16Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-PLATINUM",
@@ -163,11 +163,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.21",
-      "HASH": "70c01446aeee83c5da2302c9a11968bdc54eeb4f39c8ac5e3c2cf0ad234c337f",
-      "pinned_sha": "40cc6ae0b6c48db9bcb8b8de58f48da7b07bf098",
-      "updated_at": "2026-05-28T15:17:24Z",
-      "last_updated_utc": "2026-05-28T15:17:24Z"
+      "version": "2.22",
+      "HASH": "5434b45778889164187842261c11cda814116e13afeb3cc89e164c385a326825",
+      "pinned_sha": "7fc78a9593b257f5cb0e8764d4de5d3aa0cd3459",
+      "updated_at": "2026-06-02T15:03:16Z",
+      "last_updated_utc": "2026-06-02T15:03:16Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -691,11 +691,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "1.8",
-      "HASH": "2fdae7c8f08eccfc71dedff9ffb5d940db73070cbc988c802741decc3098b50d",
-      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
-      "updated_at": "2026-05-22T13:56:50Z",
-      "last_updated_utc": "2026-05-22T13:56:50Z"
+      "version": "1.9",
+      "HASH": "e4982c1297e044ea254d2bded0014c8a0d54187c07292eb44845eb4afb6d1fed",
+      "pinned_sha": "7fc78a9593b257f5cb0e8764d4de5d3aa0cd3459",
+      "updated_at": "2026-06-02T15:03:16Z",
+      "last_updated_utc": "2026-06-02T15:03:16Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-SCH-01",
@@ -787,11 +787,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.14",
-      "HASH": "25e5ee1667a96fc3ab1467b97274f6b4db687582cef66423b286ce645f00ca6e",
-      "pinned_sha": "ad92f3c562987aa4678c5d60a475a5f1d3cb6354",
-      "updated_at": "2026-05-27T10:23:55Z",
-      "last_updated_utc": "2026-05-27T10:23:55Z"
+      "version": "2.15",
+      "HASH": "2d8b524a8f9ac92c8a69597b7faa535591fbac5ef14f862f4748a10e4adb0e17",
+      "pinned_sha": "7fc78a9593b257f5cb0e8764d4de5d3aa0cd3459",
+      "updated_at": "2026-06-02T15:03:16Z",
+      "last_updated_utc": "2026-06-02T15:03:16Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",

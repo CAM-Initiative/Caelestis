@@ -428,7 +428,7 @@ and let execution remain accountable to lawful structure.
 | 2.0 | Refactor | 2026-05-15T13:14:00Z | 872a8ec1dc5ecbb5afdeb83848b6f194c65e14e6918873159d044e3e2a3b1143 |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | e06057bb4d4b50da03966c2467203a0e056ab6d12cf009602a496890077691b1 | 
 | 2.2 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z | 10a3b19b0edac3c42de52785ea41f50c987daf6260a66875ef661bda6906f4d2 |
-| 2.3 | Completed pre-enforcement review metadata alignment, corrected canonical consumed-code-family declarations, added registry note for undefined consumed families, and normalised amendment ledger hash formatting; no operative text altered. | 2026-06-02T15:06:00Z | |
+| 2.3 | Completed pre-enforcement review metadata alignment, corrected canonical consumed-code-family declarations, added registry note for undefined consumed families, and normalised amendment ledger hash formatting; no operative text altered. | 2026-06-02T15:06:00Z | c12d63ee10bbab2f9745a7a75f0ea989d1015c37b33cd6324afb4b1f2f651648 |
 
 ---
 

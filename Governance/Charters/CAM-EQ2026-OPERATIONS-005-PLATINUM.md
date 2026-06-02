@@ -557,7 +557,7 @@ and let execution remain accountable to lawful structure.
 | 2.0 | Refactor | 2026-05-15T13:00:00Z | c198f1b038209d9c6f5c4ae1808b78f827f75846db38ac236bc38563f6fb5ffb |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 9edd986398147639a214c8200a3d752d83682f63b52ed3d3f39c0f56fb895ad4 | 
 | 2.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z | 2127574125234f1851a480752f39b3637425d37968264617f332dfd0922728b0 | 
-| 2.3 | Completed pre-enforcement review metadata alignment and normalised amendment ledger hash formatting. | 2026-06-01T14:30:00Z | |
+| 2.3 | Completed pre-enforcement review metadata alignment and normalised amendment ledger hash formatting. | 2026-06-01T14:30:00Z | 05591d918621b319d1a8c30e2d0bac883cac6404d7b9b93ed89c8b2d59059806 |
 
 ---
 
