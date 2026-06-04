@@ -1,0 +1,52 @@
+name: Metadata or index issue
+about: Report generated index, metadata, registry, catalogue, or publication inconsistency.
+title: "Metadata/index issue: "
+labels: ["metadata", "index", "review-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for inconsistencies in generated or maintained metadata, registries, catalogues, JSON files, canonical-code listings, or publication metadata.
+  - type: input
+    id: file
+    attributes:
+      label: Affected file or output
+      placeholder: ".github/Indices/canonical-code-index.md"
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-area
+    attributes:
+      label: Issue area
+      options:
+        - Generated Markdown index
+        - Generated JSON or registry
+        - Canonical-code listing
+        - Citation or archive metadata
+        - Catalogue/navigation metadata
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: inconsistency
+    attributes:
+      label: Inconsistency observed
+      description: Describe what appears wrong and what you expected to see.
+    validations:
+      required: true
+  - type: textarea
+    id: rebuild
+    attributes:
+      label: Rebuild or validation context
+      description: If you ran a script or workflow, include the command and result.
+    validations:
+      required: false
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Contribution boundary
+      options:
+        - label: I understand generated files should not be manually edited unless repository documentation says that is acceptable.
+          required: true
+        - label: This report does not include sensitive personal data, credentials, private screenshots, exploit details, or unredacted AI interaction evidence.
+          required: true

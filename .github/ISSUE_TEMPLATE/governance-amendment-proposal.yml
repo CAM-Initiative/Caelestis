@@ -1,0 +1,55 @@
+name: Governance amendment proposal
+about: Propose a doctrinal, structural, authority-bearing, or instrument-level CAM change.
+title: "Governance amendment proposal: "
+labels: ["governance-amendment", "steward-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Governance amendments require human custodian/steward review. Passing CI does not mean an amendment is adopted. Do not submit sensitive evidence or private field observations in a public issue.
+  - type: input
+    id: instrument
+    attributes:
+      label: Affected instrument or domain
+      placeholder: "Governance/Charters/... or CAM domain"
+    validations:
+      required: true
+  - type: dropdown
+    id: amendment-type
+    attributes:
+      label: Amendment type
+      options:
+        - Doctrinal clarification
+        - Structural amendment
+        - New instrument proposal
+        - Status/effect/enforcement/review-state change
+        - Authority-role change
+        - Cross-instrument alignment
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the proposed amendment without editing canonical instrument text in this issue.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale and impact
+      description: Explain why the change is needed and what instruments, domains, or public-interface surfaces may be affected.
+    validations:
+      required: true
+  - type: checkboxes
+    id: adoption-boundary
+    attributes:
+      label: Review and safety acknowledgements
+      options:
+        - label: I understand that CI passing does not adopt a governance amendment.
+          required: true
+        - label: I understand that human custodian/steward review is required.
+          required: true
+        - label: This proposal does not include sensitive personal data, credentials, private screenshots, exploit details, or unredacted AI interaction evidence.
+          required: true

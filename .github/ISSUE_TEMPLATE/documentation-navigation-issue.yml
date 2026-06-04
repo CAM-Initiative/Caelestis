@@ -1,0 +1,51 @@
+name: Documentation or navigation issue
+about: Report README, contribution, navigation, public explanation, or reviewer-orientation problems.
+title: "Documentation/navigation issue: "
+labels: ["documentation", "navigation", "review-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for repository-facing documentation, navigation, orientation, or reviewer-readiness issues.
+  - type: input
+    id: page-or-file
+    attributes:
+      label: Page or file
+      placeholder: "README.md"
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-kind
+    attributes:
+      label: Issue kind
+      options:
+        - Repository orientation
+        - Corpus navigation
+        - Public explanation
+        - Contribution guidance
+        - Citation/licence pointer
+        - Interface relationship explanation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem observed
+      description: Explain what is unclear, missing, misleading, or hard to navigate.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-improvement
+    attributes:
+      label: Suggested improvement
+      description: Optional proposed wording, link, or structure.
+    validations:
+      required: false
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public issue safety
+      options:
+        - label: This report does not include sensitive personal data, credentials, private screenshots, exploit details, or unredacted AI interaction evidence.
+          required: true

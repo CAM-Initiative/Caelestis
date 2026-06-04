@@ -1,0 +1,52 @@
+name: Validator failure
+about: Report a GitHub Actions, validation, hash, canonical-header, symbolic, or index failure.
+title: "Validator failure: "
+labels: ["validation", "ci", "review-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for CAM repository validation or CI failures. Remove secrets, private logs, and sensitive evidence before posting.
+  - type: input
+    id: workflow-or-command
+    attributes:
+      label: Workflow or command
+      placeholder: "python .github/scripts/validate_canonical_headers.py"
+    validations:
+      required: true
+  - type: dropdown
+    id: failure-type
+    attributes:
+      label: Failure type
+      options:
+        - GitHub Actions workflow
+        - Amendment ledger hash
+        - Canonical header validation
+        - Markdown section reference validation
+        - Symbolic/index validation
+        - Generated output idempotency
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Relevant output
+      description: Paste the minimal relevant error output. Do not include secrets, private screenshots, or sensitive evidence.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: suspected-cause
+    attributes:
+      label: Suspected cause or recent change
+      description: If known, identify the file or PR that may have triggered the failure.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public issue safety
+      options:
+        - label: I removed credentials, personal data, proprietary logs, private screenshots, exploit details, and unredacted AI interaction evidence.
+          required: true

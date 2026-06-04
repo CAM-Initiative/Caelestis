@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sensitive disclosure guidance
+    url: https://github.com/CAM-Initiative/Caelestis/issues/new?template=sensitive-disclosure.md
+    about: Read before submitting sensitive evidence, private field observations, credentials, or exploit details.
