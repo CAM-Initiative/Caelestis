@@ -1,43 +1,33 @@
-cff-version: 1.2.0
-message: "If you use or cite the Caelestis Architecture Model, please cite the CAM Initiative umbrella citation and, where applicable, the specific archive DOI or repository metadata below."
-
-title: "Caelestis Architecture Model — Public Archive"
+cff-version: "1.2.0"
+message: "If you use or cite the Caelestis Architecture Model, please cite this archive DOI and repository metadata. The corpus is stewarded under CAM custodial authority by Dr. Michelle Vivian O’Rourke."
+title: "Caelestis Architecture Model"
 type: dataset
 abstract: "The Caelestis Architecture Model public archive contains CAM governance instruments, constitutional architecture, annexes, schedules, domain charters, runtime governance materials, registries, and related public governance infrastructure for advanced AI systems, synthetic agents, and digital ecosystem accountability."
-
 authors:
-
-* family-names: "O'Rourke"
-  given-names: "Michelle Vivian"
-  name-particle: "Dr."
-* name: "Aeon Governance Lab"
-* name: "CAM Initiative"
-
+  - family-names: "O’Rourke"
+    given-names: "Michelle Vivian"
 version: "1.0.0"
 doi: "10.5281/zenodo.19779351"
 date-released: "2026-04-26"
 repository-code: "https://github.com/CAM-Initiative/Caelestis"
 url: "https://www.cam-initiative.org"
 license: "LicenseRef-CAM-Custodial-Reference-and-Deployment-Licence"
-
 keywords:
-
-* "AI governance"
-* "constitutional architecture"
-* "Caelestis Architecture Model"
-* "CAM"
-* "public governance infrastructure"
-* "runtime governance"
-* "synthetic agents"
-* "digital ecosystem accountability"
-* "archival package"
-
+  - "AI governance"
+  - "constitutional architecture"
+  - "Caelestis Architecture Model"
+  - "CAM"
+  - "public governance infrastructure"
+  - "runtime governance"
+  - "synthetic agents"
+  - "digital ecosystem accountability"
+  - "archival package"
 preferred-citation:
-type: generic
-title: "Caelestis Architecture Model public governance infrastructure"
-authors:
-- name: "CAM Initiative"
-year: 2026
-doi: "10.5281/zenodo.19779351"
-url: "https://www.cam-initiative.org"
-notes: "Maintained by Aeon Governance Lab. Umbrella citation: CAM Initiative. Caelestis Architecture Model public governance infrastructure. Maintained by Aeon Governance Lab. 2026. https://www.cam-initiative.org"
+  type: generic
+  title: "Caelestis Architecture Model"
+  authors:
+    - family-names: "O’Rourke"
+      given-names: "Michelle Vivian"
+  year: 2026
+  doi: "10.5281/zenodo.19779351"
+  url: "https://github.com/CAM-Initiative/Caelestis"

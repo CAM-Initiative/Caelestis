@@ -1,0 +1,4 @@
+# Current local governance validation scripts use only the Python standard library.
+# This file is intentionally minimal so reviewers can run:
+#   python -m pip install -r requirements-dev.txt
+# without installing unnecessary third-party packages.

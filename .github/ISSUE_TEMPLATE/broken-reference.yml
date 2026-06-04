@@ -1,0 +1,51 @@
+name: Broken reference
+about: Report a broken section reference, link, annex reference, or source path.
+title: "Broken reference: "
+labels: ["broken-reference", "review-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for broken references in the CAM corpus or repository navigation. Do not include sensitive personal data, private screenshots, credentials, or unredacted AI interaction evidence.
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: File path and section where the broken reference appears.
+      placeholder: "Governance/Constitution/example.md — Section 3.2"
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Broken reference text
+      description: Paste the reference text or describe the link/path that appears broken.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-target
+    attributes:
+      label: Expected target
+      description: If known, identify the intended section, annex, source path, or URL.
+    validations:
+      required: false
+  - type: dropdown
+    id: reference-type
+    attributes:
+      label: Reference type
+      options:
+        - Section reference
+        - Annex or schedule reference
+        - Source path
+        - External link
+        - Generated navigation entry
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public issue safety
+      options:
+        - label: This report does not include sensitive personal data, credentials, private screenshots, exploit details, or unredacted AI interaction evidence.
+          required: true
