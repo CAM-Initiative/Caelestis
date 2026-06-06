@@ -118,7 +118,7 @@ def test_malformed_date_only_row_is_detected_with_line_number():
 def test_malformed_non_version_first_cell_detected():
     text = mk(["| Annex B | desc | 2026-05-20T00:00:00Z | |", "|1.1|b|t|  |"])
     malformed = ledger.get_malformed_ledger_rows(text)
-    assert any("valid version" in msg for _, msg in malformed)
+    assert any("dotted numeric version" in msg for _, msg in malformed)
 
 
 def test_structurally_valid_latest_blank_hash_allowed():
@@ -158,14 +158,12 @@ def test_normal_substantive_row_unchanged_behavior():
     assert malformed == []
 
 
-def test_two_and_three_part_versions_are_valid():
-    assert ledger.VERSION_CELL_RE.match("2.4")
-    assert ledger.VERSION_CELL_RE.match("2.4.1")
-    assert not ledger.VERSION_CELL_RE.match("2")
-    assert not ledger.VERSION_CELL_RE.match("2.")
-    assert not ledger.VERSION_CELL_RE.match("2.4.")
-    assert not ledger.VERSION_CELL_RE.match("2.4.1.3")
-    assert not ledger.VERSION_CELL_RE.match("v2.4")
+def test_dotted_numeric_versions_with_two_or_more_parts_are_valid():
+    for version in ["1.0", "1.12", "1.1.2", "2.3.4", "10.11.12", "2.4.1.3"]:
+        assert ledger.VERSION_CELL_RE.match(version)
+
+    for version in ["", "2", "2.", "2.4.", "2..4", "2.a.4", "v2.4"]:
+        assert not ledger.VERSION_CELL_RE.match(version)
 
 
 def test_three_part_version_sorts_under_two_part_minor():
@@ -173,12 +171,20 @@ def test_three_part_version_sorts_under_two_part_minor():
     assert sorted(versions, key=ledger.version_sort_key) == ["2.4", "2.4.1", "2.4.2", "2.5"]
     assert ledger.is_minor_only_increment("2.4", "2.4.1") is True
     assert ledger.is_minor_only_increment("2.4.1", "2.4.2") is True
+    assert ledger.is_minor_only_increment("2.4.1", "2.4.1.1") is True
 
 
-def test_malformed_patch_versions_rejected_in_rows():
+def test_four_part_dotted_numeric_versions_are_accepted_in_rows():
     text = mk(["|2.4.1.3|summary|2026-05-20T00:00:00Z|  |"])
     malformed = ledger.get_malformed_ledger_rows(text)
-    assert malformed
+    assert malformed == []
+
+
+def test_malformed_dotted_versions_rejected_in_rows():
+    for version in ["", "2", "2.", "2..4", "2.a.4", "v2.4"]:
+        text = mk([f"|{version}|summary|2026-05-20T00:00:00Z|  |"])
+        malformed = ledger.get_malformed_ledger_rows(text)
+        assert malformed
 
 
 def test_allowlisted_latest_blank_is_not_sealed_by_fix():

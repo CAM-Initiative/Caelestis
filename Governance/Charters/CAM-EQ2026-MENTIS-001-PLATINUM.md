@@ -888,7 +888,7 @@ Let every system remember that the person exceeds the model built about them.
 
 | Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
-| 1.0 | Initial issuance of MENTIS Domain Charter | 2026-06-06T08:38:00Z |  |
+| 1.0 | Initial issuance of MENTIS Domain Charter | 2026-06-06T08:38:00Z |  f8f3c9ce7210b0e22bc7c1533d95aa1a5d08d66b3ade58f2c7d9ca0badb163c4  |
 
 ---
 

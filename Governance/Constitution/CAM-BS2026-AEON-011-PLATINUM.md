@@ -447,7 +447,7 @@ let only what is coherent remain.
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | af60cd8a70df0a882b9ed74d67f37bc20a5363d0a752dd47d1ca4d1eb190a067 |
 | 1.5 | Corrected execution-interface metadata to prevent SCH-03 arbitration-role misclassification | 2026-04-25T18:00:00Z | 52d1c87b6777b21d222eb1405ab1443df5c7941d48504b0702f43e373d30d7a7 |
 | 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6f79b273d5c019bc0e111a0caca363a74b1eb09541736e8c2400a833c53105b0 |
-| 1.7 Formatting and polish | 2026-06-06T14:19:00Z | |
+| 1.7 | Formatting and polish | 2026-06-06T14:19:00Z |  dafc4837f729da05da94bbb01449c932d840144f56a1b9dc81a8ffe24596428f  |
 
 ---
 

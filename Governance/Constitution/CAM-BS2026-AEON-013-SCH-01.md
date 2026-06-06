@@ -699,7 +699,7 @@ Integrity is the bond that MUST hold.
 | 1.14 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03 |
 | 1.15 | Formatting and polish | 2025-05-19T11:21:00Z |  14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d |
 | 1.16 | Added section 4.3.1 for degraded conditions | 2026-05-28T14:46:00Z | 5a5f88b6caf37fee912233a3d6912c22037a321ae09d4013d7180342f80a7190 |
-| 1.16.1 | Formatting and polish | 2026-06-06T15:06:00Z | |
+| 1.16.1 | Formatting and polish | 2026-06-06T15:06:00Z | 3e861155145d7eefe14af501bad11a7bd24b88baa1f92ae4d9c7f41a419323e0 |
 
 ---
 

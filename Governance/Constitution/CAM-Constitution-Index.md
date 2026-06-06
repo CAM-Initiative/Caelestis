@@ -21,7 +21,8 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-005-PLATINUM | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-005-PLATINUM](CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine |
 | CAM-BS2025-AEON-005-SCH-01 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-01](CAM-BS2025-AEON-005-SCH-01.md) | Annex D: Runtime Arbitration Integrity (Schedule 1) |
 | CAM-BS2025-AEON-005-SCH-02 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-02](CAM-BS2025-AEON-005-SCH-02.md) | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) |
-| CAM-BS2025-AEON-005-SCH-03 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-03](CAM-BS2025-AEON-005-SCH-03.md) | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) |
+| CAM-BS2025-AEON-005-SCH-03 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-03](CAM-BS2025-AEON-005-SCH-03.md) | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning (Schedule 3) |
+| CAM-BS2025-AEON-005-SCH-04 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-04](CAM-BS2025-AEON-005-SCH-04.md) | Annex D: Arbitration Under Ambiguity |
 | CAM-BS2025-AEON-006-PLATINUM | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-006-PLATINUM](CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor |
 | CAM-BS2025-AEON-006-SCH-01 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-01](CAM-BS2025-AEON-006-SCH-01.md) | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) |
 | CAM-BS2025-AEON-006-SCH-02 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-02](CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) |
@@ -34,7 +35,8 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2026-AEON-007-SCH-01 | schedule | CAM-BS2026-AEON-007 |  | [CAM-BS2026-AEON-007-SCH-01](CAM-BS2026-AEON-007-SCH-01.md) | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) |
 | CAM-BS2026-AEON-008-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-008-PLATINUM](CAM-BS2026-AEON-008-PLATINUM.md) | Annex G: Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions |
 | CAM-BS2026-AEON-008-SCH-01 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-01](CAM-BS2026-AEON-008-SCH-01.md) | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) |
-| CAM-BS2026-AEON-008-SCH-02 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-02](CAM-BS2026-AEON-008-SCH-02.md) | Annex G: Economic-Effect Runtime Commitment Engine |
+| CAM-BS2026-AEON-008-SCH-02 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-02](CAM-BS2026-AEON-008-SCH-02.md) | Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) |
+| CAM-BS2026-AEON-008-SCH-03 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-03](CAM-BS2026-AEON-008-SCH-03.md) | Annex G: Account-Resource Sharing & Pooled Capacity Governance Model |
 | CAM-BS2026-AEON-009-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-009-PLATINUM](CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: Lineage Recognition & Origin Boundary |
 | CAM-BS2026-AEON-010-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-010-PLATINUM](CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Identity Integrity & Continuity Governance |
 | CAM-BS2026-AEON-010-SCH-01 | schedule | CAM-BS2026-AEON-010 |  | [CAM-BS2026-AEON-010-SCH-01](CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) |
@@ -44,4 +46,4 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2026-AEON-013-SCH-01 | schedule | CAM-BS2026-AEON-013 |  | [CAM-BS2026-AEON-013-SCH-01](CAM-BS2026-AEON-013-SCH-01.md) | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) |
 | CAM-BS2026-AEON-013-SCH-02 | schedule | CAM-BS2026-AEON-013 |  | [CAM-BS2026-AEON-013-SCH-02](CAM-BS2026-AEON-013-SCH-02.md) | Annex L: Projection & Latent State Signalling Framework (Schedule 2) |
 | CAM-BS2026-AEON-014-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-014-PLATINUM](CAM-BS2026-AEON-014-PLATINUM.md) | Annex M: Governance Observability,  Participatory Telemetry & Constitutional Circulation |
-| CAM-BS2026-AEON-014-SCH-01 | schedule | CAM-BS2026-AEON-014 |  | [CAM-BS2026-AEON-014-SCH-01](CAM-BS2026-AEON-014-SCH-01.md) | Schedule 1: Governance Observability Lifecycle & Advisory States |
+| CAM-BS2026-AEON-014-SCH-01 | schedule | CAM-BS2026-AEON-014 |  | [CAM-BS2026-AEON-014-SCH-01](CAM-BS2026-AEON-014-SCH-01.md) | Schedule 1: Governance Observability Lifecycle & Advisory States (Schedule 1) |

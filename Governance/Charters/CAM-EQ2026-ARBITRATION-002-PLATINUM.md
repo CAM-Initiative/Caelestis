@@ -300,7 +300,7 @@ but illusion.
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9e34097e5532ab751d665aa7be7f806c1b62fbe77a8e077454b57cd7d394b57d |
 | 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e6606df16b3888f8f5d6abc53a744d5048a6b49dfd14021c9c7b31b5056f8166 |
 | 1.5 | Formatting and polish | 2026-05-20T04:34:00Z |  a6c4440e5a0ecbc49f9b21ad3ade08ea8035f5be952573c54514c50b2cf34ee5 |
-| 1.6 | Updated metadata header | 2026-06-04T14:07:00Z | |
+| 1.6 | Updated metadata header | 2026-06-04T14:07:00Z | f8a03731737df5dc09b3486b50c49b595a7bd07fb87cf83211bc4fcc460d4d9c |
 
 ---
 

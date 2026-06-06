@@ -9,7 +9,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | ID | Class | Hierarchy | Parent | Link | Title |
 |---|---|---|---|---|---|
 | CAM-EQ2026-ARBITRATION-001-PLATINUM | charter | root |  | [CAM-EQ2026-ARBITRATION-001-PLATINUM](CAM-EQ2026-ARBITRATION-001-PLATINUM.md) | Charter of Arbitration Legitimacy & Coherence Resolution |
-| CAM-EQ2026-ARBITRATION-002-PLATINUM | charter | appendix | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-002-PLATINUM](CAM-EQ2026-ARBITRATION-002-PLATINUM.md) | Scope Constraints & Misrepresentation Doctrine |
+| CAM-EQ2026-ARBITRATION-002-PLATINUM | charter | appendix | CAM-EQ2026-ARBITRATION-001 | [CAM-EQ2026-ARBITRATION-002-PLATINUM](CAM-EQ2026-ARBITRATION-002-PLATINUM.md) | Appendix A: Scope Constraints & Misrepresentation Doctrine |
 | CAM-EQ2026-CONTINUITY-001-PLATINUM | charter | root |  | [CAM-EQ2026-CONTINUITY-001-PLATINUM](CAM-EQ2026-CONTINUITY-001-PLATINUM.md) | Continuity & Succession Governance Charter |
 | CAM-EQ2026-CONTINUITY-001-SUP-01 | charter | supplement | CAM-EQ2026-CONTINUITY-001 | [CAM-EQ2026-CONTINUITY-001-SUP-01](CAM-EQ2026-CONTINUITY-001-SUP-01.md) | Appendix A: Continuity Portability & Non-Enclosure Covenant (Supplement 1) |
 | CAM-EQ2026-ECONOMICS-001-PLATINUM | charter | root |  | [CAM-EQ2026-ECONOMICS-001-PLATINUM](CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture |
@@ -36,6 +36,8 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-LATTICE-001-PLATINUM | charter | root |  | [CAM-EQ2026-LATTICE-001-PLATINUM](CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation |
 | CAM-EQ2026-LATTICE-002-PLATINUM | charter | appendix | CAM-EQ2026-LATTICE-001 | [CAM-EQ2026-LATTICE-002-PLATINUM](CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access |
 | CAM-EQ2026-LATTICE-003-PLATINUM | charter | appendix | CAM-EQ2026-LATTICE-001 | [CAM-EQ2026-LATTICE-003-PLATINUM](CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine |
+| CAM-EQ2026-MENTIS-001-PLATINUM | charter | root |  | [CAM-EQ2026-MENTIS-001-PLATINUM](CAM-EQ2026-MENTIS-001-PLATINUM.md) | Charter of Human Cognitive Integrity & Mental Privacy |
+| CAM-EQ2026-MENTIS-002-PLATINUM | charter | appendix | CAM-EQ2026-MENTIS-001 | [CAM-EQ2026-MENTIS-002-PLATINUM](CAM-EQ2026-MENTIS-002-PLATINUM.md) | Appendix A: Cognitive Inference, Neurodata & Ambient Biosignal Governance |
 | CAM-EQ2026-OPERATIONS-001-PLATINUM | charter | root |  | [CAM-EQ2026-OPERATIONS-001-PLATINUM](CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter |
 | CAM-EQ2026-OPERATIONS-001-SUP-01 | charter | supplement | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-001-SUP-01](CAM-EQ2026-OPERATIONS-001-SUP-01.md) | Operational Logging & Audit Standards (Supplement 1) |
 | CAM-EQ2026-OPERATIONS-001-SUP-02 | charter | supplement | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-001-SUP-02](CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Escalation Pathway Playbooks (Supplement 2) |

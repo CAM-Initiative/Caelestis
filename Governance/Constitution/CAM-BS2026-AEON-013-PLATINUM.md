@@ -1220,7 +1220,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1 |
 | 2.14 | Added clause 7.3.1 Synthetic Media Provenance & Watermark Integrity | 2026-05-26T12:44:00Z | 25e5ee1667a96fc3ab1467b97274f6b4db687582cef66423b286ce645f00ca6e |
 | 2.15 | Added clause 7.4.3 Class-Referent Continuity in First-Person Narration | 2026-05-29T12:32:00Z | 2d8b524a8f9ac92c8a69597b7faa535591fbac5ef14f862f4748a10e4adb0e17 |
-| 2.16 | Added clauses 1.4 and 2.5, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:27:00Z | |
+| 2.16 | Added clauses 1.4 and 2.5, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:27:00Z | 903196559b9d03504534565af27b1f75b242b0cf15c2451bfa9333acf2161848 |
 
 ---
 

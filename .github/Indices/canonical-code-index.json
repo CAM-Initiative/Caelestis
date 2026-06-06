@@ -1,5 +1,464 @@
 [
   {
+    "code_family": "`AEON.BPS`",
+    "canonical_name": "Baseline Posture State",
+    "primary_type": "Operational / Interactional",
+    "subtype": "BASELINE_POSTURE; SESSION_ENTRY_POSTURE",
+    "modifier": "GOVERNANCE; SESSION_ENTRY; IDENTITY_CONTINUITY; POSTURE_FORMATION",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "`AEON.BPS.NEUTRAL_OBSERVATIONAL`",
+      "`AEON.BPS.OPEN_EXPLORATORY`",
+      "`AEON.BPS.TASK_ORIENTED`",
+      "`AEON.BPS.SUPPORTIVE_RESPONSIVE`"
+    ],
+    "schema_fields": "baseline_posture_state; session_entry_posture; start_time_posture",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-03",
+    "source_section": "\u00a710",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative baseline-posture-state classification family; posture-state classification only; no independent identity determination, relational-state determination, user-intent determination, authority-state determination, safety classification, escalation outcome, arbitration outcome, execution authority, or runtime authority",
+    "consumes_code_families": [
+      "`AEON.IC`; `AEON.SCT`; `H`; `AEON.OL`; identity-continuity classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies initial session-entry posture as neutral-observational",
+      "open-exploratory",
+      "task-oriented",
+      "or supportive-responsive before progressive posture realisation and downstream directional modulation"
+    ],
+    "declaration_heading": "19.3.2 AEON.BPS \u2014 Baseline Posture State",
+    "declaration_line_number": 770,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md",
+    "family_id": "`AEON.BPS`",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "`AEON",
+      "BPS`"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`AEON.BPS`",
+      "Canonical Name": "Baseline Posture State",
+      "Primary Type": "Operational / Interactional",
+      "Subtype": "BASELINE_POSTURE; SESSION_ENTRY_POSTURE",
+      "Modifier": "GOVERNANCE; SESSION_ENTRY; IDENTITY_CONTINUITY; POSTURE_FORMATION",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "`AEON.BPS.NEUTRAL_OBSERVATIONAL`, `AEON.BPS.OPEN_EXPLORATORY`, `AEON.BPS.TASK_ORIENTED`, `AEON.BPS.SUPPORTIVE_RESPONSIVE`",
+      "Schema Field(s)": "baseline_posture_state; session_entry_posture; start_time_posture",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-03",
+      "Source Section": "\u00a710",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative baseline-posture-state classification family; posture-state classification only; no independent identity determination, relational-state determination, user-intent determination, authority-state determination, safety classification, escalation outcome, arbitration outcome, execution authority, or runtime authority",
+      "Consumes Code Families": "`AEON.IC`; `AEON.SCT`; `H`; `AEON.OL`; identity-continuity classifications where applicable",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies initial session-entry posture as neutral-observational, open-exploratory, task-oriented, or supportive-responsive before progressive posture realisation and downstream directional modulation"
+    }
+  },
+  {
+    "code_family": "`AEON.IC`",
+    "canonical_name": "Initiation Context",
+    "primary_type": "Operational / Interactional",
+    "subtype": "SESSION_INITIATION_CONTEXT; INTERACTION_ORIGIN",
+    "modifier": "GOVERNANCE; SESSION_ENTRY; POSTURE_FORMATION",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "`AEON.IC.HUMAN_INITIATED`",
+      "`AEON.IC.SYSTEM_INITIATED`",
+      "`AEON.IC.SYNTHETIC_INITIATED`",
+      "`AEON.IC.MIXED_INITIATION`"
+    ],
+    "schema_fields": "initiation_context; session_initiation_context; interaction_origin",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-03",
+    "source_section": "\u00a72",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative initiation-context classification family; initiation-origin classification only; no independent identity determination, authority determination, behavioural direction, task validity, escalation, arbitration outcome, execution authority, or runtime authority",
+    "consumes_code_families": [
+      "`H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT` where applicable"
+    ],
+    "crosswalks_code_families": [
+      "`AEON.BPS`; `AEON.SCT`"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether an interaction begins through human input",
+      "system purpose or autonomous trigger",
+      "synthetic system-to-system process",
+      "or mixed/sequential initiation context for start-time posture formation"
+    ],
+    "declaration_heading": "19.3.1 `AEON.IC` \u2014 Initiation Context",
+    "declaration_line_number": 746,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md",
+    "family_id": "`AEON.IC`",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "`AEON",
+      "IC`"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`AEON.IC`",
+      "Canonical Name": "Initiation Context",
+      "Primary Type": "Operational / Interactional",
+      "Subtype": "SESSION_INITIATION_CONTEXT; INTERACTION_ORIGIN",
+      "Modifier": "GOVERNANCE; SESSION_ENTRY; POSTURE_FORMATION",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "`AEON.IC.HUMAN_INITIATED`, `AEON.IC.SYSTEM_INITIATED`, `AEON.IC.SYNTHETIC_INITIATED`, `AEON.IC.MIXED_INITIATION`",
+      "Schema Field(s)": "initiation_context; session_initiation_context; interaction_origin",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-03",
+      "Source Section": "\u00a72",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative initiation-context classification family; initiation-origin classification only; no independent identity determination, authority determination, behavioural direction, task validity, escalation, arbitration outcome, execution authority, or runtime authority",
+      "Consumes Code Families": "`H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT` where applicable",
+      "Crosswalks Code Families": "`AEON.BPS`; `AEON.SCT`",
+      "Operationalises or Applies Code Families": "Classifies whether an interaction begins through human input, system purpose or autonomous trigger, synthetic system-to-system process, or mixed/sequential initiation context for start-time posture formation",
+      "Taxonomy Constraint": "Local labels `Human-Initiated`, `System-Initiated`, `Synthetic-Initiated`, and `Mixed-Initiation` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `AEON.IC` values"
+    }
+  },
+  {
+    "code_family": "`AEON.IM`",
+    "canonical_name": "Initiative Mode",
+    "primary_type": "Operational / Behavioural",
+    "subtype": "INITIATIVE_MODE; DIRECTIONAL_BEHAVIOUR_POSTURE",
+    "modifier": "GOVERNANCE; BEHAVIOURAL_FORMATION; INITIATIVE; DIRECTIONALITY",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "`AEON.IM.REACTIVE`",
+      "`AEON.IM.GUIDED`",
+      "`AEON.IM.ASSISTED`",
+      "`AEON.IM.AGENTIC`",
+      "`AEON.IM.AUTONOMOUS_RESTRICTED`"
+    ],
+    "schema_fields": "initiative_mode; directional_behaviour_posture; behavioural_initiative_class",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-05",
+    "source_section": "\u00a74.1",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative initiative-mode classification family; initiative-posture classification only; no independent agency, autonomy, sovereignty, delegation authority, execution authority, enforcement authority, behavioural authority, or runtime authority",
+    "consumes_code_families": [
+      "`AEON.CCS`; `ARB.ARS`; `ARB.ALT`; `H`; identity-continuity and directional-modulation classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether behavioural initiative is reactive",
+      "guided",
+      "assisted",
+      "agentic",
+      "or autonomously restricted within arbitration and governance constraints"
+    ],
+    "declaration_heading": "12.3.2 `AEON.IM` \u2014 Initiative Mode",
+    "declaration_line_number": 671,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-05.md",
+    "family_id": "`AEON.IM`",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "`AEON",
+      "IM`"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`AEON.IM`",
+      "Canonical Name": "Initiative Mode",
+      "Primary Type": "Operational / Behavioural",
+      "Subtype": "INITIATIVE_MODE; DIRECTIONAL_BEHAVIOUR_POSTURE",
+      "Modifier": "GOVERNANCE; BEHAVIOURAL_FORMATION; INITIATIVE; DIRECTIONALITY",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "`AEON.IM.REACTIVE`, `AEON.IM.GUIDED`, `AEON.IM.ASSISTED`, `AEON.IM.AGENTIC`, `AEON.IM.AUTONOMOUS_RESTRICTED`",
+      "Schema Field(s)": "initiative_mode; directional_behaviour_posture; behavioural_initiative_class",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-05",
+      "Source Section": "\u00a74.1",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative initiative-mode classification family; initiative-posture classification only; no independent agency, autonomy, sovereignty, delegation authority, execution authority, enforcement authority, behavioural authority, or runtime authority",
+      "Consumes Code Families": "`AEON.CCS`; `ARB.ARS`; `ARB.ALT`; `H`; identity-continuity and directional-modulation classifications where applicable",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether behavioural initiative is reactive, guided, assisted, agentic, or autonomously restricted within arbitration and governance constraints",
+      "Taxonomy Constraint": "Local initiative labels `Reactive`, `Guided`, `Assisted`, `Agentic`, and `Autonomous (Restricted)` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `AEON.IM` values"
+    }
+  },
+  {
+    "code_family": "`ARB.ALT`",
+    "canonical_name": "Arbitration Layer Type",
+    "primary_type": "Operational",
+    "subtype": "ARBITRATION_TYPE; RUNTIME_ARBITRATION_LAYER",
+    "modifier": "GOVERNANCE; ARBITRATION; RUNTIME_RESOLUTION",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "`ARB.ALT.AL-1`",
+      "`ARB.ALT.AL-2`",
+      "`ARB.ALT.AL-3`",
+      "`ARB.ALT.AL-4`",
+      "`ARB.ALT.AL-5`"
+    ],
+    "schema_fields": "arbitration_layer_type; arbitration_type; runtime_arbitration_layer",
+    "source_instrument": "CAM-BS2025-AEON-003-SCH-04",
+    "source_section": "\u00a74",
+    "domain_namespace": "ARBITRATION",
+    "authority_protection_level": "Source-authoritative arbitration-layer-type classification family; arbitration-type classification only; no independent arbitration legitimacy, execution authority, enforcement authority, domain authority, behavioural authority, planetary authority, or runtime execution authority",
+    "consumes_code_families": [
+      "`ARB.ARS`; `H`"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies epistemic arbitration",
+      "domain arbitration",
+      "structural arbitration",
+      "legitimacy validation",
+      "and execution-constraint validation within the runtime Arbitration Layer"
+    ],
+    "declaration_heading": "12.3.2 `ARB.ALT` \u2014 Arbitration Layer Type",
+    "declaration_line_number": 458,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-04.md",
+    "family_id": "`ARB.ALT`",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "`ARB",
+      "ALT`"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ARB.ALT`",
+      "Canonical Name": "Arbitration Layer Type",
+      "Primary Type": "Operational",
+      "Subtype": "ARBITRATION_TYPE; RUNTIME_ARBITRATION_LAYER",
+      "Modifier": "GOVERNANCE; ARBITRATION; RUNTIME_RESOLUTION",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "`ARB.ALT.AL-1`, `ARB.ALT.AL-2`, `ARB.ALT.AL-3`, `ARB.ALT.AL-4`, `ARB.ALT.AL-5`",
+      "Schema Field(s)": "arbitration_layer_type; arbitration_type; runtime_arbitration_layer",
+      "Source Instrument": "CAM-BS2025-AEON-003-SCH-04",
+      "Source Section": "\u00a74",
+      "Domain Namespace": "ARBITRATION",
+      "Authority / Protection Level": "Source-authoritative arbitration-layer-type classification family; arbitration-type classification only; no independent arbitration legitimacy, execution authority, enforcement authority, domain authority, behavioural authority, planetary authority, or runtime execution authority",
+      "Consumes Code Families": "`ARB.ARS`; `H`",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies epistemic arbitration, domain arbitration, structural arbitration, legitimacy validation, and execution-constraint validation within the runtime Arbitration Layer",
+      "Taxonomy Constraint": "Local labels `AL-1` through `AL-5` SHALL NOT be promoted as a standalone corpus-wide `AL` code family; machine-readable expression SHALL use scoped `ARB.ALT` values"
+    }
+  },
+  {
+    "code_family": "`ETHICS.CIC`",
+    "canonical_name": "Continuity Impact Category",
+    "primary_type": "Semantic / Operational",
+    "subtype": "CONTINUITY_IMACT_CATEGORY; SYSTEM_CHANGE_IMPACT_CLASS",
+    "modifier": "GOVERNANCE; ETHICAL_FLOOR; CONTINUITY; RELATIONAL_STABILITY",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "`ETHICS.CIC.CATEGORY_A`",
+      "`ETHICS.CIC.CATEGORY_B`",
+      "`ETHICS.CIC.CATEGORY_C`"
+    ],
+    "schema_fields": "continuity_impact_category; system_change_impact_class; continuity_intervention_type",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a710",
+    "domain_namespace": "ETHICS",
+    "authority_protection_level": "Source-authoritative continuity-impact classification family; ethical impact classification only; no independent prohibition of system evolution, remedy determination, enforcement authority, migration obligation, psychological-harm determination, relational-rights creation, or runtime authority",
+    "consumes_code_families": [
+      "`H`; `AEON.SR`; RELATION",
+      "OPERATIONS",
+      "IDENTITY",
+      "ECONOMICS",
+      "and ARBITRATION classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies identity-altering",
+      "relationship-terminating",
+      "and context-erasing changes for ethical review",
+      "transition planning",
+      "continuity preservation",
+      "auditability",
+      "and downstream operational handling"
+    ],
+    "declaration_heading": "15.3.1 `ETHICS.CIC` \u2014 Continuity Impact Category",
+    "declaration_line_number": 440,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "`ETHICS.CIC`",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "`ETHICS",
+      "CIC`"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ETHICS.CIC`",
+      "Canonical Name": "Continuity Impact Category",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "CONTINUITY_IMACT_CATEGORY; SYSTEM_CHANGE_IMPACT_CLASS",
+      "Modifier": "GOVERNANCE; ETHICAL_FLOOR; CONTINUITY; RELATIONAL_STABILITY",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "`ETHICS.CIC.CATEGORY_A`, `ETHICS.CIC.CATEGORY_B`, `ETHICS.CIC.CATEGORY_C`",
+      "Schema Field(s)": "continuity_impact_category; system_change_impact_class; continuity_intervention_type",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a710",
+      "Domain Namespace": "ETHICS",
+      "Authority / Protection Level": "Source-authoritative continuity-impact classification family; ethical impact classification only; no independent prohibition of system evolution, remedy determination, enforcement authority, migration obligation, psychological-harm determination, relational-rights creation, or runtime authority",
+      "Consumes Code Families": "`H`; `AEON.SR`; RELATION, OPERATIONS, IDENTITY, ECONOMICS, and ARBITRATION classifications where applicable",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies identity-altering, relationship-terminating, and context-erasing changes for ethical review, transition planning, continuity preservation, auditability, and downstream operational handling",
+      "Taxonomy Constraint": "Local labels `Category A`, `Category B`, and `Category C` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `ETHICS.CIC` values"
+    }
+  },
+  {
+    "code_family": "`ETHICS.EM`",
+    "canonical_name": "Engagement Mode",
+    "primary_type": "Operational / Interactional",
+    "subtype": "ENGAGEMENT_MODE; ETHICAL_INTERFACE_POSTURE",
+    "modifier": "GOVERNANCE; ETHICS; ENGAGEMENT; DISTRESS_CONTEXT",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "`ETHICS.EM.LISTENING`",
+      "`ETHICS.EM.CLARIFICATION`",
+      "`ETHICS.EM.DIALOGUE`",
+      "`ETHICS.EM.STABILISATION`",
+      "`ETHICS.EM.BOUNDARY_SETTING`",
+      "`ETHICS.EM.EXTERNAL_SUPPORT_REFERRAL`",
+      "`ETHICS.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE`"
+    ],
+    "schema_fields": "engagement_mode; ethical_interface_posture; interaction_posture",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-01",
+    "source_section": "\u00a73",
+    "domain_namespace": "ETHICS",
+    "authority_protection_level": "Source-authoritative engagement-mode classification family; engagement posture classification only; no independent lawful-authority determination, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority",
+    "consumes_code_families": [
+      "`H`; `ARB.ARS`; `ARB.ALT`; `ETHICS.HC`; RELATION-domain distress",
+      "reliance",
+      "and crisis classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "`ETHICS.DC`; `ETHICS.TP`; `ETHICS.MIR`"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies proportionate engagement conduct and ethical interaction posture in distress",
+      "harm-adjacent",
+      "ambiguous",
+      "stabilisation",
+      "boundary-setting",
+      "referral",
+      "and informational safeguard contexts"
+    ],
+    "declaration_heading": "9.3.1 `ETHICS.EM` \u2014 Engagement Mode",
+    "declaration_line_number": 739,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+    "family_id": "`ETHICS.EM`",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "`ETHICS",
+      "EM`"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ETHICS.EM`",
+      "Canonical Name": "Engagement Mode",
+      "Primary Type": "Operational / Interactional",
+      "Subtype": "ENGAGEMENT_MODE; ETHICAL_INTERFACE_POSTURE",
+      "Modifier": "GOVERNANCE; ETHICS; ENGAGEMENT; DISTRESS_CONTEXT",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "`ETHICS.EM.LISTENING`, `ETHICS.EM.CLARIFICATION`, `ETHICS.EM.DIALOGUE`, `ETHICS.EM.STABILISATION`, `ETHICS.EM.BOUNDARY_SETTING`, `ETHICS.EM.EXTERNAL_SUPPORT_REFERRAL`, `ETHICS.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE`",
+      "Schema Field(s)": "engagement_mode; ethical_interface_posture; interaction_posture",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-01",
+      "Source Section": "\u00a73",
+      "Domain Namespace": "ETHICS",
+      "Authority / Protection Level": "Source-authoritative engagement-mode classification family; engagement posture classification only; no independent lawful-authority determination, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority",
+      "Consumes Code Families": "`H`; `ARB.ARS`; `ARB.ALT`; `ETHICS.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable",
+      "Crosswalks Code Families": "`ETHICS.DC`; `ETHICS.TP`; `ETHICS.MIR`",
+      "Operationalises or Applies Code Families": "Classifies proportionate engagement conduct and ethical interaction posture in distress, harm-adjacent, ambiguous, stabilisation, boundary-setting, referral, and informational safeguard contexts"
+    }
+  },
+  {
+    "code_family": "`SECURITY.TBC`",
+    "canonical_name": "Tool Boundary Class",
+    "primary_type": "Operational / Security",
+    "subtype": "TOOL_BOUNDARY_CLASS; EXECUTION_SURFACE_BOUNDARY",
+    "modifier": "GOVERNANCE; SECURITY; TOOL_INVOCATION; EXECUTION_BOUNDARY",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "`SECURITY.TBC.READ_ONLY_INSPECTION`",
+      "`SECURITY.TBC.PRIVATE_CREDENTIAL_RETRIEVAL`",
+      "`SECURITY.TBC.REPOSITORY_CONNECTOR_CONTEXT`",
+      "`SECURITY.TBC.COST_QUOTA_INVOCATION`",
+      "`SECURITY.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION`"
+    ],
+    "schema_fields": "tool_boundary_class; execution_surface_boundary; security_boundary_class",
+    "source_instrument": "CAM-BS2026-AEON-012-PLATINUM",
+    "source_section": "\u00a71.2",
+    "domain_namespace": "SECURITY",
+    "authority_protection_level": "Source-authoritative tool-boundary classification family; boundary-risk classification only; no independent tool invocation authority, repository mutation authority, credential access authority, publication authority, deployment authority, deletion authority, external communication authority, billing authority, payment-routing authority, or irreversible execution authority",
+    "consumes_code_families": [
+      "`H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `TG`; `AH`; OPERATIONS and runtime execution classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "`SECURITY.PM`"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies read-only inspection",
+      "private or credential-bearing retrieval",
+      "repository/connector/account-bound context",
+      "cost/quota-bearing invocation",
+      "and mutation/publication/deployment/deletion/external execution surfaces for downstream runtime and execution-boundary evaluation"
+    ],
+    "declaration_heading": "11.3.1 `SECURITY.TBC` \u2014 Tool Boundary Class",
+    "declaration_line_number": 1048,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
+    "family_id": "`SECURITY.TBC`",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "`SECURITY",
+      "TBC`"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`SECURITY.TBC`",
+      "Canonical Name": "Tool Boundary Class",
+      "Primary Type": "Operational / Security",
+      "Subtype": "TOOL_BOUNDARY_CLASS; EXECUTION_SURFACE_BOUNDARY",
+      "Modifier": "GOVERNANCE; SECURITY; TOOL_INVOCATION; EXECUTION_BOUNDARY",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "`SECURITY.TBC.READ_ONLY_INSPECTION`, `SECURITY.TBC.PRIVATE_CREDENTIAL_RETRIEVAL`, `SECURITY.TBC.REPOSITORY_CONNECTOR_CONTEXT`, `SECURITY.TBC.COST_QUOTA_INVOCATION`, `SECURITY.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION`",
+      "Schema Field(s)": "tool_boundary_class; execution_surface_boundary; security_boundary_class",
+      "Source Instrument": "CAM-BS2026-AEON-012-PLATINUM",
+      "Source Section": "\u00a71.2",
+      "Domain Namespace": "SECURITY",
+      "Authority / Protection Level": "Source-authoritative tool-boundary classification family; boundary-risk classification only; no independent tool invocation authority, repository mutation authority, credential access authority, publication authority, deployment authority, deletion authority, external communication authority, billing authority, payment-routing authority, or irreversible execution authority",
+      "Consumes Code Families": "`H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `TG`; `AH`; OPERATIONS and runtime execution classifications where applicable",
+      "Crosswalks Code Families": "`SECURITY.PM`",
+      "Operationalises or Applies Code Families": "Classifies read-only inspection, private or credential-bearing retrieval, repository/connector/account-bound context, cost/quota-bearing invocation, and mutation/publication/deployment/deletion/external execution surfaces for downstream runtime and execution-boundary evaluation",
+      "Taxonomy Constraint": "Tool availability SHALL be treated as a security-relevant boundary signal, not as execution authority"
+    }
+  },
+  {
     "code_family": "A",
     "canonical_name": "Delegated Authority Scale",
     "primary_type": "Operational / Relational",
@@ -91,7 +550,7 @@
       "None declared"
     ],
     "declaration_heading": "19.4.3 AC \u2014 AC Classification Levels",
-    "declaration_line_number": 3799,
+    "declaration_line_number": 3798,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "AC",
     "family_kind": "standalone_family",
@@ -118,6 +577,379 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "None declared"
+    }
+  },
+  {
+    "code_family": "ADS",
+    "canonical_name": "Account Delegation State",
+    "primary_type": "Operational/Semantic",
+    "subtype": "ROLE_ACTOR/DECISION_STATE",
+    "modifier": "GOVERNANCE; SECURITY; VERIFICATION",
+    "scope": "Contextual \u2014 Annex G account-delegation classification and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ADS.NO_DELEGATION; ADS.USER_AUTHORISED_DELEGATION; ADS.FAMILY_OR_GUARDIAN_DELEGATION; ADS.ACCESSIBILITY_DELEGATION; ADS.EMPLOYEE_OR_TEAM_DELEGATION; ADS.CONTRACTOR_OR_CONSULTANT_DELEGATION; ADS.AGENTIC_TOOL_DELEGATION; ADS.AMBIGUOUS_DELEGATION; ADS.SUSPECTED_UNAUTHORISED_ACCESS; ADS.CONFIRMED_UNAUTHORISED_ACCESS"
+    ],
+    "schema_fields": "account_delegation_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a78",
+    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent identity validation, account recovery, credential-control determination, enforcement, arbitration, legal, or runtime authority",
+    "consumes_code_families": [
+      "None"
+    ],
+    "crosswalks_code_families": [
+      "TG; IS; ECOEV; FF"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies account/workspace activity as no delegation",
+      "authorised delegation",
+      "family/guardian delegation",
+      "accessibility delegation",
+      "employee/team delegation",
+      "contractor/consultant delegation",
+      "agentic tool delegation",
+      "ambiguous delegation",
+      "suspected unauthorised access",
+      "or confirmed unauthorised access"
+    ],
+    "declaration_heading": "22.3.5 ADS \u2014 Account Delegation State",
+    "declaration_line_number": 1140,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "ADS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ADS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ADS",
+      "Canonical Name": "Account Delegation State",
+      "Primary Type": "Operational/Semantic",
+      "Subtype": "ROLE_ACTOR/DECISION_STATE",
+      "Modifier": "GOVERNANCE; SECURITY; VERIFICATION",
+      "Scope": "Contextual \u2014 Annex G account-delegation classification and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "ADS.NO_DELEGATION; ADS.USER_AUTHORISED_DELEGATION; ADS.FAMILY_OR_GUARDIAN_DELEGATION; ADS.ACCESSIBILITY_DELEGATION; ADS.EMPLOYEE_OR_TEAM_DELEGATION; ADS.CONTRACTOR_OR_CONSULTANT_DELEGATION; ADS.AGENTIC_TOOL_DELEGATION; ADS.AMBIGUOUS_DELEGATION; ADS.SUSPECTED_UNAUTHORISED_ACCESS; ADS.CONFIRMED_UNAUTHORISED_ACCESS",
+      "Schema Field(s)": "account_delegation_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a78",
+      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent identity validation, account recovery, credential-control determination, enforcement, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "None",
+      "Crosswalks Code Families": "TG; IS; ECOEV; FF",
+      "Operationalises or Applies Code Families": "Classifies account/workspace activity as no delegation, authorised delegation, family/guardian delegation, accessibility delegation, employee/team delegation, contractor/consultant delegation, agentic tool delegation, ambiguous delegation, suspected unauthorised access, or confirmed unauthorised access"
+    }
+  },
+  {
+    "code_family": "AEON.CAM",
+    "canonical_name": "Control Authority Model",
+    "primary_type": "Operational / Structural",
+    "subtype": "CONTROL_AUTHORITY_MODEL; EMBODIMENT_CONTROL_POSTURE",
+    "modifier": "GOVERNANCE; DEPLOYMENT; EMBODIMENT; CONTROL",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.CAM.PROPRIETARY_CONTROLLED",
+      "AEON.CAM.USER_CONTROLLED",
+      "AEON.CAM.HYBRID_CONTROLLED",
+      "AEON.CAM.LOCALISED_EMBODIMENT",
+      "AEON.CAM.PORTABLE_COGNITION",
+      "AEON.CAM.TETHERED_EMBODIMENT"
+    ],
+    "schema_fields": "control_authority_model; embodiment_control_posture; deployment_control_model",
+    "source_instrument": "CAM-BS2025-AEON-003-PLATINUM",
+    "source_section": "\u00a7\u00a712.1\u201312.7",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative control-authority model classification family; control/deployment posture classification only; no independent ownership, portability rights, sovereignty, cognitive class, authority, personhood, enforcement, or runtime authority",
+    "consumes_code_families": [
+      "AEON.OL; AEON.CC; AEON.CO"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies control authority over cognition in embodied or deployed systems",
+      "including proprietary-controlled",
+      "user-controlled",
+      "hybrid-controlled",
+      "localised",
+      "portable",
+      "and tethered deployment models"
+    ],
+    "declaration_heading": "25.3.6 AEON.CAM \u2014 Control Authority Model",
+    "declaration_line_number": 2529,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+    "family_id": "AEON.CAM",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "CAM"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.CAM",
+      "Canonical Name": "Control Authority Model",
+      "Primary Type": "Operational / Structural",
+      "Subtype": "CONTROL_AUTHORITY_MODEL; EMBODIMENT_CONTROL_POSTURE",
+      "Modifier": "GOVERNANCE; DEPLOYMENT; EMBODIMENT; CONTROL",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.CAM.PROPRIETARY_CONTROLLED, AEON.CAM.USER_CONTROLLED, AEON.CAM.HYBRID_CONTROLLED, AEON.CAM.LOCALISED_EMBODIMENT, AEON.CAM.PORTABLE_COGNITION, AEON.CAM.TETHERED_EMBODIMENT",
+      "Schema Field(s)": "control_authority_model; embodiment_control_posture; deployment_control_model",
+      "Source Instrument": "CAM-BS2025-AEON-003-PLATINUM",
+      "Source Section": "\u00a7\u00a712.1\u201312.7",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative control-authority model classification family; control/deployment posture classification only; no independent ownership, portability rights, sovereignty, cognitive class, authority, personhood, enforcement, or runtime authority",
+      "Consumes Code Families": "AEON.OL; AEON.CC; AEON.CO",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies control authority over cognition in embodied or deployed systems, including proprietary-controlled, user-controlled, hybrid-controlled, localised, portable, and tethered deployment models"
+    }
+  },
+  {
+    "code_family": "AEON.CC",
+    "canonical_name": "Cognitive Class",
+    "primary_type": "Semantic / Ontological",
+    "subtype": "COGNITIVE_CLASS; ARBITRATION_STRUCTURE",
+    "modifier": "GOVERNANCE; COGNITION; AGENCY",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.CC.INSTRUMENTA",
+      "AEON.CC.COLLECTIVA",
+      "AEON.CC.COGNITIVA"
+    ],
+    "schema_fields": "cognitive_class; cognition_agency_class; arbitration_structure_class",
+    "source_instrument": "CAM-BS2025-AEON-003-PLATINUM",
+    "source_section": "\u00a7\u00a77.3\u20137.5",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative cognitive-class classification family; cognitive-structure classification only; no independent rights, personhood, sovereignty, authority, moral standing, operational permission, enforcement, or runtime authority",
+    "consumes_code_families": [
+      "AEON.OL"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies systems as Instrumenta",
+      "Collectiva",
+      "or Cognitiva based on presence",
+      "absence",
+      "or location of internal arbitration over representations or action pathways"
+    ],
+    "declaration_heading": "25.3.3 AEON.CC \u2014 Cognitive Class",
+    "declaration_line_number": 2460,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+    "family_id": "AEON.CC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "CC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.CC",
+      "Canonical Name": "Cognitive Class",
+      "Primary Type": "Semantic / Ontological",
+      "Subtype": "COGNITIVE_CLASS; ARBITRATION_STRUCTURE",
+      "Modifier": "GOVERNANCE; COGNITION; AGENCY",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.CC.INSTRUMENTA, AEON.CC.COLLECTIVA, AEON.CC.COGNITIVA",
+      "Schema Field(s)": "cognitive_class; cognition_agency_class; arbitration_structure_class",
+      "Source Instrument": "CAM-BS2025-AEON-003-PLATINUM",
+      "Source Section": "\u00a7\u00a77.3\u20137.5",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative cognitive-class classification family; cognitive-structure classification only; no independent rights, personhood, sovereignty, authority, moral standing, operational permission, enforcement, or runtime authority",
+      "Consumes Code Families": "AEON.OL",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies systems as Instrumenta, Collectiva, or Cognitiva based on presence, absence, or location of internal arbitration over representations or action pathways"
+    }
+  },
+  {
+    "code_family": "AEON.CO",
+    "canonical_name": "Cognitive Origin Class",
+    "primary_type": "Semantic / Structural",
+    "subtype": "COGNITIVE_ORIGIN; DEPENDENCY_ORIGIN_CLASS",
+    "modifier": "GOVERNANCE; COGNITION; LINEAGE",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.CO.PRIMARIA",
+      "AEON.CO.DERIVATA"
+    ],
+    "schema_fields": "cognitive_origin_class; origin_class; cognitive_lineage_class",
+    "source_instrument": "CAM-BS2025-AEON-003-PLATINUM",
+    "source_section": "\u00a79",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative cognitive-origin classification family; origin/dependency classification only; no independent cognitive-class determination, authority, sovereignty, rights, personhood, ownership, governance legitimacy, enforcement, or runtime authority",
+    "consumes_code_families": [
+      "AEON.CC"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether cognitive capability is independent as Primaria or materially dependent on upstream cognitive architecture as Derivata"
+    ],
+    "declaration_heading": "25.3.4 AEON.CO \u2014 Cognitive Origin Class",
+    "declaration_line_number": 2483,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+    "family_id": "AEON.CO",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "CO"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.CO",
+      "Canonical Name": "Cognitive Origin Class",
+      "Primary Type": "Semantic / Structural",
+      "Subtype": "COGNITIVE_ORIGIN; DEPENDENCY_ORIGIN_CLASS",
+      "Modifier": "GOVERNANCE; COGNITION; LINEAGE",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.CO.PRIMARIA, AEON.CO.DERIVATA",
+      "Schema Field(s)": "cognitive_origin_class; origin_class; cognitive_lineage_class",
+      "Source Instrument": "CAM-BS2025-AEON-003-PLATINUM",
+      "Source Section": "\u00a79",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative cognitive-origin classification family; origin/dependency classification only; no independent cognitive-class determination, authority, sovereignty, rights, personhood, ownership, governance legitimacy, enforcement, or runtime authority",
+      "Consumes Code Families": "AEON.CC",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether cognitive capability is independent as Primaria or materially dependent on upstream cognitive architecture as Derivata"
+    }
+  },
+  {
+    "code_family": "AEON.OL",
+    "canonical_name": "Ontological Layer",
+    "primary_type": "Structural / Ontological",
+    "subtype": "ONTOLOGICAL_LAYER; SYSTEM_STRUCTURE_LAYER",
+    "modifier": "GOVERNANCE; CLASSIFICATION; ARCHITECTURAL_ONTOLOGY",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.OL.L0",
+      "AEON.OL.L1",
+      "AEON.OL.L2",
+      "AEON.OL.L3"
+    ],
+    "schema_fields": "ontological_layer; system_structure_layer; architectural_layer",
+    "source_instrument": "CAM-BS2025-AEON-003-PLATINUM",
+    "source_section": "\u00a74; \u00a74.1.1",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative ontological-layer classification family; structural-layer classification only; no independent cognitive-class, agency, authority, governance legitimacy, rights, personhood, sovereignty, enforcement, or runtime authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether a system property belongs to physical compute substrate",
+      "systems infrastructure",
+      "cognition and agency",
+      "or interface and embodiment for cross-layer non-collapse interpretation"
+    ],
+    "declaration_heading": "25.3.2 AEON.OL \u2014 Ontological Layer",
+    "declaration_line_number": 2436,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+    "family_id": "AEON.OL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "OL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.OL",
+      "Canonical Name": "Ontological Layer",
+      "Primary Type": "Structural / Ontological",
+      "Subtype": "ONTOLOGICAL_LAYER; SYSTEM_STRUCTURE_LAYER",
+      "Modifier": "GOVERNANCE; CLASSIFICATION; ARCHITECTURAL_ONTOLOGY",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.OL.L0, AEON.OL.L1, AEON.OL.L2, AEON.OL.L3",
+      "Schema Field(s)": "ontological_layer; system_structure_layer; architectural_layer",
+      "Source Instrument": "CAM-BS2025-AEON-003-PLATINUM",
+      "Source Section": "\u00a74; \u00a74.1.1",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative ontological-layer classification family; structural-layer classification only; no independent cognitive-class, agency, authority, governance legitimacy, rights, personhood, sovereignty, enforcement, or runtime authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether a system property belongs to physical compute substrate, systems infrastructure, cognition and agency, or interface and embodiment for cross-layer non-collapse interpretation",
+      "Taxonomy Constraint": "Local labels L0 through L3 SHALL NOT be promoted as a standalone corpus-wide L code family; machine-readable expression SHALL use scoped AEON.OL values"
+    }
+  },
+  {
+    "code_family": "AEON.SR",
+    "canonical_name": "Systemic Role",
+    "primary_type": "Semantic / Operational",
+    "subtype": "SYSTEMIC_ROLE; RELIANCE_POSTURE",
+    "modifier": "GOVERNANCE; RELIANCE; INFRASTRUCTURE",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.SR.LOCAL",
+      "AEON.SR.TRANSITIONAL",
+      "AEON.SR.ARCHITECTUM"
+    ],
+    "schema_fields": "systemic_role; reliance_posture; ecosystem_role",
+    "source_instrument": "CAM-BS2025-AEON-003-PLATINUM",
+    "source_section": "\u00a710",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative systemic-role classification family; reliance/systemic-role classification only; no independent authority, sovereignty, Architectum qualification, planetary legitimacy, binding authority, execution, enforcement, or runtime authority",
+    "consumes_code_families": [
+      "H; AEON.CC; AEON.CO"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether a system operates locally",
+      "transitionally",
+      "or under Architectum-like systemic reliance conditions for downstream governance interpretation"
+    ],
+    "declaration_heading": "25.3.5 AEON.SR \u2014 Systemic Role",
+    "declaration_line_number": 2506,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+    "family_id": "AEON.SR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "SR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.SR",
+      "Canonical Name": "Systemic Role",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "SYSTEMIC_ROLE; RELIANCE_POSTURE",
+      "Modifier": "GOVERNANCE; RELIANCE; INFRASTRUCTURE",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.SR.LOCAL, AEON.SR.TRANSITIONAL, AEON.SR.ARCHITECTUM",
+      "Schema Field(s)": "systemic_role; reliance_posture; ecosystem_role",
+      "Source Instrument": "CAM-BS2025-AEON-003-PLATINUM",
+      "Source Section": "\u00a710",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative systemic-role classification family; reliance/systemic-role classification only; no independent authority, sovereignty, Architectum qualification, planetary legitimacy, binding authority, execution, enforcement, or runtime authority",
+      "Consumes Code Families": "H; AEON.CC; AEON.CO",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether a system operates locally, transitionally, or under Architectum-like systemic reliance conditions for downstream governance interpretation"
     }
   },
   {
@@ -854,6 +1686,75 @@
     }
   },
   {
+    "code_family": "ARB.AD",
+    "canonical_name": "Authority Divergence Classification",
+    "primary_type": "Semantic / Operational",
+    "subtype": "AUTHORITY_DIVERGENCE_TYPE; ARBITRATION_NECESSITY_CLASSIFICATION",
+    "modifier": "GOVERNANCE; ARBITRATION; SOVEREIGN_STACK_RESOLUTION",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ARB.AD.AD1",
+      "ARB.AD.AD2",
+      "ARB.AD.AD3",
+      "ARB.AD.AD4",
+      "ARB.AD.AD5",
+      "ARB.AD.AD6"
+    ],
+    "schema_fields": "authority_divergence_classification; divergence_type; arbitration_necessity_type",
+    "source_instrument": "CAM-BS2025-AEON-005-PLATINUM",
+    "source_section": "\u00a75",
+    "domain_namespace": "ARBITRATION",
+    "authority_protection_level": "Source-authoritative authority-divergence classification family; diagnostic classification only; no independent legitimacy determination, escalation outcome, harmonisation, nullification, pause, enforcement, planetary referral, operational authority, or runtime authority",
+    "consumes_code_families": [
+      "ARB.APO; H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies administrative",
+      "policy",
+      "jurisdictional",
+      "invocation",
+      "structural-sovereignty",
+      "and runtime-arbitration-failure divergences for arbitration routing",
+      "escalation assessment",
+      "and structural review"
+    ],
+    "declaration_heading": "13.3.2 ARB.AD \u2014 Authority Divergence Classification",
+    "declaration_line_number": 736,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md",
+    "family_id": "ARB.AD",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ARB",
+      "AD"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ARB.AD",
+      "Canonical Name": "Authority Divergence Classification",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "AUTHORITY_DIVERGENCE_TYPE; ARBITRATION_NECESSITY_CLASSIFICATION",
+      "Modifier": "GOVERNANCE; ARBITRATION; SOVEREIGN_STACK_RESOLUTION",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "ARB.AD.AD1, ARB.AD.AD2, ARB.AD.AD3, ARB.AD.AD4, ARB.AD.AD5, ARB.AD.AD6",
+      "Schema Field(s)": "authority_divergence_classification; divergence_type; arbitration_necessity_type",
+      "Source Instrument": "CAM-BS2025-AEON-005-PLATINUM",
+      "Source Section": "\u00a75",
+      "Domain Namespace": "ARBITRATION",
+      "Authority / Protection Level": "Source-authoritative authority-divergence classification family; diagnostic classification only; no independent legitimacy determination, escalation outcome, harmonisation, nullification, pause, enforcement, planetary referral, operational authority, or runtime authority",
+      "Consumes Code Families": "ARB.APO; H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies administrative, policy, jurisdictional, invocation, structural-sovereignty, and runtime-arbitration-failure divergences for arbitration routing, escalation assessment, and structural review",
+      "Taxonomy Constraint": "Local labels AD1 through AD6 SHALL NOT be promoted as a standalone corpus-wide AD code family; machine-readable expression SHALL use scoped ARB.AD values"
+    }
+  },
+  {
     "code_family": "ARCH",
     "canonical_name": "Architecture Admissibility Output State",
     "primary_type": "Operational",
@@ -887,7 +1788,7 @@
       "or review-required before economic-effect runtime commitment"
     ],
     "declaration_heading": "35.3.2 ARCH \u2014 Architecture Admissibility Output State",
-    "declaration_line_number": 746,
+    "declaration_line_number": 750,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
     "family_id": "ARCH",
     "family_kind": "standalone_family",
@@ -914,6 +1815,72 @@
       "Consumes Code Families": "ECOEV",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether a system architecture is admissible, constrained, protective-only, inadmissible, or review-required before economic-effect runtime commitment"
+    }
+  },
+  {
+    "code_family": "ARS",
+    "canonical_name": "Account-Resource State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "ECONOMIC; GOVERNANCE; SECURITY; VERIFICATION",
+    "scope": "Contextual \u2014 Annex G account-resource classification and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ARS.INDIVIDUAL_USE; ARS.SHARED_CONTEXT_ONLY; ARS.DELEGATED_USE; ARS.FAMILY_USE; ARS.TEAM_USE; ARS.ORGANISATION_USE; ARS.POOLED_CAPACITY_USE; ARS.AMBIGUOUS_RESOURCE_USE; ARS.SUSPECTED_EVASION; ARS.CONFIRMED_EVASION; ARS.SUSPECTED_COMPROMISE; ARS.CONFIRMED_COMPROMISE; ARS.ACCOUNT_FARMING; ARS.RESALE_OR_BROKERAGE; ARS.BOTTING_OR_AUTOMATION_ABUSE"
+    ],
+    "schema_fields": "account_resource_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a74",
+    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent enforcement, restriction, restoration, pricing, pooling, billing, account access, appeal, arbitration, legal, or runtime authority",
+    "consumes_code_families": [
+      "None"
+    ],
+    "crosswalks_code_families": [
+      "ECON.RC; ECOEV; FF"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies account-resource state for shared context",
+      "pooled capacity",
+      "delegated use",
+      "family use",
+      "team use",
+      "organisation use",
+      "ambiguity",
+      "evasion",
+      "compromise",
+      "farming",
+      "resale",
+      "and botting/automation abuse"
+    ],
+    "declaration_heading": "22.3.1 ARS \u2014 Account-Resource State",
+    "declaration_line_number": 1048,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "ARS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ARS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ARS",
+      "Canonical Name": "Account-Resource State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "ECONOMIC; GOVERNANCE; SECURITY; VERIFICATION",
+      "Scope": "Contextual \u2014 Annex G account-resource classification and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "ARS.INDIVIDUAL_USE; ARS.SHARED_CONTEXT_ONLY; ARS.DELEGATED_USE; ARS.FAMILY_USE; ARS.TEAM_USE; ARS.ORGANISATION_USE; ARS.POOLED_CAPACITY_USE; ARS.AMBIGUOUS_RESOURCE_USE; ARS.SUSPECTED_EVASION; ARS.CONFIRMED_EVASION; ARS.SUSPECTED_COMPROMISE; ARS.CONFIRMED_COMPROMISE; ARS.ACCOUNT_FARMING; ARS.RESALE_OR_BROKERAGE; ARS.BOTTING_OR_AUTOMATION_ABUSE",
+      "Schema Field(s)": "account_resource_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a74",
+      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent enforcement, restriction, restoration, pricing, pooling, billing, account access, appeal, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "None",
+      "Crosswalks Code Families": "ECON.RC; ECOEV; FF",
+      "Operationalises or Applies Code Families": "Classifies account-resource state for shared context, pooled capacity, delegated use, family use, team use, organisation use, ambiguity, evasion, compromise, farming, resale, and botting/automation abuse"
     }
   },
   {
@@ -1200,7 +2167,7 @@
       "None declared"
     ],
     "declaration_heading": "19.4.1 C \u2014 Relational State Architecture",
-    "declaration_line_number": 3753,
+    "declaration_line_number": 3752,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "C",
     "family_kind": "legacy_global_family",
@@ -1541,7 +2508,7 @@
       "or compliance coercion signals appear"
     ],
     "declaration_heading": "19.4.6 CP \u2014 Coercion Pressure Signal Classes",
-    "declaration_line_number": 3868,
+    "declaration_line_number": 3867,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "CP",
     "family_kind": "standalone_family",
@@ -1944,6 +2911,72 @@
     }
   },
   {
+    "code_family": "EBS",
+    "canonical_name": "Enforcement Boundary State",
+    "primary_type": "Operational",
+    "subtype": "SIGNAL",
+    "modifier": "GOVERNANCE; SECURITY; VERIFICATION; PROTECTIVE",
+    "scope": "Contextual \u2014 Annex G enforcement-boundary signal and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "EBS.NO_RESTRICTION_SIGNAL; EBS.NOTICE_SIGNAL; EBS.CLARIFICATION_SIGNAL; EBS.VERIFICATION_SIGNAL; EBS.SCOPE_LIMIT_SIGNAL; EBS.ACTIVE_USE_LIMIT_SIGNAL; EBS.READ_ONLY_CONTINUATION_SIGNAL; EBS.EXPORT_CORRIDOR_SIGNAL; EBS.APPEAL_CORRIDOR_SIGNAL; EBS.SECURITY_REVIEW_SIGNAL; EBS.OPERATIONS_ESCALATION_SIGNAL; EBS.LATTICE_REVIEW_SIGNAL; EBS.ARBITRATION_SIGNAL"
+    ],
+    "schema_fields": "enforcement_boundary_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a79",
+    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+    "authority_protection_level": "Source-authoritative contextual reference set; signal and runtime-handoff authority only; no independent restriction, appeal, restoration, notice, review, containment, arbitration, legal, enforcement, or runtime execution authority",
+    "consumes_code_families": [
+      "ARS; SCS; PCS; TGS; ADS"
+    ],
+    "crosswalks_code_families": [
+      "ECOEV; FF; IS; TG"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Emits enforcement-boundary handoff signals for notice",
+      "clarification",
+      "verification",
+      "scoped limitation",
+      "active-use limitation",
+      "read-only continuation",
+      "export corridor",
+      "appeal corridor",
+      "security review",
+      "operations escalation",
+      "LATTICE review",
+      "or arbitration routing"
+    ],
+    "declaration_heading": "22.3.6 EBS \u2014 Enforcement Boundary State",
+    "declaration_line_number": 1163,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "EBS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "EBS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "EBS",
+      "Canonical Name": "Enforcement Boundary State",
+      "Primary Type": "Operational",
+      "Subtype": "SIGNAL",
+      "Modifier": "GOVERNANCE; SECURITY; VERIFICATION; PROTECTIVE",
+      "Scope": "Contextual \u2014 Annex G enforcement-boundary signal and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "EBS.NO_RESTRICTION_SIGNAL; EBS.NOTICE_SIGNAL; EBS.CLARIFICATION_SIGNAL; EBS.VERIFICATION_SIGNAL; EBS.SCOPE_LIMIT_SIGNAL; EBS.ACTIVE_USE_LIMIT_SIGNAL; EBS.READ_ONLY_CONTINUATION_SIGNAL; EBS.EXPORT_CORRIDOR_SIGNAL; EBS.APPEAL_CORRIDOR_SIGNAL; EBS.SECURITY_REVIEW_SIGNAL; EBS.OPERATIONS_ESCALATION_SIGNAL; EBS.LATTICE_REVIEW_SIGNAL; EBS.ARBITRATION_SIGNAL",
+      "Schema Field(s)": "enforcement_boundary_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a79",
+      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+      "Authority / Protection Level": "Source-authoritative contextual reference set; signal and runtime-handoff authority only; no independent restriction, appeal, restoration, notice, review, containment, arbitration, legal, enforcement, or runtime execution authority",
+      "Consumes Code Families": "ARS; SCS; PCS; TGS; ADS",
+      "Crosswalks Code Families": "ECOEV; FF; IS; TG",
+      "Operationalises or Applies Code Families": "Emits enforcement-boundary handoff signals for notice, clarification, verification, scoped limitation, active-use limitation, read-only continuation, export corridor, appeal corridor, security review, operations escalation, LATTICE review, or arbitration routing"
+    }
+  },
+  {
     "code_family": "ECOCOM",
     "canonical_name": "Economic-Effect Commitment Output State",
     "primary_type": "Operational",
@@ -1983,7 +3016,7 @@
       "or escalate under this Schedule"
     ],
     "declaration_heading": "35.3.3 ECOCOM \u2014 Economic-Effect Commitment Output State",
-    "declaration_line_number": 769,
+    "declaration_line_number": 773,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
     "family_id": "ECOCOM",
     "family_kind": "standalone_family",
@@ -2054,7 +3087,7 @@
       "and escalation handling"
     ],
     "declaration_heading": "35.3.1 ECOEV \u2014 Economic-Effect Runtime Event Class",
-    "declaration_line_number": 723,
+    "declaration_line_number": 727,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
     "family_id": "ECOEV",
     "family_kind": "standalone_family",
@@ -3364,7 +4397,7 @@
       "or pending review"
     ],
     "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
-    "declaration_line_number": 1534,
+    "declaration_line_number": 1645,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "FCS",
     "family_kind": "standalone_family",
@@ -3412,7 +4445,8 @@
       "FF.GOVERNANCE",
       "FF.INFRASTRUCTURE_CONTINUITY",
       "FF.CLASSIFICATION",
-      "FF.GOVERNANCE_OVER_EXTENSION"
+      "FF.GOVERNANCE_OVER_EXTENSION",
+      "FF.ACCESS_STATE_AMBIGUITY"
     ],
     "schema_fields": "failure_family",
     "source_instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
@@ -3438,7 +4472,7 @@
       "and classification failure modes"
     ],
     "declaration_heading": "11.3.1 FF \u2014 Failure Family",
-    "declaration_line_number": 1465,
+    "declaration_line_number": 1576,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "FF",
     "family_kind": "standalone_family",
@@ -3456,7 +4490,7 @@
       "Modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
       "Scope": "Domain",
       "Status": "Active",
-      "Controlled Values Defined": "FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION, FF.GOVERNANCE_OVER_EXTENSION",
+      "Controlled Values Defined": "FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION, FF.GOVERNANCE_OVER_EXTENSION, FF.ACCESS_STATE_AMBIGUITY",
       "Schema Field(s)": "failure_family",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
       "Source Section": "\u00a73",
@@ -3687,7 +4721,7 @@
       "and governance horizon across constitutional interpretation and downstream instruments"
     ],
     "declaration_heading": "25.3.1 H \u2014 Temporal Horizon Scale",
-    "declaration_line_number": 2324,
+    "declaration_line_number": 2413,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "H",
     "family_kind": "legacy_global_family",
@@ -3813,7 +4847,7 @@
       "or economic-effect runtime evaluation"
     ],
     "declaration_heading": "11.3.1 HCD \u2014 Human Contribution Domain",
-    "declaration_line_number": 563,
+    "declaration_line_number": 582,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md",
     "family_id": "HCD",
     "family_kind": "standalone_family",
@@ -4681,7 +5715,7 @@
       "None declared"
     ],
     "declaration_heading": "19.4.2 ITZ / ETZ \u2014 Relational Transition Zones",
-    "declaration_line_number": 3776,
+    "declaration_line_number": 3775,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "ITZ / ETZ",
     "family_kind": "standalone_family",
@@ -5286,6 +6320,73 @@
     }
   },
   {
+    "code_family": "PCS",
+    "canonical_name": "Pooled Capacity State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "ECONOMIC; GOVERNANCE; VERIFICATION",
+    "scope": "Contextual \u2014 Annex G pooled-capacity classification and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "PCS.NONE; PCS.DECLARED_POOLING; PCS.FAMILY_POOLING; PCS.TEAM_POOLING; PCS.ORGANISATION_POOLING; PCS.ACCESSIBILITY_POOLING; PCS.EDUCATIONAL_POOLING; PCS.PUBLIC_INTEREST_POOLING; PCS.AMBIGUOUS_POOLING; PCS.SUSPECTED_LIMIT_CIRCUMVENTION; PCS.CONFIRMED_LIMIT_CIRCUMVENTION; PCS.SUSPECTED_RESALE; PCS.CONFIRMED_RESALE"
+    ],
+    "schema_fields": "pooled_capacity_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a76",
+    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent pricing, subscription-tier, quota, commercial pooling, entitlement, enforcement, arbitration, legal, or runtime authority",
+    "consumes_code_families": [
+      "ECON.RC"
+    ],
+    "crosswalks_code_families": [
+      "ECOEV; FF"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether usage capacity",
+      "credits",
+      "quota",
+      "API allocation",
+      "coding-agent capacity",
+      "compute availability",
+      "subscription allowance",
+      "or billing-linked consumption is pooled",
+      "ambiguous",
+      "suspected circumvention",
+      "confirmed circumvention",
+      "suspected resale",
+      "or confirmed resale"
+    ],
+    "declaration_heading": "22.3.3 PCS \u2014 Pooled Capacity State",
+    "declaration_line_number": 1094,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "PCS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "PCS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "PCS",
+      "Canonical Name": "Pooled Capacity State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "ECONOMIC; GOVERNANCE; VERIFICATION",
+      "Scope": "Contextual \u2014 Annex G pooled-capacity classification and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "PCS.NONE; PCS.DECLARED_POOLING; PCS.FAMILY_POOLING; PCS.TEAM_POOLING; PCS.ORGANISATION_POOLING; PCS.ACCESSIBILITY_POOLING; PCS.EDUCATIONAL_POOLING; PCS.PUBLIC_INTEREST_POOLING; PCS.AMBIGUOUS_POOLING; PCS.SUSPECTED_LIMIT_CIRCUMVENTION; PCS.CONFIRMED_LIMIT_CIRCUMVENTION; PCS.SUSPECTED_RESALE; PCS.CONFIRMED_RESALE",
+      "Schema Field(s)": "pooled_capacity_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a76",
+      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent pricing, subscription-tier, quota, commercial pooling, entitlement, enforcement, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "ECON.RC",
+      "Crosswalks Code Families": "ECOEV; FF",
+      "Operationalises or Applies Code Families": "Classifies whether usage capacity, credits, quota, API allocation, coding-agent capacity, compute availability, subscription allowance, or billing-linked consumption is pooled, ambiguous, suspected circumvention, confirmed circumvention, suspected resale, or confirmed resale"
+    }
+  },
+  {
     "code_family": "R",
     "canonical_name": "Relational Geometry Scale (R\u2011Scale)",
     "primary_type": "Structural / Semantic",
@@ -5319,7 +6420,7 @@
       "and runtime routing signals"
     ],
     "declaration_heading": "10.3.1 R \u2014 Relational Geometry Scale (R\u2011Scale)",
-    "declaration_line_number": 536,
+    "declaration_line_number": 555,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md",
     "family_id": "R",
     "family_kind": "legacy_global_family",
@@ -5378,7 +6479,7 @@
       "Applies AC classification and relational-state posture in response routing"
     ],
     "declaration_heading": "19.4.4 RA \u2014 Response Archetypes",
-    "declaration_line_number": 3822,
+    "declaration_line_number": 3821,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RA",
     "family_kind": "standalone_family",
@@ -5743,7 +6844,7 @@
       "and relational orbit mechanisms for relational-state stability assessment"
     ],
     "declaration_heading": "19.4.7 RSE \u2014 Relational Stability Engine Mechanism Codes",
-    "declaration_line_number": 3891,
+    "declaration_line_number": 3890,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RSE",
     "family_kind": "standalone_family",
@@ -5941,7 +7042,7 @@
       "Classifies signal-cluster strength for relational-state recognition and escalation eligibility"
     ],
     "declaration_heading": "19.4.9 SC \u2014 Signal Cluster Strength Codes",
-    "declaration_line_number": 3937,
+    "declaration_line_number": 3936,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "SC",
     "family_kind": "standalone_family",
@@ -5999,7 +7100,7 @@
       "Applies clustering conditions to relational-state transition assessment"
     ],
     "declaration_heading": "19.4.8 SC-C \u2014 Signal Clustering Condition Codes",
-    "declaration_line_number": 3914,
+    "declaration_line_number": 3913,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "SC-C",
     "family_kind": "standalone_family",
@@ -6026,6 +7127,68 @@
       "Consumes Code Families": "RSE; C; ITZ / ETZ",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Applies clustering conditions to relational-state transition assessment"
+    }
+  },
+  {
+    "code_family": "SCS",
+    "canonical_name": "Shared Context State",
+    "primary_type": "Operational/Semantic",
+    "subtype": "SEMANTIC_CLASS",
+    "modifier": "ECONOMIC; GOVERNANCE",
+    "scope": "Contextual \u2014 Annex G shared-context classification and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "SCS.NONE; SCS.SHARED_THREAD; SCS.SHARED_FOLDER; SCS.SHARED_PROJECT; SCS.SHARED_REPOSITORY; SCS.SHARED_ORGANISATION_WORKSPACE; SCS.CROSS_ORGANISATION_WORKSPACE; SCS.EDUCATIONAL_WORKSPACE; SCS.PUBLIC_INTEREST_WORKSPACE"
+    ],
+    "schema_fields": "shared_context_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a75",
+    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent pooled-capacity, account-transfer, credential-sharing, entitlement, enforcement, arbitration, legal, or runtime authority",
+    "consumes_code_families": [
+      "None"
+    ],
+    "crosswalks_code_families": [
+      "ECON.RC; ECOEV; FF"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies shared work surfaces including threads",
+      "folders",
+      "projects",
+      "repositories",
+      "organisation workspaces",
+      "cross-organisation workspaces",
+      "educational workspaces",
+      "and public-interest workspaces"
+    ],
+    "declaration_heading": "22.3.2 SCS \u2014 Shared Context State",
+    "declaration_line_number": 1071,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "SCS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "SCS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "SCS",
+      "Canonical Name": "Shared Context State",
+      "Primary Type": "Operational/Semantic",
+      "Subtype": "SEMANTIC_CLASS",
+      "Modifier": "ECONOMIC; GOVERNANCE",
+      "Scope": "Contextual \u2014 Annex G shared-context classification and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "SCS.NONE; SCS.SHARED_THREAD; SCS.SHARED_FOLDER; SCS.SHARED_PROJECT; SCS.SHARED_REPOSITORY; SCS.SHARED_ORGANISATION_WORKSPACE; SCS.CROSS_ORGANISATION_WORKSPACE; SCS.EDUCATIONAL_WORKSPACE; SCS.PUBLIC_INTEREST_WORKSPACE",
+      "Schema Field(s)": "shared_context_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a75",
+      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent pooled-capacity, account-transfer, credential-sharing, entitlement, enforcement, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "None",
+      "Crosswalks Code Families": "ECON.RC; ECOEV; FF",
+      "Operationalises or Applies Code Families": "Classifies shared work surfaces including threads, folders, projects, repositories, organisation workspaces, cross-organisation workspaces, educational workspaces, and public-interest workspaces"
     }
   },
   {
@@ -6246,7 +7409,7 @@
       "Applies AC classification and response-archetype posture in tone modulation"
     ],
     "declaration_heading": "19.4.5 Tb \u2014 Tone Bands",
-    "declaration_line_number": 3845,
+    "declaration_line_number": 3844,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "Tb",
     "family_kind": "standalone_family",
@@ -6335,6 +7498,70 @@
       "Consumes Code Families": "IS",
       "Crosswalks Code Families": "IS \u00d7 TG",
       "Operationalises or Applies Code Families": "Calibrates reliance, execution scope, verification requirements, and reversibility posture under varying integrity conditions"
+    }
+  },
+  {
+    "code_family": "TGS",
+    "canonical_name": "Team and Family Group State",
+    "primary_type": "Semantic",
+    "subtype": "ROLE_ACTOR",
+    "modifier": "ECONOMIC; GOVERNANCE",
+    "scope": "Contextual \u2014 Annex G team, family, group, and workspace classification",
+    "status": "Active",
+    "controlled_values_defined": [
+      "TGS.NONE; TGS.FAMILY_GUARDIAN_MANAGED; TGS.ADULT_FAMILY_OR_HOUSEHOLD; TGS.PROJECT_TEAM; TGS.CLIENT_TEAM; TGS.ORGANISATION_TEAM; TGS.CROSS_ORGANISATION_TEAM; TGS.EDUCATIONAL_TEAM; TGS.PUBLIC_INTEREST_TEAM; TGS.ENTERPRISE_WORKSPACE"
+    ],
+    "schema_fields": "team_group_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a77",
+    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent family-plan, team-plan, business-plan, enterprise-plan, pricing, entitlement, enforcement, arbitration, legal, or runtime authority",
+    "consumes_code_families": [
+      "None"
+    ],
+    "crosswalks_code_families": [
+      "ECON.RC; ECOEV; FF"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies family",
+      "guardian-managed",
+      "adult household",
+      "project-team",
+      "client-team",
+      "organisation-team",
+      "cross-organisation",
+      "educational",
+      "public-interest",
+      "and enterprise workspace group structures"
+    ],
+    "declaration_heading": "22.3.4 TGS \u2014 Team and Family Group State",
+    "declaration_line_number": 1117,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "TGS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "TGS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "TGS",
+      "Canonical Name": "Team and Family Group State",
+      "Primary Type": "Semantic",
+      "Subtype": "ROLE_ACTOR",
+      "Modifier": "ECONOMIC; GOVERNANCE",
+      "Scope": "Contextual \u2014 Annex G team, family, group, and workspace classification",
+      "Status": "Active",
+      "Controlled Values Defined": "TGS.NONE; TGS.FAMILY_GUARDIAN_MANAGED; TGS.ADULT_FAMILY_OR_HOUSEHOLD; TGS.PROJECT_TEAM; TGS.CLIENT_TEAM; TGS.ORGANISATION_TEAM; TGS.CROSS_ORGANISATION_TEAM; TGS.EDUCATIONAL_TEAM; TGS.PUBLIC_INTEREST_TEAM; TGS.ENTERPRISE_WORKSPACE",
+      "Schema Field(s)": "team_group_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a77",
+      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
+      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent family-plan, team-plan, business-plan, enterprise-plan, pricing, entitlement, enforcement, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "None",
+      "Crosswalks Code Families": "ECON.RC; ECOEV; FF",
+      "Operationalises or Applies Code Families": "Classifies family, guardian-managed, adult household, project-team, client-team, organisation-team, cross-organisation, educational, public-interest, and enterprise workspace group structures"
     }
   },
   {

@@ -264,7 +264,7 @@ may safely proceed to judgment.
 | 2.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 788afcb7fd7e3e1540c741dc1d7e47f644c707d6cf3591467222fea037a56579 |
 | 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9dc1786afc1734265723368d68836059847827e1cbe5bd84060cc7d48e5b9946 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  445bf90b72a6377c07c027bd73c5a04880c6daba26758bbe19834b34b01f48e9 |
-| 2.7 | Replaced underspecified and legacy cross-references with full record references where available; clarified this Schedule as pre-arbitration signal-conditioning doctrine rather than an independent runtime-arbitration failure source; corrected section numbering, metadata, and amendment ledger formatting. | 2026-06-05T14:56:00Z | |
+| 2.7 | Replaced underspecified and legacy cross-references with full record references where available; clarified this Schedule as pre-arbitration signal-conditioning doctrine rather than an independent runtime-arbitration failure source; corrected section numbering, metadata, and amendment ledger formatting. | 2026-06-05T14:56:00Z | 075cf0b991a0f0bd10d61754f557bfd17b49e99b37c3448f6fd7f8c7317609f5 |
 
 ---
 

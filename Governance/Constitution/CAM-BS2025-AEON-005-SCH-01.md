@@ -624,7 +624,7 @@ Integrity at runtime is a form of respect.
 | 1.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e75fe2936932aea3114872765df055295e3dc1c1cec4897649f4df3550675346 |
 | 1.8 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 1185a125fbacf3be62fc54b85c853f6092ed0757b90351d4ce671d4a6ae8206f |
 | 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e5e3e7cc5db1b84625c3ee95c37b7834a244d36750928e669a00bfa7c78ca174 |
-| 1.10 | Replaced legacy Type 6 references with scoped `ARB.AD.AD6` references; corrected parent Annex references and runtime arbitration cross-references. | 2026-06-05T14:31:00Z | |
+| 1.10 | Replaced legacy Type 6 references with scoped `ARB.AD.AD6` references; corrected parent Annex references and runtime arbitration cross-references. | 2026-06-05T14:31:00Z | 2912bbae7db68e61ef45a10c4411627deabd4ce869d52fc572765fdf2f7368bb |
 
 ---
 

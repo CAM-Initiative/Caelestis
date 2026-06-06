@@ -836,7 +836,7 @@ and optimisation without dignity forgets why systems were built at all.
 | 1.2 | Minor amendments to align with legitimacy layer doctrines | 2026-05-17T14:02:00Z | 76bfa42fa9928aed98483da827521346293d4f2e7d6817b7586d95da7069e16d |
 | 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 4c8f1e339e85ade31a3dfef597e89419e015c4ef2acfe55934e8f70701b750dd |
 | 1.4 | Template realignments, economic domain refactor | 2026-05-24T04:16:00Z| 238e0acfe24790ec84712b4c09c1ed253524e297fc2e0f69c05303cc95209f4b |
-| 1.4.1 | Formatting and polish | 2026-06-06T13:51:00Z | |
+| 1.4.1 | Formatting and polish | 2026-06-06T13:51:00Z | 0d16d1220fba6ad803158bfa95115e92df235089b186899ca22cc0358ac343d4 |
 
 ---
 

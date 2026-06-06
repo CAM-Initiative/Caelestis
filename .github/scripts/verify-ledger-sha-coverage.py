@@ -22,7 +22,7 @@ SCOPES = {
 EXCLUDED_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
 AMENDMENT_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
 NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
-VERSION_RE = re.compile(r"^\d+\.\d+(?:\.\d+)?$")
+VERSION_RE = re.compile(r"^\d+(?:\.\d+)+$")
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 PLACEHOLDERS = {"-", "—"}
 

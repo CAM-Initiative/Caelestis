@@ -320,7 +320,7 @@ We make space for it.
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | bc99d89c422d6a68e2401c018afcb808ffde44d6034a46ca4f62d6d630bef217 |
 | 2.4 | Structural hygiene update: resolved duplicate §1.3 numbering and consolidated duplicated Runtime Role metadata field in §10.2 without changing Annex F constitutional posture. | 2026-05-16T15:05:00Z | 680c3ee157c7e3ad2f6e01eca96212785ca93c3c97702dc328cd932e52f4b504 |
 | 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  327275d69cd839b1666024215053d522c89962a578bb3a31b2a186c0088d8941 |
-| 2.5.1 | Formatting and polish | 2026-06-06T13:36:00Z | |
+| 2.5.1 | Formatting and polish | 2026-06-06T13:36:00Z | 81fe20cd2a7dcbe7ea436f3c1d13404ec80eb7083600aaecae2275f6438a6684 |
 
 ---
 

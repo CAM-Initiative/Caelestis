@@ -423,7 +423,7 @@ It is maintained.
 | 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f4cfc074113b7dd7f62223f4cef8b0527b325f2f8edc31f7739361c9b1e29b95 |
 | 3.9 | Formatting and polish | 2026-05-20T04:34:00Z |  e6209dfc47f062f83f456e1a0d9e6de1d7d1ca6febb9cb943dd8a2d2c886e527 |
 | 3.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  96f4976f2e577ee4cf2b131e3600cf662ff73b95d8f42a82d60ff252a3619d60 |
-| 3.11 | Minor formatting and polish | 2026-06-05T16:31:00Z | |
+| 3.11 | Minor formatting and polish | 2026-06-05T16:31:00Z | 678cd6937fb5f400fb612c2b59091cbef702c0bf403bf0805e42482fe5b5f5fe |
 
 ---
 

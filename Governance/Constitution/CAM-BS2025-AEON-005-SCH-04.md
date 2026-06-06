@@ -962,7 +962,7 @@ It is the place where governance proves itself.
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
-|1.0|Initial draft created from VIGIL-2026-PROP-0009 following cleanup of CAM-BS2025-AEON-005-PLATINUM — Annex D and its Schedules 1–3; defines `ARB.AMB` and `ARB.AMP` reference sets for ambiguity-state classification and ambiguity-pathway selection. VIGIL-2026-OBS-0005; VIGIL-2026-PATCH-0002; VIGIL-2026-FM-0007; VIGIL-2026-PATCH-0003 |2026-06-05T15:27:00Z||
+|1.0|Initial draft created from VIGIL-2026-PROP-0009 following cleanup of CAM-BS2025-AEON-005-PLATINUM — Annex D and its Schedules 1–3; defines `ARB.AMB` and `ARB.AMP` reference sets for ambiguity-state classification and ambiguity-pathway selection. VIGIL-2026-OBS-0005; VIGIL-2026-PATCH-0002; VIGIL-2026-FM-0007; VIGIL-2026-PATCH-0003 |2026-06-05T15:27:00Z|  6078e55770ddd8a188e881708d2967a7c3823e4c946f715c76fa20a224d126a1  |
 
 ---
 
