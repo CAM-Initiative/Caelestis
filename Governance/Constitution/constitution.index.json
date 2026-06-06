@@ -883,8 +883,8 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.14",
-      "HASH": "678a4a580e16a460cb0441562602f92610e135a8111eb877ad76b9f7b7839fc0",
+      "version": "1.4",
+      "HASH": "4df6c00740bbb9b3d7da1e9a8b2821c9d740232b13fd488ab6d584117a0f6940",
       "pinned_sha": "bc9c60b9c57952cc91065149bc60d72b0beb5052",
       "updated_at": "2026-06-06T16:02:02Z",
       "last_updated_utc": "2026-06-06T16:02:02Z"

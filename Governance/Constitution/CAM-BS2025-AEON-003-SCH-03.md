@@ -62,7 +62,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2026-AEON-008-SCH-03](../Constitution/CAM-BS2026-AEON-008-SCH-03.md) | Annex G: Account-Resource Sharing & Pooled Capacity Governance Model | Schedule | 1.0 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | Metadata Review Required | Metadata Review Required |
 | [CAM-BS2026-AEON-010-SCH-01](../Constitution/CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | Schedule | 1.16 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-BS2026-AEON-013-SCH-01](../Constitution/CAM-BS2026-AEON-013-SCH-01.md) | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | Schedule | 1.16.1 | Active | Immediate Effect | Active on Commit | None | None |
-| [CAM-BS2026-AEON-013-SCH-02](../Constitution/CAM-BS2026-AEON-013-SCH-02.md) | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | Schedule | 1.14 | Active | Immediate Effect | Active on Commit | None | None |
+| [CAM-BS2026-AEON-013-SCH-02](../Constitution/CAM-BS2026-AEON-013-SCH-02.md) | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | Schedule | 1.4 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2026-AEON-014-SCH-01](../Constitution/CAM-BS2026-AEON-014-SCH-01.md) | Schedule 1: Governance Observability Lifecycle & Advisory States (Schedule 1) | Schedule | 1.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Governance Observability Lifecycle & Advisory Coordination |
 
 ## ARBITRATION
