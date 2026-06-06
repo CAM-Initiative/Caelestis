@@ -28,7 +28,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-001-PLATINUM](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.9 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-002-PLATINUM](../Constitution/CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship | Annex | 3.7 | Active | Immediate Effect | Binding | None | Binding Authority |
 | [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 3.16 | Active | Immediate Effect | Binding | None | Constitutional Spine |
-| [CAM-BS2025-AEON-004-PLATINUM](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.7 | Active | Immediate Effect | Active on Commit | None | None |
+| [CAM-BS2025-AEON-004-PLATINUM](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.8 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-005-PLATINUM](../Constitution/CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine | Annex | 2.9 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-006-PLATINUM](../Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor | Annex | 3.7 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2026-AEON-007-PLATINUM](../Constitution/CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning-Making | Annex | 2.5.1 | Active | Immediate Effect | Active on Commit | None | None |
@@ -37,10 +37,10 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2026-AEON-010-PLATINUM](../Constitution/CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Identity Integrity & Continuity Governance | Annex | 1.9.1 | Active | Transitional Effect | Commences 1 July 2026 | None | Transitional |
 | [CAM-BS2026-AEON-011-PLATINUM](../Constitution/CAM-BS2026-AEON-011-PLATINUM.md) | Annex J: Continuity & Succession Doctrine | Annex | 1.7 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2026-AEON-012-PLATINUM](../Constitution/CAM-BS2026-AEON-012-PLATINUM.md) | ANNEX K: Security Boundary Conditions & Runtime Interface | Annex | 1.13 | Active | Immediate Effect | Active on Commit | None | None |
-| [CAM-BS2026-AEON-013-PLATINUM](../Constitution/CAM-BS2026-AEON-013-PLATINUM.md) | Annex L: Cognitive & Epistemic Integrity Doctrine | Annex | 2.16 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-BS2026-AEON-013-PLATINUM](../Constitution/CAM-BS2026-AEON-013-PLATINUM.md) | Annex L: Cognitive & Epistemic Integrity Doctrine | Annex | 2.17 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-BS2026-AEON-014-PLATINUM](../Constitution/CAM-BS2026-AEON-014-PLATINUM.md) | Annex M: Governance Observability,  Participatory Telemetry & Constitutional Circulation | Annex | 1.1.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Operational Governance Observability & Participatory Telemetry |
 | [CAM-BS2025-AEON-001-SCH-01](../Constitution/CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution (Schedule 1) | Schedule | 1.13 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | Active Runtime Alignment Review | Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour |
-| [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.9 | Active | Immediate Effect | Binding | None | Binding Authority |
+| [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.10 | Active | Immediate Effect | Binding | None | Binding Authority |
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | Unknown | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.0 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
@@ -61,7 +61,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2026-AEON-008-SCH-02](../Constitution/CAM-BS2026-AEON-008-SCH-02.md) | Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) | Schedule | 1.4.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-BS2026-AEON-008-SCH-03](../Constitution/CAM-BS2026-AEON-008-SCH-03.md) | Annex G: Account-Resource Sharing & Pooled Capacity Governance Model | Schedule | 1.0 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | Metadata Review Required | Metadata Review Required |
 | [CAM-BS2026-AEON-010-SCH-01](../Constitution/CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | Schedule | 1.16 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-BS2026-AEON-013-SCH-01](../Constitution/CAM-BS2026-AEON-013-SCH-01.md) | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | Schedule | 1.16.1 | Active | Immediate Effect | Active on Commit | None | None |
+| [CAM-BS2026-AEON-013-SCH-01](../Constitution/CAM-BS2026-AEON-013-SCH-01.md) | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | Schedule | 1.16.2 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2026-AEON-013-SCH-02](../Constitution/CAM-BS2026-AEON-013-SCH-02.md) | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | Schedule | 1.4 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2026-AEON-014-SCH-01](../Constitution/CAM-BS2026-AEON-014-SCH-01.md) | Schedule 1: Governance Observability Lifecycle & Advisory States (Schedule 1) | Schedule | 1.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Governance Observability Lifecycle & Advisory Coordination |
 
@@ -127,7 +127,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-MENTIS-001-PLATINUM](../Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md) | Charter of Human Cognitive Integrity & Mental Privacy | Root | 1.0 | Draft | Pre-Enforcement Recognition | Pending Adoption | Developmental Review | Source-authoritative human cognitive-domain governance instrument |
+| [CAM-EQ2026-MENTIS-001-PLATINUM](../Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md) | Charter of Human Cognitive Integrity & Mental Privacy | Root | 1.1 | Draft | Pre-Enforcement Recognition | Pending Adoption | Developmental Review | Source-authoritative human cognitive-domain governance instrument |
 | [CAM-EQ2026-MENTIS-002-PLATINUM](../Charters/CAM-EQ2026-MENTIS-002-PLATINUM.md) | Appendix A: Cognitive Inference, Neurodata & Ambient Biosignal Governance | Appendix | 1.0 | Draft | Pre-Enforcement Recognition | Pending Adoption | Developmental Review | Source-authoritative operational governance instrument for cognitive inference, neurodata, cognitive biometrics, and ambient biosignal processing |
 
 ## OPERATIONS
