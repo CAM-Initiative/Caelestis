@@ -691,8 +691,8 @@
       "enforcement": "** Pending Adoption",
       "review_state": "** Developmental Review",
       "authority_role": "** Source-authoritative human cognitive-domain governance instrument",
-      "version": "1.0",
-      "HASH": "f8f3c9ce7210b0e22bc7c1533d95aa1a5d08d66b3ade58f2c7d9ca0badb163c4",
+      "version": "1.1",
+      "HASH": "038f853397780e6984a36d6ba5d55dc9283de0ff316127516877857a82e26a0f",
       "pinned_sha": "bc9c60b9c57952cc91065149bc60d72b0beb5052",
       "updated_at": "2026-06-06T16:02:02Z",
       "last_updated_utc": "2026-06-06T16:02:02Z"

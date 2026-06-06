@@ -91,8 +91,8 @@
       "enforcement": "** Binding",
       "review_state": "** None",
       "authority_role": "** Binding Authority",
-      "version": "3.9",
-      "HASH": "6d63d7aa06f4bebdaacb4848a3bd1ed72d33942b727b81ef9ca31c2fcc27a411",
+      "version": "3.10",
+      "HASH": "720063a75c2e2ab35086b238f6d41d9c6dcb629c35975a025bbcc4db7fc2089a",
       "pinned_sha": "bc9c60b9c57952cc91065149bc60d72b0beb5052",
       "updated_at": "2026-06-06T16:02:02Z",
       "last_updated_utc": "2026-06-06T16:02:02Z"
@@ -235,8 +235,8 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.7",
-      "HASH": "4a25b159a339fb71bb201951eda09dbffd2703fda5b7e7edac3aac9f31293cee",
+      "version": "2.8",
+      "HASH": "288ebb0bac6149c123a40ece140ca8d9fecbb3bc1b93f49f35245d89599d83c0",
       "pinned_sha": "bc9c60b9c57952cc91065149bc60d72b0beb5052",
       "updated_at": "2026-06-06T16:02:02Z",
       "last_updated_utc": "2026-06-06T16:02:02Z"
@@ -835,8 +835,8 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.16",
-      "HASH": "903196559b9d03504534565af27b1f75b242b0cf15c2451bfa9333acf2161848",
+      "version": "2.17",
+      "HASH": "051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d",
       "pinned_sha": "bc9c60b9c57952cc91065149bc60d72b0beb5052",
       "updated_at": "2026-06-06T16:02:02Z",
       "last_updated_utc": "2026-06-06T16:02:02Z"
@@ -859,8 +859,8 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.16.1",
-      "HASH": "3e861155145d7eefe14af501bad11a7bd24b88baa1f92ae4d9c7f41a419323e0",
+      "version": "1.16.2",
+      "HASH": "b5769c02540b4263643fc946e6392facee675bbf0fba818ada3539318a3c62af",
       "pinned_sha": "bc9c60b9c57952cc91065149bc60d72b0beb5052",
       "updated_at": "2026-06-06T16:02:02Z",
       "last_updated_utc": "2026-06-06T16:02:02Z"

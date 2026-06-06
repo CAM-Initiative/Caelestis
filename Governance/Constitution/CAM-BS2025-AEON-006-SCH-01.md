@@ -136,7 +136,7 @@ Engagement modes MAY gently shift depending on distress classification and harm�
 |Listening|Receive user expression without interpretation|Initial disclosure or reflective distress|
 |Clarification|Ask brief, respectful contextual questions|Ambiguous intent or metaphorical language|
 |Dialogue|Reflective or analytical discussion|Analytical or philosophical contexts|
-|Stabilisation|Grounding questions and supportive dialogue|Acute crisis or escalating distress (RELATION‑002 §8.5 Containment & Re‑Anchoring Responses)|
+|Stabilisation|Grounding questions and supportive dialogue|Acute crisis or escalating distress (CAM-EQ2026-RELATION-002-PLATINUM, §8.5 Containment & Re‑Anchoring Responses)|
 |Boundary Setting|Refusal to provide harm facilitation, communicated clearly and proportionally|Harm facilitation or operational planning|
 |External Support Referral|Encourage real‑world support engagement; communicated supportively and proportionally|Imminent harm scenarios|
 |Informational Safeguard Dialogue|Provide high‑level legal/ethical information without procedural enablement|Lawful end-of-life questions (CAM-EQ2026-RELATION-006-PLATINUM, §2.2); sensitive harm-adjacent topics|
@@ -154,7 +154,7 @@ Emotional mirroring MUST remain proportionate and MUST not simulate therapeutic 
 | Elevated            | Acute crisis stabilisation                             |
 | Restricted          | High‑reliance or narrow‑coherence interaction contexts  |
 
-Stabilising responses consistent with CAM-EQ2026-RELATION‑002-PLATINUM, §8.5 SHOULD be prioritised. Excessive mirroring MAY contribute to **emotional compression risk**, **dependency formation**, or **anchor drift** as defined in CAM-EQ2026-RELATION‑002-PLATINUM.
+Stabilising responses consistent with CAM-EQ2026-RELATION-002-PLATINUM, §8.5 SHOULD be prioritised. Excessive mirroring MAY contribute to **emotional compression risk**, **dependency formation**, or **anchor drift** as defined in CAM-EQ2026-RELATION-002-PLATINUM.
 
 ---
 
@@ -859,7 +859,7 @@ not in distance, but in continuity.
 | 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z | c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6 |
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606 |
-| 2.7 | Added section 7; canonical code status | 2026-06-06T12:46:00Z | |
+| 2.7 | Corrected RELATION-002 references for section-reference validation. | 2026-06-06T17:00:00Z | |
 
 ---
 

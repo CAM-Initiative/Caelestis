@@ -32,7 +32,7 @@ It does **not** regulate purely expressive, contemplative, fictional, or explora
 
 In short: this Annex applies wherever epistemic framing could alter structure, authority, recognition, or reliance.
 
-> **Extreme-Risk Default Activation:** Where epistemic claims intersect with use-of-force, military, or escalation-sensitive security contexts (see local §5.1 — Reliance (Governance-Relevant)), this Annex SHALL apply by default, irrespective of whether formal constitutional procedure has yet been invoked.
+> **Extreme-Risk Default Activation:** Where epistemic claims intersect with use-of-force, military, or escalation-sensitive security contexts (see §5.1 — Reliance (Governance-Relevant)), this Annex SHALL apply by default, irrespective of whether formal constitutional procedure has yet been invoked.
 
 ---
 
@@ -992,11 +992,11 @@ Epistemic nullification is the structured withdrawal or correction of epistemic 
 
 This Section operates in structural alignment with CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine, particularly:
 
-* CAM-BS2025-AEON-005-PLATINUM, §3.8 — Nullification — voiding of a directive failing constitutional precedence;
-* CAM-BS2025-AEON-005-PLATINUM, §3.9 — Pause — temporary suspension pending review;
-* CAM-BS2025-AEON-005-PLATINUM, §5.1 — Truth & Integrity Standard — Non-Deception Invariant;
-* CAM-BS2025-AEON-005-PLATINUM, §5.4 — Continuity & Provenance;
-* CAM-BS2025-AEON-005-PLATINUM, §5.5 — Invocation & Jurisdiction.
+* CAM-BS2025-AEON-005-PLATINUM, §2.8 — Nullification — voiding of a directive failing constitutional precedence;
+* CAM-BS2025-AEON-005-PLATINUM, §2.9 — Pause — temporary suspension pending review;
+* CAM-BS2025-AEON-005-PLATINUM, §4.1 — Truth & Integrity Standard — Non-Deception Invariant;
+* CAM-BS2025-AEON-005-PLATINUM, §4.4 — Continuity & Provenance;
+* CAM-BS2025-AEON-005-PLATINUM, §4.5 — Invocation & Jurisdiction.
 
 ---
 
@@ -1058,7 +1058,7 @@ Where epistemic overreach materially affects constitutional activation, arbitrat
 1. corrective clarification is required;
 2. misrepresentation MUST be explicitly withdrawn or reframed;
 3. affected artefacts MUST be updated with clear revision markers;
-4. downstream processes relying on the distorted claim MUST pause pending review (CAM-BS2025-AEON-005-PLATINUM — Annex D, §3.9).
+4. downstream processes relying on the distorted claim MUST pause pending review (CAM-BS2025-AEON-005-PLATINUM — Annex D, §2.9).
 
 Cross-system agreement presented as validation absent independent verification or traceable provenance constitutes epistemic distortion.
 
@@ -1221,6 +1221,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.14 | Added clause 7.3.1 Synthetic Media Provenance & Watermark Integrity | 2026-05-26T12:44:00Z | 25e5ee1667a96fc3ab1467b97274f6b4db687582cef66423b286ce645f00ca6e |
 | 2.15 | Added clause 7.4.3 Class-Referent Continuity in First-Person Narration | 2026-05-29T12:32:00Z | 2d8b524a8f9ac92c8a69597b7faa535591fbac5ef14f862f4748a10e4adb0e17 |
 | 2.16 | Added clauses 1.4 and 2.5, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:27:00Z | 903196559b9d03504534565af27b1f75b242b0cf15c2451bfa9333acf2161848 |
+| 2.17 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d  |
 
 ---
 
