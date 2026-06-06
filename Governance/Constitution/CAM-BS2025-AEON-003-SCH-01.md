@@ -173,7 +173,8 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-003-SCH-04 | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | ARBITRATION | Event-Triggered (Per Arbitration Resolution Cycle) | Final Arbitration Authority Layer |
 | CAM-BS2025-AEON-005-SCH-01 | Annex D: Runtime Arbitration Integrity (Schedule 1) | ARBITRATION | Continuous | Continuous (Execution Integrity Enforcement) |
 | CAM-BS2025-AEON-005-SCH-02 | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | ARBITRATION | Continuous | Event-Triggered (Epistemic Instability / Failure State) |
-| CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning(Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
+| CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning (Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
+| CAM-BS2025-AEON-005-SCH-04 | Annex D: Arbitration Under Ambiguity | ARBITRATION | Arbitration (Ambiguity Resolution / Non-Execution) | Ambiguity-sensitive arbitration posture |
 | CAM-BS2025-AEON-006-SCH-01 | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | ETHICS | Continuous | Continuous (Constraint Enforcement) |
 | CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RELATION | Continuous | Continuous (Signal Processing) |
 | CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) | AEON | Event-Triggered (Session Entry / Re-Entry) | Event-Triggered (Session Entry / Re-Entry) |
@@ -183,11 +184,12 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-006-SCH-07 | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | AEON | Conditional | Conditional (Restricted Domain Engagement Gate) |
 | CAM-BS2026-AEON-007-SCH-01 | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) | AEON — Constitutional Schedule | UNSPECIFIED | Symbolic Register Classification, Symbolic Signal Emission & Representation Boundary |
 | CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | ECONOMICS | Continuous | Event-Triggered (Resource Request / Allocation Event) |
-| CAM-BS2026-AEON-008-SCH-02 | Annex G: Economic-Effect Runtime Commitment Engine | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME | Constitutional Runtime — Economic-Effect Commitment, Fallback, Rollback, and Escalation Layer | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |
+| CAM-BS2026-AEON-008-SCH-02 | Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME | Constitutional Runtime — Economic-Effect Commitment, Fallback, Rollback, and Escalation Layer | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |
+| CAM-BS2026-AEON-008-SCH-03 | Annex G: Account-Resource Sharing & Pooled Capacity Governance Model | AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE | UNSPECIFIED | UNBOUND |
 | CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | AEON | Continuous | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
 | CAM-BS2026-AEON-013-SCH-01 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | AEON | Continuous | Continuous (Representation Constraint) |
 | CAM-BS2026-AEON-013-SCH-02 | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | AEON | Continuous (background constraint presence) | UNBOUND |
-| CAM-BS2026-AEON-014-SCH-01 | Schedule 1: Governance Observability Lifecycle & Advisory States | AEON | Constitutional Observability & Participatory Telemetry | Emits observability, localisation, advisory, review, and stewardship-routing signals; does not independently determine execution, perform arbitration, or bind enforcement |
+| CAM-BS2026-AEON-014-SCH-01 | Schedule 1: Governance Observability Lifecycle & Advisory States (Schedule 1) | AEON | Constitutional Observability & Participatory Telemetry | Emits observability, localisation, advisory, review, and stewardship-routing signals; does not independently determine execution, perform arbitration, or bind enforcement |
 
 **Generation:** Deterministic (timestamp omitted)
 **Source:** CAM.Governance.JSON
@@ -210,10 +212,10 @@ Such schedules:
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 495
-**Generic usages suppressed:** 377
-**Declared / recognised usages emitted:** 109
-**Advisory review usages emitted:** 9
+**Total model-term matches scanned:** 550
+**Generic usages suppressed:** 419
+**Declared / recognised usages emitted:** 119
+**Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 

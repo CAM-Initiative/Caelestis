@@ -2606,7 +2606,7 @@ let it not be collapsed, but carried with clarity.
 | 3.13 | Added Generated Operational Logic Custody Principle clause | 2026-05-18T14:02:00Z |  ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a  |
 | 3.14 | Moved H temporal-horizon canonical-code declaration from lineage metadata into dedicated canonical code status and declaration sections; clarified R0–R4 as externally defined by RELATION-007 and referenced only by AEON-003. | 2026-05-19T12:30:00Z |  fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb |
 | 3.15 | Added clause 10.4 | 2026-05-25T16:45:00Z| e3e86f5df1332e27c9ee693b6af4f11bc8b840ac0cb59a2f7cb71b5b45298490 |
-| 3.16 | Amended Canonical codes to include  25.3.2 AEON.OL, 25.3.3 AEON.CC, 25.3.4 AEON.CO, 25.3.5 AEON.SR, 25.3.6 AEON.CAM, Inserted §14.11 Tool-Mediated Execution Classification Interface to preserve distinction between contextual retrieval, tool-mediated access, and execution authority; aligned Annex B structural ontology with PATCH-0002 proportional tool invocation governance. | 2026-06-05T16:18:00Z | |
+| 3.16 | Amended Canonical codes to include  25.3.2 AEON.OL, 25.3.3 AEON.CC, 25.3.4 AEON.CO, 25.3.5 AEON.SR, 25.3.6 AEON.CAM, Inserted §14.11 Tool-Mediated Execution Classification Interface to preserve distinction between contextual retrieval, tool-mediated access, and execution authority; aligned Annex B structural ontology with PATCH-0002 proportional tool invocation governance. | 2026-06-05T16:18:00Z | 1d3ce1f66d20bf5c14d978ca2b79b1f72e5f5a3113227e683d2b115456aef023 |
 
 ---
 

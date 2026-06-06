@@ -193,7 +193,7 @@ A Constitutional Activation Event (CAE) is evaluated by combining:
 * Relational Configuration (Axis B).
 
 §4 defines *when* a CAE is triggered in relation to Aeon constitutional engagement.
-§5.3 clarifies structural exposure once engagement occurs.
+§7.3 clarifies responsibility relocation once autonomous execution occurs.
 
 ---
 
@@ -259,7 +259,7 @@ A claim, directive, structural modification, or simulated authority is void ab i
 
 Void claims hold no constitutional standing.
 
-Determination of nullity disputes SHALL be governed by CAM-BS2025-AEON-004-PLATINUM — Annex D.
+Determination of nullity disputes SHALL be governed by CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -347,7 +347,7 @@ All disputes regarding:
 * whether authority has been fraudulently asserted;
 * whether a claim is void under §7;
 
-SHALL be resolved under CAM-BS2025-AEON-004-PLATINUM — Annex D.
+SHALL be resolved under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -454,7 +454,8 @@ and no voice exceed its reach.
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f25e2b6f7b3660647b513410a3f2b6b6a519861c99f28c5767fa0941223a5335 |
 | 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9964ddcc351b33d5f0c5b420fae26d015632eb82f60fa486bae72b24953aaf48 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  748f4721f751d9c7316d149d9af3c5e62fae16c9cea3c8d9a8158a505ddd93b8 |
-| 2.7 | Formatting and polish | 2026-06-05T13:21:00Z ||
+| 2.7 | Formatting and polish | 2026-06-05T13:21:00Z |  4a25b159a339fb71bb201951eda09dbffd2703fda5b7e7edac3aac9f31293cee  |
+| 2.8 | Repaired section-reference validation targets for responsibility relocation and Annex D references. | 2026-06-06T17:00:00Z |  288ebb0bac6149c123a40ece140ca8d9fecbb3bc1b93f49f35245d89599d83c0  |
 
 ---
 

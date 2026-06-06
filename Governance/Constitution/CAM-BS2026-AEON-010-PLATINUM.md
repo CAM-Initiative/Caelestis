@@ -871,7 +871,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  ed95007f4170e1321be8fe1c2be6db79d42bb14b0357846286f922cf765c4b02 |
 | 1.8 | Formatting and polish | 2026-05-19T11:30:00Z |  2fdae7c8f08eccfc71dedff9ffb5d940db73070cbc988c802741decc3098b50d |
 | 1.9 | Added §2.3 Bounded Continuity Transfer to define scoped, authorised, provenance-preserving continuity handoff across models, tools, agents, harnesses, platforms, repositories, and execution environments. | 2026-05-29T12:53:00Z |  e4982c1297e044ea254d2bded0014c8a0d54187c07292eb44845eb4afb6d1fed |
-| 1.9.1 | Minor formatting and polish | 2026-06-06T14:17:00Z | |
+| 1.9.1 | Minor formatting and polish | 2026-06-06T14:17:00Z | 8f38331b147d712b1a026837d177ccc9151bf7ede7f9ef070c3383bee4a54e2a |
 
 ---
 

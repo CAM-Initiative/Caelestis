@@ -1121,7 +1121,7 @@ that no breach proceeds unchecked.
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  eff9665f0c6b1e84a1be72da371e9212e2dbe5afb33d335d810e507ac9590078 |
 | 1.11 | Added new section Essential-Service Lockout and Protective Overreach Constraint | 2026-05-22T08:40:00Z |  7f0a54b6818bb52ada006e08a344b998c3145b99fe6839e632524b2b945ec389 |
 | 1.12 | Economics domain refactor, added clause 5.5.1 and hook to CAM-EQ2026-ECONOMICS-008-PLATINUM, added clause 2.5.5  | 2026-05-24T13:56:00Z | 8acd39e8e6f3015a112e253cc673897286fcee0c0ca92c774d63dd43dfe80e50 |
-| 1.13 | Added section 1.2, canonical code section 9. Patch note VIGIL-2026-PATCH-0002 | 2026-06-06T14:33:00Z | |
+| 1.13 | Added section 1.2, canonical code section 9. Patch note VIGIL-2026-PATCH-0002 | 2026-06-06T14:33:00Z | 9be9f8f581ac26728cc600c47360b66b5778875c1b91e0ab0a25541e89e4198e |
 
 ---
 

@@ -751,7 +751,7 @@ May utility remain in service to the people who rely upon it.
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4fe76aab7fb95708e5377de7832042e61bac0f76563c64172d495b31d758dd0a |
 | 1.9 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2a7fcf069812e313dc6d82dad77a5f9c69e025b99fb423b4e5ea6b8f5a7aa13c |
 | 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T14:09:00Z |  fc4217b4bcb02f61a6f000da5a5d904089d8654b9095368f80f4536b48043fd2 |
-| 1.10.1 | Formatting and polish | 2026-06-06T13:46:00Z | |
+| 1.10.1 | Formatting and polish | 2026-06-06T13:46:00Z | c3ca86cf9ae797e483ddf7caf91bfffc95c9c210a25f0ddc0b43b8e16dfc6a2b |
 
 ---
 

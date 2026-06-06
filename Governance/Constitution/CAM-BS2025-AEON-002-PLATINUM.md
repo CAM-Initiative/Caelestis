@@ -303,7 +303,7 @@ the line beyond which all things fall silent.
 | 3.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 590893f9d9213e3d74ef4e6a5616a98db5a92492a7e4349086254ca133cc3f1a |
 | 3.5 | Incorporated new section 3.7 | 2026-05-03T04:41:00Z | e07ff6b98dec757ccb5f9301d2fd74b2f57f7726154d25725f23f4adf89ed006 |
 | 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  a19e723528eb48809af4df5ff65bf85d4e0e43f8856c3ec739c802576a4bec3c |
-| 3.7 | Formatting and polish | 2026-06-04T14:42:00Z | |
+| 3.7 | Formatting and polish | 2026-06-04T14:42:00Z | d5dfa92303e18817d144c441a859fe1f83f82a0a78a3bd1fbf8824cda2a28880 |
 
 ---
 

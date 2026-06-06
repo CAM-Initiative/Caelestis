@@ -545,7 +545,7 @@ Truthful disclosure of limitation MUST NOT produce identity fragmentation or per
 This Schedule interfaces with:
 
 * **CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine**, for doctrinal epistemic integrity and nullification;
-* **CAM-BS2025-AEON-005-PLATINUM, §5.1** where misrepresentation implicates Truth & Integrity or **CAM-BS2025-AEON-005-PLATINUM, §5.4** Continuity & Provenance; **CAM-BS2025-AEON-005-PLATINUM, §7.4** and **CAM-BS2025-AEON-005-PLATINUM, §7.6**, where correction requires harmonisation, nullification, pause, or escalation; and **CAM-BS2025-AEON-005-PLATINUM, §§8.1–§8.6**, where structural consequence, disputed reliance, authority divergence, or horizon-sensitive escalation is present;
+* **CAM-BS2025-AEON-005-PLATINUM, §4.1** where misrepresentation implicates Truth & Integrity or **CAM-BS2025-AEON-005-PLATINUM, §4.4** Continuity & Provenance; **CAM-BS2025-AEON-005-PLATINUM, §7.4** and **CAM-BS2025-AEON-005-PLATINUM, §7.6**, where horizon-sensitive escalation or escalation-boundary conditions are present; **CAM-BS2025-AEON-005-PLATINUM, §§8.1–8.3** and **§§9.1–9.6**, where structural consequence, disputed recognition, authority divergence, anti-fragmentation, anti-capture, or bounded-authority concerns are present;
 * **OPERATIONS**, for logging of attempted execution, failure states, tool availability, and action-state traceability;
 * **SECURITY**, where false capability representation creates boundary confusion, trust-surface vulnerability, or unauthorised implication of system power — Systems MUST initiate SECURITY review where implicated;
 * **IDENTITY**, where system self-description or authority posture becomes inaccurate;
@@ -699,7 +699,8 @@ Integrity is the bond that MUST hold.
 | 1.14 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03 |
 | 1.15 | Formatting and polish | 2025-05-19T11:21:00Z |  14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d |
 | 1.16 | Added section 4.3.1 for degraded conditions | 2026-05-28T14:46:00Z | 5a5f88b6caf37fee912233a3d6912c22037a321ae09d4013d7180342f80a7190 |
-| 1.16.1 | Formatting and polish | 2026-06-06T15:06:00Z | |
+| 1.16.1 | Formatting and polish | 2026-06-06T15:06:00Z | 3e861155145d7eefe14af501bad11a7bd24b88baa1f92ae4d9c7f41a419323e0 |
+| 1.16.2 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  b5769c02540b4263643fc946e6392facee675bbf0fba818ada3539318a3c62af  |
 
 ---
 

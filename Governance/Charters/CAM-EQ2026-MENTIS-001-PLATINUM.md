@@ -582,11 +582,9 @@ Associated instruments may include:
 
 ## 52. Canonical Code Status
 
-## 52. Canonical Code Status
-
 This Charter source-authoritatively defines core MENTIS-domain cognitive-protection code families for human cognitive-domain governance.
 
-The canonical footer declarations for all code families and reference sets defined by this Charter are recorded in §57.3.
+The canonical footer declarations for all code families and reference sets defined by this Charter are recorded in §54.3.
 
 ---
 
@@ -888,7 +886,8 @@ Let every system remember that the person exceeds the model built about them.
 
 | Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
-| 1.0 | Initial issuance of MENTIS Domain Charter | 2026-06-06T08:38:00Z |  |
+| 1.0 | Initial issuance of MENTIS Domain Charter | 2026-06-06T08:38:00Z |  f8f3c9ce7210b0e22bc7c1533d95aa1a5d08d66b3ade58f2c7d9ca0badb163c4  |
+| 1.1 | Repaired section-reference validation targets in canonical code status text. | 2026-06-06T17:00:00Z |  038f853397780e6984a36d6ba5d55dc9283de0ff316127516877857a82e26a0f  |
 
 ---
 

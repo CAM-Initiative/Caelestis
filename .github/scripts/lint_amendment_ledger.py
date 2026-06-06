@@ -25,7 +25,7 @@ SCOPED_PREFIXES = (
 
 AMENDMENT_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
 NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
-VERSION_CELL_RE = re.compile(r"^\d+\.\d+(?:\.\d+)?$")
+VERSION_CELL_RE = re.compile(r"^\d+(?:\.\d+)+$")
 PLACEHOLDER_HASHES = {"-", "—"}
 VALIDATION_STAGES = {"pre_fix", "fix", "post_fix", "downstream_block"}
 
@@ -464,6 +464,10 @@ def evaluate_hash_state(
         failures.append(f"{path}: Last Amendment Ledger hash must be empty or computed SHA-256, not placeholder")
         return
     if (stored_hash or "").strip() == "":
+        doc_id = Path(path).stem
+        if allows_blank_sha(doc_id):
+            warnings.append(f"Allowed blank SHA: {doc_id}")
+            return
         msg = (
             f"{path}: Latest Amendment Ledger row is unsealed: SHA-256 cell is blank. "
             "This is expected before the ledger bot runs; run with --fix to seal the row."
@@ -543,14 +547,16 @@ def get_malformed_ledger_rows(full_text: str) -> list[tuple[int, str]]:
         if not cols:
             continue
         first = cols[0]
-        if first.lower() == "version" or set(first) <= {"-"}:
+        if first.lower() == "version":
+            continue
+        if first and set(first) <= {"-"}:
             continue
         line_no = idx + 1
         if len(cols) < 4:
             malformed.append((line_no, "Row has fewer than 4 cells."))
             continue
         if not VERSION_CELL_RE.match(first):
-            malformed.append((line_no, "First column must be a valid version like 1.0 or 2.3."))
+            malformed.append((line_no, "First column must be a dotted numeric version with at least two segments, like 1.0, 2.3, or 1.1.2."))
             continue
         if cols[0].strip() == "":
             malformed.append((line_no, "Version cell is blank."))
@@ -666,20 +672,21 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
     return 0
 
 
-def parse_semantic_version(version: str) -> tuple[int, int, int] | None:
+def parse_semantic_version(version: str) -> tuple[int, ...] | None:
     if not VERSION_CELL_RE.match(version):
         return None
-    parts = [int(part) for part in version.split(".")]
-    if len(parts) == 2:
-        parts.append(0)
-    return (parts[0], parts[1], parts[2])
+    return tuple(int(part) for part in version.split("."))
 
 
-def version_sort_key(version: str) -> tuple[int, int, int]:
+def version_sort_key(version: str) -> tuple[int, ...]:
     parsed = parse_semantic_version(version)
     if parsed is None:
         raise ValueError(f"Invalid amendment version: {version}")
     return parsed
+
+
+def _pad_version_parts(parts: tuple[int, ...], length: int) -> tuple[int, ...]:
+    return parts + (0,) * (length - len(parts))
 
 
 def is_minor_only_increment(previous: str, current: str) -> bool:
@@ -687,18 +694,26 @@ def is_minor_only_increment(previous: str, current: str) -> bool:
     curr = parse_semantic_version(current)
     if prev is None or curr is None:
         return False
-    prev_major_i, prev_minor_i, prev_patch_i = prev
-    curr_major_i, curr_minor_i, curr_patch_i = curr
+
     # Allow either:
-    # - patch bump under same minor: 2.4 -> 2.4.1 or 2.4.1 -> 2.4.2
+    # - final-segment bump under the same major/minor line:
+    #   2.4 -> 2.4.1, 2.4.1 -> 2.4.2, or 2.4.1 -> 2.4.1.1
     # - traditional minor bump within same major: 1.7 -> 1.8
     # - major bump with minor reset: 1.7 -> 2.0
-    if curr_major_i == prev_major_i and curr_minor_i == prev_minor_i:
-        return curr_patch_i == prev_patch_i + 1
-    if curr_major_i == prev_major_i:
-        return curr_minor_i == prev_minor_i + 1 and curr_patch_i == 0
-    if curr_major_i == prev_major_i + 1:
-        return curr_minor_i == 0 and curr_patch_i == 0
+    comparison_len = max(len(prev), len(curr), 3)
+    prev_padded = _pad_version_parts(prev, comparison_len)
+    curr_padded = _pad_version_parts(curr, comparison_len)
+
+    if prev_padded[:2] == curr_padded[:2]:
+        return (
+            prev_padded[:-1] == curr_padded[:-1]
+            and curr_padded[-1] == prev_padded[-1] + 1
+        )
+
+    if curr_padded[0] == prev_padded[0]:
+        return curr_padded[1] == prev_padded[1] + 1 and all(part == 0 for part in curr_padded[2:])
+    if curr_padded[0] == prev_padded[0] + 1:
+        return curr_padded[1] == 0 and all(part == 0 for part in curr_padded[2:])
     return False
 
 
@@ -706,7 +721,7 @@ def bump_minor_version(version: str) -> str:
     parsed = parse_semantic_version(version)
     if parsed is None:
         raise ValueError(f"Invalid amendment version: {version}")
-    major, minor, _patch = parsed
+    major, minor = parsed[:2]
     return f"{major}.{minor + 1}"
 
 

@@ -1029,7 +1029,7 @@ responsive to its limits, and reversible within its bounds.
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | acdd4ba57d1c108087a16cc5a336a5415a6dfe824ba1bbc25dd6fae64802c0b8 |
 | 2.7 | Added tool-affordance salience constraint clarifying that modality, artefact, file, image, memory, search, canvas, or execution-channel references constitute salience signals only unless execution intent is independently established under AEON-003-SCH-02 §7.2. | 2026-05-09T14:49:00Z | 174693d9c76420819bdc59185a2b745752782302fd7c8f2799cae16ba2ae8bdf |
 | 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8e2ea54eac4d2f1c20fed3ff8e78287b21d2ad5b4da54608e4e106162960c2d3 |
-| 2.8.1 | Formatting and polish | 2026-06-06T13:15:00Z | |
+| 2.8.1 | Formatting and polish | 2026-06-06T13:15:00Z | 1fd2fa6abe74edc157e5e3991f2266bae33882f84674dfb46ca51a8c5fc49b02 |
 
 ---
 

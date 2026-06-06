@@ -1,5 +1,5 @@
 {
-  "count": 56,
+  "count": 58,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -36,18 +36,18 @@
       "parent_id": "CAM-EQ2026-ARBITRATION-001",
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-ARBITRATION-002-PLATINUM.md",
-      "title": "Scope Constraints & Misrepresentation Doctrine",
+      "title": "Appendix A: Scope Constraints & Misrepresentation Doctrine",
       "summary": "",
       "status": "** Active",
       "effect": "** Immediate Effect",
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.5",
-      "HASH": "a6c4440e5a0ecbc49f9b21ad3ade08ea8035f5be952573c54514c50b2cf34ee5",
-      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
-      "updated_at": "2026-05-22T13:56:50Z",
-      "last_updated_utc": "2026-05-22T13:56:50Z"
+      "version": "1.6",
+      "HASH": "f8a03731737df5dc09b3486b50c49b595a7bd07fb87cf83211bc4fcc460d4d9c",
+      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
+      "updated_at": "2026-06-06T16:29:44Z",
+      "last_updated_utc": "2026-06-06T16:29:44Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001-PLATINUM",
@@ -405,9 +405,9 @@
       "authority_role": "** Reference-Only",
       "version": "2.3",
       "HASH": "615cec2c25a7d759c1821ca44ff10ae22d18e0c74ece7a02925b4293ce138f7d",
-      "pinned_sha": "7fc78a9593b257f5cb0e8764d4de5d3aa0cd3459",
-      "updated_at": "2026-06-02T15:03:16Z",
-      "last_updated_utc": "2026-06-02T15:03:16Z"
+      "pinned_sha": "36cd3117acb1c6d88428904cab99309995b98652",
+      "updated_at": "2026-06-02T15:08:04Z",
+      "last_updated_utc": "2026-06-02T15:08:04Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-PLATINUM",
@@ -643,11 +643,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "3.10",
-      "HASH": "96f4976f2e577ee4cf2b131e3600cf662ff73b95d8f42a82d60ff252a3619d60",
-      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
-      "updated_at": "2026-05-23T13:16:43Z",
-      "last_updated_utc": "2026-05-23T13:16:43Z"
+      "version": "3.11",
+      "HASH": "678cd6937fb5f400fb612c2b59091cbef702c0bf403bf0805e42482fe5b5f5fe",
+      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
+      "updated_at": "2026-06-06T16:29:44Z",
+      "last_updated_utc": "2026-06-06T16:29:44Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-003-PLATINUM",
@@ -672,6 +672,54 @@
       "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
       "updated_at": "2026-05-23T13:16:43Z",
       "last_updated_utc": "2026-05-23T13:16:43Z"
+    },
+    {
+      "id": "CAM-EQ2026-MENTIS-001-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "MENTIS",
+      "instrument_class": "charter",
+      "hierarchy_type": null,
+      "hierarchy_number": null,
+      "parent_id": null,
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-MENTIS-001-PLATINUM.md",
+      "title": "Charter of Human Cognitive Integrity & Mental Privacy",
+      "summary": "Higher safeguards apply where cognitive-domain technologies are used in relation to:",
+      "status": "** Draft",
+      "effect": "** Pre-Enforcement Recognition",
+      "enforcement": "** Pending Adoption",
+      "review_state": "** Developmental Review",
+      "authority_role": "** Source-authoritative human cognitive-domain governance instrument",
+      "version": "1.1",
+      "HASH": "038f853397780e6984a36d6ba5d55dc9283de0ff316127516877857a82e26a0f",
+      "pinned_sha": "79705a4ec974bff350fc4d0450fabff50d98a4a4",
+      "updated_at": "2026-06-06T17:23:26Z",
+      "last_updated_utc": "2026-06-06T17:23:26Z"
+    },
+    {
+      "id": "CAM-EQ2026-MENTIS-002-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "MENTIS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "002",
+      "parent_id": "CAM-EQ2026-MENTIS-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-MENTIS-002-PLATINUM.md",
+      "title": "Appendix A: Cognitive Inference, Neurodata & Ambient Biosignal Governance",
+      "summary": "Absent exceptional justification, cognitive-domain data must not be collected, inferred, or operationalised in contexts involving:",
+      "status": "** Draft",
+      "effect": "** Pre-Enforcement Recognition",
+      "enforcement": "** Pending Adoption",
+      "review_state": "** Developmental Review",
+      "authority_role": "** Source-authoritative operational governance instrument for cognitive inference, neurodata, cognitive biometrics, and ambient biosignal processing",
+      "version": "1.0",
+      "HASH": "9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8",
+      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
+      "updated_at": "2026-06-06T16:29:44Z",
+      "last_updated_utc": "2026-06-06T16:29:44Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-PLATINUM",
@@ -859,11 +907,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.11",
-      "HASH": "cbeb7ff6f48ef742bd3bd8817e4a7f162f8ecc26003865af59258a7fef36184a",
-      "pinned_sha": "7fc78a9593b257f5cb0e8764d4de5d3aa0cd3459",
-      "updated_at": "2026-06-02T15:03:16Z",
-      "last_updated_utc": "2026-06-02T15:03:16Z"
+      "version": "1.12",
+      "HASH": "c73e73d92976e4fee4f21e72a4652bf1edaf8c93db6c98244b96b83b13dca915",
+      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
+      "updated_at": "2026-06-06T16:29:44Z",
+      "last_updated_utc": "2026-06-06T16:29:44Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -933,9 +981,9 @@
       "authority_role": "** Source-authoritative operational appendix for amendment intake, review routing, version-control discipline, governance drift detection, cross-instrument harmonisation, and amendment closure procedures.",
       "version": "2.3",
       "HASH": "05591d918621b319d1a8c30e2d0bac883cac6404d7b9b93ed89c8b2d59059806",
-      "pinned_sha": "7fc78a9593b257f5cb0e8764d4de5d3aa0cd3459",
-      "updated_at": "2026-06-02T15:03:16Z",
-      "last_updated_utc": "2026-06-02T15:03:16Z"
+      "pinned_sha": "36cd3117acb1c6d88428904cab99309995b98652",
+      "updated_at": "2026-06-02T15:08:04Z",
+      "last_updated_utc": "2026-06-02T15:08:04Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
@@ -957,9 +1005,9 @@
       "authority_role": "** Source-authoritative operational appendix for cross-domain coordination, operational divergence classification, convergence workflow custody, arbitration-routing support, and convergence closure procedures.",
       "version": "2.3",
       "HASH": "c12d63ee10bbab2f9745a7a75f0ea989d1015c37b33cd6324afb4b1f2f651648",
-      "pinned_sha": "9adfeb1494c678ef055cfb1c4b27ebb0953841e4",
-      "updated_at": "2026-06-02T15:07:38Z",
-      "last_updated_utc": "2026-06-02T15:07:38Z"
+      "pinned_sha": "36cd3117acb1c6d88428904cab99309995b98652",
+      "updated_at": "2026-06-02T15:08:04Z",
+      "last_updated_utc": "2026-06-02T15:08:04Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-PLATINUM",
@@ -1171,11 +1219,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.3",
-      "HASH": "39ce8b06011647e54ccc3cecaf04d2325edfe9ad0787f107194acf0dc796c4f7",
-      "pinned_sha": "437e150ebbf8c0ee82382e04b43f8b23f966c857",
-      "updated_at": "2026-05-23T13:16:43Z",
-      "last_updated_utc": "2026-05-23T13:16:43Z"
+      "version": "2.4",
+      "HASH": "36da9e275f871d43c96aecdb96b2268590c8bec7f66e5680cdaf5e06eb30eb2e",
+      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
+      "updated_at": "2026-06-06T16:29:44Z",
+      "last_updated_utc": "2026-06-06T16:29:44Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008-PLATINUM",

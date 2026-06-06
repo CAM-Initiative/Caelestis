@@ -1218,7 +1218,7 @@ because the architecture forgot how to name the group.
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
-|1.0|Initial draft defining account-resource, shared-context, pooled-capacity, team/family-group, account-delegation states, and enforcement-boundary handoff primitives. VIGIL records, VIGIL-2026-FM-0007, VIGIL-2026-PATCH-0003|2026-06-05T13:49:00Z||
+|1.0|Initial draft defining account-resource, shared-context, pooled-capacity, team/family-group, account-delegation states, and enforcement-boundary handoff primitives. VIGIL records, VIGIL-2026-FM-0007, VIGIL-2026-PATCH-0003|2026-06-05T13:49:00Z|  41ee5f91bb29982d554915432333c0ac20e7b22c57a5a38ae47ad788e220665f  |
 
 ---
 

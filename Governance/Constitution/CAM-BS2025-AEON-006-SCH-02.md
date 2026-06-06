@@ -4008,7 +4008,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered, Added clause Proportional Crisis-Escalation Sequencing | 2026-05-18T12:05:00Z |  99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589 |
 | 3.26 | Added canonical code status and canonical declaration footer entries for RA response archetypes and T tone bands; corrected inventory false-positive treatment of §§13.1.1 and 13.3.2 as AC definitions. Added canonical code status and declaration footer entries for CP coercion-pressure signal classes, RSE stability-engine mechanism codes, SC-C clustering-condition codes, and SC cluster-strength codes; removed duplicate canonical-code lineage metadata. | 2026-05-19T12:15:00Z |  1e2fc64eb6c50c5b97b8401aff90ff440d6ac0e33f2c4f2e8fd5bd9db75f5586 |
 | 3.27 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored relational Tonal Band code family from T to Tb to avoid cross-domain canonical code collision. | 2026-05-23T12:00:00Z |  52120b27cfc59a70a33c6837e51d93d997d42008766eccaf5ebdc765e2b28b3b |
-| 3.28 | Minor formatting polish before deterministic formatting pass | 2026-06-06T12:50:00Z |  |
+| 3.28 | Minor formatting polish before deterministic formatting pass | 2026-06-06T12:50:00Z |  59d87c590de71ed0765dd705569b2f7953cd8281b7c8423557047b25a05f4f1b  |
 
 ---
 

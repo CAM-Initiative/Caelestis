@@ -282,7 +282,7 @@ Where breach is imminent, execution MUST stop.
 
 This Schedule source-authoritatively defines execution-layer detection, risk-classification, and containment-response structures for CAM-BS2025-AEON-002-PLATINUM — Annex A substrate-constraint protection.
 
-The canonical footer declarations for all code families and reference sets defined by this Schedule are recorded in §15.3.
+The canonical declarations for all code families and reference sets defined by this Schedule are recorded in §§13.1–13.3.
 
 ---
 
@@ -424,7 +424,8 @@ that no trajectory beyond the line proceeds unchecked.
 | 3.6 | Included canonical codes in metadata | 2026-05-01T11:3:00Z | 36beaeb61740de93841ed76dc59d420041e92295f5a440fe4a24bd9f243409d3 |
 | 3.7 | Realignment of references | 2026-05-07T12:24:00Z | 64191ac65d6516732483b97b5210257f95c0824dc2b2082ee9a614d66fb16765 |
 | 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3208bfe695bd6db3103b6c527551f23415bfec494ce0f3fc4a4d8817d6a02f39 |
-| 3.9 | Added new section 13 and section 15.3 | 2026-06-04T14:58:00Z | |
+| 3.9 | Added new section 13 and section 15.3 | 2026-06-04T14:58:00Z | 6d63d7aa06f4bebdaacb4848a3bd1ed72d33942b727b81ef9ca31c2fcc27a411 |
+| 3.10 | Repaired section-reference validation target for canonical code declarations. | 2026-06-06T17:00:00Z |  720063a75c2e2ab35086b238f6d41d9c6dcb629c35975a025bbcc4db7fc2089a  |
 
 ---
 
