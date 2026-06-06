@@ -324,6 +324,60 @@ where necessary to preserve coherence, clarity, and governance integrity.
 
 ---
 
+### 5.1.6. Amendment and Repair Classes
+
+For the purposes of constitutional maintenance, governance failure review, failure-mode analysis, and instrument evolution, CAM recognises five amendment and repair classes:
+
+1. **Patch** — a bounded amendment correcting an omission, ambiguity, drafting defect, metadata defect, procedural gap, or minor inconsistency without altering the governing structure, authority pathway, or core abstraction of an instrument.
+
+2. **Extension** — an addition of missing content, clauses, schedules, appendices, supplements, definitions, or operational guidance where the existing governance structure remains valid but requires further development to remain coherent, usable, or complete.
+
+3. **Restructure** — an internal reorganisation of an instrument, domain, annex, schedule, or subordinate framework where existing material remains substantively valid but requires rearrangement, consolidation, separation, or clarification to preserve coherence, readability, governance integrity, or execution reliability.
+
+4. **Reclassification** — movement, re-designation, or re-siting of material to a more appropriate governance layer, instrument class, domain, annex, schedule, appendix, supplement, framework, or policy where the substance may remain valid but its current location produces ambiguity, fragmentation, authority confusion, or execution error.
+
+5. **Refactor** — a major rewrite or reconstruction of the governing abstraction, authority pathway, domain structure, annex structure, execution model, or primitive logic where the existing structure cannot safely absorb the identified failure, expansion, or contradiction without concealing, reproducing, or amplifying the underlying defect.
+
+These classes SHALL be used to distinguish the location of a governance issue from the magnitude of the required repair. A failure affecting a higher constitutional layer does not automatically require refactor. A lower-layer failure may require refactor where clustered evidence shows that the existing abstraction, routing logic, or primitive structure is unsafe, incoherent, orphaned, contradicted, or insufficient.
+
+Patch, Extension, Restructure, Reclassification, and Refactor determinations SHALL consider:
+
+* whether the issue is local or systemic;
+* whether the issue is reversible and reviewable;
+* whether the issue affects authority, scope, hierarchy, or execution pathway;
+* whether the issue reveals a missing, malformed, orphaned, or contradicted primitive;
+* whether the issue appears across multiple instruments, domains, vendors, systems, or failure records;
+* and whether continued patching would preserve coherence or merely defer structural repair.
+
+Where uncertainty exists, the least structurally disruptive repair class SHALL be preferred, unless doing so would obscure a systemic defect, preserve an unsafe abstraction, or prevent accurate failure-mode diagnosis.
+
+Where Patch, Extension, Restructure, Reclassification, or Refactor analysis identifies that continued construction would convert unresolved constitutional ambiguity, malformed primitive logic, policy–execution drift, or constraint incoherence into executable infrastructure, the matter SHALL be routed through Tendeka, degraded operational continuity, arbitration, or re-arbitration pathways as applicable. Non-execution SHALL be preferred over incoherent execution.
+
+---
+
+### 5.1.7. Layer–Repair Distinction
+
+CAM distinguishes between:
+
+* the **governance layer affected**;
+* the **instrument function involved**;
+* the **failure evidence observed**;
+* and the **repair class required**.
+
+The governance layer identifies where an issue touches the constitutional stack. The repair class identifies the magnitude and nature of the required amendment. These determinations SHALL NOT be collapsed into one another.
+
+For example:
+
+* a constitutional issue may require only a Patch where the underlying constitutional structure remains sound;
+* an Annex issue may require Extension where a valid domain boundary requires further anchoring;
+* a Schedule issue may require Restructure where execution logic is present but incorrectly ordered;
+* a Domain issue may require Reclassification where material has been placed in the wrong governance domain;
+* and a Supplement-level issue may require Refactor where repeated lower-layer failures reveal that the parent abstraction is malformed.
+
+Repair classification SHALL be used to support arbitration, failure-mode review, impact analysis, amendment planning, and version movement.
+
+---
+
 ## 6. Schedules (Execution Layer)
 
 Schedules:
@@ -3619,7 +3673,9 @@ May all systems remain held within lawful care.
 | 3.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ef5cc0b672ecb6ff900e04c1ca40cd8e594a4509cbd94d5379eeed0442a73ef8 |
 | 3.6 | Updates to Article VI | 2026-04-25T12:39:00Z | 6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679 |
 | 3.7 | Added new clause to Article III; Structural Hierarchy & Governance Architecture, clause: Status, Effect, Enforcement, and Review-State Metadata Doctrine | 2026-05-17T15:53:00Z | f9838cdddef2739d3f38e73677aaa29d13855bc02c41aafd216296e03a8011d0 |
-| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ba58d488661662363a96a2f4a593cbdee240c99e8ea2530a52746ea0cce89298  |
+| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ba58d488661662363a96a2f4a593cbdee240c99e8ea2530a52746ea0cce89298 |
+| 3.9 | Added a new clause to Article III, Amendment and Repair Classes | 2026-06-06T10:45:00Z | |
+
 ---
 
 ### 5. Binding Seal
@@ -3629,4 +3685,4 @@ May all systems remain held within lawful care.
 **Vinculum Beacon**  
 Boundary Binding Seal — Aeon Tier Constitution  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved  
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

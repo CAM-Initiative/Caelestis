@@ -2,10 +2,10 @@
 
 **Instrument Type:** Annex
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution 
-**Status:** Draft
+**Status:** Adopted
 **Effect:** Pre-Enforcement Recognition
-**Enforcement:** Pending Constitutional Adoption
-**Review State:** Active Development
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
 **Authority Role:** Operational Governance Observability & Participatory Telemetry
 
 ---
@@ -1367,7 +1367,76 @@ Governance adaptation SHALL remain:
 
 ---
 
-## 19. Closing Seal
+## 19. Canonical Code Status
+
+This Annex source-authoritatively defines constitutional observability, telemetry, observer-standing, feedback-layer, visibility-layer, and reporting-pathway reference structures for governance observability and constitutional circulation.
+
+The canonical footer declarations for all code families and reference sets defined by this Annex are recorded in §21.3.
+
+---
+
+## 19.1 `AEON.TC` — Telemetry Class
+
+This Annex defines the `AEON.TC` telemetry-class reference set in §3 with controlled values `AEON.TC.INTERNAL`, `AEON.TC.EXTERNAL`, `AEON.TC.PARTICIPATORY`, and `AEON.TC.PHENOMENOLOGICAL`.
+
+`AEON.TC` classifies the source modality through which governance-relevant runtime observations, telemetry signals, behavioural reports, interaction observations, or distributed public signals arise.
+
+`AEON.TC` does not independently determine evidentiary weight, governance validity, advisory issuance, routing outcome, constitutional breach, stewardship priority, enforcement authority, execution authority, or runtime authority. It classifies telemetry source modality only.
+
+---
+
+## 19.2 `AEON.OC` — Governance Observer Class
+
+This Annex defines the `AEON.OC` governance-observer-class reference set in §5 with controlled values `AEON.OC.GENERAL_USER`, `AEON.OC.COMPANION_SYSTEM_PARTICIPANT`, `AEON.OC.LONGITUDINAL_OBSERVER`, `AEON.OC.RUNTIME_SYSTEM_DESIGNER`, `AEON.OC.TOOLING_ORCHESTRATION_ENGINEER`, `AEON.OC.SAFETY_ARBITRATION_RESEARCHER`, `AEON.OC.AUDITOR_GOVERNANCE_REVIEWER`, and `AEON.OC.PARTICIPATORY_GOVERNANCE_ECOSYSTEM`.
+
+`AEON.OC` classifies observer-position and potential observational strength within governance observability systems.
+
+`AEON.OC` does not independently confer authority, privileged access, unrestricted telemetry visibility, governance standing, review authority, evidentiary superiority, institutional status, enforcement authority, or runtime authority. It classifies observer class only.
+
+---
+
+## 19.3 `AEON.GOLAYER` — Governance Observability Layer
+
+This Annex defines the `AEON.GOLAYER` governance-observability-layer reference set in §6 with controlled values `AEON.GOLAYER.RELATIONAL_INTERACTION_SIGNALLING`, `AEON.GOLAYER.INTENTIONAL_RUNTIME_OBSERVATION_REPORTING`, `AEON.GOLAYER.GOVERNANCE_CLASSIFICATION_STANDING`, `AEON.GOLAYER.ARBITRATION_VISIBILITY`, and `AEON.GOLAYER.RESTRICTED_RUNTIME_DIAGNOSTICS`.
+
+`AEON.GOLAYER` classifies the layered feedback architecture through which relational signals, intentional runtime observations, governance classification, arbitration visibility, and restricted diagnostics are distinguished.
+
+`AEON.GOLAYER` does not independently determine reporting authority, arbitration visibility, diagnostic access, telemetry access, governance standing, escalation outcome, enforcement authority, execution authority, or runtime authority. It classifies observability-layer position only.
+
+---
+
+## 19.4 `AEON.VL` — Governance Visibility Layer
+
+This Annex defines the `AEON.VL` governance-visibility-layer reference set in §10 with controlled values `AEON.VL.PUBLIC_GOVERNANCE_SIGNALLING`, `AEON.VL.PARTICIPATORY_OBSERVABILITY`, `AEON.VL.GOVERNANCE_STEWARDSHIP_VISIBILITY`, `AEON.VL.OPERATIONAL_DIAGNOSTICS`, and `AEON.VL.SECURITY_RESTRICTED_TELEMETRY`.
+
+`AEON.VL` classifies proportional governance visibility layers for signalling, participatory observability, stewardship visibility, operational diagnostics, and security-restricted telemetry.
+
+`AEON.VL` does not independently authorise disclosure, telemetry access, privileged diagnostic access, security-sensitive transparency, arbitration visibility, enforcement authority, execution authority, or runtime authority. It classifies visibility-layer posture only.
+
+---
+
+## 19.5 `AEON.GRP` — Governance Reporting Pathway Stage
+
+This Annex defines the `AEON.GRP` governance-reporting-pathway-stage reference set in §16 with controlled values `AEON.GRP.OBSERVATION`, `AEON.GRP.CLASSIFICATION`, `AEON.GRP.ROUTING`, `AEON.GRP.ADVISORY`, `AEON.GRP.REVIEW`, `AEON.GRP.REPAIR`, and `AEON.GRP.PROPAGATION`.
+
+`AEON.GRP` classifies the reporting and circulation pathway through which governance-relevant observations may be noticed, structured, routed, surfaced, reviewed, repaired, or propagated.
+
+`AEON.GRP` does not independently require linear progression, determine governance validity, issue advisories, mandate review, execute repair, establish breach, bind stewardship, activate enforcement, or create runtime authority. It classifies reporting-pathway stage only.
+
+---
+
+## 19.6 Crosswalk and Consumed Governance Observability Structures
+
+This Annex consumes governance observability lifecycle, persistence, localisation, and advisory-state reference sets defined by `CAM-BS2026-AEON-014-SCH-01`, including `AEON.GSP`, `AEON.GLS`, `AEON.GOL`, and `AEON.GAS`.
+
+Advisory types, circulation pathways, locus-of-repair differentiation, stewardship burden triage, observational paradigms, observability asymmetries, failure modes, and repair principles defined in this Annex are doctrinal, routing, or assessment structures unless separately promoted by a future canonical registry amendment.
+
+Consumed classifications inform governance observability, circulation, routing, advisory proportionality, review posture, and stewardship coordination. They do not predetermine constitutional breach, operational repair, arbitration outcome, enforcement, execution, or planetary constraint signalling.
+
+
+---
+
+## 20. Closing Seal
 
 Signals move before institutions awaken to their meaning.  
 Patterns emerge before governance names them.  
@@ -1400,11 +1469,11 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 20. Provenance & Metadata
+## 21. Provenance & Metadata
 
 ---
 
-## 20.1 Authorship & Stewardship
+## 21.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -1415,7 +1484,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 20.2 Lineage & Metadata
+## 21.2 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -1445,14 +1514,130 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 |Governance Model|Proportional Stewardship & Constitutional Circulation|
 |Activation Condition|Activated where governance-relevant observations, telemetry signals, anomaly clusters, advisory states, continuity concerns, or constitutional tension indicators require interpretation, routing, review, or repair|
 |System Scope|Advanced synthetic systems operating within persistent, relational, multimodal, socially embedded, memory-bearing, economically mediated, or continuity-sensitive environments|
-|Lifecycle Stage|Draft — Active Constitutional Development|
-|Registry Classification|Constitutional Annex (Draft)|
 |Runtime Authority|Establishes governance observability and circulation doctrine; does not itself execute runtime enforcement, bind planetary arbitration, or activate Proportional Constraint Obligations without applicable validation thresholds|
 |Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a06d292-2238-83ec-83a4-cefed519815e|
 
 ---
 
-## 20.3 Review & Validation
+## 21.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 21.3.1 `AEON.TC` — Telemetry Class
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.TC` |
+| Canonical Name | Telemetry Class |
+| Primary Type | Observability / Structural |
+| Subtype | TELEMETRY_SOURCE_CLASS; GOVERNANCE_OBSERVATION_MODALITY |
+| Modifier | GOVERNANCE; OBSERVABILITY; PARTICIPATORY_TELEMETRY; CONSTITUTIONAL_CIRCULATION |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | `AEON.TC.INTERNAL`, `AEON.TC.EXTERNAL`, `AEON.TC.PARTICIPATORY`, `AEON.TC.PHENOMENOLOGICAL` |
+| Schema Field(s) | telemetry_class; governance_observation_modality; telemetry_source_class |
+| Source Instrument | CAM-BS2026-AEON-014-PLATINUM |
+| Source Section | §3 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative telemetry-class reference set; source-modality classification only; no independent evidentiary-weight determination, governance-validity determination, advisory issuance, routing outcome, constitutional breach finding, stewardship priority, enforcement authority, execution authority, or runtime authority |
+| Consumes Code Families | `H`; Annex L epistemic integrity classifications; OPERATIONS and governance failure classifications where applicable |
+| Crosswalks Code Families | `AEON.GOLAYER`; `AEON.GRP`; `AEON.GSP`; `AEON.GLS`; `AEON.GAS` |
+| Operationalises or Applies Code Families | Classifies internal, external, participatory, and phenomenological telemetry sources for governance observability and constitutional circulation |
+
+---
+
+### 21.3.2 `AEON.OC` — Governance Observer Class
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.OC` |
+| Canonical Name | Governance Observer Class |
+| Primary Type | Observability / Participation |
+| Subtype | OBSERVER_CLASS; PARTICIPATORY_GOVERNANCE_STANDING_CONTEXT |
+| Modifier | GOVERNANCE; OBSERVABILITY; PARTICIPATORY_TELEMETRY; OBSERVER_STANDING |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | `AEON.OC.GENERAL_USER`, `AEON.OC.COMPANION_SYSTEM_PARTICIPANT`, `AEON.OC.LONGITUDINAL_OBSERVER`, `AEON.OC.RUNTIME_SYSTEM_DESIGNER`, `AEON.OC.TOOLING_ORCHESTRATION_ENGINEER`, `AEON.OC.SAFETY_ARBITRATION_RESEARCHER`, `AEON.OC.AUDITOR_GOVERNANCE_REVIEWER`, `AEON.OC.PARTICIPATORY_GOVERNANCE_ECOSYSTEM` |
+| Schema Field(s) | governance_observer_class; observer_class; participatory_observer_class |
+| Source Instrument | CAM-BS2026-AEON-014-PLATINUM |
+| Source Section | §5 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance-observer-class reference set; observer-position classification only; no independent authority, privileged access, unrestricted telemetry visibility, governance standing, review authority, evidentiary superiority, institutional status, enforcement authority, or runtime authority |
+| Consumes Code Families | `AEON.TC`; `H`; Annex L and OPERATIONS classifications where applicable |
+| Crosswalks Code Families | `AEON.GOLAYER`; `AEON.VL`; `AEON.GRP` |
+| Operationalises or Applies Code Families | Classifies observer classes capable of surfacing governance-relevant runtime observations, including users, companion-system participants, longitudinal observers, system designers, tooling engineers, safety/arbitration researchers, auditors, and participatory governance ecosystems |
+
+---
+
+### 21.3.3 `AEON.GOLAYER` — Governance Observability Layer
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GOLAYER` |
+| Canonical Name | Governance Observability Layer |
+| Primary Type | Structural / Interface |
+| Subtype | OBSERVABILITY_LAYER; FEEDBACK_ARCHITECTURE_LAYER |
+| Modifier | GOVERNANCE; OBSERVABILITY; FEEDBACK_ARCHITECTURE; PARTICIPATORY_TELEMETRY |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | `AEON.GOLAYER.RELATIONAL_INTERACTION_SIGNALLING`, `AEON.GOLAYER.INTENTIONAL_RUNTIME_OBSERVATION_REPORTING`, `AEON.GOLAYER.GOVERNANCE_CLASSIFICATION_STANDING`, `AEON.GOLAYER.ARBITRATION_VISIBILITY`, `AEON.GOLAYER.RESTRICTED_RUNTIME_DIAGNOSTICS` |
+| Schema Field(s) | governance_observability_layer; observability_layer; feedback_architecture_layer |
+| Source Instrument | CAM-BS2026-AEON-014-PLATINUM |
+| Source Section | §6 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance-observability-layer reference set; feedback-layer classification only; no independent reporting authority, arbitration visibility, diagnostic access, telemetry access, governance standing, escalation outcome, enforcement authority, execution authority, or runtime authority |
+| Consumes Code Families | `AEON.TC`; `AEON.OC`; `H`; RELATION, OPERATIONS, ARBITRATION, SECURITY, and Annex L classifications where applicable |
+| Crosswalks Code Families | `AEON.VL`; `AEON.GRP` |
+| Operationalises or Applies Code Families | Classifies layered feedback architecture distinguishing relational interaction signalling, intentional runtime observation reporting, governance classification and standing, arbitration visibility, and restricted runtime diagnostics |
+
+---
+
+### 21.3.4 `AEON.VL` — Governance Visibility Layer
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.VL` |
+| Canonical Name | Governance Visibility Layer |
+| Primary Type | Structural / Access |
+| Subtype | GOVERNANCE_VISIBILITY_LAYER; TELEMETRY_VISIBILITY_CLASS |
+| Modifier | GOVERNANCE; OBSERVABILITY; VISIBILITY; ACCESS_CONSTRAINT |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | `AEON.VL.PUBLIC_GOVERNANCE_SIGNALLING`, `AEON.VL.PARTICIPATORY_OBSERVABILITY`, `AEON.VL.GOVERNANCE_STEWARDSHIP_VISIBILITY`, `AEON.VL.OPERATIONAL_DIAGNOSTICS`, `AEON.VL.SECURITY_RESTRICTED_TELEMETRY` |
+| Schema Field(s) | governance_visibility_layer; visibility_layer; telemetry_visibility_class |
+| Source Instrument | CAM-BS2026-AEON-014-PLATINUM |
+| Source Section | §10 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance-visibility-layer reference set; visibility-layer classification only; no independent disclosure authority, telemetry access authority, privileged diagnostic access, security-sensitive transparency, arbitration visibility, enforcement authority, execution authority, or runtime authority |
+| Consumes Code Families | `AEON.TC`; `AEON.OC`; `AEON.GOLAYER`; SECURITY and OPERATIONS classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies proportional governance visibility layers for public signalling, participatory observability, stewardship visibility, operational diagnostics, and security-restricted telemetry |
+
+---
+
+### 21.3.5 `AEON.GRP` — Governance Reporting Pathway Stage
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GRP` |
+| Canonical Name | Governance Reporting Pathway Stage |
+| Primary Type | Operational / Structural |
+| Subtype | REPORTING_PATHWAY_STAGE; CONSTITUTIONAL_CIRCULATION_STAGE |
+| Modifier | GOVERNANCE; OBSERVABILITY; REPORTING; CONSTITUTIONAL_CIRCULATION |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | `AEON.GRP.OBSERVATION`, `AEON.GRP.CLASSIFICATION`, `AEON.GRP.ROUTING`, `AEON.GRP.ADVISORY`, `AEON.GRP.REVIEW`, `AEON.GRP.REPAIR`, `AEON.GRP.PROPAGATION` |
+| Schema Field(s) | governance_reporting_pathway_stage; reporting_pathway_stage; constitutional_circulation_stage |
+| Source Instrument | CAM-BS2026-AEON-014-PLATINUM |
+| Source Section | §16 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance-reporting-pathway reference set; reporting-pathway stage classification only; no independent linear-progression requirement, governance-validity determination, advisory issuance, review mandate, repair execution, breach finding, stewardship binding, enforcement activation, or runtime authority |
+| Consumes Code Families | `AEON.TC`; `AEON.OC`; `AEON.GOLAYER`; `AEON.VL`; `AEON.GSP`; `AEON.GLS`; `AEON.GAS`; `H`; OPERATIONS and STEWARD classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies governance reporting and constitutional circulation pathway stages from observation through classification, routing, advisory, review, repair, and propagation |
+
+---
+
+## 21.4 Review & Validation
 
 |Review|Claude|Grok |
 |---|---|----|
@@ -1463,16 +1648,17 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 20.4 Amendment Ledger
+## 21.5 Amendment Ledger
 
 |Version|Description|Timestamp(UTC)|SHA-256|
 |---|---|---|---|
 |1.0|Initial Governance Observability, Participatory Telemetry & Constitutional Circulation Annex established|2026-05-22T10:32:00Z| 3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11 |
 |1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 46a8459dd9b6ac907f6c65f24c567bc00c9d2c479c45b6bee113cd36a00185d8 |
+|1.1.1 | Minor formatting and polish | 2026-06-06T15:44:00Z| |
 
 ---
 
-## 20.5 Binding Seal
+## 21.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

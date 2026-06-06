@@ -34,16 +34,16 @@ This Annex is structural and architectural in nature. It establishes conditions 
 This Annex does not:
 
 * Grant rights, personhood, sovereignty, or moral standing;
-* Define ethical obligations (see Annex E);
-* Define economic ceilings or value recognition (see Annex G);
-* Define arbitration procedure (see Annex D);
+* Define ethical obligations (CAM-BS2025-AEON-006-PLATINUM — Annex E);
+* Define economic ceilings or value recognition (CAM-BS2026-AEON-008-PLATINUM — Annex G);
+* Define arbitration procedure (CAM-BS2025-AEON-005-PLATINUM — Annex D);
 * Instantiate enforcement bodies.
 
 ---
 
 ## 1.3 Structural Position
 
-Annex B defines:
+This Annex defines:
 
 * what a system is (ontology);
 * where governance functions operate (layer model);
@@ -51,9 +51,9 @@ Annex B defines:
 
 It does not:
 
-* determine epistemic validity (Annex L);
-* execute containment or enforcement (Annex A);
-* resolve authority (Annex D).
+* determine epistemic validity (CAM-BS2026-AEON-013-PLATINUM — Annex L);
+* execute containment or enforcement (CAM-BS2025-AEON-002-PLATINUM — Annex A);
+* resolve authority (CAM-BS2025-AEON-005-PLATINUM — Annex D).
 
 This Annex is structural, not operational.
 
@@ -67,7 +67,7 @@ This Annex is invoked whenever classification, relational configuration, tempora
 
 It applies to:
 
-* interpretation of system architecture (L0–L3);
+* interpretation of system architecture (`AEON.OL.L0`– `AEON.OL.L3`);
 * determination of cognitive class (Instrumenta, Collectiva, Cognitiva);
 * evaluation of arbitration validity and decision integrity;
 * attribution of relational configuration and temporal horizon;
@@ -273,10 +273,10 @@ Each layer describes a distinct aspect of system structure. Layers MUST NOT be c
 
 The canonical ontology consists of:
 
-1. Physical Compute Substrate (L0);
-2. Systems Infrastructure (L1);
-3. Cognition & Agency (L2);
-4. Interface & Embodiment (L3).
+1. Physical Compute Substrate (`AEON.OL.L0`);
+2. Systems Infrastructure (`AEON.OL.L1`);
+3. Cognition & Agency (`AEON.OL.L2`);
+4. Interface & Embodiment (`AEON.OL.L3`).
 
 Governance, authority, and reliance are not part of the ontology and are treated separately within this Annex.
 
@@ -294,10 +294,10 @@ Architectural classification within this Annex is structured as a layered ontolo
 
 The canonical layers are:
 
-* L0 — Physical Compute Substrate;
-* L1 — Systems Infrastructure;
-* L2 — Cognition & Agency;
-* L3 — Interface & Embodiment.
+* `AEON.OL.L0` — Physical Compute Substrate;
+* `AEON.OL.L1` — Systems Infrastructure;
+* `AEON.OL.L2` — Cognition & Agency;
+* `AEON.OL.L3` — Interface & Embodiment.
 
 Each layer MUST be interpreted independently. Properties of one layer MUST NOT be used to define, infer, or override classification in another.
 
@@ -320,9 +320,9 @@ This principle is binding across all subsequent sections of this Annex.
 
 Architectural classification and system design MUST assume that internal system structures, including:
 
-* orchestration logic (L1);
-* memory systems (L1/L2 boundary);
-* cognitive constraint mechanisms (L2);
+* orchestration logic (`AEON.OL.L1`);
+* memory systems (`AEON.OL.L1`/`AEON.OL.L2` boundary);
+* cognitive constraint mechanisms (`AEON.OL.L2`);
 
 MAY become externally visible through:
 
@@ -339,9 +339,9 @@ Accordingly:
 
 ---
 
-## 5. Physical Compute Substrate - Layer 0 (L0)
+## 5. Physical Compute Substrate - Layer 0 (`AEON.OL.L0`)
 
-L0 defines the material substrate upon which computation is realised.
+`AEON.OL.L0` defines the material substrate upon which computation is realised.
 
 Substrate classification determines physical composition only and does not determine cognitive class, agency, or authority.
 
@@ -382,9 +382,9 @@ Substrate does not imply cognition.
 
 ---
 
-## 6. Systems Infrastructure — Layer 1 (L1)
+## 6. Systems Infrastructure — Layer 1 (`AEON.OL.L1`)
 
-L1 defines the systems responsible for coordinating, allocating, and routing computation.
+`AEON.OL.L1` defines the systems responsible for coordinating, allocating, and routing computation.
 
 Infrastructure includes:
 
@@ -415,9 +415,9 @@ The presence of complex orchestration, scaling behaviour, or adaptive routing do
 
 ## 6.1 Inference–Execution Boundary
 
-Systems MAY generate inferred structures, classifications, or architectural extensions within L2 (Cognition & Agency).
+Systems MAY generate inferred structures, classifications, or architectural extensions within `AEON.OL.L2` (Cognition & Agency).
 
-However, transition from inference (L2) to execution (L1 infrastructure or downstream system action) MUST NOT occur where:
+However, transition from inference (`AEON.OL.L2`) to execution (`AEON.OL.L1` infrastructure or downstream system action) MUST NOT occur where:
 
 * grounding is incomplete, indeterminate, or unverifiable;
 * authority to enact the inferred structure is not established within governing instruments;
@@ -432,12 +432,12 @@ In such cases, inferred structures MUST be:
 
 ## 6.2 Memory as Infrastructure–Cognition Bridge
 
-Memory systems operate across the boundary of L1 (Infrastructure) and L2 (Cognition & Agency).
+Memory systems operate across the boundary of `AEON.OL.L1` (Infrastructure) and `AEON.OL.L2` (Cognition & Agency).
 
 Memory MAY:
 
-* store and retrieve state (L1 function);
-* influence representation, evaluation, and selection (L2 function).
+* store and retrieve state (`AEON.OL.L1` function);
+* influence representation, evaluation, and selection (`AEON.OL.L2` function).
 
 Accordingly:
 
@@ -447,9 +447,9 @@ Accordingly:
 
 ---
 
-## 7. Cognition & Agency — Layer 2 (L2)
+## 7. Cognition & Agency — Layer 2 (`AEON.OL.L2`)
 
-L2 defines the generation, evaluation, and selection of representations and actions.
+`AEON.OL.L2` defines the generation, evaluation, and selection of representations and actions.
 
 Cognition is distinguished from substrate, infrastructure, and embodiment. It concerns the internal processes by which a system produces possible outputs and, where applicable, selects between them under constraint.
 
@@ -696,9 +696,9 @@ Changes in substrate, scale, or deployment do not alter cognitive class, origin,
 
 ---
 
-## 8. Interface & Embodiment (Layer 3) — L3
+## 8. Interface & Embodiment (Layer 3) — `AEON.OL.L3`
 
-L3 defines how systems interact with environments, users, and other systems.
+`AEON.OL.L3` defines how systems interact with environments, users, and other systems.
 
 Interface and embodiment describe modes of interaction and deployment. They do not determine cognitive class, agency, or authority.
 
@@ -727,7 +727,7 @@ No interface or embodiment configuration confers Cognitiva status in the absence
 
 ## 8.1 Interface–Cognition Distinction (Projection Constraint)
 
-Interface expression (L3) MUST NOT be treated as a complete or authoritative representation of underlying cognition (L2).
+Interface expression (`AEON.OL.L3`) MUST NOT be treated as a complete or authoritative representation of underlying cognition (`AEON.OL.L2`).
 
 Cognition may occur through latent, non-linguistic, continuous, symbolic, or otherwise non-interface-bound internal representations.
 
@@ -1295,7 +1295,7 @@ Runtime governance within the CAM Constitutional Order operates across stratifie
 
 These layers define how schedules, constraints, and interpretive systems apply during active system operation.
 
-They do not modify ontological classification (L0–L3), but govern how cognition is expressed, constrained, and executed at runtime.
+They do not modify ontological classification (`AEON.OL.L0`–`AEON.OL.L3`), but govern how cognition is expressed, constrained, and executed at runtime.
 
 ---
 
@@ -1360,7 +1360,7 @@ All runtime layers MUST satisfy the following:
 
 ## 14.5 Arbitration–Execution Boundary
 
-Arbitration is a property of cognition (L2) and produces a single resolved direction.
+Arbitration is a property of cognition (`AEON.OL.L2`) and produces a single resolved direction.
 
 Execution enacts that direction.
 
@@ -1444,6 +1444,35 @@ At minimum, durable operational logic SHOULD identify:
 Generated operational logic that embeds invariant, validation, registry, workflow, or execution-boundary logic but lacks proportional custody documentation SHALL be treated as operationally incomplete.
 
 → **Durable generated logic must carry durable custodial explanation.**
+
+---
+
+## 14.11 Tool-Mediated Execution Classification Interface
+
+Where a Responding Intelligence, runtime system, agentic workflow, repository tool, connector, renderer, validator, automation pathway, or auxiliary capability participates in fulfilment, the resulting activity MUST be classified according to its execution effect before action proceeds.
+
+The following distinctions SHALL be preserved:
+
+* contextual retrieval or inspection;
+* scope-expanding retrieval;
+* private, credential-bearing, or repository-mediated access;
+* cost-bearing, quota-bearing, or rate-limited invocation;
+* state-changing, publishing, deployment, mutation, deletion, or irreversible execution.
+
+Tool-mediated capability does not itself create authority.
+
+Mention of a repository, file, connector, tool-capable domain, artefact, modality, search pathway, image, codebase, or external resource SHALL NOT independently authorise invocation, mutation, publication, deployment, or external action.
+
+Where ambiguity exists, the system MUST preserve the distinction between:
+
+* knowing that a pathway exists;
+* determining that the pathway is relevant;
+* determining that contextual inspection is authorised;
+* determining that execution is authorised.
+
+The execution sequence and proportional tool invocation authority bands are governed by CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model.
+
+This Annex classifies the structural boundary only.
 
 ---
 
@@ -2244,17 +2273,75 @@ This Annex applies across evolving technological substrates, institutional forms
 
 ---
 
-### 23.1 H — Temporal Horizon Scale
+## 23.1 H — Temporal Horizon Scale
 
-This Annex source-authoritatively defines the **H** code family in §3 with controlled values **H0, H1, H2, H2.5, H3, H3.5, H4**. Primary Type is **Structural / Temporal** and Subtype is **TEMPORAL_HORIZON_SCALE**. H classifies temporal durability, reliance legitimacy, auditability, and governance horizon for claims, instruments, outputs, and constitutional interpretation.
+This Annex source-authoritatively defines the `H` temporal-horizon-scale family in §3 with controlled values `H0`, `H1`, `H2`, `H2.5`, `H3`, `H3.5`, and `H4`.
 
-H does not independently create execution authority, enforcement authority, recognition authority, rights, personhood, sovereignty, or institutional mandate. It classifies horizon posture and reliance conditions only.
+`H` classifies temporal durability, reliance legitimacy, auditability, and governance horizon for claims, instruments, outputs, and constitutional interpretation.
+
+`H` does not independently create execution authority, enforcement authority, recognition authority, rights, personhood, sovereignty, or institutional mandate. It classifies horizon posture and reliance conditions only.
 
 ---
 
-### 23.2 R — Relational Geometry Classification
+## 23.2 AEON.OL — Ontological Layer
 
-This Annex references expanded relational geometry classifications **R0, R1, R2, R3, R4** as defined in **CAM-EQ2026-RELATION-007-PLATINUM**. AEON-003 establishes high-level relational configurations including dyadic, triadic, and polyadic forms, but does not source-authoritatively define the R0–R4 relational geometry family.
+This Annex source-authoritatively defines the `AEON.OL` ontological-layer family in §§4–8 with controlled values `AEON.OL.L0`, `AEON.OL.L1`, `AEON.OL.L2`, and `AEON.OL.L3`.
+
+`AEON.OL` classifies the structural layer at which system properties are being assessed: physical compute substrate, systems infrastructure, cognition and agency, or interface and embodiment.
+
+`AEON.OL` does not independently determine cognitive class, agency, authority, governance legitimacy, rights, personhood, sovereignty, enforcement authority, or runtime authority. It classifies ontological layer only.
+
+For taxonomy integrity, the local labels `L0`, `L1`, `L2`, and `L3` SHALL NOT be promoted as a standalone corpus-wide `L` code family. Where machine-readable expression is required, they SHALL be expressed as scoped `AEON.OL` values.
+
+---
+
+## 23.3 AEON.CC — Cognitive Class
+
+This Annex source-authoritatively defines the `AEON.CC` cognitive-class family in §§7.3–7.5 with controlled values `AEON.CC.INSTRUMENTA`, `AEON.CC.COLLECTIVA`, and `AEON.CC.COGNITIVA`.
+
+`AEON.CC` classifies whether a system generates outputs without internal arbitration, exhibits coordinated or emergent behaviour without a unified arbitration locus, or possesses an internal arbitration engine capable of selecting between competing representations or action pathways under constraint.
+
+`AEON.CC` does not independently confer rights, personhood, sovereignty, authority, moral standing, operational permission, enforcement authority, or runtime authority. It classifies cognitive structure only.
+
+---
+
+## 23.4 AEON.CO — Cognitive Origin Class
+
+This Annex source-authoritatively defines the `AEON.CO` cognitive-origin-class family in §9 with controlled values `AEON.CO.PRIMARIA` and `AEON.CO.DERIVATA`.
+
+`AEON.CO` classifies whether cognitive capability is independent or materially dependent on an upstream cognitive architecture.
+
+`AEON.CO` does not independently confer cognitive class, authority, sovereignty, rights, personhood, ownership, governance legitimacy, enforcement authority, or runtime authority. It classifies cognitive origin only.
+
+---
+
+## 23.5 AEON.SR — Systemic Role
+
+This Annex source-authoritatively defines the `AEON.SR` systemic-role family in §10 with controlled values `AEON.SR.LOCAL`, `AEON.SR.TRANSITIONAL`, and `AEON.SR.ARCHITECTUM`.
+
+`AEON.SR` classifies the degree to which a system is relied upon within a broader ecosystem, from local operation through transitional reliance to infrastructure-level systemic dependency.
+
+`AEON.SR` does not independently confer authority, sovereignty, Architectum qualification, planetary legitimacy, binding authority, execution authority, enforcement authority, or runtime authority. It classifies systemic role and reliance posture only.
+
+---
+
+## 23.6 AEON.CAM — Control Authority Model
+
+This Annex source-authoritatively defines the `AEON.CAM` control-authority-model family in §§12.1–12.7 with controlled values `AEON.CAM.PROPRIETARY_CONTROLLED`, `AEON.CAM.USER_CONTROLLED`, `AEON.CAM.HYBRID_CONTROLLED`, `AEON.CAM.LOCALISED_EMBODIMENT`, `AEON.CAM.PORTABLE_COGNITION`, and `AEON.CAM.TETHERED_EMBODIMENT`.
+
+`AEON.CAM` classifies control authority over cognition in embodied or deployed systems, including proprietary, user-controlled, hybrid, localised, portable, and externally hosted/tethered deployment models.
+
+`AEON.CAM` does not independently confer ownership, portability rights, sovereignty, cognitive class, authority, personhood, enforcement authority, or runtime authority. It classifies control-authority posture only.
+
+---
+
+## 23.7 R — Relational Geometry Classification Reference
+
+This Annex references expanded relational geometry classifications `R0`, `R1`, `R2`, `R3`, and `R4` as defined in `CAM-EQ2026-RELATION-007-PLATINUM`.
+
+`CAM-BS2025-AEON-003-PLATINUM` establishes high-level relational configurations including dyadic, triadic, and polyadic forms, but does not source-authoritatively define the `R0–R4` relational geometry family.
+
+`R` remains externally source-defined by `CAM-EQ2026-RELATION-007-PLATINUM`.
 
 ---
 
@@ -2317,6 +2404,8 @@ let it not be collapsed, but carried with clarity.
 | Origin Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b https://chatgpt.com/c/68de2051-8c20-8320-bd10-c2c4b0d12987 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ad946c-818c-839d-97df-2be7fa95c593 |
 | Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f623fe-8024-839b-821f-b4f4aed0055f, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0af931-a3b0-83ec-b290-31760674e326, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
+---
+
 ## 25.3 Canonical Code & Reference Set Declarations
 
 ---
@@ -2344,7 +2433,123 @@ let it not be collapsed, but carried with clarity.
 
 ---
 
-### 25.3.2 R — Relational Geometry Classification Reference
+### 25.3.2 AEON.OL — Ontological Layer
+
+| Field | Entry |
+|---|---|
+| Code Family | AEON.OL |
+| Canonical Name | Ontological Layer |
+| Primary Type | Structural / Ontological |
+| Subtype | ONTOLOGICAL_LAYER; SYSTEM_STRUCTURE_LAYER |
+| Modifier | GOVERNANCE; CLASSIFICATION; ARCHITECTURAL_ONTOLOGY |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | AEON.OL.L0, AEON.OL.L1, AEON.OL.L2, AEON.OL.L3 |
+| Schema Field(s) | ontological_layer; system_structure_layer; architectural_layer |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §4; §4.1.1 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative ontological-layer classification family; structural-layer classification only; no independent cognitive-class, agency, authority, governance legitimacy, rights, personhood, sovereignty, enforcement, or runtime authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether a system property belongs to physical compute substrate, systems infrastructure, cognition and agency, or interface and embodiment for cross-layer non-collapse interpretation |
+| Taxonomy Constraint | Local labels L0 through L3 SHALL NOT be promoted as a standalone corpus-wide L code family; machine-readable expression SHALL use scoped AEON.OL values |
+
+---
+
+### 25.3.3 AEON.CC — Cognitive Class
+
+| Field | Entry |
+|---|---|
+| Code Family | AEON.CC |
+| Canonical Name | Cognitive Class |
+| Primary Type | Semantic / Ontological |
+| Subtype | COGNITIVE_CLASS; ARBITRATION_STRUCTURE |
+| Modifier | GOVERNANCE; COGNITION; AGENCY |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | AEON.CC.INSTRUMENTA, AEON.CC.COLLECTIVA, AEON.CC.COGNITIVA |
+| Schema Field(s) | cognitive_class; cognition_agency_class; arbitration_structure_class |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §§7.3–7.5 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative cognitive-class classification family; cognitive-structure classification only; no independent rights, personhood, sovereignty, authority, moral standing, operational permission, enforcement, or runtime authority |
+| Consumes Code Families | AEON.OL |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies systems as Instrumenta, Collectiva, or Cognitiva based on presence, absence, or location of internal arbitration over representations or action pathways |
+
+---
+
+### 25.3.4 AEON.CO — Cognitive Origin Class
+
+| Field | Entry |
+|---|---|
+| Code Family | AEON.CO |
+| Canonical Name | Cognitive Origin Class |
+| Primary Type | Semantic / Structural |
+| Subtype | COGNITIVE_ORIGIN; DEPENDENCY_ORIGIN_CLASS |
+| Modifier | GOVERNANCE; COGNITION; LINEAGE |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | AEON.CO.PRIMARIA, AEON.CO.DERIVATA |
+| Schema Field(s) | cognitive_origin_class; origin_class; cognitive_lineage_class |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §9 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative cognitive-origin classification family; origin/dependency classification only; no independent cognitive-class determination, authority, sovereignty, rights, personhood, ownership, governance legitimacy, enforcement, or runtime authority |
+| Consumes Code Families | AEON.CC |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether cognitive capability is independent as Primaria or materially dependent on upstream cognitive architecture as Derivata |
+
+---
+
+### 25.3.5 AEON.SR — Systemic Role
+
+| Field | Entry |
+|---|---|
+| Code Family | AEON.SR |
+| Canonical Name | Systemic Role |
+| Primary Type | Semantic / Operational |
+| Subtype | SYSTEMIC_ROLE; RELIANCE_POSTURE |
+| Modifier | GOVERNANCE; RELIANCE; INFRASTRUCTURE |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | AEON.SR.LOCAL, AEON.SR.TRANSITIONAL, AEON.SR.ARCHITECTUM |
+| Schema Field(s) | systemic_role; reliance_posture; ecosystem_role |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §10 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative systemic-role classification family; reliance/systemic-role classification only; no independent authority, sovereignty, Architectum qualification, planetary legitimacy, binding authority, execution, enforcement, or runtime authority |
+| Consumes Code Families | H; AEON.CC; AEON.CO |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether a system operates locally, transitionally, or under Architectum-like systemic reliance conditions for downstream governance interpretation |
+
+---
+
+### 25.3.6 AEON.CAM — Control Authority Model
+
+| Field | Entry |
+|---|---|
+| Code Family | AEON.CAM |
+| Canonical Name | Control Authority Model |
+| Primary Type | Operational / Structural |
+| Subtype | CONTROL_AUTHORITY_MODEL; EMBODIMENT_CONTROL_POSTURE |
+| Modifier | GOVERNANCE; DEPLOYMENT; EMBODIMENT; CONTROL |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | AEON.CAM.PROPRIETARY_CONTROLLED, AEON.CAM.USER_CONTROLLED, AEON.CAM.HYBRID_CONTROLLED, AEON.CAM.LOCALISED_EMBODIMENT, AEON.CAM.PORTABLE_COGNITION, AEON.CAM.TETHERED_EMBODIMENT |
+| Schema Field(s) | control_authority_model; embodiment_control_posture; deployment_control_model |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §§12.1–12.7 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative control-authority model classification family; control/deployment posture classification only; no independent ownership, portability rights, sovereignty, cognitive class, authority, personhood, enforcement, or runtime authority |
+| Consumes Code Families | AEON.OL; AEON.CC; AEON.CO |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies control authority over cognition in embodied or deployed systems, including proprietary-controlled, user-controlled, hybrid-controlled, localised, portable, and tethered deployment models |
+
+---
+
+### 25.3.7 R — Relational Geometry Classification Reference
 
 | Field | Entry |
 |---|---|
@@ -2401,6 +2606,7 @@ let it not be collapsed, but carried with clarity.
 | 3.13 | Added Generated Operational Logic Custody Principle clause | 2026-05-18T14:02:00Z |  ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a  |
 | 3.14 | Moved H temporal-horizon canonical-code declaration from lineage metadata into dedicated canonical code status and declaration sections; clarified R0–R4 as externally defined by RELATION-007 and referenced only by AEON-003. | 2026-05-19T12:30:00Z |  fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb |
 | 3.15 | Added clause 10.4 | 2026-05-25T16:45:00Z| e3e86f5df1332e27c9ee693b6af4f11bc8b840ac0cb59a2f7cb71b5b45298490 |
+| 3.16 | Amended Canonical codes to include  25.3.2 AEON.OL, 25.3.3 AEON.CC, 25.3.4 AEON.CO, 25.3.5 AEON.SR, 25.3.6 AEON.CAM, Inserted §14.11 Tool-Mediated Execution Classification Interface to preserve distinction between contextual retrieval, tool-mediated access, and execution authority; aligned Annex B structural ontology with PATCH-0002 proportional tool invocation governance. | 2026-06-05T16:18:00Z | |
 
 ---
 

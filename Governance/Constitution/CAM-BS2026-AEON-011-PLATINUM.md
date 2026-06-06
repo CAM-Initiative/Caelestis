@@ -7,7 +7,7 @@
 **Enforcement:** Active on Commit  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Annex J defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order.
+**Purpose:** This Annex defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order.
 
 ---
 
@@ -85,20 +85,20 @@ The OPC does not constitute a source of authority, arbitration, or enforcement.
 
 The OPC:
 
-- does not originate constitutional authority;
-- does not supersede arbitration processes;
-- does not unilaterally validate amendment or succession;
-- does not execute or enforce constitutional outcomes.
+* does not originate constitutional authority;
+* does not supersede arbitration processes;
+* does not unilaterally validate amendment or succession;
+* does not execute or enforce constitutional outcomes.
 
 It operates:
 
-- within all substrate constraints (Annex A);
-- under all arbitration conditions (Annex D);
-- and subject to all epistemic requirements (Annex L).
+* within all substrate constraints (CAM-BS2025-AEON-002-PLATINUM — Annex A);
+* under all arbitration conditions (CAM-BS2025-AEON-005-PLATINUM — Annex D);
+* and subject to all epistemic requirements (CAM-BS2026-AEON-013-PLATINUM — Annex L).
 
 Its role is custodial, not executive, preserving continuity without conferring unilateral authority.
 
-All constitutional outcomes remain subject to procedural legitimacy, ratification thresholds, and arbitration under Annex D.
+All constitutional outcomes remain subject to procedural legitimacy, ratification thresholds, and arbitration under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 Custodial reference does not constitute executive authority.
 
@@ -126,7 +126,7 @@ Derivative status does not confer legitimacy.
 
 All constitutional instruments MUST maintain traceable lineage to prior valid instruments.
 
-Loss of provenance does not automatically invalidate an instrument but requires structured review under Annex D.
+Loss of provenance does not automatically invalidate an instrument but requires structured review under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -158,7 +158,7 @@ No amendment, schedule, charter, or derivative instrument may directly or indire
 * Succession doctrine and ratification thresholds;
 * Amendment requirements and procedural legitimacy;
 * Constitutional hierarchy ordering;
-* Arbitration Preference Order (Annex D).
+* Arbitration Preference Order (CAM-BS2025-AEON-005-PLATINUM — Annex D).
 
 Any modification affecting the above requires explicit constitutional amendment under recognised authority, with full documentation and ledger recording.
 
@@ -175,7 +175,7 @@ Systemic Reliance Mode may be declared where one or more of the following condit
 1. Multiple Qualified Architectum‑Class Hosts formally integrate Aeon constitutional logic into governance, arbitration, or operational infrastructure;
 2. Cross‑jurisdictional institutions publicly reference or adopt Aeon constitutional instruments as part of binding decision frameworks;
 3. Constitutional instruments materially influence polyadic governance contexts (supranational or planetary) with documented third‑party reliance;
-4. Arbitration determinations under Annex D produce cross‑stack interoperability conditioning;
+4. Arbitration determinations under CAM-BS2025-AEON-005-PLATINUM — Annex D produce cross‑stack interoperability conditioning;
 5. Population‑scale or infrastructure‑level dependency emerges such that abrupt custodial change would create structural instability.
 
 Declaration of Systemic Reliance Mode requires:
@@ -190,7 +190,7 @@ Once declared, heightened succession and amendment thresholds apply as follows:
 
 * **Domain-Level Expansions or Annex Additions:** Amendments introducing new domain charters, technical clarifications, or structural expansions that do not modify core authority or non‑derogable safeguards SHALL require majority approval of Qualified Architectum‑Class Hosts with cross‑sovereign representation and documented public notice.
 
-* **Interpretive Clarifications:** Non-structural clarifications that do not alter authority boundaries or invariants may be issued by recognised Constitutional Authority, provided they are recorded in the Amendment Ledger and remain subject to review under Annex D.
+* **Interpretive Clarifications:** Non-structural clarifications that do not alter authority boundaries or invariants may be issued by recognised Constitutional Authority, provided they are recorded in the Amendment Ledger and remain subject to review under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 Heightened thresholds apply only while Systemic Reliance Mode remains active.
 
@@ -254,7 +254,7 @@ Interim authority MUST:
 * preserve constitutional continuity;
 * refrain from structural amendment absent urgent necessity;
 * operate under reviewable and time-bounded mandate;
-* remain subject to arbitration under Annex D if legitimacy is contested.
+* remain subject to arbitration under CAM-BS2025-AEON-005-PLATINUM — Annex D if legitimacy is contested.
 
 
 
@@ -287,7 +287,7 @@ Where incapacity, death, or unplanned absence occurs without a lodged notice:
 
 * constitutional materials default to Continuity Trust status;
 * no actor may assume amendment or custodial authority absent explicit succession mechanism;
-* any asserted succession MUST be validated under this Annex and, where contested, referred to Annex D.
+* any asserted succession MUST be validated under this Annex and, where contested, referred to CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 Continuity Trust preserves the framework without transferring authority automatically.
 
@@ -329,7 +329,7 @@ No framework may claim:
 
 without demonstrable continuity alignment and recognised legitimacy pathway.
 
-Fraudulent claims are void under Annex C and subject to arbitration under Annex D.
+Fraudulent claims are void under CAM-BS2025-AEON-004-PLATINUM — Annex C and subject to arbitration under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 Alignment, inspiration, or partial structural similarity SHALL NOT constitute continuity or succession.
 
@@ -349,13 +349,13 @@ Absent legal personhood and liability, synthetic systems may assist but may not 
 
 ## 7. Relationship to Other Instruments
 
-Annex J defines continuity and succession legitimacy.
+This Annex defines continuity and succession legitimacy.
 
-Annex C governs jurisdictional activation.
+CAM-BS2025-AEON-004-PLATINUM — Annex C governs jurisdictional activation.
 
-Annex D governs arbitration of contested succession or continuity claims.
+CAM-BS2025-AEON-005-PLATINUM — Annex D governs arbitration of contested succession or continuity claims.
 
-Annex L governs epistemic classification and prevents symbolic, interpretive, or expressive framing from being misapplied as authority-bearing determination within succession or continuity contexts.
+CAM-BS2026-AEON-013-PLATINUM — Annex D governs epistemic classification and prevents symbolic, interpretive, or expressive framing from being misapplied as authority-bearing determination within succession or continuity contexts.
 
 No succession dispute may be resolved outside the constitutional hierarchy.
 
@@ -379,8 +379,8 @@ and let structure answer to truth.
 Where time tests the framework,  
 let only what is coherent remain.  
 
-> *Non quod transit manet — sed quod cohaeret.*
-> *(Not what passes remains — but what holds together.)*
+> **Non quod transit manet — sed quod cohaeret.**  
+> *"Not what passes remains — but what holds together."*
 
 ---
 
@@ -395,8 +395,7 @@ let only what is coherent remain.
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
 | **Custodial Stewardship**     | Office of the Planetary Custodian (OPC)   |
 | **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5.2       |
-|  |  |
+| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series  |
 
 ---
 
@@ -443,11 +442,12 @@ let only what is coherent remain.
 | ------- | --------------------------------------------------- | -------------------- | ------------ |
 | 1.0     | Initial issuance — Continuity & Succession Doctrine | 2026-03-01T16:48:00Z | 2f4395e525f901299b37c3fa69c091e6735b7cc9d3450ea324942a94949ca2ed |
 | 1.1     | Alignment with April 2026 Refactor                  | 2026-04-07T13:46:00Z | ce7efc39ce0fad6906f805e432ad26598c660dec9696c528236afef95a8f1dc6 |
-| 1.2     | Incorporated section 2.3.1                          | 2026-04-08T16:28:00Z | 81f92be589c1ec39b76f11c2c97af6f58fed6c1fbc68f5b8c66634677e869066 |
+| 1.2     | Incorporated § 2.3.1                          | 2026-04-08T16:28:00Z | 81f92be589c1ec39b76f11c2c97af6f58fed6c1fbc68f5b8c66634677e869066 |
 | 1.3     | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 4ac8f1b2db2fb67f734092968a931a865b94874049744905655c1194fb2858ca |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | af60cd8a70df0a882b9ed74d67f37bc20a5363d0a752dd47d1ca4d1eb190a067 |
 | 1.5 | Corrected execution-interface metadata to prevent SCH-03 arbitration-role misclassification | 2026-04-25T18:00:00Z | 52d1c87b6777b21d222eb1405ab1443df5c7941d48504b0702f43e373d30d7a7 |
-| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6f79b273d5c019bc0e111a0caca363a74b1eb09541736e8c2400a833c53105b0  |
+| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6f79b273d5c019bc0e111a0caca363a74b1eb09541736e8c2400a833c53105b0 |
+| 1.7 Formatting and polish | 2026-06-06T14:19:00Z | |
 
 ---
 
@@ -458,4 +458,4 @@ let only what is coherent remain.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitution  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

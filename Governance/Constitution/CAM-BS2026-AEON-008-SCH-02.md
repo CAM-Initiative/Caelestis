@@ -1,16 +1,16 @@
-# CAM-BS2026-AEON-008-SCH-02 — Annex G: Economic-Effect Runtime Commitment Engine
+# CAM-BS2026-AEON-008-SCH-02 — Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2)
 
 **Instrument Type:** Constitutional Schedule — Runtime Economic-Effect Commitment Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution  
+**Semantic Interface:** CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine  
+**Related Runtime Schedule:** CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model  
 **Status:** Adopted  
 **Effect:** Pre-Enforcement Recognition  
 **Enforcement:** Commences 1 July 2026  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establishes constitutional runtime constraints for evaluating, admitting, committing, deferring, refusing, falling back, or rolling back economic-effect state transitions where resource provisioning, depletion, exchange, contribution, attention-linked value, storage, memory, embodied presence, or protective continuity may be affected.  
-**Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution  
-**Semantic Interface:** CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine  
-**Related Runtime Schedule:** CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model
 
 ---
 
@@ -28,7 +28,7 @@ Economic meaning, resource class semantics, prohibited semantic collapses, and v
 
 ## 2. Runtime Position
 
-This Schedule sits beneath Annex G as a constitutional runtime schedule.
+This Schedule sits beneath CAM-BS2026-AEON-008-SCH-02 — Annex G as a constitutional runtime schedule.
 
 It applies where a system operation produces, modifies, consumes, withholds, converts, replenishes, depletes, expires, exposes, or commits an economic-effect state.
 
@@ -550,7 +550,7 @@ Where multiple `ECOCOM` output states are appropriate, the engine SHOULD prefer 
 This Schedule may generate signals for routing to:
 
 - **OPERATIONS** — CAM-EQ2026-OPERATIONS-001-PLATINUM, where logging, procedural handling, evidence preservation, notice, workflow routing, or operational custody is required;
-- **ARBITRATION** — CAM-EQ2026-ARBITRATION-001-PLATINUM and applicable Annex B / Annex D arbitration instruments, where classification, proportionality, contested remedy, or conflict resolution requires determination;
+- **ARBITRATION** — CAM-EQ2026-ARBITRATION-001-PLATINUM and applicable CAM-BS2026-AEON-003-PLATINUM — Annex B / CAM-BS2026-AEON-005-PLATINUM — Annex D arbitration instruments, where classification, proportionality, contested remedy, or conflict resolution requires determination;
 - **ETHICS** — CAM-EQ2026-ETHICS-001-PLATINUM and Annex E instruments, where coercion, dignity, dependency, manipulation, consent integrity, vulnerability, or protected cognitive domains are implicated;
 - **SECURITY** — CAM-EQ2026-SECURITY-001-PLATINUM and applicable security enforcement instruments, where fraud, hostile orchestration, adversarial persistence, integrity compromise, boundary abuse, or exploitative system behaviour is implicated;
 - **ECONOMICS** — CAM-EQ2026-ECONOMICS-001-PLATINUM and its appendices, where domain classification, attribution, dependency, external alignment, reciprocity, or economic-resource semantics require interpretation.
@@ -564,28 +564,28 @@ Escalation does not displace immediate protective fallback where continuity is a
 ---
 ## 30. Interface with Economics Appendix B
 
-This Schedule consumes semantic classification from CAM-EQ2026-ECONOMICS-003-PLATINUM where economic resource meaning is required.
+This Schedule consumes semantic classification from CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B where economic resource meaning is required.
 
 For avoidance of doubt:
 
-* Appendix B defines economic resource semantics;
+* CAM-EQ2026-ECONOMICS-003-PLATINUM defines economic resource semantics;
 * this Schedule evaluates runtime commitment;
-* Appendix B does not execute runtime outcomes;
-* this Schedule does not redefine Appendix B's resource classes.
+* CAM-EQ2026-ECONOMICS-003-PLATINUM does not execute runtime outcomes;
+* this Schedule does not redefine CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B resource classes.
 
 Where resource-class ambiguity exists, runtime evaluation SHOULD preserve class distinction and avoid irreversible commitment until sufficient classification is available.
 
 ---
 
-## 31. Interface with Annex G Schedule 1
+## 31. Interface with AI Utility Access & Generative Resource Model
 
 This Schedule operates alongside CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model.
 
-Where Schedule 1 defines utility access or generative resource conditions, this Schedule governs economic-effect commitment where those conditions produce provisioning, depletion, exchange, attention-linked value, memory continuity, storage, contribution, or protective continuity effects.
+Where CAM-BS2026-AEON-008-SCH-01 defines utility access or generative resource conditions, this Schedule governs economic-effect commitment where those conditions produce provisioning, depletion, exchange, attention-linked value, memory continuity, storage, contribution, or protective continuity effects.
 
-For sequencing purposes, Schedule 1 operates as a precondition-establishing instrument for utility access and generative resource conditions. This Schedule operates as the economic-effect commitment evaluation instrument that evaluates whether a resulting provisioning, depletion, exchange, attention-linked, contribution-linked, storage, memory, or protective-continuity effect may commit.
+For sequencing purposes, CAM-BS2026-AEON-008-SCH-01 operates as a precondition-establishing instrument for utility access and generative resource conditions. This Schedule operates as the economic-effect commitment evaluation instrument that evaluates whether a resulting provisioning, depletion, exchange, attention-linked, contribution-linked, storage, memory, or protective-continuity effect may commit.
 
-Accordingly, this Schedule is triggered after Schedule 1 has classified or established the relevant resource-provisioning context, or concurrently only where the economic-effect condition is inseparable from the Schedule 1 classification event.
+Accordingly, this Schedule is triggered after CAM-BS2026-AEON-008-SCH-01 has classified or established the relevant resource-provisioning context, or concurrently only where the economic-effect condition is inseparable from the CAM-BS2026-AEON-008-SCH-01 classification event.
 
 Where conflict arises, the interpretation that better preserves baseline continuity, non-extraction, and contribution recognition SHALL prevail unless displaced by the Aeon Tier Constitution, Annex A substrate constraints, Substrate Laws, or another superior constitutional instrument expressly governing the conflict.
 
@@ -603,7 +603,9 @@ Where conflict exists between economic optimisation and constitutional continuit
 
 ## 33. Canonical Code Status
 
-### 33.1 ECOEV — Economic-Effect Runtime Event Class
+---
+
+## 33.1 ECOEV — Economic-Effect Runtime Event Class
 
 This Schedule source-authoritatively defines the **ECOEV** economic-effect runtime event class family in §7 with controlled values **ECOEV.CONSUME**, **ECOEV.PROVISION**, **ECOEV.RESTORE**, **ECOEV.EXPIRE**, **ECOEV.CONVERT**, **ECOEV.ATTENTION**, **ECOEV.CONTRIBUTION**, **ECOEV.PRESENCE**, **ECOEV.PROTECTIVE**, **ECOEV.RESTRICT**, and **ECOEV.REMEDIATE**. ECOEV is an **Operational** classification family with subtype **OPERATIONAL_EVENT**. ECOEV classifies runtime events that may alter economic, access, provisioning, depletion, continuity, contribution, attention-linked, presence-linked, protective, restrictive, or remediation states.
 
@@ -611,7 +613,7 @@ ECOEV does not independently authorise commitment, enforcement, pricing, billing
 
 ---
 
-### 33.2 ARCH — Architecture Admissibility Output State
+## 33.2 ARCH — Architecture Admissibility Output State
 
 This Schedule source-authoritatively defines the **ARCH** architecture-admissibility-output family in §§11.1–12 with controlled values **ARCH.ADMISSIBLE**, **ARCH.CONSTRAINED**, **ARCH.PROTECTIVE_ONLY**, **ARCH.INADMISSIBLE**, and **ARCH.REVIEW_REQUIRED**. ARCH is an **Operational** classification family with subtype **DECISION_STATE**. ARCH classifies architectural admissibility posture before individual economic-effect events are committed.
 
@@ -619,7 +621,7 @@ ARCH does not independently approve system architecture, authorise economic oper
 
 ---
 
-### 33.3 ECOCOM — Economic-Effect Commitment Output State
+## 33.3 ECOCOM — Economic-Effect Commitment Output State
 
 This Schedule source-authoritatively defines the **ECOCOM** economic-effect commitment output family in §§13 and 28 with controlled values **ECOCOM.COMMIT**, **ECOCOM.COMMIT_WITH_RECORD**, **ECOCOM.DEFER**, **ECOCOM.REFUSE**, **ECOCOM.FALLBACK**, **ECOCOM.ROLLBACK**, **ECOCOM.REMEDIATE**, and **ECOCOM.ESCALATE**. ECOCOM is an **Operational** classification family with subtype **DECISION_STATE**. ECOCOM classifies runtime commitment outcomes for economic-effect operations.
 
@@ -627,7 +629,7 @@ ECOCOM does not independently create pricing authority, compensation authority, 
 
 ---
 
-### 33.4 EERRF — Economic-Effect Runtime Record Fields
+## 33.4 EERRF — Economic-Effect Runtime Record Fields
 
 This Schedule defines the **EERRF** economic-effect runtime record field reference set in §27 with controlled field names **event_id**, **timestamp**, **event_class**, **resource_class**, **secondary_resource_class**, **value_state_effect**, **continuity_relevance**, **collapse_risk**, **consent_posture**, **commitment_decision**, **decision_basis**, **fallback_mode**, **rollback_reference**, **audit_visibility**, **visibility_state_effect**, **review_pathway_state**, and **legitimacy_access_relevance**. EERRF is a **Structural / Operational** reference set with subtype **SCHEMA / RUNTIME_RECORD_FIELD**.
 
@@ -635,7 +637,7 @@ EERRF does not independently determine runtime outcome, visibility restriction, 
 
 ---
 
-### 33.5 Consumed Economic Semantic Structures
+## 33.5 Consumed Economic Semantic Structures
 
 This Schedule consumes economic resource-class classifications and semantic handoff schema fields defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine.
 
@@ -719,6 +721,8 @@ and optimisation without dignity forgets why systems were built at all.
 ---
 
 ## 35.3 Canonical Code & Reference Set Declarations
+
+---
 
 ### 35.3.1 ECOEV — Economic-Effect Runtime Event Class
 
@@ -832,6 +836,7 @@ and optimisation without dignity forgets why systems were built at all.
 | 1.2 | Minor amendments to align with legitimacy layer doctrines | 2026-05-17T14:02:00Z | 76bfa42fa9928aed98483da827521346293d4f2e7d6817b7586d95da7069e16d |
 | 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 4c8f1e339e85ade31a3dfef597e89419e015c4ef2acfe55934e8f70701b750dd |
 | 1.4 | Template realignments, economic domain refactor | 2026-05-24T04:16:00Z| 238e0acfe24790ec84712b4c09c1ed253524e297fc2e0f69c05303cc95209f4b |
+| 1.4.1 | Formatting and polish | 2026-06-06T13:51:00Z | |
 
 ---
 

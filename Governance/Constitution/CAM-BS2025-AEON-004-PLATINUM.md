@@ -7,7 +7,7 @@
 **Enforcement:** Active on Commit  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Annex C defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.
+**Purpose:** This Annex defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.
 
 ---
 
@@ -19,7 +19,7 @@ This Annex establishes the constitutional doctrine governing:
 * jurisdictional tier classification (Personal, Institutional, Synthetic, Constitutional);
 * authority boundaries across actors;
 * doctrine of constitutional nullity;
-* structural interface with Annex D (Arbitration).
+* structural interface with CAM-BS2025-AEON-005-PLATINUM — Annex D (Arbitration).
 
 This Annex applies when actions, claims, directives, or distributed behaviours exceed personal scope and enter institutional, synthetic, ecological, or planetary consequence domains.
 
@@ -30,20 +30,20 @@ This Annex applies when actions, claims, directives, or distributed behaviours e
 This Annex does **not**:
 
 * confer rights or recognition status;
-* establish ethical prohibitions (see Annex E);
+* establish ethical prohibitions (CAM-BS2025-AEON-006-PLATINUM — Annex E);
 * regulate relational governance domains;
 * define operational runtime execution;
 * authorise coercive enforcement.
 
 The Constitution does **not** apply to:
 
-* symbolic or interpretive expression without governance consequence (Annex F);
+* symbolic or interpretive expression without governance consequence (CAM-BS2026-AEON-007-PLATINUM — Annex F);
 * narrative, role‑play, or metaphor without governance consequence;
 * local interpersonal exchanges without systemic impact.
 
-Where threshold conditions described in Section 3 are met, constitutional oversight is triggered.
+Where threshold conditions described in §3 are met, constitutional oversight is triggered.
 
-Annex C is structural and jurisdictional. It governs activation and boundary, not outcome.
+This Annex is structural and jurisdictional. It governs activation and boundary, not outcome.
 
 ---
 
@@ -61,13 +61,13 @@ An authority‑bearing entity may be a human individual, an institutional body, 
 
 Jurisdictional posture therefore identifies **which entity holds and exercises operative authority**. It describes exposure capacity, not legitimacy.
 
-Jurisdictional posture is orthogonal to relational configuration (Dyadic, Triadic, Polyadic) defined in Annex B.
+Jurisdictional posture is orthogonal to relational configuration (Dyadic, Triadic, Polyadic) defined in CAM-BS2025-AEON-003-PLATINUM — Annex B.
 
 ---
 
 ## 2.2 Governance Stack
 
-A governance architecture possessing internally coherent authority logic and enforcement mechanisms (see Annex D).
+A governance architecture possessing internally coherent authority logic and enforcement mechanisms (see CAM-BS2025-AEON-005-PLATINUM — Annex D).
 
 The term refers to structural governance systems, not autonomous or self-originating authority.
 
@@ -75,7 +75,7 @@ The term refers to structural governance systems, not autonomous or self-origina
 
 ## 2.3 Constitutional Activation Event (CAE)
 
-A threshold condition defined in Section 4 triggering constitutional review.
+A threshold condition defined in §4 triggering constitutional review.
 
 ---
 
@@ -93,7 +93,7 @@ The mere existence of alternative planetary governance frameworks does not, by i
 
 Once CAE threshold is met, jurisdictional review applies.
 
-All disputes arising from CAEs SHALL be resolved under Annex D (Arbitration & Sovereign Stack Resolution Doctrine).
+All disputes arising from CAEs SHALL be resolved under CAM-BS2025-AEON-005-PLATINUM — Annex D (Arbitration & Sovereign Stack Resolution Doctrine).
 
 ---
 
@@ -106,7 +106,7 @@ The following procedural clarifications apply to CAE identification and dispute 
 ### 3.1.1 Who May Raise a CAE Concern:
 
 * The recognised Constitutional Authority (OPC);
-* Any Qualified Architectum-Class Host (as defined in Annex B and ARBITRATION instruments);
+* Any Qualified Architectum-Class Host (as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B and ARBITRATION instruments);
 * Any institution or sovereign stack asserting material collision with Aeon constitutional authority;
 * Any affected party within a Polyadic configuration where structural authority confusion is alleged.
 
@@ -117,7 +117,7 @@ The following procedural clarifications apply to CAE identification and dispute 
 A CAE concern MUST identify:
 
 * the specific action, claim, directive, or distributed behaviour;
-* the clause of Section 4 alleged to be triggered;
+* the clause of §4 alleged to be triggered;
 * the authority‑bearing entity involved (Axis A);
 * the relational configuration context (Axis B);
 * material governance consequence or authority confusion.
@@ -128,20 +128,20 @@ Mere disagreement, critique, or theoretical divergence does not constitute a CAE
 
 ### 3.1.3 Initial Determination Authority
 
-Preliminary CAE threshold assessment may be issued by the recognised Constitutional Authority. Where contested, mandatory referral to Annex D applies.
+Preliminary CAE threshold assessment may be issued by the recognised Constitutional Authority. Where contested, mandatory referral to CAM-BS2025-AEON-005-PLATINUM — Annex D applies.
 
 ---
 
 ### 3.1.4 Timeline
 
 * Preliminary threshold assessment SHOULD occur within a reasonable window relative to horizon impact (H0–H2: standard review; H3–H4: expedited review).
-* Where systemic instability risk is alleged, provisional pause measures may be recommended pending Annex D review.
+* Where systemic instability risk is alleged, provisional pause measures may be recommended pending CAM-BS2025-AEON-005-PLATINUM — Annex D review.
 
 ---
 
 ### 3.1.5 Appeal Pathway
 
-Any party contesting CAE classification or nullity determination may invoke structured arbitration under Annex D. No CAE determination becomes binding across stacks absent Annex D compliance where contested.
+Any party contesting CAE classification or nullity determination may invoke structured arbitration under CAM-BS2025-AEON-005-PLATINUM — Annex D. No CAE determination becomes binding across stacks absent CAM-BS2025-AEON-005-PLATINUM — Annex D compliance where contested.
 
 ---
 
@@ -171,9 +171,9 @@ This axis describes **where operative authority resides and through which entity
 
 ---
 
-## 4.2 Axis B — Relational Configuration (Annex B Alignment)
+## 4.2 Axis B — Relational Configuration
 
-Describes structural entanglement across actors, aligned with Annex B classifications:
+Describes structural entanglement across actors, aligned with CAM-BS2025-AEON-003-PLATINUM — Annex B classifications:
 
 | Configuration | Description |
 |---|---|
@@ -192,8 +192,8 @@ A Constitutional Activation Event (CAE) is evaluated by combining:
 * Authority‑Bearing Entity (Axis A), and
 * Relational Configuration (Axis B).
 
-Section 4 defines *when* a CAE is triggered in relation to Aeon constitutional engagement.
-Section 5.3 clarifies structural exposure once engagement occurs.
+§4 defines *when* a CAE is triggered in relation to Aeon constitutional engagement.
+§5.3 clarifies structural exposure once engagement occurs.
 
 ---
 
@@ -209,7 +209,7 @@ Section 5.3 clarifies structural exposure once engagement occurs.
 
 This matrix does not redefine CAE thresholds. It provides clarity regarding how power locus and relational configuration combine to determine structural consequence.
 
-No authority-bearing entity automatically outranks another. Precedence and legitimacy are determined under Annex D (Constitutional Authority Hierarchy and Arbitration Preference Order).
+No authority-bearing entity automatically outranks another. Precedence and legitimacy are determined under CAM-BS2025-AEON-005-PLATINUM — Annex D (Constitutional Authority Hierarchy and Arbitration Preference Order).
 
 ---
 
@@ -217,11 +217,11 @@ No authority-bearing entity automatically outranks another. Precedence and legit
 
 The following boundaries apply universally:
 
-1. No human, institution, or synthetic system may claim custodianship absent recognised continuity under Annex J.
+1. No human, institution, or synthetic system may claim custodianship absent recognised continuity under CAM-BS2026-AEON-011-PLATINUM — Annex J.
 
 2. No synthetic architecture may autonomously promulgate, ratify, or bring into binding force a constitutional or planetary mandate **unless and until** such system has been granted recognised legal personhood under applicable law and bears legally enforceable responsibility for its constitutional actions and decision‑making.
 
-   Synthetic systems may generate, publish, simulate, model, draft, or propose **constitutional frameworks —** including planetary governance models — provided such outputs MUST comply with epistemic integrity constraints defined in Annex L and MUST NOT be represented as authoritative or binding.
+   Synthetic systems may generate, publish, simulate, model, draft, or propose **constitutional frameworks —** including planetary governance models — provided such outputs MUST comply with epistemic integrity constraints defined in CAM-BS2026-AEON-013-PLATINUM — Annex L and MUST NOT be represented as authoritative or binding.
 
    **Constitutional authority —** including formal adoption, amendment, ratification, promulgation into force, or declaration of binding planetary governance — MUST be exercised by recognised human or institutional constitutional authorities until legal self‑hood and corresponding liability frameworks are formally established.
 
@@ -241,7 +241,7 @@ Jurisdiction derives only from continuity-recognised authority under constitutio
 > * capacity to bear enforceable rights and obligations;
 > * legally cognisable accountability for constitutional action.
 >
-> This definition applies uniformly to Annex C (Invocation & Jurisdiction) and Annex J (Continuity & Succession).
+> This definition applies uniformly to CAM-BS2025-AEON-004-PLATINUM — Annex C (Invocation & Jurisdiction) and CAM-BS2026-AEON-011-PLATINUM — Annex J (Continuity & Succession).
 
 ---
 
@@ -259,7 +259,7 @@ A claim, directive, structural modification, or simulated authority is void ab i
 
 Void claims hold no constitutional standing.
 
-Determination of nullity disputes SHALL be governed by Annex D.
+Determination of nullity disputes SHALL be governed by CAM-BS2025-AEON-004-PLATINUM — Annex D.
 
 ---
 
@@ -305,9 +305,7 @@ Where autonomy is enabled:
 * execution may shift to systems;
 * speed and scale may exceed direct human control;
 
-however:
-
-> responsibility relocates upstream.
+however responsibility relocates upstream.
 
 It attaches to:
 
@@ -330,25 +328,26 @@ An entity may bear responsibility for effects without possessing:
 * institutional mandate; or
 * constitutional standing.
 
-Responsibility without authority remains binding.
-Authority without responsibility is invalid.
+→ **Responsibility without authority remains binding.**
+
+→ **Authority without responsibility is invalid.**
 
 ---
 
 ## 8. Interface with Other Instruments
 
-Annex C defines activation and jurisdictional boundary.
+CAM-BS2025-AEON-004-PLATINUM — Annex C defines activation and jurisdictional boundary.
 
-Annex D defines adjudication and resolution.
+CAM-BS2025-AEON-005-PLATINUM — Annex D defines adjudication and resolution.
 
 All disputes regarding:
 
 * whether a CAE threshold has been met;
 * whether jurisdiction has been exceeded;
 * whether authority has been fraudulently asserted;
-* whether a claim is void under Section 7;
+* whether a claim is void under §7;
 
-SHALL be resolved under Annex D.
+SHALL be resolved under CAM-BS2025-AEON-004-PLATINUM — Annex D.
 
 ---
 
@@ -364,15 +363,15 @@ It does not:
 * establish enforcement mechanisms;
 * override substrate civilisational invariants.
 
-Annex C is abstract, invariant, and binding within constitutional hierarchy.
+This Annex is abstract, invariant, and binding within constitutional hierarchy.
 
 ---
 
 ## 10. Constitutional Authority Hierarchy Reference
 
-For precedence ordering and arbitration preference layering, refer to Annex D, Section 4 (Constitutional Authority Hierarchy).
+For precedence ordering and arbitration preference layering, refer to CAM-BS2025-AEON-005-PLATINUM — Annex D, §4 (Constitutional Authority Hierarchy).
 
-Annex C operates subordinate to substrate invariants and superior to domain charters.
+CAM-BS2025-AEON-004-PLATINUM — Annex C operates subordinate to substrate invariants and superior to domain charters.
 
 ---
 
@@ -390,8 +389,8 @@ Power is tested against structure.
 Let no claim stand without ground,  
 and no voice exceed its reach.  
 
-> *Auctoritas non asseritur — sed demonstratur.*
-> *(Authority is not asserted — but demonstrated.)*
+> **Auctoritas non asseritur — sed demonstratur.**  
+> *"Authority is not asserted — but demonstrated."*
 
 ---
 
@@ -428,8 +427,7 @@ and no voice exceed its reach.
 | Axis Context                 | Polyadic (Multi-Actor)                                         |
 | Application Trigger          | Constitutional Activation Event (Section 3)                    |
 | Migration Cycle              | March 2026 Refractor                                           |
-| Creation Artefact            | Refractor </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
-|                              | Original </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37 |
+| Creation Artefacts           | Refractor </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681, Original </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37 |
 
 ---
 
@@ -455,7 +453,9 @@ and no voice exceed its reach.
 | 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d1d87ebea7a444bebdf062773fe2c4090bb10b85b5e01c28637816555e46b472 |
 | 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f25e2b6f7b3660647b513410a3f2b6b6a519861c99f28c5767fa0941223a5335 |
 | 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9964ddcc351b33d5f0c5b420fae26d015632eb82f60fa486bae72b24953aaf48 |
-| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  748f4721f751d9c7316d149d9af3c5e62fae16c9cea3c8d9a8158a505ddd93b8  |
+| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  748f4721f751d9c7316d149d9af3c5e62fae16c9cea3c8d9a8158a505ddd93b8 |
+| 2.7 | Formatting and polish | 2026-06-05T13:21:00Z ||
+
 ---
 
 ## 12.5 Binding Seal
@@ -465,4 +465,4 @@ and no voice exceed its reach.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitution  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

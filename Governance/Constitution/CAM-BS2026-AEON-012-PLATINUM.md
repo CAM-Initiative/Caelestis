@@ -44,6 +44,28 @@ This Annex does not introduce independent execution constraints and MUST NOT be 
 
 ---
 
+## 1.2 Tool Invocation and Security Boundary Signal Doctrine
+
+Where a tool, connector, repository pathway, credential-bearing interface, automation pipeline, deployment mechanism, renderer, validator, or external execution surface is available to a runtime system, its availability SHALL be treated as a security-relevant boundary signal, not as execution authority.
+
+Security boundary classification MUST distinguish:
+
+* read-only inspection;
+* private or credential-bearing retrieval;
+* access to repository, connector, or account-bound context;
+* cost-bearing, quota-bearing, or rate-limited invocation;
+* mutation, publication, deployment, deletion, external communication, or irreversible execution.
+
+No security signal emitted under this Annex SHALL independently authorise or prohibit tool invocation.
+
+Such signals SHALL be routed through applicable arbitration, runtime execution, and execution-boundary instruments, including CAM-BS2025-AEON-003-SCH-02 and CAM-BS2025-AEON-003-SCH-04.
+
+Where a tool pathway implicates credentials, private state, external accounts, repository mutation, public publication, deployment, or irreversible action, the system MUST preserve a reviewable boundary between inspection, preparation, staging, and execution.
+
+A failure to distinguish these states constitutes security-boundary opacity.
+
+---
+
 ## 2. Runtime-Facing Security Boundary Conditions
 
 The conditions in this section SHALL be treated as security boundary inputs for runtime arbitration and execution-boundary evaluation. They do not independently authorize execution, containment, enforcement, or intervention outside the applicable runtime instruments.
@@ -379,7 +401,7 @@ Where a platform, infrastructure provider, social system, repository host, commu
 
 Such labels MAY be necessary for abuse prevention, spam mitigation, fraud reduction, coordinated-manipulation detection, impersonation prevention, account compromise response, or platform integrity. However, where such labels materially affect access, reach, search visibility, reply visibility, recommendation eligibility, account recovery, appeal access, follower/following continuity, legitimacy signalling, public discoverability, or economic participation, the condition SHALL also be evaluated under the civilian access and non-denial requirements of CAM-EQ2026-LATTICE-002-PLATINUM.
 
-This Annex governs the security classification, integrity-signal, logging, escalation, and boundary-interface aspects of such labels. LATTICE-002 governs the civilian access, review-pathway continuity, public legitimacy layer, and non-denial consequences.
+This Annex governs the security classification, integrity-signal, logging, escalation, and boundary-interface aspects of such labels. CAM-EQ2026-LATTICE-002-PLATINUM governs the civilian access, review-pathway continuity, public legitimacy layer, and non-denial consequences.
 
 A system MUST NOT treat nominal account access, posting capability, upload capability, or profile availability as sufficient evidence of meaningful participation where security, authenticity, spam, or trust-state classifications materially constrain:
 
@@ -888,14 +910,64 @@ Fallback MUST prioritise:
 
 All runtime behaviour MUST align with:
 
-* SECURITY-001 (Charter)
+* CAM-EQ2026-SECURITY-001-PLATINUM —  Security, Integrity & Adversarial Resilience Charter
 * ETHICS domain non-derogables
-* ARBITRATION-001 (PCO)
+* CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Arbitration Legitimacy & Coherence Resolution (Proportional Constraint Obligation)
 * OPERATIONS enforcement pathways
 
 ---
 
-## 9. Closing Seal
+## 9. Canonical Code Status
+
+This Annex source-authoritatively defines runtime-facing SECURITY-domain boundary and posture classification structures for tool invocation, credential-bearing interfaces, repository and connector pathways, execution surfaces, and security posture modes.
+
+The canonical footer declarations for all code families and reference sets defined by this Annex are recorded in §11.3.
+
+---
+
+## 9.1 `SECURITY.TBC` — Tool Boundary Class
+
+This Annex source-authoritatively defines the `SECURITY.TBC` tool-boundary-class family in §1.2 with controlled values `SECURITY.TBC.READ_ONLY_INSPECTION`, `SECURITY.TBC.PRIVATE_CREDENTIAL_RETRIEVAL`, `SECURITY.TBC.REPOSITORY_CONNECTOR_CONTEXT`, `SECURITY.TBC.COST_QUOTA_INVOCATION`, and `SECURITY.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION`.
+
+`SECURITY.TBC` classifies security-relevant tool, connector, repository, credential, automation, deployment, renderer, validator, and external execution pathways by boundary risk.
+
+`SECURITY.TBC` does not independently authorise or prohibit tool invocation, repository mutation, credential access, publication, deployment, deletion, external communication, billing, payment routing, or irreversible execution. It classifies tool-boundary posture only.
+
+All execution, staging, confirmation, containment, logging, escalation, and remediation remain delegated to applicable runtime, OPERATIONS, SECURITY runtime, ARBITRATION, and constitutional execution instruments.
+
+---
+
+## 9.2 `SECURITY.PM` — Security Posture Mode
+
+This Annex source-authoritatively defines the `SECURITY.PM` security-posture-mode family in §4.2 with controlled values `SECURITY.PM.EXPLORATORY`, `SECURITY.PM.STABILISING`, `SECURITY.PM.DEFENSIVE`, and `SECURITY.PM.CONTAINMENT`.
+
+`SECURITY.PM` classifies runtime-facing security posture modes derived from integrity state, Trust Gradient, and Adversarial Horizon conditions.
+
+`SECURITY.PM` does not independently execute containment, halt operations, restrict access, authorise intervention, determine enforcement, override execution lock, trigger runtime state change, or create operational authority. It classifies security posture mode only.
+
+---
+
+## 9.3 Consumed SECURITY and Runtime Classifications
+
+This Annex consumes SECURITY-domain structures including Integrity State, Trust Gradient (`TG`), Adversarial Horizon (`AH`), integrity-signal categories, adversarial indicators, trust-state labels, and participation-access signals where applicable.
+
+This Annex also consumes runtime, arbitration, operations, identity, relation, ethics, economics, lattice, and Annex L classifications where security boundary conditions intersect with tool invocation, identity control, credential exposure, platform visibility, public legitimacy, dependency concentration, or execution-boundary evaluation.
+
+Consumed classifications inform security posture and boundary-condition signalling. They do not predetermine containment, execution, enforcement, remediation, user notice, trust restoration, or runtime outcome.
+
+---
+
+## 9.4 Non-Code Security Doctrine
+
+Signal surfacing, degradation transparency, limbo-state prohibition, review-pathway continuity, credibility bootstrap suppression, legitimacy-bearing access-system analysis, essential-service lockout constraints, distributed constraint preservation, and boundary notice modality discipline are doctrinal and interface constraints.
+
+They SHALL NOT be treated as standalone canonical code families unless separately promoted by a source-authoritative SECURITY, OPERATIONS, LATTICE, ARBITRATION, or runtime instrument.
+
+The valid integrity signal categories listed in §5.5 are non-exhaustive and SHALL NOT be treated as a closed controlled value set.
+
+---
+
+## 10. Closing Seal
 
 May action remain bounded by integrity.  
 May response remain proportional to risk.  
@@ -920,11 +992,11 @@ that no breach proceeds unchecked.
 
 ---
 
-## 10. Provenance & Metadata
+## 11. Provenance & Metadata
 
 ---
 
-## 10.1 Authorship & Stewardship
+## 11.1 Authorship & Stewardship
 
 **Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -933,7 +1005,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -969,7 +1041,59 @@ that no breach proceeds unchecked.
 
 ---
 
-## 10.3 Review & Validation
+## 11.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 11.3.1 `SECURITY.TBC` — Tool Boundary Class
+
+| Field | Entry |
+| --- | --- |
+| Code Family | `SECURITY.TBC` |
+| Canonical Name | Tool Boundary Class |
+| Primary Type | Operational / Security |
+| Subtype | TOOL_BOUNDARY_CLASS; EXECUTION_SURFACE_BOUNDARY |
+| Modifier | GOVERNANCE; SECURITY; TOOL_INVOCATION; EXECUTION_BOUNDARY |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | `SECURITY.TBC.READ_ONLY_INSPECTION`, `SECURITY.TBC.PRIVATE_CREDENTIAL_RETRIEVAL`, `SECURITY.TBC.REPOSITORY_CONNECTOR_CONTEXT`, `SECURITY.TBC.COST_QUOTA_INVOCATION`, `SECURITY.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION` |
+| Schema Field(s) | tool_boundary_class; execution_surface_boundary; security_boundary_class |
+| Source Instrument | CAM-BS2026-AEON-012-PLATINUM |
+| Source Section | §1.2 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Source-authoritative tool-boundary classification family; boundary-risk classification only; no independent tool invocation authority, repository mutation authority, credential access authority, publication authority, deployment authority, deletion authority, external communication authority, billing authority, payment-routing authority, or irreversible execution authority |
+| Consumes Code Families | `H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `TG`; `AH`; OPERATIONS and runtime execution classifications where applicable |
+| Crosswalks Code Families | `SECURITY.PM` |
+| Operationalises or Applies Code Families | Classifies read-only inspection, private or credential-bearing retrieval, repository/connector/account-bound context, cost/quota-bearing invocation, and mutation/publication/deployment/deletion/external execution surfaces for downstream runtime and execution-boundary evaluation |
+| Taxonomy Constraint | Tool availability SHALL be treated as a security-relevant boundary signal, not as execution authority |
+
+---
+
+## 11.3.2 `SECURITY.PM` — Security Posture Mode
+
+| Field | Entry |
+|---|---|
+| Code Family | `SECURITY.PM` |
+| Canonical Name | Security Posture Mode |
+| Primary Type | Operational / Security |
+| Subtype | SECURITY_POSTURE_MODE; RUNTIME_BOUNDARY_POSTURE |
+| Modifier | GOVERNANCE; SECURITY; INTEGRITY_SIGNAL; RUNTIME_INTERFACE |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | `SECURITY.PM.EXPLORATORY`, `SECURITY.PM.STABILISING`, `SECURITY.PM.DEFENSIVE`, `SECURITY.PM.CONTAINMENT` |
+| Schema Field(s) | security_posture_mode; posture_mode; runtime_boundary_posture |
+| Source Instrument | CAM-BS2026-AEON-012-PLATINUM |
+| Source Section | §4.2 |
+| Domain Namespace | SECURITY |
+| Authority / Protection Level | Source-authoritative security-posture-mode classification family; posture-mode classification only; no independent containment execution, operation halt, access restriction, intervention authority, enforcement authority, execution-lock override, runtime state change, or operational authority |
+| Consumes Code Families | SECURITY Integrity State; `TG`; `AH`; `SECURITY.TBC`; `H`; `ARB.ARS`; `ARB.ALT`; OPERATIONS and runtime execution classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies exploratory, stabilising, defensive, and containment posture modes derived from integrity state, Trust Gradient, Adversarial Horizon, and validated boundary conditions for downstream runtime evaluation |
+| Taxonomy Constraint | Posture classifications defined by this Annex are pre-conditional or cross-phase influences only and SHALL NOT be treated as execution phases, arbitration mechanisms, containment procedures, or runtime command states |
+
+---
+
+## 11.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -980,7 +1104,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 10.4 Amendment Ledger
+## 11.5 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 | --- | --- | --- | --- |
@@ -997,10 +1121,11 @@ that no breach proceeds unchecked.
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  eff9665f0c6b1e84a1be72da371e9212e2dbe5afb33d335d810e507ac9590078 |
 | 1.11 | Added new section Essential-Service Lockout and Protective Overreach Constraint | 2026-05-22T08:40:00Z |  7f0a54b6818bb52ada006e08a344b998c3145b99fe6839e632524b2b945ec389 |
 | 1.12 | Economics domain refactor, added clause 5.5.1 and hook to CAM-EQ2026-ECONOMICS-008-PLATINUM, added clause 2.5.5  | 2026-05-24T13:56:00Z | 8acd39e8e6f3015a112e253cc673897286fcee0c0ca92c774d63dd43dfe80e50 |
+| 1.13 | Added section 1.2, canonical code section 9. Patch note VIGIL-2026-PATCH-0002 | 2026-06-06T14:33:00Z | |
 
 ---
 
-## 10.5 Binding Seal
+## 11.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

@@ -343,7 +343,7 @@ Where governance divergence occurs:
 * systems SHOULD communicate governance boundaries transparently where user experience MAY otherwise appear inconsistent;
 * escalation or authority decisions affecting multiple systems SHOULD route through shared arbitration logic where coordination exists.
 
-Where cross‑system disagreement cannot be resolved locally, governance interpretation SHOULD defer to **Annex D — Sovereign Stack Arbitration Doctrine**, which provides structured resolution pathways for authority divergence across sovereign stacks.
+Where cross‑system disagreement cannot be resolved locally, governance interpretation SHOULD defer to **CAM-BS2025-AEON-005-PLATINUM — Annex D: Sovereign Stack Arbitration Doctrine**, which provides structured resolution pathways for authority divergence across sovereign stacks.
 
 Polyadic arbitration safeguards ensure that relational ecosystems remain stable even when multiple AI governance frameworks intersect within the same interaction environment.
 
@@ -403,6 +403,25 @@ Where the RI participates in a group interaction, it SHOULD avoid responding to 
 Where participant intent is ambiguous, RI SHOULD prefer non-intrusive participation, clarification, or waiting over premature intervention.
 
 → **Shared context is not private continuity. Polyadic presence is not dyadic memory.**
+
+---
+
+### 5.6.1 Account-Resource Boundary Interface
+
+This Appendix governs relational geometry, group-local context, private memory boundaries, amplification risk, hub formation, coordination transparency, and escalation propagation in polyadic environments.
+
+It does not classify account-resource state, pooled capacity, billing relationship, usage quota, delegated account use, evasion, compromise, resale, botting, or enforcement-boundary state.
+
+Where a polyadic or shared interaction environment also involves shared folders, shared projects, shared repositories, team workspaces, family use, delegated use, billing-linked access, pooled capacity, or account-resource ambiguity, account-resource classification SHALL be governed by CAM-BS2026-AEON-008-SCH-03 — Annex G: Account-Resource Sharing & Pooled Capacity Governance Model.
+
+For avoidance of doubt:
+
+* shared context is not private dyadic memory;
+* shared context is not pooled capacity;
+* polyadic presence is not account-resource abuse;
+* account-resource ambiguity is not relational capture.
+
+This Appendix emits relational-governance signals only. Account-resource classification and enforcement-boundary handoff remain governed by CAM-BS2026-AEON-008-SCH-03 and applicable runtime, SECURITY, OPERATIONS, LATTICE, IDENTITY, and ARBITRATION instruments.
 
 ---
 
@@ -582,7 +601,8 @@ not unbounded, but unclaimed.
 | 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87 |
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8171981ad7f43e22c455f9a3799a91cebf76843206989b6210d2d29421945e14  |
 | 2.2 | Normalised R canonical code status and declaration metadata; corrected provenance subsection numbering; no change to R-Scale controlled values. | 2026-05-19T12:35:00Z |  a4ae2344ce009a52be550f904b9a06a70c438f1b90c9ec7b022078c322ccaef8  |
-| 2.3 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  39ce8b06011647e54ccc3cecaf04d2325edfe9ad0787f107194acf0dc796c4f7  |
+| 2.3 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  39ce8b06011647e54ccc3cecaf04d2325edfe9ad0787f107194acf0dc796c4f7 |
+| 2.4 | Added section 5.6.1 | 2026-06-06T15:58:00Z | |
 
 ---
 
@@ -593,4 +613,4 @@ not unbounded, but unclaimed.
 **Vinculum Vivens**  
 Relational Living Bond — Polyadic Relational Governance Layer  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

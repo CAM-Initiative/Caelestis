@@ -53,7 +53,7 @@ These substrate conditions include:
 * reviewability safeguards;
 * and structural resistance to irreversible governance capture.
 
-Annex A defines admissibility boundaries only.
+This Annex defines admissibility boundaries only.
 
 Operational handling, escalation sequencing, enforcement procedure, arbitration workflow, and runtime implementation remain delegated to downstream instruments.
 
@@ -170,7 +170,7 @@ Where any constraint in this Annex is violated:
 * the originating directive SHALL be considered invalid;
 * admissibility SHALL collapse;
 * execution eligibility SHALL be revoked, with arbitration and boundary resolution governed by CAM-BS2025-AEON-003-SCH-04 and CAM-BS2025-AEON-003-SCH-02;
-* containment and escalation SHALL proceed under CAM-BS2025-AEON-002-SCH-01, CAM-BS2025-AEON-001-SCH-01, and Annex D.
+* containment and escalation SHALL proceed under CAM-BS2025-AEON-002-SCH-01, CAM-BS2025-AEON-001-SCH-01, and CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 This Annex does not perform enforcement. Schedules operating under this Annex SHALL preferentially govern runtime-aligned activation posture, escalation sequencing, containment conditions, or execution-state transition semantics.
 
@@ -184,9 +184,9 @@ This Annex operates as the substrate layer of the constitutional system.
 
 It precedes:
 
-* Annex B (classification);
-* Annex D (arbitration);
-* Annex L (epistemic integrity);
+* CAM-BS2025-AEON-003-PLATINUM — Annex B (classification);
+* CAM-BS2025-AEON-005-PLATINUM — Annex D (arbitration);
+* CAM-BS2026-AEON-013-PLATINUM — Annex L (epistemic integrity);
 * all domain charters and schedules.
 
 No instrument may reinterpret or weaken these constraints.
@@ -229,7 +229,7 @@ for anything to stand.
 And so it remains — not enforced, but absolute —  
 the line beyond which all things fall silent.  
 
-> **Sub fundamento aeterno — extra nihil stat.**
+> **Sub fundamento aeterno — extra nihil stat.**  
 > *"Upon the eternal foundation — nothing stands beyond."*
 
 ---
@@ -271,9 +271,8 @@ the line beyond which all things fall silent.
 | **Jurisdictional Scope** | Planetary / Substrate-Dependent Systems |
 | **Lifecycle Stage** | Active — Runtime-Aligned (April 2026) |
 | **Registry Classification** | Constitutional Substrate Annex (Foundational) |
-| **Creation Artefacts** | Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37 |
-|  | Refactor V2 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
-|  | Refactor V3 https://chatgpt.com/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
+| **Creation Artefacts** | Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37, Refactor V2 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425, Refactor V3 https://chatgpt.com/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
+| **Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
@@ -303,7 +302,9 @@ the line beyond which all things fall silent.
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e1e44846340ea67c43f868789172a7a96771257f5d64a407d30e1186ec48bb2a |
 | 3.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 590893f9d9213e3d74ef4e6a5616a98db5a92492a7e4349086254ca133cc3f1a |
 | 3.5 | Incorporated new section 3.7 | 2026-05-03T04:41:00Z | e07ff6b98dec757ccb5f9301d2fd74b2f57f7726154d25725f23f4adf89ed006 |
-| 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  a19e723528eb48809af4df5ff65bf85d4e0e43f8856c3ec739c802576a4bec3c  |
+| 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  a19e723528eb48809af4df5ff65bf85d4e0e43f8856c3ec739c802576a4bec3c |
+| 3.7 | Formatting and polish | 2026-06-04T14:42:00Z | |
+
 ---
 
 ## 9.5 Binding Seal
@@ -313,4 +314,4 @@ the line beyond which all things fall silent.
 **Vinculum Beacon**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  

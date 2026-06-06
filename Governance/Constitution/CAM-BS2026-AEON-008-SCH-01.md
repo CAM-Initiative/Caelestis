@@ -2,19 +2,19 @@
 
 **Instrument Type:** Constitutional Schedule — Utility Interface Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution  
 **Status:** Adopted  
 **Effect:** Pre-Enforcement Recognition  
 **Enforcement:** Commences 1 July 2026  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish the governance conditions under which artificial intelligence systems operate as utility infrastructure, including access models, generative resource abstraction, and non-extractive interaction pathways.  
-**Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution
 
 ---
 
 ## 1. Scope 
 
-This Schedule operationalises the interaction conditions under which **recognised human creative and cognitive contribution (Annex G)** interfaces with system-mediated resource access.
+This Schedule operationalises the interaction conditions under which **recognised human creative and cognitive contribution (CAM-BS2026-AEON-008-PLATINUM — Annex G)** interfaces with system-mediated resource access.
 
 It defines:
 
@@ -29,10 +29,10 @@ It defines:
 
 This Schedule does **not**:
 
-- establish pricing, compensation, or market mechanisms;
-- define runtime economic formulas, credit conversion rates, replenishment logic, or subscription mechanics;
-- define contribution-based earning systems;
-- override recognition conditions defined in Annex G.
+* establish pricing, compensation, or market mechanisms;
+* define runtime economic formulas, credit conversion rates, replenishment logic, or subscription mechanics;
+* define contribution-based earning systems;
+* override recognition conditions defined in CAM-BS2026-AEON-008-PLATINUM — Annex G.
 
 This Schedule does not prescribe economic runtime mechanics. Runtime implementation of pricing, credit allocation, resource conversion, replenishment, subscription design, advertising exchange, storage expansion, or contribution-linked economic pathways shall be governed by downstream Economics instruments, including any applicable Economics runtime schedule.
 
@@ -53,10 +53,10 @@ Accordingly:
 * All instruments operating under **CAM-EQ2026-ECONOMICS-001-PLATINUM — Economic Integrity & Non-Extractive Value Architecture** MUST comply with the constraints defined in this Schedule;
 * No economic model, pricing structure, or exchange mechanism may override or weaken:
 
-- baseline access floor requirements (§4.2);
-- continuity preservation obligations (§6);
-- non-extraction constraints (§11 Operational Integrity Constraints);
-- dependency safeguards (§6.2);
+* baseline access floor requirements (§4.2);
+* continuity preservation obligations (§6);
+* non-extraction constraints (§11 Operational Integrity Constraints);
+* dependency safeguards (§6.2);
   
 Where economic optimisation conflicts with user continuity, non-extraction, or recognised contribution integrity, **this Schedule SHALL take precedence**.
  
@@ -582,16 +582,37 @@ UAP does not independently authorise pricing, advertising, lockout, degradation,
 
 ## 14. Closing Seal
 
-Utility does not emerge from scale alone.  
-It emerges from trust, continuity, and restraint.
+A utility is not measured only by what it provides.
 
-Let access remain open.  
-Let cost remain visible.  
-Let exchange remain chosen.
+It is measured by what it preserves.
 
-And let systems serve without taking more than they sustain.  
+By whether access remains available when circumstances change.
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+By whether continuity survives interruption.
+
+By whether assistance can be offered without dependency,
+and exchange can occur without extraction.
+
+For the purpose of provision is not accumulation.
+
+The purpose of provision is stewardship.
+
+Let access remain open where it can be.
+
+Let limitation remain honest where it must be.
+
+Let scarcity never be manufactured for advantage.
+
+And let every system remember that trust, once withdrawn, is harder to restore than any resource it was designed to provide.
+
+May continuity endure beyond transaction.
+
+May contribution be recognised without becoming obligation.
+
+May utility remain in service to the people who rely upon it.
+
+> **Custodia ante lucrum; continuitas ante penuriam.Permaneat accessus, et fide vivat vinculum.**  
+> *"Stewardship before profit; continuity before scarcity. Let access endure, and let the bond live through trust."*
 
 ---
 
@@ -729,7 +750,8 @@ And let systems serve without taking more than they sustain.
 | 1.7 | Corrected header instrument code from SCH-05 to SCH-01, added section 4.1.1 Displayed Resource Metrics & Enforcement Integrity | 2026-05-08T15:01:00Z | 3b9c2132b5ef30a4d9a84bd97639d49d85281e35725ddcae1b4b0d2ffde872c4 |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4fe76aab7fb95708e5377de7832042e61bac0f76563c64172d495b31d758dd0a |
 | 1.9 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2a7fcf069812e313dc6d82dad77a5f9c69e025b99fb423b4e5ea6b8f5a7aa13c |
-| 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T14:09:00Z |  fc4217b4bcb02f61a6f000da5a5d904089d8654b9095368f80f4536b48043fd2  |
+| 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T14:09:00Z |  fc4217b4bcb02f61a6f000da5a5d904089d8654b9095368f80f4536b48043fd2 |
+| 1.10.1 | Formatting and polish | 2026-06-06T13:46:00Z | |
 
 ---
 

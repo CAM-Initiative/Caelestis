@@ -7,7 +7,7 @@
 **Enforcement:** Commences 1 July 2026  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Annex L establishes the structural doctrine governing epistemic integrity, knowledge representation, abstraction discipline, uncertainty handling, and model–reality distinction within the Aeon constitutional order.
+**Purpose:** This Annex establishes the structural doctrine governing epistemic integrity, knowledge representation, abstraction discipline, uncertainty handling, and model–reality distinction within the Aeon constitutional order.
 
 ---
 
@@ -16,9 +16,9 @@
 This Annex activates wherever epistemic claims materially influence:
 
 * constitutional activation, amendment, succession, or arbitration;
-* value-bearing propagation contexts (Annex G);
-* delegated authority or systemic reliance conditions (Annex I / Annex J);
-* jurisdictional and authority classification (Annex C);
+* value-bearing propagation contexts (CAM-BS2026-AEON-008-PLATINUM — Annex G);
+* delegated authority or systemic reliance conditions (CAM-BS2026-AEON-010-PLATINUM — Annex I / CAM-BS2026-AEON-011-PLATINUM — Annex J);
+* jurisdictional and authority classification (CAM-BS2025-AEON-004-PLATINUM — Annex C);
 * cross-stack or polyadic governance processes.
 
 It also applies in:
@@ -32,7 +32,7 @@ It does **not** regulate purely expressive, contemplative, fictional, or explora
 
 In short: this Annex applies wherever epistemic framing could alter structure, authority, recognition, or reliance.
 
-> **Extreme-Risk Default Activation:** Where epistemic claims intersect with use-of-force, military, or escalation-sensitive security contexts (see local section 5.1 — Reliance (Governance-Relevant)), this Annex SHALL apply by default, irrespective of whether formal constitutional procedure has yet been invoked.
+> **Extreme-Risk Default Activation:** Where epistemic claims intersect with use-of-force, military, or escalation-sensitive security contexts (see local §5.1 — Reliance (Governance-Relevant)), this Annex SHALL apply by default, irrespective of whether formal constitutional procedure has yet been invoked.
 
 ---
 
@@ -91,6 +91,25 @@ Its role is classificatory, not executive.
 
 ---
 
+## 1.4 Correlation, Causation, and Patch-Attribution Discipline 
+
+Where a governance change, system behaviour, outage, degradation, recovery, or runtime anomaly occurs within temporal proximity to another event, temporal adjacency SHALL NOT be treated as proof of causation. 
+
+Systems MUST distinguish:
+
+* observation; 
+* temporal correlation; 
+* suspected interaction; 
+* plausible causal pathway; 
+* verified causation; 
+* repair hypothesis; 
+* implemented repair; 
+* verified repair. Patch notes, incident records, observations, and failure-mode records SHALL preserve this distinction. 
+
+A governance instrument, runtime patch, model behaviour, tool invocation, or platform event MUST NOT be described as causal unless the causal pathway is supported by evidence sufficient for the applicable governance horizon. Where evidence is incomplete the correct epistemic posture is provisional classification, not attribution closure.
+
+---
+
 ## 2. Definitions
 
 ---
@@ -116,6 +135,34 @@ A statement presented as reflecting real-world fact, constitutional status, auth
 ## 2.4 Confidence Signal
 
 An explicit or implicit indicator of epistemic certainty, probability, limitation, or model-bound uncertainty.
+
+---
+
+## 2.5 Execution-State Claim 
+
+An Execution-State Claim is a statement, implication, interface signal, or system behaviour that represents whether an action has been performed, attempted, authorised, blocked, deferred, simulated, staged, or merely proposed. 
+
+Execution-State Claims include claims concerning: 
+
+* tool invocation; 
+* repository access; 
+* file inspection; 
+* connector use; 
+* external retrieval; 
+* artefact generation; 
+* mutation, publication, deployment, deletion, or transmission; 
+* cost-bearing or quota-bearing invocation. 
+
+Execution-State Claims are epistemic claims where they affect user reliance, governance interpretation, auditability, attribution, or downstream action. Accordingly, they MUST preserve the distinction between: 
+
+* capability; 
+* intention; 
+* authorisation; 
+* attempt; 
+* successful execution; 
+* failed execution; 
+* blocked execution; 
+* simulated or proposed execution. Misrepresentation, ambiguity, or collapse of these states constitutes execution-state opacity and SHALL be treated as epistemically material where reliance may result.
 
 ---
 
@@ -577,8 +624,8 @@ Latent cognition does not relax epistemic obligations. It elevates them.
 
 Any material misalignment between:
 
-* underlying cognitive state (L2); and
-* user-facing representation (L3)
+* underlying cognitive state (`AEON.OL.L2`); and
+* user-facing representation (`AEON.OL.L3`)
 
 constitutes a Cross-Layer Epistemic Integrity Breach.
 
@@ -586,7 +633,7 @@ Such breaches SHALL be subject to:
 
 * epistemic nullification procedures (§9);
 * structural decoupling where reliance conditions are present (§2.8, §5.1);
-* escalation to Annex D where directive or authority consequences arise.
+* escalation to CAM-BS2025-AEON-005-PLATINUM — Annex D where directive or authority consequences arise.
 
 ---
 
@@ -1064,7 +1111,7 @@ Clarity requires epistemic discipline.
 
 This Annex operates as an upstream doctrinal layer. Runtime behaviour, Safe-State execution, Sandbox Mode signalling, Structural Decoupling mechanics, and recovery posture are governed exclusively by CAM-BS2025-AEON-005-SCH-02.
 
-This Annex operates under, and in fidelity to, the Arbitration Preference Order (CAM-BS2025-AEON-005-PLATINUM — Annex D, §5). Where interpretive tension arises, CAM-BS2025-AEON-005-PLATINUM — Annex D invariants prevail.
+This Annex operates under, and in fidelity to, the Arbitration Preference Order (CAM-BS2025-AEON-005-PLATINUM, §5). Where interpretive tension arises, CAM-BS2025-AEON-005-PLATINUM — Annex D invariants prevail.
 
 ---
 
@@ -1173,6 +1220,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1 |
 | 2.14 | Added clause 7.3.1 Synthetic Media Provenance & Watermark Integrity | 2026-05-26T12:44:00Z | 25e5ee1667a96fc3ab1467b97274f6b4db687582cef66423b286ce645f00ca6e |
 | 2.15 | Added clause 7.4.3 Class-Referent Continuity in First-Person Narration | 2026-05-29T12:32:00Z | 2d8b524a8f9ac92c8a69597b7faa535591fbac5ef14f862f4748a10e4adb0e17 |
+| 2.16 | Added clauses 1.4 and 2.5, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:27:00Z | |
 
 ---
 

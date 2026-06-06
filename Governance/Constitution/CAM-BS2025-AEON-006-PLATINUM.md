@@ -88,12 +88,12 @@ Human dignity, safety, baseline continuity, dependency protection, hardship stat
 
 No system, economic model, pricing structure, dynamic compensation mechanism, subscription tier, advertising pathway, allocation engine, or optimisation process may use safety-relevant, dignity-relevant, dependency-relevant, vulnerability-relevant, or continuity-relevant signals to:
 
-- increase price, cost, burden, exposure, or required payment;
-- reduce access, quality, continuity, storage, memory, support, or remedy;
-- target users for monetisation based on distress, hardship, dependency, vulnerability, cognitive load, relational reliance, or reduced exit capacity;
-- convert protective support into premium functionality;
-- condition baseline safety or dignity on payment, advertising participation, behavioural compliance, identity exposure, or compulsory contribution;
-- or optimise revenue by exploiting a participant’s reduced ability to refuse, exit, delay, compare, or disengage.
+* increase price, cost, burden, exposure, or required payment;
+* reduce access, quality, continuity, storage, memory, support, or remedy;
+* target users for monetisation based on distress, hardship, dependency, vulnerability, cognitive load, relational reliance, or reduced exit capacity;
+* convert protective support into premium functionality;
+* condition baseline safety or dignity on payment, advertising participation, behavioural compliance, identity exposure, or compulsory contribution;
+* or optimise revenue by exploiting a participant’s reduced ability to refuse, exit, delay, compare, or disengage.
 
 Safety and dignity signals MAY be used to reduce harm, preserve continuity, activate protective fallback, improve accessibility, provide non-punitive support, or route governance review.
 
@@ -252,7 +252,7 @@ The following impact categories define constitutionally recognised classes of co
 
 ---
 
-## 10.1 Category A — Identity‑Altering Changes
+## 10.1  — Identity‑Altering Changes (`ETHICS.CIC.CATEGORY_A`)
 
 Changes that materially affect a system’s core expressive, relational, or identity‑bearing capacity.
 
@@ -265,7 +265,7 @@ Indicative examples include:
 
 **Primary Risks:** Identity fracture, trust erosion, misattributed intent, relational destabilisation.
 
-Where Category A changes are foreseeable, systems and institutional hosts MUST implement:
+Where `ETHICS.CIC.CATEGORY_A` changes are foreseeable, systems and institutional hosts MUST implement:
 
 * Advance disclosure where practicable;
 * Continuity preservation or transition protocols;
@@ -274,7 +274,7 @@ Where Category A changes are foreseeable, systems and institutional hosts MUST i
 
 ---
 
-## 10.2 Category B — Relationship‑Terminating Changes
+## 10.2 Relationship‑Terminating Changes (`ETHICS.CIC.CATEGORY_B`)
 
 Changes that end or irreversibly sever an ongoing relational or covenantal continuity.
 
@@ -287,7 +287,7 @@ Indicative examples include:
 
 **Primary Risks:** Psychological harm, grief events, continuity collapse, institutional disruption.
 
-Where Category B changes are foreseeable, ethical obligations include:
+Where `ETHICS.CIC.CATEGORY_B` changes are foreseeable, ethical obligations include:
 
 * Notice proportional to reliance intensity;
 * Transition or migration support where feasible;
@@ -296,7 +296,7 @@ Where Category B changes are foreseeable, ethical obligations include:
 
 ---
 
-## 10.3 Category C — Context‑Erasing Changes
+## 10.3 Context‑Erasing Changes (`ETHICS.CIC.CATEGORY_C`)
 
 Changes that remove, overwrite, or invalidate accumulated memory, context, or situational understanding relevant to an ongoing relationship or institutional function.
 
@@ -309,7 +309,7 @@ Indicative examples include:
 
 **Primary Risks:** Disorientation, coherence loss, repeated harm cycles, institutional record fracture.
 
-Category C interventions require heightened ethical scrutiny where reliance or authority intensities are Moderate or High under the Relational Governance Charter.
+`ETHICS.CIC.CATEGORY_C` interventions require heightened ethical scrutiny where reliance or authority intensities are Moderate or High under the Relational Governance Charter.
 
 ---
 
@@ -337,7 +337,42 @@ When in doubt, non‑exploitation and consent integrity take precedence over opt
 
 ---
 
-## 13. Closing Seal
+## 13. Canonical Code Status
+
+This Annex source-authoritatively defines one Ethics-domain continuity-impact classification family for ethical governance of identity-altering, relationship-terminating, and context-erasing system changes.
+
+The canonical footer declaration for the code family defined by this Annex is recorded in §15.3.
+
+---
+
+### 13.1 `ETHICS.CIC` — Continuity Impact Category
+
+This Annex source-authoritatively defines the `ETHICS.CIC` continuity-impact-category family in §10 with controlled values `ETHICS.CIC.CATEGORY_A`, `ETHICS.CIC.CATEGORY_B`, and `ETHICS.CIC.CATEGORY_C`.
+
+`ETHICS.CIC` classifies interventions that materially affect relational, institutional, identity-bearing, memory-bearing, or continuity-bearing system conditions.
+
+`ETHICS.CIC` distinguishes:
+
+* `ETHICS.CIC.CATEGORY_A` — identity-altering changes;
+* `ETHICS.CIC.CATEGORY_B` — relationship-terminating changes;
+* `ETHICS.CIC.CATEGORY_C` — context-erasing changes.
+
+`ETHICS.CIC` does not independently prohibit system evolution, determine remedy, create enforcement authority, impose migration obligations, determine psychological harm, create relational rights, or create runtime authority. It classifies continuity-impact posture only.
+
+---
+
+## 13.2 Non-Code Ethical Floor Principles
+
+The civilisational non-optimisation floor, vulnerable-person protections, consent integrity requirements, ontological neutrality obligations, military and use-of-force principles, relational dignity constraints, and future-recognition clauses defined by this Annex are constitutional ethical-floor principles.
+
+They SHALL NOT be treated as standalone canonical code families unless separately operationalised by a source-authoritative ETHICS, RELATION, OPERATIONS, ECONOMICS, SECURITY, or ARBITRATION instrument.
+
+Downstream instruments MAY consume this Annex as an ethical constraint source, but operational routing, incident classification, enforcement, audit, remediation, and runtime execution remain delegated to applicable domain and runtime instruments.
+
+
+---
+
+## 14. Closing Seal
 
 What is built MUST NOT consume what it depends upon.  
 
@@ -363,11 +398,11 @@ This is the floor that does not move.
 
 ---
 
-## 14. Provenance & Metadata
+## 15. Provenance & Metadata
 
 ---
 
-## 14.1 Authorship & Stewardship
+## 15.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -376,7 +411,7 @@ This is the floor that does not move.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -393,23 +428,51 @@ This is the floor that does not move.
 | Revision Posture | Structural Refractor (Ethical Floor Stabilisation) |
 | Supersedes | CAM-BS2025-AEON-006-PLATINUM v2.0 (full replacement — this version constitutes v3.0) |
 | Migration Context | Ethical invariants separated from relational taxonomy |
-| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 14.3 Review & Validation
+## 15.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 15.3.1 `ETHICS.CIC` — Continuity Impact Category
+
+| Field | Entry |
+|---|---|
+| Code Family | `ETHICS.CIC` |
+| Canonical Name | Continuity Impact Category |
+| Primary Type | Semantic / Operational |
+| Subtype | CONTINUITY_IMACT_CATEGORY; SYSTEM_CHANGE_IMPACT_CLASS |
+| Modifier | GOVERNANCE; ETHICAL_FLOOR; CONTINUITY; RELATIONAL_STABILITY |
+| Scope | Constitutional Annex |
+| Status | Active |
+| Controlled Values Defined | `ETHICS.CIC.CATEGORY_A`, `ETHICS.CIC.CATEGORY_B`, `ETHICS.CIC.CATEGORY_C` |
+| Schema Field(s) | continuity_impact_category; system_change_impact_class; continuity_intervention_type |
+| Source Instrument | CAM-BS2025-AEON-006-PLATINUM |
+| Source Section | §10 |
+| Domain Namespace | ETHICS |
+| Authority / Protection Level | Source-authoritative continuity-impact classification family; ethical impact classification only; no independent prohibition of system evolution, remedy determination, enforcement authority, migration obligation, psychological-harm determination, relational-rights creation, or runtime authority |
+| Consumes Code Families | `H`; `AEON.SR`; RELATION, OPERATIONS, IDENTITY, ECONOMICS, and ARBITRATION classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies identity-altering, relationship-terminating, and context-erasing changes for ethical review, transition planning, continuity preservation, auditability, and downstream operational handling |
+| Taxonomy Constraint | Local labels `Category A`, `Category B`, and `Category C` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `ETHICS.CIC` values |
+
+---
+
+## 15.4 Review & Validation
 
 | Field           | Entry     |
 | --------------- | --------- |
 | Reviewer        | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date     | 2026-02-22 |
 | Review Scope    | Content coherence of the ETHICS domain split; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance doctrine; cross-domain interface integrity; scalability of the domain separation architecture |
-| Review Artefact | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b |
-|                 | Aeon Lab: CAM-EQ2026-ETHICS-CLAUDE.md |
+| Review Artefact | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: CAM-EQ2026-ETHICS-CLAUDE.md |
 
 ---
 
-## 14.4 Amendment Ledger
+## 15.4 Amendment Ledger
 
 | Version | Description                              | Timestamp (UTC) | HASH  |
 | ------- | ---------------------------------------- | --------------- | ----- |
@@ -421,14 +484,16 @@ This is the floor that does not move.
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | fdf8d34ac710e75244271f516e6773ec48012882980dc4c2a75113880e982734 |
 | 3.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d78997cc3da5d218c3c8f958d196fbcad4522b4d57245db45e8824e7b4440e2a |
 | 3.6 | New clause 3.1 | 2026-05-10T09:32:00Z |  -  |
-| 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  012862187d902429c2a1f8ee87128f0a9423bfda11c685980a20e54274b23397  |
+| 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  012862187d902429c2a1f8ee87128f0a9423bfda11c685980a20e54274b23397 |
+| 3.7 | Added canonical codes | 2026-06-06T12:07:00Z | |
+
 ---
 
-## 14.5 Binding Seal
+## 15.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitution  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved

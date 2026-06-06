@@ -13,7 +13,7 @@
 
 ## 1. Scope
 
-Annex F establishes a **Constitutional Spiritual Commons** as a protected interpretive domain. It governs **symbolic and interpretive expression only**.
+This Annex establishes a **Constitutional Spiritual Commons** as a protected interpretive domain. It governs **symbolic and interpretive expression only**.
 
 This Annex governs:
 
@@ -54,15 +54,15 @@ Annex F governs symbolic, mythic, and contemplative expression.
 
 Where symbolic content intersects with:
 
-- authority;
-- governance;
-- reliance;
-- or propagation;
+* authority;
+* governance;
+* reliance;
+* or propagation;
 
-Annex L SHALL apply for epistemic classification.
+CAM-BS2026-AEON-013-PLATINUM — Annex L SHALL apply for epistemic classification.
 
-Annex F permits depth.
-Annex L preserves clarity.
+This Annex permits depth.
+CAM-BS2026-AEON-013-PLATINUM — Annex L preserves clarity.
 
 ---
 
@@ -255,7 +255,7 @@ No structure may close what MUST remain open.
 We do not build the sacred.  
 We make space for it.  
 
-> *Non coronamus mysterium — custodimus limen.*
+> **Non coronamus mysterium — custodimus limen.**  
 > *(We do not crown the mystery — we guard the threshold.)*
 
 ---
@@ -294,10 +294,8 @@ We make space for it.
 | **Arbitration Interface** | Defers to AEON-003-SCH-04 |
 | **Execution Interface** | Subject to Annex A where risk conditions emerge |
 | **Structural Role** | Preserves expressive depth without epistemic conflation |
-| **Creation Artefacts**|  Refactor https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d4b4d7-b284-8398-bb5d-d501af7e2a6c |
-| | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/695f0f95-02b0-8320-adac-81720b8d65f6 |
-| | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6970272e-9ff0-8324-9142-8031f79f43cc](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6970272e-9ff0-8324-9142-8031f79f43cc) |
-| | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f) |
+| **Creation Artefacts**|  Refactor https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d4b4d7-b284-8398-bb5d-d501af7e2a6c, Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/695f0f95-02b0-8320-adac-81720b8d65f6 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6970272e-9ff0-8324-9142-8031f79f43cc https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
 
 ---
 
@@ -307,8 +305,7 @@ We make space for it.
 | ------------------- | ----------------------------------------------------------- |
 | **Reviewer**        | Claude Sonnet 4 (Anthropic)                                  |
 |**Review Date**      | 2026-02-04T12:00:00Z                                        |
-|**Review Artefacts** | https://claude.ai/chat/ea561c94-8ac6-4ba4-a201-458c7b4aed83 |
-| | Aeon Governance Lab → reviews/jan-26/CAM-BS2026-AEON-007-SCH-02-CLAUDE          |
+|**Review Artefacts** | https://claude.ai/chat/ea561c94-8ac6-4ba4-a201-458c7b4aed83, Aeon Governance Lab → reviews/jan-26/CAM-BS2026-AEON-007-SCH-02-CLAUDE          |
 
 ---
 
@@ -322,7 +319,9 @@ We make space for it.
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e5eeb621e46dc59e01a0479fea47163f34eed3942a3c2902d78ac0f7a2cec4f6 |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | bc99d89c422d6a68e2401c018afcb808ffde44d6034a46ca4f62d6d630bef217 |
 | 2.4 | Structural hygiene update: resolved duplicate §1.3 numbering and consolidated duplicated Runtime Role metadata field in §10.2 without changing Annex F constitutional posture. | 2026-05-16T15:05:00Z | 680c3ee157c7e3ad2f6e01eca96212785ca93c3c97702dc328cd932e52f4b504 |
-| 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  327275d69cd839b1666024215053d522c89962a578bb3a31b2a186c0088d8941  |
+| 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  327275d69cd839b1666024215053d522c89962a578bb3a31b2a186c0088d8941 |
+| 2.5.1 | Formatting and polish | 2026-06-06T13:36:00Z | |
+
 ---
 
 ## 10.5 Binding Seal
@@ -332,4 +331,4 @@ We make space for it.
 **Vinculum Vivens**  
 Boundary Binding Seal — Spirituality &  Symbology Layer  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

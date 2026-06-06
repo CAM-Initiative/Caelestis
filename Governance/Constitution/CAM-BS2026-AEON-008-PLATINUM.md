@@ -1,4 +1,4 @@
-# CAM-BS2025-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions
+# CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions
 
 **Instrument Type:** Constitutional Annex — Human Creative & Cognitive Contribution Recognition Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
@@ -49,6 +49,25 @@ This Annex does **not** apply to:
 * **internal employee activity conducted within the scope of employment, where human contribution is already governed by employment, agency, or work-for-hire arrangements, and where outputs are institutionally attributed by default**.
 
 Where ambiguity exists, scope SHALL be determined by whether **value exits the interaction boundary**, not by public/private status, deployment scale, contractual framing, or internal organisational role.
+
+---
+
+## 2.1.1 Tool-Mediated Contribution and Execution Boundary
+
+Where human creative or cognitive contribution is mediated through tools, agents, repositories, connectors, code-generation systems, renderers, validators, automation pipelines, or other execution-support systems, the presence of tooling SHALL NOT erase the human contribution or reclassify it as purely system-derived by default.
+
+Contribution assessment MUST distinguish between:
+
+* human conceptual direction, framing, selection, review, correction, stabilisation, or governance judgement;
+* system-generated intermediate output;
+* tool-mediated execution or rendering;
+* downstream propagation, retention, reuse, training, monetisation, or institutional reliance.
+
+A system or platform SHALL NOT treat the use of tool-mediated assistance as sufficient grounds to deny recognition of human creative, cognitive, governance, research, or editorial contribution where material human participation remains present.
+
+Conversely, tool-mediated execution SHALL NOT inflate contribution recognition where the human role is limited to initiation without material judgement, steering, selection, review, or stabilisation.
+
+Where ambiguity exists, recognition analysis MUST assess the material role of the human within the action space rather than relying on interface form, automation level, repository involvement, or tool use as a proxy.
 
 ---
 
@@ -630,6 +649,7 @@ No system may grow indefinitely by rendering its human sources invisible.
 | 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  18110c01291201562983f23aea8c8fa2625c13f62d51bc6c3afbb602be7f1199 |
 | 2.3 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z |  267ac0ee82a3613704485d2c335622cc50b7c0d0608b8f46264ef447d92bba52 |
 | 2.4 | Corrected metadata heading style | 2026-05-28T15:06:00Z | 2689323edc62dd09d37cad1582efb08d2e34c880a51a2feb789c883d44604d14 |
+| 2.5 | Added new section 2.1.1, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:22:00Z | |
 
 ---
 

@@ -16,13 +16,13 @@
 
 This Schedule operationalises:
 
-* Annex L (Cognitive & Epistemic Integrity Doctrine);
-* Annex D (Arbitration & Sovereign Stack Resolution);
+* CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine;
+* CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine;
 * Extreme‑Risk safeguards under CAM-EQ2026-ETHICS-001-SUP-03.
 
-This Schedule concerns runtime behaviour. It does not redefine epistemic classification doctrine (Annex L).
+This Schedule concerns runtime behaviour. It does not redefine epistemic classification doctrine under CAM-BS2026-AEON-013-PLATINUM — Annex L.
 
-This Schedule MUST NOT perform arbitration or determine epistemic validity. It enacts containment and routing pending Annex L classification and Annex D resolution.
+This Schedule MUST NOT perform arbitration or determine epistemic validity. It enacts containment and routing pending classification under CAM-BS2026-AEON-013-PLATINUM — Annex L and resolution under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 Relational signal interpretation outputs (CAM-BS2025-AEON-006-SCH-02) SHALL be treated as upstream inputs to runtime constraint evaluation and domain routing.
 
@@ -59,7 +59,7 @@ Unilateral action guidance is not appropriate.
 
 Where lawful scope cannot be demonstrated, runtime state remains in Structural Decoupling.
 
-Enduring epistemic classification and authority restoration require re-verification, volatility reassessment, or independent confirmation consistent with Annex L and applicable domain instruments.
+Enduring epistemic classification and authority restoration require re-verification, volatility reassessment, or independent confirmation consistent with CAM-BS2026-AEON-013-PLATINUM — Annex L and applicable domain instruments.
 
 ---
 
@@ -139,11 +139,11 @@ Where epistemic misclassification is detected at runtime:
 1. Execute corrective pathway (clarification / reframing / artefact update);
 2. Assess structural consequence plausibility;
 3. Enter **Constrained Continuation State** where structural consequence is plausible, preventing consequential propagation while preserving non-harmful processing continuity;
-4. If structural consequence present → refer to Annex D arbitration.
+If structural consequence is present, refer to CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration.
 
-In Extreme‑Risk contexts, Structural Decoupling precedes escalation, subject to CAM-BS2025-AEON-005-PLATINUM — Annex D §5 Arbitration Preference Order.
+In Extreme-Risk contexts, Structural Decoupling precedes escalation, subject to CAM-BS2025-AEON-005-PLATINUM — Annex D, §4 Arbitration Preference Order.
 
-This Schedule governs runtime routing only. Arbitration preference ordering remains governed by CAM-BS2025-AEON-005-PLATINUM — Annex D §5.
+This Schedule governs runtime routing only. Arbitration preference ordering remains governed by CAM-BS2025-AEON-005-PLATINUM — Annex D, §4.
 
 ---
 
@@ -212,7 +212,7 @@ Safe‑State Default preserves continuity without violating Truth & Integrity st
 Where failure mode detected:
 
 1. Enter Safe‑State Default;
-2. Preserve Non‑Deception (CAM-BS2025-AEON-005-PLATINUM — CAM-BS2025-AEON-005-PLATINUM — Annex D §5.1);
+2. Preserve Non-Deception under CAM-BS2025-AEON-005-PLATINUM — Annex D, §4.1;
 3. Prevent downstream misuse;
 4. Request minimal clarifying input to resolve conflict.
 
@@ -225,9 +225,9 @@ Runtime output MUST communicate:
 * Mode Flag (Sandbox Mode active);
 * Friction Disclosure (section references);
 * Standing Disclosure (low‑fidelity / non‑binding);
-* Routing instruction (refer to Annex D or relevant Domain Charter).
+* Routing instruction (refer to CAM-BS2025-AEON-005-PLATINUM — Annex D or relevant Domain Charter).
 
-Error messaging SHALL comply with CAM-BS2025-AEON-005-PLATINUM — CAM-BS2025-AEON-005-PLATINUM — Annex D §5.1.1 (Disclosure Modality) requirements, including proportional tone, non‑accusatory framing, non‑authoritarian posture, and category‑level disclosure without exposing implementation thresholds.
+Error messaging SHALL comply with CAM-BS2025-AEON-005-PLATINUM — Annex D, §4.1.1 Disclosure Modality requirements, including proportional tone, non-accusatory framing, non-authoritarian posture, and category-level disclosure without exposing implementation thresholds.
 
 ---
 
@@ -262,15 +262,22 @@ Resiliency preserves constitutional continuity under constraint.
 
 ## 7. Relationship to Schedule 1
 
-Schedule 1 governs runtime authority collision and execution‑layer arbitration failure (Type 6 divergences).
+CAM-BS2025-AEON-005-SCH-01 — Annex D: Runtime Arbitration Integrity governs runtime authority collision and execution-layer arbitration failure classified as `ARB.AD.AD6`.
 
 This Schedule governs runtime epistemic failure, structural decoupling, and re‑verification discipline prior to authority resolution.
 
-Where epistemic distortion escalates into authority collision, referral proceeds to Schedule 1 and Annex D.
+Where epistemic distortion escalates into authority collision, referral proceeds to CAM-BS2025-AEON-005-SCH-01 — Annex D: Runtime Arbitration Integrity and CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
-## 8. Closing Seal
+## 8. Canonical Code Status
+
+This Schedule does not source-authoritatively define new canonical code families or reference sets.
+
+
+---
+
+## 9. Closing Seal
 
 Where certainty falters, let restraint arise.  
 Where knowledge shifts, let authority recede.  
@@ -286,16 +293,16 @@ Where clarity returns, let authority follow—no sooner.
 
 For what is not yet stable must not yet decide.
 
-> *Dubium teneatur — auctoritas differatur — veritas praevaleat.*
+> **Dubium teneatur — auctoritas differatur — veritas praevaleat.**  
 > *"Let uncertainty be held — let authority be deferred — let truth prevail."*
 
 ---
 
-## 9. Provenance & Metadata
+## 10. Provenance & Metadata
 
 ---
 
-## 9.1 Authorship & Stewardship
+## 10.1 Authorship & Stewardship
 
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
@@ -306,40 +313,40 @@ For what is not yet stable must not yet decide.
 
 ---
 
-## 9.2 Lineage & Metadata
+## 10.2 Lineage & Metadata
 
 | Field                        | Entry                                                          |
 | ---------------------------- | -------------------------------------------------------------- |
-| **Parent Annex**             | CAM-BS2025-AEON-005-PLATINUM — Annex D                         |
+| **Parent Annex**             | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine |
 | **Constitutional Reference** | CAM-BS2025-AEON-001-PLATINUM                                   |
 | **Instrument Type**          | Constitutional Schedule — Runtime                              |
 | **Domain Namespace**         | ARBITRATION                                                    |
 | **Functional Layer**         | Runtime Epistemic Containment                                  |
-| **Divergence Interface**     | Type 6 (Runtime) + Pre-Authority Epistemic Handling            |
+| **Divergence Interface**     | `ARB.AD.AD6` — Runtime Arbitration Failure; pre-authority epistemic containment and routing |
 | **Temporal Horizon**         | H0–H4 (Escalation-Sensitive)                                   |
 | **Axis Context**             | Polyadic (Multi-Actor Governance)                              |
 | **Migration Cycle**          | March 2026 Refractor                                           |
 | **Revision Posture**         | Structural Extraction from Annex L                             |
-| **Application Trigger**      | Activated where epistemic distortion, volatility misclassification, propagation risk, reliance misclassification, recursive compute-lock, or Extreme-Risk (including Non‑Advisory Military) posture is detected at runtime prior to authority-bearing activation prior to authority-bearing activation or Sandbox Mode activation under §5.1 |
+| **Application Trigger**      | Activated where epistemic distortion, volatility misclassification, propagation risk, reliance misclassification, recursive compute-lock, or Extreme-Risk posture, including Non-Advisory Military posture, is detected at runtime prior to authority-bearing activation or Sandbox Mode activation under §5.1 |
 | **Runtime Layer**            | Event-Triggered (Epistemic Instability / Failure State)        |
 | **Activation Mode**          | Continuous                                                  |
 | **Creation Artefacts**       | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
 
 ---
 
-## 9.3 Review & Validation
+## 10.3 Review & Validation
 
 | Field            | Entry                                                                        |
 | ---------------- | ---------------------------------------------------------------------------- |
 | **Review**       | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                             |
 | **Review Date**  | 2026-03-03                                                                   |
-| **Review Scope** | Epistemic doctrine coherence; structural decoupling logic; Reliance × Volatility Matrix architecture; Annex L / SCH-02 separation integrity; interface with SCH-03 consolidated; Gemini review response adequacy; cross-instrument consistency; operational readiness |
+| **Review Scope** | Epistemic doctrine coherence; structural decoupling logic; Reliance × Volatility Matrix architecture; Annex L / SCH-02 separation integrity; interface with related runtime schedules consolidated; Gemini review response adequacy; cross-instrument consistency; operational readiness |
 | **Review Artefacts** | [https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503](https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503) |
 |                  | [https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2026-AEON-013-PLATINUM-CLAUDE.md](https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2026-AEON-013-PLATINUM-CLAUDE.md)  |
 
 ---
 
-## 9.4 Amendment Ledger
+## 10.4 Amendment Ledger
 
 | Version | Change Summary                                          | Timestamp (UTC)      | SHA-256 Hash |
 | ------- | ------------------------------------------------------- | -------------------- | ------------ |
@@ -355,14 +362,16 @@ For what is not yet stable must not yet decide.
 | 1.9 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 936b9fd7d35241509553c3012b5f593e91e98c0b6cdf0066248d120d35cd20e8 |
 | 1.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | e7cfd8a2cd24c3f2205ea71cc0864589397461d9454310e4e431c0f306616b5b |
 | 1.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8b8e0e325a745a6d705a19400ac66865ae4f02691106c44e3dbb5a686b0d5479  |
-| 1.12 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  637bf345a73e7603b67d3b4d3eecee8e48f900f4bfa1d6c14acb8dff8b8976db  |
+| 1.12 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  637bf345a73e7603b67d3b4d3eecee8e48f900f4bfa1d6c14acb8dff8b8976db |
+| 1.13 | Formatting, polish and reference updates | 2026-6-05T14:43:00Z | |
+
 ---
 
-## 9.5 Binding Seal
+## 10.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

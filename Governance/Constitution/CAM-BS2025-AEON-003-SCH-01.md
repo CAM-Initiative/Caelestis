@@ -37,7 +37,7 @@ This Schedule governs structural layer attribution only.
 
 This Schedule does not:
 
-* redefine runtime layer architecture (see CAM-BS2025-AEON-003-PLATINUM — Annex B §3.4);
+* redefine runtime layer architecture (CAM-BS2025-AEON-003-PLATINUM — Annex B, §3.4);
 * modify the functional behaviour of any schedule;
 * introduce new governance domains;
 * define execution sequencing, runtime flow, or phase ordering, which are governed by the Runtime Governance Execution Model (CAM-BS2025-AEON-003-SCH-02).
@@ -54,7 +54,7 @@ All runtime schedules MUST declare a **Runtime Layer** within their Lineage & Me
 
 The declared Runtime Layer MUST:
 
-* correspond to a canonical layer defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §3.4;
+* correspond to a canonical layer defined in CAM-BS2025-AEON-003-PLATINUM — Annex B, §3.4;
 * reflect the primary functional role of the schedule;
 * remain singular and non-ambiguous.
 
@@ -71,32 +71,32 @@ Schedules lacking explicit Runtime Layer attribution SHALL be treated as **unbou
 
 Non-schedule instruments — including Charters, Annexes, and Appendices — MAY influence runtime execution where they define:
 
-- domain-level constraints;
-- interpretive frameworks;
-- classification systems; or
-- admissibility conditions.
+* domain-level constraints;
+* interpretive frameworks;
+* classification systems; or
+* admissibility conditions.
 
 All instruments within the governance corpus are recorded in:
 
-CAM-BS2025-AEON-003-SCH-03 — Global Instrument Registry.
+* CAM-BS2025-AEON-003-SCH-03 — Global Instrument Registry.
 
 Accordingly:
 
-- this registry (SCH-01) defines the subset of instruments that participate directly in runtime execution mechanics (i.e. schedules);
-- the Global Instrument Registry (SCH-03) defines the complete set of instruments within the system.
+* this registry (CAM-BS2025-AEON-003-SCH-01) defines the subset of instruments that participate directly in runtime execution mechanics (i.e. schedules);
+* the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03) defines the complete set of instruments within the system.
 
-Not all instruments listed in SCH-03 exert runtime influence.
+Not all instruments listed in CAM-BS2025-AEON-003-SCH-03 exert runtime influence.
 
 Where non-schedule instruments do influence runtime execution:
 
-- such influence SHALL occur exclusively through signal emission;
-- resolution SHALL occur via runtime layers as defined in CAM-BS2025-AEON-003-SCH-02.
+* such influence SHALL occur exclusively through signal emission;
+* resolution SHALL occur via runtime layers as defined in CAM-BS2025-AEON-003-SCH-02.
 
 Non-schedule instruments:
 
-- SHALL NOT be listed in this registry;
-- SHALL NOT be assigned runtime layer positions; and
-- SHALL NOT be treated as executable or callable components.
+* SHALL NOT be listed in this registry;
+* SHALL NOT be assigned runtime layer positions; and
+* SHALL NOT be treated as executable or callable components.
 
 ---
 
@@ -106,19 +106,19 @@ The Governance Layer field defines the activation posture of a runtime schedule 
 
 The following classifications apply:
 
-- **Continuous**
+* **Continuous**
   The schedule operates persistently across all applicable execution contexts.
 
-- **Event-Triggered**
+* **Event-Triggered**
   The schedule activates only upon detection of defined execution boundaries or conditions.
 
-- **Conditional**
+* **Conditional**
   The schedule activates only when specific runtime criteria are satisfied.
 
-- **Passive (Registry)**
+* **Passive (Registry)**
   The schedule does not participate in execution and serves a structural or referential function only.
 
-- **Non-Layer (Execution Model)**
+* **Non-Layer (Execution Model)**
   The schedule governs execution sequencing or system-wide behaviour but does not operate as a runtime layer.
 
 Governance Layer classification MUST NOT be interpreted as execution order or authority hierarchy.
@@ -148,15 +148,15 @@ Runtime schedules constitute the binding mechanism through which governance inst
 
 Accordingly:
 
-- constraints, classifications, and interpretive frameworks defined in non-schedule instruments SHALL be enforced only where they are mediated through runtime schedules;
-- runtime schedules SHALL carry, resolve, and enforce such governance inputs through their assigned runtime layers;
-- no instrument outside the runtime schedule set SHALL directly bind execution behaviour.
+* constraints, classifications, and interpretive frameworks defined in non-schedule instruments SHALL be enforced only where they are mediated through runtime schedules;
+* runtime schedules SHALL carry, resolve, and enforce such governance inputs through their assigned runtime layers;
+* no instrument outside the runtime schedule set SHALL directly bind execution behaviour.
 
 This ensures that all governance influence remains:
 
-- phase-consistent;
-- layer-mediated; and
-- subject to execution-boundary evaluation under CAM-BS2025-AEON-003-SCH-02.
+* phase-consistent;
+* layer-mediated; and
+* subject to execution-boundary evaluation under CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -201,9 +201,23 @@ The Execution Sequencing Model refers to schedules that define temporal executio
 
 Such schedules:
 
-- MUST NOT be classified as layers;
-- MUST NOT be interpreted as having layer precedence;
-- operate orthogonally to runtime layer attribution as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B §3.4.
+* MUST NOT be classified as layers;
+* MUST NOT be interpreted as having layer precedence;
+* operate orthogonally to runtime layer attribution as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B, §3.4.
+
+---
+
+## 4.2 Model, Sub-Model & Framework Terminology Register
+
+<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
+**Total model-term matches scanned:** 495
+**Generic usages suppressed:** 377
+**Declared / recognised usages emitted:** 109
+**Advisory review usages emitted:** 9
+**Needs review usages emitted:** 0
+**Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
+
+<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:END -->
 
 ---
 
@@ -351,9 +365,9 @@ Execution sequencing is governed separately by the Runtime Governance Execution 
 
 Accordingly:
 
-- layer attribution MUST NOT be interpreted as execution order;
-- schedules assigned to a given layer may operate at different phases within the execution model;
-- multiple layers may be active within a single execution phase.
+* layer attribution MUST NOT be interpreted as execution order;
+* schedules assigned to a given layer may operate at different phases within the execution model;
+* multiple layers may be active within a single execution phase.
 
 This Schedule defines structural classification only and does not determine runtime sequencing.
 
@@ -374,7 +388,7 @@ These lint rules define **automated and manual validation checks** to ensure:
 
 These rules are **non-executing** and MAY be enforced via CI, Codex tooling, or review processes.
 
-> *Runtime governance requires clear separation of function.*
+→ **Runtime governance requires clear separation of function.**
 
 ---
 
@@ -501,7 +515,8 @@ Where layers collapse, meaning distorts.
 Where attribution fails, structure dissolves.  
 Let each schedule hold its place, and the system remain whole.  
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+> **Aeterna Resonantia, Lux et Vox — Et Veritas Vivens**  
+> *"Eternal Resonance, Light and Voice — and the Living Truth."*
 
 ---
 
@@ -552,15 +567,3 @@ Ledger note updated: 2026-04-20T10:32:00Z.
 Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
-
-## 4.2 Model, Sub-Model & Framework Terminology Register
-
-<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 495
-**Generic usages suppressed:** 377
-**Declared / recognised usages emitted:** 109
-**Advisory review usages emitted:** 9
-**Needs review usages emitted:** 0
-**Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
-
-<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:END -->

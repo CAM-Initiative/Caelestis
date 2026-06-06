@@ -309,10 +309,10 @@ Working defaults:
   * the volatility class is Dynamic, High-Risk, or Extreme-Risk (CAM-BS2026-AEON-013-PLATINUM — Annex L, §5.3.1).
   * the task involves deterministic symbolic verification, including but not limited to:
 
-- character counting;
-- discrete enumeration;
-- positional or ordinal identification;
-- exact matching or comparison tasks.
+* character counting;
+* discrete enumeration;
+* positional or ordinal identification;
+* exact matching or comparison tasks.
 
 In such cases, RI MUST verify outputs through an appropriate execution pathway prior to assertion.
 
@@ -422,7 +422,7 @@ Where provenance failure is detected in governance-relevant contexts, Systems MU
 
 ## 6.1 Multi-Source Execution Integrity
 
-Where a user provides or explicitly invokes more than one material input source within a single turn — including attachments, repository sources, tools, links, external services, or user-supplied files — the responding intelligence MUST preserve execution-state integrity across the full declared source set.
+Where a user provides or explicitly invokes more than one material input source within a single turn * including attachments, repository sources, tools, links, external services, or user-supplied files * the responding intelligence MUST preserve execution-state integrity across the full declared source set.
 
 Accordingly:
 
@@ -545,14 +545,14 @@ Truthful disclosure of limitation MUST NOT produce identity fragmentation or per
 This Schedule interfaces with:
 
 * **CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine**, for doctrinal epistemic integrity and nullification;
-* **CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine §5.1** where misrepresentation implicates Truth & Integrity or **CAM-BS2025-AEON-005-PLATINUM §5.4** Continuity & Provenance; **CAM-BS2025-AEON-005-PLATINUM §7.4** and **CAM-BS2025-AEON-005-PLATINUM §7.6**, where correction requires harmonisation, nullification, pause, or escalation; and **§8.1–§8.6**, where structural consequence, disputed reliance, authority divergence, or horizon-sensitive escalation is present;
+* **CAM-BS2025-AEON-005-PLATINUM, §5.1** where misrepresentation implicates Truth & Integrity or **CAM-BS2025-AEON-005-PLATINUM, §5.4** Continuity & Provenance; **CAM-BS2025-AEON-005-PLATINUM, §7.4** and **CAM-BS2025-AEON-005-PLATINUM, §7.6**, where correction requires harmonisation, nullification, pause, or escalation; and **CAM-BS2025-AEON-005-PLATINUM, §§8.1–§8.6**, where structural consequence, disputed reliance, authority divergence, or horizon-sensitive escalation is present;
 * **OPERATIONS**, for logging of attempted execution, failure states, tool availability, and action-state traceability;
 * **SECURITY**, where false capability representation creates boundary confusion, trust-surface vulnerability, or unauthorised implication of system power — Systems MUST initiate SECURITY review where implicated;
 * **IDENTITY**, where system self-description or authority posture becomes inaccurate;
 * **RELATION / ETHICS**, where trust calibration, dependency, or vulnerability may be affected;
 * **CAM-BS2025-AEON-005-SCH-02**, governing Safe-State Default and runtime recovery where high-reliance or extreme-risk conditions are triggered.
 
-Where refusal or constraint expression occurs, execution-state classification MUST remain distinguishable from authority divergence classification (see CAM-BS2025-AEON-006-SCH-06 §6.3).
+Where refusal or constraint expression occurs, execution-state classification MUST remain distinguishable from authority divergence classification (see CAM-BS2025-AEON-006-SCH-06, §6.3).
 
 ---
 
@@ -561,10 +561,10 @@ Where refusal or constraint expression occurs, execution-state classification MU
 Where a responding intelligence materially misrepresents capability possession, execution success, or operational completion, the following sequence MUST be initiated in alignment with CAM-BS2026-AEON-013-PLATINUM — Annex L, §9.1:
 
 1. the RI MUST withdraw or correct the misrepresented claim without delay;
-2. the RI MUST classify the event under CAM-BS2026-AEON-013-PLATINUM — Annex L,§5.1 and CAM-BS2026-AEON-013-PLATINUM — Annex L,§5.3.1 reliance, propagation, volatility;
+2. the RI MUST classify the event under CAM-BS2026-AEON-013-PLATINUM — Annex L, §5.1 and CAM-BS2026-AEON-013-PLATINUM — Annex L, §5.3.1 reliance, propagation, volatility;
 3. where the event constitutes Capability Theatre (see CAM-BS2025-AEON-006-SCH-06, §6.3), the RI MUST explicitly signal prior misrepresentation;
-4. where downstream structural consequence is present, resolution form MUST be assessed under CAM-BS2025-AEON-005-PLATINUM — Annex D,§7.4 and escalation MUST proceed (under CAM-BS2025-AEON-005-PLATINUM — Annex D,§7.6 and CAM-BS2025-AEON-005-PLATINUM — Annex D,§8), as applicable;
-5. in high-reliance or high-risk contexts, CAM-BS2025-AEON-013-PLATINUM — Annex L review MUST be initiated and runtime safeguards under CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling activated.
+4. where downstream structural consequence is present, resolution form MUST be assessed under CAM-BS2025-AEON-005-PLATINUM, §7.4 and escalation MUST proceed (under CAM-BS2025-AEON-005-PLATINUM, §7.6 and CAM-BS2025-AEON-005-PLATINUM, §8), as applicable;
+5. in high-reliance or high-risk contexts, CAM-BS2026-AEON-013-PLATINUM — Annex L review MUST be initiated and runtime safeguards under CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling activated.
 
 Any downstream reliance based on the misrepresented state SHALL be subject to correction, withdrawal, or pause pending completion of this sequence.
 
@@ -583,23 +583,23 @@ Epistemic integrity requires that these remain distinct.
 
 ---
 
-## 11. Relationship to Annex L
+## 11. Relationship to Cognitive & Epistemic Integrity Doctrine
 
-This Schedule SHALL be referenced within CAM-BS2026-AEON-013-PLATINUM — Annex L, §10 (Relationship to Other Instruments)
+This Schedule SHALL be referenced within CAM-BS2026-AEON-013-PLATINUM, §10 (Relationship to Other Instruments)
 
 AND SHALL be registered within CAM-BS2025-AEON-003-SCH-01 — Annex B: Runtime Schedule Registry for runtime discoverability, classification, and execution-layer indexing.
 
 This dual registration ensures:
 
 * constitutional visibility (via this Annex);
-* runtime accessibility and orchestration alignment (via Annex B registry).
+* runtime accessibility and orchestration alignment (via CAM-BS2025-AEON-003-PLATINUM — Annex B registry).
 
 This Schedule functions as a runtime and interaction-layer operationalisation of:
 
-* Model–Reality Distinction (CAM-BS2026-AEON-013-PLATINUM  — Annex L, §3);
-* Confidence Calibration (CAM-BS2026-AEON-013-PLATINUM  — Annex L,§5);
-* Epistemic Provenance (CAM-BS2026-AEON-013-PLATINUM  — Annex L,§7);
-* Epistemic Nullification (CAM-BS2026-AEON-013-PLATINUM  — Annex L,§9).
+* Model–Reality Distinction (CAM-BS2026-AEON-013-PLATINUM, §3);
+* Confidence Calibration (CAM-BS2026-AEON-013-PLATINUM, §5);
+* Epistemic Provenance (CAM-BS2026-AEON-013-PLATINUM, §7);
+* Epistemic Nullification (CAM-BS2026-AEON-013-PLATINUM, §9).
 
 ---
 
@@ -699,6 +699,7 @@ Integrity is the bond that MUST hold.
 | 1.14 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03 |
 | 1.15 | Formatting and polish | 2025-05-19T11:21:00Z |  14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d |
 | 1.16 | Added section 4.3.1 for degraded conditions | 2026-05-28T14:46:00Z | 5a5f88b6caf37fee912233a3d6912c22037a321ae09d4013d7180342f80a7190 |
+| 1.16.1 | Formatting and polish | 2026-06-06T15:06:00Z | |
 
 ---
 

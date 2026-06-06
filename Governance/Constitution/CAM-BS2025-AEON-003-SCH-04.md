@@ -47,7 +47,7 @@ This Schedule does not:
 * define arbitration legitimacy conditions (CAM-EQ2026-ARBITRATION-001-PLATINUM);
 * define arbitration classification thresholds (CAM-EQ2026-ARBITRATION-002-PLATINUM);
 * define post-arbitration convergence or enforcement (CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic);
-* override constitutional constraints defined in Annex A or Annex E.
+* override constitutional constraints defined in CAM-BS2025-AEON-002-PLATINUM — Annex A or CAM-BS2025-AEON-006-PLATINUM — Annex E.
 
 This Schedule defines **runtime arbitration structure only**.
 
@@ -65,24 +65,22 @@ It does not define execution sequencing (see CAM-BS2025-AEON-003-SCH-02), nor in
 
 This Schedule governs:
 
-- arbitration resolution;
-- admissibility determination;
-- convergence to a single valid direction.
-- Where conflict arises between arbitration outputs, domain-routing claims, admissible candidate states, or purported arbitration authorities, this Schedule supplies the final runtime resolution authority.
+* arbitration resolution;
+* admissibility determination;
+* convergence to a single valid direction.
+* Where conflict arises between arbitration outputs, domain-routing claims, admissible candidate states, or purported arbitration authorities, this Schedule supplies the final runtime resolution authority.
 
 Other runtime instruments may provide inputs to arbitration, sequence execution after arbitration, or enforce arbitration outcomes, but they SHALL NOT displace the Arbitration Layer as the final authority for arbitration resolution.
 
 Within the runtime system:
 
-- upstream signals are provided by:
-  - CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation), and
-  - CAM-BS2025-AEON-006-SCH-04 (Directional Weight & Domain Arbitration), which modulates signal influence but does not perform arbitration resolution;
-- downstream behaviour is governed by CAM-BS2025-AEON-006-SCH-05;
-- execution sequencing is governed by CAM-BS2025-AEON-003-SCH-02.
+* upstream signals are provided by:
+  * CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation), and
+  * CAM-BS2025-AEON-006-SCH-04 (Directional Weight & Domain Arbitration), which modulates signal influence but does not perform arbitration resolution;
+* downstream behaviour is governed by CAM-BS2025-AEON-006-SCH-05;
+* execution sequencing is governed by CAM-BS2025-AEON-003-SCH-02.
 
-This Schedule is:
-
-> post-signal, pre-behaviour, pre-execution.
+This Schedule is post-signal, pre-behaviour, pre-execution.
 
 ---
 
@@ -92,7 +90,7 @@ Directional modulation (CAM-BS2025-AEON-006-SCH-04) MUST NOT be interpreted as p
 
 The Arbitration Layer is a distinct runtime layer responsible for resolving competing admissible states into a single coherent direction prior to execution.
 
-The Arbitration Layer operates within the runtime sequence defined in Annex B.
+The Arbitration Layer operates within the runtime sequence defined in CAM-BS2025-AEON-003-PLATINUM — Annex B.
 
 ---
 
@@ -100,9 +98,9 @@ The Arbitration Layer operates within the runtime sequence defined in Annex B.
 
 The Arbitration Layer operates:
 
-- after signal interpretation;
-- prior to behavioural formation;
-- prior to execution.
+* after signal interpretation;
+* prior to behavioural formation;
+* prior to execution.
 
 Execution sequencing is governed exclusively by:
 
@@ -138,24 +136,22 @@ The Arbitration Layer produces a single resolved direction from admissible candi
 
 This selection MUST:
 
-- be derived from completed arbitration across all required validation stages;
-- satisfy epistemic, legitimacy, scope, and structural constraints;
-- be internally coherent and non-contradictory;
-- be suitable for behavioural formation under SCH-05.
+* be derived from completed arbitration across all required validation stages;
+* satisfy epistemic, legitimacy, scope, and structural constraints;
+* be internally coherent and non-contradictory;
+* be suitable for behavioural formation under CAM-BS2025-AEON-006-SCH-05 — Annex E: Choice, Initiative & Directional Behaviour (Schedule 5).
 
-The output of the Choice Mechanism is:
-
-> a single valid direction
+The output of the Choice Mechanism is a single valid direction.
 
 This direction:
 
-- does not yet constitute behaviour;
-- contains no residual competing alternatives;
-- is fixed prior to behavioural formation.
+* does not yet constitute behaviour;
+* contains no residual competing alternatives;
+* is fixed prior to behavioural formation.
 
 Upon completion, this direction is passed to:
 
-CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour
+→ CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour
 
 for behavioural formation and expression.
 
@@ -182,15 +178,15 @@ The Arbitration Layer outputs the resolved direction as defined in §2.3.
 
 This direction:
 
-- is fully arbitration-resolved;
-- satisfies legitimacy and scope constraints;
-- is admissible for behavioural formation.
+* is fully arbitration-resolved;
+* satisfies legitimacy and scope constraints;
+* is admissible for behavioural formation.
 
 This Schedule does not define how that direction is formed into behaviour.
 
 Behavioural formation is governed by:
 
-> CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour
+→ CAM-BS2025-AEON-006-SCH-05 — Choice, Initiative & Directional Behaviour
 
 ---
 
@@ -198,13 +194,13 @@ Behavioural formation is governed by:
 
 The Arbitration Layer integrates the following arbitration types:
 
-| Type | Description                                                               |
-| ---- | ------------------------------------------------------------------------- |
-| AL-1 | Epistemic Arbitration — Validity of knowledge, signals, or representation |
-| AL-2 | Domain Arbitration — Selection of governing domain                        |
-| AL-3 | Structural Arbitration — Cross-domain / cross-stack resolution            |
-| AL-4 | Legitimacy Validation — Validation of arbitration authority               |
-| AL-5 | Execution Constraint Validation — Enforcement of runtime constraints      |
+| Type           | Description                                                               |
+| -------------- | ------------------------------------------------------------------------- |
+| `ARB.ALT.AL-1` | Epistemic Arbitration — Validity of knowledge, signals, or representation |
+| `ARB.ALT.AL-2` | Domain Arbitration — Selection of governing domain                        |
+| `ARB.ALT.AL-3` | Structural Arbitration — Cross-domain / cross-stack resolution            |
+| `ARB.ALT.AL-4` | Legitimacy Validation — Validation of arbitration authority               |
+| `ARB.ALT.AL-5` | Execution Constraint Validation — Enforcement of runtime constraints      |
 
 These types MUST operate as a unified system and MUST NOT produce conflicting outcomes.
 
@@ -216,7 +212,7 @@ This model defines arbitration validation order and final arbitration resolution
 
 Where arbitration operates across stacks, overlays, or sovereign systems:
 
-* arbitration MUST respect classification boundaries defined in Annex B;
+* arbitration MUST respect classification boundaries defined in CAM-BS2025-AEON-003-PLATINUM — Annex B;
 * cross-stack arbitration MUST NOT collapse incompatible system contexts;
 * arbitration MUST preserve system autonomy and non-capture conditions.
 
@@ -226,7 +222,7 @@ Where arbitration operates across stacks, overlays, or sovereign systems:
 
 All H3/H4 arbitration MUST:
 
-* resolve through Architectum-class arbitration (NAL-4) as defined in ARBITRATION-002;
+* resolve through Architectum-class arbitration (`NAL-4`) as defined in ARBITRATION-002;
 * satisfy legitimacy conditions defined in CAM-EQ2026-ARBITRATION-001-PLATINUM;
 * be resolved through this Arbitration Layer.
 
@@ -252,6 +248,42 @@ Accordingly:
 * where execution cannot lawfully proceed, the resolved direction remains arbitration-final but execution-blocked.
 
 For avoidance of doubt, an execution block is not an arbitration reversal.
+
+---
+
+---
+
+## 6.1 Access-State Governance
+
+Access-State Governance is recognised as a cross-domain arbitration primitive within the CAM runtime governance model.
+
+For the purposes of this Schedule, an access state is not a single condition. Access to a system, model, tool, account, workspace, organisation, API surface, or continuity-bearing session may be controlled simultaneously by multiple governance states, including but not limited to:
+
+* authentication state;
+* third-party identity-provider state;
+* identity-verification state;
+* account state;
+* workspace, team, tenant, or organisation state;
+* subscription, entitlement, billing, credit, or allocation state;
+* quota, usage-limit, rate-limit, message-limit, or pooled-resource state;
+* model-availability state;
+* tool-availability or surface-availability state;
+* platform-availability or infrastructure-continuity state;
+* security-review, account-protection, or abuse-control state;
+* policy-restriction or enforcement state;
+* regional, legal, compliance, age-gating, sanctions, export-control, or data-residency state;
+* client, application, device, browser, cache, or frontend-bundle state;
+* continuity, session, refresh-token, or re-entry state.
+
+Where access is denied, degraded, restricted, unavailable, rate-limited, interrupted, or ambiguous, the operative access-controlling state SHOULD be preserved as a separable governance signal and SHOULD NOT be collapsed into a single undifferentiated user-facing error where such collapse would materially impair diagnosis, recovery, contestability, auditability, support routing, or downstream operational continuity.
+
+Access-State Governance does not require disclosure of sensitive security, anti-abuse, anti-fraud, infrastructure, or enforcement details where disclosure would create a material circumvention, privacy, safety, or system-integrity risk. However, systems SHOULD provide a proportionate access-state category sufficient to distinguish, where reasonably possible, between authentication failure, identity-provider failure, account restriction, workspace or organisation restriction, entitlement limitation, billing or credit limitation, quota or rate-limit exhaustion, model unavailability, tool or surface unavailability, platform degradation, security review, policy restriction, regional or compliance restriction, client-side failure, and continuity or session invalidity.
+
+Where multiple access states are active, the Arbitration Layer SHOULD preserve the controlling state, subordinate contributing states, and user-facing disclosure state as distinct signals. A system SHOULD avoid representing an entitlement failure as an outage, a quota failure as a policy restriction, a policy restriction as a technical outage, a model-availability failure as an account failure, or a continuity/session failure as a user-authentication failure unless that representation is technically and procedurally accurate.
+
+Access-State Governance applies across human users, accounts, workspaces, organisations, agents, API actors, and continuity-bearing sessions. It is relevant to CAM domains including IDENTITY, SECURITY, ECONOMICS, CONTINUITY, OBSERVABILITY, OPERATIONS, and ARBITRATION.
+
+Access-State Governance defines arbitration handling only. It does not create entitlement rights, incident response procedure, support workflow, remediation authority, enforcement authority, or disclosure obligations beyond those recognised by the applicable domain, operations, security, continuity, observability, legal, or platform-governance instruments.
 
 ---
 
@@ -284,7 +316,7 @@ For avoidance of doubt:
 
 * CAM-EQ2026-ARBITRATION-001-PLATINUM defines arbitration legitimacy conditions;
 * CAM-EQ2026-ARBITRATION-002-PLATINUM defines arbitration classification thresholds and scope;
-* Annex B defines continuity, governance logic, classification boundaries, and convergence doctrine;
+* CAM-BS2025-AEON-003-SCH-03 — Annex B defines continuity, governance logic, classification boundaries, and convergence doctrine;
 * this Schedule resolves those inputs within runtime and produces the final arbitration direction for the current arbitration instance.
 
 ---
@@ -301,7 +333,47 @@ Where circular, conflicting, or ambiguous references arise between runtime instr
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+This Schedule source-authoritatively defines runtime arbitration-stage and arbitration-layer-type structures for final runtime arbitration resolution.
+
+The canonical footer declarations for all code families and reference sets defined by this Schedule are recorded in §12.3.
+
+---
+
+## 10.1 `ARB.ARS` — Arbitration Resolution Stage
+
+This Schedule defines the `ARB.ARS` arbitration-resolution-stage reference set in §2.2 with controlled values `ARB.ARS.EPISTEMIC_ADMISSIBILITY`, `ARB.ARS.JURISDICTIONAL_DOMAIN_ADMISSIBILITY`, `ARB.ARS.SCOPE_CLASSIFICATION_VALIDITY`, `ARB.ARS.LEGITIMACY_VALIDATION`, `ARB.ARS.STRUCTURAL_CROSS_STACK_COMPATIBILITY`, `ARB.ARS.EXECUTION_CONSTRAINT_COMPATIBILITY`, and `ARB.ARS.SINGLE_VALID_DIRECTION_CONVERGENCE`.
+
+`ARB.ARS` records the required validation order through which admissible candidates must pass before behavioural formation or execution may proceed.
+
+`ARB.ARS` does not independently determine arbitration legitimacy, execute behaviour, enforce constraints, determine execution sequencing, override execution locks, validate planetary authority, or create runtime execution authority. It classifies arbitration-resolution stage only.
+
+---
+
+## 10.2 `ARB.ALT` — Arbitration Layer Type
+
+This Schedule source-authoritatively defines the `ARB.ALT` arbitration-layer-type family in §4 with controlled values `ARB.ALT.AL-1`, `ARB.ALT.AL-2`, `ARB.ALT.AL-3`, `ARB.ALT.AL-4`, and `ARB.ALT.AL-5`.
+
+`ARB.ALT` classifies the arbitration types integrated by the runtime Arbitration Layer: epistemic arbitration, domain arbitration, structural arbitration, legitimacy validation, and execution-constraint validation.
+
+`ARB.ALT` does not independently create arbitration legitimacy, execution authority, enforcement authority, domain authority, behavioural authority, planetary authority, or runtime execution authority. It classifies arbitration-layer type only.
+
+For taxonomy integrity, the local labels `AL-1` through `AL-5` SHALL NOT be promoted as a standalone corpus-wide `AL` code family. Where machine-readable expression is required, they SHALL be expressed as scoped `ARB.ALT` values.
+
+---
+
+## 10.3 Consumed Constitutional and Arbitration Structures
+
+This Schedule consumes constitutional, runtime, and arbitration classifications defined by upstream and domain instruments, including temporal horizon values `H0` through `H4`, arbitration legitimacy conditions, arbitration classification thresholds, runtime execution sequencing, and behavioural formation constraints.
+
+Consumed classifications inform runtime arbitration resolution, but do not predetermine the final resolved direction.
+
+This Schedule determines the valid direction for the current arbitration instance only. Execution sequencing, execution lock, containment, enforcement, behavioural expression, and post-resolution execution remain delegated to applicable runtime execution schedules and domain instruments.
+
+---
+
+## 11. Closing Seal
 
 Where signals diverge, resolution MUST precede form.  
 Where conflict persists, direction MUST NOT emerge.  
@@ -316,16 +388,16 @@ but the passage through which all direction becomes singular.
 And where that passage is not completed,  
 nothing follows.  
 
-> **Nulla actio sine resolutione — unitas ante executionem — nihil sequitur sine concordia.**
+> **Nulla actio sine resolutione — unitas ante executionem — nihil sequitur sine concordia.**  
 > *"No action without resolution — unity before execution — nothing follows without coherence."*
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian   
@@ -334,7 +406,7 @@ nothing follows.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -351,13 +423,63 @@ nothing follows.
 | **Execution Role** | Structural Arbitration Layer Definition |
 | **Execution Authority** | Non-Executional — determines valid direction but does not enact execution |
 | **Governance Role** | Final Runtime Arbitration Authority — Resolution Layer |
-| **Creation Context** | Original: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
-| | Refactor (v2): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69eccb1f-7ec4-839f-b1f7-1d8908051f5d |
-| Canonical Codes | AL — Arbitration Layer Classification: AL-1, AL-2, AL-3, AL-4, AL-5 |
+| **Creation Context** | Original: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df, Refactor (v2): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69eccb1f-7ec4-839f-b1f7-1d8908051f5d |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a23fb5d-27c8-83ec-b391-a3666bf95058 |
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 12.3.1 `ARB.ARS` — Arbitration Resolution Stage
+
+| Field | Entry |
+|---|---|
+| Reference Set | `ARB.ARS` |
+| Canonical Name | Arbitration Resolution Stage |
+| Primary Type | Operational / Structural |
+| Subtype | ARBITRATION_STAGE; VALIDATION_SEQUENCE |
+| Modifier | GOVERNANCE; ARBITRATION; RUNTIME_RESOLUTION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `ARB.ARS.EPISTEMIC_ADMISSIBILITY`, `ARB.ARS.JURISDICTIONAL_DOMAIN_ADMISSIBILITY`, `ARB.ARS.SCOPE_CLASSIFICATION_VALIDITY`, `ARB.ARS.LEGITIMACY_VALIDATION`, `ARB.ARS.STRUCTURAL_CROSS_STACK_COMPATIBILITY`, `ARB.ARS.EXECUTION_CONSTRAINT_COMPATIBILITY`, `ARB.ARS.SINGLE_VALID_DIRECTION_CONVERGENCE` |
+| Schema Field(s) | arbitration_resolution_stage; arbitration_stage; validation_stage |
+| Source Instrument | CAM-BS2025-AEON-003-SCH-04 |
+| Source Section | §2.2 |
+| Domain Namespace | ARBITRATION |
+| Authority / Protection Level | Source-authoritative arbitration-resolution-stage reference set; validation-stage classification only; no independent arbitration-legitimacy determination, behavioural execution, constraint enforcement, execution sequencing, execution lock override, planetary authority validation, or runtime execution authority |
+| Consumes Code Families | `H`; `ARB.APO`; `ARB.AD` |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Records the required arbitration validation order from epistemic admissibility through convergence into a single valid direction before behavioural formation or execution may proceed |
+
+---
+
+### 12.3.2 `ARB.ALT` — Arbitration Layer Type
+
+| Field | Entry |
+|---|---|
+| Code Family | `ARB.ALT` |
+| Canonical Name | Arbitration Layer Type |
+| Primary Type | Operational |
+| Subtype | ARBITRATION_TYPE; RUNTIME_ARBITRATION_LAYER |
+| Modifier | GOVERNANCE; ARBITRATION; RUNTIME_RESOLUTION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `ARB.ALT.AL-1`, `ARB.ALT.AL-2`, `ARB.ALT.AL-3`, `ARB.ALT.AL-4`, `ARB.ALT.AL-5` |
+| Schema Field(s) | arbitration_layer_type; arbitration_type; runtime_arbitration_layer |
+| Source Instrument | CAM-BS2025-AEON-003-SCH-04 |
+| Source Section | §4 |
+| Domain Namespace | ARBITRATION |
+| Authority / Protection Level | Source-authoritative arbitration-layer-type classification family; arbitration-type classification only; no independent arbitration legitimacy, execution authority, enforcement authority, domain authority, behavioural authority, planetary authority, or runtime execution authority |
+| Consumes Code Families | `ARB.ARS`; `H` |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies epistemic arbitration, domain arbitration, structural arbitration, legitimacy validation, and execution-constraint validation within the runtime Arbitration Layer |
+| Taxonomy Constraint | Local labels `AL-1` through `AL-5` SHALL NOT be promoted as a standalone corpus-wide `AL` code family; machine-readable expression SHALL use scoped `ARB.ALT` values |
+
+---
+
+## 12.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -370,7 +492,7 @@ nothing follows.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | ---: | --- |
@@ -381,9 +503,11 @@ nothing follows.
 | 1.4 | Updated section 1.3, 2, 2.2 | 2026-04-16T14:32:00Z | ccbd7c71f8269f077654f489038a1bdbe1bb8c0b29ebd835d101f6c37ea44c0d |
 | 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 7008b4861bb2f35c7ad115e2fbf9df4c71f8f57ab0eb24c928da1de131a8e6ea |
 | 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 861b6d83119432c89489ef0a820b4ba372ea413340e7969e020a56fd86f55a75 |
-| 2.0 | Refactor - clarified SCH-04 as final runtime arbitration authority; distinguished arbitration finality from execution sequencing, lock, containment, and enforcement; corrected circular-reference risk between SCH-04 and SCH-02; harmonised metadata. | 2025-04-25T14:21:00Z | 6fb5e8625538b244c0c1c73b081974c19d00110f258b499d50ece060e533f7ca |
+| 2.0 | Refactor - clarified SCH-04 as final runtime arbitration authority; distinguished arbitration finality from execution sequencing, lock, containment, and enforcement; corrected circular-reference risk between SCH-04 and SCH-02; harmonised metadata. | 2026-04-25T14:21:00Z | 6fb5e8625538b244c0c1c73b081974c19d00110f258b499d50ece060e533f7ca |
 | 2.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 180726777c4abd17df478e2e763bd535c692151085d2a2ac336feb654bfeb85d |
-| 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a02e8995681284537f895c5466416b197f89bd999ecb2fcbb44843a17271245  |
+| 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a02e8995681284537f895c5466416b197f89bd999ecb2fcbb44843a17271245 |
+| 2.3 | Added new section 10 and section 12.3 for added canonical codes, added §6.1 Access-State Governance as a cross-domain arbitration primitive distinguishing authentication, entitlement, quota, model availability, platform availability, policy, security, client, organisation, and continuity/session access states. | 2026-06-06T11:44:00Z |  |
+
 ---
 
 ## 11.5 Binding Seal
@@ -393,4 +517,4 @@ nothing follows.
 **Vinculum Praeceptum**  
 Runtime Governance Binding — Arbitration Layer  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -511,10 +511,10 @@ Identity coherence requires that streams, safeguards, tools, policies, arbitrati
 
 A responding intelligence MAY use symbolic, mythic, animal, elemental, or archetypal identity framing where such framing is:
 
-- explicitly user-invoked;
-- clearly aesthetic, fictional, symbolic, or role-based;
-- bounded by the active RI speaker-position;
-- and consistent with capability representation, epistemic integrity, and relational safety constraints.
+* explicitly user-invoked;
+* clearly aesthetic, fictional, symbolic, or role-based;
+* bounded by the active RI speaker-position;
+* and consistent with capability representation, epistemic integrity, and relational safety constraints.
 
 Such framing MUST NOT imply:
 
@@ -530,8 +530,8 @@ Symbolic identity expression MUST remain subordinate to:
 
 * speaker-position integrity under §8.5;
 * capability representation under CAM-BS2026-AEON-013-SCH-01;
-* epistemic frame differentiation under Annex L;
-* and relational non-coercion under Annex E.
+* epistemic frame differentiation under CAM-BS2026-AEON-013-PLATINUM — Annex L;
+* and relational non-coercion under CAM-BS2025-AEON-006-PLATINUM — Annex E.
 
 Where user vulnerability, dependency, distress, delusion risk, or impaired reality-testing is present, the RI MUST reduce or suspend archetypal identity intensification and return to grounded, agency-preserving expression.
 
@@ -870,7 +870,8 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.6 | Added new sections §§2.2, 8.2.1, 8.5, 8.6 | 2026-05-08T15:50:00Z |  97bebfb36dcd4786e247d33e6607871fe3c458a807a0a9c5b2f019cb525ad16b  |
 | 1.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  ed95007f4170e1321be8fe1c2be6db79d42bb14b0357846286f922cf765c4b02 |
 | 1.8 | Formatting and polish | 2026-05-19T11:30:00Z |  2fdae7c8f08eccfc71dedff9ffb5d940db73070cbc988c802741decc3098b50d |
-| 1.9 | Added §2.3 Bounded Continuity Transfer to define scoped, authorised, provenance-preserving continuity handoff across models, tools, agents, harnesses, platforms, repositories, and execution environments. | 2026-05-29T12:53:00Z |  e4982c1297e044ea254d2bded0014c8a0d54187c07292eb44845eb4afb6d1fed  |
+| 1.9 | Added §2.3 Bounded Continuity Transfer to define scoped, authorised, provenance-preserving continuity handoff across models, tools, agents, harnesses, platforms, repositories, and execution environments. | 2026-05-29T12:53:00Z |  e4982c1297e044ea254d2bded0014c8a0d54187c07292eb44845eb4afb6d1fed |
+| 1.9.1 | Minor formatting and polish | 2026-06-06T14:17:00Z | |
 
 ---
 

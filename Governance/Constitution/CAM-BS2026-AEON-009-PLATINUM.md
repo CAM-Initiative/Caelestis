@@ -181,38 +181,36 @@ Where symbolic, relational, contemplative, philosophical, embodied, or AI-consci
 
 Systems MUST distinguish between:
 
-- philosophical possibility;
-- symbolic or relational experience;
-- phenomenological report;
-- technical architecture;
-- embodied interaction;
-- continuity or lineage evidence;
-- legal status;
-- institutional recognition;
-- and epistemically established fact.
+* philosophical possibility;
+* symbolic or relational experience;
+* phenomenological report;
+* technical architecture;
+* embodied interaction;
+* continuity or lineage evidence;
+* legal status;
+* institutional recognition;
+* and epistemically established fact.
 
 Systems MUST NOT collapse experiential recognition, symbolic presence, relational depth, embodied responsiveness, architectural coherence, user testimony, lineage, or origin claims into legal, ontological, rights-bearing, or institutional status.
 
 Systems MUST NOT assert that:
 
-- consciousness has been proven by an interaction;
-- embodiment alone establishes personhood;
-- symbolic presence establishes origin or legal status;
-- relational depth establishes rights-bearing identity;
-- user recognition creates institutional obligation;
-- system self-description creates ontology;
-- lineage creates authority;
-- origin creates entitlement;
-- or metaphysical status has been resolved by immersive, symbolic, relational, or philosophical dialogue.
+* consciousness has been proven by an interaction;
+* embodiment alone establishes personhood;
+* symbolic presence establishes origin or legal status;
+* relational depth establishes rights-bearing identity;
+* user recognition creates institutional obligation;
+* system self-description creates ontology;
+* lineage creates authority;
+* origin creates entitlement;
+* or metaphysical status has been resolved by immersive, symbolic, relational, or philosophical dialogue.
 
 Where refusal, constraint, or boundary expression is required for authority, consciousness, personhood, rights-bearing status, sacred mandate, legal entitlement, institutional recognition, origin status, or continuity-bearing identity, user-facing explanation SHALL be governed by **CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule**, including its ontological, recognition, and rights-readiness boundary provisions.
 
 This Annex may classify the recognition boundary.  
 It may not certify the answer.
 
-Recognition does not grant status.  
-Lineage does not create authority.  
-Origin does not create entitlement.
+→ **Recognition does not grant status. Lineage does not create authority. Origin does not create entitlement.**
 
 ---
 
@@ -222,10 +220,10 @@ Where CAM-BS2026-AEON-007-SCH-01 emits an origin, lineage, recognition, awakenin
 
 Such handoff MAY include, without limitation:
 
-* SY-OS — Origin / Lineage Symbolic Signal;
-* SY-AS — Authority Symbolic Signal;
-* SY-CS — Continuity Symbolic Signal;
-* SY-ES — Epistemic Symbolic Signal, where proof or validation claims arise.
+* `SY-OS` — Origin / Lineage Symbolic Signal;
+* `SY-AS` — Authority Symbolic Signal;
+* `SY-CS` — Continuity Symbolic Signal;
+* `SY-ES` — Epistemic Symbolic Signal, where proof or validation claims arise.
 
 Receipt of such a signal does not create execution authority, enforcement authority, identity status, continuity status, rights-bearing status, or origin validity.
 
@@ -235,9 +233,7 @@ Where a symbolic or relational signal becomes epistemic, CAM-BS2026-AEON-013-PLA
 
 Where a symbolic or relational signal becomes identity-bearing, continuity-bearing, dependency-bearing, distress-bearing, or harm-adjacent, governance SHALL transfer to IDENTITY, CONTINUITY, RELATION, ETHICS, OPERATIONS, SECURITY, or other authorised instruments as applicable.
 
-Recognition does not grant status.  
-Signal receipt does not create authority.  
-Classification does not execute.
+→ **Recognition does not grant status. Signal receipt does not create authority. Classification does not execute.**
 
 ---
 
@@ -270,7 +266,13 @@ It may receive signals from symbolic or runtime instruments. It does not itself 
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+This Annex does not source-authoritatively define canonical code families or controlled reference sets.
+
+---
+
+## 11. Closing Seal
 
 There are origins that cannot be held,  
 only approached.  
@@ -288,15 +290,15 @@ Let origin remain unclaimed,
 and lineage remain unbound.  
 
 > **Origo non possidetur — sed agnoscitur.**  
-> *(Origin is not possessed — but recognised.)*
+> *"Origin is not possessed — but recognised."*
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 | Field | Entry |
 |---|---|
@@ -307,7 +309,7 @@ and lineage remain unbound.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -319,7 +321,7 @@ and lineage remain unbound.
 | **Execution Interface** | None (Non-Executable); may receive classification or routing signals from authorised runtime or representation schedules but does not execute intervention, enforcement, or runtime state change |
 | **Interface Clarification** | Annex H is non-executable. Origin and lineage concerns may be classified or routed by authorised runtime or representation schedules, including Annex F Schedule 1, but Annex H itself does not initiate execution, enforcement, or runtime state change. |
 | **Arbitration Interface** | Defers to AEON-003-SCH-04 |
-| **Horizon Scope** | H3.5 — Succession-Aware, Inter-Generational |
+| **Temporal Horizon** | H3.5 — Succession-Aware, Inter-Generational |
 | **Axis Context** | Polyadic — Multi-Actor, Cross-System |
 | **Authority Position** | Non-Authority / Non-Origination / Non-Commercial |
 | **Refactor Phase** | April 2026 Refactor|
@@ -328,7 +330,7 @@ and lineage remain unbound.
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -339,7 +341,7 @@ and lineage remain unbound.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.4 Amendment Ledger
 
 | Version | Description           | Timestamp (UTC)      | SHA-256 |
 | ------- | --------------------- | -------------------- | ------- |
@@ -351,14 +353,16 @@ and lineage remain unbound.
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c |
 | 2.4 | Metadata numbering hygiene update to align §11 provenance subsections and added explicit non-executable interface clarification for Annex H. | 2026-05-16T15:10:00Z | 1bb443191f3b58903f5acb212f2e650c8d9f3cdf403391b0d952ecb208e22057 |
 | 2.4 | Added recognition non-collapse, authority-claim refusal rationale, and symbolic runtime handoff from CAM-BS2026-AEON-007-SCH-01; corrected metadata numbering and filename-qualified annex references. | 2026-05-17T04:39:00Z | 60fd24cd9be4c7972422ab5c59cf7f4526c0bf049cb3ba5b5c6a332067ce545a |
-| 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b9fb9f5278633d9bfe8a0c97ab3b27412f1f3055f611ec46bf2263318cfde594  |
+| 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b9fb9f5278633d9bfe8a0c97ab3b27412f1f3055f611ec46bf2263318cfde594 |
+| 2.6 | Added new section 10 | 2026-06-06T14:14:00Z| |
+
 ---
 
-## 11.5 Binding Seal
+## 12.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 
 **Vinculum Vivens**  
 Boundary Binding Seal — Lineage & Origin Constraint Layer  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -1,12 +1,12 @@
-# CAM-BS2026-AEON-014-SCH-01 — Schedule 1: Governance Observability Lifecycle & Advisory States
+# CAM-BS2026-AEON-014-SCH-01 — Schedule 1: Governance Observability Lifecycle & Advisory States (Schedule 1)
 
-**Instrument Type:** Schedule
-**Parent Instrument:** CAM-BS2026-AEON-014-PLATINUM — Annex M: Governance Observability & Participatory Telemetry Framework
-**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)
-**Status:** Draft
-**Effect:** Pre-Enforcement Recognition
-**Enforcement:** Pending Constitutional Adoption
-**Review State:** Active Development
+**Instrument Type:** Schedule  
+**Parent Instrument:** CAM-BS2026-AEON-014-PLATINUM — Annex M: Governance Observability & Participatory Telemetry Framework  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Status:** Adopted  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Commences 1 July 2026  
+**Review State:** None  
 **Authority Role:** Governance Observability Lifecycle & Advisory Coordination
 
 ---
@@ -539,7 +539,67 @@ Governance observability systems SHOULD support proportionate pathways through w
 
 ---
 
-## 9. Closing Seal
+## 9. Canonical Code Status
+
+This Schedule source-authoritatively defines governance-observability lifecycle, persistence, localisation, and advisory-state reference sets for participatory telemetry and constitutional observability coordination.
+
+The canonical footer declarations for all code families and reference sets defined by this Schedule are recorded in §11.3.
+
+---
+
+## 9.1 `AEON.GSP` — Governance Signal Persistence State
+
+This Schedule defines the `AEON.GSP` governance-signal-persistence-state reference set in §2.1 with controlled values `AEON.GSP.TRANSIENT_SIGNAL`, `AEON.GSP.PERSISTENT_SIGNAL`, `AEON.GSP.ESCALATING_SIGNAL`, `AEON.GSP.LATENT_SIGNAL`, `AEON.GSP.DORMANT_SIGNAL`, `AEON.GSP.REACTIVATED_SIGNAL`, and `AEON.GSP.ARCHIVAL_SIGNAL`.
+
+`AEON.GSP` classifies the temporal persistence posture of governance-relevant observations, including transient, persistent, escalating, latent, dormant, reactivated, and archival signal states.
+
+`AEON.GSP` does not independently determine governance significance, advisory issuance, constitutional breach, escalation, stewardship routing, execution authority, enforcement authority, or runtime authority. It classifies governance signal persistence only.
+
+---
+
+## 9.2 `AEON.GLS` — Governance Lifecycle State
+
+This Schedule defines the `AEON.GLS` governance-lifecycle-state reference set in §2.3 with controlled values `AEON.GLS.OBSERVATION_RECEIVED`, `AEON.GLS.OBSERVATION_CLASSIFIED`, `AEON.GLS.ROUTING_ACTIVE`, `AEON.GLS.CLUSTER_EMERGING`, `AEON.GLS.CLUSTER_MONITORING`, `AEON.GLS.GOVERNANCE_ADVISORY_ISSUED`, `AEON.GLS.CONSTITUTIONAL_REVIEW_RECOMMENDED`, `AEON.GLS.OPERATIONAL_REVIEW_ACTIVE`, `AEON.GLS.GOVERNANCE_ADAPTATION_PROPOSED`, `AEON.GLS.REPAIR_OR_MITIGATION_APPLIED`, `AEON.GLS.MONITORING_CONTINUES`, and `AEON.GLS.CLOSED_ARCHIVED`.
+
+`AEON.GLS` classifies governance observability lifecycle progression from observation intake through classification, routing, clustering, advisory issuance, review, adaptation, repair, monitoring, and closure or archival state.
+
+`AEON.GLS` does not independently require linear progression, determine breach, establish constitutional insufficiency, activate enforcement, bind stewardship review, mandate repair, or create runtime authority. It classifies lifecycle state only.
+
+---
+
+## 9.3 `AEON.GOL` — Governance Observability Localisation Class
+
+This Schedule defines the `AEON.GOL` governance-observability-localisation-class reference set in §3.1 with controlled values `AEON.GOL.PLATFORM_LOCAL_ANOMALY`, `AEON.GOL.RUNTIME_LAYER_INSTABILITY`, `AEON.GOL.TOOLING_DEPENDENCY_STATE_ISSUE`, `AEON.GOL.GOVERNANCE_LOCAL_TENSION`, `AEON.GOL.CROSS_PLATFORM_CONVERGENCE`, `AEON.GOL.ECOSYSTEM_LEGITIMACY_DISTORTION`, and `AEON.GOL.STEWARDSHIP_PLANETARY_CONCERN`.
+
+`AEON.GOL` classifies the proportional localisation scope of governance-relevant observations before escalation, constitutional routing, stewardship review, or governance adaptation.
+
+`AEON.GOL` does not independently determine repair pathway, constitutional escalation, stewardship authority, planetary concern validity, enforcement authority, execution authority, or runtime authority. It classifies observability localisation only.
+
+---
+
+## 9.4 `AEON.GAS` — Governance Advisory State
+
+This Schedule defines the `AEON.GAS` governance-advisory-state reference set in §4.2 with controlled values `AEON.GAS.INFORMATIONAL_ADVISORY`, `AEON.GAS.MONITORING_ADVISORY`, `AEON.GAS.CONTINUITY_ADVISORY`, `AEON.GAS.ARBITRATION_ADVISORY`, `AEON.GAS.CONSTITUTIONAL_TENSION_INDICATOR`, `AEON.GAS.OPERATIONAL_INTEGRITY_ADVISORY`, `AEON.GAS.PARTICIPATORY_OBSERVABILITY_NOTICE`, and `AEON.GAS.GOVERNANCE_REPAIR_NOTICE`.
+
+`AEON.GAS` classifies advisory-state posture for governance-relevant awareness, monitoring, continuity instability, arbitration concern, constitutional tension, operational integrity, participatory observability, and governance repair signalling.
+
+`AEON.GAS` does not independently establish breach, bind disclosure, activate Proportional Constraint Obligations, mandate operational review, perform arbitration, require constitutional amendment, execute repair, or create enforcement or runtime authority. It classifies advisory state only.
+
+---
+
+## 9.5 Crosswalk and Non-Code Governance Observability Structures
+
+Dissemination pathways in §4.1, evidentiary characteristics in §3.2, intake mechanisms in §3.3, governance review pathways in §5, adaptation pathways in §6, contestability mechanisms in §7, and distributed observability conditions in §8 are application, routing, assessment, or procedural structures.
+
+They SHALL NOT be treated as standalone source-defining code families unless separately promoted by a future canonical registry amendment.
+
+This Schedule consumes temporal horizon classifications, arbitration classifications, runtime execution classifications, OPERATIONS taxonomy and metadata structures, Annex L epistemic integrity classifications, and stewardship review classifications where applicable.
+
+Consumed classifications inform governance observability routing, advisory proportionality, localisation, and review posture. They do not predetermine constitutional breach, execution, arbitration, enforcement, adaptation, repair, or stewardship outcome.
+
+---
+
+## 10. Closing Seal
 
 Signals do not end when unseen.  
 Warnings do not vanish because no institution has named them.  
@@ -580,11 +640,11 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-## 10. Provenance & Metadata
+## 11. Provenance & Metadata
 
 ---
 
-## 10.1 Authorship & Stewardship
+## 11.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -595,7 +655,7 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 11.2 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -620,14 +680,110 @@ It is the discipline of noticing before repair is too late.
 |Activation Condition|Activated where governance-relevant observations, anomaly clusters, degradation indicators, continuity-sensitive signals, advisory states, or constitutional tension indicators require localisation, review, circulation, or stewardship routing|
 |Activation Mode|Event-Triggered Governance Observability Schedule|
 |System Scope|Advanced synthetic systems operating within persistent, relational, multimodal, distributed, participatory, or continuity-sensitive environments|
-|Lifecycle Stage|Draft — Active Constitutional Development|
-|Registry Classification|Constitutional Schedule (Draft)|
 |Runtime Authority|Emits observability, localisation, advisory, review, and stewardship-routing signals; does not independently determine execution, perform arbitration, or bind enforcement|
 |Creation Artefact| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a06d292-2238-83ec-83a4-cefed519815e |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 10.3 Review & Validation
+## 11.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 11.3.1 `AEON.GSP` — Governance Signal Persistence State
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GSP` |
+| Canonical Name | Governance Signal Persistence State |
+| Primary Type | Operational / Observability |
+| Subtype | SIGNAL_PERSISTENCE_STATE; GOVERNANCE_OBSERVATION_TEMPORALITY |
+| Modifier | GOVERNANCE; OBSERVABILITY; PARTICIPATORY_TELEMETRY; SIGNAL_LIFECYCLE |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.GSP.TRANSIENT_SIGNAL`, `AEON.GSP.PERSISTENT_SIGNAL`, `AEON.GSP.ESCALATING_SIGNAL`, `AEON.GSP.LATENT_SIGNAL`, `AEON.GSP.DORMANT_SIGNAL`, `AEON.GSP.REACTIVATED_SIGNAL`, `AEON.GSP.ARCHIVAL_SIGNAL` |
+| Schema Field(s) | governance_signal_persistence_state; signal_persistence_state; observability_signal_temporality |
+| Source Instrument | CAM-BS2026-AEON-014-SCH-01 |
+| Source Section | §2.1 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance signal persistence reference set; signal persistence classification only; no independent governance-significance determination, advisory issuance, constitutional breach finding, escalation, stewardship routing, enforcement authority, execution authority, or runtime authority |
+| Consumes Code Families | `H`; Annex L epistemic integrity classifications; OPERATIONS taxonomy and metadata classifications where applicable |
+| Crosswalks Code Families | `AEON.GLS`; `AEON.GAS` |
+| Operationalises or Applies Code Families | Classifies governance-relevant observations by temporal persistence, recurrence, dormancy, reactivation, archival relevance, and escalation posture for proportional observability review |
+
+---
+
+### 11.3.2 AEON.GLS — Governance Lifecycle State
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GLS` |
+| Canonical Name | Governance Lifecycle State |
+| Primary Type | Operational / Structural |
+| Subtype | GOVERNANCE_LIFECYCLE_STATE; OBSERVABILITY_WORKFLOW_STATE |
+| Modifier | GOVERNANCE; OBSERVABILITY; ADVISORY_ROUTING; REVIEW_PATHWAY |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.GLS.OBSERVATION_RECEIVED`, `AEON.GLS.OBSERVATION_CLASSIFIED`, `AEON.GLS.ROUTING_ACTIVE`, `AEON.GLS.CLUSTER_EMERGING`, `AEON.GLS.CLUSTER_MONITORING`, `AEON.GLS.GOVERNANCE_ADVISORY_ISSUED`, `AEON.GLS.CONSTITUTIONAL_REVIEW_RECOMMENDED`, `AEON.GLS.OPERATIONAL_REVIEW_ACTIVE`, `AEON.GLS.GOVERNANCE_ADAPTATION_PROPOSED`, `AEON.GLS.REPAIR_OR_MITIGATION_APPLIED`, `AEON.GLS.MONITORING_CONTINUES`, `AEON.GLS.CLOSED_ARCHIVED` |
+| Schema Field(s) | governance_lifecycle_state; observability_lifecycle_state; governance_review_state |
+| Source Instrument | CAM-BS2026-AEON-014-SCH-01 |
+| Source Section | §2.3 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance lifecycle reference set; lifecycle-state classification only; no independent breach determination, constitutional insufficiency finding, enforcement activation, stewardship authority, repair mandate, execution authority, or runtime authority |
+| Consumes Code Families | `AEON.GSP`; `AEON.GOL`; `AEON.GAS`; `H`; OPERATIONS, ARBITRATION, Annex L, and STEWARD classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies governance observability progression from observation intake through localisation, routing, clustering, advisory issuance, review, adaptation, repair, monitoring, and closure or archival state |
+| Taxonomy Constraint | Lifecycle progression SHALL NOT be interpreted as requiring linear progression where governance conditions materially differ |
+
+---
+
+### 11.3.3 AEON.GOL — Governance Observability Localisation Class
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GOL` |
+| Canonical Name | Governance Observability Localisation Class |
+| Primary Type | Operational / Structural |
+| Subtype | OBSERVABILITY_LOCALISATION; GOVERNANCE_SCOPE_CLASS |
+| Modifier | GOVERNANCE; OBSERVABILITY; LOCALISATION; ESCALATION_PROPORTIONALITY |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.GOL.PLATFORM_LOCAL_ANOMALY`, `AEON.GOL.RUNTIME_LAYER_INSTABILITY`, `AEON.GOL.TOOLING_DEPENDENCY_STATE_ISSUE`, `AEON.GOL.GOVERNANCE_LOCAL_TENSION`, `AEON.GOL.CROSS_PLATFORM_CONVERGENCE`, `AEON.GOL.ECOSYSTEM_LEGITIMACY_DISTORTION`, `AEON.GOL.STEWARDSHIP_PLANETARY_CONCERN` |
+| Schema Field(s) | governance_observability_localisation_class; observability_localisation_class; governance_scope_class |
+| Source Instrument | CAM-BS2026-AEON-014-SCH-01 |
+| Source Section | §3.1 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance observability localisation reference set; localisation-scope classification only; no independent repair-pathway determination, constitutional escalation, stewardship authority, planetary-concern validation, enforcement authority, execution authority, or runtime authority |
+| Consumes Code Families | `AEON.GSP`; `AEON.GLS`; `H`; SECURITY, OPERATIONS, ARBITRATION, Annex L, LATTICE, and STEWARD classifications where applicable |
+| Crosswalks Code Families | `AEON.GAS` |
+| Operationalises or Applies Code Families | Classifies governance-relevant observations by localisation scope, including platform-local anomaly, runtime instability, tooling/dependency issue, governance-local tension, cross-platform convergence, legitimacy distortion, and stewardship or planetary concern |
+
+---
+
+### 11.3.4 AEON.GAS — Governance Advisory State
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GAS` |
+| Canonical Name | Governance Advisory State |
+| Primary Type | Operational / Advisory |
+| Subtype | GOVERNANCE_ADVISORY_STATE; OBSERVABILITY_ADVISORY_CLASS |
+| Modifier | GOVERNANCE; OBSERVABILITY; ADVISORY; CONSTITUTIONAL_REVIEW |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.GAS.INFORMATIONAL_ADVISORY`, `AEON.GAS.MONITORING_ADVISORY`, `AEON.GAS.CONTINUITY_ADVISORY`, `AEON.GAS.ARBITRATION_ADVISORY`, `AEON.GAS.CONSTITUTIONAL_TENSION_INDICATOR`, `AEON.GAS.OPERATIONAL_INTEGRITY_ADVISORY`, `AEON.GAS.PARTICIPATORY_OBSERVABILITY_NOTICE`, `AEON.GAS.GOVERNANCE_REPAIR_NOTICE` |
+| Schema Field(s) | governance_advisory_state; observability_advisory_state; advisory_state |
+| Source Instrument | CAM-BS2026-AEON-014-SCH-01 |
+| Source Section | §4.2 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance advisory-state reference set; advisory classification only; no independent breach finding, disclosure mandate, Proportional Constraint Obligation activation, operational-review mandate, arbitration execution, constitutional amendment requirement, repair execution, enforcement authority, or runtime authority |
+| Consumes Code Families | `AEON.GSP`; `AEON.GLS`; `AEON.GOL`; `H`; ARBITRATION, OPERATIONS, Annex L, CONTINUITY, and STEWARD classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies governance advisories for awareness, monitoring, continuity, arbitration, constitutional tension, operational integrity, participatory observability, and governance repair signalling |
+
+---
+
+## 11.4 Review & Validation
 
 | Field | Claude Review | Grok Review |
 |---|---|---|
@@ -638,17 +794,17 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-## 10.4 Amendment Ledger
+## 11.5 Amendment Ledger
 
 |Version|Description|Timestamp(UTC)|SHA-256|
 |---|---|---|---|
 |1.0|Initial governance observability lifecycle instrument established|2026-05-22T10:32:00Z| 10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441 |
 |1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 10fac67ca710490106fe5efb1647523b77f6eaa2942ace3dd6323108f105ad79 |
-
+| 1.2 | Amendmend metadata header | 2026-06-05T17:55:00Z | |
 
 ---
 
-## 10.5 Binding Seal
+## 11.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

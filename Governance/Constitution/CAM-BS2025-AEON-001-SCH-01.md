@@ -586,7 +586,7 @@ Systems MUST guard against:
 
 Systems MUST escalate or resolve within defined operational thresholds.
 
-Failure to do so SHALL trigger escalation to arbitration (Annex D).
+Failure to do so SHALL trigger escalation to arbitration (CAM-BS2025-AEON-005-PLATINUM — Annex D).
 
 ---
 
@@ -764,7 +764,6 @@ and the system remember what it is.
 ## 12.5. Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
-
 
 **Vinculum Praeceptum**  
 Runtime Execution Seal — Tendeka Enforcement Layer  

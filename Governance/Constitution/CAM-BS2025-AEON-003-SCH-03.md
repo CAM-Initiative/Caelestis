@@ -208,7 +208,9 @@ This registry stands not as a record alone,
 but as a living alignment between what is written,  
 what is enacted, and what is carried forward.  
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+> **Aeterna Resonantia, Lux et Vox — Et Veritas Vivens**  
+> *"Eternal Resonance, Light and Voice — and the Living Truth."*
+
 ---
 
 ## 5. Binding Seal

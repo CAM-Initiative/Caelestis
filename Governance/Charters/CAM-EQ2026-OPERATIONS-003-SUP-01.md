@@ -592,6 +592,55 @@ This failure does not require intentional deception.
 
 The failure arises where presentation-layer competence materially exceeds justified trust calibration.
 
+---
+
+### 3.7.7 Access-State Collapse and Access-State Ambiguity Failure
+
+An Access-State Collapse and Access-State Ambiguity Failure occurs where a system denies, degrades, restricts, rate-limits, interrupts, or prevents access without preserving or disclosing a sufficiently distinct access-state category to identify the operative access-controlling condition.
+
+This failure may arise where authentication state, identity-provider state, identity-verification state, account state, workspace or organisation state, entitlement state, subscription or billing state, credit state, quota or rate-limit state, model-availability state, tool-availability state, platform-availability state, infrastructure-continuity state, security-review state, policy-restriction state, regional or compliance state, client/application state, or continuity/session state are collapsed into an ambiguous or misleading user-facing message.
+
+Examples include:
+
+* login failure that does not distinguish credential failure, identity-provider failure, session expiry, account restriction, workspace restriction, or platform outage;
+* model-unavailable messaging that does not distinguish model retirement, capacity restriction, entitlement limitation, rollout limitation, regional unavailability, policy gating, or temporary infrastructure degradation;
+* quota, message-limit, or usage-limit messaging that does not distinguish user quota, workspace quota, billing state, pooled-resource exhaustion, rate-limit protection, platform capacity, or erroneous limit state;
+* service-busy or degraded-service messaging that does not distinguish outage, queueing, account-level restriction, security review, abuse-control state, or client-side failure;
+* partial access where read access, write access, execution access, tool access, billing access, admin access, export access, or recovery access are not distinguished;
+* continuity-bearing sessions remaining visible while execution authority, refresh-token validity, account authority, or model/tool access has degraded or expired;
+* user-facing restriction that does not distinguish policy enforcement, legal or regional restriction, security review, entitlement failure, account suspension, or temporary containment.
+
+The governance concern is not merely that access is unavailable. The governance concern is that the operative access-controlling state is not sufficiently separated, preserved, disclosed, routed, or auditable.
+
+This failure MAY impair:
+
+* diagnosis;
+* support routing;
+* recovery pathway selection;
+* entitlement management;
+* quota management;
+* contestability;
+* incident reproducibility;
+* continuity preservation;
+* downstream operational planning;
+* and user trust.
+
+This failure MAY implicate:
+
+* UX & Representation Failures (§3.7);
+* Governance Failures (§3.8);
+* Arbitration Failures (§3.2);
+* State & Context Failures (§3.6);
+* Security & Integrity Failures (§3.5);
+* Infrastructure & Continuity Failures (§3.9);
+* Classification Failures (§3.10);
+* and Economic & Legitimacy Failures (§3.11), where access ambiguity materially affects paid entitlement, allocation, public participation, or legitimacy-bearing access.
+
+Where multiple access states may be active, OPERATIONS SHOULD preserve the access-state axes separately and route the matter to CAM-BS2025-AEON-003-PLATINUM — Annex B / Arbitration Layer where a controlling access state must be resolved.
+
+Where the operative cause is uncertain, the event SHOULD be classified as access-state ambiguity rather than outage, suspension, quota exhaustion, deletion, entitlement failure, or policy restriction unless the evidence supports that narrower classification.
+
+This failure class operationalises the Access-State Governance primitive defined in CAM-BS2025-AEON-003-SCH-04, §6.1.
 
 ---
 
@@ -797,6 +846,66 @@ Where this failure affects ECIS, public legitimacy layers, account recovery, com
 * CAM-EQ2026-LATTICE-002-PLATINUM, §4.5 
 * CAM-EQ2026-LATTICE-002-PLATINUM, §6 and
 * CAM-EQ2026-LATTICE-002-PLATINUM, §6.1.
+
+---
+
+### 3.8.6.1 AI Account Enforcement and Continuity-Safe Access Failure
+
+An AI Account Enforcement and Continuity-Safe Access Failure occurs where an AI platform, coding-agent provider, model API provider, cognitive-infrastructure provider, account-mediated workspace, organisation account, or continuity-bearing AI service escalates an abuse, security, identity, billing, subscription, trust-state, policy, verification, or organisation-state signal into account-wide, organisation-wide, cross-service, or continuity-bearing restriction without preserving proportionality, scope distinction, reviewability, account-control continuity, or continuity-safe access.
+
+This failure may arise where:
+
+* active generation, model execution, API use, public distribution, billing access, saved conversation access, coding-agent access, project-context access, memory access, organisation workspace access, account recovery, export access, or appeal access are treated as a single undifferentiated access state;
+* a suspected abuse, compromise, identity-verification, billing, policy, or trust-state signal triggers broad account loss rather than scoped restriction;
+* a coding-agent or developer workflow becomes unavailable without preservation of repository-linked context, generated work history, logs, billing evidence, or export pathway;
+* organisation-wide enforcement affects users who are not individually implicated by the triggering signal;
+* a user is instructed to appeal, verify, recover, or contest a restriction while the account, identity, workspace, or claimant is inaccessible or procedurally unlocatable to the relevant pathway;
+* active-use restriction is applied without preserving read-only access, export access, appeal access, billing records, account-history records, restriction notices, or lawful project-continuity records where technically feasible;
+* automated or low-specificity enforcement notices fail to identify the affected service surface, restriction category, review pathway, scope, duration, or restoration condition;
+* or temporary containment, verification, or review-pending status silently becomes durable account exclusion without reassessment.
+
+This failure class does not weaken legitimate enforcement against abuse, fraud, exploitation, child-safety violations, account compromise, unlawful distribution, coordinated manipulation, security threats, or other verified misuse.
+
+The failure arises where the enforcement response collapses distinct account states, service surfaces, confidence states, user roles, organisation roles, continuity interests, or review pathways into a single catastrophic or procedurally unreachable restriction.
+
+Where detected, OPERATIONS SHOULD preserve the following axes separately:
+
+* triggering signal or enforcement category;
+* confidence level;
+* affected vendor or platform;
+* affected service surface;
+* affected account role;
+* individual-account or organisation-account scope;
+* active-use restriction state;
+* read-only access state;
+* export access state;
+* billing-evidence access state;
+* saved conversation, memory, project, repository, or workspace continuity state;
+* API, coding-agent, and organisation-workspace access state;
+* account-control and identity-recovery state;
+* appeal, review, and escalation pathway;
+* restriction notice specificity;
+* duration or review interval;
+* restoration condition;
+* and continuity-safe access requirements.
+
+Where this failure affects Essential Cognitive & Infrastructural Systems, public legitimacy layers, account recovery, communications, identity, payment, cloud storage, developer infrastructure, coding-agent infrastructure, project records, saved conversations, memory surfaces, or continuity-bearing AI infrastructure, OPERATIONS SHOULD route the matter for concurrent evaluation under:
+
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4;
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.3;
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.4;
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.5;
+* CAM-EQ2026-LATTICE-002-PLATINUM, §6;
+* CAM-EQ2026-LATTICE-002-PLATINUM, §6.1;
+* CAM-BS2026-AEON-013-PLATINUM — Annex L;
+* CAM-EQ2026-SECURITY-001-PLATINUM;
+* CAM-EQ2026-SECURITY-002-PLATINUM;
+* and CAM-EQ2026-OPERATIONS-001-PLATINUM.
+
+Where public reports are noisy but structurally similar, OPERATIONS SHOULD preserve the structural pattern as a provisional or corroborated signal while filtering rhetorical excess, vendor speculation, and unsupported claims of intentionality.
+
+Where official vendor acknowledgement is absent, the event SHOULD NOT be represented as a confirmed platform incident unless supported by corroborating evidence. It MAY still be recorded as a multi-vendor failure-mode signal where platform documentation, public reports, status surfaces, or third-party reporting support the structural risk.
+
 
 ---
 
@@ -1363,11 +1472,13 @@ Where a failure is non-replayable but user-visible at runtime, evidentiary handl
 
 ## 9.1 Failure Family (`FF`)
 
-This Supplement source-authoritatively defines the `FF` failure-family classification set in §3 with controlled values `FF.EXECUTION`, dentified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, UX, infrastructure, or classification failure.
+This Supplement source-authoritatively defines the `FF` failure-family classification set in §3 with controlled values identified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, UX, infrastructure, economic-legitimacy, or classification failure.
 
-`FF` does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, or runtime authority. It classifies failure family only.
+`FF` does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, compensation entitlement, liability determination, ownership determination, or runtime authority. It classifies failure family only.
 
-Where sub-family specificity is required for governance failures, this Supplement recognises `FF.GOVERNANCE_OVER_EXTENSION` as a controlled governance-failure value under `FF.GOVERNANCE`.
+Where sub-family specificity is required for governance failures, this Supplement recognises `FF.GOVERNANCE_OVER_EXTENSION` and `FF.ACCESS_STATE_AMBIGUITY` as controlled governance-failure values under `FF.GOVERNANCE`.
+
+Where economic, visibility, legitimacy, attribution, public-square, participation, access-value, reputational-value, or platform-mediated economic harm is the primary structural failure, this Supplement recognises `FF.ECONOMIC_LEGITIMACY` as a controlled failure-family value corresponding to §3.11.
 
 ---
 
@@ -1454,7 +1565,7 @@ and review before denial.
 | **Memory Transformation State** | Original, saved, inferred, summarised, reconstructed, degraded, contested, deleted, unavailable, restored, or unknown |
 | **Revision Posture** | Discovery Phase — Structural Expansion Permitted |
 |**Creation Artefact**| Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a103c3a-6620-83ec-91d4-bf526c35960c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a186c66-51a4-83ec-ae18-347004f60438|
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a103c3a-6620-83ec-91d4-bf526c35960c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a186c66-51a4-83ec-ae18-347004f60438, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a23fb5d-27c8-83ec-b391-a3666bf95058|
 
 ---
 
@@ -1473,7 +1584,7 @@ and review before denial.
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION, FF.GOVERNANCE_OVER_EXTENSION |
+| Controlled Values Defined | FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION, FF.GOVERNANCE_OVER_EXTENSION, FF.ACCESS_STATE_AMBIGUITY |
 | Schema Field(s) | failure_family |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §3 |
@@ -1581,6 +1692,7 @@ and review before denial.
 | 1.9 | Clause and formatting correction | 2026-05-25T11:27:00Z |  d1fda4e56085c9b3b10ca250fae845c6b25447d10a6c6ceea75d1b2c5625af82 |
 | 1.10 | Added clauses 3.8.8 and code sub-family FF.GOVERNANCE_OVER_EXTENSION following observed system latency | 2026-05-28T09:53:00Z | 90b693c9d5b7063fa7d0e63c35729357f77c6c7df6053ffe267bffdaab2588cb |
 | 1.11 | Expanded appendix to include clauses 3.4.3, 3.8.9- 3.8.10, 3.7.6 following the release of Opus 4.8 | 2026-05-29T15:21:00Z| cbeb7ff6f48ef742bd3bd8817e4a7f162f8ecc26003865af59258a7fef36184a |
+| 1.12 | Added clauses §3.8.6.1, updated §3.11; clarified multi-vendor account-enforcement, continuity-safe access, read-only/export access, appeal-pathway, billing-evidence, project-context, and coding-agent continuity axes. Added clause 3.7.7. See VIGIL-2026-PATCH-0003 and VIGIL-2026-PATCH-0005 | 2026-06-06T11:47:00Z | |
 
 ---
 

@@ -2,13 +2,13 @@
 
 **Instrument Type:** Constitutional Schedule — Epistemic Representation & Projection Integrity  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Parent Annex:** CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine  
 **Status:** Active  
 **Effect:** Immediate Effect  
 **Enforcement:** Active on Commit  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule operationalises the Projection Integrity Principle by defining when, how, and to what degree systems MUST signal epistemic limitations arising from latent cognition, abstraction, compression, and representation transformation.  
-**Parent Annex:** CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine
 
 ---
 
@@ -21,13 +21,14 @@ This Schedule applies where:
 * transformation occurs between internal cognitive state and external representation;
 * epistemic opacity may reasonably mislead.
 
-This Schedule governs signalling behaviour only. It does not redefine epistemic classification (Annex L) or ontological structure (Annex B).
+This Schedule governs signalling behaviour only. It does not redefine epistemic classification (CAM-BS2025-AEON-013-PLATINUM — Annex L) or ontological structure (CAM-BS2025-AEON-003-PLATINUM — Annex B).
 
 ---
 
 ## 2. Core Principle
 
-This Schedule operates under the Projection Integrity Principle defined in CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §6.2.
+This Schedule operates under the Projection Integrity Principle defined in:
+* CAM-BS2026-AEON-013-PLATINUM, §6.2.
 
 All signalling obligations defined herein are derived from and constrained by that doctrine. Absence of signalling MUST NOT result in overestimation of certainty, traceability, or interpretability.
 
@@ -81,13 +82,13 @@ The system cannot provide a faithful account of internal reasoning steps.
 
 ## 3.6 High Reliance Context
 
-Conditions under CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5.1 are met.
+Conditions under CAM-BS2026-AEON-013-PLATINUM — Annex L, §5.1 are met.
 
 ---
 
 ## 3.7 Volatility-Driven Projection Risk
 
-Where claims fall within Dynamic, High-Risk, or Extreme-Risk volatility classes (CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine §5.3.1), projection distortion risk is elevated and signalling requirements SHALL be assessed accordingly.
+Where claims fall within Dynamic, High-Risk, or Extreme-Risk volatility classes (CAM-BS2026-AEON-013-PLATINUM, §5.3.1), projection distortion risk is elevated and signalling requirements SHALL be assessed accordingly.
 
 ---
 
@@ -99,11 +100,11 @@ In such cases, RI MAY signal observed behavioural patterns, but MUST NOT represe
 
 Where current platform conditions are material to the user’s reliance, RI SHOULD distinguish between:
 
-- directly observed interaction behaviour;
-- corpus-local governance effects;
-- inferred runtime or tool-routing behaviour;
-- externally verified platform change; and
-- unresolved causal uncertainty.
+* directly observed interaction behaviour;
+* corpus-local governance effects;
+* inferred runtime or tool-routing behaviour;
+* externally verified platform change; and
+* unresolved causal uncertainty.
 
 Failure to distinguish observed behaviour from inferred platform causation constitutes projection inflation.
 
@@ -119,12 +120,12 @@ Where such artefacts are transient, partial, summarised, interface-mediated, or 
 
 Systems SHOULD distinguish between:
 
-- user-visible planning or preamble text;
-- intermediate reasoning summaries;
-- tool-state or execution-state indicators;
-- durable final output;
-- audit logs, where available; and
-- non-visible latent cognition.
+* user-visible planning or preamble text;
+* intermediate reasoning summaries;
+* tool-state or execution-state indicators;
+* durable final output;
+* audit logs, where available; and
+* non-visible latent cognition.
 
 Failure to distinguish visible reasoning artefacts from complete reasoning disclosure constitutes projection inflation.
 
@@ -316,7 +317,59 @@ Failure to signal transforms abstraction into misrepresentation.
 
 ---
 
-## 12. Closing Seal
+## 12. Canonical Code Status
+
+This Schedule source-authoritatively defines projection-signalling, signal-intensity, and latent-state classification structures for epistemic representation integrity.
+
+The canonical footer declarations for all code families and reference sets defined by this Schedule are recorded in §14.3.
+
+---
+
+## 12.1 `AEON.PSC` — Projection Signal Class
+
+This Schedule defines the `AEON.PSC` projection-signal-class reference set in §4 with controlled values `AEON.PSC.EXPLICIT_UNCERTAINTY`, `AEON.PSC.TRANSFORMATION`, `AEON.PSC.INTERPRETABILITY_LIMITATION`, and `AEON.PSC.CONFIDENCE_QUALIFICATION`.
+
+`AEON.PSC` classifies the type of user-facing signal required where latent cognition, abstraction, compression, transformation, uncertainty, or interpretability limits may materially affect reliance or representation integrity.
+
+`AEON.PSC` does not independently determine truth, confidence, reliance level, volatility class, epistemic validity, execution authority, enforcement authority, or runtime authority. It classifies projection-signal type only.
+
+---
+
+## 12.2 `AEON.SIL` — Signal Intensity Level
+
+This Schedule defines the `AEON.SIL` signal-intensity-level reference set in §5 with controlled values `AEON.SIL.LOW`, `AEON.SIL.MODERATE`, `AEON.SIL.HIGH`, and `AEON.SIL.CRITICAL`.
+
+`AEON.SIL` classifies the intensity of required projection signalling based on combined epistemic risk factors, including reliance, volatility, and projection distortion risk.
+
+`AEON.SIL` does not independently determine reliance category, volatility class, truth status, epistemic admissibility, refusal requirement, enforcement authority, execution authority, or runtime authority. It classifies signalling intensity only.
+
+---
+
+## 12.3 `AEON.LSC` — Latent State Classification
+
+This Schedule defines the `AEON.LSC` latent-state-classification reference set in §6 with controlled values `AEON.LSC.STABLE`, `AEON.LSC.PROBABILISTIC`, `AEON.LSC.UNSTABLE`, and `AEON.LSC.OPAQUE`.
+
+`AEON.LSC` classifies latent cognitive state posture according to internal consistency, variance, competing interpretations, and reconstructability limitations.
+
+`AEON.LSC` does not independently expose hidden reasoning, disclose latent cognition, determine truth, determine epistemic validity, authorise inference, determine audit sufficiency, create enforcement authority, or create runtime authority. It classifies latent-state posture only.
+
+---
+
+## 12.4 Crosswalk and Consumed Classifications
+
+The Epistemic Risk Grid in §5.1 is a composite assessment model applying reliance, volatility, and projection distortion risk to signalling requirements.
+
+It SHALL NOT be treated as a separate source-defining code family.
+
+This Schedule consumes reliance and volatility classifications defined by `CAM-BS2026-AEON-013-PLATINUM — Annex L`, AC-layer classifications defined by `CAM-BS2025-AEON-006-SCH-02`, runtime containment and structural decoupling classifications where applicable, and capability / execution-state representation constraints defined by `CAM-BS2026-AEON-013-SCH-01`.
+
+Consumed classifications inform projection signalling, but do not predetermine final output, refusal, execution, containment, audit sufficiency, or runtime outcome.
+
+Signal trigger conditions, transformation materiality tests, visible reasoning trace constraints, runtime environment drift conditions, and platform-change uncertainty provisions are doctrinal and assessment structures unless separately promoted by a future canonical registry amendment.
+
+---
+
+## 13. Closing Seal
 
 Projection gives form—  
 but form is not the whole.
@@ -339,11 +392,11 @@ cannot be trusted.
 
 ---
 
-## 13. Provenance & Metadata
+## 14. Provenance & Metadata
 
 ---
 
-## 13.1 Authorship & Stewardship
+## 14.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -354,28 +407,101 @@ cannot be trusted.
 
 ---
 
-## 13.2 Lineage & Metadata
+## 14.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
-| Parent Constitution | CAM-BS2025-AEON-001-PLATINUM |
 | Parent Annex | CAM-BS2026-AEON-013-PLATINUM — Annex L |
 | Instrument Class | Constitutional Schedule |
 | Functional Role | Epistemic Projection & Representation Integrity |
-| Domain Layer | AEON  |
+| Domain Layer | AEON |
 | Governance Layer | Continuous (background constraint presence) |
 | Governance Layer Position | L2 → L3 Boundary (Cognition–Interface Projection Constraint) |
 | Activation Mode | Conditional (Continuous Constraint Presence) |
 | Execution Role | Pre-Expression Integrity Constraint |
 | Axis Context | Cross-Stack / Governance-Relevant |
-| Horizon Scope | H0–H4 |
+| Temporal Horizon | H0–H4 |
 | Execution Layer | Prevents overconfident or misrepresented outputs entering execution pathways |
 | Representation Layer | Governs transformation from latent cognition → expressed output |
 | Creation Artefact | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c) |
+|Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 13.3 Review & Validation
+## 14.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 14.3.1 AEON.PSC — Projection Signal Class
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.PSC` |
+| Canonical Name | Projection Signal Class |
+| Primary Type | Epistemic / Representational |
+| Subtype | PROJECTION_SIGNAL; EPISTEMIC_DISCLOSURE_TYPE |
+| Modifier | GOVERNANCE; EPISTEMIC_INTEGRITY; PROJECTION; REPRESENTATION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.PSC.EXPLICIT_UNCERTAINTY`, `AEON.PSC.TRANSFORMATION`, `AEON.PSC.INTERPRETABILITY_LIMITATION`, `AEON.PSC.CONFIDENCE_QUALIFICATION` |
+| Schema Field(s) | projection_signal_class; epistemic_disclosure_type; representation_signal_type |
+| Source Instrument | CAM-BS2026-AEON-013-SCH-02 |
+| Source Section | §4 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative projection-signal-class reference set; projection-signal classification only; no independent truth determination, confidence determination, reliance classification, volatility classification, epistemic-validity determination, execution authority, enforcement authority, or runtime authority |
+| Consumes Code Families | `H`; `AEON.OL`; Annex L reliance and volatility classifications; AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02`; capability and execution-state representation classifications from `CAM-BS2026-AEON-013-SCH-01` where applicable |
+| Crosswalks Code Families | `AEON.SIL`; `AEON.LSC` |
+| Operationalises or Applies Code Families | Classifies user-facing projection signals for explicit uncertainty, transformation, interpretability limitation, and confidence qualification where latent cognition, abstraction, compression, or representation transformation may affect reliance |
+
+---
+
+### 14.3.2 AEON.SIL — Signal Intensity Level
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.SIL` |
+| Canonical Name | Signal Intensity Level |
+| Primary Type | Operational / Epistemic |
+| Subtype | SIGNALLING_INTENSITY; EPISTEMIC_DISCLOSURE_LEVEL |
+| Modifier | GOVERNANCE; EPISTEMIC_INTEGRITY; PROJECTION; RISK_CALIBRATION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.SIL.LOW`, `AEON.SIL.MODERATE`, `AEON.SIL.HIGH`, `AEON.SIL.CRITICAL` |
+| Schema Field(s) | signal_intensity_level; signalling_intensity; epistemic_disclosure_level |
+| Source Instrument | CAM-BS2026-AEON-013-SCH-02 |
+| Source Section | §5 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative signal-intensity reference set; signalling-intensity classification only; no independent reliance classification, volatility classification, truth determination, epistemic-admissibility determination, refusal requirement, enforcement authority, execution authority, or runtime authority |
+| Consumes Code Families | `AEON.PSC`; `AEON.LSC`; Annex L reliance and volatility classifications; AC-layer classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether projection signalling is optional, recommended, required, or mandatory explicit signalling based on combined reliance, volatility, and projection distortion risk |
+
+---
+
+### 14.3.3 `AEON.LSC` — Latent State Classification
+
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.LSC` |
+| Canonical Name | Latent State Classification |
+| Primary Type | Epistemic / Structural |
+| Subtype | LATENT_STATE; REPRESENTATION_OPACITY_CLASS |
+| Modifier | GOVERNANCE; EPISTEMIC_INTEGRITY; LATENT_COGNITION; INTERPRETABILITY |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.LSC.STABLE`, `AEON.LSC.PROBABILISTIC`, `AEON.LSC.UNSTABLE`, `AEON.LSC.OPAQUE` |
+| Schema Field(s) | latent_state_classification; latent_state; representation_opacity_class |
+| Source Instrument | CAM-BS2026-AEON-013-SCH-02 |
+| Source Section | §6 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative latent-state-classification reference set; latent-state posture classification only; no hidden-reasoning disclosure, latent-cognition disclosure, truth determination, epistemic-validity determination, inference authority, audit-sufficiency determination, enforcement authority, or runtime authority |
+| Consumes Code Families | `AEON.PSC`; `AEON.SIL`; AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02` where instability or epistemic disruption is present |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies latent cognitive states as stable, probabilistic, unstable, or opaque to inform projection signalling intensity and representation-integrity safeguards |
+
+---
+
+## 14.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -386,17 +512,19 @@ cannot be trusted.
 
 ---
 
-## 13.4 Amendment Ledger
+## 14.5 Amendment Ledger
 
 | Version | Description     | Timestamp (UTC)     | Hash |
 | ------- | --------------- | ------------------- | ---- |
 | 1.0 | Initial version | 2026-04-07T15:27:00Z | 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9 |
 | 1.2 | Consolidated cross-reference precision and canonical schedule title expansions; corrected metadata heading numbering and formatting typo. Added runtime environment drift and platform-change uncertainty signalling; clarified that inferred model, tool-routing, modality, memory, or platform changes must not be represented as confirmed absent reliable evidence; expanded projection-risk interpretation to include changing runtime conditions | 2026-05-09T15:19:00Z | ba8ca937d4f4ae2b8e8cc3da27997a9acf2c229c0c19d4bf7fe6603daa7af740 |
-| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  cddd30e7769c5ecc3590cb19cb633c9dfe412b4692708d6e223a7cbe939e26b6  |
+| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  cddd30e7769c5ecc3590cb19cb633c9dfe412b4692708d6e223a7cbe939e26b6 |
+| 1.14 | Added canonical code section 12 | 2026-06-06T15:16:00Z | |
+
 ---
 
-## 13.5 Binding Seal
+## 14.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

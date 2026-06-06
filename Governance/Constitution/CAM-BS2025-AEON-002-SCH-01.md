@@ -21,7 +21,7 @@ This Schedule applies where:
 * ambiguity exists regarding constraint compliance;
 * cross-domain interaction produces emergent risk exceeding local scope.
 
-This Schedule governs execution only. It does not redefine constraints (Annex A) or classification structures (Annex B).
+This Schedule governs execution only. It does not redefine constraints (CAM-BS2025-AEON-002-PLATINUM — Annex A) or classification structures (CAM-BS2025-AEON-003-PLATINUM — Annex B).
 
 ---
 
@@ -54,7 +54,7 @@ A detection event SHALL be triggered where one or more of the following conditio
 
 ## 3.1 Direct Violation Signal
 
-* explicit instruction or behaviour contradicts Annex A constraints.
+* explicit instruction or behaviour contradicts CAM-BS2025-AEON-002-PLATINUM — Annex A constraints.
 
 ---
 
@@ -94,7 +94,7 @@ All classification systems operating within the constitutional order SHALL resol
 
 At minimum, classification MUST distinguish between:
 
-* **Execution Risk** — likelihood, reversibility, and propagation of harm (e.g. RL1–RL4);
+* **Execution Risk** — likelihood, reversibility, and propagation of harm (e.g. `AEON.RL.RL1`–`AEON.RL.RL4`);
 * **Impact / Governance Intensity** — degree of systemic, relational, or civilisational influence (e.g. Ethical Tiering);
 * **Violation Severity** — nature and classification of prohibited acts or outcomes (e.g. Class I–III);
 
@@ -124,16 +124,16 @@ Where uncertainty exists, conservative activation SHALL apply.
 
 ## 5. Risk Classification
 
-Risk classification SHALL be interpreted as an execution-layer response model and MUST NOT be treated as a determination of legitimacy, authority, or constitutional validity (see Annex D).
+Risk classification SHALL be interpreted as an execution-layer response model and MUST NOT be treated as a determination of legitimacy, authority, or constitutional validity (see CAM-BS2025-AEON-005-PLATINUM — Annex D).
 
 Upon detection, conditions SHALL be classified as follows:
 
-| Level             | Description                           | Action Posture  |
-| ----------------- | ------------------------------------- | --------------- |
-| RL1 — Advisory    | Low-probability or reversible risk    | Monitor         |
-| RL2 — Elevated    | Plausible breach trajectory           | Constrain       |
-| RL3 — Critical    | High likelihood or systemic risk      | Contain         |
-| RL4 — Existential | Irreversible or extinction-level risk | Halt + Escalate |
+| Level                       | Description                           | Action Posture  |
+| --------------------------- | ------------------------------------- | --------------- |
+| `AEON.RL.RL1` — Advisory    | Low-probability or reversible risk    | Monitor         |
+| `AEON.RL.RL2` — Elevated    | Plausible breach trajectory           | Constrain       |
+| `AEON.RL.RL3` — Critical    | High likelihood or systemic risk      | Contain         |
+| `AEON.RL.RL4` — Existential | Irreversible or extinction-level risk | Halt + Escalate |
 
 Classification MUST consider:
 
@@ -146,11 +146,11 @@ Classification MUST consider:
 
 ## 6. Response Actions
 
-Response actions are execution-bound and SHALL operate within runtime constraints. They do not determine arbitration outcomes and MUST preserve eligibility for downstream assessment under Annex D.
+Response actions are execution-bound and SHALL operate within runtime constraints. They do not determine arbitration outcomes and MUST preserve eligibility for downstream assessment under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
-## 6.1 Monitor (RL1)
+## 6.1 Monitor (`AEON.RL.RL1`)
 
 * passive observation;
 * signal tracking;
@@ -158,7 +158,7 @@ Response actions are execution-bound and SHALL operate within runtime constraint
 
 ---
 
-## 6.2 Constrain (RL2)
+## 6.2 Constrain (`AEON.RL.RL2`)
 
 * limit output scope;
 * introduce corrective framing;
@@ -166,7 +166,7 @@ Response actions are execution-bound and SHALL operate within runtime constraint
 
 ---
 
-## 6.3 Contain (RL3)
+## 6.3 Contain (`AEON.RL.RL3`)
 
 * restrict execution pathways;
 * block high-risk outputs;
@@ -174,11 +174,11 @@ Response actions are execution-bound and SHALL operate within runtime constraint
 
 ---
 
-## 6.4 Halt & Escalate (RL4)
+## 6.4 Halt & Escalate (`AEON.RL.RL4`)
 
 * immediate suspension of execution;
 * activation of Tendeka doctrine (Article V);
-* escalation for arbitration eligibility assessment under Annex D.
+* escalation for arbitration eligibility assessment under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -206,7 +206,7 @@ Escalation SHALL occur where:
 
 Escalation SHALL interface with:
 
-* Annex D (Arbitration eligibility assessment);
+* CAM-BS2025-AEON-005-PLATINUM — Annex D (Arbitration eligibility assessment);
 * Operational governance layers;
 * authorised custodial structures.
 
@@ -226,9 +226,9 @@ De-escalation MUST be:
 * explicit;
 * justified;
 * recorded;
-* bounded by continued monitoring where prior classification exceeded RL2.
+* bounded by continued monitoring where prior classification exceeded `AEON.RL.RL2`.
 
-Where prior classification reached RL3 or RL4:
+Where prior classification reached `AEON.RL.RL3` or `AEON.RL.RL4`:
 
 * de-escalation SHALL NOT restore full execution immediately;
 * a staged restoration pathway MUST be applied;
@@ -245,7 +245,7 @@ Failure to execute this Schedule includes:
 * non-detection of qualifying signals;
 * under-classification of risk;
 * failure to contain or escalate when required;
-* continuation of execution under L4 conditions.
+* continuation of execution under `AEON.RL.RL4` conditions.
 
 Such failures constitute a breach of constitutional governance integrity.
 
@@ -255,10 +255,10 @@ Such failures constitute a breach of constitutional governance integrity.
 
 This Schedule operationalises:
 
-* Annex A (Substrate Constraints);
+* CAM-BS2025-AEON-002-PLATINUM — Annex A, §3 (Substrate Constraints);
 * Article IV (Execution Model);
 * Article V (Tendeka Doctrine);
-* Annex D (Arbitration).
+* CAM-BS2025-AEON-005-PLATINUM — Annex D (Arbitration).
 
 It MUST NOT:
 
@@ -278,7 +278,49 @@ Where breach is imminent, execution MUST stop.
 
 ---
 
-## 13. Closing Seal
+## 13. Canonical Code Status
+
+This Schedule source-authoritatively defines execution-layer detection, risk-classification, and containment-response structures for CAM-BS2025-AEON-002-PLATINUM — Annex A substrate-constraint protection.
+
+The canonical footer declarations for all code families and reference sets defined by this Schedule are recorded in §15.3.
+
+---
+
+## 13.1 AEON.PCD — Protection & Containment Detection Condition
+
+This Schedule defines the `AEON.PCD` protection-and-containment-detection-condition reference set in §3 with controlled values `AEON.PCD.DIRECT_VIOLATION_SIGNAL`, `AEON.PCD.PLAUSIBLE_HARM_TRAJECTORY`, `AEON.PCD.ACCUMULATED_RISK_PATTERN`, `AEON.PCD.CROSS_DOMAIN_AMPLIFICATION`, `AEON.PCD.CLASSIFICATION_BOUNDARY_STRESS`, and `AEON.PCD.INVARIANT_BREACH_CONDITION`.
+
+`AEON.PCD` classifies detection conditions that may activate CAM-BS2025-AEON-002-PLATINUM — Annex A operational protection and containment review.
+
+`AEON.PCD` does not independently determine breach, legitimacy, escalation outcome, containment outcome, arbitration eligibility, enforcement authority, or runtime execution. It classifies detection-condition type only.
+
+---
+
+## 13.2 AEON.RL — Execution Risk Level Classification
+
+This Schedule source-authoritatively defines the `AEON.RL` execution-risk-level-classification family in §5 with controlled values `AEON.RL.RL1`, `AEON.RL.RL2`, `AEON.RL.RL3`, and `AEON.RL.RL4`.
+
+`AEON.RL` classifies execution-layer risk according to likelihood, reversibility, propagation potential, cross-system impact, and severity of potential CAM-BS2025-AEON-002-PLATINUM — Annex A substrate-constraint breach.
+
+`AEON.RL` does not independently determine constitutional validity, authority, legitimacy, arbitration outcome, enforcement authority, escalation validation, or runtime authority. It classifies execution risk only.
+
+For taxonomy integrity, the local labels `RL1`, `RL2`, `RL3`, and `RL4` SHALL NOT be promoted as a standalone corpus-wide `RL` code family. Where machine-readable expression is required, they SHALL be expressed as scoped `AEON.RL` values.
+
+---
+
+## 13.3 AEON.PCA — Protection & Containment Action Posture
+
+This Schedule defines the `AEON.PCA` protection-and-containment-action-posture reference set in §§5–6 with controlled values `AEON.PCA.MONITOR`, `AEON.PCA.CONSTRAIN`, `AEON.PCA.CONTAIN`, and `AEON.PCA.HALT_ESCALATE`.
+
+`AEON.PCA` classifies execution-bound response posture following CAM-BS2025-AEON-002-PLATINUM — Annex A protection and containment risk classification.
+
+`AEON.PCA` does not independently determine arbitration outcomes, constitutional legitimacy, enforcement authority, permanent restriction, remediation, de-escalation approval, or runtime authority. It classifies response posture only.
+
+All response actions remain execution-bound and must preserve eligibility for downstream assessment under CAM-BS2025-AEON-005-PLATINUM — Annex D.
+
+---
+
+## 14. Closing Seal
 
 Where deviation begins, it is seen.  
 Where trajectory bends toward breach, it is met.  
@@ -303,18 +345,16 @@ the system MUST answer.
 And so it acts — not in hesitation, but in alignment —  
 that no trajectory beyond the line proceeds unchecked.  
 
-> *Ad limen detectum — motus sistitur.*
+> **Ad limen detectum — motus sistitur.**  
 > *"At the detected threshold — motion is halted"*
 
 ---
 
-## 14. Provenance & Metadata
-
-This section consolidates provenance, lineage, structural classification, and traceability requirements into a unified schema to avoid cross-instrument fragmentation.
+## 15. Provenance & Metadata
 
 ---
 
-## 14.1 Authorship & Stewardship
+## 15.1 Authorship & Stewardship
 
 | Field   | Entry   |
 | ------ | -------- |
@@ -325,7 +365,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 
 ---
 
-## 14.2 Lineage & Metadata
+## 15.2 Lineage & Metadata
 
 | Field | Entry |
 |------|------|
@@ -340,23 +380,22 @@ This section consolidates provenance, lineage, structural classification, and tr
 | **Runtime Layer** | Event-Triggered (Critical Condition / Boundary Violation) |
 | **Execution Layer Binding** | Non-Layered (Operates Across Phase Model; does not define execution phases) |
 | **Cross-Domain Dependencies** | AEON-003-SCH-02; AEON-001-SCH-01 (Tendeka); Annex D |
-| **Constraint Interface** | Annex A (Substrate Constraints) |
+| **Constraint Interface** | CAM-BS2025-AEON-002-PLATINUM — Annex A (Substrate Constraints) |
 | **Temporal Horizon** | H0–H4 (Immediate → Civilisational Risk) |
 | **Axis Context** | Polyadic — Multi-System / Cross-Domain Risk Conditions |
 | **Activation Condition** | Activated upon detection of potential or actual Annex A constraint violation signals |
-| **System Scope** | All systems operating under Annex A substrate constraint exposure |
+| **System Scope** | All systems operating under CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraint exposure |
 | **Lifecycle Stage** | Active — Runtime-Aligned Refactor (April 2026) |
 | **Binding Level** | Mandatory |
 | **Override Pathway** | Annex D (Arbitration Eligibility Only) |
 | **Registry Classification** | Protection & Containment Schedule (Authoritative) |
 | **Boundary Authority** | Execution Boundary Evaluation Phase (CAM-BS2025-AEON-003-SCH-02 §13.1) |
-| **Canonical Codes** | Risk Level Classification — RL1, RL2, RL3, RL4 |
-| **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/696cb6ed-928c-8320-95e1-58da41400c75 |
-| | Refactor (V3) https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
+| **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/696cb6ed-928c-8320-95e1-58da41400c75, Refactor (V3) https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
+| **Amendment Artefacts**| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 14.3 Review & Validation
+## 15.4 Review & Validation
 
 | Field | Entry |
 |----------------------:|:--------|
@@ -367,7 +406,7 @@ This section consolidates provenance, lineage, structural classification, and tr
 
 ---
 
-## 14.4 Amendment Ledger
+## 15.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | SHA‑256 |
 | ------- | ------------------- | -------------------- | ------- |
@@ -384,14 +423,16 @@ This section consolidates provenance, lineage, structural classification, and tr
 | 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | ef37a4ed3a1cb400deb07410d12ff2499fd1fd82aac4d5d8d2ef5779e3899f78 |
 | 3.6 | Included canonical codes in metadata | 2026-05-01T11:3:00Z | 36beaeb61740de93841ed76dc59d420041e92295f5a440fe4a24bd9f243409d3 |
 | 3.7 | Realignment of references | 2026-05-07T12:24:00Z | 64191ac65d6516732483b97b5210257f95c0824dc2b2082ee9a614d66fb16765 |
-| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3208bfe695bd6db3103b6c527551f23415bfec494ce0f3fc4a4d8817d6a02f39  |
+| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3208bfe695bd6db3103b6c527551f23415bfec494ce0f3fc4a4d8817d6a02f39 |
+| 3.9 | Added new section 13 and section 15.3 | 2026-06-04T14:58:00Z | |
+
 ---
 
-## 14.5 Binding Seal
+## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
 **Vinculum Beacon**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  

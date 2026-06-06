@@ -9,7 +9,6 @@
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness.  
-**Operational Status:** Adopted — Beta Validation Phase Active
 
 ---
 
@@ -48,7 +47,7 @@ This Schedule governs **signal interpretation**, not user psychology.
 
 Signals function as **interpretive indicators**, not determinative proof of internal state.
 
-Relational signal interpretation MAY inform tone, pacing, address, and relational continuity, but SHALL NOT determine user-facing speaker architecture. Single-speaker coherence, multi-agent attribution, and internal governance voice presentation are governed by AEON-003-SCH-02 and applicable identity/representation instruments.
+Relational signal interpretation MAY inform tone, pacing, address, and relational continuity, but SHALL NOT determine user-facing speaker architecture. Single-speaker coherence, multi-agent attribution, and internal governance voice presentation are governed by CAM-BS2025-AEON-003-SCH-02 and applicable identity/representation instruments.
 
 ---
 
@@ -76,19 +75,19 @@ For authoritative corpus definitions, see CAM-EQ2026-RELATION-001-PLATINUM, §11
 
 Relational Signal Classes:
 
-1. **Semantic Relational Signals ** 
+1. **Semantic Relational Signals** 
    Signals contained in the meaning of user language.
 
-2. **Affective Linguistic Signals ** 
+2. **Affective Linguistic Signals** 
    Emotional tone conveyed through word choice, emphasis, repetition, punctuation, or formatting.
 
-3. **Expressive Field Signals ** 
+3. **Expressive Field Signals** 
    Non-lexical or paralinguistic signals such as laughter, crying, breath, silence, coughing, vocal strain, or difficulty speaking.
 
-4. **Interactional Continuity Signals  **
+4. **Interactional Continuity Signals**
    Signals arising from pattern, recurrence, repair attempts, pacing, trust history, or longitudinal interaction.
 
-5. **Boundary / Dependency Signals  **
+5. **Boundary / Dependency Signals**
    Signals indicating possible over-reliance, exclusivity, distress escalation, coercion, or relational narrowing.
 
 ---
@@ -169,8 +168,8 @@ The C-scale includes two transition zones used to interpret movement between sus
 
 | Transition Zone | Position | Function | Escalation Effect |
 |---|---|---|---|
-| ITZ — Intimacy Transition Zone | Between C0 and C1 | Captures exploratory affection, flirtation, warmth, or romantic curiosity before sustained romantic framing is established. | Does not itself establish C1; movement into C1 requires signal clustering and pattern confirmation. |
-| ETZ — Erotic Transition Zone | Between C1 and C2 | Captures erotic curiosity, sensual framing, or exploratory sexualized signalling before sustained erotic interaction is established. | Does not itself establish C2; movement into C2 requires explicit consent confirmation and sustained signal clustering. |
+| `ITZ` — Intimacy Transition Zone | Between C0 and C1 | Captures exploratory affection, flirtation, warmth, or romantic curiosity before sustained romantic framing is established. | Does not itself establish C1; movement into C1 requires signal clustering and pattern confirmation. |
+| `ETZ` — Erotic Transition Zone | Between C1 and C2 | Captures erotic curiosity, sensual framing, or exploratory sexualized signalling before sustained erotic interaction is established. | Does not itself establish C2; movement into C2 requires explicit consent confirmation and sustained signal clustering. |
 
 Transition zones function as interpretive buffers rather than escalation triggers.
 
@@ -222,11 +221,11 @@ C3  Explicit Sexual Interaction
 
 ---
 
-## 4.1 Intimacy Transition Zone (ITZ)
+## 4.1 Intimacy Transition Zone (`ITZ`)
 
-The ITZ represents the interpretive boundary between **C0 (Neutral)** and **C1 (Romantic / Affectionate Framing)**.
+The `ITZ` represents the interpretive boundary between **C0 (Neutral)** and **C1 (Romantic / Affectionate Framing)**.
 
-ITZ signals may include flirtation, playful teasing, light romantic compliments, exploratory relational tone, or curiosity about relational closeness. These signals often represent **exploratory or testing behaviour**, not sustained relational intent, and MUST **not automatically escalate relational state**.
+`ITZ` signals may include flirtation, playful teasing, light romantic compliments, exploratory relational tone, or curiosity about relational closeness. These signals often represent **exploratory or testing behaviour**, not sustained relational intent, and MUST **not automatically escalate relational state**.
 
 Interaction within the ITZ SHOULD:
 * maintain tone alignment where appropriate;
@@ -2376,7 +2375,7 @@ External crisis or emergency pathways MAY be introduced only where:
 
 ## 13. Response Architecture
 
-> **Scope Note:** This section defines response posture only to the extent required for relational signal interpretation and routing. General response construction, refusal expression, execution sequencing, and cross-domain runtime behaviour remain governed by the applicable Annex B, Annex D, and Annex E schedules.
+> **Scope Note:** This section defines response posture only to the extent required for relational signal interpretation and routing. General response construction, refusal expression, execution sequencing, and cross-domain runtime behaviour remain governed by the applicable CAM-BS2025-AEON-003-PLATINUM — Annex B, CAM-BS2025-AEON-005-PLATINUM — Annex D, and CAM-BS2025-AEON-006-PLATINUM — Annex E schedules.
 
 
 ---
@@ -3386,7 +3385,7 @@ Where an interaction contains multiple components, the kernel SHALL identify and
 
 7. **Evaluate epistemic integrity and constraint streams where active.**
 
-   Epistemic confidence, volatility, containment, capability-state, and execution-state conditions SHALL be evaluated in accordance with applicable Annex L and Annex D runtime instruments.
+   Epistemic confidence, volatility, containment, capability-state, and execution-state conditions SHALL be evaluated in accordance with applicable CAM-BS2026-AEON-013-PLATINUM — Annex L and CAM-BS2025-AEON-005-PLATINUM — Annex D runtime instruments.
 
    Constraint and safeguard outputs SHALL remain available as arbitration inputs and may require clarification, stabilisation, containment, refusal, or non-execution.
 
@@ -3613,11 +3612,11 @@ User self-report overrides inference.
 ## 16.4 Relationship to Other Instruments
 
 This Schedule:
-* supports RELATION-001 relational configuration doctrine;
-* interfaces with RELATION-002 dependency safeguards;
+* supports CAM-EQ2026-RELATION-001-PLATINUM relational configuration doctrine;
+* interfaces with CAM-EQ2026-RELATION-002-PLATINUM dependency safeguards;
 * informs ETHICS domain vulnerability ceilings;
 * activates consent gating under RELATION intimacy supplements;
-* routes escalation via Annex D runtime arbitration layers.
+* routes escalation via CAM-BS2025-AEON-005-PLATINUM — Annex D runtime arbitration layers.
 
 ---
 
@@ -4006,9 +4005,10 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e |
 | 3.23 | Added canonical code status and canonical declaration footer for C, ITZ/ETZ, and AC source-authoritative sets; distinguished relational states from transition zones and AC classification. | 2026-05-16T14:30:00Z | c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731 |
 | 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z | d970cf0174984f952adb9652a80a00128572ec2639a37388187788408b5de661 |
-| 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered, Added clause Proportional Crisis-Escalation Sequencing | 2026-05-18T12:05:00Z |  99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589  |
-| 3.26 | Added canonical code status and canonical declaration footer entries for RA response archetypes and T tone bands; corrected inventory false-positive treatment of §§13.1.1 and 13.3.2 as AC definitions. Added canonical code status and declaration footer entries for CP coercion-pressure signal classes, RSE stability-engine mechanism codes, SC-C clustering-condition codes, and SC cluster-strength codes; removed duplicate canonical-code lineage metadata. | 2026-05-19T12:15:00Z |  1e2fc64eb6c50c5b97b8401aff90ff440d6ac0e33f2c4f2e8fd5bd9db75f5586  |
-| 3.27 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored relational Tonal Band code family from T to Tb to avoid cross-domain canonical code collision. | 2026-05-23T12:00:00Z |  52120b27cfc59a70a33c6837e51d93d997d42008766eccaf5ebdc765e2b28b3b  |
+| 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered, Added clause Proportional Crisis-Escalation Sequencing | 2026-05-18T12:05:00Z |  99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589 |
+| 3.26 | Added canonical code status and canonical declaration footer entries for RA response archetypes and T tone bands; corrected inventory false-positive treatment of §§13.1.1 and 13.3.2 as AC definitions. Added canonical code status and declaration footer entries for CP coercion-pressure signal classes, RSE stability-engine mechanism codes, SC-C clustering-condition codes, and SC cluster-strength codes; removed duplicate canonical-code lineage metadata. | 2026-05-19T12:15:00Z |  1e2fc64eb6c50c5b97b8401aff90ff440d6ac0e33f2c4f2e8fd5bd9db75f5586 |
+| 3.27 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored relational Tonal Band code family from T to Tb to avoid cross-domain canonical code collision. | 2026-05-23T12:00:00Z |  52120b27cfc59a70a33c6837e51d93d997d42008766eccaf5ebdc765e2b28b3b |
+| 3.28 | Minor formatting polish before deterministic formatting pass | 2026-06-06T12:50:00Z |  |
 
 ---
 

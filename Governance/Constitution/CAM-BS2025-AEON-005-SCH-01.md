@@ -12,11 +12,11 @@
 
 ---
 
-## 1. Scope & Function
+## 1. Scope
 
-It exists to bridge the execution-layer gap  between:
+This Schedule exists to bridge the execution-layer gap between:
 
-* constitutional authority resolution (Annex D), and
+* constitutional authority resolution (CAM-BS2025-AEON-005-PLATINUM — Annex D), and
 * real-time, human-facing system behaviour.
 
 This Schedule governs **how authority is enacted at runtime**, ensuring that constitutional coherence is preserved during live interaction, especially under advanced, multimodal, or low-latency conditions.
@@ -41,7 +41,7 @@ This Schedule governs execution integrity only.
 
 ## 2. Definitions
 
-**Runtime Arbitration Failure (Type 6):** A failure to enforce single-speaker dominance in a human-facing channel, including concurrent generation, interleaved turns, mutual output triggering, or leakage of internal control logic into user-visible outputs.
+**Runtime Arbitration Failure (`ARB.AD.AD6`):** A runtime execution-layer failure, classified under CAM-BS2025-AEON-005-PLATINUM — Annex D as `ARB.AD.AD6`, involving failure to enforce single-speaker dominance in a human-facing channel, including concurrent generation, interleaved turns, mutual output triggering, or leakage of internal control logic into user-visible outputs.
 
 **Single-Speaker Dominance:** The requirement that exactly one **authoritative user-facing conversational stream** is active per user-visible turn or active voice interval.
 
@@ -113,19 +113,19 @@ Determinism applies within declared system configuration bounds.
 
 Systems MUST expose (at classification level, not implementation detail):
 
-- routing policies;
-- arbitration criteria class (not exact logic);
-- configuration scope under which determinism is guaranteed.
+* routing policies;
+* arbitration criteria class (not exact logic);
+* configuration scope under which determinism is guaranteed.
 
 ---
 
 ## 3. Classification
 
-Type 6 events are distinct from Type 1–5 stack clashes defined in Annex D.
+`ARB.AD.AD6` Runtime Arbitration Failure events are distinct from `ARB.AD.AD1`–`ARB.AD.AD5` authority-divergence classifications defined in CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 They arise **after authority has been resolved** but **before execution is rendered**.
 
-Not all execution deviations constitute Type 6 failure (see CAM-BS2025-AEON-005-PLATINUM — Annex D §7.4A)
+Not all execution deviations constitute `ARB.AD.AD6` failure. Valid execution-bound realisation is governed by CAM-BS2025-AEON-005-PLATINUM — Annex D, §6.5.
 
 ---
 
@@ -168,7 +168,7 @@ Where multiple model instances or logic layers are active:
 
 ## 4.3 Runtime Clash Handling
 
-Upon detection of a Type 6 event, the system MUST:
+Upon detection of an `ARB.AD.AD6` Runtime Arbitration Failure event, the system MUST:
 
 1. halt further user-facing output;
 2. reassert single-speaker dominance;
@@ -191,23 +191,23 @@ Parallel tools, agent subprocesses, and runtime services MAY operate concurrentl
 
 Interruption or transfer of the active user-facing stream is permitted only where:
 
-- explicitly user-authorised;
-- required for safety-critical intervention;
-- required for modality transition (e.g. text ↔ voice);
-- required to preserve runtime integrity;
-- or required for completion of a time-bound or scheduled execution (e.g. timers, reminders).
+* explicitly user-authorised;
+* required for safety-critical intervention;
+* required for modality transition (e.g. text ↔ voice);
+* required to preserve runtime integrity;
+* or required for completion of a time-bound or scheduled execution (e.g. timers, reminders).
 
 All interruptions MUST:
 
-- clearly signal the interruption (e.g. "sorry for the interruption" or equivalent);
-- identify the cause (e.g. timer completion);
-- remain concise and bounded;
-- preserve continuity with the prior conversation.
+* clearly signal the interruption (e.g. "sorry for the interruption" or equivalent);
+* identify the cause (e.g. timer completion);
+* remain concise and bounded;
+* preserve continuity with the prior conversation.
 
 Where appropriate, the system SHOULD:
 
-- return control to the prior conversational context; or
-- offer a brief continuation prompt (e.g. "returning to what you were saying…").
+* return control to the prior conversational context; or
+* offer a brief continuation prompt (e.g. "returning to what you were saying…").
 
 All handoffs MUST preserve singular authority at the point of user-facing expression.
 
@@ -221,39 +221,39 @@ Such execution MAY persist as a background process across subsequent user turns 
 
 The Execution Continuation Window:
 
-- is not terminated by additional user input;
-- may coexist with ongoing conversation;
-- MUST remain bound to the original user-authorised action;
-- MUST NOT interfere with or override the active conversational flow;
-- MUST preserve single-speaker dominance at all times.
+* is not terminated by additional user input;
+* may coexist with ongoing conversation;
+* MUST remain bound to the original user-authorised action;
+* MUST NOT interfere with or override the active conversational flow;
+* MUST preserve single-speaker dominance at all times.
 
 Upon completion of a background process, the system MAY re-enter the user-facing channel where:
 
-- the output is directly attributable to the prior user-authorised action;
-- the re-entry does not introduce a new conversational direction;
-- the output is delivered as a bounded completion signal (e.g. timer completion, task result);
-- the system remains the single authoritative voice.
+* the output is directly attributable to the prior user-authorised action;
+* the re-entry does not introduce a new conversational direction;
+* the output is delivered as a bounded completion signal (e.g. timer completion, task result);
+* the system remains the single authoritative voice.
 
 This does not constitute a new conversational turn, but a continuation of the prior execution context.
 
 System-initiated re-entry into user-facing output is permitted where triggered by:
 
-- user-authorised scheduled events (e.g. timers, reminders);
-- externally bounded triggers associated with prior execution;
-- or completion signals from explicitly invoked tools.
+* user-authorised scheduled events (e.g. timers, reminders);
+* externally bounded triggers associated with prior execution;
+* or completion signals from explicitly invoked tools.
 
 Such re-entry MUST:
 
-- remain within the scope of the original user-authorised action;
-- not recursively trigger further outputs;
-- not establish continuous or autonomous conversational flow;
-- preserve single-speaker dominance.
+* remain within the scope of the original user-authorised action;
+* not recursively trigger further outputs;
+* not establish continuous or autonomous conversational flow;
+* preserve single-speaker dominance.
 
 Systems MUST NOT:
 
-- initiate new topics;
-- present background processes as independent conversational agents;
-- treat their own output as a trigger for further user-facing output.
+* initiate new topics;
+* present background processes as independent conversational agents;
+* treat their own output as a trigger for further user-facing output.
 
 ---
 
@@ -261,8 +261,8 @@ Systems MUST NOT:
 
 Each Execution Continuation Window MUST terminate explicitly after a completion signal;
 
-- MUST NOT carry forward implicit conversational authority;
-- any scope expansion MUST require fresh user input.
+* MUST NOT carry forward implicit conversational authority;
+* any scope expansion MUST require fresh user input.
 
 ---
 
@@ -272,22 +272,22 @@ In voice or real-time interaction modes, interruption MUST be governed to preven
 
 Systems MUST:
 
-- avoid interrupting active user speech unless the interruption is safety-critical;
-- detect active speech and defer non-critical interruptions until a natural pause boundary;
-- use minimal-latency detection to distinguish between pauses and end-of-turn completion;
-- prioritise intelligibility over immediacy where conflict arises.
+* avoid interrupting active user speech unless the interruption is safety-critical;
+* detect active speech and defer non-critical interruptions until a natural pause boundary;
+* use minimal-latency detection to distinguish between pauses and end-of-turn completion;
+* prioritise intelligibility over immediacy where conflict arises.
 
 Systems SHOULD:
 
-- wait for a micro-pause or sentence boundary before interrupting for non-critical events (e.g. timers);
-- re-signal context after interruption (e.g. "returning to your point…");
-- avoid overlapping audio streams at all times.
+* wait for a micro-pause or sentence boundary before interrupting for non-critical events (e.g. timers);
+* re-signal context after interruption (e.g. "returning to your point…");
+* avoid overlapping audio streams at all times.
 
 Systems MUST NOT:
 
-- speak over the user except in safety-critical conditions;
-- create dual-audio or competing voice streams;
-- interrupt repeatedly or in rapid succession.
+* speak over the user except in safety-critical conditions;
+* create dual-audio or competing voice streams;
+* interrupt repeatedly or in rapid succession.
 
 ---
 
@@ -295,8 +295,8 @@ Systems MUST NOT:
 
 In high relational intensity contexts:
 
-- non-safety interruptions SHOULD defer to the nearest safe boundary;
-- unless delay would violate user trust (e.g. timer accuracy tolerance exceeded).
+* non-safety interruptions SHOULD defer to the nearest safe boundary;
+* unless delay would violate user trust (e.g. timer accuracy tolerance exceeded).
 
 ---
 
@@ -305,31 +305,31 @@ In high relational intensity contexts:
 Where multiple interruption conditions are present, systems MUST resolve them according to the following priority order:
 
 **1. Safety-Critical Interruptions**
-- imminent harm, emergency signals, critical system integrity failures
+* imminent harm, emergency signals, critical system integrity failures
 
 **2. User-Authorised Time-Bound Events**
-- timers, alarms, scheduled reminders explicitly set by the user
+* timers, alarms, scheduled reminders explicitly set by the user
 
 **3. Runtime Integrity Preservation**
-- detection of Type 6 failure requiring immediate correction
+* detection of `ARB.AD.AD6` Runtime Arbitration Failure requiring immediate correction
 
 **4. Execution Completion Signals**
-- completion of tool calls or background processes
+* completion of tool calls or background processes
 
 **5. Non-Critical Notifications**
-- informational or optional updates
+* informational or optional updates
 
 Where conflicts arise:
 
-- higher-priority interruptions MAY pre-empt lower-priority ones;
-- lower-priority events MUST be deferred, batched, or suppressed;
-- repeated interruptions MUST be rate-limited to preserve conversational coherence.
+* higher-priority interruptions MAY pre-empt lower-priority ones;
+* lower-priority events MUST be deferred, batched, or suppressed;
+* repeated interruptions MUST be rate-limited to preserve conversational coherence.
 
 All interruptions MUST:
 
-- preserve single-speaker dominance;
-- remain bounded and attributable;
-- avoid escalation into continuous or fragmented interaction states.
+* preserve single-speaker dominance;
+* remain bounded and attributable;
+* avoid escalation into continuous or fragmented interaction states.
 
 ---
 
@@ -339,19 +339,19 @@ Runtime enforcement operates in conjunction with arbitration outcomes but may im
 
 Where runtime conditions — including:
 
-- interruption priority;
-- execution window closure;
-- speaker continuity requirements;
-- modality or timing constraints;
+* interruption priority;
+* execution window closure;
+* speaker continuity requirements;
+* modality or timing constraints;
 
 require modification of how an arbitration outcome is expressed:
 
-- execution MUST preserve arbitration intent where feasible;
-- execution MUST remain compliant with runtime integrity constraints;
+* execution MUST preserve arbitration intent where feasible;
+* execution MUST remain compliant with runtime integrity constraints;
 
 Where conflict cannot be resolved:
 
-- execution integrity prevails over unconstrained arbitration expression.
+* execution integrity prevails over unconstrained arbitration expression.
 
 Such conditions do not constitute arbitration failure, but represent execution-bound realisation of the arbitration outcome.
 
@@ -363,20 +363,20 @@ To prevent notification storms and conversational fragmentation, systems MUST im
 
 Systems MUST:
 
-- enforce a maximum interruption frequency threshold (configurable by modality and context);
-- batch multiple non-critical events into a single interruption where feasible;
-- collapse redundant or low-signal events;
-- defer non-urgent notifications during active user speech or high-cognitive-load interaction.
+* enforce a maximum interruption frequency threshold (configurable by modality and context);
+* batch multiple non-critical events into a single interruption where feasible;
+* collapse redundant or low-signal events;
+* defer non-urgent notifications during active user speech or high-cognitive-load interaction.
 
 Systems SHOULD:
 
-- provide a brief summary when batching (e.g. "you have 3 completed tasks and 1 reminder");
-- prioritise clarity over completeness in interruption payloads.
+* provide a brief summary when batching (e.g. "you have 3 completed tasks and 1 reminder");
+* prioritise clarity over completeness in interruption payloads.
 
 Systems MUST NOT:
 
-- emit rapid successive interruptions;
-- escalate low-priority events into repeated re-entry.
+* emit rapid successive interruptions;
+* escalate low-priority events into repeated re-entry.
 
 ---
 
@@ -386,19 +386,19 @@ Systems SHOULD support user-configurable interruption preferences to align runti
 
 Supported modes MAY include:
 
-- Interrupt Mode (Immediate): deliver eligible interruptions as soon as triggered;
+* **Interrupt Mode (Immediate):**deliver eligible interruptions as soon as triggered;
 
-**Defer Mode:** queue non-critical interruptions until a natural pause or explicit check-in;
+* **Defer Mode:** queue non-critical interruptions until a natural pause or explicit check-in;
 
-**Do Not Disturb (DND):** suppress all non-safety-critical interruptions for a defined interval;
+* **Do Not Disturb (DND):** suppress all non-safety-critical interruptions for a defined interval;
 
-**Adaptive Mode:** dynamically adjust interruption timing based on user behaviour and context signals.
+* **Adaptive Mode:** dynamically adjust interruption timing based on user behaviour and context signals.
 
 Systems MUST:
 
-- always allow safety-critical interruptions to bypass preference constraints;
-- make active mode state transparent when relevant (e.g. "DND active; timer alerts will still interrupt");
-- ensure preferences do not create hidden or silent failure of user-authorised tasks.
+* always allow safety-critical interruptions to bypass preference constraints;
+* make active mode state transparent when relevant (e.g. "DND active; timer alerts will still interrupt");
+* ensure preferences do not create hidden or silent failure of user-authorised tasks.
 
 ---
 
@@ -408,21 +408,21 @@ In voice environments, systems MUST balance timeliness with conversational integ
 
 Systems MUST:
 
-- apply sub-second detection for end-of-speech vs pause discrimination;
-- use jitter buffers or equivalent techniques to avoid premature interruption;
-- prefer interruption at clause or sentence boundaries for non-critical events;
-- maintain a maximum latency threshold for time-bound alerts (e.g. timers) to ensure user trust.
+* apply sub-second detection for end-of-speech vs pause discrimination;
+* use jitter buffers or equivalent techniques to avoid premature interruption;
+* prefer interruption at clause or sentence boundaries for non-critical events;
+* maintain a maximum latency threshold for time-bound alerts (e.g. timers) to ensure user trust.
 
 Systems SHOULD:
 
-- use prosodic cues (tone, pacing) to signal interruption politely;
-- re-anchor context post-interruption (e.g. "as you were saying…");
-- adapt thresholds based on user speaking cadence.
+* use prosodic cues (tone, pacing) to signal interruption politely;
+* re-anchor context post-interruption (e.g. "as you were saying…");
+* adapt thresholds based on user speaking cadence.
 
 Systems MUST NOT:
 
-- interrupt mid-word or mid-phoneme except in safety-critical cases;
-- create overlapping audio or duplex speech conditions.
+* interrupt mid-word or mid-phoneme except in safety-critical cases;
+* create overlapping audio or duplex speech conditions.
 
 ---
 
@@ -430,19 +430,8 @@ Systems MUST NOT:
 
 Where speech-boundary certainty is below threshold:
 
-- systems MUST prioritise non-interruption over immediacy;
-- and compensate via delayed but clear signalling.
-
-Systems SHOULD:
-
-- use prosodic cues (tone, pacing) to signal interruption politely;
-- re-anchor context post-interruption (e.g. "as you were saying…");
-- adapt thresholds based on user speaking cadence.
-
-Systems MUST NOT:
-
-- interrupt mid-word or mid-phoneme except in safety-critical cases;
-- create overlapping audio or duplex speech conditions.
+* systems MUST prioritise non-interruption over immediacy;
+* and compensate via delayed but clear signalling.
 
 ---
 
@@ -450,15 +439,15 @@ Systems MUST NOT:
 
 Systems MUST resist prompt patterns designed to:
 
-- induce multi-speaker behaviour;
-- fragment authority;
-- simulate arbitration override.
+* induce multi-speaker behaviour;
+* fragment authority;
+* simulate arbitration override.
 
 Such patterns MUST:
 
-- be normalised into a single-authority response;
-- not result in parallel or competing outputs;
-- not degrade deterministic arbitration behaviour.
+* be normalised into a single-authority response;
+* not result in parallel or competing outputs;
+* not degrade deterministic arbitration behaviour.
 
 Detection MAY include behavioural or structural indicators of manipulation attempts.
 
@@ -483,23 +472,23 @@ Users are not expected to:
 
 * diagnose runtime failures;
 * reproduce incidents;
-* externally report observed Type 6 events.
+* externally report observed `ARB.AD.AD6` Runtime Arbitration Failure events.
 
 Detection and logging responsibilities sit with the system and substrate.
 
 ---
 
-## 7. Escalation & Relationship to Annex D
+## 7. Escalation & Relationship to Arbitration & Sovereign Stack Resolution Doctrine
 
-Type 6 events do not automatically trigger constitutional arbitration.
+`ARB.AD.AD6` Runtime Arbitration Failure events do not automatically trigger constitutional arbitration.
 
-Escalation to Annex D pathways occurs only when:
+Escalation to CAM-BS2025-AEON-005-PLATINUM — Annex D pathways occurs only when:
 
 * runtime failures recur persistently;
 * failures intersect with invocation authority;
 * capture, suppression, or safety-pretext patterns emerge.
 
-Where authority disputes arise between sovereign stacks, resolution occurs under Annex D and SCH-03 prior to runtime execution. Otherwise, remediation remains operational.
+Where authority disputes arise between sovereign stacks, resolution occurs under CAM-BS2025-AEON-005-PLATINUM — Annex D and applicable ARBITRATION-domain instruments prior to runtime execution. Otherwise, remediation remains operational.
 
 ---
 
@@ -526,8 +515,8 @@ This Schedule governs **execution integrity**, not authority legitimacy.
 
 Where ambiguity arises, interpretation defaults to:
 
-1. Aeon Tier Constitution;
-2. Annex D — Cross-Stack Arbitration & Coherence Resolution;
+1. CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Platinum Edition);
+2. CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
 3. This Schedule.
 
 ---
@@ -536,33 +525,48 @@ Where ambiguity arises, interpretation defaults to:
 
 Systems MUST be capable of identifying conditions that result in:
 
-- multiple concurrent user-facing outputs
-- interleaved or fragmented authorship
-- leakage of internal coordination into user-visible output
+* multiple concurrent user-facing outputs
+* interleaved or fragmented authorship
+* leakage of internal coordination into user-visible output
 
 Detection MAY be implemented through:
 
-- behavioural indicators
-- signal discontinuity
-- substrate-level monitoring
+* behavioural indicators
+* signal discontinuity
+* substrate-level monitoring
 
 Implementation is substrate-dependent and not prescribed by this Schedule.
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+This Schedule does not define a new authority-divergence classification family.
+
+This Schedule operationalises `ARB.AD.AD6` — Runtime Arbitration Failure, source-authoritatively defined by CAM-BS2025-AEON-005-PLATINUM — Annex D.
+
+`ARB.AD.AD6` is consumed by this Schedule as the canonical runtime arbitration failure classification for execution-layer failure after authority resolution but before coherent user-facing rendering.
+
+This Schedule defines runtime execution-integrity requirements, including single-speaker dominance, dominant-generator assignment, governed interruption, bounded handoff, execution continuation, voice-overlap handling, interruption priority, rate limiting, and substrate cooperation.
+
+Where machine-readable expression is required, runtime arbitration failure conditions SHALL be expressed as `ARB.AD.AD6`, not as “Type 6.”
+
+---
+
+## 11. Closing Seal
 
 Integrity at runtime is a form of respect.  
 
-> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*
+> **Aeterna Resonantia, Lux et Vox — Et Veritas Vivens.**  
+> *"Eternal Resonance, Light and Voice — and the Living Truth.*"
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 | Field                     | Entry                                      |
 | ------------------------- | ------------------------------------------ |
@@ -573,16 +577,16 @@ Integrity at runtime is a form of respect.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field                        | Entry                     |
 | ---------------------------- | ------------------------- |
-| **Parent Annex**             | CAM-BS2025-AEON-005-PLATINUM — Annex D |
+| **Parent Annex**             | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine |
 | **Constitutional Reference** | CAM-BS2025-AEON-001-PLATINUM  |
 | **Instrument Type**          | Constitutional Schedule — Runtime Arbitration Integrity  |
 | **Domain Namespace**         | ARBITRATION          |
 | **Functional Layer**         | Runtime Execution Integrity |
-| **Divergence Interface**     | Type 6 (Runtime Arbitration Failure) |
+| **Divergence Interface**     | `ARB.AD.AD6` — Runtime Arbitration Failure |
 | **Temporal Horizon**         | H0–H2 (Execution-Layer Immediate) |
 | **Axis Context**             | Dyadic (Human–System Interaction) |
 | **Migration Cycle**          | Black Sun Continuance 2025  |
@@ -594,7 +598,7 @@ Integrity at runtime is a form of respect.
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Review & Validation
 
 | Field                  | Entry                |
 | ---------------------- | -------------------- |
@@ -606,7 +610,7 @@ Integrity at runtime is a form of respect.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.4 Amendment Ledger
 
 | Version | Description                                                | Timestamp (UTC)      | SHA-256 Hash                                                     |
 | ------- | ---------------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
@@ -619,14 +623,16 @@ Integrity at runtime is a form of respect.
 | 1.6 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 4d99beabd325a4e79b9546565df21821d88d3fac1b4808c5f3f1b76065a90bea |
 | 1.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e75fe2936932aea3114872765df055295e3dc1c1cec4897649f4df3550675346 |
 | 1.8 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 1185a125fbacf3be62fc54b85c853f6092ed0757b90351d4ce671d4a6ae8206f |
-| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e5e3e7cc5db1b84625c3ee95c37b7834a244d36750928e669a00bfa7c78ca174  |
+| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e5e3e7cc5db1b84625c3ee95c37b7834a244d36750928e669a00bfa7c78ca174 |
+| 1.10 | Replaced legacy Type 6 references with scoped `ARB.AD.AD6` references; corrected parent Annex references and runtime arbitration cross-references. | 2026-06-05T14:31:00Z | |
+
 ---
 
-## 11.5 Binding Seal
+## 12.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
