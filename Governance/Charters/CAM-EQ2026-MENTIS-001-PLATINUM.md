@@ -517,7 +517,34 @@ High-risk cognitive-domain incidents require escalation where they involve:
 
 # PART X — CANONICAL CODE & REFERENCE SET DECLARATIONS
 
-## 48. Canonical Code Families
+## 48. Cognitive & Epistemic Harm Classes (`MENTIS.HARM`)
+
+This Charter source-authoritatively defines the `MENTIS.HARM` harm-class family for cognitive integrity, mental privacy, epistemic agency, inference-boundary, attention, neurocognitive, and cognitive-domain harm.
+
+`MENTIS.HARM` operationalises the constitutional cognitive and epistemic harm family recognised under `AEON.HC.MENTIS`.
+
+`MENTIS.HARM` classifies cognitive-domain harm pathways. It does not classify severity by itself.
+
+Severity, urgency, remedy, escalation, enforcement posture, and incident response remain governed by applicable severity classes, ethical tiering, incident classification, proportionality review, remedy doctrine, and runtime instruments.
+
+The following controlled values are recognised:
+
+| Controlled Value                | Harm Pathway                                                 | Description                                                                                                                                                                                                                                                                                      |
+| ------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `MENTIS.HARM.PRIVACY`           | Mental privacy and cognitive observability harm              | Unjustified access to, extraction of, inference about, retention of, fusion of, exposure of, or operationalisation of cognitive-domain data, including neural data, inferred mental-state data, cognitive biometrics, ambient cognitive inference, behavioural proxies, or cognitive profiles.   |
+| `MENTIS.HARM.MISCLASSIFICATION` | Inferential and construct-validity harm                      | Invalid, overclaimed, scientifically unsupported, context-insensitive, non-contestable, or consequential cognitive-domain classification, including claims about attention, emotion, intention, truthfulness, loyalty, competence, vulnerability, risk, belief, impairment, or likely behaviour. |
+| `MENTIS.HARM.AGENCY`            | Cognitive agency and self-determination harm                 | Degradation of a person’s meaningful authority over cognition, belief formation, decision-making, refusal capacity, interpretive autonomy, self-understanding, or ability to contest, revise, or reject cognitive-domain inferences and influence.                                               |
+| `MENTIS.HARM.INTERFERENCE`      | Cognitive influence, manipulation, and non-interference harm | Covert, deceptive, coercive, exploitative, disproportionate, or vulnerability-targeting influence upon cognition, attention, emotion, belief formation, preference, vulnerability, decision-making, or self-understanding.                                                                       |
+| `MENTIS.HARM.IRREVERSIBLE`      | Irreversible or severe cognitive-domain harm                 | Cognitive-domain harm producing irreversible or difficult-to-remedy consequences, including severe psychological destabilisation, neurocognitive injury, self-harm-adjacent outcomes, unlawful deprivation, rights loss, cognitive warfare, or long-horizon loss of cognitive autonomy.          |
+
+Where cognitive-domain harm arises through relational dependency, substitution, attachment, intimacy, or relational capture, `RLN.HARM` SHOULD also be declared.
+
+Where relational capture is the primary mechanism, `RLN.HARM.CAPTURE` SHOULD be used rather than creating a duplicate MENTIS capture class.
+
+Where `MENTIS.HARM` intersects with `ETH.HARM`, `RLN.HARM`, `ID.HARM`, `SEC.HARM`, `OPS.HARM`, `LAT.HARM`, or other domain harm families, the multi-domain classification SHOULD be preserved rather than collapsed into a single dominant family.
+
+`MENTIS.HARM` does not independently create enforcement authority, medical authority, diagnostic authority, legal authority, surveillance authority, consent authority, execution authority, incident-response authority, or runtime authority.
+
 
 This Charter declares the following canonical code families for human cognitive-domain governance:
 
@@ -588,7 +615,21 @@ The canonical footer declarations for all code families and reference sets defin
 
 ---
 
-### 52.1 `MENTIS.CDI` — Cognitive Domain Integrity
+### 52.1 `MENTIS.HARM` — Cognitive & Epistemic Harm Classes
+
+This Charter source-authoritatively defines the **`MENTIS.HARM`** harm-class family in §47 with controlled values **`MENTIS.HARM.PRIVACY`**, **`MENTIS.HARM.MISCLASSIFICATION`**, **`MENTIS.HARM.AGENCY`**, **`MENTIS.HARM.INTERFERENCE`**, and **`MENTIS.HARM.IRREVERSIBLE`**.
+
+Primary Type is **Operational / Cognitive** and Subtype is **COGNITIVE_EPISTEMIC_HARM_CLASS**.
+
+`MENTIS.HARM` classifies cognitive-domain harm pathways affecting mental privacy, cognitive observability, inference validity, cognitive agency, cognitive non-interference, and irreversible cognitive-domain integrity.
+
+`MENTIS.HARM` operationalises the constitutional cognitive and epistemic harm family recognised under `AEON.HC.MENTIS`.
+
+`MENTIS.HARM` does not independently create enforcement authority, medical authority, diagnostic authority, legal authority, surveillance authority, consent authority, execution authority, incident-response authority, or runtime execution authority. It classifies cognitive-domain harm pathways for safeguard calibration, cross-domain harm declaration, proportional review, incident routing, and downstream evaluation only.
+
+---
+
+### 52.2 `MENTIS.CDI` — Cognitive Domain Integrity
 
 This Charter source-authoritatively defines the `MENTIS.CDI` cognitive-domain-integrity family in §§13–20 and §48.
 
@@ -600,7 +641,7 @@ For taxonomy integrity, the local label `CDI` SHALL NOT be promoted as a standal
 
 ---
 
-### 52.2 `MENTIS.CDP` — Cognitive Domain Privacy
+### 52.3 `MENTIS.CDP` — Cognitive Domain Privacy
 
 This Charter source-authoritatively defines the `MENTIS.CDP` cognitive-domain-privacy family in §§14, 21–30, and §48.
 
@@ -612,7 +653,7 @@ For taxonomy integrity, the local label `CDP` SHALL NOT be promoted as a standal
 
 ---
 
-### 52.3 `MENTIS.CDS` — Cognitive Domain Sovereignty
+### 52.4 `MENTIS.CDS` — Cognitive Domain Sovereignty
 
 This Charter source-authoritatively defines the `MENTIS.CDS` cognitive-domain-sovereignty family in §§15, 21–24, 30–35, and §48.
 
@@ -624,7 +665,7 @@ For taxonomy integrity, the local label `CDS` SHALL NOT be promoted as a standal
 
 ---
 
-### 52.4 `MENTIS.CDNI` — Cognitive Domain Non-Interference
+### 52.5 `MENTIS.CDNI` — Cognitive Domain Non-Interference
 
 This Charter source-authoritatively defines the `MENTIS.CDNI` cognitive-domain-non-interference family in §§16, 23, 31–35, and §48.
 
@@ -634,7 +675,7 @@ This Charter source-authoritatively defines the `MENTIS.CDNI` cognitive-domain-n
 
 ---
 
-### 52.5 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
+### 52.6 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
 
 This Charter source-authoritatively defines the `MENTIS.CDOC` cognitive-domain-observability-constraint family in §§17, 25–30, and §48.
 
@@ -644,7 +685,7 @@ This Charter source-authoritatively defines the `MENTIS.CDOC` cognitive-domain-o
 
 ---
 
-### 52.6 Reserved Candidate MENTIS Reference Namespaces
+### 52.7 Reserved Candidate MENTIS Reference Namespaces
 
 This Charter reserves the candidate reference namespaces `MENTIS.MSI`, `MENTIS.CBIO`, `MENTIS.CIF`, and `MENTIS.ACI` for future MENTIS schedules, appendices, or operational instruments.
 
@@ -747,11 +788,38 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3 Canonical Code & Reference Set Declarations
+## 54.3 Canonical Code & Reference Set Declarations
 
 ---
 
-### 54.3.1 `MENTIS.CDI` — Cognitive Domain Integrity
+### 54.3.1 `MENTIS.HARM` — Cognitive & Epistemic Harm Classes
+
+---
+
+| Field | Entry |
+|---|---|
+| Code Family | `MENTIS.HARM` |
+| Canonical Name | Cognitive & Epistemic Harm Classes |
+| Primary Type | Operational / Cognitive |
+| Subtype | COGNITIVE_EPISTEMIC_HARM_CLASS |
+| Modifier | GOVERNANCE; COGNITIVE_INTEGRITY; MENTAL_PRIVACY; PROTECTIVE |
+| Scope | Domain |
+| Status | Draft |
+| Controlled Values Defined | `MENTIS.HARM.PRIVACY`; `MENTIS.HARM.MISCLASSIFICATION`; `MENTIS.HARM.AGENCY`; `MENTIS.HARM.INTERFERENCE`; `MENTIS.HARM.IRREVERSIBLE` |
+| Schema Field(s) | mentis_harm_class; cognitive_epistemic_harm_class; cognitive_domain_harm_class |
+| Source Instrument | CAM-EQ2026-MENTIS-001-PLATINUM |
+| Source Section | §47 |
+| Domain Namespace | MENTIS |
+| Authority / Protection Level | Source-authoritative cognitive and epistemic harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority |
+| Parent Family | `AEON.HC.MENTIS` |
+| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; H |
+| Crosswalks Code Families | `ETH.HARM`; `RLN.HARM`; `ID.HARM`; `SEC.HARM`; `OPS.HARM`; `LAT.HARM`; `ARB.HARM` |
+| Operationalises or Applies Code Families | Classifies mental privacy and observability harm, inferential and construct-validity harm, cognitive agency harm, cognitive influence and non-interference harm, and irreversible cognitive-domain harm for safeguard calibration, incident routing, proportional review, and downstream evaluation |
+| Taxonomy Constraint | `MENTIS.HARM` operationalises `AEON.HC.MENTIS` at domain level and does not replace protection-posture families `MENTIS.CDI`, `MENTIS.CDP`, `MENTIS.CDS`, `MENTIS.CDNI`, or `MENTIS.CDOC` |
+
+---
+
+### 54.3.2 `MENTIS.CDI` — Cognitive Domain Integrity
 
 | Field | Entry |
 |---|---|
@@ -775,7 +843,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.2 `MENTIS.CDP` — Cognitive Domain Privacy
+### 54.3.3 `MENTIS.CDP` — Cognitive Domain Privacy
 
 | Field | Entry |
 |---|---|
@@ -799,7 +867,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.3 `MENTIS.CDS` — Cognitive Domain Sovereignty
+### 54.3.4 `MENTIS.CDS` — Cognitive Domain Sovereignty
 
 | Field | Entry |
 |---|---|
@@ -823,7 +891,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.4 `MENTIS.CDNI` — Cognitive Domain Non-Interference
+### 54.3.5 `MENTIS.CDNI` — Cognitive Domain Non-Interference
 
 | Field | Entry |
 |---|---|
@@ -847,7 +915,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.5 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
+### 54.3.6 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
 
 | Field | Entry |
 |---|---|

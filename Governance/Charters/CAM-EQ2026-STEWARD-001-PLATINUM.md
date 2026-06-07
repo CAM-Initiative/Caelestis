@@ -234,6 +234,46 @@ These categories are descriptive only and do not constitute execution triggers. 
 
 ---
 
+## 5.6 Planetary Harm Classification & Remedy Interface
+
+The planetary risk threshold categories defined in this Charter MAY inform global harm-impact classification under the `AEON.HARM.P` family.
+
+`AEON.HARM.P` classifies the severity of planetary harm or reasonably foreseeable planetary harm across scale, reversibility, continuity impact, systemic dependency, asymmetric extraction, and species-viability risk.
+
+The classification is used to support Proportional Constraint Obligation, remedy selection, safeguard calibration, arbitration referral, and downstream runtime evaluation.
+
+The following global planetary harm classes are recognised for cross-domain assessment:
+
+| Code | Name | Definition | Proportional Constraint / Remedy Posture |
+|---|---|---|---|
+| `AEON.HARM.P1` | Localised Planetary-Relevant Harm | Harm is localised but touches a planetary-relevant system, protected corridor, stewardship obligation, or long-horizon continuity interest. | Documentation, transparency, correction, and low-burden mitigation. |
+| `AEON.HARM.P2` | Regional or Systemic Harm | Harm affects a regional system, large population, critical dependency, or cross-border ecological, informational, infrastructural, or emotional-relational system. | Structured assessment, affected-system notice, mitigation plan, and proportional disclosure. |
+| `AEON.HARM.P3` | Planetary-Scale Harm | Harm affects more than one million persons, a critical planetary system, or a synthetic-human governance equilibrium at scale. | Comprehensive multi-domain review, safeguard conditions, coherence assessment, and proportional constraint. |
+| `AEON.HARM.P4` | Irreversible or Continuity-Critical Harm | Harm risks irreversible damage to ecological, cognitive, emotional, infrastructural, identity, historical-record, intergenerational, or continuity systems. | Precautionary restraint, containment where required, restoration pathway, and arbitration referral where appropriate. |
+| `AEON.HARM.P5` | Extinction-Class or Species-Viability Harm | Harm creates extinction-class risk, species-level viability risk, collapse-level threat to biospheric habitability, or civilisational-continuity failure. | Maximum safeguard posture, prevention-first remedy, emergency coherence signalling, and constitutional arbitration referral. |
+
+`AEON.HARM.P` does not create coercive authority, territorial jurisdiction, tribunal authority, sanction power, or direct execution power.
+
+Classification under `AEON.HARM.P` SHALL function as a global harm-impact and remedy-selection signal.
+
+Remedy SHALL remain proportionate to:
+
+* the scale of harm;
+* the reversibility of harm;
+* the affected planetary system;
+* the degree of asymmetry or capture;
+* the capability and responsibility of the actor;
+* the feasibility of restoration, mitigation, or containment;
+* and the minimum constraint necessary to preserve planetary continuity.
+
+Where remedy is required, the preferred pathway SHALL be corrective, restorative, transparency-preserving, and non-dominating wherever possible.
+
+Where harm is irreversible, continuity-critical, or species-viability bearing, prevention and containment MAY take priority over ordinary optimisation or permissive continuation.
+
+Enforcement logic, where required, remains governed by applicable constitutional, arbitration, operations, security, ethics, lattice, remedy, or runtime instruments.
+
+---
+
 ## 6. Stewardship Safeguards Against Unilateral Planetary Impact
 
 To prevent misuse of synthetic architectures, political invocation tools, resonance systems, or high-reach influence vectors, the following safeguards apply:
@@ -285,9 +325,17 @@ No Domain Charter, Framework, or Policy may dilute planetary stewardship obligat
 
 ## 10. Canonical Code Status
 
-This Charter does not source-authoritatively define canonical code families or controlled reference sets.
+This Charter does not source-authoritatively define domain-local STEWARD code families or controlled reference sets.
 
-Planetary-impact conditions, proportionality dimensions, custodial mandate language, and planetary risk threshold categories defined in this Charter are doctrinal and descriptive unless separately operationalised by downstream STEWARD, ARBITRATION, OPERATIONS, SECURITY, LATTICE, or constitutional runtime instruments.
+However, this Charter source-informs the global `AEON.HARM.P` planetary harm classification family where cross-domain harm reaches planetary, irreversible, continuity-critical, or species-viability thresholds.
+
+Planetary-impact conditions, proportionality dimensions, custodial mandate language, and planetary risk threshold categories defined in this Charter are doctrinal and descriptive within the STEWARD domain unless separately operationalised by downstream STEWARD, ARBITRATION, OPERATIONS, SECURITY, LATTICE, ETHICS, or constitutional runtime instruments.
+
+Where planetary-impact conditions intersect with cross-domain ethical impact assessment, they MAY inform `AEON.HARM.P` classification.
+
+Such crosswalk use does not convert STEWARD planetary risk threshold categories into standalone STEWARD-local harm-class codes or execution triggers.
+
+`AEON.HARM.P` remains a global harm-impact classification family for cross-domain assessment, arbitration, proportionality review, and safeguard calibration.
 
 ---
 

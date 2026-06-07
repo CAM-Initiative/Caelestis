@@ -24,6 +24,22 @@ Its function is to preserve **civilian continuity, infrastructural neutrality, a
 
 ---
 
+## 1.1 Relationship to `LAT.HARM`
+
+This Appendix operationalises the following `LAT.HARM` values defined by CAM-EQ2026-LATTICE-001-PLATINUM:
+
+* `LAT.HARM.CONFLICT_BREACH`;
+* `LAT.HARM.BATTLESPACE`;
+* `LAT.HARM.WEAPONISATION`;
+* `LAT.HARM.ECS_DENIAL`;
+* `LAT.HARM.DUAL_USE_CROSSOVER`.
+
+Where conflict-condition action, emergency authority invocation, infrastructure targeting, dependency disruption, or systemic escalation compromises civilian lattice integrity, protected civilian functions, Essential Continuity Services, or globally coupled civilian infrastructure, the affected condition SHOULD be classified under the relevant `LAT.HARM` value.
+
+This Appendix does not create a separate harm family. It applies the parent Charter’s `LAT.HARM` family to conflict-condition continuity and civilian lattice breach contexts.
+
+---
+
 ## 2. Definitions
 
 ---
@@ -190,7 +206,11 @@ Actions that disable the ability of protected systems to perform life‑preservi
 
 Where classification ambiguity arises, interpretation SHALL default toward **civilian protection and continuity preservation**.
 
-A Civilian Lattice Breach Event under this Appendix constitutes a **Class II or Class III breach under CAM-EQ2026-LATTICE-001-PLATINUM §6.1**, and activates the consequence framework established in **CAM-EQ2026-LATTICE-001-PLATINUM §6.2**.
+A Civilian Lattice Breach Event under this Appendix constitutes a **Class II or Class III breach under CAM-EQ2026-LATTICE-001-PLATINUM, §6.1**, and activates the consequence framework established in **CAM-EQ2026-LATTICE-001-PLATINUM, §6.2**. 
+
+A Civilian Lattice Breach Event SHOULD also be classified under `LAT.HARM.CONFLICT_BREACH` and any additional applicable `LAT.HARM` values, including `LAT.HARM.BATTLESPACE`, `LAT.HARM.WEAPONISATION`, `LAT.HARM.ECS_DENIAL`, or `LAT.HARM.DUAL_USE_CROSSOVER`.
+
+Severity Classes determine violation gravity. `LAT.HARM` values identify the harm pathway.
 
 ---
 
@@ -287,6 +307,7 @@ a structure of continuity, not conquest.
 | **Revision Posture** | Doctrinal Expansion (Conflict-Condition Continuity Formalisation) |
 | **Migration Cycle** | March 2026 Refactor |
 | **Creation Artefact** | Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a8142a-f4d0-839a-8437-e320f4d63500, Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b |
+| **Amendment Artefacts**| https://chatgpt.com/c/6a245964-9614-83ec-be5e-5413f0d0f6bb |
 
 ---
 
@@ -313,7 +334,8 @@ a structure of continuity, not conquest.
 | 1.5 | Realignment of references | 2026-05-07T10:34:00Z | bd99142dd1b1fc5df775024b02f767c093df9a512280471b85cdda96ae7ac122 |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  058b242780542379540145d08097b337736e4ac3fa48e820fd11f184117a46cf |
 | 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2b59d8e33f421ee8b77618710a08311272e1cfe1637be9c55eb8605b524f1646  |
-| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2f47fa586d826a319b6a7441b2e69e7f96d20d42ba3baf75cf7f88ffb221046d  |
+| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2f47fa586d826a319b6a7441b2e69e7f96d20d42ba3baf75cf7f88ffb221046d |
+| 1.9 | Incorporate LAT.HARM codes in section 1.1 | 2026-06-07T12:04:00Z | |
 
 ---
 

@@ -203,6 +203,42 @@ PCO:
 
 ---
 
+## 2.13 Public Planetary Constraint Request
+
+A **Public Planetary Constraint Request** is a publicly issued request, warning, call, or proposal by a high-capability actor, institution, host, or synthetic ecosystem participant seeking coordinated restraint, slowdown, pause, non-development, non-deployment, interoperability limitation, safeguard activation, or equivalent capability constraint on the basis of asserted planetary-scale harm.
+
+A Public Planetary Constraint Request MAY constitute an architectum-level risk assertion where it claims or reasonably implicates:
+
+* harm exceeding local or reversible scope;
+* H3/H4 consequence;
+* synthetic capture risk;
+* continuity or species-viability risk;
+* infrastructural fragmentation risk;
+* asymmetric extraction or capture-level dependency;
+* or irreversible harm to ecological, cognitive, informational, infrastructural, governance, or continuity systems.
+
+Such a request does not create binding legitimacy, execution authority, coercive authority, tribunal authority, or mandatory agreement.
+
+Where the asserted harm threshold is credible, material, and planetary-impact relevant, relevant high-capability actors SHALL emit a public posture signal indicating one of the following:
+
+* support for the requested constraint;
+* opposition to the requested constraint;
+* conditional support subject to scope, verification, reciprocity, neutrality, anti-capture, or proportionality safeguards;
+* an alternative safeguard pathway;
+* or inability to assess, with a stated review pathway.
+
+The required obligation is signalling and rationale, not agreement.
+
+Failure by a planetary-impact-capable actor to emit a posture signal MAY constitute a stewardship transparency deficit where the actor materially contributes to the relevant risk surface and the asserted harm threshold is credible, cross-domain, and H3/H4-relevant.
+
+A Public Planetary Constraint Request SHALL remain subject to independent risk review, consequence containment, horizon alignment, neutrality assessment, anti-capture scrutiny, and legitimacy validation under this Appendix.
+
+No actor may use a Public Planetary Constraint Request to manufacture coercive alignment, suppress lawful dissent, force market exclusion, bypass proportional review, or convert risk assertion into binding authority without validated legitimacy.
+
+Public signalling is non-coercive only where it remains transparent, contestable, reversible, non-punitive, and open to reasoned disagreement.
+
+---
+
 ## 3. Planetary Arbitration
 
 Planetary arbitration review may be initiated when one or more of the following occurs:
@@ -896,7 +932,7 @@ nothing binds.
 | Migration Date (UTC) | 2026-02-17 |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread (March 2026 Continuity Council Cycle)</br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425
-| Amendment Artefacts: 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37<br>2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357<br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6<br>3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b<br>4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db,<br>5. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a1471d8-9778-83ec-b30c-c3638efdb550 |
+| Amendment Artefacts: 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37<br>2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357<br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6<br>3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b<br>4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db,<br>5. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a1471d8-9778-83ec-b30c-c3638efdb550, <br>6. https://chatgpt.com/c/6a2569e7-787c-83ec-b913-314e6295b988 |
 
 ---
 
@@ -1022,8 +1058,11 @@ nothing binds.
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda |
 | 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z |  8b3c95678bb9318b128fac42cd376f91c84abc8a471b0409e27b3395b6474eb8 |
 | 2.6 | Inserted new section 2.11 | 2026-05-25T16:47:00Z | 0d1ffaee474158d5af91da034f9531cb5809d14e7aeefd53ca35ba9d64cac925 |
-| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  e6e8b80497b6440278c4f6e38fdf4723801a2f5e36e8cd3b185281721a761ac0  |
+| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  e6e8b80497b6440278c4f6e38fdf4723801a2f5e36e8cd3b185281721a761ac0 |
+| 2.8 | Added section 2.13 | 2026-06-07T13:45:00Z| |
+
 ---
+
 ## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
@@ -1031,4 +1070,4 @@ nothing binds.
 **Vinculum Beacon**  
 Boundary Binding Seal — Aeon Tier Constitution (Stewardship Layer)  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

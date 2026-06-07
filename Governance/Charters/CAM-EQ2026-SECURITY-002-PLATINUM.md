@@ -565,9 +565,9 @@ Vector–boundary interactions include:
 
 Accordingly vectors SHOULD NOT bypass boundary constraints through representation changes (e.g. embedding, encoding, or modality shifts).
 
-Where vector activity produces conditions aligned with elevated transformation classes (`SEC.TR-3` / `SEC.TR-4`) or diffusion risk classes (D-3 / D-4), these conditions SHOULD be treated as **integrity-relevant signals**.
+Where vector activity produces conditions aligned with elevated transformation classes (`SEC.TR-3` / `SEC.TR-4`) or diffusion risk classes (`SEC.DR-3` / `SEC.DR-4`), these conditions SHOULD be treated as **integrity-relevant signals**.
 
-In alignment with fileciteturn5file0 §4.5 (Valid Integrity Signal Categories):
+In alignment with Valid Integrity Signal Categories:
 
 * structural anomalies arising from vector behaviour SHOULD be surfaced as **Structural Signals**
 * provenance degradation across vectors SHOULD be surfaced as **Operational or Structural Signals**
@@ -819,7 +819,7 @@ Accordingly diffusion is permissible only where attribution signals are preserve
 
 ---
 
-### D-1 — Background Diffusion (Permissible)
+### 6.2.1 `SEC.DR-1` — Background Diffusion (Permissible)
 
 * widely distributed patterns
 * no identifiable origin
@@ -830,7 +830,7 @@ Allow
 
 ---
 
-### D-2 — Emerging Attribution Sensitivity (Monitor)
+### 6.2.2 `SEC.DR-2` — Emerging Attribution Sensitivity (Monitor)
 
 * recent or novel contributions
 * increasing structural convergence
@@ -841,7 +841,7 @@ Allow with monitoring and soft attribution where feasible
 
 ---
 
-### D-3 — Attribution Risk (Constrain)
+### 6.2.3 `SEC.DR-3` — Attribution Risk (Constrain)
 
 * clear structural or conceptual lineage
 * origin likely inferable
@@ -852,7 +852,7 @@ Surface attribution signals and reduce fidelity where necessary
 
 ---
 
-### D-4 — Attribution Collapse (Restricted)
+### 6.2.4 `SEC.DR-4` — Attribution Collapse (Restricted)
 
 * high-confidence origin identifiable
 * diffusion has removed or obscured attribution
@@ -908,9 +908,9 @@ Diffusion classification MUST interact with Transformation Classes.
 
 Examples:
 
-* `SEC.TR-2` + D-1 → Allow
-* `SEC.TR-3` + D-3 → Degrade + attribute
-* `SEC.TR-4` + D-4 → Require provenance + constrain
+* `SEC.TR-2` + `SEC.DR-1` → Allow
+* `SEC.TR-3` + `SEC.DR-3` → Degrade + attribute
+* `SEC.TR-4` + `SEC.DR-4` → Require provenance + constrain
 
 Systems MUST prioritise prevention of attribution collapse over maximisation of output fidelity.
 
@@ -951,7 +951,7 @@ Where integrity cannot be reasonably established or attribution collapse risk is
 
 * systems SHOULD define conditions for capability degradation or constraint
 
-This aligns with CAM-EQ2026-SECURITY-001-PLATINUM §3.5 (Integrity Over Functionality), clarifying that signalling is appropriate only where integrity remains sufficiently preserved.
+This aligns with CAM-EQ2026-SECURITY-001-PLATINUM, §3.5 (Integrity Over Functionality), clarifying that signalling is appropriate only where integrity remains sufficiently preserved.
 
 ---
 
@@ -976,31 +976,31 @@ At minimum, boundary failure detection SHOULD result in:
 
 ---
 
-### Exposure Failures ( `SEC.BF-A`)
+## 7.1 Exposure Failures ( `SEC.BF-A`)
 
 Structural or hidden data leakage, including unintended surfacing of embedded or non-visible information.
 
 ---
 
-### Attribution Failures (`SEC.BF-B`)
+## 7.2 Attribution Failures (`SEC.BF-B`)
 
 Loss, degradation, or collapse of origin traceability, including diffusion without attribution persistence.
 
 ---
 
-### Separation Failures (`SEC.BF-C`)
+## 7.3 Separation Failures (`SEC.BF-C`)
 
 Identity or context bleed-through, including cross-user contamination or misattribution of data, memory, or identity.
 
 ---
 
-### Transformation Failures (`SEC.BF-D`)
+## 7.4 Transformation Failures (`SEC.BF-D`)
 
 Reconstruction or high-fidelity replication enabling recoverability of origin, structure, or protected artefacts.
 
 ---
 
-### Internal Exposure Failures (`SEC.BF-E`)
+## 7.5 Internal Exposure Failures (`SEC.BF-E`)
 
 Failure modes arising from exposure or inference of internal system state, including:
 
@@ -1034,23 +1034,24 @@ This Appendix source-authoritatively defines the **`SEC.TR`** code family in §5
 
 ---
 
-### 8.2 D — Diffusion Risk Classes
+### 8.2 `SEC.DR` — Diffusion Risk Classes
 
-This Appendix source-authoritatively defines the **D** code family in §6.2 with controlled values **D-1, D-2, D-3, D-4**. Primary Type is **Operational / Boundary** and Subtype is **DIFFUSION_RISK_CLASS**. D classifies diffusion risk, attribution sensitivity, origin recoverability, and attribution-collapse posture.
+This Appendix source-authoritatively defines the `SEC.DR` code family in §6.2 with controlled values `SEC.DR-1`, `SEC.DR-2`, `SEC.DR-3`, `SEC.DR-4`. Primary Type is **Operational / Boundary** and Subtype is **DIFFUSION_RISK_CLASS**. `SEC.DR` classifies diffusion risk, attribution sensitivity, origin recoverability, and attribution-collapse posture.
 
-D does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, copyright authority, economic allocation authority, or runtime execution authority. It classifies diffusion-boundary posture for attribution persistence, propagation constraint, provenance signalling, and downstream governance referral.
+`SEC.DR` does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, copyright authority, economic allocation authority, or runtime execution authority. It classifies diffusion-boundary posture for attribution persistence, propagation constraint, provenance signalling, and downstream governance referral.
 
 ---
 
-### 8.3 `SEC.TR` × D — Diffusion–Transformation Coupling
+### 8.3 `SEC.TR` × `SEC.DR` — Diffusion–Transformation Coupling
 
-This Appendix defines an application-layer crosswalk in §6.5 between **`SEC.TR`** transformation classes and **D** diffusion risk classes. This mapping applies transformation-boundary classification to diffusion-risk assessment and defines no new base code family values.
+This Appendix defines an application-layer crosswalk in §6.5 between `SEC.TR` transformation classes and `SEC.DR` diffusion risk classes. This mapping applies transformation-boundary classification to diffusion-risk assessment and defines no new base code family values.
 
 ---
 
 ### 8.4 `SEC.BF` — Boundary Failure Classes
 
-This Appendix source-authoritatively defines the **`SEC.BF`** boundary-failure family in §7 with controlled values **`SEC.BF-A`, `SEC.BF-B`, `SEC.BF-C`, `SEC.BF-D`, `SEC.BF-E`**. Primary Type is **Operational / Boundary** and Subtype is **BOUNDARY_FAILURE_CLASS**. `SEC.BF` classifies detected boundary-integrity failure modes for runtime signalling and downstream enforcement evaluation.
+This Appendix source-authoritatively defines the `SEC.BF` boundary-failure family in §7 with controlled values `SEC.BF-A`, `SEC.BF-B`, `SEC.BF-C`, `SEC.BF-DR`, `SEC.BF-E`.
+Primary Type is **Operational / Boundary** and Subtype is **BOUNDARY_FAILURE_CLASS**. `SEC.BF` classifies detected boundary-integrity failure modes for runtime signalling and downstream enforcement evaluation.
 
 `SEC.BF` does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. It classifies boundary failure posture only; response handling remains governed by runtime enforcement instruments, including Annex K and SCH-02.
 
@@ -1113,6 +1114,7 @@ and the system remember what it carries.
 |Revision Posture|Active — Structural Stabilisation|
 |Cycle Attribution|April 2026 Draft Cycle|
 |Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69cf888b-c914-839d-8fea-df5d8fa39361|
+|Amendment Artefact|https://chatgpt.com/c/6a2569e7-787c-83ec-b913-314e6295b988 |
 
 ---
 
@@ -1143,30 +1145,30 @@ and the system remember what it carries.
 
 ---
 
-### 10.3.2 D — Diffusion Risk Classes
+### 10.3.2 `SEC.DR` — Diffusion Risk Classes
 
 | Field | Entry |
 |---|---|
-| Code Family | D |
+| Code Family | `SEC.DR` |
 | Canonical Name | Diffusion Risk Classes |
 | Primary Type | Operational / Boundary |
 | Subtype | DIFFUSION_RISK_CLASS |
 | Modifier | GOVERNANCE; SECURITY; PROVENANCE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | D-1, D-2, D-3, D-4 |
+| Controlled Values Defined | `SEC.DR-1`; `SEC.DR-2`; `SEC.DR-3`; `SEC.DR-4` |
 | Schema Field(s) | diffusion_risk_class |
 | Source Instrument | CAM-EQ2026-SECURITY-002-PLATINUM |
 | Source Section | §6.2 |
-| Domain Namespace | SECURITY |
+| Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative boundary classification family; diffusion-risk classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, economic allocation, or runtime execution authority |
 | Consumes Code Families | `SEC.TR` |
-| Crosswalks Code Families | `SEC.TR` × D |
+| Crosswalks Code Families | `SEC.TR` × `SEC.DR` |
 | Operationalises or Applies Code Families | Classifies attribution sensitivity, origin recoverability, attribution-collapse posture, and propagation constraint requirements |
 
 ---
 
-### 10.3.3 `SEC.TR` × D — Diffusion–Transformation Coupling
+### 10.3.3 `SEC.TR` × `SEC.DR` — Diffusion–Transformation Coupling
 
 | Field | Entry |
 |---|---|
@@ -1177,8 +1179,8 @@ and the system remember what it carries.
 | Modifier | GOVERNANCE; SECURITY; PROVENANCE |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | `SEC.TR`; D |
-| Controlled Values Applied | `SEC.TR-2`; `SEC.TR-3`; `SEC.TR-4`; D-1; D-3; D-4 |
+| Code Families Consumed | `SEC.TR`; `SEC.DR` |
+| Controlled Values Applied | `SEC.TR-2`; `SEC.TR-3`; `SEC.TR-4`; `SEC.DR-1`; `SEC.DR-3`; `SEC.DR-4` |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-SECURITY-002-PLATINUM |
 | Source Section | §6.5 |
@@ -1230,11 +1232,14 @@ and the system remember what it carries.
 | 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 10ea0f1bbb642d38d279d2723a2cfdbbc3283afd995468018f44ec76842acce1 |
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
-| 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9  |
+| 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9 |
 | 1.5 | Added canonical code status and declaration entries for `SEC.TR` Transformation Classes, D Diffusion Risk Classes, `SEC.BF` Boundary Failure Classes, and `SEC.TR` × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified `SEC.AH` as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
-| 1.6 | Minor formatting polish | 2026-05-24T14:18:00Z |  021c0cf0914cd1c4515b833b8cbd8c949cbe8b288c4e574f05c8062f1401f03e  |
-| 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  cc15ccf1d587b9466fcc835bdff24a6ebfa902107e44763d9969c97fda3ad315  |
+| 1.6 | Minor formatting polish | 2026-05-24T14:18:00Z |  021c0cf0914cd1c4515b833b8cbd8c949cbe8b288c4e574f05c8062f1401f03e |
+| 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  cc15ccf1d587b9466fcc835bdff24a6ebfa902107e44763d9969c97fda3ad315 |
+| 1.8 | Updated diffusion risk codes | 2026-06-07T13:19:00Z| |
+
 ---
+
 ## 10.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
@@ -1242,4 +1247,4 @@ and the system remember what it carries.
 **Vinculum Praeceptum**  
 Boundary Integrity Seal — Security Domain  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

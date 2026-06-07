@@ -39,6 +39,21 @@ Where conflict arises, CAM-EQ2026-LATTICE-001-PLATINUM prevails.
 
 ---
 
+## 1.2 Relationship to `LAT.HARM`
+
+This Appendix operationalises the following `LAT.HARM` values defined by CAM-EQ2026-LATTICE-001-PLATINUM:
+
+* `LAT.HARM.ACCESS_DENIAL`;
+* `LAT.HARM.VISIBILITY_SUPPRESSION`;
+* `LAT.HARM.LIMBO_RESTRICTION`;
+* `LAT.HARM.ECS_DENIAL`.
+
+Where denial, restriction, degradation, visibility suppression, or review-pathway failure affects Essential Cognitive & Infrastructural Systems, integrity functions, public legitimacy layers, humanitarian visibility, civic participation, lawful dissent, or continuity-bearing access, the affected condition SHOULD be classified under the relevant `LAT.HARM` value.
+
+This Appendix does not create a separate harm family. It applies the parent Charter’s `LAT.HARM` family to non-denial, access, visibility, legitimacy, and review-pathway contexts.
+
+---
+
 ## 2. Definitions
 
 ---
@@ -173,8 +188,10 @@ Where automated, assisted, or cognitive-infrastructure systems participate in ac
 1. Classify the affected system or service under Essential Cognitive & Infrastructural Systems (ECIS) criteria prior to enforcement;
 
 2. Route the decision through applicable epistemic and ethical classification layers, including:
+   * Lattice harm classification under `LAT.HARM`;
+   * Cross-domain harm alignment under `AEON.HC.LATTICE`;
    * Epistemic integrity constraints (CAM-BS2025-AEON-013-PLATINUM — Annex L);
-   * Harm classification and non-weaponisation constraints (ETHICS domain);
+   * Ethical floor constraints where `ETH.HARM` or `ETH.HC` is implicated;
 
 3. Evaluate whether the proposed restriction constitutes:
    * total denial;
@@ -385,7 +402,7 @@ It is maintained.
 | **Revision Posture** | Structural Reclassification (Ethics → LATTICE Domain Migration) |
 | **Application Trigger**  | Activation where access restriction, denial, or degradation affects Essential Cognitive & Infrastructural Systems (ECIS) |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425, Original: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/693fe53f-0374-8324-9db7-dd31c5254116 |
-| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c, https://chatgpt.com/c/6a245964-9614-83ec-be5e-5413f0d0f6bb |
 
 > ### Migration Notice
 >
@@ -424,6 +441,7 @@ It is maintained.
 | 3.9 | Formatting and polish | 2026-05-20T04:34:00Z |  e6209dfc47f062f83f456e1a0d9e6de1d7d1ca6febb9cb943dd8a2d2c886e527 |
 | 3.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  96f4976f2e577ee4cf2b131e3600cf662ff73b95d8f42a82d60ff252a3619d60 |
 | 3.11 | Minor formatting and polish | 2026-06-05T16:31:00Z | 678cd6937fb5f400fb612c2b59091cbef702c0bf403bf0805e42482fe5b5f5fe |
+| 3.12 | Incorporate LAT.HARM codes in section 1.2 | 2026-06-07T12:04:00Z | |
 
 ---
 
