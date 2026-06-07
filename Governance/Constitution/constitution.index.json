@@ -141,9 +141,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "08779557d1efc386e74700d38a50de2be7520684",
-      "updated_at": "2026-06-07T10:41:08Z",
-      "last_updated_utc": "2026-06-07T10:41:08Z"
+      "pinned_sha": "63e383d7b0404f30411d8e778aada039fed8e186",
+      "updated_at": "2026-06-07T14:54:52Z",
+      "last_updated_utc": "2026-06-07T14:54:52Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "08779557d1efc386e74700d38a50de2be7520684",
-      "updated_at": "2026-06-07T10:41:08Z",
-      "last_updated_utc": "2026-06-07T10:41:08Z"
+      "pinned_sha": "63e383d7b0404f30411d8e778aada039fed8e186",
+      "updated_at": "2026-06-07T14:54:52Z",
+      "last_updated_utc": "2026-06-07T14:54:52Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -381,9 +381,9 @@
       "authority_role": "** None",
       "version": "4.0",
       "HASH": "a431335cb3f1086cdc4657bea5042ba75d2451d96e15d30a6bdb897accd6697f",
-      "pinned_sha": "c9f6c6c2aedd32b44850cb08dbd35022f7116391",
-      "updated_at": "2026-06-07T14:54:25Z",
-      "last_updated_utc": "2026-06-07T14:54:25Z"
+      "pinned_sha": "63e383d7b0404f30411d8e778aada039fed8e186",
+      "updated_at": "2026-06-07T14:54:52Z",
+      "last_updated_utc": "2026-06-07T14:54:52Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",

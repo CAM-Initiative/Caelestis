@@ -85,7 +85,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-ECONOMICS-001-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture | Root | 3.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ECONOMICS-002-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | Appendix A: Synthetic Participation Safeguards | Appendix | 2.10 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-EQ2026-ECONOMICS-003-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | Appendix | 2.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-ECONOMICS-003-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | Appendix | 2.3 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ECONOMICS-004-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md) | Appendix C: Attribution & Dependency Model | Appendix | 2.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ECONOMICS-005-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md) | Appendix D: Cross-System Value Attribution & Exchange | Appendix | 2.0 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-ECONOMICS-006-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md) | Appendix E: Minimum Viable Governance Layer (External Alignment) | Appendix | 2.1 | Active | Immediate Effect | Active on Commit | None | None |
@@ -98,7 +98,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-ETHICS-001-PLATINUM](../Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md) | Ethical Governance Charter | Root | 3.10 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-ETHICS-002-PLATINUM](../Charters/CAM-EQ2026-ETHICS-002-PLATINUM.md) | Appendix A: Intimacy-Capable Systems & Relational Boundaries | Appendix | 2.8 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-EQ2026-ETHICS-003-PLATINUM](../Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance | Appendix | 3.3 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-ETHICS-003-PLATINUM](../Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance | Appendix | 3.4 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-01](../Charters/CAM-EQ2026-ETHICS-001-SUP-01.md) | Protection of Minors & Capacity-Limited Users (Supplement 1) | Supplement | 1.7 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-02](../Charters/CAM-EQ2026-ETHICS-001-SUP-02.md) | High-Leverage & Institutional Integrity Safeguards (Supplement 2) | Supplement | 1.9 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-03](../Charters/CAM-EQ2026-ETHICS-001-SUP-03.md) | Military & Use-of-Force Governance Constraints (Supplement 3) | Supplement | 1.8 | Active | Immediate Effect | Active on Commit | None | None |

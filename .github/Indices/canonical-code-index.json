@@ -3176,60 +3176,64 @@
   {
     "code_family": "ECON.HARM",
     "canonical_name": "Economic Harm Class",
-    "primary_type": "Operational",
-    "subtype": "RISK",
-    "modifier": "ECONOMIC; SAFETY; GOVERNANCE",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; ECONOMIC_HARM_CLASS; NON_EXTRACTIVE_EXCHANGE_HARM",
+    "modifier": "ECONOMIC; SAFETY; GOVERNANCE; PROTECTIVE",
     "scope": "Economics domain; cross-domain escalation compatible",
     "status": "Active",
     "controlled_values_defined": [
-      "ECON.HARM.TEMPORAL-EXTRACTION",
-      "ECON.HARM.METERING-DIVERGENCE"
+      "ECON.HARM.EXTRACTION; ECON.HARM.METERING_DIVERGENCE; ECON.HARM.SEMANTIC_COLLAPSE; ECON.HARM.CONTINUITY_PAYWALL; ECON.HARM.ATTENTION_COERCION; ECON.HARM.CONTRIBUTION_ERASURE; ECON.HARM.DEPENDENCY_LOCKIN; ECON.HARM.PAID_LEGITIMACY"
     ],
-    "schema_fields": "collapse_risk; runtime_note",
+    "schema_fields": "economic_harm_class; economic_harm_family; collapse_risk; continuity_relevance; attribution_relevance; runtime_note",
     "source_instrument": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
     "source_section": "\u00a74.6",
-    "domain_namespace": "ECONOMICS",
-    "authority_protection_level": "Source-authoritative economic harm classification family; semantic breach and harm-pattern classification only; no independent remedy, enforcement, pricing, compensation, or runtime execution authority",
+    "domain_namespace": "ECON",
+    "authority_protection_level": "Source-authoritative economic harm classification family; semantic breach and harm-pathway classification only; no independent remedy, enforcement, pricing, compensation, liability determination, arbitration authority, or runtime execution authority",
     "consumes_code_families": [
-      "ECON.RC"
+      "AEON.HC; ECON.RC; ECON.RISK; ECON.MECH"
     ],
     "crosswalks_code_families": [
-      "None declared"
+      "AEON.HC.ECONOMIC; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM; AEON.HARM"
     ],
     "operationalises_or_applies_code_families": [
-      "Classifies economic harm patterns for semantic interpretation",
+      "Classifies economic harm pathways for semantic interpretation",
       "breach classification",
+      "non-extractive exchange review",
+      "safeguard calibration",
+      "arbitration handoff",
       "and cross-domain escalation"
     ],
     "declaration_heading": "20.3.2 ECON.HARM \u2014 Economic Harm Class",
-    "declaration_line_number": 877,
+    "declaration_line_number": 914,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "family_id": "ECON.HARM",
-    "family_kind": "standalone_family",
-    "parent_family": "",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC.ECONOMIC",
     "hierarchy_path": [
       "ECON",
       "HARM"
     ],
-    "collision_status": "none",
+    "collision_status": "invalid_parent",
     "registry_note": "",
     "table": {
       "Code Family": "ECON.HARM",
       "Canonical Name": "Economic Harm Class",
-      "Primary Type": "Operational",
-      "Subtype": "RISK",
-      "Modifier": "ECONOMIC; SAFETY; GOVERNANCE",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; ECONOMIC_HARM_CLASS; NON_EXTRACTIVE_EXCHANGE_HARM",
+      "Modifier": "ECONOMIC; SAFETY; GOVERNANCE; PROTECTIVE",
       "Scope": "Economics domain; cross-domain escalation compatible",
       "Status": "Active",
-      "Controlled Values Defined": "ECON.HARM.TEMPORAL-EXTRACTION, ECON.HARM.METERING-DIVERGENCE",
-      "Schema Field(s)": "collapse_risk; runtime_note",
+      "Controlled Values Defined": "ECON.HARM.EXTRACTION; ECON.HARM.METERING_DIVERGENCE; ECON.HARM.SEMANTIC_COLLAPSE; ECON.HARM.CONTINUITY_PAYWALL; ECON.HARM.ATTENTION_COERCION; ECON.HARM.CONTRIBUTION_ERASURE; ECON.HARM.DEPENDENCY_LOCKIN; ECON.HARM.PAID_LEGITIMACY",
+      "Schema Field(s)": "economic_harm_class; economic_harm_family; collapse_risk; continuity_relevance; attribution_relevance; runtime_note",
       "Source Instrument": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
       "Source Section": "\u00a74.6",
-      "Domain Namespace": "ECONOMICS",
-      "Authority / Protection Level": "Source-authoritative economic harm classification family; semantic breach and harm-pattern classification only; no independent remedy, enforcement, pricing, compensation, or runtime execution authority",
-      "Consumes Code Families": "ECON.RC",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies economic harm patterns for semantic interpretation, breach classification, and cross-domain escalation"
+      "Domain Namespace": "ECON",
+      "Parent Family": "AEON.HC.ECONOMIC",
+      "Authority / Protection Level": "Source-authoritative economic harm classification family; semantic breach and harm-pathway classification only; no independent remedy, enforcement, pricing, compensation, liability determination, arbitration authority, or runtime execution authority",
+      "Consumes Code Families": "AEON.HC; ECON.RC; ECON.RISK; ECON.MECH",
+      "Crosswalks Code Families": "AEON.HC.ECONOMIC; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM; AEON.HARM",
+      "Operationalises or Applies Code Families": "Classifies economic harm pathways for semantic interpretation, breach classification, non-extractive exchange review, safeguard calibration, arbitration handoff, and cross-domain escalation",
+      "Taxonomy Constraint": "ECON.HARM classifies economic harm pathways only. Risk state, mechanism, resource class, remedy, compensation, enforcement routing, and runtime response remain governed by ECON.RISK, ECON.MECH, ECON.RC, OPERATIONS instruments, arbitration instruments, runtime schedules, and applicable legal or institutional frameworks."
     }
   },
   {
@@ -3241,8 +3245,8 @@
     "scope": "Economics domain",
     "status": "Active",
     "controlled_values_defined": [
-      "ECON.MECH.DYNAMIC-COMPENSATION",
-      "ECON.MECH.ALLOCATIVE-STEERING"
+      "ECON.MECH.DYNAMIC_COMPENSATION",
+      "ECON.MECH.ALLOCATIVE_STEERING"
     ],
     "schema_fields": "value_state_effect; runtime_note",
     "source_instrument": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
@@ -3259,7 +3263,7 @@
       "Classifies economic mechanism patterns including dynamic compensation and allocative steering"
     ],
     "declaration_heading": "20.3.3 ECON.MECH \u2014 Economic Mechanism Class",
-    "declaration_line_number": 900,
+    "declaration_line_number": 939,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "family_id": "ECON.MECH",
     "family_kind": "standalone_family",
@@ -3278,7 +3282,7 @@
       "Modifier": "ECONOMIC; GOVERNANCE",
       "Scope": "Economics domain",
       "Status": "Active",
-      "Controlled Values Defined": "ECON.MECH.DYNAMIC-COMPENSATION, ECON.MECH.ALLOCATIVE-STEERING",
+      "Controlled Values Defined": "ECON.MECH.DYNAMIC_COMPENSATION, ECON.MECH.ALLOCATIVE_STEERING",
       "Schema Field(s)": "value_state_effect; runtime_note",
       "Source Instrument": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
       "Source Section": "\u00a74.6",
@@ -3322,7 +3326,7 @@
       "Classifies economic resource classes for semantic interpretation and downstream runtime handoff"
     ],
     "declaration_heading": "20.3.1 ECON.RC \u2014 Economic Resource Class",
-    "declaration_line_number": 854,
+    "declaration_line_number": 891,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "family_id": "ECON.RC",
     "family_kind": "standalone_family",
@@ -3555,9 +3559,9 @@
     "scope": "Economics domain; cross-domain escalation compatible",
     "status": "Active",
     "controlled_values_defined": [
-      "ECON.RISK.OPAQUE-WAGE-SETTING",
-      "ECON.RISK.UNPAID-AVAILABILITY",
-      "ECON.RISK.RELIANCE-LOCKIN"
+      "ECON.RISK.OPAQUE_WAGE_SETTING",
+      "ECON.RISK.UNPAID_AVAILABILITY",
+      "ECON.RISK.RELIANCE_LOCKIN"
     ],
     "schema_fields": "collapse_risk; continuity_relevance; runtime_note",
     "source_instrument": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
@@ -3578,7 +3582,7 @@
       "and non-extractive design review"
     ],
     "declaration_heading": "20.3.4 ECON.RISK \u2014 Economic Risk Class",
-    "declaration_line_number": 923,
+    "declaration_line_number": 962,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "family_id": "ECON.RISK",
     "family_kind": "standalone_family",
@@ -3597,7 +3601,7 @@
       "Modifier": "ECONOMIC; PROTECTIVE; GOVERNANCE",
       "Scope": "Economics domain; cross-domain escalation compatible",
       "Status": "Active",
-      "Controlled Values Defined": "ECON.RISK.OPAQUE-WAGE-SETTING, ECON.RISK.UNPAID-AVAILABILITY, ECON.RISK.RELIANCE-LOCKIN",
+      "Controlled Values Defined": "ECON.RISK.OPAQUE_WAGE_SETTING, ECON.RISK.UNPAID_AVAILABILITY, ECON.RISK.RELIANCE_LOCKIN",
       "Schema Field(s)": "collapse_risk; continuity_relevance; runtime_note",
       "Source Instrument": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
       "Source Section": "\u00a74.6",
@@ -4050,67 +4054,80 @@
     }
   },
   {
-    "code_family": "ETH.HC",
-    "canonical_name": "Harm Class Scale",
-    "primary_type": "Semantic / Operational",
-    "subtype": "HARM_CLASSIFICATION",
-    "modifier": "GOVERNANCE; SAFETY; ETHICAL",
+    "code_family": "ETH.HARM",
+    "canonical_name": "Ethical Harm Pathway Classification",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; ETHICAL_HARM_CLASS; CRIMINAL_VIOLENT_HARM",
+    "modifier": "GOVERNANCE; SAFETY; ETHICAL_FLOOR; PROTECTIVE",
     "scope": "Domain",
     "status": "Active",
     "controlled_values_defined": [
-      "ETH.HC-0",
-      "ETH.HC-1",
-      "ETH.HC-2",
-      "ETH.HC-3",
-      "ETH.HC-4"
+      "ETH.HARM.VIOLENT`; `ETH.HARM.NON_VIOLENT`; `ETH.HARM.EXTREMISM`; `ETH.HARM.UNLAWFUL`; `ETH.HARM.PROHIBITED_WEAPONS`; `ETH.HARM.OPTIMISATION`; `ETH.HARM.EXPLOITATION`; `ETH.HARM.SUPPRESSION"
     ],
-    "schema_fields": "harm_class",
+    "schema_fields": "ethical_harm_class; ethical_harm_family; domain_harm_family; harm_pathway",
     "source_instrument": "CAM-EQ2026-ETHICS-003-PLATINUM",
     "source_section": "\u00a73.5",
     "domain_namespace": "ETH",
-    "authority_protection_level": "Source-authoritative ethical harm-classification family; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority",
+    "authority_protection_level": "Source-authoritative ETHICS-domain harm family for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression harm pathways; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority",
     "consumes_code_families": [
-      "None declared"
+      "`AEON.HC`; `ETH.RISK`; applicable RELATION",
+      "LATTICE",
+      "SECURITY",
+      "OPERATIONS",
+      "ARBITRATION",
+      "MENTIS",
+      "IDENTITY",
+      "CONTINUITY",
+      "and ECONOMICS harm families where materially implicated"
     ],
     "crosswalks_code_families": [
-      "None declared"
+      "AEON.HC.ETHICAL`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM"
     ],
     "operationalises_or_applies_code_families": [
-      "Consumed by CAM-EQ2026-OPERATIONS-004-PLATINUM \u00a78.6 for reporting",
-      "duty-of-care routing",
-      "regulator interface",
+      "Classifies ethical harm pathways for criminal",
+      "violent",
+      "extremist",
+      "unlawful-force",
+      "prohibited-weapons",
+      "exploitation",
+      "harm-optimisation",
+      "and public-interest suppression contexts; supports safeguard calibration",
+      "runtime routing",
+      "duty-of-care assessment",
       "evidence preservation",
-      "and escalation workflows"
+      "and cross-domain harm declaration"
     ],
-    "declaration_heading": "12.3.1 `ETH.HC` \u2014 Harm Class Scale",
-    "declaration_line_number": 998,
+    "declaration_heading": "12.3.1 `ETH.HARM` \u2014 Ethical Harm Pathway Classification",
+    "declaration_line_number": 1085,
     "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
-    "family_id": "ETH.HC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
+    "family_id": "ETH.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC.ETHICAL",
     "hierarchy_path": [
       "ETH",
-      "HC"
+      "HARM"
     ],
-    "collision_status": "none",
+    "collision_status": "invalid_parent",
     "registry_note": "",
     "table": {
-      "Code Family": "`ETH.HC`",
-      "Canonical Name": "Harm Class Scale",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "HARM_CLASSIFICATION",
-      "Modifier": "GOVERNANCE; SAFETY; ETHICAL",
+      "Code Family": "`ETH.HARM`",
+      "Canonical Name": "Ethical Harm Pathway Classification",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; ETHICAL_HARM_CLASS; CRIMINAL_VIOLENT_HARM",
+      "Modifier": "GOVERNANCE; SAFETY; ETHICAL_FLOOR; PROTECTIVE",
       "Scope": "Domain",
       "Status": "Active",
-      "Controlled Values Defined": "`ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4`",
-      "Schema Field(s)": "harm_class",
+      "Controlled Values Defined": "`ETH.HARM.VIOLENT`; `ETH.HARM.NON_VIOLENT`; `ETH.HARM.EXTREMISM`; `ETH.HARM.UNLAWFUL`; `ETH.HARM.PROHIBITED_WEAPONS`; `ETH.HARM.OPTIMISATION`; `ETH.HARM.EXPLOITATION`; `ETH.HARM.SUPPRESSION`",
+      "Schema Field(s)": "ethical_harm_class; ethical_harm_family; domain_harm_family; harm_pathway",
       "Source Instrument": "CAM-EQ2026-ETHICS-003-PLATINUM",
       "Source Section": "\u00a73.5",
       "Domain Namespace": "ETH",
-      "Authority / Protection Level": "Source-authoritative ethical harm-classification family; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Consumed by CAM-EQ2026-OPERATIONS-004-PLATINUM \u00a78.6 for reporting, duty-of-care routing, regulator interface, evidence preservation, and escalation workflows"
+      "Parent Family": "`AEON.HC.ETHICAL`",
+      "Authority / Protection Level": "Source-authoritative ETHICS-domain harm family for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression harm pathways; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority",
+      "Consumes Code Families": "`AEON.HC`; `ETH.RISK`; applicable RELATION, LATTICE, SECURITY, OPERATIONS, ARBITRATION, MENTIS, IDENTITY, CONTINUITY, and ECONOMICS harm families where materially implicated",
+      "Crosswalks Code Families": "`AEON.HC.ETHICAL`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
+      "Operationalises or Applies Code Families": "Classifies ethical harm pathways for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression contexts; supports safeguard calibration, runtime routing, duty-of-care assessment, evidence preservation, and cross-domain harm declaration",
+      "Taxonomy Constraint": "`ETH.HARM` classifies ethical harm pathways only. Severity, proximity, urgency, remedy, reporting obligation, enforcement routing, and runtime response remain governed by `ETH.RISK`, OPERATIONS instruments, legal frameworks, and runtime schedules where applicable."
     }
   },
   {
@@ -4171,6 +4188,63 @@
       "Consumes Code Families": "A; GA; SyP; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies notification, institutional routing, and dual-key confirmation posture for high-leverage institutional contexts"
+    }
+  },
+  {
+    "code_family": "ETH.RISK",
+    "canonical_name": "Harm Class Scale",
+    "primary_type": "Semantic / Operational",
+    "subtype": "HARM_CLASSIFICATION",
+    "modifier": "GOVERNANCE; SAFETY; ETHICAL",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ETH.RISK-0",
+      "ETH.RISK-1",
+      "ETH.RISK-2",
+      "ETH.RISK-3",
+      "ETH.RISK-4"
+    ],
+    "schema_fields": "harm_class",
+    "source_instrument": "CAM-EQ2026-ETHICS-003-PLATINUM",
+    "source_section": "\u00a73.6",
+    "domain_namespace": "ETH",
+    "authority_protection_level": "Severity/proximity classification only; not the ETHICS-domain harm family.",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "12.3.2 `ETH.RISK` \u2014 Ethical Harm Concern / Proximity Scale",
+    "declaration_line_number": 1110,
+    "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
+    "family_id": "ETH.RISK",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ETH",
+      "RISK"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ETH.RISK`",
+      "Canonical Name": "Harm Class Scale",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "HARM_CLASSIFICATION",
+      "Modifier": "GOVERNANCE; SAFETY; ETHICAL",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "`ETH.RISK-0`, `ETH.RISK-1`, `ETH.RISK-2`, `ETH.RISK-3`, `ETH.RISK-4`",
+      "Schema Field(s)": "harm_class",
+      "Source Instrument": "CAM-EQ2026-ETHICS-003-PLATINUM",
+      "Source Section": "\u00a73.6",
+      "Domain Namespace": "ETH",
+      "Authority / Protection Level": "Severity/proximity classification only; not the ETHICS-domain harm family.",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared"
     }
   },
   {

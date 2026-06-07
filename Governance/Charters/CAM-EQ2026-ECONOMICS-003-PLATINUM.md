@@ -1004,7 +1004,7 @@ It is the witness of what must not be collapsed.
 | 2.0 | Refactor - Added canonical declaration entries for ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, and Economics semantic handoff schema fields; moved code-family and controlled-value declarations out of lineage metadata; expanded Annex D arbitration reference. | 2026-05-20T14:49:00Z |  4521f686fce58bc7a6cc916012773324a8aae1a6b6099b7869b04f25fe837afa |
 | 2.1 | Added section 18 | 2026-05-24T12:14:00Z |  31056a64bf5300dae262bff9a2e80b70a03f380d3ecd24cac3998cccb928e29e |
 | 2.2 | Added section 13.2.1 | 2026-05-25T12:34:00Z | 595d3395882bc99f765d29b91fe2de00675ac1c30c74eb81f86fa7a00b572e3b |
-| 2.3 | Expanded `ECON.HARM` as the source-authoritative Economics-domain harm pathway family recognised under `AEON.HC.ECONOMIC`; retained `ECON.RISK` as the economic risk-state family; clarified taxonomy separation between resource classes, harm pathways, mechanism classes, risk states, and semantic handoff fields. | 2026-06-07T15:45:00Z |  |
+| 2.3 | Expanded `ECON.HARM` as the source-authoritative Economics-domain harm pathway family recognised under `AEON.HC.ECONOMIC`; retained `ECON.RISK` as the economic risk-state family; clarified taxonomy separation between resource classes, harm pathways, mechanism classes, risk states, and semantic handoff fields. | 2026-06-07T15:45:00Z |  9a929ec9b8aa379631cc78f2a8aeabe1ac0b7d777b10304d4e03d778e44aa464  |
 
 ---
 
