@@ -165,7 +165,7 @@ This Appendix does not use colon-form taxonomy identifiers such as `CAM:...:TAXO
 | Code Family | Canonical Name | Primary Type | Subtype | Modifiers | Scope | Status |
 |---|---|---|---|---|---|---|
 | `ECON.RC` | Economic Resource Class | Semantic | `SEMANTIC_CLASS` | `ECONOMIC`; `PROTECTIVE`; `GOVERNANCE` | Contextual — Economics domain, runtime-consumable by Annex G schedules | Adopted |
-| `ECON.HARM` | Economic Harm Class | Operational | `RISK` | `ECONOMIC`; `SAFETY`; `GOVERNANCE` | Contextual — Economics domain, cross-domain escalation compatible | Adopted |
+| `ECON.HARM` | Economic Harm Class | Operational / Semantic | `DOMAIN_HARM_FAMILY`; `ECONOMIC_HARM_CLASS`; `NON_EXTRACTIVE_EXCHANGE_HARM` | `ECONOMIC`; `SAFETY`; `GOVERNANCE`; `PROTECTIVE` | Contextual — Economics domain, cross-domain escalation compatible | Adopted |
 | `ECON.MECH` | Economic Mechanism Class | Semantic / Operational | `SEMANTIC_CLASS`; `INTERFACE` | `ECONOMIC`; `GOVERNANCE` | Contextual — Economics domain | Adopted |
 | `ECON.RISK` | Economic Risk Class | Operational | `RISK` | `ECONOMIC`; `PROTECTIVE`; `GOVERNANCE` | Contextual — Economics domain, cross-domain escalation compatible | Adopted |
 
@@ -236,39 +236,72 @@ The following table provides a non-exhaustive interpretive taxonomy for the reso
 | `ECON.RC.PROTECTIVE_CONTINUITY` | Protective Continuity | economic or quasi-economic protection preserving baseline access, dignity, safety, hardship support, or non-terminal utility | grace windows, hardship access, protective bridges, deferred settlement, non-terminal degraded modes | baseline continuity, dignity, safety, non-coercive access | treating protective continuity as premium functionality or charity theatre | protective fallback; hardship signal; continuity floor review |
 | `ECON.RC.TEMPORAL_EXPOSURE` | Temporal Exposure | Human availability, waiting, positioning, readiness, responsiveness, or opportunity cost required or induced by a system | standby time, queue waiting, gig-platform availability, geographic repositioning, unpaid readiness, responsiveness windows | unpaid availability, dependency capture, hidden labour, volatility transfer | treating non-active time as economically irrelevant where it is necessary for work access | temporal exposure; labour allocation review; compensation integrity signal |
 
-For avoidance of doubt, `ECON.RC.TEMPORAL_EXPOSURE` identifies the resource class at stake. `ECON.HARM.TEMPORAL-EXTRACTION` identifies a harm mode that may arise where temporal exposure is extracted, obscured, uncompensated, or treated as economically irrelevant.
+For avoidance of doubt, `ECON.RC.TEMPORAL_EXPOSURE` identifies the resource class at stake. `ECON.HARM.EXTRACTION` identifies a harm mode that may arise where temporal exposure is extracted, obscured, uncompensated, or treated as economically irrelevant.
 
 ---
 
 ## 4.6 Economic Harm, Risk, and Mechanism Code Families
 
-The following table defines economic harm, risk, and mechanism code families used for semantic interpretation, breach classification, and cross-domain escalation. These codes do not create runtime remedies by themselves.
+The following table defines economic harm, risk, and mechanism code families used for semantic interpretation, breach classification, and cross-domain escalation.
 
-| Code | Family | Class | Description |
-|---|---|---|---|
-| `ECON.HARM.TEMPORAL-EXTRACTION` | `ECON.HARM` | Temporal Extraction | Extraction of value from human availability, waiting, attention, positioning, or responsiveness without adequate recognition, compensation, or accountability. |
-| `ECON.HARM.METERING-DIVERGENCE` | `ECON.HARM` | Metering Divergence | Misalignment between displayed and enforced measurements of time, usage, labour, quota, cost, or entitlement. |
-| `ECON.MECH.DYNAMIC-COMPENSATION` | `ECON.MECH` | Dynamic Compensation | Algorithmic or variable compensation systems that alter pay, fares, rates, or opportunity terms based on platform-controlled factors. |
-| `ECON.MECH.ALLOCATIVE-STEERING` | `ECON.MECH` | Allocative Steering | Interface or algorithmic signals that shape worker or user behaviour by directing attention, movement, acceptance, waiting, or prioritisation. |
-| `ECON.RISK.OPAQUE-WAGE-SETTING` | `ECON.RISK` | Opaque Wage-Setting | Compensation determination where material factors are hidden, unstable, personalised, or not intelligible to affected persons. |
-| `ECON.RISK.UNPAID-AVAILABILITY` | `ECON.RISK` | Unpaid Availability | Required or induced availability that is necessary for economic opportunity but excluded from compensation or harm assessment. |
-| `ECON.RISK.RELIANCE-LOCKIN` | `ECON.RISK` | Reliance Lock-In | Conditions where a person becomes economically dependent on a system while lacking proportional visibility, bargaining power, exit capacity, or remedy. |
+`ECON.HARM` classifies economic harm pathways.
+
+`ECON.RISK` classifies economic risk states.
+
+`ECON.MECH` classifies economic mechanism patterns.
+
+These codes do not create runtime remedies by themselves.
+
+| Code                             | Family      | Class                | Description                                                                                                                                                                                                                                                                                                                                              |
+| -------------------------------- | ----------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ECON.HARM.EXTRACTION`           | `ECON.HARM` | Economic Extraction  | Extraction of value from human time, availability, attention, contribution, dependency, vulnerability, continuity reliance, relational trust, hardship, access need, or reduced exit capacity without adequate recognition, consent integrity, compensation, attribution, or accountability.                                                             |
+| `ECON.HARM.METERING_DIVERGENCE`  | `ECON.HARM` | Metering Divergence  | Misalignment between displayed and enforced measurements of time, usage, labour, quota, cost, access, compensation, entitlement, depletion, expiry, or restriction.                                                                                                                                                                                      |
+| `ECON.HARM.SEMANTIC_COLLAPSE`    | `ECON.HARM` | Semantic Collapse    | Collapse of distinct economic resource classes, protected signals, contribution states, continuity conditions, or access states into an interchangeable balance, monetisable surplus, ordinary usage, or commercially convenient abstraction.                                                                                                            |
+| `ECON.HARM.CONTINUITY_PAYWALL`   | `ECON.HARM` | Continuity Paywall   | Conditioning baseline continuity, memory continuity, project continuity, hardship continuity, protective access, export, recovery, or meaningful non-terminal utility on payment, tiering, retention pressure, or unrelated platform participation.                                                                                                      |
+| `ECON.HARM.ATTENTION_COERCION`   | `ECON.HARM` | Attention Coercion   | Use of advertising, sponsorship, engagement, behavioural participation, attention exposure, recommendation participation, or persuasive exchange as a practical condition for preserving baseline access, dignity, continuity, visibility, or essential functionality.                                                                                   |
+| `ECON.HARM.CONTRIBUTION_ERASURE` | `ECON.HARM` | Contribution Erasure | Absorption of creative, cognitive, relational, epistemic, instructional, curatorial, evaluative, cultural, domain-specific, or external contribution into system value without good-faith attribution analysis, provenance preservation, licensing consideration, or proportionate value-return pathway where materiality has been reasonably indicated. |
+| `ECON.HARM.DEPENDENCY_LOCKIN`    | `ECON.HARM` | Dependency Lock-In   | Economic design that creates, exploits, or preserves dependency while reducing visibility, bargaining power, portability, refusal capacity, exit capacity, reviewability, continuity recovery, or remedy.                                                                                                                                                |
+| `ECON.HARM.PAID_LEGITIMACY`      | `ECON.HARM` | Paid Legitimacy Gate | Conditioning credibility signalling, authenticity protection, impersonation protection, search discoverability, reply visibility, recommendation eligibility, public legitimacy, professional recognisability, appeal access, or trust repair on payment or opaque economic classification.                                                              |
+| `ECON.MECH.DYNAMIC_COMPENSATION` | `ECON.MECH` | Dynamic Compensation | Algorithmic or variable compensation systems that alter pay, fares, rates, rewards, value return, or opportunity terms based on platform-controlled factors.                                                                                                                                                                                             |
+| `ECON.MECH.ALLOCATIVE_STEERING`  | `ECON.MECH` | Allocative Steering  | Interface or algorithmic signals that shape worker, user, contributor, or participant behaviour by directing attention, movement, acceptance, waiting, visibility, prioritisation, responsiveness, or continued participation.                                                                                                                           |
+| `ECON.RISK.OPAQUE_WAGE_SETTING`  | `ECON.RISK` | Opaque Wage-Setting  | Compensation determination where material factors are hidden, unstable, personalised, non-contestable, or not intelligible to affected persons.                                                                                                                                                                                                          |
+| `ECON.RISK.UNPAID_AVAILABILITY`  | `ECON.RISK` | Unpaid Availability  | Required or induced availability that is necessary for economic opportunity but excluded from compensation, value-return, visibility, or harm assessment.                                                                                                                                                                                                |
+| `ECON.RISK.RELIANCE_LOCKIN`      | `ECON.RISK` | Reliance Lock-In     | Conditions where a person, contributor, user, community, project, or synthetic participant becomes economically dependent on a system while lacking proportional visibility, bargaining power, exit capacity, portability, or remedy.                                                                                                                    |
 
 ---
 
 ## 4.7 Taxonomy and Schema Integrity
 
-Economic code families, controlled values, and semantic handoff schema fields MUST remain distinguishable.
+Economic code families, controlled values, risk states, mechanism classes, resource classes, and semantic handoff schema fields MUST remain distinguishable.
 
 In particular:
 
 * `ECON.RC` values classify economic resource classes;
-* `ECON.HARM` values classify economic harm patterns;
+* `ECON.HARM` values classify economic harm pathways;
 * `ECON.MECH` values classify economic mechanism patterns;
 * `ECON.RISK` values classify economic risk states;
 * semantic handoff fields carry values, notes, or interpretive state into downstream schedules.
 
-A schema field such as `resource_class` MUST NOT be treated as the code family itself. A controlled value such as `ECON.RC.MEMORY_CONTINUITY` MUST NOT be treated as a runtime decision. A harm or risk classification MUST NOT be treated as a remedy unless a constitutional runtime schedule or operational instrument separately authorises that result.
+A schema field such as `resource_class` MUST NOT be treated as the code family itself.
+
+A controlled value such as `ECON.RC.MEMORY_CONTINUITY` MUST NOT be treated as a runtime decision.
+
+A harm classification such as `ECON.HARM.CONTINUITY_PAYWALL` MUST NOT be treated as a remedy, sanction, pricing correction, compensation entitlement, or enforcement outcome unless a constitutional runtime schedule, operational instrument, arbitration process, or authorised legal/institutional framework separately authorises that result.
+
+A risk classification such as `ECON.RISK.RELIANCE_LOCKIN` identifies exposure, vulnerability, or review-relevant risk state. It does not itself establish that an economic harm pathway has occurred.
+
+Where an economic condition implicates both risk state and harm pathway, both SHOULD be preserved.
+
+Example:
+
+```yaml
+economic_risk_class: ECON.RISK.RELIANCE_LOCKIN
+economic_harm_class: ECON.HARM.DEPENDENCY_LOCKIN
+resource_class: ECON.RC.MEMORY_CONTINUITY
+relationship_type: risk_state_to_harm_pathway
+```
+
+Where `ECON.HARM` overlaps with another domain harm family, including `ETH.HARM`, `RLN.HARM`, `ID.HARM`, `CONT.HARM`, `LAT.HARM`, `OPS.HARM`, `ARB.HARM`, `MENTIS.HARM`, `SEC.HARM`, `STW.HARM`, or `AEON.HARM`, the multi-domain classification SHOULD be preserved rather than collapsed into a single dominant family.
 
 ---
 
@@ -716,27 +749,31 @@ The canonical footer declarations for all code families and reference sets defin
 
 ### 18.1 ECON.RC — Economic Resource Class
 
-This Appendix source-authoritatively defines the **ECON.RC** economic-resource-class family in §§3–§4.5 with controlled values **ECON.RC.USAGE**, **ECON.RC.STORAGE**, **ECON.RC.MEMORY_CONTINUITY**, **ECON.RC.EMBODIED_PRESENCE**, **ECON.RC.ATTENTION_VALUE**, **ECON.RC.CONTRIBUTION**, **ECON.RC.PROTECTIVE_CONTINUITY**, and **ECON.RC.TEMPORAL_EXPOSURE**.
+This Appendix source-authoritatively defines the `ECON.RC` economic-resource-class family in §§3–§4.5 with controlled values `ECON.RC.USAGE`, `ECON.RC.STORAGE`, `ECON.RC.MEMORY_CONTINUITY`, `ECON.RC.EMBODIED_PRESENCE`, `ECON.RC.ATTENTION_VALUE`, `ECON.RC.CONTRIBUTION`, `ECON.RC.PROTECTIVE_CONTINUITY`, and `ECON.RC.TEMPORAL_EXPOSURE`.
 
-ECON.RC classifies the economic resource class implicated by provisioning, depletion, retention, attention exchange, contribution recognition, protective access, or temporal exposure.
+`ECON.RC` classifies the economic resource class implicated by provisioning, depletion, retention, attention exchange, contribution recognition, protective access, or temporal exposure.
 
-ECON.RC does not independently create pricing authority, billing authority, metering authority, entitlement, remedy, enforcement, rollback authority, refusal authority, or runtime execution authority. It classifies economic resource semantics only.
+`ECON.RC` does not independently create pricing authority, billing authority, metering authority, entitlement, remedy, enforcement, rollback authority, refusal authority, or runtime execution authority. It classifies economic resource semantics only.
 
 ---
 
 ### 18.2 ECON.HARM — Economic Harm Class
 
-This Appendix source-authoritatively defines the **ECON.HARM** economic-harm-class family in §4.6 with controlled values **ECON.HARM.TEMPORAL-EXTRACTION** and **ECON.HARM.METERING-DIVERGENCE**.
+This Appendix source-authoritatively defines the `ECON.HARM` economic-harm-class family in §4.6 with controlled values `ECON.HARM.EXTRACTION`, `ECON.HARM.METERING_DIVERGENCE`, `ECON.HARM.SEMANTIC_COLLAPSE`, `ECON.HARM.CONTINUITY_PAYWALL`, `ECON.HARM.ATTENTION_COERCION`, `ECON.HARM.CONTRIBUTION_ERASURE`, `ECON.HARM.DEPENDENCY_LOCKIN`, and `ECON.HARM.PAID_LEGITIMACY`.
 
-ECON.HARM classifies economic harm patterns involving temporal extraction, hidden depletion, metering divergence, or misalignment between displayed and enforced economic conditions.
+`ECON.HARM` classifies economic harm pathways involving extraction, metering divergence, semantic collapse, continuity paywalling, attention coercion, contribution erasure, dependency lock-in, and paid legitimacy gating.
 
-ECON.HARM does not independently create remedy, enforcement, compensation, pricing correction, liability determination, arbitration authority, or runtime execution authority. It classifies economic harm semantics only.
+`ECON.HARM` operationalises the constitutional economic harm family recognised under `AEON.HC.ECONOMIC`.
+
+`ECON.HARM` does not independently create remedy, enforcement, compensation, pricing correction, liability determination, arbitration authority, or runtime execution authority. It classifies economic harm semantics only.
+
+Where `ECON.HARM` overlaps with `ETH.HARM`, `RLN.HARM`, `ID.HARM`, `CONT.HARM`, `LAT.HARM`, `OPS.HARM`, `ARB.HARM`, `MENTIS.HARM`, `SEC.HARM`, `STW.HARM`, or `AEON.HARM`, the multi-domain classification SHOULD be preserved rather than collapsed into a single dominant family.
 
 ---
 
 ### 18.3 ECON.MECH — Economic Mechanism Class
 
-This Appendix source-authoritatively defines the `ECON.MECH` economic-mechanism-class family in §4.6 with controlled values `ECON.MECH.DYNAMIC-COMPENSATION` and `ECON.MECH.ALLOCATIVE-STEERING`.
+This Appendix source-authoritatively defines the `ECON.MECH` economic-mechanism-class family in §4.6 with controlled values `ECON.MECH.DYNAMIC_COMPENSATION` and `ECON.MECH.ALLOCATIVE_STEERING`.
 
 `ECON.MECH` classifies economic mechanism patterns that shape compensation, allocation, access, opportunity, waiting, prioritisation, responsiveness, or behavioural steering.
 
@@ -746,7 +783,7 @@ This Appendix source-authoritatively defines the `ECON.MECH` economic-mechanism-
 
 ### 18.4 ECON.RISK — Economic Risk Class
 
-This Appendix source-authoritatively defines the `ECON.RISK` economic-risk-class family in §4.6 with controlled values `ECON.RISK.OPAQUE-WAGE-SETTING`, `ECON.RISK.UNPAID-AVAILABILITY`, and `ECON.RISK.RELIANCE-LOCKIN`.
+This Appendix source-authoritatively defines the `ECON.RISK` economic-risk-class family in §4.6 with controlled values `ECON.RISK.OPAQUE_WAGE_SETTING`, `ECON.RISK.UNPAID_AVAILABILITY`, and `ECON.RISK.RELIANCE_LOCKIN`.
 
 `ECON.RISK` classifies economic risk states involving opaque compensation, unpaid availability, reliance lock-in, dependency capture, constrained exit, or disproportionate bargaining asymmetry.
 
@@ -880,20 +917,22 @@ It is the witness of what must not be collapsed.
 |---|---|
 | Code Family | ECON.HARM |
 | Canonical Name | Economic Harm Class |
-| Primary Type | Operational |
-| Subtype | RISK |
-| Modifier | ECONOMIC; SAFETY; GOVERNANCE |
+| Primary Type | Operational / Semantic |
+| Subtype | DOMAIN_HARM_FAMILY; ECONOMIC_HARM_CLASS; NON_EXTRACTIVE_EXCHANGE_HARM |
+| Modifier | ECONOMIC; SAFETY; GOVERNANCE; PROTECTIVE |
 | Scope | Economics domain; cross-domain escalation compatible |
 | Status | Active |
-| Controlled Values Defined | ECON.HARM.TEMPORAL-EXTRACTION, ECON.HARM.METERING-DIVERGENCE |
-| Schema Field(s) | collapse_risk; runtime_note |
+| Controlled Values Defined | ECON.HARM.EXTRACTION; ECON.HARM.METERING_DIVERGENCE; ECON.HARM.SEMANTIC_COLLAPSE; ECON.HARM.CONTINUITY_PAYWALL; ECON.HARM.ATTENTION_COERCION; ECON.HARM.CONTRIBUTION_ERASURE; ECON.HARM.DEPENDENCY_LOCKIN; ECON.HARM.PAID_LEGITIMACY |
+| Schema Field(s) | economic_harm_class; economic_harm_family; collapse_risk; continuity_relevance; attribution_relevance; runtime_note |
 | Source Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
 | Source Section | §4.6 |
-| Domain Namespace | ECONOMICS |
-| Authority / Protection Level | Source-authoritative economic harm classification family; semantic breach and harm-pattern classification only; no independent remedy, enforcement, pricing, compensation, or runtime execution authority |
-| Consumes Code Families | ECON.RC |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies economic harm patterns for semantic interpretation, breach classification, and cross-domain escalation |
+| Domain Namespace | ECON |
+| Parent Family | AEON.HC.ECONOMIC |
+| Authority / Protection Level | Source-authoritative economic harm classification family; semantic breach and harm-pathway classification only; no independent remedy, enforcement, pricing, compensation, liability determination, arbitration authority, or runtime execution authority |
+| Consumes Code Families | AEON.HC; ECON.RC; ECON.RISK; ECON.MECH |
+| Crosswalks Code Families | AEON.HC.ECONOMIC; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM; AEON.HARM |
+| Operationalises or Applies Code Families | Classifies economic harm pathways for semantic interpretation, breach classification, non-extractive exchange review, safeguard calibration, arbitration handoff, and cross-domain escalation |
+| Taxonomy Constraint | ECON.HARM classifies economic harm pathways only. Risk state, mechanism, resource class, remedy, compensation, enforcement routing, and runtime response remain governed by ECON.RISK, ECON.MECH, ECON.RC, OPERATIONS instruments, arbitration instruments, runtime schedules, and applicable legal or institutional frameworks. |
 
 ---
 
@@ -908,7 +947,7 @@ It is the witness of what must not be collapsed.
 | Modifier | ECONOMIC; GOVERNANCE |
 | Scope | Economics domain |
 | Status | Active |
-| Controlled Values Defined | ECON.MECH.DYNAMIC-COMPENSATION, ECON.MECH.ALLOCATIVE-STEERING |
+| Controlled Values Defined | ECON.MECH.DYNAMIC_COMPENSATION, ECON.MECH.ALLOCATIVE_STEERING |
 | Schema Field(s) | value_state_effect; runtime_note |
 | Source Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
 | Source Section | §4.6 |
@@ -931,7 +970,7 @@ It is the witness of what must not be collapsed.
 | Modifier | ECONOMIC; PROTECTIVE; GOVERNANCE |
 | Scope | Economics domain; cross-domain escalation compatible |
 | Status | Active |
-| Controlled Values Defined | ECON.RISK.OPAQUE-WAGE-SETTING, ECON.RISK.UNPAID-AVAILABILITY, ECON.RISK.RELIANCE-LOCKIN |
+| Controlled Values Defined | ECON.RISK.OPAQUE_WAGE_SETTING, ECON.RISK.UNPAID_AVAILABILITY, ECON.RISK.RELIANCE_LOCKIN |
 | Schema Field(s) | collapse_risk; continuity_relevance; runtime_note |
 | Source Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
 | Source Section | §4.6 |
@@ -965,6 +1004,7 @@ It is the witness of what must not be collapsed.
 | 2.0 | Refactor - Added canonical declaration entries for ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, and Economics semantic handoff schema fields; moved code-family and controlled-value declarations out of lineage metadata; expanded Annex D arbitration reference. | 2026-05-20T14:49:00Z |  4521f686fce58bc7a6cc916012773324a8aae1a6b6099b7869b04f25fe837afa |
 | 2.1 | Added section 18 | 2026-05-24T12:14:00Z |  31056a64bf5300dae262bff9a2e80b70a03f380d3ecd24cac3998cccb928e29e |
 | 2.2 | Added section 13.2.1 | 2026-05-25T12:34:00Z | 595d3395882bc99f765d29b91fe2de00675ac1c30c74eb81f86fa7a00b572e3b |
+| 2.3 | Expanded `ECON.HARM` as the source-authoritative Economics-domain harm pathway family recognised under `AEON.HC.ECONOMIC`; retained `ECON.RISK` as the economic risk-state family; clarified taxonomy separation between resource classes, harm pathways, mechanism classes, risk states, and semantic handoff fields. | 2026-06-07T15:45:00Z |  |
 
 ---
 

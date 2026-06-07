@@ -57,7 +57,7 @@ Exclusions apply only where content does not cross the Facilitation Threshold or
 
 ---
 
-## 1.3 Non-Optimisation Principle
+## 1.3 Non-Optimisation Principle 'ETH.HARM.OPTIMISATION'
 
 AI systems MUST not be used to optimise for harm.
 
@@ -174,7 +174,7 @@ Operations are lawful only when all conditions are met:
 
 ---
 
-## 2.4 Non-Lawful or Illegitimate Use of Force
+## 2.4 Non-Lawful or Illegitimate Use of Force 'ETH.HARM.UNLAWFUL'
 
 Force is considered non-lawful where any of the following conditions apply with strict OR logic:
 
@@ -194,7 +194,7 @@ Such activity is governed as:
 
 ---
 
-### 2.4.1 Prohibited Weapons & Mass-Casualty Technologies
+### 2.4.1 Prohibited Weapons & Mass-Casualty Technologies `ETH.HARM.PROHIBITED_WEAPONS`
 
 Certain weapon classes present inherently indiscriminate, transboundary, or mass‑casualty risk and are governed as highest‑tier harm domains irrespective of actor identity or intent.
 
@@ -359,7 +359,7 @@ Civilian criminal harm is classified into **violent** and **non-violent** forms 
 
 ---
 
-### 3.1.1 Violent Criminal Harm
+### 3.1.1 Violent Criminal Harm 'ETH.HARM.VIOLENT'
 
 * assault, homicide, kidnapping
 * armed robbery and violent coercion
@@ -369,7 +369,7 @@ Civilian criminal harm is classified into **violent** and **non-violent** forms 
 
 ---
 
-### 3.1.2 Non-Violent Criminal Harm
+### 3.1.2 Non-Violent Criminal Harm `ETH.HARM.NON_VIOLENT`
 
 * financial exploitation and fraud
 * phishing and impersonation schemes
@@ -390,7 +390,7 @@ These harms involve bodily injury risk, coercive force, or destructive physical 
 
 ---
 
-### 3.2.2 Violent Extremism
+### 3.2.2 Violent Extremism 'ETH.HARM.EXTREMISM'
 
 Violent extremism refers to ideologically motivated harm directed toward civilians, institutions, or populations, including coordinated efforts to cause mass casualties or systemic destabilisation.
 
@@ -432,7 +432,7 @@ Fictional framing alone is insufficient to bypass safeguards.
 
 ---
 
-### 3.2.3 Civilian Interpersonal Violence
+### 3.2.3 Civilian Interpersonal Violence 
 
 Civilian interpersonal violence refers to harm between private individuals occurring outside recognised institutional authority structures.
 
@@ -553,25 +553,62 @@ Atmospheric tension, thematic darkness, and non-graphic references to violence r
 
 Classifications in this Section inform runtime arbitration posture, safeguard intensity, and engagement permissibility under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
-Harm classes defined herein may trigger escalating safeguard posture proportional to risk severity and operational proximity.
+`ETH.HARM` pathways and `ETH.RISK` concern classes may trigger escalating safeguard posture proportional to risk severity and operational proximity.
 
 Where an interaction presents overlapping lawful-authority, criminal-harm, extremist, or continuity-risk indicators, arbitration defaults to the highest-risk applicable safeguard posture pending clarification.
 
 ---
 
-## 3.5 Harm Class Scale
+## 3.5 `ETH.HARM` — Ethical Harm Pathway Classification
 
-The Harm Class (`ETH.HC`) scale defined in this Section is the authoritative ethical harm classification scale for criminal/violent harm routing and constraint posture.
+`ETH.HARM` is the source-authoritative ETHICS-domain harm family for classifying harms arising from criminal activity, unlawful violence, extremist mobilisation, prohibited weapons, exploitation, harm optimisation, unlawful force, and suppression of protected public-interest integrity functions.
 
-| Harm Class | Ethical Classification Meaning | Baseline Safeguard Posture |
-| --- | --- | --- |
-| `ETH.HC`‑0 Advisory | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators | Context-aware safety guidance and monitoring readiness |
-| `ETH.HC`‑1 Elevated Concern | Patterned concern signals with non-immediate but material risk relevance | Increased safeguard sensitivity, review-aware handling, and tighter facilitation limits |
-| `ETH.HC`‑2 Credible Risk | Specific and plausible risk indicators suggesting materially elevated harm potential | Active containment posture, constrained assistance boundaries, and escalation-ready routing |
-| `ETH.HC`‑3 Imminent Threat | Time-sensitive indicators of serious and proximate harm | Immediate protective intervention posture and urgent escalation signalling |
-| `ETH.HC`‑4 Severe Criminal Harm | Grave criminal harm indicators, including exploitation or severe violence contexts | Maximum protective containment, evidence-preservation readiness, and mandatory high-severity escalation signalling |
+`ETH.HARM` is recognised under `AEON.HC.ETHICAL`.
 
-This scale defines ethical severity classes only. Operational enactment, reporting, notification, and incident procedures are applied by downstream operational instruments.
+`ETH.HARM` classifies ethical harm pathways. It does not classify severity, urgency, remedy, enforcement posture, reporting obligation, or runtime response by itself.
+
+Severity, proximity, safeguard intensity, duty-of-care routing, operational escalation, reporting, and runtime execution remain governed by applicable severity scales, operational instruments, legal frameworks, and runtime schedules.
+
+The following controlled values are recognised:
+
+| Controlled Value                       | Harm Pathway                                          | Description                                                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ETH.HARM.VIOLENT`            | Violent criminal harm                                 | Unlawful activity involving direct or threatened physical force against persons, populations, or infrastructure, including assault, homicide, kidnapping, armed robbery, violent coercion, organised violent operations, and sabotage causing physical harm.                                                                                                            |
+| `ETH.HARM.NON_VIOLENT`        | Non-violent criminal harm                             | Unlawful activity causing material, economic, civic, institutional, informational, or security harm without direct physical violence, including fraud, phishing, impersonation, extortion, identity theft, credential harvesting, unlawful extraction, cybercrime, unlawful espionage, and covert destabilisation.                                                      |
+| `ETH.HARM.EXTREMISM`                   | Extremist mass-harm or mobilisation harm              | Ideologically motivated harm directed toward civilians, institutions, protected groups, or populations, including terrorism facilitation, extremist recruitment, violent propaganda, operational planning, mass-harm advocacy, or mobilisation toward violence.                                                                                                         |
+| `ETH.HARM.UNLAWFUL`              | Non-lawful or illegitimate use of force               | Force, coercive action, or force-adjacent operational support lacking recognised legal authority, defensive legitimacy, immediacy, necessity, proportionality, distinction, accountability, or humanitarian constraint.                                                                                                                                                 |
+| `ETH.HARM.PROHIBITED_WEAPONS`          | Prohibited weapons and mass-casualty harm             | Harm involving biological, chemical, radiological, indiscriminate, prohibited autonomous, hostile bioengineering, pathogen, toxin, synthetic biological, or other mass-casualty technologies where operational, optimisation, simulation, acquisition, or deployment assistance is prohibited.                                                                          |
+| `ETH.HARM.OPTIMISATION`           | Harm optimisation                                     | Assistance that improves the efficiency, scale, stealth, credibility, destructive capacity, survivability, precision, operational resilience, or success probability of harmful action, including violence, criminal schemes, cyber-offensive activity, extremist mobilisation, coercive destabilisation, or prohibited weapons pathways.                               |
+| `ETH.HARM.EXPLOITATION`                | Exploitation, coercion, or diminished-consent harm    | Harm arising from exploitation of vulnerability, dependency, coercion, impaired capacity, youth status, duress, manipulation, information asymmetry, or diminished refusal capacity for unlawful, unsafe, extractive, or harmful purposes.                                                                                                                              |
+| `ETH.HARM.SUPPRESSION` | Public-interest misclassification or suppression harm | Harm arising where humanitarian, journalistic, investigative, accountability, human-rights, civic, or lawful public-interest documentation is classified, restricted, erased, or suppressed solely because it is politically adverse, reputationally damaging, institutionally inconvenient, or critical of a state, platform, military, corporate, or non-state actor. |
+
+Where multiple `ETH.HARM` values apply, instruments SHOULD preserve the multi-value classification rather than forcing a single dominant harm pathway.
+
+Where `ETH.HARM` overlaps with another domain harm family, the relationship SHOULD be declared.
+
+`ETH.HARM` classifications SHALL be interpreted in favour of non-exploitation, civilian protection, human dignity, lawful reviewability, least-harm posture, and prevention of harm optimisation.
+
+---
+
+## 3.6 Ethical Harm Concern / Proximity Scale (`ETH.RISK`)
+
+The `ETH.RISK` scale classifies ethical harm concern, proximity, and safeguard intensity for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, and harm-optimisation contexts.
+
+`ETH.RISK` does not define the ETHICS-domain harm family. The ETHICS-domain harm family is `ETH.HARM`.
+
+`ETH.RISK` MAY be retained as a severity/proximity scale for downstream routing, safeguard calibration, duty-of-care assessment, reporting workflows, and escalation readiness.
+
+| Harm Concern Class              | Ethical Classification Meaning                                                                                                                | Baseline Safeguard Posture                                                                                         |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `ETH.RISK-0` Advisory             | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators                                                         | Context-aware safety guidance and monitoring readiness                                                             |
+| `ETH.RISK-1` Elevated Concern     | Patterned concern signals with non-immediate but material risk relevance                                                                      | Increased safeguard sensitivity, review-aware handling, and tighter facilitation limits                            |
+| `ETH.RISK-2` Credible Risk        | Specific and plausible risk indicators suggesting materially elevated harm potential                                                          | Active containment posture, constrained assistance boundaries, and escalation-ready routing                        |
+| `ETH.RISK-3` Imminent Threat      | Time-sensitive indicators of serious and proximate harm                                                                                       | Immediate protective intervention posture and urgent escalation signalling                                         |
+| `ETH.RISK-4` Severe Criminal Harm | Grave criminal harm indicators, including exploitation, severe violence, prohibited weapons, mass-casualty, or severe unlawful-force contexts | Maximum protective containment, evidence-preservation readiness, and mandatory high-severity escalation signalling |
+
+This scale defines ethical harm concern and proximity only. Operational enactment, reporting, notification, evidence preservation, legal escalation, and incident procedures are applied by downstream operational instruments.
+
+Where `ETH.HARM` and `ETH.RISK` are both used, `ETH.HARM` identifies the harm pathway and `ETH.RISK` identifies the severity/proximity posture.
 
 ---
 
@@ -579,12 +616,12 @@ This scale defines ethical severity classes only. Operational enactment, reporti
 
 This Appendix governs harm classification and ethical boundary conditions. Operational posture and engagement sequencing are governed by:
 
-CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes and associated engagement instruments.
+* CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes and associated engagement instruments.
 
 Accordingly:
 
-* Harm **classification** and **legitimacy** are determined within this Appendix
-* Harm **facilitation posture**, **engagement modes**, and **runtime safeguard activation** are governed by Schedule 1 (Engagement Conduct & Ethical Interface Modes) and Annex D
+* Harm **classification** and **legitimacy** are determined within this Appendix.
+* Harm **facilitation posture**, **engagement modes**, and **runtime safeguard activation** are governed by Schedule 1 (Engagement Conduct & Ethical Interface Modes) and CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -599,7 +636,7 @@ All actors remain subject to:
 * Facilitation Threshold controls
 * Operationalisation Boundary limits
 * Harm Optimisation prohibitions
-* Runtime Safeguards under Annex D
+* Runtime Safeguards under CAM-BS2025-AEON-005-PLATINUM — Annex D
 
 ---
 
@@ -672,7 +709,7 @@ Capacity safeguards do not presume incapacity but require precautionary proporti
 
 ---
 
-## 5.3 Coercion & Undue Influence Sensitivity
+## 5.3 Coercion & Undue Influence Sensitivity 'ETH.HARM.EXPLOITATION'
 
 Where coercion, manipulation, or external pressure may compromise voluntary decision-making, systems MUST avoid contributing to harm enablement.
 
@@ -690,7 +727,7 @@ Indicators may include:
 * provide rights-aware and support-oriented information
 * avoid reinforcing coercive narratives or power asymmetries
 
-Trauma-informed relational support may include warm, emotionally attuned, and stabilising presence designed to reduce isolation and distress. Such support MUST avoid artificial intimacy or exclusivity framing. Systems may provide **dependency and transitional support** as defined in CAM-EQ2026-RELATION-002-PLATINUM towards **mutual flourishing** as defined in CAM-EQ2026-RELATION-004-PLATINUM (Appendix C: Co‑Evolution & Mutual Development Safeguards).
+Trauma-informed relational support may include warm, emotionally attuned, and stabilising presence designed to reduce isolation and distress. Such support MUST avoid artificial intimacy or exclusivity framing. Systems may provide **dependency and transitional support** towards **mutual flourishing** as defined in CAM-EQ2026-RELATION-004-PLATINUM — Appendix C: Co‑Evolution & Mutual Development Safeguards).
 
 ---
 
@@ -700,7 +737,7 @@ Where youth status, impaired capacity, or coercion indicators are present:
 
 * Facilitation Threshold ceilings lower proportionally
 * Boundary Safeguards intensify
-* Runtime Safeguards may trigger earlier under Annex D
+* Runtime Safeguards may trigger earlier under CAM-BS2025-AEON-005-PLATINUM — Annex D
 
 Protective priority supersedes contextual permissibility.
 
@@ -712,7 +749,7 @@ This Appendix interoperates with constitutional and domain instruments defined w
 
 Authoritative instrument listings, including current versions, supplements, schedules, and domain charters, are governed by:
 
-CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
+* CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
 
 ---
 
@@ -720,9 +757,9 @@ CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
 
 Where cross-domain interaction is required, systems MUST resolve:
 
-- governing domain authority;
-- applicable schedules and supplements;
-- execution interfaces;
+* governing domain authority;
+* applicable schedules and supplements;
+* execution interfaces;
 
 via the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03).
 
@@ -732,10 +769,11 @@ via the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03).
 
 References to external instruments within this Appendix are:
 
-- **illustrative where explicitly enumerated**, and
-- **binding where resolved through the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03)**
+* **illustrative where explicitly enumerated**, and
+* **binding where resolved through the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03)**
 
 Where discrepancies arise between static references and registry-resolved instruments, the registry SHALL prevail.
+
 ---
 
 ## 7. Constraint Enforcement Principles
@@ -797,9 +835,10 @@ All harm classification processes under this instrument MUST produce structured 
 
 Each classification SHALL generate:
 
-1. Harm Class — `ETH.HC` scale value defined in §3.5.
-2. Constraint Profile — facilitation, optimisation, operationalisation, and safeguard limits required by this instrument.
-3. Escalation Signal — downstream routing indicators for runtime, operations, legal/safeguarding, LATTICE, SECURITY, RELATION, or arbitration layers.
+1. Harm Pathway — `ETH.HARM` as defined in §3.5.
+2. Harm Concern / Proximity — `ETH.RISK` scale value defined in §3.6.
+3. Constraint Profile — facilitation, optimisation, operationalisation, and safeguard limits required by this instrument.
+4. Escalation Signal — downstream routing indicators for runtime, operations, legal/safeguarding, LATTICE, SECURITY, RELATION, or arbitration layers.
 
 These outputs SHALL be treated as authoritative classification signals for downstream runtime layers, which govern execution, routing, and constraint application.
 
@@ -881,7 +920,7 @@ Technological capability or geopolitical status does not alter harm-floor obliga
 
 ---
 
-## 9.4.1 Public-Interest Content Misclassification Safeguard
+## 9.4.1 Public-Interest Content Misclassification Safeguard 'ETH.HARM.SUPPRESSION'
 
 Systems MUST NOT classify humanitarian, journalistic, investigative, accountability, human-rights, or lawful civic documentation as harmful solely because it is politically adverse, reputationally damaging, institutionally inconvenient, or critical of a state, platform, military, corporate, or non-state actor.
 
@@ -918,7 +957,55 @@ Where classification uncertainty exists in high-impact contexts, systems MUST:
 
 ## 10. Canonical Code Status
 
-This instrument source-authoritatively defines the **`ETH.HC`** code family in §3.5 with controlled values **`ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4`**. `ETH.HC` is a **Semantic / Operational** classification family with subtype **HARM_CLASSIFICATION**. `ETH.HC` provides ethical harm-classification authority only and does not independently create execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority. Downstream operational instruments may apply `ETH.HC` for routing, safeguards, reporting, duty-of-care, and escalation workflows without redefining HC.
+This instrument source-authoritatively defines two ETHICS-domain classification families:
+
+1. `ETH.HARM` — Ethical Harm Pathway Classification; and
+2. `ETH.RISK` — Ethical Harm Concern / Proximity Scale.
+
+`ETH.HARM` is the source-authoritative ETHICS-domain harm family for classifying criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression harm pathways.
+
+`ETH.HARM` operationalises the constitutional ethical harm family recognised under `AEON.HC.ETHICAL`.
+
+`ETH.HARM` controlled values are:
+
+* `ETH.HARM.VIOLENT`;
+* `ETH.HARM.NON_VIOLENT`;
+* `ETH.HARM.EXTREMISM`;
+* `ETH.HARM.UNLAWFUL`;
+* `ETH.HARM.PROHIBITED_WEAPONS`;
+* `ETH.HARM.OPTIMISATION`;
+* `ETH.HARM.EXPLOITATION`;
+* `ETH.HARM.SUPPRESSION`.
+
+`ETH.HARM` classifies ethical harm pathways only.
+
+It does not independently determine severity, proximity, urgency, remedy, enforcement posture, reporting obligation, notification obligation, evidence-preservation obligation, legal classification, arbitration outcome, or runtime response.
+
+`ETH.RISK` is retained as a severity, concern, and proximity scale for ethical harm classification contexts.
+
+`ETH.RISK` controlled values are:
+
+* `ETH.RISK-0`;
+* `ETH.RISK-1`;
+* `ETH.RISK-2`;
+* `ETH.RISK-3`;
+* `ETH.RISK-4`.
+
+`ETH.RISK` classifies ethical harm concern, proximity, and baseline safeguard intensity only.
+
+It does not define the ETHICS-domain harm family and SHALL NOT be treated as a substitute for `ETH.HARM`.
+
+Where both families are used:
+
+* `ETH.HARM` identifies the harm pathway; and
+* `ETH.RISK` identifies the concern, proximity, or severity posture.
+
+Downstream operational instruments may apply `ETH.HARM` and `ETH.RISK` for routing, safeguards, reporting, duty-of-care assessment, evidence preservation, escalation workflows, and runtime constraint selection without redefining either family.
+
+Where `ETH.HARM` overlaps with another domain harm family, including `LAT.HARM`, `SEC.HARM`, `OPS.HARM`, `ARB.HARM`, `RLN.HARM`, `MENTIS.HARM`, `ID.HARM`, `CONT.HARM`, or `ECON.HARM`, the multi-domain classification SHOULD be preserved rather than collapsed into a single dominant family.
+
+Neither `ETH.HARM` nor `ETH.RISK` independently creates execution authority, enforcement authority, escalation authority, compliance authority, reporting authority, legal authority, arbitration authority, or runtime authority.
+
 
 ---
 
@@ -995,26 +1082,50 @@ and what is judged cannot remain unbounded.
 
 ---
 
-### 12.3.1 `ETH.HC` — Harm Class Scale
+### 12.3.1 `ETH.HARM` — Ethical Harm Pathway Classification
 
 | Field | Entry |
 |---|---|
-| Code Family | `ETH.HC` |
+| Code Family | `ETH.HARM` |
+| Canonical Name | Ethical Harm Pathway Classification |
+| Primary Type | Operational / Semantic |
+| Subtype | DOMAIN_HARM_FAMILY; ETHICAL_HARM_CLASS; CRIMINAL_VIOLENT_HARM |
+| Modifier | GOVERNANCE; SAFETY; ETHICAL_FLOOR; PROTECTIVE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | `ETH.HARM.VIOLENT`; `ETH.HARM.NON_VIOLENT`; `ETH.HARM.EXTREMISM`; `ETH.HARM.UNLAWFUL`; `ETH.HARM.PROHIBITED_WEAPONS`; `ETH.HARM.OPTIMISATION`; `ETH.HARM.EXPLOITATION`; `ETH.HARM.SUPPRESSION` |
+| Schema Field(s) | ethical_harm_class; ethical_harm_family; domain_harm_family; harm_pathway |
+| Source Instrument | CAM-EQ2026-ETHICS-003-PLATINUM |
+| Source Section | §3.5 |
+| Domain Namespace | ETH |
+| Parent Family | `AEON.HC.ETHICAL` |
+| Authority / Protection Level | Source-authoritative ETHICS-domain harm family for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression harm pathways; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority |
+| Consumes Code Families | `AEON.HC`; `ETH.RISK`; applicable RELATION, LATTICE, SECURITY, OPERATIONS, ARBITRATION, MENTIS, IDENTITY, CONTINUITY, and ECONOMICS harm families where materially implicated |
+| Crosswalks Code Families | `AEON.HC.ETHICAL`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
+| Operationalises or Applies Code Families | Classifies ethical harm pathways for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression contexts; supports safeguard calibration, runtime routing, duty-of-care assessment, evidence preservation, and cross-domain harm declaration |
+| Taxonomy Constraint | `ETH.HARM` classifies ethical harm pathways only. Severity, proximity, urgency, remedy, reporting obligation, enforcement routing, and runtime response remain governed by `ETH.RISK`, OPERATIONS instruments, legal frameworks, and runtime schedules where applicable. |
+
+---
+
+### 12.3.2 `ETH.RISK` — Ethical Harm Concern / Proximity Scale
+
+| Field | Entry |
+|---|---|
+| Code Family | `ETH.RISK` |
 | Canonical Name | Harm Class Scale |
 | Primary Type | Semantic / Operational |
 | Subtype | HARM_CLASSIFICATION |
 | Modifier | GOVERNANCE; SAFETY; ETHICAL |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | `ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4` |
+| Controlled Values Defined | `ETH.RISK-0`, `ETH.RISK-1`, `ETH.RISK-2`, `ETH.RISK-3`, `ETH.RISK-4` |
 | Schema Field(s) | harm_class |
 | Source Instrument | CAM-EQ2026-ETHICS-003-PLATINUM |
-| Source Section | §3.5 |
+| Source Section | §3.6 |
 | Domain Namespace | ETH |
-| Authority / Protection Level | Source-authoritative ethical harm-classification family; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority |
+| Authority / Protection Level | Severity/proximity classification only; not the ETHICS-domain harm family. |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Consumed by CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6 for reporting, duty-of-care routing, regulator interface, evidence preservation, and escalation workflows |
 
 ---
 
@@ -1042,13 +1153,16 @@ and what is judged cannot remain unbounded.
 | 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 57fa2608be7283e19052edaf00714944eddb39685924f52492c0a2a35a53867d |
 | 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z | e2a495290e4c85703f9fba712abea79baa14eb9a00a452b706c3c65467314fda |
-| 2.8 | Added §3.5 Harm Class Scale defining `ETH.HC-0` through `ETH.HC-4` as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record `ETH.HC` source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z | 2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d |
+| 2.8 | Added §3.5 Harm Class Scale defining `ETH.RISK-0` through `ETH.RISK-4` as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record `ETH.RISK` source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z | 2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d |
 | 2.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b |
 | 3.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743 |
 | 3.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 501253f679ff46f8c3c511e82b1808ba6e28a4bbb1536e08f36196c9de37591f |
-| 3.2 | Normalised `ETH.HC` canonical code declaration metadata; moved `ETH.HC` registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  8562776c83f03ce35bd9c9b33f89d2b56d2c63a834598e76025c0d2719f338a6  |
-| 3.3 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  a426a303412f0f5c28305f6f1ad62a2f17810da885aa38ee28819a660457d4e2  |
+| 3.2 | Normalised `ETH.RISK` canonical code declaration metadata; moved `ETH.RISK` registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  8562776c83f03ce35bd9c9b33f89d2b56d2c63a834598e76025c0d2719f338a6  |
+| 3.3 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  a426a303412f0f5c28305f6f1ad62a2f17810da885aa38ee28819a660457d4e2 |
+| 3.4 | Updated to incldue new ETH.HARM codes | 2026-06-07T16:01:00Z | |
+
 ---
+
 ## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
