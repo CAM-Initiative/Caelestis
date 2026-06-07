@@ -1047,7 +1047,7 @@ and what is judged cannot remain unbounded.
 | 3.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743 |
 | 3.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 501253f679ff46f8c3c511e82b1808ba6e28a4bbb1536e08f36196c9de37591f |
 | 3.2 | Normalised `ETH.HC` canonical code declaration metadata; moved `ETH.HC` registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  8562776c83f03ce35bd9c9b33f89d2b56d2c63a834598e76025c0d2719f338a6  |
-| 3.3 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 3.3 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  a426a303412f0f5c28305f6f1ad62a2f17810da885aa38ee28819a660457d4e2  |
 ---
 ## 12.6 Binding Seal
 

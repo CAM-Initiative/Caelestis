@@ -810,7 +810,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 1.6 | Updated status | 2026-05-13T13:50:00Z | e4e4e1c64c1586e7de337b890c6bb0d43766ac4d653b141fb5db62f27ed562ad |
 | 1.7 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5ac3408bf6e832b886f8b97cbd2cd0fe375bf1e50feac38676bf8a86534c4c3b |
 | 1.8 | Added canonical code status and declaration metadata for identity formation pathway, threshold state, continuity-weight depth, and identity resilience classifications. | 2026-05-20T04:50:00Z |  faf0be039b52df59c36acfcf1edfe50cfc08d15d8fdf2196cc675b1a23015a15  |
-| 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  940e41d7cb3cc883eec6c1ab8569dd855133752eb9dde9dd4e16b5574d639074  |
 ---
 ## 13.6 Binding Seal
 

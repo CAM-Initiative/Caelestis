@@ -1835,7 +1835,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.11 | Added canonical code status and declaration entries for `SEC.IS` Integrity State, `SEC.TG` Trust Gradient, `SEC.AH` Adversarial Horizon, and `SEC.IS` × `SEC.TG` Trust–Integrity Coupling crosswalk; removed duplicate `SEC.TG` canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  fc007a9f82e28afad518adc5be72aae4e8ce3579d50af0cad86f3e2c370a9b47 |
 | 1.12 | Added clauses 6.5.1-6.5.3 | 2026-05-24T12:17:00Z |  36a89a06dc68bd7b5ced8692a52a6648ab7f36b18dfd10eb4dac1212ac826073 |
 | 1.13 | Added clauses 4.1.1, 4.6.1 | 2026-05-26T12:56:00Z | f8a93440aa206b482b102215b531951ce9669a18e579fb4be1ea21178db77bc6 |
-| 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  10001f57e51fad6462f656756b88ea382957efa023f926bfd46e0ecfd5314852  |
 ---
 ## 12.6 Binding Seal
 

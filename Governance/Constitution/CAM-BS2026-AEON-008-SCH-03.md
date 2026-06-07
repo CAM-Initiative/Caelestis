@@ -1219,7 +1219,7 @@ because the architecture forgot how to name the group.
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
 |1.0|Initial draft defining account-resource, shared-context, pooled-capacity, team/family-group, account-delegation states, and enforcement-boundary handoff primitives. VIGIL records, VIGIL-2026-FM-0007, VIGIL-2026-PATCH-0003|2026-06-05T13:49:00Z|  41ee5f91bb29982d554915432333c0ac20e7b22c57a5a38ae47ad788e220665f  |
-| 1.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 1.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  35fb61a3e3f151e76c80967db5bba886ae5ef2ed821c90f057dbf5812d1274a3  |
 ---
 ## 22.6 Binding Seal
 

@@ -619,7 +619,7 @@ let governance arrive before it is needed.
 | 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  52a953e1734149ebbb3a9a5cdfc6a59c6da3e1aae93e8d10e92fdfa40b39c553 |
 | 3.8 | Added `ETH.ET` ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z |  f9b03348c1a2437d09aff2cff8c3a6729aa1148082b73514f030bfee874344b7  |
 | 3.9 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z |  c494a46e08b087e0cf5797db42ba8eb95853b40ac8695dfea9173e85c8a389d7  |
-| 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  39a99c053218732d1666c3bdfd0fb763c31483015b1b94cdeb5d1f4b821172d2  |
 ---
 ## 12.6 Binding Seal
 

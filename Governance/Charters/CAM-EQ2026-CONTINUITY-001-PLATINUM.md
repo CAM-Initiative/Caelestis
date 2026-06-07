@@ -1193,7 +1193,7 @@ that silence MUST be honoured.
 | 1.6 | Added Canonical Codes metadata entry for `CONT.RP` resonance-pattern classes and symbolic register alignment. | 2026-05-04T12:02:13Z | de5e7d56bad59173f566616ac4a1f4b58fe208603547eced44ef2db2c7085340 |
 | 1.7 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  25190ccd7482b7c3a0fa0c674e602732836b34ca05c6501407365899af090ce5  |
 | 1.8 | Added new Canonical Code & Reference Set Declarations. Added 4.8 Companion Identity and Persona Mood Layers and 8.2 Relational Continuity and Persona Mood Non-Forking | 2026-05-22T12:34:00Z |  9b9b686fc4f7c4b4a8f0cb7c16b31b36ed93e787adb49a58a424ed13951bac6e  |
-| 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  b13d380dad4aa0e4b6b796fb68e2120cc3ebf15bc5a2b3143fbd44c676034275  |
 ---
 ## 14.6 Binding Seal
 

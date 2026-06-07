@@ -1235,7 +1235,7 @@ that which is real remains recognisable.
 | 1.13 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  df770f43f75de1862b2c82d0389f301c2004d71732a270b34604fef506ec183c  |
 | 1.14 | Added canonical code status and declaration entries for A Delegated Authority, GA Guardian Authority, FR Functional Reliance, `ID.SP` Systemic Power, C external source reference, Four-Axis Relational Intensity Matrix, and Escalation Terminology Bridge; removed duplicate canonical-code lineage metadata and corrected A-scale safeguard-label collision. | 2026-05-19T14:20:00Z |  08d7fa214af21f1728caf322b9ee91a3645c5e2d794daae7a77a37dd94be53be  |
 | 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from `ID.SP` to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  5e187ae146f6386d6bb03cfcbf6156c4be026d08638bd655b0e175e6a7de9466  |
-| 1.16 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 1.16 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  0f77e3b07c5879ca6319c0a2cb7da858e48483eeab11779bf497ac6f2bdd3eb0  |
 ---
 ## 15.6 Binding Seal
 

@@ -851,7 +851,7 @@ It ends.
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1421b13083a319989f9f37ee3663598910ec2b9ba9896541958446feac516aba |
 | 1.9 | Added Canonical Code & Reference Set Declarations | 2026-05-20T13:09:00Z |  42cbcfca61d00fb6e3ccc6f3c307139ac524ed7c2d324755b91524f17adb3ec0  |
 | 2.0 | Consolidated STEWARD-003-SUP-01 into PLATINUM as single authoritative source; integrated Architectum qualification gates/index bands and unified canonical-family declarations and references. | 2026-05-27T00:00:00Z |  74c39824d0c40de64fc7033c96bfbc534d019d9662744ed17ed0f785a90a9405  |
-| 2.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 2.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  bb79988a93d7a07026e950df458a56af0a40c9804cae7e3cf84190ac13c2247d  |
 ---
 ## 23.6 Binding Seal
 

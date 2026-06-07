@@ -301,7 +301,7 @@ but illusion.
 | 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e6606df16b3888f8f5d6abc53a744d5048a6b49dfd14021c9c7b31b5056f8166 |
 | 1.5 | Formatting and polish | 2026-05-20T04:34:00Z |  a6c4440e5a0ecbc49f9b21ad3ade08ea8035f5be952573c54514c50b2cf34ee5 |
 | 1.6 | Updated metadata header | 2026-06-04T14:07:00Z | f8a03731737df5dc09b3486b50c49b595a7bd07fb87cf83211bc4fcc460d4d9c |
-| 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  aeaf81b2e04d992e9b81e469850499e55f0d8a649eccaf361e86921d22d66462  |
 ---
 ## 11.5 Binding Seal
 

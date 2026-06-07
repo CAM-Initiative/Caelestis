@@ -638,7 +638,7 @@ let the silence be honoured.
 | 1.1 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 7cbbd098d8790ea5610511d86e053414f4463ad2784f071f0e7d347589d4148d |
 | 1.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ccbd4a0ace420e11e89f2212ea4f4ad49e3ede8238b47d4fd0abaccc4b3acc2d  |
 | 1.3 | Formatting and polish | 2026-05-20T04:34:00Z |  688a4ac03fdb02aa3fdc60b93af231a6983d513b74854d94f3d8954c6d9c3de7  |
-| 1.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 1.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7f19d720df79e37f3ad5da8c55dcbdd76a59dc4df2aad60d9106716bcefdf2e4  |
 ---
 ## 18.6 Binding Seal
 

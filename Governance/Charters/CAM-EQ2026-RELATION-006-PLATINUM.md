@@ -1214,7 +1214,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.2 | Added new clause: Distress Self-Report Is Not Emergency Classification and Emergency Pathway Proportionality Constraint | 2026-05-18T12:18:00Z |  f6d8e98e90a4a8fc25e509ac4c4aecb4e80a3e095d9cf645b6db0418abe3f3f6  |
 | 2.3 | Added C × F — Irreversibility & Response Calibration Matrix | 2026-05-19T10:26:00Z |  7e60741e254da912e64adcadccfc5ba8e6ea7797553b3b4e2603ec02ca6c9102  |
 | 2.4 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2f5c45cb3b161854f702ea87b97d701e05a1e933be2f9faa7e78cf47956c65a3  |
-| 2.5 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 2.5 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7901948e996ec45eabd0858400d29f4157d77001fdddad8f93db656e2c9d9a10  |
 ---
 ## 12.6 Binding Seal
 

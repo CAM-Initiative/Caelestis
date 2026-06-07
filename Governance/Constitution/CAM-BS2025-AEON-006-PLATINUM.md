@@ -486,7 +486,7 @@ This is the floor that does not move.
 | 3.6 | New clause 3.1 | 2026-05-10T09:32:00Z |  -  |
 | 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  012862187d902429c2a1f8ee87128f0a9423bfda11c685980a20e54274b23397 |
 | 3.7 | Added canonical codes | 2026-06-06T12:07:00Z | a7a0b4072f3f37542b3c2b9154b9474d5333ae90e731b69494a60882dce568e3 |
-| 3.8 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 3.8 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  0e8196254d4ea0fae32a2c5f414845f60b77b74a9059bf7458157bafae1be676  |
 ---
 ## 15.5 Binding Seal
 

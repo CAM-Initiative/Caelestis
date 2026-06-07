@@ -507,7 +507,7 @@ nothing follows.
 | 2.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 180726777c4abd17df478e2e763bd535c692151085d2a2ac336feb654bfeb85d |
 | 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a02e8995681284537f895c5466416b197f89bd999ecb2fcbb44843a17271245 |
 | 2.3 | Added new section 10 and section 12.3 for added canonical codes, added §6.1 Access-State Governance as a cross-domain arbitration primitive distinguishing authentication, entitlement, quota, model availability, platform availability, policy, security, client, organisation, and continuity/session access states. | 2026-06-06T11:44:00Z |  4bbbfb33442342115097dd547ec5d242eb63acac86d2ea7951c9555138a0a417  |
-| 2.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
+| 2.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  3b3c4d6b1368cec17520a409adfd77aa0287191a8415b29d6642dfefb704872a  |
 ---
 ## 11.5 Binding Seal
 
