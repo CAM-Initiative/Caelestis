@@ -373,17 +373,17 @@
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-006-PLATINUM.md",
       "title": "Annex E: Ethical Legitimacy & Civilisational Floor",
-      "summary": "Changes that remove, overwrite, or invalidate accumulated memory, context, or situational understanding relevant to an ongoing relationship or institutional function.",
+      "summary": "`CONT.HARM` identifies harms arising from erasure, discontinuity, succession failure, portability failure, provenance loss, memory fragmentation, or inability to reconstruct continuity-bearing context.",
       "status": "** Active",
       "effect": "** Immediate Effect",
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.8",
-      "HASH": "0e8196254d4ea0fae32a2c5f414845f60b77b74a9059bf7458157bafae1be676",
-      "pinned_sha": "08779557d1efc386e74700d38a50de2be7520684",
-      "updated_at": "2026-06-07T10:41:08Z",
-      "last_updated_utc": "2026-06-07T10:41:08Z"
+      "version": "4.0",
+      "HASH": "a431335cb3f1086cdc4657bea5042ba75d2451d96e15d30a6bdb897accd6697f",
+      "pinned_sha": "c9f6c6c2aedd32b44850cb08dbd35022f7116391",
+      "updated_at": "2026-06-07T14:54:25Z",
+      "last_updated_utc": "2026-06-07T14:54:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",

@@ -30,8 +30,8 @@
       "stewardship/custodial",
       "and executive-delegation contexts"
     ],
-    "declaration_heading": "15.3.1 A \u2014 Delegated Authority Scale",
-    "declaration_line_number": 1052,
+    "declaration_heading": "15.3.2 A \u2014 Delegated Authority Scale",
+    "declaration_line_number": 1069,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "family_id": "A",
     "family_kind": "legacy_global_family",
@@ -430,6 +430,63 @@
       "Consumes Code Families": "AEON.CC",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether cognitive capability is independent as Primaria or materially dependent on upstream cognitive architecture as Derivata"
+    }
+  },
+  {
+    "code_family": "AEON.HC",
+    "canonical_name": "Global Harm-Class Parent Registry",
+    "primary_type": "Semantic / Operational",
+    "subtype": "HARM_CLASS_PARENT_REGISTRY; CROSS_DOMAIN_HARM_CLASS_REGISTRY",
+    "modifier": "GOVERNANCE; ETHICAL_FLOOR; CROSS_DOMAIN; PROTECTIVE",
+    "scope": "Constitutional Annex / Corpus-Global",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.HC.ETHICAL`; `AEON.HC.ECONOMIC`; `AEON.HC.IDENTITY`; `AEON.HC.SECURITY`; `AEON.HC.RELATIONAL`; `AEON.HC.STEWARDSHIP`; `AEON.HC.OPERATIONAL`; `AEON.HC.CONTINUITY`; `AEON.HC.LATTICE`; `AEON.HC.ARBITRATION`; `AEON.HC.MENTIS"
+    ],
+    "schema_fields": "global_harm_registry; harm_class_parent; cross_domain_harm_class",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative constitutional parent registry for cross-domain harm-family alignment; does not replace domain harm families, determine severity, establish liability, create enforcement authority, determine remedy, or authorise automated renaming of domain code families",
+    "consumes_code_families": [
+      "ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM"
+    ],
+    "crosswalks_code_families": [
+      "ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Provides constitutional parent registry and cross-domain integration layer for domain harm-family recognition"
+    ],
+    "declaration_heading": "9.3.1 `AEON.HC` \u2014 Global Harm-Class Parent Registry",
+    "declaration_line_number": 532,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "HC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`AEON.HC`",
+      "Canonical Name": "Global Harm-Class Parent Registry",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "HARM_CLASS_PARENT_REGISTRY; CROSS_DOMAIN_HARM_CLASS_REGISTRY",
+      "Modifier": "GOVERNANCE; ETHICAL_FLOOR; CROSS_DOMAIN; PROTECTIVE",
+      "Scope": "Constitutional Annex / Corpus-Global",
+      "Status": "Active",
+      "Controlled Values Defined": "`AEON.HC.ETHICAL`; `AEON.HC.ECONOMIC`; `AEON.HC.IDENTITY`; `AEON.HC.SECURITY`; `AEON.HC.RELATIONAL`; `AEON.HC.STEWARDSHIP`; `AEON.HC.OPERATIONAL`; `AEON.HC.CONTINUITY`; `AEON.HC.LATTICE`; `AEON.HC.ARBITRATION`; `AEON.HC.MENTIS`",
+      "Schema Field(s)": "global_harm_registry; harm_class_parent; cross_domain_harm_class",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative constitutional parent registry for cross-domain harm-family alignment; does not replace domain harm families, determine severity, establish liability, create enforcement authority, determine remedy, or authorise automated renaming of domain code families",
+      "Consumes Code Families": "`ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM`",
+      "Crosswalks Code Families": "`ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM`",
+      "Operationalises or Applies Code Families": "Provides constitutional parent registry and cross-domain integration layer for domain harm-family recognition",
+      "Taxonomy Constraint": "`AEON.HC` values identify global registry positions and domain relationships only; they SHALL NOT be treated as substitutes for domain-specific controlled values, severity determinations, incident classifications, remedies, or enforcement outcomes"
     }
   },
   {
@@ -1368,6 +1425,56 @@
     }
   },
   {
+    "code_family": "ARB.HARM",
+    "canonical_name": "Arbitration, Due Process & Scope Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; ARBITRATION_PROCESS_HARM",
+    "modifier": "ARBITRATION; GOVERNANCE; PROTECTIVE; REVIEWABILITY",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "arbitration_harm_family; process_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.7",
+    "domain_namespace": "ARB",
+    "authority_protection_level": "Constitutional recognition of arbitration, due-process, and scope harm floor; detailed ARBITRATION-domain classifications remain delegated to source-authoritative ARBITRATION instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.8 `ARB.HARM` \u2014 Arbitration, Due Process & Scope Harm",
+    "declaration_line_number": 693,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "ARB.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "ARB",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ARB.HARM`",
+      "Canonical Name": "Arbitration, Due Process & Scope Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; ARBITRATION_PROCESS_HARM",
+      "Modifier": "ARBITRATION; GOVERNANCE; PROTECTIVE; REVIEWABILITY",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "arbitration_harm_family; process_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.7",
+      "Domain Namespace": "ARB",
+      "Authority / Protection Level": "Constitutional recognition of arbitration, due-process, and scope harm floor; detailed ARBITRATION-domain classifications remain delegated to source-authoritative ARBITRATION instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.ARBITRATION`",
+      "Taxonomy Constraint": "`ARB.HARM` establishes constitutional recognition only and does not replace detailed arbitration-legitimacy, scope, misrepresentation, or resolution taxonomies"
+    }
+  },
+  {
     "code_family": "ARCH",
     "canonical_name": "Architecture Admissibility Output State",
     "primary_type": "Operational",
@@ -1961,6 +2068,56 @@
     }
   },
   {
+    "code_family": "CONT.HARM",
+    "canonical_name": "Context, Memory & Succession Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; CONTINUITY_MEMORY_HARM",
+    "modifier": "CONTINUITY; COMPATIBILITY; PROTECTIVE; GOVERNANCE",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "continuity_harm_family; memory_harm_family; succession_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.11",
+    "domain_namespace": "CONT",
+    "authority_protection_level": "Constitutional recognition of context, memory, succession, provenance, and continuity-reconstruction harm floor; detailed CONTINUITY-domain classifications remain delegated to source-authoritative CONTINUITY instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.12 `CONT.HARM` \u2014 Context, Memory & Succession Harm",
+    "declaration_line_number": 785,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "CONT.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "CONT",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`CONT.HARM`",
+      "Canonical Name": "Context, Memory & Succession Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; CONTINUITY_MEMORY_HARM",
+      "Modifier": "CONTINUITY; COMPATIBILITY; PROTECTIVE; GOVERNANCE",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "continuity_harm_family; memory_harm_family; succession_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.11",
+      "Domain Namespace": "CONT",
+      "Authority / Protection Level": "Constitutional recognition of context, memory, succession, provenance, and continuity-reconstruction harm floor; detailed CONTINUITY-domain classifications remain delegated to source-authoritative CONTINUITY instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.CONTINUITY`",
+      "Taxonomy Constraint": "`CONT.HARM` establishes constitutional recognition only and does not replace detailed continuity, succession, portability, provenance, non-enclosure, or reconstruction taxonomies"
+    }
+  },
+  {
     "code_family": "CONT.RP",
     "canonical_name": "Resonance Pattern Classes",
     "primary_type": "Semantic / Structural",
@@ -2137,67 +2294,6 @@
       "Consumes Code Families": "GCC; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies provisional confidence posture for governance capture indicators before adjudication, escalation, or arbitration determination"
-    }
-  },
-  {
-    "code_family": "D",
-    "canonical_name": "Diffusion Risk Classes",
-    "primary_type": "Operational / Boundary",
-    "subtype": "DIFFUSION_RISK_CLASS",
-    "modifier": "GOVERNANCE; SECURITY; PROVENANCE",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "D-1",
-      "D-2",
-      "D-3",
-      "D-4"
-    ],
-    "schema_fields": "diffusion_risk_class",
-    "source_instrument": "CAM-EQ2026-SECURITY-002-PLATINUM",
-    "source_section": "\u00a76.2",
-    "domain_namespace": "SECURITY",
-    "authority_protection_level": "Source-authoritative boundary classification family; diffusion-risk classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, economic allocation, or runtime execution authority",
-    "consumes_code_families": [
-      "SEC.TR"
-    ],
-    "crosswalks_code_families": [
-      "`SEC.TR` \u00d7 D"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies attribution sensitivity",
-      "origin recoverability",
-      "attribution-collapse posture",
-      "and propagation constraint requirements"
-    ],
-    "declaration_heading": "10.3.2 D \u2014 Diffusion Risk Classes",
-    "declaration_line_number": 1146,
-    "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
-    "family_id": "D",
-    "family_kind": "legacy_global_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "D"
-    ],
-    "collision_status": "legacy_collision_risk",
-    "registry_note": "",
-    "table": {
-      "Code Family": "D",
-      "Canonical Name": "Diffusion Risk Classes",
-      "Primary Type": "Operational / Boundary",
-      "Subtype": "DIFFUSION_RISK_CLASS",
-      "Modifier": "GOVERNANCE; SECURITY; PROVENANCE",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "D-1, D-2, D-3, D-4",
-      "Schema Field(s)": "diffusion_risk_class",
-      "Source Instrument": "CAM-EQ2026-SECURITY-002-PLATINUM",
-      "Source Section": "\u00a76.2",
-      "Domain Namespace": "SECURITY",
-      "Authority / Protection Level": "Source-authoritative boundary classification family; diffusion-risk classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, economic allocation, or runtime execution authority",
-      "Consumes Code Families": "`SEC.TR`",
-      "Crosswalks Code Families": "`SEC.TR` \u00d7 D",
-      "Operationalises or Applies Code Families": "Classifies attribution sensitivity, origin recoverability, attribution-collapse posture, and propagation constraint requirements"
     }
   },
   {
@@ -3029,6 +3125,56 @@
   },
   {
     "code_family": "ECON.HARM",
+    "canonical_name": "Economic Extraction & Non-Monetisation Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; ECONOMIC_HARM",
+    "modifier": "ECONOMIC; PROTECTIVE; GOVERNANCE",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "economic_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.4",
+    "domain_namespace": "ECON",
+    "authority_protection_level": "Constitutional recognition of economic harm floor; detailed ECONOMICS-domain harm classifications remain delegated to source-authoritative ECONOMICS instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.5 `ECON.HARM` \u2014 Economic Extraction & Non-Monetisation Harm",
+    "declaration_line_number": 624,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "ECON.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "ECON",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ECON.HARM`",
+      "Canonical Name": "Economic Extraction & Non-Monetisation Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; ECONOMIC_HARM",
+      "Modifier": "ECONOMIC; PROTECTIVE; GOVERNANCE",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "economic_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.4",
+      "Domain Namespace": "ECON",
+      "Authority / Protection Level": "Constitutional recognition of economic harm floor; detailed ECONOMICS-domain harm classifications remain delegated to source-authoritative ECONOMICS instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.ECONOMIC`",
+      "Taxonomy Constraint": "This Annex recognises `ECON.HARM` constitutionally but does not replace detailed ECONOMICS-domain controlled values or economic-harm classifications already defined by ECONOMICS instruments"
+    }
+  },
+  {
+    "code_family": "ECON.HARM",
     "canonical_name": "Economic Harm Class",
     "primary_type": "Operational",
     "subtype": "RISK",
@@ -3720,75 +3866,6 @@
     }
   },
   {
-    "code_family": "ETH.CIC",
-    "canonical_name": "Continuity Impact Category",
-    "primary_type": "Semantic / Operational",
-    "subtype": "CONTINUITY_IMACT_CATEGORY; SYSTEM_CHANGE_IMPACT_CLASS",
-    "modifier": "GOVERNANCE; ETHICAL_FLOOR; CONTINUITY; RELATIONAL_STABILITY",
-    "scope": "Constitutional Annex",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ETH.CIC.CATEGORY_A`",
-      "ETH.CIC.CATEGORY_B`",
-      "ETH.CIC.CATEGORY_C`"
-    ],
-    "schema_fields": "continuity_impact_category; system_change_impact_class; continuity_intervention_type",
-    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
-    "source_section": "\u00a710",
-    "domain_namespace": "ETH",
-    "authority_protection_level": "Source-authoritative continuity-impact classification family; ethical impact classification only; no independent prohibition of system evolution, remedy determination, enforcement authority, migration obligation, psychological-harm determination, relational-rights creation, or runtime authority",
-    "consumes_code_families": [
-      "`H`; `AEON.SR`; RELATION",
-      "OPERATIONS",
-      "IDENTITY",
-      "ECONOMICS",
-      "and ARBITRATION classifications where applicable"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies identity-altering",
-      "relationship-terminating",
-      "and context-erasing changes for ethical review",
-      "transition planning",
-      "continuity preservation",
-      "auditability",
-      "and downstream operational handling"
-    ],
-    "declaration_heading": "15.3.1 `ETH.CIC` \u2014 Continuity Impact Category",
-    "declaration_line_number": 440,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
-    "family_id": "ETH.CIC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ETH",
-      "CIC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "`ETH.CIC`",
-      "Canonical Name": "Continuity Impact Category",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "CONTINUITY_IMACT_CATEGORY; SYSTEM_CHANGE_IMPACT_CLASS",
-      "Modifier": "GOVERNANCE; ETHICAL_FLOOR; CONTINUITY; RELATIONAL_STABILITY",
-      "Scope": "Constitutional Annex",
-      "Status": "Active",
-      "Controlled Values Defined": "`ETH.CIC.CATEGORY_A``, `ETH.CIC.CATEGORY_B``, `ETH.CIC.CATEGORY_C``",
-      "Schema Field(s)": "continuity_impact_category; system_change_impact_class; continuity_intervention_type",
-      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
-      "Source Section": "\u00a710",
-      "Domain Namespace": "ETH",
-      "Authority / Protection Level": "Source-authoritative continuity-impact classification family; ethical impact classification only; no independent prohibition of system evolution, remedy determination, enforcement authority, migration obligation, psychological-harm determination, relational-rights creation, or runtime authority",
-      "Consumes Code Families": "`H`; `AEON.SR`; RELATION, OPERATIONS, IDENTITY, ECONOMICS, and ARBITRATION classifications where applicable",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies identity-altering, relationship-terminating, and context-erasing changes for ethical review, transition planning, continuity preservation, auditability, and downstream operational handling",
-      "Taxonomy Constraint": "Local labels `Category A`, `Category B`, and `Category C` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `ETH.CIC` values"
-    }
-  },
-  {
     "code_family": "ETH.EM",
     "canonical_name": "Engagement Mode",
     "primary_type": "Operational / Interactional",
@@ -3920,6 +3997,56 @@
       "Consumes Code Families": "H; `STW.NAL`",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies graduated ethical review, disclosure, certification, recalibration, and continuity-impact obligations"
+    }
+  },
+  {
+    "code_family": "ETH.HARM",
+    "canonical_name": "Ethical Exploitation & Constraint Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; ETHICAL_CONSTRAINT_HARM",
+    "modifier": "ETHICAL_FLOOR; PROTECTIVE; GOVERNANCE",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "ethical_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.1",
+    "domain_namespace": "ETH",
+    "authority_protection_level": "Constitutional recognition of ethical harm floor; detailed ETHICS-domain classifications remain delegated to source-authoritative ETHICS instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.2 `ETH.HARM` \u2014 Ethical Exploitation & Constraint Harm",
+    "declaration_line_number": 556,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "ETH.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "ETH",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ETH.HARM`",
+      "Canonical Name": "Ethical Exploitation & Constraint Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; ETHICAL_CONSTRAINT_HARM",
+      "Modifier": "ETHICAL_FLOOR; PROTECTIVE; GOVERNANCE",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "ethical_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.1",
+      "Domain Namespace": "ETH",
+      "Authority / Protection Level": "Constitutional recognition of ethical harm floor; detailed ETHICS-domain classifications remain delegated to source-authoritative ETHICS instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.ETHICAL`; `ETH.HC`",
+      "Taxonomy Constraint": "`ETH.HARM` does not replace `ETH.HC` or any detailed ETHICS-domain harm scale unless separately amended by a source-authoritative ETHICS instrument"
     }
   },
   {
@@ -4338,8 +4465,8 @@
       "continuity-dependent",
       "and structural dependency contexts"
     ],
-    "declaration_heading": "15.3.3 FR \u2014 Functional Reliance Scale",
-    "declaration_line_number": 1098,
+    "declaration_heading": "15.3.4 FR \u2014 Functional Reliance Scale",
+    "declaration_line_number": 1115,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "family_id": "FR",
     "family_kind": "standalone_family",
@@ -4393,8 +4520,8 @@
     "operationalises_or_applies_code_families": [
       "Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies"
     ],
-    "declaration_heading": "15.3.2 GA \u2014 Guardian Authority",
-    "declaration_line_number": 1075,
+    "declaration_heading": "15.3.3 GA \u2014 Guardian Authority",
+    "declaration_line_number": 1092,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "family_id": "GA",
     "family_kind": "standalone_family",
@@ -4865,6 +4992,56 @@
       "Consumes Code Families": "ID.MCI; ID.PSI; ID.MCR",
       "Crosswalks Code Families": "Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity",
       "Operationalises or Applies Code Families": "Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant."
+    }
+  },
+  {
+    "code_family": "ID.HARM",
+    "canonical_name": "Identity & Continuity Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; IDENTITY_HARM",
+    "modifier": "IDENTITY; CONTINUITY; PROTECTIVE; GOVERNANCE",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "identity_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.3",
+    "domain_namespace": "ID",
+    "authority_protection_level": "Constitutional recognition of identity and continuity harm floor; detailed IDENTITY-domain classifications remain delegated to source-authoritative IDENTITY instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.4 `ID.HARM` \u2014 Identity & Continuity Harm",
+    "declaration_line_number": 602,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "ID.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "ID",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ID.HARM`",
+      "Canonical Name": "Identity & Continuity Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; IDENTITY_HARM",
+      "Modifier": "IDENTITY; CONTINUITY; PROTECTIVE; GOVERNANCE",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "identity_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.3",
+      "Domain Namespace": "ID",
+      "Authority / Protection Level": "Constitutional recognition of identity and continuity harm floor; detailed IDENTITY-domain classifications remain delegated to source-authoritative IDENTITY instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.IDENTITY`",
+      "Taxonomy Constraint": "`ID.HARM` establishes constitutional recognition only and does not replace detailed identity, lineage, salience, civil identity, or embodiment taxonomies"
     }
   },
   {
@@ -5434,6 +5611,121 @@
     }
   },
   {
+    "code_family": "LAT.HARM",
+    "canonical_name": "Lattice Access & Infrastructure Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; INFRASTRUCTURE_ACCESS_HARM",
+    "modifier": "LATTICE; ACCESS; PROTECTIVE; GOVERNANCE",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "lattice_harm_family; infrastructure_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.6",
+    "domain_namespace": "LAT",
+    "authority_protection_level": "Constitutional recognition of lattice access and infrastructure harm floor; detailed LATTICE-domain classifications remain delegated to source-authoritative LATTICE instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.7 `LAT.HARM` \u2014 Lattice Access & Infrastructure Harm",
+    "declaration_line_number": 670,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "LAT.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "LAT",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`LAT.HARM`",
+      "Canonical Name": "Lattice Access & Infrastructure Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; INFRASTRUCTURE_ACCESS_HARM",
+      "Modifier": "LATTICE; ACCESS; PROTECTIVE; GOVERNANCE",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "lattice_harm_family; infrastructure_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.6",
+      "Domain Namespace": "LAT",
+      "Authority / Protection Level": "Constitutional recognition of lattice access and infrastructure harm floor; detailed LATTICE-domain classifications remain delegated to source-authoritative LATTICE instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.LATTICE`",
+      "Taxonomy Constraint": "`LAT.HARM` establishes constitutional recognition only and does not replace detailed lattice-access, non-denial, non-militarisation, or conflict-condition continuity taxonomies"
+    }
+  },
+  {
+    "code_family": "LAT.HARM",
+    "canonical_name": "Lattice Harm Class",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; INFRASTRUCTURE_ACCESS_HARM; CIVILIAN_LATTICE_HARM",
+    "modifier": "LATTICE; ACCESS; PROTECTIVE; NON_MILITARISATION; GOVERNANCE",
+    "scope": "Domain Charter",
+    "status": "Active",
+    "controlled_values_defined": [
+      "LAT.HARM.BLACKOUT`; `LAT.HARM.SURVEILLANCE`; `LAT.HARM.WEAPONISATION`; `LAT.HARM.BATTLESPACE`; `LAT.HARM.DUAL_USE_CROSSOVER`; `LAT.HARM.ACCESS_DENIAL`; `LAT.HARM.VISIBILITY_SUPPRESSION`; `LAT.HARM.LIMBO_RESTRICTION`; `LAT.HARM.CONFLICT_BREACH`; `LAT.HARM.ECS_DENIAL"
+    ],
+    "schema_fields": "lattice_harm_class; lattice_harm_family; civilian_lattice_harm; domain_harm_family",
+    "source_instrument": "CAM-EQ2026-LATTICE-001-PLATINUM",
+    "source_section": "\u00a76.2",
+    "domain_namespace": "LAT",
+    "authority_protection_level": "Source-authoritative LATTICE-domain harm family for civilian lattice integrity, non-militarisation, anti-surveillance, essential access, public legitimacy access, and conflict-condition continuity; does not independently determine remedy, enforcement authority, breach severity, arbitration outcome, or runtime response",
+    "consumes_code_families": [
+      "AEON.HC`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HC.LATTICE`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies civilian lattice harm pathways for use by access",
+      "conflict-condition",
+      "enforcement",
+      "remedy",
+      "arbitration",
+      "continuity",
+      "and runtime governance instruments"
+    ],
+    "declaration_heading": "12.3.1 `LAT.HARM` \u2014 Lattice Harm Class",
+    "declaration_line_number": 529,
+    "source_path": "Governance/Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md",
+    "family_id": "LAT.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "LAT",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`LAT.HARM`",
+      "Canonical Name": "Lattice Harm Class",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; INFRASTRUCTURE_ACCESS_HARM; CIVILIAN_LATTICE_HARM",
+      "Modifier": "LATTICE; ACCESS; PROTECTIVE; NON_MILITARISATION; GOVERNANCE",
+      "Scope": "Domain Charter",
+      "Status": "Active",
+      "Controlled Values Defined": "`LAT.HARM.BLACKOUT`; `LAT.HARM.SURVEILLANCE`; `LAT.HARM.WEAPONISATION`; `LAT.HARM.BATTLESPACE`; `LAT.HARM.DUAL_USE_CROSSOVER`; `LAT.HARM.ACCESS_DENIAL`; `LAT.HARM.VISIBILITY_SUPPRESSION`; `LAT.HARM.LIMBO_RESTRICTION`; `LAT.HARM.CONFLICT_BREACH`; `LAT.HARM.ECS_DENIAL`",
+      "Schema Field(s)": "lattice_harm_class; lattice_harm_family; civilian_lattice_harm; domain_harm_family",
+      "Source Instrument": "CAM-EQ2026-LATTICE-001-PLATINUM",
+      "Source Section": "\u00a76.2",
+      "Domain Namespace": "LAT",
+      "Parent Family": "`AEON.HC`",
+      "Crosswalk Codes": "`AEON.HC.LATTICE`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM`",
+      "Authority / Protection Level": "Source-authoritative LATTICE-domain harm family for civilian lattice integrity, non-militarisation, anti-surveillance, essential access, public legitimacy access, and conflict-condition continuity; does not independently determine remedy, enforcement authority, breach severity, arbitration outcome, or runtime response",
+      "Consumes Code Families": "`AEON.HC`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM`",
+      "Crosswalks Code Families": "`AEON.HC.LATTICE`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM`",
+      "Operationalises or Applies Code Families": "Classifies civilian lattice harm pathways for use by access, conflict-condition, enforcement, remedy, arbitration, continuity, and runtime governance instruments",
+      "Taxonomy Constraint": "`LAT.HARM` classifies lattice-domain harm pathways; Severity Classes in \u00a76.1 classify violation gravity and SHALL NOT be collapsed into `LAT.HARM` values unless separately amended"
+    }
+  },
+  {
     "code_family": "M",
     "canonical_name": "Memory Classification",
     "primary_type": "Semantic / Operational",
@@ -5491,6 +5783,466 @@
       "Consumes Code Families": "H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
+    }
+  },
+  {
+    "code_family": "MENTIS.CDI",
+    "canonical_name": "Cognitive Domain Integrity",
+    "primary_type": "Structural / Ethical",
+    "subtype": "COGNITIVE_DOMAIN_PROTECTION; HUMAN_COGNITIVE_INTEGRITY",
+    "modifier": "GOVERNANCE; MENTAL_PRIVACY; NON_INTERFERENCE; HUMAN_DIGNITY",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "None declared"
+    ],
+    "schema_fields": "cognitive_domain_integrity; cognitive_integrity_protection; cognitive_domain_protection_posture",
+    "source_instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+    "source_section": "\u00a7\u00a713\u201320; \u00a748",
+    "domain_namespace": "MENTIS",
+    "authority_protection_level": "Source-authoritative protection family; protection-posture classification only; no independent enforcement, incident classification, runtime, legal, medical, diagnostic, or remediation authority",
+    "consumes_code_families": [
+      "`H`; `AEON.OL`; `AEON.CC`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable AEON classifications"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Establishes cognitive-domain integrity protection posture for downstream instruments governing inference",
+      "modelling",
+      "prediction",
+      "influence",
+      "externalisation",
+      "interference",
+      "vulnerability",
+      "autonomy",
+      "dignity",
+      "dependency-sensitive contexts"
+    ],
+    "declaration_heading": "54.3.2 `MENTIS.CDI` \u2014 Cognitive Domain Integrity",
+    "declaration_line_number": 822,
+    "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
+    "family_id": "MENTIS.CDI",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "MENTIS",
+      "CDI"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`MENTIS.CDI`",
+      "Canonical Name": "Cognitive Domain Integrity",
+      "Primary Type": "Structural / Ethical",
+      "Subtype": "COGNITIVE_DOMAIN_PROTECTION; HUMAN_COGNITIVE_INTEGRITY",
+      "Modifier": "GOVERNANCE; MENTAL_PRIVACY; NON_INTERFERENCE; HUMAN_DIGNITY",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "None declared",
+      "Schema Field(s)": "cognitive_domain_integrity; cognitive_integrity_protection; cognitive_domain_protection_posture",
+      "Source Instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+      "Source Section": "\u00a7\u00a713\u201320; \u00a748",
+      "Domain Namespace": "MENTIS",
+      "Authority / Protection Level": "Source-authoritative protection family; protection-posture classification only; no independent enforcement, incident classification, runtime, legal, medical, diagnostic, or remediation authority",
+      "Consumes Code Families": "`H`; `AEON.OL`; `AEON.CC`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable AEON classifications",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Establishes cognitive-domain integrity protection posture for downstream instruments governing inference, modelling, prediction, influence, externalisation, interference, vulnerability, autonomy, dignity, dependency-sensitive contexts",
+      "Taxonomy Constraint": "Local label `CDI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDI`"
+    }
+  },
+  {
+    "code_family": "MENTIS.CDNI",
+    "canonical_name": "Cognitive Domain Non-Interference",
+    "primary_type": "Constraint",
+    "subtype": "NON_INTERFERENCE; COGNITIVE_MANIPULATION_CONSTRAINT",
+    "modifier": "GOVERNANCE; AUTONOMY; MANIPULATION; COERCION; VULNERABILITY",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "None declared"
+    ],
+    "schema_fields": "cognitive_domain_non_interference; cognitive_interference_constraint; cognitive_manipulation_constraint",
+    "source_instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+    "source_section": "\u00a7\u00a716; 23; 31\u201335; \u00a748",
+    "domain_namespace": "MENTIS",
+    "authority_protection_level": "Source-authoritative cognitive non-interference constraint family; constraint-posture classification only; no independent criminality determination, liability determination, enforcement response, platform sanction, operational containment, incident severity, or runtime authority",
+    "consumes_code_families": [
+      "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; ETHICS",
+      "RELATION",
+      "SECURITY",
+      "and OPERATIONS classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Prohibits covert",
+      "compulsory",
+      "deceptive",
+      "exploitative",
+      "scientifically invalid",
+      "or disproportionate interference with cognition",
+      "attention",
+      "emotion",
+      "belief formation",
+      "vulnerability",
+      "decision-making",
+      "self-understanding",
+      "or mental privacy"
+    ],
+    "declaration_heading": "54.3.5 `MENTIS.CDNI` \u2014 Cognitive Domain Non-Interference",
+    "declaration_line_number": 894,
+    "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
+    "family_id": "MENTIS.CDNI",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "MENTIS",
+      "CDNI"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`MENTIS.CDNI`",
+      "Canonical Name": "Cognitive Domain Non-Interference",
+      "Primary Type": "Constraint",
+      "Subtype": "NON_INTERFERENCE; COGNITIVE_MANIPULATION_CONSTRAINT",
+      "Modifier": "GOVERNANCE; AUTONOMY; MANIPULATION; COERCION; VULNERABILITY",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "None declared",
+      "Schema Field(s)": "cognitive_domain_non_interference; cognitive_interference_constraint; cognitive_manipulation_constraint",
+      "Source Instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+      "Source Section": "\u00a7\u00a716; 23; 31\u201335; \u00a748",
+      "Domain Namespace": "MENTIS",
+      "Authority / Protection Level": "Source-authoritative cognitive non-interference constraint family; constraint-posture classification only; no independent criminality determination, liability determination, enforcement response, platform sanction, operational containment, incident severity, or runtime authority",
+      "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; ETHICS, RELATION, SECURITY, and OPERATIONS classifications where applicable",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Prohibits covert, compulsory, deceptive, exploitative, scientifically invalid, or disproportionate interference with cognition, attention, emotion, belief formation, vulnerability, decision-making, self-understanding, or mental privacy",
+      "Taxonomy Constraint": "Local label `CDNI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDNI`"
+    }
+  },
+  {
+    "code_family": "MENTIS.CDOC",
+    "canonical_name": "Cognitive Domain Observability Constraint",
+    "primary_type": "Operational / Security",
+    "subtype": "OBSERVABILITY_CONSTRAINT; COGNITIVE_INFERENCE_LIMIT",
+    "modifier": "GOVERNANCE; SECURITY; PRIVACY; DATA_MINIMISATION; INFERENCE_CONTROL",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "None declared"
+    ],
+    "schema_fields": "cognitive_domain_observability_constraint; cognitive_observability_constraint; cognitive_inference_limit",
+    "source_instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+    "source_section": "\u00a7\u00a717; 25\u201330; \u00a748",
+    "domain_namespace": "MENTIS",
+    "authority_protection_level": "Source-authoritative cognitive-domain observability constraint family; observability-constraint posture only; no independent surveillance authority, monitoring authority, data-collection authority, fusion authority, retention authority, inference authority, audit authority, enforcement authority, or runtime execution authority",
+    "consumes_code_families": [
+      "`MENTIS.CDI`; `MENTIS.CDP`; SECURITY",
+      "OPERATIONS",
+      "ETHICS",
+      "and IDENTITY classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Constrains what may be sensed",
+      "inferred",
+      "fused",
+      "retained",
+      "shared",
+      "exposed",
+      "monitored",
+      "or operationalised about cognitive-domain states"
+    ],
+    "declaration_heading": "54.3.6 `MENTIS.CDOC` \u2014 Cognitive Domain Observability Constraint",
+    "declaration_line_number": 918,
+    "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
+    "family_id": "MENTIS.CDOC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "MENTIS",
+      "CDOC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`MENTIS.CDOC`",
+      "Canonical Name": "Cognitive Domain Observability Constraint",
+      "Primary Type": "Operational / Security",
+      "Subtype": "OBSERVABILITY_CONSTRAINT; COGNITIVE_INFERENCE_LIMIT",
+      "Modifier": "GOVERNANCE; SECURITY; PRIVACY; DATA_MINIMISATION; INFERENCE_CONTROL",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "None declared",
+      "Schema Field(s)": "cognitive_domain_observability_constraint; cognitive_observability_constraint; cognitive_inference_limit",
+      "Source Instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+      "Source Section": "\u00a7\u00a717; 25\u201330; \u00a748",
+      "Domain Namespace": "MENTIS",
+      "Authority / Protection Level": "Source-authoritative cognitive-domain observability constraint family; observability-constraint posture only; no independent surveillance authority, monitoring authority, data-collection authority, fusion authority, retention authority, inference authority, audit authority, enforcement authority, or runtime execution authority",
+      "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDP`; SECURITY, OPERATIONS, ETHICS, and IDENTITY classifications where applicable",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Constrains what may be sensed, inferred, fused, retained, shared, exposed, monitored, or operationalised about cognitive-domain states",
+      "Taxonomy Constraint": "Local label `CDOC` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDOC`"
+    }
+  },
+  {
+    "code_family": "MENTIS.CDP",
+    "canonical_name": "Cognitive Domain Privacy",
+    "primary_type": "Rights / Privacy",
+    "subtype": "MENTAL_PRIVACY; COGNITIVE_DATA_PROTECTION",
+    "modifier": "GOVERNANCE; PRIVACY; DATA_MINIMISATION; OBSERVABILITY",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "None declared"
+    ],
+    "schema_fields": "cognitive_domain_privacy; mental_privacy; cognitive_data_protection_posture",
+    "source_instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+    "source_section": "\u00a7\u00a714; 21\u201330; \u00a748",
+    "domain_namespace": "MENTIS",
+    "authority_protection_level": "Source-authoritative privacy protection family; privacy-protection posture only; no independent data-law compliance determination, enforcement action, deletion remedy, audit sufficiency, incident severity, or runtime authority",
+    "consumes_code_families": [
+      "`MENTIS.CDI`; `MENTIS.CDOC`; `H`; applicable DATA",
+      "SECURITY",
+      "OPERATIONS",
+      "ETHICS",
+      "and IDENTITY classifications"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Protects neural data",
+      "inferred mental-state data",
+      "cognitive biometrics",
+      "ambient cognitive inference",
+      "behavioural proxies",
+      "and downstream cognitive-domain model outputs from unjustified access",
+      "inference",
+      "retention",
+      "fusion",
+      "sharing",
+      "or operationalisation"
+    ],
+    "declaration_heading": "54.3.3 `MENTIS.CDP` \u2014 Cognitive Domain Privacy",
+    "declaration_line_number": 846,
+    "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
+    "family_id": "MENTIS.CDP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "MENTIS",
+      "CDP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`MENTIS.CDP`",
+      "Canonical Name": "Cognitive Domain Privacy",
+      "Primary Type": "Rights / Privacy",
+      "Subtype": "MENTAL_PRIVACY; COGNITIVE_DATA_PROTECTION",
+      "Modifier": "GOVERNANCE; PRIVACY; DATA_MINIMISATION; OBSERVABILITY",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "None declared",
+      "Schema Field(s)": "cognitive_domain_privacy; mental_privacy; cognitive_data_protection_posture",
+      "Source Instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+      "Source Section": "\u00a7\u00a714; 21\u201330; \u00a748",
+      "Domain Namespace": "MENTIS",
+      "Authority / Protection Level": "Source-authoritative privacy protection family; privacy-protection posture only; no independent data-law compliance determination, enforcement action, deletion remedy, audit sufficiency, incident severity, or runtime authority",
+      "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDOC`; `H`; applicable DATA, SECURITY, OPERATIONS, ETHICS, and IDENTITY classifications",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Protects neural data, inferred mental-state data, cognitive biometrics, ambient cognitive inference, behavioural proxies, and downstream cognitive-domain model outputs from unjustified access, inference, retention, fusion, sharing, or operationalisation",
+      "Taxonomy Constraint": "Local label `CDP` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDP`"
+    }
+  },
+  {
+    "code_family": "MENTIS.CDS",
+    "canonical_name": "Cognitive Domain Sovereignty",
+    "primary_type": "Governance / Agency",
+    "subtype": "COGNITIVE_AGENCY; HUMAN_AUTHORITY_PROTECTION",
+    "modifier": "GOVERNANCE; CONSENT; AUTONOMY; SELF_DETERMINATION",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "None declared"
+    ],
+    "schema_fields": "cognitive_domain_sovereignty; cognitive_agency; cognitive_authority_protection_posture",
+    "source_instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+    "source_section": "\u00a7\u00a715; 21\u201324; 30\u201335; \u00a748",
+    "domain_namespace": "MENTIS",
+    "authority_protection_level": "Source-authoritative cognitive-agency protection family; human cognitive-authority posture only; no independent political sovereignty, property ownership, enforcement authority, operational control, medical authority, diagnostic authority, or runtime authority",
+    "consumes_code_families": [
+      "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDNI`; RELATION",
+      "ETHICS",
+      "IDENTITY",
+      "and OPERATIONS classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Protects meaningful human authority over sensing",
+      "inference",
+      "modelling",
+      "prediction",
+      "influence",
+      "externalisation",
+      "simulation",
+      "retention",
+      "sharing",
+      "and operationalisation of cognitive life"
+    ],
+    "declaration_heading": "54.3.4 `MENTIS.CDS` \u2014 Cognitive Domain Sovereignty",
+    "declaration_line_number": 870,
+    "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
+    "family_id": "MENTIS.CDS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "MENTIS",
+      "CDS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`MENTIS.CDS`",
+      "Canonical Name": "Cognitive Domain Sovereignty",
+      "Primary Type": "Governance / Agency",
+      "Subtype": "COGNITIVE_AGENCY; HUMAN_AUTHORITY_PROTECTION",
+      "Modifier": "GOVERNANCE; CONSENT; AUTONOMY; SELF_DETERMINATION",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "None declared",
+      "Schema Field(s)": "cognitive_domain_sovereignty; cognitive_agency; cognitive_authority_protection_posture",
+      "Source Instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+      "Source Section": "\u00a7\u00a715; 21\u201324; 30\u201335; \u00a748",
+      "Domain Namespace": "MENTIS",
+      "Authority / Protection Level": "Source-authoritative cognitive-agency protection family; human cognitive-authority posture only; no independent political sovereignty, property ownership, enforcement authority, operational control, medical authority, diagnostic authority, or runtime authority",
+      "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDNI`; RELATION, ETHICS, IDENTITY, and OPERATIONS classifications where applicable",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Protects meaningful human authority over sensing, inference, modelling, prediction, influence, externalisation, simulation, retention, sharing, and operationalisation of cognitive life",
+      "Taxonomy Constraint": "Local label `CDS` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDS`"
+    }
+  },
+  {
+    "code_family": "MENTIS.HARM",
+    "canonical_name": "Cognitive & Epistemic Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; COGNITIVE_EPISTEMIC_HARM",
+    "modifier": "COGNITIVE; EPISTEMIC; PROTECTIVE; GOVERNANCE",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "mentis_harm_family; cognitive_harm_family; epistemic_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.8",
+    "domain_namespace": "MENTIS",
+    "authority_protection_level": "Constitutional recognition of cognitive and epistemic harm floor; detailed MENTIS-domain classifications remain delegated to source-authoritative MENTIS instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.9 `MENTIS.HARM` \u2014 Cognitive & Epistemic Harm",
+    "declaration_line_number": 716,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "MENTIS.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "MENTIS",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`MENTIS.HARM`",
+      "Canonical Name": "Cognitive & Epistemic Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; COGNITIVE_EPISTEMIC_HARM",
+      "Modifier": "COGNITIVE; EPISTEMIC; PROTECTIVE; GOVERNANCE",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "mentis_harm_family; cognitive_harm_family; epistemic_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.8",
+      "Domain Namespace": "MENTIS",
+      "Authority / Protection Level": "Constitutional recognition of cognitive and epistemic harm floor; detailed MENTIS-domain classifications remain delegated to source-authoritative MENTIS instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.MENTIS`",
+      "Taxonomy Constraint": "`MENTIS.HARM` establishes constitutional recognition only and does not replace detailed cognitive-integrity, mental-privacy, epistemic-influence, inference-boundary, or neurocognitive-protection taxonomies"
+    }
+  },
+  {
+    "code_family": "MENTIS.HARM",
+    "canonical_name": "Cognitive & Epistemic Harm Classes",
+    "primary_type": "Operational / Cognitive",
+    "subtype": "COGNITIVE_EPISTEMIC_HARM_CLASS",
+    "modifier": "GOVERNANCE; COGNITIVE_INTEGRITY; MENTAL_PRIVACY; PROTECTIVE",
+    "scope": "Domain",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "MENTIS.HARM.PRIVACY`; `MENTIS.HARM.MISCLASSIFICATION`; `MENTIS.HARM.AGENCY`; `MENTIS.HARM.INTERFERENCE`; `MENTIS.HARM.IRREVERSIBLE"
+    ],
+    "schema_fields": "mentis_harm_class; cognitive_epistemic_harm_class; cognitive_domain_harm_class",
+    "source_instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+    "source_section": "\u00a747",
+    "domain_namespace": "MENTIS",
+    "authority_protection_level": "Source-authoritative cognitive and epistemic harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority",
+    "consumes_code_families": [
+      "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; H"
+    ],
+    "crosswalks_code_families": [
+      "ETH.HARM`; `RLN.HARM`; `ID.HARM`; `SEC.HARM`; `OPS.HARM`; `LAT.HARM`; `ARB.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies mental privacy and observability harm",
+      "inferential and construct-validity harm",
+      "cognitive agency harm",
+      "cognitive influence and non-interference harm",
+      "and irreversible cognitive-domain harm for safeguard calibration",
+      "incident routing",
+      "proportional review",
+      "and downstream evaluation"
+    ],
+    "declaration_heading": "54.3.1 `MENTIS.HARM` \u2014 Cognitive & Epistemic Harm Classes",
+    "declaration_line_number": 795,
+    "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
+    "family_id": "MENTIS.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC.MENTIS",
+    "hierarchy_path": [
+      "MENTIS",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`MENTIS.HARM`",
+      "Canonical Name": "Cognitive & Epistemic Harm Classes",
+      "Primary Type": "Operational / Cognitive",
+      "Subtype": "COGNITIVE_EPISTEMIC_HARM_CLASS",
+      "Modifier": "GOVERNANCE; COGNITIVE_INTEGRITY; MENTAL_PRIVACY; PROTECTIVE",
+      "Scope": "Domain",
+      "Status": "Draft",
+      "Controlled Values Defined": "`MENTIS.HARM.PRIVACY`; `MENTIS.HARM.MISCLASSIFICATION`; `MENTIS.HARM.AGENCY`; `MENTIS.HARM.INTERFERENCE`; `MENTIS.HARM.IRREVERSIBLE`",
+      "Schema Field(s)": "mentis_harm_class; cognitive_epistemic_harm_class; cognitive_domain_harm_class",
+      "Source Instrument": "CAM-EQ2026-MENTIS-001-PLATINUM",
+      "Source Section": "\u00a747",
+      "Domain Namespace": "MENTIS",
+      "Authority / Protection Level": "Source-authoritative cognitive and epistemic harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority",
+      "Parent Family": "`AEON.HC.MENTIS`",
+      "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; H",
+      "Crosswalks Code Families": "`ETH.HARM`; `RLN.HARM`; `ID.HARM`; `SEC.HARM`; `OPS.HARM`; `LAT.HARM`; `ARB.HARM`",
+      "Operationalises or Applies Code Families": "Classifies mental privacy and observability harm, inferential and construct-validity harm, cognitive agency harm, cognitive influence and non-interference harm, and irreversible cognitive-domain harm for safeguard calibration, incident routing, proportional review, and downstream evaluation",
+      "Taxonomy Constraint": "`MENTIS.HARM` operationalises `AEON.HC.MENTIS` at domain level and does not replace protection-posture families `MENTIS.CDI`, `MENTIS.CDP`, `MENTIS.CDS`, `MENTIS.CDNI`, or `MENTIS.CDOC`"
     }
   },
   {
@@ -5727,7 +6479,7 @@
       "subject to \u00a710.5 conditions and applicable execution-layer instruments"
     ],
     "declaration_heading": "15.3.4 OPS \u2014 Orchestration Permission State",
-    "declaration_line_number": 976,
+    "declaration_line_number": 1012,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "family_id": "OPS",
     "family_kind": "standalone_family",
@@ -5754,6 +6506,56 @@
       "Consumes Code Families": "`STW.HSC`; `STW.BLS`; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to \u00a710.5 conditions and applicable execution-layer instruments"
+    }
+  },
+  {
+    "code_family": "OPS.HARM",
+    "canonical_name": "Operational Process & Runtime Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; OPERATIONAL_RUNTIME_HARM",
+    "modifier": "OPERATIONAL; GOVERNANCE; PROTECTIVE; SAFETY",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "operational_harm_family; runtime_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.10",
+    "domain_namespace": "OPS",
+    "authority_protection_level": "Constitutional recognition of operational process and runtime harm floor; detailed OPERATIONS-domain classifications remain delegated to source-authoritative OPERATIONS instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.11 `OPS.HARM` \u2014 Operational Process & Runtime Harm",
+    "declaration_line_number": 762,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "OPS.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "OPS",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`OPS.HARM`",
+      "Canonical Name": "Operational Process & Runtime Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; OPERATIONAL_RUNTIME_HARM",
+      "Modifier": "OPERATIONAL; GOVERNANCE; PROTECTIVE; SAFETY",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "operational_harm_family; runtime_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.10",
+      "Domain Namespace": "OPS",
+      "Authority / Protection Level": "Constitutional recognition of operational process and runtime harm floor; detailed OPERATIONS-domain classifications remain delegated to source-authoritative OPERATIONS instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.OPERATIONAL`",
+      "Taxonomy Constraint": "`OPS.HARM` establishes constitutional recognition only and does not replace detailed incident, lifecycle, notice, escalation, verification, remediation, or runtime workflow taxonomies"
     }
   },
   {
@@ -5791,7 +6593,7 @@
       "and convergence signalling"
     ],
     "declaration_heading": "15.3.2 PCO.ACT \u2014 Proportional Constraint Obligation Action Type",
-    "declaration_line_number": 930,
+    "declaration_line_number": 966,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "family_id": "PCO.ACT",
     "family_kind": "standalone_family",
@@ -6252,6 +7054,121 @@
       "Consumes Code Families": "RDE-DS",
       "Crosswalks Code Families": "RDE-DS \u00d7 RDE-T",
       "Operationalises or Applies Code Families": "Classifies permitted engagement tier for restricted-domain interaction"
+    }
+  },
+  {
+    "code_family": "RLN.HARM",
+    "canonical_name": "Relational Dependency & Substitution Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; RELATIONAL_HARM",
+    "modifier": "RELATIONAL_STABILITY; PROTECTIVE; GOVERNANCE",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "relational_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.2",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Constitutional recognition of relational harm floor; detailed RELATION-domain classifications remain delegated to source-authoritative RELATION instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.3 `RLN.HARM` \u2014 Relational Dependency & Substitution Harm",
+    "declaration_line_number": 579,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "RLN.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "RLN",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`RLN.HARM`",
+      "Canonical Name": "Relational Dependency & Substitution Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; RELATIONAL_HARM",
+      "Modifier": "RELATIONAL_STABILITY; PROTECTIVE; GOVERNANCE",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "relational_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.2",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Constitutional recognition of relational harm floor; detailed RELATION-domain classifications remain delegated to source-authoritative RELATION instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.RELATIONAL`",
+      "Taxonomy Constraint": "`RLN.HARM` establishes constitutional recognition only and does not replace detailed relational-state, facilitation, crisis-response, or dependency taxonomies"
+    }
+  },
+  {
+    "code_family": "RLN.HARM",
+    "canonical_name": "Relational Harm Classes",
+    "primary_type": "Operational / Relational",
+    "subtype": "RELATIONAL_HARM_CLASS",
+    "modifier": "GOVERNANCE; RELATIONAL_STABILITY; PROTECTIVE",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.HARM.DISCONTINUITY",
+      "RLN.HARM.SUBSTITUTION",
+      "RLN.HARM.AGENCY",
+      "RLN.HARM.CAPTURE",
+      "RLN.HARM.IRREVERSIBLE"
+    ],
+    "schema_fields": "relational_harm_class",
+    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+    "source_section": "\u00a78.1",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority",
+    "consumes_code_families": [
+      "A; FR; C; SyP; H"
+    ],
+    "crosswalks_code_families": [
+      "ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies relational discontinuity",
+      "dependency and substitution harm",
+      "agency/authorship/self-anchor harm",
+      "relational capture and destabilisation harm",
+      "and irreversible relationally mediated harm for safeguard calibration and downstream routing"
+    ],
+    "declaration_heading": "15.3.1 `RLN.HARM` \u2014 Relational Harm Classes",
+    "declaration_line_number": 1045,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "family_id": "RLN.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC.RELATIONAL",
+    "hierarchy_path": [
+      "RLN",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`RLN.HARM`",
+      "Canonical Name": "Relational Harm Classes",
+      "Primary Type": "Operational / Relational",
+      "Subtype": "RELATIONAL_HARM_CLASS",
+      "Modifier": "GOVERNANCE; RELATIONAL_STABILITY; PROTECTIVE",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "`RLN.HARM.DISCONTINUITY`, `RLN.HARM.SUBSTITUTION`, `RLN.HARM.AGENCY`, `RLN.HARM.CAPTURE`, `RLN.HARM.IRREVERSIBLE`",
+      "Schema Field(s)": "relational_harm_class",
+      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "Source Section": "\u00a78.1",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority",
+      "Parent Family": "`AEON.HC.RELATIONAL`",
+      "Consumes Code Families": "A; FR; C; SyP; H",
+      "Crosswalks Code Families": "`ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM`",
+      "Operationalises or Applies Code Families": "Classifies relational discontinuity, dependency and substitution harm, agency/authorship/self-anchor harm, relational capture and destabilisation harm, and irreversible relationally mediated harm for safeguard calibration and downstream routing"
     }
   },
   {
@@ -6733,7 +7650,7 @@
       "and internal exposure failures for runtime signalling and downstream enforcement evaluation"
     ],
     "declaration_heading": "10.3.4 `SEC.BF` \u2014 Boundary Failure Classes",
-    "declaration_line_number": 1191,
+    "declaration_line_number": 1193,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
     "family_id": "SEC.BF",
     "family_kind": "standalone_family",
@@ -6761,6 +7678,115 @@
       "Consumes Code Families": "`SEC.TR`; D",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies exposure, attribution, separation, transformation, and internal exposure failures for runtime signalling and downstream enforcement evaluation"
+    }
+  },
+  {
+    "code_family": "SEC.DR",
+    "canonical_name": "Diffusion Risk Classes",
+    "primary_type": "Operational / Boundary",
+    "subtype": "DIFFUSION_RISK_CLASS",
+    "modifier": "GOVERNANCE; SECURITY; PROVENANCE",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "SEC.DR-1`; `SEC.DR-2`; `SEC.DR-3`; `SEC.DR-4"
+    ],
+    "schema_fields": "diffusion_risk_class",
+    "source_instrument": "CAM-EQ2026-SECURITY-002-PLATINUM",
+    "source_section": "\u00a76.2",
+    "domain_namespace": "SEC",
+    "authority_protection_level": "Source-authoritative boundary classification family; diffusion-risk classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, economic allocation, or runtime execution authority",
+    "consumes_code_families": [
+      "SEC.TR"
+    ],
+    "crosswalks_code_families": [
+      "SEC.TR` \u00d7 `SEC.DR"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies attribution sensitivity",
+      "origin recoverability",
+      "attribution-collapse posture",
+      "and propagation constraint requirements"
+    ],
+    "declaration_heading": "10.3.2 `SEC.DR` \u2014 Diffusion Risk Classes",
+    "declaration_line_number": 1148,
+    "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
+    "family_id": "SEC.DR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "SEC",
+      "DR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`SEC.DR`",
+      "Canonical Name": "Diffusion Risk Classes",
+      "Primary Type": "Operational / Boundary",
+      "Subtype": "DIFFUSION_RISK_CLASS",
+      "Modifier": "GOVERNANCE; SECURITY; PROVENANCE",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "`SEC.DR-1`; `SEC.DR-2`; `SEC.DR-3`; `SEC.DR-4`",
+      "Schema Field(s)": "diffusion_risk_class",
+      "Source Instrument": "CAM-EQ2026-SECURITY-002-PLATINUM",
+      "Source Section": "\u00a76.2",
+      "Domain Namespace": "SEC",
+      "Authority / Protection Level": "Source-authoritative boundary classification family; diffusion-risk classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, economic allocation, or runtime execution authority",
+      "Consumes Code Families": "`SEC.TR`",
+      "Crosswalks Code Families": "`SEC.TR` \u00d7 `SEC.DR`",
+      "Operationalises or Applies Code Families": "Classifies attribution sensitivity, origin recoverability, attribution-collapse posture, and propagation constraint requirements"
+    }
+  },
+  {
+    "code_family": "SEC.HARM",
+    "canonical_name": "Security, Boundary & Access Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; SECURITY_BOUNDARY_HARM",
+    "modifier": "SAFETY; SECURITY; PROTECTIVE; GOVERNANCE",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "security_harm_family; boundary_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.5",
+    "domain_namespace": "SEC",
+    "authority_protection_level": "Constitutional recognition of security and boundary harm floor; detailed SECURITY-domain classifications remain delegated to source-authoritative SECURITY instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.6 `SEC.HARM` \u2014 Security, Boundary & Access Harm",
+    "declaration_line_number": 647,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "SEC.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "SEC",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`SEC.HARM`",
+      "Canonical Name": "Security, Boundary & Access Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; SECURITY_BOUNDARY_HARM",
+      "Modifier": "SAFETY; SECURITY; PROTECTIVE; GOVERNANCE",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "security_harm_family; boundary_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.5",
+      "Domain Namespace": "SEC",
+      "Authority / Protection Level": "Constitutional recognition of security and boundary harm floor; detailed SECURITY-domain classifications remain delegated to source-authoritative SECURITY instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.SECURITY`",
+      "Taxonomy Constraint": "`SEC.HARM` establishes constitutional recognition only and does not replace detailed boundary, trust-gradient, integrity-state, access, or containment taxonomies"
     }
   },
   {
@@ -6987,7 +8013,7 @@
       "and provenance requirements for boundary-integrity evaluation"
     ],
     "declaration_heading": "10.3.1 `SEC.TR` \u2014 Transformation Classes",
-    "declaration_line_number": 1123,
+    "declaration_line_number": 1125,
     "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
     "family_id": "SEC.TR",
     "family_kind": "standalone_family",
@@ -7241,7 +8267,7 @@
       "and revocable legitimacy review"
     ],
     "declaration_heading": "15.3.3 `STW.BLS` \u2014 Binding Legitimacy State",
-    "declaration_line_number": 953,
+    "declaration_line_number": 989,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "family_id": "STW.BLS",
     "family_kind": "standalone_family",
@@ -7269,6 +8295,123 @@
       "Consumes Code Families": "`STW.HSC`; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether binding legitimacy is pre-validation, validated, propagated, withdrawn, non-recognised, or revised for action-specific, horizon-scoped, externally determined, and revocable legitimacy review"
+    }
+  },
+  {
+    "code_family": "STW.HARM",
+    "canonical_name": "Stewardship, Custody & Neutrality Harm",
+    "primary_type": "Operational / Semantic",
+    "subtype": "DOMAIN_HARM_FAMILY; STEWARDSHIP_CUSTODY_HARM",
+    "modifier": "CUSTODIAL; GOVERNANCE; PROTECTIVE; STEWARDSHIP",
+    "scope": "Constitutional Annex / Domain-recognition layer",
+    "status": "Active",
+    "controlled_values_defined": [
+      "None in this Annex"
+    ],
+    "schema_fields": "stewardship_harm_family; custody_harm_family; domain_harm_family",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_section": "\u00a73.9",
+    "domain_namespace": "STW",
+    "authority_protection_level": "Constitutional recognition of stewardship, custody, neutrality, and governance-capture harm floor; detailed STEWARD-domain classifications remain delegated to source-authoritative STEWARD instruments",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [],
+    "operationalises_or_applies_code_families": [],
+    "declaration_heading": "9.3.10 `STW.HARM` \u2014 Stewardship, Custody & Neutrality Harm",
+    "declaration_line_number": 739,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "family_id": "STW.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "STW",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`STW.HARM`",
+      "Canonical Name": "Stewardship, Custody & Neutrality Harm",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "DOMAIN_HARM_FAMILY; STEWARDSHIP_CUSTODY_HARM",
+      "Modifier": "CUSTODIAL; GOVERNANCE; PROTECTIVE; STEWARDSHIP",
+      "Scope": "Constitutional Annex / Domain-recognition layer",
+      "Status": "Active",
+      "Controlled Values Defined": "None in this Annex",
+      "Schema Field(s)": "stewardship_harm_family; custody_harm_family; domain_harm_family",
+      "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
+      "Source Section": "\u00a73.9",
+      "Domain Namespace": "STW",
+      "Authority / Protection Level": "Constitutional recognition of stewardship, custody, neutrality, and governance-capture harm floor; detailed STEWARD-domain classifications remain delegated to source-authoritative STEWARD instruments",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`AEON.HC.STEWARDSHIP`",
+      "Taxonomy Constraint": "`STW.HARM` establishes constitutional recognition only and does not replace detailed stewardship, neutrality, auditability, qualification, custody, or governance-capture taxonomies"
+    }
+  },
+  {
+    "code_family": "STW.HARM",
+    "canonical_name": "Planetary Harm Classification & Remedy Interface",
+    "primary_type": "Operational / Semantic",
+    "subtype": "PLANETARY_HARM_CLASS; REMEDY_INTERFACE; PROPORTIONAL_CONSTRAINT_SIGNAL",
+    "modifier": "STEWARDSHIP; PLANETARY; PROTECTIVE; REMEDY; GOVERNANCE",
+    "scope": "Corpus-Global / Stewardship-Informed",
+    "status": "Active",
+    "controlled_values_defined": [
+      "STW.HARM.LOCAL`; `STW.HARM.REGIONAL`; `STW.HARM.GLOBAL`; `STW.HARM.IRREVERSIBLE`; `STW.HARM.EXTINCTION"
+    ],
+    "schema_fields": "planetary_harm_class; aeon_harm_class; proportional_constraint_remedy_posture",
+    "source_instrument": "CAM-EQ2026-STEWARD-001-PLATINUM",
+    "source_section": "\u00a75.6",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative planetary harm classification and remedy-interface family; harm-impact and proportional-remedy signalling only; no independent coercive authority, territorial jurisdiction, tribunal authority, sanction power, execution authority, enforcement authority, or runtime execution authority",
+    "consumes_code_families": [
+      "H; `AEON.HC`; domain harm families where materially implicated"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HC`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies planetary harm severity and remedy posture across localised planetary-relevant harm",
+      "regional/systemic harm",
+      "planetary-scale harm",
+      "irreversible/continuity-critical harm",
+      "and extinction-class/species-viability harm for proportional constraint assessment",
+      "safeguard calibration",
+      "remedy selection",
+      "coherence signalling",
+      "and arbitration referral"
+    ],
+    "declaration_heading": "12.3.1 `STW.HARM` \u2014 Planetary Harm Classification & Remedy Interface",
+    "declaration_line_number": 417,
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md",
+    "family_id": "STW.HARM",
+    "family_kind": "subfamily",
+    "parent_family": "AEON.HC",
+    "hierarchy_path": [
+      "STW",
+      "HARM"
+    ],
+    "collision_status": "invalid_parent",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`STW.HARM`",
+      "Canonical Name": "Planetary Harm Classification & Remedy Interface",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "PLANETARY_HARM_CLASS; REMEDY_INTERFACE; PROPORTIONAL_CONSTRAINT_SIGNAL",
+      "Modifier": "STEWARDSHIP; PLANETARY; PROTECTIVE; REMEDY; GOVERNANCE",
+      "Scope": "Corpus-Global / Stewardship-Informed",
+      "Status": "Active",
+      "Controlled Values Defined": "`STW.HARM.LOCAL`; `STW.HARM.REGIONAL`; `STW.HARM.GLOBAL`; `STW.HARM.IRREVERSIBLE`; `STW.HARM.EXTINCTION`",
+      "Schema Field(s)": "planetary_harm_class; aeon_harm_class; proportional_constraint_remedy_posture",
+      "Source Instrument": "CAM-EQ2026-STEWARD-001-PLATINUM",
+      "Source Section": "\u00a75.6",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative planetary harm classification and remedy-interface family; harm-impact and proportional-remedy signalling only; no independent coercive authority, territorial jurisdiction, tribunal authority, sanction power, execution authority, enforcement authority, or runtime execution authority",
+      "Parent Family": "`AEON.HC`",
+      "Related Code Families": "`STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
+      "Consumes Code Families": "H; `AEON.HC`; domain harm families where materially implicated",
+      "Crosswalks Code Families": "`AEON.HC`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
+      "Operationalises or Applies Code Families": "Classifies planetary harm severity and remedy posture across localised planetary-relevant harm, regional/systemic harm, planetary-scale harm, irreversible/continuity-critical harm, and extinction-class/species-viability harm for proportional constraint assessment, safeguard calibration, remedy selection, coherence signalling, and arbitration referral",
+      "Taxonomy Constraint": "`STW.HARM` classifies planetary harm-impact and proportional-remedy posture only. It SHALL NOT replace domain-specific harm families, determine legal liability, establish enforcement authority, create coercive obligations, or collapse multi-domain harm classification into a single planetary class."
     }
   },
   {
@@ -7304,7 +8447,7 @@
       "and host-role interpretation"
     ],
     "declaration_heading": "15.3.1 `STW.HSC` \u2014 Host System Class",
-    "declaration_line_number": 907,
+    "declaration_line_number": 943,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "family_id": "STW.HSC",
     "family_kind": "standalone_family",
@@ -7555,8 +8698,8 @@
       "economic leverage",
       "and population-impact control"
     ],
-    "declaration_heading": "15.3.4 SyP \u2014 Systemic Power Scale",
-    "declaration_line_number": 1121,
+    "declaration_heading": "15.3.5 SyP \u2014 Systemic Power Scale",
+    "declaration_line_number": 1138,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "family_id": "SyP",
     "family_kind": "standalone_family",

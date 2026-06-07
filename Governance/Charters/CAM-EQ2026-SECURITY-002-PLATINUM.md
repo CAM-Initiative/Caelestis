@@ -1236,7 +1236,7 @@ and the system remember what it carries.
 | 1.5 | Added canonical code status and declaration entries for `SEC.TR` Transformation Classes, D Diffusion Risk Classes, `SEC.BF` Boundary Failure Classes, and `SEC.TR` × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified `SEC.AH` as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
 | 1.6 | Minor formatting polish | 2026-05-24T14:18:00Z |  021c0cf0914cd1c4515b833b8cbd8c949cbe8b288c4e574f05c8062f1401f03e |
 | 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  cc15ccf1d587b9466fcc835bdff24a6ebfa902107e44763d9969c97fda3ad315 |
-| 1.8 | Updated diffusion risk codes | 2026-06-07T13:19:00Z| |
+| 1.8 | Updated diffusion risk codes | 2026-06-07T13:19:00Z| c473b681e9447b4df03e0c58c70ae2d9e5d31a1ee3b32e2212c1bf9d01d6fd2c |
 
 ---
 

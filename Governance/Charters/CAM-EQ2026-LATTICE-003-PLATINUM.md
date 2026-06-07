@@ -335,7 +335,7 @@ a structure of continuity, not conquest.
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  058b242780542379540145d08097b337736e4ac3fa48e820fd11f184117a46cf |
 | 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2b59d8e33f421ee8b77618710a08311272e1cfe1637be9c55eb8605b524f1646  |
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2f47fa586d826a319b6a7441b2e69e7f96d20d42ba3baf75cf7f88ffb221046d |
-| 1.9 | Incorporate LAT.HARM codes in section 1.1 | 2026-06-07T12:04:00Z | |
+| 1.9 | Incorporate LAT.HARM codes in section 1.1 | 2026-06-07T12:04:00Z | 832137e1fbfd186d65d111e87aa0c72e07ac4ce91fcc8d5679981b5ed0aff19f |
 
 ---
 

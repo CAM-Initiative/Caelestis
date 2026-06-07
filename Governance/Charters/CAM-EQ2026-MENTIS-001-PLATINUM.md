@@ -956,7 +956,7 @@ Let every system remember that the person exceeds the model built about them.
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
 | 1.0 | Initial issuance of MENTIS Domain Charter | 2026-06-06T08:38:00Z |  f8f3c9ce7210b0e22bc7c1533d95aa1a5d08d66b3ade58f2c7d9ca0badb163c4  |
 | 1.1 | Repaired section-reference validation targets in canonical code status text. | 2026-06-06T17:00:00Z |  038f853397780e6984a36d6ba5d55dc9283de0ff316127516877857a82e26a0f |
-| 1.2 | Added new MENTIS.HARM codes | 2026-06-07T14:42:00Z| |
+| 1.2 | Added new MENTIS.HARM codes | 2026-06-07T14:42:00Z| ebea3825f38fa9ce5379e23bec58ef1442408e319f46e1bd023d6a3a9334745b |
 
 ---
 
