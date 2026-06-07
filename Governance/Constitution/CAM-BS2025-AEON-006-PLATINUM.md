@@ -437,17 +437,17 @@ This Annex constitutionally recognises the following domain harm families as chi
 
 | Domain Harm Family | Parent Registry Value | Source Section |
 | ------------------ | --------------------- | -------------- |
-| `ETH.HARM`         | `AEON.HC.ETHICAL`     | §4.1           |
-| `RLN.HARM`         | `AEON.HC.RELATIONAL`  | §4.2           |
-| `ID.HARM`          | `AEON.HC.IDENTITY`    | §4.3           |
-| `ECON.HARM`        | `AEON.HC.ECONOMIC`    | §4.4           |
-| `SEC.HARM`         | `AEON.HC.SECURITY`    | §4.5           |
-| `LAT.HARM`         | `AEON.HC.LATTICE`     | §4.6           |
-| `ARB.HARM`         | `AEON.HC.ARBITRATION` | §4.7           |
-| `MENTIS.HARM`      | `AEON.HC.MENTIS`      | §4.8           |
-| `STW.HARM`         | `AEON.HC.STEWARDSHIP` | §4.9           |
-| `OPS.HARM`         | `AEON.HC.OPERATIONAL` | §4.10          |
-| `CONT.HARM`        | `AEON.HC.CONTINUITY`  | §4.11          |
+| `ETH.HARM`         | `AEON.HC.ETHICAL`     | §3.1           |
+| `RLN.HARM`         | `AEON.HC.RELATIONAL`  | §3.2           |
+| `ID.HARM`          | `AEON.HC.IDENTITY`    | §3.3           |
+| `ECON.HARM`        | `AEON.HC.ECONOMIC`    | §3.4           |
+| `SEC.HARM`         | `AEON.HC.SECURITY`    | §3.5           |
+| `LAT.HARM`         | `AEON.HC.LATTICE`     | §3.6           |
+| `ARB.HARM`         | `AEON.HC.ARBITRATION` | §3.7           |
+| `MENTIS.HARM`      | `AEON.HC.MENTIS`      | §3.8           |
+| `STW.HARM`         | `AEON.HC.STEWARDSHIP` | §3.9           |
+| `OPS.HARM`         | `AEON.HC.OPERATIONAL` | §3.10          |
+| `CONT.HARM`        | `AEON.HC.CONTINUITY`  | §3.11          |
 
 These domain harm families define constitutional harm-floor recognition only unless and until a domain instrument defines detailed controlled values, operational routing, severity classes, remedies, enforcement procedures, or audit workflows.
 
@@ -831,7 +831,7 @@ This is the floor that does not move.
 | 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  012862187d902429c2a1f8ee87128f0a9423bfda11c685980a20e54274b23397 |
 | 3.7 | Added canonical codes | 2026-06-06T12:07:00Z | a7a0b4072f3f37542b3c2b9154b9474d5333ae90e731b69494a60882dce568e3 |
 | 3.8 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  0e8196254d4ea0fae32a2c5f414845f60b77b74a9059bf7458157bafae1be676 |
-| 4.0 | Refactor | 2026-06-07T11:45:00Z| |
+| 4.0 | Refactor | 2026-06-07T14:54:00Z| |
 
 ---
 
