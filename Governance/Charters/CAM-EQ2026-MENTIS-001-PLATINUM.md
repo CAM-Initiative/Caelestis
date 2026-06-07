@@ -784,7 +784,7 @@ Let every system remember that the person exceeds the model built about them.
 | Revision Posture | Draft — Developmental Review |
 | Migration Lineage | Newly created MENTIS domain charter during June 2026 cognitive-domain governance expansion |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a1a9ae0-15f4-83ec-999a-52bdff043f39 |
-| Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a2569e7-787c-83ec-b913-314e6295b988 |
 
 ---
 
@@ -955,7 +955,8 @@ Let every system remember that the person exceeds the model built about them.
 | Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
 | 1.0 | Initial issuance of MENTIS Domain Charter | 2026-06-06T08:38:00Z |  f8f3c9ce7210b0e22bc7c1533d95aa1a5d08d66b3ade58f2c7d9ca0badb163c4  |
-| 1.1 | Repaired section-reference validation targets in canonical code status text. | 2026-06-06T17:00:00Z |  038f853397780e6984a36d6ba5d55dc9283de0ff316127516877857a82e26a0f  |
+| 1.1 | Repaired section-reference validation targets in canonical code status text. | 2026-06-06T17:00:00Z |  038f853397780e6984a36d6ba5d55dc9283de0ff316127516877857a82e26a0f |
+| 1.2 | Added new MENTIS.HARM codes | 2026-06-07T14:42:00Z| |
 
 ---
 
