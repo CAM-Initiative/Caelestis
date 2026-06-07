@@ -1,0 +1,187 @@
+{
+  "aeon_annex_harm_classes_found": false,
+  "global_harm_family": {
+    "current_family_id": "",
+    "proposed_family_id": "AEON.HC",
+    "source_instrument": "",
+    "source_path": "",
+    "finding": "absent",
+    "wrong_layer_possible": false,
+    "migration_recommended": false,
+    "notes": "No source-authoritative AEON.HC or AEON/Annex Harm Class Scale declaration was found. AEON schedule material consumes ETHICS harm classification and defers harm-class severity to CAM-EQ2026-ETHICS-003-PLATINUM. Creating AEON.HC would require a later source-authority amendment."
+  },
+  "current_ethics_harm_family": {
+    "current_family_id": "ETH.HC",
+    "canonical_name": "Harm Class Scale",
+    "source_instrument": "CAM-EQ2026-ETHICS-003-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
+    "source_sections": [
+      "\u00a73.5",
+      "\u00a711.2",
+      "\u00a712.3.1"
+    ],
+    "finding": "ethics_local",
+    "rename_to_aeon_recommended": false,
+    "authority_layer_assessment": "The source text declares ETH.HC as the authoritative ethical harm classification scale, with Scope = Domain and Domain Namespace = ETH. Cross-domain consumers do not redefine it as a global AEON family."
+  },
+  "domain_harm_families": [
+    {
+      "domain": "Economics",
+      "current_family_id": "ECON.HARM",
+      "proposed_family_id": "ECON.HC",
+      "relationship_to_global": "crosswalk_candidate_if_aeon_parent_created",
+      "rename_recommended": false,
+      "source_instrument": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
+      "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
+      "source_sections": [
+        "\u00a74.6",
+        "\u00a718.2",
+        "\u00a720.3.2"
+      ],
+      "classification": "domain_specific_harm_doctrine",
+      "notes": "ECON.HARM classifies economic harm patterns with domain-specific values; it should remain unchanged and may crosswalk to a future AEON.HC parent."
+    },
+    {
+      "domain": "Ethics",
+      "current_family_id": "ETH.HC",
+      "proposed_family_id": "",
+      "relationship_to_global": "domain_specific_extension_if_aeon_parent_created",
+      "rename_recommended": false,
+      "classification": "domain_specific_harm_doctrine",
+      "notes": "ETH.HC remains source-supported as the current ethical Harm Class Scale."
+    },
+    {
+      "domain": "Identity",
+      "current_family_id": "",
+      "proposed_family_id": "ID.HC",
+      "relationship_to_global": "absent",
+      "rename_recommended": false,
+      "classification": "absent",
+      "notes": "No source-authoritative Identity Harm Class family was found."
+    },
+    {
+      "domain": "Security",
+      "current_family_id": "",
+      "proposed_family_id": "SEC.HC",
+      "relationship_to_global": "absent",
+      "rename_recommended": false,
+      "classification": "absent",
+      "notes": "No source-authoritative Security Harm Class family was found."
+    },
+    {
+      "domain": "Relation",
+      "current_family_id": "",
+      "proposed_family_id": "RLN.HC",
+      "relationship_to_global": "consumer_of_eth_hc",
+      "rename_recommended": false,
+      "classification": "risk_or_failure_taxonomy_not_harm_class",
+      "notes": "Relation instruments consume ETH.HC and define separate crisis/facilitation doctrine; no RLN.HC source declaration was found."
+    },
+    {
+      "domain": "Steward",
+      "current_family_id": "",
+      "proposed_family_id": "STW.HC",
+      "relationship_to_global": "absent",
+      "rename_recommended": false,
+      "classification": "absent",
+      "notes": "No source-authoritative Steward Harm Class family was found."
+    },
+    {
+      "domain": "Operations",
+      "current_family_id": "",
+      "proposed_family_id": "OPS.HC",
+      "relationship_to_global": "operational_application_of_eth_hc",
+      "rename_recommended": false,
+      "classification": "domain_specific_extension_of_global_harm",
+      "notes": "Operations applies ETH.HC for escalation and routing but does not define an OPS.HC family."
+    },
+    {
+      "domain": "Continuity",
+      "current_family_id": "",
+      "proposed_family_id": "CONT.HC",
+      "relationship_to_global": "absent",
+      "rename_recommended": false,
+      "classification": "absent",
+      "notes": "No source-authoritative Continuity Harm Class family was found."
+    }
+  ],
+  "source_findings": [
+    {
+      "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
+      "classification": "domain_specific_harm_doctrine",
+      "finding": "Defines ETH.HC as authoritative ethical harm classification scale for criminal/violent harm routing and constraint posture."
+    },
+    {
+      "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+      "classification": "domain_specific_extension_of_global_harm",
+      "finding": "Consumes ETHICS-aligned harm classification and defers substantive harm-class severity to ETHICS-003; contains stale ETHICS.HC metadata references requiring later cleanup."
+    },
+    {
+      "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
+      "classification": "domain_specific_harm_doctrine",
+      "finding": "Defines ECON.HARM as an economic harm-pattern family with temporal-extraction and metering-divergence values."
+    },
+    {
+      "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
+      "classification": "domain_specific_extension_of_global_harm",
+      "finding": "Applies ETH.HC operationally for reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling."
+    },
+    {
+      "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+      "classification": "domain_specific_extension_of_global_harm",
+      "finding": "Consumes ETH.HC by reference for risk escalation terminology."
+    },
+    {
+      "source_path": "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md",
+      "classification": "risk_or_failure_taxonomy_not_harm_class",
+      "finding": "Defines separate harm-risk interaction and facilitation-ceiling doctrine; consumes ETH.HC but does not define HC."
+    }
+  ],
+  "wrong_layer_findings": [
+    {
+      "finding": "AEON.HC source authority absent",
+      "status": "confirmed_absent",
+      "recommended_handling": "Do not create or rename by index-only edit; require source-authoritative constitutional or annex amendment if maintainers want a global parent."
+    },
+    {
+      "finding": "ETH.HC is cross-domain consumed",
+      "status": "confirmed",
+      "recommended_handling": "Keep ETH.HC as an ETHICS-domain family for now; consider AEON.HC parent registry only through a later source-amendment pass."
+    },
+    {
+      "finding": "Stale ETHICS.HC references remain in AEON schedule metadata",
+      "status": "confirmed",
+      "recommended_handling": "Run a narrow reference-cleanup pass for ETHICS.HC to ETH.HC after maintainer approval; this audit did not edit source instruments."
+    }
+  ],
+  "recommended_codex_passes": [
+    {
+      "name": "harm-class-stale-reference-cleanup",
+      "description": "Correct stale ETHICS.HC references to ETH.HC where existing source text and indexes already establish ETH.HC as the current short namespace."
+    },
+    {
+      "name": "aeon-harm-parent-source-authority-decision",
+      "description": "Maintainer/source-authority pass to decide whether to create AEON.HC as a constitutional harm-class parent."
+    },
+    {
+      "name": "domain-harm-crosswalk-staging",
+      "description": "If AEON.HC is created, stage ECON.HARM and other domain harm families as crosswalks or domain-specific extensions without automatic renames."
+    }
+  ],
+  "unresolved_questions": [
+    "Should maintainers create AEON.HC as a constitutional/global Harm Class parent registry?",
+    "If AEON.HC is created, should ETH.HC remain a domain extension, become a deprecated alias, or be superseded?",
+    "Should ECON.HARM remain the Economics harm-pattern family indefinitely, or should ECON.HC be authored separately later?",
+    "Should stale ETHICS.HC references in AEON schedule metadata be corrected to ETH.HC in a separate narrow pass?"
+  ],
+  "validation": {
+    "commands_run": [
+      "python .github/scripts/build-canonical-code-index.py --check",
+      "python .github/scripts/validate_sup04_transmutation_map.py",
+      "python -m pytest .github/scripts/tests",
+      "python -m json.tool data/taxonomy/harm_class_layer_placement_audit.json"
+    ],
+    "status": "passed",
+    "notes": "All validation commands passed. SUP-04 validator reported 87 expected human-review warnings and 0 errors; no failures were caused by this audit."
+  }
+}

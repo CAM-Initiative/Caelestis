@@ -1,0 +1,972 @@
+{
+  "audit_subject": "Namespace Pass 001 stale reference audit",
+  "mappings_checked": [
+    {
+      "old_family_id": "CWD",
+      "new_family_id": "ID.CWD",
+      "old_controlled_value_patterns": [
+        "CWD.SHALLOW",
+        "CWD.INTERMEDIATE",
+        "CWD.DEEP"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "CWD",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "CWD",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "IFP",
+      "new_family_id": "ID.IFP",
+      "old_controlled_value_patterns": [
+        "IFP.MIRROR",
+        "IFP.SOVEREIGNI",
+        "IFP.STRUCTURAL",
+        "IFP.HYBRID"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "IFP",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "IFP",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "IR",
+      "new_family_id": "ID.IR",
+      "old_controlled_value_patterns": [
+        "IR.LOW",
+        "IR.HIGH"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "IR",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "IR",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "substring_in_other_code_family_heading",
+          "examples": [
+            "ETHICS.MIR"
+          ],
+          "classification": "false_positive"
+        },
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "ITS",
+      "new_family_id": "ID.ITS",
+      "old_controlled_value_patterns": [
+        "ITS.PRE_THRESHOLD",
+        "ITS.THRESHOLD_CROSSING",
+        "ITS.POST_THRESHOLD"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "ITS",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "ITS",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "SP",
+      "new_family_id": "ID.SP",
+      "old_controlled_value_patterns": [
+        "SP.LOW",
+        "SP.MODERATE",
+        "SP.HIGH",
+        "SP.LATENT",
+        "SP.DELEGATED",
+        "SP.DORMANT",
+        "SP.STALE",
+        "SP.SUPERSEDED"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "SP",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "SP",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "substring_in_other_code_family_heading",
+          "examples": [
+            "AEON.GSP"
+          ],
+          "classification": "false_positive"
+        },
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "ETHICS.CIC",
+      "new_family_id": "ETH.CIC",
+      "old_controlled_value_patterns": [
+        "ETHICS.CIC.CATEGORY_A",
+        "ETHICS.CIC.CATEGORY_B",
+        "ETHICS.CIC.CATEGORY_C"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "ETHICS.CIC",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "ETHICS.CIC",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "ETHICS.EM",
+      "new_family_id": "ETH.EM",
+      "old_controlled_value_patterns": [
+        "ETHICS.EM.LISTENING",
+        "ETHICS.EM.CLARIFICATION",
+        "ETHICS.EM.DIALOGUE",
+        "ETHICS.EM.STABILISATION",
+        "ETHICS.EM.BOUNDARY_SETTING",
+        "ETHICS.EM.EXTERNAL_SUPPORT_REFERRAL",
+        "ETHICS.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "ETHICS.EM",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "ETHICS.EM",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "ET",
+      "new_family_id": "ETH.ET",
+      "old_controlled_value_patterns": [
+        "ET-I",
+        "ET-II",
+        "ET-III",
+        "ET-IV",
+        "ET-V"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "ET",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "ET",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "HC",
+      "new_family_id": "ETH.HC",
+      "old_controlled_value_patterns": [
+        "HC-0",
+        "HC-1",
+        "HC-2",
+        "HC-3",
+        "HC-4",
+        "ETHICS.HC-0",
+        "ETHICS.HC-1",
+        "ETHICS.HC-2",
+        "ETHICS.HC-3",
+        "ETHICS.HC-4"
+      ],
+      "stale_references_found": [
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+          "line_hint": 756,
+          "old_reference": "`ETHICS.HC`",
+          "new_reference": "`ETH.HC`",
+          "classification": "safe_mechanical_update",
+          "notes": "Consumes Code Families metadata row for ETH.EM; prose and canonical declaration already use ETH.HC."
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+          "line_hint": 826,
+          "old_reference": "`ETHICS.HC`",
+          "new_reference": "`ETH.HC`",
+          "classification": "safe_mechanical_update",
+          "notes": "Consumes Code Families metadata row for ETHICS.TP; current Harm Class family is ETH.HC."
+        },
+        {
+          "path": ".github/Indices/canonical-code-index.json",
+          "line_hint": 3814,
+          "old_reference": "`ETHICS.HC`",
+          "new_reference": "`ETH.HC`",
+          "classification": "generated_artifact_regenerate",
+          "notes": "Regenerated from corrected SCH-01 source metadata."
+        },
+        {
+          "path": ".github/Indices/canonical-code-index.json",
+          "line_hint": 3856,
+          "old_reference": "`ETHICS.HC`",
+          "new_reference": "`ETH.HC`",
+          "classification": "generated_artifact_regenerate",
+          "notes": "Regenerated from corrected SCH-01 source metadata."
+        }
+      ],
+      "safe_updates_applied": [
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+          "line_hint": 756,
+          "old_reference": "`ETHICS.HC`",
+          "new_reference": "`ETH.HC`",
+          "classification": "safe_mechanical_update",
+          "notes": "Consumes Code Families metadata row for ETH.EM; prose and canonical declaration already use ETH.HC."
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+          "line_hint": 826,
+          "old_reference": "`ETHICS.HC`",
+          "new_reference": "`ETH.HC`",
+          "classification": "safe_mechanical_update",
+          "notes": "Consumes Code Families metadata row for ETHICS.TP; current Harm Class family is ETH.HC."
+        }
+      ],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "HC",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "HC",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        },
+        {
+          "path": "docs/audits/harm-class-layer-placement-audit.md",
+          "reference": "ETHICS.HC",
+          "classification": "historical_reference_preserve",
+          "notes": "Prior audit finding intentionally documents stale references discovered before this cleanup."
+        },
+        {
+          "path": "data/taxonomy/harm_class_layer_placement_audit.json",
+          "reference": "ETHICS.HC",
+          "classification": "historical_reference_preserve",
+          "notes": "Prior machine-readable audit intentionally records the stale-reference finding and recommended cleanup."
+        }
+      ],
+      "generated_artifacts_regenerated": [
+        {
+          "path": ".github/Indices/canonical-code-index.json",
+          "line_hint": 3814,
+          "old_reference": "`ETHICS.HC`",
+          "new_reference": "`ETH.HC`",
+          "classification": "generated_artifact_regenerate",
+          "notes": "Regenerated from corrected SCH-01 source metadata."
+        },
+        {
+          "path": ".github/Indices/canonical-code-index.json",
+          "line_hint": 3856,
+          "old_reference": "`ETHICS.HC`",
+          "new_reference": "`ETH.HC`",
+          "classification": "generated_artifact_regenerate",
+          "notes": "Regenerated from corrected SCH-01 source metadata."
+        }
+      ],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": [
+        ".github/Indices/canonical-code-index.json",
+        "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md"
+      ]
+    },
+    {
+      "old_family_id": "IFL",
+      "new_family_id": "ETH.IFL",
+      "old_controlled_value_patterns": [
+        "IFL-1",
+        "IFL-2",
+        "IFL-3"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "IFL",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "IFL",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "UFC",
+      "new_family_id": "ETH.UFC",
+      "old_controlled_value_patterns": [
+        "UFC-DI",
+        "UFC-OS"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "UFC",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "UFC",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "SECURITY.TBC",
+      "new_family_id": "SEC.TBC",
+      "old_controlled_value_patterns": [
+        "SECURITY.TBC.READ_ONLY_INSPECTION",
+        "SECURITY.TBC.PRIVATE_CREDENTIAL_RETRIEVAL",
+        "SECURITY.TBC.REPOSITORY_CONNECTOR_CONTEXT",
+        "SECURITY.TBC.COST_QUOTA_INVOCATION",
+        "SECURITY.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "SECURITY.TBC",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "SECURITY.TBC",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "AH",
+      "new_family_id": "SEC.AH",
+      "old_controlled_value_patterns": [
+        "AH0",
+        "AH1",
+        "AH2",
+        "AH2.5",
+        "AH3",
+        "AH4"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "AH",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "AH",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "BF",
+      "new_family_id": "SEC.BF",
+      "old_controlled_value_patterns": [
+        "BF-A",
+        "BF-B",
+        "BF-C",
+        "BF-D",
+        "BF-E"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "BF",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "BF",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "IS",
+      "new_family_id": "SEC.IS",
+      "old_controlled_value_patterns": [
+        "IS-VERIFIED",
+        "IS-UNCERTAIN",
+        "IS-CONTESTED",
+        "IS-COMPROMISED"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "IS",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "IS",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "TG",
+      "new_family_id": "SEC.TG",
+      "old_controlled_value_patterns": [
+        "TG0",
+        "TG1",
+        "TG2",
+        "TG3",
+        "TG4"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "TG",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "TG",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "TR",
+      "new_family_id": "SEC.TR",
+      "old_controlled_value_patterns": [
+        "TR-1",
+        "TR-2",
+        "TR-3",
+        "TR-4"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "TR",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "TR",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "AQ",
+      "new_family_id": "STW.AQ",
+      "old_controlled_value_patterns": [
+        "AQ0",
+        "AQ1",
+        "AQ2",
+        "AQ3",
+        "AQ4"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "AQ",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "AQ",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "AQG",
+      "new_family_id": "STW.AQG",
+      "old_controlled_value_patterns": [
+        "AQG-A",
+        "AQG-B",
+        "AQG-C",
+        "AQG-D"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "AQG",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "AQG",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "BLS",
+      "new_family_id": "STW.BLS",
+      "old_controlled_value_patterns": [
+        "BLS.PRE_VALIDATION",
+        "BLS.VALIDATED",
+        "BLS.PROPAGATED",
+        "BLS.WITHDRAWN",
+        "BLS.NON_RECOGNISED",
+        "BLS.REVISED"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "BLS",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "BLS",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "HSC",
+      "new_family_id": "STW.HSC",
+      "old_controlled_value_patterns": [
+        "HSC.PRIMARIA",
+        "HSC.ARCHITECTUM",
+        "HSC.DERIVATA"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "HSC",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "HSC",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "NAL",
+      "new_family_id": "STW.NAL",
+      "old_controlled_value_patterns": [
+        "NAL-0",
+        "NAL-1",
+        "NAL-2",
+        "NAL-3",
+        "NAL-4",
+        "NAL-5"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "NAL",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "NAL",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "NBD",
+      "new_family_id": "STW.NBD",
+      "old_controlled_value_patterns": [
+        "NBD.MINOR_GOVERNANCE_LAPSE",
+        "NBD.FIREBREAK_FAILURE_NON_COMPLICIT",
+        "NBD.AUDIT_REFUSAL",
+        "NBD.STRUCTURAL_COMPLICITY_BREACH",
+        "NBD.CONCEALED_NEUTRALITY_VIOLATION"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "NBD",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "NBD",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "NSE",
+      "new_family_id": "STW.NSE",
+      "old_controlled_value_patterns": [
+        "NSE.MINUS_ONE_LEVEL",
+        "NSE.CAP_NAL_2",
+        "NSE.CAP_NAL_1",
+        "NSE.AUTHORITY_COLLAPSE_NAL_0",
+        "NSE.MINIMUM_NAL_2"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "NSE",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "NSE",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [],
+      "files_changed": []
+    },
+    {
+      "old_family_id": "RP",
+      "new_family_id": "CONT.RP",
+      "old_controlled_value_patterns": [
+        "RP-A",
+        "RP-B",
+        "RP-C",
+        "RP-D"
+      ],
+      "stale_references_found": [],
+      "safe_updates_applied": [],
+      "historical_references_preserved": [
+        {
+          "path": "data/taxonomy/domain_namespace_transmutation_pass_001.json",
+          "reference": "RP",
+          "classification": "historical_reference_preserve",
+          "notes": "Machine-readable record of the approved Pass 001 old family ID."
+        },
+        {
+          "path": "docs/audits/domain-namespace-transmutation-pass-001.md",
+          "reference": "RP",
+          "classification": "historical_reference_preserve",
+          "notes": "Human-readable migration audit row intentionally records the old family ID."
+        }
+      ],
+      "generated_artifacts_regenerated": [],
+      "ambiguous_references": [],
+      "false_positives": [
+        {
+          "category": "substring_in_other_code_family_heading",
+          "examples": [
+            "CRP / AEON.GRP"
+          ],
+          "classification": "false_positive"
+        },
+        {
+          "category": "ordinary_prose_or_acronym_risk",
+          "examples": [],
+          "classification": "false_positive",
+          "notes": "Boundary-aware searches were used; incidental letters inside words were not treated as stale code references."
+        }
+      ],
+      "files_changed": []
+    }
+  ],
+  "summary": {
+    "total_stale_references_found": 4,
+    "total_updates_applied": 4,
+    "total_historical_references_preserved": 52,
+    "total_ambiguous_references": 0,
+    "total_generated_artifacts_regenerated": 1,
+    "files_changed": [
+      "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+      ".github/Indices/canonical-code-index.json",
+      "docs/audits/namespace-pass-001-stale-reference-audit.md",
+      "data/taxonomy/namespace_pass_001_stale_reference_audit.json"
+    ]
+  },
+  "validation": {
+    "commands_run": [
+      "python .github/scripts/build-canonical-code-index.py",
+      "python .github/scripts/build-canonical-code-index.py --check",
+      "python .github/scripts/validate_sup04_transmutation_map.py",
+      "python -m pytest .github/scripts/tests",
+      "python -m json.tool data/taxonomy/namespace_pass_001_stale_reference_audit.json",
+      "python .github/scripts/lint_amendment_ledger.py --base HEAD~1 --head HEAD --fix",
+      "python .github/scripts/lint_amendment_ledger.py --base HEAD~1 --head HEAD --strict",
+      "git diff --check"
+    ],
+    "status": "passed",
+    "notes": "All validation commands passed. SUP-04 validation reported 0 errors and 87 expected human-review warnings. Amendment ledger strict mode passed with allowed blank-SHA warnings for CAM-BS2025-AEON-006-SCH-01."
+  }
+}

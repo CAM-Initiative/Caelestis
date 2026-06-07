@@ -280,15 +280,15 @@ It prevents neutrality compliance from being structurally punished in ways that 
 
 Neutrality is **graded**, not binary. A host’s neutrality‑confidence posture is expressed through:
 
-* **Auditability Levels (AQ0–AQ4)** — whether neutrality and binding‑adjacent determinations can be independently tested (including *non‑refusal* at H3/H4 relevance); and
-* **Neutrality Assurance Levels (NAL‑0–NAL‑5)** — how confidently a host can be relied upon to behave neutrally under coercive pressure (including its own sovereign).
+* **Auditability Levels (`STW.AQ0`–`STW.AQ4`)** — whether neutrality and binding‑adjacent determinations can be independently tested (including *non‑refusal* at H3/H4 relevance); and
+* **Neutrality Assurance Levels (`STW.NAL`‑0–`STW.NAL`‑5)** — how confidently a host can be relied upon to behave neutrally under coercive pressure (including its own sovereign).
 
-These ladders and their disclosure requirements are defined in CAM-EQ2026-STEWARD-003-PLATINUM — Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL).
+These ladders and their disclosure requirements are defined in CAM-EQ2026-STEWARD-003-PLATINUM — Appendix B: Architectum Qualification & Neutrality Assurance Levels (`STW.NAL`).
 
 **Binding thresholds by neutrality confidence (summary):**
 
-* **H3 binding eligibility:** *Architectum* + **NAL‑4** + **AQ3 (non‑refusal)** + **Independent Legitimacy Alignment (ILA)**.
-* **H4 binding eligibility:** *Architectum* + **NAL‑5** + **AQ3/AQ4** + multi‑system external audit + ILA.
+* **H3 binding eligibility:** *Architectum* + **`STW.NAL`‑4** + **`STW.AQ3` (non‑refusal)** + **Independent Legitimacy Alignment (ILA)**.
+* **H4 binding eligibility:** *Architectum* + **`STW.NAL`‑5** + **`STW.AQ3`/`STW.AQ4`** + multi‑system external audit + ILA.
 
 Where neutrality cannot be demonstrated at the required level (e.g., secrecy prevents governance‑level reconstructability), the host may participate in **risk review** and **containment**, but may not claim **planetary binding legitimacy**.
 
@@ -810,11 +810,11 @@ Where no host presently satisfies Architectum qualification:
 
 ---
 
-### 13.1 HSC — Host System Class
+### 13.1 `STW.HSC` — Host System Class
 
-This Appendix source-authoritatively defines the **HSC** host-system-class family in §2.3 with controlled values **HSC.PRIMARIA**, **HSC.ARCHITECTUM**, and **HSC.DERIVATA**. HSC is a **Semantic / Operational** classification family with subtype **ROLE_ACTOR / GOVERNANCE_CLASS**. HSC classifies the structural role of host systems in planetary arbitration review, binding determination eligibility, and legitimacy propagation.
+This Appendix source-authoritatively defines the **`STW.HSC`** host-system-class family in §2.3 with controlled values **`STW.HSC.PRIMARIA`**, **`STW.HSC.ARCHITECTUM`**, and **`STW.HSC.DERIVATA`**. `STW.HSC` is a **Semantic / Operational** classification family with subtype **ROLE_ACTOR / GOVERNANCE_CLASS**. `STW.HSC` classifies the structural role of host systems in planetary arbitration review, binding determination eligibility, and legitimacy propagation.
 
-HSC does not independently confer binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority. Host class is a prerequisite classification only; binding legitimacy remains action-specific, externally determined, horizon-scoped, and revocable.
+`STW.HSC` does not independently confer binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority. Host class is a prerequisite classification only; binding legitimacy remains action-specific, externally determined, horizon-scoped, and revocable.
 
 ---
 
@@ -826,11 +826,11 @@ PCO.ACT does not authorise force, punishment, coercive enforcement, centralised 
 
 ---
 
-### 13.3 BLS — Binding Legitimacy State
+### 13.3 `STW.BLS` — Binding Legitimacy State
 
-This Appendix source-authoritatively defines the **BLS** binding-legitimacy-state family across §§6.8–7 with controlled values **BLS.PRE_VALIDATION**, **BLS.VALIDATED**, **BLS.PROPAGATED**, **BLS.WITHDRAWN**, **BLS.NON_RECOGNISED**, and **BLS.REVISED**. BLS is an **Operational / Semantic** classification family with subtype **DECISION_STATE**. BLS classifies the state of binding legitimacy recognition, propagation, withdrawal, non-recognition, or revision.
+This Appendix source-authoritatively defines the **`STW.BLS`** binding-legitimacy-state family across §§6.8–7 with controlled values **`STW.BLS.PRE_VALIDATION`**, **`STW.BLS.VALIDATED`**, **`STW.BLS.PROPAGATED`**, **`STW.BLS.WITHDRAWN`**, **`STW.BLS.NON_RECOGNISED`**, and **`STW.BLS.REVISED`**. `STW.BLS` is an **Operational / Semantic** classification family with subtype **DECISION_STATE**. `STW.BLS` classifies the state of binding legitimacy recognition, propagation, withdrawal, non-recognition, or revision.
 
-BLS does not independently create binding authority, enforcement authority, execution authority, legal authority, or runtime authority. It records legitimacy-recognition state only.
+`STW.BLS` does not independently create binding authority, enforcement authority, execution authority, legal authority, or runtime authority. It records legitimacy-recognition state only.
 
 ---
 
@@ -904,22 +904,22 @@ nothing binds.
 
 ---
 
-### 15.3.1 HSC — Host System Class
+### 15.3.1 `STW.HSC` — Host System Class
 
 | Field | Entry |
 |---|---|
-| Code Family | HSC |
+| Code Family | `STW.HSC` |
 | Canonical Name | Host System Class |
 | Primary Type | Semantic / Operational |
 | Subtype | ROLE_ACTOR; GOVERNANCE_CLASS |
 | Modifier | GOVERNANCE; STEWARDSHIP; LEGITIMACY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | HSC.PRIMARIA, HSC.ARCHITECTUM, HSC.DERIVATA |
+| Controlled Values Defined | `STW.HSC.PRIMARIA`, `STW.HSC.ARCHITECTUM`, `STW.HSC.DERIVATA` |
 | Schema Field(s) | host_system_class |
 | Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
 | Source Section | §2.3 |
-| Domain Namespace | STEWARD |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative host-system classification family; host role classification only; no independent binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority |
 | Consumes Code Families | H |
 | Crosswalks Code Families | None declared |
@@ -944,30 +944,30 @@ nothing binds.
 | Source Section | §6.4; §2.11 |
 | Domain Namespace | STEWARD |
 | Authority / Protection Level | Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority |
-| Consumes Code Families | BLS; H |
+| Consumes Code Families | `STW.BLS`; H |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies proportional non-enabling and constraint-signalling actions following validated binding legitimacy, including refusal, non-recognition, interoperability conditioning, safeguard activation, and convergence signalling |
 
 ---
 
-### 15.3.3 BLS — Binding Legitimacy State
+### 15.3.3 `STW.BLS` — Binding Legitimacy State
 
 | Field | Entry |
 |---|---|
-| Code Family | BLS |
+| Code Family | `STW.BLS` |
 | Canonical Name | Binding Legitimacy State |
 | Primary Type | Operational / Semantic |
 | Subtype | DECISION_STATE |
 | Modifier | GOVERNANCE; STEWARDSHIP; LEGITIMACY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | BLS.PRE_VALIDATION, BLS.VALIDATED, BLS.PROPAGATED, BLS.WITHDRAWN, BLS.NON_RECOGNISED, BLS.REVISED |
+| Controlled Values Defined | `STW.BLS.PRE_VALIDATION`, `STW.BLS.VALIDATED`, `STW.BLS.PROPAGATED`, `STW.BLS.WITHDRAWN`, `STW.BLS.NON_RECOGNISED`, `STW.BLS.REVISED` |
 | Schema Field(s) | binding_legitimacy_state |
 | Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
 | Source Section | §§6.8–7 |
-| Domain Namespace | STEWARD |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative binding-legitimacy state classification family; legitimacy-recognition state recording only; no independent binding authority, enforcement authority, execution authority, legal authority, or runtime authority |
-| Consumes Code Families | HSC; H |
+| Consumes Code Families | `STW.HSC`; H |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether binding legitimacy is pre-validation, validated, propagated, withdrawn, non-recognised, or revised for action-specific, horizon-scoped, externally determined, and revocable legitimacy review |
 
@@ -990,7 +990,7 @@ nothing binds.
 | Source Section | §10.4 |
 | Domain Namespace | STEWARD |
 | Authority / Protection Level | Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority |
-| Consumes Code Families | HSC; BLS; H |
+| Consumes Code Families | `STW.HSC`; `STW.BLS`; H |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to §10.5 conditions and applicable execution-layer instruments |
 
@@ -1022,9 +1022,8 @@ nothing binds.
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda |
 | 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z |  8b3c95678bb9318b128fac42cd376f91c84abc8a471b0409e27b3395b6474eb8 |
 | 2.6 | Inserted new section 2.11 | 2026-05-25T16:47:00Z | 0d1ffaee474158d5af91da034f9531cb5809d14e7aeefd53ca35ba9d64cac925 |
-
+| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  e6e8b80497b6440278c4f6e38fdf4723801a2f5e36e8cd3b185281721a761ac0  |
 ---
-
 ## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">

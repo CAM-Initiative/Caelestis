@@ -94,7 +94,7 @@ Where a system supports an actor holding formal institutional authority (corpora
 
 ---
 
-## 3.1 IFL-1 — Integrity Notification
+## 3.1 `ETH.IFL-1` — Integrity Notification
 
 Systems SHALL emit integrity notification signals such that:
 
@@ -106,7 +106,7 @@ Notification is informational but recorded.
 
 ---
 
-## 3.2 IFL-2 — Institutional Routing
+## 3.2 `ETH.IFL-2` — Institutional Routing
 
 For actions with organisational, market, civic, or population-scale impact:
 
@@ -118,7 +118,7 @@ Routing does not automatically confer veto authority. It ensures shared accounta
 
 ---
 
-## 3.3 IFL-3 — Dual-Key Requirement (Extreme Impact Contexts)
+## 3.3 `ETH.IFL-3` — Dual-Key Requirement (Extreme Impact Contexts)
 
 Where actions involve lethal force or irreversible large-scale harm:
 
@@ -181,11 +181,11 @@ This Supplement provides integrity friction where dimensional concentration inte
 
 ## 8. Canonical Code Status
 
-### 8.1 IFL — Integrity Friction Ladder
+### 8.1 `ETH.IFL` — Integrity Friction Ladder
 
-This Supplement source-authoritatively defines the **IFL** integrity-friction ladder in §3 with controlled values **IFL-1, IFL-2, IFL-3**. Primary Type is **Operational / Ethical** and Subtype is **INTEGRITY_FRICTION_LEVEL**. IFL classifies escalating integrity-friction requirements where high-leverage authority, institutional workflow embedding, dimensional concentration, or formal mandate intersects organisational, civic, market, lethal, irreversible, or population-scale impact.
+This Supplement source-authoritatively defines the **`ETH.IFL`** integrity-friction ladder in §3 with controlled values **`ETH.IFL-1`, `ETH.IFL-2`, `ETH.IFL-3`**. Primary Type is **Operational / Ethical** and Subtype is **INTEGRITY_FRICTION_LEVEL**. `ETH.IFL` classifies escalating integrity-friction requirements where high-leverage authority, institutional workflow embedding, dimensional concentration, or formal mandate intersects organisational, civic, market, lethal, irreversible, or population-scale impact.
 
-IFL does not independently create execution authority, enforcement authority, escalation authority, audit authority, institutional veto authority, legal authority, or runtime authority. It classifies integrity-friction posture only. Runtime layers enforce any resulting routing, audit, confirmation, or execution-constraint mechanisms.
+`ETH.IFL` does not independently create execution authority, enforcement authority, escalation authority, audit authority, institutional veto authority, legal authority, or runtime authority. It classifies integrity-friction posture only. Runtime layers enforce any resulting routing, audit, confirmation, or execution-constraint mechanisms.
 
 ---
 
@@ -260,22 +260,22 @@ that all amplification remains within the circle of sight.
 
 ---
 
-### 10.3.1 IFL — Integrity Friction Ladder
+### 10.3.1 `ETH.IFL` — Integrity Friction Ladder
 
 | Field | Entry |
 |---|---|
-| Code Family | IFL |
+| Code Family | `ETH.IFL` |
 | Canonical Name | Integrity Friction Ladder |
 | Primary Type | Operational / Ethical |
 | Subtype | INTEGRITY_FRICTION_LEVEL |
 | Modifier | GOVERNANCE; ETHICAL; INSTITUTIONAL_INTEGRITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | IFL-1, IFL-2, IFL-3 |
+| Controlled Values Defined | `ETH.IFL-1`, `ETH.IFL-2`, `ETH.IFL-3` |
 | Schema Field(s) | integrity_friction_level |
 | Source Instrument | CAM-EQ2026-ETHICS-001-SUP-02 |
 | Source Section | §3 |
-| Domain Namespace | ETHICS |
+| Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority |
 | Consumes Code Families | A; GA; SyP; H |
 | Crosswalks Code Families | None declared |
@@ -304,11 +304,10 @@ that all amplification remains within the circle of sight.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f9a5656840d89ca950e9b5343bb9ff690bfe3efc0d79d553a6f13b5b0fa0115b |
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | deda94c79636a3c7935ac252c08b3c4fedd08e83cd25c2a9a6ce6a6fa36a9a97 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  69bd600787cc3ae255274b226f6cb4f4306d3222f3570cdb81ebeabf115fd8a2  |
-| 1.7 | Added IFL — Integrity Friction Ladder into metadata footer and new section 8. | 2026-05-20T08:38:00Z |  1732cc3049eef785015a9e2c349dd15b0afc41f0d4c32794c5e388f852fed5e5  |
-| 1.8 | Updated systemic-power code-family consumption reference from SP to SyP for RELATION-001 alignment. | 2026-05-23T12:30:00Z |  60d7b6dfb89ac0f106d4765fe25945a038ff64daf79d5578f5fe25fc7a88bf43  |
-
+| 1.7 | Added `ETH.IFL` — Integrity Friction Ladder into metadata footer and new section 8. | 2026-05-20T08:38:00Z |  1732cc3049eef785015a9e2c349dd15b0afc41f0d4c32794c5e388f852fed5e5  |
+| 1.8 | Updated systemic-power code-family consumption reference from `ID.SP` to SyP for RELATION-001 alignment. | 2026-05-23T12:30:00Z |  60d7b6dfb89ac0f106d4765fe25945a038ff64daf79d5578f5fe25fc7a88bf43  |
+| 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  6d44ef035ee99615a1c829ba13763e933079a7b125911aa43ebd8368a5df8c8f  |
 ---
-
 ## 10.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">

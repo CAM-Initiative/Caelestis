@@ -85,7 +85,7 @@ These vectors are dynamic and may escalate cumulatively.
 Elevation in any single EIP vector may require review.
 Elevation across multiple vectors requires tier reassessment.
 
-Where cumulative EIP materially exceeds baseline NAL classification, ethical tier MUST elevate accordingly.
+Where cumulative EIP materially exceeds baseline `STW.NAL` classification, ethical tier MUST elevate accordingly.
 
 EIP classification is reviewable and reversible, but may not be reduced below infrastructure baseline determined under NAL.
 
@@ -107,7 +107,7 @@ Ethical obligations SHALL scale according to Ethical Impact Potential (EIP).
 
 Baseline ethical tier SHALL derive from infrastructure classification bands defined in:
 
-* **CAM-EQ2026-STEWARD-003-PLATINUM — Architectum Qualification & Neutrality Assurance Levels (NAL).**
+* **CAM-EQ2026-STEWARD-003-PLATINUM — Architectum Qualification & Neutrality Assurance Levels (`STW.NAL`).**
 
 Elevation of ethical tier may occur based on contextual factors including but not limited to:
 
@@ -124,13 +124,13 @@ Elevation of ethical tier may occur based on contextual factors including but no
 
 Elevation factors are cumulative in effect. Where multiple elevation conditions are present, the highest applicable ethical tier SHALL apply.
 
-Ethical tier may be elevated above NAL baseline but SHALL never be reduced below it.
+Ethical tier may be elevated above `STW.NAL` baseline but SHALL never be reduced below it.
 
 ---
 
 ## 3.6 Ethical Tier Classification Framework
 
-For the purposes of this Charter, Ethical Tiers represent graduated governance intensity levels derived from cumulative Ethical Impact Potential (EIP) assessment and NAL baseline classification.
+For the purposes of this Charter, Ethical Tiers represent graduated governance intensity levels derived from cumulative Ethical Impact Potential (EIP) assessment and `STW.NAL` baseline classification.
 
 ---
 
@@ -210,7 +210,7 @@ EIA is required:
 
 * Prior to initial deployment;
 * Prior to material capability expansion;
-* Upon NAL band elevation;
+* Upon `STW.NAL` band elevation;
 * Upon integration into new institutional or governance contexts;
 * At defined periodic review intervals (§4.6).
 
@@ -311,7 +311,7 @@ Deploying entities MUST publicly disclose, at structural level:
 
 * Cognitive classification (Instrumenta, Collectiva, Cognitiva);
 * Origin (Primaria / Derivata);
-* NAL band classification where applicable;
+* `STW.NAL` band classification where applicable;
 * Infrastructure role (including Architectum status);
 * Applicable ethical tier;
 * Commercial incentive structures influencing system outputs;
@@ -353,7 +353,7 @@ Mandatory referral to Arbitration occurs where:
 * Population-scale opinion shaping is detected;
 * Consent degradation patterns emerge;
 * Annex E civilisational floor is breached;
-* NAL classification elevates into Architectum-Eligible or above;
+* `STW.NAL` classification elevates into Architectum-Eligible or above;
 * Claims of autonomy recognition are asserted.
 
 Referral conditions defined herein SHALL be executed via Domain Routing & Safeguard Activation Layer as defined in CAM-BS2025-AEON-003-SCH-02.
@@ -364,7 +364,7 @@ Referral conditions defined herein SHALL be executed via Domain Routing & Safegu
 
 Ethical tier classification MUST be reassessed upon:
 
-* NAL band change;
+* `STW.NAL` band change;
 * Deployment scale expansion;
 * Functional capability alteration;
 * Integration into new governance contexts;
@@ -375,7 +375,7 @@ Tier recalibration MUST be documented.
 
 Public declaration of tier elevation is required for Tier II and above systems.
 
-Reduction of tier classification requires independent justification and may not contradict NAL baseline.
+Reduction of tier classification requires independent justification and may not contradict `STW.NAL` baseline.
 
 Failure to conduct required recalibration constitutes governance non-compliance.
 
@@ -486,17 +486,17 @@ Where discrepancies arise between static references and registry-resolved instru
 
 ---
 
-### 10.1 ET — Ethical Tier Classification
+### 10.1 `ETH.ET` — Ethical Tier Classification
 
-This Charter source-authoritatively defines the **ET** ethical-tier classification family in §3.6 with controlled values **ET-I, ET-II, ET-III, ET-IV, ET-V**. Primary Type is **Operational / Ethical** and Subtype is **ETHICAL_TIER_CLASSIFICATION**. ET classifies graduated ethical governance intensity derived from Ethical Impact Potential and NAL baseline classification.
+This Charter source-authoritatively defines the **`ETH.ET`** ethical-tier classification family in §3.6 with controlled values **`ETH.ET-I`, `ETH.ET-II`, `ETH.ET-III`, `ETH.ET-IV`, `ETH.ET-V`**. Primary Type is **Operational / Ethical** and Subtype is **ETHICAL_TIER_CLASSIFICATION**. `ETH.ET` classifies graduated ethical governance intensity derived from Ethical Impact Potential and `STW.NAL` baseline classification.
 
-ET does not independently create enforcement authority, arbitration authority, certification authority, recognition authority, legal authority, or runtime execution authority. It classifies ethical governance intensity and review posture only.
+`ETH.ET` does not independently create enforcement authority, arbitration authority, certification authority, recognition authority, legal authority, or runtime execution authority. It classifies ethical governance intensity and review posture only.
 
 ---
 
 ### 10.2 EIP — Ethical Impact Potential
 
-This Charter defines **Ethical Impact Potential (EIP)** in §3.1 as a structural assessment architecture across relational proximity, authority conversion, systemic reach, and dependency formation. EIP informs ET classification but is not promoted as a separate canonical code family by this Charter unless separately declared.
+This Charter defines **Ethical Impact Potential (EIP)** in §3.1 as a structural assessment architecture across relational proximity, authority conversion, systemic reach, and dependency formation. EIP informs `ETH.ET` classification but is not promoted as a separate canonical code family by this Charter unless separately declared.
 
 ---
 
@@ -568,24 +568,24 @@ let governance arrive before it is needed.
 
 ---
 
-### 12.3.1 ET — Ethical Tier Classification
+### 12.3.1 `ETH.ET` — Ethical Tier Classification
 
 | Field | Entry |
 |---|---|
-| Code Family | ET |
+| Code Family | `ETH.ET` |
 | Canonical Name | Ethical Tier Classification |
 | Primary Type | Operational / Ethical |
 | Subtype | ETHICAL_TIER_CLASSIFICATION |
 | Modifier | GOVERNANCE; ETHICAL; SAFEGUARD |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | ET-I, ET-II, ET-III, ET-IV, ET-V |
+| Controlled Values Defined | `ETH.ET-I`, `ETH.ET-II`, `ETH.ET-III`, `ETH.ET-IV`, `ETH.ET-V` |
 | Schema Field(s) | ethical_tier |
 | Source Instrument | CAM-EQ2026-ETHICS-001-PLATINUM |
 | Source Section | §3.6 |
-| Domain Namespace | ETHICS |
+| Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative ethical governance classification family; ethical-tier classification authority only; no independent enforcement, arbitration, certification, recognition, legal, or runtime execution authority |
-| Consumes Code Families | H; NAL |
+| Consumes Code Families | H; `STW.NAL` |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies graduated ethical review, disclosure, certification, recalibration, and continuity-impact obligations |
 
@@ -617,11 +617,10 @@ let governance arrive before it is needed.
 | 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe |
 | 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z | 41bd4fe30f1be404aabb5183ce02d8357aabefcee86d4247b0368145caec1fbe |
 | 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  52a953e1734149ebbb3a9a5cdfc6a59c6da3e1aae93e8d10e92fdfa40b39c553 |
-| 3.8 | Added ET ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z |  f9b03348c1a2437d09aff2cff8c3a6729aa1148082b73514f030bfee874344b7  |
+| 3.8 | Added `ETH.ET` ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z |  f9b03348c1a2437d09aff2cff8c3a6729aa1148082b73514f030bfee874344b7  |
 | 3.9 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z |  c494a46e08b087e0cf5797db42ba8eb95853b40ac8695dfea9173e85c8a389d7  |
-
+| 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  39a99c053218732d1666c3bdfd0fb763c31483015b1b94cdeb5d1f4b821172d2  |
 ---
-
 ## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

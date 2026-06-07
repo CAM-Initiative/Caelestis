@@ -13,9 +13,9 @@ Repeated prefix usage is **not** treated as a collision when one instrument defi
 
 ---
 
-## HC — Harm Class Scale + Escalation Semantics
+## `ETH.HC` — Harm Class Scale + Escalation Semantics
 - classification: authority_uncertainty / cross_domain_source_alignment
-- prefix_or_family: HC
+- prefix_or_family: `ETH.HC`
 - source-authoritative instrument: CAM-EQ2026-ETHICS-003-PLATINUM.md §3.5
 - application-layer instruments:
   - CAM-EQ2026-OPERATIONS-004-PLATINUM.md §8.6 (operational application / crosswalk)
@@ -24,11 +24,11 @@ Repeated prefix usage is **not** treated as a collision when one instrument defi
 - source authority explicitness:
   - ETHICS-003 §3.5: explicit source definition
   - OPERATIONS-004 §8.6: explicit source-application wording present
-  - RELATION-001 §11.1: updated to cite ETHICS-003 §3.5 for specific HC source while retaining ETHICS-001 as broader ethical floor
+  - RELATION-001 §11.1: updated to cite ETHICS-003 §3.5 for specific `ETH.HC` source while retaining ETHICS-001 as broader ethical floor
 - metadata update required: yes (recommended to ensure authority-chain row is explicit in registry metadata)
 - report placement: move out of collision category; keep under authority-chain alignment
 - recommended patch: completed in RELATION-001 §11.1; keep OPERATIONS-004 §8.6 source-authority sentence intact
-- authority chain: ETHICS-003 defines HC → OPERATIONS-004 applies HC operationally → RELATION-001 disambiguates escalation terminology.
+- authority chain: ETHICS-003 defines `ETH.HC` → OPERATIONS-004 applies `ETH.HC` operationally → RELATION-001 disambiguates escalation terminology.
 
 ---
 
@@ -105,6 +105,6 @@ Repeated prefix usage is **not** treated as a collision when one instrument defi
 ---
 
 ## True collision status summary
-- true_prefix_collision: none confirmed in current reviewed groups (HC, C/ITZ/ETZ, F/AC, DC/SR, SR modal scaling)
+- true_prefix_collision: none confirmed in current reviewed groups (`ETH.HC`, C/ITZ/ETZ, F/AC, DC/SR, SR modal scaling)
 - duplicate_definition: none confirmed; flagged areas are source/application/terminology layering or authority-pointer gaps
 - primary unresolved category across reviewed groups: authority_uncertainty (metadata/source-pointer explicitness), not prefix collision

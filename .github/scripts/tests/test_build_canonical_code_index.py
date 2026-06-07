@@ -75,3 +75,12 @@ def test_heading_subfamily_promoted_from_parent_code_family(tmp_path):
     assert row.family_id == 'ECON.REI.DW'
     assert row.parent_family == 'ECON.REI'
     assert row.family_kind == 'subfamily'
+
+
+def test_code_spans_are_stripped_from_family_ids_and_values(tmp_path):
+    f = tmp_path/'Governance'/'A.md'
+    w(f, '## Canonical Code & Reference Set Declarations\n### 1.1 `ID.IFP` — Identity Formation Pathway\n' + decl('`ID.IFP`', controlled='`ID.IFP-1`, `ID.IFP-2`'))
+    row = cc.scan(tmp_path/'Governance')[0]
+    assert row.code_family == 'ID.IFP'
+    assert row.family_id == 'ID.IFP'
+    assert row.controlled_values_defined == ['ID.IFP-1', 'ID.IFP-2']

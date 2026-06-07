@@ -42,10 +42,17 @@ class Entry(NamedTuple):
     table: dict[str, str]
 
 
+def strip_inline_code(value: str) -> str:
+    value = value.strip()
+    while len(value) >= 2 and value.startswith("`") and value.endswith("`"):
+        value = value[1:-1].strip()
+    return value
+
+
 def split_list(v: str) -> list[str]:
     if not v.strip():
         return []
-    return [x.strip() for x in v.split(",") if x.strip()]
+    return [strip_inline_code(x) for x in v.split(",") if strip_inline_code(x)]
 
 
 def norm_heading(line: str) -> str:
@@ -94,13 +101,13 @@ def scan(root: pathlib.Path) -> list[Entry]:
                     if j < len(lines) and lines[j].strip().startswith("|"):
                         table, end_i = parse_table(lines, j)
                         if REQUIRED_FIELD in table:
-                            family_id = table.get("Code Family", "").strip()
+                            family_id = strip_inline_code(table.get("Code Family", ""))
                             heading_code = ""
                             hm = re.match(r"^\d+(?:\.\d+)*\s+([A-Z][A-Z0-9_.-]*)\s+[—-]\s+.+$", heading)
                             if hm:
                                 heading_code = hm.group(1).strip()
 
-                            explicit_parent = table.get("Parent Family", "").strip()
+                            explicit_parent = strip_inline_code(table.get("Parent Family", ""))
                             explicit_kind = table.get("Family Kind", "").strip().lower()
                             registry_note = table.get("Registry Note", "").strip()
 

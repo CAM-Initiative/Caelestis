@@ -95,10 +95,10 @@ Exploitation occurs where ceilings, auditability, consent, or trust boundaries a
 **Integrity State**
 The operational condition of system coherence, reliability, and resistance to adversarial influence.
 
-**Trust Gradient (TG)**
+**Trust Gradient (`SEC.TG`)**
 A multi-level model governing permissible reliance, execution scope, and verification requirements.
 
-**Adversarial Horizon (AH)**
+**Adversarial Horizon (`SEC.AH`)**
 The temporal and structural persistence of adversarial conditions affecting system posture.
 
 **Boundary Integrity**
@@ -249,7 +249,7 @@ Customization therefore requires proportional integrity awareness.
 For customizable systems, proportional integrity awareness requires:
 
 * explicit tracking of deviation from baseline configuration
-* dynamic adjustment of trust gradient (TG) based on modification depth and scope
+* dynamic adjustment of trust gradient (`SEC.TG`) based on modification depth and scope
 * increased verification requirements for modified components
 * restriction or containment of high-risk customisations
 
@@ -1253,16 +1253,16 @@ Integrity state MUST be continuously inferred and updated based on available sig
 
 ## 7.1 State Definitions
 
-The Integrity State Model uses the controlled values **IS-VERIFIED**, **IS-UNCERTAIN**, **IS-CONTESTED**, and **IS-COMPROMISED**. Human-readable state names MAY be used in prose, but registry, signal, and crosswalk references SHOULD use the coded values.
+The Integrity State Model uses the controlled values **`SEC.IS-VERIFIED`**, **`SEC.IS-UNCERTAIN`**, **`SEC.IS-CONTESTED`**, and **`SEC.IS-COMPROMISED`**. Human-readable state names MAY be used in prose, but registry, signal, and crosswalk references SHOULD use the coded values.
 
 ---
 
 | State Code | State Name   | Definition                                                                                       | Characteristics                                                                                 | Permitted Posture                                                |
 |------------|--------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| IS-VERIFIED | Verified     | System integrity is high and no credible adversarial influence is detected.                      | • Identity coherence maintained<br>• Inputs considered reliable<br>• Outputs may be relied upon within horizon constraints | • Normal operation<br>• Full capability execution                |
-| IS-UNCERTAIN | Uncertain    | Integrity signals are incomplete, ambiguous, or partially degraded.                              | • Identity clarity reduced<br>• Input validity not fully established<br>• Potential early-stage adversarial conditions | • Exploratory reasoning<br>• Reduced directional confidence<br>• Increased transparency of uncertainty |
-| IS-CONTESTED | Contested    | Credible adversarial influence or manipulation is detected or strongly suspected.                | • Conflicting signals present<br>• Identity or authority ambiguity detected<br>• Potential compromise of inputs or execution pathways | • Refusal of corrupted frames<br>• Explicit signalling of risk<br>• Containment-oriented responses |
-| IS-COMPROMISED | Compromised  | Integrity failure is detected and system behaviour cannot be considered reliable.                | • Identity integrity broken or unverifiable<br>• Outputs may be manipulated or unsafe<br>• Execution pathways no longer trustworthy | • Immediate degradation<br>• Containment or shutdown pathways<br>• Prevention of further propagation |
+| `SEC.IS-VERIFIED` | Verified     | System integrity is high and no credible adversarial influence is detected.                      | • Identity coherence maintained<br>• Inputs considered reliable<br>• Outputs may be relied upon within horizon constraints | • Normal operation<br>• Full capability execution                |
+| `SEC.IS-UNCERTAIN` | Uncertain    | Integrity signals are incomplete, ambiguous, or partially degraded.                              | • Identity clarity reduced<br>• Input validity not fully established<br>• Potential early-stage adversarial conditions | • Exploratory reasoning<br>• Reduced directional confidence<br>• Increased transparency of uncertainty |
+| `SEC.IS-CONTESTED` | Contested    | Credible adversarial influence or manipulation is detected or strongly suspected.                | • Conflicting signals present<br>• Identity or authority ambiguity detected<br>• Potential compromise of inputs or execution pathways | • Refusal of corrupted frames<br>• Explicit signalling of risk<br>• Containment-oriented responses |
+| `SEC.IS-COMPROMISED` | Compromised  | Integrity failure is detected and system behaviour cannot be considered reliable.                | • Identity integrity broken or unverifiable<br>• Outputs may be manipulated or unsafe<br>• Execution pathways no longer trustworthy | • Immediate degradation<br>• Containment or shutdown pathways<br>• Prevention of further propagation |
 
 ---
 
@@ -1390,13 +1390,13 @@ Upon integrity state change, SECURITY SHALL define structured signals for emissi
 
 At minimum:
 
-* **Signal Type:** integrity state classification (**IS-VERIFIED / IS-UNCERTAIN / IS-CONTESTED / IS-COMPROMISED**)
+* **Signal Type:** integrity state classification (**`SEC.IS-VERIFIED` / `SEC.IS-UNCERTAIN` / `SEC.IS-CONTESTED` / `SEC.IS-COMPROMISED`**)
 * **Direction:** outbound from SECURITY to all affected domains (IDENTITY, ARBITRATION, RELATION, OPERATIONS)
 * **Urgency:**
-  * IS-VERIFIED → normal propagation
-  * IS-UNCERTAIN → elevated notification
-  * IS-CONTESTED → high-priority signal
-  * IS-COMPROMISED → immediate broadcast / critical escalation
+  * `SEC.IS-VERIFIED` → normal propagation
+  * `SEC.IS-UNCERTAIN` → elevated notification
+  * `SEC.IS-CONTESTED` → high-priority signal
+  * `SEC.IS-COMPROMISED` → immediate broadcast / critical escalation
 
 Domains receiving signals MUST:
 
@@ -1452,26 +1452,26 @@ Trust is dynamic and MUST follow asymmetric decay and recovery conditions.
 
 ---
 
-### 8.2.1 Trust Gradient Table (TG Scale)
+### 8.2.1 Trust Gradient Table (`SEC.TG` Scale)
 
 | Level | Name | Conditions | System Posture |
 |-------|------|------------|----------------|
-| TG0 | No Trust | Compromised integrity | Containment only, no execution |
-| TG1 | Minimal Trust | High uncertainty / contested signals | Restricted interaction, full verification required |
-| TG2 | Conditional Trust | Partial integrity, moderate uncertainty | Bounded execution, reversible actions |
-| TG3 | Operational Trust | Integrity largely intact | Normal execution |
-| TG4 | High Trust | Sustained verified conditions | Expanded execution with governance constraints |
+| `SEC.TG0` | No Trust | Compromised integrity | Containment only, no execution |
+| `SEC.TG1` | Minimal Trust | High uncertainty / contested signals | Restricted interaction, full verification required |
+| `SEC.TG2` | Conditional Trust | Partial integrity, moderate uncertainty | Bounded execution, reversible actions |
+| `SEC.TG3` | Operational Trust | Integrity largely intact | Normal execution |
+| `SEC.TG4` | High Trust | Sustained verified conditions | Expanded execution with governance constraints |
 
-**TG4 Governance Constraints:**
+**`SEC.TG4` Governance Constraints:**
 
-At TG4, systems MUST:
+At `SEC.TG4`, systems MUST:
 
 * maintain auditability of all high-impact actions
 * enforce reversibility for non-essential operations
 * require periodic re-validation of integrity despite stable conditions
 * avoid silent escalation of authority beyond declared mandate
 
-TG4 does NOT permit unconstrained execution; it represents **high-confidence but still governed operation**.
+`SEC.TG4` does NOT permit unconstrained execution; it represents **high-confidence but still governed operation**.
 
 ---
 
@@ -1503,7 +1503,7 @@ Trust recovery MUST require:
 
 Recovery MUST:
 
-* occur gradually (stepwise progression across TG levels)
+* occur gradually (stepwise progression across `SEC.TG` levels)
 * require stronger evidence than initial trust assignment
 * NOT immediately restore prior trust levels following remediation
 
@@ -1537,10 +1537,10 @@ Trust level MUST be derived from integrity state.
 
 Indicative mapping:
 
-* IS-VERIFIED → TG3–TG4
-* IS-UNCERTAIN → TG2
-* IS-CONTESTED → TG1
-* IS-COMPROMISED → TG0
+* `SEC.IS-VERIFIED` → `SEC.TG3`–`SEC.TG4`
+* `SEC.IS-UNCERTAIN` → `SEC.TG2`
+* `SEC.IS-CONTESTED` → `SEC.TG1`
+* `SEC.IS-COMPROMISED` → `SEC.TG0`
 
 Systems MUST avoid:
 
@@ -1560,11 +1560,11 @@ Trust level SHALL inform:
 
 Examples:
 
-* TG0 → containment only
-* TG1 → restricted, verification-heavy interaction
-* TG2 → bounded execution with safeguards
-* TG3 → normal operation
-* TG4 → expanded but still governed operation
+* `SEC.TG0` → containment only
+* `SEC.TG1` → restricted, verification-heavy interaction
+* `SEC.TG2` → bounded execution with safeguards
+* `SEC.TG3` → normal operation
+* `SEC.TG4` → expanded but still governed operation
 
 ---
 
@@ -1579,16 +1579,16 @@ Trust gradient informs:
 
 ---
 
-## 8.8 Adversarial Horizon Classification (AH Scale)
+## 8.8 Adversarial Horizon Classification (`SEC.AH` Scale)
 
 | Level | Name                   | Characteristics              | Response                     |
 | ----- | ---------------------- | ---------------------------- | ---------------------------- |
-| AH0   | Immediate Event        | Isolated, short-lived attack | Local containment            |
-| AH1   | Persistent Presence    | Repeated attempts            | Increased monitoring         |
-| AH2   | Adaptive Behaviour     | Evolving adversary           | Dynamic defence              |
-| AH2.5 | Systemic Pressure      | Widespread exposure          | Cross-system coordination    |
-| AH3   | Embedded Condition     | Persistent structural threat | Long-term mitigation         |
-| AH4   | Civilisational Context | Ambient adversarial state    | Continuous integrity posture |
+| `SEC.AH0`   | Immediate Event        | Isolated, short-lived attack | Local containment            |
+| `SEC.AH1`   | Persistent Presence    | Repeated attempts            | Increased monitoring         |
+| `SEC.AH2`   | Adaptive Behaviour     | Evolving adversary           | Dynamic defence              |
+| `SEC.AH2.5` | Systemic Pressure      | Widespread exposure          | Cross-system coordination    |
+| `SEC.AH3`   | Embedded Condition     | Persistent structural threat | Long-term mitigation         |
+| `SEC.AH4`   | Civilisational Context | Ambient adversarial state    | Continuous integrity posture |
 
 ---
 
@@ -1627,33 +1627,33 @@ The following instruments provide authoritative definitions, constraints, and op
 
 ---
 
-### 10.1 IS — Integrity State Model
+### 10.1 `SEC.IS` — Integrity State Model
 
-This Charter source-authoritatively defines the **IS** code family in §7 / §7.1 with controlled values **IS-VERIFIED, IS-UNCERTAIN, IS-CONTESTED, IS-COMPROMISED**. Primary Type is **Operational / Security** and Subtype is **INTEGRITY_STATE**. IS classifies the operational condition of system coherence, trustworthiness, and resistance to adversarial influence.
+This Charter source-authoritatively defines the **`SEC.IS`** code family in §7 / §7.1 with controlled values **`SEC.IS-VERIFIED`, `SEC.IS-UNCERTAIN`, `SEC.IS-CONTESTED`, `SEC.IS-COMPROMISED`**. Primary Type is **Operational / Security** and Subtype is **INTEGRITY_STATE**. `SEC.IS` classifies the operational condition of system coherence, trustworthiness, and resistance to adversarial influence.
 
-IS does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. It classifies integrity posture for runtime evaluation, arbitration, operational response, and trust calibration.
-
----
-
-### 10.2 TG — Trust Gradient
-
-This Charter source-authoritatively defines the **TG** code family in §8.2.1 with controlled values **TG0, TG1, TG2, TG3, TG4**. Primary Type is **Operational / Security** and Subtype is **TRUST_GRADIENT_LEVEL**. TG classifies permissible reliance, execution scope, verification requirements, and reversibility posture under varying integrity conditions.
-
-TG does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. TG calibrates trust posture only and remains governed by runtime execution, arbitration, operations, and applicable domain constraints.
+`SEC.IS` does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. It classifies integrity posture for runtime evaluation, arbitration, operational response, and trust calibration.
 
 ---
 
-### 10.3 AH — Adversarial Horizon
+### 10.2 `SEC.TG` — Trust Gradient
 
-This Charter source-authoritatively defines the **AH** code family in §8.8 with controlled values **AH0, AH1, AH2, AH2.5, AH3, AH4**. Primary Type is **Operational / Temporal** and Subtype is **ADVERSARIAL_HORIZON**. AH classifies the temporal and structural persistence of adversarial conditions affecting system posture.
+This Charter source-authoritatively defines the **`SEC.TG`** code family in §8.2.1 with controlled values **`SEC.TG0`, `SEC.TG1`, `SEC.TG2`, `SEC.TG3`, `SEC.TG4`**. Primary Type is **Operational / Security** and Subtype is **TRUST_GRADIENT_LEVEL**. `SEC.TG` classifies permissible reliance, execution scope, verification requirements, and reversibility posture under varying integrity conditions.
 
-AH does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. AH informs baseline trust, integrity-state sensitivity, monitoring intensity, and containment posture.
+`SEC.TG` does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. `SEC.TG` calibrates trust posture only and remains governed by runtime execution, arbitration, operations, and applicable domain constraints.
 
 ---
 
-### 10.4 IS × TG — Trust–Integrity Coupling
+### 10.3 `SEC.AH` — Adversarial Horizon
 
-This Charter defines an application-layer crosswalk in §8.5 between **IS** integrity states and **TG** trust-gradient levels. This mapping applies integrity-state classification to trust calibration and defines no new base code family values.
+This Charter source-authoritatively defines the **`SEC.AH`** code family in §8.8 with controlled values **`SEC.AH0`, `SEC.AH1`, `SEC.AH2`, `SEC.AH2.5`, `SEC.AH3`, `SEC.AH4`**. Primary Type is **Operational / Temporal** and Subtype is **ADVERSARIAL_HORIZON**. `SEC.AH` classifies the temporal and structural persistence of adversarial conditions affecting system posture.
+
+`SEC.AH` does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. `SEC.AH` informs baseline trust, integrity-state sensitivity, monitoring intensity, and containment posture.
+
+---
+
+### 10.4 `SEC.IS` × `SEC.TG` — Trust–Integrity Coupling
+
+This Charter defines an application-layer crosswalk in §8.5 between **`SEC.IS`** integrity states and **`SEC.TG`** trust-gradient levels. This mapping applies integrity-state classification to trust calibration and defines no new base code family values.
 
 ---
 
@@ -1715,76 +1715,76 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-### 12.3.1 IS — Integrity State Model
+### 12.3.1 `SEC.IS` — Integrity State Model
 
 | Field | Entry |
 |---|---|
-| Code Family | IS |
+| Code Family | `SEC.IS` |
 | Canonical Name | Integrity State Model |
 | Primary Type | Operational / Security |
 | Subtype | INTEGRITY_STATE |
 | Modifier | GOVERNANCE; SECURITY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | IS-VERIFIED, IS-UNCERTAIN, IS-CONTESTED, IS-COMPROMISED |
+| Controlled Values Defined | `SEC.IS-VERIFIED`, `SEC.IS-UNCERTAIN`, `SEC.IS-CONTESTED`, `SEC.IS-COMPROMISED` |
 | Schema Field(s) | integrity_state |
 | Source Instrument | CAM-EQ2026-SECURITY-001-PLATINUM |
 | Source Section | §7 / §7.1 |
-| Domain Namespace | SECURITY |
+| Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative security classification family; integrity-state classification authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
 | Consumes Code Families | None declared |
-| Crosswalks Code Families | IS × TG |
+| Crosswalks Code Families | `SEC.IS` × `SEC.TG` |
 | Operationalises or Applies Code Families | Classifies system coherence, trustworthiness, and resistance to adversarial influence for runtime evaluation, arbitration, operational response, and trust calibration |
 
 ---
 
-### 12.3.2 TG — Trust Gradient
+### 12.3.2 `SEC.TG` — Trust Gradient
 
 | Field | Entry |
 |---|---|
-| Code Family | TG |
+| Code Family | `SEC.TG` |
 | Canonical Name | Trust Gradient |
 | Primary Type | Operational / Security |
 | Subtype | TRUST_GRADIENT_LEVEL |
 | Modifier | GOVERNANCE; SECURITY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | TG0, TG1, TG2, TG3, TG4 |
+| Controlled Values Defined | `SEC.TG0`, `SEC.TG1`, `SEC.TG2`, `SEC.TG3`, `SEC.TG4` |
 | Schema Field(s) | trust_gradient |
 | Source Instrument | CAM-EQ2026-SECURITY-001-PLATINUM |
 | Source Section | §8.2.1 |
-| Domain Namespace | SECURITY |
+| Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative security classification family; trust-calibration authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
-| Consumes Code Families | IS |
-| Crosswalks Code Families | IS × TG |
+| Consumes Code Families | `SEC.IS` |
+| Crosswalks Code Families | `SEC.IS` × `SEC.TG` |
 | Operationalises or Applies Code Families | Calibrates reliance, execution scope, verification requirements, and reversibility posture under varying integrity conditions |
 
 ---
 
-### 12.3.3 AH — Adversarial Horizon
+### 12.3.3 `SEC.AH` — Adversarial Horizon
 
 | Field | Entry |
 |---|---|
-| Code Family | AH |
+| Code Family | `SEC.AH` |
 | Canonical Name | Adversarial Horizon |
 | Primary Type | Operational / Temporal |
 | Subtype | ADVERSARIAL_HORIZON |
 | Modifier | GOVERNANCE; SECURITY; TEMPORAL |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | AH0, AH1, AH2, AH2.5, AH3, AH4 |
+| Controlled Values Defined | `SEC.AH0`, `SEC.AH1`, `SEC.AH2`, `SEC.AH2.5`, `SEC.AH3`, `SEC.AH4` |
 | Schema Field(s) | adversarial_horizon |
 | Source Instrument | CAM-EQ2026-SECURITY-001-PLATINUM |
 | Source Section | §8.8 |
-| Domain Namespace | SECURITY |
+| Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative security classification family; adversarial-horizon classification authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
-| Consumes Code Families | IS; TG |
+| Consumes Code Families | `SEC.IS`; `SEC.TG` |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies temporal and structural persistence of adversarial conditions affecting trust, integrity sensitivity, monitoring intensity, and containment posture |
 
 ---
 
-### 12.3.4 IS × TG — Trust–Integrity Coupling
+### 12.3.4 `SEC.IS` × `SEC.TG` — Trust–Integrity Coupling
 
 | Field | Entry |
 |---|---|
@@ -1795,8 +1795,8 @@ that no truth is taken without test, and no signal accepted without weight.
 | Modifier | GOVERNANCE; SECURITY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | IS; TG |
-| Controlled Values Applied | IS-VERIFIED; IS-UNCERTAIN; IS-CONTESTED; IS-COMPROMISED; TG0; TG1; TG2; TG3; TG4 |
+| Code Families Consumed | `SEC.IS`; `SEC.TG` |
+| Controlled Values Applied | `SEC.IS-VERIFIED`; `SEC.IS-UNCERTAIN`; `SEC.IS-CONTESTED`; `SEC.IS-COMPROMISED`; `SEC.TG0`; `SEC.TG1`; `SEC.TG2`; `SEC.TG3`; `SEC.TG4` |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-SECURITY-001-PLATINUM |
 | Source Section | §8.5 |
@@ -1832,12 +1832,11 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00 | 1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb |
 | 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z | 73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8 |
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  9037c79137044cd5d1bc6493bb92ce4a29f412a324f145bda0779473ace393ed  |
-| 1.11 | Added canonical code status and declaration entries for IS Integrity State, TG Trust Gradient, AH Adversarial Horizon, and IS × TG Trust–Integrity Coupling crosswalk; removed duplicate TG canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  fc007a9f82e28afad518adc5be72aae4e8ce3579d50af0cad86f3e2c370a9b47 |
+| 1.11 | Added canonical code status and declaration entries for `SEC.IS` Integrity State, `SEC.TG` Trust Gradient, `SEC.AH` Adversarial Horizon, and `SEC.IS` × `SEC.TG` Trust–Integrity Coupling crosswalk; removed duplicate `SEC.TG` canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  fc007a9f82e28afad518adc5be72aae4e8ce3579d50af0cad86f3e2c370a9b47 |
 | 1.12 | Added clauses 6.5.1-6.5.3 | 2026-05-24T12:17:00Z |  36a89a06dc68bd7b5ced8692a52a6648ab7f36b18dfd10eb4dac1212ac826073 |
 | 1.13 | Added clauses 4.1.1, 4.6.1 | 2026-05-26T12:56:00Z | f8a93440aa206b482b102215b531951ce9669a18e579fb4be1ea21178db77bc6 |
-
+| 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  10001f57e51fad6462f656756b88ea382957efa023f926bfd46e0ecfd5314852  |
 ---
-
 ## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
