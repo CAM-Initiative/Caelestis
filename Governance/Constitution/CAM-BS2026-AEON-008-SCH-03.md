@@ -1155,7 +1155,7 @@ because the architecture forgot how to name the group.
 | Domain Namespace | AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE |
 | Authority / Protection Level | Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent identity validation, account recovery, credential-control determination, enforcement, arbitration, legal, or runtime authority |
 | Consumes Code Families | None |
-| Crosswalks Code Families | TG; IS; ECOEV; FF |
+| Crosswalks Code Families | `SEC.TG`; `SEC.IS`; ECOEV; FF |
 | Operationalises or Applies Code Families | Classifies account/workspace activity as no delegation, authorised delegation, family/guardian delegation, accessibility delegation, employee/team delegation, contractor/consultant delegation, agentic tool delegation, ambiguous delegation, suspected unauthorised access, or confirmed unauthorised access |
 
 ---
@@ -1178,7 +1178,7 @@ because the architecture forgot how to name the group.
 | Domain Namespace | AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE |
 | Authority / Protection Level | Source-authoritative contextual reference set; signal and runtime-handoff authority only; no independent restriction, appeal, restoration, notice, review, containment, arbitration, legal, enforcement, or runtime execution authority |
 | Consumes Code Families | ARS; SCS; PCS; TGS; ADS |
-| Crosswalks Code Families | ECOEV; FF; IS; TG |
+| Crosswalks Code Families | ECOEV; FF; `SEC.IS`; `SEC.TG` |
 | Operationalises or Applies Code Families | Emits enforcement-boundary handoff signals for notice, clarification, verification, scoped limitation, active-use limitation, read-only continuation, export corridor, appeal corridor, security review, operations escalation, LATTICE review, or arbitration routing |
 
 ---
@@ -1219,9 +1219,8 @@ because the architecture forgot how to name the group.
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
 |1.0|Initial draft defining account-resource, shared-context, pooled-capacity, team/family-group, account-delegation states, and enforcement-boundary handoff primitives. VIGIL records, VIGIL-2026-FM-0007, VIGIL-2026-PATCH-0003|2026-06-05T13:49:00Z|  41ee5f91bb29982d554915432333c0ac20e7b22c57a5a38ae47ad788e220665f  |
-
+| 1.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 22.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

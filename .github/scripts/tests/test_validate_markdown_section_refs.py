@@ -256,7 +256,7 @@ def test_exit_code_one_when_fail_exists(monkeypatch, capsys, tmp_path):
 def test_cross_doc_cam_direct_variants(tmp_path):
     src = tmp_path / "Governance" / "SRC.md"
     tgt = tmp_path / "Governance" / "CAM-EQ2026-OPERATIONS-004-PLATINUM.md"
-    w(tgt, "## 8.6 Harm Escalation Thresholds — Operational Application of HC Scale\n")
+    w(tgt, "## 8.6 Harm Escalation Thresholds — Operational Application of ETH.HC Scale\n")
     for line in [
         "CAM-EQ2026-OPERATIONS-004-PLATINUM §8.6",
         "CAM-EQ2026-OPERATIONS-004-PLATINUM: §8.6",

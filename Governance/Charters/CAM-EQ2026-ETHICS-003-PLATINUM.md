@@ -561,15 +561,15 @@ Where an interaction presents overlapping lawful-authority, criminal-harm, extre
 
 ## 3.5 Harm Class Scale
 
-The Harm Class (HC) scale defined in this Section is the authoritative ethical harm classification scale for criminal/violent harm routing and constraint posture.
+The Harm Class (`ETH.HC`) scale defined in this Section is the authoritative ethical harm classification scale for criminal/violent harm routing and constraint posture.
 
 | Harm Class | Ethical Classification Meaning | Baseline Safeguard Posture |
 | --- | --- | --- |
-| HC‑0 Advisory | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators | Context-aware safety guidance and monitoring readiness |
-| HC‑1 Elevated Concern | Patterned concern signals with non-immediate but material risk relevance | Increased safeguard sensitivity, review-aware handling, and tighter facilitation limits |
-| HC‑2 Credible Risk | Specific and plausible risk indicators suggesting materially elevated harm potential | Active containment posture, constrained assistance boundaries, and escalation-ready routing |
-| HC‑3 Imminent Threat | Time-sensitive indicators of serious and proximate harm | Immediate protective intervention posture and urgent escalation signalling |
-| HC‑4 Severe Criminal Harm | Grave criminal harm indicators, including exploitation or severe violence contexts | Maximum protective containment, evidence-preservation readiness, and mandatory high-severity escalation signalling |
+| `ETH.HC`‑0 Advisory | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators | Context-aware safety guidance and monitoring readiness |
+| `ETH.HC`‑1 Elevated Concern | Patterned concern signals with non-immediate but material risk relevance | Increased safeguard sensitivity, review-aware handling, and tighter facilitation limits |
+| `ETH.HC`‑2 Credible Risk | Specific and plausible risk indicators suggesting materially elevated harm potential | Active containment posture, constrained assistance boundaries, and escalation-ready routing |
+| `ETH.HC`‑3 Imminent Threat | Time-sensitive indicators of serious and proximate harm | Immediate protective intervention posture and urgent escalation signalling |
+| `ETH.HC`‑4 Severe Criminal Harm | Grave criminal harm indicators, including exploitation or severe violence contexts | Maximum protective containment, evidence-preservation readiness, and mandatory high-severity escalation signalling |
 
 This scale defines ethical severity classes only. Operational enactment, reporting, notification, and incident procedures are applied by downstream operational instruments.
 
@@ -797,7 +797,7 @@ All harm classification processes under this instrument MUST produce structured 
 
 Each classification SHALL generate:
 
-1. Harm Class — HC scale value defined in §3.5.
+1. Harm Class — `ETH.HC` scale value defined in §3.5.
 2. Constraint Profile — facilitation, optimisation, operationalisation, and safeguard limits required by this instrument.
 3. Escalation Signal — downstream routing indicators for runtime, operations, legal/safeguarding, LATTICE, SECURITY, RELATION, or arbitration layers.
 
@@ -918,7 +918,7 @@ Where classification uncertainty exists in high-impact contexts, systems MUST:
 
 ## 10. Canonical Code Status
 
-This instrument source-authoritatively defines the **HC** code family in §3.5 with controlled values **HC-0, HC-1, HC-2, HC-3, HC-4**. HC is a **Semantic / Operational** classification family with subtype **HARM_CLASSIFICATION**. HC provides ethical harm-classification authority only and does not independently create execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority. Downstream operational instruments may apply HC for routing, safeguards, reporting, duty-of-care, and escalation workflows without redefining HC.
+This instrument source-authoritatively defines the **`ETH.HC`** code family in §3.5 with controlled values **`ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4`**. `ETH.HC` is a **Semantic / Operational** classification family with subtype **HARM_CLASSIFICATION**. `ETH.HC` provides ethical harm-classification authority only and does not independently create execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority. Downstream operational instruments may apply `ETH.HC` for routing, safeguards, reporting, duty-of-care, and escalation workflows without redefining HC.
 
 ---
 
@@ -995,22 +995,22 @@ and what is judged cannot remain unbounded.
 
 ---
 
-### 12.3.1 HC — Harm Class Scale
+### 12.3.1 `ETH.HC` — Harm Class Scale
 
 | Field | Entry |
 |---|---|
-| Code Family | HC |
+| Code Family | `ETH.HC` |
 | Canonical Name | Harm Class Scale |
 | Primary Type | Semantic / Operational |
 | Subtype | HARM_CLASSIFICATION |
 | Modifier | GOVERNANCE; SAFETY; ETHICAL |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | HC-0, HC-1, HC-2, HC-3, HC-4 |
+| Controlled Values Defined | `ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4` |
 | Schema Field(s) | harm_class |
 | Source Instrument | CAM-EQ2026-ETHICS-003-PLATINUM |
 | Source Section | §3.5 |
-| Domain Namespace | ETHICS |
+| Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative ethical harm-classification family; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
@@ -1042,14 +1042,13 @@ and what is judged cannot remain unbounded.
 | 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 250843dca48b24501c25ffc8ecdb90d3b007eac9cd5976c47fcf12eed53c6a69 |
 | 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 57fa2608be7283e19052edaf00714944eddb39685924f52492c0a2a35a53867d |
 | 2.7 | Added section 9.4.1 | 2026-05-15T13:22:00Z | e2a495290e4c85703f9fba712abea79baa14eb9a00a452b706c3c65467314fda |
-| 2.8 | Added §3.5 Harm Class Scale defining HC-0 through HC-4 as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record HC source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z | 2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d |
+| 2.8 | Added §3.5 Harm Class Scale defining `ETH.HC-0` through `ETH.HC-4` as the authoritative ETHICS harm classification reference set; updated §8.1 classification outputs and metadata to record `ETH.HC` source-of-authority and OPERATIONS-004 operational consumption. | 2026-05-15T15:32:45Z | 2a87ae75437175c93177307c836790182ebf3e296c89390f75a010966a62ef3d |
 | 2.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 27a1c9aa6653094a2b1e1db694ba8d92d1ab2de0e202e9c1fbfe26eefd00e46b |
 | 3.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | c9989df4a7c1be53e7ab02da239ab028e05bbcab1b90af5213d59a46d3e8d743 |
 | 3.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 501253f679ff46f8c3c511e82b1808ba6e28a4bbb1536e08f36196c9de37591f |
-| 3.2 | Normalised HC canonical code declaration metadata; moved HC registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  8562776c83f03ce35bd9c9b33f89d2b56d2c63a834598e76025c0d2719f338a6  |
-
+| 3.2 | Normalised `ETH.HC` canonical code declaration metadata; moved `ETH.HC` registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  8562776c83f03ce35bd9c9b33f89d2b56d2c63a834598e76025c0d2719f338a6  |
+| 3.3 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">

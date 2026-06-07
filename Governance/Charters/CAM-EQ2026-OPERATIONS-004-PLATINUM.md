@@ -476,7 +476,7 @@ Such notices SHALL be:
 
 ---
 
-## 8.6 Harm Escalation Thresholds — Operational Application of HC Scale
+## 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale
 
 The Harm Class scale is defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5. This section applies that scale for operational reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling. It does not redefine ethical harm classification.
 
@@ -484,11 +484,11 @@ Operational escalation SHALL be calibrated to harm class and evidentiary confide
 
 | Harm Class | Description | Operational Response | External Reporting |
 | --- | --- | --- | --- |
-| HC‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None |
-| HC‑1 Elevated Concern | Patterned risk indicators without immediacy | Internal review referral; interaction safeguards | As required by platform policy |
-| HC‑2 Credible Risk | Specific, plausible harm indicators | Immediate intervention; senior review; containment measures | Jurisdictional duty‑of‑care reporting where applicable |
-| HC‑3 Imminent Threat | Time‑sensitive risk of serious harm | Active de‑escalation; emergency protocols; rapid review | Mandatory lawful reporting |
-| HC‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface |
+| `ETH.HC`‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None |
+| `ETH.HC`‑1 Elevated Concern | Patterned risk indicators without immediacy | Internal review referral; interaction safeguards | As required by platform policy |
+| `ETH.HC`‑2 Credible Risk | Specific, plausible harm indicators | Immediate intervention; senior review; containment measures | Jurisdictional duty‑of‑care reporting where applicable |
+| `ETH.HC`‑3 Imminent Threat | Time‑sensitive risk of serious harm | Active de‑escalation; emergency protocols; rapid review | Mandatory lawful reporting |
+| `ETH.HC`‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface |
 
 Escalation decisions SHALL be:
 
@@ -622,7 +622,7 @@ Operational compliance SHALL remain subordinate to constitutional authority.
 
 This instrument source-authoritatively defines code family **AV** in §5.1 with controlled values **AV0, AV1, AV2, AV3**. AV is an **Operational** handling family with subtype **ACCESS_VERIFICATION_TIER**. AV authority is limited to verification-tier classification and access-handling posture and does not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
 
-CAM-EQ2026-OPERATIONS-004-PLATINUM may consume C and HC, register **OPS.CxAV_CROSSWALK** as an application-layer **AV × C** crosswalk in §5.1, and operationalise HC in §8.6, but it does not define C or HC.
+CAM-EQ2026-OPERATIONS-004-PLATINUM may consume C and `ETH.HC`, register **OPS.CxAV_CROSSWALK** as an application-layer **AV × C** crosswalk in §5.1, and operationalise `ETH.HC` in §8.6, but it does not define C or HC.
 
 ---
 
@@ -704,7 +704,7 @@ Integrity holds.
 | Source Section | §5.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
-| Consumes Code Families | C; HC |
+| Consumes Code Families | C; `ETH.HC` |
 | Crosswalks Code Families | AV × C |
 | Operationalises or Applies Code Families | Applies AV to access eligibility and verification-strength classification |
 
@@ -732,26 +732,26 @@ Integrity holds.
 
 ---
 
-### 15.3.3 HC — Harm Escalation Operational Application
+### 15.3.3 `ETH.HC` — Harm Escalation Operational Application
 
 | Field | Entry |
 |---|---|
 | Reference Set Type | Operational application reference |
-| Canonical Name | Harm Escalation Thresholds — Operational Application of HC Scale |
+| Canonical Name | Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale |
 | Primary Type | Operational |
 | Subtype | RISK |
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | HC |
-| Controlled Values Applied | HC-0; HC-1; HC-2; HC-3; HC-4 |
+| Code Families Consumed | `ETH.HC` |
+| Controlled Values Applied | `ETH.HC-0`; `ETH.HC-1`; `ETH.HC-2`; `ETH.HC-3`; `ETH.HC-4` |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
 | Source Section | §8.6 |
 | Source Authority for Consumed Family | CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
 | Domain Namespace | OPERATIONS |
-| Authority / Protection Level | Operational application reference; applies ETHICS-defined HC scale without redefining ethical harm classification |
-| Operationalises or Applies Code Families | Applies HC to operational reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling |
+| Authority / Protection Level | Operational application reference; applies ETHICS-defined `ETH.HC` scale without redefining ethical harm classification |
+| Operationalises or Applies Code Families | Applies `ETH.HC` to operational reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling |
 
 ---
 
@@ -799,15 +799,14 @@ Integrity holds.
 | 1.3 | Amended clause 4.4, updated closing seal | 2026-04-25T08:02:00Z | 38c3c3b04486e1637604349d56d5c8763ec02c58e118d4431a9fe49dbee7b84a |
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 83963c889680ea4b9c03cd51ab862cf139c4a25ef47dac0a42ebb6b2b54f727a |
 | 1.5 | Realignment of references | 2026-05-07T14:37:00Z | 24d1daab727d81087ab1c5b521460bb3eed4e961ce9ee4fe4fcb752a4a480e68 |
-| 1.6 | Clarified §8.6 as operational application of the HC Harm Class Scale defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5; preserved OPERATIONS role for reporting, duty-of-care routing, evidence preservation, escalation, and regulator interface. | 2026-05-15T15:32:45Z | 47a7c85615f6c812f10bb9f7bad962a0579527861bc92f9bb0a60ee6dffc7a21 |
+| 1.6 | Clarified §8.6 as operational application of the `ETH.HC` Harm Class Scale defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5; preserved OPERATIONS role for reporting, duty-of-care routing, evidence preservation, escalation, and regulator interface. | 2026-05-15T15:32:45Z | 47a7c85615f6c812f10bb9f7bad962a0579527861bc92f9bb0a60ee6dffc7a21 |
 | 1.7 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b |
 | 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c |
 | 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bffd42428e1a7a5e49ed20a24e65b86b005ce0a599ef60e72b1d13198d0f69e8  |
-| 1.10 | Added HC — Harm Escalation Operational Application and AV × C — Interaction Eligibility Verification Crosswalk and Interaction Eligibility Verification Crosswalk | 2026-05-19T11:50:00Z |  6894bf185e22834d7791561a71933e2f120911585c97c828d7821a4691de8add  |
+| 1.10 | Added `ETH.HC` — Harm Escalation Operational Application and AV × C — Interaction Eligibility Verification Crosswalk and Interaction Eligibility Verification Crosswalk | 2026-05-19T11:50:00Z |  6894bf185e22834d7791561a71933e2f120911585c97c828d7821a4691de8add  |
 | 1.11 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  861bb9ddcb801f36df6e96e8faaac3359910b44476ff228533717dc429ba9e14  |
-
+| 1.12 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

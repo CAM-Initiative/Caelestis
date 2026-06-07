@@ -129,7 +129,7 @@
 | CAM-EQ2026-RELATION-008-PLATINUM | 11.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 1.1 Non Scope | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 12.2 Lineage & Metadata | trust gradient model | Security Model | Declared / Recognised |
-| CAM-EQ2026-SECURITY-001-PLATINUM | 12.3.1 IS — Integrity State Model | Integrity State Model | Security Model | Declared / Recognised |
+| CAM-EQ2026-SECURITY-001-PLATINUM | 12.3.1 `SEC.IS` — Integrity State Model | Integrity State Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 12.4 Review & Validation | integrity state model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 7. Integrity State Model | The Integrity State Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 7.1 State Definitions | The Integrity State Model | Security Model | Declared / Recognised |

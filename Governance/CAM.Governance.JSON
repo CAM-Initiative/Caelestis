@@ -2586,7 +2586,7 @@
       "parent_id": "CAM-EQ2026-STEWARD-001",
       "seal": "PLATINUM",
       "link": "Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
-      "title": "Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL)",
+      "title": "Appendix B: Architectum Qualification & Neutrality Assurance Levels (STW.NAL)",
       "summary": "Tactical/classified details need not be publicly disclosed.",
       "status": "** Adopted",
       "effect": "** Pre-Enforcement Recognition",
@@ -2598,7 +2598,7 @@
       "pinned_sha": "e668c857ba9384fdcc2eeee7253899689aa8d8a6",
       "updated_at": "2026-05-27T11:28:52Z",
       "last_updated_utc": "2026-05-27T11:28:52Z",
-      "purpose": "To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (NAL), and (iii) the collapse conditions under which binding legitimacy dissolves.",
+      "purpose": "To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (STW.NAL), and (iii) the collapse conditions under which binding legitimacy dissolves.",
       "is_derived": false
     },
     {

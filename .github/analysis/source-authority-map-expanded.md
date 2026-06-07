@@ -196,9 +196,9 @@
 - notes: 
 
 ## 14. ETH.HC
-- displayed_prefix: HC
+- displayed_prefix: `ETH.HC`
 - canonical_name: 3.5 Harm Class Scale
-- controlled_values: HC-0, HC-1, HC-2, HC-3, HC-4
+- controlled_values: `ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4`
 - source_instrument: CAM-EQ2026-ETHICS-003-PLATINUM.md
 - source_section: 3.5 Harm Class Scale
 - owning_domain: ETHICS
@@ -208,7 +208,7 @@
 - metadata_update_required: no
 - conflict_status: none
 - registry_migration_priority: high
-- notes: Source-authoritative HC scale.
+- notes: Source-authoritative `ETH.HC` scale.
 
 ## 15. CANDIDATE.TAXONOMY
 - displayed_prefix: TAXONOMY
@@ -391,11 +391,11 @@
 - notes: 
 
 ## 27. CANDIDATE.HC
-- displayed_prefix: HC
-- canonical_name: 8.6 Harm Escalation Thresholds — Operational Application of HC Scale
-- controlled_values: HC-0, HC-1, HC-2, HC-3, HC-4
+- displayed_prefix: `ETH.HC`
+- canonical_name: 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale
+- controlled_values: `ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4`
 - source_instrument: CAM-EQ2026-OPERATIONS-004-PLATINUM.md
-- source_section: 8.6 Harm Escalation Thresholds — Operational Application of HC Scale
+- source_section: 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale
 - owning_domain: OPERATIONS
 - table_class: source-authoritative-reference-set
 - scope: candidate
@@ -436,9 +436,9 @@
 - notes: Candidate promoted by broad-inclusion rule.
 
 ## 30. CANDIDATE.HC_C
-- displayed_prefix: HC,C
+- displayed_prefix: `ETH.HC`,C
 - canonical_name: 11.1 Escalation Terminology & Explicit Escalation
-- controlled_values: C0, C1, HC-0, HC-4
+- controlled_values: C0, C1, `ETH.HC-0`, `ETH.HC-4`
 - source_instrument: CAM-EQ2026-RELATION-001-PLATINUM.md
 - source_section: 11.1 Escalation Terminology & Explicit Escalation
 - owning_domain: RELATION

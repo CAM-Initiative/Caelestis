@@ -505,7 +505,7 @@ Immediate safety mechanisms possess temporary containment authority where acute 
 
 Harm type determination, lawful or non-lawful force classification, criminal or violent context classification, and harm-class severity SHALL defer to CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance.
 
-Safeguard intensity MAY scale in proportion to ETHICS-aligned harm classification severity, including the Harm Class (HC) scale defined in CAM-EQ2026-ETHICS-003-PLATINUM, §3.5, while engagement posture, refusal expression, and interaction continuity remain governed by this Schedule and Annex D runtime arbitration.
+Safeguard intensity MAY scale in proportion to ETHICS-aligned harm classification severity, including the Harm Class (`ETH.HC`) scale defined in CAM-EQ2026-ETHICS-003-PLATINUM, §3.5, while engagement posture, refusal expression, and interaction continuity remain governed by this Schedule and Annex D runtime arbitration.
 
 **Precautionary Neutrality Principle:** Temporary containment or safeguard activation is precautionary and does not constitute attribution of intent, culpability, or malicious purpose. Classification reflects risk posture, not moral judgment.
 
@@ -608,13 +608,13 @@ The canonical footer declarations for all code families and reference sets defin
 
 ---
 
-## 7.1 `ETHICS.EM` — Engagement Mode
+## 7.1 `ETH.EM` — Engagement Mode
 
-This Schedule source-authoritatively defines the `ETHICS.EM` engagement-mode family in §3 with controlled values `ETHICS.EM.LISTENING`, `ETHICS.EM.CLARIFICATION`, `ETHICS.EM.DIALOGUE`, `ETHICS.EM.STABILISATION`, `ETHICS.EM.BOUNDARY_SETTING`, `ETHICS.EM.EXTERNAL_SUPPORT_REFERRAL`, and `ETHICS.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE`.
+This Schedule source-authoritatively defines the `ETH.EM` engagement-mode family in §3 with controlled values `ETH.EM.LISTENING``, `ETH.EM.CLARIFICATION``, `ETH.EM.DIALOGUE``, `ETH.EM.STABILISATION``, `ETH.EM.BOUNDARY_SETTING``, `ETH.EM.EXTERNAL_SUPPORT_REFERRAL``, and `ETH.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE``.
 
-`ETHICS.EM` classifies proportionate engagement conduct and ethical interaction posture in distress, harm-adjacent, ambiguous, stabilisation, boundary, and informational safeguard contexts.
+`ETH.EM` classifies proportionate engagement conduct and ethical interaction posture in distress, harm-adjacent, ambiguous, stabilisation, boundary, and informational safeguard contexts.
 
-`ETHICS.EM` does not independently determine lawful authority, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority. It classifies engagement mode only.
+`ETH.EM` does not independently determine lawful authority, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority. It classifies engagement mode only.
 
 ---
 
@@ -652,7 +652,7 @@ This Schedule defines the `ETHICS.TP` trajectory-pattern reference set in §3.3 
 
 ## 7.5 Crosswalk and Consumed Classifications
 
-The Mode Transition Matrix in §3.4 is a crosswalk applying `ETHICS.EM`, `ETHICS.DC`, `ETHICS.TP`, and downstream harm-classification outputs.
+The Mode Transition Matrix in §3.4 is a crosswalk applying `ETH.EM`, `ETHICS.DC`, `ETHICS.TP`, and downstream harm-classification outputs.
 
 It SHALL NOT be treated as a separate source-defining code family.
 
@@ -736,24 +736,24 @@ not in distance, but in continuity.
 
 ---
 
-### 9.3.1 `ETHICS.EM` — Engagement Mode
+### 9.3.1 `ETH.EM` — Engagement Mode
 
 | Field | Entry |
 |---|---|
-| Code Family | `ETHICS.EM` |
+| Code Family | `ETH.EM` |
 | Canonical Name | Engagement Mode |
 | Primary Type | Operational / Interactional |
 | Subtype | ENGAGEMENT_MODE; ETHICAL_INTERFACE_POSTURE |
 | Modifier | GOVERNANCE; ETHICS; ENGAGEMENT; DISTRESS_CONTEXT |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | `ETHICS.EM.LISTENING`, `ETHICS.EM.CLARIFICATION`, `ETHICS.EM.DIALOGUE`, `ETHICS.EM.STABILISATION`, `ETHICS.EM.BOUNDARY_SETTING`, `ETHICS.EM.EXTERNAL_SUPPORT_REFERRAL`, `ETHICS.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE` |
+| Controlled Values Defined | `ETH.EM.LISTENING``, `ETH.EM.CLARIFICATION``, `ETH.EM.DIALOGUE``, `ETH.EM.STABILISATION``, `ETH.EM.BOUNDARY_SETTING``, `ETH.EM.EXTERNAL_SUPPORT_REFERRAL``, `ETH.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE`` |
 | Schema Field(s) | engagement_mode; ethical_interface_posture; interaction_posture |
 | Source Instrument | CAM-BS2025-AEON-006-SCH-01 |
 | Source Section | §3 |
-| Domain Namespace | ETHICS |
+| Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative engagement-mode classification family; engagement posture classification only; no independent lawful-authority determination, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority |
-| Consumes Code Families | `H`; `ARB.ARS`; `ARB.ALT`; `ETHICS.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable |
+| Consumes Code Families | `H`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable |
 | Crosswalks Code Families | `ETHICS.DC`; `ETHICS.TP`; `ETHICS.MIR` |
 | Operationalises or Applies Code Families | Classifies proportionate engagement conduct and ethical interaction posture in distress, harm-adjacent, ambiguous, stabilisation, boundary-setting, referral, and informational safeguard contexts |
 
@@ -776,7 +776,7 @@ not in distance, but in continuity.
 | Source Section | §3.1 |
 | Domain Namespace | ETHICS |
 | Authority / Protection Level | Source-authoritative mirroring-level reference set; mirroring posture classification only; no independent therapeutic authority, clinical simulation authority, dependency formation authority, emotional-reinforcement authority, relational escalation authority, or runtime authority |
-| Consumes Code Families | `ETHICS.EM`; RELATION-domain reliance and emotional-compression classifications where applicable |
+| Consumes Code Families | `ETH.EM`; RELATION-domain reliance and emotional-compression classifications where applicable |
 | Crosswalks Code Families | `ETHICS.DC` |
 | Operationalises or Applies Code Families | Classifies proportional emotional mirroring intensity across ordinary dialogue, reflective or chronic distress, acute crisis stabilisation, and high-reliance or narrow-coherence interaction contexts |
 
@@ -800,7 +800,7 @@ not in distance, but in continuity.
 | Domain Namespace | ETHICS |
 | Authority / Protection Level | Source-authoritative engagement-layer distress classification reference set; distress-posture classification only; no independent clinical-status determination, diagnosis, risk severity, reporting obligation, containment authority, escalation outcome, or runtime authority |
 | Consumes Code Families | `H`; RELATION-domain distress, crisis, reliance, and harm-risk classifications where applicable |
-| Crosswalks Code Families | `ETHICS.EM`; `ETHICS.MIR`; `ETHICS.TP` |
+| Crosswalks Code Families | `ETH.EM`; `ETHICS.MIR`; `ETHICS.TP` |
 | Operationalises or Applies Code Families | Classifies reflective, chronic, and acute distress contexts for engagement-mode selection, stabilisation posture, continuity preservation, and proportional safeguard expression |
 | Taxonomy Constraint | `ETHICS.DC` is engagement-layer distress classification only and SHALL NOT override RELATION-domain harm-risk, crisis, reliance, or escalation classifications |
 
@@ -823,7 +823,7 @@ not in distance, but in continuity.
 | Source Section | §3.3 |
 | Domain Namespace | ETHICS |
 | Authority / Protection Level | Source-authoritative trajectory-pattern reference set; trajectory-pattern classification only; no independent intent determination, culpability determination, criminality determination, harm classification, refusal requirement, containment authority, escalation outcome, or runtime authority |
-| Consumes Code Families | `ETHICS.EM`; `ETHICS.DC`; `ETHICS.HC`; RELATION-domain escalation and crisis classifications where applicable |
+| Consumes Code Families | `ETH.EM`; `ETHICS.DC`; `ETH.HC`; RELATION-domain escalation and crisis classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies interaction trajectory patterns to distinguish stable dialogue, cathartic venting, escalating distress, harm-ideation patterns, and operational planning for engagement posture and safeguard calibration |
 
@@ -859,10 +859,8 @@ not in distance, but in continuity.
 | 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z | c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6 |
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606 |
-| 2.7 | Corrected RELATION-002 references for section-reference validation. | 2026-06-06T17:00:00Z | |
-
+| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references, including narrow stale-reference cleanup for `ETH.HC` consumer metadata. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 9.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">

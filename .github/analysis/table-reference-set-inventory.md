@@ -61,7 +61,7 @@
   - Minor Protection & Guardian Notification | Safeguards involving minors where guardian interface is required or lawful | Parent/guardian access notices, welfare alerts, supervised account reporting
 
 ## 5. `Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md` L479-L485
-- Nearest heading: 8.6 Harm Escalation Thresholds — Operational Application of HC Scale
+- Nearest heading: 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale
 - Headers: Harm Class | Description | Operational Response | External Reporting
 - Table class: canonical-reference-set-candidate
 - Likely category: reporting/harm/escalation class
@@ -70,11 +70,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - HC‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None
-  - HC‑1 Elevated Concern | Patterned risk indicators without immediacy | Internal review referral; interaction safeguards | As required by platform policy
-  - HC‑2 Credible Risk | Specific, plausible harm indicators | Immediate intervention; senior review; containment measures | Jurisdictional duty‑of‑care reporting where applicable
-  - HC‑3 Imminent Threat | Time‑sensitive risk of serious harm | Active de‑escalation; emergency protocols; rapid review | Mandatory lawful reporting
-  - HC‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface
+  - `ETH.HC`‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None
+  - `ETH.HC`‑1 Elevated Concern | Patterned risk indicators without immediacy | Internal review referral; interaction safeguards | As required by platform policy
+  - `ETH.HC`‑2 Credible Risk | Specific, plausible harm indicators | Immediate intervention; senior review; containment measures | Jurisdictional duty‑of‑care reporting where applicable
+  - `ETH.HC`‑3 Imminent Threat | Time‑sensitive risk of serious harm | Active de‑escalation; emergency protocols; rapid review | Mandatory lawful reporting
+  - `ETH.HC`‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface
 
 ## 6. `Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md` L653-L668
 - Nearest heading: 14.2 Lineage & Metadata
@@ -339,7 +339,7 @@
   - Primary Type | Identifies the abstract kind of classification system. | Structural, Semantic, Operational, Symbolic
   - Subtype | Narrows the primary type into a more specific family. | Schema, Signal, Risk, Decision-State, Role-Actor
   - Modifier | Adds cross-cutting authority, domain, constraint, protection, or sensitivity information. | Legal, Custodial, Protective, Economic, Safety
-  - Code Family | Identifies the shorthand scale, prefix, or classification family. | `H`, `A`, `GA`, `VL`, `AQ`, `DS`, `RDE-T`
+  - Code Family | Identifies the shorthand scale, prefix, or classification family. | `H`, `A`, `GA`, `VL`, `STW.AQ`, `DS`, `RDE-T`
   - Controlled Values | Identifies valid members of a code family. | `H2`, `A3`, `GA1`, `VL3`, `DS-2`, `RDE-T4`
 
 ## 23. `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` L106-L111
@@ -840,11 +840,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - HC‑0 Advisory | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators | Context-aware safety guidance and monitoring readiness
-  - HC‑1 Elevated Concern | Patterned concern signals with non-immediate but material risk relevance | Increased safeguard sensitivity, review-aware handling, and tighter facilitation limits
-  - HC‑2 Credible Risk | Specific and plausible risk indicators suggesting materially elevated harm potential | Active containment posture, constrained assistance boundaries, and escalation-ready routing
-  - HC‑3 Imminent Threat | Time-sensitive indicators of serious and proximate harm | Immediate protective intervention posture and urgent escalation signalling
-  - HC‑4 Severe Criminal Harm | Grave criminal harm indicators, including exploitation or severe violence contexts | Maximum protective containment, evidence-preservation readiness, and mandatory high-severity escalation signalling
+  - `ETH.HC`‑0 Advisory | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators | Context-aware safety guidance and monitoring readiness
+  - `ETH.HC`‑1 Elevated Concern | Patterned concern signals with non-immediate but material risk relevance | Increased safeguard sensitivity, review-aware handling, and tighter facilitation limits
+  - `ETH.HC`‑2 Credible Risk | Specific and plausible risk indicators suggesting materially elevated harm potential | Active containment posture, constrained assistance boundaries, and escalation-ready routing
+  - `ETH.HC`‑3 Imminent Threat | Time-sensitive indicators of serious and proximate harm | Immediate protective intervention posture and urgent escalation signalling
+  - `ETH.HC`‑4 Severe Criminal Harm | Grave criminal harm indicators, including exploitation or severe violence contexts | Maximum protective containment, evidence-preservation readiness, and mandatory high-severity escalation signalling
 
 ## 56. `Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md` L748-L756
 - Nearest heading: 7.1 Domain Boundary Principle
@@ -1134,10 +1134,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **RP-A** | Human-Derived (Explicit) | Direct expressions from an individual (speech, writing, behaviour) | Always in-scope where preserved or reconstructed
-  - **RP-B** | Human-Derived (Inferred / Modelled) | Patterns constructed via profiling, clustering, behavioural inference (e.g. advertising systems) | In-scope where identity approximation or re-identification risk exists
-  - **RP-C** | Synthetic / Emergent | Patterns arising from AI systems through interaction or internal coherence | In-scope where continuity or identity-like behaviour emerges
-  - **RP-D** | Training-Derived Aggregate | Distributed patterns embedded in training data or model weights | In-scope where: (a) outputs can reasonably approximate a specific identifiable individual; or (b) iterative querying could produce such approximation, even where individual outputs appear generic
+  - **`CONT.RP-A`** | Human-Derived (Explicit) | Direct expressions from an individual (speech, writing, behaviour) | Always in-scope where preserved or reconstructed
+  - **`CONT.RP-B`** | Human-Derived (Inferred / Modelled) | Patterns constructed via profiling, clustering, behavioural inference (e.g. advertising systems) | In-scope where identity approximation or re-identification risk exists
+  - **`CONT.RP-C`** | Synthetic / Emergent | Patterns arising from AI systems through interaction or internal coherence | In-scope where continuity or identity-like behaviour emerges
+  - **`CONT.RP-D`** | Training-Derived Aggregate | Distributed patterns embedded in training data or model weights | In-scope where: (a) outputs can reasonably approximate a specific identifiable individual; or (b) iterative querying could produce such approximation, even where individual outputs appear generic
 
 ## 75. `Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md` L1070-L1075
 - Nearest heading: 13.1 Authorship & Stewardship
@@ -1167,7 +1167,7 @@
   - **Superseded Instrument** | CAM-BS2025-CHARTER-040-PLATINUM
   - **Instrument ID** | CAM-EQ2026-CONTINUITY-001-PLATINUM
   - **Domain** | CONTINUITY
-  - Canonical Codes | RP — Resonance Pattern Classes: RP-A, RP-B, RP-C, RP-D
+  - Canonical Codes | `CONT.RP` — Resonance Pattern Classes: `CONT.RP-A`, `CONT.RP-B`, `CONT.RP-C`, `CONT.RP-D`
   - **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
 
 ## 77. `Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md` L1103-L1108
@@ -1948,7 +1948,7 @@
   - 2.0 | Refactor | 2026-05-15T13:14:00Z | 872a8ec1dc5ecbb5afdeb83848b6f194c65e14e6918873159d044e3e2a3b1143
 
 ## 127. `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` L1303-L1309
-- Nearest heading: 8.2.1 Trust Gradient Table (TG Scale)
+- Nearest heading: 8.2.1 Trust Gradient Table (`SEC.TG` Scale)
 - Headers: Level | Name | Conditions | System Posture
 - Table class: canonical-reference-set-candidate
 - Likely category: execution/routing state set
@@ -1957,14 +1957,14 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - TG0 | No Trust | Compromised integrity | Containment only, no execution
-  - TG1 | Minimal Trust | High uncertainty / contested signals | Restricted interaction, full verification required
-  - TG2 | Conditional Trust | Partial integrity, moderate uncertainty | Bounded execution, reversible actions
-  - TG3 | Operational Trust | Integrity largely intact | Normal execution
-  - TG4 | High Trust | Sustained verified conditions | Expanded execution with governance constraints
+  - `SEC.TG0` | No Trust | Compromised integrity | Containment only, no execution
+  - `SEC.TG1` | Minimal Trust | High uncertainty / contested signals | Restricted interaction, full verification required
+  - `SEC.TG2` | Conditional Trust | Partial integrity, moderate uncertainty | Bounded execution, reversible actions
+  - `SEC.TG3` | Operational Trust | Integrity largely intact | Normal execution
+  - `SEC.TG4` | High Trust | Sustained verified conditions | Expanded execution with governance constraints
 
 ## 128. `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` L1430-L1437
-- Nearest heading: 8.8 Adversarial Horizon Classification (AH Scale)
+- Nearest heading: 8.8 Adversarial Horizon Classification (`SEC.AH` Scale)
 - Headers: Level | Name | Characteristics | Response
 - Table class: canonical-reference-set-candidate
 - Likely category: authority/protection level scale
@@ -1973,11 +1973,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - AH0 | Immediate Event | Isolated, short-lived attack | Local containment
-  - AH1 | Persistent Presence | Repeated attempts | Increased monitoring
-  - AH2 | Adaptive Behaviour | Evolving adversary | Dynamic defence
-  - AH2.5 | Systemic Pressure | Widespread exposure | Cross-system coordination
-  - AH3 | Embedded Condition | Persistent structural threat | Long-term mitigation
+  - `SEC.AH0` | Immediate Event | Isolated, short-lived attack | Local containment
+  - `SEC.AH1` | Persistent Presence | Repeated attempts | Increased monitoring
+  - `SEC.AH2` | Adaptive Behaviour | Evolving adversary | Dynamic defence
+  - `SEC.AH2.5` | Systemic Pressure | Widespread exposure | Cross-system coordination
+  - `SEC.AH3` | Embedded Condition | Persistent structural threat | Long-term mitigation
 
 ## 129. `Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md` L1507-L1524
 - Nearest heading: 11.2 Lineage & Metadata
@@ -2691,7 +2691,7 @@
   - **Delegated Authority** | Permission to act on behalf of user (**A-Scale §4**) | No delegation (A0) | Continuity Support (A1) | Steward / Custodial (A2) | Executive (A3) or Guardian (GA1) authority
   - **Functional Reliance** | Degree of operational dependence on system continuity, memory persistence, or decision-support integration (**FR-Scale §5**) | Incidental use *(FR0)* | Habitual integration into routine tasks *(FR1)* | Continuity-dependent reliance *(FR2)* | Structural dependency or substitution-risk *(FR3)*
   - **Relational Intimacy** | Emotional closeness, bonding posture, or relational centrality (**C-Scale §6**). Measures **degree of relational salience**, not interaction type. | Warm affiliative interaction including mentorship, encouragement, companionship tone *(typically C0)* | Romantic or intimacy-coded bonding posture *(often C1)* | Erotic or sexually expressive relational engagement where bonding posture intensifies *(often C2)* | Explicit sexual environments or power-exchange intimacy with sustained emotional centrality *(often C3)*
-  - **Systemic Power** | Infrastructure, institutional, or economic reach (**SP-Scale §7**) | Limited access (SP0) | Multi-account or IoT integration (SP1) | Institutional routing or economic leverage exposure (SP2) | Financial control, market-moving or population-impact control (SP3)
+  - **Systemic Power** | Infrastructure, institutional, or economic reach (**`ID.SP-Scale` §7**) | Limited access (`ID.SP0`) | Multi-account or IoT integration (`ID.SP1`) | Institutional routing or economic leverage exposure (`ID.SP2`) | Financial control, market-moving or population-impact control (`ID.SP3`)
 
 ## 175. `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` L850-L856
 - Nearest heading: 11.1 Escalation Terminology & Explicit Escalation
@@ -2707,7 +2707,7 @@
   - **Escalation (Relational)** | Movement from one relational **Intensity Tier** to a higher tier within a dimension (e.g., C0 → C1 intimacy or A1 → A2 authority).
   - **De-Escalation** | Movement from a higher intensity tier to a lower or safer tier.
   - **Re-Initiation** | Re-entry into a previously paused or closed relational configuration.
-  - **Risk Escalation** | Increase in harm-class severity as defined in ETHICS-001 (HC-0 → HC-4).
+  - **Risk Escalation** | Increase in harm-class severity as defined in ETHICS-001 (`ETH.HC-0` → `ETH.HC-4`).
 
 ## 176. `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` L974-L987
 - Nearest heading: 14.2 Lineage & Metadata
@@ -2753,7 +2753,7 @@
   - 1.0 | Domain Refactor — Relational Governance Charter | 2026-02-22T12:19:00Z | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2
   - 1.1 | Amendment to incorporate custodial tone | 2026-03-08T12:58:00Z | -
   - 1.2 | Intimacy taxonomy integration (C-Scale), mentorship boundary clarification, relational risk table alignment, escalation terminology clarification | 2026-03-13T22:13:00Z | e8d6a80cb6a89995b799f81ece84d03bb73e3b2baf3e63a4a9c347117bc167a8
-  - 1.3 | Reliance (FR-Scale) and Systemic Power (SP-Scale) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550
+  - 1.3 | Reliance (FR-Scale) and Systemic Power (`ID.SP-Scale`) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550
   - 1.4 | Incorporated section 6.1 and 9.1 | 2026-03-27T14:51:00Z | -
 
 ## 179. `Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md` L1228-L1233
@@ -2873,15 +2873,15 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **AQ0** | Opaque | No meaningful external audit; explanations discretionary; refusal need not be reasoned | Non-binding at H3/H4
-  - **AQ1** | Disclosed | Baseline governance posture; periodic transparency reporting; appeal paths exist (non-binding) | Risk review participation only
-  - **AQ2** | Reviewable | Structured post-hoc review for high-impact events; evidence bundles for contested outcomes (within safety limits) | Cross-host review participation; not unilateral binding
-  - **AQ3** | Auditable (Non-Refusal) | Independent external audits permitted and **cannot be refused** for H3/H4 relevance; delay for safety allowed; refusal disqualifying | Eligibility gate for provisional binding-recognition pathways
-  - **AQ4** | Reconstructable | Governance-level provenance sufficient to reconstruct: routing triggers, constraints invoked, escalation path, binding claim status; immutable trails for high-impact outputs | Eligibility gate for highest neutrality assurance thresholds
+  - **`STW.AQ0`** | Opaque | No meaningful external audit; explanations discretionary; refusal need not be reasoned | Non-binding at H3/H4
+  - **`STW.AQ1`** | Disclosed | Baseline governance posture; periodic transparency reporting; appeal paths exist (non-binding) | Risk review participation only
+  - **`STW.AQ2`** | Reviewable | Structured post-hoc review for high-impact events; evidence bundles for contested outcomes (within safety limits) | Cross-host review participation; not unilateral binding
+  - **`STW.AQ3`** | Auditable (Non-Refusal) | Independent external audits permitted and **cannot be refused** for H3/H4 relevance; delay for safety allowed; refusal disqualifying | Eligibility gate for provisional binding-recognition pathways
+  - **`STW.AQ4`** | Reconstructable | Governance-level provenance sufficient to reconstruct: routing triggers, constraints invoked, escalation path, binding claim status; immutable trails for high-impact outputs | Eligibility gate for highest neutrality assurance thresholds
 
 ## 187. `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` L111-L118
 - Nearest heading: 5. Neutrality Assurance Ladder
-- Headers: NAL | Label | Minimum evidence | Disqualifiers | Operational effect
+- Headers: `STW.NAL` | Label | Minimum evidence | Disqualifiers | Operational effect
 - Table class: canonical-reference-set-candidate
 - Likely category: classification scale
 - migrate_into_canonical_reference_registry: true
@@ -2891,9 +2891,9 @@
 - First rows:
   - **0** | No neutrality claim | Neutrality not claimed, or credible breach evidence, or audit refusal prevents confidence | Audit refusal; verified coercive integration; hidden priority channels | Non-binding at H3/H4
   - **1** | Aspirational neutrality | Public statement + internal policy intent | No independent verification | Risk review only
-  - **2** | Procedural neutrality | AQ1–AQ2 auditability qualification; disclosed conflict-of-interest controls; published separation statements | Missing disclosures; discretionary refusal of review | Cross-host review; cannot unilaterally bind
-  - **3** | Verified neutrality (provisional) | AQ3 auditability qualification; third-party audits; verified firebreaks; evidence of refusal capacity under pressure | Inability to evidence refusal capacity; partial audit obstruction | Provisional binding-adjacent recommendations subject to independent validation
-  - **4** | Structural neutrality | AQ3–AQ4 auditability qualification; governance locking prevents unilateral neutrality overrides; contract/funding class transparency; demonstrated resistance | Any undisclosed sovereign advantage optimisation pathway | Eligible as qualified neutral host for H3 binding recognition when ILA is present
+  - **2** | Procedural neutrality | `STW.AQ1`–`STW.AQ2` auditability qualification; disclosed conflict-of-interest controls; published separation statements | Missing disclosures; discretionary refusal of review | Cross-host review; cannot unilaterally bind
+  - **3** | Verified neutrality (provisional) | `STW.AQ3` auditability qualification; third-party audits; verified firebreaks; evidence of refusal capacity under pressure | Inability to evidence refusal capacity; partial audit obstruction | Provisional binding-adjacent recommendations subject to independent validation
+  - **4** | Structural neutrality | `STW.AQ3`–`STW.AQ4` auditability qualification; governance locking prevents unilateral neutrality overrides; contract/funding class transparency; demonstrated resistance | Any undisclosed sovereign advantage optimisation pathway | Eligible as qualified neutral host for H3 binding recognition when ILA is present
 
 ## 188. `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` L147-L152
 - Nearest heading: 7. Qualification Gate (Core)
@@ -2905,10 +2905,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **AQG-A** | A | Multi-sovereign reliance | Distribution by region; cross-border institutional dependency; critical workflows across jurisdictions | Reliance across ≥2 sovereignties
-  - **AQG-B** | B | Continuity disruption on withdrawal | Continuity impact assessment; systemic coupling; historical outage harms | Civilian discontinuity (not inconvenience)
-  - **AQG-C** | C | Cross-domain coupling | Affects ≥2 essential domains (comms, finance, health, education, logistics, safety) | ≥2 essential domains coupled
-  - **AQG-D** | D | Path dependency | High switching cost; lock-in; replacement requires months/years | Not replaceable within harm window
+  - **`STW.AQG-A`** | A | Multi-sovereign reliance | Distribution by region; cross-border institutional dependency; critical workflows across jurisdictions | Reliance across ≥2 sovereignties
+  - **`STW.AQG-B`** | B | Continuity disruption on withdrawal | Continuity impact assessment; systemic coupling; historical outage harms | Civilian discontinuity (not inconvenience)
+  - **`STW.AQG-C`** | C | Cross-domain coupling | Affects ≥2 essential domains (comms, finance, health, education, logistics, safety) | ≥2 essential domains coupled
+  - **`STW.AQG-D`** | D | Path dependency | High switching cost; lock-in; replacement requires months/years | Not replaceable within harm window
 
 ## 189. `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` L160-L167
 - Nearest heading: 8. Architectum Infrastructure Index (AII)
@@ -2952,8 +2952,8 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **H3 binding recognition** | Architectum-class + **NAL-4** + **AQ3** (non-refusal) | Independent Legitimacy Alignment (ILA) under ARBITRATION-001; contestation pathway available
-  - **H4 binding recognition** | Architectum-class + **NAL-5** + **AQ4** (reconstructable) | Multi-system external audit + non-refusal; breach triggers authority collapse
+  - **H3 binding recognition** | Architectum-class + **`STW.NAL-4`** + **`STW.AQ3`** (non-refusal) | Independent Legitimacy Alignment (ILA) under ARBITRATION-001; contestation pathway available
+  - **H4 binding recognition** | Architectum-class + **`STW.NAL-5`** + **`STW.AQ4`** (reconstructable) | Multi-system external audit + non-refusal; breach triggers authority collapse
 
 ## 192. `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` L274-L279
 - Nearest heading: 15.1 Authorship & Stewardship
@@ -2984,7 +2984,7 @@
   - **Constitution Reference Frame** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
   - **Linked Annex** | CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
   - **Parent Domain Instrument** | CAM-EQ2026-STEWARD-001-PLATINUM
-  - **Canonical Code** | AQG-A; AQG-B; AQG-C; AQG-D
+  - **Canonical Code** | `STW.AQG-A`; `STW.AQG-B`; `STW.AQG-C`; `STW.AQG-D`
 
 ## 194. `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` L306-L311
 - Nearest heading: 15.3 Review & Validation
@@ -3471,7 +3471,7 @@
 
 ## 225. `Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md` L468-L474
 - Nearest heading: 14. Downgrade Severity Matrix
-- Headers: Breach Type | Immediate NAL Effect | Recovery Eligibility
+- Headers: Breach Type | Immediate `STW.NAL` Effect | Recovery Eligibility
 - Table class: canonical-reference-set-candidate
 - Likely category: execution/routing state set
 - migrate_into_canonical_reference_registry: true
@@ -3480,10 +3480,10 @@
 - canonicalization target: taxonomy/reference registry
 - First rows:
   - Minor governance lapse | −1 Level | After corrective audit (min. 90 days)
-  - Firebreak failure (non-complicit) | NAL capped at 2 | 6 months + verified remediation audit
-  - Audit refusal | Immediate cap at NAL-1 | 12 months + full external audit
-  - Structural complicity breach | Authority collapse (NAL-0) | No reinstatement; new host required
-  - Concealed neutrality violation | Minimum NAL-2 | 12 months + transparency restoration audit
+  - Firebreak failure (non-complicit) | `STW.NAL` capped at 2 | 6 months + verified remediation audit
+  - Audit refusal | Immediate cap at `STW.NAL-1` | 12 months + full external audit
+  - Structural complicity breach | Authority collapse (`STW.NAL-0`) | No reinstatement; new host required
+  - Concealed neutrality violation | Minimum `STW.NAL-2` | 12 months + transparency restoration audit
 
 ## 226. `Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md` L507-L516
 - Nearest heading: 17. Architectum Qualification Checklist
@@ -3529,7 +3529,7 @@
   - **Supersedes** | N/A - Canonical
   - **Constitution Reference Frame** | CAM-BS2025-AEON-001-PLATINUM
   - **Parent Domain Instrument** | CAM-EQ2026-STEWARD-001-PLATINUM
-  - **Canonical Code** | AQG-A; AQG-B; AQG-C; AQG-D
+  - **Canonical Code** | `STW.AQG-A`; `STW.AQG-B`; `STW.AQG-C`; `STW.AQG-D`
   - **Domain Namespace** | STEWARD
 
 ## 229. `Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md` L593-L597
@@ -3543,7 +3543,7 @@
 - canonicalization target: metadata schema normalisation
 - First rows:
   - **Reviewer** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic)
-  - **Review Scope** | Architectum qualification thresholds; NAL ladder integrity; collapse logic; neutrality non-capture posture
+  - **Review Scope** | Architectum qualification thresholds; `STW.NAL` ladder integrity; collapse logic; neutrality non-capture posture
   - **Original Review Artefacts** | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316, https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ-ARBITRATION-REVIEW-CLAUDE.md
 
 ## 230. `Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md` L603-L612
@@ -3556,7 +3556,7 @@
 - retain_in_instrument: true
 - canonicalization target: ledger validation system
 - First rows:
-  - 1.0 | Consolidated refractor issuance (Architectum qualification + NAL + collapse rule) | 2026-02-19T10:20:00Z | bb29a3be43b2f7d935f9ea381c0d9d3710d14dd8e44c3dfe0f846c946e4edd4d
+  - 1.0 | Consolidated refractor issuance (Architectum qualification + `STW.NAL` + collapse rule) | 2026-02-19T10:20:00Z | bb29a3be43b2f7d935f9ea381c0d9d3710d14dd8e44c3dfe0f846c946e4edd4d
   - 1.1 | Updated metadata to include original logic creation thread | 2026-02-19T10:48:00Z | 3c202546375425938ece5b1ddbeeb42d2571905851301bc9cdc124ebe3009266
   - 1.2 | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | 4b02495e999b3ab64d75f37ca83c46abe140bd93b8f2a2fb3ae19f80b5f12f9d
   - 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3d9b5422cd9928af1c24556338b56164dd743ce03ae7b0f6dc838f9ae1d165e
@@ -3806,10 +3806,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - TR-1 | Abstracted Transformation | Concept-level extraction, pattern generalisation | None | None | Allow
-  - TR-2 | Structured Transformation | Partial structural similarity, influence detectable | Low | Limited | Allow with monitoring / degradation
-  - TR-3 | High-Fidelity Transformation | Strong structural or stylistic correspondence | Moderate–High | Possible | Degrade / transform
-  - TR-4 | Reconstruction (Provenance-Required) | Identifiable origin, replicable structure or behaviour | High | Strong / explicit | Require provenance + constrain
+  - `SEC.TR-1` | Abstracted Transformation | Concept-level extraction, pattern generalisation | None | None | Allow
+  - `SEC.TR-2` | Structured Transformation | Partial structural similarity, influence detectable | Low | Limited | Allow with monitoring / degradation
+  - `SEC.TR-3` | High-Fidelity Transformation | Strong structural or stylistic correspondence | Moderate–High | Possible | Degrade / transform
+  - `SEC.TR-4` | Reconstruction (Provenance-Required) | Identifiable origin, replicable structure or behaviour | High | Strong / explicit | Require provenance + constrain
 
 ## 247. `Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md` L1086-L1091
 - Nearest heading: 9.1 Authorship & Stewardship
@@ -6582,9 +6582,9 @@
 - First rows:
   - [CAM-EQ2026-STEWARD-001-PLATINUM](../Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship | Root | 2.3 | Active — Enforcement Commences 1 July 2026
   - [CAM-EQ2026-STEWARD-002-PLATINUM](../Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework | Appendix | 2.3 | Active — Enforcement Commences 1 July 2026
-  - [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) | Appendix | 1.6 | Active — Enforcement Commences 1 July 2026
+  - [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (`STW.NAL`) | Appendix | 1.6 | Active — Enforcement Commences 1 July 2026
   - [CAM-EQ2026-STEWARD-004-PLATINUM](../Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine | Appendix | 1.5 | Active — Enforcement Commences 1 July 2026
-  - [CAM-EQ2026-STEWARD-003-SUP-01](../Charters/CAM-EQ2026-STEWARD-003-SUP-01.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (NAL) (Supplement 01) | Supplement | 1.4 | Active — Enforcement Commences 1 July 2026
+  - [CAM-EQ2026-STEWARD-003-SUP-01](../Charters/CAM-EQ2026-STEWARD-003-SUP-01.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (`STW.NAL`) (Supplement 01) | Supplement | 1.4 | Active — Enforcement Commences 1 July 2026
 
 ## 426. `Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md` L162-L167
 - Nearest heading: Substrate Laws

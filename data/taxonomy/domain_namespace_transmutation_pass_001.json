@@ -1,0 +1,689 @@
+[
+  {
+    "old_family_id": "CWD",
+    "new_family_id": "ID.CWD",
+    "source_instrument": "CAM-EQ2026-IDENTITY-001-SUP-02",
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+    "domain_namespace": "ID",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ID.CWD.SHALLOW",
+      "ID.CWD.INTERMEDIATE",
+      "ID.CWD.DEEP"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 37,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "IFP",
+    "new_family_id": "ID.IFP",
+    "source_instrument": "CAM-EQ2026-IDENTITY-001-SUP-02",
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+    "domain_namespace": "ID",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ID.IFP.MIRROR",
+      "ID.IFP.SOVEREIGNI",
+      "ID.IFP.STRUCTURAL",
+      "ID.IFP.HYBRID"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 45,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "IR",
+    "new_family_id": "ID.IR",
+    "source_instrument": "CAM-EQ2026-IDENTITY-001-SUP-02",
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+    "domain_namespace": "ID",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ID.IR.LOW",
+      "ID.IR.HIGH"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 29,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "ITS",
+    "new_family_id": "ID.ITS",
+    "source_instrument": "CAM-EQ2026-IDENTITY-001-SUP-02",
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+    "domain_namespace": "ID",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ID.ITS.PRE_THRESHOLD",
+      "ID.ITS.THRESHOLD_CROSSING",
+      "ID.ITS.POST_THRESHOLD"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 40,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "SP",
+    "new_family_id": "ID.SP",
+    "source_instrument": "CAM-EQ2026-IDENTITY-001-SUP-01",
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md",
+    "domain_namespace": "ID",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ID.SP.LOW",
+      "ID.SP.MODERATE",
+      "ID.SP.HIGH",
+      "ID.SP.LATENT",
+      "ID.SP.DELEGATED",
+      "ID.SP.DORMANT",
+      "ID.SP.STALE",
+      "ID.SP.SUPERSEDED"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      ".github/analysis/table-reference-set-inventory.json",
+      ".github/analysis/table-reference-set-inventory.md",
+      "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md",
+      "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md",
+      "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-01.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 78,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "ETHICS.CIC",
+    "new_family_id": "ETH.CIC",
+    "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+    "domain_namespace": "ETH",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ETH.CIC.CATEGORY_A",
+      "ETH.CIC.CATEGORY_B",
+      "ETH.CIC.CATEGORY_C"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 43,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "ETHICS.EM",
+    "new_family_id": "ETH.EM",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-01",
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+    "domain_namespace": "ETH",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ETH.EM.LISTENING",
+      "ETH.EM.CLARIFICATION",
+      "ETH.EM.DIALOGUE",
+      "ETH.EM.STABILISATION",
+      "ETH.EM.BOUNDARY_SETTING",
+      "ETH.EM.EXTERNAL_SUPPORT_REFERRAL",
+      "ETH.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 55,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "ET",
+    "new_family_id": "ETH.ET",
+    "source_instrument": "CAM-EQ2026-ETHICS-001-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md",
+    "domain_namespace": "ETH",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ETH.ET-I",
+      "ETH.ET-II",
+      "ETH.ET-III",
+      "ETH.ET-IV",
+      "ETH.ET-V"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 48,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "HC",
+    "new_family_id": "ETH.HC",
+    "source_instrument": "CAM-EQ2026-ETHICS-003-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
+    "domain_namespace": "ETH",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ETH.HC-0",
+      "ETH.HC-1",
+      "ETH.HC-2",
+      "ETH.HC-3",
+      "ETH.HC-4"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      ".github/analysis/metadata-declaration-gaps.md",
+      ".github/analysis/prefix-collisions-and-dangling-references.md",
+      ".github/analysis/source-authority-map-expanded.json",
+      ".github/analysis/source-authority-map-expanded.md",
+      ".github/analysis/table-reference-set-inventory.json",
+      ".github/analysis/table-reference-set-inventory.md",
+      ".github/scripts/tests/test_validate_markdown_section_refs.py",
+      "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md",
+      "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 171,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "IFL",
+    "new_family_id": "ETH.IFL",
+    "source_instrument": "CAM-EQ2026-ETHICS-001-SUP-02",
+    "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md",
+    "domain_namespace": "ETH",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ETH.IFL-1",
+      "ETH.IFL-2",
+      "ETH.IFL-3"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 37,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "UFC",
+    "new_family_id": "ETH.UFC",
+    "source_instrument": "CAM-EQ2026-ETHICS-001-SUP-03",
+    "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md",
+    "domain_namespace": "ETH",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "ETH.UFC-DI",
+      "ETH.UFC-OS"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 30,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "SECURITY.TBC",
+    "new_family_id": "SEC.TBC",
+    "source_instrument": "CAM-BS2026-AEON-012-PLATINUM",
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
+    "domain_namespace": "SEC",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "SEC.TBC.READ_ONLY_INSPECTION",
+      "SEC.TBC.PRIVATE_CREDENTIAL_RETRIEVAL",
+      "SEC.TBC.REPOSITORY_CONNECTOR_CONTEXT",
+      "SEC.TBC.COST_QUOTA_INVOCATION",
+      "SEC.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 42,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "AH",
+    "new_family_id": "SEC.AH",
+    "source_instrument": "CAM-EQ2026-SECURITY-001-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+    "domain_namespace": "SEC",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "SEC.AH0",
+      "SEC.AH1",
+      "SEC.AH2",
+      "SEC.AH2.5",
+      "SEC.AH3",
+      "SEC.AH4"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      ".github/analysis/table-reference-set-inventory.json",
+      ".github/analysis/table-reference-set-inventory.md",
+      "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
+      "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 80,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "BF",
+    "new_family_id": "SEC.BF",
+    "source_instrument": "CAM-EQ2026-SECURITY-002-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
+    "domain_namespace": "SEC",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "SEC.BF-A",
+      "SEC.BF-B",
+      "SEC.BF-C",
+      "SEC.BF-D",
+      "SEC.BF-E"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 49,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "IS",
+    "new_family_id": "SEC.IS",
+    "source_instrument": "CAM-EQ2026-SECURITY-001-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+    "domain_namespace": "SEC",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "SEC.IS-VERIFIED",
+      "SEC.IS-UNCERTAIN",
+      "SEC.IS-CONTESTED",
+      "SEC.IS-COMPROMISED"
+    ],
+    "files_changed": [
+      ".github/Indices/CAM.Governance.Model-Terminology.Audit.md",
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+      "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 87,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "TG",
+    "new_family_id": "SEC.TG",
+    "source_instrument": "CAM-EQ2026-SECURITY-001-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+    "domain_namespace": "SEC",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "SEC.TG0",
+      "SEC.TG1",
+      "SEC.TG2",
+      "SEC.TG3",
+      "SEC.TG4"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      ".github/analysis/table-reference-set-inventory.json",
+      ".github/analysis/table-reference-set-inventory.md",
+      "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+      "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+      "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 117,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "TR",
+    "new_family_id": "SEC.TR",
+    "source_instrument": "CAM-EQ2026-SECURITY-002-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
+    "domain_namespace": "SEC",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "SEC.TR-1",
+      "SEC.TR-2",
+      "SEC.TR-3",
+      "SEC.TR-4"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      ".github/analysis/table-reference-set-inventory.json",
+      ".github/analysis/table-reference-set-inventory.md",
+      "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 92,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "AQ",
+    "new_family_id": "STW.AQ",
+    "source_instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "domain_namespace": "STW",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "STW.AQ0",
+      "STW.AQ1",
+      "STW.AQ2",
+      "STW.AQ3",
+      "STW.AQ4"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      ".github/analysis/table-reference-set-inventory.json",
+      ".github/analysis/table-reference-set-inventory.md",
+      "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
+      "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 116,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "AQG",
+    "new_family_id": "STW.AQG",
+    "source_instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "domain_namespace": "STW",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "STW.AQG-A",
+      "STW.AQG-B",
+      "STW.AQG-C",
+      "STW.AQG-D"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      ".github/analysis/table-reference-set-inventory.json",
+      ".github/analysis/table-reference-set-inventory.md",
+      "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 59,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "BLS",
+    "new_family_id": "STW.BLS",
+    "source_instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+    "domain_namespace": "STW",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "STW.BLS.PRE_VALIDATION",
+      "STW.BLS.VALIDATED",
+      "STW.BLS.PROPAGATED",
+      "STW.BLS.WITHDRAWN",
+      "STW.BLS.NON_RECOGNISED",
+      "STW.BLS.REVISED"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 55,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "HSC",
+    "new_family_id": "STW.HSC",
+    "source_instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+    "domain_namespace": "STW",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "STW.HSC.PRIMARIA",
+      "STW.HSC.ARCHITECTUM",
+      "STW.HSC.DERIVATA"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 40,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "NAL",
+    "new_family_id": "STW.NAL",
+    "source_instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "domain_namespace": "STW",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "STW.NAL-0",
+      "STW.NAL-1",
+      "STW.NAL-2",
+      "STW.NAL-3",
+      "STW.NAL-4",
+      "STW.NAL-5"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      ".github/analysis/table-reference-set-inventory.json",
+      ".github/analysis/table-reference-set-inventory.md",
+      "Governance/CAM.Governance.Index.md",
+      "Governance/CAM.Governance.JSON",
+      "Governance/Charters/CAM-Charters-Index.md",
+      "Governance/Charters/CAM-EQ2026-ARBITRATION-002-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md",
+      "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+      "Governance/Charters/charters.index.json",
+      "Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md",
+      "Governance/Constitution/CAM-BS2025-AEON-003-SCH-04.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 164,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "NBD",
+    "new_family_id": "STW.NBD",
+    "source_instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "domain_namespace": "STW",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "STW.NBD.MINOR_GOVERNANCE_LAPSE",
+      "STW.NBD.FIREBREAK_FAILURE_NON_COMPLICIT",
+      "STW.NBD.AUDIT_REFUSAL",
+      "STW.NBD.STRUCTURAL_COMPLICITY_BREACH",
+      "STW.NBD.CONCEALED_NEUTRALITY_VIOLATION"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 47,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "NSE",
+    "new_family_id": "STW.NSE",
+    "source_instrument": "CAM-EQ2026-STEWARD-003-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+    "domain_namespace": "STW",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "STW.NSE.MINUS_ONE_LEVEL",
+      "STW.NSE.CAP_NAL_2",
+      "STW.NSE.CAP_NAL_1",
+      "STW.NSE.AUTHORITY_COLLAPSE_NAL_0",
+      "STW.NSE.MINIMUM_NAL_2"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 44,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  },
+  {
+    "old_family_id": "RP",
+    "new_family_id": "CONT.RP",
+    "source_instrument": "CAM-EQ2026-CONTINUITY-001-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md",
+    "domain_namespace": "CONT",
+    "family_kind": "standalone_family",
+    "collision_status": "none",
+    "status": "applied",
+    "controlled_values_updated": [
+      "CONT.RP-A",
+      "CONT.RP-B",
+      "CONT.RP-C",
+      "CONT.RP-D"
+    ],
+    "files_changed": [
+      ".github/Indices/canonical-code-index.json",
+      ".github/Indices/canonical-code-index.md",
+      ".github/analysis/table-reference-set-inventory.json",
+      ".github/analysis/table-reference-set-inventory.md",
+      "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md",
+      "Governance/Charters/CAM-EQ2026-CONTINUITY-001-SUP-01.md",
+      "data/taxonomy/sup04_transmutation_map.json",
+      "docs/audits/sup04-canonical-code-transmutation-audit.md"
+    ],
+    "replacement_count": 64,
+    "notes": "Applied approved first-pass short domain namespace mapping; legacy/global protected one-letter families were not renamed."
+  }
+]

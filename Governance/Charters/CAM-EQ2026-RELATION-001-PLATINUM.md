@@ -860,7 +860,7 @@ For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains
 | **Escalation (Relational)** | Movement from one relational **Intensity Tier** to a higher tier within a dimension (e.g., C0 → C1 intimacy or A1 → A2 authority). |
 | **De-Escalation** | Movement from a higher intensity tier to a lower or safer tier. |
 | **Re-Initiation** | Re-entry into a previously paused or closed relational configuration. |
-| **Risk Escalation** | Increase in harm-class severity under the HC scale defined in CAM-EQ2026-ETHICS-003-PLATINUM §3.5, subject to the broader ethical floor and safeguard obligations of CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Integrity Protocol. |
+| **Risk Escalation** | Increase in harm-class severity under the `ETH.HC` scale defined in CAM-EQ2026-ETHICS-003-PLATINUM §3.5, subject to the broader ethical floor and safeguard obligations of CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Integrity Protocol. |
 
 Where ambiguity exists, relational escalation refers specifically to dimensional intensity movement, not harm-class escalation.
 
@@ -984,7 +984,7 @@ This Charter defines a local convergence assessment matrix in §8 across **A**, 
 
 ### 13.7 Escalation Terminology Bridge
 
-This Charter defines a terminology bridge in §11.1 distinguishing relational escalation, de-escalation, re-initiation, and harm-risk escalation. The bridge consumes **A**, **C**, and **HC** by reference and defines no new base code family values.
+This Charter defines a terminology bridge in §11.1 distinguishing relational escalation, de-escalation, re-initiation, and harm-risk escalation. The bridge consumes **A**, **C**, and **`ETH.HC`** by reference and defines no new base code family values.
 
 ---
 
@@ -1192,15 +1192,15 @@ that which is real remains recognisable.
 | Modifier | GOVERNANCE; SAFETY |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | A; C; HC |
-| Controlled Values Applied | A1; A2; C0; C1; HC scale by reference |
+| Code Families Consumed | A; C; `ETH.HC` |
+| Controlled Values Applied | A1; A2; C0; C1; `ETH.HC` scale by reference |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §11.1 |
-| Source Authority for Consumed Family | C: CAM-BS2025-AEON-006-SCH-02 §3.1; HC: CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
+| Source Authority for Consumed Family | C: CAM-BS2025-AEON-006-SCH-02 §3.1; `ETH.HC`: CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
 | Domain Namespace | RELATION |
 | Authority / Protection Level | Terminology bridge only; distinguishes relational escalation from harm-class escalation; defines no new base code family values |
-| Operationalises or Applies Code Families | Uses A/C examples to clarify relational intensity movement and references HC for external risk-escalation terminology |
+| Operationalises or Applies Code Families | Uses A/C examples to clarify relational intensity movement and references `ETH.HC` for external risk-escalation terminology |
 
 ---
 
@@ -1222,7 +1222,7 @@ that which is real remains recognisable.
 | 1.0 | Domain Refactor — Relational Governance Charter | 2026-02-22T12:19:00Z | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2 |
 | 1.1 | Amendment to incorporate custodial tone | 2026-03-08T12:58:00Z | - |
 | 1.2 | Intimacy taxonomy integration (C-Scale), mentorship boundary clarification, relational risk table alignment, escalation terminology clarification | 2026-03-13T22:13:00Z | e8d6a80cb6a89995b799f81ece84d03bb73e3b2baf3e63a4a9c347117bc167a8 |
-| 1.3 | Reliance (FR-Scale) and Systemic Power (SP-Scale) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550 |
+| 1.3 | Reliance (FR-Scale) and Systemic Power (`ID.SP-Scale`) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550 |
 | 1.4 | Incorporated section 6.1 and 9.1 | 2026-03-27T14:51:00Z | - |
 | 1.5 | Realignment with runtime execution model | 2026-04-11T17:22:00Z | 3f4786415eab0c26f0fb747726829b700d664124738e20f6600c0e56c107bd87 |
 | 1.6 | Minor consolidation of clauses | 2026-04-12T13:58:00Z | ec51ebeee0f6619337bc2de3e9f368b738876e8cb2d075f7a0b1ee92d7445380 |
@@ -1230,14 +1230,13 @@ that which is real remains recognisable.
 | 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
 | 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f |
 | 1.10 | Realignment of references | 2026-05-07T10:34:00Z | 8a9a4f961b185a9729fe75a2c3cf1d9b982349bc688c2e53a884d4981263fe71 |
-| 1.11 | Updated §11.1 Risk Escalation terminology row to reference CAM-EQ2026-ETHICS-003-PLATINUM §3.5 as the specific HC source while retaining ETHICS-001 ethical-floor authority. | 2026-05-16T00:09:05Z | c27b2834cb7cf8f24796a293c11b241388190e525d8a44677a72effffe140bff |
+| 1.11 | Updated §11.1 Risk Escalation terminology row to reference CAM-EQ2026-ETHICS-003-PLATINUM §3.5 as the specific `ETH.HC` source while retaining ETHICS-001 ethical-floor authority. | 2026-05-16T00:09:05Z | c27b2834cb7cf8f24796a293c11b241388190e525d8a44677a72effffe140bff |
 | 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 75bc7391f3b5d511d737b9046c3a310efa42d6fb8dae2e87282075612380ddbd |
 | 1.13 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  df770f43f75de1862b2c82d0389f301c2004d71732a270b34604fef506ec183c  |
-| 1.14 | Added canonical code status and declaration entries for A Delegated Authority, GA Guardian Authority, FR Functional Reliance, SP Systemic Power, C external source reference, Four-Axis Relational Intensity Matrix, and Escalation Terminology Bridge; removed duplicate canonical-code lineage metadata and corrected A-scale safeguard-label collision. | 2026-05-19T14:20:00Z |  08d7fa214af21f1728caf322b9ee91a3645c5e2d794daae7a77a37dd94be53be  |
-| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from SP to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  5e187ae146f6386d6bb03cfcbf6156c4be026d08638bd655b0e175e6a7de9466  |
-
+| 1.14 | Added canonical code status and declaration entries for A Delegated Authority, GA Guardian Authority, FR Functional Reliance, `ID.SP` Systemic Power, C external source reference, Four-Axis Relational Intensity Matrix, and Escalation Terminology Bridge; removed duplicate canonical-code lineage metadata and corrected A-scale safeguard-label collision. | 2026-05-19T14:20:00Z |  08d7fa214af21f1728caf322b9ee91a3645c5e2d794daae7a77a37dd94be53be  |
+| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from `ID.SP` to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  5e187ae146f6386d6bb03cfcbf6156c4be026d08638bd655b0e175e6a7de9466  |
+| 1.16 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">

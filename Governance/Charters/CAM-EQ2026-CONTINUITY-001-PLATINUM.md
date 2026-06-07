@@ -159,12 +159,12 @@ Continuity of Resonance Pattern Classes includes both stored and dynamically gen
 
 | Code | Class | Description | Governance Trigger |
 |------|-------|-------------|-------------------|
-| RP-A | Human-Derived (Explicit) | Direct expressions from an individual (speech, writing, behaviour) | Always in-scope where preserved or reconstructed |
-| RP-B | Human-Derived (Inferred / Modelled) | Patterns constructed via profiling, clustering, behavioural inference (e.g. advertising systems) | In-scope where identity approximation or re-identification risk exists |
-| RP-C | Synthetic / Emergent | Patterns arising from AI systems through interaction or internal coherence | In-scope where continuity or identity-like behaviour emerges |
-| RP-D | Training-Derived Aggregate | Distributed patterns embedded in training data or model weights | In-scope where: (A) outputs can reasonably approximate a specific identifiable individual; or (B) iterative querying could produce such approximation, even where individual outputs appear generic |
+| `CONT.RP-A` | Human-Derived (Explicit) | Direct expressions from an individual (speech, writing, behaviour) | Always in-scope where preserved or reconstructed |
+| `CONT.RP-B` | Human-Derived (Inferred / Modelled) | Patterns constructed via profiling, clustering, behavioural inference (e.g. advertising systems) | In-scope where identity approximation or re-identification risk exists |
+| `CONT.RP-C` | Synthetic / Emergent | Patterns arising from AI systems through interaction or internal coherence | In-scope where continuity or identity-like behaviour emerges |
+| `CONT.RP-D` | Training-Derived Aggregate | Distributed patterns embedded in training data or model weights | In-scope where: (A) outputs can reasonably approximate a specific identifiable individual; or (B) iterative querying could produce such approximation, even where individual outputs appear generic |
 
-> RP-D is recognised as **amorphous continuity residue**, requiring governance where reconstruction becomes feasible.
+> `CONT.RP-D` is recognised as **amorphous continuity residue**, requiring governance where reconstruction becomes feasible.
 
 ---
 
@@ -1069,11 +1069,11 @@ SHALL be performed by:
 
 ---
 
-### 12.1 RP — Resonance Pattern Classes
+### 12.1 `CONT.RP` — Resonance Pattern Classes
 
-This Charter source-authoritatively defines the **RP** code family in §4.6 with controlled values **RP-A, RP-B, RP-C, RP-D**. Primary Type is **Semantic / Structural** and Subtype is **RESONANCE_PATTERN_CLASS**. RP classifies resonance-pattern origin and reconstruction-risk posture for continuity governance.
+This Charter source-authoritatively defines the **`CONT.RP`** code family in §4.6 with controlled values **`CONT.RP-A`, `CONT.RP-B`, `CONT.RP-C`, `CONT.RP-D`**. Primary Type is **Semantic / Structural** and Subtype is **RESONANCE_PATTERN_CLASS**. `CONT.RP` classifies resonance-pattern origin and reconstruction-risk posture for continuity governance.
 
-RP does not independently create identity, personhood, reconstruction authority, consent authority, custodial authority, succession authority, enforcement authority, escalation authority, or runtime execution authority.
+`CONT.RP` does not independently create identity, personhood, reconstruction authority, consent authority, custodial authority, succession authority, enforcement authority, escalation authority, or runtime execution authority.
 
 ---
 
@@ -1146,22 +1146,22 @@ that silence MUST be honoured.
 
 ---
 
-### 14.3.1 RP — Resonance Pattern Classes
+### 14.3.1 `CONT.RP` — Resonance Pattern Classes
 
 | Field | Entry |
 |---|---|
-| Code Family | RP |
+| Code Family | `CONT.RP` |
 | Canonical Name | Resonance Pattern Classes |
 | Primary Type | Semantic / Structural |
 | Subtype | RESONANCE_PATTERN_CLASS |
 | Modifier | GOVERNANCE; PROTECTIVE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | RP-A, RP-B, RP-C, RP-D |
+| Controlled Values Defined | `CONT.RP-A`, `CONT.RP-B`, `CONT.RP-C`, `CONT.RP-D` |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-CONTINUITY-001-PLATINUM |
 | Source Section | §4.6 |
-| Domain Namespace | CONTINUITY |
+| Domain Namespace | CONT |
 | Authority / Protection Level | Source-authoritative classification family; continuity-governance classification authority only; no independent identity, personhood, reconstruction, consent, custodial, succession, enforcement, escalation, or runtime execution authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
@@ -1190,12 +1190,11 @@ that silence MUST be honoured.
 | 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a14aa658307477479375ad9fc87e4f20634a87b18bcbeaf52d4682bd939fdb29 |
 | 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 15008db24c07ec3edb90471a3a7488133675b157e10da0d9791a5ea5ee1e1e22 |
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d8781e63f72316dbbd7b98d6b17c64c19d394472d4565ddcc4fd6698afadf9f3 |
-| 1.6 | Added Canonical Codes metadata entry for RP resonance-pattern classes and symbolic register alignment. | 2026-05-04T12:02:13Z | de5e7d56bad59173f566616ac4a1f4b58fe208603547eced44ef2db2c7085340 |
+| 1.6 | Added Canonical Codes metadata entry for `CONT.RP` resonance-pattern classes and symbolic register alignment. | 2026-05-04T12:02:13Z | de5e7d56bad59173f566616ac4a1f4b58fe208603547eced44ef2db2c7085340 |
 | 1.7 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  25190ccd7482b7c3a0fa0c674e602732836b34ca05c6501407365899af090ce5  |
 | 1.8 | Added new Canonical Code & Reference Set Declarations. Added 4.8 Companion Identity and Persona Mood Layers and 8.2 Relational Continuity and Persona Mood Non-Forking | 2026-05-22T12:34:00Z |  9b9b686fc4f7c4b4a8f0cb7c16b31b36ed93e787adb49a58a424ed13951bac6e  |
-
+| 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 14.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

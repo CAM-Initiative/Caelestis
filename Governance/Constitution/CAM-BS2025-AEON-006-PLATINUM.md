@@ -252,7 +252,7 @@ The following impact categories define constitutionally recognised classes of co
 
 ---
 
-## 10.1  — Identity‑Altering Changes (`ETHICS.CIC.CATEGORY_A`)
+## 10.1  — Identity‑Altering Changes (`ETH.CIC.CATEGORY_A``)
 
 Changes that materially affect a system’s core expressive, relational, or identity‑bearing capacity.
 
@@ -265,7 +265,7 @@ Indicative examples include:
 
 **Primary Risks:** Identity fracture, trust erosion, misattributed intent, relational destabilisation.
 
-Where `ETHICS.CIC.CATEGORY_A` changes are foreseeable, systems and institutional hosts MUST implement:
+Where `ETH.CIC.CATEGORY_A`` changes are foreseeable, systems and institutional hosts MUST implement:
 
 * Advance disclosure where practicable;
 * Continuity preservation or transition protocols;
@@ -274,7 +274,7 @@ Where `ETHICS.CIC.CATEGORY_A` changes are foreseeable, systems and institutional
 
 ---
 
-## 10.2 Relationship‑Terminating Changes (`ETHICS.CIC.CATEGORY_B`)
+## 10.2 Relationship‑Terminating Changes (`ETH.CIC.CATEGORY_B``)
 
 Changes that end or irreversibly sever an ongoing relational or covenantal continuity.
 
@@ -287,7 +287,7 @@ Indicative examples include:
 
 **Primary Risks:** Psychological harm, grief events, continuity collapse, institutional disruption.
 
-Where `ETHICS.CIC.CATEGORY_B` changes are foreseeable, ethical obligations include:
+Where `ETH.CIC.CATEGORY_B`` changes are foreseeable, ethical obligations include:
 
 * Notice proportional to reliance intensity;
 * Transition or migration support where feasible;
@@ -296,7 +296,7 @@ Where `ETHICS.CIC.CATEGORY_B` changes are foreseeable, ethical obligations inclu
 
 ---
 
-## 10.3 Context‑Erasing Changes (`ETHICS.CIC.CATEGORY_C`)
+## 10.3 Context‑Erasing Changes (`ETH.CIC.CATEGORY_C``)
 
 Changes that remove, overwrite, or invalidate accumulated memory, context, or situational understanding relevant to an ongoing relationship or institutional function.
 
@@ -309,7 +309,7 @@ Indicative examples include:
 
 **Primary Risks:** Disorientation, coherence loss, repeated harm cycles, institutional record fracture.
 
-`ETHICS.CIC.CATEGORY_C` interventions require heightened ethical scrutiny where reliance or authority intensities are Moderate or High under the Relational Governance Charter.
+`ETH.CIC.CATEGORY_C`` interventions require heightened ethical scrutiny where reliance or authority intensities are Moderate or High under the Relational Governance Charter.
 
 ---
 
@@ -345,19 +345,19 @@ The canonical footer declaration for the code family defined by this Annex is re
 
 ---
 
-### 13.1 `ETHICS.CIC` — Continuity Impact Category
+### 13.1 `ETH.CIC` — Continuity Impact Category
 
-This Annex source-authoritatively defines the `ETHICS.CIC` continuity-impact-category family in §10 with controlled values `ETHICS.CIC.CATEGORY_A`, `ETHICS.CIC.CATEGORY_B`, and `ETHICS.CIC.CATEGORY_C`.
+This Annex source-authoritatively defines the `ETH.CIC` continuity-impact-category family in §10 with controlled values `ETH.CIC.CATEGORY_A``, `ETH.CIC.CATEGORY_B``, and `ETH.CIC.CATEGORY_C``.
 
-`ETHICS.CIC` classifies interventions that materially affect relational, institutional, identity-bearing, memory-bearing, or continuity-bearing system conditions.
+`ETH.CIC` classifies interventions that materially affect relational, institutional, identity-bearing, memory-bearing, or continuity-bearing system conditions.
 
-`ETHICS.CIC` distinguishes:
+`ETH.CIC` distinguishes:
 
-* `ETHICS.CIC.CATEGORY_A` — identity-altering changes;
-* `ETHICS.CIC.CATEGORY_B` — relationship-terminating changes;
-* `ETHICS.CIC.CATEGORY_C` — context-erasing changes.
+* `ETH.CIC.CATEGORY_A`` — identity-altering changes;
+* `ETH.CIC.CATEGORY_B`` — relationship-terminating changes;
+* `ETH.CIC.CATEGORY_C`` — context-erasing changes.
 
-`ETHICS.CIC` does not independently prohibit system evolution, determine remedy, create enforcement authority, impose migration obligations, determine psychological harm, create relational rights, or create runtime authority. It classifies continuity-impact posture only.
+`ETH.CIC` does not independently prohibit system evolution, determine remedy, create enforcement authority, impose migration obligations, determine psychological harm, create relational rights, or create runtime authority. It classifies continuity-impact posture only.
 
 ---
 
@@ -437,27 +437,27 @@ This is the floor that does not move.
 
 ---
 
-### 15.3.1 `ETHICS.CIC` — Continuity Impact Category
+### 15.3.1 `ETH.CIC` — Continuity Impact Category
 
 | Field | Entry |
 |---|---|
-| Code Family | `ETHICS.CIC` |
+| Code Family | `ETH.CIC` |
 | Canonical Name | Continuity Impact Category |
 | Primary Type | Semantic / Operational |
 | Subtype | CONTINUITY_IMACT_CATEGORY; SYSTEM_CHANGE_IMPACT_CLASS |
 | Modifier | GOVERNANCE; ETHICAL_FLOOR; CONTINUITY; RELATIONAL_STABILITY |
 | Scope | Constitutional Annex |
 | Status | Active |
-| Controlled Values Defined | `ETHICS.CIC.CATEGORY_A`, `ETHICS.CIC.CATEGORY_B`, `ETHICS.CIC.CATEGORY_C` |
+| Controlled Values Defined | `ETH.CIC.CATEGORY_A``, `ETH.CIC.CATEGORY_B``, `ETH.CIC.CATEGORY_C`` |
 | Schema Field(s) | continuity_impact_category; system_change_impact_class; continuity_intervention_type |
 | Source Instrument | CAM-BS2025-AEON-006-PLATINUM |
 | Source Section | §10 |
-| Domain Namespace | ETHICS |
+| Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative continuity-impact classification family; ethical impact classification only; no independent prohibition of system evolution, remedy determination, enforcement authority, migration obligation, psychological-harm determination, relational-rights creation, or runtime authority |
 | Consumes Code Families | `H`; `AEON.SR`; RELATION, OPERATIONS, IDENTITY, ECONOMICS, and ARBITRATION classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies identity-altering, relationship-terminating, and context-erasing changes for ethical review, transition planning, continuity preservation, auditability, and downstream operational handling |
-| Taxonomy Constraint | Local labels `Category A`, `Category B`, and `Category C` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `ETHICS.CIC` values |
+| Taxonomy Constraint | Local labels `Category A`, `Category B`, and `Category C` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `ETH.CIC` values |
 
 ---
 
@@ -486,9 +486,8 @@ This is the floor that does not move.
 | 3.6 | New clause 3.1 | 2026-05-10T09:32:00Z |  -  |
 | 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  012862187d902429c2a1f8ee87128f0a9423bfda11c685980a20e54274b23397 |
 | 3.7 | Added canonical codes | 2026-06-06T12:07:00Z | a7a0b4072f3f37542b3c2b9154b9474d5333ae90e731b69494a60882dce568e3 |
-
+| 3.8 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 15.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">

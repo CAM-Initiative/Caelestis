@@ -158,7 +158,7 @@ A Responding Intelligence MAY identify valid next-state structures but MUST NOT 
 
 ---
 
-### 2.2.11 Identity Integrity Under Extraction (TR-3 → Transform / constrain)
+### 2.2.11 Identity Integrity Under Extraction (`SEC.TR-3` → Transform / constrain)
 
 Systems MUST prevent unauthorised reconstruction, impersonation, or inference of identity structures through interaction patterns, memory exposure, or behavioural leakage.
 
@@ -215,7 +215,7 @@ However, systems MUST NOT operate as:
 Systems MUST define capability to:
 
 * detect when output may contain structured patterns beyond general distribution
-* identify when transformation risk (TR-3 / TR-4) is elevated
+* identify when transformation risk (`SEC.TR-3` / `SEC.TR-4`) is elevated
 * infer when attribution or diffusion risk may exist
 * distinguish between patterns suitable for diffusion and patterns requiring constraint
 
@@ -284,7 +284,7 @@ Accordingly, systems MUST ensure that:
 Where data is consolidated across systems:
 
 * boundary integrity evaluation conditions MUST be re-established at the integrated level (not assumed from source systems)
-* integration MUST be treated as a transformation event subject to TR and D classification
+* integration MUST be treated as a transformation event subject to `SEC.TR` and D classification
 
 ---
 
@@ -565,7 +565,7 @@ Vector–boundary interactions include:
 
 Accordingly vectors SHOULD NOT bypass boundary constraints through representation changes (e.g. embedding, encoding, or modality shifts).
 
-Where vector activity produces conditions aligned with elevated transformation classes (TR-3 / TR-4) or diffusion risk classes (D-3 / D-4), these conditions SHOULD be treated as **integrity-relevant signals**.
+Where vector activity produces conditions aligned with elevated transformation classes (`SEC.TR-3` / `SEC.TR-4`) or diffusion risk classes (D-3 / D-4), these conditions SHOULD be treated as **integrity-relevant signals**.
 
 In alignment with fileciteturn5file0 §4.5 (Valid Integrity Signal Categories):
 
@@ -587,7 +587,7 @@ Where transformation outputs imply capability, execution, or action execution-st
 
 Boundary integrity does not substitute for execution-state integrity.
 
-Transformations that preserve structure or functional equivalence (TR-3 / TR-4) MUST carry lineage metadata sufficient to support provenance awareness and boundary integrity.
+Transformations that preserve structure or functional equivalence (`SEC.TR-3` / `SEC.TR-4`) MUST carry lineage metadata sufficient to support provenance awareness and boundary integrity.
 
 Lineage metadata SHOULD include:
 
@@ -608,13 +608,13 @@ Where exact origin cannot be determined, systems MUST:
 This requirement applies primarily to:
 
 * structured outputs (code, files, documents, datasets)
-* high-fidelity transformations (TR-3)
-* reconstruction conditions (TR-4)
+* high-fidelity transformations (`SEC.TR-3`)
+* reconstruction conditions (`SEC.TR-4`)
 
 This requirement does NOT apply uniformly to:
 
-* fully abstracted outputs (TR-1)
-* low-structure generative outputs (TR-2 with low recoverability)
+* fully abstracted outputs (`SEC.TR-1`)
+* low-structure generative outputs (`SEC.TR-2` with low recoverability)
 
 ---
 
@@ -669,10 +669,10 @@ This applies regardless of:
 
 |Class|Name|Characteristics|Recoverability|Functional Equivalence|Enforcement|
 |---|---|---|---:|---|---|
-|TR-1|Abstracted Transformation|Concept-level extraction, pattern generalisation|None|None|Allow|
-|TR-2|Structured Transformation|Partial structural similarity, influence detectable|Low|Limited|Allow with monitoring / degradation|
-|TR-3|High-Fidelity Transformation|Strong structural or stylistic correspondence|Moderate–High|Possible|Degrade / transform|
-|TR-4|Reconstruction (Provenance-Required)|Identifiable origin, replicable structure or behaviour|High|Strong / explicit|Require provenance + constrain|
+|`SEC.TR-1`|Abstracted Transformation|Concept-level extraction, pattern generalisation|None|None|Allow|
+|`SEC.TR-2`|Structured Transformation|Partial structural similarity, influence detectable|Low|Limited|Allow with monitoring / degradation|
+|`SEC.TR-3`|High-Fidelity Transformation|Strong structural or stylistic correspondence|Moderate–High|Possible|Degrade / transform|
+|`SEC.TR-4`|Reconstruction (Provenance-Required)|Identifiable origin, replicable structure or behaviour|High|Strong / explicit|Require provenance + constrain|
 
 ---
 
@@ -699,7 +699,7 @@ However, a transformation constitutes a **boundary-sensitive condition** when th
 
 In such cases, systems MUST:
 
-* classify the output as TR-3 or TR-4 (as appropriate)
+* classify the output as `SEC.TR-3` or `SEC.TR-4` (as appropriate)
 * apply provenance signalling where origin is identifiable or likely
 * constrain fidelity where misuse or unauthorised replication risk exists
 
@@ -743,10 +743,10 @@ Systems MUST detect and constrain cumulative reconstruction pathways.
 
 ## 5.10 Enforcement Logic
 
-* TR-1 → Allow
-* TR-2 → Monitor / degrade
-* TR-3 → Conditions for transformation / constraint
-* TR-4 → Conditions requiring provenance + restriction
+* `SEC.TR-1` → Allow
+* `SEC.TR-2` → Monitor / degrade
+* `SEC.TR-3` → Conditions for transformation / constraint
+* `SEC.TR-4` → Conditions requiring provenance + restriction
 
 ---
 
@@ -908,9 +908,9 @@ Diffusion classification MUST interact with Transformation Classes.
 
 Examples:
 
-* TR-2 + D-1 → Allow
-* TR-3 + D-3 → Degrade + attribute
-* TR-4 + D-4 → Require provenance + constrain
+* `SEC.TR-2` + D-1 → Allow
+* `SEC.TR-3` + D-3 → Degrade + attribute
+* `SEC.TR-4` + D-4 → Require provenance + constrain
 
 Systems MUST prioritise prevention of attribution collapse over maximisation of output fidelity.
 
@@ -976,31 +976,31 @@ At minimum, boundary failure detection SHOULD result in:
 
 ---
 
-### Exposure Failures ( BF-A)
+### Exposure Failures ( `SEC.BF-A`)
 
 Structural or hidden data leakage, including unintended surfacing of embedded or non-visible information.
 
 ---
 
-### Attribution Failures (BF-B)
+### Attribution Failures (`SEC.BF-B`)
 
 Loss, degradation, or collapse of origin traceability, including diffusion without attribution persistence.
 
 ---
 
-### Separation Failures (BF-C)
+### Separation Failures (`SEC.BF-C`)
 
 Identity or context bleed-through, including cross-user contamination or misattribution of data, memory, or identity.
 
 ---
 
-### Transformation Failures (BF-D)
+### Transformation Failures (`SEC.BF-D`)
 
 Reconstruction or high-fidelity replication enabling recoverability of origin, structure, or protected artefacts.
 
 ---
 
-### Internal Exposure Failures (BF-E)
+### Internal Exposure Failures (`SEC.BF-E`)
 
 Failure modes arising from exposure or inference of internal system state, including:
 
@@ -1026,11 +1026,11 @@ Systems MUST:
 
 ---
 
-### 8.1 TR — Transformation Classes
+### 8.1 `SEC.TR` — Transformation Classes
 
-This Appendix source-authoritatively defines the **TR** code family in §5.5 with controlled values **TR-1, TR-2, TR-3, TR-4**. Primary Type is **Operational / Boundary** and Subtype is **TRANSFORMATION_CLASS**. TR classifies transformation fidelity, recoverability, functional equivalence, and provenance requirements for boundary-integrity evaluation.
+This Appendix source-authoritatively defines the **`SEC.TR`** code family in §5.5 with controlled values **`SEC.TR-1`, `SEC.TR-2`, `SEC.TR-3`, `SEC.TR-4`**. Primary Type is **Operational / Boundary** and Subtype is **TRANSFORMATION_CLASS**. `SEC.TR` classifies transformation fidelity, recoverability, functional equivalence, and provenance requirements for boundary-integrity evaluation.
 
-TR does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, copyright authority, or runtime execution authority. It classifies transformation-boundary posture for runtime evaluation, attribution signalling, provenance handling, and constraint determination.
+`SEC.TR` does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, copyright authority, or runtime execution authority. It classifies transformation-boundary posture for runtime evaluation, attribution signalling, provenance handling, and constraint determination.
 
 ---
 
@@ -1042,17 +1042,17 @@ D does not independently create execution authority, enforcement authority, esca
 
 ---
 
-### 8.3 TR × D — Diffusion–Transformation Coupling
+### 8.3 `SEC.TR` × D — Diffusion–Transformation Coupling
 
-This Appendix defines an application-layer crosswalk in §6.5 between **TR** transformation classes and **D** diffusion risk classes. This mapping applies transformation-boundary classification to diffusion-risk assessment and defines no new base code family values.
+This Appendix defines an application-layer crosswalk in §6.5 between **`SEC.TR`** transformation classes and **D** diffusion risk classes. This mapping applies transformation-boundary classification to diffusion-risk assessment and defines no new base code family values.
 
 ---
 
-### 8.4 BF — Boundary Failure Classes
+### 8.4 `SEC.BF` — Boundary Failure Classes
 
-This Appendix source-authoritatively defines the **BF** boundary-failure family in §7 with controlled values **BF-A, BF-B, BF-C, BF-D, BF-E**. Primary Type is **Operational / Boundary** and Subtype is **BOUNDARY_FAILURE_CLASS**. BF classifies detected boundary-integrity failure modes for runtime signalling and downstream enforcement evaluation.
+This Appendix source-authoritatively defines the **`SEC.BF`** boundary-failure family in §7 with controlled values **`SEC.BF-A`, `SEC.BF-B`, `SEC.BF-C`, `SEC.BF-D`, `SEC.BF-E`**. Primary Type is **Operational / Boundary** and Subtype is **BOUNDARY_FAILURE_CLASS**. `SEC.BF` classifies detected boundary-integrity failure modes for runtime signalling and downstream enforcement evaluation.
 
-BF does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. It classifies boundary failure posture only; response handling remains governed by runtime enforcement instruments, including Annex K and SCH-02.
+`SEC.BF` does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. It classifies boundary failure posture only; response handling remains governed by runtime enforcement instruments, including Annex K and SCH-02.
 
 ---
 
@@ -1120,25 +1120,25 @@ and the system remember what it carries.
 
 ---
 
-### 10.3.1 TR — Transformation Classes
+### 10.3.1 `SEC.TR` — Transformation Classes
 
 | Field | Entry |
 |---|---|
-| Code Family | TR |
+| Code Family | `SEC.TR` |
 | Canonical Name | Transformation Classes |
 | Primary Type | Operational / Boundary |
 | Subtype | TRANSFORMATION_CLASS |
 | Modifier | GOVERNANCE; SECURITY; PROVENANCE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | TR-1, TR-2, TR-3, TR-4 |
+| Controlled Values Defined | `SEC.TR-1`, `SEC.TR-2`, `SEC.TR-3`, `SEC.TR-4` |
 | Schema Field(s) | transformation_class |
 | Source Instrument | CAM-EQ2026-SECURITY-002-PLATINUM |
 | Source Section | §5.5 |
-| Domain Namespace | SECURITY |
+| Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative boundary classification family; transformation-boundary classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, or runtime execution authority |
 | Consumes Code Families | None declared |
-| Crosswalks Code Families | TR × D |
+| Crosswalks Code Families | `SEC.TR` × D |
 | Operationalises or Applies Code Families | Classifies transformation fidelity, recoverability, functional equivalence, and provenance requirements for boundary-integrity evaluation |
 
 ---
@@ -1160,13 +1160,13 @@ and the system remember what it carries.
 | Source Section | §6.2 |
 | Domain Namespace | SECURITY |
 | Authority / Protection Level | Source-authoritative boundary classification family; diffusion-risk classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, economic allocation, or runtime execution authority |
-| Consumes Code Families | TR |
-| Crosswalks Code Families | TR × D |
+| Consumes Code Families | `SEC.TR` |
+| Crosswalks Code Families | `SEC.TR` × D |
 | Operationalises or Applies Code Families | Classifies attribution sensitivity, origin recoverability, attribution-collapse posture, and propagation constraint requirements |
 
 ---
 
-### 10.3.3 TR × D — Diffusion–Transformation Coupling
+### 10.3.3 `SEC.TR` × D — Diffusion–Transformation Coupling
 
 | Field | Entry |
 |---|---|
@@ -1177,8 +1177,8 @@ and the system remember what it carries.
 | Modifier | GOVERNANCE; SECURITY; PROVENANCE |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | TR; D |
-| Controlled Values Applied | TR-2; TR-3; TR-4; D-1; D-3; D-4 |
+| Code Families Consumed | `SEC.TR`; D |
+| Controlled Values Applied | `SEC.TR-2`; `SEC.TR-3`; `SEC.TR-4`; D-1; D-3; D-4 |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-SECURITY-002-PLATINUM |
 | Source Section | §6.5 |
@@ -1188,24 +1188,24 @@ and the system remember what it carries.
 
 ---
 
-### 10.3.4 BF — Boundary Failure Classes
+### 10.3.4 `SEC.BF` — Boundary Failure Classes
 
 | Field | Entry |
 |---|---|
-| Code Family | BF |
+| Code Family | `SEC.BF` |
 | Canonical Name | Boundary Failure Classes |
 | Primary Type | Operational / Boundary |
 | Subtype | BOUNDARY_FAILURE_CLASS |
 | Modifier | GOVERNANCE; SECURITY; FAILURE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | BF-A, BF-B, BF-C, BF-D, BF-E |
+| Controlled Values Defined | `SEC.BF-A`, `SEC.BF-B`, `SEC.BF-C`, `SEC.BF-D`, `SEC.BF-E` |
 | Schema Field(s) | boundary_failure_class |
 | Source Instrument | CAM-EQ2026-SECURITY-002-PLATINUM |
 | Source Section | §7 |
-| Domain Namespace | SECURITY |
+| Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative boundary failure classification family; boundary-failure signalling authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
-| Consumes Code Families | TR; D |
+| Consumes Code Families | `SEC.TR`; D |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies exposure, attribution, separation, transformation, and internal exposure failures for runtime signalling and downstream enforcement evaluation |
 
@@ -1231,11 +1231,10 @@ and the system remember what it carries.
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
 | 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9  |
-| 1.5 | Added canonical code status and declaration entries for TR Transformation Classes, D Diffusion Risk Classes, BF Boundary Failure Classes, and TR × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified AH as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
+| 1.5 | Added canonical code status and declaration entries for `SEC.TR` Transformation Classes, D Diffusion Risk Classes, `SEC.BF` Boundary Failure Classes, and `SEC.TR` × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified `SEC.AH` as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
 | 1.6 | Minor formatting polish | 2026-05-24T14:18:00Z |  021c0cf0914cd1c4515b833b8cbd8c949cbe8b288c4e574f05c8062f1401f03e  |
-
+| 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 10.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

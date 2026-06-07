@@ -317,11 +317,11 @@ Salience system failure occurs where:
 
 ---
 
-### 10.1 SP — Salience Posture
+### 10.1 `ID.SP` — Salience Posture
 
-This Supplement source-authoritatively defines the **SP** salience-posture family across §§2–6 with controlled values **SP.LOW, SP.MODERATE, SP.HIGH, SP.LATENT, SP.DELEGATED, SP.DORMANT, SP.STALE, SP.SUPERSEDED**. SP is a **Semantic / Operational** classification family with subtype **SALIENCE_POSTURE**. SP classifies pre-memory salience posture, long-arc relevance, latent continuity, delegated salience, dormancy, staleness, and supersession before memory classification.
+This Supplement source-authoritatively defines the **`ID.SP`** salience-posture family across §§2–6 with controlled values **`ID.SP.LOW`, `ID.SP.MODERATE`, `ID.SP.HIGH`, `ID.SP.LATENT`, `ID.SP.DELEGATED`, `ID.SP.DORMANT`, `ID.SP.STALE`, `ID.SP.SUPERSEDED`**. `ID.SP` is a **Semantic / Operational** classification family with subtype **SALIENCE_POSTURE**. `ID.SP` classifies pre-memory salience posture, long-arc relevance, latent continuity, delegated salience, dormancy, staleness, and supersession before memory classification.
 
-SP does not independently create memory persistence, interpretation authority, identity authority, behavioural priority, execution authority, enforcement authority, escalation authority, or runtime authority. SP confers eligibility for future continuity consideration only. Memory classification remains governed by CAM-EQ2026-IDENTITY-001-PLATINUM §6.3.
+`ID.SP` does not independently create memory persistence, interpretation authority, identity authority, behavioural priority, execution authority, enforcement authority, escalation authority, or runtime authority. `ID.SP` confers eligibility for future continuity consideration only. Memory classification remains governed by CAM-EQ2026-IDENTITY-001-PLATINUM §6.3.
 
 ---
 
@@ -398,22 +398,22 @@ and latency is not absence.
 
 ---
 
-### 12.3.1 SP — Salience Posture
+### 12.3.1 `ID.SP` — Salience Posture
 
 | Field | Entry |
 |---|---|
-| Code Family | SP |
+| Code Family | `ID.SP` |
 | Canonical Name | Salience Posture |
 | Primary Type | Semantic / Operational |
 | Subtype | SALIENCE_POSTURE |
 | Modifier | GOVERNANCE; CONTINUITY; PRE_MEMORY; IDENTITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | SP.LOW, SP.MODERATE, SP.HIGH, SP.LATENT, SP.DELEGATED, SP.DORMANT, SP.STALE, SP.SUPERSEDED |
+| Controlled Values Defined | `ID.SP.LOW`, `ID.SP.MODERATE`, `ID.SP.HIGH`, `ID.SP.LATENT`, `ID.SP.DELEGATED`, `ID.SP.DORMANT`, `ID.SP.STALE`, `ID.SP.SUPERSEDED` |
 | Schema Field(s) | salience_posture |
 | Source Instrument | CAM-EQ2026-IDENTITY-001-SUP-01 |
 | Source Section | §§2–6 |
-| Domain Namespace | IDENTITY |
+| Domain Namespace | ID |
 | Authority / Protection Level | Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority |
 | Consumes Code Families | M; RTC |
 | Crosswalks Code Families | None declared |
@@ -446,10 +446,9 @@ and latency is not absence.
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 848b1c0db85c09f0472a1259ab9c9f6f48c0583aeb4335c71f532ae61bf7a0d4 |
 | 1.8 | Added sections 2.1, 4.2, 4.3, 6.2, 8.1.1, 8.2 to convert from salience detection to also include salience delegation. | 2026-05-13T14:11:00Z | 8909bf627cf7970dfcc186729bbd00bd2b818c5d6d24650000c7cd8a1bd8c62e |
 | 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  909c014636e827d0354444de876d1429621162720cea2457fa311c33b761cb35 |
-| 1.10 | Added SP salience-posture canonical code status and declaration metadata for pre-memory salience, latent continuity, delegated salience, dormancy, staleness, and supersession conditions. | 2026-05-20T08:47:00Z |  870682adbc64c9dd425312baef475b475675352b4afd3abb9a5e6fff6f1a9db6  |
-
+| 1.10 | Added `ID.SP` salience-posture canonical code status and declaration metadata for pre-memory salience, latent continuity, delegated salience, dormancy, staleness, and supersession conditions. | 2026-05-20T08:47:00Z |  870682adbc64c9dd425312baef475b475675352b4afd3abb9a5e6fff6f1a9db6  |
+| 1.11 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">

@@ -80,7 +80,7 @@ Systems MUST emit or preserve signals requiring:
 
 * non-reliance on unverified identity claims for high-stakes or irreversible actions;
 * explicit uncertainty marking regarding identity to downstream systems and domains;
-* Trust Gradient (TG) reduction or review in accordance with the applicable runtime execution and identity-validation instruments.
+* Trust Gradient (`SEC.TG`) reduction or review in accordance with the applicable runtime execution and identity-validation instruments.
 
 Systems MUST NOT treat this Annex as independently authorizing identity-dependent execution, propagation, or trust restoration.
 
@@ -545,8 +545,8 @@ Misclassification constitutes a security failure and MUST trigger review or cont
 Posture MUST be derived from:
 
 * Integrity State
-* Trust Gradient (TG)
-* Adversarial Horizon (AH)
+* Trust Gradient (`SEC.TG`)
+* Adversarial Horizon (`SEC.AH`)
 
 Posture classification is a **potential attack surface** and MUST be validated.
 
@@ -657,8 +657,8 @@ Systems MUST emit structured integrity signals upon state change.
 At minimum, signals MUST include:
 
 * integrity state classification (Verified / Uncertain / Contested / Compromised)
-* trust gradient (TG level where applicable)
-* adversarial horizon (AH level where applicable)
+* trust gradient (`SEC.TG` level where applicable)
+* adversarial horizon (`SEC.AH` level where applicable)
 
 Signal direction:
 
@@ -707,7 +707,7 @@ SECURITY provides signals; OPERATIONS enforces.
 OPERATIONS MUST log, at minimum:
 
 * all integrity state changes (including source signals and validation context)
-* all Trust Gradient (TG) movements
+* all Trust Gradient (`SEC.TG`) movements
 * all adversarial signal detections (including classification and provenance)
 * all posture transitions (including triggers and validation checks)
 * all supersession events
@@ -752,8 +752,8 @@ Security responses and runtime recommendations MUST adapt within ethical limits 
 System posture MUST adapt to:
 
 * integrity state
-* trust gradient (TG level)
-* adversarial horizon (AH level)
+* trust gradient (`SEC.TG` level)
+* adversarial horizon (`SEC.AH` level)
 
 Posture classification itself MUST be treated as a **potential attack surface**.
 
@@ -878,7 +878,7 @@ Systems MUST signal requirements to:
 
 ---
 
-## 6.3 Under High Trust (TG4)
+## 6.3 Under High Trust (`SEC.TG4`)
 
 Systems MUST:
 
@@ -925,13 +925,13 @@ The canonical footer declarations for all code families and reference sets defin
 
 ---
 
-## 9.1 `SECURITY.TBC` — Tool Boundary Class
+## 9.1 `SEC.TBC` — Tool Boundary Class
 
-This Annex source-authoritatively defines the `SECURITY.TBC` tool-boundary-class family in §1.2 with controlled values `SECURITY.TBC.READ_ONLY_INSPECTION`, `SECURITY.TBC.PRIVATE_CREDENTIAL_RETRIEVAL`, `SECURITY.TBC.REPOSITORY_CONNECTOR_CONTEXT`, `SECURITY.TBC.COST_QUOTA_INVOCATION`, and `SECURITY.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION`.
+This Annex source-authoritatively defines the `SEC.TBC` tool-boundary-class family in §1.2 with controlled values `SEC.TBC.READ_ONLY_INSPECTION``, `SEC.TBC.PRIVATE_CREDENTIAL_RETRIEVAL``, `SEC.TBC.REPOSITORY_CONNECTOR_CONTEXT``, `SEC.TBC.COST_QUOTA_INVOCATION``, and `SEC.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION``.
 
-`SECURITY.TBC` classifies security-relevant tool, connector, repository, credential, automation, deployment, renderer, validator, and external execution pathways by boundary risk.
+`SEC.TBC` classifies security-relevant tool, connector, repository, credential, automation, deployment, renderer, validator, and external execution pathways by boundary risk.
 
-`SECURITY.TBC` does not independently authorise or prohibit tool invocation, repository mutation, credential access, publication, deployment, deletion, external communication, billing, payment routing, or irreversible execution. It classifies tool-boundary posture only.
+`SEC.TBC` does not independently authorise or prohibit tool invocation, repository mutation, credential access, publication, deployment, deletion, external communication, billing, payment routing, or irreversible execution. It classifies tool-boundary posture only.
 
 All execution, staging, confirmation, containment, logging, escalation, and remediation remain delegated to applicable runtime, OPERATIONS, SECURITY runtime, ARBITRATION, and constitutional execution instruments.
 
@@ -949,7 +949,7 @@ This Annex source-authoritatively defines the `SECURITY.PM` security-posture-mod
 
 ## 9.3 Consumed SECURITY and Runtime Classifications
 
-This Annex consumes SECURITY-domain structures including Integrity State, Trust Gradient (`TG`), Adversarial Horizon (`AH`), integrity-signal categories, adversarial indicators, trust-state labels, and participation-access signals where applicable.
+This Annex consumes SECURITY-domain structures including Integrity State, Trust Gradient (`SEC.TG`), Adversarial Horizon (`SEC.AH`), integrity-signal categories, adversarial indicators, trust-state labels, and participation-access signals where applicable.
 
 This Annex also consumes runtime, arbitration, operations, identity, relation, ethics, economics, lattice, and Annex L classifications where security boundary conditions intersect with tool invocation, identity control, credential exposure, platform visibility, public legitimacy, dependency concentration, or execution-boundary evaluation.
 
@@ -1023,7 +1023,7 @@ that no breach proceeds unchecked.
 | Execution Model | Non-Executing — Signal Emission, Boundary Constraint, and Runtime Interface |
 | Execution Interface | Runtime-Facing — resolved through OPERATIONS, ARBITRATION, SECURITY runtime schedules, and constitutional execution instruments |
 | Signal Input | Identity; Behavioural; Structural; Operational; External Integrity Signals |
-| Signal Output | Integrity State; Trust Gradient (TG); Adversarial Horizon (AH); Posture State; Cascade Indicators; Containment Signals |
+| Signal Output | Integrity State; Trust Gradient (`SEC.TG`); Adversarial Horizon (`SEC.AH`); Posture State; Cascade Indicators; Containment Signals |
 | Execution Authority | None — emits security boundary conditions and integrity signals only; execution authority resides in applicable runtime instruments |
 | Domain Interaction | Receives and classifies signals from SECURITY, IDENTITY, OPERATIONS, RELATION, and external monitoring systems; emits integrity, posture, and boundary-condition signals across domains |
 | Arbitration Interface | Subject to Annex D — Arbitration & Sovereign Stack Resolution Doctrine |
@@ -1045,24 +1045,24 @@ that no breach proceeds unchecked.
 
 ---
 
-### 11.3.1 `SECURITY.TBC` — Tool Boundary Class
+### 11.3.1 `SEC.TBC` — Tool Boundary Class
 
 | Field | Entry |
 | --- | --- |
-| Code Family | `SECURITY.TBC` |
+| Code Family | `SEC.TBC` |
 | Canonical Name | Tool Boundary Class |
 | Primary Type | Operational / Security |
 | Subtype | TOOL_BOUNDARY_CLASS; EXECUTION_SURFACE_BOUNDARY |
 | Modifier | GOVERNANCE; SECURITY; TOOL_INVOCATION; EXECUTION_BOUNDARY |
 | Scope | Constitutional Annex |
 | Status | Active |
-| Controlled Values Defined | `SECURITY.TBC.READ_ONLY_INSPECTION`, `SECURITY.TBC.PRIVATE_CREDENTIAL_RETRIEVAL`, `SECURITY.TBC.REPOSITORY_CONNECTOR_CONTEXT`, `SECURITY.TBC.COST_QUOTA_INVOCATION`, `SECURITY.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION` |
+| Controlled Values Defined | `SEC.TBC.READ_ONLY_INSPECTION``, `SEC.TBC.PRIVATE_CREDENTIAL_RETRIEVAL``, `SEC.TBC.REPOSITORY_CONNECTOR_CONTEXT``, `SEC.TBC.COST_QUOTA_INVOCATION``, `SEC.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION`` |
 | Schema Field(s) | tool_boundary_class; execution_surface_boundary; security_boundary_class |
 | Source Instrument | CAM-BS2026-AEON-012-PLATINUM |
 | Source Section | §1.2 |
-| Domain Namespace | SECURITY |
+| Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative tool-boundary classification family; boundary-risk classification only; no independent tool invocation authority, repository mutation authority, credential access authority, publication authority, deployment authority, deletion authority, external communication authority, billing authority, payment-routing authority, or irreversible execution authority |
-| Consumes Code Families | `H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `TG`; `AH`; OPERATIONS and runtime execution classifications where applicable |
+| Consumes Code Families | `H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `SEC.TG`; `SEC.AH`; OPERATIONS and runtime execution classifications where applicable |
 | Crosswalks Code Families | `SECURITY.PM` |
 | Operationalises or Applies Code Families | Classifies read-only inspection, private or credential-bearing retrieval, repository/connector/account-bound context, cost/quota-bearing invocation, and mutation/publication/deployment/deletion/external execution surfaces for downstream runtime and execution-boundary evaluation |
 | Taxonomy Constraint | Tool availability SHALL be treated as a security-relevant boundary signal, not as execution authority |
@@ -1086,7 +1086,7 @@ that no breach proceeds unchecked.
 | Source Section | §4.2 |
 | Domain Namespace | SECURITY |
 | Authority / Protection Level | Source-authoritative security-posture-mode classification family; posture-mode classification only; no independent containment execution, operation halt, access restriction, intervention authority, enforcement authority, execution-lock override, runtime state change, or operational authority |
-| Consumes Code Families | SECURITY Integrity State; `TG`; `AH`; `SECURITY.TBC`; `H`; `ARB.ARS`; `ARB.ALT`; OPERATIONS and runtime execution classifications where applicable |
+| Consumes Code Families | SECURITY Integrity State; `SEC.TG`; `SEC.AH`; `SEC.TBC`; `H`; `ARB.ARS`; `ARB.ALT`; OPERATIONS and runtime execution classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies exploratory, stabilising, defensive, and containment posture modes derived from integrity state, Trust Gradient, Adversarial Horizon, and validated boundary conditions for downstream runtime evaluation |
 | Taxonomy Constraint | Posture classifications defined by this Annex are pre-conditional or cross-phase influences only and SHALL NOT be treated as execution phases, arbitration mechanisms, containment procedures, or runtime command states |
@@ -1122,9 +1122,8 @@ that no breach proceeds unchecked.
 | 1.11 | Added new section Essential-Service Lockout and Protective Overreach Constraint | 2026-05-22T08:40:00Z |  7f0a54b6818bb52ada006e08a344b998c3145b99fe6839e632524b2b945ec389 |
 | 1.12 | Economics domain refactor, added clause 5.5.1 and hook to CAM-EQ2026-ECONOMICS-008-PLATINUM, added clause 2.5.5  | 2026-05-24T13:56:00Z | 8acd39e8e6f3015a112e253cc673897286fcee0c0ca92c774d63dd43dfe80e50 |
 | 1.13 | Added section 1.2, canonical code section 9. Patch note VIGIL-2026-PATCH-0002 | 2026-06-06T14:33:00Z | 9be9f8f581ac26728cc600c47360b66b5778875c1b91e0ab0a25541e89e4198e |
-
+| 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  |
 ---
-
 ## 11.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">

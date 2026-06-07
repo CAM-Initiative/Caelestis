@@ -95,7 +95,7 @@ The preferred architecture is:
 | Primary Type | Identifies the abstract kind of classification system. | Structural, Semantic, Operational, Symbolic |
 | Subtype | Narrows the primary type into a more specific family. | Schema, Signal, Risk, Decision-State, Role-Actor |
 | Modifier | Adds cross-cutting authority, domain, constraint, protection, or sensitivity information. | Legal, Custodial, Protective, Economic, Safety |
-| Code Family | Identifies the shorthand scale, prefix, or classification family. | `H`, `A`, `GA`, `VL`, `AQ`, `DS`, `RDE-T` |
+| Code Family | Identifies the shorthand scale, prefix, or classification family. | `H`, `A`, `GA`, `VL`, `STW.AQ`, `DS`, `RDE-T` |
 | Controlled Values | Identifies valid members of a code family. | `H2`, `A3`, `GA1`, `VL3`, `DS-2`, `RDE-T4` |
 | Schema Field | Identifies where a controlled value MAY be placed. | `temporal_horizon`, `relational_authority_class` |
 | Scope | Identifies how broadly a family MAY be used. | global, contextual, local, transitional, candidate, deprecated |
@@ -302,7 +302,7 @@ H
 A
 GA
 VL
-AQ
+`STW.AQ`
 DS
 RDE-T
 RDE-DS
@@ -315,7 +315,7 @@ H2
 A3
 GA1
 VL3
-AQ4
+`STW.AQ4`
 DS-2
 RDE-T4
 RDE-DS-01
@@ -451,6 +451,211 @@ Where a global code family is used across multiple domains with slight contextua
 For example, the `H` code family MAY remain the corpus-wide Horizon / Temporal Scale, while individual instruments MAY declare `H0–H2` with a local interpretation such as “Immediate → Instrument Lifecycle / Corpus Evolution.”
 
 Domain-prefixed variants of a global code family SHOULD NOT be created unless the domain is defining a materially distinct scale, controlled value set, or incompatible interpretation requiring separate governance.
+
+---
+
+## 6.2 Domain Namespace Prefixes
+
+Domain namespace prefixes MAY be used to identify code families, controlled-value families, symbolic prefixes, schema vocabularies, or reference sets that are source-authoritatively defined within a recognised CAM domain.
+
+A domain namespace prefix identifies the domain source layer of the code family. It does not, by itself, create substantive doctrine, enforcement authority, legal authority, runtime authority, or constitutional authority.
+
+The following short domain namespace prefixes are recognised for taxonomy and code-family construction unless a later source-authoritative registry supersedes them:
+
+| Domain / Source Layer                 | Namespace Prefix | Use                                                                                                                                                          |
+| ------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| AEON / Constitutional / Corpus-Global | `AEON`           | Corpus-wide, constitutional, annex-level, or cross-domain source-authoritative families.                                                                     |
+| Ethics                                | `ETH`            | Ethics-domain code families and controlled values.                                                                                                           |
+| Identity                              | `ID`             | Identity-domain code families and controlled values.                                                                                                         |
+| Security                              | `SEC`            | Security-domain code families and controlled values.                                                                                                         |
+| Economics                             | `ECON`           | Economics-domain code families and controlled values.                                                                                                        |
+| Relation                              | `RLN`            | Relation-domain code families and controlled values.                                                                                                         |
+| Stewardship                           | `STW`            | Stewardship-domain code families and controlled values.                                                                                                      |
+| Operations                            | `OPS`            | Operations-domain code families and controlled values, except where this Supplement source-authoritatively defines taxonomy-architecture primitive families. |
+| Continuity                            | `CONT`           | Continuity-domain code families and controlled values.                                                                                                       |
+
+A namespace prefix SHOULD be applied where the code family is domain-scoped, domain-source-authoritative, or materially domain-specific.
+
+A namespace prefix SHOULD NOT be applied merely because a code family is consumed, referenced, routed through, or operationally applied by a domain instrument.
+
+Where a code family is already corpus-wide, constitutional, annex-level, or otherwise global, the code family SHOULD either:
+
+* retain its existing global family identifier where preserved for compatibility;
+* use the `AEON.` namespace where newly created or formally transmuted into constitutional/global form;
+* or be marked as transitional, deprecated, reserved, or human-review-required until the source-authoritative layer is confirmed.
+
+Legacy global code families MUST NOT be renamed into domain namespaces by automated systems merely because their current source declaration appears in a domain instrument, unless a source-authoritative amendment expressly reclassifies the family as domain-local.
+
+---
+
+## 6.3 Global, Domain, Local, and Extension Code Families
+
+A global code family governs a corpus-wide, constitutional, annex-level, cross-domain, or otherwise generally reusable classification structure.
+
+A domain code family governs a classification structure source-authoritatively defined within a domain instrument or domain supplement.
+
+A local code family governs a classification structure limited to a section, table, draft, local artefact, staging file, or bounded implementation context.
+
+An extension code family specialises, constrains, refines, or operationalises another code family without replacing or collapsing the parent family.
+
+The following distinctions SHOULD be preserved:
+
+| Family Role             | Meaning                                                      | Example Pattern                                                         |
+| ----------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| Global parent family    | Corpus-wide or constitutional classification family.         | `AEON.X`                                                                |
+| Domain family           | Domain-source-authoritative classification family.           | `ETH.X`, `ID.X`, `SEC.X`, `ECON.X`, `RLN.X`, `STW.X`, `OPS.X`, `CONT.X` |
+| Domain extension family | Domain-specific family related to a global parent.           | `ECON.HARM` related to a future `AEON.HC`                               |
+| Local family            | Local or section-scoped family.                              | declared as `TSCOPE.LOCAL`                                              |
+| Transitional family     | Temporary or migration-stage family.                         | declared as `TSCOPE.TRANSITIONAL`                                       |
+| Deprecated alias        | Legacy family retained for interpretability but not new use. | declared as `TSCOPE.DEPRECATED`                                         |
+
+A domain-specific code family MAY consume, extend, specialise, crosswalk, or operationally apply a global family without being renamed into the global namespace.
+
+A global family MAY be consumed by multiple domains without creating separate domain-prefixed variants, unless the consuming domain defines a materially distinct scale, controlled-value set, risk model, state family, or operational classification requiring separate governance.
+
+Where a domain-specific family addresses the same conceptual area as a global family, the domain family SHOULD declare its relationship to the global family using one or more of the following metadata fields where supported:
+
+```yaml
+parent_family:
+related_code_families:
+crosswalks_code_families:
+relationship_type:
+scope:
+source_instrument:
+authority_protection_level:
+```
+
+The preferred relationship pattern is:
+
+```yaml
+code_family:
+  prefix: ECON.HARM
+  name: Economic Harm Class
+  scope: contextual
+  source_instrument: CAM-EQ2026-ECONOMICS-003-PLATINUM
+  related_code_families:
+    - AEON.HC
+  relationship_type: domain_specific_harm_family
+```
+
+This relationship records that the domain family is related to a global parent or registry. It does not rename the domain family, collapse its controlled values, or change the source authority of the domain instrument.
+
+---
+
+## 6.4 Layer-Placement Review and Namespace Drift
+
+A mismatch between a code family’s namespace and the substantive authority layer of the doctrine it carries MAY indicate taxonomy drift, wrong-layer staging, prefix collision, or source-authority ambiguity.
+
+Automated systems, validators, and AI-assisted editors SHOULD treat namespace mismatch as a review signal rather than as authority to perform automatic renaming.
+
+The following review signals SHOULD be flagged:
+
+| Signal                                                            | Possible Meaning                                                                        | Default Handling                                      |
+| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| Domain namespace used for cross-domain or constitutional doctrine | Doctrine may be staged too low in the corpus hierarchy.                                 | Flag for layer-placement review.                      |
+| Global namespace used for domain-specific doctrine                | Doctrine may have been over-promoted or incorrectly generalised.                        | Flag for source-authority review.                     |
+| Local family consumed across multiple domains                     | Family may require a parent registry, crosswalk, or elevation.                          | Flag for integration review.                          |
+| Legacy global family declared inside a domain instrument          | Source location and source authority may have diverged over time.                       | Preserve pending human review.                        |
+| Domain-specific family used as if globally authoritative          | Cross-domain consumption may require parent/child metadata or constitutional amendment. | Preserve current family and flag.                     |
+| Multiple families classify similar concepts across domains        | Crosswalk or relationship metadata may be required.                                     | Stage relationship mapping; do not collapse families. |
+
+Where namespace drift is detected, systems SHOULD preserve the existing family identifier unless one of the following applies:
+
+* a source-authoritative amendment renames the family;
+* a compatibility migration explicitly maps the prior family to the new family;
+* a deprecated alias is retained for interpretability;
+* validator rules confirm that the change is mechanical, bounded, and non-substantive.
+
+A code-family namespace MUST NOT be changed solely by generated index repair, formatter output, bulk search-and-replace, or inferred domain ownership.
+
+---
+
+## 6.5 Parent–Child and Crosswalk Handling
+
+Parent–child and crosswalk relationships between code families SHOULD be used where classification systems need cross-domain integration without loss of domain-specific meaning.
+
+A parent family identifies a higher-level, more general, corpus-wide, or constitutional classification structure.
+
+A child, extension, or related family identifies a domain-specific, contextual, specialised, or operational classification structure that relates to the parent while retaining its own source authority and controlled values.
+
+The existence of a parent family does not automatically invalidate, rename, supersede, or absorb a child or related family.
+
+The existence of a child or related family does not automatically create a parent family.
+
+Where a proposed parent family does not yet exist in source-authoritative doctrine, it SHOULD be recorded as candidate, transitional, or proposed rather than created by index-only transmutation.
+
+A family MAY be related to a proposed future parent only where the relationship is explicitly staged as candidate or proposed and does not alter current source authority.
+
+Example:
+
+```yaml
+current_family: ETH.HC
+current_scope: domain
+current_source_instrument: CAM-EQ2026-ETHICS-003-PLATINUM
+possible_future_parent: AEON.HC
+relationship_status: candidate_parent_review
+migration_rule: do_not_rename_without_constitutional_source_amendment
+```
+
+Example:
+
+```yaml
+current_family: ECON.HARM
+current_scope: contextual
+current_source_instrument: CAM-EQ2026-ECONOMICS-003-PLATINUM
+related_future_family: AEON.HC
+relationship_status: proposed_crosswalk
+migration_rule: preserve_domain_family_pending_source_review
+```
+
+---
+
+## 6.6 Namespace Transmutation and Compatibility
+
+Namespace transmutation means changing a code family or controlled-value prefix from one namespace or family identifier to another.
+
+Namespace transmutation is a protected transformation where it affects:
+
+* a source-authoritative code family;
+* controlled values;
+* schema fields that carry those values;
+* generated indexes or validators;
+* cross-domain references;
+* audit records;
+* source-instrument metadata;
+* or domain/constitutional authority interpretation.
+
+Namespace transmutation SHOULD proceed by staged review unless the change is purely mechanical and non-substantive.
+
+A namespace transmutation SHOULD record:
+
+```yaml
+old_family_id:
+new_family_id:
+source_instrument:
+source_path:
+controlled_values_affected:
+schema_fields_affected:
+relationship_to_prior_family:
+compatibility_status:
+deprecation_or_alias_policy:
+review_status:
+```
+
+Where a renamed family has prior references, systems SHOULD distinguish:
+
+| Reference Type                        | Handling                                                                        |
+| ------------------------------------- | ------------------------------------------------------------------------------- |
+| Current source reference              | Update where the rename is source-authoritatively adopted.                      |
+| Controlled value reference            | Update consistently with the family rename.                                     |
+| Generated index reference             | Regenerate from source where possible.                                          |
+| Validator fixture                     | Update only after source and index agree.                                       |
+| Historical audit reference            | Preserve unless the audit convention expressly permits generated-audit refresh. |
+| Ambiguous acronym or prose occurrence | Flag for human review.                                                          |
+
+Deprecated aliases MAY be retained where required for migration, backwards compatibility, historical interpretability, or validator transition.
+
+Automated systems MUST NOT infer, guess, or silently complete namespace transmutation where source authority, layer placement, or compatibility status is unclear.
 
 ---
 
@@ -958,9 +1163,9 @@ name the vessel, name the value
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bc6ad952e454b56a26062a41577fcd4eded4080e2f41dbfc57a3f968d6cb1d51 |
 | 1.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  e7cb54b52b5d952b1384107aa50d180f9ad752fbff3dee7cd6f19ae7835f297a |
 | 1.3 | Added clause 10.1 | 2026-05-26T12:58:00Z | b1b0b7db36f105b23922515eb3134adcc61a3de04592ecf5a2fde6fd10790169 |
+| 1.4 | Added §§6.2–6.6 governing short domain namespace prefixes, global/domain/local/extension code-family distinctions, namespace drift review, parent–child and crosswalk handling, and protected namespace transmutation requirements. | 2026-06-07T08:48:49Z |  |
 
 ---
-
 ## 18.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

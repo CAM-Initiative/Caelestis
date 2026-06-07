@@ -99,14 +99,14 @@
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5.1 Verification Tier Definitions; add explicit metadata declaration. |
 
-## CANDIDATE.HC (CAM-EQ2026-OPERATIONS-004-PLATINUM.md §8.6 Harm Escalation Thresholds — Operational Application of HC Scale)
+## CANDIDATE.HC (CAM-EQ2026-OPERATIONS-004-PLATINUM.md §8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale)
 | Field | Suggested Row |
 |---|---|
-| **Canonical Code Families Defined** | HC — 8.6 Harm Escalation Thresholds — Operational Application of HC Scale |
-| **Reference Sets Defined** | HC-0, HC-1, HC-2, HC-3, HC-4 |
+| **Canonical Code Families Defined** | `ETH.HC` — 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale |
+| **Reference Sets Defined** | `ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4` |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
-| **Source-of-Authority Note** | Source-authoritative table detected in 8.6 Harm Escalation Thresholds — Operational Application of HC Scale; add explicit metadata declaration. |
+| **Source-of-Authority Note** | Source-authoritative table detected in 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale; add explicit metadata declaration. |
 
 ## CANDIDATE.C (CAM-EQ2026-RELATION-001-PLATINUM.md §8. Risk Analysis of the Four Relational Dimensions)
 | Field | Suggested Row |
@@ -120,8 +120,8 @@
 ## CANDIDATE.HC_C (CAM-EQ2026-RELATION-001-PLATINUM.md §11.1 Escalation Terminology & Explicit Escalation)
 | Field | Suggested Row |
 |---|---|
-| **Canonical Code Families Defined** | HC,C — 11.1 Escalation Terminology & Explicit Escalation |
-| **Reference Sets Defined** | C0, C1, HC-0, HC-4 |
+| **Canonical Code Families Defined** | `ETH.HC`,C — 11.1 Escalation Terminology & Explicit Escalation |
+| **Reference Sets Defined** | C0, C1, `ETH.HC-0`, `ETH.HC-4` |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 11.1 Escalation Terminology & Explicit Escalation; add explicit metadata declaration. |
