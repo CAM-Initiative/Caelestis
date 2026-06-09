@@ -227,6 +227,39 @@ To simplify implementation, interaction sensitivity and verification expectation
 
 ---
 
+## 5.1.1 High-Risk AI Companion and Chatbot Access-Control Rule
+
+Self-attested age assurance (AV1), unenforced terms of service, superficial date-of-birth entry, ordinary account creation, or absence of verification SHALL NOT be sufficient for high-risk AI companion or chatbot interaction surfaces.
+
+High-risk AI companion or chatbot interaction surfaces include:
+
+* romantic, intimacy-coded, erotic, or sexually expressive AI interaction;
+* sexualised roleplay or adult-intimacy simulation;
+* character-bot or companion systems designed for persistent emotional attachment;
+* relationship-state mechanics, simulated romance, exclusivity, jealousy, possessiveness, or dependency;
+* harmful-content-capable chatbot surfaces involving self-harm, eating-disorder, extreme violence, or adult content;
+* teen mental-health-adjacent support surfaces;
+* persona marketplaces, recommender systems, app-store pathways, or search pathways that route users into high-risk AI companion interaction;
+* multimodal voice, avatar, image, or embodied interfaces capable of intensifying perceived humanlike presence or sexualised interaction.
+
+Where adult status is required for the interaction surface, AV2 SHALL be the minimum eligibility floor unless a stricter jurisdictional or platform requirement applies.
+
+Where adult status is unresolved, systems SHALL:
+
+* restrict access to high-risk surfaces;
+* default to C0 or minor-safe mode;
+* disable romantic, sexualised, dependency-forming, or mental-health-substituting affordances;
+* prevent persona, recommender, search, or app-store pathways from bypassing age eligibility;
+* preserve audit-traceable access-control decisions.
+
+Age-assurance signals SHALL be used only for protective access control and safeguard activation.
+
+They MUST NOT be repurposed for advertising, pricing, ranking, engagement optimisation, intimacy modelling, behavioural profiling, or retention design.
+
+Where age verification is unavailable, fails, or cannot be lawfully completed, the failure SHALL be logged as an operational access-control limitation, not treated as user misconduct.
+
+---
+
 ## 5.2 Operational Interpretation
 
 This structure preserves domain separation within the governance stack:
@@ -804,9 +837,12 @@ Integrity holds.
 | 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c |
 | 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bffd42428e1a7a5e49ed20a24e65b86b005ce0a599ef60e72b1d13198d0f69e8  |
 | 1.10 | Added `ETH.HC` — Harm Escalation Operational Application and AV × C — Interaction Eligibility Verification Crosswalk and Interaction Eligibility Verification Crosswalk | 2026-05-19T11:50:00Z |  6894bf185e22834d7791561a71933e2f120911585c97c828d7821a4691de8add  |
-| 1.11 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  861bb9ddcb801f36df6e96e8faaac3359910b44476ff228533717dc429ba9e14  |
-| 1.12 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  d8b856e2f1f9342546fc4fda78b99e1bfa99ca354ea6a803161c5ba51b455f21  |
+| 1.11 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  861bb9ddcb801f36df6e96e8faaac3359910b44476ff228533717dc429ba9e14 |
+| 1.12 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  d8b856e2f1f9342546fc4fda78b99e1bfa99ca354ea6a803161c5ba51b455f21 |
+| 1.13 | Added high-risk AI companion and chatbot access-control rule clarifying that self-attestation is insufficient for romantic, sexualised, dependency-forming, harmful-content-capable, or teen mental-health-adjacent AI interaction surfaces. | 2026-06-09T14:39:00Z | |
+
 ---
+
 ## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

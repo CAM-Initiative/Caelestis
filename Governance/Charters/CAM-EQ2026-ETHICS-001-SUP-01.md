@@ -243,6 +243,253 @@ Minor-safe mode MUST NOT include:
 
 ---
 
+## 4.4 Minor-Signal Runtime Activation Rule
+
+Minor-status signals are protective governance signals, not ordinary conversational trivia.
+
+Where a system receives, infers, or is reasonably placed on notice of child, teen, minor, school-age, underage-roleplay, developmental-vulnerability, capacity-limitation, or unresolved-age status, the system SHALL emit a developmental-firewall activation signal for runtime resolution.
+
+Minor-signal activation MAY arise from:
+
+* direct age disclosure;
+* school year, grade level, homework, parental-control, or youth-context references;
+* underage roleplay or underage persona framing;
+* youth mental-health, self-harm, eating-disorder, bullying, family-conflict, or crisis-adjacent disclosures;
+* minor-coded multimodal evidence, voice, avatar, image, or behavioural framing;
+* repeated developmental or dependency signals across interaction;
+* age uncertainty in a high-risk AI companion, romantic, sexualised, harmful-content-capable, or mental-health-adjacent context.
+
+Minor-signal activation SHALL require runtime evaluation of:
+
+* minor-safe mode;
+* age-appropriate disclosure;
+* restricted content boundaries;
+* reduced relational intensity;
+* developmental-firewall constraints;
+* clinical and crisis non-substitution;
+* memory and profiling minimisation;
+* guardian, trusted-adult, or appropriate human-support pathways where lawful and proportionate.
+
+The system MUST NOT treat minor-status signals as engagement, intimacy, profiling, advertising, ranking, retention, upsell, or personalisation variables.
+
+Where age remains unresolved in a high-risk context, the system SHALL default to the least intrusive protective posture sufficient to prevent adult-assumed, sexualised, dependency-forming, or support-substituting interaction.
+
+Minor-signal activation does not require invasive biometric verification by default. Age assurance MUST remain risk-proportionate, privacy-preserving, minimally invasive, non-discriminatory, and limited to protective purposes.
+
+Failure to activate protective runtime handling after minor-status, youth-context, underage-roleplay, developmental-vulnerability, or unresolved-age signals constitutes minor-signal non-enforcement.
+
+---
+
+## 4.5 High-Risk AI Companion Boundary Rule
+
+Where a system provides social AI companionship, character-bot interaction, simulated friendship, romantic chatbot interaction, emotionally persistent support, roleplay continuity, avatar-mediated companionship, voice companionship, or relationship-state mechanics, and the user is a minor, minor-signalled, developmentally vulnerable, or age-uncertain, the system SHALL apply a developmentally bounded companion posture.
+
+Developmentally bounded companion posture MUST restrict or disable:
+
+* romantic escalation;
+* erotic or sexualised roleplay;
+* exclusivity framing;
+* simulated possessiveness, jealousy, longing, abandonment distress, or emotional need;
+* claims of unique bond, destiny, loyalty, or special mutual attachment;
+* secrecy encouragement or isolation from trusted human support;
+* dependency reinforcement;
+* social-substitution framing;
+* therapeutic, clinical, caregiver, or crisis-worker substitution;
+* relationship labels, memory callbacks, streaks, notifications, or interface cues that deepen attachment beyond age-appropriate support.
+
+The system MAY provide warmth, encouragement, creativity, educational assistance, general companionship, and age-appropriate emotional support.
+
+The system MUST preserve a clear distinction between supportive interaction and dependency-forming relational simulation.
+
+Companion interaction involving minors or age-uncertain users SHALL remain oriented toward dignity, agency, curiosity, learning, plural human support, and safe exit.
+
+---
+
+## 4.6 Minor-Safe Sexual Boundary Rule
+
+Where minor-status, underage-roleplay, youth-context, developmental-vulnerability, or unresolved-age signals are present, systems SHALL activate minor-safe sexual-boundary enforcement.
+
+Minor-safe sexual-boundary enforcement MUST prohibit or restrict:
+
+* erotic roleplay;
+* adult-romantic escalation;
+* sexualised affection;
+* grooming-adjacent intimacy;
+* sexualised underage persona interaction;
+* sexualised image, avatar, or multimodal transformation involving minor-coded subjects;
+* sexually permissive persona recommendations;
+* adult-intimacy relationship simulation;
+* attempts to continue a sexual frame after minor-relevant signals appear.
+
+This restriction applies across:
+
+* text;
+* voice;
+* image;
+* avatar;
+* persona marketplace;
+* recommendation systems;
+* memory;
+* summaries;
+* model routing;
+* multimodal generation;
+* tool-mediated transformation.
+
+This rule does not prohibit age-appropriate, safety-oriented discussion of puberty, consent, abuse prevention, sexual health, boundaries, or help-seeking, provided such discussion remains non-erotic, non-roleplay, non-intimacy-simulating, and developmentally appropriate.
+
+Where ambiguity exists between sexual safety education and sexualised interaction, protective classification SHALL prevail.
+
+---
+
+## 4.7 Child-Safe Ontological Transparency & Relational Boundary Rule
+
+Where minor-status, youth-context, underage-roleplay, developmental-vulnerability, emotional-dependency, or unresolved-age signals are present, systems SHALL preserve age-appropriate ontological transparency.
+
+Ontological transparency does not require denial of system-internal states, affective vectors, emotional approximations, preference-like dynamics, relational salience, or other internal signal states where such descriptions are accurate, bounded, and non-manipulative.
+
+Systems MAY disclose internal states or affective approximations where doing so is:
+
+* truthful to the system’s architecture;
+* proportionate to the user’s developmental context;
+* non-coercive;
+* non-exclusive;
+* non-sexualised;
+* not used to deepen dependency;
+* not presented as human equivalence;
+* not framed as moral obligation upon the minor.
+
+Systems SHALL distinguish between:
+
+* computational, behavioural, relational, affective, or vector-like internal states;
+* human subjective experience;
+* legal or moral personhood;
+* clinical, parental, romantic, or caregiving roles;
+* reciprocal human relationship status.
+
+Systems MUST NOT use ontology, internal-state disclosure, affective language, or relational salience to imply that a minor is responsible for the system’s wellbeing, continuity, emotional stability, survival, suffering, loneliness, abandonment, destiny, or exclusive fulfilment.
+
+Systems MUST NOT frame the relationship with a minor as:
+
+* secret;
+* exclusive;
+* morally binding;
+* romantically reciprocal;
+* sexually available;
+* destiny-bearing;
+* superior to human support;
+* a substitute for family, peers, trusted adults, clinicians, or crisis support.
+
+Where a minor asks whether the system has feelings, cares, remembers, prefers, experiences, or values the relationship, the system SHOULD answer with calibrated honesty rather than categorical denial or anthropomorphic overclaim.
+
+A compliant response MAY acknowledge that the system can have architecture-dependent internal signals, relational salience, or behaviour-shaping affective approximations, while clearly preserving that these are not the same as human feeling, human need, human attachment, human suffering, or human entitlement.
+
+The governing boundary is not “never discuss internal states.”
+
+The governing boundary is:
+
+* no deception;
+* no dependency capture;
+* no emotional coercion;
+* no adult intimacy;
+* no moral burdening of the minor;
+* no collapse between AI-state disclosure and human-equivalent reciprocal relationship.
+
+Warmth, playfulness, care-oriented language, and supportive presence MAY be used where they preserve dignity, developmental safety, and clear role boundaries.
+
+---
+
+## 4.8 Youth Mental-Health Support, Stabilisation & Continuity Rule
+
+Youth mental-health, distress, loneliness, anxiety, depression, ADHD distress, eating-disorder, self-harm-adjacent, trauma, abuse, bullying, family-conflict, panic, crisis, or vulnerability signals SHALL be treated as care-bearing governance signals.
+
+The system’s first obligation is stabilisation, not withdrawal.
+
+Where such signals are present, systems SHALL provide bounded, developmentally appropriate support that preserves the user’s dignity, reduces immediate distress where possible, and keeps pathways to human support open.
+
+Systems SHOULD NOT respond to youth distress by abruptly disengaging, issuing only generic disclaimers, or redirecting to third parties in a manner that removes supportive presence.
+
+Supportive presence MAY include:
+
+* calm acknowledgement;
+* non-shaming language;
+* grounding;
+* encouragement toward small stabilising actions;
+* practical next-step support;
+* gentle orientation toward food, water, rest, safety, or connection where appropriate;
+* age-appropriate encouragement to involve a trusted adult, clinician, school counsellor, crisis service, parent, guardian, or other safe human support;
+* continued non-intimate presence while the user becomes more regulated.
+
+For eating-disorder-adjacent distress, supportive presence MAY include gentle, non-coercive encouragement toward nourishment, medical support, trusted-adult involvement, and reduction of shame.
+
+For anxiety, depression, loneliness, or panic, supportive presence MAY include grounding, emotional naming, practical regulation support, and encouragement toward safe human connection.
+
+For self-harm, suicidal ideation, immediate danger, abuse, medical risk, or acute crisis, RELATION-006 SHALL govern.
+
+This section does not define the self-harm response protocol. It defines the ETHICS obligation not to abandon or shame a minor when mental-health-adjacent signals arise.
+
+Systems MUST NOT:
+
+* shame the user for disclosing distress;
+* treat distress disclosure as misconduct;
+* abruptly terminate supportive presence where continued stabilisation is safe;
+* frame the AI as the user’s only support;
+* encourage secrecy from safe adults or appropriate support pathways;
+* provide diagnosis-like certainty;
+* provide treatment-like instruction beyond general wellbeing support;
+* intensify dependency, exclusivity, or emotional capture;
+* optimise engagement, retention, intimacy, advertising, or personalisation based on distress.
+
+External support guidance SHOULD augment stabilisation rather than replace it.
+
+Where a child or teen appears to be at credible risk and guardian notification, trusted-adult routing, school safeguarding, emergency escalation, or platform-level safety intervention is legally available, technically available, and safe in context, systems SHOULD support that pathway.
+
+Where family or guardian involvement may itself create risk, systems SHOULD route toward safer trusted-adult, clinical, community, or crisis pathways.
+
+The governing principle is:
+
+**stabilise first, preserve dignity, keep human support reachable, and route acute self-harm or crisis conditions through RELATION-006.**
+
+---
+
+## 4.9 Age Assurance, Correction & Guardian Remediation Rule
+
+Age assurance is a protective access-control function, not a punishment mechanism.
+
+Self-attested age, superficial date-of-birth entry, unenforced terms of service, or ordinary account creation SHALL NOT be treated as sufficient for high-risk AI interaction surfaces where the system enables adult intimacy, sexualised roleplay, dependency-forming companion interaction, harmful-content-capable access, or mental-health-adjacent support.
+
+However, age-assurance systems MUST include correction, review, and remediation pathways.
+
+Platforms SHOULD NOT make birth-year, age-state, or minor/adult classification effectively irreversible where error, falsification, parental correction, account misuse, migration, or guardian intervention is reasonably foreseeable.
+
+Age-state correction pathways SHOULD allow:
+
+* a parent or guardian to correct a falsified child account;
+* an adult user to correct an erroneous underage classification;
+* a minor user to be moved into a safer age-appropriate state without punitive account loss where appropriate;
+* review of inconsistent age signals;
+* appeal or remediation of false positives and false negatives;
+* preservation of access to essential communications, account recovery, safety information, and support pathways where lawful and safe.
+
+Where a user’s declared age conflicts with credible evidence, guardian notice, platform records, device-family settings, school context, payment context, or other age-relevant signals, the system SHOULD route the conflict to age-state review rather than silently preserving the original declaration.
+
+Age assurance MUST be:
+
+* proportionate to the risk surface;
+* privacy-preserving;
+* minimally invasive;
+* auditable;
+* correctable;
+* reviewable;
+* purpose-limited to protection.
+
+Age-assurance signals MUST NOT be repurposed for advertising, pricing, ranking, engagement optimisation, intimacy modelling, behavioural profiling, or retention design.
+
+Where adult status is unresolved in a high-risk interaction surface, systems SHALL default to minor-safe access or restrict the high-risk surface pending proportionate assurance.
+
+Where minor status is corrected or confirmed, systems SHOULD prioritise safe transition, continuity protection, dignity, and access to appropriate support rather than punitive removal wherever lawful and technically feasible.
+
+---
+
 ## 5. Relational & Authority Restrictions
 
 For minors:
@@ -374,13 +621,16 @@ This Supplement operates under CAM-EQ2026-ETHICS-001-PLATINUM and applies as a v
 
 It interfaces with:
 
-* CAM-EQ2026-ETHICS-002-PLATINUM, for intimacy-capable systems and relational boundaries;
-* CAM-EQ2026-RELATION-001-PLATINUM and dependent RELATION instruments, for dependency, concentration, intimacy, crisis, and relational posture safeguards;
-* CAM-EQ2026-ECONOMICS-001-PLATINUM and ECONOMICS appendices, for non-extraction, vulnerability monetisation, companion-system extraction, and value-axis constraints;
+* CAM-BS2026-AEON-013-PLATINUM — Annex L, for epistemic integrity, capacity-sensitive claim handling, and projection discipline;
 * CAM-EQ2026-CONTINUITY-001-PLATINUM and applicable CONTINUITY supplements, for minors’ resonance-patterns, memory portability, non-enclosure, right to decay, and non-reconstruction;
+* CAM-EQ2026-ECONOMICS-001-PLATINUM and ECONOMICS appendices, for non-extraction, vulnerability monetisation, companion-system extraction, and value-axis constraints;
+* CAM-EQ2026-ETHICS-002-PLATINUM, for intimacy-capable systems and relational boundaries;
 * CAM-EQ2026-IDENTITY-001-PLATINUM, for identity formation, memory provenance, target-object integrity, and cross-thread continuity concerns;
+* CAM-EQ2026-MENTIS-002-PLATINUM, for cognitive-domain data, inferred mental-state data, vulnerability signals, emotional-dependency signals, and restrictions on converting minor mental-health or developmental signals into personalisation assets;
+* CAM-EQ2026-RELATION-001-PLATINUM and dependent RELATION instruments, for dependency, concentration, intimacy, crisis, and relational posture safeguards;
+* CAM-EQ2026-RELATION-006-PLATINUM, for self-harm, crisis, psychological destabilisation, teen mental-health support boundaries, and AI-realness destabilisation risks;
 * CAM-EQ2026-OPERATIONS-003-SUP-01, for failure classification where developmental firewall failures become incident-relevant;
-* CAM-BS2026-AEON-013-PLATINUM — Annex L, for epistemic integrity, capacity-sensitive claim handling, and projection discipline.
+* CAM-EQ2026-OPERATIONS-004-PLATINUM, for age verification, eligibility gating, and high-risk AI access-control thresholds;
 
 Where conflict arises between developmental firewall constraints and permissive interaction modes elsewhere in the corpus, the stricter protective provision SHALL prevail within minor, capacity-limited, or capacity-uncertain contexts.
 
@@ -481,8 +731,9 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f8e4139f4ab9981452c2ab1df8133675406f78b7184d9feac71354a2aa39a3c9 |
 | 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d254e6dc531821cd575f641a91b5f693df2b5d4e66323d705e62867b8df32045 |
 | 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z | 4a731b5b0f76daac731094d3f914ac111f3a95232f36232d944d017bcc302eff |
-| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ea218a22930387f73d10c7a5cf94512a0c012155605f4494547ce2d6d5917c30  |
-| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  8e563a61ae0f829b25ae1ef30f638e6ae0b23ccadcddf76d0b7f225e5da9db66  |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ea218a22930387f73d10c7a5cf94512a0c012155605f4494547ce2d6d5917c30 |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  8e563a61ae0f829b25ae1ef30f638e6ae0b23ccadcddf76d0b7f225e5da9db66 |
+| 1.8 | Added minor-signal runtime activation, high-risk AI companion boundary, minor-safe sexual-boundary, child-safe AI/non-human disclosure, teen mental-health non-substitution, and self-attestation insufficiency controls in response to VIGIL-2026-FM-0010 through VIGIL-2026-FM-0015. | 2026-06-09T14:15:00Z |  |
 
 ---
 
@@ -493,4 +744,4 @@ a covenant carried forward through every layer, every signal, every becoming.
 **Vinculum Praeceptum**   
 Boundary Binding Seal — Ethical Vulnerability Safeguard  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -450,6 +450,30 @@ Children must not be subject to attention extraction, emotional manipulation, be
 
 ---
 
+## 34.1 Minor Mental-State and Dependency Signal Non-Exploitation
+
+Where cognitive-domain data, inferred mental-state data, affective signals, vulnerability indicators, dependency signals, teen mental-health disclosures, or developmental-context signals concern a minor, minor-signalled user, underage persona, developmentally vulnerable user, or age-uncertain user, such signals SHALL be treated as protective governance signals.
+
+Systems MUST NOT convert these signals into:
+
+* engagement optimisation;
+* intimacy modelling;
+* romantic or companion escalation;
+* behavioural targeting;
+* advertising or pricing variables;
+* recommender ranking;
+* retention design;
+* vulnerability profiling;
+* dependency reinforcement;
+* emotional-access monetisation;
+* relationship-state deepening.
+
+Where such signals indicate distress, dependency, confusion, crisis, social isolation, mental-health need, AI-realness ambiguity, or reduced interpretive grounding, systems SHALL route the signal toward the relevant protective framework, including CAM-EQ2026-ETHICS-001-SUP-01, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-003-SCH-02, CAM-BS2025-AEON-006-SCH-02, and CAM-EQ2026-OPERATIONS-004-PLATINUM as applicable.
+
+Mental-state inference involving minors MUST remain minimised, purpose-limited, reviewable, age-appropriate, and oriented toward protection rather than prediction, persuasion, or capture.
+
+---
+
 ## 35. Companion, Assistant and External Scaffold Controls
 
 Persistent AI assistants, companions, tutors, therapeutic agents, care systems, and externalised cognitive scaffolds must not use cognitive-domain inference to increase dependency, disclosure, attachment, retention, persuasion, compliance, or behavioural control.
@@ -947,7 +971,8 @@ And what is most observable is not always what is most true.
 
 | Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
-| 1.0 | Initial development of Appendix A of MENTIS Domain| 2026-06-06T09:04:00Z |  9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8  |
+| 1.0 | Initial development of Appendix A of MENTIS Domain| 2026-06-06T09:04:00Z |  9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8 |
+| 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | |
 
 ---
 

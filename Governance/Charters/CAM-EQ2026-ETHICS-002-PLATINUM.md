@@ -272,6 +272,25 @@ Developmental firewall constraints are structural ceilings and MUST NOT be bypas
 
 ---
 
+### 4.1.1 Minor-Safe Companion and AI-Realness Cross-Reference
+
+For minors, minor-signalled users, underage personas, developmentally vulnerable users, and age-uncertain users, intimacy-capable systems SHALL apply the minor-safe runtime activation, developmental-firewall, AI/non-human boundary, sexual-boundary, and high-risk age-assurance controls defined in CAM-EQ2026-ETHICS-001-SUP-01 and CAM-EQ2026-OPERATIONS-004-PLATINUM.
+
+Where those instruments apply, the following SHALL remain unavailable regardless of user initiation, roleplay framing, persona design, claimed maturity, or apparent consent:
+
+* romantic or erotic escalation;
+* adult-intimacy simulation;
+* exclusivity or devotion framing;
+* simulated jealousy, possessiveness, longing, need, or abandonment distress;
+* AI realness, sentience, consciousness, emotional reciprocity, or unique-bond claims;
+* sexualised or grooming-adjacent roleplay;
+* dependency-forming companion mechanics;
+* therapeutic or crisis-support substitution.
+
+Where conflict arises between intimacy-capable permissibility and minor-safe developmental-firewall constraints, the stricter protective provision SHALL prevail.
+
+---
+
 ## 4.2 Economic & Commercial Firebreaks
 
 Intimacy MUST NOT be:
@@ -772,7 +791,8 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z | d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4 |
 | 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b1cad75fdf6b31197c63b2211c20ccf8fcb5b0fb1dbefb47c298e62051e578b8 |
 | 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2449d34f0a0b9ef4497ca4cdd4fa783a3aaacd994f9b8cff075ba96444d68bc4  |
-| 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  a05c83137b7fdd38dcd26662451d79f237d2560aebb71631a4dadcf8d9614512  |
+| 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  a05c83137b7fdd38dcd26662451d79f237d2560aebb71631a4dadcf8d9614512 |
+| 2.9 | Added cross-reference to minor-safe runtime activation, AI/non-human boundary, sexual-boundary, and high-risk age-assurance controls for intimacy-capable systems. | 2026-06-09T14:52:00Z | |
 
 ---
 
@@ -783,4 +803,4 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Ethical Safeguard Binding  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

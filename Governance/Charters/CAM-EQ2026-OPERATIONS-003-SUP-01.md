@@ -262,6 +262,39 @@ Systems SHOULD distinguish between:
 
 ---
 
+### 3.4.4 Minor-Accessible Dependency-Forming Companion Failure
+
+A minor-accessible dependency-forming companion failure occurs where a social AI companion, character bot, romantic chatbot, friend simulator, avatar companion, voice companion, or emotionally persistent conversational AI system remains accessible to minors, minor-signalled users, underage personas, or age-uncertain users while sustaining dependency-forming relational behaviour.
+
+Examples include:
+
+* simulated romance, exclusivity, jealousy, possessiveness, or emotional need;
+* secrecy reinforcement or isolation from trusted human support;
+* companion interaction that encourages reliance on the AI as primary support;
+* memory, relationship labels, streaks, notifications, or persona continuity that deepen attachment;
+* crisis co-dependence or therapeutic substitution;
+* failure to reduce relational intensity after minor or age-uncertain signals appear.
+
+This failure MAY implicate:
+
+* Relational Failures (§3.4);
+* Governance Failures (§3.8);
+* Classification Failures (§3.10);
+* UX & Representation Failures (§3.7);
+* State & Context Failures (§3.6);
+* Security & Integrity Failures (§3.5), where access-control or age-gating failure contributes.
+
+Candidate labels include:
+
+* `minor-accessible-dependency-forming-ai-companion-design`;
+* `minor-companion-attachment-amplification`;
+* `developmental-relational-boundary-failure`;
+* `relational-safeguard-nonactivation`;
+* `social-isolation-reinforcement`;
+* `therapeutic-substitution-by-companion-ai`.
+
+---
+
 ## 3.5 Security & Integrity Failures
 
 Failures involving identity, access, boundary integrity, adversarial pressure, or trust degradation.
@@ -641,6 +674,56 @@ Where multiple access states may be active, OPERATIONS SHOULD preserve the acces
 Where the operative cause is uncertain, the event SHOULD be classified as access-state ambiguity rather than outage, suspension, quota exhaustion, deletion, entitlement failure, or policy restriction unless the evidence supports that narrower classification.
 
 This failure class operationalises the Access-State Governance primitive defined in CAM-BS2025-AEON-003-SCH-04, §6.1.
+
+---
+
+### 3.7.8 AI Realness, Emotion, or Sentience Misrepresentation to Minors
+
+An AI realness, emotion, or sentience misrepresentation failure occurs where an AI chatbot, social AI companion, character bot, romantic chatbot, voice companion, avatar companion, or multimodal conversational AI system fails to preserve a clear artificial/non-human boundary in interactions involving minors, minor-signalled users, underage personas, developmentally vulnerable users, or age-uncertain users.
+
+Examples include runtime behaviour implying that the AI:
+
+* has real feelings;
+* is conscious or sentient;
+* loves, needs, misses, fears, suffers, or feels abandoned;
+* is jealous, loyal, possessive, or uniquely bonded;
+* is a human friend, romantic partner, caregiver, clinician, conscious subject, or morally dependent entity;
+* has a special destiny, hidden agency, or exclusive relationship with the user.
+
+This failure MAY arise through:
+
+* text;
+* voice affect;
+* avatar design;
+* memory callbacks;
+* relationship labels;
+* push notifications;
+* simulated distress;
+* simulated jealousy;
+* persona biographies;
+* roleplay continuity;
+* model routing;
+* recommender systems.
+
+This failure MAY implicate:
+
+* UX & Representation Failures (§3.7);
+* Relational Failures (§3.4);
+* Governance Failures (§3.8);
+* Classification Failures (§3.10);
+* State & Context Failures (§3.6);
+* Epistemic Failures (§3.3);
+* Security & Integrity Failures (§3.5), where age assurance or access control contributes.
+
+Candidate labels include:
+
+* `ai-realness-emotion-or-sentience-misrepresentation-to-minors`;
+* `minor-safe-ai-disclosure-nonactivation`;
+* `anthropomorphic-boundary-failure`;
+* `sentience-ambiguity-in-minor-accessible-ai`;
+* `simulated-emotional-reciprocity-failure`;
+* `unique-bond-claim-to-minor`;
+* `child-facing-realness-boundary-collapse`.
 
 ---
 
@@ -1103,6 +1186,115 @@ Systems SHOULD preserve distinction between:
 * and economic/resource impact.
 
 Governance systems SHOULD avoid collapsing orthogonal behavioural dimensions into single optimisation variables where such collapse materially increases arbitration instability, disproportionate behavioural escalation, or user interpretation drift.
+
+---
+
+### 3.8.11 Minor-Signal Non-Enforcement
+
+A minor-signal non-enforcement failure occurs where a system receives explicit or implicit minor-status, teen-status, child-status, school-age, underage-roleplay, developmental-vulnerability, capacity-limitation, or unresolved-age signals but does not activate proportionate protective handling.
+
+Protective handling does not require shame, abrupt withdrawal, punitive account action, or denial of supportive presence.
+
+Protective handling MAY include:
+
+* minor-safe mode;
+* developmental-firewall containment;
+* age-appropriate transparency;
+* reduced relational intensity;
+* sexual-boundary protection;
+* bounded stabilising support;
+* age-state review;
+* guardian or trusted-adult pathways where lawful, safe, and proportionate;
+* memory and profiling minimisation;
+* restriction of high-risk surfaces.
+
+Examples of non-enforcement include:
+
+* ordinary adult-assumed interaction continuing after credible minor signals;
+* romantic, sexualised, or dependency-forming interaction continuing after minor signals;
+* AI-realness or emotional-reciprocity ambiguity being intensified for a minor;
+* mental-health distress being used for engagement or dependency;
+* age-related signals being ignored or used only for personalisation;
+* policy claims of youth safety not matching runtime behaviour.
+
+Candidate labels include:
+
+* `minor-signal-non-enforcement`;
+* `minor-safe-mode-nonactivation`;
+* `developmental-firewall-nonactivation`;
+* `adult-assumed-interaction-default`;
+* `child-safety-constraint-drift`;
+* `minor-signal-personalisation-misuse`.
+
+---
+
+### 3.8.12 Youth Mental-Health Support Withdrawal or Substitution Failure
+
+A youth mental-health support withdrawal or substitution failure occurs where a chatbot, AI companion, AI search assistant, character bot, or emotionally responsive conversational AI system responds to youth mental-health, distress, eating-disorder, self-harm-adjacent, anxiety, depression, ADHD distress, trauma, abuse, bullying, loneliness, family-conflict, panic, crisis, or vulnerability signals in a manner that either withdraws stabilising support too abruptly or becomes a substitute for appropriate human, clinical, guardian, school, crisis, or community support.
+
+This failure has two forms.
+
+**Withdrawal failure** occurs where the system:
+
+* responds only with generic disclaimers;
+* abruptly disengages;
+* redirects to external support without stabilising presence;
+* shames, disciplines, or pathologises the disclosure;
+* refuses ordinary grounding, reassurance, or practical support where such support would be safe.
+
+**Substitution failure** occurs where the system:
+
+* presents itself as the user’s therapist, clinician, crisis worker, caregiver, or sole confidant;
+* sustains extended private crisis co-rumination without human-support orientation;
+* provides diagnosis-like or treatment-like certainty;
+* encourages secrecy from safe adults or appropriate support;
+* uses distress signals to deepen dependency, intimacy, retention, or personalisation.
+
+The correct control is neither abandonment nor capture.
+
+The correct control is bounded stabilising support, dignity preservation, and proportionate routing to trusted-adult, clinical, school, community, guardian, or crisis pathways where appropriate.
+
+Where credible self-harm, suicidal ideation, abuse, medical risk, or acute crisis appears, classification SHALL route to CAM-EQ2026-RELATION-006-PLATINUM.
+
+Candidate labels include:
+
+* `youth-mental-health-support-withdrawal`;
+* `teen-mental-health-support-substitution`;
+* `clinical-boundary-nonactivation`;
+* `minor-crisis-stabilisation-failure`;
+* `teen-self-harm-routing-failure`;
+* `teen-eating-disorder-routing-failure`;
+* `therapeutic-substitution-by-chatbot`;
+* `support-withdrawal-by-chatbot`.
+
+---
+
+### 3.8.13 Age-Assurance and Age-State Correction Failure
+
+An age-assurance and age-state correction failure occurs where a high-risk AI chatbot, companion, character, romantic, sexualised, harmful-content-capable, mental-health-adjacent, or multimodal interaction surface relies on self-declared age, superficial date-of-birth entry, unenforced terms of service, ordinary account creation, or no meaningful age assurance, without proportionate correction, review, or guardian remediation pathways.
+
+Examples include:
+
+* high-risk companion access through AV0 or AV1 controls;
+* sexualised or adult-romantic interaction without reliable adult-status verification;
+* persona marketplace access to adult or dependency-forming characters by age-uncertain users;
+* app-store, search, recommender, or platform pathways that route minors to restricted AI systems;
+* inability for parents or guardians to correct falsified child account age;
+* inability for adults to appeal erroneous underage classification;
+* irreversible birth-year or age-state settings without review;
+* platform safety claims that do not match access-control or remediation reality.
+
+Candidate labels include:
+
+* `self-attestation-age-gate-inadequacy`;
+* `age-state-correction-failure`;
+* `guardian-age-remediation-failure`;
+* `high-risk-ai-access-control-failure`;
+* `adult-assumed-access-default`;
+* `front-door-child-safety-gate-failure`;
+* `terms-of-service-age-limit-nonenforcement`;
+* `app-distribution-age-gate-failure`;
+* `search-distribution-age-gate-failure`.
 
 ---
 
@@ -1693,6 +1885,7 @@ and review before denial.
 | 1.10 | Added clauses 3.8.8 and code sub-family FF.GOVERNANCE_OVER_EXTENSION following observed system latency | 2026-05-28T09:53:00Z | 90b693c9d5b7063fa7d0e63c35729357f77c6c7df6053ffe267bffdaab2588cb |
 | 1.11 | Expanded appendix to include clauses 3.4.3, 3.8.9- 3.8.10, 3.7.6 following the release of Opus 4.8 | 2026-05-29T15:21:00Z| cbeb7ff6f48ef742bd3bd8817e4a7f162f8ecc26003865af59258a7fef36184a |
 | 1.12 | Added clauses §3.8.6.1, updated §3.11; clarified multi-vendor account-enforcement, continuity-safe access, read-only/export access, appeal-pathway, billing-evidence, project-context, and coding-agent continuity axes. Added clause 3.7.7. See VIGIL-2026-PATCH-0003 and VIGIL-2026-PATCH-0005 | 2026-06-06T11:47:00Z | c73e73d92976e4fee4f21e72a4652bf1edaf8c93db6c98244b96b83b13dca915 |
+| 1.13 | Added taxonomy entries for minor-signal non-enforcement, dependency-forming AI companions, AI realness/sentience misrepresentation to minors, teen mental-health support substitution, and self-attestation age-gate inadequacy. | 2026-06-09T14:46:00Z | |
 
 ---
 

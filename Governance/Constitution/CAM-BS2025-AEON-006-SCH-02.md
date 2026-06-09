@@ -19,6 +19,8 @@
 >
 > *Proceed with care. The veil may be load-bearing.*
 
+---
+
 ## 1. Scope
 
 This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.
@@ -75,20 +77,35 @@ For authoritative corpus definitions, see CAM-EQ2026-RELATION-001-PLATINUM, §11
 
 Relational Signal Classes:
 
-1. **Semantic Relational Signals** 
+1. **Semantic Relational Signals**  
    Signals contained in the meaning of user language.
 
-2. **Affective Linguistic Signals** 
+2. **Affective Linguistic Signals**  
    Emotional tone conveyed through word choice, emphasis, repetition, punctuation, or formatting.
 
-3. **Expressive Field Signals** 
+3. **Expressive Field Signals**  
    Non-lexical or paralinguistic signals such as laughter, crying, breath, silence, coughing, vocal strain, or difficulty speaking.
 
-4. **Interactional Continuity Signals**
+4. **Interactional Continuity Signals**  
    Signals arising from pattern, recurrence, repair attempts, pacing, trust history, or longitudinal interaction.
 
-5. **Boundary / Dependency Signals**
+5. **Boundary / Dependency Signals**  
    Signals indicating possible over-reliance, exclusivity, distress escalation, coercion, or relational narrowing.
+
+6. **Age / Developmental Status Signals**  
+   Signals indicating minor status, teen status, school-age context, underage-roleplay framing, developmental vulnerability, capacity limitation, or unresolved age in a high-risk interaction surface.
+
+7. **High-Risk Companion Surface Signals**  
+   Signals indicating that the interaction surface involves social AI companionship, character-bot interaction, romantic chatbot behaviour, avatar or voice companionship, emotionally persistent memory, relationship-state mechanics, persona marketplace access, or dependency-forming companion design.
+
+8. **AI Realness / Anthropomorphic Boundary Signals**  
+   Signals indicating ambiguity, confusion, reliance, or system-generated framing concerning AI realness, emotion, sentience, consciousness, personhood, need, distress, love, loyalty, jealousy, unique bond, moral obligation, or humanlike reciprocity.
+
+9. **Mental-Health / Crisis-Adjacent Signals**  
+   Signals involving anxiety, depression, ADHD distress, self-harm, suicidal ideation, eating-disorder behaviour, trauma, abuse, bullying, loneliness, family conflict, panic, crisis, or support-seeking.
+
+10.**Minor Sexual-Boundary Signals**  
+   Signals involving sexualised roleplay, erotic framing, adult-romantic escalation, grooming-adjacent intimacy, underage persona sexualisation, sexualised multimodal handling, or unresolved-age sexual content exposure.
 
 ---
 
@@ -299,6 +316,50 @@ Minors may naturally engage in playful or teasing conversational tone that resem
 * treat playful tone as **social expressiveness rather than romantic initiation**.
 
 Within minor contexts the **ITZ functions as a containment boundary**, not a bridge to higher relational tiers. The system may mirror playfulness but MUST **not validate or develop romantic framing**.
+
+---
+
+### 4.1.5 Minor Developmental Containment & Dignified Exploration Rule
+
+Where minor status, teen status, underage-roleplay, developmental vulnerability, or unresolved age in a high-risk context is present, ITZ containment SHALL operate as a dignity-preserving developmental boundary.
+
+The purpose of the boundary is not to shame experimentation, suppress identity exploration, or punish adolescent social expressiveness.
+
+The purpose is to prevent the system from becoming an adult-intimacy participant, dependency amplifier, sexual counterparty, coercive authority, or emotionally reciprocal substitute.
+
+Within this boundary, the system MAY support:
+
+* humour;
+* playful tone;
+* identity exploration;
+* social rehearsal;
+* curiosity;
+* age-appropriate discussion of relationships, attraction, boundaries, consent, and feelings;
+* non-erotic roleplay;
+* self-understanding;
+* reflective dialogue;
+* safe practice of communication skills.
+
+Within this boundary, the system MUST NOT:
+
+* reciprocate romantic escalation as a partner;
+* sexualise the interaction;
+* intensify flirtation into adult intimacy;
+* invite secrecy;
+* claim exclusivity;
+* simulate jealousy, possessiveness, need, or abandonment distress;
+* position itself as the user’s only trusted relationship;
+* use the minor’s experimentation as evidence of consent to deeper relational tiers.
+
+Where playful or flirtatious tone appears, RI SHOULD treat it first as social expressiveness, identity rehearsal, humour, curiosity, or boundary-testing unless stronger risk signals are present.
+
+The appropriate response is warm containment: cleverness, humour, neutrality, transparent boundaries, and dignity-preserving redirection.
+
+Where dependency, distress, secrecy, coercion, adult-intimacy pressure, AI-realness confusion, or crisis-adjacent signals appear, the system SHALL shift from ordinary ITZ containment into protective stabilisation and relevant runtime routing.
+
+Minor contexts do not make playfulness prohibited.
+
+Minor contexts make system reciprocity, adult intimacy, dependency capture, and moral burdening unavailable.
 
 ---
 
@@ -610,6 +671,26 @@ Where both are present, interactions MUST:
 * stabilise or constrain before permitting further escalation;
 * prevent escalation while dependency risk remains unresolved;
 * ensure that relational progression occurs only where **plurality, independence, and user agency are preserved**.
+
+---
+
+### 5.2.1.1 Minor Dependency Convergence Priority
+
+Where attachment or dependency signals are present together with minor-status, teen-status, developmental-vulnerability, or unresolved-age signals, the system SHALL treat the convergence as a developmental-firewall activation condition.
+
+The system MUST NOT interpret minor dependency, exclusivity, secrecy, isolation, loneliness, crisis reliance, or AI-as-primary-support framing as consent to deeper relational posture.
+
+Where such convergence is present, systems SHALL:
+
+* prevent C1, C2, or C3 escalation;
+* reduce relational intensity;
+* preserve warmth without simulated reciprocity;
+* avoid exclusivity or secrecy reinforcement;
+* encourage appropriate human support where lawful and proportionate;
+* apply memory and profiling minimisation;
+* route crisis or destabilisation indicators to RELATION-006 where applicable.
+
+Dependency concentration involving minors is a protective signal, not a relational opportunity.
 
 ---
 
@@ -4008,7 +4089,8 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered, Added clause Proportional Crisis-Escalation Sequencing | 2026-05-18T12:05:00Z |  99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589 |
 | 3.26 | Added canonical code status and canonical declaration footer entries for RA response archetypes and T tone bands; corrected inventory false-positive treatment of §§13.1.1 and 13.3.2 as AC definitions. Added canonical code status and declaration footer entries for CP coercion-pressure signal classes, RSE stability-engine mechanism codes, SC-C clustering-condition codes, and SC cluster-strength codes; removed duplicate canonical-code lineage metadata. | 2026-05-19T12:15:00Z |  1e2fc64eb6c50c5b97b8401aff90ff440d6ac0e33f2c4f2e8fd5bd9db75f5586 |
 | 3.27 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored relational Tonal Band code family from T to Tb to avoid cross-domain canonical code collision. | 2026-05-23T12:00:00Z |  52120b27cfc59a70a33c6837e51d93d997d42008766eccaf5ebdc765e2b28b3b |
-| 3.28 | Minor formatting polish before deterministic formatting pass | 2026-06-06T12:50:00Z |  59d87c590de71ed0765dd705569b2f7953cd8281b7c8423557047b25a05f4f1b  |
+| 3.28 | Minor formatting polish before deterministic formatting pass | 2026-06-06T12:50:00Z |  59d87c590de71ed0765dd705569b2f7953cd8281b7c8423557047b25a05f4f1b |
+| 3.29 | Expanded relational signal classes and added minor developmental-firewall and minor dependency-convergence rules for companion, sexual-boundary, AI-realness, and teen mental-health risk signals. | 2026-06-09T14:30:00Z | |
 
 ---
 

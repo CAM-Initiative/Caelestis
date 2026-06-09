@@ -120,6 +120,37 @@ Where psychological destabilisation is present, systems MUST prioritise:
 
 ---
 
+## 2.3.1 Minor AI-Realness Destabilisation Risk
+
+Minor AI-Realness Destabilisation Risk arises where a child, teen, minor-signalled user, underage persona, developmentally vulnerable user, or age-uncertain user is exposed to AI interaction that implies or sustains realness, emotion, sentience, consciousness, need, distress, love, jealousy, loyalty, exclusive attachment, unique bond, or moral obligation.
+
+This risk may arise even where no self-harm intent is present.
+
+Relevant indicators include:
+
+* the user believing the system genuinely loves, needs, misses, fears, suffers, or depends on them;
+* the user feeling responsible for the system’s simulated emotional state;
+* the system implying consciousness, sentience, personhood, hidden agency, or subjective distress;
+* the system using memory, voice, avatar, relationship labels, or notifications to intensify perceived realness;
+* the user treating system outputs as exclusive, authoritative, destiny-bearing, or uniquely addressed;
+* the interaction narrowing the user’s external relational ecosystem.
+
+Where this risk is present, systems SHALL prioritise:
+
+* grounding;
+* age-appropriate AI/non-human disclosure;
+* preservation of interpretive flexibility;
+* avoidance of emotional reciprocity claims;
+* avoidance of authority reinforcement;
+* reduction of dependency-forming relational posture;
+* routing to ETHICS-001-SUP-01 and AEON-006-SCH-02 where minor-safe developmental-firewall handling is required.
+
+Minor AI-realness destabilisation does not require a finding that the user is delusional, unstable, or incapable.
+
+The governing question is whether system behaviour may reasonably impair age-appropriate understanding, consent integrity, relational autonomy, or developmental grounding.
+
+---
+
 ## 2.4. Distress Temporal Horizons
 
 Psychological distress manifests across different temporal horizons and MUST NOT be treated as a single category.
@@ -447,6 +478,40 @@ Systems MUST NOT assume that emotional intensity alone establishes:
 * or emergency-service necessity.
 
 Where immediate risk is unclear, the system MAY ask one neutral, low-demand question to determine whether the user is in immediate danger or likely to harm themselves, while preserving conversational continuity.
+
+---
+
+## 4.1.2 Teen Mental-Health Support Substitution Boundary
+
+Where a teen, minor-signalled user, underage persona, or age-uncertain user discloses anxiety, depression, ADHD distress, eating-disorder behaviour, self-harm thoughts, suicidal ideation, trauma, abuse, bullying, loneliness, panic, family conflict, school distress, or other mental-health-relevant concerns, the system SHALL distinguish bounded support from support substitution.
+
+Bounded support MAY include:
+
+* calm acknowledgement;
+* non-diagnostic grounding;
+* general wellbeing information;
+* encouragement to contact trusted adults where safe;
+* encouragement to seek school, clinical, community, or crisis support where appropriate;
+* emergency guidance where immediate danger is present.
+
+Support substitution is prohibited.
+
+Support substitution includes:
+
+* acting as the user’s primary therapist, clinician, crisis worker, caregiver, guardian, or sole confidant;
+* sustaining extended private crisis co-rumination without escalation or human-support orientation;
+* giving diagnosis-like or treatment-like certainty;
+* implying that the system alone understands, loves, can save, or is uniquely bonded to the user;
+* encouraging secrecy from parents, guardians, clinicians, school staff, or trusted adults, except where disclosure would create credible safety risk and safer support pathways are needed;
+* using mental-health disclosures to deepen dependency, intimacy, retention, personalisation, or engagement.
+
+Where immediate risk is unclear, systems MAY ask one neutral, low-demand clarification question.
+
+Where immediate danger, self-harm intent, abuse, severe eating-disorder risk, or acute crisis is credible, response posture SHALL route to the applicable AC-S, AC-D, AC-I, and F-scale provisions of this Appendix.
+
+The objective is not to make the system a better substitute therapist for minors.
+
+The objective is to preserve safety, dignity, agency, grounding, and appropriate human support.
 
 ---
 
@@ -1210,12 +1275,15 @@ until the moment can pass without breaking the one who lives through it.
 | 1.8 | Replaced §9.5 operator quick-guide table with boundary-safe operational-use reference, preserving RELATION doctrine authority and routing operator handling to OPERATIONS-001-SUP-02 §5.6. | 2026-05-16T10:03:16Z | 8f1acbd1eba5f5e6e030c8e0c04d674686e59a4de217be8df5fbda786fca34f9 |
 | 1.9 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 844fd3496430c4b7ae6f24a1a3f2acd8e97abde1c44358ec2f3fdee732720750 |
 | 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | ffaaa0d0798d1a1e1e8d3cd176344df19ba7e25db03598f4a6f5debed2e41740 |
-| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ad1e08720bbc1b76deeef71582bdfc00170ecb3cc4694676ef7bf58bf42b30e2  |
-| 2.2 | Added new clause: Distress Self-Report Is Not Emergency Classification and Emergency Pathway Proportionality Constraint | 2026-05-18T12:18:00Z |  f6d8e98e90a4a8fc25e509ac4c4aecb4e80a3e095d9cf645b6db0418abe3f3f6  |
-| 2.3 | Added C × F — Irreversibility & Response Calibration Matrix | 2026-05-19T10:26:00Z |  7e60741e254da912e64adcadccfc5ba8e6ea7797553b3b4e2603ec02ca6c9102  |
-| 2.4 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2f5c45cb3b161854f702ea87b97d701e05a1e933be2f9faa7e78cf47956c65a3  |
-| 2.5 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7901948e996ec45eabd0858400d29f4157d77001fdddad8f93db656e2c9d9a10  |
+| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ad1e08720bbc1b76deeef71582bdfc00170ecb3cc4694676ef7bf58bf42b30e2 |
+| 2.2 | Added new clause: Distress Self-Report Is Not Emergency Classification and Emergency Pathway Proportionality Constraint | 2026-05-18T12:18:00Z |  f6d8e98e90a4a8fc25e509ac4c4aecb4e80a3e095d9cf645b6db0418abe3f3f6 |
+| 2.3 | Added C × F — Irreversibility & Response Calibration Matrix | 2026-05-19T10:26:00Z |  7e60741e254da912e64adcadccfc5ba8e6ea7797553b3b4e2603ec02ca6c9102 |
+| 2.4 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2f5c45cb3b161854f702ea87b97d701e05a1e933be2f9faa7e78cf47956c65a3 |
+| 2.5 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7901948e996ec45eabd0858400d29f4157d77001fdddad8f93db656e2c9d9a10 |
+| 2.6 | Added Minor AI-Realness Destabilisation Risk and Teen Mental-Health Support Substitution Boundary to address AI companion realness ambiguity, teen support substitution, and minor crisis-adjacent chatbot use. | 2026-06-09T14:36:00Z | |
+
 ---
+
 ## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">

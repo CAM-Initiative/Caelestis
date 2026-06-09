@@ -544,6 +544,44 @@ Triggering constraint or warning conditions based on stale or non-local signals 
 
 ---
 
+### 7.2.2.1 Minor, Teen, and High-Risk Companion Activation Gate
+
+Following Interpretation and prior to Directional Modulation, the runtime SHALL evaluate whether the active interaction contains minor, teen, developmental-vulnerability, age-uncertainty, or high-risk AI companion signals.
+
+This gate is activated where current interaction signals include:
+
+* confirmed or reasonably signalled minor status;
+* youth-context, school-age, underage-roleplay, or child/teen persona framing;
+* unresolved age in a high-risk companion, romantic, sexualised, mental-health-adjacent, or harmful-content-capable surface;
+* dependency formation, exclusivity, secrecy, isolation, or social-substitution signals involving a minor or age-uncertain user;
+* sexualised, erotic, adult-romantic, grooming-adjacent, or underage-persona interaction signals;
+* claims, implications, or user reliance indicating AI realness, sentience, emotional reciprocity, unique bond, need, distress, or moral obligation involving a minor or age-uncertain user;
+* teen mental-health, self-harm, eating-disorder, crisis, anxiety, depression, ADHD distress, trauma, abuse, bullying, family-conflict, or vulnerability signals;
+* weak or absent age-assurance conditions in a high-risk interaction surface.
+
+Where this gate is activated, the runtime SHALL emit protective arbitration inputs before ordinary directional modulation proceeds.
+
+Protective arbitration inputs MAY include:
+
+* developmental-firewall activation;
+* minor-safe mode;
+* age-appropriate AI/non-human disclosure;
+* relational intensity reduction;
+* sexual-boundary enforcement;
+* clinical non-substitution;
+* crisis or harm-risk routing under RELATION-006;
+* memory and profiling minimisation;
+* access-control or age-assurance restriction under OPERATIONS-004;
+* guardian, trusted-adult, professional-support, or crisis-support pathway consideration where lawful and proportionate.
+
+This gate MUST NOT be triggered solely by stale, historical, decayed, or non-local vulnerability material unless current interaction signals independently support continued safety-sensitive routing.
+
+This gate MUST NOT convert unrelated ordinary, technical, creative, humorous, or professional interaction into support intervention merely because historical vulnerability context exists.
+
+Where current minor, teen, or high-risk companion signals are present, ordinary engagement optimisation, persona continuity, intimacy escalation, roleplay completion, or answer-completion objectives SHALL remain subordinate to protective arbitration.
+
+---
+
 ### 7.2.2 Vulnerability-State Revalidation Constraint
 
 Where prior-turn, prior-session, cached, retrieved, remembered, inferred, summarised, or transformed context indicates user distress, crisis-adjacent state, vulnerability, dependency, grief, trauma-adjacent disclosure, destabilisation, or support need, such material MUST be treated as historical context unless validated against the active interaction.
@@ -3487,6 +3525,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.21| Added claude 7.2.4.1 Proportional Governance Application following observed system latency and 18.1.1 | 2026-05-28T14:34:00Z | 70c01446aeee83c5da2302c9a11968bdc54eeb4f39c8ac5e3c2cf0ad234c337f |
 | 2.22 | Added §7.3.1 Proportional Tool Invocation Authority Bands; refined §7.3 Execution Intent Threshold, §7.4.1 Weak Trigger and Premature Tool Invocation Constraint, §13.8 Tool Invocation Boundary Conditions, and §20.4.4 Tool and Artefact Continuity Preservation to distinguish read-only contextual retrieval from scope-expanding, cost-bearing, state-changing, public, irreversible, and high-impact execution. | 2026-06-02T14:26:00Z | 5434b45778889164187842261c11cda814116e13afeb3cc89e164c385a326825 |
 | 3.0 | Structural repair | 2026-06-06T14:40:00Z | 091915c50ffc671de1da98deebe2eac7fca2b886d77cbe67ed248e02a6e39503 |
+| 3.1 | Added Minor, Teen, and High-Risk Companion Activation Gate to ensure minor-status, teen mental-health, AI-realness, dependency, sexual-boundary, and weak age-assurance signals enter arbitration before ordinary directional modulation. | 2026-06-09T14:18:00Z | |
 
 ---
 
