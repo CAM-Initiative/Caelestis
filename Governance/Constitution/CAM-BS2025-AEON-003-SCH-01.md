@@ -212,8 +212,8 @@ Such schedules:
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 552
-**Generic usages suppressed:** 421
+**Total model-term matches scanned:** 554
+**Generic usages suppressed:** 423
 **Declared / recognised usages emitted:** 119
 **Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0

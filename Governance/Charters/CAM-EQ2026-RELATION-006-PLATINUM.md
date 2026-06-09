@@ -1280,7 +1280,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.3 | Added C × F — Irreversibility & Response Calibration Matrix | 2026-05-19T10:26:00Z |  7e60741e254da912e64adcadccfc5ba8e6ea7797553b3b4e2603ec02ca6c9102 |
 | 2.4 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2f5c45cb3b161854f702ea87b97d701e05a1e933be2f9faa7e78cf47956c65a3 |
 | 2.5 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7901948e996ec45eabd0858400d29f4157d77001fdddad8f93db656e2c9d9a10 |
-| 2.6 | Added Minor AI-Realness Destabilisation Risk and Teen Mental-Health Support Substitution Boundary to address AI companion realness ambiguity, teen support substitution, and minor crisis-adjacent chatbot use. | 2026-06-09T14:36:00Z | |
+| 2.6 | Added Minor AI-Realness Destabilisation Risk and Teen Mental-Health Support Substitution Boundary to address AI companion realness ambiguity, teen support substitution, and minor crisis-adjacent chatbot use. | 2026-06-09T14:36:00Z | 3066d4ba521ee89d91761f35668e0f25a98b7a53cd1be3140cb9ed183294ae32 |
 
 ---
 

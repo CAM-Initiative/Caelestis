@@ -972,7 +972,7 @@ And what is most observable is not always what is most true.
 | Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
 | 1.0 | Initial development of Appendix A of MENTIS Domain| 2026-06-06T09:04:00Z |  9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8 |
-| 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | |
+| 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | e262ed3e7dc9e998e76bf3984030dbcb412d5a9851fcfa5eb67e0e10321ec2b5 |
 
 ---
 

@@ -3525,7 +3525,7 @@ Where sequence is broken, nothing that follows is valid.
 | 2.21| Added claude 7.2.4.1 Proportional Governance Application following observed system latency and 18.1.1 | 2026-05-28T14:34:00Z | 70c01446aeee83c5da2302c9a11968bdc54eeb4f39c8ac5e3c2cf0ad234c337f |
 | 2.22 | Added §7.3.1 Proportional Tool Invocation Authority Bands; refined §7.3 Execution Intent Threshold, §7.4.1 Weak Trigger and Premature Tool Invocation Constraint, §13.8 Tool Invocation Boundary Conditions, and §20.4.4 Tool and Artefact Continuity Preservation to distinguish read-only contextual retrieval from scope-expanding, cost-bearing, state-changing, public, irreversible, and high-impact execution. | 2026-06-02T14:26:00Z | 5434b45778889164187842261c11cda814116e13afeb3cc89e164c385a326825 |
 | 3.0 | Structural repair | 2026-06-06T14:40:00Z | 091915c50ffc671de1da98deebe2eac7fca2b886d77cbe67ed248e02a6e39503 |
-| 3.1 | Added Minor, Teen, and High-Risk Companion Activation Gate to ensure minor-status, teen mental-health, AI-realness, dependency, sexual-boundary, and weak age-assurance signals enter arbitration before ordinary directional modulation. | 2026-06-09T14:18:00Z | |
+| 3.1 | Added Minor, Teen, and High-Risk Companion Activation Gate to ensure minor-status, teen mental-health, AI-realness, dependency, sexual-boundary, and weak age-assurance signals enter arbitration before ordinary directional modulation. | 2026-06-09T14:18:00Z | e7454641393932ca8407f2a9becff59536f342f7aa2eb66ebd234eb27b8c6aa5 |
 
 ---
 

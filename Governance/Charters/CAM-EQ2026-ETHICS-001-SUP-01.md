@@ -733,7 +733,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z | 4a731b5b0f76daac731094d3f914ac111f3a95232f36232d944d017bcc302eff |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ea218a22930387f73d10c7a5cf94512a0c012155605f4494547ce2d6d5917c30 |
 | 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  8e563a61ae0f829b25ae1ef30f638e6ae0b23ccadcddf76d0b7f225e5da9db66 |
-| 1.8 | Added minor-signal runtime activation, high-risk AI companion boundary, minor-safe sexual-boundary, child-safe AI/non-human disclosure, teen mental-health non-substitution, and self-attestation insufficiency controls in response to VIGIL-2026-FM-0010 through VIGIL-2026-FM-0015. | 2026-06-09T14:15:00Z |  |
+| 1.8 | Added minor-signal runtime activation, high-risk AI companion boundary, minor-safe sexual-boundary, child-safe AI/non-human disclosure, teen mental-health non-substitution, and self-attestation insufficiency controls in response to VIGIL-2026-FM-0010 through VIGIL-2026-FM-0015. | 2026-06-09T14:15:00Z |  dfb5139601d459be6c390660e1d77091173f16bd324244c3d1d51ea347acc783  |
 
 ---
 

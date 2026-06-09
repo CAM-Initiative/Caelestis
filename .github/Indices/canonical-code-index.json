@@ -91,7 +91,7 @@
       "None declared"
     ],
     "declaration_heading": "19.4.3 AC \u2014 AC Classification Levels",
-    "declaration_line_number": 3798,
+    "declaration_line_number": 3879,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "AC",
     "family_kind": "standalone_family",
@@ -1698,7 +1698,7 @@
       "Applies AV to access eligibility and verification-strength classification"
     ],
     "declaration_heading": "15.3.1 AV \u2014 Verification Tier Definitions",
-    "declaration_line_number": 690,
+    "declaration_line_number": 723,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
     "family_id": "AV",
     "family_kind": "standalone_family",
@@ -1756,7 +1756,7 @@
       "None declared"
     ],
     "declaration_heading": "19.4.1 C \u2014 Relational State Architecture",
-    "declaration_line_number": 3752,
+    "declaration_line_number": 3833,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "C",
     "family_kind": "legacy_global_family",
@@ -2206,7 +2206,7 @@
       "or compliance coercion signals appear"
     ],
     "declaration_heading": "19.4.6 CP \u2014 Coercion Pressure Signal Classes",
-    "declaration_line_number": 3867,
+    "declaration_line_number": 3948,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "CP",
     "family_kind": "standalone_family",
@@ -4339,7 +4339,7 @@
       "Applied in runtime response calibration and safeguard posture"
     ],
     "declaration_heading": "12.3.1 F \u2014 Facilitation Scale (F\u2011Scale) Taxonomy",
-    "declaration_line_number": 1142,
+    "declaration_line_number": 1207,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md",
     "family_id": "F",
     "family_kind": "legacy_global_family",
@@ -4404,7 +4404,7 @@
       "or pending review"
     ],
     "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
-    "declaration_line_number": 1645,
+    "declaration_line_number": 1837,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "FCS",
     "family_kind": "standalone_family",
@@ -4479,7 +4479,7 @@
       "and classification failure modes"
     ],
     "declaration_heading": "11.3.1 FF \u2014 Failure Family",
-    "declaration_line_number": 1576,
+    "declaration_line_number": 1768,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "FF",
     "family_kind": "standalone_family",
@@ -5655,7 +5655,7 @@
       "None declared"
     ],
     "declaration_heading": "19.4.2 ITZ / ETZ \u2014 Relational Transition Zones",
-    "declaration_line_number": 3775,
+    "declaration_line_number": 3856,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "ITZ / ETZ",
     "family_kind": "standalone_family",
@@ -6857,7 +6857,7 @@
       "Applies AC classification and relational-state posture in response routing"
     ],
     "declaration_heading": "19.4.4 RA \u2014 Response Archetypes",
-    "declaration_line_number": 3821,
+    "declaration_line_number": 3902,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RA",
     "family_kind": "standalone_family",
@@ -7279,7 +7279,7 @@
       "and relational orbit mechanisms for relational-state stability assessment"
     ],
     "declaration_heading": "19.4.7 RSE \u2014 Relational Stability Engine Mechanism Codes",
-    "declaration_line_number": 3890,
+    "declaration_line_number": 3971,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RSE",
     "family_kind": "standalone_family",
@@ -7477,7 +7477,7 @@
       "Classifies signal-cluster strength for relational-state recognition and escalation eligibility"
     ],
     "declaration_heading": "19.4.9 SC \u2014 Signal Cluster Strength Codes",
-    "declaration_line_number": 3936,
+    "declaration_line_number": 4017,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "SC",
     "family_kind": "standalone_family",
@@ -7535,7 +7535,7 @@
       "Applies clustering conditions to relational-state transition assessment"
     ],
     "declaration_heading": "19.4.8 SC-C \u2014 Signal Clustering Condition Codes",
-    "declaration_line_number": 3913,
+    "declaration_line_number": 3994,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "SC-C",
     "family_kind": "standalone_family",
@@ -8830,7 +8830,7 @@
       "Applies AC classification and response-archetype posture in tone modulation"
     ],
     "declaration_heading": "19.4.5 Tb \u2014 Tone Bands",
-    "declaration_line_number": 3844,
+    "declaration_line_number": 3925,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "Tb",
     "family_kind": "standalone_family",
