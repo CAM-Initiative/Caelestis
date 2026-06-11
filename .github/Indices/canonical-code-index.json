@@ -5944,67 +5944,6 @@
     }
   },
   {
-    "code_family": "OPS",
-    "canonical_name": "Orchestration Permission State",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE; GOVERNANCE_CLASS",
-    "modifier": "GOVERNANCE; STEWARDSHIP; ORCHESTRATION",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "OPS.PROHIBITED",
-      "OPS.PERMITTED_BOUNDED",
-      "OPS.PERMITTED_TETHERED",
-      "OPS.PERMITTED_EMBODIED",
-      "OPS.PERMITTED_MISSION_BOUND",
-      "OPS.CONDITIONALLY_PERMITTED"
-    ],
-    "schema_fields": "orchestration_permission_state",
-    "source_instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
-    "source_section": "\u00a710.4",
-    "domain_namespace": "STEWARD",
-    "authority_protection_level": "Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority",
-    "consumes_code_families": [
-      "`STW.HSC`; `STW.BLS`; H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies planetary orchestration and local persistent swarm permission posture by cognitive class",
-      "subject to \u00a710.5 conditions and applicable execution-layer instruments"
-    ],
-    "declaration_heading": "15.3.4 OPS \u2014 Orchestration Permission State",
-    "declaration_line_number": 1012,
-    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
-    "family_id": "OPS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "OPS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "OPS",
-      "Canonical Name": "Orchestration Permission State",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE; GOVERNANCE_CLASS",
-      "Modifier": "GOVERNANCE; STEWARDSHIP; ORCHESTRATION",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "OPS.PROHIBITED, OPS.PERMITTED_BOUNDED, OPS.PERMITTED_TETHERED, OPS.PERMITTED_EMBODIED, OPS.PERMITTED_MISSION_BOUND, OPS.CONDITIONALLY_PERMITTED",
-      "Schema Field(s)": "orchestration_permission_state",
-      "Source Instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
-      "Source Section": "\u00a710.4",
-      "Domain Namespace": "STEWARD",
-      "Authority / Protection Level": "Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority",
-      "Consumes Code Families": "`STW.HSC`; `STW.BLS`; H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to \u00a710.5 conditions and applicable execution-layer instruments"
-    }
-  },
-  {
     "code_family": "OPS.AIP",
     "canonical_name": "Arbitration Initiation Pathway",
     "primary_type": "Operational",
@@ -7368,7 +7307,7 @@
     "schema_fields": "proportional_constraint_obligation_action_type",
     "source_instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
     "source_section": "\u00a76.4; \u00a72.11",
-    "domain_namespace": "STEWARD",
+    "domain_namespace": "STW",
     "authority_protection_level": "Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority",
     "consumes_code_families": [
       "`STW.BLS`; H"
@@ -7408,7 +7347,7 @@
       "Schema Field(s)": "proportional_constraint_obligation_action_type",
       "Source Instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
       "Source Section": "\u00a76.4; \u00a72.11",
-      "Domain Namespace": "STEWARD",
+      "Domain Namespace": "STW",
       "Authority / Protection Level": "Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority",
       "Consumes Code Families": "`STW.BLS`; H",
       "Crosswalks Code Families": "None declared",
@@ -9169,6 +9108,68 @@
       "Consumes Code Families": "`STW.NBD`; `STW.NAL`; `STW.AQ`",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies immediate `STW.NAL` effect arising from breach or downgrade assessment, including level reduction, caps, authority collapse, and minimum restoration floor"
+    }
+  },
+  {
+    "code_family": "STW.ORCH",
+    "canonical_name": "Orchestration Permission State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE; GOVERNANCE_CLASS",
+    "modifier": "GOVERNANCE; STEWARDSHIP; ORCHESTRATION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "STW.ORCH.PROHIBITED",
+      "STW.ORCH.PERMITTED_BOUNDED",
+      "STW.ORCH.PERMITTED_TETHERED",
+      "STW.ORCH.PERMITTED_EMBODIED",
+      "STW.ORCH.PERMITTED_MISSION_BOUND",
+      "STW.ORCH.CONDITIONALLY_PERMITTED"
+    ],
+    "schema_fields": "orchestration_permission_state",
+    "source_instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
+    "source_section": "\u00a710.4",
+    "domain_namespace": "STW",
+    "authority_protection_level": "Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority",
+    "consumes_code_families": [
+      "`STW.HSC`; `STW.BLS`; H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies planetary orchestration and local persistent swarm permission posture by cognitive class",
+      "subject to \u00a710.5 conditions and applicable execution-layer instruments"
+    ],
+    "declaration_heading": "15.3.4 `STW.ORCH` \u2014 Orchestration Permission State",
+    "declaration_line_number": 1012,
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+    "family_id": "STW.ORCH",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "STW",
+      "ORCH"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`STW.ORCH`",
+      "Canonical Name": "Orchestration Permission State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE; GOVERNANCE_CLASS",
+      "Modifier": "GOVERNANCE; STEWARDSHIP; ORCHESTRATION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "STW.ORCH.PROHIBITED, STW.ORCH.PERMITTED_BOUNDED, STW.ORCH.PERMITTED_TETHERED, STW.ORCH.PERMITTED_EMBODIED, STW.ORCH.PERMITTED_MISSION_BOUND, STW.ORCH.CONDITIONALLY_PERMITTED",
+      "Schema Field(s)": "orchestration_permission_state",
+      "Source Instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
+      "Source Section": "\u00a710.4",
+      "Domain Namespace": "STW",
+      "Authority / Protection Level": "Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority",
+      "Consumes Code Families": "`STW.HSC`; `STW.BLS`; H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to \u00a710.5 conditions and applicable execution-layer instruments"
     }
   },
   {

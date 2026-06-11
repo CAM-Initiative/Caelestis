@@ -1339,11 +1339,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "2.8",
-      "HASH": "8b01bac38eb16b145a830f7a8861b335c11ca9dcdf8acddff9f1795d596474e1",
-      "pinned_sha": "63e383d7b0404f30411d8e778aada039fed8e186",
-      "updated_at": "2026-06-07T14:54:52Z",
-      "last_updated_utc": "2026-06-07T14:54:52Z"
+      "version": "2.8.1",
+      "HASH": "9ba5caaf08487fe21d550050b11edbf2f257b773544e3ffc1962beb2c59981a4",
+      "pinned_sha": "f857b70bb10d053b4ac34f9fba6dc66eb9b925c8",
+      "updated_at": "2026-06-11T14:58:51Z",
+      "last_updated_utc": "2026-06-11T14:58:51Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-003-PLATINUM",
