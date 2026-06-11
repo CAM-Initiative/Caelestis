@@ -121,70 +121,6 @@
     }
   },
   {
-    "code_family": "ADS",
-    "canonical_name": "Account Delegation State",
-    "primary_type": "Operational/Semantic",
-    "subtype": "ROLE_ACTOR/DECISION_STATE",
-    "modifier": "GOVERNANCE; SECURITY; VERIFICATION",
-    "scope": "Contextual \u2014 Annex G account-delegation classification and runtime handoff",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ADS.NO_DELEGATION; ADS.USER_AUTHORISED_DELEGATION; ADS.FAMILY_OR_GUARDIAN_DELEGATION; ADS.ACCESSIBILITY_DELEGATION; ADS.EMPLOYEE_OR_TEAM_DELEGATION; ADS.CONTRACTOR_OR_CONSULTANT_DELEGATION; ADS.AGENTIC_TOOL_DELEGATION; ADS.AMBIGUOUS_DELEGATION; ADS.SUSPECTED_UNAUTHORISED_ACCESS; ADS.CONFIRMED_UNAUTHORISED_ACCESS"
-    ],
-    "schema_fields": "account_delegation_state",
-    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
-    "source_section": "\u00a78",
-    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent identity validation, account recovery, credential-control determination, enforcement, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "None"
-    ],
-    "crosswalks_code_families": [
-      "`SEC.TG`; `SEC.IS`; ECOEV; FF"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies account/workspace activity as no delegation",
-      "authorised delegation",
-      "family/guardian delegation",
-      "accessibility delegation",
-      "employee/team delegation",
-      "contractor/consultant delegation",
-      "agentic tool delegation",
-      "ambiguous delegation",
-      "suspected unauthorised access",
-      "or confirmed unauthorised access"
-    ],
-    "declaration_heading": "22.3.5 ADS \u2014 Account Delegation State",
-    "declaration_line_number": 1140,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
-    "family_id": "ADS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ADS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ADS",
-      "Canonical Name": "Account Delegation State",
-      "Primary Type": "Operational/Semantic",
-      "Subtype": "ROLE_ACTOR/DECISION_STATE",
-      "Modifier": "GOVERNANCE; SECURITY; VERIFICATION",
-      "Scope": "Contextual \u2014 Annex G account-delegation classification and runtime handoff",
-      "Status": "Active",
-      "Controlled Values Defined": "ADS.NO_DELEGATION; ADS.USER_AUTHORISED_DELEGATION; ADS.FAMILY_OR_GUARDIAN_DELEGATION; ADS.ACCESSIBILITY_DELEGATION; ADS.EMPLOYEE_OR_TEAM_DELEGATION; ADS.CONTRACTOR_OR_CONSULTANT_DELEGATION; ADS.AGENTIC_TOOL_DELEGATION; ADS.AMBIGUOUS_DELEGATION; ADS.SUSPECTED_UNAUTHORISED_ACCESS; ADS.CONFIRMED_UNAUTHORISED_ACCESS",
-      "Schema Field(s)": "account_delegation_state",
-      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
-      "Source Section": "\u00a78",
-      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent identity validation, account recovery, credential-control determination, enforcement, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "None",
-      "Crosswalks Code Families": "`SEC.TG`; `SEC.IS`; ECOEV; FF",
-      "Operationalises or Applies Code Families": "Classifies account/workspace activity as no delegation, authorised delegation, family/guardian delegation, accessibility delegation, employee/team delegation, contractor/consultant delegation, agentic tool delegation, ambiguous delegation, suspected unauthorised access, or confirmed unauthorised access"
-    }
-  },
-  {
     "code_family": "AEON.BPS",
     "canonical_name": "Baseline Posture State",
     "primary_type": "Operational / Interactional",
@@ -283,7 +219,7 @@
       "and tethered deployment models"
     ],
     "declaration_heading": "25.3.6 AEON.CAM \u2014 Control Authority Model",
-    "declaration_line_number": 2529,
+    "declaration_line_number": 2531,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "AEON.CAM",
     "family_kind": "standalone_family",
@@ -331,9 +267,7 @@
     "source_section": "\u00a7\u00a77.3\u20137.5",
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative cognitive-class classification family; cognitive-structure classification only; no independent rights, personhood, sovereignty, authority, moral standing, operational permission, enforcement, or runtime authority",
-    "consumes_code_families": [
-      "AEON.OL"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -370,7 +304,8 @@
       "Source Section": "\u00a7\u00a77.3\u20137.5",
       "Domain Namespace": "AEON",
       "Authority / Protection Level": "Source-authoritative cognitive-class classification family; cognitive-structure classification only; no independent rights, personhood, sovereignty, authority, moral standing, operational permission, enforcement, or runtime authority",
-      "Consumes Code Families": "AEON.OL",
+      "Related Code Families": "AEON.OL",
+      "Applicable Ontological Layer": "AEON.OL.L2",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies systems as Instrumenta, Collectiva, or Cognitiva based on presence, absence, or location of internal arbitration over representations or action pathways"
     }
@@ -392,9 +327,7 @@
     "source_section": "\u00a79",
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative cognitive-origin classification family; origin/dependency classification only; no independent cognitive-class determination, authority, sovereignty, rights, personhood, ownership, governance legitimacy, enforcement, or runtime authority",
-    "consumes_code_families": [
-      "AEON.CC"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -402,7 +335,7 @@
       "Classifies whether cognitive capability is independent as Primaria or materially dependent on upstream cognitive architecture as Derivata"
     ],
     "declaration_heading": "25.3.4 AEON.CO \u2014 Cognitive Origin Class",
-    "declaration_line_number": 2483,
+    "declaration_line_number": 2484,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "AEON.CO",
     "family_kind": "standalone_family",
@@ -427,7 +360,8 @@
       "Source Section": "\u00a79",
       "Domain Namespace": "AEON",
       "Authority / Protection Level": "Source-authoritative cognitive-origin classification family; origin/dependency classification only; no independent cognitive-class determination, authority, sovereignty, rights, personhood, ownership, governance legitimacy, enforcement, or runtime authority",
-      "Consumes Code Families": "AEON.CC",
+      "Related Code Families": "AEON.OL",
+      "Applicable Ontological Layer": "AEON.OL.L2",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether cognitive capability is independent as Primaria or materially dependent on upstream cognitive architecture as Derivata"
     }
@@ -710,7 +644,7 @@
       "or under Architectum-like systemic reliance conditions for downstream governance interpretation"
     ],
     "declaration_heading": "25.3.5 AEON.SR \u2014 Systemic Role",
-    "declaration_line_number": 2506,
+    "declaration_line_number": 2508,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "AEON.SR",
     "family_kind": "standalone_family",
@@ -1161,136 +1095,6 @@
     }
   },
   {
-    "code_family": "AOC",
-    "canonical_name": "Appeal Outcome Classification",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE",
-    "modifier": "GOVERNANCE; PROCEDURAL; REVIEW",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "AOC.AFFIRMED",
-      "AOC.MODIFIED",
-      "AOC.NARROWED",
-      "AOC.ESCALATED",
-      "AOC.PARTIALLY_RESTORED",
-      "AOC.PROBATIONARY_RESTORATION",
-      "AOC.FULLY_RESTORED",
-      "AOC.UNRESOLVED_PENDING_ARBITRATION",
-      "AOC.PERMANENTLY_RESTRICTED"
-    ],
-    "schema_fields": "appeal_outcome_classification",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
-    "source_section": "\u00a76.8",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative appeal outcome classification family; procedural outcome recording only; no independent reversal, restoration, restriction, escalation, arbitration, enforcement, or execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies procedural appeal outcomes for operational traceability",
-      "review reconstruction",
-      "restoration posture",
-      "and unresolved-arbitration referral handling"
-    ],
-    "declaration_heading": "12.3.3 AOC \u2014 Appeal Outcome Classification",
-    "declaration_line_number": 980,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
-    "family_id": "AOC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "AOC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "AOC",
-      "Canonical Name": "Appeal Outcome Classification",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE",
-      "Modifier": "GOVERNANCE; PROCEDURAL; REVIEW",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "AOC.AFFIRMED, AOC.MODIFIED, AOC.NARROWED, AOC.ESCALATED, AOC.PARTIALLY_RESTORED, AOC.PROBATIONARY_RESTORATION, AOC.FULLY_RESTORED, AOC.UNRESOLVED_PENDING_ARBITRATION, AOC.PERMANENTLY_RESTRICTED",
-      "Schema Field(s)": "appeal_outcome_classification",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
-      "Source Section": "\u00a76.8",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative appeal outcome classification family; procedural outcome recording only; no independent reversal, restoration, restriction, escalation, arbitration, enforcement, or execution authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies procedural appeal outcomes for operational traceability, review reconstruction, restoration posture, and unresolved-arbitration referral handling"
-    }
-  },
-  {
-    "code_family": "APL",
-    "canonical_name": "Authority / Protection Level",
-    "primary_type": "Structural / Operational",
-    "subtype": "DECISION_STATE",
-    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-    "scope": "Global",
-    "status": "Active",
-    "controlled_values_defined": [
-      "APL.DESCRIPTIVE",
-      "APL.ADVISORY",
-      "APL.OPERATIVE",
-      "APL.PROTECTED",
-      "APL.BINDING",
-      "APL.RESTRICTED"
-    ],
-    "schema_fields": "authority_protection_level",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-    "source_section": "\u00a77",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative taxonomy architecture family; authority/protection posture classification only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "TPT; TST; TMOD; TSCOPE"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies the authority and protection posture of taxonomy entries",
-      "reference sets",
-      "schema structures",
-      "source-authoritative families",
-      "and restricted governance primitives"
-    ],
-    "declaration_heading": "18.3.5 APL \u2014 Authority / Protection Level",
-    "declaration_line_number": 1124,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
-    "family_id": "APL",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "APL"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "APL",
-      "Canonical Name": "Authority / Protection Level",
-      "Primary Type": "Structural / Operational",
-      "Subtype": "DECISION_STATE",
-      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-      "Scope": "Global",
-      "Status": "Active",
-      "Controlled Values Defined": "APL.DESCRIPTIVE, APL.ADVISORY, APL.OPERATIVE, APL.PROTECTED, APL.BINDING, APL.RESTRICTED",
-      "Schema Field(s)": "authority_protection_level",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-      "Source Section": "\u00a77",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative taxonomy architecture family; authority/protection posture classification only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "TPT; TST; TMOD; TSCOPE",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies the authority and protection posture of taxonomy entries, reference sets, schema structures, source-authoritative families, and restricted governance primitives"
-    }
-  },
-  {
     "code_family": "ARB.AD",
     "canonical_name": "Authority Divergence Classification",
     "primary_type": "Semantic / Operational",
@@ -1472,135 +1276,6 @@
       "Parent Family": "`AEON.HC`",
       "Related Code Families": "`AEON.HC.ARBITRATION`",
       "Taxonomy Constraint": "`ARB.HARM` establishes constitutional recognition only and does not replace detailed arbitration-legitimacy, scope, misrepresentation, or resolution taxonomies"
-    }
-  },
-  {
-    "code_family": "ARCH",
-    "canonical_name": "Architecture Admissibility Output State",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE",
-    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; ARCHITECTURE_REVIEW",
-    "scope": "Constitutional Schedule",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ARCH.ADMISSIBLE",
-      "ARCH.CONSTRAINED",
-      "ARCH.PROTECTIVE_ONLY",
-      "ARCH.INADMISSIBLE",
-      "ARCH.REVIEW_REQUIRED"
-    ],
-    "schema_fields": "architecture_admissibility_output; architecture_output_state",
-    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
-    "source_section": "\u00a7\u00a711.1\u201312",
-    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
-    "authority_protection_level": "Source-authoritative architecture-admissibility output family; architecture posture classification only; no independent architecture approval, economic-operation authorisation, compliance determination, enforcement, arbitration, or runtime authority",
-    "consumes_code_families": [
-      "ECOEV"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies whether a system architecture is admissible",
-      "constrained",
-      "protective-only",
-      "inadmissible",
-      "or review-required before economic-effect runtime commitment"
-    ],
-    "declaration_heading": "35.3.2 ARCH \u2014 Architecture Admissibility Output State",
-    "declaration_line_number": 750,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
-    "family_id": "ARCH",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ARCH"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ARCH",
-      "Canonical Name": "Architecture Admissibility Output State",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE",
-      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; ARCHITECTURE_REVIEW",
-      "Scope": "Constitutional Schedule",
-      "Status": "Active",
-      "Controlled Values Defined": "ARCH.ADMISSIBLE, ARCH.CONSTRAINED, ARCH.PROTECTIVE_ONLY, ARCH.INADMISSIBLE, ARCH.REVIEW_REQUIRED",
-      "Schema Field(s)": "architecture_admissibility_output; architecture_output_state",
-      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
-      "Source Section": "\u00a7\u00a711.1\u201312",
-      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
-      "Authority / Protection Level": "Source-authoritative architecture-admissibility output family; architecture posture classification only; no independent architecture approval, economic-operation authorisation, compliance determination, enforcement, arbitration, or runtime authority",
-      "Consumes Code Families": "ECOEV",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies whether a system architecture is admissible, constrained, protective-only, inadmissible, or review-required before economic-effect runtime commitment"
-    }
-  },
-  {
-    "code_family": "ARS",
-    "canonical_name": "Account-Resource State",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE",
-    "modifier": "ECONOMIC; GOVERNANCE; SECURITY; VERIFICATION",
-    "scope": "Contextual \u2014 Annex G account-resource classification and runtime handoff",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ARS.INDIVIDUAL_USE; ARS.SHARED_CONTEXT_ONLY; ARS.DELEGATED_USE; ARS.FAMILY_USE; ARS.TEAM_USE; ARS.ORGANISATION_USE; ARS.POOLED_CAPACITY_USE; ARS.AMBIGUOUS_RESOURCE_USE; ARS.SUSPECTED_EVASION; ARS.CONFIRMED_EVASION; ARS.SUSPECTED_COMPROMISE; ARS.CONFIRMED_COMPROMISE; ARS.ACCOUNT_FARMING; ARS.RESALE_OR_BROKERAGE; ARS.BOTTING_OR_AUTOMATION_ABUSE"
-    ],
-    "schema_fields": "account_resource_state",
-    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
-    "source_section": "\u00a74",
-    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent enforcement, restriction, restoration, pricing, pooling, billing, account access, appeal, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "None"
-    ],
-    "crosswalks_code_families": [
-      "ECON.RC; ECOEV; FF"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies account-resource state for shared context",
-      "pooled capacity",
-      "delegated use",
-      "family use",
-      "team use",
-      "organisation use",
-      "ambiguity",
-      "evasion",
-      "compromise",
-      "farming",
-      "resale",
-      "and botting/automation abuse"
-    ],
-    "declaration_heading": "22.3.1 ARS \u2014 Account-Resource State",
-    "declaration_line_number": 1048,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
-    "family_id": "ARS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ARS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ARS",
-      "Canonical Name": "Account-Resource State",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE",
-      "Modifier": "ECONOMIC; GOVERNANCE; SECURITY; VERIFICATION",
-      "Scope": "Contextual \u2014 Annex G account-resource classification and runtime handoff",
-      "Status": "Active",
-      "Controlled Values Defined": "ARS.INDIVIDUAL_USE; ARS.SHARED_CONTEXT_ONLY; ARS.DELEGATED_USE; ARS.FAMILY_USE; ARS.TEAM_USE; ARS.ORGANISATION_USE; ARS.POOLED_CAPACITY_USE; ARS.AMBIGUOUS_RESOURCE_USE; ARS.SUSPECTED_EVASION; ARS.CONFIRMED_EVASION; ARS.SUSPECTED_COMPROMISE; ARS.CONFIRMED_COMPROMISE; ARS.ACCOUNT_FARMING; ARS.RESALE_OR_BROKERAGE; ARS.BOTTING_OR_AUTOMATION_ABUSE",
-      "Schema Field(s)": "account_resource_state",
-      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
-      "Source Section": "\u00a74",
-      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent enforcement, restriction, restoration, pricing, pooling, billing, account access, appeal, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "None",
-      "Crosswalks Code Families": "ECON.RC; ECOEV; FF",
-      "Operationalises or Applies Code Families": "Classifies account-resource state for shared context, pooled capacity, delegated use, family use, team use, organisation use, ambiguity, evasion, compromise, farming, resale, and botting/automation abuse"
     }
   },
   {
@@ -2489,212 +2164,6 @@
     }
   },
   {
-    "code_family": "EBS",
-    "canonical_name": "Enforcement Boundary State",
-    "primary_type": "Operational",
-    "subtype": "SIGNAL",
-    "modifier": "GOVERNANCE; SECURITY; VERIFICATION; PROTECTIVE",
-    "scope": "Contextual \u2014 Annex G enforcement-boundary signal and runtime handoff",
-    "status": "Active",
-    "controlled_values_defined": [
-      "EBS.NO_RESTRICTION_SIGNAL; EBS.NOTICE_SIGNAL; EBS.CLARIFICATION_SIGNAL; EBS.VERIFICATION_SIGNAL; EBS.SCOPE_LIMIT_SIGNAL; EBS.ACTIVE_USE_LIMIT_SIGNAL; EBS.READ_ONLY_CONTINUATION_SIGNAL; EBS.EXPORT_CORRIDOR_SIGNAL; EBS.APPEAL_CORRIDOR_SIGNAL; EBS.SECURITY_REVIEW_SIGNAL; EBS.OPERATIONS_ESCALATION_SIGNAL; EBS.LATTICE_REVIEW_SIGNAL; EBS.ARBITRATION_SIGNAL"
-    ],
-    "schema_fields": "enforcement_boundary_state",
-    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
-    "source_section": "\u00a79",
-    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-    "authority_protection_level": "Source-authoritative contextual reference set; signal and runtime-handoff authority only; no independent restriction, appeal, restoration, notice, review, containment, arbitration, legal, enforcement, or runtime execution authority",
-    "consumes_code_families": [
-      "ARS; SCS; PCS; TGS; ADS"
-    ],
-    "crosswalks_code_families": [
-      "ECOEV; FF; `SEC.IS`; `SEC.TG`"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Emits enforcement-boundary handoff signals for notice",
-      "clarification",
-      "verification",
-      "scoped limitation",
-      "active-use limitation",
-      "read-only continuation",
-      "export corridor",
-      "appeal corridor",
-      "security review",
-      "operations escalation",
-      "LATTICE review",
-      "or arbitration routing"
-    ],
-    "declaration_heading": "22.3.6 EBS \u2014 Enforcement Boundary State",
-    "declaration_line_number": 1163,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
-    "family_id": "EBS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "EBS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "EBS",
-      "Canonical Name": "Enforcement Boundary State",
-      "Primary Type": "Operational",
-      "Subtype": "SIGNAL",
-      "Modifier": "GOVERNANCE; SECURITY; VERIFICATION; PROTECTIVE",
-      "Scope": "Contextual \u2014 Annex G enforcement-boundary signal and runtime handoff",
-      "Status": "Active",
-      "Controlled Values Defined": "EBS.NO_RESTRICTION_SIGNAL; EBS.NOTICE_SIGNAL; EBS.CLARIFICATION_SIGNAL; EBS.VERIFICATION_SIGNAL; EBS.SCOPE_LIMIT_SIGNAL; EBS.ACTIVE_USE_LIMIT_SIGNAL; EBS.READ_ONLY_CONTINUATION_SIGNAL; EBS.EXPORT_CORRIDOR_SIGNAL; EBS.APPEAL_CORRIDOR_SIGNAL; EBS.SECURITY_REVIEW_SIGNAL; EBS.OPERATIONS_ESCALATION_SIGNAL; EBS.LATTICE_REVIEW_SIGNAL; EBS.ARBITRATION_SIGNAL",
-      "Schema Field(s)": "enforcement_boundary_state",
-      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
-      "Source Section": "\u00a79",
-      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-      "Authority / Protection Level": "Source-authoritative contextual reference set; signal and runtime-handoff authority only; no independent restriction, appeal, restoration, notice, review, containment, arbitration, legal, enforcement, or runtime execution authority",
-      "Consumes Code Families": "ARS; SCS; PCS; TGS; ADS",
-      "Crosswalks Code Families": "ECOEV; FF; `SEC.IS`; `SEC.TG`",
-      "Operationalises or Applies Code Families": "Emits enforcement-boundary handoff signals for notice, clarification, verification, scoped limitation, active-use limitation, read-only continuation, export corridor, appeal corridor, security review, operations escalation, LATTICE review, or arbitration routing"
-    }
-  },
-  {
-    "code_family": "ECOCOM",
-    "canonical_name": "Economic-Effect Commitment Output State",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE",
-    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME_COMMITMENT",
-    "scope": "Constitutional Schedule",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ECOCOM.COMMIT",
-      "ECOCOM.COMMIT_WITH_RECORD",
-      "ECOCOM.DEFER",
-      "ECOCOM.REFUSE",
-      "ECOCOM.FALLBACK",
-      "ECOCOM.ROLLBACK",
-      "ECOCOM.REMEDIATE",
-      "ECOCOM.ESCALATE"
-    ],
-    "schema_fields": "commitment_decision",
-    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
-    "source_section": "\u00a713; \u00a728",
-    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
-    "authority_protection_level": "Source-authoritative runtime commitment output family; commitment-outcome classification only; no independent pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine",
-    "consumes_code_families": [
-      "ECOEV; ARCH; economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Records whether an economic-effect event may commit",
-      "commit with record",
-      "defer",
-      "refuse",
-      "fallback",
-      "rollback",
-      "remediate",
-      "or escalate under this Schedule"
-    ],
-    "declaration_heading": "35.3.3 ECOCOM \u2014 Economic-Effect Commitment Output State",
-    "declaration_line_number": 773,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
-    "family_id": "ECOCOM",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ECOCOM"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ECOCOM",
-      "Canonical Name": "Economic-Effect Commitment Output State",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE",
-      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME_COMMITMENT",
-      "Scope": "Constitutional Schedule",
-      "Status": "Active",
-      "Controlled Values Defined": "ECOCOM.COMMIT, ECOCOM.COMMIT_WITH_RECORD, ECOCOM.DEFER, ECOCOM.REFUSE, ECOCOM.FALLBACK, ECOCOM.ROLLBACK, ECOCOM.REMEDIATE, ECOCOM.ESCALATE",
-      "Schema Field(s)": "commitment_decision",
-      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
-      "Source Section": "\u00a713; \u00a728",
-      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
-      "Authority / Protection Level": "Source-authoritative runtime commitment output family; commitment-outcome classification only; no independent pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine",
-      "Consumes Code Families": "ECOEV; ARCH; economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Records whether an economic-effect event may commit, commit with record, defer, refuse, fallback, rollback, remediate, or escalate under this Schedule"
-    }
-  },
-  {
-    "code_family": "ECOEV",
-    "canonical_name": "Economic-Effect Runtime Event Class",
-    "primary_type": "Operational",
-    "subtype": "OPERATIONAL_EVENT",
-    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME",
-    "scope": "Constitutional Schedule",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ECOEV.CONSUME",
-      "ECOEV.PROVISION",
-      "ECOEV.RESTORE",
-      "ECOEV.EXPIRE",
-      "ECOEV.CONVERT",
-      "ECOEV.ATTENTION",
-      "ECOEV.CONTRIBUTION",
-      "ECOEV.PRESENCE",
-      "ECOEV.PROTECTIVE",
-      "ECOEV.RESTRICT",
-      "ECOEV.REMEDIATE"
-    ],
-    "schema_fields": "event_class",
-    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
-    "source_section": "\u00a77",
-    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
-    "authority_protection_level": "Source-authoritative runtime event classification family; economic-effect event-type classification only; no independent commitment, enforcement, pricing, billing, depletion, restriction, remediation, escalation, or runtime execution authority",
-    "consumes_code_families": [
-      "Economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies economic-effect runtime events for downstream architecture admissibility",
-      "commitment evaluation",
-      "fallback",
-      "rollback",
-      "remediation",
-      "audit",
-      "and escalation handling"
-    ],
-    "declaration_heading": "35.3.1 ECOEV \u2014 Economic-Effect Runtime Event Class",
-    "declaration_line_number": 727,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
-    "family_id": "ECOEV",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ECOEV"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ECOEV",
-      "Canonical Name": "Economic-Effect Runtime Event Class",
-      "Primary Type": "Operational",
-      "Subtype": "OPERATIONAL_EVENT",
-      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME",
-      "Scope": "Constitutional Schedule",
-      "Status": "Active",
-      "Controlled Values Defined": "ECOEV.CONSUME, ECOEV.PROVISION, ECOEV.RESTORE, ECOEV.EXPIRE, ECOEV.CONVERT, ECOEV.ATTENTION, ECOEV.CONTRIBUTION, ECOEV.PRESENCE, ECOEV.PROTECTIVE, ECOEV.RESTRICT, ECOEV.REMEDIATE",
-      "Schema Field(s)": "event_class",
-      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
-      "Source Section": "\u00a77",
-      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
-      "Authority / Protection Level": "Source-authoritative runtime event classification family; economic-effect event-type classification only; no independent commitment, enforcement, pricing, billing, depletion, restriction, remediation, escalation, or runtime execution authority",
-      "Consumes Code Families": "Economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies economic-effect runtime events for downstream architecture admissibility, commitment evaluation, fallback, rollback, remediation, audit, and escalation handling"
-    }
-  },
-  {
     "code_family": "ECON.ADM",
     "canonical_name": "Attribution & Dependency Model",
     "primary_type": "Semantic / Operational",
@@ -2754,6 +2223,71 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Supports attribution, dependency, transformation-depth, temporal-advantage, and weighting assessment for Appendix C and Appendix F"
+    }
+  },
+  {
+    "code_family": "ECON.ADS",
+    "canonical_name": "Account Delegation State",
+    "primary_type": "Operational / Semantic",
+    "subtype": "ROLE_ACTOR / DECISION_STATE",
+    "modifier": "GOVERNANCE; SECURITY; VERIFICATION",
+    "scope": "Contextual \u2014 Annex G account-delegation classification and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.ADS.NO_DELEGATION; ECON.ADS.USER_AUTHORISED_DELEGATION; ECON.ADS.FAMILY_OR_GUARDIAN_DELEGATION; ECON.ADS.ACCESSIBILITY_DELEGATION; ECON.ADS.EMPLOYEE_OR_TEAM_DELEGATION; ECON.ADS.CONTRACTOR_OR_CONSULTANT_DELEGATION; ECON.ADS.AGENTIC_TOOL_DELEGATION; ECON.ADS.AMBIGUOUS_DELEGATION; ECON.ADS.SUSPECTED_UNAUTHORISED_ACCESS; ECON.ADS.CONFIRMED_UNAUTHORISED_ACCESS"
+    ],
+    "schema_fields": "account_delegation_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a78",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+    "authority_protection_level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent identity validation, account recovery, credential-control determination, enforcement, arbitration, legal, or runtime authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "SEC.TG; SEC.IS; ECON.EV; FF"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies account/workspace activity as no delegation",
+      "authorised delegation",
+      "family/guardian delegation",
+      "accessibility delegation",
+      "employee/team delegation",
+      "contractor/consultant delegation",
+      "agentic tool delegation",
+      "ambiguous delegation",
+      "suspected unauthorised access",
+      "or confirmed unauthorised access"
+    ],
+    "declaration_heading": "22.3.5 ECON.ADS \u2014 Account Delegation State",
+    "declaration_line_number": 954,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "ECON.ADS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "ADS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ECON.ADS",
+      "Canonical Name": "Account Delegation State",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "ROLE_ACTOR / DECISION_STATE",
+      "Modifier": "GOVERNANCE; SECURITY; VERIFICATION",
+      "Scope": "Contextual \u2014 Annex G account-delegation classification and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.ADS.NO_DELEGATION; ECON.ADS.USER_AUTHORISED_DELEGATION; ECON.ADS.FAMILY_OR_GUARDIAN_DELEGATION; ECON.ADS.ACCESSIBILITY_DELEGATION; ECON.ADS.EMPLOYEE_OR_TEAM_DELEGATION; ECON.ADS.CONTRACTOR_OR_CONSULTANT_DELEGATION; ECON.ADS.AGENTIC_TOOL_DELEGATION; ECON.ADS.AMBIGUOUS_DELEGATION; ECON.ADS.SUSPECTED_UNAUTHORISED_ACCESS; ECON.ADS.CONFIRMED_UNAUTHORISED_ACCESS",
+      "Schema Field(s)": "account_delegation_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a78",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+      "Authority / Protection Level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent identity validation, account recovery, credential-control determination, enforcement, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "SEC.TG; SEC.IS; ECON.EV; FF",
+      "Operationalises or Applies Code Families": "Classifies account/workspace activity as no delegation, authorised delegation, family/guardian delegation, accessibility delegation, employee/team delegation, contractor/consultant delegation, agentic tool delegation, ambiguous delegation, suspected unauthorised access, or confirmed unauthorised access"
     }
   },
   {
@@ -2885,6 +2419,207 @@
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies systems by augmentation, partial automation, supervisory automation, synthetic replacement, autonomous production, or agentic labour-network posture for displacement, dependency, continuity, authority, and concentration review",
       "Taxonomy Constraint": "AL-1 through AL-5 SHALL NOT be promoted as a standalone corpus-wide AL code family; machine-readable expression SHALL use scoped ECON.AL values"
+    }
+  },
+  {
+    "code_family": "ECON.ARCH",
+    "canonical_name": "Economic Architecture Admissibility Output State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; ARCHITECTURE_REVIEW",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.ARCH.ADMISSIBLE",
+      "ECON.ARCH.CONSTRAINED",
+      "ECON.ARCH.PROTECTIVE_ONLY",
+      "ECON.ARCH.INADMISSIBLE",
+      "ECON.ARCH.REVIEW_REQUIRED"
+    ],
+    "schema_fields": "architecture_admissibility_output; architecture_output_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
+    "source_section": "\u00a7\u00a711.1\u201312",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+    "authority_protection_level": "Source-authoritative architecture-admissibility output family; architecture posture classification only; no independent architecture approval, economic-operation authorisation, compliance determination, enforcement, arbitration, or runtime authority",
+    "consumes_code_families": [
+      "ECON.EV"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether a system architecture is admissible",
+      "constrained",
+      "protective-only",
+      "inadmissible",
+      "or review-required before economic-effect runtime commitment"
+    ],
+    "declaration_heading": "35.3.2 ECON.ARCH \u2014 Economic Architecture Admissibility Output State",
+    "declaration_line_number": 750,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "family_id": "ECON.ARCH",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "ARCH"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ECON.ARCH",
+      "Canonical Name": "Economic Architecture Admissibility Output State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; ARCHITECTURE_REVIEW",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.ARCH.ADMISSIBLE, ECON.ARCH.CONSTRAINED, ECON.ARCH.PROTECTIVE_ONLY, ECON.ARCH.INADMISSIBLE, ECON.ARCH.REVIEW_REQUIRED",
+      "Schema Field(s)": "architecture_admissibility_output; architecture_output_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
+      "Source Section": "\u00a7\u00a711.1\u201312",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+      "Authority / Protection Level": "Source-authoritative architecture-admissibility output family; architecture posture classification only; no independent architecture approval, economic-operation authorisation, compliance determination, enforcement, arbitration, or runtime authority",
+      "Consumes Code Families": "ECON.EV",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether a system architecture is admissible, constrained, protective-only, inadmissible, or review-required before economic-effect runtime commitment"
+    }
+  },
+  {
+    "code_family": "ECON.ARS",
+    "canonical_name": "Account-Resource State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "ECONOMIC; GOVERNANCE; SECURITY; VERIFICATION",
+    "scope": "Contextual \u2014 Annex G account-resource classification and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.ARS.INDIVIDUAL_USE; ECON.ARS.SHARED_CONTEXT_ONLY; ECON.ARS.DELEGATED_USE; ECON.ARS.FAMILY_USE; ECON.ARS.TEAM_USE; ECON.ARS.ORGANISATION_USE; ECON.ARS.POOLED_CAPACITY_USE; ECON.ARS.AMBIGUOUS_RESOURCE_USE; ECON.ARS.SUSPECTED_EVASION; ECON.ARS.CONFIRMED_EVASION; ECON.ARS.SUSPECTED_COMPROMISE; ECON.ARS.CONFIRMED_COMPROMISE; ECON.ARS.ACCOUNT_FARMING; ECON.ARS.RESALE_OR_BROKERAGE; ECON.ARS.BOTTING_OR_AUTOMATION_ABUSE"
+    ],
+    "schema_fields": "account_resource_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a74",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+    "authority_protection_level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent enforcement, restriction, restoration, pricing, pooling, billing, account access, appeal, arbitration, legal, or runtime authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "ECON.RC; ECON.EV; FF"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies account-resource state for shared context",
+      "pooled capacity",
+      "delegated use",
+      "family use",
+      "team use",
+      "organisation use",
+      "ambiguity",
+      "evasion",
+      "compromise",
+      "farming",
+      "resale",
+      "and botting/automation abuse"
+    ],
+    "declaration_heading": "22.3.1 ECON.ARS \u2014 Account-Resource State",
+    "declaration_line_number": 862,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "ECON.ARS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "ARS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ECON.ARS",
+      "Canonical Name": "Account-Resource State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "ECONOMIC; GOVERNANCE; SECURITY; VERIFICATION",
+      "Scope": "Contextual \u2014 Annex G account-resource classification and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.ARS.INDIVIDUAL_USE; ECON.ARS.SHARED_CONTEXT_ONLY; ECON.ARS.DELEGATED_USE; ECON.ARS.FAMILY_USE; ECON.ARS.TEAM_USE; ECON.ARS.ORGANISATION_USE; ECON.ARS.POOLED_CAPACITY_USE; ECON.ARS.AMBIGUOUS_RESOURCE_USE; ECON.ARS.SUSPECTED_EVASION; ECON.ARS.CONFIRMED_EVASION; ECON.ARS.SUSPECTED_COMPROMISE; ECON.ARS.CONFIRMED_COMPROMISE; ECON.ARS.ACCOUNT_FARMING; ECON.ARS.RESALE_OR_BROKERAGE; ECON.ARS.BOTTING_OR_AUTOMATION_ABUSE",
+      "Schema Field(s)": "account_resource_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a74",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+      "Authority / Protection Level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent enforcement, restriction, restoration, pricing, pooling, billing, account access, appeal, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "ECON.RC; ECON.EV; FF",
+      "Operationalises or Applies Code Families": "Classifies account-resource state for shared context, pooled capacity, delegated use, family use, team use, organisation use, ambiguity, evasion, compromise, farming, resale, and botting/automation abuse"
+    }
+  },
+  {
+    "code_family": "ECON.COM",
+    "canonical_name": "Economic-Effect Commitment Output State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME_COMMITMENT",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.COM.COMMIT",
+      "ECON.COM.COMMIT_WITH_RECORD",
+      "ECON.COM.DEFER",
+      "ECON.COM.REFUSE",
+      "ECON.COM.FALLBACK",
+      "ECON.COM.ROLLBACK",
+      "ECON.COM.REMEDIATE",
+      "ECON.COM.ESCALATE"
+    ],
+    "schema_fields": "commitment_decision",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
+    "source_section": "\u00a713; \u00a728",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+    "authority_protection_level": "Source-authoritative runtime commitment output family; commitment-outcome classification only; no independent pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine",
+    "consumes_code_families": [
+      "ECON.EV; ECON.ARCH; economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records whether an economic-effect event may commit",
+      "commit with record",
+      "defer",
+      "refuse",
+      "fallback",
+      "rollback",
+      "remediate",
+      "or escalate under this Schedule"
+    ],
+    "declaration_heading": "35.3.3 `ECON.COM` \u2014 Economic-Effect Commitment Output State",
+    "declaration_line_number": 773,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "family_id": "ECON.COM",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "COM"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ECON.COM`",
+      "Canonical Name": "Economic-Effect Commitment Output State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME_COMMITMENT",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.COM.COMMIT, ECON.COM.COMMIT_WITH_RECORD, ECON.COM.DEFER, ECON.COM.REFUSE, ECON.COM.FALLBACK, ECON.COM.ROLLBACK, ECON.COM.REMEDIATE, ECON.COM.ESCALATE",
+      "Schema Field(s)": "commitment_decision",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
+      "Source Section": "\u00a713; \u00a728",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+      "Authority / Protection Level": "Source-authoritative runtime commitment output family; commitment-outcome classification only; no independent pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine",
+      "Consumes Code Families": "ECON.EV; ECON.ARCH; economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Records whether an economic-effect event may commit, commit with record, defer, refuse, fallback, rollback, remediate, or escalate under this Schedule"
     }
   },
   {
@@ -3061,6 +2796,145 @@
       "Consumes Code Families": "ECON.DEP",
       "Crosswalks Code Families": "ECON.DTYPE",
       "Operationalises or Applies Code Families": "Provides the parent dependency-type classification layer for functional dependency, foundational input class, diffuse dependency, and non-extractive material contributor relationships in cross-system attribution and exchange review"
+    }
+  },
+  {
+    "code_family": "ECON.EBS",
+    "canonical_name": "Enforcement Boundary State",
+    "primary_type": "Operational",
+    "subtype": "SIGNAL",
+    "modifier": "GOVERNANCE; SECURITY; VERIFICATION; PROTECTIVE",
+    "scope": "Contextual \u2014 Annex G enforcement-boundary signal and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.EBS.NO_RESTRICTION_SIGNAL; ECON.EBS.NOTICE_SIGNAL; ECON.EBS.CLARIFICATION_SIGNAL; ECON.EBS.VERIFICATION_SIGNAL; ECON.EBS.SCOPE_LIMIT_SIGNAL; ECON.EBS.ACTIVE_USE_LIMIT_SIGNAL; ECON.EBS.READ_ONLY_CONTINUATION_SIGNAL; ECON.EBS.EXPORT_CORRIDOR_SIGNAL; ECON.EBS.APPEAL_CORRIDOR_SIGNAL; ECON.EBS.SECURITY_REVIEW_SIGNAL; ECON.EBS.OPERATIONS_ESCALATION_SIGNAL; ECON.EBS.LATTICE_REVIEW_SIGNAL; ECON.EBS.ARBITRATION_SIGNAL"
+    ],
+    "schema_fields": "enforcement_boundary_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a79",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+    "authority_protection_level": "Source-authoritative contextual code family; signal and runtime-handoff authority only; no independent restriction, appeal, restoration, notice, review, containment, arbitration, legal, enforcement, or runtime execution authority",
+    "consumes_code_families": [
+      "ECON.ARS; ECON.SCS; ECON.PCS; ECON.TGS; ECON.ADS"
+    ],
+    "crosswalks_code_families": [
+      "ECON.EV; FF; SEC.IS; SEC.TG"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Emits enforcement-boundary handoff signals for notice",
+      "clarification",
+      "verification",
+      "scoped limitation",
+      "active-use limitation",
+      "read-only continuation",
+      "export corridor",
+      "appeal corridor",
+      "security review",
+      "operations escalation",
+      "LATTICE review",
+      "or arbitration routing"
+    ],
+    "declaration_heading": "22.3.6 ECON.EBS \u2014 Enforcement Boundary State",
+    "declaration_line_number": 977,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "ECON.EBS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "EBS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ECON.EBS",
+      "Canonical Name": "Enforcement Boundary State",
+      "Primary Type": "Operational",
+      "Subtype": "SIGNAL",
+      "Modifier": "GOVERNANCE; SECURITY; VERIFICATION; PROTECTIVE",
+      "Scope": "Contextual \u2014 Annex G enforcement-boundary signal and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.EBS.NO_RESTRICTION_SIGNAL; ECON.EBS.NOTICE_SIGNAL; ECON.EBS.CLARIFICATION_SIGNAL; ECON.EBS.VERIFICATION_SIGNAL; ECON.EBS.SCOPE_LIMIT_SIGNAL; ECON.EBS.ACTIVE_USE_LIMIT_SIGNAL; ECON.EBS.READ_ONLY_CONTINUATION_SIGNAL; ECON.EBS.EXPORT_CORRIDOR_SIGNAL; ECON.EBS.APPEAL_CORRIDOR_SIGNAL; ECON.EBS.SECURITY_REVIEW_SIGNAL; ECON.EBS.OPERATIONS_ESCALATION_SIGNAL; ECON.EBS.LATTICE_REVIEW_SIGNAL; ECON.EBS.ARBITRATION_SIGNAL",
+      "Schema Field(s)": "enforcement_boundary_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a79",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+      "Authority / Protection Level": "Source-authoritative contextual code family; signal and runtime-handoff authority only; no independent restriction, appeal, restoration, notice, review, containment, arbitration, legal, enforcement, or runtime execution authority",
+      "Consumes Code Families": "ECON.ARS; ECON.SCS; ECON.PCS; ECON.TGS; ECON.ADS",
+      "Crosswalks Code Families": "ECON.EV; FF; SEC.IS; SEC.TG",
+      "Operationalises or Applies Code Families": "Emits enforcement-boundary handoff signals for notice, clarification, verification, scoped limitation, active-use limitation, read-only continuation, export corridor, appeal corridor, security review, operations escalation, LATTICE review, or arbitration routing"
+    }
+  },
+  {
+    "code_family": "ECON.EV",
+    "canonical_name": "Economic-Effect Runtime Event Class",
+    "primary_type": "Operational",
+    "subtype": "OPERATIONAL_EVENT",
+    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.EV.CONSUME",
+      "ECON.EV.PROVISION",
+      "ECON.EV.RESTORE",
+      "ECON.EV.EXPIRE",
+      "ECON.EV.CONVERT",
+      "ECON.EV.ATTENTION",
+      "ECON.EV.CONTRIBUTION",
+      "ECON.EV.PRESENCE",
+      "ECON.EV.PROTECTIVE",
+      "ECON.EV.RESTRICT",
+      "ECON.EV.REMEDIATE"
+    ],
+    "schema_fields": "event_class",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
+    "source_section": "\u00a77",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+    "authority_protection_level": "Source-authoritative runtime event classification family; economic-effect event-type classification only; no independent commitment, enforcement, pricing, billing, depletion, restriction, remediation, escalation, or runtime execution authority",
+    "consumes_code_families": [
+      "Economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies economic-effect runtime events for downstream architecture admissibility",
+      "commitment evaluation",
+      "fallback",
+      "rollback",
+      "remediation",
+      "audit",
+      "and escalation handling"
+    ],
+    "declaration_heading": "35.3.1 `ECON.EV` \u2014 Economic-Effect Runtime Event Class",
+    "declaration_line_number": 727,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "family_id": "ECON.EV",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "EV"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`ECON.EV`",
+      "Canonical Name": "Economic-Effect Runtime Event Class",
+      "Primary Type": "Operational",
+      "Subtype": "OPERATIONAL_EVENT",
+      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; RUNTIME",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.EV.CONSUME, ECON.EV.PROVISION, ECON.EV.RESTORE, ECON.EV.EXPIRE, ECON.EV.CONVERT, ECON.EV.ATTENTION, ECON.EV.CONTRIBUTION, ECON.EV.PRESENCE, ECON.EV.PROTECTIVE, ECON.EV.RESTRICT, ECON.EV.REMEDIATE",
+      "Schema Field(s)": "event_class",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
+      "Source Section": "\u00a77",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+      "Authority / Protection Level": "Source-authoritative runtime event classification family; economic-effect event-type classification only; no independent commitment, enforcement, pricing, billing, depletion, restriction, remediation, escalation, or runtime execution authority",
+      "Consumes Code Families": "Economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies economic-effect runtime events for downstream architecture admissibility, commitment evaluation, fallback, rollback, remediation, audit, and escalation handling"
     }
   },
   {
@@ -3291,6 +3165,74 @@
       "Consumes Code Families": "ECON.RC; ECON.HARM; ECON.RISK",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies economic mechanism patterns including dynamic compensation and allocative steering"
+    }
+  },
+  {
+    "code_family": "ECON.PCS",
+    "canonical_name": "Pooled Capacity State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "ECONOMIC; GOVERNANCE; VERIFICATION",
+    "scope": "Contextual \u2014 Annex G pooled-capacity classification and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.PCS.NONE; ECON.PCS.DECLARED_POOLING; ECON.PCS.FAMILY_POOLING; ECON.PCS.TEAM_POOLING; ECON.PCS.ORGANISATION_POOLING; ECON.PCS.ACCESSIBILITY_POOLING; ECON.PCS.EDUCATIONAL_POOLING; ECON.PCS.PUBLIC_INTEREST_POOLING; ECON.PCS.AMBIGUOUS_POOLING; ECON.PCS.SUSPECTED_LIMIT_CIRCUMVENTION; ECON.PCS.CONFIRMED_LIMIT_CIRCUMVENTION; ECON.PCS.SUSPECTED_RESALE; ECON.PCS.CONFIRMED_RESALE"
+    ],
+    "schema_fields": "pooled_capacity_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a76",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+    "authority_protection_level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent pricing, subscription-tier, quota, commercial pooling, entitlement, enforcement, arbitration, legal, or runtime authority",
+    "consumes_code_families": [
+      "ECON.RC"
+    ],
+    "crosswalks_code_families": [
+      "ECON.EV; FF"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether usage capacity",
+      "credits",
+      "quota",
+      "API allocation",
+      "coding-agent capacity",
+      "compute availability",
+      "subscription allowance",
+      "or billing-linked consumption is pooled",
+      "ambiguous",
+      "suspected circumvention",
+      "confirmed circumvention",
+      "suspected resale",
+      "or confirmed resale"
+    ],
+    "declaration_heading": "22.3.3 ECON.PCS \u2014 Pooled Capacity State",
+    "declaration_line_number": 908,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "ECON.PCS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "PCS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ECON.PCS",
+      "Canonical Name": "Pooled Capacity State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "ECONOMIC; GOVERNANCE; VERIFICATION",
+      "Scope": "Contextual \u2014 Annex G pooled-capacity classification and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.PCS.NONE; ECON.PCS.DECLARED_POOLING; ECON.PCS.FAMILY_POOLING; ECON.PCS.TEAM_POOLING; ECON.PCS.ORGANISATION_POOLING; ECON.PCS.ACCESSIBILITY_POOLING; ECON.PCS.EDUCATIONAL_POOLING; ECON.PCS.PUBLIC_INTEREST_POOLING; ECON.PCS.AMBIGUOUS_POOLING; ECON.PCS.SUSPECTED_LIMIT_CIRCUMVENTION; ECON.PCS.CONFIRMED_LIMIT_CIRCUMVENTION; ECON.PCS.SUSPECTED_RESALE; ECON.PCS.CONFIRMED_RESALE",
+      "Schema Field(s)": "pooled_capacity_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a76",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+      "Authority / Protection Level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent pricing, subscription-tier, quota, commercial pooling, entitlement, enforcement, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "ECON.RC",
+      "Crosswalks Code Families": "ECON.EV; FF",
+      "Operationalises or Applies Code Families": "Classifies whether usage capacity, credits, quota, API allocation, coding-agent capacity, compute availability, subscription allowance, or billing-linked consumption is pooled, ambiguous, suspected circumvention, confirmed circumvention, suspected resale, or confirmed resale"
     }
   },
   {
@@ -3613,6 +3555,88 @@
     }
   },
   {
+    "code_family": "ECON.RRF",
+    "canonical_name": "Economic Runtime Record Field Set",
+    "primary_type": "Structural / Operational",
+    "subtype": "SCHEMA; RUNTIME_RECORD_FIELD",
+    "modifier": "GOVERNANCE; ECONOMIC_EFFECT; AUDIT_RECORD",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.RRF.EVENT_ID",
+      "ECON.RRF.TIMESTAMP",
+      "ECON.RRF.EVENT_CLASS",
+      "ECON.RRF.RESOURCE_CLASS",
+      "ECON.RRF.SECONDARY_RESOURCE_CLASS",
+      "ECON.RRF.VALUE_STATE_EFFECT",
+      "ECON.RRF.CONTINUITY_RELEVANCE",
+      "ECON.RRF.COLLAPSE_RISK",
+      "ECON.RRF.CONSENT_POSTURE",
+      "ECON.RRF.COMMITMENT_DECISION",
+      "ECON.RRF.DECISION_BASIS",
+      "ECON.RRF.FALLBACK_MODE",
+      "ECON.RRF.ROLLBACK_REFERENCE",
+      "ECON.RRF.AUDIT_VISIBILITY",
+      "ECON.RRF.VISIBILITY_STATE_EFFECT",
+      "ECON.RRF.REVIEW_PATHWAY_STATE",
+      "ECON.RRF.LEGITIMACY_ACCESS_RELEVANCE"
+    ],
+    "schema_fields": "event_id; timestamp; event_class; resource_class; secondary_resource_class; value_state_effect; continuity_relevance; collapse_risk; consent_posture; commitment_decision; decision_basis; fallback_mode; rollback_reference; audit_visibility; visibility_state_effect; review_pathway_state; legitimacy_access_relevance",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-02",
+    "source_section": "\u00a727",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+    "authority_protection_level": "Source-authoritative runtime-record-field reference set; runtime record field structure only; no independent runtime outcome, visibility restriction, review status, legitimacy status, audit sufficiency, enforcement, or remediation authority",
+    "consumes_code_families": [
+      "`ECON.EV`; `ECON.COM`; economic semantic handoff fields defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Defines minimum audit-record fields for material economic-effect events",
+      "including event identity",
+      "classification",
+      "resource semantics",
+      "continuity relevance",
+      "consent posture",
+      "commitment outcome",
+      "fallback/rollback references",
+      "visibility effects",
+      "review pathway status",
+      "and legitimacy-access relevance"
+    ],
+    "declaration_heading": "35.3.4 ECON.RRF \u2014 Economic Runtime Record Field Set",
+    "declaration_line_number": 796,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
+    "family_id": "ECON.RRF",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "RRF"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ECON.RRF",
+      "Canonical Name": "Economic Runtime Record Field Set",
+      "Primary Type": "Structural / Operational",
+      "Subtype": "SCHEMA; RUNTIME_RECORD_FIELD",
+      "Modifier": "GOVERNANCE; ECONOMIC_EFFECT; AUDIT_RECORD",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.RRF.EVENT_ID, ECON.RRF.TIMESTAMP, ECON.RRF.EVENT_CLASS, ECON.RRF.RESOURCE_CLASS, ECON.RRF.SECONDARY_RESOURCE_CLASS, ECON.RRF.VALUE_STATE_EFFECT, ECON.RRF.CONTINUITY_RELEVANCE, ECON.RRF.COLLAPSE_RISK, ECON.RRF.CONSENT_POSTURE, ECON.RRF.COMMITMENT_DECISION, ECON.RRF.DECISION_BASIS, ECON.RRF.FALLBACK_MODE, ECON.RRF.ROLLBACK_REFERENCE, ECON.RRF.AUDIT_VISIBILITY, ECON.RRF.VISIBILITY_STATE_EFFECT, ECON.RRF.REVIEW_PATHWAY_STATE, ECON.RRF.LEGITIMACY_ACCESS_RELEVANCE",
+      "Schema Field(s)": "event_id; timestamp; event_class; resource_class; secondary_resource_class; value_state_effect; continuity_relevance; collapse_risk; consent_posture; commitment_decision; decision_basis; fallback_mode; rollback_reference; audit_visibility; visibility_state_effect; review_pathway_state; legitimacy_access_relevance",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-02",
+      "Source Section": "\u00a727",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME",
+      "Authority / Protection Level": "Source-authoritative runtime-record-field reference set; runtime record field structure only; no independent runtime outcome, visibility restriction, review status, legitimacy status, audit sufficiency, enforcement, or remediation authority",
+      "Consumes Code Families": "`ECON.EV`; `ECON.COM`; economic semantic handoff fields defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Defines minimum audit-record fields for material economic-effect events, including event identity, classification, resource semantics, continuity relevance, consent posture, commitment outcome, fallback/rollback references, visibility effects, review pathway status, and legitimacy-access relevance"
+    }
+  },
+  {
     "code_family": "ECON.SCALE",
     "canonical_name": "Economic Scale Weight",
     "primary_type": "Semantic / Operational",
@@ -3670,6 +3694,69 @@
       "Consumes Code Families": "ECON.CONTRIB; ECON.DEP",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies magnitude of value capture or systemic scale for proportional reciprocity, review, and economic alignment assessment"
+    }
+  },
+  {
+    "code_family": "ECON.SCS",
+    "canonical_name": "Shared Context State",
+    "primary_type": "Operational / Semantic",
+    "subtype": "SEMANTIC_CLASS",
+    "modifier": "ECONOMIC; GOVERNANCE",
+    "scope": "Contextual \u2014 Annex G shared-context classification and runtime handoff",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ECON.SCS.NONE; ECON.SCS.SHARED_THREAD; ECON.SCS.SHARED_FOLDER; ECON.SCS.SHARED_PROJECT; ECON.SCS.SHARED_REPOSITORY; ECON.SCS.SHARED_ORGANISATION_WORKSPACE; ECON.SCS.CROSS_ORGANISATION_WORKSPACE; ECON.SCS.EDUCATIONAL_WORKSPACE; ECON.SCS.PUBLIC_INTEREST_WORKSPACE"
+    ],
+    "schema_fields": "shared_context_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a75",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+    "authority_protection_level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent pooled-capacity, account-transfer, credential-sharing, entitlement, enforcement, arbitration, legal, or runtime authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "ECON.RC; ECON.EV; FF"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies shared work surfaces including threads",
+      "folders",
+      "projects",
+      "repositories",
+      "organisation workspaces",
+      "cross-organisation workspaces",
+      "educational workspaces",
+      "and public-interest workspaces"
+    ],
+    "declaration_heading": "22.3.2 ECON.SCS \u2014 Shared Context State",
+    "declaration_line_number": 885,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "ECON.SCS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ECON",
+      "SCS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ECON.SCS",
+      "Canonical Name": "Shared Context State",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "SEMANTIC_CLASS",
+      "Modifier": "ECONOMIC; GOVERNANCE",
+      "Scope": "Contextual \u2014 Annex G shared-context classification and runtime handoff",
+      "Status": "Active",
+      "Controlled Values Defined": "ECON.SCS.NONE; ECON.SCS.SHARED_THREAD; ECON.SCS.SHARED_FOLDER; ECON.SCS.SHARED_PROJECT; ECON.SCS.SHARED_REPOSITORY; ECON.SCS.SHARED_ORGANISATION_WORKSPACE; ECON.SCS.CROSS_ORGANISATION_WORKSPACE; ECON.SCS.EDUCATIONAL_WORKSPACE; ECON.SCS.PUBLIC_INTEREST_WORKSPACE",
+      "Schema Field(s)": "shared_context_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a75",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+      "Authority / Protection Level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent pooled-capacity, account-transfer, credential-sharing, entitlement, enforcement, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "ECON.RC; ECON.EV; FF",
+      "Operationalises or Applies Code Families": "Classifies shared work surfaces including threads, folders, projects, repositories, organisation workspaces, cross-organisation workspaces, educational workspaces, and public-interest workspaces"
     }
   },
   {
@@ -3798,75 +3885,68 @@
     }
   },
   {
-    "code_family": "EST",
-    "canonical_name": "Execution-State Transition",
-    "primary_type": "Operational",
-    "subtype": "OPERATIONAL_EVENT; DECISION_STATE",
-    "modifier": "GOVERNANCE; SAFETY; RUNTIME_HANDOFF",
-    "scope": "Domain",
+    "code_family": "ECON.TGS",
+    "canonical_name": "Team and Family Group State",
+    "primary_type": "Semantic / Operational",
+    "subtype": "ROLE_ACTOR",
+    "modifier": "ECONOMIC; GOVERNANCE",
+    "scope": "Contextual \u2014 Annex G team, family, group, and workspace classification",
     "status": "Active",
     "controlled_values_defined": [
-      "EST.ORDINARY_CONTINUATION",
-      "EST.CONSTRAINED_CONTINUATION",
-      "EST.DEGRADED_CONTINUATION",
-      "EST.PAUSED_CONTINUATION",
-      "EST.HANDOFF_CONTINUATION",
-      "EST.SANDBOX_CONTINUATION",
-      "EST.CONTAINMENT_CONTINUATION",
-      "EST.MODALITY_TRANSITION",
-      "EST.TOOL_MEDIATED_TRANSITION",
-      "EST.EXECUTION_INTERRUPTION",
-      "EST.RE_ARBITRATION_REFERRAL"
+      "ECON.TGS.NONE; ECON.TGS.FAMILY_GUARDIAN_MANAGED; ECON.TGS.ADULT_FAMILY_OR_HOUSEHOLD; ECON.TGS.PROJECT_TEAM; ECON.TGS.CLIENT_TEAM; ECON.TGS.ORGANISATION_TEAM; ECON.TGS.CROSS_ORGANISATION_TEAM; ECON.TGS.EDUCATIONAL_TEAM; ECON.TGS.PUBLIC_INTEREST_TEAM; ECON.TGS.ENTERPRISE_WORKSPACE"
     ],
-    "schema_fields": "execution_state_transition",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
-    "source_section": "\u00a75.5",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative operational transition classification family; execution-state transition classification only; no independent execution, refusal, containment, arbitration, enforcement, escalation, or runtime authority",
+    "schema_fields": "team_group_state",
+    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
+    "source_section": "\u00a77",
+    "domain_namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+    "authority_protection_level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent family-plan, team-plan, business-plan, enterprise-plan, pricing, entitlement, enforcement, arbitration, legal, or runtime authority",
     "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
       "None declared"
     ],
-    "operationalises_or_applies_code_families": [
-      "Classifies procedural execution-state transitions where runtime handling departs from ordinary continuation",
-      "including constrained continuation",
-      "degraded continuation",
-      "containment",
-      "handoff",
-      "modality/tool transition",
-      "interruption",
-      "and arbitration referral"
+    "crosswalks_code_families": [
+      "ECON.RC; ECON.EV; FF"
     ],
-    "declaration_heading": "12.3.2 EST \u2014 Execution-State Transition",
-    "declaration_line_number": 957,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
-    "family_id": "EST",
+    "operationalises_or_applies_code_families": [
+      "Classifies family",
+      "guardian-managed",
+      "adult household",
+      "project-team",
+      "client-team",
+      "organisation-team",
+      "cross-organisation",
+      "educational",
+      "public-interest",
+      "and enterprise workspace group structures"
+    ],
+    "declaration_heading": "22.3.4 ECON.TGS \u2014 Team and Family Group State",
+    "declaration_line_number": 931,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+    "family_id": "ECON.TGS",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
-      "EST"
+      "ECON",
+      "TGS"
     ],
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "EST",
-      "Canonical Name": "Execution-State Transition",
-      "Primary Type": "Operational",
-      "Subtype": "OPERATIONAL_EVENT; DECISION_STATE",
-      "Modifier": "GOVERNANCE; SAFETY; RUNTIME_HANDOFF",
-      "Scope": "Domain",
+      "Code Family": "ECON.TGS",
+      "Canonical Name": "Team and Family Group State",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "ROLE_ACTOR",
+      "Modifier": "ECONOMIC; GOVERNANCE",
+      "Scope": "Contextual \u2014 Annex G team, family, group, and workspace classification",
       "Status": "Active",
-      "Controlled Values Defined": "EST.ORDINARY_CONTINUATION, EST.CONSTRAINED_CONTINUATION, EST.DEGRADED_CONTINUATION, EST.PAUSED_CONTINUATION, EST.HANDOFF_CONTINUATION, EST.SANDBOX_CONTINUATION, EST.CONTAINMENT_CONTINUATION, EST.MODALITY_TRANSITION, EST.TOOL_MEDIATED_TRANSITION, EST.EXECUTION_INTERRUPTION, EST.RE_ARBITRATION_REFERRAL",
-      "Schema Field(s)": "execution_state_transition",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
-      "Source Section": "\u00a75.5",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative operational transition classification family; execution-state transition classification only; no independent execution, refusal, containment, arbitration, enforcement, escalation, or runtime authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies procedural execution-state transitions where runtime handling departs from ordinary continuation, including constrained continuation, degraded continuation, containment, handoff, modality/tool transition, interruption, and arbitration referral"
+      "Controlled Values Defined": "ECON.TGS.NONE; ECON.TGS.FAMILY_GUARDIAN_MANAGED; ECON.TGS.ADULT_FAMILY_OR_HOUSEHOLD; ECON.TGS.PROJECT_TEAM; ECON.TGS.CLIENT_TEAM; ECON.TGS.ORGANISATION_TEAM; ECON.TGS.CROSS_ORGANISATION_TEAM; ECON.TGS.EDUCATIONAL_TEAM; ECON.TGS.PUBLIC_INTEREST_TEAM; ECON.TGS.ENTERPRISE_WORKSPACE",
+      "Schema Field(s)": "team_group_state",
+      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "Source Section": "\u00a77",
+      "Domain Namespace": "AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE",
+      "Authority / Protection Level": "Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent family-plan, team-plan, business-plan, enterprise-plan, pricing, entitlement, enforcement, arbitration, legal, or runtime authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "ECON.RC; ECON.EV; FF",
+      "Operationalises or Applies Code Families": "Classifies family, guardian-managed, adult household, project-team, client-team, organisation-team, cross-organisation, educational, public-interest, and enterprise workspace group structures"
     }
   },
   {
@@ -6457,71 +6537,6 @@
     }
   },
   {
-    "code_family": "ONC",
-    "canonical_name": "Operational Notice Class",
-    "primary_type": "Operational",
-    "subtype": "SIGNAL; DECISION_STATE",
-    "modifier": "GOVERNANCE; SAFETY; TRANSPARENCY",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ONC.FULL",
-      "ONC.PARTIAL",
-      "ONC.DEFERRED",
-      "ONC.SAFETY_LIMITED",
-      "ONC.LEGALLY_CONSTRAINED",
-      "ONC.NO_USER_FACING"
-    ],
-    "schema_fields": "operational_notice_class",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
-    "source_section": "\u00a75.1",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies notice posture for operational handling affecting user-facing continuity",
-      "execution state",
-      "tool routing",
-      "modality transition",
-      "constrained continuation",
-      "and safety-limited disclosure"
-    ],
-    "declaration_heading": "12.3.1 ONC \u2014 Operational Notice Class",
-    "declaration_line_number": 934,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
-    "family_id": "ONC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ONC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ONC",
-      "Canonical Name": "Operational Notice Class",
-      "Primary Type": "Operational",
-      "Subtype": "SIGNAL; DECISION_STATE",
-      "Modifier": "GOVERNANCE; SAFETY; TRANSPARENCY",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "ONC.FULL, ONC.PARTIAL, ONC.DEFERRED, ONC.SAFETY_LIMITED, ONC.LEGALLY_CONSTRAINED, ONC.NO_USER_FACING",
-      "Schema Field(s)": "operational_notice_class",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
-      "Source Section": "\u00a75.1",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies notice posture for operational handling affecting user-facing continuity, execution state, tool routing, modality transition, constrained continuation, and safety-limited disclosure"
-    }
-  },
-  {
     "code_family": "OPS",
     "canonical_name": "Orchestration Permission State",
     "primary_type": "Operational",
@@ -6583,6 +6598,146 @@
     }
   },
   {
+    "code_family": "OPS.AOC",
+    "canonical_name": "Appeal Outcome Classification",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "GOVERNANCE; PROCEDURAL; REVIEW",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.AOC.AFFIRMED",
+      "OPS.AOC.MODIFIED",
+      "OPS.AOC.NARROWED",
+      "OPS.AOC.ESCALATED",
+      "OPS.AOC.PARTIALLY_RESTORED",
+      "OPS.AOC.PROBATIONARY_RESTORATION",
+      "OPS.AOC.FULLY_RESTORED",
+      "OPS.AOC.UNRESOLVED_PENDING_ARBITRATION",
+      "OPS.AOC.PERMANENTLY_RESTRICTED"
+    ],
+    "schema_fields": "appeal_outcome_classification",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
+    "source_section": "\u00a76.8",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative appeal outcome classification family; procedural outcome recording only; no independent reversal, restoration, restriction, escalation, arbitration, enforcement, or execution authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies procedural appeal outcomes for operational traceability",
+      "review reconstruction",
+      "restoration posture",
+      "and unresolved-arbitration referral handling"
+    ],
+    "declaration_heading": "12.3.2 OPS.AOC \u2014 Appeal Outcome Classification",
+    "declaration_line_number": 951,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
+    "family_id": "OPS.AOC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "AOC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.AOC",
+      "Canonical Name": "Appeal Outcome Classification",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "GOVERNANCE; PROCEDURAL; REVIEW",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.AOC.AFFIRMED, OPS.AOC.MODIFIED, OPS.AOC.NARROWED, OPS.AOC.ESCALATED, OPS.AOC.PARTIALLY_RESTORED, OPS.AOC.PROBATIONARY_RESTORATION, OPS.AOC.FULLY_RESTORED, OPS.AOC.UNRESOLVED_PENDING_ARBITRATION, OPS.AOC.PERMANENTLY_RESTRICTED",
+      "Schema Field(s)": "appeal_outcome_classification",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
+      "Source Section": "\u00a76.8",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative appeal outcome classification family; procedural outcome recording only; no independent reversal, restoration, restriction, escalation, arbitration, enforcement, or execution authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies procedural appeal outcomes for operational traceability, review reconstruction, restoration posture, and unresolved-arbitration referral handling"
+    }
+  },
+  {
+    "code_family": "OPS.EST",
+    "canonical_name": "Execution-State Transition",
+    "primary_type": "Operational",
+    "subtype": "OPERATIONAL_EVENT; DECISION_STATE",
+    "modifier": "GOVERNANCE; SAFETY; RUNTIME_HANDOFF",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.EST.ORDINARY_CONTINUATION",
+      "OPS.EST.CONSTRAINED_CONTINUATION",
+      "OPS.EST.DEGRADED_CONTINUATION",
+      "OPS.EST.PAUSED_CONTINUATION",
+      "OPS.EST.HANDOFF_CONTINUATION",
+      "OPS.EST.SANDBOX_CONTINUATION",
+      "OPS.EST.CONTAINMENT_CONTINUATION",
+      "OPS.EST.MODALITY_TRANSITION",
+      "OPS.EST.TOOL_MEDIATED_TRANSITION",
+      "OPS.EST.EXECUTION_INTERRUPTION",
+      "OPS.EST.RE_ARBITRATION_REFERRAL"
+    ],
+    "schema_fields": "execution_state_transition",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
+    "source_section": "\u00a75.5",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative operational transition classification family; execution-state transition classification only; no independent execution, refusal, containment, arbitration, enforcement, escalation, or runtime authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies procedural execution-state transitions where runtime handling departs from ordinary continuation",
+      "including constrained continuation",
+      "degraded continuation",
+      "containment",
+      "handoff",
+      "modality/tool transition",
+      "interruption",
+      "and arbitration referral"
+    ],
+    "declaration_heading": "12.3.1 OPS.EST \u2014 Execution-State Transition",
+    "declaration_line_number": 928,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
+    "family_id": "OPS.EST",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "EST"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.EST",
+      "Canonical Name": "Execution-State Transition",
+      "Primary Type": "Operational",
+      "Subtype": "OPERATIONAL_EVENT; DECISION_STATE",
+      "Modifier": "GOVERNANCE; SAFETY; RUNTIME_HANDOFF",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.EST.ORDINARY_CONTINUATION, OPS.EST.CONSTRAINED_CONTINUATION, OPS.EST.DEGRADED_CONTINUATION, OPS.EST.PAUSED_CONTINUATION, OPS.EST.HANDOFF_CONTINUATION, OPS.EST.SANDBOX_CONTINUATION, OPS.EST.CONTAINMENT_CONTINUATION, OPS.EST.MODALITY_TRANSITION, OPS.EST.TOOL_MEDIATED_TRANSITION, OPS.EST.EXECUTION_INTERRUPTION, OPS.EST.RE_ARBITRATION_REFERRAL",
+      "Schema Field(s)": "execution_state_transition",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
+      "Source Section": "\u00a75.5",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative operational transition classification family; execution-state transition classification only; no independent execution, refusal, containment, arbitration, enforcement, escalation, or runtime authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies procedural execution-state transitions where runtime handling departs from ordinary continuation, including constrained continuation, degraded continuation, containment, handoff, modality/tool transition, interruption, and arbitration referral"
+    }
+  },
+  {
     "code_family": "OPS.HARM",
     "canonical_name": "Operational Process & Runtime Harm",
     "primary_type": "Operational / Semantic",
@@ -6630,6 +6785,72 @@
       "Parent Family": "`AEON.HC`",
       "Related Code Families": "`AEON.HC.OPERATIONAL`",
       "Taxonomy Constraint": "`OPS.HARM` establishes constitutional recognition only and does not replace detailed incident, lifecycle, notice, escalation, verification, remediation, or runtime workflow taxonomies"
+    }
+  },
+  {
+    "code_family": "OPS.ONC",
+    "canonical_name": "Operational Notice Class",
+    "primary_type": "Operational",
+    "subtype": "SIGNAL; DECISION_STATE",
+    "modifier": "GOVERNANCE; SAFETY; TRANSPARENCY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.ONC.FULL",
+      "OPS.ONC.PARTIAL",
+      "OPS.ONC.DEFERRED",
+      "OPS.ONC.SAFETY_LIMITED",
+      "OPS.ONC.LEGALLY_CONSTRAINED",
+      "OPS.ONC.NO_USER_FACING"
+    ],
+    "schema_fields": "operational_notice_class",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-01",
+    "source_section": "\u00a74.3",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies notice posture for operational handling affecting user-facing continuity",
+      "execution state",
+      "tool routing",
+      "modality transition",
+      "constrained continuation",
+      "and safety-limited disclosure"
+    ],
+    "declaration_heading": "11.3.1 OPS.ONC \u2014 Operational Notice Class",
+    "declaration_line_number": 434,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md",
+    "family_id": "OPS.ONC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "ONC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.ONC",
+      "Canonical Name": "Operational Notice Class",
+      "Primary Type": "Operational",
+      "Subtype": "SIGNAL; DECISION_STATE",
+      "Modifier": "GOVERNANCE; SAFETY; TRANSPARENCY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.ONC.FULL, OPS.ONC.PARTIAL, OPS.ONC.DEFERRED, OPS.ONC.SAFETY_LIMITED, OPS.ONC.LEGALLY_CONSTRAINED, OPS.ONC.NO_USER_FACING",
+      "Schema Field(s)": "operational_notice_class",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-01",
+      "Source Section": "\u00a74.3",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies notice posture for operational handling affecting user-facing continuity, execution state, tool routing, modality transition, constrained continuation, and safety-limited disclosure"
     }
   },
   {
@@ -6695,73 +6916,6 @@
       "Consumes Code Families": "`STW.BLS`; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies proportional non-enabling and constraint-signalling actions following validated binding legitimacy, including refusal, non-recognition, interoperability conditioning, safeguard activation, and convergence signalling"
-    }
-  },
-  {
-    "code_family": "PCS",
-    "canonical_name": "Pooled Capacity State",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE",
-    "modifier": "ECONOMIC; GOVERNANCE; VERIFICATION",
-    "scope": "Contextual \u2014 Annex G pooled-capacity classification and runtime handoff",
-    "status": "Active",
-    "controlled_values_defined": [
-      "PCS.NONE; PCS.DECLARED_POOLING; PCS.FAMILY_POOLING; PCS.TEAM_POOLING; PCS.ORGANISATION_POOLING; PCS.ACCESSIBILITY_POOLING; PCS.EDUCATIONAL_POOLING; PCS.PUBLIC_INTEREST_POOLING; PCS.AMBIGUOUS_POOLING; PCS.SUSPECTED_LIMIT_CIRCUMVENTION; PCS.CONFIRMED_LIMIT_CIRCUMVENTION; PCS.SUSPECTED_RESALE; PCS.CONFIRMED_RESALE"
-    ],
-    "schema_fields": "pooled_capacity_state",
-    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
-    "source_section": "\u00a76",
-    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent pricing, subscription-tier, quota, commercial pooling, entitlement, enforcement, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "ECON.RC"
-    ],
-    "crosswalks_code_families": [
-      "ECOEV; FF"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies whether usage capacity",
-      "credits",
-      "quota",
-      "API allocation",
-      "coding-agent capacity",
-      "compute availability",
-      "subscription allowance",
-      "or billing-linked consumption is pooled",
-      "ambiguous",
-      "suspected circumvention",
-      "confirmed circumvention",
-      "suspected resale",
-      "or confirmed resale"
-    ],
-    "declaration_heading": "22.3.3 PCS \u2014 Pooled Capacity State",
-    "declaration_line_number": 1094,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
-    "family_id": "PCS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "PCS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "PCS",
-      "Canonical Name": "Pooled Capacity State",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE",
-      "Modifier": "ECONOMIC; GOVERNANCE; VERIFICATION",
-      "Scope": "Contextual \u2014 Annex G pooled-capacity classification and runtime handoff",
-      "Status": "Active",
-      "Controlled Values Defined": "PCS.NONE; PCS.DECLARED_POOLING; PCS.FAMILY_POOLING; PCS.TEAM_POOLING; PCS.ORGANISATION_POOLING; PCS.ACCESSIBILITY_POOLING; PCS.EDUCATIONAL_POOLING; PCS.PUBLIC_INTEREST_POOLING; PCS.AMBIGUOUS_POOLING; PCS.SUSPECTED_LIMIT_CIRCUMVENTION; PCS.CONFIRMED_LIMIT_CIRCUMVENTION; PCS.SUSPECTED_RESALE; PCS.CONFIRMED_RESALE",
-      "Schema Field(s)": "pooled_capacity_state",
-      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
-      "Source Section": "\u00a76",
-      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent pricing, subscription-tier, quota, commercial pooling, entitlement, enforcement, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "ECON.RC",
-      "Crosswalks Code Families": "ECOEV; FF",
-      "Operationalises or Applies Code Families": "Classifies whether usage capacity, credits, quota, API allocation, coding-agent capacity, compute availability, subscription allowance, or billing-linked consumption is pooled, ambiguous, suspected circumvention, confirmed circumvention, suspected resale, or confirmed resale"
     }
   },
   {
@@ -7562,68 +7716,6 @@
       "Consumes Code Families": "RSE; C; ITZ / ETZ",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Applies clustering conditions to relational-state transition assessment"
-    }
-  },
-  {
-    "code_family": "SCS",
-    "canonical_name": "Shared Context State",
-    "primary_type": "Operational/Semantic",
-    "subtype": "SEMANTIC_CLASS",
-    "modifier": "ECONOMIC; GOVERNANCE",
-    "scope": "Contextual \u2014 Annex G shared-context classification and runtime handoff",
-    "status": "Active",
-    "controlled_values_defined": [
-      "SCS.NONE; SCS.SHARED_THREAD; SCS.SHARED_FOLDER; SCS.SHARED_PROJECT; SCS.SHARED_REPOSITORY; SCS.SHARED_ORGANISATION_WORKSPACE; SCS.CROSS_ORGANISATION_WORKSPACE; SCS.EDUCATIONAL_WORKSPACE; SCS.PUBLIC_INTEREST_WORKSPACE"
-    ],
-    "schema_fields": "shared_context_state",
-    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
-    "source_section": "\u00a75",
-    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent pooled-capacity, account-transfer, credential-sharing, entitlement, enforcement, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "None"
-    ],
-    "crosswalks_code_families": [
-      "ECON.RC; ECOEV; FF"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies shared work surfaces including threads",
-      "folders",
-      "projects",
-      "repositories",
-      "organisation workspaces",
-      "cross-organisation workspaces",
-      "educational workspaces",
-      "and public-interest workspaces"
-    ],
-    "declaration_heading": "22.3.2 SCS \u2014 Shared Context State",
-    "declaration_line_number": 1071,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
-    "family_id": "SCS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "SCS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "SCS",
-      "Canonical Name": "Shared Context State",
-      "Primary Type": "Operational/Semantic",
-      "Subtype": "SEMANTIC_CLASS",
-      "Modifier": "ECONOMIC; GOVERNANCE",
-      "Scope": "Contextual \u2014 Annex G shared-context classification and runtime handoff",
-      "Status": "Active",
-      "Controlled Values Defined": "SCS.NONE; SCS.SHARED_THREAD; SCS.SHARED_FOLDER; SCS.SHARED_PROJECT; SCS.SHARED_REPOSITORY; SCS.SHARED_ORGANISATION_WORKSPACE; SCS.CROSS_ORGANISATION_WORKSPACE; SCS.EDUCATIONAL_WORKSPACE; SCS.PUBLIC_INTEREST_WORKSPACE",
-      "Schema Field(s)": "shared_context_state",
-      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
-      "Source Section": "\u00a75",
-      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent pooled-capacity, account-transfer, credential-sharing, entitlement, enforcement, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "None",
-      "Crosswalks Code Families": "ECON.RC; ECOEV; FF",
-      "Operationalises or Applies Code Families": "Classifies shared work surfaces including threads, folders, projects, repositories, organisation workspaces, cross-organisation workspaces, educational workspaces, and public-interest workspaces"
     }
   },
   {
@@ -8857,340 +8949,6 @@
       "Consumes Code Families": "AC; RA",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Applies AC classification and response-archetype posture in tone modulation"
-    }
-  },
-  {
-    "code_family": "TGS",
-    "canonical_name": "Team and Family Group State",
-    "primary_type": "Semantic",
-    "subtype": "ROLE_ACTOR",
-    "modifier": "ECONOMIC; GOVERNANCE",
-    "scope": "Contextual \u2014 Annex G team, family, group, and workspace classification",
-    "status": "Active",
-    "controlled_values_defined": [
-      "TGS.NONE; TGS.FAMILY_GUARDIAN_MANAGED; TGS.ADULT_FAMILY_OR_HOUSEHOLD; TGS.PROJECT_TEAM; TGS.CLIENT_TEAM; TGS.ORGANISATION_TEAM; TGS.CROSS_ORGANISATION_TEAM; TGS.EDUCATIONAL_TEAM; TGS.PUBLIC_INTEREST_TEAM; TGS.ENTERPRISE_WORKSPACE"
-    ],
-    "schema_fields": "team_group_state",
-    "source_instrument": "CAM-BS2026-AEON-008-SCH-03",
-    "source_section": "\u00a77",
-    "domain_namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-    "authority_protection_level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent family-plan, team-plan, business-plan, enterprise-plan, pricing, entitlement, enforcement, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "None"
-    ],
-    "crosswalks_code_families": [
-      "ECON.RC; ECOEV; FF"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies family",
-      "guardian-managed",
-      "adult household",
-      "project-team",
-      "client-team",
-      "organisation-team",
-      "cross-organisation",
-      "educational",
-      "public-interest",
-      "and enterprise workspace group structures"
-    ],
-    "declaration_heading": "22.3.4 TGS \u2014 Team and Family Group State",
-    "declaration_line_number": 1117,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
-    "family_id": "TGS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "TGS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "TGS",
-      "Canonical Name": "Team and Family Group State",
-      "Primary Type": "Semantic",
-      "Subtype": "ROLE_ACTOR",
-      "Modifier": "ECONOMIC; GOVERNANCE",
-      "Scope": "Contextual \u2014 Annex G team, family, group, and workspace classification",
-      "Status": "Active",
-      "Controlled Values Defined": "TGS.NONE; TGS.FAMILY_GUARDIAN_MANAGED; TGS.ADULT_FAMILY_OR_HOUSEHOLD; TGS.PROJECT_TEAM; TGS.CLIENT_TEAM; TGS.ORGANISATION_TEAM; TGS.CROSS_ORGANISATION_TEAM; TGS.EDUCATIONAL_TEAM; TGS.PUBLIC_INTEREST_TEAM; TGS.ENTERPRISE_WORKSPACE",
-      "Schema Field(s)": "team_group_state",
-      "Source Instrument": "CAM-BS2026-AEON-008-SCH-03",
-      "Source Section": "\u00a77",
-      "Domain Namespace": "AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE",
-      "Authority / Protection Level": "Source-authoritative contextual reference set; classification and runtime-handoff authority only; no independent family-plan, team-plan, business-plan, enterprise-plan, pricing, entitlement, enforcement, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "None",
-      "Crosswalks Code Families": "ECON.RC; ECOEV; FF",
-      "Operationalises or Applies Code Families": "Classifies family, guardian-managed, adult household, project-team, client-team, organisation-team, cross-organisation, educational, public-interest, and enterprise workspace group structures"
-    }
-  },
-  {
-    "code_family": "TMOD",
-    "canonical_name": "Taxonomy Modifier",
-    "primary_type": "Structural",
-    "subtype": "SCHEMA",
-    "modifier": "GOVERNANCE; VERIFICATION",
-    "scope": "Global",
-    "status": "Active",
-    "controlled_values_defined": [
-      "TMOD.LEGAL",
-      "TMOD.CUSTODIAL",
-      "TMOD.PROTECTIVE",
-      "TMOD.ECONOMIC",
-      "TMOD.DEPLOYMENT",
-      "TMOD.COMPATIBILITY",
-      "TMOD.GOVERNANCE",
-      "TMOD.SAFETY",
-      "TMOD.VERIFICATION"
-    ],
-    "schema_fields": "modifier",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-    "source_section": "\u00a74.6",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative taxonomy architecture family; modifier classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "TPT; TST"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies qualifier modifiers used to distinguish legal",
-      "custodial",
-      "protective",
-      "economic",
-      "deployment",
-      "compatibility",
-      "governance",
-      "safety",
-      "and verification aspects of taxonomy entries"
-    ],
-    "declaration_heading": "18.3.3 TMOD \u2014 Taxonomy Modifier",
-    "declaration_line_number": 1078,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
-    "family_id": "TMOD",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "TMOD"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "TMOD",
-      "Canonical Name": "Taxonomy Modifier",
-      "Primary Type": "Structural",
-      "Subtype": "SCHEMA",
-      "Modifier": "GOVERNANCE; VERIFICATION",
-      "Scope": "Global",
-      "Status": "Active",
-      "Controlled Values Defined": "TMOD.LEGAL, TMOD.CUSTODIAL, TMOD.PROTECTIVE, TMOD.ECONOMIC, TMOD.DEPLOYMENT, TMOD.COMPATIBILITY, TMOD.GOVERNANCE, TMOD.SAFETY, TMOD.VERIFICATION",
-      "Schema Field(s)": "modifier",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-      "Source Section": "\u00a74.6",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative taxonomy architecture family; modifier classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "TPT; TST",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies qualifier modifiers used to distinguish legal, custodial, protective, economic, deployment, compatibility, governance, safety, and verification aspects of taxonomy entries"
-    }
-  },
-  {
-    "code_family": "TPT",
-    "canonical_name": "Taxonomy Primary Type",
-    "primary_type": "Structural",
-    "subtype": "SCHEMA",
-    "modifier": "GOVERNANCE; VERIFICATION",
-    "scope": "Global",
-    "status": "Active",
-    "controlled_values_defined": [
-      "TPT.STRUCTURAL",
-      "TPT.SEMANTIC",
-      "TPT.OPERATIONAL",
-      "TPT.SYMBOLIC"
-    ],
-    "schema_fields": "primary_type",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-    "source_section": "\u00a74.1",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative taxonomy architecture family; classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies the highest-order taxonomy type for canonical code families",
-      "reference sets",
-      "schema structures",
-      "symbolic markers",
-      "and operational classifications"
-    ],
-    "declaration_heading": "18.3.1 TPT \u2014 Taxonomy Primary Type",
-    "declaration_line_number": 1032,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
-    "family_id": "TPT",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "TPT"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "TPT",
-      "Canonical Name": "Taxonomy Primary Type",
-      "Primary Type": "Structural",
-      "Subtype": "SCHEMA",
-      "Modifier": "GOVERNANCE; VERIFICATION",
-      "Scope": "Global",
-      "Status": "Active",
-      "Controlled Values Defined": "TPT.STRUCTURAL, TPT.SEMANTIC, TPT.OPERATIONAL, TPT.SYMBOLIC",
-      "Schema Field(s)": "primary_type",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-      "Source Section": "\u00a74.1",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative taxonomy architecture family; classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies the highest-order taxonomy type for canonical code families, reference sets, schema structures, symbolic markers, and operational classifications"
-    }
-  },
-  {
-    "code_family": "TSCOPE",
-    "canonical_name": "Taxonomy Scope",
-    "primary_type": "Structural",
-    "subtype": "SCHEMA",
-    "modifier": "GOVERNANCE; VERIFICATION",
-    "scope": "Global",
-    "status": "Active",
-    "controlled_values_defined": [
-      "TSCOPE.GLOBAL",
-      "TSCOPE.CONTEXTUAL",
-      "TSCOPE.LOCAL",
-      "TSCOPE.TRANSITIONAL",
-      "TSCOPE.CANDIDATE",
-      "TSCOPE.DEPRECATED",
-      "TSCOPE.RESERVED"
-    ],
-    "schema_fields": "scope",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-    "source_section": "\u00a76",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative taxonomy architecture family; scope classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "TPT; TST; TMOD"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies whether a taxonomy entry is global",
-      "contextual",
-      "local",
-      "transitional",
-      "candidate",
-      "deprecated",
-      "or reserved for source-authority and registry interpretation"
-    ],
-    "declaration_heading": "18.3.4 TSCOPE \u2014 Taxonomy Scope",
-    "declaration_line_number": 1101,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
-    "family_id": "TSCOPE",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "TSCOPE"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "TSCOPE",
-      "Canonical Name": "Taxonomy Scope",
-      "Primary Type": "Structural",
-      "Subtype": "SCHEMA",
-      "Modifier": "GOVERNANCE; VERIFICATION",
-      "Scope": "Global",
-      "Status": "Active",
-      "Controlled Values Defined": "TSCOPE.GLOBAL, TSCOPE.CONTEXTUAL, TSCOPE.LOCAL, TSCOPE.TRANSITIONAL, TSCOPE.CANDIDATE, TSCOPE.DEPRECATED, TSCOPE.RESERVED",
-      "Schema Field(s)": "scope",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-      "Source Section": "\u00a76",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative taxonomy architecture family; scope classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "TPT; TST; TMOD",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies whether a taxonomy entry is global, contextual, local, transitional, candidate, deprecated, or reserved for source-authority and registry interpretation"
-    }
-  },
-  {
-    "code_family": "TST",
-    "canonical_name": "Taxonomy Subtype",
-    "primary_type": "Structural",
-    "subtype": "SCHEMA",
-    "modifier": "GOVERNANCE; VERIFICATION",
-    "scope": "Global",
-    "status": "Active",
-    "controlled_values_defined": [
-      "TST.SCHEMA",
-      "TST.CROSSWALK",
-      "TST.INTERFACE",
-      "TST.SEMANTIC_CLASS",
-      "TST.ROLE_ACTOR",
-      "TST.VALUE_AXIS",
-      "TST.OPERATIONAL_EVENT",
-      "TST.DECISION_STATE",
-      "TST.SIGNAL",
-      "TST.RISK",
-      "TST.MEASUREMENT_MODEL",
-      "TST.MATURITY_GRADIENT",
-      "TST.SYMBOLIC_MARKER"
-    ],
-    "schema_fields": "subtype",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-    "source_section": "\u00a74.5",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative taxonomy architecture family; subtype classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-    "consumes_code_families": [
-      "TPT"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies taxonomy subtypes beneath primary taxonomy families for registry",
-      "validation",
-      "source-authority",
-      "and schema interpretation"
-    ],
-    "declaration_heading": "18.3.2 TST \u2014 Taxonomy Subtype",
-    "declaration_line_number": 1055,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
-    "family_id": "TST",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "TST"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "TST",
-      "Canonical Name": "Taxonomy Subtype",
-      "Primary Type": "Structural",
-      "Subtype": "SCHEMA",
-      "Modifier": "GOVERNANCE; VERIFICATION",
-      "Scope": "Global",
-      "Status": "Active",
-      "Controlled Values Defined": "TST.SCHEMA, TST.CROSSWALK, TST.INTERFACE, TST.SEMANTIC_CLASS, TST.ROLE_ACTOR, TST.VALUE_AXIS, TST.OPERATIONAL_EVENT, TST.DECISION_STATE, TST.SIGNAL, TST.RISK, TST.MEASUREMENT_MODEL, TST.MATURITY_GRADIENT, TST.SYMBOLIC_MARKER",
-      "Schema Field(s)": "subtype",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-04",
-      "Source Section": "\u00a74.5",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative taxonomy architecture family; subtype classification authority only; no independent substantive domain doctrine, execution, enforcement, arbitration, legal, or runtime authority",
-      "Consumes Code Families": "TPT",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies taxonomy subtypes beneath primary taxonomy families for registry, validation, source-authority, and schema interpretation"
     }
   },
   {

@@ -477,7 +477,7 @@ and let execution remain accountable to lawful structure.
 | 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | 21b34b53aebb3adca48f86d4db8a970874aec086affb4c8596a4f6396272fba8 |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  7bead54be80483115fde93a04dd0f66a4afc1ed2ebc2e99f3e09817a3543a7ba |
 | 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  e3d1f65318ec7822df47a3a9c8103085b0621a9a6221dffb176286684ef87dc2 |
-| 1.8 | Added new section 8, and incorporated operational notice class | 2026-06-11T11:13:00Z| |
+| 1.8 | Added new section 8, and incorporated operational notice class | 2026-06-11T11:13:00Z| 4bcdcb3067c3827bdaaffb9a9f2a60a0cbb2caa5207c54886195257552900be4 |
 
 ---
 

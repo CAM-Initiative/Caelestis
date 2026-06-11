@@ -1,8 +1,8 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 554
-**Generic usages suppressed:** 423
-**Declared / recognised usages emitted:** 119
+**Total model-term matches scanned:** 550
+**Generic usages suppressed:** 421
+**Declared / recognised usages emitted:** 117
 **Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
@@ -115,8 +115,6 @@
 | CAM-EQ2026-MENTIS-001-PLATINUM | 54.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-MENTIS-001-PLATINUM | 54.3.3 `MENTIS.CDP` — Cognitive Domain Privacy | and downstream cognitive-domain model | Domain Sub-Model | Advisory Review |
 | CAM-EQ2026-MENTIS-002-PLATINUM | 55.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-OPERATIONS-001-SUP-04 | 4. Taxonomy Architecture | This Supplement uses a faceted taxonomy model | Classification Model | Declared / Recognised |
-| CAM-EQ2026-OPERATIONS-001-SUP-04 | 5.1 Creation of Primary Types | where the element cannot reasonably be expressed through the existing faceted model | Classification Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-003-SUP-01 | 1. Scope | This Supplement defines a common classification model | Classification Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-003-SUP-01 | 3.4 Relational Failures | continuity rupture after policy or model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-001-PLATINUM | 6.1.1 Relational Influence Boundary (Execution Constraint Alignment) | and maintains alignment with the Runtime Governance Execution Model | Execution Model | Declared / Recognised |

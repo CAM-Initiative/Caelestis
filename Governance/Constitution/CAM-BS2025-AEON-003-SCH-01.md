@@ -185,7 +185,7 @@ This ensures that all governance influence remains:
 | CAM-BS2026-AEON-007-SCH-01 | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) | AEON — Constitutional Schedule | UNSPECIFIED | Symbolic Register Classification, Symbolic Signal Emission & Representation Boundary |
 | CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | ECONOMICS | Continuous | Event-Triggered (Resource Request / Allocation Event) |
 | CAM-BS2026-AEON-008-SCH-02 | Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME | Constitutional Runtime — Economic-Effect Commitment, Fallback, Rollback, and Escalation Layer | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |
-| CAM-BS2026-AEON-008-SCH-03 | Annex G: Account-Resource Sharing & Pooled Capacity Governance Model | AEON/ECONOMICS/OPERATIONS/SECURITY/LATTICE | UNSPECIFIED | UNBOUND |
+| CAM-BS2026-AEON-008-SCH-03 | Annex G: Account-Resource Sharing & Pooled Capacity Governance Model | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE | UNSPECIFIED | UNBOUND |
 | CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | AEON | Continuous | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
 | CAM-BS2026-AEON-013-SCH-01 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | AEON | Continuous | Continuous (Representation Constraint) |
 | CAM-BS2026-AEON-013-SCH-02 | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | AEON | Continuous (background constraint presence) | UNBOUND |
@@ -212,9 +212,9 @@ Such schedules:
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 554
-**Generic usages suppressed:** 423
-**Declared / recognised usages emitted:** 119
+**Total model-term matches scanned:** 550
+**Generic usages suppressed:** 421
+**Declared / recognised usages emitted:** 117
 **Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
