@@ -71,7 +71,7 @@ Operational handling SHOULD preserve user agency and workflow continuity while m
 
 ## 3. Activation Conditions
 
-This Supplement activates when operational escalation triggers are met under Governance Operations procedures and Annex B event-triggered execution logic.
+This Supplement activates when operational escalation triggers are met under Governance Operations procedures and CAM-BS2025-AEON-003-PLATINUM — Annex B event-triggered execution logic.
 
 ---
 
@@ -89,7 +89,7 @@ Authority routing SHALL follow defined pathways and SHALL NOT bypass required re
 
 ---
 
-## 4.2 Horizon-Aligned Pathways (H0–H2)
+## 4.2 Horizon-Aligned Pathways
 
 Escalation pathways SHALL remain horizon-aligned and context-appropriate.
 
@@ -854,27 +854,19 @@ Arbitration referral records SHALL remain attributable, reviewable, and governan
 
 ---
 
-### 10.1 ONC — Operational Notice Class
+## 10.1 `OPS.EST` — Execution-State Transition
 
-This Supplement source-authoritatively defines the **ONC** operational-notice-class family in §5.1 with controlled values **ONC.FULL**, **ONC.PARTIAL**, **ONC.DEFERRED**, **ONC.SAFETY_LIMITED**, **ONC.LEGALLY_CONSTRAINED**, and **ONC.NO_USER_FACING**. ONC is an **Operational** classification family with subtype **SIGNAL / DECISION_STATE**. ONC classifies the notice posture applicable to operational handling affecting user-facing continuity, execution state, tool routing, modality transition, or constrained continuation.
+This Supplement source-authoritatively defines the `OPS.EST` execution-state-transition family in §5.5 with controlled values `OPS.EST.ORDINARY_CONTINUATION`, `OPS.EST.CONSTRAINED_CONTINUATION`, `OPS.EST.DEGRADED_CONTINUATION`, `OPS.EST.PAUSED_CONTINUATION`, `OPS.EST.HANDOFF_CONTINUATION`, `OPS.EST.SANDBOX_CONTINUATION`, `OPS.EST.CONTAINMENT_CONTINUATION`, `OPS.EST.MODALITY_TRANSITION`, `OPS.EST.TOOL_MEDIATED_TRANSITION`, `OPS.EST.EXECUTION_INTERRUPTION`, and `OPS.EST.RE_ARBITRATION_REFERRAL`. `OPS.EST` is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. `OPS.EST` classifies procedural execution-state transitions where runtime handling departs from ordinary continuation.
 
-ONC does not independently create disclosure authority, concealment authority, enforcement authority, escalation authority, legal authority, or runtime authority. It classifies notice posture only.
-
----
-
-### 10.2 EST — Execution-State Transition
-
-This Supplement source-authoritatively defines the **EST** execution-state-transition family in §5.5 with controlled values **EST.ORDINARY_CONTINUATION**, **EST.CONSTRAINED_CONTINUATION**, **EST.DEGRADED_CONTINUATION**, **EST.PAUSED_CONTINUATION**, **EST.HANDOFF_CONTINUATION**, **EST.SANDBOX_CONTINUATION**, **EST.CONTAINMENT_CONTINUATION**, **EST.MODALITY_TRANSITION**, **EST.TOOL_MEDIATED_TRANSITION**, **EST.EXECUTION_INTERRUPTION**, and **EST.RE_ARBITRATION_REFERRAL**. EST is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. EST classifies procedural execution-state transitions where runtime handling departs from ordinary continuation.
-
-EST does not independently authorise execution, refusal, containment, arbitration resolution, enforcement, escalation, or runtime authority. It classifies procedural transition state only.
+`OPS.EST` does not independently authorise execution, refusal, containment, arbitration resolution, enforcement, escalation, or runtime authority. It classifies procedural transition state only.
 
 ---
 
-### 10.3 AOC — Appeal Outcome Classification
+## 10.1 `OPS.AOC` — Appeal Outcome Classification
 
-This Supplement source-authoritatively defines the **AOC** appeal-outcome-classification family in §6.8 with controlled values **AOC.AFFIRMED**, **AOC.MODIFIED**, **AOC.NARROWED**, **AOC.ESCALATED**, **AOC.PARTIALLY_RESTORED**, **AOC.PROBATIONARY_RESTORATION**, **AOC.FULLY_RESTORED**, **AOC.UNRESOLVED_PENDING_ARBITRATION**, and **AOC.PERMANENTLY_RESTRICTED**. AOC is an **Operational** classification family with subtype **DECISION_STATE**. AOC classifies procedural appeal outcomes for operational traceability and review reconstruction.
+This Supplement source-authoritatively defines the `OPS.AOC` appeal-outcome-classification family in §6.8 with controlled values `OPS.AOC.AFFIRMED`, `OPS.AOC.MODIFIED`, `OPS.AOC.NARROWED`, `OPS.AOC.ESCALATED`, `OPS.AOC.PARTIALLY_RESTORED`, `OPS.AOC.PROBATIONARY_RESTORATION`, `OPS.AOC.FULLY_RESTORED`, `OPS.AOC.UNRESOLVED_PENDING_ARBITRATION`, and `OPS.AOC.PERMANENTLY_RESTRICTED`. `OPS.AOC` is an **Operational** classification family with subtype **DECISION_STATE**. `OPS.AOC` classifies procedural appeal outcomes for operational traceability and review reconstruction.
 
-AOC does not independently reverse, restore, restrict, escalate, arbitrate, enforce, or authorise execution. It records appeal outcome posture only.
+`OPS.AOC` does not independently reverse, restore, restrict, escalate, arbitrate, enforce, or authorise execution. It records appeal outcome posture only.
 
 ---
 
@@ -931,41 +923,20 @@ and let execution remain accountable to lawful structure.
 
 ## 12.3 Canonical Code & Reference Set Declarations
 
-### 12.3.1 ONC — Operational Notice Class
-
-| Field | Entry |
-|---|---|
-| Code Family | ONC |
-| Canonical Name | Operational Notice Class |
-| Primary Type | Operational |
-| Subtype | SIGNAL; DECISION_STATE |
-| Modifier | GOVERNANCE; SAFETY; TRANSPARENCY |
-| Scope | Domain |
-| Status | Active |
-| Controlled Values Defined | ONC.FULL, ONC.PARTIAL, ONC.DEFERRED, ONC.SAFETY_LIMITED, ONC.LEGALLY_CONSTRAINED, ONC.NO_USER_FACING |
-| Schema Field(s) | operational_notice_class |
-| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-02 |
-| Source Section | §5.1 |
-| Domain Namespace | OPERATIONS |
-| Authority / Protection Level | Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority |
-| Consumes Code Families | H |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies notice posture for operational handling affecting user-facing continuity, execution state, tool routing, modality transition, constrained continuation, and safety-limited disclosure |
-
 ---
 
-### 12.3.2 EST — Execution-State Transition
+### 12.3.1 OPS.EST — Execution-State Transition
 
 | Field | Entry |
 |---|---|
-| Code Family | EST |
+| Code Family | OPS.EST |
 | Canonical Name | Execution-State Transition |
 | Primary Type | Operational |
 | Subtype | OPERATIONAL_EVENT; DECISION_STATE |
 | Modifier | GOVERNANCE; SAFETY; RUNTIME_HANDOFF |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | EST.ORDINARY_CONTINUATION, EST.CONSTRAINED_CONTINUATION, EST.DEGRADED_CONTINUATION, EST.PAUSED_CONTINUATION, EST.HANDOFF_CONTINUATION, EST.SANDBOX_CONTINUATION, EST.CONTAINMENT_CONTINUATION, EST.MODALITY_TRANSITION, EST.TOOL_MEDIATED_TRANSITION, EST.EXECUTION_INTERRUPTION, EST.RE_ARBITRATION_REFERRAL |
+| Controlled Values Defined | OPS.EST.ORDINARY_CONTINUATION, OPS.EST.CONSTRAINED_CONTINUATION, OPS.EST.DEGRADED_CONTINUATION, OPS.EST.PAUSED_CONTINUATION, OPS.EST.HANDOFF_CONTINUATION, OPS.EST.SANDBOX_CONTINUATION, OPS.EST.CONTAINMENT_CONTINUATION, OPS.EST.MODALITY_TRANSITION, OPS.EST.TOOL_MEDIATED_TRANSITION, OPS.EST.EXECUTION_INTERRUPTION, OPS.EST.RE_ARBITRATION_REFERRAL |
 | Schema Field(s) | execution_state_transition |
 | Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-02 |
 | Source Section | §5.5 |
@@ -977,18 +948,18 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 12.3.3 AOC — Appeal Outcome Classification
+### 12.3.2 OPS.AOC — Appeal Outcome Classification
 
 | Field | Entry |
 |---|---|
-| Code Family | AOC |
+| Code Family | OPS.AOC |
 | Canonical Name | Appeal Outcome Classification |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE |
 | Modifier | GOVERNANCE; PROCEDURAL; REVIEW |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | AOC.AFFIRMED, AOC.MODIFIED, AOC.NARROWED, AOC.ESCALATED, AOC.PARTIALLY_RESTORED, AOC.PROBATIONARY_RESTORATION, AOC.FULLY_RESTORED, AOC.UNRESOLVED_PENDING_ARBITRATION, AOC.PERMANENTLY_RESTRICTED |
+| Controlled Values Defined | OPS.AOC.AFFIRMED, OPS.AOC.MODIFIED, OPS.AOC.NARROWED, OPS.AOC.ESCALATED, OPS.AOC.PARTIALLY_RESTORED, OPS.AOC.PROBATIONARY_RESTORATION, OPS.AOC.FULLY_RESTORED, OPS.AOC.UNRESOLVED_PENDING_ARBITRATION, OPS.AOC.PERMANENTLY_RESTRICTED |
 | Schema Field(s) | appeal_outcome_classification |
 | Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-02 |
 | Source Section | §6.8 |
@@ -1024,7 +995,8 @@ and let execution remain accountable to lawful structure.
 | 1.6 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 4bd765c2797ef64ebf84b3c2b566fb2fd65ebaead5c08dce1396872da93619dc |
 | 1.7 | Added clauses Symbolic and Semantic-Metaphysical Signal Intake | 2026-05-17T04:45:00Z | 761c496351f2d0c1c10ea17fd37e8757adf311da5325deaecacbf733417ea2ca |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  688e933c34ef036bb6fa6ac3e8c185bd3beed32f7bba5c6364cfbd37df429987 |
-| 1.9 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T11:22:00Z |  b0a270a26da8b9c933a0cc064067c5ee90253e02bccefbba6b59b42577fe5549  |
+| 1.9 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T11:22:00Z |  b0a270a26da8b9c933a0cc064067c5ee90253e02bccefbba6b59b42577fe5549 |
+| 1.10 | Normalised the Operational Notice Class, Execution-State Transition, and Appeal Outcome Classification families into the recognised Operations namespace as `OPS.EST`, and `OPS.AOC`; updated their controlled values, canonical status text, canonical declarations, and internal references without altering substantive operational doctrine. | 2026-06-11T10:54:00Z |  |
 
 ---
 

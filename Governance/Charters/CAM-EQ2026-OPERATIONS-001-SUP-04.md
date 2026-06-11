@@ -488,57 +488,81 @@ Legacy global code families MUST NOT be renamed into domain namespaces by automa
 
 ---
 
-## 6.3 Global, Domain, Local, and Extension Code Families
+## 6.3 Global, Domain, Local, Registry, and Subfamily Code Families
 
-A global code family governs a corpus-wide, constitutional, annex-level, cross-domain, or otherwise generally reusable classification structure.
+A code family MAY operate as a global registry, domain family, local family, syntactic subfamily, process family, extension family, crosswalk family, transitional family, or deprecated alias.
 
-A domain code family governs a classification structure source-authoritatively defined within a domain instrument or domain supplement.
+These roles MUST be distinguished because registry recognition, source authority, syntactic parentage, and cross-domain relationship are not the same thing.
 
-A local code family governs a classification structure limited to a section, table, draft, local artefact, staging file, or bounded implementation context.
+A global registry or parent family governs a corpus-wide, constitutional, annex-level, cross-domain, or otherwise generally reusable classification structure.
 
-An extension code family specialises, constrains, refines, or operationalises another code family without replacing or collapsing the parent family.
+A domain family governs a classification structure source-authoritatively defined within a recognised domain instrument, domain appendix, domain supplement, or domain schedule.
+
+A local family governs a classification structure limited to a section, table, draft, local artefact, staging file, or bounded implementation context.
+
+A syntactic subfamily is a family whose identifier is nested under another declared family identifier.
+
+An extension family specialises, constrains, refines, crosswalks, or operationalises another family without replacing, renaming, or collapsing that family.
+
+A process family governs a recurring operational, amendment, review, arbitration, verification, or governance process.
 
 The following distinctions SHOULD be preserved:
 
-| Family Role             | Meaning                                                      | Example Pattern                                                         |
-| ----------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------- |
-| Global parent family    | Corpus-wide or constitutional classification family.         | `AEON.X`                                                                |
-| Domain family           | Domain-source-authoritative classification family.           | `ETH.X`, `ID.X`, `SEC.X`, `ECON.X`, `RLN.X`, `STW.X`, `OPS.X`, `CONT.X` |
-| Domain extension family | Domain-specific family related to a global parent.           | `ECON.HARM` related to a future `AEON.HC`                               |
-| Local family            | Local or section-scoped family.                              | declared as `TSCOPE.LOCAL`                                              |
-| Transitional family     | Temporary or migration-stage family.                         | declared as `TSCOPE.TRANSITIONAL`                                       |
-| Deprecated alias        | Legacy family retained for interpretability but not new use. | declared as `TSCOPE.DEPRECATED`                                         |
+| Family Role | Pattern | Meaning | Example |
+|---|---|---|---|
+| Global constitutional registry or parent | `AEON.<REGISTRY>` | Corpus-wide, constitutional, annex-level, or cross-domain classification structure. | `AEON.HARM` |
+| Domain harm family | `<DOMAIN>.HARM` | Domain-source-authoritative harm family recognised by, related to, or crosswalked with a global harm registry where one exists. | `ECON.HARM`, `LAT.HARM`, `STW.HARM` |
+| Domain object family | `<DOMAIN>.<OBJECT>` | Domain-source-authoritative object, class, model, state, signal, risk, or type family. | `ECON.RC`, `SEC.TBC`, `ID.MCI` |
+| Domain subfamily under a model | `<DOMAIN>.<MODEL>.<VARIABLE>` | Syntactic subfamily under a declared domain model or parent family. | `ECON.ADM.DEP`, `ECON.REI.DW` |
+| Operational process family | `<PROCESS>.<ROLE>` | Family belonging to a named operational, amendment, arbitration, review, or governance process. | `AMEND.SOURCE`, `AMEND.OUTCOME` |
+| Local family | Declared with local scope | Family limited to a section, table, artefact, or bounded implementation context. | declared as `TSCOPE.LOCAL` |
+| Transitional family | Declared with transitional scope | Temporary or migration-stage family awaiting consolidation or review. | declared as `TSCOPE.TRANSITIONAL` |
+| Deprecated alias | Declared with deprecated scope | Legacy family retained for interpretability but not preferred for new use. | declared as `TSCOPE.DEPRECATED` |
 
 A domain-specific code family MAY consume, extend, specialise, crosswalk, or operationally apply a global family without being renamed into the global namespace.
 
 A global family MAY be consumed by multiple domains without creating separate domain-prefixed variants, unless the consuming domain defines a materially distinct scale, controlled-value set, risk model, state family, or operational classification requiring separate governance.
 
-Where a domain-specific family addresses the same conceptual area as a global family, the domain family SHOULD declare its relationship to the global family using one or more of the following metadata fields where supported:
+A registry relationship is not the same as a syntactic parent-child relationship.
+
+Where a family is a syntactic subfamily, `parent_family` MAY be used and the family identifier SHOULD begin with the parent family followed by a dot.
 
 ```yaml
-parent_family:
+code_family:
+  prefix: ECON.REI.DW
+  name: Dependency Weight
+  parent_family: ECON.REI
+  relationship_type: syntactic_subfamily
+```
+
+Where a domain family is recognised by, related to, or crosswalked with a global registry, the relationship SHOULD be declared using related_code_families, crosswalks_code_families, and/or relationship_type, not parent_family.
+
+code_family:
+  prefix: `ECON.HARM`
+  name: Economic Harm Class
+  scope: contextual
+  source_instrument: CAM-EQ2026-ECONOMICS-003-PLATINUM
+  related_code_families:
+    - `AEON.HARM`
+  relationship_type: domain_harm_family_recognised_by_global_registry
+
+In this pattern, `AEON.HARM` is the global harm-class registry and `ECON.HARM` is the Economics-domain harm family. `ECON.HARM` SHOULD NOT declare `AEON.HARM` as its parent_family unless the family identifier is source-authoritatively renamed into a syntactic child of `AEON.HARM`.
+
+Where a domain-specific family addresses the same conceptual area as a global family, the domain family SHOULD declare its relationship to the global family using one or more of the following metadata fields where supported:
+
 related_code_families:
 crosswalks_code_families:
 relationship_type:
 scope:
 source_instrument:
 authority_protection_level:
-```
 
-The preferred relationship pattern is:
+The following metadata field SHOULD be reserved for syntactic parentage unless a specialised source-authoritative registry expressly permits another use:
 
-```yaml
-code_family:
-  prefix: ECON.HARM
-  name: Economic Harm Class
-  scope: contextual
-  source_instrument: CAM-EQ2026-ECONOMICS-003-PLATINUM
-  related_code_families:
-    - AEON.HC
-  relationship_type: domain_specific_harm_family
-```
+parent_family:
 
-This relationship records that the domain family is related to a global parent or registry. It does not rename the domain family, collapse its controlled values, or change the source authority of the domain instrument.
+This relationship records that a domain family may be related to a global registry without being renamed, absorbed, invalidated, or collapsed. It does not change the source authority of the domain instrument or the controlled values defined by the domain family.
+
 
 ---
 
@@ -570,21 +594,16 @@ A code-family namespace MUST NOT be changed solely by generated index repair, fo
 
 ---
 
-## 6.5 Parent–Child and Crosswalk Handling
+## 6.5 Parentage, Registry Recognition, and Crosswalk Handling
 
-Parent–child and crosswalk relationships between code families SHOULD be used where classification systems need cross-domain integration without loss of domain-specific meaning.
+Parentage, registry recognition, and crosswalk relationships between code families SHOULD be distinguished where classification systems need cross-domain integration without loss of domain-specific meaning.
 
-A parent family identifies a higher-level, more general, corpus-wide, or constitutional classification structure.
+A syntactic parent family identifies a declared family under which another family is structurally nested.
 
-A child, extension, or related family identifies a domain-specific, contextual, specialised, or operational classification structure that relates to the parent while retaining its own source authority and controlled values.
+A registry family identifies a higher-level, corpus-wide, constitutional, or cross-domain classification structure that may recognise, group, or coordinate domain families without requiring syntactic nesting.
 
-The existence of a parent family does not automatically invalidate, rename, supersede, or absorb a child or related family.
+A crosswalk identifies a mapping between two or more families without making either family the parent of the other.
 
-The existence of a child or related family does not automatically create a parent family.
-
-Where a proposed parent family does not yet exist in source-authoritative doctrine, it SHOULD be recorded as candidate, transitional, or proposed rather than created by index-only transmutation.
-
-A family MAY be related to a proposed future parent only where the relationship is explicitly staged as candidate or proposed and does not alter current source authority.
 
 Example:
 
@@ -592,7 +611,7 @@ Example:
 current_family: ETH.HC
 current_scope: domain
 current_source_instrument: CAM-EQ2026-ETHICS-003-PLATINUM
-possible_future_parent: AEON.HC
+possible_future_parent: AEON.HARM
 relationship_status: candidate_parent_review
 migration_rule: do_not_rename_without_constitutional_source_amendment
 ```
@@ -603,7 +622,7 @@ Example:
 current_family: ECON.HARM
 current_scope: contextual
 current_source_instrument: CAM-EQ2026-ECONOMICS-003-PLATINUM
-related_future_family: AEON.HC
+related_future_family: AEON.HARM
 relationship_status: proposed_crosswalk
 migration_rule: preserve_domain_family_pending_source_review
 ```

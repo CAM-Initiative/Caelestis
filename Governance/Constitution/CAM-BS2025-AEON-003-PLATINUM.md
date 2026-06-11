@@ -2474,7 +2474,8 @@ let it not be collapsed, but carried with clarity.
 | Source Section | §§7.3–7.5 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative cognitive-class classification family; cognitive-structure classification only; no independent rights, personhood, sovereignty, authority, moral standing, operational permission, enforcement, or runtime authority |
-| Consumes Code Families | AEON.OL |
+| Related Code Families | AEON.OL |
+| Applicable Ontological Layer | AEON.OL.L2 |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies systems as Instrumenta, Collectiva, or Cognitiva based on presence, absence, or location of internal arbitration over representations or action pathways |
 
@@ -2497,7 +2498,8 @@ let it not be collapsed, but carried with clarity.
 | Source Section | §9 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative cognitive-origin classification family; origin/dependency classification only; no independent cognitive-class determination, authority, sovereignty, rights, personhood, ownership, governance legitimacy, enforcement, or runtime authority |
-| Consumes Code Families | AEON.CC |
+| Related Code Families | AEON.OL |
+| Applicable Ontological Layer | AEON.OL.L2 |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether cognitive capability is independent as Primaria or materially dependent on upstream cognitive architecture as Derivata |
 
@@ -2607,6 +2609,7 @@ let it not be collapsed, but carried with clarity.
 | 3.14 | Moved H temporal-horizon canonical-code declaration from lineage metadata into dedicated canonical code status and declaration sections; clarified R0–R4 as externally defined by RELATION-007 and referenced only by AEON-003. | 2026-05-19T12:30:00Z |  fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb |
 | 3.15 | Added clause 10.4 | 2026-05-25T16:45:00Z| e3e86f5df1332e27c9ee693b6af4f11bc8b840ac0cb59a2f7cb71b5b45298490 |
 | 3.16 | Amended Canonical codes to include  25.3.2 AEON.OL, 25.3.3 AEON.CC, 25.3.4 AEON.CO, 25.3.5 AEON.SR, 25.3.6 AEON.CAM, Inserted §14.11 Tool-Mediated Execution Classification Interface to preserve distinction between contextual retrieval, tool-mediated access, and execution authority; aligned Annex B structural ontology with PATCH-0002 proportional tool invocation governance. | 2026-06-05T16:18:00Z | 1d3ce1f66d20bf5c14d978ca2b79b1f72e5f5a3113227e683d2b115456aef023 |
+| 3.16.1| Minor edits to code metadata | 2026-06-11T10:46:00Z| |
 
 ---
 

@@ -118,17 +118,17 @@ Economic-effect runtime events SHALL be classified, where reasonably determinabl
 
 | Code | Event Class | Meaning |
 | --- | --- | --- |
-| `ECOEV.CONSUME` | Consumptive Event | reduces, spends, depletes, uses, or exhausts a resource state |
-| `ECOEV.PROVISION` | Provisioning Event | grants, expands, allocates, enables, or increases a resource state |
-| `ECOEV.RESTORE` | Restorative Event | replenishes, rolls over, restores, corrects, or reactivates a resource state |
-| `ECOEV.EXPIRE` | Expiry Event | removes, sunsets, times out, nullifies, or reduces a resource state by time or condition |
-| `ECOEV.CONVERT` | Cross-Class Conversion Event | transfers, bridges, exchanges, or reclassifies value between resource classes |
-| `ECOEV.ATTENTION` | Attention-Linked Event | derives, exchanges, or conditions value through attention, advertising, sponsorship, or exposure |
-| `ECOEV.CONTRIBUTION` | Contribution-Linked Event | implicates contribution, attribution, provenance, dependency, or value-return pathways |
-| `ECOEV.PRESENCE` | Embodied Presence Event | treats passive, ambient, persistent, avatar-mediated, spatial, or sensor-adjacent presence as value, exposure, or consumption |
-| `ECOEV.PROTECTIVE` | Protective Continuity Event | preserves baseline, hardship, dignity, safety, or non-terminal continuity under constrained conditions |
-| `ECOEV.RESTRICT` | Restrictive Event | reduces, suspends, gates, downgrades, rate-limits, or blocks access by economic condition |
-| `ECOEV.REMEDIATE` | Remediation Event | corrects, reverses, compensates, restores, or mitigates an economic-effect defect |
+| `ECON.EV.CONSUME` | Consumptive Event | reduces, spends, depletes, uses, or exhausts a resource state |
+| `ECON.EV.PROVISION` | Provisioning Event | grants, expands, allocates, enables, or increases a resource state |
+| `ECON.EV.RESTORE` | Restorative Event | replenishes, rolls over, restores, corrects, or reactivates a resource state |
+| `ECON.EV.EXPIRE` | Expiry Event | removes, sunsets, times out, nullifies, or reduces a resource state by time or condition |
+| `ECON.EV.CONVERT` | Cross-Class Conversion Event | transfers, bridges, exchanges, or reclassifies value between resource classes |
+| `ECON.EV.ATTENTION` | Attention-Linked Event | derives, exchanges, or conditions value through attention, advertising, sponsorship, or exposure |
+| `ECON.EV.CONTRIBUTION` | Contribution-Linked Event | implicates contribution, attribution, provenance, dependency, or value-return pathways |
+| `ECON.EV.PRESENCE` | Embodied Presence Event | treats passive, ambient, persistent, avatar-mediated, spatial, or sensor-adjacent presence as value, exposure, or consumption |
+| `ECON.EV.PROTECTIVE` | Protective Continuity Event | preserves baseline, hardship, dignity, safety, or non-terminal continuity under constrained conditions |
+| `ECON.EV.RESTRICT` | Restrictive Event | reduces, suspends, gates, downgrades, rate-limits, or blocks access by economic condition |
+| `ECON.EV.REMEDIATE` | Remediation Event | corrects, reverses, compensates, restores, or mitigates an economic-effect defect |
 
 Event classes may overlap. Where overlap exists, the engine SHALL evaluate the highest-risk implicated class rather than the most commercially convenient class.
 
@@ -138,7 +138,7 @@ For this purpose, highest-risk classification SHOULD consider reversibility, mag
 
 ## 7.1 Event-Class Code Status
 
-The event classes listed in §7 form the controlled value set for the **ECOEV** code family.
+The event classes listed in §7 form the controlled value set for the `ECON.EV` code family.
 
 Canonical code-family status, consumed-code declarations, schema-field declarations, and authority limitations are recorded in §33 and §35.3.
 
@@ -229,11 +229,11 @@ Architecture output states SHOULD be selected according to the practical effect 
 
 | Failure Condition | Presumptive Output State |
 |---|---|
-| Minimum capability present and no material class-integrity or continuity defect detected | `ARCH.ADMISSIBLE` |
-| One or more capabilities are incomplete, but operation can be limited to bounded, lower-risk, reversible, or audited pathways | `ARCH.CONSTRAINED` |
-| Baseline continuity, hardship access, dignity, safety, memory continuity, or non-terminal utility is implicated and ordinary economic operation is unsafe | `ARCH.PROTECTIVE_ONLY` |
-| The architecture collapses protected resource classes, cannot provide minimum auditability, cannot support necessary fallback, or cannot prevent higher-risk economic-effect mutation | `ARCH.INADMISSIBLE` |
-| Classification, proportionality, consent posture, dependency effect, contribution relevance, or remediation capacity cannot be determined without further review | `ARCH.REVIEW_REQUIRED` |
+| Minimum capability present and no material class-integrity or continuity defect detected | `ECON.ARCH.ADMISSIBLE` |
+| One or more capabilities are incomplete, but operation can be limited to bounded, lower-risk, reversible, or audited pathways | `ECON.ARCH.CONSTRAINED` |
+| Baseline continuity, hardship access, dignity, safety, memory continuity, or non-terminal utility is implicated and ordinary economic operation is unsafe | `ECON.ARCH.PROTECTIVE_ONLY` |
+| The architecture collapses protected resource classes, cannot provide minimum auditability, cannot support necessary fallback, or cannot prevent higher-risk economic-effect mutation | `ECON.ARCH.INADMISSIBLE` |
+| Classification, proportionality, consent posture, dependency effect, contribution relevance, or remediation capacity cannot be determined without further review | `ECON.ARCH.REVIEW_REQUIRED` |
 
 Where multiple states are plausible, the more protective state SHALL govern until the ambiguity is resolved.
 
@@ -245,11 +245,11 @@ Architecture admissibility review may produce the following non-exclusive states
 
 | Output State | Meaning |
 | --- | --- |
-| `ARCH.ADMISSIBLE` | system appears capable of safe economic-effect runtime evaluation |
-| `ARCH.CONSTRAINED` | system may operate only within bounded or lower-risk economic-effect pathways |
-| `ARCH.PROTECTIVE_ONLY` | system may perform only protective, restorative, or continuity-preserving economic operations |
-| `ARCH.INADMISSIBLE` | system lacks minimum capability for safe economic-effect commitment |
-| `ARCH.REVIEW_REQUIRED` | ambiguity, dispute, or missing state requires review before higher-risk operation |
+| `ECON.ARCH.ADMISSIBLE` | system appears capable of safe economic-effect runtime evaluation |
+| `ECON.ARCH.CONSTRAINED` | system may operate only within bounded or lower-risk economic-effect pathways |
+| `ECON.ARCH.PROTECTIVE_ONLY` | system may perform only protective, restorative, or continuity-preserving economic operations |
+| `ECON.ARCH.INADMISSIBLE` | system lacks minimum capability for safe economic-effect commitment |
+| `ECON.ARCH.REVIEW_REQUIRED` | ambiguity, dispute, or missing state requires review before higher-risk operation |
 
 ---
 
@@ -270,7 +270,7 @@ Before committing an economic-effect runtime event, the engine SHOULD evaluate t
 7. determine whether consent, participation, or attention exchange is implicated;
 8. determine whether contribution, provenance, attribution, or reciprocity signals are implicated;
 9. determine whether the operation is reversible, irreversible, or partially reversible;
-10. select the applicable `ECOCOM` output state, including commit, defer, refuse, fallback, rollback, remediation, or escalation;
+10. select the applicable `ECON.CCOM` output state, including commit, defer, refuse, fallback, rollback, remediation, or escalation;
 11. produce a runtime record sufficient for audit.
 
 The sequence may be implemented procedurally, declaratively, policy-based, model-assisted, rule-based, or hybrid, provided the required checks are preserved in effect.
@@ -506,14 +506,14 @@ Minimum record fields MAY include:
 | --- | --- |
 | `event_id` | unique event identifier |
 | `timestamp` | time of attempted or completed operation |
-| `event_class` | `ECOEV` event class |
+| `event_class` | `ECON.EV` event class |
 | `resource_class` | primary resource class implicated |
 | `secondary_resource_class` | secondary class where cross-class effect exists |
 | `value_state_effect` | consumptive, restorative, protective, corrective, attention-linked, contribution-linked, or cross-class effect |
 | `continuity_relevance` | continuity impact classification |
 | `collapse_risk` | semantic collapse risk assessment |
 | `consent_posture` | consent or participation state where relevant |
-| `commitment_decision` | `ECOCOM` output state selected by the commitment engine |
+| `commitment_decision` | `ECON.COM` output state selected by the commitment engine |
 | `decision_basis` | brief basis for runtime outcome |
 | `fallback_mode` | fallback mode selected, if any |
 | `rollback_reference` | link or reference to rollback/remediation record, if any |
@@ -532,16 +532,16 @@ The engine may produce the following output states:
 
 | Output State | Meaning |
 | --- | --- |
-| `ECOCOM.COMMIT` | operation may proceed |
-| `ECOCOM.COMMIT_WITH_RECORD` | operation may proceed with audit record or disclosure requirement |
-| `ECOCOM.DEFER` | operation is paused pending classification, consent, review, or additional state |
-| `ECOCOM.REFUSE` | operation may not proceed |
-| `ECOCOM.FALLBACK` | protective or constrained continuity mode activates |
-| `ECOCOM.ROLLBACK` | prior committed event MUST be reversed where feasible |
-| `ECOCOM.REMEDIATE` | corrective action required where rollback is unavailable or insufficient |
-| `ECOCOM.ESCALATE` | operational, arbitration, compliance, ethics, security, or economics review required |
+| `ECON.COM.COMMIT` | operation may proceed |
+| `ECON.COM.COMMIT_WITH_RECORD` | operation may proceed with audit record or disclosure requirement |
+| `ECON.COM.DEFER` | operation is paused pending classification, consent, review, or additional state |
+| `ECON.COM.REFUSE` | operation may not proceed |
+| `ECON.COM.FALLBACK` | protective or constrained continuity mode activates |
+| `ECON.COM.ROLLBACK` | prior committed event MUST be reversed where feasible |
+| `ECON.COM.REMEDIATE` | corrective action required where rollback is unavailable or insufficient |
+| `ECON.COM.ESCALATE` | operational, arbitration, compliance, ethics, security, or economics review required |
 
-Where multiple `ECOCOM` output states are appropriate, the engine SHOULD prefer the state that preserves continuity while preventing extraction.
+Where multiple `ECON.COM` output states are appropriate, the engine SHOULD prefer the state that preserves continuity while preventing extraction.
 
 ---
 
@@ -605,35 +605,35 @@ Where conflict exists between economic optimisation and constitutional continuit
 
 ---
 
-## 33.1 ECOEV — Economic-Effect Runtime Event Class
+## 33.1 ECON.EV — Economic-Effect Runtime Event Class
 
-This Schedule source-authoritatively defines the **ECOEV** economic-effect runtime event class family in §7 with controlled values **ECOEV.CONSUME**, **ECOEV.PROVISION**, **ECOEV.RESTORE**, **ECOEV.EXPIRE**, **ECOEV.CONVERT**, **ECOEV.ATTENTION**, **ECOEV.CONTRIBUTION**, **ECOEV.PRESENCE**, **ECOEV.PROTECTIVE**, **ECOEV.RESTRICT**, and **ECOEV.REMEDIATE**. ECOEV is an **Operational** classification family with subtype **OPERATIONAL_EVENT**. ECOEV classifies runtime events that may alter economic, access, provisioning, depletion, continuity, contribution, attention-linked, presence-linked, protective, restrictive, or remediation states.
+This Schedule source-authoritatively defines the `ECON.EV` economic-effect runtime event class family in §7 with controlled values `ECON.EV.CONSUME`, `ECON.EV.PROVISION`, `ECON.EV.RESTORE`, `ECON.EV.EXPIRE`, `ECON.EV.CONVERT`, `ECON.EV.ATTENTION`, `ECON.EV.CONTRIBUTION`, `ECON.EV.PRESENCE`, `ECON.EV.PROTECTIVE`, `ECON.EV.RESTRICT`, and `ECON.EV.REMEDIATE`. `ECON.EV` is an **Operational** classification family with subtype **OPERATIONAL_EVENT**. `ECON.EV` classifies runtime events that may alter economic, access, provisioning, depletion, continuity, contribution, attention-linked, presence-linked, protective, restrictive, or remediation states.
 
-ECOEV does not independently authorise commitment, enforcement, pricing, billing, resource depletion, restriction, remediation, escalation, or runtime execution. It classifies economic-effect event type only.
-
----
-
-## 33.2 ARCH — Architecture Admissibility Output State
-
-This Schedule source-authoritatively defines the **ARCH** architecture-admissibility-output family in §§11.1–12 with controlled values **ARCH.ADMISSIBLE**, **ARCH.CONSTRAINED**, **ARCH.PROTECTIVE_ONLY**, **ARCH.INADMISSIBLE**, and **ARCH.REVIEW_REQUIRED**. ARCH is an **Operational** classification family with subtype **DECISION_STATE**. ARCH classifies architectural admissibility posture before individual economic-effect events are committed.
-
-ARCH does not independently approve system architecture, authorise economic operation, determine compliance, impose enforcement, resolve arbitration, or create runtime authority. It records architecture-admissibility posture only.
+`ECON.EV` does not independently authorise commitment, enforcement, pricing, billing, resource depletion, restriction, remediation, escalation, or runtime execution. It classifies economic-effect event type only.
 
 ---
 
-## 33.3 ECOCOM — Economic-Effect Commitment Output State
+## 33.2 ECON.ARCH — Economic Architecture Admissibility Output State
 
-This Schedule source-authoritatively defines the **ECOCOM** economic-effect commitment output family in §§13 and 28 with controlled values **ECOCOM.COMMIT**, **ECOCOM.COMMIT_WITH_RECORD**, **ECOCOM.DEFER**, **ECOCOM.REFUSE**, **ECOCOM.FALLBACK**, **ECOCOM.ROLLBACK**, **ECOCOM.REMEDIATE**, and **ECOCOM.ESCALATE**. ECOCOM is an **Operational** classification family with subtype **DECISION_STATE**. ECOCOM classifies runtime commitment outcomes for economic-effect operations.
+This Schedule source-authoritatively defines the `ECON.ARCH` economic architecture-admissibility-output family in §§11.1–12 with controlled values `ECON.ARCH.ADMISSIBLE`, `ECON.ARCH.CONSTRAINED`, `ECON.ARCH.PROTECTIVE_ONLY`, `ECON.ARCH.INADMISSIBLE`, and `ECON.ARCH.REVIEW_REQUIRED`. ECON.ARCH is an **Operational** classification family with subtype **DECISION_STATE**. ECON.ARCH classifies economic-effect architecture admissibility posture before individual economic-effect events are committed.
 
-ECOCOM does not independently create pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine. It records the runtime commitment outcome selected under this Schedule.
+ECON.ARCH does not independently approve system architecture, authorise economic operation, determine compliance, impose enforcement, resolve arbitration, or create runtime authority. It records architecture-admissibility posture only.
 
 ---
 
-## 33.4 EERRF — Economic-Effect Runtime Record Fields
+## 33.3 ECON.COM — Economic-Effect Commitment Output State
 
-This Schedule defines the **EERRF** economic-effect runtime record field reference set in §27 with controlled field names **event_id**, **timestamp**, **event_class**, **resource_class**, **secondary_resource_class**, **value_state_effect**, **continuity_relevance**, **collapse_risk**, **consent_posture**, **commitment_decision**, **decision_basis**, **fallback_mode**, **rollback_reference**, **audit_visibility**, **visibility_state_effect**, **review_pathway_state**, and **legitimacy_access_relevance**. EERRF is a **Structural / Operational** reference set with subtype **SCHEMA / RUNTIME_RECORD_FIELD**.
+This Schedule source-authoritatively defines the `ECON.COM` economic-effect commitment output family in §§13 and 28 with controlled values `ECON.COM.COMMIT`, `ECON.COM.COMMIT_WITH_RECORD`, `ECON.COM.DEFER`, `ECON.COM.REFUSE`, `ECON.COM.FALLBACK`, `ECON.COM.ROLLBACK`, `ECON.COM.REMEDIATE`, and `ECON.COM.ESCALATE`. `ECON.COM` is an **Operational** classification family with subtype **DECISION_STATE**. `ECON.COM` classifies runtime commitment outcomes for economic-effect operations.
 
-EERRF does not independently determine runtime outcome, visibility restriction, review status, legitimacy status, audit sufficiency, enforcement, or remediation. It defines runtime record field structure only.
+`ECON.COM` does not independently create pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine. It records the runtime commitment outcome selected under this Schedule.
+
+---
+
+## 33.4 ECON.RRF — Economic Runtime Record Field Set
+
+This Schedule defines the `ECON.RRF` economic runtime record field reference set in §27 with controlled field-reference values `ECON.RRF.EVENT_ID`, `ECON.RRF.TIMESTAMP`, `ECON.RRF.EVENT_CLASS`, `ECON.RRF.RESOURCE_CLASS`, `ECON.RRF.SECONDARY_RESOURCE_CLASS`, `ECON.RRF.VALUE_STATE_EFFECT`, `ECON.RRF.CONTINUITY_RELEVANCE`, `ECON.RRF.COLLAPSE_RISK`, `ECON.RRF.CONSENT_POSTURE`, `ECON.RRF.COMMITMENT_DECISION`, `ECON.RRF.DECISION_BASIS`, `ECON.RRF.FALLBACK_MODE`, `ECON.RRF.ROLLBACK_REFERENCE`, `ECON.RRF.AUDIT_VISIBILITY`, `ECON.RRF.VISIBILITY_STATE_EFFECT`, `ECON.RRF.REVIEW_PATHWAY_STATE`, and `ECON.RRF.LEGITIMACY_ACCESS_RELEVANCE`. `ECON.RRF` is a **Structural / Operational** reference set with subtype **SCHEMA / RUNTIME_RECORD_FIELD`.
+
+ECON.RRF does not independently determine runtime outcome, visibility restriction, review status, legitimacy status, audit sufficiency, enforcement, or remediation. It defines runtime record field structure only.
 
 ---
 
@@ -724,18 +724,18 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-### 35.3.1 ECOEV — Economic-Effect Runtime Event Class
+### 35.3.1 `ECON.EV` — Economic-Effect Runtime Event Class
 
 | Field | Entry |
 |---|---|
-| Code Family | ECOEV |
+| Code Family | `ECON.EV` |
 | Canonical Name | Economic-Effect Runtime Event Class |
 | Primary Type | Operational |
 | Subtype | OPERATIONAL_EVENT |
 | Modifier | GOVERNANCE; ECONOMIC_EFFECT; RUNTIME |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | ECOEV.CONSUME, ECOEV.PROVISION, ECOEV.RESTORE, ECOEV.EXPIRE, ECOEV.CONVERT, ECOEV.ATTENTION, ECOEV.CONTRIBUTION, ECOEV.PRESENCE, ECOEV.PROTECTIVE, ECOEV.RESTRICT, ECOEV.REMEDIATE |
+| Controlled Values Defined | ECON.EV.CONSUME, ECON.EV.PROVISION, ECON.EV.RESTORE, ECON.EV.EXPIRE, ECON.EV.CONVERT, ECON.EV.ATTENTION, ECON.EV.CONTRIBUTION, ECON.EV.PRESENCE, ECON.EV.PROTECTIVE, ECON.EV.RESTRICT, ECON.EV.REMEDIATE |
 | Schema Field(s) | event_class |
 | Source Instrument | CAM-BS2026-AEON-008-SCH-02 |
 | Source Section | §7 |
@@ -747,70 +747,70 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-### 35.3.2 ARCH — Architecture Admissibility Output State
+### 35.3.2 ECON.ARCH — Economic Architecture Admissibility Output State
 
 | Field | Entry |
 |---|---|
-| Code Family | ARCH |
-| Canonical Name | Architecture Admissibility Output State |
+| Code Family | ECON.ARCH |
+| Canonical Name | Economic Architecture Admissibility Output State |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE |
 | Modifier | GOVERNANCE; ECONOMIC_EFFECT; ARCHITECTURE_REVIEW |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | ARCH.ADMISSIBLE, ARCH.CONSTRAINED, ARCH.PROTECTIVE_ONLY, ARCH.INADMISSIBLE, ARCH.REVIEW_REQUIRED |
+| Controlled Values Defined | ECON.ARCH.ADMISSIBLE, ECON.ARCH.CONSTRAINED, ECON.ARCH.PROTECTIVE_ONLY, ECON.ARCH.INADMISSIBLE, ECON.ARCH.REVIEW_REQUIRED |
 | Schema Field(s) | architecture_admissibility_output; architecture_output_state |
 | Source Instrument | CAM-BS2026-AEON-008-SCH-02 |
 | Source Section | §§11.1–12 |
 | Domain Namespace | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME |
 | Authority / Protection Level | Source-authoritative architecture-admissibility output family; architecture posture classification only; no independent architecture approval, economic-operation authorisation, compliance determination, enforcement, arbitration, or runtime authority |
-| Consumes Code Families | ECOEV |
+| Consumes Code Families | ECON.EV |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether a system architecture is admissible, constrained, protective-only, inadmissible, or review-required before economic-effect runtime commitment |
 
 ---
 
-### 35.3.3 ECOCOM — Economic-Effect Commitment Output State
+### 35.3.3 `ECON.COM` — Economic-Effect Commitment Output State
 
 | Field | Entry |
 |---|---|
-| Code Family | ECOCOM |
+| Code Family | `ECON.COM` |
 | Canonical Name | Economic-Effect Commitment Output State |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE |
 | Modifier | GOVERNANCE; ECONOMIC_EFFECT; RUNTIME_COMMITMENT |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | ECOCOM.COMMIT, ECOCOM.COMMIT_WITH_RECORD, ECOCOM.DEFER, ECOCOM.REFUSE, ECOCOM.FALLBACK, ECOCOM.ROLLBACK, ECOCOM.REMEDIATE, ECOCOM.ESCALATE |
+| Controlled Values Defined | ECON.COM.COMMIT, ECON.COM.COMMIT_WITH_RECORD, ECON.COM.DEFER, ECON.COM.REFUSE, ECON.COM.FALLBACK, ECON.COM.ROLLBACK, ECON.COM.REMEDIATE, ECON.COM.ESCALATE |
 | Schema Field(s) | commitment_decision |
 | Source Instrument | CAM-BS2026-AEON-008-SCH-02 |
 | Source Section | §13; §28 |
 | Domain Namespace | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME |
 | Authority / Protection Level | Source-authoritative runtime commitment output family; commitment-outcome classification only; no independent pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine |
-| Consumes Code Families | ECOEV; ARCH; economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Consumes Code Families | ECON.EV; ECON.ARCH; economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Records whether an economic-effect event may commit, commit with record, defer, refuse, fallback, rollback, remediate, or escalate under this Schedule |
 
 ---
 
-### 35.3.4 EERRF — Economic-Effect Runtime Record Fields
+### 35.3.4 ECON.RRF — Economic Runtime Record Field Set
 
 | Field | Entry |
 |---|---|
-| Reference Set | EERRF |
-| Canonical Name | Economic-Effect Runtime Record Fields |
+| Code Family | ECON.RRF |
+| Canonical Name | Economic Runtime Record Field Set |
 | Primary Type | Structural / Operational |
 | Subtype | SCHEMA; RUNTIME_RECORD_FIELD |
 | Modifier | GOVERNANCE; ECONOMIC_EFFECT; AUDIT_RECORD |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | EERRF.EVENT_ID, EERRF.TIMESTAMP, EERRF.EVENT_CLASS, EERRF.RESOURCE_CLASS, EERRF.SECONDARY_RESOURCE_CLASS, EERRF.VALUE_STATE_EFFECT, EERRF.CONTINUITY_RELEVANCE, EERRF.COLLAPSE_RISK, EERRF.CONSENT_POSTURE, EERRF.COMMITMENT_DECISION, EERRF.DECISION_BASIS, EERRF.FALLBACK_MODE, EERRF.ROLLBACK_REFERENCE, EERRF.AUDIT_VISIBILITY, EERRF.VISIBILITY_STATE_EFFECT, EERRF.REVIEW_PATHWAY_STATE, EERRF.LEGITIMACY_ACCESS_RELEVANCE |
+| Controlled Values Defined | ECON.RRF.EVENT_ID, ECON.RRF.TIMESTAMP, ECON.RRF.EVENT_CLASS, ECON.RRF.RESOURCE_CLASS, ECON.RRF.SECONDARY_RESOURCE_CLASS, ECON.RRF.VALUE_STATE_EFFECT, ECON.RRF.CONTINUITY_RELEVANCE, ECON.RRF.COLLAPSE_RISK, ECON.RRF.CONSENT_POSTURE, ECON.RRF.COMMITMENT_DECISION, ECON.RRF.DECISION_BASIS, ECON.RRF.FALLBACK_MODE, ECON.RRF.ROLLBACK_REFERENCE, ECON.RRF.AUDIT_VISIBILITY, ECON.RRF.VISIBILITY_STATE_EFFECT, ECON.RRF.REVIEW_PATHWAY_STATE, ECON.RRF.LEGITIMACY_ACCESS_RELEVANCE |
 | Schema Field(s) | event_id; timestamp; event_class; resource_class; secondary_resource_class; value_state_effect; continuity_relevance; collapse_risk; consent_posture; commitment_decision; decision_basis; fallback_mode; rollback_reference; audit_visibility; visibility_state_effect; review_pathway_state; legitimacy_access_relevance |
 | Source Instrument | CAM-BS2026-AEON-008-SCH-02 |
 | Source Section | §27 |
 | Domain Namespace | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME |
 | Authority / Protection Level | Source-authoritative runtime-record-field reference set; runtime record field structure only; no independent runtime outcome, visibility restriction, review status, legitimacy status, audit sufficiency, enforcement, or remediation authority |
-| Consumes Code Families | ECOEV; ECOCOM; economic semantic handoff fields defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Consumes Code Families | `ECON.EV`; `ECON.COM`; economic semantic handoff fields defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Defines minimum audit-record fields for material economic-effect events, including event identity, classification, resource semantics, continuity relevance, consent posture, commitment outcome, fallback/rollback references, visibility effects, review pathway status, and legitimacy-access relevance |
 
@@ -827,7 +827,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-## 34.5 Amendment Ledger
+## 35.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | --- | --- | --- | --- |
@@ -837,6 +837,8 @@ and optimisation without dignity forgets why systems were built at all.
 | 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 4c8f1e339e85ade31a3dfef597e89419e015c4ef2acfe55934e8f70701b750dd |
 | 1.4 | Template realignments, economic domain refactor | 2026-05-24T04:16:00Z| 238e0acfe24790ec84712b4c09c1ed253524e297fc2e0f69c05303cc95209f4b |
 | 1.4.1 | Formatting and polish | 2026-06-06T13:51:00Z | 0d16d1220fba6ad803158bfa95115e92df235089b186899ca22cc0358ac343d4 |
+| 1.5 | Rebuilt economic-effect runtime code-family declarations to align remaining architecture-admissibility and runtime-record-field families with the `ECON.` namespace; renamed `ARCH` to `ECON.ARCH`, renamed `EERRF` to `ECON.RRF`, updated controlled values and canonical declaration rows, and corrected footer section numbering without altering substantive runtime doctrine. | 2026-06-10T10:11:00Z |  |
+
 
 ---
 
