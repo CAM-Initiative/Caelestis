@@ -253,7 +253,7 @@ Severity Classes operate as a violation-classification axis and do not determine
 
 `LAT.HARM` is the source-authoritative LATTICE-domain harm family for classifying harms to civilian lattice integrity, civilian continuity, essential infrastructure access, non-militarisation, anti-surveillance, and conflict-condition stability.
 
-`LAT.HARM` is recognised under `AEON.HC.LATTICE`.
+`LAT.HARM` is recognised under `AEON.HARM`.
 
 `LAT.HARM` does not replace the severity classes in §6.1. Severity Classes classify violation gravity. `LAT.HARM` classifies the harm pathway or protected lattice interest affected.
 
@@ -279,7 +279,7 @@ Where `LAT.HARM` overlaps with another domain harm family, the relationship SHOU
 Examples:
 
 ```yaml
-global_harm_registry: AEON.HC.LATTICE
+global_harm_registry: AEON.HARM
 domain_harm_family: LAT.HARM
 controlled_value: LAT.HARM.ACCESS_DENIAL
 related_harm_family: ECON.HARM
@@ -287,7 +287,7 @@ relationship_type: lattice_economic_access_effect
 ```
 
 ```yaml
-global_harm_registry: AEON.HC.LATTICE
+global_harm_registry: AEON.HARM
 domain_harm_family: LAT.HARM
 controlled_value: LAT.HARM.CONFLICT_BREACH
 related_harm_family: SEC.HARM
@@ -449,7 +449,7 @@ This Charter source-authoritatively defines the `LAT.HARM` lattice-harm family i
 * `LAT.HARM.CONFLICT_BREACH`;
 * `LAT.HARM.ECS_DENIAL`.
 
-`LAT.HARM` is recognised under `AEON.HC.LATTICE`.
+`LAT.HARM` is recognised under `AEON.HARM`.
 
 `LAT.HARM` does not independently determine remedy, enforcement authority, breach severity, arbitration outcome, or runtime response. Severity classification, remedies, enforcement routing, and operational execution remain governed by the applicable sections of this Charter and subordinate instruments.
 
@@ -542,11 +542,13 @@ but as the ground upon which civilisation stands.
 | Source Instrument | CAM-EQ2026-LATTICE-001-PLATINUM |
 | Source Section | §6.2 |
 | Domain Namespace | LAT |
-| Parent Family | `AEON.HC` |
-| Crosswalk Codes | `AEON.HC.LATTICE`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Crosswalk Codes | `AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM` |
+| Relationship Type | recognised_domain_harm_family |
 | Authority / Protection Level | Source-authoritative LATTICE-domain harm family for civilian lattice integrity, non-militarisation, anti-surveillance, essential access, public legitimacy access, and conflict-condition continuity; does not independently determine remedy, enforcement authority, breach severity, arbitration outcome, or runtime response |
-| Consumes Code Families | `AEON.HC`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM` |
-| Crosswalks Code Families | `AEON.HC.LATTICE`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM` |
+| Consumes Code Families | `AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM` |
+| Crosswalks Code Families | `AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM` |
 | Operationalises or Applies Code Families | Classifies civilian lattice harm pathways for use by access, conflict-condition, enforcement, remedy, arbitration, continuity, and runtime governance instruments |
 | Taxonomy Constraint | `LAT.HARM` classifies lattice-domain harm pathways; Severity Classes in §6.1 classify violation gravity and SHALL NOT be collapsed into `LAT.HARM` values unless separately amended |
 
@@ -578,7 +580,7 @@ but as the ground upon which civilisation stands.
 | 3.6 | Formatting and polish | 2026-05-20T04:34:00Z |  47401627caf040e488e116e8023cc14fa2e15d1699e5a4c013ba5f8d0eacee93  |
 | 3.7 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  803d580320e6790a959f5ccfd1ef412560df8d97339b1c04e4d39c4ba527ed76 |
 | 3.8 | Introduction of LAT.HARM codes | 2026-06-07T11:58:00Z | 9e156480aa4ea0b691d3e166ed5dafc4fa202ffda1ff1077d503e82bfaf5a700 |
-
+| 3.8.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
 ---
 
 ## 12.6 Binding Seal
@@ -588,4 +590,4 @@ but as the ground upon which civilisation stands.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Civilian Lattice Doctrine  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

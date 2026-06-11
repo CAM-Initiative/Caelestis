@@ -556,7 +556,7 @@ Axis-level persistence factors (temporal entrenchment, corpus inertia, and insti
 
 The RELATION domain source-authoritatively defines the `RLN.HARM` harm-class family for relational dependency, substitution, severance, dignity, attachment, reliance, agency, authorship, destabilisation, and relationally mediated harm.
 
-`RLN.HARM` operationalises the constitutional relational harm family recognised under `AEON.HC.RELATIONAL`.
+`RLN.HARM` operationalises the constitutional relational harm family recognised under `AEON.HARM`.
 
 Relational harm arises where a relational configuration manipulates, degrades, severs, distorts, substitutes, captures, instrumentalises, or destabilises relational bonds, attachment structures, reliance states, authorship pathways, self-anchoring capacity, or human relational ecosystems.
 
@@ -923,7 +923,7 @@ Primary Type is **Operational / Relational** and Subtype is **RELATIONAL_HARM_CL
 
 `RLN.HARM` classifies relational discontinuity, dependency and substitution harm, agency/authorship/self-anchor harm, relational capture and destabilisation harm, and irreversible relationally mediated harm.
 
-`RLN.HARM` operationalises the constitutional relational harm family recognised under `AEON.HC.RELATIONAL`.
+`RLN.HARM` operationalises the constitutional relational harm family recognised under `AEON.HARM`.
 
 `RLN.HARM` does not independently create enforcement authority, consent authority, legal authority, fiduciary authority, execution authority, escalation authority, identity authority, or runtime execution authority. It classifies relational harm pathways for safeguard calibration, cross-domain harm declaration, proportional review, and downstream routing only.
 
@@ -1059,9 +1059,11 @@ that which is real remains recognisable.
 | Source Section | §8.1 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority |
-| Parent Family | `AEON.HC.RELATIONAL` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
 | Consumes Code Families | A; FR; C; SyP; H |
 | Crosswalks Code Families | `ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM` |
+| Relationship Type | recognised_domain_harm_family |
 | Operationalises or Applies Code Families | Classifies relational discontinuity, dependency and substitution harm, agency/authorship/self-anchor harm, relational capture and destabilisation harm, and irreversible relationally mediated harm for safeguard calibration and downstream routing |
 
 ---
@@ -1254,7 +1256,7 @@ that which is real remains recognisable.
 | 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from `ID.SP` to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  5e187ae146f6386d6bb03cfcbf6156c4be026d08638bd655b0e175e6a7de9466 |
 | 1.16 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  0f77e3b07c5879ca6319c0a2cb7da858e48483eeab11779bf497ac6f2bdd3eb0 |
 | 1.17 | Added Relational Harm codes | 2026-06-07T14:03:00Z| f1edf9df71c53a9da2d29c9b0edfd01607e29404312b1a424f4bd14d5f908a4f |
-
+| 1.17.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
 ---
 
 ## 15.6 Binding Seal

@@ -763,7 +763,7 @@ This Appendix source-authoritatively defines the `ECON.HARM` economic-harm-class
 
 `ECON.HARM` classifies economic harm pathways involving extraction, metering divergence, semantic collapse, continuity paywalling, attention coercion, contribution erasure, dependency lock-in, and paid legitimacy gating.
 
-`ECON.HARM` operationalises the constitutional economic harm family recognised under `AEON.HC.ECONOMIC`.
+`ECON.HARM` operationalises the constitutional economic harm family recognised under `AEON.HARM`.
 
 `ECON.HARM` does not independently create remedy, enforcement, compensation, pricing correction, liability determination, arbitration authority, or runtime execution authority. It classifies economic harm semantics only.
 
@@ -927,10 +927,12 @@ It is the witness of what must not be collapsed.
 | Source Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
 | Source Section | §4.6 |
 | Domain Namespace | ECON |
-| Parent Family | AEON.HC.ECONOMIC |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
 | Authority / Protection Level | Source-authoritative economic harm classification family; semantic breach and harm-pathway classification only; no independent remedy, enforcement, pricing, compensation, liability determination, arbitration authority, or runtime execution authority |
-| Consumes Code Families | AEON.HC; ECON.RC; ECON.RISK; ECON.MECH |
-| Crosswalks Code Families | AEON.HC.ECONOMIC; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM; AEON.HARM |
+| Consumes Code Families | AEON.HARM; ECON.RC; ECON.RISK; ECON.MECH |
+| Crosswalks Code Families | AEON.HARM; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM |
+| Relationship Type | recognised_domain_harm_family |
 | Operationalises or Applies Code Families | Classifies economic harm pathways for semantic interpretation, breach classification, non-extractive exchange review, safeguard calibration, arbitration handoff, and cross-domain escalation |
 | Taxonomy Constraint | ECON.HARM classifies economic harm pathways only. Risk state, mechanism, resource class, remedy, compensation, enforcement routing, and runtime response remain governed by ECON.RISK, ECON.MECH, ECON.RC, OPERATIONS instruments, arbitration instruments, runtime schedules, and applicable legal or institutional frameworks. |
 
@@ -989,7 +991,7 @@ It is the witness of what must not be collapsed.
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | **Review Date** | 2026-05-14T22:01:49Z |
 | **Review Scope** | Constitutional coherence; structural placement; resource class taxonomy completeness and internal consistency; semantic handoff schema accuracy; non-extractive exchange doctrine adequacy; companion system and vulnerability extraction constraints; cross-instrument alignment with ECONOMICS-001, AEON-008-PLATINUM, AEON-008-SCH-01, and AEON-008-SCH-02; normative language compliance; v1.1 amendment integration integrity; metadata completeness; pre-adoption readiness |
-| **Review Artefacts** | https://claude.ai/chat/5b550a7a-ce19-4ba1-a471-6405594578f6 | 
+| **Review Artefacts** | https://claude.ai/chat/5b550a7a-ce19-4ba1-a471-6405594578f6 |
 
 ---
 
@@ -1005,7 +1007,7 @@ It is the witness of what must not be collapsed.
 | 2.1 | Added section 18 | 2026-05-24T12:14:00Z |  31056a64bf5300dae262bff9a2e80b70a03f380d3ecd24cac3998cccb928e29e |
 | 2.2 | Added section 13.2.1 | 2026-05-25T12:34:00Z | 595d3395882bc99f765d29b91fe2de00675ac1c30c74eb81f86fa7a00b572e3b |
 | 2.3 | Expanded `ECON.HARM` as the source-authoritative Economics-domain harm pathway family recognised under `AEON.HC.ECONOMIC`; retained `ECON.RISK` as the economic risk-state family; clarified taxonomy separation between resource classes, harm pathways, mechanism classes, risk states, and semantic handoff fields. | 2026-06-07T15:45:00Z |  9a929ec9b8aa379631cc78f2a8aeabe1ac0b7d777b10304d4e03d778e44aa464  |
-
+| 2.3.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
 ---
 
 ## 20.6 Binding Seal

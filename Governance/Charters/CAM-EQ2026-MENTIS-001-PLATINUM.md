@@ -521,7 +521,7 @@ High-risk cognitive-domain incidents require escalation where they involve:
 
 This Charter source-authoritatively defines the `MENTIS.HARM` harm-class family for cognitive integrity, mental privacy, epistemic agency, inference-boundary, attention, neurocognitive, and cognitive-domain harm.
 
-`MENTIS.HARM` operationalises the constitutional cognitive and epistemic harm family recognised under `AEON.HC.MENTIS`.
+`MENTIS.HARM` operationalises the constitutional cognitive and epistemic harm family recognised under `AEON.HARM`.
 
 `MENTIS.HARM` classifies cognitive-domain harm pathways. It does not classify severity by itself.
 
@@ -623,7 +623,7 @@ Primary Type is **Operational / Cognitive** and Subtype is **COGNITIVE_EPISTEMIC
 
 `MENTIS.HARM` classifies cognitive-domain harm pathways affecting mental privacy, cognitive observability, inference validity, cognitive agency, cognitive non-interference, and irreversible cognitive-domain integrity.
 
-`MENTIS.HARM` operationalises the constitutional cognitive and epistemic harm family recognised under `AEON.HC.MENTIS`.
+`MENTIS.HARM` operationalises the constitutional cognitive and epistemic harm family recognised under `AEON.HARM`.
 
 `MENTIS.HARM` does not independently create enforcement authority, medical authority, diagnostic authority, legal authority, surveillance authority, consent authority, execution authority, incident-response authority, or runtime execution authority. It classifies cognitive-domain harm pathways for safeguard calibration, cross-domain harm declaration, proportional review, incident routing, and downstream evaluation only.
 
@@ -811,11 +811,13 @@ Let every system remember that the person exceeds the model built about them.
 | Source Section | §47 |
 | Domain Namespace | MENTIS |
 | Authority / Protection Level | Source-authoritative cognitive and epistemic harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority |
-| Parent Family | `AEON.HC.MENTIS` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
 | Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; H |
 | Crosswalks Code Families | `ETH.HARM`; `RLN.HARM`; `ID.HARM`; `SEC.HARM`; `OPS.HARM`; `LAT.HARM`; `ARB.HARM` |
+| Relationship Type | recognised_domain_harm_family |
 | Operationalises or Applies Code Families | Classifies mental privacy and observability harm, inferential and construct-validity harm, cognitive agency harm, cognitive influence and non-interference harm, and irreversible cognitive-domain harm for safeguard calibration, incident routing, proportional review, and downstream evaluation |
-| Taxonomy Constraint | `MENTIS.HARM` operationalises `AEON.HC.MENTIS` at domain level and does not replace protection-posture families `MENTIS.CDI`, `MENTIS.CDP`, `MENTIS.CDS`, `MENTIS.CDNI`, or `MENTIS.CDOC` |
+| Taxonomy Constraint | `MENTIS.HARM` operationalises `AEON.HARM` at domain level and does not replace protection-posture families `MENTIS.CDI`, `MENTIS.CDP`, `MENTIS.CDS`, `MENTIS.CDNI`, or `MENTIS.CDOC` |
 
 ---
 
@@ -957,7 +959,7 @@ Let every system remember that the person exceeds the model built about them.
 | 1.0 | Initial issuance of MENTIS Domain Charter | 2026-06-06T08:38:00Z |  f8f3c9ce7210b0e22bc7c1533d95aa1a5d08d66b3ade58f2c7d9ca0badb163c4  |
 | 1.1 | Repaired section-reference validation targets in canonical code status text. | 2026-06-06T17:00:00Z |  038f853397780e6984a36d6ba5d55dc9283de0ff316127516877857a82e26a0f |
 | 1.2 | Added new MENTIS.HARM codes | 2026-06-07T14:42:00Z| ebea3825f38fa9ce5379e23bec58ef1442408e319f46e1bd023d6a3a9334745b |
-
+| 1.2.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
 ---
 
 ## 54.6 Binding Seal

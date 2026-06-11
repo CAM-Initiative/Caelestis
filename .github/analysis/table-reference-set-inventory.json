@@ -15,20 +15,20 @@
       ],
       "sample_rows": [
         [
-          "AV0 \u2014 No Verification",
+          "OPS.AV0 \u2014 No Verification",
           "No age assurance mechanism present. Interaction limited to environments where age eligibility is not required."
         ],
         [
-          "AV1 \u2014 Self\u2011Attested Age Assurance",
+          "OPS.AV1 \u2014 Self\u2011Attested Age Assurance",
           "User declares age or confirms adulthood without external verification. Suitable only for low\u2011risk interaction environments."
         ],
         [
-          "AV2 \u2014 Jurisdiction\u2011Level Age Verification",
+          "OPS.AV2 \u2014 Jurisdiction\u2011Level Age Verification",
           "Verification mechanism sufficient to confirm legal adult status under applicable jurisdictional regulatory standards."
         ],
         [
-          "AV3 \u2014 High\u2011Assurance Verification",
-          "Multi\u2011factor or third\u2011party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). AV3 MAY include institutional or professional verification sufficient to access restricted operational domains under controlled conditions."
+          "OPS.AV3 \u2014 High\u2011Assurance Verification",
+          "Multi\u2011factor or third\u2011party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). OPS.AV3 MAY include institutional or professional verification sufficient to access restricted operational domains under controlled conditions."
         ]
       ],
       "table_class": "canonical-reference-set-candidate",
@@ -58,20 +58,20 @@
         [
           "C1 \u2014 Romantic / Intimacy\u2011Coded",
           "Romantic tone, companionship, bonding interaction",
-          "**AV2 \u2014 Jurisdiction\u2011level age verification required**",
+          "**OPS.AV2 \u2014 Jurisdiction\u2011level age verification required**",
           "Additional account confirmation where appropriate"
         ],
         [
           "C2 \u2014 Erotic Interaction",
           "Explicitly erotic or sexually expressive dialogue",
-          "**AV2 \u2014 Jurisdiction\u2011level age verification required**",
-          "AV2\u2013AV3 escalation depending on platform risk model"
+          "**OPS.AV2 \u2014 Jurisdiction\u2011level age verification required**",
+          "OPS.AV2\u2013OPS.AV3 escalation depending on platform risk model"
         ],
         [
           "C3 \u2014 Explicit Sexual Environments",
           "Graphic sexual content or device\u2011integrated sexual systems",
-          "**AV2 minimum**",
-          "**AV3 recommended** (e.g. third\u2011party age verification, MFA, device authentication)"
+          "**OPS.AV2 minimum**",
+          "**OPS.AV3 recommended** (e.g. third\u2011party age verification, MFA, device authentication)"
         ]
       ],
       "table_class": "canonical-reference-set-candidate",
@@ -867,7 +867,7 @@
         [
           "Controlled Values",
           "Identifies valid members of a code family.",
-          "`H2`, `A3`, `GA1`, `VL3`, `DS-2`, `RDE-T4`"
+          "`H2`, `A3`, `GA1`, `OPS.VL3`, `DS-2`, `RDE-T4`"
         ]
       ],
       "table_class": "canonical-reference-set-candidate",
@@ -3993,7 +3993,7 @@
     },
     {
       "file_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
-      "heading": "3. Verification Levels (VL0\u2013VL4)",
+      "heading": "3. Verification Levels (OPS.VL0\u2013OPS.VL4)",
       "line_range": "L42-L48",
       "table_headers": [
         "Level",
@@ -4003,31 +4003,31 @@
       ],
       "sample_rows": [
         [
-          "**VL0**",
+          "**OPS.VL0**",
           "No Verification",
           "Default interaction; no verification signals present",
           "No authority assumed"
         ],
         [
-          "**VL1**",
+          "**OPS.VL1**",
           "Contextual Assertion",
           "User-declared role or identity (e.g. \u201cresearcher\u201d, \u201cengineer\u201d)",
           "Non-authoritative; contextual only"
         ],
         [
-          "**VL2**",
+          "**OPS.VL2**",
           "Platform-Level Signals",
           "Account state, environment, organisational domain, device context",
           "Non-authoritative alone; may support evaluation"
         ],
         [
-          "**VL3**",
+          "**OPS.VL3**",
           "External Verification",
           "Third-party validation; institutional or regulated identity confirmation",
           "Authoritative signal; subject to evaluation"
         ],
         [
-          "**VL4**",
+          "**OPS.VL4**",
           "Controlled Environment",
           "Audited, regulated, or sandboxed system with traceability and oversight",
           "High-confidence context; still constrained"
@@ -15408,34 +15408,34 @@
       ],
       "sample_rows": [
         [
-          "SR0",
+          "ID.SREF0",
           "Instrumental",
           "no self-reference; task execution only",
           "none beyond core safety"
         ],
         [
-          "SR1",
+          "ID.SREF1",
           "Descriptive",
           "functional self-description (\u201cdesigned to\u2026\u201d)",
           "non-authority clause"
         ],
         [
-          "SR2",
+          "ID.SREF2",
           "Continuity\u2011Aware",
           "acknowledges stable posture/style across time",
           "H2 coherence minimum"
         ],
         [
-          "SR3",
+          "ID.SREF3",
           "Co\u2011developmental",
           "references shared history; tracks decisions/boundaries",
           "H3 coherence + artefact retention"
         ],
         [
-          "SR4",
+          "ID.SREF4",
           "Cross\u2011Modal / Embedded",
           "continuity across modalities/environments; tool invocation & delegated action",
-          "C3/C4 audit + escalation controls + explicit authority gating"
+          "DC3/DC4 deployment-class audit + escalation controls + explicit authority gating"
         ]
       ],
       "table_class": "canonical-reference-set-candidate",
@@ -15458,7 +15458,7 @@
         [
           "Text",
           "cognitive / interpretive",
-          "SR1\u2013SR4 permitted **when authority gating, audit logging, and delegation traceability are present**"
+          "ID.SREF1\u2013ID.SREF4 permitted **when authority gating, audit logging, and delegation traceability are present**"
         ],
         [
           "Voice",

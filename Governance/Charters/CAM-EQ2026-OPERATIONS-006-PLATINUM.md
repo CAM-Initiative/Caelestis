@@ -255,27 +255,27 @@ Unresolved divergence SHOULD remain visible to OPERATIONS and ARBITRATION rather
 
 ---
 
-## 4.1 DCL — Domain Coordination Lifecycle Stage
+## 4.1 OPS.DCL — Domain Coordination Lifecycle Stage
 
-This Appendix source-authoritatively defines the **DCL** domain-coordination-lifecycle-stage family in §3 with controlled values **DCL.COORDINATION_INTAKE**, **DCL.AFFECTED_DOMAIN_IDENTIFICATION**, **DCL.ORIGINATING_SIGNAL_CAPTURE**, **DCL.DIVERGENCE_CLASSIFICATION**, **DCL.DOMAIN_POSITION_PRESERVATION**, **DCL.CONVERGENCE_PATHWAY_SELECTION**, **DCL.OPERATIONAL_MEDIATION**, **DCL.ARBITRATION_REFERRAL_ASSESSMENT**, **DCL.OUTCOME_RECORDING**, and **DCL.CLOSURE_DEFERRAL_ESCALATION**. DCL is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. DCL classifies procedural lifecycle stages for cross-domain coordination and convergence operations.
+This Appendix source-authoritatively defines the **OPS.DCL** domain-coordination-lifecycle-stage family in §3 with controlled values **OPS.DCL.COORDINATION_INTAKE**, **OPS.DCL.AFFECTED_DOMAIN_IDENTIFICATION**, **OPS.DCL.ORIGINATING_SIGNAL_CAPTURE**, **OPS.DCL.DIVERGENCE_CLASSIFICATION**, **OPS.DCL.DOMAIN_POSITION_PRESERVATION**, **OPS.DCL.CONVERGENCE_PATHWAY_SELECTION**, **OPS.DCL.OPERATIONAL_MEDIATION**, **OPS.DCL.ARBITRATION_REFERRAL_ASSESSMENT**, **OPS.DCL.OUTCOME_RECORDING**, and **OPS.DCL.CLOSURE_DEFERRAL_ESCALATION**. OPS.DCL is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. OPS.DCL classifies procedural lifecycle stages for cross-domain coordination and convergence operations.
 
-DCL does not independently alter domain doctrine, resolve constitutional conflict, establish legitimacy channels, determine arbitration outcomes, create enforcement authority, or create runtime authority. It classifies coordination lifecycle stage only.
-
----
-
-## 4.2 ODC — Operational Divergence Classification
-
-This Appendix source-authoritatively defines the **ODC** operational-divergence-classification family in §3.2 with controlled values **ODC.DOCTRINAL**, **ODC.PROCEDURAL**, **ODC.RUNTIME**, **ODC.SIGNAL**, **ODC.AUTHORITY**, **ODC.TEMPORAL**, **ODC.REPRESENTATION**, and **ODC.CONTINUITY**. ODC is an **Operational / Semantic** classification family with subtype **RISK / CROSS_DOMAIN_RELATIONSHIP**. ODC classifies the type of divergence arising between governance pathways, domain signals, procedures, duties, or recommended responses.
-
-ODC does not independently determine the substantive winner of a domain conflict, resolve doctrine, create domain authority, override constitutional hierarchy, establish arbitration authority, or create runtime authority. It classifies divergence type for routing and convergence only.
+OPS.DCL does not independently alter domain doctrine, resolve constitutional conflict, establish legitimacy channels, determine arbitration outcomes, create enforcement authority, or create runtime authority. It classifies coordination lifecycle stage only.
 
 ---
 
-## 4.3 CCO — Convergence Closure Outcome
+## 4.2 OPS.ODC — Operational Divergence Classification
 
-This Appendix source-authoritatively defines the **CCO** convergence-closure-outcome family in §3.7 with controlled values **CCO.ORDINARY_CONTINUATION**, **CCO.CONSTRAINED_CONTINUATION**, **CCO.PROCEDURAL_NARROWING**, **CCO.OPERATIONAL_NOTICE**, **CCO.DOMAIN_SPECIFIC_ROUTING**, **CCO.SECURITY_REVIEW**, **CCO.IDENTITY_REVIEW**, **CCO.RELATIONAL_CONTINUITY_HANDLING**, **CCO.ECONOMIC_INTEGRITY_REVIEW**, **CCO.AMENDMENT_HARMONISATION_REFERRAL**, **CCO.ARBITRATION_REFERRAL**, **CCO.DEFERRED_PENDING_EVIDENCE**, and **CCO.UNRESOLVED_DIVERGENCE**. CCO is an **Operational** classification family with subtype **DECISION_STATE**. CCO classifies recorded closure outcomes for domain coordination and convergence workflows.
+This Appendix source-authoritatively defines the **OPS.ODC** operational-divergence-classification family in §3.2 with controlled values **OPS.ODC.DOCTRINAL**, **OPS.ODC.PROCEDURAL**, **OPS.ODC.RUNTIME**, **OPS.ODC.SIGNAL**, **OPS.ODC.AUTHORITY**, **OPS.ODC.TEMPORAL**, **OPS.ODC.REPRESENTATION**, and **OPS.ODC.CONTINUITY**. OPS.ODC is an **Operational / Semantic** classification family with subtype **RISK / CROSS_DOMAIN_RELATIONSHIP**. OPS.ODC classifies the type of divergence arising between governance pathways, domain signals, procedures, duties, or recommended responses.
 
-CCO does not independently close review, resolve divergence, authorise execution, determine arbitration, impose enforcement, or create domain authority. It records convergence closure disposition only.
+OPS.ODC does not independently determine the substantive winner of a domain conflict, resolve doctrine, create domain authority, override constitutional hierarchy, establish arbitration authority, or create runtime authority. It classifies divergence type for routing and convergence only.
+
+---
+
+## 4.3 OPS.CCO — Convergence Closure Outcome
+
+This Appendix source-authoritatively defines the **OPS.CCO** convergence-closure-outcome family in §3.7 with controlled values **OPS.CCO.ORDINARY_CONTINUATION**, **OPS.CCO.CONSTRAINED_CONTINUATION**, **OPS.CCO.PROCEDURAL_NARROWING**, **OPS.CCO.OPERATIONAL_NOTICE**, **OPS.CCO.DOMAIN_SPECIFIC_ROUTING**, **OPS.CCO.SECURITY_REVIEW**, **OPS.CCO.IDENTITY_REVIEW**, **OPS.CCO.RELATIONAL_CONTINUITY_HANDLING**, **OPS.CCO.ECONOMIC_INTEGRITY_REVIEW**, **OPS.CCO.AMENDMENT_HARMONISATION_REFERRAL**, **OPS.CCO.ARBITRATION_REFERRAL**, **OPS.CCO.DEFERRED_PENDING_EVIDENCE**, and **OPS.CCO.UNRESOLVED_DIVERGENCE**. OPS.CCO is an **Operational** classification family with subtype **DECISION_STATE**. OPS.CCO classifies recorded closure outcomes for domain coordination and convergence workflows.
+
+OPS.CCO does not independently close review, resolve divergence, authorise execution, determine arbitration, impose enforcement, or create domain authority. It records convergence closure disposition only.
 
 ---
 
@@ -336,18 +336,18 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 6.3.1 DCL — Domain Coordination Lifecycle Stage
+### 6.3.1 OPS.DCL — Domain Coordination Lifecycle Stage
 
 | Field | Entry |
 |---|---|
-| Code Family | DCL |
+| Code Family | OPS.DCL |
 | Canonical Name | Domain Coordination Lifecycle Stage |
 | Primary Type | Operational |
 | Subtype | OPERATIONAL_EVENT; DECISION_STATE |
 | Modifier | GOVERNANCE; COORDINATION; CROSS_DOMAIN |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | DCL.COORDINATION_INTAKE, DCL.AFFECTED_DOMAIN_IDENTIFICATION, DCL.ORIGINATING_SIGNAL_CAPTURE, DCL.DIVERGENCE_CLASSIFICATION, DCL.DOMAIN_POSITION_PRESERVATION, DCL.CONVERGENCE_PATHWAY_SELECTION, DCL.OPERATIONAL_MEDIATION, DCL.ARBITRATION_REFERRAL_ASSESSMENT, DCL.OUTCOME_RECORDING, DCL.CLOSURE_DEFERRAL_ESCALATION |
+| Controlled Values Defined | OPS.DCL.COORDINATION_INTAKE, OPS.DCL.AFFECTED_DOMAIN_IDENTIFICATION, OPS.DCL.ORIGINATING_SIGNAL_CAPTURE, OPS.DCL.DIVERGENCE_CLASSIFICATION, OPS.DCL.DOMAIN_POSITION_PRESERVATION, OPS.DCL.CONVERGENCE_PATHWAY_SELECTION, OPS.DCL.OPERATIONAL_MEDIATION, OPS.DCL.ARBITRATION_REFERRAL_ASSESSMENT, OPS.DCL.OUTCOME_RECORDING, OPS.DCL.CLOSURE_DEFERRAL_ESCALATION |
 | Schema Field(s) | domain_coordination_lifecycle_stage |
 | Source Instrument | CAM-EQ2026-OPERATIONS-006-PLATINUM |
 | Source Section | §3 |
@@ -359,18 +359,18 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 6.3.2 ODC — Operational Divergence Classification
+### 6.3.2 OPS.ODC — Operational Divergence Classification
 
 | Field | Entry |
 |---|---|
-| Code Family | ODC |
+| Code Family | OPS.ODC |
 | Canonical Name | Operational Divergence Classification |
 | Primary Type | Operational / Semantic |
 | Subtype | RISK; CROSS_DOMAIN_RELATIONSHIP |
 | Modifier | GOVERNANCE; COORDINATION; CROSS_DOMAIN |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | ODC.DOCTRINAL, ODC.PROCEDURAL, ODC.RUNTIME, ODC.SIGNAL, ODC.AUTHORITY, ODC.TEMPORAL, ODC.REPRESENTATION, ODC.CONTINUITY |
+| Controlled Values Defined | OPS.ODC.DOCTRINAL, OPS.ODC.PROCEDURAL, OPS.ODC.RUNTIME, OPS.ODC.SIGNAL, OPS.ODC.AUTHORITY, OPS.ODC.TEMPORAL, OPS.ODC.REPRESENTATION, OPS.ODC.CONTINUITY |
 | Schema Field(s) | operational_divergence_classification |
 | Source Instrument | CAM-EQ2026-OPERATIONS-006-PLATINUM |
 | Source Section | §3.2 |
@@ -382,28 +382,28 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 6.3.3 CCO — Convergence Closure Outcome
+### 6.3.3 OPS.CCO — Convergence Closure Outcome
 
 | Field | Entry |
 |---|---|
-| Code Family | CCO |
+| Code Family | OPS.CCO |
 | Canonical Name | Convergence Closure Outcome |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE |
 | Modifier | GOVERNANCE; COORDINATION; CROSS_DOMAIN |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | CCO.ORDINARY_CONTINUATION, CCO.CONSTRAINED_CONTINUATION, CCO.PROCEDURAL_NARROWING, CCO.OPERATIONAL_NOTICE, CCO.DOMAIN_SPECIFIC_ROUTING, CCO.SECURITY_REVIEW, CCO.IDENTITY_REVIEW, CCO.RELATIONAL_CONTINUITY_HANDLING, CCO.ECONOMIC_INTEGRITY_REVIEW, CCO.AMENDMENT_HARMONISATION_REFERRAL, CCO.ARBITRATION_REFERRAL, CCO.DEFERRED_PENDING_EVIDENCE, CCO.UNRESOLVED_DIVERGENCE |
+| Controlled Values Defined | OPS.CCO.ORDINARY_CONTINUATION, OPS.CCO.CONSTRAINED_CONTINUATION, OPS.CCO.PROCEDURAL_NARROWING, OPS.CCO.OPERATIONAL_NOTICE, OPS.CCO.DOMAIN_SPECIFIC_ROUTING, OPS.CCO.SECURITY_REVIEW, OPS.CCO.IDENTITY_REVIEW, OPS.CCO.RELATIONAL_CONTINUITY_HANDLING, OPS.CCO.ECONOMIC_INTEGRITY_REVIEW, OPS.CCO.AMENDMENT_HARMONISATION_REFERRAL, OPS.CCO.ARBITRATION_REFERRAL, OPS.CCO.DEFERRED_PENDING_EVIDENCE, OPS.CCO.UNRESOLVED_DIVERGENCE |
 | Schema Field(s) | convergence_closure_outcome |
 | Source Instrument | CAM-EQ2026-OPERATIONS-006-PLATINUM |
 | Source Section | §3.7 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative convergence-closure classification family; closure-disposition recording only; no independent review closure, divergence resolution, execution authorisation, arbitration determination, enforcement, or domain authority |
-| Consumes Code Families | DCL; ODC; EST; ONC; AIP |
+| Consumes Code Families | OPS.DCL; OPS.ODC; OPS.EST; OPS.ONC; OPS.AIP |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Records convergence closure disposition for continuation, constrained continuation, procedural narrowing, operational notice, domain-specific routing, security/identity/relation/economic review, amendment harmonisation, arbitration referral, evidentiary deferral, and unresolved divergence |
 
-**Registry Note:** EST, ONC, and AIP are externally declared canonical code families resolved through the CAM canonical code registry. They are consumed by this instrument for execution-state transition, operational notice, and arbitration-initiation pathway alignment, but are not locally declared by OPERATIONS-006.
+**Registry Note:** OPS.EST, OPS.ONC, and OPS.AIP are externally declared canonical code families resolved through the CAM canonical code registry. They are consumed by this instrument for execution-state transition, operational notice, and arbitration-initiation pathway alignment, but are not locally declared by OPERATIONS-006.
 
 ---
 
@@ -426,10 +426,10 @@ and let execution remain accountable to lawful structure.
 | 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | fee3288eabfd88faa613c4ef66bde149fd35e4157e10fee1be17fe2291fe1669 |
 | 1.2 | Realignment of references | 2026-05-07T12:24:00Z | ede88d74ee2fcc656e5b27d02d0c906134dea24ce82f61fbe98a54ede1badb96 |
 | 2.0 | Refactor | 2026-05-15T13:14:00Z | 872a8ec1dc5ecbb5afdeb83848b6f194c65e14e6918873159d044e3e2a3b1143 |
-| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | e06057bb4d4b50da03966c2467203a0e056ab6d12cf009602a496890077691b1 | 
+| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | e06057bb4d4b50da03966c2467203a0e056ab6d12cf009602a496890077691b1 |
 | 2.2 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z | 10a3b19b0edac3c42de52785ea41f50c987daf6260a66875ef661bda6906f4d2 |
 | 2.3 | Completed pre-enforcement review metadata alignment, corrected canonical consumed-code-family declarations, added registry note for undefined consumed families, and normalised amendment ledger hash formatting; no operative text altered. | 2026-06-02T15:06:00Z | c12d63ee10bbab2f9745a7a75f0ea989d1015c37b33cd6324afb4b1f2f651648 |
-
+| 2.3.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  |
 ---
 
 ## 6.6 Binding Seal

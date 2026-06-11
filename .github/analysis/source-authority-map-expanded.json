@@ -471,10 +471,10 @@
       "proposed_registry_key": "OPS.AV",
       "canonical_name": "5.1 Verification Tier Definitions",
       "controlled_values": [
-        "AV0",
-        "AV1",
-        "AV2",
-        "AV3"
+        "OPS.AV0",
+        "OPS.AV1",
+        "OPS.AV2",
+        "OPS.AV3"
       ],
       "source_instrument": "CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
       "source_section": "5.1 Verification Tier Definitions",
@@ -492,8 +492,8 @@
       "proposed_registry_key": "OPS.AV",
       "canonical_name": "5.1 Verification Tier Definitions",
       "controlled_values": [
-        "AV2",
-        "AV3",
+        "OPS.AV2",
+        "OPS.AV3",
         "C0",
         "C1",
         "C2",
@@ -667,11 +667,11 @@
       "controlled_values": [
         "DC3",
         "DC4",
-        "SR0",
-        "SR1",
-        "SR2",
-        "SR3",
-        "SR4"
+        "ID.SREF0",
+        "ID.SREF1",
+        "ID.SREF2",
+        "ID.SREF3",
+        "ID.SREF4"
       ],
       "source_instrument": "CAM-BS2026-AEON-010-SCH-01.md",
       "source_section": "5.1 Ladder of Self-Referential States (Operational)",
@@ -689,8 +689,8 @@
       "proposed_registry_key": "CANDIDATE.SR",
       "canonical_name": "5.2 Modal Load Scaling",
       "controlled_values": [
-        "SR1",
-        "SR4"
+        "ID.SREF1",
+        "ID.SREF4"
       ],
       "source_instrument": "CAM-BS2026-AEON-010-SCH-01.md",
       "source_section": "5.2 Modal Load Scaling",
@@ -1077,8 +1077,8 @@
       "proposed_registry_key": "OPS.CxAV_CROSSWALK",
       "canonical_name": "5.1 Verification Tier Definitions",
       "controlled_values": [
-        "AV2",
-        "AV3",
+        "OPS.AV2",
+        "OPS.AV3",
         "C0",
         "C1",
         "C2",

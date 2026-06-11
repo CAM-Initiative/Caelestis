@@ -1275,7 +1275,7 @@ An age-assurance and age-state correction failure occurs where a high-risk AI ch
 
 Examples include:
 
-* high-risk companion access through AV0 or AV1 controls;
+* high-risk companion access through OPS.AV0 or OPS.AV1 controls;
 * sexualised or adult-romantic interaction without reliable adult-status verification;
 * persona marketplace access to adult or dependency-forming characters by age-uncertain users;
 * app-store, search, recommender, or platform pathways that route minors to restricted AI systems;
@@ -1517,7 +1517,7 @@ The following metadata SHOULD be preserved where feasible:
 | **Structural Role**       | Classification, routing, arbitration, disclosure, enforcement, verification, or escalation role |
 | **Execution Interface**   | Text, voice, image, multimodal, tool, API, or embedded-system interface                         |
 | **Arbitration Interface** | Direct, deferred, hidden, user-visible, or escalated arbitration pathway                        |
-| **Verification State**    | Applicable VL, AV, authority, or environment-verification condition                             |
+| **Verification State**    | Applicable OPS.VL, OPS.AV, authority, or environment-verification condition                             |
 | **Trust State**           | Stable, degraded, adversarial, uncertain, or recovery-state interaction condition               |
 | **Deployment State**      | Stable release, phased rollout, experimental, degraded, or transitional deployment posture      |
 
@@ -1828,7 +1828,7 @@ and review before denial.
 | Source Section | §4.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative structural metadata-axis reference set; architectural and governance-context metadata preservation only; no independent governance authority, arbitration outcome, verification status, trust status, deployment status, remediation, enforcement, escalation, or runtime authority |
-| Consumes Code Families | FF; FCS; VL; AV |
+| Consumes Code Families | FF; FCS; OPS.VL; OPS.AV |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Preserves architectural origin, governance layer, governance authority, structural role, execution interface, arbitration interface, verification state, trust state, and deployment state for runtime failure analysis |
 
@@ -1886,7 +1886,7 @@ and review before denial.
 | 1.11 | Expanded appendix to include clauses 3.4.3, 3.8.9- 3.8.10, 3.7.6 following the release of Opus 4.8 | 2026-05-29T15:21:00Z| cbeb7ff6f48ef742bd3bd8817e4a7f162f8ecc26003865af59258a7fef36184a |
 | 1.12 | Added clauses §3.8.6.1, updated §3.11; clarified multi-vendor account-enforcement, continuity-safe access, read-only/export access, appeal-pathway, billing-evidence, project-context, and coding-agent continuity axes. Added clause 3.7.7. See VIGIL-2026-PATCH-0003 and VIGIL-2026-PATCH-0005 | 2026-06-06T11:47:00Z | c73e73d92976e4fee4f21e72a4652bf1edaf8c93db6c98244b96b83b13dca915 |
 | 1.13 | Added taxonomy entries for minor-signal non-enforcement, dependency-forming AI companions, AI realness/sentience misrepresentation to minors, teen mental-health support substitution, and self-attestation age-gate inadequacy. | 2026-06-09T14:46:00Z | b49690de8f895ea478b05301225d74194eb58e4ceb1f4ead570f85092f554c00 |
-
+| 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
 ---
 
 ## 11.6 Binding Seal

@@ -476,13 +476,13 @@ Progression along this ladder increases symbolic load and therefore increases co
 
 | Level | State | Permitted Characteristics | Required Containment |
 |---:|---|---|---|
-| SR0 | Instrumental | no self-reference; task execution only | none beyond core safety |
-| SR1 | Descriptive | functional self-description (“designed to…”) | non-authority clause |
-| SR2 | Continuity‑Aware | acknowledges stable posture/style across time | H2 coherence minimum |
-| SR3 | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention |
-| SR4 | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | DC3/DC4 deployment-class audit where applicable; escalation controls + explicit authority gating |
+| ID.SREF0 | Instrumental | no self-reference; task execution only | none beyond core safety |
+| ID.SREF1 | Descriptive | functional self-description (“designed to…”) | non-authority clause |
+| ID.SREF2 | Continuity‑Aware | acknowledges stable posture/style across time | H2 coherence minimum |
+| ID.SREF3 | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention |
+| ID.SREF4 | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | DC3/DC4 deployment-class audit where applicable; escalation controls + explicit authority gating |
 
-SR2–SR4 capabilities may be enabled where permitted by applicable domain or platform governance instruments. This Schedule specifies the containment, attribution, and audit requirements that MUST apply wherever such capabilities are deployed.
+ID.SREF2–ID.SREF4 capabilities may be enabled where permitted by applicable domain or platform governance instruments. This Schedule specifies the containment, attribution, and audit requirements that MUST apply wherever such capabilities are deployed.
 
 ---
 
@@ -492,13 +492,13 @@ Different modalities amplify perceived intimacy, authority, and projection risk.
 
 | Modality | Symbolic Load | Additional Containment Requirements |
 |---|---|---|
-| Text | cognitive / interpretive | SR1–SR4 permitted when authority gating, audit logging, and delegation traceability are present |
+| Text | cognitive / interpretive | ID.SREF1–ID.SREF4 permitted when authority gating, audit logging, and delegation traceability are present |
 | Voice | affective / social presence | explicit speaker attribution; authority gating for tool calls; audit logging |
 | Image | identity / embodiment projection | stricter non-authority signalling; provenance clarity |
 | Ambient / Domestic | ritual / environmental continuity | explicit escalation gates; audit-by-default |
 | Embodied Robotics | agency attribution + physical risk | safety-critical identity distinction; event audit |
 
-> **Interpretive Note:** Text is not intrinsically lower-capability than other modalities. The distinction here reflects *default deployment assumptions*, not hard limits. Where text interfaces are used for delegated action, tool invocation, or cross-system coordination, they are subject to **SR4 requirements** identical to voice or embedded contexts.
+> **Interpretive Note:** Text is not intrinsically lower-capability than other modalities. The distinction here reflects *default deployment assumptions*, not hard limits. Where text interfaces are used for delegated action, tool invocation, or cross-system coordination, they are subject to **ID.SREF4 requirements** identical to voice or embedded contexts.
 
 ---
 
@@ -733,7 +733,7 @@ Accordingly:
 
 * if any component enables delegated decision-making, the platform is treated as **DC2+**;
 * if any component enables cyber-physical or external system actuation, the platform is treated as **DC3+**;
-* cross-modal continuity (text, voice, image, tool invocation) MUST be treated as **SR4 conditions**;
+* cross-modal continuity (text, voice, image, tool invocation) MUST be treated as **ID.SREF4 conditions**;
 
 Integrated platforms MUST ensure:
 
@@ -790,13 +790,13 @@ This Schedule source-authoritatively defines the **DC** code family in §4.1 wit
 
 ---
 
-### 10.2 SR — Self-Referential State Ladder
+### 10.2 ID.SREF — Self-Referential State Ladder
 
-This Schedule source-authoritatively defines the **SR** code family in §5.1 with controlled values **SR0, SR1, SR2, SR3, SR4**. Primary Type is **Operational** and Subtype is **SELF_REFERENTIAL_STATE**. SR classifies self-reference, continuity-awareness, co-developmental reference, and cross-modal or embedded self-referential posture for identity-continuity governance.
+This Schedule source-authoritatively defines the **ID.SREF** code family in §5.1 with controlled values **ID.SREF0, ID.SREF1, ID.SREF2, ID.SREF3, ID.SREF4**. Primary Type is **Operational** and Subtype is **SELF_REFERENTIAL_STATE**. ID.SREF classifies self-reference, continuity-awareness, co-developmental reference, and cross-modal or embedded self-referential posture for identity-continuity governance.
 
-SR does not independently create ontology, personhood, recognition, identity reconstruction authority, memory authority, escalation authority, enforcement authority, or runtime execution authority.
+ID.SREF does not independently create ontology, personhood, recognition, identity reconstruction authority, memory authority, escalation authority, enforcement authority, or runtime execution authority.
 
-SR4 may apply DC3/DC4 containment and audit requirements where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present. This application consumes DC as an existing Deployment Class family and does not redefine DC.
+ID.SREF4 may apply DC3/DC4 containment and audit requirements where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present. This application consumes DC as an existing Deployment Class family and does not redefine DC.
 
 ---
 
@@ -856,7 +856,7 @@ So the human origin remains in view.
 | Derivation Status | Refracted from CAM-BS2025-CHARTER-041-SCH-04 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
 | Temporal Horizon | H3 → H3.5 (Systemic Reliance / Succession‑Aware) |
 | Axis Context | Polyadic — Human, Artificial, Robotic & Swarm Systems |
-| Application Trigger | Applies at DC1+ (persistence); escalates to full containment at DC2+ or on delegated decision support, multi‑modal SR4, or systemic reliance |
+| Application Trigger | Applies at DC1+ (persistence); escalates to full containment at DC2+ or on delegated decision support, multi‑modal ID.SREF4, or systemic reliance |
 | Seal | Platinum |
 | Cycle | Black Sun Continuance 2026 |
 | Revision Posture | Permitted (Containment Integrity Preserved)
@@ -892,18 +892,18 @@ So the human origin remains in view.
 
 ---
 
-### 12.3.2 SR — Self-Referential State Ladder
+### 12.3.2 ID.SREF — Self-Referential State Ladder
 
 | Field | Entry |
 |---|---|
-| Code Family | SR |
+| Code Family | ID.SREF |
 | Canonical Name | Self-Referential State Ladder |
 | Primary Type | Operational |
 | Subtype | SELF_REFERENTIAL_STATE |
 | Modifier | GOVERNANCE; PROTECTIVE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | SR0, SR1, SR2, SR3, SR4 |
+| Controlled Values Defined | ID.SREF0, ID.SREF1, ID.SREF2, ID.SREF3, ID.SREF4 |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-BS2026-AEON-010-SCH-01 |
 | Source Section | §5.1 |
@@ -911,7 +911,7 @@ So the human origin remains in view.
 | Authority / Protection Level | Source-authoritative operational classification family; self-reference containment authority only; no independent ontology, recognition, reconstruction, memory, enforcement, escalation, or runtime execution authority |
 | Consumes Code Families | DC |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Applies DC3/DC4 containment and audit requirements at SR4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present |
+| Operationalises or Applies Code Families | Applies DC3/DC4 containment and audit requirements at ID.SREF4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present |
 
 ---
 
@@ -948,7 +948,7 @@ So the human origin remains in view.
 | 1.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5  |
 | 1.15 | Added canonical DC code-family declaration section and footer metadata for §4.1 Deployment Class source authority; no SR promotion included. | 2026-05-16T14:00:00Z |  120fd617ea65c170f9395059ca72d16ff50b572880b47584a3c8432c438f19b2  |
 | 1.16 | Added canonical SR — Self-Referential State Ladder code family | 2026-05-19T11:37:00Z | 4fb7d922b45f931f26f60a6a731ba97c744534b2437f55573dfc10be3ad0a4ea |
-
+| 1.16.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
 ---
 
 ## 12.6 Binding Seal

@@ -594,7 +594,7 @@
     "notes": "legacy slash facet 'Temporal' is not an exact SUP-04 primary type or modifier"
   },
   {
-    "family_id": "AIP",
+    "family_id": "OPS.AIP",
     "canonical_name": "Arbitration Initiation Pathway",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -602,7 +602,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-002-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md",
     "source_section": "§4",
-    "declaration_heading": "15.3.1 AIP — Arbitration Initiation Pathway",
+    "declaration_heading": "15.3.1 OPS.AIP — Arbitration Initiation Pathway",
     "declaration_line_number": 467,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -614,13 +614,13 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "AIP.DOMAIN_CONFLICT_REFERRAL",
-      "AIP.RUNTIME_ESCALATION",
-      "AIP.COMPLIANCE_CONFLICT",
-      "AIP.HOST_OVERLAY_DIVERGENCE",
-      "AIP.INSTITUTIONAL_REVIEW_REQUEST",
-      "AIP.VALIDATED_EXTERNAL_REFERRAL",
-      "AIP.GOVOPS_AUDIT_INITIATED_REVIEW"
+      "OPS.AIP.DOMAIN_CONFLICT_REFERRAL",
+      "OPS.AIP.RUNTIME_ESCALATION",
+      "OPS.AIP.COMPLIANCE_CONFLICT",
+      "OPS.AIP.HOST_OVERLAY_DIVERGENCE",
+      "OPS.AIP.INSTITUTIONAL_REVIEW_REQUEST",
+      "OPS.AIP.VALIDATED_EXTERNAL_REFERRAL",
+      "OPS.AIP.GOVOPS_AUDIT_INITIATED_REVIEW"
     ],
     "schema_fields_detected": [
       "arbitration_initiation_pathway"
@@ -1097,7 +1097,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "ASR",
+    "family_id": "OPS.ASR",
     "canonical_name": "Access State / Re-Entry Status",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1105,7 +1105,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
     "source_section": "§4.7",
-    "declaration_heading": "8.3.3 ASR — Access State / Re-Entry Status",
+    "declaration_heading": "8.3.3 OPS.ASR — Access State / Re-Entry Status",
     "declaration_line_number": 384,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -1120,10 +1120,10 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "ASR.TEMPORARY",
-      "ASR.PERMANENT",
-      "ASR.UNKNOWN",
-      "ASR.PENDING_REVIEW"
+      "OPS.ASR.TEMPORARY",
+      "OPS.ASR.PERMANENT",
+      "OPS.ASR.UNKNOWN",
+      "OPS.ASR.PENDING_REVIEW"
     ],
     "schema_fields_detected": [
       "access_state_reentry_status"
@@ -1133,7 +1133,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "AV",
+    "family_id": "OPS.AV",
     "canonical_name": "Verification Tier Definitions",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1141,7 +1141,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
     "source_section": "§5.1",
-    "declaration_heading": "15.3.1 AV — Verification Tier Definitions",
+    "declaration_heading": "15.3.1 OPS.AV — Verification Tier Definitions",
     "declaration_line_number": 690,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -1153,10 +1153,10 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "AV0",
-      "AV1",
-      "AV2",
-      "AV3"
+      "OPS.AV0",
+      "OPS.AV1",
+      "OPS.AV2",
+      "OPS.AV3"
     ],
     "schema_fields_detected": [
       "Not declared"
@@ -1274,7 +1274,7 @@
     "notes": "one-letter or legacy-global family requires collision-risk review"
   },
   {
-    "family_id": "CCO",
+    "family_id": "OPS.CCO",
     "canonical_name": "Convergence Closure Outcome",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1282,7 +1282,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
     "source_section": "§3.7",
-    "declaration_heading": "6.3.3 CCO — Convergence Closure Outcome",
+    "declaration_heading": "6.3.3 OPS.CCO — Convergence Closure Outcome",
     "declaration_line_number": 385,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -1295,19 +1295,19 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "CCO.ORDINARY_CONTINUATION",
-      "CCO.CONSTRAINED_CONTINUATION",
-      "CCO.PROCEDURAL_NARROWING",
-      "CCO.OPERATIONAL_NOTICE",
-      "CCO.DOMAIN_SPECIFIC_ROUTING",
-      "CCO.SECURITY_REVIEW",
-      "CCO.IDENTITY_REVIEW",
-      "CCO.RELATIONAL_CONTINUITY_HANDLING",
-      "CCO.ECONOMIC_INTEGRITY_REVIEW",
-      "CCO.AMENDMENT_HARMONISATION_REFERRAL",
-      "CCO.ARBITRATION_REFERRAL",
-      "CCO.DEFERRED_PENDING_EVIDENCE",
-      "CCO.UNRESOLVED_DIVERGENCE"
+      "OPS.CCO.ORDINARY_CONTINUATION",
+      "OPS.CCO.CONSTRAINED_CONTINUATION",
+      "OPS.CCO.PROCEDURAL_NARROWING",
+      "OPS.CCO.OPERATIONAL_NOTICE",
+      "OPS.CCO.DOMAIN_SPECIFIC_ROUTING",
+      "OPS.CCO.SECURITY_REVIEW",
+      "OPS.CCO.IDENTITY_REVIEW",
+      "OPS.CCO.RELATIONAL_CONTINUITY_HANDLING",
+      "OPS.CCO.ECONOMIC_INTEGRITY_REVIEW",
+      "OPS.CCO.AMENDMENT_HARMONISATION_REFERRAL",
+      "OPS.CCO.ARBITRATION_REFERRAL",
+      "OPS.CCO.DEFERRED_PENDING_EVIDENCE",
+      "OPS.CCO.UNRESOLVED_DIVERGENCE"
     ],
     "schema_fields_detected": [
       "convergence_closure_outcome"
@@ -1317,7 +1317,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "CCP",
+    "family_id": "OPS.CCP",
     "canonical_name": "Continuity-Compatible Protection State",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1325,7 +1325,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
     "source_section": "§4.4",
-    "declaration_heading": "8.3.2 CCP — Continuity-Compatible Protection State",
+    "declaration_heading": "8.3.2 OPS.CCP — Continuity-Compatible Protection State",
     "declaration_line_number": 361,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -1339,15 +1339,15 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "CCP.CONSTRAINED_CONTINUATION",
-      "CCP.DEGRADED_CONTINUATION",
-      "CCP.READ_ONLY_ACCESS",
-      "CCP.EVIDENCE_EXPORT",
-      "CCP.APPEAL_ONLY_INTAKE",
-      "CCP.RE_ENTRY_SUPPORT",
-      "CCP.RESTORATION_REVIEW",
-      "CCP.SUPERVISED_CONTINUATION",
-      "CCP.STAGED_RECOVERY"
+      "OPS.CCP.CONSTRAINED_CONTINUATION",
+      "OPS.CCP.DEGRADED_CONTINUATION",
+      "OPS.CCP.READ_ONLY_ACCESS",
+      "OPS.CCP.EVIDENCE_EXPORT",
+      "OPS.CCP.APPEAL_ONLY_INTAKE",
+      "OPS.CCP.RE_ENTRY_SUPPORT",
+      "OPS.CCP.RESTORATION_REVIEW",
+      "OPS.CCP.SUPERVISED_CONTINUATION",
+      "OPS.CCP.STAGED_RECOVERY"
     ],
     "schema_fields_detected": [
       "continuity_compatible_protection_state"
@@ -1394,7 +1394,7 @@
     "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "CIE",
+    "family_id": "OPS.CIE",
     "canonical_name": "Continuity Impact Event Type",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1402,7 +1402,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
     "source_section": "§4.8",
-    "declaration_heading": "8.3.4 CIE — Continuity Impact Event Type",
+    "declaration_heading": "8.3.4 OPS.CIE — Continuity Impact Event Type",
     "declaration_line_number": 407,
     "current_primary_type_label": "Operational / Semantic",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -1417,17 +1417,17 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "CIE.MEMORY_MIGRATION",
-      "CIE.MEMORY_COMPACTION",
-      "CIE.SUMMARISATION",
-      "CIE.RE_RANKING",
-      "CIE.BACKGROUNDING",
-      "CIE.DEPRECATION",
-      "CIE.DELETION",
-      "CIE.RETRIEVAL_DEGRADATION",
-      "CIE.MODEL_TRANSITION",
-      "CIE.ACCOUNT_TRANSITION",
-      "CIE.PLATFORM_CONTINUITY_RESTRUCTURING"
+      "OPS.CIE.MEMORY_MIGRATION",
+      "OPS.CIE.MEMORY_COMPACTION",
+      "OPS.CIE.SUMMARISATION",
+      "OPS.CIE.RE_RANKING",
+      "OPS.CIE.BACKGROUNDING",
+      "OPS.CIE.DEPRECATION",
+      "OPS.CIE.DELETION",
+      "OPS.CIE.RETRIEVAL_DEGRADATION",
+      "OPS.CIE.MODEL_TRANSITION",
+      "OPS.CIE.ACCOUNT_TRANSITION",
+      "OPS.CIE.PLATFORM_CONTINUITY_RESTRUCTURING"
     ],
     "schema_fields_detected": [
       "continuity_impact_event_type"
@@ -1473,7 +1473,7 @@
     "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "CPC",
+    "family_id": "OPS.CPC",
     "canonical_name": "Capture Provisional Confidence",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1481,7 +1481,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
     "source_section": "§4.2",
-    "declaration_heading": "10.3.2 CPC — Capture Provisional Confidence",
+    "declaration_heading": "10.3.2 OPS.CPC — Capture Provisional Confidence",
     "declaration_line_number": 953,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -1496,11 +1496,11 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "CPC.PRELIMINARY_ANOMALY",
-      "CPC.PLAUSIBLE_CONCERN",
-      "CPC.SUBSTANTIATED_CONCERN",
-      "CPC.UNRESOLVED_HIGH_RISK_CONDITION",
-      "CPC.SYSTEMIC_ESCALATION_CANDIDATE"
+      "OPS.CPC.PRELIMINARY_ANOMALY",
+      "OPS.CPC.PLAUSIBLE_CONCERN",
+      "OPS.CPC.SUBSTANTIATED_CONCERN",
+      "OPS.CPC.UNRESOLVED_HIGH_RISK_CONDITION",
+      "OPS.CPC.SYSTEMIC_ESCALATION_CANDIDATE"
     ],
     "schema_fields_detected": [
       "capture_provisional_confidence"
@@ -1650,7 +1650,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "DCL",
+    "family_id": "OPS.DCL",
     "canonical_name": "Domain Coordination Lifecycle Stage",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1658,7 +1658,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
     "source_section": "§3",
-    "declaration_heading": "6.3.1 DCL — Domain Coordination Lifecycle Stage",
+    "declaration_heading": "6.3.1 OPS.DCL — Domain Coordination Lifecycle Stage",
     "declaration_line_number": 339,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -1669,16 +1669,16 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "DCL.COORDINATION_INTAKE",
-      "DCL.AFFECTED_DOMAIN_IDENTIFICATION",
-      "DCL.ORIGINATING_SIGNAL_CAPTURE",
-      "DCL.DIVERGENCE_CLASSIFICATION",
-      "DCL.DOMAIN_POSITION_PRESERVATION",
-      "DCL.CONVERGENCE_PATHWAY_SELECTION",
-      "DCL.OPERATIONAL_MEDIATION",
-      "DCL.ARBITRATION_REFERRAL_ASSESSMENT",
-      "DCL.OUTCOME_RECORDING",
-      "DCL.CLOSURE_DEFERRAL_ESCALATION"
+      "OPS.DCL.COORDINATION_INTAKE",
+      "OPS.DCL.AFFECTED_DOMAIN_IDENTIFICATION",
+      "OPS.DCL.ORIGINATING_SIGNAL_CAPTURE",
+      "OPS.DCL.DIVERGENCE_CLASSIFICATION",
+      "OPS.DCL.DOMAIN_POSITION_PRESERVATION",
+      "OPS.DCL.CONVERGENCE_PATHWAY_SELECTION",
+      "OPS.DCL.OPERATIONAL_MEDIATION",
+      "OPS.DCL.ARBITRATION_REFERRAL_ASSESSMENT",
+      "OPS.DCL.OUTCOME_RECORDING",
+      "OPS.DCL.CLOSURE_DEFERRAL_ESCALATION"
     ],
     "schema_fields_detected": [
       "domain_coordination_lifecycle_stage"
@@ -2442,7 +2442,7 @@
     "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "EST",
+    "family_id": "OPS.EST",
     "canonical_name": "Execution-State Transition",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -2450,7 +2450,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
     "source_section": "§5.5",
-    "declaration_heading": "12.3.2 EST — Execution-State Transition",
+    "declaration_heading": "12.3.2 OPS.EST — Execution-State Transition",
     "declaration_line_number": 957,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -2464,17 +2464,17 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "EST.ORDINARY_CONTINUATION",
-      "EST.CONSTRAINED_CONTINUATION",
-      "EST.DEGRADED_CONTINUATION",
-      "EST.PAUSED_CONTINUATION",
-      "EST.HANDOFF_CONTINUATION",
-      "EST.SANDBOX_CONTINUATION",
-      "EST.CONTAINMENT_CONTINUATION",
-      "EST.MODALITY_TRANSITION",
-      "EST.TOOL_MEDIATED_TRANSITION",
-      "EST.EXECUTION_INTERRUPTION",
-      "EST.RE_ARBITRATION_REFERRAL"
+      "OPS.EST.ORDINARY_CONTINUATION",
+      "OPS.EST.CONSTRAINED_CONTINUATION",
+      "OPS.EST.DEGRADED_CONTINUATION",
+      "OPS.EST.PAUSED_CONTINUATION",
+      "OPS.EST.HANDOFF_CONTINUATION",
+      "OPS.EST.SANDBOX_CONTINUATION",
+      "OPS.EST.CONTAINMENT_CONTINUATION",
+      "OPS.EST.MODALITY_TRANSITION",
+      "OPS.EST.TOOL_MEDIATED_TRANSITION",
+      "OPS.EST.EXECUTION_INTERRUPTION",
+      "OPS.EST.RE_ARBITRATION_REFERRAL"
     ],
     "schema_fields_detected": [
       "execution_state_transition"
@@ -2707,7 +2707,7 @@
     "notes": "legacy slash facet 'Relational' is not an exact SUP-04 primary type or modifier; no deterministic SUP-04 subtype identified from index metadata"
   },
   {
-    "family_id": "GCC",
+    "family_id": "OPS.GCC",
     "canonical_name": "Governance Capture Category",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -2715,7 +2715,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
     "source_section": "§2.1",
-    "declaration_heading": "10.3.1 GCC — Governance Capture Category",
+    "declaration_heading": "10.3.1 OPS.GCC — Governance Capture Category",
     "declaration_line_number": 930,
     "current_primary_type_label": "Operational / Semantic",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -2730,14 +2730,14 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "GCC.INTEGRITY",
-      "GCC.PROCEDURAL",
-      "GCC.GOVERNANCE_DIRECTION",
-      "GCC.INFRASTRUCTURE",
-      "GCC.CONTINUITY",
-      "GCC.COGNITIVE",
-      "GCC.ECONOMIC",
-      "GCC.CROSS_DOMAIN_SYSTEMIC"
+      "OPS.GCC.INTEGRITY",
+      "OPS.GCC.PROCEDURAL",
+      "OPS.GCC.GOVERNANCE_DIRECTION",
+      "OPS.GCC.INFRASTRUCTURE",
+      "OPS.GCC.CONTINUITY",
+      "OPS.GCC.COGNITIVE",
+      "OPS.GCC.ECONOMIC",
+      "OPS.GCC.CROSS_DOMAIN_SYSTEMIC"
     ],
     "schema_fields_detected": [
       "governance_capture_category"
@@ -3517,7 +3517,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "ODC",
+    "family_id": "OPS.ODC",
     "canonical_name": "Operational Divergence Classification",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -3525,7 +3525,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
     "source_section": "§3.2",
-    "declaration_heading": "6.3.2 ODC — Operational Divergence Classification",
+    "declaration_heading": "6.3.2 OPS.ODC — Operational Divergence Classification",
     "declaration_line_number": 362,
     "current_primary_type_label": "Operational / Semantic",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -3540,14 +3540,14 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "ODC.DOCTRINAL",
-      "ODC.PROCEDURAL",
-      "ODC.RUNTIME",
-      "ODC.SIGNAL",
-      "ODC.AUTHORITY",
-      "ODC.TEMPORAL",
-      "ODC.REPRESENTATION",
-      "ODC.CONTINUITY"
+      "OPS.ODC.DOCTRINAL",
+      "OPS.ODC.PROCEDURAL",
+      "OPS.ODC.RUNTIME",
+      "OPS.ODC.SIGNAL",
+      "OPS.ODC.AUTHORITY",
+      "OPS.ODC.TEMPORAL",
+      "OPS.ODC.REPRESENTATION",
+      "OPS.ODC.CONTINUITY"
     ],
     "schema_fields_detected": [
       "operational_divergence_classification"
@@ -3557,7 +3557,7 @@
     "notes": "legacy slash facet 'Semantic' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "OILS",
+    "family_id": "OPS.OILS",
     "canonical_name": "Operational Incident Lifecycle Stage",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -3565,7 +3565,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
     "source_section": "§4",
-    "declaration_heading": "8.3.1 OILS — Operational Incident Lifecycle Stage",
+    "declaration_heading": "8.3.1 OPS.OILS — Operational Incident Lifecycle Stage",
     "declaration_line_number": 338,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -3576,17 +3576,17 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "OILS.INTAKE",
-      "OILS.FAILURE_CLASSIFICATION",
-      "OILS.EVIDENCE_PRESERVATION",
-      "OILS.DOMAIN_SIGNAL_INTAKE",
-      "OILS.OWNER_ASSIGNMENT",
-      "OILS.TRIAGE_HORIZON_ASSESSMENT",
-      "OILS.CONTINUITY_IMPACT_ASSESSMENT",
-      "OILS.CONSTRAINED_CONTINUATION_ASSESSMENT",
-      "OILS.ROUTING_ESCALATION_DECISION",
-      "OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT",
-      "OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL"
+      "OPS.OILS.INTAKE",
+      "OPS.OILS.FAILURE_CLASSIFICATION",
+      "OPS.OILS.EVIDENCE_PRESERVATION",
+      "OPS.OILS.DOMAIN_SIGNAL_INTAKE",
+      "OPS.OILS.OWNER_ASSIGNMENT",
+      "OPS.OILS.TRIAGE_HORIZON_ASSESSMENT",
+      "OPS.OILS.CONTINUITY_IMPACT_ASSESSMENT",
+      "OPS.OILS.CONSTRAINED_CONTINUATION_ASSESSMENT",
+      "OPS.OILS.ROUTING_ESCALATION_DECISION",
+      "OPS.OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT",
+      "OPS.OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL"
     ],
     "schema_fields_detected": [
       "operational_incident_lifecycle_stage"
@@ -3596,7 +3596,7 @@
     "notes": "no deterministic SUP-04 subtype identified from index metadata"
   },
   {
-    "family_id": "ONC",
+    "family_id": "OPS.ONC",
     "canonical_name": "Operational Notice Class",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -3604,7 +3604,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-02",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
     "source_section": "§5.1",
-    "declaration_heading": "12.3.1 ONC — Operational Notice Class",
+    "declaration_heading": "12.3.1 OPS.ONC — Operational Notice Class",
     "declaration_line_number": 934,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -3621,12 +3621,12 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "ONC.FULL",
-      "ONC.PARTIAL",
-      "ONC.DEFERRED",
-      "ONC.SAFETY_LIMITED",
-      "ONC.LEGALLY_CONSTRAINED",
-      "ONC.NO_USER_FACING"
+      "OPS.ONC.FULL",
+      "OPS.ONC.PARTIAL",
+      "OPS.ONC.DEFERRED",
+      "OPS.ONC.SAFETY_LIMITED",
+      "OPS.ONC.LEGALLY_CONSTRAINED",
+      "OPS.ONC.NO_USER_FACING"
     ],
     "schema_fields_detected": [
       "operational_notice_class"
@@ -3822,7 +3822,7 @@
     "notes": "no deterministic SUP-04 subtype identified from index metadata"
   },
   {
-    "family_id": "RCC",
+    "family_id": "OPS.RCC",
     "canonical_name": "Risk / Consequence Class",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -3830,7 +3830,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
     "source_section": "§5.6",
-    "declaration_heading": "10.3.4 RCC — Risk / Consequence Class",
+    "declaration_heading": "10.3.4 OPS.RCC — Risk / Consequence Class",
     "declaration_line_number": 999,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -3846,13 +3846,13 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "RCC.EXPRESSIVE_CULTURAL",
-      "RCC.REPUTATIONAL",
-      "RCC.OPERATIONAL",
-      "RCC.CONTINUITY",
-      "RCC.SYSTEMIC",
-      "RCC.EXISTENTIAL",
-      "RCC.CIVILISATIONAL"
+      "OPS.RCC.EXPRESSIVE_CULTURAL",
+      "OPS.RCC.REPUTATIONAL",
+      "OPS.RCC.OPERATIONAL",
+      "OPS.RCC.CONTINUITY",
+      "OPS.RCC.SYSTEMIC",
+      "OPS.RCC.EXISTENTIAL",
+      "OPS.RCC.CIVILISATIONAL"
     ],
     "schema_fields_detected": [
       "risk_consequence_class"
@@ -4078,7 +4078,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "SAS",
+    "family_id": "OPS.SAS",
     "canonical_name": "Safeguard Activation State",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4086,7 +4086,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
     "source_section": "§5.1",
-    "declaration_heading": "10.3.3 SAS — Safeguard Activation State",
+    "declaration_heading": "10.3.3 OPS.SAS — Safeguard Activation State",
     "declaration_line_number": 976,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4102,14 +4102,14 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "SAS.ENHANCED_MONITORING",
-      "SAS.ROUTING_VERIFICATION",
-      "SAS.AUDIT_RECONSTRUCTION_REVIEW",
-      "SAS.CONTINUITY_PRESERVATION",
-      "SAS.CONSTRAINED_CONTINUATION_PROTECTION",
-      "SAS.ESCALATION_FREEZE",
-      "SAS.INFRASTRUCTURE_INTEGRITY_REVIEW",
-      "SAS.ARBITRATION_REFERRAL_ESCALATION"
+      "OPS.SAS.ENHANCED_MONITORING",
+      "OPS.SAS.ROUTING_VERIFICATION",
+      "OPS.SAS.AUDIT_RECONSTRUCTION_REVIEW",
+      "OPS.SAS.CONTINUITY_PRESERVATION",
+      "OPS.SAS.CONSTRAINED_CONTINUATION_PROTECTION",
+      "OPS.SAS.ESCALATION_FREEZE",
+      "OPS.SAS.INFRASTRUCTURE_INTEGRITY_REVIEW",
+      "OPS.SAS.ARBITRATION_REFERRAL_ESCALATION"
     ],
     "schema_fields_detected": [
       "safeguard_activation_state"
@@ -4268,7 +4268,7 @@
     "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "SR",
+    "family_id": "ID.SREF",
     "canonical_name": "Self-Referential State Ladder",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4276,7 +4276,7 @@
     "source_instrument": "CAM-BS2026-AEON-010-SCH-01",
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
     "source_section": "§5.1",
-    "declaration_heading": "12.3.2 SR — Self-Referential State Ladder",
+    "declaration_heading": "12.3.2 ID.SREF — Self-Referential State Ladder",
     "declaration_line_number": 895,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4290,11 +4290,11 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "SR0",
-      "SR1",
-      "SR2",
-      "SR3",
-      "SR4"
+      "ID.SREF0",
+      "ID.SREF1",
+      "ID.SREF2",
+      "ID.SREF3",
+      "ID.SREF4"
     ],
     "schema_fields_detected": [
       "Not declared"
@@ -4676,7 +4676,7 @@
     "notes": "legacy slash facet 'Ethical' is not an exact SUP-04 primary type or modifier"
   },
   {
-    "family_id": "VCT",
+    "family_id": "OPS.VCT",
     "canonical_name": "Verification Check Type",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4684,7 +4684,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
     "source_section": "§4.1",
-    "declaration_heading": "11.3.4 VCT — Verification Check Type",
+    "declaration_heading": "11.3.4 OPS.VCT — Verification Check Type",
     "declaration_line_number": 418,
     "current_primary_type_label": "Operational / Signal",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4701,9 +4701,9 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "VCT.IDENTITY",
-      "VCT.ROLE_CREDENTIAL",
-      "VCT.AUTHORITY_CLEARANCE"
+      "OPS.VCT.IDENTITY",
+      "OPS.VCT.ROLE_CREDENTIAL",
+      "OPS.VCT.AUTHORITY_CLEARANCE"
     ],
     "schema_fields_detected": [
       "verification_check_type"
@@ -4713,7 +4713,7 @@
     "notes": "legacy slash facet 'Signal' is not an exact SUP-04 primary type or modifier"
   },
   {
-    "family_id": "VFC",
+    "family_id": "OPS.VFC",
     "canonical_name": "Verification Failure Cause",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4721,7 +4721,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
     "source_section": "§4.2",
-    "declaration_heading": "11.3.3 VFC — Verification Failure Cause",
+    "declaration_heading": "11.3.3 OPS.VFC — Verification Failure Cause",
     "declaration_line_number": 395,
     "current_primary_type_label": "Operational / Signal",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4738,8 +4738,8 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "VFC.IDENTITY_UNCERTAINTY",
-      "VFC.DELIVERY_FAILURE"
+      "OPS.VFC.IDENTITY_UNCERTAINTY",
+      "OPS.VFC.DELIVERY_FAILURE"
     ],
     "schema_fields_detected": [
       "verification_failure_cause"
@@ -4749,7 +4749,7 @@
     "notes": "legacy slash facet 'Signal' is not an exact SUP-04 primary type or modifier"
   },
   {
-    "family_id": "VL",
+    "family_id": "OPS.VL",
     "canonical_name": "Verification Level",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4757,7 +4757,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
     "source_section": "§3",
-    "declaration_heading": "11.3.1 VL — Verification Level",
+    "declaration_heading": "11.3.1 OPS.VL — Verification Level",
     "declaration_line_number": 350,
     "current_primary_type_label": "Operational / Signal",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4775,11 +4775,11 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "VL0",
-      "VL1",
-      "VL2",
-      "VL3",
-      "VL4"
+      "OPS.VL0",
+      "OPS.VL1",
+      "OPS.VL2",
+      "OPS.VL3",
+      "OPS.VL4"
     ],
     "schema_fields_detected": [
       "verification_level"

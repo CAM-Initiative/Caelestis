@@ -389,11 +389,11 @@ Operational process remains subordinate to constitutional authority.
 
 ---
 
-### 13.1 AIP — Arbitration Initiation Pathway
+### 13.1 OPS.AIP — Arbitration Initiation Pathway
 
-This Appendix source-authoritatively defines the **AIP** arbitration-initiation-pathway family in §4 with controlled values **AIP.DOMAIN_CONFLICT_REFERRAL**, **AIP.RUNTIME_ESCALATION**, **AIP.COMPLIANCE_CONFLICT**, **AIP.HOST_OVERLAY_DIVERGENCE**, **AIP.INSTITUTIONAL_REVIEW_REQUEST**, **AIP.VALIDATED_EXTERNAL_REFERRAL**, and **AIP.GOVOPS_AUDIT_INITIATED_REVIEW**. AIP is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. AIP classifies procedural entry routes into operational arbitration handling.
+This Appendix source-authoritatively defines the **OPS.AIP** arbitration-initiation-pathway family in §4 with controlled values **OPS.AIP.DOMAIN_CONFLICT_REFERRAL**, **OPS.AIP.RUNTIME_ESCALATION**, **OPS.AIP.COMPLIANCE_CONFLICT**, **OPS.AIP.HOST_OVERLAY_DIVERGENCE**, **OPS.AIP.INSTITUTIONAL_REVIEW_REQUEST**, **OPS.AIP.VALIDATED_EXTERNAL_REFERRAL**, and **OPS.AIP.GOVOPS_AUDIT_INITIATED_REVIEW**. OPS.AIP is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. OPS.AIP classifies procedural entry routes into operational arbitration handling.
 
-AIP does not independently create arbitration authority, doctrine authority, escalation authority, enforcement authority, containment authority, implementation authority, legal authority, or runtime authority. It classifies initiation pathway only. Annex D and applicable arbitration instruments determine legitimacy, authority hierarchy, and preference order.
+OPS.AIP does not independently create arbitration authority, doctrine authority, escalation authority, enforcement authority, containment authority, implementation authority, legal authority, or runtime authority. It classifies initiation pathway only. Annex D and applicable arbitration instruments determine legitimacy, authority hierarchy, and preference order.
 
 ---
 
@@ -464,18 +464,18 @@ may remain worthy of being followed.
 
 ---
 
-### 15.3.1 AIP — Arbitration Initiation Pathway
+### 15.3.1 OPS.AIP — Arbitration Initiation Pathway
 
 | Field | Entry |
 |---|---|
-| Code Family | AIP |
+| Code Family | OPS.AIP |
 | Canonical Name | Arbitration Initiation Pathway |
 | Primary Type | Operational |
 | Subtype | OPERATIONAL_EVENT; DECISION_STATE |
 | Modifier | GOVERNANCE; ARBITRATION; PROCEDURAL |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | AIP.DOMAIN_CONFLICT_REFERRAL, AIP.RUNTIME_ESCALATION, AIP.COMPLIANCE_CONFLICT, AIP.HOST_OVERLAY_DIVERGENCE, AIP.INSTITUTIONAL_REVIEW_REQUEST, AIP.VALIDATED_EXTERNAL_REFERRAL, AIP.GOVOPS_AUDIT_INITIATED_REVIEW |
+| Controlled Values Defined | OPS.AIP.DOMAIN_CONFLICT_REFERRAL, OPS.AIP.RUNTIME_ESCALATION, OPS.AIP.COMPLIANCE_CONFLICT, OPS.AIP.HOST_OVERLAY_DIVERGENCE, OPS.AIP.INSTITUTIONAL_REVIEW_REQUEST, OPS.AIP.VALIDATED_EXTERNAL_REFERRAL, OPS.AIP.GOVOPS_AUDIT_INITIATED_REVIEW |
 | Schema Field(s) | arbitration_initiation_pathway |
 | Source Instrument | CAM-EQ2026-OPERATIONS-002-PLATINUM |
 | Source Section | §4 |
@@ -509,7 +509,7 @@ may remain worthy of being followed.
 | 1.4 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 822703f82faf0c8444e22e56961787e6ef1fe2fdc09fe94afb8cb1a46deaca51 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  187514fc146c35455b656fb5f2b240956f78012185f98bb809d28fd76a37b2e9 |
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  7ff1eb2eb615c21a8c64d16da9fab02c32fb434b08c80d14de1d5377f0749b14  |
-
+| 1.6.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  |
 ---
 
 ## 15.6 Binding Seal

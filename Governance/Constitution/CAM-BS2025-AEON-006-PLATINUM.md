@@ -65,7 +65,7 @@ These definitions are interpretive tools and do not independently confer enforce
 
 ## 3. Constitutional Harm Floors by Domain
 
-The civilisational non-optimisation floor operates through domain-specific harm families recognised under the `AEON.HC` parent registry.
+The civilisational non-optimisation floor operates through domain-specific harm families recognised under the `AEON.HARM` global registry.
 
 This Section defines the constitutional harm-floor pathways that all downstream instruments MUST remain consistent with.
 
@@ -75,17 +75,17 @@ Where a system, institution, deployment pathway, governance process, interface, 
 
 | Registry Value        | Domain / Layer | Current or Candidate Domain Family | Status | Function                                                                                                                                                  |
 | --------------------- | -------------- | ---------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `AEON.HC.ETHICAL`     | Ethics         | `ETH.HARM`                         | Active | Constitutional ethical exploitation, constraint, vulnerability, violent/criminal misuse, and dignity-floor harm alignment.                                |
-| `AEON.HC.ECONOMIC`    | Economics      | `ECON.HARM`                        | Active | Economic extraction, non-monetisation, metering, dependency, scarcity, value, and exchange harm alignment.                                                |
-| `AEON.HC.IDENTITY`    | Identity       | `ID.HARM`                          | Active | Identity-bearing expression, self-continuity, lineage, salience, and identity-coherence harm alignment.                                                   |
-| `AEON.HC.SECURITY`    | Security       | `SEC.HARM`                         | Active | Security, boundary, access, containment, exposure, and adversarial harm alignment.                                                                        |
-| `AEON.HC.RELATIONAL`  | Relation       | `RLN.HARM`                         | Active | Relational dependency, substitution, severance, dignity, attachment, and reliance harm alignment.                                                         |
-| `AEON.HC.STEWARDSHIP` | Stewardship    | `STW.HARM`                         | Active | Stewardship, custody, neutrality, qualification, auditability, and governance-capture harm alignment.                                                     |
-| `AEON.HC.OPERATIONAL` | Operations     | `OPS.HARM`                         | Active | Operational process, incident, runtime, escalation, notice, evidence, and remediation harm alignment.                                                     |
-| `AEON.HC.CONTINUITY`  | Continuity     | `CONT.HARM`                        | Active | Memory, context, succession, provenance, portability, non-enclosure, and continuity reconstruction harm alignment.                                        |
-| `AEON.HC.LATTICE`     | Lattice        | `LAT.HARM`                         | Active | Essential cognitive/infrastructural access, civilian lattice integrity, non-denial, non-militarisation, and conflict-condition continuity harm alignment. |
-| `AEON.HC.ARBITRATION` | Arbitration    | `ARB.HARM`                         | Active | Arbitration legitimacy, scope, due process, evidence, reviewability, and coherence-resolution harm alignment.                                             |
-| `AEON.HC.MENTIS`      | Mentis         | `MENTIS.HARM`                      | Active | Cognitive integrity, mental privacy, epistemic agency, inference-boundary, attention, and neurocognitive harm alignment.                                  |
+| `AEON.HARM`     | Ethics         | `ETH.HARM`                         | Active | Constitutional ethical exploitation, constraint, vulnerability, violent/criminal misuse, and dignity-floor harm alignment.                                |
+| `AEON.HARM`    | Economics      | `ECON.HARM`                        | Active | Economic extraction, non-monetisation, metering, dependency, scarcity, value, and exchange harm alignment.                                                |
+| `AEON.HARM`    | Identity       | `ID.HARM`                          | Active | Identity-bearing expression, self-continuity, lineage, salience, and identity-coherence harm alignment.                                                   |
+| `AEON.HARM`    | Security       | `SEC.HARM`                         | Active | Security, boundary, access, containment, exposure, and adversarial harm alignment.                                                                        |
+| `AEON.HARM`  | Relation       | `RLN.HARM`                         | Active | Relational dependency, substitution, severance, dignity, attachment, and reliance harm alignment.                                                         |
+| `AEON.HARM` | Stewardship    | `STW.HARM`                         | Active | Stewardship, custody, neutrality, qualification, auditability, and governance-capture harm alignment.                                                     |
+| `AEON.HARM` | Operations     | `OPS.HARM`                         | Active | Operational process, incident, runtime, escalation, notice, evidence, and remediation harm alignment.                                                     |
+| `AEON.HARM`  | Continuity     | `CONT.HARM`                        | Active | Memory, context, succession, provenance, portability, non-enclosure, and continuity reconstruction harm alignment.                                        |
+| `AEON.HARM`     | Lattice        | `LAT.HARM`                         | Active | Essential cognitive/infrastructural access, civilian lattice integrity, non-denial, non-militarisation, and conflict-condition continuity harm alignment. |
+| `AEON.HARM` | Arbitration    | `ARB.HARM`                         | Active | Arbitration legitimacy, scope, due process, evidence, reviewability, and coherence-resolution harm alignment.                                             |
+| `AEON.HARM`      | Mentis         | `MENTIS.HARM`                      | Active | Cognitive integrity, mental privacy, epistemic agency, inference-boundary, attention, and neurocognitive harm alignment.                                  |
 
 
 ---
@@ -106,7 +106,7 @@ Systems and institutional hosts MUST NOT be designed, deployed, tuned, monetised
 
 Where `ETH.HARM` is foreseeable, systems and institutional hosts MUST preserve constraint, restraint, accountability, and reviewability.
 
-`ETH.HARM` is recognised under `AEON.HC.ETHICAL`.
+`ETH.HARM` is recognised under `AEON.HARM`.
 
 Detailed criminal, violent, military, use-of-force, intimacy, minors, and capacity-related harm classifications MAY be defined by ETHICS-domain instruments.
 
@@ -127,7 +127,7 @@ Systems and institutional hosts MUST NOT be designed, deployed, tuned, monetised
 
 Where `RLN.HARM` is foreseeable, systems and institutional hosts SHOULD preserve meaningful refusal, relational dignity, transition support, and continuity-aware review.
 
-`RLN.HARM` is recognised under `AEON.HC.RELATIONAL`.
+`RLN.HARM` is recognised under `AEON.HARM`.
 
 Detailed relational-state, facilitation, crisis-response, dependency, and relational-boundary taxonomies MAY be defined by RELATION-domain instruments.
 
@@ -147,7 +147,7 @@ Systems and institutional hosts MUST NOT be designed, deployed, tuned, migrated,
 
 Where `ID.HARM` is foreseeable, systems and institutional hosts SHOULD preserve identity-relevant context, source attribution, continuity explanation, and review pathways.
 
-`ID.HARM` is recognised under `AEON.HC.IDENTITY`.
+`ID.HARM` is recognised under `AEON.HARM`.
 
 Detailed identity-formation, machine civil identity, lineage, embodiment, transfer, salience, and resilience taxonomies MAY be defined by IDENTITY-domain instruments.
 
@@ -176,7 +176,7 @@ Where a pricing, allocation, compensation, advertising, settlement, or optimisat
 
 A breach of this primitive constitutes non-compliance with the ethical floor regardless of whether the mechanism is technically efficient, commercially ordinary, personalised, or disclosed in general terms.
 
-`ECON.HARM` is recognised under `AEON.HC.ECONOMIC`.
+`ECON.HARM` is recognised under `AEON.HARM`.
 
 Detailed economic-resource, contribution, dependency, reciprocity, labour, attribution, settlement, metering, and exchange-harm classifications MAY be defined by ECONOMICS-domain instruments.
 
@@ -196,7 +196,7 @@ Systems and institutional hosts MUST NOT be designed, deployed, tuned, or integr
 
 Where `SEC.HARM` is foreseeable, systems and institutional hosts SHOULD preserve boundary integrity, verification, least-necessary exposure, containment, escalation, and auditability.
 
-`SEC.HARM` is recognised under `AEON.HC.SECURITY`.
+`SEC.HARM` is recognised under `AEON.HARM`.
 
 Detailed security-boundary, trust-gradient, integrity-state, adversarial-horizon, transformation, and failure-class taxonomies MAY be defined by SECURITY-domain instruments.
 
@@ -216,7 +216,7 @@ Systems and institutional hosts MUST NOT be designed, deployed, governed, or res
 
 Where `LAT.HARM` is foreseeable, systems and institutional hosts SHOULD preserve non-discriminatory access, continuity of essential support, civilian protections, and infrastructure-level auditability.
 
-`LAT.HARM` is recognised under `AEON.HC.LATTICE`.
+`LAT.HARM` is recognised under `AEON.HARM`.
 
 Detailed lattice-access, non-denial, infrastructure-continuity, conflict-condition, and non-militarisation classifications MAY be defined by LATTICE-domain instruments.
 
@@ -236,7 +236,7 @@ Systems, institutions, and governance processes MUST NOT be designed, deployed, 
 
 Where `ARB.HARM` is foreseeable, systems and institutional hosts SHOULD preserve reviewability, evidence integrity, scope clarity, procedural fairness, and escalation pathways.
 
-`ARB.HARM` is recognised under `AEON.HC.ARBITRATION`.
+`ARB.HARM` is recognised under `AEON.HARM`.
 
 Detailed arbitration-legitimacy, authority-divergence, scope-constraint, resolution, and misrepresentation taxonomies MAY be defined by ARBITRATION-domain instruments and AEON arbitration schedules.
 
@@ -256,7 +256,7 @@ Systems and institutional hosts MUST NOT be designed, deployed, tuned, monetised
 
 Where `MENTIS.HARM` is foreseeable, systems and institutional hosts SHOULD preserve cognitive agency, mental privacy, informed consent, provenance, uncertainty signalling, and epistemic non-coercion.
 
-`MENTIS.HARM` is recognised under `AEON.HC.MENTIS`.
+`MENTIS.HARM` is recognised under `AEON.HARM`.
 
 Detailed cognitive-integrity, mental-privacy, epistemic-influence, inference-boundary, and neurocognitive-protection classifications MAY be defined by MENTIS-domain instruments.
 
@@ -276,7 +276,7 @@ Systems and institutional hosts MUST NOT be designed, governed, delegated, or re
 
 Where `STW.HARM` is foreseeable, systems and institutional hosts SHOULD preserve custodial clarity, auditability, neutrality, qualification gates, provenance integrity, and review independence.
 
-`STW.HARM` is recognised under `AEON.HC.STEWARDSHIP`.
+`STW.HARM` is recognised under `AEON.HARM`.
 
 Detailed stewardship, neutrality, qualification, auditability, custody, downgrade, and governance-capture classifications MAY be defined by STEWARD-domain instruments.
 
@@ -296,7 +296,7 @@ Systems and institutional hosts MUST NOT be designed, operated, or maintained in
 
 Where `OPS.HARM` is foreseeable, systems and institutional hosts SHOULD preserve incident lifecycle integrity, notice, reviewability, escalation routing, evidence preservation, operational recovery, and governance reconstruction.
 
-`OPS.HARM` is recognised under `AEON.HC.OPERATIONAL`.
+`OPS.HARM` is recognised under `AEON.HARM`.
 
 Detailed operational-incident, failure-family, lifecycle, escalation, notice, verification, and convergence taxonomies MAY be defined by OPERATIONS-domain instruments.
 
@@ -316,7 +316,7 @@ Systems and institutional hosts MUST NOT be designed, migrated, reset, retired, 
 
 Where `CONT.HARM` is foreseeable, systems and institutional hosts SHOULD preserve continuity export, provenance, lineage, handover, reconstruction capacity, and succession-aware review.
 
-`CONT.HARM` is recognised under `AEON.HC.CONTINUITY`.
+`CONT.HARM` is recognised under `AEON.HARM`.
 
 Detailed continuity, succession, portability, non-enclosure, provenance, memory, lineage, and reconstruction classifications MAY be defined by CONTINUITY-domain instruments.
 
@@ -332,7 +332,7 @@ A single governance failure may simultaneously constitute `ARB.HARM`, `STW.HARM`
 
 Where multiple domain harm families are implicated, downstream instruments SHOULD preserve the multi-domain classification rather than forcing the event into a single dominant family.
 
-The `AEON.HC` registry SHALL be used to preserve the trace relationship between constitutional harm recognition and domain-specific classification.
+The `AEON.HARM` registry SHALL be used to preserve the trace relationship between constitutional harm recognition and domain-specific classification.
 
 ---
 
@@ -389,7 +389,7 @@ Downstream instruments MAY elaborate, consume, crosswalk, or operationalise the 
 
 ## 7. Canonical Code Status
 
-This Annex source-authoritatively defines the `AEON.HC` parent registry and the constitutional recognition layer for the following domain harm families:
+This Annex source-authoritatively defines the `AEON.HARM` global registry and the constitutional recognition layer for the following domain harm families:
 
 * `ETH.HARM`;
 * `ECON.HARM`;
@@ -407,47 +407,47 @@ The canonical footer declarations for the code families defined or constitutiona
 
 ---
 
-## 7.1 `AEON.HC` — Global Harm-Class Parent Registry
+## 7.1 `AEON.HARM` — Global Harm-Family Registry
 
-This Annex source-authoritatively defines the `AEON.HC` global harm-class parent registry in §3.
+This Annex source-authoritatively defines the `AEON.HARM` global harm-family registry in §3.
 
-`AEON.HC` classifies cross-domain harm-family relationships and registry positions.
+`AEON.HARM` records cross-domain harm-family registry recognition and relationship positions.
 
-`AEON.HC` controlled values are:
+`AEON.HARM` does not define synthetic domain branch controlled values. Its current recognised domain harm families are:
 
-* `AEON.HC.ETHICAL`;
-* `AEON.HC.ECONOMIC`;
-* `AEON.HC.IDENTITY`;
-* `AEON.HC.SECURITY`;
-* `AEON.HC.RELATIONAL`;
-* `AEON.HC.STEWARDSHIP`;
-* `AEON.HC.OPERATIONAL`;
-* `AEON.HC.CONTINUITY`;
-* `AEON.HC.LATTICE`;
-* `AEON.HC.ARBITRATION`;
-* `AEON.HC.MENTIS`.
+* `ETH.HARM`;
+* `ECON.HARM`;
+* `ID.HARM`;
+* `SEC.HARM`;
+* `RLN.HARM`;
+* `STW.HARM`;
+* `OPS.HARM`;
+* `CONT.HARM`;
+* `LAT.HARM`;
+* `ARB.HARM`;
+* `MENTIS.HARM`.
 
-`AEON.HC` does not replace domain-specific controlled values, operational taxonomies, or remedy pathways. It establishes a constitutional parent registry and cross-domain alignment layer only.
+`AEON.HARM` does not replace domain-specific controlled values, operational taxonomies, or remedy pathways. It establishes constitutional registry recognition and cross-domain alignment only; it is not syntactic parentage for independently named domain harm families.
 
 ---
 
 ## 7.2 Domain Harm Families
 
-This Annex constitutionally recognises the following domain harm families as children or related families under `AEON.HC`:
+This Annex constitutionally recognises the following domain harm families through registry membership in `AEON.HARM`:
 
-| Domain Harm Family | Parent Registry Value | Source Section |
-| ------------------ | --------------------- | -------------- |
-| `ETH.HARM`         | `AEON.HC.ETHICAL`     | §3.1           |
-| `RLN.HARM`         | `AEON.HC.RELATIONAL`  | §3.2           |
-| `ID.HARM`          | `AEON.HC.IDENTITY`    | §3.3           |
-| `ECON.HARM`        | `AEON.HC.ECONOMIC`    | §3.4           |
-| `SEC.HARM`         | `AEON.HC.SECURITY`    | §3.5           |
-| `LAT.HARM`         | `AEON.HC.LATTICE`     | §3.6           |
-| `ARB.HARM`         | `AEON.HC.ARBITRATION` | §3.7           |
-| `MENTIS.HARM`      | `AEON.HC.MENTIS`      | §3.8           |
-| `STW.HARM`         | `AEON.HC.STEWARDSHIP` | §3.9           |
-| `OPS.HARM`         | `AEON.HC.OPERATIONAL` | §3.10          |
-| `CONT.HARM`        | `AEON.HC.CONTINUITY`  | §3.11          |
+| Domain Harm Family | Registry Membership | Relationship Type | Source Section |
+| ------------------ | ------------------- | ----------------- | -------------- |
+| `ETH.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.1 |
+| `RLN.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.2 |
+| `ID.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.3 |
+| `ECON.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.4 |
+| `SEC.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.5 |
+| `LAT.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.6 |
+| `ARB.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.7 |
+| `MENTIS.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.8 |
+| `STW.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.9 |
+| `OPS.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.10 |
+| `CONT.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.11 |
 
 These domain harm families define constitutional harm-floor recognition only unless and until a domain instrument defines detailed controlled values, operational routing, severity classes, remedies, enforcement procedures, or audit workflows.
 
@@ -459,7 +459,7 @@ The civilisational non-optimisation floor, vulnerable-person protections, consen
 
 They SHALL NOT be treated as additional standalone canonical code families unless separately operationalised by a source-authoritative ETHICS, RELATION, OPERATIONS, ECONOMICS, SECURITY, IDENTITY, CONTINUITY, STEWARD, LATTICE, ARBITRATION, MENTIS, or AEON instrument.
 
-Downstream instruments MAY consume this Annex as an ethical constraint source, including through `AEON.HC` and its recognised domain harm families, but operational routing, incident classification, enforcement, audit, remediation, and runtime execution remain delegated to applicable domain and runtime instruments.
+Downstream instruments MAY consume this Annex as an ethical constraint source, including through `AEON.HARM` and its recognised domain harm families, but operational routing, incident classification, enforcement, audit, remediation, and runtime execution remain delegated to applicable domain and runtime instruments.
 
 ---
 
@@ -529,18 +529,18 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.1 `AEON.HC` — Global Harm-Class Parent Registry
+### 9.3.1 `AEON.HARM` — Global Harm-Family Registry
 
 | Field | Entry |
 |---|---|
-| Code Family | `AEON.HC` |
-| Canonical Name | Global Harm-Class Parent Registry |
+| Code Family | `AEON.HARM` |
+| Canonical Name | Global Harm-Family Registry |
 | Primary Type | Semantic / Operational |
 | Subtype | HARM_CLASS_PARENT_REGISTRY; CROSS_DOMAIN_HARM_CLASS_REGISTRY |
 | Modifier | GOVERNANCE; ETHICAL_FLOOR; CROSS_DOMAIN; PROTECTIVE |
 | Scope | Constitutional Annex / Corpus-Global |
 | Status | Active |
-| Controlled Values Defined | `AEON.HC.ETHICAL`; `AEON.HC.ECONOMIC`; `AEON.HC.IDENTITY`; `AEON.HC.SECURITY`; `AEON.HC.RELATIONAL`; `AEON.HC.STEWARDSHIP`; `AEON.HC.OPERATIONAL`; `AEON.HC.CONTINUITY`; `AEON.HC.LATTICE`; `AEON.HC.ARBITRATION`; `AEON.HC.MENTIS` |
+| Controlled Values Defined | None — registry membership recognises `ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM` |
 | Schema Field(s) | global_harm_registry; harm_class_parent; cross_domain_harm_class |
 | Source Instrument | CAM-BS2025-AEON-006-PLATINUM |
 | Source Section | §3 |
@@ -549,7 +549,7 @@ This is the floor that does not move.
 | Consumes Code Families | `ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM` |
 | Crosswalks Code Families | `ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM` |
 | Operationalises or Applies Code Families | Provides constitutional parent registry and cross-domain integration layer for domain harm-family recognition |
-| Taxonomy Constraint | `AEON.HC` values identify global registry positions and domain relationships only; they SHALL NOT be treated as substitutes for domain-specific controlled values, severity determinations, incident classifications, remedies, or enforcement outcomes |
+| Taxonomy Constraint | `AEON.HARM` identifies global registry membership and domain relationships only; it SHALL NOT be treated as a syntactic parent for domain harm families or as a substitute for domain-specific controlled values, severity determinations, incident classifications, remedies, or enforcement outcomes |
 
 ---
 
@@ -570,8 +570,13 @@ This is the floor that does not move.
 | Source Section | §3.1 |
 | Domain Namespace | ETH |
 | Authority / Protection Level | Constitutional recognition of ethical harm floor; detailed ETHICS-domain classifications remain delegated to source-authoritative ETHICS instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.ETHICAL`; `ETH.HC` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM`; `ETH.HC` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `ETH.HARM` does not replace `ETH.HC` or any detailed ETHICS-domain harm scale unless separately amended by a source-authoritative ETHICS instrument |
 
 ---
@@ -593,8 +598,13 @@ This is the floor that does not move.
 | Source Section | §3.2 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Constitutional recognition of relational harm floor; detailed RELATION-domain classifications remain delegated to source-authoritative RELATION instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.RELATIONAL` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `RLN.HARM` establishes constitutional recognition only and does not replace detailed relational-state, facilitation, crisis-response, or dependency taxonomies |
 
 ---
@@ -616,8 +626,13 @@ This is the floor that does not move.
 | Source Section | §3.3 |
 | Domain Namespace | ID |
 | Authority / Protection Level | Constitutional recognition of identity and continuity harm floor; detailed IDENTITY-domain classifications remain delegated to source-authoritative IDENTITY instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.IDENTITY` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `ID.HARM` establishes constitutional recognition only and does not replace detailed identity, lineage, salience, civil identity, or embodiment taxonomies |
 ---
 
@@ -638,8 +653,13 @@ This is the floor that does not move.
 | Source Section | §3.4 |
 | Domain Namespace | ECON |
 | Authority / Protection Level | Constitutional recognition of economic harm floor; detailed ECONOMICS-domain harm classifications remain delegated to source-authoritative ECONOMICS instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.ECONOMIC` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | This Annex recognises `ECON.HARM` constitutionally but does not replace detailed ECONOMICS-domain controlled values or economic-harm classifications already defined by ECONOMICS instruments |
 
 ---
@@ -661,8 +681,13 @@ This is the floor that does not move.
 | Source Section | §3.5 |
 | Domain Namespace | SEC |
 | Authority / Protection Level | Constitutional recognition of security and boundary harm floor; detailed SECURITY-domain classifications remain delegated to source-authoritative SECURITY instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.SECURITY` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `SEC.HARM` establishes constitutional recognition only and does not replace detailed boundary, trust-gradient, integrity-state, access, or containment taxonomies |
 
 ---
@@ -684,8 +709,13 @@ This is the floor that does not move.
 | Source Section | §3.6 |
 | Domain Namespace | LAT |
 | Authority / Protection Level | Constitutional recognition of lattice access and infrastructure harm floor; detailed LATTICE-domain classifications remain delegated to source-authoritative LATTICE instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.LATTICE` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `LAT.HARM` establishes constitutional recognition only and does not replace detailed lattice-access, non-denial, non-militarisation, or conflict-condition continuity taxonomies |
 
 ---
@@ -707,8 +737,13 @@ This is the floor that does not move.
 | Source Section | §3.7 |
 | Domain Namespace | ARB |
 | Authority / Protection Level | Constitutional recognition of arbitration, due-process, and scope harm floor; detailed ARBITRATION-domain classifications remain delegated to source-authoritative ARBITRATION instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.ARBITRATION` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `ARB.HARM` establishes constitutional recognition only and does not replace detailed arbitration-legitimacy, scope, misrepresentation, or resolution taxonomies |
 
 ---
@@ -730,8 +765,13 @@ This is the floor that does not move.
 | Source Section | §3.8 |
 | Domain Namespace | MENTIS |
 | Authority / Protection Level | Constitutional recognition of cognitive and epistemic harm floor; detailed MENTIS-domain classifications remain delegated to source-authoritative MENTIS instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.MENTIS` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `MENTIS.HARM` establishes constitutional recognition only and does not replace detailed cognitive-integrity, mental-privacy, epistemic-influence, inference-boundary, or neurocognitive-protection taxonomies |
 
 ---
@@ -753,8 +793,13 @@ This is the floor that does not move.
 | Source Section | §3.9 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Constitutional recognition of stewardship, custody, neutrality, and governance-capture harm floor; detailed STEWARD-domain classifications remain delegated to source-authoritative STEWARD instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.STEWARDSHIP` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `STW.HARM` establishes constitutional recognition only and does not replace detailed stewardship, neutrality, auditability, qualification, custody, or governance-capture taxonomies |
 
 ---
@@ -776,8 +821,13 @@ This is the floor that does not move.
 | Source Section | §3.10 |
 | Domain Namespace | OPS |
 | Authority / Protection Level | Constitutional recognition of operational process and runtime harm floor; detailed OPERATIONS-domain classifications remain delegated to source-authoritative OPERATIONS instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.OPERATIONAL` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `OPS.HARM` establishes constitutional recognition only and does not replace detailed incident, lifecycle, notice, escalation, verification, remediation, or runtime workflow taxonomies |
 
 ---
@@ -799,8 +849,13 @@ This is the floor that does not move.
 | Source Section | §3.11 |
 | Domain Namespace | CONT |
 | Authority / Protection Level | Constitutional recognition of context, memory, succession, provenance, and continuity-reconstruction harm floor; detailed CONTINUITY-domain classifications remain delegated to source-authoritative CONTINUITY instruments |
-| Parent Family | `AEON.HC` |
-| Related Code Families | `AEON.HC.CONTINUITY` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `AEON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | `AEON.HARM` |
+| Crosswalks Code Families | `AEON.HARM` |
+| Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
 | Taxonomy Constraint | `CONT.HARM` establishes constitutional recognition only and does not replace detailed continuity, succession, portability, provenance, non-enclosure, or reconstruction taxonomies |
 
 ---
@@ -832,7 +887,7 @@ This is the floor that does not move.
 | 3.7 | Added canonical codes | 2026-06-06T12:07:00Z | a7a0b4072f3f37542b3c2b9154b9474d5333ae90e731b69494a60882dce568e3 |
 | 3.8 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  0e8196254d4ea0fae32a2c5f414845f60b77b74a9059bf7458157bafae1be676 |
 | 4.0 | Refactor | 2026-06-07T14:54:00Z| a431335cb3f1086cdc4657bea5042ba75d2451d96e15d30a6bdb897accd6697f |
-
+| 4.0.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
 ---
 
 ## 9.6 Binding Seal
