@@ -431,10 +431,12 @@ that what sustains all MUST remain beyond capture.
 | Source Section | §5.6 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative planetary harm classification and remedy-interface family; harm-impact and proportional-remedy signalling only; no independent coercive authority, territorial jurisdiction, tribunal authority, sanction power, execution authority, enforcement authority, or runtime execution authority |
-| Parent Family | `AEON.HC` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
 | Related Code Families | `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
-| Consumes Code Families | H; `AEON.HC`; domain harm families where materially implicated |
-| Crosswalks Code Families | `AEON.HC`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | H; `AEON.HARM`; domain harm families where materially implicated |
+| Crosswalks Code Families | `AEON.HARM`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
 | Operationalises or Applies Code Families | Classifies planetary harm severity and remedy posture across localised planetary-relevant harm, regional/systemic harm, planetary-scale harm, irreversible/continuity-critical harm, and extinction-class/species-viability harm for proportional constraint assessment, safeguard calibration, remedy selection, coherence signalling, and arbitration referral |
 | Taxonomy Constraint | `STW.HARM` classifies planetary harm-impact and proportional-remedy posture only. It SHALL NOT replace domain-specific harm families, determine legal liability, establish enforcement authority, create coercive obligations, or collapse multi-domain harm classification into a single planetary class. |
 
@@ -463,7 +465,7 @@ that what sustains all MUST remain beyond capture.
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  120c6f65ed04c6768667aab40aefd4d5386d6721eed2851a98fbccd3844aa7f6 |
 | 2.5 | Formatting and polish | 2026-05-20T11:52:00Z |  6a9e33d45878989c606fd1f40f99c7784e14c81afe6329b0ab0802d3f65285ef |
 |2.6 | Added STW.HARM classifications | 2026-06-07T14:51:00Z| b4dfadb84cfa92ee7023a04adb646c10bf5c1157c5a748999173cf58c2c46a5d |
-
+| 2.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  5bc4f510804bae354f8eed2638c8dc4137502645a828e7ec8685c6040e059e6e  |
 ---
 
 ## 12.6 Binding Seal

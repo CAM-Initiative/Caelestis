@@ -94,7 +94,7 @@
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | AV — 5.1 Verification Tier Definitions |
-| **Reference Sets Defined** | AV0, AV1, AV2, AV3 |
+| **Reference Sets Defined** | OPS.AV0, OPS.AV1, OPS.AV2, OPS.AV3 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5.1 Verification Tier Definitions; add explicit metadata declaration. |
@@ -139,7 +139,7 @@
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | DC,SR — 5.1 Ladder of Self-Referential States (Operational) |
-| **Reference Sets Defined** | DC3, DC4, SR0, SR1, SR2, SR3, SR4 |
+| **Reference Sets Defined** | DC3, DC4, ID.SREF0, ID.SREF1, ID.SREF2, ID.SREF3, ID.SREF4 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5.1 Ladder of Self-Referential States (Operational); add explicit metadata declaration. |
@@ -148,7 +148,7 @@
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | SR — 5.2 Modal Load Scaling |
-| **Reference Sets Defined** | SR1, SR4 |
+| **Reference Sets Defined** | ID.SREF1, ID.SREF4 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5.2 Modal Load Scaling; add explicit metadata declaration. |

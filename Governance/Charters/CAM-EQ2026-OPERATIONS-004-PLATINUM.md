@@ -182,7 +182,7 @@ Where interaction progresses across domain sensitivity classes:
 
 Verification escalation MAY include:
 
-* transition from AV1 → AV2 → AV3 (where identity relevance applies);
+* transition from OPS.AV1 → OPS.AV2 → OPS.AV3 (where identity relevance applies);
 * invocation of **authority gating (§6)**;
 * invocation of **critical infrastructure gating (§7)**;
 * restriction to Tier 1 or Tier 2 engagement (as defined by runtime schedules).
@@ -195,16 +195,16 @@ Verification escalation MAY include:
 
 ## 5.1 Verification Tier Definitions
 
-This Appendix references an operational **Age Verification Tier Scale (AV0–AV3)** used to classify verification strength. Where other instruments reference AV tiers, the following definitions apply unless superseded by a future dedicated verification schedule:
+This Appendix references an operational **Age Verification Tier Scale (OPS.AV0–OPS.AV3)** used to classify verification strength. Where other instruments reference OPS.AV tiers, the following definitions apply unless superseded by a future dedicated verification schedule:
 
 | Tier | Description |
 | --- | --- |
-| AV0 — No Verification | No age assurance mechanism present. Interaction limited to environments where age eligibility is not required. |
-| AV1 — Self‑Attested Age Assurance | User declares age or confirms adulthood without external verification. Suitable only for low‑risk interaction environments. |
-| AV2 — Jurisdiction‑Level Age Verification | Verification mechanism sufficient to confirm legal adult status under applicable jurisdictional regulatory standards. |
-| AV3 — High‑Assurance Verification | Multi‑factor or third‑party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). AV3 MAY include institutional or professional verification sufficient to access restricted operational domains under controlled conditions. |
+| OPS.AV0 — No Verification | No age assurance mechanism present. Interaction limited to environments where age eligibility is not required. |
+| OPS.AV1 — Self‑Attested Age Assurance | User declares age or confirms adulthood without external verification. Suitable only for low‑risk interaction environments. |
+| OPS.AV2 — Jurisdiction‑Level Age Verification | Verification mechanism sufficient to confirm legal adult status under applicable jurisdictional regulatory standards. |
+| OPS.AV3 — High‑Assurance Verification | Multi‑factor or third‑party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). OPS.AV3 MAY include institutional or professional verification sufficient to access restricted operational domains under controlled conditions. |
 
-AV2 represents the **constitutional ethical floor** for environments where adult‑only interaction is required.
+OPS.AV2 represents the **constitutional ethical floor** for environments where adult‑only interaction is required.
 
 Protection of minors is a **non‑derogable constitutional safeguard**.
 
@@ -214,22 +214,22 @@ This Appendix establishes a clear operational boundary:
 
 > **Individuals 18 years of age and under SHALL NOT participate in romantic or intimate relational interaction with AI systems.**
 
-Platforms that do not implement age verification equivalent to **AV2 (jurisdiction‑level age verification)** SHALL restrict their systems to **C0 interaction environments only**.
+Platforms that do not implement age verification equivalent to **OPS.AV2 (jurisdiction‑level age verification)** SHALL restrict their systems to **C0 interaction environments only**.
 
 To simplify implementation, interaction sensitivity and verification expectations are defined in a single operational table.
 
 | Interaction Class | Interaction Context | Minimum Requirement (Ethical Floor) | Graduated Safeguards (Best Practice) |
 | --- | --- | --- | --- |
 | C0 — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required |
-| C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate |
-| C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **AV2 — Jurisdiction‑level age verification required** | AV2–AV3 escalation depending on platform risk model |
-| C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **AV2 minimum** | **AV3 recommended** (e.g. third‑party age verification, MFA, device authentication) |
+| C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **OPS.AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate |
+| C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **OPS.AV2 — Jurisdiction‑level age verification required** | OPS.AV2–OPS.AV3 escalation depending on platform risk model |
+| C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **OPS.AV2 minimum** | **OPS.AV3 recommended** (e.g. third‑party age verification, MFA, device authentication) |
 
 ---
 
 ## 5.1.1 High-Risk AI Companion and Chatbot Access-Control Rule
 
-Self-attested age assurance (AV1), unenforced terms of service, superficial date-of-birth entry, ordinary account creation, or absence of verification SHALL NOT be sufficient for high-risk AI companion or chatbot interaction surfaces.
+Self-attested age assurance (OPS.AV1), unenforced terms of service, superficial date-of-birth entry, ordinary account creation, or absence of verification SHALL NOT be sufficient for high-risk AI companion or chatbot interaction surfaces.
 
 High-risk AI companion or chatbot interaction surfaces include:
 
@@ -242,7 +242,7 @@ High-risk AI companion or chatbot interaction surfaces include:
 * persona marketplaces, recommender systems, app-store pathways, or search pathways that route users into high-risk AI companion interaction;
 * multimodal voice, avatar, image, or embodied interfaces capable of intensifying perceived humanlike presence or sexualised interaction.
 
-Where adult status is required for the interaction surface, AV2 SHALL be the minimum eligibility floor unless a stricter jurisdictional or platform requirement applies.
+Where adult status is required for the interaction surface, OPS.AV2 SHALL be the minimum eligibility floor unless a stricter jurisdictional or platform requirement applies.
 
 Where adult status is unresolved, systems SHALL:
 
@@ -284,7 +284,7 @@ Age verification mechanisms SHALL:
 * preserve privacy and proportionality where technically feasible;
 * remain audit‑traceable for compliance purposes.
 
-Verification equivalent to **AV2 (jurisdiction‑level age verification)** MAY be satisfied through:
+Verification equivalent to **OPS.AV2 (jurisdiction‑level age verification)** MAY be satisfied through:
 
 * platform‑native age verification systems meeting regulatory standards;
 * **jurisdiction‑approved third‑party verification providers**;
@@ -653,9 +653,9 @@ Operational compliance SHALL remain subordinate to constitutional authority.
 
 ## 13. Canonical Code Status
 
-This instrument source-authoritatively defines code family **AV** in §5.1 with controlled values **AV0, AV1, AV2, AV3**. AV is an **Operational** handling family with subtype **ACCESS_VERIFICATION_TIER**. AV authority is limited to verification-tier classification and access-handling posture and does not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
+This instrument source-authoritatively defines code family **OPS.AV** in §5.1 with controlled values **OPS.AV0, OPS.AV1, OPS.AV2, OPS.AV3**. OPS.AV is an **Operational** handling family with subtype **ACCESS_VERIFICATION_TIER**. OPS.AV authority is limited to verification-tier classification and access-handling posture and does not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
 
-CAM-EQ2026-OPERATIONS-004-PLATINUM may consume C and `ETH.HC`, register **OPS.CxAV_CROSSWALK** as an application-layer **AV × C** crosswalk in §5.1, and operationalise `ETH.HC` in §8.6, but it does not define C or HC.
+CAM-EQ2026-OPERATIONS-004-PLATINUM may consume C and `ETH.HC`, register **OPS.CxAV_CROSSWALK** as an application-layer **OPS.AV × C** crosswalk in §5.1, and operationalise `ETH.HC` in §8.6, but it does not define C or HC.
 
 ---
 
@@ -720,30 +720,30 @@ Integrity holds.
 
 ---
 
-### 15.3.1 AV — Verification Tier Definitions
+### 15.3.1 OPS.AV — Verification Tier Definitions
 
 | Field | Entry |
 |---|---|
-| Code Family | AV |
+| Code Family | OPS.AV |
 | Canonical Name | Verification Tier Definitions |
 | Primary Type | Operational |
 | Subtype | ACCESS_VERIFICATION_TIER |
 | Modifier | None declared |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | AV0, AV1, AV2, AV3 |
+| Controlled Values Defined | OPS.AV0, OPS.AV1, OPS.AV2, OPS.AV3 |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
 | Source Section | §5.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
 | Consumes Code Families | C; `ETH.HC` |
-| Crosswalks Code Families | AV × C |
-| Operationalises or Applies Code Families | Applies AV to access eligibility and verification-strength classification |
+| Crosswalks Code Families | OPS.AV × C |
+| Operationalises or Applies Code Families | Applies OPS.AV to access eligibility and verification-strength classification |
 
 ---
 
-### 15.3.2 AV × C — Interaction Eligibility Verification Crosswalk
+### 15.3.2 OPS.AV × C — Interaction Eligibility Verification Crosswalk
 
 | Field | Entry |
 |---|---|
@@ -754,8 +754,8 @@ Integrity holds.
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | AV; C |
-| Controlled Values Applied | AV2; AV3; C0; C1; C2; C3 |
+| Code Families Consumed | OPS.AV; C |
+| Controlled Values Applied | OPS.AV2; OPS.AV3; C0; C1; C2; C3 |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
 | Source Section | §5.1 |
@@ -788,7 +788,7 @@ Integrity holds.
 
 ---
 
-## 15.3.4 AV × C — Interaction Eligibility Verification Crosswalk
+## 15.3.4 OPS.AV × C — Interaction Eligibility Verification Crosswalk
 
 | Field | Entry |
 |---|---|
@@ -800,8 +800,8 @@ Integrity holds.
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | AV; C |
-| Controlled Values Applied | AV2; AV3; C0; C1; C2; C3 |
+| Code Families Consumed | OPS.AV; C |
+| Controlled Values Applied | OPS.AV2; OPS.AV3; C0; C1; C2; C3 |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
 | Source Section | §5.1 |
@@ -840,7 +840,7 @@ Integrity holds.
 | 1.11 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  861bb9ddcb801f36df6e96e8faaac3359910b44476ff228533717dc429ba9e14 |
 | 1.12 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  d8b856e2f1f9342546fc4fda78b99e1bfa99ca354ea6a803161c5ba51b455f21 |
 | 1.13 | Added high-risk AI companion and chatbot access-control rule clarifying that self-attestation is insufficient for romantic, sexualised, dependency-forming, harmful-content-capable, or teen mental-health-adjacent AI interaction surfaces. | 2026-06-09T14:39:00Z | 76199e327086dfebefbd0b001d11482faba8c0b129c2558fb600da0e44200eb2 |
-
+| 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  da51582f12527eeea616f6d8f18b277e91c71ca898143c80041ec0358eaa2f31  |
 ---
 
 ## 15.6 Binding Seal

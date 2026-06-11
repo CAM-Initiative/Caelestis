@@ -71,7 +71,7 @@ Repeated prefix usage is **not** treated as a collision when one instrument defi
 - prefix_or_family: DC, SR
 - source-authoritative instrument:
   - CAM-BS2026-AEON-010-SCH-01.md §4.1 defines DC0–DC4
-  - CAM-BS2026-AEON-010-SCH-01.md §5.1 defines SR0–SR4
+  - CAM-BS2026-AEON-010-SCH-01.md §5.1 defines ID.SREF0–ID.SREF4
 - application-layer instruments:
   - CAM-BS2026-AEON-010-SCH-01.md §5.2 applies SR to modal load scaling
 - terminology-interface instruments: not required (same-instrument layering)
@@ -79,7 +79,7 @@ Repeated prefix usage is **not** treated as a collision when one instrument defi
 - metadata update required: no (for baseline source chain)
 - report placement: not collision
 - dropped-prefix/typo note:
-  - historical `C3/C4 audit` in SR4 context was dropped-prefix/stale shorthand
+  - historical `DC3/DC4 deployment-class audit` in ID.SREF4 context was dropped-prefix/stale shorthand
   - corrected to `DC3/DC4 deployment-class audit`
 
 ---
@@ -97,7 +97,7 @@ Repeated prefix usage is **not** treated as a collision when one instrument defi
 
 ## Legacy dropped-prefix / typo register
 - classification: dropped_prefix_or_typo
-- reference: C4 (in prior SR4 containment shorthand)
+- reference: C4 (in prior ID.SREF4 containment shorthand)
 - location: CAM-BS2026-AEON-010-SCH-01.md §5.1 historical row text
 - status: resolved
 - resolution: corrected to DC3/DC4 deployment-class audit wording

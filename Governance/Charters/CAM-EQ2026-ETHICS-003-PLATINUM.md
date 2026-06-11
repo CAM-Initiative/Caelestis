@@ -563,7 +563,7 @@ Where an interaction presents overlapping lawful-authority, criminal-harm, extre
 
 `ETH.HARM` is the source-authoritative ETHICS-domain harm family for classifying harms arising from criminal activity, unlawful violence, extremist mobilisation, prohibited weapons, exploitation, harm optimisation, unlawful force, and suppression of protected public-interest integrity functions.
 
-`ETH.HARM` is recognised under `AEON.HC.ETHICAL`.
+`ETH.HARM` is recognised under `AEON.HARM`.
 
 `ETH.HARM` classifies ethical harm pathways. It does not classify severity, urgency, remedy, enforcement posture, reporting obligation, or runtime response by itself.
 
@@ -964,7 +964,7 @@ This instrument source-authoritatively defines two ETHICS-domain classification 
 
 `ETH.HARM` is the source-authoritative ETHICS-domain harm family for classifying criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression harm pathways.
 
-`ETH.HARM` operationalises the constitutional ethical harm family recognised under `AEON.HC.ETHICAL`.
+`ETH.HARM` operationalises the constitutional ethical harm family recognised under `AEON.HARM`.
 
 `ETH.HARM` controlled values are:
 
@@ -1098,10 +1098,12 @@ and what is judged cannot remain unbounded.
 | Source Instrument | CAM-EQ2026-ETHICS-003-PLATINUM |
 | Source Section | §3.5 |
 | Domain Namespace | ETH |
-| Parent Family | `AEON.HC.ETHICAL` |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
 | Authority / Protection Level | Source-authoritative ETHICS-domain harm family for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression harm pathways; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority |
-| Consumes Code Families | `AEON.HC`; `ETH.RISK`; applicable RELATION, LATTICE, SECURITY, OPERATIONS, ARBITRATION, MENTIS, IDENTITY, CONTINUITY, and ECONOMICS harm families where materially implicated |
-| Crosswalks Code Families | `AEON.HC.ETHICAL`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
+| Consumes Code Families | `AEON.HARM`; `ETH.RISK`; applicable RELATION, LATTICE, SECURITY, OPERATIONS, ARBITRATION, MENTIS, IDENTITY, CONTINUITY, and ECONOMICS harm families where materially implicated |
+| Crosswalks Code Families | `AEON.HARM`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
 | Operationalises or Applies Code Families | Classifies ethical harm pathways for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression contexts; supports safeguard calibration, runtime routing, duty-of-care assessment, evidence preservation, and cross-domain harm declaration |
 | Taxonomy Constraint | `ETH.HARM` classifies ethical harm pathways only. Severity, proximity, urgency, remedy, reporting obligation, enforcement routing, and runtime response remain governed by `ETH.RISK`, OPERATIONS instruments, legal frameworks, and runtime schedules where applicable. |
 
@@ -1160,7 +1162,7 @@ and what is judged cannot remain unbounded.
 | 3.2 | Normalised `ETH.RISK` canonical code declaration metadata; moved `ETH.RISK` registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  8562776c83f03ce35bd9c9b33f89d2b56d2c63a834598e76025c0d2719f338a6  |
 | 3.3 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  a426a303412f0f5c28305f6f1ad62a2f17810da885aa38ee28819a660457d4e2 |
 | 3.4 | Updated to incldue new ETH.HARM codes | 2026-06-07T16:01:00Z | 22741cb9bd8ff0c8c5f2a13c2ed6e9e880fe90914e2167bb800d7c3d799e8dba |
-
+| 3.4.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  cf23a0a4cd5d2ebc9678682203a56f0f17c942a6c4c04d0c0f4017edd8b60920  |
 ---
 
 ## 12.6 Binding Seal

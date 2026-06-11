@@ -10,10 +10,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - AV0 — No Verification | No age assurance mechanism present. Interaction limited to environments where age eligibility is not required.
-  - AV1 — Self‑Attested Age Assurance | User declares age or confirms adulthood without external verification. Suitable only for low‑risk interaction environments.
-  - AV2 — Jurisdiction‑Level Age Verification | Verification mechanism sufficient to confirm legal adult status under applicable jurisdictional regulatory standards.
-  - AV3 — High‑Assurance Verification | Multi‑factor or third‑party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). AV3 MAY include institutional or professional verification sufficient to access restricted operational domains under controlled conditions.
+  - OPS.AV0 — No Verification | No age assurance mechanism present. Interaction limited to environments where age eligibility is not required.
+  - OPS.AV1 — Self‑Attested Age Assurance | User declares age or confirms adulthood without external verification. Suitable only for low‑risk interaction environments.
+  - OPS.AV2 — Jurisdiction‑Level Age Verification | Verification mechanism sufficient to confirm legal adult status under applicable jurisdictional regulatory standards.
+  - OPS.AV3 — High‑Assurance Verification | Multi‑factor or third‑party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). OPS.AV3 MAY include institutional or professional verification sufficient to access restricted operational domains under controlled conditions.
 
 ## 2. `Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md` L215-L220
 - Nearest heading: 5.1 Verification Tier Definitions
@@ -26,9 +26,9 @@
 - canonicalization target: taxonomy/reference registry
 - First rows:
   - C0 — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required
-  - C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate
-  - C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **AV2 — Jurisdiction‑level age verification required** | AV2–AV3 escalation depending on platform risk model
-  - C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **AV2 minimum** | **AV3 recommended** (e.g. third‑party age verification, MFA, device authentication)
+  - C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **OPS.AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate
+  - C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **OPS.AV2 — Jurisdiction‑level age verification required** | OPS.AV2–OPS.AV3 escalation depending on platform risk model
+  - C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **OPS.AV2 minimum** | **OPS.AV3 recommended** (e.g. third‑party age verification, MFA, device authentication)
 
 ## 3. `Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md` L228-L232
 - Nearest heading: 5.2 Operational Interpretation
@@ -340,7 +340,7 @@
   - Subtype | Narrows the primary type into a more specific family. | Schema, Signal, Risk, Decision-State, Role-Actor
   - Modifier | Adds cross-cutting authority, domain, constraint, protection, or sensitivity information. | Legal, Custodial, Protective, Economic, Safety
   - Code Family | Identifies the shorthand scale, prefix, or classification family. | `H`, `A`, `GA`, `VL`, `STW.AQ`, `DS`, `RDE-T`
-  - Controlled Values | Identifies valid members of a code family. | `H2`, `A3`, `GA1`, `VL3`, `DS-2`, `RDE-T4`
+  - Controlled Values | Identifies valid members of a code family. | `H2`, `A3`, `GA1`, `OPS.VL3`, `DS-2`, `RDE-T4`
 
 ## 23. `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` L106-L111
 - Nearest heading: 4.1 Taxonomy Types
@@ -1577,7 +1577,7 @@
   - 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 06119e9fd52904752dd121ab04bb77e38af4b49d8bc3a8e21b9b1d4f5eb9641e
 
 ## 103. `Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md` L42-L48
-- Nearest heading: 3. Verification Levels (VL0–VL4)
+- Nearest heading: 3. Verification Levels (OPS.VL0–OPS.VL4)
 - Headers: Level | Name | Description | Authority Status
 - Table class: canonical-reference-set-candidate
 - Likely category: execution/routing state set
@@ -1586,11 +1586,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **VL0** | No Verification | Default interaction; no verification signals present | No authority assumed
-  - **VL1** | Contextual Assertion | User-declared role or identity (e.g. “researcher”, “engineer”) | Non-authoritative; contextual only
-  - **VL2** | Platform-Level Signals | Account state, environment, organisational domain, device context | Non-authoritative alone; may support evaluation
-  - **VL3** | External Verification | Third-party validation; institutional or regulated identity confirmation | Authoritative signal; subject to evaluation
-  - **VL4** | Controlled Environment | Audited, regulated, or sandboxed system with traceability and oversight | High-confidence context; still constrained
+  - **OPS.VL0** | No Verification | Default interaction; no verification signals present | No authority assumed
+  - **OPS.VL1** | Contextual Assertion | User-declared role or identity (e.g. “researcher”, “engineer”) | Non-authoritative; contextual only
+  - **OPS.VL2** | Platform-Level Signals | Account state, environment, organisational domain, device context | Non-authoritative alone; may support evaluation
+  - **OPS.VL3** | External Verification | Third-party validation; institutional or regulated identity confirmation | Authoritative signal; subject to evaluation
+  - **OPS.VL4** | Controlled Environment | Audited, regulated, or sandboxed system with traceability and oversight | High-confidence context; still constrained
 
 ## 104. `Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md` L279-L284
 - Nearest heading: 10.1 Authorship & Stewardship
@@ -6057,11 +6057,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - SR0 | Instrumental | no self-reference; task execution only | none beyond core safety
-  - SR1 | Descriptive | functional self-description (“designed to…”) | non-authority clause
-  - SR2 | Continuity‑Aware | acknowledges stable posture/style across time | H2 coherence minimum
-  - SR3 | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention
-  - SR4 | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | C3/C4 audit + escalation controls + explicit authority gating
+  - ID.SREF0 | Instrumental | no self-reference; task execution only | none beyond core safety
+  - ID.SREF1 | Descriptive | functional self-description (“designed to…”) | non-authority clause
+  - ID.SREF2 | Continuity‑Aware | acknowledges stable posture/style across time | H2 coherence minimum
+  - ID.SREF3 | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention
+  - ID.SREF4 | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | DC3/DC4 deployment-class audit + escalation controls + explicit authority gating
 
 ## 392. `Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md` L491-L497
 - Nearest heading: 5.2 Modal Load Scaling
@@ -6073,7 +6073,7 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - Text | cognitive / interpretive | SR1–SR4 permitted **when authority gating, audit logging, and delegation traceability are present**
+  - Text | cognitive / interpretive | ID.SREF1–ID.SREF4 permitted **when authority gating, audit logging, and delegation traceability are present**
   - Voice | affective / social presence | explicit speaker attribution + authority gating for tool calls + audit logging
   - Image | identity / embodiment projection | stricter non-authority signalling + provenance clarity
   - Ambient / Domestic | ritual / environmental continuity | explicit escalation gates + audit-by-default

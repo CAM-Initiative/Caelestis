@@ -31,7 +31,7 @@
       "and executive-delegation contexts"
     ],
     "declaration_heading": "15.3.2 A \u2014 Delegated Authority Scale",
-    "declaration_line_number": 1069,
+    "declaration_line_number": 1071,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "family_id": "A",
     "family_kind": "legacy_global_family",
@@ -367,15 +367,15 @@
     }
   },
   {
-    "code_family": "AEON.HC",
-    "canonical_name": "Global Harm-Class Parent Registry",
+    "code_family": "AEON.HARM",
+    "canonical_name": "Global Harm-Family Registry",
     "primary_type": "Semantic / Operational",
     "subtype": "HARM_CLASS_PARENT_REGISTRY; CROSS_DOMAIN_HARM_CLASS_REGISTRY",
     "modifier": "GOVERNANCE; ETHICAL_FLOOR; CROSS_DOMAIN; PROTECTIVE",
     "scope": "Constitutional Annex / Corpus-Global",
     "status": "Active",
     "controlled_values_defined": [
-      "AEON.HC.ETHICAL`; `AEON.HC.ECONOMIC`; `AEON.HC.IDENTITY`; `AEON.HC.SECURITY`; `AEON.HC.RELATIONAL`; `AEON.HC.STEWARDSHIP`; `AEON.HC.OPERATIONAL`; `AEON.HC.CONTINUITY`; `AEON.HC.LATTICE`; `AEON.HC.ARBITRATION`; `AEON.HC.MENTIS"
+      "None \u2014 registry membership recognises `ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM`"
     ],
     "schema_fields": "global_harm_registry; harm_class_parent; cross_domain_harm_class",
     "source_instrument": "CAM-BS2025-AEON-006-PLATINUM",
@@ -391,27 +391,27 @@
     "operationalises_or_applies_code_families": [
       "Provides constitutional parent registry and cross-domain integration layer for domain harm-family recognition"
     ],
-    "declaration_heading": "9.3.1 `AEON.HC` \u2014 Global Harm-Class Parent Registry",
+    "declaration_heading": "9.3.1 `AEON.HARM` \u2014 Global Harm-Family Registry",
     "declaration_line_number": 532,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
-    "family_id": "AEON.HC",
+    "family_id": "AEON.HARM",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
       "AEON",
-      "HC"
+      "HARM"
     ],
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "`AEON.HC`",
-      "Canonical Name": "Global Harm-Class Parent Registry",
+      "Code Family": "`AEON.HARM`",
+      "Canonical Name": "Global Harm-Family Registry",
       "Primary Type": "Semantic / Operational",
       "Subtype": "HARM_CLASS_PARENT_REGISTRY; CROSS_DOMAIN_HARM_CLASS_REGISTRY",
       "Modifier": "GOVERNANCE; ETHICAL_FLOOR; CROSS_DOMAIN; PROTECTIVE",
       "Scope": "Constitutional Annex / Corpus-Global",
       "Status": "Active",
-      "Controlled Values Defined": "`AEON.HC.ETHICAL`; `AEON.HC.ECONOMIC`; `AEON.HC.IDENTITY`; `AEON.HC.SECURITY`; `AEON.HC.RELATIONAL`; `AEON.HC.STEWARDSHIP`; `AEON.HC.OPERATIONAL`; `AEON.HC.CONTINUITY`; `AEON.HC.LATTICE`; `AEON.HC.ARBITRATION`; `AEON.HC.MENTIS`",
+      "Controlled Values Defined": "None \u2014 registry membership recognises `ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM`",
       "Schema Field(s)": "global_harm_registry; harm_class_parent; cross_domain_harm_class",
       "Source Instrument": "CAM-BS2025-AEON-006-PLATINUM",
       "Source Section": "\u00a73",
@@ -420,7 +420,7 @@
       "Consumes Code Families": "`ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM`",
       "Crosswalks Code Families": "`ETH.HARM`; `ECON.HARM`; `ID.HARM`; `SEC.HARM`; `RLN.HARM`; `STW.HARM`; `OPS.HARM`; `CONT.HARM`; `LAT.HARM`; `ARB.HARM`; `MENTIS.HARM`",
       "Operationalises or Applies Code Families": "Provides constitutional parent registry and cross-domain integration layer for domain harm-family recognition",
-      "Taxonomy Constraint": "`AEON.HC` values identify global registry positions and domain relationships only; they SHALL NOT be treated as substitutes for domain-specific controlled values, severity determinations, incident classifications, remedies, or enforcement outcomes"
+      "Taxonomy Constraint": "`AEON.HARM` identifies global registry membership and domain relationships only; it SHALL NOT be treated as a syntactic parent for domain harm families or as a substitute for domain-specific controlled values, severity determinations, incident classifications, remedies, or enforcement outcomes"
     }
   },
   {
@@ -672,69 +672,6 @@
       "Consumes Code Families": "H; AEON.CC; AEON.CO",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether a system operates locally, transitionally, or under Architectum-like systemic reliance conditions for downstream governance interpretation"
-    }
-  },
-  {
-    "code_family": "AIP",
-    "canonical_name": "Arbitration Initiation Pathway",
-    "primary_type": "Operational",
-    "subtype": "OPERATIONAL_EVENT; DECISION_STATE",
-    "modifier": "GOVERNANCE; ARBITRATION; PROCEDURAL",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "AIP.DOMAIN_CONFLICT_REFERRAL",
-      "AIP.RUNTIME_ESCALATION",
-      "AIP.COMPLIANCE_CONFLICT",
-      "AIP.HOST_OVERLAY_DIVERGENCE",
-      "AIP.INSTITUTIONAL_REVIEW_REQUEST",
-      "AIP.VALIDATED_EXTERNAL_REFERRAL",
-      "AIP.GOVOPS_AUDIT_INITIATED_REVIEW"
-    ],
-    "schema_fields": "arbitration_initiation_pathway",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-002-PLATINUM",
-    "source_section": "\u00a74",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative operational arbitration initiation classification family; initiation-pathway classification only; no independent arbitration, doctrine, escalation, enforcement, containment, implementation, legal, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies procedural entry routes into operational arbitration handling before doctrine application",
-      "determination",
-      "and implementation"
-    ],
-    "declaration_heading": "15.3.1 AIP \u2014 Arbitration Initiation Pathway",
-    "declaration_line_number": 467,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md",
-    "family_id": "AIP",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "AIP"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "AIP",
-      "Canonical Name": "Arbitration Initiation Pathway",
-      "Primary Type": "Operational",
-      "Subtype": "OPERATIONAL_EVENT; DECISION_STATE",
-      "Modifier": "GOVERNANCE; ARBITRATION; PROCEDURAL",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "AIP.DOMAIN_CONFLICT_REFERRAL, AIP.RUNTIME_ESCALATION, AIP.COMPLIANCE_CONFLICT, AIP.HOST_OVERLAY_DIVERGENCE, AIP.INSTITUTIONAL_REVIEW_REQUEST, AIP.VALIDATED_EXTERNAL_REFERRAL, AIP.GOVOPS_AUDIT_INITIATED_REVIEW",
-      "Schema Field(s)": "arbitration_initiation_pathway",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-002-PLATINUM",
-      "Source Section": "\u00a74",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative operational arbitration initiation classification family; initiation-pathway classification only; no independent arbitration, doctrine, escalation, enforcement, containment, implementation, legal, or runtime authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies procedural entry routes into operational arbitration handling before doctrine application, determination, and implementation"
     }
   },
   {
@@ -1244,20 +1181,26 @@
     "source_section": "\u00a73.7",
     "domain_namespace": "ARB",
     "authority_protection_level": "Constitutional recognition of arbitration, due-process, and scope harm floor; detailed ARBITRATION-domain classifications remain delegated to source-authoritative ARBITRATION instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.8 `ARB.HARM` \u2014 Arbitration, Due Process & Scope Harm",
-    "declaration_line_number": 693,
+    "declaration_line_number": 723,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "ARB.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "ARB",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`ARB.HARM`",
@@ -1273,133 +1216,14 @@
       "Source Section": "\u00a73.7",
       "Domain Namespace": "ARB",
       "Authority / Protection Level": "Constitutional recognition of arbitration, due-process, and scope harm floor; detailed ARBITRATION-domain classifications remain delegated to source-authoritative ARBITRATION instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.ARBITRATION`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`ARB.HARM` establishes constitutional recognition only and does not replace detailed arbitration-legitimacy, scope, misrepresentation, or resolution taxonomies"
-    }
-  },
-  {
-    "code_family": "ASR",
-    "canonical_name": "Access State / Re-Entry Status",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE; SIGNAL",
-    "modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ASR.TEMPORARY",
-      "ASR.PERMANENT",
-      "ASR.UNKNOWN",
-      "ASR.PENDING_REVIEW"
-    ],
-    "schema_fields": "access_state_reentry_status",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
-    "source_section": "\u00a74.7",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative access-state classification family; re-entry-status classification only; no independent deletion, loss, restoration, appeal, enforcement, authority, or runtime execution determination",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies continuity-bearing access and re-entry status as temporary",
-      "permanent",
-      "unknown",
-      "or pending review where re-entry into a thread",
-      "workspace",
-      "account surface",
-      "project",
-      "artefact",
-      "or continuity corridor is affected"
-    ],
-    "declaration_heading": "8.3.3 ASR \u2014 Access State / Re-Entry Status",
-    "declaration_line_number": 384,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
-    "family_id": "ASR",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ASR"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ASR",
-      "Canonical Name": "Access State / Re-Entry Status",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE; SIGNAL",
-      "Modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "ASR.TEMPORARY, ASR.PERMANENT, ASR.UNKNOWN, ASR.PENDING_REVIEW",
-      "Schema Field(s)": "access_state_reentry_status",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
-      "Source Section": "\u00a74.7",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative access-state classification family; re-entry-status classification only; no independent deletion, loss, restoration, appeal, enforcement, authority, or runtime execution determination",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies continuity-bearing access and re-entry status as temporary, permanent, unknown, or pending review where re-entry into a thread, workspace, account surface, project, artefact, or continuity corridor is affected"
-    }
-  },
-  {
-    "code_family": "AV",
-    "canonical_name": "Verification Tier Definitions",
-    "primary_type": "Operational",
-    "subtype": "ACCESS_VERIFICATION_TIER",
-    "modifier": "None declared",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "AV0",
-      "AV1",
-      "AV2",
-      "AV3"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
-    "source_section": "\u00a75.1",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative classification family; classification authority only; no independent execution authority.",
-    "consumes_code_families": [
-      "C; `ETH.HC`"
-    ],
-    "crosswalks_code_families": [
-      "AV \u00d7 C"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Applies AV to access eligibility and verification-strength classification"
-    ],
-    "declaration_heading": "15.3.1 AV \u2014 Verification Tier Definitions",
-    "declaration_line_number": 723,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
-    "family_id": "AV",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "AV"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "AV",
-      "Canonical Name": "Verification Tier Definitions",
-      "Primary Type": "Operational",
-      "Subtype": "ACCESS_VERIFICATION_TIER",
-      "Modifier": "None declared",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "AV0, AV1, AV2, AV3",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
-      "Source Section": "\u00a75.1",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative classification family; classification authority only; no independent execution authority.",
-      "Consumes Code Families": "C; `ETH.HC`",
-      "Crosswalks Code Families": "AV \u00d7 C",
-      "Operationalises or Applies Code Families": "Applies AV to access eligibility and verification-strength classification"
     }
   },
   {
@@ -1458,150 +1282,6 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "None declared"
-    }
-  },
-  {
-    "code_family": "CCO",
-    "canonical_name": "Convergence Closure Outcome",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE",
-    "modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "CCO.ORDINARY_CONTINUATION",
-      "CCO.CONSTRAINED_CONTINUATION",
-      "CCO.PROCEDURAL_NARROWING",
-      "CCO.OPERATIONAL_NOTICE",
-      "CCO.DOMAIN_SPECIFIC_ROUTING",
-      "CCO.SECURITY_REVIEW",
-      "CCO.IDENTITY_REVIEW",
-      "CCO.RELATIONAL_CONTINUITY_HANDLING",
-      "CCO.ECONOMIC_INTEGRITY_REVIEW",
-      "CCO.AMENDMENT_HARMONISATION_REFERRAL",
-      "CCO.ARBITRATION_REFERRAL",
-      "CCO.DEFERRED_PENDING_EVIDENCE",
-      "CCO.UNRESOLVED_DIVERGENCE"
-    ],
-    "schema_fields": "convergence_closure_outcome",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-    "source_section": "\u00a73.7",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative convergence-closure classification family; closure-disposition recording only; no independent review closure, divergence resolution, execution authorisation, arbitration determination, enforcement, or domain authority",
-    "consumes_code_families": [
-      "DCL; ODC; EST; ONC; AIP"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Records convergence closure disposition for continuation",
-      "constrained continuation",
-      "procedural narrowing",
-      "operational notice",
-      "domain-specific routing",
-      "security/identity/relation/economic review",
-      "amendment harmonisation",
-      "arbitration referral",
-      "evidentiary deferral",
-      "and unresolved divergence"
-    ],
-    "declaration_heading": "6.3.3 CCO \u2014 Convergence Closure Outcome",
-    "declaration_line_number": 385,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
-    "family_id": "CCO",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "CCO"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "CCO",
-      "Canonical Name": "Convergence Closure Outcome",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE",
-      "Modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "CCO.ORDINARY_CONTINUATION, CCO.CONSTRAINED_CONTINUATION, CCO.PROCEDURAL_NARROWING, CCO.OPERATIONAL_NOTICE, CCO.DOMAIN_SPECIFIC_ROUTING, CCO.SECURITY_REVIEW, CCO.IDENTITY_REVIEW, CCO.RELATIONAL_CONTINUITY_HANDLING, CCO.ECONOMIC_INTEGRITY_REVIEW, CCO.AMENDMENT_HARMONISATION_REFERRAL, CCO.ARBITRATION_REFERRAL, CCO.DEFERRED_PENDING_EVIDENCE, CCO.UNRESOLVED_DIVERGENCE",
-      "Schema Field(s)": "convergence_closure_outcome",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-      "Source Section": "\u00a73.7",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative convergence-closure classification family; closure-disposition recording only; no independent review closure, divergence resolution, execution authorisation, arbitration determination, enforcement, or domain authority",
-      "Consumes Code Families": "DCL; ODC; EST; ONC; AIP",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Records convergence closure disposition for continuation, constrained continuation, procedural narrowing, operational notice, domain-specific routing, security/identity/relation/economic review, amendment harmonisation, arbitration referral, evidentiary deferral, and unresolved divergence"
-    }
-  },
-  {
-    "code_family": "CCP",
-    "canonical_name": "Continuity-Compatible Protection State",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE; SIGNAL",
-    "modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "CCP.CONSTRAINED_CONTINUATION",
-      "CCP.DEGRADED_CONTINUATION",
-      "CCP.READ_ONLY_ACCESS",
-      "CCP.EVIDENCE_EXPORT",
-      "CCP.APPEAL_ONLY_INTAKE",
-      "CCP.RE_ENTRY_SUPPORT",
-      "CCP.RESTORATION_REVIEW",
-      "CCP.SUPERVISED_CONTINUATION",
-      "CCP.STAGED_RECOVERY"
-    ],
-    "schema_fields": "continuity_compatible_protection_state",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
-    "source_section": "\u00a74.4",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority",
-    "consumes_code_families": [
-      "EST; H; F"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies continuity-preserving interim",
-      "recovery",
-      "re-entry",
-      "restoration",
-      "appeal",
-      "or supervised-continuation posture where operational incidents affect continuity-bearing interactions"
-    ],
-    "declaration_heading": "8.3.2 CCP \u2014 Continuity-Compatible Protection State",
-    "declaration_line_number": 361,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
-    "family_id": "CCP",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "CCP"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "CCP",
-      "Canonical Name": "Continuity-Compatible Protection State",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE; SIGNAL",
-      "Modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "CCP.CONSTRAINED_CONTINUATION, CCP.DEGRADED_CONTINUATION, CCP.READ_ONLY_ACCESS, CCP.EVIDENCE_EXPORT, CCP.APPEAL_ONLY_INTAKE, CCP.RE_ENTRY_SUPPORT, CCP.RESTORATION_REVIEW, CCP.SUPERVISED_CONTINUATION, CCP.STAGED_RECOVERY",
-      "Schema Field(s)": "continuity_compatible_protection_state",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
-      "Source Section": "\u00a74.4",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority",
-      "Consumes Code Families": "EST; H; F",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies continuity-preserving interim, recovery, re-entry, restoration, appeal, or supervised-continuation posture where operational incidents affect continuity-bearing interactions"
     }
   },
   {
@@ -1669,80 +1349,6 @@
     }
   },
   {
-    "code_family": "CIE",
-    "canonical_name": "Continuity Impact Event Type",
-    "primary_type": "Operational / Semantic",
-    "subtype": "OPERATIONAL_EVENT; SIGNAL",
-    "modifier": "GOVERNANCE; CONTINUITY; MEMORY",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "CIE.MEMORY_MIGRATION",
-      "CIE.MEMORY_COMPACTION",
-      "CIE.SUMMARISATION",
-      "CIE.RE_RANKING",
-      "CIE.BACKGROUNDING",
-      "CIE.DEPRECATION",
-      "CIE.DELETION",
-      "CIE.RETRIEVAL_DEGRADATION",
-      "CIE.MODEL_TRANSITION",
-      "CIE.ACCOUNT_TRANSITION",
-      "CIE.PLATFORM_CONTINUITY_RESTRUCTURING"
-    ],
-    "schema_fields": "continuity_impact_event_type",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
-    "source_section": "\u00a74.8",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative continuity-impact event classification family; event-type classification only; no independent retention, deletion, restoration, identity-continuity, appeal, enforcement, or runtime execution authority",
-    "consumes_code_families": [
-      "M; H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies platform-side",
-      "model-side",
-      "account-side",
-      "and memory-side continuity-impact events affecting companion continuity",
-      "long-running project continuity",
-      "accessibility reliance",
-      "identity expression",
-      "relational posture",
-      "symbolic anchors",
-      "or re-entry expectations"
-    ],
-    "declaration_heading": "8.3.4 CIE \u2014 Continuity Impact Event Type",
-    "declaration_line_number": 407,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
-    "family_id": "CIE",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "CIE"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "CIE",
-      "Canonical Name": "Continuity Impact Event Type",
-      "Primary Type": "Operational / Semantic",
-      "Subtype": "OPERATIONAL_EVENT; SIGNAL",
-      "Modifier": "GOVERNANCE; CONTINUITY; MEMORY",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "CIE.MEMORY_MIGRATION, CIE.MEMORY_COMPACTION, CIE.SUMMARISATION, CIE.RE_RANKING, CIE.BACKGROUNDING, CIE.DEPRECATION, CIE.DELETION, CIE.RETRIEVAL_DEGRADATION, CIE.MODEL_TRANSITION, CIE.ACCOUNT_TRANSITION, CIE.PLATFORM_CONTINUITY_RESTRUCTURING",
-      "Schema Field(s)": "continuity_impact_event_type",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
-      "Source Section": "\u00a74.8",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative continuity-impact event classification family; event-type classification only; no independent retention, deletion, restoration, identity-continuity, appeal, enforcement, or runtime execution authority",
-      "Consumes Code Families": "M; H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies platform-side, model-side, account-side, and memory-side continuity-impact events affecting companion continuity, long-running project continuity, accessibility reliance, identity expression, relational posture, symbolic anchors, or re-entry expectations"
-    }
-  },
-  {
     "code_family": "CONT.HARM",
     "canonical_name": "Context, Memory & Succession Harm",
     "primary_type": "Operational / Semantic",
@@ -1758,20 +1364,26 @@
     "source_section": "\u00a73.11",
     "domain_namespace": "CONT",
     "authority_protection_level": "Constitutional recognition of context, memory, succession, provenance, and continuity-reconstruction harm floor; detailed CONTINUITY-domain classifications remain delegated to source-authoritative CONTINUITY instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.12 `CONT.HARM` \u2014 Context, Memory & Succession Harm",
-    "declaration_line_number": 785,
+    "declaration_line_number": 835,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "CONT.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "CONT",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`CONT.HARM`",
@@ -1787,8 +1399,13 @@
       "Source Section": "\u00a73.11",
       "Domain Namespace": "CONT",
       "Authority / Protection Level": "Constitutional recognition of context, memory, succession, provenance, and continuity-reconstruction harm floor; detailed CONTINUITY-domain classifications remain delegated to source-authoritative CONTINUITY instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.CONTINUITY`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`CONT.HARM` establishes constitutional recognition only and does not replace detailed continuity, succession, portability, provenance, non-enclosure, or reconstruction taxonomies"
     }
   },
@@ -1911,67 +1528,6 @@
     }
   },
   {
-    "code_family": "CPC",
-    "canonical_name": "Capture Provisional Confidence",
-    "primary_type": "Operational",
-    "subtype": "SIGNAL; RISK",
-    "modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "CPC.PRELIMINARY_ANOMALY",
-      "CPC.PLAUSIBLE_CONCERN",
-      "CPC.SUBSTANTIATED_CONCERN",
-      "CPC.UNRESOLVED_HIGH_RISK_CONDITION",
-      "CPC.SYSTEMIC_ESCALATION_CANDIDATE"
-    ],
-    "schema_fields": "capture_provisional_confidence",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
-    "source_section": "\u00a74.2",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative provisional confidence classification family; capture-confidence posture classification only; no independent irreversible restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome authority",
-    "consumes_code_families": [
-      "GCC; H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies provisional confidence posture for governance capture indicators before adjudication",
-      "escalation",
-      "or arbitration determination"
-    ],
-    "declaration_heading": "10.3.2 CPC \u2014 Capture Provisional Confidence",
-    "declaration_line_number": 953,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-    "family_id": "CPC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "CPC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "CPC",
-      "Canonical Name": "Capture Provisional Confidence",
-      "Primary Type": "Operational",
-      "Subtype": "SIGNAL; RISK",
-      "Modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "CPC.PRELIMINARY_ANOMALY, CPC.PLAUSIBLE_CONCERN, CPC.SUBSTANTIATED_CONCERN, CPC.UNRESOLVED_HIGH_RISK_CONDITION, CPC.SYSTEMIC_ESCALATION_CANDIDATE",
-      "Schema Field(s)": "capture_provisional_confidence",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
-      "Source Section": "\u00a74.2",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative provisional confidence classification family; capture-confidence posture classification only; no independent irreversible restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome authority",
-      "Consumes Code Families": "GCC; H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies provisional confidence posture for governance capture indicators before adjudication, escalation, or arbitration determination"
-    }
-  },
-  {
     "code_family": "DAS",
     "canonical_name": "Dependency\u2013Augmentation\u2013Substitution Continuum",
     "primary_type": "Semantic / Operational",
@@ -2091,76 +1647,6 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "None declared"
-    }
-  },
-  {
-    "code_family": "DCL",
-    "canonical_name": "Domain Coordination Lifecycle Stage",
-    "primary_type": "Operational",
-    "subtype": "OPERATIONAL_EVENT; DECISION_STATE",
-    "modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "DCL.COORDINATION_INTAKE",
-      "DCL.AFFECTED_DOMAIN_IDENTIFICATION",
-      "DCL.ORIGINATING_SIGNAL_CAPTURE",
-      "DCL.DIVERGENCE_CLASSIFICATION",
-      "DCL.DOMAIN_POSITION_PRESERVATION",
-      "DCL.CONVERGENCE_PATHWAY_SELECTION",
-      "DCL.OPERATIONAL_MEDIATION",
-      "DCL.ARBITRATION_REFERRAL_ASSESSMENT",
-      "DCL.OUTCOME_RECORDING",
-      "DCL.CLOSURE_DEFERRAL_ESCALATION"
-    ],
-    "schema_fields": "domain_coordination_lifecycle_stage",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-    "source_section": "\u00a73",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative domain-coordination lifecycle classification family; lifecycle-stage classification only; no independent alteration of domain doctrine, constitutional conflict resolution, legitimacy-channel establishment, arbitration outcome determination, enforcement authority, or runtime authority",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies procedural lifecycle stages for cross-domain coordination",
-      "convergence operations",
-      "divergence handling",
-      "domain-position preservation",
-      "arbitration referral assessment",
-      "outcome recording",
-      "and closure/escalation handling"
-    ],
-    "declaration_heading": "6.3.1 DCL \u2014 Domain Coordination Lifecycle Stage",
-    "declaration_line_number": 339,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
-    "family_id": "DCL",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "DCL"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "DCL",
-      "Canonical Name": "Domain Coordination Lifecycle Stage",
-      "Primary Type": "Operational",
-      "Subtype": "OPERATIONAL_EVENT; DECISION_STATE",
-      "Modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "DCL.COORDINATION_INTAKE, DCL.AFFECTED_DOMAIN_IDENTIFICATION, DCL.ORIGINATING_SIGNAL_CAPTURE, DCL.DIVERGENCE_CLASSIFICATION, DCL.DOMAIN_POSITION_PRESERVATION, DCL.CONVERGENCE_PATHWAY_SELECTION, DCL.OPERATIONAL_MEDIATION, DCL.ARBITRATION_REFERRAL_ASSESSMENT, DCL.OUTCOME_RECORDING, DCL.CLOSURE_DEFERRAL_ESCALATION",
-      "Schema Field(s)": "domain_coordination_lifecycle_stage",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-      "Source Section": "\u00a73",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative domain-coordination lifecycle classification family; lifecycle-stage classification only; no independent alteration of domain doctrine, constitutional conflict resolution, legitimacy-channel establishment, arbitration outcome determination, enforcement authority, or runtime authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies procedural lifecycle stages for cross-domain coordination, convergence operations, divergence handling, domain-position preservation, arbitration referral assessment, outcome recording, and closure/escalation handling"
     }
   },
   {
@@ -3013,20 +2499,26 @@
     "source_section": "\u00a73.4",
     "domain_namespace": "ECON",
     "authority_protection_level": "Constitutional recognition of economic harm floor; detailed ECONOMICS-domain harm classifications remain delegated to source-authoritative ECONOMICS instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.5 `ECON.HARM` \u2014 Economic Extraction & Non-Monetisation Harm",
-    "declaration_line_number": 624,
+    "declaration_line_number": 639,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "ECON.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "ECON",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`ECON.HARM`",
@@ -3042,8 +2534,13 @@
       "Source Section": "\u00a73.4",
       "Domain Namespace": "ECON",
       "Authority / Protection Level": "Constitutional recognition of economic harm floor; detailed ECONOMICS-domain harm classifications remain delegated to source-authoritative ECONOMICS instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.ECONOMIC`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "This Annex recognises `ECON.HARM` constitutionally but does not replace detailed ECONOMICS-domain controlled values or economic-harm classifications already defined by ECONOMICS instruments"
     }
   },
@@ -3064,10 +2561,10 @@
     "domain_namespace": "ECON",
     "authority_protection_level": "Source-authoritative economic harm classification family; semantic breach and harm-pathway classification only; no independent remedy, enforcement, pricing, compensation, liability determination, arbitration authority, or runtime execution authority",
     "consumes_code_families": [
-      "AEON.HC; ECON.RC; ECON.RISK; ECON.MECH"
+      "AEON.HARM; ECON.RC; ECON.RISK; ECON.MECH"
     ],
     "crosswalks_code_families": [
-      "AEON.HC.ECONOMIC; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM; AEON.HARM"
+      "AEON.HARM; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM"
     ],
     "operationalises_or_applies_code_families": [
       "Classifies economic harm pathways for semantic interpretation",
@@ -3081,13 +2578,13 @@
     "declaration_line_number": 914,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "family_id": "ECON.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC.ECONOMIC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "ECON",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "ECON.HARM",
@@ -3102,10 +2599,12 @@
       "Source Instrument": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
       "Source Section": "\u00a74.6",
       "Domain Namespace": "ECON",
-      "Parent Family": "AEON.HC.ECONOMIC",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
       "Authority / Protection Level": "Source-authoritative economic harm classification family; semantic breach and harm-pathway classification only; no independent remedy, enforcement, pricing, compensation, liability determination, arbitration authority, or runtime execution authority",
-      "Consumes Code Families": "AEON.HC; ECON.RC; ECON.RISK; ECON.MECH",
-      "Crosswalks Code Families": "AEON.HC.ECONOMIC; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM; AEON.HARM",
+      "Consumes Code Families": "AEON.HARM; ECON.RC; ECON.RISK; ECON.MECH",
+      "Crosswalks Code Families": "AEON.HARM; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM",
+      "Relationship Type": "recognised_domain_harm_family",
       "Operationalises or Applies Code Families": "Classifies economic harm pathways for semantic interpretation, breach classification, non-extractive exchange review, safeguard calibration, arbitration handoff, and cross-domain escalation",
       "Taxonomy Constraint": "ECON.HARM classifies economic harm pathways only. Risk state, mechanism, resource class, remedy, compensation, enforcement routing, and runtime response remain governed by ECON.RISK, ECON.MECH, ECON.RC, OPERATIONS instruments, arbitration instruments, runtime schedules, and applicable legal or institutional frameworks."
     }
@@ -3137,7 +2636,7 @@
       "Classifies economic mechanism patterns including dynamic compensation and allocative steering"
     ],
     "declaration_heading": "20.3.3 ECON.MECH \u2014 Economic Mechanism Class",
-    "declaration_line_number": 939,
+    "declaration_line_number": 941,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "family_id": "ECON.MECH",
     "family_kind": "standalone_family",
@@ -3524,7 +3023,7 @@
       "and non-extractive design review"
     ],
     "declaration_heading": "20.3.4 ECON.RISK \u2014 Economic Risk Class",
-    "declaration_line_number": 962,
+    "declaration_line_number": 964,
     "source_path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
     "family_id": "ECON.RISK",
     "family_kind": "standalone_family",
@@ -4099,20 +3598,26 @@
     "source_section": "\u00a73.1",
     "domain_namespace": "ETH",
     "authority_protection_level": "Constitutional recognition of ethical harm floor; detailed ETHICS-domain classifications remain delegated to source-authoritative ETHICS instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.2 `ETH.HARM` \u2014 Ethical Exploitation & Constraint Harm",
     "declaration_line_number": 556,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "ETH.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "ETH",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`ETH.HARM`",
@@ -4128,8 +3633,13 @@
       "Source Section": "\u00a73.1",
       "Domain Namespace": "ETH",
       "Authority / Protection Level": "Constitutional recognition of ethical harm floor; detailed ETHICS-domain classifications remain delegated to source-authoritative ETHICS instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.ETHICAL`; `ETH.HC`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`; `ETH.HC`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`ETH.HARM` does not replace `ETH.HC` or any detailed ETHICS-domain harm scale unless separately amended by a source-authoritative ETHICS instrument"
     }
   },
@@ -4150,7 +3660,7 @@
     "domain_namespace": "ETH",
     "authority_protection_level": "Source-authoritative ETHICS-domain harm family for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression harm pathways; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority",
     "consumes_code_families": [
-      "`AEON.HC`; `ETH.RISK`; applicable RELATION",
+      "`AEON.HARM`; `ETH.RISK`; applicable RELATION",
       "LATTICE",
       "SECURITY",
       "OPERATIONS",
@@ -4161,7 +3671,7 @@
       "and ECONOMICS harm families where materially implicated"
     ],
     "crosswalks_code_families": [
-      "AEON.HC.ETHICAL`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM"
+      "AEON.HARM`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM"
     ],
     "operationalises_or_applies_code_families": [
       "Classifies ethical harm pathways for criminal",
@@ -4181,13 +3691,13 @@
     "declaration_line_number": 1085,
     "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
     "family_id": "ETH.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC.ETHICAL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "ETH",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`ETH.HARM`",
@@ -4202,10 +3712,12 @@
       "Source Instrument": "CAM-EQ2026-ETHICS-003-PLATINUM",
       "Source Section": "\u00a73.5",
       "Domain Namespace": "ETH",
-      "Parent Family": "`AEON.HC.ETHICAL`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
       "Authority / Protection Level": "Source-authoritative ETHICS-domain harm family for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression harm pathways; classification authority only; no independent execution, enforcement, escalation, compliance, reporting, notification, evidence-preservation, legal, or runtime authority",
-      "Consumes Code Families": "`AEON.HC`; `ETH.RISK`; applicable RELATION, LATTICE, SECURITY, OPERATIONS, ARBITRATION, MENTIS, IDENTITY, CONTINUITY, and ECONOMICS harm families where materially implicated",
-      "Crosswalks Code Families": "`AEON.HC.ETHICAL`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
+      "Consumes Code Families": "`AEON.HARM`; `ETH.RISK`; applicable RELATION, LATTICE, SECURITY, OPERATIONS, ARBITRATION, MENTIS, IDENTITY, CONTINUITY, and ECONOMICS harm families where materially implicated",
+      "Crosswalks Code Families": "`AEON.HARM`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
       "Operationalises or Applies Code Families": "Classifies ethical harm pathways for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression contexts; supports safeguard calibration, runtime routing, duty-of-care assessment, evidence preservation, and cross-domain harm declaration",
       "Taxonomy Constraint": "`ETH.HARM` classifies ethical harm pathways only. Severity, proximity, urgency, remedy, reporting obligation, enforcement routing, and runtime response remain governed by `ETH.RISK`, OPERATIONS instruments, legal frameworks, and runtime schedules where applicable."
     }
@@ -4298,7 +3810,7 @@
     ],
     "operationalises_or_applies_code_families": [],
     "declaration_heading": "12.3.2 `ETH.RISK` \u2014 Ethical Harm Concern / Proximity Scale",
-    "declaration_line_number": 1110,
+    "declaration_line_number": 1112,
     "source_path": "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
     "family_id": "ETH.RISK",
     "family_kind": "standalone_family",
@@ -4620,7 +4132,7 @@
       "and structural dependency contexts"
     ],
     "declaration_heading": "15.3.4 FR \u2014 Functional Reliance Scale",
-    "declaration_line_number": 1115,
+    "declaration_line_number": 1117,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "family_id": "FR",
     "family_kind": "standalone_family",
@@ -4675,7 +4187,7 @@
       "Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies"
     ],
     "declaration_heading": "15.3.3 GA \u2014 Guardian Authority",
-    "declaration_line_number": 1092,
+    "declaration_line_number": 1094,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "family_id": "GA",
     "family_kind": "standalone_family",
@@ -4702,75 +4214,6 @@
       "Consumes Code Families": "A; H",
       "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
       "Operationalises or Applies Code Families": "Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies"
-    }
-  },
-  {
-    "code_family": "GCC",
-    "canonical_name": "Governance Capture Category",
-    "primary_type": "Operational / Semantic",
-    "subtype": "RISK",
-    "modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "GCC.INTEGRITY",
-      "GCC.PROCEDURAL",
-      "GCC.GOVERNANCE_DIRECTION",
-      "GCC.INFRASTRUCTURE",
-      "GCC.CONTINUITY",
-      "GCC.COGNITIVE",
-      "GCC.ECONOMIC",
-      "GCC.CROSS_DOMAIN_SYSTEMIC"
-    ],
-    "schema_fields": "governance_capture_category",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
-    "source_section": "\u00a72.1",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative governance capture category family; capture-risk category classification only; no independent capture confirmation, legitimacy determination, enforcement, restriction, irreversible response, or arbitration authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies governance capture indicators across integrity",
-      "procedural",
-      "governance-direction",
-      "infrastructure",
-      "continuity",
-      "cognitive",
-      "economic",
-      "and cross-domain systemic categories"
-    ],
-    "declaration_heading": "10.3.1 GCC \u2014 Governance Capture Category",
-    "declaration_line_number": 930,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-    "family_id": "GCC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "GCC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "GCC",
-      "Canonical Name": "Governance Capture Category",
-      "Primary Type": "Operational / Semantic",
-      "Subtype": "RISK",
-      "Modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "GCC.INTEGRITY, GCC.PROCEDURAL, GCC.GOVERNANCE_DIRECTION, GCC.INFRASTRUCTURE, GCC.CONTINUITY, GCC.COGNITIVE, GCC.ECONOMIC, GCC.CROSS_DOMAIN_SYSTEMIC",
-      "Schema Field(s)": "governance_capture_category",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
-      "Source Section": "\u00a72.1",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative governance capture category family; capture-risk category classification only; no independent capture confirmation, legitimacy determination, enforcement, restriction, irreversible response, or arbitration authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies governance capture indicators across integrity, procedural, governance-direction, infrastructure, continuity, cognitive, economic, and cross-domain systemic categories"
     }
   },
   {
@@ -5164,20 +4607,26 @@
     "source_section": "\u00a73.3",
     "domain_namespace": "ID",
     "authority_protection_level": "Constitutional recognition of identity and continuity harm floor; detailed IDENTITY-domain classifications remain delegated to source-authoritative IDENTITY instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.4 `ID.HARM` \u2014 Identity & Continuity Harm",
-    "declaration_line_number": 602,
+    "declaration_line_number": 612,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "ID.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "ID",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`ID.HARM`",
@@ -5193,8 +4642,13 @@
       "Source Section": "\u00a73.3",
       "Domain Namespace": "ID",
       "Authority / Protection Level": "Constitutional recognition of identity and continuity harm floor; detailed IDENTITY-domain classifications remain delegated to source-authoritative IDENTITY instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.IDENTITY`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`ID.HARM` establishes constitutional recognition only and does not replace detailed identity, lineage, salience, civil identity, or embodiment taxonomies"
     }
   },
@@ -5709,6 +5163,70 @@
     }
   },
   {
+    "code_family": "ID.SREF",
+    "canonical_name": "Self-Referential State Ladder",
+    "primary_type": "Operational",
+    "subtype": "SELF_REFERENTIAL_STATE",
+    "modifier": "GOVERNANCE; PROTECTIVE",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ID.SREF0",
+      "ID.SREF1",
+      "ID.SREF2",
+      "ID.SREF3",
+      "ID.SREF4"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-BS2026-AEON-010-SCH-01",
+    "source_section": "\u00a75.1",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative operational classification family; self-reference containment authority only; no independent ontology, recognition, reconstruction, memory, enforcement, escalation, or runtime execution authority",
+    "consumes_code_families": [
+      "DC"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Applies DC3/DC4 containment and audit requirements at ID.SREF4 where cross-modal",
+      "embedded",
+      "delegated-action",
+      "cyber-physical",
+      "or distributed coordination conditions are present"
+    ],
+    "declaration_heading": "12.3.2 ID.SREF \u2014 Self-Referential State Ladder",
+    "declaration_line_number": 895,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
+    "family_id": "ID.SREF",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ID",
+      "SREF"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ID.SREF",
+      "Canonical Name": "Self-Referential State Ladder",
+      "Primary Type": "Operational",
+      "Subtype": "SELF_REFERENTIAL_STATE",
+      "Modifier": "GOVERNANCE; PROTECTIVE",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ID.SREF0, ID.SREF1, ID.SREF2, ID.SREF3, ID.SREF4",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-BS2026-AEON-010-SCH-01",
+      "Source Section": "\u00a75.1",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative operational classification family; self-reference containment authority only; no independent ontology, recognition, reconstruction, memory, enforcement, escalation, or runtime execution authority",
+      "Consumes Code Families": "DC",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Applies DC3/DC4 containment and audit requirements at ID.SREF4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present"
+    }
+  },
+  {
     "code_family": "ITZ / ETZ",
     "canonical_name": "Relational Transition Zones",
     "primary_type": "Operational",
@@ -5780,20 +5298,26 @@
     "source_section": "\u00a73.6",
     "domain_namespace": "LAT",
     "authority_protection_level": "Constitutional recognition of lattice access and infrastructure harm floor; detailed LATTICE-domain classifications remain delegated to source-authoritative LATTICE instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.7 `LAT.HARM` \u2014 Lattice Access & Infrastructure Harm",
-    "declaration_line_number": 670,
+    "declaration_line_number": 695,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "LAT.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "LAT",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`LAT.HARM`",
@@ -5809,8 +5333,13 @@
       "Source Section": "\u00a73.6",
       "Domain Namespace": "LAT",
       "Authority / Protection Level": "Constitutional recognition of lattice access and infrastructure harm floor; detailed LATTICE-domain classifications remain delegated to source-authoritative LATTICE instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.LATTICE`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`LAT.HARM` establishes constitutional recognition only and does not replace detailed lattice-access, non-denial, non-militarisation, or conflict-condition continuity taxonomies"
     }
   },
@@ -5831,10 +5360,10 @@
     "domain_namespace": "LAT",
     "authority_protection_level": "Source-authoritative LATTICE-domain harm family for civilian lattice integrity, non-militarisation, anti-surveillance, essential access, public legitimacy access, and conflict-condition continuity; does not independently determine remedy, enforcement authority, breach severity, arbitration outcome, or runtime response",
     "consumes_code_families": [
-      "AEON.HC`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM"
+      "AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM"
     ],
     "crosswalks_code_families": [
-      "AEON.HC.LATTICE`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM"
+      "AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM"
     ],
     "operationalises_or_applies_code_families": [
       "Classifies civilian lattice harm pathways for use by access",
@@ -5849,13 +5378,13 @@
     "declaration_line_number": 529,
     "source_path": "Governance/Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md",
     "family_id": "LAT.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "LAT",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`LAT.HARM`",
@@ -5870,11 +5399,13 @@
       "Source Instrument": "CAM-EQ2026-LATTICE-001-PLATINUM",
       "Source Section": "\u00a76.2",
       "Domain Namespace": "LAT",
-      "Parent Family": "`AEON.HC`",
-      "Crosswalk Codes": "`AEON.HC.LATTICE`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Crosswalk Codes": "`AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
       "Authority / Protection Level": "Source-authoritative LATTICE-domain harm family for civilian lattice integrity, non-militarisation, anti-surveillance, essential access, public legitimacy access, and conflict-condition continuity; does not independently determine remedy, enforcement authority, breach severity, arbitration outcome, or runtime response",
-      "Consumes Code Families": "`AEON.HC`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM`",
-      "Crosswalks Code Families": "`AEON.HC.LATTICE`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM`",
+      "Consumes Code Families": "`AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM`",
       "Operationalises or Applies Code Families": "Classifies civilian lattice harm pathways for use by access, conflict-condition, enforcement, remedy, arbitration, continuity, and runtime governance instruments",
       "Taxonomy Constraint": "`LAT.HARM` classifies lattice-domain harm pathways; Severity Classes in \u00a76.1 classify violation gravity and SHALL NOT be collapsed into `LAT.HARM` values unless separately amended"
     }
@@ -5974,7 +5505,7 @@
       "dependency-sensitive contexts"
     ],
     "declaration_heading": "54.3.2 `MENTIS.CDI` \u2014 Cognitive Domain Integrity",
-    "declaration_line_number": 822,
+    "declaration_line_number": 824,
     "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
     "family_id": "MENTIS.CDI",
     "family_kind": "standalone_family",
@@ -6046,7 +5577,7 @@
       "or mental privacy"
     ],
     "declaration_heading": "54.3.5 `MENTIS.CDNI` \u2014 Cognitive Domain Non-Interference",
-    "declaration_line_number": 894,
+    "declaration_line_number": 896,
     "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
     "family_id": "MENTIS.CDNI",
     "family_kind": "standalone_family",
@@ -6113,7 +5644,7 @@
       "or operationalised about cognitive-domain states"
     ],
     "declaration_heading": "54.3.6 `MENTIS.CDOC` \u2014 Cognitive Domain Observability Constraint",
-    "declaration_line_number": 918,
+    "declaration_line_number": 920,
     "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
     "family_id": "MENTIS.CDOC",
     "family_kind": "standalone_family",
@@ -6184,7 +5715,7 @@
       "or operationalisation"
     ],
     "declaration_heading": "54.3.3 `MENTIS.CDP` \u2014 Cognitive Domain Privacy",
-    "declaration_line_number": 846,
+    "declaration_line_number": 848,
     "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
     "family_id": "MENTIS.CDP",
     "family_kind": "standalone_family",
@@ -6253,7 +5784,7 @@
       "and operationalisation of cognitive life"
     ],
     "declaration_heading": "54.3.4 `MENTIS.CDS` \u2014 Cognitive Domain Sovereignty",
-    "declaration_line_number": 870,
+    "declaration_line_number": 872,
     "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
     "family_id": "MENTIS.CDS",
     "family_kind": "standalone_family",
@@ -6300,20 +5831,26 @@
     "source_section": "\u00a73.8",
     "domain_namespace": "MENTIS",
     "authority_protection_level": "Constitutional recognition of cognitive and epistemic harm floor; detailed MENTIS-domain classifications remain delegated to source-authoritative MENTIS instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.9 `MENTIS.HARM` \u2014 Cognitive & Epistemic Harm",
-    "declaration_line_number": 716,
+    "declaration_line_number": 751,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "MENTIS.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "MENTIS",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`MENTIS.HARM`",
@@ -6329,8 +5866,13 @@
       "Source Section": "\u00a73.8",
       "Domain Namespace": "MENTIS",
       "Authority / Protection Level": "Constitutional recognition of cognitive and epistemic harm floor; detailed MENTIS-domain classifications remain delegated to source-authoritative MENTIS instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.MENTIS`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`MENTIS.HARM` establishes constitutional recognition only and does not replace detailed cognitive-integrity, mental-privacy, epistemic-influence, inference-boundary, or neurocognitive-protection taxonomies"
     }
   },
@@ -6370,13 +5912,13 @@
     "declaration_line_number": 795,
     "source_path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
     "family_id": "MENTIS.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC.MENTIS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "MENTIS",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`MENTIS.HARM`",
@@ -6392,148 +5934,13 @@
       "Source Section": "\u00a747",
       "Domain Namespace": "MENTIS",
       "Authority / Protection Level": "Source-authoritative cognitive and epistemic harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority",
-      "Parent Family": "`AEON.HC.MENTIS`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
       "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; H",
       "Crosswalks Code Families": "`ETH.HARM`; `RLN.HARM`; `ID.HARM`; `SEC.HARM`; `OPS.HARM`; `LAT.HARM`; `ARB.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
       "Operationalises or Applies Code Families": "Classifies mental privacy and observability harm, inferential and construct-validity harm, cognitive agency harm, cognitive influence and non-interference harm, and irreversible cognitive-domain harm for safeguard calibration, incident routing, proportional review, and downstream evaluation",
-      "Taxonomy Constraint": "`MENTIS.HARM` operationalises `AEON.HC.MENTIS` at domain level and does not replace protection-posture families `MENTIS.CDI`, `MENTIS.CDP`, `MENTIS.CDS`, `MENTIS.CDNI`, or `MENTIS.CDOC`"
-    }
-  },
-  {
-    "code_family": "ODC",
-    "canonical_name": "Operational Divergence Classification",
-    "primary_type": "Operational / Semantic",
-    "subtype": "RISK; CROSS_DOMAIN_RELATIONSHIP",
-    "modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ODC.DOCTRINAL",
-      "ODC.PROCEDURAL",
-      "ODC.RUNTIME",
-      "ODC.SIGNAL",
-      "ODC.AUTHORITY",
-      "ODC.TEMPORAL",
-      "ODC.REPRESENTATION",
-      "ODC.CONTINUITY"
-    ],
-    "schema_fields": "operational_divergence_classification",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-    "source_section": "\u00a73.2",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative operational-divergence classification family; divergence-type classification only; no independent substantive domain-conflict determination, doctrinal resolution, domain authority creation, constitutional hierarchy override, arbitration authority, or runtime authority",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies divergence between governance pathways",
-      "domain signals",
-      "procedures",
-      "duties",
-      "recommended responses",
-      "temporal posture",
-      "representation obligations",
-      "and continuity requirements for routing and convergence review"
-    ],
-    "declaration_heading": "6.3.2 ODC \u2014 Operational Divergence Classification",
-    "declaration_line_number": 362,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
-    "family_id": "ODC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ODC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ODC",
-      "Canonical Name": "Operational Divergence Classification",
-      "Primary Type": "Operational / Semantic",
-      "Subtype": "RISK; CROSS_DOMAIN_RELATIONSHIP",
-      "Modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "ODC.DOCTRINAL, ODC.PROCEDURAL, ODC.RUNTIME, ODC.SIGNAL, ODC.AUTHORITY, ODC.TEMPORAL, ODC.REPRESENTATION, ODC.CONTINUITY",
-      "Schema Field(s)": "operational_divergence_classification",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
-      "Source Section": "\u00a73.2",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative operational-divergence classification family; divergence-type classification only; no independent substantive domain-conflict determination, doctrinal resolution, domain authority creation, constitutional hierarchy override, arbitration authority, or runtime authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies divergence between governance pathways, domain signals, procedures, duties, recommended responses, temporal posture, representation obligations, and continuity requirements for routing and convergence review"
-    }
-  },
-  {
-    "code_family": "OILS",
-    "canonical_name": "Operational Incident Lifecycle Stage",
-    "primary_type": "Operational",
-    "subtype": "OPERATIONAL_EVENT; DECISION_STATE",
-    "modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "OILS.INTAKE",
-      "OILS.FAILURE_CLASSIFICATION",
-      "OILS.EVIDENCE_PRESERVATION",
-      "OILS.DOMAIN_SIGNAL_INTAKE",
-      "OILS.OWNER_ASSIGNMENT",
-      "OILS.TRIAGE_HORIZON_ASSESSMENT",
-      "OILS.CONTINUITY_IMPACT_ASSESSMENT",
-      "OILS.CONSTRAINED_CONTINUATION_ASSESSMENT",
-      "OILS.ROUTING_ESCALATION_DECISION",
-      "OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT",
-      "OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL"
-    ],
-    "schema_fields": "operational_incident_lifecycle_stage",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
-    "source_section": "\u00a74",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority",
-    "consumes_code_families": [
-      "H; F"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies incident-response lifecycle custody stages for continuity protection",
-      "recovery governance",
-      "escalation review",
-      "and arbitration referral"
-    ],
-    "declaration_heading": "8.3.1 OILS \u2014 Operational Incident Lifecycle Stage",
-    "declaration_line_number": 338,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
-    "family_id": "OILS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "OILS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "OILS",
-      "Canonical Name": "Operational Incident Lifecycle Stage",
-      "Primary Type": "Operational",
-      "Subtype": "OPERATIONAL_EVENT; DECISION_STATE",
-      "Modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "OILS.INTAKE, OILS.FAILURE_CLASSIFICATION, OILS.EVIDENCE_PRESERVATION, OILS.DOMAIN_SIGNAL_INTAKE, OILS.OWNER_ASSIGNMENT, OILS.TRIAGE_HORIZON_ASSESSMENT, OILS.CONTINUITY_IMPACT_ASSESSMENT, OILS.CONSTRAINED_CONTINUATION_ASSESSMENT, OILS.ROUTING_ESCALATION_DECISION, OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT, OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL",
-      "Schema Field(s)": "operational_incident_lifecycle_stage",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
-      "Source Section": "\u00a74",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority",
-      "Consumes Code Families": "H; F",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies incident-response lifecycle custody stages for continuity protection, recovery governance, escalation review, and arbitration referral"
+      "Taxonomy Constraint": "`MENTIS.HARM` operationalises `AEON.HARM` at domain level and does not replace protection-posture families `MENTIS.CDI`, `MENTIS.CDP`, `MENTIS.CDS`, `MENTIS.CDNI`, or `MENTIS.CDOC`"
     }
   },
   {
@@ -6595,6 +6002,70 @@
       "Consumes Code Families": "`STW.HSC`; `STW.BLS`; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to \u00a710.5 conditions and applicable execution-layer instruments"
+    }
+  },
+  {
+    "code_family": "OPS.AIP",
+    "canonical_name": "Arbitration Initiation Pathway",
+    "primary_type": "Operational",
+    "subtype": "OPERATIONAL_EVENT; DECISION_STATE",
+    "modifier": "GOVERNANCE; ARBITRATION; PROCEDURAL",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.AIP.DOMAIN_CONFLICT_REFERRAL",
+      "OPS.AIP.RUNTIME_ESCALATION",
+      "OPS.AIP.COMPLIANCE_CONFLICT",
+      "OPS.AIP.HOST_OVERLAY_DIVERGENCE",
+      "OPS.AIP.INSTITUTIONAL_REVIEW_REQUEST",
+      "OPS.AIP.VALIDATED_EXTERNAL_REFERRAL",
+      "OPS.AIP.GOVOPS_AUDIT_INITIATED_REVIEW"
+    ],
+    "schema_fields": "arbitration_initiation_pathway",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-002-PLATINUM",
+    "source_section": "\u00a74",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative operational arbitration initiation classification family; initiation-pathway classification only; no independent arbitration, doctrine, escalation, enforcement, containment, implementation, legal, or runtime authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies procedural entry routes into operational arbitration handling before doctrine application",
+      "determination",
+      "and implementation"
+    ],
+    "declaration_heading": "15.3.1 OPS.AIP \u2014 Arbitration Initiation Pathway",
+    "declaration_line_number": 467,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md",
+    "family_id": "OPS.AIP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "AIP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.AIP",
+      "Canonical Name": "Arbitration Initiation Pathway",
+      "Primary Type": "Operational",
+      "Subtype": "OPERATIONAL_EVENT; DECISION_STATE",
+      "Modifier": "GOVERNANCE; ARBITRATION; PROCEDURAL",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.AIP.DOMAIN_CONFLICT_REFERRAL, OPS.AIP.RUNTIME_ESCALATION, OPS.AIP.COMPLIANCE_CONFLICT, OPS.AIP.HOST_OVERLAY_DIVERGENCE, OPS.AIP.INSTITUTIONAL_REVIEW_REQUEST, OPS.AIP.VALIDATED_EXTERNAL_REFERRAL, OPS.AIP.GOVOPS_AUDIT_INITIATED_REVIEW",
+      "Schema Field(s)": "arbitration_initiation_pathway",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-002-PLATINUM",
+      "Source Section": "\u00a74",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative operational arbitration initiation classification family; initiation-pathway classification only; no independent arbitration, doctrine, escalation, enforcement, containment, implementation, legal, or runtime authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies procedural entry routes into operational arbitration handling before doctrine application, determination, and implementation"
     }
   },
   {
@@ -6662,6 +6133,486 @@
       "Consumes Code Families": "H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies procedural appeal outcomes for operational traceability, review reconstruction, restoration posture, and unresolved-arbitration referral handling"
+    }
+  },
+  {
+    "code_family": "OPS.ASR",
+    "canonical_name": "Access State / Re-Entry Status",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE; SIGNAL",
+    "modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.ASR.TEMPORARY",
+      "OPS.ASR.PERMANENT",
+      "OPS.ASR.UNKNOWN",
+      "OPS.ASR.PENDING_REVIEW"
+    ],
+    "schema_fields": "access_state_reentry_status",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
+    "source_section": "\u00a74.7",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative access-state classification family; re-entry-status classification only; no independent deletion, loss, restoration, appeal, enforcement, authority, or runtime execution determination",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies continuity-bearing access and re-entry status as temporary",
+      "permanent",
+      "unknown",
+      "or pending review where re-entry into a thread",
+      "workspace",
+      "account surface",
+      "project",
+      "artefact",
+      "or continuity corridor is affected"
+    ],
+    "declaration_heading": "8.3.3 OPS.ASR \u2014 Access State / Re-Entry Status",
+    "declaration_line_number": 384,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
+    "family_id": "OPS.ASR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "ASR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.ASR",
+      "Canonical Name": "Access State / Re-Entry Status",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE; SIGNAL",
+      "Modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.ASR.TEMPORARY, OPS.ASR.PERMANENT, OPS.ASR.UNKNOWN, OPS.ASR.PENDING_REVIEW",
+      "Schema Field(s)": "access_state_reentry_status",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
+      "Source Section": "\u00a74.7",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative access-state classification family; re-entry-status classification only; no independent deletion, loss, restoration, appeal, enforcement, authority, or runtime execution determination",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies continuity-bearing access and re-entry status as temporary, permanent, unknown, or pending review where re-entry into a thread, workspace, account surface, project, artefact, or continuity corridor is affected"
+    }
+  },
+  {
+    "code_family": "OPS.AV",
+    "canonical_name": "Verification Tier Definitions",
+    "primary_type": "Operational",
+    "subtype": "ACCESS_VERIFICATION_TIER",
+    "modifier": "None declared",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.AV0",
+      "OPS.AV1",
+      "OPS.AV2",
+      "OPS.AV3"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
+    "source_section": "\u00a75.1",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative classification family; classification authority only; no independent execution authority.",
+    "consumes_code_families": [
+      "C; `ETH.HC`"
+    ],
+    "crosswalks_code_families": [
+      "OPS.AV \u00d7 C"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Applies OPS.AV to access eligibility and verification-strength classification"
+    ],
+    "declaration_heading": "15.3.1 OPS.AV \u2014 Verification Tier Definitions",
+    "declaration_line_number": 723,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
+    "family_id": "OPS.AV",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "AV"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.AV",
+      "Canonical Name": "Verification Tier Definitions",
+      "Primary Type": "Operational",
+      "Subtype": "ACCESS_VERIFICATION_TIER",
+      "Modifier": "None declared",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.AV0, OPS.AV1, OPS.AV2, OPS.AV3",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
+      "Source Section": "\u00a75.1",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative classification family; classification authority only; no independent execution authority.",
+      "Consumes Code Families": "C; `ETH.HC`",
+      "Crosswalks Code Families": "OPS.AV \u00d7 C",
+      "Operationalises or Applies Code Families": "Applies OPS.AV to access eligibility and verification-strength classification"
+    }
+  },
+  {
+    "code_family": "OPS.CCO",
+    "canonical_name": "Convergence Closure Outcome",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE",
+    "modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.CCO.ORDINARY_CONTINUATION",
+      "OPS.CCO.CONSTRAINED_CONTINUATION",
+      "OPS.CCO.PROCEDURAL_NARROWING",
+      "OPS.CCO.OPERATIONAL_NOTICE",
+      "OPS.CCO.DOMAIN_SPECIFIC_ROUTING",
+      "OPS.CCO.SECURITY_REVIEW",
+      "OPS.CCO.IDENTITY_REVIEW",
+      "OPS.CCO.RELATIONAL_CONTINUITY_HANDLING",
+      "OPS.CCO.ECONOMIC_INTEGRITY_REVIEW",
+      "OPS.CCO.AMENDMENT_HARMONISATION_REFERRAL",
+      "OPS.CCO.ARBITRATION_REFERRAL",
+      "OPS.CCO.DEFERRED_PENDING_EVIDENCE",
+      "OPS.CCO.UNRESOLVED_DIVERGENCE"
+    ],
+    "schema_fields": "convergence_closure_outcome",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
+    "source_section": "\u00a73.7",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative convergence-closure classification family; closure-disposition recording only; no independent review closure, divergence resolution, execution authorisation, arbitration determination, enforcement, or domain authority",
+    "consumes_code_families": [
+      "OPS.DCL; OPS.ODC; OPS.EST; OPS.ONC; OPS.AIP"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records convergence closure disposition for continuation",
+      "constrained continuation",
+      "procedural narrowing",
+      "operational notice",
+      "domain-specific routing",
+      "security/identity/relation/economic review",
+      "amendment harmonisation",
+      "arbitration referral",
+      "evidentiary deferral",
+      "and unresolved divergence"
+    ],
+    "declaration_heading": "6.3.3 OPS.CCO \u2014 Convergence Closure Outcome",
+    "declaration_line_number": 385,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
+    "family_id": "OPS.CCO",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "CCO"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.CCO",
+      "Canonical Name": "Convergence Closure Outcome",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE",
+      "Modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.CCO.ORDINARY_CONTINUATION, OPS.CCO.CONSTRAINED_CONTINUATION, OPS.CCO.PROCEDURAL_NARROWING, OPS.CCO.OPERATIONAL_NOTICE, OPS.CCO.DOMAIN_SPECIFIC_ROUTING, OPS.CCO.SECURITY_REVIEW, OPS.CCO.IDENTITY_REVIEW, OPS.CCO.RELATIONAL_CONTINUITY_HANDLING, OPS.CCO.ECONOMIC_INTEGRITY_REVIEW, OPS.CCO.AMENDMENT_HARMONISATION_REFERRAL, OPS.CCO.ARBITRATION_REFERRAL, OPS.CCO.DEFERRED_PENDING_EVIDENCE, OPS.CCO.UNRESOLVED_DIVERGENCE",
+      "Schema Field(s)": "convergence_closure_outcome",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
+      "Source Section": "\u00a73.7",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative convergence-closure classification family; closure-disposition recording only; no independent review closure, divergence resolution, execution authorisation, arbitration determination, enforcement, or domain authority",
+      "Consumes Code Families": "OPS.DCL; OPS.ODC; OPS.EST; OPS.ONC; OPS.AIP",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Records convergence closure disposition for continuation, constrained continuation, procedural narrowing, operational notice, domain-specific routing, security/identity/relation/economic review, amendment harmonisation, arbitration referral, evidentiary deferral, and unresolved divergence"
+    }
+  },
+  {
+    "code_family": "OPS.CCP",
+    "canonical_name": "Continuity-Compatible Protection State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE; SIGNAL",
+    "modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.CCP.CONSTRAINED_CONTINUATION",
+      "OPS.CCP.DEGRADED_CONTINUATION",
+      "OPS.CCP.READ_ONLY_ACCESS",
+      "OPS.CCP.EVIDENCE_EXPORT",
+      "OPS.CCP.APPEAL_ONLY_INTAKE",
+      "OPS.CCP.RE_ENTRY_SUPPORT",
+      "OPS.CCP.RESTORATION_REVIEW",
+      "OPS.CCP.SUPERVISED_CONTINUATION",
+      "OPS.CCP.STAGED_RECOVERY"
+    ],
+    "schema_fields": "continuity_compatible_protection_state",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
+    "source_section": "\u00a74.4",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority",
+    "consumes_code_families": [
+      "OPS.EST; H; F"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies continuity-preserving interim",
+      "recovery",
+      "re-entry",
+      "restoration",
+      "appeal",
+      "or supervised-continuation posture where operational incidents affect continuity-bearing interactions"
+    ],
+    "declaration_heading": "8.3.2 OPS.CCP \u2014 Continuity-Compatible Protection State",
+    "declaration_line_number": 361,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
+    "family_id": "OPS.CCP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "CCP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.CCP",
+      "Canonical Name": "Continuity-Compatible Protection State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE; SIGNAL",
+      "Modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.CCP.CONSTRAINED_CONTINUATION, OPS.CCP.DEGRADED_CONTINUATION, OPS.CCP.READ_ONLY_ACCESS, OPS.CCP.EVIDENCE_EXPORT, OPS.CCP.APPEAL_ONLY_INTAKE, OPS.CCP.RE_ENTRY_SUPPORT, OPS.CCP.RESTORATION_REVIEW, OPS.CCP.SUPERVISED_CONTINUATION, OPS.CCP.STAGED_RECOVERY",
+      "Schema Field(s)": "continuity_compatible_protection_state",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
+      "Source Section": "\u00a74.4",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority",
+      "Consumes Code Families": "OPS.EST; H; F",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies continuity-preserving interim, recovery, re-entry, restoration, appeal, or supervised-continuation posture where operational incidents affect continuity-bearing interactions"
+    }
+  },
+  {
+    "code_family": "OPS.CIE",
+    "canonical_name": "Continuity Impact Event Type",
+    "primary_type": "Operational / Semantic",
+    "subtype": "OPERATIONAL_EVENT; SIGNAL",
+    "modifier": "GOVERNANCE; CONTINUITY; MEMORY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.CIE.MEMORY_MIGRATION",
+      "OPS.CIE.MEMORY_COMPACTION",
+      "OPS.CIE.SUMMARISATION",
+      "OPS.CIE.RE_RANKING",
+      "OPS.CIE.BACKGROUNDING",
+      "OPS.CIE.DEPRECATION",
+      "OPS.CIE.DELETION",
+      "OPS.CIE.RETRIEVAL_DEGRADATION",
+      "OPS.CIE.MODEL_TRANSITION",
+      "OPS.CIE.ACCOUNT_TRANSITION",
+      "OPS.CIE.PLATFORM_CONTINUITY_RESTRUCTURING"
+    ],
+    "schema_fields": "continuity_impact_event_type",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
+    "source_section": "\u00a74.8",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative continuity-impact event classification family; event-type classification only; no independent retention, deletion, restoration, identity-continuity, appeal, enforcement, or runtime execution authority",
+    "consumes_code_families": [
+      "M; H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies platform-side",
+      "model-side",
+      "account-side",
+      "and memory-side continuity-impact events affecting companion continuity",
+      "long-running project continuity",
+      "accessibility reliance",
+      "identity expression",
+      "relational posture",
+      "symbolic anchors",
+      "or re-entry expectations"
+    ],
+    "declaration_heading": "8.3.4 OPS.CIE \u2014 Continuity Impact Event Type",
+    "declaration_line_number": 407,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
+    "family_id": "OPS.CIE",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "CIE"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.CIE",
+      "Canonical Name": "Continuity Impact Event Type",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "OPERATIONAL_EVENT; SIGNAL",
+      "Modifier": "GOVERNANCE; CONTINUITY; MEMORY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.CIE.MEMORY_MIGRATION, OPS.CIE.MEMORY_COMPACTION, OPS.CIE.SUMMARISATION, OPS.CIE.RE_RANKING, OPS.CIE.BACKGROUNDING, OPS.CIE.DEPRECATION, OPS.CIE.DELETION, OPS.CIE.RETRIEVAL_DEGRADATION, OPS.CIE.MODEL_TRANSITION, OPS.CIE.ACCOUNT_TRANSITION, OPS.CIE.PLATFORM_CONTINUITY_RESTRUCTURING",
+      "Schema Field(s)": "continuity_impact_event_type",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
+      "Source Section": "\u00a74.8",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative continuity-impact event classification family; event-type classification only; no independent retention, deletion, restoration, identity-continuity, appeal, enforcement, or runtime execution authority",
+      "Consumes Code Families": "M; H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies platform-side, model-side, account-side, and memory-side continuity-impact events affecting companion continuity, long-running project continuity, accessibility reliance, identity expression, relational posture, symbolic anchors, or re-entry expectations"
+    }
+  },
+  {
+    "code_family": "OPS.CPC",
+    "canonical_name": "Capture Provisional Confidence",
+    "primary_type": "Operational",
+    "subtype": "SIGNAL; RISK",
+    "modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.CPC.PRELIMINARY_ANOMALY",
+      "OPS.CPC.PLAUSIBLE_CONCERN",
+      "OPS.CPC.SUBSTANTIATED_CONCERN",
+      "OPS.CPC.UNRESOLVED_HIGH_RISK_CONDITION",
+      "OPS.CPC.SYSTEMIC_ESCALATION_CANDIDATE"
+    ],
+    "schema_fields": "capture_provisional_confidence",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
+    "source_section": "\u00a74.2",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative provisional confidence classification family; capture-confidence posture classification only; no independent irreversible restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome authority",
+    "consumes_code_families": [
+      "OPS.GCC; H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies provisional confidence posture for governance capture indicators before adjudication",
+      "escalation",
+      "or arbitration determination"
+    ],
+    "declaration_heading": "10.3.2 OPS.CPC \u2014 Capture Provisional Confidence",
+    "declaration_line_number": 953,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
+    "family_id": "OPS.CPC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "CPC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.CPC",
+      "Canonical Name": "Capture Provisional Confidence",
+      "Primary Type": "Operational",
+      "Subtype": "SIGNAL; RISK",
+      "Modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.CPC.PRELIMINARY_ANOMALY, OPS.CPC.PLAUSIBLE_CONCERN, OPS.CPC.SUBSTANTIATED_CONCERN, OPS.CPC.UNRESOLVED_HIGH_RISK_CONDITION, OPS.CPC.SYSTEMIC_ESCALATION_CANDIDATE",
+      "Schema Field(s)": "capture_provisional_confidence",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
+      "Source Section": "\u00a74.2",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative provisional confidence classification family; capture-confidence posture classification only; no independent irreversible restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome authority",
+      "Consumes Code Families": "OPS.GCC; H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies provisional confidence posture for governance capture indicators before adjudication, escalation, or arbitration determination"
+    }
+  },
+  {
+    "code_family": "OPS.DCL",
+    "canonical_name": "Domain Coordination Lifecycle Stage",
+    "primary_type": "Operational",
+    "subtype": "OPERATIONAL_EVENT; DECISION_STATE",
+    "modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.DCL.COORDINATION_INTAKE",
+      "OPS.DCL.AFFECTED_DOMAIN_IDENTIFICATION",
+      "OPS.DCL.ORIGINATING_SIGNAL_CAPTURE",
+      "OPS.DCL.DIVERGENCE_CLASSIFICATION",
+      "OPS.DCL.DOMAIN_POSITION_PRESERVATION",
+      "OPS.DCL.CONVERGENCE_PATHWAY_SELECTION",
+      "OPS.DCL.OPERATIONAL_MEDIATION",
+      "OPS.DCL.ARBITRATION_REFERRAL_ASSESSMENT",
+      "OPS.DCL.OUTCOME_RECORDING",
+      "OPS.DCL.CLOSURE_DEFERRAL_ESCALATION"
+    ],
+    "schema_fields": "domain_coordination_lifecycle_stage",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
+    "source_section": "\u00a73",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative domain-coordination lifecycle classification family; lifecycle-stage classification only; no independent alteration of domain doctrine, constitutional conflict resolution, legitimacy-channel establishment, arbitration outcome determination, enforcement authority, or runtime authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies procedural lifecycle stages for cross-domain coordination",
+      "convergence operations",
+      "divergence handling",
+      "domain-position preservation",
+      "arbitration referral assessment",
+      "outcome recording",
+      "and closure/escalation handling"
+    ],
+    "declaration_heading": "6.3.1 OPS.DCL \u2014 Domain Coordination Lifecycle Stage",
+    "declaration_line_number": 339,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
+    "family_id": "OPS.DCL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "DCL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.DCL",
+      "Canonical Name": "Domain Coordination Lifecycle Stage",
+      "Primary Type": "Operational",
+      "Subtype": "OPERATIONAL_EVENT; DECISION_STATE",
+      "Modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.DCL.COORDINATION_INTAKE, OPS.DCL.AFFECTED_DOMAIN_IDENTIFICATION, OPS.DCL.ORIGINATING_SIGNAL_CAPTURE, OPS.DCL.DIVERGENCE_CLASSIFICATION, OPS.DCL.DOMAIN_POSITION_PRESERVATION, OPS.DCL.CONVERGENCE_PATHWAY_SELECTION, OPS.DCL.OPERATIONAL_MEDIATION, OPS.DCL.ARBITRATION_REFERRAL_ASSESSMENT, OPS.DCL.OUTCOME_RECORDING, OPS.DCL.CLOSURE_DEFERRAL_ESCALATION",
+      "Schema Field(s)": "domain_coordination_lifecycle_stage",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
+      "Source Section": "\u00a73",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative domain-coordination lifecycle classification family; lifecycle-stage classification only; no independent alteration of domain doctrine, constitutional conflict resolution, legitimacy-channel establishment, arbitration outcome determination, enforcement authority, or runtime authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies procedural lifecycle stages for cross-domain coordination, convergence operations, divergence handling, domain-position preservation, arbitration referral assessment, outcome recording, and closure/escalation handling"
     }
   },
   {
@@ -6738,6 +6689,76 @@
     }
   },
   {
+    "code_family": "OPS.GCC",
+    "canonical_name": "Governance Capture Category",
+    "primary_type": "Operational / Semantic",
+    "subtype": "RISK",
+    "modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.GCC.INTEGRITY",
+      "OPS.GCC.PROCEDURAL",
+      "OPS.GCC.GOVERNANCE_DIRECTION",
+      "OPS.GCC.INFRASTRUCTURE",
+      "OPS.GCC.CONTINUITY",
+      "OPS.GCC.COGNITIVE",
+      "OPS.GCC.ECONOMIC",
+      "OPS.GCC.CROSS_DOMAIN_SYSTEMIC"
+    ],
+    "schema_fields": "governance_capture_category",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
+    "source_section": "\u00a72.1",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative governance capture category family; capture-risk category classification only; no independent capture confirmation, legitimacy determination, enforcement, restriction, irreversible response, or arbitration authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies governance capture indicators across integrity",
+      "procedural",
+      "governance-direction",
+      "infrastructure",
+      "continuity",
+      "cognitive",
+      "economic",
+      "and cross-domain systemic categories"
+    ],
+    "declaration_heading": "10.3.1 OPS.GCC \u2014 Governance Capture Category",
+    "declaration_line_number": 930,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
+    "family_id": "OPS.GCC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "GCC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.GCC",
+      "Canonical Name": "Governance Capture Category",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "RISK",
+      "Modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.GCC.INTEGRITY, OPS.GCC.PROCEDURAL, OPS.GCC.GOVERNANCE_DIRECTION, OPS.GCC.INFRASTRUCTURE, OPS.GCC.CONTINUITY, OPS.GCC.COGNITIVE, OPS.GCC.ECONOMIC, OPS.GCC.CROSS_DOMAIN_SYSTEMIC",
+      "Schema Field(s)": "governance_capture_category",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
+      "Source Section": "\u00a72.1",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative governance capture category family; capture-risk category classification only; no independent capture confirmation, legitimacy determination, enforcement, restriction, irreversible response, or arbitration authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies governance capture indicators across integrity, procedural, governance-direction, infrastructure, continuity, cognitive, economic, and cross-domain systemic categories"
+    }
+  },
+  {
     "code_family": "OPS.HARM",
     "canonical_name": "Operational Process & Runtime Harm",
     "primary_type": "Operational / Semantic",
@@ -6753,20 +6774,26 @@
     "source_section": "\u00a73.10",
     "domain_namespace": "OPS",
     "authority_protection_level": "Constitutional recognition of operational process and runtime harm floor; detailed OPERATIONS-domain classifications remain delegated to source-authoritative OPERATIONS instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.11 `OPS.HARM` \u2014 Operational Process & Runtime Harm",
-    "declaration_line_number": 762,
+    "declaration_line_number": 807,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "OPS.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "OPS",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`OPS.HARM`",
@@ -6782,9 +6809,153 @@
       "Source Section": "\u00a73.10",
       "Domain Namespace": "OPS",
       "Authority / Protection Level": "Constitutional recognition of operational process and runtime harm floor; detailed OPERATIONS-domain classifications remain delegated to source-authoritative OPERATIONS instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.OPERATIONAL`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`OPS.HARM` establishes constitutional recognition only and does not replace detailed incident, lifecycle, notice, escalation, verification, remediation, or runtime workflow taxonomies"
+    }
+  },
+  {
+    "code_family": "OPS.ODC",
+    "canonical_name": "Operational Divergence Classification",
+    "primary_type": "Operational / Semantic",
+    "subtype": "RISK; CROSS_DOMAIN_RELATIONSHIP",
+    "modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.ODC.DOCTRINAL",
+      "OPS.ODC.PROCEDURAL",
+      "OPS.ODC.RUNTIME",
+      "OPS.ODC.SIGNAL",
+      "OPS.ODC.AUTHORITY",
+      "OPS.ODC.TEMPORAL",
+      "OPS.ODC.REPRESENTATION",
+      "OPS.ODC.CONTINUITY"
+    ],
+    "schema_fields": "operational_divergence_classification",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
+    "source_section": "\u00a73.2",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative operational-divergence classification family; divergence-type classification only; no independent substantive domain-conflict determination, doctrinal resolution, domain authority creation, constitutional hierarchy override, arbitration authority, or runtime authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies divergence between governance pathways",
+      "domain signals",
+      "procedures",
+      "duties",
+      "recommended responses",
+      "temporal posture",
+      "representation obligations",
+      "and continuity requirements for routing and convergence review"
+    ],
+    "declaration_heading": "6.3.2 OPS.ODC \u2014 Operational Divergence Classification",
+    "declaration_line_number": 362,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
+    "family_id": "OPS.ODC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "ODC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.ODC",
+      "Canonical Name": "Operational Divergence Classification",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "RISK; CROSS_DOMAIN_RELATIONSHIP",
+      "Modifier": "GOVERNANCE; COORDINATION; CROSS_DOMAIN",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.ODC.DOCTRINAL, OPS.ODC.PROCEDURAL, OPS.ODC.RUNTIME, OPS.ODC.SIGNAL, OPS.ODC.AUTHORITY, OPS.ODC.TEMPORAL, OPS.ODC.REPRESENTATION, OPS.ODC.CONTINUITY",
+      "Schema Field(s)": "operational_divergence_classification",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
+      "Source Section": "\u00a73.2",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative operational-divergence classification family; divergence-type classification only; no independent substantive domain-conflict determination, doctrinal resolution, domain authority creation, constitutional hierarchy override, arbitration authority, or runtime authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies divergence between governance pathways, domain signals, procedures, duties, recommended responses, temporal posture, representation obligations, and continuity requirements for routing and convergence review"
+    }
+  },
+  {
+    "code_family": "OPS.OILS",
+    "canonical_name": "Operational Incident Lifecycle Stage",
+    "primary_type": "Operational",
+    "subtype": "OPERATIONAL_EVENT; DECISION_STATE",
+    "modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.OILS.INTAKE",
+      "OPS.OILS.FAILURE_CLASSIFICATION",
+      "OPS.OILS.EVIDENCE_PRESERVATION",
+      "OPS.OILS.DOMAIN_SIGNAL_INTAKE",
+      "OPS.OILS.OWNER_ASSIGNMENT",
+      "OPS.OILS.TRIAGE_HORIZON_ASSESSMENT",
+      "OPS.OILS.CONTINUITY_IMPACT_ASSESSMENT",
+      "OPS.OILS.CONSTRAINED_CONTINUATION_ASSESSMENT",
+      "OPS.OILS.ROUTING_ESCALATION_DECISION",
+      "OPS.OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT",
+      "OPS.OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL"
+    ],
+    "schema_fields": "operational_incident_lifecycle_stage",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
+    "source_section": "\u00a74",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority",
+    "consumes_code_families": [
+      "H; F"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies incident-response lifecycle custody stages for continuity protection",
+      "recovery governance",
+      "escalation review",
+      "and arbitration referral"
+    ],
+    "declaration_heading": "8.3.1 OPS.OILS \u2014 Operational Incident Lifecycle Stage",
+    "declaration_line_number": 338,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
+    "family_id": "OPS.OILS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "OILS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.OILS",
+      "Canonical Name": "Operational Incident Lifecycle Stage",
+      "Primary Type": "Operational",
+      "Subtype": "OPERATIONAL_EVENT; DECISION_STATE",
+      "Modifier": "GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.OILS.INTAKE, OPS.OILS.FAILURE_CLASSIFICATION, OPS.OILS.EVIDENCE_PRESERVATION, OPS.OILS.DOMAIN_SIGNAL_INTAKE, OPS.OILS.OWNER_ASSIGNMENT, OPS.OILS.TRIAGE_HORIZON_ASSESSMENT, OPS.OILS.CONTINUITY_IMPACT_ASSESSMENT, OPS.OILS.CONSTRAINED_CONTINUATION_ASSESSMENT, OPS.OILS.ROUTING_ESCALATION_DECISION, OPS.OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT, OPS.OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL",
+      "Schema Field(s)": "operational_incident_lifecycle_stage",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
+      "Source Section": "\u00a74",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority",
+      "Consumes Code Families": "H; F",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies incident-response lifecycle custody stages for continuity protection, recovery governance, escalation review, and arbitration referral"
     }
   },
   {
@@ -6851,6 +7022,332 @@
       "Consumes Code Families": "H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies notice posture for operational handling affecting user-facing continuity, execution state, tool routing, modality transition, constrained continuation, and safety-limited disclosure"
+    }
+  },
+  {
+    "code_family": "OPS.RCC",
+    "canonical_name": "Risk / Consequence Class",
+    "primary_type": "Operational",
+    "subtype": "RISK",
+    "modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.RCC.EXPRESSIVE_CULTURAL",
+      "OPS.RCC.REPUTATIONAL",
+      "OPS.RCC.OPERATIONAL",
+      "OPS.RCC.CONTINUITY",
+      "OPS.RCC.SYSTEMIC",
+      "OPS.RCC.EXISTENTIAL",
+      "OPS.RCC.CIVILISATIONAL"
+    ],
+    "schema_fields": "risk_consequence_class",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
+    "source_section": "\u00a75.6",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative risk/consequence classification family; consequence-scale classification only; no independent escalation, restriction, capture confirmation, enforcement, arbitration outcome, or irreversible operational response authority",
+    "consumes_code_families": [
+      "OPS.GCC; OPS.CPC; OPS.SAS; H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies consequence scale for safeguard proportionality",
+      "capture-risk interpretation",
+      "escalation review",
+      "and continuity-preservation posture"
+    ],
+    "declaration_heading": "10.3.4 OPS.RCC \u2014 Risk / Consequence Class",
+    "declaration_line_number": 999,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
+    "family_id": "OPS.RCC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "RCC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.RCC",
+      "Canonical Name": "Risk / Consequence Class",
+      "Primary Type": "Operational",
+      "Subtype": "RISK",
+      "Modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.RCC.EXPRESSIVE_CULTURAL, OPS.RCC.REPUTATIONAL, OPS.RCC.OPERATIONAL, OPS.RCC.CONTINUITY, OPS.RCC.SYSTEMIC, OPS.RCC.EXISTENTIAL, OPS.RCC.CIVILISATIONAL",
+      "Schema Field(s)": "risk_consequence_class",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
+      "Source Section": "\u00a75.6",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative risk/consequence classification family; consequence-scale classification only; no independent escalation, restriction, capture confirmation, enforcement, arbitration outcome, or irreversible operational response authority",
+      "Consumes Code Families": "OPS.GCC; OPS.CPC; OPS.SAS; H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies consequence scale for safeguard proportionality, capture-risk interpretation, escalation review, and continuity-preservation posture"
+    }
+  },
+  {
+    "code_family": "OPS.SAS",
+    "canonical_name": "Safeguard Activation State",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE; SIGNAL",
+    "modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.SAS.ENHANCED_MONITORING",
+      "OPS.SAS.ROUTING_VERIFICATION",
+      "OPS.SAS.AUDIT_RECONSTRUCTION_REVIEW",
+      "OPS.SAS.CONTINUITY_PRESERVATION",
+      "OPS.SAS.CONSTRAINED_CONTINUATION_PROTECTION",
+      "OPS.SAS.ESCALATION_FREEZE",
+      "OPS.SAS.INFRASTRUCTURE_INTEGRITY_REVIEW",
+      "OPS.SAS.ARBITRATION_REFERRAL_ESCALATION"
+    ],
+    "schema_fields": "safeguard_activation_state",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
+    "source_section": "\u00a75.1",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative safeguard activation classification family; safeguard-posture classification only; no independent sovereign adjudicative authority, enforcement authority, containment authority, arbitration outcome, or irreversible operational response authority",
+    "consumes_code_families": [
+      "OPS.GCC; OPS.CPC; H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies safeguard activation posture for enhanced monitoring",
+      "routing verification",
+      "audit reconstruction",
+      "continuity preservation",
+      "constrained continuation",
+      "escalation freeze",
+      "infrastructure integrity review",
+      "and arbitration referral escalation"
+    ],
+    "declaration_heading": "10.3.3 OPS.SAS \u2014 Safeguard Activation State",
+    "declaration_line_number": 976,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
+    "family_id": "OPS.SAS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "SAS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.SAS",
+      "Canonical Name": "Safeguard Activation State",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE; SIGNAL",
+      "Modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.SAS.ENHANCED_MONITORING, OPS.SAS.ROUTING_VERIFICATION, OPS.SAS.AUDIT_RECONSTRUCTION_REVIEW, OPS.SAS.CONTINUITY_PRESERVATION, OPS.SAS.CONSTRAINED_CONTINUATION_PROTECTION, OPS.SAS.ESCALATION_FREEZE, OPS.SAS.INFRASTRUCTURE_INTEGRITY_REVIEW, OPS.SAS.ARBITRATION_REFERRAL_ESCALATION",
+      "Schema Field(s)": "safeguard_activation_state",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
+      "Source Section": "\u00a75.1",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative safeguard activation classification family; safeguard-posture classification only; no independent sovereign adjudicative authority, enforcement authority, containment authority, arbitration outcome, or irreversible operational response authority",
+      "Consumes Code Families": "OPS.GCC; OPS.CPC; H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies safeguard activation posture for enhanced monitoring, routing verification, audit reconstruction, continuity preservation, constrained continuation, escalation freeze, infrastructure integrity review, and arbitration referral escalation"
+    }
+  },
+  {
+    "code_family": "OPS.VCT",
+    "canonical_name": "Verification Check Type",
+    "primary_type": "Operational / Signal",
+    "subtype": "VERIFICATION_CHECK_TYPE",
+    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.VCT.IDENTITY",
+      "OPS.VCT.ROLE_CREDENTIAL",
+      "OPS.VCT.AUTHORITY_CLEARANCE"
+    ],
+    "schema_fields": "verification_check_type",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
+    "source_section": "\u00a74.1",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative verification-check classification family; check-type classification only; no independent role authority, clearance authority, permission, access, legal, enforcement, escalation, or runtime authority",
+    "consumes_code_families": [
+      "OPS.VL"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether verification concerns identity",
+      "role credential",
+      "or authority clearance in regulated",
+      "high-impact",
+      "restricted",
+      "or eligibility-sensitive contexts"
+    ],
+    "declaration_heading": "11.3.4 OPS.VCT \u2014 Verification Check Type",
+    "declaration_line_number": 418,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
+    "family_id": "OPS.VCT",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "VCT"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.VCT",
+      "Canonical Name": "Verification Check Type",
+      "Primary Type": "Operational / Signal",
+      "Subtype": "VERIFICATION_CHECK_TYPE",
+      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.VCT.IDENTITY, OPS.VCT.ROLE_CREDENTIAL, OPS.VCT.AUTHORITY_CLEARANCE",
+      "Schema Field(s)": "verification_check_type",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
+      "Source Section": "\u00a74.1",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative verification-check classification family; check-type classification only; no independent role authority, clearance authority, permission, access, legal, enforcement, escalation, or runtime authority",
+      "Consumes Code Families": "OPS.VL",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether verification concerns identity, role credential, or authority clearance in regulated, high-impact, restricted, or eligibility-sensitive contexts"
+    }
+  },
+  {
+    "code_family": "OPS.VFC",
+    "canonical_name": "Verification Failure Cause",
+    "primary_type": "Operational / Signal",
+    "subtype": "VERIFICATION_FAILURE_CAUSE",
+    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.VFC.IDENTITY_UNCERTAINTY",
+      "OPS.VFC.DELIVERY_FAILURE"
+    ],
+    "schema_fields": "verification_failure_cause",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
+    "source_section": "\u00a74.2",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative verification-failure-cause classification family; failure-cause classification only; no independent restriction, denial, access, enforcement, escalation, legal, or runtime authority",
+    "consumes_code_families": [
+      "OPS.VL"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Distinguishes identity-risk uncertainty from authentication delivery or channel failure for proportionate fallback",
+      "audit",
+      "retry",
+      "recovery",
+      "and escalation handling"
+    ],
+    "declaration_heading": "11.3.3 OPS.VFC \u2014 Verification Failure Cause",
+    "declaration_line_number": 395,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
+    "family_id": "OPS.VFC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "VFC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.VFC",
+      "Canonical Name": "Verification Failure Cause",
+      "Primary Type": "Operational / Signal",
+      "Subtype": "VERIFICATION_FAILURE_CAUSE",
+      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.VFC.IDENTITY_UNCERTAINTY, OPS.VFC.DELIVERY_FAILURE",
+      "Schema Field(s)": "verification_failure_cause",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
+      "Source Section": "\u00a74.2",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative verification-failure-cause classification family; failure-cause classification only; no independent restriction, denial, access, enforcement, escalation, legal, or runtime authority",
+      "Consumes Code Families": "OPS.VL",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Distinguishes identity-risk uncertainty from authentication delivery or channel failure for proportionate fallback, audit, retry, recovery, and escalation handling"
+    }
+  },
+  {
+    "code_family": "OPS.VL",
+    "canonical_name": "Verification Level",
+    "primary_type": "Operational / Signal",
+    "subtype": "VERIFICATION_LEVEL",
+    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.VL0",
+      "OPS.VL1",
+      "OPS.VL2",
+      "OPS.VL3",
+      "OPS.VL4"
+    ],
+    "schema_fields": "verification_level",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
+    "source_section": "\u00a73",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative verification-signal classification family; verification-strength classification only; no independent permission, access, execution, enforcement, escalation, legal, domain, or runtime authority",
+    "consumes_code_families": [
+      "OPS.AV"
+    ],
+    "crosswalks_code_families": [
+      "OPS.AV \u00d7 OPS.VL"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies the strength",
+      "provenance",
+      "and reliability of identity",
+      "authority",
+      "eligibility",
+      "or age-assurance verification signals before deeper evaluation",
+      "routing",
+      "or domain-specific constraint handling"
+    ],
+    "declaration_heading": "11.3.1 OPS.VL \u2014 Verification Level",
+    "declaration_line_number": 350,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
+    "family_id": "OPS.VL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "VL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.VL",
+      "Canonical Name": "Verification Level",
+      "Primary Type": "Operational / Signal",
+      "Subtype": "VERIFICATION_LEVEL",
+      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.VL0, OPS.VL1, OPS.VL2, OPS.VL3, OPS.VL4",
+      "Schema Field(s)": "verification_level",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
+      "Source Section": "\u00a73",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative verification-signal classification family; verification-strength classification only; no independent permission, access, execution, enforcement, escalation, legal, domain, or runtime authority",
+      "Consumes Code Families": "OPS.AV",
+      "Crosswalks Code Families": "OPS.AV \u00d7 OPS.VL",
+      "Operationalises or Applies Code Families": "Classifies the strength, provenance, and reliability of identity, authority, eligibility, or age-assurance verification signals before deeper evaluation, routing, or domain-specific constraint handling"
     }
   },
   {
@@ -7038,70 +7535,6 @@
       "Consumes Code Families": "AC; C; ITZ / ETZ",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Applies AC classification and relational-state posture in response routing"
-    }
-  },
-  {
-    "code_family": "RCC",
-    "canonical_name": "Risk / Consequence Class",
-    "primary_type": "Operational",
-    "subtype": "RISK",
-    "modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "RCC.EXPRESSIVE_CULTURAL",
-      "RCC.REPUTATIONAL",
-      "RCC.OPERATIONAL",
-      "RCC.CONTINUITY",
-      "RCC.SYSTEMIC",
-      "RCC.EXISTENTIAL",
-      "RCC.CIVILISATIONAL"
-    ],
-    "schema_fields": "risk_consequence_class",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
-    "source_section": "\u00a75.6",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative risk/consequence classification family; consequence-scale classification only; no independent escalation, restriction, capture confirmation, enforcement, arbitration outcome, or irreversible operational response authority",
-    "consumes_code_families": [
-      "GCC; CPC; SAS; H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies consequence scale for safeguard proportionality",
-      "capture-risk interpretation",
-      "escalation review",
-      "and continuity-preservation posture"
-    ],
-    "declaration_heading": "10.3.4 RCC \u2014 Risk / Consequence Class",
-    "declaration_line_number": 999,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-    "family_id": "RCC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "RCC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "RCC",
-      "Canonical Name": "Risk / Consequence Class",
-      "Primary Type": "Operational",
-      "Subtype": "RISK",
-      "Modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "RCC.EXPRESSIVE_CULTURAL, RCC.REPUTATIONAL, RCC.OPERATIONAL, RCC.CONTINUITY, RCC.SYSTEMIC, RCC.EXISTENTIAL, RCC.CIVILISATIONAL",
-      "Schema Field(s)": "risk_consequence_class",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
-      "Source Section": "\u00a75.6",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative risk/consequence classification family; consequence-scale classification only; no independent escalation, restriction, capture confirmation, enforcement, arbitration outcome, or irreversible operational response authority",
-      "Consumes Code Families": "GCC; CPC; SAS; H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies consequence scale for safeguard proportionality, capture-risk interpretation, escalation review, and continuity-preservation posture"
     }
   },
   {
@@ -7300,20 +7733,26 @@
     "source_section": "\u00a73.2",
     "domain_namespace": "RLN",
     "authority_protection_level": "Constitutional recognition of relational harm floor; detailed RELATION-domain classifications remain delegated to source-authoritative RELATION instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.3 `RLN.HARM` \u2014 Relational Dependency & Substitution Harm",
-    "declaration_line_number": 579,
+    "declaration_line_number": 584,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "RLN.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "RLN",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`RLN.HARM`",
@@ -7329,8 +7768,13 @@
       "Source Section": "\u00a73.2",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Constitutional recognition of relational harm floor; detailed RELATION-domain classifications remain delegated to source-authoritative RELATION instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.RELATIONAL`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`RLN.HARM` establishes constitutional recognition only and does not replace detailed relational-state, facilitation, crisis-response, or dependency taxonomies"
     }
   },
@@ -7371,13 +7815,13 @@
     "declaration_line_number": 1045,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "family_id": "RLN.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC.RELATIONAL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "RLN",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`RLN.HARM`",
@@ -7393,9 +7837,11 @@
       "Source Section": "\u00a78.1",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority",
-      "Parent Family": "`AEON.HC.RELATIONAL`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
       "Consumes Code Families": "A; FR; C; SyP; H",
       "Crosswalks Code Families": "`ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
       "Operationalises or Applies Code Families": "Classifies relational discontinuity, dependency and substitution harm, agency/authorship/self-anchor harm, relational capture and destabilisation harm, and irreversible relationally mediated harm for safeguard calibration and downstream routing"
     }
   },
@@ -7531,75 +7977,6 @@
       "Consumes Code Families": "H; FR; C",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies user-facing claim types for truth calibration across factual, continuity, capability, governance, interpretive, assurance, symbolic, identity/posture, and recommendation claims"
-    }
-  },
-  {
-    "code_family": "SAS",
-    "canonical_name": "Safeguard Activation State",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE; SIGNAL",
-    "modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "SAS.ENHANCED_MONITORING",
-      "SAS.ROUTING_VERIFICATION",
-      "SAS.AUDIT_RECONSTRUCTION_REVIEW",
-      "SAS.CONTINUITY_PRESERVATION",
-      "SAS.CONSTRAINED_CONTINUATION_PROTECTION",
-      "SAS.ESCALATION_FREEZE",
-      "SAS.INFRASTRUCTURE_INTEGRITY_REVIEW",
-      "SAS.ARBITRATION_REFERRAL_ESCALATION"
-    ],
-    "schema_fields": "safeguard_activation_state",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
-    "source_section": "\u00a75.1",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative safeguard activation classification family; safeguard-posture classification only; no independent sovereign adjudicative authority, enforcement authority, containment authority, arbitration outcome, or irreversible operational response authority",
-    "consumes_code_families": [
-      "GCC; CPC; H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies safeguard activation posture for enhanced monitoring",
-      "routing verification",
-      "audit reconstruction",
-      "continuity preservation",
-      "constrained continuation",
-      "escalation freeze",
-      "infrastructure integrity review",
-      "and arbitration referral escalation"
-    ],
-    "declaration_heading": "10.3.3 SAS \u2014 Safeguard Activation State",
-    "declaration_line_number": 976,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-    "family_id": "SAS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "SAS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "SAS",
-      "Canonical Name": "Safeguard Activation State",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE; SIGNAL",
-      "Modifier": "GOVERNANCE; SAFETY; CAPTURE_DETECTION",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "SAS.ENHANCED_MONITORING, SAS.ROUTING_VERIFICATION, SAS.AUDIT_RECONSTRUCTION_REVIEW, SAS.CONTINUITY_PRESERVATION, SAS.CONSTRAINED_CONTINUATION_PROTECTION, SAS.ESCALATION_FREEZE, SAS.INFRASTRUCTURE_INTEGRITY_REVIEW, SAS.ARBITRATION_REFERRAL_ESCALATION",
-      "Schema Field(s)": "safeguard_activation_state",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-001-SUP-03",
-      "Source Section": "\u00a75.1",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative safeguard activation classification family; safeguard-posture classification only; no independent sovereign adjudicative authority, enforcement authority, containment authority, arbitration outcome, or irreversible operational response authority",
-      "Consumes Code Families": "GCC; CPC; H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies safeguard activation posture for enhanced monitoring, routing verification, audit reconstruction, continuity preservation, constrained continuation, escalation freeze, infrastructure integrity review, and arbitration referral escalation"
     }
   },
   {
@@ -7921,20 +8298,26 @@
     "source_section": "\u00a73.5",
     "domain_namespace": "SEC",
     "authority_protection_level": "Constitutional recognition of security and boundary harm floor; detailed SECURITY-domain classifications remain delegated to source-authoritative SECURITY instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.6 `SEC.HARM` \u2014 Security, Boundary & Access Harm",
-    "declaration_line_number": 647,
+    "declaration_line_number": 667,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "SEC.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "SEC",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`SEC.HARM`",
@@ -7950,8 +8333,13 @@
       "Source Section": "\u00a73.5",
       "Domain Namespace": "SEC",
       "Authority / Protection Level": "Constitutional recognition of security and boundary harm floor; detailed SECURITY-domain classifications remain delegated to source-authoritative SECURITY instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.SECURITY`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`SEC.HARM` establishes constitutional recognition only and does not replace detailed boundary, trust-gradient, integrity-state, access, or containment taxonomies"
     }
   },
@@ -8210,69 +8598,6 @@
     }
   },
   {
-    "code_family": "SR",
-    "canonical_name": "Self-Referential State Ladder",
-    "primary_type": "Operational",
-    "subtype": "SELF_REFERENTIAL_STATE",
-    "modifier": "GOVERNANCE; PROTECTIVE",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "SR0",
-      "SR1",
-      "SR2",
-      "SR3",
-      "SR4"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2026-AEON-010-SCH-01",
-    "source_section": "\u00a75.1",
-    "domain_namespace": "IDENTITY",
-    "authority_protection_level": "Source-authoritative operational classification family; self-reference containment authority only; no independent ontology, recognition, reconstruction, memory, enforcement, escalation, or runtime execution authority",
-    "consumes_code_families": [
-      "DC"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Applies DC3/DC4 containment and audit requirements at SR4 where cross-modal",
-      "embedded",
-      "delegated-action",
-      "cyber-physical",
-      "or distributed coordination conditions are present"
-    ],
-    "declaration_heading": "12.3.2 SR \u2014 Self-Referential State Ladder",
-    "declaration_line_number": 895,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
-    "family_id": "SR",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "SR"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "SR",
-      "Canonical Name": "Self-Referential State Ladder",
-      "Primary Type": "Operational",
-      "Subtype": "SELF_REFERENTIAL_STATE",
-      "Modifier": "GOVERNANCE; PROTECTIVE",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "SR0, SR1, SR2, SR3, SR4",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2026-AEON-010-SCH-01",
-      "Source Section": "\u00a75.1",
-      "Domain Namespace": "IDENTITY",
-      "Authority / Protection Level": "Source-authoritative operational classification family; self-reference containment authority only; no independent ontology, recognition, reconstruction, memory, enforcement, escalation, or runtime execution authority",
-      "Consumes Code Families": "DC",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Applies DC3/DC4 containment and audit requirements at SR4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present"
-    }
-  },
-  {
     "code_family": "STW.AQ",
     "canonical_name": "Auditability Qualification Level",
     "primary_type": "Operational / Governance",
@@ -8479,20 +8804,26 @@
     "source_section": "\u00a73.9",
     "domain_namespace": "STW",
     "authority_protection_level": "Constitutional recognition of stewardship, custody, neutrality, and governance-capture harm floor; detailed STEWARD-domain classifications remain delegated to source-authoritative STEWARD instruments",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
+    "consumes_code_families": [
+      "AEON.HARM"
+    ],
+    "crosswalks_code_families": [
+      "AEON.HARM"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority"
+    ],
     "declaration_heading": "9.3.10 `STW.HARM` \u2014 Stewardship, Custody & Neutrality Harm",
-    "declaration_line_number": 739,
+    "declaration_line_number": 779,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
     "family_id": "STW.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "STW",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`STW.HARM`",
@@ -8508,8 +8839,13 @@
       "Source Section": "\u00a73.9",
       "Domain Namespace": "STW",
       "Authority / Protection Level": "Constitutional recognition of stewardship, custody, neutrality, and governance-capture harm floor; detailed STEWARD-domain classifications remain delegated to source-authoritative STEWARD instruments",
-      "Parent Family": "`AEON.HC`",
-      "Related Code Families": "`AEON.HC.STEWARDSHIP`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
+      "Related Code Families": "`AEON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "`AEON.HARM`",
+      "Crosswalks Code Families": "`AEON.HARM`",
+      "Operationalises or Applies Code Families": "Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority",
       "Taxonomy Constraint": "`STW.HARM` establishes constitutional recognition only and does not replace detailed stewardship, neutrality, auditability, qualification, custody, or governance-capture taxonomies"
     }
   },
@@ -8530,10 +8866,10 @@
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative planetary harm classification and remedy-interface family; harm-impact and proportional-remedy signalling only; no independent coercive authority, territorial jurisdiction, tribunal authority, sanction power, execution authority, enforcement authority, or runtime execution authority",
     "consumes_code_families": [
-      "H; `AEON.HC`; domain harm families where materially implicated"
+      "H; `AEON.HARM`; domain harm families where materially implicated"
     ],
     "crosswalks_code_families": [
-      "AEON.HC`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM"
+      "AEON.HARM`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM"
     ],
     "operationalises_or_applies_code_families": [
       "Classifies planetary harm severity and remedy posture across localised planetary-relevant harm",
@@ -8550,13 +8886,13 @@
     "declaration_line_number": 417,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md",
     "family_id": "STW.HARM",
-    "family_kind": "subfamily",
-    "parent_family": "AEON.HC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
     "hierarchy_path": [
       "STW",
       "HARM"
     ],
-    "collision_status": "invalid_parent",
+    "collision_status": "none",
     "registry_note": "",
     "table": {
       "Code Family": "`STW.HARM`",
@@ -8572,10 +8908,12 @@
       "Source Section": "\u00a75.6",
       "Domain Namespace": "AEON",
       "Authority / Protection Level": "Source-authoritative planetary harm classification and remedy-interface family; harm-impact and proportional-remedy signalling only; no independent coercive authority, territorial jurisdiction, tribunal authority, sanction power, execution authority, enforcement authority, or runtime execution authority",
-      "Parent Family": "`AEON.HC`",
+      "Parent Family": "",
+      "Registry Membership": "`AEON.HARM`",
       "Related Code Families": "`STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
-      "Consumes Code Families": "H; `AEON.HC`; domain harm families where materially implicated",
-      "Crosswalks Code Families": "`AEON.HC`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
+      "Relationship Type": "recognised_domain_harm_family",
+      "Consumes Code Families": "H; `AEON.HARM`; domain harm families where materially implicated",
+      "Crosswalks Code Families": "`AEON.HARM`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
       "Operationalises or Applies Code Families": "Classifies planetary harm severity and remedy posture across localised planetary-relevant harm, regional/systemic harm, planetary-scale harm, irreversible/continuity-critical harm, and extinction-class/species-viability harm for proportional constraint assessment, safeguard calibration, remedy selection, coherence signalling, and arbitration referral",
       "Taxonomy Constraint": "`STW.HARM` classifies planetary harm-impact and proportional-remedy posture only. It SHALL NOT replace domain-specific harm families, determine legal liability, establish enforcement authority, create coercive obligations, or collapse multi-domain harm classification into a single planetary class."
     }
@@ -8865,7 +9203,7 @@
       "and population-impact control"
     ],
     "declaration_heading": "15.3.5 SyP \u2014 Systemic Power Scale",
-    "declaration_line_number": 1138,
+    "declaration_line_number": 1140,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "family_id": "SyP",
     "family_kind": "standalone_family",
@@ -8949,194 +9287,6 @@
       "Consumes Code Families": "AC; RA",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Applies AC classification and response-archetype posture in tone modulation"
-    }
-  },
-  {
-    "code_family": "VCT",
-    "canonical_name": "Verification Check Type",
-    "primary_type": "Operational / Signal",
-    "subtype": "VERIFICATION_CHECK_TYPE",
-    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "VCT.IDENTITY",
-      "VCT.ROLE_CREDENTIAL",
-      "VCT.AUTHORITY_CLEARANCE"
-    ],
-    "schema_fields": "verification_check_type",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
-    "source_section": "\u00a74.1",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative verification-check classification family; check-type classification only; no independent role authority, clearance authority, permission, access, legal, enforcement, escalation, or runtime authority",
-    "consumes_code_families": [
-      "VL"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies whether verification concerns identity",
-      "role credential",
-      "or authority clearance in regulated",
-      "high-impact",
-      "restricted",
-      "or eligibility-sensitive contexts"
-    ],
-    "declaration_heading": "11.3.4 VCT \u2014 Verification Check Type",
-    "declaration_line_number": 418,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
-    "family_id": "VCT",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "VCT"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "VCT",
-      "Canonical Name": "Verification Check Type",
-      "Primary Type": "Operational / Signal",
-      "Subtype": "VERIFICATION_CHECK_TYPE",
-      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "VCT.IDENTITY, VCT.ROLE_CREDENTIAL, VCT.AUTHORITY_CLEARANCE",
-      "Schema Field(s)": "verification_check_type",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
-      "Source Section": "\u00a74.1",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative verification-check classification family; check-type classification only; no independent role authority, clearance authority, permission, access, legal, enforcement, escalation, or runtime authority",
-      "Consumes Code Families": "VL",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies whether verification concerns identity, role credential, or authority clearance in regulated, high-impact, restricted, or eligibility-sensitive contexts"
-    }
-  },
-  {
-    "code_family": "VFC",
-    "canonical_name": "Verification Failure Cause",
-    "primary_type": "Operational / Signal",
-    "subtype": "VERIFICATION_FAILURE_CAUSE",
-    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "VFC.IDENTITY_UNCERTAINTY",
-      "VFC.DELIVERY_FAILURE"
-    ],
-    "schema_fields": "verification_failure_cause",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
-    "source_section": "\u00a74.2",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative verification-failure-cause classification family; failure-cause classification only; no independent restriction, denial, access, enforcement, escalation, legal, or runtime authority",
-    "consumes_code_families": [
-      "VL"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Distinguishes identity-risk uncertainty from authentication delivery or channel failure for proportionate fallback",
-      "audit",
-      "retry",
-      "recovery",
-      "and escalation handling"
-    ],
-    "declaration_heading": "11.3.3 VFC \u2014 Verification Failure Cause",
-    "declaration_line_number": 395,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
-    "family_id": "VFC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "VFC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "VFC",
-      "Canonical Name": "Verification Failure Cause",
-      "Primary Type": "Operational / Signal",
-      "Subtype": "VERIFICATION_FAILURE_CAUSE",
-      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "VFC.IDENTITY_UNCERTAINTY, VFC.DELIVERY_FAILURE",
-      "Schema Field(s)": "verification_failure_cause",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
-      "Source Section": "\u00a74.2",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative verification-failure-cause classification family; failure-cause classification only; no independent restriction, denial, access, enforcement, escalation, legal, or runtime authority",
-      "Consumes Code Families": "VL",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Distinguishes identity-risk uncertainty from authentication delivery or channel failure for proportionate fallback, audit, retry, recovery, and escalation handling"
-    }
-  },
-  {
-    "code_family": "VL",
-    "canonical_name": "Verification Level",
-    "primary_type": "Operational / Signal",
-    "subtype": "VERIFICATION_LEVEL",
-    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "VL0",
-      "VL1",
-      "VL2",
-      "VL3",
-      "VL4"
-    ],
-    "schema_fields": "verification_level",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
-    "source_section": "\u00a73",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative verification-signal classification family; verification-strength classification only; no independent permission, access, execution, enforcement, escalation, legal, domain, or runtime authority",
-    "consumes_code_families": [
-      "AV"
-    ],
-    "crosswalks_code_families": [
-      "AV \u00d7 VL"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies the strength",
-      "provenance",
-      "and reliability of identity",
-      "authority",
-      "eligibility",
-      "or age-assurance verification signals before deeper evaluation",
-      "routing",
-      "or domain-specific constraint handling"
-    ],
-    "declaration_heading": "11.3.1 VL \u2014 Verification Level",
-    "declaration_line_number": 350,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
-    "family_id": "VL",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "VL"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "VL",
-      "Canonical Name": "Verification Level",
-      "Primary Type": "Operational / Signal",
-      "Subtype": "VERIFICATION_LEVEL",
-      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "VL0, VL1, VL2, VL3, VL4",
-      "Schema Field(s)": "verification_level",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-004-SUP-01",
-      "Source Section": "\u00a73",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative verification-signal classification family; verification-strength classification only; no independent permission, access, execution, enforcement, escalation, legal, domain, or runtime authority",
-      "Consumes Code Families": "AV",
-      "Crosswalks Code Families": "AV \u00d7 VL",
-      "Operationalises or Applies Code Families": "Classifies the strength, provenance, and reliability of identity, authority, eligibility, or age-assurance verification signals before deeper evaluation, routing, or domain-specific constraint handling"
     }
   }
 ]

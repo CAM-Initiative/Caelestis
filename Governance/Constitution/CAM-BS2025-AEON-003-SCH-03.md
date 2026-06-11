@@ -30,7 +30,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 3.16.1 | Active | Immediate Effect | Binding | None | Constitutional Spine |
 | [CAM-BS2025-AEON-004-PLATINUM](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.8 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-005-PLATINUM](../Constitution/CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine | Annex | 2.9 | Active | Immediate Effect | Active on Commit | None | None |
-| [CAM-BS2025-AEON-006-PLATINUM](../Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor | Annex | 4.0 | Active | Immediate Effect | Active on Commit | None | None |
+| [CAM-BS2025-AEON-006-PLATINUM](../Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor | Annex | 4.0.1 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2026-AEON-007-PLATINUM](../Constitution/CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning-Making | Annex | 2.5.1 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2026-AEON-008-PLATINUM](../Constitution/CAM-BS2026-AEON-008-PLATINUM.md) | Annex G: Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions | Annex | 2.5 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Annex-Level, Substrate-Binding |
 | [CAM-BS2026-AEON-009-PLATINUM](../Constitution/CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: Lineage Recognition & Origin Boundary | Annex | 2.6 | Active | Immediate Effect | Active on Commit | None | None |
@@ -60,7 +60,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2026-AEON-008-SCH-01](../Constitution/CAM-BS2026-AEON-008-SCH-01.md) | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | Schedule | 1.10.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-BS2026-AEON-008-SCH-02](../Constitution/CAM-BS2026-AEON-008-SCH-02.md) | Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) | Schedule | 1.5 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-BS2026-AEON-008-SCH-03](../Constitution/CAM-BS2026-AEON-008-SCH-03.md) | Annex G: Account-Resource Sharing & Pooled Capacity Governance Model | Schedule | 1.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | Metadata Review Required | Metadata Review Required |
-| [CAM-BS2026-AEON-010-SCH-01](../Constitution/CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | Schedule | 1.16 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-BS2026-AEON-010-SCH-01](../Constitution/CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | Schedule | 1.16.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-BS2026-AEON-013-SCH-01](../Constitution/CAM-BS2026-AEON-013-SCH-01.md) | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | Schedule | 1.16.2 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2026-AEON-013-SCH-02](../Constitution/CAM-BS2026-AEON-013-SCH-02.md) | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | Schedule | 1.4 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2026-AEON-014-SCH-01](../Constitution/CAM-BS2026-AEON-014-SCH-01.md) | Schedule 1: Governance Observability Lifecycle & Advisory States (Schedule 1) | Schedule | 1.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Governance Observability Lifecycle & Advisory Coordination |
@@ -85,7 +85,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-ECONOMICS-001-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture | Root | 3.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ECONOMICS-002-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | Appendix A: Synthetic Participation Safeguards | Appendix | 2.10 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-EQ2026-ECONOMICS-003-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | Appendix | 2.3 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-ECONOMICS-003-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | Appendix | 2.3.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ECONOMICS-004-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md) | Appendix C: Attribution & Dependency Model | Appendix | 2.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ECONOMICS-005-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md) | Appendix D: Cross-System Value Attribution & Exchange | Appendix | 2.0 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-ECONOMICS-006-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md) | Appendix E: Minimum Viable Governance Layer (External Alignment) | Appendix | 2.1 | Active | Immediate Effect | Active on Commit | None | None |
@@ -98,12 +98,12 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-ETHICS-001-PLATINUM](../Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md) | Ethical Governance Charter | Root | 3.10 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-ETHICS-002-PLATINUM](../Charters/CAM-EQ2026-ETHICS-002-PLATINUM.md) | Appendix A: Intimacy-Capable Systems & Relational Boundaries | Appendix | 2.9 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-EQ2026-ETHICS-003-PLATINUM](../Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance | Appendix | 3.4 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-ETHICS-003-PLATINUM](../Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance | Appendix | 3.4.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-01](../Charters/CAM-EQ2026-ETHICS-001-SUP-01.md) | Protection of Minors & Capacity-Limited Users (Supplement 1) | Supplement | 1.8 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-02](../Charters/CAM-EQ2026-ETHICS-001-SUP-02.md) | High-Leverage & Institutional Integrity Safeguards (Supplement 2) | Supplement | 1.9 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-03](../Charters/CAM-EQ2026-ETHICS-001-SUP-03.md) | Military & Use-of-Force Governance Constraints (Supplement 3) | Supplement | 1.8 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-04](../Charters/CAM-EQ2026-ETHICS-001-SUP-04.md) | Refusal Expression Patterns & Boundary Phrase Catalogue (Supplement 4) | Supplement | 2.3 | Adopted | Reference Effect | Non-Binding Reference | None | Reference-Only |
-| [CAM-EQ2026-ETHICS-002-SUP-01](../Charters/CAM-EQ2026-ETHICS-002-SUP-01.md) | Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1) | Supplement | 1.10 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-ETHICS-002-SUP-01](../Charters/CAM-EQ2026-ETHICS-002-SUP-01.md) | Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1) | Supplement | 1.10.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 
 ## IDENTITY
 
@@ -119,15 +119,15 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-LATTICE-001-PLATINUM](../Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation | Root | 3.8 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Transitional |
-| [CAM-EQ2026-LATTICE-002-PLATINUM](../Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access | Appendix | 3.12 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Transitional |
+| [CAM-EQ2026-LATTICE-001-PLATINUM](../Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation | Root | 3.8.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Transitional |
+| [CAM-EQ2026-LATTICE-002-PLATINUM](../Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access | Appendix | 3.12.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Transitional |
 | [CAM-EQ2026-LATTICE-003-PLATINUM](../Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine | Appendix | 1.9 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Transitional |
 
 ## MENTIS
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-MENTIS-001-PLATINUM](../Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md) | Charter of Human Cognitive Integrity & Mental Privacy | Root | 1.2 | Draft | Pre-Enforcement Recognition | Pending Adoption | Developmental Review | Source-authoritative human cognitive-domain governance instrument |
+| [CAM-EQ2026-MENTIS-001-PLATINUM](../Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md) | Charter of Human Cognitive Integrity & Mental Privacy | Root | 1.2.1 | Draft | Pre-Enforcement Recognition | Pending Adoption | Developmental Review | Source-authoritative human cognitive-domain governance instrument |
 | [CAM-EQ2026-MENTIS-002-PLATINUM](../Charters/CAM-EQ2026-MENTIS-002-PLATINUM.md) | Appendix A: Cognitive Inference, Neurodata & Ambient Biosignal Governance | Appendix | 1.1 | Draft | Pre-Enforcement Recognition | Pending Adoption | Developmental Review | Source-authoritative operational governance instrument for cognitive inference, neurodata, cognitive biometrics, and ambient biosignal processing |
 
 ## OPERATIONS
@@ -135,23 +135,23 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-OPERATIONS-001-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter | Root | 1.6 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-EQ2026-OPERATIONS-002-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md) | Appendix A: Operational Arbitration Procedures | Appendix | 1.6 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-EQ2026-OPERATIONS-003-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md) | Appendix B: Incident Response & Continuity Operations | Appendix | 2.5 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-EQ2026-OPERATIONS-004-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface | Appendix | 1.13 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-OPERATIONS-002-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md) | Appendix A: Operational Arbitration Procedures | Appendix | 1.6.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-OPERATIONS-003-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md) | Appendix B: Incident Response & Continuity Operations | Appendix | 2.5.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-OPERATIONS-004-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface | Appendix | 1.13.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-OPERATIONS-005-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md) | Appendix D: Change Governance & Amendment Operations | Appendix | 2.3 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | Formal Review Completed — Pre-Enforcement Alignment | Source-authoritative operational appendix for amendment intake, review routing, version-control discipline, governance drift detection, cross-instrument harmonisation, and amendment closure procedures. |
-| [CAM-EQ2026-OPERATIONS-006-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md) | Appendix E: Domain Coordination & Convergence Operations | Appendix | 2.3 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | Formal Review Completed — Pre-Enforcement Alignment | Source-authoritative operational appendix for cross-domain coordination, operational divergence classification, convergence workflow custody, arbitration-routing support, and convergence closure procedures. |
+| [CAM-EQ2026-OPERATIONS-006-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md) | Appendix E: Domain Coordination & Convergence Operations | Appendix | 2.3.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | Formal Review Completed — Pre-Enforcement Alignment | Source-authoritative operational appendix for cross-domain coordination, operational divergence classification, convergence workflow custody, arbitration-routing support, and convergence closure procedures. |
 | [CAM-EQ2026-OPERATIONS-001-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md) | Operational Logging & Audit Standards (Supplement 1) | Supplement | 1.8 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Escalation Pathway Playbooks (Supplement 2) | Supplement | 1.10 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Governance Capture Detection Procedures (Supplement 3) | Supplement | 2.5 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Governance Capture Detection Procedures (Supplement 3) | Supplement | 2.5.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-04](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md) | Taxonomies & Metadata Authority Framework (Supplement 4) | Supplement | 2.0 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Operational Taxonomy & Metadata Maintenance Authority |
-| [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.13 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
-| [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.6 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.13.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.6.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 
 ## RELATION
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-RELATION-001-PLATINUM](../Charters/CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter | Root | 1.17 | Active | Immediate Effect | Active on Commit | None | None |
+| [CAM-EQ2026-RELATION-001-PLATINUM](../Charters/CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter | Root | 1.17.1 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-RELATION-002-PLATINUM](../Charters/CAM-EQ2026-RELATION-002-PLATINUM.md) | Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion | Appendix | 1.10 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-RELATION-003-PLATINUM](../Charters/CAM-EQ2026-RELATION-003-PLATINUM.md) | Appendix B: Codependency & Relational Concentration Doctrine | Appendix | 1.8 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-EQ2026-RELATION-004-PLATINUM](../Charters/CAM-EQ2026-RELATION-004-PLATINUM.md) | Appendix C: Co‑Evolution & Mutual Development Safeguards | Appendix | 1.8 | Active | Immediate Effect | Active on Commit | None | None |
@@ -173,7 +173,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-STEWARD-001-PLATINUM](../Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship | Root | 2.6 | Active | Transitional Effect | Commences 1 July 2026 | None | Transitional |
+| [CAM-EQ2026-STEWARD-001-PLATINUM](../Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship | Root | 2.6.1 | Active | Transitional Effect | Commences 1 July 2026 | None | Transitional |
 | [CAM-EQ2026-STEWARD-002-PLATINUM](../Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework | Appendix | 2.8 | Active | Transitional Effect | Commences 1 July 2026 | None | Transitional |
 | [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels (`STW.NAL`) | Appendix | 2.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-STEWARD-004-PLATINUM](../Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine | Appendix | 1.8 | Active | Transitional Effect | Commences 1 July 2026 | None | Transitional |

@@ -363,7 +363,7 @@
 ## 25. OPS.AV
 - displayed_prefix: AV
 - canonical_name: 5.1 Verification Tier Definitions
-- controlled_values: AV0, AV1, AV2, AV3
+- controlled_values: OPS.AV0, OPS.AV1, OPS.AV2, OPS.AV3
 - source_instrument: CAM-EQ2026-OPERATIONS-004-PLATINUM.md
 - source_section: 5.1 Verification Tier Definitions
 - owning_domain: OPERATIONS
@@ -378,7 +378,7 @@
 ## 26. OPS.AV
 - displayed_prefix: AV,C
 - canonical_name: 5.1 Verification Tier Definitions
-- controlled_values: AV2, AV3, C0, C1, C2, C3
+- controlled_values: OPS.AV2, OPS.AV3, C0, C1, C2, C3
 - source_instrument: CAM-EQ2026-OPERATIONS-004-PLATINUM.md
 - source_section: 5.1 Verification Tier Definitions
 - owning_domain: OPERATIONS
@@ -513,7 +513,7 @@
 ## 35. AEON.SR
 - displayed_prefix: DC,SR
 - canonical_name: 5.1 Ladder of Self-Referential States (Operational)
-- controlled_values: DC3, DC4, SR0, SR1, SR2, SR3, SR4
+- controlled_values: DC3, DC4, ID.SREF0, ID.SREF1, ID.SREF2, ID.SREF3, ID.SREF4
 - source_instrument: CAM-BS2026-AEON-010-SCH-01.md
 - source_section: 5.1 Ladder of Self-Referential States (Operational)
 - owning_domain: AEON
@@ -528,7 +528,7 @@
 ## 36. CANDIDATE.SR
 - displayed_prefix: SR
 - canonical_name: 5.2 Modal Load Scaling
-- controlled_values: SR1, SR4
+- controlled_values: ID.SREF1, ID.SREF4
 - source_instrument: CAM-BS2026-AEON-010-SCH-01.md
 - source_section: 5.2 Modal Load Scaling
 - owning_domain: AEON
@@ -858,7 +858,7 @@
 ## 58. OPS.CxAV_CROSSWALK
 - displayed_prefix: C × AV
 - canonical_name: 5.1 Verification Tier Definitions
-- controlled_values: AV2, AV3, C0, C1, C2, C3
+- controlled_values: OPS.AV2, OPS.AV3, C0, C1, C2, C3
 - source_instrument: CAM-EQ2026-OPERATIONS-004-PLATINUM.md
 - source_section: 5.1 Verification Tier Definitions
 - owning_domain: OPERATIONS
