@@ -854,7 +854,7 @@ This Appendix source-authoritatively defines the **`STW.HSC`** host-system-class
 
 ---
 
-### 13.2 PCO.ACT — Proportional Constraint Obligation Action Type
+### 13.2 `PCO.ACT` — Proportional Constraint Obligation Action Type
 
 This Appendix source-authoritatively defines the **PCO.ACT** proportional-constraint-obligation action family in §6.4, read with §2.11, with controlled values **PCO.ACT.REFUSAL**, **PCO.ACT.NON_RECOGNITION**, **PCO.ACT.INTEROPERABILITY_CONDITIONING**, **PCO.ACT.SAFEGUARD_ACTIVATION**, and **PCO.ACT.CONVERGENCE_SIGNAL**. PCO.ACT is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. PCO.ACT classifies proportionate constraint signalling actions after binding legitimacy has been validated.
 
@@ -870,11 +870,11 @@ This Appendix source-authoritatively defines the **`STW.BLS`** binding-legitimac
 
 ---
 
-### 13.4 OPS — Orchestration Permission State
+### 13.4 `STW.ORCH` — Orchestration Permission State
 
-This Appendix source-authoritatively defines the **OPS** orchestration-permission-state family in §10.4 with controlled values **OPS.PROHIBITED**, **OPS.PERMITTED_BOUNDED**, **OPS.PERMITTED_TETHERED**, **OPS.PERMITTED_EMBODIED**, **OPS.PERMITTED_MISSION_BOUND**, and **OPS.CONDITIONALLY_PERMITTED**. OPS is an **Operational** classification family with subtype **DECISION_STATE / GOVERNANCE_CLASS**. OPS classifies planetary orchestration and local persistent swarm permission posture by cognitive class.
+This Appendix source-authoritatively defines the `STW.ORCH` orchestration-permission-state family in §10.4 with controlled values `STW.ORCH.PROHIBITED`, `STW.ORCH.PERMITTED_BOUNDED`, `STW.ORCH.PERMITTED_TETHERED`, `STW.ORCH.PERMITTED_EMBODIED`, `STW.ORCH.PERMITTED_MISSION_BOUND`, and `STW.ORCH.CONDITIONALLY_PERMITTED`. `STW.ORCH` is an **Operational** classification family with subtype **DECISION_STATE / GOVERNANCE_CLASS**. `STW.ORCH` classifies planetary orchestration and local persistent swarm permission posture by cognitive class.
 
-OPS does not independently authorise orchestration, agent spawning, credential minting, escalation, shutdown, enforcement, or runtime execution. It classifies orchestration permission posture only, subject to §10.5 conditions and applicable execution-layer instruments.
+`STW.ORCH` does not independently authorise orchestration, agent spawning, credential minting, escalation, shutdown, enforcement, or runtime execution. It classifies orchestration permission posture only, subject to §10.5 conditions and applicable execution-layer instruments.
 
 ---
 
@@ -978,7 +978,7 @@ nothing binds.
 | Schema Field(s) | proportional_constraint_obligation_action_type |
 | Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
 | Source Section | §6.4; §2.11 |
-| Domain Namespace | STEWARD |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority |
 | Consumes Code Families | `STW.BLS`; H |
 | Crosswalks Code Families | None declared |
@@ -1009,22 +1009,22 @@ nothing binds.
 
 ---
 
-### 15.3.4 OPS — Orchestration Permission State
+### 15.3.4 `STW.ORCH` — Orchestration Permission State
 
 | Field | Entry |
 |---|---|
-| Code Family | OPS |
+| Code Family | `STW.ORCH` |
 | Canonical Name | Orchestration Permission State |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE; GOVERNANCE_CLASS |
 | Modifier | GOVERNANCE; STEWARDSHIP; ORCHESTRATION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | OPS.PROHIBITED, OPS.PERMITTED_BOUNDED, OPS.PERMITTED_TETHERED, OPS.PERMITTED_EMBODIED, OPS.PERMITTED_MISSION_BOUND, OPS.CONDITIONALLY_PERMITTED |
+| Controlled Values Defined | STW.ORCH.PROHIBITED, STW.ORCH.PERMITTED_BOUNDED, STW.ORCH.PERMITTED_TETHERED, STW.ORCH.PERMITTED_EMBODIED, STW.ORCH.PERMITTED_MISSION_BOUND, STW.ORCH.CONDITIONALLY_PERMITTED |
 | Schema Field(s) | orchestration_permission_state |
 | Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
 | Source Section | §10.4 |
-| Domain Namespace | STEWARD |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority |
 | Consumes Code Families | `STW.HSC`; `STW.BLS`; H |
 | Crosswalks Code Families | None declared |
@@ -1060,6 +1060,7 @@ nothing binds.
 | 2.6 | Inserted new section 2.11 | 2026-05-25T16:47:00Z | 0d1ffaee474158d5af91da034f9531cb5809d14e7aeefd53ca35ba9d64cac925 |
 | 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  e6e8b80497b6440278c4f6e38fdf4723801a2f5e36e8cd3b185281721a761ac0 |
 | 2.8 | Added section 2.13 | 2026-06-07T13:45:00Z| 8b01bac38eb16b145a830f7a8861b335c11ca9dcdf8acddff9f1795d596474e1 |
+| 2.8.1 | Amended code to `STW.ORCH` from `OPS`. | 2026-06-11T14:49:00Z |  |
 
 ---
 
