@@ -1043,7 +1043,7 @@ and let execution remain accountable to lawful structure.
 | 2.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ce357a4c003edd2c5e4051e6bc492a428fb47e80bd30995402ed5354ddc5fc9 |
 | 2.4 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  7c40cf9ae6de80f66820551d90eae32ffef11fb402d23e79cc52d0d0446660e2 |
 | 2.5 | Updated formatting | 2026-05-28T15:15:00Z | ce147365e59d7a4ee161f6a56909ab67983c164e35ff6f83476bd393d15e1f92 |
-| 2.5.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  |
+| 2.5.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  ede5fb74319339fbedf1ca303446a5fdb6d8e3327f21b203e1f51219fc0af2c1  |
 ---
 
 ## 10.6 Binding Seal

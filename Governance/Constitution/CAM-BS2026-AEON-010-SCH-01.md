@@ -948,7 +948,7 @@ So the human origin remains in view.
 | 1.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5  |
 | 1.15 | Added canonical DC code-family declaration section and footer metadata for §4.1 Deployment Class source authority; no SR promotion included. | 2026-05-16T14:00:00Z |  120fd617ea65c170f9395059ca72d16ff50b572880b47584a3c8432c438f19b2  |
 | 1.16 | Added canonical SR — Self-Referential State Ladder code family | 2026-05-19T11:37:00Z | 4fb7d922b45f931f26f60a6a731ba97c744534b2437f55573dfc10be3ad0a4ea |
-| 1.16.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
+| 1.16.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  bba217a233939e295a6f696a1211487748cd5c986ba7837d0f434cf1884a1fb0  |
 ---
 
 ## 12.6 Binding Seal

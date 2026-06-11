@@ -1162,7 +1162,7 @@ and what is judged cannot remain unbounded.
 | 3.2 | Normalised `ETH.RISK` canonical code declaration metadata; moved `ETH.RISK` registry/source-authority rows out of lineage metadata; corrected metadata numbering, duplicate arbitration interface, malformed amendment artefact row, and runtime/Annex references. | 2026-05-19T15:10:00Z |  8562776c83f03ce35bd9c9b33f89d2b56d2c63a834598e76025c0d2719f338a6  |
 | 3.3 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  a426a303412f0f5c28305f6f1ad62a2f17810da885aa38ee28819a660457d4e2 |
 | 3.4 | Updated to incldue new ETH.HARM codes | 2026-06-07T16:01:00Z | 22741cb9bd8ff0c8c5f2a13c2ed6e9e880fe90914e2167bb800d7c3d799e8dba |
-| 3.4.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
+| 3.4.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  cf23a0a4cd5d2ebc9678682203a56f0f17c942a6c4c04d0c0f4017edd8b60920  |
 ---
 
 ## 12.6 Binding Seal

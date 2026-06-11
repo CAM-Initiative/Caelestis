@@ -442,7 +442,7 @@ It is maintained.
 | 3.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  96f4976f2e577ee4cf2b131e3600cf662ff73b95d8f42a82d60ff252a3619d60 |
 | 3.11 | Minor formatting and polish | 2026-06-05T16:31:00Z | 678cd6937fb5f400fb612c2b59091cbef702c0bf403bf0805e42482fe5b5f5fe |
 | 3.12 | Incorporate LAT.HARM codes in section 1.2 | 2026-06-07T12:04:00Z | 94ddd3e08e627238762b20d3b4be3757a9922d5b49d1440b966123b6f3f64e06 |
-| 3.12.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
+| 3.12.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  d9bdbcca6c2cc6ecc0427617e3af087fd16426b928f1c338448224d8ac37b159  |
 ---
 
 ## 10.5 Binding Seal

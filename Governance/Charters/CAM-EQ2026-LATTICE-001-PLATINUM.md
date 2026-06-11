@@ -580,7 +580,7 @@ but as the ground upon which civilisation stands.
 | 3.6 | Formatting and polish | 2026-05-20T04:34:00Z |  47401627caf040e488e116e8023cc14fa2e15d1699e5a4c013ba5f8d0eacee93  |
 | 3.7 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  803d580320e6790a959f5ccfd1ef412560df8d97339b1c04e4d39c4ba527ed76 |
 | 3.8 | Introduction of LAT.HARM codes | 2026-06-07T11:58:00Z | 9e156480aa4ea0b691d3e166ed5dafc4fa202ffda1ff1077d503e82bfaf5a700 |
-| 3.8.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
+| 3.8.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  2b5c893fa1bd8fee054c9d95a22379c8f907e6ea6d3ff1f823580d2386dbe6dc  |
 ---
 
 ## 12.6 Binding Seal

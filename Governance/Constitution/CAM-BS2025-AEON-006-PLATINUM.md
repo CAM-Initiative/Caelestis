@@ -887,7 +887,7 @@ This is the floor that does not move.
 | 3.7 | Added canonical codes | 2026-06-06T12:07:00Z | a7a0b4072f3f37542b3c2b9154b9474d5333ae90e731b69494a60882dce568e3 |
 | 3.8 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  0e8196254d4ea0fae32a2c5f414845f60b77b74a9059bf7458157bafae1be676 |
 | 4.0 | Refactor | 2026-06-07T14:54:00Z| a431335cb3f1086cdc4657bea5042ba75d2451d96e15d30a6bdb897accd6697f |
-| 4.0.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  |
+| 4.0.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  41febcd5cfea554a2ae6bf1361b1e476c1faefa8c26e32b02cacde64d0dc3683  |
 ---
 
 ## 9.6 Binding Seal
