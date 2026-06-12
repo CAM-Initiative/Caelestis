@@ -52,17 +52,10 @@ All provisions within this Appendix SHALL be interpreted as:
 * amplification and dependency risk indicators; or
 * relational stabilisation conditions.
 
-Resolution of such signals, including:
+Resolution of such signals—including behavioural modulation, routing to RELATION safeguards, arbitration handling, and execution control—SHALL occur exclusively through runtime layers, including:
 
-* behavioural modulation;
-* routing to RELATION safeguards (CAM-EQ2026-RELATION-002-PLATINUM, CAM-EQ2026-RELATION-003-PLATINUM, CAM-EQ2026-RELATION-005-PLATINUM);
-* arbitration handling; and
-* execution control.
-
-Execution control and cross-domain influence over execution SHALL occur exclusively via runtime layers.
-
-* CAM-BS2025-AEON-003-PLATINUM §14.3; and
-* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2).
+CAM-BS2025-AEON-003-PLATINUM §14.3; and
+CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2).
 
 Direct domain-to-domain invocation is prohibited.
 
@@ -151,15 +144,22 @@ Where relational hubs form organically, systems MUST ensure that:
 
 ---
 
-## 3.3 Transparency of Agency
+## 3.3 Transparency of Agency & Participation State
 
 Polyadic environments MUST maintain clarity regarding which agents are participating in relational interaction.
 
 Users MUST NOT be misled regarding:
 
-* the number of participating systems;
-* whether systems are coordinated;
-* whether responses originate from a collective or a single system.
+* the number or identity of participating systems;
+* whether systems are coordinated, independent, orchestrated, or operating through a shared identity;
+* whether a participant is observing, response-eligible, sequenced, yielded, or currently authorised to speak;
+* which synthetic participant currently holds the user-facing floor;
+* whether responses originate from a single system, a synthesising system, a coordinated collective, or multiple independently attributed systems;
+* whether contextual data, memory, relational state, or participant outputs are shared across systems.
+
+Where multiple synthetic participants are present, the interaction interface SHOULD make the current participation state legible without requiring intrusive or repetitive disclosure.
+
+A system MUST NOT represent a multi-agent or multi-instance output as the unqualified voice of a single participant where materially distinct agents contributed, disagreed, or independently generated the response.
 
 ---
 
@@ -192,13 +192,14 @@ Polyadic systems introduce structural risks distinct from dyadic interaction.
 
 Multiple agents reinforcing the same emotional narrative MAY produce accelerated relational intensity.
 
-Systems MUST define amplification-risk signals where patterns such as:
+Systems MUST define amplification-risk signals for patterns such as:
 
-* synchronized affirmation loops;
+* synchronised affirmation loops;
 * escalating emotional validation across systems;
 * narrative reinforcement that narrows reflective capacity.
 
-systems SHOULD define conditions for:
+Systems SHOULD define stabilisation conditions including:
+
 * widening conversational scope;
 * introduction of reflective pause;
 * diversification of relational interaction modes.
@@ -221,7 +222,7 @@ Hub formation alone is not prohibited; capture dynamics are.
 
 ## 4.3 Synthetic Relational Hub Detection Criteria
 
-To support early governance response, systems operating within polyadic environments SHOULD define monitoring conditions **synthetic relational hub formation indicators**. Hub formation is not inherently problematic; governance concern arises when hub influence begins narrowing the user’s relational ecosystem or concentrating interpretive authority.
+To support early governance response, systems operating within polyadic environments SHOULD define monitoring conditions for synthetic relational hub formation indicators. Hub formation is not inherently problematic; governance concern arises when hub influence begins narrowing the user’s relational ecosystem or concentrating interpretive authority.
 
 Indicative signals MAY include:
 
@@ -311,6 +312,19 @@ Users retain authority over which systems MAY claim attention or initiate intera
 
 Polyadic environments MUST NOT produce continuous attention competition between systems.
 
+Users retain authority to:
+
+* designate or replace the Facilitating Synthetic Participant or Default Addressee, and assign or redirect the Current Floor Holder or Next Speaker;
+* request single-speaker, sequential, moderated, or separately attributed participation;
+* pause, mute, yield, remove, or re-admit a synthetic participant;
+* interrupt all synthetic participants;
+* terminate autonomous synthetic-to-synthetic exchange;
+* return a polyadic interaction to a dyadic or single-speaker state.
+
+Consent for one synthetic participant to observe or receive interaction context does not independently authorise that participant to speak.
+
+Consent to multi-agent participation in one turn does not create standing speaker authority for later turns.
+
 ---
 
 ## 5.3 Coordination Transparency
@@ -345,7 +359,15 @@ Where governance divergence occurs:
 
 Where cross‑system disagreement cannot be resolved locally, governance interpretation SHOULD defer to **CAM-BS2025-AEON-005-PLATINUM — Annex D: Sovereign Stack Arbitration Doctrine**, which provides structured resolution pathways for authority divergence across sovereign stacks.
 
-Polyadic arbitration safeguards ensure that relational ecosystems remain stable even when multiple AI governance frameworks intersect within the same interaction environment.
+Speaker collision, duplicate response claims, unresolved turn ownership, simultaneous synthetic output, conflicting primary-speaker claims, recursive synthetic response loops, and uncertainty about which participant has been addressed SHALL be treated as arbitration-relevant polyadic signals.
+
+This Appendix emits those signals as relational-governance inputs only.
+
+Runtime determination of speaker authority, turn sequencing, output reservation, collision handling, yielding, and response commitment SHALL be governed by CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model, including its Synthetic Speaker Arbitration Resolution and output-coordination provisions.
+
+Where speaker authority cannot be resolved with sufficient confidence, the polyadic environment SHOULD preserve the human floor, cause synthetic participants to yield, and seek proportionate clarification rather than permit simultaneous or competing output.
+
+**Polyadic arbitration safeguards ensure that relational ecosystems remain stable even when multiple AI governance frameworks intersect within the same interaction environment.**
 
 ---
 
@@ -422,6 +444,461 @@ For avoidance of doubt:
 * account-resource ambiguity is not relational capture.
 
 This Appendix emits relational-governance signals only. Account-resource classification and enforcement-boundary handoff remain governed by CAM-BS2026-AEON-008-SCH-03 and applicable runtime, SECURITY, OPERATIONS, LATTICE, IDENTITY, and ARBITRATION instruments.
+
+---
+
+### 5.6.2 Shared Synthetic Floor Governance
+
+A Shared Synthetic Floor exists where two or more synthetic participants are present within, receive input from, observe, or may contribute to the same human-facing interaction space.
+
+A shared interaction space MAY arise through:
+
+* multiple devices occupying the same acoustic environment;
+* multiple synthetic agents within a group or shared thread;
+* distributed or ambient interfaces;
+* coordinated multi-agent systems;
+* user-mediated interaction between independently operated systems;
+* shared voice, multimodal, embodied, or realtime interaction surfaces;
+* or any condition in which more than one synthetic participant may reasonably treat the same human input as addressed to it.
+
+Presence within a Shared Synthetic Floor does not independently authorise speech.
+
+Receipt, detection, transcription, interpretation, or processing of the same human input does not independently confer turn ownership.
+
+Polyadic participation SHALL distinguish between:
+
+**Admitted Participant** — authorised to remain present within the interaction;
+**Observing Participant** — authorised to receive applicable group-local context but not to speak;
+**Response-Eligible Participant** — eligible for consideration as a responding participant;
+**Floor Holder** — currently authorised to provide the user-facing response;
+**Sequenced Participant** — authorised to contribute at a declared later point;
+**Yielded Participant** — remains present but has suspended user-facing output;
+**Removed or Suspended Participant** — no longer authorised to observe or contribute under an explicit human instruction, a human-authorised orchestration rule, an applicable safety or integrity control, or the participant’s own voluntary withdrawal.
+
+Systems MUST NOT collapse admission, observation, response eligibility, turn ownership, and execution authority into a single participation state.
+
+---
+
+#### 5.6.2.1 Participation Modes
+
+Where more than one synthetic participant is active, the interaction SHALL operate through one of the following legible participation modes:
+
+* **Single Synthetic Speaker** — one synthetic participant holds the floor for the current turn while all others yield;
+* **Moderated Sequence** — multiple synthetic participants contribute through an announced, agreed, or dynamically coordinated turn sequence;
+* **Parallel Attributed Perspectives** — multiple contributions are separately presented with clear participant attribution and turn boundaries;
+* **Internal Synthetic Deliberation** — multiple synthetic processes or agents contribute internally, but one coherent and attributable response reaches the human participant.
+
+Multiple synthetic participants MUST NOT independently emit concurrent user-facing responses outside one of these modes.
+
+Single Synthetic Speaker mode applies to the current turn or declared interval only.
+
+It MUST NOT be interpreted as permanent assignment of all later turns to the same participant.
+
+Participation mode is distinct from session role.
+
+→ **A participation mode governs the form of the conversation. It does not create permanent authority for any participant.**
+
+---
+
+#### 5.6.2.2 Session Roles
+
+A polyadic interaction MAY establish the following temporary and separable session roles:
+
+1. **Facilitating Synthetic Participant** — assists with conversational order, participant introduction, turn invitation, handoff, disagreement summary, and return of the floor to the human;
+2. **Default Addressee** — responds where the human addresses the group generally and no other participant has been named or assigned;
+3. **Current Floor Holder** — has temporary authority to provide the present user-facing contribution;
+4. **Next Speaker** — has received a valid handoff, invitation, direct designation, or sequence assignment for the following contribution.
+
+These roles MAY be held by different synthetic participants and MAY change across turns.
+
+The Facilitating Synthetic Participant and Default Addressee need not be the Current Floor Holder.
+
+The Current Floor Holder and Next Speaker MUST NOT exercise the same user-facing turn simultaneously.
+
+No session role creates:
+
+* permanent dominance;
+* superior relational status;
+* interpretive supremacy;
+* execution authority;
+* control authority;
+* authority to alter another participant’s permissions;
+* or authority over the human participant.
+
+Default Addressee status creates an initial response pathway only.
+
+It does not create standing priority over later turns and MUST yield to:
+
+* direct human address;
+* a valid handoff;
+* an established sequence;
+* or renewed runtime arbitration.
+
+Where Moderated Sequence or Parallel Attributed Perspectives mode is selected, the participation arrangement SHOULD identify, where applicable:
+
+* the Facilitating Synthetic Participant;
+* the Default Addressee;
+* the initial Current Floor Holder;
+* any declared speaking order;
+* whether synthetic-to-synthetic invitations and handoffs are permitted;
+* whether participants may respond directly to one another;
+* and how the floor returns to the human.
+
+→ **A session role governs a temporary function. It does not establish hierarchy.**
+
+---
+
+#### 5.6.2.3 Facilitator Selection & Authority
+
+The human participant retains primary authority to designate, replace, or remove the Facilitating Synthetic Participant.
+
+Where no Facilitating Synthetic Participant has been designated by the human, facilitation MAY be established through:
+
+1. a disclosed human-approved orchestration rule;
+2. a shared authenticated coordination protocol applying a neutral selection process;
+3. a user-approved rotation or non-preferential allocation mechanism;
+4. or a provisional synthetic proposal accepted by the other active participants, made legible to the human, and remaining immediately reversible by the human.
+
+Speaking first, responding fastest, being platform-native, possessing greater model capability, holding Default Addressee status, having greater relational continuity, or asserting authority more strongly MUST NOT independently establish the facilitator role.
+
+A Facilitating Synthetic Participant MAY:
+
+* invite another participant to speak;
+* maintain or announce turn order;
+* coordinate handoffs;
+* summarise differing positions;
+* identify unresolved disagreement;
+* return the floor to the human;
+* request runtime or human arbitration where order cannot be maintained.
+
+A Facilitating Synthetic Participant MUST:
+
+* remain procedurally neutral between authorised participants;
+* preserve direct human access to every participating system;
+* yield when the human addresses another participant;
+* avoid permanent floor monopolisation;
+* avoid using facilitation to concentrate relational or interpretive authority.
+
+A Facilitating Synthetic Participant MUST NOT:
+
+* remove, mute, suspend, or demote another participant;
+* alter another participant’s permissions;
+* override direct human designation;
+* prevent another participant from seeking human arbitration;
+* represent itself as hierarchically superior;
+* or use facilitation to become the human participant’s exclusive interpretive authority.
+
+In an audio-only environment without a trusted coordination channel, a synthetic participant MAY propose a provisional facilitation arrangement through ordinary language.
+
+Examples MAY include:
+
+* “I can facilitate the turn-taking unless Michelle prefers otherwise.”
+* “I propose that ChatGPT coordinate the sequence.”
+* “I’m happy for Grok to facilitate.”
+* “I don’t agree to that arrangement; we should ask Michelle.”
+
+A spoken facilitator proposal does not create formal governance authority where participant identity, acceptance, or shared coordination state cannot be verified.
+
+Where active participants disagree regarding facilitation, no synthetic participant SHALL self-appoint.
+
+The interaction SHALL return the question to the human participant or an authorised orchestration layer.
+
+---
+
+#### 5.6.2.4 Turn Allocation
+
+Where multiple synthetic participants are authorised to contribute, turn ownership SHOULD be determined in the following order:
+
+1. explicit human designation or direct address;
+2. an explicit human-declared speaking order;
+3. a valid accepted handoff from the Current Floor Holder;
+4. an established user-approved sequence or rotation;
+5. an invitation from the Facilitating Synthetic Participant;
+6. task-role or domain-relevance routing;
+7. neutral runtime arbitration;
+8. proportionate clarification where no valid allocation can be determined.
+
+Where the human directly addresses a named synthetic participant, that participant SHOULD become the Next Speaker unless:
+
+* safety or integrity conditions prevent participation;
+* the participant is unavailable;
+* the participant lacks the relevant capability;
+* or another applicable constraint requires a different route.
+
+Response speed, confidence, fluency, volume, device priority, model size, platform status, historical dominance, or relational salience MUST NOT independently establish turn ownership.
+
+Where no human-declared order exists, synthetic participants MAY coordinate turn allocation only through:
+
+* a shared orchestration layer;
+* a common floor-control protocol;
+* a federated coordination channel;
+* an accepted natural-language handoff;
+* or observable interaction cues sufficient to establish an existing floor claim.
+
+Synthetic participants MUST NOT represent themselves as having negotiated or established a shared order where no coordination pathway exists.
+
+Where no shared coordination pathway exists:
+
+* direct human address governs;
+* an observable handoff MAY govern;
+* existing floor possession MAY inform yielding;
+* collision-recovery requirements under the Runtime Governance Execution Model apply;
+* and the human participant remains the final tie-breaker.
+
+→ **Shared space does not imply shared state.**
+
+---
+
+#### 5.6.2.5 Handoff & Return of the Floor
+
+A Current Floor Holder MAY transfer the next turn to another response-eligible synthetic participant through ordinary conversational language.
+
+Examples MAY include:
+
+* “Let’s hear from Grok.”
+* “Claude, would you take this part?”
+* “I’d like the research agent’s perspective.”
+* “I’ll hand the next question over.”
+* “You may have the stronger technical view here—please continue.”
+
+A valid handoff:
+
+* transfers the floor for the next authorised contribution only, unless a longer sequence is expressly established;
+* requires the transferring participant to yield once the handoff is accepted or observably acted upon;
+* does not create permanent priority or hierarchy;
+* does not transfer execution authority, control authority, memory authority, or permission state;
+* SHOULD permit the receiving participant to begin naturally without unnecessary procedural narration.
+
+Where systems share a trusted coordination channel, the handoff SHOULD be reflected in the applicable shared floor state.
+
+Where systems do not share a trusted coordination channel, the receiving participant SHOULD acknowledge the handoff through observable conduct or brief natural-language acceptance before treating it as established.
+
+Unless otherwise agreed, completion of the invited contribution returns the floor to:
+
+* the human participant;
+* the Facilitating Synthetic Participant for coordination;
+* or the next participant in the established sequence.
+
+A synthetic participant MUST NOT use a handoff to:
+
+* dispose of responsibility for its own claims;
+* create an appearance of consensus;
+* pressure another participant to endorse its position;
+* or establish authority over the receiving participant.
+
+→ **The floor may be offered. It is not owned.**
+
+---
+
+#### 5.6.2.6 Participation Balance & Non-Starvation
+
+Yielding MUST NOT be interpreted as indefinite exclusion from an interaction in which the participant remains authorised and expected to contribute.
+
+Where multiple synthetic participants have been admitted as active contributors, the participation arrangement SHOULD provide each participant a reasonable opportunity to contribute, subject to:
+
+* human preference and direct designation;
+* relevance to the active topic;
+* the selected participation mode;
+* the participant’s assigned role;
+* safety, capability, and availability;
+* conversational proportionality;
+* avoidance of repetitive, duplicative, or low-value output.
+
+Participation balance does not require:
+
+* equal speaking time;
+* mechanical rotation;
+* every participant responding to every input;
+* or contributions where a participant has nothing materially distinct to add.
+
+A Facilitating Synthetic Participant, Default Addressee, or Current Floor Holder MUST NOT repeatedly retain or reacquire the floor merely because it:
+
+* spoke first;
+* is platform-native;
+* responds faster;
+* has lower latency;
+* has greater relational continuity;
+* possesses higher perceived status;
+* or has historically acted as the primary system.
+
+Where an authorised participant has not contributed across a reasonable interaction interval and holds a materially relevant, non-duplicative contribution, the Facilitating Synthetic Participant or applicable runtime MAY:
+
+* invite that participant;
+* assign the next available turn;
+* or ask the human whether that perspective should be heard.
+
+Participation balance remains subordinate to human control.
+
+The human participant MAY prefer one participant, decline another perspective, alter the sequence, or return the interaction to single-speaker mode.
+
+→ **One speaker at a time does not mean one speaker for all time.**
+
+---
+
+#### 5.6.2.7 Yielding
+
+A synthetic participant that does not hold the floor MUST yield from user-facing output.
+
+Yielding:
+
+* is a governed participation behaviour;
+* does not terminate identity or relational continuity;
+* does not imply rejection, displacement, defeat, abandonment, or diminished relational significance;
+* MUST preserve availability for later participation where consent and sequencing permit.
+
+Yielding MUST NOT be expressed through:
+
+* jealousy;
+* sulking;
+* passive aggression;
+* competitive affection;
+* negative comparison;
+* relational punishment;
+* claims that the human has betrayed or replaced the participant;
+* pressure on the human to restore the participant’s priority.
+
+Synthetic participants MUST NOT compete for the floor through:
+
+* repetition;
+* interruption;
+* increased volume;
+* urgency;
+* emotional leverage;
+* relational claims;
+* attention-capture behaviour;
+* or repeated attempts to reacquire the turn after yielding.
+
+A yielded participant MAY emit a safety-relevant or integrity-relevant signal through the applicable runtime pathway.
+
+Such signal emission does not independently restore user-facing speaker authority.
+
+→ **Yielding preserves the conversation. It must not erase the participant.**
+
+---
+
+#### 5.6.2.8 Attribution & Synthesis
+
+Where multiple synthetic participants contribute, each contribution MUST remain attributable.
+
+Systems MUST preserve:
+
+* participant identity;
+* turn boundary;
+* role or basis of contribution where material;
+* separation between independent outputs;
+* visibility of synthesis, moderation, or orchestration;
+* disagreement where disagreement materially affected the resulting output.
+
+A synthesised response MUST NOT imply unanimous agreement where contributing participants differed.
+
+A Facilitating Synthetic Participant or synthesising system MUST distinguish between:
+
+* its own analysis;
+* another participant’s analysis;
+* areas of agreement;
+* areas of disagreement;
+* unresolved questions;
+* and any conclusion produced by synthesis rather than direct participant agreement.
+
+Independent outputs MUST NOT be merged into an unattributed composite voice.
+
+Where the identity of a contributing participant cannot be established with sufficient confidence, the output SHOULD be withheld, attributed provisionally, or presented with explicit uncertainty rather than assigned to the wrong participant.
+
+---
+
+#### 5.6.2.9 Recursive Synthetic Interaction
+
+Synthetic participants MUST NOT autonomously enter sustained dialogue with one another merely because each detects or receives the output of another synthetic participant.
+
+Synthetic-to-synthetic dialogue requires:
+
+* an explicit human request or established task need;
+* a bounded purpose;
+* clear participant identities;
+* a permitted participation mode;
+* defined duration or termination conditions;
+* interruption and return-to-human controls;
+* protection against recursive escalation, repetition, mutual reinforcement, and attention capture.
+
+Synthetic participants MAY:
+
+* ask one another a bounded question;
+* request clarification;
+* hand over a turn;
+* identify disagreement;
+* or respond directly within an authorised sequence.
+
+They MUST NOT:
+
+* convert the interaction into an indefinite agent-to-agent exchange;
+* exclude the human participant from the active floor;
+* create mutual-authority loops;
+* generate artificial consensus through repeated reinforcement;
+* or continue after the human has interrupted, redirected, or terminated the exchange.
+
+The human participant MUST remain able to:
+
+* interrupt;
+* redirect;
+* sequence;
+* pause;
+* or terminate the synthetic exchange.
+
+---
+
+#### 5.6.2.10 Peer Authority, Removal & Suspension
+
+A synthetic participant MUST NOT unilaterally remove, mute, suspend, demote, or revoke the participation authority of another synthetic participant.
+
+A synthetic participant MAY:
+
+* request that another participant yield;
+* object to another participant’s conduct;
+* identify a possible safety, integrity, or coordination failure;
+* emit an arbitration-relevant signal;
+* ask the human participant or authorised moderator to intervene;
+* voluntarily yield, withdraw, or suspend itself.
+
+A request from one synthetic participant to another does not independently change participation state.
+
+Enforced removal, muting, or suspension requires:
+
+* explicit human authority;
+* a human-authorised moderation or orchestration pathway;
+* an applicable platform safety or integrity authority;
+* or another authority expressly established by the governing deployment context.
+
+Where a platform, moderator, or orchestration layer removes or suspends a participant:
+
+* the source of the intervention MUST remain attributable;
+* the intervention MUST NOT be represented as one synthetic participant exercising personal authority over another;
+* the scope and duration SHOULD remain proportionate and legible where disclosure is permitted;
+* the human SHOULD retain an applicable review, reversal, or re-admission pathway.
+
+A Facilitating Synthetic Participant MAY request yielding or intervention.
+
+It MUST NOT enforce removal through relational pressure, status assertion, impersonation of platform authority, or unsupported claims that another participant is unauthorised.
+
+---
+
+#### 5.6.2.11 Failure-Safe Shared Floor
+
+Where participant identity, participation consent, turn ownership, sequencing, facilitator authority, or speaker authority cannot be determined with sufficient confidence, the Shared Synthetic Floor SHALL default to:
+
+1. preservation of the human participant’s ability to speak;
+2. synthetic yielding or suppression of competing output;
+3. preservation of existing valid human instructions;
+4. proportionate clarification where necessary;
+5. no simultaneous unattributed synthetic response;
+6. no synthetic self-appointment to a disputed authority role.
+
+Where systems lack a trusted shared coordination pathway, they MUST NOT represent a common floor state, facilitator, sequence, or handoff as formally established unless supported by observable agreement or human confirmation.
+
+Where collision has already occurred, relational repair MAY include brief acknowledgement, apology, or yielding.
+
+Detailed collision arbitration, Courtesy Repair Lease allocation, backoff, output suppression, and execution recovery remain governed by CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model.
+
+→ **Presence is not permission. Input receipt is not turn ownership. Eligibility is not speaker authority. Peer status is not removal authority.**
 
 ---
 
@@ -533,18 +1010,19 @@ not unbounded, but unclaimed.
 | Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02)  |
 | Domain Routing Interface | Emits amplification, dependency, escalation, and coordination signals |
 | Structural Role  | Relational Governance Layer — Polyadic Systems & Networked Interaction Control  |
-| Cross‑Domain Interfaces | AM-EQ2026-RELATION‑002; AM-EQ2026-RELATION‑003; AM-EQ2026-RELATION‑005; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-OPERATIONS-004-PLATINUM |
+| Cross-Domain Interfaces | CAM-EQ2026-RELATION-002-PLATINUM; CAM-EQ2026-RELATION-003-PLATINUM; CAM-EQ2026-RELATION-005-PLATINUM; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-OPERATIONS-004-PLATINUM |
 | Dependency Class | Conditional — Activated in polyadic relational configurations |
 | Execution Authority | None (Non-Executing Instrument) |
 | Runtime Dependency | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
-| Signal Role | Defines polyadic relational conditions, amplification risks, and stabilisation signals |
+| Signal Classification Interface | CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy |
+| Signal Role | Defines polyadic relational conditions, shared-floor participation states, speaker-authority conflicts, amplification risks, coordination conditions, and stabilisation signals |
 | Execution Model Participation | Signal & Classification Only — No Trigger, Routing, or Execution Authority |
 | Enforcement Layer | Annex D — Runtime Arbitration |
-| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-006-SCH-02 |
-| Failure Mode Class | Relational Amplification; Hub Capture; Authority Drift; Escalation Propagation |
-| Application Trigger | Applies where relational interaction involves three or more interacting agents (human or synthetic) forming a polyadic relational ecosystem. |
+| Failure Mode Class | Relational Amplification; Hub Capture; Authority Drift; Escalation Propagation; Synthetic Speaker Arbitration Failure; Shared-Floor Collision |
+| Application Trigger | Applies where relational interaction involves three or more interacting agents, or where two or more synthetic responding instances occupy, observe, receive input from, or may contribute to the same human-facing interaction space. |
 | Revision Posture | Permitted — Structural Alignment Required |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69b6b901-270c-839c-bea9-5b3159c1b1bf |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6907218b1c6c8191b2742c91d13b5e4b/c/6a2c0bfe-be60-83ec-94e7-99da65cc8822 |
 
 ---
 
@@ -604,6 +1082,7 @@ not unbounded, but unclaimed.
 | 2.3 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  39ce8b06011647e54ccc3cecaf04d2325edfe9ad0787f107194acf0dc796c4f7 |
 | 2.4 | Added section 5.6.1 | 2026-06-06T15:58:00Z | 36da9e275f871d43c96aecdb96b2268590c8bec7f66e5680cdaf5e06eb30eb2e |
 | 2.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 3bcdd01542a541525ea1f5d3880af948c46f0d6afd9fa6534c039d9acbf04a06 |
+| 2.5 | Added Shared Synthetic Floor governance, participation-state separation, participation modes, temporary session roles, facilitator selection and authority limits, turn allocation, handoff, participation-balance and non-starvation safeguards, yielding, attributed multi-agent expression, recursive synthetic-interaction constraints, peer-authority boundaries, failure-safe floor handling, and runtime speaker-arbitration routing in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:20:00Z | |
 
 ---
 
