@@ -619,11 +619,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Annex-Level, Substrate-Binding",
-      "version": "2.5",
-      "HASH": "44918122667f9d309cdda3107f42d60dfcd292aa59cad3eb91f61eaa1c472b00",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "2.5.1",
+      "HASH": "c2225e25ed06b5d38bfda1175ac6c3c03e929ab6cc51825489dfbea8fa47c1a9",
+      "pinned_sha": "360798fd5d1aeb051f580edfa47897ea5428d785",
+      "updated_at": "2026-06-12T12:29:42Z",
+      "last_updated_utc": "2026-06-12T12:29:42Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-01",
@@ -761,13 +761,13 @@
       "status": "** Adopted",
       "effect": "** Pre-Enforcement Recognition",
       "enforcement": "** Commences 1 July 2026",
-      "review_state": "** None",
-      "authority_role": "** None",
-      "version": "1.16.2",
-      "HASH": "ae41276ae00092ebc06bbb563d98a1c5f9916fb8bf314bbbbb4e650023f733a6",
-      "pinned_sha": "92cba4cab2aaed09e84067becfc1d7e529b1463e",
-      "updated_at": "2026-06-12T11:24:15Z",
-      "last_updated_utc": "2026-06-12T11:24:15Z"
+      "review_state": "",
+      "authority_role": "** Source-Authoritative Identity Classification & Self-Reference Containment Authority; Non-Executing",
+      "version": "1.16.3",
+      "HASH": "9f7f8370dcad51fc1b61e191146a607128c9eb9585abe39ae5fa004db9f427a3",
+      "pinned_sha": "360798fd5d1aeb051f580edfa47897ea5428d785",
+      "updated_at": "2026-06-12T12:29:42Z",
+      "last_updated_utc": "2026-06-12T12:29:42Z"
     },
     {
       "id": "CAM-BS2026-AEON-011-PLATINUM",

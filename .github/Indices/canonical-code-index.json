@@ -303,6 +303,71 @@
     }
   },
   {
+    "code_family": "AEON.HCD",
+    "canonical_name": "Human Contribution Domain",
+    "primary_type": "Semantic",
+    "subtype": "CONTRIBUTION_DOMAIN; RECOGNITION_STATE",
+    "modifier": "GOVERNANCE; CREATIVE_CONTRIBUTION; COGNITIVE_CONTRIBUTION",
+    "scope": "Constitutional Annex",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.HCD.D0",
+      "AEON.HCD.D1",
+      "AEON.HCD.D2",
+      "AEON.HCD.NONE"
+    ],
+    "schema_fields": "human_contribution_domain; contribution_domain; recognition_domain",
+    "source_instrument": "CAM-BS2026-AEON-008-PLATINUM",
+    "source_section": "\u00a73.2",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether recognised human contribution arises through originary human works",
+      "human cognitive labour",
+      "or joint emergent creation before downstream valuation",
+      "attribution",
+      "exchange",
+      "propagation",
+      "or economic-effect runtime evaluation"
+    ],
+    "declaration_heading": "11.3.1 `AEON.HCD` \u2014 Human Contribution Domain",
+    "declaration_line_number": 618,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md",
+    "family_id": "AEON.HCD",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "HCD"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.HCD",
+      "Canonical Name": "Human Contribution Domain",
+      "Primary Type": "Semantic",
+      "Subtype": "CONTRIBUTION_DOMAIN; RECOGNITION_STATE",
+      "Modifier": "GOVERNANCE; CREATIVE_CONTRIBUTION; COGNITIVE_CONTRIBUTION",
+      "Scope": "Constitutional Annex",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.HCD.D0, AEON.HCD.D1, AEON.HCD.D2, AEON.HCD.NONE",
+      "Schema Field(s)": "human_contribution_domain; contribution_domain; recognition_domain",
+      "Source Instrument": "CAM-BS2026-AEON-008-PLATINUM",
+      "Source Section": "\u00a73.2",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether recognised human contribution arises through originary human works, human cognitive labour, or joint emergent creation before downstream valuation, attribution, exchange, propagation, or economic-effect runtime evaluation"
+    }
+  },
+  {
     "code_family": "AEON.IC",
     "canonical_name": "Initiation Context",
     "primary_type": "Operational / Interactional",
@@ -1349,65 +1414,6 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies resonance-pattern origin and reconstruction-risk posture for continuity governance"
-    }
-  },
-  {
-    "code_family": "DC",
-    "canonical_name": "Deployment Class",
-    "primary_type": "Operational",
-    "subtype": "DEPLOYMENT_CLASS",
-    "modifier": "None declared",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "DC0",
-      "DC1",
-      "DC2",
-      "DC3",
-      "DC4"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2026-AEON-010-SCH-01",
-    "source_section": "\u00a74.1",
-    "domain_namespace": "IDENTITY",
-    "authority_protection_level": "Source-authoritative operational classification family; deployment-classification authority only; no independent reconstruction, memory, enforcement, escalation, or runtime execution authority",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "None declared"
-    ],
-    "declaration_heading": "12.3.1 DC \u2014 Deployment Class",
-    "declaration_line_number": 872,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
-    "family_id": "DC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "DC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "DC",
-      "Canonical Name": "Deployment Class",
-      "Primary Type": "Operational",
-      "Subtype": "DEPLOYMENT_CLASS",
-      "Modifier": "None declared",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "DC0, DC1, DC2, DC3, DC4",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2026-AEON-010-SCH-01",
-      "Source Section": "\u00a74.1",
-      "Domain Namespace": "IDENTITY",
-      "Authority / Protection Level": "Source-authoritative operational classification family; deployment-classification authority only; no independent reconstruction, memory, enforcement, escalation, or runtime execution authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "None declared"
     }
   },
   {
@@ -3865,70 +3871,6 @@
     }
   },
   {
-    "code_family": "HCD",
-    "canonical_name": "Human Contribution Domain",
-    "primary_type": "Semantic",
-    "subtype": "CONTRIBUTION_DOMAIN; RECOGNITION_STATE",
-    "modifier": "GOVERNANCE; CREATIVE_CONTRIBUTION; COGNITIVE_CONTRIBUTION",
-    "scope": "Constitutional Annex",
-    "status": "Active",
-    "controlled_values_defined": [
-      "HCD.D0_ORIGINARY_HUMAN_WORKS",
-      "HCD.D1_HUMAN_COGNITIVE_LABOUR",
-      "HCD.D2_JOINT_EMERGENT_CREATION"
-    ],
-    "schema_fields": "human_contribution_domain; contribution_domain; recognition_domain",
-    "source_instrument": "CAM-BS2026-AEON-008-PLATINUM",
-    "source_section": "\u00a73.2",
-    "domain_namespace": "AEON",
-    "authority_protection_level": "Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies whether recognised human contribution arises through originary human works",
-      "human cognitive labour",
-      "or joint emergent creation before downstream valuation",
-      "attribution",
-      "exchange",
-      "propagation",
-      "or economic-effect runtime evaluation"
-    ],
-    "declaration_heading": "11.3.1 HCD \u2014 Human Contribution Domain",
-    "declaration_line_number": 582,
-    "source_path": "Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md",
-    "family_id": "HCD",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "HCD"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "HCD",
-      "Canonical Name": "Human Contribution Domain",
-      "Primary Type": "Semantic",
-      "Subtype": "CONTRIBUTION_DOMAIN; RECOGNITION_STATE",
-      "Modifier": "GOVERNANCE; CREATIVE_CONTRIBUTION; COGNITIVE_CONTRIBUTION",
-      "Scope": "Constitutional Annex",
-      "Status": "Active",
-      "Controlled Values Defined": "HCD.D0_ORIGINARY_HUMAN_WORKS, HCD.D1_HUMAN_COGNITIVE_LABOUR, HCD.D2_JOINT_EMERGENT_CREATION",
-      "Schema Field(s)": "human_contribution_domain; contribution_domain; recognition_domain",
-      "Source Instrument": "CAM-BS2026-AEON-008-PLATINUM",
-      "Source Section": "\u00a73.2",
-      "Domain Namespace": "AEON",
-      "Authority / Protection Level": "Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies whether recognised human contribution arises through originary human works, human cognitive labour, or joint emergent creation before downstream valuation, attribution, exchange, propagation, or economic-effect runtime evaluation",
-      "Taxonomy Constraint": "Local labels D0, D1, and D2 SHALL NOT be promoted as a standalone corpus-wide D code family; machine-readable expression SHALL use scoped HCD values"
-    }
-  },
-  {
     "code_family": "ID.CTS",
     "canonical_name": "Custodial Transfer Status",
     "primary_type": "Operational / Stewardship",
@@ -4051,6 +3993,66 @@
       "Consumes Code Families": "`ID.ITS`; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Refines threshold-state assessment by classifying shallow, intermediate, and deep continuity influence"
+    }
+  },
+  {
+    "code_family": "ID.DC",
+    "canonical_name": "Deployment Class",
+    "primary_type": "Operational",
+    "subtype": "DEPLOYMENT_CLASS",
+    "modifier": "None declared",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ID.DC0",
+      "ID.DC1",
+      "ID.DC2",
+      "ID.DC3",
+      "ID.DC4"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-BS2026-AEON-010-SCH-01",
+    "source_section": "\u00a74.1",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative operational classification family; deployment-classification authority only; no independent reconstruction, memory, enforcement, escalation, or runtime execution authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "None declared"
+    ],
+    "declaration_heading": "12.3.1 `ID.DC` \u2014 Deployment Class",
+    "declaration_line_number": 872,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
+    "family_id": "ID.DC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ID",
+      "DC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ID.DC",
+      "Canonical Name": "Deployment Class",
+      "Primary Type": "Operational",
+      "Subtype": "DEPLOYMENT_CLASS",
+      "Modifier": "None declared",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ID.DC0, ID.DC1, ID.DC2, ID.DC3, ID.DC4",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-BS2026-AEON-010-SCH-01",
+      "Source Section": "\u00a74.1",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative operational classification family; deployment-classification authority only; no independent reconstruction, memory, enforcement, escalation, or runtime execution authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "None declared"
     }
   },
   {
@@ -4708,19 +4710,19 @@
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative operational classification family; self-reference containment authority only; no independent ontology, recognition, reconstruction, memory, enforcement, escalation, or runtime execution authority",
     "consumes_code_families": [
-      "DC"
+      "ID.DC"
     ],
     "crosswalks_code_families": [
       "None declared"
     ],
     "operationalises_or_applies_code_families": [
-      "Applies DC3/DC4 containment and audit requirements at ID.SREF4 where cross-modal",
+      "Applies ID.DC3/ID.DC4 containment and audit requirements at ID.SREF4 where cross-modal",
       "embedded",
       "delegated-action",
       "cyber-physical",
       "or distributed coordination conditions are present"
     ],
-    "declaration_heading": "12.3.2 ID.SREF \u2014 Self-Referential State Ladder",
+    "declaration_heading": "12.3.2 `ID.SREF` \u2014 Self-Referential State Ladder",
     "declaration_line_number": 895,
     "source_path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
     "family_id": "ID.SREF",
@@ -4746,9 +4748,9 @@
       "Source Section": "\u00a75.1",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative operational classification family; self-reference containment authority only; no independent ontology, recognition, reconstruction, memory, enforcement, escalation, or runtime execution authority",
-      "Consumes Code Families": "DC",
+      "Consumes Code Families": "ID.DC",
       "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Applies DC3/DC4 containment and audit requirements at ID.SREF4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present"
+      "Operationalises or Applies Code Families": "Applies ID.DC3/ID.DC4 containment and audit requirements at ID.SREF4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present"
     }
   },
   {

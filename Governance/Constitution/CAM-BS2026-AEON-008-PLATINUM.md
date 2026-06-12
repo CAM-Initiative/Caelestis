@@ -685,7 +685,7 @@ Recognition is the first act of truth.
 | 2.3 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z |  267ac0ee82a3613704485d2c335622cc50b7c0d0608b8f46264ef447d92bba52 |
 | 2.4 | Corrected metadata heading style | 2026-05-28T15:06:00Z | 2689323edc62dd09d37cad1582efb08d2e34c880a51a2feb789c883d44604d14 |
 | 2.5 | Added new section 2.1.1, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:22:00Z | 44918122667f9d309cdda3107f42d60dfcd292aa59cad3eb91f61eaa1c472b00 |
-|2.5.1 | Updated codes to include prefix `AEON` and new section 3.2.4 | 2026-06-12T12:25:00Z| |
+|2.5.1 | Updated codes to include prefix `AEON` and new section 3.2.4 | 2026-06-12T12:25:00Z| c2225e25ed06b5d38bfda1175ac6c3c03e929ab6cc51825489dfbea8fa47c1a9 |
 
 ---
 
