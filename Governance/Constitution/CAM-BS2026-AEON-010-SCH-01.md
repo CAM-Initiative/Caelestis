@@ -949,7 +949,7 @@ So the human origin remains in view.
 | 1.15 | Added canonical DC code-family declaration section and footer metadata for §4.1 Deployment Class source authority; no SR promotion included. | 2026-05-16T14:00:00Z |  120fd617ea65c170f9395059ca72d16ff50b572880b47584a3c8432c438f19b2  |
 | 1.16 | Added canonical SR — Self-Referential State Ladder code family | 2026-05-19T11:37:00Z | 4fb7d922b45f931f26f60a6a731ba97c744534b2437f55573dfc10be3ad0a4ea |
 | 1.16.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  bba217a233939e295a6f696a1211487748cd5c986ba7837d0f434cf1884a1fb0  |
-| 1.16.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | |
+| 1.16.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | ae41276ae00092ebc06bbb563d98a1c5f9916fb8bf314bbbbb4e650023f733a6 |
 ---
 
 ## 12.6 Binding Seal

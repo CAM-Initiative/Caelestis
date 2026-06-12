@@ -603,7 +603,7 @@ not unbounded, but unclaimed.
 | 2.2 | Normalised R canonical code status and declaration metadata; corrected provenance subsection numbering; no change to R-Scale controlled values. | 2026-05-19T12:35:00Z |  a4ae2344ce009a52be550f904b9a06a70c438f1b90c9ec7b022078c322ccaef8  |
 | 2.3 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  39ce8b06011647e54ccc3cecaf04d2325edfe9ad0787f107194acf0dc796c4f7 |
 | 2.4 | Added section 5.6.1 | 2026-06-06T15:58:00Z | 36da9e275f871d43c96aecdb96b2268590c8bec7f66e5680cdaf5e06eb30eb2e |
-| 2.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
+| 2.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 3bcdd01542a541525ea1f5d3880af948c46f0d6afd9fa6534c039d9acbf04a06 |
 
 ---
 

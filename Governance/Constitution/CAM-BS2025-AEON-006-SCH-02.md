@@ -4091,7 +4091,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.27 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored relational Tonal Band code family from T to Tb to avoid cross-domain canonical code collision. | 2026-05-23T12:00:00Z |  52120b27cfc59a70a33c6837e51d93d997d42008766eccaf5ebdc765e2b28b3b |
 | 3.28 | Minor formatting polish before deterministic formatting pass | 2026-06-06T12:50:00Z |  59d87c590de71ed0765dd705569b2f7953cd8281b7c8423557047b25a05f4f1b |
 | 3.29 | Expanded relational signal classes and added minor developmental-firewall and minor dependency-convergence rules for companion, sexual-boundary, AI-realness, and teen mental-health risk signals. | 2026-06-09T14:30:00Z | 6a4b5014c50bb9bbfae0484be8d63a8eccb1f63b074a53f7e4be85885453f962 |
-| 3.29.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  |
+| 3.29.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  8881d0ce2a0fd5f780fd2e9d3b1afa2e4b895e1df886054164a66baaae645bc7  |
 
 ---
 

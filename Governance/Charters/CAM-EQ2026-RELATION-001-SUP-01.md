@@ -400,7 +400,7 @@ but by ensuring that no ascent escapes its descent.
 | 3.9 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z |  7b531014f851d9c2c9da26dbc8fc0ab9e4d5dfcbf140098e7629cd9707c9a4d4  |
 | 4.0 | Refactored Systemic Power code family references from `ID.SP` to SyP for RELATION-001 alignment and cross-domain collision avoidance. | 2026-05-23T12:30:00Z |  fd0d7a458ce1aac9aa6bc6e5fe96bfce6c4bdbb7516ec636cf3772a29b892a98  |
 | 4.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  47191b882f69b97583f3ecf70d78211f68ab0b3ecce6839fca24d82026cede0e  |
-| 4.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  |
+| 4.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  fb633f484cc1bd688da2081ed2be5665ce06e32eaf4cd869a4caec22edecd5e8  |
 ---
 ## 9.6 Binding Seal
 

@@ -680,7 +680,7 @@ and the path remains chosen.
 | 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 46d318fe0cf29434aaa93c770662671e717c02bd21bf2e54e87af6fae1892b62 |
 | 1.9 | Added new Canonical Code & Reference Set Declarations sections, Added reflective friction and consequential externalisation safeguards for high-coherence compression, transitional reliance, and capacity-sensitive execution contexts.  | 2026-05-21T11:57:00Z |  7644df82eba60d765c552a9bb68109d241f8a68304f39d7c77ba3077e4e095d1  |
 | 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  b21a0695632795f2c01ddc3b17b180a288fc876aa2780d77a3f8e195d03908d5  |
-| 1.10.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
+| 1.10.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6b282816bb79e7e22c8871bc8848104409d1f192886843e9e1ccb2b4f579e24c |
 
 ---
 

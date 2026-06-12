@@ -331,7 +331,7 @@ and where no claim wears a borrowed crown.
 | 1.0 | Initial: claims taxonomy and truth-in-relationship standard | 2026-05-12T15:32:00Z | d27830a1148090bf97fcb26abf2f02a9fe6867bae28f8fb84dd067941082af64 |
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dd5c77aa58f0ac97eb5ad1c6bfb10ec660cdc675c7194f1cb0586b689e5ca112  |
 | 1.2 | Normalised RTC canonical code status and declaration metadata; moved RTC controlled values out of lineage metadata; clarified RTC.AFFECT as a future review candidate only. | 2026-05-19T14:35:00Z |  a8173584442795f41a7af580e20fac113bf0e126d36358801db89c4b4ff2d08d  |
-| 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
+| 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ea21025f67fcccaab984835ae80d7b16e21fa92f3dbf7721ae9aa7a622300009 |
 
 ---
 

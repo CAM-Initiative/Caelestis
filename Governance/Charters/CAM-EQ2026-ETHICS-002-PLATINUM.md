@@ -793,7 +793,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2449d34f0a0b9ef4497ca4cdd4fa783a3aaacd994f9b8cff075ba96444d68bc4  |
 | 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  a05c83137b7fdd38dcd26662451d79f237d2560aebb71631a4dadcf8d9614512 |
 | 2.9 | Added cross-reference to minor-safe runtime activation, AI/non-human boundary, sexual-boundary, and high-risk age-assurance controls for intimacy-capable systems. | 2026-06-09T14:52:00Z | 23cbb59b125b68b5ced8960ffa5ea970afe12f6c2857246eeb416b06aca5ee28 |
-| 2.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
+| 2.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 8cdabd768d3339c57e98d19ce1beddc236235266bbc83305f5b6a7d06f92c450 |
 
 ---
 

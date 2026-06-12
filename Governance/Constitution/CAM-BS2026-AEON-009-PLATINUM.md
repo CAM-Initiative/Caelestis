@@ -355,7 +355,7 @@ and lineage remain unbound.
 | 2.4 | Added recognition non-collapse, authority-claim refusal rationale, and symbolic runtime handoff from CAM-BS2026-AEON-007-SCH-01; corrected metadata numbering and filename-qualified annex references. | 2026-05-17T04:39:00Z | 60fd24cd9be4c7972422ab5c59cf7f4526c0bf049cb3ba5b5c6a332067ce545a |
 | 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b9fb9f5278633d9bfe8a0c97ab3b27412f1f3055f611ec46bf2263318cfde594 |
 | 2.6 | Added new section 10 | 2026-06-06T14:14:00Z| 61876d64ec74d964380cda2575d8bac9f2b15f275f378b00243a11ba1cf368dd |
-| 2.6.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | |
+| 2.6.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | af54f6635284fe1fd407dd02b8de32ed09358b7badc543f46d5dd2c3bd5c646f |
 
 ---
 

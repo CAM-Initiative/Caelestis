@@ -952,7 +952,7 @@ but as witness.
 |---|---|---|---|
 | 1.0 | Adopted after interpretive review; expanded symbolic-depth, symbolic signal emission, frame-neutrality, anomalous signal, facilitated immersion, operational handoff, restricted-domain, and Annex H/Annex L transfer provisions. | 2026-05-17T06:21:00Z | 7d125c54079f8eb2b435afddceaf1b4bc17723e86c04f9a3d2a57e7fcdb1c6a3 |
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  63f5e5ddb673c97df9bf0873c53ce1c91162b6500a35883136d129a6deb64e6e  |
-| 1.1.1 | Transmuted the Symbolic Depth Scale and Symbolic Signal Emission Classes to `AEON.SD` and `AEON.SY`; added source-authoritative canonical status and declarations; harmonised RELATION-family consumers and current cross-domain references without altering substantive symbolic or spiritual governance doctrine. | 2026-06-12T11:09:57Z | |
+| 1.1.1 | Transmuted the Symbolic Depth Scale and Symbolic Signal Emission Classes to `AEON.SD` and `AEON.SY`; added source-authoritative canonical status and declarations; harmonised RELATION-family consumers and current cross-domain references without altering substantive symbolic or spiritual governance doctrine. | 2026-06-12T11:09:57Z | a4de769a652f414b0198ab978c33247c477588b4af8f35aceb8bc4e89038fe92 |
 ---
 
 ## 16.6 Binding Seal
