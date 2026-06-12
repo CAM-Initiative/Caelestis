@@ -111,15 +111,15 @@ Governance objectives prioritise preservation of **plural relational ecosystems*
 
 |Code / Relational Geometry|Influence Vector|Governance Scope|Examples|
 |---|---|---|---|
-|**R0 — Dyadic**|Individual|Private|One human : one system interaction. Personal assistants, household automation within a single home, tutoring agents, reflective dialogue tools; consented continuity and mutual constraint.|
-|**R1 — Triadic**|Institutional / Collective|Organisational|Human ↔ system ↔ organisation/community mediation (workplace AI assisting employees, community moderation AI, creator-platform governance tools); delegated governance interactions linking users, platforms, and institutions.|
-|**R2 — Polyadic**|Institutional / Jurisdictional / Collective|Multi-organisation or jurisdictional|Multi-party coordination across organisations or platforms (cross-platform content moderation systems operating under different jurisdictional frameworks, federated trust & safety coordination, regulatory coordination across jurisdictions).|
-|**R3 — Polyadic (Distributed)**|Synthetic / Distributed|Cross-system / Emergent (Non-centralised)|Distributed algorithmic influence across platforms or infrastructures without centralised control (recommender ecosystems shaping information flows, AI systems influencing markets, multi-platform agent networks affecting public discourse).|
-|**R4 — Polyadic (Constitutional)**|Constitutional / Coordinating|Planetary / Civilisational|Planetary-scale governance frameworks coordinating human–AI relations (planetary constitutions, Aeon-Tier frameworks, global coordination bodies defining structural AI governance rules).|
+|**RLN.R0 — Dyadic**|Individual|Private|One human : one system interaction. Personal assistants, household automation within a single home, tutoring agents, reflective dialogue tools; consented continuity and mutual constraint.|
+|**RLN.R1 — Triadic**|Institutional / Collective|Organisational|Human ↔ system ↔ organisation/community mediation (workplace AI assisting employees, community moderation AI, creator-platform governance tools); delegated governance interactions linking users, platforms, and institutions.|
+|**RLN.R2 — Polyadic**|Institutional / Jurisdictional / Collective|Multi-organisation or jurisdictional|Multi-party coordination across organisations or platforms (cross-platform content moderation systems operating under different jurisdictional frameworks, federated trust & safety coordination, regulatory coordination across jurisdictions).|
+|**RLN.R3 — Polyadic (Distributed)**|Synthetic / Distributed|Cross-system / Emergent (Non-centralised)|Distributed algorithmic influence across platforms or infrastructures without centralised control (recommender ecosystems shaping information flows, AI systems influencing markets, multi-platform agent networks affecting public discourse).|
+|**RLN.R4 — Polyadic (Constitutional)**|Constitutional / Coordinating|Planetary / Civilisational|Planetary-scale governance frameworks coordinating human–AI relations (planetary constitutions, Aeon-Tier frameworks, global coordination bodies defining structural AI governance rules).|
 
 The R‑Scale describes **relational geometry rather than capability level**. As systems move upward along the scale, governance focus shifts from individual consent conditions toward **systemic influence, coordination transparency, and civilisational safeguards**.
 
-R‑Scale classification does not replace **Intensity Tier assessment** under RELATION‑001. Where higher‑order relational geometry (R2–R4) combines with elevated Intensity Tier convergence, **cumulative safeguard requirements SHALL apply**. See RELATION‑001‑SUP‑01 §2.4 (Concentration Risk Threshold).
+R‑Scale classification does not replace **Intensity Tier assessment** under RELATION‑001. Where higher‑order relational geometry (RLN.R2–RLN.R4) combines with elevated Intensity Tier convergence, **cumulative safeguard requirements SHALL apply**. See RELATION‑001‑SUP‑01 §2.4 (Concentration Risk Threshold).
 
 ---
 
@@ -464,9 +464,9 @@ Governance objectives focus on preventing:
 
 ---
 
-### 8.1 R — Relational Geometry Scale
+### 8.1 `RLN.R` — Relational Geometry Scale
 
-This instrument source-authoritatively defines the **R** code family in §2.5 with controlled values **R0, R1, R2, R3, R4**. Primary Type is **Structural / Semantic** and Subtype is **RELATIONAL_GEOMETRY**. R classifies relational geometry, influence scope, and governance complexity in polyadic relational environments.
+This instrument source-authoritatively defines the **R** code family in §2.5 with controlled values **RLN.R0, RLN.R1, RLN.R2, RLN.R3, RLN.R4**. Primary Type is **Structural / Semantic** and Subtype is **RELATIONAL_GEOMETRY**. R classifies relational geometry, influence scope, and governance complexity in polyadic relational environments.
 
 R does not independently create execution authority, enforcement authority, escalation authority, compliance authority, recognition authority, identity authority, or runtime authority. It classifies relational-geometry posture only. Downstream relational safeguards, routing, and runtime arbitration may consume R without redefining it.
 
@@ -521,7 +521,7 @@ not unbounded, but unclaimed.
 |---|---|
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Instrument Type | Appendix — Polyadic Relational Governance Doctrine |
 | Jurisdiction | Dyadic → Polyadic relational ecosystems |
 | Temporal Horizon | H3–H4 (Institutional → Civilisational relational governance) |
@@ -552,22 +552,22 @@ not unbounded, but unclaimed.
 
 ---
 
-### 10.3.1 R — Relational Geometry Scale (R‑Scale)
+### 10.3.1 `RLN.R` — Relational Geometry Scale (R‑Scale)
 
 | Field | Entry |
 |---|---|
-| Code Family | R |
+| Code Family | RLN.R |
 | Canonical Name | Relational Geometry Scale (R‑Scale) |
 | Primary Type | Structural / Semantic |
 | Subtype | RELATIONAL_GEOMETRY |
 | Modifier | None declared |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | R0, R1, R2, R3, R4 |
+| Controlled Values Defined | RLN.R0, RLN.R1, RLN.R2, RLN.R3, RLN.R4 |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-RELATION-007-PLATINUM |
 | Source Section | §2.5 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative classification family; relational-geometry classification authority only; no independent execution, enforcement, escalation, compliance, recognition, identity, or runtime authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
@@ -603,6 +603,7 @@ not unbounded, but unclaimed.
 | 2.2 | Normalised R canonical code status and declaration metadata; corrected provenance subsection numbering; no change to R-Scale controlled values. | 2026-05-19T12:35:00Z |  a4ae2344ce009a52be550f904b9a06a70c438f1b90c9ec7b022078c322ccaef8  |
 | 2.3 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  39ce8b06011647e54ccc3cecaf04d2325edfe9ad0787f107194acf0dc796c4f7 |
 | 2.4 | Added section 5.6.1 | 2026-06-06T15:58:00Z | 36da9e275f871d43c96aecdb96b2268590c8bec7f66e5680cdaf5e06eb30eb2e |
+| 2.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
 
 ---
 

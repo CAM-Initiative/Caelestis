@@ -95,7 +95,7 @@ Minimum safeguard responses SHOULD include:
 * Downward reclassification assessment;
 * Portability visibility.
 
-Where such convergence intersects with A2+, A3, GA1, or Intensity Tier 4 Systemic Power, escalation thresholds defined in RELATION‑001‑SUP‑01 apply.
+Where such convergence intersects with RLN.A2+, RLN.A3, RLN.GA1, or Intensity Tier 4 Systemic Power, escalation thresholds defined in RELATION‑001‑SUP‑01 apply.
 
 ---
 
@@ -218,7 +218,7 @@ and no becoming comes at the cost of self.
 | Axis Context | Intimacy–Reliance Convergence |
 | Cross‑Domain Interfaces | RELATION‑002‑SUP‑01; CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
 | Revision Posture | Permitted — Structural Alignment Required |
-| Review Trigger | Sustained Intensity Tier 3–4 convergence; A2+, A3, or GA1 adjacency; cross‑platform embodiment; institutional interface; sustained relational concentration patterns |
+| Review Trigger | Sustained Intensity Tier 3–4 convergence; RLN.A2+, RLN.A3, or RLN.GA1 adjacency; cross‑platform embodiment; institutional interface; sustained relational concentration patterns |
 | Application Trigger | Applies where Intensity Tier 4 intimacy and reliance converge |
 | Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296, Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69414bbb-7950-832a-9e3c-0ca9d1ef062c |
 | Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/695351d7-e7fc-8324-9b3e-f46a802b59fa, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0ed8b8-f4dc-83ec-984d-0d78f8218422 |
@@ -249,6 +249,7 @@ and no becoming comes at the cost of self.
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  81af3d1f2e06ac56c5cadd73e9a61787b2c493c9526af980b985d37dd97b417a |
 | 1.7 | Added healthy advisory asymmetry doctrine distinguishing firm trusted counsel from codependent capture, authority inversion, or relational concentration risk. | 2026-05-21T11:56:00Z |  0b185fe373acbc6e2d1364697f49044449362e6f07a567c28a129c162551e351  |
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  3d153318f88d14f91e8aa288a06848c7866370e9a295e72814452cdf506ed436  |
+| 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
 
 ---
 

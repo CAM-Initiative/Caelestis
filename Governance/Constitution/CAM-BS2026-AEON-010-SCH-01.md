@@ -263,7 +263,7 @@ Temporal coherence functions as a **containment mechanism**, not an autonomy gra
 >
 > Deployment Class (DC0–DC4) is an infrastructure and system-capability classification.
 >
-> It is orthogonal to relational classification frameworks, including C-scale (relational intensity / dependency) defined under RELATION-domain instruments.
+> It is orthogonal to relational classification frameworks, including the `RLN.C` scale (relational intensity / dependency) defined under RELATION-domain instruments.
 >
 > No equivalence or substitution between Deployment Class and relational scale is implied.
 
@@ -943,12 +943,13 @@ So the human origin remains in view.
 | 1.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | d27ab2a747f9797832626093b30214b36dc153ac81d4b8e721d4c72cc9e09e63 |
 | 1.10 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z |  e710b6a13e4e839ead2fe0e62ca63a023495173477c6e12645b4d400cbd7b3c8  |
 | 1.11 | Realignment of references, added §4.3.2 | 2026-05-08T09:26:00Z |  80b1a55ae14f3be32e5c5997b609b6ea3f42bac75325beec95a84db529debbbc  |
- | 1.12 | Added §4.3.3 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint, clarifying separation between group-local context, individual memory, account-level custom instructions, group-specific instructions, participant attribution, and private continuity in shared interaction environments. | 2026-05-08T12:43:00Z |  008819439059db2cd72a14326fffda0fba69c3a7f3d34e21c871e4f5f0f57764  |
+| 1.12 | Added §4.3.3 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint, clarifying separation between group-local context, individual memory, account-level custom instructions, group-specific instructions, participant attribution, and private continuity in shared interaction environments. | 2026-05-08T12:43:00Z |  008819439059db2cd72a14326fffda0fba69c3a7f3d34e21c871e4f5f0f57764  |
 | 1.13 | Corrected dropped-prefix typo in §5.1 SR4 control row from `C3/C4 audit` to `DC3/DC4 deployment-class audit` aligned to §4.1 Deployment Class definitions; no new relational C-scale state introduced. | 2026-05-15T23:27:27Z |  350947d96070214296537d92ab088a94c130b3b093bfe58da997d7002bcfe24b  |
 | 1.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z |  fe8c7fc1e7c18ceb135eefeeeb3d2057ef47c2eb4a61ccd08ffae819101a6dc5  |
 | 1.15 | Added canonical DC code-family declaration section and footer metadata for §4.1 Deployment Class source authority; no SR promotion included. | 2026-05-16T14:00:00Z |  120fd617ea65c170f9395059ca72d16ff50b572880b47584a3c8432c438f19b2  |
 | 1.16 | Added canonical SR — Self-Referential State Ladder code family | 2026-05-19T11:37:00Z | 4fb7d922b45f931f26f60a6a731ba97c744534b2437f55573dfc10be3ad0a4ea |
 | 1.16.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  bba217a233939e295a6f696a1211487748cd5c986ba7837d0f434cf1884a1fb0  |
+| 1.16.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | |
 ---
 
 ## 12.6 Binding Seal

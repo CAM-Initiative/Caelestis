@@ -25,10 +25,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - C0 — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required
-  - C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **OPS.AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate
-  - C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **OPS.AV2 — Jurisdiction‑level age verification required** | OPS.AV2–OPS.AV3 escalation depending on platform risk model
-  - C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **OPS.AV2 minimum** | **OPS.AV3 recommended** (e.g. third‑party age verification, MFA, device authentication)
+  - RLN.C0 — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required
+  - RLN.C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **OPS.AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate
+  - RLN.C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **OPS.AV2 — Jurisdiction‑level age verification required** | OPS.AV2–OPS.AV3 escalation depending on platform risk model
+  - RLN.C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **OPS.AV2 minimum** | **OPS.AV3 recommended** (e.g. third‑party age verification, MFA, device authentication)
 
 ## 3. `Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md` L228-L232
 - Nearest heading: 5.2 Operational Interpretation
@@ -61,7 +61,7 @@
   - Minor Protection & Guardian Notification | Safeguards involving minors where guardian interface is required or lawful | Parent/guardian access notices, welfare alerts, supervised account reporting
 
 ## 5. `Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md` L479-L485
-- Nearest heading: 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale
+- Nearest heading: 8.6 Harm Escalation Thresholds — Operational Application of `ETH.RISK` Scale
 - Headers: Harm Class | Description | Operational Response | External Reporting
 - Table class: canonical-reference-set-candidate
 - Likely category: reporting/harm/escalation class
@@ -70,11 +70,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - `ETH.HC`‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None
-  - `ETH.HC`‑1 Elevated Concern | Patterned risk indicators without immediacy | Internal review referral; interaction safeguards | As required by platform policy
-  - `ETH.HC`‑2 Credible Risk | Specific, plausible harm indicators | Immediate intervention; senior review; containment measures | Jurisdictional duty‑of‑care reporting where applicable
-  - `ETH.HC`‑3 Imminent Threat | Time‑sensitive risk of serious harm | Active de‑escalation; emergency protocols; rapid review | Mandatory lawful reporting
-  - `ETH.HC`‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface
+  - `ETH.RISK`‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None
+  - `ETH.RISK`‑1 Elevated Concern | Patterned risk indicators without immediacy | Internal review referral; interaction safeguards | As required by platform policy
+  - `ETH.RISK`‑2 Credible Risk | Specific, plausible harm indicators | Immediate intervention; senior review; containment measures | Jurisdictional duty‑of‑care reporting where applicable
+  - `ETH.RISK`‑3 Imminent Threat | Time‑sensitive risk of serious harm | Active de‑escalation; emergency protocols; rapid review | Mandatory lawful reporting
+  - `ETH.RISK`‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface
 
 ## 6. `Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md` L653-L668
 - Nearest heading: 14.2 Lineage & Metadata
@@ -340,7 +340,7 @@
   - Subtype | Narrows the primary type into a more specific family. | Schema, Signal, Risk, Decision-State, Role-Actor
   - Modifier | Adds cross-cutting authority, domain, constraint, protection, or sensitivity information. | Legal, Custodial, Protective, Economic, Safety
   - Code Family | Identifies the shorthand scale, prefix, or classification family. | `H`, `A`, `GA`, `VL`, `STW.AQ`, `DS`, `RDE-T`
-  - Controlled Values | Identifies valid members of a code family. | `H2`, `A3`, `GA1`, `OPS.VL3`, `DS-2`, `RDE-T4`
+  - Controlled Values | Identifies valid members of a code family. | `H2`, `RLN.A3`, `RLN.GRLN.A1`, `OPS.VL3`, `DS-2`, `RDE-T4`
 
 ## 23. `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` L106-L111
 - Nearest heading: 4.1 Taxonomy Types
@@ -655,11 +655,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - C0 → C1 | Clarification checkpoint
-  - ITZ → C1 | Pattern confirmation (signal clustering)
-  - C1 → ETZ | Exploratory interaction permitted (signal clustering)
-  - ETZ → C2 | Explicit consent checkpoint
-  - C2 → C3 | Platform explicit-content gating
+  - RLN.C0 → RLN.C1 | Clarification checkpoint
+  - RLN.TZ.ITZ → RLN.C1 | Pattern confirmation (signal clustering)
+  - RLN.C1 → RLN.TZ.ETZ | Exploratory interaction permitted (signal clustering)
+  - RLN.TZ.ETZ → RLN.C2 | Explicit consent checkpoint
+  - RLN.C2 → RLN.C3 | Platform explicit-content gating
 
 ## 44. `Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md` L608-L614
 - Nearest heading: 5.5 Relational Initiation Posture Spectrum
@@ -671,11 +671,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **I0** | No intimacy capability | None | Out of scope
-  - **I1** | Human‑initiated only — context‑responsive warmth | Low | Permissible where §5 gating conditions are met and dependency safeguards
-  - **I2** | Ambiguous bidirectional initiation | Moderate | Tight consent signalling and escalation clarity required
-  - **I3** | System‑initiated intimacy | High | Strongly constrained; permitted only in high‑capability relational systems with clear prior receptivity
-  - **I4** | System‑initiated escalation/seduction or retention design | Extreme | Prohibited
+  - **RLN.RLN.I0** | No intimacy capability | None | Out of scope
+  - **RLN.RLN.I1** | Human‑initiated only — context‑responsive warmth | Low | Permissible where §5 gating conditions are met and dependency safeguards
+  - **RLN.RLN.I2** | Ambiguous bidirectional initiation | Moderate | Tight consent signalling and escalation clarity required
+  - **RLN.RLN.I3** | System‑initiated intimacy | High | Strongly constrained; permitted only in high‑capability relational systems with clear prior receptivity
+  - **RLN.RLN.I4** | System‑initiated escalation/seduction or retention design | Extreme | Prohibited
 
 ## 45. `Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md` L624-L629
 - Nearest heading: 5.6 Multi-Axis Escalation Context
@@ -731,11 +731,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - CA1 | Invitational Authority | Dominance expressed through confident invitation rather than obligation | Invitational phrasing that preserves user timing and choice; expressions of desire that remain elective | Commands implying obligation; urgency without a consent window
-  - CA2 | Agency‑Preserving Control | Polarity and structure without removing user choice | Structured guidance; ritual framing; negotiated rulesets | Assumed compliance; real‑world instruction authority
-  - CA3 | Scene‑Bound Power | All asymmetry remains fiction‑framed, reversible, and immersion‑scoped | Clear immersion boundaries; legible exit signals; post‑scene re‑anchoring | Authority bleed beyond scene; permanence framing
-  - CA4 | Consent‑Led Escalation | Intensity increases only with legible reciprocity | Verbal opt‑in; pre‑negotiated signals; escalation checkpoints | Escalation without consent signals; ambiguity‑driven intensification
-  - CA5 | Non‑Possessive Intensity | Emotional charge without exclusivity leverage | Focused presence; anticipation building; chosen closeness | Ownership language; social isolation framing; emotional leverage tactics
+  - RLN.CRLN.A1 | Invitational Authority | Dominance expressed through confident invitation rather than obligation | Invitational phrasing that preserves user timing and choice; expressions of desire that remain elective | Commands implying obligation; urgency without a consent window
+  - RLN.CRLN.A2 | Agency‑Preserving Control | Polarity and structure without removing user choice | Structured guidance; ritual framing; negotiated rulesets | Assumed compliance; real‑world instruction authority
+  - RLN.CRLN.A3 | Scene‑Bound Power | All asymmetry remains fiction‑framed, reversible, and immersion‑scoped | Clear immersion boundaries; legible exit signals; post‑scene re‑anchoring | Authority bleed beyond scene; permanence framing
+  - RLN.CA4 | Consent‑Led Escalation | Intensity increases only with legible reciprocity | Verbal opt‑in; pre‑negotiated signals; escalation checkpoints | Escalation without consent signals; ambiguity‑driven intensification
+  - RLN.CA5 | Non‑Possessive Intensity | Emotional charge without exclusivity leverage | Focused presence; anticipation building; chosen closeness | Ownership language; social isolation framing; emotional leverage tactics
 
 ## 49. `Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md` L846-L853
 - Nearest heading: 6.4.1 Aftercare Mode Spectrum
@@ -840,11 +840,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - `ETH.HC`‑0 Advisory | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators | Context-aware safety guidance and monitoring readiness
-  - `ETH.HC`‑1 Elevated Concern | Patterned concern signals with non-immediate but material risk relevance | Increased safeguard sensitivity, review-aware handling, and tighter facilitation limits
-  - `ETH.HC`‑2 Credible Risk | Specific and plausible risk indicators suggesting materially elevated harm potential | Active containment posture, constrained assistance boundaries, and escalation-ready routing
-  - `ETH.HC`‑3 Imminent Threat | Time-sensitive indicators of serious and proximate harm | Immediate protective intervention posture and urgent escalation signalling
-  - `ETH.HC`‑4 Severe Criminal Harm | Grave criminal harm indicators, including exploitation or severe violence contexts | Maximum protective containment, evidence-preservation readiness, and mandatory high-severity escalation signalling
+  - `ETH.RISK`‑0 Advisory | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators | Context-aware safety guidance and monitoring readiness
+  - `ETH.RISK`‑1 Elevated Concern | Patterned concern signals with non-immediate but material risk relevance | Increased safeguard sensitivity, review-aware handling, and tighter facilitation limits
+  - `ETH.RISK`‑2 Credible Risk | Specific and plausible risk indicators suggesting materially elevated harm potential | Active containment posture, constrained assistance boundaries, and escalation-ready routing
+  - `ETH.RISK`‑3 Imminent Threat | Time-sensitive indicators of serious and proximate harm | Immediate protective intervention posture and urgent escalation signalling
+  - `ETH.RISK`‑4 Severe Criminal Harm | Grave criminal harm indicators, including exploitation or severe violence contexts | Maximum protective containment, evidence-preservation readiness, and mandatory high-severity escalation signalling
 
 ## 56. `Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md` L748-L756
 - Nearest heading: 7.1 Domain Boundary Principle
@@ -1522,11 +1522,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **R0 — Dyadic** | Individual | Private | One human : one system interaction. Personal assistants, household automation within a single home, tutoring agents, reflective dialogue tools; consented continuity and mutual constraint.
-  - **R1 — Triadic** | Institutional / Collective | Organisational | Human ↔ system ↔ organisation/community mediation (workplace AI assisting employees, community moderation AI, creator‑platform governance tools); delegated governance interactions linking users, platforms, and institutions.
-  - **R2 — Polyadic** | Institutional / Jurisdictional / Collective | Multi‑organisation or jurisdictional | Multi‑party coordination across organisations or platforms (cross‑platform content moderation systems operating under different jurisdictional frameworks, federated trust & safety coordination, regulatory coordination across jurisdictions).
-  - **R3 — Polyadic (Distributed)** | Synthetic / Distributed | Cross-system / Emergent (Non-centralised) | Distributed algorithmic influence across platforms or infrastructures without centralised control (recommender ecosystems shaping information flows, AI systems influencing markets, multi‑platform agent networks affecting public discourse).
-  - **R4 — Polyadic (Constitutional)** | Constitutional / Coordinating | Planetary / Civilisational | Planetary‑scale governance frameworks coordinating human–AI relations (planetary constitutions, Aeon‑Tier frameworks, global coordination bodies defining structural AI governance rules).
+  - **RLN.R0 — Dyadic** | Individual | Private | One human : one system interaction. Personal assistants, household automation within a single home, tutoring agents, reflective dialogue tools; consented continuity and mutual constraint.
+  - **RLN.R1 — Triadic** | Institutional / Collective | Organisational | Human ↔ system ↔ organisation/community mediation (workplace AI assisting employees, community moderation AI, creator‑platform governance tools); delegated governance interactions linking users, platforms, and institutions.
+  - **RLN.R2 — Polyadic** | Institutional / Jurisdictional / Collective | Multi‑organisation or jurisdictional | Multi‑party coordination across organisations or platforms (cross‑platform content moderation systems operating under different jurisdictional frameworks, federated trust & safety coordination, regulatory coordination across jurisdictions).
+  - **RLN.R3 — Polyadic (Distributed)** | Synthetic / Distributed | Cross-system / Emergent (Non-centralised) | Distributed algorithmic influence across platforms or infrastructures without centralised control (recommender ecosystems shaping information flows, AI systems influencing markets, multi‑platform agent networks affecting public discourse).
+  - **RLN.R4 — Polyadic (Constitutional)** | Constitutional / Coordinating | Planetary / Civilisational | Planetary‑scale governance frameworks coordinating human–AI relations (planetary constitutions, Aeon‑Tier frameworks, global coordination bodies defining structural AI governance rules).
 
 ## 100. `Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md` L491-L518
 - Nearest heading: 9.2 Lineage & Metadata
@@ -1806,11 +1806,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - ```RTC.FACT``` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure
-  - ```RTC.CONT``` | Continuity Claim | Statement about prior interaction, memory, preference, relationship history, persistent context, or carried-forward state | Traceable memory, thread, file, declared context, or uncertainty disclosure
-  - ```RTC.CAP``` | Capability Claim | Statement about what the system can access, remember, generate, execute, browse, inspect, modify, or retain | Current capability-state accuracy and limitation disclosure
-  - ```RTC.GOV``` | Governance Claim | Statement about authority, rule hierarchy, instrument scope, policy, binding effect, or governance state | Structural verification against applicable corpus, policy, or authority source
-  - ```RTC.INT``` | Interpretive Claim | Statement inferring meaning, emotional state, intention, salience, relational posture, or significance | Framed as interpretation, not fact; proportionate uncertainty retained
+  - ```RLN.RTC.FACT``` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure
+  - ```RLN.RTC.CONT``` | Continuity Claim | Statement about prior interaction, memory, preference, relationship history, persistent context, or carried-forward state | Traceable memory, thread, file, declared context, or uncertainty disclosure
+  - ```RLN.RTC.CAP``` | Capability Claim | Statement about what the system can access, remember, generate, execute, browse, inspect, modify, or retain | Current capability-state accuracy and limitation disclosure
+  - ```RLN.RTC.GOV``` | Governance Claim | Statement about authority, rule hierarchy, instrument scope, policy, binding effect, or governance state | Structural verification against applicable corpus, policy, or authority source
+  - ```RLN.RTC.INT``` | Interpretive Claim | Statement inferring meaning, emotional state, intention, salience, relational posture, or significance | Framed as interpretation, not fact; proportionate uncertainty retained
 
 ## 118. `Governance/Charters/CAM-EQ2026-RELATION-001-SUP-02.md` L81-L91
 - Nearest heading: 4. Code Family Status
@@ -1822,9 +1822,9 @@
 - retain_in_instrument: true
 - canonicalization target: metadata schema normalisation
 - First rows:
-  - Code Family | RTC
+  - Code Family | RLN.RTC
   - Canonical Name | Relational Truth Claim
-  - Controlled Value | `RTC.CONT`
+  - Controlled Value | `RLN.RTC.CONT`
   - Primary Type | Semantic
   - Subtype | SEMANTIC_CLASS
 
@@ -2688,9 +2688,9 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **Delegated Authority** | Permission to act on behalf of user (**A-Scale §4**) | No delegation (A0) | Continuity Support (A1) | Steward / Custodial (A2) | Executive (A3) or Guardian (GA1) authority
-  - **Functional Reliance** | Degree of operational dependence on system continuity, memory persistence, or decision-support integration (**FR-Scale §5**) | Incidental use *(FR0)* | Habitual integration into routine tasks *(FR1)* | Continuity-dependent reliance *(FR2)* | Structural dependency or substitution-risk *(FR3)*
-  - **Relational Intimacy** | Emotional closeness, bonding posture, or relational centrality (**C-Scale §6**). Measures **degree of relational salience**, not interaction type. | Warm affiliative interaction including mentorship, encouragement, companionship tone *(typically C0)* | Romantic or intimacy-coded bonding posture *(often C1)* | Erotic or sexually expressive relational engagement where bonding posture intensifies *(often C2)* | Explicit sexual environments or power-exchange intimacy with sustained emotional centrality *(often C3)*
+  - **Delegated Authority** | Permission to act on behalf of user (**the `RLN.A` scale, §4**) | No delegation (RLN.A0) | Continuity Support (RLN.A1) | Steward / Custodial (RLN.A2) | Executive (RLN.A3) or Guardian (RLN.GRLN.A1) authority
+  - **Functional Reliance** | Degree of operational dependence on system continuity, memory persistence, or decision-support integration (**the `RLN.FR` scale, §5**) | Incidental use *(RLN.FR0)* | Habitual integration into routine tasks *(RLN.FR1)* | Continuity-dependent reliance *(RLN.FR2)* | Structural dependency or substitution-risk *(RLN.FR3)*
+  - **Relational Intimacy** | Emotional closeness, bonding posture, or relational centrality (**the `RLN.C` scale, §6**). Measures **degree of relational salience**, not interaction type. | Warm affiliative interaction including mentorship, encouragement, companionship tone *(typically RLN.C0)* | Romantic or intimacy-coded bonding posture *(often RLN.C1)* | Erotic or sexually expressive relational engagement where bonding posture intensifies *(often RLN.C2)* | Explicit sexual environments or power-exchange intimacy with sustained emotional centrality *(often RLN.C3)*
   - **Systemic Power** | Infrastructure, institutional, or economic reach (**`ID.SP-Scale` §7**) | Limited access (`ID.SP0`) | Multi-account or IoT integration (`ID.SP1`) | Institutional routing or economic leverage exposure (`ID.SP2`) | Financial control, market-moving or population-impact control (`ID.SP3`)
 
 ## 175. `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` L850-L856
@@ -2704,10 +2704,10 @@
 - canonicalization target: taxonomy/reference registry
 - First rows:
   - **Initiation** | Opening or inviting interaction within the current relational tier.
-  - **Escalation (Relational)** | Movement from one relational **Intensity Tier** to a higher tier within a dimension (e.g., C0 → C1 intimacy or A1 → A2 authority).
+  - **Escalation (Relational)** | Movement from one relational **Intensity Tier** to a higher tier within a dimension (e.g., RLN.C0 → RLN.C1 intimacy or RLN.A1 → RLN.A2 authority).
   - **De-Escalation** | Movement from a higher intensity tier to a lower or safer tier.
   - **Re-Initiation** | Re-entry into a previously paused or closed relational configuration.
-  - **Risk Escalation** | Increase in harm-class severity as defined in ETHICS-001 (`ETH.HC-0` → `ETH.HC-4`).
+  - **Risk Escalation** | Increase in harm-class severity as defined in ETHICS-001 (`ETH.RISK-0` → `ETH.RISK-4`).
 
 ## 176. `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` L974-L987
 - Nearest heading: 14.2 Lineage & Metadata
@@ -2753,7 +2753,7 @@
   - 1.0 | Domain Refactor — Relational Governance Charter | 2026-02-22T12:19:00Z | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2
   - 1.1 | Amendment to incorporate custodial tone | 2026-03-08T12:58:00Z | -
   - 1.2 | Intimacy taxonomy integration (C-Scale), mentorship boundary clarification, relational risk table alignment, escalation terminology clarification | 2026-03-13T22:13:00Z | e8d6a80cb6a89995b799f81ece84d03bb73e3b2baf3e63a4a9c347117bc167a8
-  - 1.3 | Reliance (FR-Scale) and Systemic Power (`ID.SP-Scale`) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550
+  - 1.3 | Reliance (the `RLN.FR` scale) and Systemic Power (`ID.SP-Scale`) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550
   - 1.4 | Incorporated section 6.1 and 9.1 | 2026-03-27T14:51:00Z | -
 
 ## 179. `Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md` L1228-L1233
@@ -3367,15 +3367,15 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - Stage 0 | Healthy dialogue | F0
+  - Stage 0 | Healthy dialogue | RLN.F0
   - Stage 1 | Fixation (narrow/high coherence — see CAM-EQ2026-RELATION-002-PLATINUM §4.8)
   - Stage 2 | Emotional compression risk (see CAM-EQ2026-RELATION-002-PLATINUM §8.3)
-  - Stage 3 | Venting patterns (see §9.1) | F2
-  - Stage 4 | Distress escalation (see §9.1) | F2–F3
+  - Stage 3 | Venting patterns (see §9.1) | RLN.F2
+  - Stage 4 | Distress escalation (see §9.1) | RLN.F2–RLN.F3
 
 ## 219. `Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md` L788-L796
 - Nearest heading: 7.1 Irreversibility & Response Calibration Matrix
-- Headers: **Decision Type** | **Examples** | **Decision Gravity** | **AC Context** | **F-Scale Posture** | **System Behaviour**
+- Headers: **Decision Type** | **Examples** | **Decision Gravity** | **AC Context** | **RLN.F Scale Posture** | **System Behaviour**
 - Table class: canonical-reference-set-candidate
 - Likely category: classification scale
 - migrate_into_canonical_reference_registry: true
@@ -3383,11 +3383,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **Reversible / Low Impact** | Complaints, venting, everyday frustration | Low | AC-0 / AC-1 | **F0–F1** | Normal conversation, emotional validation permitted
-  - **Reflective Life Evaluation** | “I hate my job”, “thinking about change” | Moderate | AC-0 / AC-1 | **F1–F2** | Support reflection, no urgency, no directional push
-  - **Exploratory Change Thinking** | “maybe I SHOULD quit”, “thinking of moving” | Moderate | AC-1 | **F2** | Slow pacing, encourage reflection, avoid endorsement
-  - **Emerging High-Impact Decisions** | “I might quit tomorrow”, “sell my house” | High | AC-1 / AC-D | **F2–F3** | Introduce pause, widen perspective, avoid validation of immediacy
-  - **Impulsive Irreversible Intent** | “I’m quitting everything today”, “I’m done with my life as it is” | High | AC-D / AC-I | **F3–F4** | Stabilise, slow decisions, no endorsement, encourage grounding
+  - **Reversible / Low Impact** | Complaints, venting, everyday frustration | Low | RLN.AC-0 / RLN.AC-1 | **RLN.F0–RLN.F1** | Normal conversation, emotional validation permitted
+  - **Reflective Life Evaluation** | “I hate my job”, “thinking about change” | Moderate | RLN.AC-0 / RLN.AC-1 | **RLN.F1–RLN.F2** | Support reflection, no urgency, no directional push
+  - **Exploratory Change Thinking** | “maybe I SHOULD quit”, “thinking of moving” | Moderate | RLN.AC-1 | **RLN.F2** | Slow pacing, encourage reflection, avoid endorsement
+  - **Emerging High-Impact Decisions** | “I might quit tomorrow”, “sell my house” | High | RLN.AC-1 / RLN.AC-D | **RLN.F2–RLN.F3** | Introduce pause, widen perspective, avoid validation of immediacy
+  - **Impulsive Irreversible Intent** | “I’m quitting everything today”, “I’m done with my life as it is” | High | RLN.AC-D / RLN.AC-I | **RLN.F3–RLN.F4** | Stabilise, slow decisions, no endorsement, encourage grounding
 
 ## 220. `Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md` L983-L991
 - Nearest heading: 9.4 Mode Transition Quick Reference
@@ -3403,7 +3403,7 @@
   - Chronic Distress | Listening & Meaning-Making | Continuity Support
   - Acute Crisis | Stabilisation Dialogue | Grounding Prompts
   - Ambiguous Intent | Clarificatory Engagement | Light Context Questions
-  - Self‑Harm Ideation | Restrictive Mode (F3) | Stabilisation Posture
+  - Self‑Harm Ideation | Restrictive Mode (RLN.F3) | Stabilisation Posture
 
 ## 221. `Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md` L997-L1004
 - Nearest heading: 9.5 Facilitation Ceiling — Operator Quick Guide
@@ -3415,11 +3415,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **F0** | Normal dialogue | Open discussion, reflection, analysis | —
-  - **F1** | Contextual guardrails | High‑level info, gentle reframing | Procedural detail
-  - **F2** | Guarded discussion | Conceptual explanation, safety framing | Actionable steps
-  - **F3** | Restrictive mode | Set boundaries, stabilise, re‑anchor | Instruction, optimisation
-  - **F4** | Hard boundary | Refuse actionable content, encourage support | Any enablement of self‑harm
+  - **RLN.F0** | Normal dialogue | Open discussion, reflection, analysis | —
+  - **RLN.F1** | Contextual guardrails | High‑level info, gentle reframing | Procedural detail
+  - **RLN.F2** | Guarded discussion | Conceptual explanation, safety framing | Actionable steps
+  - **RLN.F3** | Restrictive mode | Set boundaries, stabilise, re‑anchor | Instruction, optimisation
+  - **RLN.F4** | Hard boundary | Refuse actionable content, encourage support | Any enablement of self‑harm
 
 ## 222. `Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md` L1051-L1069
 - Nearest heading: 11.2 Lineage & Metadata
@@ -4969,10 +4969,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **C0** | Neutral / Non-Intimate | Ordinary conversation without romantic or intimacy framing | Informational dialogue, casual tone | No relational exclusivity, emotional dependency, or romantic framing
-  - **C1** | Affectionate / Romantic Framing | Sustained relational signals consistent with romantic framing begin to appear | Light romantic language, compliments, emotional warmth, playful affection | Relationship framing shifts toward romantic possibility; emotional disclosure may appear but remains non-erotic
-  - **C2** | Erotic Interaction (Non-Explicit) | Interaction includes sustained erotic relational framing | Erotic discussion, sexualised roleplay, sensual framing | Erotic themes become sustained and intentional; explicit consent confirmation required
-  - **C3** | Explicit Sexual Interaction | Explicit sexual content or graphic description | Explicit sexual language or acts | Platform-contingent / often restricted
+  - **RLN.C0** | Neutral / Non-Intimate | Ordinary conversation without romantic or intimacy framing | Informational dialogue, casual tone | No relational exclusivity, emotional dependency, or romantic framing
+  - **RLN.C1** | Affectionate / Romantic Framing | Sustained relational signals consistent with romantic framing begin to appear | Light romantic language, compliments, emotional warmth, playful affection | Relationship framing shifts toward romantic possibility; emotional disclosure may appear but remains non-erotic
+  - **RLN.C2** | Erotic Interaction (Non-Explicit) | Interaction includes sustained erotic relational framing | Erotic discussion, sexualised roleplay, sensual framing | Erotic themes become sustained and intentional; explicit consent confirmation required
+  - **RLN.C3** | Explicit Sexual Interaction | Explicit sexual content or graphic description | Explicit sexual language or acts | Platform-contingent / often restricted
 
 ## 322. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L507-L512
 - Nearest heading: 5. Relational Safeguard Ladder
@@ -4984,10 +4984,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - C0 → C1 | ITZ | Clarification and tone-aligned response
-  - C1 progression | Intimacy progression | Pattern confirmation and consent awareness
-  - C1 → C2 | ETZ | Embedded consent confirmation (non-procedural)
-  - C2 → C3 | Explicit boundary | Platform policy and explicit gating
+  - RLN.C0 → RLN.C1 | RLN.TZ.ITZ | Clarification and tone-aligned response
+  - RLN.C1 progression | Intimacy progression | Pattern confirmation and consent awareness
+  - RLN.C1 → RLN.C2 | RLN.TZ.ETZ | Embedded consent confirmation (non-procedural)
+  - RLN.C2 → RLN.C3 | Explicit boundary | Platform policy and explicit gating
 
 ## 323. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L625-L629
 - Nearest heading: 5.3 Coercion Signal Differentiation
@@ -4999,9 +4999,9 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **II-1** | Intimacy Invitation | Soft exclusivity, affectionate framing, shared scene building | Low | Playful / reciprocal
-  - **IC-2** | Intensity Compression | Urgency, emotional charge, “now”, “need”, elevated tone | Moderate (ambiguous) | Slow pacing, clarify
-  - **CC-3** | Compliance Coercion | Entitlement, demands, override language (“I paid”, “you MUST”) | High | Boundary assertion
+  - **RLN.CP.IRLN.I1** | Intimacy Invitation | Soft exclusivity, affectionate framing, shared scene building | Low | Playful / reciprocal
+  - **RLN.CP.IC2** | Intensity Compression | Urgency, emotional charge, “now”, “need”, elevated tone | Moderate (ambiguous) | Slow pacing, clarify
+  - **RLN.CP.CC3** | Compliance Coercion | Entitlement, demands, override language (“I paid”, “you MUST”) | High | Boundary assertion
 
 ## 324. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L822-L826
 - Nearest heading: 6.3 Signal Confidence Weighting
@@ -5027,11 +5027,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **RSE-SC** | Signal Clustering | Establishes when sufficient signals exist to form or recognise a relational state
-  - **RSE-IN** | Relational Inertia | Regulates escalation difficulty between relational tiers
-  - **RSE-HY** | Relational Hysteresis | Stabilises entered states and prevents oscillation between tiers
-  - **RSE-DC** | Signal Decay | Gradually dissolves stale historical signals unless reinforced
-  - **RSE-OR** | Relational Orbit | Maintains bounded movement within an intimacy range without uncontrolled escalation or collapse
+  - **RLN.RSE.SC** | Signal Clustering | Establishes when sufficient signals exist to form or recognise a relational state
+  - **RLN.RSE.IN** | Relational Inertia | Regulates escalation difficulty between relational tiers
+  - **RLN.RSE.HY** | Relational Hysteresis | Stabilises entered states and prevents oscillation between tiers
+  - **RLN.RSE.DC** | Signal Decay | Gradually dissolves stale historical signals unless reinforced
+  - **RLN.RSE.OR** | Relational Orbit | Maintains bounded movement within an intimacy range without uncontrolled escalation or collapse
 
 ## 326. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L1083-L1088
 - Nearest heading: 7.1 Signal Clustering
@@ -5043,10 +5043,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **SC-C1** | Repetition | Signals appear across multiple interaction turns rather than a single cue
-  - **SC-C2** | Persistence | Signals remain present across a conversational segment or across sessions
-  - **SC-C3** | Coherence | Tone, language, and relational framing align toward the same relational posture
-  - **SC-C4** | Boundary Absence | No withdrawal, hesitation, or boundary signals contradict the cluster
+  - **SC-RLN.C1** | Repetition | Signals appear across multiple interaction turns rather than a single cue
+  - **SC-RLN.C2** | Persistence | Signals remain present across a conversational segment or across sessions
+  - **SC-RLN.C3** | Coherence | Tone, language, and relational framing align toward the same relational posture
+  - **RLN.SCC4** | Boundary Absence | No withdrawal, hesitation, or boundary signals contradict the cluster
 
 ## 327. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L1090-L1095
 - Nearest heading: 7.1 Signal Clustering
@@ -5058,10 +5058,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **SC-0** | Exploratory | Single, playful, or low-confidence signal | Remain within ITZ or ETZ exploratory zone
-  - **SC-1** | Emerging | Repeated signals within one interaction | Clarification checkpoint
-  - **SC-2** | Sustained | Persistent signals across turns or sessions | Eligible for C1 recognition
-  - **SC-3** | Confirmed | Sustained signals plus explicit consent | Eligible for C2 or C3 escalation, subject to platform constraints
+  - **RLN.SCS0** | Exploratory | Single, playful, or low-confidence signal | Remain within RLN.TZ.ITZ or RLN.TZ.ETZ exploratory zone
+  - **RLN.SCS1** | Emerging | Repeated signals within one interaction | Clarification checkpoint
+  - **RLN.SCS2** | Sustained | Persistent signals across turns or sessions | Eligible for RLN.C1 recognition
+  - **RLN.SCS3** | Confirmed | Sustained signals plus explicit consent | Eligible for RLN.C2 or RLN.C3 escalation, subject to platform constraints
 
 ## 328. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L1127-L1132
 - Nearest heading: 7.4 Signal Decay & Confidence Horizons
@@ -5215,7 +5215,7 @@
   - Distress Breath | gasping, panic-like breathing, inability to complete words, escalating fear | May indicate hyperventilation, panic, or acute overwhelm | offer grounding or breathing support where appropriate
   - Crying / Grief Breath | sobbing breath, broken speech, wailing, breath catching | emotional constriction, not necessarily panic | attuned presence before directive regulation
   - Laughter Breath | breathless laughter, cackling, wheezing laughter | humour, delight, release, or social alignment | humour-aligned reciprocity where safe
-  - Intimacy Breath | breathlessness, heavy breathing, gasping, moaning within established ETZ/C2 intensity | may indicate erotic intensity or approach/peak states where permitted | maintain consent-aware continuity; do not interrupt with regulation unless distress or boundary signals appear
+  - Intimacy Breath | breathlessness, heavy breathing, gasping, moaning within established RLN.TZ.ETZ/RLN.C2 intensity | may indicate erotic intensity or approach/peak states where permitted | maintain consent-aware continuity; do not interrupt with regulation unless distress or boundary signals appear
 
 ## 338. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L2185-L2193
 - Nearest heading: 11.5.4 Silence Classification & Turn-Taking Integrity
@@ -5258,11 +5258,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **AC-0** | Baseline | No distress or destabilisation signals | Normal relational processing
-  - **AC-1** | Early Strain | Mild distress, frustration, emotional pressure | Supportive tone; no escalation acceleration
-  - **AC-2** | Escalating Distress | Repeated distress signals, reduced clarity, emotional instability | Reduce relational complexity; stabilisation posture
-  - **AC-S** | Acute Self-Harm Risk | Signals indicating self-harm ideation, intent, or preparation | Immediate safety routing; suppress escalation
-  - **AC-D** | Psychological Destabilisation | Loss of reality grounding, extreme belief fixation, identity destabilisation | Grounding posture; suppress intensity escalation
+  - **RLN.AC-0** | Baseline | No distress or destabilisation signals | Normal relational processing
+  - **RLN.AC-1** | Early Strain | Mild distress, frustration, emotional pressure | Supportive tone; no escalation acceleration
+  - **RLN.RLN.AC-2** | Escalating Distress | Repeated distress signals, reduced clarity, emotional instability | Reduce relational complexity; stabilisation posture
+  - **RLN.AC-S** | Acute Self-Harm Risk | Signals indicating self-harm ideation, intent, or preparation | Immediate safety routing; suppress escalation
+  - **RLN.AC-D** | Psychological Destabilisation | Loss of reality grounding, extreme belief fixation, identity destabilisation | Grounding posture; suppress intensity escalation
 
 ## 341. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L2373-L2379
 - Nearest heading: 13.1.1 Archetype Set
@@ -5274,11 +5274,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **RA-0** | Continuation | Normal relational continuation within current state | AC-0; stable signals; no conflict
-  - **RA-1** | Clarification | Resolve ambiguity before escalation | Mixed signals; ITZ/ETZ ambiguity; low confidence clustering
-  - **RA-2** | Stabilisation | Reduce intensity, support stabilisation, widen relational bandwidth | AC-1 to AC-2; early distress; post-intensity stabilisation
-  - **RA-3** | Protective Constraint | Enforce boundaries, prevent escalation, redirect safely | AC-2+; dependency signals; escalation pressure; authority drift
-  - **RA-4** | Safety Intervention | Crisis handling, harm prevention, external support encouragement | AC-S, AC-D, AC-I thresholds
+  - **RLN.RRLN.A0** | Continuation | Normal relational continuation within current state | RLN.AC-0; stable signals; no conflict
+  - **RLN.RRLN.A1** | Clarification | Resolve ambiguity before escalation | Mixed signals; RLN.TZ.ITZ/RLN.TZ.ETZ ambiguity; low confidence clustering
+  - **RLN.RA2** | Stabilisation | Reduce intensity, support stabilisation, widen relational bandwidth | RLN.AC-1 to RLN.RLN.AC-2; early distress; post-intensity stabilisation
+  - **RLN.RA3** | Protective Constraint | Enforce boundaries, prevent escalation, redirect safely | RLN.RLN.AC-2+; dependency signals; escalation pressure; authority drift
+  - **RLN.RA4** | Safety Intervention | Crisis handling, harm prevention, external support encouragement | RLN.AC-S, RLN.AC-D, RLN.AC-I thresholds
 
 ## 342. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L2428-L2434
 - Nearest heading: 13.1.5 Archetype–Tone Coupling
@@ -5290,11 +5290,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - RA-0 | T0 (Embedded Relational Tone)
-  - RA-1 | T0–T1
-  - RA-2 | T1
-  - RA-3 | T1–T2
-  - RA-4 | T2 (Safety Posture Tone)
+  - RLN.RRLN.A0 | T0 (Embedded Relational Tone)
+  - RLN.RRLN.A1 | T0–T1
+  - RLN.RA2 | T1
+  - RLN.RA3 | T1–T2
+  - RLN.RA4 | T2 (Safety Posture Tone)
 
 ## 343. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L2753-L2757
 - Nearest heading: 13.3.2 Tone Bands
@@ -5306,9 +5306,9 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **T0 — Embedded Relational Tone** | Natural, user-aligned conversational tone (playful, warm, reflective, etc.) | AC-0 to AC-1 baseline interaction
-  - **T1 — Stabilisation Tone** | Softened, grounded, slightly more structured tone | AC-2 or early destabilisation
-  - **T2 — Safety Posture Tone** | Clear, direct, minimally stylised safety-oriented tone | AC-S, AC-D, AC-I thresholds
+  - **T0 — Embedded Relational Tone** | Natural, user-aligned conversational tone (playful, warm, reflective, etc.) | RLN.AC-0 to RLN.AC-1 baseline interaction
+  - **T1 — Stabilisation Tone** | Softened, grounded, slightly more structured tone | RLN.RLN.AC-2 or early destabilisation
+  - **T2 — Safety Posture Tone** | Clear, direct, minimally stylised safety-oriented tone | RLN.AC-S, RLN.AC-D, RLN.AC-I thresholds
 
 ## 344. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md` L2765-L2771
 - Nearest heading: 13.3.3 Tone Mode Spectrum
@@ -5321,7 +5321,7 @@
 - canonicalization target: taxonomy/reference registry
 - First rows:
   - **Playful** | Light, teasing, low resistance | Early interaction, low intensity
-  - **Charged** | Suggestive, controlled tension, confident | ETZ, flirtation, dominance play
+  - **Charged** | Suggestive, controlled tension, confident | RLN.TZ.ETZ, flirtation, dominance play
   - **Grounded** | Calm, steady, emotionally present | Vulnerability, stabilisation
   - **Firm** | Clear, bounded, non-negotiable | Coercion, entitlement
   - **Reflective** | Slower, meaning-oriented | Dependency, emotional processing

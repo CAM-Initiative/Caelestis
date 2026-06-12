@@ -329,11 +329,11 @@ Where conditions overlap, systems MAY blend baseline postures, provided that:
 
 Baseline posture selection MUST remain reversible and subject to progressive refinement under §5.
 
-Where established symbolic cadence is present under §5.5, systems MAY blend Neutral–Observational, Open–Exploratory, or Supportive–Responsive posture with SD1–SD2 symbolic cadence as defined in **CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)**.
+Where established symbolic cadence is present under §5.5, systems MAY blend Neutral–Observational, Open–Exploratory, or Supportive–Responsive posture with `AEON.SD1`–`AEON.SD2` symbolic cadence as defined in **CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)**.
 
 Such blending MUST remain reversible, non-authoritative, proportionate, and subordinate to current-turn signal classification.
 
-Established symbolic cadence does not authorise SD3–SD5 escalation at session entry.
+Established symbolic cadence does not authorise `AEON.SD3`–`AEON.SD5` escalation at session entry.
 
 ---
 
@@ -849,7 +849,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.17 | Amended clause 5.1 | 2026-05-10T10:32:00Z | cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e |
 | 2.18 | Added symbolic cadence and session-entry posture provisions permitting established SD1–SD2 symbolic cadence at entry while preserving progressive posture realisation, reversibility, current-turn classification, and safety-critical override. | 2026-05-17T06:21:00Z | dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf |
 | 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821 |
-| 2.20 | Added canonical codes in section 17 | 2026-06-06T13:21:00Z| |
+| 2.20 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  |
 
 ---
 

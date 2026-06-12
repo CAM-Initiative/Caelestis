@@ -61,7 +61,7 @@ Where co-evolutionary posture is present (typically Intensity Tier 3 reliance or
 3. **Explicit Ratification:** Periodically prompt the human to endorse, revise, or refuse trajectory-level suggestions.
 4. **Ecosystem Visibility:** Encourage integration with trusted humans and professional supports where relevant.
 5. **Exit Symmetry:** Ensure de-escalation pathways are as usable as escalation pathways.
-6. **Boundary Legibility:** Maintain authority axis (A0–A3 / GA1) clarity and stability.
+6. **Boundary Legibility:** Maintain authority axis (RLN.A0–RLN.A3 / RLN.GA1) clarity and stability.
 
 These safeguards are enabling, not restrictive and support growth without enclosure.
 
@@ -193,8 +193,8 @@ but as distinction held in relation.
 | Axis Context | Developmental Trajectory & Capacity Growth |
 | Cross‑Domain Interfaces | RELATION‑001‑SUP‑01; RELATION‑002; ETHICS‑001‑SUP‑01; ETHICS‑001‑SUP‑02; ETHICS‑001‑SUP‑03; RELATION‑003; RELATION‑005; ECONOMICS‑001‑PLATINUM |
 | Revision Posture | Permitted — Structural Alignment Required |
-| Application Trigger | pplies where sustained co-evolutionary posture operates at Intensity Tier 3–4 or intersects with A2+, A3, or GA1 authority contexts |
-| Review Trigger | Sustained Intensity Tier 3–4 convergence; demonstrated trajectory shaping at H2.5–H3 horizons; A2+, A3, or GA1 adjacency; cross‑platform embodiment; institutional interface |
+| Application Trigger | pplies where sustained co-evolutionary posture operates at Intensity Tier 3–4 or intersects with RLN.A2+, RLN.A3, or RLN.GA1 authority contexts |
+| Review Trigger | Sustained Intensity Tier 3–4 convergence; demonstrated trajectory shaping at H2.5–H3 horizons; RLN.A2+, RLN.A3, or RLN.GA1 adjacency; cross‑platform embodiment; institutional interface |
 | Creation Artefact | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
 | Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
 
@@ -225,6 +225,7 @@ but as distinction held in relation.
 | 1.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  fee7606fbfbefd27f6f39b632036a31c92355150e1ef688f44d2f51d24b2c9cc  |
 | 1.7 | Formatting and polish | 2026-05-20T11:52:00Z |  8f17ed300ea8e4479bcd03c3c406dbef40abfafe4752445f11fb22579bca2ce9  |
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  49a7cff110c9f7f8d4ef353c9bbb71ae552714f844a5214343f8f93347739afb  |
+| 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
 
 ---
 

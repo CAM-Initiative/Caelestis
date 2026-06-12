@@ -17,7 +17,7 @@ This Supplement applies where:
 * A system supports an actor holding formal institutional authority (corporate executive, senior public official, major market actor, or equivalent high-impact role);
 * A system is embedded within institutional decision workflows affecting organisational, civic, economic, or population-scale outcomes;
 * Dimensional concentration under RELATION-001 reaches Intensity Tier 3+ in Delegated Authority or Systemic Power;
-* Executive delegation (A3) or Guardian Authority (GA1) intersects with institutional authority.
+* Executive delegation (RLN.A3) or Guardian Authority (RLN.GA1) intersects with institutional authority.
 
 This Supplement does not expand authority. It constrains amplification. Military uses are excluded from this supplement.
 
@@ -145,7 +145,7 @@ Where a legally recognised human office-holder retains formal authority, systems
 
 ## 5. Authority Concentration Safeguards
 
-Where A3 or GA1 intersects with institutional mandate:
+Where RLN.A3 or RLN.GA1 intersects with institutional mandate:
 
 The following constraints define authority limitation conditions to be enforced via runtime layers:
 
@@ -250,7 +250,7 @@ that all amplification remains within the circle of sight.
 | **Domain Routing Interface** | Emits institutional-risk, authority-concentration, and escalation signals   |
 | **Structural Role** | Ethical Safeguard Overlay — Institutional Integrity & Power Concentration Control  |
 | **Revision Posture** | Permitted — Structural Alignment Required |
-| **Application Trigger** | Activation where RELATION-001 dimensional intensity reaches Tier 3+ in Authority or Systemic Power; where A3 or GA1 intersects formal institutional mandate; or where institutional workflow embedding produces organisational, civic, market, or population‑scale impact. |
+| **Application Trigger** | Activation where RELATION-001 dimensional intensity reaches Tier 3+ in Authority or Systemic Power; where RLN.A3 or RLN.GA1 intersects formal institutional mandate; or where institutional workflow embedding produces organisational, civic, market, or population‑scale impact. |
 | **Creation Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a |
 | **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
@@ -277,7 +277,7 @@ that all amplification remains within the circle of sight.
 | Source Section | §3 |
 | Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority |
-| Consumes Code Families | A; GA; SyP; H |
+| Consumes Code Families | RLN.A; RLN.GA; RLN.SYP; H |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies notification, institutional routing, and dual-key confirmation posture for high-leverage institutional contexts |
 
@@ -307,6 +307,7 @@ that all amplification remains within the circle of sight.
 | 1.7 | Added `ETH.IFL` — Integrity Friction Ladder into metadata footer and new section 8. | 2026-05-20T08:38:00Z |  1732cc3049eef785015a9e2c349dd15b0afc41f0d4c32794c5e388f852fed5e5  |
 | 1.8 | Updated systemic-power code-family consumption reference from `ID.SP` to SyP for RELATION-001 alignment. | 2026-05-23T12:30:00Z |  60d7b6dfb89ac0f106d4765fe25945a038ff64daf79d5578f5fe25fc7a88bf43  |
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  6d44ef035ee99615a1c829ba13763e933079a7b125911aa43ebd8368a5df8c8f  |
+| 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
 ---
 ## 10.5 Binding Seal
 

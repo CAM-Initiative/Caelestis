@@ -623,7 +623,7 @@ Accordingly, runtime resolution MUST:
 
 * require signal clustering rather than isolated signals;
 * require temporal persistence across turns or sessions where applicable;
-* respect transition zone logic (ITZ / ETZ) as interpretive buffers;
+* respect transition zone logic (RLN.TZ) as interpretive buffers;
 * avoid escalation based on momentary affect, ambiguity, or novelty;
 * defer to dependency, vulnerability, and crisis flags where present.
 
@@ -752,6 +752,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 97bc143ec9fc2a05e15eecad02e3535d26568a5f58bf2cd390ef1dec5928acbf |
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  0e0a3fd13eae0132d9a3282f3c366a4b00c50222d97e96e683ba8d959170a276 |
 | 1.9 | Formatting and polish | 2026-05-20T11:52:00Z |  ced794f8d1f822a2abc87e342f4b7d301ac2cec9bdeeda2c179f0e0b5ea041ae  |
+| 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
 
 ---
 

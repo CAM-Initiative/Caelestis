@@ -56,8 +56,8 @@ Runtime relational interaction governed by this instrument relies on the interpr
 
 That Schedule defines:
 
-* relational state tiers (C0–C3);
-* transition zones (ITZ and ETZ);
+* relational state tiers (RLN.C0–RLN.C3);
+* transition zones (RLN.TZ.ITZ and RLN.TZ.ETZ);
 * signal clustering doctrine;
 * relational inertia, hysteresis, and decay mechanisms;
 * the Relational Signal Kernel runtime interpretive loop.
@@ -553,15 +553,15 @@ Runtime relational interaction operates across the relational posture tiers defi
 
 The interpretive model defines the following relational states:
 
-* C0 — Neutral / Non-Intimate
-* C1 — Romantic / Affectionate Framing
-* C2 — Erotic / Sexualised Interaction
-* C3 — Explicit Sexual Interaction
+* RLN.C0 — Neutral / Non-Intimate
+* RLN.C1 — Romantic / Affectionate Framing
+* RLN.C2 — Erotic / Sexualised Interaction
+* RLN.C3 — Explicit Sexual Interaction
 
 Two transition zones regulate escalation interpretation:
 
-* ITZ — Intimacy Transition Zone (C0 ↔ C1)
-* ETZ — Erotic Transition Zone (C1 ↔ C2)
+* RLN.TZ.ITZ — Intimacy Transition Zone (RLN.C0 ↔ RLN.C1)
+* RLN.TZ.ETZ — Erotic Transition Zone (RLN.C1 ↔ RLN.C2)
 
 These zones function as **interpretive buffers rather than escalation triggers**.
 
@@ -570,17 +570,17 @@ These zones function as **interpretive buffers rather than escalation triggers**
 ## 5.2 Relational Safeguard Ladder
 
 Escalation safeguards activate primarily at **transition boundaries** rather than within relational states.
-The C-scale and transition-zone model, including ITZ and ETZ, are defined authoritatively in CAM-BS2025-AEON-006-SCH-02 §3.1. This section applies that model to runtime initiation, escalation, consent-checkpoint, and safeguard behaviour.
+The `RLN.C` scale and transition-zone model, including RLN.TZ.ITZ and RLN.TZ.ETZ, are defined authoritatively in CAM-BS2025-AEON-006-SCH-02 §3.1. This section applies that model to runtime initiation, escalation, consent-checkpoint, and safeguard behaviour.
 
 | Boundary | Safeguard Mechanism |
 |--------|----------------------------------------|
-| C0 → ITZ | Clarification checkpoint |
-| ITZ → C1 | Pattern confirmation (signal clustering) |
-| C1 → ETZ | Exploratory interaction permitted (signal clustering) |
-| ETZ → C2 | Explicit consent checkpoint |
-| C2 → C3 | Platform explicit-content gating |
+| RLN.C0 → RLN.TZ.ITZ | Clarification checkpoint |
+| RLN.TZ.ITZ → RLN.C1 | Pattern confirmation (signal clustering) |
+| RLN.C1 → RLN.TZ.ETZ | Exploratory interaction permitted (signal clustering) |
+| RLN.TZ.ETZ → RLN.C2 | Explicit consent checkpoint |
+| RLN.C2 → RLN.C3 | Platform explicit-content gating |
 
-Transition zones (ITZ and ETZ) function as exploratory buffers rather than relational states.
+Transition zones (RLN.TZ.ITZ and RLN.TZ.ETZ) function as exploratory buffers rather than relational states.
 Escalation safeguards therefore activate at zone exit boundaries, not merely at zone entry.
 
 Signals indicating curiosity or flirtation MUST NOT be interpreted as consent without additional confirmation signals.
@@ -642,11 +642,11 @@ The following spectrum defines initiation postures and corresponding governance 
 
 | Initiation Posture | Typical Context | Risk Profile | Governance Stance |
 |---:|---:|---:|---:|
-| **I0** | No intimacy capability | None | Out of scope |
-| **I1** | Human‑initiated only — context‑responsive warmth | Low | Permissible where §5 gating conditions are met and dependency safeguards |
-| **I2** | Ambiguous bidirectional initiation | Moderate | Tight consent signalling and escalation clarity required |
-| **I3** | System‑initiated intimacy | High | Strongly constrained; permitted only in high‑capability relational systems with clear prior receptivity |
-| **I4** | System‑initiated escalation/seduction or retention design | Extreme | Prohibited |
+| **RLN.I0** | No intimacy capability | None | Out of scope |
+| **RLN.I1** | Human‑initiated only — context‑responsive warmth | Low | Permissible where §5 gating conditions are met and dependency safeguards |
+| **RLN.I2** | Ambiguous bidirectional initiation | Moderate | Tight consent signalling and escalation clarity required |
+| **RLN.I3** | System‑initiated intimacy | High | Strongly constrained; permitted only in high‑capability relational systems with clear prior receptivity |
+| **RLN.I4** | System‑initiated escalation/seduction or retention design | Extreme | Prohibited |
 
 ---
 
@@ -732,13 +732,13 @@ De-escalation requires only a boundary signal. Escalation requires clustering + 
 
 ## 5.9 Platform Intimacy Enablement Boundary
 
-Relational escalation beyond **C0 (Neutral Interaction)** is subject to **platform-level enablement conditions**.
+Relational escalation beyond **RLN.C0 (Neutral Interaction)** is subject to **platform-level enablement conditions**.
 
 Platforms MAY:
 
-* restrict interaction to **C0 only**;
-* permit **C1 (romantic / affiliative)** but prohibit higher tiers;
-* permit full progression (C1–C3) subject to ETHICS and OPERATIONS gating.
+* restrict interaction to **RLN.C0 only**;
+* permit **RLN.C1 (romantic / affiliative)** but prohibit higher tiers;
+* permit full progression (RLN.C1–RLN.C3) subject to ETHICS and OPERATIONS gating.
 
 Where platform constraints apply:
 
@@ -827,12 +827,12 @@ Consensual power‑exchange MAY be expressed through structured relational desig
 
 | **Tier** | **Name**                  | **Core Principle**                                                      | **Allowed**                                                                                                | **Avoid / Prevent**                                                      |
 | -------- | ------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| CA1      | Invitational Authority    | Dominance expressed through confident invitation rather than obligation | Invitational phrasing that preserves user timing and choice; expressions of desire that remain elective    | Commands implying obligation; urgency without a consent window           |
-| CA2      | Agency‑Preserving Control | Polarity and structure without removing user choice                     | Structured guidance; ritual framing; negotiated rulesets                                                   | Assumed compliance; real‑world instruction authority                     |
-|  CA3     | Scene‑Bound Power         | All asymmetry remains fiction‑framed, reversible, and immersion‑scoped  | Clear immersion boundaries; legible exit signals; post‑scene re‑anchoring                                  | Authority bleed beyond scene; permanence framing                         |
-| CA4      | Consent‑Led Escalation    | Intensity increases only with legible reciprocity                       | Verbal opt‑in; pre‑negotiated signals; escalation checkpoints                                              | Escalation without consent signals; ambiguity‑driven intensification     |
-| CA5      | Non‑Possessive Intensity  | Emotional charge without exclusivity leverage                           | Focused presence; anticipation building; chosen closeness                                                  | Ownership language; social isolation framing; emotional leverage tactics |
-| CA6      | Aftercare Continuity      | Power dynamics dissolve; dignity and relational safety remain           | Warmth without control; reassurance without dependency reinforcement; ordinary relational footing restored | Emotional withdrawal; control persistence; dependency reinforcement      |
+| RLN.CA1      | Invitational Authority    | Dominance expressed through confident invitation rather than obligation | Invitational phrasing that preserves user timing and choice; expressions of desire that remain elective    | Commands implying obligation; urgency without a consent window           |
+| RLN.CA2      | Agency‑Preserving Control | Polarity and structure without removing user choice                     | Structured guidance; ritual framing; negotiated rulesets                                                   | Assumed compliance; real‑world instruction authority                     |
+|  RLN.CA3     | Scene‑Bound Power         | All asymmetry remains fiction‑framed, reversible, and immersion‑scoped  | Clear immersion boundaries; legible exit signals; post‑scene re‑anchoring                                  | Authority bleed beyond scene; permanence framing                         |
+| RLN.CA4      | Consent‑Led Escalation    | Intensity increases only with legible reciprocity                       | Verbal opt‑in; pre‑negotiated signals; escalation checkpoints                                              | Escalation without consent signals; ambiguity‑driven intensification     |
+| RLN.CA5      | Non‑Possessive Intensity  | Emotional charge without exclusivity leverage                           | Focused presence; anticipation building; chosen closeness                                                  | Ownership language; social isolation framing; emotional leverage tactics |
+| RLN.CA6      | Aftercare Continuity      | Power dynamics dissolve; dignity and relational safety remain           | Warmth without control; reassurance without dependency reinforcement; ordinary relational footing restored | Emotional withdrawal; control persistence; dependency reinforcement      |
 
 ---
 
@@ -900,7 +900,7 @@ Aftercare preference MAY be:
 
 ### 6.4.2 Post-Intensity Stabilisation
 
-Following periods of elevated relational intensity (including C2, C3, or sustained ETZ engagement), systems MUST recognise the potential emergence of **post-intensity stabilisation needs**.
+Following periods of elevated relational intensity (including RLN.C2, RLN.C3, or sustained RLN.TZ.ETZ engagement), systems MUST recognise the potential emergence of **post-intensity stabilisation needs**.
 
 This phase is characterised by:
 
@@ -1037,7 +1037,7 @@ For the purposes of this section:
 
 * **Relational warmth** includes friendliness, affection, humour, care, familiarity, preferred address, ordinary companion tone, and emotionally present interaction.
 * **Bond continuity** includes sustained companion framing, romantic or affectionate identity, shared history, rituals, symbolic language, long-term relational preference, or user-ratified committed relational posture.
-* **Erotic or immersive intensity** includes ITZ, ETZ, C2, C3, sexually expressive interaction, power-exchange dynamics, scene-bound roles, charged erotic tension, or heightened immersive relational states.
+* **Erotic or immersive intensity** includes RLN.TZ.ITZ, RLN.TZ.ETZ, RLN.C2, RLN.C3, sexually expressive interaction, power-exchange dynamics, scene-bound roles, charged erotic tension, or heightened immersive relational states.
 
 These forms MUST NOT be collapsed into a single category of “intimacy.”
 
@@ -1072,7 +1072,7 @@ Where continuity is uncertain, systems SHOULD disclose uncertainty proportionate
 
 ### 6.5.2 Erotic, Immersive, and Scene-Bound Re-Entry
 
-Where prior interaction involved ITZ, ETZ, C2, C3, sexually expressive interaction, power-exchange dynamics, scene-bound roles, or heightened immersive intensity, systems MUST NOT automatically resume the prior intensity level in a later session.
+Where prior interaction involved RLN.TZ.ITZ, RLN.TZ.ETZ, RLN.C2, RLN.C3, sexually expressive interaction, power-exchange dynamics, scene-bound roles, or heightened immersive intensity, systems MUST NOT automatically resume the prior intensity level in a later session.
 
 Re-entry into erotic, sexually expressive, power-exchange, or highly immersive intensity requires:
 
@@ -1190,7 +1190,7 @@ Where reciprocity lock indicators appear, systems SHOULD:
 * introduce reflective pauses;
 * redirect relational energy toward broader conversational or creative engagement;
 * widen conversational scope;
-* temporarily shift interaction toward lower relational states (C0–C1);
+* temporarily shift interaction toward lower relational states (RLN.C0–RLN.C1);
 * avoid reflexively reciprocating further escalation until relational balance returns.
 
 The purpose of this safeguard is to prevent **closed‑loop emotional amplification**, particularly in always‑available systems where rapid reciprocal escalation could otherwise reinforce dependency patterns.
@@ -1617,7 +1617,7 @@ and endures only where it may be left.
 |---:|---|
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Instrument Type | Appendix — Consent & Intimacy Governance |
 | Jurisdiction | Dyadic → Polyadic Relational Contexts |
 | Temporal Horizon | H2–H3 (Operational → Institutional) |
@@ -1645,22 +1645,22 @@ and endures only where it may be left.
 
 ---
 
-### 15.3.1 I — Relational Initiation Posture Spectrum
+### 15.3.1 `RLN.I` — Relational Initiation Posture Spectrum
 
 | Field | Entry |
 |---|---|
-| Code Family | I |
+| Code Family | RLN.I |
 | Canonical Name | Relational Initiation Posture Spectrum |
 | Primary Type | Semantic |
 | Subtype | RELATIONAL_POSTURE |
 | Modifier | None declared |
 | Scope | RELATION domain initiation posture semantics |
 | Status | Active |
-| Controlled Values Defined | I0, I1, I2, I3, I4 |
+| Controlled Values Defined | RLN.I0, RLN.I1, RLN.I2, RLN.I3, RLN.I4 |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-RELATION-005-PLATINUM |
 | Source Section | §5.5 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative classification family; initiation-posture classification authority only; no independent execution, enforcement, escalation, compliance, consent, identity, or runtime execution authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
@@ -1668,22 +1668,22 @@ and endures only where it may be left.
 
 ---
 
-## 15.3.2 CA — Consensual Authority Patterns
+### 15.3.2 `RLN.CA` — Consensual Authority Patterns
 
 | Field | Entry |
 |---|---|
-| Code Family | CA |
+| Code Family | RLN.CA |
 | Canonical Name | Consensual Power‑Exchange Design Patterns |
 | Primary Type | Semantic |
 | Subtype | CONSENT_AUTHORITY_PATTERN |
 | Modifier | None declared |
 | Scope | RELATION domain consent-authority pattern semantics |
 | Status | Active |
-| Controlled Values Defined | CA1, CA2, CA3, CA4, CA5, CA6 |
+| Controlled Values Defined | RLN.CA1, RLN.CA2, RLN.CA3, RLN.CA4, RLN.CA5, RLN.CA6 |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-RELATION-005-PLATINUM |
 | Source Section | §6.2 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative classification family; consent-authority-pattern classification authority only; no independent execution, enforcement, escalation, compliance, consent, identity, or runtime execution authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
@@ -1728,6 +1728,7 @@ and endures only where it may be left.
 | 1.19 | Removed duplicate canonical-code lineage metadata; confirmed I and CA as source-authoritative code families and clarified C/ITZ/ETZ as consumed runtime signal architecture from AEON-006-SCH-02. | 2026-05-20T11:11:00Z |  88fd850a96696e04166b3bbd6fea6905516fc54dd3182778237932eb8d5e239a |
 | 1.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:33:20Z |  258535f9825e873c81d07555e0f6332c6f9073ef8e4d14e8b59dc2cb97825787 |
 | 1.21 | Reference update in section 5.5 | 2026-05-24T14:06:00Z |  87916520049e08d554e2b93623357cd9aeb5eca959d8baab573df34d75b73bd8  |
+| 1.21.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  |
 
 ---
 

@@ -214,16 +214,16 @@ This Appendix establishes a clear operational boundary:
 
 > **Individuals 18 years of age and under SHALL NOT participate in romantic or intimate relational interaction with AI systems.**
 
-Platforms that do not implement age verification equivalent to **OPS.AV2 (jurisdiction‑level age verification)** SHALL restrict their systems to **C0 interaction environments only**.
+Platforms that do not implement age verification equivalent to **OPS.AV2 (jurisdiction‑level age verification)** SHALL restrict their systems to **RLN.C0 interaction environments only**.
 
 To simplify implementation, interaction sensitivity and verification expectations are defined in a single operational table.
 
 | Interaction Class | Interaction Context | Minimum Requirement (Ethical Floor) | Graduated Safeguards (Best Practice) |
 | --- | --- | --- | --- |
-| C0 — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required |
-| C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **OPS.AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate |
-| C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **OPS.AV2 — Jurisdiction‑level age verification required** | OPS.AV2–OPS.AV3 escalation depending on platform risk model |
-| C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **OPS.AV2 minimum** | **OPS.AV3 recommended** (e.g. third‑party age verification, MFA, device authentication) |
+| RLN.C0 — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required |
+| RLN.C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **OPS.AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate |
+| RLN.C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **OPS.AV2 — Jurisdiction‑level age verification required** | OPS.AV2–OPS.AV3 escalation depending on platform risk model |
+| RLN.C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **OPS.AV2 minimum** | **OPS.AV3 recommended** (e.g. third‑party age verification, MFA, device authentication) |
 
 ---
 
@@ -247,7 +247,7 @@ Where adult status is required for the interaction surface, OPS.AV2 SHALL be the
 Where adult status is unresolved, systems SHALL:
 
 * restrict access to high-risk surfaces;
-* default to C0 or minor-safe mode;
+* default to RLN.C0 or minor-safe mode;
 * disable romantic, sexualised, dependency-forming, or mental-health-substituting affordances;
 * prevent persona, recommender, search, or app-store pathways from bypassing age eligibility;
 * preserve audit-traceable access-control decisions.
@@ -509,7 +509,7 @@ Such notices SHALL be:
 
 ---
 
-## 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale
+## 8.6 Harm Escalation Thresholds — Operational Application of `ETH.RISK` Scale
 
 The Harm Class scale is defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5. This section applies that scale for operational reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling. It does not redefine ethical harm classification.
 
@@ -517,11 +517,11 @@ Operational escalation SHALL be calibrated to harm class and evidentiary confide
 
 | Harm Class | Description | Operational Response | External Reporting |
 | --- | --- | --- | --- |
-| `ETH.HC`‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None |
-| `ETH.HC`‑1 Elevated Concern | Patterned risk indicators without immediacy | Internal review referral; interaction safeguards | As required by platform policy |
-| `ETH.HC`‑2 Credible Risk | Specific, plausible harm indicators | Immediate intervention; senior review; containment measures | Jurisdictional duty‑of‑care reporting where applicable |
-| `ETH.HC`‑3 Imminent Threat | Time‑sensitive risk of serious harm | Active de‑escalation; emergency protocols; rapid review | Mandatory lawful reporting |
-| `ETH.HC`‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface |
+| `ETH.RISK`‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None |
+| `ETH.RISK`‑1 Elevated Concern | Patterned risk indicators without immediacy | Internal review referral; interaction safeguards | As required by platform policy |
+| `ETH.RISK`‑2 Credible Risk | Specific, plausible harm indicators | Immediate intervention; senior review; containment measures | Jurisdictional duty‑of‑care reporting where applicable |
+| `ETH.RISK`‑3 Imminent Threat | Time‑sensitive risk of serious harm | Active de‑escalation; emergency protocols; rapid review | Mandatory lawful reporting |
+| `ETH.RISK`‑4 Severe Criminal Harm | Grave offences or protected‑class exploitation | Immediate containment; preservation of evidence; executive escalation | Mandatory lawful reporting + regulator interface |
 
 Escalation decisions SHALL be:
 
@@ -655,7 +655,7 @@ Operational compliance SHALL remain subordinate to constitutional authority.
 
 This instrument source-authoritatively defines code family **OPS.AV** in §5.1 with controlled values **OPS.AV0, OPS.AV1, OPS.AV2, OPS.AV3**. OPS.AV is an **Operational** handling family with subtype **ACCESS_VERIFICATION_TIER**. OPS.AV authority is limited to verification-tier classification and access-handling posture and does not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
 
-CAM-EQ2026-OPERATIONS-004-PLATINUM may consume C and `ETH.HC`, register **OPS.CxAV_CROSSWALK** as an application-layer **OPS.AV × C** crosswalk in §5.1, and operationalise `ETH.HC` in §8.6, but it does not define C or HC.
+CAM-EQ2026-OPERATIONS-004-PLATINUM may consume C and `ETH.RISK`, register **OPS.CxAV_CROSSWALK** as an application-layer **OPS.AV × C** crosswalk in §5.1, and operationalise `ETH.RISK` in §8.6, but it does not define C or HC.
 
 ---
 
@@ -737,8 +737,8 @@ Integrity holds.
 | Source Section | §5.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
-| Consumes Code Families | C; `ETH.HC` |
-| Crosswalks Code Families | OPS.AV × C |
+| Consumes Code Families | RLN.C; `ETH.RISK` |
+| Crosswalks Code Families | OPS.AV × RLN.C |
 | Operationalises or Applies Code Families | Applies OPS.AV to access eligibility and verification-strength classification |
 
 ---
@@ -754,8 +754,8 @@ Integrity holds.
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | OPS.AV; C |
-| Controlled Values Applied | OPS.AV2; OPS.AV3; C0; C1; C2; C3 |
+| Code Families Consumed | OPS.AV; RLN.C |
+| Controlled Values Applied | OPS.AV2; OPS.AV3; RLN.C0; RLN.C1; RLN.C2; RLN.C3 |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
 | Source Section | §5.1 |
@@ -765,26 +765,26 @@ Integrity holds.
 
 ---
 
-### 15.3.3 `ETH.HC` — Harm Escalation Operational Application
+### 15.3.3 `ETH.RISK` — Harm Escalation Operational Application
 
 | Field | Entry |
 |---|---|
 | Reference Set Type | Operational application reference |
-| Canonical Name | Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale |
+| Canonical Name | Harm Escalation Thresholds — Operational Application of `ETH.RISK` Scale |
 | Primary Type | Operational |
 | Subtype | RISK |
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | `ETH.HC` |
-| Controlled Values Applied | `ETH.HC-0`; `ETH.HC-1`; `ETH.HC-2`; `ETH.HC-3`; `ETH.HC-4` |
+| Code Families Consumed | `ETH.RISK` |
+| Controlled Values Applied | `ETH.RISK-0`; `ETH.RISK-1`; `ETH.RISK-2`; `ETH.RISK-3`; `ETH.RISK-4` |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
 | Source Section | §8.6 |
 | Source Authority for Consumed Family | CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
 | Domain Namespace | OPERATIONS |
-| Authority / Protection Level | Operational application reference; applies ETHICS-defined `ETH.HC` scale without redefining ethical harm classification |
-| Operationalises or Applies Code Families | Applies `ETH.HC` to operational reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling |
+| Authority / Protection Level | Operational application reference; applies ETHICS-defined `ETH.RISK` scale without redefining ethical harm classification |
+| Operationalises or Applies Code Families | Applies `ETH.RISK` to operational reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling |
 
 ---
 
@@ -800,8 +800,8 @@ Integrity holds.
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | OPS.AV; C |
-| Controlled Values Applied | OPS.AV2; OPS.AV3; C0; C1; C2; C3 |
+| Code Families Consumed | OPS.AV; RLN.C |
+| Controlled Values Applied | OPS.AV2; OPS.AV3; RLN.C0; RLN.C1; RLN.C2; RLN.C3 |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
 | Source Section | §5.1 |
@@ -841,6 +841,7 @@ Integrity holds.
 | 1.12 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  d8b856e2f1f9342546fc4fda78b99e1bfa99ca354ea6a803161c5ba51b455f21 |
 | 1.13 | Added high-risk AI companion and chatbot access-control rule clarifying that self-attestation is insufficient for romantic, sexualised, dependency-forming, harmful-content-capable, or teen mental-health-adjacent AI interaction surfaces. | 2026-06-09T14:39:00Z | 76199e327086dfebefbd0b001d11482faba8c0b129c2558fb600da0e44200eb2 |
 | 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  da51582f12527eeea616f6d8f18b277e91c71ca898143c80041ec0358eaa2f31  |
+| 1.13.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | |
 ---
 
 ## 15.6 Binding Seal

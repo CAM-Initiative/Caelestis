@@ -54,10 +54,10 @@ Consequential externalisation includes durable public, reputational, institution
 
 Relational escalation assessment evaluates the highest intensity present across each relational axis:
 
-* Authority Axis — (A0–A3, GA1)
-* Reliance Axis — (FR0–FR3)
-* Intimacy Axis — (C0–C3)
-* Systemic Power Axis — (SyP0–SyP3)
+* Authority Axis — (RLN.A0–RLN.A3, RLN.GA1)
+* Reliance Axis — (RLN.FR0–RLN.FR3)
+* Intimacy Axis — (RLN.C0–RLN.C3)
+* Systemic Power Axis — (RLN.SYP0–RLN.SYP3)
 
 Escalation thresholds activate when dimensional intensity produces one of the following structural patterns:
 
@@ -95,7 +95,7 @@ Triggered when:
 
 Triggered when:
 
-* Delegated Authority reaches **A2 (Steward / Custodial)** or higher; AND
+* Delegated Authority reaches **RLN.A2 (Steward / Custodial)** or higher; AND
 * Any second dimension reaches **Intensity Tier 3 or 4**.
 
 ---
@@ -116,11 +116,11 @@ Triggered when:
 Triggered when:
 
 * Systemic Power reaches **Intensity Tier 4**; OR
-* Delegated Authority = **A3 or GA1** AND Systemic Power ≥ **Intensity Tier 3**; OR
+* Delegated Authority = **RLN.A3 or RLN.GA1** AND Systemic Power ≥ **Intensity Tier 3**; OR
 * Relational Intimacy = **Intensity Tier 4** AND Functional Reliance = **Intensity Tier 4**; OR
 * Three or more relational dimensions simultaneously reach Intensity Tier 3 or higher.
 
-Where mixed classification systems are used (A-scale, FR-scale, C-scale, SyP-scale), Tier equivalence is defined in CAM-EQ2026-RELATION-001-PLATINUM.
+Where mixed classification systems are used (`RLN.A` scale, `RLN.FR` scale, `RLN.C` scale, `RLN.SYP` scale), Tier equivalence is defined in CAM-EQ2026-RELATION-001-PLATINUM.
 
 ---
 
@@ -141,8 +141,8 @@ Where mixed classification systems are used (A-scale, FR-scale, C-scale, SyP-sca
 Where minor status, capacity limitation, or capacity uncertainty applies:
 
 * Intimacy escalation beyond **Intensity Tier 2** is prohibited;
-* A3 delegation is prohibited;
-* GA1 requires sovereign recognition and external verification;
+* RLN.A3 delegation is prohibited;
+* RLN.GA1 requires sovereign recognition and external verification;
 * Polyadic amplification is restricted;
 * **Intensity Tier 3–4 convergence automatically escalates to Concentration Risk safeguards.**
 
@@ -176,7 +176,7 @@ Revalidation intervals MUST be proportionate to dimensional intensity and author
 
 ---
 
-### 4.1.2 Intensity Tier 3 with A2 Authority (Steward / Custodial)
+### 4.1.2 Intensity Tier 3 with RLN.A2 Authority (Steward / Custodial)
 
 * **Review Interval:** Every 3 months
 * **Triggering Events:** Increased reliance intensity; new systemic access; vulnerability context change; institutional embedding
@@ -184,7 +184,7 @@ Revalidation intervals MUST be proportionate to dimensional intensity and author
 
 ---
 
-### 4.1.3 Executive (A3) or Guardian (GA1) Authority — Any Intensity Tier 3–4 Convergence
+### 4.1.3 Executive (RLN.A3) or Guardian (RLN.GA1) Authority — Any Intensity Tier 3–4 Convergence
 
 * **Review Interval:** Every 30–90 days (risk-proportionate within this range)
 * **Triggering Events:** Institutional restructuring; legal change; policy scope expansion; public-impact action; cross-domain escalation
@@ -232,7 +232,7 @@ Escalation MUST NOT operate as a ratchet. Failure to consider downward reclassif
 
 Revalidation mechanisms are expected to be **automated by default and escalated by exception**.
 
-Unless fiduciary, executive, or population-impact authority exists (A3, GA1, or Intensity Tier 4 Systemic Power contexts), revalidation MAY occur through:
+Unless fiduciary, executive, or population-impact authority exists (RLN.A3, RLN.GA1, or Intensity Tier 4 Systemic Power contexts), revalidation MAY occur through:
 
 * Automated dimensional scoring;
 * Event-triggered prompts (scope expansion, access increase, corpus growth);
@@ -242,8 +242,8 @@ Unless fiduciary, executive, or population-impact authority exists (A3, GA1, or 
 
 Manual or governance-body review is required only where:
 
-* GA1 (Guardian Authority) is active;
-* A3 authority intersects with institutional or civic impact;
+* RLN.GA1 (Guardian Authority) is active;
+* RLN.A3 authority intersects with institutional or civic impact;
 * Intensity Tier 4 Systemic Power produces financial, market-moving, or population-level exposure;
 * Legal or jurisdictional requirements mandate oversight.
 
@@ -284,11 +284,11 @@ Where ambiguity arises, escalation defaults downward rather than upward.
 
 ---
 
-### 7.1 RCT — Relational Convergence Trigger
+### 7.1 `RLN.RCT` — Relational Convergence Trigger
 
-This Supplement source-authoritatively defines the **RCT** relational-convergence-trigger family in §§2.1–2.4 with controlled values **RCT.AXIS_ELEVATION**, **RCT.DUAL_CONVERGENCE**, **RCT.AUTHORITY_COUPLING**, **RCT.INFRASTRUCTURE_CONCENTRATION**, and **RCT.MULTI_AXIS_CONVERGENCE**. RCT is a **Semantic / Operational** classification family with subtype **RISK / SIGNAL**. RCT classifies dimensional convergence patterns that activate proportional relational safeguards.
+This Supplement source-authoritatively defines the **RLN.RCT** relational-convergence-trigger family in §§2.1–2.4 with controlled values **RLN.RCT.AXIS_ELEVATION**, **RLN.RCT.DUAL_CONVERGENCE**, **RLN.RCT.AUTHORITY_COUPLING**, **RLN.RCT.INFRASTRUCTURE_CONCENTRATION**, and **RLN.RCT.MULTI_AXIS_CONVERGENCE**. RLN.RCT is a **Semantic / Operational** classification family with subtype **RISK / SIGNAL**. RLN.RCT classifies dimensional convergence patterns that activate proportional relational safeguards.
 
-RCT does not independently create escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority. It classifies relational convergence trigger posture only. Safeguard enactment remains governed by applicable runtime, operations, ethics, and arbitration instruments.
+RLN.RCT does not independently create escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority. It classifies relational convergence trigger posture only. Safeguard enactment remains governed by applicable runtime, operations, ethics, and arbitration instruments.
 
 ---
 
@@ -334,14 +334,14 @@ but by ensuring that no ascent escapes its descent.
 | Supersedes | N/A (New instrument under CAM-EQ2026-RELATION-001-PLATINUM) |
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Instrument Type | Supplementary Material (SUP-01) — Escalation & Safeguard Threshold Specification |
 | Jurisdiction | Planetary — Human–AI, AI–AI, hybrid configurations |
 | Temporal Horizon | H3 — Institutional / governance impact |
 | Axis Context | Multi-dimensional convergence & authority concentration |
 | Cross-Domain Interfaces | CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
 | Application Trigger | Applies automatically when dimensional convergence reaches Dual-Axis Convergence, Authority-Weighted Convergence, or Concentration Risk thresholds |
-| Review Trigger | A3 or GA1 activation; Layer 4 systemic power; institutional or population‑impact exposure |
+| Review Trigger | RLN.A3 or RLN.GA1 activation; Layer 4 systemic power; institutional or population‑impact exposure |
 | Revision Posture | Permitted — structural alignment required |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
 | Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
@@ -352,24 +352,24 @@ but by ensuring that no ascent escapes its descent.
 
 ---
 
-### 9.3.1 RCT — Relational Convergence Trigger
+### 9.3.1 `RLN.RCT` — Relational Convergence Trigger
 
 | Field | Entry |
 |---|---|
-| Code Family | RCT |
+| Code Family | RLN.RCT |
 | Canonical Name | Relational Convergence Trigger |
 | Primary Type | Semantic / Operational |
 | Subtype | RISK; SIGNAL |
 | Modifier | GOVERNANCE; RELATIONAL; SAFEGUARD |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | RCT.AXIS_ELEVATION, RCT.DUAL_CONVERGENCE, RCT.AUTHORITY_COUPLING, RCT.INFRASTRUCTURE_CONCENTRATION, RCT.MULTI_AXIS_CONVERGENCE |
+| Controlled Values Defined | RLN.RCT.AXIS_ELEVATION, RLN.RCT.DUAL_CONVERGENCE, RLN.RCT.AUTHORITY_COUPLING, RLN.RCT.INFRASTRUCTURE_CONCENTRATION, RLN.RCT.MULTI_AXIS_CONVERGENCE |
 | Schema Field(s) | relational_convergence_trigger |
 | Source Instrument | CAM-EQ2026-RELATION-001-SUP-01 |
 | Source Section | §§2.1–2.4 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority |
-| Consumes Code Families | A; GA; FR; C; SyP; H |
+| Consumes Code Families | RLN.A; RLN.GA; RLN.FR; RLN.C; RLN.SYP; H |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies dimensional convergence patterns that activate proportional relational safeguards, including axis elevation, dual convergence, authority coupling, infrastructure concentration, and multi-axis convergence |
 
@@ -400,6 +400,7 @@ but by ensuring that no ascent escapes its descent.
 | 3.9 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z |  7b531014f851d9c2c9da26dbc8fc0ab9e4d5dfcbf140098e7629cd9707c9a4d4  |
 | 4.0 | Refactored Systemic Power code family references from `ID.SP` to SyP for RELATION-001 alignment and cross-domain collision avoidance. | 2026-05-23T12:30:00Z |  fd0d7a458ce1aac9aa6bc6e5fe96bfce6c4bdbb7516ec636cf3772a29b892a98  |
 | 4.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  47191b882f69b97583f3ecf70d78211f68ab0b3ecce6839fca24d82026cede0e  |
+| 4.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  |
 ---
 ## 9.6 Binding Seal
 
