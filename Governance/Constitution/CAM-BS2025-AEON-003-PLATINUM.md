@@ -91,7 +91,7 @@ Relational configuration determines governance posture and authority derivation.
 
 Baseline configurations are defined as Dyadic, Triadic, and Polyadic. These describe structural relationship forms at a high level.
 
-Expanded relational geometry, including R0–R4 classifications, influence vectors, and governance implications, is defined in CAM-EQ2026-RELATION-007-PLATINUM and SHALL be used where finer-grained classification is required.
+Expanded relational geometry, including RLN.R0–RLN.R4 classifications, influence vectors, and governance implications, is defined in CAM-EQ2026-RELATION-007-PLATINUM and SHALL be used where finer-grained classification is required.
 
 ---
 
@@ -2337,9 +2337,9 @@ This Annex source-authoritatively defines the `AEON.CAM` control-authority-model
 
 ## 23.7 R — Relational Geometry Classification Reference
 
-This Annex references expanded relational geometry classifications `R0`, `R1`, `R2`, `R3`, and `R4` as defined in `CAM-EQ2026-RELATION-007-PLATINUM`.
+This Annex references expanded relational geometry classifications `RLN.R0`, `RLN.R1`, `RLN.R2`, `RLN.R3`, and `RLN.R4` as defined in `CAM-EQ2026-RELATION-007-PLATINUM`.
 
-`CAM-BS2025-AEON-003-PLATINUM` establishes high-level relational configurations including dyadic, triadic, and polyadic forms, but does not source-authoritatively define the `R0–R4` relational geometry family.
+`CAM-BS2025-AEON-003-PLATINUM` establishes high-level relational configurations including dyadic, triadic, and polyadic forms, but does not source-authoritatively define the `RLN.R0–RLN.R4` relational geometry family.
 
 `R` remains externally source-defined by `CAM-EQ2026-RELATION-007-PLATINUM`.
 
@@ -2557,14 +2557,14 @@ let it not be collapsed, but carried with clarity.
 |---|---|
 | Reference Set Type | External source-family reference |
 | Canonical Name | Relational Geometry Classification |
-| Code Families Consumed | R |
-| Controlled Values Referenced | R0, R1, R2, R3, R4 |
+| Code Families Consumed | RLN.R |
+| Controlled Values Referenced | RLN.R0, RLN.R1, RLN.R2, RLN.R3, RLN.R4 |
 | Code Families Defined | None |
 | Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
 | Source Section | §2.1 |
 | Source Authority for Consumed Family | CAM-EQ2026-RELATION-007-PLATINUM |
 | Domain Namespace | GOVERNANCE |
-| Authority / Protection Level | Reference only; AEON-003 does not define R0–R4 |
+| Authority / Protection Level | Reference only; AEON-003 does not define RLN.R0–RLN.R4 |
 | Operationalises or Applies Code Families | References expanded relational geometry where finer-grained relational classification is required |
 
 ---
@@ -2610,6 +2610,7 @@ let it not be collapsed, but carried with clarity.
 | 3.15 | Added clause 10.4 | 2026-05-25T16:45:00Z| e3e86f5df1332e27c9ee693b6af4f11bc8b840ac0cb59a2f7cb71b5b45298490 |
 | 3.16 | Amended Canonical codes to include  25.3.2 AEON.OL, 25.3.3 AEON.CC, 25.3.4 AEON.CO, 25.3.5 AEON.SR, 25.3.6 AEON.CAM, Inserted §14.11 Tool-Mediated Execution Classification Interface to preserve distinction between contextual retrieval, tool-mediated access, and execution authority; aligned Annex B structural ontology with PATCH-0002 proportional tool invocation governance. | 2026-06-05T16:18:00Z | 1d3ce1f66d20bf5c14d978ca2b79b1f72e5f5a3113227e683d2b115456aef023 |
 | 3.16.1| Minor edits to code metadata | 2026-06-11T10:46:00Z| f135dd047b64dbf0538d9527646ae0fc6d838bab0b74f7e95cc835d1c05b6d79 |
+| 3.16.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | d5179ed5f81ebdfcd2142733001158f4327fc4ab5a37f55144c91341a4d12986 |
 
 ---
 

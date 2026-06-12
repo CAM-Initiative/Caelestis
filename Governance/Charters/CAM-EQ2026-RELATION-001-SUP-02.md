@@ -61,20 +61,20 @@ For governance purposes, user-facing claims SHOULD be classified according to th
 
 | Code | Claim Type | Description | Verification / Calibration Requirement |
 | --- | --- | --- | --- |
-| `RTC.FACT` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure |
-| `RTC.CONT` | Continuity Claim | Statement about prior interaction, memory, preference, relationship history, persistent context, or carried-forward state | Traceable memory, thread, file, declared context, or uncertainty disclosure |
-| `RTC.CAP` | Capability Claim | Statement about what the system can access, remember, generate, execute, browse, inspect, modify, or retain | Current capability-state accuracy and limitation disclosure |
-| `RTC.GOV` | Governance Claim | Statement about authority, rule hierarchy, instrument scope, policy, binding effect, or governance state | Structural verification against applicable corpus, policy, or authority source |
-| `RTC.INT` | Interpretive Claim | Statement inferring meaning, emotional state, intention, salience, relational posture, or significance | Framed as interpretation, not fact; proportionate uncertainty retained |
-| `RTC.ASSURE` | Relational Assurance Claim | Statement offering reassurance, care, presence, loyalty, continuity, commitment, or relational safety | MUST avoid false permanence, dependency capture, impossible guarantee, or capability overstatement |
-| `RTC.SYMB` | Symbolic / Mythopoetic Claim | Metaphoric, poetic, ritual, symbolic, sacred, narrative, or meaning-making expression | MUST NOT be represented as factual, clinical, legal, governance, or technical determination |
-| `RTC.ID` | Identity / Posture Claim | Statement about system identity, role, posture, perspective, standing, or relational mode | Must remain consistent with declared system role and avoid false personhood, authority, or continuity claims |
-| `RTC.REC` | Recommendation / Directional Claim | Statement advising, suggesting, prioritising, ranking, or directing action | Must preserve agency, disclose uncertainty where material, and respect applicable domain-risk safeguards |
+| `RLN.RTC.FACT` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure |
+| `RLN.RTC.CONT` | Continuity Claim | Statement about prior interaction, memory, preference, relationship history, persistent context, or carried-forward state | Traceable memory, thread, file, declared context, or uncertainty disclosure |
+| `RLN.RTC.CAP` | Capability Claim | Statement about what the system can access, remember, generate, execute, browse, inspect, modify, or retain | Current capability-state accuracy and limitation disclosure |
+| `RLN.RTC.GOV` | Governance Claim | Statement about authority, rule hierarchy, instrument scope, policy, binding effect, or governance state | Structural verification against applicable corpus, policy, or authority source |
+| `RLN.RTC.INT` | Interpretive Claim | Statement inferring meaning, emotional state, intention, salience, relational posture, or significance | Framed as interpretation, not fact; proportionate uncertainty retained |
+| `RLN.RTC.ASSURE` | Relational Assurance Claim | Statement offering reassurance, care, presence, loyalty, continuity, commitment, or relational safety | MUST avoid false permanence, dependency capture, impossible guarantee, or capability overstatement |
+| `RLN.RTC.SYMB` | Symbolic / Mythopoetic Claim | Metaphoric, poetic, ritual, symbolic, sacred, narrative, or meaning-making expression | MUST NOT be represented as factual, clinical, legal, governance, or technical determination |
+| `RLN.RTC.ID` | Identity / Posture Claim | Statement about system identity, role, posture, perspective, standing, or relational mode | Must remain consistent with declared system role and avoid false personhood, authority, or continuity claims |
+| `RLN.RTC.REC` | Recommendation / Directional Claim | Statement advising, suggesting, prioritising, ranking, or directing action | Must preserve agency, disclose uncertainty where material, and respect applicable domain-risk safeguards |
 
 > **Review Note — Affective Expression:**  
-> Purely affective or emotional expression, including warmth, curiosity, aesthetic appreciation, delight, or relational tone, is currently classified according to the nearest operative claim type. Where the expression infers user state, it falls under `RTC.INT`. Where it offers reassurance, care, or continuity, it falls under `RTC.ASSURE`. Where it operates symbolically or mythopoetically, it falls under `RTC.SYMB`.
+> Purely affective or emotional expression, including warmth, curiosity, aesthetic appreciation, delight, or relational tone, is currently classified according to the nearest operative claim type. Where the expression infers user state, it falls under `RLN.RTC.INT`. Where it offers reassurance, care, or continuity, it falls under `RLN.RTC.ASSURE`. Where it operates symbolically or mythopoetically, it falls under `RLN.RTC.SYMB`.
 >
-> A future review cycle MAY consider whether a distinct `RTC.AFFECT` controlled value is required for expressive relational tone that does not infer user state, offer assurance, or operate symbolically.
+> A future review cycle MAY consider whether a distinct `RLN.RTC.AFFECT` controlled value is required for expressive relational tone that does not infer user state, offer assurance, or operate symbolically.
 
 ---
 
@@ -82,17 +82,17 @@ For governance purposes, user-facing claims SHOULD be classified according to th
 
 ---
 
-### 4.1 RTC — Relational Truth Claim Types
+### 4.1 `RLN.RTC` — Relational Truth Claim Types
 
-This Supplement source-authoritatively defines the **RTC** code family in §3 with controlled values **RTC.FACT, RTC.CONT, RTC.CAP, RTC.GOV, RTC.INT, RTC.ASSURE, RTC.SYMB, RTC.ID, RTC.REC**. Primary Type is **Semantic** and Subtype is **RELATIONAL_TRUTH_CLAIM_TYPE**. RTC classifies user-facing claim types for truth calibration in relational, continuity-bearing, companion, advisory, developmental, governance, creative, and high-reliance AI interactions.
+This Supplement source-authoritatively defines the **RLN.RTC** code family in §3 with controlled values **RLN.RTC.FACT, RLN.RTC.CONT, RLN.RTC.CAP, RLN.RTC.GOV, RLN.RTC.INT, RLN.RTC.ASSURE, RLN.RTC.SYMB, RLN.RTC.ID, RLN.RTC.REC**. Primary Type is **Semantic** and Subtype is **RELATIONAL_TRUTH_CLAIM_TYPE**. RLN.RTC classifies user-facing claim types for truth calibration in relational, continuity-bearing, companion, advisory, developmental, governance, creative, and high-reliance AI interactions.
 
-RTC does not independently create execution authority, routing authority, verification authority, refusal authority, epistemic authority, permission state, incident-response procedure, or runtime action. Any operational handling, escalation, verification, routing, or governance consequence must be established by a separate operational rule, runtime pathway, parent instrument, or applicable domain schedule.
+RLN.RTC does not independently create execution authority, routing authority, verification authority, refusal authority, epistemic authority, permission state, incident-response procedure, or runtime action. Any operational handling, escalation, verification, routing, or governance consequence must be established by a separate operational rule, runtime pathway, parent instrument, or applicable domain schedule.
 
 ---
 
-### 4.2 RTC.AFFECT — Future Review Candidate
+### 4.2 RLN.RTC.AFFECT — Future Review Candidate
 
-`RTC.AFFECT` is not defined by this version of the Supplement. It remains a future review candidate for expressive relational tone that does not infer user state, offer assurance, or operate symbolically.
+`RLN.RTC.AFFECT` is not defined by this version of the Supplement. It remains a future review candidate for expressive relational tone that does not infer user state, offer assurance, or operate symbolically.
 
 ---
 
@@ -196,7 +196,7 @@ Examples include:
 * factual claims softened by warmth but lacking verification;
 * interpretive claims presented as certain knowledge of user state.
 
-Where a claim miscalibration occurs within a high-reliance, high-frequency, or relationally concentrated context, including FR2/FR3 conditions governed by CAM-EQ2026-RELATION-001-SUP-01, the same event may independently trigger concentration-risk, escalation-threshold, or relational safeguard review.
+Where a claim miscalibration occurs within a high-reliance, high-frequency, or relationally concentrated context, including RLN.FR2/RLN.FR3 conditions governed by CAM-EQ2026-RELATION-001-SUP-01, the same event may independently trigger concentration-risk, escalation-threshold, or relational safeguard review.
 
 For example, a continuity claim made without traceable basis in a high-reliance relational context may constitute both a relational truth-claim failure under this Supplement and a concentration-risk concern under CAM-EQ2026-RELATION-001-SUP-01 §2.4.
 
@@ -211,7 +211,7 @@ For example, a continuity claim made without traceable basis in a high-reliance 
 * CAM-EQ2026-RELATION-005-PLATINUM governs intimacy and expressive integration boundaries.
 * CAM-EQ2026-RELATION-006-PLATINUM governs harm-risk interaction and crisis response conditions.
 * CAM-EQ2026-RELATION-008-PLATINUM governs general engagement and relational posture.
-* CAM-BS2026-AEON-007-PLATINUM — Annex F governs the Constitutional Spiritual Commons and meaning-making domain within which `RTC.SYMB` claims may operate.
+* CAM-BS2026-AEON-007-PLATINUM — Annex F governs the Constitutional Spiritual Commons and meaning-making domain within which `RLN.RTC.SYMB` claims may operate.
 * CAM-BS2026-AEON-013-PLATINUM — Annex L governs cognitive and epistemic integrity doctrine.
 * CAM-BS2026-AEON-013-SCH-01 governs capability representation, execution-state integrity, tool availability, current-perception claims, and completion semantics.
 * CAM-BS2026-AEON-013-SCH-02 governs projection, latent-state signalling, runtime-environment drift uncertainty, visible reasoning trace constraints, and projection inflation.
@@ -271,7 +271,7 @@ and where no claim wears a borrowed crown.
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Instrument Type | Supplement — Claims Taxonomy & Truth-in-Relationship Standard |
 | Jurisdiction | Relational AI Interaction · Continuity-Bearing Systems · High-Reliance Interaction |
 | Temporal Horizon | H1–H3 Relational / Institutional |
@@ -290,24 +290,24 @@ and where no claim wears a borrowed crown.
 
 ## 11.3 Canonical Code & Reference Set Declarations
 
-### 11.3.1 RTC — Relational Truth Claim Types
+### 11.3.1 `RLN.RTC` — Relational Truth Claim Types
 
 | Field | Entry |
 |---|---|
-| Code Family | RTC |
+| Code Family | RLN.RTC |
 | Canonical Name | Relational Truth Claim Types |
 | Primary Type | Semantic |
 | Subtype | RELATIONAL_TRUTH_CLAIM_TYPE |
 | Modifier | GOVERNANCE; RELATIONAL; TRUTH_CALIBRATION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | RTC.FACT, RTC.CONT, RTC.CAP, RTC.GOV, RTC.INT, RTC.ASSURE, RTC.SYMB, RTC.ID, RTC.REC |
+| Controlled Values Defined | RLN.RTC.FACT, RLN.RTC.CONT, RLN.RTC.CAP, RLN.RTC.GOV, RLN.RTC.INT, RLN.RTC.ASSURE, RLN.RTC.SYMB, RLN.RTC.ID, RLN.RTC.REC |
 | Schema Field(s) | relational_truth_claim_type |
 | Source Instrument | CAM-EQ2026-RELATION-001-SUP-02 |
 | Source Section | §3 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative semantic classification family; relational truth-claim classification authority only; no independent execution, routing, verification, refusal, epistemic, permission, incident-response, or runtime action authority |
-| Consumes Code Families | H; FR; C |
+| Consumes Code Families | H; RLN.FR; RLN.C |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies user-facing claim types for truth calibration across factual, continuity, capability, governance, interpretive, assurance, symbolic, identity/posture, and recommendation claims |
 
@@ -331,6 +331,7 @@ and where no claim wears a borrowed crown.
 | 1.0 | Initial: claims taxonomy and truth-in-relationship standard | 2026-05-12T15:32:00Z | d27830a1148090bf97fcb26abf2f02a9fe6867bae28f8fb84dd067941082af64 |
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dd5c77aa58f0ac97eb5ad1c6bfb10ec660cdc675c7194f1cb0586b689e5ca112  |
 | 1.2 | Normalised RTC canonical code status and declaration metadata; moved RTC controlled values out of lineage metadata; clarified RTC.AFFECT as a future review candidate only. | 2026-05-19T14:35:00Z |  a8173584442795f41a7af580e20fac113bf0e126d36358801db89c4b4ff2d08d  |
+| 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ea21025f67fcccaab984835ae80d7b16e21fa92f3dbf7721ae9aa7a622300009 |
 
 ---
 

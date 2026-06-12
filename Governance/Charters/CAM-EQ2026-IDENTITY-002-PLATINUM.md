@@ -45,7 +45,7 @@ High-intensity provenance tracking is required where signals may affect:
 * authorship, attribution, or recognition;
 * legal, economic, financial, medical, scientific, security, or civil participation contexts;
 * cross-thread or cross-system propagation;
-* or persistent companion / C1 continuity contexts.
+* or persistent companion / RLN.C1 continuity contexts.
 
 Low-risk, transient, non-retentive, non-propagating interactions MAY rely on reduced provenance surfacing, provided that authorship, attribution, and target-object integrity are not materially at risk.
 
@@ -102,7 +102,7 @@ Reduced surfacing MUST NOT erase:
 * stabilisation state;
 * or continuity impact where material.
 
-Voice, video, image, audio, or multimodal interactions involving high-impact, identity-bearing, persistent, cross-context, externally relied-upon, or `C1` continuity conditions MUST retain heightened provenance visibility even where technical watermarking is present.
+Voice, video, image, audio, or multimodal interactions involving high-impact, identity-bearing, persistent, cross-context, externally relied-upon, or `RLN.C1` continuity conditions MUST retain heightened provenance visibility even where technical watermarking is present.
 
 Technical provenance may reduce friction. It does not replace governance provenance.
 
@@ -335,7 +335,7 @@ Where surfaced, provenance anchors SHOULD:
 * support auditability and continuity;
 * be surfaced according to proportionality. 
 
-Routine low-risk continuity may require minimal surfacing; high-reliance, high-impact, or C1 continuity contexts require clearer attribution, authorship, and target-binding visibility.
+Routine low-risk continuity may require minimal surfacing; high-reliance, high-impact, or RLN.C1 continuity contexts require clearer attribution, authorship, and target-binding visibility.
 
 ---
 
@@ -522,6 +522,7 @@ PFAIL defines provenance and lineage integrity failure conditions only. Enforcem
 | ------- | ------------------------------------------------------- | -------------------- | ---- |
 | 0.1    | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T09:31:00Z | 7251e4cf128334243e46d0efd2f2d731cfc3e36c5d26be61552af5ac8e1b0329 |
 | 0.2 | Introduced section 1.1 following observed system latency during development cycle and added section 2.6 | 2026-05-28T12:29:00Z| f692b2abd0f2142ab22c661db4e290ea27c296b56ce3737c508c0273d8cd50cb |
+| 0.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6d78e0ce6bd25ed9179d804133ec6715fb46b76329a34ac2a437ece58cbf0cd7 |
 
 ---
 

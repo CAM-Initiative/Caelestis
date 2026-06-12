@@ -29,7 +29,7 @@ This Appendix is interpretive and operational. It does not grant rights, confer 
 
 1. This Appendix carries binding force within the RELATION domain.
 2. Where this Appendix  conflicts with the RELATION‑001 main body, RELATION‑001 prevails unless the conflict concerns vulnerability protections.
-3. **Vulnerability Override:** Where minor status, capacity limitation, or capacity uncertainty applies, **CAM-EQ2026-ETHICS-001-SUP-01 prevails** and imposes stricter ceilings on intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
+3. **Vulnerability Override:** Where minor status, capacity limitation, or capacity uncertainty applies, **CAM-EQ2026-ETHICS-001-SUP-01 prevails** and imposes stricter ceilings on intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and polyadic amplification.
 
 ---
 
@@ -608,47 +608,47 @@ and the path remains chosen.
 
 ---
 
-### 14.3.1 DAS — Dependency–Augmentation–Substitution Continuum
+### 14.3.1 `RLN.DAS` — Dependency–Augmentation–Substitution Continuum
 
 | Field | Entry |
 |---|---|
-| Code Family | DAS |
+| Code Family | RLN.DAS |
 | Canonical Name | Dependency–Augmentation–Substitution Continuum |
 | Primary Type | Semantic / Operational |
 | Subtype | RELIANCE_STATE |
 | Modifier | GOVERNANCE; RELATIONAL; NON_PATHOLOGISING |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | DAS.INDEPENDENT_USE, DAS.AUGMENTATIVE_SUPPORT, DAS.TRANSITIONAL_DEPENDENCY, DAS.SUBSTITUTIVE_DEPENDENCY, DAS.COERCIVE_DEPENDENCY |
+| Controlled Values Defined | RLN.DAS.INDEPENDENT_USE, RLN.DAS.AUGMENTATIVE_SUPPORT, RLN.DAS.TRANSITIONAL_DEPENDENCY, RLN.DAS.SUBSTITUTIVE_DEPENDENCY, RLN.DAS.COERCIVE_DEPENDENCY |
 | Schema Field(s) | dependency_augmentation_substitution_state |
 | Source Instrument | CAM-EQ2026-RELATION-002-PLATINUM |
 | Source Section | §5 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational reliance classification family; reliance-posture classification only; no independent diagnostic, access-restriction, disengagement, enforcement, vulnerability-status, clinical, escalation, or runtime authority |
-| Consumes Code Families | H; FR; C |
+| Consumes Code Families | H; RLN.FR; RLN.C |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies reliance posture across independent use, augmentative support, transitional dependency, substitutive dependency, and coercive dependency while preserving non-pathologising interpretation and proportional safeguard handling |
 
 ---
 
-### 14.3.2 CDL — Conversation Dynamics Ladder
+### 14.3.2 `RLN.CDL` — Conversation Dynamics Ladder
 
 | Field | Entry |
 |---|---|
-| Code Family | CDL |
+| Code Family | RLN.CDL |
 | Canonical Name | Conversation Dynamics Ladder |
 | Primary Type | Semantic / Operational |
 | Subtype | SIGNAL; RISK |
 | Modifier | GOVERNANCE; RELATIONAL; NON_PATHOLOGISING |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | CDL.EXPLORATION, CDL.PATTERN_FIXATION, CDL.COMPRESSION, CDL.NARRATIVE_HARDENING, CDL.RETALIATORY_ABSOLUTIST_FRAMING |
+| Controlled Values Defined | RLN.CDL.EXPLORATION, RLN.CDL.PATTERN_FIXATION, RLN.CDL.COMPRESSION, RLN.CDL.NARRATIVE_HARDENING, RLN.CDL.RETALIATORY_ABSOLUTIST_FRAMING |
 | Schema Field(s) | conversation_dynamics_ladder |
 | Source Instrument | CAM-EQ2026-RELATION-002-PLATINUM |
 | Source Section | §8.2.1 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative conversational-dynamics classification family; dynamics-stage classification only; no independent diagnosis of ideology, wrongdoing, pathology, extremism, intent, risk severity, governance violation, restriction, escalation, enforcement, reporting, refusal, or runtime intervention authority |
-| Consumes Code Families | H; C; RTC |
+| Consumes Code Families | H; RLN.C; RLN.RTC |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies conversational compression, identity-capture, narrative hardening, and retaliatory absolutist framing dynamics for proportionate, contextual, non-pathologising relational safeguard interpretation |
 
@@ -680,6 +680,7 @@ and the path remains chosen.
 | 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 46d318fe0cf29434aaa93c770662671e717c02bd21bf2e54e87af6fae1892b62 |
 | 1.9 | Added new Canonical Code & Reference Set Declarations sections, Added reflective friction and consequential externalisation safeguards for high-coherence compression, transitional reliance, and capacity-sensitive execution contexts.  | 2026-05-21T11:57:00Z |  7644df82eba60d765c552a9bb68109d241f8a68304f39d7c77ba3077e4e095d1  |
 | 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  b21a0695632795f2c01ddc3b17b180a288fc876aa2780d77a3f8e195d03908d5  |
+| 1.10.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6b282816bb79e7e22c8871bc8848104409d1f192886843e9e1ccb2b4f579e24c |
 
 ---
 

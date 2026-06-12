@@ -189,9 +189,9 @@ Triage outcomes SHALL determine routing pathway and procedural depth.
 
 Where arbitration initiation involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHALL preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006-PLATINUM, §5.
 
-Operator-facing application of F0–F5 ceilings SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02, §5.6 — Facilitation Ceiling Operator Quick Reference.
+Operator-facing application of RLN.F0–RLN.F5 ceilings SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02, §5.6 — Facilitation Ceiling Operator Quick Reference.
 
-Arbitration procedures SHALL NOT redefine F-Scale doctrine. They may consider whether operational handling, interim measures, constrained continuation, or arbitration referral is required where facilitation ceilings interact with other domain constraints.
+Arbitration procedures SHALL NOT redefine `RLN.F` scale doctrine. They may consider whether operational handling, interim measures, constrained continuation, or arbitration referral is required where facilitation ceilings interact with other domain constraints.
 
 ---
 
@@ -510,6 +510,7 @@ may remain worthy of being followed.
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  187514fc146c35455b656fb5f2b240956f78012185f98bb809d28fd76a37b2e9 |
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  7ff1eb2eb615c21a8c64d16da9fab02c32fb434b08c80d14de1d5377f0749b14  |
 | 1.6.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  2324b8c1a9440708fbf8974f87c8cff8870d3abc0c9a9c5eb50ae864fe11ec8f  |
+| 1.6.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  4cfbd6adaf5e9b0235e73f937e9d463f7727819aecb83d7a37dad37262272d7f  |
 ---
 
 ## 15.6 Binding Seal

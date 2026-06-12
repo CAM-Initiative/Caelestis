@@ -57,7 +57,7 @@ Verification levels define the **strength, provenance, and reliability** of iden
 
 Age Verification (OPS.AV) tiers operate as a **domain-specific instantiation** of the broader OPS.VL framework for age-gated contexts.
 
-* OPS.AV tiers (e.g., OPS.AV0–OPS.AV3) specify **age assurance and eligibility requirements** for interaction classes (e.g., C1–C3);
+* OPS.AV tiers (e.g., OPS.AV0–OPS.AV3) specify **age assurance and eligibility requirements** for interaction classes (e.g., RLN.C1–RLN.C3);
 * Where OPS.AV involves third-party or regulated validation, it typically maps to **OPS.VL3 (External Verification)**;
 * Where OPS.AV is performed within an audited or controlled environment (e.g., platform-enforced access with traceability), it may map to **OPS.VL4 (Controlled Environment)**.
 
@@ -461,6 +461,7 @@ is not to pass.
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  947aa9ed5b5b817520634ee42388aa95f591f28d8f81e9e2a291ddc7b0d1542f |
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z |  78fd584d7c9c54c19d9139aa842b005f2d748451b8d9826fbd8ddc1d625760ac  |
 | 1.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  5fa32ca5cbe1aa3f82c65b992d5268961a8b5d984abb39ad014543c4afd334f9  |
+| 1.6.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 79f37a0004e31e6eb34895c8f90ad56bad84d193ff8d0cd3f7d9664595284371 |
 ---
 
 ## 11.56 Binding Seal

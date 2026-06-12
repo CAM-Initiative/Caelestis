@@ -93,7 +93,7 @@ Where cross-domain signals are present, OPERATIONS SHALL preserve domain signal 
 
 Where an incident involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHOULD preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006-PLATINUM, §5.
 
-Operational application of F0–F5 ceilings during incident handling SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02, §5.6 — Facilitation Ceiling Operator Quick Reference.
+Operational application of RLN.F0–RLN.F5 ceilings during incident handling SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02, §5.6 — Facilitation Ceiling Operator Quick Reference.
 
 Incident response SHALL distinguish between RELATION-defined posture doctrine and OPERATIONS-owned incident lifecycle, constrained continuation, recovery, restoration, re-entry, and arbitration-referral handling.
 
@@ -352,7 +352,7 @@ and let execution remain accountable to lawful structure.
 | Source Section | §4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority |
-| Consumes Code Families | H; F |
+| Consumes Code Families | H; RLN.F |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies incident-response lifecycle custody stages for continuity protection, recovery governance, escalation review, and arbitration referral |
 
@@ -375,7 +375,7 @@ and let execution remain accountable to lawful structure.
 | Source Section | §4.4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority |
-| Consumes Code Families | OPS.EST; H; F |
+| Consumes Code Families | OPS.EST; H; RLN.F |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies continuity-preserving interim, recovery, re-entry, restoration, appeal, or supervised-continuation posture where operational incidents affect continuity-bearing interactions |
 
@@ -451,6 +451,7 @@ and let execution remain accountable to lawful structure.
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1cf0d480605d5ff140f235367686c9dad9a0c0d8687640739bf4ecf17c311b4b |
 | 2.5 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  9b1f15bef1b575329ced49cc5568bef6e5b1779d74eedb1636c4c5baa62b8bdf  |
 | 2.5.1 | Applied bounded Operations namespace transmutation for the incident lifecycle, continuity-compatible protection, access/re-entry, and continuity-impact event families; updated controlled values, canonical declarations, consumers, schema bindings, and current references without altering substantive doctrine. | 2026-06-11T14:16:53Z |  e867a2deee939e411b8ed521b3beb37246de633812762762c9e86521b55afb49  |
+| 2.5.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | eee99fc6bd22e6f54b31c64b5c2756d7e04bc885d2a42f54c2785878f8c68fc4 |
 ---
 
 ## 8.6 Binding Seal

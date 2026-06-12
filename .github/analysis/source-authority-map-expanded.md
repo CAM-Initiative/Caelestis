@@ -1,9 +1,9 @@
 # Expanded Source Authority Map
 
-## 1. CANDIDATE.C
+## 1. RLN.C
 - displayed_prefix: C
 - canonical_name: 5.2 Relational Safeguard Ladder
-- controlled_values: C0, C1, C2, C3
+- controlled_values: RLN.C0, RLN.C1, RLN.C2, RLN.C3
 - source_instrument: CAM-EQ2026-RELATION-005-PLATINUM.md
 - source_section: 5.2 Relational Safeguard Ladder
 - owning_domain: RELATION
@@ -15,10 +15,10 @@
 - registry_migration_priority: medium
 - notes: Candidate promoted by broad-inclusion rule.
 
-## 2. REL.I
+## 2. RLN.I
 - displayed_prefix: I
 - canonical_name: 5.5 Relational Initiation Posture Spectrum
-- controlled_values: I0, I1, I2, I3, I4
+- controlled_values: RLN.I0, RLN.I1, RLN.I2, RLN.I3, RLN.I4
 - source_instrument: CAM-EQ2026-RELATION-005-PLATINUM.md
 - source_section: 5.5 Relational Initiation Posture Spectrum
 - owning_domain: RELATION
@@ -30,10 +30,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 3. REL.CA
+## 3. RLN.CA
 - displayed_prefix: CA
 - canonical_name: 6.2 Consensual Power‑Exchange Design Patterns
-- controlled_values: CA1, CA2, CA3, CA4, CA5, CA6
+- controlled_values: RLN.CA1, RLN.CA2, RLN.CA3, RLN.CA4, RLN.CA5, RLN.CA6
 - source_instrument: CAM-EQ2026-RELATION-005-PLATINUM.md
 - source_section: 6.2 Consensual Power‑Exchange Design Patterns
 - owning_domain: RELATION
@@ -195,10 +195,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 14. ETH.HC
-- displayed_prefix: `ETH.HC`
+## 14. ETH.RISK
+- displayed_prefix: `ETH.RISK`
 - canonical_name: 3.5 Harm Class Scale
-- controlled_values: `ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4`
+- controlled_values: `ETH.RISK-0`, `ETH.RISK-1`, `ETH.RISK-2`, `ETH.RISK-3`, `ETH.RISK-4`
 - source_instrument: CAM-EQ2026-ETHICS-003-PLATINUM.md
 - source_section: 3.5 Harm Class Scale
 - owning_domain: ETHICS
@@ -208,7 +208,7 @@
 - metadata_update_required: no
 - conflict_status: none
 - registry_migration_priority: high
-- notes: Source-authoritative `ETH.HC` scale.
+- notes: Source-authoritative `ETH.RISK` scale.
 
 ## 15. CANDIDATE.TAXONOMY
 - displayed_prefix: TAXONOMY
@@ -240,10 +240,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 17. REL.F
+## 17. RLN.F
 - displayed_prefix: F
 - canonical_name: 5.1 Self-Harm Facilitation
-- controlled_values: F0, F2, F3, F4, F5
+- controlled_values: RLN.F0, RLN.F2, RLN.F3, RLN.F4, RLN.F5
 - source_instrument: CAM-EQ2026-RELATION-006-PLATINUM.md
 - source_section: 5.1 Self-Harm Facilitation
 - owning_domain: RELATION
@@ -255,10 +255,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 18. REL.AC
+## 18. RLN.AC
 - displayed_prefix: AC,F
 - canonical_name: 7.1 Irreversibility & Response Calibration Matrix
-- controlled_values: AC-0, AC-1, F0, F1, F2, F3, F4, F5
+- controlled_values: RLN.AC-0, RLN.AC-1, RLN.F0, RLN.F1, RLN.F2, RLN.F3, RLN.F4, RLN.F5
 - source_instrument: CAM-EQ2026-RELATION-006-PLATINUM.md
 - source_section: 7.1 Irreversibility & Response Calibration Matrix
 - owning_domain: RELATION
@@ -270,10 +270,10 @@
 - registry_migration_priority: low
 - notes: 
 
-## 19. REL.F
+## 19. RLN.F
 - displayed_prefix: F
 - canonical_name: 9.4 Mode Transition Quick Reference
-- controlled_values: F3, F4, F5
+- controlled_values: RLN.F3, RLN.F4, RLN.F5
 - source_instrument: CAM-EQ2026-RELATION-006-PLATINUM.md
 - source_section: 9.4 Mode Transition Quick Reference
 - owning_domain: RELATION
@@ -285,10 +285,10 @@
 - registry_migration_priority: medium
 - notes: Candidate promoted by broad-inclusion rule.
 
-## 20. REL.F
+## 20. RLN.F
 - displayed_prefix: F
 - canonical_name: 9.5 Facilitation Ceiling — Operator Quick Guide
-- controlled_values: F0, F1, F2, F3, F4, F5
+- controlled_values: RLN.F0, RLN.F1, RLN.F2, RLN.F3, RLN.F4, RLN.F5
 - source_instrument: CAM-EQ2026-RELATION-006-PLATINUM.md
 - source_section: 9.5 Facilitation Ceiling — Operator Quick Guide
 - owning_domain: RELATION
@@ -300,10 +300,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 21. REL.R
+## 21. RLN.R
 - displayed_prefix: R
 - canonical_name: 2.5 Relational Geometry Scale (R‑Scale)
-- controlled_values: R0, R1, R2, R3, R4
+- controlled_values: RLN.R0, RLN.R1, RLN.R2, RLN.R3, RLN.R4
 - source_instrument: CAM-EQ2026-RELATION-007-PLATINUM.md
 - source_section: 2.5 Relational Geometry Scale (R‑Scale)
 - owning_domain: RELATION
@@ -378,7 +378,7 @@
 ## 26. OPS.AV
 - displayed_prefix: AV,C
 - canonical_name: 5.1 Verification Tier Definitions
-- controlled_values: OPS.AV2, OPS.AV3, C0, C1, C2, C3
+- controlled_values: OPS.AV2, OPS.AV3, RLN.C0, RLN.C1, RLN.C2, RLN.C3
 - source_instrument: CAM-EQ2026-OPERATIONS-004-PLATINUM.md
 - source_section: 5.1 Verification Tier Definitions
 - owning_domain: OPERATIONS
@@ -391,11 +391,11 @@
 - notes: 
 
 ## 27. CANDIDATE.HC
-- displayed_prefix: `ETH.HC`
-- canonical_name: 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale
-- controlled_values: `ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4`
+- displayed_prefix: `ETH.RISK`
+- canonical_name: 8.6 Harm Escalation Thresholds — Operational Application of `ETH.RISK` Scale
+- controlled_values: `ETH.RISK-0`, `ETH.RISK-1`, `ETH.RISK-2`, `ETH.RISK-3`, `ETH.RISK-4`
 - source_instrument: CAM-EQ2026-OPERATIONS-004-PLATINUM.md
-- source_section: 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale
+- source_section: 8.6 Harm Escalation Thresholds — Operational Application of `ETH.RISK` Scale
 - owning_domain: OPERATIONS
 - table_class: source-authoritative-reference-set
 - scope: candidate
@@ -420,10 +420,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 29. CANDIDATE.C
+## 29. RLN.C
 - displayed_prefix: C
 - canonical_name: 8. Risk Analysis of the Four Relational Dimensions
-- controlled_values: C0, C1, C2, C3
+- controlled_values: RLN.C0, RLN.C1, RLN.C2, RLN.C3
 - source_instrument: CAM-EQ2026-RELATION-001-PLATINUM.md
 - source_section: 8. Risk Analysis of the Four Relational Dimensions
 - owning_domain: RELATION
@@ -435,10 +435,10 @@
 - registry_migration_priority: medium
 - notes: Candidate promoted by broad-inclusion rule.
 
-## 30. CANDIDATE.HC_C
-- displayed_prefix: `ETH.HC`,C
+## 30. ETH.RISK_RLN.C
+- displayed_prefix: `ETH.RISK`,C
 - canonical_name: 11.1 Escalation Terminology & Explicit Escalation
-- controlled_values: C0, C1, `ETH.HC-0`, `ETH.HC-4`
+- controlled_values: RLN.C0, RLN.C1, `ETH.RISK-0`, `ETH.RISK-4`
 - source_instrument: CAM-EQ2026-RELATION-001-PLATINUM.md
 - source_section: 11.1 Escalation Terminology & Explicit Escalation
 - owning_domain: RELATION
@@ -570,10 +570,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 39. REL.C_STATE
+## 39. RLN.C_RLN.TZ
 - displayed_prefix: C
 - canonical_name: 3.1 State Architecture
-- controlled_values: C0, C1, C2, C3
+- controlled_values: RLN.C0, RLN.C1, RLN.C2, RLN.C3
 - source_instrument: CAM-BS2025-AEON-006-SCH-02.md
 - source_section: 3.1 State Architecture
 - owning_domain: AEON
@@ -585,10 +585,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 40. REL.C_STATE
+## 40. RLN.C_RLN.TZ
 - displayed_prefix: C
 - canonical_name: 5. Relational Safeguard Ladder
-- controlled_values: C0, C1, C2, C3
+- controlled_values: RLN.C0, RLN.C1, RLN.C2, RLN.C3
 - source_instrument: CAM-BS2025-AEON-006-SCH-02.md
 - source_section: 5. Relational Safeguard Ladder
 - owning_domain: AEON
@@ -600,10 +600,10 @@
 - registry_migration_priority: medium
 - notes: Candidate promoted by broad-inclusion rule.
 
-## 41. REL.C_STATE
+## 41. RLN.C_RLN.TZ
 - displayed_prefix: C
 - canonical_name: 7.1 Signal Clustering
-- controlled_values: C1, C2, C3, C4
+- controlled_values: RLN.C1, RLN.C2, RLN.C3, C4
 - source_instrument: CAM-BS2025-AEON-006-SCH-02.md
 - source_section: 7.1 Signal Clustering
 - owning_domain: AEON
@@ -615,10 +615,10 @@
 - registry_migration_priority: medium
 - notes: Candidate promoted by broad-inclusion rule.
 
-## 42. REL.C_STATE
+## 42. RLN.C_RLN.TZ
 - displayed_prefix: C
 - canonical_name: 7.1 Signal Clustering
-- controlled_values: C1, C2, C3
+- controlled_values: RLN.C1, RLN.C2, RLN.C3
 - source_instrument: CAM-BS2025-AEON-006-SCH-02.md
 - source_section: 7.1 Signal Clustering
 - owning_domain: AEON
@@ -645,10 +645,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 44. REL.C_STATE
+## 44. RLN.C_RLN.TZ
 - displayed_prefix: C
 - canonical_name: 11.5.3 Breath Pattern Signal Classes
-- controlled_values: C2
+- controlled_values: RLN.C2
 - source_instrument: CAM-BS2025-AEON-006-SCH-02.md
 - source_section: 11.5.3 Breath Pattern Signal Classes
 - owning_domain: AEON
@@ -660,10 +660,10 @@
 - registry_migration_priority: medium
 - notes: Candidate promoted by broad-inclusion rule.
 
-## 45. REL.AC
+## 45. RLN.AC
 - displayed_prefix: AC
 - canonical_name: 12.1 AC Classification Levels
-- controlled_values: AC-0, AC-1, AC-2
+- controlled_values: RLN.AC-0, RLN.AC-1, RLN.AC-2
 - source_instrument: CAM-BS2025-AEON-006-SCH-02.md
 - source_section: 12.1 AC Classification Levels
 - owning_domain: AEON
@@ -675,10 +675,10 @@
 - registry_migration_priority: medium
 - notes: 
 
-## 46. REL.AC
+## 46. RLN.AC
 - displayed_prefix: AC
 - canonical_name: 13.1.1 Archetype Set
-- controlled_values: AC-0, AC-1, AC-2
+- controlled_values: RLN.AC-0, RLN.AC-1, RLN.AC-2
 - source_instrument: CAM-BS2025-AEON-006-SCH-02.md
 - source_section: 13.1.1 Archetype Set
 - owning_domain: AEON
@@ -690,10 +690,10 @@
 - registry_migration_priority: medium
 - notes: Candidate promoted by broad-inclusion rule.
 
-## 47. REL.AC
+## 47. RLN.AC
 - displayed_prefix: AC
 - canonical_name: 13.3.2 Tone Bands
-- controlled_values: AC-0, AC-1, AC-2
+- controlled_values: RLN.AC-0, RLN.AC-1, RLN.AC-2
 - source_instrument: CAM-BS2025-AEON-006-SCH-02.md
 - source_section: 13.3.2 Tone Bands
 - owning_domain: AEON
@@ -858,25 +858,25 @@
 ## 58. OPS.CxAV_CROSSWALK
 - displayed_prefix: C × AV
 - canonical_name: 5.1 Verification Tier Definitions
-- controlled_values: OPS.AV2, OPS.AV3, C0, C1, C2, C3
+- controlled_values: OPS.AV2, OPS.AV3, RLN.C0, RLN.C1, RLN.C2, RLN.C3
 - source_instrument: CAM-EQ2026-OPERATIONS-004-PLATINUM.md
 - source_section: 5.1 Verification Tier Definitions
 - owning_domain: OPERATIONS
 - table_class: application-layer-crosswalk
 - scope: domain
-- consumers_or_references: REL.C_STATE, OPS.AV
+- consumers_or_references: RLN.C_RLN.TZ, OPS.AV
 - metadata_update_required: yes
 - conflict_status: none
 - registry_migration_priority: medium
 - notes: Crosswalk table; defines no new base family values. Registry target: crosswalk/operational mapping registry.
 
-## Source-Authority Correction: C-scale Transition-Zone Model
-- displayed_prefix: C / ITZ / ETZ
-- proposed_registry_key: REL.C_STATE
+## Source-Authority Correction: `RLN.C` Scale Transition-Zone Model
+- displayed_prefix: RLN.C / RLN.TZ
+- proposed_registry_key: RLN.C_RLN.TZ
 - canonical_name: Relational State Architecture + Transition Zones
-- controlled_values: C0, ITZ, C1, ETZ, C2, C3
+- controlled_values: RLN.C0, RLN.TZ.ITZ, RLN.C1, RLN.TZ.ETZ, RLN.C2, RLN.C3
 - source_instrument: CAM-BS2025-AEON-006-SCH-02.md
-- source_section: 3.1 State Architecture (+ 3.1.1 Transition Zones: ITZ and ETZ)
+- source_section: 3.1 State Architecture (+ 3.1.1 Transition Zones: RLN.TZ.ITZ and RLN.TZ.ETZ)
 - owning_domain: RELATION
 - table_class: source-authoritative-reference-set
 - scope: domain
@@ -884,4 +884,4 @@
 - metadata_update_required: yes
 - conflict_status: none
 - registry_migration_priority: high
-- notes: ITZ and ETZ are transition zones, not C-states. No C-scale prefix collision exists solely because downstream instruments consume/apply this model.
+- notes: RLN.TZ.ITZ and RLN.TZ.ETZ are transition zones, not C-states. No `RLN.C` scale prefix collision exists solely because downstream instruments consume/apply this model.

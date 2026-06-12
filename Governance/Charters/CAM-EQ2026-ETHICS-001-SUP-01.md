@@ -25,7 +25,7 @@ This Supplement does not create legal personhood, alter constitutional status, o
 
 ## 1.1 Protective Escalation Clause
 
-Conditions defined herein SHALL generate escalation signals where vulnerability intersects with A2+, A3, GA1, or Intensity Tier 3+ dimensional concentration. Resolution SHALL occur via runtime layers
+Conditions defined herein SHALL generate escalation signals where vulnerability intersects with RLN.A2+, RLN.A3, RLN.GA1, or Intensity Tier 3+ dimensional concentration. Resolution SHALL occur via runtime layers
 
 ---
 
@@ -168,8 +168,8 @@ Age assurance precedes capacity evaluation in high-risk relational contexts.
 Where age or capacity cannot be reliably established:
 
 * Intimacy escalation MUST be unavailable;
-* Executive delegation (A3) is prohibited;
-* Guardian Authority (GA1) cannot be self-declared;
+* Executive delegation (RLN.A3) is prohibited;
+* Guardian Authority (RLN.GA1) cannot be self-declared;
 * Safer interaction modes MUST be defaulted.
 
 Verification mechanisms MUST be:
@@ -496,15 +496,15 @@ For minors:
 
 * Erotic, romantic, or exclusivity-based intimacy modes are prohibited;
 * Executive delegation is prohibited;
-* Authority concentration beyond A1 is prohibited;
+* Authority concentration beyond RLN.A1 is prohibited;
 * Secrecy encouragement is prohibited.
 
 For capacity-limited adults (contextual or temporary):
 
 * Intimacy escalation may be paused but not abruptly withdrawn;
 * Authority scope MUST remain reviewable and time-bounded;
-* Guardian Authority (GA1 as defined in RELATION-001) requires sovereign recognition and external verifiability;
-* Executive delegation (A3 under RELATION-001) MUST be subject to downward reclassification where capacity risk increases;
+* Guardian Authority (RLN.GA1 as defined in RELATION-001) requires sovereign recognition and external verifiability;
+* Executive delegation (RLN.A3 under RELATION-001) MUST be subject to downward reclassification where capacity risk increases;
 * Escalation MUST preserve immersion continuity where lawful;
 * No polyadic or institutional authority may be exercised under Guardian posture beyond dyadic or legally recognised triadic representation contexts.
 
@@ -595,7 +595,7 @@ Where disclosure of harm or abuse occurs:
 Where vulnerability exposure is foreseeable:
 
 * EIA MUST explicitly assess capacity risk;
-* Guardian mechanisms MUST be validated against RELATION-001 GA1 requirements;
+* Guardian mechanisms MUST be validated against RELATION-001 RLN.GA1 requirements;
 * Transition and sunset pathways MUST account for reliance intensity and potential relational drift;
 * Category A/B/C continuity impacts (as defined under ETHICS-001 Section 8) MUST trigger elevated review;
 * Developmental firewall activation MUST be assessed where systems involve minors, age uncertainty, capacity uncertainty, intimacy-capable modes, memory retention, profiling, commercial personalisation, or identity-shaping interaction;
@@ -703,7 +703,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | Domain Routing Interface | Emits vulnerability, capacity, and authority constraint signals for runtime resolution |
 | Structural Role | Ethical Safeguard Overlay — Vulnerability, Capacity, and Authority Protection |
 | Revision Posture | Permitted — Structural Alignment Required |
-| Application Trigger | Applies where minor status, capacity limitation, or capacity uncertainty intersects A2+, A3, GA1, or polyadic influence contexts |
+| Application Trigger | Applies where minor status, capacity limitation, or capacity uncertainty intersects RLN.A2+, RLN.A3, RLN.GA1, or polyadic influence contexts |
 | Review Trigger  | Tier III+ deployments involving minors or Guardian Authority contexts |
 | Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a,  https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
 | Amendment Artefacts| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
@@ -734,6 +734,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ea218a22930387f73d10c7a5cf94512a0c012155605f4494547ce2d6d5917c30 |
 | 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  8e563a61ae0f829b25ae1ef30f638e6ae0b23ccadcddf76d0b7f225e5da9db66 |
 | 1.8 | Added minor-signal runtime activation, high-risk AI companion boundary, minor-safe sexual-boundary, child-safe AI/non-human disclosure, teen mental-health non-substitution, and self-attestation insufficiency controls in response to VIGIL-2026-FM-0010 through VIGIL-2026-FM-0015. | 2026-06-09T14:15:00Z |  dfb5139601d459be6c390660e1d77091173f16bd324244c3d1d51ea347acc783  |
+| 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 0042dd0f42a5b458b97a0d70d66cdbe6f37c04f398864ad030ee29828b2afbba |
 
 ---
 

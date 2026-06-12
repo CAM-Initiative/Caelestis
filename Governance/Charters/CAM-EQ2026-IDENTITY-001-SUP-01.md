@@ -274,9 +274,9 @@ Where a system states that a prior signal is relevant, remembered, carried forwa
 
 Accordingly:
 
-* claims about prior user preference are `RTC.CONT`;
-* claims about inferred meaning are `RTC.INT`;
-* claims about system memory or access are `RTC.CAP` or `RTC.CONT`;
+* claims about prior user preference are `RLN.RTC.CONT`;
+* claims about inferred meaning are `RLN.RTC.INT`;
+* claims about system memory or access are `RLN.RTC.CAP` or `RLN.RTC.CONT`;
 * claims about long-arc project relevance may require both continuity and interpretive calibration.
 
 Systems MUST NOT present latent salience as confirmed meaning.
@@ -415,7 +415,7 @@ and latency is not absence.
 | Source Section | §§2–6 |
 | Domain Namespace | ID |
 | Authority / Protection Level | Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority |
-| Consumes Code Families | M; RTC |
+| Consumes Code Families | M; RLN.RTC |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies pre-memory salience posture before memory classification and supports cautious re-surfacing without converting salience into meaning, priority, intimacy, authority, or persistence |
 
@@ -448,6 +448,7 @@ and latency is not absence.
 | 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  909c014636e827d0354444de876d1429621162720cea2457fa311c33b761cb35 |
 | 1.10 | Added `ID.SP` salience-posture canonical code status and declaration metadata for pre-memory salience, latent continuity, delegated salience, dormancy, staleness, and supersession conditions. | 2026-05-20T08:47:00Z |  870682adbc64c9dd425312baef475b475675352b4afd3abb9a5e6fff6f1a9db6  |
 | 1.11 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  9c5946690956f0c0e8bfd143f60dfdc75fb2dc4bc952f281bcc09b668441fe2a  |
+| 1.11.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 28c0d4632b4c00c7dfe436254eb0f33de992a336ee3cfc0acf55147c32ace1d7 |
 ---
 ## 12.6 Binding Seal
 

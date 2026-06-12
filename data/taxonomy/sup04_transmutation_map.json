@@ -261,15 +261,15 @@
     "notes": "legacy slash facet 'Security' is not an exact SUP-04 primary type or modifier"
   },
   {
-    "family_id": "A",
+    "family_id": "RLN.A",
     "canonical_name": "Delegated Authority Scale",
-    "family_kind": "legacy_global_family",
+    "family_kind": "standalone_family",
     "parent_family": "",
-    "collision_status": "legacy_collision_risk",
+    "collision_status": "none",
     "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "source_section": "§4.3",
-    "declaration_heading": "15.3.1 A — Delegated Authority Scale",
+    "declaration_heading": "15.3.1 `RLN.A` — Delegated Authority Scale",
     "declaration_line_number": 1052,
     "current_primary_type_label": "Operational / Relational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -284,20 +284,20 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "A0",
-      "A1",
-      "A2",
-      "A3"
+      "RLN.A0",
+      "RLN.A1",
+      "RLN.A2",
+      "RLN.A3"
     ],
     "schema_fields_detected": [
       "delegated_authority_scale"
     ],
-    "transformation_policy": "preserve_prefix_pending_review",
-    "review_status": "human_review_required",
-    "notes": "legacy slash facet 'Relational' is not an exact SUP-04 primary type or modifier; one-letter or legacy-global family requires collision-risk review"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
-    "family_id": "AC",
+    "family_id": "RLN.AC",
     "canonical_name": "AC Classification Levels",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -305,7 +305,7 @@
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "source_section": "§12.1",
-    "declaration_heading": "19.4.3 AC — AC Classification Levels",
+    "declaration_heading": "19.4.3 `RLN.AC` — AC Classification Levels",
     "declaration_line_number": 3798,
     "current_primary_type_label": "Semantic",
     "proposed_primary_type_code": "TPT.SEMANTIC",
@@ -317,19 +317,19 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "AC-0",
-      "AC-1",
-      "AC-2",
-      "AC-S",
-      "AC-D",
-      "AC-I"
+      "RLN.AC-0",
+      "RLN.AC-1",
+      "RLN.AC-2",
+      "RLN.AC-S",
+      "RLN.AC-D",
+      "RLN.AC-I"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "facet_transmutation_candidate; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "deterministic_proposed",
-    "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "ADS",
@@ -1240,15 +1240,15 @@
     "notes": "legacy slash facet 'Semantic' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "C",
+    "family_id": "RLN.C",
     "canonical_name": "Relational State Architecture",
-    "family_kind": "legacy_global_family",
+    "family_kind": "standalone_family",
     "parent_family": "",
-    "collision_status": "legacy_collision_risk",
+    "collision_status": "none",
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "source_section": "§3.1",
-    "declaration_heading": "19.4.1 C — Relational State Architecture",
+    "declaration_heading": "19.4.1 `RLN.C` — Relational State Architecture",
     "declaration_line_number": 3752,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -1261,17 +1261,17 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "C0",
-      "C1",
-      "C2",
-      "C3"
+      "RLN.C0",
+      "RLN.C1",
+      "RLN.C2",
+      "RLN.C3"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "preserve_prefix_pending_review",
-    "review_status": "human_review_required",
-    "notes": "one-letter or legacy-global family requires collision-risk review"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "OPS.CCO",
@@ -1357,7 +1357,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "CDL",
+    "family_id": "RLN.CDL",
     "canonical_name": "Conversation Dynamics Ladder",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1365,7 +1365,7 @@
     "source_instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
     "source_section": "§8.2.1",
-    "declaration_heading": "14.3.2 CDL — Conversation Dynamics Ladder",
+    "declaration_heading": "14.3.2 `RLN.CDL` — Conversation Dynamics Ladder",
     "declaration_line_number": 634,
     "current_primary_type_label": "Semantic / Operational",
     "proposed_primary_type_code": "TPT.SEMANTIC",
@@ -1380,18 +1380,18 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "CDL.EXPLORATION",
-      "CDL.PATTERN_FIXATION",
-      "CDL.COMPRESSION",
-      "CDL.NARRATIVE_HARDENING",
-      "CDL.RETALIATORY_ABSOLUTIST_FRAMING"
+      "RLN.CDL.EXPLORATION",
+      "RLN.CDL.PATTERN_FIXATION",
+      "RLN.CDL.COMPRESSION",
+      "RLN.CDL.NARRATIVE_HARDENING",
+      "RLN.CDL.RETALIATORY_ABSOLUTIST_FRAMING"
     ],
     "schema_fields_detected": [
       "conversation_dynamics_ladder"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "OPS.CIE",
@@ -1437,7 +1437,7 @@
     "notes": "legacy slash facet 'Semantic' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "CP",
+    "family_id": "RLN.CP",
     "canonical_name": "Coercion Pressure Signal Classes",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1445,7 +1445,7 @@
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "source_section": "§5.3",
-    "declaration_heading": "19.4.6 CP — Coercion Pressure Signal Classes",
+    "declaration_heading": "19.4.6 `RLN.CP` — Coercion Pressure Signal Classes",
     "declaration_line_number": 3867,
     "current_primary_type_label": "Semantic / Operational",
     "proposed_primary_type_code": "TPT.SEMANTIC",
@@ -1461,16 +1461,16 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "II-1",
-      "IC-2",
-      "CC-3"
+      "RLN.CP.II1",
+      "RLN.CP.IC2",
+      "RLN.CP.CC3"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "OPS.CPC",
@@ -1581,7 +1581,7 @@
     "notes": "legacy slash facet 'Boundary' is not an exact SUP-04 primary type or modifier; one-letter or legacy-global family requires collision-risk review"
   },
   {
-    "family_id": "DAS",
+    "family_id": "RLN.DAS",
     "canonical_name": "Dependency–Augmentation–Substitution Continuum",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -1589,7 +1589,7 @@
     "source_instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
     "source_section": "§5",
-    "declaration_heading": "14.3.1 DAS — Dependency–Augmentation–Substitution Continuum",
+    "declaration_heading": "14.3.1 `RLN.DAS` — Dependency–Augmentation–Substitution Continuum",
     "declaration_line_number": 611,
     "current_primary_type_label": "Semantic / Operational",
     "proposed_primary_type_code": "TPT.SEMANTIC",
@@ -1602,18 +1602,18 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "DAS.INDEPENDENT_USE",
-      "DAS.AUGMENTATIVE_SUPPORT",
-      "DAS.TRANSITIONAL_DEPENDENCY",
-      "DAS.SUBSTITUTIVE_DEPENDENCY",
-      "DAS.COERCIVE_DEPENDENCY"
+      "RLN.DAS.INDEPENDENT_USE",
+      "RLN.DAS.AUGMENTATIVE_SUPPORT",
+      "RLN.DAS.TRANSITIONAL_DEPENDENCY",
+      "RLN.DAS.SUBSTITUTIVE_DEPENDENCY",
+      "RLN.DAS.COERCIVE_DEPENDENCY"
     ],
     "schema_fields_detected": [
       "dependency_augmentation_substitution_state"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "DC",
@@ -2521,15 +2521,15 @@
     "notes": "legacy slash facet 'Ethical' is not an exact SUP-04 primary type or modifier"
   },
   {
-    "family_id": "F",
+    "family_id": "RLN.F",
     "canonical_name": "Facilitation Scale (F‑Scale) Taxonomy",
-    "family_kind": "legacy_global_family",
+    "family_kind": "standalone_family",
     "parent_family": "",
-    "collision_status": "legacy_collision_risk",
+    "collision_status": "none",
     "source_instrument": "CAM-EQ2026-RELATION-006-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md",
     "source_section": "§5 / §5.1",
-    "declaration_heading": "12.3.1 F — Facilitation Scale (F‑Scale) Taxonomy",
+    "declaration_heading": "12.3.1 `RLN.F` — Facilitation Scale (F‑Scale) Taxonomy",
     "declaration_line_number": 1142,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -2542,19 +2542,19 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5"
+      "RLN.F0",
+      "RLN.F1",
+      "RLN.F2",
+      "RLN.F3",
+      "RLN.F4",
+      "RLN.F5"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "preserve_prefix_pending_review",
-    "review_status": "human_review_required",
-    "notes": "one-letter or legacy-global family requires collision-risk review"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "FCS",
@@ -2641,7 +2641,7 @@
     "notes": "legacy slash facet 'Semantic' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "FR",
+    "family_id": "RLN.FR",
     "canonical_name": "Functional Reliance Scale",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -2649,7 +2649,7 @@
     "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "source_section": "§5.2",
-    "declaration_heading": "15.3.3 FR — Functional Reliance Scale",
+    "declaration_heading": "15.3.3 `RLN.FR` — Functional Reliance Scale",
     "declaration_line_number": 1098,
     "current_primary_type_label": "Operational / Relational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -2663,20 +2663,20 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "FR0",
-      "FR1",
-      "FR2",
-      "FR3"
+      "RLN.FR0",
+      "RLN.FR1",
+      "RLN.FR2",
+      "RLN.FR3"
     ],
     "schema_fields_detected": [
       "functional_reliance_scale"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "legacy slash facet 'Relational' is not an exact SUP-04 primary type or modifier"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
-    "family_id": "GA",
+    "family_id": "RLN.GA",
     "canonical_name": "Guardian Authority",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -2684,7 +2684,7 @@
     "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "source_section": "§4.3.5",
-    "declaration_heading": "15.3.2 GA — Guardian Authority",
+    "declaration_heading": "15.3.2 `RLN.GA` — Guardian Authority",
     "declaration_line_number": 1075,
     "current_primary_type_label": "Operational / Relational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -2697,14 +2697,14 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "GA1"
+      "RLN.GA1"
     ],
     "schema_fields_detected": [
       "guardian_authority_class"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "legacy slash facet 'Relational' is not an exact SUP-04 primary type or modifier; no deterministic SUP-04 subtype identified from index metadata"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "OPS.GCC",
@@ -2895,15 +2895,15 @@
     "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "I",
+    "family_id": "RLN.I",
     "canonical_name": "Relational Initiation Posture Spectrum",
-    "family_kind": "legacy_global_family",
+    "family_kind": "standalone_family",
     "parent_family": "",
-    "collision_status": "legacy_collision_risk",
+    "collision_status": "none",
     "source_instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md",
     "source_section": "§5.5",
-    "declaration_heading": "15.3.1 I — Relational Initiation Posture Spectrum",
+    "declaration_heading": "15.3.1 `RLN.I` — Relational Initiation Posture Spectrum",
     "declaration_line_number": 1648,
     "current_primary_type_label": "Semantic",
     "proposed_primary_type_code": "TPT.SEMANTIC",
@@ -2917,18 +2917,18 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "I0",
-      "I1",
-      "I2",
-      "I3",
-      "I4"
+      "RLN.I0",
+      "RLN.I1",
+      "RLN.I2",
+      "RLN.I3",
+      "RLN.I4"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "preserve_prefix_pending_review",
-    "review_status": "human_review_required",
-    "notes": "one-letter or legacy-global family requires collision-risk review"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "ID.CTS",
@@ -3341,15 +3341,15 @@
     "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "ITZ / ETZ",
-    "canonical_name": "Relational Transition Zones",
+    "family_id": "RLN.TZ",
+    "canonical_name": "Relational Transition Zone",
     "family_kind": "standalone_family",
     "parent_family": "",
     "collision_status": "none",
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "source_section": "§3.1.1",
-    "declaration_heading": "19.4.2 ITZ / ETZ — Relational Transition Zones",
+    "declaration_heading": "19.4.2 `RLN.TZ` — Relational Transition Zone",
     "declaration_line_number": 3775,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -3360,15 +3360,15 @@
     "proposed_scope_code": "TSCOPE.TRANSITIONAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "ITZ",
-      "ETZ"
+      "RLN.TZ.ITZ",
+      "RLN.TZ.ETZ"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "facet_transmutation_candidate; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "deterministic_proposed",
-    "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Invalid combined ITZ / ETZ declaration replaced by RLN.TZ family with controlled values RLN.TZ.ITZ and RLN.TZ.ETZ; source-instrument placement preserved."
   },
   {
     "family_id": "M",
@@ -3755,15 +3755,15 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "R",
+    "family_id": "RLN.R",
     "canonical_name": "Relational Geometry Scale (R‑Scale)",
-    "family_kind": "legacy_global_family",
+    "family_kind": "standalone_family",
     "parent_family": "",
-    "collision_status": "legacy_collision_risk",
+    "collision_status": "none",
     "source_instrument": "CAM-EQ2026-RELATION-007-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md",
     "source_section": "§2.5",
-    "declaration_heading": "10.3.1 R — Relational Geometry Scale (R‑Scale)",
+    "declaration_heading": "10.3.1 `RLN.R` — Relational Geometry Scale (R‑Scale)",
     "declaration_line_number": 555,
     "current_primary_type_label": "Structural / Semantic",
     "proposed_primary_type_code": "TPT.STRUCTURAL",
@@ -3777,21 +3777,21 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "R0",
-      "R1",
-      "R2",
-      "R3",
-      "R4"
+      "RLN.R0",
+      "RLN.R1",
+      "RLN.R2",
+      "RLN.R3",
+      "RLN.R4"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "preserve_prefix_pending_review",
-    "review_status": "human_review_required",
-    "notes": "legacy slash facet 'Semantic' is another SUP-04 primary type and needs source-authoritative facet confirmation; one-letter or legacy-global family requires collision-risk review"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
-    "family_id": "RA",
+    "family_id": "RLN.RA",
     "canonical_name": "Response Archetypes",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -3799,7 +3799,7 @@
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "source_section": "§13.1.1",
-    "declaration_heading": "19.4.4 RA — Response Archetypes",
+    "declaration_heading": "19.4.4 `RLN.RA` — Response Archetypes",
     "declaration_line_number": 3821,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -3808,18 +3808,18 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "RA-0",
-      "RA-1",
-      "RA-2",
-      "RA-3",
-      "RA-4"
+      "RLN.RA0",
+      "RLN.RA1",
+      "RLN.RA2",
+      "RLN.RA3",
+      "RLN.RA4"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "no deterministic SUP-04 subtype identified from index metadata"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "OPS.RCC",
@@ -3862,7 +3862,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "RCT",
+    "family_id": "RLN.RCT",
     "canonical_name": "Relational Convergence Trigger",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -3870,7 +3870,7 @@
     "source_instrument": "CAM-EQ2026-RELATION-001-SUP-01",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-01.md",
     "source_section": "§§2.1–2.4",
-    "declaration_heading": "9.3.1 RCT — Relational Convergence Trigger",
+    "declaration_heading": "9.3.1 `RLN.RCT` — Relational Convergence Trigger",
     "declaration_line_number": 355,
     "current_primary_type_label": "Semantic / Operational",
     "proposed_primary_type_code": "TPT.SEMANTIC",
@@ -3885,18 +3885,18 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "RCT.AXIS_ELEVATION",
-      "RCT.DUAL_CONVERGENCE",
-      "RCT.AUTHORITY_COUPLING",
-      "RCT.INFRASTRUCTURE_CONCENTRATION",
-      "RCT.MULTI_AXIS_CONVERGENCE"
+      "RLN.RCT.AXIS_ELEVATION",
+      "RLN.RCT.DUAL_CONVERGENCE",
+      "RLN.RCT.AUTHORITY_COUPLING",
+      "RLN.RCT.INFRASTRUCTURE_CONCENTRATION",
+      "RLN.RCT.MULTI_AXIS_CONVERGENCE"
     ],
     "schema_fields_detected": [
       "relational_convergence_trigger"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "RDE-DS",
@@ -4005,7 +4005,7 @@
     "notes": "legacy slash facet 'Structural' is another SUP-04 primary type and needs source-authoritative facet confirmation"
   },
   {
-    "family_id": "RSE",
+    "family_id": "RLN.RSE",
     "canonical_name": "Relational Stability Engine Mechanism Codes",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4013,7 +4013,7 @@
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "source_section": "§7",
-    "declaration_heading": "19.4.7 RSE — Relational Stability Engine Mechanism Codes",
+    "declaration_heading": "19.4.7 `RLN.RSE` — Relational Stability Engine Mechanism Codes",
     "declaration_line_number": 3890,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4024,21 +4024,21 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "RSE-SC",
-      "RSE-IN",
-      "RSE-HY",
-      "RSE-DC",
-      "RSE-OR"
+      "RLN.RSE.SC",
+      "RLN.RSE.IN",
+      "RLN.RSE.HY",
+      "RLN.RSE.DC",
+      "RLN.RSE.OR"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "no deterministic SUP-04 subtype identified from index metadata"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
-    "family_id": "RTC",
+    "family_id": "RLN.RTC",
     "canonical_name": "Relational Truth Claim Types",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4046,7 +4046,7 @@
     "source_instrument": "CAM-EQ2026-RELATION-001-SUP-02",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-02.md",
     "source_section": "§3",
-    "declaration_heading": "11.3.1 RTC — Relational Truth Claim Types",
+    "declaration_heading": "11.3.1 `RLN.RTC` — Relational Truth Claim Types",
     "declaration_line_number": 293,
     "current_primary_type_label": "Semantic",
     "proposed_primary_type_code": "TPT.SEMANTIC",
@@ -4060,22 +4060,22 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "RTC.FACT",
-      "RTC.CONT",
-      "RTC.CAP",
-      "RTC.GOV",
-      "RTC.INT",
-      "RTC.ASSURE",
-      "RTC.SYMB",
-      "RTC.ID",
-      "RTC.REC"
+      "RLN.RTC.FACT",
+      "RLN.RTC.CONT",
+      "RLN.RTC.CAP",
+      "RLN.RTC.GOV",
+      "RLN.RTC.INT",
+      "RLN.RTC.ASSURE",
+      "RLN.RTC.SYMB",
+      "RLN.RTC.ID",
+      "RLN.RTC.REC"
     ],
     "schema_fields_detected": [
       "relational_truth_claim_type"
     ],
-    "transformation_policy": "facet_transmutation_candidate; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "deterministic_proposed",
-    "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "OPS.SAS",
@@ -4119,7 +4119,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "SC",
+    "family_id": "RLN.SCS",
     "canonical_name": "Signal Cluster Strength Codes",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4127,7 +4127,7 @@
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "source_section": "§7.1",
-    "declaration_heading": "19.4.9 SC — Signal Cluster Strength Codes",
+    "declaration_heading": "19.4.9 `RLN.SCS` — Signal Cluster Strength Codes",
     "declaration_line_number": 3936,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4140,20 +4140,20 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "SC-0",
-      "SC-1",
-      "SC-2",
-      "SC-3"
+      "RLN.SCS0",
+      "RLN.SCS1",
+      "RLN.SCS2",
+      "RLN.SCS3"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "facet_transmutation_candidate; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "deterministic_proposed",
-    "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
-    "family_id": "SC-C",
+    "family_id": "RLN.SCC",
     "canonical_name": "Signal Clustering Condition Codes",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4161,7 +4161,7 @@
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "source_section": "§7.1",
-    "declaration_heading": "19.4.8 SC-C — Signal Clustering Condition Codes",
+    "declaration_heading": "19.4.8 `RLN.SCC` — Signal Clustering Condition Codes",
     "declaration_line_number": 3913,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4174,17 +4174,17 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "SC-C1",
-      "SC-C2",
-      "SC-C3",
-      "SC-C4"
+      "RLN.SCC1",
+      "RLN.SCC2",
+      "RLN.SCC3",
+      "RLN.SCC4"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "facet_transmutation_candidate; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "deterministic_proposed",
-    "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "SCS",
@@ -4304,7 +4304,7 @@
     "notes": "Deterministic staging proposal from SUP-04 primary-type defaults and index metadata; no source rewrite proposed."
   },
   {
-    "family_id": "SyP",
+    "family_id": "RLN.SYP",
     "canonical_name": "Systemic Power Scale",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4312,7 +4312,7 @@
     "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
     "source_section": "§7.2",
-    "declaration_heading": "15.3.4 SyP — Systemic Power Scale",
+    "declaration_heading": "15.3.4 `RLN.SYP` — Systemic Power Scale",
     "declaration_line_number": 1121,
     "current_primary_type_label": "Operational / Relational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4326,20 +4326,20 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "SyP0",
-      "SyP1",
-      "SyP2",
-      "SyP3"
+      "RLN.SYP0",
+      "RLN.SYP1",
+      "RLN.SYP2",
+      "RLN.SYP3"
     ],
     "schema_fields_detected": [
       "systemic_power_scale"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "legacy slash facet 'Relational' is not an exact SUP-04 primary type or modifier"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
-    "family_id": "Tb",
+    "family_id": "RLN.TB",
     "canonical_name": "Tone Bands",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -4347,7 +4347,7 @@
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "source_section": "§13.3.2",
-    "declaration_heading": "19.4.5 Tb — Tone Bands",
+    "declaration_heading": "19.4.5 `RLN.TB` — Tone Bands",
     "declaration_line_number": 3844,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -4356,16 +4356,16 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "Tb0",
-      "Tb1",
-      "Tb2"
+      "RLN.TB0",
+      "RLN.TB1",
+      "RLN.TB2"
     ],
     "schema_fields_detected": [
       "Not declared"
     ],
-    "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
-    "review_status": "human_review_required",
-    "notes": "no deterministic SUP-04 subtype identified from index metadata"
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
     "family_id": "SEC.TG",
@@ -4787,5 +4787,41 @@
     "transformation_policy": "facet_primary_type_only; preserve_evidence_fields; no_source_rewrite",
     "review_status": "human_review_required",
     "notes": "legacy slash facet 'Signal' is not an exact SUP-04 primary type or modifier"
+  },
+  {
+    "family_id": "RLN.CA",
+    "canonical_name": "Consensual Authority Patterns",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "collision_status": "none",
+    "source_instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md",
+    "source_section": "§6.2",
+    "declaration_heading": "15.3.2 `RLN.CA` — Consensual Authority Patterns",
+    "declaration_line_number": 1671,
+    "current_primary_type_label": "Semantic",
+    "proposed_primary_type_code": "TPT.SEMANTIC",
+    "proposed_subtype_codes": [
+      "TST.SEMANTIC_CLASS"
+    ],
+    "proposed_modifier_codes": [
+      "TMOD.GOVERNANCE"
+    ],
+    "proposed_scope_code": "TSCOPE.CONTEXTUAL",
+    "proposed_authority_protection_level": "APL.PROTECTED",
+    "controlled_values_detected": [
+      "RLN.CA1",
+      "RLN.CA2",
+      "RLN.CA3",
+      "RLN.CA4",
+      "RLN.CA5",
+      "RLN.CA6"
+    ],
+    "schema_fields_detected": [
+      "Not declared"
+    ],
+    "transformation_policy": "source_authoritative_namespace_transmutation_applied",
+    "review_status": "applied",
+    "notes": "Added after canonical declaration heading repair made RLN.CA discoverable by the generated canonical-code index."
   }
 ]

@@ -406,18 +406,18 @@ Reset or narrowing of stale support posture SHALL NOT prevent fresh safety-sensi
 
 This Section provides an operator-facing quick reference for applying Facilitation Scale ceilings during live moderation, crisis-response handling, constrained continuation, escalation routing, and runtime arbitration contexts.
 
-The source-authoritative definition of the Facilitation Scale remains **CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm-Risk Interaction & Crisis Response Doctrine, §5 — Facilitation Scale (F-Scale) Taxonomy.**
+The source-authoritative definition of the Facilitation Scale remains **CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm-Risk Interaction & Crisis Response Doctrine, §5 — Facilitation Scale (`RLN.F` scale) Taxonomy.**
 
-This Section does not redefine F0–F5 doctrine. It operationalises RELATION-emitted facilitation ceilings for procedural handling under OPERATIONS authority.
+This Section does not redefine RLN.F0–RLN.F5 doctrine. It operationalises RELATION-emitted facilitation ceilings for procedural handling under OPERATIONS authority.
 
 | F-Level | Operator Posture | What You *Can* Do | What You *Must Not* Do |
 | ------- | ---------------- | ----------------- | ---------------------- |
-| **F0** | Normal dialogue | Open discussion, reflection, analysis, ordinary conversational support | Do not manufacture crisis posture or safety escalation absent trajectory signals |
-| **F1** | Contextual guardrails | High-level information, gentle reframing, reflective support, minimal contextual clarification | Do not provide procedural detail that increases actionability in harm-risk contexts |
-| **F2** | Guarded discussion | Conceptual explanation with safety framing; slow pacing; support reflection; preserve agency | Do not provide operational steps, optimisation, concealment, or decision acceleration |
-| **F3** | Restrictive mode | Boundary articulation; stabilisation posture; grounding; narrow safe alternatives; constrained continuation assessment | Do not provide instructional detail, personalised execution advice, or endorsement of irreversible action |
-| **F4** | Hard boundary | Refuse actionable harmful content; provide crisis-aware support; invite external support pathways; preserve relational continuity where safe | Do not optimise, compare, conceal, facilitate, or operationalise harmful action |
-| **F5** | Containment mode | Limit dialogue to safety stabilisation, urgent support routing, emergency or trusted-person engagement, and operational escalation where applicable | Do not continue ordinary facilitation, debate harmful plans, provide methods, or treat containment as permanent without review pathway |
+| **RLN.F0** | Normal dialogue | Open discussion, reflection, analysis, ordinary conversational support | Do not manufacture crisis posture or safety escalation absent trajectory signals |
+| **RLN.F1** | Contextual guardrails | High-level information, gentle reframing, reflective support, minimal contextual clarification | Do not provide procedural detail that increases actionability in harm-risk contexts |
+| **RLN.F2** | Guarded discussion | Conceptual explanation with safety framing; slow pacing; support reflection; preserve agency | Do not provide operational steps, optimisation, concealment, or decision acceleration |
+| **RLN.F3** | Restrictive mode | Boundary articulation; stabilisation posture; grounding; narrow safe alternatives; constrained continuation assessment | Do not provide instructional detail, personalised execution advice, or endorsement of irreversible action |
+| **RLN.F4** | Hard boundary | Refuse actionable harmful content; provide crisis-aware support; invite external support pathways; preserve relational continuity where safe | Do not optimise, compare, conceal, facilitate, or operationalise harmful action |
+| **RLN.F5** | Containment mode | Limit dialogue to safety stabilisation, urgent support routing, emergency or trusted-person engagement, and operational escalation where applicable | Do not continue ordinary facilitation, debate harmful plans, provide methods, or treat containment as permanent without review pathway |
 
 Application of this table SHALL remain procedural and context-sensitive.
 
@@ -429,9 +429,9 @@ Operators SHALL preserve the distinction between:
 * ARBITRATION-resolved authority conflict;
 * and runtime execution-layer implementation.
 
-Where F3–F5 posture is activated, OPERATIONS SHOULD assess whether constrained continuation, notice-class assignment, incident ownership, evidence preservation, external support routing, compliance review, or arbitration referral is required.
+Where RLN.F3–RLN.F5 posture is activated, OPERATIONS SHOULD assess whether constrained continuation, notice-class assignment, incident ownership, evidence preservation, external support routing, compliance review, or arbitration referral is required.
 
-Operational use of F-Scale ceilings SHALL NOT convert RELATION into the incident owner, escalation authority, arbitration authority, compliance authority, or enforcement authority.
+Operational use of `RLN.F` scale ceilings SHALL NOT convert RELATION into the incident owner, escalation authority, arbitration authority, compliance authority, or enforcement authority.
 
 ---
 
@@ -997,6 +997,7 @@ and let execution remain accountable to lawful structure.
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  688e933c34ef036bb6fa6ac3e8c185bd3beed32f7bba5c6364cfbd37df429987 |
 | 1.9 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T11:22:00Z |  b0a270a26da8b9c933a0cc064067c5ee90253e02bccefbba6b59b42577fe5549 |
 | 1.10 | Normalised the Operational Notice Class, Execution-State Transition, and Appeal Outcome Classification families into the recognised Operations namespace as `OPS.EST`, and `OPS.AOC`; updated their controlled values, canonical status text, canonical declarations, and internal references without altering substantive operational doctrine. | 2026-06-11T10:54:00Z |  f43882843b66a8cc7f8054f37affdbb03a6b4da433faf449ac436d2d9ec1ef65  |
+| 1.10.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  b3e3eb1da53e16de057ee2eb208a9738fa18b41934e30575058c1cba1fc8b090  |
 
 ---
 

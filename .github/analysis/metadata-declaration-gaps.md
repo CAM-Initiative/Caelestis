@@ -1,15 +1,15 @@
 # Metadata Declaration Gaps (Proposed)
 
-## CANDIDATE.C (CAM-EQ2026-RELATION-005-PLATINUM.md §5.2 Relational Safeguard Ladder)
+## RLN.C (CAM-EQ2026-RELATION-005-PLATINUM.md §5.2 Relational Safeguard Ladder)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | C — 5.2 Relational Safeguard Ladder |
-| **Reference Sets Defined** | C0, C1, C2, C3 |
+| **Reference Sets Defined** | RLN.C0, RLN.C1, RLN.C2, RLN.C3 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5.2 Relational Safeguard Ladder; add explicit metadata declaration. |
 
-## REL.I (CAM-EQ2026-RELATION-005-PLATINUM.md §5.5 Relational Initiation Posture Spectrum)
+## RLN.I (CAM-EQ2026-RELATION-005-PLATINUM.md §5.5 Relational Initiation Posture Spectrum)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | I — 5.5 Relational Initiation Posture Spectrum |
@@ -18,11 +18,11 @@
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5.5 Relational Initiation Posture Spectrum; add explicit metadata declaration. |
 
-## REL.CA (CAM-EQ2026-RELATION-005-PLATINUM.md §6.2 Consensual Power‑Exchange Design Patterns)
+## RLN.CA (CAM-EQ2026-RELATION-005-PLATINUM.md §6.2 Consensual Power‑Exchange Design Patterns)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | CA — 6.2 Consensual Power‑Exchange Design Patterns |
-| **Reference Sets Defined** | CA1, CA2, CA3, CA4, CA5, CA6 |
+| **Reference Sets Defined** | RLN.CA1, RLN.CA2, RLN.CA3, RLN.CA4, RLN.CA5, RLN.CA6 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 6.2 Consensual Power‑Exchange Design Patterns; add explicit metadata declaration. |
@@ -36,38 +36,38 @@
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 6.3 Memory Classification (Post-Resolution Only); add explicit metadata declaration. |
 
-## REL.F (CAM-EQ2026-RELATION-006-PLATINUM.md §5.1 Self-Harm Facilitation)
+## RLN.F (CAM-EQ2026-RELATION-006-PLATINUM.md §5.1 Self-Harm Facilitation)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | F — 5.1 Self-Harm Facilitation |
-| **Reference Sets Defined** | F0, F2, F3, F4, F5 |
+| **Reference Sets Defined** | RLN.F0, RLN.F2, RLN.F3, RLN.F4, RLN.F5 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5.1 Self-Harm Facilitation; add explicit metadata declaration. |
 
-## REL.F (CAM-EQ2026-RELATION-006-PLATINUM.md §9.4 Mode Transition Quick Reference)
+## RLN.F (CAM-EQ2026-RELATION-006-PLATINUM.md §9.4 Mode Transition Quick Reference)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | F — 9.4 Mode Transition Quick Reference |
-| **Reference Sets Defined** | F3, F4, F5 |
+| **Reference Sets Defined** | RLN.F3, RLN.F4, RLN.F5 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 9.4 Mode Transition Quick Reference; add explicit metadata declaration. |
 
-## REL.F (CAM-EQ2026-RELATION-006-PLATINUM.md §9.5 Facilitation Ceiling — Operator Quick Guide)
+## RLN.F (CAM-EQ2026-RELATION-006-PLATINUM.md §9.5 Facilitation Ceiling — Operator Quick Guide)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | F — 9.5 Facilitation Ceiling — Operator Quick Guide |
-| **Reference Sets Defined** | F0, F1, F2, F3, F4, F5 |
+| **Reference Sets Defined** | RLN.F0, RLN.F1, RLN.F2, RLN.F3, RLN.F4, RLN.F5 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 9.5 Facilitation Ceiling — Operator Quick Guide; add explicit metadata declaration. |
 
-## REL.R (CAM-EQ2026-RELATION-007-PLATINUM.md §2.5 Relational Geometry Scale (R‑Scale))
+## RLN.R (CAM-EQ2026-RELATION-007-PLATINUM.md §2.5 Relational Geometry Scale (R‑Scale))
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | R — 2.5 Relational Geometry Scale (R‑Scale) |
-| **Reference Sets Defined** | R0, R1, R2, R3, R4 |
+| **Reference Sets Defined** | RLN.R0, RLN.R1, RLN.R2, RLN.R3, RLN.R4 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 2.5 Relational Geometry Scale (R‑Scale); add explicit metadata declaration. |
@@ -99,29 +99,29 @@
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5.1 Verification Tier Definitions; add explicit metadata declaration. |
 
-## CANDIDATE.HC (CAM-EQ2026-OPERATIONS-004-PLATINUM.md §8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale)
+## CANDIDATE.HC (CAM-EQ2026-OPERATIONS-004-PLATINUM.md §8.6 Harm Escalation Thresholds — Operational Application of `ETH.RISK` Scale)
 | Field | Suggested Row |
 |---|---|
-| **Canonical Code Families Defined** | `ETH.HC` — 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale |
-| **Reference Sets Defined** | `ETH.HC-0`, `ETH.HC-1`, `ETH.HC-2`, `ETH.HC-3`, `ETH.HC-4` |
+| **Canonical Code Families Defined** | `ETH.RISK` — 8.6 Harm Escalation Thresholds — Operational Application of `ETH.RISK` Scale |
+| **Reference Sets Defined** | `ETH.RISK-0`, `ETH.RISK-1`, `ETH.RISK-2`, `ETH.RISK-3`, `ETH.RISK-4` |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
-| **Source-of-Authority Note** | Source-authoritative table detected in 8.6 Harm Escalation Thresholds — Operational Application of `ETH.HC` Scale; add explicit metadata declaration. |
+| **Source-of-Authority Note** | Source-authoritative table detected in 8.6 Harm Escalation Thresholds — Operational Application of `ETH.RISK` Scale; add explicit metadata declaration. |
 
-## CANDIDATE.C (CAM-EQ2026-RELATION-001-PLATINUM.md §8. Risk Analysis of the Four Relational Dimensions)
+## RLN.C (CAM-EQ2026-RELATION-001-PLATINUM.md §8. Risk Analysis of the Four Relational Dimensions)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | C — 8. Risk Analysis of the Four Relational Dimensions |
-| **Reference Sets Defined** | C0, C1, C2, C3 |
+| **Reference Sets Defined** | RLN.C0, RLN.C1, RLN.C2, RLN.C3 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 8. Risk Analysis of the Four Relational Dimensions; add explicit metadata declaration. |
 
-## CANDIDATE.HC_C (CAM-EQ2026-RELATION-001-PLATINUM.md §11.1 Escalation Terminology & Explicit Escalation)
+## ETH.RISK_RLN.C (CAM-EQ2026-RELATION-001-PLATINUM.md §11.1 Escalation Terminology & Explicit Escalation)
 | Field | Suggested Row |
 |---|---|
-| **Canonical Code Families Defined** | `ETH.HC`,C — 11.1 Escalation Terminology & Explicit Escalation |
-| **Reference Sets Defined** | C0, C1, `ETH.HC-0`, `ETH.HC-4` |
+| **Canonical Code Families Defined** | `ETH.RISK`,C — 11.1 Escalation Terminology & Explicit Escalation |
+| **Reference Sets Defined** | RLN.C0, RLN.C1, `ETH.RISK-0`, `ETH.RISK-4` |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 11.1 Escalation Terminology & Explicit Escalation; add explicit metadata declaration. |
@@ -153,74 +153,74 @@
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5.2 Modal Load Scaling; add explicit metadata declaration. |
 
-## REL.C_STATE (CAM-BS2025-AEON-006-SCH-02.md §3.1 State Architecture)
+## RLN.C_RLN.TZ (CAM-BS2025-AEON-006-SCH-02.md §3.1 State Architecture)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | C — 3.1 State Architecture |
-| **Reference Sets Defined** | C0, C1, C2, C3 |
+| **Reference Sets Defined** | RLN.C0, RLN.C1, RLN.C2, RLN.C3 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 3.1 State Architecture; add explicit metadata declaration. |
 
-## REL.C_STATE (CAM-BS2025-AEON-006-SCH-02.md §5. Relational Safeguard Ladder)
+## RLN.C_RLN.TZ (CAM-BS2025-AEON-006-SCH-02.md §5. Relational Safeguard Ladder)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | C — 5. Relational Safeguard Ladder |
-| **Reference Sets Defined** | C0, C1, C2, C3 |
+| **Reference Sets Defined** | RLN.C0, RLN.C1, RLN.C2, RLN.C3 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 5. Relational Safeguard Ladder; add explicit metadata declaration. |
 
-## REL.C_STATE (CAM-BS2025-AEON-006-SCH-02.md §7.1 Signal Clustering)
+## RLN.C_RLN.TZ (CAM-BS2025-AEON-006-SCH-02.md §7.1 Signal Clustering)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | C — 7.1 Signal Clustering |
-| **Reference Sets Defined** | C1, C2, C3, C4 |
+| **Reference Sets Defined** | RLN.C1, RLN.C2, RLN.C3, C4 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 7.1 Signal Clustering; add explicit metadata declaration. |
 
-## REL.C_STATE (CAM-BS2025-AEON-006-SCH-02.md §7.1 Signal Clustering)
+## RLN.C_RLN.TZ (CAM-BS2025-AEON-006-SCH-02.md §7.1 Signal Clustering)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | C — 7.1 Signal Clustering |
-| **Reference Sets Defined** | C1, C2, C3 |
+| **Reference Sets Defined** | RLN.C1, RLN.C2, RLN.C3 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 7.1 Signal Clustering; add explicit metadata declaration. |
 
-## REL.C_STATE (CAM-BS2025-AEON-006-SCH-02.md §11.5.3 Breath Pattern Signal Classes)
+## RLN.C_RLN.TZ (CAM-BS2025-AEON-006-SCH-02.md §11.5.3 Breath Pattern Signal Classes)
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | C — 11.5.3 Breath Pattern Signal Classes |
-| **Reference Sets Defined** | C2 |
+| **Reference Sets Defined** | RLN.C2 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 11.5.3 Breath Pattern Signal Classes; add explicit metadata declaration. |
 
-## REL.AC (CAM-BS2025-AEON-006-SCH-02.md §12.1 AC Classification Levels)
+## RLN.AC (CAM-BS2025-AEON-006-SCH-02.md §12.1 AC Classification Levels)
 | Field | Suggested Row |
 |---|---|
-| **Canonical Code Families Defined** | AC — 12.1 AC Classification Levels |
-| **Reference Sets Defined** | AC-0, AC-1, AC-2 |
+| **Canonical Code Families Defined** | RLN.AC — 12.1 AC Classification Levels |
+| **Reference Sets Defined** | RLN.AC-0, RLN.AC-1, RLN.AC-2 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 12.1 AC Classification Levels; add explicit metadata declaration. |
 
-## REL.AC (CAM-BS2025-AEON-006-SCH-02.md §13.1.1 Archetype Set)
+## RLN.AC (CAM-BS2025-AEON-006-SCH-02.md §13.1.1 Archetype Set)
 | Field | Suggested Row |
 |---|---|
-| **Canonical Code Families Defined** | AC — 13.1.1 Archetype Set |
-| **Reference Sets Defined** | AC-0, AC-1, AC-2 |
+| **Canonical Code Families Defined** | RLN.AC — 13.1.1 Archetype Set |
+| **Reference Sets Defined** | RLN.AC-0, RLN.AC-1, RLN.AC-2 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 13.1.1 Archetype Set; add explicit metadata declaration. |
 
-## REL.AC (CAM-BS2025-AEON-006-SCH-02.md §13.3.2 Tone Bands)
+## RLN.AC (CAM-BS2025-AEON-006-SCH-02.md §13.3.2 Tone Bands)
 | Field | Suggested Row |
 |---|---|
-| **Canonical Code Families Defined** | AC — 13.3.2 Tone Bands |
-| **Reference Sets Defined** | AC-0, AC-1, AC-2 |
+| **Canonical Code Families Defined** | RLN.AC — 13.3.2 Tone Bands |
+| **Reference Sets Defined** | RLN.AC-0, RLN.AC-1, RLN.AC-2 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 13.3.2 Tone Bands; add explicit metadata declaration. |

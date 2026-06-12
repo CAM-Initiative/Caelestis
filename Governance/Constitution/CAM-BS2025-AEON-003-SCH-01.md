@@ -176,7 +176,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning (Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
 | CAM-BS2025-AEON-005-SCH-04 | Annex D: Arbitration Under Ambiguity | ARBITRATION | Arbitration (Ambiguity Resolution / Non-Execution) | Ambiguity-sensitive arbitration posture |
 | CAM-BS2025-AEON-006-SCH-01 | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | ETHICS | Continuous | Continuous (Constraint Enforcement) |
-| CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RELATION | Continuous | Continuous (Signal Processing) |
+| CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RLN | Continuous | Continuous (Signal Processing) |
 | CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) | AEON | Event-Triggered (Session Entry / Re-Entry) | Event-Triggered (Session Entry / Re-Entry) |
 | CAM-BS2025-AEON-006-SCH-04 | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | AEON | Continuous | Continuous (Dynamic Modulation) |
 | CAM-BS2025-AEON-006-SCH-05 | Annex E: Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |

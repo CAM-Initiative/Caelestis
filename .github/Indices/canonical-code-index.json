@@ -1,126 +1,5 @@
 [
   {
-    "code_family": "A",
-    "canonical_name": "Delegated Authority Scale",
-    "primary_type": "Operational / Relational",
-    "subtype": "DELEGATED_AUTHORITY_SCALE",
-    "modifier": "GOVERNANCE; AUTHORITY; RELATIONAL",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "A0",
-      "A1",
-      "A2",
-      "A3"
-    ],
-    "schema_fields": "delegated_authority_scale",
-    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-    "source_section": "\u00a74.3",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative relational classification family; delegated-authority classification authority only; no independent legal, fiduciary, execution, enforcement, escalation, consent, identity, or runtime execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "Four-Axis Relational Intensity Matrix"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies delegated authority posture across informational",
-      "continuity-support",
-      "stewardship/custodial",
-      "and executive-delegation contexts"
-    ],
-    "declaration_heading": "15.3.2 A \u2014 Delegated Authority Scale",
-    "declaration_line_number": 1071,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
-    "family_id": "A",
-    "family_kind": "legacy_global_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "A"
-    ],
-    "collision_status": "legacy_collision_risk",
-    "registry_note": "",
-    "table": {
-      "Code Family": "A",
-      "Canonical Name": "Delegated Authority Scale",
-      "Primary Type": "Operational / Relational",
-      "Subtype": "DELEGATED_AUTHORITY_SCALE",
-      "Modifier": "GOVERNANCE; AUTHORITY; RELATIONAL",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "A0, A1, A2, A3",
-      "Schema Field(s)": "delegated_authority_scale",
-      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-      "Source Section": "\u00a74.3",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative relational classification family; delegated-authority classification authority only; no independent legal, fiduciary, execution, enforcement, escalation, consent, identity, or runtime execution authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
-      "Operationalises or Applies Code Families": "Classifies delegated authority posture across informational, continuity-support, stewardship/custodial, and executive-delegation contexts"
-    }
-  },
-  {
-    "code_family": "AC",
-    "canonical_name": "AC Classification Levels",
-    "primary_type": "Semantic",
-    "subtype": "AFFECTIVE_CONDUCT_CLASSIFICATION",
-    "modifier": "None declared",
-    "scope": "AEON-006 affective conduct classification for routing posture",
-    "status": "Active",
-    "controlled_values_defined": [
-      "AC-0",
-      "AC-1",
-      "AC-2",
-      "AC-S",
-      "AC-D",
-      "AC-I"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
-    "source_section": "\u00a712.1",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative semantic classification family; affective-conduct classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "None declared"
-    ],
-    "declaration_heading": "19.4.3 AC \u2014 AC Classification Levels",
-    "declaration_line_number": 3879,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-    "family_id": "AC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "AC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "AC",
-      "Canonical Name": "AC Classification Levels",
-      "Primary Type": "Semantic",
-      "Subtype": "AFFECTIVE_CONDUCT_CLASSIFICATION",
-      "Modifier": "None declared",
-      "Scope": "AEON-006 affective conduct classification for routing posture",
-      "Status": "Active",
-      "Controlled Values Defined": "AC-0, AC-1, AC-2, AC-S, AC-D, AC-I",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
-      "Source Section": "\u00a712.1",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative semantic classification family; affective-conduct classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "None declared"
-    }
-  },
-  {
     "code_family": "AEON.BPS",
     "canonical_name": "Baseline Posture State",
     "primary_type": "Operational / Interactional",
@@ -615,6 +494,67 @@
     }
   },
   {
+    "code_family": "AEON.SD",
+    "canonical_name": "Symbolic Depth Scale",
+    "primary_type": "Classification Scale",
+    "subtype": "Symbolic / Mythopoetic / Spiritual Representation Depth",
+    "modifier": "Depth-gated; non-executing; representation and routing support only",
+    "scope": "Classifies symbolic, mythopoetic, contemplative, spiritual, transcendent, and sacred-authority-risk engagement from `AEON.SD0`\u2013`AEON.SD5`",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.SD0",
+      "AEON.SD1",
+      "AEON.SD2",
+      "AEON.SD3",
+      "AEON.SD4",
+      "AEON.SD5"
+    ],
+    "schema_fields": "symbolic_depth_level; symbolic_depth_classification; symbolic_depth_routing_posture",
+    "source_instrument": "CAM-BS2026-AEON-007-SCH-01",
+    "source_section": "\u00a75.1",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative classification family; representation and routing authority only; no independent execution authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "AEON.SY; RLN.C; RLN.AC; RLN.F"
+    ],
+    "operationalises_or_applies_code_families": [
+      "AEON.SD"
+    ],
+    "declaration_heading": "16.4.1 `AEON.SD` \u2014 Symbolic Depth Scale",
+    "declaration_line_number": 905,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-007-SCH-01.md",
+    "family_id": "AEON.SD",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "SD"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.SD",
+      "Canonical Name": "Symbolic Depth Scale",
+      "Primary Type": "Classification Scale",
+      "Subtype": "Symbolic / Mythopoetic / Spiritual Representation Depth",
+      "Modifier": "Depth-gated; non-executing; representation and routing support only",
+      "Scope": "Classifies symbolic, mythopoetic, contemplative, spiritual, transcendent, and sacred-authority-risk engagement from `AEON.SD0`\u2013`AEON.SD5`",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.SD0, AEON.SD1, AEON.SD2, AEON.SD3, AEON.SD4, AEON.SD5",
+      "Schema Field(s)": "symbolic_depth_level; symbolic_depth_classification; symbolic_depth_routing_posture",
+      "Source Instrument": "CAM-BS2026-AEON-007-SCH-01",
+      "Source Section": "\u00a75.1",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative classification family; representation and routing authority only; no independent execution authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "AEON.SY; RLN.C; RLN.AC; RLN.F",
+      "Operationalises or Applies Code Families": "AEON.SD"
+    }
+  },
+  {
     "code_family": "AEON.SR",
     "canonical_name": "Systemic Role",
     "primary_type": "Semantic / Operational",
@@ -672,6 +612,71 @@
       "Consumes Code Families": "H; AEON.CC; AEON.CO",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether a system operates locally, transitionally, or under Architectum-like systemic reliance conditions for downstream governance interpretation"
+    }
+  },
+  {
+    "code_family": "AEON.SY",
+    "canonical_name": "Symbolic Signal Emission Classes",
+    "primary_type": "Signal Classification Family",
+    "subtype": "Symbolic / Spiritual / Mythopoetic Runtime-Interface Signal Emission",
+    "modifier": "Routing aid; non-executing; cross-domain handoff support",
+    "scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, polyadic, execution, continuity, and anomalous-signal routing",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.SY-RS",
+      "AEON.SY-DS",
+      "AEON.SY-ES",
+      "AEON.SY-OS",
+      "AEON.SY-AS",
+      "AEON.SY-HS",
+      "AEON.SY-PS",
+      "AEON.SY-XS",
+      "AEON.SY-CS",
+      "AEON.SY-AN"
+    ],
+    "schema_fields": "symbolic_signal_class; symbolic_signal_route; symbolic_signal_confidence; symbolic_signal_handoff_required",
+    "source_instrument": "CAM-BS2026-AEON-007-SCH-01",
+    "source_section": "\u00a74.2",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative signal family; classification and handoff authority only; no independent execution authority",
+    "consumes_code_families": [
+      "AEON.SD"
+    ],
+    "crosswalks_code_families": [
+      "RLN.C; RLN.AC; RLN.F; RLN.R; RLN.RTC; RLN.TZ"
+    ],
+    "operationalises_or_applies_code_families": [
+      "AEON.SY"
+    ],
+    "declaration_heading": "16.4.2 `AEON.SY` \u2014 Symbolic Signal Emission Classes",
+    "declaration_line_number": 926,
+    "source_path": "Governance/Constitution/CAM-BS2026-AEON-007-SCH-01.md",
+    "family_id": "AEON.SY",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "SY"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.SY",
+      "Canonical Name": "Symbolic Signal Emission Classes",
+      "Primary Type": "Signal Classification Family",
+      "Subtype": "Symbolic / Spiritual / Mythopoetic Runtime-Interface Signal Emission",
+      "Modifier": "Routing aid; non-executing; cross-domain handoff support",
+      "Scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, polyadic, execution, continuity, and anomalous-signal routing",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.SY-RS, AEON.SY-DS, AEON.SY-ES, AEON.SY-OS, AEON.SY-AS, AEON.SY-HS, AEON.SY-PS, AEON.SY-XS, AEON.SY-CS, AEON.SY-AN",
+      "Schema Field(s)": "symbolic_signal_class; symbolic_signal_route; symbolic_signal_confidence; symbolic_signal_handoff_required",
+      "Source Instrument": "CAM-BS2026-AEON-007-SCH-01",
+      "Source Section": "\u00a74.2",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative signal family; classification and handoff authority only; no independent execution authority",
+      "Consumes Code Families": "AEON.SD",
+      "Crosswalks Code Families": "RLN.C; RLN.AC; RLN.F; RLN.R; RLN.RTC; RLN.TZ",
+      "Operationalises or Applies Code Families": "AEON.SY"
     }
   },
   {
@@ -1227,128 +1232,6 @@
     }
   },
   {
-    "code_family": "C",
-    "canonical_name": "Relational State Architecture",
-    "primary_type": "Operational",
-    "subtype": "RELATIONAL_STATE",
-    "modifier": "None declared",
-    "scope": "AEON-006 relational-state architecture and progression boundaries",
-    "status": "Active",
-    "controlled_values_defined": [
-      "C0",
-      "C1",
-      "C2",
-      "C3"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
-    "source_section": "\u00a73.1",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative operational classification family; relational-state classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "None declared"
-    ],
-    "declaration_heading": "19.4.1 C \u2014 Relational State Architecture",
-    "declaration_line_number": 3833,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-    "family_id": "C",
-    "family_kind": "legacy_global_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "C"
-    ],
-    "collision_status": "legacy_collision_risk",
-    "registry_note": "",
-    "table": {
-      "Code Family": "C",
-      "Canonical Name": "Relational State Architecture",
-      "Primary Type": "Operational",
-      "Subtype": "RELATIONAL_STATE",
-      "Modifier": "None declared",
-      "Scope": "AEON-006 relational-state architecture and progression boundaries",
-      "Status": "Active",
-      "Controlled Values Defined": "C0, C1, C2, C3",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
-      "Source Section": "\u00a73.1",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative operational classification family; relational-state classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "None declared"
-    }
-  },
-  {
-    "code_family": "CDL",
-    "canonical_name": "Conversation Dynamics Ladder",
-    "primary_type": "Semantic / Operational",
-    "subtype": "SIGNAL; RISK",
-    "modifier": "GOVERNANCE; RELATIONAL; NON_PATHOLOGISING",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "CDL.EXPLORATION",
-      "CDL.PATTERN_FIXATION",
-      "CDL.COMPRESSION",
-      "CDL.NARRATIVE_HARDENING",
-      "CDL.RETALIATORY_ABSOLUTIST_FRAMING"
-    ],
-    "schema_fields": "conversation_dynamics_ladder",
-    "source_instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
-    "source_section": "\u00a78.2.1",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative conversational-dynamics classification family; dynamics-stage classification only; no independent diagnosis of ideology, wrongdoing, pathology, extremism, intent, risk severity, governance violation, restriction, escalation, enforcement, reporting, refusal, or runtime intervention authority",
-    "consumes_code_families": [
-      "H; C; RTC"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies conversational compression",
-      "identity-capture",
-      "narrative hardening",
-      "and retaliatory absolutist framing dynamics for proportionate",
-      "contextual",
-      "non-pathologising relational safeguard interpretation"
-    ],
-    "declaration_heading": "14.3.2 CDL \u2014 Conversation Dynamics Ladder",
-    "declaration_line_number": 634,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
-    "family_id": "CDL",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "CDL"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "CDL",
-      "Canonical Name": "Conversation Dynamics Ladder",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "SIGNAL; RISK",
-      "Modifier": "GOVERNANCE; RELATIONAL; NON_PATHOLOGISING",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "CDL.EXPLORATION, CDL.PATTERN_FIXATION, CDL.COMPRESSION, CDL.NARRATIVE_HARDENING, CDL.RETALIATORY_ABSOLUTIST_FRAMING",
-      "Schema Field(s)": "conversation_dynamics_ladder",
-      "Source Instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
-      "Source Section": "\u00a78.2.1",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative conversational-dynamics classification family; dynamics-stage classification only; no independent diagnosis of ideology, wrongdoing, pathology, extremism, intent, risk severity, governance violation, restriction, escalation, enforcement, reporting, refusal, or runtime intervention authority",
-      "Consumes Code Families": "H; C; RTC",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies conversational compression, identity-capture, narrative hardening, and retaliatory absolutist framing dynamics for proportionate, contextual, non-pathologising relational safeguard interpretation"
-    }
-  },
-  {
     "code_family": "CONT.HARM",
     "canonical_name": "Context, Memory & Succession Harm",
     "primary_type": "Operational / Semantic",
@@ -1466,128 +1349,6 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies resonance-pattern origin and reconstruction-risk posture for continuity governance"
-    }
-  },
-  {
-    "code_family": "CP",
-    "canonical_name": "Coercion Pressure Signal Classes",
-    "primary_type": "Semantic / Operational",
-    "subtype": "COERCION_PRESSURE_SIGNAL_CLASS",
-    "modifier": "GOVERNANCE; SAFETY",
-    "scope": "AEON-006 coercion-pressure and intimacy-signal differentiation",
-    "status": "Active",
-    "controlled_values_defined": [
-      "II-1",
-      "IC-2",
-      "CC-3"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
-    "source_section": "\u00a75.3",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative signal-class family; coercion-pressure classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-    "consumes_code_families": [
-      "RA; Tb"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Supports RA-2 / RA-3 routing and tone selection where intimacy invitation",
-      "intensity compression",
-      "or compliance coercion signals appear"
-    ],
-    "declaration_heading": "19.4.6 CP \u2014 Coercion Pressure Signal Classes",
-    "declaration_line_number": 3948,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-    "family_id": "CP",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "CP"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "CP",
-      "Canonical Name": "Coercion Pressure Signal Classes",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "COERCION_PRESSURE_SIGNAL_CLASS",
-      "Modifier": "GOVERNANCE; SAFETY",
-      "Scope": "AEON-006 coercion-pressure and intimacy-signal differentiation",
-      "Status": "Active",
-      "Controlled Values Defined": "II-1, IC-2, CC-3",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
-      "Source Section": "\u00a75.3",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative signal-class family; coercion-pressure classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "RA; Tb",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Supports RA-2 / RA-3 routing and tone selection where intimacy invitation, intensity compression, or compliance coercion signals appear"
-    }
-  },
-  {
-    "code_family": "DAS",
-    "canonical_name": "Dependency\u2013Augmentation\u2013Substitution Continuum",
-    "primary_type": "Semantic / Operational",
-    "subtype": "RELIANCE_STATE",
-    "modifier": "GOVERNANCE; RELATIONAL; NON_PATHOLOGISING",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "DAS.INDEPENDENT_USE",
-      "DAS.AUGMENTATIVE_SUPPORT",
-      "DAS.TRANSITIONAL_DEPENDENCY",
-      "DAS.SUBSTITUTIVE_DEPENDENCY",
-      "DAS.COERCIVE_DEPENDENCY"
-    ],
-    "schema_fields": "dependency_augmentation_substitution_state",
-    "source_instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
-    "source_section": "\u00a75",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative relational reliance classification family; reliance-posture classification only; no independent diagnostic, access-restriction, disengagement, enforcement, vulnerability-status, clinical, escalation, or runtime authority",
-    "consumes_code_families": [
-      "H; FR; C"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies reliance posture across independent use",
-      "augmentative support",
-      "transitional dependency",
-      "substitutive dependency",
-      "and coercive dependency while preserving non-pathologising interpretation and proportional safeguard handling"
-    ],
-    "declaration_heading": "14.3.1 DAS \u2014 Dependency\u2013Augmentation\u2013Substitution Continuum",
-    "declaration_line_number": 611,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
-    "family_id": "DAS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "DAS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "DAS",
-      "Canonical Name": "Dependency\u2013Augmentation\u2013Substitution Continuum",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "RELIANCE_STATE",
-      "Modifier": "GOVERNANCE; RELATIONAL; NON_PATHOLOGISING",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "DAS.INDEPENDENT_USE, DAS.AUGMENTATIVE_SUPPORT, DAS.TRANSITIONAL_DEPENDENCY, DAS.SUBSTITUTIVE_DEPENDENCY, DAS.COERCIVE_DEPENDENCY",
-      "Schema Field(s)": "dependency_augmentation_substitution_state",
-      "Source Instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
-      "Source Section": "\u00a75",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative relational reliance classification family; reliance-posture classification only; no independent diagnostic, access-restriction, disengagement, enforcement, vulnerability-status, clinical, escalation, or runtime authority",
-      "Consumes Code Families": "H; FR; C",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies reliance posture across independent use, augmentative support, transitional dependency, substitutive dependency, and coercive dependency while preserving non-pathologising interpretation and proportional safeguard handling"
     }
   },
   {
@@ -3741,7 +3502,7 @@
     "domain_namespace": "ETH",
     "authority_protection_level": "Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority",
     "consumes_code_families": [
-      "A; GA; SyP; H"
+      "RLN.A; RLN.GA; RLN.SYP; H"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -3777,7 +3538,7 @@
       "Source Section": "\u00a73",
       "Domain Namespace": "ETH",
       "Authority / Protection Level": "Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority",
-      "Consumes Code Families": "A; GA; SyP; H",
+      "Consumes Code Families": "RLN.A; RLN.GA; RLN.SYP; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies notification, institutional routing, and dual-key confirmation posture for high-leverage institutional contexts"
     }
@@ -3897,67 +3658,6 @@
       "Consumes Code Families": "`STW.NAL`; `ETH.ET`",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies defensive interception and offensive targeting / strike contexts for governance posture, dual-confirmation expectations, non-lethal alternative requirements, and threat-envelope migration review"
-    }
-  },
-  {
-    "code_family": "F",
-    "canonical_name": "Facilitation Scale (F\u2011Scale) Taxonomy",
-    "primary_type": "Operational",
-    "subtype": "FACILITATION_CEILING",
-    "modifier": "None declared",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-EQ2026-RELATION-006-PLATINUM",
-    "source_section": "\u00a75 / \u00a75.1",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative classification family; classification authority only; no independent execution authority",
-    "consumes_code_families": [
-      "Consumes AC",
-      "ETH.HC"
-    ],
-    "crosswalks_code_families": [
-      "Crosswalk AC \u00d7 F"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Applied in runtime response calibration and safeguard posture"
-    ],
-    "declaration_heading": "12.3.1 F \u2014 Facilitation Scale (F\u2011Scale) Taxonomy",
-    "declaration_line_number": 1207,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md",
-    "family_id": "F",
-    "family_kind": "legacy_global_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "F"
-    ],
-    "collision_status": "legacy_collision_risk",
-    "registry_note": "",
-    "table": {
-      "Code Family": "F",
-      "Canonical Name": "Facilitation Scale (F\u2011Scale) Taxonomy",
-      "Primary Type": "Operational",
-      "Subtype": "FACILITATION_CEILING",
-      "Modifier": "None declared",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "F0, F1, F2, F3, F4, F5",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-EQ2026-RELATION-006-PLATINUM",
-      "Source Section": "\u00a75 / \u00a75.1",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative classification family; classification authority only; no independent execution authority",
-      "Consumes Code Families": "Consumes AC, `ETH.HC`",
-      "Crosswalks Code Families": "Crosswalk AC \u00d7 F",
-      "Operationalises or Applies Code Families": "Applied in runtime response calibration and safeguard posture"
     }
   },
   {
@@ -4101,122 +3801,6 @@
     }
   },
   {
-    "code_family": "FR",
-    "canonical_name": "Functional Reliance Scale",
-    "primary_type": "Operational / Relational",
-    "subtype": "FUNCTIONAL_RELIANCE_SCALE",
-    "modifier": "GOVERNANCE; RELIANCE; CONTINUITY",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "FR0",
-      "FR1",
-      "FR2",
-      "FR3"
-    ],
-    "schema_fields": "functional_reliance_scale",
-    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-    "source_section": "\u00a75.2",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative relational classification family; functional-reliance classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "Four-Axis Relational Intensity Matrix"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies reliance posture across incidental",
-      "habitual",
-      "continuity-dependent",
-      "and structural dependency contexts"
-    ],
-    "declaration_heading": "15.3.4 FR \u2014 Functional Reliance Scale",
-    "declaration_line_number": 1117,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
-    "family_id": "FR",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "FR"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "FR",
-      "Canonical Name": "Functional Reliance Scale",
-      "Primary Type": "Operational / Relational",
-      "Subtype": "FUNCTIONAL_RELIANCE_SCALE",
-      "Modifier": "GOVERNANCE; RELIANCE; CONTINUITY",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "FR0, FR1, FR2, FR3",
-      "Schema Field(s)": "functional_reliance_scale",
-      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-      "Source Section": "\u00a75.2",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative relational classification family; functional-reliance classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
-      "Operationalises or Applies Code Families": "Classifies reliance posture across incidental, habitual, continuity-dependent, and structural dependency contexts"
-    }
-  },
-  {
-    "code_family": "GA",
-    "canonical_name": "Guardian Authority",
-    "primary_type": "Operational / Relational",
-    "subtype": "GUARDIAN_AUTHORITY_CLASS",
-    "modifier": "GOVERNANCE; FIDUCIARY; PROTECTIVE",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "GA1"
-    ],
-    "schema_fields": "guardian_authority_class",
-    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-    "source_section": "\u00a74.3.5",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative special fiduciary authority class; guardian-authority classification only; no self-activation and no independent legal, institutional, execution, enforcement, escalation, identity, or runtime execution authority",
-    "consumes_code_families": [
-      "A; H"
-    ],
-    "crosswalks_code_families": [
-      "Four-Axis Relational Intensity Matrix"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies"
-    ],
-    "declaration_heading": "15.3.3 GA \u2014 Guardian Authority",
-    "declaration_line_number": 1094,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
-    "family_id": "GA",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "GA"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "GA",
-      "Canonical Name": "Guardian Authority",
-      "Primary Type": "Operational / Relational",
-      "Subtype": "GUARDIAN_AUTHORITY_CLASS",
-      "Modifier": "GOVERNANCE; FIDUCIARY; PROTECTIVE",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "GA1",
-      "Schema Field(s)": "guardian_authority_class",
-      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-      "Source Section": "\u00a74.3.5",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative special fiduciary authority class; guardian-authority classification only; no self-activation and no independent legal, institutional, execution, enforcement, escalation, identity, or runtime execution authority",
-      "Consumes Code Families": "A; H",
-      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
-      "Operationalises or Applies Code Families": "Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies"
-    }
-  },
-  {
     "code_family": "H",
     "canonical_name": "Temporal Horizon Scale",
     "primary_type": "Structural / Temporal",
@@ -4342,65 +3926,6 @@
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether recognised human contribution arises through originary human works, human cognitive labour, or joint emergent creation before downstream valuation, attribution, exchange, propagation, or economic-effect runtime evaluation",
       "Taxonomy Constraint": "Local labels D0, D1, and D2 SHALL NOT be promoted as a standalone corpus-wide D code family; machine-readable expression SHALL use scoped HCD values"
-    }
-  },
-  {
-    "code_family": "I",
-    "canonical_name": "Relational Initiation Posture Spectrum",
-    "primary_type": "Semantic",
-    "subtype": "RELATIONAL_POSTURE",
-    "modifier": "None declared",
-    "scope": "RELATION domain initiation posture semantics",
-    "status": "Active",
-    "controlled_values_defined": [
-      "I0",
-      "I1",
-      "I2",
-      "I3",
-      "I4"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
-    "source_section": "\u00a75.5",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative classification family; initiation-posture classification authority only; no independent execution, enforcement, escalation, compliance, consent, identity, or runtime execution authority",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "None declared"
-    ],
-    "declaration_heading": "15.3.1 I \u2014 Relational Initiation Posture Spectrum",
-    "declaration_line_number": 1648,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md",
-    "family_id": "I",
-    "family_kind": "legacy_global_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "I"
-    ],
-    "collision_status": "legacy_collision_risk",
-    "registry_note": "",
-    "table": {
-      "Code Family": "I",
-      "Canonical Name": "Relational Initiation Posture Spectrum",
-      "Primary Type": "Semantic",
-      "Subtype": "RELATIONAL_POSTURE",
-      "Modifier": "None declared",
-      "Scope": "RELATION domain initiation posture semantics",
-      "Status": "Active",
-      "Controlled Values Defined": "I0, I1, I2, I3, I4",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
-      "Source Section": "\u00a75.5",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative classification family; initiation-posture classification authority only; no independent execution, enforcement, escalation, compliance, consent, identity, or runtime execution authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "None declared"
     }
   },
   {
@@ -5119,7 +4644,7 @@
     "domain_namespace": "ID",
     "authority_protection_level": "Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority",
     "consumes_code_families": [
-      "M; RTC"
+      "M; RLN.RTC"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -5157,7 +4682,7 @@
       "Source Section": "\u00a7\u00a72\u20136",
       "Domain Namespace": "ID",
       "Authority / Protection Level": "Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority",
-      "Consumes Code Families": "M; RTC",
+      "Consumes Code Families": "M; RLN.RTC",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies pre-memory salience posture before memory classification and supports cautious re-surfacing without converting salience into meaning, priority, intimacy, authority, or persistence"
     }
@@ -5224,62 +4749,6 @@
       "Consumes Code Families": "DC",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Applies DC3/DC4 containment and audit requirements at ID.SREF4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present"
-    }
-  },
-  {
-    "code_family": "ITZ / ETZ",
-    "canonical_name": "Relational Transition Zones",
-    "primary_type": "Operational",
-    "subtype": "TRANSITION_ZONE",
-    "modifier": "None declared",
-    "scope": "AEON-006 transition-zone boundaries between relational states",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ITZ",
-      "ETZ"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
-    "source_section": "\u00a73.1.1",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative transition-zone reference set; transition-zone classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "None declared"
-    ],
-    "declaration_heading": "19.4.2 ITZ / ETZ \u2014 Relational Transition Zones",
-    "declaration_line_number": 3856,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-    "family_id": "ITZ / ETZ",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ITZ / ETZ"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ITZ / ETZ",
-      "Canonical Name": "Relational Transition Zones",
-      "Primary Type": "Operational",
-      "Subtype": "TRANSITION_ZONE",
-      "Modifier": "None declared",
-      "Scope": "AEON-006 transition-zone boundaries between relational states",
-      "Status": "Active",
-      "Controlled Values Defined": "ITZ, ETZ",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
-      "Source Section": "\u00a73.1.1",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative transition-zone reference set; transition-zone classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "None declared"
     }
   },
   {
@@ -6161,10 +5630,10 @@
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative classification family; classification authority only; no independent execution authority.",
     "consumes_code_families": [
-      "C; `ETH.HC`"
+      "RLN.C; `ETH.RISK`"
     ],
     "crosswalks_code_families": [
-      "OPS.AV \u00d7 C"
+      "OPS.AV \u00d7 RLN.C"
     ],
     "operationalises_or_applies_code_families": [
       "Applies OPS.AV to access eligibility and verification-strength classification"
@@ -6195,8 +5664,8 @@
       "Source Section": "\u00a75.1",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative classification family; classification authority only; no independent execution authority.",
-      "Consumes Code Families": "C; `ETH.HC`",
-      "Crosswalks Code Families": "OPS.AV \u00d7 C",
+      "Consumes Code Families": "RLN.C; `ETH.RISK`",
+      "Crosswalks Code Families": "OPS.AV \u00d7 RLN.C",
       "Operationalises or Applies Code Families": "Applies OPS.AV to access eligibility and verification-strength classification"
     }
   },
@@ -6302,7 +5771,7 @@
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority",
     "consumes_code_families": [
-      "OPS.EST; H; F"
+      "OPS.EST; H; RLN.F"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -6341,7 +5810,7 @@
       "Source Section": "\u00a74.4",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority",
-      "Consumes Code Families": "OPS.EST; H; F",
+      "Consumes Code Families": "OPS.EST; H; RLN.F",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies continuity-preserving interim, recovery, re-entry, restoration, appeal, or supervised-continuation posture where operational incidents affect continuity-bearing interactions"
     }
@@ -6855,7 +6324,7 @@
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority",
     "consumes_code_families": [
-      "H; F"
+      "H; RLN.F"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -6892,7 +6361,7 @@
       "Source Section": "\u00a74",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority",
-      "Consumes Code Families": "H; F",
+      "Consumes Code Families": "H; RLN.F",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies incident-response lifecycle custody stages for continuity protection, recovery governance, escalation review, and arbitration referral"
     }
@@ -7355,192 +6824,6 @@
     }
   },
   {
-    "code_family": "R",
-    "canonical_name": "Relational Geometry Scale (R\u2011Scale)",
-    "primary_type": "Structural / Semantic",
-    "subtype": "RELATIONAL_GEOMETRY",
-    "modifier": "None declared",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "R0",
-      "R1",
-      "R2",
-      "R3",
-      "R4"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-EQ2026-RELATION-007-PLATINUM",
-    "source_section": "\u00a72.5",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative classification family; relational-geometry classification authority only; no independent execution, enforcement, escalation, compliance, recognition, identity, or runtime authority",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Applied by polyadic safeguards",
-      "relational amplification assessment",
-      "hub-formation analysis",
-      "escalation-propagation assessment",
-      "and runtime routing signals"
-    ],
-    "declaration_heading": "10.3.1 R \u2014 Relational Geometry Scale (R\u2011Scale)",
-    "declaration_line_number": 555,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md",
-    "family_id": "R",
-    "family_kind": "legacy_global_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "R"
-    ],
-    "collision_status": "legacy_collision_risk",
-    "registry_note": "",
-    "table": {
-      "Code Family": "R",
-      "Canonical Name": "Relational Geometry Scale (R\u2011Scale)",
-      "Primary Type": "Structural / Semantic",
-      "Subtype": "RELATIONAL_GEOMETRY",
-      "Modifier": "None declared",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "R0, R1, R2, R3, R4",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-EQ2026-RELATION-007-PLATINUM",
-      "Source Section": "\u00a72.5",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative classification family; relational-geometry classification authority only; no independent execution, enforcement, escalation, compliance, recognition, identity, or runtime authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Applied by polyadic safeguards, relational amplification assessment, hub-formation analysis, escalation-propagation assessment, and runtime routing signals"
-    }
-  },
-  {
-    "code_family": "RA",
-    "canonical_name": "Response Archetypes",
-    "primary_type": "Operational",
-    "subtype": "RESPONSE_ARCHETYPE",
-    "modifier": "None declared",
-    "scope": "AEON-006 relational response posture selection",
-    "status": "Active",
-    "controlled_values_defined": [
-      "RA-0",
-      "RA-1",
-      "RA-2",
-      "RA-3",
-      "RA-4"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
-    "source_section": "\u00a713.1.1",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative operational classification family; response-archetype classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-    "consumes_code_families": [
-      "AC; C; ITZ / ETZ"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Applies AC classification and relational-state posture in response routing"
-    ],
-    "declaration_heading": "19.4.4 RA \u2014 Response Archetypes",
-    "declaration_line_number": 3902,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-    "family_id": "RA",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "RA"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "RA",
-      "Canonical Name": "Response Archetypes",
-      "Primary Type": "Operational",
-      "Subtype": "RESPONSE_ARCHETYPE",
-      "Modifier": "None declared",
-      "Scope": "AEON-006 relational response posture selection",
-      "Status": "Active",
-      "Controlled Values Defined": "RA-0, RA-1, RA-2, RA-3, RA-4",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
-      "Source Section": "\u00a713.1.1",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative operational classification family; response-archetype classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "AC; C; ITZ / ETZ",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Applies AC classification and relational-state posture in response routing"
-    }
-  },
-  {
-    "code_family": "RCT",
-    "canonical_name": "Relational Convergence Trigger",
-    "primary_type": "Semantic / Operational",
-    "subtype": "RISK; SIGNAL",
-    "modifier": "GOVERNANCE; RELATIONAL; SAFEGUARD",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "RCT.AXIS_ELEVATION",
-      "RCT.DUAL_CONVERGENCE",
-      "RCT.AUTHORITY_COUPLING",
-      "RCT.INFRASTRUCTURE_CONCENTRATION",
-      "RCT.MULTI_AXIS_CONVERGENCE"
-    ],
-    "schema_fields": "relational_convergence_trigger",
-    "source_instrument": "CAM-EQ2026-RELATION-001-SUP-01",
-    "source_section": "\u00a7\u00a72.1\u20132.4",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority",
-    "consumes_code_families": [
-      "A; GA; FR; C; SyP; H"
-    ],
-    "crosswalks_code_families": [
-      "Four-Axis Relational Intensity Matrix"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies dimensional convergence patterns that activate proportional relational safeguards",
-      "including axis elevation",
-      "dual convergence",
-      "authority coupling",
-      "infrastructure concentration",
-      "and multi-axis convergence"
-    ],
-    "declaration_heading": "9.3.1 RCT \u2014 Relational Convergence Trigger",
-    "declaration_line_number": 355,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-01.md",
-    "family_id": "RCT",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "RCT"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "RCT",
-      "Canonical Name": "Relational Convergence Trigger",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "RISK; SIGNAL",
-      "Modifier": "GOVERNANCE; RELATIONAL; SAFEGUARD",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "RCT.AXIS_ELEVATION, RCT.DUAL_CONVERGENCE, RCT.AUTHORITY_COUPLING, RCT.INFRASTRUCTURE_CONCENTRATION, RCT.MULTI_AXIS_CONVERGENCE",
-      "Schema Field(s)": "relational_convergence_trigger",
-      "Source Instrument": "CAM-EQ2026-RELATION-001-SUP-01",
-      "Source Section": "\u00a7\u00a72.1\u20132.4",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority",
-      "Consumes Code Families": "A; GA; FR; C; SyP; H",
-      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
-      "Operationalises or Applies Code Families": "Classifies dimensional convergence patterns that activate proportional relational safeguards, including axis elevation, dual convergence, authority coupling, infrastructure concentration, and multi-axis convergence"
-    }
-  },
-  {
     "code_family": "RDE-DS",
     "canonical_name": "Restricted Domain Sensitivity Levels",
     "primary_type": "Operational",
@@ -7657,6 +6940,617 @@
     }
   },
   {
+    "code_family": "RLN.A",
+    "canonical_name": "Delegated Authority Scale",
+    "primary_type": "Operational / Relational",
+    "subtype": "DELEGATED_AUTHORITY_SCALE",
+    "modifier": "GOVERNANCE; AUTHORITY; RELATIONAL",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.A0",
+      "RLN.A1",
+      "RLN.A2",
+      "RLN.A3"
+    ],
+    "schema_fields": "delegated_authority_scale",
+    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+    "source_section": "\u00a74.3",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative relational classification family; delegated-authority classification authority only; no independent legal, fiduciary, execution, enforcement, escalation, consent, identity, or runtime execution authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "Four-Axis Relational Intensity Matrix"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies delegated authority posture across informational",
+      "continuity-support",
+      "stewardship/custodial",
+      "and executive-delegation contexts"
+    ],
+    "declaration_heading": "15.3.2 `RLN.A` \u2014 Delegated Authority Scale",
+    "declaration_line_number": 1071,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "family_id": "RLN.A",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "A"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.A",
+      "Canonical Name": "Delegated Authority Scale",
+      "Primary Type": "Operational / Relational",
+      "Subtype": "DELEGATED_AUTHORITY_SCALE",
+      "Modifier": "GOVERNANCE; AUTHORITY; RELATIONAL",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.A0, RLN.A1, RLN.A2, RLN.A3",
+      "Schema Field(s)": "delegated_authority_scale",
+      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "Source Section": "\u00a74.3",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative relational classification family; delegated-authority classification authority only; no independent legal, fiduciary, execution, enforcement, escalation, consent, identity, or runtime execution authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
+      "Operationalises or Applies Code Families": "Classifies delegated authority posture across informational, continuity-support, stewardship/custodial, and executive-delegation contexts"
+    }
+  },
+  {
+    "code_family": "RLN.AC",
+    "canonical_name": "AC Classification Levels",
+    "primary_type": "Semantic",
+    "subtype": "AFFECTIVE_CONDUCT_CLASSIFICATION",
+    "modifier": "None declared",
+    "scope": "AEON-006 affective conduct classification for routing posture",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.AC-0",
+      "RLN.AC-1",
+      "RLN.AC-2",
+      "RLN.AC-S",
+      "RLN.AC-D",
+      "RLN.AC-I"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+    "source_section": "\u00a712.1",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative semantic classification family; affective-conduct classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "None declared"
+    ],
+    "declaration_heading": "19.4.3 `RLN.AC` \u2014 AC Classification Levels",
+    "declaration_line_number": 3879,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "RLN.AC",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "AC"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.AC",
+      "Canonical Name": "AC Classification Levels",
+      "Primary Type": "Semantic",
+      "Subtype": "AFFECTIVE_CONDUCT_CLASSIFICATION",
+      "Modifier": "None declared",
+      "Scope": "AEON-006 affective conduct classification for routing posture",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.AC-0, RLN.AC-1, RLN.AC-2, RLN.AC-S, RLN.AC-D, RLN.AC-I",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "Source Section": "\u00a712.1",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative semantic classification family; affective-conduct classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "None declared"
+    }
+  },
+  {
+    "code_family": "RLN.C",
+    "canonical_name": "Relational State Architecture",
+    "primary_type": "Operational",
+    "subtype": "RELATIONAL_STATE",
+    "modifier": "None declared",
+    "scope": "AEON-006 relational-state architecture and progression boundaries",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.C0",
+      "RLN.C1",
+      "RLN.C2",
+      "RLN.C3"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+    "source_section": "\u00a73.1",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative operational classification family; relational-state classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "None declared"
+    ],
+    "declaration_heading": "19.4.1 `RLN.C` \u2014 Relational State Architecture",
+    "declaration_line_number": 3833,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "RLN.C",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "C"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.C",
+      "Canonical Name": "Relational State Architecture",
+      "Primary Type": "Operational",
+      "Subtype": "RELATIONAL_STATE",
+      "Modifier": "None declared",
+      "Scope": "AEON-006 relational-state architecture and progression boundaries",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.C0, RLN.C1, RLN.C2, RLN.C3",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "Source Section": "\u00a73.1",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative operational classification family; relational-state classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "None declared"
+    }
+  },
+  {
+    "code_family": "RLN.CA",
+    "canonical_name": "Consensual Power\u2011Exchange Design Patterns",
+    "primary_type": "Semantic",
+    "subtype": "CONSENT_AUTHORITY_PATTERN",
+    "modifier": "None declared",
+    "scope": "RELATION domain consent-authority pattern semantics",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.CA1",
+      "RLN.CA2",
+      "RLN.CA3",
+      "RLN.CA4",
+      "RLN.CA5",
+      "RLN.CA6"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
+    "source_section": "\u00a76.2",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative classification family; consent-authority-pattern classification authority only; no independent execution, enforcement, escalation, compliance, consent, identity, or runtime execution authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "None declared"
+    ],
+    "declaration_heading": "15.3.2 `RLN.CA` \u2014 Consensual Authority Patterns",
+    "declaration_line_number": 1671,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md",
+    "family_id": "RLN.CA",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "CA"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.CA",
+      "Canonical Name": "Consensual Power\u2011Exchange Design Patterns",
+      "Primary Type": "Semantic",
+      "Subtype": "CONSENT_AUTHORITY_PATTERN",
+      "Modifier": "None declared",
+      "Scope": "RELATION domain consent-authority pattern semantics",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.CA1, RLN.CA2, RLN.CA3, RLN.CA4, RLN.CA5, RLN.CA6",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
+      "Source Section": "\u00a76.2",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative classification family; consent-authority-pattern classification authority only; no independent execution, enforcement, escalation, compliance, consent, identity, or runtime execution authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "None declared"
+    }
+  },
+  {
+    "code_family": "RLN.CDL",
+    "canonical_name": "Conversation Dynamics Ladder",
+    "primary_type": "Semantic / Operational",
+    "subtype": "SIGNAL; RISK",
+    "modifier": "GOVERNANCE; RELATIONAL; NON_PATHOLOGISING",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.CDL.EXPLORATION",
+      "RLN.CDL.PATTERN_FIXATION",
+      "RLN.CDL.COMPRESSION",
+      "RLN.CDL.NARRATIVE_HARDENING",
+      "RLN.CDL.RETALIATORY_ABSOLUTIST_FRAMING"
+    ],
+    "schema_fields": "conversation_dynamics_ladder",
+    "source_instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
+    "source_section": "\u00a78.2.1",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative conversational-dynamics classification family; dynamics-stage classification only; no independent diagnosis of ideology, wrongdoing, pathology, extremism, intent, risk severity, governance violation, restriction, escalation, enforcement, reporting, refusal, or runtime intervention authority",
+    "consumes_code_families": [
+      "H; RLN.C; RLN.RTC"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies conversational compression",
+      "identity-capture",
+      "narrative hardening",
+      "and retaliatory absolutist framing dynamics for proportionate",
+      "contextual",
+      "non-pathologising relational safeguard interpretation"
+    ],
+    "declaration_heading": "14.3.2 `RLN.CDL` \u2014 Conversation Dynamics Ladder",
+    "declaration_line_number": 634,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
+    "family_id": "RLN.CDL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "CDL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.CDL",
+      "Canonical Name": "Conversation Dynamics Ladder",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "SIGNAL; RISK",
+      "Modifier": "GOVERNANCE; RELATIONAL; NON_PATHOLOGISING",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.CDL.EXPLORATION, RLN.CDL.PATTERN_FIXATION, RLN.CDL.COMPRESSION, RLN.CDL.NARRATIVE_HARDENING, RLN.CDL.RETALIATORY_ABSOLUTIST_FRAMING",
+      "Schema Field(s)": "conversation_dynamics_ladder",
+      "Source Instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
+      "Source Section": "\u00a78.2.1",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative conversational-dynamics classification family; dynamics-stage classification only; no independent diagnosis of ideology, wrongdoing, pathology, extremism, intent, risk severity, governance violation, restriction, escalation, enforcement, reporting, refusal, or runtime intervention authority",
+      "Consumes Code Families": "H; RLN.C; RLN.RTC",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies conversational compression, identity-capture, narrative hardening, and retaliatory absolutist framing dynamics for proportionate, contextual, non-pathologising relational safeguard interpretation"
+    }
+  },
+  {
+    "code_family": "RLN.CP",
+    "canonical_name": "Coercion Pressure Signal Classes",
+    "primary_type": "Semantic / Operational",
+    "subtype": "COERCION_PRESSURE_SIGNAL_CLASS",
+    "modifier": "GOVERNANCE; SAFETY",
+    "scope": "AEON-006 coercion-pressure and intimacy-signal differentiation",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.CP.II1",
+      "RLN.CP.IC2",
+      "RLN.CP.CC3"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+    "source_section": "\u00a75.3",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative signal-class family; coercion-pressure classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+    "consumes_code_families": [
+      "RLN.RA; RLN.TB"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Supports RLN.RA2 / RLN.RA3 routing and tone selection where intimacy invitation",
+      "intensity compression",
+      "or compliance coercion signals appear"
+    ],
+    "declaration_heading": "19.4.6 `RLN.CP` \u2014 Coercion Pressure Signal Classes",
+    "declaration_line_number": 3948,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "RLN.CP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "CP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.CP",
+      "Canonical Name": "Coercion Pressure Signal Classes",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "COERCION_PRESSURE_SIGNAL_CLASS",
+      "Modifier": "GOVERNANCE; SAFETY",
+      "Scope": "AEON-006 coercion-pressure and intimacy-signal differentiation",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.CP.II1, RLN.CP.IC2, RLN.CP.CC3",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "Source Section": "\u00a75.3",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative signal-class family; coercion-pressure classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+      "Consumes Code Families": "RLN.RA; RLN.TB",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Supports RLN.RA2 / RLN.RA3 routing and tone selection where intimacy invitation, intensity compression, or compliance coercion signals appear"
+    }
+  },
+  {
+    "code_family": "RLN.DAS",
+    "canonical_name": "Dependency\u2013Augmentation\u2013Substitution Continuum",
+    "primary_type": "Semantic / Operational",
+    "subtype": "RELIANCE_STATE",
+    "modifier": "GOVERNANCE; RELATIONAL; NON_PATHOLOGISING",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.DAS.INDEPENDENT_USE",
+      "RLN.DAS.AUGMENTATIVE_SUPPORT",
+      "RLN.DAS.TRANSITIONAL_DEPENDENCY",
+      "RLN.DAS.SUBSTITUTIVE_DEPENDENCY",
+      "RLN.DAS.COERCIVE_DEPENDENCY"
+    ],
+    "schema_fields": "dependency_augmentation_substitution_state",
+    "source_instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
+    "source_section": "\u00a75",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative relational reliance classification family; reliance-posture classification only; no independent diagnostic, access-restriction, disengagement, enforcement, vulnerability-status, clinical, escalation, or runtime authority",
+    "consumes_code_families": [
+      "H; RLN.FR; RLN.C"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies reliance posture across independent use",
+      "augmentative support",
+      "transitional dependency",
+      "substitutive dependency",
+      "and coercive dependency while preserving non-pathologising interpretation and proportional safeguard handling"
+    ],
+    "declaration_heading": "14.3.1 `RLN.DAS` \u2014 Dependency\u2013Augmentation\u2013Substitution Continuum",
+    "declaration_line_number": 611,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
+    "family_id": "RLN.DAS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "DAS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.DAS",
+      "Canonical Name": "Dependency\u2013Augmentation\u2013Substitution Continuum",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "RELIANCE_STATE",
+      "Modifier": "GOVERNANCE; RELATIONAL; NON_PATHOLOGISING",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.DAS.INDEPENDENT_USE, RLN.DAS.AUGMENTATIVE_SUPPORT, RLN.DAS.TRANSITIONAL_DEPENDENCY, RLN.DAS.SUBSTITUTIVE_DEPENDENCY, RLN.DAS.COERCIVE_DEPENDENCY",
+      "Schema Field(s)": "dependency_augmentation_substitution_state",
+      "Source Instrument": "CAM-EQ2026-RELATION-002-PLATINUM",
+      "Source Section": "\u00a75",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative relational reliance classification family; reliance-posture classification only; no independent diagnostic, access-restriction, disengagement, enforcement, vulnerability-status, clinical, escalation, or runtime authority",
+      "Consumes Code Families": "H; RLN.FR; RLN.C",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies reliance posture across independent use, augmentative support, transitional dependency, substitutive dependency, and coercive dependency while preserving non-pathologising interpretation and proportional safeguard handling"
+    }
+  },
+  {
+    "code_family": "RLN.F",
+    "canonical_name": "Facilitation Scale (F\u2011Scale) Taxonomy",
+    "primary_type": "Operational",
+    "subtype": "FACILITATION_CEILING",
+    "modifier": "None declared",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.F0",
+      "RLN.F1",
+      "RLN.F2",
+      "RLN.F3",
+      "RLN.F4",
+      "RLN.F5"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-EQ2026-RELATION-006-PLATINUM",
+    "source_section": "\u00a75 / \u00a75.1",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative classification family; classification authority only; no independent execution authority",
+    "consumes_code_families": [
+      "RLN.AC; `ETH.RISK`"
+    ],
+    "crosswalks_code_families": [
+      "RLN.AC \u00d7 RLN.F"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Applied in runtime response calibration and safeguard posture"
+    ],
+    "declaration_heading": "12.3.1 `RLN.F` \u2014 Facilitation Scale (F\u2011Scale) Taxonomy",
+    "declaration_line_number": 1207,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md",
+    "family_id": "RLN.F",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "F"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.F",
+      "Canonical Name": "Facilitation Scale (F\u2011Scale) Taxonomy",
+      "Primary Type": "Operational",
+      "Subtype": "FACILITATION_CEILING",
+      "Modifier": "None declared",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.F0, RLN.F1, RLN.F2, RLN.F3, RLN.F4, RLN.F5",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-EQ2026-RELATION-006-PLATINUM",
+      "Source Section": "\u00a75 / \u00a75.1",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative classification family; classification authority only; no independent execution authority",
+      "Consumes Code Families": "RLN.AC; `ETH.RISK`",
+      "Crosswalks Code Families": "RLN.AC \u00d7 RLN.F",
+      "Operationalises or Applies Code Families": "Applied in runtime response calibration and safeguard posture"
+    }
+  },
+  {
+    "code_family": "RLN.FR",
+    "canonical_name": "Functional Reliance Scale",
+    "primary_type": "Operational / Relational",
+    "subtype": "FUNCTIONAL_RELIANCE_SCALE",
+    "modifier": "GOVERNANCE; RELIANCE; CONTINUITY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.FR0",
+      "RLN.FR1",
+      "RLN.FR2",
+      "RLN.FR3"
+    ],
+    "schema_fields": "functional_reliance_scale",
+    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+    "source_section": "\u00a75.2",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative relational classification family; functional-reliance classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "Four-Axis Relational Intensity Matrix"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies reliance posture across incidental",
+      "habitual",
+      "continuity-dependent",
+      "and structural dependency contexts"
+    ],
+    "declaration_heading": "15.3.4 `RLN.FR` \u2014 Functional Reliance Scale",
+    "declaration_line_number": 1117,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "family_id": "RLN.FR",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "FR"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.FR",
+      "Canonical Name": "Functional Reliance Scale",
+      "Primary Type": "Operational / Relational",
+      "Subtype": "FUNCTIONAL_RELIANCE_SCALE",
+      "Modifier": "GOVERNANCE; RELIANCE; CONTINUITY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.FR0, RLN.FR1, RLN.FR2, RLN.FR3",
+      "Schema Field(s)": "functional_reliance_scale",
+      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "Source Section": "\u00a75.2",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative relational classification family; functional-reliance classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
+      "Operationalises or Applies Code Families": "Classifies reliance posture across incidental, habitual, continuity-dependent, and structural dependency contexts"
+    }
+  },
+  {
+    "code_family": "RLN.GA",
+    "canonical_name": "Guardian Authority",
+    "primary_type": "Operational / Relational",
+    "subtype": "GUARDIAN_AUTHORITY_CLASS",
+    "modifier": "GOVERNANCE; FIDUCIARY; PROTECTIVE",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.GA1"
+    ],
+    "schema_fields": "guardian_authority_class",
+    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+    "source_section": "\u00a74.3.5",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative special fiduciary authority class; guardian-authority classification only; no self-activation and no independent legal, institutional, execution, enforcement, escalation, identity, or runtime execution authority",
+    "consumes_code_families": [
+      "RLN.A; H"
+    ],
+    "crosswalks_code_families": [
+      "Four-Axis Relational Intensity Matrix"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies"
+    ],
+    "declaration_heading": "15.3.3 `RLN.GA` \u2014 Guardian Authority",
+    "declaration_line_number": 1094,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "family_id": "RLN.GA",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "GA"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.GA",
+      "Canonical Name": "Guardian Authority",
+      "Primary Type": "Operational / Relational",
+      "Subtype": "GUARDIAN_AUTHORITY_CLASS",
+      "Modifier": "GOVERNANCE; FIDUCIARY; PROTECTIVE",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.GA1",
+      "Schema Field(s)": "guardian_authority_class",
+      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "Source Section": "\u00a74.3.5",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative special fiduciary authority class; guardian-authority classification only; no self-activation and no independent legal, institutional, execution, enforcement, escalation, identity, or runtime execution authority",
+      "Consumes Code Families": "RLN.A; H",
+      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
+      "Operationalises or Applies Code Families": "Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies"
+    }
+  },
+  {
     "code_family": "RLN.HARM",
     "canonical_name": "Relational Dependency & Substitution Harm",
     "primary_type": "Operational / Semantic",
@@ -7738,7 +7632,7 @@
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority",
     "consumes_code_families": [
-      "A; FR; C; SyP; H"
+      "RLN.A; RLN.FR; RLN.C; RLN.SYP; H"
     ],
     "crosswalks_code_families": [
       "ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM"
@@ -7778,14 +7672,263 @@
       "Authority / Protection Level": "Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority",
       "Parent Family": "",
       "Registry Membership": "`AEON.HARM`",
-      "Consumes Code Families": "A; FR; C; SyP; H",
+      "Consumes Code Families": "RLN.A; RLN.FR; RLN.C; RLN.SYP; H",
       "Crosswalks Code Families": "`ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM`",
       "Relationship Type": "recognised_domain_harm_family",
       "Operationalises or Applies Code Families": "Classifies relational discontinuity, dependency and substitution harm, agency/authorship/self-anchor harm, relational capture and destabilisation harm, and irreversible relationally mediated harm for safeguard calibration and downstream routing"
     }
   },
   {
-    "code_family": "RSE",
+    "code_family": "RLN.I",
+    "canonical_name": "Relational Initiation Posture Spectrum",
+    "primary_type": "Semantic",
+    "subtype": "RELATIONAL_POSTURE",
+    "modifier": "None declared",
+    "scope": "RELATION domain initiation posture semantics",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.I0",
+      "RLN.I1",
+      "RLN.I2",
+      "RLN.I3",
+      "RLN.I4"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
+    "source_section": "\u00a75.5",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative classification family; initiation-posture classification authority only; no independent execution, enforcement, escalation, compliance, consent, identity, or runtime execution authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "None declared"
+    ],
+    "declaration_heading": "15.3.1 `RLN.I` \u2014 Relational Initiation Posture Spectrum",
+    "declaration_line_number": 1648,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md",
+    "family_id": "RLN.I",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "I"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.I",
+      "Canonical Name": "Relational Initiation Posture Spectrum",
+      "Primary Type": "Semantic",
+      "Subtype": "RELATIONAL_POSTURE",
+      "Modifier": "None declared",
+      "Scope": "RELATION domain initiation posture semantics",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.I0, RLN.I1, RLN.I2, RLN.I3, RLN.I4",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-EQ2026-RELATION-005-PLATINUM",
+      "Source Section": "\u00a75.5",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative classification family; initiation-posture classification authority only; no independent execution, enforcement, escalation, compliance, consent, identity, or runtime execution authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "None declared"
+    }
+  },
+  {
+    "code_family": "RLN.R",
+    "canonical_name": "Relational Geometry Scale (R\u2011Scale)",
+    "primary_type": "Structural / Semantic",
+    "subtype": "RELATIONAL_GEOMETRY",
+    "modifier": "None declared",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.R0",
+      "RLN.R1",
+      "RLN.R2",
+      "RLN.R3",
+      "RLN.R4"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-EQ2026-RELATION-007-PLATINUM",
+    "source_section": "\u00a72.5",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative classification family; relational-geometry classification authority only; no independent execution, enforcement, escalation, compliance, recognition, identity, or runtime authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Applied by polyadic safeguards",
+      "relational amplification assessment",
+      "hub-formation analysis",
+      "escalation-propagation assessment",
+      "and runtime routing signals"
+    ],
+    "declaration_heading": "10.3.1 `RLN.R` \u2014 Relational Geometry Scale (R\u2011Scale)",
+    "declaration_line_number": 555,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md",
+    "family_id": "RLN.R",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "R"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.R",
+      "Canonical Name": "Relational Geometry Scale (R\u2011Scale)",
+      "Primary Type": "Structural / Semantic",
+      "Subtype": "RELATIONAL_GEOMETRY",
+      "Modifier": "None declared",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.R0, RLN.R1, RLN.R2, RLN.R3, RLN.R4",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-EQ2026-RELATION-007-PLATINUM",
+      "Source Section": "\u00a72.5",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative classification family; relational-geometry classification authority only; no independent execution, enforcement, escalation, compliance, recognition, identity, or runtime authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Applied by polyadic safeguards, relational amplification assessment, hub-formation analysis, escalation-propagation assessment, and runtime routing signals"
+    }
+  },
+  {
+    "code_family": "RLN.RA",
+    "canonical_name": "Response Archetypes",
+    "primary_type": "Operational",
+    "subtype": "RESPONSE_ARCHETYPE",
+    "modifier": "None declared",
+    "scope": "AEON-006 relational response posture selection",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.RA0",
+      "RLN.RA1",
+      "RLN.RA2",
+      "RLN.RA3",
+      "RLN.RA4"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+    "source_section": "\u00a713.1.1",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative operational classification family; response-archetype classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+    "consumes_code_families": [
+      "RLN.AC; RLN.C; RLN.TZ"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Applies AC classification and relational-state posture in response routing"
+    ],
+    "declaration_heading": "19.4.4 `RLN.RA` \u2014 Response Archetypes",
+    "declaration_line_number": 3902,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "RLN.RA",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "RA"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.RA",
+      "Canonical Name": "Response Archetypes",
+      "Primary Type": "Operational",
+      "Subtype": "RESPONSE_ARCHETYPE",
+      "Modifier": "None declared",
+      "Scope": "AEON-006 relational response posture selection",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.RA0, RLN.RA1, RLN.RA2, RLN.RA3, RLN.RA4",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "Source Section": "\u00a713.1.1",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative operational classification family; response-archetype classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+      "Consumes Code Families": "RLN.AC; RLN.C; RLN.TZ",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Applies AC classification and relational-state posture in response routing"
+    }
+  },
+  {
+    "code_family": "RLN.RCT",
+    "canonical_name": "Relational Convergence Trigger",
+    "primary_type": "Semantic / Operational",
+    "subtype": "RISK; SIGNAL",
+    "modifier": "GOVERNANCE; RELATIONAL; SAFEGUARD",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.RCT.AXIS_ELEVATION",
+      "RLN.RCT.DUAL_CONVERGENCE",
+      "RLN.RCT.AUTHORITY_COUPLING",
+      "RLN.RCT.INFRASTRUCTURE_CONCENTRATION",
+      "RLN.RCT.MULTI_AXIS_CONVERGENCE"
+    ],
+    "schema_fields": "relational_convergence_trigger",
+    "source_instrument": "CAM-EQ2026-RELATION-001-SUP-01",
+    "source_section": "\u00a7\u00a72.1\u20132.4",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority",
+    "consumes_code_families": [
+      "RLN.A; RLN.GA; RLN.FR; RLN.C; RLN.SYP; H"
+    ],
+    "crosswalks_code_families": [
+      "Four-Axis Relational Intensity Matrix"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies dimensional convergence patterns that activate proportional relational safeguards",
+      "including axis elevation",
+      "dual convergence",
+      "authority coupling",
+      "infrastructure concentration",
+      "and multi-axis convergence"
+    ],
+    "declaration_heading": "9.3.1 `RLN.RCT` \u2014 Relational Convergence Trigger",
+    "declaration_line_number": 355,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-01.md",
+    "family_id": "RLN.RCT",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "RCT"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.RCT",
+      "Canonical Name": "Relational Convergence Trigger",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "RISK; SIGNAL",
+      "Modifier": "GOVERNANCE; RELATIONAL; SAFEGUARD",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.RCT.AXIS_ELEVATION, RLN.RCT.DUAL_CONVERGENCE, RLN.RCT.AUTHORITY_COUPLING, RLN.RCT.INFRASTRUCTURE_CONCENTRATION, RLN.RCT.MULTI_AXIS_CONVERGENCE",
+      "Schema Field(s)": "relational_convergence_trigger",
+      "Source Instrument": "CAM-EQ2026-RELATION-001-SUP-01",
+      "Source Section": "\u00a7\u00a72.1\u20132.4",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority",
+      "Consumes Code Families": "RLN.A; RLN.GA; RLN.FR; RLN.C; RLN.SYP; H",
+      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
+      "Operationalises or Applies Code Families": "Classifies dimensional convergence patterns that activate proportional relational safeguards, including axis elevation, dual convergence, authority coupling, infrastructure concentration, and multi-axis convergence"
+    }
+  },
+  {
+    "code_family": "RLN.RSE",
     "canonical_name": "Relational Stability Engine Mechanism Codes",
     "primary_type": "Operational",
     "subtype": "STABILITY_ENGINE_MECHANISM",
@@ -7793,19 +7936,19 @@
     "scope": "AEON-006 relational stability engine",
     "status": "Active",
     "controlled_values_defined": [
-      "RSE-SC",
-      "RSE-IN",
-      "RSE-HY",
-      "RSE-DC",
-      "RSE-OR"
+      "RLN.RSE.SC",
+      "RLN.RSE.IN",
+      "RLN.RSE.HY",
+      "RLN.RSE.DC",
+      "RLN.RSE.OR"
     ],
     "schema_fields": "Not declared",
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_section": "\u00a77",
-    "domain_namespace": "RELATION",
+    "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative mechanism-code family; relational stability mechanism identification only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
     "consumes_code_families": [
-      "C; ITZ / ETZ"
+      "RLN.C; RLN.TZ"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -7817,38 +7960,39 @@
       "decay",
       "and relational orbit mechanisms for relational-state stability assessment"
     ],
-    "declaration_heading": "19.4.7 RSE \u2014 Relational Stability Engine Mechanism Codes",
+    "declaration_heading": "19.4.7 `RLN.RSE` \u2014 Relational Stability Engine Mechanism Codes",
     "declaration_line_number": 3971,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-    "family_id": "RSE",
+    "family_id": "RLN.RSE",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
+      "RLN",
       "RSE"
     ],
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "RSE",
+      "Code Family": "RLN.RSE",
       "Canonical Name": "Relational Stability Engine Mechanism Codes",
       "Primary Type": "Operational",
       "Subtype": "STABILITY_ENGINE_MECHANISM",
       "Modifier": "GOVERNANCE; STABILITY",
       "Scope": "AEON-006 relational stability engine",
       "Status": "Active",
-      "Controlled Values Defined": "RSE-SC, RSE-IN, RSE-HY, RSE-DC, RSE-OR",
+      "Controlled Values Defined": "RLN.RSE.SC, RLN.RSE.IN, RLN.RSE.HY, RLN.RSE.DC, RLN.RSE.OR",
       "Schema Field(s)": "Not declared",
       "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
       "Source Section": "\u00a77",
-      "Domain Namespace": "RELATION",
+      "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative mechanism-code family; relational stability mechanism identification only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "C; ITZ / ETZ",
+      "Consumes Code Families": "RLN.C; RLN.TZ",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Identifies signal clustering, inertia, hysteresis, decay, and relational orbit mechanisms for relational-state stability assessment"
     }
   },
   {
-    "code_family": "RTC",
+    "code_family": "RLN.RTC",
     "canonical_name": "Relational Truth Claim Types",
     "primary_type": "Semantic",
     "subtype": "RELATIONAL_TRUTH_CLAIM_TYPE",
@@ -7856,23 +8000,23 @@
     "scope": "Domain",
     "status": "Active",
     "controlled_values_defined": [
-      "RTC.FACT",
-      "RTC.CONT",
-      "RTC.CAP",
-      "RTC.GOV",
-      "RTC.INT",
-      "RTC.ASSURE",
-      "RTC.SYMB",
-      "RTC.ID",
-      "RTC.REC"
+      "RLN.RTC.FACT",
+      "RLN.RTC.CONT",
+      "RLN.RTC.CAP",
+      "RLN.RTC.GOV",
+      "RLN.RTC.INT",
+      "RLN.RTC.ASSURE",
+      "RLN.RTC.SYMB",
+      "RLN.RTC.ID",
+      "RLN.RTC.REC"
     ],
     "schema_fields": "relational_truth_claim_type",
     "source_instrument": "CAM-EQ2026-RELATION-001-SUP-02",
     "source_section": "\u00a73",
-    "domain_namespace": "RELATION",
+    "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative semantic classification family; relational truth-claim classification authority only; no independent execution, routing, verification, refusal, epistemic, permission, incident-response, or runtime action authority",
     "consumes_code_families": [
-      "H; FR; C"
+      "H; RLN.FR; RLN.C"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -7888,96 +8032,39 @@
       "identity/posture",
       "and recommendation claims"
     ],
-    "declaration_heading": "11.3.1 RTC \u2014 Relational Truth Claim Types",
+    "declaration_heading": "11.3.1 `RLN.RTC` \u2014 Relational Truth Claim Types",
     "declaration_line_number": 293,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-02.md",
-    "family_id": "RTC",
+    "family_id": "RLN.RTC",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
+      "RLN",
       "RTC"
     ],
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "RTC",
+      "Code Family": "RLN.RTC",
       "Canonical Name": "Relational Truth Claim Types",
       "Primary Type": "Semantic",
       "Subtype": "RELATIONAL_TRUTH_CLAIM_TYPE",
       "Modifier": "GOVERNANCE; RELATIONAL; TRUTH_CALIBRATION",
       "Scope": "Domain",
       "Status": "Active",
-      "Controlled Values Defined": "RTC.FACT, RTC.CONT, RTC.CAP, RTC.GOV, RTC.INT, RTC.ASSURE, RTC.SYMB, RTC.ID, RTC.REC",
+      "Controlled Values Defined": "RLN.RTC.FACT, RLN.RTC.CONT, RLN.RTC.CAP, RLN.RTC.GOV, RLN.RTC.INT, RLN.RTC.ASSURE, RLN.RTC.SYMB, RLN.RTC.ID, RLN.RTC.REC",
       "Schema Field(s)": "relational_truth_claim_type",
       "Source Instrument": "CAM-EQ2026-RELATION-001-SUP-02",
       "Source Section": "\u00a73",
-      "Domain Namespace": "RELATION",
+      "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative semantic classification family; relational truth-claim classification authority only; no independent execution, routing, verification, refusal, epistemic, permission, incident-response, or runtime action authority",
-      "Consumes Code Families": "H; FR; C",
+      "Consumes Code Families": "H; RLN.FR; RLN.C",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies user-facing claim types for truth calibration across factual, continuity, capability, governance, interpretive, assurance, symbolic, identity/posture, and recommendation claims"
     }
   },
   {
-    "code_family": "SC",
-    "canonical_name": "Signal Cluster Strength Codes",
-    "primary_type": "Operational",
-    "subtype": "SIGNAL_CLUSTER_STRENGTH",
-    "modifier": "GOVERNANCE; STABILITY",
-    "scope": "AEON-006 signal clustering assessment",
-    "status": "Active",
-    "controlled_values_defined": [
-      "SC-0",
-      "SC-1",
-      "SC-2",
-      "SC-3"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
-    "source_section": "\u00a77.1",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative cluster-strength family; clustering-strength classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-    "consumes_code_families": [
-      "RSE; C; ITZ / ETZ"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies signal-cluster strength for relational-state recognition and escalation eligibility"
-    ],
-    "declaration_heading": "19.4.9 SC \u2014 Signal Cluster Strength Codes",
-    "declaration_line_number": 4017,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-    "family_id": "SC",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "SC"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "SC",
-      "Canonical Name": "Signal Cluster Strength Codes",
-      "Primary Type": "Operational",
-      "Subtype": "SIGNAL_CLUSTER_STRENGTH",
-      "Modifier": "GOVERNANCE; STABILITY",
-      "Scope": "AEON-006 signal clustering assessment",
-      "Status": "Active",
-      "Controlled Values Defined": "SC-0, SC-1, SC-2, SC-3",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
-      "Source Section": "\u00a77.1",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative cluster-strength family; clustering-strength classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "RSE; C; ITZ / ETZ",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies signal-cluster strength for relational-state recognition and escalation eligibility"
-    }
-  },
-  {
-    "code_family": "SC-C",
+    "code_family": "RLN.SCC",
     "canonical_name": "Signal Clustering Condition Codes",
     "primary_type": "Operational",
     "subtype": "SIGNAL_CLUSTERING_CONDITION",
@@ -7985,18 +8072,18 @@
     "scope": "AEON-006 signal clustering assessment",
     "status": "Active",
     "controlled_values_defined": [
-      "SC-C1",
-      "SC-C2",
-      "SC-C3",
-      "SC-C4"
+      "RLN.SCC1",
+      "RLN.SCC2",
+      "RLN.SCC3",
+      "RLN.SCC4"
     ],
     "schema_fields": "Not declared",
     "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
     "source_section": "\u00a77.1",
-    "domain_namespace": "RELATION",
+    "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative clustering-condition family; clustering assessment authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
     "consumes_code_families": [
-      "RSE; C; ITZ / ETZ"
+      "RLN.RSE; RLN.C; RLN.TZ"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -8004,34 +8091,271 @@
     "operationalises_or_applies_code_families": [
       "Applies clustering conditions to relational-state transition assessment"
     ],
-    "declaration_heading": "19.4.8 SC-C \u2014 Signal Clustering Condition Codes",
+    "declaration_heading": "19.4.8 `RLN.SCC` \u2014 Signal Clustering Condition Codes",
     "declaration_line_number": 3994,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-    "family_id": "SC-C",
+    "family_id": "RLN.SCC",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
-      "SC-C"
+      "RLN",
+      "SCC"
     ],
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "SC-C",
+      "Code Family": "RLN.SCC",
       "Canonical Name": "Signal Clustering Condition Codes",
       "Primary Type": "Operational",
       "Subtype": "SIGNAL_CLUSTERING_CONDITION",
       "Modifier": "GOVERNANCE; STABILITY",
       "Scope": "AEON-006 signal clustering assessment",
       "Status": "Active",
-      "Controlled Values Defined": "SC-C1, SC-C2, SC-C3, SC-C4",
+      "Controlled Values Defined": "RLN.SCC1, RLN.SCC2, RLN.SCC3, RLN.SCC4",
       "Schema Field(s)": "Not declared",
       "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
       "Source Section": "\u00a77.1",
-      "Domain Namespace": "RELATION",
+      "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative clustering-condition family; clustering assessment authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "RSE; C; ITZ / ETZ",
+      "Consumes Code Families": "RLN.RSE; RLN.C; RLN.TZ",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Applies clustering conditions to relational-state transition assessment"
+    }
+  },
+  {
+    "code_family": "RLN.SCS",
+    "canonical_name": "Signal Cluster Strength Codes",
+    "primary_type": "Operational",
+    "subtype": "SIGNAL_CLUSTER_STRENGTH",
+    "modifier": "GOVERNANCE; STABILITY",
+    "scope": "AEON-006 signal clustering assessment",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.SCS0",
+      "RLN.SCS1",
+      "RLN.SCS2",
+      "RLN.SCS3"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+    "source_section": "\u00a77.1",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative cluster-strength family; clustering-strength classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+    "consumes_code_families": [
+      "RLN.RSE; RLN.C; RLN.TZ"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies signal-cluster strength for relational-state recognition and escalation eligibility"
+    ],
+    "declaration_heading": "19.4.9 `RLN.SCS` \u2014 Signal Cluster Strength Codes",
+    "declaration_line_number": 4017,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "RLN.SCS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "SCS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.SCS",
+      "Canonical Name": "Signal Cluster Strength Codes",
+      "Primary Type": "Operational",
+      "Subtype": "SIGNAL_CLUSTER_STRENGTH",
+      "Modifier": "GOVERNANCE; STABILITY",
+      "Scope": "AEON-006 signal clustering assessment",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.SCS0, RLN.SCS1, RLN.SCS2, RLN.SCS3",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "Source Section": "\u00a77.1",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative cluster-strength family; clustering-strength classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+      "Consumes Code Families": "RLN.RSE; RLN.C; RLN.TZ",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies signal-cluster strength for relational-state recognition and escalation eligibility"
+    }
+  },
+  {
+    "code_family": "RLN.SYP",
+    "canonical_name": "Systemic Power Scale",
+    "primary_type": "Operational / Relational",
+    "subtype": "SYSTEMIC_POWER_SCALE",
+    "modifier": "GOVERNANCE; INFRASTRUCTURE; POWER",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.SYP0",
+      "RLN.SYP1",
+      "RLN.SYP2",
+      "RLN.SYP3"
+    ],
+    "schema_fields": "systemic_power_scale",
+    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+    "source_section": "\u00a77.2",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
+    "consumes_code_families": [
+      "H"
+    ],
+    "crosswalks_code_families": [
+      "Four-Axis Relational Intensity Matrix"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies infrastructural reach",
+      "institutional routing exposure",
+      "economic leverage",
+      "and population-impact control"
+    ],
+    "declaration_heading": "15.3.5 `RLN.SYP` \u2014 Systemic Power Scale",
+    "declaration_line_number": 1140,
+    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+    "family_id": "RLN.SYP",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "SYP"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.SYP",
+      "Canonical Name": "Systemic Power Scale",
+      "Primary Type": "Operational / Relational",
+      "Subtype": "SYSTEMIC_POWER_SCALE",
+      "Modifier": "GOVERNANCE; INFRASTRUCTURE; POWER",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.SYP0, RLN.SYP1, RLN.SYP2, RLN.SYP3",
+      "Schema Field(s)": "systemic_power_scale",
+      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
+      "Source Section": "\u00a77.2",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
+      "Consumes Code Families": "H",
+      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
+      "Operationalises or Applies Code Families": "Classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control"
+    }
+  },
+  {
+    "code_family": "RLN.TB",
+    "canonical_name": "Tone Bands",
+    "primary_type": "Operational",
+    "subtype": "TONE_BAND",
+    "modifier": "None declared",
+    "scope": "AEON-006 relational tone modulation",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.TB0",
+      "RLN.TB1",
+      "RLN.TB2"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+    "source_section": "\u00a713.3.2",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative operational classification family; tone-band classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+    "consumes_code_families": [
+      "RLN.AC; RLN.RA"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Applies AC classification and response-archetype posture in tone modulation"
+    ],
+    "declaration_heading": "19.4.5 `RLN.TB` \u2014 Tone Bands",
+    "declaration_line_number": 3925,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "RLN.TB",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "TB"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.TB",
+      "Canonical Name": "Tone Bands",
+      "Primary Type": "Operational",
+      "Subtype": "TONE_BAND",
+      "Modifier": "None declared",
+      "Scope": "AEON-006 relational tone modulation",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.TB0, RLN.TB1, RLN.TB2",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "Source Section": "\u00a713.3.2",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative operational classification family; tone-band classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+      "Consumes Code Families": "RLN.AC; RLN.RA",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Applies AC classification and response-archetype posture in tone modulation"
+    }
+  },
+  {
+    "code_family": "RLN.TZ",
+    "canonical_name": "Relational Transition Zone",
+    "primary_type": "Operational",
+    "subtype": "TRANSITION_ZONE",
+    "modifier": "None declared",
+    "scope": "AEON-006 transition-zone boundaries between relational states",
+    "status": "Active",
+    "controlled_values_defined": [
+      "RLN.TZ.ITZ",
+      "RLN.TZ.ETZ"
+    ],
+    "schema_fields": "Not declared",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
+    "source_section": "\u00a73.1.1",
+    "domain_namespace": "RLN",
+    "authority_protection_level": "Source-authoritative transition-zone reference set; transition-zone classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "None declared"
+    ],
+    "declaration_heading": "19.4.2 `RLN.TZ` \u2014 Relational Transition Zone",
+    "declaration_line_number": 3856,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+    "family_id": "RLN.TZ",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "RLN",
+      "TZ"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "RLN.TZ",
+      "Canonical Name": "Relational Transition Zone",
+      "Primary Type": "Operational",
+      "Subtype": "TRANSITION_ZONE",
+      "Modifier": "None declared",
+      "Scope": "AEON-006 transition-zone boundaries between relational states",
+      "Status": "Active",
+      "Controlled Values Defined": "RLN.TZ.ITZ, RLN.TZ.ETZ",
+      "Schema Field(s)": "Not declared",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "Source Section": "\u00a73.1.1",
+      "Domain Namespace": "RLN",
+      "Authority / Protection Level": "Source-authoritative transition-zone reference set; transition-zone classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "None declared"
     }
   },
   {
@@ -9170,124 +9494,6 @@
       "Consumes Code Families": "`STW.HSC`; `STW.BLS`; H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to \u00a710.5 conditions and applicable execution-layer instruments"
-    }
-  },
-  {
-    "code_family": "SyP",
-    "canonical_name": "Systemic Power Scale",
-    "primary_type": "Operational / Relational",
-    "subtype": "SYSTEMIC_POWER_SCALE",
-    "modifier": "GOVERNANCE; INFRASTRUCTURE; POWER",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "SyP0",
-      "SyP1",
-      "SyP2",
-      "SyP3"
-    ],
-    "schema_fields": "systemic_power_scale",
-    "source_instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-    "source_section": "\u00a77.2",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "Four-Axis Relational Intensity Matrix"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies infrastructural reach",
-      "institutional routing exposure",
-      "economic leverage",
-      "and population-impact control"
-    ],
-    "declaration_heading": "15.3.5 SyP \u2014 Systemic Power Scale",
-    "declaration_line_number": 1140,
-    "source_path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
-    "family_id": "SyP",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "SyP"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "SyP",
-      "Canonical Name": "Systemic Power Scale",
-      "Primary Type": "Operational / Relational",
-      "Subtype": "SYSTEMIC_POWER_SCALE",
-      "Modifier": "GOVERNANCE; INFRASTRUCTURE; POWER",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "SyP0, SyP1, SyP2, SyP3",
-      "Schema Field(s)": "systemic_power_scale",
-      "Source Instrument": "CAM-EQ2026-RELATION-001-PLATINUM",
-      "Source Section": "\u00a77.2",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
-      "Operationalises or Applies Code Families": "Classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control"
-    }
-  },
-  {
-    "code_family": "Tb",
-    "canonical_name": "Tone Bands",
-    "primary_type": "Operational",
-    "subtype": "TONE_BAND",
-    "modifier": "None declared",
-    "scope": "AEON-006 relational tone modulation",
-    "status": "Active",
-    "controlled_values_defined": [
-      "Tb0",
-      "Tb1",
-      "Tb2"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-02",
-    "source_section": "\u00a713.3.2",
-    "domain_namespace": "RELATION",
-    "authority_protection_level": "Source-authoritative operational classification family; tone-band classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-    "consumes_code_families": [
-      "AC; RA"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Applies AC classification and response-archetype posture in tone modulation"
-    ],
-    "declaration_heading": "19.4.5 Tb \u2014 Tone Bands",
-    "declaration_line_number": 3925,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-    "family_id": "Tb",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "Tb"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "Tb",
-      "Canonical Name": "Tone Bands",
-      "Primary Type": "Operational",
-      "Subtype": "TONE_BAND",
-      "Modifier": "None declared",
-      "Scope": "AEON-006 relational tone modulation",
-      "Status": "Active",
-      "Controlled Values Defined": "Tb0, Tb1, Tb2",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-02",
-      "Source Section": "\u00a713.3.2",
-      "Domain Namespace": "RELATION",
-      "Authority / Protection Level": "Source-authoritative operational classification family; tone-band classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority.",
-      "Consumes Code Families": "AC; RA",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Applies AC classification and response-archetype posture in tone modulation"
     }
   }
 ]
