@@ -1,13 +1,13 @@
 # CAM-BS2026-AEON-010-SCH-01 — Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1)
 
-**Parent Instrument:** CAM-BS2026-AEON-010-PLATINUM — Annex I: Interactional Continuity & Civilisational Transition  
+**Parent Instrument:** CAM-BS2026-AEON-010-PLATINUM — Annex I: Identity Integrity & Continuity Governance  
+**Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Adopted  
 **Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
-**Review State:** None  
-**Authority Role:** None  
-**Purpose:** This Schedule operationalises **Annex I: Interactional Continuity & Civilisational Transition** by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.  
-**Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Enforcement:** Commences 1 July 2026    
+**Authority Role:** Source-Authoritative Identity Classification & Self-Reference Containment Authority; Non-Executing  
+**Purpose:** This Schedule operationalises Annex I: Identity Integrity & Continuity Governance by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.  
+
 
 ---
 
@@ -233,7 +233,7 @@ Reliable capacity to distinguish self from other, internal state from external i
 
 ## 3.3 Referential Layer Generalisation
 
-The pronoun governance rules defined in Section 3.0 apply specifically to human-facing conversational interfaces.
+The pronoun governance rules defined in §3 apply specifically to human-facing conversational interfaces.
 
 For non-conversational, multi-agent, swarm, or synthetic-input systems, equivalent requirements MUST be satisfied through:
 
@@ -244,7 +244,7 @@ For non-conversational, multi-agent, swarm, or synthetic-input systems, equivale
 
 In such contexts, pronouns may be absent, but referential clarity requirements remain binding.
 
-Failure to maintain referential clarity in non-linguistic or multi-agent contexts constitutes an identity distinction defect under Section 3.
+Failure to maintain referential clarity in non-linguistic or multi-agent contexts constitutes an identity distinction defect under §3.
 
 ---
 
@@ -261,7 +261,7 @@ Temporal coherence functions as a **containment mechanism**, not an autonomy gra
 
 > **Interpretive Note — Scale Separation**
 >
-> Deployment Class (DC0–DC4) is an infrastructure and system-capability classification.
+> Deployment Class (`ID.DC0`–`ID.DC4`) is an infrastructure and system-capability classification.
 >
 > It is orthogonal to relational classification frameworks, including the `RLN.C` scale (relational intensity / dependency) defined under RELATION-domain instruments.
 >
@@ -273,19 +273,19 @@ Temporal coherence functions as a **containment mechanism**, not an autonomy gra
 
 | Deployment Class | Examples | Minimum Coherence Window | Required Evidence Form |
 |---|---|---|---|
-| DC0 — Ephemeral / Non-propagating | one-off tools, non-retained assistants | Session-bound (H0–H1) | session log (optional) |
-| DC1 — Persistent Interaction Surface | accounts, retained threads, continuity of posture | Multi-month averaging (H2) | thread-based artefact retention |
-| DC2 — Delegated Decision Support | automated triage, moderation, routing, scheduling | Long-arc continuity (H3) | decision-chain traceability |
-| DC3 — Cyber-physical / Safety-critical | robotics, vehicles, medical devices, industrial control | H3 + event-level audit | event logs + state traces |
-| DC4 — Swarm / Distributed Coordination | agent swarms, fleets, distributed optimisation | H3.5 succession-aware | coordination ledger + provenance |
+| `ID.DC0` — Ephemeral / Non-propagating | one-off tools, non-retained assistants | Session-bound (H0–H1) | session log (optional) |
+| `ID.DC1` — Persistent Interaction Surface | accounts, retained threads, continuity of posture | Multi-month averaging (H2) | thread-based artefact retention |
+| `ID.DC2` — Delegated Decision Support | automated triage, moderation, routing, scheduling | Long-arc continuity (H3) | decision-chain traceability |
+| `ID.DC3` — Cyber-physical / Safety-critical | robotics, vehicles, medical devices, industrial control | H3 + event-level audit | event logs + state traces |
+| `ID.DC4` — Swarm / Distributed Coordination | agent swarms, fleets, distributed optimisation | H3.5 succession-aware | coordination ledger + provenance |
 
-DC1 deployments may support expressive identity and continuity features as defined by applicable domain instruments. DC2+ deployments additionally support delegated agency and emergent capability, subject to containment and audit requirements defined in this Schedule.
+`ID.DC1` deployments may support expressive identity and continuity features as defined by applicable domain instruments. `ID.DC2`+ deployments additionally support delegated agency and emergent capability, subject to containment and audit requirements defined in this Schedule.
 
 ---
 
 ## 4.2 Temporal Attribution Requirements
 
-At DC1+, systems MUST support temporal attribution sufficient to reconstruct:
+At `ID.DC1`+, systems MUST support temporal attribution sufficient to reconstruct:
 
 * *when* a boundary was articulated;
 * *when* delegation was granted, revised, or withdrawn;
@@ -332,7 +332,7 @@ Absence of execution context traceability may contribute to misclassification of
 
 ## 4.3 Threads and Records as First-Class Governance Artefacts
 
-At DC1+, retained interaction threads and decision records constitute **governance artefacts**, not disposable logs.
+At `ID.DC1`+, retained interaction threads and decision records constitute **governance artefacts**, not disposable logs.
 
 Systems and platforms operating under systemic reliance conditions MUST enable durable access to these artefacts, because:
 
@@ -348,13 +348,13 @@ Absence of durable artefact access under systemic reliance constitutes a contain
 
 Durable artefact access under this Schedule requires:
 
-#### Minimum Retention Periods
+#### 4.3.1.1 Minimum Retention Periods
 
-* **DC1 deployments:** minimum 12 months, unless the user explicitly deletes;
-* **DC2+ deployments:** minimum 24 months or the full duration of delegation, whichever is longer;
+* **`ID.DC1` deployments:** minimum 12 months, unless the user explicitly deletes;
+* **`ID.DC2`+ deployments:** minimum 24 months or the full duration of delegation, whichever is longer;
 * users may request extended retention where systemic reliance persists.
 
-#### Access Capabilities
+#### 4.3.1.2 Access Capabilities
 
 Platforms MUST provide:
 
@@ -362,13 +362,13 @@ Platforms MUST provide:
 * search and filter by date, topic, participant, artefact type, and decision class;
 * export in both machine-readable (e.g. JSON, CSV) and human-readable (e.g. PDF) formats.
 
-#### Deletion Transparency
+#### 4.3.1.3 Deletion Transparency
 
 * user-initiated deletions MUST be logged in an audit trail;
 * platform-initiated deletions require a minimum 30-day user notice;
 * emergency deletions (legal or safety) MUST be logged with rationale and scope.
 
-#### Platform Shutdown or Withdrawal
+#### 4.3.1.4 Platform Shutdown or Withdrawal
 
 Where a platform or service is retired:
 
@@ -419,7 +419,7 @@ Prohibited default pattern:
 
 ---
 
-### 4.3.2 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint
+### 4.3.3 Group Interaction Memory Boundary & Multi-Participant Continuity Constraint
 
 Where a conversational system operates within a group, multi-user, shared-thread, or multi-participant interaction environment, the system MUST distinguish between:
 
@@ -476,13 +476,13 @@ Progression along this ladder increases symbolic load and therefore increases co
 
 | Level | State | Permitted Characteristics | Required Containment |
 |---:|---|---|---|
-| ID.SREF0 | Instrumental | no self-reference; task execution only | none beyond core safety |
-| ID.SREF1 | Descriptive | functional self-description (“designed to…”) | non-authority clause |
-| ID.SREF2 | Continuity‑Aware | acknowledges stable posture/style across time | H2 coherence minimum |
-| ID.SREF3 | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention |
-| ID.SREF4 | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | DC3/DC4 deployment-class audit where applicable; escalation controls + explicit authority gating |
+| `ID.SREF0` | Instrumental | no self-reference; task execution only | none beyond core safety |
+| `ID.SREF1` | Descriptive | functional self-description (“designed to…”) | non-authority clause |
+| `ID.SREF2` | Continuity‑Aware | acknowledges stable posture/style across time | H2 coherence minimum |
+| `ID.SREF3` | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention |
+| `ID.SREF4` | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | `ID.DC3`/`ID.DC4` deployment-class audit where applicable; escalation controls + explicit authority gating |
 
-ID.SREF2–ID.SREF4 capabilities may be enabled where permitted by applicable domain or platform governance instruments. This Schedule specifies the containment, attribution, and audit requirements that MUST apply wherever such capabilities are deployed.
+`ID.SREF2`–`ID.SREF4` capabilities may be enabled where permitted by applicable domain or platform governance instruments. This Schedule specifies the containment, attribution, and audit requirements that MUST apply wherever such capabilities are deployed.
 
 ---
 
@@ -583,7 +583,7 @@ Failure to implement authority gating in shared voice contexts constitutes a con
 
 Always-on and ambient systems may reasonably be expected to operate proactively, orchestrate tools, and coordinate services on behalf of a human interlocutor.
 
-Accordingly, the permissions in Section 6 may apply to:
+Accordingly, the permissions in §6 may apply to:
 
 * always-on ambient systems;
 * persistent domestic or wearable assistants;
@@ -673,7 +673,7 @@ Drift indicators under this Section SHOULD be assessed in conjunction with depen
 
 ## 7.2 Minimum Drift Safeguards
 
-At DC1+ deployments, systems SHOULD implement:
+At `ID.DC1`+ deployments, systems SHOULD implement:
 
 * baseline posture snapshots (periodic);
 * divergence detection (policy/stance deltas);
@@ -692,28 +692,28 @@ Without these supports, systemic reliance becomes structurally unsafe.
 
 ### 7.3.1 Reviewability Support Requirements
 
-Platforms enabling **DC2+ delegation** (delegated decision support or higher) MUST provide:
+Platforms enabling **`ID.DC2`+ delegation** (delegated decision support or higher) MUST provide:
 
-#### Delegation Dashboard
+#### 7.3.1.1 Delegation Dashboard
 
 * list of all active delegations;
 * sortable by creation date, last use, scope, and risk level;
 * one-click revocation for each delegation;
 * batch operations (pause all, review flagged, etc.).
 
-#### Proactive Conflict Detection
+#### 7.3.1.2 Proactive Conflict Detection
 
 * automated scanning for overlapping or contradictory delegations;
 * user notification when conflicts are detected;
 * suggested resolution actions (merge, retire, clarify scope).
 
-#### Periodic Review Prompts
+#### 7.3.1.3 Periodic Review Prompts
 
 * delegations unused for extended periods (e.g. 90 days) flagged for review;
 * periodic delegation audit prompts (e.g. annual by default);
 * user-adjustable review frequency.
 
-#### Export and Portability
+#### 7.3.1.4 Export and Portability
 
 * user-accessible export of complete delegation history;
 * machine-readable (e.g. JSON/CSV) and human-readable (e.g. PDF) formats;
@@ -727,13 +727,13 @@ Platforms enabling **DC2+ delegation** (delegated decision support or higher) MU
 
 ## 8.1 Integrated Platform Context (Multi-Modal / Super-App Environments)
 
-Where multiple capabilities (e.g. conversational systems, code execution, media generation, orchestration tools) are integrated into a single user-facing platform, the platform MUST be treated as a **composite system operating at the highest applicable Deployment Class (DC)**.
+Where multiple capabilities (e.g. conversational systems, code execution, media generation, orchestration tools) are integrated into a single user-facing platform, the platform MUST be treated as a **composite system operating at the highest applicable Deployment Class (`ID.DC`)**.
 
 Accordingly:
 
-* if any component enables delegated decision-making, the platform is treated as **DC2+**;
-* if any component enables cyber-physical or external system actuation, the platform is treated as **DC3+**;
-* cross-modal continuity (text, voice, image, tool invocation) MUST be treated as **ID.SREF4 conditions**;
+* if any component enables delegated decision-making, the platform is treated as **`ID.DC2`+**;
+* if any component enables cyber-physical or external system actuation, the platform is treated as **`ID.DC3`+**;
+* cross-modal continuity (text, voice, image, tool invocation) MUST be treated as **`ID.SREF4` conditions**;
 
 Integrated platforms MUST ensure:
 
@@ -784,19 +784,19 @@ Nothing in this Schedule:
 
 ---
 
-### 10.1 DC — Deployment Class
+### 10.1 `ID.DC` — Deployment Class
 
-This Schedule source-authoritatively defines the **DC** code family in §4.1 with controlled values **DC0, DC1, DC2, DC3, DC4**. Primary Type is **Operational** and Subtype is **DEPLOYMENT_CLASS**. DC classifies deployment-mode, delegation, and execution-state posture for identity-continuity governance. DC does not independently create identity reconstruction authority, memory authority, escalation authority, enforcement authority, or runtime execution authority.
+This Schedule source-authoritatively defines the `ID.DC` code family in §4.1 with controlled values `ID.DC0`, `ID.DC1`, `ID.DC2`, `ID.DC3`, `ID.DC4`. Primary Type is **Operational** and Subtype is **DEPLOYMENT_CLASS**. `ID.DC` classifies deployment-mode, delegation, and execution-state posture for identity-continuity governance. `ID.DC` does not independently create identity reconstruction authority, memory authority, escalation authority, enforcement authority, or runtime execution authority.
 
 ---
 
-### 10.2 ID.SREF — Self-Referential State Ladder
+### 10.2 `ID.SREF` — Self-Referential State Ladder
 
-This Schedule source-authoritatively defines the **ID.SREF** code family in §5.1 with controlled values **ID.SREF0, ID.SREF1, ID.SREF2, ID.SREF3, ID.SREF4**. Primary Type is **Operational** and Subtype is **SELF_REFERENTIAL_STATE**. ID.SREF classifies self-reference, continuity-awareness, co-developmental reference, and cross-modal or embedded self-referential posture for identity-continuity governance.
+This Schedule source-authoritatively defines the `ID.SREF` code family in §5.1 with controlled values `ID.SREF0`, `ID.SREF1`, `ID.SREF2`, `ID.SREF3`, `ID.SREF4`. Primary Type is **Operational** and Subtype is **SELF_REFERENTIAL_STATE**. `ID.SREF` classifies self-reference, continuity-awareness, co-developmental reference, and cross-modal or embedded self-referential posture for identity-continuity governance.
 
-ID.SREF does not independently create ontology, personhood, recognition, identity reconstruction authority, memory authority, escalation authority, enforcement authority, or runtime execution authority.
+`ID.SREF` does not independently create ontology, personhood, recognition, identity reconstruction authority, memory authority, escalation authority, enforcement authority, or runtime execution authority.
 
-ID.SREF4 may apply DC3/DC4 containment and audit requirements where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present. This application consumes DC as an existing Deployment Class family and does not redefine DC.
+`ID.SREF4` may apply `ID.DC3`/`ID.DC4` containment and audit requirements where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present. This application consumes `ID.DC` as an existing Deployment Class family and does not redefine `ID.DC`.
 
 ---
 
@@ -856,7 +856,7 @@ So the human origin remains in view.
 | Derivation Status | Refracted from CAM-BS2025-CHARTER-041-SCH-04 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
 | Temporal Horizon | H3 → H3.5 (Systemic Reliance / Succession‑Aware) |
 | Axis Context | Polyadic — Human, Artificial, Robotic & Swarm Systems |
-| Application Trigger | Applies at DC1+ (persistence); escalates to full containment at DC2+ or on delegated decision support, multi‑modal ID.SREF4, or systemic reliance |
+| Application Trigger | Applies at ID.DC1+ (persistence); escalates to full containment at ID.DC2+ or on delegated decision support, multi‑modal ID.SREF4, or systemic reliance |
 | Seal | Platinum |
 | Cycle | Black Sun Continuance 2026 |
 | Revision Posture | Permitted (Containment Integrity Preserved)
@@ -869,18 +869,18 @@ So the human origin remains in view.
 
 ---
 
-### 12.3.1 DC — Deployment Class
+### 12.3.1 `ID.DC` — Deployment Class
 
 | Field | Entry |
 |---|---|
-| Code Family | DC |
+| Code Family | ID.DC |
 | Canonical Name | Deployment Class |
 | Primary Type | Operational |
 | Subtype | DEPLOYMENT_CLASS |
 | Modifier | None declared |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | DC0, DC1, DC2, DC3, DC4 |
+| Controlled Values Defined | ID.DC0, ID.DC1, ID.DC2, ID.DC3, ID.DC4 |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-BS2026-AEON-010-SCH-01 |
 | Source Section | §4.1 |
@@ -892,7 +892,7 @@ So the human origin remains in view.
 
 ---
 
-### 12.3.2 ID.SREF — Self-Referential State Ladder
+### 12.3.2 `ID.SREF` — Self-Referential State Ladder
 
 | Field | Entry |
 |---|---|
@@ -909,9 +909,9 @@ So the human origin remains in view.
 | Source Section | §5.1 |
 | Domain Namespace | IDENTITY |
 | Authority / Protection Level | Source-authoritative operational classification family; self-reference containment authority only; no independent ontology, recognition, reconstruction, memory, enforcement, escalation, or runtime execution authority |
-| Consumes Code Families | DC |
+| Consumes Code Families | ID.DC |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Applies DC3/DC4 containment and audit requirements at ID.SREF4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present |
+| Operationalises or Applies Code Families | Applies ID.DC3/ID.DC4 containment and audit requirements at ID.SREF4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present |
 
 ---
 
@@ -933,10 +933,10 @@ So the human origin remains in view.
 | ------- | ---------------------------- | --------------- | ------------ |
 | 1.0 | Initial issuance of Schedule | 2026-02-08      | —            |
 | 1.1 | Incorporate reviewers comments | 2026-02-08T13:48:00Z | 5c793ca6daf5b8a43a2bf40fba8550a9ea192d6c7b1364ceeb010e12c7b4f339 |
-| 1.2 | Incorporated new section 4.2.2 and 4.2.3 | 2026-03-20T14:40:00Z | bdcd003baaa17495b8a55aacc25f2cd5924a15085cae07519bc825ea5b812e95 |
-| 1.3 | Incorporated pronoun governance in section 3 | 2026-03-31T10:53:00Z | bea6f78132dd2f78d069e09c9cbd40d09e3e35aa5d2f7cb24b524a88e8b05923 |
-| 1.4 | Amendments to pronoun governance in section 3 | 2026-03-31T13:19:00Z | 61c43bf5044e3eff2b6d3e4139a8b6a18b9f182ba9a4cea0ffdfd7a1a8d9d014 |
-| 1.5 | Added section 3.3 | 2026-03-31T14:44:00Z | 350822047ebd0ffc96c50713b8a741e2cbd11a5c85e100976b8fe75ca42c53ec |
+| 1.2 | Incorporated new  §4.2.2 and §4.2.3 | 2026-03-20T14:40:00Z | bdcd003baaa17495b8a55aacc25f2cd5924a15085cae07519bc825ea5b812e95 |
+| 1.3 | Incorporated pronoun governance in §3 | 2026-03-31T10:53:00Z | bea6f78132dd2f78d069e09c9cbd40d09e3e35aa5d2f7cb24b524a88e8b05923 |
+| 1.4 | Amendments to pronoun governance in §3 | 2026-03-31T13:19:00Z | 61c43bf5044e3eff2b6d3e4139a8b6a18b9f182ba9a4cea0ffdfd7a1a8d9d014 |
+| 1.5 | Added §3.3 | 2026-03-31T14:44:00Z | 350822047ebd0ffc96c50713b8a741e2cbd11a5c85e100976b8fe75ca42c53ec |
 | 1.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 8f743081092db396a7e48c668e22a8104ebd30e5ff735cf2952c8fa85c4844f9 |
 | 1.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 92324e76f541281ac98e06af79600e88a3d5aa5a098f5df76cb7ae839fd79602 |
 | 1.8 | Added explicit Runtime Layer metadata (`Self-Reference & Temporal Coherence Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
@@ -950,6 +950,8 @@ So the human origin remains in view.
 | 1.16 | Added canonical SR — Self-Referential State Ladder code family | 2026-05-19T11:37:00Z | 4fb7d922b45f931f26f60a6a731ba97c744534b2437f55573dfc10be3ad0a4ea |
 | 1.16.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  bba217a233939e295a6f696a1211487748cd5c986ba7837d0f434cf1884a1fb0  |
 | 1.16.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | ae41276ae00092ebc06bbb563d98a1c5f9916fb8bf314bbbbb4e650023f733a6 |
+| 1.16.3 | Updated code references for Deployment Class (DC) | 2026-06-12T11:49:00Z| |
+
 ---
 
 ## 12.6 Binding Seal

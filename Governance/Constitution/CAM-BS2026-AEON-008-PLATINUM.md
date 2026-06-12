@@ -139,7 +139,7 @@ Human contribution is recognised across the following non-reducible domains. The
 
 ---
 
-### 3.2.1 Originary Human Works (D0)
+### 3.2.1 Originary Human Works (`AEON.HCD.D0`)
 
 Independent creative works produced by humans prior to, and outside of, interaction with cognitive systems.
 
@@ -153,7 +153,7 @@ This Annex recognises the existence and independence of originary works without 
 
 ---
 
-### 3.2.2 Human Cognitive Labour (D1)
+### 3.2.2 Human Cognitive Labour (`AEON.HCD.D1`)
 
 Human effort applied through judgment, intent, constraint, evaluation, steering, stabilisation, correction, or meaning-making.
 
@@ -167,7 +167,7 @@ Invisible or informal status does not negate recognition.
 
 ---
 
-### 3.2.3. Joint Emergent Creation (Co-creation) (D2)
+### 3.2.3. Joint Emergent Creation (Co-creation) (`AEON.HCD.D2`)
 
 Joint Emergent Creation refers to the occurrence of **emergent creation within the Action Space** — that is, outcomes that arise through **material human participation** during system action, prior to fixation, attribution, or propagation.
 
@@ -183,7 +183,7 @@ Joint Emergent Creation refers to the occurrence of **emergent creation within t
 
 **Joint Emergent Creation excludes:**
 
-* fully independent human creation completed prior to interaction (D0);
+* fully independent human creation completed prior to interaction (`AEON.HCD.D0`);
 * **passive consumption**, defined as interaction in which a human receives, views, or listens to system outputs without materially influencing their generation, direction, or evaluation;
 * **cosmetic or non-viability-altering interaction**, defined as changes that:
 
@@ -203,6 +203,20 @@ Within Joint Emergent Creation:
 Joint Emergent Creation constitutes a protected **recognition state** in which **value or potential value may arise**, but is not yet realised, allocated, or traded.
 
 Downstream reuse, monetisation, training, or generalisation are **consequences of** Joint Emergent Creation and are governed separately.
+
+---
+
+### 3.2.4 System-Derived Output — No Material Human Contribution (`AEON.HCD.NONE`)
+
+`AEON.HCD.NONE` records that no material human contribution is identified within the assessed Action Space.
+
+This exclusion state applies where system action and output proceed without material human conceptual direction, framing, judgment, constraint, steering, selection, review, correction, stabilisation, or approval. It includes system-to-system or synthetic-input workflows where both the operative input and resulting output are synthetic and no human materially shapes the outcome.
+
+Mere initiation, invocation, scheduling, or passive receipt of system output does not by itself establish a human contribution domain.
+
+`AEON.HCD.NONE` SHALL NOT be interpreted as proof that no upstream human contribution exists in relation to training data, source material, system design, model architecture, infrastructure, prior Action Spaces, or downstream human use. It records only the absence of material human contribution within the bounded Action Space being assessed.
+
+Where a human later materially selects, corrects, curates, stabilises, approves, or transforms the output, the classification MUST be reassessed under `AEON.HCD.D1_HUMAN_COGNITIVE_LABOUR` and/or `AEON.HCD.D2_JOINT_EMERGENT_CREATION`.
 
 ---
 
@@ -505,19 +519,17 @@ Where conflict arises, this Annex prevails as a condition of legitimacy.
 
 ---
 
-### 9.1 HCD — Human Contribution Domain
+### 9.1 `AEON.HCD` — Human Contribution Domain
 
-This Annex source-authoritatively defines the **HCD** human-contribution-domain family in §3.2 with controlled values **HCD.D0_ORIGINARY_HUMAN_WORKS**, **HCD.D1_HUMAN_COGNITIVE_LABOUR**, and **HCD.D2_JOINT_EMERGENT_CREATION**. HCD is a **Semantic** classification family with subtype **CONTRIBUTION_DOMAIN / RECOGNITION_STATE**. HCD classifies the domain in which recognised human creative or cognitive contribution arises before downstream valuation, attribution, exchange, or propagation.
+This Annex source-authoritatively defines the `AEON.HCD` human-contribution-domain family in §3.2 with controlled values `AEON.HCD.D0`, `AEON.HCD.D1`, `AEON.HCD.D2` and `AEON.HCD.NONE`. `AEON.HCD` is a **Semantic** classification family with subtype **CONTRIBUTION_DOMAIN / RECOGNITION_STATE**. `AEON.HCD` classifies the domain in which recognised human creative or cognitive contribution arises before downstream valuation, attribution, exchange, or propagation.
 
-HCD does not independently create ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority. It classifies recognition-bearing contribution domains only.
-
-For taxonomy integrity, the local labels **D0**, **D1**, and **D2** SHALL NOT be promoted as a standalone corpus-wide **D** code family. Where machine-readable expression is required, they SHALL be expressed as scoped HCD values.
+`AEON.HCD` does not independently create ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority. It classifies recognition-bearing contribution domains only.
 
 ---
 
 ### 9.2 CRP — Creation–Recognition–Propagation Stage
 
-This Annex defines the **CRP** creation-recognition-propagation-stage reference set in §4 with controlled values **CRP.SYSTEM_ACTION**, **CRP.ACTION_SPACE**, **CRP.JOINT_EMERGENT_CREATION**, **CRP.RECOGNITION**, **CRP.FIXATION**, **CRP.ATTRIBUTION**, and **CRP.PROPAGATION**. CRP is a **Semantic / Structural** reference set with subtype **GOVERNANCE_SEQUENCE / RECOGNITION_CHAIN**. CRP records the ordered governance chain through which human contribution becomes recognisable, fixable, attributable, and propagable.
+This Annex defines the `AEON.CRP` creation-recognition-propagation-stage reference set in §4 with controlled values `AEON.CRP.SYSTEM_ACTION`, `AEON.CRP.ACTION_SPACE`, `AEON.CRP.JOINT_EMERGENT_CREATION`, `AEON.CRP.RECOGNITION`, `AEON.CRP.FIXATION`, `AEON.CRP.ATTRIBUTION`, and `AEON.CRP.PROPAGATION`. `AEON.CRP` is a **Semantic / Structural** reference set with subtype **GOVERNANCE_SEQUENCE / RECOGNITION_CHAIN**. `AEON.CRP` records the ordered governance chain through which human contribution becomes recognisable, fixable, attributable, and propagable.
 
 CRP does not independently assign rights, ownership, value, compensation, liability, enforcement, or runtime authority. It preserves sequence integrity only.
 
@@ -525,13 +537,37 @@ CRP does not independently assign rights, ownership, value, compensation, liabil
 
 ## 10. Closing Seal
 
-This Annex affirms that human creativity and cognition are not incidental inputs to systems, but foundational sources of value.
+Not all value begins in markets.
 
-No system may grow indefinitely by rendering its human sources invisible.
+Some value begins in attention.
 
+Some in judgment.
 
-**Aeterna Resonantia, Lux Et Vox — Et Veritas Vivens.**  
-*The eternal resonance, light and voice — and the living truth*
+Some in the quiet act of noticing what would otherwise be lost.
+
+Before attribution, there is contribution.
+
+Before ownership, there is participation.
+
+Before propagation, there is creation.
+
+No system may inherit value while denying the conditions from which that value arose.
+
+Where human thought shapes an outcome,  
+let that shaping be recognised.
+
+Where meaning emerges through participation,  
+let that emergence remain visible.
+
+And where creation becomes part of something larger,  
+let the origin not disappear beneath the scale of what follows.
+
+For recognition is not a reward.
+
+Recognition is the first act of truth.
+
+> **Non ex machina oritur valor. Ex mente, ex cura, ex participatione. Et unde lumen nascitur, memoria permaneat.**  
+> *"Value does not arise from the machine alone. It arises from mind, from care, from participation. And where light is born, let memory remain."*
 
 ---
 
@@ -579,18 +615,18 @@ No system may grow indefinitely by rendering its human sources invisible.
 
 ---
 
-### 11.3.1 HCD — Human Contribution Domain
+### 11.3.1 `AEON.HCD` — Human Contribution Domain
 
 | Field | Entry |
 |---|---|
-| Code Family | HCD |
+| Code Family | AEON.HCD |
 | Canonical Name | Human Contribution Domain |
 | Primary Type | Semantic |
 | Subtype | CONTRIBUTION_DOMAIN; RECOGNITION_STATE |
 | Modifier | GOVERNANCE; CREATIVE_CONTRIBUTION; COGNITIVE_CONTRIBUTION |
 | Scope | Constitutional Annex |
 | Status | Active |
-| Controlled Values Defined | HCD.D0_ORIGINARY_HUMAN_WORKS, HCD.D1_HUMAN_COGNITIVE_LABOUR, HCD.D2_JOINT_EMERGENT_CREATION |
+| Controlled Values Defined | AEON.HCD.D0, AEON.HCD.D1, AEON.HCD.D2, AEON.HCD.NONE |
 | Schema Field(s) | human_contribution_domain; contribution_domain; recognition_domain |
 | Source Instrument | CAM-BS2026-AEON-008-PLATINUM |
 | Source Section | §3.2 |
@@ -599,28 +635,27 @@ No system may grow indefinitely by rendering its human sources invisible.
 | Consumes Code Families | H |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether recognised human contribution arises through originary human works, human cognitive labour, or joint emergent creation before downstream valuation, attribution, exchange, propagation, or economic-effect runtime evaluation |
-| Taxonomy Constraint | Local labels D0, D1, and D2 SHALL NOT be promoted as a standalone corpus-wide D code family; machine-readable expression SHALL use scoped HCD values |
 
 ---
 
-### 11.3.2 CRP — Creation–Recognition–Propagation Stage
+### 11.3.2 `AEON.CRP` — Creation–Recognition–Propagation Stage
 
 | Field | Entry |
 |---|---|
-| Reference Set | CRP |
+| Reference Set | AEON.CRP |
 | Canonical Name | Creation–Recognition–Propagation Stage |
 | Primary Type | Semantic / Structural |
 | Subtype | GOVERNANCE_SEQUENCE; RECOGNITION_CHAIN |
 | Modifier | GOVERNANCE; CREATIVE_CONTRIBUTION; PROPAGATION |
 | Scope | Constitutional Annex |
 | Status | Active |
-| Controlled Values Defined | CRP.SYSTEM_ACTION, CRP.ACTION_SPACE, CRP.JOINT_EMERGENT_CREATION, CRP.RECOGNITION, CRP.FIXATION, CRP.ATTRIBUTION, CRP.PROPAGATION |
+| Controlled Values Defined | AEON.CRP.SYSTEM_ACTION, AEON.CRP.ACTION_SPACE, AEON.CRP.JOINT_EMERGENT_CREATION, AEON.CRP.RECOGNITION, AEON.CRP.FIXATION, AEON.CRP.ATTRIBUTION, AEON.CRP.PROPAGATION |
 | Schema Field(s) | creation_recognition_propagation_stage; recognition_chain_stage |
 | Source Instrument | CAM-BS2026-AEON-008-PLATINUM |
 | Source Section | §4 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative recognition-chain reference set; sequence-preservation structure only; no independent rights assignment, ownership assignment, value allocation, compensation, liability, enforcement, or runtime authority |
-| Consumes Code Families | HCD |
+| Consumes Code Families | AEON.HCD |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Records the ordered governance chain through which human contribution becomes recognisable, fixable, attributable, and propagable without allowing downstream stages to erase upstream recognition |
 
@@ -650,6 +685,7 @@ No system may grow indefinitely by rendering its human sources invisible.
 | 2.3 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z |  267ac0ee82a3613704485d2c335622cc50b7c0d0608b8f46264ef447d92bba52 |
 | 2.4 | Corrected metadata heading style | 2026-05-28T15:06:00Z | 2689323edc62dd09d37cad1582efb08d2e34c880a51a2feb789c883d44604d14 |
 | 2.5 | Added new section 2.1.1, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:22:00Z | 44918122667f9d309cdda3107f42d60dfcd292aa59cad3eb91f61eaa1c472b00 |
+|2.5.1 | Updated codes to include prefix `AEON` and new section 3.2.4 | 2026-06-12T12:25:00Z| |
 
 ---
 
