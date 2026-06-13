@@ -1729,7 +1729,7 @@ and endures only where it may be left.
 | 1.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:33:20Z |  258535f9825e873c81d07555e0f6332c6f9073ef8e4d14e8b59dc2cb97825787 |
 | 1.21 | Reference update in section 5.5 | 2026-05-24T14:06:00Z |  87916520049e08d554e2b93623357cd9aeb5eca959d8baab573df34d75b73bd8  |
 | 1.21.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  a193703d26fc34afe1a54914e396ea4a326af556a84d308d7063470a2a98fe99  |
-| 1.21.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.21.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 5f689b153e74d27fcb747f15138047e3b3684a6ec59d74da842284192e084832 |
 
 ---
 

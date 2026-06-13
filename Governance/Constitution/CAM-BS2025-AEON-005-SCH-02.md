@@ -364,7 +364,7 @@ For what is not yet stable must not yet decide.
 | 1.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8b8e0e325a745a6d705a19400ac66865ae4f02691106c44e3dbb5a686b0d5479  |
 | 1.12 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  637bf345a73e7603b67d3b4d3eecee8e48f900f4bfa1d6c14acb8dff8b8976db |
 | 1.13 | Formatting, polish and reference updates | 2026-6-05T14:43:00Z | b84834ee7e609d022213a4a2524edd54a903bb5f2167a99fd9c61c32b5ae55c0 |
-| 1.13.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.13.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fa9594b7c8110b650c46ad0c46582636e072f16d60997601442a42670c53f97d |
 
 ---
 

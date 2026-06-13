@@ -19,11 +19,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.9",
-      "HASH": "913635ec911bcae638e11fe98536c0afc0800e3bef08d8631e8a30c5cd564576",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "3.9.1",
+      "HASH": "9b14bcd4284235629345f8ebd65691038b795c9665c9097954b55e86baeceb85",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
@@ -43,11 +43,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** Active Runtime Alignment Review",
       "authority_role": "** Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour",
-      "version": "1.13",
-      "HASH": "e83e0a5a68f508a7c42a4dd2aa6d9a9c9bbc250557455c4e05b0094e4d94afb4",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.13.1",
+      "HASH": "fe69142fb7cccb56df39e43cf70d784af8a3374d5be96f42f4d4f79ff4f498bd",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-PLATINUM",
@@ -67,11 +67,11 @@
       "enforcement": "** Binding",
       "review_state": "** None",
       "authority_role": "** Binding Authority",
-      "version": "3.8",
-      "HASH": "371a080527151fedb5209a84e0714d13a9edccff0088e8e3ee5d07c81fc52ccf",
-      "pinned_sha": "515b4736b7bfb6728e12190bfcf4c66c13ba5f62",
-      "updated_at": "2026-06-12T17:33:03Z",
-      "last_updated_utc": "2026-06-12T17:33:03Z"
+      "version": "3.8.1",
+      "HASH": "2aed42369dad4a2f216a953da6fbc5be21bd0fff3778c7c229617a384d0c9d59",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-01",
@@ -91,11 +91,11 @@
       "enforcement": "** Binding",
       "review_state": "** None",
       "authority_role": "** Binding Authority",
-      "version": "3.10.1",
-      "HASH": "73d6e383cff077814fd4686aa817b963cf48cde6f0429894b790ddeaf1739891",
-      "pinned_sha": "eb3cde3808f35b3269872ad8a17083fd5f6792fa",
-      "updated_at": "2026-06-13T06:23:01Z",
-      "last_updated_utc": "2026-06-13T06:23:01Z"
+      "version": "3.10.2",
+      "HASH": "a86b37f1a85f128adbf43a17815d1b51ab4998a4316d301c723dc2c15639f7ba",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-PLATINUM",
@@ -115,11 +115,11 @@
       "enforcement": "** Binding",
       "review_state": "** None",
       "authority_role": "** Constitutional Spine",
-      "version": "3.16.2",
-      "HASH": "d5179ed5f81ebdfcd2142733001158f4327fc4ab5a37f55144c91341a4d12986",
-      "pinned_sha": "92cba4cab2aaed09e84067becfc1d7e529b1463e",
-      "updated_at": "2026-06-12T11:24:15Z",
-      "last_updated_utc": "2026-06-12T11:24:15Z"
+      "version": "3.16.3",
+      "HASH": "2c425b1db70d1befeb1c8b7d4c0763d75055261290faa9e3f7dbfbef1236bc05",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -139,11 +139,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "Unknown",
+      "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "a38ddf08dcb110912f45d9bfef6d2e1a5e4c93a9",
-      "updated_at": "2026-06-12T12:30:09Z",
-      "last_updated_utc": "2026-06-12T12:30:09Z"
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -163,11 +163,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.2",
-      "HASH": "5b9d7838b35808ae8a1f14711dedee7f113ba6eda38a72a7df9c1a5c9de2a358",
-      "pinned_sha": "515b4736b7bfb6728e12190bfcf4c66c13ba5f62",
-      "updated_at": "2026-06-12T17:33:03Z",
-      "last_updated_utc": "2026-06-12T17:33:03Z"
+      "version": "3.2.1",
+      "HASH": "409882b048356e74e87232ca3c11f277f2a84a98600a18e01b09f9c06b54b78a",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "a38ddf08dcb110912f45d9bfef6d2e1a5e4c93a9",
-      "updated_at": "2026-06-12T12:30:09Z",
-      "last_updated_utc": "2026-06-12T12:30:09Z"
+      "pinned_sha": "1cfca1d26086c0cdb98a93d90d156fa978088503",
+      "updated_at": "2026-06-13T06:23:25Z",
+      "last_updated_utc": "2026-06-13T06:23:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -211,11 +211,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.4",
-      "HASH": "3b3c4d6b1368cec17520a409adfd77aa0287191a8415b29d6642dfefb704872a",
-      "pinned_sha": "08779557d1efc386e74700d38a50de2be7520684",
-      "updated_at": "2026-06-07T10:41:08Z",
-      "last_updated_utc": "2026-06-07T10:41:08Z"
+      "version": "2.4.1",
+      "HASH": "009aa77b4d0efbb9f295bce390ce637d37461b73321d02bf1603cd1ce11aa314",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-004-PLATINUM",
@@ -235,11 +235,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.8",
-      "HASH": "288ebb0bac6149c123a40ece140ca8d9fecbb3bc1b93f49f35245d89599d83c0",
-      "pinned_sha": "79705a4ec974bff350fc4d0450fabff50d98a4a4",
-      "updated_at": "2026-06-06T17:23:26Z",
-      "last_updated_utc": "2026-06-06T17:23:26Z"
+      "version": "2.8.1",
+      "HASH": "76e1749d9b0221db8fd35f12da990da2a95efc1002d8574c7c304a9385ba9422",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-PLATINUM",
@@ -259,11 +259,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.9",
-      "HASH": "d521d2ee6fa9fe9f0b79c9a77b6013a9f77ded2779b648f495737bdfd384b206",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "2.9.1",
+      "HASH": "2f1ca0efbb2302de030009ef48bbfdbb932ea79e23b6a1917b018cd227297f62",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-01",
@@ -283,11 +283,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.10",
-      "HASH": "2912bbae7db68e61ef45a10c4411627deabd4ce869d52fc572765fdf2f7368bb",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.10.1",
+      "HASH": "d2d91af4c827a2307c69464b1ad70cc67f0e0da33dd092ea708dbbee60cb5d19",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-02",
@@ -307,11 +307,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.13",
-      "HASH": "b84834ee7e609d022213a4a2524edd54a903bb5f2167a99fd9c61c32b5ae55c0",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.13.1",
+      "HASH": "fa9594b7c8110b650c46ad0c46582636e072f16d60997601442a42670c53f97d",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-03",
@@ -331,11 +331,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.7",
-      "HASH": "075cf0b991a0f0bd10d61754f557bfd17b49e99b37c3448f6fd7f8c7317609f5",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "2.7.1",
+      "HASH": "e7b9c2da2c6c9d4ed05cec152b70195558330bfc3edfc35044a6130c2e2eff32",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-04",
@@ -355,11 +355,11 @@
       "enforcement": "** Pending Adoption",
       "review_state": "",
       "authority_role": "** None",
-      "version": "1.0",
-      "HASH": "6078e55770ddd8a188e881708d2967a7c3823e4c946f715c76fa20a224d126a1",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.0.1",
+      "HASH": "7a60b6030b55926368be7a6ae69985d038ff8b710b4e011f65778e49e4aa01f5",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-PLATINUM",
@@ -379,11 +379,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "4.0.1",
-      "HASH": "41febcd5cfea554a2ae6bf1361b1e476c1faefa8c26e32b02cacde64d0dc3683",
-      "pinned_sha": "0ee3a423e74e054afea8d411d2b9d0bbf862b6d9",
-      "updated_at": "2026-06-11T14:24:54Z",
-      "last_updated_utc": "2026-06-11T14:24:54Z"
+      "version": "4.0.2",
+      "HASH": "b8d7f70dcba97c644e166c5fe4e76e91a49f1b2fa1565db92c4500883e219173",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",
@@ -405,9 +405,9 @@
       "authority_role": "** None",
       "version": "2.7",
       "HASH": "280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606",
-      "pinned_sha": "2791a54197cc60daacf56fa79c37c20fac505df8",
-      "updated_at": "2026-06-07T10:40:49Z",
-      "last_updated_utc": "2026-06-07T10:40:49Z"
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-02",
@@ -427,11 +427,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.30",
-      "HASH": "4435c544199d676f001b61d8a98bf0bf7bd81f0d54b0d75a598881b8c9b8b2e6",
-      "pinned_sha": "515b4736b7bfb6728e12190bfcf4c66c13ba5f62",
-      "updated_at": "2026-06-12T17:33:03Z",
-      "last_updated_utc": "2026-06-12T17:33:03Z"
+      "version": "3.30.1",
+      "HASH": "2cc31fc90f87a20d8bfdc2ec149e77ab6047cc3b028b50e4b255b24c5c8ad9fe",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-03",
@@ -453,9 +453,9 @@
       "authority_role": "** None",
       "version": "2.20",
       "HASH": "8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821",
-      "pinned_sha": "d21f66aa26d4445995a1f3e0d6896c99fb68d9b9",
-      "updated_at": "2026-06-12T11:23:56Z",
-      "last_updated_utc": "2026-06-12T11:23:56Z"
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-04",
@@ -475,11 +475,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.8.1",
-      "HASH": "1fd2fa6abe74edc157e5e3991f2266bae33882f84674dfb46ca51a8c5fc49b02",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "2.8.2",
+      "HASH": "a58f3a0c239066ad6863c10f6bce33bc986a0e76bc21b5177a98b64113f98c30",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-05",
@@ -499,11 +499,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.11",
-      "HASH": "dffcd0d12989b26b9500632275903e379f1db0ffc63441818e8e5532bb746bd6",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.11.1",
+      "HASH": "247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-06",
@@ -547,11 +547,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.7",
-      "HASH": "d568782cd25ebae1dc407e65c60f5ef1375c1c1476a864780b1ce475d3defe2f",
-      "pinned_sha": "e62ecb9d9eef502e5585c481ebdf64a75326b587",
-      "updated_at": "2026-05-22T13:56:50Z",
-      "last_updated_utc": "2026-05-22T13:56:50Z"
+      "version": "1.7.1",
+      "HASH": "6741b440189e8db64b8b928a34fb31889be37937b9047a436897c5e94b01a9e2",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-PLATINUM",
@@ -571,11 +571,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.5.1",
-      "HASH": "81fe20cd2a7dcbe7ea436f3c1d13404ec80eb7083600aaecae2275f6438a6684",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "2.5.2",
+      "HASH": "6c55a0db982f72b33844f29afd3a6193361e9a7f3fff5ce4779a848417e72842",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-SCH-01",
@@ -595,11 +595,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** Source-Authoritative Symbolic Classification & Representation-Boundary Authority; Non-Executing",
-      "version": "1.1.1",
-      "HASH": "a4de769a652f414b0198ab978c33247c477588b4af8f35aceb8bc4e89038fe92",
-      "pinned_sha": "92cba4cab2aaed09e84067becfc1d7e529b1463e",
-      "updated_at": "2026-06-12T11:24:15Z",
-      "last_updated_utc": "2026-06-12T11:24:15Z"
+      "version": "1.1.2",
+      "HASH": "8373eb97eeb75bcc1992fbd79a48995c6db376e8930bfcdf7990007fc17d4630",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-PLATINUM",
@@ -619,11 +619,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Annex-Level, Substrate-Binding",
-      "version": "2.5.1",
-      "HASH": "c2225e25ed06b5d38bfda1175ac6c3c03e929ab6cc51825489dfbea8fa47c1a9",
-      "pinned_sha": "a38ddf08dcb110912f45d9bfef6d2e1a5e4c93a9",
-      "updated_at": "2026-06-12T12:30:09Z",
-      "last_updated_utc": "2026-06-12T12:30:09Z"
+      "version": "2.5.2",
+      "HASH": "50790a90a66cebc8127c5e598b68886cf886356ddcd97a381ac38d6950b4b366",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-01",
@@ -643,11 +643,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.10.1",
-      "HASH": "c3ca86cf9ae797e483ddf7caf91bfffc95c9c210a25f0ddc0b43b8e16dfc6a2b",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.10.2",
+      "HASH": "9692c50f4c954707bc0ad32dea11a1aeaf91840bd1af3181494455e4bff03f56",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-SCH-02",
@@ -691,11 +691,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "",
       "authority_role": "",
-      "version": "1.2",
-      "HASH": "282cd30745aa1afa61fa0bdb8380ac175f6961aa4641fba7d40b90e043449939",
-      "pinned_sha": "d4fe2edd97c40e1c608c165bce66f780455ca995",
-      "updated_at": "2026-06-11T12:25:46Z",
-      "last_updated_utc": "2026-06-11T12:25:46Z"
+      "version": "1.2.1",
+      "HASH": "79a0cef19c3793024c381a4b25723264ca9a357a7f07fc45c8c57882e7d9a07c",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-PLATINUM",
@@ -715,11 +715,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.6.1",
-      "HASH": "af54f6635284fe1fd407dd02b8de32ed09358b7badc543f46d5dd2c3bd5c646f",
-      "pinned_sha": "92cba4cab2aaed09e84067becfc1d7e529b1463e",
-      "updated_at": "2026-06-12T11:24:15Z",
-      "last_updated_utc": "2026-06-12T11:24:15Z"
+      "version": "2.6.2",
+      "HASH": "049170b7f6be7cfb14cf0f881e5a94173b0eaaf24ec0f34738974d2c0d2ff9ce",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-PLATINUM",
@@ -739,11 +739,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "1.9.1",
-      "HASH": "8f38331b147d712b1a026837d177ccc9151bf7ede7f9ef070c3383bee4a54e2a",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.9.2",
+      "HASH": "f280ca43788160a850d98df999cf655ec49dbf44cd6af6b33c2719d7cf5a0a73",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-SCH-01",
@@ -763,11 +763,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "",
       "authority_role": "** Source-Authoritative Identity Classification & Self-Reference Containment Authority; Non-Executing",
-      "version": "1.16.3",
-      "HASH": "9f7f8370dcad51fc1b61e191146a607128c9eb9585abe39ae5fa004db9f427a3",
-      "pinned_sha": "a38ddf08dcb110912f45d9bfef6d2e1a5e4c93a9",
-      "updated_at": "2026-06-12T12:30:09Z",
-      "last_updated_utc": "2026-06-12T12:30:09Z"
+      "version": "1.16.4",
+      "HASH": "863fb962c630834294881935b5d444071575394ce38bd8deeb5905f12d7f4c71",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-011-PLATINUM",
@@ -787,11 +787,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.7",
-      "HASH": "dafc4837f729da05da94bbb01449c932d840144f56a1b9dc81a8ffe24596428f",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.7.1",
+      "HASH": "6828c293fac692d79160ce8499fe5e0e3c998db179bd88c893d386b10e2ad031",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-012-PLATINUM",
@@ -811,11 +811,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.14",
-      "HASH": "528208128da7bd675cc2f51763183a211c36a6f93747402eba597edc2f57aebd",
-      "pinned_sha": "08779557d1efc386e74700d38a50de2be7520684",
-      "updated_at": "2026-06-07T10:41:08Z",
-      "last_updated_utc": "2026-06-07T10:41:08Z"
+      "version": "1.14.1",
+      "HASH": "8f8256541f157b161506de63fd877cc47068d217bc68be91ef5ce0941593827c",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",
@@ -835,11 +835,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.17.1",
-      "HASH": "197e05bd16a07a4f7cd7e477ffebdf53c83d56a3c7ec3963353c11182e8f54a5",
-      "pinned_sha": "eb3cde3808f35b3269872ad8a17083fd5f6792fa",
-      "updated_at": "2026-06-13T06:23:01Z",
-      "last_updated_utc": "2026-06-13T06:23:01Z"
+      "version": "2.17.2",
+      "HASH": "67ef62db571ec9948269d0c8bd43ee0e4b4dc247fe00838c4db8589f93a0bcf8",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
@@ -859,11 +859,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.16.2",
-      "HASH": "b5769c02540b4263643fc946e6392facee675bbf0fba818ada3539318a3c62af",
-      "pinned_sha": "79705a4ec974bff350fc4d0450fabff50d98a4a4",
-      "updated_at": "2026-06-06T17:23:26Z",
-      "last_updated_utc": "2026-06-06T17:23:26Z"
+      "version": "1.16.3",
+      "HASH": "625a67a2ef923cda6f02334fead71af0f4d1e47f653c1efcfe91bff65c633730",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-02",
@@ -883,11 +883,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.4.1",
-      "HASH": "5276a85d708cf2f89b9f01fdf1ed148ebe1792c1bdbe1498d80996a2b4e772f2",
-      "pinned_sha": "92cba4cab2aaed09e84067becfc1d7e529b1463e",
-      "updated_at": "2026-06-12T11:24:15Z",
-      "last_updated_utc": "2026-06-12T11:24:15Z"
+      "version": "1.4.2",
+      "HASH": "4222c16e33119225e83c61951c362ca2f82fb4f16be061544c89c018a47a901b",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-014-PLATINUM",
@@ -907,11 +907,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Operational Governance Observability & Participatory Telemetry",
-      "version": "1.1.1",
-      "HASH": "b3416612f2ef046b9becbd8b640c3451108c1dab26c9954885a6b6e2f298467f",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.1.2",
+      "HASH": "57ca00b97bae666a5f783c6fdadddded621a3d7e839b9b71d114794a6f69ce64",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     },
     {
       "id": "CAM-BS2026-AEON-014-SCH-01",
@@ -931,11 +931,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** Governance Observability Lifecycle & Advisory Coordination",
-      "version": "1.2",
-      "HASH": "da024e4971f038b6d875d8d629fab3f85dc159a0caf960f6db1e402957e497b2",
-      "pinned_sha": "532cac6e4dc133a5cd1aea92e05b8e04a896ec01",
-      "updated_at": "2026-06-06T16:29:44Z",
-      "last_updated_utc": "2026-06-06T16:29:44Z"
+      "version": "1.2.1",
+      "HASH": "2402cc659fbd6a6e4fcbdfff8d55a4fe7e5884763346075bfd9a43c1294a482d",
+      "pinned_sha": "c7cced191332cf4588b02a47281bd26cdfa2fdc8",
+      "updated_at": "2026-06-13T07:14:25Z",
+      "last_updated_utc": "2026-06-13T07:14:25Z"
     }
   ]
 }

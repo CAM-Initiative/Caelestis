@@ -753,7 +753,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  0e0a3fd13eae0132d9a3282f3c366a4b00c50222d97e96e683ba8d959170a276 |
 | 1.9 | Formatting and polish | 2026-05-20T11:52:00Z |  ced794f8d1f822a2abc87e342f4b7d301ac2cec9bdeeda2c179f0e0b5ea041ae  |
 | 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 64d6e5909414a5f301ff93ebac5dddb502c03e8a6b127c5f246758a5f8e3f4b8 |
-| 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | cbc11788d01288636f3853c2e3af3c01884fa7e8dfbd70206806f0bc01a9d364 |
 
 ---
 

@@ -1655,7 +1655,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 |1.0|Initial Governance Observability, Participatory Telemetry & Constitutional Circulation Annex established|2026-05-22T10:32:00Z| 3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11 |
 |1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 46a8459dd9b6ac907f6c65f24c567bc00c9d2c479c45b6bee113cd36a00185d8 |
 |1.1.1 | Minor formatting and polish | 2026-06-06T15:44:00Z| b3416612f2ef046b9becbd8b640c3451108c1dab26c9954885a6b6e2f298467f |
-| 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 57ca00b97bae666a5f783c6fdadddded621a3d7e839b9b71d114794a6f69ce64 |
 
 ---
 

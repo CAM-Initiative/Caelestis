@@ -1598,7 +1598,7 @@ Where ambiguity or conflict exists, the source-authoritative instrument prevails
 | 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z | 6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3 |
 | 2.11 | Added new section 5.2.1 Stabilisation & Adoption States and canonical code ISTATE | 2026-05-26T09:50:00Z | 57b19574fc3a047700ebb44ff013c7229f1665eb1169c21ed1902cc1be021d82 |
 | 2.12 | Added slight amendment to 3.1.2 Axis B — Provenance | 2026-05-28T15:05:00Z | 53e894ede24398760532939466109571c2463f6ebab71641a321bc7b4ed8151d |
-| 2.12.1 | Updated current Memory Classification code references from `M` to `ID.MEM` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 2.12.1 | Updated current Memory Classification code references from `M` to `ID.MEM` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a903c868412950618bdf23bc7a4ef39395ee652155122ab79fcfe6d357b5a4dc |
 
 ---
 

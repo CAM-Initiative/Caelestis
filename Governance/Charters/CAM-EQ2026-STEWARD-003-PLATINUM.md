@@ -852,7 +852,7 @@ It ends.
 | 1.9 | Added Canonical Code & Reference Set Declarations | 2026-05-20T13:09:00Z |  42cbcfca61d00fb6e3ccc6f3c307139ac524ed7c2d324755b91524f17adb3ec0  |
 | 2.0 | Consolidated STEWARD-003-SUP-01 into PLATINUM as single authoritative source; integrated Architectum qualification gates/index bands and unified canonical-family declarations and references. | 2026-05-27T00:00:00Z |  74c39824d0c40de64fc7033c96bfbc534d019d9662744ed17ed0f785a90a9405  |
 | 2.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  bb79988a93d7a07026e950df458a56af0a40c9804cae7e3cf84190ac13c2247d  |
-| 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f9f2f654d319806220e6fd82eed4779a0895fa30e8409d83edd90b4f1afb8782 |
 ---
 ## 23.6 Binding Seal
 

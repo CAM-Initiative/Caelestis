@@ -735,7 +735,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  8e563a61ae0f829b25ae1ef30f638e6ae0b23ccadcddf76d0b7f225e5da9db66 |
 | 1.8 | Added minor-signal runtime activation, high-risk AI companion boundary, minor-safe sexual-boundary, child-safe AI/non-human disclosure, teen mental-health non-substitution, and self-attestation insufficiency controls in response to VIGIL-2026-FM-0010 through VIGIL-2026-FM-0015. | 2026-06-09T14:15:00Z |  dfb5139601d459be6c390660e1d77091173f16bd324244c3d1d51ea347acc783  |
 | 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 0042dd0f42a5b458b97a0d70d66cdbe6f37c04f398864ad030ee29828b2afbba |
-| 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 05690867a7d51996d98b6c39577393b100eb23f583fb47a79cf5546bde72bfe0 |
 
 ---
 

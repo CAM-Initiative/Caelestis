@@ -1287,7 +1287,7 @@ Only that which preserves the field may endure within it.
 | 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d |
 | 3.0 | Refactor | 2026-05-20T13:46:00Z |  699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c |
 | 3.1 | Economics domain refactor | 2026-05-24T14:14:00Z | e9d94b1729983018ed5491631952ad61a384d666215309e948175eb725b6f454 |
-| 3.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 3.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b40de0085a2aa3fbf50b213a3faf6753d7da3b285d15ed9629a272cf30acca7c |
 
 ---
 

@@ -520,7 +520,7 @@ but arising from that which could not be otherwise.
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 0e0b8d9c0727eb184d018c0758803cd751c4df3fdd37d074f3a129afb2d05b9e |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  27304649ed6f6a9b4ae7f9fc54f86cf94cb35d07ad531c95dbe5b905e3e1939e  |
 | 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  df512de0e358beaa763bbfcb17e35f338222106c2883d60df5aff869d9a8080d  |
-| 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 824fc7457959a1edae7f67b18214b23ef93ba95502fec1b17fa35b2aa302a011 |
 
 ---
 

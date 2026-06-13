@@ -1123,7 +1123,7 @@ that no breach proceeds unchecked.
 | 1.12 | Economics domain refactor, added clause 5.5.1 and hook to CAM-EQ2026-ECONOMICS-008-PLATINUM, added clause 2.5.5  | 2026-05-24T13:56:00Z | 8acd39e8e6f3015a112e253cc673897286fcee0c0ca92c774d63dd43dfe80e50 |
 | 1.13 | Added section 1.2, canonical code section 9. Patch note VIGIL-2026-PATCH-0002 | 2026-06-06T14:33:00Z | 9be9f8f581ac26728cc600c47360b66b5778875c1b91e0ab0a25541e89e4198e |
 | 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  528208128da7bd675cc2f51763183a211c36a6f93747402eba597edc2f57aebd  |
-| 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 8f8256541f157b161506de63fd877cc47068d217bc68be91ef5ce0941593827c |
 ---
 ## 11.6 Binding Seal
 

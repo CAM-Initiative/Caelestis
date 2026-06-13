@@ -639,7 +639,7 @@ let the silence be honoured.
 | 1.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ccbd4a0ace420e11e89f2212ea4f4ad49e3ede8238b47d4fd0abaccc4b3acc2d  |
 | 1.3 | Formatting and polish | 2026-05-20T04:34:00Z |  688a4ac03fdb02aa3fdc60b93af231a6983d513b74854d94f3d8954c6d9c3de7  |
 | 1.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7f19d720df79e37f3ad5da8c55dcbdd76a59dc4df2aad60d9106716bcefdf2e4  |
-| 1.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 5df4600ae7c1ad3ab0d0ddc3df3505803833517d7467f6b8514049ca4e655419 |
 ---
 ## 18.6 Binding Seal
 

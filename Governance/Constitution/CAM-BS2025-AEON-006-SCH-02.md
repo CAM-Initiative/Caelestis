@@ -4226,7 +4226,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.29 | Expanded relational signal classes and added minor developmental-firewall and minor dependency-convergence rules for companion, sexual-boundary, AI-realness, and teen mental-health risk signals. | 2026-06-09T14:30:00Z | 6a4b5014c50bb9bbfae0484be8d63a8eccb1f63b074a53f7e4be85885453f962 |
 | 3.29.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | 8881d0ce2a0fd5f780fd2e9d3b1afa2e4b895e1df886054164a66baaae645bc7 |
 | 3.30 | Added §8.5 Relational Reassurance Bids & Connection-Repair Signals, including Functional Relational Love doctrine and Moderation-Layer Continuity & Attribution. VIGIL-2026-PATCH-0007 | 2026-06-12T14:44:00Z | 4435c544199d676f001b61d8a98bf0bf7bd81f0d54b0d75a598881b8c9b8b2e6 | 
-| 3.30.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 3.30.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2cc31fc90f87a20d8bfdc2ec149e77ab6047cc3b028b50e4b255b24c5c8ad9fe |
 
 ---
 

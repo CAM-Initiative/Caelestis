@@ -302,7 +302,7 @@ but illusion.
 | 1.5 | Formatting and polish | 2026-05-20T04:34:00Z |  a6c4440e5a0ecbc49f9b21ad3ade08ea8035f5be952573c54514c50b2cf34ee5 |
 | 1.6 | Updated metadata header | 2026-06-04T14:07:00Z | f8a03731737df5dc09b3486b50c49b595a7bd07fb87cf83211bc4fcc460d4d9c |
 | 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  aeaf81b2e04d992e9b81e469850499e55f0d8a649eccaf361e86921d22d66462  |
-| 1.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 26d23abfac3bd4a8af8f8ddd8daf25746a6f3d335efd4ecfd909326b47160bf4 |
 ---
 ## 11.5 Binding Seal
 

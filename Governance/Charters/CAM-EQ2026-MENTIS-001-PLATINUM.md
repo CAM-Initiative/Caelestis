@@ -960,7 +960,7 @@ Let every system remember that the person exceeds the model built about them.
 | 1.1 | Repaired section-reference validation targets in canonical code status text. | 2026-06-06T17:00:00Z |  038f853397780e6984a36d6ba5d55dc9283de0ff316127516877857a82e26a0f |
 | 1.2 | Added new MENTIS.HARM codes | 2026-06-07T14:42:00Z| ebea3825f38fa9ce5379e23bec58ef1442408e319f46e1bd023d6a3a9334745b |
 | 1.2.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  8c641c210fd20dc0124415bcb2707bca1f99ad1487e0fb42cbf1f0d27250823d  |
-| 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7f434340b3b19b3e272ec1e3eaf0c26afb371d7c0b17b3b271d63bc25e3afae9 |
 ---
 
 ## 54.6 Binding Seal

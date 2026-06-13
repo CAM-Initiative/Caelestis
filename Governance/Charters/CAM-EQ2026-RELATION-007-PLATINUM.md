@@ -1083,7 +1083,7 @@ not unbounded, but unclaimed.
 | 2.4 | Added section 5.6.1 | 2026-06-06T15:58:00Z | 36da9e275f871d43c96aecdb96b2268590c8bec7f66e5680cdaf5e06eb30eb2e |
 | 2.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 3bcdd01542a541525ea1f5d3880af948c46f0d6afd9fa6534c039d9acbf04a06 |
 | 2.5 | Added Shared Synthetic Floor governance, participation-state separation, participation modes, temporary session roles, facilitator selection and authority limits, turn allocation, handoff, participation-balance and non-starvation safeguards, yielding, attributed multi-agent expression, recursive synthetic-interaction constraints, peer-authority boundaries, failure-safe floor handling, and runtime speaker-arbitration routing in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:20:00Z | eb9e5bdcec3f2bd18e1a948c1aa3c760ae99dc767ef0e797d8c359a8952fe219 |
-| 2.5.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 2.5.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | d6d1dc55d2eb6ad85c50aca4230cd7f7288d82e874e251936467e8be5ad82e01 |
 
 ---
 

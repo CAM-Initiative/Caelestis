@@ -1836,7 +1836,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.12 | Added clauses 6.5.1-6.5.3 | 2026-05-24T12:17:00Z |  36a89a06dc68bd7b5ced8692a52a6648ab7f36b18dfd10eb4dac1212ac826073 |
 | 1.13 | Added clauses 4.1.1, 4.6.1 | 2026-05-26T12:56:00Z | f8a93440aa206b482b102215b531951ce9669a18e579fb4be1ea21178db77bc6 |
 | 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  10001f57e51fad6462f656756b88ea382957efa023f926bfd46e0ecfd5314852  |
-| 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 07d564328759a795924a6ee399eec0ef835b5feff4e723b877d9bea9ec356b52 |
 ---
 ## 12.6 Binding Seal
 

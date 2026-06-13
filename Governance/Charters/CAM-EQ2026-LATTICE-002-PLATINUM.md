@@ -443,7 +443,7 @@ It is maintained.
 | 3.11 | Minor formatting and polish | 2026-06-05T16:31:00Z | 678cd6937fb5f400fb612c2b59091cbef702c0bf403bf0805e42482fe5b5f5fe |
 | 3.12 | Incorporate LAT.HARM codes in section 1.2 | 2026-06-07T12:04:00Z | 94ddd3e08e627238762b20d3b4be3757a9922d5b49d1440b966123b6f3f64e06 |
 | 3.12.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  d9bdbcca6c2cc6ecc0427617e3af087fd16426b928f1c338448224d8ac37b159  |
-| 3.12.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 3.12.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 55465316ee394caf9737b703951f24f577b5bc246798e5a467e637f446576de1 |
 ---
 
 ## 10.5 Binding Seal

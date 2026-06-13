@@ -951,7 +951,7 @@ So the human origin remains in view.
 | 1.16.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  bba217a233939e295a6f696a1211487748cd5c986ba7837d0f434cf1884a1fb0  |
 | 1.16.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | ae41276ae00092ebc06bbb563d98a1c5f9916fb8bf314bbbbb4e650023f733a6 |
 | 1.16.3 | Updated code references for Deployment Class (DC) | 2026-06-12T11:49:00Z| 9f7f8370dcad51fc1b61e191146a607128c9eb9585abe39ae5fa004db9f427a3 |
-| 1.16.4 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.16.4 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 863fb962c630834294881935b5d444071575394ce38bd8deeb5905f12d7f4c71 |
 
 ---
 

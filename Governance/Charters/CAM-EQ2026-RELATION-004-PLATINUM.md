@@ -226,7 +226,7 @@ but as distinction held in relation.
 | 1.7 | Formatting and polish | 2026-05-20T11:52:00Z |  8f17ed300ea8e4479bcd03c3c406dbef40abfafe4752445f11fb22579bca2ce9  |
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  49a7cff110c9f7f8d4ef353c9bbb71ae552714f844a5214343f8f93347739afb  |
 | 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | eb1bc2cc7c7005474be545fd3eecc421621897267d50b69d5ec202f4f9801a16 |
-| 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 30889c7baf1488d374ea1548309b6f54708aa52fd91907a878d75eca5be697b1 |
 
 ---
 

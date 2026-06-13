@@ -649,7 +649,7 @@ But as stewardship of consequence.
 | 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z | d9db19487b333732fc769f6499218a13221d0a41e0784b7e5c26fda78164524d |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  adfdc7c250df731dd567fdd3e94142ef60d29d789f3d886d5981729c10d97eb1  |
 | 1.7 | Added Canonical Code & Reference Set Declarations | 2026-05-19T12:41:00Z |  d568782cd25ebae1dc407e65c60f5ef1375c1c1476a864780b1ce475d3defe2f  |
-| 1.7.1 | Updated Restricted Domain Engagement code references from `RDE-DS` / `RDE-T` to `AEON.RDE-DS` / `AEON.RDE-T` and harmonised affected declarations, crosswalks, schema bindings, and consumers without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.7.1 | Updated Restricted Domain Engagement code references from `RDE-DS` / `RDE-T` to `AEON.RDE-DS` / `AEON.RDE-T` and harmonised affected declarations, crosswalks, schema bindings, and consumers without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6741b440189e8db64b8b928a34fb31889be37937b9047a436897c5e94b01a9e2 |
 
 ---
 

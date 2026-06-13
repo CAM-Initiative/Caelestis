@@ -616,7 +616,7 @@ that no trajectory beyond the line proceeds unchecked.
 | 3.9 | Added new section 13 and section 15.3 | 2026-06-04T14:58:00Z | 6d63d7aa06f4bebdaacb4848a3bd1ed72d33942b727b81ef9ca31c2fcc27a411 |
 | 3.10 | Repaired section-reference validation target for canonical code declarations. | 2026-06-06T17:00:00Z |  720063a75c2e2ab35086b238f6d41d9c6dcb629c35975a025bbcc4db7fc2089a |
 | 3.10.1 | Integrated `AEON.PCO` as the constitutional proportional-constraint obligation governing `AEON.RL` interpretation, `AEON.PCA` response selection, containment scope, constraint duration, review, de-escalation, and restoration; preserved Annex A source authority and existing mandatory protection thresholds. | 2026-06-13T06:16:00Z | 73d6e383cff077814fd4686aa817b963cf48cde6f0429894b790ddeaf1739891 |
-| 3.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 3.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a86b37f1a85f128adbf43a17815d1b51ab4998a4316d301c723dc2c15639f7ba |
 
 ---
 

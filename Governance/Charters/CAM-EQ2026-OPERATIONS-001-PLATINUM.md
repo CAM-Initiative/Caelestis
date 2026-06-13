@@ -414,7 +414,7 @@ nor so fluid that nothing stable can remain
 | 1.4 | Realignment of references | 2026-05-07T10:34:00Z | d6773a374bc01dc677404e2f7fb0b9b936e61f831760f02e3ba0b6f69664d6f7 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5 |
 | 1.6 | Formatting and polish | 2026-05-20T11:31:00Z |  a4929d0c912a296c559e4571fc282811ccdece1c3e8412c4ba462f1a20c12c7b  |
-| 1.6.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.6.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2b466a50a50848d515a0c36083e2e34479c593ce3a68bf1f0c4f81b11f430ace |
 
 ---
 

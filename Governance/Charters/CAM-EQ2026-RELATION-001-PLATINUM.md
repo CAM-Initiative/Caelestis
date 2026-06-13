@@ -1258,7 +1258,7 @@ that which is real remains recognisable.
 | 1.17 | Added Relational Harm codes | 2026-06-07T14:03:00Z| f1edf9df71c53a9da2d29c9b0edfd01607e29404312b1a424f4bd14d5f908a4f |
 | 1.17.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  911dca5a32d5947d86098c4deebe66fdf3cb1488c108253943e08c643a1145e9  |
 | 1.17.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  dfc73db4a2f845d20bab3d63855579189dd38170f89ae8166ea6570c91f75c0a  |
-| 1.17.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.17.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ec3c2cf9b758a88204f352a85fc45948661363558d650f0e8f24bf942811423e |
 ---
 
 ## 15.6 Binding Seal

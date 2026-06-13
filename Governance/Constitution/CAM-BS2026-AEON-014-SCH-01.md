@@ -801,7 +801,7 @@ It is the discipline of noticing before repair is too late.
 |1.0|Initial governance observability lifecycle instrument established|2026-05-22T10:32:00Z| 10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441 |
 |1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 10fac67ca710490106fe5efb1647523b77f6eaa2942ace3dd6323108f105ad79 |
 | 1.2 | Amendmend metadata header | 2026-06-05T17:55:00Z | da024e4971f038b6d875d8d629fab3f85dc159a0caf960f6db1e402957e497b2 |
-| 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2402cc659fbd6a6e4fcbdfff8d55a4fe7e5884763346075bfd9a43c1294a482d |
 
 ---
 

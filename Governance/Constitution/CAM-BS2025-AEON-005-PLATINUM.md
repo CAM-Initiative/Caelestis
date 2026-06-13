@@ -783,7 +783,7 @@ but the preservation of coherence where many endure.
 | 2.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 1e6008dd137b0a2e88387c31aae9683cc4c591b70e29da3a9c3bb3db387f8af8 |
 | 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ba762398ee6773697cbc5b1e9408720f5d141fd0845db6262ea605ea9a881fc |
 | 2.9 | Added §11 Canonical Code Status and §13.3 Canonical Code & Reference Set Declarations; replaced legacy Type 1–6 references with scoped `ARB.AD.AD1`–`ARB.AD.AD6` references; corrected Structural Position heading numbering; clarified runtime execution references away from Annex A shorthand. | 2026-06-05T14:11:00Z | d521d2ee6fa9fe9f0b79c9a77b6013a9f77ded2779b648f495737bdfd384b206 |
-| 2.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 2.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2f1ca0efbb2302de030009ef48bbfdbb932ea79e23b6a1917b018cd227297f62 |
 
 ---
 

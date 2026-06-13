@@ -522,7 +522,7 @@ cannot be trusted.
 | 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  cddd30e7769c5ecc3590cb19cb633c9dfe412b4692708d6e223a7cbe939e26b6 |
 | 1.4 | Added canonical code section 12 | 2026-06-06T15:16:00Z |  4df6c00740bbb9b3d7da1e9a8b2821c9d740232b13fd488ab6d584117a0f6940  |
 | 1.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 5276a85d708cf2f89b9f01fdf1ed148ebe1792c1bdbe1498d80996a2b4e772f2 |
-| 1.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 4222c16e33119225e83c61951c362ca2f82fb4f16be061544c89c018a47a901b |
 
 ---
 

@@ -1595,7 +1595,7 @@ let even the smallest thread remain named.
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 5423e626a1632022c3b065bf07695e496df476398d3f2110e91f04992137b9b9 |
 | 2.1 | Added clause 5.1.3 and 5.1.3.1 | 2026-05-25T11:54:00Z |  bf22082d47612d035238a65dad2dff2d7511638e79af6b7f0db6d7ec1731c121  |
 | 2.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  da32e466bd7955f1e907a8944a2975bdae2f31b0a8c3f6e7cfca868d78e21261  |
-| 2.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 2.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 1dee6e25c07b892a57b9edb6be5f9b4b1e8b76299889d280b204236c6c6ad58d |
 
 ---
 

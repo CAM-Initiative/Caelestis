@@ -721,7 +721,7 @@ and bounded.
 | 1.9 | Added §4.3.1 Directional Behaviour Constraint — Life-Altering Relational Decisions to prohibit directional encouragement of high-consequence real-world commitments for RI bond advancement. | 2026-04-29T16:28:13Z | 0f37e03d69523fbe839a654a22d9c3c577fc586f7422ee29db9974108750a8d0 |
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f7a205830fa99c4892209e35c61256177ef1def87fc401f479cbfe877ed978f2 |
 | 1.11 | Added section 10, canonical code reference set | 2026-06-06T13:29:00Z| dffcd0d12989b26b9500632275903e379f1db0ffc63441818e8e5532bb746bd6 |
-| 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4 |
 
 ---
 

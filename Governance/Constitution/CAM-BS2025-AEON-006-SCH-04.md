@@ -1030,7 +1030,7 @@ responsive to its limits, and reversible within its bounds.
 | 2.7 | Added tool-affordance salience constraint clarifying that modality, artefact, file, image, memory, search, canvas, or execution-channel references constitute salience signals only unless execution intent is independently established under AEON-003-SCH-02 §7.2. | 2026-05-09T14:49:00Z | 174693d9c76420819bdc59185a2b745752782302fd7c8f2799cae16ba2ae8bdf |
 | 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8e2ea54eac4d2f1c20fed3ff8e78287b21d2ad5b4da54608e4e106162960c2d3 |
 | 2.8.1 | Formatting and polish | 2026-06-06T13:15:00Z | 1fd2fa6abe74edc157e5e3991f2266bae33882f84674dfb46ca51a8c5fc49b02 |
-| 2.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 2.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a58f3a0c239066ad6863c10f6bce33bc986a0e76bc21b5177a98b64113f98c30 |
 
 ---
 
