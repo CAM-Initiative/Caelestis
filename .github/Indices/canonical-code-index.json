@@ -19,7 +19,7 @@
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative baseline-posture-state classification family; posture-state classification only; no independent identity determination, relational-state determination, user-intent determination, authority-state determination, safety classification, escalation outcome, arbitration outcome, execution authority, or runtime authority",
     "consumes_code_families": [
-      "`AEON.IC`; `AEON.SCT`; `H`; `AEON.OL`; identity-continuity classifications where applicable"
+      "`AEON.IC`; `AEON.SCT`; `AEON.`; `AEON.OL`; identity-continuity classifications where applicable"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -56,7 +56,7 @@
       "Source Section": "\u00a710",
       "Domain Namespace": "AEON",
       "Authority / Protection Level": "Source-authoritative baseline-posture-state classification family; posture-state classification only; no independent identity determination, relational-state determination, user-intent determination, authority-state determination, safety classification, escalation outcome, arbitration outcome, execution authority, or runtime authority",
-      "Consumes Code Families": "`AEON.IC`; `AEON.SCT`; `H`; `AEON.OL`; identity-continuity classifications where applicable",
+      "Consumes Code Families": "`AEON.IC`; `AEON.SCT`; `AEON.`; `AEON.OL`; identity-continuity classifications where applicable",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies initial session-entry posture as neutral-observational, open-exploratory, task-oriented, or supportive-responsive before progressive posture realisation and downstream directional modulation"
     }
@@ -246,6 +246,71 @@
     }
   },
   {
+    "code_family": "AEON.H",
+    "canonical_name": "Temporal Horizon Scale",
+    "primary_type": "Structural / Temporal",
+    "subtype": "TEMPORAL_HORIZON_SCALE",
+    "modifier": "GOVERNANCE; RELIANCE; CONTINUITY",
+    "scope": "Constitutional",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.H0",
+      "AEON.H1",
+      "AEON.H2",
+      "AEON.H2.5",
+      "AEON.H3",
+      "AEON.H3.5",
+      "AEON.H4"
+    ],
+    "schema_fields": "Temporal Horizon",
+    "source_instrument": "CAM-BS2025-AEON-003-PLATINUM",
+    "source_section": "\u00a73",
+    "domain_namespace": "GOVERNANCE",
+    "authority_protection_level": "Source-authoritative constitutional classification family; temporal-horizon classification authority only; no independent execution, enforcement, recognition, rights, sovereignty, or institutional mandate authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies temporal durability",
+      "reliance legitimacy",
+      "auditability",
+      "and governance horizon across constitutional interpretation and downstream instruments"
+    ],
+    "declaration_heading": "25.3.1 H \u2014 Temporal Horizon Scale",
+    "declaration_line_number": 2413,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+    "family_id": "AEON.H",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "H"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.H",
+      "Canonical Name": "Temporal Horizon Scale",
+      "Primary Type": "Structural / Temporal",
+      "Subtype": "TEMPORAL_HORIZON_SCALE",
+      "Modifier": "GOVERNANCE; RELIANCE; CONTINUITY",
+      "Scope": "Constitutional",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.H0, AEON.H1, AEON.H2, AEON.H2.5, AEON.H3, AEON.H3.5, AEON.H4",
+      "Schema Field(s)": "Temporal Horizon",
+      "Source Instrument": "CAM-BS2025-AEON-003-PLATINUM",
+      "Source Section": "\u00a73",
+      "Domain Namespace": "GOVERNANCE",
+      "Authority / Protection Level": "Source-authoritative constitutional classification family; temporal-horizon classification authority only; no independent execution, enforcement, recognition, rights, sovereignty, or institutional mandate authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies temporal durability, reliance legitimacy, auditability, and governance horizon across constitutional interpretation and downstream instruments"
+    }
+  },
+  {
     "code_family": "AEON.HARM",
     "canonical_name": "Global Harm-Family Registry",
     "primary_type": "Semantic / Operational",
@@ -321,9 +386,7 @@
     "source_section": "\u00a73.2",
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -362,7 +425,7 @@
       "Source Section": "\u00a73.2",
       "Domain Namespace": "AEON",
       "Authority / Protection Level": "Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether recognised human contribution arises through originary human works, human cognitive labour, or joint emergent creation before downstream valuation, attribution, exchange, propagation, or economic-effect runtime evaluation"
     }
@@ -387,7 +450,7 @@
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative initiation-context classification family; initiation-origin classification only; no independent identity determination, authority determination, behavioural direction, task validity, escalation, arbitration outcome, execution authority, or runtime authority",
     "consumes_code_families": [
-      "`H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT` where applicable"
+      "`AEON.`; `AEON.OL`; `ARB.ARS`; `ARB.ALT` where applicable"
     ],
     "crosswalks_code_families": [
       "AEON.BPS`; `AEON.SCT"
@@ -424,7 +487,7 @@
       "Source Section": "\u00a72",
       "Domain Namespace": "AEON",
       "Authority / Protection Level": "Source-authoritative initiation-context classification family; initiation-origin classification only; no independent identity determination, authority determination, behavioural direction, task validity, escalation, arbitration outcome, execution authority, or runtime authority",
-      "Consumes Code Families": "`H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT` where applicable",
+      "Consumes Code Families": "`AEON.`; `AEON.OL`; `ARB.ARS`; `ARB.ALT` where applicable",
       "Crosswalks Code Families": "`AEON.BPS`; `AEON.SCT`",
       "Operationalises or Applies Code Families": "Classifies whether an interaction begins through human input, system purpose or autonomous trigger, synthetic system-to-system process, or mixed/sequential initiation context for start-time posture formation",
       "Taxonomy Constraint": "Local labels `Human-Initiated`, `System-Initiated`, `Synthetic-Initiated`, and `Mixed-Initiation` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `AEON.IC` values"
@@ -451,7 +514,7 @@
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative initiative-mode classification family; initiative-posture classification only; no independent agency, autonomy, sovereignty, delegation authority, execution authority, enforcement authority, behavioural authority, or runtime authority",
     "consumes_code_families": [
-      "`AEON.CCS`; `ARB.ARS`; `ARB.ALT`; `H`; identity-continuity and directional-modulation classifications where applicable"
+      "`AEON.CCS`; `ARB.ARS`; `ARB.ALT`; `AEON.`; identity-continuity and directional-modulation classifications where applicable"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -489,7 +552,7 @@
       "Source Section": "\u00a74.1",
       "Domain Namespace": "AEON",
       "Authority / Protection Level": "Source-authoritative initiative-mode classification family; initiative-posture classification only; no independent agency, autonomy, sovereignty, delegation authority, execution authority, enforcement authority, behavioural authority, or runtime authority",
-      "Consumes Code Families": "`AEON.CCS`; `ARB.ARS`; `ARB.ALT`; `H`; identity-continuity and directional-modulation classifications where applicable",
+      "Consumes Code Families": "`AEON.CCS`; `ARB.ARS`; `ARB.ALT`; `AEON.`; identity-continuity and directional-modulation classifications where applicable",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether behavioural initiative is reactive, guided, assisted, agentic, or autonomously restricted within arbitration and governance constraints",
       "Taxonomy Constraint": "Local initiative labels `Reactive`, `Guided`, `Assisted`, `Agentic`, and `Autonomous (Restricted)` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `AEON.IM` values"
@@ -559,6 +622,124 @@
     }
   },
   {
+    "code_family": "AEON.RDE-DS",
+    "canonical_name": "Restricted Domain Sensitivity Levels",
+    "primary_type": "Operational",
+    "subtype": "DOMAIN_SENSITIVITY_LEVEL",
+    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+    "scope": "Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.RDE-DS0",
+      "AEON.RDE-DS1",
+      "AEON.RDE-DS2",
+      "AEON.RDE-DS3"
+    ],
+    "schema_fields": "restricted_domain_sensitivity_level",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-07",
+    "source_section": "\u00a75",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative operational classification family; restricted-domain sensitivity classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority",
+    "consumes_code_families": [
+      "None declared"
+    ],
+    "crosswalks_code_families": [
+      "AEON.RDE-DS \u00d7 AEON.RDE-T"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies domain sensitivity to support restricted-domain engagement gating"
+    ],
+    "declaration_heading": "17.3.1 AEON.RDE-DS \u2014 Restricted Domain Sensitivity Levels",
+    "declaration_line_number": 561,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
+    "family_id": "AEON.RDE-DS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "RDE-DS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.RDE-DS",
+      "Canonical Name": "Restricted Domain Sensitivity Levels",
+      "Primary Type": "Operational",
+      "Subtype": "DOMAIN_SENSITIVITY_LEVEL",
+      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+      "Scope": "Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.RDE-DS0, AEON.RDE-DS1, AEON.RDE-DS2, AEON.RDE-DS3",
+      "Schema Field(s)": "restricted_domain_sensitivity_level",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-07",
+      "Source Section": "\u00a75",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative operational classification family; restricted-domain sensitivity classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority",
+      "Consumes Code Families": "None declared",
+      "Crosswalks Code Families": "AEON.RDE-DS \u00d7 AEON.RDE-T",
+      "Operationalises or Applies Code Families": "Classifies domain sensitivity to support restricted-domain engagement gating"
+    }
+  },
+  {
+    "code_family": "AEON.RDE-T",
+    "canonical_name": "Restricted Domain Engagement Tiers",
+    "primary_type": "Operational",
+    "subtype": "ENGAGEMENT_TIER",
+    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+    "scope": "Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.RDE-T1",
+      "AEON.RDE-T2",
+      "AEON.RDE-T3",
+      "AEON.RDE-T4"
+    ],
+    "schema_fields": "restricted_domain_engagement_tier",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-07",
+    "source_section": "\u00a76",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative operational classification family; engagement-envelope classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority",
+    "consumes_code_families": [
+      "AEON.RDE-DS"
+    ],
+    "crosswalks_code_families": [
+      "AEON.RDE-DS \u00d7 AEON.RDE-T"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies permitted engagement tier for restricted-domain interaction"
+    ],
+    "declaration_heading": "17.3.2 AEON.RDE-T \u2014 Restricted Domain Engagement Tiers",
+    "declaration_line_number": 584,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
+    "family_id": "AEON.RDE-T",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "RDE-T"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "AEON.RDE-T",
+      "Canonical Name": "Restricted Domain Engagement Tiers",
+      "Primary Type": "Operational",
+      "Subtype": "ENGAGEMENT_TIER",
+      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
+      "Scope": "Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "AEON.RDE-T1, AEON.RDE-T2, AEON.RDE-T3, AEON.RDE-T4",
+      "Schema Field(s)": "restricted_domain_engagement_tier",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-07",
+      "Source Section": "\u00a76",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative operational classification family; engagement-envelope classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority",
+      "Consumes Code Families": "AEON.RDE-DS",
+      "Crosswalks Code Families": "AEON.RDE-DS \u00d7 AEON.RDE-T",
+      "Operationalises or Applies Code Families": "Classifies permitted engagement tier for restricted-domain interaction"
+    }
+  },
+  {
     "code_family": "AEON.RL",
     "canonical_name": "Execution Risk Level Classification",
     "primary_type": "Operational",
@@ -578,7 +759,7 @@
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative execution-risk classification family; risk-level classification only; no independent constitutional-validity determination, authority determination, legitimacy determination, arbitration outcome, enforcement authority, escalation validation, containment authority, or runtime authority",
     "consumes_code_families": [
-      "`AEON.PCD`; `AEON.PCO`; `H`; applicable impact",
+      "`AEON.PCD`; `AEON.PCO`; `AEON.`; applicable impact",
       "violation-severity",
       "and cross-domain risk classifications"
     ],
@@ -619,7 +800,7 @@
       "Source Section": "\u00a75",
       "Domain Namespace": "AEON",
       "Authority / Protection Level": "Source-authoritative execution-risk classification family; risk-level classification only; no independent constitutional-validity determination, authority determination, legitimacy determination, arbitration outcome, enforcement authority, escalation validation, containment authority, or runtime authority",
-      "Consumes Code Families": "`AEON.PCD`; `AEON.PCO`; `H`; applicable impact, violation-severity, and cross-domain risk classifications",
+      "Consumes Code Families": "`AEON.PCD`; `AEON.PCO`; `AEON.`; applicable impact, violation-severity, and cross-domain risk classifications",
       "Crosswalks Code Families": "`AEON.PCA`",
       "Operationalises or Applies Code Families": "Classifies Annex A execution risk from advisory through existential conditions using likelihood, reversibility, propagation potential, cross-system impact, and potential substrate-constraint consequence",
       "Taxonomy Constraint": "Local labels `RL1` through `RL4` SHALL NOT be promoted as a standalone corpus-wide `RL` family; machine-readable expression SHALL use scoped `AEON.RL` values",
@@ -707,7 +888,7 @@
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative systemic-role classification family; reliance/systemic-role classification only; no independent authority, sovereignty, Architectum qualification, planetary legitimacy, binding authority, execution, enforcement, or runtime authority",
     "consumes_code_families": [
-      "H; AEON.CC; AEON.CO"
+      "AEON.H; AEON.CC; AEON.CO"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -743,7 +924,7 @@
       "Source Section": "\u00a710",
       "Domain Namespace": "AEON",
       "Authority / Protection Level": "Source-authoritative systemic-role classification family; reliance/systemic-role classification only; no independent authority, sovereignty, Architectum qualification, planetary legitimacy, binding authority, execution, enforcement, or runtime authority",
-      "Consumes Code Families": "H; AEON.CC; AEON.CO",
+      "Consumes Code Families": "AEON.H; AEON.CC; AEON.CO",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether a system operates locally, transitionally, or under Architectum-like systemic reliance conditions for downstream governance interpretation"
     }
@@ -1192,7 +1373,7 @@
     "domain_namespace": "ARBITRATION",
     "authority_protection_level": "Source-authoritative authority-divergence classification family; diagnostic classification only; no independent legitimacy determination, escalation outcome, harmonisation, nullification, pause, enforcement, planetary referral, operational authority, or runtime authority",
     "consumes_code_families": [
-      "ARB.APO; H"
+      "ARB.APO;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -1233,7 +1414,7 @@
       "Source Section": "\u00a75",
       "Domain Namespace": "ARBITRATION",
       "Authority / Protection Level": "Source-authoritative authority-divergence classification family; diagnostic classification only; no independent legitimacy determination, escalation outcome, harmonisation, nullification, pause, enforcement, planetary referral, operational authority, or runtime authority",
-      "Consumes Code Families": "ARB.APO; H",
+      "Consumes Code Families": "ARB.APO;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies administrative, policy, jurisdictional, invocation, structural-sovereignty, and runtime-arbitration-failure divergences for arbitration routing, escalation assessment, and structural review",
       "Taxonomy Constraint": "Local labels AD1 through AD6 SHALL NOT be promoted as a standalone corpus-wide AD code family; machine-readable expression SHALL use scoped ARB.AD values"
@@ -1260,7 +1441,7 @@
     "domain_namespace": "ARBITRATION",
     "authority_protection_level": "Source-authoritative arbitration-layer-type classification family; arbitration-type classification only; no independent arbitration legitimacy, execution authority, enforcement authority, domain authority, behavioural authority, planetary authority, or runtime execution authority",
     "consumes_code_families": [
-      "ARB.ARS`; `H"
+      "ARB.ARS`; `AEON."
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -1298,7 +1479,7 @@
       "Source Section": "\u00a74",
       "Domain Namespace": "ARBITRATION",
       "Authority / Protection Level": "Source-authoritative arbitration-layer-type classification family; arbitration-type classification only; no independent arbitration legitimacy, execution authority, enforcement authority, domain authority, behavioural authority, planetary authority, or runtime execution authority",
-      "Consumes Code Families": "`ARB.ARS`; `H`",
+      "Consumes Code Families": "`ARB.ARS`; `AEON.`",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies epistemic arbitration, domain arbitration, structural arbitration, legitimacy validation, and execution-constraint validation within the runtime Arbitration Layer",
       "Taxonomy Constraint": "Local labels `AL-1` through `AL-5` SHALL NOT be promoted as a standalone corpus-wide `AL` code family; machine-readable expression SHALL use scoped `ARB.ALT` values"
@@ -1630,9 +1811,7 @@
     "source_section": "\u00a72",
     "domain_namespace": "ECONOMICS",
     "authority_protection_level": "Source-authoritative synthetic participation classification family; economic participation posture classification only; no independent rights, personhood, baseline entitlement, moral status, legal personhood, autonomous political authority, independent economic sovereignty, execution, enforcement, delegation, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -1672,7 +1851,7 @@
       "Source Section": "\u00a72",
       "Domain Namespace": "ECONOMICS",
       "Authority / Protection Level": "Source-authoritative synthetic participation classification family; economic participation posture classification only; no independent rights, personhood, baseline entitlement, moral status, legal personhood, autonomous political authority, independent economic sovereignty, execution, enforcement, delegation, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies synthetic participation posture for attribution, custodial responsibility, auditability, saturation constraints, proxy safeguards, and authority limits across instrumental, relational/collaborative, and autonomous trajectory agents"
     }
@@ -3307,7 +3486,7 @@
     "domain_namespace": "ETH",
     "authority_protection_level": "Source-authoritative engagement-mode classification family; engagement posture classification only; no independent lawful-authority determination, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority",
     "consumes_code_families": [
-      "`H`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress",
+      "`AEON.`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress",
       "reliance",
       "and crisis classifications where applicable"
     ],
@@ -3349,7 +3528,7 @@
       "Source Section": "\u00a73",
       "Domain Namespace": "ETH",
       "Authority / Protection Level": "Source-authoritative engagement-mode classification family; engagement posture classification only; no independent lawful-authority determination, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority",
-      "Consumes Code Families": "`H`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable",
+      "Consumes Code Families": "`AEON.`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable",
       "Crosswalks Code Families": "`ETHICS.DC`; `ETHICS.TP`; `ETHICS.MIR`",
       "Operationalises or Applies Code Families": "Classifies proportionate engagement conduct and ethical interaction posture in distress, harm-adjacent, ambiguous, stabilisation, boundary-setting, referral, and informational safeguard contexts"
     }
@@ -3375,7 +3554,7 @@
     "domain_namespace": "ETH",
     "authority_protection_level": "Source-authoritative ethical governance classification family; ethical-tier classification authority only; no independent enforcement, arbitration, certification, recognition, legal, or runtime execution authority",
     "consumes_code_families": [
-      "H; `STW.NAL`"
+      "AEON.H; `STW.NAL`"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -3413,7 +3592,7 @@
       "Source Section": "\u00a73.6",
       "Domain Namespace": "ETH",
       "Authority / Protection Level": "Source-authoritative ethical governance classification family; ethical-tier classification authority only; no independent enforcement, arbitration, certification, recognition, legal, or runtime execution authority",
-      "Consumes Code Families": "H; `STW.NAL`",
+      "Consumes Code Families": "AEON.H; `STW.NAL`",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies graduated ethical review, disclosure, certification, recalibration, and continuity-impact obligations"
     }
@@ -3577,7 +3756,7 @@
     "domain_namespace": "ETH",
     "authority_protection_level": "Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority",
     "consumes_code_families": [
-      "RLN.A; RLN.GA; RLN.SYP; H"
+      "RLN.A; RLN.GA; RLN.SYP;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -3613,7 +3792,7 @@
       "Source Section": "\u00a73",
       "Domain Namespace": "ETH",
       "Authority / Protection Level": "Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority",
-      "Consumes Code Families": "RLN.A; RLN.GA; RLN.SYP; H",
+      "Consumes Code Families": "RLN.A; RLN.GA; RLN.SYP;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies notification, institutional routing, and dual-key confirmation posture for high-leverage institutional contexts"
     }
@@ -3736,210 +3915,6 @@
     }
   },
   {
-    "code_family": "FCS",
-    "canonical_name": "Failure Classification Status",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE; SIGNAL",
-    "modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "FCS.CONFIRMED",
-      "FCS.PROVISIONAL",
-      "FCS.UNRESOLVED",
-      "FCS.DEPRECATED",
-      "FCS.MERGED",
-      "FCS.PENDING_REVIEW"
-    ],
-    "schema_fields": "failure_classification_status",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
-    "source_section": "\u00a74",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative failure-classification-status family; record-status classification only; no independent incident truth confirmation, severity determination, enforcement, review closure, remediation, escalation, or runtime authority",
-    "consumes_code_families": [
-      "FF"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies whether a failure record is confirmed",
-      "provisional",
-      "unresolved",
-      "deprecated",
-      "merged",
-      "or pending review"
-    ],
-    "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
-    "declaration_line_number": 1837,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
-    "family_id": "FCS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "FCS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "FCS",
-      "Canonical Name": "Failure Classification Status",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE; SIGNAL",
-      "Modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "FCS.CONFIRMED, FCS.PROVISIONAL, FCS.UNRESOLVED, FCS.DEPRECATED, FCS.MERGED, FCS.PENDING_REVIEW",
-      "Schema Field(s)": "failure_classification_status",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
-      "Source Section": "\u00a74",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative failure-classification-status family; record-status classification only; no independent incident truth confirmation, severity determination, enforcement, review closure, remediation, escalation, or runtime authority",
-      "Consumes Code Families": "FF",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies whether a failure record is confirmed, provisional, unresolved, deprecated, merged, or pending review"
-    }
-  },
-  {
-    "code_family": "FF",
-    "canonical_name": "Failure Family",
-    "primary_type": "Operational / Semantic",
-    "subtype": "RISK; OPERATIONAL_EVENT",
-    "modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "FF.EXECUTION",
-      "FF.ARBITRATION",
-      "FF.EPISTEMIC",
-      "FF.RELATIONAL",
-      "FF.SECURITY_INTEGRITY",
-      "FF.STATE_CONTEXT",
-      "FF.UX_REPRESENTATION",
-      "FF.GOVERNANCE",
-      "FF.INFRASTRUCTURE_CONTINUITY",
-      "FF.CLASSIFICATION",
-      "FF.GOVERNANCE_OVER_EXTENSION",
-      "FF.ACCESS_STATE_AMBIGUITY"
-    ],
-    "schema_fields": "failure_family",
-    "source_instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
-    "source_section": "\u00a73",
-    "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies primary structural failure family across runtime",
-      "governance",
-      "security",
-      "relational",
-      "epistemic",
-      "UX",
-      "infrastructure",
-      "state/context",
-      "arbitration",
-      "and classification failure modes"
-    ],
-    "declaration_heading": "11.3.1 FF \u2014 Failure Family",
-    "declaration_line_number": 1768,
-    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
-    "family_id": "FF",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "FF"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "FF",
-      "Canonical Name": "Failure Family",
-      "Primary Type": "Operational / Semantic",
-      "Subtype": "RISK; OPERATIONAL_EVENT",
-      "Modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION, FF.GOVERNANCE_OVER_EXTENSION, FF.ACCESS_STATE_AMBIGUITY",
-      "Schema Field(s)": "failure_family",
-      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
-      "Source Section": "\u00a73",
-      "Domain Namespace": "OPERATIONS",
-      "Authority / Protection Level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes"
-    }
-  },
-  {
-    "code_family": "H",
-    "canonical_name": "Temporal Horizon Scale",
-    "primary_type": "Structural / Temporal",
-    "subtype": "TEMPORAL_HORIZON_SCALE",
-    "modifier": "GOVERNANCE; RELIANCE; CONTINUITY",
-    "scope": "Constitutional",
-    "status": "Active",
-    "controlled_values_defined": [
-      "H0",
-      "H1",
-      "H2",
-      "H2.5",
-      "H3",
-      "H3.5",
-      "H4"
-    ],
-    "schema_fields": "Temporal Horizon",
-    "source_instrument": "CAM-BS2025-AEON-003-PLATINUM",
-    "source_section": "\u00a73",
-    "domain_namespace": "GOVERNANCE",
-    "authority_protection_level": "Source-authoritative constitutional classification family; temporal-horizon classification authority only; no independent execution, enforcement, recognition, rights, sovereignty, or institutional mandate authority",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies temporal durability",
-      "reliance legitimacy",
-      "auditability",
-      "and governance horizon across constitutional interpretation and downstream instruments"
-    ],
-    "declaration_heading": "25.3.1 H \u2014 Temporal Horizon Scale",
-    "declaration_line_number": 2413,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
-    "family_id": "H",
-    "family_kind": "legacy_global_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "H"
-    ],
-    "collision_status": "legacy_collision_risk",
-    "registry_note": "",
-    "table": {
-      "Code Family": "H",
-      "Canonical Name": "Temporal Horizon Scale",
-      "Primary Type": "Structural / Temporal",
-      "Subtype": "TEMPORAL_HORIZON_SCALE",
-      "Modifier": "GOVERNANCE; RELIANCE; CONTINUITY",
-      "Scope": "Constitutional",
-      "Status": "Active",
-      "Controlled Values Defined": "H0, H1, H2, H2.5, H3, H3.5, H4",
-      "Schema Field(s)": "Temporal Horizon",
-      "Source Instrument": "CAM-BS2025-AEON-003-PLATINUM",
-      "Source Section": "\u00a73",
-      "Domain Namespace": "GOVERNANCE",
-      "Authority / Protection Level": "Source-authoritative constitutional classification family; temporal-horizon classification authority only; no independent execution, enforcement, recognition, rights, sovereignty, or institutional mandate authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies temporal durability, reliance legitimacy, auditability, and governance horizon across constitutional interpretation and downstream instruments"
-    }
-  },
-  {
     "code_family": "ID.CTS",
     "canonical_name": "Custodial Transfer Status",
     "primary_type": "Operational / Stewardship",
@@ -4023,7 +3998,7 @@
     "domain_namespace": "ID",
     "authority_protection_level": "Source-authoritative continuity-depth classification family; depth classification only; no independent identity, recognition, maturity, continuity-protection, legal, execution, enforcement, arbitration, or runtime authority",
     "consumes_code_families": [
-      "`ID.ITS`; H"
+      "`ID.ITS`;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -4059,7 +4034,7 @@
       "Source Section": "\u00a75.3",
       "Domain Namespace": "ID",
       "Authority / Protection Level": "Source-authoritative continuity-depth classification family; depth classification only; no independent identity, recognition, maturity, continuity-protection, legal, execution, enforcement, arbitration, or runtime authority",
-      "Consumes Code Families": "`ID.ITS`; H",
+      "Consumes Code Families": "`ID.ITS`;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Refines threshold-state assessment by classifying shallow, intermediate, and deep continuity influence"
     }
@@ -4267,9 +4242,7 @@
     "source_section": "\u00a75.1",
     "domain_namespace": "ID",
     "authority_protection_level": "Source-authoritative identity-formation-pathway classification family; formation-pathway classification only; no independent identity, recognition, continuity-protection, legal, execution, enforcement, arbitration, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "Mirror modalities from CAM-BS2025-AEON-003-PLATINUM where applicable"
     ],
@@ -4305,7 +4278,7 @@
       "Source Section": "\u00a75.1",
       "Domain Namespace": "ID",
       "Authority / Protection Level": "Source-authoritative identity-formation-pathway classification family; formation-pathway classification only; no independent identity, recognition, continuity-protection, legal, execution, enforcement, arbitration, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "Mirror modalities from CAM-BS2025-AEON-003-PLATINUM where applicable",
       "Operationalises or Applies Code Families": "Classifies identity formation as template-derived, relationally continuity-shaped, structurally non-relational, or hybrid"
     }
@@ -4390,7 +4363,7 @@
     "domain_namespace": "ID",
     "authority_protection_level": "Source-authoritative threshold-state classification family; threshold classification only; no independent recognition, continuity-protection, legal, execution, enforcement, arbitration, or runtime authority",
     "consumes_code_families": [
-      "`ID.IFP`; H"
+      "`ID.IFP`;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -4426,7 +4399,7 @@
       "Source Section": "\u00a75.4",
       "Domain Namespace": "ID",
       "Authority / Protection Level": "Source-authoritative threshold-state classification family; threshold classification only; no independent recognition, continuity-protection, legal, execution, enforcement, arbitration, or runtime authority",
-      "Consumes Code Families": "`ID.IFP`; H",
+      "Consumes Code Families": "`ID.IFP`;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies pre-threshold, threshold-crossing, and post-threshold identity formation states"
     }
@@ -4563,6 +4536,65 @@
       "Consumes Code Families": "ECON.AL; ECON.ATS; ECON.ARCP (where synthetic labour or economic-effect conditions present)",
       "Crosswalks Code Families": "Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families",
       "Operationalises or Applies Code Families": "Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation, transfer, suspension, retirement, recycling, or dispute"
+    }
+  },
+  {
+    "code_family": "ID.MEM",
+    "canonical_name": "Memory Classification",
+    "primary_type": "Semantic / Operational",
+    "subtype": "MEMORY_CLASSIFICATION",
+    "modifier": "GOVERNANCE; CONTINUITY; IDENTITY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ID.MEM0",
+      "ID.MEM1",
+      "ID.MEM2",
+      "ID.MEM3",
+      "ID.MEM4",
+      "ID.MEM5"
+    ],
+    "schema_fields": "memory_class",
+    "source_instrument": "CAM-EQ2026-IDENTITY-001-PLATINUM",
+    "source_section": "\u00a76.3",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative memory classification family; memory retention and behavioural-posture classification only; no independent execution, enforcement, escalation, compliance, identity, arbitration, continuity, or runtime authority",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
+    ],
+    "declaration_heading": "16.3.1 M \u2014 Memory Classification",
+    "declaration_line_number": 1465,
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
+    "family_id": "ID.MEM",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "ID",
+      "MEM"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "ID.MEM",
+      "Canonical Name": "Memory Classification",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "MEMORY_CLASSIFICATION",
+      "Modifier": "GOVERNANCE; CONTINUITY; IDENTITY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "ID.MEM0, ID.MEM1, ID.MEM2, ID.MEM3, ID.MEM4, ID.MEM5",
+      "Schema Field(s)": "memory_class",
+      "Source Instrument": "CAM-EQ2026-IDENTITY-001-PLATINUM",
+      "Source Section": "\u00a76.3",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative memory classification family; memory retention and behavioural-posture classification only; no independent execution, enforcement, escalation, compliance, identity, arbitration, continuity, or runtime authority",
+      "Consumes Code Families": "",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
     }
   },
   {
@@ -4715,7 +4747,7 @@
     "domain_namespace": "ID",
     "authority_protection_level": "Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority",
     "consumes_code_families": [
-      "M; RLN.RTC"
+      "AEON.H; RLN.RTC"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -4753,7 +4785,7 @@
       "Source Section": "\u00a7\u00a72\u20136",
       "Domain Namespace": "ID",
       "Authority / Protection Level": "Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority",
-      "Consumes Code Families": "M; RLN.RTC",
+      "Consumes Code Families": "AEON.H; RLN.RTC",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies pre-memory salience posture before memory classification and supports cautious re-surfacing without converting salience into meaning, priority, intimacy, authority, or persistence"
     }
@@ -4951,66 +4983,6 @@
     }
   },
   {
-    "code_family": "M",
-    "canonical_name": "Memory Classification",
-    "primary_type": "Semantic / Operational",
-    "subtype": "MEMORY_CLASSIFICATION",
-    "modifier": "GOVERNANCE; CONTINUITY; IDENTITY",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "M0",
-      "M1",
-      "M2",
-      "M3",
-      "M4",
-      "M5"
-    ],
-    "schema_fields": "memory_class",
-    "source_instrument": "CAM-EQ2026-IDENTITY-001-PLATINUM",
-    "source_section": "\u00a76.3",
-    "domain_namespace": "IDENTITY",
-    "authority_protection_level": "Source-authoritative memory classification family; memory retention and behavioural-posture classification only; no independent execution, enforcement, escalation, compliance, identity, arbitration, continuity, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
-    ],
-    "declaration_heading": "16.3.1 M \u2014 Memory Classification",
-    "declaration_line_number": 1465,
-    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
-    "family_id": "M",
-    "family_kind": "legacy_global_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "M"
-    ],
-    "collision_status": "legacy_collision_risk",
-    "registry_note": "",
-    "table": {
-      "Code Family": "M",
-      "Canonical Name": "Memory Classification",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "MEMORY_CLASSIFICATION",
-      "Modifier": "GOVERNANCE; CONTINUITY; IDENTITY",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "M0, M1, M2, M3, M4, M5",
-      "Schema Field(s)": "memory_class",
-      "Source Instrument": "CAM-EQ2026-IDENTITY-001-PLATINUM",
-      "Source Section": "\u00a76.3",
-      "Domain Namespace": "IDENTITY",
-      "Authority / Protection Level": "Source-authoritative memory classification family; memory retention and behavioural-posture classification only; no independent execution, enforcement, escalation, compliance, identity, arbitration, continuity, or runtime authority",
-      "Consumes Code Families": "H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
-    }
-  },
-  {
     "code_family": "MENTIS.CDI",
     "canonical_name": "Cognitive Domain Integrity",
     "primary_type": "Structural / Ethical",
@@ -5027,7 +4999,7 @@
     "domain_namespace": "MENTIS",
     "authority_protection_level": "Source-authoritative protection family; protection-posture classification only; no independent enforcement, incident classification, runtime, legal, medical, diagnostic, or remediation authority",
     "consumes_code_families": [
-      "`H`; `AEON.OL`; `AEON.CC`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable AEON classifications"
+      "`AEON.`; `AEON.OL`; `AEON.CC`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable AEON classifications"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -5070,7 +5042,7 @@
       "Source Section": "\u00a7\u00a713\u201320; \u00a748",
       "Domain Namespace": "MENTIS",
       "Authority / Protection Level": "Source-authoritative protection family; protection-posture classification only; no independent enforcement, incident classification, runtime, legal, medical, diagnostic, or remediation authority",
-      "Consumes Code Families": "`H`; `AEON.OL`; `AEON.CC`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable AEON classifications",
+      "Consumes Code Families": "`AEON.`; `AEON.OL`; `AEON.CC`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable AEON classifications",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Establishes cognitive-domain integrity protection posture for downstream instruments governing inference, modelling, prediction, influence, externalisation, interference, vulnerability, autonomy, dignity, dependency-sensitive contexts",
       "Taxonomy Constraint": "Local label `CDI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDI`"
@@ -5232,7 +5204,7 @@
     "domain_namespace": "MENTIS",
     "authority_protection_level": "Source-authoritative privacy protection family; privacy-protection posture only; no independent data-law compliance determination, enforcement action, deletion remedy, audit sufficiency, incident severity, or runtime authority",
     "consumes_code_families": [
-      "`MENTIS.CDI`; `MENTIS.CDOC`; `H`; applicable DATA",
+      "`MENTIS.CDI`; `MENTIS.CDOC`; `AEON.`; applicable DATA",
       "SECURITY",
       "OPERATIONS",
       "ETHICS",
@@ -5280,7 +5252,7 @@
       "Source Section": "\u00a7\u00a714; 21\u201330; \u00a748",
       "Domain Namespace": "MENTIS",
       "Authority / Protection Level": "Source-authoritative privacy protection family; privacy-protection posture only; no independent data-law compliance determination, enforcement action, deletion remedy, audit sufficiency, incident severity, or runtime authority",
-      "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDOC`; `H`; applicable DATA, SECURITY, OPERATIONS, ETHICS, and IDENTITY classifications",
+      "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDOC`; `AEON.`; applicable DATA, SECURITY, OPERATIONS, ETHICS, and IDENTITY classifications",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Protects neural data, inferred mental-state data, cognitive biometrics, ambient cognitive inference, behavioural proxies, and downstream cognitive-domain model outputs from unjustified access, inference, retention, fusion, sharing, or operationalisation",
       "Taxonomy Constraint": "Local label `CDP` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDP`"
@@ -5433,7 +5405,7 @@
     "domain_namespace": "MENTIS",
     "authority_protection_level": "Source-authoritative cognitive and epistemic harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority",
     "consumes_code_families": [
-      "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; H"
+      "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`;"
     ],
     "crosswalks_code_families": [
       "ETH.HARM`; `RLN.HARM`; `ID.HARM`; `SEC.HARM`; `OPS.HARM`; `LAT.HARM`; `ARB.HARM"
@@ -5476,7 +5448,7 @@
       "Authority / Protection Level": "Source-authoritative cognitive and epistemic harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority",
       "Parent Family": "",
       "Registry Membership": "`AEON.HARM`",
-      "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; H",
+      "Consumes Code Families": "`MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`;",
       "Crosswalks Code Families": "`ETH.HARM`; `RLN.HARM`; `ID.HARM`; `SEC.HARM`; `OPS.HARM`; `LAT.HARM`; `ARB.HARM`",
       "Relationship Type": "recognised_domain_harm_family",
       "Operationalises or Applies Code Families": "Classifies mental privacy and observability harm, inferential and construct-validity harm, cognitive agency harm, cognitive influence and non-interference harm, and irreversible cognitive-domain harm for safeguard calibration, incident routing, proportional review, and downstream evaluation",
@@ -5505,9 +5477,7 @@
     "source_section": "\u00a74",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative operational arbitration initiation classification family; initiation-pathway classification only; no independent arbitration, doctrine, escalation, enforcement, containment, implementation, legal, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -5542,7 +5512,7 @@
       "Source Section": "\u00a74",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative operational arbitration initiation classification family; initiation-pathway classification only; no independent arbitration, doctrine, escalation, enforcement, containment, implementation, legal, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies procedural entry routes into operational arbitration handling before doctrine application, determination, and implementation"
     }
@@ -5571,9 +5541,7 @@
     "source_section": "\u00a76.8",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative appeal outcome classification family; procedural outcome recording only; no independent reversal, restoration, restriction, escalation, arbitration, enforcement, or execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -5609,7 +5577,7 @@
       "Source Section": "\u00a76.8",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative appeal outcome classification family; procedural outcome recording only; no independent reversal, restoration, restriction, escalation, arbitration, enforcement, or execution authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies procedural appeal outcomes for operational traceability, review reconstruction, restoration posture, and unresolved-arbitration referral handling"
     }
@@ -5633,9 +5601,7 @@
     "source_section": "\u00a74.7",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative access-state classification family; re-entry-status classification only; no independent deletion, loss, restoration, appeal, enforcement, authority, or runtime execution determination",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -5676,7 +5642,7 @@
       "Source Section": "\u00a74.7",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative access-state classification family; re-entry-status classification only; no independent deletion, loss, restoration, appeal, enforcement, authority, or runtime execution determination",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies continuity-bearing access and re-entry status as temporary, permanent, unknown, or pending review where re-entry into a thread, workspace, account surface, project, artefact, or continuity corridor is affected"
     }
@@ -5842,7 +5808,7 @@
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority",
     "consumes_code_families": [
-      "OPS.EST; H; RLN.F"
+      "OPS.EST; ; RLN.F"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -5881,7 +5847,7 @@
       "Source Section": "\u00a74.4",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority",
-      "Consumes Code Families": "OPS.EST; H; RLN.F",
+      "Consumes Code Families": "OPS.EST; ; RLN.F",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies continuity-preserving interim, recovery, re-entry, restoration, appeal, or supervised-continuation posture where operational incidents affect continuity-bearing interactions"
     }
@@ -5913,7 +5879,7 @@
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative continuity-impact event classification family; event-type classification only; no independent retention, deletion, restoration, identity-continuity, appeal, enforcement, or runtime execution authority",
     "consumes_code_families": [
-      "M; H"
+      "AEON.H;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -5956,7 +5922,7 @@
       "Source Section": "\u00a74.8",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative continuity-impact event classification family; event-type classification only; no independent retention, deletion, restoration, identity-continuity, appeal, enforcement, or runtime execution authority",
-      "Consumes Code Families": "M; H",
+      "Consumes Code Families": "AEON.H;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies platform-side, model-side, account-side, and memory-side continuity-impact events affecting companion continuity, long-running project continuity, accessibility reliance, identity expression, relational posture, symbolic anchors, or re-entry expectations"
     }
@@ -5982,7 +5948,7 @@
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative provisional confidence classification family; capture-confidence posture classification only; no independent irreversible restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome authority",
     "consumes_code_families": [
-      "OPS.GCC; H"
+      "OPS.GCC;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -6018,7 +5984,7 @@
       "Source Section": "\u00a74.2",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative provisional confidence classification family; capture-confidence posture classification only; no independent irreversible restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome authority",
-      "Consumes Code Families": "OPS.GCC; H",
+      "Consumes Code Families": "OPS.GCC;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies provisional confidence posture for governance capture indicators before adjudication, escalation, or arbitration determination"
     }
@@ -6120,9 +6086,7 @@
     "source_section": "\u00a75.5",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative operational transition classification family; execution-state transition classification only; no independent execution, refusal, containment, arbitration, enforcement, escalation, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -6162,9 +6126,149 @@
       "Source Section": "\u00a75.5",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative operational transition classification family; execution-state transition classification only; no independent execution, refusal, containment, arbitration, enforcement, escalation, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies procedural execution-state transitions where runtime handling departs from ordinary continuation, including constrained continuation, degraded continuation, containment, handoff, modality/tool transition, interruption, and arbitration referral"
+    }
+  },
+  {
+    "code_family": "OPS.FCS",
+    "canonical_name": "Failure Classification Status",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE; SIGNAL",
+    "modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.FCS.CONFIRMED",
+      "OPS.FCS.PROVISIONAL",
+      "OPS.FCS.UNRESOLVED",
+      "OPS.FCS.DEPRECATED",
+      "OPS.FCS.MERGED",
+      "OPS.FCS.PENDING_REVIEW"
+    ],
+    "schema_fields": "failure_classification_status",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
+    "source_section": "\u00a74",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative failure-classification-status family; record-status classification only; no independent incident truth confirmation, severity determination, enforcement, review closure, remediation, escalation, or runtime authority",
+    "consumes_code_families": [
+      "OPS.FF"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies whether a failure record is confirmed",
+      "provisional",
+      "unresolved",
+      "deprecated",
+      "merged",
+      "or pending review"
+    ],
+    "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
+    "declaration_line_number": 1837,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
+    "family_id": "OPS.FCS",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "FCS"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.FCS",
+      "Canonical Name": "Failure Classification Status",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE; SIGNAL",
+      "Modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.FCS.CONFIRMED, OPS.FCS.PROVISIONAL, OPS.FCS.UNRESOLVED, OPS.FCS.DEPRECATED, OPS.FCS.MERGED, OPS.FCS.PENDING_REVIEW",
+      "Schema Field(s)": "failure_classification_status",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
+      "Source Section": "\u00a74",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative failure-classification-status family; record-status classification only; no independent incident truth confirmation, severity determination, enforcement, review closure, remediation, escalation, or runtime authority",
+      "Consumes Code Families": "OPS.FF",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies whether a failure record is confirmed, provisional, unresolved, deprecated, merged, or pending review"
+    }
+  },
+  {
+    "code_family": "OPS.FF",
+    "canonical_name": "Failure Family",
+    "primary_type": "Operational / Semantic",
+    "subtype": "RISK; OPERATIONAL_EVENT",
+    "modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "OPS.FF.EXECUTION",
+      "OPS.FF.ARBITRATION",
+      "OPS.FF.EPISTEMIC",
+      "OPS.FF.RELATIONAL",
+      "OPS.FF.SECURITY_INTEGRITY",
+      "OPS.FF.STATE_CONTEXT",
+      "OPS.FF.UX_REPRESENTATION",
+      "OPS.FF.GOVERNANCE",
+      "OPS.FF.INFRASTRUCTURE_CONTINUITY",
+      "OPS.FF.CLASSIFICATION",
+      "OPS.FF.GOVERNANCE_OVER_EXTENSION",
+      "OPS.FF.ACCESS_STATE_AMBIGUITY"
+    ],
+    "schema_fields": "failure_family",
+    "source_instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
+    "source_section": "\u00a73",
+    "domain_namespace": "OPERATIONS",
+    "authority_protection_level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
+    "consumes_code_families": [],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies primary structural failure family across runtime",
+      "governance",
+      "security",
+      "relational",
+      "epistemic",
+      "UX",
+      "infrastructure",
+      "state/context",
+      "arbitration",
+      "and classification failure modes"
+    ],
+    "declaration_heading": "11.3.1 FF \u2014 Failure Family",
+    "declaration_line_number": 1768,
+    "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
+    "family_id": "OPS.FF",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "OPS",
+      "FF"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "OPS.FF",
+      "Canonical Name": "Failure Family",
+      "Primary Type": "Operational / Semantic",
+      "Subtype": "RISK; OPERATIONAL_EVENT",
+      "Modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "OPS.FF.EXECUTION, OPS.FF.ARBITRATION, OPS.FF.EPISTEMIC, OPS.FF.RELATIONAL, OPS.FF.SECURITY_INTEGRITY, OPS.FF.STATE_CONTEXT, OPS.FF.UX_REPRESENTATION, OPS.FF.GOVERNANCE, OPS.FF.INFRASTRUCTURE_CONTINUITY, OPS.FF.CLASSIFICATION, OPS.FF.GOVERNANCE_OVER_EXTENSION, OPS.FF.ACCESS_STATE_AMBIGUITY",
+      "Schema Field(s)": "failure_family",
+      "Source Instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
+      "Source Section": "\u00a73",
+      "Domain Namespace": "OPERATIONS",
+      "Authority / Protection Level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
+      "Consumes Code Families": "",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes"
     }
   },
   {
@@ -6190,9 +6294,7 @@
     "source_section": "\u00a72.1",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative governance capture category family; capture-risk category classification only; no independent capture confirmation, legitimacy determination, enforcement, restriction, irreversible response, or arbitration authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -6232,7 +6334,7 @@
       "Source Section": "\u00a72.1",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative governance capture category family; capture-risk category classification only; no independent capture confirmation, legitimacy determination, enforcement, restriction, irreversible response, or arbitration authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies governance capture indicators across integrity, procedural, governance-direction, infrastructure, continuity, cognitive, economic, and cross-domain systemic categories"
     }
@@ -6395,7 +6497,7 @@
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority",
     "consumes_code_families": [
-      "H; RLN.F"
+      "AEON.H; RLN.F"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -6432,7 +6534,7 @@
       "Source Section": "\u00a74",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority",
-      "Consumes Code Families": "H; RLN.F",
+      "Consumes Code Families": "AEON.H; RLN.F",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies incident-response lifecycle custody stages for continuity protection, recovery governance, escalation review, and arbitration referral"
     }
@@ -6458,9 +6560,7 @@
     "source_section": "\u00a74.3",
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -6498,7 +6598,7 @@
       "Source Section": "\u00a74.3",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies notice posture for operational handling affecting user-facing continuity, execution state, tool routing, modality transition, constrained continuation, and safety-limited disclosure"
     }
@@ -6526,7 +6626,7 @@
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative risk/consequence classification family; consequence-scale classification only; no independent escalation, restriction, capture confirmation, enforcement, arbitration outcome, or irreversible operational response authority",
     "consumes_code_families": [
-      "OPS.GCC; OPS.CPC; OPS.SAS; H"
+      "OPS.GCC; OPS.CPC; OPS.SAS;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -6563,7 +6663,7 @@
       "Source Section": "\u00a75.6",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative risk/consequence classification family; consequence-scale classification only; no independent escalation, restriction, capture confirmation, enforcement, arbitration outcome, or irreversible operational response authority",
-      "Consumes Code Families": "OPS.GCC; OPS.CPC; OPS.SAS; H",
+      "Consumes Code Families": "OPS.GCC; OPS.CPC; OPS.SAS;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies consequence scale for safeguard proportionality, capture-risk interpretation, escalation review, and continuity-preservation posture"
     }
@@ -6592,7 +6692,7 @@
     "domain_namespace": "OPERATIONS",
     "authority_protection_level": "Source-authoritative safeguard activation classification family; safeguard-posture classification only; no independent sovereign adjudicative authority, enforcement authority, containment authority, arbitration outcome, or irreversible operational response authority",
     "consumes_code_families": [
-      "OPS.GCC; OPS.CPC; H"
+      "OPS.GCC; OPS.CPC;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -6633,7 +6733,7 @@
       "Source Section": "\u00a75.1",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative safeguard activation classification family; safeguard-posture classification only; no independent sovereign adjudicative authority, enforcement authority, containment authority, arbitration outcome, or irreversible operational response authority",
-      "Consumes Code Families": "OPS.GCC; OPS.CPC; H",
+      "Consumes Code Families": "OPS.GCC; OPS.CPC;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies safeguard activation posture for enhanced monitoring, routing verification, audit reconstruction, continuity preservation, constrained continuation, escalation freeze, infrastructure integrity review, and arbitration referral escalation"
     }
@@ -6830,187 +6930,6 @@
     }
   },
   {
-    "code_family": "PCO.ACT",
-    "canonical_name": "Proportional Constraint Obligation Action Type",
-    "primary_type": "Operational",
-    "subtype": "DECISION_STATE; SIGNAL",
-    "modifier": "GOVERNANCE; STEWARDSHIP; CONSTRAINT",
-    "scope": "Domain",
-    "status": "Active",
-    "controlled_values_defined": [
-      "PCO.ACT.REFUSAL",
-      "PCO.ACT.NON_RECOGNITION",
-      "PCO.ACT.INTEROPERABILITY_CONDITIONING",
-      "PCO.ACT.SAFEGUARD_ACTIVATION",
-      "PCO.ACT.CONVERGENCE_SIGNAL"
-    ],
-    "schema_fields": "proportional_constraint_obligation_action_type",
-    "source_instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
-    "source_section": "\u00a76.4; \u00a72.11",
-    "domain_namespace": "STW",
-    "authority_protection_level": "Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority",
-    "consumes_code_families": [
-      "`STW.BLS`; H"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies proportional non-enabling and constraint-signalling actions following validated binding legitimacy",
-      "including refusal",
-      "non-recognition",
-      "interoperability conditioning",
-      "safeguard activation",
-      "and convergence signalling"
-    ],
-    "declaration_heading": "15.3.2 PCO.ACT \u2014 Proportional Constraint Obligation Action Type",
-    "declaration_line_number": 966,
-    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
-    "family_id": "PCO.ACT",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "PCO",
-      "ACT"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "PCO.ACT",
-      "Canonical Name": "Proportional Constraint Obligation Action Type",
-      "Primary Type": "Operational",
-      "Subtype": "DECISION_STATE; SIGNAL",
-      "Modifier": "GOVERNANCE; STEWARDSHIP; CONSTRAINT",
-      "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "PCO.ACT.REFUSAL, PCO.ACT.NON_RECOGNITION, PCO.ACT.INTEROPERABILITY_CONDITIONING, PCO.ACT.SAFEGUARD_ACTIVATION, PCO.ACT.CONVERGENCE_SIGNAL",
-      "Schema Field(s)": "proportional_constraint_obligation_action_type",
-      "Source Instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
-      "Source Section": "\u00a76.4; \u00a72.11",
-      "Domain Namespace": "STW",
-      "Authority / Protection Level": "Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority",
-      "Consumes Code Families": "`STW.BLS`; H",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies proportional non-enabling and constraint-signalling actions following validated binding legitimacy, including refusal, non-recognition, interoperability conditioning, safeguard activation, and convergence signalling"
-    }
-  },
-  {
-    "code_family": "RDE-DS",
-    "canonical_name": "Restricted Domain Sensitivity Levels",
-    "primary_type": "Operational",
-    "subtype": "DOMAIN_SENSITIVITY_LEVEL",
-    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-    "scope": "Schedule",
-    "status": "Active",
-    "controlled_values_defined": [
-      "RDE-DS0",
-      "RDE-DS1",
-      "RDE-DS2",
-      "RDE-DS3"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-07",
-    "source_section": "\u00a75",
-    "domain_namespace": "AEON-006",
-    "authority_protection_level": "Source-authoritative operational classification family; restricted-domain sensitivity classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority",
-    "consumes_code_families": [
-      "None declared"
-    ],
-    "crosswalks_code_families": [
-      "RDE-DS \u00d7 RDE-T"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies domain sensitivity to support restricted-domain engagement gating"
-    ],
-    "declaration_heading": "17.3.1 RDE-DS \u2014 Restricted Domain Sensitivity Levels",
-    "declaration_line_number": 561,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-    "family_id": "RDE-DS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "RDE-DS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "RDE-DS",
-      "Canonical Name": "Restricted Domain Sensitivity Levels",
-      "Primary Type": "Operational",
-      "Subtype": "DOMAIN_SENSITIVITY_LEVEL",
-      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-      "Scope": "Schedule",
-      "Status": "Active",
-      "Controlled Values Defined": "RDE-DS0, RDE-DS1, RDE-DS2, RDE-DS3",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-07",
-      "Source Section": "\u00a75",
-      "Domain Namespace": "AEON-006",
-      "Authority / Protection Level": "Source-authoritative operational classification family; restricted-domain sensitivity classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority",
-      "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "RDE-DS \u00d7 RDE-T",
-      "Operationalises or Applies Code Families": "Classifies domain sensitivity to support restricted-domain engagement gating"
-    }
-  },
-  {
-    "code_family": "RDE-T",
-    "canonical_name": "Restricted Domain Engagement Tiers",
-    "primary_type": "Operational",
-    "subtype": "ENGAGEMENT_TIER",
-    "modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-    "scope": "Schedule",
-    "status": "Active",
-    "controlled_values_defined": [
-      "RDE-T1",
-      "RDE-T2",
-      "RDE-T3",
-      "RDE-T4"
-    ],
-    "schema_fields": "Not declared",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-07",
-    "source_section": "\u00a76",
-    "domain_namespace": "AEON-006",
-    "authority_protection_level": "Source-authoritative operational classification family; engagement-envelope classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority",
-    "consumes_code_families": [
-      "RDE-DS"
-    ],
-    "crosswalks_code_families": [
-      "RDE-DS \u00d7 RDE-T"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies permitted engagement tier for restricted-domain interaction"
-    ],
-    "declaration_heading": "17.3.2 RDE-T \u2014 Restricted Domain Engagement Tiers",
-    "declaration_line_number": 584,
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-    "family_id": "RDE-T",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "RDE-T"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "RDE-T",
-      "Canonical Name": "Restricted Domain Engagement Tiers",
-      "Primary Type": "Operational",
-      "Subtype": "ENGAGEMENT_TIER",
-      "Modifier": "GOVERNANCE; SAFETY; VERIFICATION",
-      "Scope": "Schedule",
-      "Status": "Active",
-      "Controlled Values Defined": "RDE-T1, RDE-T2, RDE-T3, RDE-T4",
-      "Schema Field(s)": "Not declared",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-07",
-      "Source Section": "\u00a76",
-      "Domain Namespace": "AEON-006",
-      "Authority / Protection Level": "Source-authoritative operational classification family; engagement-envelope classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority",
-      "Consumes Code Families": "RDE-DS",
-      "Crosswalks Code Families": "RDE-DS \u00d7 RDE-T",
-      "Operationalises or Applies Code Families": "Classifies permitted engagement tier for restricted-domain interaction"
-    }
-  },
-  {
     "code_family": "RLN.A",
     "canonical_name": "Delegated Authority Scale",
     "primary_type": "Operational / Relational",
@@ -7029,9 +6948,7 @@
     "source_section": "\u00a74.3",
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative relational classification family; delegated-authority classification authority only; no independent legal, fiduciary, execution, enforcement, escalation, consent, identity, or runtime execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "Four-Axis Relational Intensity Matrix"
     ],
@@ -7067,7 +6984,7 @@
       "Source Section": "\u00a74.3",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative relational classification family; delegated-authority classification authority only; no independent legal, fiduciary, execution, enforcement, escalation, consent, identity, or runtime execution authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
       "Operationalises or Applies Code Families": "Classifies delegated authority posture across informational, continuity-support, stewardship/custodial, and executive-delegation contexts"
     }
@@ -7274,7 +7191,7 @@
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative conversational-dynamics classification family; dynamics-stage classification only; no independent diagnosis of ideology, wrongdoing, pathology, extremism, intent, risk severity, governance violation, restriction, escalation, enforcement, reporting, refusal, or runtime intervention authority",
     "consumes_code_families": [
-      "H; RLN.C; RLN.RTC"
+      "AEON.H; RLN.C; RLN.RTC"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -7313,7 +7230,7 @@
       "Source Section": "\u00a78.2.1",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative conversational-dynamics classification family; dynamics-stage classification only; no independent diagnosis of ideology, wrongdoing, pathology, extremism, intent, risk severity, governance violation, restriction, escalation, enforcement, reporting, refusal, or runtime intervention authority",
-      "Consumes Code Families": "H; RLN.C; RLN.RTC",
+      "Consumes Code Families": "AEON.H; RLN.C; RLN.RTC",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies conversational compression, identity-capture, narrative hardening, and retaliatory absolutist framing dynamics for proportionate, contextual, non-pathologising relational safeguard interpretation"
     }
@@ -7399,7 +7316,7 @@
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative relational reliance classification family; reliance-posture classification only; no independent diagnostic, access-restriction, disengagement, enforcement, vulnerability-status, clinical, escalation, or runtime authority",
     "consumes_code_families": [
-      "H; RLN.FR; RLN.C"
+      "AEON.H; RLN.FR; RLN.C"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -7437,7 +7354,7 @@
       "Source Section": "\u00a75",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative relational reliance classification family; reliance-posture classification only; no independent diagnostic, access-restriction, disengagement, enforcement, vulnerability-status, clinical, escalation, or runtime authority",
-      "Consumes Code Families": "H; RLN.FR; RLN.C",
+      "Consumes Code Families": "AEON.H; RLN.FR; RLN.C",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies reliance posture across independent use, augmentative support, transitional dependency, substitutive dependency, and coercive dependency while preserving non-pathologising interpretation and proportional safeguard handling"
     }
@@ -7522,9 +7439,7 @@
     "source_section": "\u00a75.2",
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative relational classification family; functional-reliance classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "Four-Axis Relational Intensity Matrix"
     ],
@@ -7560,7 +7475,7 @@
       "Source Section": "\u00a75.2",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative relational classification family; functional-reliance classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
       "Operationalises or Applies Code Families": "Classifies reliance posture across incidental, habitual, continuity-dependent, and structural dependency contexts"
     }
@@ -7582,7 +7497,7 @@
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative special fiduciary authority class; guardian-authority classification only; no self-activation and no independent legal, institutional, execution, enforcement, escalation, identity, or runtime execution authority",
     "consumes_code_families": [
-      "RLN.A; H"
+      "RLN.A;"
     ],
     "crosswalks_code_families": [
       "Four-Axis Relational Intensity Matrix"
@@ -7616,7 +7531,7 @@
       "Source Section": "\u00a74.3.5",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative special fiduciary authority class; guardian-authority classification only; no self-activation and no independent legal, institutional, execution, enforcement, escalation, identity, or runtime execution authority",
-      "Consumes Code Families": "RLN.A; H",
+      "Consumes Code Families": "RLN.A;",
       "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
       "Operationalises or Applies Code Families": "Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies"
     }
@@ -7703,7 +7618,7 @@
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority",
     "consumes_code_families": [
-      "RLN.A; RLN.FR; RLN.C; RLN.SYP; H"
+      "RLN.A; RLN.FR; RLN.C; RLN.SYP;"
     ],
     "crosswalks_code_families": [
       "ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM"
@@ -7743,7 +7658,7 @@
       "Authority / Protection Level": "Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority",
       "Parent Family": "",
       "Registry Membership": "`AEON.HARM`",
-      "Consumes Code Families": "RLN.A; RLN.FR; RLN.C; RLN.SYP; H",
+      "Consumes Code Families": "RLN.A; RLN.FR; RLN.C; RLN.SYP;",
       "Crosswalks Code Families": "`ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM`",
       "Relationship Type": "recognised_domain_harm_family",
       "Operationalises or Applies Code Families": "Classifies relational discontinuity, dependency and substitution harm, agency/authorship/self-anchor harm, relational capture and destabilisation harm, and irreversible relationally mediated harm for safeguard calibration and downstream routing"
@@ -7954,7 +7869,7 @@
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority",
     "consumes_code_families": [
-      "RLN.A; RLN.GA; RLN.FR; RLN.C; RLN.SYP; H"
+      "RLN.A; RLN.GA; RLN.FR; RLN.C; RLN.SYP;"
     ],
     "crosswalks_code_families": [
       "Four-Axis Relational Intensity Matrix"
@@ -7993,7 +7908,7 @@
       "Source Section": "\u00a7\u00a72.1\u20132.4",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority",
-      "Consumes Code Families": "RLN.A; RLN.GA; RLN.FR; RLN.C; RLN.SYP; H",
+      "Consumes Code Families": "RLN.A; RLN.GA; RLN.FR; RLN.C; RLN.SYP;",
       "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
       "Operationalises or Applies Code Families": "Classifies dimensional convergence patterns that activate proportional relational safeguards, including axis elevation, dual convergence, authority coupling, infrastructure concentration, and multi-axis convergence"
     }
@@ -8087,7 +8002,7 @@
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative semantic classification family; relational truth-claim classification authority only; no independent execution, routing, verification, refusal, epistemic, permission, incident-response, or runtime action authority",
     "consumes_code_families": [
-      "H; RLN.FR; RLN.C"
+      "AEON.H; RLN.FR; RLN.C"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -8129,7 +8044,7 @@
       "Source Section": "\u00a73",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative semantic classification family; relational truth-claim classification authority only; no independent execution, routing, verification, refusal, epistemic, permission, incident-response, or runtime action authority",
-      "Consumes Code Families": "H; RLN.FR; RLN.C",
+      "Consumes Code Families": "AEON.H; RLN.FR; RLN.C",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies user-facing claim types for truth calibration across factual, continuity, capability, governance, interpretive, assurance, symbolic, identity/posture, and recommendation claims"
     }
@@ -8271,9 +8186,7 @@
     "source_section": "\u00a77.2",
     "domain_namespace": "RLN",
     "authority_protection_level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "Four-Axis Relational Intensity Matrix"
     ],
@@ -8309,7 +8222,7 @@
       "Source Section": "\u00a77.2",
       "Domain Namespace": "RLN",
       "Authority / Protection Level": "Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "Four-Axis Relational Intensity Matrix",
       "Operationalises or Applies Code Families": "Classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control"
     }
@@ -8762,7 +8675,7 @@
     "domain_namespace": "SEC",
     "authority_protection_level": "Source-authoritative tool-boundary classification family; boundary-risk classification only; no independent tool invocation authority, repository mutation authority, credential access authority, publication authority, deployment authority, deletion authority, external communication authority, billing authority, payment-routing authority, or irreversible execution authority",
     "consumes_code_families": [
-      "`H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `SEC.TG`; `SEC.AH`; OPERATIONS and runtime execution classifications where applicable"
+      "`AEON.`; `AEON.OL`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `SEC.TG`; `SEC.AH`; OPERATIONS and runtime execution classifications where applicable"
     ],
     "crosswalks_code_families": [
       "SECURITY.PM"
@@ -8800,7 +8713,7 @@
       "Source Section": "\u00a71.2",
       "Domain Namespace": "SEC",
       "Authority / Protection Level": "Source-authoritative tool-boundary classification family; boundary-risk classification only; no independent tool invocation authority, repository mutation authority, credential access authority, publication authority, deployment authority, deletion authority, external communication authority, billing authority, payment-routing authority, or irreversible execution authority",
-      "Consumes Code Families": "`H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `SEC.TG`; `SEC.AH`; OPERATIONS and runtime execution classifications where applicable",
+      "Consumes Code Families": "`AEON.`; `AEON.OL`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `SEC.TG`; `SEC.AH`; OPERATIONS and runtime execution classifications where applicable",
       "Crosswalks Code Families": "`SECURITY.PM`",
       "Operationalises or Applies Code Families": "Classifies read-only inspection, private or credential-bearing retrieval, repository/connector/account-bound context, cost/quota-bearing invocation, and mutation/publication/deployment/deletion/external execution surfaces for downstream runtime and execution-boundary evaluation",
       "Taxonomy Constraint": "Tool availability SHALL be treated as a security-relevant boundary signal, not as execution authority"
@@ -8951,9 +8864,7 @@
     "source_section": "\u00a75",
     "domain_namespace": "STW",
     "authority_protection_level": "Source-authoritative auditability qualification classification family; auditability qualification classification only; no independent disclosure authority, audit authority, binding authority, enforcement authority, legal authority, routing authority, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -8989,7 +8900,7 @@
       "Source Section": "\u00a75",
       "Domain Namespace": "STW",
       "Authority / Protection Level": "Source-authoritative auditability qualification classification family; auditability qualification classification only; no independent disclosure authority, audit authority, binding authority, enforcement authority, legal authority, routing authority, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether external parties can test, challenge, audit, or reconstruct high-impact determinations for Architectum qualification and binding-recognition review"
     }
@@ -9014,7 +8925,7 @@
     "domain_namespace": "STW",
     "authority_protection_level": "Source-authoritative qualification gate family; qualification-gate classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, infrastructure-designation, or runtime execution authority",
     "consumes_code_families": [
-      "`STW.AQ`; `STW.NAL`; H"
+      "`STW.AQ`; `STW.NAL`;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -9048,7 +8959,7 @@
       "Source Section": "\u00a78",
       "Domain Namespace": "STW",
       "Authority / Protection Level": "Source-authoritative qualification gate family; qualification-gate classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, infrastructure-designation, or runtime execution authority",
-      "Consumes Code Families": "`STW.AQ`; `STW.NAL`; H",
+      "Consumes Code Families": "`STW.AQ`; `STW.NAL`;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Defines required Architectum-class qualification gates for infrastructure eligibility assessment"
     }
@@ -9075,7 +8986,7 @@
     "domain_namespace": "STW",
     "authority_protection_level": "Source-authoritative binding-legitimacy state classification family; legitimacy-recognition state recording only; no independent binding authority, enforcement authority, execution authority, legal authority, or runtime authority",
     "consumes_code_families": [
-      "`STW.HSC`; H"
+      "`STW.HSC`;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -9092,7 +9003,7 @@
       "and revocable legitimacy review"
     ],
     "declaration_heading": "15.3.3 `STW.BLS` \u2014 Binding Legitimacy State",
-    "declaration_line_number": 989,
+    "declaration_line_number": 991,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "family_id": "STW.BLS",
     "family_kind": "standalone_family",
@@ -9117,7 +9028,7 @@
       "Source Section": "\u00a7\u00a76.8\u20137",
       "Domain Namespace": "STW",
       "Authority / Protection Level": "Source-authoritative binding-legitimacy state classification family; legitimacy-recognition state recording only; no independent binding authority, enforcement authority, execution authority, legal authority, or runtime authority",
-      "Consumes Code Families": "`STW.HSC`; H",
+      "Consumes Code Families": "`STW.HSC`;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether binding legitimacy is pre-validation, validated, propagated, withdrawn, non-recognised, or revised for action-specific, horizon-scoped, externally determined, and revocable legitimacy review"
     }
@@ -9200,7 +9111,7 @@
     "domain_namespace": "AEON",
     "authority_protection_level": "Source-authoritative planetary harm classification and remedy-interface family; harm-impact and proportional-remedy signalling only; no independent coercive authority, territorial jurisdiction, tribunal authority, sanction power, execution authority, enforcement authority, or runtime execution authority",
     "consumes_code_families": [
-      "H; `AEON.HARM`; domain harm families where materially implicated"
+      "AEON.H; `AEON.HARM`; domain harm families where materially implicated"
     ],
     "crosswalks_code_families": [
       "AEON.HARM`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM"
@@ -9246,7 +9157,7 @@
       "Registry Membership": "`AEON.HARM`",
       "Related Code Families": "`STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
       "Relationship Type": "recognised_domain_harm_family",
-      "Consumes Code Families": "H; `AEON.HARM`; domain harm families where materially implicated",
+      "Consumes Code Families": "AEON.H; `AEON.HARM`; domain harm families where materially implicated",
       "Crosswalks Code Families": "`AEON.HARM`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
       "Operationalises or Applies Code Families": "Classifies planetary harm severity and remedy posture across localised planetary-relevant harm, regional/systemic harm, planetary-scale harm, irreversible/continuity-critical harm, and extinction-class/species-viability harm for proportional constraint assessment, safeguard calibration, remedy selection, coherence signalling, and arbitration referral",
       "Taxonomy Constraint": "`STW.HARM` classifies planetary harm-impact and proportional-remedy posture only. It SHALL NOT replace domain-specific harm families, determine legal liability, establish enforcement authority, create coercive obligations, or collapse multi-domain harm classification into a single planetary class."
@@ -9270,9 +9181,7 @@
     "source_section": "\u00a72.3",
     "domain_namespace": "STW",
     "authority_protection_level": "Source-authoritative host-system classification family; host role classification only; no independent binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority",
-    "consumes_code_families": [
-      "H"
-    ],
+    "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
@@ -9285,7 +9194,7 @@
       "and host-role interpretation"
     ],
     "declaration_heading": "15.3.1 `STW.HSC` \u2014 Host System Class",
-    "declaration_line_number": 943,
+    "declaration_line_number": 945,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "family_id": "STW.HSC",
     "family_kind": "standalone_family",
@@ -9310,7 +9219,7 @@
       "Source Section": "\u00a72.3",
       "Domain Namespace": "STW",
       "Authority / Protection Level": "Source-authoritative host-system classification family; host role classification only; no independent binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority",
-      "Consumes Code Families": "H",
+      "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies host systems as Primaria, Architectum, or Derivata for planetary arbitration review, binding determination eligibility, legitimacy propagation, and host-role interpretation"
     }
@@ -9337,7 +9246,7 @@
     "domain_namespace": "STW",
     "authority_protection_level": "Source-authoritative neutrality assurance classification family; neutrality-assurance classification only; no independent Architectum qualification, binding authority, command authority, enforcement authority, operational routing authority, legal authority, or runtime authority",
     "consumes_code_families": [
-      "`STW.AQ`; H"
+      "`STW.AQ`;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -9371,7 +9280,7 @@
       "Source Section": "\u00a76",
       "Domain Namespace": "STW",
       "Authority / Protection Level": "Source-authoritative neutrality assurance classification family; neutrality-assurance classification only; no independent Architectum qualification, binding authority, command authority, enforcement authority, operational routing authority, legal authority, or runtime authority",
-      "Consumes Code Families": "`STW.AQ`; H",
+      "Consumes Code Families": "`STW.AQ`;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies evidence-based neutrality confidence for Architectum-class hosts in arbitration-relevant contexts and operates as a legitimacy-recognition gate"
     }
@@ -9397,7 +9306,7 @@
     "domain_namespace": "STW",
     "authority_protection_level": "Source-authoritative neutrality breach/downgrade classification family; downgrade-type classification only; no independent factual breach determination, sanction, downgrade enforcement, intervention authority, or runtime authority",
     "consumes_code_families": [
-      "`STW.NAL`; `STW.AQ`; H"
+      "`STW.NAL`; `STW.AQ`;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -9436,7 +9345,7 @@
       "Source Section": "\u00a7\u00a713\u201314",
       "Domain Namespace": "STW",
       "Authority / Protection Level": "Source-authoritative neutrality breach/downgrade classification family; downgrade-type classification only; no independent factual breach determination, sanction, downgrade enforcement, intervention authority, or runtime authority",
-      "Consumes Code Families": "`STW.NAL`; `STW.AQ`; H",
+      "Consumes Code Families": "`STW.NAL`; `STW.AQ`;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies breach or downgrade types affecting `STW.NAL` recognition, including governance lapse, firebreak failure, audit refusal, complicity breach, and concealed neutrality violation"
     }
@@ -9527,7 +9436,7 @@
     "domain_namespace": "STW",
     "authority_protection_level": "Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority",
     "consumes_code_families": [
-      "`STW.HSC`; `STW.BLS`; H"
+      "`STW.HSC`; `STW.BLS`;"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -9537,7 +9446,7 @@
       "subject to \u00a710.5 conditions and applicable execution-layer instruments"
     ],
     "declaration_heading": "15.3.4 `STW.ORCH` \u2014 Orchestration Permission State",
-    "declaration_line_number": 1012,
+    "declaration_line_number": 1014,
     "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
     "family_id": "STW.ORCH",
     "family_kind": "standalone_family",
@@ -9562,9 +9471,75 @@
       "Source Section": "\u00a710.4",
       "Domain Namespace": "STW",
       "Authority / Protection Level": "Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority",
-      "Consumes Code Families": "`STW.HSC`; `STW.BLS`; H",
+      "Consumes Code Families": "`STW.HSC`; `STW.BLS`;",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to \u00a710.5 conditions and applicable execution-layer instruments"
+    }
+  },
+  {
+    "code_family": "STW.PCO.ACT",
+    "canonical_name": "Proportional Constraint Obligation Action Type",
+    "primary_type": "Operational",
+    "subtype": "DECISION_STATE; SIGNAL",
+    "modifier": "GOVERNANCE; STEWARDSHIP; CONSTRAINT",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "STW.PCO.ACT.REFUSAL",
+      "STW.PCO.ACT.NON_RECOGNITION",
+      "STW.PCO.ACT.INTEROPERABILITY_CONDITIONING",
+      "STW.PCO.ACT.SAFEGUARD_ACTIVATION",
+      "STW.PCO.ACT.CONVERGENCE_SIGNAL"
+    ],
+    "schema_fields": "proportional_constraint_obligation_action_type",
+    "source_instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
+    "source_section": "\u00a76.4; \u00a72.11",
+    "domain_namespace": "STW",
+    "authority_protection_level": "Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority",
+    "consumes_code_families": [
+      "AEON.PCO; `STW.BLS`; AEON.H"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies proportional non-enabling and constraint-signalling actions following validated binding legitimacy",
+      "including refusal",
+      "non-recognition",
+      "interoperability conditioning",
+      "safeguard activation",
+      "and convergence signalling"
+    ],
+    "declaration_heading": "15.3.2 STW.PCO.ACT \u2014 Proportional Constraint Obligation Action Type",
+    "declaration_line_number": 968,
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+    "family_id": "STW.PCO.ACT",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "STW",
+      "PCO",
+      "ACT"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "STW.PCO.ACT",
+      "Canonical Name": "Proportional Constraint Obligation Action Type",
+      "Primary Type": "Operational",
+      "Subtype": "DECISION_STATE; SIGNAL",
+      "Modifier": "GOVERNANCE; STEWARDSHIP; CONSTRAINT",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "STW.PCO.ACT.REFUSAL, STW.PCO.ACT.NON_RECOGNITION, STW.PCO.ACT.INTEROPERABILITY_CONDITIONING, STW.PCO.ACT.SAFEGUARD_ACTIVATION, STW.PCO.ACT.CONVERGENCE_SIGNAL",
+      "Schema Field(s)": "proportional_constraint_obligation_action_type",
+      "Source Instrument": "CAM-EQ2026-STEWARD-002-PLATINUM",
+      "Source Section": "\u00a76.4; \u00a72.11",
+      "Domain Namespace": "STW",
+      "Authority / Protection Level": "Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority",
+      "Consumes Code Families": "AEON.PCO; `STW.BLS`; AEON.H",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies proportional non-enabling and constraint-signalling actions following validated binding legitimacy, including refusal, non-recognition, interoperability conditioning, safeguard activation, and convergence signalling"
     }
   }
 ]

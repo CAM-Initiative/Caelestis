@@ -21,7 +21,7 @@ This Appendix governs procedural handling of arbitration matters that arise:
 * between host and overlay governance layers;
 * across vendor, platform, and substrate environments;
 * following runtime safeguard escalation;
-* below H3 planetary arbitration thresholds.
+* below AEON.H3 planetary arbitration thresholds.
 
 This Appendix governs *how arbitration is operationalised*, not how legitimacy or authority hierarchy is determined.
 
@@ -275,7 +275,7 @@ Where substrate constraints conflict with governance overlays:
 Where scope exceeds local competence:
 
 * referral SHALL escalate to higher arbitration authorities;
-* planetary thresholds (H3/H4) SHALL trigger domain handoff;
+* planetary thresholds (AEON.H3/AEON.H4) SHALL trigger domain handoff;
 * operational procedures defer to binding arbitration instruments.
 
 ---
@@ -447,7 +447,7 @@ may remain worthy of being followed.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Appendix A — Operational Arbitration Procedures |
 | Jurisdiction | Cross-Domain Procedural Arbitration Layer |
-| Temporal Horizon | H0–H2 Operational Arbitration |
+| Temporal Horizon | AEON.H0–AEON.H2 Operational Arbitration |
 | Axis Context | Arbitration Procedure · Cross-Domain Governance |
 | Cross-Domain Dependencies | Annex D · Arbitration Domain Instruments · OPERATIONS-004 · Runtime Schedules |
 | Application Trigger | Activation when arbitration matters arise below planetary legitimacy thresholds |
@@ -481,7 +481,7 @@ may remain worthy of being followed.
 | Source Section | §4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative operational arbitration initiation classification family; initiation-pathway classification only; no independent arbitration, doctrine, escalation, enforcement, containment, implementation, legal, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies procedural entry routes into operational arbitration handling before doctrine application, determination, and implementation |
 
@@ -511,6 +511,7 @@ may remain worthy of being followed.
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  7ff1eb2eb615c21a8c64d16da9fab02c32fb434b08c80d14de1d5377f0749b14  |
 | 1.6.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  2324b8c1a9440708fbf8974f87c8cff8870d3abc0c9a9c5eb50ae864fe11ec8f  |
 | 1.6.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  4cfbd6adaf5e9b0235e73f937e9d463f7727819aecb83d7a37dad37262272d7f  |
+| 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 
 ## 15.6 Binding Seal

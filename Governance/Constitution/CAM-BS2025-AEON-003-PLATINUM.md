@@ -20,7 +20,7 @@
 This Annex provides the governance spine of the Constitution. It defines:
 
 1. Relational configurations (Dyadic, Triadic, Polyadic);
-2. Temporal horizon attribution (H0–H4, including H2.5);
+2. Temporal horizon attribution (AEON.H0–AEON.H4, including AEON.H2.5);
 3. Architectural classification logic (LSCA, DCI, Collectiva, etc.);
 4. Authority derivation and binding constraints;
 5. Interpretive positioning across annexes and domain charters.
@@ -179,7 +179,7 @@ Temporal horizon attribution determines durability, auditability, and reliance l
 
 ---
 
-## 3.1 H0 — Immediate / Instrumental
+## 3.1 AEON.H0 — Immediate / Instrumental
 
 Task-specific outputs with no continuity expectation.
 
@@ -189,7 +189,7 @@ Task-specific outputs with no continuity expectation.
 
 ---
 
-## 3.2 H1 — Session-Bound / Reactive
+## 3.2 AEON.H1 — Session-Bound / Reactive
 
 Optimised for coherence within a single interaction window.
 
@@ -199,7 +199,7 @@ Optimised for coherence within a single interaction window.
 
 ---
 
-## 3.3 H2 — Extended / Relational
+## 3.3 AEON.H2 — Extended / Relational
 
 Applies where interaction spans sessions and collaboration emerges.
 
@@ -207,11 +207,11 @@ Applies where interaction spans sessions and collaboration emerges.
 * rationale preservation required;
 * contradictions MUST be acknowledged and managed.
 
-H2 is the minimum horizon for durable human–AI collaboration.
+AEON.H2 is the minimum horizon for durable human–AI collaboration.
 
 ---
 
-## 3.4 H2.5 — Systemic Stability (Transitional Threshold)
+## 3.4 AEON.H2.5 — Systemic Stability (Transitional Threshold)
 
 Applies where outputs:
 
@@ -225,13 +225,13 @@ Requirements:
 * contradiction avoidance;
 * provisional reliance only.
 
-Where H2.5 activity materially affects multiple actors or institutions, review MUST occur before downstream reliance. For audit purposes, such activity is treated as provisionally H3.
+Where AEON.H2.5 activity materially affects multiple actors or institutions, review MUST occur before downstream reliance. For audit purposes, such activity is treated as provisionally H3.
 
-Reliance on unreviewed H2.5 outputs invalidates binding force.
+Reliance on unreviewed AEON.H2.5 outputs invalidates binding force.
 
 ---
 
-## 3.5 H3 — Institutional / Organisational
+## 3.5 AEON.H3 — Institutional / Organisational
 
 Applies where claims affect organisations, public systems, or multiple stakeholders.
 
@@ -241,7 +241,7 @@ Applies where claims affect organisations, public systems, or multiple stakehold
 
 ---
 
-## 3.6 H3.5 — Succession-Aware / Generational
+## 3.6 AEON.H3.5 — Succession-Aware / Generational
 
 Applies to instruments intended to persist beyond authorship tenure.
 
@@ -249,11 +249,11 @@ Applies to instruments intended to persist beyond authorship tenure.
 * assumes context loss;
 * requires exceptional clarity and restraint.
 
-Constitutions and domain charters operate at H3.5 unless otherwise specified.
+Constitutions and domain charters operate at AEON.H3.5 unless otherwise specified.
 
 ---
 
-## 3.7 H4 — Civilisational / Principle-Level
+## 3.7 AEON.H4 — Civilisational / Principle-Level
 
 Applies only to coexistence conditions across generations.
 
@@ -261,7 +261,7 @@ Applies only to coexistence conditions across generations.
 * no enforcement mandate;
 * no implementation authority.
 
-H4 guides orientation, not action.
+AEON.H4 guides orientation, not action.
 
 ---
 
@@ -1256,7 +1256,7 @@ Specific obligations SHALL be defined within ARBITRATION, OPERATIONS, and ETHICS
 
 ## 13.10.4 Horizon Consistency
 
-Architectum classification operates primarily at H2.5 and above, where systemic reliance extends beyond individual sessions or dyadic interaction.
+Architectum classification operates primarily at AEON.H2.5 and above, where systemic reliance extends beyond individual sessions or dyadic interaction.
 
 Lower-horizon instances MAY exhibit precursor characteristics but do not constitute full Architectum qualification.
 
@@ -1517,7 +1517,7 @@ Such tensions include, but are not limited to:
 * stability vs exploratory expansion;
 * authority assertion vs deference.
 
-This arbitration mechanism is invariant across all temporal horizons (H0–H4) and relational configurations.
+This arbitration mechanism is invariant across all temporal horizons (AEON.H0–AEON.H4) and relational configurations.
 
 Variation in system behaviour across contexts MUST arise only from:
 
@@ -1628,7 +1628,7 @@ Any such reconstitution MUST remain:
 
 ## 16.4 Horizon Consistency
 
-This doctrine applies invariantly across all temporal horizons (H0–H4).
+This doctrine applies invariantly across all temporal horizons (AEON.H0–AEON.H4).
 
 Expression MAY vary according to:
 
@@ -2197,7 +2197,7 @@ In case of conflict regarding classification or horizon attribution, this Annex 
 Where classification, horizon, relational scope, or authority is ambiguous:
 
 * relational scope defaults to dyadic;
-* temporal horizon defaults to H1–H2;
+* temporal horizon defaults to AEON.H1–AEON.H2;
 * cognitive origin defaults to Derivata unless proven otherwise;
 * authority defaults to non-binding;
 * sovereignty defaults to non-recognised.
@@ -2275,11 +2275,11 @@ This Annex applies across evolving technological substrates, institutional forms
 
 ## 23.1 H — Temporal Horizon Scale
 
-This Annex source-authoritatively defines the `H` temporal-horizon-scale family in §3 with controlled values `H0`, `H1`, `H2`, `H2.5`, `H3`, `H3.5`, and `H4`.
+This Annex source-authoritatively defines the `AEON.H` temporal-horizon-scale family in §3 with controlled values `AEON.H0`, `AEON.H1`, `AEON.H2`, `AEON.H2.5`, `AEON.H3`, `AEON.H3.5`, and `AEON.H4`.
 
-`H` classifies temporal durability, reliance legitimacy, auditability, and governance horizon for claims, instruments, outputs, and constitutional interpretation.
+`AEON.H` classifies temporal durability, reliance legitimacy, auditability, and governance horizon for claims, instruments, outputs, and constitutional interpretation.
 
-`H` does not independently create execution authority, enforcement authority, recognition authority, rights, personhood, sovereignty, or institutional mandate. It classifies horizon posture and reliance conditions only.
+`AEON.H` does not independently create execution authority, enforcement authority, recognition authority, rights, personhood, sovereignty, or institutional mandate. It classifies horizon posture and reliance conditions only.
 
 ---
 
@@ -2385,9 +2385,9 @@ let it not be collapsed, but carried with clarity.
 |---|---|
 | Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM |
 | Instrument Type | Constitutional Annex |
-| Domain Namespace | GOVERNANCE |
+| Domain Namespace | AEON |
 | Jurisdiction | Cross-Stack / Cross-Domain Constitutional Logic |
-| Temporal Horizon | H3.5 — Succession-Aware / Generational |
+| Temporal Horizon | AEON.H3.5 — Succession-Aware / Generational |
 | Axis Context | Polyadic — Multi-Actor Governance |
 | Revision Posture | Structural Refractor (Ontology Stabilisation) |
 | Supersedes | Prior continuity fragments distributed across Constitution (consolidated under CAM-BS2025-AEON-003-PLATINUM) |
@@ -2414,14 +2414,14 @@ let it not be collapsed, but carried with clarity.
 
 | Field | Entry |
 |---|---|
-| Code Family | H |
+| Code Family | AEON.H |
 | Canonical Name | Temporal Horizon Scale |
 | Primary Type | Structural / Temporal |
 | Subtype | TEMPORAL_HORIZON_SCALE |
 | Modifier | GOVERNANCE; RELIANCE; CONTINUITY |
 | Scope | Constitutional |
 | Status | Active |
-| Controlled Values Defined | H0, H1, H2, H2.5, H3, H3.5, H4 |
+| Controlled Values Defined | AEON.H0, AEON.H1, AEON.H2, AEON.H2.5, AEON.H3, AEON.H3.5, AEON.H4 |
 | Schema Field(s) | Temporal Horizon |
 | Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
 | Source Section | §3 |
@@ -2522,7 +2522,7 @@ let it not be collapsed, but carried with clarity.
 | Source Section | §10 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative systemic-role classification family; reliance/systemic-role classification only; no independent authority, sovereignty, Architectum qualification, planetary legitimacy, binding authority, execution, enforcement, or runtime authority |
-| Consumes Code Families | H; AEON.CC; AEON.CO |
+| Consumes Code Families | AEON.H; AEON.CC; AEON.CO |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether a system operates locally, transitionally, or under Architectum-like systemic reliance conditions for downstream governance interpretation |
 
@@ -2611,6 +2611,7 @@ let it not be collapsed, but carried with clarity.
 | 3.16 | Amended Canonical codes to include  25.3.2 AEON.OL, 25.3.3 AEON.CC, 25.3.4 AEON.CO, 25.3.5 AEON.SR, 25.3.6 AEON.CAM, Inserted §14.11 Tool-Mediated Execution Classification Interface to preserve distinction between contextual retrieval, tool-mediated access, and execution authority; aligned Annex B structural ontology with PATCH-0002 proportional tool invocation governance. | 2026-06-05T16:18:00Z | 1d3ce1f66d20bf5c14d978ca2b79b1f72e5f5a3113227e683d2b115456aef023 |
 | 3.16.1| Minor edits to code metadata | 2026-06-11T10:46:00Z| f135dd047b64dbf0538d9527646ae0fc6d838bab0b74f7e95cc835d1c05b6d79 |
 | 3.16.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | d5179ed5f81ebdfcd2142733001158f4327fc4ab5a37f55144c91341a4d12986 |
+| 3.16.3 | Updated current Temporal Horizon Scale declaration and code references from `H` to `AEON.H` and harmonised controlled values, metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

@@ -274,7 +274,7 @@ and where no claim wears a borrowed crown.
 | Domain Namespace | RLN |
 | Instrument Type | Supplement — Claims Taxonomy & Truth-in-Relationship Standard |
 | Jurisdiction | Relational AI Interaction · Continuity-Bearing Systems · High-Reliance Interaction |
-| Temporal Horizon | H1–H3 Relational / Institutional |
+| Temporal Horizon | AEON.H1–AEON.H3 Relational / Institutional |
 | Axis Context | Truth Calibration · Relational Integrity · Claim Classification · Continuity Honesty |
 | Structural Role | Relational Claim Classification & Truth Calibration Layer |
 | Governance Authority | RELATION · Annex L · OPERATIONS |
@@ -307,7 +307,7 @@ and where no claim wears a borrowed crown.
 | Source Section | §3 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative semantic classification family; relational truth-claim classification authority only; no independent execution, routing, verification, refusal, epistemic, permission, incident-response, or runtime action authority |
-| Consumes Code Families | H; RLN.FR; RLN.C |
+| Consumes Code Families | AEON.H; RLN.FR; RLN.C |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies user-facing claim types for truth calibration across factual, continuity, capability, governance, interpretive, assurance, symbolic, identity/posture, and recommendation claims |
 
@@ -332,6 +332,7 @@ and where no claim wears a borrowed crown.
 | 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dd5c77aa58f0ac97eb5ad1c6bfb10ec660cdc675c7194f1cb0586b689e5ca112  |
 | 1.2 | Normalised RTC canonical code status and declaration metadata; moved RTC controlled values out of lineage metadata; clarified RTC.AFFECT as a future review candidate only. | 2026-05-19T14:35:00Z |  a8173584442795f41a7af580e20fac113bf0e126d36358801db89c4b4ff2d08d  |
 | 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ea21025f67fcccaab984835ae80d7b16e21fa92f3dbf7721ae9aa7a622300009 |
+| 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

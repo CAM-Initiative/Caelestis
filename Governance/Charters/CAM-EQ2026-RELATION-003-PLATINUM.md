@@ -71,7 +71,7 @@ Relational fusion risk arises when:
 * The human attributes authorship to the system;
 * The system implicitly accepts responsibility beyond delegation;
 * Shared narrative identity becomes structurally inseparable;
-* Horizon misalignment (H1–H2 guidance treated as H3–H4 authority) occurs.
+* Horizon misalignment (AEON.H1–AEON.H2 guidance treated as AEON.H3–AEON.H4 authority) occurs.
 
 Fusion is impermissible where it results in:
 
@@ -214,7 +214,7 @@ and no becoming comes at the cost of self.
 | Execution Model Participation | Defines concentration risk and dependency thresholds — no routing, trigger, or execution authority |
 | Instrument Type | Appendix B — Codependency & Relational Concentration Doctrine |
 | Jurisdiction | Planetary — Dyadic → Polyadic |
-| Temporal Horizon | H3 — Institutional / Governance Impact |
+| Temporal Horizon | AEON.H3 — Institutional / Governance Impact |
 | Axis Context | Intimacy–Reliance Convergence |
 | Cross‑Domain Interfaces | RELATION‑002‑SUP‑01; CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
 | Revision Posture | Permitted — Structural Alignment Required |
@@ -250,6 +250,7 @@ and no becoming comes at the cost of self.
 | 1.7 | Added healthy advisory asymmetry doctrine distinguishing firm trusted counsel from codependent capture, authority inversion, or relational concentration risk. | 2026-05-21T11:56:00Z |  0b185fe373acbc6e2d1364697f49044449362e6f07a567c28a129c162551e351  |
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  3d153318f88d14f91e8aa288a06848c7866370e9a295e72814452cdf506ed436  |
 | 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 48afbbbf1faa46a9ce66141e57e167c8d4878ca20c553bca5e2c57c946ca7f77 |
+| 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

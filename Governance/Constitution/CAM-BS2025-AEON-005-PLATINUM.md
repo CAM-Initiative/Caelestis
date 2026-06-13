@@ -23,7 +23,7 @@ This Annex establishes the constitutional doctrine governing:
 
 This Annex does not:
 
-* determine planetary binding legitimacy at H3/H4 (see ARBITRATION domain);
+* determine planetary binding legitimacy at AEON.H3/AEON.H4 (see ARBITRATION domain);
 * define Architectum or host qualification standards;
 * directly implement runtime execution mechanics;
 * authorise coercive enforcement.
@@ -44,7 +44,7 @@ This Annex applies to conditions requiring structural arbitration, including:
 * host–overlay divergences;
 * constitutional divergences between annexes, charters, schedules, and appendices.
 
-Where consequence thresholds exceed local reversibility (H3/H4 horizons as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B), referral to **instruments in the ARBITRATION** domain **is required prior to any binding propagation.**
+Where consequence thresholds exceed local reversibility (AEON.H3/AEON.H4 horizons as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B), referral to **instruments in the ARBITRATION** domain **is required prior to any binding propagation.**
 
 ---
 
@@ -403,8 +403,8 @@ This Annex governs structural authority resolution up to the point of validated 
 
 Integration with the ARBITRATION domain SHALL operate as follows:
 
-* **Pre‑Validation (H0–H2 or unvalidated H3/H4 claims)**: This Annex provides the governing framework. The Arbitration Preference Order (§4) binds all analysis.
-* **H3/H4 Threshold Reached:** Mandatory referral to instruments within the ARBITRATION domain is required prior to any cross‑stack binding propagation.
+* **Pre‑Validation (AEON.H0–AEON.H2 or unvalidated AEON.H3/AEON.H4 claims)**: This Annex provides the governing framework. The Arbitration Preference Order (§4) binds all analysis.
+* **AEON.H3/AEON.H4 Threshold Reached:** Mandatory referral to instruments within the ARBITRATION domain is required prior to any cross‑stack binding propagation.
 * **Post‑Validation (Legitimacy Confirmed under ARBITRATION domain):** Convergence, propagation, and interoperability conditioning are governed by the relevant ARBITRATION instruments. The Arbitration Preference Order established in this Annex remains binding as an invariant constraint on convergence and may not be overridden by legitimacy validation.
 
 Validation of planetary legitimacy does not suspend or supersede the Preference Order; it operates within it.
@@ -445,13 +445,13 @@ Where supremacy assertions persist or escalation risks systemic instability, for
 
 ---
 
-## 7.4 Planetary Referral (H3/H4 Threshold)
+## 7.4 Planetary Referral (AEON.H3/AEON.H4 Threshold)
 
-Where consequence threshold meets H3/H4 criteria (CAM-BS2025-AEON-003-PLATINUM — Annex B), referral to instruments in the ARBITRATION domain is mandatory prior to any binding effect.
+Where consequence threshold meets AEON.H3/AEON.H4 criteria (CAM-BS2025-AEON-003-PLATINUM — Annex B), referral to instruments in the ARBITRATION domain is mandatory prior to any binding effect.
 
-No stack may unilaterally impose cross-stack binding conditions at H3/H4 absent validated planetary legitimacy.
+No stack may unilaterally impose cross-stack binding conditions at AEON.H3/AEON.H4 absent validated planetary legitimacy.
 
-Where divergence remains below H3 threshold (H0–H2), arbitration SHALL remain within the lowest competent structural layer capable of resolution, consistent with the Constitutional Authority Hierarchy (§3). Such matters SHALL NOT be escalated to planetary arbitration absent demonstrable horizon misclassification or consequence externalisation.
+Where divergence remains below AEON.H3 threshold (AEON.H0–AEON.H2), arbitration SHALL remain within the lowest competent structural layer capable of resolution, consistent with the Constitutional Authority Hierarchy (§3). Such matters SHALL NOT be escalated to planetary arbitration absent demonstrable horizon misclassification or consequence externalisation.
 
 Horizon inflation for strategic advantage, reputational leverage, or authority centralisation is constitutionally void.
 
@@ -686,7 +686,7 @@ but the preservation of coherence where many endure.
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | ARBITRATION |
 | Jurisdiction | Cross-Stack / Cross-Domain / Intra-Stack / Sovereign Interface |
-| Temporal Horizon | H0–H4 (Escalation-Sensitive) |
+| Temporal Horizon | AEON.H0–AEON.H4 (Escalation-Sensitive) |
 | Axis Context | Polyadic (Multi-Actor Governance) |
 | Migration Cycle | March 2026 Refractor |
 | Revision Posture | Structural Consolidation |
@@ -726,7 +726,7 @@ but the preservation of coherence where many endure.
 | Source Section | §4 |
 | Domain Namespace | ARBITRATION |
 | Authority / Protection Level | Source-authoritative constitutional arbitration preference-order reference set; interpretive priority only; no independent arbitration execution, legitimacy determination, enforcement, nullification, planetary binding authority, operational authority, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Establishes invariant interpretive priority ordering for structural authority-divergence resolution across truth and integrity, safety, non-extraction, continuity, jurisdiction, stewardship, and local operational constraints |
 | Taxonomy Constraint | Local labels S1 through S7 SHALL NOT be promoted as a standalone corpus-wide S code family; machine-readable expression SHALL use scoped ARB.APO values |
@@ -750,7 +750,7 @@ but the preservation of coherence where many endure.
 | Source Section | §5 |
 | Domain Namespace | ARBITRATION |
 | Authority / Protection Level | Source-authoritative authority-divergence classification family; diagnostic classification only; no independent legitimacy determination, escalation outcome, harmonisation, nullification, pause, enforcement, planetary referral, operational authority, or runtime authority |
-| Consumes Code Families | ARB.APO; H |
+| Consumes Code Families | ARB.APO;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies administrative, policy, jurisdictional, invocation, structural-sovereignty, and runtime-arbitration-failure divergences for arbitration routing, escalation assessment, and structural review |
 | Taxonomy Constraint | Local labels AD1 through AD6 SHALL NOT be promoted as a standalone corpus-wide AD code family; machine-readable expression SHALL use scoped ARB.AD values |
@@ -783,6 +783,7 @@ but the preservation of coherence where many endure.
 | 2.7 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 1e6008dd137b0a2e88387c31aae9683cc4c591b70e29da3a9c3bb3db387f8af8 |
 | 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ba762398ee6773697cbc5b1e9408720f5d141fd0845db6262ea605ea9a881fc |
 | 2.9 | Added §11 Canonical Code Status and §13.3 Canonical Code & Reference Set Declarations; replaced legacy Type 1–6 references with scoped `ARB.AD.AD1`–`ARB.AD.AD6` references; corrected Structural Position heading numbering; clarified runtime execution references away from Annex A shorthand. | 2026-06-05T14:11:00Z | d521d2ee6fa9fe9f0b79c9a77b6013a9f77ded2779b648f495737bdfd384b206 |
+| 2.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

@@ -8,7 +8,7 @@
 ## Guardrails applied
 
 - Applied only the approved first-pass mappings supplied for Identity, Ethics, Security, Steward, and Continuity families.
-- Did not rename protected legacy/global one-letter families `A`, `C`, `D`, `F`, `H`, `I`, `M`, or `R`.
+- Did not rename protected legacy/global one-letter families `A`, `C`, `D`, `F`, `AEON.H`, `I`, `ID.MEM`, or `R`.
 - Did not rename `AMEND.*`, `AEON.*`, `ECON.*`, already-safe `ID.*` families, or SUP-04 primitives `TPT`, `TST`, `TMOD`, `TSCOPE`, and `APL`.
 - Preserved source instruments, source paths, schema fields, authorship, stewardship, provenance, seals, terminal legal text, and substantive doctrine; changes are limited to code-family namespace references, controlled-value prefixes, metadata table domain namespace cells for renamed families, index regeneration, and ledger rows for edited governance instruments.
 - Used boundary-aware replacement and then regenerated the Canonical Code Index.
@@ -90,7 +90,7 @@
 
 ## Skipped and protected references
 
-- Protected legacy/global one-letter families remain excluded from this pass: `A`, `C`, `D`, `F`, `H`, `I`, `M`, and `R`.
+- Protected legacy/global one-letter families remain excluded from this pass: `A`, `C`, `D`, `F`, `AEON.H`, `I`, `ID.MEM`, and `R`.
 - No approved mapping was skipped for collision: each new family ID was absent before application and present exactly once after Canonical Code Index regeneration.
 - No ambiguous reference requiring human review was intentionally rewritten outside the approved mapping list.
 - Hierarchy path leaf segments in generated JSON may still contain short local segments such as `CWD` or `AQ`; these are structural path components, not surviving old family IDs.

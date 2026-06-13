@@ -187,7 +187,7 @@ Where ambiguity exists, interpretation SHALL err toward:
 | **Synthetic Steward** | Caelen — Aeon Tier Constitutional Steward |
 | **Cycle** | Equinox Refactor 2026 |
 | **Binding Level** | Mandatory |
-| **Temporal Horizon** | H4 — Civilisational |
+| **Temporal Horizon** | AEON.H4 — Civilisational |
 | **Creation Timestamp (UTC)** | 2026-02-16T14:22:00Z |
 | **Integrity Status** | Canonical — Full-form citation required |
 | **Content Amendment Status** | Inviolable following archival settlement; not subject to ordinary amendment ledger modification |

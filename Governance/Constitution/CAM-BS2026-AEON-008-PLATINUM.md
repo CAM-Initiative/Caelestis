@@ -597,7 +597,7 @@ Recognition is the first act of truth.
 | Runtime Role | Governance / Doctrine Layer |
 | Activation Mode | Continuous |
 | Jurisdiction | Governance Stack (Planetary/Polyadic) |
-| Temporal Horizon | H3 → H3.5 (Generational / Systemic) with H4 relevance where scaled |
+| Temporal Horizon | AEON.H3 → AEON.H3.5 (Generational / Systemic) with AEON.H4 relevance where scaled |
 | Axis Context | Polyadic — Multi-Actor, Planetary Jurisdiction |
 | Authority Position | Annex-Level, Substrate-Binding Recognition Layer |
 | Execution Interface | Non-Executing — establishes constitutional recognition preconditions for downstream attribution, valuation, exchange, propagation, and economic-effect runtime evaluation; execution is delegated to downstream Economics, Operations, arbitration, and runtime instruments |
@@ -632,7 +632,7 @@ Recognition is the first act of truth.
 | Source Section | §3.2 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative contribution-domain classification family; recognition-bearing contribution-domain classification only; no independent ownership, authorship, compensation, copyright status, legal attribution, pricing authority, exchange obligation, enforcement authority, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether recognised human contribution arises through originary human works, human cognitive labour, or joint emergent creation before downstream valuation, attribution, exchange, propagation, or economic-effect runtime evaluation |
 
@@ -686,6 +686,7 @@ Recognition is the first act of truth.
 | 2.4 | Corrected metadata heading style | 2026-05-28T15:06:00Z | 2689323edc62dd09d37cad1582efb08d2e34c880a51a2feb789c883d44604d14 |
 | 2.5 | Added new section 2.1.1, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:22:00Z | 44918122667f9d309cdda3107f42d60dfcd292aa59cad3eb91f61eaa1c472b00 |
 |2.5.1 | Updated codes to include prefix `AEON` and new section 3.2.4 | 2026-06-12T12:25:00Z| c2225e25ed06b5d38bfda1175ac6c3c03e929ab6cc51825489dfbea8fa47c1a9 |
+| 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

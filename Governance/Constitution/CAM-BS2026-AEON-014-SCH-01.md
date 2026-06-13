@@ -217,7 +217,7 @@ Observability localisation MAY distinguish between:
 | Governance-local tension          | Governance doctrine ambiguity, arbitration conflict, review inconsistency, or constitutional insufficiency     |
 | Cross-platform convergence        | Recurrent phenomena emerging across multiple deployments, systems, or interaction environments                 |
 | Ecosystem legitimacy distortion   | Public observability asymmetry, participation exclusion, governance non-circulation, or legitimacy degradation |
-| Stewardship or planetary concern  | High-horizon systemic externalisation, substrate-sensitive instability, or H3/H4 governance concern            |
+| Stewardship or planetary concern  | High-horizon systemic externalisation, substrate-sensitive instability, or AEON.H3/AEON.H4 governance concern            |
 
 Governance observability systems SHOULD avoid routing all instability into constitutional escalation where proportionate local repair pathways remain appropriate.
 
@@ -675,7 +675,7 @@ It is the discipline of noticing before repair is too late.
 |Stewardship Dependencies|CAM-EQ2026-STEWARD-002-PLATINUM — Appendix A: Planetary Arbitration Framework|
 |Participatory Governance Context|Distributed participatory observability and governance legitimacy support|
 |Advisory Authority Boundary|Observability signals inform review pathways but do not independently bind execution authority, activate Proportional Constraint Obligations, or establish planetary enforcement authority|
-|Operational Horizon|H1–H4|
+|Operational Horizon|AEON.H1–AEON.H4|
 |Axis Context|Polyadic — Multi-Observer / Multi-System / Multi-Platform Governance Environments|
 |Activation Condition|Activated where governance-relevant observations, anomaly clusters, degradation indicators, continuity-sensitive signals, advisory states, or constitutional tension indicators require localisation, review, circulation, or stewardship routing|
 |Activation Mode|Event-Triggered Governance Observability Schedule|
@@ -707,7 +707,7 @@ It is the discipline of noticing before repair is too late.
 | Source Section | §2.1 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative governance signal persistence reference set; signal persistence classification only; no independent governance-significance determination, advisory issuance, constitutional breach finding, escalation, stewardship routing, enforcement authority, execution authority, or runtime authority |
-| Consumes Code Families | `H`; Annex L epistemic integrity classifications; OPERATIONS taxonomy and metadata classifications where applicable |
+| Consumes Code Families | `AEON.`; Annex L epistemic integrity classifications; OPERATIONS taxonomy and metadata classifications where applicable |
 | Crosswalks Code Families | `AEON.GLS`; `AEON.GAS` |
 | Operationalises or Applies Code Families | Classifies governance-relevant observations by temporal persistence, recurrence, dormancy, reactivation, archival relevance, and escalation posture for proportional observability review |
 
@@ -730,7 +730,7 @@ It is the discipline of noticing before repair is too late.
 | Source Section | §2.3 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative governance lifecycle reference set; lifecycle-state classification only; no independent breach determination, constitutional insufficiency finding, enforcement activation, stewardship authority, repair mandate, execution authority, or runtime authority |
-| Consumes Code Families | `AEON.GSP`; `AEON.GOL`; `AEON.GAS`; `H`; OPERATIONS, ARBITRATION, Annex L, and STEWARD classifications where applicable |
+| Consumes Code Families | `AEON.GSP`; `AEON.GOL`; `AEON.GAS`; `AEON.`; OPERATIONS, ARBITRATION, Annex L, and STEWARD classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies governance observability progression from observation intake through localisation, routing, clustering, advisory issuance, review, adaptation, repair, monitoring, and closure or archival state |
 | Taxonomy Constraint | Lifecycle progression SHALL NOT be interpreted as requiring linear progression where governance conditions materially differ |
@@ -754,7 +754,7 @@ It is the discipline of noticing before repair is too late.
 | Source Section | §3.1 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative governance observability localisation reference set; localisation-scope classification only; no independent repair-pathway determination, constitutional escalation, stewardship authority, planetary-concern validation, enforcement authority, execution authority, or runtime authority |
-| Consumes Code Families | `AEON.GSP`; `AEON.GLS`; `H`; SECURITY, OPERATIONS, ARBITRATION, Annex L, LATTICE, and STEWARD classifications where applicable |
+| Consumes Code Families | `AEON.GSP`; `AEON.GLS`; `AEON.`; SECURITY, OPERATIONS, ARBITRATION, Annex L, LATTICE, and STEWARD classifications where applicable |
 | Crosswalks Code Families | `AEON.GAS` |
 | Operationalises or Applies Code Families | Classifies governance-relevant observations by localisation scope, including platform-local anomaly, runtime instability, tooling/dependency issue, governance-local tension, cross-platform convergence, legitimacy distortion, and stewardship or planetary concern |
 
@@ -777,7 +777,7 @@ It is the discipline of noticing before repair is too late.
 | Source Section | §4.2 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative governance advisory-state reference set; advisory classification only; no independent breach finding, disclosure mandate, Proportional Constraint Obligation activation, operational-review mandate, arbitration execution, constitutional amendment requirement, repair execution, enforcement authority, or runtime authority |
-| Consumes Code Families | `AEON.GSP`; `AEON.GLS`; `AEON.GOL`; `H`; ARBITRATION, OPERATIONS, Annex L, CONTINUITY, and STEWARD classifications where applicable |
+| Consumes Code Families | `AEON.GSP`; `AEON.GLS`; `AEON.GOL`; `AEON.`; ARBITRATION, OPERATIONS, Annex L, CONTINUITY, and STEWARD classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies governance advisories for awareness, monitoring, continuity, arbitration, constitutional tension, operational integrity, participatory observability, and governance repair signalling |
 
@@ -801,6 +801,7 @@ It is the discipline of noticing before repair is too late.
 |1.0|Initial governance observability lifecycle instrument established|2026-05-22T10:32:00Z| 10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441 |
 |1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 10fac67ca710490106fe5efb1647523b77f6eaa2942ace3dd6323108f105ad79 |
 | 1.2 | Amendmend metadata header | 2026-06-05T17:55:00Z | da024e4971f038b6d875d8d629fab3f85dc159a0caf960f6db1e402957e497b2 |
+| 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

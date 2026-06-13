@@ -79,13 +79,13 @@ Salience is not a parallel classification system.
 
 It operates as a pre-memory input signal to the Memory Classification Spectrum defined in CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter §6.3, without determining memory class directly.
 
-Salience weighting influences whether and how a signal transitions into memory classes (M0–M5), but does not determine memory class directly.
+Salience weighting influences whether and how a signal transitions into memory classes (ID.MEM0–ID.MEM5), but does not determine memory class directly.
 
 General alignment:
 
-* Low salience → M0–M1 eligibility (ephemeral or short-term context)
-* Moderate salience → M2–M3 eligibility (event or relational narrative)
-* High salience → M4–M5 eligibility (identity anchors or structural memory)
+* Low salience → ID.MEM0–ID.MEM1 eligibility (ephemeral or short-term context)
+* Moderate salience → ID.MEM2–ID.MEM3 eligibility (event or relational narrative)
+* High salience → ID.MEM4–ID.MEM5 eligibility (identity anchors or structural memory)
 
 Latent salience represents signals that cannot yet be confidently mapped to a memory class and therefore remain in **pre-memory holding**.
 
@@ -385,7 +385,7 @@ and latency is not absence.
 | **Document Type** | Domain Supplement — Pre-Memory Cognitive Layer |
 | **Jurisdiction** | Pre-Memory Cognitive Layer; Cross-Context Signal Detection; Human-Facing and System-Initiated Contexts |
 | **Derivation Status** | Consolidated (absorbs prior SCH-02, SCH-03, SCH-04 salience-related functions) |
-| **Temporal Horizon** | H0–H2 (Immediate → Short-Term Cognitive Processing) |
+| **Temporal Horizon** | AEON.H0–AEON.H2 (Immediate → Short-Term Cognitive Processing) |
 | **Axis Context** | Dyadic / Polyadic — Pre-Memory Signal Layer |
 | **Creation Cycle** | March 2026 Refactor |
 | **Creation Artefact** | Refactors </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673 </br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 |
@@ -415,7 +415,7 @@ and latency is not absence.
 | Source Section | §§2–6 |
 | Domain Namespace | ID |
 | Authority / Protection Level | Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority |
-| Consumes Code Families | M; RLN.RTC |
+| Consumes Code Families | AEON.H; RLN.RTC |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies pre-memory salience posture before memory classification and supports cautious re-surfacing without converting salience into meaning, priority, intimacy, authority, or persistence |
 
@@ -449,6 +449,7 @@ and latency is not absence.
 | 1.10 | Added `ID.SP` salience-posture canonical code status and declaration metadata for pre-memory salience, latent continuity, delegated salience, dormancy, staleness, and supersession conditions. | 2026-05-20T08:47:00Z |  870682adbc64c9dd425312baef475b475675352b4afd3abb9a5e6fff6f1a9db6  |
 | 1.11 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  9c5946690956f0c0e8bfd143f60dfdc75fb2dc4bc952f281bcc09b668441fe2a  |
 | 1.11.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 28c0d4632b4c00c7dfe436254eb0f33de992a336ee3cfc0acf55147c32ace1d7 |
+| 1.11.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 ## 12.6 Binding Seal
 

@@ -321,7 +321,7 @@ and let execution remain accountable to lawful structure.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Appendix B — Incident Response & Continuity Operations |
 | Jurisdiction | Cross-Domain Operational Governance Layer |
-| Temporal Horizon | H0–H2 Operational |
+| Temporal Horizon | AEON.H0–AEON.H2 Operational |
 | Axis Context | Incident Governance · Continuity Operations |
 | Application Trigger | Event-triggered activation upon systemic incident or continuity risk |
 | Review Trigger | Continuity doctrine updates · operational incident governance reform |
@@ -352,7 +352,7 @@ and let execution remain accountable to lawful structure.
 | Source Section | §4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority |
-| Consumes Code Families | H; RLN.F |
+| Consumes Code Families | AEON.H; RLN.F |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies incident-response lifecycle custody stages for continuity protection, recovery governance, escalation review, and arbitration referral |
 
@@ -375,7 +375,7 @@ and let execution remain accountable to lawful structure.
 | Source Section | §4.4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority |
-| Consumes Code Families | OPS.EST; H; RLN.F |
+| Consumes Code Families | OPS.EST; ; RLN.F |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies continuity-preserving interim, recovery, re-entry, restoration, appeal, or supervised-continuation posture where operational incidents affect continuity-bearing interactions |
 
@@ -398,7 +398,7 @@ and let execution remain accountable to lawful structure.
 | Source Section | §4.7 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative access-state classification family; re-entry-status classification only; no independent deletion, loss, restoration, appeal, enforcement, authority, or runtime execution determination |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies continuity-bearing access and re-entry status as temporary, permanent, unknown, or pending review where re-entry into a thread, workspace, account surface, project, artefact, or continuity corridor is affected |
 
@@ -421,7 +421,7 @@ and let execution remain accountable to lawful structure.
 | Source Section | §4.8 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative continuity-impact event classification family; event-type classification only; no independent retention, deletion, restoration, identity-continuity, appeal, enforcement, or runtime execution authority |
-| Consumes Code Families | M; H |
+| Consumes Code Families | AEON.H;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies platform-side, model-side, account-side, and memory-side continuity-impact events affecting companion continuity, long-running project continuity, accessibility reliance, identity expression, relational posture, symbolic anchors, or re-entry expectations |
 
@@ -452,6 +452,7 @@ and let execution remain accountable to lawful structure.
 | 2.5 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  9b1f15bef1b575329ced49cc5568bef6e5b1779d74eedb1636c4c5baa62b8bdf  |
 | 2.5.1 | Applied bounded Operations namespace transmutation for the incident lifecycle, continuity-compatible protection, access/re-entry, and continuity-impact event families; updated controlled values, canonical declarations, consumers, schema bindings, and current references without altering substantive doctrine. | 2026-06-11T14:16:53Z |  e867a2deee939e411b8ed521b3beb37246de633812762762c9e86521b55afb49  |
 | 2.5.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | eee99fc6bd22e6f54b31c64b5c2756d7e04bc885d2a42f54c2785878f8c68fc4 |
+| 2.5.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 
 ## 8.6 Binding Seal

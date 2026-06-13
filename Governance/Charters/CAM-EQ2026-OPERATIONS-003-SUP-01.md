@@ -1668,9 +1668,9 @@ This Supplement source-authoritatively defines the `FF` failure-family classific
 
 `FF` does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, compensation entitlement, liability determination, ownership determination, or runtime authority. It classifies failure family only.
 
-Where sub-family specificity is required for governance failures, this Supplement recognises `FF.GOVERNANCE_OVER_EXTENSION` and `FF.ACCESS_STATE_AMBIGUITY` as controlled governance-failure values under `FF.GOVERNANCE`.
+Where sub-family specificity is required for governance failures, this Supplement recognises `OPS.FF.GOVERNANCE_OVER_EXTENSION` and `OPS.FF.ACCESS_STATE_AMBIGUITY` as controlled governance-failure values under `OPS.FF.GOVERNANCE`.
 
-Where economic, visibility, legitimacy, attribution, public-square, participation, access-value, reputational-value, or platform-mediated economic harm is the primary structural failure, this Supplement recognises `FF.ECONOMIC_LEGITIMACY` as a controlled failure-family value corresponding to §3.11.
+Where economic, visibility, legitimacy, attribution, public-square, participation, access-value, reputational-value, or platform-mediated economic harm is the primary structural failure, this Supplement recognises `OPS.FF.ECONOMIC_LEGITIMACY` as a controlled failure-family value corresponding to §3.11.
 
 ---
 
@@ -1742,7 +1742,7 @@ and review before denial.
 | **Domain Namespace** | OPERATIONS |
 | **Instrument Type** | Supplement — Runtime & Governance Failure Taxonomy |
 | **Jurisdiction** | Cross-Domain Operational Incident Classification Layer |
-| **Temporal Horizon** | H0–H3 Operational / Institutional |
+| **Temporal Horizon** | AEON.H0–AEON.H3 Operational / Institutional |
 | **Axis Context** | Polyadic - Runtime Failure · Governance Failure · UX Trust · Incident Classification |
 | **Structural Role**        | Runtime Observability & Failure Classification Layer                |
 | **Governance Authority**   | OPERATIONS · SECURITY · Annex D · Annex L                           |
@@ -1769,20 +1769,20 @@ and review before denial.
 
 | Field | Entry |
 |---|---|
-| Code Family | FF |
+| Code Family | OPS.FF |
 | Canonical Name | Failure Family |
 | Primary Type | Operational / Semantic |
 | Subtype | RISK; OPERATIONAL_EVENT |
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION, FF.GOVERNANCE_OVER_EXTENSION, FF.ACCESS_STATE_AMBIGUITY |
+| Controlled Values Defined | OPS.FF.EXECUTION, OPS.FF.ARBITRATION, OPS.FF.EPISTEMIC, OPS.FF.RELATIONAL, OPS.FF.SECURITY_INTEGRITY, OPS.FF.STATE_CONTEXT, OPS.FF.UX_REPRESENTATION, OPS.FF.GOVERNANCE, OPS.FF.INFRASTRUCTURE_CONTINUITY, OPS.FF.CLASSIFICATION, OPS.FF.GOVERNANCE_OVER_EXTENSION, OPS.FF.ACCESS_STATE_AMBIGUITY |
 | Schema Field(s) | failure_family |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §3 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes |
 
@@ -1805,7 +1805,7 @@ and review before denial.
 | Source Section | §4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative structural metadata-axis reference set; failure-report metadata structure only; no independent classification, severity, enforcement, escalation, remediation, verification, or runtime authority |
-| Consumes Code Families | FF; FCS |
+| Consumes Code Families | OPS.FF; OPS.FCS |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, governance-over-extension, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes |
 
@@ -1828,7 +1828,7 @@ and review before denial.
 | Source Section | §4.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative structural metadata-axis reference set; architectural and governance-context metadata preservation only; no independent governance authority, arbitration outcome, verification status, trust status, deployment status, remediation, enforcement, escalation, or runtime authority |
-| Consumes Code Families | FF; FCS; OPS.VL; OPS.AV |
+| Consumes Code Families | OPS.FF; OPS.FCS; OPS.VL; OPS.AV |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Preserves architectural origin, governance layer, governance authority, structural role, execution interface, arbitration interface, verification state, trust state, and deployment state for runtime failure analysis |
 
@@ -1838,20 +1838,20 @@ and review before denial.
 
 | Field | Entry |
 |---|---|
-| Code Family | FCS |
+| Code Family | OPS.FCS |
 | Canonical Name | Failure Classification Status |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE; SIGNAL |
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | FCS.CONFIRMED, FCS.PROVISIONAL, FCS.UNRESOLVED, FCS.DEPRECATED, FCS.MERGED, FCS.PENDING_REVIEW |
+| Controlled Values Defined | OPS.FCS.CONFIRMED, OPS.FCS.PROVISIONAL, OPS.FCS.UNRESOLVED, OPS.FCS.DEPRECATED, OPS.FCS.MERGED, OPS.FCS.PENDING_REVIEW |
 | Schema Field(s) | failure_classification_status |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative failure-classification-status family; record-status classification only; no independent incident truth confirmation, severity determination, enforcement, review closure, remediation, escalation, or runtime authority |
-| Consumes Code Families | FF |
+| Consumes Code Families | OPS.FF |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether a failure record is confirmed, provisional, unresolved, deprecated, merged, or pending review |
 
@@ -1887,6 +1887,7 @@ and review before denial.
 | 1.12 | Added clauses §3.8.6.1, updated §3.11; clarified multi-vendor account-enforcement, continuity-safe access, read-only/export access, appeal-pathway, billing-evidence, project-context, and coding-agent continuity axes. Added clause 3.7.7. See VIGIL-2026-PATCH-0003 and VIGIL-2026-PATCH-0005 | 2026-06-06T11:47:00Z | c73e73d92976e4fee4f21e72a4652bf1edaf8c93db6c98244b96b83b13dca915 |
 | 1.13 | Added taxonomy entries for minor-signal non-enforcement, dependency-forming AI companions, AI realness/sentience misrepresentation to minors, teen mental-health support substitution, and self-attestation age-gate inadequacy. | 2026-06-09T14:46:00Z | b49690de8f895ea478b05301225d74194eb58e4ceb1f4ead570f85092f554c00 |
 | 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  132eb00dea633396490a386f0660ec8d1b034e88db845c7fdfd79d9f96a674e4  |
+| 1.13.2 | Applied final bare-family namespace transmutation for failure taxonomy, temporal horizon, and Operations failure-classification-status families; updated controlled values, canonical references, consumers, crosswalks, and metadata without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 
 ## 11.6 Binding Seal

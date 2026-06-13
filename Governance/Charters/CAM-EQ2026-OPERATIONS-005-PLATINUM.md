@@ -400,7 +400,7 @@ and let execution remain accountable to lawful structure.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Appendix D — Change Governance & Amendment Operations |
 | Jurisdiction | Cross-Domain Operational Governance Layer |
-| Temporal Horizon | H0–H2 Operational |
+| Temporal Horizon | AEON.H0–AEON.H2 Operational |
 | Axis Context | Amendment Operations · Governance Versioning |
 | Application Trigger | Event-triggered activation upon amendment intake or governance drift signal |
 | Review Trigger | Amendment doctrine updates · indexing and harmonisation reforms |
@@ -558,6 +558,7 @@ and let execution remain accountable to lawful structure.
 | 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 9edd986398147639a214c8200a3d752d83682f63b52ed3d3f39c0f56fb895ad4 | 
 | 2.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z | 2127574125234f1851a480752f39b3637425d37968264617f332dfd0922728b0 | 
 | 2.3 | Completed pre-enforcement review metadata alignment and normalised amendment ledger hash formatting. | 2026-06-01T14:30:00Z | 05591d918621b319d1a8c30e2d0bac883cac6404d7b9b93ed89c8b2d59059806 |
+| 2.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

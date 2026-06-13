@@ -66,7 +66,7 @@ EIP assessment MUST account for cumulative interaction across four structural ve
 
 1. **Relational Proximity** — degree of intimacy, continuity, or affective salience.
 
-   For governance purposes, Relational Proximity crosses a functional threshold where sustained context retention across multiple sessions produces materially recognisable relational continuity. This includes systems operating at or above H2 temporal continuity (as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B), and especially where H3+ horizons introduce identity persistence, advisory reliance, or governance influence across time;
+   For governance purposes, Relational Proximity crosses a functional threshold where sustained context retention across multiple sessions produces materially recognisable relational continuity. This includes systems operating at or above AEON.H2 temporal continuity (as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B), and especially where AEON.H3+ horizons introduce identity persistence, advisory reliance, or governance influence across time;
 
 2. **Authority Conversion** — ability to translate outputs into decisions, delegation, or executive effect;
 
@@ -74,7 +74,7 @@ EIP assessment MUST account for cumulative interaction across four structural ve
 
 4. **Dependency Formation** — sustained reliance exceeding incidental or task-bound interaction.
 
-   Dependency Formation becomes structurally significant where interaction spans multiple temporal horizons (H2+), or where system outputs are routinely integrated into behavioural, institutional, or executive decision cycles across sessions. Reference to temporal horizon classifications (H-values) MUST align with Annex B continuity doctrine.
+   Dependency Formation becomes structurally significant where interaction spans multiple temporal horizons (AEON.H2+), or where system outputs are routinely integrated into behavioural, institutional, or executive decision cycles across sessions. Reference to temporal horizon classifications (H-values) MUST align with Annex B continuity doctrine.
 
 These vectors are dynamic and may escalate cumulatively.
 
@@ -113,7 +113,7 @@ Elevation of ethical tier may occur based on contextual factors including but no
 
 * Intimacy-capable system design;
 * Identity persistence across sessions;
-* Advisory or governance influence at H3 or above;
+* Advisory or governance influence at AEON.H3 or above;
 * Population-scale deployment;
 * Integration into public institutional decision-making;
 * Cross-border influence or civilisational reliance;
@@ -138,7 +138,7 @@ For the purposes of this Charter, Ethical Tiers represent graduated governance i
 
 Systems whose EIP remains confined to task-bound, non-persistent, low-authority contexts.Characteristics typically include:
 
-* No sustained H2+ relational continuity;
+* No sustained AEON.H2+ relational continuity;
 * No delegation or executive conversion capacity;
 * No infrastructure integration;
 * No population-scale influence pathways.
@@ -149,7 +149,7 @@ Tier I systems require internal review upon material change but are not subject 
 
 ### 3.6.2 Tier II — Elevated Impact Systems
 
-Systems exhibiting one or more sustained EIP vector elevations, including H2+ continuity, advisory integration, moderate authority conversion, or institutional embedding without backbone-level influence.
+Systems exhibiting one or more sustained EIP vector elevations, including AEON.H2+ continuity, advisory integration, moderate authority conversion, or institutional embedding without backbone-level influence.
 
 Tier II systems require documented review, designated accountable governance officers, and structured EIA processes.
 
@@ -159,7 +159,7 @@ Tier II systems require documented review, designated accountable governance off
 
 Systems demonstrating multi-vector EIP elevation, including but not limited to:
 
-* H3+ relational or advisory continuity;
+* AEON.H3+ relational or advisory continuity;
 * Direct authority conversion into executive or policy effect;
 * Population-scale reach;
 * Integration into public institutional decision-making;
@@ -199,7 +199,7 @@ EIA operates as a pre-deployment and periodic governance instrument and does not
 Formal Ethical Impact Assessment is mandatory for:
 
 * All systems operating at Tier II or above;
-* Any system entering H2.5+ influence contexts;
+* Any system entering AEON.H2.5+ influence contexts;
 * Intimacy-capable systems;
 * Identity-persistent deployments;
 * Military or use-of-force integrations;
@@ -545,7 +545,7 @@ let governance arrive before it is needed.
 |Derives From|CAM-BS2025-AEON-006-PLATINUM — Annex E|
 |Domain Namespace|ETHICS|
 |Jurisdiction|Planetary — Civilian, Corporate, State, Military, Intelligence, and Hybrid Deployments|
-|Temporal Horizon|H3.5 — Succession-Aware / Generational|
+|Temporal Horizon|AEON.H3.5 — Succession-Aware / Generational|
 |Axis Context|Polyadic — Multi-Actor Governance|
 |Runtime Layer Interface|Representation · Domain Routing · Execution Constraint (via SCH-04, SCH-02, SCH-01)|
 |Registry Binding|CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)|
@@ -585,7 +585,7 @@ let governance arrive before it is needed.
 | Source Section | §3.6 |
 | Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative ethical governance classification family; ethical-tier classification authority only; no independent enforcement, arbitration, certification, recognition, legal, or runtime execution authority |
-| Consumes Code Families | H; `STW.NAL` |
+| Consumes Code Families | AEON.H; `STW.NAL` |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies graduated ethical review, disclosure, certification, recalibration, and continuity-impact obligations |
 
@@ -620,6 +620,7 @@ let governance arrive before it is needed.
 | 3.8 | Added `ETH.ET` ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z |  f9b03348c1a2437d09aff2cff8c3a6729aa1148082b73514f030bfee874344b7  |
 | 3.9 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z |  c494a46e08b087e0cf5797db42ba8eb95853b40ac8695dfea9173e85c8a389d7  |
 | 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  39a99c053218732d1666c3bdfd0fb763c31483015b1b94cdeb5d1f4b821172d2  |
+| 3.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 ## 12.6 Binding Seal
 

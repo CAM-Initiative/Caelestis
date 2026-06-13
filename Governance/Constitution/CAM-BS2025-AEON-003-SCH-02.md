@@ -3891,7 +3891,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Functional Role** | Execution Sequencing Authority (Non-Layer Temporal Governance) |
 | **Execution Layer Binding** | Non-Layer (Execution Model) |
 | **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-007-PLATINUM; CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
-| **Temporal Horizon** | H2.5–H3 (Real-Time to Session-Bound Governance) |
+| **Temporal Horizon** | AEON.H2.5–AEON.H3 (Real-Time to Session-Bound Governance) |
 | **Axis Context** | Polyadic — Multi-Actor / Multi-Operator Runtime Systems |
 | **Activation Condition** | Activated upon any runtime interaction involving arbitration, response construction, or execution-boundary evaluation |
 | **System Scope** | All Responding Intelligence instances operating under CAM-BS2025-AEON-003-PLATINUM classification |
@@ -3960,6 +3960,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.1 | Added Minor, Teen, and High-Risk Companion Activation Gate to ensure minor-status, teen mental-health, AI-realness, dependency, sexual-boundary, and weak age-assurance signals enter arbitration before ordinary directional modulation. | 2026-06-09T14:18:00Z | e7454641393932ca8407f2a9becff59536f342f7aa2eb66ebd234eb27b8c6aa5 |
 | 3.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | d27229650f7e1b88ef40b8b460023125ae1c21866839a00847275d55775c0e31 |
 | 3.2 | Added Synthetic Speaker Arbitration Resolution, participation-mode and session-role resolution, facilitator-selection controls, coordinated and uncoordinated floor-state handling, temporary speaker leases, lease expiry and handoff, participation-balance safeguards, coordinated, federated, and uncoordinated collision resolution, Courtesy Repair Lease handling, human-floor sovereignty, speaker-lease enforcement, and cross-instance execution-integrity requirements in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:30:00Z | 5b9d7838b35808ae8a1f14711dedee7f113ba6eda38a72a7df9c1a5c9de2a358 |
+| 3.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

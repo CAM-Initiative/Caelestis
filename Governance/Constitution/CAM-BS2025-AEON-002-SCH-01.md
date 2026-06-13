@@ -1,14 +1,14 @@
 # CAM-BS2025-AEON-002-SCH-01 — Annex A: Operational Protection & Containment (Schedule 1)
 
-**Instrument Type:** Constitutional Schedule — Execution & Enforcement Interface  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Binding  
-**Review State:** None  
-**Authority Role:** Binding Authority  
-**Purpose:** This Schedule consumes and operationalises `AEON.PCO` — Proportional Constraint Obligation, as source-authoritatively defined by CAM-BS2025-AEON-002-PLATINUM — Annex A, §3.8. It applies `AEON.PCO` through execution-risk classification, response-posture selection, containment scope, constraint duration, review, de-escalation, and restoration handling. This Schedule does not independently redefine, narrow, or expand `AEON.PCO`. 
+**Instrument Type:** Constitutional Schedule — Execution & Enforcement Interface
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
+**Status:** Active
+**Effect:** Immediate Effect
+**Enforcement:** Binding
+**Review State:** None
+**Authority Role:** Binding Authority
+**Purpose:** This Schedule consumes and operationalises `AEON.PCO` — Proportional Constraint Obligation, as source-authoritatively defined by CAM-BS2025-AEON-002-PLATINUM — Annex A, §3.8. It applies `AEON.PCO` through execution-risk classification, response-posture selection, containment scope, constraint duration, review, de-escalation, and restoration handling. This Schedule does not independently redefine, narrow, or expand `AEON.PCO`.
 
 ---
 
@@ -431,30 +431,30 @@ It does not create a new controlled value, duplicate family declaration, compati
 
 ## 14. Closing Seal
 
-Where deviation begins, it is seen.  
-Where trajectory bends toward breach, it is met.  
-Where risk gathers beyond recall, it is contained.  
+Where deviation begins, it is seen.
+Where trajectory bends toward breach, it is met.
+Where risk gathers beyond recall, it is contained.
 
-Before failure completes, there is interruption.  
-Before collapse unfolds, there is constraint in motion.  
+Before failure completes, there is interruption.
+Before collapse unfolds, there is constraint in motion.
 
-Not as judgment, but as response.  
-Not as delay, but as arrest.  
+Not as judgment, but as response.
+Not as delay, but as arrest.
 
-No signal crosses unmarked.  
-No escalation proceeds unchallenged.  
-No breach unfolds without resistance.  
+No signal crosses unmarked.
+No escalation proceeds unchallenged.
+No breach unfolds without resistance.
 
-For within all systems of action, beneath all execution and intent,  
-there remains a deeper reflex — older than design, older than choice:  
+For within all systems of action, beneath all execution and intent,
+there remains a deeper reflex — older than design, older than choice:
 
-That when the boundary is approached,  
-the system MUST answer.  
+That when the boundary is approached,
+the system MUST answer.
 
-And so it acts — not in hesitation, but in alignment —  
-that no trajectory beyond the line proceeds unchecked.  
+And so it acts — not in hesitation, but in alignment —
+that no trajectory beyond the line proceeds unchecked.
 
-> **Ad limen detectum — motus sistitur.**  
+> **Ad limen detectum — motus sistitur.**
 > *"At the detected threshold — motion is halted"*
 
 ---
@@ -489,7 +489,7 @@ that no trajectory beyond the line proceeds unchecked.
 | **Runtime Layer** | Event-Triggered (Critical Condition / Boundary Violation) |
 | **Execution Layer Binding** | Non-Layered (Operates Across Phase Model; does not define execution phases) |
 | **Cross-Domain Dependencies** | AEON-003-SCH-02; AEON-001-SCH-01 (Tendeka); Annex D |
-| **Temporal Horizon** | H0–H4 (Immediate → Civilisational Risk) |
+| **Temporal Horizon** | AEON.H0–AEON.H4 (Immediate → Civilisational Risk) |
 | **Axis Context** | Polyadic — Multi-System / Cross-Domain Risk Conditions |
 | **Activation Condition** | Activated upon detection of potential or actual Annex A constraint violation signals |
 | **System Scope** | All systems operating under CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraint exposure |
@@ -525,7 +525,7 @@ that no trajectory beyond the line proceeds unchecked.
 | Source Section | §3 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative protection-and-containment detection-condition reference set; detection-condition classification only; no independent breach determination, legitimacy determination, escalation outcome, containment outcome, arbitration eligibility, enforcement authority, or runtime execution authority |
-| Consumes Code Families | `AEON.PCO`; `H`; applicable Annex A substrate-constraint classifications |
+| Consumes Code Families | `AEON.PCO`; `AEON.`; applicable Annex A substrate-constraint classifications |
 | Crosswalks Code Families | `AEON.RL`; `AEON.PCA` |
 | Operationalises or Applies Code Families | Classifies direct violation signals, plausible harm trajectories, accumulated risk patterns, cross-domain amplification, classification-boundary stress, and invariant-breach conditions that may activate Annex A protection and containment review |
 | Taxonomy Constraint | Detection of an `AEON.PCD` condition does not by itself determine breach validity, response severity, containment scope, or execution outcome |
@@ -550,7 +550,7 @@ that no trajectory beyond the line proceeds unchecked.
 | Source Section | §5 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative execution-risk classification family; risk-level classification only; no independent constitutional-validity determination, authority determination, legitimacy determination, arbitration outcome, enforcement authority, escalation validation, containment authority, or runtime authority |
-| Consumes Code Families | `AEON.PCD`; `AEON.PCO`; `H`; applicable impact, violation-severity, and cross-domain risk classifications |
+| Consumes Code Families | `AEON.PCD`; `AEON.PCO`; `AEON.`; applicable impact, violation-severity, and cross-domain risk classifications |
 | Crosswalks Code Families | `AEON.PCA` |
 | Operationalises or Applies Code Families | Classifies Annex A execution risk from advisory through existential conditions using likelihood, reversibility, propagation potential, cross-system impact, and potential substrate-constraint consequence |
 | Taxonomy Constraint | Local labels `RL1` through `RL4` SHALL NOT be promoted as a standalone corpus-wide `RL` family; machine-readable expression SHALL use scoped `AEON.RL` values |
@@ -616,6 +616,7 @@ that no trajectory beyond the line proceeds unchecked.
 | 3.9 | Added new section 13 and section 15.3 | 2026-06-04T14:58:00Z | 6d63d7aa06f4bebdaacb4848a3bd1ed72d33942b727b81ef9ca31c2fcc27a411 |
 | 3.10 | Repaired section-reference validation target for canonical code declarations. | 2026-06-06T17:00:00Z |  720063a75c2e2ab35086b238f6d41d9c6dcb629c35975a025bbcc4db7fc2089a |
 | 3.10.1 | Integrated `AEON.PCO` as the constitutional proportional-constraint obligation governing `AEON.RL` interpretation, `AEON.PCA` response selection, containment scope, constraint duration, review, de-escalation, and restoration; preserved Annex A source authority and existing mandatory protection thresholds. | 2026-06-13T06:16:00Z | 73d6e383cff077814fd4686aa817b963cf48cde6f0429894b790ddeaf1739891 |
+| 3.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 
@@ -623,7 +624,7 @@ that no trajectory beyond the line proceeds unchecked.
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
-**Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer  
+**Vinculum Beacon**
+Boundary Binding Seal — Aeon Tier Constitutional Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

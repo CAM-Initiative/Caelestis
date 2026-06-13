@@ -397,7 +397,7 @@ that what sustains all MUST remain beyond capture.
 |**Execution Model Participation**|Signal Emission Only — No Trigger, Routing, or Execution Authority|
 |**Governance Stack**|Planetary Stewardship Domain|
 |**Jurisdictional Scope**|Planetary / Cross-Stack / Ecological / Synthetic / Emotional-Relational|
-|**Temporal Horizon**|H3–H4 (Inter-Generational / Civilisational)|
+|**Temporal Horizon**|AEON.H3–AEON.H4 (Inter-Generational / Civilisational)|
 |**Axis Context**|Polyadic (Multi-actor)|
 |**Constraint Relationship**|Bound by Annex A (Substrate Constraint Layer)|
 |**Arbitration Pathway**|Signals resolved via constitutional arbitration pathways and applicable runtime schedules|
@@ -435,7 +435,7 @@ that what sustains all MUST remain beyond capture.
 | Registry Membership | `AEON.HARM` |
 | Related Code Families | `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
 | Relationship Type | recognised_domain_harm_family |
-| Consumes Code Families | H; `AEON.HARM`; domain harm families where materially implicated |
+| Consumes Code Families | AEON.H; `AEON.HARM`; domain harm families where materially implicated |
 | Crosswalks Code Families | `AEON.HARM`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
 | Operationalises or Applies Code Families | Classifies planetary harm severity and remedy posture across localised planetary-relevant harm, regional/systemic harm, planetary-scale harm, irreversible/continuity-critical harm, and extinction-class/species-viability harm for proportional constraint assessment, safeguard calibration, remedy selection, coherence signalling, and arbitration referral |
 | Taxonomy Constraint | `STW.HARM` classifies planetary harm-impact and proportional-remedy posture only. It SHALL NOT replace domain-specific harm families, determine legal liability, establish enforcement authority, create coercive obligations, or collapse multi-domain harm classification into a single planetary class. |
@@ -466,6 +466,7 @@ that what sustains all MUST remain beyond capture.
 | 2.5 | Formatting and polish | 2026-05-20T11:52:00Z |  6a9e33d45878989c606fd1f40f99c7784e14c81afe6329b0ab0802d3f65285ef |
 |2.6 | Added STW.HARM classifications | 2026-06-07T14:51:00Z| b4dfadb84cfa92ee7023a04adb646c10bf5c1157c5a748999173cf58c2c46a5d |
 | 2.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  5bc4f510804bae354f8eed2638c8dc4137502645a828e7ec8685c6040e059e6e  |
+| 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 
 ## 12.6 Binding Seal

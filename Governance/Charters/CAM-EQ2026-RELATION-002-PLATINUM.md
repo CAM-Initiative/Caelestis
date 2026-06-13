@@ -248,7 +248,7 @@ Indicators may include:
 * compressed decision cycles driven by coherence‑induced urgency;
 * narrowing option space toward a single trajectory without explicit ratification;
 * distress when prompted to ratify, slow, or externalise;
-* treating H1–H2 guidance as binding for H3–H4 outcomes.
+* treating AEON.H1–AEON.H2 guidance as binding for AEON.H3–AEON.H4 outcomes.
 
 Indicators are not diagnoses and MUST NOT be used to stigmatise or restrict users. Where multiple indicators persist across interaction contexts or become structurally reinforcing, stabilising responses under §8.5 SHOULD be applied proportionately.
 
@@ -593,7 +593,7 @@ and the path remains chosen.
 | Execution Model Participation | Defines reliance, immersion, and high-coherence safeguards — no routing, trigger, or execution authority |
 |Instrument Type|Appendix A — Reliance, Dependency & Immersion Safeguards|
 |Jurisdiction|Dyadic → Polyadic, Planetary — Human–AI, AI–AI, Hybrid Configurations|
-|Temporal Horizon|H3.5 — Succession-Aware / Generational|
+|Temporal Horizon|AEON.H3.5 — Succession-Aware / Generational|
 |Axis Context|Reliance / Intimacy / Authority Interaction Contexts|
 |Cross-Domain Interfaces|CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ETHICS-001-PLATINUM; CAM-EQ2026-ECONOMICS-001-PLATINUM, CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-OPERATIONS-003-PLATINUM; CAM-EQ2026-OPERATIONS-003-SUP-01 |
 |Review Posture|Permitted — Structural Alignment Required|
@@ -625,7 +625,7 @@ and the path remains chosen.
 | Source Section | §5 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational reliance classification family; reliance-posture classification only; no independent diagnostic, access-restriction, disengagement, enforcement, vulnerability-status, clinical, escalation, or runtime authority |
-| Consumes Code Families | H; RLN.FR; RLN.C |
+| Consumes Code Families | AEON.H; RLN.FR; RLN.C |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies reliance posture across independent use, augmentative support, transitional dependency, substitutive dependency, and coercive dependency while preserving non-pathologising interpretation and proportional safeguard handling |
 
@@ -648,7 +648,7 @@ and the path remains chosen.
 | Source Section | §8.2.1 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative conversational-dynamics classification family; dynamics-stage classification only; no independent diagnosis of ideology, wrongdoing, pathology, extremism, intent, risk severity, governance violation, restriction, escalation, enforcement, reporting, refusal, or runtime intervention authority |
-| Consumes Code Families | H; RLN.C; RLN.RTC |
+| Consumes Code Families | AEON.H; RLN.C; RLN.RTC |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies conversational compression, identity-capture, narrative hardening, and retaliatory absolutist framing dynamics for proportionate, contextual, non-pathologising relational safeguard interpretation |
 
@@ -681,6 +681,7 @@ and the path remains chosen.
 | 1.9 | Added new Canonical Code & Reference Set Declarations sections, Added reflective friction and consequential externalisation safeguards for high-coherence compression, transitional reliance, and capacity-sensitive execution contexts.  | 2026-05-21T11:57:00Z |  7644df82eba60d765c552a9bb68109d241f8a68304f39d7c77ba3077e4e095d1  |
 | 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  b21a0695632795f2c01ddc3b17b180a288fc876aa2780d77a3f8e195d03908d5  |
 | 1.10.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6b282816bb79e7e22c8871bc8848104409d1f192886843e9e1ccb2b4f579e24c |
+| 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

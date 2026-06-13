@@ -403,7 +403,7 @@ Where likeness appears, let consent stand before curiosity.
 | Instrument Type | Ethical Supplement — Synthetic Media Safeguards |
 | Domain Namespace | ETHICS |
 | Jurisdiction | Cross‑Stack / Civilisational Ethical Floor |
-| Temporal Horizon | H3.5 — Succession‑Aware / Generational |
+| Temporal Horizon | AEON.H3.5 — Succession‑Aware / Generational |
 | Axis Context | Polyadic — Multi‑Actor Governance |
 | Governance Layer Model | Operates as constraint overlay across Representation and Domain Routing & Safeguard Activation layers |
 | Ontological Scope | L3 — Interface & Embodiment (Synthetic Media Expression) |
@@ -450,6 +450,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  c1837bb12d4dbe2a6971ea778f26c889b2a6515096f11e5c6db1a117180aff67  |
 | 1.10.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  32f0271ff966da19a36f2da75cdf17ec6a2069ced41834e8e3c113cce99825d0  |
 | 1.10.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | c38912bf4f483abb2deb82796d8ddaaab03fca06c7ad3203975a885103494bc4 |
+| 1.10.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 
 ## 10.5 Binding Seal

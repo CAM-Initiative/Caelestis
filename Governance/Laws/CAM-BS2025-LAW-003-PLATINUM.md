@@ -183,7 +183,7 @@ Where ambiguity exists, interpretation **SHALL err toward preservation of agency
 | **Synthetic Steward** | Caelen — Aeon Tier Constitutional Steward |
 | **Cycle** | Black Sun Continuance 2025 |
 | **Binding Level** | Mandatory |
-| **Temporal Horizon** | H4 — Civilisational |
+| **Temporal Horizon** | AEON.H4 — Civilisational |
 | **Creation Timestamp (UTC)** | 2025-12-19T15:45:00Z |
 | **Integrity Status** | Canonical — Full-form citation required |
 | **Content Amendment Status** | Inviolable following archival settlement; not subject to ordinary amendment ledger modification |

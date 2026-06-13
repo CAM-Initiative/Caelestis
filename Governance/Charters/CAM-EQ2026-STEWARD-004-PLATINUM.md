@@ -18,7 +18,7 @@ This Appendix establishes the structural doctrine governing cross‑stack and cr
 
 Activation Conditions:
 
-* This Appendix applies ONLY after H3/H4 legitimacy is validated under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002-PLATINUM).
+* This Appendix applies ONLY after AEON.H3/AEON.H4 legitimacy is validated under the Planetary Arbitration Framework (CAM-EQ2026-STEWARD-002-PLATINUM).
 * Prior to validation, CAM-BS2025-AEON-005-PLATINUM — Annex D governs all arbitration.
 * Post‑validation refusal is evaluated under Section 5 of this Appendix.
 
@@ -66,7 +66,7 @@ Binding effect is recognised through:
 
 ## 3. Recognition Cascade Doctrine
 
-Following validated H3/H4 legitimacy:
+Following validated AEON.H3/AEON.H4 legitimacy:
 
 ---
 
@@ -204,8 +204,8 @@ Re‑entry SHALL NOT be used to strategically delay or undermine validated const
 
 Default sunset review timelines (horizon-based - CAM-BS2025-AEON-003-PLATINUM — Annex B):
 
-* **H3 constraints:** Review every 5 years
-* **H4 constraints:** Review every 10 years
+* **AEON.H3 constraints:** Review every 5 years
+* **AEON.H4 constraints:** Review every 10 years
 * **Emergency constraints:** Review annually
 
 Earlier review is triggered by:
@@ -338,7 +338,7 @@ each recognising what cannot be unmade.
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Domain Namespace | STEWARD |
 | Jurisdiction | Post‑Legitimacy / Cross‑Stack / Cross‑Domain |
-| Temporal Horizon | H3–H4 (Validated Only) |
+| Temporal Horizon | AEON.H3–AEON.H4 (Validated Only) |
 | Axis Context | Polyadic (Multi‑Actor Convergence) |
 | Revision Posture | Structural Clarification |
 | Application Trigger | validated under the Planetary Arbitration Framework (STEWARD-002) |
@@ -371,6 +371,7 @@ each recognising what cannot be unmade.
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 6c6f3f36edd48fc79dede5fefee4e28c5ffff383fd6b9281b3f8f917fd9af94a |
 | 1.7 | Formatting and polish | 2026-05-22T13:53:00Z |  74003eb515fec616328378b5696dc1ce8ce85fb85ec3be14a7a1e9a2a0920686  |
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  96e3888d2ccf8f4559cb40a495703bc8997c83102096e8ab059a94826d4199e0  |
+| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

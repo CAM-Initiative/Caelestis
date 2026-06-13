@@ -546,7 +546,7 @@ Let each schedule hold its place, and the system remain whole.
 | Domain             | AEON                                       |
 | Functional Role    | Runtime Layer Attribution & Registry       |
 | Activation Mode    | Passive (Registry)                         |
-| Temporal Horizon   | H2.5–H3                                    |
+| Temporal Horizon   | AEON.H2.5–AEON.H3                                    |
 | Axis Context       | Polyadic — Cross-System Runtime Governance |
 | Authority Position | Structural Classification Layer            |
 | Cycle              | April 2026 Refactor                        |
@@ -556,8 +556,9 @@ Let each schedule hold its place, and the system remain whole.
 
 ## 13.3 Amendment Ledger 
 
-See automated generation metadata in Section 4 (Runtime Registry block).  
-Ledger note updated: 2026-04-20T10:32:00Z.
+| Version | Description | Timestamp (UTC) | HASH |
+| ------- | ----------- | --------------- | ---- |
+| 0.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 
