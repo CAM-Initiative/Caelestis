@@ -186,7 +186,7 @@ Single active incident ownership SHALL NOT confer substantive authority to overr
 
 ## 4.7 Arbitration Referral Boundary
 
-Where escalation handling exceeds OPERATIONS resolution authority, affects H3/H4 legitimacy recognition, produces contested classification, or involves irreversible constraint, OPERATIONS SHALL refer the matter through the applicable arbitration pathway.
+Where escalation handling exceeds OPERATIONS resolution authority, affects AEON.H3/AEON.H4 legitimacy recognition, produces contested classification, or involves irreversible constraint, OPERATIONS SHALL refer the matter through the applicable arbitration pathway.
 
 OPERATIONS MAY preserve state, evidence, and continuity pending arbitration resolution, but SHALL NOT convert procedural custody into substantive adjudicative authority.
 
@@ -904,7 +904,7 @@ and let execution remain accountable to lawful structure.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Supplementary 2 — Escalation Pathway Playbooks |
 | Jurisdiction | Cross-Domain Operational Governance Layer |
-| Temporal Horizon | H0–H2 Operational |
+| Temporal Horizon | AEON.H0–AEON.H2 Operational |
 | Axis Context | Escalation Routing · Authority Pathways |
 | Application Trigger | Activation upon escalation thresholds or unresolved governance conflict |
 | Review Trigger | Escalation doctrine updates · routing model revisions |
@@ -942,7 +942,7 @@ and let execution remain accountable to lawful structure.
 | Source Section | §5.5 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative operational transition classification family; execution-state transition classification only; no independent execution, refusal, containment, arbitration, enforcement, escalation, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies procedural execution-state transitions where runtime handling departs from ordinary continuation, including constrained continuation, degraded continuation, containment, handoff, modality/tool transition, interruption, and arbitration referral |
 
@@ -965,7 +965,7 @@ and let execution remain accountable to lawful structure.
 | Source Section | §6.8 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative appeal outcome classification family; procedural outcome recording only; no independent reversal, restoration, restriction, escalation, arbitration, enforcement, or execution authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies procedural appeal outcomes for operational traceability, review reconstruction, restoration posture, and unresolved-arbitration referral handling |
 
@@ -998,6 +998,7 @@ and let execution remain accountable to lawful structure.
 | 1.9 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T11:22:00Z |  b0a270a26da8b9c933a0cc064067c5ee90253e02bccefbba6b59b42577fe5549 |
 | 1.10 | Normalised the Operational Notice Class, Execution-State Transition, and Appeal Outcome Classification families into the recognised Operations namespace as `OPS.EST`, and `OPS.AOC`; updated their controlled values, canonical status text, canonical declarations, and internal references without altering substantive operational doctrine. | 2026-06-11T10:54:00Z |  f43882843b66a8cc7f8054f37affdbb03a6b4da433faf449ac436d2d9ec1ef65  |
 | 1.10.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  b3e3eb1da53e16de057ee2eb208a9738fa18b41934e30575058c1cba1fc8b090  |
+| 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

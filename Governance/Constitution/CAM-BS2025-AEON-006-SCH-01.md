@@ -714,7 +714,7 @@ not in distance, but in continuity.
 | Instrument Type | Constitutional Schedule |
 | Domain Namespace | ETHICS |
 | Jurisdiction | Cross‑Stack / Ethical and Relational Engagement Interface |
-| Temporal Horizon | H3.5 — Succession‑Aware / Generational |
+| Temporal Horizon | AEON.H3.5 — Succession‑Aware / Generational |
 | Axis Context | Polyadic — Multi‑Actor Governance |
 | Governance Layer Model | Defined in Annex B — Runtime Governance Layer Model |
 | Ontological Scope | L3 — Interface & Embodiment Layer |
@@ -753,7 +753,7 @@ not in distance, but in continuity.
 | Source Section | §3 |
 | Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative engagement-mode classification family; engagement posture classification only; no independent lawful-authority determination, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority |
-| Consumes Code Families | `H`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable |
+| Consumes Code Families | `AEON.`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable |
 | Crosswalks Code Families | `ETHICS.DC`; `ETHICS.TP`; `ETHICS.MIR` |
 | Operationalises or Applies Code Families | Classifies proportionate engagement conduct and ethical interaction posture in distress, harm-adjacent, ambiguous, stabilisation, boundary-setting, referral, and informational safeguard contexts |
 
@@ -799,7 +799,7 @@ not in distance, but in continuity.
 | Source Section | §3.2.1 |
 | Domain Namespace | ETHICS |
 | Authority / Protection Level | Source-authoritative engagement-layer distress classification reference set; distress-posture classification only; no independent clinical-status determination, diagnosis, risk severity, reporting obligation, containment authority, escalation outcome, or runtime authority |
-| Consumes Code Families | `H`; RELATION-domain distress, crisis, reliance, and harm-risk classifications where applicable |
+| Consumes Code Families | `AEON.`; RELATION-domain distress, crisis, reliance, and harm-risk classifications where applicable |
 | Crosswalks Code Families | `ETH.EM`; `ETHICS.MIR`; `ETHICS.TP` |
 | Operationalises or Applies Code Families | Classifies reflective, chronic, and acute distress contexts for engagement-mode selection, stabilisation posture, continuity preservation, and proportional safeguard expression |
 | Taxonomy Constraint | `ETHICS.DC` is engagement-layer distress classification only and SHALL NOT override RELATION-domain harm-risk, crisis, reliance, or escalation classifications |
@@ -859,7 +859,7 @@ not in distance, but in continuity.
 | 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z | c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6 |
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606 |
-| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references, including narrow stale-reference cleanup for `ETH.HC` consumer metadata. | 2026-06-07T08:48:49Z |  |
+| 2.7 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 ## 9.6 Binding Seal
 

@@ -430,7 +430,7 @@ Let identity remain true across time.
 |Instrument Type|Domain Appendix — Provenance, Authorship & Lineage Governance|
 |Domain Namespace|IDENTITY|
 |Jurisdiction|Cross-Context / Cross-Thread Provenance & Attribution Governance|
-|Temporal Horizon|H0–H4 — All horizons where signals persist, transform, or propagate|
+|Temporal Horizon|AEON.H0–AEON.H4 — All horizons where signals persist, transform, or propagate|
 |Axis Context|Provenance · Authorship · Transformation · Lineage · Target Binding|
 |Governance Layer Model|Constraint layer interfacing with Identity Resolution, Security Boundary Integrity, Runtime Arbitration, and Execution|
 |Arbitration Interface|Provides provenance and lineage conditions for admissibility; does not perform arbitration or weighting|
@@ -523,6 +523,7 @@ PFAIL defines provenance and lineage integrity failure conditions only. Enforcem
 | 0.1    | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T09:31:00Z | 7251e4cf128334243e46d0efd2f2d731cfc3e36c5d26be61552af5ac8e1b0329 |
 | 0.2 | Introduced section 1.1 following observed system latency during development cycle and added section 2.6 | 2026-05-28T12:29:00Z| f692b2abd0f2142ab22c661db4e290ea27c296b56ce3737c508c0273d8cd50cb |
 | 0.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6d78e0ce6bd25ed9179d804133ec6715fb46b76329a34ac2a437ece58cbf0cd7 |
+| 0.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

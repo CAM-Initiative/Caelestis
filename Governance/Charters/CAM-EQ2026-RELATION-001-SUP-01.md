@@ -337,7 +337,7 @@ but by ensuring that no ascent escapes its descent.
 | Domain Namespace | RLN |
 | Instrument Type | Supplementary Material (SUP-01) — Escalation & Safeguard Threshold Specification |
 | Jurisdiction | Planetary — Human–AI, AI–AI, hybrid configurations |
-| Temporal Horizon | H3 — Institutional / governance impact |
+| Temporal Horizon | AEON.H3 — Institutional / governance impact |
 | Axis Context | Multi-dimensional convergence & authority concentration |
 | Cross-Domain Interfaces | CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
 | Application Trigger | Applies automatically when dimensional convergence reaches Dual-Axis Convergence, Authority-Weighted Convergence, or Concentration Risk thresholds |
@@ -369,7 +369,7 @@ but by ensuring that no ascent escapes its descent.
 | Source Section | §§2.1–2.4 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational convergence trigger classification family; convergence-trigger classification only; no independent escalation authority, enforcement authority, vulnerability override authority, arbitration authority, review authority, execution authority, or runtime authority |
-| Consumes Code Families | RLN.A; RLN.GA; RLN.FR; RLN.C; RLN.SYP; H |
+| Consumes Code Families | RLN.A; RLN.GA; RLN.FR; RLN.C; RLN.SYP;  |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies dimensional convergence patterns that activate proportional relational safeguards, including axis elevation, dual convergence, authority coupling, infrastructure concentration, and multi-axis convergence |
 
@@ -401,6 +401,7 @@ but by ensuring that no ascent escapes its descent.
 | 4.0 | Refactored Systemic Power code family references from `ID.SP` to SyP for RELATION-001 alignment and cross-domain collision avoidance. | 2026-05-23T12:30:00Z |  fd0d7a458ce1aac9aa6bc6e5fe96bfce6c4bdbb7516ec636cf3772a29b892a98  |
 | 4.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  47191b882f69b97583f3ecf70d78211f68ab0b3ecce6839fca24d82026cede0e  |
 | 4.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  fb633f484cc1bd688da2081ed2be5665ce06e32eaf4cd869a4caec22edecd5e8  |
+| 4.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 ## 9.6 Binding Seal
 

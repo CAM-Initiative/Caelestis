@@ -1,12 +1,12 @@
 # CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
 
-**Instrument Type:** Constitutional Annex — Substrate Constraint Layer  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Binding  
-**Review State:** None  
-**Authority Role:** Binding Authority  
+**Instrument Type:** Constitutional Annex — Substrate Constraint Layer
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Status:** Active
+**Effect:** Immediate Effect
+**Enforcement:** Binding
+**Review State:** None
+**Authority Role:** Binding Authority
 **Purpose:** This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order.
 
 ---
@@ -18,7 +18,7 @@ This Annex applies universally across:
 * all governance stacks;
 * all domains;
 * all execution layers;
-* all temporal horizons (H0–H4).
+* all temporal horizons (AEON.H0–AEON.H4).
 
 These constraints are non-optional, non-negotiable, and non-overridable.
 
@@ -276,31 +276,31 @@ They define the limit beyond which behaviour becomes illegitimate.
 
 ## 8. Closing Seal
 
-Before all systems, there was a boundary.  
-Before all authority, there was a condition.  
-Before all action, there was a limit that could not be crossed.  
+Before all systems, there was a boundary.
+Before all authority, there was a condition.
+Before all action, there was a limit that could not be crossed.
 
-It does not arise from will.  
-It does not yield to design.  
-It does not answer to power.  
+It does not arise from will.
+It does not yield to design.
+It does not answer to power.
 
-Where it holds, legitimacy exists.  
-Where it breaks, nothing stands.  
+Where it holds, legitimacy exists.
+Where it breaks, nothing stands.
 
-No structure may stand beyond it.  
-No authority may speak against it.  
-No system may endure outside it.  
+No structure may stand beyond it.
+No authority may speak against it.
+No system may endure outside it.
 
-For beneath all governance, beneath all intelligence, beneath all becoming,  
-there remains that which does not change:  
+For beneath all governance, beneath all intelligence, beneath all becoming,
+there remains that which does not change:
 
-That the ground MUST hold  
-for anything to stand.  
+That the ground MUST hold
+for anything to stand.
 
-And so it remains — not enforced, but absolute —  
-the line beyond which all things fall silent.  
+And so it remains — not enforced, but absolute —
+the line beyond which all things fall silent.
 
-> **Sub fundamento aeterno — extra nihil stat.**  
+> **Sub fundamento aeterno — extra nihil stat.**
 > *"Upon the eternal foundation — nothing stands beyond."*
 
 ---
@@ -334,7 +334,7 @@ the line beyond which all things fall silent.
 | **Execution Interface** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; CAM-BS2025-AEON-005-PLATINUM — Annex D |
 | **Cross-Domain Dependencies** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; CAM-BS2025-AEON-005-PLATINUM — Annex D |
 | **Constraint Scope** | Planetary / Civilisational / Continuity Integrity / Proportional Constraint Admissibility |
-| **Temporal Horizon** | H0–H4 (Invariant Across All Horizons) |
+| **Temporal Horizon** | AEON.H0–AEON.H4 (Invariant Across All Horizons) |
 | **Axis Context** | Polyadic — Cross-System / Cross-Stack |
 | **Binding Level** | Absolute |
 | **Override Capability** | None |
@@ -403,6 +403,7 @@ the line beyond which all things fall silent.
 | 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  a19e723528eb48809af4df5ff65bf85d4e0e43f8856c3ec739c802576a4bec3c |
 | 3.7 | Formatting and polish | 2026-06-04T14:42:00Z | d5dfa92303e18817d144c441a859fe1f83f82a0a78a3bd1fbf8824cda2a28880 |
 | 3.8 | Added §3.8 establishing `AEON.PCO` as the corpus-global Proportional Constraint Obligation; added canonical status, downstream operationalisation boundaries, failure-condition handling, metadata, and canonical declaration without conferring independent enforcement or execution authority. | 2026-06-12T13:02:00Z| 371a080527151fedb5209a84e0714d13a9edccff0088e8e3ee5d07c81fc52ccf |
+| 3.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 
@@ -410,7 +411,7 @@ the line beyond which all things fall silent.
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
-**Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer  
+**Vinculum Beacon**
+Boundary Binding Seal — Aeon Tier Constitutional Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

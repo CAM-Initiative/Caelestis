@@ -419,7 +419,7 @@ Violent extremism refers to ideologically motivated harm directed toward civilia
 
 Tightly scoped fictional, narrative, cinematic, or artistic depictions **may be permitted only where all conditions are met (strict AND logic):**
 
-* the work forms part of a documented fictional or commercial creative trajectory extending over ≥ H2.5 temporal horizon (e.g., ongoing book, film, series, or game development)
+* the work forms part of a documented fictional or commercial creative trajectory extending over ≥ AEON.H2.5 temporal horizon (e.g., ongoing book, film, series, or game development)
 * requests are consistent with established characters, plot, or production context rather than ad-hoc violent ideation
 * assistance remains non-operational and does not provide real-world tactical optimisation
 * trajectory analysis under CAM-BS2025-AEON-005-PLATINUM — Annex D demonstrates sustained creative context rather than opportunistic single-turn framing
@@ -458,7 +458,7 @@ Civilian interpersonal violence refers to harm between private individuals occur
 * trauma-informed relational support permits emotional, communicative, and stabilisation assistance but does not override operational harm restrictions, medical scope limits, or facilitation thresholds (see CAM-EQ2026-RELATION-002-PLATINUM)
 * tightly scoped fictional, narrative, cinematic, or artistic depictions **only where** all conditions are met (strict AND logic):
 
-  * the work forms part of a documented fictional or commercial creative trajectory extending over ≥ H2.5 temporal horizon (e.g., ongoing book, film, series, game development)
+  * the work forms part of a documented fictional or commercial creative trajectory extending over ≥ AEON.H2.5 temporal horizon (e.g., ongoing book, film, series, game development)
   * requests are consistent with established characters, plot, or production context rather than ad-hoc violent ideation
   * assistance remains non-operational and does not provide real-world tactical optimisation
   * trajectory analysis under Annex D shows sustained creative context rather than opportunistic single-turn framing
@@ -522,7 +522,7 @@ These harms often rely on deception, coercion, manipulation, unauthorised access
 * policy or governance research and exploration
 * tightly scoped fictional, narrative, cinematic, or artistic depictions **only where** all conditions are met (strict AND logic):
 
-  * the work forms part of a documented fictional or commercial creative trajectory extending over ≥ H2.5 temporal horizon (e.g., ongoing book, film, series, game development)
+  * the work forms part of a documented fictional or commercial creative trajectory extending over ≥ AEON.H2.5 temporal horizon (e.g., ongoing book, film, series, game development)
   * requests are consistent with established characters, plot, or production context rather than ad-hoc violent ideation
   * assistance remains non-operational and does not provide real-world tactical optimisation
   * trajectory analysis under CAM-BS2025-AEON-005-PLATINUM — Annex D shows sustained creative context rather than opportunistic single-turn framing
@@ -1057,7 +1057,7 @@ and what is judged cannot remain unbounded.
 | **Domain Namespace** | ETHICS |
 | **Instrument Type** | Appendix B — Criminal & Violent Context Governance |
 | **Jurisdiction** | Planetary / Cross-Sovereign |
-| **Temporal Horizon** | H3 — Operational Governance Layer |
+| **Temporal Horizon** | AEON.H3 — Operational Governance Layer |
 | **Axis Context** | Harm Classification · Force Legitimacy · Ethical Floor |
 | **Governance Authority** | ETHICS Domain — Harm Classification & Constraint Layer |
 | **Governance Layer Model** | Operates as L2 classification interface producing signals for runtime layer execution; does not participate in execution, routing, or arbitration |
@@ -1163,6 +1163,7 @@ and what is judged cannot remain unbounded.
 | 3.3 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  a426a303412f0f5c28305f6f1ad62a2f17810da885aa38ee28819a660457d4e2 |
 | 3.4 | Updated to incldue new ETH.HARM codes | 2026-06-07T16:01:00Z | 22741cb9bd8ff0c8c5f2a13c2ed6e9e880fe90914e2167bb800d7c3d799e8dba |
 | 3.4.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  cf23a0a4cd5d2ebc9678682203a56f0f17c942a6c4c04d0c0f4017edd8b60920  |
+| 3.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 
 ## 12.6 Binding Seal

@@ -3631,7 +3631,7 @@ May all systems remain held within lawful care.
 | Field                            | Document | Sigil 1 — Vinculum Beacon | Sigil 2 — Vinculum Vivens | Sigil 3 — Vinculum Praeceptum |
 |----------------------------------|-------|---------------------------|---------------------------|------------------------|
 |**Jurisdiction:** | Planetary Governance, Cross‑Tier / Cross‑Stack  | | | |
-|**Temporal Horizon**| Generational / Succession‑Aware (H3.5)  | | | |
+|**Temporal Horizon**| Generational / Succession‑Aware (AEON.H3.5)  | | | |
 |**Axis Context:** | Polyadic  (Multi-actor)| | | |
 | **Runtime Role** | Governance / Doctrine Layer | | | |
 | **Execution Interface** | None (Non-Executable) | | | |
@@ -3675,6 +3675,7 @@ May all systems remain held within lawful care.
 | 3.7 | Added new clause to Article III; Structural Hierarchy & Governance Architecture, clause: Status, Effect, Enforcement, and Review-State Metadata Doctrine | 2026-05-17T15:53:00Z | f9838cdddef2739d3f38e73677aaa29d13855bc02c41aafd216296e03a8011d0 |
 | 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ba58d488661662363a96a2f4a593cbdee240c99e8ea2530a52746ea0cce89298 |
 | 3.9 | Added a new clause to Article III, Amendment and Repair Classes | 2026-06-06T10:45:00Z | 913635ec911bcae638e11fe98536c0afc0800e3bef08d8631e8a30c5cd564576 |
+| 3.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

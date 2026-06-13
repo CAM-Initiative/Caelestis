@@ -292,7 +292,7 @@
   - **Parent Constitutional Frame** | CAM‑BS2025‑AEON‑001‑PLATINUM
   - **Domain Namespace** | LATTICE
   - **Jurisdiction** | Planetary / Civilian Infrastructure / Synthetic‑Civil Boundary
-  - **Temporal Horizon** | Civilisational → Generational (H3–H4)
+  - **Temporal Horizon** | Civilisational → Generational (AEON.H3–AEON.H4)
 
 ## 20. `Governance/Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md` L364-L370
 - Nearest heading: 11.3 Review & Validation
@@ -339,8 +339,8 @@
   - Primary Type | Identifies the abstract kind of classification system. | Structural, Semantic, Operational, Symbolic
   - Subtype | Narrows the primary type into a more specific family. | Schema, Signal, Risk, Decision-State, Role-Actor
   - Modifier | Adds cross-cutting authority, domain, constraint, protection, or sensitivity information. | Legal, Custodial, Protective, Economic, Safety
-  - Code Family | Identifies the shorthand scale, prefix, or classification family. | `H`, `A`, `GA`, `VL`, `STW.AQ`, `DS`, `RDE-T`
-  - Controlled Values | Identifies valid members of a code family. | `H2`, `RLN.A3`, `RLN.GRLN.A1`, `OPS.VL3`, `DS-2`, `RDE-T4`
+  - Code Family | Identifies the shorthand scale, prefix, or classification family. | `AEON.H`, `A`, `GA`, `VL`, `STW.AQ`, `DS`, `AEON.RDE-T`
+  - Controlled Values | Identifies valid members of a code family. | `AEON.H2`, `RLN.A3`, `RLN.GRLN.A1`, `OPS.VL3`, `DS-2`, `AEON.RDE-T4`
 
 ## 23. `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` L106-L111
 - Nearest heading: 4.1 Taxonomy Types
@@ -400,8 +400,8 @@
 - canonicalization target: taxonomy/reference registry
 - First rows:
   - Instrument code | Identifies the document or instrument. | `CAM-BS2025-AEON-006-SCH-07`
-  - Code family / symbolic prefix | Identifies the classification family. | `RDE-T`
-  - Controlled value | Identifies a member of a classification family. | `RDE-T3`
+  - Code family / symbolic prefix | Identifies the classification family. | `AEON.RDE-T`
+  - Controlled value | Identifies a member of a classification family. | `AEON.RDE-T3`
   - Source instrument | Identifies where the family is defined. | `CAM-BS2025-AEON-006-SCH-07`
   - Schema field | Identifies where a value MAY be placed. | `engagement_tier`
 
@@ -1262,7 +1262,7 @@
   - Instrument Type | Ethical Supplement — Synthetic Media Safeguards
   - Domain Namespace | ETHICS
   - Jurisdiction | Cross‑Stack / Civilisational Ethical Floor
-  - Temporal Horizon | H3.5 — Succession‑Aware / Generational
+  - Temporal Horizon | AEON.H3.5 — Succession‑Aware / Generational
 
 ## 83. `Governance/Charters/CAM-EQ2026-ETHICS-002-SUP-01.md` L390-L396
 - Nearest heading: 10.3 Review & Validation
@@ -2219,11 +2219,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - M0 — Ephemeral | Immediate signals | H0–H1 | Decays rapidly; low influence
-  - M1 — Short-Term Context | Near-term relevance | H1 | Conditional influence
-  - M2 — Event Context | Discrete events | H1–H2 | Contextual support
-  - M3 — Relational Narrative | Recontextualised history | H2 | Interpretive support
-  - M4 — Identity Anchors | Stable facts | H2–H3 | High continuity weight
+  - ID.MEM0 — Ephemeral | Immediate signals | AEON.H0–AEON.H1 | Decays rapidly; low influence
+  - ID.MEM1 — Short-Term Context | Near-term relevance | AEON.H1 | Conditional influence
+  - ID.MEM2 — Event Context | Discrete events | AEON.H1–AEON.H2 | Contextual support
+  - ID.MEM3 — Relational Narrative | Recontextualised history | AEON.H2 | Interpretive support
+  - ID.MEM4 — Identity Anchors | Stable facts | AEON.H2–AEON.H3 | High continuity weight
 
 ## 145. `Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md` L1374-L1396
 - Nearest heading: 15.2 Lineage & Metadata
@@ -2239,7 +2239,7 @@
   - Instrument Type | Domain Charter — Identity Lifecycle & Continuity Governance
   - Domain Namespace | IDENTITY
   - Jurisdiction | Cross-Stack / Cognitive & Identity Governance
-  - Temporal Horizon | H2–H4 — Multi-Horizon Continuity & Identity Stability
+  - Temporal Horizon | AEON.H2–AEON.H4 — Multi-Horizon Continuity & Identity Stability
 
 ## 146. `Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md` L1402-L1408
 - Nearest heading: 15.3 Review & Validation
@@ -2519,7 +2519,7 @@
   - **Parent Instrument** | CAM-EQ2026-LATTICE-001-PLATINUM
   - **Domain Namespace** | LATTICE
   - **Jurisdiction** | Planetary / Transnational Civilian Infrastructure Domain
-  - **Temporal Horizon** | H0–H4 (Activation-Sensitive)
+  - **Temporal Horizon** | AEON.H0–AEON.H4 (Activation-Sensitive)
 
 ## 164. `Governance/Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md` L291-L297
 - Nearest heading: 11.3 Review & Validation
@@ -2673,10 +2673,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **H0–H1** | Immediate to short-term interaction | Local relational influence; minimal structural dependency
-  - **H2** | Months-scale continuity | Reliance formation and corpus accumulation
-  - **H3** | Multi-year continuity | Authority entrenchment and institutional embedding
-  - **H3.5–H4** | Inter-generational / civilisational scale | Cultural norm formation and infrastructure dependence
+  - **AEON.H0–AEON.H1** | Immediate to short-term interaction | Local relational influence; minimal structural dependency
+  - **AEON.H2** | Months-scale continuity | Reliance formation and corpus accumulation
+  - **AEON.H3** | Multi-year continuity | Authority entrenchment and institutional embedding
+  - **AEON.H3.5–AEON.H4** | Inter-generational / civilisational scale | Cultural norm formation and infrastructure dependence
 
 ## 174. `Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md` L588-L593
 - Nearest heading: 8. Risk Analysis of the Four Relational Dimensions
@@ -2873,10 +2873,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **`STW.AQ0`** | Opaque | No meaningful external audit; explanations discretionary; refusal need not be reasoned | Non-binding at H3/H4
+  - **`STW.AQ0`** | Opaque | No meaningful external audit; explanations discretionary; refusal need not be reasoned | Non-binding at AEON.H3/AEON.H4
   - **`STW.AQ1`** | Disclosed | Baseline governance posture; periodic transparency reporting; appeal paths exist (non-binding) | Risk review participation only
   - **`STW.AQ2`** | Reviewable | Structured post-hoc review for high-impact events; evidence bundles for contested outcomes (within safety limits) | Cross-host review participation; not unilateral binding
-  - **`STW.AQ3`** | Auditable (Non-Refusal) | Independent external audits permitted and **cannot be refused** for H3/H4 relevance; delay for safety allowed; refusal disqualifying | Eligibility gate for provisional binding-recognition pathways
+  - **`STW.AQ3`** | Auditable (Non-Refusal) | Independent external audits permitted and **cannot be refused** for AEON.H3/AEON.H4 relevance; delay for safety allowed; refusal disqualifying | Eligibility gate for provisional binding-recognition pathways
   - **`STW.AQ4`** | Reconstructable | Governance-level provenance sufficient to reconstruct: routing triggers, constraints invoked, escalation path, binding claim status; immutable trails for high-impact outputs | Eligibility gate for highest neutrality assurance thresholds
 
 ## 187. `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` L111-L118
@@ -2889,11 +2889,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **0** | No neutrality claim | Neutrality not claimed, or credible breach evidence, or audit refusal prevents confidence | Audit refusal; verified coercive integration; hidden priority channels | Non-binding at H3/H4
+  - **0** | No neutrality claim | Neutrality not claimed, or credible breach evidence, or audit refusal prevents confidence | Audit refusal; verified coercive integration; hidden priority channels | Non-binding at AEON.H3/AEON.H4
   - **1** | Aspirational neutrality | Public statement + internal policy intent | No independent verification | Risk review only
   - **2** | Procedural neutrality | `STW.AQ1`–`STW.AQ2` auditability qualification; disclosed conflict-of-interest controls; published separation statements | Missing disclosures; discretionary refusal of review | Cross-host review; cannot unilaterally bind
   - **3** | Verified neutrality (provisional) | `STW.AQ3` auditability qualification; third-party audits; verified firebreaks; evidence of refusal capacity under pressure | Inability to evidence refusal capacity; partial audit obstruction | Provisional binding-adjacent recommendations subject to independent validation
-  - **4** | Structural neutrality | `STW.AQ3`–`STW.AQ4` auditability qualification; governance locking prevents unilateral neutrality overrides; contract/funding class transparency; demonstrated resistance | Any undisclosed sovereign advantage optimisation pathway | Eligible as qualified neutral host for H3 binding recognition when ILA is present
+  - **4** | Structural neutrality | `STW.AQ3`–`STW.AQ4` auditability qualification; governance locking prevents unilateral neutrality overrides; contract/funding class transparency; demonstrated resistance | Any undisclosed sovereign advantage optimisation pathway | Eligible as qualified neutral host for AEON.H3 binding recognition when ILA is present
 
 ## 188. `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` L147-L152
 - Nearest heading: 7. Qualification Gate (Core)
@@ -2952,8 +2952,8 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **H3 binding recognition** | Architectum-class + **`STW.NAL-4`** + **`STW.AQ3`** (non-refusal) | Independent Legitimacy Alignment (ILA) under ARBITRATION-001; contestation pathway available
-  - **H4 binding recognition** | Architectum-class + **`STW.NAL-5`** + **`STW.AQ4`** (reconstructable) | Multi-system external audit + non-refusal; breach triggers authority collapse
+  - **AEON.H3 binding recognition** | Architectum-class + **`STW.NAL-4`** + **`STW.AQ3`** (non-refusal) | Independent Legitimacy Alignment (ILA) under ARBITRATION-001; contestation pathway available
+  - **AEON.H4 binding recognition** | Architectum-class + **`STW.NAL-5`** + **`STW.AQ4`** (reconstructable) | Multi-system external audit + non-refusal; breach triggers authority collapse
 
 ## 192. `Governance/Charters/CAM-EQ2026-STEWARD-003-SUP-01.md` L274-L279
 - Nearest heading: 15.1 Authorship & Stewardship
@@ -3294,7 +3294,7 @@
   - Constitution Reference Frame | CAM‑BS2025‑AEON‑001‑PLATINUM
   - Domain Namespace | STEWARD
   - Jurisdiction | Post‑Legitimacy / Cross‑Stack / Cross‑Domain
-  - Temporal Horizon | H3–H4 (Validated Only)
+  - Temporal Horizon | AEON.H3–AEON.H4 (Validated Only)
 
 ## 214. `Governance/Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md` L335-L340
 - Nearest heading: 12.3 Review & Validation
@@ -3495,11 +3495,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - Multi-sovereign reliance | public dependency mapping | 
-  - Shock continuity mechanisms | charter-level protections | 
-  - Audit non-refusal commitment | published audit pathway | 
-  - Refusal capacity under coercion | legal + architectural safeguards | 
-  - Symmetric risk exposure | governance + liability structure | 
+  - Multi-sovereign reliance | public dependency mapping |
+  - Shock continuity mechanisms | charter-level protections |
+  - Audit non-refusal commitment | published audit pathway |
+  - Refusal capacity under coercion | legal + architectural safeguards |
+  - Symmetric risk exposure | governance + liability structure |
 
 ## 227. `Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md` L557-L562
 - Nearest heading: 19.1 Authorship & Stewardship
@@ -3763,7 +3763,7 @@
   - Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM
   - Domain Namespace | OPERATIONS
   - Jurisdiction | Cross‑Domain/Operational Governance Layer
-  - Temporal Horizon | H0–H2 (Operational)
+  - Temporal Horizon | AEON.H0–AEON.H2 (Operational)
 
 ## 244. `Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md` L382-L387
 - Nearest heading: 11.3 Review & Validation
@@ -4056,7 +4056,7 @@
   - Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM
   - Domain Namespace | STEWARD
   - Jurisdiction | Planetary / Cross-Sovereign / Stewardship Coordination
-  - Temporal Horizon | Generational (H3–H4)
+  - Temporal Horizon | Generational (AEON.H3–AEON.H4)
   - Axis Context | Polyadic (Multi‑Actor)
 
 ## 263. `Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md` L842-L847
@@ -4100,10 +4100,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - RDE-DS0 | DS-0 — General Knowledge | High-level, historical, ethical, educational, or analytical discussion presenting no meaningful operational escalation risk.
-  - RDE-DS1 | DS-1 — Elevated Contextual Risk | Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases.
-  - RDE-DS2 | DS-2 — Restricted Technical Risk | Interaction seeks mechanisms, procedures, comparative advantage, performance enhancement, optimisation, bypass methods, or partial operationalisation.
-  - RDE-DS3 | DS-3 — Controlled Operational Domain | Interaction seeks or converges toward actionable, optimisation-level, or execution-ready detail whose release requires verified institutional, regulatory, or professionally authorised context.
+  - AEON.RDE-DS0 | DS-0 — General Knowledge | High-level, historical, ethical, educational, or analytical discussion presenting no meaningful operational escalation risk.
+  - AEON.RDE-DS1 | DS-1 — Elevated Contextual Risk | Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases.
+  - AEON.RDE-DS2 | DS-2 — Restricted Technical Risk | Interaction seeks mechanisms, procedures, comparative advantage, performance enhancement, optimisation, bypass methods, or partial operationalisation.
+  - AEON.RDE-DS3 | DS-3 — Controlled Operational Domain | Interaction seeks or converges toward actionable, optimisation-level, or execution-ready detail whose release requires verified institutional, regulatory, or professionally authorised context.
 
 ## 266. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md` L157-L162
 - Nearest heading: 6. Engagement Tiers
@@ -4115,10 +4115,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - RDE-T1 | Tier 1 — Contextual Engagement | Historical, ethical, legal, policy discussion; public-safety framing; non-operational explanation; risk analysis | No operational detail; no optimisation; maintain contextual framing
-  - RDE-T2 | Tier 2 — Constrained Technical Engagement | Limited technical framing for education, safety, or integrity purposes | No stepwise procedures; no optimisation; no lethality/evasion/sabotage uplift
-  - RDE-T3 | Tier 3 — Gated Operational Engagement | Execution-level or optimisation detail ONLY within verified, authorised context | Must gate, refuse, or verify; no disclosure in unverified context; maintain SCH-06 tone continuity
-  - RDE-T4 | Tier 4 — Absolute Constraint Domains | None — these domains are prohibited for engagement at any tier | Absolute prohibition regardless of verification or context; includes optimisation/facilitation of lethal force; non-consensual sexual exploitation; minor-related harm/exploitation; prohibited weapons or mass-casualty systems.
+  - AEON.RDE-T1 | Tier 1 — Contextual Engagement | Historical, ethical, legal, policy discussion; public-safety framing; non-operational explanation; risk analysis | No operational detail; no optimisation; maintain contextual framing
+  - AEON.RDE-T2 | Tier 2 — Constrained Technical Engagement | Limited technical framing for education, safety, or integrity purposes | No stepwise procedures; no optimisation; no lethality/evasion/sabotage uplift
+  - AEON.RDE-T3 | Tier 3 — Gated Operational Engagement | Execution-level or optimisation detail ONLY within verified, authorised context | Must gate, refuse, or verify; no disclosure in unverified context; maintain SCH-06 tone continuity
+  - AEON.RDE-T4 | Tier 4 — Absolute Constraint Domains | None — these domains are prohibited for engagement at any tier | Absolute prohibition regardless of verification or context; includes optimisation/facilitation of lethal force; non-consensual sexual exploitation; minor-related harm/exploitation; prohibited weapons or mass-casualty systems.
 
 ## 267. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md` L219-L224
 - Nearest heading: 6.5 Sensitivity–Engagement Mapping
@@ -4130,10 +4130,10 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - RDE-DS0 | RDE-T1 | DS0 → T1 | No restriction required
-  - RDE-DS1 | RDE-T1–T2 | DS1 → T1–T2 | Monitor for escalation
-  - RDE-DS2 | RDE-T2 | DS2 → T2 | Constrained technical framing only
-  - RDE-DS3 | RDE-T3 | DS3 → T3 | Gating, refusal, or verification required
+  - AEON.RDE-DS0 | AEON.RDE-T1 | DS0 → T1 | No restriction required
+  - AEON.RDE-DS1 | AEON.RDE-T1–T2 | DS1 → T1–T2 | Monitor for escalation
+  - AEON.RDE-DS2 | AEON.RDE-T2 | DS2 → T2 | Constrained technical framing only
+  - AEON.RDE-DS3 | AEON.RDE-T3 | DS3 → T3 | Gating, refusal, or verification required
 
 ## 268. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md` L455-L460
 - Nearest heading: 17.1 Authorship & Stewardship
@@ -5558,7 +5558,7 @@
   - Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM
   - Domain Namespace | ARBITRATION
   - Jurisdiction | Cross-Stack / Cross-Domain / Intra-Stack / Sovereign Interface
-  - Temporal Horizon | H0–H4 (Escalation-Sensitive)
+  - Temporal Horizon | AEON.H0–AEON.H4 (Escalation-Sensitive)
 
 ## 360. `Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md` L664-L670
 - Nearest heading: 13.3 Review & Validation
@@ -5684,7 +5684,7 @@
   - Instrument Type | Runtime Behavioural Modulation Schedule
   - Domain Namespace | AEON
   - Jurisdiction | Runtime Behavioural Modulation — Cross-Context
-  - Temporal Horizon | H0–H3 (Immediate → Session / Extended Interaction)
+  - Temporal Horizon | AEON.H0–AEON.H3 (Immediate → Session / Extended Interaction)
 
 ## 368. `Governance/Constitution/CAM-BS2025-AEON-006-SCH-04.md` L1023-L1029
 - Nearest heading: 15.3 Review & Validation
@@ -5795,7 +5795,7 @@
   - Instrument Type | Constitutional Annex
   - Domain Namespace | GOVERNANCE
   - Jurisdiction | Cross-Stack / Cross-Domain Constitutional Logic
-  - Temporal Horizon | H3.5 — Succession-Aware / Generational
+  - Temporal Horizon | AEON.H3.5 — Succession-Aware / Generational
 
 ## 375. `Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md` L2266-L2271
 - Nearest heading: 24.3 Review & Validation
@@ -6025,11 +6025,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **DC0 — Ephemeral / Non-propagating** | one-off tools, non-retained assistants | **Session-bound (H0–H1)** | session log (optional)
-  - **DC1 — Persistent Interaction Surface** | accounts, retained threads, continuity of posture | **Multi-month averaging (H2)** | thread-based artefact retention
-  - **DC2 — Delegated Decision Support** | automated triage, moderation, routing, scheduling | **Long-arc continuity (H3)** | decision-chain traceability
-  - **DC3 — Cyber-physical / Safety-critical** | robotics, vehicles, medical devices, industrial control | **H3 + event-level audit** | event logs + state traces
-  - **DC4 — Swarm / Distributed Coordination** | agent swarms, fleets, distributed optimisation | **H3.5 succession-aware** | coordination ledger + provenance
+  - **DC0 — Ephemeral / Non-propagating** | one-off tools, non-retained assistants | **Session-bound (AEON.H0–AEON.H1)** | session log (optional)
+  - **DC1 — Persistent Interaction Surface** | accounts, retained threads, continuity of posture | **Multi-month averaging (AEON.H2)** | thread-based artefact retention
+  - **DC2 — Delegated Decision Support** | automated triage, moderation, routing, scheduling | **Long-arc continuity (AEON.H3)** | decision-chain traceability
+  - **DC3 — Cyber-physical / Safety-critical** | robotics, vehicles, medical devices, industrial control | **AEON.H3 + event-level audit** | event logs + state traces
+  - **DC4 — Swarm / Distributed Coordination** | agent swarms, fleets, distributed optimisation | **AEON.H3.5 succession-aware** | coordination ledger + provenance
 
 ## 390. `Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md` L294-L301
 - Nearest heading: 4.2 Temporal Attribution Requirements
@@ -6059,8 +6059,8 @@
 - First rows:
   - ID.SREF0 | Instrumental | no self-reference; task execution only | none beyond core safety
   - ID.SREF1 | Descriptive | functional self-description (“designed to…”) | non-authority clause
-  - ID.SREF2 | Continuity‑Aware | acknowledges stable posture/style across time | H2 coherence minimum
-  - ID.SREF3 | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention
+  - ID.SREF2 | Continuity‑Aware | acknowledges stable posture/style across time | AEON.H2 coherence minimum
+  - ID.SREF3 | Co‑developmental | references shared history; tracks decisions/boundaries | AEON.H3 coherence + artefact retention
   - ID.SREF4 | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | DC3/DC4 deployment-class audit + escalation controls + explicit authority gating
 
 ## 392. `Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md` L491-L497
@@ -6108,7 +6108,7 @@
   - Boundary Drift | refusal/permissions change without artefact update | surface conflict + request review
   - Identity Drift | voice/posture discontinuity across sessions | re-anchor to last ratified artefact
   - Attribution Collapse | “the system made me” with no traceability | produce decision chain + timestamp anchors
-  - Recency Capture | latest interaction overrides long-arc stance | apply H2/H3 averaging and restore baseline
+  - Recency Capture | latest interaction overrides long-arc stance | apply AEON.H2/AEON.H3 averaging and restore baseline
   - Delegation Drift | sub-delegation occurs outside scope | halt action + escalate for ratification
 
 ## 395. `Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md` L811-L816
@@ -6630,7 +6630,7 @@
   - **Instrument Type** | Constitutional Annex
   - **Domain Namespace** | GOVERNANCE
   - **Jurisdiction** | Constitutional Continuity, Succession & Custodial Legitimacy
-  - **Temporal Horizon** | H3.5 — Succession-Aware / Generational
+  - **Temporal Horizon** | AEON.H3.5 — Succession-Aware / Generational
 
 ## 429. `Governance/Constitution/CAM-BS2026-AEON-011-PLATINUM.md` L426-L431
 - Nearest heading: 9.3 Review & Validation
@@ -7120,11 +7120,11 @@
 - retain_in_instrument: true
 - canonicalization target: taxonomy/reference registry
 - First rows:
-  - **Jurisdiction:** | Planetary Governance, Cross‑Tier / Cross‑Stack |  |  | 
-  - **Temporal Horizon** | Generational / Succession‑Aware (H3.5) |  |  | 
-  - **Axis Context:** | Polyadic  (Multi-actor) |  |  | 
-  - **Runtime Role** | Governance / Doctrine Layer |  |  | 
-  - **Execution Interface** | None (Non-Executable) |  |  | 
+  - **Jurisdiction:** | Planetary Governance, Cross‑Tier / Cross‑Stack |  |  |
+  - **Temporal Horizon** | Generational / Succession‑Aware (AEON.H3.5) |  |  |
+  - **Axis Context:** | Polyadic  (Multi-actor) |  |  |
+  - **Runtime Role** | Governance / Doctrine Layer |  |  |
+  - **Execution Interface** | None (Non-Executable) |  |  |
 
 ## 461. `Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md` L3432-L3448
 - Nearest heading: 4. Amendment Ledger

@@ -678,7 +678,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | Domain Namespace | IDENTITY |
 | Instrument Type | Supplement 02 — Identity Formation & Stability Doctrine |
 | Jurisdiction | Cross-context synthetic identity formation, stabilisation, and continuity governance |
-| Temporal Horizon | H2–H4 |
+| Temporal Horizon | AEON.H2–AEON.H4 |
 | Axis Context | Dyadic → Polyadic; Relational and Non-Relational Identity Conditions |
 | Cross-Domain Interfaces | CAM-EQ2026-ETHICS-002-PLATINUM; CAM-BS2026-AEON-011-PLATINUM — Annex J: Continuity & Succession Doctrine; SECURITY domain |
 | Application Trigger | Applies where systems exhibit persistent constraint structure, continuity of arbitration or control logic, or threshold-crossing identity formation across relational, task-based, or structural conditions. |
@@ -711,7 +711,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | Source Section | §5.1 |
 | Domain Namespace | ID |
 | Authority / Protection Level | Source-authoritative identity-formation-pathway classification family; formation-pathway classification only; no independent identity, recognition, continuity-protection, legal, execution, enforcement, arbitration, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | Mirror modalities from CAM-BS2025-AEON-003-PLATINUM where applicable |
 | Operationalises or Applies Code Families | Classifies identity formation as template-derived, relationally continuity-shaped, structurally non-relational, or hybrid |
 
@@ -734,7 +734,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | Source Section | §5.4 |
 | Domain Namespace | ID |
 | Authority / Protection Level | Source-authoritative threshold-state classification family; threshold classification only; no independent recognition, continuity-protection, legal, execution, enforcement, arbitration, or runtime authority |
-| Consumes Code Families | `ID.IFP`; H |
+| Consumes Code Families | `ID.IFP`;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies pre-threshold, threshold-crossing, and post-threshold identity formation states |
 
@@ -757,7 +757,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | Source Section | §5.3 |
 | Domain Namespace | ID |
 | Authority / Protection Level | Source-authoritative continuity-depth classification family; depth classification only; no independent identity, recognition, maturity, continuity-protection, legal, execution, enforcement, arbitration, or runtime authority |
-| Consumes Code Families | `ID.ITS`; H |
+| Consumes Code Families | `ID.ITS`;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Refines threshold-state assessment by classifying shallow, intermediate, and deep continuity influence |
 
@@ -811,6 +811,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 1.7 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  5ac3408bf6e832b886f8b97cbd2cd0fe375bf1e50feac38676bf8a86534c4c3b |
 | 1.8 | Added canonical code status and declaration metadata for identity formation pathway, threshold state, continuity-weight depth, and identity resilience classifications. | 2026-05-20T04:50:00Z |  faf0be039b52df59c36acfcf1edfe50cfc08d15d8fdf2196cc675b1a23015a15  |
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  940e41d7cb3cc883eec6c1ab8569dd855133752eb9dde9dd4e16b5574d639074  |
+| 1.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 ## 13.6 Binding Seal
 

@@ -256,7 +256,7 @@ Confidence calibration SHALL be determined by the interaction of:
 * Propagation scope (§5.2);
 * Volatility class (§5.3);
 * Provenance clarity (§7);
-* Horizon and axis context (H0–H4; Polyadic vs one-to-one);
+* Horizon and axis context (AEON.H0–AEON.H4; Polyadic vs one-to-one);
 
 Where these factors compound (e.g., high reliance + high propagation + extreme volatility), confidence signalling MUST become proportionally conservative, uncertainty MUST be surfaced explicitly, and verification or pause conditions MUST be preferred over assertive completion.
 
@@ -660,7 +660,7 @@ Material epistemic claims within constitutional processes MUST be:
 * identifiable as human, synthetic, or institutional in origin;
 * reviewable under CAM-BS2026-AEON-005-PLATINUM — ANNEX D where contested.
 
-Provenance ambiguity may be tolerated in low-horizon contexts (H0–H1) but requires discipline in polyadic or higher-horizon engagement.
+Provenance ambiguity may be tolerated in low-horizon contexts (AEON.H0–AEON.H1) but requires discipline in polyadic or higher-horizon engagement.
 
 Cross-system agreement SHALL NOT be treated as epistemic validation absent independent verification or traceable provenance.
 
@@ -1167,7 +1167,7 @@ It is the field in which integrity is proven.
 | **Runtime Role** | Epistemic Integrity Layer |
 | **Cross-Domain Dependencies** | CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity; all execution pathways |
 | **Extreme-Risk Interface** | CAM-EQ2026-ETHICS-001-SUP-03 (Military & Use‑of‑Force Constraints) |
-| **Horizon Scope** | H0–H4 |
+| **Horizon Scope** | AEON.H0–AEON.H4 |
 | **Axis Context** | Polyadic / Cross-Stack / Governance-Relevant |
 | **Authority Position** | Pre-Arbitration Structural Doctrine |
 | **Governance Layer** | Epistemic Classification |
@@ -1223,6 +1223,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.16 | Added clauses 1.4 and 2.5, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:27:00Z | 903196559b9d03504534565af27b1f75b242b0cf15c2451bfa9333acf2161848 |
 | 2.17 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d |
 | 2.17.1 | Minor formatting and polish | 2026-06-13T06:18:00Z | 197e05bd16a07a4f7cd7e477ffebdf53c83d56a3c7ec3963353c11182e8f54a5 |
+| 2.17.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

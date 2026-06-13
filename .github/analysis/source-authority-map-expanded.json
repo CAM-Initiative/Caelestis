@@ -215,12 +215,12 @@
       "proposed_registry_key": "ID.M",
       "canonical_name": "6.3 Memory Classification (Post-Resolution Only)",
       "controlled_values": [
-        "M0",
-        "M1",
-        "M2",
-        "M3",
-        "M4",
-        "M5"
+        "ID.MEM0",
+        "ID.MEM1",
+        "ID.MEM2",
+        "ID.MEM3",
+        "ID.MEM4",
+        "ID.MEM5"
       ],
       "source_instrument": "CAM-EQ2026-IDENTITY-001-PLATINUM.md",
       "source_section": "6.3 Memory Classification (Post-Resolution Only)",

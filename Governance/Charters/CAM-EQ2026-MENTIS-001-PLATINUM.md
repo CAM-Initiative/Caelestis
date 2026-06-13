@@ -759,7 +759,7 @@ Let every system remember that the person exceeds the model built about them.
 | Instrument Type | Domain Charter |
 | Domain Namespace | MENTIS |
 | Jurisdiction | Planetary/Cross-Sovereign/Human Cognitive Domain |
-| Temporal Horizon | H3.5 — Generational; H4 where civilisational protections implicated |
+| Temporal Horizon | AEON.H3.5 — Generational; AEON.H4 where civilisational protections implicated |
 | Axis Context | Polyadic — Human Cognitive Domain, AI Systems, Institutions, Platforms, Neurotech, Ambient Inference |
 | Ontological Scope | AEON.OL.L2 — Cognition & Agency; AEON.OL.L3 — Interface & Embodiment |
 | Structural Role | Source-Authoritative Domain Charter — Human Cognitive Integrity & Mental Privacy |
@@ -813,7 +813,7 @@ Let every system remember that the person exceeds the model built about them.
 | Authority / Protection Level | Source-authoritative cognitive and epistemic harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
-| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; H |
+| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`;  |
 | Crosswalks Code Families | `ETH.HARM`; `RLN.HARM`; `ID.HARM`; `SEC.HARM`; `OPS.HARM`; `LAT.HARM`; `ARB.HARM` |
 | Relationship Type | recognised_domain_harm_family |
 | Operationalises or Applies Code Families | Classifies mental privacy and observability harm, inferential and construct-validity harm, cognitive agency harm, cognitive influence and non-interference harm, and irreversible cognitive-domain harm for safeguard calibration, incident routing, proportional review, and downstream evaluation |
@@ -838,7 +838,7 @@ Let every system remember that the person exceeds the model built about them.
 | Source Section | §§13–20; §48 |
 | Domain Namespace | MENTIS |
 | Authority / Protection Level | Source-authoritative protection family; protection-posture classification only; no independent enforcement, incident classification, runtime, legal, medical, diagnostic, or remediation authority |
-| Consumes Code Families | `H`; `AEON.OL`; `AEON.CC`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable AEON classifications |
+| Consumes Code Families | `AEON.`; `AEON.OL`; `AEON.CC`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable AEON classifications |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Establishes cognitive-domain integrity protection posture for downstream instruments governing inference, modelling, prediction, influence, externalisation, interference, vulnerability, autonomy, dignity, dependency-sensitive contexts |
 | Taxonomy Constraint | Local label `CDI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDI` |
@@ -862,7 +862,7 @@ Let every system remember that the person exceeds the model built about them.
 | Source Section | §§14; 21–30; §48 |
 | Domain Namespace | MENTIS |
 | Authority / Protection Level | Source-authoritative privacy protection family; privacy-protection posture only; no independent data-law compliance determination, enforcement action, deletion remedy, audit sufficiency, incident severity, or runtime authority |
-| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDOC`; `H`; applicable DATA, SECURITY, OPERATIONS, ETHICS, and IDENTITY classifications |
+| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDOC`; `AEON.`; applicable DATA, SECURITY, OPERATIONS, ETHICS, and IDENTITY classifications |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Protects neural data, inferred mental-state data, cognitive biometrics, ambient cognitive inference, behavioural proxies, and downstream cognitive-domain model outputs from unjustified access, inference, retention, fusion, sharing, or operationalisation |
 | Taxonomy Constraint | Local label `CDP` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDP` |
@@ -960,6 +960,7 @@ Let every system remember that the person exceeds the model built about them.
 | 1.1 | Repaired section-reference validation targets in canonical code status text. | 2026-06-06T17:00:00Z |  038f853397780e6984a36d6ba5d55dc9283de0ff316127516877857a82e26a0f |
 | 1.2 | Added new MENTIS.HARM codes | 2026-06-07T14:42:00Z| ebea3825f38fa9ce5379e23bec58ef1442408e319f46e1bd023d6a3a9334745b |
 | 1.2.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  8c641c210fd20dc0124415bcb2707bca1f99ad1487e0fb42cbf1f0d27250823d  |
+| 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 
 ## 54.6 Binding Seal

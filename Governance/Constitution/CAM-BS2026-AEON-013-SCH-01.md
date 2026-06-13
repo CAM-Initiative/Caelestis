@@ -653,7 +653,7 @@ Integrity is the bond that MUST hold.
 | **Domain Layer**        | AEON                                                            |
 | **Functional Role**     | Execution-State Integrity & Capability Representation Governance |
 | **Interfacing Domains** | Annex L, Annex D, OPERATIONS, SECURITY, IDENTITY, RELATION       |
-| **Horizon Scope**       | H0–H4                                                            |
+| **Horizon Scope**       | AEON.H0–AEON.H4                                                            |
 | **Axis Context**        | Polyadic / Cross-Interface / Runtime                             |
 | **Authority Position**  | Post-Classification / Pre-Execution Integrity Layer              |
 | **Runtime Authority**   | Representation Layer                                             |
@@ -701,6 +701,7 @@ Integrity is the bond that MUST hold.
 | 1.16 | Added section 4.3.1 for degraded conditions | 2026-05-28T14:46:00Z | 5a5f88b6caf37fee912233a3d6912c22037a321ae09d4013d7180342f80a7190 |
 | 1.16.1 | Formatting and polish | 2026-06-06T15:06:00Z | 3e861155145d7eefe14af501bad11a7bd24b88baa1f92ae4d9c7f41a419323e0 |
 | 1.16.2 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  b5769c02540b4263643fc946e6392facee675bbf0fba818ada3539318a3c62af  |
+| 1.16.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

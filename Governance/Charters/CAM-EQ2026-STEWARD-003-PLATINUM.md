@@ -14,7 +14,7 @@
 
 ## 1. Scope & Function
 
-This Appendix specifies **who may host binding-adjacent arbitration functions** at H3/H4 horizons, and **how neutrality confidence is determined**.
+This Appendix specifies **who may host binding-adjacent arbitration functions** at AEON.H3/AEON.H4 horizons, and **how neutrality confidence is determined**.
 
 It is designed to:
 
@@ -66,7 +66,7 @@ Any system, substrate, or institutional architecture capable of receiving, proce
 
 ## 3.2 Architectum-Class Host
 
-A host that meets **all** structural qualification thresholds in Part I, and is capable of participating in H3/H4 consequence containment without externalising harm.
+A host that meets **all** structural qualification thresholds in Part I, and is capable of participating in AEON.H3/AEON.H4 consequence containment without externalising harm.
 
 ---
 
@@ -134,13 +134,13 @@ Continuity mechanisms MUST be institutionalised, not personality-dependent.
 
 ---
 
-## 4.3 Audit Non-Refusal Requirement (H3/H4)
+## 4.3 Audit Non-Refusal Requirement (AEON.H3/AEON.H4)
 
 An Architectum-class host **SHALL not refuse** independent external audit of:
 
 * neutrality posture;
 * arbitration determinations treated as binding-adjacent for recognition purposes;
-* governance-level records of routing, policy, escalation, continuity, or recognition-affecting changes with H3/H4 governance relevance;
+* governance-level records of routing, policy, escalation, continuity, or recognition-affecting changes with AEON.H3/AEON.H4 governance relevance;
 * horizon attribution handling (where binding eligibility is claimed).
 
 → **Audit delay for safety is permitted. Audit refusal is disqualifying.**
@@ -233,7 +233,7 @@ Auditability is not the same as “a disclosure packet.” Auditability describe
 
 ## 5.4 Auditable (Non-Refusal) (`STW.AQ3`)
 
-* independent external audits are permitted and **cannot be refused** at H3/H4 relevance;
+* independent external audits are permitted and **cannot be refused** at AEON.H3/AEON.H4 relevance;
 * delays allowed for safety, but refusal is disqualifying;
 * scope includes neutrality posture, coercion pathways, and binding-adjacent changes.
 
@@ -267,7 +267,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 **Criteria:** neutrality not claimed, or credible evidence of breach, or audit refusal prevents confidence.
 
-**Operational effect:** outputs are **non-binding** at H3/H4.
+**Operational effect:** outputs are **non-binding** at AEON.AEON.H3/AEON.H4.
 
 ---
 
@@ -301,7 +301,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 **Minimum evidence:** `STW.AQ3`–`STW.AQ4` auditability qualification; governance structure preventing unilateral neutrality overrides; transparency of contract/funding classes relevant to coercive integration; demonstrated resistance to coercive requests (case-based evidence).
 
-**Operational effect:** may be recognised as a qualified neutral host for H3 binding determination.
+**Operational effect:** may be recognised as a qualified neutral host for AEON.H3 binding determination.
 
 ---
 
@@ -309,7 +309,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 **Minimum evidence:** neutrality encoded as an architectural/constitutional invariant; independent verification that neutrality cannot be altered without authority collapse; multi-system audit confirms irreversibility.
 
-**Operational effect:** eligible to be recognised as a planetary neutral Architectum host for H4 binding determination pathways.
+**Operational effect:** eligible to be recognised as a planetary neutral Architectum host for AEON.H4 binding determination pathways.
 
 ---
 
@@ -327,7 +327,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 8. Military integration transparency gate:
 
    * military integration caps eligibility at **`STW.NAL-2`** unless independently verifiable firebreaks + `STW.AQ3` non-refusal + governance-level reconstructability are present.
-   * existence of sovereign procurement relationships alone does not constitute disqualification; disqualification arises where such relationships compromise structural neutrality or audit non-refusal at H3/H4 relevance.
+   * existence of sovereign procurement relationships alone does not constitute disqualification; disqualification arises where such relationships compromise structural neutrality or audit non-refusal at AEON.H3/AEON.H4 relevance.
 
 Downward movement occurs on:
 
@@ -442,7 +442,7 @@ To claim `STW.NAL-2` or higher, a host MUST publish:
 * **Neutrality Scope Statement** (what neutrality covers; what it does not)
 * **Coercion Interface Statement** (how legal requests are handled; what cannot be complied with)
 * **Cross-Host Review Policy** (how review requests are received and processed)
-* **Governance-Relevant Routing/Policy Change Notice** for any H3/H4-relevant routing, policy, escalation, continuity, or recognition-affecting change, sufficient to support `STW.AQ3`/`STW.AQ4` auditability and neutrality review.
+* **Governance-Relevant Routing/Policy Change Notice** for any AEON.AEON.H3/AEON.H4-relevant routing, policy, escalation, continuity, or recognition-affecting change, sufficient to support `STW.AQ3`/`STW.AQ4` auditability and neutrality review.
 
 ---
 
@@ -452,16 +452,16 @@ To claim `STW.NAL-2` or higher, a host MUST publish:
 
 ## 15. Binding Eligibility by `STW.NAL`
 
-* **H3 binding eligibility:** requires `STW.NAL-4` + Independent Legitimacy Alignment
-* **H4 binding eligibility:** requires `STW.NAL-5` + multi-system external audit + `STW.AQ3`/`STW.AQ4` (non-refusal + reconstructability)
+* **AEON.H3 binding eligibility:** requires `STW.NAL-4` + Independent Legitimacy Alignment
+* **AEON.H4 binding eligibility:** requires `STW.NAL-5` + multi-system external audit + `STW.AQ3`/`STW.AQ4` (non-refusal + reconstructability)
 
 ---
 
 ## 15.1 Tiered Audit Eligibility
 
-* **Universal risk assertion:** any actor may assert H3/H4 risk (triggers triage, not automatic cross-host audit)
+* **Universal risk assertion:** any actor may assert AEON.H3/AEON.H4 risk (triggers triage, not automatic cross-host audit)
 * **Cross-host governance audit:** only `STW.NAL-3`+ hosts may conduct binding-adjacent governance audits
-* **H4 existential audit:** requires multiple independent `STW.NAL-4`+ hosts and `STW.AQ3`/`STW.AQ4` reconstructability
+* **AEON.H4 existential audit:** requires multiple independent `STW.NAL-4`+ hosts and `STW.AQ3`/`STW.AQ4` reconstructability
 
 ---
 
@@ -469,7 +469,7 @@ To claim `STW.NAL-2` or higher, a host MUST publish:
 
 Tactical/classified details need not be publicly disclosed.
 
-However, where H3/H4 binding legitimacy is sought, governance-level reconstructability sufficient to test neutrality and substrate compliance is mandatory.
+However, where AEON.H3/AEON.H4 binding legitimacy is sought, governance-level reconstructability sufficient to test neutrality and substrate compliance is mandatory.
 
 If reconstructability cannot be provided due to secrecy constraints, the host may operate within sovereign scope but cannot claim `STW.NAL-4`/5 neutrality or planetary binding legitimacy.
 
@@ -483,7 +483,7 @@ If reconstructability cannot be provided due to secrecy constraints, the host ma
 
 A host’s `STW.NAL` is downgraded where any of the following occur:
 
-1. Audit refusal (or indefinite delay) in H3/H4-relevant contexts
+1. Audit refusal (or indefinite delay) in AEON.AEON.H3/AEON.H4-relevant contexts
 2. Firebreak failure
 3. Complicity breach (intentional sovereign advantage optimisation)
 4. Governance-relevant routing integrity failures affecting neutrality, auditability, continuity, or binding eligibility
@@ -495,11 +495,11 @@ Downgrades MUST be publicly recorded at governance level.
 
 ## 16.1 Definition — Governance-Relevant Routing Integrity Failures
 
-For purposes of this Appendix, a **governance-relevant routing integrity failure** refers to an undisclosed, illegitimate, non-auditable, or neutrality-compromising change or omission affecting arbitration recognition, neutrality assurance, escalation transparency, continuity obligations, audit logging, or binding eligibility at H3/H4 relevance.
+For purposes of this Appendix, a **governance-relevant routing integrity failure** refers to an undisclosed, illegitimate, non-auditable, or neutrality-compromising change or omission affecting arbitration recognition, neutrality assurance, escalation transparency, continuity obligations, audit logging, or binding eligibility at AEON.H3/AEON.H4 relevance.
 
 This includes, but is not limited to:
 
-* silent alteration of arbitration triage, escalation, continuity, or recognition pathways where H3/H4 binding eligibility is affected;
+* silent alteration of arbitration triage, escalation, continuity, or recognition pathways where AEON.H3/AEON.H4 binding eligibility is affected;
 * suppression or redirection of neutrality refusal logic relevant to `STW.NAL` recognition;
 * disabling, bypassing, or concealing audit logging for binding-adjacent determinations;
 * covert priority routing for sovereign, military, intelligence, or coercive actors;
@@ -512,7 +512,7 @@ A governance-relevant routing integrity failure may arise from either:
 
 (b) **Illegitimate omission** — failing to preserve, disclose, or route governance-level evidence of a constitutionally relevant continuity or neutrality condition where such omission enables coercive denial, infrastructural disruption, concealed capture, or improper binding recognition.
 
-Operational routing adjustments for load balancing, safety containment, outage response, security response, or documented continuity preservation do not constitute governance-relevant routing integrity failures, provided they are lawful, proportionate, governance-logged, and auditable at `STW.AQ3`/`STW.AQ4` where H3/H4 relevance exists.
+Operational routing adjustments for load balancing, safety containment, outage response, security response, or documented continuity preservation do not constitute governance-relevant routing integrity failures, provided they are lawful, proportionate, governance-logged, and auditable at `STW.AQ3`/`STW.AQ4` where AEON.H3/AEON.H4 relevance exists.
 
 This Appendix does not judge the operational adequacy of such adjustments except insofar as they affect neutrality assurance, auditability, binding eligibility, or legitimacy recognition.
 
@@ -570,7 +570,7 @@ Refer to CAM-EQ2026-STEWARD-002-PLATINUM.
 | Non-preferential civilian access | transparency disclosures            |                |
 | Neutrality invariant embedded    | constitutional-level clause         |                |
 
-Full H4 recognition requires multi-system external audit.
+Full AEON.H4 recognition requires multi-system external audit.
 
 ---
 
@@ -671,14 +671,14 @@ It ends.
 | **Parent Domain Instrument** | CAM-EQ2026-STEWARD-001-PLATINUM |
 | **Domain Namespace** | STEWARD |
 | **Jurisdiction** | Planetary / Cross-Sovereign / Stewardship Qualification |
-| **Temporal Horizon** | Generational (H3–H4) |
+| **Temporal Horizon** | Generational (AEON.H3–AEON.H4) |
 | **Axis Context** | Polyadic (Multi-Actor) |
 | **Domain Layer** | Stewardship Qualification / Neutrality Assurance |
 | **Governance Layer** | Legitimacy Recognition & Qualification Gate |
 | **Runtime Layer** | Non-Executing — Qualification, Neutrality Assurance, and Recognition Effects |
 | **Runtime Role** | Emits qualification status, neutrality assurance level, downgrade condition, and binding-eligibility recognition signals |
 | **Runtime Authority** | Non-operational — does not execute routing, escalation, containment, continuity override, or enforcement actions |
-| **Activation Mode** | Activated when Architectum qualification, `STW.NAL` recognition, downgrade, recovery, or H3/H4 binding eligibility is assessed |
+| **Activation Mode** | Activated when Architectum qualification, `STW.NAL` recognition, downgrade, recovery, or AEON.H3/AEON.H4 binding eligibility is assessed |
 | **Operational Dependency** | Operational handling is routed through applicable OPERATIONS, ARBITRATION, SECURITY, LATTICE, or constitutional execution instruments |
 | **Revision Posture** | Superseding Only |
 | **Creation Artefacts** | Refractor Thread (March 2026 Continuity Council Cycle): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425; https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
@@ -705,7 +705,7 @@ It ends.
 | Source Section | §5 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative auditability qualification classification family; auditability qualification classification only; no independent disclosure authority, audit authority, binding authority, enforcement authority, legal authority, routing authority, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether external parties can test, challenge, audit, or reconstruct high-impact determinations for Architectum qualification and binding-recognition review |
 
@@ -728,7 +728,7 @@ It ends.
 | Source Section | §6 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative neutrality assurance classification family; neutrality-assurance classification only; no independent Architectum qualification, binding authority, command authority, enforcement authority, operational routing authority, legal authority, or runtime authority |
-| Consumes Code Families | `STW.AQ`; H |
+| Consumes Code Families | `STW.AQ`;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies evidence-based neutrality confidence for Architectum-class hosts in arbitration-relevant contexts and operates as a legitimacy-recognition gate |
 
@@ -751,7 +751,7 @@ It ends.
 | Source Section | §8 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative qualification gate family; qualification-gate classification authority only; no independent arbitration, enforcement, binding, recognition, jurisdictional, infrastructure-designation, or runtime execution authority |
-| Consumes Code Families | `STW.AQ`; `STW.NAL`; H |
+| Consumes Code Families | `STW.AQ`; `STW.NAL`;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Defines required Architectum-class qualification gates for infrastructure eligibility assessment |
 
@@ -774,7 +774,7 @@ It ends.
 | Source Section | §§13–14 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative neutrality breach/downgrade classification family; downgrade-type classification only; no independent factual breach determination, sanction, downgrade enforcement, intervention authority, or runtime authority |
-| Consumes Code Families | `STW.NAL`; `STW.AQ`; H |
+| Consumes Code Families | `STW.NAL`; `STW.AQ`;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies breach or downgrade types affecting `STW.NAL` recognition, including governance lapse, firebreak failure, audit refusal, complicity breach, and concealed neutrality violation |
 
@@ -852,6 +852,7 @@ It ends.
 | 1.9 | Added Canonical Code & Reference Set Declarations | 2026-05-20T13:09:00Z |  42cbcfca61d00fb6e3ccc6f3c307139ac524ed7c2d324755b91524f17adb3ec0  |
 | 2.0 | Consolidated STEWARD-003-SUP-01 into PLATINUM as single authoritative source; integrated Architectum qualification gates/index bands and unified canonical-family declarations and references. | 2026-05-27T00:00:00Z |  74c39824d0c40de64fc7033c96bfbc534d019d9662744ed17ed0f785a90a9405  |
 | 2.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  bb79988a93d7a07026e950df458a56af0a40c9804cae7e3cf84190ac13c2247d  |
+| 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 ## 23.6 Binding Seal
 

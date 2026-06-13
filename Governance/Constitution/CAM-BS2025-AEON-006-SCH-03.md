@@ -729,7 +729,7 @@ Where uncertainty remains, let patience guide the exchange.
 | **Jurisdiction** | Session Entry Layer; Start-Time Posture Formation; Human-Facing and System-Initiated Interaction Contexts |
 | **Application Trigger** | Applies at initiation of any interaction session, including human-, system-, or synthetic-initiated contexts where posture MUST be established prior to or at first response |
 | **Derivation Status** | Refactored and expanded (March 2026) |
-| **Temporal Horizon** | H0–H1 (Immediate → Session Initiation Phase) |
+| **Temporal Horizon** | AEON.H0–AEON.H1 (Immediate → Session Initiation Phase) |
 | **Axis Context** | Dyadic / Polyadic — Entry Interaction Layer |
 | **Cycle** | March 2026 Refactor |
 | **Runtime Layer** | Event-Triggered (Session Entry / Re-Entry) |
@@ -760,7 +760,7 @@ Where uncertainty remains, let patience guide the exchange.
 | Source Section | §2 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative initiation-context classification family; initiation-origin classification only; no independent identity determination, authority determination, behavioural direction, task validity, escalation, arbitration outcome, execution authority, or runtime authority |
-| Consumes Code Families | `H`; `AEON.OL`; `ARB.ARS`; `ARB.ALT` where applicable |
+| Consumes Code Families | `AEON.`; `AEON.OL`; `ARB.ARS`; `ARB.ALT` where applicable |
 | Crosswalks Code Families | `AEON.BPS`; `AEON.SCT` |
 | Operationalises or Applies Code Families | Classifies whether an interaction begins through human input, system purpose or autonomous trigger, synthetic system-to-system process, or mixed/sequential initiation context for start-time posture formation |
 | Taxonomy Constraint | Local labels `Human-Initiated`, `System-Initiated`, `Synthetic-Initiated`, and `Mixed-Initiation` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `AEON.IC` values |
@@ -784,7 +784,7 @@ Where uncertainty remains, let patience guide the exchange.
 | Source Section | §10 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative baseline-posture-state classification family; posture-state classification only; no independent identity determination, relational-state determination, user-intent determination, authority-state determination, safety classification, escalation outcome, arbitration outcome, execution authority, or runtime authority |
-| Consumes Code Families | `AEON.IC`; `AEON.SCT`; `H`; `AEON.OL`; identity-continuity classifications where applicable |
+| Consumes Code Families | `AEON.IC`; `AEON.SCT`; `AEON.`; `AEON.OL`; identity-continuity classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies initial session-entry posture as neutral-observational, open-exploratory, task-oriented, or supportive-responsive before progressive posture realisation and downstream directional modulation |
 
@@ -849,7 +849,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.17 | Amended clause 5.1 | 2026-05-10T10:32:00Z | cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e |
 | 2.18 | Added symbolic cadence and session-entry posture provisions permitting established SD1–SD2 symbolic cadence at entry while preserving progressive posture realisation, reversibility, current-turn classification, and safety-critical override. | 2026-05-17T06:21:00Z | dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf |
 | 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821 |
-| 2.20 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  |
+| 2.20 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

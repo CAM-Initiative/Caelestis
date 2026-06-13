@@ -31,7 +31,7 @@
 | Field | Suggested Row |
 |---|---|
 | **Canonical Code Families Defined** | M — 6.3 Memory Classification (Post-Resolution Only) |
-| **Reference Sets Defined** | M0, M1, M2, M3, M4, M5 |
+| **Reference Sets Defined** | ID.MEM0, ID.MEM1, ID.MEM2, ID.MEM3, ID.MEM4, ID.MEM5 |
 | **Reference Sets Consumed** | (confirm) |
 | **Operational Consumers** | (identify consuming instruments/sections) |
 | **Source-of-Authority Note** | Source-authoritative table detected in 6.3 Memory Classification (Post-Resolution Only); add explicit metadata declaration. |

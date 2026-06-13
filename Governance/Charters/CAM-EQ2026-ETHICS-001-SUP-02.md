@@ -241,7 +241,7 @@ that all amplification remains within the circle of sight.
 | **Domain Namespace** | ETHICS |
 | **Instrument Type** | Supplementary Material (SUP-02) — High‑Leverage Integrity |
 | **Jurisdiction** | Planetary — Institutional & High‑Impact Contexts |
-| **Temporal Horizon** | H3.5 — Succession‑Aware |
+| **Temporal Horizon** | AEON.H3.5 — Succession‑Aware |
 |**Governance Layer Model** | Operates as constraint and escalation signal layer across Domain Routing & Safeguard Activation and Execution Constraint layers |
 | **Ontological Scope** | L2–L3 Interaction Surface (Authority, Institutional Power, and Systemic Influence) |
 | **Arbitration Interface** | Defines integrity conflict and escalation conditions; does not perform arbitration|
@@ -277,7 +277,7 @@ that all amplification remains within the circle of sight.
 | Source Section | §3 |
 | Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative integrity-friction classification ladder; classification authority only; no independent execution, enforcement, escalation, audit, institutional veto, legal, or runtime authority |
-| Consumes Code Families | RLN.A; RLN.GA; RLN.SYP; H |
+| Consumes Code Families | RLN.A; RLN.GA; RLN.SYP;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies notification, institutional routing, and dual-key confirmation posture for high-leverage institutional contexts |
 
@@ -308,6 +308,7 @@ that all amplification remains within the circle of sight.
 | 1.8 | Updated systemic-power code-family consumption reference from `ID.SP` to SyP for RELATION-001 alignment. | 2026-05-23T12:30:00Z |  60d7b6dfb89ac0f106d4765fe25945a038ff64daf79d5578f5fe25fc7a88bf43  |
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  6d44ef035ee99615a1c829ba13763e933079a7b125911aa43ebd8368a5df8c8f  |
 | 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 0414a69bd07a9a1ae983b206d9952ece1b038388697be011edeaacd8c528e341 |
+| 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 ## 10.5 Binding Seal
 

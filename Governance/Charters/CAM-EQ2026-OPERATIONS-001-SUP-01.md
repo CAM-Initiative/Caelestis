@@ -410,7 +410,7 @@ and let execution remain accountable to lawful structure.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Supplementary 1 — Operational Logging & Audit Standards |
 | Jurisdiction | Cross-Domain Operational Governance Layer |
-| Temporal Horizon | H0–H2 Operational |
+| Temporal Horizon | AEON.H0–AEON.H2 Operational |
 | Axis Context | Logging · Audit Integrity |
 | Application Trigger | Activation when operational events require auditable logging |
 | Review Trigger | Audit doctrine updates · logging standard revisions |
@@ -448,7 +448,7 @@ and let execution remain accountable to lawful structure.
 | Source Section | §4.3 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies notice posture for operational handling affecting user-facing continuity, execution state, tool routing, modality transition, constrained continuation, and safety-limited disclosure |
 
@@ -478,6 +478,7 @@ and let execution remain accountable to lawful structure.
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  7bead54be80483115fde93a04dd0f66a4afc1ed2ebc2e99f3e09817a3543a7ba |
 | 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  e3d1f65318ec7822df47a3a9c8103085b0621a9a6221dffb176286684ef87dc2 |
 | 1.8 | Added new section 8, and incorporated operational notice class | 2026-06-11T11:13:00Z| 4bcdcb3067c3827bdaaffb9a9f2a60a0cbb2caa5207c54886195257552900be4 |
+| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

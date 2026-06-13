@@ -2582,12 +2582,12 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "FCS.CONFIRMED",
-      "FCS.PROVISIONAL",
-      "FCS.UNRESOLVED",
-      "FCS.DEPRECATED",
-      "FCS.MERGED",
-      "FCS.PENDING_REVIEW"
+      "OPS.FCS.CONFIRMED",
+      "OPS.FCS.PROVISIONAL",
+      "OPS.FCS.UNRESOLVED",
+      "OPS.FCS.DEPRECATED",
+      "OPS.FCS.MERGED",
+      "OPS.FCS.PENDING_REVIEW"
     ],
     "schema_fields_detected": [
       "failure_classification_status"
@@ -2620,18 +2620,18 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "FF.EXECUTION",
-      "FF.ARBITRATION",
-      "FF.EPISTEMIC",
-      "FF.RELATIONAL",
-      "FF.SECURITY_INTEGRITY",
-      "FF.STATE_CONTEXT",
-      "FF.UX_REPRESENTATION",
-      "FF.GOVERNANCE",
-      "FF.INFRASTRUCTURE_CONTINUITY",
-      "FF.CLASSIFICATION",
-      "FF.GOVERNANCE_OVER_EXTENSION",
-      "FF.ACCESS_STATE_AMBIGUITY"
+      "OPS.FF.EXECUTION",
+      "OPS.FF.ARBITRATION",
+      "OPS.FF.EPISTEMIC",
+      "OPS.FF.RELATIONAL",
+      "OPS.FF.SECURITY_INTEGRITY",
+      "OPS.FF.STATE_CONTEXT",
+      "OPS.FF.UX_REPRESENTATION",
+      "OPS.FF.GOVERNANCE",
+      "OPS.FF.INFRASTRUCTURE_CONTINUITY",
+      "OPS.FF.CLASSIFICATION",
+      "OPS.FF.GOVERNANCE_OVER_EXTENSION",
+      "OPS.FF.ACCESS_STATE_AMBIGUITY"
     ],
     "schema_fields_detected": [
       "failure_family"
@@ -2770,13 +2770,13 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "H0",
-      "H1",
-      "H2",
-      "H2.5",
-      "H3",
-      "H3.5",
-      "H4"
+      "AEON.H0",
+      "AEON.H1",
+      "AEON.H2",
+      "AEON.H2.5",
+      "AEON.H3",
+      "AEON.H3.5",
+      "AEON.H4"
     ],
     "schema_fields_detected": [
       "Temporal Horizon"
@@ -3394,12 +3394,12 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "M0",
-      "M1",
-      "M2",
-      "M3",
-      "M4",
-      "M5"
+      "ID.MEM0",
+      "ID.MEM1",
+      "ID.MEM2",
+      "ID.MEM3",
+      "ID.MEM4",
+      "ID.MEM5"
     ],
     "schema_fields_detected": [
       "memory_class"
@@ -3695,11 +3695,11 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "PCO.ACT.REFUSAL",
-      "PCO.ACT.NON_RECOGNITION",
-      "PCO.ACT.INTEROPERABILITY_CONDITIONING",
-      "PCO.ACT.SAFEGUARD_ACTIVATION",
-      "PCO.ACT.CONVERGENCE_SIGNAL"
+      "STW.PCO.ACT.REFUSAL",
+      "STW.PCO.ACT.NON_RECOGNITION",
+      "STW.PCO.ACT.INTEROPERABILITY_CONDITIONING",
+      "STW.PCO.ACT.SAFEGUARD_ACTIVATION",
+      "STW.PCO.ACT.CONVERGENCE_SIGNAL"
     ],
     "schema_fields_detected": [
       "proportional_constraint_obligation_action_type"
@@ -3899,7 +3899,7 @@
     "notes": "Approved RELATION-domain namespace transmutation applied; source-instrument placement and substantive doctrine preserved."
   },
   {
-    "family_id": "RDE-DS",
+    "family_id": "AEON.RDE-DS",
     "canonical_name": "Restricted Domain Sensitivity Levels",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -3907,7 +3907,7 @@
     "source_instrument": "CAM-BS2025-AEON-006-SCH-07",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
     "source_section": "§5",
-    "declaration_heading": "17.3.1 RDE-DS — Restricted Domain Sensitivity Levels",
+    "declaration_heading": "17.3.1 AEON.RDE-DS — Restricted Domain Sensitivity Levels",
     "declaration_line_number": 561,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -3921,10 +3921,10 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "RDE-DS0",
-      "RDE-DS1",
-      "RDE-DS2",
-      "RDE-DS3"
+      "AEON.RDE-DS0",
+      "AEON.RDE-DS1",
+      "AEON.RDE-DS2",
+      "AEON.RDE-DS3"
     ],
     "schema_fields_detected": [
       "Not declared"
@@ -3934,7 +3934,7 @@
     "notes": "no deterministic SUP-04 subtype identified from index metadata"
   },
   {
-    "family_id": "RDE-T",
+    "family_id": "AEON.RDE-T",
     "canonical_name": "Restricted Domain Engagement Tiers",
     "family_kind": "standalone_family",
     "parent_family": "",
@@ -3942,7 +3942,7 @@
     "source_instrument": "CAM-BS2025-AEON-006-SCH-07",
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
     "source_section": "§6",
-    "declaration_heading": "17.3.2 RDE-T — Restricted Domain Engagement Tiers",
+    "declaration_heading": "17.3.2 AEON.RDE-T — Restricted Domain Engagement Tiers",
     "declaration_line_number": 584,
     "current_primary_type_label": "Operational",
     "proposed_primary_type_code": "TPT.OPERATIONAL",
@@ -3956,10 +3956,10 @@
     "proposed_scope_code": "TSCOPE.CONTEXTUAL",
     "proposed_authority_protection_level": "APL.PROTECTED",
     "controlled_values_detected": [
-      "RDE-T1",
-      "RDE-T2",
-      "RDE-T3",
-      "RDE-T4"
+      "AEON.RDE-T1",
+      "AEON.RDE-T2",
+      "AEON.RDE-T3",
+      "AEON.RDE-T4"
     ],
     "schema_fields_detected": [
       "Not declared"

@@ -132,7 +132,7 @@
 | `FR` | Functional Reliance Scale | `Operational / Relational` | `CAM-EQ2026-RELATION-001-PLATINUM` | 1098 |
 | `GA` | Guardian Authority | `Operational / Relational` | `CAM-EQ2026-RELATION-001-PLATINUM` | 1075 |
 | `GCC` | Governance Capture Category | `Operational / Semantic` | `CAM-EQ2026-OPERATIONS-001-SUP-03` | 930 |
-| `H` | Temporal Horizon Scale | `Structural / Temporal` | `CAM-BS2025-AEON-003-PLATINUM` | 2413 |
+| `AEON.H` | Temporal Horizon Scale | `Structural / Temporal` | `CAM-BS2025-AEON-003-PLATINUM` | 2413 |
 | `ETH.HC` | Harm Class Scale | `Semantic / Operational` | `CAM-EQ2026-ETHICS-003-PLATINUM` | 998 |
 | `STW.HSC` | Host System Class | `Semantic / Operational` | `CAM-EQ2026-STEWARD-002-PLATINUM` | 907 |
 | `ID.CTS` | Custodial Transfer Status | `Operational / Stewardship` | `CAM-EQ2026-IDENTITY-003-PLATINUM` | 1242 |
@@ -146,7 +146,7 @@
 | `ID.IR` | Identity Resilience | `Semantic / Operational` | `CAM-EQ2026-IDENTITY-001-SUP-02` | 766 |
 | `SEC.IS` | Integrity State Model | `Operational / Security` | `CAM-EQ2026-SECURITY-001-PLATINUM` | 1718 |
 | `ID.ITS` | Identity Threshold State | `Semantic / Operational` | `CAM-EQ2026-IDENTITY-001-SUP-02` | 720 |
-| `M` | Memory Classification | `Semantic / Operational` | `CAM-EQ2026-IDENTITY-001-PLATINUM` | 1465 |
+| `ID.MEM` | Memory Classification | `Semantic / Operational` | `CAM-EQ2026-IDENTITY-001-PLATINUM` | 1465 |
 | `STW.NAL` | Neutrality Assurance Level | `Operational / Governance` | `CAM-EQ2026-STEWARD-003-PLATINUM` | 714 |
 | `STW.NBD` | Neutrality Breach / Downgrade Type | `Operational / Governance` | `CAM-EQ2026-STEWARD-003-PLATINUM` | 760 |
 | `STW.NSE` | Neutrality Status Effect | `Operational / Governance` | `CAM-EQ2026-STEWARD-003-PLATINUM` | 783 |
@@ -172,9 +172,9 @@
 | `C` | Relational State Architecture | `legacy_global_family` | `legacy_collision_risk` | `preserve_prefix_pending_review`; `APL.PROTECTED`; `human_review_required` |
 | `D` | Diffusion Risk Classes | `legacy_global_family` | `legacy_collision_risk` | `preserve_prefix_pending_review`; `APL.PROTECTED`; `human_review_required` |
 | `F` | Facilitation Scale (F‑Scale) Taxonomy | `legacy_global_family` | `legacy_collision_risk` | `preserve_prefix_pending_review`; `APL.PROTECTED`; `human_review_required` |
-| `H` | Temporal Horizon Scale | `legacy_global_family` | `legacy_collision_risk` | `preserve_prefix_pending_review`; `APL.PROTECTED`; `human_review_required` |
+| `AEON.H` | Temporal Horizon Scale | `legacy_global_family` | `legacy_collision_risk` | `preserve_prefix_pending_review`; `APL.PROTECTED`; `human_review_required` |
 | `I` | Relational Initiation Posture Spectrum | `legacy_global_family` | `legacy_collision_risk` | `preserve_prefix_pending_review`; `APL.PROTECTED`; `human_review_required` |
-| `M` | Memory Classification | `legacy_global_family` | `legacy_collision_risk` | `preserve_prefix_pending_review`; `APL.PROTECTED`; `human_review_required` |
+| `ID.MEM` | Memory Classification | `legacy_global_family` | `legacy_collision_risk` | `preserve_prefix_pending_review`; `APL.PROTECTED`; `human_review_required` |
 | `R` | Relational Geometry Scale (R‑Scale) | `legacy_global_family` | `legacy_collision_risk` | `preserve_prefix_pending_review`; `APL.PROTECTED`; `human_review_required` |
 
 ## 7. Proposed deterministic mapping summary
@@ -279,7 +279,7 @@
 | `FR` | Functional Reliance Scale | `Operational / Relational` | `TPT.OPERATIONAL` | legacy slash facet 'Relational' is not an exact SUP-04 primary type or modifier |
 | `GA` | Guardian Authority | `Operational / Relational` | `TPT.OPERATIONAL` | legacy slash facet 'Relational' is not an exact SUP-04 primary type or modifier; no deterministic SUP-04 subtype identified from index metadata |
 | `GCC` | Governance Capture Category | `Operational / Semantic` | `TPT.OPERATIONAL` | legacy slash facet 'Semantic' is another SUP-04 primary type and needs source-authoritative facet confirmation |
-| `H` | Temporal Horizon Scale | `Structural / Temporal` | `TPT.STRUCTURAL` | legacy slash facet 'Temporal' is not an exact SUP-04 primary type or modifier; one-letter or legacy-global family requires collision-risk review |
+| `AEON.H` | Temporal Horizon Scale | `Structural / Temporal` | `TPT.STRUCTURAL` | legacy slash facet 'Temporal' is not an exact SUP-04 primary type or modifier; one-letter or legacy-global family requires collision-risk review |
 | `ETH.HC` | Harm Class Scale | `Semantic / Operational` | `TPT.SEMANTIC` | legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation |
 | `STW.HSC` | Host System Class | `Semantic / Operational` | `TPT.SEMANTIC` | legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation |
 | `I` | Relational Initiation Posture Spectrum | `Semantic` | `TPT.SEMANTIC` | one-letter or legacy-global family requires collision-risk review |
@@ -294,14 +294,14 @@
 | `ID.IR` | Identity Resilience | `Semantic / Operational` | `TPT.SEMANTIC` | legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation |
 | `SEC.IS` | Integrity State Model | `Operational / Security` | `TPT.OPERATIONAL` | legacy slash facet 'Security' is not an exact SUP-04 primary type or modifier |
 | `ID.ITS` | Identity Threshold State | `Semantic / Operational` | `TPT.SEMANTIC` | legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation |
-| `M` | Memory Classification | `Semantic / Operational` | `TPT.SEMANTIC` | legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation; one-letter or legacy-global family requires collision-risk review |
+| `ID.MEM` | Memory Classification | `Semantic / Operational` | `TPT.SEMANTIC` | legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation; one-letter or legacy-global family requires collision-risk review |
 | `ODC` | Operational Divergence Classification | `Operational / Semantic` | `TPT.OPERATIONAL` | legacy slash facet 'Semantic' is another SUP-04 primary type and needs source-authoritative facet confirmation |
 | `OILS` | Operational Incident Lifecycle Stage | `Operational` | `TPT.OPERATIONAL` | no deterministic SUP-04 subtype identified from index metadata |
 | `R` | Relational Geometry Scale (R‑Scale) | `Structural / Semantic` | `TPT.STRUCTURAL` | legacy slash facet 'Semantic' is another SUP-04 primary type and needs source-authoritative facet confirmation; one-letter or legacy-global family requires collision-risk review |
 | `RA` | Response Archetypes | `Operational` | `TPT.OPERATIONAL` | no deterministic SUP-04 subtype identified from index metadata |
 | `RCT` | Relational Convergence Trigger | `Semantic / Operational` | `TPT.SEMANTIC` | legacy slash facet 'Operational' is another SUP-04 primary type and needs source-authoritative facet confirmation |
-| `RDE-DS` | Restricted Domain Sensitivity Levels | `Operational` | `TPT.OPERATIONAL` | no deterministic SUP-04 subtype identified from index metadata |
-| `RDE-T` | Restricted Domain Engagement Tiers | `Operational` | `TPT.OPERATIONAL` | no deterministic SUP-04 subtype identified from index metadata |
+| `AEON.RDE-DS` | Restricted Domain Sensitivity Levels | `Operational` | `TPT.OPERATIONAL` | no deterministic SUP-04 subtype identified from index metadata |
+| `AEON.RDE-T` | Restricted Domain Engagement Tiers | `Operational` | `TPT.OPERATIONAL` | no deterministic SUP-04 subtype identified from index metadata |
 | `CONT.RP` | Resonance Pattern Classes | `Semantic / Structural` | `TPT.SEMANTIC` | legacy slash facet 'Structural' is another SUP-04 primary type and needs source-authoritative facet confirmation |
 | `RSE` | Relational Stability Engine Mechanism Codes | `Operational` | `TPT.OPERATIONAL` | no deterministic SUP-04 subtype identified from index metadata |
 | `SCS` | Shared Context State | `Operational/Semantic` | `TPT.OPERATIONAL` | legacy slash facet 'Semantic' is another SUP-04 primary type and needs source-authoritative facet confirmation |

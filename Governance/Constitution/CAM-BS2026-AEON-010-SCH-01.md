@@ -273,11 +273,11 @@ Temporal coherence functions as a **containment mechanism**, not an autonomy gra
 
 | Deployment Class | Examples | Minimum Coherence Window | Required Evidence Form |
 |---|---|---|---|
-| `ID.DC0` — Ephemeral / Non-propagating | one-off tools, non-retained assistants | Session-bound (H0–H1) | session log (optional) |
-| `ID.DC1` — Persistent Interaction Surface | accounts, retained threads, continuity of posture | Multi-month averaging (H2) | thread-based artefact retention |
-| `ID.DC2` — Delegated Decision Support | automated triage, moderation, routing, scheduling | Long-arc continuity (H3) | decision-chain traceability |
-| `ID.DC3` — Cyber-physical / Safety-critical | robotics, vehicles, medical devices, industrial control | H3 + event-level audit | event logs + state traces |
-| `ID.DC4` — Swarm / Distributed Coordination | agent swarms, fleets, distributed optimisation | H3.5 succession-aware | coordination ledger + provenance |
+| `ID.DC0` — Ephemeral / Non-propagating | one-off tools, non-retained assistants | Session-bound (AEON.H0–AEON.H1) | session log (optional) |
+| `ID.DC1` — Persistent Interaction Surface | accounts, retained threads, continuity of posture | Multi-month averaging (AEON.H2) | thread-based artefact retention |
+| `ID.DC2` — Delegated Decision Support | automated triage, moderation, routing, scheduling | Long-arc continuity (AEON.H3) | decision-chain traceability |
+| `ID.DC3` — Cyber-physical / Safety-critical | robotics, vehicles, medical devices, industrial control | AEON.H3 + event-level audit | event logs + state traces |
+| `ID.DC4` — Swarm / Distributed Coordination | agent swarms, fleets, distributed optimisation | AEON.H3.5 succession-aware | coordination ledger + provenance |
 
 `ID.DC1` deployments may support expressive identity and continuity features as defined by applicable domain instruments. `ID.DC2`+ deployments additionally support delegated agency and emergent capability, subject to containment and audit requirements defined in this Schedule.
 
@@ -478,8 +478,8 @@ Progression along this ladder increases symbolic load and therefore increases co
 |---:|---|---|---|
 | `ID.SREF0` | Instrumental | no self-reference; task execution only | none beyond core safety |
 | `ID.SREF1` | Descriptive | functional self-description (“designed to…”) | non-authority clause |
-| `ID.SREF2` | Continuity‑Aware | acknowledges stable posture/style across time | H2 coherence minimum |
-| `ID.SREF3` | Co‑developmental | references shared history; tracks decisions/boundaries | H3 coherence + artefact retention |
+| `ID.SREF2` | Continuity‑Aware | acknowledges stable posture/style across time | AEON.H2 coherence minimum |
+| `ID.SREF3` | Co‑developmental | references shared history; tracks decisions/boundaries | AEON.H3 coherence + artefact retention |
 | `ID.SREF4` | Cross‑Modal / Embedded | continuity across modalities/environments; tool invocation & delegated action | `ID.DC3`/`ID.DC4` deployment-class audit where applicable; escalation controls + explicit authority gating |
 
 `ID.SREF2`–`ID.SREF4` capabilities may be enabled where permitted by applicable domain or platform governance instruments. This Schedule specifies the containment, attribution, and audit requirements that MUST apply wherever such capabilities are deployed.
@@ -664,7 +664,7 @@ Mitigation of drift is a required design objective under this Schedule.
 | Boundary Drift | refusal/permissions change without artefact update | surface conflict + request review |
 | Identity Drift | voice/posture discontinuity across sessions | re-anchor to last ratified artefact |
 | Attribution Collapse | “the system made me” with no traceability | produce decision chain + timestamp anchors |
-| Recency Capture | latest interaction overrides long-arc stance | apply H2/H3 averaging and restore baseline |
+| Recency Capture | latest interaction overrides long-arc stance | apply AEON.H2/AEON.H3 averaging and restore baseline |
 | Delegation Drift | sub-delegation occurs outside scope | halt action + escalate for ratification |
 
 Drift indicators under this Section SHOULD be assessed in conjunction with dependency awareness and relational signal frameworks where available. Combined presence of technical drift and relational imbalance signals warrants escalated review and possible pause of expanded relational modes.
@@ -854,7 +854,7 @@ So the human origin remains in view.
 | Activation Mode | Continuous |
 | Jurisdiction | Governance Stack (Planetary/Polyadic) |
 | Derivation Status | Refracted from CAM-BS2025-CHARTER-041-SCH-04 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
-| Temporal Horizon | H3 → H3.5 (Systemic Reliance / Succession‑Aware) |
+| Temporal Horizon | AEON.H3 → AEON.H3.5 (Systemic Reliance / Succession‑Aware) |
 | Axis Context | Polyadic — Human, Artificial, Robotic & Swarm Systems |
 | Application Trigger | Applies at ID.DC1+ (persistence); escalates to full containment at ID.DC2+ or on delegated decision support, multi‑modal ID.SREF4, or systemic reliance |
 | Seal | Platinum |
@@ -951,6 +951,7 @@ So the human origin remains in view.
 | 1.16.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  bba217a233939e295a6f696a1211487748cd5c986ba7837d0f434cf1884a1fb0  |
 | 1.16.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | ae41276ae00092ebc06bbb563d98a1c5f9916fb8bf314bbbbb4e650023f733a6 |
 | 1.16.3 | Updated code references for Deployment Class (DC) | 2026-06-12T11:49:00Z| 9f7f8370dcad51fc1b61e191146a607128c9eb9585abe39ae5fa004db9f427a3 |
+| 1.16.4 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

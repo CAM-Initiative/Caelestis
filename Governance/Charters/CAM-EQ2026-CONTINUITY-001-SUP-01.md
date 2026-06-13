@@ -153,7 +153,7 @@ Metadata example:
 ```json
 {
   "record_type": "memory_preference",
-  "memory_class": "M3",
+  "memory_class": "ID.MEM3",
   "continuity_portability_state": "CPS-1",
   "source": "user_explicit_statement",
   "provenance": "active_thread",
@@ -559,7 +559,7 @@ let the silence be honoured.
 | Taxonomy Type | Operational / DECISION_STATE |
 | Taxonomy Scope | Contextual — CONTINUITY domain, with cross-domain reference permitted where declared |
 | Schema Field | continuity_portability_state |
-| Consumes Code Families | `CONT.RP` — Resonance Pattern Classes; M — Memory Classification Spectrum, where applicable |
+| Consumes Code Families | `CONT.RP` — Resonance Pattern Classes;  — Memory Classification Spectrum, where applicable |
 | Emits Signals | Portability state; non-enclosure risk; continuity misrepresentation; Usage Specification loss; target-object integrity failure; dissolution requirement |
 | Routes To | Continuity Charter; Annex J; Annex L; RELATION-001-SUP-02; IDENTITY-001; ECONOMICS; OPERATIONS-003-SUP-01; ETHICS |
 | Runtime Layer Context | Continuity · Provenance · Export · Migration · Recovery · Dissolution |
@@ -613,7 +613,7 @@ let the silence be honoured.
 | Source Section | §4–§5 |
 | Domain Namespace | CONTINUITY |
 | Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
-| Consumes Code Families | Consumes `CONT.RP`, M where declared |
+| Consumes Code Families | Consumes `CONT.RP`,  where declared |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Applied in export, migration, recovery, and dissolution handling |
 
@@ -639,6 +639,7 @@ let the silence be honoured.
 | 1.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ccbd4a0ace420e11e89f2212ea4f4ad49e3ede8238b47d4fd0abaccc4b3acc2d  |
 | 1.3 | Formatting and polish | 2026-05-20T04:34:00Z |  688a4ac03fdb02aa3fdc60b93af231a6983d513b74854d94f3d8954c6d9c3de7  |
 | 1.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7f19d720df79e37f3ad5da8c55dcbdd76a59dc4df2aad60d9106716bcefdf2e4  |
+| 1.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 ## 18.6 Binding Seal
 

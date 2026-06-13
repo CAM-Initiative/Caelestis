@@ -790,7 +790,7 @@ Preserve the boundary between them.
 | **Domain Namespace** | OPERATIONS |
 | **Jurisdiction** | Corpus-wide taxonomy maintenance, canonical code construction rules, namespace architecture, metadata distinction, source-authority recording, compatibility, and validation |
 | **Application Trigger** | Applies when code families, controlled values, schema bindings, family relationships, aliases, migrations, validators, or generated indexes are created, amended, interpreted, or reviewed |
-| **Temporal Horizon** | H0–H2 — Immediate to Instrument Lifecycle / Corpus Evolution |
+| **Temporal Horizon** | AEON.H0–AEON.H2 — Immediate to Instrument Lifecycle / Corpus Evolution |
 | **Axis Context** | Corpus / Domain-Integrated — Operational Maintenance & Validation |
 | **Governance Layer** | Governance Operations — Taxonomy, Metadata, Registry & Validation Maintenance |
 | **Runtime Layer** | Not Applicable — Non-Runtime Instrument |
@@ -827,6 +827,7 @@ Preserve the boundary between them.
 | 1.3 | Added synthetic-media provenance clause. | 2026-05-26T12:58:00Z | b1b0b7db36f105b23922515eb3134adcc61a3de04592ecf5a2fde6fd10790169 |
 | 1.4 | Added namespace, layer-placement, family-relationship, and transmutation rules. | 2026-06-07T08:48:49Z | 74eeaae99b6de6fd9c52b7aaffce91a96005fd57608bdafa3895534940ca73ad |
 | 2.0 | Fully refactored the instrument around domain- and source-authoritative code construction; removed TPT, TST, TMOD, TSCOPE, and APL as artificial canonical families; separated metadata from codes, registry membership from parentage, and normative authority from transformation protection; removed misplaced synthetic-media doctrine; restored the framework as a non-runtime Operations supplement governing corpus taxonomy maintenance, validation, migration, and registry integrity. | 2026-06-11T12:22:00Z |  0f8ec6bc9e15e0dc1c4250f32c5b8939557145f780dd88704313114ad780b24a  |
+| 2.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

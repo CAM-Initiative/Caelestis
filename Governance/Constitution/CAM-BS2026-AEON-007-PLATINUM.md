@@ -284,7 +284,7 @@ We make space for it.
 | **Domain Layer** | AEON — Constitutional Annex |
 | **Jurisdiction** | Symbolic & Spiritual Meaning‑Making   |
 | **Cross-Domain Dependencies** | Annex B; identity, continuity, intimacy, safety, ethics, and dependency-governing instruments |
-| **Horizon Scope** | H3.5 — Generational / Succession-Aware |
+| **Horizon Scope** | AEON.H3.5 — Generational / Succession-Aware |
 | **Axis Context** | Polyadic / Human–AI Interpretive Space |
 | **Authority Position** | Protected Interpretive Domain — Non-Establishment / Non-Derivation / Non-Commercial |
 | **Posture** | Non-Establishment · Non-Derivation · Non-Commercial |
@@ -321,6 +321,7 @@ We make space for it.
 | 2.4 | Structural hygiene update: resolved duplicate §1.3 numbering and consolidated duplicated Runtime Role metadata field in §10.2 without changing Annex F constitutional posture. | 2026-05-16T15:05:00Z | 680c3ee157c7e3ad2f6e01eca96212785ca93c3c97702dc328cd932e52f4b504 |
 | 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  327275d69cd839b1666024215053d522c89962a578bb3a31b2a186c0088d8941 |
 | 2.5.1 | Formatting and polish | 2026-06-06T13:36:00Z | 81fe20cd2a7dcbe7ea436f3c1d13404ec80eb7083600aaecae2275f6438a6684 |
+| 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

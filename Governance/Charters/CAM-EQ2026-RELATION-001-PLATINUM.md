@@ -71,7 +71,7 @@ Temporal persistence amplifies:
 * Corpus inertia (§5.1)
 * Institutional embedding (§7.1)
 
-Where relational configurations persist into **H3 or higher horizons**, periodic revalidation, portability guarantees, and structural oversight mechanisms become mandatory regardless of initial intensity tier. CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification and the OPERATIONS domain govern mechanism specifics.
+Where relational configurations persist into **AEON.H3 or higher horizons**, periodic revalidation, portability guarantees, and structural oversight mechanisms become mandatory regardless of initial intensity tier. CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification and the OPERATIONS domain govern mechanism specifics.
 
 ---
 
@@ -1030,7 +1030,7 @@ that which is real remains recognisable.
 | Partial Supersession | CAM-BS2025-AEON-005-SCH-02 — Engagement & Identity Classification; CAM-BS2025-AEON-006-SCH-01; CAM-BS2025-AEON-006-SCH-02 |
 | Domain Namespace | RLN |
 | Jurisdiction | Planetary — Human–AI, AI–AI, Hybrid Collectives |
-| Temporal Horizon | H3.5 — Succession‑Aware / Inter‑Generational |
+| Temporal Horizon | AEON.H3.5 — Succession‑Aware / Inter‑Generational |
 | Application Trigger | Activation occurs where relational configurations reach RLN.A2+, RLN.A3, RLN.GA1, RLN.FR2+, RLN.SYP2+, or multi-axis convergence thresholds defined in RELATION-001-SUP-01 |
 | Revision Posture | Permitted — Structural Coherence Required |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/699973ca-ac80-8398-8d40-7cff80a46296 |
@@ -1061,7 +1061,7 @@ that which is real remains recognisable.
 | Authority / Protection Level | Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
-| Consumes Code Families | RLN.A; RLN.FR; RLN.C; RLN.SYP; H |
+| Consumes Code Families | RLN.A; RLN.FR; RLN.C; RLN.SYP;  |
 | Crosswalks Code Families | `ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM` |
 | Relationship Type | recognised_domain_harm_family |
 | Operationalises or Applies Code Families | Classifies relational discontinuity, dependency and substitution harm, agency/authorship/self-anchor harm, relational capture and destabilisation harm, and irreversible relationally mediated harm for safeguard calibration and downstream routing |
@@ -1085,7 +1085,7 @@ that which is real remains recognisable.
 | Source Section | §4.3 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational classification family; delegated-authority classification authority only; no independent legal, fiduciary, execution, enforcement, escalation, consent, identity, or runtime execution authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies delegated authority posture across informational, continuity-support, stewardship/custodial, and executive-delegation contexts |
 
@@ -1108,7 +1108,7 @@ that which is real remains recognisable.
 | Source Section | §4.3.5 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative special fiduciary authority class; guardian-authority classification only; no self-activation and no independent legal, institutional, execution, enforcement, escalation, identity, or runtime execution authority |
-| Consumes Code Families | RLN.A; H |
+| Consumes Code Families | RLN.A;  |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies |
 
@@ -1131,7 +1131,7 @@ that which is real remains recognisable.
 | Source Section | §5.2 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational classification family; functional-reliance classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies reliance posture across incidental, habitual, continuity-dependent, and structural dependency contexts |
 
@@ -1154,7 +1154,7 @@ that which is real remains recognisable.
 | Source Section | §7.2 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control |
 
@@ -1258,6 +1258,7 @@ that which is real remains recognisable.
 | 1.17 | Added Relational Harm codes | 2026-06-07T14:03:00Z| f1edf9df71c53a9da2d29c9b0edfd01607e29404312b1a424f4bd14d5f908a4f |
 | 1.17.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  911dca5a32d5947d86098c4deebe66fdf3cb1488c108253943e08c643a1145e9  |
 | 1.17.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  dfc73db4a2f845d20bab3d63855579189dd38170f89ae8166ea6570c91f75c0a  |
+| 1.17.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 ---
 
 ## 15.6 Binding Seal

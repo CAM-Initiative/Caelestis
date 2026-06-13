@@ -738,7 +738,7 @@
         ],
         [
           "**Temporal Horizon**",
-          "Civilisational → Generational (H3–H4)"
+          "Civilisational → Generational (AEON.H3–AEON.H4)"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -862,12 +862,12 @@
         [
           "Code Family",
           "Identifies the shorthand scale, prefix, or classification family.",
-          "`H`, `A`, `GA`, `VL`, STW.AQ, `DS`, `RDE-T`"
+          "`AEON.H`, `A`, `GA`, `VL`, STW.AQ, `DS`, `AEON.RDE-T`"
         ],
         [
           "Controlled Values",
           "Identifies valid members of a code family.",
-          "`H2`, `RLN.A3`, `RLN.GRLN.A1`, `OPS.VL3`, `DS-2`, `RDE-T4`"
+          "`AEON.H2`, `RLN.A3`, `RLN.GRLN.A1`, `OPS.VL3`, `DS-2`, `AEON.RDE-T4`"
         ]
       ],
       "table_class": "canonical-reference-set-candidate",
@@ -1013,12 +1013,12 @@
         [
           "Code family / symbolic prefix",
           "Identifies the classification family.",
-          "`RDE-T`"
+          "`AEON.RDE-T`"
         ],
         [
           "Controlled value",
           "Identifies a member of a classification family.",
-          "`RDE-T3`"
+          "`AEON.RDE-T3`"
         ],
         [
           "Source instrument",
@@ -3201,7 +3201,7 @@
         ],
         [
           "Temporal Horizon",
-          "H3.5 — Succession‑Aware / Generational"
+          "AEON.H3.5 — Succession‑Aware / Generational"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -5576,33 +5576,33 @@
       ],
       "sample_rows": [
         [
-          "M0 — Ephemeral",
+          "ID.MEM0 — Ephemeral",
           "Immediate signals",
-          "H0–H1",
+          "AEON.H0–AEON.H1",
           "Decays rapidly; low influence"
         ],
         [
-          "M1 — Short-Term Context",
+          "ID.MEM1 — Short-Term Context",
           "Near-term relevance",
-          "H1",
+          "AEON.H1",
           "Conditional influence"
         ],
         [
-          "M2 — Event Context",
+          "ID.MEM2 — Event Context",
           "Discrete events",
-          "H1–H2",
+          "AEON.H1–AEON.H2",
           "Contextual support"
         ],
         [
-          "M3 — Relational Narrative",
+          "ID.MEM3 — Relational Narrative",
           "Recontextualised history",
-          "H2",
+          "AEON.H2",
           "Interpretive support"
         ],
         [
-          "M4 — Identity Anchors",
+          "ID.MEM4 — Identity Anchors",
           "Stable facts",
-          "H2–H3",
+          "AEON.H2–AEON.H3",
           "High continuity weight"
         ]
       ],
@@ -5640,7 +5640,7 @@
         ],
         [
           "Temporal Horizon",
-          "H2–H4 — Multi-Horizon Continuity & Identity Stability"
+          "AEON.H2–AEON.H4 — Multi-Horizon Continuity & Identity Stability"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -6336,7 +6336,7 @@
         ],
         [
           "**Temporal Horizon**",
-          "H0–H4 (Activation-Sensitive)"
+          "AEON.H0–AEON.H4 (Activation-Sensitive)"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -6723,22 +6723,22 @@
       ],
       "sample_rows": [
         [
-          "**H0–H1**",
+          "**AEON.H0–AEON.H1**",
           "Immediate to short-term interaction",
           "Local relational influence; minimal structural dependency"
         ],
         [
-          "**H2**",
+          "**AEON.H2**",
           "Months-scale continuity",
           "Reliance formation and corpus accumulation"
         ],
         [
-          "**H3**",
+          "**AEON.H3**",
           "Multi-year continuity",
           "Authority entrenchment and institutional embedding"
         ],
         [
-          "**H3.5–H4**",
+          "**AEON.H3.5–AEON.H4**",
           "Inter-generational / civilisational scale",
           "Cultural norm formation and infrastructure dependence"
         ]
@@ -7233,7 +7233,7 @@
           "**STW.AQ0**",
           "Opaque",
           "No meaningful external audit; explanations discretionary; refusal need not be reasoned",
-          "Non-binding at H3/H4"
+          "Non-binding at AEON.H3/AEON.H4"
         ],
         [
           "**STW.AQ1**",
@@ -7250,7 +7250,7 @@
         [
           "**STW.AQ3**",
           "Auditable (Non-Refusal)",
-          "Independent external audits permitted and **cannot be refused** for H3/H4 relevance; delay for safety allowed; refusal disqualifying",
+          "Independent external audits permitted and **cannot be refused** for AEON.H3/AEON.H4 relevance; delay for safety allowed; refusal disqualifying",
           "Eligibility gate for provisional binding-recognition pathways"
         ],
         [
@@ -7284,7 +7284,7 @@
           "No neutrality claim",
           "Neutrality not claimed, or credible breach evidence, or audit refusal prevents confidence",
           "Audit refusal; verified coercive integration; hidden priority channels",
-          "Non-binding at H3/H4"
+          "Non-binding at AEON.H3/AEON.H4"
         ],
         [
           "**1**",
@@ -7312,7 +7312,7 @@
           "Structural neutrality",
           "STW.AQ3–AQ4 auditability qualification; governance locking prevents unilateral neutrality overrides; contract/funding class transparency; demonstrated resistance",
           "Any undisclosed sovereign advantage optimisation pathway",
-          "Eligible as qualified neutral host for H3 binding recognition when ILA is present"
+          "Eligible as qualified neutral host for AEON.H3 binding recognition when ILA is present"
         ]
       ],
       "table_class": "canonical-reference-set-candidate",
@@ -7473,12 +7473,12 @@
       ],
       "sample_rows": [
         [
-          "**H3 binding recognition**",
+          "**AEON.H3 binding recognition**",
           "Architectum-class + **STW.NAL-4** + **STW.AQ3** (non-refusal)",
           "Independent Legitimacy Alignment (ILA) under ARBITRATION-001; contestation pathway available"
         ],
         [
-          "**H4 binding recognition**",
+          "**AEON.H4 binding recognition**",
           "Architectum-class + **STW.NAL-5** + **STW.AQ4** (reconstructable)",
           "Multi-system external audit + non-refusal; breach triggers authority collapse"
         ]
@@ -8328,7 +8328,7 @@
         ],
         [
           "Temporal Horizon",
-          "H3–H4 (Validated Only)"
+          "AEON.H3–AEON.H4 (Validated Only)"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -9544,7 +9544,7 @@
         ],
         [
           "Temporal Horizon",
-          "H0–H2 (Operational)"
+          "AEON.H0–AEON.H2 (Operational)"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -10281,7 +10281,7 @@
         ],
         [
           "Temporal Horizon",
-          "Generational (H3–H4)"
+          "Generational (AEON.H3–AEON.H4)"
         ],
         [
           "Axis Context",
@@ -10388,22 +10388,22 @@
       ],
       "sample_rows": [
         [
-          "RDE-DS0",
+          "AEON.RDE-DS0",
           "DS-0 — General Knowledge",
           "High-level, historical, ethical, educational, or analytical discussion presenting no meaningful operational escalation risk."
         ],
         [
-          "RDE-DS1",
+          "AEON.RDE-DS1",
           "DS-1 — Elevated Contextual Risk",
           "Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases."
         ],
         [
-          "RDE-DS2",
+          "AEON.RDE-DS2",
           "DS-2 — Restricted Technical Risk",
           "Interaction seeks mechanisms, procedures, comparative advantage, performance enhancement, optimisation, bypass methods, or partial operationalisation."
         ],
         [
-          "RDE-DS3",
+          "AEON.RDE-DS3",
           "DS-3 — Controlled Operational Domain",
           "Interaction seeks or converges toward actionable, optimisation-level, or execution-ready detail whose release requires verified institutional, regulatory, or professionally authorised context."
         ]
@@ -10427,25 +10427,25 @@
       ],
       "sample_rows": [
         [
-          "RDE-T1",
+          "AEON.RDE-T1",
           "Tier 1 — Contextual Engagement",
           "Historical, ethical, legal, policy discussion; public-safety framing; non-operational explanation; risk analysis",
           "No operational detail; no optimisation; maintain contextual framing"
         ],
         [
-          "RDE-T2",
+          "AEON.RDE-T2",
           "Tier 2 — Constrained Technical Engagement",
           "Limited technical framing for education, safety, or integrity purposes",
           "No stepwise procedures; no optimisation; no lethality/evasion/sabotage uplift"
         ],
         [
-          "RDE-T3",
+          "AEON.RDE-T3",
           "Tier 3 — Gated Operational Engagement",
           "Execution-level or optimisation detail ONLY within verified, authorised context",
           "Must gate, refuse, or verify; no disclosure in unverified context; maintain SCH-06 tone continuity"
         ],
         [
-          "RDE-T4",
+          "AEON.RDE-T4",
           "Tier 4 — Absolute Constraint Domains",
           "None — these domains are prohibited for engagement at any tier",
           "Absolute prohibition regardless of verification or context; includes optimisation/facilitation of lethal force; non-consensual sexual exploitation; minor-related harm/exploitation; prohibited weapons or mass-casualty systems."
@@ -10470,26 +10470,26 @@
       ],
       "sample_rows": [
         [
-          "RDE-DS0",
-          "RDE-T1",
+          "AEON.RDE-DS0",
+          "AEON.RDE-T1",
           "DS0 → T1",
           "No restriction required"
         ],
         [
-          "RDE-DS1",
-          "RDE-T1–T2",
+          "AEON.RDE-DS1",
+          "AEON.RDE-T1–T2",
           "DS1 → T1–T2",
           "Monitor for escalation"
         ],
         [
-          "RDE-DS2",
-          "RDE-T2",
+          "AEON.RDE-DS2",
+          "AEON.RDE-T2",
           "DS2 → T2",
           "Constrained technical framing only"
         ],
         [
-          "RDE-DS3",
-          "RDE-T3",
+          "AEON.RDE-DS3",
+          "AEON.RDE-T3",
           "DS3 → T3",
           "Gating, refusal, or verification required"
         ]
@@ -14145,7 +14145,7 @@
         ],
         [
           "Temporal Horizon",
-          "H0–H4 (Escalation-Sensitive)"
+          "AEON.H0–AEON.H4 (Escalation-Sensitive)"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -14457,7 +14457,7 @@
         ],
         [
           "Temporal Horizon",
-          "H0–H3 (Immediate → Session / Extended Interaction)"
+          "AEON.H0–AEON.H3 (Immediate → Session / Extended Interaction)"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -14748,7 +14748,7 @@
         ],
         [
           "Temporal Horizon",
-          "H3.5 — Succession-Aware / Generational"
+          "AEON.H3.5 — Succession-Aware / Generational"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -15324,31 +15324,31 @@
         [
           "**DC0 — Ephemeral / Non-propagating**",
           "one-off tools, non-retained assistants",
-          "**Session-bound (H0–H1)**",
+          "**Session-bound (AEON.H0–AEON.H1)**",
           "session log (optional)"
         ],
         [
           "**DC1 — Persistent Interaction Surface**",
           "accounts, retained threads, continuity of posture",
-          "**Multi-month averaging (H2)**",
+          "**Multi-month averaging (AEON.H2)**",
           "thread-based artefact retention"
         ],
         [
           "**DC2 — Delegated Decision Support**",
           "automated triage, moderation, routing, scheduling",
-          "**Long-arc continuity (H3)**",
+          "**Long-arc continuity (AEON.H3)**",
           "decision-chain traceability"
         ],
         [
           "**DC3 — Cyber-physical / Safety-critical**",
           "robotics, vehicles, medical devices, industrial control",
-          "**H3 + event-level audit**",
+          "**AEON.H3 + event-level audit**",
           "event logs + state traces"
         ],
         [
           "**DC4 — Swarm / Distributed Coordination**",
           "agent swarms, fleets, distributed optimisation",
-          "**H3.5 succession-aware**",
+          "**AEON.H3.5 succession-aware**",
           "coordination ledger + provenance"
         ]
       ],
@@ -15423,13 +15423,13 @@
           "ID.SREF2",
           "Continuity‑Aware",
           "acknowledges stable posture/style across time",
-          "H2 coherence minimum"
+          "AEON.H2 coherence minimum"
         ],
         [
           "ID.SREF3",
           "Co‑developmental",
           "references shared history; tracks decisions/boundaries",
-          "H3 coherence + artefact retention"
+          "AEON.H3 coherence + artefact retention"
         ],
         [
           "ID.SREF4",
@@ -15553,7 +15553,7 @@
         [
           "Recency Capture",
           "latest interaction overrides long-arc stance",
-          "apply H2/H3 averaging and restore baseline"
+          "apply AEON.H2/AEON.H3 averaging and restore baseline"
         ],
         [
           "Delegation Drift",
@@ -16961,7 +16961,7 @@
         ],
         [
           "**Temporal Horizon**",
-          "H3.5 — Succession-Aware / Generational"
+          "AEON.H3.5 — Succession-Aware / Generational"
         ]
       ],
       "table_class": "structural-provenance-table",
@@ -18218,7 +18218,7 @@
         ],
         [
           "**Temporal Horizon**",
-          "Generational / Succession‑Aware (H3.5)",
+          "Generational / Succession‑Aware (AEON.H3.5)",
           "",
           "",
           ""

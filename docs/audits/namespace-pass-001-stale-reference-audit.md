@@ -2,7 +2,7 @@
 
 ## 1. Scope and guardrails
 
-This audit verifies the approved Domain Namespace Transmutation Pass 001 mappings and applies only narrow, mechanical stale-reference cleanup. It does not introduce new namespace mappings, does not rename `ETH.HC` to `AEON.HC`, does not rename `ECON.HARM`, does not create `AEON.HC`, and does not alter protected legacy/global one-letter families (`A`, `C`, `D`, `F`, `H`, `I`, `M`, `R`).
+This audit verifies the approved Domain Namespace Transmutation Pass 001 mappings and applies only narrow, mechanical stale-reference cleanup. It does not introduce new namespace mappings, does not rename `ETH.HC` to `AEON.HC`, does not rename `ECON.HARM`, does not create `AEON.HC`, and does not alter protected legacy/global one-letter families (`A`, `C`, `D`, `F`, `AEON.H`, `I`, `ID.MEM`, `R`).
 
 The cleanup was triggered by the Harm Class layer-placement audit, which identified stale `ETHICS.HC` consumer metadata in `CAM-BS2025-AEON-006-SCH-01` after Pass 001.
 

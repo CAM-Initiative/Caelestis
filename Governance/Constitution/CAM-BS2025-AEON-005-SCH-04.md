@@ -294,7 +294,7 @@ Where ambiguity overlaps with possible abuse, the system SHOULD preserve both th
 
 A system SHALL NOT inflate an ambiguous low-horizon condition into a higher-horizon arbitration claim for strategic advantage, operational convenience, reputational shielding, liability avoidance, or centralisation of authority.
 
-Where the matter can be resolved at H0–H2, escalation to H3/H4 requires demonstrable consequence threshold, externalisation, or structural legitimacy issue.
+Where the matter can be resolved at AEON.H0–AEON.H2, escalation to AEON.H3/AEON.H4 requires demonstrable consequence threshold, externalisation, or structural legitimacy issue.
 
 ---
 
@@ -873,7 +873,7 @@ It is the place where governance proves itself.
 | **Instrument Type** | Constitutional Schedule — Arbitration / Ambiguity Resolution |
 | **Domain Namespace** | ARBITRATION |
 | **Functional Layer** | Ambiguity Arbitration / Runtime Decision Posture |
-| **Temporal Horizon** | H0–H4 (Escalation-Sensitive) |
+| **Temporal Horizon** | AEON.H0–AEON.H4 (Escalation-Sensitive) |
 | **Axis Context** | Dyadic/Polyadic — Runtime, Account, Tool, and Governance Ambiguity |
 | **Migration Cycle** | June 2026 Arbitration Repair Cycle |
 | **Revision Posture** | New Schedule |
@@ -963,6 +963,7 @@ It is the place where governance proves itself.
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
 |1.0|Initial draft created from VIGIL-2026-PROP-0009 following cleanup of CAM-BS2025-AEON-005-PLATINUM — Annex D and its Schedules 1–3; defines `ARB.AMB` and `ARB.AMP` reference sets for ambiguity-state classification and ambiguity-pathway selection. VIGIL-2026-OBS-0005; VIGIL-2026-PATCH-0002; VIGIL-2026-FM-0007; VIGIL-2026-PATCH-0003 |2026-06-05T15:27:00Z|  6078e55770ddd8a188e881708d2967a7c3823e4c946f715c76fa20a224d126a1  |
+| 1.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

@@ -800,7 +800,7 @@ And what is most observable is not always what is most true.
 | Instrument Type | Appendix A — Cognitive Inference, Neurodata & Ambient Biosignal Governance |
 | Domain Namespace | MENTIS |
 | Jurisdiction | Planetary / Cross-Sovereign / Human Cognitive Domain |
-| Temporal Horizon | H3.5 — Generational / Succession-Aware; H4 relevance where cognitive-domain data infrastructures or neurotechnology systems produce civilisational-scale effects |
+| Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware; AEON.H4 relevance where cognitive-domain data infrastructures or neurotechnology systems produce civilisational-scale effects |
 | Axis Context | Polyadic — Human Cognitive Data, Neurotechnology, Biosignals, AI Inference Systems, Institutions, Platforms, and Ambient Sensor Environments |
 | Ontological Scope | L2 — Cognition & Agency; L3 — Interface & Embodiment where inference, biosensing, neurodata, ambient observation, or cognitive-domain externalisation occurs |
 | Structural Role | Operational Data-Governance Appendix — Cognitive Inference, Neurodata, Cognitive Biometrics, and Ambient Biosignal Processing |
@@ -823,7 +823,7 @@ And what is most observable is not always what is most true.
 | Signal Output | Cognitive-domain data classification; inference pathway classification; consequence classification; heightened consent requirement; lawful-basis exception indicator; construct-validity requirement; context-validity requirement; fusion-exposure indicator; processing-record requirement; incident-trigger indicator |
 | Auditability Requirement | Cognitive-domain data collection, inference, modelling, fusion, validation, retention, sharing, secondary use, operationalisation, deletion, contestation, human review, and consequential use MUST remain reviewable, traceable, contestable, and auditable where material rights, dignity, access, participation, safety, identity, or dependency effects are present |
 | Canonical Code Families / Reference Sets Defined | `MENTIS.MSI` — Mental-State Inference; `MENTIS.CBIO` — Cognitive Biometric; `MENTIS.ACI` — Ambient Cognitive Inference; `MENTIS.CFP` — Cognitive Fusion Pathway; `MENTIS.CDPR` — Cognitive Data Processing Record |
-| Code Families / Reference Sets Consumed | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; `H`; `AEON.OL`; applicable ETHICS, RELATION, SECURITY, OPERATIONS, IDENTITY, LATTICE, and AEON classifications where defined |
+| Code Families / Reference Sets Consumed | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; `AEON.H`; `AEON.OL`; applicable ETHICS, RELATION, SECURITY, OPERATIONS, IDENTITY, LATTICE, and AEON classifications where defined |
 | Cross-Domain Dependencies | MENTIS; ETHICS; RELATION; SECURITY; OPERATIONS; LATTICE; IDENTITY; `CAM-BS2026-AEON-013-PLATINUM — Annex L`; `CAM-BS2025-AEON-005-PLATINUM — Annex D`; `CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model` |
 | Revision Posture | Draft — Developmental Review |
 | Migration Lineage | Created as Appendix A under the MENTIS domain during June 2026 cognitive-domain governance expansion |
@@ -853,7 +853,7 @@ And what is most observable is not always what is most true.
 | Source Section | §§7; 13–17; 24–29; 36–38; §52 |
 | Domain Namespace | MENTIS |
 | Authority / Protection Level | Source-authoritative mental-state-inference reference family; inference classification and constraint posture only; no independent truthfulness, intention, loyalty, competence, mental-health, dangerousness, consent, liability, enforcement, diagnosis, or runtime authority |
-| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; `H`; `AEON.OL`; applicable ETHICS, RELATION, OPERATIONS, SECURITY, IDENTITY, and LATTICE classifications where defined |
+| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; `AEON.`; `AEON.OL`; applicable ETHICS, RELATION, OPERATIONS, SECURITY, IDENTITY, and LATTICE classifications where defined |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Governs derived, predicted, probabilistic, or modelled claims about attention, emotion, fatigue, stress, intention, vulnerability, preference, cognitive load, impairment, behavioural disposition, or cognitive state |
 | Taxonomy Constraint | Local label `MSI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.MSI` |
@@ -973,6 +973,7 @@ And what is most observable is not always what is most true.
 | ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
 | 1.0 | Initial development of Appendix A of MENTIS Domain| 2026-06-06T09:04:00Z |  9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8 |
 | 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | e262ed3e7dc9e998e76bf3984030dbcb412d5a9851fcfa5eb67e0e10321ec2b5 |
+| 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 

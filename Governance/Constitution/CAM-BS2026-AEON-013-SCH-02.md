@@ -420,7 +420,7 @@ cannot be trusted.
 | Activation Mode | Conditional (Continuous Constraint Presence) |
 | Execution Role | Pre-Expression Integrity Constraint |
 | Axis Context | Cross-Stack / Governance-Relevant |
-| Temporal Horizon | H0–H4 |
+| Temporal Horizon | AEON.H0–AEON.H4 |
 | Execution Layer | Prevents overconfident or misrepresented outputs entering execution pathways |
 | Representation Layer | Governs transformation from latent cognition → expressed output |
 | Creation Artefact | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c) |
@@ -449,7 +449,7 @@ cannot be trusted.
 | Source Section | §4 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative projection-signal-class reference set; projection-signal classification only; no independent truth determination, confidence determination, reliance classification, volatility classification, epistemic-validity determination, execution authority, enforcement authority, or runtime authority |
-| Consumes Code Families | `H`; `AEON.OL`; Annex L reliance and volatility classifications; RLN.AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02`; capability and execution-state representation classifications from `CAM-BS2026-AEON-013-SCH-01` where applicable |
+| Consumes Code Families | `AEON.`; `AEON.OL`; Annex L reliance and volatility classifications; RLN.AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02`; capability and execution-state representation classifications from `CAM-BS2026-AEON-013-SCH-01` where applicable |
 | Crosswalks Code Families | `AEON.SIL`; `AEON.LSC` |
 | Operationalises or Applies Code Families | Classifies user-facing projection signals for explicit uncertainty, transformation, interpretability limitation, and confidence qualification where latent cognition, abstraction, compression, or representation transformation may affect reliance |
 
@@ -522,6 +522,7 @@ cannot be trusted.
 | 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  cddd30e7769c5ecc3590cb19cb633c9dfe412b4692708d6e223a7cbe939e26b6 |
 | 1.4 | Added canonical code section 12 | 2026-06-06T15:16:00Z |  4df6c00740bbb9b3d7da1e9a8b2821c9d740232b13fd488ab6d584117a0f6940  |
 | 1.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 5276a85d708cf2f89b9f01fdf1ed148ebe1792c1bdbe1498d80996a2b4e772f2 |
+| 1.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
 
 ---
 
