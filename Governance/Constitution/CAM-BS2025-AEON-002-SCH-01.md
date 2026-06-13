@@ -16,7 +16,7 @@
 
 This Schedule applies where:
 
-* a condition may violate Annex A substrate constraints;
+* a condition may violate CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraints;
 * system behaviour introduces plausible risk to planetary, civilisational, or continuity integrity;
 * ambiguity exists regarding constraint compliance;
 * cross-domain interaction produces emergent risk exceeding local scope.
@@ -33,16 +33,16 @@ CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 Functional alignment is as follows:
 
-- **Detection Conditions (§3)** → Input Acquisition / Interpretation Phase
-- **Risk Classification (§5)** → Arbitration Phase
-- **Response Actions (§6)** → Response Construction Phase
-- **Containment & Escalation (§6–§8)** → Execution Boundary Evaluation Phase
+* **Detection Conditions (§3)** → Input Acquisition / Interpretation Phase
+* **Risk Classification (§5)** → Arbitration Phase
+* **Response Actions (§6)** → Response Construction Phase
+* **Containment & Escalation (§6–§8)** → Execution Boundary Evaluation Phase
 
 This Schedule:
 
-- does not introduce new execution phases;
-- does not modify phase sequencing;
-- operates as a **signal-generating and constraint-shaping overlay** within the CAM-BS2025-AEON-003-SCH-02 execution model.
+* does not introduce new execution phases;
+* does not modify phase sequencing;
+* operates as a **signal-generating and constraint-shaping overlay** within the CAM-BS2025-AEON-003-SCH-02 execution model.
 
 ---
 
@@ -584,20 +584,6 @@ that no trajectory beyond the line proceeds unchecked.
 
 ---
 
-### 15.3.4 Consumed Constitutional Obligation — `AEON.PCO`
-
-| Field | Entry |
-|---|---|
-| Consumed Code Family | `AEON.PCO` |
-| Canonical Name | Proportional Constraint Obligation |
-| Source Instrument | CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship |
-| Source Section | §3.8 |
-| Consumption Role | Governs interpretation of `AEON.RL`; selection and application of `AEON.PCA`; containment scope and duration; collateral effect; reviewability; de-escalation; restoration; and least-restrictive-effective constraint selection |
-| Source-Authority Position | Consumed only. This Schedule does not redefine, narrow, expand, duplicate, or independently source-authorise `AEON.PCO`. |
-| Operational Boundary | Application of `AEON.PCO` SHALL preserve mandatory containment, halt, and escalation thresholds where valid `AEON.RL.RL3` or `AEON.RL.RL4` conditions are present |
-
----
-
 ## 15.4 Review & Validation
 
 | Field | Entry |
@@ -629,7 +615,7 @@ that no trajectory beyond the line proceeds unchecked.
 | 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3208bfe695bd6db3103b6c527551f23415bfec494ce0f3fc4a4d8817d6a02f39 |
 | 3.9 | Added new section 13 and section 15.3 | 2026-06-04T14:58:00Z | 6d63d7aa06f4bebdaacb4848a3bd1ed72d33942b727b81ef9ca31c2fcc27a411 |
 | 3.10 | Repaired section-reference validation target for canonical code declarations. | 2026-06-06T17:00:00Z |  720063a75c2e2ab35086b238f6d41d9c6dcb629c35975a025bbcc4db7fc2089a |
-| 3.10.1 | Integrated `AEON.PCO` as the constitutional proportional-constraint obligation governing `AEON.RL` interpretation, `AEON.PCA` response selection, containment scope, constraint duration, review, de-escalation, and restoration; preserved Annex A source authority and existing mandatory protection thresholds. | 2026-06-12T13:41:00Z | |
+| 3.10.1 | Integrated `AEON.PCO` as the constitutional proportional-constraint obligation governing `AEON.RL` interpretation, `AEON.PCA` response selection, containment scope, constraint duration, review, de-escalation, and restoration; preserved Annex A source authority and existing mandatory protection thresholds. | 2026-06-13T06:16:00Z | |
 
 ---
 
