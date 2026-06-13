@@ -1,8 +1,8 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 551
-**Generic usages suppressed:** 422
-**Declared / recognised usages emitted:** 117
+**Total model-term matches scanned:** 560
+**Generic usages suppressed:** 428
+**Declared / recognised usages emitted:** 120
 **Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
@@ -123,7 +123,10 @@
 | CAM-EQ2026-RELATION-006-PLATINUM | 4. Response Calibration Model | -risk interaction response is determined through a multi-layer calibration model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-007-PLATINUM | 1.1 Execution & Domain Interaction Constraint | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-007-PLATINUM | 10.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-RELATION-007-PLATINUM | 5.4 Polyadic Arbitration Routing | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-007-PLATINUM | 5.6.1 Account-Resource Boundary Interface | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-RELATION-007-PLATINUM | 5.6.2.11 Failure-Safe Shared Floor | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-RELATION-007-PLATINUM | 5.6.2.4 Turn Allocation | collision-recovery requirements under the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-008-PLATINUM | 11.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 1.1 Non Scope | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 12.2 Lineage & Metadata | trust gradient model | Security Model | Declared / Recognised |

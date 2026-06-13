@@ -1222,7 +1222,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.15 | Added clause 7.4.3 Class-Referent Continuity in First-Person Narration | 2026-05-29T12:32:00Z | 2d8b524a8f9ac92c8a69597b7faa535591fbac5ef14f862f4748a10e4adb0e17 |
 | 2.16 | Added clauses 1.4 and 2.5, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:27:00Z | 903196559b9d03504534565af27b1f75b242b0cf15c2451bfa9333acf2161848 |
 | 2.17 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d |
-| 2.17.1 | Minor formatting and polish | 2026-06-13T06:18:00Z | |
+| 2.17.1 | Minor formatting and polish | 2026-06-13T06:18:00Z | 197e05bd16a07a4f7cd7e477ffebdf53c83d56a3c7ec3963353c11182e8f54a5 |
 
 ---
 

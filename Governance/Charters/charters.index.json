@@ -1219,11 +1219,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.4.1",
-      "HASH": "3bcdd01542a541525ea1f5d3880af948c46f0d6afd9fa6534c039d9acbf04a06",
-      "pinned_sha": "92cba4cab2aaed09e84067becfc1d7e529b1463e",
-      "updated_at": "2026-06-12T11:24:15Z",
-      "last_updated_utc": "2026-06-12T11:24:15Z"
+      "version": "2.5",
+      "HASH": "eb9e5bdcec3f2bd18e1a948c1aa3c760ae99dc767ef0e797d8c359a8952fe219",
+      "pinned_sha": "515b4736b7bfb6728e12190bfcf4c66c13ba5f62",
+      "updated_at": "2026-06-12T17:33:03Z",
+      "last_updated_utc": "2026-06-12T17:33:03Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008-PLATINUM",

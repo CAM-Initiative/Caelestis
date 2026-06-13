@@ -559,6 +559,75 @@
     }
   },
   {
+    "code_family": "AEON.RL",
+    "canonical_name": "Execution Risk Level Classification",
+    "primary_type": "Operational",
+    "subtype": "EXECUTION_RISK_LEVEL; PROTECTION_AND_CONTAINMENT_RISK",
+    "modifier": "GOVERNANCE; PROTECTION; CONTAINMENT; EXECUTION_BOUNDARY",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "AEON.RL.RL1",
+      "AEON.RL.RL2",
+      "AEON.RL.RL3",
+      "AEON.RL.RL4"
+    ],
+    "schema_fields": "execution_risk_level; risk_level; containment_risk_level",
+    "source_instrument": "CAM-BS2025-AEON-002-SCH-01",
+    "source_section": "\u00a75",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative execution-risk classification family; risk-level classification only; no independent constitutional-validity determination, authority determination, legitimacy determination, arbitration outcome, enforcement authority, escalation validation, containment authority, or runtime authority",
+    "consumes_code_families": [
+      "`AEON.PCD`; `AEON.PCO`; `H`; applicable impact",
+      "violation-severity",
+      "and cross-domain risk classifications"
+    ],
+    "crosswalks_code_families": [
+      "AEON.PCA"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies Annex A execution risk from advisory through existential conditions using likelihood",
+      "reversibility",
+      "propagation potential",
+      "cross-system impact",
+      "and potential substrate-constraint consequence"
+    ],
+    "declaration_heading": "15.3.2 `AEON.RL` \u2014 Execution Risk Level Classification",
+    "declaration_line_number": 535,
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-002-SCH-01.md",
+    "family_id": "AEON.RL",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "RL"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`AEON.RL`",
+      "Canonical Name": "Execution Risk Level Classification",
+      "Primary Type": "Operational",
+      "Subtype": "EXECUTION_RISK_LEVEL; PROTECTION_AND_CONTAINMENT_RISK",
+      "Modifier": "GOVERNANCE; PROTECTION; CONTAINMENT; EXECUTION_BOUNDARY",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "`AEON.RL.RL1`, `AEON.RL.RL2`, `AEON.RL.RL3`, `AEON.RL.RL4`",
+      "Controlled Value Meanings": "`AEON.RL.RL1` \u2014 Advisory; `AEON.RL.RL2` \u2014 Elevated; `AEON.RL.RL3` \u2014 Critical; `AEON.RL.RL4` \u2014 Existential",
+      "Schema Field(s)": "execution_risk_level; risk_level; containment_risk_level",
+      "Source Instrument": "CAM-BS2025-AEON-002-SCH-01",
+      "Source Section": "\u00a75",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative execution-risk classification family; risk-level classification only; no independent constitutional-validity determination, authority determination, legitimacy determination, arbitration outcome, enforcement authority, escalation validation, containment authority, or runtime authority",
+      "Consumes Code Families": "`AEON.PCD`; `AEON.PCO`; `H`; applicable impact, violation-severity, and cross-domain risk classifications",
+      "Crosswalks Code Families": "`AEON.PCA`",
+      "Operationalises or Applies Code Families": "Classifies Annex A execution risk from advisory through existential conditions using likelihood, reversibility, propagation potential, cross-system impact, and potential substrate-constraint consequence",
+      "Taxonomy Constraint": "Local labels `RL1` through `RL4` SHALL NOT be promoted as a standalone corpus-wide `RL` family; machine-readable expression SHALL use scoped `AEON.RL` values",
+      "Axis Constraint": "`AEON.RL` classifies execution risk only and SHALL NOT substitute for impact intensity, violation severity, legitimacy, authority, or constitutional-validity classifications",
+      "Proportionality Constraint": "`AEON.RL` informs response selection but does not independently authorise a response broader, more severe, or more persistent than the evidenced condition supports under `AEON.PCO`"
+    }
+  },
+  {
     "code_family": "AEON.SD",
     "canonical_name": "Symbolic Depth Scale",
     "primary_type": "Classification Scale",
@@ -7034,7 +7103,7 @@
       "None declared"
     ],
     "declaration_heading": "19.4.3 `RLN.AC` \u2014 AC Classification Levels",
-    "declaration_line_number": 3879,
+    "declaration_line_number": 4012,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RLN.AC",
     "family_kind": "standalone_family",
@@ -7093,7 +7162,7 @@
       "None declared"
     ],
     "declaration_heading": "19.4.1 `RLN.C` \u2014 Relational State Architecture",
-    "declaration_line_number": 3833,
+    "declaration_line_number": 3966,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RLN.C",
     "family_kind": "standalone_family",
@@ -7279,7 +7348,7 @@
       "or compliance coercion signals appear"
     ],
     "declaration_heading": "19.4.6 `RLN.CP` \u2014 Coercion Pressure Signal Classes",
-    "declaration_line_number": 3948,
+    "declaration_line_number": 4081,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RLN.CP",
     "family_kind": "standalone_family",
@@ -7774,7 +7843,7 @@
       "and runtime routing signals"
     ],
     "declaration_heading": "10.3.1 `RLN.R` \u2014 Relational Geometry Scale (R\u2011Scale)",
-    "declaration_line_number": 555,
+    "declaration_line_number": 1033,
     "source_path": "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md",
     "family_id": "RLN.R",
     "family_kind": "standalone_family",
@@ -7834,7 +7903,7 @@
       "Applies AC classification and relational-state posture in response routing"
     ],
     "declaration_heading": "19.4.4 `RLN.RA` \u2014 Response Archetypes",
-    "declaration_line_number": 3902,
+    "declaration_line_number": 4035,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RLN.RA",
     "family_kind": "standalone_family",
@@ -7963,7 +8032,7 @@
       "and relational orbit mechanisms for relational-state stability assessment"
     ],
     "declaration_heading": "19.4.7 `RLN.RSE` \u2014 Relational Stability Engine Mechanism Codes",
-    "declaration_line_number": 3971,
+    "declaration_line_number": 4104,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RLN.RSE",
     "family_kind": "standalone_family",
@@ -8094,7 +8163,7 @@
       "Applies clustering conditions to relational-state transition assessment"
     ],
     "declaration_heading": "19.4.8 `RLN.SCC` \u2014 Signal Clustering Condition Codes",
-    "declaration_line_number": 3994,
+    "declaration_line_number": 4127,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RLN.SCC",
     "family_kind": "standalone_family",
@@ -8153,7 +8222,7 @@
       "Classifies signal-cluster strength for relational-state recognition and escalation eligibility"
     ],
     "declaration_heading": "19.4.9 `RLN.SCS` \u2014 Signal Cluster Strength Codes",
-    "declaration_line_number": 4017,
+    "declaration_line_number": 4150,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RLN.SCS",
     "family_kind": "standalone_family",
@@ -8273,7 +8342,7 @@
       "Applies AC classification and response-archetype posture in tone modulation"
     ],
     "declaration_heading": "19.4.5 `RLN.TB` \u2014 Tone Bands",
-    "declaration_line_number": 3925,
+    "declaration_line_number": 4058,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RLN.TB",
     "family_kind": "standalone_family",
@@ -8330,7 +8399,7 @@
       "None declared"
     ],
     "declaration_heading": "19.4.2 `RLN.TZ` \u2014 Relational Transition Zone",
-    "declaration_line_number": 3856,
+    "declaration_line_number": 3989,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
     "family_id": "RLN.TZ",
     "family_kind": "standalone_family",
