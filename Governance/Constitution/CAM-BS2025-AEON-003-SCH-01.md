@@ -167,6 +167,7 @@ This ensures that all governance influence remains:
 |---------------|----------------|--------|------------------|----------------|
 | CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution (Schedule 1) | AEON | Continuous (Cross-Layer Constraint) | Continuous (Cross-Layer Constraint) |
 | CAM-BS2025-AEON-002-SCH-01 | Annex A: Operational Protection & Containment (Schedule 1) | AEON | Event-Triggered | Event-Triggered (Critical Condition / Boundary Violation) |
+| CAM-BS2025-AEON-002-SCH-02 | Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule | AEON | Constitutional Schedule / Runtime Execution Layer | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-02 | Annex B: Runtime Governance Execution Model (Schedule 2) | AEON | Non-Layer (Execution Model) | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
@@ -212,9 +213,9 @@ Such schedules:
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 560
-**Generic usages suppressed:** 428
-**Declared / recognised usages emitted:** 120
+**Total model-term matches scanned:** 565
+**Generic usages suppressed:** 431
+**Declared / recognised usages emitted:** 122
 **Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`

@@ -980,7 +980,7 @@ It is measured by what remains possible for those who come after.
 
 | Version | Description | Timestamp (UTC) | SHA-256 |
 |---|---|---:|---|
-| 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Draft Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | |
+| 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Draft Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | 567c7ded0b7f4973822608d7f34e5fe9a6211e3812ebb514a1469a539ba11da0 |
 
 ---
 

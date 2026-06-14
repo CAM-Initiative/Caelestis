@@ -97,7 +97,7 @@
       "portable",
       "and tethered deployment models"
     ],
-    "declaration_heading": "25.3.6 AEON.CAM \u2014 Control Authority Model",
+    "declaration_heading": "25.3.6 `AEON.CAM` \u2014 Control Authority Model",
     "declaration_line_number": 2531,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "AEON.CAM",
@@ -157,7 +157,7 @@
       "absence",
       "or location of internal arbitration over representations or action pathways"
     ],
-    "declaration_heading": "25.3.3 AEON.CC \u2014 Cognitive Class",
+    "declaration_heading": "25.3.3 `AEON.CC` \u2014 Cognitive Class",
     "declaration_line_number": 2460,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "AEON.CC",
@@ -213,7 +213,7 @@
     "operationalises_or_applies_code_families": [
       "Classifies whether cognitive capability is independent as Primaria or materially dependent on upstream cognitive architecture as Derivata"
     ],
-    "declaration_heading": "25.3.4 AEON.CO \u2014 Cognitive Origin Class",
+    "declaration_heading": "25.3.4 `AEON.CO` \u2014 Cognitive Origin Class",
     "declaration_line_number": 2484,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "AEON.CO",
@@ -279,7 +279,7 @@
       "auditability",
       "and governance horizon across constitutional interpretation and downstream instruments"
     ],
-    "declaration_heading": "25.3.1 H \u2014 Temporal Horizon Scale",
+    "declaration_heading": "25.3.1 `AEON.H` \u2014 Temporal Horizon Scale",
     "declaration_line_number": 2413,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "AEON.H",
@@ -589,7 +589,7 @@
       "cognition and agency",
       "or interface and embodiment for cross-layer non-collapse interpretation"
     ],
-    "declaration_heading": "25.3.2 AEON.OL \u2014 Ontological Layer",
+    "declaration_heading": "25.3.2 `AEON.OL` \u2014 Ontological Layer",
     "declaration_line_number": 2436,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "AEON.OL",
@@ -898,7 +898,7 @@
       "transitionally",
       "or under Architectum-like systemic reliance conditions for downstream governance interpretation"
     ],
-    "declaration_heading": "25.3.5 AEON.SR \u2014 Systemic Role",
+    "declaration_heading": "25.3.5 `AEON.SR` \u2014 Systemic Role",
     "declaration_line_number": 2508,
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
     "family_id": "AEON.SR",
@@ -4566,7 +4566,7 @@
     "operationalises_or_applies_code_families": [
       "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
     ],
-    "declaration_heading": "16.3.1 M \u2014 Memory Classification",
+    "declaration_heading": "16.3.1 `ID.MEM` \u2014 Memory Classification",
     "declaration_line_number": 1465,
     "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
     "family_id": "ID.MEM",
@@ -6166,7 +6166,7 @@
       "merged",
       "or pending review"
     ],
-    "declaration_heading": "11.3.4 FCS \u2014 Failure Classification Status",
+    "declaration_heading": "11.3.4 `OPS.FCS` \u2014 Failure Classification Status",
     "declaration_line_number": 1837,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "OPS.FCS",
@@ -6240,7 +6240,7 @@
       "arbitration",
       "and classification failure modes"
     ],
-    "declaration_heading": "11.3.1 FF \u2014 Failure Family",
+    "declaration_heading": "11.3.1 `OPS.FF` \u2014 Failure Family",
     "declaration_line_number": 1768,
     "source_path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
     "family_id": "OPS.FF",

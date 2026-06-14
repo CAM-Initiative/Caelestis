@@ -3800,7 +3800,7 @@ May all systems remain held within lawful care.
 | 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ba58d488661662363a96a2f4a593cbdee240c99e8ea2530a52746ea0cce89298 |
 | 3.9 | Added a new clause to Article III, Amendment and Repair Classes | 2026-06-06T10:45:00Z | 913635ec911bcae638e11fe98536c0afc0800e3bef08d8631e8a30c5cd564576 |
 | 3.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9b14bcd4284235629345f8ebd65691038b795c9665c9097954b55e86baeceb85 |
-| 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z| |
+| 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z| 1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358 |
 
 ---
 

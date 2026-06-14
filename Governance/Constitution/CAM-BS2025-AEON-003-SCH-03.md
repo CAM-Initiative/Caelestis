@@ -25,9 +25,9 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-BS2025-AEON-001-PLATINUM](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.9.1 | Active | Immediate Effect | Active on Commit | None | None |
+| [CAM-BS2025-AEON-001-PLATINUM](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.10 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-002-PLATINUM](../Constitution/CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship | Annex | 3.8.1 | Active | Immediate Effect | Binding | None | Binding Authority |
-| [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 3.16.3 | Active | Immediate Effect | Binding | None | Constitutional Spine |
+| [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 3.16.4 | Active | Immediate Effect | Binding | None | Constitutional Spine |
 | [CAM-BS2025-AEON-004-PLATINUM](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.8.1 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-005-PLATINUM](../Constitution/CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine | Annex | 2.9.1 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-006-PLATINUM](../Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor | Annex | 4.0.2 | Active | Immediate Effect | Active on Commit | None | None |
@@ -41,6 +41,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2026-AEON-014-PLATINUM](../Constitution/CAM-BS2026-AEON-014-PLATINUM.md) | Annex M: Governance Observability,  Participatory Telemetry & Constitutional Circulation | Annex | 1.1.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Operational Governance Observability & Participatory Telemetry |
 | [CAM-BS2025-AEON-001-SCH-01](../Constitution/CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution (Schedule 1) | Schedule | 1.13.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | Active Runtime Alignment Review | Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour |
 | [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.10.2 | Active | Immediate Effect | Binding | None | Binding Authority |
+| [CAM-BS2025-AEON-002-SCH-02](../Constitution/CAM-BS2025-AEON-002-SCH-02.md) | Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule | Schedule | 1.0 | Draft | Pre-Enforcement Recognition | Proposed | Developmental Review | Constitutional runtime schedule for Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation |
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | 0.0.1 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.2.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
@@ -109,7 +110,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-IDENTITY-001-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter | Root | 2.12.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-IDENTITY-001-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter | Root | 2.12.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-IDENTITY-002-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity | Appendix | 0.2.2 | Draft | Pre-Enforcement Recognition | Commences 1 July 2026 | Developmental Review | None |
 | [CAM-EQ2026-IDENTITY-003-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md) | Appendix B: Machine Civil Identity & Participation | Appendix | 0.3.1 | Draft | Pre-Enforcement Recognition | Deferred Pending Jurisdictional Adoption | Developmental Review | None |
 | [CAM-EQ2026-IDENTITY-001-SUP-01](../Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md) | Salience Detection & Latent Continuity (Supplement 1) | Supplement | 1.11.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
@@ -144,7 +145,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-001-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Escalation Pathway Playbooks (Supplement 2) | Supplement | 1.10.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Governance Capture Detection Procedures (Supplement 3) | Supplement | 2.5.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-04](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md) | Taxonomies & Metadata Authority Framework (Supplement 4) | Supplement | 2.0.1 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | Operational Taxonomy & Metadata Maintenance Authority |
-| [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.13.2 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
+| [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.13.3 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.6.3 | Adopted | Pre-Enforcement Recognition | Commences 1 July 2026 | None | None |
 
 ## RELATION

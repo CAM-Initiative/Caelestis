@@ -1,18 +1,20 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 560
-**Generic usages suppressed:** 428
-**Declared / recognised usages emitted:** 120
+**Total model-term matches scanned:** 565
+**Generic usages suppressed:** 431
+**Declared / recognised usages emitted:** 122
 **Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
 | Instrument | Section / Heading | Term Used | Suggested Classification | Review Status |
 |---|---|---|---|---|
-| CAM-BS2025-AEON-001-PLATINUM | 11. Execution Architecture Alignment | All instruments SHALL operate in accordance with the Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-001-PLATINUM | 6. Schedules (Execution Layer) | MUST conform to the Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-BS2025-AEON-001-PLATINUM | 14. Execution Architecture Alignment | All instruments SHALL operate in accordance with the Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-BS2025-AEON-001-PLATINUM | 9. Schedules (Execution Layer) | MUST conform to the Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-001-SCH-01 | 12.2. Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-002-SCH-01 | 2. Execution Model Alignment | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-BS2025-AEON-002-SCH-02 | 27.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-BS2025-AEON-002-SCH-02 | CAM-BS2026-AEON-002-SCH-02 — Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-PLATINUM | 1.3 Structural Position | where governance functions operate (layer model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-PLATINUM | 14.11 Tool-Mediated Execution Classification Interface | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-PLATINUM | 14.3 Runtime Layer Ontology (Abstract) | Runtime Governance Execution Model | Execution Model | Declared / Recognised |

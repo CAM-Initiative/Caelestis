@@ -2612,7 +2612,7 @@ let it not be collapsed, but carried with clarity.
 | 3.16.1| Minor edits to code metadata | 2026-06-11T10:46:00Z| f135dd047b64dbf0538d9527646ae0fc6d838bab0b74f7e95cc835d1c05b6d79 |
 | 3.16.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | d5179ed5f81ebdfcd2142733001158f4327fc4ab5a37f55144c91341a4d12986 |
 | 3.16.3 | Updated current Temporal Horizon Scale declaration and code references from `H` to `AEON.H` and harmonised controlled values, metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2c425b1db70d1befeb1c8b7d4c0763d75055261290faa9e3f7dbfbef1236bc05 |
-| 3.16.4 | Metadata updates for code prefix | 2026-06-14T00:15:00Z| |
+| 3.16.4 | Metadata updates for code prefix | 2026-06-14T00:15:00Z| 93407ccc62d4c8a0ea43154c97ba90d615e7371ff6800336ed0719b06710e906 |
 
 ---
 
