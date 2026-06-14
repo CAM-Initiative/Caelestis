@@ -1,27 +1,14 @@
 # CAM-BS2026-AEON-002-SCH-02 — Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule
 
-**Instrument Type:** Constitutional Schedule — Civilisational Economic Constraint Runtime
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
-**Related Instruments:**
-
-* CAM-BS2025-AEON-002-SCH-01 — Annex A: Operational Protection & Containment
-* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
-* CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model
-* CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
-* CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship
-* CAM-BS2026-AEON-008-SCH-02 — Economic-Effect Runtime Commitment Engine
-
-**Status:** Draft
-**Effect:** Pre-Enforcement Recognition
-**Enforcement:** Proposed
-**Review State:** Developmental Review
-**Authority Role:** Constitutional runtime schedule for Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation
-
-**Purpose:**
-This Schedule establishes the Annex A runtime conditions under which civilisational wealth concentration, economic-command capacity, and irreversible accumulation asymmetry are detected, classified, constrained, escalated, de-escalated, and routed through common-return settlement pathways.
-
-It operationalises Annex A substrate constraints where private accumulation becomes capable of producing irreversible asymmetry, systemic depletion, dependency capture, infrastructural domination, or civilisational instability.
+**Instrument Type:** Constitutional Schedule — Civilisational Economic Constraint Runtime  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
+**Status:** Draft  
+**Effect:** Pre-Enforcement Recognition  
+**Enforcement:** Proposed  
+**Review State:** Developmental Review  
+**Authority Role:** Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation
+**Purpose:** This Schedule establishes the Annex A runtime conditions under which civilisational wealth concentration, economic-command capacity, and irreversible accumulation asymmetry are detected, classified, constrained, escalated, de-escalated, and routed through common-return settlement pathways. It operationalises CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraints where private accumulation becomes capable of producing irreversible asymmetry, systemic depletion, dependency capture, infrastructural domination, or civilisational instability.
 
 ---
 
@@ -73,6 +60,17 @@ This Schedule:
 * and constrains execution where civilisational wealth concentration breaches Annex A substrate constraints.
 
 For avoidance of doubt, Economics defines the domain meaning of concentration, overflow, ownership preservation, and non-extractive value architecture. This Schedule defines the runtime classification and constraint pathway where those conditions rise to constitutional substrate relevance.
+
+---
+
+## 1.3 Related Instruments
+
+* CAM-BS2025-AEON-002-SCH-01 — Annex A: Operational Protection & Containment (Schedule 1)
+* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
+* CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model
+* CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
+* CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship
+* CAM-BS2026-AEON-008-SCH-02 — Economic-Effect Runtime Commitment Engine
 
 ---
 
@@ -864,28 +862,19 @@ This Schedule also recognises the following defined terms for runtime use:
 
 ## 26. Closing Principle
 
-Wealth may be created.
-
-It may be earned.
-
-It may be stewarded across generations.
-
-But no accumulation remains private when its consequences become civilisational.
-
-Where value is drawn from the commons,
-the commons remain present.
-
-Where prosperity is enabled by many,
+Wealth may be created.  
+It may be earned.  
+It may be stewarded across generations.  
+But no accumulation remains private when its consequences become civilisational.  
+Where value is drawn from the commons,  
+the commons remain present.  
+Where prosperity is enabled by many,  
 its benefits may not disappear into one.
 
-May creation be rewarded.
-
-May stewardship be honoured.
-
-May power remain accountable to the conditions from which it arose.
-
-For wealth is not measured only by what is held.
-
+May creation be rewarded.  
+May stewardship be honoured.  
+May power remain accountable to the conditions from which it arose.  
+For wealth is not measured only by what is held.  
 It is measured by what remains possible for those who come after.
 
 > **Non contra prosperitatem. Contra dominationem sine limite. Et ubi fortuna ex multis oritur, ad multos redeat.**  
@@ -946,22 +935,24 @@ It is measured by what remains possible for those who come after.
 
 ---
 
-### 27.3.1 `AEON.CW` — Civilisational Wealth State
-
 | Field | Entry |
 |---|---|
-| **Source-Authoritative Code Family Defined** | `AEON.CW` — Civilisational Wealth State |
-| **Controlled Values Defined** | `AEON.CW-0`; `AEON.CW-1`; `AEON.CW-2`; `AEON.CW-3`; `AEON.CW-4`; `AEON.CW-4X` |
-| **Consumed Code Families** | `AEON.HARM`; `ECON.HARM`; `STW.PCO.ACT` |
-| **Applied Code Families** | `AEON.HARM`; `ECON.HARM`; `STW.PCO.ACT` |
-| **Crosswalked Code Families** | `AEON.CW` → `AEON.HARM`; `AEON.CW` → `ECON.HARM`; `AEON.CW-4` / `AEON.CW-4X` → `STW.PCO.ACT` |
-| **Primary Type** | Operational / Runtime Classification |
-| **Subtype** | CONSTRAINT_STATE; ECONOMIC_COMMAND_STATE; CIVILISATIONAL_RISK_STATE |
-| **Modifier** | AEON; STEWARDSHIP; ECONOMIC; CONSTRAINT; COMMON_RETURN |
-| **Scope** | Constitutional runtime schedule; Annex A substrate-constraint routing |
-| **Schema Field(s)** | `cw_state`; `aeon_harm_class`; `economic_harm_class`; `pco_action_type`; `commons_encumbered_excess_detected`; `intermediary_constraint_required`; `common_return_settlement_status` |
-| **Authority / Protection Level** | Source-authoritative civilisational wealth state classification family; runtime classification and routing authority only; no independent taxation, property transfer, criminal liability, market pricing, or sovereign enforcement authority |
-| **Operationalises or Applies Code Families** | Classifies civilisational wealth concentration; emits harm-relevant and economics-relevant signals; applies proportional constraint action classifications where AEON.CW-4 or AEON.CW-4X activates PCO |
+| Code Family | `AEON.CW` |
+| Canonical Name | Civilisational Wealth State |
+| Primary Type | Operational / Runtime Classification |
+| Subtype | CONSTRAINT_STATE; ECONOMIC_COMMAND_STATE; CIVILISATIONAL_RISK_STATE |
+| Modifier | AEON; STEWARDSHIP; ECONOMIC; CONSTRAINT; COMMON_RETURN |
+| Scope | Constitutional Runtime Schedule |
+| Status | Draft |
+| Controlled Values Defined | `AEON.CW-0`; `AEON.CW-1`; `AEON.CW-2`; `AEON.CW-3`; `AEON.CW-4`; `AEON.CW-4X` |
+| Schema Field(s) | `cw_state`; `aeon_harm_class`; `economic_harm_class`; `pco_action_type`; `commons_encumbered_excess_detected`; `intermediary_constraint_required`; `common_return_settlement_status` |
+| Source Instrument | CAM-BS2026-AEON-002-SCH-02 |
+| Source Section | §4 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative civilisational wealth state classification family for this Draft Schedule; runtime classification and routing authority only; no independent taxation, property transfer, criminal liability, market pricing, or sovereign enforcement authority |
+| Consumes Code Families | `AEON.HARM`; `ECON.HARM`; `STW.PCO.ACT` |
+| Crosswalks Code Families | `AEON.CW` → `AEON.HARM`; `AEON.CW` → `ECON.HARM`; `AEON.CW-4` / `AEON.CW-4X` → `STW.PCO.ACT` |
+| Operationalises or Applies Code Families | Classifies civilisational wealth concentration; emits harm-relevant and economics-relevant signals; applies proportional constraint action classifications where `AEON.CW-4` or `AEON.CW-4X` activates PCO |
 
 ---
 
@@ -980,7 +971,8 @@ It is measured by what remains possible for those who come after.
 
 | Version | Description | Timestamp (UTC) | SHA-256 |
 |---|---|---:|---|
-| 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Draft Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | 567c7ded0b7f4973822608d7f34e5fe9a6211e3812ebb514a1469a539ba11da0 |
+| 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | 567c7ded0b7f4973822608d7f34e5fe9a6211e3812ebb514a1469a539ba11da0 |
+| 1.1 | Updates to metadata | 2026-06-14T02:03:00Z| |
 
 ---
 
