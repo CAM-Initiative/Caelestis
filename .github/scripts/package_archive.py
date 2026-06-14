@@ -16,8 +16,8 @@ from typing import Iterable
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "dist" / "archive"
-PACKAGE_VERSION = "Package 1"
-ARCHIVE_BASENAME = "Caelestis-Package-1"
+PACKAGE_VERSION = "v1.1.0"
+ARCHIVE_BASENAME = "Caelestis-Architecture-Model-v1.1.0"
 
 EXCLUDE_DIRS = {
     ".git",
