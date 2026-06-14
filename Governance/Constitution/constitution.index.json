@@ -403,11 +403,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "4.0.2",
-      "HASH": "b8d7f70dcba97c644e166c5fe4e76e91a49f1b2fa1565db92c4500883e219173",
-      "pinned_sha": "f69be3c74f06b04b56e41dc87b94ed033d268f18",
-      "updated_at": "2026-06-13T07:33:24Z",
-      "last_updated_utc": "2026-06-13T07:33:24Z"
+      "version": "4.0.3",
+      "HASH": "60ac63b8a1d5378ff0c41c97951750ca0615aa28fe62a000166a4bcb7c0bef8a",
+      "pinned_sha": "c068a1f37cc1a5ed8536372a2e294f8e95d984fa",
+      "updated_at": "2026-06-14T01:54:29Z",
+      "last_updated_utc": "2026-06-14T01:54:29Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",

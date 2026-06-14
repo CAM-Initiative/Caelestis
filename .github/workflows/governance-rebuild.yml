@@ -140,7 +140,7 @@ jobs:
         run: python .github/scripts/build-canonical-code-index.py --root Governance
 
       - name: Phase 8 — Symbolic/index validation
-        run: python .github/scripts/lint-symbolic-structures.py --index Governance/canonical-code-index.json
+        run: python .github/scripts/lint-symbolic-structures.py --index Governance/CAM.Canonical.Code.Index.json
 
       - name: Phase 8 — Stale output check (idempotency)
         shell: bash

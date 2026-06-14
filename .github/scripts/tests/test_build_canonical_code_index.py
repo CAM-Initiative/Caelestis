@@ -172,7 +172,22 @@ def test_canonical_constraint_and_obligation_identifier_fields(tmp_path):
         ('AEON.PCO.OBL', 'canonical_obligation', 'canonical_obligation'),
     ]
 
+def test_duplicate_source_declarations_are_marked(tmp_path):
+    w(tmp_path/'Governance'/'A.md', '## Canonical Code & Reference Set Declarations\n### A\n' + decl('DUP.HARM'))
+    w(tmp_path/'Governance'/'B.md', '## Canonical Code & Reference Set Declarations\n### B\n' + decl('DUP.HARM'))
+    rows = cc.mark_duplicate_source_declarations(cc.sort_entries(cc.scan(tmp_path/'Governance')))
+    assert [r.collision_status for r in rows] == [
+        'duplicate_source_declaration',
+        'duplicate_source_declaration',
+    ]
+
+def test_registered_domain_harm_family_tables_are_registry_only(tmp_path):
+    f = tmp_path/'Governance'/'A.md'
+    w(f, '## Canonical Code & Reference Set Declarations\n### Registry Reference\n| Field | Entry |\n|---|---|\n| Registered Domain Harm Family | DUP.HARM |\n| Source Authority Instrument | CAM-EQ2026-ETHICS-003-PLATINUM |\n| Registry Relationship | Registered under AEON.HARM global harm registry |\n')
+    assert cc.scan(tmp_path/'Governance') == []
+    assert cc.validate([]) == []
+
 def test_default_output_paths_are_governance():
     parser_defaults = pathlib.Path(cc.main.__code__.co_filename).read_text()
-    assert 'default="Governance/canonical-code-index.md"' in parser_defaults
-    assert 'default="Governance/canonical-code-index.json"' in parser_defaults
+    assert 'default="Governance/CAM.Canonical.Code.Index.md"' in parser_defaults
+    assert 'default="Governance/CAM.Canonical.Code.Index.json"' in parser_defaults

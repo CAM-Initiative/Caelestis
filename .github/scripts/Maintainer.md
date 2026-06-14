@@ -579,8 +579,8 @@ Validator / index generator.
 **Mutation Scope:**
 Builders may update generated index files under `.github/Indices/`.
 `build-canonical-code-index.py` is read-only for governance corpus documents and only writes:
-- `Governance/canonical-code-index.md`
-- `Governance/canonical-code-index.json`
+- `Governance/CAM.Canonical.Code.Index.md`
+- `Governance/CAM.Canonical.Code.Index.json`
 The linter should not mutate files.
 
 **Protected Invariants:**

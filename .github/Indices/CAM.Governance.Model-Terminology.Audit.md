@@ -140,11 +140,11 @@
 | CAM-EQ2026-SECURITY-002-PLATINUM | 10.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-002-PLATINUM | 7. Boundary Failure Classes | CAM-BS2025-AEON-003-SCH-02 (Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-STEWARD-001-PLATINUM | 12.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM.Canonical.Code.Index | Canonical Code Index | Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| CAM.Canonical.Code.Index | Canonical Code Index | Integrity State Model | Security Model | Declared / Recognised |
 | CAM.Governance.Index | Constitution & Instruments | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM.Governance.Index | Constitution & Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM.Governance.Index | Domain: ECONOMICS | Attribution & Dependency Model | Economic Model | Declared / Recognised |
-| canonical-code-index | Canonical Code Index | Attribution & Dependency Model | Economic Model | Declared / Recognised |
-| canonical-code-index | Canonical Code Index | Integrity State Model | Security Model | Declared / Recognised |
 
 **Generation:** Deterministic (timestamp omitted)
 **Scope:** Governance/**/*.md model terminology scan
