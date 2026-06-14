@@ -39,8 +39,8 @@ Primary question: whether the current `ETH.HC` Harm Class Scale is an Ethics-loc
 
 | Artifact | Finding |
 |---|---|
-| `.github/Indices/canonical-code-index.json` | Contains `ETH.HC` and `ECON.HARM`; no `AEON.HC` family entry found. |
-| `.github/Indices/canonical-code-index.md` | Lists `ETH.HC` and `ECON.HARM`; no `AEON.HC` family entry found. |
+| `Governance/canonical-code-index.json` | Contains `ETH.HC` and `ECON.HARM`; no `AEON.HC` family entry found. |
+| `Governance/canonical-code-index.md` | Lists `ETH.HC` and `ECON.HARM`; no `AEON.HC` family entry found. |
 | `data/taxonomy/sup04_transmutation_map.json` | Stages `ETH.HC` and `ECON.HARM`; no `AEON.HC` entry found. |
 | `data/taxonomy/domain_namespace_transmutation_pass_001.json` | Records first-pass mapping `HC` -> `ETH.HC`. |
 | `.github/analysis/metadata-declaration-gaps.md` | Still contains generated candidate rows that treat operational or relational applications of `ETH.HC` as candidate metadata gaps; these are generated-analysis artifacts, not source authority. |
@@ -125,7 +125,7 @@ Staged relationship if `AEON.HC` is later created:
 3. **If global parent is desired:** draft a source-authoritative AEON/Annex amendment creating `AEON.HC`, preferably in an existing AEON runtime/arbitration/harm-classification instrument if maintainers confirm that layer. Candidate destination: an AEON-006 schedule or a new AEON schedule/supplement dedicated to harm-class registry and cross-domain harm-family architecture.
 4. **After `AEON.HC` is source-authoritatively created:** decide whether `ETH.HC` becomes an ETHICS-domain extension, a cross-reference alias, or is superseded by `AEON.HC`.
 5. **Crosswalk domain families:** relate `ECON.HARM` to `AEON.HC` as `domain_specific_harm_family` / `crosswalk` without renaming unless Economics source doctrine is amended to define `ECON.HC`.
-6. **Only after source amendments:** regenerate `.github/Indices/canonical-code-index.json`, `.github/Indices/canonical-code-index.md`, SUP-04 staging maps, namespace-pass maps, analysis artifacts, and any catalogue metadata.
+6. **Only after source amendments:** regenerate `Governance/canonical-code-index.json`, `Governance/canonical-code-index.md`, SUP-04 staging maps, namespace-pass maps, analysis artifacts, and any catalogue metadata.
 
 ## 10. Recommended domain harm-family architecture
 
@@ -149,7 +149,7 @@ cat AGENTS.md
 rg -n -i --glob 'CAM-BS2025-AEON-006*.md' 'harm class|harm category|harm|injury|risk|protection|continuity impact|ethical harm|economic harm|\bHC\b' Governance/Constitution
 python - <<'PY'
 import json
-p='.github/Indices/canonical-code-index.json'
+p='Governance/canonical-code-index.json'
 data=json.load(open(p))
 rows=data if isinstance(data,list) else data.get('families', data.get('code_families', []))
 for fam in rows:

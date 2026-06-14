@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-CANONICAL_CODE_INDEX_PATH = REPO_ROOT / ".github" / "Indices" / "canonical-code-index.json"
+CANONICAL_CODE_INDEX_PATH = REPO_ROOT / "Governance" / "canonical-code-index.json"
 REGISTRY_PATH = REPO_ROOT / ".github" / "Indices" / "CAM.Governance.Symbolic-Structures.Registry.json"
 
 REQUIRED_FIELDS = [

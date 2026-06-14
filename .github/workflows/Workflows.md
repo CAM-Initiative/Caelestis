@@ -6,8 +6,8 @@ Last updated: 2026-04-29 (UTC)
 
 - Generator script: `python .github/scripts/build-canonical-code-index.py`
 - Outputs:
-  - `.github/Indices/canonical-code-index.md`
-  - `.github/Indices/canonical-code-index.json`
+  - `Governance/canonical-code-index.md`
+  - `Governance/canonical-code-index.json`
 - Check mode:
   - `python .github/scripts/build-canonical-code-index.py --check`
   - Non-zero exit in check mode only for:
@@ -182,12 +182,12 @@ These scripts support symbolic-structure registry validation and generated symbo
 
 | Script | Purpose | Mutates Files | Normal Use |
 | --- | --- | --- | --- |
-| `build-canonical-code-index.py` | Builds canonical symbolic-structure index files under `.github/Indices` | Yes | Governance rebuild Phase 8 |
+| `build-canonical-code-index.py` | Builds canonical code index files under `Governance/` | Yes | Governance rebuild Phase 8 |
 | `lint-symbolic-structures.py` | Validates symbolic-structure registry shape, candidate prefixes, duplicate structures, collisions, and Canonical Codes metadata | No | Governance rebuild Phase 8 |
 
 These scripts support taxonomy-of-taxonomies work, canonical code governance, symbolic registry hygiene, and collision detection.
 
-If symbolic index outputs change during CI, ensure `.github/Indices/` is staged by the workflow commit step.
+If canonical code index outputs change during CI, ensure `Governance/` is staged by the workflow commit step.
 
 ---
 

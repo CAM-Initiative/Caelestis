@@ -1,8 +1,8 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 565
-**Generic usages suppressed:** 431
-**Declared / recognised usages emitted:** 122
+**Total model-term matches scanned:** 568
+**Generic usages suppressed:** 432
+**Declared / recognised usages emitted:** 124
 **Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
@@ -143,6 +143,8 @@
 | CAM.Governance.Index | Constitution & Instruments | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM.Governance.Index | Constitution & Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM.Governance.Index | Domain: ECONOMICS | Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| canonical-code-index | Canonical Code Index | Attribution & Dependency Model | Economic Model | Declared / Recognised |
+| canonical-code-index | Canonical Code Index | Integrity State Model | Security Model | Declared / Recognised |
 
 **Generation:** Deterministic (timestamp omitted)
 **Scope:** Governance/**/*.md model terminology scan

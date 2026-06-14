@@ -312,7 +312,7 @@
           "notes": "Consumes Code Families metadata row for ETHICS.TP; current Harm Class family is ETH.HC."
         },
         {
-          "path": ".github/Indices/canonical-code-index.json",
+          "path": "Governance/canonical-code-index.json",
           "line_hint": 3814,
           "old_reference": "`ETHICS.HC`",
           "new_reference": "`ETH.HC`",
@@ -320,7 +320,7 @@
           "notes": "Regenerated from corrected SCH-01 source metadata."
         },
         {
-          "path": ".github/Indices/canonical-code-index.json",
+          "path": "Governance/canonical-code-index.json",
           "line_hint": 3856,
           "old_reference": "`ETHICS.HC`",
           "new_reference": "`ETH.HC`",
@@ -374,7 +374,7 @@
       ],
       "generated_artifacts_regenerated": [
         {
-          "path": ".github/Indices/canonical-code-index.json",
+          "path": "Governance/canonical-code-index.json",
           "line_hint": 3814,
           "old_reference": "`ETHICS.HC`",
           "new_reference": "`ETH.HC`",
@@ -382,7 +382,7 @@
           "notes": "Regenerated from corrected SCH-01 source metadata."
         },
         {
-          "path": ".github/Indices/canonical-code-index.json",
+          "path": "Governance/canonical-code-index.json",
           "line_hint": 3856,
           "old_reference": "`ETHICS.HC`",
           "new_reference": "`ETH.HC`",
@@ -400,7 +400,7 @@
         }
       ],
       "files_changed": [
-        ".github/Indices/canonical-code-index.json",
+        "Governance/canonical-code-index.json",
         "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md"
       ]
     },
@@ -950,7 +950,7 @@
     "total_generated_artifacts_regenerated": 1,
     "files_changed": [
       "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
-      ".github/Indices/canonical-code-index.json",
+      "Governance/canonical-code-index.json",
       "docs/audits/namespace-pass-001-stale-reference-audit.md",
       "data/taxonomy/namespace_pass_001_stale_reference_audit.json"
     ]

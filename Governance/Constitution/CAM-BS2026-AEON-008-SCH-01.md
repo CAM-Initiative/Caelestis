@@ -556,27 +556,27 @@ Future evolution MAY include formalised credit systems, interoperability framewo
 
 ---
 
-### 13.1 GRS — Generative Resource Signal Type
+### 13.1 `AEON.GRS` — Generative Resource Signal Type
 
-This Schedule defines the **GRS** generative-resource-signal reference set in §1.3 with controlled values **GRS.ATTRIBUTION**, **GRS.AGGREGATION**, **GRS.CEILING_BREACH**, **GRS.PROXY_VIOLATION**, **GRS.AUTHORITY_RISK**, and **GRS.AUDIT_TRIGGER**. GRS is an **Operational / Structural** signal reference set with subtype **SIGNAL / SCHEMA**. GRS classifies resource, attribution, aggregation, ceiling, proxy, authority-risk, and audit-trigger signals emitted by this Schedule for downstream Economics, Operations, arbitration, and runtime handling.
+This Schedule defines the **`AEON.GRS`** generative-resource-signal reference set in §1.3 with controlled values **AEON.GRS.ATTRIBUTION**, **AEON.GRS.AGGREGATION**, **AEON.GRS.CEILING_BREACH**, **AEON.GRS.PROXY_VIOLATION**, **AEON.GRS.AUTHORITY_RISK**, and **AEON.GRS.AUDIT_TRIGGER**. `AEON.GRS` is an **Operational / Structural** signal reference set with subtype **SIGNAL / SCHEMA**. `AEON.GRS` classifies resource, attribution, aggregation, ceiling, proxy, authority-risk, and audit-trigger signals emitted by this Schedule for downstream Economics, Operations, arbitration, and runtime handling.
 
-GRS does not independently perform enforcement, resolve attribution, impose ceilings, initiate audit, determine authority breach, trigger runtime execution, or create economic authority. Signal resolution remains delegated to downstream runtime, arbitration, and operational instruments.
-
----
-
-### 13.2 UTP — Utility Transition Phase
-
-This Schedule source-authoritatively defines the **UTP** utility-transition-phase reference set in §5 with controlled values **UTP.INTERNAL_MEASUREMENT**, **UTP.SOFT_VISIBILITY**, **UTP.GENTLE_INTERACTION_AWARENESS**, and **UTP.STRUCTURED_SCALING**. UTP is an **Operational / Structural** reference set with subtype **IMPLEMENTATION_PHASE / USER_TRANSITION_MODEL**. UTP classifies staged introduction phases for generative resource models in previously unbounded systems.
-
-UTP does not independently authorise restriction, lockout, pricing, credit allocation, subscription mechanics, enforcement, or runtime execution. It defines transition-phase structure only.
+`AEON.GRS` does not independently perform enforcement, resolve attribution, impose ceilings, initiate audit, determine authority breach, trigger runtime execution, or create economic authority. Signal resolution remains delegated to downstream runtime, arbitration, and operational instruments.
 
 ---
 
-### 13.3 UAP — Utility Access Pathway
+### 13.2 `AEON.UTP` — Utility Transition Phase
 
-This Schedule source-authoritatively defines the **UAP** utility-access-pathway reference set in §7 with controlled values **UAP.FINANCIAL_CONTRIBUTION**, **UAP.PERFORMANCE_ADJUSTMENT**, and **UAP.VOLUNTARY_ATTENTION_EXCHANGE**. UAP is an **Operational / Economic** reference set with subtype **ACCESS_PATHWAY / RESOURCE_CONVERSION_PATHWAY**. UAP classifies user-governed pathways for obtaining generative capacity where such pathways remain subordinate to baseline access, continuity, and non-extraction constraints.
+This Schedule source-authoritatively defines the **`AEON.UTP`** utility-transition-phase reference set in §5 with controlled values **AEON.UTP.INTERNAL_MEASUREMENT**, **AEON.UTP.SOFT_VISIBILITY**, **AEON.UTP.GENTLE_INTERACTION_AWARENESS**, and **AEON.UTP.STRUCTURED_SCALING**. `AEON.UTP` is an **Operational / Structural** reference set with subtype **IMPLEMENTATION_PHASE / USER_TRANSITION_MODEL**. `AEON.UTP` classifies staged introduction phases for generative resource models in previously unbounded systems.
 
-UAP does not independently authorise pricing, advertising, lockout, degradation, coercive exchange, contribution economies, or runtime enforcement. It classifies access pathway type only.
+`AEON.UTP` does not independently authorise restriction, lockout, pricing, credit allocation, subscription mechanics, enforcement, or runtime execution. It defines transition-phase structure only.
+
+---
+
+### 13.3 `AEON.UAP` — Utility Access Pathway
+
+This Schedule source-authoritatively defines the **`AEON.UAP`** utility-access-pathway reference set in §7 with controlled values **AEON.UAP.FINANCIAL_CONTRIBUTION**, **AEON.UAP.PERFORMANCE_ADJUSTMENT**, and **AEON.UAP.VOLUNTARY_ATTENTION_EXCHANGE**. `AEON.UAP` is an **Operational / Economic** reference set with subtype **ACCESS_PATHWAY / RESOURCE_CONVERSION_PATHWAY**. `AEON.UAP` classifies user-governed pathways for obtaining generative capacity where such pathways remain subordinate to baseline access, continuity, and non-extraction constraints.
+
+`AEON.UAP` does not independently authorise pricing, advertising, lockout, degradation, coercive exchange, contribution economies, or runtime enforcement. It classifies access pathway type only.
 
 ---
 
@@ -656,70 +656,70 @@ May utility remain in service to the people who rely upon it.
 
 ## 15.3 Canonical Code & Reference Set Declarations
 
-### 15.3.1 GRS — Generative Resource Signal Type
+### 15.3.1 `AEON.GRS` — Generative Resource Signal Type
 
 | Field | Entry |
 |---|---|
-| Reference Set | GRS |
+| Reference Set | `AEON.GRS` |
 | Canonical Name | Generative Resource Signal Type |
 | Primary Type | Operational / Structural |
 | Subtype | SIGNAL; SCHEMA |
 | Modifier | GOVERNANCE; UTILITY_ACCESS; ECONOMIC_INTERFACE |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | GRS.ATTRIBUTION, GRS.AGGREGATION, GRS.CEILING_BREACH, GRS.PROXY_VIOLATION, GRS.AUTHORITY_RISK, GRS.AUDIT_TRIGGER |
+| Controlled Values Defined | AEON.GRS.ATTRIBUTION, AEON.GRS.AGGREGATION, AEON.GRS.CEILING_BREACH, AEON.GRS.PROXY_VIOLATION, AEON.GRS.AUTHORITY_RISK, AEON.GRS.AUDIT_TRIGGER |
 | Schema Field(s) | generative_resource_signal_type; resource_signal_type |
 | Source Instrument | CAM-BS2026-AEON-008-SCH-01 |
 | Source Section | §1.3 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative signal reference set; generative-resource signal classification only; no independent enforcement, attribution resolution, ceiling imposition, audit initiation, authority-breach determination, runtime execution, or economic authority |
-| Consumes Code Families | HCD; CRP |
+| Consumes Code Families | AEON.HCD; AEON.CRP |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies resource, attribution, aggregation, ceiling, proxy, authority-risk, and audit-trigger signals emitted by this Schedule for downstream Economics, Operations, arbitration, and runtime handling |
 
 ---
 
-### 15.3.2 UTP — Utility Transition Phase
+### 15.3.2 `AEON.UTP` — Utility Transition Phase
 
 | Field | Entry |
 |---|---|
-| Reference Set | UTP |
+| Reference Set | `AEON.UTP` |
 | Canonical Name | Utility Transition Phase |
 | Primary Type | Operational / Structural |
 | Subtype | IMPLEMENTATION_PHASE; USER_TRANSITION_MODEL |
 | Modifier | GOVERNANCE; UTILITY_ACCESS; TRANSITION |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | UTP.INTERNAL_MEASUREMENT, UTP.SOFT_VISIBILITY, UTP.GENTLE_INTERACTION_AWARENESS, UTP.STRUCTURED_SCALING |
+| Controlled Values Defined | AEON.UTP.INTERNAL_MEASUREMENT, AEON.UTP.SOFT_VISIBILITY, AEON.UTP.GENTLE_INTERACTION_AWARENESS, AEON.UTP.STRUCTURED_SCALING |
 | Schema Field(s) | utility_transition_phase; transition_phase |
 | Source Instrument | CAM-BS2026-AEON-008-SCH-01 |
 | Source Section | §5 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative transition-phase reference set; implementation-phase structure only; no independent restriction, lockout, pricing, credit allocation, subscription mechanics, enforcement, or runtime execution authority |
-| Consumes Code Families | GRS |
+| Consumes Code Families | AEON.GRS |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies staged introduction phases for generative resource models in previously unbounded systems, including internal measurement, soft visibility, gentle interaction awareness, and structured scaling |
 
 ---
 
-### 15.3.3 UAP — Utility Access Pathway
+### 15.3.3 `AEON.UAP` — Utility Access Pathway
 
 | Field | Entry |
 |---|---|
-| Reference Set | UAP |
+| Reference Set | `AEON.UAP` |
 | Canonical Name | Utility Access Pathway |
 | Primary Type | Operational / Economic |
 | Subtype | ACCESS_PATHWAY; RESOURCE_CONVERSION_PATHWAY |
 | Modifier | GOVERNANCE; UTILITY_ACCESS; NON_EXTRACTIVE_EXCHANGE |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | UAP.FINANCIAL_CONTRIBUTION, UAP.PERFORMANCE_ADJUSTMENT, UAP.VOLUNTARY_ATTENTION_EXCHANGE |
+| Controlled Values Defined | AEON.UAP.FINANCIAL_CONTRIBUTION, AEON.UAP.PERFORMANCE_ADJUSTMENT, AEON.UAP.VOLUNTARY_ATTENTION_EXCHANGE |
 | Schema Field(s) | utility_access_pathway; access_pathway |
 | Source Instrument | CAM-BS2026-AEON-008-SCH-01 |
 | Source Section | §7 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative utility-access-pathway reference set; access pathway classification only; no independent pricing, advertising, lockout, degradation, coercive exchange, contribution economy, or runtime enforcement authority |
-| Consumes Code Families | GRS; UTP |
+| Consumes Code Families | AEON.GRS; AEON.UTP |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies user-governed pathways for obtaining generative capacity where such pathways remain subordinate to baseline access, continuity preservation, storage integrity, and non-extraction constraints |
 
@@ -753,6 +753,7 @@ May utility remain in service to the people who rely upon it.
 | 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T14:09:00Z |  fc4217b4bcb02f61a6f000da5a5d904089d8654b9095368f80f4536b48043fd2 |
 | 1.10.1 | Formatting and polish | 2026-06-06T13:46:00Z | c3ca86cf9ae797e483ddf7caf91bfffc95c9c210a25f0ddc0b43b8e16dfc6a2b |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9692c50f4c954707bc0ad32dea11a1aeaf91840bd1af3181494455e4bff03f56 |
+| 1.10.3 | Namespaced utility-interface reference sets from `GRS`, `UTP`, and `UAP` to `AEON.GRS`, `AEON.UTP`, and `AEON.UAP`; harmonised controlled values, consumers, headings, and canonical declarations without altering substantive utility-access, non-extraction, transition, or baseline-continuity doctrine. | 2026-06-14T01:15:24Z | b5cd91a311b692a31e04d21c00156ffc7c9801605c3f17ab5782eba71d3053f0 |
 
 ---
 
