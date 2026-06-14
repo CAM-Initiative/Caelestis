@@ -11,7 +11,7 @@ The cleanup was triggered by the Harm Class layer-placement audit, which identif
 | Classification | Count | Notes |
 |---|---:|---|
 | `safe_mechanical_update` | 2 | Two source metadata rows in `CAM-BS2025-AEON-006-SCH-01` consumed `ETHICS.HC` after the current family became `ETH.HC`. |
-| `generated_artifact_regenerate` | 2 | Two stale `ETHICS.HC` strings in `.github/Indices/canonical-code-index.json` were regenerated from the corrected source metadata. |
+| `generated_artifact_regenerate` | 2 | Two stale `ETHICS.HC` strings in `Governance/canonical-code-index.json` were regenerated from the corrected source metadata. |
 | `historical_reference_preserve` | 52 | Existing Pass 001 migration artifacts and the Harm Class audit intentionally preserve old IDs and stale-reference findings. |
 | `ambiguous_human_review` | 0 | No unresolved ambiguous stale references were found after boundary-aware review. |
 | `false_positive` | Multiple categories | Short-code searches surfaced substring/acronym risks such as `IR` inside `ETHICS.MIR`, `SP` inside `AEON.GSP`, and `RP` inside `CRP` / `AEON.GRP`; these were not stale Pass 001 references. |
@@ -52,8 +52,8 @@ The cleanup was triggered by the Harm Class layer-placement audit, which identif
 |---|---|---|---|---|
 | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md` | `ETHICS.HC` | `ETH.HC` | `safe_mechanical_update` | Corrected the `ETH.EM` metadata `Consumes Code Families` row. |
 | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md` | `ETHICS.HC` | `ETH.HC` | `safe_mechanical_update` | Corrected the `ETHICS.TP` metadata `Consumes Code Families` row. |
-| `.github/Indices/canonical-code-index.json` | `ETHICS.HC` | `ETH.HC` | `generated_artifact_regenerate` | Regenerated after the source metadata correction. |
-| `.github/Indices/canonical-code-index.json` | `ETHICS.HC` | `ETH.HC` | `generated_artifact_regenerate` | Regenerated after the source metadata correction. |
+| `Governance/canonical-code-index.json` | `ETHICS.HC` | `ETH.HC` | `generated_artifact_regenerate` | Regenerated after the source metadata correction. |
+| `Governance/canonical-code-index.json` | `ETHICS.HC` | `ETH.HC` | `generated_artifact_regenerate` | Regenerated after the source metadata correction. |
 
 The existing open Amendment Ledger row in `CAM-BS2025-AEON-006-SCH-01` was updated in place to include the narrow stale-reference cleanup, preserving the Single Open Ledger Row Rule.
 
@@ -69,7 +69,7 @@ The following references are historical and were not rewritten:
 
 | Generated artifact | Regeneration command | Result |
 |---|---|---|
-| `.github/Indices/canonical-code-index.json` | `python .github/scripts/build-canonical-code-index.py` | Regenerated from corrected source metadata. |
+| `Governance/canonical-code-index.json` | `python .github/scripts/build-canonical-code-index.py` | Regenerated from corrected source metadata. |
 
 No manual generated-index edit was made for the stale `ETHICS.HC` strings.
 
@@ -90,7 +90,7 @@ None. Boundary-aware searches did not identify any unresolved ambiguous stale Pa
 | File | Change |
 |---|---|
 | `Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md` | Replaced two stale `ETHICS.HC` consumer references with `ETH.HC`; updated the existing open ledger row description in place. |
-| `.github/Indices/canonical-code-index.json` | Regenerated to reflect corrected `ETH.HC` consumer metadata. |
+| `Governance/canonical-code-index.json` | Regenerated to reflect corrected `ETH.HC` consumer metadata. |
 | `docs/audits/namespace-pass-001-stale-reference-audit.md` | Added this human-readable stale-reference audit. |
 | `data/taxonomy/namespace_pass_001_stale_reference_audit.json` | Added machine-readable stale-reference audit data. |
 

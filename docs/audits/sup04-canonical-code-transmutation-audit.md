@@ -1,7 +1,7 @@
 # SUP-04 Canonical Code Transmutation Audit
 **Audit date:** 2026-06-07
 **Controlling authority:** `CAM-EQ2026-OPERATIONS-001-SUP-04 — Taxonomies & Metadata Authority Framework`
-**Source index audited:** `.github/Indices/canonical-code-index.json` and `.github/Indices/canonical-code-index.md`
+**Source index audited:** `Governance/canonical-code-index.json` and `Governance/canonical-code-index.md`
 
 **Machine-readable staging map:** `data/taxonomy/sup04_transmutation_map.json`
 

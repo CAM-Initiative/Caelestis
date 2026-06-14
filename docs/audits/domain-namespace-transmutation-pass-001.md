@@ -46,8 +46,8 @@
 ## Files changed by namespace replacements or regeneration
 
 - `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
-- `.github/Indices/canonical-code-index.json`
-- `.github/Indices/canonical-code-index.md`
+- `Governance/canonical-code-index.json`
+- `Governance/canonical-code-index.md`
 - `.github/analysis/metadata-declaration-gaps.md`
 - `.github/analysis/prefix-collisions-and-dangling-references.md`
 - `.github/analysis/source-authority-map-expanded.json`

@@ -105,7 +105,7 @@ Major repository areas include:
 | `Governance/CAM.Governance.Index.md` and `Governance/CAM.Governance.JSON` | Global governance navigation and machine-readable registry outputs.                                               |
 | `.github/scripts/`                                                        | Deterministic rebuild, validation, repair, packaging, and index-generation tooling.                               |
 | `.github/workflows/`                                                      | GitHub Actions automation for governance rebuilds and ledger-hash refreshes.                                      |
-| `.github/Indices/`                                                        | Generated or maintained indices that support symbolic validation, canonical-code lookup, and reviewer navigation. |
+| `.github/Indices/`                                                        | Generated or maintained indices that support symbolic validation and reviewer navigation. Canonical-code index outputs live under `Governance/`. |
 | `CITATION.cff`                                                            | Citation metadata for archive and scholarly tooling.                                                              |
 | `licence.md`                                                              | CAM Custodial Reference and Deployment Licence material.                                                          |
 
@@ -141,7 +141,7 @@ Common local checks, when relevant, include:
 ```bash
 python .github/scripts/validate_canonical_headers.py
 python .github/scripts/validate_markdown_section_refs.py --root Governance --report-file validation-reports/section-reference-report.tsv
-python .github/scripts/lint-symbolic-structures.py --index .github/Indices/canonical-code-index.json
+python .github/scripts/lint-symbolic-structures.py --index Governance/canonical-code-index.json
 ```
 
 The canonical-code index rebuild command writes generated outputs. It is therefore treated as a generation/rebuild step, not a pure non-mutating validation step:
@@ -163,7 +163,7 @@ For a first review pass:
 2. Use `Governance/Constitution/CAM-Constitution-Index.md` for constitutional instruments and schedules.
 3. Use `Governance/Charters/CAM-Charters-Index.md` for domain charters and supplements.
 4. Use `Governance/Laws/CAM-Laws-Index.md` for law instruments.
-5. Use `.github/Indices/canonical-code-index.md` when tracing canonical codes or symbolic structures.
+5. Use `Governance/canonical-code-index.md` when tracing canonical codes or symbolic structures.
 6. Consult `CITATION.cff` and the DOI badge above for archive citation metadata.
 7. Consult `licence.md` before reuse, adaptation, deployment, or model-context use.
 

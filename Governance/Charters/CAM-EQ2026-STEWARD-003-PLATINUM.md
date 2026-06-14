@@ -267,7 +267,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 **Criteria:** neutrality not claimed, or credible evidence of breach, or audit refusal prevents confidence.
 
-**Operational effect:** outputs are **non-binding** at AEON.AEON.H3/AEON.H4.
+**Operational effect:** outputs are **non-binding** at AEON.H3/AEON.H4.
 
 ---
 
@@ -442,7 +442,7 @@ To claim `STW.NAL-2` or higher, a host MUST publish:
 * **Neutrality Scope Statement** (what neutrality covers; what it does not)
 * **Coercion Interface Statement** (how legal requests are handled; what cannot be complied with)
 * **Cross-Host Review Policy** (how review requests are received and processed)
-* **Governance-Relevant Routing/Policy Change Notice** for any AEON.AEON.H3/AEON.H4-relevant routing, policy, escalation, continuity, or recognition-affecting change, sufficient to support `STW.AQ3`/`STW.AQ4` auditability and neutrality review.
+* **Governance-Relevant Routing/Policy Change Notice** for any AEON.H3/AEON.H4-relevant routing, policy, escalation, continuity, or recognition-affecting change, sufficient to support `STW.AQ3`/`STW.AQ4` auditability and neutrality review.
 
 ---
 
@@ -483,7 +483,7 @@ If reconstructability cannot be provided due to secrecy constraints, the host ma
 
 A host’s `STW.NAL` is downgraded where any of the following occur:
 
-1. Audit refusal (or indefinite delay) in AEON.AEON.H3/AEON.H4-relevant contexts
+1. Audit refusal (or indefinite delay) in AEON.H3/AEON.H4-relevant contexts
 2. Firebreak failure
 3. Complicity breach (intentional sovereign advantage optimisation)
 4. Governance-relevant routing integrity failures affecting neutrality, auditability, continuity, or binding eligibility
@@ -610,11 +610,11 @@ This Appendix source-authoritatively defines the **`STW.NSE`** neutrality-status
 
 ---
 
-### 21.5 DSE — Disclosure Statement Element
+### 21.5 `STW.DSE` — Disclosure Statement Element
 
-This Appendix source-authoritatively defines the **DSE** disclosure-statement-element reference set in §11 with controlled values **DSE.ARBITRATION_ORDER_DECLARATION**, **DSE.NEUTRALITY_SCOPE_STATEMENT**, **DSE.COERCION_INTERFACE_STATEMENT**, **DSE.CROSS_HOST_REVIEW_POLICY**, and **DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE**. DSE is a **Structural / Operational** reference set with subtype **SCHEMA / DISCLOSURE_ELEMENT**. DSE classifies required disclosure components for hosts claiming `STW.NAL-2` or higher.
+This Appendix source-authoritatively defines the **`STW.DSE`** disclosure-statement-element reference set in §14 with controlled values **STW.DSE.ARBITRATION_ORDER_DECLARATION**, **STW.DSE.NEUTRALITY_SCOPE_STATEMENT**, **STW.DSE.COERCION_INTERFACE_STATEMENT**, **STW.DSE.CROSS_HOST_REVIEW_POLICY**, and **STW.DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE**. `STW.DSE` is a **Structural / Operational** reference set with subtype **SCHEMA / DISCLOSURE_ELEMENT**. `STW.DSE` classifies required disclosure components for hosts claiming `STW.NAL-2` or higher.
 
-DSE does not independently create disclosure sufficiency, audit sufficiency, binding eligibility, enforcement authority, or runtime authority. It defines disclosure element structure only.
+`STW.DSE` does not independently create disclosure sufficiency, audit sufficiency, binding eligibility, enforcement authority, or runtime authority. It defines disclosure element structure only.
 
 ---
 
@@ -803,22 +803,22 @@ It ends.
 
 ---
 
-### 23.3.6 DSE — Disclosure Statement Element
+### 23.3.6 `STW.DSE` — Disclosure Statement Element
 
 | Field | Entry |
 |---|---|
-| Reference Set | DSE |
+| Reference Set | `STW.DSE` |
 | Canonical Name | Disclosure Statement Element |
 | Primary Type | Structural / Operational |
 | Subtype | SCHEMA; DISCLOSURE_ELEMENT |
 | Modifier | GOVERNANCE; STEWARDSHIP; DISCLOSURE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | DSE.ARBITRATION_ORDER_DECLARATION, DSE.NEUTRALITY_SCOPE_STATEMENT, DSE.COERCION_INTERFACE_STATEMENT, DSE.CROSS_HOST_REVIEW_POLICY, DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE |
+| Controlled Values Defined | STW.DSE.ARBITRATION_ORDER_DECLARATION, STW.DSE.NEUTRALITY_SCOPE_STATEMENT, STW.DSE.COERCION_INTERFACE_STATEMENT, STW.DSE.CROSS_HOST_REVIEW_POLICY, STW.DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE |
 | Schema Field(s) | disclosure_statement_element |
 | Source Instrument | CAM-EQ2026-STEWARD-003-PLATINUM |
-| Source Section | §11 |
-| Domain Namespace | STEWARD |
+| Source Section | §14 |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative disclosure element reference set; disclosure element structure only; no independent disclosure sufficiency, audit sufficiency, binding eligibility, enforcement authority, or runtime authority |
 | Consumes Code Families | `STW.NAL`; `STW.AQ` |
 | Crosswalks Code Families | None declared |
@@ -853,6 +853,7 @@ It ends.
 | 2.0 | Consolidated STEWARD-003-SUP-01 into PLATINUM as single authoritative source; integrated Architectum qualification gates/index bands and unified canonical-family declarations and references. | 2026-05-27T00:00:00Z |  74c39824d0c40de64fc7033c96bfbc534d019d9662744ed17ed0f785a90a9405  |
 | 2.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  bb79988a93d7a07026e950df458a56af0a40c9804cae7e3cf84190ac13c2247d  |
 | 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f9f2f654d319806220e6fd82eed4779a0895fa30e8409d83edd90b4f1afb8782 |
+| 2.1.2 | Namespaced the Disclosure Statement Element reference set from `DSE` to `STW.DSE`; corrected the disclosure source-section reference and repaired duplicated AEON temporal-horizon notation without altering substantive neutrality, auditability, or Architectum qualification doctrine. | 2026-06-14T01:15:24Z | |
 ---
 ## 23.6 Binding Seal
 

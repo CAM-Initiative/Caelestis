@@ -14,8 +14,8 @@
       "ID.CWD.DEEP"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -39,8 +39,8 @@
       "ID.IFP.HYBRID"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -62,8 +62,8 @@
       "ID.IR.HIGH"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -86,8 +86,8 @@
       "ID.ITS.POST_THRESHOLD"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -115,8 +115,8 @@
       "ID.SP.SUPERSEDED"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       ".github/analysis/table-reference-set-inventory.json",
       ".github/analysis/table-reference-set-inventory.md",
       "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md",
@@ -144,8 +144,8 @@
       "ETH.CIC.CATEGORY_C"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -172,8 +172,8 @@
       "ETH.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -198,8 +198,8 @@
       "ETH.ET-V"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md",
       "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md",
       "data/taxonomy/sup04_transmutation_map.json",
@@ -225,8 +225,8 @@
       "ETH.HC-4"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       ".github/analysis/metadata-declaration-gaps.md",
       ".github/analysis/prefix-collisions-and-dangling-references.md",
       ".github/analysis/source-authority-map-expanded.json",
@@ -260,8 +260,8 @@
       "ETH.IFL-3"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -283,8 +283,8 @@
       "ETH.UFC-OS"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -309,8 +309,8 @@
       "SEC.TBC.IRREVERSIBLE_EXTERNAL_EXECUTION"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -336,8 +336,8 @@
       "SEC.AH4"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       ".github/analysis/table-reference-set-inventory.json",
       ".github/analysis/table-reference-set-inventory.md",
       "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
@@ -366,8 +366,8 @@
       "SEC.BF-E"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -392,8 +392,8 @@
     ],
     "files_changed": [
       ".github/Indices/CAM.Governance.Model-Terminology.Audit.md",
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
       "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
       "data/taxonomy/sup04_transmutation_map.json",
@@ -419,8 +419,8 @@
       "SEC.TG4"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       ".github/analysis/table-reference-set-inventory.json",
       ".github/analysis/table-reference-set-inventory.md",
       "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
@@ -448,8 +448,8 @@
       "SEC.TR-4"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       ".github/analysis/table-reference-set-inventory.json",
       ".github/analysis/table-reference-set-inventory.md",
       "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
@@ -476,8 +476,8 @@
       "STW.AQ4"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       ".github/analysis/table-reference-set-inventory.json",
       ".github/analysis/table-reference-set-inventory.md",
       "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
@@ -505,8 +505,8 @@
       "STW.AQG-D"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       ".github/analysis/table-reference-set-inventory.json",
       ".github/analysis/table-reference-set-inventory.md",
       "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
@@ -534,8 +534,8 @@
       "STW.BLS.REVISED"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -558,8 +558,8 @@
       "STW.HSC.DERIVATA"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -585,8 +585,8 @@
       "STW.NAL-5"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       ".github/analysis/table-reference-set-inventory.json",
       ".github/analysis/table-reference-set-inventory.md",
       "Governance/CAM.Governance.Index.md",
@@ -623,8 +623,8 @@
       "STW.NBD.CONCEALED_NEUTRALITY_VIOLATION"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -649,8 +649,8 @@
       "STW.NSE.MINIMUM_NAL_2"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
       "data/taxonomy/sup04_transmutation_map.json",
       "docs/audits/sup04-canonical-code-transmutation-audit.md"
@@ -674,8 +674,8 @@
       "CONT.RP-D"
     ],
     "files_changed": [
-      ".github/Indices/canonical-code-index.json",
-      ".github/Indices/canonical-code-index.md",
+      "Governance/canonical-code-index.json",
+      "Governance/canonical-code-index.md",
       ".github/analysis/table-reference-set-inventory.json",
       ".github/analysis/table-reference-set-inventory.md",
       "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md",
