@@ -753,7 +753,7 @@ May utility remain in service to the people who rely upon it.
 | 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T14:09:00Z |  fc4217b4bcb02f61a6f000da5a5d904089d8654b9095368f80f4536b48043fd2 |
 | 1.10.1 | Formatting and polish | 2026-06-06T13:46:00Z | c3ca86cf9ae797e483ddf7caf91bfffc95c9c210a25f0ddc0b43b8e16dfc6a2b |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9692c50f4c954707bc0ad32dea11a1aeaf91840bd1af3181494455e4bff03f56 |
-| 1.10.3 | Namespaced utility-interface reference sets from `GRS`, `UTP`, and `UAP` to `AEON.GRS`, `AEON.UTP`, and `AEON.UAP`; harmonised controlled values, consumers, headings, and canonical declarations without altering substantive utility-access, non-extraction, transition, or baseline-continuity doctrine. | 2026-06-14T01:15:24Z | |
+| 1.10.3 | Namespaced utility-interface reference sets from `GRS`, `UTP`, and `UAP` to `AEON.GRS`, `AEON.UTP`, and `AEON.UAP`; harmonised controlled values, consumers, headings, and canonical declarations without altering substantive utility-access, non-extraction, transition, or baseline-continuity doctrine. | 2026-06-14T01:15:24Z | b5cd91a311b692a31e04d21c00156ffc7c9801605c3f17ab5782eba71d3053f0 |
 
 ---
 

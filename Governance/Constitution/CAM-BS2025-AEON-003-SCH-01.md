@@ -213,9 +213,9 @@ Such schedules:
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 565
-**Generic usages suppressed:** 431
-**Declared / recognised usages emitted:** 122
+**Total model-term matches scanned:** 568
+**Generic usages suppressed:** 432
+**Declared / recognised usages emitted:** 124
 **Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
