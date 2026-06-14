@@ -252,6 +252,8 @@ def make_entry(p: pathlib.Path, table: dict[str,str], canonical_heading: str, ca
 def record_table_or_diagnostic(out: list[Entry], p: pathlib.Path, table: dict[str,str], canonical_heading: str, canonical_line: int, section_quality: str, declaration_heading: str, declaration_line: int) -> None:
     if table_identifier(table):
         out.append(make_entry(p, table, canonical_heading, canonical_line, section_quality, declaration_heading, declaration_line))
+    elif strip_inline_code(table.get("Registered Domain Harm Family", "")):
+        return
     else:
         DIAGNOSTICS.append(Diagnostic(str(p.as_posix()), declaration_line, "canonical declaration table missing supported identifier field (Code Family, Reference Set, Canonical Constraint, or Canonical Obligation)"))
 
@@ -341,14 +343,26 @@ def write_md(path: pathlib.Path, entries: list[Entry]) -> None:
 def sort_entries(entries: list[Entry]) -> list[Entry]:
     return sorted(entries, key=lambda e: (e.canonical_id.casefold(), e.identifier_type, e.source_instrument.casefold(), e.source_path.casefold(), e.declaration_line_number))
 
+def mark_duplicate_source_declarations(entries: list[Entry]) -> list[Entry]:
+    by_id: dict[str, list[Entry]] = {}
+    for e in entries:
+        by_id.setdefault(e.canonical_id, []).append(e)
+    out: list[Entry] = []
+    for e in entries:
+        if len(by_id.get(e.canonical_id, [])) > 1 and e.collision_status == "none":
+            out.append(e._replace(collision_status="duplicate_source_declaration"))
+        else:
+            out.append(e)
+    return out
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default="Governance")
     ap.add_argument("--check", action="store_true")
-    ap.add_argument("--md-out", default="Governance/canonical-code-index.md")
-    ap.add_argument("--json-out", default="Governance/canonical-code-index.json")
+    ap.add_argument("--md-out", default="Governance/CAM.Canonical.Code.Index.md")
+    ap.add_argument("--json-out", default="Governance/CAM.Canonical.Code.Index.json")
     args = ap.parse_args()
-    entries = sort_entries(scan(pathlib.Path(args.root)))
+    entries = mark_duplicate_source_declarations(sort_entries(scan(pathlib.Path(args.root))))
     write_md(pathlib.Path(args.md_out), entries)
     pathlib.Path(args.json_out).parent.mkdir(parents=True, exist_ok=True)
     pathlib.Path(args.json_out).write_text(json.dumps([e._asdict() for e in entries], indent=2), encoding="utf-8")

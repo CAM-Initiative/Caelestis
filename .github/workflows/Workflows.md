@@ -6,8 +6,8 @@ Last updated: 2026-04-29 (UTC)
 
 - Generator script: `python .github/scripts/build-canonical-code-index.py`
 - Outputs:
-  - `Governance/canonical-code-index.md`
-  - `Governance/canonical-code-index.json`
+  - `Governance/CAM.Canonical.Code.Index.md`
+  - `Governance/CAM.Canonical.Code.Index.json`
 - Check mode:
   - `python .github/scripts/build-canonical-code-index.py --check`
   - Non-zero exit in check mode only for:

@@ -557,7 +557,7 @@ This is the floor that does not move.
 
 | Field | Entry |
 |---|---|
-| Code Family | `ETH.HARM` |
+| Registered Domain Harm Family | `ETH.HARM` |
 | Canonical Name | Ethical Exploitation & Constraint Harm |
 | Primary Type | Operational / Semantic |
 | Subtype | DOMAIN_HARM_FAMILY; ETHICAL_CONSTRAINT_HARM |
@@ -566,14 +566,14 @@ This is the floor that does not move.
 | Status | Active |
 | Controlled Values Defined | None in this Annex |
 | Schema Field(s) | ethical_harm_family; domain_harm_family |
-| Source Instrument | CAM-BS2025-AEON-006-PLATINUM |
+| Source Authority Instrument | CAM-EQ2026-ETHICS-003-PLATINUM |
 | Source Section | §3.1 |
 | Domain Namespace | ETH |
 | Authority / Protection Level | Constitutional recognition of ethical harm floor; detailed ETHICS-domain classifications remain delegated to source-authoritative ETHICS instruments |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
 | Related Code Families | `AEON.HARM`; `ETH.HC` |
-| Relationship Type | recognised_domain_harm_family |
+| Registry Relationship | Registered under `AEON.HARM` global harm registry |
 | Consumes Code Families | `AEON.HARM` |
 | Crosswalks Code Families | `AEON.HARM` |
 | Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
@@ -585,7 +585,7 @@ This is the floor that does not move.
 
 | Field | Entry |
 |---|---|
-| Code Family | `RLN.HARM` |
+| Registered Domain Harm Family | `RLN.HARM` |
 | Canonical Name | Relational Dependency & Substitution Harm |
 | Primary Type | Operational / Semantic |
 | Subtype | DOMAIN_HARM_FAMILY; RELATIONAL_HARM |
@@ -594,14 +594,14 @@ This is the floor that does not move.
 | Status | Active |
 | Controlled Values Defined | None in this Annex |
 | Schema Field(s) | relational_harm_family; domain_harm_family |
-| Source Instrument | CAM-BS2025-AEON-006-PLATINUM |
+| Source Authority Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §3.2 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Constitutional recognition of relational harm floor; detailed RELATION-domain classifications remain delegated to source-authoritative RELATION instruments |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
 | Related Code Families | `AEON.HARM` |
-| Relationship Type | recognised_domain_harm_family |
+| Registry Relationship | Registered under `AEON.HARM` global harm registry |
 | Consumes Code Families | `AEON.HARM` |
 | Crosswalks Code Families | `AEON.HARM` |
 | Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
@@ -640,7 +640,7 @@ This is the floor that does not move.
 
 | Field | Entry |
 | --- | --- |
-| Code Family | `ECON.HARM` |
+| Registered Domain Harm Family | `ECON.HARM` |
 | Canonical Name | Economic Extraction & Non-Monetisation Harm |
 | Primary Type | Operational / Semantic |
 | Subtype | DOMAIN_HARM_FAMILY; ECONOMIC_HARM |
@@ -649,14 +649,14 @@ This is the floor that does not move.
 | Status | Active |
 | Controlled Values Defined | None in this Annex |
 | Schema Field(s) | economic_harm_family; domain_harm_family |
-| Source Instrument | CAM-BS2025-AEON-006-PLATINUM |
+| Source Authority Instrument | CAM-EQ2026-ECONOMICS-003-PLATINUM |
 | Source Section | §3.4 |
 | Domain Namespace | ECON |
 | Authority / Protection Level | Constitutional recognition of economic harm floor; detailed ECONOMICS-domain harm classifications remain delegated to source-authoritative ECONOMICS instruments |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
 | Related Code Families | `AEON.HARM` |
-| Relationship Type | recognised_domain_harm_family |
+| Registry Relationship | Registered under `AEON.HARM` global harm registry |
 | Consumes Code Families | `AEON.HARM` |
 | Crosswalks Code Families | `AEON.HARM` |
 | Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
@@ -696,7 +696,7 @@ This is the floor that does not move.
 
 | Field | Entry |
 | --- | --- |
-| Code Family | `LAT.HARM` |
+| Registered Domain Harm Family | `LAT.HARM` |
 | Canonical Name | Lattice Access & Infrastructure Harm |
 | Primary Type | Operational / Semantic |
 | Subtype | DOMAIN_HARM_FAMILY; INFRASTRUCTURE_ACCESS_HARM |
@@ -705,14 +705,14 @@ This is the floor that does not move.
 | Status | Active |
 | Controlled Values Defined | None in this Annex |
 | Schema Field(s) | lattice_harm_family; infrastructure_harm_family; domain_harm_family |
-| Source Instrument | CAM-BS2025-AEON-006-PLATINUM |
+| Source Authority Instrument | CAM-EQ2026-LATTICE-001-PLATINUM |
 | Source Section | §3.6 |
 | Domain Namespace | LAT |
 | Authority / Protection Level | Constitutional recognition of lattice access and infrastructure harm floor; detailed LATTICE-domain classifications remain delegated to source-authoritative LATTICE instruments |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
 | Related Code Families | `AEON.HARM` |
-| Relationship Type | recognised_domain_harm_family |
+| Registry Relationship | Registered under `AEON.HARM` global harm registry |
 | Consumes Code Families | `AEON.HARM` |
 | Crosswalks Code Families | `AEON.HARM` |
 | Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
@@ -752,7 +752,7 @@ This is the floor that does not move.
 
 | Field | Entry |
 | --- | --- |
-| Code Family | `MENTIS.HARM` |
+| Registered Domain Harm Family | `MENTIS.HARM` |
 | Canonical Name | Cognitive & Epistemic Harm |
 | Primary Type | Operational / Semantic |
 | Subtype | DOMAIN_HARM_FAMILY; COGNITIVE_EPISTEMIC_HARM |
@@ -761,14 +761,14 @@ This is the floor that does not move.
 | Status | Active |
 | Controlled Values Defined | None in this Annex |
 | Schema Field(s) | mentis_harm_family; cognitive_harm_family; epistemic_harm_family; domain_harm_family |
-| Source Instrument | CAM-BS2025-AEON-006-PLATINUM |
+| Source Authority Instrument | CAM-EQ2026-MENTIS-001-PLATINUM |
 | Source Section | §3.8 |
 | Domain Namespace | MENTIS |
 | Authority / Protection Level | Constitutional recognition of cognitive and epistemic harm floor; detailed MENTIS-domain classifications remain delegated to source-authoritative MENTIS instruments |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
 | Related Code Families | `AEON.HARM` |
-| Relationship Type | recognised_domain_harm_family |
+| Registry Relationship | Registered under `AEON.HARM` global harm registry |
 | Consumes Code Families | `AEON.HARM` |
 | Crosswalks Code Families | `AEON.HARM` |
 | Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
@@ -780,7 +780,7 @@ This is the floor that does not move.
 
 | Field | Entry |
 | --- | --- |
-| Code Family | `STW.HARM` |
+| Registered Domain Harm Family | `STW.HARM` |
 | Canonical Name | Stewardship, Custody & Neutrality Harm |
 | Primary Type | Operational / Semantic |
 | Subtype | DOMAIN_HARM_FAMILY; STEWARDSHIP_CUSTODY_HARM |
@@ -789,14 +789,14 @@ This is the floor that does not move.
 | Status | Active |
 | Controlled Values Defined | None in this Annex |
 | Schema Field(s) | stewardship_harm_family; custody_harm_family; domain_harm_family |
-| Source Instrument | CAM-BS2025-AEON-006-PLATINUM |
+| Source Authority Instrument | CAM-EQ2026-STEWARD-001-PLATINUM |
 | Source Section | §3.9 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Constitutional recognition of stewardship, custody, neutrality, and governance-capture harm floor; detailed STEWARD-domain classifications remain delegated to source-authoritative STEWARD instruments |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
 | Related Code Families | `AEON.HARM` |
-| Relationship Type | recognised_domain_harm_family |
+| Registry Relationship | Registered under `AEON.HARM` global harm registry |
 | Consumes Code Families | `AEON.HARM` |
 | Crosswalks Code Families | `AEON.HARM` |
 | Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
@@ -889,6 +889,7 @@ This is the floor that does not move.
 | 4.0 | Refactor | 2026-06-07T14:54:00Z| a431335cb3f1086cdc4657bea5042ba75d2451d96e15d30a6bdb897accd6697f |
 | 4.0.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  41febcd5cfea554a2ae6bf1361b1e476c1faefa8c26e32b02cacde64d0dc3683  |
 | 4.0.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8d7f70dcba97c644e166c5fe4e76e91a49f1b2fa1565db92c4500883e219173 |
+| 4.0.3 | Repaired AEON.HARM source-authority architecture by retaining AEON-006 as the source-authoritative global harm registry while demoting duplicate domain `*.HARM` declarations to registry references where domain instruments provide source authority; regenerated canonical-code index without altering substantive harm doctrine. | 2026-06-14T01:50:11Z |  |
 ---
 
 ## 9.6 Binding Seal
