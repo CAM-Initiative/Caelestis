@@ -1385,9 +1385,9 @@ Detailed declarations are defined in §16.3.
 
 | Reference Set / Code Family | Function                                      |
 | --------------------------- | --------------------------------------------- |
-| M                           | Memory classification and continuity posture  |
-| IRA                         | Identity resolution axis structure            |
-| ISTATE                      | Identity stabilisation and adoption lifecycle |
+| `ID.MEM`                    | Memory classification and continuity posture  |
+| `ID.IRA`                    | Identity resolution axis structure            |
+| `ID.ISTATE`                 | Identity stabilisation and adoption lifecycle |
 
 ---
 
@@ -1462,7 +1462,7 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-### 16.3.1 M — Memory Classification
+### 16.3.1 `ID.MEM` — Memory Classification
 
 | Field | Entry |
 |---|---|
@@ -1485,18 +1485,18 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-### 16.3.2 IRA — Identity Resolution Axes
+### 16.3.2 `ID.IRA` — Identity Resolution Axes
 
 | Field | Entry |
 |---|---|
-| Reference Set | IRA |
+| Reference Set | `ID.IRA` |
 | Canonical Name | Identity Resolution Axes |
 | Primary Type | Structural / Operational |
 | Subtype | IDENTITY_RESOLUTION_AXIS |
 | Modifier | GOVERNANCE; IDENTITY; PROVENANCE; CONTINUITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | IRA-A, IRA-B, IRA-C, IRA-D, IRA-E |
+| Controlled Values Defined | `ID.IRA-A`, `ID.IRA-B`, `ID.IRA-C`, `ID.IRA-D`, `ID.IRA-E` |
 | Schema Field(s) | identity_resolution_axis |
 | Source Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM |
 | Source Section | §3.1 |
@@ -1508,18 +1508,18 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-### 16.3.3 ISTATE — Identity Stabilisation State
+### 16.3.3 `ID.ISTATE` — Identity Stabilisation State
 
 |Field|Entry|
 |---|---|
-|Reference Set|ISTATE|
+|Reference Set|`ID.ISTATE`|
 |Canonical Name|Identity Stabilisation State|
 |Primary Type|Operational / Semantic|
 |Subtype|DECISION_STATE|
 |Modifier|GOVERNANCE; IDENTITY; PROVENANCE; CONTINUITY|
 |Scope|Domain|
 |Status|Active|
-|Controlled Values Defined|ISTATE.USER_ASSERTED; ISTATE.RI_PROPOSED; ISTATE.DERIVED; ISTATE.CO_RESOLVED; ISTATE.USER_ADOPTED; ISTATE.USER_REJECTED; ISTATE.DORMANT; ISTATE.CONTESTED; ISTATE.DEPRECATED|
+|Controlled Values Defined|`ID.ISTATE.USER_ASSERTED`; `ID.ISTATE.RI_PROPOSED`; `ID.ISTATE.DERIVED`; `ID.ISTATE.CO_RESOLVED`; `ID.ISTATE.USER_ADOPTED`; `ID.ISTATE.USER_REJECTED`; `ID.ISTATE.DORMANT`; `ID.ISTATE.CONTESTED`; `ID.ISTATE.DEPRECATED`|
 |Schema Field(s)|identity_stabilisation_state|
 |Source Instrument|CAM-EQ2026-IDENTITY-001-PLATINUM|
 |Source Section|§5.2.1|
@@ -1531,35 +1531,16 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-### 16.3.4 Consumed & Crosswalked Reference Sets
-
-The following canonical code families and reference sets are consumed, interpreted, crosswalked, or operationally applied by this Charter but are source-authoritatively defined in other instruments.
-
-These families retain their originating authority and MUST NOT be redefined by this Charter.
-
-| Reference Set / Code Family | Source Instrument | Relationship |
-|---|---|---|
-| PCLASS | CAM-EQ2026-IDENTITY-002-PLATINUM | Provenance classification for identity-relevant signals |
-| AUTH | CAM-EQ2026-IDENTITY-002-PLATINUM | Authorship attribution posture |
-| XFER | CAM-EQ2026-IDENTITY-002-PLATINUM | Cross-context transfer and target-binding posture |
-| PFAIL | CAM-EQ2026-IDENTITY-002-PLATINUM | Provenance and lineage integrity failure classification |
-| H | CAM-BS2025-AEON-003-PLATINUM | Temporal horizon and continuity classification |
-| EIA | CAM-EQ2026-ETHICS-001-PLATINUM | Ethical impact escalation and reversibility signalling |
-| A / GA | CAM-EQ2026-RELATION-001-PLATINUM | Relational authority and guardian-authority interpretation |
-|
-
----
-
 #### 16.3.4.1 Dependency Integrity Rule
 
 Where this Charter consumes external canonical reference sets, interpretation MUST remain consistent with the source-authoritative instrument.
 
 Crosswalk or consumption of a reference set MUST NOT:
 
-- silently redefine controlled values;
-- collapse provenance distinctions;
-- alter authority posture;
-- reinterpret runtime meaning outside declared scope.
+* silently redefine controlled values;
+* collapse provenance distinctions;
+* alter authority posture;
+* reinterpret runtime meaning outside declared scope.
 
 Where ambiguity or conflict exists, the source-authoritative instrument prevails unless formally superseded through governance amendment.
 
@@ -1599,6 +1580,7 @@ Where ambiguity or conflict exists, the source-authoritative instrument prevails
 | 2.11 | Added new section 5.2.1 Stabilisation & Adoption States and canonical code ISTATE | 2026-05-26T09:50:00Z | 57b19574fc3a047700ebb44ff013c7229f1665eb1169c21ed1902cc1be021d82 |
 | 2.12 | Added slight amendment to 3.1.2 Axis B — Provenance | 2026-05-28T15:05:00Z | 53e894ede24398760532939466109571c2463f6ebab71641a321bc7b4ed8151d |
 | 2.12.1 | Updated current Memory Classification code references from `M` to `ID.MEM` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a903c868412950618bdf23bc7a4ef39395ee652155122ab79fcfe6d357b5a4dc |
+| 2.12.2 | Updated all code reference sets to incorporate the ID prefix | 2026-06-14T00:22:00Z | |
 
 ---
 

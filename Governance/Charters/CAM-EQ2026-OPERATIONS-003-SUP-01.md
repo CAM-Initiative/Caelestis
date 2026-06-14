@@ -1765,7 +1765,7 @@ and review before denial.
 
 ---
 
-### 11.3.1 FF — Failure Family
+### 11.3.1 `OPS.FF` — Failure Family
 
 | Field | Entry |
 |---|---|
@@ -1788,18 +1788,18 @@ and review before denial.
 
 ---
 
-### 11.3.2 FMA — Failure Metadata Axis
+### 11.3.2 `OPS.FMA` — Failure Metadata Axis
 
 | Field | Entry |
 |---|---|
-| Reference Set | FMA |
+| Reference Set | `OPS.FMA` |
 | Canonical Name | Failure Metadata Axis |
 | Primary Type | Structural / Operational |
 | Subtype | SCHEMA |
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | FMA.FAILURE_FAMILY, FMA.SEVERITY, FMA.PERSISTENCE, FMA.REPLAYABILITY, FMA.SCOPE, FMA.VISIBILITY, FMA.TRIGGER_CONTEXT, FMA.EVIDENCE_AVAILABLE, FMA.EVIDENCE_CONFIDENCE, FMA.REPORT_SOURCE_TYPE, FMA.CLASSIFICATION_STATUS |
+| Controlled Values Defined | OPS.FMA.FAILURE_FAMILY, OPS.FMA.SEVERITY, OPS.FMA.PERSISTENCE, OPS.FMA.REPLAYABILITY, OPS.FMA.SCOPE, OPS.FMA.VISIBILITY, OPS.FMA.TRIGGER_CONTEXT, OPS.FMA.EVIDENCE_AVAILABLE, OPS.FMA.EVIDENCE_CONFIDENCE, OPS.FMA.REPORT_SOURCE_TYPE, OPS.FMA.CLASSIFICATION_STATUS |
 | Schema Field(s) | failure_metadata_axis |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §4 |
@@ -1811,18 +1811,18 @@ and review before denial.
 
 ---
 
-### 11.3.3 AGMA — Architectural & Governance Metadata Axis
+### 11.3.3 `OPS.AGMA` — Architectural & Governance Metadata Axis
 
 | Field | Entry |
 |---|---|
-| Reference Set | AGMA |
+| Reference Set | `OPS.AGMA` |
 | Canonical Name | Architectural & Governance Metadata Axis |
 | Primary Type | Structural / Operational |
 | Subtype | SCHEMA |
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | AGMA.RUNTIME_LAYER, AGMA.GOVERNANCE_LAYER, AGMA.GOVERNANCE_AUTHORITY, AGMA.STRUCTURAL_ROLE, AGMA.EXECUTION_INTERFACE, AGMA.ARBITRATION_INTERFACE, AGMA.VERIFICATION_STATE, AGMA.TRUST_STATE, AGMA.DEPLOYMENT_STATE |
+| Controlled Values Defined | OPS.AGMA.RUNTIME_LAYER, OPS.AGMA.GOVERNANCE_LAYER, OPS.AGMA.GOVERNANCE_AUTHORITY, OPS.AGMA.STRUCTURAL_ROLE, OPS.AGMA.EXECUTION_INTERFACE, OPS.AGMA.ARBITRATION_INTERFACE, OPS.AGMA.VERIFICATION_STATE, OPS.AGMA.TRUST_STATE, OPS.AGMA.DEPLOYMENT_STATE |
 | Schema Field(s) | architectural_governance_metadata_axis |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §4.1 |
@@ -1834,7 +1834,7 @@ and review before denial.
 
 ---
 
-### 11.3.4 FCS — Failure Classification Status
+### 11.3.4 `OPS.FCS` — Failure Classification Status
 
 | Field | Entry |
 |---|---|
@@ -1888,6 +1888,8 @@ and review before denial.
 | 1.13 | Added taxonomy entries for minor-signal non-enforcement, dependency-forming AI companions, AI realness/sentience misrepresentation to minors, teen mental-health support substitution, and self-attestation age-gate inadequacy. | 2026-06-09T14:46:00Z | b49690de8f895ea478b05301225d74194eb58e4ceb1f4ead570f85092f554c00 |
 | 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  132eb00dea633396490a386f0660ec8d1b034e88db845c7fdfd79d9f96a674e4  |
 | 1.13.2 | Applied final bare-family namespace transmutation for failure taxonomy, temporal horizon, and Operations failure-classification-status families; updated controlled values, canonical references, consumers, crosswalks, and metadata without altering substantive doctrine. | 2026-06-13T07:06:43Z | a271e0e70524f6e40d79cc25832011e3d73d7a0ca47245c8beccd94aa3bb0cd4 |
+| 1.13.3| Updated metadata codes | 2026-06-14T00:30:00Z | |
+
 ---
 
 ## 11.6 Binding Seal
