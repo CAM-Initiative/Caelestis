@@ -435,6 +435,72 @@
     }
   },
   {
+    "canonical_id": "AEON.CW",
+    "identifier_type": "code_family",
+    "code_family": "AEON.CW",
+    "reference_set": "",
+    "canonical_constraint": "",
+    "canonical_obligation": "",
+    "canonical_name": "Civilisational Wealth State",
+    "primary_type": "Operational / Runtime Classification",
+    "subtype": "CONSTRAINT_STATE; ECONOMIC_COMMAND_STATE; CIVILISATIONAL_RISK_STATE",
+    "modifier": "AEON; STEWARDSHIP; ECONOMIC; CONSTRAINT; COMMON_RETURN",
+    "scope": "Constitutional Runtime Schedule",
+    "status": "Draft",
+    "controlled_values_defined": [
+      "AEON.CW-0`; `AEON.CW-1`; `AEON.CW-2`; `AEON.CW-3`; `AEON.CW-4`; `AEON.CW-4X"
+    ],
+    "schema_fields": "`cw_state`; `aeon_harm_class`; `economic_harm_class`; `pco_action_type`; `commons_encumbered_excess_detected`; `intermediary_constraint_required`; `common_return_settlement_status`",
+    "source_instrument": "CAM-BS2026-AEON-002-SCH-02",
+    "source_section": "\u00a74",
+    "domain_namespace": "AEON",
+    "authority_protection_level": "Source-authoritative civilisational wealth state classification family for this Draft Schedule; runtime classification and routing authority only; no independent taxation, property transfer, criminal liability, market pricing, or sovereign enforcement authority",
+    "consumes_code_families": [
+      "AEON.HARM`; `ECON.HARM`; `STW.PCO.ACT"
+    ],
+    "crosswalks_code_families": [
+      "AEON.CW` \u2192 `AEON.HARM`; `AEON.CW` \u2192 `ECON.HARM`; `AEON.CW-4` / `AEON.CW-4X` \u2192 `STW.PCO.ACT"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies civilisational wealth concentration; emits harm-relevant and economics-relevant signals; applies proportional constraint action classifications where `AEON.CW-4` or `AEON.CW-4X` activates PCO"
+    ],
+    "canonical_section_heading": "27.3 Canonical Code & Reference Set",
+    "canonical_section_line_number": 934,
+    "declaration_heading": "27.3 Canonical Code & Reference Set",
+    "declaration_line_number": 934,
+    "extraction_method": "bounded_heading_section_table",
+    "declaration_quality": "nonstandard_section_heading",
+    "missing_expected_fields": [],
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-002-SCH-02.md",
+    "family_id": "AEON.CW",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "AEON",
+      "CW"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`AEON.CW`",
+      "Canonical Name": "Civilisational Wealth State",
+      "Primary Type": "Operational / Runtime Classification",
+      "Subtype": "CONSTRAINT_STATE; ECONOMIC_COMMAND_STATE; CIVILISATIONAL_RISK_STATE",
+      "Modifier": "AEON; STEWARDSHIP; ECONOMIC; CONSTRAINT; COMMON_RETURN",
+      "Scope": "Constitutional Runtime Schedule",
+      "Status": "Draft",
+      "Controlled Values Defined": "`AEON.CW-0`; `AEON.CW-1`; `AEON.CW-2`; `AEON.CW-3`; `AEON.CW-4`; `AEON.CW-4X`",
+      "Schema Field(s)": "`cw_state`; `aeon_harm_class`; `economic_harm_class`; `pco_action_type`; `commons_encumbered_excess_detected`; `intermediary_constraint_required`; `common_return_settlement_status`",
+      "Source Instrument": "CAM-BS2026-AEON-002-SCH-02",
+      "Source Section": "\u00a74",
+      "Domain Namespace": "AEON",
+      "Authority / Protection Level": "Source-authoritative civilisational wealth state classification family for this Draft Schedule; runtime classification and routing authority only; no independent taxation, property transfer, criminal liability, market pricing, or sovereign enforcement authority",
+      "Consumes Code Families": "`AEON.HARM`; `ECON.HARM`; `STW.PCO.ACT`",
+      "Crosswalks Code Families": "`AEON.CW` \u2192 `AEON.HARM`; `AEON.CW` \u2192 `ECON.HARM`; `AEON.CW-4` / `AEON.CW-4X` \u2192 `STW.PCO.ACT`",
+      "Operationalises or Applies Code Families": "Classifies civilisational wealth concentration; emits harm-relevant and economics-relevant signals; applies proportional constraint action classifications where `AEON.CW-4` or `AEON.CW-4X` activates PCO"
+    }
+  },
+  {
     "canonical_id": "AEON.GAS",
     "identifier_type": "reference_set",
     "code_family": "",
