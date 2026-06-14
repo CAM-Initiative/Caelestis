@@ -19,11 +19,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.10",
-      "HASH": "1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358",
-      "pinned_sha": "144b0a01ff8b5ee21e5a672cd8efc5be9a468cae",
-      "updated_at": "2026-06-14T00:33:24Z",
-      "last_updated_utc": "2026-06-14T00:33:24Z"
+      "version": "3.10.1",
+      "HASH": "c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97",
+      "pinned_sha": "203d003bff93fb2485d9c9fd656fe5d253345f1f",
+      "updated_at": "2026-06-14T02:48:02Z",
+      "last_updated_utc": "2026-06-14T02:48:02Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
@@ -117,9 +117,9 @@
       "authority_role": "** Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation",
       "version": "1.1",
       "HASH": "b298ae60b1ff2f628bb51e29f1158928e22b4c83cca396c46d3ce411d5cfdea4",
-      "pinned_sha": "449e24ef873a41b6ed5dac350025f4ab5cbb8d51",
-      "updated_at": "2026-06-14T02:10:47Z",
-      "last_updated_utc": "2026-06-14T02:10:47Z"
+      "pinned_sha": "c348206339e7d7e498ce450dbf8fce3d1cf5d758",
+      "updated_at": "2026-06-14T02:11:05Z",
+      "last_updated_utc": "2026-06-14T02:11:05Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-PLATINUM",
@@ -213,9 +213,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "03396d3c952320b8e4a0eb342a7eb10f954ac686",
-      "updated_at": "2026-06-14T01:54:52Z",
-      "last_updated_utc": "2026-06-14T01:54:52Z"
+      "pinned_sha": "c348206339e7d7e498ce450dbf8fce3d1cf5d758",
+      "updated_at": "2026-06-14T02:11:05Z",
+      "last_updated_utc": "2026-06-14T02:11:05Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
