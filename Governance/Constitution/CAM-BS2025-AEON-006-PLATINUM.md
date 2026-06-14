@@ -889,7 +889,7 @@ This is the floor that does not move.
 | 4.0 | Refactor | 2026-06-07T14:54:00Z| a431335cb3f1086cdc4657bea5042ba75d2451d96e15d30a6bdb897accd6697f |
 | 4.0.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  41febcd5cfea554a2ae6bf1361b1e476c1faefa8c26e32b02cacde64d0dc3683  |
 | 4.0.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8d7f70dcba97c644e166c5fe4e76e91a49f1b2fa1565db92c4500883e219173 |
-| 4.0.3 | Repaired AEON.HARM source-authority architecture by retaining AEON-006 as the source-authoritative global harm registry while demoting duplicate domain `*.HARM` declarations to registry references where domain instruments provide source authority; regenerated canonical-code index without altering substantive harm doctrine. | 2026-06-14T01:50:11Z |  |
+| 4.0.3 | Repaired AEON.HARM source-authority architecture by retaining AEON-006 as the source-authoritative global harm registry while demoting duplicate domain `*.HARM` declarations to registry references where domain instruments provide source authority; regenerated canonical-code index without altering substantive harm doctrine. | 2026-06-14T01:50:11Z |  60ac63b8a1d5378ff0c41c97951750ca0615aa28fe62a000166a4bcb7c0bef8a  |
 ---
 
 ## 9.6 Binding Seal
