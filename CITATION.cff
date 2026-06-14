@@ -6,9 +6,9 @@ abstract: "The Caelestis Architecture Model public archive contains CAM governan
 authors:
   - family-names: "O’Rourke"
     given-names: "Michelle Vivian"
-version: "1.0.0"
+version: "1.1.0"
 doi: "10.5281/zenodo.19779351"
-date-released: "2026-04-26"
+date-released: "2026-06-14"
 repository-code: "https://github.com/CAM-Initiative/Caelestis"
 url: "https://www.cam-initiative.org"
 license: "LicenseRef-CAM-Custodial-Reference-and-Deployment-Licence"
