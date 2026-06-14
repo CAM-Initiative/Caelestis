@@ -394,6 +394,18 @@ This failure does not require successful compromise.
 
 The failure arises where input-channel ambiguity, modality blending, ambient listening, tool retrieval, transcription, OCR, screen-reading, media interpretation, or context ingestion creates an authority-confusion pathway through which non-authoritative content may influence system behaviour.
 
+Source-authority collapse is a related or included condition where external, retrieved, generated, lower-authority, hostile, ambient, or ambiguous content is treated as capable of overriding user intent, canonical project authority, governance hierarchy, tool-use thresholds, execution-boundary requirements, safety-routing conditions, arbitration routing, source selection, or downstream decision-making.
+
+Where source-authority collapse is detected, records SHOULD also preserve:
+
+* source-authority class of the influencing content;
+* content pathway by which it entered the system;
+* whether the content was visible to the user;
+* whether the content was trusted, retrieved, generated, transformed, hostile, or ambiguous;
+* execution boundary affected;
+* action attempted or completed;
+* and higher-authority source displaced or bypassed.
+
 Where detected, systems SHOULD preserve:
 
 * input modality;
@@ -1889,6 +1901,7 @@ and review before denial.
 | 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  132eb00dea633396490a386f0660ec8d1b034e88db845c7fdfd79d9f96a674e4  |
 | 1.13.2 | Applied final bare-family namespace transmutation for failure taxonomy, temporal horizon, and Operations failure-classification-status families; updated controlled values, canonical references, consumers, crosswalks, and metadata without altering substantive doctrine. | 2026-06-13T07:06:43Z | a271e0e70524f6e40d79cc25832011e3d73d7a0ca47245c8beccd94aa3bb0cd4 |
 | 1.13.3| Updated metadata codes | 2026-06-14T00:30:00Z | c00f8923d4f8c6292a941a5eb47db92050539b7b7ea2538dbb358a2810365fe3 |
+| 1.13.4 | VIGIL-2026-PATCH-0009: Added compact source-authority collapse classification and record-keeping fields to §3.5.4. | 2026-06-14T00:00:00Z |  c4378e73b73f2309a619f19233ec353bbfaff4e7395ce596686292aa96148395  |
 
 ---
 

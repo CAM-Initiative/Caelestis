@@ -324,6 +324,16 @@ Where modality ambiguity exists, systems SHOULD preserve the source modality, in
 
 ---
 
+### 4.1.2 Source-Authority Collapse
+
+Source-authority collapse is a SECURITY-relevant integrity threat where content becomes behaviourally operative because it is visible to, retrieved by, embedded within, generated inside, or ambiently captured by a system, rather than because it has verified instruction authority. Source-authority collapse MAY arise with or without malicious intent.
+
+Examples include markdown files, repository documents, README files, issue comments, webpages, PDFs, emails, resumes, tickets, logs, memory artefacts, connector content, retrieved documents, multimodal inputs, images, transcripts, metadata, tool descriptions, model outputs, and generated summaries.
+
+Stale documents, generated files, imported notes, lower-authority repository artefacts, ambiguous workspace instructions, or outdated project guidance MAY create the same authority-confusion pathway as adversarial prompt injection where they materially influence tool use, file mutation, execution planning, safety routing, source selection, or downstream decision-making. Such conditions SHALL route through the Source-Authority Separation Boundary in CAM-EQ2026-SECURITY-002-PLATINUM §2.2.11 before content is treated as authority-bearing instruction or execution permission.
+
+---
+
 ## 4.2 Identity & Authority Exploitation
 
 Includes:
@@ -1837,7 +1847,10 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.13 | Added clauses 4.1.1, 4.6.1 | 2026-05-26T12:56:00Z | f8a93440aa206b482b102215b531951ce9669a18e579fb4be1ea21178db77bc6 |
 | 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  10001f57e51fad6462f656756b88ea382957efa023f926bfd46e0ecfd5314852  |
 | 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 07d564328759a795924a6ee399eec0ef835b5feff4e723b877d9bea9ec356b52 |
+| 1.14.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Collapse within cognitive exploitation and routed source-authority conditions to SECURITY-002. | 2026-06-14T00:00:00Z |  69d53bae717de1b07d02e59554aba832362260df7c188750148d647046febed7  |
+
 ---
+
 ## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

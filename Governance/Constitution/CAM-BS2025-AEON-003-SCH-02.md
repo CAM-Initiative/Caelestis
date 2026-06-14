@@ -815,6 +815,29 @@ Failure to distinguish weak-trigger salience from proportionate contextual retri
 
 ---
 
+### 7.4.2 External Instruction Influence Check
+
+Where a proposed plan, output, tool invocation, file mutation, repository change, deployment, publication, memory update, external communication, scheduled action, credential operation, or irreversible action is materially influenced by external, retrieved, generated, lower-authority, or ambiguous content, the runtime MUST perform an execution-boundary check before crossing the relevant execution boundary.
+
+The check MUST determine whether the influencing content is:
+
+* user-authorised for the active task;
+* source-authoritative for the project or workflow;
+* merely evidentiary or contextual;
+* stale, generated, inferred, summarised, or transformed;
+* lower-authority than canonical project documentation;
+* untrusted third-party content;
+* hostile or adversarial artefact content;
+* or ambiguous in authority status.
+
+Where the content is not source-authoritative, the runtime MAY continue in non-executing form, including analysis, quotation, summary, warning, proposed patch, clarification, provenance comparison, or sandboxed review.
+
+The runtime MUST NOT cross a high-impact execution boundary on the basis of external instruction influence unless the applicable authority bridge has been established.
+
+> External content may inform the work. It may not seize the work.
+
+---
+
 ## 8. Directional Modulation
 
 Continuous influence shaping prior to resolution.
@@ -3961,6 +3984,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | d27229650f7e1b88ef40b8b460023125ae1c21866839a00847275d55775c0e31 |
 | 3.2 | Added Synthetic Speaker Arbitration Resolution, participation-mode and session-role resolution, facilitator-selection controls, coordinated and uncoordinated floor-state handling, temporary speaker leases, lease expiry and handoff, participation-balance safeguards, coordinated, federated, and uncoordinated collision resolution, Courtesy Repair Lease handling, human-floor sovereignty, speaker-lease enforcement, and cross-instance execution-integrity requirements in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:30:00Z | 5b9d7838b35808ae8a1f14711dedee7f113ba6eda38a72a7df9c1a5c9de2a358 |
 | 3.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 409882b048356e74e87232ca3c11f277f2a84a98600a18e01b09f9c06b54b78a |
+| 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z |  05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0  |
 
 ---
 
